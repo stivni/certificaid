@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Toelichting aangifte Vennootschapsbelasting — AJ 2025
@@ -1441,7 +1445,7 @@ verricht naar Staten die in art. 307, § 1/2, eerste lid, WIB 92, zijn bedoeld, 
 het voormelde art. 307, § 1/2, eerste lid, WIB 92, of, als ze toch aangegeven zijn, waarvoor de belastingplichtige niet
 door alle rechtsmiddelen bewijst dat zij in het kader van werkelijke en oprechte verrichtingen en die met personen
 andere dan artificiële constructies zijn verricht (art. 198, § 1, 10°, WIB 92).
-Art. 307, § 1/2, WIB 92, bepaalt dat de vennootschap gehouden is aangifte te doen van alle betalingen die zij rechtstreeks of onrechtstreeks heeft gedaan aan:
+## Art. 307, § 1/2, WIB 92, bepaalt dat de vennootschap gehouden is aangifte te doen van alle betalingen die zij rechtstreeks of onrechtstreeks heeft gedaan aan:
 -
 
 personen of vaste inrichtingen gevestigd of gelegen in een Staat;
@@ -1831,7 +1835,7 @@ Aldus kunnen die aftrekken enkel, naargelang van het geval, worden verricht op d
 de ‘Niet bij verdrag vrijgestelde resterende winst’. Elke aftrek wordt uitgevoerd volgens een welbepaalde volgorde en is
 beperkt tot de overblijvende resterende winst (na toepassing van de eventuele voorafgaande aftrekken) (art. 206/5 en
 207, WIB 92).
-Art. 207, WIB 92, voorziet ook in een aftrekbeperking, de zogenaamde ‘fiscale korf’, wat betreft de overdrachten van de
+## Art. 207, WIB 92, voorziet ook in een aftrekbeperking, de zogenaamde ‘fiscale korf’, wat betreft de overdrachten van de
 aftrekken die niet konden worden toegekend wegens onvoldoende winst, met uitzondering van de overdracht van de
 investeringsaftrek.
 

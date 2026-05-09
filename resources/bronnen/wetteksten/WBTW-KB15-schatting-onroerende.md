@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 15 van 3 juni 1970, tot regeling van de schattings- procedure waarin artikel 59, § 2, van het Wetboek van de belasting over de toegevoegde waarde voorziet
@@ -44,13 +48,13 @@ Laatst gewijzigd met ingang van 01.04.2019 (KB 17.03.2019, B.S. 08.04.2019, pg. 
     (Het opschrift van hoofdstuk 1, van KB nr. 15, werd gewijzigd met ingang van
     16.05.2014. (Art. 16, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
-##### Afdeling 1
+### Afdeling 1
     Vervreemdingen van goederen bedoeld
     in artikel 1, § 9, van het Wetboek.
     (Het opschrift van afdeling 1 van hoofdstuk 1, van KB nr. 15, werd vervangen met
     ingang van 01.01.2011. (Art. 12, KB 19.12.2010, B.S. 24.12.2010))
 
-## Art. 1
+#### Art. 1
     (De tekst van KB nr. 15, artikel 1, werd vervangen met ingang van 01.01.2011. (Art.
     13, KB 19.12.2010, B.S. 24.12.2010))
 
@@ -60,7 +64,7 @@ Wetboek in het door artikel 36, § 1, a), van dit Wetboek bedoelde geval, wordt 
 waarvan kennis wordt gegeven door de ontvanger der registratie in wiens ambtsgebied de voornoemde
 goederen zijn gelegen aan de verkrijger van de bedoelde goederen, hierna « tegenpartij » genoemd.
 
-## Art. 2
+#### Art. 2
     (De tekst van KB nr. 15, artikel 2, § 1, eerste lid, werd vervangen met ingang van
     01.01.2011. (Art. 14, KB 19.12.2010, B.S. 24.12.2010))
 
@@ -73,7 +77,7 @@ na de dag waarop het kadastrale inkomen werd betekend.
 § 2. De schatting kan niet meer door de ontvanger worden gevorderd wanneer reeds een vordering tot
 schatting werd ingeleid overeenkomstig artikel 19 van dit besluit.
 
-## Art. 3
+#### Art. 3
     (De tekst van KB nr. 15, artikel 3, werd vervangen met ingang van 01.01.2011. (Art.
     15, KB 19.12.2010, B.S. 24.12.2010))
 
@@ -91,7 +95,7 @@ respectievelijk het gebouw of een gedeelte van het gebouw en van het bijhorende 
 grond dan het bijhorende terrein, zoals geschat overeenkomstig de artikelen 30 en 36, § 1, a), van het
 Wetboek.
 
-## Art. 4
+#### Art. 4
     (De tekst van KB nr. 15, artikel 4 is van toepassing met ingang van 01.01.1971
     (Art.98, KB 03.07.1969))
 
@@ -102,7 +106,7 @@ de gekozen deskundige(n) zijn vermeld.
     Het proces-verbaal wordt gedagtekend en door de ontvanger en de tegenpartij ondertekend ; indien
 deze laatste niet mag of niet kan ondertekenen, dient zulks in het proces-verbaal te worden vermeld.
 
-## Art. 5
+#### Art. 5
     (De tekst van KB nr. 15, artikel 5 is van toepassing met ingang van 01.01.1971
     (Art.98, KB 03.07.1969))
 
@@ -114,7 +118,7 @@ bevoegde vrederechter die van de plaats waar zich de grootste bebouwde oppervlak
     De rechter beslist binnen vijftien dagen na het verzoekschrift ; hij beveelt de schatting en benoemt,
 naar vereis van omstandigheden, een of drie deskundigen.
 
-## Art. 6
+#### Art. 6
     (De tekst van KB nr. 15, artikel 6, 1°, werd gewijzigd met ingang van 16.05.2014.
     (Art. 17, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
@@ -126,7 +130,7 @@ naar vereis van omstandigheden, een of drie deskundigen.
     inbegrip van de architecten en aannemers;
     4° de bedienden van de in 1° tot 3° bedoelde personen.
 
-## Art. 7
+#### Art. 7
     (De tekst van KB nr. 15, artikel 7 is van toepassing met ingang van 01.01.1971
     (Art.98, KB 03.07.1969))
 
@@ -144,7 +148,7 @@ vervangt hij de gewraakte deskundigen.
 
 Deskundige schatting www.fisconetplus.be pg. 2
 
-## Art. 8
+#### Art. 8
     (De tekst van KB nr. 15, artikel 8 is van toepassing met ingang van 01.01.1971
     (Art.98, KB 03.07.1969))
 
@@ -155,7 +159,7 @@ de partijen in hun beweringen en opmerkingen zullen horen.
     Van ieder stuk dat door een van de partijen aan de deskundigen wordt medegedeeld moet meteen
 door haar aan de andere partij, bij ter post aangetekend schrijven, een afschrift worden gezonden.
 
-## Art. 9
+#### Art. 9
     (De tekst van KB nr. 15, artikel 9, werd gewijzigd met ingang van 01.01.2011. (Art.
     17, KB 19.12.2010, B.S. 24.12.2010))
 
@@ -177,7 +181,7 @@ wijze en met bewijsgronden tot staving, zonder enige beperking noch voorbehoud.
     De minuut van het verslag wordt neergelegd ter griffie van het in artikel 5 aangewezen
 vredegerecht.
 
-## Art. 10
+#### Art. 10
     (De tekst van KB nr. 15, artikel 10 is van toepassing met ingang van 01.01.1971
     (Art.98, KB 03.07.1969))
 
@@ -186,7 +190,7 @@ vredegerecht.
 waardering van de meerderheid of, indien er geen meerderheid is, de tussenliggende waardering, bepaalt
 de waarde voor de heffing van de belasting.
 
-## Art. 11
+#### Art. 11
     (De tekst van KB nr. 15, artikel 11 is van toepassing met ingang van 01.01.1971
     (Art.98, KB 03.07.1969))
 
@@ -194,7 +198,7 @@ de waarde voor de heffing van de belasting.
 gedaan bij ter post aangetekend schrijven. De afgifte van het stuk ter post geldt als kennisgeving vanaf de
 daaropvolgende dag.
 
-## Art. 12
+#### Art. 12
     (De tekst van KB nr. 15, artikel 12 is van toepassing met ingang van 21.01.2008
     (Art.4, KB 20.12.2007) B.S. 11.01.2008))
 
@@ -204,7 +208,7 @@ rechtsvordering. Deze rechtsvordering dient ingeleid te worden, op straffe van v
 
 Deskundige schatting www.fisconetplus.be pg. 3
 
-## Art. 13
+#### Art. 13
     (De tekst van KB nr. 15, artikel 13, tweede lid, werd gewijzigd met ingang van
     01.04.2019 (Art. 8, KB 17.03.2019, B.S. 08.04.2019, pg. 35699). Dit besluit (KB
     17.03.2019) is niet van toepassing op het dwangbevel dat werd kennisgegeven of
@@ -219,10 +223,10 @@ over een maatstaf die het bij de schatting uitgewezen tekort bereikt of overtref
     De invordering geschiedt op basis van een innings- en invorderingsregister op de wijze bepaald bij
 artikel 85 van het Wetboek.
 
-##### Afdeling 2
+### Afdeling 2
     Werk in onroerende staat.
 
-## Art. 14
+#### Art. 14
     (De tekst van KB nr. 15, artikel 14, werd vervangen met ingang van 01.01.2011. (Art.
     18, KB 19.12.2010, B.S. 24.12.2010))
 
@@ -240,7 +244,7 @@ artikel 1, § 9, 1°, van het Wetboek dat met betaling van de belasting werd ver
 van paragraaf 1, de vordering tot schatting met betrekking tot die diensten ingeleid door de in artikel 1
 genoemde ambtenaar samen met de vordering tot schatting die het onvoltooide goed betreft.
 
-## Art. 15
+#### Art. 15
     (De tekst van KB nr. 15, artikel 15 is van toepassing met ingang van 01.01.1971
     (Art.98, KB 03.07.1969))
 
@@ -249,7 +253,7 @@ betekening van het kadastrale inkomen van het gebouw waarop de te schatten diens
     De schatting kan niet meer door het hoofd van het controlekantoor worden gevorderd wanneer reeds
 een vordering tot schatting werd ingeleid overeenkomstig artikel 19 van dit besluit.
 
-## Art. 16
+#### Art. 16
     (De tekst van KB nr. 15, artikel 16 is van toepassing met ingang van 01.01.1971
     (Art.98, KB 03.07.1969))
 
@@ -261,7 +265,7 @@ betrekking hebben geheel of gedeeltelijk in gebruik genomen werd.
 
 Deskundige schatting www.fisconetplus.be pg. 4
 
-## Art. 17
+#### Art. 17
     (De tekst van KB nr. 15, artikel 17 is van toepassing met ingang van 01.01.1971
     (Art.98, KB 03.07.1969))
 
@@ -272,13 +276,13 @@ tijdstip.
 in deze afdeling geregelde vordering tot schatting met dien verstande dat in die artikelen de woorden “ de
 ontvanger “ worden vervangen door “ het hoofd van het BTW-controlekantoor “.
 
-#### HOOFDSTUK II
+## HOOFDSTUK II
     TEGEN DE ADMINISTRATIE BELAST MET DE BELASTING OVER DE
     TOEGEVOEGDE WAARDE INGESTELDE VORDERING TOT SCHATTING.
     (Het opschrift van hoofdstuk 2, van KB nr. 15, werd gewijzigd met ingang van
     16.05.2014. (Art. 16, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
-## Art. 18
+#### Art. 18
     (De tekst van KB nr. 15, artikel 18, eerste lid, werd gewijzigd met ingang van
     01.04.2019 (Art. 9, KB 17.03.2019, B.S. 08.04.2019, pg. 35699). Dit besluit (KB
     17.03.2019) is niet van toepassing op het dwangbevel dat werd kennisgegeven of
@@ -293,14 +297,14 @@ van het Wetboek.
     De schatting kan niet meer worden gevorderd wanneer de administratie reeds de vordering tot
 schatting heeft ingeleid.
 
-## Art. 19
+#### Art. 19
     (De tekst van KB nr. 15, artikel 19 is van toepassing met ingang van 01.01.1971
     (Art.98, KB 03.07.1969))
 
     De in artikel 18 bedoelde deskundige schatting wordt ingeleid door een vordering waarvan kennis
 wordt gegeven aan de ambtenaar aangewezen in de artikelen 1 of 14, naar gelang van het geval.
 
-## Art. 20
+#### Art. 20
     (De tekst van KB nr. 15, artikel 20, werd gewijzigd met ingang van 01.01.2011. (Art.
     20, KB 19.12.2010, B.S. 24.12.2010))
 
@@ -308,7 +312,7 @@ wordt gegeven aan de ambtenaar aangewezen in de artikelen 1 of 14, naar gelang v
 het tijdstip waarop de deskundigen zich overeenkomstig de artikelen 3 en 16 moeten plaatsen om de
 schatting te doen.
 
-## Art. 21
+#### Art. 21
     (De tekst van KB nr. 15, artikel 21 is van toepassing met ingang van 01.01.1971
     (Art.98, KB 03.07.1969))
 
@@ -317,14 +321,14 @@ schatting.
 
 Deskundige schatting www.fisconetplus.be pg. 5
 
-## Art. 22
+#### Art. 22
     (De tekst van KB nr. 15, artikel 22 is van toepassing met ingang van 01.01.1971
     (Art.98, KB 03.07.1969))
 
     Dit besluit treedt in werking op dezelfde datum als de wet van 3 juli 1969 tot invoering van het
 Wetboek van de belasting over de toegevoegde waarde.
 
-## Art. 23
+#### Art. 23
     (De tekst van KB nr. 15, artikel 23 is van toepassing met ingang van 01.01.1971
     (Art.98, KB 03.07.1969))
 

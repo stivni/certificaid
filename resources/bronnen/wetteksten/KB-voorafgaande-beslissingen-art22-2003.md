@@ -6,6 +6,10 @@ status: "beschikbaar"
 bijgewerkt: "17.01.2003"
 bron: "ejustice.just.fgov.be (B.S. 31 januari 2003, editie 3)"
 raw-bron: "resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p1.pdf"
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. 17 januari 2003 — Uitvoering artikel 22 (voorafgaande beslissingen)

@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Registratierechten — Waals Gewest
@@ -42,171 +46,171 @@ Wetgeving van toepassing in het WAALS GEWEST
 
 (KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie- hypotheek- en griffierechten (B.S. 01.12.1939) err. (B.S., 03.12.1939 en B.S. 13.12.1939). Dit KB werd bekrachtigd door art. 2 van de wet van 16 jun. 1947 (B.S. 14.08.1947) err. (B.S., 26.10.1947))
 
-### TITEL I - REGISTRATIERECHT................................................................................................................................................ 6
+## TITEL I - REGISTRATIERECHT................................................................................................................................................ 6
 
-#### HOOFDSTUK I - Formaliteit der registratie en vestiging van de belasting ....................................................................................6
+### HOOFDSTUK I - Formaliteit der registratie en vestiging van de belasting ....................................................................................6
 
-#### HOOFDSTUK II - Indeling van de rechten en algemene heffingsregels .......................................................................................11
+### HOOFDSTUK II - Indeling van de rechten en algemene heffingsregels .......................................................................................11
 
-#### HOOFDSTUK III - Registratieverplichting ..................................................................................................................................................13
+### HOOFDSTUK III - Registratieverplichting ..................................................................................................................................................13
 
 Eerste afdeling - Akten en verklaringen aan de formaliteit onderworpen ..........................................................................14
 
-##### Afdeling II - Termijnen voor de aanbieding ter registratie ..........................................................................................................19
+#### Afdeling II - Termijnen voor de aanbieding ter registratie ..........................................................................................................19
 
-##### Afdeling III - Personen verplicht tot aanbieding ter registratie.................................................................................................22
+#### Afdeling III - Personen verplicht tot aanbieding ter registratie.................................................................................................22
 
-##### Afdeling IV - Plaats der registratie ........................................................................................................................................................24
+#### Afdeling IV - Plaats der registratie ........................................................................................................................................................24
 
-##### Afdeling V - Sanctiën ...................................................................................................................................................................................26
+#### Afdeling V - Sanctiën ...................................................................................................................................................................................26
 
-#### HOOFDSTUK IV - Vaststelling van de rechten ........................................................................................................................................27
+### HOOFDSTUK IV - Vaststelling van de rechten ........................................................................................................................................27
 
-##### Afdeling I - Overdrachten onder bezwarende titel van onroerende goederen ..................................................................27
+#### Afdeling I - Overdrachten onder bezwarende titel van onroerende goederen ..................................................................27
 
-##### Afdeling II - Openbare verkopingen van lichamelijke roerende goederen ...........................................................................48
+#### Afdeling II - Openbare verkopingen van lichamelijke roerende goederen ...........................................................................48
 
-##### Afdeling III - (…) ..............................................................................................................................................................................................50
+#### Afdeling III - (…) ..............................................................................................................................................................................................50
 
-##### Afdeling IV - Huurcontracten...................................................................................................................................................................50
+#### Afdeling IV - Huurcontracten...................................................................................................................................................................50
 
-##### Afdeling V - (…)...............................................................................................................................................................................................52
+#### Afdeling V - (…)...............................................................................................................................................................................................52
 
-##### Afdeling VI - Hypotheekvestigingen.....................................................................................................................................................52
+#### Afdeling VI - Hypotheekvestigingen.....................................................................................................................................................52
 
-##### Afdeling VII - (…) ............................................................................................................................................................................................55
+#### Afdeling VII - (…) ............................................................................................................................................................................................55
 
-##### Afdeling VIII - (…) ...........................................................................................................................................................................................56
+#### Afdeling VIII - (…) ...........................................................................................................................................................................................56
 
-##### Afdeling IX - Opheffingen ..........................................................................................................................................................................57
+#### Afdeling IX - Opheffingen ..........................................................................................................................................................................57
 
-##### Afdeling X - Verdelingen ............................................................................................................................................................................58
+#### Afdeling X - Verdelingen ............................................................................................................................................................................58
 
-##### Afdeling XI - Vennootschappen ..............................................................................................................................................................60
+#### Afdeling XI - Vennootschappen ..............................................................................................................................................................60
 
-##### Afdeling XII - Schenkingen ........................................................................................................................................................................72
+#### Afdeling XII - Schenkingen ........................................................................................................................................................................72
 
-##### Afdeling XIII - Specifieke bepalingen voor schenkingen, verricht onmiddellijk na een successie ..............................92
+#### Afdeling XIII - Specifieke bepalingen voor schenkingen, verricht onmiddellijk na een successie ..............................92
 
-##### Afdeling XIV- Vonnissen en arresten ...................................................................................................................................................93
+#### Afdeling XIV- Vonnissen en arresten ...................................................................................................................................................93
 
-##### Afdeling XV - (…) ............................................................................................................................................................................................96
+#### Afdeling XV - (…) ............................................................................................................................................................................................96
 
-##### Afdeling XVI - (…)...........................................................................................................................................................................................97
+#### Afdeling XVI - (…)...........................................................................................................................................................................................97
 
-##### Afdeling XVII - (…) .........................................................................................................................................................................................97
+#### Afdeling XVII - (…) .........................................................................................................................................................................................97
 
-##### Afdeling XVIII - (…) ........................................................................................................................................................................................97
+#### Afdeling XVIII - (…) ........................................................................................................................................................................................97
 
-##### Afdeling XIX - Protesten ............................................................................................................................................................................98
+#### Afdeling XIX - Protesten ............................................................................................................................................................................98
 
-##### Afdeling XIXbis - Aangehechte akten en geschriften ....................................................................................................................98
+#### Afdeling XIXbis - Aangehechte akten en geschriften ....................................................................................................................98
 
-##### Afdeling XX - Akten vrijgesteld van het evenredig recht en onderhevig aan het algemeen vast recht ............... 104
+#### Afdeling XX - Akten vrijgesteld van het evenredig recht en onderhevig aan het algemeen vast recht ............... 104
 
-##### Afdeling XXI - Akten vrijgesteld van het evenredig recht en onderhevig aan een bijzonder vast recht van 10
+#### Afdeling XXI - Akten vrijgesteld van het evenredig recht en onderhevig aan een bijzonder vast recht van 10
 
 euro.................................................................................................................................................................................................................. 110
 
-#### HOOFDSTUK V - Registratie in debet ...................................................................................................................................................... 111
+### HOOFDSTUK V - Registratie in debet ...................................................................................................................................................... 111
 
 I
 
-#### HOOFDSTUK VI - Kosteloze registratie ................................................................................................................................................... 112
+### HOOFDSTUK VI - Kosteloze registratie ................................................................................................................................................... 112
 
-#### HOOFDSTUK VII - Vrijstelling van de formaliteit der registratie................................................................................................... 115
+### HOOFDSTUK VII - Vrijstelling van de formaliteit der registratie................................................................................................... 115
 
-#### HOOFDSTUK VIII - Diverse bepalingen betreffende de vereffening van de rechten en de betaling van het
+### HOOFDSTUK VIII - Diverse bepalingen betreffende de vereffening van de rechten en de betaling van het
 
 verschuldigde bedrag ...................................................................................................................................................................................... 121
 
-#### HOOFDSTUK IX - Verplichtingen met het oog op het verzekeren van het heffen van de rechten................................ 123
+### HOOFDSTUK IX - Verplichtingen met het oog op het verzekeren van het heffen van de rechten................................ 123
 
-##### Afdeling I - Vermeldingen op te nemen in bepaalde akten ..................................................................................................... 123
+#### Afdeling I - Vermeldingen op te nemen in bepaalde akten ..................................................................................................... 123
 
-##### Afdeling II - Voorschriften betreffende het uitreiken van uitgiften...................................................................................... 124
+#### Afdeling II - Voorschriften betreffende het uitreiken van uitgiften...................................................................................... 124
 
-##### Afdeling III - Repertorium van de akten ........................................................................................................................................... 126
+#### Afdeling III - Repertorium van de akten ........................................................................................................................................... 126
 
-##### Afdeling IV - Verplichting van inzageverlening ............................................................................................................................. 129
+#### Afdeling IV - Verplichting van inzageverlening ............................................................................................................................. 129
 
-##### Afdeling V - Verplichtingen opgelegd aan openbare ambtenaren ter verzekering van de invordering der
+#### Afdeling V - Verplichtingen opgelegd aan openbare ambtenaren ter verzekering van de invordering der
 
 registratierechten ...................................................................................................................................................................................... 132
 
-#### HOOFDSTUK X - Bewijsmiddelen .............................................................................................................................................................. 133
+### HOOFDSTUK X - Bewijsmiddelen .............................................................................................................................................................. 133
 
-##### Afdeling I - Algemene bepalingen ...................................................................................................................................................... 133
+#### Afdeling I - Algemene bepalingen ...................................................................................................................................................... 133
 
-##### Afdeling II - Controleschatting ............................................................................................................................................................. 134
+#### Afdeling II - Controleschatting ............................................................................................................................................................. 134
 
-#### HOOFDSTUK XI - Tekort in de waardering, bewimpeling en veinzing. Sanctiën ................................................................... 139
+### HOOFDSTUK XI - Tekort in de waardering, bewimpeling en veinzing. Sanctiën ................................................................... 139
 
-#### HOOFDSTUK XII - Correctionele straffen ............................................................................................................................................... 141
+### HOOFDSTUK XII - Correctionele straffen ............................................................................................................................................... 141
 
-#### HOOFDSTUK XIII - Teruggaaf ...................................................................................................................................................................... 146
+### HOOFDSTUK XIII - Teruggaaf ...................................................................................................................................................................... 146
 
-#### HOOFDSTUK XIV - Verjaring ........................................................................................................................................................................ 151
+### HOOFDSTUK XIV - Verjaring ........................................................................................................................................................................ 151
 
-#### HOOFDSTUK XV - Vervolgingen en gedingen ...................................................................................................................................... 155
+### HOOFDSTUK XV - Vervolgingen en gedingen ...................................................................................................................................... 155
 
-#### HOOFDSTUK XVI - Bijzondere bepalingen betreffende de openbare verkopingen van roerende goederen............ 158
+### HOOFDSTUK XVI - Bijzondere bepalingen betreffende de openbare verkopingen van roerende goederen............ 158
 
-#### HOOFDSTUK XVII - Inlichtingen te verstrekken door de Algemene Administratie van de
+### HOOFDSTUK XVII - Inlichtingen te verstrekken door de Algemene Administratie van de
 
 Patrimoniumdocumentatie .......................................................................................................................................................................... 161
 
-#### HOOFDSTUK XVIII - Speciaal recht op de nationaliteit, de adelbrieven en de verzoeken tot verandering van naam
+### HOOFDSTUK XVIII - Speciaal recht op de nationaliteit, de adelbrieven en de verzoeken tot verandering van naam
 
 ................................................................................................................................................................................................................................... 163
 
-##### Afdeling I - Nationaliteit .......................................................................................................................................................................... 163
+#### Afdeling I - Nationaliteit .......................................................................................................................................................................... 163
 
-##### Afdeling II - Open brieven van adeldom en verzoeken tot verandering van naam ....................................................... 166
+#### Afdeling II - Open brieven van adeldom en verzoeken tot verandering van naam ....................................................... 166
 
-##### Afdeling III - Bepaling gemeen aan afdelingen I en II ................................................................................................................. 168
+#### Afdeling III - Bepaling gemeen aan afdelingen I en II ................................................................................................................. 168
 
-#### HOOFDSTUK XIX - Speciale geldboete wegens late neerlegging van aan bekendmaking onderworpen akten van
+### HOOFDSTUK XIX - Speciale geldboete wegens late neerlegging van aan bekendmaking onderworpen akten van
 
 vennootschap ..................................................................................................................................................................................................... 168
 
-### TITEL II – HYPOTHEEKRECHT .......................................................................................................................................... 169
+## TITEL II – HYPOTHEEKRECHT .......................................................................................................................................... 169
 
-### TITEL III - GRIFFIERECHT .................................................................................................................................................. 172
+## TITEL III - GRIFFIERECHT .................................................................................................................................................. 172
 
-#### HOOFDSTUK I - VESTIGING VAN DE BELASTING EN VASTSTELLING VAN DE RECHTEN ............................................... 172
+### HOOFDSTUK I - VESTIGING VAN DE BELASTING EN VASTSTELLING VAN DE RECHTEN ............................................... 172
 
-##### Afdeling I - Rolrecht .................................................................................................................................................................................. 172
+#### Afdeling I - Rolrecht .................................................................................................................................................................................. 172
 
-##### Afdeling Ibis - Opstelrecht ...................................................................................................................................................................... 174
+#### Afdeling Ibis - Opstelrecht ...................................................................................................................................................................... 174
 
-##### Afdeling II - Expeditierecht .................................................................................................................................................................... 175
+#### Afdeling II - Expeditierecht .................................................................................................................................................................... 175
 
-##### Afdeling III - Legalisatie- en opzoekingsrechten .......................................................................................................................... 177
+#### Afdeling III - Legalisatie- en opzoekingsrechten .......................................................................................................................... 177
 
-##### Afdeling IV - Recht van inschrijving in het handelsregister ..................................................................................................... 178
+#### Afdeling IV - Recht van inschrijving in het handelsregister ..................................................................................................... 178
 
-#### HOOFDSTUK II - Vrijstellingen..................................................................................................................................................................... 178
+### HOOFDSTUK II - Vrijstellingen..................................................................................................................................................................... 178
 
-#### HOOFDSTUK III - Diverse bepalingen....................................................................................................................................................... 181
+### HOOFDSTUK III - Diverse bepalingen....................................................................................................................................................... 181
 
-### TITEL IV - DIGITALISATIE VAN DE RELATIES TUSSEN DE FEDERALE OVERHEIDSDIENST FINANCIËN, DE
+## TITEL IV - DIGITALISATIE VAN DE RELATIES TUSSEN DE FEDERALE OVERHEIDSDIENST FINANCIËN, DE
 
 BURGERS EN BEPAALDE DERDEN ................................................................................................................................. 183 GEMEENSCHAPPELIJKE BEPALINGEN VOOR ALLE BELASTINGEN........................................................................... 188 INTREKKINGSBEPALING ............................................................................................................................................................................... 242 TIJDELIJKE BEPALINGEN................................................................................................................................................................................ 242
 
-##### Afdeling I - Maatregelen waarbij de oprichting van nieuwe gebouwen begunstigd wordt door een
+#### Afdeling I - Maatregelen waarbij de oprichting van nieuwe gebouwen begunstigd wordt door een
 
 vermindering der registratierechten ................................................................................................................................................. 243
 
 II
 
-##### Afdeling II - Diverse bepalingen........................................................................................................................................................... 244
+#### Afdeling II - Diverse bepalingen........................................................................................................................................................... 244
 
 OVERGANGSBEPALINGEN ........................................................................................................................................................................... 248
 
-##### Afdeling I - Algemene maatregelen ................................................................................................................................................... 248
+#### Afdeling I - Algemene maatregelen ................................................................................................................................................... 248
 
-##### Afdeling II - Bijzondere maatregelen................................................................................................................................................. 250
+#### Afdeling II - Bijzondere maatregelen................................................................................................................................................. 250
 
 BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN .............................................................. 251 INWERKINGTREDING...................................................................................................................................................................................... 251
 
@@ -218,11 +222,11 @@ Wetgeving van toepassing in het Waals Gewest
 
 (KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie- hypotheek- en griffierechten (B.S. 01.12.1939) err. (B.S., 03.12.1939 en B.S. 13.12.1939). Dit KB werd bekrachtigd door art. 2 van de wet van 16.06.1947 (B.S. 14.08.1947) err. (B.S., 26.10.1947))
 
-### TITEL I - REGISTRATIERECHT
+## TITEL I - REGISTRATIERECHT
 
-#### HOOFDSTUK I - Formaliteit der registratie en vestiging van de belasting
+### HOOFDSTUK I - Formaliteit der registratie en vestiging van de belasting
 
-## Art. 1
+###### Art. 1
 
 (van toepassing vanaf 30.07.2018)
 
@@ -232,7 +236,7 @@ Registratie is een formaliteit bestaande in het afschrijven, ontleden of vermeld
 
 Deze formaliteit geeft aanleiding tot heffing van een belasting genaamd registratierecht.
 
-## Art. 2
+###### Art. 2
 
 (van toepassing vanaf 17.08.2020)
 
@@ -252,7 +256,7 @@ Onverminderd het derde en het vierde lid, worden de vonnissen en arresten geregi
 
 Onverminderd het derde en het vierde lid, worden de onderhandse akten geregistreerd op een origineel of op een kopie, met uitzondering van de akten bedoeld in artikel 19, eerste lid, 3° die op een kopie worden geregistreerd.
 
-## Art. 2bis
+###### Art. 2bis
 
 (van toepassing vanaf 10.01.2014)
 
@@ -262,7 +266,7 @@ De registratie van de notariële akten vereist de vermelding van het identificat
 
 Deze vermelding geschiedt in de akte of, ten laatste bij de aanbieding ervan ter registratie, in een aanvullende verklaring onderaan de akte, getekend door de betrokken partij of door de instrumenterende notaris, in haar naam.
 
-## Art. 2ter
+###### Art. 2ter
 
 (van toepassing vanaf 01.04.2014 en 01.06.2014)
 
@@ -272,7 +276,7 @@ De vermeldingsplicht bedoeld in artikel 2bis, eerste lid, geldt ook voor de regi
 
 Indien aan een partij bij een dergelijke akte nog geen ondernemingsnummer is toegekend, bevestigt die partij dit in de akte of in een ondertekende aanvullende verklaring onderaan de akte.
 
-## Art. 2quater
+###### Art. 2quater
 
 (van toepassing vanaf 09.06.2024)
 
@@ -288,7 +292,7 @@ In geval de uitvoering van de formaliteit van de registratie wordt geweigerd weg
 
 Dit artikel is niet van toepassing in het geval bepaald in artikel 25.
 
-## Art. 3
+###### Art. 3
 
 (van toepassing vanaf 30.07.2018)
 
@@ -296,13 +300,13 @@ Dit artikel is niet van toepassing in het geval bepaald in artikel 25.
 
 Wordt een in een andere taal dan de landstalen gestelde akte of geschrift ter registratie aangeboden, zo kan het bevoegde kantoor van de Algemene Administratie van de Patrimoniumdocumentatie eisen dat, op de kosten van de persoon die de formaliteit vordert, een door een beëdigde vertaler voor echt verklaarde vertaling daaraan worde toegevoegd.
 
-## Art. 4
+###### Art. 4
 
 (van toepassing vanaf 01.02.1940)
 
 De registratie is ondeelbaar: zij wordt toegepast op de gehele akte of het geheel geschrift welke tot de formaliteit wordt aangeboden.
 
-## Art. 5
+###### Art. 5
 
 (van toepassing vanaf 29.06.2020)
 
@@ -310,7 +314,7 @@ De registratie is ondeelbaar: zij wordt toegepast op de gehele akte of het gehee
 
 (…)
 
-## Art. 5bis
+###### Art. 5bis
 
 (van toepassing vanaf 07.02.2022))
 
@@ -322,7 +326,7 @@ Bij gelijktijdige aanbieding tot de formaliteiten, wordt de registratie van de a
 
 Het eerste en tweede lid zijn niet van toepassing op een akte die enkel de niet-vatbaarheid voor beslag vaststelt van de woning van een zelfstandige bedoeld in de wet van 25 april 2007 houdende diverse bepalingen (IV).
 
-## Art. 6
+###### Art. 6
 
 (van toepassing vanaf 30.07.2018)
 
@@ -334,7 +338,7 @@ Een buiten de openingsuren van de kantoren aangeboden akte of geschrift, wordt g
 
 Het kantoor mag ze niet langer houden dan nodig is.
 
-## Art. 7
+###### Art. 7
 
 (van toepassing vanaf 30.07.2018)
 
@@ -344,7 +348,7 @@ Zo een akte of geschrift, waarvan er geen minuut bestaat, inlichtingen vervat di
 
 waarmerken door de werkende openbare officier of, zo het gaat om een onderhandse of buitenlands verleden akte, door de betrokken persoon die de formaliteit heeft gevorderd. Bij weigering, waarmerkt het bevoegde kantoor zelf de eensluidendheid van het afschrift, met vermelding van die weigering. Het aldus gewaarmerkt afschrift wordt, behoudens bewijs van het tegendeel, als eensluidend aangezien.
 
-## Art. 8
+###### Art. 8
 
 (van toepassing vanaf 29.06.2020)
 
@@ -356,7 +360,7 @@ Voor akten en geschriften als bedoeld in artikel 2quater, wordt de vermelding va
 
 Indien er toepassing gemaakt wordt van de vrijstelling voorzien in artikel 8bis, wordt de vermelding van de registratie vervangen door de vermelding van de betaling die verricht moet worden volgens de modaliteiten voorzien in uitvoering van dit artikel. Deze vermelding geschiedt naar een door de Minister van Financiën vastgestelde tekst.
 
-## Art. 8bis
+###### Art. 8bis
 
 (van toepassing vanaf 01.01.1990)
 
@@ -364,7 +368,7 @@ Indien er toepassing gemaakt wordt van de vrijstelling voorzien in artikel 8bis,
 
 De Koning kan bepaalde categorieën van de in de artikelen 19, 1° en 6°, 26 en 29 bedoelde akten van de registratieformaliteit vrijstellen zonder dat deze vrijstelling de ontheffing van de op deze akten toepasselijke rechten meebrengt, alsook de betalingsmodaliteiten voor genoemde rechten, binnen de termijnen die Hij bepaalt, regelen, in voorkomend geval afwijkend van de bepalingen van hoofdstuk III en IX van deze titel. Indien er toepassing gemaakt wordt van deze bepaling kan de Koning het neerleggen van een afschrift van de akten voorschrijven en aanvullende regels vaststellen om de juiste heffing van de belasting te verzekeren.
 
-## Art. 9
+###### Art. 9
 
 (van toepassing vanaf 01.03.2021)
 
@@ -372,9 +376,9 @@ De Koning kan bepaalde categorieën van de in de artikelen 19, 1° en 6°, 26 en
 
 Valt de laatste dag van de termijn, die door onderhavig Wetboek vastgesteld is voor de uitvoering van een formaliteit, op een sluitingsdag van de kantoren, dan wordt deze termijn verlengd tot de eerste openingsdag der kantoren die volgt op het verstrijken van de termijn.
 
-#### HOOFDSTUK II - Indeling van de rechten en algemene heffingsregels
+### HOOFDSTUK II - Indeling van de rechten en algemene heffingsregels
 
-## Art. 10
+###### Art. 10
 
 (van toepassing vanaf 01.01.1990)
 
@@ -384,7 +388,7 @@ Er zijn evenredige en vaste registratierechten.
 
 Vaste rechten zijn verdeeld in algemeen vast recht en specifieke vaste rechten.
 
-## Art. 11
+###### Art. 11
 
 (van toepassing vanaf 01.07.2013)
 
@@ -396,13 +400,13 @@ Het algemeen vast recht is van toepassing op al de in dat tarief niet voorziene 
 
 Het algemeen vast recht bedraagt 50 EUR.
 
-## Art. 12
+###### Art. 12
 
 (van toepassing vanaf 01.02.1940)
 
 Het evenredig of specifiek vast recht wordt slechts eenmaal op een rechtshandeling geheven, wat ook het getal zij van de geschriften die daarvan laten blijken.
 
-## Art. 13
+###### Art. 13
 
 (van toepassing vanaf 01.07.2009)
 
@@ -416,7 +420,7 @@ Geven slechts aanleiding tot heffing van het algemeen vast recht, tenzij daarin 
 
 Geven insgelijks slechts aanleiding tot heffing van het algemeen vast recht, die rechtshandelingen welke ter oorzake van nietigheid, ontbinding of om andere reden opnieuw werden verricht zonder enige verandering welke iets toevoegt aan het voorwerp der overeenkomsten of aan denzelver waarde, ten ware het op de eerste handeling geheven evenredig recht teruggegeven werd of voor teruggaaf vatbaar zij of ten ware het bijzonder vast recht van artikel 159bis geheven werd op de eerste handeling.
 
-## Art. 14
+###### Art. 14
 
 (van toepassing vanaf 17.01.1959)
 
@@ -426,7 +430,7 @@ Wanneer een akte verscheidene onder dezelfde contractanten tot stand gekomen bes
 
 Het recht wordt geheven met inachtneming van diegene van bedoelde beschikkingen welke tot het hoogste recht aanleiding geeft.
 
-## Art. 15
+###### Art. 15
 
 (van toepassing vanaf 01.02.1940)
 
@@ -434,7 +438,7 @@ Wanneer, in een akte, verscheidene onafhankelijke of niet noodzakelijk uit elkaa
 
 Deze regel is niet van toepassing op het algemeen vast recht.
 
-## Art. 16
+###### Art. 16
 
 (van toepassing vanaf 01.02.1940)
 
@@ -442,13 +446,13 @@ De rechtshandeling waarop het evenredig recht verschuldigd is, doch welke aan ee
 
 Wordt de voorwaarde vervuld, zo is het recht verschuldigd dat bij het tarief voor de handeling is vastgesteld, behoudens toerekening van het reeds geheven recht. Het wordt berekend naar het tarief dat van kracht was op de datum waarop het recht aan de Staat zou verworven geweest zijn indien de handeling een onvoorwaardelijke was geweest, en op de bij dit wetboek vastgelegde en op de datum van de vervulling der voorwaarde beschouwde belastbare grondslag.
 
-## Art. 17
+###### Art. 17
 
 (van toepassing vanaf 01.02.1940)
 
 Wordt, voor de toepassing van dit wetboek, met een aan een schorsende voorwaarde onderworpen handeling gelijkgesteld, de rechtshandeling door een rechtspersoon verricht en aan machtiging, goedkeuring of bekrachtiging van overheidswege onderworpen.
 
-## Art. 18
+###### Art. 18
 
 (van toepassing vanaf 01.06.2012)
 
@@ -468,11 +472,11 @@ Het komt aan de belastingschuldige toe te bewijzen dat de keuze voor zijn rechts
 
 Indien de belastingschuldige het tegenbewijs niet levert, dan wordt de verrichting aan een belastingheffing overeenkomstig het doel van de wet onderworpen alsof het misbruik niet heeft plaatsgevonden.
 
-#### HOOFDSTUK III - Registratieverplichting
+### HOOFDSTUK III - Registratieverplichting
 
 Eerste afdeling - Akten en verklaringen aan de formaliteit onderworpen
 
-## Art. 19
+###### Art. 19
 
 (van toepassing vanaf 09.03.2026)
 
@@ -496,7 +500,7 @@ b) De andere dan onder a) bedoelde akten houdende verhuring, onderverhuring of o
 
 Onverminderd de bepaling onder 6° van het eerste lid en behoudens wat de bepalingen onder 2°, 3° en 5° van hetzelfde lid betreft, worden in dit artikel alleen de in België verleden akten bedoeld.
 
-## Art. 20
+###### Art. 20
 
 (van toepassing vanaf 01.01.1961)
 
@@ -504,7 +508,7 @@ Onverminderd de bepaling onder 6° van het eerste lid en behoudens wat de bepali
 
 (…)
 
-## Art. 211
+###### Art. 211
 
 (van toepassing vanaf 09.06.2024)
 
@@ -524,7 +528,7 @@ De Koning kan de categorie van akten, geschriften en verklaringen bedoeld in het
 
 De kopie bedoeld in het eerste lid wordt minstens gedurende tien jaar bewaard door de bevoegde dienst van de Algemene administratie van de patrimoniumdocumentatie, voor zover deze niet wordt overgedragen aan het Rijksarchief of vernietigd in uitvoering van de artikelen 1 en 5 van de archiefwet Wet van 24 juni 1955.
 
-## Art. 212
+###### Art. 212
 
 (van toepassing vanaf 01.01.1971)
 
@@ -536,7 +540,7 @@ Als onroerende goederen worden niet beschouwd:
 
 2° Voor de toepassing van dit Wetboek, lichamelijk roerende voorwerpen aangewend tot de dienst en de exploitatie van onroerende goederen.
 
-## Art. 22
+###### Art. 22
 
 (van toepassing vanaf 23.09.1997)
 
@@ -544,13 +548,13 @@ Als onroerende goederen worden niet beschouwd:
 
 (…)
 
-## Art. 23
+###### Art. 23
 
 (van toepassing vanaf 01.02.1940)
 
 De exequaturs der scheidsrechterlijke uitspraken en die der buitenslands gewezen rechterlijke beslissingen moeten, bij aanbieding ter registratie, vergezeld zijn van de desbetreffende uitspraken of beslissingen.
 
-## Art. 24
+###### Art. 24
 
 (van toepassing vanaf 01.01.1961)
 
@@ -558,7 +562,7 @@ De exequaturs der scheidsrechterlijke uitspraken en die der buitenslands gewezen
 
 (…)
 
-## Art. 25
+###### Art. 25
 
 (van toepassing vanaf 15.12.2020)
 
@@ -569,7 +573,7 @@ Wanneer een onderhandse of in het buitenland verleden akte bedoeld in artikel 19
 Het uittreksel wordt in dubbel opgemaakt. Wanneer beide exemplaren ter registratie worden aangeboden, moeten ze vergezeld zijn van de oorspronkelijke akte of, zo het een buitenslands verleden authentieke akte in minuut geldt, van een uitgifte daarvan. De heffing wordt beperkt tot die goederen welke het voorwerp van het uittreksel uitmaken. Een exemplaar van dit uittreksel blijft op het bevoegde kantoor van de Algemene Administratie van de Patrimoniumdocumentatie berusten.
 (*) Lees: uittreksel
 
-## Art. 26
+###### Art. 26
 
 (van toepassing vanaf 10.01.2014)
 
@@ -585,7 +589,7 @@ De in het eerste lid bedoelde verplichting is niet van toepassing:
 
 2° in geval van aanhechting of van neerlegging van een plan dat is opgenomen in de databank van plannen van afbakening van de Algemene Administratie van de Patrimoniumdocumentatie, op voorwaarde dat de akte, of een door de partijen of de instrumenterende ambtenaar, in hun naam, ondertekende verklaring onderaan de akte, verwijst naar deze opname met vermelding van het refertenummer van het plan en bevestigt dat het plan nadien niet is gewijzigd.
 
-## Art. 27
+###### Art. 27
 
 (van toepassing vanaf 18.07.1983)
 
@@ -593,7 +597,7 @@ De in het eerste lid bedoelde verplichting is niet van toepassing:
 
 (…)
 
-## Art. 28
+###### Art. 28
 
 (van toepassing vanaf 01.01.1969)
 
@@ -601,7 +605,7 @@ De in het eerste lid bedoelde verplichting is niet van toepassing:
 
 (…)
 
-## Art. 29
+###### Art. 29
 
 (van toepassing vanaf 30.07.2018)
 
@@ -609,7 +613,7 @@ De in het eerste lid bedoelde verplichting is niet van toepassing:
 
 Behoudens het bij artikel 173, 1°, voorziene geval, mag geen overschrijving, inschrijving, doorhaling of randvermelding in de registers van de hypothecaire openbaarmaking plaats hebben krachtens niet vooraf geregistreerde akten.
 
-## Art. 30
+###### Art. 30
 
 (van toepassing vanaf 30.07.2018)
 
@@ -619,7 +623,7 @@ Op vorig artikel wordt uitzondering gemaakt voor de overschrijvingen, inschrijvi
 
 Op vorig artikel wordt eveneens uitzondering gemaakt voor de in België verleden gerechtelijke akten van de burgerlijke stand, in minuut, uitgifte, afschrift of uittreksel.
 
-## Art. 31
+###### Art. 31
 
 (van toepassing vanaf 09.03.2026)
 
@@ -643,9 +647,9 @@ doen ontstaan, de aanwijzing van de partijen, de omvang van de goederen, de bela
 
 Vanaf het verstrijken van vorenstaande termijnen wordt de door een der partijen ondertekende verklaring als van al de partijen uitgaande aangezien.
 
-##### Afdeling II - Termijnen voor de aanbieding ter registratie
+#### Afdeling II - Termijnen voor de aanbieding ter registratie
 
-## Art. 32
+###### Art. 32
 
 (van toepassing vanaf 09.03.2026)
 
@@ -710,7 +714,7 @@ Voor de akten die gelijktijdig worden aangeboden tot de formaliteiten van de reg
 
 9° (...).
 
-## Art. 33
+###### Art. 33
 
 (van toepassing vanaf 01.04.1999)
 
@@ -718,7 +722,7 @@ Voor de akten die gelijktijdig worden aangeboden tot de formaliteiten van de reg
 
 De termijn, binnen welke de in artikel 31 voorziene verklaringen ter registratie moeten aangeboden worden, is vier maand ingaande met de datum van de overeenkomst of, in voorkomend geval, van de vervulling van de voorwaarde welke de heffing van het recht heeft geschorst.
 
-## Art. 34
+###### Art. 34
 
 (van toepassing vanaf 07.01.2016)
 
@@ -728,9 +732,9 @@ De termijn, binnen welke de in artikel 31 voorziene verklaringen ter registratie
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-##### Afdeling III - Personen verplicht tot aanbieding ter registratie
+#### Afdeling III - Personen verplicht tot aanbieding ter registratie
 
-## Art. 35
+###### Art. 35
 
 (van toepassing vanaf 01.01.2028)
 
@@ -764,9 +768,9 @@ De rechten en, in voorkomend geval, de geldboeten worden betaald binnen de termi
 
 Wanneer de schuldenaar van de rechten en, in voorkomend geval, van de boeten geen gekende woonplaats in België of in het buitenland heeft, wordt het bericht aan de procureur des Konings te Brussel verzonden.
 
-##### Afdeling III - Personen verplicht tot aanbieding ter registratie
+#### Afdeling III - Personen verplicht tot aanbieding ter registratie
 
-## Art. 35
+###### Art. 35
 
 (van toepassing vanaf 07.02.2022)
 
@@ -801,7 +805,7 @@ De rechten en, in voorkomend geval, de geldboeten worden betaald binnen de termi
 
 Wanneer de schuldenaar van de rechten en, in voorkomend geval, van de boeten geen gekende woonplaats in België of in het buitenland heeft, wordt het bericht aan de procureur des Konings te Brussel verzonden.
 
-## Art. 36
+###### Art. 36
 
 (van toepassing vanaf 07.02.2022)
 
@@ -809,7 +813,7 @@ Wanneer de schuldenaar van de rechten en, in voorkomend geval, van de boeten gee
 
 Artikel 35, eerste lid, vindt geen toepassing op de voor notaris opgemaakte testamenten en andere akten als bedoeld in artikel 32, 1°, tweede lid, b), wanneer de betrokkenen het bedrag van de rechten en eventueel van de boeten uiterlijk daags vóór het verstrijken van de voor de registratie gestelde termijn in handen der notarissen niet hebben geconsigneerd.
 
-## Art. 37
+###### Art. 37
 
 (van toepassing vanaf 07.02.2022)
 
@@ -817,7 +821,7 @@ Artikel 35, eerste lid, vindt geen toepassing op de voor notaris opgemaakte test
 
 Wanneer de rechten betreffende testamenten en andere in artikel 32, 1°, tweede lid, b), bedoelde akten niet in handen der notarissen werden geconsigneerd, zijn ze ondeelbaar door de erfgenamen, legatarissen of begiftigden zoomede door de testamentuitvoerders verschuldigd.
 
-## Art. 38
+###### Art. 38
 
 (van toepassing vanaf 01.01.1990)
 
@@ -825,9 +829,9 @@ Wanneer de rechten betreffende testamenten en andere in artikel 32, 1°, tweede 
 
 (…)
 
-##### Afdeling IV - Plaats der registratie
+#### Afdeling IV - Plaats der registratie
 
-## Art. 39
+###### Art. 39
 
 (van toepassing vanaf 07.02.2022)
 
@@ -869,7 +873,7 @@ c) gelijktijdig ter overschrijving wordt aangeboden;
 
 7° De andere akten dan voornoemde, onverschillig in alle kantoren.
 
-## Art. 40
+###### Art. 40
 
 (van toepassing vanaf 08.01.2018)
 
@@ -877,9 +881,9 @@ c) gelijktijdig ter overschrijving wordt aangeboden;
 
 (…)
 
-##### Afdeling V - Sanctiën
+#### Afdeling V - Sanctiën
 
-## Art. 41
+###### Art. 41
 
 (van toepassing vanaf 01.01.2015)
 
@@ -893,7 +897,7 @@ Verbeuren ondeelbaar een geldboete gelijk aan het bedrag der rechten, zonder dat
 
 3° De in artikel 35, derde en vierde lid aangewezen personen die de betaling bedoeld in het vijfde lid van genoemde artikel niet hebben gedaan binnen de voorgeschreven termijn.
 
-## Art. 41bis
+###### Art. 41bis
 
 (van toepassing vanaf 16.05.2016)
 
@@ -905,7 +909,7 @@ Het bedrag van de boete wordt, binnen deze grenzen, vastgesteld door de bevoegde
 
 De in het eerste lid bedoelde personen verbeuren ondeelbaar een boete gelijk aan de ontdoken rechten voor elke akte waarop zij ten onrechte de vrijstelling van de formaliteit bedoeld in artikel 8bis, toegepast hebben.
 
-## Art. 42
+###### Art. 42
 
 (van toepassing vanaf 01.01.2002)
 
@@ -914,7 +918,7 @@ De in het eerste lid bedoelde personen verbeuren ondeelbaar een boete gelijk aan
 
 Voor elke overtreding van artikel 26 verbeurt de notaris of de gerechtsdeurwaarder een boete van 25 EUR.
 
-## Art. 43
+###### Art. 43
 
 (van toepassing vanaf 01.01.2002)
 
@@ -923,13 +927,13 @@ Voor elke overtreding van artikel 26 verbeurt de notaris of de gerechtsdeurwaard
 
 De griffiers die binnen de voorgeschreven termijn de arresten en vonnissen niet hebben doen registreren welke zij gehouden zijn aan de formaliteit te onderwerpen, verbeuren voor elke overtreding een boete van 25 EUR.
 
-#### HOOFDSTUK IV - Vaststelling van de rechten
+### HOOFDSTUK IV - Vaststelling van de rechten
 
-##### Afdeling I - Overdrachten onder bezwarende titel van onroerende goederen
+#### Afdeling I - Overdrachten onder bezwarende titel van onroerende goederen
 
 § 1. Algemene bepalingen
 
-## Art. 44
+###### Art. 44
 
 (van toepassing vanaf 01.01.2026)
 
@@ -941,7 +945,7 @@ Het recht bedraagt 12,50 ten honderd voor de verkoop, de ruiling en iedere overe
 (1) Artikel 44, lid 2, W.Reg. (z. Historische versie), ingevoerd bij het decreet van 13 december 2017, blijft evenwel van toepassing in aanwezigheid van een verkoop vastgesteld bij een onderhandse akte die voor 21 december 2019 van een vaste datum is voorzien in de zin van artikel 1328 van het Burgerlijk Wetboek.
 Onderworpen aan de teruggave zijn de proportionele rechten, geïnd op de onderhandse akte waarvan sprake in vorig lid, wanneer de verkoop bij authentieke akte wordt vastgesteld overeenkomstig artikel 44, lid 2, W.Reg., ingevoerd bij het decreet van 13 december 2017, ter hoogte van het verschil tussen de geïnde proportionele rechten en de proportionele rechten berekend op grond van de toepassing van artikel 44, lid 2, van hetzelfde Wetboek (art. 11).
 
-## Art. 44bis
+###### Art. 44bis
 
 (van toepassing vanaf 01.01.2025)
 
@@ -987,7 +991,7 @@ Bij verzuim van de in lid 1, 4°, bedoelde gegevens, zijn de in artikel 44 bedoe
 
 Het in paragraaf 1 bedoelde tarief wordt evenwel gehandhaafd indien de niet-naleving van de in lid 1 bedoelde voorwaarden het gevolg is van overmacht of van een dwingende reden van familiale, medische, professionele of sociale aard.
 
-## Art. 45
+###### Art. 45
 
 (van toepassing vanaf 29.05.2009)
 
@@ -1005,13 +1009,13 @@ Het recht wordt vereffend:
 
 De lasten slaan niet op de studies betreffende de kosten van onderzoeken verricht op de verontreinigde of potentieel verontreinigde terreinen, noch op de grondsaneringshandelingen en –werken.
 
-## Art. 46
+###### Art. 46
 
 (van toepassing vanaf 01.02.1940)
 
 Evenwel mag de belastbare grondslag in geen geval lager zijn dan de verkoopwaarde van de overgedragen onroerende goederen.
 
-## Art. 46bis
+###### Art. 46bis
 
 (van toepassing vanaf 01.01.2025)
 
@@ -1019,7 +1023,7 @@ Evenwel mag de belastbare grondslag in geen geval lager zijn dan de verkoopwaard
 
 (…)
 
-## Art. 47
+###### Art. 47
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1044,7 +1048,7 @@ Is het vruchtgebruik voor een beperkte tijd gevestigd, zo is de verkoopwaarde ve
 
 In geen geval mag aan het vruchtgebruik een hogere waarde dan de vier vijfden van de verkoopwaarde van de volle eigendom worden toegewezen.
 
-## Art. 48
+###### Art. 48
 
 (van toepassing vanaf 01.01.2026)
 
@@ -1055,19 +1059,19 @@ Gaat de overeenkomst over de blote eigendom van een onroerend goed waarvan het v
 (1) Artikel 48, lid 2, W.Reg. (z. Historische versie), ingevoerd bij het decreet van 13 december 2017, blijft evenwel van toepassing in aanwezigheid van een verkoop vastgesteld bij een onderhandse akte die voor 21 december 2019 van een vaste datum is voorzien in de zin van artikel 1328 van het Burgerlijk Wetboek.
 Onderworpen aan de teruggave zijn de proportionele rechten, geïnd op de onderhandse akte waarvan sprake in vorig lid, wanneer de verkoop bij authentieke akte wordt vastgesteld overeenkomstig artikel 48, lid 2, W.Reg., ingevoerd bij het decreet van 13 december 2017, ter hoogte van het verschil tussen de geïnde proportionele rechten en de proportionele rechten berekend op grond van de toepassing van artikel 48, lid 2, van hetzelfde Wetboek (art. 12).
 
-## Art. 49
+###### Art. 49
 
 (van toepassing vanaf 01.02.1940)
 
 Gaat de overeenkomst over de blote eigendom van een onroerend goed, zonder dat het vruchtgebruik door de vervreemder is voorbehouden, zoo mag de belastbare grondslag niet lager zijn dan de verkoopwaarde van de volle eigendom, na aftrekking van de overeenkomstig artikel 47 berekende waarde van het vruchtgebruik.
 
-## Art. 50
+###### Art. 50
 
 (van toepassing vanaf 01.02.1940)
 
 Wordt of werd het vruchtgebruik op het hoofd van twee of meer personen gevestigd, met recht van aanwas of van terugvalling, zo is de voor de toepassing van artikelen 47 en 49 in aanmerking te nemen leeftijd die van de jongste persoon.
 
-## Art. 50bis
+###### Art. 50bis
 
 (van toepassing vanaf 23.12.2009)
 
@@ -1083,7 +1087,7 @@ gebruikelijke verblijfplaats bij de verkrijger had, in de zin van artikel 4 van 
 
 § 2. Verkopingen aan bouwmaatschappijen tot nut van het algemeen
 
-## Art. 51
+###### Art. 51
 
 (van toepassing vanaf 02.11.2023)
 
@@ -1100,7 +1104,7 @@ Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig hoofdstuk
 
 § 3. Verkopingen aan de met regeringspremie begunstigde kopers
 
-## Art. 52
+###### Art. 52
 
 (van toepassing vanaf 15.05.2006)
 
@@ -1114,7 +1118,7 @@ Het gebeurlijk intrekken van die premie brengt voor den verkrijger der verplicht
 
 (gewijzigd bij art. 11 van het decreet van 05.12.2024 (B.S., 13.12.2024). Tekst van toepassing vanaf 01.01.2025 (art. 30))
 
-## Art. 53
+###### Art. 53
 
 (van toepassing vanaf 01.01.2025)
 
@@ -1130,7 +1134,7 @@ In de gevallen bedoeld in het eerste lid:
 
 2° hetzij, in de andere gevallen, bedraagt het percentage 6%, toegepast op de aanslagbasis die gebruikt wordt voor de vereffening van de rechten, vastgelegd overeenkomstig de artikelen 45 tot 50, naar rato van de maximumwaarde bedoeld in artikel 53ter, waarbij het normale tarief bedoeld in artikel 44 van deze Code op het overschot van genoemde waarde toegepast wordt.
 
-## Art. 53bis
+###### Art. 53bis
 
 (van toepassing vanaf 01.01.2025)
 
@@ -1144,7 +1148,7 @@ Het maximaal kadastraal inkomen bedoeld in artikel 53 wordt vastgelegd op:
 
 Daarenboven is de vermindering van het registratierecht bedoeld in artikel 53 slechts toepasselijk op de terreinen inbegrepen in de aankoop als het totaal van de kadastrale inkomens van die terreinen niet hoger is dan 323 EUR.
 
-## Art. 53ter
+###### Art. 53ter
 
 (van toepassing vanaf 01.01.2022)
 
@@ -1162,7 +1166,7 @@ In voorkomend geval wordt het maximumbedrag bedoeld in het eerste lid verminderd
 
 § 2. Wanneer het te koop aangeboden onroerend goed al het voorwerp is geweest van een in dit artikel bedoelde andere verkoop tussen dezelfde partijen en wanneer die verkoop bij overeenkomst is geannuleerd, vernietigd, ontbonden, herroepen of opgezegd binnen twaalf maanden voor bedoelde verkoop, zijn de in § 4 bedoelde maximumwaarde en het statuut van het gebied waar bedoeld gebied gelegen is, toepasselijk op die laatste verkoop, die welke voor bedoelde gemeente van kracht zijn in de loop van het jaar van de voorheen geannuleerde, vernietigde, ontbonden, herroepen of opgezegde verkoop.
 
-## Art. 54
+###### Art. 54
 
 (van toepassing vanaf 01.01.2025)
 
@@ -1176,7 +1180,7 @@ Voor de toepassing van het tweede lid wordt evenwel geen rekening gehouden met d
 
 De verlaging bedoeld in artikel 53 is geenszins toepasselijk op de terreinen die deel uitmaken van de nieuwe aankoop als het kadastraal inkomen ervan, samen met dat van de terreinen die de verkrijger of zijn echtgeno(o)t(e) of wettelijke samenwonende al bezit, hoger is dan 323 EUR. In afwijking van deze bepaling, wordt evenwel geen rekening gehouden met de terreinen die de verkrijger of zijn echtgeno(o)t(e) of wettelijke samenwonende enkel in blote eigendom bezit en die verkregen werden uit de nalatenschap van hun respectieve bloedverwanten in de opgaande lijn.
 
-## Art. 55
+###### Art. 55
 
 (van toepassing vanaf 01.01.2025)
 
@@ -1200,7 +1204,7 @@ e) de datum van de verkoopovereenkomst waarop de verschuldigdheid van de rechten
 
 In geval van niet-nakoming van een van bovenstaande voorwaarden uiterlijk wanneer de akte ter formaliteit wordt aangeboden, wordt deze akte tegen het gewoon recht geregistreerd; hetgeen boven het verlaagd recht geheven werd is vatbaat voor teruggaaf, tot beloop van de acht tienden, mits overlegging van een uittreksel uit de kadastrale legger en een verklaring ondertekend door de verkrijger, waarin de door voorgaand 2° beoogde vermeldingen voorkomen.
 
-## Art. 56
+###### Art. 56
 
 (van toepassing vanaf 01.02.1940)
 
@@ -1208,7 +1212,7 @@ Wanneer het kadastraal inkomen van het verkregen onroerend goed nog niet is vast
 
 In dit geval, wordt de akte, behoudens de in artikel 58 voorziene teruggaaf, tegen het gewoon recht geregistreerd.
 
-## Art. 57
+###### Art. 57
 
 (van toepassing vanaf 01.01.2025)
 
@@ -1216,7 +1220,7 @@ In dit geval, wordt de akte, behoudens de in artikel 58 voorziene teruggaaf, teg
 
 (…)
 
-## Art. 57bis
+###### Art. 57bis
 
 (van toepassing vanaf 01.01.2025)
 
@@ -1224,7 +1228,7 @@ In dit geval, wordt de akte, behoudens de in artikel 58 voorziene teruggaaf, teg
 
 (…)
 
-## Art. 58
+###### Art. 58
 
 (van toepassing vanaf 01.01.2025)
 
@@ -1238,7 +1242,7 @@ Zo, tussen de datum van de akte en de 2de januari die volgt op het betrekken der
 
 Het aldus bepaalde kadastraal inkomen wordt de verkrijger ter kennis gebracht; deze kan bezwaar indienen volgens de procedure betreffende de vaststelling van de nieuwe kadastrale inkomens.
 
-## Art. 59
+###### Art. 59
 
 (van toepassing vanaf 01.01.2025)
 
@@ -1248,7 +1252,7 @@ In geval van onjuistheid in de vermeldingen waarvan sprake in artikel 55, eerste
 
 In geval van onjuistheid in de vermeldingen waarvan sprake in artikel 55, eerste lid, 2°, e), is artikel 204 toepasselijk.
 
-## Art. 60
+###### Art. 60
 
 (van toepassing vanaf 01.01.2025)
 
@@ -1258,7 +1262,7 @@ Het voordeel van de vermindering bedoeld in artikel 53, eerste lid, blijft allee
 
 De verlaging blijft evenwel verkregen zo niet-nakoming van die voorwaarden het gevolg is van overmacht of van een dwingende reden van medische, familiale, professionele of sociale aard. Onder dwingende reden van medische aard in de zin van het vorige lid wordt verstaan o.a. een toestand waarin zorgen verleend moeten worden aan de verkrijger, zijn echtgeno(o)t(e), wettelijke samenwonende, afstammelingen of aan de afstammelingen van zijn echtgeno(o)t(e) of wettelijke samenwonende en die ontstaan is na het verkrijgen van het onroerend goed, waardoor het voor die personen onmogelijk wordt om het onroerend goed uit te baten.
 
-## Art. 611
+###### Art. 611
 
 (van toepassing vanaf 01.01.2025)
 
@@ -1268,7 +1272,7 @@ Indien de vermindering vervalt bij gebreke van exploitatie binnen de termijn en 
 
 De Minister van Financiën kan evenwel van die vermeerdering geheel of gedeeltelijk afzien.
 
-## Art. 612
+###### Art. 612
 
 (van toepassing vanaf 24.07.1998)
 
@@ -1280,7 +1284,7 @@ Hetzelfde heeft plaats ingeval van ruilverkaveling van landeigendommen in der mi
 
 § 5. Verkopingen aan personen die hun beroep maken van den aankoop van onroerende goederen met het oog op wederverkoop
 
-## Art. 62
+###### Art. 62
 
 (van toepassing vanaf 01.01.2018)
 
@@ -1293,7 +1297,7 @@ Deze vermindering is echter niet van toepassing op de verkopen van landeigendomm
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 631
+###### Art. 631
 
 (van toepassing vanaf 01.01.2028)
 
@@ -1319,7 +1323,7 @@ De akte welke die bevestiging niet inhoudt of waarbij de verklaring en, in voork
 
 Een beroepspersoon, andere dan die bedoeld in het eerste lid, 3°, kan de erkenning verkrijgen van een in België gevestigde vertegenwoordiger die medeaansprakelijk is en hoofdelijk met hem instaat voor de nakoming van zijn fiscale verplichtingen.
 
-## Art. 631
+###### Art. 631
 
 (van toepassing vanaf 02.11.2023)
 
@@ -1346,7 +1350,7 @@ De akte welke die bevestiging niet inhoudt of waarbij de verklaring en, in voork
 Een beroepspersoon, andere dan die bedoeld in het eerste lid, 3°, kan de erkenning verkrijgen van een in België gevestigde vertegenwoordiger die medeaansprakelijk is en hoofdelijk met hem instaat voor de nakoming van zijn fiscale verplichtingen.
 Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig hoofdstuk IV, afdeling II, van de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen, niet van toepassing is op een vennootschap, vereniging of stichting, wordt elke verwijzing naar een bepaling van het Wetboek van vennootschappen en verenigingen of van zijn uitvoeringsbesluit die voorkomt in een wetsbepaling gewijzigd bij dit decreet, met betrekking tot die vennootschap, vereniging of stichting, geacht vermeld te blijven als verwijzing naar de bepaling van het Wetboek van vennootschappen, zijn uitvoeringsbesluit of andere specifieke wetgeving die in die bepaling voor de inwerkingtreding van dit decreet voorkwam (art. 155, § 1). Zolang een vennootschap, vereniging of stichting beheerst door het Belgisch recht, overeenkomstig hoofdstuk IV, afdeling II, van de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen, een rechtsvorm behoudt die niet erkend is door het Wetboek van vennootschappen en verenigingen, worden de door dit decreet gewijzigde wettelijke bepalingen die voor de inwerkingtreding van dit decreet naar die rechtsvorm verwezen, geacht daarnaar te blijven verwijzen zoals voor de inwerkingtreding van dit decreet ten aanzien van die vennootschap, vereniging of stichting (art. 155, § 2).
 
-## Art. 632
+###### Art. 632
 
 (van toepassing vanaf 24.02.1959)
 
@@ -1354,7 +1358,7 @@ Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig hoofdstuk
 
 Wanneer door een schatting volgens artikelen 190 en 199 bevonden wordt dat de verkoopwaarde van landgoederen, welke met toepassing van het bij artikel 62 voorzien verminderd recht verkregen werden, op de datum van de verkrijging de door laatstbedoeld artikel vastgestelde grens niet overtrof, is de verkrijger gehouden tot het betalen van het bijkomend recht berekend op de grondslag die voor de heffing van het verminderd recht gediend heeft, van een zelfde som als boete en van de kosten der procedure.
 
-## Art. 64
+###### Art. 64
 
 (van toepassing vanaf 01.01.2018)
 
@@ -1364,7 +1368,7 @@ Het bij artikel 44 vastgestelde recht wordt vorderbaar ten laste van de verkrijg
 
 De wederverkoop aan een beroepspersoon met toepassing van artikel 62 staat deze vorderbaarheid niet in de weg.
 
-## Art. 65
+###### Art. 65
 
 (van toepassing vanaf 01.01.2018)
 
@@ -1372,13 +1376,13 @@ De wederverkoop aan een beroepspersoon met toepassing van artikel 62 staat deze 
 
 De verkrijger mag de betaling aanbieden van het bij artikel 44 vastgestelde recht vóór het verstrijken van de in eerste alinea van vorig artikel voorziene termijn.
 
-## Art. 66
+###### Art. 66
 
 (van toepassing vanaf 01.02.1940)
 
 Het recht dat voor de verkrijging van het goed betaald werd, mag niet op de krachtens artikelen 64 en 65 verschuldigde rechten worden aangerekend.
 
-## Art. 67
+###### Art. 67
 
 (van toepassing vanaf 01.02.1940)
 
@@ -1388,7 +1392,7 @@ Bijaldien slechts een deel van tegen een enige prijs aangekochte onroerende goed
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 68
+###### Art. 68
 
 (van toepassing vanaf 01.01.2028)
 
@@ -1400,7 +1404,7 @@ In het geval van artikel 65, moet de verkrijger op bedoeld kantoor ter registrat
 
 De bij dit artikel voorgeschreven verklaringen worden door de belanghebbende of zijn aangenomen vertegenwoordiger ondertekend en vermelden de akte of de akten van verkrijging, het nieuwe feit waaruit de verschuldigdheid van het recht volgt en al de tot de vereffening van de belasting nodige gegevens. Een kopie wordt bewaard door de bevoegde dienst van de Algemene administratie van de patrimoniumdocumentatie.
 
-## Art. 68
+###### Art. 68
 
 (van toepassing vanaf 01.01.1990)
 
@@ -1414,7 +1418,7 @@ De bij dit artikel voorgeschreven verklaringen, welke door belanghebbende of zij
 
 verklaringen houden vermelding van de akte of de akten van verkrijging, van het nieuwe feit waaruit de verschuldigdheid van het recht volgt en al de tot de vereffening van de belasting nodige gegevens.
 
-## Art. 69
+###### Art. 69
 
 (van toepassing vanaf 16.05.2011)
 
@@ -1426,7 +1430,7 @@ Wanneer de door den verkrijger gestelde zekerheid ontoereikend wordt, dient hij,
 
 Wordt aan vorenstaande voorschriften niet voldaan, zo wordt het volgens artikelen 66 en 67 berekend gewoon recht op de niet wederverkochte goederen vorderbaar.
 
-## Art. 70
+###### Art. 70
 
 (van toepassing vanaf 01.01.2002)
 
@@ -1435,7 +1439,7 @@ Wordt aan vorenstaande voorschriften niet voldaan, zo wordt het volgens artikele
 
 De Minister van Financiën of zijn afgevaardigde bepaalt aard en bedrag der ter voldoening van artikelen 631, 2°, en 69 te stellen zekerheid of aanvullende zekerheid. Deze zekerheid dient gesteld onder de door de Minister of zijn afgevaardigde bepaalde voorwaarden en mag niet minder dan 5.000 EUR bedragen.
 
-## Art. 71
+###### Art. 71
 
 (van toepassing vanaf 01.01.2018)
 
@@ -1445,7 +1449,7 @@ Indien hij die een beroepsverklaring heeft ondertekend bij het verstrijken van e
 
 § 6. Ruiling van ongebouwde landgoederen
 
-## Art. 72
+###### Art. 72
 
 (van toepassing vanaf 30.11.1978)
 
@@ -1464,7 +1468,7 @@ De toepassing van dit artikel is ondergeschikt aan een drievoudige voorwaarde:
 
 3° dat de partijen vóór de registratie, in een verklaring gedaan in de akte of onderaan op de akte, aanduiden of de geruilde onroerende goederen door henzelf of door derden worden geëxploiteerd en dat, in deze laatste onderstelling, de akte of een daaraan vóór de registratie gehecht schrijven de instemming inhoudt van alle exploitanten van de in de ruiling begrepen goederen.
 
-## Art. 731
+###### Art. 731
 
 (van toepassing vanaf 09.09.1952)
 
@@ -1478,7 +1482,7 @@ De geldboete is evenwel niet verschuldigd, indien het verschil tussen de verkoop
 
 Het bepaalde in de artikelen 189 tot 201 geldt mede voor de controle op de in dit artikel omschreven schattingen.
 
-## Art. 732
+###### Art. 732
 
 (van toepassing vanaf 30.11.1978)
 
@@ -1488,7 +1492,7 @@ In geval van onjuistheid van de verklaring betreffende de uitbating van de gerui
 
 § 7. Afzonderlijke verkrijgingen van de grond en van de opstal of van de tot de dienst van het onroerend goed aangewende voorwerpen
 
-## Art. 74
+###### Art. 74
 
 (van toepassing vanaf 10.04.1994)
 
@@ -1498,7 +1502,7 @@ Wie bij een overdragende overeenkomst onder bezwarende titel, andere dan een inb
 
 Deze bepaling is evenwel niet van toepassing, zo er bewezen wordt dat de belasting over de toegevoegde waarde werd gekweten voor de levering van het hout op stam of van de te slopen gebouwen.
 
-## Art. 75
+###### Art. 75
 
 (van toepassing vanaf 10.04.1994)
 
@@ -1512,7 +1516,7 @@ Deze bepaling is niet van toepassing zo de belasting over de toegevoegde waarde 
 
 (opgeheven bij art. 3 van de wet van 22.06.1960 (B.S., 21.07.1960). Tekst van toepassing vanaf 31.07.1960 (art. -))
 
-## Art. 76
+###### Art. 76
 
 (van toepassing vanaf 31.07.1960)
 
@@ -1520,11 +1524,11 @@ Deze bepaling is niet van toepassing zo de belasting over de toegevoegde waarde 
 
 (…)
 
-##### Afdeling II - Openbare verkopingen van lichamelijke roerende goederen
+#### Afdeling II - Openbare verkopingen van lichamelijke roerende goederen
 
 (opschrift vervangen bij art. 4 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van toepassing vanaf 17.01.1959 (art. -))
 
-## Art. 77
+###### Art. 77
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1532,7 +1536,7 @@ Deze bepaling is niet van toepassing zo de belasting over de toegevoegde waarde 
 
 Het recht wordt vastgesteld op 5 t.h. voor de openbare verkopingen van lichamelijke roerende goederen.
 
-## Art. 78
+###### Art. 78
 
 (van toepassing vanaf 01.01.1971)
 
@@ -1540,7 +1544,7 @@ Het recht wordt vastgesteld op 5 t.h. voor de openbare verkopingen van lichameli
 
 (…)
 
-## Art. 79
+###### Art. 79
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1550,7 +1554,7 @@ De heffingsgrondslag wordt bepaald zoals gezegd in de artikelen 45 en 231.
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 80
+###### Art. 80
 
 (van toepassing vanaf 01.01.2028)
 
@@ -1566,7 +1570,7 @@ Vrijgesteld van het recht van 5 pct. en onderworpen aan het algemeen vast recht 
 
 Voor de onder 1° bedoelde verkopingen wordt het vast recht geheven mits in het proces-verbaal of in een geschrift dat bij het proces-verbaal vóór de registratie is gevoegd, vermeld wordt naar welk kantoor de verkoper de periodieke aangiften voor de belasting over de toegevoegde waarde moet verzenden.
 
-## Art. 80
+###### Art. 80
 
 (van toepassing vanaf 01.01.1978)
 
@@ -1582,11 +1586,11 @@ Vrijgesteld van het recht van 5 pct. en onderworpen aan het algemeen vast recht 
 
 Voor de onder 1° bedoelde verkopingen wordt het vast recht geheven mits in het proces-verbaal of in een geschrift dat bij het proces-verbaal vóór de registratie is gevoegd, vermeld wordt bij welk kantoor de verkoper de periodieke aangiften voor de belasting over de toegevoegde waarde moet indienen.
 
-##### Afdeling III - (…)
+#### Afdeling III - (…)
 
 (opgeheven bij art. 5 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van toepassing vanaf 17.01.1959 (art. -))
 
-## Art. 81
+###### Art. 81
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1594,7 +1598,7 @@ Voor de onder 1° bedoelde verkopingen wordt het vast recht geheven mits in het 
 
 (…)
 
-## Art. 82
+###### Art. 82
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1602,9 +1606,9 @@ Voor de onder 1° bedoelde verkopingen wordt het vast recht geheven mits in het 
 
 (…)
 
-##### Afdeling IV - Huurcontracten
+#### Afdeling IV - Huurcontracten
 
-## Art. 83
+###### Art. 83
 
 (van toepassing vanaf 01.01.2024)
 
@@ -1640,7 +1644,7 @@ Contracten tot vestiging van erfpacht- of opstalrecht en overdrachten daarvan wo
 
 Dit recht is evenwel niet verschuldigd in geval van toepassing van artikel 140bis.
 
-## Art. 84
+###### Art. 84
 
 (van toepassing vanaf 27.09.1947)
 
@@ -1654,11 +1658,11 @@ Is zij levenslang of van onbepaalde duur, zo geldt als grondslag het tienvoudig 
 
 Bij overdracht van huur, wordt het bedrag of de waarde van de gebeurlijk ten bate van de overdrager bedongen prestatiën gevoegd bij de heffingsgrondslag zoals hij hiervoor is bepaald.
 
-##### Afdeling V - (…)
+#### Afdeling V - (…)
 
 (opgeheven bij art. 7 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van toepassing vanaf 17.01.1959 (art. -))
 
-## Art. 85
+###### Art. 85
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1666,7 +1670,7 @@ Bij overdracht van huur, wordt het bedrag of de waarde van de gebeurlijk ten bat
 
 (…)
 
-## Art. 86
+###### Art. 86
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1674,11 +1678,11 @@ Bij overdracht van huur, wordt het bedrag of de waarde van de gebeurlijk ten bat
 
 (…)
 
-##### Afdeling VI - Hypotheekvestigingen
+#### Afdeling VI - Hypotheekvestigingen
 
 (gewijzigd bij art. 55 van de wet van 25.12.2016 (B.S., 30.12.2016). Tekst van toepassing vanaf 01.01.2018 (art. 70))
 
-## Art. 87
+###### Art. 87
 
 (van toepassing vanaf 01.01.2009)
 
@@ -1687,7 +1691,7 @@ Bij overdracht van huur, wordt het bedrag of de waarde van de gebeurlijk ten bat
 
 Worden aan een recht van 1 t.h. onderworpen, de vestigingen van een hypotheek op een in België gelegen onroerend goed, of van 0% indien de hypotheek bestaat uit een waarborg van een hypothecair krediet of een hypothecaire lening toegekend in de vorm van ″Eco-Prêts″ (Ecoleningen) overeenkomstig het besluit van de Waalse Regering van 20 december 2007 houdende het reglement van de hypothecaire leningen van de ″Société wallonne de Crédit social″ (Waalse Maatschappij voor Sociaal Krediet) en de ″Guichets du Crédit social″ (Sociale Kredietloketten), of toegekend door het ″Fonds du Logement des Familles nombreuses de Wallonie″ (Woningfonds van de Kroostrijke Gezinnen van Wallonië) overeenkomstig het besluit van de Waalse Regering van 25 februari 1999 betreffende de hypothecaire leningen en de huurtegemoetkoming van het ″Fonds du Logement des Familles nombreuses de Wallonie″.
 
-## Art. 88
+###### Art. 88
 
 (van toepassing vanaf 01.01.2018)
 
@@ -1696,7 +1700,7 @@ Worden aan een recht van 1 t.h. onderworpen, de vestigingen van een hypotheek op
 De vestigingen van een hypotheek op een schip dat niet naar zijn aard voor het zeevervoer bestemd is, worden aan een recht van 0,50 pct. onderworpen.
 Het recht van 0,50 pct., geheven overeenkomstig art. 88 W.Reg. vóór de inwerkingtreding van deze wet, wordt in mindering gebracht op het krachtens art. 87 van hetzelfde Wetboek verschuldigde recht, wanneer later een hypotheek wordt gevestigd tot zekerheid van dezelfde schuld (art. 69).
 
-## Art. 89
+###### Art. 89
 
 (van toepassing vanaf 01.01.2018)
 
@@ -1704,7 +1708,7 @@ Het recht van 0,50 pct., geheven overeenkomstig art. 88 W.Reg. vóór de inwerki
 
 De bij artikelen 87 en 88 bepaalde rechten zijn van toepassing zelfs wanneer de hypotheek gevestigd is tot zekerheid van een toekomstige schuld, van een voorwaardelijke of eventuele schuld of van een verbintenis om iets te doen.
 
-## Art. 90
+###### Art. 90
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1712,7 +1716,7 @@ De bij artikelen 87 en 88 bepaalde rechten zijn van toepassing zelfs wanneer de 
 
 De bij artikelen 87 en 88 bepaalde rechten zijn niet verschuldigd zo de gewaarborgde verbintenis voortkomt uit een contract waarop een evenredig recht van minstens 1 pct. werd geheven.
 
-## Art. 91
+###### Art. 91
 
 (van toepassing vanaf 01.01.2018)
 
@@ -1722,7 +1726,7 @@ De vestiging van een hypotheek op een in België gelegen onroerend goed tot zeke
 
 het recht van 1 pct. onderworpen onder aftrek, in voorkomend geval, van het krachtens artikel 88 geheven recht van 0,50 pct.
 
-## Art. 921
+###### Art. 921
 
 (van toepassing vanaf 01.01.2019)
 
@@ -1730,7 +1734,7 @@ het recht van 1 pct. onderworpen onder aftrek, in voorkomend geval, van het krac
 
 Onverminderd artikel 91, dekt het in artikel 88 en in artikel 3, lid 1, 7°, a), van de bijzondere wet van 16 januari 1989 betreffende de financiering van de Gemeenschappen en de Gewesten bedoeld recht alle vestiging van hypotheek welke naderhand tot zekerheid van eenzelfde schuldvordering van hetzelfde gewaarborgd bedrag mocht worden toegestaan.
 
-## Art. 922
+###### Art. 922
 
 (van toepassing vanaf 01.01.2018)
 
@@ -1738,7 +1742,7 @@ Onverminderd artikel 91, dekt het in artikel 88 en in artikel 3, lid 1, 7°, a),
 
 De overdracht van een hypotheek op een in België gelegen onroerend goed met inbegrip van de voorrechten bedoeld bij artikel 27 van de wet van 16 december 1851 of van een hypotheek op een schip dat niet naar zijn aard voor het zeevervoer bestemd is, ingevolge de overdracht onder bezwarende titel van de schuldvordering, de contractuele indeplaatsstelling of elke andere verrichting onder bezwarende titel, wordt onderworpen aan een recht van 1 pct. of van 0,50 pct., al naar gelang de overdracht al dan niet een hypotheek op een onroerend goed betreft.
 
-## Art. 93
+###### Art. 93
 
 (van toepassing vanaf 01.01.2018)
 
@@ -1746,7 +1750,7 @@ De overdracht van een hypotheek op een in België gelegen onroerend goed met inb
 
 Het recht van 1 pct. of van 0,50 pct. wordt vereffend op het bedrag van de sommen die door de hypotheek gewaarborgd zijn, met uitsluiting van de interesten of rentetermijnen van drie jaren, die gewaarborgd zijn door artikel 87 van de wet van 16 december 1851.
 
-## Art. 94
+###### Art. 94
 
 (van toepassing vanaf het aanslagjaar 2019)
 
@@ -1766,11 +1770,11 @@ Als de in het eerste lid, 2°, a) bedoelde verklaring onjuist blijkt of als de i
 
 De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interesten te betalen alvorens de in het eerste lid, 2°, b) voorziene termijn is verstreken.
 
-##### Afdeling VII - (…)
+#### Afdeling VII - (…)
 
 (opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van toepassing vanaf 17.01.1959 (art. -))
 
-## Art. 95
+###### Art. 95
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1778,7 +1782,7 @@ De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interes
 
 (…)
 
-## Art. 96
+###### Art. 96
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1786,7 +1790,7 @@ De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interes
 
 (…)
 
-## Art. 97
+###### Art. 97
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1794,7 +1798,7 @@ De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interes
 
 (…)
 
-## Art. 98
+###### Art. 98
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1802,11 +1806,11 @@ De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interes
 
 (…)
 
-##### Afdeling VIII - (…)
+#### Afdeling VIII - (…)
 
 (opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van toepassing vanaf 17.01.1959 (art. -))
 
-## Art. 99
+###### Art. 99
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1814,7 +1818,7 @@ De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interes
 
 (…)
 
-## Art. 100
+###### Art. 100
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1822,7 +1826,7 @@ De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interes
 
 (…)
 
-## Art. 101
+###### Art. 101
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1830,7 +1834,7 @@ De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interes
 
 (...)
 
-## Art. 102
+###### Art. 102
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1838,9 +1842,9 @@ De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interes
 
 (…)
 
-##### Afdeling IX - Opheffingen
+#### Afdeling IX - Opheffingen
 
-## Art. 103
+###### Art. 103
 
 (van toepassing vanaf 30.07.2018)
 
@@ -1860,7 +1864,7 @@ De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interes
 
 5° die geschieden in het kader van een openbare verkoping na beslag of van een verkoop uit de hand bedoeld in artikel 1580bis van het Gerechtelijk Wetboek.
 
-## Art. 104
+###### Art. 104
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1868,14 +1872,14 @@ De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interes
 
 (...)
 
-## Art. 105
+###### Art. 105
 
 (van toepassing vanaf 01.01.1990)
 (opgeheven bij art. 153, 1° van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst van toepassing vanaf 01.01.1990 (art. 244))
 
 (...)
 
-## Art. 106
+###### Art. 106
 
 (van toepassing vanaf 01.01.1990)
 
@@ -1883,7 +1887,7 @@ De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interes
 
 (…)
 
-## Art. 107
+###### Art. 107
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1891,7 +1895,7 @@ De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interes
 
 (...)
 
-## Art. 108
+###### Art. 108
 
 (van toepassing vanaf 01.01.1990)
 
@@ -1899,9 +1903,9 @@ De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interes
 
 (...)
 
-##### Afdeling X - Verdelingen
+#### Afdeling X - Verdelingen
 
-## Art. 109
+###### Art. 109
 
 (van toepassing vanaf 06.06.1981)
 
@@ -1915,7 +1919,7 @@ Het recht wordt op 1 t.h. vastgesteld voor:
 
 3° de omzetting bedoeld in de artikelen 745quater en 745quinquies van het Burgerlijk Wetboek, zelfs indien er geen onverdeeldheid is.
 
-## Art. 110
+###### Art. 110
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1925,7 +1929,7 @@ Voor de goederen waarvan de akte de onverdeeldheid doet ophouden onder al de med
 
 Voor de goederen waarvan de akte de onverdeeldheid niet doet ophouden onder al de medeëigenaars, wordt het recht vereffend op de waarde der afgestane delen.
 
-## Art. 111
+###### Art. 111
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1937,7 +1941,7 @@ Wanneer de bepalingen van de akte het niet mogelijk maken de overeengekomen waar
 
 In voorkomend geval wordt de verkoopwaarde van het vruchtgebruik of van de blote eigendom overeenkomstig artikelen 47 tot 50 vastgesteld.
 
-## Art. 112
+###### Art. 112
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1945,7 +1949,7 @@ In voorkomend geval wordt de verkoopwaarde van het vruchtgebruik of van de blote
 
 (...)
 
-## Art. 113
+###### Art. 113
 
 (van toepassing vanaf 17.01.1959)
 
@@ -1955,15 +1959,15 @@ In geval van toebedeling bij verdeling of van afstand van onverdeelde delen aan 
 
 Deze bepaling is van toepassing wanneer de toebedeling van goederen of de afstand van onverdeelde delen gedaan wordt aan de erfgenamen of legatarissen van de overleden derde verkrijger. Zij is niet van toepassing wanneer de derde, aan wie de toebedeling of de afstand gedaan wordt, met anderen het geheel van één of meer goederen heeft verkregen.
 
-## Art. 114
+###### Art. 114
 
 (van toepassing vanaf 01.02.1940)
 
 De bepalingen van deze afdeling zijn niet van toepassing op de uitvoering van een beding van terugvalling of van aanwas.
 
-##### Afdeling XI - Vennootschappen
+#### Afdeling XI - Vennootschappen
 
-## Art. 115
+###### Art. 115
 
 (van toepassing vanaf 25.11.2025)
 
@@ -1973,7 +1977,7 @@ Aan een recht van 0 pct. wordt onderworpen de inbreng van roerende goederen in v
 
 Het recht wordt vereffend op het totaal bedrag van de inbrengen.
 
-## Art. 115bis
+###### Art. 115bis
 
 (van toepassing vanaf 25.11.2025)
 
@@ -1982,7 +1986,7 @@ Het recht wordt vereffend op het totaal bedrag van de inbrengen.
 De inbrengen van onroerende goederen, andere dan die welke gedeeltelijk of geheel tot bewoning aangewend worden of bestemd zijn en door een natuurlijke persoon ingebracht worden, in vennootschappen waarvan de zetel der werkelijke leiding in België gevestigd is, of de statutaire zetel in België en de zetel van werkelijke leiding buiten het grondgebied van de lidstaten van de Europese Unie gevestigd is, worden aan het recht van 0 pct. onderworpen.
 In geval van onjuiste verklaring betreffende de aanwending of de bestemming van het onroerend goed, zijn de aanvullende rechten opeisbaar en verbeurt iedere partij een boete gelijk aan de rechten.
 
-## Art. 116
+###### Art. 116
 
 (van toepassing vanaf 25.11.2025)
 
@@ -1994,7 +1998,7 @@ Het recht wordt vereffend op het bedrag van de vermeerdering.
 
 Het recht is niet verschuldigd in de mate waarin het kapitaal vermeerderd wordt door inlijving van reserves of provisies, die gevestigd werden, bij gelegenheid van inbrengen gedaan in de vennootschap, ter vertegenwoordiging van het geheel of een gedeelte van het bedrag van die inbrengen dat onderworpen werd aan het bij de artikelen 115 en 115bis bedoeld recht.
 
-## Art. 117
+###### Art. 117
 
 (van toepassing vanaf 25.11.2025)
 
@@ -2040,7 +2044,7 @@ Bovendien vindt deze paragraaf alleen toepassing wanneer voldaan is aan de volge
 
 In geval van niet-nakoming van een van de toepassingsvoorwaarden van deze paragraaf uiterlijk wanneer de akte ter formaliteit wordt aangeboden, wordt deze akte tegen het gewoon tarief geregistreerd.
 
-## Art. 118
+###### Art. 118
 
 (van toepassing vanaf 01.01.1972)
 
@@ -2056,7 +2060,7 @@ Voor de toepassing van dit Wetboek worden beschouwd als oprichtingen van nieuwe 
 
 In deze gevallen omvat de inbreng de goederen van elke aard die aan de vennootschap toebehoren op het tijdstip van de overbrenging.
 
-## Art. 119
+###### Art. 119
 
 (van toepassing vanaf 10.04.1994)
 
@@ -2068,7 +2072,7 @@ De inbrengen die bestaan uit andere zaken dan geldspecie of goederen in natura w
 
 De verkoopwaarde van het vruchtgebruik of van de blote eigendom van in België gelegen onroerende goederen wordt bepaald overeenkomstig de artikelen 47 tot 50.
 
-## Art. 120
+###### Art. 120
 
 (van toepassing vanaf 10.04.1994)
 
@@ -2080,7 +2084,7 @@ Zo een inbreng meteen onroerende goederen vermeld in artikel 115bis en goederen 
 
 Deze bepalingen zijn evenwel niet toepasselijk bij inbreng van de universaliteit van de goederen of van een bedrijfstak overeenkomstig artikel 117.
 
-## Art. 121
+###### Art. 121
 
 (van toepassing vanaf 25.11.2025)
 
@@ -2096,7 +2100,7 @@ Met afwijking van de artikelen 115, 115bis, 118 en 120 worden van het evenredig 
 
 In alle gevallen wordt het recht geheven op de vermeerdering van het kapitaal van de vennootschap, zonder nieuwe inbreng, of op de inbrengen van nieuwe goederen, die gedaan worden ter gelegenheid van de omvorming, de wijziging van het voorwerp of de overbrenging van de zetel.
 
-## Art. 122
+###### Art. 122
 
 (van toepassing vanaf 09.03.2026)
 
@@ -2114,7 +2118,7 @@ Onder voorbehoud van de bepalingen van artikel 120, wordt van het evenredig rech
 
 Het evenredig recht, zonder aftrek van het reeds geïnde algemeen vast recht, wordt echter opeisbaar wanneer de in het eerste lid, 4°, bedoelde beleggingsvennootschap de erkenning overeenkomstig de wet van 3 augustus 2012 betreffende de instellingen voor collectieve belegging die voldoen aan de voorwaarden van Richtlijn 2009/65/EG en de instellingen voor belegging in schuldvorderingen niet verkrijgt of verliest, al naar het geval, zulks vanaf de datum van de beslissing tot weigering of tot intrekking van de erkenning.
 
-## Art. 1222
+###### Art. 1222
 
 (van toepassing vanaf 04.05.1965)
 
@@ -2122,7 +2126,7 @@ Het evenredig recht, zonder aftrek van het reeds geïnde algemeen vast recht, wo
 
 (…)
 
-## Art. 123
+###### Art. 123
 
 (van toepassing vanaf 01.05.2019)
 
@@ -2137,7 +2141,7 @@ Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig hoofdstuk
 
 de bijzondere wetgeving van toepassing op deze belastingen, worden gelezen, voor wat deze vennootschap, vereniging of stichting betreft, als een verwijzing naar de bepaling van het Wetboek van vennootschappen of andere bijzondere wetgeving die in zulke fiscale wetgeving voorkwam voor de inwerkingtreding van deze wet (art. 119, § 2); Zolang, overeenkomstig hoofdstuk IV, afdeling II van de wet van 23 maart 2019, een vennootschap, vereniging of stichting, die door het Belgisch recht wordt beheerst, een rechtsvorm heeft die het Wetboek van vennootschappen en verenigingen niet erkent, worden de bepalingen van het Wetboek van de inkomstenbelastingen 1992, het Wetboek van Registratie-, Hypotheek- en Griffierechten, het Wetboek van Successierechten, het Wetboek diverse rechten en taksen en het Wetboek van de Belasting over de Toegevoegde Waarde, de ter uitvoering ervan genomen besluiten en de bijzondere wetgeving van toepassing op deze belastingen, die voor de inwerkingtreding van deze wet deze rechtsvorm vermeldden, geacht deze rechtsvorm te blijven vermelden voor wat deze vennootschap, vereniging of stichting betreft, zoals voor de inwerkingtreding van deze wet. (art. 119, § 3).
 
-## Art. 124
+###### Art. 124
 
 (van toepassing vanaf 01.01.2002)
 
@@ -2153,7 +2157,7 @@ Deze vrijstelling is slechts toepasbaar voor zover er vermeld is in de akte of i
 
 Ingeval deze vermelding ontbreekt of onjuist is, loopt de vennootschap een boete op gelijk aan het ontdoken recht.
 
-## Art. 125
+###### Art. 125
 
 (van toepassing vanaf 04.05.1965)
 
@@ -2161,7 +2165,7 @@ Ingeval deze vermelding ontbreekt of onjuist is, loopt de vennootschap een boete
 
 (…)
 
-## Art. 126
+###### Art. 126
 
 (van toepassing vanaf 04.05.1965)
 
@@ -2169,7 +2173,7 @@ Ingeval deze vermelding ontbreekt of onjuist is, loopt de vennootschap een boete
 
 ( …)
 
-## Art. 127
+###### Art. 127
 
 (van toepassing vanaf 04.05.1965)
 
@@ -2177,7 +2181,7 @@ Ingeval deze vermelding ontbreekt of onjuist is, loopt de vennootschap een boete
 
 ( ...)
 
-## Art. 128
+###### Art. 128
 
 (van toepassing vanaf 04.05.1965)
 
@@ -2186,11 +2190,11 @@ Ingeval deze vermelding ontbreekt of onjuist is, loopt de vennootschap een boete
 Met afwijking van artikel 2, mogen de onderhandse akten welke de in artikelen 115 tot 122 bedoelde overeenkomsten tot voorwerp hebben, op de originelen of op afschriften of uittreksels worden geregistreerd.
 Wanneer de afschriften of uittreksels ter registratie worden aangeboden, moeten ze vergezeld zijn van de oorspronkelijke akte.
 
-## Art. 211
+###### Art. 211
 
 wordt toepasselijk gemaakt op de onderhandse of buitenslands verleden akten die de zelfde overeenkomsten tot voorwerp hebben, al hadden deze geen betrekking op in België gelegen onroerende goederen.
 
-## Art. 129
+###### Art. 129
 
 (van toepassing vanaf 02.11.2023)
 
@@ -2219,7 +2223,7 @@ Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig hoofdstuk
 
 dit decreet naar die rechtsvorm verwezen, geacht daarnaar te blijven verwijzen zoals voor de inwerkingtreding van dit decreet ten aanzien van die vennootschap, vereniging of stichting (art. 155, § 2).
 
-## Art. 130
+###### Art. 130
 
 (van toepassing vanaf 02.11.2023)
 
@@ -2236,11 +2240,11 @@ Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig hoofdstuk
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-##### Afdeling XII - Schenkingen
+#### Afdeling XII - Schenkingen
 
 ##### Onderafdeling I - Algemene bepalingen
 
-## Art. 131
+###### Art. 131
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2262,11 +2266,11 @@ Voor de toepassing van deze afdeling wordt verstaan onder:
 
 - wettelijke samenwonende: de persoon die op het moment van de schenking bij de schenker woonachtig was en zich met hem in een wettelijke samenwoningsrelatie bevond overeenkomstig de bepalingen van Boek III, Titel Vbis, van het Burgerlijk Wetboek, alsook de persoon die op het moment van de schenking bij de schenker woonachtig was of zijn gebruikelijke verblijfplaats bij de schenker had, in de zin van artikel 4 van het Wetboek van Internationaal privaat recht, en zich met hem in een samenwoningsrelatie bevond overeenkomstig Hoofdstuk IV van hetzelfde Wetboek.
 
-##### Afdeling XII - Schenkingen
+#### Afdeling XII - Schenkingen
 
 ##### Onderafdeling I - Algemene bepalingen
 
-## Art. 131
+###### Art. 131
 
 (van toepassing vanaf 03.09.2018)
 
@@ -2288,7 +2292,7 @@ Voor de toepassing van deze afdeling wordt verstaan onder:
 
 - wettelijke samenwonende: de persoon die op het moment van de schenking bij de schenker woonachtig was en zich met hem in een wettelijke samenwoningsrelatie bevond overeenkomstig de bepalingen van Boek III, Titel Vbis, van het Burgerlijk Wetboek, alsook de persoon die op het moment van de schenking bij de schenker woonachtig was of zijn gebruikelijke verblijfplaats bij de schenker had, in de zin van article 4 van het Wetboek van Internationaal privaat recht, en zich met hem in een samenwoningsrelatie bevond overeenkomstig Chapitre IV van hetzelfde Wetboek.
 
-## Art. 131bis
+###### Art. 131bis
 
 (van toepassing vanaf 01.01.2022)
 
@@ -2306,7 +2310,7 @@ Dit recht is evenwel niet van toepassing:
 
 2° op de schenkingen onder levenden van roerende goederen met een opschortende termijn die zich voordoet ingevolge het overlijden van de schenker, en die krachtens artikel 4, 4°, van het Wetboek van successierechten als legaten worden beschouwd voor de heffing van het recht van successie.
 
-## Art. 131ter
+###### Art. 131ter
 
 (van toepassing vanaf 03.09.2018)
 
@@ -2314,7 +2318,7 @@ Dit recht is evenwel niet van toepassing:
 
 (…)
 
-## Art. 131quater
+###### Art. 131quater
 
 (van toepassing vanaf 02.11.2023)
 
@@ -2327,7 +2331,7 @@ In afwijking van artikel 131 wordt een vrijstelling van het schenkingsrecht verl
 2° de waarde van aandelen en deelbewijzen van een bosgroepering in de zin van de wet van 6 mei 1999 ter bevordering van de oprichting van bosgroeperingsvennootschappen, daar ze voorkomt uit bomen op stam in de bossen en wouden, in de zin van artikel 2, eerste en tweede lid, van het Boswetboek en waarvoor de schenkingsrechten geacht worden gevestigd te zijn in het Waalse Gewest.
 Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig hoofdstuk IV, afdeling II, van de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen, niet van toepassing is op een vennootschap, vereniging of stichting, wordt elke verwijzing naar een bepaling van het Wetboek van vennootschappen en verenigingen of van zijn uitvoeringsbesluit die voorkomt in een wetsbepaling gewijzigd bij dit decreet, met betrekking tot die vennootschap, vereniging of stichting, geacht vermeld te blijven als verwijzing naar de bepaling van het Wetboek van vennootschappen, zijn uitvoeringsbesluit of andere specifieke wetgeving die in die bepaling voor de inwerkingtreding van dit decreet voorkwam (art. 155, § 1). Zolang een vennootschap, vereniging of stichting beheerst door het Belgisch recht, overeenkomstig hoofdstuk IV, afdeling II, van de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen, een rechtsvorm behoudt die niet erkend is door het Wetboek van vennootschappen en verenigingen, worden de door dit decreet gewijzigde wettelijke bepalingen die voor de inwerkingtreding van dit decreet naar die rechtsvorm verwezen, geacht daarnaar te blijven verwijzen zoals voor de inwerkingtreding van dit decreet ten aanzien van die vennootschap, vereniging of stichting (art. 155, § 2).
 
-## Art. 131quinquies
+###### Art. 131quinquies
 
 (van toepassing vanaf 01.01.2022)
 
@@ -2359,7 +2363,7 @@ De aangifte opgelegd bij deze paragraaf maakt melding van de authentieke schenki
 De termijn waarvan sprake in § 4, lid 1, wordt verlengd tot 31.12.2014, door art. 2 van het Besluit van 05.12.2013 (B.S., 17.12.2013), met inwerkingtreding op 01.01.2014 (art. 24). Hetzelfde termijn wordt verlengd tot 31.12.2015, door art. 2 van het Besluit van 18.12.2014 (B.S., 31.12.2014 - ed. 2), met inwerkingtreding op 01.01.2015 (art. 3). Hetzelfde termijn wordt verlengd tot 31.12.2016, door art. 2 van het Besluit van 17.12.2015 (B.S., 28.12.2015 - ed. 2), met inwerkingtreding op 01.01.2016 (art. 3).
 (1) "1970" in het Belgisch Staatsblad.
 
-## Art. 131sexies
+###### Art. 131sexies
 
 (van toepassing vanaf 03.09.2018)
 
@@ -2373,7 +2377,7 @@ De vrijstelling bedoeld in het eerste lid is uitsluitend van toepassing als, in 
 
 2° verklaren dat de schenking vóór de datum van de erfovereenkomst of de in lid 1 bedoelde overeenkomst heeft plaatsgevonden.
 
-## Art. 131septies
+###### Art. 131septies
 
 (van toepassing vanaf 01.01.2021)
 
@@ -2402,7 +2406,7 @@ Voor de toepassing van lid 1, 1° en 2°, wordt de vermindering toegekend als de
 De vermindering bedoeld in lid 1, 1° en 2°, is tien percentpunt lager dan de percentages bedoeld in lid 1 wanneer de pacht gesloten wordt met een pachter, ouder dan vijfendertig jaar op het tijdstip van het sluiten van de overeenkomst.
 (1) ‘artikel 8, § 2’ in het B.S.
 
-## Art. 1321
+###### Art. 1321
 
 (van toepassing vanaf 01.01.1990)
 
@@ -2410,7 +2414,7 @@ De vermindering bedoeld in lid 1, 1° en 2°, is tien percentpunt lager dan de p
 
 (…)
 
-## Art. 1322
+###### Art. 1322
 
 (van toepassing vanaf 23.12.2005)
 
@@ -2430,7 +2434,7 @@ Evenwel wordt, mits bewijs te verstrekken door de belanghebbende, met deze adopt
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 1323
+###### Art. 1323
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2459,7 +2463,7 @@ Bij gebrek aan bewijs van het tegendeel wordt de samenwoning met de schenker ver
 Voor de toepassing van deze afdeling wordt de persoon die de schenker onder dezelfde voorwaarden de bijstand en de zorg heeft gegeven voorzien deze afdeling, gelijkgesteld met de vader of de moeder van de schenker.
 (1) ‘zijn e echtgeno(o)t(e)’ in het B.S.
 
-## Art. 1323
+###### Art. 1323
 
 (van toepassing vanaf 23.12.2005)
 
@@ -2471,7 +2475,7 @@ Voor de toepassing van deze afdeling worden gelijkgesteld met schenkingen in de 
 
 2° de schenkingen tussen een persoon en het kind dat door die persoon als opvangouder in de zin van artikel 1, 5°, van het decreet van 4 maart 1991 inzake hulpverlening aan de jeugd of als voogd, toeziende voogd of pleegvoogd in de zin van Titel X van Boek één van het Burgerlijk Wetboek is opgevoed, op voorwaarde dat het kind, vóór de leeftijd van eenentwintig jaar te hebben bereikt en tijdens zes ononderbroken jaren, uitsluitend of hoofdzakelijk van die persoon, of eventueel van die persoon en diens echtgenoot/echtgenote of diens wettelijk samenwonende tezamen, de bijstand en de zorg heeft gekregen die kinderen normalerwijze van hun ouders krijgen.
 
-## Art. 133
+###### Art. 133
 
 (van toepassing vanaf 06.06.2019)
 
@@ -2507,7 +2511,7 @@ het aanvullend schenkingsrecht mogelijk te maken. De verkoopwaarde van het vruch
 
 Voor de herziening van de belastbare grondslag bedoeld in lid 3 wordt enkel rekening gehouden met de verkoopwaarde van het vruchtgebruik voortkomend uit de nalatenschap.
 
-## Art. 134
+###### Art. 134
 
 (van toepassing vanaf 03.09.2018)
 
@@ -2517,7 +2521,7 @@ Voor de toepassing van artikelen 131 tot 133, wordt de last, bestaande uit een s
 
 Voorzover de schenking onderworpen is aan het tarief van artikel 131, wordt de last voor de derde eveneens als schenking belast volgens de tarieven vastgesteld in artikel 131.
 
-## Art. 135
+###### Art. 135
 
 (van toepassing vanaf 03.09.2018)
 
@@ -2529,7 +2533,7 @@ Deze vermindering wordt ten gunste van de begiftigde echtgenoot of wettelijk sam
 
 Voor de toepassing van dit artikel wordt het ontvangen kind voor zover het levensvatbaar geboren wordt, gelijkgesteld met het geboren kind.
 
-## Art. 135bis
+###### Art. 135bis
 
 (van toepassing vanaf 13.01.2011)
 
@@ -2537,7 +2541,7 @@ Voor de toepassing van dit artikel wordt het ontvangen kind voor zover het leven
 
 Het bedrag van de rechten, vereffend ten laste van de begiftigde krachtens artikel 131quinquies, §§ 3 en 4, wordt met 5 p.c. verminderd per jaar waarin de primaire beschermingsregeling toegepast is op de goederen opgenomen in de omtrek van het gebied dat in aanmerking komt voor het Natura 2000-netwerk.
 
-## Art. 136
+###### Art. 136
 
 (van toepassing vanaf 03.09.2018)
 
@@ -2551,7 +2555,7 @@ Ingeval een kind, ontvangen vóór de eisbaarheid van de belasting, geboren word
 
 De begiftigde die in verband met het aantal van zijn afstammelingen een onjuiste verklaring heeft afgelegd, verbeurt een boete gelijk aan het ontdoken recht.
 
-## Art. 137
+###### Art. 137
 
 (van toepassing vanaf 03.09.2018)
 
@@ -2561,7 +2565,7 @@ Ter bepaling van het op een schenking van onroerende goederen toepasselijk tarie
 
 Lid 1 is niet van toepassing op de onroerende goederen die deel uitmaken van een gift van een onderneming die het voorwerp heeft uitgemaakt van het verminderd recht bepaald in artikel 140bis.
 
-## Art. 1381
+###### Art. 1381
 
 (van toepassing vanaf 03.09.2018)
 
@@ -2575,7 +2579,7 @@ De in dit artikel bedoelde verwoordingen en vermeldingen met betrekking tot de s
 
 Bij het ontbreken of de onnauwkeurigheid of onvolledigheid van deze verwoordingen of vermeldingen, wordt aan de partijen een ondeelbare boete opgelegd die gelijk is aan het ontdoken recht, met een minimum van 25 euro.
 
-## Art. 1382
+###### Art. 1382
 
 (van toepassing vanaf 27.09.1947)
 
@@ -2583,7 +2587,7 @@ Bij het ontbreken of de onnauwkeurigheid of onvolledigheid van deze verwoordinge
 
 Voor de toepassing van artikelen 137 en 1381 op de aan een schorsende voorwaarde onderworpen schenkingen, wordt de datum van de vervulling der voorwaarden in de plaats gesteld van de datum van de akte.
 
-## Art. 139
+###### Art. 139
 
 (van toepassing vanaf 23.12.2005)
 
@@ -2591,7 +2595,7 @@ Voor de toepassing van artikelen 137 en 1381 op de aan een schorsende voorwaarde
 
 Bij onjuist opgeven van den graad van verwantschap of band van aanverwantschap of wettelijk samenwonen of van het statuut van opvangouder tussen schenker en begiftigde, is door deze laatsten, benevens het ontdoken recht, ondeelbaar een boete verschuldigd gelijk aan het bedrag van dat recht.
 
-## Art. 140
+###### Art. 140
 
 (van toepassing vanaf 02.11.2023)
 
@@ -2640,7 +2644,7 @@ Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig hoofdstuk
 
 ##### Onderafdeling II - Bijzondere bepalingen voor schenkingen van ondernemingen
 
-## Art. 140bis
+###### Art. 140bis
 
 (van toepassing vanaf 02.11.2023)
 
@@ -2706,7 +2710,7 @@ De bovenvermelde schuldvorderingen worden evenwel uitgesloten voor zover het tot
 2° het deel van het bedrag van de op de datum van de authentieke akte van schenking gedane inbrengen, zoals dat blijkt uit de jaarrekening, wanneer de vennootschap een rechtsvorm heeft waarvoor het Belgische of buitenlandse recht dat de vennootschap beheerst, niet voorziet in het begrip kapitaal of een daarmee gelijkgesteld begrip.
 Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig hoofdstuk IV, afdeling II, van de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen, niet van toepassing is op een vennootschap, vereniging of stichting, wordt elke verwijzing naar een bepaling van het Wetboek van vennootschappen en verenigingen of van zijn uitvoeringsbesluit die voorkomt in een wetsbepaling gewijzigd bij dit decreet, met betrekking tot die vennootschap, vereniging of stichting, geacht vermeld te blijven als verwijzing naar de bepaling van het Wetboek van vennootschappen, zijn uitvoeringsbesluit of andere specifieke wetgeving die in die bepaling voor de inwerkingtreding van dit decreet voorkwam (art. 155, § 1). Zolang een vennootschap, vereniging of stichting beheerst door het Belgisch recht, overeenkomstig hoofdstuk IV, afdeling II, van de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen, een rechtsvorm behoudt die niet erkend is door het Wetboek van vennootschappen en verenigingen, worden de door dit decreet gewijzigde wettelijke bepalingen die voor de inwerkingtreding van dit decreet naar die rechtsvorm verwezen, geacht daarnaar te blijven verwijzen zoals voor de inwerkingtreding van dit decreet ten aanzien van die vennootschap, vereniging of stichting (art. 155, § 2).
 
-## Art. 140ter
+###### Art. 140ter
 
 (van toepassing vanaf 01.01.2006)
 
@@ -2714,7 +2718,7 @@ Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig hoofdstuk
 
 (…)
 
-## Art. 140quater
+###### Art. 140quater
 
 (van toepassing vanaf 23.12.2009)
 
@@ -2722,7 +2726,7 @@ Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig hoofdstuk
 
 Indien uiterlijk wanneer de akte ter registratie overgelegd wordt niet voldaan is aan één van de bij artikel 140bis gestelde voorwaarden, wordt de akte geregistreerd tegen betaling van het bij de artikelen 131 tot 140 vastgestelde recht. Geen enkele vordering tot teruggaaf is ontvankelijk, onder voorbehoud van een teruggave onder de voorwaarden bedoeld in artikel 209, 7°.
 
-## Art. 140quinquies
+###### Art. 140quinquies
 
 (van toepassing vanaf 02.11.2023)
 
@@ -2748,7 +2752,7 @@ Wat betreft de zakelijke rechten op onroerende goederen die met het voordeel van
 
 § 2. Behalve in geval van overmacht, wordt het overeenkomstig de artikelen 131 tot 140 verschuldigde recht, vermeerderd met de wettelijke interest tegen de rentevoet bepaald in burgerlijke zaken te rekenen van de datum van registratie van de schenking, opeisbaar ten laste van de opvolger, vanaf het ogenblik waarop de voorwaarden van § 1 niet meer vervuld zijn, behalve indien die opvolger gebruik heeft gemaakt van de mogelijkheid om voor te stellen om het verschuldigde recht te betalen, zoals bepaald bij artikel 140sexies, voor dat ogenblik.
 
-## Art. 140sexies
+###### Art. 140sexies
 
 (van toepassing vanaf 01.01.2018)
 
@@ -2756,7 +2760,7 @@ Wat betreft de zakelijke rechten op onroerende goederen die met het voordeel van
 
 De opvolger die de toepassing van het verlaagd recht heeft genoten kan aanbieden om het overeenkomstig de artikelen 131 tot 140 verschuldigde recht, vermeerderd met de wettelijke interest tegen de rentevoet bepaald in burgerlijke zaken, opeisbaar te rekenen van de datum van registratie van de schenking, te betalen alvorens de termijn van vijf jaar is verstreken gedurende dewelke de voorwaarden van artikel 140quinquies, § 1, behouden moeten blijven en voor het aanbreken van het ogenblik bedoeld in artikel 140quinquies, § 2.
 
-## Art. 140septies
+###### Art. 140septies
 
 (van toepassing vanaf 01.01.2018)
 
@@ -2766,7 +2770,7 @@ Het overeenkomstig artikel 140quinquies, § 2, opeisbare recht is evenwel niet o
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 140octies
+###### Art. 140octies
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2778,7 +2782,7 @@ Indien artikel 140sexies van toepassing is, biedt de opvolger die het verlaagd r
 
 Deze verklaring wordt door de opvolger die het verlaagd recht heeft genoten ondertekend en vermeldt de akte, de oorzaak van de opeisbaarheid van het verschuldigde recht en al de voor de vereffening van het recht vereiste gegevens. Een kopie wordt bewaard door de bevoegde dienst van de Algemene administratie van de patrimoniumdocumentatie.
 
-## Art. 140octies
+###### Art. 140octies
 
 (van toepassing vanaf 07.02.2022)
 
@@ -2794,9 +2798,9 @@ Deze verklaring wordt in dubbel gesteld en door de opvolger die het verlaagd rec
 
 TOEKOMSTIG RECHT (inwerkingtreding door de Regering vastgesteld)
 
-##### Afdeling XIII - Specifieke bepalingen voor schenkingen, verricht onmiddellijk na een successie
+#### Afdeling XIII - Specifieke bepalingen voor schenkingen, verricht onmiddellijk na een successie
 
-## Art. 141
+###### Art. 141
 
 (hersteld bij art. 1 van het decreet van 06.05.2019 (B.S., 11.09.2019). De inwerkingtreding wordt door de Regering vastgesteld (art. 2))
 
@@ -2810,9 +2814,9 @@ TOEKOMSTIG RECHT (inwerkingtreding door de Regering vastgesteld)
 
 § 5. De schenkingen van onroerende goederen, verricht overeenkomstig bovenstaande leden, komen niet in aanmerking voor de toepassing van de artikelen 137 en 138/1 van dit Wetboek.
 
-##### Afdeling XIII – Huwelijkscontracten en testamenten
+#### Afdeling XIII – Huwelijkscontracten en testamenten
 
-## Art. 141
+###### Art. 141
 
 (van toepassing vanaf 01.01.1990)
 
@@ -2820,9 +2824,9 @@ TOEKOMSTIG RECHT (inwerkingtreding door de Regering vastgesteld)
 
 (…)
 
-##### Afdeling XIV- Vonnissen en arresten
+#### Afdeling XIV- Vonnissen en arresten
 
-## Art. 142
+###### Art. 142
 
 (van toepassing vanaf 01.01.1994)
 
@@ -2832,7 +2836,7 @@ Het recht wordt vastgesteld op 3 pct. voor de in alle zaken gewezen arresten en 
 
 Het recht wordt vereffend, in geval van veroordeling of vereffening van sommen en roerende waarden, op het samengevoegd bedrag, in hoofdsom, van de uitgesproken veroordelingen of van de gedane vereffeningen ten laste van een zelfde persoon, afgezien van de interesten waarvan het bedrag niet door de rechter is becijferd en kosten, en, in geval van rangregeling, op het totaal bedrag der aan de schuldeisers uitgedeelde sommen.
 
-## Art. 143
+###### Art. 143
 
 (van toepassing vanaf 01.01.2002)
 
@@ -2849,7 +2853,7 @@ De bepaling van artikel 142 is niet toepasselijk:
 
 Zij is niet toepasselijk wanneer het samengevoegd bedrag van de uitgesproken veroordelingen en van de gedane vereffeningen ten laste van een zelfde persoon, of van de aan de schuldeisers van een zelfde persoon uitgedeelde sommen, 12.500 EUR niet overtreft.
 
-## Art. 144
+###### Art. 144
 
 (van toepassing vanaf 01.01.2002)
 
@@ -2860,7 +2864,7 @@ Werd het bij artikel 142 vastgestelde recht op een later veranderd vonnis of arr
 
 Wanneer een vonnis of arrest een hoofdelijke veroordeling uitspreekt en de op dat vonnis of arrest verschuldigde rechten volledig of gedeeltelijk betaald werden door één van de veroordeelden, maakt de beslissing, waardoor diegene die betaald heeft, buiten zaak wordt gesteld, de rechten die deze betaald heeft opeisbaar in hoofde van de andere hoofdelijke veroordeelden, dit alles onverminderd de toepassing van de voorschriften genomen in het eerste lid.
 
-## Art. 145
+###### Art. 145
 
 (van toepassing vanaf 01.01.2002)
 
@@ -2869,7 +2873,7 @@ Wanneer een vonnis of arrest een hoofdelijke veroordeling uitspreekt en de op da
 
 Werd het bij artikel 142 vastgestelde recht op een vonnis of arrest geheven, dan wordt op elke andere veroordeling ten laste van dezelfde persoon of van een derde, welke steunt hetzij op dezelfde oorzaak hetzij op een verplichting tot waarborg en meer in het algemeen op elke door de in eerste orde veroordeelde persoon uitgeoefende verhaalsvordering, het recht van 3 t.h. alleen geheven op de aanvullende veroordeling tot sommen of waarden, en voor zover deze 12.500 EUR te boven gaat.
 
-## Art. 146
+###### Art. 146
 
 (van toepassing vanaf 01.01.1990)
 
@@ -2879,7 +2883,7 @@ De vonnissen en arresten die tot bewijs strekken van een overeenkomst waarbij ei
 
 Dit geldt eveneens, zelfs indien de rechterlijke beslissing die tot bewijs van de overeenkomst strekt, de ontbinding of herroeping ervan voor om 't even welke reden uitspreekt, tenzij uit de beslissing blijkt dat ten hoogste één jaar na de overeenkomst een eis tot ontbinding of herroeping, zelfs bij een onbevoegd rechter, werd ingesteld.
 
-## Art. 147
+###### Art. 147
 
 (van toepassing vanaf 01.01.1961)
 
@@ -2887,7 +2891,7 @@ Dit geldt eveneens, zelfs indien de rechterlijke beslissing die tot bewijs van d
 
 De vonnissen en arresten houdende vernietiging, ontbinding of herroeping van een overeenkomst waarbij eigendom of vruchtgebruik van in België gelegen onroerende goederen overgedragen of aangewezen wordt, geven geen aanleiding tot heffing van het evenredig recht uit hoofde van dat te niet doen, tenzij die uitgesproken zij ten voordele van een ander persoon dan een van de partijen bij de overeenkomst, haar erfgenamen of legatarissen. In laatstbedoeld geval worden de rechten geheven die verschuldigd waren geweest indien de vernietiging, de ontbinding of de herroeping het voorwerp van een minnelijke akte had uitgemaakt.
 
-## Art. 148
+###### Art. 148
 
 (van toepassing vanaf 01.01.1961)
 
@@ -2897,7 +2901,7 @@ Exequaturs van scheidsrechterlijke uitspraken en van buitenlands gewezen rechter
 
 Deze rechten zijn eveneens van toepassing in geval van aanbieding ter registratie van een buitenlands gewezen rechterlijke beslissing indien zij van rechtswege in België uitvoerbaar is.
 
-## Art. 149
+###### Art. 149
 
 (van toepassing vanaf 01.01.1961)
 
@@ -2905,7 +2909,7 @@ Deze rechten zijn eveneens van toepassing in geval van aanbieding ter registrati
 
 Behoudens in de gevallen beoogd door de artikelen 146 tot 148 maken de vonnissen en arresten geen evenredig recht eisbaar uit hoofde van de overeenkomsten waarvan zij het bestaan vaststellen.
 
-## Art. 150
+###### Art. 150
 
 (van toepassing vanaf 01.11.1986)
 
@@ -2915,7 +2919,7 @@ Om de invordering van de rechten en, in voorkomend geval, van de boeten eisbaar 
 
 De rechten en boeten bedoeld in het eerste lid gaan boven alle schuldvorderingen van de begunstigden van de veroordelingen, vereffeningen of rangregelingen.
 
-## Art. 151
+###### Art. 151
 
 (van toepassing vanaf 01.01.1961)
 
@@ -2923,7 +2927,7 @@ De rechten en boeten bedoeld in het eerste lid gaan boven alle schuldvorderingen
 
 (…)
 
-## Art. 152
+###### Art. 152
 
 (van toepassing vanaf 01.01.1961)
 
@@ -2931,12 +2935,12 @@ De rechten en boeten bedoeld in het eerste lid gaan boven alle schuldvorderingen
 
 (…)
 
-##### Afdeling XV - (…)
+#### Afdeling XV - (…)
 
 (opgeheven bij art. 2/art. 29 van de wet van 10.10.1967 (B.S., 31.10.1967). Tekst van toepassing vanaf 01.01.1969 (art. 3,
 28°, KB van 04.11.1968 (B.S., 13.11.1968))
 
-## Art. 153
+###### Art. 153
 
 (van toepassing vanaf 01.01.1969)
 
@@ -2945,12 +2949,12 @@ De rechten en boeten bedoeld in het eerste lid gaan boven alle schuldvorderingen
 
 ( …)
 
-##### Afdeling XVI - (…)
+#### Afdeling XVI - (…)
 
 (opgeheven bij art. 2/art. 29 van de wet van 10.10.1967 (B.S., 31.10.1967). Tekst van toepassing vanaf 01.01.1969 (art. 3,
 28°, KB van 04.11.1968 (B.S., 13.11.1968))
 
-## Art. 154
+###### Art. 154
 
 (van toepassing vanaf 01.01.1969)
 
@@ -2959,12 +2963,12 @@ De rechten en boeten bedoeld in het eerste lid gaan boven alle schuldvorderingen
 
 (…)
 
-##### Afdeling XVII - (…)
+#### Afdeling XVII - (…)
 
 (opgeheven bij art. 2/art. 29 van de wet van 10.10.1967 (B.S., 31.10.1967). Tekst van toepassing vanaf 01.01.1969 (art. 3,
 28°, KB van 04.11.1968 (B.S., 13.11.1968))
 
-## Art. 155
+###### Art. 155
 
 (van toepassing vanaf 01.01.1969)
 
@@ -2973,11 +2977,11 @@ De rechten en boeten bedoeld in het eerste lid gaan boven alle schuldvorderingen
 
 (…)
 
-##### Afdeling XVIII - (…)
+#### Afdeling XVIII - (…)
 
 (opgeheven bij art. 11 van de wet van 12.07.1960 (B.S., 09.11.1960). Tekst van toepassing vanaf 01.01.1961 (art. 39))
 
-## Art. 156
+###### Art. 156
 
 (van toepassing vanaf 01.01.1961)
 
@@ -2985,9 +2989,9 @@ De rechten en boeten bedoeld in het eerste lid gaan boven alle schuldvorderingen
 
 (…)
 
-##### Afdeling XIX - Protesten
+#### Afdeling XIX - Protesten
 
-## Art. 157
+###### Art. 157
 
 (van toepassing vanaf 01.09.2013)
 
@@ -2995,11 +2999,11 @@ De rechten en boeten bedoeld in het eerste lid gaan boven alle schuldvorderingen
 
 (…)
 
-##### Afdeling XIXbis - Aangehechte akten en geschriften
+#### Afdeling XIXbis - Aangehechte akten en geschriften
 
 (ingevoegd bij art. 51 van de wet van 21.12.2013 (B.S., 31.12.2013 – ed. 2). Tekst van toepassing vanaf 10.01.2014 (art. 87, 3°))
 
-## Art. 158
+###### Art. 158
 
 (van toepassing vanaf 01.04.2014)
 
@@ -3009,9 +3013,9 @@ De aangehechte akten of geschriften bedoeld in artikel 26, tweede lid, worden ge
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-##### Afdeling XX - Akten vrijgesteld van het evenredig recht en onderhevig aan het algemeen vast recht
+#### Afdeling XX - Akten vrijgesteld van het evenredig recht en onderhevig aan het algemeen vast recht
 
-## Art. 159
+###### Art. 159
 
 (van toepassing vanaf 01.01.2028)
 
@@ -3146,9 +3150,9 @@ Elke partij die de vrijstelling bedoeld in lid 1 heeft genoten kan voorstellen o
 
 De Regering bepaalt de nadere regels voor de aanvraag en het verstrekken van het attest van de werken, evenals de daarbijhorende stukken.
 
-##### Afdeling XX - Akten vrijgesteld van het evenredig recht en onderhevig aan het algemeen vast recht
+#### Afdeling XX - Akten vrijgesteld van het evenredig recht en onderhevig aan het algemeen vast recht
 
-## Art. 159
+###### Art. 159
 
 (van toepassing vanaf 09.03.2026)
 
@@ -3284,11 +3288,11 @@ Elke partij die de vrijstelling bedoeld in lid 1 heeft genoten kan voorstellen o
 
 De Regering bepaalt de nadere regels voor de aanvraag en het verstrekken van het attest van de werken, evenals de daarbijhorende stukken.
 
-##### Afdeling XXI - Akten vrijgesteld van het evenredig recht en onderhevig aan een bijzonder vast recht van 10 euro
+#### Afdeling XXI - Akten vrijgesteld van het evenredig recht en onderhevig aan een bijzonder vast recht van 10 euro
 
 (ingevoegd bij art. 67 van het decreet van 30.04.2009 (B.S., 01.07.2009). Tekst van toepassing vanaf 01.07.2009 (art. 69))
 
-## Art. 159bis
+###### Art. 159bis
 
 (van toepassing vanaf 01.07.2009)
 
@@ -3324,9 +3328,9 @@ a) wanneer de ontbonden overeenkomst bij een authentieke akte vastgesteld is, de
 
 b) de ontbonden overeenkomst niet meer dan één jaar voor de datum van vervulling van de ontbindende voorwaarde gesloten is.
 
-#### HOOFDSTUK V - Registratie in debet
+### HOOFDSTUK V - Registratie in debet
 
-## Art. 160
+###### Art. 160
 
 (van toepassing vanaf 01.01.2015)
 
@@ -3356,9 +3360,9 @@ De rechten worden ingevorderd overeenkomstig de bepalingen van het Gerechtelijk 
 
 De rechten worden in de gerechtskosten begrepen en als zodanig ingevorderd ten laste van de tot betaling er van veroordeelde partij.
 
-#### HOOFDSTUK VI - Kosteloze registratie
+### HOOFDSTUK VI - Kosteloze registratie
 
-## Art. 161
+###### Art. 161
 
 (van toepassing vanaf 09.03.2026)
 
@@ -3430,7 +3434,7 @@ De bijlagen bij een dergelijke verklaring worden ook kosteloos geregistreerd, be
 16° de akten van erfopvolging bedoeld in artikel 3.30, § 1, 7°, van het Burgerlijk Wetboek, op voorwaarde dat de instrumenterende ambtenaar voor het opstellen van de akte geen vacaties of kosten vraagt en de akte opgesteld wordt binnen de 6 maanden na het overlijden.
 (1) Vanaf 03.08.2017 tot 02.08.2020 mag het netto actief van de nalatenschap niet meer bedragen dan 5.000 EUR. Vanaf 03.08.2020 tot 31.07.2023 bedraagt het geïndexeerde bedrag 5.219,21 euro. Vanaf 01.08.2023 tot 31.07.2026 bedraagt het geïndexeerde bedrag 6.093,20 euro (EE/107.394).
 
-## Art. 161/1
+###### Art. 161/1
 
 (van toepassing vanaf 09.11.2019)
 
@@ -3438,9 +3442,9 @@ De bijlagen bij een dergelijke verklaring worden ook kosteloos geregistreerd, be
 
 Onverminderd artikel 162, 51°, worden de akten, vonnissen en arresten, betreffende een overeenkomstig Boek XX, Titel V van het Wetboek van economisch recht ingestelde procedure van gerechtelijke reorganisatie vrijgesteld van de registratierechten die niet worden bedoeld in artikel 3 van de bijzondere wet van 16 januari 1989 betreffende de financiering van de Gemeenschappen en de Gewesten.
 
-#### HOOFDSTUK VII - Vrijstelling van de formaliteit der registratie
+### HOOFDSTUK VII - Vrijstelling van de formaliteit der registratie
 
-## Art. 162
+###### Art. 162
 
 (van toepassing vanaf 02.09.2023)
 
@@ -3586,7 +3590,7 @@ b) de in artikelen 146 en 147 bedoelde vonnissen en arresten;
 (2) Het “47°” ingevoegd bij art. 28, § 1 van de wet van 21.02.2003 zou het “48°” moeten zijn.
 (3) Het “47°” ingevoegd bij art. 82 van de wet van 24.03.2003 zou het “49°” moeten zijn.
 
-## Art. 163
+###### Art. 163
 
 (van toepassing vanaf 04.05.1965)
 
@@ -3602,23 +3606,23 @@ a) processen-verbaal van verkoop van in beslag genomen roerende of onroerende go
 
 b) processen-verbaal van rangregeling en van verdeling bij aandelen.
 
-## Art. 164
+###### Art. 164
 
 (van toepassing vanaf 01.02.1940)
 
 Zijn mede van de formaliteit der registratie vrijgesteld, de uitgiften, afschriften van en uittreksels uit akten welke geregistreerd werden of die krachtens artikel 162 van de formaliteit zijn vrijgesteld.
 
-## Art. 165
+###### Art. 165
 
 (van toepassing vanaf 01.02.1940)
 
 Indien een bij artikelen 162 en 164 van de formaliteit der registratie vrijgestelde akte of geschrift toch ter registratie wordt aangeboden, geeft zij aanleiding tot het heffen van het algemeen vast recht.
 
-#### HOOFDSTUK VIII - Diverse bepalingen betreffende de vereffening van de rechten en de betaling van het verschuldigde bedrag
+### HOOFDSTUK VIII - Diverse bepalingen betreffende de vereffening van de rechten en de betaling van het verschuldigde bedrag
 
 (gewijzigd bij art. 6 van de wet van 26.05.2016 (B.S., 09.06.2016). Tekst van toepassing vanaf 01.01.2015 (art. 8))
 
-## Art. 166
+###### Art. 166
 
 (van toepassing vanaf 01.01.2002)
 
@@ -3628,13 +3632,13 @@ In geval van openbare verkoping van roerende of onroerende goederen of van openb
 
 Het bedrag van het vereffende recht wordt, desvoorkomend, tot de hogere eurocent afgerond.
 
-## Art. 167
+###### Art. 167
 
 (van toepassing vanaf 01.02.1940)
 
 Wanneer er niet anderszins bij deze titel over beschikt is, mag het bedrag van het op een akte of een verklaring te heffen evenredig recht niet minder dan in het algemeen vast recht bedragen.
 
-## Art. 168
+###### Art. 168
 
 (van toepassing vanaf 04.05.1965)
 
@@ -3646,7 +3650,7 @@ Wanneer een zelfde overeenkomst meteen op in België gelegen onroerende goederen
 
 Indien de bepaling van den belastbaren grondslag geheel of gedeeltelijk van de schatting van een levenslang recht afhangt, moet de verklaring naam, voornamen, woonplaats, plaats en datum van geboorte van de beneficianten van dit levenslang recht vervatten.
 
-## Art. 169
+###### Art. 169
 
 (van toepassing vanaf 01.02.1940)
 
@@ -3654,7 +3658,7 @@ De rechten verschuldigd op akten waarbij eigendom of vruchtgebruik van een hande
 
 De schulden die al dan niet met de handelszaak in verband staan en die door den nieuwe eigenaar of vruchtgebruiker ten laste genomen worden, moeten als lasten van de overeenkomst beschouwd worden.
 
-## Art. 169bis
+###### Art. 169bis
 
 (van toepassing vanaf 25.01.1999)
 
@@ -3662,7 +3666,7 @@ De schulden die al dan niet met de handelszaak in verband staan en die door den 
 
 Voor de toepassing van de artikelen 115bis en 140bis, moet de aanwending of de bestemming van een onroerend goed worden nagegaan per kadastraal perceel of per gedeelte van kadastraal perceel wanneer dat gedeelte is ofwel een afzonderlijke huisvesting, ofwel een afdeling van de productie of van de werkzaamheden die, of een onderdeel daarvan dat, afzonderlijk kan werken, ofwel een eenheid die van de andere goederen of delen die het perceel vormen kan worden afgezonderd.
 
-## Art. 169ter
+###### Art. 169ter
 
 (van toepassing vanaf 01.12.2021)
 
@@ -3674,11 +3678,11 @@ Behalve wanneer ze verschuldigd zijn in het kader van de registratierechten die,
 
 Niemand kan, onder voorwendsel van betwisting van het verschuldigde bedrag of om enige andere reden, die betaling verminderen of uitstellen, behoudens het recht om teruggave te vorderen, indien daartoe grond bestaat.
 
-#### HOOFDSTUK IX - Verplichtingen met het oog op het verzekeren van het heffen van de rechten
+### HOOFDSTUK IX - Verplichtingen met het oog op het verzekeren van het heffen van de rechten
 
-##### Afdeling I - Vermeldingen op te nemen in bepaalde akten
+#### Afdeling I - Vermeldingen op te nemen in bepaalde akten
 
-## Art. 170
+###### Art. 170
 
 (van toepassing vanaf 01.01.2002)
 
@@ -3692,7 +3696,7 @@ Indien die akte niet geregistreerd werd, dan wordt daarvan in de authentieke akt
 
 Alle overtreding van dit artikel wordt gestraft met een boete van 25 EUR ten laste van den werkenden ambtenaar of openbaren officier.
 
-## Art. 170bis
+###### Art. 170bis
 
 (van toepassing vanaf 01.01.2002)
 
@@ -3704,7 +3708,7 @@ In geval van weigering de verklaring te doen of bij onjuiste of onvolledige verk
 
 De notaris die nagelaten heeft de schenker te vragen de verklaring te doen, verbeurt een boete van 25 EUR.
 
-## Art. 171
+###### Art. 171
 
 (van toepassing vanaf 17.08.2020)
 
@@ -3714,9 +3718,9 @@ Alle expedities, afschriften van of uittreksels uit een burgerlijke of gerechtel
 
 Het eerste lid is niet van toepassing op een afschrift gemaakt met het oog op de aanbieding ervan ter formaliteit van de registratie.
 
-##### Afdeling II - Voorschriften betreffende het uitreiken van uitgiften
+#### Afdeling II - Voorschriften betreffende het uitreiken van uitgiften
 
-## Art. 172
+###### Art. 172
 
 (van toepassing vanaf 01.01.2002)
 
@@ -3727,7 +3731,7 @@ Notarissen, gerechtsdeurwaarders, griffiers der hoven en rechtbanken en bestuurl
 
 Alle overtreding van dit verbod wordt met een geldboete van 25 EUR gestraft.
 
-## Art. 173
+###### Art. 173
 
 (van toepassing vanaf 17.08.2020)
 
@@ -3757,7 +3761,7 @@ Van voorgaand artikel wordt afgeweken ten aanzien van:
 
 8° de gedematerialiseerde afschriften van notariële akten, die worden neergelegd in de Notariële Aktebank overeenkomstig artikel 18 van de wet van 25 ventôse jaar XI op het notarisambt.
 
-## Art. 174
+###### Art. 174
 
 (van toepassing vanaf 01.11.1986)
 
@@ -3765,7 +3769,7 @@ Van voorgaand artikel wordt afgeweken ten aanzien van:
 
 (…)
 
-## Art. 175
+###### Art. 175
 
 (van toepassing vanaf 01.01.1961)
 
@@ -3773,9 +3777,9 @@ Van voorgaand artikel wordt afgeweken ten aanzien van:
 
 (…)
 
-##### Afdeling III - Repertorium van de akten
+#### Afdeling III - Repertorium van de akten
 
-## Art. 176
+###### Art. 176
 
 (van toepassing vanaf 28.09.1963)
 
@@ -3783,7 +3787,7 @@ Van voorgaand artikel wordt afgeweken ten aanzien van:
 
 Notarissen en gerechtsdeurwaarders moeten een kolomsgewijze ingedeeld repertorium houden, waarin zij dagelijks zonder openlaten van tussenruimte, noch tussenregel, noch vervalsing en in de volgorde der nummers, alle akten van hun ambt inschrijven.
 
-## Art. 177
+###### Art. 177
 
 (van toepassing vanaf 10.01.2014)
 
@@ -3804,7 +3808,7 @@ In elk artikel van het repertorium dienen vermeld:
 
 De Koning kan aanvullende vermeldingen voorschrijven of afwijkingen toestaan.
 
-## Art. 178
+###### Art. 178
 
 (van toepassing vanaf 01.01.2002)
 
@@ -3813,7 +3817,7 @@ De Koning kan aanvullende vermeldingen voorschrijven of afwijkingen toestaan.
 
 Een boete van 25 EUR wordt verbeurd voor elke weggelaten of te laat in het repertorium ingeschreven akte, voor elke akte ingeschreven met tussenregel of met vervalsing, alsmede voor elke akte van vroegere datum dan die van het proces-verbaal van nummering en waarmerk van het repertorium.
 
-## Art. 179
+###### Art. 179
 
 (van toepassing vanaf 10.01.2010)
 
@@ -3823,7 +3827,7 @@ De in artikel 176 bedoelde repertoria die moeten worden gehouden door de notaris
 
 De Koning kan bepalen dat de repertoria die door de gerechtsdeurwaarders moeten worden gehouden, mogen worden gehouden op een gedematerialiseerde wijze die vastgesteld is door de Nationale Kamer van gerechtsdeurwaarders in een door de Koning goedgekeurd reglement.
 
-## Art. 180
+###### Art. 180
 
 (van toepassing vanaf 01.04.2014)
 
@@ -3837,7 +3841,7 @@ De Koning kan voor de op gedematerialiseerde wijze gehouden repertoria bijzonder
 
 Bij laattijdige voorlegging van het repertorium wordt een boete verbeurd van 25 euro per week vertraging.
 
-## Art. 180bis
+###### Art. 180bis
 
 (van toepassing vanaf 09.03.2026)
 
@@ -3855,7 +3859,7 @@ Die bewaring geschiedt:
 
 De bewaring moet de onveranderlijkheid en de integriteit van de inhoud van deze stukken waarborgen.
 
-## Art. 180ter
+###### Art. 180ter
 
 (van toepassing vanaf 17.08.2020)
 
@@ -3867,9 +3871,9 @@ De griffier bewaart, samen met de minuut van het vonnis of arrest:
 
 2° een kopie van het geregistreerde afschrift van dat vonnis of arrest.
 
-##### Afdeling IV - Verplichting van inzageverlening
+#### Afdeling IV - Verplichting van inzageverlening
 
-## Art. 1811
+###### Art. 1811
 
 (van toepassing vanaf 16.05.2016)
 
@@ -3879,7 +3883,7 @@ Notarissen, gerechtsdeurwaarders, bestuursoverheden en ambtenaren van de Staat, 
 
 Deze verplichting is echter, bij 't leven van de erflaters, niet toepasselijk op de bij notarissen berustende testamenten.
 
-## Art. 1812
+###### Art. 1812
 
 (van toepassing vanaf 17.08.2020)
 
@@ -3895,7 +3899,7 @@ De griffiers van de hoven en rechtbanken zijn er toe gehouden op straf van een b
 
 De modaliteiten waaronder deze inzage moet verleend worden en de termijn waarbinnen dit moet geschieden, worden bij koninklijk besluit bepaald. Inbreuken op de voorschriften van dit koninklijk besluit kunnen beteugeld worden met boeten waarvan het bedrag 25 EUR per inbreuk niet zal te boven gaan.
 
-## Art. 182
+###### Art. 182
 
 (van toepassing vanaf 16.05.2016)
 (gewijzigd bij art. 57 van de wet van 27.04.2016 (B.S., 06.05.2016). Tekst van toepassing vanaf 16.05.2016 (art. -))
@@ -3904,7 +3908,7 @@ De personen die de in artikel 631 bedoelde beroepsaangifte ondertekenen zijn ert
 
 Elke weigering van inzageverlening wordt bij proces-verbaal vastgesteld en gestraft met een geldboete van 250 tot 2.500 EUR, waarvan het bedrag door de bevoegde adviseur-generaal van de Algemene Administratie van de Patrimoniumdocumentatie wordt bepaald.
 
-## Art. 182bis
+###### Art. 182bis
 
 (van toepassing vanaf 16.05.2014)
 
@@ -3916,7 +3920,7 @@ Elke weigering van inzageverlening wordt bij proces-verbaal vastgesteld en wordt
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 183
+###### Art. 183
 
 (van toepassing vanaf 01.01.2028)
 
@@ -3930,7 +3934,7 @@ De inlichtingen moeten worden verschaft binnen drie maanden na de datum waarop z
 
 Voor elke overtreding wordt een boete verbeurd van 250 tot 2.500 EUR, waarvan het bedrag door de bevoegde adviseur-generaal van de Algemene Administratie van de Patrimoniumdocumentatie wordt vastgesteld.
 
-## Art. 183
+###### Art. 183
 
 (van toepassing vanaf 16.05.2016)
 
@@ -3946,7 +3950,7 @@ Voor elke overtreding wordt een boete verbeurd van 250 tot 2.500 EUR, waarvan he
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 184
+###### Art. 184
 
 (van toepassing vanaf 01.01.2028)
 
@@ -3956,7 +3960,7 @@ Wanneer de som te betalen door de eigenaar van een muur om deze gemeen te maken,
 
 De Koning bepaalt de modaliteiten van deze communicatie en duidt de ambtenaar aan ertoe bevoegd hetzelve te ontvangen.
 
-## Art. 184
+###### Art. 184
 
 (van toepassing vanaf 16.05.2014)
 
@@ -3966,9 +3970,9 @@ Wanneer de som te betalen door de eigenaar van een muur om deze gemeen te maken,
 
 Een koninklijk besluit bepaalt de wijze waarop dit bericht dient gegeven en duidt de ambtenaar aan ertoe bevoegd hetzelve te ontvangen.
 
-##### Afdeling V - Verplichtingen opgelegd aan openbare ambtenaren ter verzekering van de invordering der registratierechten
+#### Afdeling V - Verplichtingen opgelegd aan openbare ambtenaren ter verzekering van de invordering der registratierechten
 
-## Art. 184bis
+###### Art. 184bis
 
 (van toepassing vanaf 30.07.2018)
 
@@ -3981,11 +3985,11 @@ Het eerste lid is slechts van toepassing op de vereffenaars en de curators in he
 Indien de personen bepaald in het eerste lid de voorschriften van dit artikel niet zijn nagekomen, zijn zij persoonlijk aansprakelijk voor de betaling van de sommen die opeisbaar blijven.
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-#### HOOFDSTUK X - Bewijsmiddelen
+### HOOFDSTUK X - Bewijsmiddelen
 
-##### Afdeling I - Algemene bepalingen
+#### Afdeling I - Algemene bepalingen
 
-## Art. 185
+###### Art. 185
 
 (van toepassing vanaf 01.01.2028)
 
@@ -3995,11 +3999,11 @@ Behoudens de bewijs- en controlemiddelen speciaal voorzien in deze titel, wordt 
 
 De processen-verbaal gelden als bewijs tot het tegendeel bewezen is. Zij zullen aan belanghebbenden betekend worden binnen de maand van de vaststelling van de overtreding. Deze betekening gebeurt met een aangetekende zending.
 
-#### HOOFDSTUK X - Bewijsmiddelen
+### HOOFDSTUK X - Bewijsmiddelen
 
-##### Afdeling I - Algemene bepalingen
+#### Afdeling I - Algemene bepalingen
 
-## Art. 185
+###### Art. 185
 
 (van toepassing vanaf 16.05.2016)
 
@@ -4011,7 +4015,7 @@ beschikkingen van deze titel vast te stellen en om het even welk feit te bewijze
 
 De processen-verbaal gelden als bewijs tot het tegendeel bewezen is. Zij zullen aan belanghebbenden betekend worden binnen de maand van de vaststelling van de overtreding. Deze betekening mag gebeuren bij een ter post aangetekend schrijven. De afgifte van het stuk ter post geldt als betekening van de volgende dag af.
 
-## Art. 186
+###### Art. 186
 
 (van toepassing vanaf 27.09.1947)
 
@@ -4019,13 +4023,13 @@ De processen-verbaal gelden als bewijs tot het tegendeel bewezen is. Zij zullen 
 
 (…)
 
-## Art. 187
+###### Art. 187
 
 (van toepassing vanaf 01.02.1940)
 
 Verandering in eigendom of vruchtgebruik van een in België gelegen onroerend goed, ten gevolge van een overdragende of aanwijzende overeenkomst, wordt, ter vordering van het recht tegen de nieuwe eigenaar of vruchtgebruiker, in voldoende mate bewezen door daden van beschikking of van bestuur of door andere handelingen of akten waarbij, in zijnen hoofde, de eigendom of het vruchtgebruik vastgesteld of ondersteld wordt.
 
-## Art. 188
+###### Art. 188
 
 (van toepassing vanaf 01.02.1940)
 
@@ -4033,9 +4037,9 @@ Wordt als koper voor eigen rekening beschouwd en mag zich op de hoedanigheid van
 
 De tussenpersoon wordt geacht het onroerend goed te hebben verkregen op de dag van de betaling of van de verbintenis tot betaling.
 
-##### Afdeling II - Controleschatting
+#### Afdeling II - Controleschatting
 
-## Art. 189
+###### Art. 189
 
 (van toepassing vanaf 30.07.2018)
 
@@ -4043,7 +4047,7 @@ De tussenpersoon wordt geacht het onroerend goed te hebben verkregen op de dag v
 
 Onverminderd de toepassing van de bepalingen betreffende het bewimpelen van prijs, heeft de ontvanger de bevoegdheid om schatting te vorderen van de goederen die het voorwerp van de overeenkomst uitmaken, ten einde van de ontoereikendheid van de uitgedrukte prijs of van de aangegeven waarde te doen blijken, wanneer het gaat om eigendom of vruchtgebruik van in België gelegen onroerende goederen.
 
-## Art. 190
+###### Art. 190
 
 (van toepassing vanaf 31.07.1960)
 
@@ -4056,7 +4060,7 @@ In de gevallen bedoeld in artikelen 16 en 17 gaat de termijn slechts in den dag 
 
 De vordering tot schatting houdt aanwijzing van de goederen waarover de schatting gaat, zomede van de som waarop zij door het bestuur geschat werden en van het vermoedelijk wegens recht en boete verschuldigd bedrag.
 
-## Art. 191
+###### Art. 191
 
 (van toepassing vanaf 01.02.1940)
 
@@ -4066,7 +4070,7 @@ In de gevallen bedoeld in artikelen 16 en 17 gaat de termijn slechts in de dag d
 
 De vordering tot schatting houdt aanwijzing van de goederen waarover de schatting gaat, zomede van de som waarop zij door het bestuur geschat werden en van het vermoedelijk wegens recht en boete verschuldigd bedrag.
 
-## Art. 192
+###### Art. 192
 
 (van toepassing vanaf 01.02.1940)
 
@@ -4076,7 +4080,7 @@ Het verzoekschrift wordt aan de partij betekend.
 
 De rechter beslist binnen vijftien dagen na het verzoek; hij beveelt de schatting en stelt, naar vereiste van omstandigheden, een of drie deskundigen aan.
 
-## Art. 193
+###### Art. 193
 
 (van toepassing vanaf 16.05.2014)
 
@@ -4090,7 +4094,7 @@ Kunnen niet tot deskundigen gekozen of benoemd worden:
 
 3° beambten van bedoelde ambtenaren en openbare of ministeriële officieren.
 
-## Art. 194
+###### Art. 194
 
 (van toepassing vanaf 01.01.1969)
 
@@ -4106,7 +4110,7 @@ Deze nieuwe beslissing wordt aan de partij betekend.
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 195
+###### Art. 195
 
 (van toepassing vanaf 01.01.2028)
 
@@ -4118,7 +4122,7 @@ Onmiddellijk na ontvangst van deze notificatie sturen de deskundigen, zowel aan 
 
 Ieder aan de deskundigen door een der partijen ter inzage verleend bescheid moet tezelfdertijd in afschrift aan de andere partij bij aangetekende zending worden gezonden.
 
-## Art. 195
+###### Art. 195
 
 (van toepassing vanaf 01.02.1940)
 
@@ -4128,7 +4132,7 @@ Onmiddellijk na ontvangst van deze notificatie sturen de deskundigen, zowel aan 
 
 Ieder aan de deskundigen door een der partijen ter inzage verleend bescheid moet tezelfdertijd in afschrift aan de andere partij bij aangetekende brief worden gezonden.
 
-## Art. 196
+###### Art. 196
 
 (van toepassing vanaf 16.07.1973)
 
@@ -4152,7 +4156,7 @@ of:
 
 De minuut van het verslag wordt ter griffie van het onder artikel 192 aangeduid vredegerecht neergelegd.
 
-## Art. 197
+###### Art. 197
 
 (van toepassing vanaf 01.02.1940)
 
@@ -4162,7 +4166,7 @@ Naar de door de deskundigen gegeven waardering en, in geval van niet-overeenstem
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 198
+###### Art. 198
 
 (van toepassing vanaf 01.01.2028)
 
@@ -4170,13 +4174,13 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 De krachtens voorgaande artikelen van deze afdeling te verrichten betekeningen en notificaties geschieden bij aangetekende zending.
 
-## Art. 198
+###### Art. 198
 
 (van toepassing vanaf 01.02.1940)
 
 De krachtens vorenstaande artikelen van deze afdeling te verrichten betekeningen en notificaties mogen bij aangetekend schrijven geschieden. De afgifte van het stuk ter post geldt als notificatie vanaf de daaropvolgende dag.
 
-## Art. 199
+###### Art. 199
 
 (van toepassing vanaf 25.07.2004)
 
@@ -4184,7 +4188,7 @@ De krachtens vorenstaande artikelen van deze afdeling te verrichten betekeningen
 
 Zowel de ontvanger als de partij kunnen de schatting betwisten door inleiding van een rechtsvordering. Deze rechtsvordering dient ingeleid te worden, op straffe van verval, binnen de termijn van één maand te rekenen van de betekening van het verslag.
 
-## Art. 200
+###### Art. 200
 
 (van toepassing vanaf 01.01.1990)
 
@@ -4198,9 +4202,9 @@ Deze kosten blijven evenwel ten laste van 's Rijks Schatkist zo de belanghebbend
 
 De invordering geschiedt bij dwangschrift, zoals aangewezen in artikel 220.
 
-#### HOOFDSTUK XI - Tekort in de waardering, bewimpeling en veinzing. Sanctiën
+### HOOFDSTUK XI - Tekort in de waardering, bewimpeling en veinzing. Sanctiën
 
-## Art. 201
+###### Art. 201
 
 (van toepassing vanaf 01.01.1990)
 
@@ -4208,7 +4212,7 @@ De invordering geschiedt bij dwangschrift, zoals aangewezen in artikel 220.
 
 Wanneer bevonden wordt dat de opgegeven prijs of de aangegeven waarde van aan de onder artikel 189 voorziene schatting onderworpen goederen te laag is, en dat het vastgestelde tekort gelijk is aan of hoger dan het achtste van de opgegeven prijs of van de aangegeven waarde, verbeurt de verkrijgende partij een geldboete ten bedrage van het ontdoken recht.
 
-## Art. 202
+###### Art. 202
 
 (van toepassing vanaf 17.01.1959)
 
@@ -4218,7 +4222,7 @@ Wanneer er geen aanleiding tot schatting bestaat en een waardering, gedaan om de
 
 Alle andere onjuistheid, bevonden in de elementen van een verklaring in of onderaan de akte gesteld tot vereffening van de belasting, wordt gestraft met een boete gelijk aan het ontdoken recht, benevens betaling van dat recht, het al ondeelbaar ten laste van hen die de verklaring gedaan hebben.
 
-## Art. 203
+###### Art. 203
 
 (van toepassing vanaf 01.01.2002)
 
@@ -4233,7 +4237,7 @@ In alle gevallen waarin de heffing op den prijs en de lasten op de overeengekome
 
 Op straf van een boete van 25 EUR moet uitdrukkelijke melding van die voorlezing in de akte gemaakt worden.
 
-## Art. 204
+###### Art. 204
 
 (van toepassing vanaf 04.05.1965)
 
@@ -4241,7 +4245,7 @@ Op straf van een boete van 25 EUR moet uitdrukkelijke melding van die voorlezing
 
 Wanneer de in een akte vastgestelde overeenkomst niet die is welke door de partijen werd gesloten, of wanneer de akte betreffende een in artikel 19, 2° of 5°, bedoelde overeenkomst onvolledig of onjuist is, met dien verstande dat ze al de bestanddelen van de overeenkomst niet doet kennen, is elke der contracterende partijen een geldboete verschuldigd gelijk aan het ontdoken recht. Dit recht is ondeelbaar door alle partijen verschuldigd.
 
-## Art. 205
+###### Art. 205
 
 (van toepassing vanaf 06.04.1999)
 
@@ -4249,9 +4253,9 @@ Wanneer de in een akte vastgestelde overeenkomst niet die is welke door de parti
 
 (…)
 
-#### HOOFDSTUK XII - Correctionele straffen
+### HOOFDSTUK XII - Correctionele straffen
 
-## Art. 206
+###### Art. 206
 
 (van toepassing vanaf 01.07.2017)
 
@@ -4263,7 +4267,7 @@ Wanneer de overtreding werd begaan in het kader van een registratierecht dat gee
 
 Wanneer de overtreding begaan wordt in het kader van een registratierecht dat een gewestelijke belasting is in de zin van artikel 3, lid 1, 6° tot 8°, van de bijzondere wet van 16 januari 1989 betreffende de financiering van de Gemeenschappen en de Gewesten, wordt het bedrag van het maximum van de boete vastgesteld in lid 1 op 500 000 euro gebracht bij overtreding van de regels ter regeling van deze belastingen, met uitzondering van de regels betreffende de procedureregels.
 
-## Art. 206bis
+###### Art. 206bis
 
 (van toepassing vanaf 01.07.2017)
 
@@ -4279,7 +4283,7 @@ van de gemeenschappen en de gewesten, wordt het bedrag van het in het eerste en 
 
 Wanneer de overtreding begaan wordt in het kader van een registratierecht dat een gewestelijke belasting is in de zin van artikel 3, lid 1, 6° tot 8°, van de bijzondere wet van 16 januari 1989 betreffende de financiering van de Gemeenschappen en de Gewesten, wordt het bedrag van het maximum van de boete vastgesteld in leden 1 en 2 op 500 000 euro gebracht bij overtreding van de regels ter regeling van deze belastingen, met uitzondering van de regels betreffende de procedureregels.
 
-## Art. 206bis/1
+###### Art. 206bis/1
 
 (van toepassing vanaf 01.01.2020)
 
@@ -4289,7 +4293,7 @@ Wanneer de overtreding werd begaan in het kader van een registratierecht dat gee
 
 Artikel 42, 3°, van het Strafwetboek vindt geen toepassing op de vermogensvoordelen die rechtstreeks uit de fiscale misdrijven zijn verkregen, op de goederen en waarden die in de plaats ervan zijn gesteld en op de inkomsten uit de belegde voordelen in geval de vordering van de fiscale administratie gegrond wordt verklaard en tot een effectieve betaling van deze volledige vordering heeft geleid.
 
-## Art. 207
+###### Art. 207
 
 (van toepassing vanaf 14.02.1981)
 
@@ -4311,7 +4315,7 @@ De rechter kan bovendien, mits hij zijn beslissing op dat stuk motiveert, voor e
 
 § 2. Het verbod en de sluiting bedoeld in § 1 treden in werking vanaf de dag waarop de veroordeling in kracht van gewijsde is gegaan.
 
-## Art. 207bis
+###### Art. 207bis
 
 (van toepassing vanaf 01.07.2017)
 
@@ -4323,7 +4327,7 @@ Wanneer het verbod werd opgelegd in het kader van een registratierecht dat geen 
 
 Wanneer het verbod overtreden wordt in het kader van een registratierecht dat een gewestelijke belasting is in de zin van artikel 3, lid 1, 6° tot 8°, van de bijzondere wet van 16 januari 1989 betreffende de financiering van de Gemeenschappen en de Gewesten, wordt het bedrag van het maximum van de boete vastgesteld in lid 1 op 500 000 euro gebracht bij overtreding van de regels ter regeling van deze belastingen, met uitzondering van de regels betreffende de procedureregels.
 
-## Art. 207ter
+###### Art. 207ter
 
 (van toepassing vanaf 01.11.2012)
 
@@ -4335,7 +4339,7 @@ Wanneer het verbod overtreden wordt in het kader van een registratierecht dat ee
 
 § 3. De wet van 5 maart 1952, gewijzigd bij de wetten van 22 december 1969 en 25 juni 1975, betreffende de opdecimes op de strafrechtelijke geldboeten, is van toepassing op de misdrijven bedoeld in artikel 206, 206bis en 207bis.
 
-## Art. 207quater
+###### Art. 207quater
 
 (van toepassing vanaf 28.04.2024)
 
@@ -4355,7 +4359,7 @@ De personen beschuldigd als daders of als medeplichtigen van misdrijven bedoeld 
 
 De natuurlijke personen of de rechtspersonen zijn burgerlijk en hoofdelijk aansprakelijk voor de geldboeten en kosten die het gevolg zijn van de veroordelingen welke krachtens de artikelen 206 tot 207bis tegen hun aangestelden of hun bestuurders, zaakvoerders of vereffenaars, in het kader van de uitoefening van hun functie, in rechte of in feite zijn uitgesproken.
 
-## Art. 207quinquies
+###### Art. 207quinquies
 
 (van toepassing vanaf 14.02.1981)
 
@@ -4365,7 +4369,7 @@ De rechter kan bevelen dat ieder vonnis of arrest houdende veroordeling tot een 
 
 Hetzelfde kan gelden voor iedere krachtens artikel 207 uitgesproken beslissing tot verbod van het uitoefenen van een beroepswerkzaamheid in België of tot sluiting van de in het land geëxploiteerde inrichtingen.
 
-## Art. 207sexies
+###### Art. 207sexies
 
 (van toepassing vanaf 14.02.1981)
 
@@ -4373,7 +4377,7 @@ Hetzelfde kan gelden voor iedere krachtens artikel 207 uitgesproken beslissing t
 
 De schending van het bij artikel 236bis bepaalde beroepsgeheim wordt gestraft overeenkomstig de artikelen 66, 67 en 458 van het Strafwetboek.
 
-## Art. 207septies
+###### Art. 207septies
 
 (van toepassing vanaf 01.01.2020)
 
@@ -4389,7 +4393,7 @@ Het openbaar ministerie beslist om al dan niet de strafvervolging in te stellen 
 
 In geen geval schorst het verzoek om advies de strafvordering.
 
-## Art. 207octies
+###### Art. 207octies
 
 (van toepassing vanaf 16.05.2014)
 
@@ -4403,15 +4407,15 @@ Het eerste lid is evenmin van toepassing op de ambtenaren van die administraties
 
 Het eerste lid is niet van toepassing op de ambtenaren die deelnemen aan het in artikel 29, derde lid van het Wetboek van strafvordering bedoelde overleg.
 
-#### HOOFDSTUK XIII - Teruggaaf
+### HOOFDSTUK XIII - Teruggaaf
 
-## Art. 208
+###### Art. 208
 
 (van toepassing vanaf 01.02.1940)
 
 De regelmatig geheven rechten kunnen niet worden teruggegeven, welke ook de latere gebeurtenissen zijn, behoudens in de bij deze titel voorziene gevallen.
 
-## Art. 209
+###### Art. 209
 
 (van toepassing vanaf 01.01.2025)
 
@@ -4465,7 +4469,7 @@ b) de ontbonden overeenkomst niet meer dan één jaar voor de datum van vervulli
 
 Behalve in het geval van het eerste lid, 3°bis, geschiedt de teruggaaf desvoorkomend onder aftrekking van het algemeen vast recht. In het geval van de teruggaven bedoeld in de artikelen 2°, 3°, 3°ter en 3°quater geschiedt de teruggaaf evenwel bij wijze van afwijking onder de enige aftrekking, in voorkomend geval, van het bijzonder vast recht van 10 euro bedoeld in artikel 159bis.
 
-## Art. 210
+###### Art. 210
 
 (van toepassing vanaf 16.05.2019)
 
@@ -4477,7 +4481,7 @@ Het op een voorwaardelijke veroordeling geheven evenredig recht wordt teruggegev
 
 Het recht wordt volledig teruggegeven indien het samengevoegd bedrag van de veroordelingen, vereffeningen of rangregelingen, waarop de heffing werd gedaan, herleid wordt tot een som die bij artikel 143, laatste lid, vastgestelde bedrag niet overschrijdt.
 
-## Art. 211
+###### Art. 211
 
 (van toepassing vanaf 03.09.2018)
 
@@ -4505,7 +4509,7 @@ De Regering bepaalt de modaliteiten voor de toepassing van dit artikel en de uit
 
 De teruggave kan worden aangevraagd zodra aan de voorwaarden van dit artikel is voldaan en moet in ieder geval uiterlijk worden ingediend na afloop van een termijn van zes maanden die volgt op het einde van de periode van drie jaar, te rekenen vanaf de datum van vestiging van de hoofdverblijfplaats op de plaats van het geschonken goed.
 
-## Art. 212
+###### Art. 212
 
 (van toepassing vanaf 09.03.2026)
 
@@ -4522,7 +4526,7 @@ In geval van gedeeltelijke wederverkoop wordt in het verzoek tot teruggave het d
 Een door de wederverkoper en de instrumenterende notaris ondertekend verzoek tot teruggave, onderaan op de akte gesteld voor de registratie, heeft dezelfde gevolgen als het met redenen omkleed verzoek ingevolge artikel
 2172. Dit verzoek moet een afschrift van de vermelding van de registratie van de authentieke akte van verkrijging bevatten, alsook de naam van de begunstigde van de teruggave en, in voorkomend geval, het rekeningnummer waarop het bedrag van de terug te geven rechten moet worden gestort.
 
-## Art. 213
+###### Art. 213
 
 (van toepassing vanaf 30.04.1967)
 
@@ -4532,9 +4536,9 @@ Wordt, onder aftrekking van het algemeen vast recht, aan de betrokken maatschapp
 
 Zijn toepasselijk op deze teruggaaf, de bepalingen van artikel 212, tweede en derde lid.
 
-#### HOOFDSTUK XIV - Verjaring
+### HOOFDSTUK XIV - Verjaring
 
-## Art. 214
+###### Art. 214
 
 (van toepassing vanaf 10.01.1993)
 
@@ -4560,13 +4564,13 @@ Worden, voor de toepassing van deze bepaling met registratie gelijkgesteld: het 
 
 Is van toepassing, ten aanzien van de verjaring, artikel 18 van dit wetboek.
 
-## Art. 215
+###### Art. 215
 
 (van toepassing vanaf 01.02.1940)
 
 Er is verjaring voor de vordering tot teruggaaf van rechten, interesten en boeten, na twee jaar, te rekenen van den dag waarop de rechtsvordering is ontstaan.
 
-## Art. 216
+###### Art. 216
 
 (van toepassing vanaf 01.02.1940)
 
@@ -4576,7 +4580,7 @@ De stuiting heeft haar uitwerking tot den dag der nederlegging ter griffie van h
 
 De invordering van rechten, interesten en gebeurlijk van boeten en kosten, vorderbaar uit hoofde van de bij bedoeld verslag erkende ongenoegzaamheid, dient vervolgd binnen de twee jaar na de nederlegging van dit verslag.
 
-## Art. 2171
+###### Art. 2171
 
 (van toepassing vanaf 17.01.1959)
 
@@ -4588,7 +4592,7 @@ De afstand van de verlopen tijd van de verjaring wordt, wat zijn uitwerking betr
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 2172
+###### Art. 2172
 
 (van toepassing vanaf 01.01.2028)
 
@@ -4598,7 +4602,7 @@ De verjaringen voor de teruggaaf van rechten, interesten en boeten worden gestui
 
 Zo de verjaring gestuit werd door de aan het kantoor of adviseur-generaal genotificeerde aanvraag, is er een nieuwe verjaring van twee jaar, die slechts op de wijze en onder de voorwaarden voorzien bij artikelen 2244 en volgende van het Burgerlijk Wetboek kan worden gestuit, verworven twee jaar na de datum waarop de beslissing, waarbij de aanvraag werd verworpen, aan belanghebbende met een aangetekende zending genotificeerd werd.
 
-## Art. 2172
+###### Art. 2172
 
 (van toepassing vanaf 01.12.2021)
 
@@ -4612,7 +4616,7 @@ volgende van het Burgerlijk Wetboek kan worden gestuit, verworven twee jaar na d
 
 De afgifte van de brieven ter post geldt als notificatie van de volgende dag af.
 
-## Art. 218
+###### Art. 218
 
 (van toepassing vanaf 09.04.2018)
 
@@ -4624,9 +4628,9 @@ De schorsing vangt aan met het op gang brengen van de strafvordering, en eindigt
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-#### HOOFDSTUK XV - Vervolgingen en gedingen
+### HOOFDSTUK XV - Vervolgingen en gedingen
 
-## Art. 219
+###### Art. 219
 
 (van toepassing vanaf 01.01.2028)
 
@@ -4644,9 +4648,9 @@ De minister van Financiën of de door hem gedelegeerde ambtenaar gaat dadingen m
 
 Binnen de door de wet gestelde grenzen, wordt het bedrag van de proportionele fiscale boeten en de vermeerderingen vastgesteld in dit Wetboek of in de ter uitvoering ervan genomen besluiten, bepaald volgens een schaal waarvan de trappen door de Koning worden vastgesteld. Deze bepaling geldt niet voor het bedrag van de proportionele fiscale boeten bepaald in de artikelen 203, eerste lid, en 204, behalve wanneer de overtreder hetzij uit eigen beweging en voordat het bestuur iets gevorderd heeft, de overtreding aan het bestuur bekent, hetzij overleden is.
 
-#### HOOFDSTUK XV - Vervolgingen en gedingen
+### HOOFDSTUK XV - Vervolgingen en gedingen
 
-## Art. 219
+###### Art. 219
 
 (van toepassing vanaf 01.05.2007)
 
@@ -4662,7 +4666,7 @@ De minister van Financiën of de door hem gedelegeerde ambtenaar gaat dadingen m
 
 Binnen de door de wet gestelde grenzen, wordt het bedrag van de proportionele fiscale boeten en de vermeerderingen vastgesteld in dit Wetboek of in de ter uitvoering ervan genomen besluiten, bepaald volgens een schaal waarvan de trappen door de Koning worden vastgesteld. Deze bepaling geldt niet voor het bedrag van de proportionele fiscale boeten bepaald in de artikelen 203, eerste lid, en 204, behalve wanneer de overtreder hetzij uit eigen beweging en voordat het bestuur iets gevorderd heeft, de overtreding aan het bestuur bekent, hetzij overleden is.
 
-## Art. 220
+###### Art. 220
 
 (van toepassing vanaf 16.05.2016)
 
@@ -4672,7 +4676,7 @@ De eerste akte van vervolging ter invordering van fiscale rechten of boeten en b
 
 Het wordt door den met de invordering belasten ontvanger uitgevaardigd; het wordt door den bevoegde adviseurgeneraal van de Algemene Administratie van de Patrimoniumdocumentatie geviseerd en uitvoerbaar verklaard en bij deurwaardersexploot van gerechtsdeurwaarder betekend.
 
-## Art. 221
+###### Art. 221
 
 (van toepassing vanaf 06.04.1999)
 
@@ -4680,7 +4684,7 @@ Het wordt door den met de invordering belasten ontvanger uitgevaardigd; het word
 
 De tenuitvoerlegging van het dwangbevel kan slechts worden gestuit door een vordering in rechte.
 
-## Art. 222
+###### Art. 222
 
 (van toepassing vanaf 01.12.2021)
 
@@ -4688,13 +4692,13 @@ De tenuitvoerlegging van het dwangbevel kan slechts worden gestuit door een vord
 
 In geval van niet-betaling van een schuld voortvloeiende uit de toepassing van dit Wetboek, kan de ambtenaar die belast is met de invordering van die schuld, bij het Centraal Aanspreekpunt van de Nationale Bank bedoeld in artikel 322, § 3, eerste lid, van het Wetboek van de inkomstenbelastingen 1992 de gegevens opvragen die ten aanzien van die schuldenaar beschikbaar zijn zonder de beperkingen van artikel 322, §§ 2 tot 4, van hetzelfde Wetboek. De machtiging hiertoe wordt verleend door een ambtenaar met minimum de graad van adviseur–generaal.
 
-## Art. 223
+###### Art. 223
 
 (van toepassing vanaf 01.02.1940)
 
 De moratoire interesten op de in te vorderen of terug te geven sommen zijn verschuldigd naar den voet en de regelen in burgerlijke zaken vastgesteld.
 
-## Art. 224
+###### Art. 224
 
 (van toepassing vanaf 06.04.1999)
 
@@ -4702,7 +4706,7 @@ De moratoire interesten op de in te vorderen of terug te geven sommen zijn versc
 
 (…)
 
-## Art. 225
+###### Art. 225
 
 (van toepassing vanaf 01.02.1940)
 
@@ -4710,7 +4714,7 @@ De openbare ambtenaren die, krachtens de bepalingen van deze titel, voor de part
 
 De bepalingen van dit hoofdstuk zijn toepasselijk op het tegen dit bevel aangetekend verzet.
 
-## Art. 225bis
+###### Art. 225bis
 
 (van toepassing vanaf 06.04.1999)
 
@@ -4718,7 +4722,7 @@ De bepalingen van dit hoofdstuk zijn toepasselijk op het tegen dit bevel aangete
 
 De termijnen van verzet, hoger beroep en cassatie, alsmede het verzet, het hoger beroep en de voorziening in cassatie schorsen de tenuitvoerlegging van de gerechtelijke beslissing.
 
-## Art. 225ter
+###### Art. 225ter
 
 (van toepassing vanaf 10.01.2005)
 
@@ -4726,7 +4730,7 @@ De termijnen van verzet, hoger beroep en cassatie, alsmede het verzet, het hoger
 
 Het verzoekschrift houdende voorziening in cassatie en het antwoord op de voorziening mag door een advocaat worden ondertekend en neergelegd.
 
-## Art. 225quater
+###### Art. 225quater
 
 (van toepassing vanaf 09.04.2018)
 
@@ -4734,9 +4738,9 @@ Het verzoekschrift houdende voorziening in cassatie en het antwoord op de voorzi
 
 De bepalingen van dit Wetboek doen geen afbreuk aan het recht van de Staat om het herstel van de schade te vorderen die kan bestaan uit de niet-betaling van de rechten, interesten, fiscale geldboeten en bijbehoren door een burgerlijke partijstelling of door een aansprakelijkheidsvordering.
 
-#### HOOFDSTUK XVI - Bijzondere bepalingen betreffende de openbare verkopingen van roerende goederen
+### HOOFDSTUK XVI - Bijzondere bepalingen betreffende de openbare verkopingen van roerende goederen
 
-## Art. 226
+###### Art. 226
 
 (van toepassing vanaf 28.09.1963)
 
@@ -4746,7 +4750,7 @@ Meubelen, koopwaren, hout, vruchten, oogsten en alle andere lichamelijke roerend
 
 Nochtans kunnen Staat, provinciën, gemeenten en openbare instellingen de hun toebehorende roerende voorwerpen openbaar door hun ambtenaren doen verkopen.
 
-## Art. 227
+###### Art. 227
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4760,13 +4764,13 @@ De Koning kan bepalen:
 
 2° dat de kennisgeving vergezeld moet gaan van metagegevens.
 
-## Art. 228
+###### Art. 228
 
 (van toepassing vanaf 01.02.1940)
 
 De werkende openbare officier of ambtenaar vermeldt, in zijn proces-verbaal, naam, voornamen, hoedanigheid en woonplaats van den verzoeker, van de personen wier mobilair te koop wordt gesteld en, indien het gaat om een verkoop na overlijden, van den overleden eigenaar, zomede, desvorkomend, den datum van de overhandiging of de verzending van de in artikel 227 voorziene kennisgeving.
 
-## Art. 229
+###### Art. 229
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4774,7 +4778,7 @@ De werkende openbare officier of ambtenaar vermeldt, in zijn proces-verbaal, naa
 
 De instrumenterende openbare officier of ambtenaar verbeurt voor elke overtreding van de artikelen 227 en 228 een geldboete van 25 euro.
 
-## Art. 230
+###### Art. 230
 
 (van toepassing vanaf 01.02.1940)
 
@@ -4784,7 +4788,7 @@ Ieder toegewezen voorwerp wordt onmiddellijk in dat proces-verbaal opgetekend; d
 
 Na elke zitting wordt het proces-verbaal afgesloten en ondertekend.
 
-## Art. 231
+###### Art. 231
 
 (van toepassing vanaf 01.01.1990)
 
@@ -4798,7 +4802,7 @@ Het recht wordt geheven op den toewijzingsprijs en, bij gebreke daaraan, op het 
 
 Wanneer het een verkoop geldt, gedaan op verzoek van een rechtspersoon, wordt nochtans niet afgeweken van artikelen 16 en 17 voor zover zij beschikken voor het geval van voorbehoud van machtiging, goedkeuring of bekrachtiging van de overheid.
 
-## Art. 232
+###### Art. 232
 
 (van toepassing vanaf 01.01.2002)
 
@@ -4817,7 +4821,7 @@ c) voor elk lot waarvan de belastbare grondslag in het proces-verbaal vervalst o
 
 2° Een boete van 12,50 EUR voor elk toegewezen lot waarvan de prijs in het proces-verbaal niet voluit in letters of niet in cijfers buiten de linie is aangeduid.
 
-## Art. 233
+###### Art. 233
 
 (van toepassing vanaf 01.01.2002)
 
@@ -4828,7 +4832,7 @@ Iedere persoon die, buiten de aanwezigheid van een openbaar officier, roerende v
 
 De overtreders zijn daarbij hoofdelijk gehouden tot de betaling van het ontdoken recht.
 
-## Art. 234
+###### Art. 234
 
 (van toepassing vanaf 16.05.2016)
 
@@ -4836,7 +4840,7 @@ De overtreders zijn daarbij hoofdelijk gehouden tot de betaling van het ontdoken
 
 Ambtenaren van de Algemene Administratie van de Patrimoniumdocumentatie hebben steeds toegang tot alle plaatsen waar roerende voorwerpen openbaar worden verkocht. Zij hebben het recht zich de processen-verbaal van verkoop te doen overleggen en van hun bevindingen proces-verbaal op te maken. Dit proces-verbaal geldt als bewijs tot het tegenbewijs.
 
-## Art. 235
+###### Art. 235
 
 (van toepassing vanaf 27.07.1962)
 
@@ -4852,9 +4856,9 @@ De bepalingen van dit hoofdstuk zijn niet van toepassing op de openbare verkopin
 
 4° van zee- en binnenschepen.
 
-#### HOOFDSTUK XVII - Inlichtingen te verstrekken door de Algemene Administratie van de Patrimoniumdocumentatie
+### HOOFDSTUK XVII - Inlichtingen te verstrekken door de Algemene Administratie van de Patrimoniumdocumentatie
 
-## Art. 236
+###### Art. 236
 
 (van toepassing vanaf 01.11.2023 en 01.01.2024 (lid 3))
 
@@ -4866,7 +4870,7 @@ Deze afschriften of uittreksels kunnen aan de lasthebbers van de belanghebbenden
 
 De aflevering van deze stukken geeft recht op een door de Koning te bepalen retributie.
 
-## Art. 236/1
+###### Art. 236/1
 
 (van toepassing vanaf 01.11.2023)
 
@@ -4884,7 +4888,7 @@ De aflevering van deze stukken geeft recht op een door de Koning te bepalen retr
 
 De verstrekte inlichtingen mogen niet langer worden bewaard dan noodzakelijk is voor de verwezenlijking van met de verwerking van de persoonsgegevens nagestreefde doelstelling.
 
-## Art. 236/2
+###### Art. 236/2
 
 (van toepassing vanaf 08.06.2024)
 
@@ -4898,7 +4902,7 @@ De Koning kan ter uitvoering van dit hoofdstuk:
 
 3° onder voorbehoud van de bepalingen van de Archiefwet van 24 juni 1955, de bewaartermijnen en de wijze van bewaring bepalen van de vragen om inlichtingen en van de verstrekte antwoorden.
 
-## Art. 236bis
+###### Art. 236bis
 
 (van toepassing vanaf 01.11.2023)
 
@@ -4910,9 +4914,9 @@ Personen die deel uitmaken van diensten of openbare instellingen of inrichtingen
 
 De ambtenaren van de Algemene administratie van de patrimoniumdocumentatie, oefenen hun ambt uit wanneer zij overeenkomstig de bepalingen van dit hoofdstuk inlichtingen, afschriften of uittreksels afleveren.
 
-#### HOOFDSTUK XVIII - Speciaal recht op de nationaliteit, de adelbrieven en de verzoeken tot verandering van naam
+### HOOFDSTUK XVIII - Speciaal recht op de nationaliteit, de adelbrieven en de verzoeken tot verandering van naam
 
-## Art. 237
+###### Art. 237
 
 (van toepassing vanaf 09.03.2026)
 
@@ -4920,9 +4924,9 @@ De ambtenaren van de Algemene administratie van de patrimoniumdocumentatie, oefe
 
 (…)
 
-##### Afdeling I - Nationaliteit
+#### Afdeling I - Nationaliteit
 
-## Art. 238
+###### Art. 238
 
 (van toepassing vanaf 29.07.2025)
 
@@ -4943,7 +4947,7 @@ De beginindex is de index van de consumptieprijzen van de maand september 2024 e
 Uiterlijk in de loop van de maand december van elk jaar wordt het bedrag toepasselijk tijdens het volgende kalenderjaar in het Belgisch Staatsblad gepubliceerd. De Federale Overheidsdienst Financiën vermeldt die inlichting eveneens op zijn webstek.
 Procedures tot verkrijging van de Belgische nationaliteit - Publicatie voorgeschreven bij art. 238, laatste lid, W.Reg.: - geïndexeerde bedragen vanaf 01.01.2026: bericht van B.S., 29.12.2025: 1030 euro (z. art. 238, 2de lid) ; aangevuld bij bericht van B.S., 16.03.2026 – ed. 2: 160 euro (z. art. 238, 3de lid).
 
-## Art. 239
+###### Art. 239
 
 (van toepassing vanaf 03.10.1993)
 
@@ -4951,7 +4955,7 @@ Procedures tot verkrijging van de Belgische nationaliteit - Publicatie voorgesch
 
 (…)
 
-## Art. 240
+###### Art. 240
 
 (van toepassing vanaf 01.02.2000)
 
@@ -4959,7 +4963,7 @@ Procedures tot verkrijging van de Belgische nationaliteit - Publicatie voorgesch
 
 (…)
 
-## Art. 240bis
+###### Art. 240bis
 
 (van toepassing vanaf 01.02.2000)
 
@@ -4967,7 +4971,7 @@ Procedures tot verkrijging van de Belgische nationaliteit - Publicatie voorgesch
 
 (…)
 
-## Art. 241
+###### Art. 241
 
 (van toepassing vanaf 01.02.2000)
 
@@ -4975,7 +4979,7 @@ Procedures tot verkrijging van de Belgische nationaliteit - Publicatie voorgesch
 
 (…)
 
-## Art. 242
+###### Art. 242
 
 (van toepassing vanaf 01.01.1985)
 
@@ -4983,7 +4987,7 @@ Procedures tot verkrijging van de Belgische nationaliteit - Publicatie voorgesch
 
 (…)
 
-## Art. 243
+###### Art. 243
 
 (van toepassing vanaf 01.01.1985)
 
@@ -4991,7 +4995,7 @@ Procedures tot verkrijging van de Belgische nationaliteit - Publicatie voorgesch
 
 (…)
 
-## Art. 244
+###### Art. 244
 
 (van toepassing vanaf 01.02.2000)
 
@@ -4999,7 +5003,7 @@ Procedures tot verkrijging van de Belgische nationaliteit - Publicatie voorgesch
 
 (…)
 
-## Art. 245
+###### Art. 245
 
 (van toepassing vanaf 01.01.1985)
 
@@ -5007,7 +5011,7 @@ Procedures tot verkrijging van de Belgische nationaliteit - Publicatie voorgesch
 
 (…)
 
-## Art. 246
+###### Art. 246
 
 (van toepassing vanaf 01.01.1985)
 
@@ -5015,7 +5019,7 @@ Procedures tot verkrijging van de Belgische nationaliteit - Publicatie voorgesch
 
 ( …)
 
-## Art. 247
+###### Art. 247
 
 (van toepassing vanaf 01.01.1990)
 
@@ -5023,9 +5027,9 @@ Procedures tot verkrijging van de Belgische nationaliteit - Publicatie voorgesch
 
 (…)
 
-##### Afdeling II - Open brieven van adeldom en verzoeken tot verandering van naam
+#### Afdeling II - Open brieven van adeldom en verzoeken tot verandering van naam
 
-## Art. 248
+###### Art. 248
 
 (van toepassing vanaf 09.03.2026)
 
@@ -5037,7 +5041,7 @@ De Koning kan bij een met redenen omkleed besluit dat recht verminderen, met die
 
 De vermindering kan slechts worden verleend wanneer de begunstigde of een van de begunstigden, of een van hun bloedverwanten in de opgaande of nederdalende lijn, aan het Land buitengewone diensten heeft bewezen van vaderlandslievende, wetenschappelijke, culturele, economische, sociale of humanitaire aard.
 
-## Art. 249
+###### Art. 249
 
 (van toepassing vanaf 01.07.2024)
 
@@ -5051,7 +5055,7 @@ Het recht is niet verschuldigd in geval van een verandering van naam als bedoeld
 
 Het recht is niet verschuldigd bij een naamswijziging als bedoeld in artikel 370/4, tweede lid, van het oud Burgerlijk Wetboek.
 
-## Art. 250
+###### Art. 250
 
 (van toepassing vanaf 01.08.2018)
 
@@ -5061,7 +5065,7 @@ In de gevallen bedoeld in artikel 248, eerste lid, en in artikel 249, is elke be
 
 De door de kinderen of afstammelingen verschuldigde rechten worden evenwel met de twee vijfden verminderd wanneer aan hetzelfde recht onderworpen vergunningen bij eenzelfde beslissing verleend worden aan een persoon en aan zijn kinderen of afstammelingen waarvan het aantal drie overschrijdt.
 
-## Art. 251
+###### Art. 251
 
 (van toepassing vanaf 01.08.2018)
 
@@ -5069,7 +5073,7 @@ De door de kinderen of afstammelingen verschuldigde rechten worden evenwel met d
 
 Wanneer de vergunning tot verandering van naam wordt ingetrokken of vernietigd terwijl de registratierechten reeds geïnd zijn, betaalt de verzoeker, behalve als hij te kwader trouw was, geen rechten meer wanneer het verzoek beoogt rechtstreeks te verhelpen aan deze intrekking of vernietiging.
 
-## Art. 252
+###### Art. 252
 
 (van toepassing vanaf 01.08.2018)
 
@@ -5077,7 +5081,7 @@ Wanneer de vergunning tot verandering van naam wordt ingetrokken of vernietigd t
 
 Het recht wordt berekend volgens het tarief van kracht op de datum van het besluit tot verheffing in de adelstand, dat aan de ondertekening van de adelbrieven voorafgaat, of op de datum van de indiening van het verzoek tot verandering van naam.
 
-## Art. 253
+###### Art. 253
 
 (van toepassing vanaf 01.08.2018)
 
@@ -5087,7 +5091,7 @@ De in artikel 248 bedoelde open brieven worden geregistreerd, tegen betaling van
 
 Wordt de registratie gevorderd na het verstrijken van hierboven gestelde termijnen, zoo geeft deze formaliteit aanleiding tot het heffen van en geldboete gelijk aan het recht, onverminderd ditzelve.
 
-## Art. 254
+###### Art. 254
 
 (van toepassing vanaf 01.08.2018)
 
@@ -5097,19 +5101,19 @@ Na betaling van het recht en, gebeurlijk, van de geldboete, wordt vermelding van
 
 Zolang aan de formaliteit van registratie niet is voldaan, mag de open brief van adeldom niet aan begunstigden worden uitgereikt.
 
-##### Afdeling III - Bepaling gemeen aan afdelingen I en II
+#### Afdeling III - Bepaling gemeen aan afdelingen I en II
 
 (gewijzigd bij art. 9 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van toepassing vanaf 01.03.2021 (art. -))
 
-## Art. 255
+###### Art. 255
 
 (van toepassing vanaf 01.02.1940)
 
 De algemene bepalingen van deze titel betreffende de formaliteit van de registratie, de verplichting van inzageverlening, bewijsmiddelen, verjaring, rechtsvervolgingen en gedingen, moratoire interesten zijn van toepassing in de mate waarin daarvan bij dit hoofdstuk niet wordt afgeweken.
 
-#### HOOFDSTUK XIX - Speciale geldboete wegens late neerlegging van aan bekendmaking onderworpen akten van vennootschap
+### HOOFDSTUK XIX - Speciale geldboete wegens late neerlegging van aan bekendmaking onderworpen akten van vennootschap
 
-## Art. 256
+###### Art. 256
 
 (van toepassing vanaf 08.01.2018)
 
@@ -5117,7 +5121,7 @@ De algemene bepalingen van deze titel betreffende de formaliteit van de registra
 
 (…)
 
-## Art. 257
+###### Art. 257
 
 (van toepassing vanaf 08.01.2018)
 
@@ -5125,7 +5129,7 @@ De algemene bepalingen van deze titel betreffende de formaliteit van de registra
 
 (…)
 
-## Art. 258
+###### Art. 258
 
 (van toepassing vanaf 08.01.2018)
 
@@ -5133,9 +5137,9 @@ De algemene bepalingen van deze titel betreffende de formaliteit van de registra
 
 (…)
 
-### TITEL II – HYPOTHEEKRECHT
+## TITEL II – HYPOTHEEKRECHT
 
-## Art. 259
+###### Art. 259
 
 (van toepassing vanaf 01.12.2021))
 
@@ -5143,7 +5147,7 @@ De algemene bepalingen van deze titel betreffende de formaliteit van de registra
 
 Onder de benaming hypotheekrecht wordt een belasting gevestigd op de inschrijvingen van hypotheken en voorrechten op onroerende goederen.
 
-## Art. 260
+###### Art. 260
 
 (van toepassing vanaf 30.07.2018)
 
@@ -5153,7 +5157,7 @@ Inschrijving van hypotheek wordt slechts verleend, tegen voorafbetaling door de 
 
 Het detail en het totaal van de voor recht en retributies ontvangen sommen worden op het inschrijvingsborderel vermeld De Koning kan deze wijze van vermelding geven aanvullen of wijzigen voor het geval het inschrijvingsborderel op gedematerialiseerde wijze wordt aangeboden.
 
-## Art. 261
+###### Art. 261
 
 (van toepassing vanaf 01.12.2021)
 
@@ -5163,7 +5167,7 @@ Wanneer een inschrijving op verschillende kantoren wordt gevraagd tot zekerheid 
 
 Wanneer tot zekerheid van één en hetzelfde bedrag op gedematerialiseerde wijze gelijktijdig een inschrijving wordt gevraagd op verschillende kantoren, wordt het over dat bedrag verschuldigde recht vastgesteld door het kantoor dat bevoegd is voor het goed dat als eerste in het inschrijvingsborderel is vermeld. Het over dat bedrag geïnde recht dekt de inschrijvingen op de overige kantoren.
 
-## Art. 262
+###### Art. 262
 
 (van toepassing vanaf 01.01.1990)
 
@@ -5171,13 +5175,13 @@ Wanneer tot zekerheid van één en hetzelfde bedrag op gedematerialiseerde wijze
 
 Het hypotheekrecht is op 0,30 t.h. gesteld.
 
-## Art. 263
+###### Art. 263
 
 (van toepassing vanaf 01.02.1940)
 
 Het recht is vereffend op het bedrag in hoofd- en bijkomende sommen waarvoor de inschrijving genomen of hernieuwd wordt.
 
-## Art. 264
+###### Art. 264
 
 (van toepassing vanaf 01.01.2002)
 
@@ -5187,7 +5191,7 @@ Het bedrag van het vereffende recht wordt, desvoorkomend, tot de hogere cent afg
 
 Het in te vorderen recht mag niet minder dan 5 EUR bedragen.
 
-## Art. 265
+###### Art. 265
 
 (van toepassing vanaf 07.02.2022)
 
@@ -5205,7 +5209,7 @@ Zijn vrijgesteld van hypotheekrecht:
 
 5° De inschrijvingen van de voorrechten en hypotheken opgesteld bij de wet betreffende het herstel van zekere schade veroorzaakt aan private goederen door natuurrampen.
 
-## Art. 266
+###### Art. 266
 
 (van toepassing vanaf 17.01.1959)
 
@@ -5219,17 +5223,17 @@ Er is verjaring:
 
 Verjaringen worden gestuit overeenkomstig artikel 2171 en 2172.
 
-## Art. 267
+###### Art. 267
 
 (van toepassing vanaf 01.02.1940)
 
 Zijn toepasselijk op het hypotheekrecht, de bepalingen van titel I, betreffende de rechtsvervolgingen en gedingen en de moratoire interesten.
 
-### TITEL III - GRIFFIERECHT
+## TITEL III - GRIFFIERECHT
 
-#### HOOFDSTUK I - VESTIGING VAN DE BELASTING EN VASTSTELLING VAN DE RECHTEN
+### HOOFDSTUK I - VESTIGING VAN DE BELASTING EN VASTSTELLING VAN DE RECHTEN
 
-## Art. 268
+###### Art. 268
 
 (van toepassing vanaf 01.06.2015)
 
@@ -5243,9 +5247,9 @@ Onder de benaming van griffierecht wordt een belasting gevestigd op de hiernavol
 
 3° het afleveren van uitgiften, kopieën of uittreksels uit akten, vonnissen en arresten en van kopieën van andere stukken die op de griffie worden bewaard;
 
-##### Afdeling I - Rolrecht
+#### Afdeling I - Rolrecht
 
-## Art. 2691
+###### Art. 2691
 
 (van toepassing vanaf 29.06.2019 (1))
 
@@ -5267,7 +5271,7 @@ De zaken die worden geacht spoedeisend te zijn zoals bedoeld in artikel 1253ter/
 (1) Nota:
 De wijziging van de wet van is vernietigd door het arrest nr. 84/2021 van het Grondwettelijk Hof van 10.06.2021 in zoverre zij van toepassing zijn op de rechtzoekenden van wie de zaak op de rol is ingeschreven tussen 01.02.2019 en 31.08.2020, die uiterlijk op 31.08.2020 zijn veroordeeld tot betaling van de rolrechten, en van wie de bestaansmiddelen lager zijn dan de plafonds om juridische tweedelijnsbijstand en rechtsbijstand te genieten, zoals vastgesteld krachtens de artikelen 3 en 4 van de wet van 31.07.2020 « tot wijziging van het gerechtelijk wetboek teneinde de toegang tot de juridische tweedelijnsbijstand en de rechtsbijstand te verbeteren, door de ter zake geldende inkomensmaxima te verhogen », maar hoger dan de plafonds die van toepassing waren vóór de inwerkingtreding van die bepalingen.
 
-## Art. 2692
+###### Art. 2692
 
 (van toepassing vanaf 29.06.2019 (1))
 
@@ -5289,7 +5293,7 @@ De wijziging van de wet van is vernietigd door het arrest nr. 84/2021 van het Gr
 
 uiterlijk op 31.08.2020 zijn veroordeeld tot betaling van de rolrechten, en van wie de bestaansmiddelen lager zijn dan de plafonds om juridische tweedelijnsbijstand en rechtsbijstand te genieten, zoals vastgesteld krachtens de artikelen 3 en 4 van de wet van 31.07.2020 « tot wijziging van het gerechtelijk wetboek teneinde de toegang tot de juridische tweedelijnsbijstand en de rechtsbijstand te verbeteren, door de ter zake geldende inkomensmaxima te verhogen », maar hoger dan de plafonds die van toepassing waren vóór de inwerkingtreding van die bepalingen.
 
-## Art. 2693
+###### Art. 2693
 
 (van toepassing vanaf 01.02.2019)
 
@@ -5298,7 +5302,7 @@ uiterlijk op 31.08.2020 zijn veroordeeld tot betaling van de rolrechten, en van 
 (…)
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 2691, eerste lid, W.Reg. bedoelde inschrijving of herinschrijving wordt verzocht vanaf hun datums van inwerkingtreding (art. 28).
 
-## Art. 2694
+###### Art. 2694
 
 (van toepassing vanaf 01.02.2019)
 
@@ -5307,7 +5311,7 @@ De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 26
 (…)
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 2691, eerste lid, W.Reg. bedoelde inschrijving of herinschrijving wordt verzocht vanaf hun datums van inwerkingtreding (art. 28).
 
-## Art. 270
+###### Art. 270
 
 (van toepassing vanaf 01.01.1961)
 
@@ -5315,9 +5319,9 @@ De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 26
 
 (…)
 
-##### Afdeling Ibis - Opstelrecht
+#### Afdeling Ibis - Opstelrecht
 
-## Art. 2701
+###### Art. 2701
 
 (van toepassing vanaf 08.07.2012)
 
@@ -5325,7 +5329,7 @@ De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 26
 
 Met akten van griffiers van hoven en rechtbanken worden gelijkgesteld, overschrijvingen gedaan door griffiers in hun registers, van de verklaringen van beroep of van voorziening in verbreking strafzaken, door gedetineerden of geïnterneerden afgelegd.
 
-## Art. 2702
+###### Art. 2702
 
 (van toepassing vanaf 08.07.2012)
 
@@ -5333,7 +5337,7 @@ Met akten van griffiers van hoven en rechtbanken worden gelijkgesteld, overschri
 
 De akten van bekendheid, de akten van aanneming en de akten waarbij een minderjarige machtiging wordt verleend om handel te drijven, die verleden worden ten overstaan van de vrederechters, zijn onderhevig aan een opstelrecht waarvan het bedrag op 35 euro wordt bepaald.
 
-## Art. 2703
+###### Art. 2703
 
 (van toepassing vanaf 08.07.2012)
 
@@ -5343,9 +5347,9 @@ De verklaringen van keus van vaderland zijn onderhevig aan een opstelrecht, waar
 
 Dit recht is vatbaar voor teruggaaf ingeval de inwilliging bij een eindbeslissing van het bevoegd gerecht wordt geweigerd.
 
-##### Afdeling II - Expeditierecht
+#### Afdeling II - Expeditierecht
 
-## Art. 271
+###### Art. 271
 
 (van toepassing vanaf 01.11.2018)
 
@@ -5360,7 +5364,7 @@ Op de uitgiften, kopieën of uittreksels die in de griffies worden afgeleverd, w
 
 3° 5,55 euro per bladzijde in het Hof van Cassatie.
 
-## Art. 272
+###### Art. 272
 
 (van toepassing vanaf 08.07.2012)
 
@@ -5380,7 +5384,7 @@ Hetzelfde recht is verschuldigd voor uitgiften, kopieën en uittreksels uit akte
 
 Hetzelfde recht is eveneens verschuldigd voor de kopie van een elektronisch bestand. Het recht is verschuldigd voor elke gekopieerde elektronische bladzijde van het brondocument. De parameters van het brondocument, die de elektronische bladzijde bepalen, mogen bij het maken van de kopie niet gewijzigd worden.
 
-## Art. 273
+###### Art. 273
 
 (van toepassing vanaf 07.01.2007)
 
@@ -5390,7 +5394,7 @@ Het recht wordt berekend per bladzijde van het arrest, het vonnis of de akte, we
 
 Het recht wordt evenwel éénvormig berekend alsof er slechts één bladzijde was, voor de uittreksels die worden afgeleverd ter uitvoering van artikel 121 van het Algemeen Reglement op de gerechtskosten in strafzaken.
 
-## Art. 274
+###### Art. 274
 
 (van toepassing vanaf 07.01.2007)
 
@@ -5398,7 +5402,7 @@ Het recht wordt evenwel éénvormig berekend alsof er slechts één bladzijde wa
 
 Wanneer in een uitgifte, kopie of uittreksel meerdere arresten, vonnissen of akten worden weergegeven, wordt het recht berekend per bladzijde van elk dezer documenten, zonder dat er, voor ieder van deze documenten, minder mag geheven worden dan het recht verschuldigd voor één bladzijde.
 
-## Art. 274bis
+###### Art. 274bis
 
 (van toepassing vanaf 08.07.2012)
 
@@ -5406,7 +5410,7 @@ Wanneer in een uitgifte, kopie of uittreksel meerdere arresten, vonnissen of akt
 
 Voor kopieën van audiovisueel materiaal is, ongeacht op welke informatiedrager de kopie wordt afgeleverd, per gekopieerde minuut 1,15 euro verschuldigd, zonder dat de verschuldigde rechten minder mogen bedragen dan 5,75 euro Een begonnen minuut telt voor een volle minuut.
 
-## Art. 274ter
+###### Art. 274ter
 
 (van toepassing vanaf 08.07.2012)
 
@@ -5414,17 +5418,9 @@ Voor kopieën van audiovisueel materiaal is, ongeacht op welke informatiedrager 
 
 De expeditierechten die verschuldigd zijn op één en hetzelfde verzoek voor één en dezelfde zaak, mogen 1 450 euro niet overschrijden.
 
-##### Afdeling III - Legalisatie- en opzoekingsrechten
+#### Afdeling III - Legalisatie- en opzoekingsrechten
 
-## Art. 275
-
-(van toepassing vanaf 01.01.1990)
-
-(opgeheven bij art. 205 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst van toepassing vanaf 01.01.1990 (art. 244))
-
-(…)
-
-## Art. 276
+###### Art. 275
 
 (van toepassing vanaf 01.01.1990)
 
@@ -5432,9 +5428,17 @@ De expeditierechten die verschuldigd zijn op één en hetzelfde verzoek voor é�
 
 (…)
 
-##### Afdeling IV - Recht van inschrijving in het handelsregister
+###### Art. 276
 
-## Art. 277
+(van toepassing vanaf 01.01.1990)
+
+(opgeheven bij art. 205 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst van toepassing vanaf 01.01.1990 (art. 244))
+
+(…)
+
+#### Afdeling IV - Recht van inschrijving in het handelsregister
+
+###### Art. 277
 
 (van toepassing vanaf 01.07.2003)
 
@@ -5442,7 +5446,7 @@ De expeditierechten die verschuldigd zijn op één en hetzelfde verzoek voor é�
 
 (…)
 
-## Art. 278
+###### Art. 278
 
 (van toepassing vanaf 01.07.2003)
 
@@ -5450,9 +5454,9 @@ De expeditierechten die verschuldigd zijn op één en hetzelfde verzoek voor é�
 
 (…)
 
-#### HOOFDSTUK II - Vrijstellingen
+### HOOFDSTUK II - Vrijstellingen
 
-## Art. 2791
+###### Art. 2791
 
 (van toepassing vanaf 01.02.2019)
 
@@ -5471,7 +5475,7 @@ Het recht is echter verschuldigd voor de onder artikel 162, 13°, bedoelde proce
 4° de inschrijving van zaken die ingeleid worden in het kader van het boek XX van het Wetboek van economisch recht.
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 2691, eerste lid, W.Reg. bedoelde inschrijving of herinschrijving wordt verzocht vanaf hun datums van inwerkingtreding (art. 28).
 
-## Art. 2792
+###### Art. 2792
 
 (van toepassing vanaf 09.03.2026)
 
@@ -5489,7 +5493,7 @@ Zijn vrijgesteld van het opstelrecht:
 
 5° (…)
 
-## Art. 280
+###### Art. 280
 
 (van toepassing vanaf 09.03.2026)
 
@@ -5523,7 +5527,7 @@ a) bij gelegenheid van verrichtingen binnen het kader van de wet van 12 juli 197
 
 b) naar aanleiding van schadelijke gebeurtenissen die als een openbare of landbouwramp worden erkend en waarin het herstel of de schadeloosstelling wordt geregeld door bijzondere wetten of door internationale overeenkomsten.
 
-## Art. 281
+###### Art. 281
 
 (van toepassing vanaf 01.02.2019)
 
@@ -5532,7 +5536,7 @@ b) naar aanleiding van schadelijke gebeurtenissen die als een openbare of landbo
 (…)
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 2691, eerste lid, W.Reg. bedoelde inschrijving of herinschrijving wordt verzocht vanaf hun datums van inwerkingtreding (art. 28).
 
-## Art. 282
+###### Art. 282
 
 (van toepassing vanaf 01.01.1990)
 
@@ -5540,15 +5544,15 @@ De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 26
 
 (…)
 
-#### HOOFDSTUK III - Diverse bepalingen
+### HOOFDSTUK III - Diverse bepalingen
 
-## Art. 283
+###### Art. 283
 
 (van toepassing vanaf 01.02.1940)
 
 In de in artikel 160 voorziene gevallen, worden de griffierechten in debet vereffend en ingevorderd volgens de regelen die van toepassing zijn op de onder dezelfde voorwaarden vereffende registratierechten.
 
-## Art. 284
+###### Art. 284
 
 (van toepassing vanaf 07.01.2007)
 
@@ -5558,14 +5562,14 @@ Worden eveneens in debet vereffend, de griffierechten verschuldigd op uitgiften,
 
 De rechten worden onder de gerechtskosten begrepen en als dusdanig ingevorderd ten laste van de partij die er toe veroordeeld werd.
 
-## Art. 284bis
+###### Art. 284bis
 
 (van toepassing vanaf 07.01.2007)
 (gewijzigd bij art. 312 van de wet van 27.12.2006 (B.S., 28.12.2006). Tekst van toepassing vanaf 07.01.2007 (art. -))
 
 In debet worden eveneens vereffend, de griffierechten verschuldigd op de kopieën in strafzaken die worden afgegeven met toepassing van de artikelen 674bis en volgende van het Gerechtelijk Wetboek. De rechten alsmede de andere kosten worden ingevorderd overeenkomstig de bepalingen van hetzelfde Wetboek.
 
-## Art. 285
+###### Art. 285
 
 (van toepassing vanaf 01.01.2002)
 
@@ -5578,7 +5582,7 @@ Daarbij kan de medewerking van de griffies bij de heffing van de griffierechten 
 
 Inbreuken op de voorschriften van evenbedoeld koninklijk besluit kunnen worden bestraft met boeten waarvan het bedrag per inbreuk 250 EUR niet mag te boven gaan.
 
-## Art. 286
+###### Art. 286
 
 (van toepassing vanaf 17.01.1959)
 
@@ -5594,13 +5598,13 @@ Die verjaringen worden gestuit overeenkomstig artikel 2171 en 2172.
 
 Verjaring voor het invorderen der in debet vereffende rechten ontstaat echter zoals die voor de onder dezelfde voorwaarden vereffende registratierechten.
 
-## Art. 287
+###### Art. 287
 
 (van toepassing vanaf 01.02.1940)
 
 De bepalingen van titel I betreffende de vervolgingen en gedingen en de moratoire interesten, zijn toepasselijk op de griffierechten.
 
-## Art. 288
+###### Art. 288
 
 (van toepassing vanaf 01.02.2019)
 
@@ -5609,7 +5613,7 @@ De bepalingen van titel I betreffende de vervolgingen en gedingen en de moratoir
 De Koning kan wat de rolrechten betreft bij een in Ministerraad overlegd besluit de regels bepalen inzake de inning, de verjaringstermijnen, de wijzen waarop de verjaring wordt gestuit of geschorst, de vervolgingen en gedingen en de moratoire interesten en daarbij afwijken van de in artikelen 286 en 287 bepaalde regels. De besluiten die genomen worden in toepassing van dit artikel, worden bekrachtigd door de wet binnen de 12 maanden volgend op de datum van hun bekendmaking in het Belgisch Staatsblad.
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 2691, eerste lid, W.Reg. bedoelde inschrijving of herinschrijving wordt verzocht vanaf hun datums van inwerkingtreding (art. 28).
 
-## Art. 288bis
+###### Art. 288bis
 
 (van toepassing vanaf 01.02.2019)
 
@@ -5620,11 +5624,11 @@ De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 26
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-### TITEL IV - DIGITALISATIE VAN DE RELATIES TUSSEN DE FEDERALE
+## TITEL IV - DIGITALISATIE VAN DE RELATIES TUSSEN DE FEDERALE
 
 (ingevoegd bij art. 74 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
 
-## Art. 288ter
+###### Art. 288ter
 
 (van toepassing vanaf 01.01.2028)
 
@@ -5638,7 +5642,7 @@ Voor de toepassing van de bepalingen van dit Wetboek, van de bijzondere wetsbepa
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 288quater
+###### Art. 288quater
 
 (van toepassing vanaf 01.01.2028)
 
@@ -5662,7 +5666,7 @@ Wanneer het bericht van de Federale Overheidsdienst Financiën aan een burger, n
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 288quinquies
+###### Art. 288quinquies
 
 (van toepassing vanaf 01.01.2028)
 
@@ -5674,7 +5678,7 @@ Behoudens indien de wettelijke of reglementaire bepalingen anders bepalen, wordt
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 288sexies
+###### Art. 288sexies
 
 (van toepassing vanaf 01.01.2028)
 
@@ -5686,7 +5690,7 @@ Wanneer een persoon zich niet heeft kunnen identificeren bij een beveiligd elekt
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 288septies
+###### Art. 288septies
 
 (van toepassing vanaf 01.01.2028)
 
@@ -5706,7 +5710,7 @@ Wanneer een bericht wordt verzonden door de Federale Overheidsdienst Financiën 
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 288octies
+###### Art. 288octies
 
 (van toepassing vanaf 01.01.2028)
 
@@ -5716,7 +5720,7 @@ De rechtsgevolgen van een bericht verzonden door middel van een beveiligd elektr
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 288nonies
+###### Art. 288nonies
 
 (van toepassing vanaf 01.01.2028)
 
@@ -5728,7 +5732,7 @@ Wanneer een document elektronisch wordt ondertekend door middel van het stelsel 
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 288decies
+###### Art. 288decies
 
 (van toepassing vanaf 01.01.2028)
 
@@ -5740,7 +5744,7 @@ GEMEENSCHAPPELIJKE BEPALINGEN VOOR ALLE BELASTINGEN
 
 (gewijzigd bij art. 5 van de wet van 17.08.2013 (B.S., 05.09.2013). Tekst van toepassing vanaf 01.01.2013 (art. 21))
 
-## Art. 289
+###### Art. 289
 
 (van toepassing vanaf 10.02.2013)
 
@@ -5764,7 +5768,7 @@ Elke ambtenaar van de Federale Overheidsdienst Financiën, die wettelijk werd be
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 289bis
+###### Art. 289bis
 
 (van toepassing vanaf 01.01.2028)
 
@@ -6221,7 +6225,7 @@ Indien voor de toepassing van deze richtlijn een gegevensinbreuk in het centrale
 - in § 6/1, lid 2: lees ‘5°, a) en i)’ ipv. ‘6°, a) en k)’.
 - in § 6/3, lid 2, 1°: lees ‘’ paragraaf 2, 18° ‘ ipv. ‘’ paragraaf 2, 21°’.
 
-## Art. 289bis
+###### Art. 289bis
 
 (van toepassing vanaf 11.04.2026)
 
@@ -6677,7 +6681,7 @@ Indien voor de toepassing van deze richtlijn een gegevensinbreuk in het centrale
 - in § 6/1, lid 2: lees ‘5°, a) en i)’ ipv. ‘6°, a) en k)’.
 - in § 6/3, lid 2, 1°: lees ‘’ paragraaf 2, 18° ‘ ipv. ‘’ paragraaf 2, 21°’.
 
-## Art. 289bis/1
+###### Art. 289bis/1
 
 (van toepassing vanaf 11.04.2026)
 
@@ -6725,7 +6729,7 @@ d) ingeschreven zijn bij een beroepsorganisatie in verband met de verstrekking v
 
 8° "cliënt": elke intermediair of relevante belastingplichtige die diensten, met inbegrip van bijstand, advies, raad of begeleiding, ontvangt van een tot het juridisch beroepsgeheim gehouden intermediair met betrekking tot een meldingsplichtige grensoverschrijdende constructie.
 
-## Art. 289bis/2
+###### Art. 289bis/2
 
 (van toepassing vanaf 01.07.2020)
 
@@ -6816,7 +6820,7 @@ b) de prognoses van de toekomstige kasstromen of inkomsten die naar verwachting 
 
 3° een constructie met een grensoverschrijdende overdracht binnen de groep van functies, en/of risico's en/of activa, indien de geraamde jaarlijkse winst vóór interest en belastingen (ebit) van de overdrager of overdragers, tijdens de periode van drie jaar na de overdracht, minder dan 50 % bedraagt van de geraamde jaarlijkse ebit van die overdrager of overdragers indien de overdracht niet had plaatsgevonden.
 
-## Art. 289bis/3
+###### Art. 289bis/3
 
 (van toepassing vanaf 01.07.2020)
 
@@ -6845,7 +6849,7 @@ Onverminderd het eerste lid moeten de intermediairs bedoeld in artikel 289bis/1,
 
 Wanneer er op grond van het eerste lid een meervoudige meldingsplicht bestaat, wordt de intermediair ontheven van het verstrekken van de inlichtingen als hij een schriftelijk bewijs voorlegt dat dezelfde inlichtingen in een andere lidstaat zijn verstrekt.
 
-## Art. 289bis/4
+###### Art. 289bis/4
 
 (van toepassing vanaf 01.07.2020)
 
@@ -6856,7 +6860,7 @@ Indien het gaat om een marktklare constructie moet de intermediair om de drie ma
 
 De intermediair die het uniek referentienummer van de bevoegde instanties ontvangt, dient dit, samen met de samenvatting betreffende de gemelde constructie, onverwijld aan de andere betrokken intermediairs en aan de relevante belastingplichtige door te geven.
 
-## Art. 289bis/5
+###### Art. 289bis/5
 
 (van toepassing vanaf 01.07.2020)
 
@@ -6866,7 +6870,7 @@ Naar aanleiding van de melding van een grensoverschrijdende constructie die ten 
 
 De intermediair die het uniek referentienummer van de bevoegde instanties ontvangt, dient dit, samen met de samenvatting betreffende de gemelde constructie, onverwijld aan de andere betrokken intermediairs en aan de relevante belastingplichtige door te geven.
 
-## Art. 289bis/6
+###### Art. 289bis/6
 
 (van toepassing vanaf 01.07.2020)
 
@@ -6876,7 +6880,7 @@ Wanneer meerdere intermediairs betrokken zijn bij dezelfde meldingsplichtige gre
 
 Een intermediair wordt ontheven van de verplichting tot het verstrekken van inlichtingen indien hij een schriftelijk bewijs voorlegt dat een andere intermediair de inlichtingen bedoeld in artikel 289bis, § 6/3, tweede lid, reeds heeft verstrekt.
 
-## Art. 289bis/7
+###### Art. 289bis/7
 
 (van toepassing vanaf 11.04.2026)
 
@@ -6898,7 +6902,7 @@ Indien de relevante belastingplichtige geen instemming verleent blijft de meldin
 
 § 4. In afwijking van paragraaf 1, eerste lid, 1°, is de intermediair die een advocaat is, niet gehouden een betrokken intermediair die niet de cliënt is op de hoogte te brengen dat hij niet aan de meldingsplicht kan voldoen.
 
-## Art. 289bis/8
+###### Art. 289bis/8
 
 (van toepassing vanaf 01.07.2020)
 
@@ -6932,7 +6936,7 @@ Indien de relevante belastingplichtige geen instemming verleent blijft de meldin
 
 Wanneer er op grond van het eerste lid een meervoudige meldingsplicht bestaat, wordt de relevante belastingplichtige ontheven van het verstrekken van de inlichtingen als hij een schriftelijk bewijs voorlegt dat dezelfde inlichtingen in een andere lidstaat zijn verstrekt.
 
-## Art. 289bis/9
+###### Art. 289bis/9
 
 (van toepassing vanaf 01.07.2020)
 
@@ -6946,7 +6950,7 @@ Wanneer de meldingsplicht bij de relevante belastingplichtige ligt en er meer da
 
 Een relevante belastingplichtige wordt ontheven van de verplichting tot het verstrekken van de inlichtingen indien hij een schriftelijk bewijs voorlegt dat een andere relevante belastingplichtige de inlichtingen bedoeld in artikel 289bis, § 6/3, reeds heeft verstrekt.
 
-## Art. 289bis/10
+###### Art. 289bis/10
 
 (van toepassing vanaf 01.07.2020)
 
@@ -6955,7 +6959,7 @@ Een relevante belastingplichtige wordt ontheven van de verplichting tot het vers
 Voor de toepassing van de artikelen 289bis, § 6/3 en 289bis/1 tot en met 289bis/9 en de daaruit voortvloeiende uitvoeringsbesluiten dient de melding van de inlichtingen, voor de onderdelen die de Koning nader bepaalt, naast het gebruik van één van de officiële landstalen, ook in het Engels te gebeuren.
 Het KB van 03.07.2020 (B.S., 14.07.2020) voorziet dat de Minister van Financiën of de door hem aangewezen leidinggevende ambtenaar bepaalt welke gegevens, naast het gebruik van één van de officiële landstalen, ook in het Engels moeten worden meegedeeld (art. 1) en eveneens het formulier dat door de intermediair of de relevante belastingplichtige moet worden gebruikt (art. 2). De leidinggevende ambtenaar bedoeld in het bovenvermelde KB is de leidinggevende ambtenaar van de algemene administratie bevoegd voor de vestiging van de inkomstenbelastingen (art. 1, MB van 07.07.2020 (B.S., 14.07.2020)).
 
-## Art. 289bis/11
+###### Art. 289bis/11
 
 (van toepassing vanaf 01.07.2020)
 
@@ -6964,7 +6968,7 @@ Het KB van 03.07.2020 (B.S., 14.07.2020) voorziet dat de Minister van Financiën
 De Koning bepaalt het formulier waarop de intermediair of de relevante belastingplichtige de verplichtingen opgenomen in de artikelen 289bis/1 tot en met 289bis/9 moeten naleven.
 Het KB van 03.07.2020 (B.S., 14.07.2020) voorziet dat de Minister van Financiën of de door hem aangewezen leidinggevende ambtenaar bepaalt welke gegevens, naast het gebruik van één van de officiële landstalen, ook in het Engels moeten worden meegedeeld (art. 1) en eveneens het formulier dat door de intermediair of de relevante belastingplichtige moet worden gebruikt (art. 2). De leidinggevende ambtenaar bedoeld in het bovenvermelde KB is de leidinggevende ambtenaar van de algemene administratie bevoegd voor de vestiging van de inkomstenbelastingen (art. 1, MB van 07.07.2020 (B.S., 14.07.2020)).
 
-## Art. 289bis/12
+###### Art. 289bis/12
 
 (van toepassing vanaf 31.12.2024)
 
@@ -6978,7 +6982,7 @@ De Koning legt de progressieve schaal van de administratieve geldboetes vast en 
 
 De Koning kan voor de geldboeten die Hij bepaalt, voorzien in de toepassingsmodaliteiten van de maatregelen tot individualisering van de sanctie door de bevoegde rechter.
 
-## Art. 289bis/13
+###### Art. 289bis/13
 
 (van toepassing vanaf 01.07.2020)
 
@@ -6988,7 +6992,7 @@ De Koning kan voor de geldboeten die Hij bepaalt, voorzien in de toepassingsmoda
 
 De fiscale administratie, mag binnen de door haar bepaalde termijn, welke wegens wettige redenen kan worden verlengd, voor zover zij die informatie nodig acht om de correcte naleving van de artikelen 289bis/1 tot en met 289bis/11 te verzekeren, van de betrokken intermediair(s) alle informatie vorderen die in toepassing van artikel 289bis/1 tot en met 289bis/11 diende te worden gemeld aan de Belgische bevoegde autoriteit.
 
-## Art. 289ter
+###### Art. 289ter
 
 (van toepassing vanaf 01.03.2021)
 
@@ -6996,7 +7000,7 @@ De fiscale administratie, mag binnen de door haar bepaalde termijn, welke wegens
 
 De Koning bepaalt de wijze van betaling van alle bedragen die krachtens de bepalingen van dit Wetboek en de uitvoeringsbesluiten ervan verschuldigd zijn, andere dan de strafrechtelijke boetes.
 
-## Art. 289quater
+###### Art. 289quater
 
 (tekst niet in werking getreden)
 
@@ -7007,7 +7011,7 @@ Tekst van toepassing vanaf 09.06.2024 (art. -))
 
 (…)
 
-## Art. 289quinquies
+###### Art. 289quinquies
 
 (tekst niet in werking getreden)
 
@@ -7018,7 +7022,7 @@ Tekst van toepassing vanaf 09.06.2024 (art. -))
 
 (…)
 
-## Art. 289sexies
+###### Art. 289sexies
 
 (tekst niet in werking getreden)
 
@@ -7029,7 +7033,7 @@ Tekst van toepassing vanaf 09.06.2024 (art. -))
 
 (…)
 
-## Art. 289septies
+###### Art. 289septies
 
 (van toepassing vanaf 09.06.2024)
 
@@ -7038,7 +7042,7 @@ Tekst van toepassing vanaf 09.06.2024 (art. -))
 (…) (1)
 (1) § 2, ingevoegd bij art. 84 van de wet van 26.01.2021 (B.S., 10.02.2021) die nooit in werking is getreden wordt opgeheven bij art. 213 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2).
 
-## Art. 289octies
+###### Art. 289octies
 
 (tekst niet in werking getreden)
 
@@ -7049,7 +7053,7 @@ Tekst van toepassing vanaf 09.06.2024 (art. -))
 
 (…)
 
-## Art. 289nonies
+###### Art. 289nonies
 
 (tekst niet in werking getreden)
 
@@ -7060,7 +7064,7 @@ Tekst van toepassing vanaf 09.06.2024 (art. -))
 
 (…)
 
-## Art. 289decies
+###### Art. 289decies
 
 (tekst niet in werking getreden)
 
@@ -7071,7 +7075,7 @@ Tekst van toepassing vanaf 09.06.2024 (art. -))
 
 (…)
 
-## Art. 289undecies
+###### Art. 289undecies
 
 (tekst niet in werking getreden)
 
@@ -7082,7 +7086,7 @@ Tekst van toepassing vanaf 09.06.2024 (art. -))
 
 (…)
 
-## Art. 289duodecies
+###### Art. 289duodecies
 
 (tekst niet in werking getreden)
 
@@ -7093,7 +7097,7 @@ Tekst van toepassing vanaf 09.06.2024 (art. -))
 
 (…)
 
-## Art. 289terdecies
+###### Art. 289terdecies
 
 (tekst niet in werking getreden)
 
@@ -7106,7 +7110,7 @@ Tekst van toepassing vanaf 09.06.2024 (art. -))
 
 INTREKKINGSBEPALING
 
-## Art. 290
+###### Art. 290
 
 (van toepassing vanaf 01.02.1940)
 
@@ -7114,41 +7118,41 @@ Onder voorbehoud van de bijzondere fiscale bepalingen voortvloeiend hetzij uit d
 
 TIJDELIJKE BEPALINGEN
 
-##### Afdeling I - Maatregelen waarbij de oprichting van nieuwe gebouwen begunstigd wordt door een vermindering der registratierechten
+#### Afdeling I - Maatregelen waarbij de oprichting van nieuwe gebouwen begunstigd wordt door een vermindering der registratierechten
 
 § 1 - Aankoop van een bouwgrond
 
-## Art. 291
+###### Art. 291
 
 (zonder voorwerp geworden)
 
 (…)
 
-## Art. 292
+###### Art. 292
 
 (niet meer van toepassing)
 
 (…)
 
-## Art. 293
+###### Art. 293
 
 (zonder voorwerp geworden)
 
 (…)
 
-## Art. 294
+###### Art. 294
 
 (niet meer van toepassing)
 
 (…)
 
-## Art. 295
+###### Art. 295
 
 (niet meer van toepassing)
 
 (…)
 
-## Art. 296
+###### Art. 296
 
 (zonder voorwerp geworden)
 
@@ -7156,27 +7160,27 @@ TIJDELIJKE BEPALINGEN
 
 § 2 - Verkoop van een gebouwd onroerend goed
 
-## Art. 297
+###### Art. 297
 
 (niet meer van toepassing)
 
 (…)
 
-## Art. 298
+###### Art. 298
 
 (zonder voorwerp geworden)
 
 (…)
 
-## Art. 299
+###### Art. 299
 
 (niet meer van toepassing)
 
 (…)
 
-##### Afdeling II - Diverse bepalingen
+#### Afdeling II - Diverse bepalingen
 
-## Art. 300
+###### Art. 300
 
 (van toepassing vanaf 01.01.1961)
 
@@ -7184,7 +7188,7 @@ TIJDELIJKE BEPALINGEN
 
 (…)
 
-## Art. 301
+###### Art. 301
 
 (van toepassing vanaf 02.09.2023)
 
@@ -7216,7 +7220,7 @@ worden toegestaan volgens de voorzieningen van de ter zake geldende wettelijke b
 
 10° De akten en vonnissen betreffende de rechtsplegingen vóór de vrederechters bedoeld bij de wet houdende uitzonderingsbepalingen in zake huishuur, wanneer het jaarlijks bedrag van de huurprijs, eisbaar op het ogenblik van de indiening van de eis, niet hoger is dan 300 EUR.
 
-## Art. 301bis
+###### Art. 301bis
 
 (van toepassing vanaf 22.04.1962)
 
@@ -7224,7 +7228,7 @@ worden toegestaan volgens de voorzieningen van de ter zake geldende wettelijke b
 
 (…)
 
-## Art. 301ter
+###### Art. 301ter
 
 (van toepassing vanaf 24.02.1958)
 
@@ -7232,7 +7236,7 @@ worden toegestaan volgens de voorzieningen van de ter zake geldende wettelijke b
 
 (…)
 
-## Art. 301quater
+###### Art. 301quater
 
 (van toepassing vanaf 10.06.1951)
 
@@ -7240,13 +7244,13 @@ worden toegestaan volgens de voorzieningen van de ter zake geldende wettelijke b
 
 Kosteloos worden geregistreerd de akten, waarbij aan de gerechtigden van de wet van 1 oktober 1947 betreffende de herstelling van de oorlogsschade aan private goederen, uit de hand woonhuizen worden verkocht die op initiatief van de Staat met het oog op de huisvesting van de geteisterden door oorlogsfeit werden gebouwd.
 
-## Art. 302
+###### Art. 302
 
 (van toepassing vanaf 01.02.1940)
 
 Akten betreffende de ambtshalve tenuitvoerlegging van de beslissingen van de bij de vredesverdragen ingestelde gemengde scheidsgerechten worden in debet geregistreerd.
 
-## Art. 302bis
+###### Art. 302bis
 
 (van toepassing vanaf 27.08.1978)
 
@@ -7258,7 +7262,7 @@ Te dien einde, zal de Minister die Economische zaken, Streekeconomie of Middenst
 
 § 2. Wordt, overeenkomstig de voorwaarden en toepassingsmodaliteiten als bepaald in § 1, van het evenredig recht vrijgesteld, de inbreng in vennootschappen die de rechtspersoonlijkheid bezitten en die in titel I, artikel 2, van de wet tot economische heroriëntering zijn bedoeld.
 
-## Art. 302ter
+###### Art. 302ter
 
 (van toepassing vanaf 25.11.2025)
 
@@ -7266,7 +7270,7 @@ Te dien einde, zal de Minister die Economische zaken, Streekeconomie of Middenst
 
 (…)
 
-## Art. 302quater
+###### Art. 302quater
 
 (van toepassing vanaf 01.01.1994)
 
@@ -7275,7 +7279,7 @@ Te dien einde, zal de Minister die Economische zaken, Streekeconomie of Middenst
 
 (…)
 
-## Art. 303
+###### Art. 303
 
 (van toepassing vanaf 23.07.1941)
 
@@ -7287,7 +7291,7 @@ Worden van hypotheekrecht vrijgesteld:
 
 2° Inschrijvingen genomen ter uitvoering van de wet van 27 maart 1924, betreffende de Nationale Vereniging van nijveraars en handelaars voor het herstel der oorlogsschade.
 
-## Art. 304
+###### Art. 304
 
 (van toepassing vanaf 05.03.1949)
 
@@ -7299,7 +7303,7 @@ De vonnissen en arresten zijn vrij van expeditierecht.
 
 Die vrijstellingen zijn evenwel niet toepasselijk in het geval bedoeld bij artikel 301, 10°.
 
-## Art. 304bis
+###### Art. 304bis
 
 (van toepassing vanaf 01.01.1994)
 
@@ -7308,7 +7312,7 @@ Die vrijstellingen zijn evenwel niet toepasselijk in het geval bedoeld bij artik
 
 (…)
 
-## Art. 305
+###### Art. 305
 
 (van toepassing vanaf 01.01.1990)
 
@@ -7316,7 +7320,7 @@ Die vrijstellingen zijn evenwel niet toepasselijk in het geval bedoeld bij artik
 
 (…)
 
-## Art. 305bis
+###### Art. 305bis
 
 (van toepassing vanaf 30.09.1967)
 
@@ -7326,17 +7330,9 @@ Die vrijstellingen zijn evenwel niet toepasselijk in het geval bedoeld bij artik
 
 OVERGANGSBEPALINGEN
 
-##### Afdeling I - Algemene maatregelen
+#### Afdeling I - Algemene maatregelen
 
-## Art. 306
-
-(van toepassing vanaf 01.01.1990)
-
-(opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst van toepassing vanaf 01.01.1990 (art. 244))
-
-(…)
-
-## Art. 307
+###### Art. 306
 
 (van toepassing vanaf 01.01.1990)
 
@@ -7344,7 +7340,7 @@ OVERGANGSBEPALINGEN
 
 (…)
 
-## Art. 308
+###### Art. 307
 
 (van toepassing vanaf 01.01.1990)
 
@@ -7352,7 +7348,7 @@ OVERGANGSBEPALINGEN
 
 (…)
 
-## Art. 309
+###### Art. 308
 
 (van toepassing vanaf 01.01.1990)
 
@@ -7360,7 +7356,7 @@ OVERGANGSBEPALINGEN
 
 (…)
 
-## Art. 310
+###### Art. 309
 
 (van toepassing vanaf 01.01.1990)
 
@@ -7368,7 +7364,7 @@ OVERGANGSBEPALINGEN
 
 (…)
 
-## Art. 311
+###### Art. 310
 
 (van toepassing vanaf 01.01.1990)
 
@@ -7376,7 +7372,7 @@ OVERGANGSBEPALINGEN
 
 (…)
 
-## Art. 312
+###### Art. 311
 
 (van toepassing vanaf 01.01.1990)
 
@@ -7384,7 +7380,7 @@ OVERGANGSBEPALINGEN
 
 (…)
 
-## Art. 313
+###### Art. 312
 
 (van toepassing vanaf 01.01.1990)
 
@@ -7392,7 +7388,7 @@ OVERGANGSBEPALINGEN
 
 (…)
 
-## Art. 314
+###### Art. 313
 
 (van toepassing vanaf 01.01.1990)
 
@@ -7400,11 +7396,19 @@ OVERGANGSBEPALINGEN
 
 (…)
 
-##### Afdeling II - Bijzondere maatregelen
+###### Art. 314
+
+(van toepassing vanaf 01.01.1990)
+
+(opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst van toepassing vanaf 01.01.1990 (art. 244))
+
+(…)
+
+#### Afdeling II - Bijzondere maatregelen
 
 § 1. Overdrachten onder bezwarende titel van onroerende goederen
 
-## Art. 315
+###### Art. 315
 
 (van toepassing vanaf 01.01.1980)
 
@@ -7412,7 +7416,7 @@ OVERGANGSBEPALINGEN
 
 (…)
 
-## Art. 316
+###### Art. 316
 
 (van toepassing vanaf 01.01.1990)
 
@@ -7422,7 +7426,7 @@ OVERGANGSBEPALINGEN
 
 § 2. Burgerlijke en handelsvennootschappen
 
-## Art. 317
+###### Art. 317
 
 (van toepassing vanaf 01.01.1990)
 
@@ -7430,7 +7434,7 @@ OVERGANGSBEPALINGEN
 
 (…)
 
-## Art. 318
+###### Art. 318
 
 (van toepassing vanaf 04.05.1965)
 
@@ -7440,7 +7444,7 @@ OVERGANGSBEPALINGEN
 
 BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN
 
-## Art. 319
+###### Art. 319
 
 (van toepassing vanaf 01.01.1971)
 
@@ -7448,7 +7452,7 @@ BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN
 
 (…)
 
-## Art. 320
+###### Art. 320
 
 (van toepassing vanaf 01.01.1971)
 
@@ -7456,7 +7460,7 @@ BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN
 
 (…)
 
-## Art. 321
+###### Art. 321
 
 (van toepassing vanaf 01.01.1971)
 
@@ -7466,7 +7470,7 @@ BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN
 
 INWERKINGTREDING
 
-## Art. 322
+###### Art. 322
 
 (van toepassing vanaf 01.02.1940)
 

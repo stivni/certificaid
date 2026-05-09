@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy: null
 ---
 
 # WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)
@@ -31,10 +35,10 @@ provenance:
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
 
     CHAPITRE 2. — Le Code de droit économique HOOFDSTUK 2. — Het Wetboek van economisch recht
-## Art. 2
+#### Art. 2
 
 Les dispositions suivantes forment le Code de droit écono- Art. 2. De hiernavolgende bepalingen vormen het Wetboek van mique : economisch recht : « CODE DE DROIT ECONOMIQUE » WETBOEK VAN ECONOMISCH RECHT er LIVRE I . — Définitions BOEK I. — Definities Titre 2. — Définitions propres à certains livres Titel 2. — Definities eigen aan bepaalde boeken CHAPITRE 6. — Définitions propres au livre VIII HOOFDSTUK 6. — Definities eigen aan boek VIII
-## Art. I.9
+#### Art. I.9
 
 Les définitions suivantes sont applicables au livre VIII : Art. I.9. Voor de toepassing van boek VIII gelden de volgende definities :
    1° « Norme » : une spécification technique, approuvée par un 1° « Norm » : een door een erkende normalisatie-instelling vastgeorganisme reconnu de normalisation, pour application répétée ou stelde technische specificatie voor herhaalde of voortdurende toepascontinue, dont le respect n’est pas obligatoire et qui relève de l’une des sing, waarvan de naleving niet verplicht is en die tot een van de catégories suivantes : volgende categorieën behoort :
@@ -63,30 +67,30 @@ Les définitions suivantes sont applicables au livre VIII : Art. I.9. Voor de to
    16° « Mesurages dans le circuit économique » : mesurages effectués 16° « Metingen in het economisch verkeer » : metingen uitgevoerd in dans l’exercice d’une profession, d’un métier ou d’un négoce, en vue de de uitoefening van een beroep, een bedrijf of een handel, met het oog op l’observation des droits et obligations résultant d’une relation de droit. de naleving van uit een rechtsverhouding voortvloeiende rechten en verplichtingen.
     LIVRE II. — Principes généraux BOEK II. — Algemene beginselen er
     Titre 1 . — Champ d’application Titel 1. — Toepassingsgebied
-  Art. II. 1er. Sous réserve de l’application des traités internationaux, du Art. II. 1. Onder voorbehoud van de toepassing van internationale droit de l’Union européenne ou de législations particulières, le présent verdragen, van het recht van de Europese Unie of van bepalingen in Code contient les dispositions générales applicables aux matières bijzondere wetten, bevat onderhavig Wetboek het algemeen juridisch économiques qui relèvent de la compétence de l’autorité fédérale. kader inzake economische aangelegenheden die tot de bevoegdheid van de federale overheid behoren.
+#### Art. II. 1er. Sous réserve de l’application des traités internationaux, du Art. II. 1. Onder voorbehoud van de toepassing van internationale droit de l’Union européenne ou de législations particulières, le présent verdragen, van het recht van de Europese Unie of van bepalingen in Code contient les dispositions générales applicables aux matières bijzondere wetten, bevat onderhavig Wetboek het algemeen juridisch économiques qui relèvent de la compétence de l’autorité fédérale. kader inzake economische aangelegenheden die tot de bevoegdheid van de federale overheid behoren.
     Titre 2. — Objectifs Titel 2. — Doelstellingen
-## Art. II.2
+#### Art. II.2
 
 Le présent Code vise à garantir la liberté d’entreprendre, la Art. II.2. Dit Wetboek strekt ertoe de vrijheid van ondernemen en de loyauté des transactions économiques et à assurer un niveau élevé de loyauteit van economische transacties te verzekeren, en een hoog protection des consommateurs. niveau van bescherming van de consument te waarborgen.
     Titre 3. — Liberté d’entreprendre Titel 3. — Vrijheid van ondernemen
-## Art. II.3
+#### Art. II.3
 
 Chacun est libre d’exercer l’activité économique de son Art. II.3. Iedereen is vrij om enige economische activiteit naar keuze choix. uit te oefenen.
-## Art. II.4
+#### Art. II.4
 
 La liberté d’entreprendre s’exerce dans le respect des traités Art. II.4. De vrijheid van ondernemen wordt uitgeoefend met internationaux en vigueur en Belgique, du cadre normatif général de inachtneming van de in België van kracht zijnde internationale l’union économique et de l’unité monétaire tel qu’établi par ou en vertu verdragen, van het algemeen normatief kader van de economische unie des traités internationaux et de la loi, ainsi que des lois qui intéressent en de monetaire eenheid zoals vastgesteld door of krachtens de l’ordre public et les bonnes mœurs et des dispositions impératives. internationale verdragen en de wet, alsmede van de wetten die de openbare orde en de goede zeden betreffen en van de bepalingen van dwingend recht.
     LIVRE VIII. — Qualité des produits et des services BOEK VIII. — Kwaliteit van producten en diensten er Titre 1 . — Normalisation Titel 1. — Normalisatie CHAPITRE 1er. — Dispositions générales HOOFDSTUK 1. — Algemene bepalingen Article VIII. 1er. Les normes constituent l’énoncé du savoir-faire Artikel. VIII. 1. Normen geven de regels van goed vakmanschap applicable à un produit, un procédé ou un service donné au moment de weer die, op het ogenblik dat ze worden aangenomen, gelden voor een leur adoption. bepaald product, een bepaald procedé of een bepaalde dienst.
   Le respect des normes s’effectue sur une base volontaire, à moins que De naleving van de normen gebeurt op vrijwillige basis, tenzij de leur respect soit imposé par une disposition légale, réglementaire ou naleving ervan is opgelegd door een wettelijke, reglementaire of contractuelle. contractuele bepaling.
-## Art. VIII.2
+#### Art. VIII.2
 
 L’Etat et toutes les personnes de droit public peuvent Art. VIII.2. De Staat en alle andere publiekrechtelijke personen renvoyer aux normes publiées par le Bureau de Normalisation par kunnen refereren aan de door het Bureau voor Normalisatie gepublisimple référence à l’indicatif de ces normes. ceerde normen door een eenvoudige verwijzing naar de referte van deze normen.
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 19977
 
     CHAPITRE 2. — Le Bureau de Normalisation HOOFDSTUK 2. — Het Bureau voor Normalisatie
-## Art. VIII.3
+#### Art. VIII.3
 
 Il est créé un Bureau de Normalisation, dénommé ci-après Art. VIII.3. Een Bureau voor Normalisatie wordt opgericht, hierna « le Bureau ». Le Bureau est un organisme autonome ayant la « Bureau » genoemd. Het Bureau is een autonome instelling die personnalité juridique et ayant son siège dans l’arrondissement admi- rechtspersoonlijkheid bezit en die haar zetel heeft in het administratief nistratif de Bruxelles-Capitale. Le Bureau est soumis à la loi du arrondissement van Brussel-Hoofdstad. Het Bureau valt onder de 16 mars 1954 relative au contrôle de certains organismes d’intérêt toepassing van de wet van 16 maart 1954 betreffende de controle op public. sommige instellingen van openbaar nut.
-## Art. VIII.4
+#### Art. VIII.4
 
 Dans le cadre de la politique en matière de normalisation Art. VIII.4. In het kader van het door de minister vastgestelde beleid définie par le ministre, le Bureau a pour missions : inzake normalisatie heeft het Bureau als opdrachten :
   1° l’exécution d’une mission générale de recensement tant des 1° het uitoefenen van een algemene opdracht van inventariseren van besoins en normes et documents techniques nouveaux que de l’offre zowel de behoeften aan nieuwe normen en technische documenten als pour les réaliser, et d’évaluation des moyens de financement nécessai- het aanbod om deze te realiseren, en evalueren van de nodige financiële res; middelen;
@@ -100,22 +104,22 @@ Dans le cadre de la politique en matière de normalisation Art. VIII.4. In het k
   9° la création et la dissolution des commissions de normalisation; 9° het oprichten en ontbinden van de normalisatiecommissies;
   10° l’agrément ou le retrait de l’agrément des opérateurs sectoriels de 10° het erkennen of het intrekken van de erkenning van de sectorale normalisation suivant des modalités définies par le Roi, par arrêté normalisatieoperatoren volgens de nadere regelen door de Koning délibéré en Conseil des Ministres; bepaald in een besluit vastgesteld na overleg in de Ministerraad;
   11° l’exécution de tâches en rapport avec la normalisation et la 11° het uitvoeren van taken in verband met de normalisatie en de certification qui lui sont confiées par le Roi, par arrêté délibéré en certificatie die hem door de Koning toevertrouwd werden in een besluit Conseil des Ministres. vastgesteld na overleg in de Ministerraad.
-## Art. VIII.5
+#### Art. VIII.5
 
 Le schéma général des programmes de normalisation est Art. VIII.5. Het algemeen schema van de normalisatieprogramma’s arrêté chaque année par le Bureau, en accord avec la politique fixée par wordt ieder jaar, in overeenstemming met het door de minister le ministre, en fonction des possibilités de financement et des besoins vastgelegd beleid, door het Bureau bepaald op basis van de financiële recensés par lui auprès des partenaires économiques et sociétaux et des mogelijkheden en van de behoeften die het heeft vastgesteld bij de commissions de normalisation. Le Roi peut fixer le type de contenu et economische en maatschappelijke partners en bij de normalisatiecomles modalités de présentation du schéma général. missies. De Koning kan het soort inhoud en de regels voor de voorstelling van het algemeen schema vaststellen.
-## Art. VIII.6
+#### Art. VIII.6
 
 L’élaboration de projets de normes est suivie ou réalisée Art. VIII.6. De uitwerking van ontwerpen van normen wordt selon le cas par des commissions de normalisation. opgevolgd of verwezenlijkt, naargelang het geval, door normalisatiecommissies.
-## Art. VIII.7
+#### Art. VIII.7
 
 Le Bureau met tout en œuvre pour que les principales Art. VIII.7. Het Bureau stelt alles in het werk opdat de belangrijkste parties intéressées soient représentées dans les commissions de norma- betrokken partijen in de normalisatiecommissies vertegenwoordigd lisation. Il est chargé de fournir aux commissions de normalisation et zouden zijn. Het is belast met het verstrekken, aan de normalisatiecomaux opérateurs sectoriels les informations techniques et économiques à missies en de sectorale operatoren, van de technische en economische sa disposition nécessaires à leurs travaux. inlichtingen waarover het beschikt en die voor hun werkzaamheden noodzakelijk zijn.
-## Art. VIII.8
+#### Art. VIII.8
 
 Les commissions de normalisation associent à leurs Art. VIII.8. De normalisatiecommissies betrekken bij hun technische travaux techniques de normalisation des opérateurs sectoriels de normalisatiewerkzaamheden de erkende sectorale normalisatieoperanormalisation agréés possédant, à cet effet, dans un ou plusieurs toren die hiervoor in één of meerdere sectoren de nodige bekwaamheid domaines la compétence nécessaire. Ces derniers peuvent être chargés bezitten. Deze laatsten kunnen belast worden met het waarnemen van d’assurer des présidences ou des secrétariats techniques de leurs de voorzitterschappen of de technische secretariaten van hun commiscommissions. sies.
-## Art. VIII.9
+#### Art. VIII.9
 
 Le Bureau, les commissions de normalisation et les Art. VIII.9. Het Bureau, de normalisatiecommissies en de sectorale opérateurs sectoriels de normalisation contribuent, chacun pour sa normalisatieoperatoren dragen, ieder volgens eigen bevoegdheid, bij propre compétence, à l’exécution des programmes de normalisation tot de uitvoering van de normalisatieprogramma’s, zoals bedoeld in visés à l’article VIII.5, selon les modalités fixées par le Roi. artikel VIII.5, overeenkomstig de nadere regelen die door de Koning worden vastgesteld.
-## Art. VIII.10
+#### Art. VIII.10
 
 § 1er. Les programmes prévus à l’article VIII.5, arrêtés Art. VIII.10. § 1. De volgens artikel VIII.5, door het Bureau par le Bureau sont financés par des contributions technique et/ou vastgestelde programma’s worden gefinancierd door technische en/of financière au prorata des intérêts des parties intéressées. financiële bijdragen in verhouding tot de belangen van de betrokken partijen.
   § 2. Le Bureau est financé par : § 2. Het Bureau wordt gefinancierd door :
@@ -126,22 +130,22 @@ Le Bureau, les commissions de normalisation et les Art. VIII.9. Het Bureau, de n
   3° les contributions volontaires ou contractuelles; 3° de vrijwillige of contractuele bijdragen;
   4° des revenus occasionnels; 4° de occasionele inkomsten;
   5° tous les revenus provenant, directement ou indirectement, des 5° alle inkomsten die, rechtstreeks of onrechtstreeks, voortvloeien uit activités du Bureau. de activiteiten van het Bureau.
-## Art. VIII.11
+#### Art. VIII.11
 
 La comptabilité du Bureau est tenue conformément aux Art. VIII.11. De boekhouding van het Bureau gebeurt overeenkomdispositions de la loi du 17 juillet 1975 relative à la comptabilité des stig de bepalingen van de wet van 17 juli 1975 op de boekhouding van entreprises et aux arrêtés d’exécution de celle-ci. Le Bureau tend vers de ondernemingen en de uitvoeringsbesluiten ervan. Het Bureau streeft un équilibre financier. een financieel evenwicht na.
-## Art. VIII.12
+#### Art. VIII.12
 
 Les organes du Bureau sont le Comité de direction et le Art. VIII.12. De organen van het Bureau zijn het Directiecomité en de Conseil d’administration. Ils établissent en concertation un règlement Raad van Bestuur. In overleg maken zij een huishoudelijk reglement op d’ordre intérieur qui est soumis à l’approbation du Roi. dat aan de Koning ter goedkeuring wordt voorgelegd.
-## Art. VIII.13
+#### Art. VIII.13
 
 Sans préjudice du droit de citer devant le juge Art. VIII.13. Onverminderd het recht van dagvaarding voor de compétent, le recouvrement des sommes dues en vertu de l’arti- bevoegde rechter, kan de invordering van de verschuldigde bedragen cle VIII.10, excepté celles mentionnées au § 2, 1°, peut avoir lieu par krachtens artikel VIII.10, met uitzondering van deze vermeld in § 2, 1°, voie de contrainte selon le régime des articles 94 et 95 des lois plaatsvinden bij dwangbevel volgens het regime van de artikelen 94 coordonnées sur la comptabilité de l’Etat. en 95 van de gecoördineerde wetten op de Rijkscomptabiliteit.
-## Art. VIII.14
+#### Art. VIII.14
 
 Le Comité de direction assure la gestion journalière du Art. VIII.14. Het Directiecomité staat in voor het dagelijkse bestuur Bureau et pose les actes nécessaires ou utiles à l’accomplissement de ses van het Bureau en stelt alle handelingen die nodig of dienstig zijn voor missions. Le Comité de direction est composé d’un président et d’un de uitvoering van zijn opdrachten. Het Directiecomité bestaat uit een nombre restreint de membres, fixé par le Conseil d’administration. Ils voorzitter en een beperkt aantal leden, vastgelegd door de Raad van sont nommés par le Roi, par arrêté délibéré en Conseil des Ministres, Bestuur. Ze worden benoemd door de Koning, in een besluit vastgepour un terme de six ans sur proposition du ministre, après consulta- steld na overleg in de Ministerraad, voor een termijn van zes jaar op tion du Conseil d’administration. Leur mandat est renouvelable et voordracht van de minister na raadpleging van de Raad van Bestuur. s’exerce à temps plein. Le président et les membres du Comité de Hun mandaat is hernieuwbaar en wordt voltijds uitgeoefend. De direction sont choisis en raison de leurs compétences dans les matières voorzitter en de leden van het Directiecomité worden gekozen wegens relevant des directions qu’ils sont appelés à diriger. Le Roi détermine hun competenties in de materies die betrekking hebben op de directies par arrêté délibéré en Conseil des Ministres les conditions contractuel- die ze zullen moeten leiden. De Koning bepaalt in een besluit les et le statut pécuniaire auxquels le président et les membres du vastgesteld na overleg in de Ministerraad de contractuele voorwaarden Comité de direction sont soumis. en het geldelijk statuut waaraan de voorzitter en de leden van het Directiecomité onderworpen zijn.
-## Art. VIII.15
+#### Art. VIII.15
 
 Le Comité de direction est soumis au contrôle du Conseil Art. VIII.15. Het Directiecomité staat onder toezicht van de Raad van d’administration, qui est composé de façon équilibrée de représentants Bestuur die evenwichtig samengesteld is uit vertegenwoordigers van du gouvernement fédéral, des organisations représentatives des entre- de federale regering, van de representatieve ondernemingsorganisaties, prises, des organisations représentatives des travailleurs, des organisa- van de representatieve werknemersorganisaties, van de niettions non gouvernementales compétentes en matière de protection de gouvernementele organisaties bevoegd inzake milieubehoud en van de l’environnement et des organisations non gouvernementales compéten- niet-gouvernementele organisaties bevoegd inzake de verdediging van tes en matière de défense des intérêts des consommateurs. Par arrêté de consumentenbelangen. In een besluit vastgesteld na overleg in de délibéré en Conseil des Ministres, le Roi établit le nombre de membres Ministerraad stelt de Koning het aantal leden en de samenstelling van et la composition du Conseil d’administration, en nomme le président de Raad van Bestuur vast, benoemt hij de voorzitter en de leden ervan et les membres et détermine le montant des indemnités qui peuvent en bepaalt het bedrag van de vergoedingen die hen door het Bureau leur être allouées par le Bureau. Les propositions de désignation des kunnen toegekend worden. De voorstellen tot aanstelling van de représentants n’appartenant pas au secteur public sont établies sur base vertegenwoordigers die niet tot de openbare sector behoren worden de listes présentées par les organisations concernées. opgesteld op basis van door de betrokken organisaties voorgelegde lijsten.
-## Art. VIII.16
+#### Art. VIII.16
 
 Le Conseil d’administration a pour missions : Art. VIII.16. De Raad van Bestuur heeft als opdrachten :
   1° d’approuver le schéma général des programmes de normalisation 1° het goedkeuren van het algemeen schema van de in artikel VIII.5, visés à l’article VIII.5; bedoelde normalisatieprogramma’s;
@@ -151,22 +155,22 @@ Le Conseil d’administration a pour missions : Art. VIII.16. De Raad van Bestuu
   5° le cas échéant, de soumettre à l’homologation du Roi les normes 5° in voorkomend geval, het aan de Koning ter bekrachtiging établies en exécution de l’article VIII.9; voorleggen van de normen vastgesteld ter uitvoering van artikel VIII.9;
    6° d’évaluer la manière dont le Comité de direction et les commis- 6° het evalueren van de wijze waarop het Directiecomité en de sions de normalisation exécutent leurs tâches et de formuler des avis et normalisatiecommissies hun taken uitvoeren en het formuleren van des recommandations à ce sujet au ministre et au Comité de direction; adviezen en aanbevelingen hieromtrent aan de minister en aan het Directiecomité;
   7° d’approuver le rapport annuel mentionné à l’article VIII.17. 7° het goedkeuren van het jaarlijks verslag vermeld in artikel VIII.17.
-## Art. VIII.17
+#### Art. VIII.17
 
 Chaque année, le Bureau établit dans le courant du Art. VIII.17. Ieder jaar maakt het Bureau tijdens het eerste trimester premier trimestre un rapport sur ses activités pour l’exercice précédent. een verslag op van zijn activiteiten voor het voorgaande jaar. Dit Ce rapport est adressé au ministre et aux Chambres législatives. verslag wordt aan de minister en de wetgevende Kamers bezorgd.
-## Art. VIII.18
+#### Art. VIII.18
 
 Le Bureau peut, pour tous ses besoins en personnel Art. VIII.18. Het Bureau kan, voor al zijn personeelsbehoeften voor nécessaires à l’accomplissement de ses missions, engager du personnel de hem toegekende opdrachten, personeel bij arbeidsovereenkomst par un contrat de travail. aanwerven.
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 19979
 
     CHAPITRE 3. — Le Conseil supérieur de Normalisation HOOFDSTUK 3. — De Hoge Raad voor Normalisatie
-## Art. VIII.19
+#### Art. VIII.19
 
 Il est institué auprès du Service public fédéral Economie, Art. VIII.19. Bij de Federale Overheidsdienst Economie, K.M.O., P.M.E., Classes moyennes et Energie un Conseil supérieur de Norma- Middenstand en Energie wordt een Hoge Raad voor Normalisatie lisation ci-après dénommé « le Conseil supérieur ». opgericht, hierna « de Hoge Raad « genoemd.
-## Art. VIII.20
+#### Art. VIII.20
 
 Le Conseil supérieur a pour mission de remettre, soit Art. VIII.20. De Hoge Raad heeft als opdracht om, hetzij op eigen d’initiative, soit à la demande du ministre, des avis au sujet de toutes initiatief, hetzij op verzoek van de minister, adviezen te verstrekken les questions relatives à la politique et au développement de la aangaande alle kwesties die betrekking hebben op het beleid en de normalisation nationale et internationale. Dans ce cadre, le Conseil ontwikkeling van de nationale en internationale normalisatie. In dit supérieur a notamment pour mission d’émettre d’office un avis relatif verband heeft de Hoge Raad meer bepaald als opdracht om ambtshalve au rapport annuel du Bureau mentionné à l’article VIII.17. Les avis sont een advies uit te brengen met betrekking tot het jaarlijks verslag publics. vermeld in artikel VIII.17. De adviezen zijn openbaar.
-## Art. VIII.21
+#### Art. VIII.21
 
 Outre un président, le Conseil supérieur se compose de : Art. VIII.21. Behoudens een voorzitter is de Hoge Raad samengesteld uit :
    1° quatre membres effectifs et quatre membres suppléants apparte- 1° vier effectieve leden en vier plaatsvervangende leden uit de nant au monde scientifique; wetenschappelijke middens;
@@ -174,32 +178,32 @@ Outre un président, le Conseil supérieur se compose de : Art. VIII.21. Behoude
    3° deux membres effectifs et deux membres suppléants représentant 3° twee effectieve leden en twee plaatsvervangende leden die de les organisations compétentes en matière de défense des intérêts des organisaties bevoegd inzake verdediging van de consumentenbelangen consommateurs; vertegenwoordigen;
    4° deux membres effectifs et deux membres suppléants appartenant 4° twee effectieve leden en twee plaatsvervangende leden die de aux organisations représentatives des travailleurs; werknemersorganisaties vertegenwoordigen;
    5° deux membres effectifs et deux membres suppléants représentant 5° twee effectieve leden en twee plaatsvervangende leden die de les organisations représentatives d’intérêts sociétaux. maatschappelijke belangenorganisaties vertegenwoordigen.
-## Art. VIII.22
+#### Art. VIII.22
 
 Le Roi nomme et révoque le président du Conseil Art. VIII.22. De Koning benoemt en ontslaat de voorzitter van de supérieur. Hoge Raad.
-## Art. VIII.23
+#### Art. VIII.23
 
 Le ministre choisit et nomme, sur proposition des Art. VIII.23. De minister kiest en benoemt, op voordracht van de instances concernées, les membres effectifs et les membres suppléants betrokken instanties, de effectieve en de plaatsvervangende leden selon les mêmes modalités. volgens dezelfde modaliteiten.
-## Art. VIII.24
+#### Art. VIII.24
 
 Le mandat du président et des membres dure 6 ans et est Art. VIII.24. Het mandaat van de voorzitter en van de leden duurt renouvelable. Si le mandat d’un membre effectif prend fin avant terme, 6 jaar en is hernieuwbaar. Indien het mandaat van een werkend lid son suppléant achève le mandat. Il est procédé ensuite à la désignation vroegtijdig wordt beëindigd zet zijn plaatsvervanger het mandaat d’un nouveau suppléant jusqu’à la fin du premier mandat en cours. verder. Nadien wordt een nieuwe plaatsvervanger benoemd tot het einde van het eerste lopende mandaat.
-## Art. VIII.25
+#### Art. VIII.25
 
 Le Conseil supérieur peut inviter à ses réunions toute Art. VIII.25. De Hoge Raad mag op zijn vergaderingen elke persoon personne dont l’avis peut lui être utile. uitnodigen wiens advies hem kan nuttig zijn.
-## Art. VIII.26
+#### Art. VIII.26
 
 Le secrétariat du Conseil supérieur est assuré par le Art. VIII.26. Het secretariaat van de Hoge Raad wordt waargenomen Service public fédéral Economie, P.M.E., Classes moyennes et Energie. door de Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie.
-## Art. VIII.27
+#### Art. VIII.27
 
 Le Conseil supérieur élabore son règlement d’ordre Art. VIII.27. De Hoge Raad stelt zijn huishoudelijk reglement op. Dit intérieur. Celui-ci est soumis à l’approbation du ministre. is aan de goedkeuring van de minister onderworpen.
-## Art. VIII.28
+#### Art. VIII.28
 
 Le Conseil supérieur fait rapport de son activité au cours Art. VIII.28. De Hoge Raad brengt verslag uit over zijn activiteit in de l’année écoulée. Ce rapport est rendu public et transmis au ministre. het afgelopen jaar. Dit verslag wordt openbaar gemaakt en aan de minister toegezonden.
-## Art. VIII.29
+#### Art. VIII.29
 
 Les crédits nécessaires à assurer le fonctionnement du Art. VIII.29. De noodzakelijke kredieten om de werking van de Hoge Conseil supérieur sont inscrits, chaque année, au budget du SPF Raad te verzekeren worden ieder jaar ingeschreven op de begroting van Economie, P.M.E., Classes moyennes et Energie. Le Roi détermine le de FOD Economie, K.M.O., Middenstand en Energie. De Koning montant des indemnités qui peuvent être allouées aux membres du bepaalt het bedrag van de vergoedingen die aan de leden van de Hoge Conseil supérieur. Il fixe le montant des indemnités pour frais de Raad kunnen toegekend worden. Hij bepaalt het bedrag van de parcours et de séjour. verplaatsings- en verblijfsvergoedingen.
     Titre 2. — Accréditation des organismes Titel 2. — Accreditatie van instellingen d’évaluation de la conformité voor de conformiteitsbeoordeling
-## Art. VIII.30
+#### Art. VIII.30
 
 § 1er. Le Roi peut, par arrêté délibéré en Conseil des Art. VIII.30. § 1. De Koning kan, bij een besluit vastgesteld na overleg Ministres, prendre toutes les mesures utiles en vue de créer un système in de Ministerraad, alle nuttige maatregelen treffen om een accreditad’accréditation. Il créera notamment, à cet effet, un organisme national tiesysteem op te richten. Hij zal daartoe inzonderheid één nationale d’accréditation unique et un Conseil national d’accréditation. accreditatie-instelling en een nationale Raad voor Accreditatie oprichten.
    § 2. L’organisme national d’accréditation est responsable de la gestion § 2. De nationale accreditatie-instelling is verantwoordelijk voor het de la procédure pour obtenir l’accréditation, y compris la délivrance et beheer van de accreditatieprocedure, met inbegrip van de toekenning le retrait des accréditations. en de intrekking van de accreditaties.
@@ -215,27 +219,27 @@ Les crédits nécessaires à assurer le fonctionnement du Art. VIII.29. De noodz
   Le Roi détermine, par arrêté délibéré en Conseil des Ministres, la De Koning bepaalt, bij een besluit, vastgesteld na overleg in de composition du Conseil national d’accréditation. Ministerraad, de samenstelling van de nationale Raad voor Accreditatie.
    § 4. Le Roi fixe, après consultation du Conseil national d’Accrédita- § 4. De Koning stelt, na raadpleging van de Nationale Raad voor tion, par arrêté délibéré en Conseil des ministres, les critères d’accré- Accreditatie, bij een besluit, vastgesteld na overleg in de Ministerraad, ditation des organismes d’évaluation de la conformité. de accreditatiecriteria vast van de instellingen voor de conformiteitsbeoordeling.
    § 5. Les certificats et rapports d’évaluation de la conformité qui ont § 5. De certificaten en verslagen van de conformiteitsbeoordeling été délivrés par les organismes accrédités en vertu du présent Titre sont afgeleverd door instellingen die op grond van deze Titel zijn geaccrereconnus par l’Etat belge. diteerd, worden door de Belgische Staat erkend.
-## Art. VIII.31
+#### Art. VIII.31
 
 Le Roi exerce les pouvoirs qui Lui sont confiés par les Art. VIII.31. De Koning oefent de Hem krachtens de bepalingen van dispositions du présent Titre sur proposition du ministre. deze Titel toegekende machten uit op voordracht van de minister.
-## Art. VIII.32
+#### Art. VIII.32
 
 § 1er. Les dépenses afférentes à la gestion et à la Art. VIII.32. § 1. De uitgaven met betrekking tot het beheer en de promotion du système national d’accréditation sont à charge du bevordering van het nationaal accreditatiesysteem komen ten laste van SPF Economie, P.M.E., Classes moyennes et Energie. de FOD Economie, K.M.O., Middenstand en Energie.
    § 2. Un Fonds pour la couverture des frais d’accréditation et de § 2. Een Fonds tot dekking van de accreditatie- en certificatiekosten certification est créé. wordt opgericht.
    Sans préjudice d’autres dispositions légales et réglementaires, le Roi Onverminderd de toepassing van andere wets- en reglementsbepapeut imposer, au bénéfice de ce Fonds, des rétributions pour couvrir les lingen kan de Koning, ten bate van dit Fonds, retributies opleggen tot frais d’évaluation, d’accréditation, de certification, de surveillance et de dekking van de beoordelings-, accreditatie-, certificatie-, toezichts- en contrôle. controlekosten.
    § 3. Le Roi fixe le mode de calcul et de paiement des rétributions et § 3. De Koning stelt de wijze van berekening en betaling van de des dépenses. retributies en van de uitgaven vast.
     Titre 3. — Unités, étalons et instruments de mesure Titel 3. — Meeteenheden, de meetstandaarden en de meetinstrumenten CHAPITRE 1er. — Unités légales HOOFDSTUK 1. — Wettelijke eenheden Section 1re. — Généralités Afdeling 1. — Algemeenheden
-## Art. VIII.33
+#### Art. VIII.33
 
 Le système légal d’unités de mesure comprend les unités Art. VIII.33. Het wettelijk meeteenhedenstelsel omvat de eenheden du système international ainsi que d’autres unités de mesures qui, sans van het internationaal stelsel alsmede andere meeteenheden die, faire partie de ce système, sont utilisées de manière habituelle. zonder deel uit te maken van dit stelsel, gewoonlijk gebruikt worden.
     Section 2. — Les unités de mesure du système international Afdeling 2. — Meeteenheden van het internationaal stelsel
-## Art. VIII.34
+#### Art. VIII.34
 
 Le système international d’unités de mesure (SI) Art. VIII.34. Het internationaal meeteenhedenstelsel (SI) omvat : comprend :
    1° les unités de base; 1° de grondeenheden;
    2° les unités dérivées; 2° de afgeleide eenheden;
    3° les multiples et sous-multiples des unités de base. 3° de veelvouden en delen van de grondeenheden.
-## Art. VIII.35
+#### Art. VIII.35
 
 § 1er. Les unités de base visées à l’article VIII.34, 1°, les Art. VIII.35. § 1. De in artikel VIII.34, 1°, bedoelde grondeenheden, de grandeurs auxquelles elles se rapportent et les symboles par lesquels grootheden waarop zij betrekking hebben en de symbolen waardoor zij elles sont désignées sont : worden aangeduid, zijn :
 
@@ -262,19 +266,19 @@ Le système international d’unités de mesure (SI) Art. VIII.34. Het internati
    § 2. Les unités dérivées sont celles qui sont définies sous forme d’un § 2. De afgeleide eenheden zijn die gedefinieerd onder de vorm van produit de puissance d’unités de base, avec un facteur numérique égal een product van machten van grondeenheden, met een numerieke à l’unité. factor gelijk aan de eenheid.
    § 3. Les multiples et sous-multiples des unités de base du système § 3. De veelvouden en delen van de grondeenheden van het international sont celles qui sont formées selon les règles fixées par la internationaal stelsel zijn die welke gevormd worden volgens de regels Conférence générale des Poids et Mesures. vastgesteld door de Algemene Conferentie voor Maten en Gewichten.
     Section 3. — Unités de mesure Afdeling 3. — Meeteenheden qui n’appartiennent pas au système international die niet behoren tot het internationaal stelsel
-## Art. VIII.36
+#### Art. VIII.36
 
 Le Roi peut inclure dans le système légal des unités de Art. VIII.36. De Koning kan in het wettelijk stelsel eenheden mesure qui, sans faire partie du système international, sont utilisées de opnemen die, zonder deel uit te maken van het internationaal stelsel, manière habituelle. Il peut en limiter l’emploi aux cas qu’Il détermine. gewoonlijk gebruikt worden. Hij kan het gebruik ervan beperken tot de gevallen die Hij omschrijft.
     Section 4. — Tableau des unités de mesure légales Afdeling 4. — Tabel van de wettelijke meeteenheden
-## Art. VIII.37
+#### Art. VIII.37
 
 Le Roi arrête le tableau qui fixe, par leur dénomination, Art. VIII.37. De Koning stelt de tabel vast die, door hun benaming, leur définition et leur symbole, les unités légales, ainsi que les règles de hun definitie en hun symbool, de wettelijke eenheden bepaalt alsmede formation des multiples et sous-multiples. de regels tot vorming van de veelvouden en delen.
     Section 5. — Mise en concordance Afdeling 5. — Aanpassing de la législation avec le système international van de wetgeving aan het internationaal stelsel
-## Art. VIII.38
+#### Art. VIII.38
 
 Le Roi peut modifier les dispositions des articles VIII.34 Art. VIII.38. De Koning kan de bepalingen van de artikelen VIII. 34 en et VIII.35 pour les mettre en concordance avec les modifications que la VIII.35 wijzigen, om ze in overeenstemming te brengen met de Conférence générale des Poids et Mesures apporterait au système wijzigingen die de Algemene Conferentie voor Maten en Gewichten international d’unités de mesure. zou aanbrengen aan het internationaal meeteenhedenstelsel.
     Section 6. — Emploi des unités de mesure Afdeling 6. —Gebruik van de meeteenheden
-## Art. VIII.39
+#### Art. VIII.39
 
 § 1er. Les unités de mesure légales doivent être Art. VIII.39. § 1. De wettelijke meeteenheden moeten gebruikt employées dans les actes authentiques, dans les actes émanant des worden in de authentieke akten, in de akten uitgaande van de openbare pouvoirs publics, dans les actes sous seing privé ainsi que dans les machten, in de onderhandse akten, alsmede in de geschriften opge- écrits établis dans l’exercice d’une profession, d’un métier ou d’un maakt in de uitoefening van een beroep, een bedrijf of een handel. négoce.
   § 2. Il est interdit d’employer d’autres unités de mesure que les unités § 2. Het is verboden andere dan de wettelijke meeteenheden te légales pour exprimer la quantité de biens ou l’ampleur de services : gebruiken voor het uitdrukken van de hoeveelheid van goederen of van de hoegrootheid van diensten :
@@ -287,27 +291,27 @@ Le Roi peut modifier les dispositions des articles VIII.34 Art. VIII.38. De Koni
    1° utilisés dans les rapports avec d’autres pays; 1° gebruikt in de betrekkingen met andere landen;
    2° concernant les biens se trouvant en dehors du Royaume. 2° betreffende de goederen die zich buiten het Koninkrijk bevinden.
     Section 7. — Etalons et règles Afdeling 7. — Standaarden en regels
-## Art. VIII.40
+#### Art. VIII.40
 
 Le Roi arrête les mesures nécessaires à l’établissement, à Art. VIII.40. De Koning bepaalt de maatregelen nodig tot de la conservation et à la reproduction des étalons nationaux qui vaststelling, de bewaring en de reproductie van de nationale standaarreprésentent celles des unités légales qui peuvent être matérialisées. den van de wettelijke eenheden die kunnen belichaamd worden.
   Les étalons nationaux sont comparés et, le cas échéant, adaptés aux De nationale standaarden worden vergeleken en, zo nodig, aange- étalons internationaux conservés conformément aux stipulations de la past aan de internationale standaarden die bewaard worden overeen-Convention pour assurer l’unification internationale et le perfectionne- komstig de bepalingen van de Conventie voor het verzekeren van de ment du système métrique, signée à Paris le 20 mai 1875, approuvée par internationale eenmaking en vervolmaking van het metriek stelsel la loi du 29 décembre 1875 et modifiée par la Convention signée à getekend te Parijs op 20 mei 1875, goedgekeurd door de wet van Sèvres le 6 octobre 1921. 29 december 1875 en gewijzigd door de Conventie getekend te Sèvres op 6 oktober 1921.
-## Art. VIII.41
+#### Art. VIII.41
 
 Le Roi arrête les mesures nécessaires à l’établissement et Art. VIII.41. De Koning bepaalt de maatregelen nodig tot de à la publication des règles qui permettent de reproduire celles des vaststelling en de publicatie van de regels die toelaten die eenheden te unités légales qui ne sont pas matérialisées. reproduceren die niet kunnen belichaamd worden.
   Les règles ainsi arrêtées doivent être conformes à celles qui sont De aldus vastgestelde regels moeten eensluidend zijn met deze die adoptées par les organes de la convention visée à l’article VIII.40. zijn aangenomen door de organen van de conventie vermeld in artikel VIII.40.
 19982 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD
 
-## Art. VIII.42
+#### Art. VIII.42
 
 Les étalons nationaux et l’application des règles arrêtées Art. VIII.42. De nationale standaarden en de toepassing van de regels par le Roi, conformément à l’article VIII.40, sont présumés reproduire vastgesteld door de Koning, overeenkomstig artikel VIII.40, worden exactement les unités légales. geacht de wettelijke eenheden juist te reproduceren.
     CHAPITRE 2. — Instruments de mesure HOOFDSTUK 2. — Meetinstrumenten re Section 1 . — Règles d’emploi Afdeling 1. — Gebruiksregelen
-## Art. VIII.43
+#### Art. VIII.43
 
 § 1er. Les mesurages dans le circuit économique, qui ont Art. VIII.43. § 1. Metingen in het economisch verkeer die tot doel pour but de déterminer la quantité de biens ou l’ampleur de services, hebben de hoeveelheid van enig goed of de hoegrootheid van een sont effectués à l’aide d’instruments de mesure vérifiés. dienst te bepalen, worden met geijkte meetinstrumenten verricht.
    § 2. Les mesurages effectués pour le calcul des perceptions et § 2. Metingen die worden uitgevoerd ter berekening van heffingen en restitutions sont effectués à l’aide d’instruments de mesure vérifiés. restituties, worden met geijkte meetinstrumenten verricht.
    § 3. Le Roi peut étendre l’application du paragraphe 1er à d’autres § 3. De Koning kan de toepassing van paragraaf 1 verruimen tot mesurages dans le circuit économique. andere metingen in het economisch verkeer.
    § 4. Le Roi peut imposer l’emploi d’instruments de mesure vérifiés § 4. De Koning kan het gebruik van geijkte meetinstrumenten pour les mesurages en dehors du circuit économique. opleggen voor metingen buiten het economisch verkeer.
-## Art. VIII.44
+#### Art. VIII.44
 
 § 1er. Il est interdit de donner en location, de vendre, Art. VIII.44. § 1. Het is eenieder verboden te verhuren, te verkopen, d’apposer ou de mettre en vente, de détenir en vue de les vendre ou de ten toon of te koop te stellen, voorhanden te houden met het doel ze te donner comme prime : verkopen of als premie te geven :
    1° des instruments de mesure non vérifiés ayant pour but des 1° niet geijkte meetinstrumenten die tot doel hebben metingen uit te mesurages comme spécifiés à l’article VIII.43, § 1er; voeren zoals omschreven in artikel VIII.43, § 1;
@@ -315,15 +319,15 @@ Les étalons nationaux et l’application des règles arrêtées Art. VIII.42. D
    § 2. Les dispositions du paragraphe 1er ne sont pas applicables aux § 2. Het in paragraaf 1 bepaalde is niet van toepassing op instruments de mesure qui, conformément aux prescriptions données à meetinstrumenten die overeenkomstig hieromtrent vastgestelde voorce sujet, sont pourvus d’une marque indiquant qu’ils ne sont pas schriften zijn voorzien van een kenmerk waaruit blijkt dat zij niet destinés aux mesurages dans le circuit économique fixés au para- bestemd zijn om te worden gebruikt voor metingen in het economisch graphe 1er. verkeer zoals in paragraaf 1 bedoeld.
    § 3. Lors de salons, d’expositions et de démonstrations, la présenta- § 3. Op beurzen, tentoonstellingen en bij demonstraties is het tion d’instruments de mesure non vérifiés est autorisée pour autant tentoonstellen van niet-geijkte meetinstrumenten toegelaten, mits op qu’un panneau visible indique clairement que ces instruments de een zichtbaar bord duidelijk is aangegeven dat deze meetinstrumenten mesure ne sont pas conformes au présent Titre et qu’ils ne peuvent ni niet in overeenstemming zijn met deze Titel en dat ze niet in de handel être mis sur le marché ni mis en service. kunnen worden gebracht of in gebruik kunnen worden genomen.
    § 4. Le Roi peut interdire de donner en location, de vendre, d’exposer § 4. De Koning kan verbieden te verhuren, te verkopen, ten toon of te ou mettre en vente, de détenir en vue de les vendre ou de donner koop te stellen, voorhanden te houden met het doel ze te verkopen of comme primes les instruments de mesure non vérifiés, ayant pour but als premie te geven, niet geijkte meetinstrumenten die tot doel hebben des mesurages comme spécifiés à l’article 43, §§ 3 et 4. metingen uit te voeren zoals omschreven in artikel VIII.43, §§ 3 en 4.
-## Art. VIII.45
+#### Art. VIII.45
 
 Dans les lieux où se font habituellement des mesurages Art. VIII.45. In de plaatsen waar de metingen zoals omschreven in comme spécifiés par l’article VIII.43, § 1er, ou en vertu de l’arti- artikel VIII.43, § 1, of krachtens artikel VIII.43, §§ 3 en 4, gewoonlijk cle VIII.43, §§ 3 et 4, les personnes qui procèdent à ces mesurages sont gebeuren, zijn de personen die deze metingen verrichten ter plaatse en pourvues de manière permanente, sur place et en nombres suffisants, in voldoende aantal bestendig voorzien van geijkte meetinstrumenten des instruments de mesure vérifiés, susceptibles d’effectuer les mesu- die de bovenvermelde metingen kunnen verrichten. rages susvisés.
-## Art. VIII.46
+#### Art. VIII.46
 
 § 1er. Les instruments de mesure ayant pour but des Art. VIII.46. § 1. Meetinstrumenten bestemd voor het verrichten van mesurages comme spécifiés à l’article VIII.43, indiquent le résultat des metingen als omschreven in artikel VIII.43 geven het meetresultaat in mesures en unités légales. wettelijke meeteenheden.
    § 2. Le Roi fixe les prescriptions concernant les autres conditions § 2. De Koning geeft voorschriften omtrent de overige voorwaarden auxquelles les instruments de mesure visés au paragraphe 1er doivent waaraan de in paragraaf 1 bedoelde meetinstrumenten moeten voldoen satisfaire, ainsi que concernant leur composition et leurs qualités alsmede omtrent hun samenstelling en meeteigenschappen. métrologiques.
     Section 2. — Vérification des instruments de mesure Afdeling 2. — Ijking van de meetinstrumenten
-## Art. VIII.47
+#### Art. VIII.47
 
 Les opérations de vérification des instruments de mesure Art. VIII.47. Ijkverrichtingen van meetinstrumenten bestaan uit : comportent :
    1° l’examen d’un modèle en vue de son approbation; 1° het onderzoek van een model met het oog op zijn goedkeuring;
@@ -331,37 +335,37 @@ Les opérations de vérification des instruments de mesure Art. VIII.47. Ijkverr
    3° la vérification périodique. 3° de herijk.
    Ces opérations sont attestées par l’apposition de marques ou de Deze verrichtingen blijken uit het aanbrengen van ijkmerken of signes ou par la délivrance de certificats. -tekens of uit het afgeven van attesten.
    Le Roi peut définir d’autres opérations de vérification. De Koning kan andere ijkverrichtingen bepalen.
-## Art. VIII.48
+#### Art. VIII.48
 
 Le modèle, pour être approuvé, doit être constitué de Art. VIII.48. Om goedgekeurd te worden, moet het model zo zijn manière que les instruments de mesure reproduisant ce modèle, samengesteld dat de meetinstrumenten die naar dit model zijn satisfassent aux prescriptions qui sont imposées pour ces instruments vervaardigd, voldoen aan de voorschriften die overeenkomstig articonformément à l’article VIII.46. kel VIII.46 voor die instrumenten zijn bepaald.
    Si le modèle est approuvé, un certificat est délivré au demandeur. Il Is het model goedgekeurd, dan wordt aan de aanvrager een lui est ou bien attribué un signe d’approbation de modèle, lorsque les goedkeuringsattest afgeleverd. Tevens wordt hem ofwel een modelinstruments correspondants ne sont pas exemptés de la vérification goedkeuringsteken toegekend wanneer de overeenkomende meetprimitive, ou bien délivré des marques d’approbation de modèle, instrumenten niet zijn vrijgesteld van de eerste ijk ofwel worden lorsque ces instruments sont exemptés de la vérification primitive. modelgoedkeuringsmerken afgeleverd wanneer deze meetinstrumenten vrijgesteld zijn van de eerste ijk.
   La personne au nom de laquelle est établi le certificat dont il est Degene in wiens naam het attest waarvan sprake in het vorige lid question à l’alinéa précédent, est autorisée, à l’exclusion de toute autre werd opgesteld, is met uitsluiting van iedere andere persoon, gemachpersonne, à apposer le signe attribué ou les marques délivrées sur des tigd het toegekend teken of de afgeleverde merken aan te brengen op instruments de mesure et exclusivement sur ceux fabriqués d’après le de meetinstrumenten en dit uitsluitend op die welke zijn vervaardigd modèle auquel le signe ou la marque se rapporte. naar het model waarop het teken of het merk betrekking heeft.
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 19983
 
-## Art. VIII.49
+#### Art. VIII.49
 
 La vérification primitive consiste dans l’examen de la Art. VIII.49. De eerste ijk bestaat uit een onderzoek naar de conformité de l’instrument présenté aux prescriptions légales. Dans conformiteit van een meetinstrument met de wettelijke eisen. In l’affirmative, une ou plusieurs marques de vérification sont apposées ou bevestigend geval worden één of meer ijkmerken op het meetinstruun certificat est délivré. ment aangebracht of wordt een ijkattest afgegeven.
-## Art. VIII.50
+#### Art. VIII.50
 
 La vérification périodique consiste à vérifier si un Art. VIII.50. De herijk bestaat uit een onderzoek of een instrument instrument qui a déjà fait l’objet de la vérification primitive satisfait dat de eerste ijk heeft ondergaan, nog aan de wettelijke eisen voldoet. encore aux prescriptions légales. Dans l’affirmative, une ou plusieurs In bevestigend geval, worden één of meer ijkmerken op het meetinmarques de vérification sont apposées ou un certificat est délivré. strument aangebracht of wordt een ijkattest afgegeven.
-## Art. VIII.51
+#### Art. VIII.51
 
 Dans les cas et aux conditions qu’Il détermine, le Roi Art. VIII.51. In de gevallen en onder de voorwaarden welke Hij peut exempter des instruments de mesure soit de l’examen d’un vaststelt, kan de Koning bepaalde meetinstrumenten vrijstellen ofwel modèle en vue de son approbation, soit des vérifications primitive et van het onderzoek van een model met het oog op zijn goedkeuring, périodique, soit de la vérification périodique. ofwel van de eerste ijk en van de herijk, ofwel van de herijk.
-## Art. VIII.52
+#### Art. VIII.52
 
 Le Roi peut soumettre les instruments de mesure à un Art. VIII.52. De Koning kan de meetinstrumenten onderwerpen aan contrôle technique afin de contrôler s’ils satisfont aux prescriptions een technische controle om na te gaan of die werktuigen aan de légales ou s’ils sont en bon état de fonctionnement. Dans l’affirmative, wettelijke eisen voldoen en of zij zich in goede staat bevinden. In un ou plusieurs signes d’approbation sont apposés ou un certificat est bevestigend geval worden één of meer goedkeuringstekens aangedélivré. bracht of wordt een attest afgegeven.
-## Art. VIII.53
+#### Art. VIII.53
 
 § 1er. Le Roi fixe les modalités de l’approbation de Art. VIII.53. § 1. De Koning bepaalt de nadere regels voor de modèle, de la vérification primitive, de la vérification périodique et du modelgoedkeuring voor de eerste ijk, voor de herijk en voor de contrôle technique. Il fixe le modèle des marques et certificats. technische controle. Hij bepaalt het model van de merken en attesten.
    § 2. Il détermine quels sont les moyens ou la collaboration que § 2. Hij bepaalt welke hulpmiddelen en medewerking de belanghebl’intéressé doit fournir lors des opérations de vérification. bende moet verschaffen bij de ijkverrichtingen.
   § 3. Le Roi peut déterminer qu’aux conditions fixées par lui, les § 3. De Koning kan bepalen dat, onder de door hem vastgestelde instruments de mesure provenant des Etats membres de l’Union voorwaarden, de meetinstrumenten afkomstig uit de lidstaten van de européenne peuvent être considérés pour l’application du présent Titre Europese Unie, voor de toepassing van deze Titel kunnen aangezien comme vérifiés, s’ils satisfont, soit aux dispositions légales de l’Etat worden als geijkt, wanneer zij voldoen, hetzij aan de wettelijke membre en question, soit à des directives de l’Union européenne et bepalingen van de betrokken lidstaat, hetzij aan richtlijnen van de qu’ils sont en outre pourvus des marques ou signes valables imposés Europese Unie en bovendien voorzien zijn van de geldige merken of par l’Etat membre ou prévus dans les directives. tekens, opgelegd door de lidstaat of voorzien in de richtlijnen.
-## Art. VIII.54
+#### Art. VIII.54
 
 L’approbation de modèle, la délivrance de marques Art. VIII.54. Bij de goedkeuring van een model, de aflevering van d’approbation de modèle, la vérification primitive et la vérification goedkeuringsmerken, de eerste ijk en de herijk kan een ijkloon worden périodique peuvent donner lieu à la perception d’une taxe. Le Roi en geïnd. De Koning bepaalt het bedrag en de wijze van de inning van dat fixe le montant et le mode de perception. ijkloon.
   Les dispositions légales concernant les réclamations, recouvrements, De wettelijke beschikkingen betreffende betwistingen, opvorderinpoursuites et privilèges en matière de contributions au profit de l’Etat gen, vervolgingen en voorrechten inzake belastingen ten voordele van sont applicables aux taxes établies en vertu du présent de Staat, zijn toepasselijk op het krachtens deze Titel bepaald ijkloon.
 
     CHAPITRE 3. — Dispositions communes HOOFDSTUK 3. — Gemeenschappelijke bepalingen er
-## Art. VIII.55
+#### Art. VIII.55
 
 § 1 . Le Roi désigne le service chargé de l’exécution des Art. VIII.55. § 1. De Koning duidt de dienst aan die belast is met de prestations métrologiques visées par le présent Titre. Ce service est uitvoering van de metrologische verrichtingen bedoeld in deze Titel. chargé en outre : Deze dienst is bovendien belast met :
   1° de fournir, sur demande, des prestations techniques et scientifi- 1° het op verzoek uitvoeren van technische en wetenschappelijke ques en matière de métrologie; verrichtingen op metrologisch gebied;
@@ -374,7 +378,7 @@ L’approbation de modèle, la délivrance de marques Art. VIII.54. Bij de goedk
 19984 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD
 
    2° en matière de métrologie scientifique sur base d’un réseau, ci-après 2° in het kader van de wetenschappelijke metrologie op basis van een dénommé « le Réseau », d’instituts de recherche ou de laboratoires netwerk, hierna « het Netwerk » genoemd, van onderzoeksinstituten of publics et privés qui répondent, notamment, aux critères fixés par les publieke of private laboratoria, beantwoordend, met name, aan de organes de la convention visée à l’article VIII.40. Le Roi fixe les criteria bepaald door de organen van de conventie vermeld in modalités de développement et de fonctionnement du Réseau ainsi que artikel VIII.40. De Koning bepaalt de uitwerkings- en werkingsmodales conditions auxquelles les instituts de recherches et les laboratoires liteiten van het Netwerk, alsook de voorwaarden waaraan die onderdoivent satisfaire pour en faire partie et pour le rester. zoeksinstituten en laboratoria moeten voldoen om er deel van uit te maken en om er deel van te blijven uitmaken.
-## Art. VIII.56
+#### Art. VIII.56
 
 Le Roi peut par voie de disposition générale déroger aux Art. VIII.56. De Koning kan bij wijze van algemene bepaling afwijken dispositions des articles VIII.39, §§ 1er et 2, VIII.43, §§ 1er et 2, et VIII.44, van het bepaalde in de artikelen VIII.39, §§ 1 en 2, VIII.43, §§ 1 en 2, en
 § 1er. VIII.44, § 1.
@@ -384,11 +388,11 @@ Le Roi peut par voie de disposition générale déroger aux Art. VIII.56. De Kon
 
     CHAPITRE 3. — Dispositions abrogatoires HOOFDSTUK 3. — Opheffingsbepalingen
 
-## Art. 3
+#### Art. 3
 
 Le décret du 2 — 17 mars 1791 portant suppression de tous Art. 3. Het « décret du 2 - 17 mars 1791 portant suppression de tous les droits d’aides, de toutes les maîtrises et jurandes et établissement les droits d’aides, de toutes les maîtrises et jurandes et établissement des droits de patente est abrogé. des droits de patente » wordt opgeheven.
 
-## Art. 4
+#### Art. 4
 
 Dans la loi du 16 juin 1970 sur les unités, étalons et Art. 4. In de wet van 16 juni 1970 betreffende de meeteenheden, de instruments de mesure, sont abrogés : meetstandaarden en de meetwerktuigen, worden opgeheven :
   1° les articles 1er et 2; 1° de artikelen 1 en 2;
@@ -404,7 +408,7 @@ Dans la loi du 16 juin 1970 sur les unités, étalons et Art. 4. In de wet van 1
 
   11° l’article 31, modifié par la loi du 6 mai 2009. 11° artikel 31, gewijzigd bij de wet van 6 mei 2009.
 
-## Art. 5
+#### Art. 5
 
 Dans la loi du 20 juillet 1990 concernant l’accréditation des Art. 5. In de wet van 20 juli 1990 betreffende de accreditatie van organismes d’évaluation de la conformité, sont abrogés : instellingen voor de conformiteitsbeoordeling, worden opgeheven :
 
@@ -414,22 +418,22 @@ Dans la loi du 20 juillet 1990 concernant l’accréditation des Art. 5. In de w
 
   3° l’article 6. 3° artikel 6.
 
-## Art. 6
+#### Art. 6
 
 La loi du 3 avril 2003 relative à la normalisation est abrogée, Art. 6. De wet van 3 april 2003 betreffende de normalisatie wordt à l’exception de l’article 19. opgeheven, met uitzondering van artikel 19.
 
     CHAPITRE 4. — Attribution de compétences HOOFDSTUK 4. — Bevoegdheidstoewijzing
 
-## Art. 7
+#### Art. 7
 
 Les lois ou arrêtés d’éxecution existants qui font référence à Art. 7. De bestaande wetten en uitvoeringsbesluiten die verwijzen la législation visée aux articles 3 à 6 sont présumées faire référence aux naar de wetgeving bedoeld in de artikelen 3 tot 6, worden geacht te dispositions équivalentes du Code de droit économique, telles verwijzen naar de overeenkomstige bepalingen in het Wetboek econoqu’insérées par la présente loi. misch recht, zoals ingevoegd bij deze wet.
 
-## Art. 8
+#### Art. 8
 
 Le Roi peut remplacer les références dans les lois ou arrêtés Art. 8. De Koning kan de verwijzingen in bestaande wetten en existants à la législation visée aux articles 3 à 6 par des références aux koninklijke besluiten naar de wetgeving bedoeld in de artikelen 3 tot 6 dispositions équivalentes du Code de droit économique, telles vervangen door verwijzingen naar de ermee overeenstemmende qu’insérées par la présente loi. bepalingen in het Wetboek economisch recht, zoals ingevoegd bij deze wet.
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 19985
 
-## Art. 9
+#### Art. 9
 
 Le Roi peut coordonner les dispositions du Code de droit Art. 9. De Koning kan de bepalingen van het Wetboek economisch économique, telles qu’ insérées par la présente loi, avec les dispositions recht, zoals ingevoegd bij deze wet, coördineren met de bepalingen die qui les auraient expressément ou implicitement modifiées au moment daarin uitdrukkelijk of stilzwijgend wijzigingen hebben aangebracht où la coordination sera établie. tot het tijdstip van de coördinatie.
 
@@ -443,7 +447,7 @@ Le Roi peut coordonner les dispositions du Code de droit Art. 9. De Koning kan d
 
     CHAPITRE 5. — Entrée en vigueur HOOFDSTUK 5. — Inwerkingtreding
 
-## Art. 10
+#### Art. 10
 
 Le Roi détermine la date d’entrée en vigueur de la présente Art. 10. De Koning bepaalt de datum van inwerkingtreding van loi. deze wet.
 
@@ -545,8 +549,8 @@ Das Königreich 11044712 143 7 150
     Haben Wir beschlossen und erlassen Wir:
     Artikel 1 - Die Wahlen für die Abgeordnetenkammer finden gemäß folgender Tabelle statt: PROVINZ ANTWERPEN Wahlkreis ANTWERPEN: 24 Abgeordnete VERWALTUNGSBEZIRK BRÜSSEL-HAUPTSTADT Wahlkreis BRÜSSEL-HAUPTSTADT: 15 Abgeordnete PROVINZ FLÄMISCH-BRABANT Wahlkreis FLÄMISCH-BRABANT: 15 Abgeordnete PROVINZ WALLONISCH-BRABANT Wahlkreis WALLONISCH-BRABANT: 5 Abgeordnete PROVINZ HENNEGAU Wahlkreis HENNEGAU: 18 Abgeordnete PROVINZ LÜTTICH Wahlkreis LÜTTICH: 15 Abgeordnete PROVINZ LIMBURG Wahlkreis LIMBURG: 12 Abgeordnete PROVINZ LUXEMBURG Wahlkreis LUXEMBURG: 4 Abgeordnete PROVINZ NAMUR Wahlkreis NAMUR: 6 Abgeordnete PROVINZ OSTFLANDERN Wahlkreis OSTFLANDERN: 20 Abgeordnete PROVINZ WESTFLANDERN Wahlkreis WESTFLANDERN: 16 Abgeordnete 19988 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD
 
-    Art. 2 - Der Königliche Erlass vom 22. Januar 2003 zur Aufteilung der Mitglieder der Abgeordnetenkammer nach Wahlkreisen wird aufgehoben.
-    Art. 3 - Unser Minister des Innern ist mit der Ausführung des vorliegenden Erlasses beauftragt.
+#### Art. 2 - Der Königliche Erlass vom 22. Januar 2003 zur Aufteilung der Mitglieder der Abgeordnetenkammer nach Wahlkreisen wird aufgehoben.
+#### Art. 3 - Unser Minister des Innern ist mit der Ausführung des vorliegenden Erlasses beauftragt.
     Gegeben zu Brüssel, den 31. Januar 2013
 
     ALBERT
@@ -599,7 +603,7 @@ Das Königreich 11044712 143 7 150
 
     (1) Voor de vreemde onderdanen die momenteel nog steeds in het bezit zijn van een kartonnen verblijfskaart, wordt de eerste elektronische kaart uitgereikt aan de prijs van S 10. Deze regel blijft van toepassing tot 1 oktober 2013. »
 
-## Art. 2
+#### Art. 2
 
 Le présent arrêté entre en vigueur le 1er avril 2013. Art. 2. Dit besluit treedt in werking op 1 april 2013.
   Bruxelles, le 27 mars 2013. Brussel, 27 maart 2013.
@@ -620,7 +624,7 @@ Le présent arrêté entre en vigueur le 1er avril 2013. Art. 2. Dit besluit tre
   Sur la proposition de la Ministre de l’Emploi, Op de voordracht van de Minister van Werk,
 
     Nous avons arrêté et arrêtons : Hebben Wij besloten en besluiten Wij : er Article 1 . Est rendue obligatoire la convention collective de travail Artikel 1. Algemeen verbindend wordt verklaard de als bijlage du 15 décembre 2010, reprise en annexe, conclue au sein des overgenomen collectieve arbeidsovereenkomst van 15 december 2010, Sous-commission paritaire de l’industrie des carrières de petit granit et gesloten in het Paritair Subcomité voor het bedrijf der hardsteengroede calcaire à tailler de la province de Hainaut et Sous-commission ven en der groeven van uit te houwen kalksteen in de provincie paritaire de l’industrie des carrières de petit granit et de calcaire à tailler Henegouwen en Paritair Subcomité voor het bedrijf der hardsteengroedes provinces de Liège et de Namur, portant dissolution et liquidation ven en der groeven van uit te houwen kalksteen in de provincies Luik du fonds de sécurité d’existence dénommé ″Fonds de sécurité d’exis- en Namen, tot ontbinding en vereffening van het fonds voor bestaanstence des carrières de petit granit″. zekerheid genaamd ″Fonds voor bestaanszekerheid der hardsteengroeven″.
-## Art. 2
+#### Art. 2
 
 Le ministre qui a l’Emploi dans ses attributions est chargé de Art. 2. De minister bevoegd voor Werk is belast met de uitvoering l’exécution du présent arrêté. van dit besluit.
   Donné à Châteauneuf-de-Grasse, le 3 août 2012. Gegeven te Châteauneuf-de-Grasse, 3 augustus 2012.
@@ -640,19 +644,19 @@ Sous-commission paritaire de l’industrie des carrières de petit granit Parita
   a) aux employeurs des entreprises relevant de la compétence des a) op de werkgevers van de bedrijven die ressorteren onder de sous-commissions paritaires : bevoegdheid van de paritaire subcomités : - de l’industrie des carrières de calcaire à tailler de la province de - van het bedrijf der groeven van uit te houwen kalksteen in de Hainaut; provincie Henegouwen;
   - de l’industrie des carrières de calcaire à tailler des provinces de - van het bedrijf der groeven van uit te houwen kalksteen in de Liège et de Namur; provincies Luik en Namen;
   b) aux ouvriers et ouvrières occupés par les employeurs visés sous a). b) op de mannelijke en vrouwelijke arbeiders tewerkgesteld door de werkgevers bedoeld onder a).
-## Art. 2
+#### Art. 2
 
 Le fonds de sécurité d’existence dénommé ″Fonds de sécurité Art. 2. Het fonds voor bestaanszekerheid genaamd ″Fonds voor des carrières de petit granit″ créé par la convention collective de travail bestaanszekerheid der hardsteengroeven″ opgericht bij de collectieve du 21 septembre 1976, conclue au sein de la Commission paritaire arbeidsovereenkomst van 21 september 1976, gesloten in het Gewesterégionale de l’industrie des carrières de petit granit de Soignies, de lijk Paritair Comité voor het bedrijf der hardsteengroeven te Zinnik, te Neufvilles, de Maffle, d’Ecaussinnes-d’Enghien, d’Ecaussinnes-Lalaing, Neufvilles, te Maffle, te Ecaussinnes-d’Enghien, te Ecaussinnes-Lalaing, de Marche-lez-Ecaussinnes, de Feluy et d’Arquennes et de la Commis- te Marche-lez-Ecaussinnes, te Feluy en te Arquennes, en in het sion paritaire régionale de l’industrie des carrières de petit granit et de Gewestelijk Paritair Comité voor het bedrijf der hardsteengroeven en calcaire à tailler des provinces de Liège et de Namur, instituant un groeven van uit te houwen kalksteen in de provincies Luik en Namen, MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 19991
 
 ″Fonds de sécurité d’existence des carrières de petit granit″ et fixant ses tot oprichting van een ″Fonds de sécurité d’existence des carrières de statuts, rendue obligatoire par arrêté royal du 21 décembre 1976, publié petit granit″ en tot vaststelling van de statuten ervan, algemeen au Moniteur belge du 28 décembre 1976, est dissous avec effet au verbindend verklaard bij het koninklijk besluit van 21 december 1976, 31 décembre 2010 et mis en liquidation. gepubliceerd in het Belgisch Staatsblad van 28 december 1976, wordt ontbonden met ingang vanaf 31 december 2010 en in vereffening gesteld.
-## Art. 3
+#### Art. 3
 
 En application de l’article 17 des statuts est désigné en qualité Art. 3. Bij toepassing van artikel 17 van de statuten wordt aangewede liquidateur : l’avocat Haenecour. zen als vereffenaar : de advocaat Haenecour.
    Le mandat du liquidateur n’est pas rémunéré. Het mandaat van de vereffenaars is onbezoldigd.
-## Art. 4
+#### Art. 4
 
 La présente convention collective de travail entre en vigueur Art. 4. Deze collectieve arbeidsovereenkomst wordt van kracht op au 31 décembre 2010 et se termine dès l’exécution de la liquidation. 31 december 2010 en eindigt met de uitvoering van de vereffening.
-## Art. 5
+#### Art. 5
 
 La convention collective de travail du 21 septembre 1976, Art. 5. De collectieve arbeidsovereenkomst van 21 september 1976, conclue au sein de la Commission paritaire régionale de l’industrie des gesloten in het Gewestelijk Paritair Comité voor het bedrijf der carrières de petit granit de Soignies, de Neufvilles, de Maffle, hardsteengroeven te Zinnik, te Neufvilles, te Maffle, te Ecaussinnesd’Ecaussinnes-d’Enghien, d’Ecaussinnes-Lalaing, de Marche-lez- d’Enghien, te Ecaussinnes-Lalaing, te Marche-lez-Ecaussinnes, te Feluy Ecaussinnes, de Feluy et d’Arquennes et de la Commission paritaire en te Arquennes, en in het Gewestelijk Paritair Comité voor het bedrijf régionale de l’industrie des carrières de petit granit et de calcaire à der hardsteengroeven en groeven van uit te houwen kalksteen in de tailler des provinces de Liège et de Namur, instituant un ″Fonds de provincies Luik en Namen, tot oprichting van een ″Fonds de sécurité sécurité d’existence des carrières de petit granit″ et fixant ses statuts, d’existence des carrières de petit granit″ en tot vaststelling van de rendue obligatoire par arrêté royal du 21 décembre 1976, publié au statuten ervan, algemeen vervindend verklaard bij het koninklijk Moniteur belge du 28 décembre 1976, cesse d’être en vigueur au besluit van 21 december 1976, gepubliceerd in het Belgisch Staatsblad 31 décembre 2010. van 28 december 1976, treedt buiten werking op 31 december 2010.
    Vu pour être annexé à l’arrêté royal du 3 août 2012. Gezien om te worden gevoegd bij het koninklijk besluit van 3 augustus 2012.
@@ -677,7 +681,7 @@ La convention collective de travail du 21 septembre 1976, Art. 5. De collectieve
 
   Article 1er. Est rendue obligatoire la convention collective de travail Artikel 1. Algemeen verbindend wordt verklaard de als bijlage du 8 avril 2011, reprise en annexe, conclue au sein de la Commission overgenomen collectieve arbeidsovereenkomst van 8 april 2011, gesloparitaire de l’industrie et du commerce du pétrole, relative aux ten in het Paritair Comité voor de petroleumnijverheid en -handel, dispositions temporaires en matière de prépension conventionnelle. betreffende een tijdelijke regeling inzake conventioneel brugpensioen.
 
-## Art. 2
+#### Art. 2
 
 Le ministre qui a l’Emploi dans ses attributions est chargé de Art. 2. De minister bevoegd voor Werk is belast met de uitvoering l’exécution du présent arrêté. van dit besluit.
 
@@ -694,11 +698,11 @@ Le ministre qui a l’Emploi dans ses attributions est chargé de Art. 2. De min
 
     Annexe Bijlage
   Commission paritaire de l’industrie et du commerce du pétrole Paritair Comité voor de petroleumnijverheid en -handel Convention collective de travail du 8 avril 2011 Collectieve arbeidsovereenkomst van 8 april 2011 Dispositions temporaires en matière de prépension conventionnelle Tijdelijke regeling inzake conventioneel brugpensioen (Overeen- (Convention enregistrée le 26 avril 2011 sous le numéro 103973/CO/117) komst geregistreerd op 26 april 2011 onder het nummer 103973/CO/117)
-## Art. 3
+#### Art. 3
 
 Sous réserve de la possibilité légale d’exécution, la présente Art. 3. Onder voorbehoud van de wettelijke mogelijkheid tot uitvoeconvention collective de travail est applicable aux employeurs et aux ring is deze collectieve arbeidsovereenkomst van toepassing op de ouvriers des entreprises ressortissant à la Commission paritaire de werkgevers en de arbeiders van de ondernemingen die onder het l’industrie et du commerce du pétrole. Paritair Comité voor de petroleumnijverheid en -handel ressorteren.
   Par ″ouvriers″ sont concernés : aussi bien les hommes que les Met ″arbeiders″ worden zowel de mannen als vrouwen bedoeld. femmes.
-## Art. 4
+#### Art. 4
 
 a) Régime particulier ″équipes″ Art. 4. a) Bijzondere regeling ″shift″ Pour les travailleurs ayant 33 années de service dont 20 ans en équipe Voor werknemers met 33 jaar dienst waarvan 20 jaar in shift met comportant du travail de nuit (convention collective de travail no 46 nachtarbeid (collectieve arbeidsovereenkomst nr. 46 gesloten in de conclue au sein du Conseil national du travail), possibilité de prépen- Nationale Arbeidsraad), mogelijkheid tot conventioneel brugpensioen sion conventionnelle à l’âge de 56 ans à partir du 1er janvier 2011. op 56-jarige leeftijd vanaf 1 januari 2011.
    Cette mesure requiert l’accord des deux parties (employeur et Deze maatregel vergt het akkoord van beide partijen (werkgever en travailleur individuel). individuele werknemer).
@@ -706,7 +710,7 @@ a) Régime particulier ″équipes″ Art. 4. a) Bijzondere regeling ″shift″
   c) Prépension à mi-temps à partir de 55 ans c) Halftijds brugpensioen vanaf 55 jaar Le calcul du revenu de la prépension conventionnelle complémen- De berekening van het aanvullend brugpensioeninkomen ten laste taire à charge de l’employeur en cas de prépension à mi-temps sera van de werkgever in geval van halftijds brugpensioen, zal gebaseerd basé sur le pourcentage de l’entreprise appliqué pour la détermination worden op het ondernemingspercentage toepasselijk voor het bepalen du revenu de la prépension conventionnelle à charge de l’employeur en van het aanvullende brugpensioeninkomen ten laste van de werkgever cas de prépension à temps plein. in geval van voltijds brugpensioen.
   d) Introduction de la prépension conventionnelle à 56 ans après d) Invoering van het brugpensioen op 56 jaar na 40 jaar dienst.
 40 ans de service
-## Art. 5
+#### Art. 5
 
 Cette convention collective de travail est conclue pour une Art. 5. Deze collectieve arbeidsovereenkomst wordt afgesloten voor durée déterminée et prend effet à partir du 1er janvier 2011 et se termine een bepaalde duur en heeft uitwerking met ingang van 1 januari 2011 le 30 juin 2011. en houdt op van kracht te zijn op 30 juni 2011.
   Vu pour être annexé à l’arrêté royal du 1er octobre 2012. Gezien om te worden gevoegd bij het koninklijk besluit van 1 oktober 2012.
@@ -732,7 +736,7 @@ Cette convention collective de travail est conclue pour une Art. 5. Deze collect
   Article 1er. Est rendue obligatoire la convention collective de travail Artikel 1. Algemeen verbindend wordt verklaard de als bijlage du 16 juin 2011, reprise en annexe, conclue au sein de la Sous- overgenomen collectieve arbeidsovereenkomst van 16 juni 2011, geslocommission paritaire pour le commerce du métal, relative à la ten in het Paritair Subcomité voor de metaalhandel, betreffende de formation syndicale. vakbondsvorming.
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 19993
 
-## Art. 2
+#### Art. 2
 
 Le ministre qui a l’Emploi dans ses attributions est chargé de Art. 2. De minister bevoegd voor Werk is belast met de uitvoering l’exécution du présent arrêté. van dit besluit.
 
@@ -756,19 +760,19 @@ Le ministre qui a l’Emploi dans ses attributions est chargé de Art. 2. De min
 
   Article 1er. La présente convention collective de travail s’applique Artikel 1. Deze collectieve arbeidsovereenkomst is van toepassing aux employeurs et aux ouvriers des entreprises relevant de la op de werkgevers en werklieden van de ondernemingen die ressorteren compétence de la Sous-commission paritaire pour le commerce du onder het Paritair Subcomité voor de metaalhandel. métal.
 
-## Art. 2
+#### Art. 2
 
 Pour l’application de la présente convention collective de Art. 2. Voor de toepassing van de collectieve arbeidsovereenkomst travail on entend par ″ouvriers″ : les ouvriers et ouvrières. wordt onder ″werklieden″ verstaan : de werklieden en de werksters.
 
     CHAPITRE II. — Formation syndicale HOOFDSTUK II. — Vakbondsvorming
 
-## Art. 3
+#### Art. 3
 
 Les dispositions du présent chapitre règlent la mise en Art. 3. De beschikkingen van dit hoofdstuk regelen de toepassing application du point 7 de l’accord interprofessionnel du 15 juin 1971, van punt 7 van de interprofessionele overeenkomst van 15 juni 1971, relatif à la formation syndicale. betreffende de vakbondsvorming.
 
   1. Principes généraux 1. Algemene beginselen
 
-## Art. 4
+#### Art. 4
 
 4.1. Compte tenu du rôle assumé par les représentants des Art. 4. 4.1. Rekening houdend met de rol die de vertegenwoordigers ouvriers dans les entreprises, il leur est accordé, dans les limites van de werklieden in de ondernemingen vervullen, wordt hen binnen précisées ci-après, des facilités pour suivre des cours de formation de hierna omschreven grenzen faciliteiten verleend om vormingscurnécessaires à l’accomplissement de leurs tâches dans les meilleures sussen te volgen die nodig zijn voor het volbrengen van hun taken in de conditions. beste voorwaarden.
 
@@ -780,7 +784,7 @@ Les dispositions du présent chapitre règlent la mise en Art. 3. De beschikking
 
   2. Modalités d’octroi 2. Toekenningsmodaliteiten
 
-## Art. 5
+#### Art. 5
 
 5.1. La durée d’absence pour la participation aux cours et Art. 5. 5.1. De duur van de afwezigheid voor de deelneming aan de séminaires visés à l’article 4, est fixée à dix jours par mandat effectif et cursussen en seminaries bedoeld in artikel 4, is vastgesteld op tien par période de mandat de quatre ans. Les mandats suppléants ne sont dagen per vast mandaat en per mandaatperiode van vier jaar. De pas pris en compte pour déterminer cette durée. plaatsvervangende mandaten worden niet in aanmerking genomen om deze duur te bepalen.
 
@@ -807,27 +811,27 @@ Les dispositions du présent chapitre règlent la mise en Art. 3. De beschikking
 
   3. Procédure 3. Procedure
 
-## Art. 6
+#### Art. 6
 
 Tous les différends pouvant surgir à l’occasion de l’applica- Art. 6. Alle geschillen die over de toepassing van deze collectieve tion de la présente convention collective de travail peuvent être arbeidsovereenkomst kunnen rijzen, mogen in het raam van de examinés dans le cadre de la procédure normale de conciliation. normale verzoeningsprocedure onderzocht worden.
 
-## Art. 7
+#### Art. 7
 
 Les cas qui ne sont pas prévus par la présente convention Art. 7. De in deze collectieve arbeidsovereenkomst niet voorziene collective de travail, sont examinés par la Sous-commission paritaire gevallen worden door het Paritair Subcomité voor de metaalhandel pour le commerce du métal. onderzocht.
 
    CHAPITRE III. — Remplacement de convention collective de travail HOOFDSTUK III. — Vervanging van collectieve arbeidsovereenkomst
 
-## Art. 8
+#### Art. 8
 
 Cette convention collective de travail remplace la convention Art. 8. Deze collectieve arbeidsovereenkomst vervangt de colleccollective de travail du 8 juillet 1999, relative la formation syndicale, tieve arbeidsovereenkomst van 8 juli 1999, betreffende de vakbondvorconclue au sein de la Sous-commission paritaire pour le commerce du ming, gesloten in het Paritair Subcomité voor de metaalhandel, métal, rendue obligatoire par arrêté royal du 21 septembre 2001, publié algemeen verbindend verklaard bij koninklijk besluit van 21 septemau Moniteur belge du 30 novembre 2011. ber 2001, gepubliceerd in het Belgisch Staatsblad van 30 november 2001.
 
     CHAPITRE IV. — Durée et dénonciation HOOFDSTUK IV. — Duurtijd en opzegging
 
-## Art. 9
+#### Art. 9
 
 La présente convention collective de travail entre en vigueur Art. 9. Deze collectieve arbeidsovereenkomst treedt in werking op le 1er juillet 2011 et est valable pour une durée indéterminée. 1 juli 2011 en wordt gesloten voor onbepaalde tijd.
 
-## Art. 10
+#### Art. 10
 
 Elle peut être dénoncée par une des parties moyennant un Art. 10. Zij kan door één van de partijen opgezegd worden mits een préavis de trois mois, notifié par lettre recommandée à la poste, opzegging van drie maanden wordt betekend bij een ter post aangeteadressée au président de la Sous-commission paritaire pour le com- kend schrijven, gericht aan de voorzitter van het Paritair Subcomité merce du métal. voor de metaalhandel.
 
@@ -846,7 +850,7 @@ Elle peut être dénoncée par une des parties moyennant un Art. 10. Zij kan doo
   Sur la proposition de la Ministre de l’Emploi, Op de voordracht van de Minister van Werk,
 
     Nous avons arrêté et arrêtons : Hebben Wij besloten en besluiten Wij : Article 1er. Est rendue obligatoire la convention collective de travail Artikel 1. Algemeen verbindend wordt verklaard de als bijlage du 8 juin 2011, reprise en annexe, conclue au sein de la Commission overgenomen collectieve arbeidsovereenkomst van 8 juni 2011, gesloten paritaire de la coiffure et des soins de beauté, relative à la reconduction in het Paritair Comité voor het kappersbedrijf en de schoonheidszorde la convention collective de travail du 29 juin 2009 relative à l’octroi gen, betreffende de verlenging van de collectieve arbeidsovereenkomst de la prépension conventionnelle à mi-temps à partir de 55 ans. van 29 juni 2009 betreffende de toekenning van het halftijds conventioneel brugpensioen vanaf 55 jaar.
-## Art. 2
+#### Art. 2
 
 Le ministre qui a l’Emploi dans ses attributions est chargé de Art. 2. De minister bevoegd voor Werk is belast met de uitvoering l’exécution du présent arrêté. van dit besluit.
   Donné à Bruxelles, le 1er octobre 2012. Gegeven te Brussel, 1 oktober 2012.
@@ -863,31 +867,31 @@ Le ministre qui a l’Emploi dans ses attributions est chargé de Art. 2. De min
     Commission paritaire de la coiffure et des soins de beauté Paritair Comité voor het kappersbedrijf en de schoonheidszorgen Convention collective de travail du 8 juin 2011 Collectieve arbeidsovereenkomst van 8 juni 2011 Reconduction de la convention collective de travail du 29 juin 2009 Verlenging van de collectieve arbeidsovereenkomst van 29 juni 2009 relative à l’octroi de la prépension conventionnelle à mi-temps à partir betreffende de toekenning van het halftijds conventioneel brugpensioen de 55 ans (Convention enregistrée le 26 août 2011 sous le vanaf 55 jaar (Overeenkomst geregistreerd op 26 augustus 2011 onder numéro 105372/CO/314) het nummer 105372/CO/314) CHAPITRE Ier. — Champ d’application HOOFDSTUK I. — Toepassingsgebied er Article 1 . La présente convention collective de travail s’applique Artikel 1. Deze collectieve arbeidsovereenkomst is van toepassing aux travailleurs et aux employeurs des entreprises relevant de la op de werknemers en op de werkgevers van de ondernemingen die compétence de la Commission paritaire de la coiffure et des soins de vallen onder de bevoegdheid van het Paritair Comité voor het beauté. kappersbedrijf en de schoonheidszorgen.
   Par ″travailleurs″ on entend : les ouvriers, ouvrières et employé(e)s. Onder ″werknemers″ verstaat men : de arbeiders, arbeidsters en bedienden.
     CHAPITRE II. — Dispositions HOOFDSTUK II. — Bepalingen
-## Art. 2
+#### Art. 2
 
 La présente convention collective de travail est conclue en Art. 2. Deze collectieve arbeidsovereenkomst wordt gesloten in application de la convention collective de travail no 55 du Conseil uitvoering van collectieve arbeidsovereenkomst nr. 55 van de Nationale national du travail du 13 juillet 1993 instituant un régime d’indemnité Arbeidsraad van 13 juli 1993 tot instelling van een regeling van complémentaire pour certains travailleurs âgés en cas de réduction des aanvullende vergoeding voor sommige oudere werknemers in geval prestations de travail à mi-temps, modifiée par les conventions van halvering van de arbeidsprestaties, gewijzigd bij de collectieve collectives de travail de travail no 55bis du Conseil national du travail arbeidsovereenkomsten nr. 55bis van de Nationale Arbeidsraad van du 7 février 1995 et no 55ter du Conseil national du travail du 7 februari 1995 en nr. 55ter van de Nationale Arbeidsraad van 10 mars 1998 (ratifiées par les arrêtés royaux des 17 novembre 1993, 10 maart 1998 (algemeen verbindend verklaard bij koninklijk besluit 16 mars 1995 et 26 mai 1998, parus au Moniteur belge des 4 décem- van 17 november 1993, 16 maart 1995 en 26 mei 1998, verschenen in het bre 1993, 26 avril 1995 et 17 juin 1998). Belgisch Staatsblad van 4 december 1993, 26 april 1995 en 17 juni 1998).
-## Art. 3
+#### Art. 3
 
 Il faut que les travailleurs concernés aient travaillé à temps Art. 3. De betrokken werknemers moeten voltijds in de sector plein dans le secteur pendant la période de douze mois précédant gewerkt hebben gedurende de periode van twaalf maanden die de immédiatement la réduction des prestations. vermindering van de prestaties onmiddellijk voorafgaat.
 19996 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD
 
-## Art. 4
+#### Art. 4
 
 Ils doivent bénéficier en plus de l’allocation de chômage Art. 4. Zij dienen bovendien te genieten van de voor deze categorie prévue pour cette catégorie de travailleurs par la réglementation en van werknemers door de reglementering inzake verzekering tegen matière d’assurance contre le chômage. werkloosheid voorziene werkloosheidsuitkering.
-## Art. 5
+#### Art. 5
 
 Le nombre d’heures de travail prévues dans le régime de Art. 5. Het aantal in het deeltijds arbeidsregime voorziene arbeidstravail à temps partiel doit, après limitation, être égal par cycle de uren dient, na beperking, per arbeidscyclus gemiddeld gelijk te zijn aan travail à la moitié en moyenne du nombre d’heures de travail dans un de helft van het aantal arbeidsuren in een normaal voltijds arbeidsrégime de travail à temps plein normal dans le service. regime in de dienst.
-## Art. 6
+#### Art. 6
 
 Pour les ouvriers concernés, les mêmes dispositions et Art. 6. Voor de betrokken arbeiders gelden dezelfde voorwaarden procédures que celles fixées par la convention collective de travail no 55 en procedures ais deze bepaald in de voornoemde collectieve arbeidsprécitée conclue au Conseil national du travail sont d’application. overeenkomst nr. 55 van de Nationale Arbeidsraad.
   L’indemnité complémentaire à charge de l’employeur sera calculée De aanvullende vergoeding ten laste van de werkgever zal berekend conformément aux articles 5 et 7 de la convention collective de travail worden overeenkomstig artikelen 5 en 7 van de voornoemde collectieve no 55 précitée conclue au Conseil national du travail. arbeidsovereenkomst nr. 55 van de Nationale Arbeidsraad.
    Pour le calcul de la moitié de la rémunération nette de référence Voor de berekening van de helft van het netto referteloon tot bepaling déterminant l’indemnité complémentaire susmentionnée, la cotisation van de hoger vermelde aanvullende vergoeding wordt de persoonlijke personnelle des ouvriers à la sécurité sociale est calculée sur 100 p.c. au socialezekerheidsbijdrage van de arbeiders berekend op 100 pct. in lieu de 108 p.c. de la moitié de leur rémunération mensuelle. plaats van 108 pct. van de helft van hun begrensd brutomaandloon.
-## Art. 7
+#### Art. 7
 
 Le régime d’indemnité complémentaire visé à l’article 2 de la Art. 7. De in artikel 2 van deze collectieve arbeidsovereenkomst présente convention collective de travail est prévu pour les tra- bedoelde regeling van aanvullende vergoeding wordt voorzien voor vailleurs : werknemers die : 1o ayant atteint ou atteignant, au plus tard le 31 décembre 2012, l’âge 1o de leeftijd van 55 jaar en meer hebben bereikt of zullen bereiken de 55 ans et plus; uiterlijk op 31 december 2012;
   2o satisfaisant aux conditions légales régissant la matière; 2o voldoen aan terzake geldende wettelijke voorwaarden; o 3 qui conviennent avec leur employeur de réduire leurs prestations 3o met hun werkgever een akkoord bereiken om arbeidsprestaties te de travail à mi-temps. halveren.
     CHAPITRE III. — Dispositions finales HOOFDSTUK III. — Slotbepalingen
-## Art. 8
+#### Art. 8
 
 La présente convention collective de travail entre en vigueur Art. 8. Deze collectieve arbeidsovereenkomst treedt in werking op au 1er janvier 2011 et cesse de produire ses effets au 31 décembre 2012. 1 januari 2011 en houdt op van kracht te zijn op 31 december 2012.
   Vu pour être annexé à l’arrêté royal du 1er octobre 2012. Gezien om te worden gevoegd bij het koninklijk besluit van 1 oktober 2012.
@@ -904,7 +908,7 @@ La présente convention collective de travail entre en vigueur Art. 8. Deze coll
   Sur la proposition de la Ministre de l’Emploi, Op de voordracht van de Minister van Werk,
 
     Nous avons arrêté et arrêtons : Hebben Wij besloten en besluiten Wij : er Article 1 . Est rendue obligatoire la convention collective de travail Artikel 1. Algemeen verbindend wordt verklaard de als bijlage du 3 octobre 2011, reprise en annexe, conclue au sein de la Commission overgenomen collectieve arbeidsovereenkomst van 3 oktober 2011, paritaire pour le travail intérimaire et les entreprises agréées fournis- gesloten in het Paritair Comité voor de uitzendarbeid en de erkende sant des travaux ou services de proximité, relative à la prime pension ondernemingen die buurtwerken of -diensten leveren, betreffende de pour les travailleurs intérimaires dans le secteur pour les employés des pensioenpremie voor de uitzendkrachten in de sector van de bedienden fabrications métalliques. der metaalfabrikantennijverheid.
-## Art. 2
+#### Art. 2
 
 Le ministre qui a l’Emploi dans ses attributions est chargé Art. 2. De minister bevoegd voor Werk is belast met de uitvoering de l’exécution du présent arrêté. van dit besluit.
   Donné à Bruxelles, le 20 décembre 2012. Gegeven te Brussel, 20 december 2012.
@@ -931,21 +935,21 @@ Le ministre qui a l’Emploi dans ses attributions est chargé Art. 2. De minist
 
   b) aux travailleurs intérimaires, visés par l’article 7, 3o de la loi b) de uitzendkrachten bedoeld bij artikel 7, 3o van genoemde wet van susmentionnée du 24 juillet 1987, qui sont mis à disposition par ces 24 juli 1987, die door deze uitzendbureaus ter beschikking worden entreprises de travail intérimaire. gesteld.
 
-## Art. 2
+#### Art. 2
 
 En application de l’article 2 de la convention collective de Art. 2. In toepassing van artikel 2 van de collectieve arbeidsovereentravail du 3 octobre 2011 relative à la prime pension pour les komst van 3 oktober 2011 betreffende de pensioenpremie voor de travailleurs intérimaires, les entreprises de travail intérimaire s’enga- uitzendkrachten, verbinden de uitzendbureaus zich er toe een pensioengent à verser une prime pension aux travailleurs intérimaires mis à premie te betalen aan de uitzendkrachten ter beschikking gesteld van disposition d’un utilisateur. een gebruiker.
 
-## Art. 3
+#### Art. 3
 
 La prime pension dont question à l’article 2 est un pourcen- Art. 3. De pensioenpremie waarvan sprake in artikel 2 is een tage de la rémunération brute (à 100 p.c.) qui est égal au montant de la percentage van het brutoloon (aan 100 pct.) dat overeenkomt met de cotisation versée par l’utilisateur afin de financer un système sectoriel bijdrage betaald door de gebruiker voor de financiering van een de complément au régime légal de pension, multiplié par le coefficient sectoraal systeem van aanvulling op het wettelijk pensioenstelsel, repris dans la convention collective de travail du 3 octobre 2011 relative vermenigvuldigd met de coëffi-ciënt vermeld in de collectieve arbeids- à la prime pension pour les travailleurs intérimaires. Le montant de la overeenkomst van 3 oktober 2011 betreffende de pensioenpremie voor cotisation versée par les entreprises relevant de la Commission paritaire de uitzendkrachten. De bijdrage betaald door de ondernemingen die pour les employés des fabrications métalliques est de 1,10 p.c. ressorteren onder het Paritair Comité voor de bedienden der metaalfabrikantennijverheid bedraagt 1,10 pct.
 
   Le montant de la prime pension à verser par les entreprises de travail De pensioenpremie die door de uitzendbureaus wordt betaald is dus intérimaire est donc égal à 0,75 p.c. du salaire brut (à 100 p.c.), gelijk aan 0,75 pct. van het brutoloon (aan 100 pct.), hetzij 1,10 x 0,6841. soit 1,10 x 0,6841.
 
-## Art. 4
+#### Art. 4
 
 Les entreprises de travail intérimaire s’engagent à verser aux Art. 4. De uitzendbureaus verbinden er zich toe aan de uitzendtravailleurs intérimaires mis à disposition d’un utilisateur le montant krachten die ter beschikking worden gesteld van een gebruiker de de la prime pension tel qu’indiqué à l’article 3 sur les rémunérations pensioenpremie vermeld in artikel 3 te betalen op de brutolonen brutes dues à partir du 1er juillet 2011. verschuldigd vanaf 1 juli 2011.
 
-## Art. 5
+#### Art. 5
 
 La présente convention collective de travail entre en vigueur Art. 5. Deze collectieve arbeidsovereenkomst treedt in werking op le 1er juillet 2011. Elle annule et remplace la convention collective de 1 juli 2011. Ze vernietigt en vervangt de collectieve arbeidsovereentravail du 8 juin 2010 relative à la prime pension pour les travailleurs komst van 8 juni 2010 betreffende de pensioenpremie voor de intérimaires dans le secteur pour les employés des fabrications uitzendkrachten in de sector van de bedienden der metaalfabrikantenmétalliques. nijverheid.
 
@@ -973,10 +977,10 @@ La présente convention collective de travail entre en vigueur Art. 5. Deze coll
    Sur la proposition de Notre Ministre des Affaires sociales, Op de voordracht van Onze Minister van Sociale Zaken,
 
     Nous avons arrêté et arrêtons : Hebben Wij besloten en besluiten Wij : Article 1er. A l’article 2, alinéa 3, de l’arrêté royal du 8 mars 2007 Artikel 1. In artikel 2, derde lid, van het koninklijk besluit van portant fixation d’une intervention personnelle des bénéficiaires dans le 8 maart 2007 tot vaststelling van een persoonlijk aandeel van de coût de certaines prestations de l’article 35 de la nomenclature des rechthebbenden in de kostprijs van sommige verstrekkingen van prestations de santé, modifié en dernier lieu par l’arrêté royal du artikel 35 van de nomenclatuur van de geneeskundige verstrekkingen 17 juillet 2012, les mots « 703275-703286, 703290-703301, 703312-703323, laatstelijk gewijzigd door het koninklijk besluit van 17 juli 2012, worden 703334-703345, » sont remplacés par les mots « 703430-703441, 703275- de woorden « 703275-703286, 703290-703301, 703312-703323, 703334- 703286, 703452-703463, 703290-703301, 703312-703323, 703474-703485, 703345, » vervangen door de woorden « 703430-703441, 703275-703286, 703334-703345 ». 703452-703463, 703290-703301, 703312-703323, 703474-703485, 703334- 703345 ».
-## Art. 2
+#### Art. 2
 
 Le présent arreté entre en vigueur le premier jour du Art. 2. Dit besluit treedt in werking op de eerste dag van de tweede deuxième mois qui suit celui de sa publication au Moniteur belge. maand na die waarin het is bekendgemaakt in het Belgisch Staatsblad.
-## Art. 3
+#### Art. 3
 
 Notre Ministre des Affaires sociales est chargé de l’exécution Art. 3. Onze Minister van Sociale Zaken is belast met de uitvoering du présent arrêté. van dit besluit.
   Donné à Bruxelles, le 30 janvier 2013. Gegeven te Brussel, 30 januari 2013.
@@ -1042,16 +1046,16 @@ Notre Ministre des Affaires sociales est chargé de l’exécution Art. 3. Onze 
   b) à la rubrique ″Colles tissulaires, produits hémostatiques et b) in de rubriek ″Weefsellijmen, hemostatische producten en antianti-adhésifs :″ les mots ″703275-703286, 703290-703301, 703312-703323, adhesieven :″ de woorden ″703275-703286, 703290-703301, 703312- 703334-703345 et″ sont remplacés par les mots ″703430-703441, 703275- 703323, 703334-703345 en″ vervangen door de woorden ″703430-703441, 703286, 703452-703463, 703290-703301, 703312-703323, 703474-703485, 703275-703286, 703452-703463, 703290-703301, 703312-703323, 703474- 703334-703345 et″; 703485, 703334-703345 en″;
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20001
 
-## Art. 2
+#### Art. 2
 
 L’article 3 de l’arrêté royal du 8 mai 2012 modifiant l’annexe Art. 2. Artikel 3 van het koninklijk besluit van 8 mei 2012 tot à l’arrêté royal du 14 septembre 1984 établissant la nomenclature des wijziging van de bijlage bij het koninklijk besluit van 14 september 1984 prestations de santé en matière d’assurance obligatoire soins de santé et tot vaststelling van de nomenclatuur van de geneeskundige verstrekindemnités, est complété par l’alinéa suivant : kingen inzake verplichte verzekering voor geneeskundige verzorging en uitkeringen, wordt aangevuld met het volgende lid : « Par dérogation à l’alinéa 1er, en ce qui concerne les prestations « In afwijking van het eerste lid, heeft artikel 2, 5°, 6° en 12°, voor wat relatives aux colles tissulaires, produits hémostatiques et anti-adhésifs, de verstrekkingen inzake weefsellijmen, hemostatische producten en l’article 2, 5°, 6° et 12°, produit ses effets au 1er octobre 2011. » anti-adhesieven betreft, uitwerking met ingang van 1 oktober 2011. »
-## Art. 3
+#### Art. 3
 
 Les produits relatifs aux colles tissulaires, produits hémosta- Art. 3. De producten inzake weefsellijmen, hemostatische productiques et anti-adhésifs pour lesquels les firmes ont introduit une ten en anti-adhesieven waarvoor de bedrijven een aanvraag tot opname demande d’inscription sur les listes des produits admis au rembourse- op de lijsten van voor vergoeding aangenomen producten indienen tot ment au plus tard 2 mois après la publication de l’arrêté royal du uiterlijk 2 maanden na publicatie van het koninklijk besluit van 8 mai 2012 et pour lesquels toutes les conditions d’inscription sont 8 mei 2012 en waarvoor aan alle voorwaarden tot opname is voldaan, remplies, sont inscrits sur cette liste à la date à laquelle les conditions worden met ingang van de datum waarop aan de voormelde voorwaarprécitées sont remplies et au plus tôt au 1er octobre 2011. den werd voldaan en ten vroegste op 1 oktober 2011 ingeschreven op die lijsten.
-## Art. 4
+#### Art. 4
 
 Le présent arrêté entre en vigueur le premier jour du Art. 4. Dit besluit treedt in werking op de eerste dag van de tweede deuxième mois qui suit celui de sa publication au Moniteur belge, à maand na die waarin het is bekendgemaakt in het Belgisch Staatsblad, l’exception de l’article 1er, 2°, a) et d) qui prend ses effets au met uitzondering van artikel 1, 2°, a) en d) dat uitwerking heeft met 1er octobre 2011. ingang van 1 oktober 2011.
-## Art. 5
+#### Art. 5
 
 Le ministre qui a les Affaires sociales dans ses attributions est Art. 5. De Minister bevoegd voor Sociale Zaken is belast met de chargé de l’exécution du présent arrêté. uitvoering van dit besluit.
   Donné à Bruxelles, le 31 janvier 2013. Gegeven te Brussel, 31 januari 2013.
@@ -1086,7 +1090,7 @@ Le ministre qui a les Affaires sociales dans ses attributions est Art. 5. De Min
     Arrête : Besluit :
   Article 1er. Au paragraphe 2680000 du chapitre IV-B de l’annexe Ire Artikel 1. In paragraaf 2680000 van hoofdstuk IV-B van de bijlage I de l’arrêté royal du 21 décembre 2001 fixant les procédures, délais et van het koninklijk besluit van 21 december 2001 tot vaststelling van de conditions en matière d’intervention de l’assurance obligatoire soins de procedures, termijnen en voorwaarden inzake de tegemoetkoming van santé et indemnités dans le coût des spécialités pharmaceutiques, tel de verplichte verzekering voor geneeskundige verzorging en uitkerinqu’il a été modifié à ce jour, l’inscription des spécialités suivantes est gen in de kosten van farmaceutische specialiteiten, zoals tot op heden remplacée comme suit : gewijzigd, wordt de inschrijving van de volgende specialiteiten vervangen als volgt :
 
-## Art. 2
+#### Art. 2
 
 Le présent arrêté entre en vigueur le 1er avril 2013. Art. 2. Dit besluit treedt in werking op 1 april 2013.
   Bruxelles, le 27 mars 2013. Brussel, 27 maart 2013.
@@ -1125,7 +1129,7 @@ Le présent arrêté entre en vigueur le 1er avril 2013. Art. 2. Dit besluit tre
 
    Article 1er. A l’annexe Ire de l’arrêté royal du 21 décembre 2001 Artikel 1. In de bijlage I van het koninklijk besluit van 21 decemfixant les procédures, délais et conditions en matière d’intervention de ber 2001 tot vaststelling van de procedures, termijnen en voorwaarden l’assurance obligatoire soins de santé et indemnités dans le coût des inzake de tegemoetkoming van de verplichte verzekering voor geneesspécialités pharmaceutiques, tel qu’il a été modifié à ce jour, sont kundige verzorging en uitkeringen in de kosten van farmaceutische apportées les modifications suivantes : specialiteiten, zoals tot op heden gewijzigd, worden de volgende wijzigingen aangebracht : 20004 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20005 20006 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20007 20008 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20009 20010 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20011 20012 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20013 20014 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20015 20016 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20017 20018 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20019 20020 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD
 
-## Art. 2
+#### Art. 2
 
 Le présent arrêté entre en vigueur au 27 mars 2013. Art. 2. Dit besluit treedt in werking op 27 maart 2013.
     Mme L. ONKELINX Mevr. L. ONKELINX
@@ -1142,7 +1146,7 @@ Le présent arrêté entre en vigueur au 27 mars 2013. Art. 2. Dit besluit treed
   Sur la proposition de la Ministre de la Santé publique, Op de voordracht van de Minister van Volksgezondheid,
 
     Nous avons arrêté et arrêtons : Hebben Wij besloten en besluiten Wij : CHAPITRE Ier. — Dispositions générales HOOFDSTUK I. — Algemene bepalingen Article 1er. Le présent arrêté s’applique aux chevaux et poneys qui Artikel 1. Dit besluit is van toepassing op paarden en pony’s die sont présentés au public pour être chevauchés lors des kermesses et bestemd zijn om te worden bereden door het publiek op kermissen en circonstances similaires, à l’exclusion des manèges. vergelijkbare evenementen, met uitzondering van maneges.
-## Art. 2
+#### Art. 2
 
 Pour l’application du présent arrêté, on entend par : Art. 2. Voor de toepassing van dit besluit wordt verstaan onder :
   1° Hippodrome : attraction foraine composée d’une piste mobile où 1° Ponycarrousel : kermisattractie bestaande uit een mobiele piste poneys et chevaux peuvent être chevauchés par le public; waar pony’s en paarden bereden kunnen worden door het publiek;
@@ -1153,89 +1157,89 @@ Pour l’application du présent arrêté, on entend par : Art. 2. Voor de toepa
   6° Abri : endroit aménagé de manière artificielle ou naturelle (arbres, 6° Schuilplaats : kunstmatig gecreëerde of natuurlijke (bomen, haies,) qui fournit aux animaux une protection efficace contre le vent, la hagen,) ruimte die de dieren een efficiënte beschutting biedt tegen pluie et la chaleur (zone d’ombre). wind, regen en hitte (schaduwzone).
     CHAPITRE II. — Soins aux animaux HOOFDSTUK II. — Verzorging van de dieren
 
-## Art. 3
+#### Art. 3
 
 Les animaux présents sur la kermesse sont contrôlés par le Art. 3. Om een goede gezondheidstoestand en het welzijn van de responsable d’hippodrome au moins deux fois par jour afin de garantir dieren aanwezig op de kermis te garanderen, worden ze minstens twee leur bon état de santé et de bien-être. keer per dag gecontroleerd door de verantwoordelijke van de ponycarrousel.
-## Art. 4
+#### Art. 4
 
 § 1er. Les animaux reçoivent une alimentation qui correspond Art. 4. § 1. De dieren krijgen een voeding die afgestemd is op hun à leurs besoins et leur état physiologique. behoeften en hun fysiologische toestand.
   § 2. Les animaux doivent avoir un accès aisé et suffisant à l’eau § 2. De dieren moeten vlot en voldoende toegang hebben tot potable, y compris pendant les périodes de travail sur l’hippodrome. drinkwater, ook wanneer ze aan het werk zijn in de ponycarrousel.
-## Art. 5
+#### Art. 5
 
 Les animaux qui sont blessés ou présentent des signes Art. 5. Dieren die gewond zijn of zichtbare tekenen van een visibles de troubles de la santé et qui sont susceptibles de souffrir, sont gezondheidsstoornis vertonen en die mogelijk lijden, worden onmidtraités sans délai et si nécessaire, séparés du reste du groupe. Un dellijk behandeld en zo nodig gescheiden van de rest van de groep. vétérinaire est consulté chaque fois que c’est nécessaire. Telkens als het nodig is, wordt een dierenarts geconsulteerd.
-## Art. 6
+#### Art. 6
 
 Les sabots doivent être parés et soignés régulièrement. Art. 6. De hoeven moeten regelmatig gekapt en verzorgd worden.
-## Art. 7
+#### Art. 7
 
 Une attention particulière devra être portée à la lutte contre Art. 7. Er moet een bijzondere aandacht geschonken worden aan het les insectes. bestrijden van insecten.
-## Art. 8
+#### Art. 8
 
 Les animaux doivent être vermifugés de manière adéquate. Art. 8. De dieren moeten doeltreffend ontwormd worden.
     CHAPITRE III. — Conditions de travail des animaux HOOFDSTUK III. — Werkomstandigheden van de dieren
 
     Section Ire. — Conditions générales Afdeling I. — Algemene voorwaarden
-## Art. 9
+#### Art. 9
 
 Les animaux doivent être aptes au travail. Les étalons, les Art. 9. De dieren moeten geschikt zijn voor het werk. Hengsten, juments allaitantes ou gestantes de plus de huit mois ne sont pas zogende merries of merries die meer dan acht maanden drachtig zijn, utilisés. worden niet ingezet.
 
-## Art. 10
+#### Art. 10
 
 Le poids des cavaliers doit être adapté à la morphologie des Art. 10. Het gewicht van de ruiters moet aangepast zijn aan de bouw animaux. van de dieren.
 20022 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD
 
-## Art. 11
+#### Art. 11
 
 Il doit être interdit aux cavaliers d’user de coups de talons, Art. 11. Tikken met de hielen, trekken aan de teugels, de dieren de tirer sur les rennes, de frapper les animaux, de crier ou tout autre slaan, roepen of elk ander ongepast gedrag moet aan de ruiters comportement inadapté. Cette interdiction est indiquée dans un verboden worden. Dit verbod is opgenomen in een reglement dat règlement qui doit être bien visible pour le public. duidelijk zichtbaar moet zijn voor het publiek.
-## Art. 12
+#### Art. 12
 
 § 1er. Les cavaliers ne peuvent pas utiliser de rennes reliées Art. 12. § 1. De ruiters mogen geen teugels verbonden met een bit à un mors en bouche. gebruiken.
    § 2. Les mors sont utilisés le moins possible et uniquement pour des § 2. Bitten worden zo weinig mogelijk en enkel om veiligheidsreden raisons de sécurité, par des personnes compétentes sous la responsa- gebruikt en dit door bekwame personen onder de verantwoordelijkbilité du responsable de l’hippodrome. heid van de verantwoordelijke van de ponycarrousel.
     Section II. — Equipement Afdeling II. — Uitrusting
-## Art. 13
+#### Art. 13
 
 L’équipement est en bon état et adapté à la morphologie des Art. 13. Om elk risico op kwetsuren tijdens het werk in de ponycaranimaux afin d’éviter tout risque de blessures lors du travail dans rousel te vermijden, is de uitrusting in goede staat en aangepast aan de l’hippodrome. Par équipement il est entendu le harnachement (licols, bouw van de dieren. Onder uitrusting wordt verstaan het tuig (halsters, mors, tapis, selles, sangles, étriers,) et tous les matériaux de l’attraction bitten, dekentjes, zadels, singels, stijgbeugels,) en alle materialen van de susceptible d’entrer en contact avec les animaux. attractie waarmee de dieren in contact kunnen komen.
     Section III. — Piste de l’hippodrome Afdeling III. — Piste van de ponycarrousel
-## Art. 14
+#### Art. 14
 
 Le sol de la piste est plat et recouvert d’un épais tapis en Art. 14. De bodem van de piste is vlak en bekleed met een dikke caoutchouc ou à défaut recouvert d’une couche de sciure afin rubberen mat of, bij gebrek hieraan, bedekt met een laag zaagsel om de d’absorber les chocs et d’empêcher une usure exagérée des sabots. schokken op te vangen en overmatige slijtage van de hoeven te verhinderen.
-## Art. 15
+#### Art. 15
 
 Le diamètre de la piste est de minimum huit mètres dans le Art. 15. De diameter van de piste is minstens acht meter indien de cas où tous les poneys ont une hauteur au garrot qui est inférieure à schofthoogte van alle pony’s kleiner is dan 1,20 meter en minstens tien 1,20 mètre et de minimum dix mètres dans les autres cas. meter in de andere gevallen.
     CHAPITRE IV. — Enclos pour l’hébergement des animaux HOOFDSTUK IV. — Verblijven van de dieren
-## Art. 16
+#### Art. 16
 
 Durant les périodes d’inactivité qui correspondent aussi Art. 16. Tijdens de periodes van inactiviteit, wat zowel de periodes bien aux périodes sans travail durant les foires qu’aux périodes entre tijdens kermissen waarop de dieren niet werken als de periodes tussen les foires, les animaux sont autant que possible hébergés en prairie ou twee kermissen in inhoudt, worden de dieren zoveel mogelijk onderdans des enclos extérieurs. gebracht in een weide of in buitenverblijven.
-## Art. 17
+#### Art. 17
 
 A l’exception des individus agressifs, malades ou blessés, les Art. 17. Met uitzondering van agressieve, zieke of gewonde indivianimaux ne sont pas détenus seuls. duen worden de dieren niet individueel gehouden.
-## Art. 18
+#### Art. 18
 
 Les normes d’hébergement suivantes sont respectées aussi Art. 18. De volgende huisvestingsnormen worden zowel overdag bien le jour que la nuit : als ’s nachts gerespecteerd : — 9 m2 par animal; — 9 m2 per dier;
   — un côté de l’enclos ayant une longueur d’au moins deux fois la — een kant van het verblijf moet een lengte hebben van ten minste hauteur au garrot de l’animal le plus grand; twee keer de schofthoogte van het grootste dier;
   — hauteur de l’enclos de minimum trois mètres. — het verblijf is minstens drie meter hoog. er
-## Art. 19
+#### Art. 19
 
 § 1 . Les enclos intérieurs permettent aux animaux d’avoir Art. 19. § 1. De binnenverblijven laten de dieren toe een ruim une vision large à l’extérieur. uitzicht naar buiten te hebben.
   § 2. Les animaux ne sont pas attachés dans les enclos. § 2. De dieren worden niet vastgebonden in de verblijven.
  § 3. Du matériel d’enrichissement comme du foin ou de la paille, est § 3. In de verblijven wordt verrijkingsmateriaal, zoals hooi of stro, ter mis à disposition des animaux dans les enclos. beschikking gesteld van de dieren.
-## Art. 20
+#### Art. 20
 
 Il doit être interdit de fumer dans les enclos intérieurs qui Art. 20. Er moet een rookverbod gelden in de binnenverblijven waar hébergent les animaux. dieren zijn ondergebracht.
-## Art. 21
+#### Art. 21
 
 Lorsqu’ils sont hébergés dans des enclos extérieurs, les Art. 21. Wanneer de dieren in buitenverblijven gehouden worden, animaux doivent pouvoir être rentrés dans un enclos intérieur ou moeten ze opgestald kunnen worden of beschikken over een schuildisposer d’un abri. plaats.
-## Art. 22
+#### Art. 22
 
 Les clôtures des prairies et les enclos extérieurs sont conçus Art. 22. De dieren kunnen zich niet kwetsen aan de omheiningen de manière à éviter que les animaux ne se blessent. van de weiden en de buitenverblijven.
     CHAPITRE V. — Dispositions finales HOOFDSTUK V. — Slotbepalingen
-## Art. 23
+#### Art. 23
 
 Les infractions aux dispositions du présent arrêté sont Art. 23. Overtredingen van de bepalingen van dit besluit worden recherchées, constatées et punies conformément aux dispositions de la opgespoord, vastgesteld en bestraft conform de bepalingen van de wet loi du 14 août 1986 relative à la protection et au bien-être des animaux. van 14 augustus 1986 betreffende de bescherming en het welzijn der dieren.
-## Art. 24
+#### Art. 24
 
 Le présent arrêté entre en vigueur le premier jour du Art. 24. Dit besluit treedt in werking op de eerste dag van de tweede deuxième mois qui suit sa publication au Moniteur belge, à l’exception maand na die waarin ze is bekendgemaakt in het Belgisch Staatsblad, de l’article 15 qui entre en vigueur le 1er janvier 2016. met uitzondering van artikel 15 dat in werking treedt op 1 januari 2016.
-## Art. 25
+#### Art. 25
 
 Le ministre qui a le Bien-être animal dans ses attributions est Art. 25. De minister bevoegd voor Dierenwelzijn is belast met de chargé de l’exécution du présent arrêté. uitvoering van dit besluit.
   Donné à Bruxelles, le 1er mars 2013. Gegeven te Brussel, 1 maart 2013.
@@ -1314,7 +1318,7 @@ AVIS 52.776/4 DU CONSEIL D’ETAT, SECTION DE LEGISLATION, ADVIES 52.776/4 VAN D
   3° « composante sociale » : la composante sociale du service univer- 3° « sociale element » : het sociale element van de universele dienst, sel, telle que mentionnée à l’article 74, § 1er, de la loi; zoals vermeld in artikel 74, § 1, van de wet;
    4° « déclarant » : opérateur offrant un service de communications 4° « aangever » : operator die een openbare elektronische- électroniques accessible au public manifestant son intention de fournir communicatiedienst aanbiedt en zijn voornemen laat blijken om la composante sociale sur un réseau terrestre fixe ou mobile ou sur les gedurende vijf jaar het sociale element te verstrekken op een vast of deux pour une durée de cinq année : mobiel terrestrisch netwerk of op beide.
     CHAPITRE 2. — Contenu de la déclaration HOOFDSTUK 2. — Inhoud van de aangifte
-## Art. 2
+#### Art. 2
 
 La déclaration dont il est question à l’article 74, § 3, de la loi Art. 2. De aangifte waarvan sprake in artikel 74, § 3, van de wet comprend : omvat :
   1° l’identité, l’adresse du déclarant et le nom d’une personne de 1° de identiteit, het adres van de aangever en de naam van een contact; contactpersoon;
@@ -1327,10 +1331,10 @@ La déclaration dont il est question à l’article 74, § 3, de la loi Art. 2. 
   - un service d’accès à l’Internet; - een dienst voor internettoegang;
   6° la date à partir de laquelle la composante sociale est fournie par le 6° de datum vanaf wanneer het sociale element door de aangever déclarant. wordt verstrekt.
     CHAPITRE 3. — Modalité de la déclaration HOOFDSTUK 3. — Nadere regels voor de aangifte
-## Art. 3
+#### Art. 3
 
 La déclaration mentionnée à l’article 2 est envoyée par Art. 3. De in artikel 2 vermelde aangifte wordt aangetekend vercourrier recommandé à l’attention de l’Institut. stuurd naar het Instituut.
-## Art. 4
+#### Art. 4
 
 Dans les 30 jours suivant la réception de l’envoi mentionné à Art. 4. Binnen 30 dagen na de ontvangst van de in artikel 3 vermelde l’article 3, l’Institut : verzending :
   1° adresse un accusé de réception au déclarant lui indiquant que sa 1° richt het Instituut een ontvangstbevestiging aan de aangever, déclaration a été enregistrée; waarin wordt meegedeeld dat zijn aangifte geregistreerd is;
@@ -1341,7 +1345,7 @@ Dans les 30 jours suivant la réception de l’envoi mentionné à Art. 4. Binne
   - le(s) service(s) offert entre le service de téléphonie accessible au - de dienst(en) die wordt/worden aangeboden tussen de openbare public et/ou l’accès à l’Internet; telefoondienst en/of de internettoegang;
   - la durée de la période de cinq ans pendant laquelle le déclarant s’est - de looptijd van de vijfjarige periode waarin de aangever zich heeft engagé à fournir la composante sociale. verbonden om het sociale element te verstrekken.
     CHAPITRE 4. — Exécution HOOFDSTUK 4. — Uitvoering
-## Art. 5
+#### Art. 5
 
 Le ministre qui a les Télécommunications dans ses attribu- Art. 5. De minister bevoegd voor Telecommunicatie is belast met de tions est chargé de l’exécution du présent arrêté. uitvoering van dit besluit.
   Donné à Bruxelles, le 4 mars 2013. Gegeven te Brussel, 4 maart 2013.
@@ -1461,17 +1465,17 @@ AVIS 52.782/4 DU CONSEIL D’ETAT, SECTION DE LEGISLATION, ADVIES 52.782/4 VAN D
    4° « opérateur renonçant à la fourniture de la composante sociale » : 4° « operator die afziet van de verstrekking van het sociale element » opérateur qui fournissait la composante sociale et dont le chiffre : operator die het sociale element leverde, en van wie de omzet met d’affaires portant sur les services de communications électroniques betrekking tot de openbare elektronische-communicatiediensten, met accessibles au public, excluant d’autres activités telles que la fourniture uitzondering van andere activiteiten zoals het leveren van een televide service de télévision, et réalisé sur le territoire national durant siedienst, en die wordt verwezenlijkt op het nationale grondgebied l’année précédant l’année considérée, est inférieur ou égal à cinquante gedurende het jaar dat voorafgaat aan het beschouwde jaar, lager is dan millions d’euros et qui n’a pas déclaré à l’Institut son intention de of gelijk aan vijftig miljoen euro en die niet zijn voornemen om het continuer à fournir la composante sociale; sociale element te blijven verstrekken heeft aangegeven aan het Instituut;
   5° « client bénéficiaire » : abonné auprès d’un opérateur qui bénéficie 5° « begunstigde klant » : abonnee bij een operator die op de datum de la composante sociale à la date d’entrée en vigueur de la loi du van inwerkingtreding van de wet van 10 juli 2012 houdende diverse 10 juillet 2012 portant des dispositions diverses en matière de bepalingen inzake elektronische communicatie het sociale element communications électroniques; geniet;
   6° « réduction tarifaire » : réduction tarifaire appliquée en vertu de la 6° « tariefkorting » : tariefkorting die wordt toegepast krachtens het composante sociale par l’opérateur renonçant à la fourniture de la sociale element door de operator die afziet van de verstrekking van het composante sociale. sociale element.
-## Art. 2
+#### Art. 2
 
 Dans le cadre de l’exécution de l’article 74, § 3, de la loi, Art. 2. In het kader van de uitvoering van artikel 74, § 3, van de wet l’opérateur renonçant à la fourniture de la composante sociale doit, au moet de operator die afziet van de verstrekking van het sociale element, plus tard un mois avant la suppression de l’avantage social, notifier aux ten laatste één maand voordat het sociale voordeel vervalt, de clients bénéficiaires son souhait de mettre fin à la fourniture de la begunstigden inlichten over zijn wens om de verstrekking van het composante sociale. sociale element stop te zetten.
    Cette notification doit être effectuée par écrit, ou à tout le moins par Deze melding moet schriftelijk gebeuren of op zijn minst door le biais d’un support durable au sens de l’article 2, 25°, de la loi du middel van een duurzame drager in de zin van artikel 2, 25°, van de 6 avril 2010 relative aux pratiques du marché et à la protection des wet van 6 april 2010 betreffende marktpraktijken en consumentenbeconsommateurs. Elle doit en outre être individualisée, et doit mention- scherming. Ze moet bovendien geïndividualiseerd worden en het ner : volgende omvatten : - l’indication que la réduction n’est plus accordée parce que - het feit dat de korting niet langer wordt toegekend omdat de l’opérateur ne fournit plus la composante sociale du service universel, operator het sociale element van de universele dienst niet meer mais que d’autres opérateurs fournissent toujours cette composante via verstrekt, maar dat andere operatoren nog altijd dit element verstrekdes réseaux fixes ou des réseaux mobiles; ken via vaste of mobiele netwerken;
   - la liste et l’adresse de contact des opérateurs qui fournissent la - de lijst en het contactadres van de operatoren die het sociale element composante sociale du service universel. van de universele dienst verstrekken.
-## Art. 3
+#### Art. 3
 
 Le client bénéficiaire d’un opérateur renonçant à la fourniture Art. 3. Indien de begunstigde klant van een operator die afziet van de la composante sociale qui souhaite continuer à bénéficier de ce tarif de verstrekking van het sociale element dat tarief wil blijven genieten, introduit à cet effet une demande de transfert auprès de l’opérateur dient hij daartoe een verzoek om overdracht in bij de operator die het fournissant la composante sociale de son choix. sociale element verstrekt van zijn keuze.
    L’opérateur transmet cette demande de transfert sans délai à De operator zendt dit verzoek om overdracht onmiddellijk over naar l’Institut. het Instituut.
   Dans le respect de l’article 22, § 2, alinéa 5 de l’annexe à loi du Met inachtneming van artikel 22, § 2, vijfde lid, van de bijlage bij de 13 juin 2005 relative aux communications électroniques, l’Institut vérifie wet van 13 juni 2005 betreffende de elektronische communicatie, le cas échéant si le bénéficiaire a encore droit au tarif social, verifieert het Instituut in voorkomend geval of de begunstigde nog conformément à la procédure de l’article 3, § 2, de l’arrêté royal du recht heeft op het sociale tarief, overeenkomstig de procedure van 20 juillet 2006 fixant les modalités de fonctionnement de la composante artikel 3, § 2, van het koninklijk besluit van 20 juli 2006 tot vaststelling sociale du service universel des communications électroniques. van de nadere regels voor de werking van het sociale element van de universele dienst inzake elektronische communicatie.
-## Art. 4
+#### Art. 4
 
 Le ministre qui a les Télécommunications dans ses attribu- Art. 4. De minister bevoegd voor Telecommunicatie is belast met de tions est chargé de l’exécution du présent arrêté. uitvoering van dit besluit.
   Donné à Bruxelles, le 4 mars 2013. Gegeven te Brussel, 4 maart 2013.
@@ -1500,17 +1504,17 @@ Le ministre qui a les Télécommunications dans ses attribu- Art. 4. De minister
   1° « la loi » : la loi du 1er juillet 2011 relative à la sécurité et la 1° « de wet » : de wet van 1 juli 2011 betreffende de beveiliging en de protection des infrastructures critiques; bescherming van de kritieke infrastructuren;
    2° « P.S.E. » : le plan de sécurité de l’exploitant visé à l’article 13 de la 2° « B.P.E. » : het beveiligingsplan van de exploitant bedoeld in loi. artikel 13 van de wet.
     CHAPITRE 2. — Champ d’application HOOFDSTUK 2. — Toepassingsgebied
-## Art. 2
+#### Art. 2
 
 Le présent arrêté s’applique à la protection et à la sécurité des Art. 2. Dit besluit is van toepassing op de bescherming en de infrastructures critiques nationales et européennes dans le secteur de beveiliging van de nationale en de Europese kritieke infrastructuren l’Energie, visées à l’article 4, § 2, alinéa 1er, 1° à 3°, de la loi. voor de sector Energie, zoals bedoeld in artikel 4, § 2, eerste lid, 1° tot
     3°, van de wet.
   En vertu de l’article 30 de la loi, il ne s’applique pas aux installations Krachtens artikel 30 van de wet is het echter niet van toepassing op nucléaires visées par la loi du 15 avril 1994 relative à la protection de la de nucleaire installaties bedoeld bij de wet van 15 april 1994 betreffende population et de l’environnement contre les dangers résultant des de bescherming van de bevolking en van het leefmilieu tegen de uit rayonnements ionisants et relative à l’Agence fédérale de Contrôle ioniserende stralingen voortspruitende gevaren en betreffende het nucléaire. Federaal Agentschap voor Nucleaire Controle.
     CHAPITRE 3. — Echange d’informations et exercices HOOFDSTUK 3. — Informatie-uitwisseling en oefeningen
-## Art. 3
+#### Art. 3
 
 L’exploitant d’une infrastructure critique communique les Art. 3. De exploitant van een kritieke infrastructuur maakt de données du point de contact pour la sécurité au service d’inspection. contactgegevens van haar beveiligingscontactpunt over aan de inspectiedienst.
   En cas de modification ou de complément des données du point de Bij een wijziging of aanvulling van de gegevens van het beveiligingscontact pour la sécurité, l’exploitant en avise le service d’inspection contactpunt brengt de exploitant binnen 30 dagen na wijziging de dans les 30 jours suivant le changement. inspectiedienst op de hoogte.
-## Art. 4
+#### Art. 4
 
 § 1er. Le P.S.E est testé au moyen de l’organisation d’exercices Art. 4. § 1. Het B.P.E. wordt met passende tussenpozen van niet à des intervalles appropriés n’excédant pas trois ans. meer dan drie jaar uitgetest door middel van oefeningen.
   § 2. Sans avoir nécessairement trait à chaque localisation d’une § 2. Zonder dat deze noodzakelijk betrekking hebben op elke locatie infrastructure critique, les exercices visés au paragraphe 1er sont waar een kritieke infrastructuur gelegen is, worden de oefeningen organisés d’une telle manière que la sécurité de l’infrastructure critique bedoeld in paragraaf 1 op zodanige wijze georganiseerd dat de soit testée. beveiliging van de kritieke infrastructuur wordt getest.
@@ -1528,10 +1532,10 @@ L’exploitant d’une infrastructure critique communique les Art. 3. De exploit
   § 8. L’exploitant rédige un rapport de contrôle de l’exercice et en § 8. De exploitant maakt een controleverslag van de oefening en envoie une copie au service d’inspection. stuurt een kopie naar de inspectiedienst.
     CHAPITRE 4. — Inspections HOOFDSTUK 4. — Inspecties
 
-## Art. 5
+#### Art. 5
 
 Le service d’inspection de la Direction Générale Energie du Art. 5. Jaarlijks werkt de inspectiedienst van de Algemene Directie SPF Economie, P.M.E., Classes moyennes et Energie élabore un Energie van de FOD Economie, K.M.O., Middenstand en Energie een planning d’inspection annuel. inspectieplanning uit.
-## Art. 6
+#### Art. 6
 
 Pour accéder au site à contrôler, l’inspecteur du service Art. 6. Om toegang te krijgen tot de te controleren site, identificeert d’inspection s’identifie au moyen de : de inspecteur van de inspectiedienst zich aan de hand van :
   1° sa carte d’identité; 1° zijn identiteitskaart;
@@ -1539,7 +1543,7 @@ Pour accéder au site à contrôler, l’inspecteur du service Art. 6. Om toegan
    Chaque année, le service d’inspection envoie à tous les exploitants Jaarlijks stuurt de inspectiedienst naar alle exploitanten een lijst op une liste reprenant les nom et prénom des inspecteurs compétents pour met de namen en voornamen van de inspecteurs die bevoegd zijn om effectuer les contrôles sur les infrastructures critiques et qui sont controles op de kritieke infrastructuur uit te voeren en die houder zijn porteurs de la carte de légitimation, visée à l’alinéa 1er. van een legitimatiekaart, bedoeld in het eerste lid.
    Le service d’inspection communique à tous les exploitants un De inspectiedienst communiceert aan alle exploitanten een centraal numéro de téléphone central du service d’inspection pour permettre à telefoonnummer van de inspectiedienst zodat de exploitant indien l’exploitant, le cas échéant, de vérifier la légitimation d’un inspecteur nodig de identiteit van de aanwezige inspecteur kan verifiëren. présent sur place.
    En cas de modification de la liste visée à l’alinéa 2 ou du numéro de Wanneer de in het tweede lid bedoelde lijst of het in het derde lid téléphone central visé à l’alinéa 3, le service d’inspection en avise bedoelde centraal telefoonnummer gewijzigd wordt, brengt de inspecimmédiatement les exploitants. tiedienst de exploitanten hiervan onmiddellijk op de hoogte.
-## Art. 7
+#### Art. 7
 
 § 1er. Après identification, l’inspecteur prend connaissance Art. 7. § 1. Na identificatie, krijgt de inspecteur inzage in het B.P.E., du P.S.E., et a accès à toutes les informations et tous les lieux de alsook toegang tot alle informatie en plaatsen van de kritieke infral’infrastructure critique soumis à leur contrôle, nécessaires à la structuur die aan hun controle onderworpen zijn en die noodzakelijk réalisation de sa fonction, conformément à l’article 25, § 1er, de la loi. om zijn functie naar behoren uit te voeren overeenkomstig artikel 25, L’exploitant apporte son entière collaboration à l’inspecteur pour § 1, van de wet. De exploitant verleent zijn volledige medewerking aan informer ce dernier au mieux de toutes les mesures de sécurité de inspecteur om deze zo goed mogelijk te informeren over alle existantes. bestaande beveiligingsmaatregelen.
   L’exploitant met, le cas échéant, à la disposition de l’inspecteur le De exploitant stelt indien nodig het veiligheidsmateriaal ter beschikmatériel de sécurité nécessaire de manière à ce qu’il remplisse les king opdat de inspecteur voldoet aan de veiligheidsvoorschriften die consignes de sécurité qui s’appliquent dans l’infrastructure à contrôler. gelden in de te controleren infrastructuur.
@@ -1550,10 +1554,10 @@ Pour accéder au site à contrôler, l’inspecteur du service Art. 6. Om toegan
 § 1er; termijnen zoals bepaald in artikel 4, § 1;
    4° si l’exploitant dispose d’un point de contact pour la sécurité et si 4° of de exploitant een beveiligingscontactpunt heeft aangesteld en of les données de contact communiquées au service d’inspection sont de aan de inspectiedienst meegedeelde contactgegevens actueel zijn; exactes;
   5° si l’exploitant fait face à ces obligations qui lui sont imposées, le cas 5° of de exploitant elke andere verplichting naleeft die hem, in échéant, en vertu de la loi. voorkomend geval, krachtens de wet wordt opgelegd.
-## Art. 8
+#### Art. 8
 
 Après chaque inspection, le service d’inspection rédige un Art. 8. Na elke inspectie stelt de inspectiedienst een proces-verbaal procès-verbal et transmet une copie du rapport à l’exploitant de op en maakt een kopie van het rapport over aan de exploitant van de l’infrastructure critique inspectée. geïnspecteerde kritieke infrastructuur.
-## Art. 9
+#### Art. 9
 
 Le ministre qui a l’Energie dans ses attributions est chargé de Art. 9. De minister bevoegd voor Energie is belast met de uitvoering l’exécution du présent arrêté. van dit besluit.
   Donné à Bruxelles, le 11 mars 2013. Gegeven te Brussel, 11 maart 2013.
@@ -1654,29 +1658,29 @@ Le ministre qui a l’Energie dans ses attributions est chargé de Art. 9. De mi
   — épinard; — spinazie;
   — céréales de printemps : avoine, froment de printemps ou froment — zomergranen : haver, zomertarwe of wisseltarwe, zomergerst, alternatif, orge de printemps, orge de brasserie, seigle de brouwgerst, zomerrogge. printemps.
 
-## Art. 2
+#### Art. 2
 
 L’étendue géographique de cette calamité couvre : Art. 2. De geografische omvang van deze ramp omvat : — l’entièreté du territoire belge pour ce qui concerne le lin et — het geheel van het Belgische grondgebied voor wat vlas en l’épinard; spinazie betreft;
   — les communes suivantes pour ce qui concerne les céréales de — de volgende gemeenten voor wat de zomergranen betreft : printemps : Bredene, De Haan, Blankenberge, Knokke-Heist, Bredene, De Haan, Blankenberge, Knokke-Heist, Zuienkerke Zuienkerke à l’exception du territoire qui correspond à la région met uitzondering van het grondgebied dat overeenstemt met de agricole ’région sablonneuse’, Damme à l’exception du territoire landbouwstreek ’Vlaamse zandstreek’, Damme met uitzondequi correspond à la région agricole ’région sablonneuse’, Brugge ring van het grondgebied dat overeenstemt met de landbouw- à l’exception du territoire qui correspond à la région agricole streek ’Vlaamse zandstreek’, Brugge met uitzondering van het ’région sablonneuse’, Jabbeke à l’exception du territoire qui grondgebied dat overeenstemt met de landbouwstreek ’Vlaamse correspond à la région agricole ’région sablonneuse’, Oudenburg zandstreek’, Jabbeke met uitzondering van het grondgebied dat à l’exception du territoire qui correspond à la région agricole overeenstemt met de landbouwstreek ’Vlaamse zandstreek’, ’région sablonneuse’. Oudenburg met uitzondering van het grondgebied dat overeenstemt met de landbouwstreek ’Vlaamse zandstreek’.
 
-## Art. 3
+#### Art. 3
 
 Les montants par hectare des dommages pris en considéra- Art. 3. De bedragen per hectare van de in aanmerking genomen tion sont les suivants : schade zijn de volgende : — lin : 1.120 EUR — vlas : 1.120 EUR — épinard : 1.090 EUR — spinazie : 1.090 EUR — céréales de printemps : 690 EUR. — zomergranen : 690 EUR.
   Le ministre ayant l’Agriculture dans ses attributions, détermine les De minister bevoegd voor Landbouw stelt de modaliteiten van de modalités de l’introduction des demandes ainsi que leur mode indiening van de aanvragen vast alsmede de wijze van hun onderzoek. d’examen.
 
-## Art. 4
+#### Art. 4
 
 Pour l’indemnisation, les montants visés à l’article 3 sont Art. 4. Voor de tegemoetkoming worden de bedragen bedoeld in réduits de 50 % si le sinistré n’a pas souscrit une assurance couvrant au artikel 3 verminderd met 50 % als de geteisterde geen verzekering moins 50 % de sa production contre les risques climatiques. afgesloten heeft tegen de klimaatrisico’s voor ten minste 50 % van zijn productie.
 
-## Art. 5
+#### Art. 5
 
 Pour le calcul de l’intervention financière du Fonds national Art. 5. Voor de berekening van de tegemoetkoming van het Natiodes Calamités agricoles, toute association de fait de personnes physi- naal Fonds voor Landbouwrampen wordt elke feitelijke vereniging van ques identifiée sous un même numéro de producteur ou un même natuurlijke personen die onder eenzelfde producentennummer of numéro de T.V.A. est considérée comme un seul exploitant du bien eenzelfde BTW-nummer geïdentificeerd is, beschouwd als één enkele sinistré. uitbater van het geteisterde goed.
 
-## Art. 6
+#### Art. 6
 
 Seuls les dommages constatés en temps utile et supérieurs ou Art. 6. Schadeloosstelling is enkel mogelijk indien de schade tijdig égaux à 30 % donnent droit à une indemnisation. Le pourcentage de werd vastgesteld en het schadepercentage minstens 30 % bedraagt. Het dégâts est calculé par rapport à la superficie totale par culture. schadepercentage wordt berekend op de totale oppervlakte per teelt.
 
-## Art. 7
+#### Art. 7
 
 Le ministre qui a l’Agriculture dans ses attributions est Art. 7. De minister bevoegd voor Landbouw is belast met de chargé de l’exécution du présent arrêté. uitvoering van dit besluit.
   Donné à Bruxelles, le 17 mars 2013. Gegeven te Brussel, 17 maart 2013.
@@ -1698,7 +1702,7 @@ Le ministre qui a l’Agriculture dans ses attributions est Art. 7. De minister 
    Sur la proposition du Ministre de l’Economie, Op de voordracht van de Minister van Economie,
 
     Nous avons arrêté et arrêtons : Hebben Wij besloten en besluiten Wij : Article 1er. L’arrêté royal du 5 février 2001 relatif à l’organisation Artikel 1. Het koninklijk besluit van 5 februari 2001 betreffende een d’une enquête agricole annuelle par sondage, au 15 novembre, sur les jaarlijkse steekproefenquête in de landbouw, op 15 november, over de emblavements des cultures d’hiver et les cheptels bovin et porcin, winterbezaaiingen en de rundvee- en varkensstapel, door het Nationaal effectuée par l’Institut national de Statistique, est abrogé. Instituut voor de Statistiek, wordt opgeheven.
-## Art. 2
+#### Art. 2
 
 Le ministre ayant l’Economie dans ses attributions est chargé Art. 2. De minister bevoegd voor Economie is belast met de de l’exécution du présent arrêté. uitvoering van dit besluit.
   Donné à Bruxelles, le 17 mars 2013. Gegeven te Brussel, 17 maart 2013.
@@ -1767,7 +1771,7 @@ Le ministre ayant l’Economie dans ses attributions est chargé Art. 2. De mini
     Arrête : Besluit : er
   Article 1 . Les demandes de réparation des dégâts aux cultures Artikel 1. De aanvragen voor schadeloosstelling van de schade aan causés par la sécheresse du printemps 2011, considérés comme une de teelten veroorzaakt door de droogte van de lente 2011, die wordt calamité agricole justifiant l’application de l’article 2, § 1er, 2°, de la loi beschouwd als een landbouwramp die de toepassing verantwoordt van du 12 juillet 1976 relative à la réparation de certains dommages causés artikel 2, § 1, 2° van de wet van 12 juli 1976 betreffende het herstel van à des biens privés par des calamités naturelles, sont introduites auprès zekere schade veroorzaakt aan private goederen door natuurrampen, du Gouverneur de Province compétent. worden ingediend bij de bevoegde provinciegouverneur.
 
-## Art. 2
+#### Art. 2
 
 Préalablement à l’introduction de cette demande, le Gouver- Art. 2. Voorafgaand aan de indiening van deze aanvraag, zal de neur de Province compétent expédiera un projet de demande prérempli bevoegde provincie gouverneur een vooraf ingevulde ontwerpaanaux bénéficiaires potentiels connus. En cas d’accord, le projet de vraag versturen naar de gekende potentiële begunstigden, . In geval demande signé est renvoyé dans les 3 mois au Gouverneur de Province van goedkeuring wordt de ondertekende ontwerpaanvraag binnen de compétent précité. En cas de contestation, le projet de demande signé 3 maanden naar de bevoegde provinciegouverneur teruggestuurd. In est renvoyé dans les 3 mois par recommandé et dûment motivé au geval van betwisting wordt de ondertekende aanvraag binnen de gouverneur de province précité. 3 maanden behoorlijk gemotiveerd en aangetekend teruggestuurd naar de gouverneur van de voornoemde provincie.
 
@@ -1803,13 +1807,13 @@ SERVICE PUBLIC FEDERAL DE PROGRAMMATION INTEGRA- PROGRAMMATORISCHE FEDERALE OVER
     Nom projet Bénéficiaire Naam project Begunstigde subside subsidie
  Service de médiation intercultu- S 104.776 Rode Kruis Interculturele bemiddelingsdienst S 104.776 Rode Kruis relle pour les mineurs d’âge voor niet-begeleide minderjarigen afghans (NBM) van Afghaanse origine Etude longitudinale sur le bien- S 44.282,87 Université de Longitudinale opvolging van het S 44.282,87 Universiteit être psycho-social des mineurs Gand psychosociaal welzijn van niet- Gent non-accompagnés. Trajets et bien- begeleide minderjarigen Trajecten être des mineurs non- en welzijn van niet-begeleide minaccompagnés d’origine afghane derjarigen van Afghaanse origine Interprétariat en milieu social dans S 111.373,68 Sétis Bruxel- Tolken in sociaal milieu in opvang- S 111.373,68 Sétis Bruxelles centres d’accueil les structuren les Accompagnement à la mise en S 97.031,96 Mentor Escale Begeleiding tot zelfbestuur van S 97.031,96 Mentor Escale autonomie de jeunes filles et jeu- jonge meisjes en moeders nes mamans MENA et anciennes komende uit opvangstructuren MENA issues prioritairement de van Waals Brabant structures d ’accueil en Brabant wallon
 
-## Art. 2
+#### Art. 2
 
 Les dépenses sont imputables au budget 2013 de l’Agence Art. 2. De uitgaven zijn aanrekenbaar op de 2013 begroting van het Fédérale pour l’accueil des demandeurs d’Asile à l’article budgé- Federaal Agentschap voor de Opvang van Asielzoekers op begrotingstaire 590.01 « Remboursement FER pour partenaires ». artikel 590.01 « Terugbetaling partners ».
-## Art. 3
+#### Art. 3
 
 Une convention conclue entre l’Agence fédérale pour l’accueil Art. 3. Een overeenkomst afgesloten tussen het Federaal Agentdes demandeurs d’Asile et chaque bénéficiaire règle les modalités et la schap voor de Opvang van Asielzoekers en elke begunstigde bepaalt de manière dont l’utilisation, le suivi, le contrôle, les rapports et l’évalua- modaliteiten en de wijze waarop het gebruik, de monitoring, de tion de la subvention sont justifiées. controle, de rapportering en de evaluatie van de subsidie wordt verantwoord.
-## Art. 4
+#### Art. 4
 
 La Secrétaire d’Etat à l’Asile et la Migration, à l’Intégration Art. 4. De Staatssecretaris voor Asiel en Migratie, Maatschappelijke sociale et à la Lutte contre la pauvreté est chargée de l’exécution du Integratie en Armoedebestrijding is belast met de uitvoering van dit présent arrêté. besluit.
   Donné à Bruxelles, le 21 mars 2013. Gegeven te Brussel, 21 maart 2013.
@@ -1836,13 +1840,13 @@ SERVICE PUBLIC FEDERAL DE PROGRAMMATION INTEGRA- PROGRAMMATORISCHE FEDERALE OVER
     Nom projet Bénéficiaire Naam project Begunstigde subside subsidie
  Dispositif travail, équivalence et S 21.400,00 CIRE P ro j e c t werk, diploma- S 21.400,00 CIRE formation gelijkschakeling en opleiding Accompagnement global des réfu- S 378.230,75 Convivium Begeleiding van vluchtelingen in S 378.230,75 Convivium g i é s d a n s l e u r p ro ce s s us hun duurzaam vestigingsproces d’installation durable en Belgique in België Guidance des réfugiés vers S 25.411,89 Convivium Begeleiding van vluchtelingen S 25.411,89 Convivium l’insertion professionnelle naar socioprofessionele inschakeling Accompagnement social et eth- S 86.685,81 Espace28 Sociale en etnopsychologische S 86.685,81 Espace28 nopsycologique des demandeurs begeleiding van asielzoekers en d’asile vluchtelingen Maxi défi, micro réussites! S 157.002,57 Form Anim Maxi uitdaging, micro resultaat S 157.002,57 Form Anim Femmes excisées et réfugiées, ma S 165.000,00 Gams Besneden vrouw en vluchteling - S 165.000,00 Gams façon d’exister mijn bestaan Mise en œuvre du droit com- S 132.921,17 UCL Omzetting van de Europese asiel- S 132.921,17 UCL munautaire de l’asile en Belgique wetgeving naar Belgisch recht Séminaire de formations visant S 107.857,33 UVCW Reeks opleidingen over de bege- S 107.857,33 UVCW l’accompagnement des Mineurs leiding en het bevorderen van de étrangers non accompagnés et leur zelfstandigheid van niet-begeleide mise en autonomie buitenlandse minderjarigen Asile en Communauté germanop- S 125.165,25 Rotes Kreuz Asiel in de Duitstalige Gemeen- S 125.165,25 Rotes Kreuz hone : Intégration des démarches schap : Integratiemaatregelen pour l’intégration des personnes Travail de renforcement de fem- S 65.162,00 Nederlandsta- Empowerend werken met vrou- S 65.162,00 Nederlandstames demandeuses d’asile lige vrouwen- welijke asielzoekers lige vrouwenraad raad Accompagnement intégral des S 714.656,75 CPAS Anvers Integrale begeleiding aan Niet- S 714.656,75 O . C . M . W. mineurs d’âge non accompagnés begeleide Minderjarige Asielzoe- Antwerpen ou accompagnés kers en integrale begeleiding aan begeleide minderjarigen La gare de triage S 45.133,06 CPAS Destel- Het tussenstation S 45.133,06 O . C . M . W. bergen Destelbergen Mind-Spring Vlaanderen S 97.405,04 ODICE Mind-Spring Vlaanderen S 97.405,04 ODICE La construction de compétences S 196.347,84 Vluchtelin- Capaciteitsopbouw in vluchtver- S 196.347,84 Vluchtelindans l’analyse des récits de fuite genwerk VL haalanalyse leidt tot versterkte genwerk VL permet un accompagnement ren- procedurebegeleiding forcé de la procédure
 
-## Art. 2
+#### Art. 2
 
 Les dépenses sont imputables au budget 2013 de l’Agence Art. 2. De uitgaven zijn aanrekenbaar op de 2013 begroting van het fédérale pour l’accueil des demandeurs d’Asile à l’article budgé- Federaal Agentschap voor de opvang van Asielzoekers op begrotingstaire 590.01 « Remboursement FER pour partenaires ». artikel 590.01 « Terugbetaling partners ».
-## Art. 3
+#### Art. 3
 
 Une convention conclue entre l’Agence Fédérale pour l’accueil Art. 3. Een overeenkomst afgesloten tussen het Federaal Agentdes demandeurs d’Asile et chaque bénéficiaire règle les modalités et la schap voor de Opvang van Asielzoekers en elke begunstigde bepaalt de manière dont l’utilisation, le suivi, le contrôle, les rapports et l’évalua- modaliteiten en de wijze waarop het gebruik, de monitoring, de tion de la subvention sont justifiées. controle, de rapportering en de evaluatie van de subsidie wordt verantwoord.
-## Art. 4
+#### Art. 4
 
 La Secrétaire d’Etat à l’Asile et la Migration, à l’Intégration Art. 4. De Staatssecretaris voor Asiel en Migratie, Maatschappelijke sociale et à la Lutte contre la pauvreté est chargée de l’exécution du Integratie en Armoedebestrijding is belast met de uitvoering van dit présent arrêté. besluit.
   Donné à Bruxelles, le 21 mars 2013. Gegeven te Brussel, 21 maart 2013.
@@ -1874,19 +1878,19 @@ La Secrétaire d’Etat à l’Asile et la Migration, à l’Intégration Art. 4
 
   § 3. 25 emplois contractuels à durée indéterminée de collaborateur § 3. 25 contractuele betrekkingen van onbepaalde duur van adminisadministratif ou d’assistant administratif (anciens contractuels besoins tratief medewerker of administratief assistent (gewezen contractuelen exceptionnels et temporaires) sont mis en voie d’extinction. uitzonderlijke en tijdelijke behoeften) worden in uitdoving geplaatst.
 
-## Art. 2
+#### Art. 2
 
 En cas de promotion par avancement barémique, les normes Art. 2. Bij bevordering door verhoging in weddenschaal zullen de de programmation sociale seront respectées. Dans le niveau C, normen van sociale programmatie worden nageleefd. In het niveau C 190 emplois sont prévus dans l’échelle de traitement 22 B. zijn 190 betrekkingen in de weddenschaal 22 B voorzien.
 
-## Art. 3
+#### Art. 3
 
 Le personnel des services centraux, engagé avec un contrat Art. 3. Het personeel van de centrale diensten, in dienst genomen de travail à durée indéterminée en application de l’article 1er, 19°, de met een arbeidsovereenkomst van onbepaalde duur bij toepassing van l’arrêté royal du 1er février 1993 déterminant les tâches auxiliaires ou artikel 1, 19°, van het koninklijk besluit van 1 februari 1993 tot bepaling spécifiques dans les services publics fédéraux, les services publics de van de bijkomende of specifieke opdrachten in de federale overheidsprogrammation et autres services qui en dépendent, ainsi que dans diensten, de programmatorische overheidsdiensten en de diensten die certains organismes d’intérêt public, est repris dans les tableaux sous ervan afhangen, alsook in sommige instellingen van openbaar nut, is in contractuel, en référence à l’article 3. de tabellen opgenomen bij contractueel met de verwijzing naar artikel 3.
 
-## Art. 4
+#### Art. 4
 
 Le personnel engagé pour effectuer des fonctions d’entretien Art. 4. Het personeel in dienst voor onderhoudsfuncties in de dans les bureaux régionaux avec un contrat de travail à durée gewestelijke diensten met een arbeidsovereenkomst van onbepaalde indéterminée, est repris dans les tableaux sous contractuel, en référence duur, is opgenomen in de tabellen bij contractueel met de verwijzing à l’article 4. naar artikel 4.
 
-## Art. 5
+#### Art. 5
 
 § 1er. Dans les limites de l’enveloppe budgétaire, fixée dans le Art. 5. § 1. Binnen de budgettaire enveloppe, vastgelegd in de contrat d’administration, des agents temporairement absents, peuvent bestuursovereenkomst, mogen tijdelijk afwezige personeelsleden wor- être remplacés par des membres du personnel contractuel. den vervangen door contractuele personeelsleden.
 
@@ -1894,11 +1898,11 @@ Le personnel engagé pour effectuer des fonctions d’entretien Art. 4. Het pers
 
   § 3. Dans les limites de l’enveloppe budgétaire, fixée dans le contrat § 3. Binnen de budgettaire enveloppe, vastgelegd in de bestuursoverd’administration, 32 contractuels avec un contrat de premier emploi eenkomst, mogen 32 contractuelen met een startbaanovereenkomst in peuvent être engagés. dienst worden genomen.
 
-## Art. 6
+#### Art. 6
 
 L’arrêté du Comité de gestion du 25 juin 2012 portant fixation Art. 6. Het besluit van het Beheerscomité van 25 juni 2012 tot du plan de personnel 2012 de l’Office national des Pensions est abrogé. vaststelling van het personeelsplan 2012 voor de Rijksdienst voor Pensioenen wordt opgeheven.
 
-## Art. 7
+#### Art. 7
 
 Le présent arrêté entre en vigueur le jour de sa publication au Art. 7. Dit besluit treedt in werking de dag waarop het in het Moniteur Belge. Belgisch Staatsblad wordt bekendgemaakt.
 
@@ -1938,16 +1942,16 @@ Le présent arrêté entre en vigueur le jour de sa publication au Art. 7. Dit b
     3° in het tweede lid, 1° en 2°, wordt de datum « 31 maart 2013 » vervangen door de datum « 31 mei 2013 ».
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20049
 
-## Art. 2
+#### Art. 2
 
 In artikel 19 van bijlage XI bij het besluit van de Vlaamse Regering van 24 juli 2009 betreffende de programmatie, de erkenningsvoorwaarden en de subsidieregeling voor woonzorgvoorzieningen en verenigingen van gebruikers en mantelzorgers, ingevoegd bij het besluit van de Vlaamse Regering van 21 december 2012, wordt de datum « 1 april 2013 » vervangen door de datum « 1 juni 2013 ».
-## Art. 3
+#### Art. 3
 
 In artikel 51 van bijlage XII bij hetzelfde besluit, ingevoegd bij het besluit van de Vlaamse Regering van 21 december 2012, wordt de datum « 1 april 2013 » vervangen door de datum « 1 juni 2013 ».
-## Art. 4
+#### Art. 4
 
 Dit besluit treedt in werking op 1 april 2013.
-## Art. 5
+#### Art. 5
 
 De Vlaamse minister, bevoegd voor de bijstand aan personen, is belast met de uitvoering van dit besluit.
     Brussel, 22 maart 2013.
@@ -1972,16 +1976,16 @@ De Vlaamse minister, bevoegd voor de bijstand aan personen, is belast met de uit
     Sur la proposition du Ministre flamand du Bien-être, de la Santé publique et de la Famille;
     Après délibération,
     Arrête :
-## Art. 2
+#### Art. 2
 
 A l’article 19 de l’annexe XI de l’arrêté du Gouvernement flamand du 24 juillet 2009 relatif à la programmation, aux conditions d’agrément et au régime de subventionnement de structures de services de soins et de logement et d’associations d’usagers et d’intervenants de proximité, inséré par l’arrêté du Gouvernement flamand du 21 décembre 2012, la date « 1er avril 2013 » est remplacée par la date « 1er juin 2013 ».
-## Art. 3
+#### Art. 3
 
 A l’article 51 de l’annexe XII, inséré par l’arrêté du Gouvernement flamand du 21 décembre 2012, la date « 1er avril 2013 » est remplacée par la date « 1er juin 2013 ».
-## Art. 4
+#### Art. 4
 
 Le présent arrêté entre en vigueur le 1er avril 2013.
-## Art. 5
+#### Art. 5
 
 Le Ministre flamand ayant l’assistance aux personnes dans ses attributions est chargé de l’exécution du présent arrêté.
     Bruxelles, le 22 mars 2013.
@@ -2010,7 +2014,7 @@ Le Ministre flamand ayant l’assistance aux personnes dans ses attributions est
     Niveau B 7
     Niveau C 1
 
-## Art. 2
+#### Art. 2
 
 Le cadre organique du personnel du pôle organisationnel de la Banque-Carrefour d’Echange de Données, intégré au service eWBS, est fixé comme suit :
 
@@ -2018,10 +2022,10 @@ Le cadre organique du personnel du pôle organisationnel de la Banque-Carrefour 
     Niveau B 1
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20051
 
-## Art. 3
+#### Art. 3
 
 Le présent arrêté entre en vigueur le 1er avril 2013.
-## Art. 4
+#### Art. 4
 
 Le Ministre en charge de la simplification administrative et de l’administration électronique et le Ministre de la Fonction publique sont chargés, chacun pour ce qui le concerne, de l’exécution du présent arrêté.
     Namur, le 14 mars 2013.
@@ -2063,13 +2067,13 @@ Le Ministre en charge de la simplification administrative et de l’administrati
  Stufe B 7
  Stufe C 1
 
-    Art. 2 - Der Stellenplan des Personals des in den Dienst ″eWBS″ integrierten organisatorischen Pools der ″Banque-Carrefour d’Echange de Données″ setzt sich wie folgt zusammen:
+#### Art. 2 - Der Stellenplan des Personals des in den Dienst ″eWBS″ integrierten organisatorischen Pools der ″Banque-Carrefour d’Echange de Données″ setzt sich wie folgt zusammen:
 
  Stufe A 6
  Stufe B 1
 
-    Art. 3 - Der vorliegende Erlass tritt am 1. April 2013 in Kraft.
-    Art. 4 - Der mit der administrativen Vereinfachung und der elektronischen Verwaltung beauftragte Minister-Präsident und der Minister für den öffentlichen Dienst werden ihrem jeweiligen Zuständigkeitsbereich mit der Durchführung des vorliegenden Erlasses beauftragt.
+#### Art. 3 - Der vorliegende Erlass tritt am 1. April 2013 in Kraft.
+#### Art. 4 - Der mit der administrativen Vereinfachung und der elektronischen Verwaltung beauftragte Minister-Präsident und der Minister für den öffentlichen Dienst werden ihrem jeweiligen Zuständigkeitsbereich mit der Durchführung des vorliegenden Erlasses beauftragt.
     Namur, den 14. März 2013
     Der Minister-Präsident
     R. DEMOTTE
@@ -2097,17 +2101,17 @@ Le Ministre en charge de la simplification administrative et de l’administrati
     Niveau B 7
     Niveau C 1
 
-## Art. 2
+#### Art. 2
 
 De organieke personeelsformatie van het personeel van het organiserende steunpunt van de Kruispuntbank voor de Uitwisseling van Gegevens (BCED) wordt bepaald als volgt :
 
     Niveau A 6
     Niveau B 1
 
-## Art. 3
+#### Art. 3
 
 Dit besluit treedt in werking op 1 april 2013.
-## Art. 4
+#### Art. 4
 
 De Minister belast met de administratieve vereenvoudiging en de elektronische administratie en van de Minister van Ambtenarenzaken zijn belast, ieder wat hem betreft, met de uitvoering van dit besluit.
     Namen, 14 maart 2013.
@@ -2135,10 +2139,10 @@ De Minister belast met de administratieve vereenvoudiging en de elektronische ad
 
     DGT2/DTIC
  Niveau A 3 er
-## Art. 2
+#### Art. 2
 
 Le présent arrêté entre en vigueur le 1 avril 2013.
-## Art. 3
+#### Art. 3
 
 Le Ministre en charge de la simplification administrative et de l’administration électronique et le Ministre de la Fonction publique sont chargés, chacun pour ce qui le concerne, de l’exécution du présent arrêté.
     Namur, le 14 mars 2013.
@@ -2164,8 +2168,8 @@ Le Ministre en charge de la simplification administrative et de l’administrati
 
     DGT2/DTIC
  Stufe A 3
-    Art. 2 - Der vorliegende Erlass tritt am 1. April 2013 in Kraft.
-    Art. 3 - Der mit der administrativen Vereinfachung und der elektronischen Verwaltung beauftragte Minister-Präsident und der Minister für den öffentlichen Dienst werden ihrem jeweiligen Zuständigkeitsbereich mit der Durchführung des vorliegenden Erlasses beauftragt.
+#### Art. 2 - Der vorliegende Erlass tritt am 1. April 2013 in Kraft.
+#### Art. 3 - Der mit der administrativen Vereinfachung und der elektronischen Verwaltung beauftragte Minister-Präsident und der Minister für den öffentlichen Dienst werden ihrem jeweiligen Zuständigkeitsbereich mit der Durchführung des vorliegenden Erlasses beauftragt.
     Namur, den 14. März 2013
     Der Minister-Präsident
     R. DEMOTTE
@@ -2190,10 +2194,10 @@ Le Ministre en charge de la simplification administrative et de l’administrati
 
     DGT2/DTIC
     Niveau A 3
-## Art. 2
+#### Art. 2
 
 Dit besluit treedt in werking op 1 april 2013.
-## Art. 3
+#### Art. 3
 
 De Minister belast met de administratieve vereenvoudiging en de elektronische administratie en van de Minister van Ambtenarenzaken zijn belast, ieder wat hem betreft, met de uitvoering van dit besluit.
 
@@ -2225,10 +2229,10 @@ De Minister belast met de administratieve vereenvoudiging en de elektronische ad
 
     ETNIC
  Classe C+ 3 er
-## Art. 2
+#### Art. 2
 
 Le présent arrêté entre en vigueur le 1 avril 2013.
-## Art. 3
+#### Art. 3
 
 Le Ministre en charge de la simplification administrative et de l’administration électronique et le Ministre de la Fonction publique sont chargés, chacun pour ce qui le concerne, de l’exécution du présent arrêté.
     Namur, le 14 mars 2013.
@@ -2255,8 +2259,8 @@ Le Ministre en charge de la simplification administrative et de l’administrati
     ETNIC
  Klasse C+ 3
 
-    Art. 2 - Der vorliegende Erlass tritt am 1. April 2013 in Kraft.
-    Art. 3 - Der mit der administrativen Vereinfachung und der elektronischen Verwaltung beauftragte Minister-Präsident und der Minister für den öffentlichen Dienst werden ihrem jeweiligen Zuständigkeitsbereich mit der Durchführung des vorliegenden Erlasses beauftragt.
+#### Art. 2 - Der vorliegende Erlass tritt am 1. April 2013 in Kraft.
+#### Art. 3 - Der mit der administrativen Vereinfachung und der elektronischen Verwaltung beauftragte Minister-Präsident und der Minister für den öffentlichen Dienst werden ihrem jeweiligen Zuständigkeitsbereich mit der Durchführung des vorliegenden Erlasses beauftragt.
     Namur, den 14. März 2013
     Der Minister-Präsident
     R. DEMOTTE
@@ -2282,10 +2286,10 @@ Le Ministre en charge de la simplification administrative et de l’administrati
     ETNIC
     Klasse C+ 3
 
-## Art. 2
+#### Art. 2
 
 Dit besluit treedt in werking op 1 april 2013.
-## Art. 3
+#### Art. 3
 
 De Minister belast met de administratieve vereenvoudiging en de elektronische administratie en van de Minister van Ambtenarenzaken zijn belast, ieder wat hem betreft, met de uitvoering van dit besluit.
     Namen, 14 maart 2013.
@@ -2302,15 +2306,15 @@ De Minister belast met de administratieve vereenvoudiging en de elektronische ad
     Le Ministre des Travaux publics, de l’Agriculture, de la Ruralité, de la Nature, de la Forêt et du Patrimoine, Vu la loi du 1er juillet 1954 sur la pêche fluviale, l’article 14;
     Considérant la nécessité d’assurer le bon déroulement des concours de pêche au cours de l’année 2013, dans un but d’utilité régionale et locale, Arrête : Article 1er. Par dérogation aux dispositions de l’article 55 de l’arrêté de l’Exécutif régional wallon du 11 mars 1993 portant exécution de la loi du 1er juillet 1954 sur la pêche fluviale, la capture et la détention de poissons de toutes espèces n’ayant pas les dimensions réglementaires sont autorisées en Région wallonne jusqu’au 31 décembre 2013, uniquement durant le déroulement des concours de pêche publiquement annoncés.
     A cette fin, à la seule exception des concours de pêche à la mouche, les poissons capturés n’ayant pas les dimensions réglementaires seront conservés avec soin dans des bourriches en nylon d’une longueur minimale de 2 mètres placées dans le cours d’eau et seront remis directement et délicatement à l’eau en fin de concours, après comptage et pesage.
-## Art. 2
+#### Art. 2
 
 Les fédérations, groupements et sociétés de pêcheurs feront parvenir au service de la pêche, un mois avant la date de la première compétition, la liste des concours dont question à l’article 1er, organisés par eux.
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20057
 
-## Art. 3
+#### Art. 3
 
 Le service de la pêche est tenu d’informer le directeur du Centre de la Division de la Nature et des Forêts sur les concours susvisés organisés dans sa Direction.
-## Art. 4
+#### Art. 4
 
 Le présent arrêté entre en vigueur le jour de sa publication au Moniteur belge.
     Namur, le 5 mars 2013.
@@ -2330,9 +2334,9 @@ Le présent arrêté entre en vigueur le jour de sa publication au Moniteur belg
     In Erwägung der Notwendigkeit, den reibungslosen Ablauf der Fischwettbewerbe im Laufe des Jahres 2013 zu gewährleisten, zwecks deren regionalen oder örtlichen Nützlichkeit, Beschließt:
     Artikel 1 - In Abweichung von den Bestimmungen von Artikel 55 des Erlasses der Wallonischen Regionalexekutive vom 11. März 1993 zur Ausführung des Gesetzes vom 1. Juli 1954 betreffend die Flussfischerei ist in der Wallonischen Region der Fang und die Aufbewahrung von Fischen aller Arten, die der vorgeschriebenen Größe nicht entsprechen, bis zum 31. Dezember 2013 nur während der Dauer der öffentlich angekündigten Fischwettbewerbe erlaubt.
     Zu diesem Zweck werden die gefangenen Fische, mit der einzigen Ausnahme der Wettbewerbe im Fliegenfischen, die der vorgeschriebenen Größe nicht entsprechen, in Setzkeschern aus Nylon, die eine Mindestlänge von 2 Metern haben und sich im Wasserlauf befinden, sorgfältig aufbewahrt und unmittelbar nach Ablauf des Wettbewerbs, nach Zählung und Abwiegen, behutsam wieder freigelassen.
-    Art. 2 - Einen Monat vor dem Tag des ersten Wettbewerbs übermitteln die Fischerverbände, -gruppen und -vereine dem Fischereidienst eine Liste der von ihnen organisierten Wettbewerbe, von denen in Artikel 1 die Rede ist.
-    Art. 3 - Der Fischereidienst ist verpflichtet, den Direktor des Zentrums der Abteilung Natur und Forstwesen über die oben erwähnten, auf dem Gebiet seiner Direktion organisierten Wettbewerbe zu informieren.
-    Art. 4 - Der vorliegende Erlass tritt am Tag seiner Veröffentlichung im Belgischen Staatsblatt in Kraft.
+#### Art. 2 - Einen Monat vor dem Tag des ersten Wettbewerbs übermitteln die Fischerverbände, -gruppen und -vereine dem Fischereidienst eine Liste der von ihnen organisierten Wettbewerbe, von denen in Artikel 1 die Rede ist.
+#### Art. 3 - Der Fischereidienst ist verpflichtet, den Direktor des Zentrums der Abteilung Natur und Forstwesen über die oben erwähnten, auf dem Gebiet seiner Direktion organisierten Wettbewerbe zu informieren.
+#### Art. 4 - Der vorliegende Erlass tritt am Tag seiner Veröffentlichung im Belgischen Staatsblatt in Kraft.
     Namur, den 5. März 2013
     C. DI ANTONIO
 
@@ -2350,13 +2354,13 @@ Le présent arrêté entre en vigueur le jour de sa publication au Moniteur belg
     Met uitzondering van vliegviswedstrijden, worden de gevangen vissen die de reglementaire afmetingen niet hebben zorgvuldig bewaard in nylonleefnetten van minstens twee meter lang die in de waterloop geplaatst worden, en na telling en weging onmiddellijk voorzichtig weer in het water gelegd na afloop van de viswedstrijd.
 20058 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD
 
-## Art. 2
+#### Art. 2
 
 De vissersfederaties, -verenigingen en -maatschappijen maken de lijst van de door hen georganiseerde wedstrijden bedoeld in artikel 1 binnen een maand vóór de datum van de eerste wedstrijd aan de visserijdienst over.
-## Art. 3
+#### Art. 3
 
 De visserijdienst geeft het Centrum van de Afdeling Natuur en Bossen kennis van bovenvermelde wedstrijden die binnen zijn Directie worden georganiseerd.
-## Art. 4
+#### Art. 4
 
 Dit besluit treedt in werking de dag waarop het in het Belgisch Staatsblad wordt bekendgemaakt.
     Namen, 5 maart 2013.
@@ -2438,13 +2442,13 @@ Dit besluit treedt in werking de dag waarop het in het Belgisch Staatsblad wordt
     6. Gruppendiskussion,
     7. Fallstudie.
     Bei der Durchführung der Übungen kann sich die in Artikel 19 desselben Dekrets angeführte Kommission durch externe Berater unterstützen lassen.
-    Art. 2 - Die Mitglieder der Kommission prüfen die Eignung der Teilnehmer im Hinblick auf die in Anhang 1 angeführten Anforderungsdimensionen und anhand des in Anhang 2 angeführten Bewertungsrasters.
+#### Art. 2 - Die Mitglieder der Kommission prüfen die Eignung der Teilnehmer im Hinblick auf die in Anhang 1 angeführten Anforderungsdimensionen und anhand des in Anhang 2 angeführten Bewertungsrasters.
     Die Mitglieder der Kommission wechseln sich in einem roulierenden System ab, so dass jedes Mitglied jeden Teilnehmer bewertet. Die abschließende Gesamtbewertung wird von allen Mitgliedern der Kommission im Konsens festgelegt.
-    Art. 3 - Die Teilnehmer haben das Eignungsfeststellungsverfahren bestanden, wenn die abschließende Gesamtbewertung allen Mindestanforderungen für das Amt, für das sie sich beworben haben, entspricht.
+#### Art. 3 - Die Teilnehmer haben das Eignungsfeststellungsverfahren bestanden, wenn die abschließende Gesamtbewertung allen Mindestanforderungen für das Amt, für das sie sich beworben haben, entspricht.
     Die Mindestanforderungen für das Amt des Schulinspektors sind im Anhang 3 festgelegten Anforderungsprofil durch ein ✖ gekennzeichnet.
     Die Mindestanforderungen für das Amt des Schulentwicklungsberaters sind im Anhang 4 festgelegten Anforderungsprofil durch ein ✖ gekennzeichnet.
-    Art. 4 - Vorliegender Erlass tritt am Tag seiner Verabschiedung in Kraft.
-    Art. 5 - Der für das Unterrichtswesen zuständige Minister ist mit der Durchführung des vorliegenden Erlasses beauftragt.
+#### Art. 4 - Vorliegender Erlass tritt am Tag seiner Verabschiedung in Kraft.
+#### Art. 5 - Der für das Unterrichtswesen zuständige Minister ist mit der Durchführung des vorliegenden Erlasses beauftragt.
     Eupen, den 14. März 2013
     Für die Regierung der Deutschsprachigen Gemeinschaft
     Der Ministerpräsident
@@ -2652,10 +2656,10 @@ Konfliktmanagement ✖
     6o discussion de groupe;
     7o étude de cas.
     Les membres de la commission interviennent à tour de rôle de sorte que chacun évalue chaque participant.
-## Art. 4
+#### Art. 4
 
 Le présent arrêté entre en vigueur le jour de son adoption.
-## Art. 5
+#### Art. 5
 
 Le Ministre compétent en matière d’Enseignement est chargé de l’exécution du présent arrêté.
     Eupen, le 14 mars 2013.
@@ -2839,22 +2843,22 @@ Non observable Souvent observable Très souvent observable observable observable
     6° groepsdiscussie;
     7° gevalstudie.
     Voor de oefeningen kan de commissie vermeld in artikel 19 van hetzelfde decreet zich laten bijstaan door externe adviseurs.
-## Art. 2
+#### Art. 2
 
 De leden van de commissie toetsen de geschiktheid van de deelnemers in het licht van de in bijlage 1 vermelde vereisten aan de hand van het in bijlage 2 vermelde evaluatierooster.
     De leden van de commissie wisselen elkaar af in een roulerend systeem, zodat elk lid elke deelnemer evalueert.
     De afsluitende eindevaluatie wordt door alle leden van de commissie per consensus vastgesteld.
-## Art. 3
+#### Art. 3
 
 De deelnemers zijn geslaagd indien de afsluitende eindevaluatie overeenstemt met alle minimumeisen voor het ambt waarnaar ze hebben gesolliciteerd.
     De minimumeisen voor het ambt van onderwijsinspecteur zijn aangekruisd in het profiel vastgelegd in bijlage 3.
     De minimumeisen voor het ambt van adviseur voor schoolontwikkeling zijn aangekruisd in het profiel vastgelegd in bijlage 4.
 20070 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD
 
-## Art. 4
+#### Art. 4
 
 Dit besluit treedt in werking de dag waarop het wordt aangenomen.
-## Art. 5
+#### Art. 5
 
 De Minister bevoegd voor Onderwijs is belast met de uitvoering van dit besluit.
     Eupen, 14 maart 2013.
@@ -3049,11 +3053,11 @@ Conflictmanagement ✖
 
     Nous avons arrêté et arrêtons : Hebben Wij besloten en besluiten Wij : er er Article 1 . Dans l’article 1 de l’arrêté royal du 4 mai 2012 portant Artikel 1. In artikel 1 van het koninklijk besluit van 4 mei 2012 tot désignation de membres du comité de gestion du Centre de presse aanduiding van leden van het Beheerscomité van het Internationaal international, le 2o est remplacé par ce qui suit : Perscentrum, wordt de bepaling onder 2o vervangen als volgt : « 2o comme représentant du Vice-Premier Ministre et Ministre de « 2o als vertegenwoordiger van de Vice-Eerste Minister en Minister la Défense : van Landsverdediging : M. K. VERWILLIGEN; ». de heer K. VERWILLIGEN; ».
 
-## Art. 2
+#### Art. 2
 
 Dans l’article 2 du même arrêté, modifié par l’arrêté royal du Art. 2. In artikel 2 van hetzelfde besluit, gewijzigd bij het koninklijk 5 novembre 2012, le 2o est remplacé par ce qui suit : besluit van 5 november 2012, wordt de bepaling onder 2o vervangen als volgt : « 2o comme représentant du Vice-Premier Ministre et Ministre de « 2o als vertegenwoordiger van de Vice-Eerste Minister en Minister la Défense : van Landsverdediging : M. D. DEWEERDT; ». de heer D. DEWEERDT; ».
 
-## Art. 3
+#### Art. 3
 
 Le Premier Ministre est chargé de l’exécution du présent Art. 3. De Eerste Minister is belast met de uitvoering van dit besluit. arrêté.
   Donné à Bruxelles, le 22 mars 2013. Gegeven te Brussel, 22 maart 2013.
@@ -3362,7 +3366,7 @@ Conseil d’Etat, section du contentieux administratif (adresse : rue de la Het 
 
     15o als vertegenwoordiger van Bodemkundige Dienst van België VZW : Mevr. Annemie Elsen.
 
-## Art. 2
+#### Art. 2
 
 In uitvoering van artikel 6, § 1, tweede lid, van het besluit van de Vlaamse Regering van 23 december 2011 betreffende de toekenning van een subsidie aan Bodemkundige Dienst van België VZW, worden de volgende personen benoemd tot plaatsvervangende leden van de stuurgroep, vermeld in artikel 6, § 1, van voormeld besluit :
 
@@ -3412,7 +3416,7 @@ In uitvoering van artikel 6, § 1, tweede lid, van het besluit van de Vlaamse Re
 12 MAART 2013. — Ministerieel besluit betreffende de aanstelling van gewestelijke toezichthouders overeenkomstig artikel 12, 6° tot en met 8°, van het besluit van de Vlaamse Regering van 12 december 2008 tot uitvoering van titel XVI van het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid De Vlaamse minister van Leefmilieu, Natuur en Cultuur, Gelet op het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid, artikel 16.3.1, § 1, 1o, gewijzigd bij het decreet van 23 december 2010;
     Gelet op het besluit van de Vlaamse Regering van 12 december 2008 tot uitvoering van titel XVI van het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid, artikel 12, gewijzigd bij de besluiten van de Vlaamse Regering van 30 april 2009, 19 november 2010 en 17 februari 2012;
     Gelet op het ministerieel besluit van 26 januari 2011 betreffende de aanstelling van gewestelijke toezichthouders overeenkomstig artikel 12, 6o tot en met 8o, van het besluit van de Vlaamse Regering van 12 december 2008 tot uitvoering van titel XVI van het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid, Besluit :
-#### HOOFDSTUK 1. — De personeelsleden van de afdeling, bevoegd voor het duurzaam beheer van materiaalkringlopen en afvalstoffen
+### HOOFDSTUK 1. — De personeelsleden van de afdeling, bevoegd voor het duurzaam beheer van materiaalkringlopen en afvalstoffen
     Artikel 1. De volgende personeelsleden, vermeld in artikel 12, 6o, van het besluit van de Vlaamse Regering van 12 december 2008 tot uitvoering van titel XVI van het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid, worden aangesteld als gewestelijke toezichthouder : Erwin Appeltans;
     Johan Benaets;
     Roeland Bracke;
@@ -3461,9 +3465,9 @@ In uitvoering van artikel 6, § 1, tweede lid, van het besluit van de Vlaamse Re
     Rafaël Verlinden;
     Jozef Vervoort;
     Walter Werquin.
-#### HOOFDSTUK 2. — De personeelsleden van de afdeling, bevoegd voor het bodembeheer
+### HOOFDSTUK 2. — De personeelsleden van de afdeling, bevoegd voor het bodembeheer
 
-## Art. 2
+#### Art. 2
 
 De volgende personeelsleden, vermeld in artikel 12, 7o, van het besluit van de Vlaamse Regering van 12 december 2008 tot uitvoering van titel XVI van het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid, worden aangesteld als gewestelijke toezichthouder : Bruno Billiaert;
     Tommy Bogaert;
@@ -3505,8 +3509,8 @@ De volgende personeelsleden, vermeld in artikel 12, 7o, van het besluit van de V
     Els Wuyts.
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20085
 
-#### HOOFDSTUK 3. — De personeelsleden van de afdeling, bevoegd voor interventie, verwijdering en sanering
-## Art. 3
+### HOOFDSTUK 3. — De personeelsleden van de afdeling, bevoegd voor interventie, verwijdering en sanering
+#### Art. 3
 
 De volgende personeelsleden, vermeld in artikel 12, 8o, van het besluit van de Vlaamse Regering van 12 december 2008 tot uitvoering van titel XVI van het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid, worden aangesteld als gewestelijke toezichthouder : Tim Caers;
     Patriek Casier;
@@ -3536,11 +3540,11 @@ De volgende personeelsleden, vermeld in artikel 12, 8o, van het besluit van de V
     Anke Van Noyen;
     Christine Van Tricht;
     Astrid Verheyen.
-#### HOOFDSTUK 4. — Slotbepalingen
-## Art. 4
+### HOOFDSTUK 4. — Slotbepalingen
+#### Art. 4
 
 Het ministerieel besluit van 26 januari 2011 betreffende de aanstelling van gewestelijke toezichthouders overeenkomstig artikel 12, 6o tot en met 8o, van het besluit van de Vlaamse Regering van 12 december 2008 tot uitvoering van titel XVI van het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid wordt opgeheven.
-## Art. 5
+#### Art. 5
 
 Dit besluit treedt in werking op de dag van de bekendmaking ervan in het Belgisch Staatsblad.
     Brussel, 12 maart 2013.
@@ -3608,7 +3612,7 @@ Dit besluit treedt in werking op de dag van de bekendmaking ervan in het Belgisc
     6° nieuwe installaties voor de verbranding van vloeibare biomassa met een maximaal vermogen tot en met 20 MWe en met een startdatum vanaf de inwerkingtreding van dit besluit : de bandingfactor bedraagt 1;
     7° nieuwe installaties voor de verbranding van biomassa-afval met een maximaal vermogen tot en met 20 MWe en met een startdatum vanaf de inwerkingtreding van dit besluit : de bandingfactor bedraagt 0,829;
     8° nieuwe installaties voor de verbranding van huishoudelijk of bedrijfsafval met een maximaal vermogen tot en met 20 Mwe en met een startdatum vanaf de inwerkingtreding van dit besluit : de bandingfactor bedraagt 0.
-## Art. 2
+#### Art. 2
 
 Voor WKK-projecten wordt de bandingfactor, door het Vlaams Energieagentschap in haar rapporten van 8 januari 2013 en 15 maart 2013 voorgesteld ter uitvoering van het bepaalde in artikel 6.2/1.5, § 2, derde lid van het Energiebesluit, per categorie vastgesteld als volgt :
     1° kwalitatieve warmte-krachtinstallaties, voor zover ze niet behoren tot 5°, met een bruto nominaal vermogen tot en met 10 kWe :
@@ -3671,10 +3675,10 @@ Voor WKK-projecten wordt de bandingfactor, door het Vlaams Energieagentschap in 
     c) beide :
     1. nieuwe installaties met een startdatum vanaf de inwerkingtreding van dit besluit : de bandingfactor bedraagt 1;
     2. ingrijpende wijzigingen met een startdatum vanaf de inwerkingtreding van dit besluit : de bandingfactor bedraagt 0,823.
-## Art. 3
+#### Art. 3
 
 Het ministerieel besluit van 18 januari 2013 houdende vastlegging van de bandingfactoren van groenestroomcertificaten en warmtekrachtcertificaten voor 2013 wordt opgeheven.
-## Art. 4
+#### Art. 4
 
 Dit besluit treedt in werking op de dag van de bekendmaking ervan in het Belgisch Staatsblad.
     Brussel, 22 maart 2013.
@@ -3699,7 +3703,7 @@ Dit besluit treedt in werking op de dag van de bekendmaking ervan in het Belgisc
     Overwegende dat een verlenging van deze periode tot en met 15 april 2013 dan ook dienstig is;
     Overwegende dat, aangezien de periode waarin het sowieso voor de netbeheerder verboden is af te sluiten eindigt op 31 maart, een dergelijke verlenging dan ook bij hoogdringendheid dient te worden doorgevoerd, Besluit :
     Artikel 1. De periode waarin gedurende de winter 2012-2013 voor een huishoudelijke afnemer de toevoer van elektriciteit of aardgas niet mag worden afgesloten wordt verlengd tot en met 15 april 2013.
-## Art. 2
+#### Art. 2
 
 Dit besluit heeft uitwerking vanaf 1 april 2013.
     Brussel, 26 maart 2013.
@@ -3855,7 +3859,7 @@ Direction générale opérationnelle Agriculture, Ressources naturelles et Envir
     Décide : er
     Article 1 . L’autorisation de transfert, BE 0003001000, de la Région wallonne vers l’Allemagne, des déchets visés à l’article 2 est accordée.
 
-## Art. 2
+#### Art. 2
 
 Les déchets visés respectent les caractéristiques suivantes :
 
@@ -3900,7 +3904,7 @@ Nature des déchets : Déchets de bois (type A et B) provenant de centres de col
 
     Article 1er. L’autorisation de transfert, DE 4178000034, de l’Allemagne vers la Région wallonne, des déchets visés à l’article 2 est accordée.
 
-## Art. 2
+#### Art. 2
 
 Les déchets visés respectent les caractéristiques suivantes :
 
@@ -3952,7 +3956,7 @@ Direction générale opérationnelle Agriculture, Ressources naturelles et Envir
 
     Article 1er. L’autorisation de transfert, NL 212445, des Pays-Bas vers la Région wallonne, des déchets visés à l’article 2 est accordée.
 
-## Art. 2
+#### Art. 2
 
 Les déchets visés respectent les caractéristiques suivantes :
 
@@ -3999,10 +4003,10 @@ Nature des déchets : Résidu sec, contenant des chlorures et des métaux, prove
    Article 1er. Mme Lynn Therry est désigné comme membre sup- Artikel 1. Mevr. Lynn Therry wordt aangewezen als plaatsvervanpléant de la Commission régionale d’accès aux documents administra- gend lid van de Gewestelijke Commissie voor de toegang tot de tifs de la Région de Bruxelles-Capitale, en remplacement du monsieur bestuursdocumenten van het Brussels Hoofdstedelijk Gewest, ter Monica de Jonghe, démissionnaire. vervanging van Mevr. Monica de Jonghe, ontslagnemend.
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20097
 
-## Art. 2
+#### Art. 2
 
 Le présent arrêté entre en vigueur le jour de sa publication au Art. 2. Dit besluit treedt in werking de dag waarop het in het Moniteur Belge. Belgisch Staatsblad wordt bekendgemaakt.
-## Art. 3
+#### Art. 3
 
 Le Ministre de la Fonction publique est chargé de l’exécution Art. 3. De Minister van Openbaar Ambt is belast met de uitvoering du présent arrêté. van dit besluit.
   Bruxelles, le 15 mars 2013. Brussel, 15 maart 2013.
@@ -4027,11 +4031,11 @@ Le Ministre de la Fonction publique est chargé de l’exécution Art. 3. De Min
 
    Article 1er. M. Steven Lierman, est désigné comme membre sup- Artikel 1. De heer Steven Lierman wordt aangewezen als plaatsverpléant de la Commission régionale d’accès aux documents administra- vangend lid van de Gewestelijke Commissie voor de toegang tot de tifs de la Région de Bruxelles-Capitale, en remplacement du M. Raf van bestuursdocumenten van het Brussels Hoofdstedelijk Gewest, ter Ransbeek, démissionnaire. vervanging van de heer Raf Van Ransbeek, ontslagnemend.
 
-## Art. 2
+#### Art. 2
 
 Le présent arrêté entre en vigueur le jour de sa publication au Art. 2. Dit besluit treedt in werking de dag waarop het in het Moniteur belge. Belgisch Staatsblad wordt bekendgemaakt.
 
-## Art. 3
+#### Art. 3
 
 Le Ministre de la Fonction publique est chargé de l’exécution Art. 3. De Minister van Openbaar Ambt is belast met de uitvoering du présent arrêté. van dit besluit.
 
@@ -5509,7 +5513,7 @@ Vous pouvez toujours recommencer à effectuer des versements anticipés en repre
     Wanneer een gemeenschappelijke aanslag wordt gevestigd, worden de vermeerdering ingeval geen of ontoereikende voorafbetalingen zijn gedaan en de bonificatie voor voorafbetaling van de belasting, bij elke ″echtgenoot″ (gehuwde of wettelijk samenwonende) berekend op grond van zijn eigen inkomsten en rekening houdend met de op zijn eigen naam gedane voorafbetalingen (voor de toepassing van die bepaling wordt het deel van de beroepsinkomsten dat wordt toegerekend aan de echtgenoot van wie de beroepsinkomsten minder bedragen dan 30 % van het totale bedrag van de beroepsinkomsten van beide echtgenoten - zie Deel V, Hoofdstuk 1, I, C, 1, eerste lid - aangemerkt als een eigen inkomen van de echtgenoot die het toerekent en niet van de echtgenoot aan wie het wordt toegerekend).
     Artikel 157 van het Wetboek van de inkomstenbelastingen 1992 bepaalt evenwel dat wanneer een echtgenoot, die een deel van zijn winst of zijn baten aan de meewerkende echtgenoot toekent met toepassing van artikel 86 van hetzelfde Wetboek, meer voorafbetalingen heeft gedaan dan die welke nodig zijn om bij hem de vermeerdering van de belasting te vermijden, het overschot wordt aangewend om de vermeerdering te vermijden bij de meewerkende echtgenoot.
 ## DEEL I. — VOORAFBETALINGEN OM EEN VERMEERDERING TE VERMIJDEN
-#### HOOFDSTUK 1. — Wie is onderworpen aan de belastingvermeerdering ?
+### HOOFDSTUK 1. — Wie is onderworpen aan de belastingvermeerdering ?
     I. ALGEMEEN
     Het betreft :
     a) natuurlijke personen, rijksinwoners en niet-inwoners, die gezamenlijk belastbare beroepsinkomsten verkrijgen uit een werkzaamheid als : — bedrijfsleider;
@@ -5525,7 +5529,7 @@ Vous pouvez toujours recommencer à effectuer des versements anticipés en repre
     De vennootschappen, die op grond van artikel 15 van het Wetboek van vennootschappen als kleine vennootschap worden aangemerkt, zijn geen vermeerdering verschuldigd op de belasting die betrekking heeft op de eerste drie boekjaren vanaf hun oprichting (art. 218, § 2, WIB 92).
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20147
 
-#### HOOFDSTUK 2. — Waaruit bestaat de belastingvermeerdering ?
+### HOOFDSTUK 2. — Waaruit bestaat de belastingvermeerdering ?
     I. GRONDBEGINSELEN
     Het gedeelte van de belasting dat betrekking heeft op de sub II hierna bedoelde belastbare inkomsten wordt in principe met een bepaald percentage vermeerderd.
     II. VOOR VERMEERDERING VATBARE INKOMSTEN
@@ -5563,7 +5567,7 @@ Vous pouvez toujours recommencer à effectuer des versements anticipés en repre
     — Bedrag van de Ven.B (met inbegrip van de aanvullende crisisbijdrage) vóór verrekening van voorheffingen : 48.319,88 EUR.
     — Bedrag van de Ven.B na verrekening van 12.000,00 EUR voorheffingen : 36.319,88 EUR.
     — In principe verschuldigde globale vermeerdering : 36.319,88 EUR x 2,25 % = 817,20 EUR.
-#### HOOFDSTUK 3. — Hoe vermeerdering vermijden ?
+### HOOFDSTUK 3. — Hoe vermeerdering vermijden ?
     I. PRINCIPE
     Om belastingvermeerdering te vermijden moeten de betrokken belastingplichtigen de belasting voorafbetalen die betrekking heeft op de inkomsten die vatbaar zijn voor vermeerdering.
 20148 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD
@@ -5588,7 +5592,7 @@ Vous pouvez toujours recommencer à effectuer des versements anticipés en repre
     — voor het derde kwartaal : uiterlijk op 10 oktober 2013;
     — voor het vierde kwartaal : uiterlijk op 20 december 2013.
     Verkort worden deze vier stortingen respectievelijk aangeduid als VA 1, VA 2, VA 3 en VA 4.
-#### HOOFDSTUK 4. — Berekening van de vermeerdering in geval van ontoereikende voorafbetalingen I. ALGEMEEN De in principe verschuldigde globale vermeerdering wordt in dit geval verminderd met het totale bedrag van de voordelen verbonden aan de gedane voorafbetalingen.
+### HOOFDSTUK 4. — Berekening van de vermeerdering in geval van ontoereikende voorafbetalingen I. ALGEMEEN De in principe verschuldigde globale vermeerdering wordt in dit geval verminderd met het totale bedrag van de voordelen verbonden aan de gedane voorafbetalingen.
     Wat de natuurlijke personen betreft, wordt het saldo echter slechts voor 90 % in aanmerking genomen.
     II. VASTSTELLING VAN DE VOORDELEN VERBONDEN AAN DE VOORAFBETALINGEN
     Voor aanslagjaar 2014 is het bedrag van die voordelen gelijk aan de som van de volgende producten :
@@ -5713,14 +5717,14 @@ Voorbeeld 4
     - 2.350,00 EUR
     — Werkelijk verschuldigde vermeerdering : 2.126,15 EUR
 
-#### HOOFDSTUK 5. — Bestemming van het teveel aan voorafbetalingen
+### HOOFDSTUK 5. — Bestemming van het teveel aan voorafbetalingen
     Voor zelfstandigen kan het gedeelte van de voorafbetalingen dat niet nodig is om belastingvermeerdering te vermijden, bij de belastingplichtige zelf en, in voorkomend geval, bij de meewerkende echtgenoot aan wie een deel van de winst of van de baten wordt toegekend met toepassing van artikel 86 van het Wetboek van de inkomstenbelastingen 1992, aanleiding geven tot een bonificatie (zie Deel II). De oudste stortingen worden bij voorrang aangewend om vermeerdering te vermijden.
     In ieder geval wordt, voor alle belastingplichtigen, het overschot van de voorafbetalingen dat niet op de belasting is aangerekend, terugbetaald.
 ## DEEL II. — VOORAFBETALINGEN DIE RECHT GEVEN OP EEN BONIFICATIE
-#### HOOFDSTUK 1. — Wie kan een bonificatie genieten ?
+### HOOFDSTUK 1. — Wie kan een bonificatie genieten ?
     Een bonificatie kan worden verleend aan alle natuurlijke personen die, na aftrek van de voorheffingen en andere verrekenbare bestanddelen, nog belasting op hun inkomsten verschuldigd zijn.
     Opgemerkt wordt dat beginnende zelfstandigen die niet aan de in Deel I bedoelde belastingvermeerdering onderworpen zijn (zie Hoofdstuk 1, II, eerste lid), eveneens die bonificatie kunnen genieten.
-#### HOOFDSTUK 2. — Waaruit bestaat de bonificatie ?
+### HOOFDSTUK 2. — Waaruit bestaat de bonificatie ?
     I. REGEL
     Een belastingvermindering of bonificatie wordt verleend aan de natuurlijke personen die de tot 106 % verhoogde belasting, verminderd met de voorheffingen, de andere verrekenbare bestanddelen en de voorafbetalingen die nodig zijn om de in Deel I bedoelde belastingvermeerdering te vermijden, bij wijze van voorafbetaling voldoen.
     Indien hun belastbare inkomsten, inkomsten met vermeerdering omvatten, worden de voorafbetalingen (te beginnen met de oudste) bij voorrang aangewend om die vermeerdering te vermijden; slechts het saldo kan in aanmerking genomen worden voor het verlenen van een eventuele bonificatie.
@@ -5736,7 +5740,7 @@ Voorbeeld 4
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20151
 
     Deze vier stortingen worden verder respectievelijk als VA 1, VA 2, VA 3 en VA 4 aangeduid.
-#### HOOFDSTUK 3. — Berekening van de bonificatie
+### HOOFDSTUK 3. — Berekening van de bonificatie
     I. PRINCIPE
     Het bedrag van de bonificatie is voor aanslagjaar 2014 gelijk aan de som van de volgende producten :
     a) bedrag van VA 1 x 1,5 %;
@@ -5835,7 +5839,7 @@ Voorbeeld 4
     Gemeentebelasting : 12.400,00 EUR x 7 % = 868,00 EUR
     Te betalen belasting : 4.248,87 EUR
 ## DEEL III. — PROCEDURE
-#### HOOFDSTUK 1. — Wijze van voorafbetalen
+### HOOFDSTUK 1. — Wijze van voorafbetalen
     I. REKENINGNUMMERS EN TERMIJNEN
     De voorafbetalingen moeten voor elke vervaldatum worden gedaan door storting of overschrijving op één van de volgende rekeningnummers van de ″Dienst der Voorafbetalingen″ (4) : voor de vennootschappen en de intercommunales : op rekening : IBAN : BE20 6792 0023 3056 en BIC : PCHQ BEBB van de ″DIENST VOORAFBETALINGEN - VENNOOTSCHAPPEN″, voor de natuurlijke personen : op rekening : IBAN : BE07 6792 0023 4066 en BIC : PCHQ BEBB van de ″DIENST VOORAFBETALINGEN - NATUURLIJKE PERSONEN″.
     Daar er steeds een paar werkdagen kunnen verlopen tussen de betalingsopdracht en de uitvoering ervan, is het aanbevolen niet te wachten tot de vervaldag om de betaling te verrichten.
@@ -5871,7 +5875,7 @@ U kan steeds de voorafbetaling hervatten met dezelfde gestructureerde mededeling
     Belangrijke opmerkingen
     1. Wat betreft de particulieren (gehuwden of wettelijke samenwonenden) voor wie een gemeenschappelijke aanslag zal gevestigd worden, moet elke ″echtgenoot″ voor eigen rekening de nodige voorafbetalingen storten die hij nodig acht, om de belastingvermeerdering te vermijden of om van de overeenkomstige bonificatie te kunnen genieten (zie bladzijde 1, gemeenschappelijke aanslag op naam van beide echtgenoten).
     2. De belastingschuldige die een aanslagbiljet ontvangt dat een fiscale terugbetaling aankondigt, kan deze terugbetaling in aanmerking doen nemen als voorafbetaling voor het volgende belastbare tijdperk. Daartoe dient hij, per brief, een verzoek te richten aan de Dienst der Voorafbetalingen (5). Het verzoek moet worden gedaan vóór de daadwerkelijke vereffening van de terugbetaling. De Dienst der Voorafbetalingen zal de belastingschuldige inlichten over het gevolg dat aan zijn verzoek wordt gegeven en over de te volgen praktische werkwijze.
-#### HOOFDSTUK 2. — Wijziging van de oorspronkelijke bestemming der voorafbetalingen I. AARD VAN DE WIJZIGINGEN DIE KUNNEN WORDEN AANGEBRACHT
+### HOOFDSTUK 2. — Wijziging van de oorspronkelijke bestemming der voorafbetalingen I. AARD VAN DE WIJZIGINGEN DIE KUNNEN WORDEN AANGEBRACHT
     1° Derden kunnen om rechtzetting verzoeken, zo nodig door terugbetaling, van de materiële vergissingen die begaan zijn bij het uitvoeren van stortingen of overschrijvingen voor rekening van de belastingplichtige.
     2° De belastingplichtigen op wiens naam de voorafbetalingen worden geboekt, kunnen vragen dat de gestorte bedragen, geheel of ten dele, worden : — terugbetaald;
     — overgeschreven op de postrekening van een ontvangkantoor der belastingen;
@@ -5888,17 +5892,17 @@ U kan steeds de voorafbetaling hervatten met dezelfde gestructureerde mededeling
     III. TERMIJN WAARBINNEN DERDEN RECHTZETTING VAN MATERIELE VERGISSINGEN KUNNEN VRAGEN De aanvraag om rechtzetting moet uiterlijk op de laatste dag van de tweede maand die volgt op het belastbare tijdperk waarop de stortingen of de overschrijvingen betrekking hebben bij de ″Dienst der Voorafbetalingen″ toekomen.
     IV. TERMIJN WAARBINNEN DE BELASTINGPLICHTIGEN TERUGBETALING, OVERSCHRIJVING OF OVERDRACHT KUNNEN VRAGEN De aanvraag om terugbetaling, overschrijving of overdracht moet uiterlijk op de laatste dag van de tweede maand die volgt op het belastbare tijdperk waarop de voorafbetalingen betrekking hebben op de ″Dienst der Voorafbetalingen″ toekomen.
     Die termijn kan echter niet minder zijn dan één maand te rekenen vanaf de verzending van het rekeninguittreksel VA (zie Hoofdstuk 3).
-#### HOOFDSTUK 3. — Rekeninguittreksel VA
+### HOOFDSTUK 3. — Rekeninguittreksel VA
     Na het verstrijken van het belastbare tijdperk zendt de Dienst der Voorafbetalingen aan de betrokken belastingplichtigen een ″rekeninguittreksel VA″, waarop alle verrichtingen (betalingen, terugbetalingen, telkens met de in aanmerking genomen datum) van het belastbare tijdperk worden vermeld. Dit document moet zorgvuldig worden bewaard.
 ## DEEL IV. — VENNOOTSCHAPPEN - BIJZONDERE GEVALLEN
-#### HOOFDSTUK 1. — Principe
+### HOOFDSTUK 1. — Principe
     Wanneer het boekjaar waarin de inkomsten van vennootschappen worden behaald niet volledig samenvalt met het kalenderjaar is het principe van de voorafbetaling per trimester eveneens toepasselijk in de hierna volgende bijzondere gevallen, met dien verstande dat moet rekening worden gehouden met de volgende speciale beschikkingen :
     1. indien het boekjaar :
     — niet aanvangt op de eerste dag van een maand, wordt die maand niet meegeteld;
     — niet eindigt op de laatste dag van een maand, wordt die maand voor een volle geteld;
     2. een begonnen kwartaal wordt voor een vol kwartaal geteld.
     Deze beide bepalingen moeten worden samengenomen, d.w.z. dat een bepaald kwartaal slechts volledig wordt geteld indien het ten minste één vol geachte maand bevat.
-#### HOOFDSTUK 2. — Vennootschappen die hun boekhouding anders dan per kalenderjaar voeren I. BOEKJAAR VAN TWAALF MAANDEN Er moeten vier voorafbetalingen worden gedaan, telkens ten belope van een vierde van het totale bedrag van de belasting.
+### HOOFDSTUK 2. — Vennootschappen die hun boekhouding anders dan per kalenderjaar voeren I. BOEKJAAR VAN TWAALF MAANDEN Er moeten vier voorafbetalingen worden gedaan, telkens ten belope van een vierde van het totale bedrag van de belasting.
     De betalingen moeten worden gedaan uiterlijk de tiende dag van de vierde, de zevende en de tiende maand, en de twintigste dag van de laatste maand van het boekjaar (6).
     Voorbeeld
     Vennootschap waarvan het boekjaar loopt van 1.7.2013 tot 30.6.2014 of van 16.6.2013 tot 15.6.2014.
@@ -5923,7 +5927,7 @@ U kan steeds de voorafbetaling hervatten met dezelfde gestructureerde mededeling
 
     — VA 3 : op 11.8.2014;
     — VA 4 : op 20.10.2014.
-#### HOOFDSTUK 3. — Boekjaar van minder dan 12 maanden wegens wijziging van de afsluitingsdatum van het boekjaar, ontbinding of afsluiting van de vereffening I. VENNOOTSCHAPPEN DIE HUN BOEKHOUDING PER KALENDERJAAR VOEREN De toe te passen regel varieert volgens het kwartaal waarin de wijziging van de afsluitingsdatum van het boekjaar, de ontbinding of de afsluiting van de vereffening plaatsheeft.
+### HOOFDSTUK 3. — Boekjaar van minder dan 12 maanden wegens wijziging van de afsluitingsdatum van het boekjaar, ontbinding of afsluiting van de vereffening I. VENNOOTSCHAPPEN DIE HUN BOEKHOUDING PER KALENDERJAAR VOEREN De toe te passen regel varieert volgens het kwartaal waarin de wijziging van de afsluitingsdatum van het boekjaar, de ontbinding of de afsluiting van de vereffening plaatsheeft.
     Om praktische redenen worden de verschillende eventualiteiten evenals de regels die hun eigen zijn, hierna in tabelvorm weergegeven.
 
     Te volgen regel
@@ -5952,7 +5956,7 @@ U kan steeds de voorafbetaling hervatten met dezelfde gestructureerde mededeling
     — het 1ste derde : 10.9.2013 (VA 2);
     — het 2e derde : 10.12.2013 (VA 3);
     — het 3e derde : 10.3.2014 (VA 4).
-#### HOOFDSTUK 4. — Boekjaar van minder dan 12 maanden wegens aanvang van de beroepswerkzaamheid I. VENNOOTSCHAPPEN DIE HUN BOEKHOUDING PER KALENDERJAAR VOEREN De toe te passen regel varieert volgens het kwartaal waarin de beroepswerkzaamheid werd aangevangen.
+### HOOFDSTUK 4. — Boekjaar van minder dan 12 maanden wegens aanvang van de beroepswerkzaamheid I. VENNOOTSCHAPPEN DIE HUN BOEKHOUDING PER KALENDERJAAR VOEREN De toe te passen regel varieert volgens het kwartaal waarin de beroepswerkzaamheid werd aangevangen.
     Onderstaande tabel geeft een samenvatting van de verschillende eventualiteiten alsook van de regel die er op van toepassing is.
 
    Kwartaal van oprichting Te volgen regel
@@ -5985,7 +5989,7 @@ U kan steeds de voorafbetaling hervatten met dezelfde gestructureerde mededeling
     Oprichting op 18.6.2013 van een vennootschap die niet boekhoudt per kalenderjaar en voor de eerste maal afsluit op 31.3.2014 : — de maand juni wordt niet meegeteld omdat ze niet volledig is;
     — de aanvang van de beroepswerkzaamheid wordt derhalve geacht in de loop van het tweede kwartaal plaats te vinden;
     — de totale belasting moet telkens voor een derde voorafbetaald worden uiterlijk op 10.10.2013, 10.1.2014 en 20.3.2014.
-#### HOOFDSTUK 5. — Toepasselijke tarieven en percenten voor bijzondere gevallen Worden hier bedoeld : — de gevallen van wijziging van de datum van afsluiting van het boekjaar, de ontbinding of de afsluiting van de vereffening van een vennootschap, waardoor het boekjaar minder dan 12 maanden telt (zie Hoofdstuk 3);
+### HOOFDSTUK 5. — Toepasselijke tarieven en percenten voor bijzondere gevallen Worden hier bedoeld : — de gevallen van wijziging van de datum van afsluiting van het boekjaar, de ontbinding of de afsluiting van de vereffening van een vennootschap, waardoor het boekjaar minder dan 12 maanden telt (zie Hoofdstuk 3);
     — de gevallen van aanvang van de beroepswerkzaamheid van een vennootschap, waarvan het eerste boekjaar minder dan 12 maanden telt (zie Hoofdstuk 4).
     Voor aanslagjaar 2014 moet rekening worden gehouden met wat hierna volgt.
     De kwartalen moeten vastgesteld worden in het licht van de bijzondere beschikkingen voorzien in de hoofdstukken 3 en 4 hierboven.
@@ -6017,7 +6021,7 @@ U kan steeds de voorafbetaling hervatten met dezelfde gestructureerde mededeling
 
 ## DEEL V. — BEREKENING VAN DE BELASTING
 
-#### HOOFDSTUK 1. — Personenbelasting
+### HOOFDSTUK 1. — Personenbelasting
     I. BELASTINGSTELSEL
     A. Voorafgaande opmerking
    Om het voor vermeerdering vatbare gedeelte van de personenbelasting vast te stellen, moeten slechts de in
@@ -6138,7 +6142,7 @@ Hoofdstuk 2, II, van Deel I bedoelde inkomsten van zelfstandigen in aanmerking w
     — vermindering voor 3 kinderen ten laste :
     (zie punt 4) : - 2.825,00 EUR
     Geraamde belasting (12) : 7.438,50 EUR
-#### HOOFDSTUK 2. — Vennootschapsbelasting (Ven.B) en belasting van niet-inwoners/vennootschappen (BNI/ven.) I. VOORAFGAANDE OPMERKING Het is niet mogelijk om, voor de raming van de Ven.B en de BNI/ven., gedetailleerde tabellen te publiceren die het juiste bedrag vermelden dat voor aanslagjaar 2014, voor alle mogelijke gevallen verschuldigd is.
+### HOOFDSTUK 2. — Vennootschapsbelasting (Ven.B) en belasting van niet-inwoners/vennootschappen (BNI/ven.) I. VOORAFGAANDE OPMERKING Het is niet mogelijk om, voor de raming van de Ven.B en de BNI/ven., gedetailleerde tabellen te publiceren die het juiste bedrag vermelden dat voor aanslagjaar 2014, voor alle mogelijke gevallen verschuldigd is.
     De hierna vermelde gegevens moeten nochtans toelaten het bedrag van de belasting voor het voormelde aanslagjaar bij benadering te berekenen.
     II. BELASTINGTARIEVEN
     A. Vennootschapsbelasting die vermeerdering kan ondergaan
@@ -6169,7 +6173,7 @@ Hoofdstuk 2, II, van Deel I bedoelde inkomsten van zelfstandigen in aanmerking w
 
     Artikel 246, tweede lid, WIB 92, bepaalt eveneens dat in het geval bedoeld in artikel 231, § 2, tweede lid, van hetzelfde wetboek (fusie-, splitsing- of inbrengverrichting waaraan een erkende vennootschap met vast kapitaal voor belegging in onroerende goederen of in niet genoteerde aandelen heeft deelgenomen) het tarief wordt vastgesteld op 16,5 %.
     Een aanvullende crisisbijdrage van 3 opcentiemen wordt gevestigd op de BNI/ven. (artikel 463bis, WIB 92).
-#### HOOFDSTUK 3. — Rechtspersonenbelasting met betrekking tot intercommunales
+### HOOFDSTUK 3. — Rechtspersonenbelasting met betrekking tot intercommunales
     Artikel 224, WIB 92, bepaalt dat intercommunales, bedoeld in artikel 180, 1°, WIB 92, eveneens belastbaar zijn op het totale bedrag van de sommen toegekend als dividenden aan enige vennootschap of andere rechtspersoon met uitzondering van die toegekend aan de Staat, de Gemeenschappen, de Gewesten, de provincies, de agglomeraties, de federaties van gemeenten, de gemeenten en de openbare centra voor maatschappelijk welzijn, alsmede aan andere intercommunales.
     Luidens artikel 225, tweede lid, 6°, WIB 92, wordt de belasting op deze dividenden berekend tegen het tarief van 15 % (13).
     Tenslotte bepaalt artikel 226, WIB 92, dat de voormelde belasting eventueel wordt vermeerderd zoals bepaald in het artikel 218, WIB 92, ingeval geen of ontoereikende voorafbetalingen als bedoeld in dat artikel zijn gedaan. Die vermeerdering wordt derhalve berekend volgens de regels die van toepassing zijn inzake de Ven.B.

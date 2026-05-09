@@ -24,13 +24,17 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 5
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
 
-## Art. 2
+##### Art. 2
 
 Voor de toepassing van deze wet wordt verstaan onder :
    1° gecertificeerd accountant : de hoedanigheid verleend aan de persoon die aan de voorwaarden van hoofdstuk 4 beantwoordt om, als zelfstandige in hoofdberoep of bijberoep, voor rekening van derden, de beroepsactiviteiten bedoeld in artikel 3, 1° tot en met 12°, uit te oefenen;
@@ -71,11 +75,11 @@ Voor de toepassing van deze wet wordt verstaan onder :
   23° lidstaat : een lidstaat van de Europese Economische Ruimte, als bedoeld in artikel 2, § 1, l), van de wet van 12 februari 2008 tot instelling van een algemeen kader voor de erkenning van EU-beroepskwalificaties;
   24° derde land : een land dat geen lidstaat is.
 
-#### HOOFDSTUK 3. - Beroepsactiviteiten, dragen van de titel en recht om deze werkzaamheden uit te oefenen
+## HOOFDSTUK 3. - Beroepsactiviteiten, dragen van de titel en recht om deze werkzaamheden uit te oefenen
 
-##### Afdeling 1. - De beroepsactiviteiten van de gecertificeerd accountant
+### Afdeling 1. - De beroepsactiviteiten van de gecertificeerd accountant
 
-## Art. 3
+##### Art. 3
 
 Een gecertificeerd accountant voert hoofdzakelijk de volgende beroepsactiviteiten uit :
   1° de boekhouding en de boekhoudkundige diensten organiseren en advies verstrekken inzake de boekhoudkundige organisatie bij ondernemingen;
@@ -94,9 +98,9 @@ Een gecertificeerd accountant voert hoofdzakelijk de volgende beroepsactiviteite
   ----------
   (1)<W 2024-12-02/07, art. 101, 009; Inwerkingtreding : 30-12-2024>
 
-##### Afdeling 2. - Dragen van de titel van gecertificeerd accountant
+### Afdeling 2. - Dragen van de titel van gecertificeerd accountant
 
-## Art. 4
+##### Art. 4
 
 Enkel de natuurlijke personen ingeschreven in het openbaar register van het Instituut met de hoedanigheid van gecertificeerd accountant dragen de titel van gecertificeerd accountant, alsook desgevallend het Engelse equivalent "certified accountant" ervan.
    Personen die hun activiteiten uitoefenen binnen een arbeidsovereenkomst of een door de overheid bezoldigde betrekking in de hoedanigheid van intern gecertificeerd accountant, mogen de titel van intern gecertificeerd accountant dragen.
@@ -105,9 +109,9 @@ Enkel de natuurlijke personen ingeschreven in het openbaar register van het Inst
   ----------
   (1)<W 2019-05-02/28, art. 105, 002; Inwerkingtreding : 01-06-2019>
 
-##### Afdeling 3. - Recht om de beroepsactiviteiten van gecertificeerd accountant uit te oefenen
+### Afdeling 3. - Recht om de beroepsactiviteiten van gecertificeerd accountant uit te oefenen
 
-## Art. 5
+##### Art. 5
 
 Enkel de volgende personen, natuurlijke of rechtspersonen, mogen, als zelfstandige, in hoofdberoep of bijberoep, voor rekening van derden, de beroepsactiviteiten als bedoeld in artikel 3, 1° tot en met 5°, uitoefenen :
   1° de personen die in het openbaar register van het Instituut ingeschreven zijn met de hoedanigheid van gecertificeerd accountant;
@@ -119,9 +123,9 @@ Enkel de volgende personen, natuurlijke of rechtspersonen, mogen, als zelfstandi
   Enkel de natuurlijke of rechtspersonen met de hoedanigheid van gecertificeerd accountant, erkende rechtspersoon of de bedrijfsrevisoren mogen, als zelfstandige, in hoofdberoep of bijberoep, voor rekening van derden, de beroepsactiviteiten bedoeld in artikel 3, 6° tot en met 8° uitoefenen, met uitzondering van de activiteiten die door de wet voorbehouden zijn aan de gecertificeerde accountants.
   Wanneer de activiteiten bedoeld in artikel 3, 6° tot en met 8°, worden uitgeoefend door erkende rechtspersonen, moeten de natuurlijke personen die deze activiteiten uitoefenen voor de rechtspersonen de hoedanigheid van gecertificeerd accountant of bedrijfsrevisor hebben.
 
-##### Afdeling 4. - De beroepsactiviteiten van de gecertificeerd belastingadviseur
+### Afdeling 4. - De beroepsactiviteiten van de gecertificeerd belastingadviseur
 
-## Art. 6
+##### Art. 6
 
 [1 § 1.]1 Een gecertificeerd belastingadviseur voert hoofdzakelijk de volgende beroepsactiviteiten uit :
    1° advies verstrekken in alle fiscale aangelegenheden;
@@ -137,24 +141,24 @@ Enkel de volgende personen, natuurlijke of rechtspersonen, mogen, als zelfstandi
    (1)<W 2020-07-20/12, art. 153, 004; Inwerkingtreding : 15-08-2020>
    (2)<W 2024-12-02/07, art. 102, 009; Inwerkingtreding : 30-12-2024>
 
-##### Afdeling 5. - Het dragen van de titel van gecertificeerd belastingadviseur
+### Afdeling 5. - Het dragen van de titel van gecertificeerd belastingadviseur
 
-## Art. 7
+##### Art. 7
 
 Enkel de natuurlijke personen ingeschreven in het openbaar register van het Instituut met de hoedanigheid van gecertificeerd belastingadviseur mogen de titel van gecertificeerd belastingadviseur dragen, alsook het Engelse equivalent "certified tax advisor" ervan.
   De erkende rechtspersonen mogen de titel van gecertificeerd belastingadviseur gebruiken of opnemen in hun maatschappelijke benaming [1 in zoverre de titel is opgenomen in het openbaar register bedoeld in artikel 29]1.
   ----------
   (1)<W 2019-05-02/28, art. 106, 002; Inwerkingtreding : 01-06-2019>
 
-## Art. 8
+##### Art. 8
 
 Een gecertificeerd accountant mag ook de titel van (intern) gecertificeerd fiscaal accountant dragen. Een (gecertificeerd) accountant of een bedrijfsrevisor mag de titel van gecertificeerd belastingadviseur echter niet dragen.
   Personen die hun activiteiten uitoefenen binnen een arbeidsovereenkomst of een door de overheid bezoldigde betrekking in de hoedanigheid van intern gecertificeerd belastingadviseur, mogen de titel van intern gecertificeerd belastingadviseur dragen.
   Onverminderd artikel 9 mag niemand een andere titel dragen die verwarring kan scheppen of zou kunnen scheppen met die van gecertificeerd belastingadviseur.
 
-##### Afdeling 6. - De accountant en de fiscaal accountant
+### Afdeling 6. - De accountant en de fiscaal accountant
 
-## Art. 9
+##### Art. 9
 
 De personen ingeschreven in het openbaar register van het Instituut als accountant mogen de titel van accountant dragen.
    De personen ingeschreven in het openbaar register van het Instituut als fiscaal accountant mogen de titel van fiscaal accountant dragen. De bedrijfsrevisoren mogen de titel van fiscaal accountant echter niet dragen.
@@ -165,11 +169,11 @@ De personen ingeschreven in het openbaar register van het Instituut als accounta
    ----------
    (1)<W 2019-05-02/28, art. 107, 002; Inwerkingtreding : 01-06-2019>
 
-#### HOOFDSTUK 4. - Beroepskwalificaties voor het verlenen van de hoedanigheid
+## HOOFDSTUK 4. - Beroepskwalificaties voor het verlenen van de hoedanigheid
 
-##### Afdeling 1. - Het verlenen van de hoedanigheid van gecertificeerd accountant of van gecertificeerd belastingadviseur aan een natuurlijk persoon
+### Afdeling 1. - Het verlenen van de hoedanigheid van gecertificeerd accountant of van gecertificeerd belastingadviseur aan een natuurlijk persoon
 
-## Art. 10
+##### Art. 10
 
 § 1. Een natuurlijk persoon die aan de volgende voorwaarden voldoet, wordt op zijn verzoek in het openbaar register van het Instituut ingeschreven met de hoedanigheid van (intern) gecertificeerd accountant of (intern) gecertificeerd belastingadviseur :
    1° onderdaan zijn van een lidstaat;
@@ -185,7 +189,7 @@ De personen ingeschreven in het openbaar register van het Instituut als accounta
    § 4. De Koning legt, na advies van de Raad van het Instituut, de voorwaarden en de procedure vast voor een natuurlijk persoon, onderdaan van een derde land, gevestigd in België die de hoedanigheid van (intern) gecertificeerd accountant of van (intern) gecertificeerd belastingadviseur wenst te bekomen. De Raad van het Instituut brengt zijn advies uit binnen de drie maanden na ontvangst van de adviesaanvraag over het ontwerp, zo niet wordt de Raad van het Instituut geacht geen opmerkingen op het ontwerp te hebben.
    § 5. Een bedrijfsrevisor mag niet om de hoedanigheid van gecertificeerd belastingadviseur verzoeken.
 
-## Art. 11
+##### Art. 11
 
 § 1. Ter ondersteuning van zijn verzoek om ingeschreven te worden in het openbaar register van het Instituut met de hoedanigheid van gecertificeerd (intern) accountant of van (intern) gecertificeerd belastingadviseur kan een natuurlijk persoon, onderdaan van een lidstaat, een bekwaamheidstest of een opleidingstitel bedoeld in titel III, hoofdstuk I, van de wet van 12 februari 2008 betreffende de beroepskwalificaties, afgeleverd door een andere lidstaat doen gelden die beantwoordt aan de voorwaarden bepaald in hetzelfde hoofdstuk van die wet of een opleidingstitel gelijkgesteld aan een dergelijke titel in toepassing van artikel 2, § 3, van de wet van 12 februari 2008 betreffende de beroepskwalificaties. De onderdanen van een lidstaat die een bekwaamheidsattest of een opleidingstitel bedoeld in deze paragraaf hebben verworven, zijn onderworpen aan alle voorwaarden en genieten van alle rechten voorzien in de wet van 12 februari 2008 betreffende de beroepskwalificaties, onverminderd de bepalingen voorzien in of op basis van deze wet.
    § 2. De houders van een bekwaamheidsattest of een opleidingstitel bedoeld in paragraaf 1 zijn vrijgesteld [1 van het toelatingsexamen en]1 van de stage. Zij moeten zich evenwel, in toepassing van artikel 16, § 3, van de wet van 12 februari 2008 betreffende de beroepskwalificaties, onderwerpen aan een bekwaamheidsproef, georganiseerd door het Instituut wanneer hun opleiding op het vlak van boekhouding, accountancy, fiscaliteit, vennootschapsrecht, deontologie en andere vakken waarvan de kennis noodzakelijk is voor de uitoefening van het beroep van gecertificeerd accountant of van gecertificeerd belastingconsulent in België, belangrijke verschillen vertoont inzake inhoud ten aanzien van de opleiding die bestreken is door de in België vereiste opleidingstitel.
@@ -204,9 +208,9 @@ De personen ingeschreven in het openbaar register van het Instituut als accounta
    ----------
    (1)<W 2021-02-02/06, art. 25, 005; Inwerkingtreding : 21-02-2021>
 
-##### Afdeling 2. - Diplomavereisten
+### Afdeling 2. - Diplomavereisten
 
-## Art. 12
+##### Art. 12
 
 De diploma's of titels bedoeld in artikel 10, § 1, 5°, die toegang geven tot het toelatingsexamen voor de stage en tot de hoedanigheid van gecertificeerd accountant en gecertificeerd belastingadviseur zijn :
   1° de volgende diploma's erkend door de Franse Gemeenschap :
@@ -231,11 +235,11 @@ De diploma's of titels bedoeld in artikel 10, § 1, 5°, die toegang geven tot h
    7° andere door de Koning vastgestelde diploma's en titels, na advies van de Raad van het Instituut.
    De Raad van het Instituut brengt zijn advies uit binnen de drie maanden na ontvangst van de adviesaanvraag over het ontwerp, zo niet wordt de Raad van het Instituut geacht geen opmerkingen op het ontwerp te hebben.
 
-##### Afdeling 3. - De stage
+### Afdeling 3. - De stage
 
-###### Onderafdeling 1. - De stageperiode
+#### Onderafdeling 1. - De stageperiode
 
-## Art. 13
+##### Art. 13
 
 § 1. De stageperiode voor de toekenning van de hoedanigheid als bedoeld in artikel 10 duurt minstens drie jaar. Zij kan worden verlengd met de duur van de schorsing die de stagecommissie om gegronde reden goedkeurt.
    Tijdens de stageperiode voert de stagiair minstens duizend uur per jaar activiteiten uit, met als doel voldoende beroepservaring te verwerven voor het uitoefenen van het beroep. De activiteiten van de stage worden vastgelegd in een stageovereenkomst met een beroepsbeoefenaar die al gedurende minstens vijf jaar het beroep uitoefent na het slagen in zijn stage.
@@ -243,25 +247,25 @@ De diploma's of titels bedoeld in artikel 10, § 1, 5°, die toegang geven tot h
    Slaagt de stagiair niet in het bekwaamheidsexamen binnen de acht jaar te rekenen vanaf de datum van zijn inschrijving in het openbaar register, dan wordt hij uit het openbaar register weggelaten. De stagiair kan slechts na een termijn van drie jaar de stage hervatten en na opnieuw geslaagd te zijn voor het toelatingsexamen.
    § 2. De bepalingen bedoeld in hoofdstuk 11, afdeling 2, zijn van toepassing op de personen bedoeld onder paragraaf 1.
 
-## Art. 14
+##### Art. 14
 
 De stagecommissie kan, onder de voorwaarden bepaald door de Koning, de stage inkorten of een vrijstelling van de stage toestaan wanneer de persoon ten minste zeven jaar relevante ervaring met de uitoefening van het beroep kan aantonen. [1 De persoon die vrijgesteld is van de stage legt een bekwaamheidsexamen af volgens de nadere regels bepaald door de Koning.]1
   ----------
   (1)<W 2021-02-02/06, art. 26, 005; Inwerkingtreding : 21-02-2021>
 
-## Art. 15
+##### Art. 15
 
 De stagecommissie kan een tussentijdse proef of meerdere tussentijdse proeven gedurende de stage organiseren om de verworven kennis en bekwaamheid voor het beroep te evalueren.
 
-## Art. 16
+##### Art. 16
 
 De stagiair die ingeschreven is voor de stage van "gecertificeerd accountant" mag, mits de uitdrukkelijke toestemming vermeld in de stageovereenkomst, de activiteiten van gecertificeerd accountant uitoefenen bedoeld in artikel 3, met uitzondering van de activiteiten bedoeld in artikel 3, 6° tot en met 8°, in opdracht en voor rekening van derden. Hij draagt in dit geval de titel van "stagiair gecertificeerd accountant".
   Onverminderd het eerste lid, kan de Koning, na advies van de Raad van het Instituut, bepalen welke activiteiten de stagiair mag uitoefenen.
   De Raad van het Instituut brengt zijn advies uit binnen de drie maanden na ontvangst van de adviesaanvraag over het ontwerp, zo niet wordt de Raad van het Instituut geacht geen opmerkingen op het ontwerp te hebben.
 
-###### Onderafdeling 2. - De stagecommissie
+#### Onderafdeling 2. - De stagecommissie
 
-## Art. 17
+##### Art. 17
 
 § 1. De Koning richt bij het Instituut een stagecommissie in die belast is met de stage en het toekennen van de hoedanigheid van gecertificeerd accountant en van gecertificeerd belastingadviseur aan natuurlijke personen. De commissie staat onder toezicht van de Raad van het Instituut en heeft als opdracht advies uit te brengen aan de Raad van het Instituut over de volgende zaken :
   1° de organisatie van het toelatingsexamen;
@@ -285,7 +289,7 @@ De stagiair die ingeschreven is voor de stage van "gecertificeerd accountant" ma
   7° de procedure voor het instellen van hoger beroep.
   § 3. De stagecommissie maakt elk jaar een jaarverslag op. Het verslag wordt aan de Raad van het Instituut ter goedkeuring voorgelegd.
 
-## Art. 18
+##### Art. 18
 
 Tegen de volgende beslissingen van de Raad genomen op voorstel van de stagecommissie kan beroep bij de commissie van beroep worden ingesteld :
   1° beslissingen met betrekking tot het toelatingsexamen, met name de vrijstellingen en het resultaat van het toelatingsexamen;
@@ -293,13 +297,13 @@ Tegen de volgende beslissingen van de Raad genomen op voorstel van de stagecommi
   3° beslissingen met betrekking tot het bekwaamheidsexamen;
   4° beslissingen met betrekking tot de bekwaamheidsproef.
 
-##### Afdeling 4. - Eedaflegging
+### Afdeling 4. - Eedaflegging
 
-## Art. 19
+##### Art. 19
 
 Een natuurlijk persoon kan slechts ingeschreven worden in het openbaar register van het Instituut met de hoedanigheid van (intern) gecertificeerd accountant of van (intern) gecertificeerd belastingadviseur na het afleggen van de eed na het slagen voor het bekwaamheidsexamen.
 
-## Art. 20
+##### Art. 20
 
 § 1. De persoon met de Belgische nationaliteit die in het openbaar register van het Instituut wenst ingeschreven te worden met de hoedanigheid van gecertificeerd accountant of gecertificeerd belastingadviseur legt de volgende eed af : "Ik zweer getrouwheid aan de Koning, gehoorzaamheid aan de Grondwet en aan de wetten van het Belgische volk en ik zweer de opdrachten die mij worden toevertrouwd in eer en geweten te vervullen.".
    De persoon die niet de Belgische nationaliteit heeft, legt de volgende eed af : "Ik zweer de opdrachten die mij worden toevertrouwd, in eer en geweten te vervullen volgens de voorschriften van de Belgische wet.".
@@ -307,9 +311,9 @@ Een natuurlijk persoon kan slechts ingeschreven worden in het openbaar register 
   De persoon die geen woonplaats in België heeft, legt de eed af voor de ondernemingsrechtsbank van zijn keuze.
   § 2. De persoon die in het openbaar register van het Instituut wenst ingeschreven te worden met de hoedanigheid van intern gecertificeerd accountant of intern gecertificeerd belastingadviseur, legt de eed af, bedoeld in paragraaf 1, eerste of tweede lid, voor de voorzitter of de ondervoorzitter van het Instituut.
 
-##### Afdeling 5. - Inschrijving als accountant en fiscaal accountant en de overgang naar de hoedanigheid van gecertificeerd accountant en van gecertificeerd belastingadviseur
+### Afdeling 5. - Inschrijving als accountant en fiscaal accountant en de overgang naar de hoedanigheid van gecertificeerd accountant en van gecertificeerd belastingadviseur
 
-## Art. 21
+##### Art. 21
 
 De personen die op de datum van de inwerkingtreding van deze wet ingeschreven waren op het tableau van "boekhouders" als bedoeld in artikel 46, § 1, tweede lid, van de wet van 22 april 1999, worden als (intern) accountant ingeschreven in het openbaar register van het Instituut.
   Wensen deze personen de hoedanigheid van "(intern) gecertificeerd accountant" te bekomen, dan moeten zij slagen voor het bekwaamheidsexamen, bestaande uit een schriftelijke en mondelinge proef over de volgende vakken :
@@ -329,7 +333,7 @@ De personen die op de datum van de inwerkingtreding van deze wet ingeschreven wa
   ----------
   (1)<W 2021-02-02/06, art. 27, 005; Inwerkingtreding : 21-02-2021>
 
-## Art. 22
+##### Art. 22
 
 De personen die op de datum van de inwerkingtreding van deze wet, ingeschreven waren op het tableau van "boekhouders-fiscalisten" als bedoeld in artikel 46, § 1, tweede lid, van de wet van 22 april 1999, worden als (intern) fiscaal accountant ingeschreven in het openbaar register van het Instituut.
   Wensen deze personen de hoedanigheid van "(intern) gecertificeerd accountant" te bekomen, dan moeten zij slagen voor het bekwaamheidsexamen, bestaande uit een schriftelijke en mondelinge proef over de volgende vakken :
@@ -344,9 +348,9 @@ De personen die op de datum van de inwerkingtreding van deze wet, ingeschreven w
   ----------
   (1)<W 2021-02-02/06, art. 27, 005; Inwerkingtreding : 21-02-2021>
 
-##### Afdeling 6. - De tijdelijke en occasionele beroepsuitoefening
+### Afdeling 6. - De tijdelijke en occasionele beroepsuitoefening
 
-## Art. 23
+##### Art. 23
 
 § 1. De natuurlijke personen, onderdanen van een lidstaat, zijn gemachtigd om tijdelijk en occasioneel de activiteiten van gecertificeerd accountant of gecertificeerd belastingadviseur uit te oefenen zonder de voorwaarden te moeten vervullen als bedoeld in artikel 10 van deze wet volgens de nadere regels voorzien in de wet van 12 februari 2008 betreffende de beroepskwalificaties indien zij :
    1° op wettige wijze zijn gevestigd in een andere lidstaat om er hetzelfde beroep uit te oefenen, en
@@ -357,9 +361,9 @@ De personen die op de datum van de inwerkingtreding van deze wet, ingeschreven w
    De dienstverrichter kan die verklaring met alle middelen aanleveren.
    § 3. De personen die occasioneel en tijdelijk het beroep in België uitoefenen, voeren de activiteiten in België uit met naleving van het wettelijk, reglementair en normatief kader. De bepalingen bedoeld in hoofdstuk 11, afdeling 2, zijn op hen van toepassing.
 
-##### Afdeling 7. - De toekenning van de hoedanigheid aan rechtspersonen
+### Afdeling 7. - De toekenning van de hoedanigheid aan rechtspersonen
 
-## Art. 24
+##### Art. 24
 
 [1 § 1.]1 Een rechtspersoon wordt op zijn verzoek in het openbaar register van het Instituut ingeschreven met de hoedanigheid van erkend rechtspersoon, indien hij aan de volgende voorwaarden voldoet :
    1° de rechtspersoon is opgericht met rechtspersoonlijkheid naar Belgisch recht of naar het recht van een andere lidstaat;
@@ -374,20 +378,20 @@ De personen die op de datum van de inwerkingtreding van deze wet, ingeschreven w
    ----------
    (1)<W 2019-05-02/28, art. 108, 002; Inwerkingtreding : 01-06-2019>
 
-## Art. 25
+##### Art. 25
 
 De Koning kan, na advies van de Raad van het Instituut, nadere regels vastleggen over de toekenning van de hoedanigheid aan rechtspersonen, alsook de voorwaarden en de procedure voor de toekenning van de hoedanigheid aan rechtspersonen van stagiairs en rechtspersonen uit derde landen.
   De Raad van het Instituut brengt zijn advies uit binnen de drie maanden na ontvangst van de adviesaanvraag over het ontwerp, zo niet wordt de Raad van het Instituut geacht geen opmerkingen op het ontwerp te hebben.
 
-##### Afdeling 8. - De weigering van de hoedanigheid aan natuurlijke personen en rechtspersonen
+### Afdeling 8. - De weigering van de hoedanigheid aan natuurlijke personen en rechtspersonen
 
-## Art. 26
+##### Art. 26
 
 De Raad van het Instituut kan de toekenning van de hoedanigheid van (intern) gecertificeerd accountant of (intern) gecertificeerd belastingadviseur aan een natuurlijk persoon weigeren, wanneer hij van oordeel is dat de onafhankelijkheid, de betrouwbaarheid en de bekwaamheid van de persoon in kwestie in het gedrang wordt gebracht of kan worden gebracht, meer bepaald in één van de volgende gevallen :
    1° wanneer hij niet of niet meer aan de toelatingsvoorwaarden voldoet, als bepaald in artikel 10;
    2° wanneer de persoon een beroepsactiviteit uitoefent die onverenigbaar is met de beroepsactiviteiten bedoeld in de artikel en 3 en 6.
 
-## Art. 27
+##### Art. 27
 
 De Raad van het Instituut kan de toekenning van de hoedanigheid aan een rechtspersoon weigeren wanneer hij bij de beoordeling van de individuele aanvraag voor een toekenning van oordeel is dat de onafhankelijkheid, de betrouwbaarheid en de bekwaamheid van de rechtspersoon in het gedrang wordt gebracht of kan worden, meer bepaald in één van de volgende gevallen :
    1° wanneer een beroepsbeoefenaar als vennoot, een zaakvoerder, een bestuurder of een lid van het directiecomité dat optreedt in naam en voor rekening van de rechtspersoon, niet of niet meer voldoet aan een van de voorwaarden vermeld in artikel 10, § 1, 2°, 3° en 4° ;
@@ -398,15 +402,15 @@ De Raad van het Instituut kan de toekenning van de hoedanigheid aan een rechtspe
    d) het voorwerp uitmaakt of heeft uitgemaakt van een gelijkaardige of administratieve maatregel in België, in een lidstaat of in een derde land of een strafrechtelijke veroordeling opgelopen heeft die in kracht van gewijsde is getreden voor een misdrijf als bedoeld in artikel 10, 4°, zelfs met uitstel, tot een geldboete van ten minste 1 500 euro, in voorkomend geval, te verhogen met de wettelijke opdeciemen, of een gelijkaardige veroordeling in een lidstaat of een derde land;
    3° wanneer een vennoot, een zaakvoerder, een bestuurder of een lid van het directiecomité en die beroepsbeoefenaar is en optreedt in naam en voor rekening van de rechtspersoon, een beroepsactiviteit uitoefent die onverenigbaar is met de beroepsactiviteiten bedoeld in artikel en 3 en 6.
 
-## Art. 28
+##### Art. 28
 
 Beroep tegen de in deze afdeling bedoelde beslissingen van de Raad van het Instituut is mogelijk bij de commissie van beroep.
 
-#### HOOFDSTUK 5. - Het openbaar register
+## HOOFDSTUK 5. - Het openbaar register
 
-##### Afdeling 1. - Inschrijving in het openbaar register
+### Afdeling 1. - Inschrijving in het openbaar register
 
-## Art. 29
+##### Art. 29
 
 [1 § 1.]1 Het Instituut houdt een openbaar register bij om toe te laten de lijst van personen die het beroep mogen uitoefenen of de beroepstitel mogen dragen, te raadplegen en na te kijken.
   Elke beroepsbeoefenaar, zowel een natuurlijk als een rechtspersoon, wordt ingeschreven in het openbaar register, met de toevoeging van zijn hoedanigheid.
@@ -417,7 +421,7 @@ Beroep tegen de in deze afdeling bedoelde beslissingen van de Raad van het Insti
   ----------
   (1)<W 2020-07-20/12, art. 154, 004; Inwerkingtreding : 15-08-2020>
 
-## Art. 30
+##### Art. 30
 
 [2 § 1.]2 Het openbaar register [2 bedoeld in artikel 29, § 1,]2 bevat de volgende gegevens :
   1° de naam van de beroepsbeoefenaar of in voorkomend geval van de stagiair of van de persoon bedoeld in artikel 29, vierde lid, het inschrijvingsnummer en de contactgegevens;
@@ -442,14 +446,14 @@ Beroep tegen de in deze afdeling bedoelde beslissingen van de Raad van het Insti
   (1)<W 2019-05-02/28, art. 109, 002; Inwerkingtreding : 01-06-2019>
   (2)<W 2020-07-20/12, art. 155, 004; Inwerkingtreding : 15-08-2020>
 
-## Art. 31
+##### Art. 31
 
 De Raad van het Instituut is belast met het houden en het bijwerken van de gegevens van het openbaar register.
    De [1 persoon ingeschreven in het openbaar register]1 brengt de Raad van het Instituut binnen de vijftien dagen na de wijziging op de hoogte van elke wijziging van de gegevens opgenomen in het openbaar register. Hij is verantwoordelijk voor de juistheid van de aan het Instituut meegedeelde gegevens.
    ----------
    (1)<W 2020-07-20/12, art. 156, 004; Inwerkingtreding : 15-08-2020>
 
-## Art. 32
+##### Art. 32
 
 Het openbaar register bevat ook de gegevens van :
   1° de personen die het beroep tijdelijk en occasioneel mogen uitoefenen, uit hoofde van artikel 23;
@@ -457,9 +461,9 @@ Het openbaar register bevat ook de gegevens van :
   De Koning kan, na advies van de Raad van het Instituut, het openbaar register aanvullen met bijkomende gegevens die rechtstreeks verband houden met de beroepsuitoefening, alsook de nadere regels van het openbaar register vaststellen. Die bijkomende gegevens zijn beperkt tot wat strikt noodzakelijk is voor de doeleinden van het openbaar register.
   De Raad van het Instituut brengt zijn advies uit binnen de drie maanden na ontvangst van de adviesaanvraag over het ontwerp, zo niet wordt de Raad van het Instituut geacht geen opmerkingen op het ontwerp te hebben.
 
-##### Afdeling 2. - Uitschrijving uit het openbaar register
+### Afdeling 2. - Uitschrijving uit het openbaar register
 
-## Art. 33
+##### Art. 33
 
 [1 § 1.]1 Wanneer de beroepsbeoefenaar of in voorkomend geval de stagiair of een (intern) gecertificeerd accountant of een (intern) gecertificeerd belastingadviseur, een (intern) accountant of een (intern) fiscaal accountant hierom verzoekt, wordt hij uit het openbaar register uitgeschreven.
    Wanneer de persoon om de uitschrijving van het openbaar register verzoekt, nadat hij binnen de gestelde termijn is terechtgewezen als bepaald in artikel 86 of wanneer de betrokken persoon naar de tuchtinstanties wordt doorverwezen, kan hij slechts uitgeschreven worden na de beslissing van de tuchtcommissie of in voorkomend geval na de beslissing van de commissie van beroep.
@@ -472,9 +476,9 @@ Het openbaar register bevat ook de gegevens van :
    ----------
    (1)<W 2020-07-20/12, art. 157, 004; Inwerkingtreding : 15-08-2020>
 
-##### Afdeling 3. - De herinschrijving in het openbaar register
+### Afdeling 3. - De herinschrijving in het openbaar register
 
-## Art. 34
+##### Art. 34
 
 Elke beroepsbeoefenaar of in voorkomend geval de stagiair of een (intern) gecertificeerd accountant of een (intern) gecertificeerd belastingadviseur, een (intern) accountant of een (intern) fiscaal accountant [1 of de persoon bedoeld in artikel 29, § 2,]1 die op zijn verzoek is uitgeschreven, kan na de uitschrijving om zijn herinschrijving verzoeken.
   Een herinschrijving is pas mogelijk wanneer hij de voorwaarden voor de toelating tot het beroep opnieuw vervult.
@@ -483,15 +487,15 @@ Elke beroepsbeoefenaar of in voorkomend geval de stagiair of een (intern) gecert
   ----------
   (1)<W 2020-07-20/12, art. 158, 004; Inwerkingtreding : 15-08-2020>
 
-## Art. 35
+##### Art. 35
 
 Beroep tegen de weigering van herinschrijving kan door de uitgeschrevene worden ingesteld bij de commissie van beroep.
 
-#### HOOFDSTUK 6. - Uitoefening van het beroep
+## HOOFDSTUK 6. - Uitoefening van het beroep
 
-##### Afdeling 1. - Principe
+### Afdeling 1. - Principe
 
-## Art. 36
+##### Art. 36
 
 § 1. Alle beroepsbeoefenaars, stagiairs, interne gecertificeerde accountants, interne gecertificeerde belastingadviseurs, interne accountants of interne fiscaal accountants en personen bedoeld in artikel 23 oefenen hun beroepsactiviteit uit met toepassing van het wettelijk, reglementair en normatief kader dat op hen van toepassing is.
   § 2. De Koning legt na advies van de Raad van het Instituut de specifieke maatregelen vast met betrekking tot de deontologie en de maatregelen om de onafhankelijkheid te verzekeren.
@@ -499,23 +503,23 @@ Beroep tegen de weigering van herinschrijving kan door de uitgeschrevene worden 
   Deze regels zijn in voorkomend geval verschillend naargelang de persoon zijn activiteiten uitoefent als zelfstandige of onder een ander statuut en voor de personen bedoeld in artikel 23.
   § 3. Wanneer in dit hoofdstuk wordt verwezen naar de persoon ingeschreven in het openbaar register, is elke persoon vermeld in paragraaf 1 aan die bepaling onderworpen. Wanneer wordt verwezen naar de beroepsbeoefenaar is enkel hij aan die bepaling onderworpen.
 
-##### Afdeling 2. - Onafhankelijkheid
+### Afdeling 2. - Onafhankelijkheid
 
-## Art. 37
+##### Art. 37
 
 Elke persoon ingeschreven in het openbaar register [1 , met uitzondering van de personen bedoeld in artikel 29, § 2,]1 handelt bij het vervullen van de hem toevertrouwde activiteiten of opdrachten in volledige onafhankelijkheid, met respect voor de beginselen van de deontologie. Voor een beroepsbeoefenaar hebben deze minstens betrekking op de verantwoordelijkheid voor het openbaar belang van de beroepsbeoefenaar, zijn integriteit en objectiviteit, alsmede op zijn vakbekwaamheid en zorgvuldigheid, zijn respect voor de vertrouwelijkheid en zijn professionaliteit.
    ----------
    (1)<W 2020-07-20/12, art. 159, 004; Inwerkingtreding : 15-08-2020>
 
-##### Afdeling 3. - Organisatie van de beroepsactiviteiten
+### Afdeling 3. - Organisatie van de beroepsactiviteiten
 
-## Art. 38
+##### Art. 38
 
 De beroepsbeoefenaar organiseert zijn beroepsactiviteiten in functie van de aard en de omvang van zijn cliëntenbestand en evenredig met de complexiteit van de opdrachten die hij uitvoert. Hij voorziet de gepaste organisatorische en financiële middelen. Hij zet personeel met gepaste beroepskwalificaties adequaat in.
 
-##### Afdeling 4. - Bekwaamheid
+### Afdeling 4. - Bekwaamheid
 
-## Art. 39
+##### Art. 39
 
 Elke persoon ingeschreven in het openbaar register [1 , met uitzondering van de personen bedoeld in artikel 29, § 2,]1 beschikt over de nodige beroepsbekwaamheid om de activiteiten of opdrachten te vervullen die hem kan worden toegewezen of wordt toegewezen.
   Hij zet daartoe op regelmatige basis en op continue wijze een permanente vorming voort om zijn beroepskennis en -bekwaamheid en zijn beroepsethiek op voldoende peil te houden.
@@ -524,30 +528,30 @@ Elke persoon ingeschreven in het openbaar register [1 , met uitzondering van de 
   ----------
   (1)<W 2020-07-20/12, art. 160, 004; Inwerkingtreding : 15-08-2020>
 
-##### Afdeling 5. - Cliënten
+### Afdeling 5. - Cliënten
 
-## Art. 40
+##### Art. 40
 
 Voor het aanvaarden van een opdracht beschikt de beroepsbeoefenaar over de nodige bekwaamheid, medewerking en tijd om de opdracht behoorlijk uit te voeren.
 
-## Art. 41
+##### Art. 41
 
 De beroepsbeoefenaar maakt, in overleg met zijn cliënt, een opdrachtbrief op, die de uitvoering van iedere opdracht voorafgaat. Deze opdrachtbrief omschrijft op een evenwichtige wijze de wederzijdse rechten en plichten van de cliënt en de beroepsbeoefenaar.
    De Koning bepaalt, na advies van de Raad van het Instituut, de nadere regels voor de toepassing van de opdrachtbrief.
    De Raad van het Instituut brengt zijn advies uit binnen de drie maanden na ontvangst van de adviesaanvraag over het ontwerp, zo niet wordt de Raad van het Instituut geacht geen opmerkingen op het ontwerp te hebben.
 
-## Art. 42
+##### Art. 42
 
 Bij een opdracht die de cliënt aan een beroepsbeoefenaar als rechtspersoon heeft gegeven, moet die rechtspersoon onder zijn vennoten, zaakvoerders of bestuurders een vertegenwoordiger aanduiden die een natuurlijk persoon is en die de hoedanigheid heeft om deze opdracht uit te voeren.
   Deze vertegenwoordiger staat in voor de uitvoering van de opdracht in naam en voor rekening van de rechtspersoon. Voor deze vertegenwoordiger gelden dezelfde voorwaarden en dezelfde aansprakelijkheid als wanneer hij die opdracht in eigen naam en voor eigen rekening zou vervullen. De betrokken vennootschap kan haar vertegenwoordiger enkel ontslaan als zij tegelijkertijd een opvolger aanduidt.
 
-## Art. 43
+##### Art. 43
 
 De beroepsbeoefenaar is ertoe gehouden om alle boeken, documenten en elektronische of andere gegevens die toebehoren aan de cliënt onverwijld uit handen te geven, wanneer deze erom verzoekt.
 
-##### Afdeling 6. - Aansprakelijkheid
+### Afdeling 6. - Aansprakelijkheid
 
-## Art. 44
+##### Art. 44
 
 De beroepsbeoefenaar is aansprakelijk, overeenkomstig het gemeen recht, voor de uitvoering van de opdrachten die hem zijn toevertrouwd.
    Het is de beroepsbeoefenaar verboden om zich, zelfs gedeeltelijk, aan zijn aansprakelijkheid te onttrekken door een bijzondere overeenkomst in de volgende gevallen :
@@ -557,41 +561,41 @@ De beroepsbeoefenaar is aansprakelijk, overeenkomstig het gemeen recht, voor de 
    De beroepsbeoefenaar bezorgt een bevestiging van zijn verzekeringscontract ter goedkeuring aan het Instituut. De verzekeringsovereenkomst beantwoordt aan de minimale verzekeringsvoorwaarden bepaald door de Koning na advies van de Raad van het Instituut.
    De Raad van het Instituut brengt zijn advies uit binnen de drie maanden na ontvangst van de adviesaanvraag over het ontwerp, zo niet wordt de Raad van het Instituut geacht geen opmerkingen op het ontwerp te hebben.
 
-##### Afdeling 7. - Erelonen
+### Afdeling 7. - Erelonen
 
-## Art. 45
+##### Art. 45
 
 De beroepsbeoefenaar mag, zowel tegenover een cliënt als tegenover een andere beroepsbeoefenaar, alleen aanspraak maken op het ereloon en de vergoeding van de kosten voor de door hem uitgevoerde opdrachten, met uitsluiting van elke andere rechtstreekse of onrechtstreekse vergoeding, tenzij het gaat om een vergoeding voor het verbreken van de overeenkomst.
 
-## Art. 46
+##### Art. 46
 
 Het bedrag van het ereloon van de beroepsbeoefenaar moet vastgesteld worden in functie van de aard, het belang, de complexiteit, de omvang en de reikwijdte van de opdracht, rekening houdend met de verantwoordelijkheid die de beroepsbeoefenaar op zich neemt en met zijn bijzondere kwalificaties.
 
-## Art. 47
+##### Art. 47
 
 Het is de beroepsbeoefenaar verboden om op enigerlei wijze commissie- of makelaarslonen of welk voordeel dan ook toe te kennen of te ontvangen dat verband houdt met zijn opdrachten.
 
-##### Afdeling 8. - Onverenigbaarheden en belangenconflicten
+### Afdeling 8. - Onverenigbaarheden en belangenconflicten
 
-## Art. 48
+##### Art. 48
 
 Het is de persoon die in het openbaar register is ingeschreven met een hoedanigheid niet toegestaan om activiteiten uit te oefenen of daden te stellen die onverenigbaar zijn met de onafhankelijkheid van zijn hoedanigheid.
   Het is hem niet toegestaan om opdrachten te aanvaarden onder voorwaarden die een objectieve uitvoering daarvan in het gedrang zouden brengen of een belangenconflict zouden teweegbrengen.
 
-## Art. 49
+##### Art. 49
 
 De Koning kan, na advies van de Raad van het Instituut, de nadere regels vaststellen met betrekking tot de onverenigbaarheden met het beroep en de uitzonderingen hierop.
   De Raad van het Instituut brengt zijn advies uit binnen de drie maanden na ontvangst van de adviesaanvraag over het ontwerp, zo niet wordt de Raad van het Instituut geacht geen opmerkingen op het ontwerp te hebben.
 
-##### Afdeling 9. - Geheimhouding
+### Afdeling 9. - Geheimhouding
 
-## Art. 50
+##### Art. 50
 
 Onverminderd zijn verplichtingen inzake beroepsgeheim, is de persoon ingeschreven in het openbaar register [1 , met uitzondering van de personen bedoeld in artikel 29, § 2,]1 gehouden tot de verplichting van geheimhouding van gegevens die hem uitdrukkelijk of stilzwijgend in de uitoefening van zijn beroep zijn toevertrouwd en van de feiten met een vertrouwelijk karakter die hij in de uitoefening van zijn beroep zelf heeft vastgesteld.
   ----------
   (1)<W 2020-07-20/12, art. 161, 004; Inwerkingtreding : 15-08-2020>
 
-## Art. 51
+##### Art. 51
 
 Er kan de persoon ingeschreven in het openbaar register [1 , met uitzondering van de personen bedoeld in artikel 29, § 2,]1 geen inbreuk op de verplichting van geheimhouding ten laste worden gelegd :
   1° wanneer hij geroepen wordt om in rechte getuigenis af te leggen;
@@ -601,23 +605,23 @@ Er kan de persoon ingeschreven in het openbaar register [1 , met uitzondering va
   ----------
   (1)<W 2020-07-20/12, art. 162, 004; Inwerkingtreding : 15-08-2020>
 
-## Art. 52
+##### Art. 52
 
 Indien de persoon ingeschreven in het openbaar register [1 , met uitzondering van de personen bedoeld in artikel 29, § 2,]1 vertrouwelijke informatie deelt met zijn personeelsleden, stagiairs, of met andere beroepsbeoefenaars, moet hij erop toezien dat zij het vertrouwelijk karakter daarvan eerbiedigen.
    ----------
    (1)<W 2020-07-20/12, art. 163, 004; Inwerkingtreding : 15-08-2020>
 
-##### Afdeling 10. - Relaties met het Instituut
+### Afdeling 10. - Relaties met het Instituut
 
-## Art. 53
+##### Art. 53
 
 Om zijn werkzaamheden uit te oefenen of zijn overeenkomstige beroepstitel te dragen, moet elke persoon ingeschreven zijn in het openbaar register van het Instituut. Die persoon deelt daartoe alle vereiste gegevens mee aan de Raad van het Instituut.
    De beroepsbeoefenaar verleent zijn medewerking aan het Instituut ter vervulling van de opdracht van het Instituut.
    De beroepsbeoefenaar waartegen een gerechtelijke of een bestuursrechtelijke procedure omtrent zijn hoedanigheid of de uitoefening van zijn beroepsactiviteit loopt, moet de Raad van het Instituut hiervan onverwijld in kennis stellen.
 
-##### Afdeling 11. - Bijdragen
+### Afdeling 11. - Bijdragen
 
-## Art. 54
+##### Art. 54
 
 [1 § 1.]1 De personen, natuurlijke of rechtspersonen, ingeschreven met een hoedanigheid en de stagiairs betalen jaarlijks een bijdrage aan het Instituut.
    De Koning bepaalt het maximumbedrag van de bijdragen voor de verschillende groepen personen bedoeld in het eerste lid. Het bedrag van de bijdrage wordt door de algemene vergadering vastgesteld naargelang de hoedanigheid. Voor de personen die voor de inwerkingtreding van deze wet als erkend boekhouder (-fiscalist) waren ingeschreven bij het Beroepsinstituut van Erkende Boekhouders en Fiscalisten [2 en die niet ingeschreven zijn in het openbaar register met de hoedanigheid van (intern) gecertificeerd accountant of van (intern) gecertificeerd belastingadviseur]2 mag het bedrag van de vastgelegde bijdrage niet hoger zijn dan het bedrag dat bij dat Beroepsinstituut van kracht was.
@@ -629,46 +633,46 @@ Om zijn werkzaamheden uit te oefenen of zijn overeenkomstige beroepstitel te dra
    (1)<W 2020-07-20/12, art. 164, 004; Inwerkingtreding : 15-08-2020>
    (2)<W 2021-02-02/06, art. 28, 005; Inwerkingtreding : 21-02-2021>
 
-#### HOOFDSTUK 7. - Kwaliteitstoetsing
+## HOOFDSTUK 7. - Kwaliteitstoetsing
 
-## Art. 55
+##### Art. 55
 
 Om de zeven jaar worden de beroepsactiviteiten van een beroepsbeoefenaar door middel van een kwaliteitstoetsing beoordeeld.
 
-## Art. 56
+##### Art. 56
 
 De kwaliteitstoetsing heeft in het bijzonder tot doel na te gaan of de beroepsbeoefenaar over een organisatie beschikt die aangepast is aan de aard en de omvang van zijn beroepsactiviteiten en of de beroepsbeoefenaar de beroepsactiviteiten verricht overeenkomstig het wettelijk, reglementair en normatief kader.
   Het Instituut wijst voldoende middelen voor de kwaliteitstoetsing toe, zodat de onafhankelijkheid en de autonomie van de kwaliteitstoetsing van de beroepsbeoefenaars verzekerd zijn.
   De methodologie, de uitvoering van de kwaliteitstoetsing en de beoordeling zijn passend en evenredig met de omvang en de complexiteit van de activiteiten van de beroepsbeoefenaar waarvoor een toetsingsopdracht wordt uitgevoerd.
 
-## Art. 57
+##### Art. 57
 
 De kwaliteitstoetsing wordt door toetsers op een onafhankelijke en autonome wijze uitgevoerd. Deze toetsers beschikken over passende beroepskwalificaties en relevante beroepservaring en hebben een specifieke opleiding genoten op het vlak van de kwaliteitstoetsing.
   De toetsers worden geselecteerd volgens een objectieve procedure die is opgezet om belangenconflicten tussen de toetser en de beroepsbeoefenaar te voorkomen.
 
-## Art. 58
+##### Art. 58
 
 De beroepsbeoefenaar verschaft in het kader van de kwaliteitstoetsing toegang tot zijn kantoor aan de toetser, wanneer de commissie kwaliteitstoetsing, bedoeld in artikel 60, eerste lid, hem de kwaliteitstoetsing minstens twee maanden vooraf heeft aangekondigd of, in voorkomend geval na het toestaan van een eventueel uitstel, op de datum die tussen het Instituut en de beroepsbeoefenaar is overeengekomen.
   De beroepsbeoefenaar geeft in het kader van de kwaliteitstoetsing aan de toetser inzage in alle informatie die betrekking heeft op de beroepsuitoefening en bezorgt, indien de toetser dit nodig acht voor het uitvoeren van zijn opdracht, een afschrift aan de toetser.
 
-## Art. 59
+##### Art. 59
 
 Wanneer blijkt dat de beroepsbeoefenaar inbreuken heeft gepleegd met betrekking tot de toepassing van het wettelijk en reglementair kader, kan de Raad van het Instituut :
   1° een verbeterplan aan de beroepsbeoefenaar opleggen;
   2° de beroepsbeoefenaar verwijzen naar de rechtskundig assessor bedoeld in artikel 90.
   Wanneer de Raad van het Instituut de beroepsbeoefenaar naar de rechtskundig assessor verwijst, brengt hij de Procureur des Konings op de hoogte.
 
-## Art. 60
+##### Art. 60
 
 De Koning stelt een reglement van kwaliteitstoetsing op, na advies van de Raad van het Instituut, en richt bij het Instituut een commissie kwaliteitstoetsing op, belast met de organisatie van de kwaliteitstoetsing.
    De Raad van het Instituut brengt zijn advies uit binnen de drie maanden na ontvangst van de adviesaanvraag over het ontwerp, zo niet wordt de Raad van het Instituut geacht geen opmerkingen op het ontwerp te hebben.
    De commissie kwaliteitstoetsing maakt elk jaar een jaarverslag op. Het verslag wordt ter goedkeuring aan de Raad van het Instituut voorgelegd en ter informatie aan de algemene vergadering voorgelegd.
 
-#### HOOFDSTUK 8. - Het Instituut van de Belastingadviseurs en de Accountants
+## HOOFDSTUK 8. - Het Instituut van de Belastingadviseurs en de Accountants
 
-##### Afdeling 1. - Oprichting
+### Afdeling 1. - Oprichting
 
-## Art. 61
+##### Art. 61
 
 Er wordt een Instituut van de Belastingadviseurs en de Accountants (IBA) opgericht.
   Het Instituut bezit rechtspersoonlijkheid.
@@ -677,9 +681,9 @@ Er wordt een Instituut van de Belastingadviseurs en de Accountants (IBA) opgeric
   De maatschappelijke zetel is gevestigd in het Brusselse Hoofdstedelijke Gewest.
   In zijn communicatie mag het Instituut ook de benaming "Belgian Institute for tax advisors and accountants" gebruiken.
 
-##### Afdeling 2. - Opdracht
+### Afdeling 2. - Opdracht
 
-## Art. 62
+##### Art. 62
 
 § 1. Het Instituut heeft als opdracht :
    1° het beschermen van de rechten en de gemeenschappelijke beroepsbelangen van de personen ingeschreven in het openbaar register;
@@ -700,11 +704,11 @@ Er wordt een Instituut van de Belastingadviseurs en de Accountants (IBA) opgeric
   ----------
   (1)<W 2020-07-20/12, art. 165, 004; Inwerkingtreding : 15-08-2020>
 
-##### Afdeling 3. - De algemene vergadering
+### Afdeling 3. - De algemene vergadering
 
-###### Onderafdeling 1. - Stemrecht
+#### Onderafdeling 1. - Stemrecht
 
-## Art. 63
+##### Art. 63
 
 De algemene vergadering van het Instituut bestaat uit alle natuurlijke personen die in het openbaar register ingeschreven zijn, met uitzondering van de personen bedoeld in artikel 23.
   Elke persoon bedoeld in het eerste lid heeft één stem.
@@ -713,13 +717,13 @@ De algemene vergadering van het Instituut bestaat uit alle natuurlijke personen 
   De stagiair heeft enkel een raadgevende stem.
   De persoon bedoeld in het eerste lid stemt op verzoek via simultane elektronische weg op de algemene vergadering. Deze mogelijkheid is voorzien vanaf de algemene vergadering die de leden van de eerste Raad na de overgangsraad, bedoeld in artikel 128, verkiest.
 
-## Art. 64
+##### Art. 64
 
 De beslissingen van de algemene vergadering worden genomen bij meerderheid van de aanwezige en vertegenwoordigde stemmen.
 
-###### Onderafdeling 2. - Bevoegdheden
+#### Onderafdeling 2. - Bevoegdheden
 
-## Art. 65
+##### Art. 65
 
 De algemene vergadering heeft de volgende bevoegdheden :
   1° de verkiezing van de voorzitter, de ondervoorzitter en de andere leden van de Raad van het Instituut;
@@ -734,9 +738,9 @@ De algemene vergadering heeft de volgende bevoegdheden :
   10° het vaststellen van het bedrag van de procedurekosten bij een tuchtprocedure;
   11° andere door de wet aan de algemene vergadering toegewezen bevoegdheden.
 
-###### Onderafdeling 3. - Modaliteiten
+#### Onderafdeling 3. - Modaliteiten
 
-## Art. 66
+##### Art. 66
 
 De algemene vergadering komt eenmaal per jaar samen. De datum en de nadere regels worden in het huishoudelijk reglement vastgesteld.
   Op de jaarlijkse algemene vergadering legt de Raad van het Instituut ter goedkeuring voor :
@@ -745,22 +749,22 @@ De algemene vergadering komt eenmaal per jaar samen. De datum en de nadere regel
   De Raad van het Instituut stelt tevens een activiteitenverslag met betrekking tot het vorige boekjaar voor.
   De commissarissen stellen op de jaarlijkse algemene vergadering hun verslag voor.
 
-## Art. 67
+##### Art. 67
 
 Wanneer één vijfde van de leden van de algemene vergadering, natuurlijke personen, hierom verzoeken, kan de Raad van het Instituut een bijzondere algemene vergadering samenroepen.
   De Raad van het Instituut kan ook een bijzondere algemene vergadering samenroepen wanneer hij dit nodig acht.
 
-##### Afdeling 4. - De Raad van het Instituut
+### Afdeling 4. - De Raad van het Instituut
 
-###### Onderafdeling 1. - Samenstelling
-## Art. 68
+#### Onderafdeling 1. - Samenstelling
+##### Art. 68
 
 De Raad van het Instituut bestaat uit :
   1° een voorzitter en een ondervoorzitter;
   2° zestien leden, van wie acht Nederlandstaligen en acht Franstaligen.
   Indien de voorzitter Nederlandstalig is, is de ondervoorzitter Franstalig, en omgekeerd.
 
-## Art. 69
+##### Art. 69
 
 De voorzitter, de ondervoorzitter en de zestien leden van de Raad van het Instituut worden voor drie jaar bij afzonderlijke geheime stemming door de algemene vergadering onder de leden van de algemene vergadering van het Instituut, met uitzondering van de stagiairs, gekozen.
    De verkozen voorzitter behoort tot de andere taalrol dan die van de uittredende voorzitter.
@@ -774,7 +778,7 @@ De voorzitter, de ondervoorzitter en de zestien leden van de Raad van het Instit
    2° die de hoedanigheid heeft van (intern) gecertificeerd accountant;
    3° die de hoedanigheid heeft van (intern) gecertificeerd belastingadviseur.
 
-## Art. 70
+##### Art. 70
 
 Onder zijn leden benoemt de Raad van het Instituut een secretaris en een penningmeester. De secretaris en de penningmeester behoren tot een verschillende taalgroep.
   Het uitvoerend comité bestaat uit :
@@ -783,13 +787,13 @@ Onder zijn leden benoemt de Raad van het Instituut een secretaris en een penning
   3° de penningmeester;
   4° ten hoogste twee andere leden benoemd door de Raad van het Instituut, die niet tot dezelfde taalrol behoren.
 
-## Art. 71
+##### Art. 71
 
 De beslissingen van de Raad van het Instituut en van het uitvoerend comité worden bij meerderheid van stemmen genomen. Bij staking van stemmen is de stem van de voorzitter doorslaggevend.
 
-###### Onderafdeling 2. - Bevoegdheden van de Raad van het Instituut
+#### Onderafdeling 2. - Bevoegdheden van de Raad van het Instituut
 
-## Art. 72
+##### Art. 72
 
 In overeenstemming met het artikel 62, is de Raad van het Instituut bevoegd voor :
    1° het houden en het bijwerken van een openbaar register;
@@ -809,16 +813,16 @@ In overeenstemming met het artikel 62, is de Raad van het Instituut bevoegd voor
   ----------
   (1)<W 2020-07-20/12, art. 166, 004; Inwerkingtreding : 15-08-2020>
 
-## Art. 73
+##### Art. 73
 
 De Raad van het Instituut maakt, na goedkeuring door de algemene vergadering, aan de minister bevoegd voor Economie, aan de minister bevoegd voor Middenstand en aan de Hoge Raad de volgende documenten over :
   1° de jaarrekening en het activiteitenverslag;
   2° het jaarverslag van de stagecommissie;
   3° het jaarverslag van de commissie kwaliteitstoetsing.
 
-###### Onderafdeling 3. - Bevoegdheden van het uitvoerend comité
+#### Onderafdeling 3. - Bevoegdheden van het uitvoerend comité
 
-## Art. 74
+##### Art. 74
 
 Het uitvoerend comité als bedoeld in artikel 70 is belast met het dagelijks bestuur van het Instituut.
   Het dagelijks bestuur omvat :
@@ -828,24 +832,24 @@ Het uitvoerend comité als bedoeld in artikel 70 is belast met het dagelijks bes
   4° het aanwerven en het leiden van het personeel van het Instituut;
   5° andere taken toegewezen door de Raad van het Instituut.
 
-##### Afdeling 5. - De commissies
+### Afdeling 5. - De commissies
 
-## Art. 75
+##### Art. 75
 
 Behoudens de stagecommissie en de commissie kwaliteitstoetsing, die door de Koning worden opgericht, kan de Raad van het Instituut nog andere commissies oprichten om hem bij te staan in de uitvoering van zijn opdrachten.
 
-##### Afdeling 6. - De commissarissen
+### Afdeling 6. - De commissarissen
 
-## Art. 76
+##### Art. 76
 
 De algemene vergadering duidt één of meer commissarissen aan onder de personen ingeschreven in het openbaar register met een hoedanigheid. Het mandaat van commissaris is tweemaal hernieuwbaar.
    Het mandaat van commissaris is onverenigbaar met het mandaat van voorzitter, ondervoorzitter of lid van de Raad van het Instituut, alsook enige commissie of werkgroep opgericht door het Instituut.
    De commissaris controleert de jaarrekening van het Instituut. Hij stelt een verslag op en maakt dat over aan de jaarlijkse algemene vergadering.
    De algemene vergadering stelt de bezoldiging van de commissaris vast.
 
-##### Afdeling 7. - Inkomsten
+### Afdeling 7. - Inkomsten
 
-## Art. 77
+##### Art. 77
 
 De inkomsten van het Instituut bestaan uit :
    1° de bijdragen bedoeld in artikel 54 en, in voorkomend geval, de geïnde interesten aangerekend bij laattijdige betaling van de bijdragen;
@@ -860,25 +864,25 @@ De inkomsten van het Instituut bestaan uit :
    ----------
    (1)<W 2020-07-20/12, art. 167, 004; Inwerkingtreding : 15-08-2020>
 
-#### HOOFDSTUK 9. - Het Interinstitutencomité
+## HOOFDSTUK 9. - Het Interinstitutencomité
 
-## Art. 78
+##### Art. 78
 
 Er wordt een interinstitutencomité opgericht, samengesteld uit de voorzitter en de ondervoorzitter van het Instituut en de voorzitter en de ondervoorzitter van het Instituut van de Bedrijfsrevisoren.
   Het interinstitutencomité heeft als doel overleg te organiseren over aangelegenheden die beide Instituten aanbelangen.
   Dit comité vergadert minstens tweemaal per jaar. Telkens wanneer een Instituut erom verzoekt, vergadert het comité volgens de verzoeningsprocedure, waarvan de nadere regels door de Koning worden bepaald.
   Het advies van het interinstitutencomité is vereist over elk ontwerp van wet of van koninklijk besluit dat raakt aan de specifieke opdrachten van de bedrijfsrevisoren, de gecertificeerde accountants, de gecertificeerde belastingadviseurs, de accountants en de fiscale accountants.
 
-#### HOOFDSTUK 10. - De Hoge Raad voor de Economische Beroepen
+## HOOFDSTUK 10. - De Hoge Raad voor de Economische Beroepen
 
-## Art. 79
+##### Art. 79
 
 Er wordt een Hoge Raad voor de Economische Beroepen opgericht.
   De Hoge Raad is een zelfstandig organisme met zetel in het Brusselse Hoofdstedelijke Gewest.
   De Hoge Raad heeft tot taak via adviezen of aanbevelingen, op eigen initiatief of op verzoek, aan het Parlement, de regering, het Instituut, het Instituut van de bedrijfsrevisoren en het College van Toezicht op de Bedrijfsrevisoren, opgericht bij artikel 32 van de auditwet, ertoe bij te dragen dat bij de uitoefening van de opdrachten die de wet aan de bedrijfsrevisoren en aan de gecertificeerde accountants toevertrouwt evenals van de activiteiten van gecertificeerd accountant, gecertificeerd belastingadviseur, accountant, fiscaal accountant en bedrijfsrevisor het algemeen belang en de vereisten van het maatschappelijk verkeer in acht worden genomen.
  Deze adviezen of aanbevelingen hebben onder meer betrekking op de uitoefening van de opdrachten omschreven in artikel 15bis van de wet van 20 september 1948 houdende organisatie van het bedrijfsleven.
 
-## Art. 80
+##### Art. 80
 
 De Hoge Raad moet worden geraadpleegd voor elk besluit met betrekking tot de beroepen bedoeld in deze wet en met betrekking tot het beroep van de bedrijfsrevisor en voor elk besluit dat wordt genomen in uitvoering van deze wet of wetten betreffende de beroepen bedoeld in deze wet en het beroep van bedrijfsrevisor. Elke afwijking van een eensluidend advies van de Hoge Raad over een besluit moet uitdrukkelijk met redenen omkleed worden.
   Bovendien moet de Hoge Raad worden geraadpleegd over elke beslissing met een algemene draagwijdte die door de Raad van het Instituut wordt genomen in toepassing van artikel 72, eerste lid, 2°, en door de Raad van het Instituut van de Bedrijfsrevisoren in toepassing van artikel 31 van de auditwet. De Raad van het Instituut of de Raad van het Instituut van de Bedrijfsrevisoren [1 kunnen niet]1 afwijken van een advies dat door de meerderheid van de leden van de Hoge Raad is goedgekeurd indien het advies betrekking heeft op een aangelegenheid die betrekking heeft op meer dan één beroep of hoedanigheid. De betrokken Raad kan enkel afwijken van adviezen over een aangelegenheid die slechts betrekking heeft op één beroep of hoedanigheid wanneer dit uitdrukkelijk met redenen is omkleed.
@@ -887,30 +891,30 @@ De Hoge Raad moet worden geraadpleegd voor elk besluit met betrekking tot de ber
   ----------
   (1)<W 2021-02-02/06, art. 29, 005; Inwerkingtreding : 21-02-2021>
 
-## Art. 81
+##### Art. 81
 
 De Hoge Raad organiseert permanent overleg met het Instituut en het Instituut van de Bedrijfsrevisoren. Hij kan daartoe met elk van deze Instituten werkgroepen oprichten.
 
-## Art. 82
+##### Art. 82
 
 De Hoge Raad kan bij de tuchtcommissie van het Instituut en bij de sanctiecommissie van de FSMA bedoeld in artikel 47 van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten, klacht neerleggen tegen, naar gelang het geval, een of meer bedrijfsrevisoren, gecertificeerde accountants, gecertificeerde belastingadviseurs, accountants of fiscaal accountants. De betrokken commissie stelt de Hoge Raad in kennis van het gevolg dat aan deze klacht is gegeven.
 
-## Art. 83
+##### Art. 83
 
 De Hoge Raad bestaat uit zeven leden benoemd door de Koning. Vier onder hen, van wie één de kleine en middelgrote ondernemingen vertegenwoordigt, worden door de Centrale Raad voor het Bedrijfsleven op een dubbele lijst voorgedragen. Drie leden worden voorgedragen door de minister bevoegd voor Economie, de minister bevoegd voor Financiën en de minister bevoegd voor Middenstand.
   Hun vergoeding wordt door de Koning vastgesteld.
 
-## Art. 84
+##### Art. 84
 
 De Koning stelt het huishoudelijk reglement van de Hoge Raad vast, op diens voorstel. De Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie wordt ermee belast het secretariaat en de infrastructuur van de Hoge Raad waar te nemen. De overige werkingskosten worden gedragen door het Instituut en het Instituut van de Bedrijfsrevisoren, op de wijze en binnen de grenzen die de Koning bepaalt.
 
-#### HOOFDSTUK 11. - Handhaving
+## HOOFDSTUK 11. - Handhaving
 
-##### Afdeling 1. - De terechtwijzing
+### Afdeling 1. - De terechtwijzing
 
-###### Onderafdeling 1. - Redenen voor een terechtwijzing
+#### Onderafdeling 1. - Redenen voor een terechtwijzing
 
-## Art. 85
+##### Art. 85
 
 De Raad van het Instituut kan elke persoon ingeschreven in het openbaar register, met uitzondering van de personen bedoeld in artikel 23 [1 en in artikel 29, § 2]1, terechtwijzen bij de volgende inbreuken :
   1° wanneer de betrokkene in gebreke blijft om, binnen een termijn bepaald door de Raad van het Instituut, alle of een gedeelte van de bijdragen, bedoeld in artikel 54 te betalen;
@@ -920,28 +924,28 @@ De Raad van het Instituut kan elke persoon ingeschreven in het openbaar register
   ----------
   (1)<W 2020-07-20/12, art. 168, 004; Inwerkingtreding : 15-08-2020>
 
-###### Onderafdeling 2. - Procedure van de terechtwijzing
+#### Onderafdeling 2. - Procedure van de terechtwijzing
 
-## Art. 86
+##### Art. 86
 
 Na vaststelling van de inbreuken richt de Raad van het Instituut een terechtwijzing aan de betrokkene met vermelding van de reden van de terechtwijzing, de termijn en modaliteiten waarbinnen de betrokkene zich moet in regel stellen.
 
-## Art. 87
+##### Art. 87
 
 Wanneer de Raad van het Instituut vaststelt dat de betrokkene binnen drie maanden na de terechtwijzing geen gevolg geeft aan de terechtwijzing, kan de Raad van het Instituut de hoedanigheid van de betrokkene intrekken.
   Iedere definitief geworden terechtwijzing wordt gedurende vijf jaar vermeld in het dossier van de betrokkene.
  Op het einde van deze periode van vijf jaar wordt de terechtwijzing automatisch uitgewist.
 
-## Art. 88
+##### Art. 88
 
 Tegen de beslissing van de Raad van het Instituut om hem terecht te wijzen als bedoeld in deze afdeling, kan de betrokkene, binnen dertig dagen na de betekening van de terechtwijzing, beroep instellen bij de commissie van beroep.
   Dit beroep is opschortend.
 
-##### Afdeling 2. - De beroepstucht
+### Afdeling 2. - De beroepstucht
 
-###### Onderafdeling 1. - De tuchtcommissie
+#### Onderafdeling 1. - De tuchtcommissie
 
-## Art. 89
+##### Art. 89
 
 De beroepstucht wordt in eerste aanleg gehandhaafd door een tuchtcommissie.
    De tuchtcommissie bestaat uit een Nederlandstalige kamer en een Franstalige kamer.
@@ -953,22 +957,22 @@ De beroepstucht wordt in eerste aanleg gehandhaafd door een tuchtcommissie.
    Zowel de voorzitter, de plaatsvervangende voorzitter, de effectieve als de plaatsvervangende leden worden benoemd voor een hernieuwbare periode van zes jaar.
    De leden mogen geen lid zijn van de Raad van het Instituut noch van een andere commissie of werkgroep van het Instituut.
 
-## Art. 90
+##### Art. 90
 
 Elke kamer van de tuchtcommissie wordt bijgestaan door een rechtskundig assessor en een plaatsvervangend rechtskundig assessor, die door de minister bevoegd voor Economie en de minister bevoegd voor Middenstand voor een hernieuwbare termijn van zes jaar benoemd worden. De rechtskundig assessor en zijn plaatsvervanger worden gekozen uit de advocaten die gedurende minstens tien jaar ingeschreven zijn op het tableau van een orde van advocaten.
   Elke kamer beschikt ook over een griffie die waargenomen wordt door de personeelsleden van het Instituut.
 
-## Art. 91
+##### Art. 91
 
 De bevoegdheid van de kamers wordt bepaald door de taal waarin de persoon in het openbaar register is ingeschreven.
 
-###### Onderafdeling 2. - De tuchtstraffen
+#### Onderafdeling 2. - De tuchtstraffen
 
-## Art. 92
+##### Art. 92
 
 Een of meerdere tuchtstraffen worden opgelegd aan personen ingeschreven in het openbaar register wanneer inbreuken zijn vastgesteld tegen het wettelijk, reglementair en normatief kader waarbinnen de beroepsactiviteiten worden uitgeoefend.
 
-## Art. 93
+##### Art. 93
 
 § 1. De volgende tuchtstraffen kunnen worden opgelegd aan een beroepsbeoefenaar, natuurlijk of rechtspersoon, die de hoedanigheid heeft om één of meerdere activiteiten bedoeld in artikel 3, als zelfstandige uit te oefenen :
   1° de waarschuwing;
@@ -985,9 +989,9 @@ Een of meerdere tuchtstraffen worden opgelegd aan personen ingeschreven in het o
   § 3. De schrapping houdt het verbod in om de beroepsactiviteiten in België uit te oefenen en de beroepstitel te dragen, evenals de automatische intrekking van de hoedanigheid zoals bedoeld in artikel 115.
   § 4. De tuchtstraffen voorzien in paragraaf 1 zijn ook toepasselijk op de beroepsbeoefenaars of andere personen die de hoedanigheid enkel verkregen hebben om de beroepstitel te mogen dragen, met het volgende voorbehoud : het verbod om bepaalde opdrachten te aanvaarden of uit te oefenen, de schorsing of de schrapping houdt voor de persoon die de straf oploopt enkel het verbod in om de beroepstitel te dragen tijdens de uitoefening van die opdrachten of activiteiten.
 
-###### Onderafdeling 3. - De tuchtprocedure
+#### Onderafdeling 3. - De tuchtprocedure
 
-## Art. 94
+##### Art. 94
 
 Een klacht kan bij de rechtskundig assessor van de betrokken kamer van de tuchtcommissie worden ingediend door de procureur-generaal bij het Hof van Beroep of door elke belanghebbende.
    De rechtskundig assessor die op de hoogte is gebracht van een mogelijke tekortkoming of zelf een mogelijke tekortkoming vaststelt op basis van een klacht of op elke andere manier, onderzoekt het dossier.
@@ -996,13 +1000,13 @@ Een klacht kan bij de rechtskundig assessor van de betrokken kamer van de tuchtc
    Nadat de rechtskundig assessor de informatie die hij noodzakelijk acht heeft verzameld of heeft laten verzamelen, beslist hij om het dossier aan de tuchtcommissie over te maken wanneer hij van oordeel is dat er voldoende bezwaren bestaan.
    In het andere geval klasseert hij het dossier zonder gevolg. In voorkomend geval brengt hij de klager hiervan op de hoogte. Hij kan deze klassering zonder gevolg afhankelijk maken van het respecteren van bepaalde voorwaarden.
 
-## Art. 95
+##### Art. 95
 
 Een dossier tot verwijzing naar de tuchtcommissie bestaat uit :
   1° een nauwkeurige omschrijving van de feiten die betrokkene ten laste worden gelegd;
   2° een vermelding van de bepalingen van het wettelijk, reglementair en normatief kader waarop de tenlastelegging steunt.
 
-## Art. 96
+##### Art. 96
 
 Ten minste dertig dagen voor de zitting van de tuchtcommissie verzoekt de griffie de betrokkene per aangetekende zending om op de zitting van de tuchtcommissie te verschijnen.
   De aangetekende zending bevat :
@@ -1012,18 +1016,18 @@ Ten minste dertig dagen voor de zitting van de tuchtcommissie verzoekt de griffi
   4° de mogelijkheid tot inzage in het dossier;
   5° de mogelijkheid om een verweerschrift in te dienen, waarbij de betrokkene alle stukken voor zijn verweer voegt.
 
-## Art. 97
+##### Art. 97
 
 De betrokkene heeft het recht van wraking in de gevallen bepaald bij artikel 828 van het Gerechtelijk Wetboek.
   Over de wraking beslist de commissie van beroep.
 
-## Art. 98
+##### Art. 98
 
 De betrokkene mag tijdens de zitting zijn verweer mondeling of schriftelijk doen gelden. Hij mag zich laten bijstaan of vertegenwoordigen door een advocaat of een andere persoon ingeschreven in het openbaar register met een hoedanigheid [1 , met uitzondering van de personen bedoeld in artikel 29, § 2]1.
    De rechtskundig assessor wordt uitgenodigd. Hij neemt niet deel aan de beraadslagingen.
    ----------
    (1)<W 2020-07-20/12, art. 169, 004; Inwerkingtreding : 15-08-2020>
-## Art. 99
+##### Art. 99
 
 De zitting is openbaar.
   De betrokkene kan echter een behandeling achter gesloten deuren vragen :
@@ -1032,7 +1036,7 @@ De zitting is openbaar.
   3° voor de bescherming van de privacy van de betrokkenen;
   4° wanneer een openbare zitting schade kan berokkenen aan het belang van de rechtspleging of het beroepgeheim.
 
-## Art. 100
+##### Art. 100
 
 De beslissing van de tuchtcommissie is met redenen omkleed.
   Bij de overweging tot het uitspreken van een tuchtstraf houdt de tuchtcommissie rekening met de volgende omstandigheden :
@@ -1043,7 +1047,7 @@ De beslissing van de tuchtcommissie is met redenen omkleed.
   5° de mate waarin de verantwoordelijke persoon met het Instituut of de tuchtcommissie meewerkt;
   6° eerdere overtredingen van de voor de inbreuk verantwoordelijke persoon.
 
-## Art. 101
+##### Art. 101
 
 De griffie stelt de beslissing van de tuchtcommissie per aangetekende zending aan de betrokkene ter kennis.
    De zending bevat de procedure van hoger beroep.
@@ -1052,23 +1056,23 @@ De griffie stelt de beslissing van de tuchtcommissie per aangetekende zending aa
    2° de procureur-generaal van het Hof van Beroep.
    Iedere beslissing van de tuchtcommissie verwijst de betrokken persoon aan wie een tuchtstraf opgelegd werd, in de procedurekosten. Het bedrag van de procedurekosten wordt jaarlijks forfaitair bepaald door de algemene vergadering.
 
-###### Onderafdeling 4. - Uitwissing van de tuchtstraf en eerherstel
+#### Onderafdeling 4. - Uitwissing van de tuchtstraf en eerherstel
 
-## Art. 102
+##### Art. 102
 
 Behoudens de schorsing en de schrapping worden de uitgesproken tuchtstraffen na het verstrijken van vijf jaar, te rekenen vanaf de datum van de definitieve beslissing waarbij een tuchtstraf wordt uitgesproken, uitgewist.
   De uitwissing kan slechts gebeuren als tegen de betrokkene gedurende de periode bedoeld in het eerste lid geen nieuwe tuchtstraf werd uitgesproken.
 
-## Art. 103
+##### Art. 103
 
 Een betrokkene tegen wie een tuchtstraf is uitgesproken en die niet is uitgewist, kan bij de commissie van beroep een verzoek tot eerherstel indienen.
   Deze aanvraag is slechts ontvankelijk op voorwaarde dat :
   1° een termijn van vijf jaar is verstreken sinds de datum van de definitieve beslissing waarbij de laatste tuchtstraf is uitgesproken;
   2° de betrokkene strafrechtelijk eerherstel heeft gekregen indien hij een tuchtstraf heeft opgelopen voor een feit dat tot een strafrechtelijke veroordeling aanleiding heeft gegeven.
 
-###### Onderafdeling 5. - Beroep
+#### Onderafdeling 5. - Beroep
 
-## Art. 104
+##### Art. 104
 
 Beroep wordt ingesteld bij de commissie van beroep.
   Beroep is mogelijk tegen :
@@ -1084,41 +1088,41 @@ Beroep wordt ingesteld bij de commissie van beroep.
   Voor elk effectief lid wordt een plaatsvervangend lid aangeduid.
   De effectieve en de plaatsvervangende leden worden benoemd voor een hernieuwbare periode van zes jaar.
   De leden mogen geen lid zijn van de Raad van het Instituut noch van een andere commissie of werkgroep van het Instituut.
-## Art. 105
+##### Art. 105
 
 Elke kamer beschikt ook over een griffie die waargenomen wordt door de personeelsleden van het Instituut.
 
-## Art. 106
+##### Art. 106
 
 De Franstalige kamer neemt kennis van de beslissingen van de Franstalige kamer van de tuchtcommissie.
   De Nederlandstalige kamer neemt kennis van de beslissingen van de Nederlandstalige kamer van tuchtcommissie.
 
-## Art. 107
+##### Art. 107
 
 De betrokkene, de Raad van het Instituut in geval van schending van de wet, de rechtskundig assessor of zijn plaatsvervanger kunnen beroep instellen binnen de dertig dagen te rekenen vanaf de dag waarop de beslissing van de tuchtcommissie of van de Raad van het Instituut hen werd betekend.
   Om ontvankelijk te zijn, moet het beroep ingesteld worden bij een aangetekende zending gericht aan de griffie van de bevoegde kamer van de commissie van beroep binnen de gestelde termijn.
 
-## Art. 108
+##### Art. 108
 
 Ten minste vijftien dagen voor de zitting van de commissie van beroep, verzoekt de griffie de betrokkene per aangetekende zending om op de zitting van de commissie van beroep te verschijnen.
   De betrokkene heeft de mogelijkheid tot inzage van het dossier.
 
-## Art. 109
+##### Art. 109
 
 De betrokkene heeft het recht van wraking in de gevallen bepaald bij artikel 828 van het Gerechtelijk Wetboek.
   Over de wraking beslist de commissie van beroep in een andere samenstelling.
 
-## Art. 110
+##### Art. 110
 
 De zitting is openbaar.
   De betrokkene kan echter een behandeling achter gesloten deuren vragen in de gevallen vermeld in artikel 99, tweede lid.
 
-## Art. 111
+##### Art. 111
 
 De beslissing van de commissie van beroep is met redenen omkleed.
   Bij haar beslissing houdt de commissie van beroep rekening met de omstandigheden vermeld in artikel 100, tweede lid.
 
-## Art. 112
+##### Art. 112
 
 De griffie stelt de beslissing van de commissie van beroep per aangetekende zending aan de betrokkene ter kennis.
   De zending bevat eveneens de procedure van cassatieberoep.
@@ -1127,18 +1131,18 @@ De griffie stelt de beslissing van de commissie van beroep per aangetekende zend
   2° de procureur-generaal van het Hof van Beroep.
   Iedere beslissing van de commissie van beroep verwijst de betrokken persoon aan wie een tuchtstraf opgelegd werd, in de procedurekosten. Het bedrag van de procedurekosten wordt jaarlijks forfaitair bepaald door de algemene vergadering.
 
-## Art. 113
+##### Art. 113
 
 Tegen de beslissing van de commissie van beroep kan cassatieberoep worden ingesteld overeenkomstig de bepalingen van het vierde deel, boek III, titel IVbis van het Gerechtelijk Wetboek.
 
-## Art. 114
+##### Art. 114
 
 De Koning kan de nadere regels van de procedure voor de commissies bepalen na advies van de Raad van het Instituut.
   De Raad van het Instituut brengt zijn advies uit binnen de drie maanden na ontvangst van de adviesaanvraag over het ontwerp, zo niet wordt de Raad van het Instituut geacht geen opmerkingen op het ontwerp te hebben.
 
-##### Afdeling 3. - De intrekking van de hoedanigheid en de andere administratieve straffen
+### Afdeling 3. - De intrekking van de hoedanigheid en de andere administratieve straffen
 
-## Art. 115
+##### Art. 115
 
 § 1. De Raad van het Instituut trekt de hoedanigheid van (intern) accountant, (interne) fiscaal accountant, (interne) gecertificeerd accountant en van (interne) gecertificeerd belastingadviseur in :
   1° automatisch, na de beslissing tot schrapping van de tuchtcommissie of, in voorkomend geval, van de commissie van beroep nadat ze in kracht van gewijsde is gegaan;
@@ -1147,16 +1151,16 @@ De Koning kan de nadere regels van de procedure voor de commissies bepalen na ad
   § 2. De betrokkene kan vijf jaar na de beslissing tot intrekking verzoeken tot het opnieuw verkrijgen van de hoedanigheid, wanneer hij opnieuw voldoet aan de voorwaarden tot toelating van het beroep vermeld in artikel
  10.
 
-## Art. 116
+##### Art. 116
 
 De Raad van het Instituut is bevoegd om [1 administratieve maatregelen te nemen en]1 administratieve sancties uit te spreken zoals voorzien in de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten.
   [1 De Koning legt, na advies van de Raad van het Instituut, de nadere regels over de in het eerste lid bedoelde administratieve maatregelen en administratieve sancties vast. De Raad van het Instituut brengt zijn advies uit binnen drie maanden te rekenen vanaf de dag van ontvangst van de adviesaanvraag over het ontwerp van koninklijk besluit. Wordt er binnen deze termijn geen advies uitgebracht, dan wordt de Raad van het Instituut geacht geen opmerkingen te hebben op het ontwerp dat hem wordt voorgelegd.]1
   ----------
   (1)<W 2023-11-05/07, art. 119, 007; Inwerkingtreding : 21-12-2023>
 
-##### Afdeling 4. - Strafbepalingen
+### Afdeling 4. - Strafbepalingen
 
-## Art. 117
+##### Art. 117
 
 Met [2 hetzij]2 een gevangenisstraf van acht dagen tot drie maanden en met een [2 strafrechtelijke]2 geldboete van tweehonderd tot tweeduizend euro of met een van die straffen alleen [2 , hetzij met een administratieve geldboete van tweehonderd tot tweeduizend euro]2 wordt gestraft :
   1° hij die zich publiekelijk en onrechtmatig de hoedanigheid of de titel toe-eigent van de volgende beroepen :
@@ -1172,14 +1176,14 @@ Met [2 hetzij]2 een gevangenisstraf van acht dagen tot drie maanden en met een [
   (1)<W 2020-07-20/12, art. 170, 004; Inwerkingtreding : 15-08-2020>
   (2)<W 2024-02-09/19, art. 181, 008; Inwerkingtreding : 31-03-2024>
 
-## Art. 118
+##### Art. 118
 
 Onverminderd de bevoegdheid van de officieren van de gerechtelijke politie worden de ambtenaren die hiertoe door de Koning zijn aangesteld op voorstel van de minister bevoegd voor Economie en de minister bevoegd voor Middenstand, belast met het opsporen en vaststellen in processen-verbaal van de inbreuken bedoeld in artikel 117, eerste lid. Deze processen-verbaal hebben bewijskracht tot tegenbewijs. Zij worden onverwijld toegezonden aan de Raad van het Instituut [1 ...]1. Een afschrift ervan wordt gezonden aan de inbreukpleger, [1 ...]1 binnen [1 dertig dagen vanaf de datum van de vaststelling van de inbreuken]1. De personen die onder de toepassing van deze wet vallen, zijn ertoe gehouden alle inlichtingen en alle bescheiden te verstrekken die nodig zijn om de toepassing ervan na te gaan. Elke persoon die weigert de bedoelde inlichtingen en bescheiden te verstrekken of zich tegen de onderzoeksmaatregelen verzet, wordt gestraft met [1 hetzij]1 een gevangenisstraf van acht tot vijftien dagen en met een [1 strafrechtelijke]1 geldboete van 26 tot 1 000 euro of met een van deze straffen alleen [1 , hetzij met een administratieve geldboete van 26 tot 1.000 euro]1.
    [1 De opsporing en de vaststelling van de inbreuken bedoeld in deze wet, door de in het eerste lid bedoelde ambtenaren, gebeuren overeenkomstig de bepalingen van boek XV, titel 1, hoofdstuk 1, van het Wetboek van economisch recht.]1
    ----------
    (1)<W 2024-02-09/19, art. 182, 008; Inwerkingtreding : 31-03-2024>
 
-## Art. 118/1
+##### Art. 118/1
 
 [1 § 1. Wanneer zij inbreuken bedoeld in artikel 117, eerste lid vaststellen, kunnen de ambtenaren bedoeld in artikel 118, eerste lid, een waarschuwing richten tot de overtreder waarbij die tot stopzetting van de handeling wordt aangemaand, overeenkomstig artikel XV.31 van het Wetboek van economisch recht.
    § 2. Wanneer de in artikel 118, eerste lid, bedoelde ambtenaren inbreuken bedoeld in artikel 117, eerste lid, vaststellen, kunnen de door de minister bevoegd voor Middenstand aangestelde ambtenaren een geldsom voorstellen waarvan de vrijwillige betaling door de overtreder de strafvordering doet vervallen, overeenkomstig artikel XV.61 van het Wetboek van economisch recht.
@@ -1188,7 +1192,7 @@ Onverminderd de bevoegdheid van de officieren van de gerechtelijke politie worde
   ----------
   (1)<Ingevoegd bij W 2024-02-09/19, art. 183, 008; Inwerkingtreding : 31-03-2024>
 
-## Art. 118/2
+##### Art. 118/2
 
 [1 § 1. De inbreuken bedoeld in artikel 117, eerste lid opgespoord en vastgesteld door de ambtenaren bedoeld in artikel 118, eerste lid, kunnen het voorwerp uitmaken van:
    1° de toepassing van de transactieprocedure bedoeld in artikel 118/1, § 2;
@@ -1198,37 +1202,37 @@ Onverminderd de bevoegdheid van de officieren van de gerechtelijke politie worde
   ----------
   (1)<Ingevoegd bij W 2024-02-09/19, art. 184, 008; Inwerkingtreding : 31-03-2024>
 
-## Art. 118/3
+##### Art. 118/3
 
 [1 Het openbaar ministerie bezorgt aan de bevoegde ambtenaren bedoeld in artikel XV.60/4 van het Wetboek van economisch recht een kennisgeving van zijn beslissing om al dan niet strafvervolging in te stellen, of al dan niet een minnelijke schikking bedoeld in artikel 216bis van het Wetboek van strafvordering of een bemiddeling in strafzaken bedoeld in artikel 216ter van hetzelfde Wetboek voor te stellen.
    Wanneer het openbaar ministerie ervan afziet een strafvervolging in te stellen, of een minnelijke schikking bedoeld in artikel 216bis van het Wetboek van strafvordering of een bemiddeling in strafzaken bedoeld in artikel 216ter van hetzelfde Wetboek voor te stellen, of wanneer het openbaar ministerie geen beslissing heeft genomen binnen een termijn van drie maanden te rekenen van de dag van ontvangst van het proces-verbaal waarin de inbreuk werd vastgelegd, beslissen de bevoegde ambtenaren bedoeld in artikel XV.60/4 van het Wetboek van economisch recht of de procedure voor de administratieve geldboete moet worden opgestart.]1
   ----------
   (1)<Ingevoegd bij W 2024-02-09/19, art. 185, 008; Inwerkingtreding : 31-03-2024>
 
-## Art. 118/4
+##### Art. 118/4
 
 [1 Indien het openbaar ministerie afziet van een strafvervolging in te stellen, een minnelijke schikking bedoeld in artikel 216bis van het Wetboek van strafvordering of een bemiddeling in strafzaken bedoeld in artikel 216ter van het Wetboek van strafvordering voor te stellen, bezorgt het een afschrift van de procedurestukken van het aanvullend opsporingsonderzoek aan de bevoegde ambtenaren bedoeld in artikel XV.60/4 van het Wetboek van economisch recht.]1
   ----------
   (1)<Ingevoegd bij W 2024-02-09/19, art. 186, 008; Inwerkingtreding : 31-03-2024>
 
-## Art. 118/5
+##### Art. 118/5
 
 [1 De bepalingen van titel 2, hoofdstuk 1/1, van boek XV van het Wetboek van economisch recht zijn van toepassing op de administratieve geldboetes bedoeld in deze wet.
     De opdeciemen bedoeld in artikel 1, eerste lid, van de wet van 5 maart 1952 betreffende de opdeciemen op strafrechtelijke geldboeten zijn eveneens van toepassing op de administratieve geldboetes bedoeld in deze wet.]1
   ----------
   (1)<Ingevoegd bij W 2024-02-09/19, art. 187, 008; Inwerkingtreding : 31-03-2024>
 
-## Art. 118/6
+##### Art. 118/6
 
 [1 De artikelen XV.69, XV.71, XV.72, XV.73 en XV.74 van het Wetboek van economisch recht zijn van toepassing op de strafrechtelijke inbreuken op deze wet.]1
   ----------
   (1)<Ingevoegd bij W 2024-02-09/19, art. 188, 008; Inwerkingtreding : 31-03-2024>
 
-## Art. 119
+##### Art. 119
 
 Bij elke inbreuk, vastgesteld in een proces-verbaal, met betrekking tot artikel 117, eerste lid, 1°, kan het Instituut in rechte optreden om de rechten en de gemeenschappelijke beroepsbelangen van zijn leden te beschermen en desgevallend schadevergoeding te eisen.
 
-## Art. 120
+##### Art. 120
 
 Artikel 458 van het Strafwetboek is van toepassing op de beroepsbeoefenaars en stagiairs en op de personen voor wie zij instaan, alsook op de personen die tijdelijk en occasioneel het beroep uitoefenen.
   Artikel 458 van het Strafwetboek is eveneens van toepassing op het Instituut, op de organen, op de leden van die organen, met inbegrip van de commissies, op de toetsers, op de rechtskundig assessor en op de personeelsleden van het Instituut.
@@ -1238,12 +1242,12 @@ Artikel 458 van het Strafwetboek is van toepassing op de beroepsbeoefenaars en s
   ----------
   (1)<W 2022-06-23/09, art. 9, 006; Inwerkingtreding : 21-07-2022>
 
-#### HOOFDSTUK 12. - Overgangsbepalingen
+## HOOFDSTUK 12. - Overgangsbepalingen
 
-## Art. 121
+##### Art. 121
 
 De rechten van het personeel van de fusionerende instituten blijven verworven ten aanzien van het Instituut dat door deze wet opgericht wordt.
-## Art. 122
+##### Art. 122
 
 [1 § 1.]1 De tuchtdossiers die aanhangig zijn bij de tuchtinstanties van beide fusionerende instituten op de dag van de inwerkingtreding van deze wet, blijven behandeld door de tuchtorganen van beide fusionerende instituten in dezelfde samenstelling en volgens dezelfde procedureregels van toepassing op deze tuchtorganen voorafgaand aan de datum van inwerkingtreding van deze wet. Elk hoger beroep dat ingesteld wordt na de inwerkingtreding van deze wet, wordt behandeld door de commissie van beroep overeenkomstig deze wet.
    [1 Het mandaat van de leden van de tuchtorganen en van de rechtskundig assessor bij het Beroepsinstituut van Erkende Boekhouders en Fiscalisten wordt verlengd tot de datum waarop de dossiers die hangende zijn bij die organen afgehandeld zijn. De dossiers in onderzoek die niet aanhangig zijn gemaakt bij een tuchtorgaan, worden overgemaakt aan de rechtskundig assessor bedoeld in artikel 90.]1 [1 § 2. De op de datum van inwerkingtreding van deze wet bij het Instituut van de Accountants en de Belastingconsulenten hangende dossiers met betrekking tot het toezicht als bedoeld in de artikelen 28, §§ 1 en 2, en artikel 29, § 2, van de wet van 22 april 1999 worden overgemaakt aan en behandeld door het Instituut opgericht bij deze wet volgens de procedures en de nadere regels bepaald in deze wet en haar uitvoeringsbesluiten.
@@ -1252,12 +1256,12 @@ De rechten van het personeel van de fusionerende instituten blijven verworven te
    ----------
    (1)<W 2021-02-02/06, art. 30, 005; Inwerkingtreding : 21-02-2021>
 
-## Art. 123
+##### Art. 123
 
 Elke persoon ingeschreven op de lijst van stagiairs van de fusionerende instituten op de datum van de inwerkingtreding van deze wet, wordt automatisch ingeschreven in het openbaar register van het Instituut.
    De gepresteerde stageduur binnen elk van de fusionerende instituten blijft verworven.
 
-## Art. 124
+##### Art. 124
 
 § 1. Elke persoon ingeschreven op de lijst van de stagiairs van het Instituut van de Accountants en de Belastingconsulenten voorzien in de wet van 22 april 1999 op de datum van de inwerkingtreding van deze wet kan na die datum :
    1° deelnemen aan het volgende bekwaamheidsexamen tot het bekomen van de hoedanigheid van (intern) gecertificeerd accountant, voor zover de stagiair drie jaar stage heeft volbracht als stagiair accountant bij het Instituut van de Accountants en de Belastingconsulenten, uit hoofde van de wet van 22 april 1999. Dit bekwaamheidsexamen wordt georganiseerd door het Instituut, opgericht door deze wet, volgens de nadere regels bepaald in deze wet en in haar uitvoeringsbesluiten, of
@@ -1273,7 +1277,7 @@ Elke persoon ingeschreven op de lijst van stagiairs van de fusionerende institut
    ----------
    (1)<W 2021-02-02/06, art. 31, 005; Inwerkingtreding : 21-02-2021>
 
-## Art. 125
+##### Art. 125
 
 De persoon, natuurlijke of rechtspersoon, die op de datum van de inwerkingtreding van deze wet vermeld staat op de deellijst van de accountants met toepassing van de wet van 22 april 1999, wordt na die datum in het openbaar register ingeschreven met de hoedanigheid "(intern) gecertificeerd accountant".
    De persoon, natuurlijke of rechtspersoon, die op de datum van de inwerkingtreding van deze wet vermeld staat op de deellijst van de belastingconsulent met toepassing van de wet van 22 april 1999, wordt na die datum in het openbaar register ingeschreven met de hoedanigheid "(intern) gecertificeerd belastingadviseur".
@@ -1282,7 +1286,7 @@ De persoon, natuurlijke of rechtspersoon, die op de datum van de inwerkingtredin
    De personen, natuurlijke of rechtspersonen, die op de datum van de inwerkingtreding van deze wet de titel "accountant-belastingconsulent" voeren uit hoofde van de wet van 22 april 1999, kunnen ook op hun verzoek de hoedanigheid van "(intern) gecertificeerd belastingadviseur" verkrijgen en de titel dragen in de plaats van de hoedanigheid en titel van "gecertificeerd accountant".
    De personen, natuurlijke of rechtspersonen, ingeschreven als "accountant" of "fiscaal accountant" zijn slechts onderworpen aan hoofdstuk 7 na een periode van vier jaar die aanvangt op de eerste dag van de maand die volgt op de datum van inwerkingtreding van deze wet.
 
-## Art. 126
+##### Art. 126
 
 In alle andere wettelijke en reglementaire bepalingen moeten de woorden "Beroepsinstituut van Erkende Boekhouders en Fiscalisten" alsook de woorden "Instituut van de Accountants en de Belastingconsulenten" telkens gelezen worden als "Instituut van de Belastingadviseurs en de Accountants".
   In alle andere wettelijke en reglementaire bepalingen moet het woord "accountant" telkens gelezen worden als "gecertificeerd accountant".
@@ -1291,7 +1295,7 @@ In alle andere wettelijke en reglementaire bepalingen moeten de woorden "Beroeps
   In alle andere wettelijke en reglementaire bepalingen moeten de woorden "erkend boekhouder-fiscalist" telkens gelezen worden als "fiscaal accountant".
   In alle andere wettelijke en reglementaire bepalingen moeten de woorden "boekhouder(-fiscalist)" telkens gelezen worden als "(fiscaal) accountant".
 
-## Art. 127
+##### Art. 127
 
 § 1. In afwijking van de artikel en 68 en 69, wordt voor een periode van vier jaar na de inwerkingtreding van dit artikel een overgangsraad opgericht die bestaat uit :
   1° een voorzitter die de voorzitter is van het Instituut van de Accountants en de Belastingconsulenten, verkozen door de laatste algemene vergadering gehouden vóór de inwerkingtreding van dit artikel ;
@@ -1324,7 +1328,7 @@ In alle andere wettelijke en reglementaire bepalingen moeten de woorden "Beroeps
    ----------
    (1)<W 2020-02-22/01, art. 2, 003; Inwerkingtreding : 03-03-2020>
 
-## Art. 128
+##### Art. 128
 
 De minister bevoegd voor Economie en de minister bevoegd voor Middenstand dragen elk een regeringscommissaris, ambtenaar bij de Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie bij het Instituut voor. De regeringscommissarissen worden door de Koning benoemd voor een periode van drie jaar na de inwerkingtreding van dit artikel .
   De regeringscommissarissen hebben het recht om elke vergadering van de overgangsraad van het Instituut bij te wonen, alsook de algemene vergadering van het Instituut. Zij hebben toegang tot alle stukken die nodig zijn voor de uitoefening van hun opdracht. Zij kunnen een vergadering van de Raad van het Instituut of een bijzondere algemene vergadering bijeenroepen.
@@ -1334,15 +1338,15 @@ De minister bevoegd voor Economie en de minister bevoegd voor Middenstand dragen
   Jaarlijks maken de regeringscommissarissen een uitvoerig verslag van hun werkzaamheden aan de ministers over.
   Het mandaat van de regeringscommissarissen wordt kosteloos uitgeoefend.
 
-#### HOOFDSTUK 13. - Slotbepalingen
+## HOOFDSTUK 13. - Slotbepalingen
 
-## Art. 129
+##### Art. 129
 
 De volgende wetten worden opgeheven op de datum vastgesteld door de Koning :
   1° de wet van 22 april 1999 betreffende de boekhoudkundige en fiscale beroepen, laatst gewijzigd bij de wet van 18 september 2017;
   2° de wet van 22 april 1999 betreffende de beroepstucht voor accountants en belastingconsulenten, laatst gewijzigd bij de wet van 10 april 2014.
 
-## Art. 130
+##### Art. 130
 
 Deze wet treedt in werking op de datum bepaald door de Koning, met uitzondering van de artikel en 127 tot en met 129 die in werking treden op 1 juni 2019.
 

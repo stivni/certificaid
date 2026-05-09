@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 18 van 29 december 1992, met betrekking tot de vrijstellingen ten aanzien van de uitvoer van goederen en diensten naar een plaats buiten de Gemeenschap, op het stuk van de belasting over de toegevoegde waarde
@@ -43,31 +47,31 @@ pg. 106949
 
     Inhoudstafel
 
-HOOFDSTUK I: Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek.
+## HOOFDSTUK I: Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek.
 
-    Afdeling 1: Uitvoer van goederen door of voor rekening van de verkoper. Vrijstelling
+### Afdeling 1: Uitvoer van goederen door of voor rekening van de verkoper. Vrijstelling
     ingesteld bij artikel 39, § 1, 1°, van het Wetboek.
 
-    Afdeling 2: Goederen afgehaald door de niet in België gevestigde koper of voor zijn
+### Afdeling 2: Goederen afgehaald door de niet in België gevestigde koper of voor zijn
     rekening. Vrijstelling ingesteld bij artikel 39, § 1, 2°, van het Wetboek.
 
-    Afdeling 3: Diensten. Vrijstelling ingesteld bij artikel 39, § 1, 3°, van het Wetboek.
+### Afdeling 3: Diensten. Vrijstelling ingesteld bij artikel 39, § 1, 3°, van het Wetboek.
 
-    Afdeling 4: Goederen uit te voeren in de persoonlijke bagage van de reizigers. Vrijstelling
+### Afdeling 4: Goederen uit te voeren in de persoonlijke bagage van de reizigers. Vrijstelling
     ingesteld bij artikel 39, § 1, 4°, van het Wetboek.
 
-HOOFDSTUK II: Vrijstelling ingesteld bij artikel 39, § 2, van het Wetboek.
+## HOOFDSTUK II: Vrijstelling ingesteld bij artikel 39, § 2, van het Wetboek.
 
-HOOFDSTUK III: Algemene bepaling betreffende de hoofdstukken I en II.
+## HOOFDSTUK III: Algemene bepaling betreffende de hoofdstukken I en II.
 
-HOOFDSTUK IV: Vrijstelling ingesteld bij artikel 40, § 1, 3°, van het Wetboek.
+## HOOFDSTUK IV: Vrijstelling ingesteld bij artikel 40, § 1, 3°, van het Wetboek.
 
-HOOFDSTUK V: Algemene bepalingen.
+## HOOFDSTUK V: Algemene bepalingen.
 
-#### HOOFDSTUK I
+## HOOFDSTUK I
     Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek.
 
-## Art. 1
+#### Art. 1
 (De tekst van KB nr. 18, artikel 1, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
@@ -75,11 +79,11 @@ De in artikel 39, § 1, van het Wetboek bedoelde vrijstelling wordt verleend voo
 voorwaarden zijn vervuld, de formaliteiten worden nagekomen en de bewijzen worden geleverd
 die in dit hoofdstuk zijn bepaald.
 
-##### AFDELING 1
+### AFDELING 1
     Uitvoer van goederen door of voor rekening van de verkoper.
     Vrijstelling ingesteld bij artikel 39, § 1, 1°, van het Wetboek.
 
-## Art. 2
+#### Art. 2
 (De tekst van KB nr. 18, artikel 2, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
@@ -88,7 +92,7 @@ verzendingsstuk dat alle gegevens van een verkoopfactuur bevat, moet worden afge
 het douanekantoor waar, overeenkomstig de douanereglementering inzake uitvoer, een aangifte
 ten uitvoer moet worden ingediend.
 
-## Art. 3
+#### Art. 3
 (De tekst van KB nr. 18, artikel 3, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
@@ -97,7 +101,7 @@ echtheid van de uitvoer blijkt; hij moet ze op ieder verzoek van de met de contr
 ambtenaren overleggen. Die stukken zijn, onder meer, de bestelbons, de vervoerdocumenten,
 de betalingsstukken alsmede de aangifte ten uitvoer bedoeld in artikel 2.
 
-## Art. 4
+#### Art. 4
 (De tekst van KB nr. 18, artikel 4, is van toepassing met ingang van 09.09.2005 (Art.1, KB
 24.08.2005, B.S. 09.09.2005 - Erratum B.S. 27.09.2005))
 
@@ -120,12 +124,12 @@ aanvraag om inschrijving, de verkoper daarvan kennis te geven aan de Dienst van 
 gevestigd bij de Dienst voor Inschrijving van de Voertuigen (DIV) op de door of vanwege de
 Minister van Financiën voorgeschreven wijze.
 
-##### AFDELING 2
+### AFDELING 2
   Goederen afgehaald door de niet in België gevestigde koper of voor
     zijn rekening. Vrijstelling ingesteld bij artikel 39, § 1, 2°, van
     het Wetboek.
 
-## Art. 5
+#### Art. 5
 (De tekst van KB nr. 18, artikel 5, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
@@ -148,7 +152,7 @@ sportvliegtuigen of andere vervoermiddelen voor privé-gebruik, en die zich als 
 boord van die vervoermiddelen bevinden bij de uitvoer ervan. De toepassing van deze bepaling
 wordt door of vanwege de Minister van Financiën geregeld.
 
-## Art. 6
+#### Art. 6
 (De tekst van KB nr. 18, artikel 6, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
@@ -159,10 +163,10 @@ stuk voorgeschreven door artikel 5, § 2.
 De verkoper wordt pas van zijn verantwoordelijkheid ontslagen indien hij kan bewijzen dat de
 goederen onder de gestelde voorwaarden werden uitgevoerd.
 
-##### AFDELING 3
+### AFDELING 3
 Diensten. Vrijstelling ingesteld bij artikel 39, § 1, 3°, van het Wetboek
 
-## Art. 7
+#### Art. 7
 (De tekst van KB nr. 18, artikel 7, eerste lid, is van toepassing met ingang van 01.01.2010
 (KB 09.12.2009, B.S. 17.12.2009, ed. 2))
 
@@ -180,11 +184,11 @@ afgegeven, de hoeveelheid en de gewone benaming van de uitgevoerde goederen niet
 vermeld, moet die kopiefactuur met deze gegevens worden aangevuld, of moet eveneens een
 verzendingsstuk, waarop die gegevens voorkomen, worden afgegeven.
 
-##### AFDELING 4
+### AFDELING 4
     Goederen uit te voeren in de persoonlijke bagage van de reizigers.
     Vrijstelling ingesteld bij artikel 39, § 1, 4°, van het Wetboek.
 
-## Art. 8
+#### Art. 8
 (De tekst van KB nr. 18, artikel 8, 2°, werd gewijzigd met ingang van 01.01.2020 (Art. 2,
 KB 07.11.2019, B.S. 20.11.2019, pg. 106949)
 
@@ -205,7 +209,7 @@ beperkingen en voorwaarden :
     dat de verkoopfactuur onder de door hem vastgelegde voorwaarden mag worden
     vervangen door een als zodanig geldend stuk.
 
-## Art. 9
+#### Art. 9
 (De tekst van KB nr. 18, artikel 9, § 2,, is van toepassing met ingang van 01.01.1996
 (Art.22, KB 25.02.1996))
 
@@ -223,10 +227,10 @@ Onder woonplaats of gebruikelijke verblijfplaats van de reiziger wordt verstaan 
 zodanig op zijn reispas, op zijn identiteitskaart of, bij ontstentenis daarvan, op een als
 identiteitsbewijs erkend stuk is vermeld.
 
-#### HOOFDSTUK II
+## HOOFDSTUK II
     Vrijstelling ingesteld bij artikel 39, § 2, van het Wetboek.
 
-## Art. 10
+#### Art. 10
 (De tekst van KB nr. 18, artikel 10, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
@@ -234,7 +238,7 @@ De in artikel 39, § 2, van het Wetboek bedoelde vrijstelling wordt verleend voo
 voorwaarden zijn vervuld, de formaliteiten worden nagekomen en de bewijzen worden geleverd
 die in dit hoofdstuk zijn bepaald.
 
-## Art. 11
+#### Art. 11
 (De tekst van KB nr. 18, artikel 11, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992)
 
@@ -251,7 +255,7 @@ aan de voorwaarden gesteld door de douanereglementering.
 De vrijstelling wordt voorlopig verleend. Ze wordt slechts definitief op het tijdstip waarop de
 goederen worden uitgevoerd.
 
-## Art. 12
+#### Art. 12
 (De tekst van KB nr. 18, artikel 12, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992 en Art.15, KB 22.11.1994))
 
@@ -261,7 +265,7 @@ bedoeld in dat artikel, is vrijgesteld van de belasting.
 De vrijstelling wordt voorlopig verleend. Ze wordt slechts definitief op het tijdstip waarop de
 goederen worden uitgevoerd.
 
-## Art. 13
+#### Art. 13
 (De tekst van KB nr. 18, artikel 13, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992 en Art.15, KB 22.11.1994))
 
@@ -274,16 +278,16 @@ te verrichten.
 De vrijstelling wordt voorlopig verleend. Ze wordt slechts definitief op het tijdstip waarop die
 goederen worden uitgevoerd.
 
-## Art. 14
+#### Art. 14
 (De tekst van KB nr. 18, artikel 14, werd opgeheven met ingang van 01.01.1996 (Art.23, A,
 KB 25.02.1996))
 
     (opgeheven)
 
-#### HOOFDSTUK III
+## HOOFDSTUK III
     Algemene bepaling betreffende de hoofdstukken I en II.
 
-## Art. 15
+#### Art. 15
 (De tekst van KB nr. 18, artikel 15, eerste lid, werd gewijzigd met ingang van 07.01.2016
 (Art. 5, KB 18.12.2015, B.S. 28.12.2015, Ed. 2, pg. 79604))
 
@@ -296,31 +300,31 @@ belasting opschorten.
 Deze opschorting kan worden toegestaan voor een termijn van ten hoogste één jaar; in
 uitzonderlijke omstandigheden kan die termijn evenwel worden verlengd.
 
-#### HOOFDSTUK IV
+## HOOFDSTUK IV
     Vrijstelling ingesteld bij artikel 40, § 1, 3°, van het Wetboek.
 
-## Art. 16
+#### Art. 16
 (De tekst van KB nr. 18, artikel 16 is opgeheven met ingang van 01.01.1996 (Art.23, B,
 KB 25.02.1996))
 
     (opgeheven)
 
-## Art. 17
+#### Art. 17
 (De tekst van KB nr. 18, artikel 17 is opgeheven met ingang van 01.01.1996 (Art.23, B,
 KB 25.02.1996))
 
     (opgeheven)
 
-#### HOOFDSTUK V
+## HOOFDSTUK V
     Algemene bepalingen.
 
-## Art. 18
+#### Art. 18
 (De tekst van KB nr. 18, artikel 18 is opgeheven met ingang van 01.01.1996 (Art.23, C,
 KB 25.02.1996))
 
     (opgeheven)
 
-## Art. 19
+#### Art. 19
 (De tekst van KB nr. 18, artikel 19, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
@@ -328,7 +332,7 @@ Indien ten gevolge van de niet-naleving van de in de vorige hoofdstukken voorges
 formaliteiten het voordeel van de vrijstelling verloren wordt, kan door of vanwege de Minister
 van Financiën gehele of gedeeltelijke ontheffing van het opgelopen verval worden verleend.
 
-## Art. 20
+#### Art. 20
 (De tekst van KB nr. 18, artikel 20, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
@@ -336,13 +340,13 @@ Dit besluit vervangt het koninklijk besluit nr. 18 van 27 december 1977 met betr
 vrijstellingen ten aanzien van de uitvoer van goederen en diensten, op het stuk van de belasting
 over de toegevoegde waarde.
 
-## Art. 21
+#### Art. 21
 (De tekst van KB nr. 18, artikel 21, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
 Dit besluit treedt in werking op 1 januari 1993.
 
-## Art. 22
+#### Art. 22
 (De tekst van KB nr. 18, artikel 22, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
@@ -406,7 +410,7 @@ Gewijzigd met ingang van 22.07.2019 (KB 28.06.2019, B.S. 12.07.2019, pg. 70370))
     door artikel 56, § 2, van het Wetboek van de belasting over de toegevoegde waarde in
     het voordeel van kleine ondernemingen.)
 
-## Art. 1
+#### Art. 1
     (De tekst van KB nr. 19-2014, art. 1, eerste lid, werd vervangen met ingang van
     01.01.2016 (Art. 1, KB 18.12.2015, B.S 28.12.2015 – Ed. 2, pg. 79606))
 
@@ -420,7 +424,7 @@ van de overeenkomstig artikel 56bis, § 4, van het Wetboek bepaalde omzetcijfers
 toepassing van het eerste lid afzonderlijk rekening gehouden met de activiteit van ieder van de
 echtgenoten, ongeacht hun huwelijksvoorwaarden.
 
-## Art. 2
+#### Art. 2
     (De tekst van KB nr. 19-2014, art. 2, § 1, eerste lid, werd gewijzigd en § 2, werd
     vervangen met ingang van 01.01.2016 (Art. 2, KB 18.12.2015, B.S 28.12.2015 – Ed. 2,
     pg. 79606))
@@ -453,7 +457,7 @@ raming van de omzet van het vierde kwartaal.
 
 Regeling kleine ondernemingen www.fisconetplus.be pg.1
 
-## Art. 3
+#### Art. 3
     (De tekst van KB nr. 19-2014, art. 3, werd ingevoerd met ingang van 01.04.2014
     (Art. 3, KB 29.06.2014, B.S 09.07.2014, pg. 52811))
 
@@ -479,7 +483,7 @@ bedrag.
     Deze stukken worden binnen de maand vanaf de wijziging van belastingregeling ingediend bij het
 controlekantoor van de belasting over de toegevoegde waarde waaronder de belastingplichtige ressorteert.
 
-## Art. 4
+#### Art. 4
     (De tekst van KB nr. 19-2014, art. 4, werd vervangen met ingang van 22.07.2019
     (Art. 7, KB 28.06.2019, B.S 12.07.2019, pg. 70370))
 
@@ -496,7 +500,7 @@ artikel 53quinquies, eerste en tweede lid, van het Wetboek.
 ontheven is de jaarlijkse lijst van de btw-belastingplichtige afnemers in te dienen, is eveneens ontheven van
 de in paragraaf 1 bedoelde verplichtingen.
 
-## Art. 5
+#### Art. 5
     (De tekst van KB nr. 19-2014, art. 5, werd ingevoerd met ingang van 01.04.2014
     (Art. 5, KB 29.06.2014, B.S 09.07.2014, pg. 52811))
 
@@ -504,7 +508,7 @@ de in paragraaf 1 bedoelde verplichtingen.
 Wetboek, van goederen opgenomen in de bijlage bij dit besluit, kan niet genieten van de
 vrijstellingsregeling van belasting.
 
-## Art. 6
+#### Art. 6
     (De tekst van KB nr. 19-2014, art. 6, werd ingevoerd met ingang van 01.04.2014
     (Art. 6, KB 29.06.2014, B.S 09.07.2014, pg. 52811))
 
@@ -532,7 +536,7 @@ belastingregeling wordt vóór 1 december bij een ter post aangetekende brief ke
 van het controlekantoor van de belasting over de toegevoegde waarde waaronder de belastingplichtige
 ressorteert. Die wijziging heeft uitwerking met ingang van 1 januari van het volgend jaar.
 
-## Art. 7
+#### Art. 7
     (De tekst van KB nr. 19-2014, art. 7, werd ingevoerd met ingang van 01.04.2014
     (Art. 7, KB 29.06.2014, B.S 09.07.2014, pg. 52811))
 
@@ -561,7 +565,7 @@ verrichten bij toepassing van de artikelen 45 tot 49 van het Wetboek.
 betrekking tot de handelingen van de laatste maand van het kalenderkwartaal na dat waarin de in het
 eerste lid bedoelde stukken bij het controlekantoor werden ingediend.
 
-## Art. 8
+#### Art. 8
     (De tekst van KB nr. 19-2014, art. 8, werd ingevoerd met ingang van 01.04.2014
     (Art. 8, KB 29.06.2014, B.S 09.07.2014, pg. 52811))
 
@@ -569,7 +573,7 @@ eerste lid bedoelde stukken bij het controlekantoor werden ingediend.
 bepaald door artikel 56, § 2, van het Wetboek van de belasting over de toegevoegde waarde in het voordeel
 van kleine ondernemingen wordt opgeheven.
 
-## Art. 9
+#### Art. 9
     (De tekst van KB nr. 19-2014, art. 9, werd ingevoerd met ingang van 01.04.2014
     (Art. 9, KB 29.06.2014, B.S 09.07.2014, pg. 52811))
 
@@ -577,7 +581,7 @@ van kleine ondernemingen wordt opgeheven.
 
 Regeling kleine ondernemingen www.fisconetplus.be pg.3
 
-## Art. 10
+#### Art. 10
     (De tekst van KB nr. 19-2014, art. 10, werd ingevoerd met ingang van 01.04.2014 (Art.
     10, KB 29.06.2014, B.S 09.07.2014, pg. 52811))
 

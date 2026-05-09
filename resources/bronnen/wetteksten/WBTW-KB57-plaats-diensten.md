@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 57, van 31.10.2017 met betrekking tot de plaats van diensten in functie van hun werkelijke gebruik of hun werkelijke exploitatie inzake belasting over de toegevoegde waarde wat goederenvervoerdiensten en ermee samenhangende diensten betreft

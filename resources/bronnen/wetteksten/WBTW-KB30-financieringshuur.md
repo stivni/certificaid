@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 30 van 29 december 1992, met betrekking tot de toepassing van de belasting over de toegevoegde waarde op de onroerende financieringshuur

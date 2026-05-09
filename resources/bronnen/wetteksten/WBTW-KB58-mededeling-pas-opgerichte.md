@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 58 van 28 mei 2019, met betrekking tot de mededeling van de inlichtingen inzake de pas opgerichte gebouwen voor de toepassing van de belasting over de toegevoegde waarde

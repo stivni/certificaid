@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 3
+  type: "Art."
+  sub_strategy: null
 ---
 
 # AVG — Algemene Verordening Gegevensbescherming 2016/679
@@ -412,7 +416,7 @@ bescherming van persoonsgegevens, en het waarborgen van het vrije verkeer van pe
 (2) Richtlijn 2002/58/EG van het Europees Parlement en de Raad van 12 juli 2002 betreffende de verwerking van persoonsgegevens en de bescherming van de persoonlijke levenssfeer in de sector elektronische communicatie (richtlijn betreffende privacy en elektronische communicatie) (PB L 201 van 31.7.2002, blz. 37).
 
 HEBBEN DE VOLGENDE VERORDENING VASTGESTELD:
-#### HOOFDSTUK I
+## HOOFDSTUK I
 
 Algemene bepalingen
 
@@ -498,7 +502,7 @@ b) verwerking van persoonsgegevens in het kader van de activiteiten van één ve
 25) „dienst van de informatiemaatschappij”: een dienst als gedefinieerd in artikel 1, lid 1, punt b), van Richtlijn (EU) 2015/1535 van het Europees Parlement en de Raad (1);
 26) „internationale organisatie”: een organisatie en de daaronder vallende internationaalpubliekrechtelijke organen of andere organen die zijn opgericht bij of op grond van een overeenkomst tussen twee of meer landen.
 
-#### HOOFDSTUK II
+## HOOFDSTUK II
 
 Beginselen
 
@@ -611,7 +615,7 @@ Indien de doeleinden waarvoor een verwerkingsverantwoordelijke persoonsgegevens 
 2.
 Wanneer de verwerkingsverantwoordelijke in de in lid 1 van dit artikel bedoelde gevallen kan aantonen dat hij de betrokkene niet kan identificeren, stelt hij de betrokkene daarvan indien mogelijk in kennis. In dergelijke gevallen zijn de artikelen 15 tot en met 20 niet van toepassing, behalve wanneer de betrokkene, met het oog op de uitoefening van zijn rechten uit hoofde van die artikelen, aanvullende gegevens verstrekt die het mogelijk maken hem te identificeren.
 
-#### HOOFDSTUK III
+## HOOFDSTUK III
 
 Rechten van de betrokkene
 Afde li ng 1
@@ -857,7 +861,7 @@ e) de specificatie van de verwerkingsverantwoordelijke of de categorieën van ve
 f) de opslagperiodes en de toepasselijke waarborgen, rekening houdend met de aard, de omvang en de doeleinden van de verwerking of van de categorieën van verwerking,
 g) de risico's voor de rechten en vrijheden van de betrokkenen, en
 h) het recht van betrokkenen om van de beperking op de hoogte te worden gesteld, tenzij dit afbreuk kan doen aan het doel van de beperking.
-#### HOOFDSTUK IV
+## HOOFDSTUK IV
 
 Verwerkingsverantwoordelijke en verwerker
 Afde li n g 1
@@ -1265,7 +1269,7 @@ De Commissie is bevoegd overeenkomstig artikel 92 gedelegeerde handelingen vast 
 9.
 De Commissie kan uitvoeringshandelingen vaststellen die voorzien in technische normen voor certificeringsmecha­ nismen en gegevensbeschermingszegels en -merktekens en mechanismen ter bevordering en erkenning van die certifice­ ringsmechanismen en gegevensbeschermingszegels en -merktekens. Die uitvoeringshandelingen worden vastgesteld volgens de in artikel 93, lid 2, bedoelde onderzoeksprocedure.
 
-#### HOOFDSTUK V
+## HOOFDSTUK V
 
 Doorgiften van persoonsgegevens aan derde landen of internationale organisaties
 
@@ -1401,7 +1405,7 @@ a) procedures voor internationale samenwerking te ontwikkelen, zodat de effectie
 b) internationale wederzijdse bijstand te bieden bij de handhaving van de wetgeving inzake de bescherming van persoonsgegevens, onder meer door kennisgeving, doorverwijzing van klachten, bijstand bij onderzoeken en uitwisseling van informatie, voor zover er passende waarborgen voor de bescherming van persoonsgegevens en andere grondrechten en fundamentele vrijheden bestaan;
 c) belanghebbenden te betrekken bij besprekingen en activiteiten om de internationale samenwerking bij de handhaving van de wetgeving inzake de bescherming van persoonsgegevens te bevorderen; en
 d) de uitwisseling en het documenteren van wetgeving en praktijken inzake de bescherming van persoonsgegevens te bevorderen, onder meer betreffende jurisdictiegeschillen met derde landen.
-#### HOOFDSTUK VI
+## HOOFDSTUK VI
 
 Onafhankelijke toezichthoudende autoriteiten
 Af deli n g 1
@@ -1598,7 +1602,7 @@ Elke lidstaat kan bij wet bepalen dat zijn toezichthoudende autoriteit, naast de
 Activiteitenverslagen
 Elke toezichthoudende autoriteit stelt jaarlijks een verslag over haar activiteiten op, met daarin mogelijk een lijst van de soorten gemelde inbreuken en de soorten maatregelen die overeenkomstig artikel 58, lid 2, worden genomen. Die verslagen worden toegezonden aan het nationale parlement, de regering en elke andere autoriteit die daartoe in het lidstatelijke recht is aangewezen. Zij worden ter beschikking gesteld van het publiek, de Commissie en het Comité.
 
-#### HOOFDSTUK VII
+## HOOFDSTUK VII
 
 Samenwerking en coherentie
 Af del in g 1
@@ -1909,7 +1913,7 @@ De besprekingen van het Comité zijn vertrouwelijk indien het comité dit noodza
 2.
 Op de toegang tot documenten die aan de leden van het Comité, deskundigen en vertegenwoordigers van derden worden voorgelegd, is Verordening (EG) nr. 1049/2001 van het Europees Parlement en de Raad (1) van toepassing.
 
-#### HOOFDSTUK VIII
+## HOOFDSTUK VIII
 
 Beroep, aansprakelijkheid en sancties
 
@@ -2025,7 +2029,7 @@ De lidstaten stellen de regels inzake andere sancties vast die van toepassing zi
 2.
 Elke lidstaat deelt de Commissie uiterlijk op 25 mei 2018 de overeenkomstig lid 1 vastgestelde wetgevingsbepa­ lingen mee, alsook onverwijld alle latere wijzigingen daarvan.
 
-#### HOOFDSTUK IX
+## HOOFDSTUK IX
 
 Bepalingen in verband met specifieke situaties op het gebied van gegevensverwerking
 
@@ -2088,7 +2092,7 @@ Wanneer kerken en religieuze verenigingen of gemeenschappen in een lidstaat op h
 2.
 Kerken en religieuze verenigingen die overeenkomstig lid 1 van dit artikel uitgebreide regels hanteren, zijn onderworpen aan toezicht door een onafhankelijke toezichthoudende autoriteit, die specifiek kan zijn, op voorwaarde dat de autoriteit voldoet aan de voorwaarden die zijn vastgesteld in hoofdstuk VI van deze verordening.
 
-#### HOOFDSTUK X
+## HOOFDSTUK X
 
 Gedelegeerde handelingen en uitvoeringshandelingen
 
@@ -2119,7 +2123,7 @@ Wanneer naar dit lid wordt verwezen, is artikel 5 van Verordening (EU) nr. 182/2
 3.
 Wanneer naar dit lid wordt verwezen, is artikel 8 van Verordening (EU) nr. 182/2011, in samenhang met artikel 5 van die verordening, van toepassing.
 
-#### HOOFDSTUK XI
+## HOOFDSTUK XI
 
 Slotbepalingen
 

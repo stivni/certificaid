@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Registratierechten — federaal
@@ -36,11 +40,11 @@ EN GRIFFIERECHTEN                                                      D’HYPOT
 
 (KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie-              (Arrêté royal n 64 du 30.11.1939, contenant le Code des droits hypotheek- en griffierechten (B.S. 01.12.1939) err. (B.S., 03.12.1939 en B.S.   d’enregistrement, d’hypothèque et de greffe (M.B., 01.12.1939) err. (M.B., 13.12.1939). Dit KB werd bekrachtigd bij art. 2 van de wet van 16.06.1947       03.12.1939 et M.B., 13.12.1939). Cet AR a été confirmé par l’art. 2 de la loi du (B.S. 14.08.1947) err. (B.S., 26.10.1947))                                      16.06.1947 (M.B., 14.08.1947) err. (M.B., 26.10.1947))
 
-### TITEL I - REGISTRATIERECHT                                              TITRE IER - DROIT D’ENREGISTREMENT
+## TITEL I - REGISTRATIERECHT                                              TITRE IER - DROIT D’ENREGISTREMENT
 
-#### HOOFDSTUK I - Formaliteit der registratie en vestiging                                CHAPITRE Ier - Formalité de l’enregistrement et van de belasting                                                          établissement de l’impôt
+### HOOFDSTUK I - Formaliteit der registratie en vestiging                                CHAPITRE Ier - Formalité de l’enregistrement et van de belasting                                                          établissement de l’impôt
 
-## Art. 1
+###### Art. 1
 
 Article 1er
 
@@ -50,7 +54,7 @@ Registratie is een formaliteit bestaande in het afschrijven, ontleden of        
 
 Deze formaliteit geeft aanleiding tot heffing van een belasting                 Cette formalité donne lieu à la perception d’un impôt dénommé droit genaamd registratierecht.                                                       d’enregistrement.
 
-## Art. 2
+###### Art. 2
 
 Article 2
 
@@ -68,7 +72,7 @@ Onverminderd het derde en het vierde lid, worden de vonnissen en               S
 
 Onverminderd het derde en het vierde lid, worden de onderhandse                Sans préjudice des alinéas 3 et 4, les actes sous seing privé sont akten geregistreerd op een origineel of op een kopie, met uitzondering         enregistrés sur un original ou une copie, à l'exception des actes visés van de akten bedoeld in artikel 19, eerste lid, 3° die op een kopie            à l'article 19, alinéa 1er, 3° qui le sont sur une copie. worden geregistreerd.
 
-## Art. 2bis
+###### Art. 2bis
 
 Article 2bis
 
@@ -78,7 +82,7 @@ De registratie van de notariële akten vereist de vermelding van het            
 
 Deze vermelding geschiedt in de akte of, ten laatste bij de aanbieding              Cette mention est faite dans l’acte ou, au plus tard lors de sa ervan ter registratie, in een aanvullende verklaring onderaan de akte,              présentation à l’enregistrement, dans une déclaration complétive au getekend door de betrokken partij of door de instrumenterende                       pied de l’acte, signée par la partie intéressée ou, en son nom, par le notaris, in haar naam.                                                              notaire instrumentant.
 
-## Art. 2ter
+###### Art. 2ter
 
 Article 2ter
 
@@ -88,7 +92,7 @@ De vermeldingsplicht bedoeld in artikel 2bis, eerste lid, geldt ook voor        
 
 Indien aan een partij bij een dergelijke akte nog geen                              Lorsqu'une partie à un tel acte ne s'est pas encore vu attribuer de ondernemingsnummer is toegekend, bevestigt die partij dit in de akte                numéro d'entreprise, elle le certifie dans l'acte ou dans une of in een ondertekende aanvullende verklaring onderaan de akte.                     déclaration complétive signée au pied de l'acte.
 
-## Art. 2quater
+###### Art. 2quater
 
 Article 2quater
 
@@ -105,7 +109,7 @@ In geval de uitvoering van de formaliteit van de registratie wordt             E
 
 Dit artikel is niet van toepassing in het geval bepaald in artikel 25.         Le présent article n'est pas d'application dans le cas visé à l'article 25.
 
-## Art. 3
+###### Art. 3
 
 Article 3
 
@@ -113,13 +117,13 @@ Article 3
 
 Wordt een in een andere taal dan de landstalen gestelde akte of                S’il est présenté à l’enregistrement un acte ou écrit rédigé dans une geschrift ter registratie aangeboden, zo kan het bevoegde kantoor              langue autre que les langues nationales, le bureau compétent de van de Algemene Administratie van de Patrimoniumdocumentatie                   l’Administration générale de la Documentation patrimoniale peut eisen dat, op de kosten van de persoon die de formaliteit vordert, een         exiger qu’il y soit annexé, aux frais de la personne qui requiert la door een beëdigde vertaler voor echt verklaarde vertaling daaraan              formalité, une traduction certifiée par un traducteur juré. worde toegevoegd.
 
-## Art. 4
+###### Art. 4
 
 Article 4
 
 De registratie is ondeelbaar: zij wordt toegepast op de gehele akte of         L’enregistrement est indivisible : il s’applique à l’entièreté de l’acte ou het geheel geschrift welke tot de formaliteit wordt aangeboden.                de l’écrit présenté à la formalité.
 
-## Art. 5
+###### Art. 5
 
 Article 5
 
@@ -127,7 +131,7 @@ Article 5
 
 (…)                                                                            (…)
 
-## Art. 5bis
+###### Art. 5bis
 
 Article 5bis
 
@@ -139,7 +143,7 @@ Bij gelijktijdige aanbieding tot de formaliteiten, wordt de registratie        E
 
 Het eerste en tweede lid zijn niet van toepassing op een akte die enkel        Les alinéas 1er et 2 ne sont pas applicables à un acte constatant de niet-vatbaarheid voor beslag vaststelt van de woning van een                exclusivement l’insaisissabilité du domicile d’un indépendant visée zelfstandige bedoeld in de wet van 25 april 2007 houdende diverse              par la loi du 25 avril 2007 portant des dispositions diverses (IV). bepalingen (IV).
 
-## Art. 6
+###### Art. 6
 
 Article 6
 
@@ -151,7 +155,7 @@ Een buiten de openingsuren van de kantoren aangeboden akte of                  U
 
 Het kantoor mag ze niet langer houden dan nodig is.                            Le bureau ne peut les retenir au-delà du temps nécessaire.
 
-## Art. 7
+###### Art. 7
 
 Article 7
 
@@ -161,7 +165,7 @@ Zo een akte of geschrift, waarvan er geen minuut bestaat, inlichtingen         S
 
 wordt, behoudens bewijs van het tegendeel, als eensluidend aangezien.
 
-## Art. 8
+###### Art. 8
 
 Article 8
 
@@ -173,7 +177,7 @@ Voor akten en geschriften als bedoeld in artikel 2quater, wordt de              
 
 Indien er toepassing gemaakt wordt van de vrijstelling voorzien in                  Lorsqu’il est fait application de la dispense prévue à l’article 8bis, la artikel 8bis, wordt de vermelding van de registratie vervangen door de              relation de l’enregistrement est remplacée par la mention du vermelding van de betaling die verricht moet worden volgens de                      paiement à effectuer selon les modalités prévues en exécution de cet modaliteiten voorzien in uitvoering van dit artikel. Deze vermelding                article. Cette mention se fait selon un libellé déterminé par le Ministre geschiedt naar een door de Minister van Financiën vastgestelde tekst.               des Finances.
 
-## Art. 8bis
+###### Art. 8bis
 
 Article 8bis
 
@@ -182,7 +186,7 @@ Article 8bis
 De Koning kan bepaalde categorieën van de in de artikelen 19, 1° en                 Le Roi peut dispenser de la formalité de l’enregistrement certaines
 6°, 26 en 29 bedoelde akten van de registratieformaliteit vrijstellen               catégories des actes visés aux articles 19, 1° et 6°, 26 et 29, sans que zonder dat deze vrijstelling de ontheffing van de op deze akten                     cette dispense entraîne exemption des droits applicables à ces actes, toepasselijke rechten meebrengt, alsook de betalingsmodaliteiten                    et à régler les modalités du paiement desdits droits dans les délais voor genoemde rechten, binnen de termijnen die Hij bepaalt, regelen,                qu’il détermine, en dérogeant, le cas échéant, aux dispositions des in voorkomend geval afwijkend van de bepalingen van hoofdstuk III                   chapitres III et IX du présent titre. Lorsqu’il est fait application de cette en IX van deze titel. Indien er toepassing gemaakt wordt van deze                   disposition, le Roi peut prescrire le dépôt d’une copie des actes et fixer bepaling kan de Koning het neerleggen van een afschrift van de akten                des règles complémentaires de nature à assurer l’exacte perception voorschrijven en aanvullende regels vaststellen om de juiste heffing                de l’impôt. van de belasting te verzekeren.
 
-## Art. 9
+###### Art. 9
 
 Article 9
 
@@ -192,9 +196,9 @@ Valt de laatste dag van de termijn, die door onderhavig Wetboek                 
 
 sluitingsdag van de kantoren, dan wordt deze termijn verlengd tot de          délai est prorogé jusqu’au premier jour d’ouverture des bureaux qui eerste openingsdag der kantoren die volgt op het verstrijken van de           suit l’expiration du délai. termijn.
 
-#### HOOFDSTUK II - Indeling van de rechten en algemene                           CHAPITRE II - Division des droits et règles générales de heffingsregels                                                                       perception
+### HOOFDSTUK II - Indeling van de rechten en algemene                           CHAPITRE II - Division des droits et règles générales de heffingsregels                                                                       perception
 
-## Art. 10
+###### Art. 10
 
 Article 10
 
@@ -204,7 +208,7 @@ Er zijn evenredige en vaste registratierechten.                               Le
 
 Vaste rechten zijn verdeeld in algemeen vast recht en specifieke vaste        Les droits fixes se divisent en droit fixe général et droits fixes rechten.                                                                      spécifiques.
 
-## Art. 11
+###### Art. 11
 
 Article 11
 
@@ -216,13 +220,13 @@ Het algemeen vast recht is van toepassing op al de in dat tarief niet         Le
 
 Het algemeen vast recht bedraagt 50 EUR.                                      Le montant du droit fixe général est de 50 EUR.
 
-## Art. 12
+###### Art. 12
 
 Article 12
 
 Het evenredig of specifiek vast recht wordt slechts eenmaal op een            Le droit proportionnel ou fixe spécifique n’est perçu qu’une seule fois rechtshandeling geheven, wat ook het getal zij van de geschriften die         sur un acte juridique, quel que soit le nombre des écrits qui le daarvan laten blijken.                                                        constatent.
 
-## Art. 13
+###### Art. 13
 
 Article 13
 
@@ -234,7 +238,7 @@ Geven slechts aanleiding tot heffing van het algemeen vast recht,               
 
 Geven insgelijks slechts aanleiding tot heffing van het algemeen vast           Ne donnent également lieu qu’au droit fixe général, les actes recht, die rechtshandelingen welke ter oorzake van nietigheid,                  juridiques refaits pour cause de nullité, résolution ou autre motif, sans ontbinding of om andere reden opnieuw werden verricht zonder enige              aucun changement qui ajoute aux objets des conventions ou à leur verandering     welke     iets   toevoegt     aan   het    voorwerp      der    valeur, à moins que le droit proportionnel perçu sur le premier acte overeenkomsten of aan derzelver waarde, ten ware het op de eerste               n’ait été restitué ou ne soit sujet à restitution. handeling geheven evenredig recht teruggegeven werd of voor teruggaaf vatbaar zij.
 
-## Art. 14
+###### Art. 14
 
 Article 14
 
@@ -244,7 +248,7 @@ Wanneer een akte verscheidene onder dezelfde contractanten tot                  
 
 Het recht wordt geheven met inachtneming van diegene van                        Le droit est perçu d’après celle de ces dispositions qui donne lieu au bedoelde beschikkingen welke tot het hoogste recht aanleiding geeft.            droit le plus élevé.
 
-## Art. 15
+###### Art. 15
 
 Article 15
 
@@ -252,7 +256,7 @@ Wanneer, in een akte, verscheidene onafhankelijke of niet                       
 
 Deze regel is niet van toepassing op het algemeen vast recht.                   Cette règle n’est pas applicable au droit fixe général.
 
-## Art. 16
+###### Art. 16
 
 Article 16
 
@@ -260,13 +264,13 @@ De rechtshandeling waarop het evenredig recht verschuldigd is, doch             
 
 Wordt de voorwaarde vervuld, zo is het recht verschuldigd dat bij het             Lorsque la condition se réalise, le droit auquel l’acte est tarifé est dû, tarief voor de handeling is vastgesteld, behoudens toerekening van                sauf imputation du droit déjà perçu. Il est calculé d’après le tarif en het reeds geheven recht. Het wordt berekend naar het tarief dat van               vigueur à la date où il eût été acquis à l’Etat si ledit acte avait été pur kracht was op de datum waarop het recht aan de Staat zou verworven                et simple et sur la base imposable déterminée par le présent code, geweest zijn indien de handeling een onvoorwaardelijke was                        considérée à la date de l’accomplissement de la condition. geweest, en op de bij dit wetboek vastgelegde en op de datum van de vervulling der voorwaarde beschouwde belastbare grondslag.
 
-## Art. 17
+###### Art. 17
 
 Article 17
 
 Wordt, voor de toepassing van dit wetboek, met een aan een                        Pour l’application du présent code, est assimilé à un acte soumis à une schorsende voorwaarde onderworpen handeling gelijkgesteld, de                     condition suspensive, l’acte juridique fait par une personne morale et rechtshandeling door een rechtspersoon verricht en aan machtiging,                sujet à l’autorisation, l’approbation ou l’homologation de l’autorité goedkeuring of bekrachtiging van overheidswege onderworpen.                       supérieure.
 
-## Art. 18
+###### Art. 18
 
 Article 18
 
@@ -288,11 +292,11 @@ Het komt aan de belastingschuldige toe te bewijzen dat de keuze voor            
 
 Indien de belastingschuldige het tegenbewijs niet levert, dan wordt de            Lorsque le redevable ne fournit pas la preuve contraire, l’opération est verrichting aan een belastingheffing overeenkomstig het doel van de               soumise à un prélèvement conforme à l’objectif de la loi, comme si wet onderworpen alsof het misbruik niet heeft plaatsgevonden.                     l’abus n’avait pas eu lieu.
 
-#### HOOFDSTUK III - Registratieverplichting                                        CHAPITRE III - Obligation de l’enregistrement
+### HOOFDSTUK III - Registratieverplichting                                        CHAPITRE III - Obligation de l’enregistrement
 
 Eerste afdeling - Akten en verklaringen aan de formaliteit                         Section Ire - Actes et déclarations assujettis à la formalité onderworpen
 
-## Art. 19
+###### Art. 19
 
 Article 19
 
@@ -317,7 +321,7 @@ b) De andere dan onder a) bedoelde akten houdende verhuring,                    
 
 Onverminderd de bepaling onder 6° van het eerste lid en behoudens               Sans préjudice du 6° de l'alinéa 1er et sauf en ce qui concerne les 2°, wat de bepalingen onder 2°, 3° en 5° van hetzelfde lid betreft,                 3° et 5° du même alinéa, le présent article ne vise que les actes worden in dit artikel alleen de in België verleden akten bedoeld.               passés en Belgique.
 
-## Art. 20
+###### Art. 20
 
 Article 20
 
@@ -325,7 +329,7 @@ Article 20
 
 (…)                                                                             (…)
 
-## Art. 211
+###### Art. 211
 
 Article 211
 
@@ -345,7 +349,7 @@ De Koning kan de categorie van akten, geschriften en verklaringen               
 
 De kopie bedoeld in het eerste lid wordt minstens gedurende tien jaar           La copie visée à l'alinéa 1er est conservée au moins pendant dix ans bewaard door de bevoegde dienst van de Algemene administratie van               par le service compétent de l'Administration générale de la de patrimoniumdocumentatie, voor zover deze niet wordt                          documentation patrimoniale, à moins qu'elle ne soit transférée aux overgedragen aan het Rijksarchief of vernietigd in uitvoering van de            Archives de l'Etat ou détruite en exécution des articles 1er et 5 de la loi artikelen 1 en 5 van de archiefwet Wet van 24 juni 1955.                        du 24 juin 1955 relative aux archives.
 
-## Art. 212
+###### Art. 212
 
 Article 212
 
@@ -357,7 +361,7 @@ Als onroerende goederen worden niet beschouwd:                                  
 
 2° Voor de toepassing van dit Wetboek, lichamelijk roerende                     2° Pour l’application du présent Code, les objets mobiliers corporels voorwerpen aangewend tot de dienst en de exploitatie van                        affectés au service et à l’exploitation de biens immeubles. onroerende goederen.
 
-## Art. 22
+###### Art. 22
 
 Article 22
 
@@ -365,13 +369,13 @@ Article 22
 
 (…)                                                                             (…)
 
-## Art. 23
+###### Art. 23
 
 Article 23
 
 De exequaturs der scheidsrechterlijke uitspraken en die der                            Les exequatur des sentences arbitrales et ceux des décisions buitenslands gewezen rechterlijke beslissingen                   moeten,         bij   judiciaires rendues en pays étranger doivent, lors de la présentation à aanbieding ter registratie, vergezeld zijn van de desbetreffende                       l’enregistrement, être accompagnés des sentences ou décisions uitspraken of beslissingen.                                                            auxquelles ils se rapportent.
 
-## Art. 24
+###### Art. 24
 
 Article 24
 
@@ -379,7 +383,7 @@ Article 24
 
 (…)                                                                                    (…)
 
-## Art. 25
+###### Art. 25
 
 Article 25
 
@@ -391,7 +395,7 @@ Het uittreksel wordt in dubbel opgemaakt. Wanneer beide                         
 Patrimoniumdocumentatie berusten.
 (1) ‘uittrek-sel’ in het B.S.
 
-## Art. 26
+###### Art. 26
 
 Article 26
 
@@ -407,7 +411,7 @@ De in het eerste lid bedoelde verplichting is niet van toepassing:             L
 
 2° in geval van aanhechting of van neerlegging van een plan dat is             2° en cas d'annexe ou de dépôt d'un plan qui est repris dans la base opgenomen in de databank van plannen van afbakening van de                     de données des plans de délimitation de l'Administration générale de Algemene Administratie van de Patrimoniumdocumentatie, op                      la Documentation patrimoniale, à condition que l'acte, ou une voorwaarde dat de akte, of een door de partijen of de                          déclaration au pied de l'acte signée par les parties ou, en leur nom, par instrumenterende ambtenaar, in hun naam, ondertekende verklaring               le fonctionnaire instrumentant, fasse référence à cette reprise, onderaan de akte, verwijst naar deze opname met vermelding van het             mentionne le numéro de référence du plan et certifie que ce plan n'a refertenummer van het plan en bevestigt dat het plan nadien niet is            pas été modifié depuis lors. gewijzigd.
 
-## Art. 27
+###### Art. 27
 
 Article 27
 
@@ -415,7 +419,7 @@ Article 27
 
 (…)                                                                            (…)
 
-## Art. 28
+###### Art. 28
 
 Article 28
 
@@ -423,7 +427,7 @@ Article 28
 
 (…)                                                                            (…)
 
-## Art. 29
+###### Art. 29
 
 Article 29
 
@@ -431,7 +435,7 @@ Article 29
 
 Behoudens het bij artikel 173, 1°, voorziene geval, mag geen                     Hors le cas prévu par l’article 173, 1, aucune transcription, overschrijving, inschrijving, doorhaling of randvermelding in de                 inscription, radiation ou mention marginale dans les registres de la registers van de hypothecaire openbaarmaking plaats hebben                       publicité hypothécaire ne peut être effectuée en vertu d’actes qui krachtens niet vooraf geregistreerde akten.                                      n’ont pas été préalablement enregistrés.
 
-## Art. 30
+###### Art. 30
 
 Article 30
 
@@ -441,7 +445,7 @@ Op vorig artikel wordt uitzondering gemaakt voor de overschrijvingen,           
 
 Op vorig artikel wordt eveneens uitzondering gemaakt voor de in                  Il est aussi fait exception à l’article précédent en ce qui concerne les België verleden gerechtelijke akten van de burgerlijke stand, in                 actes judiciaires et les actes de l’état civil, passés en Belgique, en minuut, uitgifte, afschrift of uittreksel.                                       minute, expédition, copie ou extrait.
 
-## Art. 31
+###### Art. 31
 
 Article 31
 
@@ -464,9 +468,9 @@ Deze door de contracterende partijen of door een van hen                        
 
 Vanaf het verstrijken van vorenstaande termijnen wordt de door een               A partir de l’expiration des délais ci-dessus visés, est réputée émaner der partijen ondertekende verklaring als van al de partijen uitgaande            de toutes les parties, la déclaration souscrite par l’une d’elles. aangezien.
 
-##### Afdeling II - Termijnen voor de aanbieding ter registratie                          Section II - Délais pour la présentation à la formalité
+#### Afdeling II - Termijnen voor de aanbieding ter registratie                          Section II - Délais pour la présentation à la formalité
 
-## Art. 32
+###### Art. 32
 
 Article 32
 
@@ -531,7 +535,7 @@ Voor de akten die gelijktijdig worden aangeboden tot de formaliteiten         Po
 
 8° voor de in artikel 19, eerste lid, 6°, bedoelde akten, vier maanden.          8° de quatre mois, pour les actes visés à l'article 19, alinéa 1er, 6°.
 
-## Art. 33
+###### Art. 33
 
 Article 33
 
@@ -539,7 +543,7 @@ Article 33
 
 De termijn, binnen welke de in artikel 31 voorziene verklaringen ter             Le délai pour faire enregistrer les déclarations prévues à l’article 31 registratie moeten aangeboden worden, is vier maand ingaande met                 est de quatre mois à partir de la date de la convention ou, le cas de datum van de overeenkomst of, in voorkomend geval, van de                     échéant, de l’accomplissement de la condition qui a tenu en suspens vervulling van de voorwaarde welke de heffing van het recht heeft                la perception du droit. geschorst.
 
-## Art. 34
+###### Art. 34
 
 Article 34
 
@@ -551,9 +555,9 @@ Vierde lid: gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van     
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                DROIT FUTUR (à partir du 01.01.2028)
 
-##### Afdeling III - Personen verplicht tot aanbieding ter                                      Section III - Personnes tenues de l’obligation de registratie                                                                      l’enregistrement
+#### Afdeling III - Personen verplicht tot aanbieding ter                                      Section III - Personnes tenues de l’obligation de registratie                                                                      l’enregistrement
 
-## Art. 35
+###### Art. 35
 
 Article 35
 
@@ -592,9 +596,9 @@ Wanneer de schuldenaar van de rechten en, in voorkomend geval, van             L
 
 -----                                                                             -----
 
-##### Afdeling III - Personen verplicht tot aanbieding ter                                Section III - Personnes tenues de l’obligation de registratie                                                                  l’enregistrement
+#### Afdeling III - Personen verplicht tot aanbieding ter                                Section III - Personnes tenues de l’obligation de registratie                                                                  l’enregistrement
 
-## Art. 35
+###### Art. 35
 
 Article 35
 
@@ -628,7 +632,7 @@ De rechten en, in voorkomend geval, de geldboeten worden betaald               L
 
 Wanneer de schuldenaar van de rechten en, in voorkomend geval, van             Lorsque le redevable des droits et, le cas échéant, des amendes n’a de boeten geen gekende woonplaats in België of in het buitenland               pas de domicile connu en Belgique ou à l’étranger, l’avis de paiement heeft, wordt het bericht aan de procureur des Konings te Brussel               est adressé au procureur du Roi à Bruxelles. verzonden.
 
-## Art. 36
+###### Art. 36
 
 Article 36
 
@@ -637,7 +641,7 @@ Article 36
 Artikel 35, eerste lid, vindt geen toepassing op de voor notaris               L’article 35, alinéa 1er, n’est pas applicable aux testaments et autres opgemaakte testamenten en andere akten als bedoeld in artikel 32,              actes visés à l’article 32, 1, alinéa 2, b), passés devant notaires
 1°, tweede lid, b), wanneer de betrokkenen het bedrag van de rechten           lorsque les intéressés n’ont pas consigné en mains des notaires, au en eventueel van de boeten uiterlijk daags vóór het verstrijken van de         plus tard la veille de l’expiration du délai prescrit pour voor de registratie gestelde termijn in handen der notarissen niet             l’enregistrement, le montant des droits et, le cas échéant, des hebben geconsigneerd.                                                          amendes.
 
-## Art. 37
+###### Art. 37
 
 Article 37
 
@@ -646,7 +650,7 @@ Article 37
 Wanneer de rechten betreffende testamenten en andere in artikel 32,            Lorsque les droits se rapportant aux testaments et autres actes visés
 1°, tweede lid, b), bedoelde akten niet in handen der notarissen               à l’article 32, 1°, alinéa 2, b), n’ont pas été consignés en mains des werden geconsigneerd, zijn ze ondeelbaar door de erfgenamen,                   notaires, ils sont dus indivisiblement par les héritiers, légataires ou legatarissen of begiftigden zomede door de testamentuitvoerders                donataires et par les exécuteurs testamentaires. verschuldigd.
 
-## Art. 38
+###### Art. 38
 
 Article 38
 
@@ -654,9 +658,9 @@ Article 38
 
 (…)                                                                            (…)
 
-##### Afdeling IV - Plaats der registratie                                          Section IV - Lieu de l’enregistrement
+#### Afdeling IV - Plaats der registratie                                          Section IV - Lieu de l’enregistrement
 
-## Art. 39
+###### Art. 39
 
 Article 39
 
@@ -700,7 +704,7 @@ c) gelijktijdig ter overschrijving wordt aangeboden;                      c) est
 
 7° De andere akten dan voornoemde, onverschillig in alle kantoren.               7° Les actes autres que ceux qui précèdent, dans tous les bureaux indifféremment.
 
-## Art. 40
+###### Art. 40
 
 Article 40
 
@@ -708,9 +712,9 @@ Article 40
 
 (…)                                                                              (…)
 
-##### Afdeling V - Sancties                                                             Section V - Sanctions
+#### Afdeling V - Sancties                                                             Section V - Sanctions
 
-## Art. 41
+###### Art. 41
 
 Article 41
 
@@ -724,7 +728,7 @@ Verbeuren ondeelbaar een geldboete gelijk aan het bedrag der                    
 
 3° De in artikel 35, derde en vierde lid aangewezen personen die de              3° Les personnes désignées à l’article 35, alinéas trois et quatre, qui betaling bedoeld in het vijfde lid van genoemde artikel niet hebben              n’ont pas fait, dans le délai prescrit, le paiement prévu par l’alinéa cinq gedaan binnen de voorgeschreven termijn.                                         dudit article.
 
-## Art. 41bis
+###### Art. 41bis
 
 Article 41bis
 
@@ -737,7 +741,7 @@ Het bedrag van de boete wordt, binnen deze grenzen, vastgesteld                 
 
 De in het eerste lid bedoelde personen verbeuren ondeelbaar een                        Les personnes visées à l’alinéa 1er encourent indivisiblement une boete gelijk aan de ontdoken rechten voor elke akte waarop zij ten                     amende égale au droit éludé pour tout acte auquel elles ont appliqué onrechte de vrijstelling van de formaliteit bedoeld in artikel 8bis,                   à tort la dispense de la formalité prévue à l’article 8bis. toegepast hebben.
 
-## Art. 42
+###### Art. 42
 
 Article 42
 
@@ -747,7 +751,7 @@ Article 42
 
 Voor elke overtreding van artikel 26 verbeurt de notaris of de                         Il est encouru une amende de 25 EUR par les notaires et huissiers de gerechtsdeurwaarder een boete van 25 EUR.                                              justice, pour toute contravention à l’article 26.
 
-## Art. 43
+###### Art. 43
 
 Article 43
 
@@ -757,7 +761,7 @@ Article 43
 
 De griffiers die binnen de voorgeschreven termijn de arresten en                       Encourent une amende de 25 EUR par contravention, les greffiers qui vonnissen niet hebben doen registreren welke zij gehouden zijn aan                     n’ont pas fait enregistrer dans le délai prescrit, les arrêts et jugements de formaliteit te onderwerpen, verbeuren voor elke overtreding een                     qu’ils sont tenus de soumettre à la formalité. boete van 25 EUR.
 
-## Art. 44
+###### Art. 44
 
 tot 50 W.Reg. federaal                                                           Art. 44 à 50 C. enr. fédéral
 
@@ -765,13 +769,13 @@ Het registratierecht op de inbreng door een natuurlijke persoon van             
 
 betreffende de financiering van de gemeenschappen en de                              est un impôt fédéral (art. 3, al. 1er, 6°, de la loi du 16.01.1989 relative gewesten).                                                                           au financement des Communautés et des Régions
 
-#### HOOFDSTUK IV - Vaststelling van de rechten                                                    CHAPITRE IV - Fixation des droits
+### HOOFDSTUK IV - Vaststelling van de rechten                                                    CHAPITRE IV - Fixation des droits
 
-##### Afdeling I - Overdrachten onder bezwarende titel van                                   Section Ire - Transmissions à titre onéreux de biens onroerende goederen                                                                          immeubles
+#### Afdeling I - Overdrachten onder bezwarende titel van                                   Section Ire - Transmissions à titre onéreux de biens onroerende goederen                                                                          immeubles
 
 § 1. Algemene bepalingen                                                            § 1er. Dispositions générales
 
-## Art. 44
+###### Art. 44
 
 Article 44
 
@@ -781,7 +785,7 @@ Het recht wordt gesteld op 12,50 t.h. voor de verkopingen, ruilingen            
 
 Eerste lid, streepje 1,2 en 4: gewestelijke bepalingen (art. 3, eerste lid, 6° van   Alinéa 1er, tirets 1, 2 et 4 : dispositions régionales (art. 3, al. 1er, 6° de la loi de wet van 16.01.1989 betreffende de financiering van de gemeenschappen              spéciale du 16.01.1989 relative au financement des Communautés et des en de gewesten)                                                                      Régions)
 
-## Art. 45
+###### Art. 45
 
 Article 45
 
@@ -799,13 +803,13 @@ maatschappelijke rechten verhoogd met de lasten die door de vennootschap gedrage
 
 - ten aanzien van de overige overdragende overeenkomsten, op de                 - en ce qui concerne les autres conventions translatives, sur la valeur overeengekomen waarde van de ten laste van de verkrijger van het                conventionnelle de la contre-prestation stipulée à charge de l’acquéreur onroerend goed bedongen tegenprestatie.                                         de l’immeuble.
 
-## Art. 46
+###### Art. 46
 
 Article 46
 
 Evenwel mag de belastbare grondslag in geen geval lager zijn dan de             Toutefois, la base imposable ne peut, en aucun cas, être inférieure à verkoopwaarde van de overgedragen onroerende goederen.                          la valeur vénale des immeubles transmis.
 
-## Art. 47
+###### Art. 47
 
 Article 47
 
@@ -830,19 +834,19 @@ de opbrengst, zo het vruchtgebruik ten bate van een rechtspersoon is gevestigd.
 
 In geen geval mag aan het vruchtgebruik een hogere waarde dan de              En aucun cas, il ne peut être assigné à l’usufruit une valeur vénale vier vijfden van de verkoopwaarde van de volle eigendom worden                supérieure aux quatre cinquièmes de la valeur vénale de la pleine toegewezen.                                                                   propriété.
 
-## Art. 48
+###### Art. 48
 
 Article 48
 
 Gaat de overeenkomst over de blote eigendom van een onroerend                 Lorsque la convention a pour objet la nue-propriété d’un immeuble goed waarvan het vruchtgebruik door de vervreemder is                         dont l’usufruit est réservé par l’aliénateur, la base imposable ne peut voorbehouden, zo mag de belastbare grondslag niet lager zijn dan de           être inférieure à la valeur vénale de la pleine propriété. verkoopwaarde van de volle eigendom.
 
-## Art. 49
+###### Art. 49
 
 Article 49
 
 Gaat de overeenkomst over de blote eigendom van een onroerend                 Lorsque la convention a pour objet la nue-propriété d’un immeuble, goed, zonder dat het vruchtgebruik door de vervreemder is                     sans que l’usufruit soit réservé par l’aliénateur, la base imposable ne voorbehouden, zoo mag de belastbare grondslag niet lager zijn dan de          peut être inférieure à la valeur vénale de la pleine propriété, déduction verkoopwaarde van de volle eigendom, na aftrekking van de                     faite de la valeur de l’usufruit calculée conformément à l’article 47. overeenkomstig artikel 47 berekende waarde van het vruchtgebruik.
 
-## Art. 50
+###### Art. 50
 
 Article 50
 
@@ -852,7 +856,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989     D
 
 § 2. Verkopingen aan bouwmaatschappijen tot nut van het algemeen                       § 2. Ventes aux sociétés immobilières de service public
 
-## Art. 51
+###### Art. 51
 
 Article 51
 
@@ -870,7 +874,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989     D
 
 § 3. Verkopingen aan de met regeringspremie begunstigde kopers               § 3. Ventes aux acheteurs bénéficiaires de la prime gouvernementale
 
-## Art. 52
+###### Art. 52
 
 Article 52
 
@@ -885,7 +889,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989     D
 
 § 4. Verkopingen van kleine landeigendommen en bescheiden                     § 4. Ventes de petites propriétés rurales et d'habitations modestes woningen
 
-## Art. 53
+###### Art. 53
 
 Article 53
 
@@ -903,7 +907,7 @@ Als woning wordt aangemerkt het huis of het geheel of het gedeelte              
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989        Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 54
+###### Art. 54
 
 Article 54
 
@@ -917,7 +921,7 @@ De onder 2° van het voorgaande artikel bepaalde vermindering is                
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989      Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)              relative au financement des Communautés et des Régions)
 
-## Art. 55
+###### Art. 55
 
 Article 55
 
@@ -941,7 +945,7 @@ In geval van niet-nakoming van een van bovenstaande voorwaarden             A d�
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989   Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)           relative au financement des Communautés et des Régions)
 
-## Art. 56
+###### Art. 56
 
 Article 56
 
@@ -951,7 +955,7 @@ In dit geval, wordt de akte, behoudens de in artikel 58 voorziene           En c
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989   Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)           relative au financement des Communautés et des Régions)
 
-## Art. 57
+###### Art. 57
 
 Article 57
 
@@ -967,7 +971,7 @@ In dit geval, wordt de akte tegen het gewoon recht geregistreerd,               
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989        Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 58
+###### Art. 58
 
 Article 58
 
@@ -981,7 +985,7 @@ Zo, tussen de datum van de akte en de 2de januari die volgt op het              
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989       Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)               relative au financement des Communautés et des Régions)
 
-## Art. 59
+###### Art. 59
 
 Article 59
 
@@ -991,7 +995,7 @@ In geval van onjuistheid in de vermeldingen waarvan sprake in artikel           
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989       Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)               relative au financement des Communautés et des Régions)
 
-## Art. 60
+###### Art. 60
 
 Article 60
 
@@ -1005,7 +1009,7 @@ Evenwel blijft de verlaging verkregen zo niet-nakoming van die                  
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989       Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)               relative au financement des Communautés et des Régions)
 
-## Art. 611
+###### Art. 611
 
 Article 611
 
@@ -1019,7 +1023,7 @@ De Minister van Financiën kan evenwel van die vermeerdering geheel             
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989       Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)               relative au financement des Communautés et des Régions)
 
-## Art. 612
+###### Art. 612
 
 Article 612
 
@@ -1033,7 +1037,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989      
 
 § 5. Verkopingen aan personen die hun beroep maken van den                 § 5. Ventes aux personnes faisant profession d’acheter des immeubles aankoop van onroerende goederen met het oog op wederverkoop                                              en vue de la revente
 
-## Art. 62
+###### Art. 62
 
 Article 62
 
@@ -1047,7 +1051,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989      
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                               DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 631
+###### Art. 631
 
 Article 631
 
@@ -1076,7 +1080,7 @@ Een beroepspersoon, andere dan die bedoeld in het eerste lid, 3°, kan          
 
 -----                                                                              -----
 
-## Art. 631
+###### Art. 631
 
 Article 631
 
@@ -1105,7 +1109,7 @@ Een beroepspersoon, andere dan die bedoeld in het eerste lid, 3°, kan          
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989       Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)               relative au financement des Communautés et des Régions)
 
-## Art. 632
+###### Art. 632
 
 Article 632
 
@@ -1115,7 +1119,7 @@ Wanneer door een schatting volgens artikelen 190 en 199 bevonden                
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989   Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)           relative au financement des Communautés et des Régions)
 
-## Art. 64
+###### Art. 64
 
 Article 64
 
@@ -1126,7 +1130,7 @@ De wederverkoop aan een beroepspersoon met toepassing van                   Ne m
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989   Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)           relative au financement des Communautés et des Régions)
 
-## Art. 65
+###### Art. 65
 
 Article 65
 
@@ -1134,7 +1138,7 @@ De verkrijger mag de betaling aanbieden van het gewoon recht vóór           L�
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989   Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)           relative au financement des Communautés et des Régions)
 
-## Art. 66
+###### Art. 66
 
 Article 66
 
@@ -1142,7 +1146,7 @@ Het recht dat voor de verkrijging van het goed betaald werd, mag niet       Le d
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989   Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)           relative au financement des Communautés et des Régions)
 
-## Art. 67
+###### Art. 67
 
 Article 67
 
@@ -1154,7 +1158,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989      
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 68
+###### Art. 68
 
 Article 68
 
@@ -1169,7 +1173,7 @@ De bij dit artikel voorgeschreven verklaringen worden door de                   
 
 -----                                                                             -----
 
-## Art. 68
+###### Art. 68
 
 Article 68
 
@@ -1183,7 +1187,7 @@ De bij dit artikel voorgeschreven verklaringen, welke door                      
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989       Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)               relative au financement des Communautés et des Régions)
 
-## Art. 69
+###### Art. 69
 
 Article 69
 
@@ -1197,7 +1201,7 @@ Wordt aan vorenstaande voorschriften niet voldaan, zo wordt het                 
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989       Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)               relative au financement des Communautés et des Régions)
 
-## Art. 70
+###### Art. 70
 
 Article 70
 
@@ -1209,7 +1213,7 @@ De Minister van Financiën of zijn afgevaardigde bepaalt aard en                
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989              Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                      relative au financement des Communautés et des Régions)
 
-## Art. 71
+###### Art. 71
 
 Article 71
 
@@ -1219,7 +1223,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989      
 
 § 6. Ruiling van ongebouwde landgoederen                                               § 6. Echanges d’immeubles ruraux non bâtis
 
-## Art. 72
+###### Art. 72
 
 Article 72
 
@@ -1243,7 +1247,7 @@ De toepassing van dit artikel is ondergeschikt aan een drievoudige              
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989       Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)               relative au financement des Communautés et des Régions)
 
-## Art. 731
+###### Art. 731
 
 Article 731
 
@@ -1259,7 +1263,7 @@ Het bepaalde in de artikelen 189 tot 201 geldt mede voor de controle           L
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989      Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)              relative au financement des Communautés et des Régions)
 
-## Art. 732
+###### Art. 732
 
 Article 732
 
@@ -1271,7 +1275,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989      
 
 § 7. Afzonderlijke verkrijgingen van de grond en van de opstal of van de         § 7. Acquisitions séparées du fonds et de la superficie ou des objets tot de dienst van het onroerend goed aangewende voorwerpen                                      affectés au service de l’immeuble
 
-## Art. 74
+###### Art. 74
 
 Article 74
 
@@ -1283,7 +1287,7 @@ Deze bepaling is evenwel niet van toepassing, zo er bewezen wordt              C
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989       Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)               relative au financement des Communautés et des Régions)
 
-## Art. 75
+###### Art. 75
 
 Article 75
 
@@ -1299,7 +1303,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989      
 
 (opgeheven bij art. 3 van de wet van 22.06.1960 (B.S., 21.07.1960). Tekst van   (abrogé par l’art. 3 de la loi du 22.06.1960 (M.B., 21.07.1960). Texte applicable toepassing vanaf 31.07.1960 (art. -))                                           à partir du 31.07.1960 (art. -))
 
-## Art. 76
+###### Art. 76
 
 Article 76
 
@@ -1307,17 +1311,17 @@ Article 76
 
 (…)                                                                             (…)
 
-## Art. 77
+###### Art. 77
 
 tot 82 W.Reg. federaal                                                      Art. 77 à 82 C. enr. fédéral
 
 Het registratierecht op de openbare verkopingen van lichamelijke                      Le droit d'enregistrement sur les ventes publiques de biens meubles roerende goederen is een federale belasting (art. 3, a contrario, wet                 corporels est un impôt fédéral (art. 3, a contrario, de la loi du 16 janvier 16 januari 1989 betreffende de financiering van de gemeenschappen                     1989 relative au financement des communautés et des régions). en de gewesten).
 
-##### Afdeling II - Openbare verkopingen van lichamelijke                               Section II - Ventes publiques de biens meubles corporels roerende goederen
+#### Afdeling II - Openbare verkopingen van lichamelijke                               Section II - Ventes publiques de biens meubles corporels roerende goederen
 
 (opschrift vervangen bij art. 4 van de wet van 23.12.1958 (B.S., 07.01.1959).         (intitulé remplacé par l’art. 4 de la loi du 23.12.1958 (M.B., 07.01.1959). Texte Tekst van toepassing vanaf 17.01.1959 (art. -))                                       applicable à partir du 17.01.1959 (art. -))
 
-## Art. 77
+###### Art. 77
 
 Article 77
 
@@ -1325,7 +1329,7 @@ Article 77
 
 Het recht wordt vastgesteld op 5 t.h. voor de openbare verkopingen                    Le droit est fixé à 5 p.c. pour les ventes publiques de biens meubles van lichamelijke roerende goederen.                                                   corporels.
 
-## Art. 78
+###### Art. 78
 
 Article 78
 
@@ -1333,7 +1337,7 @@ Article 78
 
 (…)                                                                                   (…)
 
-## Art. 79
+###### Art. 79
 
 Article 79
 
@@ -1343,7 +1347,7 @@ De heffingsgrondslag wordt bepaald zoals gezegd in de artikelen 45              
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 80
+###### Art. 80
 
 Article 80
 
@@ -1362,7 +1366,7 @@ Voor de onder 1° bedoelde verkopingen wordt het vast recht geheven             
 
 -----                                                                             -----
 
-## Art. 80
+###### Art. 80
 
 Article 80
 
@@ -1378,11 +1382,11 @@ Vrijgesteld van het recht van 5 pct. en onderworpen aan het algemeen            
 
 Voor de onder 1° bedoelde verkopingen wordt het vast recht geheven                Dans les ventes visées au 1°, la perception du droit fixe est mits in het proces-verbaal of in een geschrift dat bij het proces-                subordonnée à l’indication dans le procès-verbal ou dans un écrit y verbaal vóór de registratie is gevoegd, vermeld wordt bij welk kantoor            annexé avant l’enregistrement, du bureau auquel le vendeur est tenu de verkoper de periodieke aangiften voor de belasting over de                     de déposer les déclarations périodiques pour la taxe sur la valeur toegevoegde waarde moet indienen.                                                 ajoutée.
 
-##### Afdeling III - (…)                                                                 Section III - (…)
+#### Afdeling III - (…)                                                                 Section III - (…)
 
 (opgeheven bij art. 5 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van    (abrogé par l’art. 5 de la loi du 23.12.1958 (M.B., 07.01.1959). Texte applicable toepassing vanaf 17.01.1959 (art. -))                                            à partir du 17.01.1959 (art. -))
 
-## Art. 81
+###### Art. 81
 
 Article 81
 
@@ -1390,7 +1394,7 @@ Article 81
 
 (…)                                                                              (…)
 
-## Art. 82
+###### Art. 82
 
 Article 82
 
@@ -1398,15 +1402,15 @@ Article 82
 
 (…)                                                                              (…)
 
-## Art. 83
+###### Art. 83
 
 tot 86 W.Reg. federaal                                                       Art. 83 à 86 C. enr. fédéral
 
 Het registratierecht op de huurcontracten is een federale belasting              Le droit d'enregistrement sur les baux est un impôt fédéral (art. 3, a (art. 3, a contrario, wet 16.01.1989 betreffende de financiering van de          contrario, de la loi du 16.01.1989 relative au financement des gemeenschappen en de gewesten).                                                  communautés et des régions).
 
-##### Afdeling IV - Huurcontracten                                                              Section IV - Baux
+#### Afdeling IV - Huurcontracten                                                              Section IV - Baux
 
-## Art. 83
+###### Art. 83
 
 Article 83
 
@@ -1444,7 +1448,7 @@ Contracten tot vestiging van erfpacht- of opstalrecht en overdrachten        Les
 
 Dit recht is evenwel niet verschuldigd in geval van toepassing van           Ce droit n’est toutefois pas dû en cas d’application de l’article 140bis. artikel 140bis.
 
-## Art. 84
+###### Art. 84
 
 Article 84
 
@@ -1458,11 +1462,11 @@ Is zij levenslang of van onbepaalde duur, zo geldt als grondslag het            
 
 Bij overdracht van huur, wordt het bedrag of de waarde van de                    En cas de cession de bail, le montant ou la valeur des prestations gebeurlijk ten bate van de overdrager bedongen prestatiën gevoegd                éventuellement stipulées au profit du cédant est ajouté à la base de bij de heffingsgrondslag zoals hij hiervoor is bepaald.                          perception telle qu’elle est déterminée ci-avant.
 
-##### Afdeling V - (…)                                                                    Section V - (…)
+#### Afdeling V - (…)                                                                    Section V - (…)
 
 (opgeheven bij art. 7 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van    (abrogé par l’art. 7 de la loi du 23.12.1958 (M.B., 07.01.1959). Texte applicable toepassing vanaf 17.01.1959 (art. -))                                            à partir du 17.01.1959 (art. -))
 
-## Art. 85
+###### Art. 85
 
 Article 85
 
@@ -1470,7 +1474,7 @@ Article 85
 
 (…)                                                                              (…)
 
-## Art. 86
+###### Art. 86
 
 Article 86
 
@@ -1478,7 +1482,7 @@ Article 86
 
 (…)                                                                              (…)
 
-## Art. 87
+###### Art. 87
 
 tot 102 W.Reg. federaal                                                      Art. 87 à 102 C. enr. fédéral
 
@@ -1491,11 +1495,11 @@ Alleen het registratierecht op de vestiging van een hypotheek op een in         
 
 Gewestelijke bepalingen (art. 3, eerste lid, 7°, a) van de wet van 16.01.1989    Dispositions régionales (art. 3, al. 1er, 7° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-##### Afdeling VI - Hypotheekvestigingen                                             Section VI - Constitutions d’hypothèque
+#### Afdeling VI - Hypotheekvestigingen                                             Section VI - Constitutions d’hypothèque
 
 (gewijzigd bij art. 55 van de wet van 25.12.2016 (B.S., 30.12.2016). Tekst van   (modifié par l’art. 55 de la loi du 25.12.2016 (M.B., 30.12.2016). Texte toepassing vanaf 01.01.2018 (art. 70))                                           applicable à partir du 01.01.2018 (art. 70))
 
-## Art. 87
+###### Art. 87
 
 Article 87
 
@@ -1503,7 +1507,7 @@ Article 87
 
 Worden aan een recht van 1 t.h. onderworpen, de vestigingen van een              Sont assujetties à un droit de 1 p.c. les constitutions d’hypothèque sur hypotheek op een in België gelegen onroerend goed.                               un immeuble situé en Belgique.
 
-## Art. 88
+###### Art. 88
 
 Article 88
 
@@ -1513,7 +1517,7 @@ De vestigingen van een hypotheek op een schip dat niet naar zijn aard           
 
 ----------                                                                       ---------- Het recht van 0,50 pct., geheven overeenkomstig art. 88 W.Reg. vóór de           Le droit de 0,5 p.c., perçu conformément à l'art. 88 C. enr. avant l'entrée en inwerkingtreding van deze wet, wordt in mindering gebracht op het krachtens      vigueur de la présente loi, est déductible du droit dû en vertu de l'art. 87 C. enr. art. 87 W.Reg. verschuldigde recht, wanneer later een hypotheek wordt            lorsqu'une hypothèque est constituée ultérieurement pour sûreté de la même gevestigd tot zekerheid van dezelfde schuld (art. 69).                           dette (art. 69).
 
-## Art. 89
+###### Art. 89
 
 Article 89
 
@@ -1521,7 +1525,7 @@ Article 89
 
 De bij artikelen 87 en 88 bepaalde rechten zijn van toepassing zelfs             Les droits établis par les articles 87 et 88 sont applicables même wanneer de hypotheek gevestigd is tot zekerheid van een                          lorsque l’hypothèque est constituée pour sûreté d’une dette future, toekomstige schuld, van een voorwaardelijke of eventuele schuld of               d’une dette conditionnelle ou éventuelle ou d’une obligation de faire. van een verbintenis om iets te doen.
 
-## Art. 90
+###### Art. 90
 
 Article 90
 
@@ -1531,7 +1535,7 @@ De bij artikelen 87 en 88 bepaalde rechten zijn niet verschuldigd zo de         
 
 Gewestelijke bepalingen (art. 3, eerste lid, 7°, a) van de wet van 16.01.1989    Dispositions régionales (art. 3, al. 1er, 7°, a) de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 91
+###### Art. 91
 
 Article 91
 
@@ -1539,7 +1543,7 @@ Article 91
 
 De vestiging van een hypotheek op een in België gelegen onroerend                La constitution d’une hypothèque sur un immeuble situé en Belgique goed tot zekerheid van een schuld die gewaarborgd is door een                    pour sûreté d’une dette garantie par une hypothèque sur un navire qui hypotheek op een schip dat niet naar zijn aard voor het zeevervoer               n’est pas destiné par nature au transport maritime est assujettie au bestemd is, (…) wordt aan het recht van 1 pct. onderworpen onder                 droit de 1 p.c., sous déduction, le cas échéant, du droit de 0,50 p.c. aftrek, in voorkomend geval, van het krachtens artikel 88 geheven                perçu en vertu de l’article 88. recht van 0,50 pct.
 
-## Art. 921
+###### Art. 921
 
 Article 921
 
@@ -1547,7 +1551,7 @@ Article 921
 
 Het in artikel 88 en het in artikel 3, eerste lid, 7°, a), van de bijzondere     Le droit visé à l’article 88 et à l’article 3, alinéa 1er, 7°, a), de la loi wet van 16 januari 1989 betreffende de financiering van de                       spéciale du 16 janvier 1989 relative au financement des Gemeenschappen en de Gewesten bedoeld recht dekt elke latere                     Communautés et des Régions couvre toute constitution ultérieure vestiging van hypotheek op een schip tot zekerheid van dezelfde                  d‘hypothèque sur un navire pour sûreté de la même créance et du schuldvordering en van hetzelfde gewaarborgd bedrag.                             même montant garanti.
 
-## Art. 922
+###### Art. 922
 
 Article 92²
 
@@ -1555,7 +1559,7 @@ Article 92²
 
 De overdracht van een hypotheek op een in België gelegen onroerend               La transmission d'une hypothèque sur un bien immeuble situé en goed met inbegrip van de voorrechten bedoeld bij artikel 27 van de               Belgique, en ce compris les privilèges visés à l'article 27 de la loi du 16 wet van 16 december 1851 of van een hypotheek op een schip dat                   décembre 1851 ou d'une hypothèque sur un navire qui n'est pas niet naar zijn aard voor het zeevervoer bestemd is, ingevolge de                 destiné par nature au transport maritime, par suite de la cession à overdracht onder bezwarende titel van de schuldvordering, de                     titre onéreux de la créance, de la subrogation conventionnelle ou de contractuele indeplaatsstelling of elke andere verrichting onder                 toute autre convention à titre onéreux, est assujettie à un droit de 1 bezwarende titel, wordt onderworpen aan een recht van 1 pct. of van              p.c. ou de 0,50 p.c., selon que la transmission se rapporte ou non à une 0,50 pct., al naar gelang de overdracht al dan niet een hypotheek op             hypothèque sur un immeuble. een onroerend goed betreft.
 
-## Art. 93
+###### Art. 93
 
 Article 93
 
@@ -1563,7 +1567,7 @@ Article 93
 
 Het recht van 1 pct. of van 0,50 pct. wordt vereffend op het bedrag              Le droit de 1 p.c. ou de 0,50 p.c. est liquidé sur le montant des sommes van de sommen die door de hypotheek gewaarborgd zijn, met                        garanties par l’hypothèque, à l’exclusion des intérêts ou arrérages de uitsluiting van de interesten of rentetermijnen van drie jaren, die              trois années garantis par l’article 87 de la loi du 16 décembre 1851. gewaarborgd zijn door artikel 87 van de wet van 16 december 1851.
 
-## Art. 94
+###### Art. 94
 
 Article 94
 
@@ -1583,11 +1587,11 @@ Als de in het eerste lid, 2°, a) bedoelde verklaring onjuist blijkt of als     
 
 De hypotheeksteller kan aanbieden het evenredig recht vermeerderd               Le constituant de l’hypothèque peut proposer de payer le droit met de interesten te betalen alvorens de in het eerste lid, 2°, b)              proportionnel augmenté des intérêts avant l’échéance du délai prévu voorziene termijn is verstreken.                                                à l’alinéa 1er, 2°, b).
 
-##### Afdeling VII - (…)                                                                 Section VII - (…)
+#### Afdeling VII - (…)                                                                 Section VII - (…)
 
 (opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van   (abrogé par l’art. 9 de la loi du 23.12.1958 (M.B., 07.01.1959). Texte applicable toepassing vanaf 17.01.1959 (art. -))                                           à partir du 17.01.1959 (art. -))
 
-## Art. 95
+###### Art. 95
 
 Article 95
 
@@ -1595,7 +1599,7 @@ Article 95
 
 (…)                                                                             (…)
 
-## Art. 96
+###### Art. 96
 
 Article 96
 
@@ -1603,7 +1607,7 @@ Article 96
 
 (…)                                                                             (…)
 
-## Art. 97
+###### Art. 97
 
 Article 97
 
@@ -1611,7 +1615,7 @@ Article 97
 
 (…)                                                                             (…)
 
-## Art. 98
+###### Art. 98
 
 Article 98
 
@@ -1619,11 +1623,11 @@ Article 98
 
 (…)                                                                             (…)
 
-##### Afdeling VIII - (…)                                                                Section VIII - (…)
+#### Afdeling VIII - (…)                                                                Section VIII - (…)
 
 (opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van   (abrogé par l’art. 9 de la loi du 23.12.1958 (M.B., 07.01.1959). Texte applicable toepassing vanaf 17.01.1959 (art. -))                                           à partir du 17.01.1959 (art. -))
 
-## Art. 99
+###### Art. 99
 
 Article 99
 
@@ -1631,7 +1635,7 @@ Article 99
 
 (…)                                                                             (…)
 
-## Art. 100
+###### Art. 100
 
 Article 100
 
@@ -1639,7 +1643,7 @@ Article 100
 
 (…)                                                                             (…)
 
-## Art. 101
+###### Art. 101
 
 Article 101
 
@@ -1647,7 +1651,7 @@ Article 101
 
 (...)                                                                           (…)
 
-## Art. 102
+###### Art. 102
 
 Article 102
 
@@ -1655,15 +1659,15 @@ Article 102
 
 (…)                                                                             (…)
 
-## Art. 103
+###### Art. 103
 
 tot 108 W.Reg. federaal                                                   Art. 103 à 108 C. enr. fédéral
 
 Het specifiek vast recht op de handlichting van een hypothecaire                Le droit fixe spécifique sur la mainlevée d'une inscription hypothécaire inschrijving is een federale belasting (art. 3, a contrario, wet                est un impôt fédéral (art. 3, a contrario, de la loi du 16.01.1989 relative 16.01.1989 betreffende de financiering van de gemeenschappen en                 au financement des communautés et des régions). de gewesten).
 
-##### Afdeling IX - Opheffingen                                                          Section IX - Mainlevées
+#### Afdeling IX - Opheffingen                                                          Section IX - Mainlevées
 
-## Art. 103
+###### Art. 103
 
 Article 103
 
@@ -1684,7 +1688,7 @@ Article 103
 5° die geschieden in het kader van een openbare verkoping na beslag          5° intervenant dans le cadre d’une vente publique sur saisie ou d’une of van een verkoop uit de hand bedoeld in artikel 1580bis van het            vente de gré à gré visée à l’article 1580bis du Code judiciaire.
 Gerechtelijk Wetboek.
 
-## Art. 104
+###### Art. 104
 
 Article 104
 
@@ -1692,7 +1696,7 @@ Article 104
 
 (...)                                                                        (…)
 
-## Art. 105
+###### Art. 105
 
 Article 105
 
@@ -1700,7 +1704,7 @@ Article 105
 
 (...)                                                                        (…)
 
-## Art. 106
+###### Art. 106
 
 Article 106
 
@@ -1708,7 +1712,7 @@ Article 106
 
 (…)                                                                          (…)
 
-## Art. 107
+###### Art. 107
 
 Article 107
 
@@ -1716,7 +1720,7 @@ Article 107
 
 (...)                                                                        (…)
 
-## Art. 108
+###### Art. 108
 
 Article 108
 
@@ -1726,9 +1730,9 @@ Article 108
 
 Gewestelijke bepalingen (art. 3, eerste lid, 7° b) van de wet van 16.01.1989     Dispositions régionales (art. 3, al. 1er, 7° b) de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-##### Afdeling X - Verdelingen                                                             Section X - Partages
+#### Afdeling X - Verdelingen                                                             Section X - Partages
 
-## Art. 109
+###### Art. 109
 
 Article 109
 
@@ -1744,7 +1748,7 @@ Het recht wordt op 1 t.h. vastgesteld voor:                                     
 
 Gewestelijke bepalingen (art. 3, eerste lid, 7° b) van de wet van 16.01.1989     Dispositions régionales (art. 3, al. 1er, 7° b) de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 110
+###### Art. 110
 
 Article 110
 
@@ -1756,7 +1760,7 @@ Voor de goederen waarvan de akte de onverdeeldheid niet doet                    
 
 Gewestelijke bepalingen (art. 3, eerste lid, 7° b) van de wet van 16.01.1989     Dispositions régionales (art. 3, al. 1er, 7° b) de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 111
+###### Art. 111
 
 Article 111
 
@@ -1770,7 +1774,7 @@ In voorkomend geval wordt de verkoopwaarde van het vruchtgebruik                
 
 Gewestelijke bepalingen (art. 3, eerste lid, 7° b) van de wet van 16.01.1989     Dispositions régionales (art. 3, al. 1er, 7° b) de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 112
+###### Art. 112
 
 Article 112
 
@@ -1780,7 +1784,7 @@ Article 112
 
 Gewestelijke bepalingen (art. 3, eerste lid, 7° b) van de wet van 16.01.1989     Dispositions régionales (art. 3, al. 1er, 7° b) de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 113
+###### Art. 113
 
 Article 113
 
@@ -1792,21 +1796,21 @@ Deze bepaling is van toepassing wanneer de toebedeling van                      
 
 Gewestelijke bepalingen (art. 3, eerste lid, 7° b) van de wet van 16.01.1989         Dispositions régionales (art. 3, al. 1er, 7° b) de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                    relative au financement des Communautés et des Régions)
 
-## Art. 114
+###### Art. 114
 
 Article 114
 
 De bepalingen van deze afdeling zijn niet van toepassing op de                       Les dispositions de la présente section ne sont pas applicables à la uitvoering van een beding van terugvalling of van aanwas.                            réalisation d’une clause de réversion ou d’accroissement.
 
-## Art. 115
+###### Art. 115
 
 tot 130 W.Reg. federaal                                                       Art. 115 à 130 C. enr. fédéral
 
 Het registratierecht op de inbreng in een vennootschap is een                        Le droit d'enregistrement sur l'apport à une société est un impôt de financiering van de gemeenschappen en de gewesten).                               financement des communautés et des régions).
 
-##### Afdeling XI - Vennootschappen                                                               Section XI - Sociétés
+#### Afdeling XI - Vennootschappen                                                               Section XI - Sociétés
 
-## Art. 115
+###### Art. 115
 
 Article 115
 
@@ -1816,7 +1820,7 @@ Aan een recht van 0 pct. wordt onderworpen de inbreng van roerende              
 
 Het recht wordt vereffend op het totaal bedrag van de inbrengen.                     Le droit est liquidé sur le montant total des apports.
 
-## Art. 115bis
+###### Art. 115bis
 
 Article 115bis
 
@@ -1826,7 +1830,7 @@ De inbrengen van onroerende goederen, andere dan die welke                      
 
 In geval van onjuiste verklaring betreffende de aanwending of de                 En cas de déclaration inexacte concernant l’affectation ou la bestemming van het onroerend goed, zijn de aanvullende rechten                   destination de l’immeuble, les droits complémentaires sont exigibles opeisbaar en verbeurt iedere partij een boete gelijk aan de rechten.             et chacune des parties encourt une amende égale aux droits.
 
-## Art. 116
+###### Art. 116
 
 Article 116
 
@@ -1838,7 +1842,7 @@ Het recht wordt vereffend op het bedrag van de vermeerdering.                   
 
 Het recht is niet verschuldigd in de mate waarin het kapitaal                    Le droit n’est pas dû dans la mesure où le capital est augmenté par vermeerderd wordt door inlijving van reserves of provisies, die                  incorporation de réserves ou de provisions constituées, à l’occasion gevestigd werden, bij gelegenheid van inbrengen gedaan in de                     d’apports effectués à la société, en représentation de tout ou partie vennootschap, ter vertegenwoordiging van het geheel of een                       du montant de ces apports qui a été assujetti au droit prévu aux gedeelte van het bedrag van die inbrengen dat onderworpen werd                   articles 115 et 115bis. aan het bij de artikelen 115 en 115bis bedoeld recht.
 
-## Art. 117
+###### Art. 117
 
 Article 117
 
@@ -1887,7 +1891,7 @@ dat de verkrijgende vennootschap beheerst niet in een begrip                    
 
 In geval van niet-nakoming van een van de toepassingsvoorwaarden                A défaut de respect d’une des conditions de l’application du présent van deze paragraaf uiterlijk wanneer de akte ter formaliteit wordt              paragraphe au plus tard lors de la présentation de l’acte de formalité, aangeboden, wordt deze akte tegen het gewoon tarief geregistreerd.              ce dernier est enregistré au droit ordinaire.
 
-## Art. 118
+###### Art. 118
 
 Article 118
 
@@ -1903,7 +1907,7 @@ Voor de toepassing van dit Wetboek worden beschouwd als                         
 
 In deze gevallen omvat de inbreng de goederen van elke aard die aan             Dans ces cas, l’apport comprend les biens de toute nature de vennootschap toebehoren op het tijdstip van de overbrenging.                 appartenant à la société au moment du transfert.
 
-## Art. 119
+###### Art. 119
 
 Article 119
 
@@ -1915,7 +1919,7 @@ De inbrengen die bestaan uit andere zaken dan geldspecie of                    L
 
 De verkoopwaarde van het vruchtgebruik of van de blote eigendom                La valeur vénale de l’usufruit ou de la nue-propriété d’immeubles van in België gelegen onroerende goederen wordt bepaald                        situés en Belgique est déterminée conformément aux articles 47 à overeenkomstig de artikelen 47 tot 50.                                         50.
 
-## Art. 120
+###### Art. 120
 
 Article 120
 
@@ -1927,7 +1931,7 @@ Zo een inbreng meteen onroerende goederen vermeld in artikel                   S
 
 Deze bepalingen zijn evenwel niet toepasselijk bij inbreng van de              Ces dispositions ne sont toutefois pas applicables en cas d’apport universaliteit van de goederen of van een bedrijfstak overeenkomstig           d’universalité de biens ou de branche d’activité conformément à artikel 117.                                                                   l’article 117.
 
-## Art. 121
+###### Art. 121
 
 Article 121
 
@@ -1944,7 +1948,7 @@ Met afwijking van de artikelen 115, 115bis, 118 en 120 worden van               
 
 In alle gevallen wordt het recht geheven op de vermeerdering van het                Dans tous les cas, le droit est perçu sur l’augmentation du capital de kapitaal van de vennootschap, zonder nieuwe inbreng, of op de                       la société, sans apport nouveau, ou sur les apports de biens nouveaux, inbrengen van nieuwe goederen, die gedaan worden ter gelegenheid                    effectués à l’occasion de la transformation, du changement d’objet ou van de omvorming, de wijziging van het voorwerp of de overbrenging                  du transfert de siège. van de zetel.
 
-## Art. 122
+###### Art. 122
 
 Article 122
 
@@ -1963,7 +1967,7 @@ Onder voorbehoud van de bepalingen van artikel 120, wordt van het               
 
 Het evenredig recht, zonder aftrek van het reeds geïnde algemeen                 Toutefois, le droit proportionnel, sans déduction du droit fixe général vast recht, wordt echter opeisbaar wanneer de in het eerste lid, 4°,             déjà perçu, devient exigible lorsque la société d’investissement visée bedoelde beleggingsvennootschap de erkenning overeenkomstig de                   à l’alinéa 1er, 4°, n’obtient pas ou perd, selon le cas, l’agrément prévu wet van 3 augustus 2012 betreffende de instellingen voor collectieve             conformément à la loi du 3 août 2012 relative aux organismes de belegging die voldoen aan de voorwaarden van Richtlijn 2009/65/EG                placement collectif qui répondent aux conditions de la directive en de instellingen voor belegging in schuldvorderingen niet verkrijgt            2009/65/CE et aux organismes de placement en créances, et ce à of verliest, al naar het geval, zulks vanaf de datum van de beslissing           compter de la date de la décision de refus ou de retrait de l’agrément. tot weigering of tot intrekking van de erkenning.
 
-## Art. 1222
+###### Art. 1222
 
 Article 1222
 
@@ -1971,7 +1975,7 @@ Article 1222
 
 (…)                                                                              (…)
 
-## Art. 123
+###### Art. 123
 
 Article 123
 
@@ -1987,7 +1991,7 @@ In geval van onjuistheid van die vermelding verbeurt de vennootschap            
 ----------                                                                       ---------- Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig           Aussi longtemps que, conformément au chapitre IV, section II, de la loi du hoofdstuk IV, afdeling II, van de wet van 23 maart 2019, niet van toepassing     23.03.2019, le Code des sociétés et des associations ne s'applique pas à une is op een vennootschap, vereniging of stichting, moet elke verwijzing naar een   société, association ou fondation, toute référence à une disposition du Code bepaling van het Wetboek van vennootschappen en verenigingen die                 des sociétés et des associations ou de son arrêté d'exécution qui figure dans voorkomt in een bepaling van het Wetboek van de inkomstenbelastingen             une disposition du Code des impôts sur les revenus 1992, du Code des droits 1992, het Wetboek van Registratie-, Hypotheek- en Griffierechten, het            d'enregistrement, d'hypothèque et de greffe, du Code des droits de succession, Wetboek van Successierechten, het Wetboek diverse rechten en taksen en het       du Code des droits et taxes divers, du Code de la taxe sur la valeur ajoutée, de Wetboek van de Belasting over de Toegevoegde Waarde, de ter uitvoering           la législation particulière relative à ces impôts ou des arrêtés pris pour leur ervan genomen besluiten en de bijzondere wetgeving van toepassing op deze        exécution doit se lire, pour ce qui concerne cette société, association ou belastingen, worden gelezen, voor wat deze vennootschap, vereniging of           fondation, comme une référence à la disposition du Code des sociétés, de son stichting betreft, als een verwijzing naar de bepaling van het Wetboek van       arrêté d'exécution ou autre législation particulière qui figurait dans cette vennootschappen of andere bijzondere wetgeving die in zulke fiscale              disposition fiscale avant l'entrée en vigueur de la présente loi (art. 119, § 2) ; wetgeving voorkwam voor de inwerkingtreding van deze wet (art. 119, § 2);
 Zolang, overeenkomstig hoofdstuk IV, afdeling II van de wet van 23 maart         Aussi longtemps que, conformément au chapitre IV, section II, de la loi du 2019, een vennootschap, vereniging of stichting, die door het Belgisch recht     23.03.2019, une société, association ou fondation régie par le droit belge wordt beheerst, een rechtsvorm heeft die het Wetboek van vennootschappen         conserve une forme légale que le Code des sociétés et des associations ne en verenigingen niet erkent, worden de bepalingen van het Wetboek van de         reconnaît pas, les dispositions du Code des impôts sur les revenus 1992, du inkomstenbelastingen 1992, het Wetboek van Registratie-, Hypotheek- en           Code des droits d'enregistrement, d'hypothèque et de greffe, du Code des droits Griffierechten, het Wetboek van Successierechten, het Wetboek diverse            de succession, du Code des droits et taxes divers, du Code de la taxe sur la rechten en taksen en het Wetboek van de Belasting over de Toegevoegde            valeur ajoutée, de la législation particulière relative à ces impôts ou des arrêtés Waarde, de ter uitvoering ervan genomen besluiten en de bijzondere               pris pour leur exécution qui mentionnaient cette forme légale avant l'entrée en wetgeving van toepassing op deze belastingen, die voor de inwerkingtreding       vigueur de la présente loi sont réputées continuer à la mentionner comme van deze wet deze rechtsvorm vermeldden, geacht deze rechtsvorm te blijven       avant l'entrée en vigueur de la présente loi pour ce qui concerne cette société, vermelden voor wat deze vennootschap, vereniging of stichting betreft, zoals     association ou fondation (art. 119, § 3). voor de inwerkingtreding van deze wet. (art. 119, § 3).
 
-## Art. 124
+###### Art. 124
 
 Article 124
 
@@ -2005,7 +2009,7 @@ Deze vrijstelling is slechts toepasbaar voor zover er vermeld is in de          
 
 Ingeval deze vermelding ontbreekt of onjuist is, loopt de                        En cas d’absence ou d’inexactitude de cette mention, la société vennootschap een boete op gelijk aan het ontdoken recht.                         encourt une amende égale au droit éludé.
 
-## Art. 125
+###### Art. 125
 
 Article 125
 
@@ -2013,7 +2017,7 @@ Article 125
 
 (…)                                                                              (…)
 
-## Art. 126
+###### Art. 126
 
 Article 126
 
@@ -2021,7 +2025,7 @@ Article 126
 
 ( …)                                                                             (…)
 
-## Art. 127
+###### Art. 127
 
 Article 127
 
@@ -2029,7 +2033,7 @@ Article 127
 
 ( ...)                                                                           (…)
 
-## Art. 128
+###### Art. 128
 
 Article 128
 
@@ -2039,13 +2043,13 @@ Met afwijking van artikel 2, mogen de onderhandse akten welke de in             
 
 geregistreerd. Wanneer de afschriften of uittreksels ter registratie             présentation à l’enregistrement, les copies ou extraits, doivent être worden aangeboden, moeten ze vergezeld zijn van de oorspronkelijke               accompagnés de l’original de l’acte. akte.
 
-## Art. 211
+###### Art. 211
 
 wordt toepasselijk gemaakt op de onderhandse of                      L’article 211 est rendu applicable aux actes sous seing privé ou passés buitenslands verleden akten die de zelfde overeenkomsten tot                     en pays étranger ayant pour objet les mêmes conventions, encore voorwerp hebben, al hadden deze geen betrekking op in België                     que celles-ci ne se rapporteraient pas à des immeubles situés en gelegen onroerende goederen.                                                     Belgique.
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989        Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 129
+###### Art. 129
 
 Article 129
 
@@ -2063,7 +2067,7 @@ Lid l is niet toepasselijk zo het gaat om:                                      
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989        Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 130
+###### Art. 130
 
 Article 130
 
@@ -2073,11 +2077,11 @@ Het verkrijgen anderszins dan bij inbreng in vennootschap door één of         
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989             Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                     relative au financement des Communautés et des Régions)
 
-##### Afdeling XII - Schenkingen                                                               Section XII - Donations
+#### Afdeling XII - Schenkingen                                                               Section XII - Donations
 
 ##### Onderafdeling I - Algemene bepalingen                                             Sous-section première - Dispositions générales
 
-## Art. 131
+###### Art. 131
 
 Article 131
 
@@ -2109,7 +2113,7 @@ Gedeelte van de           Tussen              Tussen            Tussen alle sche
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989            Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                    relative au financement des Communautés et des Régions)
 
-## Art. 1321
+###### Art. 1321
 
 Article 1321
 
@@ -2119,7 +2123,7 @@ Article 1321
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989        Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 1322
+###### Art. 1322
 
 Article 132²
 
@@ -2139,7 +2143,7 @@ Evenwel wordt, mits bewijs te verstrekken door de belanghebbende,               
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989        Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 133
+###### Art. 133
 
 Article 133
 
@@ -2157,7 +2161,7 @@ Gaat de schenking over een altijddurende rente, dan wordt het recht             
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989              Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                      relative au financement des Communautés et des Régions)
 
-## Art. 134
+###### Art. 134
 
 Article 134
 
@@ -2165,7 +2169,7 @@ Voor de toepassing van artikelen 131 tot 133, wordt de last,                    
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989              Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                      relative au financement des Communautés et des Régions)
 
-## Art. 135
+###### Art. 135
 
 Article 135
 
@@ -2181,7 +2185,7 @@ Voor de toepassing van dit artikel wordt het ontvangen kind voor              Po
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989     Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)             relative au financement des Communautés et des Régions)
 
-## Art. 136
+###### Art. 136
 
 Article 136
 
@@ -2199,7 +2203,7 @@ De begiftigde die in verband met het aantal van zijn wettige (1)              Le
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989              Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                      relative au financement des Communautés et des Régions)
 
-## Art. 137
+###### Art. 137
 
 Article 137
 
@@ -2207,7 +2211,7 @@ Ter bepaling van het op een schenking toepasselijk tarief, wordt de             
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989              Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                      relative au financement des Communautés et des Régions)
 
-## Art. 1381
+###### Art. 1381
 
 Article 1381
 
@@ -2225,7 +2229,7 @@ Indien bewuste opgaven en vermeldingen ontbreken of indien zij                  
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989          Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                  relative au financement des Communautés et des Régions)
 
-## Art. 1382
+###### Art. 1382
 
 Article 1382
 
@@ -2235,7 +2239,7 @@ Voor de toepassing van artikelen 137 en 1381 op de aan een                      
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989          Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                  relative au financement des Communautés et des Régions)
 
-## Art. 139
+###### Art. 139
 
 Article 139
 
@@ -2243,7 +2247,7 @@ Bij onjuist opgeven van den graad van verwantschap tussen schenker              
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989          Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                  relative au financement des Communautés et des Régions)
 
-## Art. 140
+###### Art. 140
 
 Article 140
 
@@ -2272,7 +2276,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989      
 
 ##### Onderafdeling II - Bijzondere bepalingen voor schenkingen van                 Sous-section II - Dispositions spécifiques aux donations d’entreprises ondernemingen
 
-## Art. 140bis
+###### Art. 140bis
 
 Article 140bis
 
@@ -2288,7 +2292,7 @@ Het bij artikel 131 vastgestelde recht blijft niettemin toepasselijk op         
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989        Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 140ter
+###### Art. 140ter
 
 Article 140ter
 
@@ -2332,7 +2336,7 @@ het bewijs te leveren dat hij de volle eigendom van de geschonken               
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989        Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 140quater
+###### Art. 140quater
 
 Article 140quater
 
@@ -2342,7 +2346,7 @@ Indien een van de onder de artikelen 140bis en 140ter gestelde                  
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989        Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 140quinquies
+###### Art. 140quinquies
 
 Article 140quinquies
 
@@ -2362,7 +2366,7 @@ Dit artikel is evenmin van toepassing op de overdrachten van                    
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989        Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 140sexies
+###### Art. 140sexies
 
 Article 140sexies
 
@@ -2372,7 +2376,7 @@ De begiftigde die de toepassing van het verlaagd recht heeft genoten            
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989        Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 140septies
+###### Art. 140septies
 
 Article 140septies
 
@@ -2384,7 +2388,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989      
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 140octies
+###### Art. 140octies
 
 Article 140octies
 
@@ -2399,7 +2403,7 @@ Deze verklaring wordt door de opvolger die het verlaagd recht heeft             
 
 -----                                                                                 -----
 
-## Art. 140octies
+###### Art. 140octies
 
 Article 140octies
 
@@ -2411,9 +2415,9 @@ Indien artikel 140sexies van toepassing is, biedt de opvolger die het          E
 
 Deze verklaring wordt in dubbel gesteld en door de opvolger die het            Cette déclaration, signée par le continuateur bénéficiaire du droit verlaagd recht heeft genoten ondertekend; één exemplaar ervan blijft           réduit, est faite en deux exemplaires, dont l’un reste déposé au bureau berusten op het voormelde kantoor. Ze vermeldt de akte, de oorzaak             précité. Elle mentionne l’acte, la cause de débition du droit dû et tous van de opeisbaarheid van het verschuldigde recht en al de voor de              les éléments nécessaires à la liquidation du droit. vereffening van het recht vereiste gegevens.
 
-##### Afdeling XIII - Huwelijkscontracten en testamenten                                Section XIII - Contrats de mariage et testaments
+#### Afdeling XIII - Huwelijkscontracten en testamenten                                Section XIII - Contrats de mariage et testaments
 
-## Art. 141
+###### Art. 141
 
 Article 141
 
@@ -2421,15 +2425,15 @@ Article 141
 
 (…)                                                                            (…)
 
-## Art. 142
+###### Art. 142
 
 tot 157 W.Reg. federaal                                                   Art. 142 à 157 C. enr. fédéral
 
 De volgende belastingen zijn federaal:                                         Les impôts suivants sont fédéraux : - het veroordelingsrecht en                                                    - le droit de condamnation et - het titelrecht voor zover het betrekking heeft op de inbreng door een        - le droit de titre pour autant qu'il concerne l'apport, fait par une natuurlijke persoon van een woning in een buitenlandse                         personne physique, dans une société étrangère, d'une habitation (art. vennootschap (art. 3, eerste lid, 6° wet 16.01.1989 betreffende de             3, al. 1er, 6°, de la loi du 16.01.1989 relative au financement des financiering van de gemeenschappen en de gewesten).                            communautés et des régions).
 
-##### Afdeling XIV- Vonnissen en arresten                                               Section XIV - Jugements et arrêts
+#### Afdeling XIV- Vonnissen en arresten                                               Section XIV - Jugements et arrêts
 
-## Art. 142
+###### Art. 142
 
 Article 142
 
@@ -2439,7 +2443,7 @@ Het recht wordt vastgesteld op 3 pct. voor de in alle zaken gewezen             
 
 Het recht wordt vereffend, in geval van veroordeling of vereffening                    Le droit est liquidé, en cas de condamnation ou liquidation de sommes van sommen en roerende waarden, op het samengevoegd bedrag, in                         et valeurs mobilières, sur le montant cumulé, en principal, des hoofdsom, van de uitgesproken veroordelingen of van de gedane                          condamnations prononcées ou des liquidations établies à charge vereffeningen ten laste van een zelfde persoon, afgezien van de                        d’une même personne, abstraction faite des intérêts dont le montant interesten waarvan het bedrag niet door de rechter is becijferd en                     n’est pas chiffré par le juge et des dépens, et, en cas de collocation, kosten, en, in geval van rangregeling, op het totaal bedrag der aan de                 sur le montant total des sommes distribuées aux créanciers. schuldeisers uitgedeelde sommen.
 
-## Art. 143
+###### Art. 143
 
 Article 143
 
@@ -2457,7 +2461,7 @@ De bepaling van artikel 142 is niet toepasselijk:                               
 
 Zij is niet toepasselijk wanneer het samengevoegd bedrag van de                        Elle n’est pas applicable lorsque le montant cumulé des uitgesproken veroordelingen en van de gedane vereffeningen ten                         condamnations prononcées et des liquidations établies à charge laste van een zelfde persoon, of van de aan de schuldeisers van een                    d’une même personne, ou des sommes distribuées aux créanciers zelfde persoon uitgedeelde sommen, 12.500 EUR niet overtreft.                          d’une même personne ne dépasse pas 12.500 EUR.
 
-## Art. 144
+###### Art. 144
 
 Article 144
 
@@ -2469,7 +2473,7 @@ Werd het bij artikel 142 vastgestelde recht op een later veranderd              
 
 Wanneer een vonnis of arrest een hoofdelijke veroordeling uitspreekt                   Lorsque les droits dus sur un jugement ou arrêt prononçant une en de op dat vonnis of arrest verschuldigde rechten volledig of                        condamnation solidaire ont été payés totalement ou partiellement gedeeltelijk betaald werden door één van de veroordeelden, maakt de                    par un des condamnés, la décision mettant hors cause celui qui beslissing, waardoor diegene die betaald heeft, buiten zaak wordt                      effectue le paiement rend exigible à charge des autres condamnés gesteld, de rechten die deze betaald heeft opeisbaar in hoofde van de                  solidaires les droits qu’il a payés ; le tout sans préjudice de andere hoofdelijke veroordeelden, dit alles onverminderd de                            l’application des dispositions reprises à l’alinéa premier. toepassing van de voorschriften genomen in het eerste lid.
 
-## Art. 145
+###### Art. 145
 
 Article 145
 
@@ -2479,7 +2483,7 @@ Article 145
 
 Werd het bij artikel 142 vastgestelde recht op een vonnis of arrest                    Lorsque le droit établi par l’article 142 a été perçu sur un jugement ou geheven, dan wordt op elke andere veroordeling ten laste van                           arrêt, toute autre condamnation, à charge de la même personne ou dezelfde persoon of van een derde, welke steunt hetzij op dezelfde                     d’un tiers, qui est fondée soit sur la même cause, soit sur une oorzaak hetzij op een verplichting tot waarborg en meer in het                         obligation de garantir et plus généralement sur tout droit de recours algemeen op elke door de in eerste orde veroordeelde persoon                           exercé par la personne condamnée en premier lieu, n’est passible du uitgeoefende verhaalsvordering, het recht van 3 t.h. alleen geheven                    droit de 3 p.c. que sur le supplément de condamnation de sommes ou op de aanvullende veroordeling tot sommen of waarden, en voor                          valeurs et pour autant que ce supplément dépasse 12.500 EUR. zover deze 12.500 EUR te boven gaat.
 
-## Art. 146
+###### Art. 146
 
 Article 146
 
@@ -2491,7 +2495,7 @@ geven aanleiding, onverminderd het door artikel 142 vastgesteld                 
 
 Dit geldt eveneens, zelfs indien de rechterlijke beslissing die tot bewijs         Il en est ainsi, même si la décision judiciaire faisant titre de la van de overeenkomst strekt, de ontbinding of herroeping ervan voor                 convention prononce la résolution ou la révocation de celle-ci pour om 't even welke reden uitspreekt, tenzij uit de beslissing blijkt dat ten         quelque cause que ce soit, à moins qu’il ne résulte de la décision que hoogste één jaar na de overeenkomst een eis tot ontbinding of                      la convention n’est pas antérieure de plus d’un an à une demande en herroeping, zelfs bij een onbevoegd rechter, werd ingesteld.                       résolution ou en révocation, même si elle a été introduite devant un juge incompétent.
 
-## Art. 147
+###### Art. 147
 
 Article 147
 
@@ -2499,7 +2503,7 @@ Article 147
 
 De vonnissen en arresten houdende vernietiging, ontbinding of                      Les jugements et arrêts portant annulation, résolution ou révocation herroeping van een overeenkomst waarbij eigendom of vruchtgebruik                  d’une convention translative ou déclarative de propriété ou d’usufruit van in België gelegen onroerende goederen overgedragen of                          d’immeubles, situés en Belgique ne donnent pas lieu au droit aangewezen wordt, geven geen aanleiding tot heffing van het                        proportionnel du chef de cette mise à néant, à moins qu’elle ne soit evenredig recht uit hoofde van dat te niet doen, tenzij die                        prononcée au profit d’une personne autre que l’une des parties à la uitgesproken zij ten voordele van een ander persoon dan een van de                 convention, ses héritiers ou légataires. En ce dernier cas, sont perçus partijen bij de overeenkomst, haar erfgenamen of legatarissen. In                  les droits qui eussent été exigibles si l’annulation, la résolution ou la laatstbedoeld geval worden de rechten geheven die verschuldigd                     révocation avait fait l’objet d’un acte amiable. waren geweest indien de vernietiging, de ontbinding of de herroeping het voorwerp van een minnelijke akte had uitgemaakt.
 
-## Art. 148
+###### Art. 148
 
 Article 148
 
@@ -2509,7 +2513,7 @@ Exequaturs van scheidsrechterlijke uitspraken en van buitenlands                
 
 Deze rechten zijn eveneens van toepassing in geval van aanbieding                  Ces droits sont également applicables en cas de présentation à ter registratie van een buitenlands gewezen rechterlijke beslissing                l’enregistrement d’une décision judiciaire rendue en pays étranger si indien zij van rechtswege in België uitvoerbaar is.                                celle-ci est exécutoire de plein droit en Belgique.
 
-## Art. 149
+###### Art. 149
 
 Article 149
 
@@ -2517,7 +2521,7 @@ Article 149
 
 Behoudens in de gevallen beoogd door de artikelen 146 tot 148                      Sauf dans les cas visés aux articles 146 à 148, les jugements et arrêts maken de vonnissen en arresten geen evenredig recht eisbaar uit                    ne rendent pas exigible un droit proportionnel à raison des hoofde van de overeenkomsten waarvan zij het bestaan vaststellen.                  conventions dont ils constatent l’existence.
 
-## Art. 150
+###### Art. 150
 
 Article 150
 
@@ -2527,7 +2531,7 @@ Om de invordering van de rechten en, in voorkomend geval, van de                
 
 De rechten en boeten bedoeld in het eerste lid gaan boven alle                     Les droits et amendes visés à l’alinéa 1er priment toutes les créances schuldvorderingen van de begunstigden van de veroordelingen,                       des bénéficiaires des condamnations, liquidations ou collocations. vereffeningen of rangregelingen.
 
-## Art. 151
+###### Art. 151
 
 Article 151
 
@@ -2535,7 +2539,7 @@ Article 151
 
 (…)                                                                                (…)
 
-## Art. 152
+###### Art. 152
 
 Article 152
 
@@ -2543,11 +2547,11 @@ Article 152
 
 (…)                                                                                (…)
 
-##### Afdeling XV - (…)                                                                   Section XV - (…)
+#### Afdeling XV - (…)                                                                   Section XV - (…)
 
 (opgeheven bij art. 2/art. 29 van de wet van 10.10.1967 (B.S., 31.10.1967).        (abrogé par l’art. 2/art. 29 de la loi du 10.10.1967 (M.B., 31.10.1967). Texte Tekst van toepassing vanaf 01.01.1969 (art. 3, 28°, van het KB van                 applicable à partir du 01.01.1969 (art. 3, 28°, de l’AR du 04.11.1968 (M.B., 04.11.1968 (B.S., 13.11.1968))                                                     13.11.1968))
 
-## Art. 153
+###### Art. 153
 
 Article 153
 
@@ -2555,11 +2559,11 @@ Article 153
 
 ( …)                                                                          (…)
 
-##### Afdeling XVI - (…)                                                              Section XVI - (…)
+#### Afdeling XVI - (…)                                                              Section XVI - (…)
 
 (opgeheven bij art. 2/art. 29 van de wet van 10.10.1967 (B.S., 31.10.1967).   (abrogé par l’art. 2/art. 29 de la loi du 10.10.1967 (M.B., 31.10.1967). Texte Tekst van toepassing vanaf 01.01.1969 (art. 3, 28°, van het KB van            applicable à partir du 01.01.1969 (art. 3, 28°, de l’AR du 04.11.1968 (M.B., 04.11.1968 (B.S., 13.11.1968))                                                13.11.1968))
 
-## Art. 154
+###### Art. 154
 
 Article 154
 
@@ -2567,11 +2571,11 @@ Article 154
 
 (…)                                                                           (…)
 
-##### Afdeling XVII - (…)                                                             Section XVII - (…)
+#### Afdeling XVII - (…)                                                             Section XVII - (…)
 
 (opgeheven bij art. 2/art. 29 van de wet van 10.10.1967 (B.S., 31.10.1967).   (abrogé par l’art. 2/art. 29 de la loi du 10.10.1967 (M.B., 31.10.1967). Texte Tekst van toepassing vanaf 01.01.1969 (art. 3, 28°, KB 04.11.1968 (B.S.,      applicable à partir du 01.01.1969 (art. 3, 28°, AR 04.11.1968 (M.B., 13.11.1968)))                                                                 13.11.1968)))
 
-## Art. 155
+###### Art. 155
 
 Article 155
 
@@ -2579,11 +2583,11 @@ Article 155
 
 (…)                                                                           (…)
 
-##### Afdeling XVIII - (…)                                                             Section XVIII - (…)
+#### Afdeling XVIII - (…)                                                             Section XVIII - (…)
 
 (opgeheven bij art. 11 van de wet van 12.07.1960 (B.S., 09.11.1960). Tekst    (abrogé par l’art. 11 de la loi du 12.07.1960 (M.B., 09.11.1960). Texte van toepassing vanaf 01.01.1961 (art. 39))                                    applicable à partir du 01.01.1961 (art. 39))
 
-## Art. 156
+###### Art. 156
 
 Article 156
 
@@ -2591,9 +2595,9 @@ Article 156
 
 (…)                                                                                 (…)
 
-##### Afdeling XIX - Protesten                                                              Section XIX - Protêts
+#### Afdeling XIX - Protesten                                                              Section XIX - Protêts
 
-## Art. 157
+###### Art. 157
 
 Article 157
 
@@ -2601,17 +2605,17 @@ Article 157
 
 (…)                                                                                 (…)
 
-## Art. 158
+###### Art. 158
 
 W.Reg. federaal                                                             Art. 158 C. enr. fédéral
 
 Het specifiek vast recht voor bijlagen is een federale belasting (art. 3,           Le droit fixe spécifique pour des annexes est un impôt fédéral (art. 3, a contrario, wet 16.01.1989 betreffende de financiering van de                      a contrario, de la loi du 16.01.1989 relative au financement des gemeenschappen en de gewesten).                                                     communautés et des régions).
 
-##### Afdeling XIXbis - Aangehechte akten en geschriften                                          Section XIXbis - Actes et écrits annexés
+#### Afdeling XIXbis - Aangehechte akten en geschriften                                          Section XIXbis - Actes et écrits annexés
 
 (ingevoegd bij art. 51 van de wet van 21.12.2013 (B.S., 31.12.2013 - ed. 2).        (inséré par l’art. 51 de la loi du 21.12.2013 (M.B., 31.12.2013 - éd. 2). Texte Tekst van toepassing vanaf 01.04.2014 (art. 87, 3°))                                applicable à partir du 01.04.2014 (art. 87, 3°))
 
-## Art. 158
+###### Art. 158
 
 Article 158
 
@@ -2623,9 +2627,9 @@ De aangehechte akten of geschriften bedoeld in artikel 26, tweede lid,          
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-##### Afdeling XX - Akten vrijgesteld van het evenredig recht en Section XX - Actes exemptés du droit proportionnel et onderhevig aan het algemeen vast recht                                                assujettis au droit fixe général
+#### Afdeling XX - Akten vrijgesteld van het evenredig recht en Section XX - Actes exemptés du droit proportionnel et onderhevig aan het algemeen vast recht                                                assujettis au droit fixe général
 
-## Art. 159
+###### Art. 159
 
 Article 159
 
@@ -2703,9 +2707,9 @@ In geval van onjuiste verklaring betreffende de aanwending of de                
 
 -----                                                                               -----
 
-##### Afdeling XX - Akten vrijgesteld van het evenredig recht en                           Section XX - Actes exemptés du droit proportionnel et onderhevig aan het algemeen vast recht                                                   assujettis au droit fixe général
+#### Afdeling XX - Akten vrijgesteld van het evenredig recht en                           Section XX - Actes exemptés du droit proportionnel et onderhevig aan het algemeen vast recht                                                   assujettis au droit fixe général
 
-## Art. 159
+###### Art. 159
 
 Article 159
 
@@ -2783,9 +2787,9 @@ in België gelegen onroerende goederen als andere goederen omvat                
 
 In geval van onjuiste verklaring betreffende de aanwending of de                En cas de déclaration inexacte, concernant l’affectation ou la bestemming van het onroerend goed, worden de bijvoeglijke rechten               destination de l’immeuble, les droits complémentaires sont exigibles opeisbaar en verbeurt iedere partij een boete gelijk aan de rechten.            et chacune des parties encourt une amende égale aux droits.
 
-#### HOOFDSTUK V - Registratie in debet                                              Chapitre V - Enregistrement en débet
+### HOOFDSTUK V - Registratie in debet                                              Chapitre V - Enregistrement en débet
 
-## Art. 160
+###### Art. 160
 
 Article 160
 
@@ -2817,9 +2821,9 @@ De rechten worden in de gerechtskosten begrepen en als zodanig                  
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989         Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                 relative au financement des Communautés et des Régions)
 
-#### HOOFDSTUK VI - Kosteloze registratie                                                CHAPITRE VI - Enregistrement gratuit
+### HOOFDSTUK VI - Kosteloze registratie                                                CHAPITRE VI - Enregistrement gratuit
 
-## Art. 161
+###### Art. 161
 
 Article 161
 
@@ -2892,7 +2896,7 @@ De bijlagen bij een dergelijke verklaring worden ook kosteloos                  
 (1) Vanaf 03.08.2017 tot 02.08.2020 mag het netto actief van de                      (1) Du 03.08.2017 au 02.08.2020, l'actif net de la succession ne peut nalatenschap niet meer bedragen dan 5.000 EUR. Vanaf 03.08.2020 tot                  dépasser 5.000 EUR. Du 03.08.2020 au 31.07.2023, le montant indexé est 31.07.2023 bedraagt het geïndexeerde bedrag 5.219,21 euro. Vanaf                     de 5.219,21 euros. Du 01.08.2023 au 31.07.2026, le montant indexé est de 01.08.2023 tot 31.07.2026 bedraagt het geïndexeerde bedrag 6.093,20                  6.093,20 euros (EE/107.394). euro (EE/107.394).
 (2) Wat betreft art. 161, 1°, W.Reg.: De federale wetgever treedt hier uitsluitend   (2) En ce qui concerne l’art. 161, 1°, C. enr. : Le législateur fédéral intervient ici op in het kader van niet-geregionaliseerde belastingen, terwijl de tarifering van    exclusivement dans le cadre des impôts non-régionalisés, tandis que la gewestelijke registratierechten onder de bevoegdheid van de gewesten valt.           tarification des droits d’enregistrement régionalisés relève de la compétence Door de tekst te wijzigen, rationaliseert de federale wetgever de bepalingen die     des régions. En modifiant le texte, le législateur fédéral rationalise les van toepassing zijn op zijn eigen belastingen, zonder de regionale versies te        dispositions applicables à ses propres impôts, sans pour autant affecter les beïnvloeden, die afzonderlijk blijven en niet door deze wijzigingen worden           versions régionales, qui demeurent distinctes et ne sont pas atteintes par ces geraakt (Parl.St., Kamer: 56-1127 001, blz. 8).                                      modifications (Doc. parl., Chambre: 56-1127 001, p. 8).
 
-## Art. 161/1
+###### Art. 161/1
 
 Article 161/1
 
@@ -2901,9 +2905,9 @@ Article 161/1
 Onverminderd artikel 162, 51°, worden de akten, vonnissen en                         Sans préjudice de l'article 162, 51°, sont exemptés des droits arresten, betreffende een overeenkomstig Boek XX, Titel V van het                    d'enregistrement non visés à l'article 3 de la loi spéciale du 16 janvier Wetboek van economisch recht ingestelde procedure van                                1989 relative au financement des communautés et des régions, les gerechtelijke reorganisatie vrijgesteld van de registratierechten die                actes, jugements et arrêts relatifs à une procédure de réorganisation niet worden bedoeld in artikel 3 van de bijzondere wet van 16 januari                judiciaire introduite conformément au Livre XX, Titre V du Code de 1989 betreffende de financiering van de Gemeenschappen en de                         droit économique.
 Gewesten.
 
-#### HOOFDSTUK VII - Vrijstelling van de formaliteit der                                     CHAPITRE VII - Exemption de la formalité de registratie                                                                   l’enregistrement
+### HOOFDSTUK VII - Vrijstelling van de formaliteit der                                     CHAPITRE VII - Exemption de la formalité de registratie                                                                   l’enregistrement
 
-## Art. 162
+###### Art. 162
 
 Article 162
 
@@ -3056,7 +3060,7 @@ b) de in artikelen 146 en 147 bedoelde vonnissen en arresten;                   
 “48°” moeten zijn.
 (3) Het “47°” ingevoegd bij art. 82 van de wet van 24.03.2003 zou het “49°”      (3) Le 47° inséré par l’art. 82 de la loi du 24.03.2003 eût dû être un 49°. moeten zijn.
 
-## Art. 163
+###### Art. 163
 
 Article 163
 
@@ -3072,23 +3076,23 @@ a) processen-verbaal van verkoop van in beslag genomen roerende of              
 
 b) processen-verbaal van rangregeling en van verdeling bij aandelen.             b) aux procès-verbaux d’ordre et de distribution par contribution.
 
-## Art. 164
+###### Art. 164
 
 Article 164
 
 Zijn mede van de formaliteit der registratie vrijgesteld, de uitgiften,          Sont pareillement exemptés de la formalité de l’enregistrement, les afschriften van en uittreksels uit akten welke geregistreerd werden of           expéditions, copies ou extraits d’actes qui ont été enregistrés ou qui die krachtens artikel 162 van de formaliteit zijn vrijgesteld.                   sont exemptés de la formalité en vertu de l’article 162.
 
-## Art. 165
+###### Art. 165
 
 Article 165
 
 Indien een bij artikelen 162 en 164 van de formaliteit der registratie                 Si un acte ou écrit exempté de la formalité de l’enregistrement par les vrijgestelde akte of geschrift toch ter registratie wordt aangeboden,                  articles 162 et 164 est néanmoins présenté à l’enregistrement, il geeft zij aanleiding tot het heffen van het algemeen vast recht.                       donne lieu à la perception du droit fixe général.
 
-#### HOOFDSTUK VIII - Diverse bepalingen betreffende de                                        Chapitre VIII - Dispositions diverses relatives à la vereffening van de rechten en de betaling van het                                    liquidation des droits et au paiement du montant dû verschuldigde bedrag
+### HOOFDSTUK VIII - Diverse bepalingen betreffende de                                        Chapitre VIII - Dispositions diverses relatives à la vereffening van de rechten en de betaling van het                                    liquidation des droits et au paiement du montant dû verschuldigde bedrag
 
 (vervangen bij art. 6 van de wet van 26.05.2016 (B.S., 09.06.2016). Tekst van          (remplacé par l’art. 6 de la loi du 26.05.2016 (M.B., 09.06.2016). Texte toepassing vanaf 01.01.2015 (art. 8))                                                  applicable à partir du 01.01.2015 (art. 8))
 
-## Art. 166
+###### Art. 166
 
 Article 166
 
@@ -3100,13 +3104,13 @@ In geval van openbare verkoping van roerende of onroerende                      
 
 Het bedrag van het vereffende recht wordt, desvoorkomend, tot de                       Le montant du droit liquidé est, le cas échéant, arrondi au cent hogere eurocent afgerond.                                                              supérieur.
 
-## Art. 167
+###### Art. 167
 
 Article 167
 
 Wanneer er niet anderszins bij deze titel over beschikt is, mag het                    Lorsqu’il n’en est pas disposé autrement par le présent titre, le bedrag van het op een akte of een verklaring te heffen evenredig recht                 montant du droit proportionnel à percevoir sur un acte ou une niet minder dan in het algemeen vast recht bedragen.                                   déclaration ne peut être inférieur au droit fixe général.
 
-## Art. 168
+###### Art. 168
 
 Article 168
 
@@ -3120,7 +3124,7 @@ Wanneer een zelfde overeenkomst meteen op in België gelegen                    
 
 Indien de bepaling van den belastbaren grondslag geheel of                       Si la détermination de la base imposable dépend en tout ou en partie gedeeltelijk van de schatting van een levenslang recht afhangt, moet             de l’évaluation d’un droit viager, la déclaration doit comprendre les de verklaring naam, voornamen, woonplaats, plaats en datum van                   nom, prénoms, domicile, lieu et date de naissance des personnes geboorte van de beneficianten van dit levenslang recht vervatten.                bénéficiaires du dit droit viager.
 
-## Art. 169
+###### Art. 169
 
 Article 169
 
@@ -3128,7 +3132,7 @@ De rechten verschuldigd op akten waarbij eigendom of vruchtgebruik              
 
 De schulden die al dan niet met de handelszaak in verband staan en               Les dettes, afférentes ou non au fonds de commerce, qui sont prises die door den nieuwe eigenaar of vruchtgebruiker ten laste genomen                en charge par le nouveau propriétaire ou usufruitier doivent être worden, moeten als lasten van de overeenkomst beschouwd worden.                  considérées comme charges de la convention.
 
-## Art. 169bis
+###### Art. 169bis
 
 Article 169bis
 
@@ -3136,7 +3140,7 @@ Article 169bis
 
 Voor de toepassing van de artikelen 115bis en 140bis, moet de                    Pour l'application des articles 115bis et 140bis, l'affectation ou la aanwending of de bestemming van een onroerend goed worden                        destination d'un immeuble doit s'apprécier par parcelle cadastrale ou nagegaan per kadastraal perceel of per gedeelte van kadastraal                   par partie de parcelle cadastrale lorsqu'une telle partie forme, soit un perceel wanneer dat gedeelte is ofwel een afzonderlijke huisvesting,             logement séparé, soit un département ou une division de production ofwel een afdeling van de productie of van de werkzaamheden die, of              ou d'activité susceptibles de fonctionner séparément, soit une entité een onderdeel daarvan dat, afzonderlijk kan werken, ofwel een                    dissociable des autres biens ou parties formant la parcelle. eenheid die van de andere goederen of delen die het perceel vormen kan worden afgezonderd.
 
-## Art. 169ter
+###### Art. 169ter
 
 Article 169ter
 
@@ -3148,11 +3152,11 @@ Behalve wanneer ze verschuldigd zijn in het kader van de                        
 
 Niemand kan, onder voorwendsel van betwisting van het                                  Nul ne peut atténuer ni différer ce paiement, sous prétexte de verschuldigde bedrag of om enige andere reden, die betaling                            contestation sur le montant dû ou pour tout autre motif, sauf à se verminderen of uitstellen, behoudens het recht om teruggave te                         pourvoir en restitution s’il y a lieu. vorderen, indien daartoe grond bestaat.
 
-#### HOOFDSTUK IX - Verplichtingen met het oog op het                                     Chapitre IX - Obligations en vue d’assurer la perception verzekeren van het heffen van de rechten                                                                        des droits
+### HOOFDSTUK IX - Verplichtingen met het oog op het                                     Chapitre IX - Obligations en vue d’assurer la perception verzekeren van het heffen van de rechten                                                                        des droits
 
-##### Afdeling I - Vermeldingen op te nemen in bepaalde akten                                    Section Ire - Mentions à insérer dans certains actes
+#### Afdeling I - Vermeldingen op te nemen in bepaalde akten                                    Section Ire - Mentions à insérer dans certains actes
 
-## Art. 170
+###### Art. 170
 
 Article 170
 
@@ -3166,7 +3170,7 @@ Indien die akte niet geregistreerd werd, dan wordt daarvan in de                
 
 Alle overtreding van dit artikel wordt gestraft met een boete van 25                   Toute contravention au présent article est punie d’une amende de 25 EUR ten laste van den werkenden ambtenaar of openbaren officier.                       EUR à charge du fonctionnaire ou officier public instrumentant.
 
-## Art. 170bis
+###### Art. 170bis
 
 Article 170bis
 
@@ -3178,7 +3182,7 @@ In geval van weigering de verklaring te doen of bij onjuiste of                 
 
 De notaris die nagelaten heeft de schenker te vragen de verklaring te                  Le notaire qui a omis de demander au donateur de faire la déclaration doen, verbeurt een boete van 25 EUR.                                                   encourt une amende de 25 EUR.
 
-## Art. 171
+###### Art. 171
 
 Article 171
 
@@ -3189,9 +3193,9 @@ Alle expedities, afschriften van of uittreksels uit een burgerlijke of          
 
 Het eerste lid is niet van toepassing op een afschrift gemaakt met het                 L'alinéa 1er ne s'applique pas à une copie dressée en vue de sa oog op de aanbieding ervan ter formaliteit van de registratie.                         présentation à la formalité de l'enregistrement.
 
-##### Afdeling II - Voorschriften betreffende het uitreiken van                                Section II - Prescriptions relatives à la délivrance des uitgiften                                                                              expéditions
+#### Afdeling II - Voorschriften betreffende het uitreiken van                                Section II - Prescriptions relatives à la délivrance des uitgiften                                                                              expéditions
 
-## Art. 172
+###### Art. 172
 
 Article 172
 
@@ -3204,7 +3208,7 @@ Notarissen,      gerechtsdeurwaarders,           griffiers   der   hoven   en   
 
 Alle overtreding van dit verbod wordt met een geldboete van 25 EUR              Toute contravention à cette défense est punie d’une amende de 25 gestraft.                                                                       EUR.
 
-## Art. 173
+###### Art. 173
 
 Article 173
 
@@ -3234,7 +3238,7 @@ Van voorgaand artikel wordt afgeweken ten aanzien van:                          
 
 8° de gedematerialiseerde afschriften van notariële akten, die                    8° les copies dématérialisées des actes notariés déposées dans la worden neergelegd in de Notariële Aktebank overeenkomstig artikel                 Banque des actes notariés conformément à l'article 18 de la loi du 25 18 van de wet van 25 ventôse jaar XI op het notarisambt.                          ventôse an XI contenant organisation du notariat.
 
-## Art. 174
+###### Art. 174
 
 Article 174
 
@@ -3242,7 +3246,7 @@ Article 174
 
 (…)                                                                               (…)
 
-## Art. 175
+###### Art. 175
 
 Article 175
 
@@ -3250,9 +3254,9 @@ Article 175
 
 (…)                                                                               (…)
 
-##### Afdeling III - Repertorium van de akten                                               Section III - Répertoire des actes
+#### Afdeling III - Repertorium van de akten                                               Section III - Répertoire des actes
 
-## Art. 176
+###### Art. 176
 
 Article 176
 
@@ -3260,7 +3264,7 @@ Article 176
 
 Notarissen en gerechtsdeurwaarders moeten een kolomsgewijze                            Les notaires et les huissiers de justice doivent tenir un répertoire en ingedeeld repertorium houden, waarin zij dagelijks zonder openlaten                    colonnes, sur lequel ils inscrivent, jour par jour, sans blanc, ni van tussenruimte, noch tussenregel, noch vervalsing en in de                           interligne, ni altération, et par ordre de numéros, tous les actes de leur volgorde der nummers, alle akten van hun ambt inschrijven.                             ministère.
 
-## Art. 177
+###### Art. 177
 
 Article 177
 
@@ -3282,7 +3286,7 @@ In elk artikel van het repertorium dienen vermeld:                              
 
 De Koning kan aanvullende vermeldingen voorschrijven of                                Le Roi peut prescrire des mentions complémentaires ou autoriser des afwijkingen toestaan.                                                                  dérogations.
 
-## Art. 178
+###### Art. 178
 
 Article 178
 
@@ -3292,7 +3296,7 @@ Article 178
 
 Een boete van 25 EUR wordt verbeurd voor elke weggelaten of te laat                    Il est encouru une amende de 25 EUR pour tout acte omis ou inscrit in het repertorium ingeschreven akte, voor elke akte ingeschreven                      tardivement au répertoire, pour tout acte inscrit au moyen d’interligne met tussenregel of met vervalsing, alsmede voor elke akte van                          ou d’altération, ainsi que pour tout acte d’une date antérieure au vroegere datum dan die van het proces-verbaal van nummering en                         procès-verbal de cote et paraphe du répertoire. waarmerk van het repertorium.
 
-## Art. 179
+###### Art. 179
 
 Article 179
 
@@ -3302,7 +3306,7 @@ De in artikel 176 bedoelde repertoria die moeten worden gehouden                
 
 De Koning kan bepalen dat de repertoria die door de                                 Le Roi peut déterminer que les répertoires que les huissiers de justice gerechtsdeurwaarders moeten worden gehouden, mogen worden                           doivent tenir, peuvent l’être d’une manière dématérialisée, gehouden op een gedematerialiseerde wijze die vastgesteld is door                   déterminée par la Chambre nationale des huissiers de justice dans un de Nationale Kamer van gerechtsdeurwaarders in een door de Koning                   règlement approuvé par le Roi. goedgekeurd reglement.
 
-## Art. 180
+###### Art. 180
 
 Article 180
 
@@ -3316,7 +3320,7 @@ De Koning kan voor de op gedematerialiseerde wijze gehouden                     
 
 Bij laattijdige voorlegging van het repertorium wordt een boete                     Une amende de 25 euros par semaine de retard est encourue en cas verbeurd van 25 euro per week vertraging.                                           de présentation tardive du répertoire.
 
-## Art. 180bis
+###### Art. 180bis
 
 Article 180bis
 
@@ -3334,7 +3338,7 @@ Die bewaring geschiedt:                                                         
 
 De bewaring moet de onveranderlijkheid en de integriteit van de                  La conservation garantit l'inaltérabilité et l'intégrité du contenu des inhoud van deze stukken waarborgen.                                              pièces.
 
-## Art. 180ter
+###### Art. 180ter
 
 Article 180ter
 
@@ -3346,9 +3350,9 @@ De griffier bewaart, samen met de minuut van het vonnis of arrest:              
 
 2° een kopie van het geregistreerde afschrift van dat vonnis of arrest.          2° une copie de la copie enregistrée de ce jugement ou de cet arrêt.
 
-##### Afdeling IV - Verplichting van inzageverlening                                         Section IV - Devoir de communication
+#### Afdeling IV - Verplichting van inzageverlening                                         Section IV - Devoir de communication
 
-## Art. 1811
+###### Art. 1811
 
 Article 1811
 
@@ -3360,7 +3364,7 @@ uittreksels te laten nemen die zij nodig hebben met het oog op 's Rijks belangen
 
 Deze verplichting is echter, bij 't leven van de erflaters, niet                 Toutefois, cette obligation ne s’applique pas, du vivant des testateurs, toepasselijk op de bij notarissen berustende testamenten.                        aux testaments déposés chez les notaires.
 
-## Art. 1812
+###### Art. 1812
 
 Article 1812
 
@@ -3376,7 +3380,7 @@ De griffiers van de hoven en rechtbanken zijn er toe gehouden op straf          
 
 De modaliteiten waaronder deze inzage moet verleend worden en de                 Les modalités de cette communication et le délai dans lequel elle doit termijn waarbinnen dit moet geschieden, worden bij koninklijk besluit            avoir lieu, sont fixés par arrêté royal. Les infractions aux prescriptions bepaald. Inbreuken op de voorschriften van dit koninklijk besluit                dudit arrêté royal peuvent être réprimées par des amendes dont le kunnen beteugeld worden met boeten waarvan het bedrag 25 EUR                     taux n'excédera pas 25 EUR pour chacune d'elles. per inbreuk niet zal te boven gaan.
 
-## Art. 182
+###### Art. 182
 
 Article 182
 
@@ -3388,7 +3392,7 @@ Elke weigering van inzageverlening wordt bij proces-verbaal                     
 
 waarvan het bedrag door de bevoegde adviseur-generaal van de                          conseiller général compétent de l’Administration générale de la Algemene Administratie van de Patrimoniumdocumentatie wordt                           documentation patrimoniale. bepaald.
 
-## Art. 182bis
+###### Art. 182bis
 
 Article 182bis
 
@@ -3400,7 +3404,7 @@ Elke weigering van inzageverlening wordt bij proces-verbaal                     
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 183
+###### Art. 183
 
 Article 183
 
@@ -3416,7 +3420,7 @@ Voor elke overtreding wordt een boete verbeurd van 250 tot 2.500                
 
 -----                                                                             -----
 
-## Art. 183
+###### Art. 183
 
 Article 183
 
@@ -3434,7 +3438,7 @@ Note :
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 184
+###### Art. 184
 
 Article 184
 
@@ -3447,7 +3451,7 @@ De Koning bepaalt de modaliteiten van deze communicatie en duidt                
 
 -----                                                                                 -----
 
-## Art. 184
+###### Art. 184
 
 Article 184
 
@@ -3457,9 +3461,9 @@ Wanneer de som te betalen door de eigenaar van een muur om deze                 
 
 Een koninklijk besluit bepaalt de wijze waarop dit bericht dient                      Un arrêté royal détermine le mode suivant lequel cette information gegeven en duidt de ambtenaar aan ertoe bevoegd hetzelve te                           doit être donnée et désigne le fonctionnaire compétent pour la ontvangen.                                                                            recevoir.
 
-##### Afdeling V - Verplichtingen opgelegd aan openbare                                 Section V - Obligations imposées aux officiers publics en ambtenaren ter verzekering van de invordering der                                 vue d’assurer le recouvrement du droit d’enregistrement registratierechten
+#### Afdeling V - Verplichtingen opgelegd aan openbare                                 Section V - Obligations imposées aux officiers publics en ambtenaren ter verzekering van de invordering der                                 vue d’assurer le recouvrement du droit d’enregistrement registratierechten
 
-## Art. 184bis
+###### Art. 184bis
 
 Article 184bis
 
@@ -3473,11 +3477,11 @@ Indien de personen bepaald in het eerste lid de voorschriften van dit           
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                      DROIT FUTUR (à partir du 01.01.2028)
 
-#### HOOFDSTUK X - Bewijsmiddelen                                                            Chapitre X - Moyens de preuve
+### HOOFDSTUK X - Bewijsmiddelen                                                            Chapitre X - Moyens de preuve
 
-##### Afdeling I - Algemene bepalingen                                                       Section Ire - Dispositions générales
+#### Afdeling I - Algemene bepalingen                                                       Section Ire - Dispositions générales
 
-## Art. 185
+###### Art. 185
 
 Article 185
 
@@ -3490,11 +3494,11 @@ De processen-verbaal gelden als bewijs tot het tegendeel bewezen is.            
 
 -----                                                                             -----
 
-#### HOOFDSTUK X - Bewijsmiddelen                                                        Chapitre X - Moyens de preuve
+### HOOFDSTUK X - Bewijsmiddelen                                                        Chapitre X - Moyens de preuve
 
-##### Afdeling I - Algemene bepalingen                                                 Section Ire - Dispositions générales
+#### Afdeling I - Algemene bepalingen                                                 Section Ire - Dispositions générales
 
-## Art. 185
+###### Art. 185
 
 Article 185
 
@@ -3504,7 +3508,7 @@ Behoudens de bewijs- en controlemiddelen speciaal voorzien in deze              
 
 De processen-verbaal gelden als bewijs tot het tegendeel bewezen is.             Les procès-verbaux font foi jusqu'à preuve contraire. Ils seront Zij zullen aan belanghebbenden betekend worden binnen de maand                   notifiés aux intéressés dans le mois de la constatation de la van de vaststelling van de overtreding. Deze betekening mag                      contravention. Cette notification peut avoir lieu par lettre gebeuren bij een ter post aangetekend schrijven. De afgifte van het              recommandée à la poste. Le dépôt du pli à la poste vaut notification à stuk ter post geldt als betekening van de volgende dag af.                       compter du lendemain.
 
-## Art. 186
+###### Art. 186
 
 Article 186
 
@@ -3515,7 +3519,7 @@ Tekst van toepassing vanaf 27.09.1947 (art. -))                                 
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989        Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-## Art. 187
+###### Art. 187
 
 Article 187
 
@@ -3523,7 +3527,7 @@ Verandering in eigendom of vruchtgebruik van een in België gelegen             
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989      Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)              relative au financement des Communautés et des Régions)
 
-## Art. 188
+###### Art. 188
 
 Article 188
 
@@ -3531,9 +3535,9 @@ Wordt als koper voor eigen rekening beschouwd en mag zich op de                E
 
 De tussenpersoon wordt geacht het onroerend goed te hebben                     L’intermédiaire est réputé avoir acquis l’immeuble à la date du verkregen op de dag van de betaling of van de verbintenis tot betaling.        paiement ou de l’engagement de payer.
 
-##### Afdeling II - Controleschatting                                               Section II - Expertise de contrôle
+#### Afdeling II - Controleschatting                                               Section II - Expertise de contrôle
 
-## Art. 189
+###### Art. 189
 
 Article 189
 
@@ -3541,7 +3545,7 @@ Article 189
 
 Onverminderd de toepassing van de bepalingen betreffende het                   Sans préjudice de l’application des dispositions relatives à la bewimpelen van prijs, heeft de ontvanger de bevoegdheid om                     dissimulation de prix, le receveur a la faculté de requérir l’expertise schatting te vorderen van de goederen die het voorwerp van de                  des biens qui font l’objet de la convention, en vue d’établir overeenkomst uitmaken, ten einde van de ontoereikendheid van de                l’insuffisance du prix énoncé ou de la valeur déclarée, lorsqu’il s’agit de uitgedrukte prijs of van de aangegeven waarde te doen blijken,                 la propriété ou de l’usufruit d’immeubles situés en Belgique. wanneer het gaat om eigendom of vruchtgebruik van in België gelegen onroerende goederen.
 
-## Art. 190
+###### Art. 190
 
 Article 190
 
@@ -3553,7 +3557,7 @@ In de gevallen bedoeld in artikelen 16 en 17 gaat de termijn slechts in         
 
 De vordering tot schatting houdt aanwijzing van de goederen                        La demande d’expertise désigne les biens faisant l’objet de l’expertise waarover de schatting gaat, zomede van de som waarop zij door het                  et indique la somme à laquelle l’administration les évalue et celle bestuur geschat werden en van het vermoedelijk wegens recht en                     présumée due pour droit et amende. boete verschuldigd bedrag.
 
-## Art. 191
+###### Art. 191
 
 Article 191
 
@@ -3563,7 +3567,7 @@ In dit geval wordt het akkoord vastgesteld bij een proces-verbaal dat           
 
 Dit proces-verbaal is gedagtekend; het wordt door de ontvanger en                  Ce procès-verbal est daté ; il est signé par le receveur et par la partie ; door de partij ondertekend; indien de partij niet mag of niet kan                  si celle-ci ne peut ou ne sait signer, il en est fait mention au procèsondertekenen, dient dit in het proces-verbaal vermeld.                             verbal.
 
-## Art. 192
+###### Art. 192
 
 Article 192
 
@@ -3573,7 +3577,7 @@ Het verzoekschrift wordt aan de partij betekend.                                
 
 De rechter beslist binnen vijftien dagen na het verzoek; hij beveelt de            Le juge statue dans les quinze jours de la demande ; il ordonne schatting en stelt, naar vereiste van omstandigheden, een of drie                  l’expertise et nomme, suivant les exigences du cas, un ou trois deskundigen aan.                                                                   experts.
 
-## Art. 193
+###### Art. 193
 
 Article 193
 
@@ -3587,7 +3591,7 @@ Kunnen niet tot deskundigen gekozen of benoemd worden:                          
 
 3° beambten van bedoelde ambtenaren en openbare of ministeriële                  3 Les employés des dits fonctionnaires et officiers publics ou officieren.                                                                      ministériels.
 
-## Art. 194
+###### Art. 194
 
 Article 194
 
@@ -3603,7 +3607,7 @@ Deze nieuwe beslissing wordt aan de partij betekend.                            
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                               DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 195
+###### Art. 195
 
 Article 195
 
@@ -3617,7 +3621,7 @@ Ieder aan de deskundigen door een der partijen ter inzage verleend              
 
 -----                                                                                 -----
 
-## Art. 195
+###### Art. 195
 
 Article 195
 
@@ -3627,7 +3631,7 @@ Onmiddellijk na ontvangst van deze notificatie sturen de                        
 
 Ieder aan de deskundigen door een der partijen ter inzage verleend                    Tout document communiqué aux experts par l’une des parties doit en bescheid moet tezelfdertijd in afschrift aan de andere partij bij                     même temps être envoyé, en copie, par elle à la partie adverse, sous aangetekende brief worden gezonden.                                                   pli recommandé.
 
-## Art. 196
+###### Art. 196
 
 Article 196
 
@@ -3651,7 +3655,7 @@ of:                                                                             
 
 De minuut van het verslag wordt ter griffie van het onder artikel 192                 La minute du rapport est déposée au greffe de la justice de paix aangeduid vredegerecht neergelegd.                                                    désignée à l’article 192.
 
-## Art. 197
+###### Art. 197
 
 Article 197
 
@@ -3661,7 +3665,7 @@ Naar de door de deskundigen gegeven waardering en, in geval van                 
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 198
+###### Art. 198
 
 Article 198
 
@@ -3671,13 +3675,13 @@ De krachtens voorgaande artikelen van deze afdeling te verrichten               
 
 -----                                                                               -----
 
-## Art. 198
+###### Art. 198
 
 Article 198
 
 De krachtens vorenstaande artikelen van deze afdeling te verrichten              Les significations et notifications à faire en vertu des articles betekeningen en notificaties mogen bij aangetekend schrijven                     précédents de la présente section peuvent avoir lieu par lettre geschieden. De afgifte van het stuk ter post geldt als notificatie vanaf         recommandée. Le dépôt du pli à la poste vaut notification à compter de daaropvolgende dag.                                                           du lendemain.
 
-## Art. 199
+###### Art. 199
 
 Article 199
 
@@ -3685,7 +3689,7 @@ Article 199
 
 Zowel de ontvanger als de partij kunnen de schatting betwisten door              Tant le receveur que la partie peut contester l’expertise en inleiding van een rechtsvordering. Deze rechtsvordering dient ingeleid           introduisant une action en justice. Cette action doit être intentée, à te worden, op straffe van verval, binnen de termijn van één maand te             peine de déchéance, dans le délai d’un mois à compter de la date de la rekenen van de betekening van het verslag.                                       signification du rapport.
 
-## Art. 200
+###### Art. 200
 
 Article 200
 
@@ -3699,9 +3703,9 @@ Deze kosten blijven evenwel ten laste van 's Rijks Schatkist zo de              
 
 De invordering geschiedt bij dwangschrift, zoals aangewezen in                         Le recouvrement est poursuivi par voie de contrainte, de la manière artikel 220.                                                                           indiquée à l’article 220.
 
-#### HOOFDSTUK XI - Tekort in de waardering, bewimpeling                                     Chapitre XI - Insuffisance d’estimation, dissimulation en veinzing. Sanctiën                                                                et simulation. Sanctions
+### HOOFDSTUK XI - Tekort in de waardering, bewimpeling                                     Chapitre XI - Insuffisance d’estimation, dissimulation en veinzing. Sanctiën                                                                et simulation. Sanctions
 
-## Art. 201
+###### Art. 201
 
 Article 201
 
@@ -3709,7 +3713,7 @@ Article 201
 
 Wanneer bevonden wordt dat de opgegeven prijs of de aangegeven                         Lorsqu’il est reconnu que le prix énoncé ou la valeur déclarée de biens waarde van aan de onder artikel 189 voorziene schatting                                sujets à l’expertise prévue à l’article 189 est insuffisant et que onderworpen goederen te laag is, en dat het vastgestelde tekort gelijk                 l’insuffisance constatée atteint ou dépasse le huitième du prix énoncé is aan of hoger dan het achtste van de opgegeven prijs of van de                       ou de la valeur déclarée, la partie acquéreuse encourt une amende aangegeven waarde, verbeurt de verkrijgende partij een geldboete                       égale au droit éludé. ten bedrage van het ontdoken recht.
 
-## Art. 202
+###### Art. 202
 
 Article 202
 
@@ -3719,7 +3723,7 @@ Wanneer er geen aanleiding tot schatting bestaat en een waardering,             
 
 Alle andere onjuistheid, bevonden in de elementen van een verklaring                   Toute autre inexactitude constatée dans les éléments fournis par une in of onderaan de akte gesteld tot vereffening van de belasting, wordt                 déclaration insérée dans le corps ou au pied de l’acte pour permettre gestraft met een boete gelijk aan het ontdoken recht, benevens                         la liquidation de l’impôt, est punie d’une amende égale au droit éludé, betaling van dat recht, het al ondeelbaar ten laste van hen die de                     outre le paiement de ce droit, le tout indivisiblement à charge des verklaring gedaan hebben.                                                              auteurs de ladite déclaration.
 
-## Art. 203
+###### Art. 203
 
 Article 203
 
@@ -3735,7 +3739,7 @@ In alle gevallen waarin de heffing op den prijs en de lasten op de              
 
 Op straf van een boete van 25 EUR moet uitdrukkelijke melding van                Mention expresse de cette lecture doit être faite dans l’acte, sous die voorlezing in de akte gemaakt worden.                                        peine d’une amende de 25 EUR.
 
-## Art. 204
+###### Art. 204
 
 Article 204
 
@@ -3743,7 +3747,7 @@ Article 204
 
 Wanneer de in een akte vastgestelde overeenkomst niet die is welke               Lorsque la convention constatée dans un acte n’est pas celle qui a été door de partijen werd gesloten, of wanneer de akte betreffende een               conclue entre les parties ou que, s’agissant d’une convention visée à in artikel 19, 2° of 5°, bedoelde overeenkomst onvolledig of onjuist             l’article 19, 2 ou 5°, l’acte est incomplet ou inexact, en ce sens qu’il is, met dien verstande dat ze al de bestanddelen van de                          ne révèle pas tous les éléments de cette convention, il est dû overeenkomst niet doet kennen, is elke der contracterende partijen               individuellement par chacune des parties contractantes une amende een geldboete verschuldigd gelijk aan het ontdoken recht. Dit recht is           égale au droit éludé. Celui-ci est dû indivisiblement par toutes les ondeelbaar door alle partijen verschuldigd.                                      parties.
 
-## Art. 205
+###### Art. 205
 
 Article 205
 
@@ -3751,9 +3755,9 @@ Article 205
 
 (…)                                                                              (…)
 
-#### HOOFDSTUK XII - Correctionele straffen                                             CHAPITRE XII - Peines correctionnelles
+### HOOFDSTUK XII - Correctionele straffen                                             CHAPITRE XII - Peines correctionnelles
 
-## Art. 206
+###### Art. 206
 
 Article 206
 
@@ -3763,7 +3767,7 @@ Onverminderd de fiscale boeten, wordt hij die met bedrieglijk opzet of          
 
 Wanneer de overtreding werd begaan in het kader van een                          Lorsque l’infraction est commise dans le cadre d’un droit registratierecht dat geen gewestelijke belasting is volgens het                  d’enregistrement qui n’est pas un impôt régionalisé selon le prescrit bepaalde in artikel 3, eerste lid, 6° tot 8°, van de bijzondere wet van          de l’article 3, alinéa 1er, 6° à 8°, de la loi spéciale du 16 janvier 1989 16 januari 1989 betreffende de financiering van de gemeenschappen                relative au financement des communautés et des régions, le montant en de gewesten, wordt het bedrag van het in het eerste lid bepaalde              du maximum de l’amende fixé à l’alinéa 1er est porté à 500.000 euros. maximum van de boete gebracht op 500.000 euro.
 
-## Art. 206bis
+###### Art. 206bis
 
 Article 206bis
 
@@ -3775,7 +3779,7 @@ Hij die wetens en willens een vals getuigschrift opstelt dat de                 
 
 Wanneer het misdrijf werd begaan in het kader van een                            Lorsque l’infraction est commise dans le cadre d’un droit registratierecht dat geen gewestelijke belasting is volgens het                  d’enregistrement qui n’est pas un impôt régionalisé selon le prescrit bepaalde in artikel 3, eerste lid, 6° tot 8°, van de bijzondere wet van          de l’article 3, alinéa 1er, 6° à 8°, de la loi spéciale du 16 janvier 1989 16 januari 1989 betreffende de financiering van de gemeenschappen                relative au financement des communautés et des régions, le montant en de gewesten, wordt het bedrag van het in het eerste en het tweede             du maximum de l’amende fixé aux alinéas 1er et 2 est porté à 500.000 lid bepaalde maximum van de boete gebracht op 500.000 euro.                      euros.
 
-## Art. 206bis/1
+###### Art. 206bis/1
 
 Article 206bis/1
 
@@ -3785,7 +3789,7 @@ Wanneer de overtreding werd begaan in het kader van een                         
 
 Artikel 42, 3°, van het Strafwetboek vindt geen toepassing op de                 L'article 42, 3°, du Code pénal n'est pas d'application aux avantages vermogensvoordelen die rechtstreeks uit de fiscale misdrijven zijn               patrimoniaux tirés directement des infractions fiscales, aux biens et verkregen, op de goederen en waarden die in de plaats ervan zijn                 valeurs qui leur ont été substitués et aux revenus de ces avantages gesteld en op de inkomsten uit de belegde voordelen in geval de                  investis si l'action de l'administration fiscale est déclarée fondée et a vordering van de fiscale administratie gegrond wordt verklaard en tot            donné lieu à un paiement effectif de l'entièreté de cette action. een effectieve betaling van deze volledige vordering heeft geleid.
 
-## Art. 207
+###### Art. 207
 
 Article 207
 
@@ -3809,7 +3813,7 @@ bevelen van de inrichtingen van de vennootschap, vereniging,                    
 
 § 2. Het verbod en de sluiting bedoeld in § 1 treden in werking vanaf             § 2. L’interdiction et la fermeture visées au § 1er produiront leurs effets de dag waarop de veroordeling in kracht van gewijsde is gegaan.                   à compter du jour ou la condamnation sera définitive.
 
-## Art. 207bis
+###### Art. 207bis
 
 Article 207bis
 
@@ -3819,7 +3823,7 @@ Hij die, rechtstreeks of onrechtstreeks, het verbod of de sluiting              
 
 Wanneer het verbod werd opgelegd in het kader van een                             Lorsque l’interdiction est enfreinte dans le cadre d’un droit registratierecht dat geen gewestelijke belasting is volgens het                   d’enregistrement qui n’est pas un impôt régionalisé selon le prescrit bepaalde in artikel 3, eerste lid, 6° tot 8°, van de bijzondere wet van           de l’article 3, alinéa 1er, 6° à 8°, de la loi spéciale du 16 janvier 1989 16 januari 1989 betreffende de financiering van de gemeenschappen                 relative au financement des communautés et des régions, le montant en de gewesten, wordt het bedrag van het in het eerste lid bepaalde               du maximum de l’amende fixé à l’aliéna 1er est porté à 500.000 euros. maximum van de boete gebracht op 500.000 euro.
 
-## Art. 207ter
+###### Art. 207ter
 
 Article 207ter
 
@@ -3831,7 +3835,7 @@ Article 207ter
 
 § 3. De wet van 5 maart 1952, gewijzigd bij de wetten van 22                      § 3. La loi du 5 mars 1952, modifiée par les lois des 22 décembre 1969 december 1969 en 25 juni 1975, betreffende de opdecimes op de                     et 25 juin 1975, relative aux décimes additionnels sur les amendes strafrechtelijke geldboeten, is van toepassing op de misdrijven                   pénales, est applicable aux infractions visées par les articles 206, bedoeld in artikel 206, 206bis en 207bis.                                         206bis et 207bis.
 
-## Art. 207quater
+###### Art. 207quater
 
 Article 207quater
 
@@ -3852,7 +3856,7 @@ Strafvordering;
 
 De natuurlijke personen of de rechtspersonen zijn burgerlijk en                  Les personnes physiques ou morales seront civilement et hoofdelijk aansprakelijk voor de geldboeten en kosten die het gevolg             solidairement responsables des amendes et frais résultant des zijn van de veroordelingen welke krachtens de artikelen 206 tot                  condamnations prononcées en vertu des articles 206 à 207bis contre 207bis tegen hun aangestelden of hun bestuurders, zaakvoerders of                leurs préposés ou leurs administrateurs, gérants ou liquidateurs, dans vereffenaars, in het kader van de uitoefening van hun functie, in                le cadre de l'exercice de leurs fonctions, en droit ou en fait rechte of in feite zijn uitgesproken.
 
-## Art. 207quinquies
+###### Art. 207quinquies
 
 Article 207quinquies
 
@@ -3862,7 +3866,7 @@ De rechter kan bevelen dat ieder vonnis of arrest houdende                      
 
 Hetzelfde kan gelden voor iedere krachtens artikel 207 uitgesproken              Il pourra en être de même de toute décision prononcée en vertu de beslissing     tot    verbod     van     het     uitoefenen      van     een     l'article   207,     portant     interdiction     d'exercer      une     activité beroepswerkzaamheid in België of tot sluiting van de in het land                 professionnelle      en     Belgique     ou     ordonnant       la     fermeture geëxploiteerde inrichtingen.                                                     d'établissements exploités dans le pays.
 
-## Art. 207sexies
+###### Art. 207sexies
 
 Article 207sexies
 
@@ -3871,7 +3875,7 @@ Article 207sexies
 De schending van het bij artikel 236bis bepaalde beroepsgeheim                   La violation du secret professionnel, tel qu'il est défini à l'article 236bis, wordt gestraft overeenkomstig de artikelen 66, 67 en 458 van het                 sera punie conformément aux articles 66, 67 et 458 du Code pénal.
 Strafwetboek.
 
-## Art. 207septies
+###### Art. 207septies
 
 Article 207septies
 
@@ -3887,7 +3891,7 @@ Het openbaar ministerie beslist om al dan niet de strafvervolging in te         
 
 In geen geval schorst het verzoek om advies de strafvordering.                   En aucun cas, la demande d'avis n'est suspensive de l'action publique.
 
-## Art. 207octies
+###### Art. 207octies
 
 Article 207octies
 
@@ -3901,15 +3905,15 @@ Het eerste lid is evenmin van toepassing op de ambtenaren van die               
 
 Het eerste lid is niet van toepassing op de ambtenaren die deelnemen             L'alinéa 1er n'est pas applicable aux fonctionnaires qui prennent part à aan het in artikel 29, derde lid van het Wetboek van strafvordering              la concertation visée à l'article 29, alinéa 3, du Code d'instruction bedoelde overleg.                                                                criminelle.
 
-#### HOOFDSTUK XIII - Teruggaaf                                                          CHAPITRE XIII - Restitution
+### HOOFDSTUK XIII - Teruggaaf                                                          CHAPITRE XIII - Restitution
 
-## Art. 208
+###### Art. 208
 
 Article 208
 
 De regelmatig geheven rechten kunnen niet worden teruggegeven,                   Les droits régulièrement perçus ne peuvent être restitués, quels que welke ook de latere gebeurtenissen zijn, behoudens in de bij deze titel          soient les événements ultérieurs, sauf les cas prévus par le présent voorziene gevallen.                                                              titre.
 
-## Art. 209
+###### Art. 209
 
 Article 209
 
@@ -3937,7 +3941,7 @@ Zolang, overeenkomstig hoofdstuk IV, afdeling II van de wet van 23 maart        
 
 Waarde, de ter uitvoering ervan genomen besluiten en de bijzondere                  pris pour leur exécution qui mentionnaient cette forme légale avant l'entrée en wetgeving van toepassing op deze belastingen, die voor de inwerkingtreding          vigueur de la présente loi sont réputées continuer à la mentionner comme van deze wet deze rechtsvorm vermeldden, geacht deze rechtsvorm te blijven          avant l'entrée en vigueur de la présente loi pour ce qui concerne cette société, vermelden voor wat deze vennootschap, vereniging of stichting betreft, zoals        association ou fondation (art. 119, § 3). voor de inwerkingtreding van deze wet. (art. 119, § 3).
 
-## Art. 210
+###### Art. 210
 
 Article 210
 
@@ -3949,7 +3953,7 @@ Het op een voorwaardelijke veroordeling geheven evenredig recht                 
 
 Het recht wordt volledig teruggegeven indien het samengevoegd                       Le droit est restitué intégralement si les sommes cumulées faisant bedrag van de veroordelingen, vereffeningen of rangregelingen,                      l'objet des condamnations, des liquidations ou des collocations pour waarop de heffing werd gedaan, herleid wordt tot een som die bij                    lesquelles la perception a été effectuée, sont ramenées à un montant artikel 143, laatste lid, vastgestelde bedrag niet overschrijdt.                    qui ne dépasse pas celui fixé par l'article 143, dernier alinéa.
 
-## Art. 211
+###### Art. 211
 
 Article 211
 
@@ -3959,7 +3963,7 @@ Article 211
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989           Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                   relative au financement des Communautés et des Régions)
 
-## Art. 212
+###### Art. 212
 
 Article 212
 
@@ -3977,7 +3981,7 @@ Een door de wederverkoper en de instrumenterende notaris                      Un
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989     Dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)             relative au financement des Communautés et des Régions)
 
-## Art. 213
+###### Art. 213
 
 Article 213
 
@@ -3989,9 +3993,9 @@ Zijn toepasselijk op deze teruggaaf, de bepalingen van artikel 212,           So
 
 Eerste lid, 3° tot 5°: gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet   Alinéa 1er, 3° au 5° : dispositions régionales (art. 3, al. 1er, 6° de la loi spéciale van 16.01.1989 betreffende de financiering van de gemeenschappen en de              du 16.01.1989 relative au financement des Communautés et des Régions) gewesten)
 
-#### HOOFDSTUK XIV - Verjaring                                                           CHAPITRE XIV - Prescription
+### HOOFDSTUK XIV - Verjaring                                                           CHAPITRE XIV - Prescription
 
-## Art. 214
+###### Art. 214
 
 Article 214
 
@@ -4018,13 +4022,13 @@ Worden, voor de toepassing van deze bepaling met registratie                    
 
 Is van toepassing, ten aanzien van de verjaring, artikel 18 van dit           Est applicable, au point de vue de la prescription, l’article 18 du wetboek.                                                                      présent code.
 
-## Art. 215
+###### Art. 215
 
 Article 215
 
 Er is verjaring voor de vordering tot teruggaaf van rechten, interesten       Il y a prescription pour la demande en restitution des droits, intérêts en boeten, na twee jaar, te rekenen van den dag waarop de                     et amendes, après deux ans à compter du jour où l’action est née. rechtsvordering is ontstaan.
 
-## Art. 216
+###### Art. 216
 
 Article 216
 
@@ -4034,7 +4038,7 @@ De stuiting heeft haar uitwerking tot den dag der nederlegging ter            Ce
 
 De invordering van rechten, interesten en gebeurlijk van boeten en            Le recouvrement des droits, des intérêts et éventuellement des kosten, vorderbaar uit hoofde van de bij bedoeld verslag erkende              amendes et des frais, exigibles du chef de l’insuffisance reconnue par ongenoegzaamheid, dient vervolgd binnen de twee jaar na de                    ledit rapport, doit être poursuivi dans les deux ans du dépôt de celuinederlegging van dit verslag.                                                 ci.
 
-## Art. 2171
+###### Art. 2171
 
 Article 2171
 
@@ -4046,7 +4050,7 @@ De afstand van de verlopen tijd van de verjaring wordt, wat zijn                
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 2172
+###### Art. 2172
 
 Article 2172
 
@@ -4058,7 +4062,7 @@ Zo de verjaring gestuit werd door de aan het kantoor of adviseur-               
 
 -----                                                                                 -----
 
-## Art. 2172
+###### Art. 2172
 
 Article 2172
 
@@ -4072,7 +4076,7 @@ jaar, die slechts op de wijze en onder de voorwaarden voorzien bij              
 
 De afgifte van de brieven ter post geldt als notificatie van de volgende              Le dépôt des lettres à la poste vaut notification à compter du dag af.                                                                               lendemain.
 
-## Art. 218
+###### Art. 218
 
 Article 218
 
@@ -4084,9 +4088,9 @@ De schorsing vangt aan met het op gang brengen van de                           
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-#### HOOFDSTUK XV - Vervolgingen en gedingen                                                 CHAPITRE XV - Poursuites et instances
+### HOOFDSTUK XV - Vervolgingen en gedingen                                                 CHAPITRE XV - Poursuites et instances
 
-## Art. 219
+###### Art. 219
 
 Article 219
 
@@ -4107,9 +4111,9 @@ Binnen de door de wet gestelde grenzen, wordt het bedrag van de                 
 
 -----                                                                              -----
 
-#### HOOFDSTUK XV - Vervolgingen en gedingen                                               CHAPITRE XV - Poursuites et instances
+### HOOFDSTUK XV - Vervolgingen en gedingen                                               CHAPITRE XV - Poursuites et instances
 
-## Art. 219
+###### Art. 219
 
 Article 219
 
@@ -4127,7 +4131,7 @@ De minister van Financiën of de door hem gedelegeerde ambtenaar                
 
 Binnen de door de wet gestelde grenzen, wordt het bedrag van de                  Dans les limites prévues par la loi, le montant des amendes fiscales proportionele fiscale boeten en de vermeerderingen vastgesteld in dit            proportionnelles et des accroissements prévus par le présent Code ou Wetboek of in de ter uitvoering ervan genomen besluiten, bepaald                 par les arrêtés pris pour son exécution, est fixé selon une échelle dont volgens een schaal waarvan de trappen door de Koning worden                      les graduations sont déterminées par le Roi. Cette disposition n'est vastgesteld. Deze bepaling geldt niet voor het bedrag van de                     toutefois pas applicable au montant des amendes proportionnelles proportionele fiscale boeten bepaald in de artikelen 203, eerste lid, en         prévues par les articles 203, alinéa 1er, et 204, si ce n'est lorsque le 204, behalve wanneer de overtreder hetzij uit eigen beweging en                  contrevenant, avant toute réclamation de l'administration, aurait fait voordat het bestuur iets gevorderd heeft, de overtreding aan het                 à celle-ci l'aveu spontané de la contravention ou est décédé. bestuur bekent, hetzij overleden is.
 
-## Art. 220
+###### Art. 220
 
 Article 220
 
@@ -4137,7 +4141,7 @@ De eerste akte van vervolging ter invordering van fiscale rechten of            
 
 Het wordt door den met de invordering belasten ontvanger                         Elle est décernée par le receveur chargé du recouvrement ; elle est uitgevaardigd; het wordt door den bevoegde adviseur-generaal van                 visée et rendue exécutoire par le conseiller général compétent de de Algemene Administratie van de Patrimoniumdocumentatie                         l’Administration générale de la documentation patrimoniale et geviseerd      en    uitvoerbaar      verklaard   en    bij    exploot    van    signifiée par exploit d’huissier de justice. gerechtsdeurwaarder betekend.
 
-## Art. 221
+###### Art. 221
 
 Article 221
 
@@ -4145,7 +4149,7 @@ Article 221
 
 De tenuitvoerlegging van het dwangbevel kan slechts worden gestuit              L'exécution de la contrainte ne peut être interrompue que par une door een vordering in rechte.                                                   action en justice.
 
-## Art. 222
+###### Art. 222
 
 Article 222
 
@@ -4153,13 +4157,13 @@ Article 222
 
 In geval van niet-betaling van een schuld voortvloeiende uit de                 En cas de non-paiement d’une dette résultant de l’application du toepassing van dit Wetboek, kan de ambtenaar die belast is met de               présent Code, le fonctionnaire chargé du recouvrement de cette dette invordering van die schuld, bij het Centraal Aanspreekpunt van de               peut demander, auprès du Point de Contact Central de la Banque Nationale Bank bedoeld in artikel 322, § 3, eerste lid, van het Wetboek         Nationale visé à l’article 322, § 3, alinéa 1er, du Code des impôts sur les van de inkomstenbelastingen 1992 de gegevens opvragen die ten                   revenus 1992, les données disponibles relatives à ce débiteur sans les aanzien van die schuldenaar beschikbaar zijn zonder de beperkingen              limitations de l’article 322, §§ 2 à 4, du même Code. L’autorisation van artikel 322, §§ 2 tot 4, van hetzelfde Wetboek. De machtiging               visée ici est octroyée par un agent doté au minimum du grade de hiertoe wordt verleend door een ambtenaar met minimum de graad                  conseiller général. van adviseur–generaal.
 
-## Art. 223
+###### Art. 223
 
 Article 223
 
 De moratoire interesten op de in te vorderen of terug te geven                  Les intérêts moratoires sur les sommes à recouvrer ou à restituer sommen zijn verschuldigd naar den voet en de regelen in burgerlijke             sont dus au taux et selon les règles fixés en matière civile. zaken vastgesteld.
 
-## Art. 224
+###### Art. 224
 
 Article 224
 
@@ -4167,7 +4171,7 @@ Article 224
 
 (…)                                                                             (…)
 
-## Art. 225
+###### Art. 225
 
 Article 225
 
@@ -4175,7 +4179,7 @@ De openbare ambtenaren die, krachtens de bepalingen van deze titel,             
 
 De bepalingen van dit hoofdstuk zijn toepasselijk op het tegen dit              Les dispositions du présent chapitre sont applicables à l’opposition bevel aangetekend verzet.                                                       formée contre cet exécutoire.
 
-## Art. 225bis
+###### Art. 225bis
 
 Article 225bis
 
@@ -4183,7 +4187,7 @@ Article 225bis
 
 De termijnen van verzet, hoger beroep en cassatie, alsmede het                     Les délais d'opposition, d'appel et de cassation, ainsi que l'opposition, verzet, het hoger beroep en de voorziening in cassatie schorsen de                 l'appel et le pourvoi en cassation sont suspensifs de l'exécution de la tenuitvoerlegging van de gerechtelijke beslissing.                                 décision de justice.
 
-## Art. 225ter
+###### Art. 225ter
 
 Article 225ter
 
@@ -4191,7 +4195,7 @@ Article 225ter
 
 Het verzoekschrift houdende voorziening in cassatie en het antwoord                La requête introduisant le pourvoi en cassation et la réponse au op de voorziening mag door een advocaat worden ondertekend en                      pourvoi peuvent être signées et déposées par un avocat. neergelegd.
 
-## Art. 225quater
+###### Art. 225quater
 
 Article 225quater
 
@@ -4199,9 +4203,9 @@ Article 225quater
 
 De bepalingen van dit Wetboek doen geen afbreuk aan het recht van                  Les dispositions du présent Code ne font pas obstacle au droit pour de Staat om het herstel van de schade te vorderen die kan bestaan uit              l'Etat de demander la réparation du dommage pouvant consister dans de niet-betaling van de rechten, interesten, fiscale geldboeten en                 le non-paiement des droits, des intérêts, des amendes fiscales et des bijbehoren door een burgerlijke partijstelling of door een                         accessoires, par la constitution de partie civile ou par l'action en aansprakelijkheidsvordering.                                                       responsabilité.
 
-#### HOOFDSTUK XVI - Bijzondere bepalingen betreffende                                 CHAPITRE XVI - Dispositions particulières relatives aux de openbare verkopingen van roerende goederen                                                     ventes publiques de meubles
+### HOOFDSTUK XVI - Bijzondere bepalingen betreffende                                 CHAPITRE XVI - Dispositions particulières relatives aux de openbare verkopingen van roerende goederen                                                     ventes publiques de meubles
 
-## Art. 226
+###### Art. 226
 
 Article 226
 
@@ -4211,7 +4215,7 @@ Meubelen, koopwaren, hout, vruchten, oogsten en alle andere                     
 
 Nochtans kunnen Staat, provinciën, gemeenten en openbare                       Toutefois, l’Etat, les provinces, les communes et les établissements instellingen de hun toebehorende roerende voorwerpen openbaar                  publics peuvent faire procéder par leurs agents à la vente publique door hun ambtenaren doen verkopen.                                             des objets mobiliers leur appartenant.
 
-## Art. 227
+###### Art. 227
 
 Article 227
 
@@ -4225,13 +4229,13 @@ De Koning kan bepalen:                                                         L
 
 2° dat de kennisgeving vergezeld moet gaan van metagegevens.                   2° que l'information doit être accompagnée de métadonnées.
 
-## Art. 228
+###### Art. 228
 
 Article 228
 
 De werkende openbare officier of ambtenaar vermeldt, in zijn proces-           L’officier public ou le fonctionnaire instrumentant indique, dans son verbaal, naam, voornamen, hoedanigheid en woonplaats van den                   procès-verbal, les noms, prénoms, qualités et domiciles du requérant, verzoeker, van de personen wier mobilair te koop wordt gesteld en,             des personnes dont le mobilier est mis en vente et, s’il s’agit d’une indien het gaat om een verkoop na overlijden, van den overleden                vente après décès, du propriétaire défunt, ainsi que, le cas échéant, la eigenaar, zomede, desvorkomend, den datum van de overhandiging                 date de la remise ou de l’envoi de l’information prévue à l’article 227. of de verzending van de in artikel 227 voorziene kennisgeving.
 
-## Art. 229
+###### Art. 229
 
 Article 229
 
@@ -4239,7 +4243,7 @@ Article 229
 
 De instrumenterende openbare officier of ambtenaar verbeurt voor               Il est encouru par l'officier public ou le fonctionnaire instrumentant elke overtreding van de artikelen 227 en 228 een geldboete van 25              une amende de 25 euros pour chaque contravention aux articles 227 euro.                                                                          et 228.
 
-## Art. 230
+###### Art. 230
 
 Article 230
 
@@ -4249,7 +4253,7 @@ Ieder toegewezen voorwerp wordt onmiddellijk in dat proces-verbaal              
 
 Na elke zitting wordt het proces-verbaal afgesloten en ondertekend.                    Après chaque séance, le procès-verbal est clôturé et signé.
 
-## Art. 231
+###### Art. 231
 
 Article 231
 
@@ -4263,7 +4267,7 @@ Het recht wordt geheven op den toewijzingsprijs en, bij gebreke                 
 
 Wanneer het een verkoop geldt, gedaan op verzoek van een                               Lorsqu’il s’agit d’une vente faite à la requête d’une personne morale, rechtspersoon, wordt nochtans niet afgeweken van artikelen 16 en                       il n’est cependant pas dérogé aux articles 16 et 17 en tant qu’ils 17 voor zover zij beschikken voor het geval van voorbehoud van                         disposent pour le cas d’une réserve d’autorisation, d’approbation ou machtiging, goedkeuring of bekrachtiging van de overheid.                              d’homologation de l’autorité supérieure.
 
-## Art. 232
+###### Art. 232
 
 Article 232
 
@@ -4283,7 +4287,7 @@ c) voor elk lot waarvan de belastbare grondslag in het proces-verbaal           
 
 2° Een boete van 12,50 EUR voor elk toegewezen lot waarvan de prijs                    2 Une amende de 12,50 EUR pour chaque lot adjugé dont le prix n’est in het proces-verbaal niet voluit in letters of niet in cijfers buiten de              pas écrit en toutes lettres au procès-verbal ou n’est pas tiré hors ligne linie is aangeduid.                                                                    en chiffres.
 
-## Art. 233
+###### Art. 233
 
 Article 233
 
@@ -4295,7 +4299,7 @@ Iedere persoon die, buiten de aanwezigheid van een openbaar officier,           
 
 De overtreders zijn daarbij hoofdelijk gehouden tot de betaling van het                Les contrevenants sont, en outre, solidairement tenus au paiement ontdoken recht.                                                                        du droit éludé.
 
-## Art. 234
+###### Art. 234
 
 Article 234
 
@@ -4305,7 +4309,7 @@ Ambtenaren         van     de      Algemene           Administratie     van     
 
 en van hun bevindingen proces-verbaal op te maken. Dit proces-                   verbaux de vente et de dresser procès-verbal de leurs constatations. verbaal geldt als bewijs tot het tegenbewijs.                                    Ce procès-verbal fait foi jusqu’à preuve contraire.
 
-## Art. 235
+###### Art. 235
 
 Article 235
 
@@ -4321,9 +4325,9 @@ De bepalingen van dit hoofdstuk zijn niet van toepassing op de                  
 
 4° van zee- en binnenschepen.                                                    4° de navires et de bateaux.
 
-#### HOOFDSTUK XVII - Inlichtingen te verstrekken door de                                   CHAPITRE XVII - Renseignements à fournir par Algemene Administratie van de                                          l’Administration générale de la Documentation Patrimoniumdocumentatie                                                                       patrimoniale
+### HOOFDSTUK XVII - Inlichtingen te verstrekken door de                                   CHAPITRE XVII - Renseignements à fournir par Algemene Administratie van de                                          l’Administration générale de la Documentation Patrimoniumdocumentatie                                                                       patrimoniale
 
-## Art. 236
+###### Art. 236
 
 Article 236
 
@@ -4335,7 +4339,7 @@ Deze afschriften of uittreksels kunnen aan de lasthebbers van de                
 
 De aflevering van deze stukken geeft recht op een door de Koning te              La délivrance de ces pièces donne droit à une rétribution à déterminer bepalen retributie.                                                              par le Roi.
 
-## Art. 236/1
+###### Art. 236/1
 
 Article 236/1
 
@@ -4353,7 +4357,7 @@ Article 236/1
 
 De verstrekte inlichtingen mogen niet langer worden bewaard dan                  Les renseignements fournis ne peuvent être conservés plus noodzakelijk is voor de verwezenlijking van met de verwerking van de             longtemps que le requiert la réalisation de l'objectif poursuivi par le persoonsgegevens nagestreefde doelstelling.                                      traitement des données à caractère personnel.
 
-## Art. 236/2
+###### Art. 236/2
 
 Article 236/2
 
@@ -4367,7 +4371,7 @@ De Koning kan ter uitvoering van dit hoofdstuk:                                 
 
 3° onder voorbehoud van de bepalingen van de Archiefwet van 24                      3° sous réserve des dispositions de la loi du 24 juin 1955 relative aux juni 1955, de bewaartermijnen en de wijze van bewaring bepalen van                  archives, les délais et les modalités de conservation des demandes de de vragen om inlichtingen en van de verstrekte antwoorden.                          renseignements et des réponses fournies.
 
-## Art. 236bis
+###### Art. 236bis
 
 Article 236bis
 
@@ -4379,9 +4383,9 @@ Personen die deel uitmaken van diensten of openbare instellingen of             
 
 De    ambtenaren       van     de    Algemene       administratie      van    de    Les fonctionnaires de l'Administration générale de la documentation patrimoniumdocumentatie, oefenen hun ambt uit wanneer zij                           patrimoniale, restent dans l'exercice de leurs fonctions, lorsqu'ils overeenkomstig de bepalingen van dit hoofdstuk inlichtingen,                        délivrent des renseignements, copies ou extraits conformément aux afschriften of uittreksels afleveren.                                               dispositions du présent chapitre.
 
-#### HOOFDSTUK XVIII - Speciaal recht op de nationaliteit,                                 CHAPITRE XVIII - Droit spécial sur la nationalité, les de adelbrieven en de verzoeken tot verandering van                                     lettres patentes de noblesse et les demandes de naam                                                                       changement de nom
+### HOOFDSTUK XVIII - Speciaal recht op de nationaliteit,                                 CHAPITRE XVIII - Droit spécial sur la nationalité, les de adelbrieven en de verzoeken tot verandering van                                     lettres patentes de noblesse et les demandes de naam                                                                       changement de nom
 
-## Art. 237
+###### Art. 237
 
 Article 237
 
@@ -4389,9 +4393,9 @@ Article 237
 
 (…)                                                                              (…)
 
-##### Afdeling I - Nationaliteit                                                         Section 1re - Nationalité
+#### Afdeling I - Nationaliteit                                                         Section 1re - Nationalité
 
-## Art. 238
+###### Art. 238
 
 Article 238
 
@@ -4412,7 +4416,7 @@ De beginindex is de index van de consumptieprijzen van de maand                 
 Uiterlijk in de loop van de maand december van elk jaar wordt het                Au plus tard dans le courant du mois de décembre de chaque année, bedrag toepasselijk tijdens het volgende kalenderjaar in het Belgisch            le montant applicable pour l'année civile suivante est publié au Staatsblad gepubliceerd. De Federale Overheidsdienst Financiën                   Moniteur belge. Le Service public fédéral Finances reprend également vermeldt die inlichting eveneens op zijn webstek.                                cette information sur son site Internet.
 ----------                                                                       ---------- Procedures tot verkrijging van de Belgische nationaliteit - Publicatie           Procédures d’acquisition de la nationalité belge - Publication prescrite par l’art. voorgeschreven bij art. 238, laatste lid, W.Reg.:                                238, dernier alinéa, C. enr. : - geïndexeerde bedragen vanaf 01.01.2026: bericht van B.S., 29.12.2025:          - montants indexés à partir du 01.01.2026 : avis du M.B., 29.12.2025 : 1030 euro (z. art. 238, 2 lid) ; aangevuld bij bericht van B.S., 16.03.2026 de 1030 euros (v. art. 238, al. 2, C. enr.) ; complété par l’avis du M.B., – ed. 2: 160 euro (z. art. 238, 3 lid). de 16.03.2026 – éd. 2 : 160 euros (v. art. 238, al. 3, C. enr.).
 
-## Art. 239
+###### Art. 239
 
 Article 239
 
@@ -4420,7 +4424,7 @@ Article 239
 
 (…)                                                                               (…)
 
-## Art. 240
+###### Art. 240
 
 Article 240
 
@@ -4428,7 +4432,7 @@ Article 240
 
 (…)                                                                               (…)
 
-## Art. 240bis
+###### Art. 240bis
 
 Article 240bis
 
@@ -4436,7 +4440,7 @@ Article 240bis
 
 (…)                                                                               (…)
 
-## Art. 241
+###### Art. 241
 
 Article 241
 
@@ -4444,7 +4448,7 @@ Article 241
 
 (…)                                                                               (…)
 
-## Art. 242
+###### Art. 242
 
 Article 242
 
@@ -4452,7 +4456,7 @@ Article 242
 
 (…)                                                                               (...)
 
-## Art. 243
+###### Art. 243
 
 Article 243
 
@@ -4460,7 +4464,7 @@ Article 243
 
 (…)                                                                               (...)
 
-## Art. 244
+###### Art. 244
 
 Article 244
 
@@ -4468,7 +4472,7 @@ Article 244
 
 ( …)                                                                              (...)
 
-## Art. 245
+###### Art. 245
 
 Article 245
 
@@ -4476,7 +4480,7 @@ Article 245
 
 (…)                                                                               (...)
 
-## Art. 246
+###### Art. 246
 
 Article 246
 
@@ -4484,7 +4488,7 @@ Article 246
 
 ( …)                                                                              (...)
 
-## Art. 247
+###### Art. 247
 
 Article 247
 
@@ -4492,11 +4496,11 @@ Article 247
 
 (…)                                                                               (...)
 
-##### Afdeling II - Open brieven van adeldom en verzoeken tot                          Section II - Lettres patentes de noblesse et demandes de verandering van naam                                                                changement de nom
+#### Afdeling II - Open brieven van adeldom en verzoeken tot                          Section II - Lettres patentes de noblesse et demandes de verandering van naam                                                                changement de nom
 
 (gewijzigd bij art. 7 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van    (modifié par l’art. 7 de la loi du 07.02.2021 (M.B., 19.02.2021). Texte applicable toepassing vanaf 01.03.2021 (art. -))                                            à partir du 01.03.2021 (art. -))
 
-## Art. 248
+###### Art. 248
 
 Article 248
 
@@ -4508,7 +4512,7 @@ De Koning kan bij een met redenen omkleed besluit dat recht                     
 
 De vermindering kan slechts worden verleend wanneer de                           La réduction ne peut être accordée que si le bénéficiaire, l’un des begunstigde of een van de begunstigden, of een van hun                           bénéficiaires ou l’un de leurs ascendants ou descendants a rendu à la bloedverwanten in de opgaande of nederdalende lijn, aan het Land                 Nation des services éminents d’ordre patriotique, scientifique, buitengewone diensten heeft bewezen van vaderlandslievende,                      culturel, économique, social ou humanitaire. wetenschappelijke, culturele, economische, sociale of humanitaire aard.
 
-## Art. 249
+###### Art. 249
 
 Article 249
 
@@ -4524,7 +4528,7 @@ Belgische nationaliteit.
 
 Het recht is niet verschuldigd bij een naamswijziging als bedoeld in             Le droit n'est pas dû en cas de changement de nom visé par l'article artikel 370/4, tweede lid, van het oud Burgerlijk Wetboek.                       370/4, alinéa 2, de l'ancien Code civil.
 
-## Art. 250
+###### Art. 250
 
 Article 250
 
@@ -4534,7 +4538,7 @@ In de gevallen bedoeld in artikel 248, eerste lid, en in artikel 249, is elke   
 
 De door de kinderen of afstammelingen verschuldigde rechten                     Toutefois, les droits dus par les enfants ou descendants sont réduits worden evenwel met de twee vijfden verminderd wanneer aan                       de deux cinquièmes lorsque des autorisations soumises au même hetzelfde recht onderworpen vergunningen bij eenzelfde beslissing               droit sont accordées par une même décision à une personne et à ses verleend worden aan een persoon en aan zijn kinderen of                         enfants ou descendants dont le nombre excède trois. afstammelingen waarvan het aantal drie overschrijdt.
 
-## Art. 251
+###### Art. 251
 
 Article 251
 
@@ -4542,7 +4546,7 @@ Article 251
 
 Wanneer de vergunning tot verandering van naam wordt ingetrokken                Lorsqu’une autorisation de changer de nom est retirée ou annulée of vernietigd terwijl de registratierechten reeds geïnd zijn, betaalt de        alors que les droits d’enregistrement ont été perçus, le requérant, verzoeker, behalve als hij te kwader trouw was, geen rechten meer               sauf s’il est de mauvaise foi, ne paie plus de droit lors de la demande wanneer het verzoek beoogt rechtstreeks te verhelpen aan deze                   qui vise directement à remédier à ce retrait ou à cette annulation. intrekking of vernietiging.
 
-## Art. 252
+###### Art. 252
 
 Article 252
 
@@ -4550,7 +4554,7 @@ Article 252
 
 Het recht wordt berekend volgens het tarief van kracht op de datum              Le droit est calculé d'après le tarif en vigueur à la date de l'arrêté van het besluit tot verheffing in de adelstand, dat aan de                      d'octroi de noblesse précédant la signature des lettres patentes ou à ondertekening van de adelbrieven voorafgaat, of op de datum van de              celle de l’introduction de la demande de changement de nom. indiening van het verzoek tot verandering van naam.
 
-## Art. 253
+###### Art. 253
 
 Article 253
 
@@ -4560,7 +4564,7 @@ De in artikel 248 bedoelde open brieven worden geregistreerd, tegen             
 
 Wordt de registratie gevorderd na het verstrijken van hierboven                 Lorsque l’enregistrement est requis après l’expiration des délais cigestelde termijnen, zoo geeft deze formaliteit aanleiding tot het               dessus fixés, cette formalité donne lieu à la perception d’une amende heffen van en geldboete gelijk aan het recht, onverminderd ditzelve.            égale au droit, sans préjudice de celui-ci.
 
-## Art. 254
+###### Art. 254
 
 Article 254
 
@@ -4570,19 +4574,19 @@ Na betaling van het recht en, gebeurlijk, van de geldboete, wordt               
 
 Zolang aan de formaliteit van registratie niet is voldaan, mag de open          La lettre patente de noblesse ne peut être délivrée aux bénéficiaires, brief van adeldom niet aan begunstigden worden uitgereikt.                      tant que la formalité de l’enregistrement n’a été accomplie.
 
-##### Afdeling III - Bepaling gemeen aan afdelingen I en II                          Section III - Dispositions communes aux sections I et II
+#### Afdeling III - Bepaling gemeen aan afdelingen I en II                          Section III - Dispositions communes aux sections I et II
 
 (gewijzigd bij art. 9 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van   (modifié par l’art. 9 de la loi du 07.02.2021 (M.B., 19.02.2021). Texte applicable toepassing vanaf 01.03.2021 (art. -))                                           à partir du 01.03.2021 (art. -))
 
-## Art. 255
+###### Art. 255
 
 Article 255
 
 De algemene bepalingen van deze titel betreffende de formaliteit van            Les dispositions générales du présent titre concernant la formalité de de registratie, de verplichting van inzageverlening, bewijsmiddelen,            l’enregistrement, le devoir de communication, les modes de preuve, verjaring, rechtsvervolgingen en gedingen, moratoire interesten zijn            la prescription, les poursuites et instances et les intérêts moratoires van toepassing in de mate waarin daarvan bij dit hoofdstuk niet wordt           sont applicables dans la mesure où il n’y est pas dérogé par le présent afgeweken.                                                                      chapitre.
 
-#### HOOFDSTUK XIX - Speciale geldboete wegens late                            CHAPITRE XIX - Amende spéciale pour dépôt tardif des neerlegging van aan bekendmaking onderworpen                                           actes de société soumis à publication akten van vennootschap
+### HOOFDSTUK XIX - Speciale geldboete wegens late                            CHAPITRE XIX - Amende spéciale pour dépôt tardif des neerlegging van aan bekendmaking onderworpen                                           actes de société soumis à publication akten van vennootschap
 
-## Art. 256
+###### Art. 256
 
 Article 256
 
@@ -4590,7 +4594,7 @@ Article 256
 
 (…)                                                                             (…)
 
-## Art. 257
+###### Art. 257
 
 Article 257
 
@@ -4598,7 +4602,7 @@ Article 257
 
 (…)                                                                             (…)
 
-## Art. 258
+###### Art. 258
 
 Article 258
 
@@ -4606,15 +4610,15 @@ Article 258
 
 (…)                                                                             (…)
 
-## Art. 259
+###### Art. 259
 
 tot 267 W.Reg. federaal                                                Art. 259 à 267 C. enr. fédéral
 
 Het hypotheekrecht is een federale belasting (art. 3, a contrario, wet          Le droit d'hypothèque est un impôt fédéral (art. 3, a contrario, de la loi 16.01.1989 betreffende de financiering van de gemeenschappen en                 du 16.01.1989 relative au financement des communautés et des de gewesten).                                                                   régions).
 
-### TITEL II - HYPOTHEEKRECHT                                                    TITRE II - DROIT D’HYPOTHEQUE
+## TITEL II - HYPOTHEEKRECHT                                                    TITRE II - DROIT D’HYPOTHEQUE
 
-## Art. 259
+###### Art. 259
 
 Article 259
 
@@ -4622,7 +4626,7 @@ Article 259
 
 Onder de benaming hypotheekrecht wordt een belasting gevestigd                  Il est établi, sous le nom de droit d’hypothèque, un impôt sur les op de inschrijvingen van hypotheken en voorrechten op onroerende                inscriptions d’hypothèques et de privilèges sur immeubles. goederen.
 
-## Art. 260
+###### Art. 260
 
 Article 260
 
@@ -4634,7 +4638,7 @@ Het detail en het totaal van de voor recht en retributies ontvangen             
 
 De Koning kan deze wijze van vermelding geven aanvullen of wijzigen              Le Roi peut compléter ou modifier cette manière de mentionner voor het geval het inschrijvingsborderel op gedematerialiseerde wijze            lorsque le bordereau d'inscription est présenté de manière wordt aangeboden.                                                                dématérialisée.
 
-## Art. 261
+###### Art. 261
 
 Article 261
 
@@ -4644,7 +4648,7 @@ Wanneer een inschrijving op verschillende kantoren wordt gevraagd               
 
 Wanneer tot zekerheid van één en hetzelfde bedrag op                             Lorsque, pour sûreté d’une seule et même somme, une inscription est gedematerialiseerde wijze gelijktijdig een inschrijving wordt gevraagd           requise de manière dématérialisée, simultanément dans plusieurs op verschillende kantoren, wordt het over dat bedrag verschuldigde               bureaux, le bureau compétent pour le premier bien mentionné dans le recht vastgesteld door het kantoor dat bevoegd is voor het goed dat              bordereau d’inscription liquide le droit dû sur la somme précitée. Le als eerste in het inschrijvingsborderel is vermeld. Het over dat bedrag          droit perçu sur cette somme couvre les inscriptions dans les autres geïnde recht dekt de inschrijvingen op de overige kantoren.                      bureaux.
 
-## Art. 262
+###### Art. 262
 
 Article 262
 
@@ -4652,13 +4656,13 @@ Article 262
 
 Het hypotheekrecht is op 0,30 t.h. gesteld.                                      Le droit d’hypothèque est fixé à 0,30 p.c.
 
-## Art. 263
+###### Art. 263
 
 Article 263
 
 Het recht is vereffend op het bedrag in hoofd- en bijkomende                     Le droit est liquidé sur le montant en principal et accessoires des sommen waarvoor de inschrijving genomen of hernieuwd wordt.                      sommes pour lesquelles l’inscription est prise ou renouvelée.
 
-## Art. 264
+###### Art. 264
 
 Article 264
 
@@ -4671,7 +4675,7 @@ Het bedrag van het vereffende recht wordt, desvoorkomend, tot de                
 
 Het in te vorderen recht mag niet minder dan 5 EUR bedragen.                       Le droit à percevoir ne peut être inférieur à 5 EUR.
 
-## Art. 265
+###### Art. 265
 
 Article 265
 
@@ -4690,7 +4694,7 @@ Zijn vrijgesteld van hypotheekrecht:                                            
 
 5° De inschrijvingen van de voorrechten en hypotheken opgesteld bij                5° les inscriptions des privilèges et hypothèques établis par la loi de wet betreffende het herstel van zekere schade veroorzaakt aan                   relative à la réparation de certains dommages causés à des biens private goederen door natuurrampen.                                                privés par des calamités naturelles.
 
-## Art. 266
+###### Art. 266
 
 Article 266
 
@@ -4705,23 +4709,23 @@ Er is verjaring:                                                                
 
 Die verjaringen worden gestuit overeenkomstig artikel 2171 en 2172.             Les prescriptions sont interrompues conformément aux articles 2171 et 2172.
 
-## Art. 267
+###### Art. 267
 
 Article 267
 
 Zijn toepasselijk op het hypotheekrecht, de bepalingen van titel I,             Sont applicables au droit d’hypothèque, les dispositions du titre Ier betreffende de rechtsvervolgingen en gedingen en de moratoire                   relatives aux poursuites et instances et aux intérêts moratoires. interesten.
 
-## Art. 268
+###### Art. 268
 
 tot 288 W.Reg. federaal                                                    Art. 268 à 288 C. enr. fédéral
 
 Het griffierecht is een federale belasting (art. 3, a contrario, wet            Le droit de greffe est un impôt fédéral (art. 3, a contrario, de la loi du 16.01.1989 betreffende de financiering van de gemeenschappen en                 16.01.1989 relative au financement des communautés et des de gewesten).                                                                   régions).
 
-### TITEL III - GRIFFIERECHT                                                      TITRE III - DROIT DE GREFFE
+## TITEL III - GRIFFIERECHT                                                      TITRE III - DROIT DE GREFFE
 
-#### HOOFDSTUK I - VESTIGING VAN DE BELASTING EN                                   Chapitre 1er - Etablissement de l’impôt et fixation des VASTSTELLING VAN DE RECHTEN                                                                          droits
+### HOOFDSTUK I - VESTIGING VAN DE BELASTING EN                                   Chapitre 1er - Etablissement de l’impôt et fixation des VASTSTELLING VAN DE RECHTEN                                                                          droits
 
-## Art. 268
+###### Art. 268
 
 Article 268
 
@@ -4735,9 +4739,9 @@ Onder de benaming van griffierecht wordt een belasting gevestigd op             
 
 3° het afleveren van uitgiften, kopieën of uittreksels uit akten,               3° la délivrance des expéditions, copies ou extraits des actes vonnissen en arresten en van kopieën van andere stukken die op de               jugements et arrêts et des copies d’autres pièces déposées au greffe. griffie worden bewaard;
 
-##### Afdeling I - Rolrecht                                                     Section 1re - Droit de mise au rôle
+#### Afdeling I - Rolrecht                                                     Section 1re - Droit de mise au rôle
 
-## Art. 2691
+###### Art. 2691
 
 Article 2691
 
@@ -4759,7 +4763,7 @@ Gerechtelijk Wetboek.
 De zaken die worden geacht spoedeisend te zijn zoals bedoeld in                   Les causes réputées urgentes visées à l’article 1253ter/7 du Code artikel 1253ter/7 van het Gerechtelijk Wetboek zijn onderworpen aan               judiciaire sont soumises à un droit unique lorsque l’objectif de la een eenmalig recht wanneer de nieuwe aanhangigmaking bij de                       nouvelle saisine du tribunal de la famille est de modifier une demande familierechtbank het wijzigen van een vordering waarover deze zich                sur laquelle il s’est déjà prononcé. Ce régime est étendu aux mesures al heeft uitgesproken, tot doel heeft. Dit stelsel wordt uitgebreid tot           relatives à l’exercice de l’autorité parentale prononcées par le tribunal de maatregelen betreffende de uitoefening van het ouderlijk gezag                 de la jeunesse dont la modification est demandée devant le tribunal uitgesproken door de jeugdrechtbank, waarvan de wijziging wordt                   de la famille. gevraagd voor de familierechtbank.
 ----------                                                                        ---------- De wijziging van de wet van is vernietigd door het arrest nr. 84/2021 van het     La modification de la loi du 14.10.2018 a été annulée par l’arrêt n° 84/2021 Grondwettelijk Hof van 10.06.2021 in zoverre zij van toepassing zijn op de        de la Cour Constitutionnelle du 10.06.2021, en ce qu’elle s’applique aux rechtzoekenden van wie de zaak op de rol is ingeschreven tussen 01.02.2019        justiciables dont la cause a été inscrite au rôle entre le 01.02.2019 et le en 31.08.2020, die uiterlijk op 31.08.2020 zijn veroordeeld tot betaling van de   31.08.2020, qui ont fait l’objet d’une condamnation au paiement des droits de rolrechten, en van wie de bestaansmiddelen lager zijn dan de plafonds om          mise au rôle au plus tard le 31.08.2020, et dont les moyens d’existence se juridische tweedelijnsbijstand en rechtsbijstand te genieten, zoals vastgesteld   situent en dessous des plafonds pour bénéficier de l’aide juridique de deuxième krachtens de artikelen 3 en 4 van de wet van 31.07.2020 « tot wijziging van       ligne et de l’assistance judiciaire fixés en vertu des articles 3 et 4 de la loi du het gerechtelijk wetboek teneinde de toegang tot de juridische                    31.07.2020 « modifiant le code judiciaire afin d’améliorer l’accès à l’aide tweedelijnsbijstand en de rechtsbijstand te verbeteren, door de ter zake          juridique de deuxième ligne et à l’assistance judiciaire par l’augmentation des geldende inkomensmaxima te verhogen », maar hoger dan de plafonds die             plafonds de revenus applicables en la matière » mais au-dessus des plafonds van toepassing waren vóór de inwerkingtreding van die bepalingen.                 qui prévalaient avant l’entrée en vigueur de ces dispositions.
 
-## Art. 2692
+###### Art. 2692
 
 Article 2692
 
@@ -4778,7 +4782,7 @@ Het recht wordt opeisbaar op de datum van de veroordeling.                      
 § 2. In geval de zaak op de rol wordt doorgehaald of van de rol wordt             § 2. Au cas où une affaire est rayée ou omise du rôle en application de weggelaten bij toepassing van artikel 730, § 1 en § 2, a), van het                l’article 730, § 1er et § 2, a), du Code judiciaire, le droit est exigible à Gerechtelijk Wetboek, is het recht vanaf de datum van de doorhaling               partir de la date de la radiation ou de l’omission à charge de la partie of van de weglating opeisbaar ten laste van de partij die de zaak op de           qui a fait inscrire l’affaire au rôle. rol heeft doen stellen.
 ----------                                                                        ---------- De wijziging van de wet van is vernietigd door het arrest nr. 84/2021 van het     La modification de la loi du 14.10.2018 a été annulée par l’arrêt n° 84/2021 Grondwettelijk Hof van 10.06.2021 in zoverre zij van toepassing zijn op de        de la Cour Constitutionnelle du 10.06.2021, en ce qu’elle s’applique aux rechtzoekenden van wie de zaak op de rol is ingeschreven tussen 01.02.2019        justiciables dont la cause a été inscrite au rôle entre le 01.02.2019 et le en 31.08.2020, die uiterlijk op 31.08.2020 zijn veroordeeld tot betaling van de   31.08.2020, qui ont fait l’objet d’une condamnation au paiement des droits de rolrechten, en van wie de bestaansmiddelen lager zijn dan de plafonds om          mise au rôle au plus tard le 31.08.2020, et dont les moyens d’existence se juridische tweedelijnsbijstand en rechtsbijstand te genieten, zoals vastgesteld   situent en dessous des plafonds pour bénéficier de l’aide juridique de deuxième krachtens de artikelen 3 en 4 van de wet van 31.07.2020 « tot wijziging van       ligne et de l’assistance judiciaire fixés en vertu des articles 3 et 4 de la loi du het gerechtelijk wetboek teneinde de toegang tot de juridische                    31.07.2020 « modifiant le code judiciaire afin d’améliorer l’accès à l’aide tweedelijnsbijstand en de rechtsbijstand te verbeteren, door de ter zake          juridique de deuxième ligne et à l’assistance judiciaire par l’augmentation des geldende inkomensmaxima te verhogen », maar hoger dan de plafonds die             plafonds de revenus applicables en la matière » mais au-dessus des plafonds van toepassing waren vóór de inwerkingtreding van die bepalingen.                 qui prévalaient avant l’entrée en vigueur de ces dispositions.
 
-## Art. 2693
+###### Art. 2693
 
 Article 2693
 
@@ -4787,7 +4791,7 @@ Article 2693
 (…)                                                                                   (…)
 ----------                                                                            ---------- De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in              Les dispositions de la loi s’appliquent aux affaires dont l’inscription ou la vanaf hun datums van inwerkingtreding (art. 28).                                      dates d’entrée en vigueur (art. 28).
 
-## Art. 2694
+###### Art. 2694
 
 Article 2694
 
@@ -4796,7 +4800,7 @@ Article 2694
 (…)                                                                                   (…)
 ----------                                                                            ---------- De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in              Les dispositions de la loi s’appliquent aux affaires dont l’inscription ou la art. 269 , 1 lid, W.Reg. bedoelde inschrijving of herinschrijving wordt verzocht 1   ste réinscription visée à l’art. 2691, al. 1er, C. enr. est demandée à partir de leurs vanaf hun datums van inwerkingtreding (art. 28).                                      dates d’entrée en vigueur (art. 28).
 
-## Art. 270
+###### Art. 270
 
 Article 270
 
@@ -4805,9 +4809,9 @@ Article 270
 
 (…)                                                                                   (...)
 
-##### Afdeling Ibis - Opstelrecht                                                       Section Ibis - Droit de rédaction
+#### Afdeling Ibis - Opstelrecht                                                       Section Ibis - Droit de rédaction
 
-## Art. 2701
+###### Art. 2701
 
 Article 2701
 
@@ -4817,7 +4821,7 @@ Op akten van griffiers van hoven en rechtbanken, op akten die buiten            
 
 Met akten van griffiers van hoven en rechtbanken worden                               Sont assimilés aux actes de greffiers des cours et tribunaux, les gelijkgesteld, overschrijvingen gedaan door griffiers in hun registers,               transcriptions, effectuées par les greffiers dans leurs registres, des van de verklaringen van beroep of van voorziening in verbreking                       déclarations d'appel ou de recours en cassation faites en matière strafzaken, door gedetineerden of geïnterneerden afgelegd.                            répressive, par des personnes détenues ou internées.
 
-## Art. 2702
+###### Art. 2702
 
 Article 2702
 
@@ -4825,7 +4829,7 @@ Article 2702
 
 De akten van bekendheid, de akten van aanneming en de akten                     Les actes de notoriété, les actes d’adoption et les actes accordant à waarbij een minderjarige machtiging wordt verleend om handel te                 un mineur l’autorisation de faire le commerce passés devant les juges drijven, die verleden worden ten overstaan van de vrederechters, zijn           de paix, sont assujettis à un droit de rédaction dont le montant est fixé onderhevig aan een opstelrecht waarvan het bedrag op 35 euro wordt              à 35 euros. bepaald.
 
-## Art. 2703
+###### Art. 2703
 
 Article 2703
 
@@ -4835,9 +4839,9 @@ De verklaringen van keus van vaderland zijn onderhevig aan een                  
 
 Dit recht is vatbaar voor teruggaaf ingeval de inwilliging bij een              Ce droit est sujet à restitution en cas de refus d’agréation par une eindbeslissing van het bevoegd gerecht wordt geweigerd.                         décision définitive de la juridiction compétente.
 
-##### Afdeling II - Expeditierecht                                                   Section II - Droit d’expédition
+#### Afdeling II - Expeditierecht                                                   Section II - Droit d’expédition
 
-## Art. 271
+###### Art. 271
 
 Article 271
 
@@ -4852,7 +4856,7 @@ Op de uitgiften, kopieën of uittreksels die in de griffies worden              
 
 3° 5,55 euro per bladzijde in het Hof van Cassatie.                             3 De 5,55 euros par page, à la Cour de cassation.
 
-## Art. 272
+###### Art. 272
 
 Article 272
 
@@ -4872,7 +4876,7 @@ Hetzelfde recht is verschuldigd voor uitgiften, kopieën en uittreksels         
 
 Hetzelfde recht is eveneens verschuldigd voor de kopie van een                 Le même droit est également dû pour la copie d'un fichier elektronisch bestand. Het recht is verschuldigd voor elke gekopieerde          électronique. Le droit est dû pour chaque page électronique copiée du elektronische bladzijde van het brondocument. De parameters van                document source. Lors de la réalisation de la copie, les paramètres du het brondocument, die de elektronische bladzijde bepalen, mogen bij            document source, qui déterminent la page électronique, ne peuvent het maken van de kopie niet gewijzigd worden.                                  être modifiés.
 
-## Art. 273
+###### Art. 273
 
 Article 273
 
@@ -4882,7 +4886,7 @@ Het recht wordt berekend per bladzijde van het arrest, het vonnis of            
 
 Het recht wordt evenwel éénvormig berekend alsof er slechts één                  Toutefois, le droit est calculé uniformément à raison d'une page pour bladzijde was, voor de uittreksels die worden afgeleverd ter uitvoering          les extraits délivrés en exécution de l'article 121 du Règlement van artikel 121 van het Algemeen Reglement op de gerechtskosten in               général sur les frais de justice en matière répressive. strafzaken.
 
-## Art. 274
+###### Art. 274
 
 Article 274
 
@@ -4890,7 +4894,7 @@ Article 274
 
 Wanneer in een uitgifte, kopie of uittreksel meerdere arresten,                  Lorsque plusieurs arrêts, jugements ou actes sont reproduits dans vonnissen of akten worden weergegeven, wordt het recht berekend                  une expédition, une copie ou un extrait, le droit est calculé par page de per bladzijde van elk dezer documenten, zonder dat er, voor ieder van            chacun de ces documents, sans qu'il puisse être perçu, pour chacun deze documenten, minder mag geheven worden dan het recht                         d'eux, moins que le droit dû pour une page. verschuldigd voor één bladzijde.
 
-## Art. 274bis
+###### Art. 274bis
 
 Article 274bis
 
@@ -4898,7 +4902,7 @@ Article 274bis
 
 Voor kopieën van audiovisueel materiaal is, ongeacht op welke                    Pour les copies de matériel audiovisuel, quel que soit le support sur informatiedrager de kopie wordt afgeleverd, per gekopieerde minuut               lequel la copie est délivrée, il est dû 1,15 euros par minute copiée, sans 1,15 euro verschuldigd, zonder dat de verschuldigde rechten minder               que les droits dus puissent être inférieurs à 5,75 euros. Une minute mogen bedragen dan 5,75 euro Een begonnen minuut telt voor een                   entamée compte pour une minute entière. volle minuut.
 
-## Art. 274ter
+###### Art. 274ter
 
 Article 274ter
 
@@ -4906,9 +4910,9 @@ Article 274ter
 
 De expeditierechten die verschuldigd zijn op één en hetzelfde verzoek            Les droits dus sur une même demande pour une même affaire ne voor één en dezelfde zaak, mogen 1 450 euro niet overschrijden.                  peuvent excéder 1450 euros.
 
-##### Afdeling III - Legalisatie- en opzoekingsrechten                                Section III - Droits de légalisation et de recherche
+#### Afdeling III - Legalisatie- en opzoekingsrechten                                Section III - Droits de légalisation et de recherche
 
-## Art. 275
+###### Art. 275
 
 Article 275
 
@@ -4916,7 +4920,7 @@ Article 275
 
 (…)                                                                                (...)
 
-## Art. 276
+###### Art. 276
 
 Article 276
 
@@ -4924,9 +4928,9 @@ Article 276
 
 (…)                                                                                (...)
 
-##### Afdeling IV - Recht van inschrijving in het handelsregister, in                     Section IV - Droit d'inscription au registre du commerce, au het ambachtsregister en in de registers van de economische                                 registre de l'artisanat et aux registres des groupements samenwerkingsverbanden                                                                 d'intérêt économique
+#### Afdeling IV - Recht van inschrijving in het handelsregister, in                     Section IV - Droit d'inscription au registre du commerce, au het ambachtsregister en in de registers van de economische                                 registre de l'artisanat et aux registres des groupements samenwerkingsverbanden                                                                 d'intérêt économique
 
-## Art. 277
+###### Art. 277
 
 Article 277
 
@@ -4934,7 +4938,7 @@ Article 277
 
 (…)                                                                                (…)
 
-## Art. 278
+###### Art. 278
 
 Article 278
 
@@ -4942,9 +4946,9 @@ Article 278
 
 (…)                                                                                (...)
 
-#### HOOFDSTUK II - Vrijstellingen                                                          CHAPITRE II - Exemptions
+### HOOFDSTUK II - Vrijstellingen                                                          CHAPITRE II - Exemptions
 
-## Art. 2791
+###### Art. 2791
 
 Article 2791
 
@@ -4963,7 +4967,7 @@ Het recht is echter verschuldigd voor de onder artikel 162, 13°,               
 4° de inschrijving van zaken die ingeleid worden in het kader van het              4° l’inscription des causes qui sont introduites dans le cadre du livre boek XX van het Wetboek van economisch recht.                                      XX du Code de droit économique.
 ----------                                                                         ---------- De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in           Les dispositions de la loi s’appliquent aux affaires dont l’inscription ou la art. 269 , 1 lid, W.Reg. bedoelde inschrijving of herinschrijving wordt verzocht 1   ste réinscription visée à l’art. 2691, al. 1er, C. enr. est demandée à partir de leurs vanaf hun datums van inwerkingtreding (art. 28).                                   dates d’entrée en vigueur (art. 28).
 
-## Art. 2792
+###### Art. 2792
 
 Article 2792
 
@@ -4982,7 +4986,7 @@ Zijn vrijgesteld van het opstelrecht:                                           
 
 5° (…)                                                                             5° (…)
 
-## Art. 280
+###### Art. 280
 
 Article 280
 
@@ -5019,7 +5023,7 @@ a) bij gelegenheid van verrichtingen binnen het kader van de wet van            
 
 b) naar aanleiding van schadelijke gebeurtenissen die als een                      b) suite à des faits dommageables reconnus comme calamité openbare of landbouwramp worden erkend en waarin het herstel of                    publique ou agricole, lorsque la réparation ou l’indemnisation est de schadeloosstelling wordt geregeld door bijzondere wetten of door                organisée par des lois particulières ou par des conventions internationale overeenkomsten.                                                     internationales.
 
-## Art. 281
+###### Art. 281
 
 Article 281
 
@@ -5028,7 +5032,7 @@ Article 281
 (…)                                                                                (…)
 ----------                                                                         ---------- De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in           Les dispositions de la loi s’appliquent aux affaires dont l’inscription ou la art. 269 , 1 lid, W.Reg. bedoelde inschrijving of herinschrijving wordt verzocht 1   ste réinscription visée à l’art. 2691, al. 1er, C. enr. est demandée à partir de leurs vanaf hun datums van inwerkingtreding (art. 28).                                   dates d’entrée en vigueur (art. 28).
 
-## Art. 282
+###### Art. 282
 
 Article 282
 
@@ -5036,15 +5040,15 @@ Article 282
 
 (…)                                                                           (…)
 
-#### HOOFDSTUK III - Diverse bepalingen                                             CHAPITRE III - Dispositions diverses
+### HOOFDSTUK III - Diverse bepalingen                                             CHAPITRE III - Dispositions diverses
 
-## Art. 283
+###### Art. 283
 
 Article 283
 
 In de in artikel 160 voorziene gevallen, worden de griffierechten in          Dans les cas prévus à l’article 160, les droits de greffe sont liquidés en debet vereffend en ingevorderd volgens de regelen die van                     débet et recouvrés selon les règles applicables aux droits toepassing zijn op de onder dezelfde voorwaarden vereffende                   d’enregistrement liquidés dans les mêmes conditions. registratierechten.
 
-## Art. 284
+###### Art. 284
 
 Article 284
 
@@ -5054,7 +5058,7 @@ Worden eveneens in debet vereffend, de griffierechten verschuldigd            So
 
 De rechten worden onder de gerechtskosten begrepen en als                     Les droits sont compris dans les frais de justice et recouvrés à ce titre dusdanig ingevorderd ten laste van de partij die er toe veroordeeld           sur la partie condamnée à les supporter. werd.
 
-## Art. 284bis
+###### Art. 284bis
 
 Article 284bis
 
@@ -5062,7 +5066,7 @@ Article 284bis
 
 In debet worden eveneens vereffend, de griffierechten verschuldigd            Sont également liquidés en débet, les droits de greffe dus sur les op de kopieën in strafzaken die worden afgegeven met toepassing               copies qui sont délivrées en matière pénale en application des articles van de artikelen 674bis en volgende van het Gerechtelijk Wetboek. De          674bis et suivants du Code judiciaire. Les droits et autres frais sont rechten    alsmede      de    andere    kosten    worden     ingevorderd      recouvrés conformément aux dispositions du même Code. overeenkomstig de bepalingen van hetzelfde Wetboek.
 
-## Art. 285
+###### Art. 285
 
 Article 285
 
@@ -5076,7 +5080,7 @@ Daarbij kan de medewerking van de griffies bij de heffing van de                
 
 Inbreuken op de voorschriften van evenbedoeld koninklijk besluit                       Les infractions aux prescriptions du dit arrêté royal peuvent être kunnen worden bestraft met boeten waarvan het bedrag per inbreuk                       réprimées par des amendes dont le taux n’excédera pas 250 EUR 250 EUR niet mag te boven gaan.                                                        pour chacune d’elles.
 
-## Art. 286
+###### Art. 286
 
 Article 286
 
@@ -5092,13 +5096,13 @@ Die verjaringen worden gestuit overeenkomstig artikel 2171 en 2172.             
 
 Verjaring voor het invorderen der in debet vereffende rechten                          Toutefois, la prescription pour le recouvrement des droits liquidés en ontstaat echter zoals die voor de onder dezelfde voorwaarden                           débet a lieu comme celle des droits d’enregistrement liquidés dans les vereffende registratierechten.                                                         mêmes conditions.
 
-## Art. 287
+###### Art. 287
 
 Article 287
 
 De bepalingen van titel I betreffende de vervolgingen en gedingen en                   Sont applicables aux droits de greffe, les dispositions du titre Ier de moratoire interesten, zijn toepasselijk op de griffierechten.                       relatives aux poursuites et instances et aux intérêts moratoires.
 
-## Art. 288
+###### Art. 288
 
 Article 288
 
@@ -5107,7 +5111,7 @@ Article 288
 De Koning kan wat de rolrechten betreft bij een in Ministerraad                    En ce qui concerne les droits de mise au rôle, le Roi peut, par arrêté overlegd besluit de regels bepalen inzake de inning, de                            établi après délibération en Conseil des ministres, déterminer les verjaringstermijnen, de wijzen waarop de verjaring wordt gestuit of                règles en matière de perception, de délais de prescription, de modes geschorst, de vervolgingen en gedingen en de moratoire interesten en               d’interruption et de suspension de la prescription, de poursuites et daarbij afwijken van de in artikelen 286 en 287 bepaalde regels. De                instances et d’intérêts moratoires et ainsi déroger aux règles visées besluiten die genomen worden in toepassing van dit artikel, worden                 aux articles 286 et 287. Les arrêtés qui sont pris en application de cet bekrachtigd door de wet binnen de 12 maanden volgend op de datum                   article sont confirmés par la loi dans les 12 mois qui suivent la date de van hun bekendmaking in het Belgisch Staatsblad.                                   leur publication au Moniteur Belge.
 ----------                                                                         ---------- De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in           Les dispositions de la loi s’appliquent aux affaires dont l’inscription ou la art. 269 , 1 lid, W.Reg. bedoelde inschrijving of herinschrijving wordt verzocht 1   ste réinscription visée à l’art. 2691, al. 1er, C. enr. est demandée à partir de leurs vanaf hun datums van inwerkingtreding (art. 28).                                   dates d’entrée en vigueur (art. 28).
 
-## Art. 288bis
+###### Art. 288bis
 
 Article 288bis
 
@@ -5118,11 +5122,11 @@ De Koning kan bepalen dat wegens de laattijdige betaling van een                
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                               DROIT FUTUR (à partir du 01.01.2028)
 
-### TITEL IV - DIGITALISATIE VAN DE RELATIES                                        TITRE IV - DIGITALISATION DES RELATIONS TUSSEN DE FEDERALE OVERHEIDSDIENST                                          ENTRE LE SERVICE PUBLIC FEDERAL FINANCES, FINANCIËN, DE BURGERS EN BEPAALDE DERDEN                                                        LES CITOYENS ET CERTAINS TIERS
+## TITEL IV - DIGITALISATIE VAN DE RELATIES                                        TITRE IV - DIGITALISATION DES RELATIONS TUSSEN DE FEDERALE OVERHEIDSDIENST                                          ENTRE LE SERVICE PUBLIC FEDERAL FINANCES, FINANCIËN, DE BURGERS EN BEPAALDE DERDEN                                                        LES CITOYENS ET CERTAINS TIERS
 
 (ingevoegd bij art. 74 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2).       (inséré par l'art. 74 de la loi du 12.05.2024 (M.B., 30.05.2024 – éd. 2). Texte Tekst van toepassing voor alle of bepaalde categorieën van houders van een         applicable pour toutes ou certaines catégories de titulaires d’un numéro ondernemingsnummer, evenals voor natuurlijke personen, op een datum                d’entreprise, ainsi que pour les personnes physiques, à compter de la date à respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art.      fixer respectivement par le Roi, et au plus tard le 01.01.2028 (art. 222)) 222))
 
-## Art. 288ter
+###### Art. 288ter
 
 Article 288ter
 
@@ -5138,7 +5142,7 @@ Richtlijn (EG) 1999/93, dat ten minste een substantieel                         
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 288quater
+###### Art. 288quater
 
 Article 288quater
 
@@ -5162,7 +5166,7 @@ Wanneer het bericht van de Federale Overheidsdienst Financiën aan              
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 288quinquies
+###### Art. 288quinquies
 
 Article 288quinquies
 
@@ -5174,7 +5178,7 @@ Behoudens indien de wettelijke of reglementaire bepalingen anders               
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 288sexies
+###### Art. 288sexies
 
 Article 288sexies
 
@@ -5188,7 +5192,7 @@ Wanneer een persoon zich niet heeft kunnen identificeren bij een                
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 288septies
+###### Art. 288septies
 
 Article 288septies
 
@@ -5206,7 +5210,7 @@ Wanneer een bericht wordt verzonden door de Federale                            
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 288octies
+###### Art. 288octies
 
 Article 288octies
 
@@ -5216,7 +5220,7 @@ De rechtsgevolgen van een bericht verzonden door middel van een                 
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 288nonies
+###### Art. 288nonies
 
 Article 288nonies
 
@@ -5230,7 +5234,7 @@ Wanneer een document elektronisch wordt ondertekend door middel                 
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 288decies
+###### Art. 288decies
 
 Article 288decies
 
@@ -5242,7 +5246,7 @@ GEMEENSCHAPPELIJKE BEPALINGEN VOOR ALLE                                         
 
 (gewijzigd bij art. 5 van de wet van 17.08.2013 (B.S., 05.09.2013). Tekst van         (modifié par l’art. 5 de la loi du 17.08.2013 (M.B., 05.09.2013). Texte applicable toepassing vanaf 01.01.2013 (art. 21))                                                à partir du 01.01.2013 (art. 21))
 
-## Art. 289
+###### Art. 289
 
 Article 289
 
@@ -5269,7 +5273,7 @@ Elke ambtenaar van de Federale Overheidsdienst Financiën, die                  
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                 DROIT FUTUR (à partir du 01.01.2028)
 
-## Art. 289bis
+###### Art. 289bis
 
 Article 289bis
 
@@ -5742,7 +5746,7 @@ Indien voor de toepassing van deze richtlijn een gegevensinbreuk in             
 
 -----                                                                                    -----
 
-## Art. 289bis
+###### Art. 289bis
 
 Article 289bis
 
@@ -6211,7 +6215,7 @@ Indien voor de toepassing van deze richtlijn een gegevensinbreuk in             
 - in § 6/3, lid 2, 1°: lees ‘’ paragraaf 2, 18° ‘ ipv. ‘’ paragraaf 2, 21°’.              - dans le § 6/3, al. 2, 1° : lire « paragraphe 2, 18° » au lieu de « paragraphe 2, 21° ».
 - in § 6/1, lid 1, 5°, i): lees ‘rechtspersonen’ ipv. ‘rechtpersonen’.
 
-## Art. 289bis/1
+###### Art. 289bis/1
 
 Article 289bis/1
 
@@ -6259,7 +6263,7 @@ d) ingeschreven zijn bij een beroepsorganisatie in verband met de               
 
 8° "cliënt": elke intermediair of relevante belastingplichtige die                    8° "client": tout intermédiaire ou contribuable concerné qui reçoit des diensten, met inbegrip van bijstand, advies, raad of begeleiding,                     services, y compris une assistance, des avis, des conseils ou des ontvangt van een tot het juridisch beroepsgeheim gehouden                             orientations, de la part d'un intermédiaire tenu au secret intermediair      met       betrekking       tot    een      meldingsplichtige        professionnel dans le cadre d'un dispositif fiscal transfrontière devant grensoverschrijdende constructie.                                                     faire l'objet d'une déclaration.
 
-## Art. 289bis/2
+###### Art. 289bis/2
 
 Article 289bis/2
 
@@ -6357,7 +6361,7 @@ b) de prognoses van de toekomstige kasstromen of inkomsten die             b) au
 
 inlichtingen over die meldingsplichtige grensoverschrijdende constructies worden      Ces informations sur ces dispositifs transfrontières devant faire l'objet d'une uiterlijk op 31 augustus 2020 meegedeeld (art. 61, lid 2).                            déclaration, seront communiqués au plus tard le 31 août 2020 (art. 61, al. 2).
 
-## Art. 289bis/3
+###### Art. 289bis/3
 
 Article 289bis/3
 
@@ -6385,7 +6389,7 @@ Onverminderd het eerste lid moeten de intermediairs bedoeld in                  
 
 Wanneer er op grond van het eerste lid een meervoudige                                Lorsque, en application de l'alinéa 1er, il existe une obligation de meldingsplicht bestaat, wordt de intermediair ontheven van het                        déclaration multiple, l'intermédiaire est dispensé de la transmission verstrekken van de inlichtingen als hij een schriftelijk bewijs voorlegt              des informations s'il fournit une preuve écrite que ces mêmes dat dezelfde inlichtingen in een andere lidstaat zijn verstrekt.                      informations ont été transmises dans un autre Etat membre.
 
-## Art. 289bis/4
+###### Art. 289bis/4
 
 Article 289bis/4
 
@@ -6395,7 +6399,7 @@ Indien het gaat om een marktklare constructie moet de intermediair              
 
 De intermediair die het uniek referentienummer van de bevoegde                        L'intermédiaire qui reçoit le numéro de référence unique des autorités instanties ontvangt, dient dit, samen met de samenvatting                             compétentes doit immédiatement le communiquer, ainsi que le betreffende de gemelde constructie, onverwijld aan de andere                          résumé concernant le dispositif rapporté, aux autres intermédiaires betrokken intermediairs en aan de relevante belastingplichtige door                   impliqués ainsi qu'au contribuable concerné. te geven.
 
-## Art. 289bis/5
+###### Art. 289bis/5
 
 Article 289bis/5
 
@@ -6405,7 +6409,7 @@ Naar aanleiding van de melding van een grensoverschrijdende                     
 
 De intermediair die het uniek referentienummer van de bevoegde                        L'intermédiaire qui reçoit le numéro de référence unique des autorités instanties ontvangt, dient dit, samen met de samenvatting                             compétentes doit immédiatement le communiquer, ainsi que le betreffende de gemelde constructie, onverwijld aan de andere                          résumé concernant le dispositif rapporté, aux autres intermédiaires betrokken intermediairs en aan de relevante belastingplichtige door                   impliqués ainsi qu'au contribuable concerné. te geven.
 
-## Art. 289bis/6
+###### Art. 289bis/6
 
 Article 289bis/6
 
@@ -6416,7 +6420,7 @@ Wanneer meerdere intermediairs betrokken zijn bij dezelfde                      
 Een intermediair wordt ontheven van de verplichting tot het                           Un intermédiaire est dispensé de la transmission des informations s'il verstrekken van inlichtingen indien hij een schriftelijk bewijs voorlegt              fournit une preuve écrite qu'un autre intermédiaire a déjà transmis les dat een andere intermediair de inlichtingen bedoeld in artikel 289bis,                informations visées à l'article 289bis, § 6/3, alinéa 2.
 § 6/3, tweede lid, reeds heeft verstrekt.
 
-## Art. 289bis/7
+###### Art. 289bis/7
 
 Article 289bis/7
 
@@ -6438,7 +6442,7 @@ Indien de relevante belastingplichtige geen instemming verleent blijft          
 
 § 4. In afwijking van paragraaf 1, eerste lid, 1°, is de intermediair die             § 4. Par dérogation au paragraphe 1er, alinéa 1er, 1°, l'intermédiaire qui een advocaat is, niet gehouden een betrokken intermediair die niet de                 est avocat n'est pas tenu d'informer un intermédiaire concerné qui cliënt is op de hoogte te brengen dat hij niet aan de meldingsplicht kan              n'est pas son client qu'il ne peut pas satisfaire à l'obligation voldoen.                                                                              déclarative.
 
-## Art. 289bis/8
+###### Art. 289bis/8
 
 Article 289bis/8
 
@@ -6475,7 +6479,7 @@ Wanneer er op grond van het eerste lid een meervoudige                          
 ----------                                                                            ----------
 (1) Moeten eveneens de inlichtingen verstrekt worden over de in deze wet              (1) Les informations doivent également être fournies sur les dispositifs bedoelde meldingsplichtige grensoverschrijdende constructies waarvan de               transfrontières devant faire l'objet d'une déclaration visé dans la présente loi dont eerste stap is geïmplementeerd tussen 25 juni 2018 en 01.07.2020. Deze                la première étape a été mise en œuvre entre le 25 juin 2018 et le 1er juillet 2020. inlichtingen over die meldingsplichtige grensoverschrijdende constructies worden      Ces informations sur ces dispositifs transfrontières devant faire l'objet d'une uiterlijk op 31 augustus 2020 meegedeeld (art. 61, lid 2).                            déclaration, seront communiqués au plus tard le 31 août 2020 (art. 61, al. 2).
 
-## Art. 289bis/9
+###### Art. 289bis/9
 
 Article 289bis/9
 
@@ -6489,7 +6493,7 @@ Wanneer de meldingsplicht bij de relevante belastingplichtige ligt en           
 
 Een relevante belastingplichtige wordt ontheven van de verplichting                   Un contribuable concerné n'est dispensé de l'obligation de tot het verstrekken van de inlichtingen indien hij een schriftelijk bewijs            transmettre les informations que dans la mesure où il fournit la voorlegt dat een andere relevante belastingplichtige de inlichtingen                  preuve écrite que ces mêmes informations, visées à l'article 289bis, § bedoeld in artikel 289bis, § 6/3, reeds heeft verstrekt.                              6/3, ont déjà été transmises par un autre contribuable concerné.
 
-## Art. 289bis/10
+###### Art. 289bis/10
 
 Article 289bis/10
 
@@ -6498,7 +6502,7 @@ Article 289bis/10
 Voor de toepassing van de artikelen 289bis, § 6/3 en 289bis/1 tot en                  Pour l'application des articles 289bis, § 6/3 et 289bis/1 à 289bis/9 et met 289bis/9 en de daaruit voortvloeiende uitvoeringsbesluiten dient                  des arrêtés d'exécution qui en découlent, le rapportage des de melding van de inlichtingen, voor de onderdelen die de Koning                      informations, pour les parties que le Roi spécifie doit, outre l'utilisation nader bepaalt, naast het gebruik van één van de officiële landstalen,                 d'une des langues officielles de la Belgique, également être fait en ook in het Engels te gebeuren.                                                        anglais.
 ----------                                                                            ---------- Het KB van 03.07.2020 (B.S., 14.07.2020) voorziet dat de Minister van Financiën       L’AR du 03.07.2020 (M.B., 14.07.2020) prévoit que le Ministre des finances ou le of de door hem aangewezen leidinggevende ambtenaar bepaalt welke gegevens,            dirigeant désigné par lui détermine quelles données doivent, outre l'utilisation d'une naast het gebruik van één van de officiële landstalen, ook in het Engels moeten       des langues officielles de la Belgique, également être communiquées en anglais (art. worden meegedeeld (art. 1) en eveneens het formulier dat door de intermediair of      1er) ainsi que le formulaire qui doit être utilisé par l'intermédiaire ou le contribuable de relevante belastingplichtige moet worden gebruikt (art. 2). De leidinggevende      concerné (art. 2). Le dirigeant visé à l’AR susmentionné est le dirigeant de ambtenaar bedoeld in het bovenvermelde KB is de leidinggevende ambtenaar van          l'administration générale compétent pour l'établissement des impôts sur les de algemene administratie          bevoegd     voor    de vestiging      van de       revenus (art. 1er, AM 07.07.2020 (M.B., 14.07.2020)). inkomstenbelastingen (art. 1, MB 07.07.2020 (B.S., 14.07.2020)).
 
-## Art. 289bis/11
+###### Art. 289bis/11
 
 Article 289bis/11
 
@@ -6509,7 +6513,7 @@ De Koning bepaalt het formulier waarop de intermediair of de                    
 
 de relevante belastingplichtige moet worden gebruikt (art. 2). De leidinggevende      concerné (art. 2). Le dirigeant visé à l’AR susmentionné est le dirigeant de ambtenaar bedoeld in het bovenvermelde KB is de leidinggevende ambtenaar van          l'administration générale compétent pour l'établissement des impôts sur les de algemene administratie          bevoegd     voor    de vestiging      van de       revenus (art. 1er, AM 07.07.2020 (M.B., 14.07.2020)). inkomstenbelastingen (art. 1, MB 07.07.2020 (B.S., 14.07.2020)).
 
-## Art. 289bis/12
+###### Art. 289bis/12
 
 Article 289bis/12
 
@@ -6525,7 +6529,7 @@ De Koning legt de progressieve schaal van de administratieve                    
 
 De Koning kan voor de geldboeten die Hij bepaalt, voorzien in de                      Le Roi peut, pour les amendes qu'Il détermine, prévoir des modalités toepassingsmodaliteiten van de maatregelen tot individualisering van                  d'applicabilité de mesures d'individualisation de la sanction par le juge de sanctie door de bevoegde rechter.                                                  compétent.
 
-## Art. 289bis/13
+###### Art. 289bis/13
 
 Article 289bis/13
 
@@ -6537,7 +6541,7 @@ De fiscale administratie, mag binnen de door haar bepaalde termijn,             
 
 289bis/1 tot en met 289bis/11 te verzekeren, van de betrokken                    soient nécessaires afin d'assurer le respect des articles 289bis/1 à intermediair(s) alle informatie vorderen die in toepassing van artikel           289bis/11, toutes les informations qui en application de l'article 289bis/1 tot en met 289bis/11 diende te worden gemeld aan de                     289bis/1 à 289bis/11 doivent être mentionnées à l'autorité belge Belgische bevoegde autoriteit.                                                   compétente.
 
-## Art. 289ter
+###### Art. 289ter
 
 Article 289ter
 
@@ -6545,7 +6549,7 @@ Article 289ter
 
 De Koning bepaalt de wijze van betaling van alle bedragen die                    Le Roi détermine le mode de paiement de toutes les sommes dues en krachtens de bepalingen van dit Wetboek en de uitvoeringsbesluiten               vertu des dispositions du présent Code et des arrêtés d'exécution de ervan verschuldigd zijn, andere dan de strafrechtelijke boetes.                  celui-ci, autres que les amendes pénales.
 
-## Art. 289quater
+###### Art. 289quater
 
 (tekst niet in werking getreden)                              Article 289quater (texte n’étant pas entré en vigueur)
 
@@ -6555,7 +6559,7 @@ De Koning bepaalt de wijze van betaling van alle bedragen die                   
 
 (…)                                                                              (…)
 
-## Art. 289quinquies
+###### Art. 289quinquies
 
 (tekst niet in werking getreden)                          Article 289quinquies (texte n’étant pas entré en vigueur)
 
@@ -6565,7 +6569,7 @@ De Koning bepaalt de wijze van betaling van alle bedragen die                   
 
 (…)                                                                              (…)
 
-## Art. 289sexies
+###### Art. 289sexies
 
 Article 289sexies (texte n’étant pas entré en vigueur)
 
@@ -6575,7 +6579,7 @@ Article 289sexies (texte n’étant pas entré en vigueur)
 
 (…)                                                                               (…)
 
-## Art. 289septies
+###### Art. 289septies
 
 Article 289septies
 
@@ -6585,7 +6589,7 @@ Article 289septies
 ----------                                                                        ----------
 (1) § 2, ingevoegd bij art. 84 van de wet van 26.01.2021 (B.S., 10.02.2021) die   (1) le § 2, inséré par l’art. 84 de la loi du 26.01.2021 (M.B., 10.02.2021) qui nooit in werking is getreden wordt opgeheven bij art. 213 van de wet van          n’est jamais entré en vigueur est abrogé par l’art. 213 de la loi du 12.05.2024 12.05.2024 (B.S., 30.05.2024 – ed. 2).                                            (M.B., 30.05.2024 – éd. 2).
 
-## Art. 289octies
+###### Art. 289octies
 
 (tekst niet in werking getreden)                               Article 289octies (texte n’étant pas entré en vigueur)
 
@@ -6595,7 +6599,7 @@ Article 289septies
 
 (…)                                                                               (…)
 
-## Art. 289nonies
+###### Art. 289nonies
 
 (tekst niet in werking getreden)                               Article 289nonies (texte n’étant pas entré en vigueur)
 
@@ -6605,7 +6609,7 @@ Article 289septies
 
 (…)                                                                              (…)
 
-## Art. 289decies
+###### Art. 289decies
 
 (tekst niet in werking getreden)                              Article 289decies (texte n’étant pas entré en vigueur)
 
@@ -6615,7 +6619,7 @@ Article 289septies
 
 (…)                                                                              (…)
 
-## Art. 289undecies
+###### Art. 289undecies
 
 (tekst niet in werking getreden)                            Article 289undecies (texte n’étant pas entré en vigueur)
 
@@ -6625,7 +6629,7 @@ Article 289septies
 
 (…)                                                                              (…)
 
-## Art. 289duodecies
+###### Art. 289duodecies
 
 (tekst niet in werking getreden)                           Article 289duodecies (texte n’étant pas entré en vigueur)
 
@@ -6635,7 +6639,7 @@ Article 289septies
 
 (…)                                                                              (…)
 
-## Art. 289terdecies
+###### Art. 289terdecies
 
 (tekst niet in werking getreden)                           Article 289terdecies (texte n’étant pas entré en vigueur)
 
@@ -6647,7 +6651,7 @@ Article 289septies
 
 INTREKKINGSBEPALING                                                          DISPOSITION ABROGATOIRE
 
-## Art. 290
+###### Art. 290
 
 Article 290
 
@@ -6655,41 +6659,41 @@ Onder voorbehoud van de bijzondere fiscale bepalingen voortvloeiend             
 
 TIJDELIJKE BEPALINGEN                                                       DISPOSITIONS TEMPORAIRES
 
-##### Afdeling I - Maatregelen waarbij de oprichting van nieuwe                       Section 1re - Mesures tendant à favoriser, par une réduction gebouwen begunstigd wordt door een vermindering der                              des droits d’enregistrement, la construction de nouveaux registratierechten                                                                      bâtiments
+#### Afdeling I - Maatregelen waarbij de oprichting van nieuwe                       Section 1re - Mesures tendant à favoriser, par une réduction gebouwen begunstigd wordt door een vermindering der                              des droits d’enregistrement, la construction de nouveaux registratierechten                                                                      bâtiments
 
 § 1 - Aankoop van een bouwgrond                                                    § 1er. Achat d’un emplacement
 
-## Art. 291
+###### Art. 291
 
 (zonder voorwerp geworden)                                     Article 291 (cette disposition a cessé d’être applicable)
 
 (…)                                                                              (…)
 
-## Art. 292
+###### Art. 292
 
 (niet meer van toepassing)                                    Article 292 (cette disposition a cessé d’être applicable)
 
 (…)                                                            (…)
 
-## Art. 293
+###### Art. 293
 
 (zonder voorwerp geworden)                           Article 293 (cette disposition a cessé d’être applicable)
 
 (…)                                                            (…)
 
-## Art. 294
+###### Art. 294
 
 (niet meer van toepassing)                          Article 294 (cette disposition a cessé d’être applicable)
 
 (…)                                                            (…)
 
-## Art. 295
+###### Art. 295
 
 (niet meer van toepassing)                          Article 295 (cette disposition a cessé d’être applicable)
 
 (…)                                                            (…)
 
-## Art. 296
+###### Art. 296
 
 (zonder voorwerp geworden)                           Article 296 (cette disposition a cessé d’être applicable)
 
@@ -6697,27 +6701,27 @@ TIJDELIJKE BEPALINGEN                                                       DISP
 
 § 2 - Verkoop van een gebouwd onroerend goed                                    § 2. Vente d’un immeuble bâti
 
-## Art. 297
+###### Art. 297
 
 (niet meer van toepassing)                          Article 297 (cette disposition a cessé d’être applicable)
 
 (…)                                                            (…)
 
-## Art. 298
+###### Art. 298
 
 (zonder voorwerp geworden)                           Article 298 (cette disposition a cessé d’être applicable)
 
 (…)                                                            (…)
 
-## Art. 299
+###### Art. 299
 
 (niet meer van toepassing)                          Article 299 (cette disposition a cessé d’être applicable)
 
 (…)                                                            (…)
 
-##### Afdeling II - Diverse bepalingen                                                Section II - Dispositions diverses
+#### Afdeling II - Diverse bepalingen                                                Section II - Dispositions diverses
 
-## Art. 300
+###### Art. 300
 
 Article 300
 
@@ -6725,7 +6729,7 @@ Article 300
 
 (…)                                                                             (…)
 
-## Art. 301
+###### Art. 301
 
 Article 301
 
@@ -6757,7 +6761,7 @@ Landsverdediging.
 10° De akten en vonnissen betreffende de rechtsplegingen vóór de                 10° Les actes et jugements relatifs aux procédures devant les juges vrederechters bedoeld bij de wet houdende uitzonderingsbepalingen                de paix visées à la loi portant des dispositions exceptionnelles en in zake huishuur, wanneer het jaarlijks bedrag van de huurprijs,                 matière de baux à loyer lorsque le montant annuel du loyer exigible au eisbaar op het ogenblik van de indiening van de eis, niet hoger is dan           moment de l’introduction de la demande n’excède pas 300 EUR.
 300 EUR.
 
-## Art. 301bis
+###### Art. 301bis
 
 Article 301bis
 
@@ -6765,7 +6769,7 @@ Article 301bis
 
 (…)                                                                              (…)
 
-## Art. 301ter
+###### Art. 301ter
 
 Article 301ter
 
@@ -6774,7 +6778,7 @@ Tekst van toepassing vanaf 24.02.1958 (art. -))                                 
 
 (…)                                                                              (…)
 
-## Art. 301quater
+###### Art. 301quater
 
 Article 301quater
 
@@ -6782,13 +6786,13 @@ Article 301quater
 
 Kosteloos worden geregistreerd de akten, waarbij aan de                          Sont enregistrés gratuitement les actes portant vente de gré à gré, gerechtigden van de wet van 1 oktober 1947 betreffende de                        des bénéficiaires de la loi du 1er octobre 1947 relative à la réparation herstelling van de oorlogsschade aan private goederen, uit de hand               des dommages de guerre aux biens privés, d'immeubles construits à woonhuizen worden verkocht die op initiatief van de Staat met het                l'initiative de l'Etat, en vue du logement des sinistrés par suite de faits oog op de huisvesting van de geteisterden door oorlogsfeit werden                de guerre. gebouwd.
 
-## Art. 302
+###### Art. 302
 
 Article 302
 
 Akten betreffende de ambtshalve tenuitvoerlegging van de                       Sont enregistrés en débet les actes relatifs à l’exécution d’office des beslissingen van de bij de vredesverdragen ingestelde gemengde                 décisions des tribunaux arbitraux mixtes institués par les traités de scheidsgerechten worden in debet geregistreerd.                                paix.
 
-## Art. 302bis
+###### Art. 302bis
 
 Article 302bis
 
@@ -6800,7 +6804,7 @@ Te dien einde, zal de Minister die Economische zaken,                          A
 
 §     2.       Wordt,    overeenkomstig         de     voorwaarden       en    § 2. Sont dispensés du droit proportionnel, suivant les conditions et toepassingsmodaliteiten als bepaald in § 1, van het evenredig recht            modalités d'application prévues au § 1er, les apports à des sociétés vrijgesteld,     de     inbreng      in   vennootschappen        die     de    possédant la personnalité juridique et visées par le titre I, article 2, de rechtspersoonlijkheid bezitten en die in titel I, artikel 2, van de wet tot    la loi de réorientation économique. economische heroriëntering zijn bedoeld.
 
-## Art. 302ter
+###### Art. 302ter
 
 Article 302ter
 
@@ -6808,7 +6812,7 @@ Article 302ter
 
 (…)                                                                            (…)
 
-## Art. 302quater
+###### Art. 302quater
 
 Article 302quater
 
@@ -6817,7 +6821,7 @@ Article 302quater
 
 (…)                                                                            (…)
 
-## Art. 303
+###### Art. 303
 
 Article 303
 
@@ -6830,7 +6834,7 @@ Worden van hypotheekrecht vrijgesteld:                                          
 
 2° Inschrijvingen genomen ter uitvoering van de wet van 27 maart                     2 Les inscriptions prises en exécution de la loi du 27 mars 1924 1924, betreffende de Nationale Vereniging van nijveraars en                          concernant l’Association nationale des industriels et commerçants handelaars voor het herstel der oorlogsschade.                                       pour la réparation des dommages de guerre.
 
-## Art. 304
+###### Art. 304
 
 Article 304
 
@@ -6842,7 +6846,7 @@ De vonnissen en arresten zijn vrij van expeditierecht.                          
 
 Die vrijstellingen zijn evenwel niet toepasselijk in het geval bedoeld bij           Toutefois, ces exemptions ne sont pas applicables, dans le cas prévu artikel 301, 10°.                                                                    à l’article 301, 10°.
 
-## Art. 304bis
+###### Art. 304bis
 
 Article 304bis
 
@@ -6851,7 +6855,7 @@ Article 304bis
 
 (…)                                                                                  (…)
 
-## Art. 305
+###### Art. 305
 
 Article 305
 
@@ -6859,7 +6863,7 @@ Article 305
 
 (…)                                                                                  (…)
 
-## Art. 305bis
+###### Art. 305bis
 
 Article 305bis
 
@@ -6869,9 +6873,9 @@ Article 305bis
 
 OVERGANGSBEPALINGEN                                                           DISPOSITIONS TRANSITOIRES
 
-##### Afdeling I - Algemene maatregelen                                                  Section 1ère - Mesures générales
+#### Afdeling I - Algemene maatregelen                                                  Section 1ère - Mesures générales
 
-## Art. 306
+###### Art. 306
 
 Article 306
 
@@ -6879,7 +6883,7 @@ Article 306
 
 (…)                                                                             (…)
 
-## Art. 307
+###### Art. 307
 
 Article 307
 
@@ -6887,7 +6891,7 @@ Article 307
 
 (…)                                                                             (…)
 
-## Art. 308
+###### Art. 308
 
 Article 308
 
@@ -6895,7 +6899,7 @@ Article 308
 
 (…)                                                                             (…)
 
-## Art. 309
+###### Art. 309
 
 Article 309
 
@@ -6903,7 +6907,7 @@ Article 309
 
 (…)                                                                             (…)
 
-## Art. 310
+###### Art. 310
 
 Article 310
 
@@ -6911,7 +6915,7 @@ Article 310
 
 (…)                                                                           (…)
 
-## Art. 311
+###### Art. 311
 
 Article 311
 
@@ -6919,7 +6923,7 @@ Article 311
 
 (…)                                                                           (…)
 
-## Art. 312
+###### Art. 312
 
 Article 312
 
@@ -6927,7 +6931,7 @@ Article 312
 
 (…)                                                                           (…)
 
-## Art. 313
+###### Art. 313
 
 Article 313
 
@@ -6935,7 +6939,7 @@ Article 313
 
 (…)                                                                           (…)
 
-## Art. 314
+###### Art. 314
 
 Article 314
 
@@ -6943,11 +6947,11 @@ Article 314
 
 (…)                                                                           (…)
 
-##### Afdeling II - Bijzondere maatregelen                                            Section II - Mesures particulières
+#### Afdeling II - Bijzondere maatregelen                                            Section II - Mesures particulières
 
 § 1. Overdrachten onder bezwarende titel van onroerende goederen                        § 1er. Transmissions à titres onéreux de biens immeubles
 
-## Art. 315
+###### Art. 315
 
 Article 315
 
@@ -6955,7 +6959,7 @@ Article 315
 
 (…)                                                                              (…)
 
-## Art. 316
+###### Art. 316
 
 Article 316
 
@@ -6965,7 +6969,7 @@ Article 316
 
 § 2. Burgerlijke en handelsvennootschappen                                             § 2. Sociétés civiles et commerciales
 
-## Art. 317
+###### Art. 317
 
 Article 317
 
@@ -6973,7 +6977,7 @@ Article 317
 
 (…)                                                                              (…)
 
-## Art. 318
+###### Art. 318
 
 Article 318
 
@@ -6983,7 +6987,7 @@ Article 318
 
 BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL                                           DISPOSITIONS ADDITIONNELLES RELATIVES AUX GELIJKGESTELDE TAKSEN                                                         TAXES ASSIMILEES AU TIMBRE
 
-## Art. 319
+###### Art. 319
 
 Article 319
 
@@ -6992,7 +6996,7 @@ Tekst van toepassing vanaf 01.01.1971 (art. 98))                                
 
 (…)                                                                              (…)
 
-## Art. 320
+###### Art. 320
 
 Article 320
 
@@ -7001,7 +7005,7 @@ Tekst van toepassing vanaf 01.01.1971 (art. 98))                                
 
 (…)                                                                              (…)
 
-## Art. 321
+###### Art. 321
 
 Article 321
 
@@ -7012,7 +7016,7 @@ Tekst van toepassing vanaf 01.01.1971 (art. 98))                                
 
 INWERKINGTREDING                                                                  ENTREE EN VIGUEUR
 
-## Art. 322
+###### Art. 322
 
 Article 322
 

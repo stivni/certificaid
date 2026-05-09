@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy: null
 ---
 
 # BTW KB nr. 59 — Handelsgeschenken
@@ -36,24 +40,24 @@ Titel
 
 Bron : FINANCIEN
 
-#### HOOFDSTUK 1. - De onttrekkingen van goederen met het oog op het verstrekken van handelsgeschenken van geringe waarde
+## HOOFDSTUK 1. - De onttrekkingen van goederen met het oog op het verstrekken van handelsgeschenken van geringe waarde
 
-## Art. 1
+#### Art. 1
 
 Worden niet gelijkgesteld met leveringen van goederen verricht onder bezwarende titel in de zin van artikel 12, § 1, van het Wetboek, de onttrekkingen van goederen gedaan door een belastingplichtige met het oog op het verstrekken om niet van handelsgeschenken van geringe waarde die voldoen aan de volgende voorwaarden:
 1° het goed wordt verstrekt in het kader van handelsrelaties;
 2° het goed mag niet worden doorverkocht door de begunstigde in het kader van een economische activiteit;
 3° de aankoopprijs, of indien er geen aankoopprijs is, de normale waarde van het goed, exclusief belasting, is lager dan 50 euro.
 
-#### HOOFDSTUK 2. - De onttrekkingen van goederen met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
+## HOOFDSTUK 2. - De onttrekkingen van goederen met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
 
-##### Afdeling 1. - De onttrekkingen van voedingsmiddelen met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
+### Afdeling 1. - De onttrekkingen van voedingsmiddelen met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
 
-## Art. 2
+#### Art. 2
 
 Worden niet gelijkgesteld met leveringen van goederen verricht onder bezwarende titel in de zin van artikel 12, § 1, van het Wetboek, de onttrekkingen van voedingsmiddelen, gedaan door een belastingplichtige, die voldoen aan de in de artikelen 3 en 4 voorgeschreven voorwaarden en worden verricht volgens de in artikel 5 en, in voorkomend geval, afdeling 3 voorgeschreven nadere regels.
 
-## Art. 3.Worden
+#### Art. 3.Worden
 
 bedoeld in artikel 2, de goederen die:
 1° bestaan in voedingsmiddelen, met inbegrip van dranken andere dan geestrijke dranken, die:
@@ -70,7 +74,7 @@ De goederen bedoeld in het eerste lid kunnen geleverd worden, onder de voorwaard
 (1)<KB 2022-10-26/04, art. 17, 002; Inwerkingtreding : 01-12-2022>
 (2)<KB 2025-12-17/06, art. 14, 003; Inwerkingtreding : 10-01-2026>
 
-## Art. 4
+#### Art. 4
 
 Worden bedoeld in artikel 2, de onttrekkingen van goederen gedaan met het oog op een levering om niet aan:
 1° een voedselbank:
@@ -85,7 +89,7 @@ In afwezigheid van een formele erkenningsprocedure door de bevoegde overheid, wo
 2° in staat is om de in artikel 2 bedoelde goederen in goede omstandigheden te verdelen;
 3° zich ertoe verbindt om de in artikel 2 bedoelde goederen niet voor commerciële doeleinden te gebruiken en ze uitsluitend te verdelen onder behoeftige personen zonder enige andere tegenprestatie dan een financiële bijdrage die niet hoger is dan de uitgaven die rechtstreeks verband houden met die verdeling.
 
-Art. 5.§ 1. Bij een onttrekking bedoeld in artikel 2, stelt de belastingplichtige een document op in twee exemplaren, met de volgende vermeldingen:
+#### Art. 5.§ 1. Bij een onttrekking bedoeld in artikel 2, stelt de belastingplichtige een document op in twee exemplaren, met de volgende vermeldingen:
 1° de datum waarop de begunstigde bezit genomen heeft van de goederen;
 2° de naam of maatschappelijke benaming, het adres en het btw-identificatienummer van de belastingplichtige;
 3° de naam of maatschappelijke benaming, het adres en het ondernemingsnummer van de begunstigde;
@@ -105,13 +109,13 @@ Het verzameldocument wordt opgesteld uiterlijk de vijftiende dag van de maand na
 § 3. Het in paragraaf 1 bedoelde document en het in paragraaf 2 bedoelde verzameldocument worden gedagtekend en medeondertekend door de begunstigde van de geleverde goederen.
 (1)<KB 2025-12-17/06, art. 15, 003; Inwerkingtreding : 10-01-2026>
 
-##### Afdeling 2. - De onttrekkingen van levensnoodzakelijke niet-voedingsmiddelen andere dan goederen die op duurzame wijze kunnen worden gebruikt, met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
+### Afdeling 2. - De onttrekkingen van levensnoodzakelijke niet-voedingsmiddelen andere dan goederen die op duurzame wijze kunnen worden gebruikt, met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
 
-## Art. 6
+#### Art. 6
 
 Worden niet gelijkgesteld met leveringen van goederen verricht onder bezwarende titel in de zin van artikel 12, § 1, van het Wetboek, de onttrekkingen van niet-voedingsmiddelen, gedaan door een belastingplichtige, die voldoen aan de in de artikelen 7 en 8 voorgeschreven voorwaarden en worden verricht volgens de in artikel 9 en, in voorkomend geval, afdeling 3 voorgeschreven nadere regels.
 
-## Art. 7
+#### Art. 7
 
 Worden bedoeld in artikel 6, de goederen die:
 1° bestaan in goederen andere dan voedingsmiddelen:
@@ -123,7 +127,7 @@ b) de verpakking van het goed is beschadigd of niet in overeenstemming met de co
 c) het goed beantwoordt niet aan de productiestandaard vastgelegd door de fabrikant;
 d) de gebruikelijke commercialisatieperiode voor het goed is verlopen.
 
-## Art. 8
+#### Art. 8
 
 Worden bedoeld in artikel 6, de onttrekkingen van goederen gedaan met het oog op een levering om niet aan de volgende begunstigden:
 1° een lokale, gemeentelijke, intercommunale, provinciale, gemeenschaps-, gewestelijke of federale administratie of overheid, in het kader van hun opdrachten tot het verdelen van materiële hulp aan behoeftige personen;
@@ -134,7 +138,7 @@ In afwezigheid van een formele erkenningsprocedure door de bevoegde overheid, wo
 2° in staat is om de in artikel 6 bedoelde goederen in goede omstandigheden te verdelen;
 3° zich ertoe verbindt om de in artikel 6 bedoelde goederen niet voor commerciële doeleinden te gebruiken en ze uitsluitend te verdelen onder behoeftige personen zonder enige andere tegenprestatie dan een financiële bijdrage die niet hoger is dan de uitgaven die rechtstreeks verband houden met die verdeling.
 
-Art. 9.§ 1. Bij een in artikel 6 bedoelde onttrekking stelt de belastingplichtige een document op in twee exemplaren, met de volgende vermeldingen:
+#### Art. 9.§ 1. Bij een in artikel 6 bedoelde onttrekking stelt de belastingplichtige een document op in twee exemplaren, met de volgende vermeldingen:
 1° de datum waarop de begunstigde bezit genomen heeft van de goederen;
 2° de naam of maatschappelijke benaming, het adres en het btw-identificatienummer van de belastingplichtige;
 3° de naam of maatschappelijke benaming, het adres en het ondernemingsnummer van de begunstigde;
@@ -152,9 +156,9 @@ Het verzameldocument wordt opgesteld uiterlijk de vijftiende dag van de maand na
 § 3. Het in paragraaf 1 bedoelde document en het in paragraaf 2 bedoelde verzameldocument worden gedagtekend en medeondertekend door de begunstigde van de geleverde goederen.
 (1)<KB 2025-12-17/06, art. 16, 003; Inwerkingtreding : 10-01-2026>
 
-##### Afdeling 3. - Toepasselijke verplichtingen voor verdeelplatforms in het kader van de onttrekkingen van voedingsmiddelen en levensnoodzakelijke niet-voedingsmiddelen andere dan goederen die op duurzame wijze kunnen worden gebruikt, met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
+### Afdeling 3. - Toepasselijke verplichtingen voor verdeelplatforms in het kader van de onttrekkingen van voedingsmiddelen en levensnoodzakelijke niet-voedingsmiddelen andere dan goederen die op duurzame wijze kunnen worden gebruikt, met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
 
-## Art. 10
+#### Art. 10
 
 § 1. Wordt beschouwd als in de artikelen 4, eerste lid, 4°, en 8, eerste lid, 3°, bedoelde verdeelplatform, elke organisatie die:
 1° materiële voedings- of niet-voedingshulp ontvangen van belastingplichtigen verdeelt aan de in de artikelen 4, eerste lid, en 8, eerste lid, bedoelde begunstigden in het kader van activiteiten die rechtstreeks verband houden met liefdadigheidsdoeleinden ten voordele van behoeftige personen;
@@ -166,7 +170,7 @@ Het verzameldocument wordt opgesteld uiterlijk de vijftiende dag van de maand na
 3° het verbindt er zich toe geen tegenprestatie te eisen bij de verdeling van die goederen, met uitzondering van een eventuele financiële bijdrage die niet hoger is dan de uitgaven die rechtstreeks verband houden met die verdeling.
 De lijst van de erkende verdeelplatforms wordt gepubliceerd op de website van de administratie belast met de belasting op de toegevoegde waarde. De Minister van Financiën of zijn gemachtigde bepalen de manier waarop de erkenning moet worden aangevraagd en vernieuwd, de voor te leggen verantwoordingsstukken en de datum waarop de erkenning uitwerking heeft.
 
-## Art. 11
+#### Art. 11
 
 § 1. Het in de artikelen 4, eerste lid, 4°, en 8, eerste lid, 3°, bedoelde verdeelplatform, dat om niet in de artikelen 2 en 6 bedoelde goederen verkrijgt van een belastingplichtige, is gehouden met deze belastingplichtige een overeenkomst af te sluiten in twee exemplaren waarin:
 1° de belastingplichtige zich verbindt aan het platform goederen om niet te leveren met het oog op de verdeling ervan aan de in de artikelen 4, eerste lid, en 8, eerste lid, bedoelde begunstigden;
@@ -179,7 +183,7 @@ De in deze paragraaf bedoelde verplichtingen zijn op identieke wijze van toepass
 2° het nummer van de in artikel 10 § 2, tweede lid, bedoelde erkenning wordt vermeld evenals de datum vanaf wanneer die uitwerking heeft.
 De overeenkomst wordt opgemaakt in twee exemplaren, waarvan het verdeelplatform en de begunstigde verklaren er elk één te hebben ontvangen. De overeenkomst wordt gedagtekend en ondertekend door beide partijen.
 
-## Art. 12
+#### Art. 12
 
 § 1. In geval van verdeling van de in de artikelen 2 en 6 bedoelde goederen door een in de artikelen 4, eerste lid, 4°, en 8, eerste lid, 3°, bedoeld verdeelplatform, aan in de artikelen 4, eerste lid, en 8, eerste lid, bedoelde begunstigden stelt dit platform een document op in twee exemplaren, met de volgende vermeldingen:
 1° de datum waarop de begunstigde bezit genomen heeft van de goederen;
@@ -208,27 +212,27 @@ Het platform vermeldt in het in het eerste lid bedoelde register voor elk ontvan
 6° de naam of maatschappelijke benaming, het adres en het ondernemingsnummer van de begunstigde;
 7° het bedrag dat eventueel van de begunstigde wordt geëist als de in artikel 10, § 2, eerste lid, 3°, bedoelde financiële bijdrage.
 
-## Art. 13
+#### Art. 13
 
 De Minister van Financiën of zijn gemachtigde kan de erkenning van het in de artikelen 4, eerste lid, 4°, en 8, eerste lid, 3°, bedoelde verdeelplatform intrekken in de volgende gevallen:
 1° wanneer die erkenning werd verkregen ingevolge onjuiste verklaringen;
 2° wanneer het verdeelplatform niet langer de voorwaarden of engagementen vervult opgenomen in die erkenning;
 3° wanneer het verdeelplatform niet langer de in artikel 12 bedoelde verplichtingen vervult.
 
-#### HOOFDSTUK 3. - Slotbepalingen
+## HOOFDSTUK 3. - Slotbepalingen
 
-## Art. 14
+#### Art. 14
 
 Het koninklijk besluit nr. 59 van 28 mei 2019 met betrekking tot de onttrekkingen van handelsgeschenken van geringe waarde en voedingsmiddelen voor liefdadigheidsdoeleinden wat de belasting over de toegevoegde waarde betreft wordt opgeheven.
 
-## Art. 15
+#### Art. 15
 
 #### Hoofdstuk 2 is van toepassing op goederen die vanaf de datum van inwerkingtreding van dit besluit het voorwerp uitmaken van een onttrekking om ze te verstrekken voor liefdadigheidsdoeleinden.
 
-## Art. 16
+#### Art. 16
 
 Dit besluit treedt in werking op de eerste dag van de maand na afloop van een termijn van tien dagen te rekenen van de dag volgend op de bekendmaking ervan in het Belgisch Staatsblad.
 
-## Art. 17
+#### Art. 17
 
 De minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.

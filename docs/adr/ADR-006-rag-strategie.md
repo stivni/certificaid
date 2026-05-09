@@ -70,7 +70,7 @@ De chunker is **data-driven** (leest frontmatter), niet **convention-driven** (h
 
 Wetten verschillen sterk in structurele diepte (Wet-ITAA-2019 heeft HOOFDSTUK > AFDELING > ONDERAFDELING > Art.; WVV heeft DEEL > BOEK > TITEL > HOOFDSTUK > AFDELING > ONDERAFDELING > Art.). Geen universele hardcoded mapping past op alle.
 
-**Containment-detectie** per wet: voor elk paar structuurlabels (A, B), tellen hoe vaak B voorkomt tussen twee opeenvolgende A's. Topologische sortering levert de ranks. Voorbeelden:
+**Hiërarchie-detectie** per wet: scan welke structuurlabels aanwezig zijn en orden ze volgens de vaste Belgische wettekst-hiërarchie (DEEL > BOEK > TITEL > HOOFDSTUK > AFDELING > ONDERAFDELING). De volgorde is altijd dezelfde; alleen de aanwezigheid varieert per wet. Implementatie in `inject_wettekst_headings.py`. Voorbeelden:
 
 | Wet | Detected ranks |
 |---|---|

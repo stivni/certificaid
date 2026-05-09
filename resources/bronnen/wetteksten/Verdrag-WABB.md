@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden (WABB/CMAAT)
@@ -56,11 +60,11 @@ Geleid door de wens een verdrag te sluiten inzake wederzijdse administratieve bi
 
 Zijn het volgende overeengekomen :
 
-#### HOOFDSTUK I
+### HOOFDSTUK I
 
     Werkingssfeer van het Verdrag
 
-## Art. 1
+#### Art. 1
 
     Doel van het Verdrag en personen op wie het van toepassing is
 
@@ -76,7 +80,7 @@ c) betekening van documenten.
 
 3. Een Partij verleent administratieve bijstand ongeacht of de betrokkene een inwoner of onderdaan van een Partij of van een andere Staat is.
 
-## Art. 2
+#### Art. 2
 
     Belastingen waarop het Verdrag van toepassing is
 
@@ -120,11 +124,11 @@ iv. belastingen in de hierboven onder (iii) genoemde categorieën die worden geh
 
 4. Dit Verdrag is ook van toepassing op alle gelijke of in wezen gelijksoortige belastingen, vanaf de datum waarop zij zijn ingevoerd, die in een Partij na de inwerkingtreding van het Verdrag ten aanzien van die Partij worden geheven naast op in plaats van de in Bijlage A opgesomde bestaande belastingen. In dat geval stelt de betrokken Partij één van de Depositarissen ervan in kennis dat de belasting in kwestie is ingevoerd.
 
-#### HOOFDSTUK II
+### HOOFDSTUK II
 
     Algemene bepalingen
 
-## Art. 3
+#### Art. 3
 
     Begripsbepalingen
 
@@ -150,7 +154,7 @@ Voor iedere partij die met dat doel een verklaring heeft afgelegd, krijgen de hi
 
 3. De Partijen stellen één van de Depositarissen in kennis van iedere wijziging die dient te worden aangebracht in de Bijlagen B en C. Een zodanige wijziging wordt van kracht op de eerste dag van de maand die volgt op het verstrijken van een tijdvak van drie maanden na de datum van ontvangst van een zodanige kennisgeving door de desbetreffende Depositaris.
 
-#### HOOFDSTUK III
+### HOOFDSTUK III
 
     Vormen van bijstand
 
@@ -158,7 +162,7 @@ Voor iedere partij die met dat doel een verklaring heeft afgelegd, krijgen de hi
 
     Uitwisseling van inlichtingen
 
-## Art. 4
+#### Art. 4
 
     Algemene bepaling
 
@@ -174,7 +178,7 @@ Inlichtingen waarvan het niet waarschijnlijk is dat zij van belang zijn voor dez
 
 3. Door middel van een verklaring aan één van de Depositarissen kan iedere Partij erop wijzen dat, in overeenstemming met haar interne wetgeving, haar autoriteiten een inwoner of onderdaan van die Partij op de hoogte kunnen brengen vooraleer zij de inlichtingen betreffende deze persoon, in overeenstemming met de artikelen 5 en 7, verstrekken.
 
-## Art. 5
+#### Art. 5
 
     Uitwisseling van inlichtingen op verzoek
 
@@ -182,13 +186,13 @@ Inlichtingen waarvan het niet waarschijnlijk is dat zij van belang zijn voor dez
 
 2. Indien de inlichtingen die voorhanden zijn in de belastingdossiers van de aangezochte Staat niet voldoende zijn om deze in staat te stellen aan het verzoek om inlichtingen te voldoen, neemt die Staat alle passende maatregelen om de verzoekende Staat de gevraagde inlichtingen te verstrekken.
 
-## Art. 6
+#### Art. 6
 
     Automatische uitwisseling van inlichtingen
 
 Ten aanzien van categorieën van gevallen en in overeenstemming met procedures die zij in onderlinge overeenstemming vaststellen, wisselen twee of meer Partijen automatisch de in artikel 4 bedoelde inlichtingen uit.
 
-## Art. 7
+#### Art. 7
 
     Spontane uitwisseling van inlichtingen
 
@@ -206,7 +210,7 @@ e) inlichtingen, verstrekt aan een Partij door een andere Partij, hebben het mog
 
 2. Elke Partij neemt de maatregelen en legt de procedures ten uitvoer die noodzakelijk zijn om te verzekeren dat de in het eerste lid beschreven inlichtingen beschikbaar worden gesteld om aan een andere Partij te worden toegezonden.
 
-## Art. 8
+#### Art. 8
 
     Gelijktijdige belastingcontroles
 
@@ -214,7 +218,7 @@ e) inlichtingen, verstrekt aan een Partij door een andere Partij, hebben het mog
 
 2. Voor de toepassing van dit Verdrag wordt onder een gelijktijdige belastingcontrole verstaan een regeling tussen twee of meer Partijen om gelijktijdig, elke Partij op haar eigen grondgebied, de fiscale toestand van een persoon of personen te onderzoeken waarbij zij een gemeenschappelijk belang of verwante belangen hebben, ten einde alle van belang zijnde inlichtingen die zij aldus verkrijgen, uit te wisselen.
 
-## Art. 9
+#### Art. 9
 
     Belastingcontroles in het buitenland
 
@@ -224,7 +228,7 @@ e) inlichtingen, verstrekt aan een Partij door een andere Partij, hebben het mog
 
 3. Een Partij kan de Depositarissen haar voornemen meedelen om verzoeken zoals bedoeld in het eerste lid. in de regel niet te aanvaarden. Een zodanige verklaring kan te allen tijde worden afgelegd of ingetrokken.
 
-## Art. 10
+#### Art. 10
 
     Tegenstrijdige inlichtingen
 
@@ -234,7 +238,7 @@ Indien een Partij van een andere Partij inlichtingen over de fiscale toestand va
 
     Invorderingsbijstand
 
-## Art. 11
+#### Art. 11
 
     De invordering van belastingvorderingen
 
@@ -246,13 +250,13 @@ Indien de vordering echter een persoon betreft die geen inwoner van de verzoeken
 
 3. De verplichting om bijstand te verlenen bij het invorderen van de belastingvorderingen betreffende een overledene of zijn nalatenschap is beperkt tot de waarde van de nalatenschap of van de goederen verkregen door iedere begunstigde van de nalatenschap, naargelang de belastingvordering dient te worden ingevorderd uit de nalatenschap of bij de erfgenamen.
 
-## Art. 12
+#### Art. 12
 
     Conservatoire maatregelen
 
 Op verzoek van de verzoekende Staat neemt de aangezochte Staat, met het oog op de invordering van een belastingbedrag, conservatoire maatregelen zelfs indien de vordering wordt betwist of nog geen onderwerp uitmaakt van een uitvoerbare titel.
 
-## Art. 13
+#### Art. 13
 
     Documenten waarvan het verzoek vergezeld gaat
 
@@ -266,7 +270,7 @@ c) ieder ander document dat vereist is voor invordering of conservatoire maatreg
 
 2. De uitvoerbare titel in de verzoekende Staat wordt, indien passend en in overeenstemming met de in de aangezochte Staat van kracht zijnde bepalingen, zo spoedig mogelijk na de datum van ontvangst van het verzoek om bijstand aanvaard, erkend of aangevuld, dan wel vervangen door een uitvoerbare titel in de aangezochte Staat.
 
-## Art. 14
+#### Art. 14
 
     Termijnen
 
@@ -276,13 +280,13 @@ c) ieder ander document dat vereist is voor invordering of conservatoire maatreg
 
 3. De aangezochte Staat is in geen enkel geval verplicht te voldoen aan een verzoek om bijstand dat wordt ingediend na het verstrijken van een periode van 15 jaar vanaf de datum van de uitvoerbare titel.
 
-## Art. 15
+#### Art. 15
 
     Voorrechten
 
 De belastingvordering waarvoor een invorderingsbijstand wordt verleend, geniet in de aangezochte staat geen enkel voorrecht dat in deze Staat speciaal verbonden is aan belastingvorderingen, zelfs indien de toegepaste invorderingsprocedure deze is die van toepassing is met betrekking tot zijn eigen belastingvorderingen.
 
-## Art. 16
+#### Art. 16
 
     Uitstel van betaling
 
@@ -292,7 +296,7 @@ De aangezochte Staat kan uitstel van betaling of betaling in termijnen toestaan 
 
     Betekening van documenten
 
-## Art. 17
+#### Art. 17
 
     Betekening van documenten
 
@@ -312,11 +316,11 @@ b) voor zover mogelijk, volgens een bepaalde door de verzoekende Staat verzochte
 
 5. Wanneer een document wordt betekend in overeenstemming met dit artikel, behoeft het niet vergezeld te gaan van een vertaling. Indien echter met zekerheid is vastgesteld dat de geadresseerde de taal van het document niet begrijpt, treft de aangezochte Staat regelingen om het te doen vertalen of samenvatten in zijn officiële taal of één van zijn officiële talen. Een andere mogelijkheid is dat de aangezochte Staat de verzoekende Staat vraagt het document te doen vertalen in of vergezeld te doen gaan van een samenvatting in één van de officiële talen van de aangezochte Staat, de Raad van Europa of de OESO.
 
-#### HOOFDSTUK IV
+### HOOFDSTUK IV
 
     Bepalingen betreffende alle vormen van bijstand
 
-## Art. 18
+#### Art. 18
 
     Inlichtingen die dienen te worden verstrekt door de verzoekende Staat
 
@@ -336,13 +340,13 @@ f) of het verzoek in overeenstemming is met de wetgeving en de administratieve p
 
 2. Zodra de verzoekende Staat andere inlichtingen verkrijgt die verband houden met het verzoek om bijstand, zendt de verzoekende Staat deze aan de aangezochte Staat.
 
-## Art. 19
+#### Art. 19
 
     De mogelijkheid een verzoek af te wijzen
 
 De aangezochte Staat is niet verplicht een verzoek in te willigen indien de verzoekende Staat niet alle op zijn eigen grondgebied beschikbare middelen heeft aangewend, tenzij aanwending van die middelen zou leiden tot onevenredige moeilijkheden.
 
-## Art. 20
+#### Art. 20
 
     Antwoord op het verzoek om bijstand
 
@@ -352,7 +356,7 @@ De aangezochte Staat is niet verplicht een verzoek in te willigen indien de verz
 
 3. Indien de verzoekende Staat ten aanzien van een verzoek om inlichtingen heeft aangegeven in welke vorm hij de inlichtingen wenst te ontvangen, en indien de aangezochte Staat in staat is hieraan te voldoen, verstrekt de aangezochte Staat de inlichtingen in de gevraagde vorm.
 
-## Art. 21
+#### Art. 21
 
     Bescherming van personen en grenzen aan de verplichting tot het verlenen van bijstand
 
@@ -372,7 +376,7 @@ e) administratieve bijstand te verlenen indien en voor zover hij de belastinghef
 
 f) bijstand te verlenen indien de toepassing van dit Verdrag zou leiden tot discriminatie van een onderdaan van de aangezochte Staat ten opzichte van de onderdanen van de verzoekende Staat in dezelfde omstandigheden.
 
-## Art. 22
+#### Art. 22
 
     Geheimhouding
 
@@ -386,7 +390,7 @@ f) bijstand te verlenen indien de toepassing van dit Verdrag zou leiden tot disc
 
 kunnen door de laatstbedoelde worden doorgegeven aan een derde Partij, mits de voorafgaande toestemming van de bevoegde autoriteit van de eerstbedoelde Partij.
 
-## Art. 23
+#### Art. 23
 
     Rechtsgedingen
 
@@ -398,11 +402,11 @@ Ook betrokkenen kunnen de aangezochte Staat mededeling doen van zodanige rechtsg
 
 3. Zodra een definitieve beslissing in het rechtsgeding is gegeven, stelt de aangezochte Staat of de verzoekende Staat, al naar gelang, de andere Staat in kennis van de beslissing en van de gevolgen daarvan voor het verzoek om bijstand.
 
-#### HOOFDSTUK V
+### HOOFDSTUK V
 
     Bijzondere bepalingen
 
-## Art. 24
+#### Art. 24
 
     Tenuitvoerlegging van het Verdrag
 
@@ -420,13 +424,13 @@ functioneren van dit Verdrag, onder auspiciën van de OESO. Hiertoe beveelt het 
 
 6. De Secretaris-Generaal van de OESO doet de Partijen en de Ondertekenende Staten die het Verdrag nog niet hebben bekrachtigd, aanvaard of goedgekeurd, mededeling van de adviezen die door het coördinerend lichaam zijn gegeven overeenkomstig de bepalingen van het vierde lid hierboven en van de akkoorden die krachtens het vijfde lid hierboven, door onderlinge overeenstemming zijn bereikt.
 
-## Art. 25
+#### Art. 25
 
     Talen
 
 Verzoeken om bijstand en antwoorden daarop worden gesteld in één van de officiële talen van de OESO en van de Raad van Europa of in iedere andere taal waarover de betrokken Verdragsluitende Staten bilateraal overeenstemming hebben bereikt.
 
-## Art. 26
+#### Art. 26
 
     Kosten
 
@@ -436,11 +440,11 @@ a) worden gewone kosten, gemaakt in verband met het verlenen van bijstand, gedra
 
 b) worden buitengewone kosten, gemaakt in verband met het verlenen van bijstand, gedragen door de verzoekende Staat.
 
-#### HOOFDSTUK VI
+### HOOFDSTUK VI
 
     Slotbepalingen
 
-## Art. 27
+#### Art. 27
 
     Andere internationale overeenkomsten of regelingen
 
@@ -448,7 +452,7 @@ b) worden buitengewone kosten, gemaakt in verband met het verlenen van bijstand,
 
 2. Niettegenstaande de bepalingen van dit Verdrag passen Partijen die lid zijn van de Europese Economische Gemeenschap in hun onderlinge betrekkingen de gemeenschappelijke regels toe die van kracht zijn binnen die Gemeenschap.
 
-## Art. 28
+#### Art. 28
 
     Ondertekening en inwerkingtreding van het Verdrag
 
@@ -458,7 +462,7 @@ b) worden buitengewone kosten, gemaakt in verband met het verlenen van bijstand,
 
 3. Ten aanzien van iedere lidstaat van de Raad van Europa of iedere lidstaat van de OESO die later zijn instemming door dit Verdrag te worden gebonden tot uitdrukking brengt, treedt het Verdrag in werking op de eerste dag van de maand die volgt op het verstrijken van een tijdvak van drie maanden na de datum van neerlegging van de akte van bekrachtiging, aanvaarding of goed keuring.
 
-## Art. 29
+#### Art. 29
 
     Territoriale toepassing van het Verdrag
 
@@ -468,7 +472,7 @@ b) worden buitengewone kosten, gemaakt in verband met het verlenen van bijstand,
 
 3. Iedere krachtens het bepaalde in de twee voorgaande leden afgelegde verklaring kan, ten aanzien van ieder in die verklaring genoemd grondgebied, worden ingetrokken door middel van een aan één van de Depositarissen gerichte kennisgeving. De intrekking wordt van kracht op de eerste dag van de maand die volgt op het verstrijken van een tijdvak van drie maanden na de datum van ontvangst van de kennisgeving door de Depositaris.
 
-## Art. 30
+#### Art. 30
 
     Voorbehoud
 
@@ -492,7 +496,7 @@ e) de betekening van documenten per post, zoals voorzien in artikel 17, derde li
 
 5. Een Partij die een voorbehoud heeft gemaakt ten aanzien van een bepaling van dit Verdrag kan niet van een andere Partij verlangen dat zij die bepaling toepast; zij kan echter, indien het voorbehoud gedeeltelijk is, verlangen dat de bepaling wordt toegepast voor zover zijzelf deze heeft aanvaard.
 
-## Art. 31
+#### Art. 31
 
     Opzegging
 
@@ -502,7 +506,7 @@ e) de betekening van documenten per post, zoals voorzien in artikel 17, derde li
 
 3. Een Partij die het Verdrag opzegt, blijft gebonden door de bepalingen van artikel 22 zolang zij krachtens het Verdrag verkregen documenten of inlichtingen in haar bezit houdt.
 
-## Art. 32
+#### Art. 32
 
     De Depositaiissen en hun functies
 

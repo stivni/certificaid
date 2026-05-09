@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 51 van 14 april 1993, met betrekking tot de vereenvoudigingsregeling voor intracommunautaire verwerving van accijnsprodukten op het stuk van de belasting over de toegevoegde waarde

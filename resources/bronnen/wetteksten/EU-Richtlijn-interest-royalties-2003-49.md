@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten

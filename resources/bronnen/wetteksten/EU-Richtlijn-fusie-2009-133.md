@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 3
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)
@@ -122,15 +126,15 @@ Voor zover dit met deze richtlijn niet ten volle is gerea­ liseerd, moeten de l
 Deze richtlijn dient de verplichtingen van de lidstaten met betrekking tot de in bijlage II, deel B, genoemde termijnen voor omzetting in nationaal recht en toepas­ sing van de aldaar genoemde richtlijnen onverlet te laten,
 
 HEEFT DE VOLGENDE RICHTLIJN VASTGESTELD:
-#### HOOFDSTUK I
+## HOOFDSTUK I
 ALGEMENE BEPALINGEN
 
-## Art. 1
+### Art. 1
 Elke lidstaat past de in deze richtlijn opgenomen bepalingen toe op:
 a) fusies, splitsingen, gedeeltelijke splitsingen, inbreng van ac­ tiva en aandelenruil waarbij vennootschappen van twee of meer lidstaten betrokken zijn;
 b) verplaatsingen van een lidstaat naar een andere lidstaat van de statutaire zetel van een Europese vennootschap (Societas Europaea of SE), opgericht volgens Verordening (EG) nr.
 2157/2001 van de Raad van 8 oktober 2001 betreffende het statuut van de Europese vennootschap (SE) (1), en van een Europese coöperatieve vennootschap (SCE), opgericht volgens Verordening (EG) nr. 1435/2003 van de Raad van 22 juli 2003 betreffende het statuut voor een Europese co­ öperatieve vennootschap (SCE) (2).
-## Art. 2
+### Art. 2
 Voor de toepassing van deze richtlijn wordt verstaan onder:
 a) „fusie”: de rechtshandeling waarbij:
 i) de activa en passiva van het vermogen van één of meer vennootschappen als gevolg en op het tijdstip van ont­ binding zonder liquidatie in hun geheel op een andere, reeds bestaande vennootschap overgaan tegen uitgifte van bewijzen van deelgerechtigdheid in het maatschap­ pelijk kapitaal van de andere vennootschap aan haar deelgerechtigden, eventueel met een bijbetaling in geld welke niet meer mag bedragen dan 10 % van de nomi­ nale waarde of, bij gebreke van een nominale waarde, van de fractiewaarde van deze bewijzen;
@@ -159,16 +163,16 @@ h) „verworven vennootschap”: de vennootschap waarin een an­ dere vennootsch
 i) „verwervende vennootschap”: de vennootschap die een deel­ neming verwerft door middel van een effectenruil;
 j) „tak van bedrijvigheid”: het totaal van de activa en passiva van een afdeling van een vennootschap die uit organisatorisch oogpunt een onafhankelijke exploitatie vormen, dat wil zeg­ gen een geheel dat op eigen kracht kan functioneren;
 k) „verplaatsing van de statutaire zetel”: de rechtshandeling waarbij een SE of een SCE, zonder haar onderneming te staken of een nieuwe rechtspersoon op te richten, haar sta­ tutaire zetel van een lidstaat naar een andere lidstaat ver­ plaatst.
-## Art. 3
+### Art. 3
 Voor de toepassing van deze richtlijn wordt onder „vennoot­ schap van een lidstaat” verstaan iedere vennootschap:
 a) die een van de in bijlage I, deel A, genoemde rechtsvormen heeft;
 b) die volgens de fiscale wetgeving van een lidstaat wordt ge­ acht fiscaal in die lidstaat te zijn gevestigd en die volgens een met een derde land gesloten verdrag inzake dubbele belas­ tingheffing niet wordt geacht fiscaal buiten de Gemeenschap te zijn gevestigd, en
 c) die, zonder mogelijkheid van keuze en zonder ervan te zijn vrijgesteld, is onderworpen aan een van de in bijlage I, deel B, genoemde belastingen of aan enige andere belasting die in de plaats zou komen van een van die belastingen.
-#### HOOFDSTUK II
+## HOOFDSTUK II
 REGELS VOOR FUSIES, SPLITSINGEN, GEDEELTELIJKE SPLIT­
 SINGEN, INBRENG VAN ACTIVA EN AANDELENRUIL
 
-## Art. 4
+### Art. 4
 1.
 Fusies, splitsingen en gedeeltelijke splitsingen leiden niet tot enigerlei belastingheffing over de vermogenswinst die be­ paald wordt door het verschil tussen de werkelijke waarde van de ingebrachte activa en passiva en hun fiscale waarde.
 2.
@@ -194,11 +198,11 @@ Wanneer lid 1 van toepassing is en een lidstaat een elders gevestigde inbrengend
 De leden 1 en 3 zijn slechts van toepassing indien de ontvangende vennootschap verdere afschrijvingen, alsook meer­ waarden en waardeverminderingen betreffende deze ingebrachte activa en passiva, berekent met toepassing van dezelfde regels als de inbrengende vennootschap had kunnen toepassen indien de fusie, splitsing of gedeeltelijke splitsing niet zou hebben plaatsgevonden.
 5.
 Indien de wetgeving van de lidstaat van de inbrengende vennootschap de ontvangende vennootschap toestaat verdere afschrijvingen, alsook meerwaarden en waardeverminderingen betreffende de ingebrachte activa en passiva, te berekenen onder voorwaarden welke afwijken van die van lid 4, is lid 1 niet van toepassing op die activa en passiva waarvoor de ontvangende vennootschap van deze mogelijkheid gebruik heeft gemaakt.
-## Art. 5
+### Art. 5
 De lidstaten treffen de nodige maatregelen opdat de reserves die door de inbrengende vennootschap in overeenstemming met de voorschriften met gehele of gedeeltelijke vrijstelling van belas­ ting zijn gevormd, behoudens de reserves uit vaste inrichtingen in het buitenland, onder dezelfde voorwaarden worden over­ genomen door de vaste inrichtingen van de ontvangende ven­ nootschap welke zijn gelegen in de lidstaat van de inbrengende vennootschap, waarbij de ontvangende vennootschap de rechten en verplichtingen van de inbrengende vennootschap overneemt.
-## Art. 6
+### Art. 6
 Voor zover de lidstaat van de inbrengende vennootschap, indien de in artikel 1, onder a), bedoelde rechtshandelingen verricht werden tussen op zijn grondgebied gevestigde vennootschap­ pen, bepalingen zou toepassen die de ontvangende vennoot­ schap in staat stellen de fiscaal nog niet verrekende verliezen van de inbrengende vennootschap over te nemen, breidt die lidstaat deze bepalingen uit tot de overname van zulke verliezen door de vaste inrichtingen van de ontvangende vennootschap, die zich op zijn grondgebied bevinden.
-## Art. 7
+### Art. 7
 1.
 Indien de ontvangende vennootschap een deelneming be­ zit in het kapitaal van de inbrengende vennootschap, leiden de
 
@@ -208,7 +212,7 @@ bij de ontvangende vennootschap bij beëindiging van haar deel­ neming in het k
 2.
 De lidstaten mogen van lid 1 afwijken wanneer de deel­ neming van de ontvangende vennootschap in het kapitaal van de inbrengende vennootschap minder dan 15 % bedraagt.
 Vanaf 1 januari 2009 bedraagt de minimumdeelneming 10 %.
-## Art. 8
+### Art. 8
 1.
 Indien bij een fusie, een splitsing of een aandelenruil be­ wijzen van deelgerechtigdheid in het maatschappelijk kapitaal van de ontvangende of de verwervende vennootschap worden toegekend aan een deelgerechtigde van de inbrengende of ver­ worven vennootschap, in ruil voor bewijzen van deelgerechtigd­ heid in het maatschappelijk kapitaal van deze laatste vennoot­ schap, mag dit op zich niet leiden tot enigerlei belastingheffing over het inkomen, de winst of de vermogenswinst van deze deelgerechtigde.
 2.
@@ -237,13 +241,13 @@ het resultaat is van de fusie, splitsing, gedeeltelijke splitsing of inbreng van
 Indien een deelgerechtigde overeenkomstig de wetgeving van de lidstaat waar hij zijn fiscale woonplaats heeft, een andere fiscale behandeling mag kiezen dan die welke in de leden 4 en 5 is omschreven, gelden de leden 1, 2 en 3 niet voor de bewijzen van deelgerechtigdheid waarvoor deze deelgerechtigde dit keuze­ recht heeft uitgeoefend.
 9.
 De leden 1, 2 en 3 vormen geen beletsel voor het in aanmerking nemen, ter fine van het belasten van de deelgerech­ tigde, van een bijbetaling in geld die hem eventueel zou worden toegekend bij de fusie, de splitsing, de gedeeltelijke splitsing of de aandelenruil.
-## Art. 9
+### Art. 9
 De artikelen 4, 5 en 6 zijn van toepassing op de inbreng van activa.
-#### HOOFDSTUK III
+## HOOFDSTUK III
 BIJZONDER GEVAL VAN DE INBRENG VAN EEN VASTE IN­
 RICHTING
 
-## Art. 10
+### Art. 10
 1.
 Indien tot de bij een fusie, een splitsing, een gedeeltelijke splitsing of een inbreng van activa ingebrachte goederen een vaste inrichting van de inbrengende vennootschap behoort welke is gelegen in een andere lidstaat dan die waaronder de inbrengende vennootschap ressorteert, ziet de lidstaat van de inbrengende vennootschap af van ieder recht tot belastinghef­ fing ten aanzien van die vaste inrichting.
 De lidstaat waaronder de inbrengende vennootschap ressorteert, mag bij het vaststellen van de belastbare winsten van deze vennootschap de vroegere verliezen van de vaste inrichting welke eventueel van de belastbare winst van die vennootschap in die lidstaat zijn afgetrokken en welke niet zijn gecompen­ seerd, bij de belastbare winsten optellen.
@@ -253,10 +257,10 @@ Dit lid is ook van toepassing indien de vaste inrichting is gele­ gen in dezelf
 In afwijking van lid 1 heeft de lidstaat van de inbrengende vennootschap die fiscaal een stelsel van wereldwinst toepast, het recht de winst of de vermogenswinst van de vaste inrichting die
 
 
-#### HOOFDSTUK IV
+## HOOFDSTUK IV
 BIJZONDER GEVAL VAN TRANSPARANTE ENTITEITEN
 
-## Art. 11
+### Art. 11
 1.
 Wanneer een lidstaat een niet-ingezeten inbrengende of verworven vennootschap als fiscaal transparant beschouwt op grond van een beoordeling, door de lidstaat, van de juridische eigenschappen waarover de vennootschap beschikt ingevolge het recht waarnaar zij is opgericht, dan heeft die lidstaat het recht bij het heffen van een belasting op het inkomen, de winst of de vermogenswinst van die vennootschap ten aanzien van directe of indirecte deelgerechtigden van die vennootschap de bepalingen van deze richtlijn niet toe te passen.
 
@@ -269,11 +273,11 @@ Wanneer een lidstaat een niet-ingezeten ontvangende of verwervende vennootschap 
 4.
 Wanneer een lidstaat een niet-ingezeten ontvangende ven­ nootschap als fiscaal transparant beschouwt op grond van een beoordeling, door de lidstaat, van de juridische eigenschappen waarover de vennootschap beschikt ingevolge het recht waar­ naar zij is opgericht, kan die lidstaat op elk van de directe of indirecte deelgerechtigden, dezelfde behandeling voor fiscale doeleinden toepassen als hij zou toepassen indien de ontvan­ gende vennootschap haar fiscale woonplaats had in die lidstaat.
 
-#### HOOFDSTUK V
+## HOOFDSTUK V
 REGELS VOOR DE VERPLAATSING VAN DE STATUTAIRE
 ZETEL VAN EEN SE OF EEN SCE
 
-## Art. 12
+### Art. 12
 1.
 
 Wanneer:
@@ -300,7 +304,7 @@ L 310/39
 2.
 Voor zover een vennootschap die haar zetel binnen het grondgebied van een lidstaat verplaatst, de fiscaal niet ver­ rekende verliezen op vorige of volgende jaren mag afboeken, staat die lidstaat de op zijn grondgebied gelegen vaste inrichting van de SE of de SCE die haar zetel verplaatst, toe die fiscaal nog niet verrekende verliezen van de SE of de SCE over te nemen, op voorwaarde dat het afboeken van verliezen op vorige of volgende jaren in vergelijkbare omstandigheden mogelijk zou zijn geweest voor een vennootschap die in die lidstaat haar zetel of fiscale woonplaats behoudt.
 
-## Art. 14
+### Art. 14
 1.
 De verplaatsing van de statutaire zetel van een SE of een
 SCE leidt op zich niet tot enigerlei belastingheffing over het inkomen, de winst of de vermogenwinst van de deelgerechtig­ den.
@@ -308,14 +312,14 @@ SCE leidt op zich niet tot enigerlei belastingheffing over het inkomen, de winst
 2.
 De toepassing van lid 1 belet de lidstaten niet belasting te heffen over de winst die voortvloeit uit de latere vervreemding van de bewijzen van deelgerechtigdheid in het kapitaal van de SE of de SCE die haar statutaire zetel verplaatst.
 
-#### HOOFDSTUK VI
+## HOOFDSTUK VI
 SLOTBEPALINGEN
 
-## Art. 15
+### Art. 15
 1.
 De lidstaten kunnen weigeren de bepalingen van de arti­ kelen 4 tot en met 14 geheel of gedeeltelijk toe te passen of het voordeel ervan geheel of gedeeltelijk teniet te doen, indien blijkt dat een van de in artikel 1 bedoelde rechtshandelingen:
 
-## Art. 13
+### Art. 13
 1.
 
 Wanneer:
@@ -340,19 +344,19 @@ NL
 Publicatieblad van de Europese Unie
 
 
-## Art. 16
+### Art. 16
 
-## Art. 18
+### Art. 18
 
 De lidstaten delen de Commissie de tekst mee van de belang­ rijkste bepalingen van intern recht die zij op het onder deze richtlijn vallende gebied vaststellen.
 
 Deze richtlijn treedt in werking op de twintigste dag volgende op die van haar bekendmaking in het Publicatieblad van de Euro­ pese Unie.
 
-## Art. 17
+### Art. 17
 Richtlijn 90/434/EEG, zoals gewijzigd bij de in bijlage II, deel A, genoemde besluiten, wordt ingetrokken, onverminderd de ver­ plichtingen van de lidstaten met betrekking tot de in bijlage II, deel B, genoemde termijnen voor omzetting in nationaal recht en toepassing van de aldaar genoemde richtlijnen.
 Verwijzingen naar de ingetrokken richtlijn gelden als verwijzin­ gen naar de onderhavige richtlijn en worden gelezen volgens de concordantietabel in bijlage III.
 
-## Art. 19
+### Art. 19
 Deze richtlijn is gericht tot de lidstaten.
 
 Gedaan te Luxemburg, 19 oktober 2009.

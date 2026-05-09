@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 23 van 9 december 2009, met betrekking tot de jaarlijkse lijst van de BTW-belastingplichtige afnemers

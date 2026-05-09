@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 3
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 52 van 11 december 2019, met betrekking tot de bewijsregeling inzake de vrijstellingen betreffende de intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelingen en met betrekking tot de vrijstelling van intracommunautaire verwervingen van goederen en de ermee gelijkgestelde handelingen, op het stuk van de belasting over de toegevoegde waarde
@@ -48,12 +52,12 @@ Ingevoerd met ingang van 01.01.2020 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148)
     alsook betreffende de intracommunautaire verwervingen van goederen, op het stuk
     van de belasting over de toegevoegde waarde.
 
-#### HOOFDSTUK 1
+## HOOFDSTUK 1
 
   Bewijsregeling inzake de vrijstellingen betreffende de intracommunautaire
     leveringen van goederen en de ermee gelijkgestelde handelingen
 
-## Art. 1
+### Art. 1
 (De tekst van KB nr. 52 (2019), artikel 1, is van toepassing met ingang van 01.01.2020
 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148))
 
@@ -62,7 +66,7 @@ het bewijs, door de leverancier ten aanzien van de administratie belast met de b
 toegevoegde waarde, dat alle voorwaarden voor de toepassing van die vrijstellingen daadwerkelijk vervuld
 zijn.
 
-## Art. 2
+### Art. 2
 (De tekst van KB nr. 52 (2019), artikel 2, is van toepassing met ingang van 01.01.2020
 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148))
 
@@ -71,7 +75,7 @@ de vrijstellingen bedoeld in artikel 39bis, eerste lid, 1° tot 3°, van het Wet
 het bezit van alle documenten waaruit de echtheid van de levering van goederen blijkt. Die documenten
 omvatten onder meer de contracten, de bestelbons, de facturen en de betalingsdocumenten.
 
-## Art. 3
+### Art. 3
 (De tekst van KB nr. 52 (2019), artikel 3, is van toepassing met ingang van 01.01.2020
 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148))
 
@@ -99,7 +103,7 @@ werden vervoerd.
 Het eerste lid is niet van toepassing wanneer de leverancier wist of moest weten dat de goederen niet
 vanuit België naar een andere lidstaat werden verzonden of vervoerd.
 
-## Art. 4
+### Art. 4
 (De tekst van KB nr. 52 (2019), artikel 4, is van toepassing met ingang van 01.01.2020
 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148))
 
@@ -149,12 +153,12 @@ functie en de naam van de onderneming die de inrichting uitbaat.
 papieren of elektronisch formaat van het document, de authenticiteit van de ondertekening en de
 integriteit van de inhoud.
 
-#### HOOFDSTUK 2
+## HOOFDSTUK 2
 
     Vrijstelling van intracommunautaire verwervingen van goederen en
     de ermee gelijkgestelde handelingen
 
-## Art. 5
+### Art. 5
 (De tekst van KB nr. 52 (2019), artikel 5, is van toepassing met ingang van 01.01.2020
 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148))
 
@@ -163,11 +167,11 @@ De bepalingen opgenomen in afdeling 2 van hoofdstuk IV van het koninklijk beslui
 waarde, zijn eveneens van toepassing op de intracommunautaire verwervingen van goederen die
 vrijgesteld zijn op grond van artikel 40, § 1, 1°, b, van het Wetboek.
 
-#### HOOFDSTUK 3
+## HOOFDSTUK 3
 
     Slotbepalingen
 
-## Art. 6
+### Art. 6
 (De tekst van KB nr. 52 (2019), artikel 6, is van toepassing met ingang van 01.01.2020
 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148))
 
@@ -177,13 +181,13 @@ intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelinge
 de intracommunautaire verwervingen van goederen, op het stuk van de belasting over de toegevoegde
 waarde wordt opgeheven.
 
-## Art. 7
+### Art. 7
 (De tekst van KB nr. 52 (2019), artikel 7, is van toepassing met ingang van 01.01.2020
 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148))
 
 Dit besluit treedt in werking op 1 januari 2020.
 
-## Art. 8
+### Art. 8
 (De tekst van KB nr. 52 (2019), artikel 8, is van toepassing met ingang van 01.01.2020
 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148))
 
@@ -216,14 +220,14 @@ toegevoegde waarde.
     goederen en de ermee gelijkgestelde handelingen, op het stuk van de belasting over de
     toegevoegde waarde
 
-## Art. 1
+### Art. 1
     (De tekst van KB nr. 52, artikel 1 is van toepassing met ingang van 01.01.1993. (KB
     29.12.1992))
 
     De in artikel 39bis van het Wetboek bedoelde vrijstellingen zijn afhankelijk van het bewijs dat de
 goederen verzonden of vervoerd zijn buiten België maar binnen de Gemeenschap.
 
-## Art. 2
+### Art. 2
     (De tekst van KB nr. 52, artikel 2 is van toepassing met ingang van 01.01.1993. (KB
     29.12.1992))
 
@@ -231,7 +235,7 @@ goederen verzonden of vervoerd zijn buiten België maar binnen de Gemeenschap.
 het bewijs dat de levering geschiedt voor een belastingplichtige of voor een niet-belastingplichtige
 rechtspersoon, die voor de belasting over de toegevoegde waarde geïdentificeerd is in een andere Lid-Staat.
 
-## Art. 3
+### Art. 3
     (De tekst van KB nr. 52, artikel 3 is van toepassing met ingang van 01.01.1993. (KB
     29.12.1992))
 
@@ -242,7 +246,7 @@ contracten, de bestelbons, de vervoerdocumenten en de betalingsstukken.
     Door of vanwege de Minister van Financiën kan eveneens het uitreiken van andere stukken worden
 voorgeschreven, inzonderheid indien de goederen door de koper of voor zijn rekening worden meegenomen.
 
-## Art. 4
+### Art. 4
     (De tekst van KB nr. 52, artikel 4 is van toepassing met ingang van 01.01.1993. (KB
     29.12.1992))
 
@@ -251,13 +255,13 @@ betrekking tot de invoer van goederen voor de toepassing van de belasting over d
 zijn eveneens van toepassing op de intracommunautaire verwervingen van goederen die vrijgesteld zijn op
 grond van artikel 40, § 1, 1°, b, van het Wetboek.
 
-## Art. 5
+### Art. 5
     (De tekst van KB nr. 52, artikel 5 is van toepassing met ingang van 01.01.1993. (KB
     29.12.1992))
 
     Dit besluit treedt in werking op 1 januari 1993.
 
-## Art. 6
+### Art. 6
     (De tekst van KB nr. 52, artikel 6 is van toepassing met ingang van 01.01.1993. (KB
     29.12.1992))
 

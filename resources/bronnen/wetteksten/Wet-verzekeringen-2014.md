@@ -5,6 +5,10 @@ wet: "Wet 4 april 2014 betreffende de verzekeringen"
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "www.ejustice.just.fgov.be (Justel, gecoördineerde versie)"
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Wet 4 april 2014 betreffende de verzekeringen
@@ -15,578 +19,578 @@ article.pl?language=nl&arrexec=1&lg_txt=N&type=&sort=&numac_search=2014011239&cn
 
 Inhoudstafel
 
-### DEEL 1. - ALGEMENE BEPALINGEN
-Art. 1-2
+## DEEL 1. - ALGEMENE BEPALINGEN
+###### Art. 1-2
 Doel
-Art. 3
+###### Art. 3
 Toepassingsgebied
-Art. 4
+###### Art. 4
 Definities
-Art. 5-6
-### DEEL 2. - SPECIFIEKE BEPALINGEN MET BETREKKING TOT DE BEDRIJFSVOERING
-#### TITEL I. - Algemene bepalingen
-Art. 7-16, 16/1, 16/2
-#### TITEL II. - Overdrachten van verzekeringsovereenkomsten
-Art. 17-18
-#### TITEL III. - Bijzondere regels met betrekking tot verzekeringen uit de groep activiteiten "leven" verbonden met beleggingsfondsen
-Art. 19-20, 20/2
-### DEEL 3. - HET AANBIEDEN EN SLUITEN VAN OVEREENKOMSTEN : INFORMATIE, PUBLICITEIT, TARIFERING, SEGMENTATIE EN WINSTDELING
-#### TITEL I. - Algemene bepalingen
-Art. 21-27
-#### TITEL II. - Transparantievoorschriften
+###### Art. 5-6
+## DEEL 2. - SPECIFIEKE BEPALINGEN MET BETREKKING TOT DE BEDRIJFSVOERING
+### TITEL I. - Algemene bepalingen
+###### Art. 7-16, 16/1, 16/2
+### TITEL II. - Overdrachten van verzekeringsovereenkomsten
+###### Art. 17-18
+### TITEL III. - Bijzondere regels met betrekking tot verzekeringen uit de groep activiteiten "leven" verbonden met beleggingsfondsen
+###### Art. 19-20, 20/2
+## DEEL 3. - HET AANBIEDEN EN SLUITEN VAN OVEREENKOMSTEN : INFORMATIE, PUBLICITEIT, TARIFERING, SEGMENTATIE EN WINSTDELING
+### TITEL I. - Algemene bepalingen
+###### Art. 21-27
+### TITEL II. - Transparantievoorschriften
 #### HOOFDSTUK 1. - Algemene bepalingen inzake reclame en andere documenten en berichten
-Art. 28
+###### Art. 28
 #### HOOFDSTUK 2. - Informatie
-Art. 29-38
-#### TITEL III. - Tarifering, voorwaarden en segmentatie
+###### Art. 29-38
+### TITEL III. - Tarifering, voorwaarden en segmentatie
 #### HOOFDSTUK 1. - Algemene bepalingen
-Art. 39-41
+###### Art. 39-41
 #### HOOFDSTUK 2. - Segmentatie
-Art. 42-46
+###### Art. 42-46
 #### HOOFDSTUK 3. [ 1 - Persoonsgegevens inzake de levensstijl of de gezondheid van de verzekerde die door met het internet verbonden apparaten worden verzameld] 1
-Art. 46/1, 46/2, 46/3
-#### TITEL IV. - Winstdeling
-Art. 47-53
-### DEEL 4. - DE LANDVERZEKERINGSOVEREENKOMST
-#### TITEL I. - Toepassingsgebied en definities
+###### Art. 46/1, 46/2, 46/3
+### TITEL IV. - Winstdeling
+###### Art. 47-53
+## DEEL 4. - DE LANDVERZEKERINGSOVEREENKOMST
+### TITEL I. - Toepassingsgebied en definities
 Toepassingsgebied
-Art. 54
+###### Art. 54
 Definities
-Art. 55
+###### Art. 55
 Dwingende regels
-Art. 56
-#### TITEL II. - De verzekeringsovereenkomst in het algemeen
+###### Art. 56
+### TITEL II. - De verzekeringsovereenkomst in het algemeen
 #### HOOFDSTUK 1. - Bepalingen betreffende alle verzekeringsovereenkomsten
-##### Afdeling I. - Het sluiten van de overeenkomst
 Verzekeringsvoorstel, voorafgetekende polis en verzekeringsaanvraag
-Art. 57
+##### Afdeling I. - Het sluiten van de overeenkomst
+###### Art. 57
 Mededelingsplicht
-Art. 58
+###### Art. 58
 Opzettelijk verzwijgen of opzettelijk onjuist meedelen van gegevens
-Art. 59
+###### Art. 59
 Onopzettelijk verzwijgen of onopzettelijk onjuist meedelen van gegevens
-Art. 60
+###### Art. 60
 Medische informatie
-Art. 61
+###### Art. 61
 ##### Afdeling Ibis. [ 1 - Recht om vergeten te worden.] 1
-###### Onderafdeling 1. [ 1 - "Toepassingsgebied"] 1
-Art. 61/1
+##### Onderafdeling 1. [ 1 - "Toepassingsgebied"] 1
+###### Art. 61/1
 Onderafdeling 1/1. [ 1 Informatiedocument ] 1
-Art. 61/1/1
-###### Onderafdeling 2. [ 1 - Schuldsaldoverzekering] 1
-Art. 61/2, 61/3, 61/4, 61/5, 61/6, 61/7
-###### Onderafdeling 3. [ 1 - arbeidsongeschiktheidsverzekering] 1
-Art. 61/8, 61/9, 61/10, 61/11, 61/12, 61/13
-###### Onderafdeling 4. [ 1 Reisannulatieverzekering ] 1
-Art. 61/14
-## Art. 61/15
+###### Art. 61/1/1
+##### Onderafdeling 2. [ 1 - Schuldsaldoverzekering] 1
+###### Art. 61/2, 61/3, 61/4, 61/5, 61/6, 61/7
+##### Onderafdeling 3. [ 1 - arbeidsongeschiktheidsverzekering] 1
+###### Art. 61/8, 61/9, 61/10, 61/11, 61/12, 61/13
+##### Onderafdeling 4. [ 1 Reisannulatieverzekering ] 1
+###### Art. 61/14
+###### Art. 61/15
 
 [ 1 Onverminderd de bevoegdheid van de hoven en rechtbanken, worden de geschillen met betrekking tot de toepassing van de bepalingen van deze onderafdeling door de meest gerede partij eerst voorgelegd aan het Opvolgingsbureau voor de tarifering bedoeld in artikel 217. Het Opvolgingsbureau voor de tarifering geeft zijn advies binnen vijftien werkdagen vanaf de ontvangst van het volledige dossier. Op eenvoudig verzoek van het Bureau, zendt de verzekeringsonderneming haar dossier door.
-##### Afdeling II. - Omvang van de dekking
 Bedrog en schuld
-Art. 62
+##### Afdeling II. - Omvang van de dekking
+###### Art. 62
 Oorlog
-Art. 63
-##### Afdeling III. - Bewijs en inhoud van de overeenkomst
+###### Art. 63
 Bewijs en inhoud van de overeenkomst
-Art. 64
-##### Afdeling IV. - Uitvoering van de overeenkomst
+##### Afdeling III. - Bewijs en inhoud van de overeenkomst
+###### Art. 64
 Geheel of gedeeltelijk verval van het recht op verzekeringsprestatie
-Art. 65
+##### Afdeling IV. - Uitvoering van de overeenkomst
+###### Art. 65
 Combinatiepolissen
-Art. 66
+###### Art. 66
 Wijze van betaling van de premie en van de verzekeringsprestatie
-Art. 67
+###### Art. 67
 Betaling aan minderjarigen, onbekwaamverklaarden en andere onbekwamen
-Art. 68
+###### Art. 68
 Niet-betaling van de premie
-Art. 69
+###### Art. 69
 Aanmaning tot betaling
-Art. 70
+###### Art. 70
 Uitwerking van de schorsing van de dekking of van de opzegging van de overeenkomst
-Art. 71
+###### Art. 71
 Gevolgen van de schorsing ten aanzien van de nog te vervallen premies
-Art. 72
+###### Art. 72
 Premiekrediet
-Art. 73
+###### Art. 73
 Betaling van een verzekeringsprestatie en sancties BR>
-Art. 73/1
+###### Art. 73/1
 Melding van het schadegeval
-Art. 74
+###### Art. 74
 Verplichtingen van de verzekerde bij schadegeval
-Art. 75
+###### Art. 75
 Sancties
-Art. 76
-##### Afdeling V. - Beding ten behoeve van derden
+###### Art. 76
 Beding ten behoeve van derden
-Art. 77
+##### Afdeling V. - Beding ten behoeve van derden
+###### Art. 77
 Mededeling van de voorwaarden van de dekking
-Art. 78
-##### Afdeling VI. - Niet bestaan en wijziging van het risico
+###### Art. 78
 Niet-bestaan van het risico
-Art. 79
+##### Afdeling VI. - Niet bestaan en wijziging van het risico
+###### Art. 79
 Vermindering van het risico
-Art. 80
+###### Art. 80
 Verzwaring van het risico
-Art. 81
-##### Afdeling VII. - Medeverzekering en taak van de eerste verzekeraar
+###### Art. 81
 Medeverzekering
-Art. 82
+##### Afdeling VII. - Medeverzekering en taak van de eerste verzekeraar
+###### Art. 82
 Taak van de eerste verzekeraar
-Art. 83
-##### Afdeling VIII. - Opzeggingswijzen
+###### Art. 83
 Opzeggingswijzen
-Art. 84
-##### Afdeling IX. - Duur en einde van de overeenkomst
+##### Afdeling VIII. - Opzeggingswijzen
+###### Art. 84
 Duur van de verplichtingen
-Art. 85
+##### Afdeling IX. - Duur en einde van de overeenkomst
+###### Art. 85
 Opzegging ingeval van bepaalde stilzwijgend verlengbare overeenkomsten BR>
-Art. 85/1, 85/2
+###### Art. 85/1, 85/2
 Opzegging na schadegeval
-Art. 86
+###### Art. 86
 Faillissement van de verzekeringnemer
-Art. 87
-##### Afdeling X. - Verjaring
+###### Art. 87
 Verjaringstermijn
-Art. 88
+##### Afdeling X. - Verjaring
+###### Art. 88
 Schorsing en stuiting van de verjaring
-Art. 89
-##### Afdeling XI. - Scheidsrechterlijke uitspraken
+###### Art. 89
 Scheidsrechterlijke uitspraken
-Art. 90
+##### Afdeling XI. - Scheidsrechterlijke uitspraken
+###### Art. 90
 #### HOOFDSTUK 2. - Bepalingen eigen aan de verzekeringen tot vergoeding van schade
 Belang bij het verzekerde
-Art. 91
+###### Art. 91
 Verzekering ten behoeve van een derde
-Art. 92
+###### Art. 92
 Omvang van de verzekeringsprestatie
-Art. 93
+###### Art. 93
 Samenloop van verzekeringen van verschillende aard
-Art. 94
+###### Art. 94
 Indeplaatsstelling van de verzekeraar
-Art. 95
+###### Art. 95
 Oververzekering te goeder trouw
-Art. 96
+###### Art. 96
 Oververzekering te kwader trouw
-Art. 97
+###### Art. 97
 Onderverzekering : evenredigheidsbeginsel
-Art. 98
+###### Art. 98
 Verdeling van de last van het schadegeval in geval van samenloop van verzekeringen
-Art. 99
+###### Art. 99
 Overlijden van de verzekeringnemer, begunstigde van de dekking
-Art. 100
+###### Art. 100
 Overeenkomsten gesloten intuitu personae
-Art. 101
+###### Art. 101
 #### HOOFDSTUK 3. - Bepalingen eigen aan de verzekering tot uitkering van een vast bedrag
 Belang bij het verzekerde
-Art. 102
+###### Art. 102
 Geen indeplaatsstelling
-Art. 103
+###### Art. 103
 Samenloop van schadevergoedingen en prestaties
-Art. 104
-#### TITEL III. - Schadeverzekeringen
+###### Art. 104
+### TITEL III. - Schadeverzekeringen
 #### HOOFDSTUK 1. - Algemene bepalingen
 Het beginsel van de schadevergoeding
-Art. 105
+###### Art. 105
 Reddingskosten
-Art. 106
+###### Art. 106
 #### HOOFDSTUK 2. - Zaakverzekeringsovereenkomsten
 ##### Afdeling I. - Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen
-###### Onderafdeling 1. - Verzekerbare waarde
+##### Onderafdeling 1. - Verzekerbare waarde
 Wijze van waardebepaling
-Art. 107
+###### Art. 107
 Vaststelling van de verzekerde som
-Art. 108
+###### Art. 108
 Voorafgaande taxatie
-Art. 109
-###### Onderafdeling 2. - Verplichtingen van de verzekerde
+###### Art. 109
+##### Onderafdeling 2. - Verplichtingen van de verzekerde
 Gesteldheid van de plaats
-Art. 110
-###### Onderafdeling 3. - Overdracht onder de levenden
+###### Art. 110
+##### Onderafdeling 3. - Overdracht onder de levenden
 Overdracht onder de levenden van een verzekerde zaak
-Art. 111
-###### Onderafdeling 4. - Betaling van de schadevergoeding en voorrecht van de verzekeraar.
+###### Art. 111
+##### Onderafdeling 4. - Betaling van de schadevergoeding en voorrecht van de verzekeraar.
 Betaling van een verzoek tot schadevergoeding en sancties BR>
-Art. 111/1
+###### Art. 111/1
 Bevoorrechte en hypothecaire schuldeisers
-Art. 112
+###### Art. 112
 Faillissement van de verzekerde
-Art. 113
+###### Art. 113
 Voorrecht van de verzekeraar
-Art. 114
+###### Art. 114
 ##### Afdeling II. - Nadere bepalingen betreffende sommige zaakverzekeringen
-###### Onderafdeling 1. - Brandverzekering
+##### Onderafdeling 1. - Brandverzekering
 Normale dekking
-Art. 115
+###### Art. 115
 Uitbreiding van de dekking
-Art. 116
+###### Art. 116
 Inboedelverzekering
-Art. 117
+###### Art. 117
 Verzekering van de met schade samenhangende aansprakelijkheid
-Art. 118
+###### Art. 118
 Exclusiviteitsclausules
-Art. 119
+###### Art. 119
 Rechten van bevoorrechte en hypothecaire schuldeisers
-Art. 120
+###### Art. 120
 Betaling van schadevergoeding
-Art. 121
-Art. 121 TOEKOMSTIG RECHT
+###### Art. 121
+###### Art. 121 TOEKOMSTIG RECHT
 Expertise ter plaatse of expertise met een door de verzekerde aangestelde expert
-Art. 121/1 TOEKOMSTIG RECHT
+###### Art. 121/1 TOEKOMSTIG RECHT
 Eigen recht van eigenaar en derden
-Art. 122
-###### Onderafdeling 2. - De verzekering tegen natuurrampen wat betreft eenvoudige risico's
+###### Art. 122
+##### Onderafdeling 2. - De verzekering tegen natuurrampen wat betreft eenvoudige risico's
 Dekking van het risico van natuurrampen
-Art. 123
+###### Art. 123
 Natuurramp : omschrijving
-Art. 124
+###### Art. 124
 Natuurramp : eenheid
-Art. 125
+###### Art. 125
 Omvang van de waarborg
-Art. 126
+###### Art. 126
 Algemene uitsluitingen
-Art. 127
+###### Art. 127
 Uitsluitingen voor het gevaar overstroming en het overlopen of de opstuwing van openbare riolen
-Art. 128
+###### Art. 128
 Risicozones
-Art. 129
+###### Art. 129
 Betaling van de vergoeding
-Art. 130
+###### Art. 130
 Tariferingsbureau
-Art. 131
+###### Art. 131
 Compensatiekas natuurrampen
-Art. 132
-###### Onderafdeling 3. - Oogstverzekering
+###### Art. 132
+##### Onderafdeling 3. - Oogstverzekering
 Opzegging na schadegeval
-Art. 133
-###### Onderafdeling 4. - Krediet- en borgverzekering
+###### Art. 133
+##### Onderafdeling 4. - Krediet- en borgverzekering
 Toepassingsgebied
-Art. 134
+###### Art. 134
 Niet-toepasselijke of aanvullende wetsbepalingen
-Art. 135
+###### Art. 135
 Uitsluitingen
-Art. 136
+###### Art. 136
 Definitieve weigering van de dekking
-Art. 137
+###### Art. 137
 Onopzettelijk verzwijgen of onopzettelijk onjuist meedelen van gegevens bij de aangifte van het risico en verzwaring van het risico
-Art. 138
+###### Art. 138
 Verhaalrecht van de verzekeraar
-Art. 139
+###### Art. 139
 Overdracht van de uit de overeenkomst voortvloeiende rechten en verplichtingen
-Art. 140
+###### Art. 140
 #### HOOFDSTUK 3. - Aansprakelijkheidsverzekeringen
 Toepassingsgebied
-Art. 141
+###### Art. 141
 Verplichtingen van de verzekeraar na het einde van de overeenkomst
-Art. 142
+###### Art. 142
 Leiding van het geschil
-Art. 143
+###### Art. 143
 Overdracht van de stukken
-Art. 144
+###### Art. 144
 Niet-verschijning
-Art. 145
+###### Art. 145
 Toepassingsgebied van de betaling van een verzoek tot schadevergoeding en sancties in het geval van de aansprakelijkheidsdekking BR>
-Art. 145/1
+###### Art. 145/1
 Betaling van een verzoek tot schadevergoeding en sancties BR>
-Art. 145/2
+###### Art. 145/2
 Sancties in het geval van ontbreken van een met redenen omkleed antwoord in het geval van betwisting BR>
-Art. 145/3
+###### Art. 145/3
 Opschorting van de termijnen BR>
-Art. 145/4
+###### Art. 145/4
 Beperkingen van het toepassingsgebied BR>
-Art. 145/5
+###### Art. 145/5
 Betaling door de verzekeraar van de hoofdsom, de intrest en de kosten
-Art. 146
+###### Art. 146
 Vrije beschikking over de schadevergoeding
-Art. 147
+###### Art. 147
 Kwitantie ter afrekening
-Art. 148
+###### Art. 148
 Schadeloosstelling door de verzekerde
-Art. 149
+###### Art. 149
 Eigen recht van de benadeelde
-Art. 150
+###### Art. 150
 Tegenstelbaarheid van de excepties, nietigheid en verval van recht
-Art. 151
+###### Art. 151
 [ 1 Recht van verhaal van de verzekeraar op de verzekeringnemer en de verzekerde] 1
-Art. 152
+###### Art. 152
 Tussenkomst in de rechtspleging
-Art. 153
+###### Art. 153
 #### HOOFDSTUK 4. - Rechtsbijstandverzekeringen
 Toepassingsgebied
-Art. 154
+###### Art. 154
 Geldboeten en minnelijke schikkingen in strafzaken
-Art. 155
+###### Art. 155
 Vrije keuze van raadslieden
-Art. 156
+###### Art. 156
 Recht van de verzekeraar om dekking te weigeren
-Art. 157
-#### TITEL IV. - Persoonsverzekeringen
+###### Art. 157
+### TITEL IV. - Persoonsverzekeringen
 #### HOOFDSTUK 1. - Gemeenschappelijke bepalingen
 Naamgebondenheid van de polis
-Art. 158
+###### Art. 158
 Verzekering van zeer jonge kinderen
-Art. 159
+###### Art. 159
 #### HOOFDSTUK 2. - Levensverzekeringsovereenkomsten
-##### Afdeling I. - Algemene bepalingen
 Toepassingsgebied
-Art. 160
+##### Afdeling I. - Algemene bepalingen
+###### Art. 160
 Samenloop en niet-indeplaatsstelling
-Art. 161
-##### Afdeling II. - Verzekerd risico
+###### Art. 161
 Onbetwistbaarheid
-Art. 162
+##### Afdeling II. - Verzekerd risico
+###### Art. 162
 Dwaling omtrent de leeftijd van de verzekerde
-Art. 163
+###### Art. 163
 Uitgesloten risico's
-Art. 164
+###### Art. 164
 Het zich voordoen van een uitgesloten risico
-Art. 165
-##### Afdeling III. - Betaling van de premie en inwerkingtreding van de overeenkomst
+###### Art. 165
 Betaling van de eerste premie
-Art. 166
+##### Afdeling III. - Betaling van de premie en inwerkingtreding van de overeenkomst
+###### Art. 166
 Niet-betaling van een premie
-Art. 167
+###### Art. 167
 Verplichting tot betaling van de premies
-Art. 168
-##### Afdeling IV. - Rechten van de verzekeringnemer
+###### Art. 168
 a) Begunstiging
 Aanwijzing van de begunstigde
-Art. 169
+##### Afdeling IV. - Rechten van de verzekeringnemer
+###### Art. 169
 Geen begunstigde
-Art. 170
+###### Art. 170
 Aanwijzing van de echtgenoot
-Art. 171
+###### Art. 171
 Aanwijzing van de kinderen
-Art. 172
+###### Art. 172
 Gezamenlijke aanwijzing van de kinderen en van de echtgenoot als begunstigden
-Art. 173
+###### Art. 173
 Aanwijzing van de wettelijke erfgenamen als begunstigden
-Art. 174
+###### Art. 174
 Vooroverlijden van de aangewezen begunstigde
-Art. 175
+###### Art. 175
 b) Herroeping van de begunstiging
 Recht van herroeping
-Art. 176
+###### Art. 176
 Gevolgen van de herroeping
-Art. 177
+###### Art. 177
 c) Afkoop en reductie
 Recht van afkoop en reductie
-Art. 178
+###### Art. 178
 d) Opnieuw in werking stellen van de overeenkomst
 Opnieuw in werking stellen
-Art. 179
+###### Art. 179
 e) Voorschot op de in de overeenkomst verzekerde prestaties
 Recht van voorschot
-Art. 180
+###### Art. 180
 f) Inpandgeving van de rechten uit de overeenkomst
 Recht van inpandgeving
-Art. 181
+###### Art. 181
 Vormvoorschrift
-Art. 182
+###### Art. 182
 g) Overdracht van de rechten uit de overeenkomst
 Recht van overdracht
-Art. 183
+###### Art. 183
 Vormvoorschrift
-Art. 184
-##### Afdeling V. - Rechten van de begunstigde
+###### Art. 184
 a) Recht op verzekeringsprestaties
 Recht op de verzekeringsprestaties
-Art. 185
+##### Afdeling V. - Rechten van de begunstigde
+###### Art. 185
 b) Aanvaarding van de begunstiging
 Recht van aanvaarding
-Art. 186
+###### Art. 186
 Vormvoorschrift
-Art. 187
+###### Art. 187
 c) Rechten van de erfgenamen van de verzekeringnemer ten aanzien van de begunstigde
 Inbreng of inkorting in geval van overlijden van de verzekeringnemer
-Art. 188
+###### Art. 188
 d) Rechten van de schuldeisers van de verzekeringnemer ten aanzien van de begunstigde
 Verzekeringsprestaties
-Art. 189
+###### Art. 189
 Terugbetaling van de premies
-Art. 190
-##### Afdeling VI. - Gevolgen van de echtscheiding of van scheiding van tafel en bed bij verzekering tussen in gemeenschap van goederen getrouwde echtgenoten
+###### Art. 190
 A. Echtscheiding op grond van onherstelbare ontwrichting
 Rechten van de verzekeringnemer gedurende de echtscheidingsprocedure
-Art. 191
+##### Afdeling VI. - Gevolgen van de echtscheiding of van scheiding van tafel en bed bij verzekering tussen in gemeenschap van goederen getrouwde echtgenoten
+###### Art. 191
 Recht op verzekeringsprestaties gedurende de echtscheidingsprocedure
-Art. 192
+###### Art. 192
 Recht op verzekeringsprestaties die opeisbaar worden na de overschrijving van de echtscheiding
-Art. 193
+###### Art. 193
 B. Echtscheiding door onderlinge toestemming
 Rechten van de verzekeringnemer gedurende de proeftijd
-Art. 194
+###### Art. 194
 Recht op verzekeringsprestaties die opeisbaar worden tijdens de proeftijd
-Art. 195
+###### Art. 195
 Recht op verzekeringsprestaties die opeisbaar worden na de overschrijving van de echtscheiding
-Art. 196
+###### Art. 196
 C. Scheiding van tafel en bed
 Scheiding van tafel en bed
-Art. 197
+###### Art. 197
 ##### Afdeling VII. [ 1 Uitbetalingstermijn van een levensverzekeringsovereenkomst] 1
-Art. 197/1, 197/2, 197/3
+###### Art. 197/1, 197/2, 197/3
 #### HOOFDSTUK 3. - Persoonsverzekeringsovereenkomsten andere dan levensverzekeringen
 Aard van de dekking
-Art. 198
+###### Art. 198
 Verzekeringen tot uitkering van een vast bedrag, andere dan levensverzekeringen
-Art. 199
+###### Art. 199
 Keuze van de arts
-Art. 200
+###### Art. 200
 #### HOOFDSTUK 4. - Ziekteverzekeringsovereenkomsten
-##### Afdeling I. - Inleidende bepalingen
 Begripsomschrijvingen
-Art. 201
+##### Afdeling I. - Inleidende bepalingen
+###### Art. 201
 Afdeling I/1. [ 1 - Bepalingen gemeenschappelijk aan de ziektekostenverzekeringen bedoeld in artikel 201, § 1, eerste lid, 1°] 1
 Prestaties resulterende uit een poging tot zelfdoding
-Art. 201/1
-##### Afdeling II. - Andere dan beroepsgebonden ziekteverzekeringsovereenkomsten
+###### Art. 201/1
 Toepassingsgebied
-Art. 202
+##### Afdeling II. - Andere dan beroepsgebonden ziekteverzekeringsovereenkomsten
+###### Art. 202
 Duur van de verzekeringsovereenkomst
-Art. 203
+###### Art. 203
 Wijziging van het tarief en de voorwaarden van de overeenkomst
-Art. 204
+###### Art. 204
 Onbetwistbaarheid
-Art. 205
+###### Art. 205
 Chronisch zieken en personen met een handicap
-Art. 206-207
-##### Afdeling III. - Individuele voortzetting van beroepsgebonden ziekteverzekeringsovereenkomst
+###### Art. 206-207
 Toekenningsvoorwaarden
-Art. 208
+##### Afdeling III. - Individuele voortzetting van beroepsgebonden ziekteverzekeringsovereenkomst
+###### Art. 208
 Door de verzekeraar te verstrekken informatie
-Art. 209
+###### Art. 209
 Waarborgen
-Art. 210
+###### Art. 210
 Premie
-Art. 211
+###### Art. 211
 #### HOOFDSTUK 5. - Nadere bepalingen betreffende sommige verzekeringsovereenkomsten die de terugbetaling van het kapitaal van een krediet waarborgen
-Art. 212-218
+###### Art. 212-218
 Toegang tot verzekeringen onder de door het Opvolgingsbureau voor de tarifering voorgestelde voorwaarden
-Art. 219-220
+###### Art. 219-220
 Bemiddelingsorgaan inzake schuldsaldoverzekeringen DEEL 5. - DE VERZEKERINGSOVEREENKOMST, ANDERE DAN DE LANDVERZEKERINGSOVEREENKOMST ZOALS BEDOELD IN DEEL 4
 #### HOOFDSTUK 1. - Algemene bepalingen
-Art. 225-227
+###### Art. 225-227
 #### HOOFDSTUK 2. - Personen die een verzekeringsovereenkomst kunnen aangaan
-Art. 228-232
+###### Art. 228-232
 #### HOOFDSTUK 3. - Verplichtingen van de verzekeraar en van de verzekerde
-Art. 233-248
+###### Art. 233-248
 #### HOOFDSTUK 4. - Bewijs en inhoud van de overeenkomst
-Art. 249-251
+###### Art. 249-251
 #### HOOFDSTUK 5. - Enige gevallen van ontbinding van de overeenkomst
-Art. 252-255
+###### Art. 252-255
 #### HOOFDSTUK 6. - Verjaring
-Art. 256
-### DEEL 6. - VERZEKERINGSBEMIDDELING EN DE DISTRIBUTIE VAN VERZEKERINGEN
+###### Art. 256
+## DEEL 6. - VERZEKERINGSBEMIDDELING EN DE DISTRIBUTIE VAN VERZEKERINGEN
 #### HOOFDSTUK 1. - Definities
-Art. 257
+###### Art. 257
 #### HOOFDSTUK 2. [ 1 - Algemene bepalingen] 1
-Art. 258
+###### Art. 258
 #### HOOFDSTUK 3. [ 1 - Inschrijving] 1
 ##### Afdeling I. [ 1 - Inschrijvingsvereiste] 1
-Art. 259-263
+###### Art. 259-263
 ##### Afdeling II. [ 1 - Vereisten van vakbekwaamheid en organisatorische vereisten voor verzekerings-, nevenverzekerings- en herverzekeringstussenpersonen] 1
-Art. 264-267, 267/1, 267/2
+###### Art. 264-267, 267/1, 267/2
 ##### Afdeling III. [ 1 - Inschrijvingsprocedure] 1
-Art. 268
+###### Art. 268
 ##### Afdeling IV. [ 1 - Europees Paspoort] 1
-###### Onderafdeling I. [ 1 - Uitoefening van de vrijheid van dienstverlening.] 1
-Art. 269
-###### Onderafdeling II. [ 1 - Uitoefening van de vrijheid van vestiging] 1
-Art. 270
-###### Onderafdeling III. [ 1 Vrijheid van dienstverlening en vrijheid van vestiging in België voor tussenpersonen ingeschreven in een andere lidstaat van de EER] 1
-Art. 271
+##### Onderafdeling I. [ 1 - Uitoefening van de vrijheid van dienstverlening.] 1
+###### Art. 269
+##### Onderafdeling II. [ 1 - Uitoefening van de vrijheid van vestiging] 1
+###### Art. 270
+##### Onderafdeling III. [ 1 Vrijheid van dienstverlening en vrijheid van vestiging in België voor tussenpersonen ingeschreven in een andere lidstaat van de EER] 1
+###### Art. 271
 ##### Afdeling V. [ 1 - Wijze van betaling van de premie en van de verzekeringsprestatie] 1
-Art. 271/1
+###### Art. 271/1
 #### HOOFDSTUK 4. [ 1 - Vereisten van vakbekwaamheid en organisatorische vereisten voor verzekerings- en herverzekeringsondernemingen] 1
-Art. 272-277
+###### Art. 272-277
 #### HOOFDSTUK 5. [ 1 - Informatievereisten en gedragsregels] 1
 ##### Afdeling 1. [ 1 - Toepassingsgebied] 1
-Art. 278
+###### Art. 278
 ##### Afdeling 2. [ 1 - Algemeen beginsel] 1
-Art. 279
+###### Art. 279
 ##### Afdeling 3. [ 1 - Categorisering van klanten] 1
-Art. 280
+###### Art. 280
 ##### Afdeling 4. [ 1 - Door de verzekeringstussenpersoon, nevenverzekeringstussenpersoon of verzekeringsonderneming te verstrekken algemene informatie] 1
-Art. 281
+###### Art. 281
 ##### Afdeling 5. [ 1 - Belangenconflicten en transparantie] 1
-Art. 283
+###### Art. 283
 ##### Afdeling 6. [ 1 - Advies, en normen voor de verkoop indien geen advies wordt verstrekt] 1
-Art. 284
+###### Art. 284
 ##### Afdeling 7. [ 1 - Voorwaarden inzake informatieverstrekking] 1
-Art. 285
+###### Art. 285
 ##### Afdeling 8. [ 1 - Koppelverkoop] 1
-Art. 286
+###### Art. 286
 ##### Afdeling 9. [ 1 - Inducements] 1
-Art. 287
+###### Art. 287
 ##### Afdeling 10. [ 1 - Toezicht op producten en governancevereisten en productkennis] 1
-Art. 288
+###### Art. 288
 ##### Afdeling 11. [ 1 - Klantendossiers] 1
-Art. 290
+###### Art. 290
 ##### Afdeling 12. [ 1 - Bewaring van gegevens] 1
-Art. 291
+###### Art. 291
 ##### Afdeling 13. [ 1 - Terbeschikkingstelling van informatie aan verzekeringsdistributeurs] 1
-Art. 292
+###### Art. 292
 ##### Afdeling 14. [ 1 - Aansprakelijkheid] 1
-Art. 293
+###### Art. 293
 ##### Afdeling 15. [ 1 - Aanvullende vereisten met betrekking tot verzekeringsproducten met een beleggingscomponent] 1
-###### Onderafdeling 1. [ 1 - Toepassingsgebied van bijkomende vereisten] 1
-Art. 294
-###### Onderafdeling 2. [ 1 - Informatieverstrekking aan klanten] 1
-Art. 295
-###### Onderafdeling 3. [ 1 - Beoordeling van geschiktheid en passendheid] 1
-Art. 296
-###### Onderafdeling 4. [ 1 - Vereisten inzake Inducements met betrekking tot verzekeringsproducten met een beleggingscomponent] 1
-Art. 296/1
-###### Onderafdeling 5. [ 1 - Vereisten inzake rapportering aan klanten met betrekking tot verzekeringsproducten met een beleggingscomponent] 1
-Art. 296/2
-### DEEL 7. - ORGANISATIE VAN HET TOEZICHT
-#### TITEL I. - Organisatie van het toezicht en samenwerking tussen de autoriteiten
-Art. 297-303
-#### TITEL II. - Uitoefening van het toezicht
+##### Onderafdeling 1. [ 1 - Toepassingsgebied van bijkomende vereisten] 1
+###### Art. 294
+##### Onderafdeling 2. [ 1 - Informatieverstrekking aan klanten] 1
+###### Art. 295
+##### Onderafdeling 3. [ 1 - Beoordeling van geschiktheid en passendheid] 1
+###### Art. 296
+##### Onderafdeling 4. [ 1 - Vereisten inzake Inducements met betrekking tot verzekeringsproducten met een beleggingscomponent] 1
+###### Art. 296/1
+##### Onderafdeling 5. [ 1 - Vereisten inzake rapportering aan klanten met betrekking tot verzekeringsproducten met een beleggingscomponent] 1
+###### Art. 296/2
+## DEEL 7. - ORGANISATIE VAN HET TOEZICHT
+### TITEL I. - Organisatie van het toezicht en samenwerking tussen de autoriteiten
+###### Art. 297-303
+### TITEL II. - Uitoefening van het toezicht
 #### HOOFDSTUK 1. - Algemene bepalingen
-Art. 304-305
+###### Art. 304-305
 #### HOOFDSTUK 2. - Herstelmaatregelen
-Art. 306-312, 312/1, 313-315
+###### Art. 306-312, 312/1, 313-315
 #### HOOFDSTUK 3. - Aansprakelijkheid
-Art. 316
+###### Art. 316
 #### HOOFDSTUK 4. - Bijzondere bevoegdheden bij liquidatieprocedures en saneringsmaatregelen
-Art. 317-318
-#### TITEL III. - Administratieve sancties
-Art. 319-320
-#### TITEL IV. - Commissie voor verzekeringen
-Art. 321
-#### TITEL V. - Buitengerechtelijke klachtenregeling
-Art. 322-323
-### DEEL 8. - STRAFBEPALINGEN
-Art. 324-330
-### DEEL 9. - BEPALINGEN VAN VERSCHILLENDE AARD
-#### TITEL I. - Overgangsbepalingen
-Art. 331-339
-#### TITEL II. - Uitvoeringsbesluiten
-Art. 340-342
-#### TITEL III. - Wijzigingsbepalingen
+###### Art. 317-318
+### TITEL III. - Administratieve sancties
+###### Art. 319-320
+### TITEL IV. - Commissie voor verzekeringen
+###### Art. 321
+### TITEL V. - Buitengerechtelijke klachtenregeling
+###### Art. 322-323
+## DEEL 8. - STRAFBEPALINGEN
+###### Art. 324-330
+## DEEL 9. - BEPALINGEN VAN VERSCHILLENDE AARD
+### TITEL I. - Overgangsbepalingen
+###### Art. 331-339
+### TITEL II. - Uitvoeringsbesluiten
+###### Art. 340-342
+### TITEL III. - Wijzigingsbepalingen
 Wijzigingen aan de wet van 9 juli 1975 betreffende de controle van de verzekeringsondernemingen
-Art. 343-366
-#### TITEL IV. - Opheffingsbepalingen
-Art. 367
-#### TITEL V. - Andere bepalingen
-Art. 368-371
-#### TITEL VI. - Inwerkingtreding
-Art. 372-373
+###### Art. 343-366
+### TITEL IV. - Opheffingsbepalingen
+###### Art. 367
+### TITEL V. - Andere bepalingen
+###### Art. 368-371
+### TITEL VI. - Inwerkingtreding
+###### Art. 372-373
 
 Tekst
 
-### DEEL 1. - ALGEMENE BEPALINGEN
+## DEEL 1. - ALGEMENE BEPALINGEN
 
 Artikel 1 . Deze wet regelt een aangelegenheid als bedoeld in artikel 78 van de Grondwet.
 
-## Art. 2
+###### Art. 2
 
 Deze wet betreft een gedeeltelijke omzetting van Richtlijn 2009/138/EG van het Europees Parlement en de Raad van 25 november 2009 betreffende de toegang tot en uitoefening van het verzekerings- en het herverzekeringsbedrijf (Solvabiliteit II).
 
 Doel
 
-## Art. 3
+###### Art. 3
 
 Deze wet heeft tot doel de rechten te beschermen van de verzekeringnemers, de verzekerden, de begunstigden en van de derden die belang hebben bij de uitvoering van verzekeringsovereenkomsten en daartoe :
 - voorwaarden en regels vast te stellen die een loyale, billijke en professionele behandeling van de belanghebbende partijen moeten waarborgen en waaraan de activiteit van de verzekeraars onderworpen is;
@@ -601,7 +605,7 @@ Deze wet heeft tot doel de rechten te beschermen van de verzekeringnemers, de ve
 
 Toepassingsgebied
 
-## Art. 4
+###### Art. 4
 
 § 1. De verplichtingen die overeenkomstig deze wet van toepassing zijn voor verzekeraars, zijn, overeenkomstig artikel 3 en onverminderd de in de wet zelf vastgestelde beperkingen aan het toepassingsgebied, van toepassing op de volgende entiteiten :
 - de Belgische verzekeraars;
@@ -643,7 +647,7 @@ De Koning kan, na advies van de FSMA, bijzondere regels vaststellen betreffende 
 
 Definities
 
-## Art. 5
+###### Art. 5
 
 Tenzij hiervan uitdrukkelijk wordt afgeweken, wordt voor de toepassing van deze wet en haar uitvoeringsbesluiten en -reglementen verstaan onder :
 1° "Verzekeraar" : elke persoon of onderneming die als contractspartij verzekeringsovereenkomst(en) aanbiedt, ongeacht de beroepshoedanigheid van deze persoon en ongeacht of bij het afsluiten van de overeenkomst gebruik wordt gemaakt van actuariële technieken;
@@ -801,7 +805,7 @@ Een nevenverzekeringstussenpersoon mag handelen onder de verantwoordelijkheid va
 ( 9 )<W 2024-04-21/07 , art. 2, 035; Inwerkingtreding : 01-11-2024>
 ( 10 )<W 2025-03-25/05 , art. 43, 037; Inwerkingtreding : 08-05-2025>
 
-## Art. 6
+###### Art. 6
 
 § 1. Voor de toepassing van deze wet en haar uitvoeringsbesluiten en -reglementen bij verzekeringen uit de groep activiteiten "niet leven", wordt het risico geacht in België te liggen als :
 a) de goederen zich in België bevinden, wanneer de verzekering betrekking heeft hetzij op onroerend goed, hetzij op onroerend goed en op de inhoud daarvan, voor zover deze door dezelfde verzekeringsovereenkomst wordt gedekt;
@@ -826,50 +830,50 @@ b) de vestiging van de verzekeringnemer die een rechtspersoon is en waarop de ov
 - hetzij een verzekeringsonderneming van een derde land die alle wettelijke voorwaarden om in België via vrije dienstverrichting activiteiten uit te oefenen heeft vervuld;
 - hetzij een verzekeraar, andere dan de voorgaande, die desgevallend, op basis van de op hem toepasselijke wetgeving, de wettelijk vereiste modaliteiten heeft vervuld om in België verzekeringsactiviteiten uit te oefenen.
 
-### DEEL 2. - SPECIFIEKE BEPALINGEN MET BETREKKING TOT DE BEDRIJFSVOERING
+## DEEL 2. - SPECIFIEKE BEPALINGEN MET BETREKKING TOT DE BEDRIJFSVOERING
 
-#### TITEL I. - Algemene bepalingen
+### TITEL I. - Algemene bepalingen
 
-## Art. 7
+###### Art. 7
 
 Dit deel doet geen afbreuk aan de verplichtingen die voor de verzekeringsondernemingen voortvloeien uit [ '> 1 de wet van 13 maart 2016,] '> 1 de arbeidsongevallenwet van 10 april 1971 en de wet van 3 juli 1967 betreffende de preventie van of de schadevergoeding voor arbeidsongevallen, voor ongevallen op de weg naar en van het werk en voor beroepsziekten in de overheidssector.
 ----------
 ( 1 )<W 2016-03-13/07 , art. 721, 004; Inwerkingtreding : 23-03-2016; zie ook art. 756>
 
-## Art. 8
+###### Art. 8
 
 De verzekeringsovereenkomsten die door een niet krachtens de wet voor de uitoefening van verzekeringsactiviteiten in België toegelaten verzekeraar zijn gesloten, zijn nietig. Voor buitenlandse verzekeraars is deze nietigheidssanctie beperkt tot die overeenkomsten die betrekking hebben op in België gelegen risico's of verbintenissen.
 De verzekeraar is echter gehouden tot het nakomen van de verplichtingen die hij heeft aangegaan indien de verzekeringnemer de overeenkomst te goeder trouw heeft gesloten. De verzekeraar is tevens, niettegenstaande elk andersluidend beding in het nadeel van de verzekeringnemer, de verzekerde, en/of de begunstigde, gehouden tot vergoeding van de schade veroorzaakt door de nietigheid van de betrokken overeenkomst in hoofde van de verzekeringnemer, de verzekerde, dan wel de begunstigde. De schade wordt op onweerlegbare wijze geacht het gevolg te zijn van de illegale afsluiting van de verzekeringsovereenkomst door een niet krachtens de wet voor de uitoefening van verzekeringsactiviteiten in België toegelaten verzekeraar.
 
-## Art. 9
+###### Art. 9
 
 De Belgische verzekeraars moeten uit hun statuten elke bepaling weren die nadelig is voor de verzekeringnemers, de verzekerden, de begunstigden en derden die belang hebben bij de uitvoering van de verzekeringsovereenkomst.
 
-## Art. 10
+###### Art. 10
 
 De statuten van de Belgische onderlinge verzekeringsverenigingen moeten op straffe van nietigheid vermelden :
 - de voorwaarden en de wijze van toelating, ontslag en uitsluiting van de vennoten;
 - de wijze van vaststelling en inning van de bijdragen of de premies, evenals van de eventuele supplementen tot afwikkeling van de schadegevallen;
 - de procedure in geval van wijzigingen in de statuten of van vereffening van de vereniging, onverminderd de bepalingen van dit deel.
 
-## Art. 11
+###### Art. 11
 
 Inzake de ledenrekeningen bepalen de statuten van de Belgische onderlinge verzekeringsverenigingen dat :
 a) er vanaf deze rekeningen alleen betalingen aan leden mogen worden verricht als zulks geen daling van de reglementaire elementen van het eigen vermogen tot onder het vereiste niveau veroorzaakt, of, na ontbinding van de onderneming, als alle andere schulden zijn voldaan;
 b) dat de Bank ten minste een maand van tevoren in kennis moet worden gesteld van elke betaling voor andere doeleinden dan de individuele opzegging van het lidmaatschap en dat zij gedurende deze termijn de voorgenomen betaling kan verbieden.
 
-## Art. 12
+###### Art. 12
 
 § 1. Ten minste drie weken vóór het samenkomen van de algemene vergadering of bij ontstentenis ervan, van het beslissingsorgaan van de onderneming, stellen de Belgische verzekeringsondernemingen de FSMA in kennis van de ontwerpen van wijzigingen aan de statuten en de ontwerpen van de beslissingen die zij van plan zijn tijdens die vergadering te nemen en die een weerslag zouden kunnen hebben op de rechten en de verplichtingen van de verzekeringnemers, verzekerden, de begunstigden en derden die belang hebben bij de uitvoering van de verzekeringsovereenkomsten.
 De FSMA kan eisen dat de door haar geformuleerde opmerkingen betreffende die ontwerpen op de wijze die zij voorschrijft ter kennis worden gebracht van de algemene vergadering of, bij ontstentenis ervan, van het beslissingsorgaan van de onderneming. Die opmerkingen en de antwoorden moeten in de notulen worden opgenomen.
 § 2. De bepalingen in de statuten van de Belgische onderlinge verzekeringsverenigingen betreffende de criteria bedoeld in artikel 11 kunnen pas worden gewijzigd wanneer de FSMA verklaard heeft geen bezwaar tegen deze wijziging te hebben.
 
-## Art. 13
+###### Art. 13
 
 Binnen de maand die volgt op hun goedkeuring door de algemene vergadering of, bij ontstentenis ervan, door het beslissingsorgaan, stellen de Belgische verzekeraars en de buitenlandse verzekeraars die geen EER verzekeringsonderneming zijn, de FSMA in kennis van de wijzigingen aan de statuten en van de beslissingen die een weerslag zouden kunnen hebben op de rechten en de verplichtingen van de verzekeringnemers, verzekerden, begunstigden en derden die belang hebben bij de uitvoering van de verzekeringsovereenkomsten.
 Binnen een termijn van ten hoogste één maand, te rekenen van de datum af waarop zij er kennis van gekregen heeft, verzet de FSMA zich tegen de toepassing in België van elk der door het vorige lid bedoelde wijzigingen of beslissingen die strijdig zijn met de bepalingen van deze wet of haar uitvoeringsbesluiten en -reglementen.
 
-## Art. 14
+###### Art. 14
 
 De Belgische verzekeraars moeten alle documenten in verband met de door hen gesloten verzekeringsovereenkomsten bewaren. De buitenlandse verzekeraars die geen EER verzekeringsonderneming zijn, moeten alle documenten betreffende de overeenkomsten die door hun Belgische vestiging zijn gesloten, dan wel betreffende de overeenkomsten waarvan het risico of de verbintenis in België is gelegen, bewaren.
 [ '> 1 ...] '> 1
@@ -878,25 +882,25 @@ Onverminderd andere wettelijke bepalingen, kunnen de FSMA en de Bank bij regleme
 ----------
 ( 1 )<W 2023-11-05/07 , art. 103, 030; Inwerkingtreding : 21-12-2023>
 
-## Art. 15
+###### Art. 15
 
 De verzekeraars die in België verzekeringsactiviteiten uitoefenen, moeten de in België op de verzekeraars en hun verrichtingen van toepassing zijnde wettelijke en reglementaire bepalingen van algemeen belang naleven.
 
-## Art. 16
+###### Art. 16
 
 De Belgische verzekeringsondernemingen en de buitenlandse verzekeringsondernemingen die anders dan in vrije dienstverrichting verzekeringsactiviteiten verrichten in België, treffen de noodzakelijke organisatorische maatregelen inzake hun beleidsstructuur, hun administratieve en boekhoudkundige organisatie, hun controle- en beveiligingsmaatregelen met betrekking tot de elektronische informatieverwerking, en hun interne controle met het oog op de naleving van de regels die een loyale, billijke en professionele behandeling van de belanghebbende partijen moeten waarborgen.
 [ '> 1 De verzekeraars die in België verzekeringsovereenkomsten commercialiseren en/of verzekeringsovereenkomsten afsluiten waarvan het risico dan wel de verbintenis in België is gelegen, moeten beschikken over passende systemen en structuren om aan alle conform deze wet of haar uitvoeringsbesluiten en -reglementen vereiste informatieplichten en andere regels die loyale, billijke en professionele behandeling van de belanghebbende partijen moeten waarborgen, te voldoen. Het wettelijk bestuursorgaan van de verzekeraar superviseert de procedure tot publicatie of communicatie van alle conform deze wet of haar uitvoeringsbesluiten en -reglementen vereiste informatie.] '> 1
 ----------
 ( 1 )<W 2016-06-29/01 , art. 69, 005; Inwerkingtreding : 16-07-2016>
 
-## Art. 16/1
+###### Art. 16/1
 
 [ '> 1 De verzekeraars die in België verzekeringsovereenkomsten commercialiseren en/of verzekeringsovereenkomsten afsluiten waarvan het risico dan wel de verbintenis in België is gelegen, moeten beschikken over passende systemen en structuren om aan [ '> 2 artikel 304, § 2] '> 2 , te voldoen, en over een door het wettelijk bestuursorgaan van de verzekeraar goedgekeurde schriftelijk vastgelegde beleidslijn die waarborgt dat de aan de FSMA overgemaakte informatie altijd correct is.] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2016-06-29/01 , art. 70, 005; Inwerkingtreding : 16-07-2016>
 ( 2 )<W 2018-12-06/11 , art. 14, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 16/2
+###### Art. 16/2
 
 [ '> 1 § 1. De verzekeraar die functies, activiteiten of operationele taken uitbesteedt, blijft volledig verantwoordelijk voor de nakoming van al haar verplichtingen krachtens deze wet en haar uitvoeringsbesluiten en -reglementen. De uitbesteding mag er niet toe leiden dat de continuïteit en het toereikend karakter van de dienstverlening aan de verzekeringnemers, de verzekerden en de begunstigden van verzekeringsovereenkomsten wordt ondermijnd.
 Ze mag er niet toe leiden dat er afbreuk wordt gedaan aan het vermogen van de FSMA om na te gaan of de verzekeraar de verplichtingen nakomt die door of krachtens deze wet en haar uitvoeringsbesluiten of -reglementen zijn opgelegd.
@@ -913,25 +917,25 @@ c) de FSMA moet daadwerkelijk toegang hebben tot de bedrijfsruimten van de gedel
 ( 1 )<Ingevoegd bij W 2016-06-29/01 , art. 71, 005; Inwerkingtreding : 16-07-2016>
 ( 2 )<W 2018-12-06/11 , art. 15, 015; Inwerkingtreding : 28-12-2018>
 
-#### TITEL II. - Overdrachten van verzekeringsovereenkomsten
+### TITEL II. - Overdrachten van verzekeringsovereenkomsten
 
-## Art. 17
+###### Art. 17
 
 De overdrachten van de rechten en de verplichtingen die voortvloeien uit overeenkomsten betreffende risico's of verbintenissen gelegen in België, zijn tegenstelbaar aan de verzekeringnemers, de verzekerden, de begunstigden en alle derden die belang hebben bij de uitvoering van de verzekeringsovereenkomst wanneer ze werden toegestaan door de Bank of door de bevoegde autoriteiten van een andere lidstaat.
 Onverminderd de toepassing van de artikelen 34 en 36, heeft die tegenstelbaarheid uitwerking vanaf de dag van [ '> 1 de in de artikelen 106 of 567, § 2, van de wet van 13 maart 2016 bedoelde publicatie] '> 1 .
 ----------
 ( 1 )<W 2016-03-13/07 , art. 722, 004; Inwerkingtreding : 23-03-2016; zie ook art. 756>
 
-## Art. 18
+###### Art. 18
 
 § 1. De verzekeringnemers hebben de mogelijkheid hun overeenkomst volgens de in artikel 84, § 1 voorgeschreven wijzen op te zeggen binnen een termijn van drie maanden te rekenen vanaf de publicatie [ '> 1 bedoeld in de artikelen 106 of 567, § 2, van de wet van 13 maart 2016] '> 1 . Die opzegging gaat in na het verstrijken van een termijn van een maand, te rekenen van de dag volgend op de betekening van het deurwaardersexploot, de dag volgend op de datum van het ontvangstbewijs of de dag volgend op de afgifte van de aangetekende brief, of op de jaarlijkse premievervaldag indien die vroeger valt.
 § 2. De bepalingen van paragraaf 1 zijn niet van toepassing op fusies en splitsingen van verzekeringsondernemingen, noch op overdrachten uitgevoerd in het kader van een inbreng van de algemeenheid van goederen of van een tak van werkzaamheid, noch op andere overdrachten tussen verzekeringsondernemingen die deel uitmaken van eenzelfde geconsolideerd geheel.
 ----------
 ( 1 )<W 2016-03-13/07 , art. 723, 004; Inwerkingtreding : 23-03-2016; zie ook art. 756>
 
-#### TITEL III. - Bijzondere regels met betrekking tot verzekeringen uit de groep activiteiten "leven" verbonden met beleggingsfondsen
+### TITEL III. - Bijzondere regels met betrekking tot verzekeringen uit de groep activiteiten "leven" verbonden met beleggingsfondsen
 
-## Art. 19
+###### Art. 19
 
 § 1. Bij verzekeringsovereenkomsten waarbij het beleggingsrisico rechtstreeks of onrechtstreeks wordt gedragen door de verzekeringnemer, mogen de verzekeringsuitkeringen slechts verbonden zijn, zowel rechtstreeks als onrechtstreeks, met activa en instrumenten waarvan de verzekeraar de risico's goed kan inschatten.
 De verzekeraar licht de verzekeringnemer voor het sluiten van de overeenkomst in duidelijke bewoordingen in over het door hem gedragen risico.
@@ -940,23 +944,23 @@ De verzekeraar licht de verzekeringnemer voor het sluiten van de overeenkomst in
 ----------
 ( 1 )<W 2016-06-29/01 , art. 72, 005; Inwerkingtreding : 16-07-2016>
 
-## Art. 20
+###### Art. 20
 
 <Opgeheven bij W 2017-04-18/03 , art. 51, 007; Inwerkingtreding : 04-05-2017>
 
-## Art. 20/2
+###### Art. 20/2
 
 <Opgeheven bij W 2018-12-06/11 , art. 16, 015; Inwerkingtreding : 28-12-2018>
 
-### DEEL 3. - HET AANBIEDEN EN SLUITEN VAN OVEREENKOMSTEN : INFORMATIE, PUBLICITEIT, TARIFERING, SEGMENTATIE EN WINSTDELING
+## DEEL 3. - HET AANBIEDEN EN SLUITEN VAN OVEREENKOMSTEN : INFORMATIE, PUBLICITEIT, TARIFERING, SEGMENTATIE EN WINSTDELING
 
-#### TITEL I. - Algemene bepalingen
+### TITEL I. - Algemene bepalingen
 
-## Art. 21
+###### Art. 21
 
 Bij het opstellen van alle documenten die betrekking hebben op het sluiten en het uitvoeren van de verzekeringsovereenkomsten, zijn de verzekeraars en de verzekeringstussenpersonen gehouden zich te gedragen naar de regels die krachtens deze wet door de Koning worden vastgesteld, na advies van de FSMA.
 
-## Art. 22
+###### Art. 22
 
 § 1. [ '> 2 De verzekeringsovereenkomsten in hun geheel, de algemene, bijzondere en speciale voorwaarden, evenals alle andere clausules die de voorwaarden van de verzekeringsovereenkomst uitmaken] '> 2 , die niet in overeenstemming zijn met de bepalingen van deel 2 en deel 3 en hun uitvoeringsbesluiten en -reglementen, [ '> 1 of met de bepalingen van de wet van 13 maart 2016] '> 1 en haar uitvoeringsbesluiten en -reglementen, worden vanaf het sluiten van de overeenkomst geacht te zijn opgesteld in overeenstemming met, al naargelang het geval, de bepalingen van deel 2 en deel 3 en hun uitvoeringsbesluiten en -reglementen, [ '> 1 dan wel met de bepalingen van de wet van 13 maart 2016] '> 1 en haar uitvoeringsbesluiten en -reglementen.
 § 2. [ '> 1 ...] '> 1
@@ -964,7 +968,7 @@ Bij het opstellen van alle documenten die betrekking hebben op het sluiten en he
 ( 1 )<W 2016-03-13/07 , art. 724, 004; Inwerkingtreding : 23-03-2016; zie ook art. 756>
 ( 2 )<W 2024-05-03/21 , art. 66, 032; Inwerkingtreding : 10-06-2024>
 
-## Art. 23
+###### Art. 23
 
 § 1. [ '> 1 De verzekeringsovereenkomsten in hun geheel, de algemene, bijzondere en speciale voorwaarden, evenals alle andere clausules die de voorwaarden van de verzekeringsovereenkomst uitmaken, worden opgesteld in duidelijke en nauwkeurige bewoordingen.] '> 1 Ze mogen geen enkele clausule bevatten die een inbreuk uitmaakt op de gelijkwaardigheid tussen de verbintenissen van de verzekeraar en die van de verzekeringnemer.
 § 2. In geval van twijfel over de betekenis van een beding, prevaleert in alle gevallen de voor de verzekeringnemer meest gunstige interpretatie. Indien de verzekeringnemer en de verzekerde niet één en dezelfde persoon zijn, prevaleert de voor de verzekerde meest gunstige interpretatie.
@@ -972,30 +976,30 @@ Het eerste lid is niet van toepassing op verzekeringsovereenkomsten met betrekki
 ----------
 ( 1 )<W 2024-05-03/21 , art. 67, 032; Inwerkingtreding : 10-06-2024>
 
-## Art. 24
+###### Art. 24
 
 Onverminderd de toepassing van internationale verdragen of overeenkomsten, zijn nietig alle clausules en overeenkomsten die, met uitsluiting van de Belgische rechter, aan de buitenlandse rechtbanken de bevoegdheid toewijzen om kennis te nemen van alle geschillen die betrekking hebben op de verzekeringsovereenkomsten.
 
-## Art. 25
+###### Art. 25
 
 De overeenkomsten die bestemd zijn om te voldoen aan een door de Belgische wetgeving opgelegde verzekeringsplicht worden beheerst door het Belgische recht.
 Wanneer een verzekeringsovereenkomst dekking verleent in verscheidene lidstaten waarvan minstens één een verplichting tot verzekering oplegt, wordt de overeenkomst voor de toepassing van dit artikel beschouwd als bestaande uit verscheidene overeenkomsten waarvan elk betrekking heeft op één lidstaat.
 
-## Art. 26
+###### Art. 26
 
 § 1. De verzekeraars die in België verplicht gestelde verzekeringen uit de groep activiteiten "niet-leven" aanbieden, moeten dit aan de FSMA meedelen.
 § 2. De FSMA kan aan de verzekeraars uit paragraaf 1 opleggen dat zij de algemene en de speciale voorwaarden van deze in België verplicht gestelde verzekeringen uit de groep activiteiten "niet-leven" aan de FSMA en de Bank meedelen voordat er gebruik van wordt gemaakt.
 § 3. De in de eerste en tweede paragraaf bedoelde inlichtingen en documenten dienen minstens in de taal te worden gesteld die bij wet of decreet wordt opgelegd.
 
-## Art. 27
+###### Art. 27
 
 Wanneer de verzekeraar, bij toepassing van de Belgische wetgeving die de verplichting tot verzekeren oplegt, het beëindigen van de waarborg aan de autoriteiten moet melden, kan die beëindiging aan de benadeelde derden slechts worden tegengeworpen onder de door de Belgische wetgeving voorziene voorwaarden.
 
-#### TITEL II. - Transparantievoorschriften
+### TITEL II. - Transparantievoorschriften
 
 #### HOOFDSTUK 1. - Algemene bepalingen inzake reclame en andere documenten en berichten
 
-## Art. 28
+###### Art. 28
 
 § 1. Ieder document dat door de verzekeraars of de verzekeringstussenpersonen in België ter algemene kennis wordt gebracht, moet de door de Koning, na advies van de FSMA, bepaalde vermeldingen bevatten.
 § 2. De Koning kan na advies van de FSMA regels vaststellen aangaande de inhoud en de voorstellingswijze van de berichten, de reclame en andere op de commercialisering gerichte documenten die betrekking hebben op de verzekeringsovereenkomsten die een verzekeraar of een verzekeringstussenpersoon in België aanbiedt en/of commercialiseert.
@@ -1009,11 +1013,11 @@ Reclame moet duidelijk herkenbaar zijn als zodanig.
 
 #### HOOFDSTUK 2. - Informatie
 
-## Art. 29
+###### Art. 29
 
 De bepalingen van dit hoofdstuk hebben betrekking op de verzekeringsovereenkomsten waarvan het risico dan wel de verbintenis in België is gelegen.
 
-## Art. 30
+###### Art. 30
 
 [ '> 1 § 1.] '> 1 Alle documenten die bestemd zijn voor de verzekeringnemer, de verzekerde, de begunstigde en alle derden die belang hebben bij de uitvoering van de verzekeringsovereenkomst moeten de door de Koning bepaalde vermeldingen bevatten. Dit besluit wordt genomen na advies van de FSMA.
 [ '> 1 § 2. [ '> 2 ...] '> 2 ] '> 1
@@ -1021,12 +1025,12 @@ De bepalingen van dit hoofdstuk hebben betrekking op de verzekeringsovereenkomst
 ( 1 )<W 2016-06-29/01 , art. 74, 005; Inwerkingtreding : 16-07-2016>
 ( 2 )<W 2017-04-18/03 , art. 52, 007; Inwerkingtreding : 31-12-2016>
 
-## Art. 31
+###### Art. 31
 
 Indien de Belgische wet een bewijs verlangt dat een verplichte verzekering werd afgesloten, moet de verzekeraar de verzekerde een verklaring bezorgen waaruit blijkt dat de verplichte verzekeringsovereenkomst werd afgesloten.
 De Koning bepaalt, in een besluit genomen na advies van de FSMA, welke gegevens moeten worden opgenomen in deze verklaring.
 
-## Art. 32
+###### Art. 32
 
 Voor de verzekeringen uit de groep activiteiten "niet-leven" moet de verzekeraar voor het sluiten van de overeenkomst de verzekeringnemer die een natuurlijke persoon is minstens :
 a) informatie verschaffen over het op de overeenkomst toepasselijke recht, als volgt :
@@ -1038,7 +1042,7 @@ ii. wanneer de partijen wel vrijheid van rechtskeuze hebben :
 en
 b) in kennis stellen van de regelingen voor het behandelen van klachten van verzekeringnemers over de overeenkomst, met inbegrip van het bestaan van de ombudsdienst inzake verzekeringen, zonder afbreuk te doen aan de mogelijkheid voor de verzekeringnemer een gerechtelijke procedure aan te spannen.
 
-## Art. 33
+###### Art. 33
 
 § 1. Wanneer een verzekering uit de groep activiteiten "niet-leven" wordt aangeboden door een buitenlandse verzekeraar, wordt aan de verzekeringnemer vóór het aangaan van enige verbintenis meegedeeld in welk land het hoofdkantoor en, in voorkomend geval, het bijkantoor waarmee de overeenkomst wordt gesloten, is gevestigd.
 Wanneer aan de verzekeringnemer documenten worden verstrekt, wordt daarin de in het eerste lid bedoelde informatie vermeld.
@@ -1048,7 +1052,7 @@ In de in het eerste lid bedoelde documenten wordt ook de naam en het adres van d
 ----------
 ( 1 )<W 2016-03-13/07 , art. 725, 004; Inwerkingtreding : 23-03-2016; zie ook art. 756>
 
-## Art. 34
+###### Art. 34
 
 Bij verzekeringen uit de groep activiteiten "niet-leven", licht de verzekeraar de verzekeringnemer gedurende de gehele looptijd van de overeenkomst in over elke wijziging van de volgende gegevens :
 a) naam en adres van het hoofdkantoor en, in voorkomend geval, van het bijkantoor van de verzekeraar die de dekking verleent;
@@ -1057,7 +1061,7 @@ De verzekeraar bezorgt de FSMA een afschrift van deze mededelingen.
 ----------
 ( 1 )<W 2016-03-13/07 , art. 726, 004; Inwerkingtreding : 23-03-2016; zie ook art. 756>
 
-## Art. 35
+###### Art. 35
 
 § 1. Voor de verzekeringen uit de groep activiteiten "leven" moet de verzekeraar voor het sluiten van de overeenkomst de verzekeringnemer minstens de gegevens uit de paragrafen 2 en 3 meedelen.
 § 2. Onverminderd andere wettelijke verplichtingen, worden de volgende inlichtingen betreffende de verzekeraar medegedeeld :
@@ -1086,7 +1090,7 @@ ii. wanneer de partijen wel vrijheid van rechtskeuze hebben :
 - het recht dat volgens de relevante wetgeving van toepassing zal zijn bij gebrek aan akkoord tussen of een uitdrukkelijke keuze door partijen;
 Bovendien wordt specifieke informatie verstrekt om ervoor te zorgen dat de verzekeringnemer goed begrijpt welke risico's hij loopt door de overeenkomst te sluiten.
 
-## Art. 36
+###### Art. 36
 
 Bij verzekeringen uit de groep activiteiten "leven", licht de verzekeraar de verzekeringnemer gedurende de gehele looptijd van de overeenkomst in over elke wijziging van de volgende gegevens :
 a) de algemene, speciale en bijzondere voorwaarden;
@@ -1095,30 +1099,30 @@ c) alle in artikel 35, § 3, onder d) tot en met j), bedoelde inlichtingen zowel
 d) elk jaar inlichtingen betreffende de situatie van de winstdeling.
 De verzekeraar bezorgt de FSMA een afschrift van deze mededelingen.
 
-## Art. 37
+###### Art. 37
 
 De in de artikelen 35 en 36 bedoelde inlichtingen worden duidelijk, nauwkeurig, en schriftelijk verstrekt in één van de officiële Belgische landstalen.
 Deze inlichtingen mogen evenwel ook in een andere taal aan de verzekeringnemer worden verstrekt indien de verzekeringnemer daarom verzoekt, dan wel indien de verzekeringnemer vrij het toepasselijke recht kan kiezen.
 
-## Art. 38
+###### Art. 38
 
 De Koning kan, na advies van de FSMA, de vereiste inlichtingen uit de artikelen 32 tot en met 36 verder uitwerken en bijkomende inlichtingen bepalen die de verzekeraars en/of de tussenpersonen aan de verzekeringnemer moeten meedelen vóór het sluiten van de overeenkomst en gedurende de looptijd ervan, en de wijze waarop dit moet gebeuren.
 
-#### TITEL III. - Tarifering, voorwaarden en segmentatie
+### TITEL III. - Tarifering, voorwaarden en segmentatie
 
 #### HOOFDSTUK 1. - Algemene bepalingen
 
-## Art. 39
+###### Art. 39
 
 Wat de buitenlandse verzekeraars betreft, hebben de bepalingen van dit hoofdstuk slechts betrekking op de verzekeringsovereenkomsten waarvan het risico dan wel de verbintenis in België is gelegen.
 
-## Art. 40
+###### Art. 40
 
 § 1. Voor het vaststellen en toepassen van hun tarieven en voorwaarden, zijn de verzekeraars gehouden zich te gedragen naar de regels die door de Koning worden vastgesteld, na advies van de FSMA en de Bank.
 § 2. In afwijking van paragraaf 1, moeten de EER verzekeringsondernemingen zich voor het vaststellen en toepassen van hun tarieven gedragen naar de wetgeving van hun lidstaat van herkomst.
 Het eerste lid doet echter geen afbreuk aan de verplichting van de EER verzekeringsondernemingen om zich te houden aan de Belgische dwingende regels van algemeen belang die een technisch kader voor de tariefontwikkeling instellen waarbinnen de verzekeringsondernemingen hun premies moeten berekenen.
 
-## Art. 41
+###### Art. 41
 
 Indien de Bank maatregelen neemt [ '> 1 overeenkomstig artikel 504 van de wet van 13 maart 2016] '> 1 , wordt de tariefverhoging toegepast op de overeenkomsten die worden gesloten vanaf de kennisgeving van de beslissing van de Bank en, onverminderd het opzeggingrecht van de verzekeringnemer, wordt ze eveneens toegepast op de premies en bijdragen van de lopende overeenkomsten, die vervallen vanaf de eerste dag van de tweede maand die volgt op de kennisgeving van de beslissing van de Bank.
 ----------
@@ -1126,11 +1130,11 @@ Indien de Bank maatregelen neemt [ '> 1 overeenkomstig artikel 504 van de wet va
 
 #### HOOFDSTUK 2. - Segmentatie
 
-## Art. 42
+###### Art. 42
 
 De bepalingen van dit hoofdstuk hebben betrekking op de verzekeringsovereenkomsten waarvan het risico dan wel de verbintenis in België is gelegen.
 
-## Art. 43
+###### Art. 43
 
 § 1. Artikel 44 tot en met 46 zijn van toepassing op de hieronder opgesomde verzekeringsovereenkomsten voor zover de verzekeringnemer een consument is in de zin van [ '> 1 artikel I. 1, 2° van hetzelfde Wetboek] '> 1 :
 - De verplichte aansprakelijkheidsverzekering inzake motorrijtuigen;
@@ -1144,16 +1148,16 @@ De bepalingen van dit hoofdstuk hebben betrekking op de verzekeringsovereenkomst
 ----------
 ( 1 )<W 2015-10-26/06 , art. 84, 003; Inwerkingtreding : 09-11-2015>
 
-## Art. 44
+###### Art. 44
 
 Elke segmentatie op het vlak van acceptatie, tarifering en/of de omvang van de dekking moet objectief worden gerechtvaardigd door een legitiem doel en de middelen voor het bereiken van dat doel moeten passend en noodzakelijk zijn.
 
-## Art. 45
+###### Art. 45
 
 § 1. De verzekeraar publiceert op zijn website per type van verzekeringsovereenkomst zoals vermeld in artikel 43, § 1, de criteria die hij gebruikt in het kader van de segmentatie op het vlak van acceptatie, tarifering en/of de omvang van de dekking. Op de website van de verzekeraar wordt op een duidelijke en voor de verzekeringnemer begrijpelijke wijze toegelicht waarom deze criteria worden gehanteerd.
 § 2. De Koning kan bij een besluit, vastgesteld na overleg in de Ministerraad, genomen na advies van de FSMA, aanduiden, desgevallend per type van verzekeringsovereenkomst, welke segmenteringscriteria mogen worden gehanteerd door de verzekeraar, dan wel aanduiden, desgevallend per type van verzekeringsovereenkomst, welke segmenteringscriteria niet mogen worden gehanteerd.
 
-## Art. 46
+###### Art. 46
 
 § 1. In haar aanbod aan de verzekeringnemer vermeldt de verzekeraar welke segmenteringscriteria hij heeft gebruikt bij de bepaling van de tariefvoorwaarden van de overeenkomst en de omvang van de dekking. Deze informatie wordt op individuele wijze en op een duidelijke en voor de verzekeringnemer begrijpelijke wijze gegeven.
 Bij de toelichting van de gebruikte segmenteringscriteria maakt de verzekeraar een onderscheid tussen :
@@ -1173,7 +1177,7 @@ Als het niet mededelen van de weigeringsgrond aan de kandidaat-verzekeringnemer 
 ----------
 ( 1 )<Ingevoegd bij W 2020-12-10/32 , art. 2, 023; Inwerkingtreding : 25-01-2021>
 
-## Art. 46/1
+###### Art. 46/1
 
 [ '> 1 De bepalingen van dit hoofdstuk, uitgevaardigd met toepassing van artikel 9.4 van Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van richtlijn 95/46/EG, zijn van toepassing op de hieronder vermelde verzekeringsovereenkomsten :
 1° de individuele levensverzekering;
@@ -1181,25 +1185,25 @@ Als het niet mededelen van de weigeringsgrond aan de kandidaat-verzekeringnemer 
 ----------
 ( 1 )<Ingevoegd bij W 2020-12-10/32 , art. 3, 023; Inwerkingtreding : 25-01-2021>
 
-## Art. 46/2
+###### Art. 46/2
 
 [ '> 1 Tijdens het sluiten van de in artikel 46/1 bedoelde overeenkomst mag de weigering van de kandidaat-verzekerde om een met het internet verbonden apparaat dat persoonsgegevens inzake diens levensstijl of gezondheid verzamelt, aan te kopen of te gebruiken, er geenszins toe leiden dat de verzekering wordt geweigerd noch dat het verzekeringsproduct duurder wordt.] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2020-12-10/32 , art. 4, 023; Inwerkingtreding : 25-01-2021>
 
-## Art. 46/3
+###### Art. 46/3
 
 [ '> 1 Geen enkele segmentatie mag inzake aanvaarding, tarifering en/of omvang van de dekking worden toegepast op basis van de voorwaarde dat de kandidaat-verzekerde ermee instemt een met het internet verbonden apparaat aan te kopen of te gebruiken dat persoonsgegevens over zijn levensstijl of zijn gezondheid verzamelt, dan wel de door een dergelijk met het internet verbonden apparaat verzamelde informatie te delen, noch op basis van het gebruik van dergelijke informatie door de verzekeraar.] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2020-12-10/32 , art. 5, 023; Inwerkingtreding : 25-01-2021>
 
-#### TITEL IV. - Winstdeling
+### TITEL IV. - Winstdeling
 
-## Art. 47
+###### Art. 47
 
 De bepalingen van deze titel hebben betrekking op de verzekeringsovereenkomsten waarvan het risico dan wel de verbintenis in België is gelegen.
 
-## Art. 48
+###### Art. 48
 
 De winstdeling mag enkel worden vermeld in reclame en andere op commercialisering gerichte documenten voor zover de verzekeraar wettelijk, dan wel contractueel, verplicht is over te gaan tot winstdeling en voor zover het recht op winstdeling van een individuele overeenkomst niet afhangt van de discretionaire beslissingsbevoegdheid van de verzekeraar.
 [ '> 1 [ '> 2 Niettegenstaande het eerste lid mag de winstdeling worden vermeld in reclame en andere op commercialisering gerichte documenten indien de verzekeraar noch wettelijk, noch contractueel, verplicht is over te gaan tot winstdeling en/of indien het recht op winstdeling bij een individuele overeenkomst afhangt van de discretionaire beslissingsbevoegdheid van de verzekeraar, mits naleving van de volgende voorwaarden:
@@ -1211,21 +1215,21 @@ De FSMA kan bij reglement de modaliteiten van het voorgaande lid nader precisere
 ( 1 )<W 2016-06-29/01 , art. 75, 005; Inwerkingtreding : 16-07-2016>
 ( 2 )<W 2018-07-30/47 , art. 71, 013; Inwerkingtreding : 15-09-2018>
 
-## Art. 49
+###### Art. 49
 
 [ '> 1 De Koning stelt, op advies van de FSMA en de Bank, de door de verzekeraars na te leven regels inzake deelneming in de winst, vast.] '> 1
 Voor het sluiten van de verzekeringsovereenkomst deelt de verzekeraar aan de kandidaat-verzekeringnemer op individuele wijze mee of en onder welke voorwaarden er een recht op winstdeling ten gunste van de verzekeringsovereenkomsten is. De wijze van berekening en van toewijzing wordt toegelicht.
 ----------
 ( 1 )<W 2016-06-29/01 , art. 76, 005; Inwerkingtreding : 16-07-2016>
 
-## Art. 50
+###### Art. 50
 
 § 1. De verzekeringnemer wordt minstens één maal per jaar ingelicht over de situatie van de winstdeling en wordt gedurende de gehele looptijd van de overeenkomst ingelicht over elke wijziging aan de situatie van de winstdeling.
 § 2. Wanneer de verzekeraar in samenhang met een aanbod voor of het afsluiten van een verzekeringsovereenkomst uit de groep activiteiten "leven" projecties met betrekking tot de winstdeling verstrekt, legt de verzekeraar de verzekeringnemer een modelberekening voor waarin de potentiële uitkering aan het eind van de looptijd wordt vermeld op basis van een berekening bij drie verschillende rentepercentages. Dit geldt niet voor tijdelijke overlijdensverzekeringen. De verzekeraar deelt de verzekeringnemer op duidelijke en begrijpelijke wijze mee dat de modelberekening slechts een voorbeeld is, dat is gebaseerd op theoretische aannamen, en dat de verzekeringnemer uit de modelberekening geen contractuele aanspraken mag afleiden.
 § 3. In geval van verzekeringen met winstdeling stelt de verzekeraar de verzekeringnemer jaarlijks schriftelijk in kennis van de stand van zijn vorderingen met inbegrip van de winstdeling. Indien de verzekeraar projecties met betrekking tot de winstdeling heeft verstrekt, wijst hij de verzekeringnemer bovendien op afwijkingen tussen de feitelijke ontwikkeling en de aanvankelijke gegevens.
 § 4. De verzekeraar bezorgt de FSMA een kopie van de in bovenstaande paragrafen vermelde mededelingen aan de verzekeringnemer.
 
-## Art. 51
+###### Art. 51
 
 § 1. Indien de winstdeling wordt vermeld in reclame en/of andere op commercialisering gerichte documenten [ '> 1 overeenkomstig artikel 48, eerste lid] '> 1 , stelt de verzekeraar ter informatie van de verzekeringnemers een winstdelingsplan op. De verzekeraar stelt dit plan ter beschikking van de kandidaat-verzekeringnemer voordat de verzekeringsovereenkomst wordt afgesloten. Voor zover deze een invloed hebben op de verzekeringsovereenkomsten, worden latere wijzigingen aan het plan onverwijld schriftelijk meegedeeld aan de verzekeringnemers.
 § 2. In dit winstdelingsplan wordt het volgende in voor de verzekeringnemer begrijpelijke termen uiteengezet :
@@ -1238,13 +1242,13 @@ Voor het sluiten van de verzekeringsovereenkomst deelt de verzekeraar aan de kan
 ----------
 ( 1 )<W 2018-07-30/47 , art. 72, 013; Inwerkingtreding : 15-09-2018>
 
-## Art. 52
+###### Art. 52
 
 § 1. De in de artikelen 48 tot en met 51 bedoelde inlichtingen worden duidelijk, nauwkeurig en schriftelijk verstrekt in één van de officiële Belgische landstalen.
 Deze inlichtingen mogen evenwel ook in een andere taal aan de verzekeringnemer worden gesteld indien de verzekeringnemer daarom verzoekt, dan wel indien de verzekeringnemer vrij het toepasselijke recht kan kiezen.
 § 2. De Koning kan, bij besluit genomen na advies van de FSMA, de inhoud van en de wijze waarop de in de artikelen 48 tot en met 51 bedoelde inlichtingen moet worden verstrekt, verder bepalen.
 
-## Art. 53
+###### Art. 53
 
 De Koning kan, via een in de Ministerraad overlegd besluit genomen na advies van de FSMA en de Bank, voor één of meerdere verzekeringsactiviteiten, bepalen :
 1° dat een deel van de uitkeerbare winst moet worden verdeeld onder de collectiviteit van de verzekeringsovereenkomsten en volgens welke modaliteiten dit deel van de winst en de gebruikte verdeelsleutel tussen de aandeelhouders en de collectiviteit van de overeenkomsten moet worden berekend;
@@ -1252,20 +1256,20 @@ De Koning kan, via een in de Ministerraad overlegd besluit genomen na advies van
 3° op welk ogenblik de toegekende bedragen worden geacht definitief verworven te zijn door de begunstigden;
 4° op welke wijze de bovenstaande punten door de verzekeringsonderneming boekhoudkundig moeten worden verwerkt.
 
-### DEEL 4. - DE LANDVERZEKERINGSOVEREENKOMST
+## DEEL 4. - DE LANDVERZEKERINGSOVEREENKOMST
 
-#### TITEL I. - Toepassingsgebied en definities
+### TITEL I. - Toepassingsgebied en definities
 
 Toepassingsgebied
 
-## Art. 54
+###### Art. 54
 
 De bepalingen van dit deel zijn van toepassing op alle landverzekeringsovereenkomsten die onderworpen zijn aan het Belgische recht voor zover er niet wordt van afgeweken door bijzondere wetten.
 Zij zijn niet van toepassing op de herverzekering noch op de verzekeringen van goederenvervoer, met uitzondering van de bagage- en verhuisverzekeringen.
 
 Definities
 
-## Art. 55
+###### Art. 55
 
 In dit deel wordt verstaan onder :
 1° "benadeelde" : in een aansprakelijkheidsverzekering, degene aan wie schade is toegebracht waarvoor de verzekerde aansprakelijk is.
@@ -1279,19 +1283,19 @@ In dit deel wordt verstaan onder :
 
 Dwingende regels
 
-## Art. 56
+###### Art. 56
 
 De bepalingen van dit deel zijn van dwingend recht, tenzij uit de bewoordingen zelf blijkt dat de mogelijkheid wordt gelaten om er van af te wijken door bijzondere bedingen.
 
-#### TITEL II. - De verzekeringsovereenkomst in het algemeen
+### TITEL II. - De verzekeringsovereenkomst in het algemeen
 
 #### HOOFDSTUK 1. - Bepalingen betreffende alle verzekeringsovereenkomsten
 
-##### Afdeling I. - Het sluiten van de overeenkomst
 
 Verzekeringsvoorstel, voorafgetekende polis en verzekeringsaanvraag
 
-## Art. 57
+##### Afdeling I. - Het sluiten van de overeenkomst
+###### Art. 57
 
 § 1. Het verzekeringsvoorstel verbindt noch de kandidaat-verzekeringnemer, noch de verzekeraar tot het sluiten van de overeenkomst. Indien binnen dertig dagen na de ontvangst van het voorstel de verzekeraar aan de kandidaat-verzekeringnemer geen verzekeringsaanbod heeft ter kennis gebracht of de verzekering afhankelijk heeft gesteld van een aanvraag tot onderzoek of de verzekering heeft geweigerd, verbindt hij zich tot het sluiten van de overeenkomst op straffe van schadevergoeding. Die bepalingen, evenals de vermelding dat de ondertekening van het voorstel geen dekking meebrengt, moeten uitdrukkelijk in het verzekeringsvoorstel worden opgenomen.
 § 2. Bij een voorafgetekende polis of een verzekeringsaanvraag komt de overeenkomst tot stand bij de ondertekening van een van deze stukken door de verzekeringnemer.
@@ -1312,21 +1316,21 @@ Het opzeggingsrecht is niet van toepassing op reis- en bagageverzekeringspolisse
 
 Mededelingsplicht
 
-## Art. 58
+###### Art. 58
 
 De verzekeringnemer is verplicht bij het sluiten van de overeenkomst alle hem bekende omstandigheden nauwkeurig mee te delen die hij redelijkerwijs moet beschouwen als gegevens die van invloed kunnen zijn op de beoordeling van het risico door de verzekeraar. Hij moet de verzekeraar echter geen omstandigheden meedelen die deze laatste reeds kende of redelijkerwijs had moeten kennen. Genetische gegevens mogen niet worden meegedeeld.
 Indien op sommige schriftelijke vragen van de verzekeraar niet wordt geantwoord en indien deze toch de overeenkomst heeft gesloten, kan hij zich, behalve in geval van bedrog, later niet meer op dat verzuim beroepen.
 
 Opzettelijk verzwijgen of opzettelijk onjuist meedelen van gegevens
 
-## Art. 59
+###### Art. 59
 
 Wanneer het opzettelijk verzwijgen of het opzettelijk onjuist meedelen van gegevens over het risico de verzekeraar misleidt bij de beoordeling van dat risico, is de verzekeringsovereenkomst nietig.
 De premies die vervallen zijn tot op het ogenblik waarop de verzekeraar kennis heeft gekregen van het opzettelijk verzwijgen of opzettelijk onjuist meedelen van gegevens, komen hem toe.
 
 Onopzettelijk verzwijgen of onopzettelijk onjuist meedelen van gegevens
 
-## Art. 60
+###### Art. 60
 
 § 1. Wanneer het verzwijgen of het onjuist meedelen van gegevens niet opzettelijk geschiedt, is de overeenkomst niet nietig.
 De verzekeraar stelt, binnen de termijn van een maand, te rekenen van de dag waarop hij van het verzwijgen of van het onjuist meedelen van gegevens kennis heeft gekregen, voor de overeenkomst te wijzigen met uitwerking op de dag waarop hij kennis heeft gekregen van het verzwijgen of van het onjuist meedelen.
@@ -1340,7 +1344,7 @@ Indien de verzekeraar echter bij een schadegeval het bewijs levert dat hij het r
 
 Medische informatie
 
-## Art. 61
+###### Art. 61
 
 De door de verzekerde gekozen arts kan de verzekerde die erom verzoekt de geneeskundige verklaringen afleveren die voor het sluiten of het uitvoeren van de overeenkomst nodig zijn. Deze verklaringen beperken zich tot een beschrijving van de huidige gezondheidstoestand.
 Deze verklaringen mogen uitsluitend aan de adviserend arts van de verzekeraar worden bezorgd. Deze mag de verzekeraar geen informatie geven die niet-pertinent is gezien het risico waarvoor de verklaringen werden opgemaakt of betreffende andere personen dan de verzekerde.
@@ -1348,15 +1352,15 @@ Het medisch onderzoek, noodzakelijk voor het sluiten en het uitvoeren van de ove
 Mits de verzekeraar aantoont de voorafgaande toestemming van de verzekerde te bezitten, geeft de arts van de verzekerde aan de adviserend arts van de verzekeraar een verklaring af over de doodsoorzaak.
 Wanneer er geen risico meer bestaat voor de verzekeraar, bezorgt de adviserend arts de geneeskundige verklaringen, op hun verzoek, terug aan de verzekerde of, in geval van overlijden, aan zijn rechthebbenden.
 
-##### Afdeling Ibis. [ '> 1 - Recht om vergeten te worden.] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2019-04-04/26 , art. 2, 019; Inwerkingtreding : 01-02-2020>
 
-###### Onderafdeling 1. [ '> 1 - "Toepassingsgebied"] '> 1
+##### Afdeling Ibis. [ '> 1 - Recht om vergeten te worden.] '> 1
+##### Onderafdeling 1. [ '> 1 - "Toepassingsgebied"] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2022-10-30/02 , art. 2, 027; Inwerkingtreding : 27-11-2022>
 
-## Art. 61/1
+###### Art. 61/1
 
 [ '> 1 De bepalingen van deze afdeling zijn van toepassing op:
 1° verzekeringsovereenkomsten die de terugbetaling van het kapitaal waarborgen:
@@ -1372,16 +1376,16 @@ Onderafdeling 1/1. [ '> 1 Informatiedocument ] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2025-01-20/06 , art. 3, 038; Inwerkingtreding : 01-06-2026>
 
-Art. 61/1/1 . [ '> 1 De verzekeringsonderneming informeert de kandidaat-verzekerde, op eigen initiatief, schriftelijk en op duidelijke, uitdrukkelijke en ondubbelzinnige wijze over de bepalingen van deze afdeling, het Opvolgingsbureau voor de tarifering bedoeld in artikel 217 en de overeenkomstig artikel 220 erkende Compensatiekas in de vorm van een gestandaardiseerd informatiedocument. Dit informatiedocument wordt minstens samen en tegelijkertijd met de medische vragenlijst overgemaakt aan de kandidaat-verzekerde. Het wordt ook kenbaar gemaakt op de website van de verzekeringsonderneming.
+###### Art. 61/1/1 . [ '> 1 De verzekeringsonderneming informeert de kandidaat-verzekerde, op eigen initiatief, schriftelijk en op duidelijke, uitdrukkelijke en ondubbelzinnige wijze over de bepalingen van deze afdeling, het Opvolgingsbureau voor de tarifering bedoeld in artikel 217 en de overeenkomstig artikel 220 erkende Compensatiekas in de vorm van een gestandaardiseerd informatiedocument. Dit informatiedocument wordt minstens samen en tegelijkertijd met de medische vragenlijst overgemaakt aan de kandidaat-verzekerde. Het wordt ook kenbaar gemaakt op de website van de verzekeringsonderneming.
 De Koning kan, na advies van het Federaal Kenniscentrum voor de Gezondheidszorg, de vorm en de nadere inhoudelijke richtlijnen bepalen van het gestandaardiseerd informatiedocument. ] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2025-01-20/06 , art. 4, 038; Inwerkingtreding : 01-06-2026>
 
-###### Onderafdeling 2. [ '> 1 - Schuldsaldoverzekering] '> 1
+##### Onderafdeling 2. [ '> 1 - Schuldsaldoverzekering] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2022-10-30/02 , art. 4, 027; Inwerkingtreding : 27-11-2022>
 
-## Art. 61/2
+###### Art. 61/2
 
 [ '> 1 § 1.[ '> 2 Onverminderd artikel 58, moeten personen die getroffen werden of worden door een kankeraandoening, ongeacht het type, en die een verzekering zoals bedoeld in artikel 61/1, 1°, willen aangaan, bij het verstrijken van een termijn van vijf jaar na het succesvol beëindigen van de behandeling en voor zover er geen herval plaatsvond binnen deze termijn, deze aandoening niet langer meedelen aan hun verzekeraar.] '> 2 .
 § 2. [ '> 2 Indien de verzekeringsonderneming kennis heeft van de kankeraandoening bedoeld in paragraaf 1, is het voor de verzekeringsonderneming verboden om bij het verstrijken van een termijn van vijf jaar na het succesvol beëindigen van de behandeling en voor zover er geen herval plaatsvond binnen deze termijn, deze kankeraandoening in acht te nemen bij het bepalen van de huidige gezondheidstoestand, zoals bedoeld in artikel 61.] '> 2 .
@@ -1393,7 +1397,7 @@ De verzekeringsonderneming mag deze kankeraandoening niet uitsluiten uit het ver
 ( 1 )<W 2022-10-30/02 , art. 5, 027; Inwerkingtreding : 27-11-2022>
 ( 2 )<W 2025-01-20/06 , art. 5, 038; Inwerkingtreding : 01-06-2026>
 
-## Art. 61/3
+###### Art. 61/3
 
 [ '> 1 § 1. Voor zover het medisch en verzekeringstechnisch objectief en redelijk verantwoord is op basis van wetenschappelijke gegevens, kan de Koning in een referentierooster een aantal types van kankeraandoeningen definiëren waarvoor de termijn bedoeld in artikel 61/2, § 2, wordt aangepast, in functie van leeftijdscategorieën en/of het type van kankeraandoeningen. De aangepaste termijn mag in geen geval langer dan acht jaar bedragen. Indien de persoon op het moment dat de kankeraandoening werd gediagnosticeerd jonger was dan 21 jaar, mag de aangepaste termijn in geen geval vijf jaar overschrijden.
 Het is de verzekeringsonderneming verboden om na de termijn vermeld in het referentierooster, rekening te houden met deze aandoeningen bij het bepalen van de huidige gezondheidstoestand.
@@ -1402,7 +1406,7 @@ Het is de verzekeringsonderneming verboden om na de termijn vermeld in het refer
 ----------
 ( 1 )<W 2022-10-30/02 , art. 6, 027; Inwerkingtreding : 27-11-2022>
 
-## Art. 61/4
+###### Art. 61/4
 
 [ '> 1 § 1. Voor zover het medisch en verzekeringstechnisch objectief en redelijk verantwoord is op basis van wetenschappelijke gegevens, kan de Koning in een referentierooster een aantal chronische ziektes definiëren waarvoor, in voorkomend geval, gekoppeld aan de nadere regels:
 1° de verzekeringsonderneming geen bijpremies mag aanrekenen, noch in een uitsluiting mag voorzien of de overeenkomst mag weigeren ten gevolge van deze aandoening;
@@ -1413,7 +1417,7 @@ Het is de verzekeringsonderneming verboden om na de termijn vermeld in het refer
 ----------
 ( 1 )<W 2022-10-30/02 , art. 7, 027; Inwerkingtreding : 27-11-2022>
 
-## Art. 61/5
+###### Art. 61/5
 
 [ '> 1 § 1. Het Federaal Kenniscentrum voor de Gezondheidszorg evalueert het referentierooster tweejaarlijks in functie van de medische vooruitgang en de beschikbare wetenschappelijke gegevens inzake de aandoeningen, bedoeld in de artikelen 61/3 en 61/4. Het deelt zijn voorstel van aanpassing van het referentierooster mee aan het Opvolgingsbureau voor de tarifering, bedoeld in artikel 217. Dit Opvolgingsbureau zendt het voorstel, vergezeld van zijn advies, door aan de minister bevoegd voor Verzekeringen, evenals aan de minister bevoegd voor Sociale Zaken.
 Voor zover het medisch en verzekeringstechnisch objectief en redelijk verantwoord is op basis van wetenschappelijke gegevens, kan de Koning het referentierooster aanpassen.
@@ -1421,24 +1425,24 @@ Voor zover het medisch en verzekeringstechnisch objectief en redelijk verantwoor
 ----------
 ( 1 )<Ingevoegd bij W 2022-10-30/02 , art. 8, 027; Inwerkingtreding : 27-11-2022>
 
-## Art. 61/6
+###### Art. 61/6
 
 [ '> 1 De financiering van de adviserende opdracht van het Opvolgingsbureau voor de tarifering over de voorstellen van het Federaal Kenniscentrum voor de Gezondheidszorg betreffende het recht om vergeten te worden zoals bedoeld in de artikelen 61/3 tot 61/5, is ten laste van de overeenkomstig artikel 220 erkende Compensatiekas.] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2022-10-30/02 , art. 9, 027; Inwerkingtreding : 27-11-2022>
 
-## Art. 61/7
+###### Art. 61/7
 
 [ '> 1 Onverminderd de bevoegdheid van de hoven en rechtbanken, worden de geschillen met betrekking tot de toepassing van de bepalingen van deze onderafdeling door de meest gerede partij eerst voorgelegd aan het Opvolgingsbureau voor de tarifering bedoeld in artikel 217. Het Opvolgingsbureau voor de tarifering geeft zijn advies binnen vijftien werkdagen vanaf de ontvangst van het volledige dossier. Op eenvoudig verzoek van het Bureau, zendt de verzekeringsonderneming haar dossier door.
 De financiering van de adviserende opdracht van het Opvolgingsbureau voor de tarifering inzake geschillen zoals bedoeld in het eerste lid, is ten laste van de overeenkomstig artikel 220 erkende Compensatiekas.] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2022-10-30/02 , art. 10, 027; Inwerkingtreding : 27-11-2022>
 
-###### Onderafdeling 3. [ '> 1 - arbeidsongeschiktheidsverzekering] '> 1
+##### Onderafdeling 3. [ '> 1 - arbeidsongeschiktheidsverzekering] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2022-10-30/02 , art. 11, 027; Inwerkingtreding : 27-11-2022>
 
-## Art. 61/8
+###### Art. 61/8
 
 [ '> 1 § 1[ '> 2 Onverminderd artikel 58, moeten personen die getroffen werden of worden door een kankeraandoening, ongeacht het type, en die een verzekering zoals bedoeld in artikel 61/1, 2°, willen aangaan, bij het verstrijken van een termijn van vijf jaar na het succesvol beëindigen van de behandeling en voor zover er geen herval noch een arbeidsongeschiktheid ten gevolge van de kanker plaatsvond binnen deze termijn, deze aandoening niet langer meedelen aan hun verzekeraar] '> 2 .
 § 2. [ '> 2 Indien de verzekeringsonderneming kennis heeft van de kankeraandoening bedoeld in paragraaf 1, is het voor de verzekeringsonderneming verboden om bij het verstrijken van een termijn van vijf jaar na het succesvol beëindigen van de behandeling en voor zover er geen herval noch een arbeidsongeschiktheid ten gevolge van de kanker plaatsvond binnen deze termijn, deze kankeraandoening in acht te nemen bij het bepalen van de huidige gezondheidstoestand, zoals bedoeld in artikel 61] '> 2 .
@@ -1448,7 +1452,7 @@ De verzekeringsonderneming mag deze kankeraandoening niet uitsluiten uit de verz
 ( 1 )<Ingevoegd bij W 2022-10-30/02 , art. 12, 027; Inwerkingtreding : 27-11-2022>
 ( 2 )<W 2025-01-20/06 , art. 6, 038; Inwerkingtreding : 01-06-2026>
 
-## Art. 61/9
+###### Art. 61/9
 
 [ '> 1 § 1. Niettegenstaande de artikelen 61/8 en 61/10, mag de verzekeringsonderneming de blijvende economische en/of fysiologische arbeidsongeschiktheid en/of invaliditeit ten gevolge van kanker die bestaat op het ogenblik van de sluiting van de verzekeringsovereenkomst of van de aansluiting bij een beroepsgebonden verzekering, uitsluiten van de dekking.
 De voorgestelde uitsluiting en de redenen daarvoor moeten in duidelijke, nauwkeurige en begrijpelijke bewoordingen aan de kandidaat-verzekeringnemer of, in voorkomend geval, aan de kandidaat-verzekerde worden medegedeeld. In de motivering zet de verzekeraar met name uiteen welke gegevens hij heeft gebruikt, alsook welke criteria hij heeft gehanteerd bij de formulering van zijn voorstel.
@@ -1463,7 +1467,7 @@ De verzekeringsovereenkomst bepaalt in duidelijke, nauwkeurige en begrijpelijke 
 ----------
 ( 1 )<Ingevoegd bij W 2022-10-30/02 , art. 13, 027; Inwerkingtreding : 27-11-2022>
 
-## Art. 61/10
+###### Art. 61/10
 
 [ '> 1 § 1. Voor zover het medisch en verzekeringstechnisch objectief en redelijk verantwoord is op basis van wetenschappelijke gegevens, kan de Koning, op voorstel van het Federaal Kenniscentrum voor de Gezondheidszorg en na het advies van ten minste één expert inzake verzekeringstechniek te hebben ingewonnen, in een referentierooster een aantal types van kankeraandoeningen definiëren waarvoor de termijn bedoeld in artikel 61/8, § 2, wordt aangepast. De aangepaste termijn mag in geen geval meer dan acht jaar bedragen. Indien de persoon op het moment dat de kankeraandoening werd gediagnosticeerd jonger was dans 21 jaar, mag de aangepaste termijn in geen geval vijf jaar overschrijden.
 Het is de verzekeringsonderneming verboden om na de termijn vermeld in het referentierooster, rekening te houden met deze aandoening bij het bepalen van de huidige gezondheidstoestand.
@@ -1472,7 +1476,7 @@ Het is de verzekeringsonderneming verboden om na de termijn vermeld in het refer
 ----------
 ( 1 )<Ingevoegd bij W 2022-10-30/02 , art. 14, 027; Inwerkingtreding : 27-11-2022>
 
-## Art. 61/11
+###### Art. 61/11
 
 [ '> 1 § 1. Voor zover het medisch en verzekeringstechnisch objectief en redelijk verantwoord is op basis van wetenschappelijke gegevens, kan de Koning, op voorstel van het Federaal Kenniscentrum voor de Gezondheidszorg en na het advies van ten minste één expert inzake verzekeringen te hebben ingewonnen, in een referentierooster, een aantal chronische ziektes definiëren waarvoor, in voorkomend geval, gekoppeld aan de nadere regels:
 1° de verzekeringsonderneming geen bijpremies mag aanrekenen, noch in een uitsluiting mag voorzien of de overeenkomst mag weigeren ten gevolge van deze aandoening;
@@ -1483,7 +1487,7 @@ Het is de verzekeringsonderneming verboden om na de termijn vermeld in het refer
 ----------
 ( 1 )<Ingevoegd bij W 2022-10-30/02 , art. 15, 027; Inwerkingtreding : 27-11-2022>
 
-## Art. 61/12
+###### Art. 61/12
 
 [ '> 1 § 1. Het Federaal Kenniscentrum voor de Gezondheidszorg evalueert het referentierooster tweejaarlijks in functie van de medische vooruitgang en de beschikbare wetenschappelijke gegevens inzake de aandoeningen, bedoeld in de artikelen 61/10 en 61/11. Het deelt het voorstel van aanpassing van het referentierooster mee aan de minister bevoegd voor Verzekeringen, evenals aan de minister bevoegd voor Sociale Zaken.
 Voor zover het medisch en verzekeringstechnisch objectief en redelijk verantwoord is op basis van wetenschappelijke gegevens, kan de Koning, op voorstel van het Federaal Kenniscentrum voor de Gezondheidszorg, na het advies van ten minste één expert inzake verzekeringstechniek te hebben ingewonnen, het referentierooster aanpassen.
@@ -1491,7 +1495,7 @@ Voor zover het medisch en verzekeringstechnisch objectief en redelijk verantwoor
 ----------
 ( 1 )<Ingevoegd bij W 2022-10-30/02 , art. 16, 027; Inwerkingtreding : 27-11-2022>
 
-## Art. 61/13
+###### Art. 61/13
 
 [ '> 1 § 1. Onverminderd de artikelen 61/10, 61/11 en 61/12 kan de Koning bij het in artikel 217 bedoelde Opvolgingsbureau voor tarifering een afdeling oprichten die bevoegd is voor de arbeidsongeschiktheidsverzekering. De Koning kan deze afdeling belasten met het uitbrengen van adviezen over de voorstellen van het Federaal Kenniscentrum voor de Gezondheidszorg en ze zodanig te amenderen dat ze in overeenstemming zijn met de medische- en verzekeringstechniek.
 De Koning kan deze afdeling van het Opvolgingsbureau voor de tarifering belasten met het uitbrengen van adviezen in het kader van geschillen met betrekking tot de toepassing van deze onderafdeling, en de modaliteiten ervan vaststellen.
@@ -1500,29 +1504,29 @@ Tweejaarlijks, te rekenen vanaf de datum van inwerkingtreding van dit artikel, w
 ----------
 ( 1 )<Ingevoegd bij W 2022-10-30/02 , art. 17, 027; Inwerkingtreding : 27-11-2022>
 
-###### Onderafdeling 4. [ '> 1 Reisannulatieverzekering ] '> 1
+##### Onderafdeling 4. [ '> 1 Reisannulatieverzekering ] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2025-01-20/06 , art. 7, 038; Inwerkingtreding : 01-06-2026>
 
-Art. 61/14 [ '> 1 Voor de verzekering bedoeld in artikel 61/1, 3°, wordt een stabiele aandoening als bedoeld in paragraaf 3 op het moment van de reservering van de reis als vergeten beschouwd, in de zin dat die aandoening bij een eventuele latere annulering niet als grondslag kan gebruikt worden voor het niet toekennen van de waarborg door de verzekeraar.
+###### Art. 61/14 [ '> 1 Voor de verzekering bedoeld in artikel 61/1, 3°, wordt een stabiele aandoening als bedoeld in paragraaf 3 op het moment van de reservering van de reis als vergeten beschouwd, in de zin dat die aandoening bij een eventuele latere annulering niet als grondslag kan gebruikt worden voor het niet toekennen van de waarborg door de verzekeraar.
 § 2. Onverminderd artikel 58, moet de persoon getroffen door een stabiele aandoening als bedoeld in paragraaf 3 de aandoening niet meedelen aan de verzekeraar. Indien de verzekeringsonderneming kennis heeft van de aandoening als bedoeld in het eerste lid, is het voor de verzekeringsonderneming verboden deze aandoening in acht te nemen bij het bepalen van de huidige gezondheidstoestand, zoals bedoeld in artikel 61.
 § 3. Onder stabiele aandoening wordt begrepen een aandoening waarvoor er gedurende één maand voorafgaand aan de reservering van de reis geen nieuwe medische behandeling of medicatie vereist is en waarbij er volgens de behandelende arts geen medische tegenindicatie bestaat om de reis te maken.
 § 4. De Koning kan nadere regels bepalen betreffende de toepassing van dit artikel, waaronder de administratieve modaliteiten en procedures voor het verifiëren van een stabiele aandoening. ] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2025-01-20/06 , art. 8, 038; Inwerkingtreding : 01-06-2026>
 
-## Art. 61/15
+###### Art. 61/15
 
 [ '> 1 Onverminderd de bevoegdheid van de hoven en rechtbanken, worden de geschillen met betrekking tot de toepassing van de bepalingen van deze onderafdeling door de meest gerede partij eerst voorgelegd aan het Opvolgingsbureau voor de tarifering bedoeld in artikel 217. Het Opvolgingsbureau voor de tarifering geeft zijn advies binnen vijftien werkdagen vanaf de ontvangst van het volledige dossier. Op eenvoudig verzoek van het Bureau, zendt de verzekeringsonderneming haar dossier door.
 De financiering van de adviserende opdracht van het Opvolgingsbureau voor de tarifering inzake geschillen zoals bedoeld in het eerste lid, is ten laste van de overeenkomstig artikel 220 erkende Compensatiekas. ] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2025-01-20/06 , art. 9, 038; Inwerkingtreding : 01-06-2026>
 
-##### Afdeling II. - Omvang van de dekking
 
 Bedrog en schuld
 
-## Art. 62
+##### Afdeling II. - Omvang van de dekking
+###### Art. 62
 
 Niettegenstaande enig andersluidend beding, kan de verzekeraar niet verplicht worden dekking te geven aan hem die het schadegeval opzettelijk heeft veroorzaakt.
 De verzekeraar dekt de schade veroorzaakt door de schuld, zelfs de grove schuld, van de verzekeringnemer, van de verzekerde of van de begunstigde. De verzekeraar kan zich echter van zijn verplichtingen bevrijden voor de gevallen van grove schuld die op uitdrukkelijke en beperkende wijze in de overeenkomst zijn bepaald.
@@ -1530,17 +1534,17 @@ De Koning kan een beperkende lijst opstellen van feiten die niet als grove schul
 
 Oorlog
 
-## Art. 63
+###### Art. 63
 
 Tenzij anders is bedongen, dekt de verzekeraar geen schade veroorzaakt door oorlog of gelijkaardige feiten en door burgeroorlog.
 De verzekeraar moet het bewijs leveren van het feit dat hem van het verlenen van dekking bevrijdt.
 De Koning kan echter regels vaststellen die de bewijslast van het feit dat de verzekeraar bevrijdt van het verlenen van dekking verlichten.
 
-##### Afdeling III. - Bewijs en inhoud van de overeenkomst
 
 Bewijs en inhoud van de overeenkomst
 
-## Art. 64
+##### Afdeling III. - Bewijs en inhoud van de overeenkomst
+###### Art. 64
 
 § 1. Onder voorbehoud van de bekentenis en de eed, en ongeacht het bedrag van de verbintenissen, worden de verzekeringsovereenkomst alsook de wijzigingen ervan tussen partijen door geschrift bewezen. Geen enkel bewijs door getuigen of door vermoedens tegen en boven de inhoud van het geschrift is toegelaten.
 Indien evenwel een begin van bewijs door geschrift wordt geleverd, is het bewijs door getuigen of vermoedens toegelaten.
@@ -1557,18 +1561,18 @@ Artikel [ '> 1 8.22] '> 1 van het Burgerlijk Wetboek is niet van toepassing op d
 ----------
 ( 1 )<W 2019-04-13/28 , art. 55, 022; Inwerkingtreding : 01-11-2020>
 
-##### Afdeling IV. - Uitvoering van de overeenkomst
 
 Geheel of gedeeltelijk verval van het recht op verzekeringsprestatie
 
-## Art. 65
+##### Afdeling IV. - Uitvoering van de overeenkomst
+###### Art. 65
 
 In de verzekeringsovereenkomst mag geen geheel of gedeeltelijk verval van het recht op verzekeringsprestatie bedongen worden dan wegens niet-nakoming van een bepaalde, in de overeenkomst opgelegde verplichting, en mits er een oorzakelijk verband bestaat tussen de tekortkoming en het schadegeval.
 De Koning kan echter regels vaststellen met betrekking tot het geheel of gedeeltelijk verval van het recht op verzekeringsprestatie.
 
 Combinatiepolissen
 
-## Art. 66
+###### Art. 66
 
 Wanneer de verzekeraar zich in een zelfde overeenkomst tot verschillende prestaties verbindt, hetzij omwille van de gegeven dekking, hetzij omwille van de verzekerde risico's, geldt de grond van opzegging betreffende een van die prestaties niet voor de gehele overeenkomst, tenzij anders is bedongen.
 Indien de verzekeraar de waarborg met betrekking tot één of meer prestaties opzegt, dan mag de verzekeringnemer de gehele verzekeringsovereenkomst opzeggen.
@@ -1576,7 +1580,7 @@ De grond van nietigheid betreffende één van de prestaties geldt niet voor de g
 
 Wijze van betaling van de premie en van de verzekeringsprestatie
 
-## Art. 67
+###### Art. 67
 
 De verzekeringspremie is een haalschuld.
 Wanneer de premie niet rechtstreeks aan de verzekeraar wordt betaald, is de premiebetaling aan een derde bevrijdend indien deze de betaling vordert en hij voor de inning van die premie klaarblijkelijk als lasthebber van de verzekeraar optreedt.
@@ -1584,7 +1588,7 @@ Wanneer de verzekeraar de bedragen die hij in het kader van de uitvoering van de
 
 Betaling aan minderjarigen, onbekwaamverklaarden en andere onbekwamen
 
-## Art. 68
+###### Art. 68
 
 De verzekeraar die aan een minderjarige, onbekwaamverklaarde of andere onbekwame een betaling verricht bij toepassing van een verzekeringsovereenkomst, doet dit op een rekening die op zijn naam is geopend en die onbeschikbaar is tot de meerderjarigheid of het opheffen van de onbekwaamheid, onverminderd het recht op wettelijk genot.
 [ '> 1 De aldus gestorte sommen kunnen vrijgemaakt worden op basis van een bijzondere machtiging van de vrederechter, op verzoek van de voogd of de bewindvoerder van de goederen, volgens dezelfde regels die van toepassing zijn op de omstandigheden bedoeld in de artikelen 410, § 1, 14°, of 499/7, § 2, van het Burgerlijk Wetboek.] '> 1
@@ -1593,14 +1597,14 @@ De verzekeraar die aan een minderjarige, onbekwaamverklaarde of andere onbekwame
 
 Niet-betaling van de premie
 
-## Art. 69
+###### Art. 69
 
 Niet-betaling van de premie op de vervaldag kan grond opleveren tot schorsing van de dekking of tot opzegging van de overeenkomst mits de schuldenaar in gebreke is gesteld.
 De verzekeringsovereenkomst kan echter bepalen dat de dekking pas aanvangt na de betaling van de eerste premie.
 
 Aanmaning tot betaling
 
-## Art. 70
+###### Art. 70
 
 De ingebrekestelling bedoeld in artikel 69 geschiedt bij deurwaardersexploot of bij een aangetekende brief.
 Daarbij wordt aangemaand om de premie te betalen binnen de termijn bepaald in de ingebrekestelling. Die termijn mag niet korter zijn dan vijftien dagen, te rekenen vanaf de dag volgend op de betekening of de dag volgend op de afgifte van de aangetekende brief.
@@ -1608,7 +1612,7 @@ In de ingebrekestelling wordt aan de premievervaldag en aan het premiebedrag her
 
 Uitwerking van de schorsing van de dekking of van de opzegging van de overeenkomst
 
-## Art. 71
+###### Art. 71
 
 De schorsing of de opzegging hebben slechts uitwerking na het verstrijken van de termijn bedoeld in artikel 70, tweede lid.
 Als de dekking geschorst is, wordt als gevolg van de betaling van de achterstallige premies door de verzekeringnemer een einde gemaakt aan die schorsing.
@@ -1618,14 +1622,14 @@ De bepalingen van dit artikel met betrekking tot de schorsing van de dekking zij
 
 Gevolgen van de schorsing ten aanzien van de nog te vervallen premies
 
-## Art. 72
+###### Art. 72
 
 De schorsing van de dekking doet geen afbreuk aan het recht van de verzekeraar de later nog te vervallen premies te eisen op voorwaarde dat de verzekeringnemer in gebreke werd gesteld overeenkomstig artikel 70. In dit geval herinnert de ingebrekestelling aan de schorsing van de waarborg.
 Het recht van de verzekeraar wordt evenwel beperkt tot de premies voor twee opeenvolgende jaren.
 
 Premiekrediet
 
-## Art. 73
+###### Art. 73
 
 [ '> 1 In geval van opzegging van de overeenkomst op welke gronden ook, of verval ervan door het wegvallen van het verzekerde belang worden de betaalde premies met betrekking tot de verzekerde periode na het van kracht worden van de opzegging of het verval terugbetaald binnen een termijn van dertig dagen vanaf de inwerkingtreding van de opzegging of vanaf de kennisgeving van het wegvallen van het verzekerde belang door de verzekeringnemer of, in geval van toepassing van artikel 57, § 3, vanaf de ontvangst door de verzekeraar van de kennisgeving van de opzegging.] '> 1
 Bij gedeeltelijke opzegging of bij enige andere vermindering van de verzekeringsprestaties zijn de bepalingen van het eerste lid alleen van toepassing op het gedeelte van de premie dat betrekking heeft op en in verhouding staat tot die vermindering.
@@ -1634,7 +1638,7 @@ Bij gedeeltelijke opzegging of bij enige andere vermindering van de verzekerings
 
 Betaling van een verzekeringsprestatie en sancties BR>
 
-## Art. 73/1
+###### Art. 73/1
 
 [ '> 1 § 1. Dit artikel geldt bij gebreke van andere specifieke wetsbepalingen met betrekking tot bepaalde soorten schadegevallen, met name de artikelen 111/1, 121, 145/1 tot 145/5, 197/1 en 197/2 van deze wet, alsook de artikelen 13 en 14 van de wet van 21 november 1989 betreffende de verplichte aansprakelijkheidsverzekering inzake motorrijtuigen.
 § 2. Wanneer een persoon naar aanleiding van een schadegeval een verzoek tot betaling van een verzekeringsprestatie indient maar de verzekeraar de dekking van dit schadegeval door de verzekeringsovereenkomst betwist, geeft de verzekeraar een met redenen omkleed antwoord op de elementen die in het verzoek worden vermeld binnen een termijn van drie maanden vanaf de datum waarop dit verzoek werd ingediend.
@@ -1662,7 +1666,7 @@ Het gedeelte van de verzekeringsprestatie dat niet binnen de in het eerste lid b
 
 Melding van het schadegeval
 
-## Art. 74
+###### Art. 74
 
 § 1. De verzekerde moet, zodra mogelijk en in elk geval binnen de termijn bepaald in de overeenkomst het schadegeval aan de verzekeraar melden.
 De verzekeraar kan er zich echter niet op beroepen dat de in de overeenkomst gestelde termijn om de in het eerste lid bedoelde melding te doen niet in acht is genomen, indien die melding zo spoedig als redelijkerwijze mogelijk is geschiedt.
@@ -1670,22 +1674,22 @@ De verzekeraar kan er zich echter niet op beroepen dat de in de overeenkomst ges
 
 Verplichtingen van de verzekerde bij schadegeval
 
-## Art. 75
+###### Art. 75
 
 Bij elke verzekering tot vergoeding van schade moet de verzekerde alle redelijke maatregelen nemen om de gevolgen van het schadegeval te voorkomen en te beperken.
 
 Sancties
 
-## Art. 76
+###### Art. 76
 
 § 1. Indien de verzekerde één van de verplichtingen hem opgelegd door de artikelen 74 en 75 niet nakomt en er daardoor een nadeel ontstaat voor de verzekeraar, kan deze aanspraak maken op een vermindering van zijn prestatie tot beloop van het door hem geleden nadeel.
 § 2. De verzekeraar kan zijn dekking weigeren, indien de verzekerde de in de artikelen 74 en 75 bedoelde verplichtingen met bedrieglijk opzet niet is nagekomen.
 
-##### Afdeling V. - Beding ten behoeve van derden
 
 Beding ten behoeve van derden
 
-## Art. 77
+##### Afdeling V. - Beding ten behoeve van derden
+###### Art. 77
 
 Partijen kunnen te allen tijde overeenkomen dat een derde, onder de voorwaarden welke zij bepalen, aanspraak kan hebben op de door de verzekering geboden voordelen.
 Die derde moet niet aangeduid zijn of zelfs niet verwekt zijn op het ogenblik dat het beding wordt gemaakt, maar hij moet aanwijsbaar zijn op de dag dat de verzekeringsprestaties opeisbaar zijn.
@@ -1693,15 +1697,15 @@ De Koning kan, na advies van de FSMA, nadere regels bepalen waaraan bedingen ten
 
 Mededeling van de voorwaarden van de dekking
 
-## Art. 78
+###### Art. 78
 
 Iedere begunstigde die onder bezwarende titel recht heeft op de dekking van een verzekering, heeft het recht van de verzekeringnemer of, zo nodig, van de verzekeraar mededeling te krijgen van de voorwaarden van de dekking.
 
-##### Afdeling VI. - Niet bestaan en wijziging van het risico
 
 Niet-bestaan van het risico
 
-## Art. 79
+##### Afdeling VI. - Niet bestaan en wijziging van het risico
+###### Art. 79
 
 De verzekering is nietig, wanneer bij het sluiten van de overeenkomst het risico niet bestaat of reeds verwezenlijkt is.
 Hetzelfde geldt voor de verzekering van een toekomstig risico, indien dit zich niet voordoet.
@@ -1709,14 +1713,14 @@ Wanneer de verzekeringnemer, in de gevallen bedoeld in het eerste en tweede lid,
 
 Vermindering van het risico
 
-## Art. 80
+###### Art. 80
 
 Wanneer gedurende de loop van een verzekeringsovereenkomst, andere dan een levensverzekering of ziekteverzekeringsovereenkomst, het risico dat het verzekerde voorval zich voordoet, aanzienlijk en blijvend verminderd is en wel zo dat de verzekeraar, indien die vermindering bij het sluiten van de overeenkomst had bestaan, op andere voorwaarden zou hebben verzekerd, is hij verplicht een overeenkomstige vermindering van de premie toe te staan vanaf de dag waarop hij van de vermindering van het risico kennis heeft gekregen.
 Indien de contractanten het over de nieuwe premie niet eens worden binnen een maand na de aanvraag tot vermindering door de verzekeringnemer, kan deze laatste de overeenkomst opzeggen.
 
 Verzwaring van het risico
 
-## Art. 81
+###### Art. 81
 
 § 1. Behalve wanneer het om een levensverzekeringsovereenkomst, een ziekte-verzekering of een kredietverzekeringsovereen-komst gaat, heeft de verzekeringnemer de verplichting in de loop van de overeenkomst en onder de voorwaarden van artikel 58 de nieuwe omstandigheden of de wijzigingen van de omstandigheden aan te geven die van aard zijn om een aanmerkelijke en blijvende verzwaring van het risico dat het verzekerde voorval zich voordoet te bewerkstelligen.
 Onverminderd hetgeen bepaald is in deel 3, titel III, hoofdstuk 2, wanneer gedurende de loop van een verzekeringsovereenkomst, andere dan een levensverzekering, een ziekteverzekering of een kredietverzekeringsovereenkomst, het risico dat het verzekerde voorval zich voordoet zo verzwaard is dat de verzekeraar, indien die verzwaring bij het sluiten van de overeenkomst had bestaan, op andere voorwaarden zou hebben verzekerd, moet binnen een termijn van een maand, te rekenen vanaf de dag waarop hij van de verzwaring kennis heeft gekregen, de wijziging van de overeenkomst voorstellen met terugwerkende kracht tot de dag van de verzwaring.
@@ -1730,26 +1734,26 @@ b) is de verzekeraar er slechts toe gehouden de prestatie te leveren naar de ver
 Zo de verzekeraar evenwel het bewijs aanbrengt dat hij het verzwaarde risico in geen enkel geval zou verzekerd hebben, dan is zijn prestatie bij schadegeval beperkt tot de terugbetaling van alle betaalde premies;
 c) zo de verzekeringnemer met bedrieglijk opzet gehandeld heeft, kan de verzekeraar zijn dekking weigeren. De premies, vervallen tot op het ogenblik waarop de verzekeraar kennis heeft gekregen van het bedrieglijk verzuim, komen hem toe als schadevergoeding.
 
-##### Afdeling VII. - Medeverzekering en taak van de eerste verzekeraar
 
 Medeverzekering
 
-## Art. 82
+##### Afdeling VII. - Medeverzekering en taak van de eerste verzekeraar
+###### Art. 82
 
 Medeverzekering houdt geen hoofdelijkheid in, tenzij anders is bedongen.
 
 Taak van de eerste verzekeraar
 
-## Art. 83
+###### Art. 83
 
 Bij medeverzekering dient een eerste verzekeraar te worden aangewezen in de overeenkomst. Deze wordt geacht de lasthebber te zijn van de overige verzekeraars voor het ontvangen van de kennisgevingen bepaald in de overeenkomst en om het nodige te doen om de schadegevallen te regelen, met inbegrip van de vaststelling van het bedrag van de schadevergoeding.
 Dientengevolge kan de verzekerde hem alle betekeningen en kennisgevingen doen, met uitzondering van deze die betrekking hebben op rechtsvorderingen ingesteld tegen de andere medeverzekeraars. Indien er in de overeenkomst geen eerste verzekeraar was aangeduid dan kan de verzekerde om het even wie van de medeverzekeraars als eerste verzekeraar beschouwen voor de toepassing van dit artikel. Niettemin moet de verzekerde zich steeds wenden tot dezelfde medeverzekeraar als eerste verzekeraar.
 
-##### Afdeling VIII. - Opzeggingswijzen
 
 Opzeggingswijzen
 
-## Art. 84
+##### Afdeling VIII. - Opzeggingswijzen
+###### Art. 84
 
 § 1. De overeenkomst kan worden opgezegd [ '> 1 bij een aangetekende zending] '> 1 , bij deurwaardersexploot of door afgifte van de opzeggingsbrief tegen ontvangstbewijs. [ '> 1 Indien de aangetekende zending elektronisch wordt verstuurd, moet het gaan om een gekwalificeerde dienst voor elektronisch aangetekende bezorging in de zin van artikel 3.37 van Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn 1999/93/EG.] '> 1
 In het geval van artikel 71 geschiedt de opzegging bij de akte van ingebrekestelling, bedoeld in artikel 70.
@@ -1761,11 +1765,11 @@ Onverminderd paragraaf 2 heeft de opzegging pas uitwerking na het verstrijken va
 ----------
 ( 1 )<W 2023-10-09/04 , art. 2, 033; Inwerkingtreding : 01-10-2024>
 
-##### Afdeling IX. - Duur en einde van de overeenkomst
 
 Duur van de verplichtingen
 
-## Art. 85
+##### Afdeling IX. - Duur en einde van de overeenkomst
+###### Art. 85
 
 § 1. De duur van de verzekeringsovereenkomst mag niet langer zijn dan één jaar. [ '> 2 Behalve wanneer de verzekeringnemer ten minste twee maanden vóór de vervaldag van de overeenkomst zich ertegen verzet, volgens de in artikel 84, §§ 1 of 3, voorgeschreven wijzen, of behalve wanneer de verzekeraar ten minste drie maanden vóór de vervaldag van de overeenkomst zich ertegen verzet, volgens de in artikel 84, § 1, voorgeschreven wijzen] '> 2 , wordt ze stilzwijgend verlengd voor opeenvolgende periodes van één jaar.
 [ '> 1 De Koning kan, bij een besluit vastgesteld na overleg in de Ministerraad en na advies van de Nationale Bank van België, voor bepaalde types van verzekeringen kortere termijnen bepalen waarbinnen de verzekeringnemer zich moet verzetten tegen de stilzwijgende verlenging.] '> 1
@@ -1787,7 +1791,7 @@ De volgende risico's kunnen evenwel niet worden uitgesloten :
 
 Opzegging ingeval van bepaalde stilzwijgend verlengbare overeenkomsten BR>
 
-## Art. 85/1
+###### Art. 85/1
 
 [ '> 1 § 1. Dit artikel is van toepassing op stilzwijgend verlengbare verzekeringsovereenkomsten:
 - die behoren tot de bedrijfstakken uit de groep activiteiten "niet-leven";
@@ -1805,7 +1809,7 @@ Hetzelfde recht geldt wanneer de verzekeringnemer zich overeenkomstig artikel 85
 ----------
 ( 1 )<Ingevoegd bij W 2023-10-09/04 , art. 4, 033; Inwerkingtreding : 01-10-2024>
 
-## Art. 85/2
+###### Art. 85/2
 
 [ '> 1 In het kader van de delegatie bepaald in artikel 85/1, § 4, kan de Koning voorzien in de verwerking van persoonsgegevens, voor zover is voldaan aan de volgende voorwaarden:
 1° de categorie van personen van wie de persoonsgegevens het voorwerp van een verwerking mogen uitmaken, zijn de verzekeringnemer, de huidige verzekeraar of de verzekeringstussenpersoon die, als lasthebber van één of meer verzekeringsondernemingen, het recht heeft om in naam en voor rekening van die verzekeringsonderneming de verzekeringsovereenkomst te beheren;
@@ -1818,7 +1822,7 @@ Hetzelfde recht geldt wanneer de verzekeringnemer zich overeenkomstig artikel 85
 
 Opzegging na schadegeval
 
-## Art. 86
+###### Art. 86
 
 § 1. In de gevallen waarin de verzekeraar zich het recht voorbehoudt de overeenkomst na het zich voordoen van een schadegeval op te zeggen, beschikt de verzekeringnemer over hetzelfde recht. Die opzegging geschiedt ten laatste één maand na de uitbetaling of de weigering tot uitbetaling van de schadevergoeding.
 De opzegging wordt van kracht na het verstrijken van een termijn van ten minste drie maanden te rekenen van de dag volgend op de betekening, de dag volgend op de datum van het ontvangstbewijs of, ingeval van een aangetekende zending, te rekenen van de dag die volgt op zijn afgifte.
@@ -1832,17 +1836,17 @@ De risico's, bedoeld in artikel 85, § 2, tweede lid, kunnen evenwel niet uitges
 
 Faillissement van de verzekeringnemer
 
-## Art. 87
+###### Art. 87
 
 In geval van faillissement van de verzekeringnemer blijft de verzekering bestaan ten voordele van de massa van de schuldeisers, die jegens de verzekeraar instaan voor de betaling van de premies die nog moeten vervallen na de faillietverklaring.
 Niettemin hebben de verzekeraar en de curator van het faillissement het recht de overeenkomst op te zeggen. Evenwel kan de opzegging van de overeenkomst door de verzekeraar slechts gebeuren ten vroegste drie maanden na de faillietverklaring, terwijl de curator van het faillissement dit slechts kan gedurende de drie maanden na de faillietverklaring.
 Dit artikel is niet van toepassing op de persoonsverzekeringen.
 
-##### Afdeling X. - Verjaring
 
 Verjaringstermijn
 
-## Art. 88
+##### Afdeling X. - Verjaring
+###### Art. 88
 
 § 1. De verjaringstermijn voor elke rechtsvordering voortvloeiend uit een verzekeringsovereenkomst bedraagt drie jaar. In de levensverzekering bedraagt de termijn dertig jaar voor wat betreft de rechtsvordering aangaande de reserve die op de datum van opzegging of op de einddatum gevormd is door de betaalde premies, onder aftrek van de verbruikte sommen.
 De termijn begint te lopen vanaf de dag van het voorval dat het vorderingsrecht doet ontslaan. Wanneer degene aan wie de rechtsvordering toekomt, bewijst dat hij pas op een later tijdstip van het voorval kennis heeft gekregen, begint de termijn te lopen vanaf dat tijdstip, maar hij verstrijkt in elk geval vijf jaar na het voorval, behoudens bedrog.
@@ -1854,7 +1858,7 @@ Indien de benadeelde evenwel bewijst dat hij pas op een later tijdstip kennis he
 
 Schorsing en stuiting van de verjaring
 
-## Art. 89
+###### Art. 89
 
 § 1. De verjaring tegen minderjarigen, onbekwaamverklaarden en andere onbekwamen loopt niet tot de dag van de meerderjarigheid of van de opheffing van de onbekwaamheid.
 § 2. De verjaring loopt niet tegen de verzekerde, de begunstigde of de benadeelde die zich door overmacht in de onmogelijkheid bevindt om binnen de voorgeschreven termijn op te treden.
@@ -1862,11 +1866,11 @@ Schorsing en stuiting van de verjaring
 § 4. Stuiting of schorsing van de verjaring van de rechtsvordering van de benadeelde tegen een verzekerde heeft stuiting of schorsing van de verjaring van zijn rechtsvordering tegen de verzekeraar tot gevolg. Stuiting of schorsing van de verjaring van de rechtsvordering van de benadeelde tegen de verzekeraar heeft stuiting of schorsing van de verjaring van zijn rechtsvordering tegen de verzekerde tot gevolg.
 § 5. De verjaring van de vordering bedoeld in artikel 88, § 2, wordt gestuit zodra de verzekeraar kennis krijgt van de wil van de benadeelde om een vergoeding te bekomen voor de door hem geleden schade. De stuiting eindigt op het ogenblik dat de verzekeraar aan de benadeelde schriftelijk kennis geeft van zijn beslissing om te vergoeden of van zijn weigering.
 
-##### Afdeling XI. - Scheidsrechterlijke uitspraken
 
 Scheidsrechterlijke uitspraken
 
-## Art. 90
+##### Afdeling XI. - Scheidsrechterlijke uitspraken
+###### Art. 90
 
 § 1. Het beding waarbij de partijen bij een verzekeringsovereenkomst zich vooraf verbinden de geschillen die uit de overeenkomst zouden ontstaan, voor te leggen aan scheidsrechters, wordt voor niet geschreven gehouden.
 § 2. De bepalingen van paragraaf 1 zijn niet van toepassing op de verzekeringsovereenkomsten betreffende de risico's die de Koning bepaalt.
@@ -1876,33 +1880,33 @@ De risico's, bedoeld in artikel 85, § 2, tweede lid, kunnen evenwel niet uitges
 
 Belang bij het verzekerde
 
-## Art. 91
+###### Art. 91
 
 De verzekerde moet kunnen aantonen dat hij een in geld waardeerbaar belang heeft bij het behoud van de zaak of bij de gaafheid van het vermogen.
 
 Verzekering ten behoeve van een derde
 
-## Art. 92
+###### Art. 92
 
 De verzekering kan worden gesloten ten behoeve van wie het aangaat. In dat geval is de verzekerde hij die in geval van schade aantoont belang te hebben bij het verzekerde.
 Alle excepties eigen aan de verzekeringsovereenkomst en waarop de verzekeraar zich tegen de verzekeringnemer kan beroepen zijn tegenstelbaar aan de verzekerde, wie het ook zij.
 
 Omvang van de verzekeringsprestatie
 
-## Art. 93
+###### Art. 93
 
 De prestatie die de verzekeraar verschuldigd is, mag de door de verzekerde geleden schade niet te boven gaan.
 Deze schade kan ondermeer bestaan in verlies van gebruik van het verzekerde goed en in derving van verwachte winst.
 
 Samenloop van verzekeringen van verschillende aard
 
-## Art. 94
+###### Art. 94
 
 Tenzij anders is bedongen, wordt de prestatie die voortvloeit uit een verzekeringsovereenkomst tot vergoeding van schade niet verminderd met de prestatie die voortvloeit uit een verzekering tot uitkering van een vast bedrag.
 
 Indeplaatsstelling van de verzekeraar
 
-## Art. 95
+###### Art. 95
 
 De verzekeraar die de schadevergoeding betaald heeft, treedt ten belope van het bedrag van die vergoeding in de rechten en rechtsvorderingen van de verzekerde of de begunstigde tegen de aansprakelijke derden.
 Indien, door toedoen van de verzekerde of de begunstigde, de indeplaatsstelling geen gevolg kan hebben ten voordele van de verzekeraar, kan deze van hem de terugbetaling vorderen van de betaalde schadevergoeding in de mate van het geleden nadeel.
@@ -1912,27 +1916,27 @@ De verzekeraar kan evenwel verhaal uitoefenen op de in het vorige lid genoemde p
 
 Oververzekering te goeder trouw
 
-## Art. 96
+###### Art. 96
 
 Wanneer een bedrag te goeder trouw te hoog is verzekerd bij een of meer overeenkomsten afgesloten bij dezelfde verzekeraar, heeft elke partij het recht dit te verminderen tot de waarde van het verzekerde.
 Wanneer het verzekerde bedrag is verdeeld over verschillende overeenkomsten, afgesloten bij verschillende verzekeraars, wordt de vermindering, bij gebrek aan overeenstemming tussen alle partijen, toegepast op de bij de overeenkomsten verzekerde bedragen, naar hun tijdsorde, te beginnen met de jongste overeenkomst, en brengt zij de opzegging mee van één of verscheidene overeenkomsten waarvan het verzekerde bedrag aldus tot nul wordt teruggebracht.
 
 Oververzekering te kwader trouw
 
-## Art. 97
+###### Art. 97
 
 Wanneer een zelfde verzekerbaar belang door een of meer overeenkomsten te kwader trouw verzekerd is voor een te hoog bedrag, bij een of meer verzekeraars, zijn de overeenkomsten nietig en hebben de verzekeraar of de verzekeraars, indien zij te goeder trouw zijn, het recht de geïnde premies te behouden als schadevergoeding.
 
 Onderverzekering : evenredigheidsbeginsel
 
-## Art. 98
+###### Art. 98
 
 § 1. Indien de waarde van het verzekerbaar belang bepaalbaar is en indien het verzekerd bedrag lager is dan die waarde, dan is de verzekeraar slechts tot prestatie gehouden naar de verhouding van dat bedrag tot die waarde, tenzij anders is bedongen.
 § 2. De Koning kan voor bepaalde risico's de onderverzekering en de toepassing van het evenredigheidsbeginsel beperken of verbieden.
 
 Verdeling van de last van het schadegeval in geval van samenloop van verzekeringen
 
-## Art. 99
+###### Art. 99
 
 § 1. Wanneer een zelfde belang is verzekerd bij verscheidene verzekeraars tegen hetzelfde risico, kan de verzekerde, in geval van schade, van elke verzekeraar schadevergoeding vorderen binnen de grenzen van ieders verplichtingen en ten belope van de vergoeding waarop hij recht heeft.
 Behalve in geval van fraude, kan geen verzekeraar zich beroepen op het bestaan van andere overeenkomsten die hetzelfde risico dekken om zijn waarborg te weigeren.
@@ -1944,14 +1948,14 @@ Behalve in geval van fraude, kan geen verzekeraar zich beroepen op het bestaan v
 
 Overlijden van de verzekeringnemer, begunstigde van de dekking
 
-## Art. 100
+###### Art. 100
 
 In geval van overgang van het verzekerde belang ten gevolge van het overlijden van de verzekeringnemer, gaan de rechten en verplichtingen uit de verzekeringsovereenkomst over op de nieuwe houder van dat belang.
 De nieuwe houder van het verzekerde belang en de verzekeraar kunnen evenwel kennis geven van de beëindiging van de overeenkomst, de eerste bij een aangetekende brief, binnen drie maanden en veertig dagen na het overlijden, de tweede in de bij artikel 84, § 1, voorgeschreven vormen, binnen drie maanden te rekenen vanaf de dag waarop hij kennis heeft gekregen van het overlijden.
 
 Overeenkomsten gesloten intuitu personae
 
-## Art. 101
+###### Art. 101
 
 In afwijking van artikel 100 eindigt de overeenkomst die uit hoofde van de persoon van de verzekerde is gesloten, van rechtswege door diens overlijden.
 
@@ -1959,91 +1963,91 @@ In afwijking van artikel 100 eindigt de overeenkomst die uit hoofde van de perso
 
 Belang bij het verzekerde
 
-## Art. 102
+###### Art. 102
 
 De begunstigde moet een persoonlijk en geoorloofd belang hebben bij het zich niet voordoen van de verzekerde gebeurtenis.
 Dat belang is voldoende aangetoond wanneer de verzekerde met de overeenkomst heeft ingestemd.
 
 Geen indeplaatsstelling
 
-## Art. 103
+###### Art. 103
 
 Tenzij anders is bedongen, treedt de verzekeraar die de verzekerde prestaties heeft uitgevoerd, niet in de rechten van de verzekeringnemer of de begunstigde jegens derden.
 
 Samenloop van schadevergoedingen en prestaties
 
-## Art. 104
+###### Art. 104
 
 Tenzij anders is bedongen, worden de verplichtingen van de verzekeraar niet verminderd door de schadevergoedingen of prestaties die de begunstigde op andere gronden verkrijgt.
 
-#### TITEL III. - Schadeverzekeringen
+### TITEL III. - Schadeverzekeringen
 
 #### HOOFDSTUK 1. - Algemene bepalingen
 
 Het beginsel van de schadevergoeding
 
-## Art. 105
+###### Art. 105
 
 Elke schadeverzekering beoogt de vergoeding van schade.
 
 Reddingskosten
 
-## Art. 106
+###### Art. 106
 
 De kosten die voortvloeien zowel uit de maatregelen die de verzekeraar heeft gevraagd om de gevolgen van het schadegeval te voorkomen of te beperken als uit de dringende en redelijke maatregelen die de verzekerde uit eigen beweging heeft genomen om bij nakend gevaar een schadegeval te voorkomen, of, zodra het schadegeval ontstaat, om de gevolgen ervan te voorkomen of te beperken, worden mits zij met de zorg van een goed huisvader zijn gemaakt, door de verzekeraar gedragen, ook wanneer de aangewende pogingen vruchteloos zijn geweest. Zij komen te zijnen laste zelfs boven de verzekerde som.
 Voor de aansprakelijkheidsverzekeringen, andere dan die bedoeld in de wet van 21 november 1989 betreffende de verplichte aansprakelijkheidsverzekering inzake motorrijtuigen en voor de zaakverzekeringsovereenkomsten, kan de Koning de in het eerste lid van dit artikel bedoelde kosten beperken.
 
 #### HOOFDSTUK 2. - Zaakverzekeringsovereenkomsten
 
-##### Afdeling I. - Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen
 
-###### Onderafdeling 1. - Verzekerbare waarde
+##### Afdeling I. - Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen
+##### Onderafdeling 1. - Verzekerbare waarde
 
 Wijze van waardebepaling
 
-## Art. 107
+###### Art. 107
 
 De partijen kunnen bepalen op welke wijze de waarde van de goederen wordt begroot voor de verzekering. In afwijking van artikel 93 kunnen zij een herbouwwaarde, een herstelwaarde of een vervangingswaarde bedingen, zelfs zonder aftrek van de waardevermindering wegens ouderdom.
 
 Vaststelling van de verzekerde som
 
-## Art. 108
+###### Art. 108
 
 De verzekerde som wordt vastgesteld door de verzekeringnemer. Deze som wordt geacht gelijk te zijn aan de waarde van het verzekerbaar belang indien ze is vastgesteld in akkoord met de gemandateerde van de verzekeraar.
 Partijen kunnen overeenkomen dat die som van rechtswege wordt aangepast volgens maatstaven die zij bepalen.
 
 Voorafgaande taxatie
 
-## Art. 109
+###### Art. 109
 
 Partijen kunnen bij een uitdrukkelijk beding aan bepaalde goederen een getaxeerde waarde toekennen. Die waarde is voor partijen bindend, behoudens bedrog.
 Wanneer een goed waarvoor een getaxeerde waarde is bedongen een aanzienlijke waardevermindering ondergaat, kan elke partij het bedrag van de getaxeerde waarde verminderen of een einde maken aan de overeenkomst.
 
-###### Onderafdeling 2. - Verplichtingen van de verzekerde
+##### Onderafdeling 2. - Verplichtingen van de verzekerde
 
 Gesteldheid van de plaats
 
-## Art. 110
+###### Art. 110
 
 De verzekerde mag behalve indien het echt noodzakelijk is op eigen gezag geen veranderingen aanbrengen aan het beschadigde goed waardoor het onmogelijk of moeilijker wordt de oorzaken van de schade te bepalen of de schade te taxeren.
 Indien de verzekerde de in het eerste lid bedoelde verplichting niet nakomt en er daardoor nadeel ontstaat voor de verzekeraar, kan deze laatste aanspraak maken op een vermindering van zijn prestatie tot beloop van het door hem geleden nadeel of kan hij schadevergoeding vorderen.
 Komt de verzekerde de in het eerste lid bedoelde verplichting met bedrieglijk opzet niet na, dan kan de verzekeraar zijn dekking weigeren.
 
-###### Onderafdeling 3. - Overdracht onder de levenden
+##### Onderafdeling 3. - Overdracht onder de levenden
 
 Overdracht onder de levenden van een verzekerde zaak
 
-## Art. 111
+###### Art. 111
 
 § 1. In geval van overdracht onder de levenden van een onroerend goed, eindigt de verzekering van rechtswege drie maanden na de datum van het verlijden van de authentieke akte.
 Tot het verstrijken van de in het eerste lid bedoelde termijn, blijft de aan de overdrager verleende dekking gelden voor de overnemer, tenzij deze laatste dekking geniet uit hoofde van een andere overeenkomst.
 § 2. In geval van overdracht onder de levenden van een roerend goed, eindigt de verzekering van rechtswege zodra de verzekerde het goed niet meer in zijn bezit heeft, tenzij de partijen bij de verzekeringsovereenkomst een andere datum hebben bedongen.
 
-###### Onderafdeling 4. - Betaling van de schadevergoeding en voorrecht van de verzekeraar.
+##### Onderafdeling 4. - Betaling van de schadevergoeding en voorrecht van de verzekeraar.
 
 Betaling van een verzoek tot schadevergoeding en sancties BR>
 
-## Art. 111/1
+###### Art. 111/1
 
 [ '> 1 § 1. Dit artikel geldt bij gebreke van andere specifieke wetsbepalingen met betrekking tot bepaalde soorten schadegevallen, met name artikel 121.
 § 2. Wanneer de verzekerde een verzoek tot schadevergoeding indient maar de verzekeraar de dekking van het schadegeval door de verzekeringsovereenkomst betwist, geeft de verzekeraar een met redenen omkleed antwoord op de elementen die in het verzoek tot schadevergoeding worden vermeld binnen een termijn van drie maanden vanaf de datum waarop dit verzoek werd ingediend.
@@ -2073,7 +2077,7 @@ In het geval bedoeld in het eerste lid, 2°, kan de verzekeraar zich het recht v
 
 Bevoorrechte en hypothecaire schuldeisers
 
-## Art. 112
+###### Art. 112
 
 In zover de schadevergoeding die verschuldigd is wegens het verlies of de beschadiging van een goed niet geheel gebruikt wordt voor de herstelling of de vervanging van dat goed, wordt zij aangewend voor de betaling van de bevoorrechte of hypothecaire schuldvorderingen, ieder volgens haar rang.
 De betaling van de vergoeding aan de verzekerde bevrijdt niettemin de verzekeraar indien de schuldeisers wier voorrecht niet openbaar gemaakt wordt, geen voorafgaand verzet hebben gedaan.
@@ -2081,30 +2085,30 @@ Het eerste en het tweede lid doen geen afbreuk aan de wettelijke voorschriften b
 
 Faillissement van de verzekerde
 
-## Art. 113
+###### Art. 113
 
 In geval van faillissement van de verzekerde komt de vergoeding toe aan de failliete boedel. Zijn sommige van de verzekerde goederen evenwel niet vatbaar voor beslag, dan komt de vergoeding die verschuldigd is krachtens de overeenkomst tot verzekering van die goederen, aan de gefailleerde toe.
 
 Voorrecht van de verzekeraar
 
-## Art. 114
+###### Art. 114
 
 Het voorrecht geldt slechts op de verzekerde zaak voor de premie die betrekking heeft op de periode waarin de verzekeraar het risico daadwerkelijk heeft gedekt. Het geldt slechts voor een bedrag gelijk aan twee jaarpremies, ongeacht de wijze van betaling van de premie.
 Dat voorrecht heeft niet te worden ingeschreven. Het volgt in rang onmiddellijk na dat van de gerechtskosten.
 
-##### Afdeling II. - Nadere bepalingen betreffende sommige zaakverzekeringen
 
-###### Onderafdeling 1. - Brandverzekering
+##### Afdeling II. - Nadere bepalingen betreffende sommige zaakverzekeringen
+##### Onderafdeling 1. - Brandverzekering
 
 Normale dekking
 
-## Art. 115
+###### Art. 115
 
 Tenzij anders is bedongen, dekt de brandverzekering de verzekerde goederen tegen schade veroorzaakt door brand, door blikseminslag, door ontploffing, door implosie, alsmede door het neerstorten van of het getroffen worden door luchtvaartuigen of door voorwerpen die ervan afvallen of eruit vallen, en door het getroffen worden door enig ander voertuig of door dieren.
 
 Uitbreiding van de dekking
 
-## Art. 116
+###### Art. 116
 
 Ook wanneer het schadegeval zich voordoet buiten de verzekerde goederen, strekt de verzekeringsdekking zich uit tot schade die aan deze goederen is veroorzaakt door :
 1° hulpverlening of enig dienstig middel tot het behoud, het blussen of de redding;
@@ -2114,20 +2118,20 @@ Ook wanneer het schadegeval zich voordoet buiten de verzekerde goederen, strekt 
 
 Inboedelverzekering
 
-## Art. 117
+###### Art. 117
 
 De verzekering van de inboedel waarmee een gebouw of een gedeelte van een gebouw gestoffeerd is, omvat niet alleen de goederen die aan de verzekerde toebehoren, maar ook die van alle bij hem inwonende personen, ten behoeve van wie de verzekeringnemer geacht wordt de verzekering mede te hebben gesloten.
 Niettemin kunnen de partijen overeenkomen van de verzekerde inboedel bepaalde goederen, die in de overeenkomst worden bepaald, uit te sluiten.
 
 Verzekering van de met schade samenhangende aansprakelijkheid
 
-## Art. 118
+###### Art. 118
 
 Tenzij anders is bedongen wordt de schade voortkomend uit lichamelijke letsels niet gedekt door de verzekering van de aansprakelijkheid opgelopen tengevolge van een schadegeval dat de in de overeenkomst aangewezen goederen treft en waarvan de oorzaak of het voorwerp wordt vermeld in de artikelen 115 tot 117.
 
 Exclusiviteitsclausules
 
-## Art. 119
+###### Art. 119
 
 De verzekeraar kan de verzekeringnemer niet verplichten om bij hem te verzekeren :
 1° de verhoging van de verzekerde bedragen;
@@ -2136,7 +2140,7 @@ Het eerste lid doet geen afbreuk aan de toepassing van artikel 108, tweede lid.
 
 Rechten van bevoorrechte en hypothecaire schuldeisers
 
-## Art. 120
+###### Art. 120
 
 § 1. Geen verweermiddel of verval van recht voortvloeiend uit een feit dat zich na het schadegeval heeft voorgedaan, kan door de verzekeraar worden tegengeworpen aan de schuldeiser die op de verzekerde goederen een recht van voorrang heeft, dat de verzekeraar bekend is.
 § 2. De schorsing van de dekking van de verzekeraar, de vermindering van het bedrag en de opzegging van de overeenkomst kunnen aan de schuldeisers bedoeld in paragraaf 1 worden tegengeworpen.
@@ -2145,7 +2149,7 @@ Wanneer de schorsing of de opzegging het gevolg is van wanbetaling van de premie
 
 Betaling van schadevergoeding
 
-## Art. 121
+###### Art. 121
 
 § 1. De partijen kunnen overeenkomen dat de vergoeding slechts betaalbaar zal zijn naarmate de verzekerde goederen worden wedersamengesteld of wederopgebouwd.
 De niet-wederopbouw of -wedersamenstelling van die goederen buiten de wil van de verzekerde, heeft geen invloed op de berekening van de vergoeding, behalve dat het nieuwwaardebeding ontoepasselijk wordt.
@@ -2187,7 +2191,7 @@ Deze paragraaf is niet van toepassing op de eenvoudige risico's die de Koning ov
 ----------
 ( 1 )<W 2024-03-17/13 , art. 4, 034; Inwerkingtreding : 01-10-2024>
 
-Art. 121 TOEKOMSTIG RECHT .
+###### Art. 121 TOEKOMSTIG RECHT .
 
 § 1. De partijen kunnen overeenkomen dat de vergoeding slechts betaalbaar zal zijn naarmate de verzekerde goederen worden wedersamengesteld of wederopgebouwd.
 De niet-wederopbouw of -wedersamenstelling van die goederen buiten de wil van de verzekerde, heeft geen invloed op de berekening van de vergoeding, behalve dat het nieuwwaardebeding ontoepasselijk wordt.
@@ -2234,7 +2238,7 @@ Deze paragraaf is niet van toepassing op de eenvoudige risico's die de Koning ov
 
 Expertise ter plaatse of expertise met een door de verzekerde aangestelde expert
 
-Art. 121/1 TOEKOMSTIG RECHT .
+###### Art. 121/1 TOEKOMSTIG RECHT .
 
 [ '> 1 § 1. De verzekeraar en de verzekerde kunnen, elk wat hen betreft, een expert aanstellen.
 § 2. Onverminderd de overige wettelijke informatieverplichtingen, verstrekt de verzekeraar, alvorens de expert aangesteld door die verzekeraar zich ter plaatse begeeft, aan de verzekerde op een duidelijke en begrijpelijke wijze op een duurzame gegevensdrager, de volgende informatie:
@@ -2273,17 +2277,17 @@ De Koning kan de vorm en de inhoud van het slotverslag bepalen.
 
 Eigen recht van eigenaar en derden
 
-## Art. 122
+###### Art. 122
 
 De verzekeraar van de huurdersaansprakelijkheid keert, zowel in geval van huur als van onderhuur, de vergoeding uit aan de eigenaar van het gehuurde goed, met uitsluiting van alle andere schuldeisers van de huurder of van de onderhuurder.
 De verzekeraar van het verhaal van derden keert de vergoeding uitsluitend aan die derden uit.
 De eigenaar en de derden bezitten een eigen recht jegens de verzekeraar.
 
-###### Onderafdeling 2. - De verzekering tegen natuurrampen wat betreft eenvoudige risico's
+##### Onderafdeling 2. - De verzekering tegen natuurrampen wat betreft eenvoudige risico's
 
 Dekking van het risico van natuurrampen
 
-## Art. 123
+###### Art. 123
 
 De verzekeraar van de zaakverzekeringsovereenkomst met betrekking tot het gevaar brand die dekking verleent voor eenvoudige risico's, zoals bepaald ter uitvoering van artikel 121, § 2, verleent verplicht de waarborg tegen de hierna opgesomde natuurrampen volgens de voorwaarden bedoeld bij deze onderafdeling :
 a) de aardbeving;
@@ -2296,7 +2300,7 @@ Behoudens andersluidende bepalingen, worden de bepalingen van onderafdeling 1 to
 
 Natuurramp : omschrijving
 
-## Art. 124
+###### Art. 124
 
 § 1. Onder natuurramp wordt verstaan :
 a) hetzij een overstroming, te weten het buiten de oevers treden van waterlopen, kanalen, meren, vijvers of zeeën ten gevolge van atmosferische neerslag, het afvloeien van water wegens onvoldoende absorptie door de grond ten gevolge van atmosferische neerslag, het smelten van sneeuw of ijs, een dijkbreuk of een vloedgolf, alsmede de aardverschuivingen of grondverzakkingen die eruit voortvloeien;
@@ -2311,14 +2315,14 @@ d) hetzij een aardverschuiving of grondverzakking, te weten een beweging van een
 
 Natuurramp : eenheid
 
-## Art. 125
+###### Art. 125
 
 § 1. Worden beschouwd als één enkele aardbeving, de initiële aardbeving en haar naschokken die optreden binnen 72 uur, alsook de verzekerde gevaren die er rechtstreeks uit voortvloeien.
 § 2. Als één enkele overstroming wordt beschouwd, de initiële overstroming van een waterloop, kanaal, meer, vijver of zee en elke overloop die optreedt binnen 168 uur na het zakken van het waterpeil, te weten de terugkeer binnen zijn gewone limieten van de waterloop, kanaal, meer, vijver of zee alsook de verzekerde gevaren die er rechtstreeks uit voortvloeien.
 
 Omvang van de waarborg
 
-## Art. 126
+###### Art. 126
 
 De waarborg dekt op zijn minst :
 a) de schade die rechtstreeks aan de verzekerde goederen wordt veroorzaakt door een natuurramp zoals bepaald in artikel 124 of een verzekerd gevaar dat er rechtstreeks uit voortvloeit, inzonderheid brand, ontploffing met inbegrip van ontploffing van springstoffen, en implosie;
@@ -2331,7 +2335,7 @@ De Koning kan bijkomende minimumvoorwaarden betreffende de waarborg opleggen.
 
 Algemene uitsluitingen
 
-## Art. 127
+###### Art. 127
 
 § 1. Behalve andersluidende uitdrukkelijke bepalingen van de verzekeringsovereenkomst, zijn in principe van de waarborg bedoeld bij deze onderafdeling uitgesloten de niet-binnengehaalde oogsten, de levende veestapel buiten het gebouw, de bodem, de teelten en de bosaanplantingen.
 § 2. Kunnen van de waarborg bedoeld bij deze onderafdeling worden uitgesloten :
@@ -2348,14 +2352,14 @@ i) diefstal, vandalisme, onroerende en roerende beschadigingen gepleegd bij een 
 
 Uitsluitingen voor het gevaar overstroming en het overlopen of de opstuwing van openbare riolen
 
-## Art. 128
+###### Art. 128
 
 Uit de door deze onderafdeling bedoelde waarborg, maar alleen voor het gevaar overstroming en het overlopen of de opstuwing van openbare riolen kan worden uitgesloten, de schade veroorzaakt aan de inhoud van kelders die op minder dan 10 centimeter van de grond is opgesteld, met uitzondering van de verwarmings-, elektriciteits- en waterinstallaties die er blijvend zijn bevestigd.
 Onder een kelder verstaat men elk vertrek waarvan de grondoppervlakte zich bevindt op meer dan 50 centimeter beneden het niveau van de hoofdingang die leidt naar de woonvertrekken van het gebouw, met uitzondering van de kelderlokalen die blijvend als woonvertrekken of voor de uitoefening van een beroep zijn ingericht.
 
 Risicozones
 
-## Art. 129
+###### Art. 129
 
 § 1. Onder risicozones verstaat men de plaatsen die aan terugkerende en belangrijke overstromingen blootgesteld werden of blootgesteld kunnen worden.
 § 2. De Koning bepaalt, in overeenstemming met de gewesten de criteria op basis waarvan de gewesten hun voorstellen inzake de afbakening van de risicozones dienen te formuleren.
@@ -2377,7 +2381,7 @@ Deze uitzondering is niet van toepassing op de goederen of delen van de goederen
 
 Betaling van de vergoeding
 
-## Art. 130
+###### Art. 130
 
 § 1. Behoudens toepassing van paragraaf 2, wordt de vergoeding betaald volgens de bepalingen van artikel 121.
 De verzekeringsovereenkomst mag voor de risico's natuurrampen en andere uitzonderlijke gevaren geen hogere vrijstelling toepassen dan 610 euro per schadegeval. Dit bedrag is gekoppeld aan de ontwikkeling van het indexcijfer der consumptieprijzen met als basisindexcijfer dat van december 1983, namelijk 119,64 (Basis 1981 = 100).
@@ -2400,7 +2404,7 @@ Het bedrag van 2.000.000 euro, bedoeld bij deze paragraaf wordt geïndexeerd ove
 
 Tariferingsbureau
 
-## Art. 131
+###### Art. 131
 
 § 1. Teneinde de dekking van de door deze onderafdeling bedoelde risico's te verzekeren, richt de Koning een Tariferingsbureau op met als opdracht de tariefvoorwaarden vast te stellen voor de risico's die geen dekking vinden. Behoudens de gevallen bedoeld in artikel 129, § 3, heeft elke kandidaat-verzekeringnemer toegang tot de tariefvoorwaarden van het Tariferingsbureau overeenkomstig het bepaalde in paragraaf 2.
 De Koning stelt de datum van inwerkingtreding van het Bureau vast.
@@ -2422,7 +2426,7 @@ Tenzij de Koning er anders over beslist, oefent het Bureau zijn activiteiten uit
 
 Compensatiekas natuurrampen
 
-## Art. 132
+###### Art. 132
 
 § 1. De Koning erkent, onder de voorwaarden die Hij bepaalt, een Compensatiekas Natuurrampen, hierna Compensatiekas genoemd, met als opdracht de verdeelsleutel vast te stellen die toelaat de schadelast van de aan de voorwaarden van het Bureau getarifeerde risico's te verdelen tussen al de verzekeraars die in België de verzekering van de eenvoudige risico's tegen brand aanbieden.
 Bovendien kan de Koning aan de Compensatiekas in het raam van de dekking van natuurrampen een opdracht tot coördinatie tussen een verzekeraar en de Nationale Kas voor Rampenschade toevertrouwen.
@@ -2434,32 +2438,32 @@ In dat geval kan de Koning alle passende maatregelen nemen tot vrijwaring van de
 Zolang de vereffening duurt blijft de Compensatiekas aan de controle onderworpen.
 De Koning benoemt voor deze vereffening een bijzonder vereffenaar.
 
-###### Onderafdeling 3. - Oogstverzekering
+##### Onderafdeling 3. - Oogstverzekering
 
 Opzegging na schadegeval
 
-## Art. 133
+###### Art. 133
 
 In afwijking van artikel 86 wanneer de verzekeraar zich inzake oogstverzekering het recht heeft voorbehouden de verzekering na een schadegeval op te zeggen, heeft deze opzegging eerst gevolg na het verstrijken van de normale oogstperiode.
 
-###### Onderafdeling 4. - Krediet- en borgverzekering
+##### Onderafdeling 4. - Krediet- en borgverzekering
 
 Toepassingsgebied
 
-## Art. 134
+###### Art. 134
 
 Deze onderafdeling is toepasselijk op de verzekeringsovereenkomsten tegen niet-betaling aan de verzekerde van schuldvorderingen, alsook tegen de andere risico's die daarmee kunnen gelijkgesteld worden en die door de Koning worden bepaald.
 
 Niet-toepasselijke of aanvullende wetsbepalingen
 
-## Art. 135
+###### Art. 135
 
 De artikelen 57, 60, 81, 85, 86, 87, 90 en 95 zijn niet van toepassing op de kredietverzekering en op de borgtochtverzekering.
 De artikelen 66, tweede en derde lid, en 80 zijn aanvullend wat de krediet- en borgtochtverzekering betreft.
 
 Uitsluitingen
 
-## Art. 136
+###### Art. 136
 
 Dit deel is niet toepasselijk op :
 1° de kredietverzekering en de borgtochtverzekering tot dekking van schuldvorderingen op het buitenland;
@@ -2467,13 +2471,13 @@ Dit deel is niet toepasselijk op :
 
 Definitieve weigering van de dekking
 
-## Art. 137
+###### Art. 137
 
 In afwijking van de artikelen 71, tweede lid en 72, kan de verzekeraar definitief dekking weigeren wanneer de verzekeringnemer een maand na de aanmaning tot betaling de achterstallige premies niet heeft betaald; in dat geval is de verzekeringnemer nog tot betaling van de achterstallige premies gehouden.
 
 Onopzettelijk verzwijgen of onopzettelijk onjuist meedelen van gegevens bij de aangifte van het risico en verzwaring van het risico
 
-## Art. 138
+###### Art. 138
 
 Tenzij anders is bedongen, geldt :
 § 1. Wanneer het verzwijgen of het onjuist meedelen van gegevens niet opzettelijk geschiedt, kan de verzekeraar zijn prestatie verminderen op basis van de verhouding tussen de betaalde premie en de premie die de verzekeringnemer zou hebben moeten betalen indien hij het risico naar behoren had opgegeven. De verzekeraar kan niettemin zijn waarborg weigeren zo hij bewijst dat hij in geen enkel geval het werkelijke risico zou verzekerd hebben. In dat geval betaalt hij de premie terug.
@@ -2484,7 +2488,7 @@ Indien de verzekeringnemer te goeder trouw is, kan de verzekeraar zijn uitkering
 
 Verhaalrecht van de verzekeraar
 
-## Art. 139
+###### Art. 139
 
 Alle rechten en rechtsvorderingen van de verzekerde betreffende de schuldvordering, die het voorwerp uitmaakt van de verzekering, gaan over op de verzekeraar die de verzekerde, zelfs gedeeltelijk, schadeloos heeft gesteld.
 [ '> 1 Boek 5, titel 3, ondertitel 4, hoofdstuk 1, van het Burgerlijk Wetboek en artikel 60, derde lid, van boek III, titel XVII, van het oud Burgerlijk Wetboek] '> 1 zijn niet van toepassing op de overgang van rechten en rechtsvorderingen bedoeld in het eerste lid.
@@ -2495,7 +2499,7 @@ Indien de overdracht door het toedoen van de verzekerde geen gevolg kan hebben t
 
 Overdracht van de uit de overeenkomst voortvloeiende rechten en verplichtingen
 
-## Art. 140
+###### Art. 140
 
 De overdracht aan een derde van de rechten en verplichtingen die uit een overeenkomst van krediet- of borgtochtverzekering voortvloeien, kan aan de verzekeraar slechts worden tegengeworpen indien deze zijn schriftelijke toestemming heeft gegeven.
 
@@ -2503,13 +2507,13 @@ De overdracht aan een derde van de rechten en verplichtingen die uit een overeen
 
 Toepassingsgebied
 
-## Art. 141
+###### Art. 141
 
 Dit hoofdstuk is van toepassing op de verzekeringsovereenkomsten die ertoe strekken de verzekerde dekking te geven tegen alle vorderingen tot vergoeding wegens het voorvallen van de schade die in de overeenkomst is beschreven, en zijn vermogen binnen de grenzen van de dekking te vrijwaren tegen alle schulden uit een vaststaande aansprakelijkheid.
 
 Verplichtingen van de verzekeraar na het einde van de overeenkomst
 
-## Art. 142
+###### Art. 142
 
 § 1. De verzekeringswaarborg slaat op de schade voorgevallen tijdens de duur van de overeenkomst en strekt zich uit tot vorderingen die na het einde van deze overeenkomst worden ingediend.
 § 2. Voor de takken die deel uitmaken van de algemene burgerrechtelijke aansprakelijkheid, andere dan de burgerrechtelijke aansprakelijkheid inzake motorrijtuigen, die door de Koning worden bepaald, kunnen de partijen overeenkomen dat de verzekeringswaarborg alleen slaat op de vorderingen die schriftelijk worden ingesteld tegen de verzekerde of de verzekeraar tijdens de duur van de overeenkomst voor schade voorgevallen tijdens diezelfde duur.
@@ -2519,7 +2523,7 @@ In dat geval worden ook in aanmerking genomen, op voorwaarde dat ze schriftelijk
 
 Leiding van het geschil
 
-## Art. 143
+###### Art. 143
 
 Vanaf het ogenblik dat de verzekeraar tot het geven van dekking is gehouden en voor zover deze wordt ingeroepen, is hij verplicht zich achter de verzekerde te stellen binnen de grenzen van de dekking.
 Ten aanzien van de burgerrechtelijke belangen en in zover de belangen van de verzekeraar en van de verzekerde samenvallen, heeft de verzekeraar het recht om, in de plaats van de verzekerde, de vordering van de benadeelde te bestrijden. Hij kan deze laatste vergoeden indien daartoe grond bestaat.
@@ -2527,19 +2531,19 @@ De tussenkomsten van de verzekeraar houden geen enkele erkenning in van aansprak
 
 Overdracht van de stukken
 
-## Art. 144
+###### Art. 144
 
 Alle gerechtelijke en buitengerechtelijke stukken betreffende een schadegeval moeten onmiddellijk na de kennisgeving, de betekening of de terhandstelling aan de verzekerde, overgezonden worden aan de verzekeraar, bij verzuim waarvan de verzekerde de verzekeraar moet vergoeden voor de schade die deze geleden heeft.
 
 Niet-verschijning
 
-## Art. 145
+###### Art. 145
 
 Wanneer de verzekerde bij verzuim niet verschijnt of zich niet onderwerpt aan een door de rechtbank bevolen onderzoeksmaatregel, moet hij de schade die de verzekeraar zou hebben geleden, vergoeden.
 
 Toepassingsgebied van de betaling van een verzoek tot schadevergoeding en sancties in het geval van de aansprakelijkheidsdekking BR>
 
-## Art. 145/1
+###### Art. 145/1
 
 [ '> 1 De artikelen 145/2 tot en met 145/5 zijn van toepassing voor schade geleden door benadeelden die natuurlijke personen of rechtspersonen zijn.
 Zij gelden bij gebreke van andere specifieke wetsbepalingen met betrekking tot bepaalde soorten schadegevallen, met name de artikelen 13 en 14 van de wet van 21 november 1989 betreffende de verplichte aansprakelijkheidsverzekering inzake motorrijtuigen.] '> 1
@@ -2548,7 +2552,7 @@ Zij gelden bij gebreke van andere specifieke wetsbepalingen met betrekking tot b
 
 Betaling van een verzoek tot schadevergoeding en sancties BR>
 
-## Art. 145/2
+###### Art. 145/2
 
 [ '> 1 § 1. Binnen een termijn van drie maanden vanaf de datum waarop de benadeelde een verzoek tot schadevergoeding heeft ingediend, moet de verzekeraar die de aansprakelijkheid dekt van degene aan wie het schadegeval wordt toegerekend, of zijn mandataris voor de regeling van het schadegeval, een met redenen omkleed voorstel tot schadevergoeding voorleggen wanneer aan elk van de volgende voorwaarden is voldaan:
 1° de dekking van de aansprakelijkheid door de verzekeringsovereenkomst wordt niet betwist,
@@ -2567,7 +2571,7 @@ Dezelfde sanctie is van toepassing wanneer het bedrag vermeld in het in paragraa
 
 Sancties in het geval van ontbreken van een met redenen omkleed antwoord in het geval van betwisting BR>
 
-## Art. 145/3
+###### Art. 145/3
 
 [ '> 1 § 1. Wanneer de benadeelde een verzoek tot schadevergoeding indient maar:
 1° de dekking van de aansprakelijkheid door de verzekeringsovereenkomst wordt betwist,
@@ -2584,7 +2588,7 @@ De in het eerste en tweede lid bedoelde bedragen worden jaarlijks op 1 januari a
 
 Opschorting van de termijnen BR>
 
-## Art. 145/4
+###### Art. 145/4
 
 [ '> 1 De termijnen bepaald in de artikelen 145/2 en 145/3 worden opgeschort wanneer de verzekeraar de benadeelde schriftelijk de redenen duidelijk heeft gemaakt die, buiten zijn wil en die van zijn gemachtigden om, de goede uitvoering van zijn verplichtingen binnen de genoemde termijnen onmogelijk maken.] '> 1
 ----------
@@ -2592,7 +2596,7 @@ Opschorting van de termijnen BR>
 
 Beperkingen van het toepassingsgebied BR>
 
-## Art. 145/5
+###### Art. 145/5
 
 [ '> 1 De artikelen 145/2 en 145/3 zijn van toepassing wanneer de betaling of de betalingen door de verzekeraar rechtstreeks aan de benadeelde worden gedaan. Zij gelden niet:
 1° voor gesubrogeerde derden;
@@ -2602,7 +2606,7 @@ Beperkingen van het toepassingsgebied BR>
 
 Betaling door de verzekeraar van de hoofdsom, de intrest en de kosten
 
-## Art. 146
+###### Art. 146
 
 De verzekeraar betaalt de in hoofdsom verschuldigde schadevergoeding ten belope van de dekking.
 De verzekeraar betaalt, zelfs boven de dekkingsgrenzen, de intrest op de in hoofdsom verschuldigde schadevergoeding.
@@ -2611,27 +2615,27 @@ Voor de aansprakelijkheidsverzekeringen, andere dan die bedoeld in de wet van 21
 
 Vrije beschikking over de schadevergoeding
 
-## Art. 147
+###### Art. 147
 
 De benadeelde beschikt vrij over de door de verzekeraar verschuldigde schadevergoeding. Het bedrag van de schadevergoeding mag niet verschillen naar gelang van het gebruik dat de benadeelde ervan zal maken.
 
 Kwitantie ter afrekening
 
-## Art. 148
+###### Art. 148
 
 Elke kwitantie voor een gedeeltelijke afrekening of ter finale afrekening betekent voor de benadeelde niet dat hij van zijn rechten afziet.
 Een kwitantie ter finale afrekening moet de elementen van de schade vermelden waarop die afrekening slaat.
 
 Schadeloosstelling door de verzekerde
 
-## Art. 149
+###### Art. 149
 
 Wanneer de verzekerde de benadeelde heeft vergoed of hem een vergoeding heeft toegezegd, zonder de toestemming van de verzekeraar, kan zulks tegen deze laatste niet worden ingeroepen.
 Het erkennen van feiten of het verstrekken van eerste geldelijke of medische hulp door de verzekerde kunnen voor de verzekeraar geen grond opleveren om zijn dekking te weigeren.
 
 Eigen recht van de benadeelde
 
-## Art. 150
+###### Art. 150
 
 De verzekering geeft de benadeelde een eigen recht tegen de verzekeraar.
 De door de verzekeraar verschuldigde schadevergoeding komt toe aan de benadeelde, met uitsluiting van de overige schuldeisers van de verzekerde.
@@ -2639,7 +2643,7 @@ Indien er meer dan één benadeelde is en het totaal bedrag van de verschuldigde
 
 Tegenstelbaarheid van de excepties, nietigheid en verval van recht
 
-## Art. 151
+###### Art. 151
 
 § 1. Bij de verplichte burgerrechtelijke aansprakelijkheidsverzekeringen kunnen de excepties, vrijstellingen, de nietigheid en het verval van recht voortvloeiend uit de wet of de overeenkomst en die hun oorzaak vinden in een feit dat zich voor of na het schadegeval heeft voorgedaan, aan de benadeelde niet worden tegengeworpen.
 Indien de nietigverklaring, de opzegging, de beëindiging of de schorsing van de overeenkomst geschied is voordat het schadegeval zich heeft voorgedaan, kan zij echter aan de benadeelde worden tegengeworpen.
@@ -2653,7 +2657,7 @@ De Koning kan het toepassingsgebied van paragraaf 1 echter uitbreiden tot de soo
 ----------
 ( 1 )<W 2016-06-29/01 , art. 77, 005; Inwerkingtreding : 16-07-2016>
 
-## Art. 152
+###### Art. 152
 
 [ '> 1 De verzekeraar kan zich, voor zover hij volgens de wet of de verzekeringsovereenkomst de prestaties had kunnen weigeren of verminderen, een recht van verhaal voorbehouden tegen de verzekeringnemer en, indien daartoe grond bestaat, tegen de verzekerde die niet de verzekeringnemer is, ten belope van het persoonlijk aandeel in de aansprakelijkheid van de verzekerde.
 De verzekeraar is op straffe van verval van zijn recht van verhaal verplicht de verzekeringnemer of, in voorkomend geval, de verzekerde die niet de verzekeringnemer is, kennis te geven van zijn voornemen om verhaal in te stellen zodra hij op de hoogte is van de feiten waarop dat besluit gegrond is.
@@ -2663,7 +2667,7 @@ De Koning kan het recht van verhaal beperken in de gevallen en in de mate die Hi
 
 Tussenkomst in de rechtspleging
 
-## Art. 153
+###### Art. 153
 
 § 1. Een vonnis kan aan de verzekeraar, aan de verzekerde of aan de benadeelde slechts worden tegengeworpen, indien zij in het geding partij zijn geweest of daarin zijn geroepen.
 Niettemin kan het vonnis dat in een geschil tussen de benadeelde en de verzekerde is gewezen, worden tegengeworpen aan de verzekeraar indien vaststaat dat deze laatste in feite de leiding van het geding op zich heeft genomen.
@@ -2678,20 +2682,20 @@ De verzekerde kan de verzekeraar in het geding roepen dat door de benadeelde teg
 
 Toepassingsgebied
 
-## Art. 154
+###### Art. 154
 
 De artikelen 155 tot 157 zijn toepasselijk op de verzekeringsovereenkomsten waarbij de verzekeraar zich verbindt diensten te verrichten en kosten op zich te nemen, ten einde de verzekerde in staat te stellen zijn rechten te doen gelden, als eiser of als verweerder, hetzij in een gerechtelijke, administratieve of andere procedure, tenzij los van enige procedure.
 De verdediging van de verzekerde door de aansprakelijkheidsverzekeraar uit hoofde van de artikelen 143 en 146 valt niet onder toepassing van de artikel 155 tot 157.
 
 Geldboeten en minnelijke schikkingen in strafzaken
 
-## Art. 155
+###### Art. 155
 
 Geen enkele geldboete of geen enkele minnelijke schikking in strafzaken kan het voorwerp zijn van een verzekeringsovereenkomst, met uitzondering van die welke ten laste zijn van de persoon die burgerrechtelijk aansprakelijk is en die geen betrekking hebben op de wetten en de uitvoeringsbesluiten betreffende het wegverkeer of betreffende het vervoer over de weg.
 
 Vrije keuze van raadslieden
 
-## Art. 156
+###### Art. 156
 
 In elke verzekeringsovereenkomst inzake rechtsbijstand moet uitdrukkelijk ten minste worden bepaald dat :
 1° [ '> 1 wanneer moet worden overgegaan tot een gerechtelijke, administratieve of arbitrageprocedure, de verzekerde vrij een advocaat of iedere andere persoon kan kiezen die, krachtens de op de procedure toepasselijke wet, de vereiste kwalificaties heeft om zijn belangen te verdedigen, te vertegenwoordigen of te behartigen, en dat, in het geval van arbitrage, bemiddeling of een andere erkende buitengerechtelijke vorm van geschillenbeslechting, de verzekerde vrij een persoon kan kiezen die de vereiste kwalificaties heeft en die daartoe is aangewezen] '> 1 ;
@@ -2701,64 +2705,64 @@ In elke verzekeringsovereenkomst inzake rechtsbijstand moet uitdrukkelijk ten mi
 
 Recht van de verzekeraar om dekking te weigeren
 
-## Art. 157
+###### Art. 157
 
 De verzekerde, bij verschil van mening met zijn verzekeraar over de gedragslijn die zal worden gevolgd voor de regeling van het schadegeval en na kennisgeving door de verzekeraar van diens standpunt of van diens weigering om de stelling van de verzekerde te volgen, heeft het recht een advocaat van zijn keuze te raadplegen onverminderd de mogelijkheid om een rechtsvordering in te stellen.
 Zo de advocaat het standpunt van de verzekeraar bevestigt wordt aan de verzekerde de helft terugbetaald van de kosten en honoraria van deze raadpleging.
 Indien tegen het advies van deze advocaat de verzekerde op zijn kosten een procedure begint en een beter resultaat bekomt dan hetgeen hij zou hebben bekomen indien hij het standpunt van de verzekeraar zou hebben gevolgd, is de verzekeraar die de stelling van de verzekerde niet heeft willen volgen gehouden zijn dekking te verlenen en de kosten van de raadpleging terug te betalen die ten laste van de verzekerde zouden zijn gebleven.
 Indien de geraadpleegde advocaat de stelling van de verzekerde bevestigt, is de verzekeraar, ongeacht de afloop van de procedure, ertoe gehouden zijn dekking te verlenen met inbegrip van de kosten en de honoraria van de raadpleging.
 
-#### TITEL IV. - Persoonsverzekeringen
+### TITEL IV. - Persoonsverzekeringen
 
 #### HOOFDSTUK 1. - Gemeenschappelijke bepalingen
 
 Naamgebondenheid van de polis
 
-## Art. 158
+###### Art. 158
 
 De polis moet op naam van de verzekeringnemer worden gesteld; zij kan niet aan order of aan toonder zijn.
 
 Verzekering van zeer jonge kinderen
 
-## Art. 159
+###### Art. 159
 
 De Koning kan bijzondere voorwaarden opleggen aan verzekeringen die voorzien in uitkeringen voor het geval dat een kind dood geboren wordt of overlijdt voordat het de volle leeftijd van vijf jaar heeft bereikt.
 
 #### HOOFDSTUK 2. - Levensverzekeringsovereenkomsten
 
-##### Afdeling I. - Algemene bepalingen
 
 Toepassingsgebied
 
-## Art. 160
+##### Afdeling I. - Algemene bepalingen
+###### Art. 160
 
 Dit hoofdstuk is van toepassing op alle persoonsverzekeringen waarbij het zich voordoen van het verzekerd voorval alleen afhankelijk is van de menselijke levensduur, zelfs indien de partijen de wederzijdse prestaties hebben geëvalueerd zonder rekening te houden met de voorvalswetten. Die verzekeringen worden geacht uitsluitend te zijn gericht op de uitkering van een vast bedrag. De artikelen 167 en 178 zijn tevens van toepassing op kapitalisatieverrichtingen.
 De Koning kan in een in de Ministerraad overlegd besluit genomen na advies van de FSMA en de Bank, de bepalingen van dit hoofdstuk aanduiden die niet van toepassing zijn op de levensverzekeringen die Hij aanduidt en aangeven welke bepalingen in plaats daarvan van toepassing zijn.
 
 Samenloop en niet-indeplaatsstelling
 
-## Art. 161
+###### Art. 161
 
 Voor de toepassing van dit hoofdstuk is elk tegenstrijdig beding, toegelaten door de artikelen 103 en 104, nietig.
 
-##### Afdeling II. - Verzekerd risico
 
 Onbetwistbaarheid
 
-## Art. 162
+##### Afdeling II. - Verzekerd risico
+###### Art. 162
 
 Zodra de levensverzekeringsovereenkomst in werking treedt, kan de verzekeraar zich niet meer beroepen op het onopzettelijk verzwijgen of het onopzettelijk onjuist meedelen van gegevens door de verzekeringnemer of de verzekerde.
 De Koning kan de partijen toestaan om de onbetwistbaarheid uit te stellen onder de voorwaarden die Hij bepaalt.
 
 Dwaling omtrent de leeftijd van de verzekerde
 
-## Art. 163
+###### Art. 163
 
 Wanneer de leeftijd van de verzekerde onjuist is opgegeven, worden de prestaties van elke partij vermeerderd of verminderd in verhouding tot de werkelijke leeftijd die in acht had moeten genomen worden.
 
 Uitgesloten risico's
 
-## Art. 164
+###### Art. 164
 
 § 1. Tenzij het tegendeel is bedongen, dekt de verzekering de zelfmoord van de verzekerde niet die gebeurt minder dan een jaar na de inwerkingtreding van de overeenkomst. De verzekering dekt de zelfmoord die gebeurt een jaar of meer dan een jaar na de inwerkingtreding van de overeenkomst. Het bewijs van de zelfmoord moet door de verzekeraar worden geleverd.
 § 2. Tenzij anders is bedongen, dekt de verzekeraar de dood van de verzekerde niet :
@@ -2770,37 +2774,37 @@ Uitgesloten risico's
 
 Het zich voordoen van een uitgesloten risico
 
-## Art. 165
+###### Art. 165
 
 Indien de verzekerde overleden is ten gevolge van een uitgesloten risico, betaalt de verzekeraar de begunstigde de opbrengst terug van de kapitalisatie van de premies die betrekking hebben op de periode na de datum van het overlijden, en beperkt tot de verzekerde prestatie bij overlijden.
 
-##### Afdeling III. - Betaling van de premie en inwerkingtreding van de overeenkomst
 
 Betaling van de eerste premie
 
-## Art. 166
+##### Afdeling III. - Betaling van de premie en inwerkingtreding van de overeenkomst
+###### Art. 166
 
 Tenzij anders is bedongen, treedt de levensverzekeringsovereenkomst eerst in werking op de dag dat de eerste premie wordt betaald.
 
 Niet-betaling van een premie
 
-## Art. 167
+###### Art. 167
 
 Niet-betaling van een premie geeft geen aanleiding tot enige vordering tot gedwongen tenuitvoerlegging vanwege de verzekeraar; volgens de door de Koning vastgestelde voorschriften brengt niet-betaling alleen de ontbinding van de overeenkomst mee of de vermindering van de prestaties van de verzekeraar.
 
 Verplichting tot betaling van de premies
 
-## Art. 168
+###### Art. 168
 
 De verzekeringnemer kan door een andere overeenkomst dan de levensverzekeringsovereenkomst die hij heeft aangegaan, er zich toe verbinden om binnen het verband van de laatstgenoemde overeenkomst te blijven door er de premies van te betalen.
 
-##### Afdeling IV. - Rechten van de verzekeringnemer
 
 a) Begunstiging
 
 Aanwijzing van de begunstigde
 
-## Art. 169
+##### Afdeling IV. - Rechten van de verzekeringnemer
+###### Art. 169
 
 § 1. De verzekeringnemer heeft het recht één of meer begunstigden aan te wijzen. Dat recht komt uitsluitend aan hem toe en kan noch door de echtgenoot, noch door zijn wettelijke vertegenwoordigers, noch door zijn erfgenamen of rechthebbenden, noch door zijn schuldeisers worden uitgeoefend.
 Het bewijs van het recht van de begunstigde wordt geleverd overeenkomstig artikel 64.
@@ -2809,38 +2813,38 @@ Het bewijs van het recht van de begunstigde wordt geleverd overeenkomstig artike
 
 Geen begunstigde
 
-## Art. 170
+###### Art. 170
 
 Wanneer bij de verzekering geen begunstigde is aangewezen of wanneer de aanwijzing van de begunstigde geen gevolgen kan hebben of herroepen is, is de verzekeringsprestatie verschuldigd aan de verzekeringnemer of aan zijn nalatenschap.
 
 Aanwijzing van de echtgenoot
 
-## Art. 171
+###### Art. 171
 
 Wanneer de echtgenoot bij name als begunstigde wordt aangewezen en hij in de zin van artikel 193 of van artikel 196 begunstigde blijft na echtscheiding, behoudt hij zijn recht op prestatie wanneer de verzekeringnemer een nieuw huwelijk aangaat, tenzij deze het tegendeel heeft bedongen.
 Wordt de echtgenoot niet bij name als begunstigde aangewezen, dan komt het recht op prestatie toe aan hem die bij het opeisbaar worden van de verzekerde prestaties die hoedanigheid heeft.
 
 Aanwijzing van de kinderen
 
-## Art. 172
+###### Art. 172
 
 Wanneer de kinderen niet bij name als begunstigden worden aangewezen, dan wordt het recht op prestaties verleend aan de personen die bij het opeisbaar worden van de prestaties deze hoedanigheid hebben. De afstammelingen in rechte lijn van een vooroverleden kind komen bij plaatsvervulling op.
 
 Gezamenlijke aanwijzing van de kinderen en van de echtgenoot als begunstigden
 
-## Art. 173
+###### Art. 173
 
 Wanneer de echtgenoot en de kinderen al of niet bij name gezamenlijk als begunstigden worden aangewezen, dan wordt het recht op prestaties voor de helft verleend aan de echtgenoot en voor de helft aan de kinderen, tenzij anders is bedongen.
 
 Aanwijzing van de wettelijke erfgenamen als begunstigden
 
-## Art. 174
+###### Art. 174
 
 Wanneer de wettelijke erfgenamen als begunstigden worden aangewezen zonder bij name te zijn vermeld, is, onder voorbehoud van tegenbewijs of andersluidend beding, de verzekeringsprestatie verschuldigd aan de nalatenschap van de verzekeringnemer.
 
 Vooroverlijden van de aangewezen begunstigde
 
-## Art. 175
+###### Art. 175
 
 Indien de begunstigde overlijdt voor het opeisbaar worden van de verzekeringsprestatie en zelfs indien de begunstigde had aanvaard komt het recht op prestatie aan de verzekeringnemer of aan zijn nalatenschap toe, tenzij hij subsidiair een andere begunstigde heeft aangewezen.
 
@@ -2848,7 +2852,7 @@ b) Herroeping van de begunstiging
 
 Recht van herroeping
 
-## Art. 176
+###### Art. 176
 
 Zolang zij niet door de aangewezen begunstigde is aanvaard, is de verzekeringnemer gerechtigd de begunstiging te herroepen totdat de verzekerde prestaties opeisbaar worden.
 De herroeping wordt bewezen overeenkomstig artikel 64.
@@ -2856,7 +2860,7 @@ Het recht van herroeping komt uitsluitend toe aan de verzekeringnemer. Het kan a
 
 Gevolgen van de herroeping
 
-## Art. 177
+###### Art. 177
 
 Herroeping van de begunstiging doet het recht op de verzekerde prestaties vervallen.
 
@@ -2864,7 +2868,7 @@ c) Afkoop en reductie
 
 Recht van afkoop en reductie
 
-## Art. 178
+###### Art. 178
 
 Het recht van afkoop en het recht van reductie komen toe aan de verzekeringnemer. Die rechten kunnen noch door zijn echtgenoot noch door zijn schuldeisers worden uitgeoefend. De Koning bepaalt de voorwaarden waaronder zij bestaan en kunnen worden uitgeoefend.
 Na aanvaarding van de begunstiging is voor de uitoefening van het recht van afkoop de toestemming van de begunstigde vereist.
@@ -2873,7 +2877,7 @@ d) Opnieuw in werking stellen van de overeenkomst
 
 Opnieuw in werking stellen
 
-## Art. 179
+###### Art. 179
 
 Bij opzegging van de verzekering wegens niet-betaling van de premie of bij reductie, kan de verzekering weer in werking worden gesteld in de gevallen en onder de voorwaarden door de Koning te bepalen.
 
@@ -2881,7 +2885,7 @@ e) Voorschot op de in de overeenkomst verzekerde prestaties
 
 Recht van voorschot
 
-## Art. 180
+###### Art. 180
 
 Het recht om van de verzekeraar een voorschot op de verzekerde prestaties te verkrijgen, komt toe aan de verzekeringnemer. Dat recht kan noch door zijn echtgenoot, noch door zijn schuldeisers worden uitgeoefend. De Koning bepaalt de voorwaarden waaronder dat recht bestaat en kan worden uitgeoefend.
 Na aanvaarding van de begunstiging is voor de uitoefening van het recht van voorschot de toestemming van de begunstigde vereist.
@@ -2890,14 +2894,14 @@ f) Inpandgeving van de rechten uit de overeenkomst
 
 Recht van inpandgeving
 
-## Art. 181
+###### Art. 181
 
 De uit de verzekeringsovereenkomst voortvloeiende rechten kunnen in pand worden gegeven, en wel alleen door de verzekeringnemer, met uitsluiting van zijn echtgenoot en zijn schuldeisers.
 In geval van aanvaarding van de begunstiging wordt de inpandgeving afhankelijk gemaakt van de toestemming van de begunstigde.
 
 Vormvoorschrift
 
-## Art. 182
+###### Art. 182
 
 Inpandgeving van de rechten uit de overeenkomst kan alleen geschieden door middel van een bijvoegsel, getekend door de verzekeringnemer, de pandhoudende schuldeiser en de verzekeraar.
 
@@ -2905,25 +2909,25 @@ g) Overdracht van de rechten uit de overeenkomst
 
 Recht van overdracht
 
-## Art. 183
+###### Art. 183
 
 De verzekeringnemer kan de uit de verzekeringsovereenkomst voortvloeiende rechten geheel of ten dele overdragen. Dat recht van overdracht kan niet worden uitgeoefend door zijn echtgenoot of zijn schuldeisers.
 In geval van aanvaarding van de begunstiging wordt de uitoefening van het recht van overdracht afhankelijk gemaakt van de toestemming van de begunstigde.
 
 Vormvoorschrift
 
-## Art. 184
+###### Art. 184
 
 De overdracht van de uit de overeenkomst voortvloeiende rechten, of van een gedeelte ervan, kan alleen geschieden door middel van een bijvoegsel, getekend door de overdrager, de overnemer en de verzekeraar.
 Evenwel kan de verzekeringnemer in de overeenkomst bedingen dat bij zijn overlijden zijn rechten geheel of ten dele zullen overgaan aan een persoon die hij daartoe aanwijst.
 
-##### Afdeling V. - Rechten van de begunstigde
 
 a) Recht op verzekeringsprestaties
 
 Recht op de verzekeringsprestaties
 
-## Art. 185
+##### Afdeling V. - Rechten van de begunstigde
+###### Art. 185
 
 De begunstigde heeft door het enkele feit van zijn aanwijzing recht op de verzekeringsprestaties.
 Dat recht wordt onherroepelijk door de aanvaarding van de begunstiging, onverminderd de herroeping van de schenkingen overeenkomstig de artikelen 953 tot 958 en 1096 van het Burgerlijk Wetboek en behoudens toepassing van artikel 175.
@@ -2932,14 +2936,14 @@ b) Aanvaarding van de begunstiging
 
 Recht van aanvaarding
 
-## Art. 186
+###### Art. 186
 
 De begunstigde kan de begunstiging te allen tijde aanvaarden, ook nadat de verzekeringsprestaties opeisbaar zijn geworden.
 Het recht van aanvaarding komt uitsluitend toe aan de begunstigde. Het kan niet worden uitgeoefend door zijn echtgenoot of zijn schuldeisers.
 
 Vormvoorschrift
 
-## Art. 187
+###### Art. 187
 
 Zolang de verzekeringnemer leeft kan de aanvaarding slechts geschieden door een bijvoegsel bij de polis met de handtekening van de begunstigde, de verzekeringnemer en de verzekeraar.
 Na het overlijden van de verzekeringnemer kan de aanvaarding uitdrukkelijk of stilzwijgend geschieden. Ten aanzien van de verzekeraar echter heeft de aanvaarding eerst gevolg nadat hem daarvan schriftelijk kennis is gegeven.
@@ -2948,7 +2952,7 @@ c) Rechten van de erfgenamen van de verzekeringnemer ten aanzien van de begunsti
 
 Inbreng of inkorting in geval van overlijden van de verzekeringnemer
 
-## Art. 188
+###### Art. 188
 
 In geval van overlijden van de verzekeringnemer is de verzekeringsprestatie, overeenkomstig het Burgerlijk Wetboek, onderworpen aan de inkorting [ '> 1 en aan de inbreng.] '> 1
 ----------
@@ -2958,38 +2962,38 @@ d) Rechten van de schuldeisers van de verzekeringnemer ten aanzien van de beguns
 
 Verzekeringsprestaties
 
-## Art. 189
+###### Art. 189
 
 De schuldeisers van de verzekeringnemer hebben geen enkel recht op verzekeringsprestaties die aan de begunstigde verschuldigd zijn.
 
 Terugbetaling van de premies
 
-## Art. 190
+###### Art. 190
 
 De schuldeisers van de verzekeringnemer kunnen van de begunstigde om niet geen terugbetaling vorderen van de premies behalve voor zover deze kennelijk buiten verhouding staan tot de vermogenstoestand van de verzekeringnemer en voor zover ze betaald zijn met bedrieglijke benadeling van hun rechten in de zin van artikel [ '> 1 5.243] '> 1 van het Burgerlijk Wetboek.
 Die terugbetaling mag het bedrag van de aan de begunstigde verschuldigde verzekeringsprestaties niet overschrijden.
 ----------
 ( 1 )<W 2022-04-28/25 , art. 52, 028; Inwerkingtreding : 01-01-2023>
 
-##### Afdeling VI. - Gevolgen van de echtscheiding of van scheiding van tafel en bed bij verzekering tussen in gemeenschap van goederen getrouwde echtgenoten
 
 A. Echtscheiding op grond van onherstelbare ontwrichting
 
 Rechten van de verzekeringnemer gedurende de echtscheidingsprocedure
 
-## Art. 191
+##### Afdeling VI. - Gevolgen van de echtscheiding of van scheiding van tafel en bed bij verzekering tussen in gemeenschap van goederen getrouwde echtgenoten
+###### Art. 191
 
 De rechten die aan de verzekeringnemer toekomen krachtens de artikelen 169 tot 184, blijven gedurende de echtscheidingsprocedure behouden, behoudens toepassing van de artikelen 1280 en 1283 van het Gerechtelijk Wetboek.
 
 Recht op verzekeringsprestaties gedurende de echtscheidingsprocedure
 
-## Art. 192
+###### Art. 192
 
 De verzekeringsprestaties die opeisbaar worden gedurende de echtscheidingsprocedure, worden rechtsgeldig betaald aan de als begunstigde aangewezen echtgenoot, behoudens toepassing van de artikelen 1280 en 1283 van het Gerechtelijk Wetboek.
 
 Recht op verzekeringsprestaties die opeisbaar worden na de overschrijving van de echtscheiding
 
-## Art. 193
+###### Art. 193
 
 Behoudens toepassing van artikel 299 van het Burgerlijk Wetboek, worden de verzekeringsprestaties die opeisbaar worden na de overschrijving van de echtscheiding rechtsgeldig betaald aan de uit de echt gescheiden echtgenoot die als begunstigde is aangewezen, tenzij in de overeenkomst zelf iemand anders, al dan niet bij name, als begunstigde wordt aangewezen in geval van echtscheiding en de verzekeraar op de hoogte werd gebracht van de echtscheiding, dan wel tenzij de echtgenoten gedurende de echtscheidingsprocedure of nadien anders hebben bedongen, en zij de verzekeraar op de hoogte hebben gebracht van de nieuwe aanwijzing.
 
@@ -2997,19 +3001,19 @@ B. Echtscheiding door onderlinge toestemming
 
 Rechten van de verzekeringnemer gedurende de proeftijd
 
-## Art. 194
+###### Art. 194
 
 De rechten die krachtens de artikelen 169 tot 184 aan de verzekeringnemer toekomen, blijven gedurende de proeftijd behouden, tenzij de echtgenoten anders hebben bedongen bij overeenkomst bedoeld in artikel 1287 van het Gerechtelijk Wetboek. De overeenkomst kan slechts aan de verzekeraar worden tegengeworpen nadat hij daarvan op de hoogte werd gesteld.
 
 Recht op verzekeringsprestaties die opeisbaar worden tijdens de proeftijd
 
-## Art. 195
+###### Art. 195
 
 De verzekeringsprestaties die opeisbaar worden tijdens de proeftijd, worden rechtsgeldig betaald aan de als begunstigde aangewezen echtgenoot, tenzij de echtgenoten anders hebben bedongen bij overeenkomst bedoeld in artikel 1287 van het Gerechtelijk Wetboek, en zij de verzekeraar op de hoogte hebben gebracht van de nieuwe aanwijzing.
 
 Recht op verzekeringsprestaties die opeisbaar worden na de overschrijving van de echtscheiding
 
-## Art. 196
+###### Art. 196
 
 Behoudens toepassing van artikel 299 van het Burgerlijk Wetboek, worden de verzekeringsprestaties die opeisbaar worden na de overschrijving van de echtscheiding, rechtsgeldig betaald aan de uit de echt gescheiden echtgenoot die als begunstigde is aangewezen, tenzij in de overeenkomst zelf iemand anders, al dan niet bij name, als begunstigde wordt aangewezen in geval van echtscheiding en de verzekeraar op de hoogte werd gebracht van de echtscheiding, dan wel tenzij de echtgenoten bij overeenkomst bedoeld in artikel 1287 van het Gerechtelijk Wetboek, anders hebben bedongen en zij de verzekeraar op de hoogte hebben gebracht van de nieuwe aanwijzing.
 
@@ -3017,22 +3021,22 @@ C. Scheiding van tafel en bed
 
 Scheiding van tafel en bed
 
-## Art. 197
+###### Art. 197
 
 § 1. In geval van scheiding van tafel en bed op grond van onherstelbare ontwrichting zijn de artikelen 191 tot 193 van toepassing.
 § 2. In geval van scheiding van tafel en bed door onderlinge toestemming zijn de artikelen 194 tot 196 van toepassing.
 
-##### Afdeling VII. [ '> 1 Uitbetalingstermijn van een levensverzekeringsovereenkomst] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2019-05-02/28 , art. 53, 018; Inwerkingtreding : 22-05-2020>
 
-## Art. 197/1
+##### Afdeling VII. [ '> 1 Uitbetalingstermijn van een levensverzekeringsovereenkomst] '> 1
+###### Art. 197/1
 
 [ '> 1 Deze afdeling is van toepassing op alle beëindigingswijzen van een levensverzekeringsovereenkomst waarvan het risico dan wel de verbintenis in België is gelegen, alsook in het geval van gedeeltelijke afkoop van een dergelijke levensverzekeringsovereenkomst. Deze afdeling is niet van toepassing op overeenkomsten die worden gesloten in het kader van de tweede pensioenpijler.] '> 1
 ----------
 ( 1 )<W 2024-05-03/21 , art. 71, 032; Inwerkingtreding : 10-06-2024>
 
-## Art. 197/2
+###### Art. 197/2
 
 [ '> 1 Procedure en modaliteiten van de uitbetaling van de verzekerde prestatie
 § 1. Wanneer de verzekeraar een aanvraag tot uitbetaling van een levensverzekeringsovereenkomst ontvangt, deelt hij binnen een termijn van twee weken, te rekenen vanaf de dag waarop de aanvraag werd ontvangen, aan de begunstigde schriftelijk mee welke documenten en informatie aan hem moeten worden overgemaakt met het oog op de uitbetaling van de verzekeringsprestatie van deze levensverzekeringsovereenkomst.
@@ -3047,7 +3051,7 @@ De Koning kan, na advies van de FSMA, de documenten en de informatie bepalen die
 ----------
 ( 1 )<Ingevoegd bij W 2019-05-02/28 , art. 55, 018; Inwerkingtreding : 22-05-2020>
 
-## Art. 197/3
+###### Art. 197/3
 
 [ '> 1 Aansprakelijkheid van de verzekeringstussenpersoon
 § 1. Bij de uitvoering van deze afdeling is de verzekeraar die bij het beheer en de uitvoering van de verzekeringsovereenkomst samenwerkt met verzekeringsagenten of makelaars die klaarblijkelijk als lasthebber van de verzekeraar optreden, volledig en onvoorwaardelijk aansprakelijk voor elke handeling of elk verzuim van deze verzekeringsagenten en makelaars.
@@ -3060,29 +3064,29 @@ De toepassing van het eerste lid laat artikel 279 onverlet.
 
 Aard van de dekking
 
-## Art. 198
+###### Art. 198
 
 Persoonsverzekeringen, andere dan levensverzekeringen, strekken tot vergoeding van schade of tot uitkering van een vast bedrag, naargelang partijen bedongen hebben.
 
 Verzekeringen tot uitkering van een vast bedrag, andere dan levensverzekeringen
 
-## Art. 199
+###### Art. 199
 
 De Koning bepaalt in hoever en volgens welke regels de bepalingen van deze wet die betrekking hebben op de levensverzekeringsovereenkomsten ook van toepassing zullen zijn op persoonsverzekeringsovereenkomsten tot uitkering van een vast bedrag, waarbij het zich voordoen van het verzekerde voorval niet uitsluitend afhangt van de menselijke levensduur.
 
 Keuze van de arts
 
-## Art. 200
+###### Art. 200
 
 Voor zijn verzorging kiest de verzekerde vrij zijn arts.
 
 #### HOOFDSTUK 4. - Ziekteverzekeringsovereenkomsten
 
-##### Afdeling I. - Inleidende bepalingen
 
 Begripsomschrijvingen
 
-## Art. 201
+##### Afdeling I. - Inleidende bepalingen
+###### Art. 201
 
 § 1. Onder ziekteverzekeringsovereenkomst wordt verstaan :
 1° de ziektekostenverzekering die, in geval van ziekte of in geval van ziekte en ongeval, prestaties waarborgt met betrekking tot elke preventieve, curatieve of diagnostische medische behandeling welke noodzakelijk is voor het behoud en/of het herstel van de gezondheid;
@@ -3105,7 +3109,7 @@ Afdeling I/1. [ '> 1 - Bepalingen gemeenschappelijk aan de ziektekostenverzekeri
 
 Prestaties resulterende uit een poging tot zelfdoding
 
-## Art. 201/1
+###### Art. 201/1
 
 [ '> 1 § 1. De verzekeringsonderneming mag de prestaties die resulteren uit een poging tot zelfdoding door de verzekeringnemer niet uitsluiten in de ziektekostenverzekeringsovereenkomst.
 § 2. Het is de verzekeringsonderneming verboden om bij het sluiten van een ziektekostenverzekeringsovereenkomst een bijpremie aan te rekenen of de verzekering te weigeren omwille van een voorafgaandelijke poging tot zelfdoding door de verzekeringnemer.
@@ -3113,18 +3117,18 @@ Prestaties resulterende uit een poging tot zelfdoding
 ----------
 ( 1 )<Ingevoegd bij W 2024-04-21/07 , art. 4, 035; Inwerkingtreding : 01-11-2024>
 
-##### Afdeling II. - Andere dan beroepsgebonden ziekteverzekeringsovereenkomsten
 
 Toepassingsgebied
 
-## Art. 202
+##### Afdeling II. - Andere dan beroepsgebonden ziekteverzekeringsovereenkomsten
+###### Art. 202
 
 De bepalingen van deze afdeling zijn van toepassing op de andere dan beroepsgebonden ziekteverzekeringsovereenkomsten.
 Deze bepalingen gelden voor de verzekeringnemer, de hoofdverzekerde en de bijverzekerden.
 
 Duur van de verzekeringsovereenkomst
 
-## Art. 203
+###### Art. 203
 
 § 1. Onverminderd de toepassing van de artikelen 59, 60, 65, 69, 70, 71, 72 en 81 en behoudens in geval van bedrog, worden de in artikel 201, § 1, 1°, 3° en 4°, bedoelde ziekteverzekerings-overeenkomsten voor het leven aangegaan. De in artikel 201, § 1, 2°, bedoelde ziekteverzekeringsovereenkomsten gelden ten minste tot de leeftijd van 65 jaar of tot een jongere leeftijd, wanneer deze de normale leeftijd is waarop de verzekerde zijn beroepswerkzaamheid volledig en definitief stopzet.
 § 2. Onverminderd de toepassing van artikel 85, § 3, kunnen de overeenkomsten worden aangegaan voor een beperkte duurtijd op uitdrukkelijk verzoek van de hoofdverzekerde en indien deze daar belang bij heeft.
@@ -3132,7 +3136,7 @@ Duur van de verzekeringsovereenkomst
 
 Wijziging van het tarief en de voorwaarden van de overeenkomst
 
-## Art. 204
+###### Art. 204
 
 § 1. Behoudens wederzijds akkoord van de partijen en op uitsluitend verzoek van de hoofdverzekerde alsmede in de in paragrafen 2, 3 en 4 vermelde gevallen, kan de verzekeraar de technische grondslagen van de premie en de dekkingsvoorwaarden, na het sluiten van een ziekteverzekeringsovereenkomst niet meer wijzigen.
 De wijziging van de technische grondslagen van de premie en/of dekkingsvoorwaarden bij wederzijds akkoord van de partijen, zoals bepaald bij het eerste lid, kan enkel in het belang van de verzekerden gebeuren.
@@ -3163,31 +3167,31 @@ De Koning kan de elementen waarop de gegevens, bedoeld in het vorige lid, betrek
 
 Onbetwistbaarheid
 
-## Art. 205
+###### Art. 205
 
 Zodra een termijn van twee jaar verstreken is te rekenen van de inwerkingtreding van de ziekteverzekeringsovereenkomst, kan de verzekeraar zich niet meer beroepen op artikel 60 met betrekking tot het onopzettelijk verzwijgen of het onopzettelijk onjuist meedelen van gegevens door de verzekeringnemer of de verzekerde, wanneer deze gegevens betrekking hebben op een ziekte of aandoening waarvan de symptomen zich op het ogenblik van het sluiten van de verzekeringsovereenkomst reeds hadden gemanifesteerd en deze ziekte of aandoening niet gediagnosticeerd werd binnen diezelfde termijn van twee jaar.
 De verzekeraar kan zich niet beroepen op een onopzettelijk verzwijgen of onopzettelijk onjuist mededelen van gegevens, wanneer deze gegevens betrekking hebben op een ziekte of aandoening die zich op het ogenblik van het sluiten van de verzekeringsovereenkomst nog op geen enkele wijze had gemanifesteerd.
 
 Chronisch zieken en personen met een handicap
 
-## Art. 206
+###### Art. 206
 
 De kandidaat-verzekerde die chronisch ziek of gehandicapt is en de leeftijd van vijfenzestig jaar niet heeft bereikt, heeft recht op een ziektekostenverzekering, met dien verstande dat de kosten die verband houden met de ziekte of de handicap welke bestaat op het ogenblik van het sluiten van de verzekeringsovereenkomst, onverminderd de toepassing van artikel 205 van de dekking mogen worden uitgesloten. De premie moet deze zijn die aangerekend zou worden aan dezelfde persoon indien hij of zij niet chronisch ziek of gehandicapt was.
 Onverminderd de toepassing van de artikelen 58 en 61 wat de informatie met betrekking tot de genetische gegevens betreft, wordt aan de verzekeringsovereenkomst een document gehecht dat nauwkeurig de bedoelde ziekte of handicap alsmede de kosten bepaalt die van de dekking uitgesloten zijn of slechts beperkt worden gedekt. De Koning bepaalt het model van het document.
 Onverminderd de bevoegdheid van de hoven en rechtbanken worden de geschillen met betrekking tot de kosten die van de dekking uitgesloten zijn of slechts beperkt gedekt worden, eerst voorgelegd aan een door de Koning bij een besluit vastgelegd na overleg in de Ministerraad, opgericht bemiddelingsorgaan.
 
-## Art. 207
+###### Art. 207
 
 § 1. De hoofdverzekerde brengt de verzekeraar, schriftelijk of elektronisch op de hoogte van het tijdstip waarop een bijverzekerde de verzekeringsovereenkomst verlaat en van diens nieuwe verblijfplaats.
 Op basis van deze gegevens doet de verzekeraar de bijverzekerde binnen de dertig dagen een verzekeringsaanbod dat in overeenstemming is met de artikelen 203 en 204. De verzekeraar informeert de bijverzekerde dat het aanbod ook geldt voor de leden van zijn gezin. Hij kan niet inroepen dat het risico reeds verwezenlijkt is.
 De bijverzekerde beschikt over een termijn van zestig dagen om het verzekeringsaanbod schriftelijk of elektronisch te aanvaarden. Bij het verstrijken van deze termijn vervalt het recht om het aanbod te aanvaarden.
 § 2. De verzekeringsovereenkomst die de bijverzekerde heeft aanvaard, gaat in op het tijdstip waarop hij het voordeel van de vorige verzekering verliest.
 
-##### Afdeling III. - Individuele voortzetting van beroepsgebonden ziekteverzekeringsovereenkomst
 
 Toekenningsvoorwaarden
 
-## Art. 208
+##### Afdeling III. - Individuele voortzetting van beroepsgebonden ziekteverzekeringsovereenkomst
+###### Art. 208
 
 § 1. Behalve in geval hij het voordeel van de beroepsgebonden ziekteverzekeringsovereenkomst verliest omwille van de bedoelde redenen in de artikelen 59, 60, 69, 70, 72 en 79 en, in het algemeen, in geval van bedrog, heeft elke persoon die bij een beroepsgebonden verzekering is aangesloten het recht om deze verzekering individueel geheel of gedeeltelijk voort te zetten wanneer hij het voordeel van de beroepsgebonden verzekering verliest, zonder een bijkomend medisch onderzoek te moeten ondergaan noch een nieuwe medische vragenlijst te moeten invullen.
 Daartoe moet de hoofdverzekerde gedurende de twee jaren die aan het verlies van de voortgezette beroepsgebonden ziekteverzekeringsovereenkomst vooraf gaan, ononderbroken aangesloten geweest zijn bij een of meer opeenvolgende ziekteverzekeringsovereenkomsten die bij een verzekeringsonderneming zoals bedoeld in deze wet waren aangegaan.
@@ -3203,7 +3207,7 @@ De medeverzekerde beschikt over een termijn van dertig dagen om het verzekerings
 
 Door de verzekeraar te verstrekken informatie
 
-## Art. 209
+###### Art. 209
 
 § 1. De verzekeraar licht de verzekeringnemer in over de mogelijkheid voor de verzekerde om individueel een bijkomende premie te betalen. De verzekeringnemer bezorgt die informatie onmiddellijk aan de hoofdverzekerde.
 De betaling van die bijkomende premies, mits zij jaar na jaar ononderbroken werden betaald, heeft tot gevolg dat de in artikel 211 bedoelde premie in geval van individuele voortzetting berekend wordt rekening houdend met de leeftijd waarop de verzekerde de bijkomende premies is beginnen te betalen.
@@ -3213,7 +3217,7 @@ Indien de verzekeringnemer nagelaten heeft de in paragraaf 1 bedoelde informatie
 
 Waarborgen
 
-## Art. 210
+###### Art. 210
 
 § 1. De individueel voortgezette ziekteverzekeringsovereenkomst biedt minstens waarborgen die gelijksoortig zijn met die welke geboden worden door de voortgezette beroepsgebonden ziekteverzekeringsovereen-komst.
 De waarborgen van de individuele ziektekostenverzekering worden als gelijksoortig beschouwd indien de volgende elementen van de beroepsgebonden ziektekostenverzekering worden overgenomen :
@@ -3228,7 +3232,7 @@ De waarborgen van de individuele zorgverzekering worden als gelijksoortig bescho
 
 Premie
 
-## Art. 211
+###### Art. 211
 
 Bij de berekening van de premie voor de individueel voortgezette ziekteverzekeringsovereenkomst wordt alleen rekening gehouden met :
 1° de leeftijd van de verzekerde op het ogenblik van de individuele voortzetting, onverminderd artikel 209, § 1;
@@ -3241,7 +3245,7 @@ Bij de berekening van de premie voor de individueel voortgezette ziekteverzekeri
 
 #### HOOFDSTUK 5. - Nadere bepalingen betreffende sommige verzekeringsovereenkomsten die de terugbetaling van het kapitaal van een krediet waarborgen
 
-## Art. 212
+###### Art. 212
 
 § 1. De Koning kan, op gezamenlijk voorstel van de minister en de minister bevoegd voor de Volksgezondheid, na advies van de Commissie voor de bescherming van de persoonlijke levenssfeer, uitvoeringsbepalingen vaststellen voor één of meerdere van volgende punten :
 1° in welke gevallen en voor welke soorten krediet of welke verzekerde bedragen een standaard medische vragenlijst moet worden ingevuld;
@@ -3259,28 +3263,28 @@ De Koning kan vragen die betrekking hebben op de gezondheidstoestand van de verz
 De Koning kan het verzekerde bedrag vaststellen waaronder enkel de medische vragenlijst kan worden gebruikt.
 § 3. Niettegenstaande elk andersluidend beding in het nadeel van de kandidaat-verzekeringnemer is de verzekeraar verplicht tot herstel van het nadeel veroorzaakt door het niet-naleven van de bepalingen die worden vastgesteld krachtens paragraaf 1. Het nadeel dat aan de kandidaat-verzekeringnemer wordt berokkend, wordt, behoudens tegenbewijs, geacht het gevolg te zijn van de niet-naleving van vermelde bepalingen.
 
-## Art. 213
+###### Art. 213
 
 De verzekeraar die aan de verzekeringnemer een premie voorstelt, is er toe gehouden die premie op te splitsen in de basispremie en de bijpremie die om reden van de gezondheidstoestand van de verzekerde wordt aangerekend.
 Zo de verzekeraar beslist de verzekering te weigeren of de toekenning ervan uit te stellen, bepaalde risico's van de dekking uit te sluiten of een bijpremie aan te rekenen, stelt hij de kandidaat-verzekeringnemer daarvan duidelijk en uitdrukkelijk per brief in kennis, waarbij hij de redenen motiveert waarop hij zijn beslissingen steunt. In diezelfde brief wordt de kandidaat-verzekeringnemer meegedeeld dat hij, rechtstreeks of via een arts naar keuze, schriftelijk contact kan opnemen met de arts van de verzekeraar, om te vernemen op welke medische gronden de verzekeraar zijn beslissingen heeft gesteund. In zijn brief wijst de verzekeraar op het bestaan van het Opvolgingsbureau voor de tarifering en van de bemiddelingsinstantie inzake schuldsaldoverzekeringen en vermeldt hij de contactgegevens ervan.
 De verzekeraar deelt mee of de voorgestelde premie in aanmerking komt voor de toepassing van het solidariteitsmechanisme door de Compensatiekas, bedoeld in artikel 220.
 
-## Art. 214
+###### Art. 214
 
 De verzekeringnemer die niet akkoord gaat met de voorgestelde premie brengt hiervan de verzekeraar op de hoogte. De verzekeraar zendt onverwijld het hele dossier over aan de herverzekeraar met het verzoek het opnieuw te beoordelen.
 De herverzekeraar beslist alleen op grond van het toegezonden dossier. Elk rechtstreeks contact tussen enerzijds de herverzekeraar en anderzijds de verzekeringnemer, de verzekerde of de behandelende geneesheer is verboden.
 De Koning kan hierbij, via een in de Ministerraad overlegd besluit, bepalen dat de herverzekeraar geen herbeoordeling moet verrichten van voorstellen van bijpremie wanneer deze bijpremie kleiner of gelijk is aan een door de Koning bepaald percentage van de basispremie. Dit door de Koning te bepalen percentage bedraagt maximaal 25 %.
 
-## Art. 215
+###### Art. 215
 
 Wanneer de herverzekeraar tot een bijpremie besluit die lager is dan de oorspronkelijk door de verzekeraar voorgestelde bijpremie, past de verzekeraar in die zin zijn voorstel aan.
 In het tegengestelde geval bevestigt de verzekeraar zijn oorspronkelijk aanbod.
 
-## Art. 216
+###### Art. 216
 
 De termijn tussen de oorspronkelijke verzekeringsaanvraag en het meedelen van de beslissing mag vijftien dagen niet te boven gaan. Een nieuwe termijn van vijftien dagen loopt vanaf het ogenblik waarop de verzekeraar kennisneemt van de in artikel 214 bedoelde weigering.
 
-## Art. 217
+###### Art. 217
 
 § 1. De Koning richt een Opvolgingsbureau voor de tarifering op dat tot taak heeft op verzoek van de meest gerede partij de voorstellen tot bijpremie of de weigeringen van de verzekeringen te onderzoeken.
 De Koning kan hierbij bepalen dat het Opvolgingsbureau voor tarifering geen onderzoek voert naar voorstellen van bijpremie wanneer deze bijpremie geen minimale ratio van de basispremie vertegenwoordigt.
@@ -3302,7 +3306,7 @@ Het doet binnen een tijdspanne van vijftien werkdagen te rekenen van de ontvangs
 ( 3 )<W 2019-05-02/28 , art. 57, 018; Inwerkingtreding : 01-06-2019>
 ( 4 )<W 2023-11-05/07 , art. 107, 030; Inwerkingtreding : 21-12-2023>
 
-## Art. 218
+###### Art. 218
 
 De Commissie voor verzekeringen zoals bedoeld in deel 7, titel IV is ermee belast de toepassing van de bepalingen van dit hoofdstuk te evalueren. Met dat doel bezorgt zij [ '> 1 vierjaarlijks] '> 1 een verslag aan de Koning en aan de Kamer van volksvertegenwoordigers. [ '> 1 In geval van wijzigingen aan de bepalingen van dit hoofdstuk of van zijn uitvoeringsbesluiten, wordt het evaluatieverslag twee jaar na de inwerkingtreding ervan bezorgd.] '> 1 Zij kan de door haar aangestelde deskundigen bij haar werkzaamheden betrekken.
 Dit verslag gaat vergezeld van een door het Federaal Kenniscentrum voor de Gezondheidszorg verrichte studie, waarin wordt beoordeeld of de tarieven die de verzekeraars hanteren afgestemd zijn op de evolutie van de geneeskundige technieken en van de gezondheidszorg aangaande de belangrijkste betrokken ziektebeelden.
@@ -3311,14 +3315,14 @@ Dit verslag gaat vergezeld van een door het Federaal Kenniscentrum voor de Gezon
 
 Toegang tot verzekeringen onder de door het Opvolgingsbureau voor de tarifering voorgestelde voorwaarden
 
-## Art. 219
+###### Art. 219
 
 § 1. Het Opvolgingsbureau voor de tarifering bepaalt onder welke voorwaarden en premies de kandidaat-verzekeringnemer toegang heeft tot een levensverzekering, desgevallend invaliditeitsverzekering, die een hypothecair krediet, consumentenkrediet of professioneel krediet waarborgt.
 Het Opvolgingsbureau herziet om de twee jaar zijn toegangsvoorwaarden en premies rekening houdend met de meest recente wetenschappelijke gegevens inzake de evolutie van de risico's op overlijden, desgevallend invaliditeit, en de kans op een verslechtering van de gezondheid van personen met een verhoogd risico ingevolge hun gezondheidstoestand.
 § 2. De verzekeraar die de kandidaat-verzekeringnemer weigert of die een premie of een vrijstelling voorstelt die hoger ligt dan die welke van toepassing is krachtens de tariefvoorwaarden die het Opvolgingsbureau voor de tarifering heeft voorgesteld, informeert de kandidaat-verzekeringnemer op eigen initiatief over de toegangsvoorwaarden en tarieven die het Bureau heeft voorgesteld, en deelt hem mee dat hij zich eventueel kan wenden tot een andere verzekeraar.
 De verzekeraar deelt schriftelijk en op duidelijke, uitdrukkelijke en ondubbelzinnige wijze mee om welke redenen de verzekering geweigerd wordt of waarom een bijpremie of verhoogde vrijstelling wordt voorgesteld en hoe deze precies zijn samengesteld.
 
-## Art. 220
+###### Art. 220
 
 § 1. De Koning erkent, onder de voorwaarden die Hij bepaalt, een Compensatiekas die tot taak heeft de last van de bijpremies te verdelen.
 § 2. De Koning keurt de statuten goed en regelt de controle op de activiteit van de Compensatiekas. Hij wijst de handelingen aan die in het Belgisch Staatsblad moeten worden bekendgemaakt. Zo nodig stelt Hij de Compensatiekas in.
@@ -3331,11 +3335,11 @@ Voor deze vereffening benoemt de Koning een bijzonder vereffenaar.
 
 Bemiddelingsorgaan inzake schuldsaldoverzekeringen 2019-05-02/28 , art. 59, 018; Inwerkingtreding : 01-06-2019>
 
-## Art. 221
+###### Art. 221
 
 <Opgeheven bij W 2019-05-02/28 , art. 60, 018; Inwerkingtreding : 01-06-2019>
 
-## Art. 222
+###### Art. 222
 
 De verzekeraar die een bijpremie aanrekent die meer dan 200 % van de basispremie bedraagt, is ertoe gehouden de gestandaardiseerde waarborg aan te bieden aan de verzekeringnemer.
 Deze gestandaardiseerde waarborg bedraagt maximaal 200.000 euro indien de kandidaat-verzekerde het hypothecaire krediet alleen aangaat. Indien er een mede-kredietnemer is, kan de kandidaat-verzekerde zich verzekeren tot hetzelfde bedrag [ '> 1 ...] '> 1 .
@@ -3343,7 +3347,7 @@ De Koning kan het in dit artikel vermelde bedrag aanpassen om rekening te houden
 ----------
 ( 1 )<W 2019-05-02/28 , art. 61, 018; Inwerkingtreding : 01-06-2019>
 
-## Art. 223
+###### Art. 223
 
 De verzekeraar die een bijpremie aanrekent die hoger ligt dan een in een percentage van de basispremie uitgedrukte drempel, is ertoe gehouden de tussenkomst van de Compensatiekas te vragen.
 De Compensatiekas is ertoe gehouden het deel van de bijpremie te betalen dat deze drempel overschrijdt, zonder dat de bijpremie echter hoger mag liggen dan een in een percentage van de basispremie uitgedrukt maximumbedrag.
@@ -3351,7 +3355,7 @@ De basispremie is gelijkgesteld met de laagste premie die de verzekeringsonderne
 De Koning bepaalt die drempel en dat maximumbedrag zodat ze beantwoorden aan een noodzakelijke solidariteit ten aanzien van de betrokken verzekeringnemers, zonder dat die drempel echter hoger mag liggen dan 200 % van de basispremie. De in artikel 218 bedoelde evaluatie zal ook daarover rapporteren.
 Op vraag van de Compensatiekas bezorgt de verzekeraar een afschrift van het verzekeringsdossier. Hij verstrekt in voorkomend geval de nodige uitleg.
 
-## Art. 224
+###### Art. 224
 
 [ '> 1 § 1.] '> 1 De artikelen 212 tot 223 zijn van toepassing op de verzekeringsovereenkomsten die de terugbetaling waarborgen van het kapitaal van een hypothecair krediet dat wordt aangegaan voor de [ '> 1 bouw,] '> 1 verbouwing of verwerving van de eigen en enige gezinswoning van de verzekeringnemer.
 [ '> 1 § 2. Onder dezelfde voorwaarden zijn deze artikelen ook van toepassing bij het aangaan van een hypothecair krediet door de persoon die al een andere woning bezit,
@@ -3364,114 +3368,114 @@ De verzekeringsnemer levert het bewijs van verkoop van de andere woning of van d
 ----------
 ( 1 )<W 2019-05-02/28 , art. 62, 018; Inwerkingtreding : 01-06-2019>
 
-### DEEL 5. - DE VERZEKERINGSOVEREENKOMST, ANDERE DAN DE LANDVERZEKERINGSOVEREENKOMST ZOALS BEDOELD IN DEEL 4
+## DEEL 5. - DE VERZEKERINGSOVEREENKOMST, ANDERE DAN DE LANDVERZEKERINGSOVEREENKOMST ZOALS BEDOELD IN DEEL 4
 
 #### HOOFDSTUK 1. - Algemene bepalingen
 
-## Art. 225
+###### Art. 225
 
 De bepalingen van dit deel zijn van toepassing op de verzekeringsovereenkomsten die onderworpen zijn aan het Belgische recht. Voor zover daarvan door bijzondere artikelen niet wordt afgeweken, zijn ze mede van toepassing op de zeeverzekering en op de verzekering betreffende land-, rivier- en kanaalvervoer.
 Zij zijn niet van toepassing op de verzekeringsovereenkomsten die onder de bepalingen van deel 4 vallen.
 
-## Art. 226
+###### Art. 226
 
 Verwachte winst kan worden verzekerd in de gevallen bij de wet bepaald.
 
-## Art. 227
+###### Art. 227
 
 De verenigingen van onderlinge verzekering worden beheerst door hun reglementen, door de algemene rechtsbeginselen, door de bijzondere op hen van toepassing zijnde wettelijke bepalingen en door de bepalingen van dit deel, die met een zodanige verzekering niet onverenigbaar zijn.
 Zij worden in rechte vertegenwoordigd door hun directeurs.
 
 #### HOOFDSTUK 2. - Personen die een verzekeringsovereenkomst kunnen aangaan
 
-## Art. 228
+###### Art. 228
 
 Ieder die bij het behoud van een zaak belang heeft wegens een recht van eigendom of een ander zakelijk recht of wegens enige aansprakelijkheid in verband met de zaak, kan die laten verzekeren.
 
-## Art. 229
+###### Art. 229
 
 § 1. De verzekering kan voor rekening van een ander worden aangegaan krachtens een algemene of een bijzondere lastgeving, of zelfs zonder lastgeving. In het laatst bedoelde geval worden de gevolgen geregeld overeenkomstig de bepalingen betreffende de zaakwaarneming.
 § 2. Indien uit de verzekeringsovereenkomst niet volgt dat zij voor een derde is aangegaan, wordt de verzekerde geacht ze voor zichzelf te hebben gesloten.
 
-## Art. 230
+###### Art. 230
 
 § 1. Een schuldeiser kan de gegoedheid van zijn schuldenaar laten verzekeren; de verzekeraar kan zich beroepen op het voorrecht van uitwinning, voor zover niet anders is overeengekomen.
 § 2. De beslagleggende of pandhoudende schuldeisers, alsook de bevoorrechte en hypothecaire schuldeisers, kunnen de voor de betaling van hun schuldvorderingen verbonden goederen in hun eigen naam laten verzekeren.
 In dat geval treedt de vergoeding voor het schadegeval, wat hen betreft, van rechtswege in de plaats van de verzekerde goederen die hun pand uitmaken.
 
-## Art. 231
+###### Art. 231
 
 Bij verzekering van roerende zaken wordt de verzekeraar bevrijd door betaling van de vergoeding aan de verzekerde, indien geen verzet onder hem gedaan is.
 
-## Art. 232
+###### Art. 232
 
 De bepalingen van de twee vorige artikelen hebben slechts gevolg in zover de schuldeiser bij de rangregeling of bij de verdeling in batige rang zou zijn gekomen, indien de in beslag genomen, in pand gegeven, met hypotheek bezwaarde of bij voorrecht verbonden zaken niet verloren waren gegaan.
 
 #### HOOFDSTUK 3. - Verplichtingen van de verzekeraar en van de verzekerde
 
-## Art. 233
+###### Art. 233
 
 Elke verzwijging of onjuiste opgave van de zijde van de verzekerde, zelfs zonder kwade trouw, maakt de verzekeringsovereenkomst nietig, wanneer daardoor de waardering van het risico zodanig wordt verminderd of het voorwerp ervan zodanig wordt veranderd dat de verzekeraar, indien hij daarvan kennis had gedragen, de overeenkomst niet onder dezelfde voorwaarden zou hebben aangegaan.
 
-## Art. 234
+###### Art. 234
 
 In alle gevallen waarin de verzekeringsovereenkomst geheel of gedeeltelijk wordt vernietigd, moet de verzekeraar, wanneer de verzekerde te goeder trouw heeft gehandeld, de premie teruggeven, hetzij voor het geheel, hetzij voor het gedeelte waarvoor hij geen risico heeft gelopen.
 De goede trouw kan niet worden ingeroepen in het geval van artikel 236, eerste lid.
 
-## Art. 235
+###### Art. 235
 
 Wanneer de overeenkomst vernietigd wordt uit oorzaak van bedrog, arglist of kwade trouw, behoudt de verzekeraar de premie, onverminderd de strafvordering, indien daartoe grond bestaat.
 
-## Art. 236
+###### Art. 236
 
 De verzekerde zaken waarvan de volle waarde reeds door een verzekeringsovereenkomst gedekt is, kunnen niet een tweede maal tegen dezelfde risico's worden verzekerd ten voordele van dezelfde persoon.
 Wanneer door de eerste overeenkomst niet de volle waarde verzekerd is, zijn de verzekeraars die de volgende overeenkomsten hebben getekend, verbonden voor het meerdere, in de volgorde van dagtekening van de overeenkomsten.
 Alle verzekeringsovereenkomsten die dezelfde dag zijn aangegaan, worden geacht tegelijkertijd te zijn gesloten.
 
-## Art. 237
+###### Art. 237
 
 Het gehele of gedeeltelijke verlies wordt over de onderscheiden verzekeringsovereenkomsten omgeslagen, naar evenredigheid van de bedragen waarvoor ze gesloten zijn ingeval ze van dezelfde datum zijn, of naar evenredigheid van de waarde waarvoor ieder moet instaan ingeval ze van verschillende datum zijn.
 
-## Art. 238
+###### Art. 238
 
 Achtereenvolgende verzekeringsovereen-komsten van dezelfde waarden tegen dezelfde risico's en ten voordele van dezelfde personen hebben nochtans gevolg :
 1° wanneer zij zijn aangegaan met instemming van elk van de verzekeraars; het verlies wordt in dat geval omgeslagen alsof beide verzekeringsovereenkomsten tegelijkertijd waren gesloten;
 2° wanneer de verzekerde de eerste verzekeraar ontslaat van elke verbintenis voor de toekomst, onverminderd zijn eigen verbintenissen.
 De afstand moet in het laatstbedoelde geval ter kennis worden gebracht van de verzekeraar en op straffe van nietigheid in de nieuwe polis vermeld worden.
 
-## Art. 239
+###### Art. 239
 
 De verzekerde kan de verzekeringspremie laten verzekeren.
 
-## Art. 240
+###### Art. 240
 
 Verlies of schade, veroorzaakt door opzet of grove schuld van de verzekerde, komt niet ten laste van de verzekeraar; deze kan zelfs de premie behouden of vorderen indien hij reeds enig risico heeft gelopen.
 
-## Art. 241
+###### Art. 241
 
 Bij elke verzekering moet de verzekerde al het nodige doen om de schade te voorkomen of te beperken; dadelijk nadat de schade ontstaan is, moet hij daarvan kennis geven aan de verzekeraar; een en ander op straffe van schadevergoeding, indien daartoe grond bestaat.
 De kosten, door de verzekerde gemaakt om de schade te beperken, komen ten laste van de verzekeraar, ook wanneer het gezamenlijk bedrag van die kosten en van de schade de verzekerde som te boven gaat en de aangewende pogingen vruchteloos gebleven zijn.
 Niettemin kunnen de rechtbanken en de scheidsrechters, wanneer de partijen zich tot hen hebben gewend, die kosten verminderen of zelfs weigeren toe te kennen, indien zij oordelen dat ze geheel of gedeeltelijk op onbedachtzame wijze zijn gemaakt.
 
-## Art. 242
+###### Art. 242
 
 De verzekeraar staat niet in voor het verlies en de schade die onmiddellijk volgen uit een eigen gebrek van de zaak, tenzij het tegendeel bedongen is.
 
-## Art. 243
+###### Art. 243
 
 Oorlogsrisico en verlies of schade veroorzaakt door oproer, zijn niet verzekerd tenzij het tegendeel bedongen is.
 
-## Art. 244
+###### Art. 244
 
 Bij elke verzekering wordt de vergoeding van de schade bepaald naar de waarde van de zaak ten tijde van het schadegeval.
 Wanneer de verzekerde waarde vooraf geschat is door deskundigen omtrent wie partijen zijn overeengekomen, kan de verzekeraar deze schatting niet betwisten, behalve in geval van bedrog.
 De waarde van de zaak kan bewezen worden door alle wettelijke middelen. De rechter kan zelfs, ingeval de bewijzen onvoldoende zijn, aan de verzekerde ambtshalve de eed opleggen.
 
-## Art. 245
+###### Art. 245
 
 Telkens als de verzekeringsovereenkomst slechts een gedeelte van de waarde van de zaak dekt, wordt de verzekerde zelf als verzekeraar voor het overige beschouwd, tenzij het tegendeel bedongen is.
 
-## Art. 246
+###### Art. 246
 
 De verzekeraar die de schade betaald heeft, treedt in alle rechten die de verzekerde, ter zake van die schade, tegenover derden mocht hebben, en de verzekerde is aansprakelijk voor elke handeling die de rechten van de verzekeraar tegenover derden mocht benadelen.
 In de verzekeringsovereenkomsten die krachtens artikel 230, § 2, mogen worden gesloten, treedt de verzekeraar die de vergoeding betaald heeft, in de plaats van de schuldeiser voor diens rechtsvordering tegen de schuldenaar.
@@ -3482,28 +3486,28 @@ De verzekeraar die aan een minderjarige, onbekwaamverklaarde of andere onbekwame
 ( 1 )<W 2015-10-26/06 , art. 89, 003; Inwerkingtreding : 09-11-2015>
 ( 2 )<W 2022-04-28/25 , art. 53, 028; Inwerkingtreding : 01-01-2023>
 
-## Art. 247
+###### Art. 247
 
 De verzekeraar heeft een voorrecht op de verzekerde zaak.
 Dit voorrecht behoeft niet te worden ingeschreven. Het komt in rang onmiddellijk na het voorrecht van de gerechtskosten.
 Het geldt slechts voor een bedrag gelijk aan twee jaar premie, onverschillig op welke wijze deze betaald wordt.
 
-## Art. 248
+###### Art. 248
 
 De verzekeraar kan het voorwerp van de verzekering altijd laten herverzekeren.
 
 #### HOOFDSTUK 4. - Bewijs en inhoud van de overeenkomst
 
-## Art. 249
+###### Art. 249
 
 De verzekeringsovereenkomst moet worden bewezen door geschrift, ongeacht de waarde van het voorwerp der overeenkomst.
 Niettemin kan het bewijs door getuigen worden toegelaten, wanneer er een begin van schriftelijk bewijs aanwezig is.
 
-## Art. 250
+###### Art. 250
 
 Eenzelfde polis mag verscheidene verzekeringen bevatten, die verschillen ten aanzien van de verzekerde zaken, het premiepercentage of de verzekeraars.
 
-## Art. 251
+###### Art. 251
 
 De verzekeringspolis vermeldt :
 1° de dag waarop de verzekeringsovereenkomst is gesloten;
@@ -3512,37 +3516,37 @@ De verzekeringspolis vermeldt :
 
 #### HOOFDSTUK 5. - Enige gevallen van ontbinding van de overeenkomst
 
-## Art. 252
+###### Art. 252
 
 De verzekeringsovereenkomst kan geen gevolg hebben wanneer de verzekerde zaak niet aan het risico blootgesteld is geweest of wanneer de schade reeds bestond ten tijde van het sluiten van de overeenkomst.
 
-## Art. 253
+###### Art. 253
 
 Ingeval de verzekeraar failliet gaat voordat het risico geëindigd is, kan de verzekerde vorderen dat een borg gesteld wordt, of, bij gebreke van een borg, dat de overeenkomst wordt beëindigd.
 Gaat de verzekerde failliet, dan heeft de verzekeraar hetzelfde recht.
 
-## Art. 254
+###### Art. 254
 
 Bij vervreemding van de verzekerde zaak loopt de verzekeringsovereenkomst van rechtswege, tenzij het tegendeel bedongen is, ten voordele van de nieuwe eigenaar, ten aanzien van alle risico's waarvoor de premie betaald was ten tijde van de vervreemding.
 Zij loopt eveneens ten voordele van de nieuwe eigenaar, tenzij het tegendeel in de polis bedongen is, wanneer deze in de rechten en verplichtingen van de voorgaande eigenaar jegens de verzekeraars gesteld is of wanneer de verzekeringsovereenkomst verder wordt uitgevoerd in onderlinge overeenstemming tussen de verzekeraar en de nieuwe eigenaar.
 
-## Art. 255
+###### Art. 255
 
 De verbintenissen van de verzekeraar houden op, wanneer een daad van de verzekerde de risico's door verandering van een essentiële omstandigheid wijzigt of die risico's verzwaart in zodanige mate dat de verzekeraar de verzekeringsovereenkomst niet zou hebben aangegaan of daarin slechts op andere voorwaarden zou hebben toegestemd, indien de nieuwe staat van zaken ten tijde van het sluiten der overeenkomst had bestaan.
 De verzekeraar kan zich op deze bepaling niet beroepen, wanneer hij is voortgegaan met de uitvoering van de overeenkomst, nadat hij kennis had gekregen van de verandering in het risico.
 
 #### HOOFDSTUK 6. - Verjaring
 
-## Art. 256
+###### Art. 256
 
 Elke rechtsvordering die uit een verzekeringspolis ontstaat, verjaart door verloop van drie jaren, te rekenen van de gebeurtenis waarop ze gegrond is. De verjaring tegen minderjarigen, onbekwaamverklaarden en andere onbekwamen loopt niet tot de dag van de meerderjarigheid of van de opheffing van de onbekwaamheid.
 In geval van regresvordering van de verzekerde tegen de verzekeraar loopt de termijn echter eerst vanaf het instellen van de rechtsvordering door de getroffene, onverschillig of het gaat om een oorspronkelijke eis tot schadeloosstelling dan wel om een latere eis naar aanleiding van een verzwaring van de schade of van het ontstaan van nieuwe schade.
 
-### DEEL 6. - VERZEKERINGSBEMIDDELING EN DE DISTRIBUTIE VAN VERZEKERINGEN
+## DEEL 6. - VERZEKERINGSBEMIDDELING EN DE DISTRIBUTIE VAN VERZEKERINGEN
 
 #### HOOFDSTUK 1. - Definities
 
-## Art. 257
+###### Art. 257
 
 <Opgeheven bij W 2018-12-06/11 , art. 18, 015; Inwerkingtreding : 28-12-2018>
 
@@ -3550,7 +3554,7 @@ In geval van regresvordering van de verzekerde tegen de verzekeraar loopt de ter
 ----------
 ( 1 )<W 2018-12-06/11 , art. 19, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 258
+###### Art. 258
 
 [ '> 1 § 1. Dit deel is niet van toepassing op de nevenverzekeringstussenpersonen, wanneer alle volgende voorwaarden vervuld zijn:
 a) de verzekering is een aanvulling op de levering van een goed of de verrichting van een dienst door een aanbieder, en dekt:
@@ -3574,11 +3578,11 @@ Artikel 278 is van toepassing om het toepassingsgebied van de in deze paragraaf 
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling I. [ '> 1 - Inschrijvingsvereiste] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 259
+##### Afdeling I. [ '> 1 - Inschrijvingsvereiste] '> 1
+###### Art. 259
 
 [ '> 1 § 1. Onder voorbehoud van het bepaalde in artikel 258, § 1, mag geen enkele verzekerings- of nevenverzekeringstussenpersoon en geen enkele herverzekeringstussenpersoon met België als lidstaat van herkomst, de activiteit van verzekerings- of herverzekeringsdistributie uitoefenen, zonder respectievelijk vooraf ingeschreven te zijn in het door de FSMA bijgehouden register van de verzekerings- en nevenverzekeringstussenpersonen of in het door haar bijgehouden register van de herverzekeringstussenpersonen.
 Onder voorbehoud van het bepaalde in artikel 258, § 1, mag geen enkele verzekerings- of nevenverzekeringstussenpersoon en geen enkele herverzekeringstussenpersoon met een andere lidstaat van herkomst dan België in België de activiteit van verzekerings- of herverzekeringsdistributie uitoefenen zonder vooraf ingeschreven te zijn als verzekerings-, nevenverzekerings-, of herverzekeringstussenpersoon door de bevoegde autoriteit van zijn lidstaat van herkomst, onverminderd het bepaalde bij artikel 271.
@@ -3597,13 +3601,13 @@ De koninklijke besluiten ter uitvoering van deze paragraaf, worden genomen op ge
 ( 1 )<W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2019-04-03/02 , art. 29, 016; Inwerkingtreding : 10-04-2019>
 
-## Art. 260
+###### Art. 260
 
 [ '> 1 De verzekerings- of herverzekeringstussenpersoon die ingeschreven wil worden in de categorie "verzekeringsmakelaars" of "herverzekeringsmakelaars", voegt bij zijn verzoek om inschrijving een verklaring op erewoord waaruit blijkt dat hij zijn beroepswerkzaamheden uitoefent buiten elke exclusieve agentuurovereenkomst of elke andere juridische verbintenis die hem rechtstreeks of onrechtstreeks verplicht zijn hele productie of een bepaald deel ervan te plaatsen bij een verzekerings- of een herverzekeringsonderneming of meerdere verzekerings- of herverzekeringsondernemingen die tot eenzelfde groep behoren of die hem belemmert in de ongebonden keuze van verzekerings- of herverzekeringsonderneming.] '> 1
 ----------
 ( 1 )<W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 261
+###### Art. 261
 
 [ '> 1 § 1. De verzekeringstussenpersoon die in de categorie van verzekeringsagenten is ingeschreven, en die contractueel verplicht is om, binnen de verzekeringssector, uitsluitend met één verzekeringsonderneming of met meerdere verzekeringsondernemingen verzekeringszaken te doen met betrekking tot verzekeringsovereenkomsten die geen onderling concurrerende verzekeringsovereenkomsten zijn, zodat hij beantwoordt aan de definitie van verbonden verzekeringsagent, stelt de FSMA hiervan in kennis. Hij deelt de FSMA tevens de naam en het adres van deze verzekeringsonderneming(en) mee, alsook de betrokken groep(en) van activiteiten en de betrokken verzekeringstakken.
 § 2. De verzekeringsonderneming stelt de FSMA in kennis van de na(a)m(en) en het/de adres(sen) van de verbonden verzekeringsagent(en) met wie zij samenwerkt. Zij deelt aan de FSMA ook de groep(en) van activiteiten en de betrokken verzekeringstakken mee.
@@ -3611,24 +3615,24 @@ De koninklijke besluiten ter uitvoering van deze paragraaf, worden genomen op ge
 ----------
 ( 1 )<W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 262
+###### Art. 262
 
 [ '> 1 De kandidaat-subagent voegt bij zijn verzoek om inschrijving een verklaring waarin de verzekeringsmakelaar of -agent of de herverzekeringsmakelaar of -agent, bevestigt dat hij de volledige en onvoorwaardelijke verantwoordelijkheid voor de door de kandidaat-subagent uitgeoefende verzekerings- of herverzekeringsdistributiewerkzaamheden op zich zal nemen.
 Elke wijziging in de gegevens waarop de in het eerste lid bedoelde verklaring betrekking heeft, moet onverwijld aan de FSMA worden meegedeeld.] '> 1
 ----------
 ( 1 )<W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 263
+###### Art. 263
 
 [ '> 1 Voor de in dit deel bedoelde werkzaamheden, mag niemand de titel dragen van verzekeringsmakelaar, verzekeringsagent, verzekeringssubagent, herverzekeringsmakelaar, herverzekeringsagent, herverzekeringssubagent of gevolmachtigde onderschrijver, of van makelaar, agent, subagent of onderschrijver, met verwijzing naar de activiteit van verzekeringen, herverzekeringen, verzekerings- of herverzekeringsdistributie, tenzij hij in de desbetreffende categorie van het register van de verzekeringstussenpersonen of het register van de herverzekeringstussenpersonen is ingeschreven.] '> 1
 ----------
 ( 1 )<W 2019-04-03/02 , art. 30, 016; Inwerkingtreding : 10-04-2019>
 
-##### Afdeling II. [ '> 1 - Vereisten van vakbekwaamheid en organisatorische vereisten voor verzekerings-, nevenverzekerings- en herverzekeringstussenpersonen] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 264
+##### Afdeling II. [ '> 1 - Vereisten van vakbekwaamheid en organisatorische vereisten voor verzekerings-, nevenverzekerings- en herverzekeringstussenpersonen] '> 1
+###### Art. 264
 
 [ '> 1 § 1. De verzekerings-, nevenverzekerings- en herverzekeringstussenpersonen duiden een of meer natuurlijke personen als verantwoordelijken voor de distributie aan. Het aantal verantwoordelijken voor de distributie is aangepast aan de organisatie en de activiteiten van de tussenpersoon. De Koning stelt dit aantal vast op gezamenlijk voorstel van de minister bevoegd voor verzekeringen en van de minister van Sociale Zaken en op advies van de FSMA.
 Uiterlijk op het ogenblik dat hij de verantwoordelijke voor de distributie aanduidt, bezorgt de betrokken verzekerings-, nevenverzekerings- en herverzekeringstussenpersoon de FSMA de identiteit van de betrokken persoon en de documenten die aantonen dat hij voldoet aan de bepalingen van artikel 266, 1° tot 3°. De verantwoordelijken voor de distributie worden door de FSMA opgenomen in het inschrijvingsdossier van de verzekerings-, nevenverzekerings- of herverzekeringstussenpersoon die hen aanduidt.
@@ -3638,13 +3642,13 @@ De bepalingen van artikel 10, § 2, van de wet van 30 juli 2018 betreffende de b
 ----------
 ( 1 )<W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 265
+###### Art. 265
 
 [ '> 1 Verzekerings-, nevenverzekerings- en herverzekeringstussenpersonen stellen interne beleidsmaatregelen vast en passen interne procedures toe om ervoor te zorgen dat klachten die aan hen worden gericht over een verzekerings- of herverzekeringsovereenkomst of betreffende de verzekerings- of herverzekeringsdienst die aan de klager werd verleend, op een deskundige en eerlijke wijze worden onderzocht en dat de klager in elk geval een antwoord ontvangt.] '> 1
 ----------
 ( 1 )<W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 266
+###### Art. 266
 
 [ '> 1 Om in het register van de verzekerings- en nevenverzekeringstussenpersonen of in het register van herverzekeringstussenpersonen te worden ingeschreven en die inschrijving te behouden, moeten de volgende voorwaarden blijvend zijn vervuld:
 1° de tussenpersoon, de verantwoordelijken voor de distributie en de personen in contact met het publiek, moeten de vereiste beroepskennis en vakbekwaamheid bezitten, als bepaald door de Koning op advies van de FSMA;
@@ -3672,7 +3676,7 @@ In afwijking van de bepalingen in 10°, betalen de verzekeringstussenpersonen zo
 ( 3 )<W 2020-07-20/12 , art. 28, 020; Inwerkingtreding : 15-08-2020>
 ( 4 )<W 2022-05-08/03 , art. 5, 026; Inwerkingtreding : 03-07-2022>
 
-## Art. 267
+###### Art. 267
 
 [ '> 1 De verzekerings-, nevenverzekerings- en herverzekeringstussenpersonen met de hoedanigheid van rechtspersoon worden bovendien slechts ingeschreven, en hun inschrijving wordt slechts gehandhaafd, op voorwaarde dat:
 1° al de personen die met de effectieve leiding worden belast, zich niet bevinden in een van de gevallen die zijn opgesomd in artikel 20 van de wet van 25 april 2014, en over de voor de uitoefening van hun functie passende deskundigheid en vereiste professionele betrouwbaarheid beschikken.
@@ -3688,7 +3692,7 @@ Wanneer de wettelijke of bestuursrechtelijke bepalingen van een derde land, die 
 ( 1 )<W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2022-05-08/03 , art. 6, 026; Inwerkingtreding : 03-07-2022>
 
-## Art. 267/1
+###### Art. 267/1
 
 [ '> 1 De verzekeringstussenpersonen die de activiteit van gevolmachtigde onderschrijver uitoefenen,
 1° beschikken over een passende organisatie die is afgestemd op de aard, de omvang en de complexiteit van de uitgeoefende activiteiten, alsook op de eraan verbonden risico's, met het oog op de naleving van de bepalingen van deze wet. De Koning kan de nadere regels voor de invulling van de vereiste van passende organisatie bepalen;
@@ -3698,18 +3702,18 @@ Wanneer de wettelijke of bestuursrechtelijke bepalingen van een derde land, die 
 ----------
 ( 1 )<Ingevoegd bij W 2019-04-03/02 , art. 31, 016; Inwerkingtreding : 10-04-2019>
 
-## Art. 267/2
+###### Art. 267/2
 
 [ '> 1 Als een verzekeringsmakelaar of een verzekeringsagent dan wel een herverzekeringsmakelaar of een herverzekeringsagent kennis heeft van elementen die twijfel kunnen doen rijzen over de naleving van de door deze wet voorgeschreven inschrijvingsvoorwaarden door een verzekeringssubagent of een nevenverzekeringstussenpersoon dan wel een herverzekeringssubagent op wie hij een beroep doet of heeft gedaan, deelt hij die elementen onmiddellijk mee aan de FSMA.
 Zij stellen de FSMA ook in kennis van het feit dat iemand zich als verzekerings- of herverzekeringstussenpersoon voordoet zonder in het in deze wet vermelde register te zijn ingeschreven.] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2024-05-03/21 , art. 72, 032; Inwerkingtreding : 10-06-2024>
 
-##### Afdeling III. [ '> 1 - Inschrijvingsprocedure] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 268
+##### Afdeling III. [ '> 1 - Inschrijvingsprocedure] '> 1
+###### Art. 268
 
 [ '> 1 § 1. Elke aanvraag om inschrijving in het register van verzekerings- en nevenverzekeringstussenpersonen of in het register van herverzekeringstussenpersonen wordt overeenkomstig de door de Koning vastgestelde vormen en voorwaarden gericht aan de FSMA. De kandidaat-tussenpersoon kan volmacht geven aan een derde om namens hem en voor zijn rekening de aanvraag tot inschrijving in te dienen. In elk geval blijft de tussenpersoon verantwoordelijk voor zijn inschrijvingsdossier en voor het actueel houden ervan.
 In zijn aanvraag moet de kandidaat aanduiden in welke categorie hij ingeschreven wenst te worden en of hij distributiewerkzaamheden zal uitoefenen inzake de niet-levensverzekeringsactiviteiten bedoeld in bijlage I bij de wet van 13 maart 2016 op het statuut van en het toezicht op verzekerings- of herverzekeringsondernemingen, inzake verzekeringen met een beleggingscomponent als bedoeld in artikel 5, 16° /1 en/of inzake de andere levensverzekeringsactiviteiten als bedoeld in bijlage II bij de wet van 13 maart 2016.
@@ -3728,15 +3732,15 @@ De website vermeldt, voor iedere verzekerings- en nevenverzekeringstussenpersoon
 ( 1 )<W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2022-05-08/03 , art. 7, 026; Inwerkingtreding : 03-07-2022>
 
+----------
+( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
+
 ##### Afdeling IV. [ '> 1 - Europees Paspoort] '> 1
+##### Onderafdeling I. [ '> 1 - Uitoefening van de vrijheid van dienstverlening.] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 
-###### Onderafdeling I. [ '> 1 - Uitoefening van de vrijheid van dienstverlening.] '> 1
-----------
-( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
-
-## Art. 269
+###### Art. 269
 
 [ '> 1 § 1. Elke in België ingeschreven verzekerings-, nevenverzekerings- of herverzekerings-tussenpersoon die voornemens is voor het eerst op het grondgebied van een andere lidstaat werkzaamheden uit hoofde van het vrij verrichten van diensten uit te oefenen, stelt de FSMA daarvan vooraf in kennis in de vorm en volgens de modaliteiten die zij bepaalt.
 [ '> 2 Bij deze gelegenheid bezorgt de tussenpersoon de hiernavolgende informatie aan de FSMA:
@@ -3754,11 +3758,11 @@ De FSMA stelt de bevoegde autoriteit van de lidstaat van ontvangst in kennis van
 ( 1 )<W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2021-06-27/09 , art. 374, 024; Inwerkingtreding : 19-07-2021>
 
-###### Onderafdeling II. [ '> 1 - Uitoefening van de vrijheid van vestiging] '> 1
+##### Onderafdeling II. [ '> 1 - Uitoefening van de vrijheid van vestiging] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 270
+###### Art. 270
 
 [ '> 1 § 1. Elke in België ingeschreven verzekerings-, nevenverzekerings- of herverzekerings-tussenpersoon die voornemens is op het grondgebied van een andere lidstaat een bijkantoor of een permanente aanwezigheid te vestigen uit hoofde van de vrijheid van vestiging, stelt de FSMA daarvan vooraf in kennis in de vorm en volgens de modaliteiten die zij bepaalt.
 [ '> 2 Bij deze gelegenheid bezorgt de tussenpersoon de hiernavolgende informatie aan de FSMA:
@@ -3783,11 +3787,11 @@ De FSMA stelt op haar beurt zo snel mogelijk, en in elk geval niet later dan é�
 ( 1 )<W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2021-06-27/09 , art. 375, 024; Inwerkingtreding : 19-07-2021>
 
-###### Onderafdeling III. [ '> 1 Vrijheid van dienstverlening en vrijheid van vestiging in België voor tussenpersonen ingeschreven in een andere lidstaat van de EER] '> 1
+##### Onderafdeling III. [ '> 1 Vrijheid van dienstverlening en vrijheid van vestiging in België voor tussenpersonen ingeschreven in een andere lidstaat van de EER] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 271
+###### Art. 271
 
 [ '> 1 § 1. De in een andere EER-lidstaat dan België ingeschreven verzekerings-, nevenverzekerings- of herverzekeringstussen-persoon kan zijn werkzaamheden in België aanvangen, hetzij uit hoofde van het vrij verrichten van diensten, hetzij uit hoofde van de vrijheid van vestiging, nadat hij de bevoegde autoriteit van zijn lidstaat van herkomst hiervan in kennis heeft gesteld, en nadat deze autoriteit de FSMA op de hoogte heeft gebracht overeenkomstig de Europeesrechtelijke bepalingen ter zake. De FSMA maakt de lijst van deze verzekerings-, nevenverzekerings- en herverzekerings-tussenpersonen bekend op haar website en zorgt voor een regelmatige actualisering ervan op basis van de haar beschikbare gegevens.
 De in het eerste lid bedoelde verzekerings-, nevenverzekerings- of herverzekeringstussen-persoon moet bij de uitoefening van zijn werkzaamheden de wettelijke en reglementaire bepalingen naleven die in België van toepassing zijn op de verzekerings-, nevenverzekerings- en herverzekeringstussenpersonen om redenen van algemeen belang. De FSMA deelt aan de bevoegde autoriteit van de lidstaat van herkomst mee welke bepalingen naar haar weten van algemeen belang zijn.
@@ -3796,11 +3800,11 @@ De FSMA verstrekt op haar website informatie over de in eerste lid bedoelde bepa
 ----------
 ( 1 )<W 2018-12-06/11 , art. 20, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling V. [ '> 1 - Wijze van betaling van de premie en van de verzekeringsprestatie] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2021-06-27/09 , art. 376, 024; Inwerkingtreding : 19-07-2021>
 
-## Art. 271/1
+##### Afdeling V. [ '> 1 - Wijze van betaling van de premie en van de verzekeringsprestatie] '> 1
+###### Art. 271/1
 
 [ '> 1 Artikel 67 is toepasselijk op elke verzekeringsdistributie die onder de toepassing van dit deel valt.] '> 1
 ----------
@@ -3810,25 +3814,25 @@ De FSMA verstrekt op haar website informatie over de in eerste lid bedoelde bepa
 ----------
 ( 1 )<W 2018-12-06/11 , art. 21, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 272
+###### Art. 272
 
 [ '> 1 Dit hoofdstuk is van toepassing op de verzekerings- en herverzekeringsondernemingen waarvan België de lidstaat van herkomst is, met inbegrip van de bijkantoren die zij in andere EER-lidstaten hebben gevestigd.] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 21, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 273
+###### Art. 273
 
 [ '> 1 De verzekerings- en herverzekeringsondernemingen die ook zonder tussenkomst van een tussenpersoon werkzaamheden van verzekerings- of herverzekeringsdistributie uitoefenen, duiden een of meer natuurlijke personen aan als verantwoordelijken voor de distributie. Het aantal verantwoordelijken voor de distributie is aangepast aan de organisatie en de activiteiten van de onderneming. De Koning kan de toepasselijke vereisten op dit punt vaststellen, op gezamenlijk voorstel van de minister bevoegd voor verzekeringen en van de minister van Sociale Zaken en op advies van de FSMA.] '> 1
 ----------
 ( 1 )<W 2018-12-06/11 , art. 21, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 274
+###### Art. 274
 
 [ '> 1 De personen die als verantwoordelijke voor de distributie zijn aangewezen in een verzekerings- of herverzekeringsonderneming, en de personen in contact met het publiek van een verzekerings- of herverzekeringsonderneming die rechtstreeks betrokken zijn bij de distributiewerkzaamheden, moeten voldoen aan dezelfde voorwaarden als deze in artikel 266, 1°, 2° en 3°, gesteld voor de verantwoordelijken voor de distributie en de personen in contact met het publiek bij een verzekerings-, nevenverzekerings-, of herverzekeringstussenpersoon.] '> 1
 ----------
 ( 1 )<W 2018-12-06/11 , art. 21, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 275
+###### Art. 275
 
 [ '> 1 § 1. De betrokken verzekerings- en herverzekeringsondernemingen stellen interne beleidsmaatregelen vast en passen interne procedures toe om ervoor te zorgen dat blijvend aan het bepaalde in de artikelen 273 en 274 is voldaan.
 Voor elk van de in artikel 274 bedoelde personen legt de verzekerings- of herverzekeringsonderneming een dossier aan waarin zij de informatie bewaart die aantoont dat deze aan de bepalingen van artikel 266, 1° tot 3° voldoen. De verzekerings- en herverzekeringsondernemingen houden deze dossiers ter beschikking van de FSMA en is ertoe gehouden de vertrouwelijkheid van deze gegevens te waarborgen.
@@ -3840,13 +3844,13 @@ De verzekerings- en herverzekeringsondernemingen delen aan de FSMA de naamlijst 
 ( 1 )<W 2018-12-06/11 , art. 21, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2022-05-08/03 , art. 8, 026; Inwerkingtreding : 03-07-2022>
 
-## Art. 276
+###### Art. 276
 
 [ '> 1 Verzekerings- en herverzekeringsondernemingen stellen interne beleidsmaatregelen vast en passen interne procedures toe om ervoor te zorgen dat klachten die aan hen gericht worden over een verzekerings- of herverzekeringsovereenkomst of betreffende de verzekerings- of herverzekeringsdienst die aan de klager werd verleend op een deskundige en eerlijke wijze worden onderzocht en dat de klager in elk geval een antwoord ontvangt.] '> 1
 ----------
 ( 1 )<W 2018-12-06/11 , art. 21, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 277
+###### Art. 277
 
 [ '> 1 § 1. De samenwerking tussen de verzekeringsonderneming, de herverzekeringsonderming en de nevenverzekeringstussenpersoon, de verzekeringstussenpersoon of de herverzekeringstussenpersoon maakt het voorwerp uit van een schriftelijke overeenkomst die, in voorkomend geval, regelmatig wordt geactualiseerd.
 § 2. Als de verzekerings- of herverzekeringsondernemingen kennis hebben van elementen die twijfel kunnen doen rijzen over de naleving van de in deze wet vastgestelde inschrijvingsvoorwaarden door een verzekerings- een nevenverzekerings- of een herverzekeringstussenpersoon op wie zij een beroep doen of gedaan hebben, brengen zij die elementen onverwijld ter kennis van de FSMA.
@@ -3858,11 +3862,11 @@ Zij stellen de FSMA ook in kennis van het feit dat iemand zich voordoet als verz
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling 1. [ '> 1 - Toepassingsgebied] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 278
+##### Afdeling 1. [ '> 1 - Toepassingsgebied] '> 1
+###### Art. 278
 
 [ '> 1 § 1. Dit hoofdstuk is van toepassing op:
 - verzekeringsdistributeurs waarvan België de lidstaat van herkomst is, uitgezonderd de bijkantoren die zij in andere lidstaten van de EER hebben gevestigd;
@@ -3874,11 +3878,11 @@ Zij stellen de FSMA ook in kennis van het feit dat iemand zich voordoet als verz
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling 2. [ '> 1 - Algemeen beginsel] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 279
+##### Afdeling 2. [ '> 1 - Algemeen beginsel] '> 1
+###### Art. 279
 
 [ '> 1 § 1. Verzekeringsdistributeurs zetten zich altijd op loyale, billijke en professionele wijze in voor de belangen van hun klanten wanneer ze aan verzekeringsdistributie doen.
 § 2. Onverminderd de bepalingen van Boek VI van het Wetboek van economisch recht aangaande het verbod op oneerlijke handelspraktijken moet alle door verzekeringsdistributeurs aan hun klanten of potentiële klanten verstrekte informatie die verband houdt met het onderwerp van deze wet en haar uitvoeringsbesluiten, met inbegrip van publicitaire mededelingen, correct, duidelijk en niet misleidend zijn. Publicitaire mededelingen moeten altijd duidelijk als zodanig herkenbaar zijn.
@@ -3888,11 +3892,11 @@ Wat de verzekeringsproducten betreft die ressorteren onder officieel erkende bed
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling 3. [ '> 1 - Categorisering van klanten] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 280
+##### Afdeling 3. [ '> 1 - Categorisering van klanten] '> 1
+###### Art. 280
 
 [ '> 1 Alvorens verzekeringsproducten te distribueren, deelt een verzekeringsdistributeur zijn nieuwe klanten, evenals zijn bestaande klanten, hun indeling in de categorie van professionele of niet-professionele klant mee.
 De verzekeringsdistributeur informeert de klant, op duurzame drager, over enig recht van de klant om een andere categorie-indeling te vragen en over het eventueel daaruit voortvloeiende lagere beschermingsniveau voor de klant.
@@ -3901,11 +3905,11 @@ De verzekeringsdistributeur kan op vraag van de klant een als niet-professionele
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling 4. [ '> 1 - Door de verzekeringstussenpersoon, nevenverzekeringstussenpersoon of verzekeringsonderneming te verstrekken algemene informatie] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 281
+##### Afdeling 4. [ '> 1 - Door de verzekeringstussenpersoon, nevenverzekeringstussenpersoon of verzekeringsonderneming te verstrekken algemene informatie] '> 1
+###### Art. 281
 
 [ '> 1 § 1. Een verzekeringstussenpersoon deelt de klant tijdig, voordat een verzekeringsovereenkomst wordt gesloten de volgende informatie mee:
 i) zijn identiteit en adres, en het feit dat hij een verzekeringstussenpersoon is;
@@ -3922,11 +3926,11 @@ iii) de in artikel 276 bedoelde procedure die klanten en belanghebbenden de moge
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling 5. [ '> 1 - Belangenconflicten en transparantie] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 283
+##### Afdeling 5. [ '> 1 - Belangenconflicten en transparantie] '> 1
+###### Art. 283
 
 [ '> 1 § 1. Elke verzekeringstussenpersoon en nevenverzekeringstussenpersoon deelt de klant tijdig, voordat een verzekeringsovereenkomst gesloten wordt ten minste de volgende informatie mee:
 a) of hij een rechtstreekse of middellijke deelneming van 10 % of meer van de stemrechten of van het kapitaal van een bepaalde verzekeringsonderneming bezit;
@@ -3957,11 +3961,11 @@ b) bevat voldoende details, rekening houdend met het type klant, zodat de klant 
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling 6. [ '> 1 - Advies, en normen voor de verkoop indien geen advies wordt verstrekt] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 284
+##### Afdeling 6. [ '> 1 - Advies, en normen voor de verkoop indien geen advies wordt verstrekt] '> 1
+###### Art. 284
 
 [ '> 1 § 1. Voorafgaand aan de sluiting van een verzekeringsovereenkomst stelt de verzekeringsdistributeur op basis van de door de klant verstrekte informatie de verlangens en behoeften van de klant vast en verstrekt hij de klant objectieve informatie over het verzekeringsproduct, in een begrijpelijke vorm, om hem in staat te stellen met kennis van zaken een beslissing te nemen.
 Iedere voorgestelde verzekeringsovereenkomst is in overeenstemming met de verlangens en behoeften van de klant.
@@ -3996,11 +4000,11 @@ i) de wijze van beëindiging van de overeenkomst.
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling 7. [ '> 1 - Voorwaarden inzake informatieverstrekking] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 285
+##### Afdeling 7. [ '> 1 - Voorwaarden inzake informatieverstrekking] '> 1
+###### Art. 285
 
 [ '> 1 § 1. Alle informatie die op grond van de artikelen 281 tot 284, 287 en 295 of op grond van de besluiten genomen ter uitvoering van dit hoofdstuk moet worden meegedeeld, wordt, uitgezonderd waar anders bepaald, aan de klanten verstrekt:
 a) op papier;
@@ -4024,11 +4028,11 @@ d) de toegang tot die informatie via de website blijft gegarandeerd zolang raadp
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling 8. [ '> 1 - Koppelverkoop] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 286
+##### Afdeling 8. [ '> 1 - Koppelverkoop] '> 1
+###### Art. 286
 
 [ '> 1 § 1. Koppelverkoop waarbij minstens een element een verzekeringsproduct is, is toegestaan wanneer hij in overeenstemming is met dit artikel en de ter uitvoering ervan genomen besluiten en reglementen.
 § 2. Wanneer een verzekeringsproduct wordt aangeboden samen met een nevenproduct dat of een nevendienst die geen verzekering is, als onderdeel van een pakket of dezelfde overeenkomst, deelt de verzekeringsdistributeur de klant mee of de verschillende componenten van het pakket afzonderlijk kunnen worden gekocht en, zo ja, verstrekt hij een adequate beschrijving van de verschillende componenten van de overeenkomst of het pakket, alsmede afzonderlijke informatie over de kosten en lasten van elke component.
@@ -4042,11 +4046,11 @@ d) de toegang tot die informatie via de website blijft gegarandeerd zolang raadp
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling 9. [ '> 1 - Inducements] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 287
+##### Afdeling 9. [ '> 1 - Inducements] '> 1
+###### Art. 287
 
 [ '> 1 De representatieve organisaties van de verzekeringssector, worden ermee belast binnen zes maanden na de bekendmaking van deze wet in het Belgisch Staatsblad in onderling overleg een gedragscode uit te werken, die minstens het volgende bepaalt, met een onderscheid, waar nodig naargelang het type product :
 1° criteria om te beoordelen of ondernemingen die inducements ontvangen, voldoen aan de verplichting om op eerlijke, billijke en professionele wijze te handelen in het belang van de klant, en
@@ -4059,11 +4063,11 @@ Waar nodig kan Hij een onderscheid maken naargelang het type product.] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling 10. [ '> 1 - Toezicht op producten en governancevereisten en productkennis] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 288
+##### Afdeling 10. [ '> 1 - Toezicht op producten en governancevereisten en productkennis] '> 1
+###### Art. 288
 
 [ '> 1 § 1. Verzekeringsondernemingen, alsmede tussenpersonen die verzekeringsproducten ontwikkelen voor verkoop aan klanten, zorgen voor handhaving, toepassing en toetsing van een procedure voor de goedkeuring van elk verzekeringsproduct, of van significante aanpassingen van bestaande verzekeringsproducten, vóór het in de handel wordt gebracht of onder klanten wordt gedistribueerd.
 Het productgoedkeuringsproces staat in verhouding tot en past bij de aard van het verzekeringsproduct.
@@ -4078,11 +4082,11 @@ De verzekeringsondernemingen bieden enkel verzekeringsovereenkomsten aan waarvan
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling 11. [ '> 1 - Klantendossiers] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 290
+##### Afdeling 11. [ '> 1 - Klantendossiers] '> 1
+###### Art. 290
 
 [ '> 1 § 1. De verzekeringsdistributeur legt een dossier aan met het of de tussen de verzekeringstussenpersoon of verzekerings-onderneming en de klant overeengekomen document(en), waarin de rechten en plichten van beide partijen worden beschreven, alsmede de overige voorwaarden waarop hij diensten voor de klant zal verrichten. De rechten en plichten van beide partijen bij de overeenkomst kunnen worden opgenomen door middel van verwijzing naar andere documenten of wetsteksten.
 De gegevens worden, opdat de FSMA haar toezichtsopdracht zou kunnen uitoefenen, bewaard gedurende een termijn van vijf jaar en, indien de FSMA daarom verzoekt, gedurende een termijn van zeven jaar, onverminderd de mogelijkheid voor de verzekeringsdistributeur om, met inachtneming van Verordening 2016/679, ze langer te bewaren voor de uitvoering van de overeenkomst en het beheer van ermee gepaard gaande geschillen.
@@ -4090,11 +4094,11 @@ De gegevens worden, opdat de FSMA haar toezichtsopdracht zou kunnen uitoefenen, 
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling 12. [ '> 1 - Bewaring van gegevens] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 291
+##### Afdeling 12. [ '> 1 - Bewaring van gegevens] '> 1
+###### Art. 291
 
 [ '> 1 § 1. De verzekeringsdistributeurs bewaren een registratie van elke verrichte activiteit van verzekeringsdistributie, om de FSMA in staat te stellen na te gaan of de verzekeringsdistributeur zich houdt aan de bepalingen van dit deel, en aan de bepalingen genomen in uitvoering van dit deel, en inzonderheid of hij zijn verplichtingen ten aanzien van zijn klanten of potentiële klanten nakomt.
 De gegevens worden, opdat de FSMA haar toezichtsopdracht zou kunnen uitoefenen, bewaard gedurende een termijn van vijf jaar en, indien de FSMA daarom verzoekt, gedurende een termijn van zeven jaar, onverminderd de mogelijkheid voor de verzekeringsdistributeur om, met inachtneming van Verordening 2016/679, ze langer te bewaren voor de uitvoering van de overeenkomst en het beheer van ermee gepaard gaande geschillen.
@@ -4102,21 +4106,21 @@ De gegevens worden, opdat de FSMA haar toezichtsopdracht zou kunnen uitoefenen, 
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling 13. [ '> 1 - Terbeschikkingstelling van informatie aan verzekeringsdistributeurs] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 292
+##### Afdeling 13. [ '> 1 - Terbeschikkingstelling van informatie aan verzekeringsdistributeurs] '> 1
+###### Art. 292
 
 [ '> 1 De verzekeringsondernemingen stellen de verzekeringsdistributeurs die hun producten distribueren de informatie ter beschikking waarover zij beschikken en die de verzekeringsdistributeurs nodig hebben om te voldoen aan hun verplichtingen die volgen uit dit hoofdstuk en uit de bepalingen die dit hoofdstuk uitvoeren.] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-##### Afdeling 14. [ '> 1 - Aansprakelijkheid] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 293
+##### Afdeling 14. [ '> 1 - Aansprakelijkheid] '> 1
+###### Art. 293
 
 [ '> 1 § 1. Verzekeringsondernemingen die samenwerken met verbonden verzekeringsagenten, zijn volledig en onvoorwaardelijk burgerlijk aansprakelijk voor elke handeling of elk verzuim van die verbonden verzekeringsagenten die in naam en voor rekening van die ondernemingen optreden, in zoverre die handeling of dat verzuim betrekking heeft op de gedragsregels vervat in hoofdstuk 5 van dit deel of in de bepalingen ter uitvoering ervan.
 De verzekeringsondernemingen zien erop toe dat de verbonden verzekeringsagenten met wie zij samenwerken, kenbaar maken in welke hoedanigheid zij optreden [ '> 2 als zij zakendoen met een klant of een potentiële klant] '> 2 .
@@ -4128,15 +4132,15 @@ De verzekerings- of herverzekeringsagenten en de verzekerings- of herverzekering
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2022-05-08/03 , art. 9, 026; Inwerkingtreding : 03-07-2022>
 
+----------
+( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
+
 ##### Afdeling 15. [ '> 1 - Aanvullende vereisten met betrekking tot verzekeringsproducten met een beleggingscomponent] '> 1
+##### Onderafdeling 1. [ '> 1 - Toepassingsgebied van bijkomende vereisten] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-###### Onderafdeling 1. [ '> 1 - Toepassingsgebied van bijkomende vereisten] '> 1
-----------
-( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
-
-## Art. 294
+###### Art. 294
 
 [ '> 1 In deze afdeling worden voorschriften vastgelegd die een aanvulling vormen op deze die gelden voor de distributie van verzekeringsproducten, wanneer deze distributie verzekeringen met een beleggingscomponent betreft door:
 a) een verzekeringstussenpersoon, of
@@ -4144,11 +4148,11 @@ b) een verzekeringsonderneming.] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-###### Onderafdeling 2. [ '> 1 - Informatieverstrekking aan klanten] '> 1
+##### Onderafdeling 2. [ '> 1 - Informatieverstrekking aan klanten] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 295
+###### Art. 295
 
 [ '> 1 § 1. Onverminderd de artikelen 281 en 283, §§ 1 en 2, wordt tijdig, voordat er een overeenkomst wordt gesloten, passende informatie verstrekt aan klanten of potentiële klanten met betrekking tot de distributie van verzekeringen met een beleggingscomponent, en met betrekking tot alle kosten en bijbehorende lasten. Deze informatie behelst ten minste het volgende:
 a) indien advies wordt verstrekt, of de verzekeringstussenpersoon of verzekeringsonder-neming de klant een periodieke beoordeling zal verstrekken van de geschiktheid van de aan die klant aanbevolen verzekering met een beleggingscomponent, als bedoeld in artikel 296;
@@ -4161,11 +4165,11 @@ De in deze paragraaf bedoelde informatie wordt in een begrijpelijke vorm en op z
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-###### Onderafdeling 3. [ '> 1 - Beoordeling van geschiktheid en passendheid] '> 1
+##### Onderafdeling 3. [ '> 1 - Beoordeling van geschiktheid en passendheid] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 296
+###### Art. 296
 
 [ '> 1 § 1. Onverminderd artikel 284, § 1, wint de verzekeringstussenpersoon of de verzekeringsonderneming wanneer zij advies verstrekken over een verzekering met een beleggingscomponent tevens de nodige informatie in betreffende de kennis en ervaring van de klant of potentiële klant op beleggingsgebied met betrekking tot de specifieke soort product of dienst, diens financiële situatie, met inbegrip van diens vermogen om verliezen te dragen, en diens beleggingsdoelstellingen, met inbegrip van diens risicotolerantie, teneinde de verzekeringstussenpersoon of de verzekeringsonderneming in staat te stellen om de klant of potentiële klant de verzekeringen met een beleggingscomponent te kunnen aanbevelen, die voor die persoon geschikt zijn en die, met name, stroken met diens risicotolerantie en vermogen om verliezen te dragen.
 Wanneer een verzekeringstussenpersoon of verzekeringsonderneming beleggingsadvies verstrekt waarbij een op grond van artikel 286 gebundeld pakket van diensten of producten wordt aanbevolen, zorgt hij ervoor dat de hele bundel geschikt is voor de klant of potentiële klant.
@@ -4182,11 +4186,11 @@ Indien een verzekeringstussenpersoon of verzekeringsonderneming de klant ervan o
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-###### Onderafdeling 4. [ '> 1 - Vereisten inzake Inducements met betrekking tot verzekeringsproducten met een beleggingscomponent] '> 1
+##### Onderafdeling 4. [ '> 1 - Vereisten inzake Inducements met betrekking tot verzekeringsproducten met een beleggingscomponent] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 296/1
+###### Art. 296/1
 
 [ '> 1 Onverminderd artikel 283, § 1, onder d) en e), en § 3, voldoen verzekeringsdistributeurs aan hun verplichtingen overeenkomstig artikel 279, § 1, en artikel 283, §§ 8 tot 10, indien zij een provisie of commissie betalen of ontvangen, dan wel een niet-geldelijke tegemoetkoming betalen of ontvangen in verband met de distributie van een verzekeringsproduct of nevendienst, aan of van een ander dan de klant of een persoon die voor rekening van de klant handelt, uitsluitend indien de betaling of de tegemoetkoming:
 a) geen afbreuk doet aan de kwaliteit van de aan de klant verleende dienst; en
@@ -4195,22 +4199,22 @@ De betaling of tegemoetkoming die de verzekeringsdistributie mogelijk maakt of d
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-###### Onderafdeling 5. [ '> 1 - Vereisten inzake rapportering aan klanten met betrekking tot verzekeringsproducten met een beleggingscomponent] '> 1
+##### Onderafdeling 5. [ '> 1 - Vereisten inzake rapportering aan klanten met betrekking tot verzekeringsproducten met een beleggingscomponent] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 296/2
+###### Art. 296/2
 
 [ '> 1 § 1. De verzekeringstussenpersoon of verzekeringsonderneming verstrekt de klant deugdelijke verslagen over de verrichte dienst op een duurzame drager. Deze verslagen bevatten periodieke mededelingen aan klanten, rekening houdend met de soort en de complexiteit van de betrokken verzekeringen en de aard van de voor de klant verrichte dienst, alsook, in voorkomend geval, de kosten van de transacties en de diensten die voor rekening van de klant werden verricht.
 § 2. Dit artikel is niet van toepassing op diensten verstrekt aan professionele klanten.] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 22, 015; Inwerkingtreding : 28-12-2018>
 
-### DEEL 7. - ORGANISATIE VAN HET TOEZICHT
+## DEEL 7. - ORGANISATIE VAN HET TOEZICHT
 
-#### TITEL I. - Organisatie van het toezicht en samenwerking tussen de autoriteiten
+### TITEL I. - Organisatie van het toezicht en samenwerking tussen de autoriteiten
 
-## Art. 297
+###### Art. 297
 
 [ '> 1 Tenzij anders bepaald, zijn de bepalingen van dit Deel van toepassing met betrekking tot:
 1° deze wet en haar uitvoeringsbesluiten en -reglementen;
@@ -4220,7 +4224,7 @@ De betaling of tegemoetkoming die de verzekeringsdistributie mogelijk maakt of d
 ----------
 ( 1 )<W 2025-03-25/05 , art. 44, 037; Inwerkingtreding : 08-05-2025>
 
-## Art. 298
+###### Art. 298
 
 ] '> 1 § 1. Behalve voor zover uitdrukkelijk anders bepaald in deze wet, ziet de FSMA toe op de naleving van de bepalingen [ '> 2 als bedoeld in artikel 297] '> 2 .
 § 2. In afwijking van paragraaf 1 wordt de CDZ belast met het toezicht op de naleving van [ '> 2 de bepalingen als bedoeld in artikel 297, 1° en 4°,] '> 2 met betrekking tot de maatschappijen van onderlinge bijstand, zoals bedoeld in artikel 43bis, § 5, en 70, §§ 6, 7 en 8, van de wet van 6 augustus 1990 betreffende de ziekenfondsen en de landsbonden van ziekenfondsen, en met betrekking tot de verzekeringstussenpersonen zoals bedoeld in artikel 68 van de wet van 26 april 2010 houdende diverse bepalingen inzake de organisatie van de aanvullende ziekteverzekering (I).
@@ -4230,20 +4234,20 @@ De FSMA en de CDZ sluiten een samenwerkingsovereenkomst. De samenwerkingsovereen
 ( 1 )<W 2018-12-06/11 , art. 23, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2025-03-25/05 , art. 3, 037; Inwerkingtreding : 08-05-2025>
 
-## Art. 299
+###### Art. 299
 
 [ '> 1 Oud Art. 291] '> 1 De FSMA is bevoegd voor het toezicht op de naleving door de Belgische verzekeringsondernemingen en de buitenlandse verzekeringsondernemingen, met uitzondering van de EER verzekeringsondernemingen, van de regels die, overeenkomstig artikel 45, § 1, 3°, f. van de wet van 2 augustus 2002, een loyale, billijke en professionele behandeling van de belanghebbende partijen moeten waarborgen.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 23, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 300
+###### Art. 300
 
 [ '> 1 Oud Art. 282] '> 1 Met het oog op een efficiënt en gecoördineerd toezicht op de verzekeringsondernemingen sluiten de Bank en de FSMA een protocol dat op hun respectieve websites wordt bekend gemaakt.
 Dit protocol bepaalt de modaliteiten van de samenwerking tussen de Bank en de FSMA in alle gevallen waar de wet een advies, raadpleging, informatie of ander contact tussen de twee instellingen voorziet of waar overleg tussen beide instellingen noodzakelijk is om een eenvormige toepassing van de wetgeving te verzekeren.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 23, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 301
+###### Art. 301
 
 [ '> 1 Oud Art. 283] '> 1 Wanneer de FSMA in haar toezicht op de naleving van de bepalingen [ '> 3 als bedoeld in artikel 297] '> 3 praktijken vaststelt die strijdig zijn met [ '> 3 andere wetgevingen dan de bepalingen als bedoeld in artikel 297] '> 3 , [ '> 2 kan zij, onder de in artikel 75 van de wet van 2 augustus 2002 bedoelde voorwaarden, de overheden die bevoegd zijn voor deze materies, daarvan op de hoogte brengen, mits die overheden in paragraaf 1 van voornoemd artikel worden vermeld.] '> 2 Evenzo brengen die overheden de FSMA op de hoogte van de door hen vastgestelde inbreuken op wetten, besluiten of reglementen door de ondernemingen en personen onderworpen [ '> 3 aan de bepalingen als bedoeld in artikel 297] '> 3 . Deze inlichtingen blijven onderworpen aan de regels van het beroepsgeheim waartoe die overheden zijn gehouden.
 ----------
@@ -4251,7 +4255,7 @@ Dit protocol bepaalt de modaliteiten van de samenwerking tussen de Bank en de FS
 ( 2 )<W 2022-05-08/03 , art. 10, 026; Inwerkingtreding : 03-07-2022>
 ( 3 )<W 2025-03-25/05 , art. 46, 037; Inwerkingtreding : 08-05-2025>
 
-## Art. 302
+###### Art. 302
 
 [ '> 2 Oud Art. 284] '> 2 [ '> 3 § 1. Met het oog op een goede toepassing [ '> 4 van de bepalingen als bedoeld in artikel 297] '> 4 werkt de FSMA samen met de Bank, EIOPA, de bevoegde autoriteiten van de lidstaten van de EER, de bevoegde autoriteiten in de zin van artikel 12, lid 1 van de IDD-richtlijn en met de autoriteiten van derde landen met een gelijkaardige opdracht, en kan zij met deze autoriteiten vertrouwelijke informatie uitwisselen overeenkomstig het bepaalde bij artikel 75 en 77, §§ 1 en 2, van de wet van 2 augustus 2002.
 De FSMA deelt EIOPA onverwijld alle informatie mee die zij nodig heeft voor de uitoefening van haar taken overeenkomstig Verordening (EU) nr. 1094/2010.
@@ -4267,7 +4271,7 @@ c) deelt de FSMA, zowel gedurende de registratieprocedure als op permanente basi
 ( 3 )<W 2018-12-06/11 , art. 25, 015; Inwerkingtreding : 28-12-2018>
 ( 4 )<W 2025-03-25/05 , art. 47, 037; Inwerkingtreding : 08-05-2025>
 
-## Art. 303
+###### Art. 303
 
 ] '> 1 Elke klacht wegens overtreding [ '> 2 van de bepalingen als bedoeld in artikel 297] '> 2 wordt ter kennis van de FSMA gebracht door de gerechtelijke of bestuurlijke instantie waarbij zij aanhangig is gemaakt.
 Elke strafvordering uit hoofde van misdrijven als bedoeld in het eerste lid, wordt ter kennis van de FSMA gebracht door de zorg van de griffier van het strafgerecht waarbij zij aanhangig is gemaakt.
@@ -4275,11 +4279,11 @@ Elke strafvordering uit hoofde van misdrijven als bedoeld in het eerste lid, wor
 ( 1 )<W 2018-12-06/11 , art. 23, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2025-03-25/05 , art. 48, 037; Inwerkingtreding : 08-05-2025>
 
-#### TITEL II. - Uitoefening van het toezicht
+### TITEL II. - Uitoefening van het toezicht
 
 #### HOOFDSTUK 1. - Algemene bepalingen
 
-## Art. 304
+###### Art. 304
 
 [ '> 1 Oud Art. 286] '> 1 § 1. [ '> 2 De FSMA bepaalt de gegevens en documenten die de verzekeraars, de herverzekeringsondernemingen, de verzekerings-, de nevenverzekerings- en de herverzekeringstussenpersonen haar moeten bezorgen opdat zou kunnen worden nagegaan of de wettelijke en reglementaire bepalingen waaraan zij zijn onderworpen, blijvend zijn nageleefd. De FSMA bepaalt voor deze gegevens en documenten tevens de rapporteringsfrequentie en -modaliteiten.] '> 2
 § 2. [ '> 2 Op eenvoudig verzoek van de FSMA zijn de verzekeraars, de herverzekeringsondernemingen, de verzekerings-, de nevenverzekerings- en de herverzekeringstussenpersonen ertoe gehouden alle inlichtingen te verstrekken en alle documenten in te leveren die de FSMA nodig heeft ter uitvoering van haar taken en dit binnen de termijn [ '> 4 en volgens de nadere regels] '> 4 die zij vaststelt. De in dit lid bedoelde inlichtingen en documenten dienen minstens in de taal te worden gesteld die bij wet of decreet wordt opgelegd.
@@ -4302,7 +4306,7 @@ De bevoegde procureur-generaal kan weigeren om gevolg te geven aan het in het ee
 ( 4 )<W 2024-05-03/21 , art. 73, 032; Inwerkingtreding : 10-06-2024>
 ( 5 )<W 2025-03-25/05 , art. 49, 037; Inwerkingtreding : 08-05-2025>
 
-## Art. 305
+###### Art. 305
 
 [ '> 2 Oud Art. 287] '> 2 [ '> 1 Indien de vergunning van een verzekeringsonderneming wordt ingetrokken, dan wel van rechtswege vervalt, kan de FSMA, indien zij oordeelt dat de vrijwaring van de rechten van de verzekeringnemers, de verzekerden, de aangeslotenen en/of de begunstigden dit vereist, op kosten van de betrokken verzekeringsonderneming de intrekking of het verval van rechtswege van de vergunning bekendmaken op de wijze die zij bepaalt. In dat bericht wordt de datum vermeld waarop de intrekking of het verval van rechtswege van de vergunning uitwerking heeft.] '> 1
 ----------
@@ -4311,7 +4315,7 @@ De bevoegde procureur-generaal kan weigeren om gevolg te geven aan het in het ee
 
 #### HOOFDSTUK 2. - Herstelmaatregelen
 
-## Art. 306
+###### Art. 306
 
 [ '> 1 Oud Art. 288] '> 1 Onverminderd de toepassing van artikel 22 eist de FSMA de intrekking of omvorming van de documenten met contractueel of publicitair karakter waarvan zij vaststelt dat zij met [ '> 2 de bepalingen als bedoeld in artikel 297, 1°, 2° en 4°] '> 2 niet overeenstemmen.
 De FSMA stelt de Bank in kennis van haar eis tot intrekking of omvorming van de documenten met een contractueel karakter overeenkomstig het eerste lid.
@@ -4319,7 +4323,7 @@ De FSMA stelt de Bank in kennis van haar eis tot intrekking of omvorming van de 
 ( 1 )<W 2018-12-06/11 , art. 23, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2025-03-25/05 , art. 50, 037; Inwerkingtreding : 08-05-2025>
 
-## Art. 307
+###### Art. 307
 
 [ '> 1 Oud Art. 289] '> 1 § 1. Wanneer de FSMA vaststelt dat een Belgische verzekeraar of een buitenlandse verzekeraar die geen EER verzekeringsonderneming is, niet werkt overeenkomstig de bepalingen [ '> 4 als bedoeld in artikel 297, 1°, 2° en 4°] '> 4 , [ '> 2 kan zij de verzekeraar aanmanen om] '> 2 , binnen de termijn die zij bepaalt, de vastgestelde toestand te verhelpen.
 De FSMA stelt de Bank in kennis van de feiten die in hoofde van de betrokken verzekeringsonderneming zijn vastgesteld.
@@ -4341,21 +4345,21 @@ De FSMA brengt de Bank op de hoogte van de op grond van het eerste lid genomen m
 ( 3 )<W 2022-05-08/03 , art. 11, 026; Inwerkingtreding : 03-07-2022>
 ( 4 )<W 2025-03-25/05 , art. 51, 037; Inwerkingtreding : 08-05-2025>
 
-## Art. 308
+###### Art. 308
 
 [ '> 1 Oud Art. 290] '> 1 Wanneer de bevoegde autoriteiten van een andere lidstaat waar een Belgische verzekeringsonderneming een bijkantoor heeft gevestigd of er werkzaamheden uitoefent in vrije dienstverrichting, de FSMA ervan in kennis stellen dat die onderneming de wettelijke, reglementaire of bestuursrechtelijke bepalingen die deze lidstaat heeft vastgesteld en waarop genoemde autoriteiten toezien en die in België tot de bevoegdheidssfeer van de FSMA behoren, heeft overtreden, neemt de FSMA zo spoedig mogelijk de meest passende maatregelen zoals bedoeld in [ '> 2 artikel 307] '> 2 opdat de betrokken onderneming een einde maakt aan die onregelmatigheden. De FSMA brengt dit ter kennis van de voornoemde autoriteiten.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 23, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2018-12-06/11 , art. 28, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 309
+###### Art. 309
 
 [ '> 1 Oud Art. 291] '> 1 Onverminderd de mogelijke toepassing van [ '> 2 artikel 307, § 5] '> 2 , kan de FSMA in uiterst spoedeisende gevallen de in de artikelen [ '> 2 307 en 308] '> 2 bedoelde maatregelen treffen zonder vooraf een hersteltermijn op te leggen.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 23, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2018-12-06/11 , art. 29, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 310
+###### Art. 310
 
 [ '> 2 Oud Art. 291] '> 2 § 1. Wanneer de FSMA vaststelt dat een EER verzekeringsonderneming zich niet conformeert aan de in België geldende wettelijke en reglementaire bepalingen die tot haar bevoegdheidssfeer behoren, [ '> 3 kan zij de verzekeringsonderneming aanmanen] '> 3 , binnen de termijn die zij bepaalt, de vastgestelde toestand te verhelpen.
 De FSMA stelt de Bank in kennis van de feiten die in hoofde van de betrokken EER verzekeringsonderneming zijn vastgesteld.
@@ -4376,7 +4380,7 @@ De FSMA brengt de Bank en de bevoegde autoriteiten van de lidstaat van herkomst 
 ( 3 )<W 2018-12-06/11 , art. 30, 015; Inwerkingtreding : 28-12-2018>
 ( 4 )<W 2022-05-08/03 , art. 12, 026; Inwerkingtreding : 03-07-2022>
 
-## Art. 311
+###### Art. 311
 
 [ '> 2 Oud Art. 212] '> 2 § 1. [ '> 3 Wanneer de FSMA vaststelt dat een verzekerings-, nevenverzekerings- of herverzekeringstussenpersoon, niet werkt overeenkomstig de bepalingen van deel 6 van deze wet of haar uitvoeringsbesluiten en -reglementen, andere dan de bepalingen van Hoofdstuk 5, stelt zij de termijn vast waarbinnen deze toestand moet worden verholpen. [ '> 8 Deze paragraaf is ook van toepassing met betrekking tot de overeenstemmende bepalingen van de door de Commissie ter uitvoering van de IDD-richtlijn vastgestelde gedelegeerde handelingen en technische regulerings- of uitvoeringsnormen.] '> 8
 Bij deze gelegenheid kan de FSMA het uitoefenen van een deel of het geheel van de activiteit van de verzekerings-, nevenverzekerings- of herverzekeringstussenpersoon verbieden en de inschrijving in het register schorsen tot zij vastgesteld heeft dat de tekortkomingen werden verholpen.
@@ -4408,7 +4412,7 @@ Als de FSMA de in paragraaf 1 tot 4 bedoelde maatregelen neemt tegen een verbond
 ( 7 )<W 2024-05-03/21 , art. 74, 032; Inwerkingtreding : 10-06-2024>
 ( 8 )<W 2025-03-25/05 , art. 52, 037; Inwerkingtreding : 08-05-2025>
 
-## Art. 312
+###### Art. 312
 
 [ '> 2 Oud Art. 212/1] '> 2 [ '> 3 § 1. Wanneer de FSMA redenen heeft om aan te nemen dat een verzekerings-, een nevenverzekerings- of een herzekeringstussenpersoon die uit hoofde van de vrijheid van dienstverlening distributiewerkzaamheden uitoefent op Belgisch grondgebied, de verplichtingen die zijn opgelegd door deze wet krachtens de IDD-richtlijn, of door bepalingen die zijn genomen op grond van deze bepalingen of van de IDD-richtlijn zelf niet naleeft, stuurt zij haar bevindingen door naar de bevoegde autoriteit van de lidstaat van herkomst.
 Indien de verzekerings-, nevenverzekerings- of herverzekeringstussenpersoon, ondanks de door de lidstaat van herkomst genomen maatregelen of omdat die maatregelen ontoereikend of niet voorhanden zouden zijn, blijft handelen op een wijze die duidelijk strijdig is met de belangen van een groot aantal consumenten op de Belgische markt of met het goed functioneren van de verzekerings- of herverzekeringsmarkten, kan de FSMA, na de bevoegde autoriteit van de lidstaat van herkomst daarvan op de hoogte te hebben gebracht, passende maatregelen nemen om verdere onregelmatigheden te voorkomen. Bij deze gelegenheid kan de FSMA, voor zover zulks volstrekt noodzakelijk is, het de tussenpersoon beletten om op Belgisch grondgebied nieuwe activiteiten te ontplooien.
@@ -4436,13 +4440,13 @@ In dat geval kan de FSMA, na de bevoegde autoriteit van de lidstaat van herkomst
 ( 5 )<W 2022-05-08/03 , art. 14, 026; Inwerkingtreding : 03-07-2022>
 ( 6 )<W 2025-03-25/05 , art. 53, 037; Inwerkingtreding : 08-05-2025>
 
-## Art. 312/1
+###### Art. 312/1
 
 [ '> 1 Wanneer de bevoegde autoriteiten van een andere lidstaat waar een Belgische verzekerings-, nevenverzekerings- of herverzekeringstussenpersoon een bijkantoor heeft gevestigd of er werkzaamheden uitoefent uit hoofde van de vrijheid van dienstverlening, de FSMA ervan in kennis stellen dat die tussenpersoon de wettelijke, reglementaire of bestuursrechtelijke bepalingen die deze lidstaat heeft vastgesteld en waarop genoemde autoriteiten toezien en die in België tot de bevoegdheidssfeer van de FSMA behoren, heeft overtreden, neemt de FSMA zo spoedig mogelijk de meest passende maatregelen zoals bedoeld in artikel 311 opdat de betrokken tussenpersoon een einde maakt aan die onregelmatigheden. De FSMA brengt dit ter kennis van de voornoemde autoriteiten.] '> 1
 ----------
 ( 1 )<Ingevoegd bij W 2018-12-06/11 , art. 33, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 313
+###### Art. 313
 
 [ '> 2 Oud Art. 293] '> 2 § 1. De in de [ '> 3 artikelen 307 tot en met 311] '> 3 bedoelde beslissingen van de FSMA hebben voor de verzekeraar, de herverzekeringsonderneming, dan wel de verzekerings- [ '> 3 , nevenverzekerings-] '> 3 of herverzekeringstussenpersoon uitwerking vanaf de datum van hun kennisgeving met een aangetekende brief of een brief met ontvangstbewijs. Voor derden hebben zij, wat de maatregelen jegens de verzekeraars of de herverzekeringsondernemingen betreft, uitwerking vanaf de datum van hun bekendmaking in het Belgisch Staatsblad.
 § 2. [ '> 3 Het directiecomité van de FSMA kan de notificatie van beslissingen tot inschrijving of tot weigering van inschrijving in het register van de verzekerings- en nevenverzekeringstussenpersonen en in het register van de herverzekeringstussenpersonen, alsmede van beslissingen tot wijziging, aanmaning, schorsing en schrapping van inschrijving, opdragen aan een door hem aangeduid lid van het personeel van de FSMA.] '> 3
@@ -4453,7 +4457,7 @@ In dat geval kan de FSMA, na de bevoegde autoriteit van de lidstaat van herkomst
 ( 2 )<W 2018-12-06/11 , art. 23, 015; Inwerkingtreding : 28-12-2018>
 ( 3 )<W 2018-12-06/11 , art. 34, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 314
+###### Art. 314
 
 [ '> 1 Oud Art. 294] '> 1 § 1. Onverminderd de overige maatregelen bepaald door of krachtens de wet, kan de FSMA, indien de verzekeraar of een herverzekeringsonderneming tot wie zij een bevel heeft gericht om zich in regel te stellen met [ '> 2 de bepalingen als bedoeld in artikel 297, 1°, 2° en 4°] '> 2 , in gebreke blijft bij het verstrijken van de door de FSMA opgelegde termijn, en op voorwaarde dat die verzekeraar of de herverzekeringsonderneming zijn middelen heeft kunnen laten gelden :
 1° een dwangsom opleggen die per kalenderdag vertraging niet meer mag bedragen dan 50.000 euro, noch in totaal meer dan 2.500.000 euro voor de miskenning van eenzelfde bevel;
@@ -4464,7 +4468,7 @@ In dat geval kan de FSMA, na de bevoegde autoriteit van de lidstaat van herkomst
 ( 1 )<W 2018-12-06/11 , art. 23, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2025-03-25/05 , art. 54, 037; Inwerkingtreding : 08-05-2025>
 
-## Art. 315
+###### Art. 315
 
 [ '> 1 Oud Art. 295] '> 1 § 1. Onverminderd de overige maatregelen bepaald door of krachtens de wet, kan de FSMA, indien de verzekerings- [ '> 2 , nevenverzekerings-] '> 2 of herverzekeringstussenpersoon tot wie zij een bevel heeft gericht om zich in regel te stellen met [ '> 3 de bepalingen als bedoeld in artikel 297] '> 3 , in gebreke blijft bij het verstrijken van de door de FSMA opgelegde termijn, en op voorwaarde dat die persoon zijn middelen heeft kunnen laten gelden :
 1° een dwangsom opleggen die per kalenderdag vertraging niet meer mag bedragen dan 5.000 euro, noch in totaal meer dan 75.000 euro voor de miskenning van eenzelfde bevel;
@@ -4478,7 +4482,7 @@ In dat geval kan de FSMA, na de bevoegde autoriteit van de lidstaat van herkomst
 
 #### HOOFDSTUK 3. - Aansprakelijkheid
 
-## Art. 316
+###### Art. 316
 
 [ '> 1 Oud Art. 296] '> 1 De bestuurders, zaakvoerders of algemene lasthebbers van verzekeringsondernemingen zijn aansprakelijk tegenover de verzekeringnemers, verzekerden, de begunstigden of alle derden die belang hebben bij de uitvoering van verzekeringsovereenkomsten voor elke schade die zou voortvloeien uit de niet-nakoming van de verplichtingen die [ '> 2 de bepalingen als bedoeld in artikel 297 opleggen] '> 2 aan de verzekeringsondernemingen.
 Wat de inbreuken betreft waaraan zij niet hebben deelgenomen, worden zij slechts van hun aansprakelijkheid ontslagen indien hun geen enkele fout kan worden aangerekend en men hun niet kan verwijten dat zij nagelaten hebben alle hun ter beschikking staande middelen aan te wenden om de schade te voorkomen of te beperken.
@@ -4489,7 +4493,7 @@ Wanneer verscheidene personen overeenkomstig de voorgaande leden aansprakelijk z
 
 #### HOOFDSTUK 4. - Bijzondere bevoegdheden bij liquidatieprocedures en saneringsmaatregelen
 
-## Art. 317
+###### Art. 317
 
 [ '> 2 Oud Art. 297] '> 2 § 1. De FSMA kan de bevoegde Belgische autoriteiten en de bevoegde autoriteiten van de lidstaat van herkomst van een verzekeringsonderneming om informatie over het verloop van een saneringsmaatregel of van een liquidatieprocedure verzoeken.
 § 2. Voor de toepassing van dit hoofdstuk hebben de begrippen saneringsmaatregel en liquididatieprocedure [ '> 1 de betekenis die hieraan wordt gegeven in de wet van 13 maart 2016.] '> 1
@@ -4497,16 +4501,16 @@ Wanneer verscheidene personen overeenkomstig de voorgaande leden aansprakelijk z
 ( 1 )<W 2016-03-13/07 , art. 730, 004; Inwerkingtreding : 23-03-2016; zie ook art. 756>
 ( 2 )<W 2018-12-06/11 , art. 23, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 318
+###### Art. 318
 
 [ '> 1 Oud Art. 298] '> 1 Wanneer de bevoegde autoriteiten van een verzekeringsonderneming een beslissing tot opening van een liquidatieprocedure of tot vaststelling van een saneringsmaatregel hebben genomen, kan de FSMA, na overleg met de bevoegde autoriteiten van de verzekeringsonderneming, een bericht laten publiceren in het Belgisch Staatsblad en in twee dagbladen of periodieke uitgaven met regionale spreiding.
 Dat bericht bevat minstens een uittreksel uit die beslissing en vermeldt de bevoegde autoriteiten, het toepasselijke recht en, in voorkomend geval, de aangewezen liquidateur of saneringscommissaris en wordt bekendgemaakt in minstens één van de Belgische officiële talen.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 23, 015; Inwerkingtreding : 28-12-2018>
 
-#### TITEL III. - Administratieve sancties
+### TITEL III. - Administratieve sancties
 
-## Art. 319
+###### Art. 319
 
 [ '> 1 Oud Art. 291] '> 1 [ '> 2 § 1. Onverminderd de andere bij of krachtens deze wet voorgeschreven maatregelen en onverminderd de bij andere wetten of andere reglementen voorgeschreven maatregelen, kan de FSMA, wanneer zij een overtreding vaststelt van de bepalingen [ '> 3 als bedoeld in artikel 297 of de met toepassing ervan genomen maatregelen] '> 3 , de overtreder een administratieve geldboete opleggen.
 Indien de overtreder een rechtspersoon is, kan de FSMA ook een administratieve geldboete opleggen aan één of meer leden van het leidinggevende, bestuurs- of toezichtsorgaan, of aan elke persoon die met de effectieve leiding van de rechtspersoon is belast, wanneer deze verantwoordelijk worden gesteld voor de overtreding.
@@ -4520,16 +4524,16 @@ Wanneer de overtreding de overtreder winst heeft opgeleverd of ervoor heeft gezo
 ( 2 )<W 2018-12-06/11 , art. 36, 015; Inwerkingtreding : 28-12-2018>
 ( 3 )<W 2025-03-25/05 , art. 57, 037; Inwerkingtreding : 08-05-2025>
 
-## Art. 320
+###### Art. 320
 
 [ '> 1 Oud Art. 300] '> 1 [ '> 2 ...] '> 2
 ----------
 ( 1 )<W 2018-12-06/11 , art. 23, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2018-12-06/11 , art. 37, 015; Inwerkingtreding : 28-12-2018>
 
-#### TITEL IV. - Commissie voor verzekeringen
+### TITEL IV. - Commissie voor verzekeringen
 
-## Art. 321
+###### Art. 321
 
 [ '> 2 Oud Art. 301] '> 2 § 1. Onder de naam "Commissie voor Verzekeringen", wordt een adviescommissie ingesteld, met opdracht overleg te plegen omtrent alle vragen die haar door de minister of door de FSMA worden voorgelegd [ '> 3 alsmede over de reglementering van de landverzekeringsovereenkomst, waaronder de reglementering in deel IV van deze wet, over de verplichte aansprakelijkheidsverzekering inzake motorrijtuigen, en over de regels in de uitvoeringsbesluiten betreffende de brandverzekering eenvoudige risico's, de rechtsbijstandverzekering, de minimumvoorwaarden inzake burgerlijke aansprakelijkheid privé leven en het sluiten en uitvoeren van een levensverzekeringcontract als bedoeld in de artikelen 1 tot 45 van het koninklijk besluit van 14 november 2003 betreffende de levensverzekeringsactiviteit] '> 3 .
 De Commissie kan uit eigen beweging adviezen geven over alle problemen betreffende de verzekeringsverrichtingen die binnen de bevoegdheden van de FSMA vallen.
@@ -4552,9 +4556,9 @@ De Commissie stelt haar huishoudelijk reglement op en legt het aan de minister t
 ( 3 )<W 2019-05-02/28 , art. 63, 018; Inwerkingtreding : 01-06-2019>
 ( 4 )<W 2022-09-25/14 , art. 58, 029; Inwerkingtreding : 26-01-2023>
 
-#### TITEL V. - Buitengerechtelijke klachtenregeling
+### TITEL V. - Buitengerechtelijke klachtenregeling
 
-## Art. 322
+###### Art. 322
 
 [ '> 3 Oud Art. 302] '> 3 § 1. Er wordt een buitengerechtelijke klachtenregeling inzake verzekeringen ingesteld met als doel geschillen tussen [ '> 4 verzekeringsondernemingen en verzekerings- en nevenverzekeringstussenpersonen] '> 4 aan de ene kant, en hun cliënten, aan de andere kant, te helpen oplossen door hierover advies te verstrekken of op te treden als bemiddelaar.
 Deze ombudsdienst inzake verzekeringen dient onder de vorm van een rechtspersoon te worden opgericht.
@@ -4599,7 +4603,7 @@ De opdrachten van de raad van toezicht zijn :
 ( 5 )<W 2024-05-03/21 , art. 75, 032; Inwerkingtreding : 10-06-2024>
 ( 6 )<W 2025-12-11/13 , art. 146, 039; Inwerkingtreding : 03-01-2026>
 
-## Art. 323
+###### Art. 323
 
 [ '> 1 Oud Art. 303] '> 1 De FSMA kan bij de ombudsdienst verzekeringen de informatie opvragen die nodig is voor het vervullen van haar wettelijke opdrachten.
 De FSMA bepaalt de inhoud van de gewenste informatie, alsook de wijze en de vorm waarin deze moet worden verstrekt.
@@ -4607,29 +4611,29 @@ De FOD Economie, K.M.O., Middenstand en Energie mag bij de ombudsdienst verzeker
 ----------
 ( 1 )<W 2018-12-06/11 , art. 23, 015; Inwerkingtreding : 28-12-2018>
 
-### DEEL 8. - STRAFBEPALINGEN
+## DEEL 8. - STRAFBEPALINGEN
 
-## Art. 324
+###### Art. 324
 
 [ '> 1 Oud Art. 304] '> 1 Met gevangenisstraf van een maand tot vijf jaar en met geldboete van 1.000 tot 10.000 euro, of met een van die straffen alleen worden gestraft de verzekeringstussenpersonen die bij het sluiten van een verzekeringsovereenkomst bemiddelen met overtreding van [ '> 2 artikel 266, eerste lid, 6°] '> 2 .
 ----------
 ( 1 )<W 2018-12-06/11 , art. 39, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2018-12-06/11 , art. 40, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 325
+###### Art. 325
 
 [ '> 1 Oud Art. 305] '> 1 Met gevangenisstraf van een maand tot vijf jaar en met geldboete van 1.000 tot 10.000 euro, of met een van die straffen alleen worden gestraft de bestuurders, de personen belast met de effectieve leiding, de zaakvoerders of de lasthebbers van de verzekeraars die wetens en willens onjuiste verklaringen afleggen aan de FSMA, aan haar personeelsleden of aan de door haar gevolmachtigde personen, of die weigeren de ter uitvoering van deze wet, haar uitvoeringsbesluiten en -reglementen gevraagde inlichtingen te verstrekken.
 Dezelfde straffen zijn toepasselijk op de bestuurders, personen belast met de effectieve leiding, commissarissen, zaakvoerders of lasthebbers van de verzekeraars die niet hebben voldaan aan de verplichtingen hun opgelegd door deze wet, haar uitvoeringsbesluiten of -reglementen.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 39, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 326
+###### Art. 326
 
 [ '> 1 Oud Art. 306] '> 1 Met loterijen worden gelijkgesteld en aan de straffen gesteld in de artikelen 302 en 303 van het Strafwetboek zijn onderworpen alle spaar-, kapitalisatie- of verzekeringsverrichtingen die de samenvoeging behelzen van bedragen welke onder de betrokkenen worden verdeeld hetzij door loting, hetzij door uitwerking van een overlevingsclausule die niet berust op een mathematisch bepaalde verbintenis vastgesteld naar verhouding van de individuele bijdragen of deelnemingen.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 39, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 327
+###### Art. 327
 
 [ '> 1 Oud Art. 307] '> 1 Met gevangenisstraf van een maand tot vijf jaar en met een geldboete van 1.000 tot 10.000 euro of met een van die straffen alleen worden gestraft :
 1° zij die als verzekeraar of lasthebber van een verzekeraar overeenkomsten pogen te sluiten of sluiten die nietig zijn op grond van de artikelen 97 of 159;
@@ -4638,7 +4642,7 @@ Dezelfde straffen zijn toepasselijk op de bestuurders, personen belast met de ef
 ----------
 ( 1 )<W 2018-12-06/11 , art. 39, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 328
+###### Art. 328
 
 [ '> 1 Oud Art. 308] '> 2 § 1. Onverminderd de toepassing van strengere in het Strafwetboek gestelde straffen, wordt met gevangenisstraf van acht dagen tot drie maanden en met geldboete van 200 euro tot 2.000 euro of met een van die straffen alleen gestraft, hij die met bedrieglijk opzet :
 - de werkzaamheid van verzekerings- of herverzekeringstussenpersoon uitoefent zonder ingeschreven te zijn overeenkomstig het bepaalde bij [ '> 3 artikel 259] '> 3 ;
@@ -4659,23 +4663,23 @@ Iedere strafrechtelijke vordering op grond van in het eerste lid bedoelde misdri
 ( 2 )<W 2018-12-06/11 , art. 39, 015; Inwerkingtreding : 28-12-2018>
 ( 3 )<W 2018-12-06/11 , art. 41, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 329
+###### Art. 329
 
 [ '> 1 Oud Art. 309] '> 1 Alle bepalingen van het eerste boek van het Strafwetboek, hoofdstuk VII en artikel 85 niet uitgezonderd, zijn toepasselijk op de misdrijven in deze wet omschreven.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 39, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 330
+###### Art. 330
 
 [ '> 1 Oud Art. 310] '> 1 De verzekeraars zijn burgerrechtelijk aansprakelijk voor de geldboeten waartoe hun bestuurders, beheerders, commissarissen, directeurs, zaakvoerders of lasthebbers worden veroordeeld met toepassing van de voorgaande bepalingen.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 39, 015; Inwerkingtreding : 28-12-2018>
 
-### DEEL 9. - BEPALINGEN VAN VERSCHILLENDE AARD
+## DEEL 9. - BEPALINGEN VAN VERSCHILLENDE AARD
 
-#### TITEL I. - Overgangsbepalingen
+### TITEL I. - Overgangsbepalingen
 
-## Art. 331
+###### Art. 331
 
 [ '> 2 Oud Art. 311] '> 2 § 1. [ '> 1 ...] '> 1
 § 2. De artikelen 44, 50 en 51 zijn onmiddellijk van toepassing op de overeenkomsten die worden aangeboden en/of afgesloten na de inwerkingtreding van deze wet. Voor de verzekeringsovereenkomsten die aangegaan zijn vóór de datum van inwerkingtreding van deze wet, zijn deze artikelen van toepassing van zodra de overeenkomsten worden gewijzigd en/of verlengd en ten laatste op de eerste dag van de 13de maand volgend op de inwerkingtreding van deze wet.
@@ -4690,7 +4694,7 @@ Zolang de verzekeringsovereenkomsten en andere verzekeringsdocumenten niet werde
 ( 2 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 ( 3 )<W 2018-12-06/11 , art. 43, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 332
+###### Art. 332
 
 [ '> 1 Oud Art. 312] '> 1 De [ '> 2 artikelen 333 tot en met 335] '> 2 zijn van toepassing op verzekeringsovereenkomsten met betrekking tot risico's gelegen in de lidstaten van de EER die behoren tot de groep van activiteiten "niet-leven" en die werden afgesloten voor 17 december 2009, datum zoals vermeld in artikel 28 van de Verordening (EG) nr. 593/2008 van het Europees Parlement en de Raad van 17 juni 2008 inzake het recht dat van toepassing is op verbintenissen uit overeenkomst (Rome I).
 Deze bepalingen zijn tevens van toepassing op de verzekeringsovereenkomsten met betrekking tot risico's gelegen in de lidstaten van de EER die behoren tot de groep van activiteiten "niet-leven" die buiten het toepassingsgebied van de Verordening (EG) nr. 593/2008 van het Europees Parlement en de Raad van 17 juni 2008 inzake het recht dat van toepassing is op verbintenissen uit overeenkomst (Rome I) vallen.
@@ -4698,7 +4702,7 @@ Deze bepalingen zijn tevens van toepassing op de verzekeringsovereenkomsten met 
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2018-12-06/11 , art. 44, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 333
+###### Art. 333
 
 [ '> 1 Oud Art. 313] '> 1 § 1. Wanneer de overeenkomst betrekking heeft op in België gelegen risico's en wanneer de verzekeringnemer er zijn gewone verblijfplaats of zijn hoofdbestuur heeft, dan is het toepasselijk recht het Belgisch recht, niettegenstaande elk tegenstrijdig beding.
 In afwijking van het eerste lid kunnen de partijen bij de overeenkomst, wanneer de overeenkomst betrekking heeft op in België gelegen risico's en wanneer de verzekeringnemer er zijn gewone verblijfplaats of zijn hoofdbestuur niet heeft, kiezen tussen de toepassing ofwel van het Belgisch recht, ofwel van het recht van het land waar de verzekeringnemer zijn gewone verblijfplaats of zijn hoofdbestuur heeft.
@@ -4716,7 +4720,7 @@ Er wordt vermoed dat de overeenkomst het nauwst verbonden is met de lidstaat waa
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2018-12-06/11 , art. 45, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 334
+###### Art. 334
 
 [ '> 1 Oud Art. 314] '> 1 § 1. Indien een zaak bij een Belgische rechter aanhangig wordt gemaakt dan mogen de bepalingen van [ '> 2 artikel 333] '> 2 geen afbreuk doen aan de toepassing van de Belgische rechtsregels die, ongeacht het op de overeenkomst toepasselijk recht, het geval dwingend beheersen.
 Er kan gevolg toegekend worden aan de dwingende bepalingen van het recht van de lidstaat waar het risico is gelegen of van de lidstaat die de verplichting tot verzekering oplegt indien en voor zover die bepalingen volgens het recht van die lidstaat toepasselijk zijn, ongeacht het recht dat de overeenkomst beheerst.
@@ -4726,27 +4730,27 @@ Er kan gevolg toegekend worden aan de dwingende bepalingen van het recht van de 
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2018-12-06/11 , art. 46, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 335
+###### Art. 335
 
 [ '> 1 Oud Art. 315] '> 1 Wanneer bij verplichte verzekering het recht van de lidstaat waar het risico gelegen is, in strijd is met het recht van de lidstaat die de verplichting tot verzekering oplegt, heeft dat laatste voorrang.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 336
+###### Art. 336
 
 [ '> 1 Oud Art. 316] '> 1 De artikelen 25 en 27 en de [ '> 2 artikelen 333 tot en met 335] '> 2 zijn niet van toepassing op de overeenkomsten afgesloten voor de datum van inwerkingtreding van artikel 16 van het koninklijk besluit van 22 februari 1991 tot wijziging van de wet van 9 juli 1975 betreffende de controle der verzekeringsondernemingen.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2018-12-06/11 , art. 47, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 337
+###### Art. 337
 
 [ '> 1 Oud Art. 317] '> 1 De artikelen 318 en 319 zijn van toepassing op verzekeringsovereenkomsten met betrekking tot verbintenissen gelegen in de lidstaten van de EER die behoren tot de groep van activiteiten "leven" en die werden afgesloten voor 17 december 2009, datum zoals vermeld in artikel 28 van de Verordening (EG) nr. 593/2008 van het Europees Parlement en de Raad van 17 juni 2008 inzake het recht dat van toepassing is op verbintenissen uit overeenkomst (Rome I).
 Deze bepalingen zijn tevens van toepassing op de verzekeringsovereenkomsten met betrekking tot risico's gelegen in de lidstaten van de EER die behoren tot de groep van activiteiten "leven" die buiten het toepassingsgebied van de Verordening (EG) nr. 593/2008 van het Europees Parlement en de Raad van 17 juni 2008 inzake het recht dat van toepassing is op verbintenissen uit overeenkomst (Rome I) vallen.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 338
+###### Art. 338
 
 [ '> 1 Oud Art. 318] '> 1 § 1. Wanneer de overeenkomst betrekking heeft op in België gelegen verbintenissen, dan is het toepasselijk recht het Belgische recht, niettegenstaande elk tegenstrijdig beding.
 In afwijking van het eerste lid kunnen de partijen, wanneer de verzekeringnemer een natuurlijke persoon is die zijn gewone verblijfplaats in België heeft maar onderdaan is van een lidstaat van de EER andere dan België, de toepassing van het recht van die lidstaat kiezen.
@@ -4756,7 +4760,7 @@ In afwijking van het eerste lid kunnen de partijen, wanneer de verzekeringnemer 
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2018-12-06/11 , art. 48, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 339
+###### Art. 339
 
 ] '> 1 § 1. Indien een geschil bij een Belgische rechter aanhangig wordt gemaakt dan mogen de bepalingen van [ '> 2 artikel 338] '> 2 geen afbreuk doen aan de toepassing van de Belgische rechtsregels die, ongeacht het op de overeenkomst toepasselijk recht, het geval dwingend beheersen. Er kan gevolg toegekend worden aan de dwingende bepalingen van het recht van de lidstaat waar de verbintenis is gelegen indien en voor zover die bepalingen volgens het recht van die lidstaat toepasselijk zijn, ongeacht het recht dat de overeenkomst beheerst.
 § 2. Wanneer de verbintenis in België gelegen is, zijn de dwingende bepalingen van het Belgische recht van toepassing welke ook het door de partijen gekozen recht is.
@@ -4764,16 +4768,16 @@ In afwijking van het eerste lid kunnen de partijen, wanneer de verzekeringnemer 
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2018-12-06/11 , art. 49, 015; Inwerkingtreding : 28-12-2018>
 
-#### TITEL II. - Uitvoeringsbesluiten
+### TITEL II. - Uitvoeringsbesluiten
 
-## Art. 340
+###### Art. 340
 
 [ '> 1 Oud Art. 320] '> 1 De Koning neemt na advies van de FSMA de besluiten die voor de uitvoering van deze wet noodzakelijk zijn.
 De minister kan termijnen bepalen waarbinnen de FSMA haar advies dient uit te brengen. In geval van niet-naleving van deze termijnen is het bedoelde advies niet meer vereist.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 341
+###### Art. 341
 
 [ '> 1 Oud Art. 321] '> 1 § 1. De koninklijke besluiten ter uitvoering van artikel 4, § 4, vastgesteld na overleg in de Ministerraad, worden genomen op gezamenlijke voordracht van de minister van Justitie, van de minister en van minister van Sociale Zaken.
 § 2. De koninklijke besluiten ter uitvoering van deel 4 worden genomen op gezamenlijke voordracht van de minister van Justitie en van de minister.
@@ -4783,7 +4787,7 @@ De koninklijke besluiten ter uitvoering van de artikelen 212 tot 224 worden geno
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 342
+###### Art. 342
 
 [ '> 1 Oud Art. 322] '> 1 § 1. De Commissie voor Verzekeringen zoals bedoeld in deel 7, titel IV, is bevoegd om adviezen uit te brengen in verband met de besluiten te nemen ter uitvoering van artikel 4, titels I en II van deel 2, titels I en II van deel 3, hoofdstuk 1 van titel III van deel 3 en deel 6.
 De raadpleging van de Commissie voor Verzekeringen is niet vereist voor de door de Koning met toepassing van artikel 4, § 4, en [ '> 2 artikel 266, eerste lid, 10°] '> 2 , te bepalen regels.
@@ -4792,11 +4796,11 @@ De raadpleging van de Commissie voor Verzekeringen is niet vereist voor de door 
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2018-12-06/11 , art. 50, 015; Inwerkingtreding : 28-12-2018>
 
-#### TITEL III. - Wijzigingsbepalingen
+### TITEL III. - Wijzigingsbepalingen
 
 Wijzigingen aan de wet van 9 juli 1975 betreffende de controle van de verzekeringsondernemingen
 
-## Art. 343
+###### Art. 343
 
 [ '> 1 Oud Art. 323] '> 1 In artikel 21 van de wet van 9 juli 1975 betreffende de controle van de verzekeringsondernemingen worden de volgende wijzigingen aangebracht :
 1° paragraaf 1 wordt vervangen als volgt :
@@ -4817,7 +4821,7 @@ Wijzigingen aan de wet van 9 juli 1975 betreffende de controle van de verzekerin
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 344
+###### Art. 344
 
 [ '> 1 Oud Art. 324] '> 1 In artikel 21octies van dezelfde wet worden de volgende wijzigingen aangebracht :
 1° paragraaf 1 wordt vervangen als volgt :
@@ -4826,7 +4830,7 @@ Wijzigingen aan de wet van 9 juli 1975 betreffende de controle van de verzekerin
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 345
+###### Art. 345
 
 [ '> 1 Oud Art. 325] '> 1 In artikel 22 van dezelfde wet worden de volgende wijzigingen aangebracht :
 1° in paragraaf 1, eerste lid, worden de woorden "en de FSMA" geschrapt;
@@ -4837,14 +4841,14 @@ Wijzigingen aan de wet van 9 juli 1975 betreffende de controle van de verzekerin
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 346
+###### Art. 346
 
 [ '> 1 Oud Art. 326] '> 1 Artikel 28 van dezelfde wet wordt vervangen als volgt :
 "Art. 28. Wanneer de bevoegde autoriteiten van een andere lidstaat waar een verzekeringsonderneming naar Belgisch recht een bijkantoor heeft gevestigd of er werkzaamheden uitoefent in vrije dienstverrichting, de Bank ervan in kennis stellen dat die onderneming de wettelijke, reglementaire of bestuursrechtelijke bepalingen die deze lidstaat heeft vastgesteld en waarop genoemde autoriteiten toezien en die in België tot de bevoegdheidssfeer van de Bank behoren, heeft overtreden, neemt de Bank zo spoedig mogelijk de meest passende maatregelen onder deze bedoeld in de artikelen 26 en 27 opdat de betrokken onderneming een einde maakt aan die onregelmatigheden. Zij brengt dit ter kennis van de voornoemde autoriteiten.".
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 347
+###### Art. 347
 
 [ '> 1 Oud Art. 327] '> 1 Artikel 69 van dezelfde wet wordt vervangen als volgt :
 "Art. 69. Op verzoek van de Bank zijn de verzekeringsondernemingen ertoe gehouden alle inlichtingen te verstrekken en alle documenten over te leggen met het oog op het toezicht op de naleving van de wettelijke en reglementaire bepalingen van algemeen belang die in België van toepassing zijn op de verzekeringsondernemingen en hun activiteiten en die tot de bevoegdheidssfeer van de Bank behoren. De in dit lid bedoelde inlichtingen en bescheiden dienen minstens in de taal te worden gesteld die bij wet of decreet wordt opgelegd.
@@ -4854,7 +4858,7 @@ De Bank kan voor de uitvoering van de drie voorgaande leden naast personeelslede
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 348
+###### Art. 348
 
 [ '> 1 Oud Art. 328] '> 1 In artikel 71 van dezelfde wet worden de volgende wijzigingen aangebracht :
 1° paragraaf 1 wordt vervangen als volgt :
@@ -4871,7 +4875,7 @@ De Bank brengt de FSMA en de bevoegde autoriteiten van de Lid-Staat van herkomst
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 349
+###### Art. 349
 
 [ '> 1 Oud Art. 329] '> 1 In artikel 73/3 van dezelfde wet worden de volgende wijzigingen aangebracht :
 1° in het eerste lid wordt de zin "De Bank en de FSMA kunnen een bericht laten publiceren in het Belgisch Staatsblad en in twee dagbladen of periodieke uitgaven met regionale spreiding" vervangen door de zin "Artikel 298 van de wet van 4 april 2014 betreffende de verzekeringen is van toepassing.";
@@ -4879,45 +4883,45 @@ De Bank brengt de FSMA en de bevoegde autoriteiten van de Lid-Staat van herkomst
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 350
+###### Art. 350
 
 [ '> 1 Oud Art. 330] '> 1 In artikel 73/4 van dezelfde wet worden de woorden "en de FSMA kunnen" vervangen door het woord "kan".
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 351
+###### Art. 351
 
 [ '> 1 Oud Art. 331] '> 1 In artikel 81 van dezelfde wet worden de woorden "of de FSMA, al naargelang het geval" geschrapt.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 352
+###### Art. 352
 
 [ '> 1 Oud Art. 332] '> 1 In artikel 82, § 1, van dezelfde wet, worden de woorden "de FSMA of" en de woorden "al naargelang het geval, van de FSMA of" geschrapt.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 353
+###### Art. 353
 
 [ '> 1 Oud Art. 333] '> 1 In artikel 30ter, § 3 van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten, ingevoegd door de wet van 30 juli 2013, wordt een bepaling 3° /1 ingevoegd, luidende :
 "3° /1 voorzover de Koning gebruik heeft gemaakt van de machtiging voorzien in paragraaf 1, tweede lid, 4°, wat betreft de verzekerings- en de herverzekeringstussenpersonen, artikel 273, § 3 van de wet van 4 april 2014 betreffende de verzekeringen;".
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 354
+###### Art. 354
 
 [ '> 1 Oud Art. 334] '> 1 Artikel 36, § 1 van dezelfde wet, gewijzigd bij het koninklijk besluit van 3 maart 2011 en de wet van 30 juli 2013, wordt aangevuld met een lid, luidende :
 "De FSMA kan de persoon aan wie zij een bevel richt met toepassing van het eerste lid bovendien bevelen om de commercialisering of bepaalde vormen van de commercialisering van het betrokken financieel product op het Belgisch grondgebied op te schorten zolang de betrokken wettelijke of reglementaire bepalingen niet zijn nageleefd. Het bevel tot opschorting van de commercialisering kan zich uitstrekken tot de commercialisering via alle of een deel van de personen op wie de persoon, aan wie de FSMA het bevel richt, een beroep doet voor de commercialisering. De persoon aan wie het bevel is gericht moet deze opschorting van de commercialisering onmiddellijk meedelen aan alle personen op wie hij een beroep doet voor de commercialisering van het betrokken financieel product op het Belgisch grondgebied en tot wie de opschorting van de commercialisering zich uitstrekt. In het belang van de afnemers van financiële producten en diensten kan de FSMA deze beslissing openbaar maken. De opschorting van de commercialisering wordt door de FSMA opgeheven wanneer vaststaat dat de betrokken wettelijke of reglementaire bepalingen zijn nageleefd.".
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 355
+###### Art. 355
 
 [ '> 1 Oud Art. 335] '> 1 In artikel 36bis, § 2, eerste lid, 1°, van dezelfde wet worden de woorden "bepaalde financiële instrumenten, beleggingsproducten of verzekeringsproducten" vervangen door de woorden "bepaalde categorieën van financiële producten".
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 356
+###### Art. 356
 
 [ '> 1 Oud Art. 336] '> 1 In artikel 45, § 1 van dezelfde wet, vervangen bij het koninklijk besluit van 3 maart 2011 en gewijzigd bij de wetten van 13 november 2011 en 30 juli 2013, worden de volgende wijzigingen aangebracht :
 1° in het eerste lid, 2°, e. worden de woorden "de wet van 27 maart 1995 betreffende de verzekerings- en herverzekeringsbemiddeling en de distributie van verzekeringen" vervangen door de woorden "de wet van 4 april 2014 betreffende de verzekeringen";
@@ -4929,7 +4933,7 @@ De Bank brengt de FSMA en de bevoegde autoriteiten van de Lid-Staat van herkomst
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 357
+###### Art. 357
 
 [ '> 1 Oud Art. 337] '> 1 Artikel 4, § 1, van de wet van 16 juni 2006 op de openbare aanbieding van beleggingsinstrumenten en de toelating van beleggingsinstrumenten tot de verhandeling op een gereglementeerde markt wordt aangevuld met een 3° bis luidende :
 "3° bis rechten die het mogelijk maken een financiële belegging uit te voeren en die rechtstreeks of onrechtstreeks betrekking hebben op een of meer roerende goederen of op een agrarische exploitatie, die zijn ondergebracht in een juridische of feitelijke vereniging, onverdeeldheid of groepering en waarvan het collectief beheer wordt opgedragen aan één of meer personen die beroepshalve optreden, tenzij indien die rechten voorzien in een onvoorwaardelijke, onherroepelijke en volledige levering in natura van de goederen;
@@ -4937,7 +4941,7 @@ De Koning kan, bij koninklijk besluit genomen na advies van de FSMA, de soorten 
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 358
+###### Art. 358
 
 [ '> 1 Oud Art. 338] '> 1 In artikel 3 van de wet van 31 juli 2009 tot wijziging van de wet van 27 maart 1995 betreffende de verzekerings- en herverzekeringsbemiddeling en de distributie van verzekeringen en van de wet van 22 maart 2006 betreffende de bemiddeling in bank- en beleggingsdiensten en de distributie van financiële instrumenten worden de volgende wijzigingen aangebracht :
 1° de bepaling onder punt a) wordt opgeheven;
@@ -4947,31 +4951,31 @@ De Koning kan, bij koninklijk besluit genomen na advies van de FSMA, de soorten 
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 359
+###### Art. 359
 
 [ '> 1 Oud Art. 339] '> 1 Artikel 7 van dezelfde wet wordt opgeheven.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 360
+###### Art. 360
 
 [ '> 1 Oud Art. 340] '> 1 Hoofdstuk 4 van dezelfde wet wordt opgeheven.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 361
+###### Art. 361
 
 [ '> 1 Oud Art. 341] '> 1 Artikel 2 van de wet van 21 januari 2010 tot wijziging van de wet van 25 juni 1992 op de landverzekeringsovereenkomst wat de schuldsaldoverzekeringen voor personen met een verhoogd gezondheidsrisico betreft wordt opgeheven.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 362
+###### Art. 362
 
 [ '> 1 Oud Art. 342] '> 1 De artikelen 4 tot en met 17 van dezelfde wet worden opgeheven.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 363
+###### Art. 363
 
 [ '> 1 Oud Art. 343] '> 1 In artikel 18 van dezelfde wet worden de volgende wijzigingen aangebracht :
 1° het eerste lid wordt opgeheven;
@@ -4979,13 +4983,13 @@ De Koning kan, bij koninklijk besluit genomen na advies van de FSMA, de soorten 
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 364
+###### Art. 364
 
 [ '> 1 Oud Art. 344] '> 1 In artikel 4, § 1, tweede lid, van de wet van 4 april 2014 betreffende de verzekeringen wordt het woord "en" geschrapt en worden tussen de woorden "laatste lid," en "van toepassing", de woorden "270bis" ingevoegd.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 365
+###### Art. 365
 
 [ '> 1 Oud Art. 345] '> 1 Artikel 270 van dezelfde wet wordt gewijzigd als volgt :
 1° in paragraaf 4, eerste lid, wordt de bepaling onder 2° vervangen als volgt :
@@ -4998,16 +5002,16 @@ De Koning kan, bij koninklijk besluit genomen na advies van de FSMA, de soorten 
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 366
+###### Art. 366
 
 [ '> 1 Oud Art. 346] '> 1 In dezelfde wet wordt een nieuw artikel 270bis ingevoegd, luidende :
 "Art. 270bis. De verzekerings- en herverzekeringsondernemingen, de beroepsorganisaties, de verzekerings- of herverzekeringstussenpersonen en de kredietinstellingen bedoeld in artikel 270, § 4, derde lid, waarvan de FSMA het opleidingsprogramma heeft erkend vóór de datum van inwerkingtreding van dit artikel, zoals vastgesteld door de Koning, dienen de FSMA uiterlijk binnen zes maanden na die datum in kennis te stellen van de inhoud en de modaliteiten van het examen dat zij organiseren conform artikel 270, § 4, eerste lid, 2°. "
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-#### TITEL IV. - Opheffingsbepalingen
+### TITEL IV. - Opheffingsbepalingen
 
-## Art. 367
+###### Art. 367
 
 [ '> 1 Oud Art. 347] '> 1 Worden opgeheven :
 - artikel 3, § 3, artikel 9, § 1, lid 1, laatste zin, artikel 19, § 1, artikel 19bis, artikel 19ter, artikel 20, artikel 21, § 1bis, lid 1 en 2, artikel 21octies, § 2 derde lid, de artikelen 28ter tot en met 28decies, artikel 41, artikel 65, artikel 76 en artikel 77 van de wet van 9 juli 1975 betreffende de controle van de verzekeringsondernemingen;
@@ -5018,9 +5022,9 @@ De Koning kan, bij koninklijk besluit genomen na advies van de FSMA, de soorten 
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-#### TITEL V. - Andere bepalingen
+### TITEL V. - Andere bepalingen
 
-## Art. 368
+###### Art. 368
 
 [ '> 1 Oud Art. 348] '> 1 § 1. De wetsbepalingen die niet strijdig zijn met deze wet, waarbij verwezen wordt naar bepalingen van de wet van 9 juli 1975 betreffende de controle van de verzekeringsondernemingen, de wet van 25 juni 1992 op de landverzekeringsovereenkomst, de wet van 11 juni 1874 houdende de titels X en XI van Boek I van het Wetboek van Koophandel en de wet van 27 maart 1995 betreffende de verzekerings- en herverzekeringsbemiddeling en de distributie van verzekeringen worden geacht te verwijzen naar de overeenkomstige bepalingen in deze wet.
 § 2. De reglementaire bepalingen genomen in uitvoering van de bepalingen van de wet van 9 juli 1975 betreffende de controle van de verzekeringsondernemingen, de wet van 25 juni 1992 op de landverzekeringsovereenkomst, de wet van 11 juni 1874 houdende de titels X en XI van Boek I van het Wetboek van Koophandel en de wet van 27 maart 1995 betreffende de verzekerings- en herverzekeringsbemiddeling en de distributie van verzekeringen die werden overgenomen in deze wet, die niet strijdig zijn met deze wet, blijven van kracht totdat ze worden opgeheven of vervangen door besluiten ter uitvoering van deze wet genomen.
@@ -5028,14 +5032,14 @@ De Koning kan, bij koninklijk besluit genomen na advies van de FSMA, de soorten 
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 369
+###### Art. 369
 
 [ '> 1 Oud Art. 349] '> 1 Bij een besluit vastgelegd na overleg in de ministerraad kan de Koning, op advies van de FSMA, de nodige maatregelen treffen ter omzetting van de dwingende bepalingen die voortvloeien uit internationale verdragen of uit internationale akten genomen krachtens dergelijke verdragen, in de materies die door de bepalingen van deze wet zijn geregeld. De krachtens dit artikel genomen besluiten kunnen de geldende wettelijke bepalingen wijzigen, aanvullen, vervangen of opheffen.
 De in dit artikel bedoelde koninklijke besluiten zijn van rechtswege opgeheven indien zij niet bij wet zijn bekrachtigd binnen vierentwintig maanden na de bekendmaking ervan in het Belgisch Staatsblad.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 370
+###### Art. 370
 
 [ '> 1 Oud Art. 350] '> 1 Worden bekrachtigd met uitwerking op de datum van hun respectieve inwerkingtreding :
 - het koninklijk besluit van 21 februari 2014 over de regels voor de toepassing van de artikelen 27 tot 28bis van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten op de verzekeringssector;
@@ -5045,15 +5049,15 @@ De in dit artikel bedoelde koninklijke besluiten zijn van rechtswege opgeheven i
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 371
+###### Art. 371
 
 [ '> 1 Oud Art. 351] '> 1 De verzekeringstussenpersonen die op 30 april 2014 zijn ingeschreven in het register van de verzekeringstussenpersonen bijgehouden door de CDZ krachtens artikel 5, § 3, van de wet van 27 maart 1995 betreffende de verzekerings- en herverzekeringsbemiddeling en de distributie van verzekeringen, moeten zich, om hun inschrijving te kunnen behouden, uiterlijk op 1 mei 2015, conformeren aan artikel 11, § 1, 1°, A, f), van dezelfde wet, zoals gewijzigd bij het koninklijk besluit van 21 februari 2014 tot wijziging van de wet van 27 maart 1995 betreffende de verzekerings- en herverzekeringsbemiddeling en de distributie van verzekeringen.
 ----------
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 
-#### TITEL VI. - Inwerkingtreding
+### TITEL VI. - Inwerkingtreding
 
-## Art. 372
+###### Art. 372
 
 [ '> 1 Oud Art. 352] '> 1 Deze wet treedt in werking op de eerste dag van de maand na afloop van een termijn van zes maanden te rekenen van de dag volgend op de bekendmaking van deze wet in het Belgisch Staatsblad, met uitzondering van de bepalingen waarvan de datum van inwerkingtreding wordt bepaald overeenkomstig [ '> 2 artikel 373] '> 2 .
 In afwijking van het eerste lid, treden de [ '> 2 artikelen 354 en 355] '> 2 in werking op de tiende dag na de bekendmaking van deze wet in het Belgisch Staatsblad, treedt [ '> 2 artikel 370] '> 2 in werking op de dag volgend op de bekendmaking van deze wet in het Belgisch Staatsblad, en treedt [ '> 2 artikel 371] '> 2 in werking op 30 april 2014.
@@ -5063,7 +5067,7 @@ In afwijking van het eerste lid, treden de [ '> 2 artikelen 354 en 355] '> 2 in 
 ( 1 )<W 2018-12-06/11 , art. 42, 015; Inwerkingtreding : 28-12-2018>
 ( 2 )<W 2018-12-06/11 , art. 51, 015; Inwerkingtreding : 28-12-2018>
 
-## Art. 373
+###### Art. 373
 
 [ '> 1 Oud Art. 353] '> 1 § 1.De Koning bepaalt, binnen een termijn van twaalf maanden die ingaat op de dag van de bekendmaking van deze wet in het Belgisch Staatsblad, de datum van inwerkingtreding van het "hoofdstuk 5 Nadere bepalingen betreffende sommige verzekeringsovereenkomsten die de terugbetaling van het kapitaal van een krediet waarborgen" in deel 4, titel IV, of desgevallend van één of meerdere artikelen van dit hoofdstuk 5.
 § 2. De Koning bepaalt wanneer de [ '> 2 artikelen 364, 365 en 366] '> 2 in werking treden.

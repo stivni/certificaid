@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 47 van 25 februari 1996, tot regeling van de controle van de voldoening van de BTW verschuldigd ter zake van de levering, intracommunautaire verwerving en invoer van vervoermiddelen, in de zin van artikel 8bis, § 2, 1°, van het Wetboek

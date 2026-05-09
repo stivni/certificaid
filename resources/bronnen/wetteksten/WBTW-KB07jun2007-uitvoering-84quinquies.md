@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. van 7 juni 2007, tot uitvoering van de artikelen 84quinquies tot 84decies van het Wetboek van de belasting over de toegevoegde waarde

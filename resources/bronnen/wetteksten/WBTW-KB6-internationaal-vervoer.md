@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 6 van 27 december 1977, met betrekking tot de vrijstellingen ten aanzien van internationaal vervoer, zee- en binnenschepen en luchtvaartuigen, op het stuk van de belasting over de toegevoegde waarde

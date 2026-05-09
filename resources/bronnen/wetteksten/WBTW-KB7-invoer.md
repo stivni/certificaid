@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde
@@ -42,44 +46,44 @@ pg. 108072)
 
     Inhoudstafel
 
-HOOFDSTUK I: VOORWAARDEN WAARONDER DE GOEDEREN OP HET GRONDGEBIED VAN
+## HOOFDSTUK I: VOORWAARDEN WAARONDER DE GOEDEREN OP HET GRONDGEBIED VAN
     HET RIJK MOGEN WORDEN GEBRACHT. (art. 1 – art. 3)
 
-HOOFDSTUK II: PLAATS VAN BESTEMMING.
+## HOOFDSTUK II: PLAATS VAN BESTEMMING.
 
-HOOFDSTUK III: VOLDOENING VAN DE BELASTING TER ZAKE VAN INVOER. (art. 5 – art. 10)
+## HOOFDSTUK III: VOLDOENING VAN DE BELASTING TER ZAKE VAN INVOER. (art. 5 – art. 10)
 
-HOOFDSTUK IV: VRIJSTELLING BIJ INVOER. (art. 11 – art. 44)
+## HOOFDSTUK IV: VRIJSTELLING BIJ INVOER. (art. 11 – art. 44)
 
-   Afdeling 1: Vrijstelling ingesteld bij artikel 40, § 1, 1°, a, van het Wetboek. (art. 11)
+### Afdeling 1: Vrijstelling ingesteld bij artikel 40, § 1, 1°, a, van het Wetboek. (art. 11)
 
-   Afdeling 2: Vrijstelling ingesteld bij artikel 40, § 1, 1°, b, van het Wetboek. (art. 12 –
+### Afdeling 2: Vrijstelling ingesteld bij artikel 40, § 1, 1°, b, van het Wetboek. (art. 12 –
     art. 37)
 
-   Afdeling 3: Vrijstelling ingesteld bij artikel 40, § 1, 1°, c, § 2, 1°, b, en 2°, b, van het
+### Afdeling 3: Vrijstelling ingesteld bij artikel 40, § 1, 1°, c, § 2, 1°, b, en 2°, b, van het
     Wetboek. (art. 38)
 
-   Afdeling 4: Vrijstelling ingesteld bij artikel 40, § 1, 1°, d, van het Wetboek. (art. 39)
+### Afdeling 4: Vrijstelling ingesteld bij artikel 40, § 1, 1°, d, van het Wetboek. (art. 39)
 
-   Afdeling 5: Vrijstelling ingesteld bij artikel 40, § 1, 2°, van het Wetboek. (art. 40 –
+### Afdeling 5: Vrijstelling ingesteld bij artikel 40, § 1, 2°, van het Wetboek. (art. 40 –
     art. 41)
 
-   Afdeling 6: Vrijstelling ingesteld bij artikel 40, § 2, van het Wetboek. (art. 42)
+### Afdeling 6: Vrijstelling ingesteld bij artikel 40, § 2, van het Wetboek. (art. 42)
 
-   Afdeling 7: Vrijstelling ingesteld bij artikel 40, § 4, van het Wetboek. (art. 43 – art. 44)
+### Afdeling 7: Vrijstelling ingesteld bij artikel 40, § 4, van het Wetboek. (art. 43 – art. 44)
 
-HOOFDSTUK V: VOORZIENING OM DE INVORDERING VAN DE BELASTING TE VERZEKEREN.
+## HOOFDSTUK V: VOORZIENING OM DE INVORDERING VAN DE BELASTING TE VERZEKEREN.
     (art. 45)
 
-HOOFDSTUK VI: OPHEFFINGSBEPALING EN INWERKINGTREDING. (art. 46 – art. 48)
+## HOOFDSTUK VI: OPHEFFINGSBEPALING EN INWERKINGTREDING. (art. 46 – art. 48)
 
 Bijlage: Materiaal bedoeld in artikel 36, 21°, van het besluit
 
-#### HOOFDSTUK I
+## HOOFDSTUK I
     Voorwaarden waaronder de goederen op het grondgebied van het
     Rijk mogen worden gebracht.
 
-## Art. 1
+#### Art. 1
 
 (De tekst van KB nr. 7, artikel 1, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
@@ -94,7 +98,7 @@ reden niet aan invoerrecht onderworpen zijn. Hetzelfde geldt wanneer de goederen
 douane te zijn aangebracht, overeenkomstig de douanewetgeving onder een regeling van
 tijdelijke opslag worden geplaatst.
 
-## Art. 2
+#### Art. 2
 
 (De tekst van KB nr. 7, artikel 2, is van toepassing met ingang van 01.01.1996 (Art.14,
 KB 25.02.1996))
@@ -118,7 +122,7 @@ met volledige vrijstelling van invoerrechten konden worden geplaatst en verblijv
 Door of vanwege de Minister van Financiën worden de toepassingsmodaliteiten bepaald van
 deze paragraaf.
 
-## Art. 3
+#### Art. 3
 
 (De tekst van KB nr. 7, artikel 3, is van toepassing met ingang van 01.01.1996 (Art.15,
 KB 25.02.1996))
@@ -126,10 +130,10 @@ KB 25.02.1996))
 De overeenkomstig artikel 23 van het Wetboek in België ingevoerde goederen moeten voor het
 verbruik worden aangegeven.
 
-#### HOOFDSTUK II
+## HOOFDSTUK II
     Plaats van bestemming.
 
-## Art. 4
+#### Art. 4
 (De tekst van KB nr. 7, artikel 4, is van toepassing met ingang van 01.01.1996 (Art.16,
 KB 25.02.1996))
 
@@ -141,10 +145,10 @@ binnenkomen.
 Bij gebrek aan een dergelijke vermelding wordt de eerste plaats van bestemming geacht de
 plaats te zijn waar de eerste overlading van goederen in België geschiedt.
 
-#### HOOFDSTUK III
+## HOOFDSTUK III
     Voldoening van de belasting ter zake van invoer.
 
-## Art. 5
+#### Art. 5
 
 (De tekst van KB nr. 7, artikel 5, § 4, eerste lid, 3°, werd gewijzigd met ingang van
 16.05.2014 (Art. 10, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
@@ -222,7 +226,7 @@ van dit artikel bepaald. Hij bepaalt onder meer de formaliteiten die bij de aanv
 intrekking van de vergunning dienen te worden vervuld. Hij stelt bovendien de vorm en de
 inhoud vast van deze vergunning.
 
-## Art. 6
+#### Art. 6
 (De tekst van KB nr. 7, artikel 6, § 5, eerste lid, werd vervangen met ingang van
 24.07.2015 (Art. 1, KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
@@ -272,7 +276,7 @@ Door of vanwege de Minister van Financiën worden de regelen bepaald met betrekk
 regularisatie die moet plaatsvinden wanneer de bij deze paragraaf gestelde voorwaarden niet
 worden vervuld.
 
-## Art. 7
+#### Art. 7
 (De tekst van KB nr. 7, artikel 7, § 1, werd gewijzigd met ingang van 16.05.2015 (Art. 11,
 KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
@@ -296,7 +300,7 @@ Administratie der douane en accijnzen gebruikt om aangiften voor het verbruik te
 verschuldigde belasting opgenomen worden in de periodieke aangifte met betrekking tot het
 tijdvak waarin de invoer plaatsvond.
 
-## Art. 8
+#### Art. 8
 (De tekst van KB nr. 7, artikel 8, werd vervangen met ingang van 04.07.2013 (Art. 4,
 KB 13.06.2013, B.S. 24.06.2013, pg. 40184))
 
@@ -324,7 +328,7 @@ Deze personen kunnen in geen geval van deze aansprakelijkheid worden ontslagen i
 wisten of moesten weten dat de verschuldigde belasting bij de invoer niet werd of zal worden
 gestort aan de Staat.
 
-## Art. 9
+#### Art. 9
 
 (De tekst van KB nr. 7, artikel 9, § 1, derde lid, werd gewijzigd met ingang van 01.01.2010
 (Art. 14, KB 09.12.2009, B.S. 17.12.2009))
@@ -349,7 +353,7 @@ verschuldigd kan zijn, moet de aangever in de aangifte de wettelijke, reglementa
 administratieve bepaling vermelden waarbij de vrijstelling of de voldoening van de belasting
 tegen een lager tarief wordt geregeld.
 
-## Art. 10
+#### Art. 10
 
 (De tekst van KB nr. 7, artikel 10, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
@@ -358,13 +362,13 @@ Ten einde de formaliteiten te vereenvoudigen, kan door of vanwege de Minister va
 worden afgeweken van de voorschriften van de artikelen 7 en 9; in dat geval worden regelen
 gegeven om de voldoening van de belasting te verzekeren.
 
-#### HOOFDSTUK IV
+## HOOFDSTUK IV
     Vrijstelling bij invoer.
 
-##### AFDELING 1
+### AFDELING 1
     Vrijstelling ingesteld bij artikel 40, § 1, 1°, a, van het Wetboek.
 
-## Art. 11
+#### Art. 11
 
 (De tekst van KB nr. 7, artikel 11, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
@@ -380,10 +384,10 @@ toegevoegde waarde.
 Door of vanwege de Minister van Financiën worden de toepassingsmodaliteiten van dit artikel
 bepaald.
 
-##### AFDELING 2
+### AFDELING 2
     Vrijstelling ingesteld bij artikel 40, § 1, 1°, b, van het Wetboek.
 
-## Art. 12
+#### Art. 12
 
 (De tekst van KB nr. 7, artikel 12, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -442,7 +446,7 @@ belasting vrijgesteld in de gevallen en onder de voorwaarden bepaald in deze afd
 § 3. Door de Minister van Financiën of zijn gemachtigde worden de formaliteiten bepaald
 waaraan moet worden voldaan om de vrijstelling te genieten bedoeld in deze afdeling.
 
-## Art. 13
+#### Art. 13
 
 (De tekst van KB nr. 7, artikel 13, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -529,7 +533,7 @@ bepaalde in de paragrafen 2, 4, 3° en 4°, en 6, indien een persoon zijn normal
 naar het grondgebied van een lidstaat overbrengt ten gevolge van uitzonderlijke politieke
 omstandigheden.
 
-## Art. 14
+#### Art. 14
 
 (De tekst van KB nr. 7, artikel 14, werd vervangen met ingang van 24.07.2015 (Art. 2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -566,7 +570,7 @@ leidt tot toepassing van de voor de betrokken goederen geldende belasting, tegen
 datum van het uitlenen, verpanden, verhuren of overdragen van kracht zijnde tarief en over de
 op diezelfde datum vastgestelde maatstaf van heffing.
 
-## Art. 15
+#### Art. 15
 
 (De tekst van KB nr. 7, artikel 15, werd vervangen met ingang van 24.07.2015 (Art. 2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -596,7 +600,7 @@ toepassing van de voor de betrokken goederen geldende belasting, tegen het op de
 uitlenen, verpanden, verhuren of overdragen van kracht zijnde tarief en over de op diezelfde
 datum vastgestelde maatstaf van heffing.
 
-## Art. 16
+#### Art. 16
 
 (De tekst van KB nr. 7, artikel 16, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -634,7 +638,7 @@ gedeelten plaatsvinden.
 testament worden verworven door een rechtspersoon die een activiteit zonder winstoogmerk
 uitoefent en op het grondgebied van de Gemeenschap is gevestigd.
 
-## Art. 17
+#### Art. 17
 (De tekst van KB nr. 7, artikel 17, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
@@ -656,7 +660,7 @@ gedurende hun studietijd.
 
 § 3. De vrijstelling wordt ten minste eenmaal per studiejaar verleend.
 
-## Art. 18
+#### Art. 18
 
 (De tekst van KB nr. 7, artikel 18, werd vervangen met ingang van 24.07.2015 (Art. 2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -667,7 +671,7 @@ globale waarde niet meer bedraagt dan 22 euro.
 Van de in het eerste lid bedoelde vrijstelling worden uitgesloten de alcoholische producten,
 parfum en toiletwater, tabak en tabaksproducten.
 
-## Art. 19
+#### Art. 19
 
 (De tekst van KB nr. 7, artikel 19, werd vervangen met ingang van 24.07.2015 (Art. 2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -725,7 +729,7 @@ vrijstelling slechts verleend voor kapitaalgoederen en andere uitrusting die zij
 het verstrijken van een termijn van twaalf maanden, te rekenen vanaf de datum van het staken
 van de activiteiten van het bedrijf in het derde land of derdelands gebied van herkomst.
 
-## Art. 20
+#### Art. 20
 
 (De tekst van KB nr. 7, artikel 20, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -735,7 +739,7 @@ maanden oude, in een derde land of derdelands gebied geboren jongen van een in d
 Gemeenschap gedekt paard van zuiver ras, dat vervolgens tijdelijk is uitgevoerd om haar
 jongen te werpen.
 
-## Art. 21
+#### Art. 21
 
 (De tekst van KB nr. 7, artikel 21, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -760,7 +764,7 @@ stoffen die bestemd zijn:
     wetenschappelijk onderzoek is en die door de Minister van Financiën of zijn gemachtigde
     toestemming hebben verkregen om deze goederen met vrijstelling in te voeren.
 
-## Art. 22
+#### Art. 22
 (De tekst van KB nr. 7, artikel 22, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
@@ -798,7 +802,7 @@ menselijke oorsprong of van testsera voor de vaststelling van bloed- of weefselg
 noodzakelijke speciale verpakkingen, alsmede tot de oplosmiddelen en het toebehoren die nodig
 zijn voor hun gebruik, welke eventueel aan de zendingen zijn toegevoegd.
 
-## Art. 23
+#### Art. 23
 
 (De tekst van KB nr. 7, artikel 23, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -810,7 +814,7 @@ organisatie (WHO) zijn goedgekeurd, waarbij die zendingen worden gericht aan gea
 die door de Minister van Financiën of zijn gemachtigde zijn erkend om dergelijke zendingen met
 vrijstelling in te voeren.
 
-## Art. 24
+#### Art. 24
 
 (De tekst van KB nr. 7, artikel 24, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -820,7 +824,7 @@ producten voor menselijke of diergeneeskunde welke zijn bestemd voor gebruik doo
 of dieren die zullen deelnemen aan internationale sportevenementen, zulks binnen de grenzen
 van hun behoeften gedurende het verblijf in de Gemeenschap.
 
-## Art. 25
+#### Art. 25
 
 (De tekst van KB nr. 7, artikel 25, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -894,7 +898,7 @@ doeleinden dan die bedoeld in paragraaf 1 zijn onderworpen aan de toepassing van
 belasting, tegen het tarief dat van kracht is op de datum waarop zij voor een ander gebruik
 worden bestemd en over de op diezelfde datum vastgestelde maatstaf van heffing.
 
-## Art. 26
+#### Art. 26
 
 (De tekst van KB nr. 7, artikel 26, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -958,7 +962,7 @@ andere doeleinden dan bedoeld in paragraaf 3 zijn onderworpen aan de toepassing 
 belasting, tegen het tarief dat van kracht is op de datum waarop zij voor een ander gebruik
 worden bestemd en over de op diezelfde datum vastgestelde maatstaf van heffing.
 
-## Art. 27
+#### Art. 27
 (De tekst van KB nr. 7, artikel 27, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
@@ -1043,7 +1047,7 @@ doeleinden dan bedoeld in dit artikel, zijn onderworpen aan de toepassing van de
 tegen het tarief dat van kracht is op de datum waarop zij voor een ander gebruik worden
 aangewend en over de op diezelfde datum vastgestelde maatstaf van heffing.
 
-## Art. 28
+#### Art. 28
 (De tekst van KB nr. 7, artikel 28, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
@@ -1074,7 +1078,7 @@ KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 de administratie kunnen aantonen en voor zover het handelingen betreft waaraan elk
 handelskarakter vreemd is.
 
-## Art. 29
+#### Art. 29
 
 (De tekst van KB nr. 7, artikel 29, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -1104,7 +1108,7 @@ verleend voor de definitieve invoer van:
 incidenteel geschenk, uit de aard, de waarde of de hoeveelheid ervan geen enkele commerciële
 bijbedoeling blijkt en zij niet voor commerciële doeleinden worden gebruikt.
 
-## Art. 30
+#### Art. 30
 
 (De tekst van KB nr. 7, artikel 30, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -1121,7 +1125,7 @@ KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 voorrechten genieten die overeenkomen met die van een regerend vorst of van een
 staatshoofd.
 
-## Art. 31
+#### Art. 31
 
 (De tekst van KB nr. 7, artikel 31, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -1142,7 +1146,7 @@ representatief zijn voor een categorie van handelswaar en waarvan de wijze van o
 hoeveelheid voor de gegeven soort of kwaliteit van goederen die artikelen ongeschikt maken om
 voor andere doeleinden dan voor klantenwerving te worden gebruikt.
 
-## Art. 32
+#### Art. 32
 
 (De tekst van KB nr. 7, artikel 32, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -1177,7 +1181,7 @@ voorwerpen voor reclamedoeleinden die zelf geen handelswaarde bezitten en die gr
 leveranciers naar hun klanten worden gezonden en voor geen ander doel dan voor reclame
 kunnen worden gebruikt.
 
-## Art. 33
+#### Art. 33
 
 (De tekst van KB nr. 7, artikel 33, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -1258,7 +1262,7 @@ voor reclamedoeleinden:
 § 6. Alcoholische producten, tabak en tabaksproducten en brandstoffen zijn van de in
 paragraaf 1, 1° en 2°, bedoelde vrijstelling uitgesloten.
 
-## Art. 34
+#### Art. 34
 (De tekst van KB nr. 7, artikel 34, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
@@ -1309,7 +1313,7 @@ verkregen.
 § 7. De administratie bepaalt de termijn waarbinnen de onderzoeken, analyses of proeven
 moeten plaatsvinden.
 
-## Art. 35
+#### Art. 35
 
 (De tekst van KB nr. 7, artikel 35, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
@@ -1368,7 +1372,7 @@ Het niet-naleven van het bepaalde in het eerste lid leidt tot toepassing van de 
 betrokken producten geldende belasting, tegen het tarief dat van kracht is op de datum van de
 feiten en over de op diezelfde datum vastgestelde maatstaf van heffing.
 
-## Art. 36
+#### Art. 36
 (De tekst van KB nr. 7, artikel 36, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
@@ -1501,7 +1505,7 @@ Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
     op het grondgebied van de Gemeenschap komen verfraaien, voor zover uit de aard of de
     hoeveelheid van deze invoer geen commerciële overwegingen blijken.
 
-## Art. 37
+#### Art. 37
 
 (De tekst van KB nr. 7, artikel 37, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
@@ -1516,21 +1520,21 @@ binnenkomende vervoermiddelen en bestemd voor de voortdrijving of de smering daa
 Wetboek, en enkel voor de hoeveelheden die inzake invoerrecht met vrijstelling kunnen worden
 toegelaten voor het verbruik in België.
 
-##### AFDELING 3
+### AFDELING 3
     Vrijstelling ingesteld bij artikel 40, § 1, 1°, c, § 2, 1°, b, en 2°, b,
     van het Wetboek.
 
-## Art. 38
+#### Art. 38
 
 (De tekst van KB nr. 7, artikel 38, wordt opgeheven met ingang van 01.01.1996 (Art.19,
 KB 25.02.1996)
 
     (opgeheven)
 
-##### AFDELING 4
+### AFDELING 4
     Vrijstelling ingesteld bij artikel 40, § 1, 1°, d, van het Wetboek.
 
-## Art. 39
+#### Art. 39
 (De tekst van KB nr. 7, artikel 39, werd vervangen met ingang van 01.01.2011 (Art.1,
 KB 22.12.2010, B.S. 31.12.2010, ed. 4))
 
@@ -1553,10 +1557,10 @@ zijn om vanuit België te worden vervoerd of verzonden naar een andere lidstaat.
 § 2. Door de Minister van Financiën of zijn gemachtigde worden de modaliteiten bepaald voor
 de toepassing van dit artikel.
 
-##### AFDELING 5
+### AFDELING 5
     Vrijstelling ingesteld bij artikel 40, § 1, 2°, van het Wetboek.
 
-## Art. 40
+#### Art. 40
 
 (De tekst van KB nr. 7, artikel 40, § 1, werd gewijzigd met ingang van 05.12.2019 (Art. 6,
 KB 07.11.2019, B.S. 25.11.2019, pg. 108072))
@@ -1581,7 +1585,7 @@ waarde.
 § 3. Door of vanwege de Minister van Financiën worden de modaliteiten en de formaliteiten
 bepaald voor de toepassing van de in dit artikel bedoelde vrijstelling.
 
-## Art. 41
+#### Art. 41
 
 (De tekst van KB nr. 7, artikel 41, § 3, werd vervangen en de Nederlandse tekst van § 4,
 2°, werd gewijzigd met ingang van 05.12.2019 (Art. 7, KB 07.11.2019, B.S. 25.11.2019))
@@ -1640,10 +1644,10 @@ wederingevoerd na:
 § 5. Door of vanwege de Minister van Financiën worden de modaliteiten en de formaliteiten
 bepaald voor de toepassing van de in dit artikel bedoelde vrijstelling.
 
-##### AFDELING 6
+### AFDELING 6
     Vrijstelling ingesteld bij artikel 40, § 2, van het Wetboek.
 
-## Art. 42
+#### Art. 42
 (De tekst van KB nr. 7, artikel 42, is gewijzigd met ingang van 01.01.2010 (Art. 16,
 KB 09.12.2009, B.S. 17.12.2009))
 
@@ -1677,10 +1681,10 @@ De maatstaf van heffing zoals bepaald in het eerste lid moet worden vermeerderd 
 reeds in die waarde begrepen sommen die, overeenkomstig artikel 34, § 2, van het Wetboek, in
 de maatstaf van heffing moeten worden opgenomen.
 
-##### AFDELING 7
+### AFDELING 7
     Vrijstelling ingesteld bij artikel 40, § 4, van het Wetboek.
 
-## Art. 43
+#### Art. 43
 (De tekst van KB nr. 7, artikel 43, werd vervangen met ingang van 01.12.2008 (Art. 2,
 KB 10.12.2008, B.S. 19.12.2008, en errata B.S. 30.01.2009))
 
@@ -1827,7 +1831,7 @@ teruggaaf van BTW in aanmerking komen.
 Het overvliegen van een grondgebied zonder landing wordt niet als een reis over dat
 grondgebied aangemerkt.
 
-## Art. 44
+#### Art. 44
 
 (Vanaf 01.01.2002 wordt het in KB nr. 7, artikel 44, opgenomen bedrag uitgedrukt in euro.
 (Art.3, 16, KB 20.07.2000 en Art.37, 6°, KB 13.07.2001))
@@ -1895,10 +1899,10 @@ e) thee 100 gram
 vervat, maar de in die paragraaf vastgestelde hoeveelheden overschrijden, worden geheel van
 de vrijstelling uitgesloten.
 
-#### HOOFDSTUK V
+## HOOFDSTUK V
     Voorziening om de invordering van de belasting te verzekeren.
 
-## Art. 45
+#### Art. 45
 
 (De tekst van KB nr. 7, artikel 45, eerste lid, inleidende zin, werd gewijzigd met ingang
 van 16.05.2014 (Art. 12, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
@@ -1924,10 +1928,10 @@ inzake invoerrecht gelden, aanvaarden.
 Wanneer de geëiste borgtocht niet wordt gesteld voor goederen die nog onder douanetoezicht
 staan, mag de douane de goederen ophouden of gebieden dat ze het land moeten verlaten.
 
-#### HOOFDSTUK VI
+## HOOFDSTUK VI
     Opheffingsbepaling en inwerkingtreding.
 
-## Art. 46
+#### Art. 46
 
 (De tekst van KB nr. 7, artikel 46, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
@@ -1935,14 +1939,14 @@ staan, mag de douane de goederen ophouden of gebieden dat ze het land moeten ver
 Dit besluit vervangt het koninklijk besluit nr. 7, van 27 december 1977, met betrekking tot de
 invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde.
 
-## Art. 47
+#### Art. 47
 
 (De tekst van KB nr. 7, artikel 47, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
 Dit besluit treedt in werking op 1 januari 1993.
 
-## Art. 48
+#### Art. 48
 
 (De tekst van KB nr. 7, artikel 48, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))

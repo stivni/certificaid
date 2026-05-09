@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 8 van 12 maart 1970, tot vaststelling van de wijze van afronding van de verschuldigde, de aftrekbare of de voor teruggaaf vatbare belasting over de toegevoegde waarde

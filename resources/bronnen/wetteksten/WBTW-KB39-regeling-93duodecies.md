@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de belasting over de toegevoegde waarde
@@ -81,7 +85,7 @@ de aanvraag tot verkrijging van het voordeel, noch later dan deze datum.
     alimentatievorderingen bij de FOD Financiën, die het voorwerp hebben uitgemaakt van een in kracht van
     gewijsde getreden rechterlijke beslissing houdende veroordeling tot hun betaling, voor de datum van haar
     inwerkingtreding.
-    Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding
+## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding
     bepalen
 
 Er moet evenwel een nieuw attest worden overgelegd wanneer de beslissing tot toekenning van

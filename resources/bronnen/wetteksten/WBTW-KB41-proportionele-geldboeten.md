@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 3
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde
@@ -40,7 +44,7 @@ Laatstelijk gewijzigd, met ingang van 01.04.2019 bij:
     met betrekking tot de belasting over de toegevoegde waarde, met het oog op de automatisering van de
     uitvoerbare titel inzake de belasting over de toegevoegde waarde (B.S. 08.04.2019, pg. 35699)
 
-## Art. 1
+### Art. 1
     (De tekst van KB nr. 41, artikel 1 is van toepassing met ingang van 01.11.1993
     (Art.1, KB 21.10.1993))
 
@@ -66,7 +70,7 @@ over de toegevoegde waarde is bepaald :
 ten aanzien van overtredingen begaan met het oogmerk de belasting te ontduiken of de ontduiking ervan
 mogelijk te maken.
 
-## Art. 2
+### Art. 2
     (De tekst van KB nr. 41, artikel 2, werd opgeheven met ingang van 01.04.2019
     (Art. 17, KB 17.03.2019, pg. 35699). Dit besluit (KB 17.03.2019) is niet van
     toepassing op het dwangbevel dat werd kennisgegeven of betekend vóór de datum van
@@ -74,14 +78,14 @@ mogelijk te maken.
 
     (Opgeheven)
 
-## Art. 3
+### Art. 3
     (De tekst van KB nr. 41, artikel 3, is van toepassing met ingang van 01.02.1987
     (KB 30.01.1987))
 
     Volledige kwijtschelding van de geldboeten wordt verleend wanneer een schuldenaar zijn toestand
 spontaan rechtzet vóór enige tussenkomst van een fiscale administratie.
 
-## Art. 4
+### Art. 4
     (Vanaf 01.01.2002 wordt het in KB nr. 41, artikel 4, opgenomen bedrag uitgedrukt in
     euro. (Art.3, 20 en Art.6, § 14, KB 20.07.2000 en Art.9, KB 13.07.2001))
 
@@ -93,14 +97,14 @@ wordt het resultaat niet opnieuw afgerond.
 
 Proportionele fiscale geldboeten www.fisconetplus.be Bijlage pg. 1
 
-## Art. 5
+### Art. 5
 
     (De tekst van KB nr. 41, artikel 5, is van toepassing met ingang van 01.02.1987
     (KB 30.01.1987))
 
     Dit besluit treedt in werking op 1 februari 1987.
 
-## Art. 6
+### Art. 6
 
     (De tekst van KB nr. 41, artikel 6, is van toepassing met ingang van 01.02.1987
     (KB 30.01.1987))
@@ -113,11 +117,11 @@ Proportionele fiscale geldboeten www.fisconetplus.be Bijlage pg. 1
 
 TABEL A: Geldboeten voor overtredingen beoogd in artikel 70, § 1, van het wetboek
 
-##### Afdeling 1. - Binnenlandse verrichtingen
+## Afdeling 1. - Binnenlandse verrichtingen
 
-##### Afdeling 2. - Invoer.
+## Afdeling 2. - Invoer.
 
-##### Afdeling 3. - Uitvoer.
+## Afdeling 3. - Uitvoer.
 
 TABEL B: Geldboeten voor overtredingen beoogd in artikel 70, § 1bis, van het wetboek
 
@@ -131,13 +135,13 @@ TABEL F: Geldboeten voor overtredingen beoogd in artikel 71 van het wetboek
 
 TABEL G: Geldboeten voor overtredingen beoogd in artikel 70, § 1, van het wetboek
 
-##### Afdeling 1.- Binnenlandse en intracommunautaire verrichtingen.
+## Afdeling 1.- Binnenlandse en intracommunautaire verrichtingen.
 
-##### Afdeling 2.- Invoer.
+## Afdeling 2.- Invoer.
 
-##### Afdeling 3.- Uitvoer.
+## Afdeling 3.- Uitvoer.
 
-##### Afdeling 4.- Andere regeling van entrepot dan douane-entrepot.
+## Afdeling 4.- Andere regeling van entrepot dan douane-entrepot.
 
 TABEL H: Geldboeten voor overtredingen beoogd in artikel 70, § 1bis, van het wetboek
 
@@ -266,7 +270,7 @@ VI. Vrijstellingen beoogd door artikel 42, §§ 1, 2 en 3, 1° tot 6°,
     2. Ontbreken van het bewijs van het recht op vrijstelling 10 pct. van de verschuldigde
     belasting
 
-##### Afdeling 2. - Invoer.
+## Afdeling 2. - Invoer.
 
 VII. Overtredingen van de verplichting de goederen aan te geven
     bij het douanekantoor : invoer van goederen zonder aangifte
@@ -439,7 +443,7 @@ Proportionele fiscale geldboeten www.fisconetplus.be Bijlage pg. 4
     België maar kan te goeder trouw oordelen dat
     deze zich in het buitenland bevindt
 
-##### Afdeling 3. – Uitvoer.
+## Afdeling 3. – Uitvoer.
 
 XI. Overtredingen inzake de toepassing van artikel 39 van het
     Wetboek.
@@ -976,7 +980,7 @@ VII. 1. Ten onrechte toepassen van artikel 25ter, § 1, tweede 10 pct. van de ve
 
 Proportionele fiscale geldboeten www.fisconetplus.be Bijlage pg. 12
 
-##### Afdeling 2.- Invoer.
+## Afdeling 2.- Invoer.
 
     (KB nr. 41, Tabel G, afdeling 2, VIII, 4. en 5. C), werden gewijzigd met ingang van
     01.04.2019 (KB 17.03.2019, B.S. 08.04.2019, pg. 35699))
@@ -1155,7 +1159,7 @@ XI. Overtredingen op het stuk van de tijdelijke invoer van
     B) Andere overtredingen 100 pct. van de verschuldigde
     belasting
 
-##### Afdeling 3.- Uitvoer.
+## Afdeling 3.- Uitvoer.
 XII. Overtredingen inzake de toepassing van artikel 39 van het
     Wetboek.
 
@@ -1233,7 +1237,7 @@ XIV. Overtredingen inzake de toepassing van artikel 42, § 3, 8°,
     vergunninghouder de verplicht geworden belasting
     regularisatie nog niet uitgevoerd
 
-##### Afdeling 4.- Andere regeling van entrepot dan douane-entrepot.
+## Afdeling 4.- Andere regeling van entrepot dan douane-entrepot.
 
 XV. Overtredingen begaan bij de toepassing van artikel 39quater 10 pct. van de verschuldigde
     van het Wetboek belasting.

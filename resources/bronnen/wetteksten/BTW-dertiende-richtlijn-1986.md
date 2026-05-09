@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen

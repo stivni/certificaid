@@ -24,13 +24,17 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 5
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/WIB92)
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
 
-## Art. 2
+##### Art. 2
 
 Om voor de toepassing van artikel 21, 5°, van het Wetboek van de inkomstenbelastingen 1992 in aanmerking te komen, moeten de in dat artikel vermelde spaardeposito's aan de volgende vereisten voldoen :
   1° (de spaardeposito's moeten (in euro) zijn uitgedrukt); <KB 1997-10-13/31, art. 1, 040; Inwerkingtreding : 30-10-1997> <KB 2000-07-20/63, art. 6, 077; Inwerkingtreding : 01-01-2002>
@@ -58,15 +62,15 @@ Om voor de toepassing van artikel 21, 5°, van het Wetboek van de inkomstenbelas
    e) bij terugbetaling, op de contractuele vervaldag of na die vervaldag, van spaardeposito's gevormd ter uitvoering van een contractueel spaarplan met een duur van tenminste 3 jaar en waarbij de titularis zich ertoe verbindt maandelijks een bepaald bedrag op zijn spaardeposito te storten, zijn de in b, tweede en derde lid, vermelde termijnen niet van toepassing;
    5° in de publiciteit omtrent de vergoedingsvoorwaarden van de spaardeposito's, mogen de bestanddelen van de vergoeding niet worden opgeteld. Tevens moeten zij afzonderlijk worden vermeld en onmiddellijk gevolgd worden door de vermelding dat ze op jaarbasis worden berekend.
 
-##### Afdeling III. - Forfaitaire raming van de kosten die aftrekbaar zijn van het bruto-inkomen uit verhuring, verpachting, gebruik en concessie van roerende goederen. (Wetboek van de inkomstenbelastingen 1992, artikel 22, § 3)
+### Afdeling III. - Forfaitaire raming van de kosten die aftrekbaar zijn van het bruto-inkomen uit verhuring, verpachting, gebruik en concessie van roerende goederen. (Wetboek van de inkomstenbelastingen 1992, artikel 22, § 3)
 
-## Art. 3
+##### Art. 3
 
 Om het netto-inkomen uit verhuring, verpachting, gebruik en concessie van roerende goederen te bepalen, worden de kosten die zijn gedragen om die inkomsten te verkrijgen of te behouden bij gebrek aan bewijskrachtige gegevens forfaitair vastgesteld op 15 pct. van het brutobedrag, wanneer de verkrijger :
   1° een rijksinwoner is of enigerlei vennootschap, vereniging, inrichting of instelling die in België haar maatschappelijke zetel, haar voornaamste inrichting of haar zetel van bestuur of beheer heeft, en die goederen niet voor het uitoefenen van de beroepswerkzaamheid van de verkrijger worden gebruikt;
   2° een niet-inwoner is als vermeld in artikel 227, van het Wetboek van de inkomstenbelastingen 1992, en gezegde goederen door die niet-inwoner niet voor de beroepswerkzaamheid worden gebruikt die hij in een in België gelegen inrichting uitoefent.
 
-## Art. 4
+##### Art. 4
 
 Het in artikel 3 vermelde forfait wordt gebracht op :
   1° 50 pct. wanneer het verhuring betreft van :
@@ -77,14 +81,14 @@ Het in artikel 3 vermelde forfait wordt gebracht op :
   b) concessie van het recht handelsgrammofoonplaten te persen;
   c) (concessie van het recht om bioscoopfilms en gelijksoortige audiovisuele werken te distribueren of te vertonen en concessie van het recht om radio- en televisieprogramma's uit te zenden of gelijktijdig en onverkort door te geven.) <KB 1994-08-12/48, art. 1, 006; Inwerkingtreding : 01-01-1992>
 
-## Art. 5
+##### Art. 5
 
 De normaal ten laste van de verkrijger van de inkomsten vallende kosten die, al of niet volgens overeenkomst, door de schuldenaar van de inkomsten zijn gedragen, moeten bij de werkelijk verleende of toegekende sommen worden gevoegd om het brutobedrag te bepalen.
   In het in artikel 4, 2°, c, vermelde geval worden kosten van kopieën, van onderschriften en van nasynchronisatie van films en van voorfilms, kosten voor vervoer van films naar het buitenland, tolgelden, belasting op roerende verhuring en transferkosten op huurgelden, zomede alle andere gelijkaardige kosten, aan het belastbare brutobedrag toegevoegd ingeval zij door de schuldenaar van de inkomsten zijn gedragen.
 
-##### Afdeling IV. - Vaststelling van het nettobedrag van de beroepsinkomsten. (Wetboek van de inkomstenbelastingen 1992, artikelen 23, § 3, en 77)
+### Afdeling IV. - Vaststelling van het nettobedrag van de beroepsinkomsten. (Wetboek van de inkomstenbelastingen 1992, artikelen 23, § 3, en 77)
 
-## Art. 6
+##### Art. 6
 
 (De aftrekken bedoeld in de artikelen 23, § 2, en 68 tot 80 van het Wetboek van de inkomstenbelastingen 1992, worden verricht volgens de in de artikelen 7 tot 10 vastgestelde wijze en in de hierna vermelde volgorde :) <KB 1995-09-01/42, art. 2, 1°, 019; Inwerkingtreding : 01-01-1993>
    1° (de bijdragen bedoeld in artikel 52, 7° (...), van hetzelfde Wetboek, ingehouden door de schuldenaar van de beroepsinkomsten en de sommen bedoeld in artikel 52, 8°, van hetzelfde Wetboek, gestort door de belastingplichtige;) <KB 1995-09-01/42, art. 1, 1°, 019; Inwerkingtreding : 01-01-1992> <KB 1995-09-01/42, art. 2, 2°, 020; Inwerkingtreding : 01-01-1994>
@@ -94,7 +98,7 @@ De normaal ten laste van de verkrijger van de inkomsten vallende kosten die, al 
    5° de tijdens de vorige belastbare tijdperken geleden beroepsverliezen;
    6° (...) <KB 1995-09-01/42, art. 2, 3°, 019; Inwerkingtreding : 01-01-1993>
 
-## Art. 7
+##### Art. 7
 
 § 1. (De bijdragen en sommen vermeld in artikel 6, 1°, worden afgetrokken van de inkomsten waarop zij betrekking hebben.) <KB 1995-09-01/42, art. 3, 1°, 019; Inwerkingtreding : 01-01-1992>
    § 2. De andere werkelijke beroepskosten die met een bepaalde beroepswerkzaamheid verband houden, worden van de inkomsten van die beroepswerkzaamheid afgetrokken.
@@ -106,7 +110,7 @@ De normaal ten laste van de verkrijger van de inkomsten vallende kosten die, al 
    § 8. Wanneer de beroepskosten in verband met één of meer bestanddelen van het inkomen overeenkomstig artikel 51 van hetzelfde Wetboek forfaitair worden bepaald, worden de (in artikel 52, 7°, van hetzelfde Wetboek vermelde sociale) bijdragen die niet zijn ingehouden, in afwijking van § 5, evenredig afgetrokken van die bestanddelen van het inkomen. <KB 1995-09-01/42, art. 3, 3°, 019; Inwerkingtreding : 01-01-1992>
    § 9. De investeringsaftrek vermeld in de artikelen 68 tot 77 van hetzelfde Wetboek komt eerst in mindering van de winst of de baten van Belgische oorsprong die niet vermeld zijn in artikel 171 van hetzelfde Wetboek en vervolgens evenredig in mindering van de beroepsinkomsten waarvan sprake in hetzelfde artikel 171.
 
-## Art. 8
+##### Art. 8
 
 § 1. Wanneer een beroepswerkzaamheid in verschillende landen wordt uitgeoefend, worden de overeenkomstig artikel 7 berekende nettoresultaten van het belastbare tijdperk in 3 groepen ingedeeld :
   1° die behaald in België;
@@ -117,54 +121,54 @@ De normaal ten laste van de verkrijger van de inkomsten vallende kosten die, al 
   § 4. Wanneer het eindresultaat van groep 2 negatief is, wordt dat resultaat evenredig afgetrokken van de gezamenlijk belastbare beroepsinkomsten van groep 1 en de beroepsinkomsten van groep 3; het eventuele saldo wordt evenredig afgetrokken van de afzonderlijke belastbare beroepsinkomsten van groep 1.
   § 5. Wanneer het eindresultaat van groep 3 negatief is, wordt dat resultaat evenredig afgetrokken van de gezamenlijk belastbare beroepsinkomsten van de groepen 1 en 2; het eventuele saldo wordt evenredig afgetrokken van de afzonderlijk belastbare beroepsinkomsten van die groepen.
 
-## Art. 9
+##### Art. 9
 
 Het tijdens het belastbare tijdperk in een bepaalde beroepswerkzaamheid geleden beroepsverlies wordt evenredig aangerekend op de beroepsinkomsten uit de andere beroepswerkzaamheden die gezamenlijk worden belast of die krachtens artikel 155 van het Wetboek van de inkomstenbelastingen 1992 zijn vrijgesteld; het eventuele saldo wordt evenredig aangerekend op de beroepsinkomsten die afzonderlijk worden belast.
 
-## Art. 10
+##### Art. 10
 
 De tijdens vorige belastbare tijdperken geleden beroepsverliezen worden evenredig aangerekend op de overblijvende beroepsinkomsten van de verschillende beroepswerkzaamheden die gezamenlijk worden belast of die krachtens artikel 155 van het Wetboek van de inkomstenbelastingen 1992 zijn vrijgesteld; het eventuele saldo wordt evenredig aangerekend op de beroepsinkomsten die afzonderlijk worden belast.
 
-## Art. 11
+##### Art. 11
 
 (Opgeheven) <KB 1995-09-01/42, art. 4, 019; Inwerkingtreding : 01-01-1993>
 
-##### Afdeling V. - Optiestelsel van landbouwvennootschappen. (Wetboek van de inkomstenbelastingen 1992, artikel 29, § 2, 2°)
+### Afdeling V. - Optiestelsel van landbouwvennootschappen. (Wetboek van de inkomstenbelastingen 1992, artikel 29, § 2, 2°)
 
-## Art. 12
+##### Art. 12
 
 De landbouwvennootschappen mogen voor de rechtspersoonlijkheid en voor het stelsel van de vennootschapsbelasting kiezen wanneer zij op de eerste dag van het eerste belastbare tijdperk waarvoor de optie wordt uitgeoefend, tenminste 3 vennoten tellen en wanneer het maatschappelijk kapitaal op diezelfde datum tenminste (30.950 EUR) bedraagt. <KB 2001-07-13/52, art. 2, 083; Inwerkingtreding : 01-01-2002>
 
-## Art. 13
+##### Art. 13
 
 De optie kan slechts geldig worden uitgeoefend indien de beslissing daartoe met eenparigheid van stemmen is genomen door de personen die op de eerste dag van het eerste belastbare tijdperk waarvoor de optie uitwerking moet hebben, vennoten waren en, in geval van overlijden van één hunner, door hun rechthebbenden.
 
-## Art. 14
+##### Art. 14
 
 Om het optierecht te kunnen uitoefenen, moet de vennootschap een afschrift van de in artikel 13 vermelde beslissing inzenden.
   Dat document moet alle gegevens bevatten die voor het beoordelen van de geldigheid van de beslissing nodig zijn en moet worden ondertekend door alle personen die hebben medebeslist.
   Het moet, op straffe van nietigheid, bij aangetekende brief aan de controleur van de belastingen of aan de leider van het centraal taxatiekantoor van het gebied van de vennootschap worden gezonden uiterlijk binnen de eerste 30 dagen van het eerste belastbare tijdperk waarvoor de optie uitwerking moet hebben.
 
-## Art. 15
+##### Art. 15
 
 Onverminderd de toepassing van artikel 16, is het optiestelsel onherroepelijk voor een cyclus van 3 opeenvolgende belastbare tijdperken in de vennootschapsbelasting. Het wordt telkens ambtshalve hernieuwd voor een nieuwe cyclus van 3 opeenvolgende belastbare tijdperken, behalve :
    1° wanneer de in artikel 13 vermelde personen onder de daarin bepaalde voorwaarden een nieuwe beslissing treffen die een einde aan de optie maakt en wanneer een afschrift van die beslissing, waarin alle voor de beoordeling van de geldigheid ervan nodige gegevens voorkomen, bij aangetekende brief aan de controleur van de belastingen of aan de leider van het centraal taxatiekantoor van het gebied van de vennootschap wordt gezonden uiterlijk binnen de eerste 30 dagen van het eerste belastbare tijdperk dat volgt op de cyclus waarvoor de optie uitwerking heeft gehad; dat afschrift wordt ondertekend door alle personen die hebben medebeslist;
    2° wanneer aan de voorwaarden met betrekking tot het aantal vennoten en het bedrag van het maatschappelijk kapitaal, op de datum van het verstrijken van het belastbare tijdperk dat volgt op de cyclus waarvoor de optie laatst uitwerking heeft gehad, sinds ten minste 1 jaar niet meer is voldaan.
 
-## Art. 16
+##### Art. 16
 
 In geval van omzetting van de landbouwvennootschap in een vennootschap opgericht in één van de vormen bepaald in het Wetboek van koophandel, neemt het optiestelsel ambtshalve een einde met ingang van het belastbare tijdperk waarin de akte van omzetting uitwerking heeft.
   De vennootschap die onder de nieuwe rechtsvorm blijft bestaan, wordt onderworpen aan de vennootschapsbelasting.
 
-##### Afdeling VI. - Bezoldigingen van volledig, hoofdzakelijk of bijkomend met fooien bezoldigde werknemers - Belastbare minimumbezoldiging. (Wetboek van de inkomstenbelastingen 1992, artikel 31, vierde lid)
+### Afdeling VI. - Bezoldigingen van volledig, hoofdzakelijk of bijkomend met fooien bezoldigde werknemers - Belastbare minimumbezoldiging. (Wetboek van de inkomstenbelastingen 1992, artikel 31, vierde lid)
 
-## Art. 17
+##### Art. 17
 
 De belastbare brutobezoldiging van volledig, hoofdzakelijk of bijkomend met fooien bezoldigde werknemers, mag niet minder bedragen dan de forfaitaire bezoldiging die tot grondslag heeft gediend voor de berekening van de bijdragen welke die werknemers en hun werkgevers verschuldigd zijn ter uitvoering van de wetgeving betreffende de sociale zekerheid.
 
-##### Afdeling VII. - Forfaitaire raming van anders dan in geld verkregen voordelen van alle aard. (Wetboek van de inkomstenbelastingen 1992, artikel 36, tweede lid)
+### Afdeling VII. - Forfaitaire raming van anders dan in geld verkregen voordelen van alle aard. (Wetboek van de inkomstenbelastingen 1992, artikel 36, tweede lid)
 
-## Art. 18
+##### Art. 18
 
 § 1. De anders dan in geld verkregen voordelen van alle aard en vermeld in de §§ 2 en 3, worden forfaitair geraamd volgens de in die paragrafen bepaalde regels.
    § 2. Voor de voordelen waarvan de waarde wordt vastgesteld door een sociale of economische reglementering, is de in aanmerking te nemen waarde gelijk aan de door die reglementering vastgestelde waarde.
@@ -347,9 +351,9 @@ De belastbare brutobezoldiging van volledig, hoofdzakelijk of bijkomend met fooi
    § 4. In de gevallen als vermeld in § 3, punten 2 tot 9, en wanneer het voordeel niet kosteloos wordt toegestaan, is het in aanmerking te nemen voordeel datgene dat overeenkomstig § 3, punten 2 tot 9, is vastgesteld verminderd met de bijdrage van de verkrijger van dat voordeel.
    <Bij arrest nr. 58.169 van 16 februari 1996 (B.St. 07.05.1996, p. 11239) vernietigt de Raad van State, VIe Kamer, in artikel 18, § 3, punt 2, 2e lid, b, de woorden " waarbij dat voordeel niet lager mag zijn dan de huurwaarde van het onroerend goed of het gedeelte van het onroerend goed "; Opheffing : 01-01-1994>
 
-##### Afdeling VIII. - (Afdeling VIII. PC-privé-plannen. (Wetboek van de inkomstenbelastingen 1992, artikel 38, eerste lid, 17°).) <Hersteld bij KB 2003-03-25/37, art. 1, 093; Inwerkingtreding : 01-01-2003>
+### Afdeling VIII. - (Afdeling VIII. PC-privé-plannen. (Wetboek van de inkomstenbelastingen 1992, artikel 38, eerste lid, 17°).) <Hersteld bij KB 2003-03-25/37, art. 1, 093; Inwerkingtreding : 01-01-2003>
 
-## Art. 19
+##### Art. 19
 
 <Hersteld bij KB 2003-03-25/37, art. 1, 093; Inwerkingtreding : 01-01-2003> Opdat de tussenkomst van de werkgever in het kader van een PC-privé-plan in aanmerking kan komen voor de vrijstelling als bedoeld in artikel 38, eerste lid, 17°, van het Wetboek van de inkomstenbelastingen 1992, moeten de volgende voorwaarden zijn vervuld :
    1. het aanbod van de werkgever waarmee hij zich ertoe verbindt om tussen te komen in de aankoopprijs van een geheel van PC, randapparatuur en printer, internetaansluiting en internetabonnement, alsook de voor de bedrijfsvoering dienstige software, wordt beschreven in het PC-privé-plan;
@@ -362,17 +366,17 @@ De belastbare brutobezoldiging van volledig, hoofdzakelijk of bijkomend met fooi
    e) de tussenkomst door de werkgever geschiedt tegen afgifte van een door de werknemer eensluidend verklaard afschrift van de aankoopfactuur of van het aankoopbewijs op naam van de werknemer;
    f) wat de materiëlen betreft, die een werknemer voorheen in het kader van een PC-privé-plan heeft aangeschaft, moet het plan bepalen dat slechts in de loop van het derde jaar volgend op het jaar van aanschaf opnieuw mag worden ingegaan op een aanbod van de werkgever.
 
-## Art. 20
+##### Art. 20
 
 (Opgeheven) <KB 1994-08-12/48, art. 2, 006; Inwerkingtreding : 27-03-1992>
 
-## Art. 21
+##### Art. 21
 
 (Opgeheven) <KB 1994-08-12/48, art. 2, 006; Inwerkingtreding : 27-03-1992>
 
-##### Afdeling IX. - Grenzen en voorwaarden voor belastingvrijstelling van waardeverminderingen en voorzieningen voor risico's en kosten. (Wetboek van de inkomstenbelastingen 1992, artikel 48)
+### Afdeling IX. - Grenzen en voorwaarden voor belastingvrijstelling van waardeverminderingen en voorzieningen voor risico's en kosten. (Wetboek van de inkomstenbelastingen 1992, artikel 48)
 
-## Art. 22
+##### Art. 22
 
 § 1. Uit de winst van het krachtens artikel 360 van het Wetboek van de inkomstenbelastingen 1992 bepaalde belastbare tijdperk worden de bij het verstrijken van dat tijdperk geboekte waardeverminderingen gesloten, (...) onder de voorwaarden die hierna volgen : <KB 1995-12-20/33, art. 1, 1°, 021; Inwerkingtreding : 01-01-1996>
    1° de verliezen, ter bestrijding waarvan die waardeverminderingen bestemd zijn, moeten uiteraard als beroepsverliezen aftrekbaar zijn en uitsluitend betrekking hebben op niet in obligaties of andere gelijkaardige effecten op naam of aan toonder verdeelde vorderingen;
@@ -384,68 +388,68 @@ De belastbare brutobezoldiging van volledig, hoofdzakelijk of bijkomend met fooi
    § 2. (...) <KB 1995-12-20/33, art. 1, 3°, 021; Inwerkingtreding : 01-01-1996>
    § 3. (...) <KB 1995-12-20/33, art. 1, 3°, 021; Inwerkingtreding : 01-01-1996>
 
-## Art. 23
+##### Art. 23
 
 Werkelijk geleden verliezen op de vordering, waarop een overeenkomstig artikel 22 geboekte waardevermindering betrekking heeft, moeten op die waardevermindering worden aangerekend wanneer zij uit fiscaal oogpunt definitief aanneembaar worden.
    (Vrijgestelde waardeverminderingen op vorderingen die niet meer aan de in artikel 22 gestelde voorwaarden (...) beantwoorden, moeten worden teruggenomen.) <KB 1995-12-20/33, art. 2, 021; Inwerkingtreding : 01-01- 1996> <KB 1996-03-06/34, art. 3, 027; Inwerkingtreding : 01-01-1996>
 
-## Art. 24
+##### Art. 24
 
 Uit de winst van het in artikel 22 vermelde tijdperk worden eveneens de voorzieningen voor risico's en kosten gesloten die bij het verstrijken van dat tijdperk zijn aangelegd, wanneer :
   1° de kosten, ter bestrijding waarvan de voorzieningen bestemd zijn, uiteraard aftrekbaar zijn als beroepskosten en geacht worden normaal op de uitslagen van dat tijdperk te drukken;
   2° de voorzieningen voldoen aan de voorwaarden die in artikel 22, § 1, 3° en 4°, ten aanzien van waardeverminderingen gesteld zijn.
 
-## Art. 25
+##### Art. 25
 
 Voor de toepassing van artikel 24 worden geacht normaal op de uitslagen van het belastbare tijdperk te drukken, de kosten die het gevolg zijn van de in dat tijdperk uitgeoefende beroepswerkzaamheid of van alsdan voorgekomen gebeurtenissen, of die bij voorbaat gedekt zijn door tijdens hetzelfde tijdperk verkregen vergoedingen wegens schadegevallen, onteigeningen, opeisingen in eigendom of andere gelijkaardige gebeurtenissen, of die, evenredig met de duur van het belastbare tijdperk, betrekking hebben op grote herstellingen aan gebouwen, materieel en outillage die periodiek met regelmatige tussenpozen van niet meer dan 10 jaar worden uitgevoerd, met uitsluiting van enige vernieuwing.
   Worden eveneens geacht normaal op de uitslagen van het belastbare tijdperk te drukken, de kosten die, evenredig met de duur van het belastbare tijdperk, inherent zijn aan de ontmanteling van kerncentrales en aan de ontsmetting van de vestigingsplaatsen ervan.
 
-## Art. 26
+##### Art. 26
 
 De kosten waarop een overeenkomstig artikel 24 aangelegde voorziening betrekking heeft, moeten op die voorziening worden afgeboekt op het ogenblik dat zij werkelijk worden gedragen.
 
-## Art. 27
+##### Art. 27
 
 De vrijstelling van elke in de artikelen 22 tot 26 vermelde waardevermindering of voorziening blijft behouden zolang de belastingplichtige aantoont dat het verlies of de kost waaraan die waardevermindering of voorziening beantwoordt, waarschijnlijk blijft; bij gebrek aan verantwoording bij het verstrijken van enig belastbaar tijdperk wordt de waardevermindering of voorziening als een winst van dat tijdperk beschouwd.
 
-##### Afdeling X. - Forfaitaire aftrek voor uitzonderlijke beroepskosten ten gevolge van de afstand tussen de woonplaats en de plaats van tewerkstelling. (Wetboek van de inkomstenbelastingen 1992, artikel 51, vierde lid)
+### Afdeling X. - Forfaitaire aftrek voor uitzonderlijke beroepskosten ten gevolge van de afstand tussen de woonplaats en de plaats van tewerkstelling. (Wetboek van de inkomstenbelastingen 1992, artikel 51, vierde lid)
 
-## Art. 28
+##### Art. 28
 
 Het in artikel 51, vierde lid, van het Wetboek van de inkomstenbelastingen 1992 vermelde bedrag wordt vastgesteld op respectievelijk (75,00 EUR), (125,00 EUR) of (175,00 EUR), naargelang de afstand tussen de woonplaats van de belastingplichtige en de plaats van zijn tewerkstelling op 1 januari van het aanslagjaar 75 km tot 100 km, 101 km tot 125 km of meer dan 125 km bedraagt. <KB 2000-07-20/63, art. 2, 075;
  Inwerkingtreding : 01-01-2002>
 
-##### Afdeling XI. - Interesten van obligaties, leningen, schulden, deposito's en andere effecten ter vertegenwoordiging van leningen. (Wetboek van de inkomstenbelastingen 1992, artikel 55, eerste lid)
-## Art. 29
+### Afdeling XI. - Interesten van obligaties, leningen, schulden, deposito's en andere effecten ter vertegenwoordiging van leningen. (Wetboek van de inkomstenbelastingen 1992, artikel 55, eerste lid)
+##### Art. 29
 
 (Opgeheven) <KB 1993-10-22/33, art. 3; Inwerkingtreding : 01-01-1992>
 
-##### Afdeling XII. - Verantwoording van sommige beroepskosten. (Wetboek van de inkomstenbelastingen 1992, artikel 57)
+### Afdeling XII. - Verantwoording van sommige beroepskosten. (Wetboek van de inkomstenbelastingen 1992, artikel 57)
 
-## Art. 30
+##### Art. 30
 
 Op het einde van elk jaar moeten de schuldenaars van de in artikel 57, 1°, van het Wetboek van de inkomstenbelastingen 1992 vermelde kosten :
    1° voor iedere verkrijger van inkomsten een fiche invullen waarvan het model door de Minister van Financiën of zijn gedelegeerde wordt vastgesteld;
    2° voor de sub 1° vermelde fiches een samenvattende opgave opstellen en ondertekenen waarvan het model door de Minister van Financiën of zijn gedelegeerde wordt vastgesteld.
    Diezelfde schuldenaars moeten de fiches en de samenvattende opgave waarvan in het voorgaande lid sprake is, voor 30 juni van het jaar na dat waarop deze documenten betrekking hebben, inleveren (bij de bevoegde dienst). <KB 1999-05-03/39, art. 1, 053; Inwerkingtreding : 06-04-1999>
 
-## Art. 31
+##### Art. 31
 
 Op aanvraag verstrekt de administratie der directe belastingen aan de in artikel 30 vermelde schuldenaars kosteloos exemplaren voor het opstellen van de in dat artikel vermelde fiches en samenvattende opgaven.
   Voor zover zij alle vermeldingen bevatten die voorkomen in de door de Minister van Financiën of zijn gedelegeerde vastgestelde modellen, mogen fiches en samenvattende opgaven worden gebruikt waarvan het formaat niet van dat van de voormelde modellen afwijkt.
 
-## Art. 32
+##### Art. 32
 
 De individuele fiches en de samenvattende opgaven met betrekking tot de in artikel 57, 2°, van het Wetboek van de inkomstenbelastingen 1992 vermelde kosten zijn die waarvan in de artikelen 92 en 93 sprake is.
 
-## Art. 33
+##### Art. 33
 
 De in artikel 57, 3°, van het Wetboek van de inkomstenbelastingen 1992 vermelde kosten moeten worden vermeld in de daartoe voorziene rubriek van de individuele fiches en de samenvattende opgaven waarvan in artikel 32 sprake is.
 
-##### Afdeling XIII. - (Werkgeversbijdragen voor aanvullende verzekering tegen ouderdom en vroegtijdige dood (Wetboek van de inkomstenbelastingen 1992, artikel 59, tweede en vierde lid).) <KB 1995-09-01/42, art. 5;
+### Afdeling XIII. - (Werkgeversbijdragen voor aanvullende verzekering tegen ouderdom en vroegtijdige dood (Wetboek van de inkomstenbelastingen 1992, artikel 59, tweede en vierde lid).) <KB 1995-09-01/42, art. 5;
  Inwerkingtreding : 01-01-1994>
 
-## Art. 34
+##### Art. 34
 
 Voor de toepassing van (de artikelen 52, 3°, b, en 5°, en 59), van het Wetboek van de inkomstenbelastingen 1992 en van deze afdeling, wordt verstaan : <KB 1995-09-01/42, art. 6, 019;
  Inwerkingtreding : 01-01-1994>
@@ -453,7 +457,7 @@ Voor de toepassing van (de artikelen 52, 3°, b, en 5°, en 59), van het Wetboek
    2° onder laatste normale brutojaarbezoldiging : de brutojaarbezoldiging die gelet op de vorige bezoldigingen van de werknemer als normaal kan worden beschouwd en die hem betaald of toegekend werd gedurende het laatste jaar voor zijn oppensioenstelling waarin hij een normale beroepswerkzaamheid heeft gehad;
    3° onder normale duur van een beroepswerkzaamheid : 40 jaar of, voor beroepen waarvoor de betrokken werkgever en werknemer aantonen dat de volledige loopbaan minder of meer dan 40 jaar bestrijkt, het aantal jaren van die volledige loopbaan.
 
-## Art. 35
+##### Art. 35
 
 § 1. De (werkgeversbijdragen) voor aanvullende verzekering tegen ouderdom en vroegtijdige dood vermeld (in artikel 52, 3°, b,) van het Wetboek van de inkomstenbelastingen 1992, worden van de belastbare inkomsten afgetrokken zoals bepaald in dat artikel, onder de volgende voorwaarden : <KB 1995-09-01/42, art. 7,
  1°, 019; Inwerkingtreding : 01-01-1994>
@@ -510,31 +514,31 @@ Voor de toepassing van (de artikelen 52, 3°, b, en 5°, en 59), van het Wetboek
    3° werknemers die bij de onderneming een onvolledige loopbaan hebben, een pensioen toe te kennen berekend in verhouding tot een langere duur van beroepswerkzaamheid dan die welke zij bij de onderneming zullen vervullen, op voorwaarde dat die bijdragen slaan op maximaal 10 jaar van een vroeger werkelijk uitgeoefende beroepswerkzaamheid of op maximaal 5 jaar van een tot de normale pensioenleeftijd nog uit te oefenen beroepswerkzaamheid en dat het aldus in aanmerking genomen totaal aantal jaren het aantal jaren van de normale duur van hun beroepswerkzaamheid niet overtreft;
    4° een verhoging toe te staan van de uitgestelde renten binnen de grens van 2 pct. per jaar te rekenen vanaf hun aanvang, evenals van de lopende renten, zonder dat die verhoging meer bedraagt dan die welke wordt verkregen door die renten te indexeren overeenkomstig de regeling die geldt voor de indexering van de pensioenen van de overheidssector.
 
-##### Afdeling XIV. - Degressieve afschrijvingen. (Wetboek van de inkomstenbelastingen 1992, artikel 64)
+### Afdeling XIV. - Degressieve afschrijvingen. (Wetboek van de inkomstenbelastingen 1992, artikel 64)
 
-## Art. 36
+##### Art. 36
 
 Wanneer een belastingplichtige die onderworpen is aan de personenbelasting, de vennootschapsbelasting of de belasting van niet-inwoners, gekozen heeft voor het stelsel van degressieve afschrijving vermeld in artikel 64 van het Wetboek van de inkomstenbelastingen 1992, wordt het bedrag van de degressieve afschrijvingsannuiteit met betrekking tot elke groep van naar hetzelfde degressieve percent afschrijfbare vaste activa van gelijke aard, die als beroepskost aanneembaar is, bepaald :
    1° voor het belastbare tijdperk dat loopt op de datum van het verkrijgen of tot stand brengen van die vaste activa, door, ongeacht die datum, op de aanschaffings- of beleggingswaarde een percent toe te passen dat niet meer bedraagt dan tweemaal het met de normale gebruiksduur van dezelfde vaste activa overeenstemmende lineaire afschrijvingspercent;
    2° voor ieder volgend belastbaar tijdperk, door het overeenkomstig 1° vastgestelde percent toe te passen op de residuwaarde van de voormelde vaste activa, met andere woorden op de aanschaffings- of beleggingswaarde verminderd met de tot op het einde van het vorige belastbare tijdperk gedane en aangenomen afschrijvingen.
 
-## Art. 37
+##### Art. 37
 
 Voor de toepassing van artikel 36 wordt het lineaire afschrijvingspercent verkregen door het cijfer 100 te delen door het aantal jaren normale gebruiksduur van de afschrijfbare vaste activa. De lineaire afschrijvingsannuiteit is die welke tegen dat percent op de aanschaffings- of beleggingswaarde berekend is.
 
-## Art. 38
+##### Art. 38
 
 Met ingang van het belastbare tijdperk waarin de op een groep vaste activa toepasselijke degressieve afschrijvingsannuïteit de lineaire afschrijvingsannuïteit niet meer overtreft, heeft de belastingplichtige de mogelijkheid, tot wanneer de aanschaffings- of beleggingswaarde is bereikt, jaarlijks een lineaire toe te passen berekend overeenkomstig artikel 37.
 
-## Art. 39
+##### Art. 39
 
 Afschrijvingstekorten die voor enig belastbaar tijdperk betrekking hebben op een aan degressieve afschrijving onderworpen groep vaste activa, kunnen worden gecompenseerd door aanwending van voorheen belaste afschrijvingsexcedenten die op dezelfde groep vaste activa betrekking hebben.
 
-## Art. 40
+##### Art. 40
 
 Afschrijvingstekorten die tijdens de normale gebruiksduur niet zijn gecompenseerd op de in artikel 39 bepaalde wijze, kunnen na het verstrijken van die duur worden gecompenseerd door een of meer jaarlijkse afschrijvingen te doen die niet meer mogen bedragen dan de overeenkomstig artikel 37 berekende lineaire afschrijving.
 
-## Art. 41
+##### Art. 41
 
 Belastingplichtigen die het stelsel van degressieve afschrijving kiezen voor tijdens enig belastbaar tijdperk verkregen of tot stand gebrachte vaste activa, moeten die keuze aan de controle van de belastingen of aan het centraal taxatiekantoor van het ambtsgebied betekenen binnen de termijn die gesteld is voor het overleggen van de aangifte in de personenbelasting, de vennootschapsbelasting of de belasting van nietinwoners over dat tijdperk; de betekening moet bij de aangifte worden gevoegd en vergezeld gaan van een opgave waarin voor elke groep van naar hetzelfde degressieve percent afschrijfbare vaste activa van gelijke aard die tijdens gezegd tijdperk zijn verkregen of tot stand gebracht, de volgende vermeldingen moeten voorkomen :
    1° de aard van de verschillende aldus gegroepeerde vaste activa;
@@ -542,39 +546,39 @@ Belastingplichtigen die het stelsel van degressieve afschrijving kiezen voor tij
    3° hun normale vermoedelijke gebruiksduur;
    4° het degressieve afschrijvingspercent.
 
-## Art. 42
+##### Art. 42
 
 De uitgedrukte keuze is onherroepelijk ten aanzien van elke groep vaste activa die tijdens het in artikel 41 vermelde belastbare tijdperk zijn verkregen of tot stand gebracht; hetzelfde geldt met betrekking tot de groepen naar hetzelfde degressieve percent afschrijfbare vaste activa van gelijke aard, die tijdens de daaropvolgende belastbare tijdperken zijn verkregen of tot stand gebracht, behalve wanneer de belastingplichtige voor het verstrijken van een van die tijdperken aan de controle van de belastingen of aan het centraal taxatiekantoor van het ambtsgebied zijn beslissing betekent dat hij van degressieve afschrijving afziet met betrekking tot alle groepen of tot een wel bepaald gedeelte van de bedoelde groepen vaste activa die met ingang van hetzelfde tijdperk zijn verkregen of tot stand gebracht.
   Deze verzaking blijft geldig zolang de belastingplichtige geen nieuwe keuze betekent in de vorm en binnen de termijnen bepaald in artikel 41.
 
-## Art. 43
+##### Art. 43
 
 Het keuzestelsel van degressieve afschrijving is niet van toepassing op de volgende vaste activa :
    1° personenauto's, auto's voor dubbel gebruik en minibussen, zoals deze zijn omschreven in de reglementering inzake inschrijving van motorvoertuigen, behoudens wanneer het voertuigen betreft die uitsluitend worden gebruikt voor een taxidienst of voor verhuring met bestuurder en op grond daarvan van de verkeersbelasting op de autovoertuigen zijn vrijgesteld;
    2° vaste activa waarvan het gebruik aan derden is afgestaan door de belastingplichtige die de vaste activa afschrijft.
 
-##### Afdeling XIVbis. <Ingevoegd bij KB 2002-08-22/36, art. 1; Inwerkingtreding : 01-01-2003 (aanslagjaar 2003)> Beroepskosten met betrekking tot de verplaatsing tussen de woonplaats en de plaats van tewerkstelling (Wetboek van de inkomstenbelastingen 1992, artikel 66bis, tweede lid).
+### Afdeling XIVbis. <Ingevoegd bij KB 2002-08-22/36, art. 1; Inwerkingtreding : 01-01-2003 (aanslagjaar 2003)> Beroepskosten met betrekking tot de verplaatsing tussen de woonplaats en de plaats van tewerkstelling (Wetboek van de inkomstenbelastingen 1992, artikel 66bis, tweede lid).
 
-## Art. 43.1
+##### Art. 43.1
 
 <Ingevoegd bij KB 2002-08-22/36, art. 1; Inwerkingtreding : 01-01-2003 (aanslagjaar 2003)> Voor de toepassing van artikel 66bis van het Wetboek van de inkomstenbelastingen 1992 wordt de grens van 25 kilometer verhoogd tot 50 kilometer.
 
-##### Afdeling XV. - (Vrijstelling voor bijkomend personeel dat voor wetenschappelijk onderzoek, technologisch potentieel, uitvoer en integrale kwaliteitszorg wordt tewerkgesteld in België (Wetboek van de inkomstenbelastingen 1992, artikel 67, § 5);) <KB 1999-06-09/46, art. 1, 055; Inwerkingtreding : 01-01-1997>
+### Afdeling XV. - (Vrijstelling voor bijkomend personeel dat voor wetenschappelijk onderzoek, technologisch potentieel, uitvoer en integrale kwaliteitszorg wordt tewerkgesteld in België (Wetboek van de inkomstenbelastingen 1992, artikel 67, § 5);) <KB 1999-06-09/46, art. 1, 055; Inwerkingtreding : 01-01-1997>
 
-## Art. 44
+##### Art. 44
 
 <KB 1999-06-09/46, art. 2, 055; Inwerkingtreding : 01-01-1997> § 1. Onder hooggekwalificeerd onderzoeker moet worden verstaan ieder persoon die wordt tewerkgesteld voor wetenschappelijk onderzoek in de zin van artikel 67 van het Wetboek van de inkomstenbelastingen 1992 en die bovendien : - houder is van een diploma van doctor, bekomen na de openbare verdediging van een verhandeling, of van geaggregeerde van het hoger onderwijs;
   - en een totale anciënniteit van minstens 10 jaar kan rechtvaardigen, hetzij als persoon tewerkgesteld voor wetenschappelijk onderzoek in de zin van artikel 67 van voormeld Wetboek, hetzij in de zin van de wetenschappelijke anciënniteit vastgelegd in het koninklijk besluit van 21 april 1965 tot vaststelling van het statuut van het wetenschappelijk personeel der wetenschappelijke inrichtingen van de Staat.
   § 2. De hooggekwalificeerd onderzoeker zoals bepaald in § 1, moet voltijds worden tewerkgesteld voor onderzoek en experimentele ontwikkeling.
   Onder onderzoek en experimentele ontwikkeling verstaat men, creatief werk ondernomen op een systematische wijze met het doel de kennisvoorraad te verhogen en de aanwending van deze kennisvoorraad om nieuwe toepassingen te bedenken zoals de ontwikkeling van nieuwe produkten en procédés. Worden eveneens bedoeld, de bouw, de ontwikkeling en het testen van een prototype alsmede softwareontwikkeling voor zover het wetenschappelijke en technologische vooruitgang omvat.
 
-## Art. 45
+##### Art. 45
 
 <AR 1999-06-09/47, art. 1, 056; Inwerkingtreding : 01-01-1997> § 1. Voor de toepassing van artikel 67, § 1, 1° en 2° van het Wetboek van de inkomstenbelastingen 1992, worden de leden van het administratief personeel die niet rechtstreeks te maken hebben met opzoekingswerkzaamheden of de uitbouw van het technologisch potentieel van de onderneming, en van het toezichts-, onderhouds- en keukenpersoneel niet in aanmerking genomen.
    § 2. Met betrekking tot het personeel dat wordt overgenomen naar aanleiding van verrichtingen als vermeld in de artikelen 46, § 1, eerste lid, 1° en 2°, 211, § 1 en 214, § 1, eerste lid, van hetzelfde Wetboek, zijn de bepalingen van artikel 67 van voormeld Wetboek, van toepassing bij de nieuwe belastingplichtige of overnemende, verkrijgende of uit de omzetting ontstane vennootschappen, alsof die verrichtingen niet hadden plaatsgevonden.
    § 3. Er wordt voor de toepassing van artikel 67, § 1 van hetzelfde Wetboek, geen rekening gehouden met de tewerkstelling die het gevolg is van een overname van personeelsleden die voorheen waren tewerkgesteld door een belastingplichtige hetzij waarmee de onderneming zich rechtstreeks of onrechtstreeks in enigerlei band van wederzijdse afhankelijkheid bevindt, hetzij waarvan zij de beroepswerkzaamheid geheel of gedeeltelijk voortzet ingevolge een gebeurtenis die niet bedoeld is in § 2.
 
-## Art. 46
+##### Art. 46
 
 <KB 1999-06-09/47, art. 2, 056; Inwerkingtreding : 01-01-1997> § 1. Voor elk van de belastbare tijdperken waarvoor de toekenning of het behoud van de vrijstelling wordt gevraagd, moeten de belastingplichtigen aan hun aangifte in de inkomstenbelastingen, per soort van vrijstelling, een nominatieve opgave toevoegen, waarvan het model door de Minister van Financiën of zijn gedelegeerde wordt vastgelegd.
    § 2. Met betrekking tot het personeelsbestand dat voor het wetenschappelijk onderzoek wordt tewerkgesteld en het personeelsbestand dat voor de uitbouw van het technologisch potentieel van de onderneming wordt tewerkgesteld, moeten de belastingplichtigen eveneens, voor elk van de belastbare tijdperken waarvoor de toekenning of het behoud van de vrijstelling wordt gevraagd, aan hun aangifte in de inkomstenbelastingen een attest op naam toevoegen van de Federale Diensten voor Wetenschappelijke, Technische en Culturele Aangelegenheden.
@@ -585,9 +589,9 @@ Het keuzestelsel van degressieve afschrijving is niet van toepassing op de volge
    § 5. De in §§ 2 tot 4 bedoelde attesten, moeten bij de bevoegde Minister of dienst op straffe van verval worden aangevraagd binnen de drie maanden te rekenen vanaf de laatste dag van het belastbare tijdperk. De belastingplichtigen moeten deze attesten voorleggen, hetzij tot staving van hun aangifte in de inkomstenbelastingen, hetzij, zo dit niet mogelijk is, binnen een termijn van een maand te rekenen vanaf de datum van verzending van deze attesten.
    (NOTA : De termijn voorzien in § 5 voor het aanvragen van de attesten loopt ten vroegste vanaf 08-07-1999, zie KB 1999-06-09/47, art. 3, § 2.)
 
-##### Afdeling XVI. - Investeringsaftrek. ((Wetboek van de inkomstenbelastingen 1992, artikelen 69, § 2, 3e lid en 77)) <KB 2000-09-21/33, art. 1, 068; Inwerkingtreding : 01-01-1999>
+### Afdeling XVI. - Investeringsaftrek. ((Wetboek van de inkomstenbelastingen 1992, artikelen 69, § 2, 3e lid en 77)) <KB 2000-09-21/33, art. 1, 068; Inwerkingtreding : 01-01-1999>
 
-## Art. 47
+##### Art. 47
 
 Om de in de artikelen 68 tot 70 van het Wetboek van de inkomstenbelastingen 1992 vermelde investeringsaftrek te kunnen genieten moeten de belastingplichtigen bij hun aangifte in de inkomstenbelastingen van het belastbare tijdperk waarin de vaste activa zijn aangeschaft of tot stand gebracht :
    1° een ingevuld, gedateerd en ondertekend formulier voegen, waarvan het model door de Minister van Financiën of zijn gedelegeerde wordt vastgelegd;
@@ -597,14 +601,14 @@ Om de in de artikelen 68 tot 70 van het Wetboek van de inkomstenbelastingen 1992
    c) de aanschaffings- of beleggingswaarde;
    d) de normale gebruiksduur en de afschrijvingsduur.
 
-## Art. 47bis
+##### Art. 47bis
 
 <Ingevoegd bij KB 1996-01-31/34, art. 1; Inwerkingtreding : 01-01-1997> Wat (de in artikel 69, § 1, eerste lid, 2°,) van het Wetboek van de inkomstenbelastingen 1992 vermelde octrooien betreft, dienen de belanghebbende belastingplichtigen de in artikel 47 vermelde stukken te staven door : <KB 2000-09-21/33, art.
  2, 068; Inwerkingtreding : 01-01-1999>
   1° een afschrift van het contract op grond waarvan de onderneming het octrooi of het recht tot exploitatie ervan heeft aangeschaft;
   2° het bewijs dat het octrooi of het recht tot exploitatie ervan nooit door een onderneming voor het uitoefenen van haar beroepswerkzaamheid in België is gebruikt.
 
-## Art. 48
+##### Art. 48
 
 § 1. Voor de toepassing (van artikel 69, § 1, eerste lid, 2°,) van het Wetboek van de inkomstenbelastingen 1992 worden beschouwd als gebruikt ter bevordering van het onderzoek en de ontwikkeling van nieuwe produkten en van toekomstgerichte technologieën : <KB 2000-09-21/33, art. 3, 068;
  Inwerkingtreding : 01-01-1999>
@@ -664,7 +668,7 @@ Om de in de artikelen 68 tot 70 van het Wetboek van de inkomstenbelastingen 1992
   d) de gedetailleerde berekening van het gedeelte van de materiële vaste activa dat overeenkomstig § 1, B, tweede lid, uit de berekeningsgrondslag van de investeringsaftrek moet worden gesloten.
   5° een attest van de bevoegde Gewestexecutieve waaruit blijkt dat de nieuwe produkten en toekomstgerichte technologieën die resulteren uit het onderzoek en de ontwikkeling waarvoor de desbetreffende vaste activa worden gebruikt, geen effect hebben op het leefmilieu of het negatieve effect op het leefmilieu zoveel mogelijk beogen te beperken.
 
-## Art. 49
+##### Art. 49
 
 § 1. Vaste activa (als vermeld in artikel 69, § 1, eerste lid, 2°,) van het Wetboek van de inkomstenbelastingen 1992 die dienen voor een rationeler energieverbruik, voor de verbetering van de industriële processen uit energetische overwegingen en voor de terugwinning van energie in de industrie, zijn de vaste activa die, blijkens een attest van de Executieve van het Gewest waar de investering plaatsvindt, behoren tot de vaste activa waarvan de lijst voorkomt in bijlage II. <KB 2000-09-21/33, art. 4, 068; Inwerkingtreding : 01-01- 1999>
    § 2. Het attest moet door de belastingplichtige worden gevraagd :
@@ -673,7 +677,7 @@ Om de in de artikelen 68 tot 70 van het Wetboek van de inkomstenbelastingen 1992
    Wanneer de belastingplichtige vaste activa heeft aangeschaft of tot stand gebracht die onder verschillende in bijlage II vermelde categorieën vallen, moet hij, per categorie een formulier indienen.
    § 3. De belanghebbende belastingplichtigen moeten het in § 1 vermelde attest voorleggen, hetzij tot staving van de in artikel 47 vermelde stukken, hetzij, zo dit niet mogelijk is, binnen een termijn van maximaal 30 dagen te rekenen vanaf de dag waarop het attest is uitgereikt.
 
-## Art. 49bis
+##### Art. 49bis
 
 <Ingevoegd bij KB 2000-09-21/33, art. 5, 068; Inwerkingtreding : 01-01-1999> § 1. Voor de toepassing van artikel 69, § 2, eerste lid, van het Wetboek van de inkomstenbelastingen 1992, moet onder productieproces worden verstaan het geheel van verrichtingen dat uitsluitend dient om een productiesysteem te installeren, te vervangen, te verbeteren of in stand te houden.
    § 2. De in artikel 69, § 2, eerste lid, van hetzelfde Wetboek, beoogde materiële vaste activa die uitsluitend bestemd zijn voor het verzekeren van het productieproces van herbruikbare verpakkingen van dranken en nijverheidsproducten, zoals vermeld in boek III " Milieutaksen " van de gewone wet van 16 juli 1993 tot vervollediging van de federale staatsstructuur en de in artikel 69, § 2, tweede lid, van hetzelfde Wetboek, beoogde materiële vaste activa die uitsluitend bestemd zijn voor het verzekeren van de terugname in de verkooppunten, de tussentijdse stockage, de verzending naar de afvuller of een distributiecentrale met het oog op de verdere sortering en reiniging en de sortering en reiniging met het oog op de terugzending naar de respectievelijke afvullers van de herbruikbare verpakkingen, zijn :
@@ -682,23 +686,23 @@ Om de in de artikelen 68 tot 70 van het Wetboek van de inkomstenbelastingen 1992
    - de specifieke behandelingen van de beoogde dranken en nijverheidsproducten voor en/of na de vulling in een herbruikbare verpakking;
    2° de investeringen in herbruikbare verpakkingen, zowel primaire, als secundaire en tertiaire, en de matrijzen en de specifieke machines voor de productie ervan, alsook de aanvullende bouwwerken, installaties en werktuigen voor goederenbehandeling die uitsluitend bestemd zijn en worden gebruikt voor de opslag van herbruikbare verpakkingen.
 
-##### Afdeling XVII. - (...) <KB 1995-09-01/42, art. 8, 019; Inwerkingtreding : 01-01-1993>
+### Afdeling XVII. - (...) <KB 1995-09-01/42, art. 8, 019; Inwerkingtreding : 01-01-1993>
 
-## Art. 50
-
-(Opgeheven) <KB 1995-09-01/42, art. 8, 019; Inwerkingtreding : 01-01-1993>
-
-## Art. 51
+##### Art. 50
 
 (Opgeheven) <KB 1995-09-01/42, art. 8, 019; Inwerkingtreding : 01-01-1993>
 
-## Art. 52
+##### Art. 51
 
 (Opgeheven) <KB 1995-09-01/42, art. 8, 019; Inwerkingtreding : 01-01-1993>
 
-##### Afdeling XVIII. - Belastingvrijstelling van prijzen en subsidies betaald of toegekend aan geleerden, schrijvers of kunstenaars. (Wetboek van de inkomstenbelastingen 1992, artikel 90, 2°, tweede lid)
+##### Art. 52
 
-## Art. 53
+(Opgeheven) <KB 1995-09-01/42, art. 8, 019; Inwerkingtreding : 01-01-1993>
+
+### Afdeling XVIII. - Belastingvrijstelling van prijzen en subsidies betaald of toegekend aan geleerden, schrijvers of kunstenaars. (Wetboek van de inkomstenbelastingen 1992, artikel 90, 2°, tweede lid)
+
+##### Art. 53
 
 § 1. Zijn vrijgesteld bij toepassing van artikel 90, 2°, tweede lid, van het Wetboek van de inkomstenbelastingen 1992, de prijzen en subsidies die aan alle hierna vermelde voorwaarden voldoen :
    1° uitzonderlijke verdiensten belonen of uitzonderlijke inspanningen mogelijk maken op het stuk van het wetenschappelijk onderzoek, de kunsten of de letteren;
@@ -738,9 +742,9 @@ Om de in de artikelen 68 tot 70 van het Wetboek van de inkomstenbelastingen 1992
  Inwerkingtreding : 01-01-1997>
    (- de Fondation Philippe Wiener - Maurice Anspach.) <KB 2001-09-05/52, art. 1, 082; Inwerkingtreding : 08-10- 2001> (- de wetenschappelijke Stichting van het Universitair Kinderziekenhuis Koningin Fabiola.) <KB 2002-06-26/43, art. 1; Inwerkingtreding : 01-01-1998>) (- de Belgische Federatie tegen Kanker.) <KB 2003-03-10/32, art. 1; Inwerkingtreding : 01-01-1999>
 
-##### Afdeling XIX. - (Meerwaarden op onroerende goederen. (Wetboek van de inkomstenbelastingen 1992, artikel 101, § 3)) <KB 1997-05-20/39, art. 2; Inwerkingtreding : 01-01-1997>
+### Afdeling XIX. - (Meerwaarden op onroerende goederen. (Wetboek van de inkomstenbelastingen 1992, artikel 101, § 3)) <KB 1997-05-20/39, art. 2; Inwerkingtreding : 01-01-1997>
 
-## Art. 54
+##### Art. 54
 
 § 1. (In gevallen als vermeld in artikel 101, § 3, van het Wetboek van de inkomstenbelastingen 1992 en onverminderd §§ 1 en 2 van dat artikel, wordt de meerwaarde die ter gelegenheid van een overdracht onder bezwarende titel is verwezenlijkt op in België gelegen onroerende goederen of op zakelijke rechten met betrekking tot die onroerende goederen, vastgesteld met inachtneming van volgende bepalingen.) <KB 1997-05- 20/39, art. 3, 1°, 039; Inwerkingtreding : 01-01-1997>
    § 2. Bij overdracht van de blote eigendom zonder voorbehoud van vruchtgebruik, van het vruchtgebruik of van het recht van gebruik van een goed, is de eerste grootheid van het verschil, dat moet worden berekend om de meerwaarde te bepalen, de prijs waartegen het recht is overgedragen, of, indien die hoger is, de verkoopwaarde die tot maatstaf van heffing (van het registratierecht of de BTW) heeft gediend. Bij overdracht van de blote eigendom met voorbehoud van vruchtgebruik door de overdrager, is de eerste grootheid van het verschil de prijs van overdracht of, indien die hoger is, de verkoopwaarde van de volle eigendom die tot maatstaf van heffing (van het registratierecht of de BTW) heeft gediend, verminderd met de waarde van het vruchtgebruik berekend overeenkomstig artikel 47 van het Wetboek der Registratierechten. <KB 1997-05-20/39, art. 3, 2°, 039;
@@ -766,11 +770,11 @@ Om de in de artikelen 68 tot 70 van het Wetboek van de inkomstenbelastingen 1992
    § 8. Bij overdracht van goederen die voorheen zijn verkregen ter gelegenheid van de ontbinding of de verdeling van het maatschappelijk vermogen van een vennootschap, is de tweede grootheid van het verschil gelijk aan de waarde waarvoor die goederen hebben bijgedragen tot de vaststelling van de bedragen die bij de ontbinding of bij de verdeling van het maatschappelijk vermogen van voormelde vennootschap aan de aandeelhouders of vennoten werden uitgekeerd, of indien die hoger was, de verkoopwaarde van die goederen die naar aanleiding van die gebeurtenis gediend heeft tot maatstaf van heffing van het registratierecht (of de BTW). <KB 1997-05- 20/39, art. 3, 9°, 039; Inwerkingtreding : 01-01-1997>
    § 9. In gevallen als vermeld in dit artikel wordt de meerwaarde bepaald met inachtneming van de kosten en uitgaven, van de verhoging met 5 pct. per jaar en (van de vergoedingen) die vermeld zijn in (artikel 101, §§ 1 en 2), van het Wetboek van de inkomstenbelastingen 1992. <KB 1997-05-20/39, art. 3, 10°, 039; Inwerkingtreding : 01-01-1997> In gevallen als vermeld in § 5, tweede lid, wordt die verhoging met 5 pct. per jaar toegepast door, enerzijds, de verkrijging van de onverdeelde delen, en, anderzijds, de verdeling, afzonderlijk in beschouwing te nemen.
 
-##### Afdeling XX. - Aftrek van uitgaven voor onderhoud en restauratie van beschermde onroerende goederen.
+### Afdeling XX. - Aftrek van uitgaven voor onderhoud en restauratie van beschermde onroerende goederen.
  (Wetboek van de inkomstenbelastingen 1992, (artikel 104,) 8°) <KB 2000-10-16/32, art. 1, 069;
  Inwerkingtreding : 09-11-2000>
 
-## Art. 55
+##### Art. 55
 
 § 1. Voor de toepassing van (artikel 104,) 8°, van het Wetboek van de inkomstenbelastingen 1992 : <KB 2000-10-16/32, art. 2, 069; Inwerkingtreding : 09-11-2000>
   1° worden beschouwd als uitgaven voor onderhoud en restauratie van beschermde gebouwde onroerende goederen, delen van gebouwde onroerende goederen of landschappen, de uitgaven die, met voorafgaand gunstig advies van de bevoegde Executieve betreffende de aard van de werken, gedaan zijn om die goederen of delen ervan in stand te houden of in hun vroegere staat te herstellen of om ze te valoriseren op historisch, artistiek, wetenschappelijk of esthetisch vlak of om ze voor het publiek toegankelijk te maken;
@@ -781,15 +785,15 @@ Om de in de artikelen 68 tot 70 van het Wetboek van de inkomstenbelastingen 1992
   c) een verklaring op eer vermeldend of voor de onderhouds- of restauratiewerken subsidies zijn toegezegd, toegekend of betaald en, in bevestigend geval, het bedrag ervan.
   § 3. (...) <KB 1994-08-12/48, art. 3, 006; Inwerkingtreding : 01-01-1992>
 
-##### Afdeling XXI. - Aanrekening van de van het totale netto-inkomen aftrekbare bestedingen. (Wetboek van de inkomstenbelastingen 1992, artikel 106)
+### Afdeling XXI. - Aanrekening van de van het totale netto-inkomen aftrekbare bestedingen. (Wetboek van de inkomstenbelastingen 1992, artikel 106)
 
-## Art. 56
+##### Art. 56
 
 De krachtens artikel 104 van het Wetboek van de inkomstenbelastingen 1992 van het totale nettoinkomen aftrekbare bestedingen worden evenredig aangerekend op de verschillende inkomstencategorieën.
 
-##### Afdeling XXII. - (Instellingen die giften ontvangen. (Wetboek van de inkomstenbelastingen 1992, artikelen 108 en 110)) <KB 2001-03-04/30, art. 1; Inwerkingtreding : 24-03-2001>
+### Afdeling XXII. - (Instellingen die giften ontvangen. (Wetboek van de inkomstenbelastingen 1992, artikelen 108 en 110)) <KB 2001-03-04/30, art. 1; Inwerkingtreding : 24-03-2001>
 
-## Art. 57
+##### Art. 57
 
 § 1. Voor de toepassing van (artikel 104,) 3°, b en e, en 4°, van het Wetboek van de inkomstenbelastingen 1992, kunnen worden erkend de instellingen voor wetenschappelijk onderzoek, de instellingen die oorlogsslachtoffers, minder-validen, bejaarden, beschermde minderjarigen of behoeftigen bijstaan, en de instellingen voor hulpverlening aan ontwikkelingslanden, op voorwaarde : <KB 2000-10-16/32, art.
  3, 069; Inwerkingtreding : 09-11-2000>
@@ -819,7 +823,7 @@ De krachtens artikel 104 van het Wetboek van de inkomstenbelastingen 1992 van he
    - of nog de aanvraag om erkenning niet voorafgaat aan de hulpverlening.
    In die gevallen moet de aanvraag om erkenning uiterlijk 6 maanden na de aanvang van de hulpverlening worden ingediend en wordt de erkenning beperkt (tot een maximumduur van) 3 opeenvolgende kalenderjaren. <KB 2000-10-16/32, art. 3, 069; Inwerkingtreding : 09-11-2000>
 
-## Art. 58
+##### Art. 58
 
 § 1. Voor de toepassing van (artikel 104,) 3°, d, van het Wetboek van de inkomstenbelastingen 1992, kunnen worden erkend de culturele instellingen die aan de volgende voorwaarden voldoen : <KB 2000-10-16/32, art. 4, 069; Inwerkingtreding : 09-11-2000>
    1° rechtspersoonlijkheid bezitten krachtens het Belgisch publiekrecht of privaatrecht;
@@ -854,7 +858,7 @@ De krachtens artikel 104 van het Wetboek van de inkomstenbelastingen 1992 van he
   § 7. (...) <KB 2000-10-16/32, art. 4, 069; Inwerkingtreding : 01-01-1999>
   § 8. Ingeval een instelling één van de voor haar erkenning gestelde voorwaarden niet nakomt, kan haar erkenning op voorstel van de Minister van Financiën door de Koning worden ingetrokken (...). <KB 2000-10- 16/32, art. 4, 069; Inwerkingtreding : 01-01-1999> Het besluit waarbij de erkenning wordt ingetrokken, heeft uitwerking met ingang van 1 januari volgend op de bekendmaking ervan in het Belgisch Staatsblad.
 
-## Art. 59
+##### Art. 59
 
 § 1. Voor de toepassing van (artikel 104,) 3°, g, van het Wetboek van de inkomstenbelastingen 1992, kunnen worden erkend de instellingen opgericht voor hulpverlening aan slachtoffers van rampen die de toepassing rechtvaardigen van de wet betreffende het herstel van schade veroorzaakt aan private goederen door natuurrampen, op voorwaarde : <KB 2000-10-16/32, art. 5, 069; Inwerkingtreding : 09-11-2000>
    1° dat zij rechtspersoonlijkheid bezitten krachtens het Belgisch publiekrecht of privaatrecht;
@@ -876,7 +880,7 @@ De krachtens artikel 104 van het Wetboek van de inkomstenbelastingen 1992 van he
    § 6. Ingeval een instelling één van de voor haar erkenning gestelde voorwaarden niet nakomt, kan haar erkenning ambtshalve worden ingetrokken of geweigerd door een beslissing van de Minister van Financiën.
    De intrekking van de erkenning treedt in werking vanaf de 1e januari die volgt op de datum van betekening van de beslissing.
 
-## Art. 59bis
+##### Art. 59bis
 
 <ingevoegd bij KB 1998-10-29/37, art. 1; Inwerkingtreding : 1996-06-14> § 1. Voor de toepassing van artikel 104, 3°, i, van het Wetboek van de inkomstenbelastingen 1992, kunnen worden erkend de instellingen die zich bezighouden met het natuurbehoud of de bescherming van het leefmilieu, op voorwaarde :
   1° dat zij rechtspersoonlijkheid bezitten krachtens het Belgisch publiekrecht of privaatrecht;
@@ -903,7 +907,7 @@ De krachtens artikel 104 van het Wetboek van de inkomstenbelastingen 1992 van he
    § 6. Ingeval een instelling één van de voor haar erkenning gestelde voorwaarden niet nakomt, kan haar erkenning ambtshalve worden ingetrokken of geweigerd door een gezamenlijke beslissing van de Minister van Financiën en van de Minister tot wiens bevoegdheid het leefmilieu behoort.
    De intrekking van de erkenning treedt in werking vanaf de lste januari die volgt op de datum van de betekening van de beslissing.
 
-## Art. 59ter
+##### Art. 59ter
 
 (oude artikel 59bis) <KB 1998-10-29/37, art. 1; Inwerkingtreding : 1996-06-14> <Ingevoegd bij KB 1996-01-09/30, art. 1; Inwerkingtreding : 10-04-1995> § 1. Voor de toepassing van artikel 104, 4°bis, van het Wetboek van de inkomstenbelastingen 1992, kunnen worden erkend de instellingen die hulp verlenen aan slachtoffers van zeer grote industriële ongevallen, op voorwaarde :
    1° dat zij rechtspersoonlijkheid bezitten krachtens het Belgisch publiekrecht of privaatrecht;
@@ -926,7 +930,7 @@ De krachtens artikel 104 van het Wetboek van de inkomstenbelastingen 1992 van he
    § 6. Ingeval een instelling één van de voor haar erkenning gestelde voorwaarden niet nakomt, kan haar erkenning ambtshalve worden ingetrokken of geweigerd door een gezamenlijke beslissing van de Minister van Financiën en de Minister van Buitenlandse Zaken.
    De intrekking van de erkenning treedt in werking vanaf de 1e januari die volgt op de datum van betekening van de beslissing.
 
-## Art. 59quater
+##### Art. 59quater
 
 (Ingevoegd bij KB 2001-03-04/30, art. 2; Inwerkingtreding : 01-01-1997.) § 1. Voor de toepassing van artikel 104, 3°, j, van het Wetboek van de inkomstenbelastingen 1992, zoals ingevoegd bij de wet van 22 december 1998 houdende fiscale en andere bepalingen kunnen worden erkend de instellingen die het behoud of de zorg voor monumenten en landschappen ten doel hebben en die aan de volgende voorwaarden voldoen :
    1° rechtspersoonlijkheid bezitten krachtens het Belgisch publiekrecht of privaatrecht;
@@ -951,7 +955,7 @@ De krachtens artikel 104 van het Wetboek van de inkomstenbelastingen 1992 van he
    § 7. Ingeval een instelling één van de voor haar erkenning gestelde voorwaarden niet nakomt, kan haar erkenning op voorstel van de Minister van Financiën door de Koning worden ingetrokken.
   Het besluit waarbij de erkenning wordt ingetrokken, heeft uitwerking met ingang van 1 januari volgend op de bekendmaking ervan in het Belgisch Staatsblad.
 
-## Art. 59quinquies
+##### Art. 59quinquies
 
 (Ingevoegd bij KB 2001-03-04/30, art. 3; Inwerkingtreding : 01-01-2000) § 1. Voor de toepassing van artikel 104, 3°, j, van het Wetboek van de inkomstenbelastingen 1992, zoals ingevoegd door de wet van 21 april 1999 tot wijziging van artikel 104 van hetzelfde Wetboek teneinde de giften in geld aan erkende dierenasielen fiscaal aftrekbaar te maken, moeten de werkzaamheden van de VZW rechtstreeks en uitsluitend gericht zijn op het beheer van dierenasielen zoals gedefinieerd door het koninklijk besluit van 17 februari 1997 houdende de erkenningsvoorwaarden voor hondenkwekerijen, kattenkwekerijen, dierenasielen, dierenpensions en handelszaken voor dieren, en de voorwaarden inzake de verhandeling van dieren.
    § 2. Teneinde de machtiging te verkrijgen om voor een periode van ten hoogste zes opeenvolgende kalenderjaren ontvangstbewijzen uit te reiken die recht geven op de aftrek van de giften die zijn gedaan aan de in
@@ -970,39 +974,39 @@ De krachtens artikel 104 van het Wetboek van de inkomstenbelastingen 1992 van he
    § 6. Ingeval een VZW de voor haar machtiging gestelde voorwaarden niet nakomt, kan haar machtiging ambtshalve worden ingetrokken of geweigerd door een beslissing van de Minister van Financiën.
    De intrekking van de machtiging treedt in werking vanaf de 1 januari die volgt op de datum van betekening van de beslissing.
 
-## Art. 60
+##### Art. 60
 
 <KB 1994-01-20/37, art. 1, 002; Inwerkingtreding : 01-01-1994> De Minister van Financiën of zijn gedelegeerde kan vergunning verlenen om de in de artikelen 57, § 4, 2°, b, 58, § 4, 2°, b, (, 59, § 4, 2°, b en 59bis, § 4, 2°, b en 59ter, § 4, 2°, b, 59quater, § 4, 2°, b, en 59quinquies, § 4, 3°, b,) vermelde afschriften van de uitgereikte ontvangstbewijzen evenals de verzamelstaat of het verzamelattest daarvan te vervangen door een magnetische informatiedrager. <KB 2001-03-04/30, art. 4, 080; Inwerkingtreding : 24-03-2001> De vergunning vermeldt de na te leven voorwaarden en kan steeds worden ingetrokken.
 
-##### Afdeling XXIII. - Aftrek van uitgaven voor kinderoppas. (Wetboek van de inkomstenbelastingen 1992, artikel 113, § 2)
+### Afdeling XXIII. - Aftrek van uitgaven voor kinderoppas. (Wetboek van de inkomstenbelastingen 1992, artikel 113, § 2)
 
-## Art. 61
+##### Art. 61
 
 Het hoogst aftrekbare bedrag van de uitgaven voor kinderoppas vermeld in artikel 113, § 1, van het Wetboek van de inkomstenbelastingen 1992, is, na de toepassing van de door (artikel 104, 7°), van hetzelfde Wetboek ingestelde beperking tot 80 pct., bepaald (op (11,20 EUR) per oppasdag en kind). <KB 2000-01-27/30, art. 1, 060; Inwerkingtreding : 01-01-1999> <KB 2000-07-20/63, art. 2, 075; Inwerkingtreding : 01-01-2002>
 
-##### Afdeling XXIV. - Aftrek van interest van hypothecaire leningen aangegaan voor het vernieuwen van een woning.
+### Afdeling XXIV. - Aftrek van interest van hypothecaire leningen aangegaan voor het vernieuwen van een woning.
  (Wetboek van de inkomstenbelastingen 1992, artikel 115, 2°, b)
 
-## Art. 62
+##### Art. 62
 
 De in artikel 115, 2°, b, van het Wetboek van de inkomstenbelastingen 1992 vermelde dienstverrichtingen zijn deze vermeld in rubriek XXXI van tabel A van de bijlage bij het koninklijk besluit nr. 20 van 20 juli 1970 tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven, (...). <KB 1994-08-12/48, art. 4, 006; Inwerkingtreding : 20-09-1994>
-##### Afdeling XXV. - Aanrekening van de verliezen van één van de echtgenoot op de inkomsten van de andere echtgenoot. (Wetboek van de inkomstenbelastingen 1992, artikel 129)
+### Afdeling XXV. - Aanrekening van de verliezen van één van de echtgenoot op de inkomsten van de andere echtgenoot. (Wetboek van de inkomstenbelastingen 1992, artikel 129)
 
-## Art. 63
+##### Art. 63
 
 § 1. Het door één van de echtgenoten tijdens het belastbare tijdperk of tijdens een vorig belastbaar tijdperk geleden beroepsverlies, dat krachtens artikel 129 van het Wetboek van de inkomstenbelastingen 1992 geheel of gedeeltelijk op de beroepsinkomsten van de andere echtgenoot kan worden aangerekend, wordt evenredig afgetrokken van de overeenkomstig artikel 23 van hetzelfde Wetboek vastgestelde beroepsinkomsten uit de verschillende beroepswerkzaamheden van deze echtgenoot, die gezamenlijk worden belast of die overeenkomstig artikel 155 van hetzelfde Wetboek zijn vrijgesteld krachtens internationale overeenkomsten ter voorkoming van dubbele belasting; het eventuele saldo wordt evenredig aangerekend op de beroepsinkomsten die afzonderlijk worden belast.
    § 2. De aanrekening van de respectievelijk (in de §§ 1, 2 en 3) van artikel 103 van hetzelfde Wetboek vermelde verliezen op de diverse inkomsten van de andere echtgenoot, gebeurt evenredig binnen de in dat artikel gestelde grenzen. <KB 1997-05-20/39, art. 4, 039; Inwerkingtreding : 01-01-1997>
 
-##### Afdeling XXVbis. - (Persoonlijke bijdragen voor aanvullende verzekering tegen ouderdom en vroegtijdige dood (Wetboek van de inkomstenbelastingen 1992, artikel 145.3, derde lid).) <Ingevoegd bij KB 1995-09-01/42, art. 9;
+### Afdeling XXVbis. - (Persoonlijke bijdragen voor aanvullende verzekering tegen ouderdom en vroegtijdige dood (Wetboek van de inkomstenbelastingen 1992, artikel 145.3, derde lid).) <Ingevoegd bij KB 1995-09-01/42, art. 9;
  Inwerkingtreding : 01-01-1994>
 
-## Art. 63.1
+##### Art. 63.1
 
 <Ingevoegd bij KB 1995-09-01/42, art. 9; Inwerkingtreding : 01-01-1994> De persoonlijke bijdragen voor aanvullende verzekering tegen ouderdom en vroegtijdige dood bedoeld in artikel 145/3, van het Wetboek van de inkomstenbelastingen 1992 worden voor de vermindering van het lange termijnsparen in aanmerking genomen overeenkomstig de bepalingen van de artikelen 34 en 35.
 
-##### Afdeling XXVter. - (Voorwaarden en wijze waarop de vermindering voor het lange termijnsparen wordt toegepast met betrekking tot premies van individuele levensverzekeringen en betalingen voor de aflossing of wedersamenstelling van hypotheekleningen (Wetboek van de inkomstenbelastingen 1992, artikel 145.6, derde lid).) <Ingevoegd bij KB 1995-09-01/42, art. 10; Inwerkingtreding : 01-01-1993>
+### Afdeling XXVter. - (Voorwaarden en wijze waarop de vermindering voor het lange termijnsparen wordt toegepast met betrekking tot premies van individuele levensverzekeringen en betalingen voor de aflossing of wedersamenstelling van hypotheekleningen (Wetboek van de inkomstenbelastingen 1992, artikel 145.6, derde lid).) <Ingevoegd bij KB 1995-09-01/42, art. 10; Inwerkingtreding : 01-01-1993>
 
-## Art. 63.2
+##### Art. 63.2
 
 <Ingevoegd bij KB 1995-09-01/42, art. 10; Inwerkingtreding : 01-01-1993> Eenmalige premies of termijnpremies die de belastingplichtige heeft betaald ter uitvoering van levensverzekeringscontracten die hij individueel heeft gesloten, worden, binnen de grenzen gesteld in de artikelen 145/4 en 145/6, eerste lid, van het Wetboek van de inkomstenbelastingen 1992, slechts in aanmerking genomen voor de vermindering voor het lange termijnsparen indien :
    1° de contracten zijn onderschreven bij Belgische ondernemingen of Belgische inrichtingen van buitenlandse ondernemingen die verbintenissen aangaan waarvan de uitvoering afhankelijk is van de duur van het menselijk leven, of bij openbare of private voorzorgsinstellingen waarvoor bijzondere wetten gelden;
@@ -1010,28 +1014,28 @@ De in artikel 115, 2°, b, van het Wetboek van de inkomstenbelastingen 1992 verm
    a) bevestigt dat het contract aan al de in artikel 145/4 van hetzelfde Wetboek gestelde voorwaarden voldoet;
    b) er zich toe verbindt de taxatiedienst van het ambtsgebied van de verzekerde in kennis te stellen van alle wijzigingen die aan het contract worden aangebracht.
 
-## Art. 63.3
+##### Art. 63.3
 
 <KB 2001-01-30/38, art. 1, 079; Inwerkingtreding : 01-01-2001> Betalingen voor de aflossing of wedersamenstelling van een hypothecaire lening die is aangegaan om een in België gelegen woning te bouwen, te verwerven of te verbouwen, worden, binnen de grenzen gesteld in artikel 1456, eerste en tweede lid van het Wetboek van de inkomstenbelastingen 1992, slechts in aanmerking genomen voor de vermindering van het lange termijnsparen indien de belastingplichtige het bewijs van die betalingen overlegt, zomede een attest waarvan het model door de Minister van Financiën of zijn gedelegeerde wordt vastgesteld, waarbij de instelling die de lening heeft toegestaan :
    a) bevestigt dat het leningscontract aan de in artikel 1455 van hetzelfde Wetboek gestelde voorwaarden voldoet;
    b) er zich toe verbindt de taxatiedienst van het ambtsgebied van de belastingplichtige in kennis te stellen van alle wijzigingen die aan het contract worden aangebracht.
 
-## Art. 63.4
+##### Art. 63.4
 
 <Ingevoegd bij KB 1995-09-01/42, art. 10; Inwerkingtreding : 01-01-1993> Premies betreffende een contract met kosteloze of betalende deelneming in de winst, worden tot hun nominale bedrag in aanmerking genomen voor de vermindering voor het lange termijnsparen.
 
-##### Afdeling XXVquater. - (Inlichtingen te verstrekken betreffende betalingen voor pensioensparen (artikelen 21, 8°, 145.10, tweede lid, 145.12, zesde lid, en 263, tweede lid, van het Wetboek van de inkomstenbelastingen 1992).) <Ingevoegd bij KB 1995-09-01/42, art. 11; Inwerkingtreding : 01-01-1993>
+### Afdeling XXVquater. - (Inlichtingen te verstrekken betreffende betalingen voor pensioensparen (artikelen 21, 8°, 145.10, tweede lid, 145.12, zesde lid, en 263, tweede lid, van het Wetboek van de inkomstenbelastingen 1992).) <Ingevoegd bij KB 1995-09-01/42, art. 11; Inwerkingtreding : 01-01-1993>
 
-## Art. 63.5
+##### Art. 63.5
 
 <Ingevoegd bij KB 1995-09-01/42, art. 11; Inwerkingtreding : 01-01-1993> § 1. Binnen de twee maanden na het einde van ieder kalenderjaar waarin betalingen voor pensioensparen zijn verricht, moeten de instellingen en ondernemingen bedoeld in artikel 145/15 van het Wetboek van de inkomstenbelastingen 1992 aan de administratie van de directe belastingen een afschrift bezorgen van het attest dat zij aan iedere houder van een spaarrekening of ondertekenaar van een spaarverzekeringscontract hebben uitgereikt en waarvan het model door de Minister van Financiën of zijn gedelegeerde is vastgelegd ter uitvoering van artikel 145.9, eerste lid, 3°, van hetzelfde Wetboek.
    § 2. De Minister van Financiën of zijn gedelegeerde kan vergunning verlenen om de in § 1 bedoelde afschriften te vervangen door een magnetische informatiedrager.
    De vergunning vermeldt de na te leven voorwaarden en kan steeds worden ingetrokken.
 
-##### Afdeling XXVquinquies. - (Voorwaarden tot toekenning en behoud van de erkenning van pensioenspaarfondsen (artikel 145.16, 1°, Wetboek van de inkomstenbelastingen 1992).) <Ingevoegd bij KB 1995-09-01/42, art. 12;
+### Afdeling XXVquinquies. - (Voorwaarden tot toekenning en behoud van de erkenning van pensioenspaarfondsen (artikel 145.16, 1°, Wetboek van de inkomstenbelastingen 1992).) <Ingevoegd bij KB 1995-09-01/42, art. 12;
  Inwerkingtreding : 01-01-1993>
 
-## Art. 63.6
+##### Art. 63.6
 
 <Ingevoegd bij KB 1995-09-01/42, art. 12; Inwerkingtreding : 01-01-1993> § 1. Tot staving van de aanvraag die de beheersvennootschap indient om voor de toepassing van artikel 145.16, 1°, van het Wetboek van de inkomstenbelastingen 1992 een Belgisch beleggingsfonds als pensioenspaarfonds te erkennen, moet die vennootschap verstrekken :
    1° een attest uitgereikt door de Commissie voor het Bank- en Financiewezen volgens hetwelk dit fonds is ingeschreven op de lijst van de Belgische beleggingsinstellingen overeenkomstig artikel 120 van de wet van 4 december 1990 op de financiële transacties en de financiële markten en afdeling I van hoofdstuk I van titel I van het koninklijk besluit van 4 maart 1991 met betrekking tot bepaalde instellingen voor collectieve belegging;
@@ -1048,7 +1052,7 @@ De in artikel 115, 2°, b, van het Wetboek van de inkomstenbelastingen 1992 verm
    - hij de verbintenis aangaat aan de Minister van Financiën alle wijzigingen die ter zake zouden intreden mede te delen.
    § 2. Om het erkenningsdossier doorlopend te kunnen bijwerken, licht de beheersvennootschap de Minister van Financiën onverwijld in over de wijzigingen die moeten worden aangebracht in de tot staving van de aanvraag medegedeelde stukken en zendt hem de jaarrekening zodra die door de algemene vergadering is goedgekeurd.
 
-## Art. 63.7
+##### Art. 63.7
 
 <Ingevoegd bij KB 1995-09-01/42, art. 12; Inwerkingtreding : 01-01-1993> § 1. Het naleven van de verplichtingen bedoeld in artikel 145.11, van het Wetboek van de inkomstenbelastingen 1992, wordt nagegaan op grond van de in § 2 bedoelde bescheiden die door de beheersvennootschap bij de Minister van Financiën worden ingediend uiterlijk één maand na het einde van ieder volledig kalenderkwartaal sedert de erkenning van het fonds, ondertekend door de twee bestuurders bedoeld in artikel 3, § 1, 8°, van het koninklijk besluit van 4 maart 1991 met betrekking tot bepaalde instellingen voor collectieve belegging en zonder enig voorbehoud gewaarmerkt door de in artikel 63.6, § 1, 7°, bedoelde commissaris-revisor.
   § 2. De in § 1 bedoelde bescheiden worden gevormd door de gedetailleerde toestand van het fonds zoals die is opgesteld op het einde van de laatste bankwerkdag van iedere maand die deel uitmaakt van ieder kalenderkwartaal.
@@ -1060,7 +1064,7 @@ De in artikel 115, 2°, b, van het Wetboek van de inkomstenbelastingen 1992 verm
    b) dat de op grond van de toestand op het einde van iedere maand van het kalenderkwartaal berekende totale gemiddelde waarde in kapitaal, enerzijds, van de buitenlandse op een Belgische beurs genoteerde effecten of de delen van Belgische gemeenschappelijke beleggingsfondsen die door de Commissie voor het Bank- en Financiewezen ingeschreven zijn op de lijst van de Belgische beleggingsinstellingen, en anderzijds, van de tegoeden op rekening (in euro) bij één van de in artikel 145.15, eerste lid, van hetzelfde Wetboek vermelde instellingen of ondernemingen, niet hoger is dan 10 pct. van de refertewaarde van het fonds; <KB 2000-07- 20/63, art. 5, 076; Inwerkingtreding : 01-01-2002>
    c) dat de refertewaarde van het fonds die dient om de in a en b van deze paragraaf bedoelde coëfficiënten te meten, voor ieder kalenderkwartaal wordt bepaald door de gemiddelde waarde in kapitaal van het fonds te verminderen met een derde van de waarde in kapitaal van de netto inschrijvingen bij het fonds tijdens de derde maand die voorafgaat aan het kalenderkwartaal waarvoor de refertewaarde wordt berekend, met twee derde van de netto inschrijvingen tijdens de tweede maand die het betrokken kwartaal voorafgaat en met het totaal van dezelfde inschrijvingen tijdens de maand die hetzelfde kalenderkwartaal voorafgaat.
 
-## Art. 63.8
+##### Art. 63.8
 
 <Ingevoegd bij KB 1995-09-01/42, art. 12; Inwerkingtreding : 01-01-1993> § 1. De erkenning van het fonds wordt ingetrokken :
     1° wanneer de Commissie voor het Bank- en Financiewezen de inschrijving van het pensioenspaarfonds op de lijst van de Belgische beleggingsinstellingen herroept;
@@ -1072,13 +1076,13 @@ De in artikel 115, 2°, b, van het Wetboek van de inkomstenbelastingen 1992 verm
     § 3. De Commissie voor het Bank- en Financiewezen geeft de Minister van Financiën onverwijld kennis van de in
  § 1, eerste lid, 1°, vermelde herroeping of van de in § 1, eerste lid, 2° versnelde vaststelling.
 
-## Art. 63.9
+##### Art. 63.9
 
 <Ingevoegd bij KB 1995-09-01/42, art. 12; Inwerkingtreding : 01-01-1993> De toekenning en de intrekking van de erkenning worden in het Belgisch Staatsblad bekendgemaakt.
 
-##### Afdeling XXVsexies. - <KB 2002-04-02/41, art. 1, 088; Inwerkingtreding : 01-01-2002> Vermindering voor uitgaven betaald voor prestaties in het kader van plaatselijke werkgelegenheidsagentschappen en voor prestaties betaald met dienstencheques (Wetboek van de inkomstenbelastingen 1992, artikel 14522)
+### Afdeling XXVsexies. - <KB 2002-04-02/41, art. 1, 088; Inwerkingtreding : 01-01-2002> Vermindering voor uitgaven betaald voor prestaties in het kader van plaatselijke werkgelegenheidsagentschappen en voor prestaties betaald met dienstencheques (Wetboek van de inkomstenbelastingen 1992, artikel 14522)
 
-## Art. 63.10
+##### Art. 63.10
 
 <KB 2002-04-02/41, art. 1, 088; Inwerkingtreding : 01-01-2002> De in artikel 14521 van het Wetboek van de inkomstenbelastingen 1992 vermelde uitgaven komen slechts voor belastingvermindering in aanmerking :
    1° wat de uitgaven betaald voor prestaties in het kader van plaatselijke werkgelegenheidsagentschappen betreft :
@@ -1088,9 +1092,9 @@ De in artikel 115, 2°, b, van het Wetboek van de inkomstenbelastingen 1992 verm
    a) ten belope van de aanschafprijs van de dienstencheques die op naam van de belastingplichtige zijn uitgegeven en die hij tijdens het belastbaar tijdperk bij het uitgiftebedrijf heeft aangekocht, verminderd met de aanschafprijs van die dienstencheques die in de loop van datzelfde belastbaar tijdperk door het uitgiftebedrijf aan de belastingplichtige werden terugbetaald;
    b) op voorwaarde dat de belastingplichtige tot staving van zijn aangifte in de inkomstenbelastingen het attest overlegt vermeld in de reglementering betreffende de buurtdiensten en -banen en uitgereikt door de uitgever van de dienstencheques.
 
-##### Afdeling XXVsepties. - <Ingevoegd bij KB 2002-12-20/36, art. 1; Inwerkingtreding : 01-01-2004> Vermindering voor energiebesparende uitgaven (Wetboek van de inkomstenbelastingen 1992, artikel 145.24)
+### Afdeling XXVsepties. - <Ingevoegd bij KB 2002-12-20/36, art. 1; Inwerkingtreding : 01-01-2004> Vermindering voor energiebesparende uitgaven (Wetboek van de inkomstenbelastingen 1992, artikel 145.24)
 
-## Art. 63.11
+##### Art. 63.11
 
 <Ingevoegd bij KB 2002-12-20/36, art. 1; Inwerkingtreding : 01-01-2004> § 1. De in artikel 145.24 van het Wetboek van de inkomstenbelastingen 1992 opgesomde uitgaven, worden slechts in aanmerking genomen voor de in dat artikel vermelde belastingvermindering indien de daarmee verband houdende werken voldoen aan de volgende voorwaarden :
   1° de werken die aan de basis liggen van de uitgaven bedoeld in artikel 145.24, eerste lid, 1° tot 6°, van hetzelfde Wetboek, moeten worden uitgevoerd door een persoon die op het ogenblik van het afsluiten van de overeenkomst voor de uit te voeren werken als aannemer geregistreerd is overeenkomstig artikel 401 van het genoemde Wetboek.
@@ -1111,9 +1115,9 @@ De in artikel 115, 2°, b, van het Wetboek van de inkomstenbelastingen 1992 verm
   § 2. De belastingplichtige die het voordeel vermeld in artikel 145.24 van het genoemde Wetboek aanvraagt, moet bij zijn aangifte in de inkomstenbelastingen van het betrokken belastbare tijdperk het origineel of een door hem eensluidend verklaarde fotokopie toevoegen van : - de facturen betreffende de werken die aan de basis liggen van de uitgaven die zijn vermeld in artikel 145.24, eerste lid, van hetzelfde Wetboek;
   - het betalingsbewijs van de bedragen die voorkomen op die facturen.
 
-##### Afdeling XXVI. - Voorafbetalingen - Belastingvermeerdering - Bonificatie. (Wetboek van de inkomstenbelastingen 1992, artikelen 162, eerste lid, 167, 175 en 376, § 4)
+### Afdeling XXVI. - Voorafbetalingen - Belastingvermeerdering - Bonificatie. (Wetboek van de inkomstenbelastingen 1992, artikelen 162, eerste lid, 167, 175 en 376, § 4)
 
-## Art. 64
+##### Art. 64
 
 Overeenkomstig artikel 162, eerste lid, van het Wetboek van de inkomstenbelastingen 1992 wordt het vermeerderingspercentage vastgesteld in verhouding tot de basisrentevoet die in de tabel hierna is aangegeven :
 
@@ -1123,11 +1127,11 @@ Overeenkomstig artikel 162, eerste lid, van het Wetboek van de inkomstenbelastin
  [1996 7]
  <KB 1995-03-16/30, art. 1, 014; Inwerkingtreding : 01-01-1996>
 
-## Art. 65
+##### Art. 65
 
 Voor de aan de personenbelasting of de overeenkomstig artikel 227, 1°, van het Wetboek van de inkomstenbelastingen 1992 aan de belasting van niet-inwoners onderworpen belastingplichtigen die winst, baten of bezoldigingen (van bedrijfsleiders) behalen en die voorafbetalingen doen als vermeld in de artikelen 157 tot 166 en 175 tot 177 van hetzelfde Wetboek, worden die voorafbetalingen ten belope van het bedrag dat nodig is om de in voormeld artikel 157 bepaalde vermeerdering te vermijden, bij voorrang als in voormelde artikelen 157 tot 166 vermelde voorafbetalingen beschouwd. <KB 1997-05-20/39, art. 5, 039; Inwerkingtreding : 01-01- 1997> Voor de berekening van die vermeerdering worden de in het vorige lid vermelde inkomsten geacht betrekking te hebben op een volledig kalenderjaar, zelfs wanneer het tijdperk van de uitoefening van de beroepswerkzaamheid waaruit de inkomsten voortkomen niet volledig samenvalt met dat kalenderjaar.
 
-## Art. 66
+##### Art. 66
 
 § 1. Voor de aan de vennootschapsbelasting of de overeenkomstig artikel 246 van het Wetboek van de inkomstenbelastingen 1992 aan de belasting van niet-inwoners onderworpen belastingplichtigen van wie de inkomsten die de grondslag vormen voor de in de artikelen 157 tot 166 van hetzelfde Wetboek bepaalde vermeerdering, betrekking hebben op een tijdperk dat niet volledig samenvalt met het kalenderjaar, gelden de bijzondere regels van de §§ 2 tot 6, met dien verstande dat :
    a) indien het boekjaar of de uitoefening van de werkzaamheid :
@@ -1149,7 +1153,7 @@ Voor de aan de personenbelasting of de overeenkomstig artikel 227, 1°, van het 
   d) het vierde kwartaal, wordt geen vermeerdering toegepast op de belasting die uiterlijk op 20 december van het aanvangsjaar bij voorafbetaling is voldaan.
   § 6. Wanneer de belastingplichtige die zich in een van de in §§ 4 of 5 omschreven gevallen bevindt, anders dan per kalenderjaar boekhoudt, worden de in diezelfde §§ 4 of 5 genoemde data vervangen door de in § 2 omschreven data.
 
-## Art. 67
+##### Art. 67
 
 <KB 1995-01-03/30, art. 1, 011; Inwerkingtreding : 01-01-1995> § 1. (Voorafbetalingen als vermeld in de artikelen 157 tot 166 en 175 tot 177 van het Wetboek van de inkomstenbelastingen 1992 kunnen uitsluitend worden gedaan bij de "Dienst der Voorafbetalingen" door storting of overschrijving op postrekeningen:
    a) nr. 679-2002340-66, voor voorafbetalingen betreffende natuurlijke personen;
@@ -1159,34 +1163,34 @@ Voor de aan de personenbelasting of de overeenkomstig artikel 227, 1°, van het 
    - die op aanvraag of ambtshalve door de " Dienst der Voorafbetalingen " worden uitgereikt en de naam van de belastingplichtige en een registratienummer bij die dienst vermelden.
    § 3. Betalingen op de in § 1 vermelde (postrekeningen) met vermelding van een als in § 3 bedoeld registratienummer worden geacht gedaan te zijn voor rekening van de belastingplichtige die bij de " Dienst der Voorafbetalingen " door dat nummer is geïdentificeerd. <KB 1999-11-09/33, art. 3, 059; Inwerkingtreding : 17- 12-1999>
 
-## Art. 68
+##### Art. 68
 
 De artikelen 139, § 3, en 142, zijn van toepassing op de stortingen of overschrijvingen van voorafbetalingen.
 
-## Art. 69
+##### Art. 69
 
 Uit het oogpunt van de rijkscomptabiliteit, worden voorafbetalingen gelijkgesteld met de in de artikelen 270 tot 275 van het Wetboek van de inkomstenbelastingen 1992 vermelde bedrijfsvoorheffing.
 
-## Art. 70
+##### Art. 70
 
 Voor zover voorafbetalingen nog niet zijn verrekend met de inkomstenbelasting die verschuldigd is door de belastingplichtige op wiens naam zij door de in artikel 67 genoemde dienst zijn geboekt, kan die dienst :
    1° eventueel door terugbetaling, alle materiële vergissingen rechtzetten die derden bewijzen te hebben begaan bij het uitvoeren van stortingen of overschrijvingen voor rekening van belastingplichtigen en waarvoor zij ten laatste op het einde van de tweede maand die volgt op het belastbare tijdperk waarop de stortingen of overschrijvingen betrekking hebben, de rechtzetting aanvragen;
    2° de gestorte of overgeschreven bedragen terugbetalen, overschrijven naar de postrekening van een ontvangkantoor van de directe belastingen of overdragen naar het volgende belastbare tijdperk, wanneer de belastingplichtigen de gehele of gedeeltelijke terugbetaling, overschrijving of overdracht ervan aanvragen ten laatste op het einde van de tweede maand die volgt op het belastbare tijdperk waarop de stortingen of overschrijvingen betrekking hebben.
 
-## Art. 71
+##### Art. 71
 
 § 1. Na het verstrijken van het belastbare tijdperk zendt (de "Dienst der Voorafbetalingen") aan de betrokken belastingplichtigen een ontvangstbewijs van de gedane stortingen of overschrijvingen, dat hierna "rekeninguittreksel VA" wordt genoemd. <KB 1995-01-03/30, art. 2, 011; Inwerkingtreding : 01-01-1995>
    § 2. Vanaf de verzending van het rekeninguittreksel VA beschikt de belastingplichtige over een termijn van 1 maand om de toepassing van artikel 70 te vragen, voor zover die termijn eindigt na die welke in datzelfde artikel 70 zijn bepaald.
    Daartoe moet het rekeninguittreksel VA ter vervanging worden teruggezonden aan de dienst waarvan het is uitgegaan.
    § 3. Wanneer die dienst de oorspronkelijke bestemming van de voorafbetalingen overeenkomstig artikel 70 en § 2, van onderhavig artikel, heeft gewijzigd en, in voorkomend geval, het rekeninguittreksel VA heeft vervangen, zijn de aanvankelijk gedane stortingen of overschrijvingen, in zover zij van bestemming zijn veranderd, van rechtswege nietig en worden de eraan verbonden voordelen opgeheven.
 
-## Art. 72
+##### Art. 72
 
 (Opgeheven) <KB 1997-05-20/39, art. 6, 039; Inwerkingtreding : 01-01-1996>
 
-##### Afdeling XXVII. - Omzetting in rente van kapitalen en afkoopwaarden. (Wetboek van de inkomstenbelastingen 1992, artikel 169, § 1)
+### Afdeling XXVII. - Omzetting in rente van kapitalen en afkoopwaarden. (Wetboek van de inkomstenbelastingen 1992, artikel 169, § 1)
 
-## Art. 73
+##### Art. 73
 
 Kapitalen en afkoopwaarden als vermeld in artikel 169 van het Wetboek van de inkomstenbelastingen 1992, worden voor de vaststelling van de belastbare grondslag slechts in aanmerking genomen tot het bedrag van de lijfrente die verkregen wordt door hun omzetting tegen het percent dat in de onderstaande tabel is vermeld tegenover de leeftijd van de verkrijger op de datum waarop het kapitaal of de afkoopwaarde hem wordt betaald of toegekend; die leeftijd wordt in volle jaren en met weglating van de gedeelten van een jaar vastgesteld.
 
@@ -1203,14 +1207,14 @@ Kapitalen en afkoopwaarden als vermeld in artikel 169 van het Wetboek van de ink
  63 en 64 jaar 4,5
  65 jaar en meer 5
 
-##### Afdeling XXVIIbis. <Ingevoegd bij KB 1999-05-13/44, art. 1; Inwerkingtreding : 01-01-2000> - Voorwaarden en grenzen van de vrijstelling van de technische voorzieningen (Wetboek van de inkomstenbelastingen 1992, artikel 194bis).
+### Afdeling XXVIIbis. <Ingevoegd bij KB 1999-05-13/44, art. 1; Inwerkingtreding : 01-01-2000> - Voorwaarden en grenzen van de vrijstelling van de technische voorzieningen (Wetboek van de inkomstenbelastingen 1992, artikel 194bis).
 
-## Art. 73.1
+##### Art. 73.1
 
 <Ingevoegd bij KB 1999-05-13/44, art. 1; Inwerkingtreding : 01-01-2000> Worden vrijgesteld onder de voorwaarden en binnen de grenzen als vermeld in de artikelen 73.2 tot 73.4, de volgende technische voorzieningen : - de voorziening voor egalisatie en catastrofen wat betreft de risico's als vermeld in artikel 73.3;
   - de voorziening voor niet-verdiende premies als vermeld in artikel 73.4.
 
-## Art. 73.2
+##### Art. 73.2
 
 <Ingevoegd bij KB 1999-05-13/44, art. 1; Inwerkingtreding : 01-01-2000> De in artikel 73.1 vermelde voorzieningen geboekt bij het verstrijken van het belastbare tijdperk, worden uit de winst van dit tijdperk gesloten op voorwaarde dat :
   1° de voorzieningen overeenstemmen met de verplichtingen die rusten op de onderneming voor de uitvoering van verzekeringscontracten die op de laatste dag van het belastbare tijdperk bestaan of van contracten die vervallen maar nog niet volledig vereffend zijn;
@@ -1218,7 +1222,7 @@ Kapitalen en afkoopwaarden als vermeld in artikel 169 van het Wetboek van de ink
   3° ieder bedrag van de bij het verstrijken van het belastbare tijdperk bestaande technische voorziening en waarvoor de vrijstelling wordt gevraagd, verantwoord is door alle documenten noodzakelijk voor de bepaling ervan. Voor iedere categorie of sub-categorie van voorziening kan een specifieke staat worden geëist, waarvan het model, de inhoud en de informatiedrager door de Minister van Financiën of zijn gedelegeerde wordt vastgesteld.
   In afwijking van het eerste lid, 1°, moet de voorziening voor egalisatie en catastrofen overeenstemmen met de aan de onderneming opgelegde verplichting betreffende de dekking van de risico's als vermeld in artikel 73.3.
 
-## Art. 73.3
+##### Art. 73.3
 
 <Ingevoegd bij KB 1999-05-13/44, art. 1; Inwerkingtreding : 01-01-2000> De voorziening voor egalisatie en catastrofen is vrijgesteld binnen de volgende grenzen :
    1° met betrekking tot de risico's in verband met natuurelementen, de lucht- en ruimtevaartrisico's en de risico's in verband met aanslagen en arbeidsconflicten :
@@ -1229,29 +1233,29 @@ Kapitalen en afkoopwaarden als vermeld in artikel 169 van het Wetboek van de ink
    b) het voor het belastbare tijdperk vrij te stellen bedrag van de toevoeging aan de voorziening, mag 5 pct. van het sub a, bedoelde maximum niet overschrijden.
    De kosten waarop de overeenkomstig het eerste lid aangelegde voorzieningen betrekking hebben, moeten op die voorziening worden afgeboekt op het ogenblik dat zij werkelijk worden gedragen.
 
-## Art. 73.4
+##### Art. 73.4
 
 <Ingevoegd bij KB 1999-05-13/44, art. 1; Inwerkingtreding : 01-01-2000> De voorziening voor nietverdiende premies is vrijgesteld ten belope van het deel van de premies bruto van herverzekering, verminderd met de commissielonen voor acquisitie, dat betrekking heeft op het belastbare tijdperk dat volgt op het in artikel 73/2 vermelde tijdperk of op latere belastbare tijdperken teneinde de schadelast, de administratiekosten en de beheerskosten van beleggingen te dekken.
   Dat deel moet voor ieder verzekeringscontract afzonderlijk worden berekend naar verhouding van de nog resterende looptijd tot op de vervaldag van de dekking.
 
-##### Afdeling XXVIIter. <Ingevoegd bij AR 2003-02-06/30, art. 1; Inwerkingtreding : 01-01-2004> - Investeringsmodaliteiten in het kader van de investeringsreserve ingeval van inbreng van een tak van werkzaamheid of een bedrijfsafdeling of van een algemeenheid van goederen of ingeval van fusie of splitsing (Wetboek van de inkomstenbelastingen 1992, artikel 194quater , § 6, eerste lid)
+### Afdeling XXVIIter. <Ingevoegd bij AR 2003-02-06/30, art. 1; Inwerkingtreding : 01-01-2004> - Investeringsmodaliteiten in het kader van de investeringsreserve ingeval van inbreng van een tak van werkzaamheid of een bedrijfsafdeling of van een algemeenheid van goederen of ingeval van fusie of splitsing (Wetboek van de inkomstenbelastingen 1992, artikel 194quater , § 6, eerste lid)
 
-## Art. 73.4bis
+##### Art. 73.4bis
 
 <Ingevoegd bij AR 2003-02-06/30, art. 1; Inwerkingtreding : 01-01-2004> In geval van inbreng van een tak van werkzaamheid of een bedrijfsafdeling of van een algemeenheid van goederen als vermeld in artikel 46, § 1, eerste lid, 2° van hetzelfde Wetboek en ingeval van verrichtingen als vermeld in artikel 211, § 1, van hetzelfde wetboek, mag de verrichting niet tot gevolg hebben dat de oorspronkelijke investeringstermijn als bedoeld in artikel 194quater , § 3, van hetzelfde Wetboek wordt verlengd.
   Wanneer in geval van inbreng als vermeld in het eerste lid, niet langer is voldaan aan de voorwaarden van artikel 190 of 194quater van hetzelfde Wetboek, wordt het belastbaar geworden gedeelte van de investeringsreserve belast ten name van de inbrengende vennootschap.
 
-##### Afdeling XXVIIquater. - (Definitief belaste inkomsten (Wetboek van de inkomstenbelastingen 1992, artikelen 202, § 2, tweede lid en 203, § 1, derde lid en § 2, zesde lid, 2°)) <KB 2003-02-13/33, art. 1, Inwerkingtreding : 01-01-2004> (NOTA 1: Ingevoegd bij KB 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000 onder de titel "Erkenningsvoorwaarden waaraan een gecentraliseerd systeem voor het lenen en ontlenen van aandelen dat geïntegreerd is in een betalings- en afwikkelingssysteem van effectenverrichtingen moet voldoen en de periode gedurende dewelke de erkenning kan worden verleend (Wetboek van de inkomstenbelastingen 1992, artikel 203,
+### Afdeling XXVIIquater. - (Definitief belaste inkomsten (Wetboek van de inkomstenbelastingen 1992, artikelen 202, § 2, tweede lid en 203, § 1, derde lid en § 2, zesde lid, 2°)) <KB 2003-02-13/33, art. 1, Inwerkingtreding : 01-01-2004> (NOTA 1: Ingevoegd bij KB 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000 onder de titel "Erkenningsvoorwaarden waaraan een gecentraliseerd systeem voor het lenen en ontlenen van aandelen dat geïntegreerd is in een betalings- en afwikkelingssysteem van effectenverrichtingen moet voldoen en de periode gedurende dewelke de erkenning kan worden verleend (Wetboek van de inkomstenbelastingen 1992, artikel 203,
  § 2, 6de lid, 2°)") (NOTA 2 : oude afdeling XXVIIter, hernummerd XXVIIquater door KB 2003-02-06/30)
 
-## Art. 73.4ter
+##### Art. 73.4ter
 
 <Ingevoegd bij KB 2003-03-27/42, art. 1, Inwerkingtreding : 01-01-2004> Voor de toepassing van artikel 202, § 2, eerste lid, 2°, van het Wetboek van inkomstenbelastingen 1992 wordt onder aandelen die de aard van financiële vaste activa hebben, verstaan :
   1° ten name van de in artikel 56, § 1, van hetzelfde Wetboek bedoelde kredietinstellingen, de in post VII "Financiële vaste activa" te boeken aandelen, zoals die balanspost wordt omschreven in het koninklijk besluit van 23 september 1992 op de jaarrekening van de kredietinstellingen;
   2° ten name van de in artikel 56, § 2, 2°, h, van hetzelfde Wetboek bedoelde verzekeringsondernemingen, de in post C.II. "Beleggingen in verbonden ondernemingen en deelnemingen" van de balans te boeken aandelen en deelbewijzen, zoals die balanspost wordt omschreven in het koninklijk besluit van 17 november 1994 betreffende de jaarrekening van verzekeringsondernemingen;
   3° ten name van de in artikel 47 van de wet van 6 april 1995 inzake de secundaire markten, het statuut en het toezicht op de beleggingsondernemingen, de bemiddelaars en beleggingsadviseurs bedoelde beursvennootschappen, de aandelen te boeken in post IV "Financiële vaste activa", zoals die balanspost wordt omschreven in het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen.
 
-## Art. 73.4quater
+##### Art. 73.4quater
 
 <Ingevoegd bij KB 2003-02-13/33, art. 1, Inwerkingtreding : 01-01-2004> Voor de toepassing van artikel 203, § 1, derde lid van het Wetboek van de inkomstenbelastingen 1992 worden met betrekking tot de landen van de hiernavolgende lijst, de gemeenrechtelijke bepalingen inzake belastingen als vermeld in artikel 203,
  § 1, eerste lid, 1°, van hetzelfde Wetboek, geacht aanzienlijk gunstiger te zijn dan in België :
@@ -1309,13 +1313,13 @@ Kapitalen en afkoopwaarden als vermeld in artikel 169 van het Wetboek van de ink
    52. Britse Maagdeneilanden
    53. Amerikaanse Maagdeneilanden.
 
-## Art. 73.5
+##### Art. 73.5
 
 <Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> Voor de toepassing van dit besluit moet verstaan worden onder :
   1° " gecentraliseerd systeem voor het lenen en ontlenen van aandelen ", een systeem voor het lenen en ontlenen van aandelen dat tot doel heeft in laatste instantie de afwikkeling van orders tot overdracht van aandelen te vergemakkelijken en dat geïntegreerd is in een vereffeningssysteem voor aandelen zoals bedoeld in artikel 2, § 1, b van de wet van 28 april 1999 tot overdracht houdende omzetting van de Richtlijn 98/26/CEEG van 19 mei 1998 betreffende het definitief karakter van de afwikkeling van de betalingen en effectentransacties in betaling- en afwikkelingssystemen van de operaties op aandelen of in een systeem van een andere Staat waarvan de wetgeving minstens in gelijkwaardige werkingsvoorwaarden voorziet.
    2° " beheerder van het systeem " : de vennootschap die het gecentraliseerd systeem voor het lenen en ontlenen van aandelen beheert en die onderworpen is aan de vennootschapsbelasting, aan de belasting van nietinwoners krachtens artikel 227, 2° van het Wetboek van de inkomstenbelastingen 1992 of aan een buitenlandse belasting van gelijke aard.
 
-## Art. 73.6
+##### Art. 73.6
 
 <Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> Kunnen erkend worden voor de toepassing van artikel 203, § 2, 6de lid, 2°, van het Wetboek van de inkomstenbelastingen 1992, de gecentraliseerde systemen voor het lenen en ontlenen van aandelen die aan de volgende voorwaarden voldoen :
   1° de interpositionering tussen de ontlener en de uitlener zelf op een zodanige manier waarborgen dat de uitleners en de ontleners op geen enkele manier kunnen tussenkomen in de keuze van hun tegenpartij;
@@ -1324,11 +1328,11 @@ Kapitalen en afkoopwaarden als vermeld in artikel 169 van het Wetboek van de ink
   4° ontradende kosten voorzien ten laste van de ontlener.
   De naleving van het geheel van deze voorwaarden moet toelaten te vermijden dat systematisch een beroep gedaan wordt op de betaling van vergoedingen voor ontbrekende coupon.
 
-## Art. 73.7
+##### Art. 73.7
 
 <Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> De beheerder van het systeem die in België niet zijn maatschappelijke zetel, noch zijn voornaamste inrichting, noch zijn zetel van bestuur of beheer heeft en die geen Belgische inrichting is in de zin van artikel 229 van het Wetboek van de inkomstenbelastingen 1992 moet, voorafgaand aan de aanvraag tot erkenning, een in België verblijvende aansprakelijke vertegenwoordiger aanduiden die zich er persoonlijk toe verbindt aan alle verplichtingen die hem ten laste worden gelegd in hoofde van dit besluit te zullen voldoen.
 
-## Art. 73.8
+##### Art. 73.8
 
 <Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> § 1. Om hun erkenning te bekomen, moeten de gecentraliseerde systemen voor het lenen en ontlenen van aandelen een schriftelijke aanvraag indienen, in de hierna bepaalde vormen en termijnen.
   De aanvragen tot erkenning moeten ingediend worden bij de Minister van Financiën. Er wordt ontvangst gemeld van de aanvraag tot erkenning aan de beheerder van het systeem of, in de gevallen bedoeld in artikel 73.7, aan zijn aansprakelijke vertegenwoordiger met vermelding van de datum van ontvangst van de aanvraag.
@@ -1344,13 +1348,13 @@ Kapitalen en afkoopwaarden als vermeld in artikel 169 van het Wetboek van de ink
   In geval van weigering van hernieuwing van de erkenning of van intrekking van de erkenning, mag geen nieuwe aanvraag tot erkenning ingediend worden bij de Minister van Financiën, dan na drie maanden te rekenen van de datum van de betekenis van de weigering. of van de datum van de intrekking van de erkenning.
   § 3. Als één der inlichtingen die moeten voorkomen in de aanvraag tot erkenning krachtens de eerste paragraaf wordt veranderd in de loop van de erkenningsperiode, moet de beheerder van het systeem, of in de gevallen bedoeld in artikel 73.7, zijn aansprakelijke vertegenwoordiger, ten minste een maand voor de inwerkingtreding van de verandering dit feit ter kennis brengen van de Minister van Financiën.
 
-## Art. 73.9
+##### Art. 73.9
 
 <Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> De beheerder van het systeem of, in de gevallen bedoeld in artikel 737 van dit besluit, zijn aansprakelijke vertegenwoordiger, deelt aan de Administratie van de ondernemings- en inkomensfiscaliteit voor 15 september van elk burgerlijke jaar volgende gegevens mee : Het totaal bedrag der vergoedingen voor ontbrekende coupon die betaald zijn in het kader van het gecentraliseerd systeem voor het lenen en ontlenen van aandelen, in de loop van de periode die loopt van 1 september van het vorig jaar tot 31 augustus van het lopend jaar of, als de erkenning bekomen werd in de loop van de betrokken periode, sedert de datum van erkenning tot 31 augustus van het lopend jaar;
    De identiteit van de schuldenaars van de vergoedingen voor ontbrekende coupon in de mate dat deze schuldenaars onderworpen zijn aan een inkomstenbelasting zoals bedoeld in artikel 1 van het Wetboek van de inkomstenbelastingen 1992 en het bedrag van de betaalde vergoedingen voor ontbrekende coupon door elk van die schuldenaars in de loop van dezelfde periode als die bedoeld in de vorige alinea;
    Het totaal bedrag der vergoedingen voor ontbrekende coupon die betaald zijn gedurende de voormelde periode door andere schuldenaars dan die bedoeld in vorig gedachtenstreepje opgedeeld per land van oorsprong van de schuldenaars.
 
-## Art. 73.10
+##### Art. 73.10
 
 <Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> De beheerder van het systeem of, in de gevallen bedoeld in artikel 73.7, zijn aansprakelijke vertegenwoordiger, moet, voorafgaand aan elke wijziging van de regels tot bepaling van het tarief der kosten ten laste van de ontlener bedoeld in artikel 73.6,
  4° en hierna " tarief " genoemd, dit feit ter kennis brengen van de Minister van Financiën.
@@ -1361,12 +1365,12 @@ Kapitalen en afkoopwaarden als vermeld in artikel 169 van het Wetboek van de ink
    Als de Minister van Financiën een beslissing van niet-conformiteit ter kennis brengt voor het tweede voorstel van het tarief overeenkomstig artikel 73.6, 4°, moet het oude tarief toegepast worden.
    Als de Administratie van de ondernemings- en inkomensfiscaliteit vaststelt dat het tarief gewijzigd werd in weerwil van een kennisgeving van niet-conformiteit van het nieuwe tarief met artikel 73.6, 4°, wordt de erkenning ingetrokken met ingang op de datum van inwerkingtreding van het nieuwe tarief zonder dat een kennisgeving van de Administratie van de ondernemings- en inkomensfiscaliteit bedoeld in artikel 73.12 vereist is.
 
-## Art. 73.11
+##### Art. 73.11
 
 <Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> Het gecentraliseerd systeem voor het lenen en ontlenen van aandelen moet toelaten het bedrag te bepalen van de betaalde vergoedingen voor ontbrekende coupon per schuldenaar en per ontleend aandeel voor de periode bedoeld in artikel 73.9 tot vijf jaren na het jaar gedurende hetwelk de in artikel 73.9 vermelde gegevens moeten worden meegedeeld aan de Administratie van de ondernemings- en inkomensfiscaliteit.
    Om te voldoen aan de verplichtingen voorzien in het vorige lid en het nazicht toe te laten op de naleving van de verplichtingen bedoeld in de andere bepalingen van dit besluit, verbindt de beheerder, of in de gevallen voorzien in artikel 73.7, zijn aansprakelijke vertegenwoordiger, er zich toe de Administratie van de ondernemings- en inkomensfiscaliteit, op haar eerste verzoek, alle documenten, analyse-, programmerings- en uitbatingsdossiers van het of de informaticasystemen, de informaticadragers en alle gegevens die ze bevatten en die nuttig zijn bij het nazicht van de naleving van de bepalingen van dit besluit ter beschikking te stellen. De informaticagegevens moeten meegedeeld worden onder een leesbare en begrijpelijke vorm.
 
-## Art. 73.12
+##### Art. 73.12
 
 <Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> § 1. Als de Administratie van de ondernemings- en inkomensfiscaliteit een inbreuk vaststelt op de bepalingen van dit besluit, deelt ze dit mee aan de beheerder van het systeem of, in de gevallen bedoeld in artikel 73.7, aan zijn aansprakelijke vertegenwoordiger.
   De beheerder van het systeem, of, in de gevallen bedoeld in artikel 73.7, zijn aansprakelijke vertegenwoordiger, beschikt over een termijn van een maand te rekenen vanaf de datum van de kennisgeving om er op te antwoorden en om het systeem opnieuw conform te maken aan de voorwaarden van artikel 736.
@@ -1378,9 +1382,9 @@ Kapitalen en afkoopwaarden als vermeld in artikel 169 van het Wetboek van de ink
    § 3. Iedere aanpassing van het gecentraliseerd systeem voor het lenen en ontlenen van aandelen om het in overeenstemming te brengen met de voorwaarden van artikel 73.6 moet meegedeeld worden aan de Administratie van de ondernemings- en inkomensfiscaliteit.
    § 4. Het systeem verliest automatisch zijn erkenning in geval de aanpassing van het gecentraliseerd systeem voor het lenen en ontlenen van aandelen niet meegedeeld werd aan de Administratie van de ondernemings- en inkomensfiscaliteit na afloop van de termijn tot antwoord voorzien in § 1, tweede lid, als de beheerder van het systeem, of in de gevallen vermeld in artikel 73.7, zijn aansprakelijke vertegenwoordiger, niet geantwoord heeft op de kennisgeving binnen voormelde termijn of er op geantwoord heeft zonder een betwisting te formuleren; na afloop van de termijn voor het indienen van een beroep voorzien in § 2, derde lid, als de beheerder van het systeem, of, in de gevallen vermeld in artikel 73.7, zijn aansprakelijke vertegenwoordiger de kennisgeving betwist heeft binnen de termijn voorzien in § 1, tweede lid, maar geen beroep heeft ingediend binnen de termijn voorzien in § 2, derde lid; na verloop van dertig dagen te rekenen vanaf de beslissing tot verwerping van het beroep of vanaf het einde van de termijn tot mededeling van de beslissing over het beroep voorzien in § 2, laatste lid.
 
-##### Afdeling XXVIII. - Vaststelling van het belastbare inkomen inzake vennootschapsbelasting. (Wetboek van de inkomstenbelastingen 1992, artikel 207)
+### Afdeling XXVIII. - Vaststelling van het belastbare inkomen inzake vennootschapsbelasting. (Wetboek van de inkomstenbelastingen 1992, artikel 207)
 
-## Art. 74
+##### Art. 74
 
 Om het aan de vennootschapsbelasting te onderwerpen resultaat vast te stellen, wordt het resultaat van het belastbare tijdperk, waarin niet zijn begrepen de krachtens de artikelen 48, 190, 191 en 194 van het Wetboek van de inkomstenbelastingen 1992 vrijgestelde waardeverminderingen, voorzieningen of meerwaarden, vooraf volgens bestemming in de volgende categorieën onderverdeeld :
    1° reserves;
@@ -1398,7 +1402,7 @@ Om het aan de vennootschapsbelasting te onderwerpen resultaat vast te stellen, w
  4°bis en 5°, a,) van hetzelfde Wetboek; <KB 1998-10-29/37, art. 3, 2°, 045; Inwerkingtreding : 1995-04-10> - de voorheen vrijgestelde winst die belastbaar wordt in de loop van het belastbare tijdperk, voor zover ze niet in het gereserveerde resultaat is begrepen;
    - onder "dividenden", de dividenden vermeld in artikel 18 van hetzelfde Wetboek.
 
-## Art. 75
+##### Art. 75
 
 Het totale bedrag van het overeenkomstig artikel 74 vastgestelde resultaat wordt eventueel volgens oorsprong onderverdeeld in :
    1° in België behaald resultaat, indien positief hierna te noemen "Belgische winst";
@@ -1409,7 +1413,7 @@ Het totale bedrag van het overeenkomstig artikel 74 vastgestelde resultaat wordt
    b) verliezen geleden in een land waarvoor de winst tegen verlaagd tarief belastbaar is : eerst op de tegen verlaagd tarief belastbare winst, daarna, indien die winst ontoereikend is, op de bij verdrag vrijgestelde winst en, tenslotte, op de Belgische winst;
    c) in België geleden verliezen : eerst op de Belgische winst, daarna, indien die winst ontoereikend is, op de tegen verlaagd tarief belastbare winst en, tenslotte, op de bij verdrag vrijgestelde winst.
 
-## Art. 76
+##### Art. 76
 
 Van het saldo van de winst dat overeenkomstig de artikelen 74 en 75 is vastgesteld en onderverdeeld, worden achtereenvolgens afgetrokken, in zover ze er nog in voorkomen :
   1° de bij verdrag vrijgestelde winst;
@@ -1419,58 +1423,58 @@ Van het saldo van de winst dat overeenkomstig de artikelen 74 en 75 is vastgeste
   c) de andere niet-belastbare bestanddelen die in de winst voorkomen en niet in dit artikel zijn vermeld.
   De som van de in het eerste lid, 2°, vermelde bedragen wordt bij voorrang van de Belgische winst van het belastbare tijdperk afgetrokken en, tot het eventuele overschot, van de tegen verlaagd tarief belastbare winst van dat tijdperk.
 
-## Art. 77
+##### Art. 77
 
 De in de artikelen 202 tot 205 van het Wetboek van de inkomstenbelastingen 1992 omschreven bedragen die als definitief belaste inkomsten of als vrijgestelde roerende inkomsten aftrekbaar zijn, worden, tot het bedrag van de restwinst na toepassing van artikel 76 afgetrokken; die aftrek gebeurt met inachtneming van de oorsprong van de winst en bij voorrang van de winst waarin die bedragen voorkomen.
 
-## Art. 78
+##### Art. 78
 
 Van de overeenkomstig de artikelen 74 tot 77 vastgestelde winst worden de in artikel 206 van het Wetboek van de inkomstenbelastingen 1992 vermelde vorige beroepsverliezen afgetrokken in zover die verliezen, vastgesteld overeenkomstig de wetgeving die van toepassing is voor de betreffende belastbare tijdperken, niet vroeger konden worden afgetrokken of voorheen niet door bij verdrag vrijgestelde winst waren gedekt of niet vroeger onder de vennoten werden verdeeld.
    Die aftrek gebeurt volgens de regelen van artikel 75, tweede lid, met dien verstande dat verliezen die geleden zijn in landen waarvoor de winst bij verdrag is vrijgesteld, slechts worden afgetrokken in zover ze de bij verdrag vrijgestelde winst overtreffen.
 
-## Art. 79
+##### Art. 79
 
 De in de artikelen 68 tot 77 en 201 van het Wetboek van de inkomstenbelastingen 1992 vermelde investeringsaftrek, wordt vervolgens afgetrokken van het bedrag van de Belgische winst dat overblijft na toepassing van artikel 78.
 
-##### Afdeling XXIX. - Vaststelling van het maatschappelijk kapitaal en van de waardeverminderingen, voorzieningen, reserves en meerwaarden ingeval de inbrengen niet volledig worden vergoed met nieuwe aandelen die naar aanleiding van de in artikel 21, § 1, van het Wetboek van de inkomstenbelastingen 1992 vermelde verrichtingen worden uitgegeven. (Wetboek van de inkomstenbelastingen 1992, artikel 214, tweede lid)
+### Afdeling XXIX. - Vaststelling van het maatschappelijk kapitaal en van de waardeverminderingen, voorzieningen, reserves en meerwaarden ingeval de inbrengen niet volledig worden vergoed met nieuwe aandelen die naar aanleiding van de in artikel 21, § 1, van het Wetboek van de inkomstenbelastingen 1992 vermelde verrichtingen worden uitgegeven. (Wetboek van de inkomstenbelastingen 1992, artikel 214, tweede lid)
 
-## Art. 80
-
-(Opgeheven) <KB 1994-08-12/48, art. 6, 006; Inwerkingtreding : 01-10-1993>
-
-## Art. 81
+##### Art. 80
 
 (Opgeheven) <KB 1994-08-12/48, art. 6, 006; Inwerkingtreding : 01-10-1993>
 
-## Art. 82
+##### Art. 81
 
 (Opgeheven) <KB 1994-08-12/48, art. 6, 006; Inwerkingtreding : 01-10-1993>
 
-#### HOOFDSTUK II. - VOORHEFFINGEN EN VERREKENING VAN VOORHEFFINGEN.
+##### Art. 82
 
-##### Afdeling I. - Roerende voorheffing. (Wetboek van de inkomstenbelastingen 1992, artikelen 250, 300, § 1 en 312)
+(Opgeheven) <KB 1994-08-12/48, art. 6, 006; Inwerkingtreding : 01-10-1993>
 
-## Art. 83
+## HOOFDSTUK II. - VOORHEFFINGEN EN VERREKENING VAN VOORHEFFINGEN.
+
+### Afdeling I. - Roerende voorheffing. (Wetboek van de inkomstenbelastingen 1992, artikelen 250, 300, § 1 en 312)
+
+##### Art. 83
 
 Voor de berekening van de roerende voorheffing wordt het bedrag van het belastbare inkomen (in euro vastgesteld en afgerond op de cent). <KB 2000-07-20/63, art. 5, 076; Inwerkingtreding : 01-01-2002> De roerende voorheffing wordt (in euro gevestigd en afgerond op de cent). <KB 2000-07-20/63, art. 5, 076;
  Inwerkingtreding : 01-01-2002>
 
-## Art. 84
+##### Art. 84
 
 De roerende voorheffing is betaalbaar (bij de bevoegde) ontvanger van de directe belastingen volgens de regels van hoofdstuk III, afdeling III. <KB 1999-05-03/39, art. 2, 053; Inwerkingtreding : 06-04-1999>
 
-## Art. 85
+##### Art. 85
 
 Bij iedere storting van roerende voorheffing of ten laatste binnen 15 dagen na de toekenning of betaalbaarstelling van de belastbare inkomsten, overhandigt de belastingschuldige aan de in artikel 84 vermelde ontvanger een aangifte van die inkomsten waarvan het model door de Minister van Financiën of zijn gedelegeerde wordt vastgesteld.
   Tot staving van die aangifte kan de administratie der directe belastingen een tot bewijs strekkend uittreksel uit de boeken of rekeningen van de belastingschuldige, door hem of zijn vertegenwoordiger gedateerd, getekend en echt verklaard, doen overleggen.
 
-##### Afdeling II. - Bedrijfsvoorheffing. (Wetboek van de inkomstenbelastingen 1992, artikelen (57,) 250, 271, 275, §§ 1 en 2, 300, § 1, en 312) <KB 1994-08-12/48, art. 7; Inwerkingtreding : 20-09-1994>
+### Afdeling II. - Bedrijfsvoorheffing. (Wetboek van de inkomstenbelastingen 1992, artikelen (57,) 250, 271, 275, §§ 1 en 2, 300, § 1, en 312) <KB 1994-08-12/48, art. 7; Inwerkingtreding : 20-09-1994>
 
-## Art. 86
+##### Art. 86
 
 Natuurlijke en rechtspersonen, zomede alle personen die geheel of ten dele, uit welken hoofde ook, de leiding of het beheer van vennootschappen, verenigingen, instellingen of lichamen zonder rechtspersoonlijkheid waarnemen, moeten de bedrijfsvoorheffing die aan de bron verschuldigd is op de door hen betaalde of toegekende en in artikel 87 vermelde inkomsten, in de Schatkist storten.
 
-## Art. 87
+##### Art. 87
 
 Behoudens de door de wet en door internationale overeenkomsten bepaalde vrijstellingen, is de bedrijfsvoorheffing aan de bron verschuldigd op :
    1° (a) beroepsinkomsten als vermeld in artikel 23, § 1, 4° en 5°, van het Wetboek van de inkomstenbelastingen 1992 die de in de artikelen 3, 179 of 220 van hetzelfde Wetboek vermelde personen als schuldenaar, bewaarder, mandataris of tussenpersoon in België of in het buitenland betalen of toekennen;
@@ -1491,15 +1495,15 @@ Behoudens de door de wet en door internationale overeenkomsten bepaalde vrijstel
  Inwerkingtreding : 01-01-1997>
    (9° vergoedingen tot volledig of gedeeltelijk herstel van een tijdelijke derving van winst of van baten, zelfs indien ze op een vorige beroepswerkzaamheid betrekking hebben.) <KB 1997-05-20/39, art. 7, 039; Inwerkingtreding : 01-06-1997>
 
-## Art. 88
+##### Art. 88
 
 Het bedrag van de aan de bron verschuldigde bedrijfsvoorheffing wordt vastgesteld volgens de schalen en de erbij horende regels vermeld in bijlage III.
 
-## Art. 89
+##### Art. 89
 
 Ten aanzien van bepaalde categorieën van belastingplichtigen die tot buitengewone beroepskosten genoodzaakt zijn, kan de Minister van Financiën of zijn gedelegeerde het deel van het bruto-inkomen bepalen dat voor het berekenen van de bedrijfsvoorheffing in aanmerking komt.
 
-## Art. 90
+##### Art. 90
 
 § 1. (De schuldenaars van bedrijfsvoorheffing, die in artikel 87, 1° tot 7°, vermelde belastbare inkomsten hebben betaald of toegekend, moeten binnen de in artikel 412, van het Wetboek van de inkomstenbelastingen 1992 gestelde termijn een aangifte in de bedrijfsvoorheffing overleggen bij de bevoegde ontvanger van de directe belastingen en de verschuldigde bedrijfsvoorheffing bij dezelfde ambtenaar betalen volgens de regels van hoofdstuk III, afdeling III.) <KB 1999-05-03/39, art. 3, 053; Inwerkingtreding : 06-04- 1999> Door de schuldenaars van bedrijfsvoorheffing moet eveneens een aangifte worden overgelegd ingeval : - zij voor een bepaalde periode geen in (artikel 87, 1° tot 7°,) vermelde belastbare inkomsten hebben betaald of toegekend; <KB 1997-01-10/42, art. 2, 1°, 033; Inwerkingtreding : 01-01-1997> - zij in (artikel 87, 1° tot 7°,) vermelde belastbare inkomsten hebben betaald of toegekend waarop echter volgens de schalen en de regels waarvan sprake in artikel 88 geen bedrijfsvoorheffing verschuldigd is. <KB 1997-01-10/42, art. 2, 1°, 033; Inwerkingtreding : 01-01-1997> Het model van de aangifte in de bedrijfsvoorheffing wordt vastgesteld door de Minister van Financiën of zijn gedelegeerde.
    (De schuldenaars van bedrijfsvoorheffing die zijn bedoeld in artikel 4 van de Wet van 24 december 1999 houdende fiscale en diverse bepalingen, moeten voor de periode waarin zij bezoldigingen hebben toegekend waarvoor zij de verschuldigde bedrijfsvoorheffing niet in de Schatkist moeten storten, twee afzonderlijke aangiften in de bedrijfsvoorheffing overleggen volgens het hierna volgend onderscheid : - de eerste aangifte in de bedrijfsvoorheffing bevat de door de werkgever betaalde of toegekende belastbare inkomsten van werknemers die niet in artikel 4 van de genoemde wet zijn bedoeld en de daarop verschuldigde bedrijfsvoorheffing die in de Schatkist moet worden gestort;
@@ -1511,11 +1515,11 @@ Ten aanzien van bepaalde categorieën van belastingplichtigen die tot buitengewo
    (§ 4. Voor de toepassing van § 1 moeten de in artikel 270, 4°, van het Wetboek van de inkomstenbelastingen 1992 vermelde schuldenaars van de bedrijfsvoorheffing binnen vijftien dagen na het verstrijken van de maand waarin de in artikel 87, 7° vermelde inkomsten overeenkomstig artikel 364 van hetzelfde Wetboek geacht worden te zijn toegekend, een aangifte in de bedrijfsvoorheffing overleggen bij de ontvanger van de directe belastingen te Brussel "Buitenland" en de verschuldigde bedrijfsvoorheffing door storting of overschrijving (op postrekening 679-2002400-29) van de voormelde ontvanger betalen volgens de regels van hoofdstuk III, afdeling III.) <KB 1993-10-22/33, art. 6; Inwerkingtreding : 01-01-1992> <KB 1999-11-09/33, art. 2, 059;
  Inwerkingtreding : 17-12-1999>
 
-## Art. 91
+##### Art. 91
 
 Ingeval vergoedingen in globo aan een in artikel 87, 5°, vermelde niet-inwoner die leider is van een orkest, gezelschap of ploeg en die alleen persoonlijk jegens de schuldenaar van de inkomsten gebonden is, worden betaald of toegekend ter beloning van de prestaties van het orkest, het gezelschap of de ploeg, rust de verplichting tot aangifte en storting van de bedrijfsvoorheffing op de schuldenaar van de totale vergoeding, zowel voor het deel dat de leider van het orkest, het gezelschap of de ploeg voor zich houdt, als voor het deel dat hij aan de leden daarvan afstaat.
 
-## Art. 92
+##### Art. 92
 
 <KB 1993-10-22/33, art. 7; Inwerkingtreding : 01-01-1992> § 1. Op het einde van elk jaar moeten de (in artikel 270, 1° tot 4° en 6°, van het Wetboek van de inkomstenbelastingen 1992 vermelde) schuldenaars van de bedrijfsvoorheffing : <KB 1997-01-10/42, art. 3, 1°, 033; Inwerkingtreding : 01-01-1997>
    1° voor iedere verkrijger van inkomsten een fiche invullen waarvan het model door de Minister van Financiën of zijn gedelegeerde wordt vastgesteld;
@@ -1525,82 +1529,82 @@ Ingeval vergoedingen in globo aan een in artikel 87, 5°, vermelde niet-inwoner 
   (De Minister van Financiën of zijn gedelegeerde kan vergunning verlenen om de fiches en de samenvattende opgaven te vervangen door een magnetische informatiedrager. De vergunning vermeldt de na te leven voorwaarden en kan steeds worden ingetrokken.) <KB 1994-01-20/37, art. 2, 002; Inwerkingtreding : 01-01- 1994> Voor pensioenen en sociale toelagen waarvan het bedrag het belastingvrije minimum niet bereikt, kan de Minister van Financiën of zijn gedelegeerde, op schriftelijke en met redenen omklede aanvraag en binnen de grenzen en onder de voorwaarden die hij stelt, de openbare machten, instellingen en lichamen, ontslaan van het opstellen van de in dit artikel vermelde fiches en samenvattende opgaven.
   § 2. In afwijking van § 1 moeten de in artikel 270, 4°, van het Wetboek van de inkomstenbelastingen 1992 vermelde schuldenaars van de bedrijfsvoorheffing een bijzondere opgave opstellen waarvan het model door de Minister van Financiën of zijn gedelegeerde wordt vastgesteld.
 
-## Art. 93
+##### Art. 93
 
 <KB 1993-10-22/33, art. 8; Inwerkingtreding : 01-01-1992> § 1. (Tot staving van de overeenkomstig de artikelen 90 en 91 overgelegde aangiften moeten de in artikel 270, 1° tot 4° en 6°, van het Wetboek van de inkomstenbelastingen 1992 vermelde schuldenaars van bedrijfsvoorheffing al de fiches en de samenvattende opgave of de magnetische informatiedrager waarvan sprake is in artikel 92, voor 1 maart van het jaar na dat waarop die fiches en die opgave of die magnetische informatiedrager betrekking hebben, inleveren bij de bevoegde dienst.) <KB 1999-05-03/39, art. 4, 053; Inwerkingtreding : 06-04-1999> (De in het eerste lid vermelde schuldenaars) van bedrijfsvoorheffing moeten voor 1 maart een afschrift van het fiche, behoorlijk ingevuld, aan iedere verkrijger van inkomsten overhandigen om hem in staat te stellen eventueel zijn aangifte in de personenbelasting of in de belasting van niet-inwoners in te vullen. <KB 1997-01-10/42, art. 4,
  2°, 033; Inwerkingtreding : 01-01-1997>
    § 2. In afwijking van § 1 moeten de in artikel 270, 4°, van het Wetboek van de inkomstenbelastingen 1992 vermelde schuldenaars van de bedrijfsvoorheffing, tot staving van de overeenkomstig artikel 90, § 4, overgelegde aangifte, de in artikel 92, § 2, vermelde bijzondere opgave uiterlijk vier maand na het verstrijken van de periode waarop die opgave betrekking heeft, inleveren bij de overeenkomstig artikel 297 van hetzelfde Wetboek aangewezen controle "Buitenland".
 
-## Art. 94
+##### Art. 94
 
 Op aanvraag verstrekt de administratie der directe belastingen aan de schuldenaars van bedrijfsvoorheffing kosteloos exemplaren van de in bijlage III neergelegde schalen en toepassingsregels en van de aangiften, de fiches en samenvattende opgaven, die vermeld zijn in de artikelen 90 tot 92.
   Voor zover zij alle vermeldingen bevatten, mogen fiches en samenvattende opgaven worden gebruikt waarvan het formaat niet afwijkt van het formaat van de door de Minister van Financiën of zijn gedelegeerde vastgestelde modellen.
 
-## Art. 95
+##### Art. 95
 
 Voor de berekening van de bedrijfsvoorheffing wordt het bedrag van de belastbare inkomsten (in euro vastgesteld en afgerond op de cent). <KB 2000-07-20/63, art. 5, 076; Inwerkingtreding : 01-01-2002>
 
-##### Afdeling III. - Roerende voorheffing op inkomsten van roerende goederen en kapitalen en op sommige diverse inkomsten.
+### Afdeling III. - Roerende voorheffing op inkomsten van roerende goederen en kapitalen en op sommige diverse inkomsten.
 
-###### Onderafdeling I. - Inkomsten van vreemde waarden, van schuldvorderingen op of van gelddeposito's in het buitenland. - Controlemaatregelen. (Wetboek van de inkomstenbelastingen 1992, artikel 263, eerste lid)
+#### Onderafdeling I. - Inkomsten van vreemde waarden, van schuldvorderingen op of van gelddeposito's in het buitenland. - Controlemaatregelen. (Wetboek van de inkomstenbelastingen 1992, artikel 263, eerste lid)
 
-## Art. 96
+##### Art. 96
 
 § 1. Voor de regelmatige inning van de roerende voorheffing zijn vennootschappen, instellingen, bankiers, notarissen, rentmeesters, zaakvoerders en andere personen die in België inkomsten van buitenlandse oorsprong uitbetalen of op enigerlei wijze bij de incassering van zulke inkomsten optreden, verplicht gezegde verrichtingen, naarmate zij zich voordoen, te boeken in een bijzonder register dat door de controleur van de directe belastingen van het ambtsgebied is genummerd en geparafeerd en dat alle door de Minister van Financiën voorgeschreven vermeldingen inhoudt.
   § 2. Het ter voldoening van § 1 gehouden register moet onmiddellijk op elk verzoek van de in artikel 101 aangewezen ambtenaren voorgelegd worden.
 
-## Art. 97
+##### Art. 97
 
 De Minister van Financiën kan het gebruik van fiscale zegels ten bewijze van de inning van de roerende voorheffing voorschrijven.
 
-## Art. 98
+##### Art. 98
 
 Elke zending binnen het land of naar het buitenland van coupons of middelen tot inning waarop verrichtingen als vermeld in artikel 96 betrekking hebben, moet vergezeld gaan van een uittreksel uit het bij § 1 van dat artikel voorgeschreven register, waarin de door de Minister van Financiën voorgeschreven vermeldingen voorkomen.
 
-## Art. 99
+##### Art. 99
 
 Tenzij de in artikel 98 gestelde formaliteiten vervuld zijn, is het verboden coupons of andere middelen tot inning van inkomsten van buitenlandse oorsprong, al dan niet afgeknipt van de effecten waartoe zij behoren, naar het buitenland te zenden.
 
-## Art. 100
+##### Art. 100
 
 De Minister van Financiën stelt het model van de in de artikelen 96 tot 99 vermelde registers, zegels en documenten vast en regelt het bijhouden of de gebruikswijze daarvan.
 
-## Art. 101
+##### Art. 101
 
 De ambtenaren van de administratie der directe belastingen en van de administratie der douane en accijnzen zijn bevoegd om de overtredingen van de artikelen 96 tot 99 vast te stellen.
 
-###### Onderafdeling II. - (Vrijstelling van de roerende voorheffing). (Wetboek van de inkomstenbelastingen 1992, artikel 264) <KB 2003-04-04/40, art. 1, Inwerkingtreding : 01-01-2001>
+#### Onderafdeling II. - (Vrijstelling van de roerende voorheffing). (Wetboek van de inkomstenbelastingen 1992, artikel 264) <KB 2003-04-04/40, art. 1, Inwerkingtreding : 01-01-2001>
 
-## Art. 101bis
+##### Art. 101bis
 
 <KB 2003-04-04/40, art. 1, Inwerkingtreding : 01-01-2001> Voor de toepassing van artikel 264, eerste lid, 2°bis van het Wetboek van de inkomstenbelastingen 1992, moeten worden gelijkgesteld met de gereglementeerde markten bedoeld in artikel 2, 5° en 6°, van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten, de gereglementeerde secundaire markten voor financiële instrumenten, al dan niet voor het publiek toegankelijk, die zijn geplaatst onder het toezicht van een toezichthouder welke een gewoon lid is van de "Internationale Organisatie van Effectentoezichthouders" (IOSCO), indien de maatschappelijke zetel van de marktonderneming welke de gereglementeerde secundaire markt organiseert, is gevestigd in een Staat, niet bedoeld in artikel 2, 6°, van voormelde wet van 2 augustus 2002 : - die een overeenkomst ter voorkoming van dubbele belasting heeft gesloten met België;
    - of waarvan de toezichthouder van de gereglementeerde markten met de Commissie voor het Bank- en Financiewezen een samenwerkingsovereenkomst over het toezicht op de financiële markten heeft gesloten.
 
-## Art. 101ter
+##### Art. 101ter
 
 <KB 2003-04-04/40, art. 1, Inwerkingtreding : 01-01-2001> De Federale overheidsdienst Financiën stelt elk jaar, voor de toepassing van artikel 101bis, een lijst op van de landen waarmee België een overeenkomst ter voorkoming van dubbele belasting heeft gesloten alsmede, op voorstel van de Commissie voor het Bank- en Financiewezen, een lijst van de toezichthouders welke gewoon lid zijn van de IOSCO en een lijst van de toezichthouders met dewelke de Commissie voor het Bank- en Financiewezen een samenwerkingsovereenkomst over het toezicht op de financiële markten heeft gesloten.
   Deze lijsten en alle tijdens het jaar daarin aangebrachte wijzigingen worden in het Belgisch Staatsblad bekendgemaakt.
 
-## Art. 102
+##### Art. 102
 
 Voor de toepassing van artikel 264, eerste lid, 3°, van het Wetboek van de inkomstenbelastingen 1992, wordt het geheel van de reserves bepaald volgens artikel 74 en van de winst die is gereserveerd onder het stelsel van wetgevingen voor de wet van 20 november 1962 houdende hervorming van de inkomstenbelastingen, in de volgende categorieën onderverdeeld :
    1° reserves overeenstemmend met winst die voorheen ten name van de vennoten is belast;
    2° reserves overeenstemmend met bedragen die ingevolge artikel 202 van het Wetboek van de inkomstenbelastingen 1992 of artikel 52, § 1, eerste lid, van de op 15 januari 1948 samengeordende wetten betreffende de inkomstenbelastingen, zijn afgetrokken van gereserveerde winst die voor de aanslagjaren 1973 en vorige belastbaar was;
    3° reserves overeenstemmend met alle andere maatschappelijke winst.
 
-## Art. 103
+##### Art. 103
 
 Wanneer op het einde van het belastbare tijdperk een vermindering van het totaal van de reserves wordt vastgesteld wordt de ermede overeenstemmende opneming achtereenvolgens aangerekend, eerst op de in artikel 102, 2°, vermelde reserves, daarna, indien die reserves ontoereikend zijn, op de in 3° van dat artikel vermelde reserves en tenslotte op de in 1° vermelde reserves.
 
-## Art. 104
+##### Art. 104
 
 De opnemingen vermeld in artikel 103 worden geacht in de in dat artikel aangegeven volgorde te hebben gediend :
   1° tot betaling van dividenden;
   2° tot alle andere doeleinden.
 
-###### Onderafdeling III. - Volledige of gedeeltelijke verzaking van de inning van roerende voorheffing. (Wetboek van de inkomstenbelastingen 1992, artikel 266)
+#### Onderafdeling III. - Volledige of gedeeltelijke verzaking van de inning van roerende voorheffing. (Wetboek van de inkomstenbelastingen 1992, artikel 266)
 
-## Art. 105
+##### Art. 105
 
 Voor de toepassing van de artikelen 106 tot 119 verstaat men :
    1° onder "financiële instellingen of ermede gelijkgestelde ondernemingen, behalve die welke voor 1 januari 1990 in vereffening zijn gesteld" :
@@ -1629,7 +1633,7 @@ Voor de toepassing van de artikelen 106 tot 119 verstaat men :
    4° onder "privé-spaarders", de aan de personenbelasting onderworpen rijksinwoners die hun rentegevende roerende kapitalen niet voor het uitoefenen van hun beroepswerkzaamheid hebben gebruikt;
    5° onder "spaarders niet-inwoners", de in artikel 227 van hetzelfde Wetboek vermelde belastingplichtigen die hun roerende kapitalen niet voor het uitoefenen van een beroepswerkzaamheid in België hebben gebruikt.
 
-## Art. 106
+##### Art. 106
 
 § 1. Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking tot (de niet in artikel 18, eerst lid, 3°, van het Wetboek van de inkomstenbelastingen 1992 bedoelde dividenden) waarvan de schuldenaar een buitenlandse vennootschap is, wanneer de verkrijger wordt geïdentificeerd als een binnenlandse vennootschap. <KB 2000-12-04/31, art. 1, 072; Inwerkingtreding : 28-11-2000> (Er wordt eveneens volledig afgezien van de inning van de roerende voorheffing op dividenden als bedoeld in artikel 18, eerste lid, 3°, van hetzelfde Wetboek, die worden verleend of toegekend naar aanleiding van een lening van aandelen van een buitenlandse vennootschap aan een verkrijger die wordt geïdentificeerd als een binnenlandse vennootschap.) <KB 2000-12-04/31, art. 1, 072; Inwerkingtreding : 28-11-2000> Die verzaking blijft zonder uitwerking met betrekking tot dividenden vermeld in het eerste lid, die worden geïncasseerd ten voordele van een Belgisch beleggingsfonds of die begrepen zijn in inkomsten van certificaten van buitenlandse beleggingsfondsen.
   § 2. Er wordt eveneens volledig afgezien van de inning van de roerende voorheffing op dividenden waarvan de schuldenaar, hetzij een vennootschap, vereniging, inrichting of instelling is die haar maatschappelijke zetel, haar voornaamste inrichting of haar zetel van bestuur of beheer in België heeft, hetzij een rechtspersoon naar Belgisch publiek recht is, wanneer de verkrijger wordt geïdentificeerd als een spaarder niet-inwoner die geen onderneming exploiteert of die zich niet met verrichtingen van winstgevende aard bezighoudt en die in het land waarvan hij inwoner is, vrijgesteld is van inkomstenbelastingen.
@@ -1651,7 +1655,7 @@ Voor de toepassing van de artikelen 106 tot 119 verstaat men :
    § 7. (Van de inning van de roerende voorheffing word t volledig afgezien met betrekking tot dividenden waarvan de schuldenaar een beleggingsvennootschap is als vermeld in de artikelen 114, 118 en 119quinquies van de wet van 4 december 1990 op de financiële transacties en de financiële markten, met uitsluiting van de vastgoedbeleggingsvennootschappen met vast kapitaal als bedoeld in artikel 2, 1°, van het koninklijk besluit van 10 april 1995 met betrekking tot vastgoedbevaks, en waarvan de verkrijger wordt geïdentificeerd als een spaarder niet-inwoner.) <KB 1995-04-10/95, art. 1, 1°, 017; Inwerkingtreding : 23-05-1995> Die verzaking is niet van toepassing op het gedeelte van het uitgekeerde inkomen dat afkomstig is van dividenden die de beleggingsvennootschap zelf ontvangen heeft van een binnenlandse vennootschap.
    (§ 8. Ongeacht wie de verkrijger van de hierna vermelde inkomsten is, wordt van de inning van de roerende voorheffing volledig afgezien met betrekking tot de dividenden die worden uitgekeerd door een vastgoedbeleggingsvennootschap met vast kapitaal als bedoeld in artikel 2, 1°, van het koninklijk besluit van 10 april 1995 met betrekking tot vastgoedbevaks, voor zover, bij het afsluiten van het boekjaar waarmee de dividenden verband houden, tenminste 60 % van het vastgoed in de zin van artikel 2, 4°, van het voornoemde besluit rechtstreeks of onrechtstreeks belegd is in onroerende goederen die in België zijn gelegen en uitsluitend voor woninggebruik aangewend worden of bestemd zijn.) <KB 1995-04-10/95, art. 1, 2°, 017; Inwerkingtreding : 23-05-1995> (§ 9. Ongeacht wie de verkrijger van de hierna vermelde inkomsten is, wordt van de inning van de roerende voorheffing gedeeltelijk afgezien met betrekking tot dividenden die worden uitgekeerd door een Belgische beleggingsvennootschap met vast kapitaal als bedoeld in artikel 2, 5°, van het koninklijk besluit van 18 april 1997 met betrekking tot de instellingen voor belegging in niet-genoteerde vennootschappen en in groeibedrijven. Die verzaking is enkel van toepassing op het gedeelte van het uitgekeerde inkomen dat afkomstig is van meerwaarden op aandelen verwezenlijkt door voormelde beleggingsvennootschap.) <KB 1998-01-09/39, art. 1, 042; Inwerkingtreding : 06-02-1998> (§ 10. Er wordt eveneens volledig afgezien van de inning van de roerende voorheffing op dividenden als bedoeld in artikel 18, eerste lid, 3°, van het Wetboek van de inkomstenbelastingen 1992, die worden verleend of toegekend naar aanleiding van een lening van aandelen, door middel van een gecentraliseerd systeem voor het lenen en ontlenen van aandelen als bedoeld in artikel 203, § 2, zesde lid, 2°, van hetzelfde Wetboek, erkend door de Minister van Financiën, aan een verkrijger die wordt geïdentificeerd als een buitenlandse vennootschap.) <KB 2000-12-04/31, art. 1, 072; Inwerkingtreding : 28-11-2000> (§ 11. Er wordt eveneens volledig afgezien van de inning van de roerende voorheffing op dividenden als bedoeld in artikel 18, eerste lid, 3°, van het Wetboek van de inkomstenbelastingen 1992, die worden verleend of toegekend naar aanleiding van een lening van aandelen, door middel van een gecentraliseerd systeem voor het lenen en ontlenen van aandelen als bedoeld in artikel 203, § 2, zesde lid, 2°, van hetzelfde Wetboek, erkend door de Minister van Financiën, aan een verkrijger die wordt geïdentificeerd als een binnenlandse vennootschap.) <KB 2000-12-04/31, art. 1, 072; Inwerkingtreding : 28-11-2000>
 
-## Art. 107
+##### Art. 107
 
 § 1. Met betrekking tot inkomsten hetzij van obligaties, kasbons of andere soortgelijke effecten, hetzij van schuldvorderingen en leningen, inkomsten vermeld in artikel 266, laatste lid, van het Wetboek van de inkomstenbelastingen 1992 uitgezonderd, die worden verleend of toegekend ter uitvoering van vanaf 1 december 1962 gesloten overeenkomsten, wordt van de inning van roerende voorheffing volledig of gedeeltelijk afgezien volgens het in §§ 2 tot 5 gemaakte onderscheid.
    § 2. Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking tot :
@@ -1698,16 +1702,16 @@ Voor de toepassing van de artikelen 106 tot 119 verstaat men :
    b) de verbintenis aan de bevoegde diensten van het Ministerie van Financiën, het Ministerie van Economische Zaken of het Ministerie van Middenstand, alle inlichtingen en stukken te bezorgen welke deze diensten nuttig achten om na te gaan of de geplande verrichtingen behoren tot die vermeld in § 2, 5°, d en e;
    c) de verbintenis de roerende voorheffing te betalen vanaf het ogenblik dat zou worden vastgesteld dat de lening niet wordt gebruikt tot de in het verzoekschrift omschreven doeleinden.
 
-## Art. 108
+##### Art. 108
 
 Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking tot inkomsten van obligaties, kasbons of andere soortgelijke effecten waarvan de schuldenaar een niet-inwoner is, wanneer de verkrijger wordt geïdentificeerd als een binnenlandse vennootschap of een belastingplichtige die volgens artikel 233 van het Wetboek van de inkomstenbelastingen 1992 aan de belasting van niet-inwoners is onderworpen en de rentegevende kapitalen voor het uitoefenen van zijn beroepswerkzaamheid in België gebruikt.
 
-## Art. 109
+##### Art. 109
 
 <KB 1995-05-30/31, art. 1, 018; Inwerkingtreding : 02-06-1995> Er wordt volledig afgezien van de inning van de roerende voorheffing op inkomsten uit certificaten van Belgische beleggingsfondsen, met uitsluiting van de inkomsten verleend of toegekend door Belgische fondsen voor belegging in schuldvorderingen als bedoeld in artikel 119quater van de wet van 4 december 1990 op de financiële transacties en de financiële markten.
    (Er wordt volledig afgezien van de inning van de roerende voorheffing op inkomsten van roerende waarden van buitenlandse oorsprong gedeponeerd in België en op inkomsten bekomen als gevolg van transacties met die waarden, toegekend of betaalbaar gesteld aan collectieve beleggingsinstellingen naar buitenlands recht die een onverdeeld vermogen zijn dat wordt beheerd door een beheersvennootschap voor rekening van deelnemers, wanneer hun rechten van deelneming in België niet openbaar worden uitgegeven en niet in België worden verhandeld.) <KB 1996-12-17/36, art. 1, 031; Inwerkingtreding : 31-12-1996>
 
-## Art. 110
+##### Art. 110
 
 Met betrekking tot inkomsten van gelddeposito's die, ofwel voor of vanaf 1 december 1962 zonder overeengekomen vaste termijn of opzeggingstermijn, ofwel vanaf 1 december 1962 met een overeengekomen vaste termijn of opzeggingstermijn, aan depositarissen zijn toevertrouwd, wordt van de inning van de roerende voorheffing volledig afgezien met betrekking tot :
    1° inkomsten van deposito's als vermeld in artikel 479, van boek III, van titel I, van het Wetboek van koophandel, verleend of toegekend door de Deposito en Consignatiekas, ongeacht de verkrijgers, voor zover die inkomsten betrekking hebben op een periode na 31 december 1988;
@@ -1725,18 +1729,18 @@ Met betrekking tot inkomsten van gelddeposito's die, ofwel voor of vanaf 1 decem
   b) parastatale instellingen voor sociale zekerheid of ermede gelijkgestelde instellingen;
   6° inkomsten van deposito's, waarvan de verkrijgers worden geïdentificeerd als coördinatiecentra, erkend overeenkomstig het koninklijk besluit nr. 187 van 30 december 1982.
 
-## Art. 111
+##### Art. 111
 
 Met betrekking tot inkomsten van verhuring, verpachting, gebruik en concessie van roerende goederen, en inkomsten verkregen, buiten het uitoefenen van een beroepswerkzaamheid, uit de onderverhuring of de overdracht van huur van al dan niet gemeubileerde onroerende goederen of uit de concessie van het recht om een plaats die van nature onroerend is en niet is gelegen binnen de omheining van een sportinrichting te gebruiken om er plakbrieven of andere reclamedragers te plaatsen, zomede met betrekking tot opbrengsten uit de verhuring van jacht-, vis- en vogelvangstrecht, wordt van de inning van de roerende voorheffing volledig afgezien indien de verkrijgers :
   a) aan de personenbelasting onderworpen rijksinwoners zijn;
   b) binnenlandse vennootschappen zijn;
   c) internationale of supranationale instellingen zijn als vermeld in artikel 105, 2°, c.
 
-## Art. 112
+##### Art. 112
 
 Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking tot inkomsten die begrepen zijn in de in artikel 17, § 1, 4°, van het Wetboek van de inkomstenbelastingen 1992 vermelde lijfrenten of tijdelijke renten waarvan de verkrijgers aan de personenbelasting onderworpen rijksinwoners zijn.
 
-## Art. 113
+##### Art. 113
 
 § 1. Met betrekking tot inkomsten van obligaties, kasbons of andere soortgelijke effecten, van schuldvorderingen en leningen, inkomsten als vermeld in artikel 266, tweede lid, van het Wetboek van de inkomstenbelastingen 1992 uitgezonderd, die worden verleend of toegekend ter uitvoering van voor 1 december 1962 gesloten overeenkomsten, zomede tot inkomsten van effecten van het Belgisch-Kongolees fonds voor delging en beheer en van effecten van de gewaarborgde Kongolese schuld in deviezen overgenomen door België, wordt van de inning van de roerende voorheffing volledig of gedeeltelijk afgezien volgens het in §§ 2 tot 6 gemaakte onderscheid.
    § 2. Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking tot :
@@ -1757,7 +1761,7 @@ Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking
    § 5. Met betrekking tot inkomsten van obligaties, kasbons of andere soortgelijke effecten en van schuldvorderingen en leningen, die niet van mobiliënbelasting of van zakelijke belastingen waren vrijgesteld en die worden verleend of toegekend ter uitvoering van overeenkomsten die de last van de mobiliënbelasting op de schuldenaar van de belastbare inkomsten leggen, heeft deze laatste het recht op die inkomsten het overeenkomstig artikel 234 bepaalde gedeelte van de voorheffing in te houden.
   § 6. De in §§ 2 tot 5 bepaalde volledige of gedeeltelijke verzaking van de inning van de roerende voorheffing is van toepassing op de inkomsten die zijn behaald tot het vervallen van de in de overeenkomst bepaalde vaste termijn of tot het verstrijken van een tijdperk dat, aanvangend op 5 december 1962, gelijk is aan de in het contract van lening bedongen opzeggingstermijn; die termijn of dat tijdperk wordt beoordeeld ongeacht de clausules van na 1 december 1962 verstrijkende overeenkomsten die eventueel stilzwijgend uitstel of verlenging ervan bedingen.
 
-## Art. 114
+##### Art. 114
 
 § 1. Met betrekking tot inkomsten van deposito's met vaste termijn of met opzeggingstermijn die voor 1 december 1962 aan depositarissen zijn toevertrouwd, wordt van de inning van de roerende voorheffing volledig of gedeeltelijk afgezien volgens het in §§ 2 tot 6 gemaakte onderscheid.
    § 2. Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking tot inkomsten van deposito's, die worden verleend of toegekend :
@@ -1769,19 +1773,19 @@ Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking
    § 5. De in §§ 2 tot 4 bepaalde volledige of gedeeltelijke verzaking van de inning van de roerende voorheffing is van toepassing op de inkomsten die zijn behaald tot het vervallen van de in de overeenkomst bepaalde vaste termijn of tot het verstrijken van een tijdperk dat, aanvangend op 5 december 1962, gelijk is aan de in het contract van deposito bedongen opzeggingstermijn; die termijn of dat tijdperk wordt beoordeeld ongeacht de clausules van na 1 december 1962 verstrijkende overeenkomsten die eventueel stilzwijgend uitstel of verlenging ervan bedingen.
    § 6. Worden niet als opzeggingstermijn in de zin van dit artikel aangemerkt, de wettelijke of overeengekomen termijnen die slechts een waarborg uitmaken die de depositaris wenst aan te voeren.
 
-## Art. 115
+##### Art. 115
 
 § 1. Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking tot de in de artikelen 17, § 1, en 90, 6°, van het Wetboek van de inkomstenbelastingen 1992 vermelde inkomsten die worden verleend of toegekend aan (ter uitvoering van artikel 145.16, 1°, van hetzelfde Wetboek erkende pensioenspaarfondsen). <KB 1995-09-01/42, art. 14, 1°, 019; Inwerkingtreding : 01-01-1993>
    § 2. Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking tot de in de artikelen 17,
  § 1, en 90, 6°, van het Wetboek van de inkomstenbelastingen 1992 vermelde inkomsten die worden verleend of toegekend aan houders van een in (artikel 145.16, 2°), van hetzelfde Wetboek bedoelde individuele spaarrekening, met betrekking tot de in die rekening begrepen activa. <KB 1995-09-01/42, art. 14, 2°, 019;
  Inwerkingtreding : 01-01-1993>
 
-## Art. 116
+##### Art. 116
 
 <KB 2000-12-04/31, art. 3, 072; Inwerkingtreding : 28-11-2000> Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking tot de in de artikelen 17 en 90, 6°, van het Wetboek van de inkomstenbelastingen 1992 vermelde inkomsten, andere dan dividenden van Belgische oorsprong die niet zijn bedoeld in artikel 18, eerste lid, 3°, van hetzelfde Wetboek, die worden verleend of toegekend aan beleggingsvennootschappen als bedoeld in de artikelen 114, 118 en 119quinquies van de wet van 4 december 1990 op de financiële transacties en de financiële markten.
    De verzaking voorzien in het eerste lid is eveneens uitgesloten met betrekking tot de vergoedingen als bedoeld in artikel 18, eerste lid, 3°, van hetzelfde Wetboek, verleend of toegekend naar aanleiding van een lening van aandelen van een Belgische vennootschap, buiten de in artikel 106, § 11 bedoelde gevallen.
 
-## Art. 117
+##### Art. 117
 
 § 1. Geen voorwaarde is gesteld met betrekking tot de volledige of gedeeltelijke verzaking van de inning van de roerende voorheffing op :
    1° inkomsten van obligaties, kasbons of andere soortgelijke effecten, van schuldvorderingen en leningen, vermeld in :
@@ -1834,7 +1838,7 @@ Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking
    b) op het ogenblik dat de lening wordt gesloten, eigenaar is van de geleende effecten.) <KB 2000-12-04/31, art.
  4, 072; Inwerkingtreding : 28-11-2000>
 
-## Art. 118
+##### Art. 118
 
 § 1. Met betrekking tot obligaties, kasbons of andere soortgelijke effecten van Belgische oorsprong, wordt van de inning van de roerende voorheffing volledig afgezien onder de volgende voorwaarden :
    1° (voor inkomsten vermeld in artikel 107, § 2, 5°, b en 10°) : <KB 1994-05-26/31, art. 3, 005; Inwerkingtreding : 09-06-1994> - de schuldenaar van de inkomsten moet in het bezit worden gesteld van het in artikel 117, § 6, vermelde attest;
@@ -1862,7 +1866,7 @@ Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking
    - de rentegevende effecten moeten gedurende datzelfde gehele tijdperk ofwel bij de uitgever op naam zijn ingeschreven ofwel aan toonder zijn en in België in open bewaring zijn gegeven bij een bank, een openbare kredietinstelling of een spaarkas die aan de controle van de Commissie voor het Bank- en Financiewezen is onderworpen.
    § 2. Met betrekking tot niet in § 1, 3° tot 6°, vermelde effecten aan toonder, kunnen parastatale instellingen voor sociale zekerheid of ermede gelijkgestelde instellingen, (pensioenspaarfondsen), houders van een individuele spaarrekening of beleggingsvennootschappen vermeld in de (artikelen 114, 118 en 119quinquies) van de wet van 4 december 1990 op de financiële transacties en de financiële markten, overeenkomstig artikel 119 teruggave verkrijgen van de bij de bron geïnde roerende voorheffing op de desbetreffende inkomsten. <KB 1995-09-01/42, art. 16, 4°, 019; Inwerkingtreding : 01-01-1993> <KB 1993-10-22/33, art. 11; Inwerkingtreding : 01-01-1993>
 
-## Art. 119
+##### Art. 119
 
 § 1. Mits daartoe, in de vormen en termijnen die zijn voorgeschreven in artikel 371 van het Wetboek van de inkomstenbelastingen 1992, een bezwaarschrift in te dienen bij de directeur van de directe belastingen van de provincie of het gewest in wiens ambtsgebied de roerende voorheffing is gestort, kan de teruggave van de bij de bron geïnde roerende voorheffing worden verkregen door :
   1° parastatale instellingen voor sociale zekerheid of ermede gelijkgestelde instellingen, in de gevallen waarin die voorheffing aan de bron is geheven zonder te letten op de hoedanigheid van de verkrijgers;
@@ -1874,10 +1878,10 @@ Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking
    § 2. Met betrekking tot de in artikel 118, § 1, 1°, vermelde effecten, uitgegeven door de Staat of door het Wegenfonds en vervreemd of verkregen tussen twee vervaldagen van de inkomsten, is de administratie der thesaurie gemachtigd, voor de periode waarin de rentegevende effecten het voorwerp zijn geweest van een inschrijving op naam in het Grootboek der Staatsschuld, aan de verkoper en aan de verkrijger een bedrag te storten dat gelijk is aan de roerende voorheffing die betrekking heeft op het prorata van de bruto-interest dat elk van hen werkelijk heeft verkregen of waarover hij werkelijk heeft kunnen beschikken.
    De in het eerste lid vermelde storting wordt uitgevoerd op voorwaarde dat de betrokken spaarder niet-inwoner de door de Minister van Financiën of zijn gedelegeerde vastgestelde voorschriften naleeft.
 
-###### Onderafdeling IV. - (In België in open bewaring gegeven aandelen aan toonder uitgegeven vanaf 1 januari 1994 - Voorwaarden en toepassingswijze voor het verkrijgen van een verlaagd tarief inzake roerende voorheffing (Wetboek van de inkomstenbelastingen 1992, artikel 269, derde lid, b)). <Ingevoegd bij KB 1995-09-01/41, art.
+#### Onderafdeling IV. - (In België in open bewaring gegeven aandelen aan toonder uitgegeven vanaf 1 januari 1994 - Voorwaarden en toepassingswijze voor het verkrijgen van een verlaagd tarief inzake roerende voorheffing (Wetboek van de inkomstenbelastingen 1992, artikel 269, derde lid, b)). <Ingevoegd bij KB 1995-09-01/41, art.
  1; Inwerkingtreding : 28-09-1995>
 
-## Art. 119bis
+##### Art. 119bis
 
 <Ingevoegd bij KB 1995-09-01/41, art. 1; Inwerkingtreding : 28-09-1995> § 1. Voor de toepassing van artikel 269, derde lid, b, van het Wetboek van de inkomstenbelastingen 1992, moeten de aandelen aan toonder vanaf hun uitgifte permanent in België in open bewaring zijn gegeven bij een bank, een openbare kredietinstelling, een beursvennootschap of een spaarkas die aan de controle van de Commissie voor het Banken Financiewezen is onderworpen.
    Aan de voorwaarde van permanente open bewaargeving is voldaan indien :
@@ -1891,18 +1895,18 @@ Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking
    § 4. Ingeval de aandelen van bewaarnemende instelling veranderen, wordt voor de toepassing van § 1, tweede lid, 2°, geacht dat de open bewaargeving niet onderbroken wordt indien deze verrichting gebeurt tussen instellingen als vermeld in § 1 en voor zover : - de verrichting plaatsheeft zonder de afgifte van de aandelen aan de bewaargever;
    - de eerste instelling aan de nieuwe instelling een attest uitreikt waarin zij bevestigt dat de betrokken aandelen tot op de dag van de voormelde verrichting het voorwerp hebben uitgemaakt van een open bewaargeving als vermeld in § 1.
 
-##### Afdeling IV. - Verrekening van voorheffingen.
+### Afdeling IV. - Verrekening van voorheffingen.
 
-###### Onderafdeling I. - Fictieve onroerende voorheffing. (Wetboek van de inkomstenbelastingen 1992, artikel 278)
+#### Onderafdeling I. - Fictieve onroerende voorheffing. (Wetboek van de inkomstenbelastingen 1992, artikel 278)
 
-## Art. 120
+##### Art. 120
 
 Een fictieve onroerende voorheffing wordt toegekend met betrekking tot de inkomsten uit onroerende goederen die ingevolge artikel 253, 3°, van het Wetboek van de inkomstenbelastingen 1992 of ingevolge bijzondere wetsbepalingen van onroerende voorheffing zijn vrijgesteld.
   Die fictieve onroerende voorheffing is gelijk aan 12,5 pct. van het kadastrale inkomen van de voormelde onroerende goederen; zij mag echter niet meer bedragen dan 5 pct. van het kadastrale inkomen wanneer het belastingplichtigen betreft als vermeld in artikel 216, 2°, van hetzelfde Wetboek.
 
-###### Onderafdeling II. - Fictieve roerende voorheffing. (Wetboek van de inkomstenbelastingen 1992, artikel 284)
+#### Onderafdeling II. - Fictieve roerende voorheffing. (Wetboek van de inkomstenbelastingen 1992, artikel 284)
 
-## Art. 121
+##### Art. 121
 
 § 1. De te verrekenen fictieve roerende voorheffing met betrekking tot inkomsten van roerende goederen en kapitalen waarvoor geheel of gedeeltelijk van de inning van roerende voorheffing is afgezien, is gelijk aan :
    1° vijfentwintig vijfenzeventigsten van het geïnde of verkregen nettobedrag van premies van Belgische overheidsfondsen die voor 1 december 1962 zijn uitgegeven en waarop, overeenkomstig artikel 113, § 3, a, geheel is afgezien van de inning van roerende voorheffing;
@@ -1916,17 +1920,17 @@ Een fictieve onroerende voorheffing wordt toegekend met betrekking tot de inkoms
    § 2. Wanneer de overeenkomstig artikel 126 van het Wetboek van de inkomstenbelastingen 1992 samengevoegde belastbare inkomsten, interest omvatten van verschillende in § 1, 2° b, vermelde deposito's, wordt geen fictieve roerende voorheffing verrekend voor de schijf van het totale bedrag van de toegekende interest waarop de roerende voorheffing tegen 25 pct. zou zijn geheven indien die interest door een enkel deposito was voortgebracht.
    § 3. Onder geïnd of verkregen nettobedrag als vermeld in § 1 wordt verstaan het nettobedrag van de inkomsten na aftrek van de werkelijk ingehouden roerende voorheffing maar voor aftrek van de innings- en bewaringskosten en van andere soortgelijke kosten.
 
-## Art. 122
+##### Art. 122
 
 Artikel 121 is van toepassing op de in § 1 van dat artikel vermelde inkomsten die in de belastbare grondslag van de inkomstenbelastingen zijn opgenomen.
 
-###### Onderafdeling III. - Mate van verrekening. (Wetboek van de inkomstenbelastingen 1992, artikel 295)
+#### Onderafdeling III. - Mate van verrekening. (Wetboek van de inkomstenbelastingen 1992, artikel 295)
 
-## Art. 123
+##### Art. 123
 
 De onroerende voorheffing, de fictieve onroerende voorheffing, de roerende voorheffing, de fictieve roerende voorheffing en het forfaitaire gedeelte van buitenlandse belasting worden, in de mate bepaald in de artikelen 276 tot 294 van het Wetboek van de inkomstenbelastingen 1992, met de personenbelasting, de vennootschapsbelasting of de belasting van niet-inwoners verrekend voor zover zij betrekking hebben op inkomsten die in de belastbare grondslag van die belastingen zijn opgenomen.
 
-## Art. 124
+##### Art. 124
 
 Voor de toepassing van artikel 125 verstaat men :
    1° onder "samengeteld gedeelte van het belastbare inkomen" : het gedeelte van het inkomen dat belast wordt volgens (de artikelen 130 tot 170, 178, 515bis, vierde lid, 516, 517 en 518) van het Wetboek van de inkomstenbelastingen 1992; <KB 1995-09-01/42, art. 18, 1°, 019; Inwerkingtreding : 01-01-1993>
@@ -1935,23 +1939,23 @@ Voor de toepassing van artikel 125 verstaat men :
    4° onder "afzonderlijk belaste nettoberoepsinkomsten" : de nettoberoepsinkomsten die in het in 2° vermelde afzonderlijk belaste gedeelte van het inkomen begrepen zijn;
    5° onder "totaal van de samengetelde netto-inkomsten" : de gezamenlijke netto-inkomsten van de verschillende categorieën, uitgezonderd het in 2° vermelde afzonderlijk belaste gedeelte.
 
-## Art. 125
+##### Art. 125
 
 Het in artikel 290, 2°, van het Wetboek van de inkomstenbelastingen 1992 vermelde deel van de personenbelasting dat evenredig betrekking heeft op de beroepsinkomsten, is gelijk aan de som van de personenbelasting die betrekking heeft op de afzonderlijk belaste nettoberoepsinkomsten, en het produkt dat wordt verkregen door het bedrag van de personenbelasting dat betrekking heeft op het samengetelde gedeelte van het belastbare inkomen, te vermenigvuldigen met een breuk waarvan de teller het bedrag is van de samengetelde nettoberoepsinkomsten en de noemer het totaal van de samengetelde netto-inkomsten.
 
-#### HOOFDSTUK III. - VESTIGING EN INVORDERING VAN DE BELASTING.
+## HOOFDSTUK III. - VESTIGING EN INVORDERING VAN DE BELASTING.
 
-##### Afdeling I. - (Aangiften. (Wetboek van de inkomstenbelastingen 1992, artikelen 297, tweede lid en 300, § 1)) <KB 1997-07-06/35, art. 1, 1°; Inwerkingtreding : 01-01-1997>
+### Afdeling I. - (Aangiften. (Wetboek van de inkomstenbelastingen 1992, artikelen 297, tweede lid en 300, § 1)) <KB 1997-07-06/35, art. 1, 1°; Inwerkingtreding : 01-01-1997>
 
-## Art. 125bis
+##### Art. 125bis
 
 <Ingevoegd bij KB 1997-07-06/35, art. 1, 2°; Inwerkingtreding : 01-01-1997> Het controlecentrum Brussel 4 is belast met het onderzoek van de aangifte in de personenbelasting van de personen vermeld in artikel 27, 5°, van het Wetboek van de inkomstenbelastingen 1992.
 
-## Art. 126
+##### Art. 126
 
 De bepalingen van de artikelen 305 en 307, § 2, van het Wetboek van de inkomstenbelastingen 1992 betreffende de aangifte inzake personenbelasting, vennootschapsbelasting, rechtspersonenbelasting en belasting van niet-inwoners, zijn van toepassing op de aangiften inzake roerende voorheffing en bedrijfsvoorheffing vermeld in de artikelen 85, 90 en 91 van dit besluit.
 
-## Art. 127
+##### Art. 127
 
 De gemeenten moeten :
   1° periodiek en tenminste eenmaal per jaar, voor 15 januari, aan de controleur van de directe belastingen van het ambtsgebied een opgave verstrekken van de in het vorige jaar in de bevolking opgetreden veranderingen : binnengekomen en vertrokken personen, veranderingen binnen de gemeente zelf; die opgave mag worden vervangen door fiches ad hoc of door duplicaten van de bij de bevolkingsdienst gedane aangiften;
@@ -1960,58 +1964,58 @@ De gemeenten moeten :
   4° een behoorlijk lokaal, zo nodig verwarmd en verricht, ter beschikking van de ambtenaren van de belastingen stellen op de zitdagen die, voor de vestiging en inning van de directe belastingen, nu en dan noodzakelijk zijn in de gemeenten waar de belastingdienst over geen voldoende ruim kantoor beschikt.
   De agglomeraties zijn verplicht tot het verstrekken, op aanvraag, van de lijst vermeld in 2° van het eerste lid.
 
-##### Afdeling II. - Kohieren. (Wetboek van de inkomstenbelastingen 1992, artikelen 251 en 300, § 1)
+### Afdeling II. - Kohieren. (Wetboek van de inkomstenbelastingen 1992, artikelen 251 en 300, § 1)
 
-## Art. 128
+##### Art. 128
 
 De kohieren mogen afzonderlijk per soort van belasting of voorheffing of ineens voor verschillende soorten van belastingen of voorheffingen worden aangelegd.
 
-## Art. 129
+##### Art. 129
 
 Zo nodig mogen de kohieren voor verscheidene aanslagjaren opgemaakt worden mits zij jaarlijks met een nieuwe uitvoerbaarverklaring worden bekleed.
 
-## Art. 130
+##### Art. 130
 
 Kohieren met aanslagen van belastingen of voorheffingen worden verbonden aan het begrotingsjaar dat loopt op de datum waarop ze uitvoerbaar worden verklaard; de belastingtarieven en eventueel de opcentiemen in verband met de respectieve aanslagjaren zijn van toepassing.
 
-## Art. 131
+##### Art. 131
 
 De kohieren van de directe belastingen worden opgemaakt per gemeente, per groep gemeenten of per ontvangkantoor.
 
-## Art. 132
+##### Art. 132
 
 De kohieren worden op door de administratie of door haar gedelegeerden bepaalde tijdstippen opgemaakt.
 
-## Art. 133
+##### Art. 133
 
 De aanslagen worden op naam van de betrokken belastingschuldigen ten kohiere gebracht.
   Aanslagen ten laste van overleden belastingschuldigen worden ten kohiere gebracht op hun naam voorafgegaan van het woord "Nalatenschap" en eventueel gevolgd van de vermelding van de persoon of personen die zich aan de administratie der directe belastingen hebben bekend gemaakt als erfgenaam, legataris, begiftigde of bijzondere lasthebber.
   De identiteit van die personen wordt omstandig vermeld. Wanneer een van de erfgenamen formeel is aangewezen om de nalatenschap te vertegenwoordigen, geschiedt het ten kohiere brengen als volgt : "Nalatenschap X ..., de erfgenamen vertegenwoordigd door ...".
   In geval van aanslag van ambtswege, moet de naam van de overleden belastingschuldige (Nalatenschap X ...) slechts gevolgd worden door de vermelding van een van de erfgenamen die aan de controleur van de belastingen bekend is.
 
-## Art. 134
+##### Art. 134
 
 Voor de berekening van de aanslagen in de personenbelasting, de vennootschapsbelasting, de rechtspersonenbelasting en de belasting van niet-inwoners wordt de belastbare grondslag (in euro vastgesteld en afgerond op de cent). <KB 2000-07-20/63, art. 5, 076; Inwerkingtreding : 01-01-2002>
 
-## Art. 135
+##### Art. 135
 
 De verschillende aanslagen, met inbegrip van de opcentiemen, worden in elk stadium van de berekening (in euro vastgesteld en afgerond op de cent). <KB 2000-07-20/63, art. 5, 076; Inwerkingtreding : 01- 01-2002>
 
-## Art. 136
+##### Art. 136
 
 Zodra de kohieren uitvoerbaar verklaard zijn, wordt aan de betrokken belastingschuldigen een aanslagbiljet gezonden.
 
-##### Afdeling III. - Betalingen en kwitanties. (Wetboek van de inkomstenbelastingen 1992, artikelen 250 en 300, § 1)
+### Afdeling III. - Betalingen en kwitanties. (Wetboek van de inkomstenbelastingen 1992, artikelen 250 en 300, § 1)
 
-## Art. 137
+##### Art. 137
 
 Onverminderd de bepalingen van de artikelen 141 en 177, zijn de inkomstenbelastingen en voorheffingen te betalen (bij de bevoegde) ontvanger van de directe belastingen, hierna de ontvanger genoemd.
  <KB 1999-05-03/39, art. 5, 053; Inwerkingtreding : 06-04-1999>
-## Art. 138
+##### Art. 138
 
 De ontvanger mag slechts de betaling eisen van inkomstenbelastingen en voorheffingen die verschuldigd zijn blijkens een aangifte of blijkens een uitvoerbaar verklaard kohier.
 
-## Art. 139
+##### Art. 139
 
 § 1. Inkomstenbelastingen en voorheffingen moeten worden betaald : - ofwel door storting of overschrijving op de (postrekening) van de ontvanger; <KB 1999-11-09/33, art. 3, 059;
  Inwerkingtreding : 17-12-1999>
@@ -2024,7 +2028,7 @@ De ontvanger mag slechts de betaling eisen van inkomstenbelastingen en voorheffi
  9, 006; Inwerkingtreding : 01-10-1992>
    - voor overschrijvingen en cheques, de rekeninguittreksels en erbij horende stukken.
 
-## Art. 140
+##### Art. 140
 
 <KB 1995-01-03/30, art. 4, 011; Inwerkingtreding : 01-01-1995> § 1. In afwijking van artikel 139 kan bedrijfsvoorheffing uitsluitend worden betaald door storting of overschrijving op de (postrekening) van de ontvanger. Daarbij mogen alleen betaalformulieren worden gebruikt : <KB 1999-11-09/33, art. 3, 059;
  Inwerkingtreding : 17-12-1999>
@@ -2032,17 +2036,17 @@ De ontvanger mag slechts de betaling eisen van inkomstenbelastingen en voorheffi
    - die op aanvraag of ambtshalve door het betrokken ontvangkantoor worden afgegeven en de naam van de belastingschuldige en zijn in artikel 90, § 2, bedoelde registratienummer vermelden.
    § 2. Betalingen verricht op de (postrekening) van de ontvanger met vermelding van een als in § 1 vermeld registratienummer, worden geacht gedaan te zijn voor rekening van de belastingschuldige die bij het kantoor van die ontvanger door dat nummer wordt geïdentificeerd. <KB 1999-11-09/33, art. 3, 059; Inwerkingtreding : 17- 12-1999>
 
-## Art. 141
+##### Art. 141
 
 Inkomstenbelastingen en voorheffingen waarvoor een gerechtsdeurwaarder in opdracht van de ontvanger vervolgingen instelt, kunnen in afwijking van de artikelen 137 en 139 betaald worden in handen van die gerechtsdeurwaarder.
 
-## Art. 142
+##### Art. 142
 
 § 1. Betalingen van inkomstenbelastingen en voorheffingen hebben uitwerking : - voor stortingen via een postkantoor en voor overschrijvingen, op de datum die door (de Post) als bevrijdende datum op het rekeninguittreksel wordt vermeld; <KB 1994-08-12/48, art. 11, 006; Inwerkingtreding : 01-10- 1992> - voor betalingen met een postwissel of met een gecertificeerde of gewaarborgde cheque, op de datum waarop de postwissel of de cheque door de ontvanger is ontvangen;
   - voor in artikel 141 vermelde betalingen, op de datum van de afgifte van de fondsen in handen van de gerechtsdeurwaarder.
   § 2. De Minister van Financiën of zijn gedelegeerde bepaalt de datum waarop de betaling uitwerking heeft wanneer hij krachtens artikel 139, § 1, tweede lid, een andere betaalwijze toestaat.
 
-## Art. 143
+##### Art. 143
 
 § 1. De belastingschuldige die verschillende belastingen of voorheffingen te betalen heeft, mag bij elke betaling vermelden wat hij wil vereffenen.
   Bij gebreke van dergelijke vermelding worden de betalingen aangerekend naar de keuze van de ontvanger, onverminderd de toepassing van § 2. Zulks geldt eveneens wanneer de aan te rekenen som voortkomt van een teruggave van belastingen, voorheffingen en toebehoren, of van een toekenning van moratoriuminteresten.
@@ -2050,31 +2054,31 @@ Inkomstenbelastingen en voorheffingen waarvoor een gerechtsdeurwaarder in opdrac
   1° op de kosten van alle aard, met inbegrip van het inningsrecht, ongeacht de aanslagen waarop zij betrekking hebben;
   2° op de nalatigheidsinteresten betreffende de voorheffingen of aanslagen die de belastingschuldige wil vereffenen of die de ontvanger wil aanzuiveren.
 
-## Art. 144
+##### Art. 144
 
 De ontvangkantoren van de directe belastingen zijn open de eerste 5 werkdagen van de week, van 9 u. tot 12 u., behalve op de officiële verlofdagen in de Rijksbesturen.
 
-##### Afdeling IV. - Verjaring. (Wetboek van de inkomstenbelastingen 1992, artikel 300, § 1)
+### Afdeling IV. - Verjaring. (Wetboek van de inkomstenbelastingen 1992, artikel 300, § 1)
 
-## Art. 145
+##### Art. 145
 
 (Directe belastingen zomede de onroerende voorheffing verjaren door verloop van vijf jaren vanaf de datum waarop ze dienen betaald te zijn krachtens artikel 413 van het Wetboek van de inkomstenbelastingen 1992.) <KB 1999-05-03/39, art. 6, 053; Inwerkingtreding : 06-04-1999> (De roerende voorheffing en de bedrijfsvoorheffing verjaren door verloop van vijf jaren vanaf de datum van uitvoerbaarverklaring van het kohier waarin ze zijn opgenomen krachtens artikel 304, § 1, 2° lid, van hetzelfde Wetboek.) <KB 1999-05-03/39, art. 6, 053; Inwerkingtreding : 06-04-1999> (De termijn bedoeld in de vorige leden) kan worden gestuit op de wijze bepaald in de artikelen 2244 en volgende van het Burgerlijk Wetboek of door afstand te doen van de op de verjaring verlopen termijn. In geval van stuiting van de verjaring treedt een nieuwe verjaring in, die op dezelfde wijze kan worden gestuit, door verloop van 5 jaren na de laatste akte of handeling waardoor de vorige verjaring is gestuit, indien geen geding voor het gerecht aanhangig is. <KB 1999-05-03/39, art. 6, 053; Inwerkingtreding : 06-04-1999>
 
-##### Afdeling V. - Vervolgingen. (Wetboek van de inkomstenbelastingen 1992, artikel 300, § 1)
+### Afdeling V. - Vervolgingen. (Wetboek van de inkomstenbelastingen 1992, artikel 300, § 1)
 
-###### Onderafdeling I. - Inleidende bepaling - Indeling van de vervolgingen.
+#### Onderafdeling I. - Inleidende bepaling - Indeling van de vervolgingen.
 
-## Art. 146
+##### Art. 146
 
 De invordering van de directe belastingen, zomede van de voorheffingen die niet binnen de wettelijke termijnen voldaan zijn, mag overeenkomstig het bepaalde in de artikelen 147 tot 175 vervolgd worden.
 
-## Art. 147
+##### Art. 147
 
 De vervolgingen zijn rechtstreeks of onrechtstreeks : de eerste zijn gericht tegen de belastingschuldigen die bij name in het kohier vermeld zijn of hun vertegenwoordiger; de tweede worden krachtens het bij de wet toegestane verhaal tegen derden ingesteld. Beide worden ingesteld ingevolge persoonlijke of gemeenschappelijke dwangschriften, uitgevaardigd door de ontvangers die in het bezit zijn van de kohieren of met de inning voor rekening van ambtgenoten belast zijn.
 
-###### Onderafdeling II. - Rechtstreekse vervolgingen.
+#### Onderafdeling II. - Rechtstreekse vervolgingen.
 
-## Art. 148
+##### Art. 148
 
 De rechtstreekse vervolgingen omvatten :
   1° het dwangbevel;
@@ -2086,62 +2090,62 @@ De rechtstreekse vervolgingen omvatten :
 
   A. Dwangbevel.
 
-## Art. 149
+##### Art. 149
 
 Ingeval een belastingschuldige zijn belastingen niet heeft gekweten binnen de termijnen van artikel 413 van het Wetboek van de inkomstenbelastingen 1992, doet de ontvanger hem een dwangbevel betekenen tot betaling binnen 24 uren, op straffe van tenuitvoerlegging door beslag.
   Het dwangbevel moet bovenaan een uittreksel bevatten uit het kohierartikel betreffende de belastingschuldige en een afschrift van de uitvoerbaarverklaring.
 
-## Art. 150
+##### Art. 150
 
 Ingevolge de betekening van een dwangbevel gedane gedeeltelijke betalingen verhinderen niet de voortzetting van de vervolgingen.
 
   B. Uitvoerend beslag op roerend goed.
 
-## Art. 151
+##### Art. 151
 
 Wanneer de termijn van het dwangbevel verstreken is, doet de ontvanger overgaan tot uitvoerend beslag op roerend goed, hetwelk geschiedt op de wijze bepaald in het Gerechtelijk Wetboek, behoudens de afwijkingen vastgesteld in de hierna volgende artikelen 152 tot 154.
 
-## Art. 152
+##### Art. 152
 
 Voor de inbeslagneming verzoekt de instrumenterende deurwaarder de belastingschuldige hem de kwitantie te vertonen van de op zijn aanslagen gestorte afkortingen en vermeldt dit verzoek in het proces-verbaal van beslag.
 
-## Art. 153
+##### Art. 153
 
 Uitvoerend beslag op roerend goed wordt gelegd niettegenstaande verzet tegen het dwangbevel, tenzij de instrumenterende deurwaarder het nuttig mocht achten daaromtrent de mening van de ontvanger in te winnen die, naar gelang van het geval, de schorsing of de voortzetting van verdere vervolgingen gelast.
   Alleen verzet aangaande de vorm van de akten schorst de tenuitvoerlegging, met dien verstande dat de verkoop van de in beslag genomen voorwerpen slechts kan geschieden na een gerechtelijke beslissing, welke zodra mogelijk moet worden gewezen.
 
-## Art. 154
+##### Art. 154
 
 Tegenover belastingschuldigen die door wegneming van roerende voorwerpen of anderszins pogen de waarborgen van de Schatkist te doen verdwijnen of gewoon te verminderen, kan de ontvanger rechtstreeks uitvoerend beslag op roerend goed doen leggen zonder voorafgaande betekening van een dwangbevel.
   In dat geval behelst het exploot van inbeslagneming het dwangbevel voor beslag en bevat het de diverse vermeldingen bedoeld in artikel 149, tweede lid, zomede de gronden voor het niet vooraf betekenen van een dwangbevel.
 
-## Art. 155
+##### Art. 155
 
 Alvorens te verkopen, doet de instrumenterende deurwaarder daarvan aangifte ten kantore van de registratie. Hij vermeldt deze formaliteit in het proces-verbaal van verkoop.
-## Art. 156
+##### Art. 156
 
 Zo geen koper opdaagt, wordt de verkoop verdaagd en worden de voorwerpen, krachtens een toestemming van de beslagrechter, naar de naburige markt of naar een andere, meer geschikte plaats gevoerd.
   De instrumenterende deurwaarder stelt proces-verbaal van niet-toewijzing op en gaat tot een nieuwe verkoop over.
 
   C. Beslag op tak- en wortelvaste vruchten.
 
-## Art. 157
+##### Art. 157
 
 Beslag op tak- en wortelvaste vruchten geschiedt op de wijze bepaald in het Gerechtelijk Wetboek.
 
   D. Uitvoerend beslag op zeeschepen en binnenschepen.
 
-## Art. 158
+##### Art. 158
 
 Uitvoerend beslag op zeeschepen en binnenschepen geschiedt op de wijze bepaald in het Gerechtelijk Wetboek.
 
   E. Uitvoerend beslag op onroerend goed.
 
-## Art. 159
+##### Art. 159
 
 Uitvoerend beslag op onroerend goed geschiedt op de wijze bepaald in het Gerechtelijk Wetboek.
 
-## Art. 160
+##### Art. 160
 
 Tot uitvoerend beslag op onroerend goed kan slechts worden overgegaan nadat de ontvanger, die in het bezit is van de kohieren of met de invordering van belastingen voor rekening van ambtgenoten belast is, door tussenkomst van de directeur van de directe belastingen daarvoor machtiging van de Minister van Financiën heeft verkregen.
   De ontvanger voegt bij het verzoek om machtiging :
@@ -2156,27 +2160,27 @@ Tot uitvoerend beslag op onroerend goed kan slechts worden overgegaan nadat de o
 
   F. Aan de vier soorten van beslag gemene bepalingen.
 
-## Art. 161
+##### Art. 161
 
 Het is de ontvangers en instrumenterende deurwaarders verboden, rechtstreeks of onrechtstreeks enig voorwerp, waarvan zij de verkoop bewerkstelligen, te kopen of voor zich te doen kopen op straffe van nietigheid van de verkoop en van ontzetting voor de deurwaarders van de directe belastingen of toepassing van de bij artikel 533 van het Gerechtelijk Wetboek bepaalde tuchtstraffen voor de gerechtsdeurwaarders.
 
   G. Aan het uitvoerend beslag op roerend goed en het beslag op tak- en wortelvaste vruchten gemene bepalingen.
 
-## Art. 162
+##### Art. 162
 
 § 1. Wanneer geen andere schuldeisers beslag of verzet hebben gedaan, wordt de bruto-opbrengst van de verkoop gestort in handen van de ontvanger.
   De gerechtsdeurwaarder trekt evenwel eerst de vervolgingskosten af die hem toekomen.
   § 2. Wanneer andere schuldeisers beslag of verzet hebben gedaan, voert de gerechtsdeurwaarder of de deurwaarder van de directe belastingen de evenredige verdeling uit op de wijze bepaald in het Gerechtelijk Wetboek.
 
-## Art. 163
+##### Art. 163
 
 De ontvanger rekent de hem gestorte sommen aan volgens de in artikel 143 gestelde regelen; hij geeft aan de belastingschuldige bij ter post aangetekende brief kennis van de aldus gedane aanrekeningen en betaalt hem het eventuele overschot terug.
 
-###### Onderafdeling III. - Onrechtstreekse vervolgingen.
+#### Onderafdeling III. - Onrechtstreekse vervolgingen.
 
   A. Vervolgingen tegen derden-houders.
 
-## Art. 164
+##### Art. 164
 
 § 1. Onder voorbehoud van het bepaalde (in de artikelen 433 tot 442bis) van het Wetboek van de inkomstenbelastingen 1992, zijn alle pachters, huurders, ontvangers, agenten, huismeesters, notarissen, gerechtsdeurwaarders, griffiers, curatoren, vertegenwoordigers en andere bewaarnemers en schuldenaars van aan een belastingschuldige verschuldigde of toebehorende inkomsten, sommen en zaken, verplicht, op het hun door de bevoegde ontvanger bij ter post aangetekende brief gedane verzoek, te betalen met het voor beslag vatbare gedeelte van de inkomsten, sommen en zaken die zij verschuldigd zijn of die zij onder zich houden en met kwijting insluitend gevolg voor de belastingschuldige, tot beloop van het bedrag, geheel of gedeeltelijk, dat door deze laatste verschuldigd is uit hoofde van belastingen, belastingverhogingen, nalatigheidsinteresten, boeten en kosten van vervolging of tenuitvoerlegging. <KB 1997-05-20/39, art. 9, 039; Inwerkingtreding : 20-06- 1997>
   § 2. Betaling mag evenwel slechts van de derden-houders worden gevorderd naarmate hun verplichtingen ten opzichte van de belastingschuldige vervallen, maar de ontvanger moet het verzoek niet hernieuwen zolang de oorzaken ervan niet gekweten zijn.
@@ -2187,7 +2191,7 @@ De ontvanger rekent de hem gestorte sommen aan volgens de in artikel 143 gesteld
   § 5. Ingeval de derden-houders niet voldoen aan de verplichtingen die uit de voorgaande paragrafen voortvloeien, worden zij vervolgd alsof zij rechtstreeks schuldenaars waren.
   § 6. De ontvanger geeft aan de belastingschuldige bij ter post aangetekende brief kennis van de aan de betalingen gegeven bestemming.
 
-## Art. 165
+##### Art. 165
 
 § 1. Wanneer uit de verklaring van de derden-houders blijkt, hetzij dat de uitvoering van het in artikel 164, § 1, vermelde verzoek belemmerd wordt door verzet van de belastingschuldige, hetzij dat de derdenhouders hun verplichtingen ten opzichte van de belastingschuldige betwisten, hetzij dat de inkomsten, sommen en zaken het voorwerp zijn van enig verzet of beslag onder derden, voor het verzoek gedaan door andere schuldeisers, hetzij dat de zaken te gelde moeten worden gemaakt, doet de ontvanger tot uitvoerend beslag onder derden overgaan, onverminderd de bewarende uitwerking van het gezegde verzoek.
   § 2. Dit uitvoerend beslag onder derden moet worden gelegd binnen de maand van de afgifte ter post van de in artikel 164, § 4, vermelde verklaring of kennisgeving; zo zulks niet geschiedt wordt het in artikel 164, § 1, vermelde verzoek als niet bestaande beschouwd.
@@ -2195,7 +2199,7 @@ De ontvanger rekent de hem gestorte sommen aan volgens de in artikel 143 gesteld
 
   B. Aanwending van sommen die aan een belastingschuldige moeten worden teruggegeven of betaald.
 
-## Art. 166
+##### Art. 166
 
 § 1. Het bepaalde van Boek III, Titel III, Hoofdstuk V, afdeling IV, van het Burgerlijk Wetboek, is inzake directe belastingen niet van toepassing.
   § 2. Elke som die aan een belastingschuldige moet worden teruggegeven of betaald in het kader van de toepassing van de wettelijke bepalingen inzake de inkomstenbelastingen en de ermee gelijkgestelde belastingen of krachtens de bepalingen van het burgerlijk recht met betrekking tot de onverschuldigde betaling, kan door de ontvanger van de directe belastingen zonder formaliteit, overeenkomstig artikel 143, worden aangezuiverd op de door die belastingschuldige verschuldigde voorheffingen, belastingen en ermee gelijkgestelde belastingen in hoofdsom, opcentiemen, verhogingen, interesten en kosten.
@@ -2203,68 +2207,68 @@ De ontvanger rekent de hem gestorte sommen aan volgens de in artikel 143 gesteld
  § 2 verricht als bewarende maatregel in de zin van artikel 409 van hetzelfde Wetboek. <KB 1999-05-03/39, art.
  7, 053; Inwerkingtreding : 06-04-1999>
 
-###### Onderafdeling IV. - Met de vervolgingen belaste personen.
+#### Onderafdeling IV. - Met de vervolgingen belaste personen.
 
-## Art. 167
+##### Art. 167
 
 De vervolgingen inzake directe belastingen worden ingesteld door gerechtsdeurwaarders of door deurwaarders van de directe belastingen in dienst op 1 mei 1967.
   Beiden doen in die hoedanigheid de dwangbevelen, de beslagleggingen en de verkopingen.
   Uit hoofde van de uitoefening van vervolgingen inzake directe belastingen mogen gerechtsdeurwaarders geen aanspraak maken op hogere of andere rechten of kosten dan die welke in artikel 172 vastgesteld zijn, op straffe van terugbetaling, schadevergoeding en, desnoods, toepassing van de bij artikel 533 van het Gerechtelijk Wetboek bepaalde tuchtstraffen.
 
-## Art. 168
+##### Art. 168
 
 Bij het uitoefenen van hun ambt moeten de deurwaarders van de directe belastingen voorzien zijn van hun aanstellingsbrief en deze op elk verzoek vertonen; zij vermelden zulks in alle akten van hun ambt.
 
-## Art. 169
+##### Art. 169
 
 De deurwaarders van de directe belastingen mogen hun ambt slechts uitoefenen in het ambtsgebied waarvoor zij op 1 mei 1967 definitief waren aangesteld.
-## Art. 170
+##### Art. 170
 
 In geen geval en onder geen enkel voorwendsel, mogen de deurwaarders van de directe belastingen, op straffe van ontzetting, enigerlei som van belastingschuldigen aannemen, noch als loon, noch ter betaling van belastingen.
   Belastingschuldigen die aan hen geld toevertrouwen, stellen zich eraan bloot tweemaal te moeten betalen.
 
-## Art. 171
+##### Art. 171
 
 De deurwaarders van de directe belastingen zijn hun gehele tijd verschuldigd aan het kantoor waaraan zij verbonden zijn; zij mogen derhalve geen collega's bijstaan als getuige.
   Niettegenstaande hun bijzondere opdracht blijven zij aan de administratieve tucht onderworpen.
 
-###### Onderafdeling V. - Vervolgingskosten.
+#### Onderafdeling V. - Vervolgingskosten.
 
-## Art. 172
+##### Art. 172
 
 De vervolgingskosten worden bepaald volgens de regelen die gelden voor de akten van de gerechtsdeurwaarders in burgerlijke en handelszaken.
 
-## Art. 173
+##### Art. 173
 
 De vervolgingskosten vallen ten laste van de achterstallige belastingschuldigen.
   Die kosten komen volledig toe aan de instrumenterende deurwaarders die de hoedanigheid van gerechtsdeurwaarder hebben. Ze komen aan de Schatkist toe, voor vervolgingen die door deurwaarders van de directe belastingen zijn gedaan; de Minister van Financiën is evenwel gemachtigd om een gedeelte daarvan aan die deurwaarders toe te kennen.
   In uitzonderlijke gevallen kan de ontvanger gemachtigd worden aan de instrumenterende deurwaarder de vervolgingskosten voor te schieten.
 
-## Art. 174
+##### Art. 174
 
 Ter vereffening worden niet aanvaard :
   1° kosten van akten die niet met de oorspronkelijke stukken gestaafd zijn;
   2° kosten die het gevolg zijn van vervolgingen die willekeurig, zonder dwangschrift of in een met onderhavige reglementering strijdige orde gedaan zijn;
   3° kosten gedaan tegen kennelijk onvermogende belastingschuldigen.
 
-###### Onderafdeling VI. - Algemene bepalingen.
+#### Onderafdeling VI. - Algemene bepalingen.
 
-## Art. 175
+##### Art. 175
 
 De wettelijke bepalingen betreffende de inhoud en de betekening van exploten zijn van toepassing op de akten van gerechtelijke vervolgingen inzake directe belastingen.
 
-##### Afdeling VI. - Opsporing van inbreuken. (Wetboek van de inkomstenbelastingen 1992, artikel 300, § 1)
+### Afdeling VI. - Opsporing van inbreuken. (Wetboek van de inkomstenbelastingen 1992, artikel 300, § 1)
 
-## Art. 176
+##### Art. 176
 
 Onverminderd de bevoegdheden van de gerechtelijke officieren bij de parketten, zijn de ambtenaren van de administratie der directe belastingen, van de administratie der douane en accijnzen, van de administratie van het kadaster, de beëdigde gemeenteambtenaren, de rijkswacht, de gerechtelijke agenten bij de parketten, de speciale controleurs van de administratie van het vervoer en de leden van het toezichtspersoneel van het Hoog Comité van toezicht bevoegd om overtredingen op te sporen en om, zelfs alleen, processen-verbaal inzake directe belastingen op te stellen.
   Die processen-verbaal, waarbij eventueel de schriftelijke uitleg van de overtreders wordt gevoegd, worden opgesteld ten verzoeke van de Minister van Financiën, op vervolging en benaarstiging van de directeur van de directe belastingen, domicilie kiezend in zijn kantoren; zij zijn van bevestiging of visum en van betekening vrijgesteld.
   De processen-verbaal worden toegezonden aan de ambtenaren die daartoe door de Minister van Financiën zijn aangewezen.
 
-##### Afdeling VII. - Vestiging en invordering door de administratie van de belasting over de toegevoegde waarde, registratie en domeinen, van de belasting van niet-inwoners op meerwaarden op (...) onroerende goederen.
+### Afdeling VII. - Vestiging en invordering door de administratie van de belasting over de toegevoegde waarde, registratie en domeinen, van de belasting van niet-inwoners op meerwaarden op (...) onroerende goederen.
  (Wetboek van de inkomstenbelastingen 1992, artikel 301) <KB 1997-05-20/39, art. 10; Inwerkingtreding : 01-06- 1997>
 
-## Art. 177
+##### Art. 177
 
 § 1. (Bij overdracht onder bezwarende titel van in België gelegen onroerende goederen of van zakelijke rechten met betrekking tot zulke goederen, zijn de personen die krachtens artikel 35 van het Wetboek der registratie-, hypotheek- en griffierechten, verplicht zijn de akte of een verklaring waarbij de overdracht is vastgesteld, ter registratie aan te bieden en de desbetreffende rechten te betalen, verplicht, bij de registratie van die akte of van die verklaring, op het in artikel 39 of 40 van dat Wetboek vermelde kantoor, de belasting van nietinwoners te betalen met betrekking tot de meerwaarden die belastbaar zijn als diverse inkomsten als bedoeld in artikel 228, § 2, 9°, g of i, van het Wetboek van de inkomstenbelastingen 1992.) <KB 1997-05-20/39, art. 11, 1°, 039; Inwerkingtreding : 01-06-1997>
    Artikel 5 van het Wetboek der registratie-, hypotheek- en griffierechten is van toepassing op de belasting van niet-inwoners die bij de registratie van de akte of van de verklaring moet worden betaald.
@@ -2275,9 +2279,9 @@ Onverminderd de bevoegdheden van de gerechtelijke officieren bij de parketten, z
  Inwerkingtreding : 01-06-1997>
    § 4. De bepalingen van titel VII, hoofdstuk VII, van het Wetboek van de inkomstenbelastingen 1992, zijn van toepassing op de belasting van niet-inwoners die door de ontvanger van de registratie wordt geheven bij de registratie van een akte of van een verklaring waarbij de overdracht onder bezwarende titel van (...) onroerende goederen of van zakelijke rechten met betrekking tot zulke onroerende goederen is vastgesteld. <KB 1997-05- 20/39, art. 11, 6°, 039; Inwerkingtreding : 01-06-1997>
 
-##### Afdeling VIII. - (Vrijstelling van de aangifteverplichting in de personenbelasting. (Wetboek van de inkomstenbelastingen 1992, artikel 306)) <KB 1994-05-09/40, art. 1; Inwerkingtreding : 01-01-1994>
+### Afdeling VIII. - (Vrijstelling van de aangifteverplichting in de personenbelasting. (Wetboek van de inkomstenbelastingen 1992, artikel 306)) <KB 1994-05-09/40, art. 1; Inwerkingtreding : 01-01-1994>
 
-## Art. 178
+##### Art. 178
 
 <KB 1994-05-09/40, art. 2, 004; Inwerkingtreding : 01-01-1994> § 1. De belastingplichtingen zonder beroepswerkzaamheid worden van aangifteplicht in de personenbelasting vrijgesteld ingeval hun belastbare inkomsten minder bedragen dan :
    1° de belastingvrije som indien het om een alleenstaande gaat;
@@ -2303,34 +2307,34 @@ Onverminderd de bevoegdheden van de gerechtelijke officieren bij de parketten, z
    5° voorafbetalingen verrichten.
    § 3. De vrijstelling van aangifteplicht is van toepassing voor het aanslagjaar waarvan het belastbaar tijdperk volgt op een kalenderjaar waarin aan de in § 1 of § 2 vermelde voorwaarden is voldaan.
 
-## Art. 179
+##### Art. 179
 
 (Opgeheven) <KB 1994-05-09/40, art. 3, 004; Inwerkingtreding : 01-01-1994>
 
-##### Afdeling IX. - Aanwijzing van derden om mededeling te verkrijgen van informatiegegevens voor de uitvoering van een opdracht van algemeen belang. (Wetboek van de inkomstenbelastingen 1992, artikel 314, § 4)
+### Afdeling IX. - Aanwijzing van derden om mededeling te verkrijgen van informatiegegevens voor de uitvoering van een opdracht van algemeen belang. (Wetboek van de inkomstenbelastingen 1992, artikel 314, § 4)
 
-## Art. 180
+##### Art. 180
 
 § 1. De naamloze vennootschap naar Belgisch recht Joos, waarvan de statuten zijn bekendgemaakt in de bijlagen van het Belgisch Staatsblad van 29 oktober 1983, wordt aangewezen om mededeling te verkrijgen van informatiegegevens als vermeld in artikel 314, § 4, eerste lid, van het Wetboek van de inkomstenbelastingen
  1992.
   § 2. Die mededeling staat niet gelijk met het recht van toegang tot het Rijksregister van de natuurlijke personen.
 
-## Art. 181
+##### Art. 181
 
 § 1. De naamloze vennootschap Joos gebruikt de in artikel 180, § 1, vermelde gegevens uitsluitend in haar werkplaatsen te Turnhout voor het adresseren van de aangifteformulieren inzake personenbelasting en met inachtneming van de bepalingen van artikel 314, § 4, laatste lid, van het Wetboek van de inkomstenbelastingen
  1992.
    § 2. Op straffe van toepassing van de bepalingen van artikel 314, § 5, van hetzelfde Wetboek neemt de naamloze vennootschap Joos de nodige maatregelen met het oog op de naleving van de voorschriften van § 1.
 
-##### Afdeling IXbis. - (Aanwijzing van ambtenaren van andere fiscale administraties die bevoegd zijn om onderzoekingen uit te voeren (Wetboek van de inkomstenbelastingen 1992, artikel 334bis).) <Ingevoegd bij KB 1995-04-04/34, art. 1; Inwerkingtreding : 01-01-1993>
+### Afdeling IXbis. - (Aanwijzing van ambtenaren van andere fiscale administraties die bevoegd zijn om onderzoekingen uit te voeren (Wetboek van de inkomstenbelastingen 1992, artikel 334bis).) <Ingevoegd bij KB 1995-04-04/34, art. 1; Inwerkingtreding : 01-01-1993>
 
-## Art. 181bis
+##### Art. 181bis
 
 <Ingevoegd bij KB 1995-04-04/34, art. 1; Inwerkingtreding : 01-01-1993> De onderzoekingen bedoeld in hoofdstuk III van titel VII van het Wetboek van de inkomstenbelastingen 1992 mogen worden verricht door de ambtenaren van de administratie der douane en accijnzen die bij toepassing van het koninklijk besluit van 7 december 1992 ter beschikking van de administratie der directe belastingen zijn gesteld.
 
-##### Afdeling X. - Minimumwinst van buitenlandse firma's. (Wetboek van de inkomstenbelastingen 1992, artikel 342,
+### Afdeling X. - Minimumwinst van buitenlandse firma's. (Wetboek van de inkomstenbelastingen 1992, artikel 342,
  § 2)
 
-## Art. 182
+##### Art. 182
 
 § 1. De minimumwinst die belastbaar is ten name van buitenlandse firma's die in België werkzaam zijn en volgens de vergelijkingsprocedure neergelegd in artikel 342, § 1, eerste lid, van het Wetboek van de inkomstenbelastingen 1992 belastbaar zijn, wordt bepaald als volgt :
    1° landbouwbedrijven, tuinbouwbedrijven of boomkwekerijen : forfaitaire schaal vastgesteld voor de Belgische belastingplichtigen die in dezelfde landbouwstreek een soortgelijk beroep uitoefenen;
@@ -2351,18 +2355,18 @@ Onverminderd de bevoegdheden van de gerechtelijke officieren bij de parketten, z
    § 2. Het bedrag van de overeenkomstig § 1 vastgestelde belastbare winst mag in geen geval lager zijn dan (9.500,00 EUR). <KB 2000-07-20/63, art. 2, 075; Inwerkingtreding : 01-01-2002>
    § 3. De overeenkomstig § 1 vastgestelde belastbare inkomsten omvatten niet de (in artikel 228, § 2, 9°, g,) van hetzelfde Wetboek vermelde meerwaarden. <KB 1997-05-20/39, art. 12, 1°, 039; Inwerkingtreding : 01-01- 1993>
 
-##### Afdeling XI. - Fiscale Commissies. (Wetboek van de inkomstenbelastingen 1992, artikel 347)
+### Afdeling XI. - Fiscale Commissies. (Wetboek van de inkomstenbelastingen 1992, artikel 347)
 
-## Art. 183
+##### Art. 183
 
 Het ambtsgebied van elk van de commissies waarvan sprake is in artikel 347 van het Wetboek van de inkomstenbelastingen 1992 wordt vastgesteld in bijlage IV.
    De zetel van elk van die commissies wordt gevestigd in de gemeente die voorkomt in de linkerkolom van bijlage IV.
 
-## Art. 184
+##### Art. 184
 
 De bevoegdheid van de commissie strekt zich uit tot de gevallen die haar worden voorgelegd betreffende de natuurlijke personen en rechtspersonen belastbaar in haar ambtsgebied.
 
-## Art. 185
+##### Art. 185
 
 De commissie bestaat uit :
    1° een inspecteur van de directe belastingen die van rechtswege voorzitter is van de commissie;
@@ -2372,11 +2376,11 @@ De commissie bestaat uit :
    5° 2 afgevaardigden van de landbouw, te kiezen uit de personen van het ambtsgebied die in dubbel aantal zijn voorgedragen door de landbouwkamer van de provincie waarin de zetel van de commissie gevestigd is, indien zich in haar ambtsgebied landbouwgebieden bevinden;
    6° 3 afgevaardigden van de loon- en weddetrekkers, te kiezen uit de personen van het ambtsgebied die in dubbel aantal zijn voorgedragen door de voorzitter van de arbeidsrechtbank van het gerechtelijk arrondissement waarin de zetel van de commissie gevestigd is.
 
-## Art. 186
+##### Art. 186
 
 De inspecteur-voorzitter mag advies verstrekken; de andere leden van de commissie zijn stemgerechtigd.
 
-## Art. 187
+##### Art. 187
 
 § 1. De commissie wordt voorgezeten door de inspecteur belast met het toezicht op de taxatiewerkzaamheden betreffende de belastingplichtige of door een ambtenaar van dezelfde graad die door de gewestelijk directeur van de directe belastingen, in wiens ambtsgebied de zetel van de commissie gevestigd is, aangewezen is om in de vervanging van de inspecteur te voorzien.
   § 2. De andere commissieleden worden benoemd, ontslagen en, in geval van zware tekortkomingen in de uitoefening van hun mandaat, bij met redenen omklede beslissing ontzet door de in § 1 vermelde directeur.
@@ -2386,41 +2390,41 @@ De inspecteur-voorzitter mag advies verstrekken; de andere leden van de commissi
   § 4. Het stemgerechtigde commissielid dat wordt ontslagen of ontzet voor het verstrijken van de duur van zijn mandaat, wordt vervangen door een nieuw lid gekozen uit de kandidaten van dezelfde categorie die bij de laatste hernieuwing van de commissie zijn voorgedragen; dat lid voltooit het mandaat van zijn voorganger.
   § 5. Wanneer de voordracht van de kandidaten voor de functie van stemgerechtigd commissielid door de daartoe bevoegde overheid of organisatie niet geschiedt binnen een maand na de aanvraag die de administratie te dien einde bij aangetekende brief heeft gedaan, kan de commissie niettemin geldig vergaderen en besluiten, ongeacht het aantal en de hoedanigheid van de in functie zijnde leden.
 
-## Art. 188
+##### Art. 188
 
 Het mandaat van commissielid is onbezoldigd.
   Een reisvergoeding wordt toegekend aan de stemgerechtigde commissieleden die hun woonplaats hebben buiten de gemeente of agglomeratie waar de zetel van de commissie gevestigd is.
   Die vergoeding wordt berekend volgens de regelen en tarieven die voor de gewone getuigen zijn vastgesteld overeenkomstig de artikelen 32, 33 en 146 tot 149 van het Algemeen Reglement op de gerechtskosten in strafzaken.
 
-## Art. 189
+##### Art. 189
 
 § 1. Alvorens de stemgerechtigde commissieleden hun functie aanvaarden, leggen zij de volgende eed af in handen van de inspecteur-voorzitter : "Ik zweer mij in volle onpartijdigheid van mijn opdracht te kwijten en de beraadslagingen waaraan ik deelneem geheim te houden".
   § 2. De leden van wie het mandaat wordt verlengd, moeten geen nieuwe eed afleggen.
 
-## Art. 190
+##### Art. 190
 
 De commissie kan onder de aanwezige leden een secretaris aanwijzen om de notulen van de beraadslagingen op te stellen.
    Indien de commissie geen secretaris aanwijst, neemt de inspecteur-voorzitter of een door hem gekozen ambtenaar van de directe belastingen die functie waar. Die ambtenaar maakt geen deel uit van de commissie en is niet stemgerechtigd; hij mag evenmin advies verstrekken.
 
-## Art. 191
+##### Art. 191
 
 De commissie vergadert op initiatief van de inspecteur-voorzitter.
 
-## Art. 192
+##### Art. 192
 
 Ten minste 15 dagen voor de vergadering roept de inspecteur-voorzitter de leden op bij ter post aangetekende brief waarbij worden medegedeeld : plaats, datum en uur van de vergadering, opgave van de te behandelen zaken zomede de plaats, de dagen en uren waar en waarop de leden kennis kunnen nemen van de desbetreffende dossiers.
    Dezelfde oproeping wordt gezonden aan de controleur van de directe belastingen van het ambtsgebied waarin elk van de betrokken belastingplichtigen belastbaar is.
    Die controleur kan zich laten bijstaan door de ambtenaar die de verificatie heeft verricht van de aangifte in de inkomstenbelastingen die wordt betwist.
-## Art. 193
+##### Art. 193
 
 Ten minste 15 dagen voor de vergadering deelt de inspecteur-voorzitter de plaats, de datum en het uur van de vergadering bij ter post aangetekende brief aan de belastingplichtige mede.
   Het staat de belastingplichtige vrij bij de commissie uiterlijk de voorlaatste werkdag voor de vergadering, door bemiddeling van de inspecteur-voorzitter, alle stukken of memories voor de verdediging van zijn zaak te doen toekomen en persoonlijk of bij lasthebber, eventueel bijgestaan door een consulent of deskundige, voor de commissie te verschijnen.
 
-## Art. 194
+##### Art. 194
 
 De inspecteur-voorzitter mag de termijn van 15 dagen waarvan sprake is in de artikelen 192 en 193 tot minimum 5 dagen inkorten, ingeval hij die maatregel noodzakelijk acht om de belangen van de Schatkist te vrijwaren.
 
-## Art. 195
+##### Art. 195
 
 § 1. De commissie vergadert en beraadslaagt rechtsgeldig ongeacht het aantal aanwezige leden.
   § 2. De commissie neemt kennis van de stukken of memories neergelegd door de belastingplichtige.
@@ -2428,11 +2432,11 @@ De inspecteur-voorzitter mag de termijn van 15 dagen waarvan sprake is in de art
   § 3. Het debat is op tegenspraak, tenzij de belastingplichtige of zijn lasthebber verstek laat gaan.
   § 4. De controleur en de belastingplichtige of zijn lasthebber mogen de beraadslaging en de stemming van de commissie niet bijwonen.
 
-## Art. 196
+##### Art. 196
 
 De besluiten van de commissie worden door de aanwezige stemgerechtigde leden bij meerderheid van stemmen genomen. Ze moeten met redenen omkleed zijn.
 
-## Art. 197
+##### Art. 197
 
 § 1. Van de beraadslagingen worden, voor elke zaak, notulen opgesteld met vermelding van : - de plaats en de datum van de vergadering;
   - de naam, de voornamen en het adres, of de rechtsvorm, de firmanaam en het adres van de maatschappelijke zetel van de belastingplichtige;
@@ -2444,14 +2448,14 @@ De besluiten van de commissie worden door de aanwezige stemgerechtigde leden bij
   De notulen behelzen het met redenen omklede advies van de commissie en vermelden het aantal stemmen dat voor of tegen de in stemming gebrachte besluiten zijn uitgebracht, zomede het aantal onthoudingen, zonder enige precisering over het door elk van de leden tijdens de stemming ingenomen standpunt.
   § 2. De notulen worden in drievoud opgesteld. Elk exemplaar wordt door alle aanwezige leden ondertekend; de handtekeningen worden gevolgd door de naam van de ondertekenaar.
 
-## Art. 198
+##### Art. 198
 
 De inspecteur-voorzitter zendt 2 exemplaren van de notulen aan de controleur vermeld in artikel 192.
  Deze zendt één exemplaar aan de belastingplichtige bij ter post aangetekende brief.
 
-##### Afdeling XII. - Bepaling van het belastbare tijdperk voor de personenbelasting, vennootschapsbelasting, rechtspersonenbelasting, belasting van niet-inwoners en voorheffingen, en van de inkomsten die daartoe behoren. (Wetboek van de inkomstenbelastingen 1992, artikel 360, tweede lid)
+### Afdeling XII. - Bepaling van het belastbare tijdperk voor de personenbelasting, vennootschapsbelasting, rechtspersonenbelasting, belasting van niet-inwoners en voorheffingen, en van de inkomsten die daartoe behoren. (Wetboek van de inkomstenbelastingen 1992, artikel 360, tweede lid)
 
-## Art. 199
+##### Art. 199
 
 Het belastbare tijdperk valt samen met het jaar waarnaar het aanslagjaar wordt genoemd, voor de toepassing :
   a) van de onroerende voorheffing;
@@ -2459,27 +2463,27 @@ Het belastbare tijdperk valt samen met het jaar waarnaar het aanslagjaar wordt g
   c) van de bedrijfsvoorheffing vermeld in de artikelen 270 tot 275 van het Wetboek van de inkomstenbelastingen
  1992.
 
-## Art. 200
+##### Art. 200
 
 Het belastbare tijdperk valt samen met het jaar voor dat waarnaar het aanslagjaar wordt genoemd, voor de toepassing :
   a) van de personenbelasting en van de belasting van niet-inwoners die overeenkomstig de artikelen 243, 244, 245 en 248 van het Wetboek van de inkomstenbelastingen 1992 wordt gevestigd;
   b) van de vennootschapsbelasting en van de belasting van niet-inwoners die overeenkomstig de artikelen 233 en 248 van hetzelfde Wetboek wordt gevestigd, wanneer de betrokkenen niet of per kalenderjaar boekhouden;
   c) van de rechtspersonenbelasting en van de belasting van niet-inwoners die overeenkomstig de artikelen 234 en 248 van hetzelfde Wetboek wordt gevestigd.
 
-## Art. 201
+##### Art. 201
 
 Het belastbare tijdperk valt samen met het boekjaar voor het jaar waarnaar het aanslagjaar wordt genoemd, voor de toepassing van de vennootschapsbelasting en van de belasting van niet-inwoners die overeenkomstig de artikelen 233 en 248 van het Wetboek van de inkomstenbelastingen 1992 wordt gevestigd, wanneer het boekjaar loopt over een tijdperk dat korter of langer is dan een jaar en de betrokkenen hun boekhouding afsluiten op 31 december van het jaar.
 
-## Art. 202
+##### Art. 202
 
 Het belastbare tijdperk valt samen met het boekjaar, afgesloten in het jaar waarnaar het aanslagjaar wordt genoemd, voor de toepassing van de vennootschapsbelasting en van de belasting van niet-inwoners die overeenkomstig de artikelen 233 en 248 van het Wetboek van de inkomstenbelastingen 1992 wordt gevestigd, wanneer de betrokkenen anders dan per kalenderjaar boekhouden.
 
-## Art. 203
+##### Art. 203
 
 Met betrekking tot belastingplichtigen voor wie de gronden voor belastbaarheid overeenkomstig artikel 200 slechts na 1 januari aanwezig zijn of voor 31 december zijn weggevallen, stemt het belastbare tijdperk overeen met het gedeelte van het jaar waarin die gronden aanwezig zijn geweest.
   In afwijking van gezegd artikel 200 wordt het aanslagjaar genoemd naar het jaar waarin de gronden voor belastbaarheid weggevallen zijn.
 
-## Art. 204
+##### Art. 204
 
 Inkomsten van het in de artikelen 199 tot 203 vermelde belastbare tijdperk zijn :
   1° inkomsten van gebouwde of ongebouwde onroerende goederen die op dat tijdperk betrekking hebben;
@@ -2496,31 +2500,31 @@ Inkomsten van het in de artikelen 199 tot 203 vermelde belastbare tijdperk zijn 
   (e) vastgestelde of vermoede meerwaarden van dat tijdperk vermeld in artikel 90, 10°, van hetzelfde Wetboek;) <KB 1997-05-20/39, art. 13, 1°, 039; Inwerkingtreding : 01-01-1997>
   5° de kosten, bijdragen, pensioenen, renten en toelagen vermeld (in de artikelen 222 en 223, 4° en 5°) van hetzelfde Wetboek, die door de belastingplichtige tijdens dat tijdperk zijn betaald of toegekend. <KB 1997-05- 20/39, art. 13, 2°, 039; Inwerkingtreding : 01-01-1998>
 
-## Art. 205
+##### Art. 205
 
 Voor de toepassing :
    1° van artikel 204, 3°, a, worden winst of baten die uit een boekhouding blijken, geacht verkregen te zijn op de datum van afsluiting van het boekjaar waarop zij betrekking hebben;
    2° van artikel 204, 3°, b, wordt het bedrag vermeld in artikel 31, derde lid, van het Wetboek van de inkomstenbelastingen 1992 geacht te zijn betaald of toegekend op de datum waarop de aandelen zijn overgedragen;
    3° (...) <KB 1995-09-01/42, art. 19, 019; Inwerkingtreding : 01-01-1993>
 
-## Art. 206
+##### Art. 206
 
 De bijzondere aanslag in de vennootschapsbelasting vermeld in artikel 219 van het Wetboek van de inkomstenbelastingen 1992, de bijzondere aanslag in de belasting van niet-inwoners gevestigd volgens artikel 246, 2°, en de aanslagen vermeld in artikel 247, 2° en 3°, van hetzelfde Wetboek, worden verbonden aan het aanslagjaar betreffende het belastbare tijdperk bepaald overeenkomstig de artikelen 200 tot 203, in de loop waarvan de omstandigheid, waarin gezegde aanslagen hun grond vinden, zich heeft voorgedaan.
 
-##### Afdeling XIII. - (Maatregelen betreffende de werkzaamheden van koppelbazen. (Wetboek van de inkomstenbelastingen 1992, artikelen 403, 404 en 406)). <KB 1998-12-26/31, art. 20, 049; Inwerkingtreding : 01-01-1999>
+### Afdeling XIII. - (Maatregelen betreffende de werkzaamheden van koppelbazen. (Wetboek van de inkomstenbelastingen 1992, artikelen 403, 404 en 406)). <KB 1998-12-26/31, art. 20, 049; Inwerkingtreding : 01-01-1999>
 
-## Art. 207
+##### Art. 207
 
 <KB 1998-12-26/31, art. 21, 049; Inwerkingtreding : 01-01-1999> Het krachtens artikel 403, van hetzelfde Wetboek ingehouden bedrag moet worden gestort bij de ontvanger die door de directeur-generaal van de directe belastingen wordt aangewezen.
   De betaling van het ingehouden bedrag moet worden verricht op hetzelfde tijdstip als de betaling aan de aannemer en uitsluitend door storting of overschrijving op de postrekening van de aangewezen ontvanger.
   Op het stortings- of overschrijvingsbewijs moet naast de naam, het adres en het BTW-nummer van de in het vorig lid bedoelde aannemer, de vermelding "Art. 403 WIB 92", voorkomen, zomede de verwijzing naar de factuur waarop de betaling betrekking heeft.
   Gelijktijdig met de vermelde storting of overschrijving, zendt degene die de storting moet verrichten, aan de ontvanger een afschrift van de facturen waarop de betaling betrekking heeft.
 
-## Art. 208
+##### Art. 208
 
 <KB 1998-12-26/31, art. 22, 049; Inwerkingtreding : 01-01-1999> De in artikel 403, § 2, tweede lid, van hetzelfde Wetboek bedoelde vrijstelling van de verplichting tot inhouding wordt verleend op voorwaarde dat de geregistreerde onderaannemer op het ogenblik van de betaling volgens de in artikel 27 van het koninklijk besluit van 26 december 1998 tot uitvoering van de artikelen 400, 401, 403, 404 en 406 van het Wetboek van de inkomstenbelastingen 1992 en van artikel 30bis van de wet van 27 juni 1969 tot herziening van de besluitwet van 28 december 1944 betreffende de maatschappelijke zekerheid der arbeiders bepaalde definities geen schuldenaar is bij de Rijksdienst voor Sociale Zekerheid of bij een Fonds voor bestaanszekerheid of voor de verschuldigde bedragen uitstel van betaling heeft gekregen zonder gerechtelijke procedure of bij een in kracht van gewijsde gegane rechterlijke beslissing en de opgelegde termijnen strikt naleeft. De Rijksdienst voor Sociale Zekerheid stelt te dien einde een publiek toegankelijke gegevensbank in die voor de toepassing van dit lid bewijskracht heeft.
 
-## Art. 209
+##### Art. 209
 
 <KB 1998-12-26/31, art. 23, 049; Inwerkingtreding : 01-01-1999> § 1. De persoon op wiens schuldvordering het gestorte bedrag werd ingehouden kan, voor zover en in de mate dat hij geen achterstallige belastingen verschuldigd is, bij de in artikel 207 bedoelde ontvanger een aanvraag om teruggaaf indienen.
   De aanvraag dient inzonderheid te vermelden:
@@ -2530,15 +2534,15 @@ De bijzondere aanslag in de vennootschapsbelasting vermeld in artikel 219 van he
   § 2. In de mate dat het niet wordt aangewend tot betaling van achterstallige belastingschulden overeenkomstig artikel 406, §§ 1 en 2, van hetzelfde Wetboek, wordt het gestorte bedrag ten spoedigste en uiterlijk binnen een termijn van zes maanden te rekenen vanaf de regelmatig ingediende aanvraag om teruggaaf, door de ontvanger aan de aanvrager overgemaakt.
   § 3. Wanneer het gestorte bedrag geheel of gedeeltelijk aangewend overeenkomstig het voornoemde artikel 406, §§ 1 en 2, geeft de ontvanger daarvan binnen de in § 2 bedoelde termijn kennis aan de aanvrager met vermelding van alle gegevens omtrent de aangezuiverde schulden.
 
-## Art. 210
+##### Art. 210
 
 <KB 1998-12-26/31, art. 28, 049; Inwerkingtreding : 01-01-1999> Wanneer degene die de in artikel 403, van hetzelfde Wetboek opgelegde storting niet heeft verricht, alsnog de vereiste storting uitvoert op verzoek van de administratie en binnen de door haar opgelegde termijn en wanneer het bewijs van storting wordt overgelegd, wordt de in artikel 404, § 1, van dat Wetboek bedoelde administratieve boete, voor ten hoogste drie overtredingen, verminderd tot een achtste, een vierde of de helft van die boete naargelang het respectievelijk een eerste, een tweede of een derde overtreding betreft.
 
-##### Afdeling IIIBis. - (Inning door de administratie van de belasting over de toegevoegde waarde, registratie en domeinen, van de bedrijfsvoorheffing op meerwaarden verwezenlijkt op onroerende goederen door nietinwoners in het kader van hun beroepswerkzaamheid.) <Ingevoegd bij KB 1997-01-10/42, art. 5;
+### Afdeling IIIBis. - (Inning door de administratie van de belasting over de toegevoegde waarde, registratie en domeinen, van de bedrijfsvoorheffing op meerwaarden verwezenlijkt op onroerende goederen door nietinwoners in het kader van hun beroepswerkzaamheid.) <Ingevoegd bij KB 1997-01-10/42, art. 5;
  Inwerkingtreding : 01-01-1997>
    (Wetboek van de inkomstenbelastingen 1992 - artikel 412bis)
 
-## Art. 210bis
+##### Art. 210bis
 
 <Ingevoegd bij KB 1997-01-10/42, art. 5; Inwerkingtreding : 01-01-1997> § 1. De in artikel 270, 5°, van het Wetboek van de inkomstenbelastingen 1992 vermelde personen zijn verplicht, bij de registratie van de akte of van de verklaring waarbij de overdracht is vastgesteld, op het in artikel 39 of 40 van het Wetboek der registratie-, hypotheek- en griffierechten vermelde kantoor, de bedrijfsvoorheffing bepaald overeenkomstig hoofdstuk XII van de bijlage III te betalen met betrekking tot de meerwaarden die begrepen zijn in de in artikel 228, §2, 3°, a en 4° van het Wetboek van de inkomstenbelastingen 1992 vermelde winst of baten en die verwezenlijkt zijn bij de overdracht onder bezwarende titel van in Belgiën gelegen onroerende goederen of van zakelijk erechten met betrekking tot zulke onroerende goederen, door aan de belasting van niet-inwoners onderworpen belastingplichtigen.
    Artikel 5 van het Wetboek der registratie-, hypotheek- en griffierechten is van toepassing op de bedrijfsvoorheffing met betrekking tot de in het eerste lid vermelde meerwaarden, die bij de registratie van de akte of van de verklaring moet worden betaald.
@@ -2552,90 +2556,90 @@ De bijzondere aanslag in de vennootschapsbelasting vermeld in artikel 219 van he
  Deze laatste zal een exemplaar aan de overdrager van het onroerend goed of van de zakelijke rechten met betrekking tot dat goed overhandigen om hem in staat te stellen zijn aangifte in de belasting van niet-inwoners in te vullen.
   Een exemplaar van de in het eerste lid vermelde kennisgeving wordt door de ontvanger van de reegistratie aan de bevoegde taxatiedienst der directe belastingen gezonden.
 
-## Art. 210ter
+##### Art. 210ter
 
 <Ingevoegd bij KB 1997-01-10/42, art. 5; Inwerkingtreding : 01-01-1997> De in artikel 210bis bedoelde aangifte en kennisgeving moeten worden opgesteld op een formulier dat overeenkomt met het model van bijlage 1 van het koninklijk besluit van 10 januari 1997.
 
-##### Afdeling XIV. - Zakelijke zekerheid en persoonlijke borgstelling. (Wetboek van de inkomstenbelastingen 1992, artikel 420, § 1)
+### Afdeling XIV. - Zakelijke zekerheid en persoonlijke borgstelling. (Wetboek van de inkomstenbelastingen 1992, artikel 420, § 1)
 
-## Art. 211
+##### Art. 211
 
 De hoegrootheid van de in artikel 420, § 1, van het Wetboek van de inkomstenbelastingen 1992 voorgeschreven waarborg wordt bij beslissing van de directeur van de directe belastingen vastgelegd. Zij moet gelijk zijn aan het vermoedelijke bedrag van de verplichtingen over één jaar die op grond van voormeld Wetboek aan de betrokken natuurlijke of rechtspersoon kunnen worden opgelegd, onder aftrek van de nettoverkoopwaarde van zijn goederen die het pand van de Schatkist vormen en die gelegen zijn in België of in een land waarmede België een overeenkomst heeft gesloten tot regeling van de wederzijdse bijstand inzake de invordering van de belastingen waaraan de belanghebbende is onderworpen.
    De waarborg mag evenwel in geen geval minder dan (750,00 EUR) bedragen. <KB 2000-07-20/63, art. 3, 075;
  Inwerkingtreding : 01-01-2002>
 
-## Art. 212
+##### Art. 212
 
 § 1. Indien de waarborg wordt geëist van een belastingschuldige die reeds een beroepswerkzaamheid heeft waarvan de uitoefeningsvoorwaarden niet aanzienlijk zullen worden gewijzigd, wordt hij vastgesteld in verhouding tot de belastingen en bijbehoren verschuldigd voor de 3 belastbare tijdperken die voorafgaan aan deze waarin de beslissing wordt genomen, zonder meer te mogen bedragen dan tweemaal het hoogste bedrag aan belastingen in hoofdsom verschuldigd voor één van deze 3 belastbare tijdperken, verminderd met de nettoverkoopwaarde van de goederen van belanghebbende die de waarborg van de Schatkist vormen en die gelegen zijn in België of in een land waarmede België een overeenkomst heeft gesloten tot regeling van de wederzijdse bijstand inzake de invordering van de belastingen waaraan de belanghebbende is onderworpen.
   Voor de toepassing van het voorgaande lid moet onder verschuldigde belastingen worden verstaan de belastingen en voorheffingen die zijn ingekohierd en, bij gebrek aan inkohiering, de belastingen en voorheffingen die betrekking hebben op de aangegeven inkomsten of op die waarmee de belastingschuldige zich in de loop van de aanslagverrichtingen akkoord heeft verklaard.
   § 2. Indien de waarborg wordt geëist naar aanleiding van een toekomstige beroepswerkzaamheid of van een beroepswerkzaamheid die sedert minder dan één jaar begonnen is of waarvan de uitoefeningsvoorwaarden aanzienlijk zullen worden gewijzigd of sedert minder dan één jaar gewijzigd zijn, raamt de directeur het vermoedelijke bedrag van de verplichtingen van de betrokken natuurlijke of rechtspersoon op basis van de beroepsinkomsten vastgelegd volgens de bij artikel 342, § 1, van het Wetboek van de inkomstenbelastingen 1992 vastgelegde criteria.
 
-## Art. 213
+##### Art. 213
 
 De te verstrekken waarborg bestaat hetzij uit een zakelijke zekerheid in de vorm van een borgtocht in geld of in overheidsfondsen of van een hypotheekvestiging, hetzij uit een persoonlijke borgstelling.
   De in artikel 219 vermelde ontvanger van de directe belastingen mag andere wijzen van waarborgstelling aanvaarden.
   Indien nodig mogen de voormelde wijzen gelijktijdig worden aangewend om de totale zekerheid te verstrekken.
 
-## Art. 214
+##### Art. 214
 
 De onroerende goederen die als hypothecaire waarborg worden aangeboden, moeten in België gelegen zijn.
    Geldt het gebouwen, dan wordt voor de aanneming van de hypothecaire aanwending bewijs gegeven van voldoende verzekering tegen brand. In de akte moet worden vermeld dat de regelmatige betaling van de premie jaarlijks zal worden bewezen op straffe van verval van de aanneming.
    In alle gevallen wordt bewijs verstrekt van de eigendom en van de hypothecaire staat van het onroerend goed en wordt de waarde daarvan, op kosten van de belastingschuldige, vastgelegd door alle middelen die voldoening schenken en onder meer door een schatting van een algemeen als bevoegd erkende deskundige, zo zulks vanwege de ontvanger geëist wordt.
 
-## Art. 215
+##### Art. 215
 
 Borgtochten in geld worden gestort of overgeschreven op de rekening die bij (de Post) is geopend op naam van de Deposito- en Consignatiekas; in alles, en inzonderheid met betrekking tot de interest die aan de deponent verschuldigd is, worden zij met deposito's bij de Deposito- en Consignatiekas gelijkgesteld. <KB 1994- 08-12/48, art. 12, 006; Inwerkingtreding : 01-10-1992>
 
-## Art. 216
+##### Art. 216
 
 Zonder afbreuk te doen aan de mogelijkheid voor de ontvanger om andere wijzen van waarborgstelling te aanvaarden zijn de aanneembare overheidsfondsen die welke aangenomen worden voor het stellen van borgtochten van aannemers. De lijst en de aannemingsvoet ervan worden bepaald bij de jongste desbetreffende besluiten door de Minister van Financiën genomen en door diens toedoen gepubliceerd.
   Effecten aan toonder worden gedeponeerd in handen van de Staatskassier of van diens agenten; inschrijvingen op naam worden, zowel in het Grootboek als op het uittreksel, in de rand aangetekend met een vermelding waarbij wordt vastgesteld dat zij niet zonder geschreven toestemming van de ontvanger van de directe belastingen mogen worden vervreemd of te gelde gemaakt.
 
-## Art. 217
+##### Art. 217
 
 De persoonlijke borg moet bekwaam zijn, volgens de Belgische wet, om verbintenissen aan te gaan en aangenomen worden door de ontvanger van de directe belastingen vermeld in artikel 219.
 
-## Art. 218
+##### Art. 218
 
 Indien de zakelijke zekerheid of de gegoedheid van de persoonlijke borg wegens enige oorzaak - zoals waardevermindering van de tot zekerheid dienende onroerende goederen of overheidsfondsen of merkelijke vermindering van het fortuin van de borg - ongenoegzaam wordt geacht, is de belastingschuldige op het eerste verzoek van de ontvanger van de directe belastingen gehouden een nieuwe zakelijke zekerheid of een nieuwe persoonlijke borg te stellen.
 
-## Art. 219
+##### Art. 219
 
 In de akten wordt de administratie vertegenwoordigd door de ontvanger van de directe belastingen vermeld in de beslissing van de directeur of, bij gebrek aan zulke vermelding, door de ontvanger van de plaats van aanslag.
   Samen met de nodige inlichtingen en bewijsstukken en binnen de termijn gesteld in artikel 421 van het Wetboek van de inkomstenbelastingen 1992, overhandigt de belastingschuldige aan deze ambtenaar hetzij het ontwerp van akte van hypotheekvestiging, van verpanding van een inschrijving op naam of van verbintenis van de persoonlijke borg, hetzij het stortingsbewijs of het bewijs van deponering voor borgtochten in geld of in effecten aan toonder.
 
-##### Afdeling XV. - Verplichtingen van kredietinstellingen of -inrichtingen. (Wetboek van de inkomstenbelastingen 1992, artikel 443)
+### Afdeling XV. - Verplichtingen van kredietinstellingen of -inrichtingen. (Wetboek van de inkomstenbelastingen 1992, artikel 443)
 
-## Art. 220
+##### Art. 220
 
 De ambtenaar vermeld in artikel 443 van het Wetboek van de inkomstenbelastingen 1992 is :
    1° de ontvanger van de directe belastingen in wiens ambtsgebied de natuurlijke persoon of rechtspersoon aan wie een in dat artikel vermeld krediet, lening of voorschot wordt toegekend, zijn woonplaats, zijn maatschappelijke zetel of zijn voornaamste inrichting van bestuur heeft;
    2° de ontvanger van de directe belastingen belast met de inning van de belasting van niet-inwoners indien de betrokken natuurlijke persoon of rechtspersoon zijn woonplaats, zijn maatschappelijke zetel of zijn voornaamste inrichting van bestuur in het buitenland heeft.
 
-## Art. 221
+##### Art. 221
 
 Het attest vermeld in artikel 443 van het Wetboek van de inkomstenbelastingen 1992 wordt uitgereikt nadat door de belanghebbende natuurlijke persoon of rechtspersoon een aanvraag, in 3 exemplaren, is ingediend. De aanvraag en het attest worden gesteld op een formulier waarvan het model wordt vastgesteld door de directeur-generaal van de directe belastingen. Het attest wordt uitgereikt binnen 8 dagen na de indiening van de aanvraag.
 
-## Art. 222
+##### Art. 222
 
 Per krediet, lening of voorschot, waarvoor een voordeel inzake economische expansie is aangevraagd, moeten de kredietinstellingen en -inrichtingen vermeld in artikel 443 van het Wetboek van de inkomstenbelastingen 1992, in principe, in het bezit zijn van slechts 1 attest.
    De datum van uitreiking van dat attest mag niet vroeger zijn dan 1 maand voor de datum van de aanvraag tot verkrijging van het voordeel, noch later dan deze datum.
    Er moet evenwel een nieuw attest worden voorgelegd wanneer de beslissing tot toekenning van het voordeel niet is genomen binnen 6 maanden te rekenen van de datum van het attest.
 
-## Art. 223
+##### Art. 223
 
 Een exemplaar van het attest vermeld in artikel 443 van het Wetboek van de inkomstenbelastingen 1992 wordt door de in artikel 220 aangewezen ambtenaar gezonden aan de overheid vermeld in de aanvraag van het attest.
   Wanneer uit het attest blijkt dat een bedrag als belastingen of bijbehoren eisbaar is ten name van de natuurlijke persoon of rechtspersoon die een voordeel inzake economische expansie heeft aangevraagd, bepaalt de beslissing tot toekenning van het voordeel dat de kredietinstelling of -inrichting de fondsen niet geheel mag vrijgeven tenzij de betrokkene zijn belastingschuld heeft betaald.
 
-## Art. 224
+##### Art. 224
 
 § 1. Wanneer uit het uitgereikte attest dat aan de kredietinstelling of -inrichting wordt overgelegd blijkt dat een bedrag als belastingen of bijbehoren eisbaar is ten name van de natuurlijke persoon of rechtspersoon aan wie een krediet, lening of voorschot is verleend waarvoor een voordeel inzake economische expansie is aangevraagd, mogen de fondsen die afkomstig zijn van het krediet, de lening of het voorschotten belope van dat bedrag niet worden vrijgegeven, tenzij de belanghebbende natuurlijke persoon of rechtspersoon een attest overlegt waarin de in artikel 220 aangewezen ambtenaar verklaart dat die belastingen en bijbehoren betaald zijn.
   Met instemming van de belastingschuldige mag de kredietinstelling of -inrichting deze fondsen evenwel rechtstreeks overmaken aan het bevoegde ontvangkantoor.
   § 2. In het geval vermeld in artikel 222, derde lid, hoeft de kredietinstelling of -inrichting met de gegevens van het nieuwe attest slechts rekening te houden in zover de fondsen nog niet zijn vrijgegeven voor het verstrijken van de in die bepaling vermelde termijn van 6 maanden.
 
-##### Afdeling XVI. - Schaal van de belastingverhogingen. (Wetboek van de inkomstenbelastingen 1992, artikel 444)
+### Afdeling XVI. - Schaal van de belastingverhogingen. (Wetboek van de inkomstenbelastingen 1992, artikel 444)
 
-## Art. 225
+##### Art. 225
 
 De schaal van de belastingverhogingen bij niet-aangifte, andere dan inzake roerende voorheffing en bedrijfsvoorheffing, wordt als volgt vastgesteld :
 
@@ -2651,7 +2655,7 @@ De schaal van de belastingverhogingen bij niet-aangifte, andere dan inzake roere
  - 3e overtreding en volgende overtredingen : 200 pct.
  D. Niet-aangifte gepaard gaande met ofwel onjuistheid of verwijzing door valsheid of gebruik van valse stukken tijdens de verificatie van de belastingstoestand, ofwel met een omkoping of een poging tot omkopen van ambtenaren : in alle gevallen : 200 pct.
 
-## Art. 226
+##### Art. 226
 
 De schaal van de belastingverhogingen bij onvolledige of onjuiste aangifte, andere dan inzake roerende voorheffing en bedrijfsvoorheffing, wordt als volgt vastgesteld :
 
@@ -2666,11 +2670,11 @@ De schaal van de belastingverhogingen bij onvolledige of onjuiste aangifte, ande
  - 3e overtreding en volgende overtredingen : 200 pct.
  D. Onvolledige of onjuiste aangifte gepaard gaande met valsheid of gebruik van valse stukken of met een omkoping of een poging tot omkopen van ambtenaren : in alle gevallen : 200 pct.
 
-## Art. 227
+##### Art. 227
 
 Voor de vaststelling van het toe te passen percent van de belastingverhogingen worden de vorige overtredingen die bedoeld zijn in B en C van de artikelen 225 en 226 niet in aanmerking genomen wanneer geen enkele overtreding inzake aangifte in de inkomstenbelastingen is bestraft voor de laatste 4 aanslagjaren die het aanslagjaar voorafgaan waarvoor de nieuwe overtreding moet worden bestraft.
 
-## Art. 228
+##### Art. 228
 
 De schaal van de belastingverhogingen bij niet-aangifte of bij onvolledige of onjuiste aangifte inzake roerende voorheffing en bedrijfsvoorheffing, gepaard gaande met niet-betaling of ontoereikende betaling van de voormelde voorheffingen, wordt als volgt vastgesteld :
 
@@ -2690,41 +2694,41 @@ De schaal van de belastingverhogingen bij niet-aangifte of bij onvolledige of on
 
   Voor de vaststelling van het toe te passen percent van de belastingverhogingen worden de vorige overtredingen die bedoeld zijn in B en C niet in aanmerking genomen wanneer geen enkele overtreding inzake aangifte en betaling van de roerende voorheffing en de bedrijfsvoorheffing, afzonderlijk beschouwd, is bestraft voor 4 opeenvolgende maandelijkse, driemaandelijkse of jaarlijkse vervaldagen.
 
-## Art. 229
+##### Art. 229
 
 Voor de vaststelling van het krachtens de artikelen 225, 226 en 228 toe te passen percent van de belastingverhogingen, is een tweede of een volgende overtreding aanwezig wanneer op het ogenblik waarop een nieuwe overtreding wordt begaan, aan de overtreder kennis is gegeven van de verhoging die de vorige overtreding heeft bestraft.
 
-#### HOOFDSTUK IV. - BELASTINGWEZEN VAN DE PROVINCIES, DE AGGLOMERATIES EN DE GEMEENTEN.
+## HOOFDSTUK IV. - BELASTINGWEZEN VAN DE PROVINCIES, DE AGGLOMERATIES EN DE GEMEENTEN.
  (Wetboek van de inkomstenbelastingen 1992, artikelen 300 en 469)
-##### Afdeling I. - Provinciale belastingen.
+### Afdeling I. - Provinciale belastingen.
 
-## Art. 230
+##### Art. 230
 
 § 1. Voor zover zij niet inzonderheid de inkomstenbelastingen betreffen, zijn de bepalingen van de artikelen 126, 127 en 128 tot 176, van toepassing op de provinciale belastingen.
   § 2. In afwijking van artikel 139 mogen niet ten kohiere gebrachte provinciale belastingen waarvoor een plaat, penning of ander kenteken wordt uitgereikt, ook betaald worden in munten of bankbiljetten die in België wettig betaalmiddel zijn.
 
-##### Afdeling II. - Aanvullende agglomeratie- en gemeentebelastingen.
+### Afdeling II. - Aanvullende agglomeratie- en gemeentebelastingen.
 
-## Art. 231
+##### Art. 231
 
 De kohieren van de aanvullende agglomeratiebelasting op de personenbelasting en de kohieren van de aanvullende gemeentebelasting op de personenbelasting worden opgemaakt volgens de door de directeurgeneraal van de directe belastingen gestelde regelen.
   Die aanvullende belastingen worden opgenomen in kohieren verbonden aan het begrotingsjaar dat loopt op de datum waarop ze uitvoerbaar worden verklaard; toegepast worden de tarieven in verband met de desbetreffende aanslagjaren.
 
-## Art. 232
+##### Art. 232
 
 (...) (Opgeheven) <KB 2000-07-20/63, art. 7, 078; Inwerkingtreding : 01-01-2002> De aanvullende belastingen worden (in euro gevestigd en afgerond op de cent). <KB 2000-07-20/63, art. 5, 076; Inwerkingtreding : 01-01-2002>
 
-## Art. 233
+##### Art. 233
 
 Het bepaalde in de artikelen 133, 136 tot 176 en 207 tot 230 is op de in artikel 231 vermelde aanvullende belastingen van toepassing.
 
-#### HOOFDSTUK V. - OVERGANGSBEPALINGEN.
+## HOOFDSTUK V. - OVERGANGSBEPALINGEN.
 
-##### Afdeling I. - Inhouding van een gedeelte van de roerende voorheffing. (Wetboek van de inkomstenbelastingen 1992, artikel 507, derde lid)
+### Afdeling I. - Inhouding van een gedeelte van de roerende voorheffing. (Wetboek van de inkomstenbelastingen 1992, artikel 507, derde lid)
 
-#### HOOFDSTUK IVbis. - Bijzondere invorderingsregels inzake de toekenningen aan de provincies, de agglomeraties en de gemeenten (Wetboek van de inkomstenbelastingen 1992, art. 470bis). <ingevoegd bij KB 1999-03-10/41, art. 1, Inwerkingtreding : 1999-04-17>
+## HOOFDSTUK IVbis. - Bijzondere invorderingsregels inzake de toekenningen aan de provincies, de agglomeraties en de gemeenten (Wetboek van de inkomstenbelastingen 1992, art. 470bis). <ingevoegd bij KB 1999-03-10/41, art. 1, Inwerkingtreding : 1999-04-17>
 
-## Art. 233bis
+##### Art. 233bis
 
 <ingevoegd bij KB 1999-03-10/41, art. 1, Inwerkingtreding : 1999-04-17> § 1. Voor de toepassing van artikel 470bis, vierde lid, van het Wetboek van de inkomstenbelastingen 1992 geeft de administratie der directe belastingen de eerste werkdag die volgt op de dag waarop is vastgesteld dat er een ambtshalve inhouding moet gebeuren, aan de provincie, de gemeente of de agglomeratie van gemeenten kennis van het bedrag van haar schuldvordering.
    Voor de toepassing van artikel 470bis, zesde lid, van hetzelfde Wetboek geeft de administratie der directe belastingen de eerste werkdag die volgt op de dag waarop is vastgesteld dat er een ambtshalve debitering moet gebeuren, aan de provincie, de gemeente of de agglomeratie van gemeenten kennis van het bedrag van haar schuldvordering.
@@ -2732,11 +2736,11 @@ Het bepaalde in de artikelen 133, 136 tot 176 en 207 tot 230 is op de in artikel
    § 2. Wanneer de schuldenaar van de vordering een provincie is, wordt de kennisgeving gedaan aan de bestendige deputatie van die provincie.
    Wanneer
 
-#### HOOFDSTUK V. - OVERGANGSBEPALINGEN.
+## HOOFDSTUK V. - OVERGANGSBEPALINGEN.
 
-##### Afdeling I. - Inhouding van een gedeelte van de roerende voorheffing. (Wetboek van de inkomstenbelastingen 1992, artikel 507, derde lid)
+### Afdeling I. - Inhouding van een gedeelte van de roerende voorheffing. (Wetboek van de inkomstenbelastingen 1992, artikel 507, derde lid)
 
-## Art. 234
+##### Art. 234
 
 Wanneer de last van de mobiliënbelasting of van de roerende voorheffing, krachtens voor 1 december 1962 of vanaf 1 december 1962 tot en met 31 december 1966 gesloten overeenkomsten, op de schuldenaar van de inkomsten is gelegd, heeft deze het recht, op vanaf 1 januari 1967 verleende of toegekende belastbare inkomsten, het verschil in te houden tussen de roerende voorheffing die ter uitvoering van het Wetboek van de inkomstenbelastingen 1992 en van dit besluit is verschuldigd en die waarvan hij voor die laatste datum de last op zich nam.
   Wanneer van deze mogelijkheid gebruik wordt gemaakt, worden de door de schuldenaar van het inkomen gedragen roerende voorheffing en de aan de bron in te houden roerende voorheffing bepaald als volgt :
@@ -2748,39 +2752,39 @@ Wanneer de last van de mobiliënbelasting of van de roerende voorheffing, kracht
    - is de aan bron in te houden roerende voorheffing respectievelijk gelijk aan 10,5/98, 9,5/97, 8,5/96, 6,5/94 of 4,5/92 van hetzelfde bedrag, volgens het onderscheid dat hierboven wordt gemaakt met betrekking tot het tarief van de roerende voorheffing;
    b) overeenkomsten die vanaf 1 december 1962 tot en met 31 december 1966 zijn gesloten en de last van de roerende voorheffing op de schuldenaar leggen : - is de door de schuldenaar te dragen roerende voorheffing gelijk aan 15/85 van het bedrag van het bedongen - is de aan de bron in te houden roerende voorheffing gelijk aan 10/85 van hetzelfde bedrag.
 
-##### Afdeling II. - Herschatting voor de berekening van de afschrijving van bepaalde activa die zijn verkregen of tot stand gebracht voor de normale datum van afsluiting van de laatste jaarbalans opgemaakt voor 31 december 1940 en die nog in gebruik waren op de normale datum van afsluiting van de laatste jaarbalans opgemaakt voor 31 december 1946. (Wetboek van de inkomstenbelastingen 1992, artikel 511, § 2)
+### Afdeling II. - Herschatting voor de berekening van de afschrijving van bepaalde activa die zijn verkregen of tot stand gebracht voor de normale datum van afsluiting van de laatste jaarbalans opgemaakt voor 31 december 1940 en die nog in gebruik waren op de normale datum van afsluiting van de laatste jaarbalans opgemaakt voor 31 december 1946. (Wetboek van de inkomstenbelastingen 1992, artikel 511, § 2)
 
-## Art. 235
+##### Art. 235
 
 Voor de toepassing van de artikelen 236 tot 252, worden onder aanschaffings- of beleggingswaarde van de activa de kosten van aankoop of oprichting verstaan, met inbegrip van de rechten en taksen die er betrekking op hebben, de eventuele kosten van vervoer, van montage en andere gelijkaardige.
 
-## Art. 236
+##### Art. 236
 
 Als activa waarvan de aanschaffings- of beleggingswaarde voor de berekening van de vrij van belasting toegestane afschrijving mag worden herschat, gelden outillage en ermee gelijkgestelde nijverheidsgebouwen, dat wil zeggen al dan niet vaste machines, werktuigen en toestellen met toebehoren, zomede nijverheidsgebouwen en tot nijverheids- en handelsdoeleinden gebruikt meubilair, die als het ware deel uitmaken van de outillage en aan snelle slijtage of verval onderhevig zijn.
   De outillage omvat inzonderheid de in handelsbedrijven gebezigde voorwerpen die door intensief gebruik, of onder invloed van technische vooruitgang, mode en gewoonten, aan snelle slijtage blootstaan of vaak moeten worden vervangen.
 
-## Art. 237
+##### Art. 237
 
 Van het voordeel van afschrijving op de herschatte aanschaffings- of beleggingswaarde zijn over het algemeen de terreinen uitgesloten, zomede gebouwen die geen met outillage gelijkgestelde nijverheidsgebouwen zijn en inzonderheid tot woning of kantoor dienen; dit geldt eveneens voor het meubilair waarvan woningen en kantoren voorzien zijn, voor portefeuille, octrooien, fabrieksmerken, handelsfonds, cliënteel en firma. De afschrijving van die activa moet uit fiscaal oogpunt verder op grond van de niet herziene aanschaffings- of beleggingswaarde geschieden.
 
-## Art. 238
+##### Art. 238
 
 § 1. De herschatting mag slechts slaan op outillage en ermee gelijkgestelde nijverheidsgebouwen, die de belastingplichtige heeft verkregen of tot stand gebracht voor de normale datum van afsluiting van de laatste jaarbalans opgemaakt voor 31 december 1940 en die nog werkelijk in gebruik waren op de normale datum van afsluiting van de laatste jaarbalans opgemaakt voor 31 december 1946.
    Met betrekking tot outillage en ermee gelijkgestelde nijverheidsgebouwen van ondernemingen die zijn opgericht door omzetting, fusie, opslorping, splitsing of overname van vroeger bestaande ondernemingen of bedrijfsafdelingen van zulke ondernemingen, wordt evenwel met de datum van verkrijging of totstandbrenging van die activa door de omgezette, overgenomen of gesplitste ondernemingen rekening gehouden, voor zover die mutaties niet ten gevolge hebben gehad de tijdens de bezetting van het land gebruikte produktiemiddelen in hun geheel te verhogen. Onder hetzelfde voorbehoud worden outillage en ermee gelijkgestelde nijverheidsgebouwen die zijn geleverd of opgericht ter uitvoering van contracten of overeenkomsten gesloten voor de uiterste datum van verkrijging of totstandbrenging bepaald in het eerste lid, voor de toepassing van deze bepaling beschouwd als verkregen of tot stand gebracht op de datum van gezegde contracten of overeenkomsten.
    De bovenbedoelde activa die in eigendom zijn opgeëist of ingevolge oorlogsfeiten verloren, vernield of buiten gebruik gesteld zijn, worden voor de toepassing van de artikelen 236 tot 252 gelijkgesteld met activa die nog werkelijk in gebruik waren op de uiterste datum bepaald op het einde van het eerste lid.
    § 2. Degene van gezegde activa die na de uiterste datum vermeld in § 1 van dit artikel zijn verkregen of tot stand gebracht, worden verder afgeschreven volgens de werkelijke aanschaffings- of beleggingswaarde bepaald in artikel 235.
 
-## Art. 239
+##### Art. 239
 
 Eventueel kan slechts een nieuwe aanschaffings- of beleggingswaarde worden toegekend aan het deel van de outillage of de ermee gelijkgestelde nijverheidsgebouwen dat met eigen middelen van de belastingplichtige is verkregen of tot stand gebracht.
    Dat deel wordt bepaald met inachtneming van de gegevens van de laatste jaarbalans opgemaakt voor 31 december 1940 of, in gevallen als vermeld in artikel 238, § 1, tweede lid, in de openingsbalans van de nieuwe onderneming.
 
-## Art. 240
+##### Art. 240
 
 De nieuwe aanschaffings- of beleggingswaarde van iedere categorie activa vermeld in de artikelen 236, 238, § 1, en 239, mag niet meer bedragen dan twee en een halve maal hun waarde geschat naar de per 31 augustus 1939 geldende normale prijzen en met inachtneming van hun toestand van stoffelijke slijtage en van hun werkelijke waardevermindering op de normale datum van afsluiting van de laatste jaarbalans opgemaakt voor 31 december 1946 of, in voorkomend geval, op de datum van opeising in eigendom of van verlies, vernieling, of buitengebruikstelling ingevolge oorlogsfeiten.
   De aan elk herschat activum toegekende nieuwe aanschaffings- of beleggingswaarde mag niet meer bedragen dan zijn industriële- of handelswaarde op de normale datum van afsluiting van de laatste jaarbalans opgemaakt voor 31 december 1946.
 
-## Art. 241
+##### Art. 241
 
 Om het bepaalde in de artikelen 236 tot 252 te genieten, stelt de belastingplichtige, per categorie of per boekhoudrubriek, een omstandige inventaris op van de te herschatten activa.
   Voorwerpen van geringe waarde worden in een post "allerlei voorwerpen" begrepen voor een benaderende en te goeder trouw vastgestelde waarde in ronde cijfers.
@@ -2792,67 +2796,67 @@ Om het bepaalde in de artikelen 236 tot 252 te genieten, stelt de belastingplich
   e) de nieuwe aanschaffings- of beleggingswaarde voor de berekening van de afschrijving, zijnde maximaal voor elke categorie activa twee en een halve maal de waarde vermeld in c, en voor elk activum de waarde vermeld in d.
   De activa die in eigendom zijn opgeëist, of ingevolge oorlogsfeiten vernield, verloren of buiten gebruik gesteld zijn, worden afzonderlijk in gezegde inventaris ingeschreven.
 
-## Art. 242
+##### Art. 242
 
 De in artikel 241 vermelde inventaris wordt in duplo opgesteld en een exemplaar ervan wordt aan de controleur van de directe belastingen of aan de taxatiedienst van het ambtsgebied overhandigd tot staving van de aangifte in de inkomstenbelastingen over het boekjaar in de balans waarvan de herschatting is opgenomen, of ten laatste op 24 januari 1948 ingeval de afschrijving op die grondslag is berekend met ingang van het aanslagjaar 1947; hij moet ondertekend zijn door de gedelegeerde bestuurders en door de commissarissen in kapitaalvennootschappen en door de verschillende personen die de vennootschap, firma of vereniging kunnen verbinden in anders dan in de vorm van kapitaalvennootschappen geëxploiteerde ondernemingen.
 
-## Art. 243
+##### Art. 243
 
 De herschatting van outillage en ermee gelijkgestelde nijverheidsgebouwen moet opgenomen worden in de boeken of balansen die van 31 december 1947 af en ten laatste op 30 december 1948 zijn afgesloten; zij moet afzonderlijk in het actief en in het passief van iedere jaarbalans voorkomen onder de volgende rubrieken of onder enige andere soortgelijke benaming : - in het actief : "Outillage en ermee gelijkgestelde nijverheidsgebouwen (herschatting)";
    - in het passief :
    "Meerwaarde van herschatting van outillage en ermee gelijkgestelde nijverheidsgebouwen". Deze meerwaarde mag evenwel in rekening "Kapitaal" ingelijfd worden.
 
-## Art. 244
+##### Art. 244
 
 De nieuwe aanschaffings- of beleggingswaarde, bepaald overeenkomstig de artikelen 235 tot 240 en in het actief opgenomen, dient tot grondslag voor de berekening van de afschrijving; deze mag vrij van belasting gedaan worden tot die waarde volledig bereikt is - eventueel verminderd met de opeisings- of herstelvergoedingen betreffende herschatte activa - en dit ongeacht de datum van verkrijging van de outillage of de ermee gelijkgestelde nijverheidsgebouwen of ongeacht de reeds op die activa voor de normale afsluiting van de laatste jaarbalans opgemaakt voor 31 december 1946 gedane afschrijving.
 
-## Art. 245
+##### Art. 245
 
 De belastingplichtige verdeelt de herschatte activa in 3 of 4 categorieën naar hun vermoedelijke gebruiksduur.
   Gemiddelde jaarlijkse afschrijvingspercenten worden in overleg tussen de belanghebbende en de bevoegde ambtenaren van de administratie der directe belastingen vastgesteld; die percenten kunnen inzonderheid verschillen naar de aard van de activa, de intensiteit van het gebruik ervan en hun staat van slijtage of van economische efficiëntie bij de herschatting. Behoudens herziening van gezegde percenten op schriftelijke en met redenen omklede aanvraag van de belastingplichtige, dienen deze tot grondslag voor de berekening van de vrij van belasting toe te passen jaarlijkse afschrijving.
   De aldus in overleg vastgestelde regelen worden bevestigd in een door beide partijen ondertekend stuk; dat stuk wordt bij het fiscaal dossier van de belanghebbende gevoegd, die er een afschrift kan van verkrijgen.
 
-## Art. 246
+##### Art. 246
 
 Afschrijving van de nieuwe aanschaffings- of beleggingswaarde moet bij het afsluiten van elk boekjaar geschieden.
   Bij gebreke van afschrijvingen of bij ontoereikende afschrijvingen voor één of meer boekjaren ten gevolge van verlies of van ontoereikende brutowinst, kan het tijdperk van afschrijving verlengd worden tot de af te schrijven waarde volledig bereikt is.
 
-## Art. 247
+##### Art. 247
 
 Ingeval een herschat activum tijdens een boekjaar is vervreemd, vernield of definitief buiten gebruik gesteld, kan het op de herschatte waarde van dat activum nog af te schrijven saldo, onder eventuele aftrek van de realisatieprijs, slechts vrij van belasting worden afgeschreven tot aan de afsluiting van gezegd boekjaar.
 
-## Art. 248
+##### Art. 248
 
 Met betrekking tot activa die in eigendom zijn opgeëist of ingevolge oorlogsfeiten zijn vernield, verloren of buiten gebruik gesteld, kan afschrijving van de herschatte waarde, onder aftrek van de opeisings- of herstelvergoedingen betreffende die activa, niet geschieden dan na definitieve vaststelling van het bedrag van gezegde vergoedingen.
    Met betrekking tot activa die ingevolge oorlogsfeiten zijn vernield, verloren of buiten gebruik gesteld, kan afschrijving van de herschatte waarde niettemin vrij van belasting voor de definitieve vaststelling van de herstelvergoeding geschieden, zo de belastingplichtige sedert de verkrijging van de voorwerpen die voor herschatting in aanmerking komen, regelmatig boekhoudt overeenkomstig het Wetboek van Koophandel.
    Die afschrijving dient te geschieden volgens de gebruikelijke jaarlijkse afschrijvingspercenten die in gewone omstandigheden voor activa van dezelfde aard toegepast worden. Bedoelde percenten worden in overleg tussen de belastingplichtige en de administratie der directe belastingen vastgesteld en bevestigd zoals bepaald is in artikel 245, derde lid.
    Wanneer de aldus gedane en aangenomen afschrijvingen meer bedragen dan het nadelig verschil tussen de herschatte waarde en de herstelvergoeding, of wanneer de herstelvergoeding gelijk is aan of meer bedraagt dan de herschatte waarde, is het gedeelte van de som van die afschrijvingen dat gezegd verschil overtreft, of de som van die afschrijvingen, een belastbaar inkomen van het jaar waarin het bedrag van de herstelvergoeding definitief is vastgesteld.
 
-## Art. 249
+##### Art. 249
 
 De afschrijving van de nieuwe aanschaffings- of beleggingswaarde moet afzonderlijk in het passief van iedere jaarbalans voorkomen onder de rubriek "Afschrijving van de herschatte waarde van outillage en ermee gelijkgestelde nijverheidsgebouwen" of onder enige andere soortgelijke benaming.
 
-## Art. 250
+##### Art. 250
 
 De afschrijving van de nieuwe aanschaffings- of beleggingswaarde wordt slechts vrij van inkomstenbelastingen toegestaan onder de uitdrukkelijke voorwaarde dat zij niet wordt gebruikt voor enigerlei opneming, uitkering of verdeling en niet tot grondslag dient voor de berekening van de jaarlijkse dotatie aan de wettelijke reserve of van enigerlei beloning of toekenning.
 
-## Art. 251
+##### Art. 251
 
 De uit de herschatting van outillage of ermee gelijkgestelde nijverheidsgebouwen voortvloeiende meerwaarde is vrijgesteld van belasting onder de voorwaarden bepaald in artikel 190 van het Wetboek van de inkomstenbelastingen 1992.
    Evenwel kunnen, bij vervreemding van overeenkomstig de artikelen 236 tot 250 van dit besluit herschatte activa, op aanvraag van de belastingplichtige of indien hij in gebreke blijft de nodige verduidelijkingen te verstrekken, voor de toepassing van artikel 44, § 1, van hetzelfde Wetboek, beschouwd worden als verkregen of tot stand gebracht op de normale datum van afsluiting van de laatste jaarbalans opgemaakt voor 31 december 1946 en voor een prijs gelijk aan de herschatte waarde.
 
-## Art. 252
+##### Art. 252
 
 De herschatting van outillage en ermee gelijkgestelde nijverheidsgebouwen mag voor de berekening van de afschrijving slechts in aanmerking komen indien de belastingplichtige sedert de verkrijging van de voorwerpen die voor herschatting in aanmerking komen, regelmatig boekhoudt overeenkomstig het Wetboek van Koophandel.
   Mits bewijskrachtige bescheiden worden voorgelegd, zoals die welke gediend hebben voor de definitieve vaststelling van de opeisings- of herstelvergoedingen, is deze voorwaarde echter niet gesteld voor de toepassing van artikel 251 en van dit artikel met betrekking tot activa die in eigendom zijn opgeëist, of ingevolge oorlogsfeiten zijn vernield, verloren of buiten gebruik gesteld.
 
-## Art. 253
+##### Art. 253
 
 Het koninklijk besluit van 12 oktober 1930, tot berekening van de afschrijvingen op een herschatte kostprijs inzake inkomstenbelastingen blijft van toepassing voor het vaststellen van de vrij van belasting aanvaardbare afschrijving op outillage en ermee gelijkgestelde nijverheidsgebouwen waarvan de kostprijs, herschat overeenkomstig het bepaalde in dat besluit en opgenomen in de balansen afgesloten sedert 1931, niet opnieuw herschat is overeenkomstig de artikelen 235 tot 252.
 
   Bijlagen.
 
-   Art. N1. BIJLAGE I. (Afdeling I. - Maandelijkse referteïndexen voor hypothecaire leningen, toegestaan vanaf 1 januari 1995, waarin een veranderlijke rentevoet is bedongen. (Koninklijk besluit tot uitvoering van het Wetboek van de inkomstenbelastingen 1992, artikel 18, § 3, 1, b, 3e lid).
+##### Art. N1. BIJLAGE I. (Afdeling I. - Maandelijkse referteïndexen voor hypothecaire leningen, toegestaan vanaf 1 januari 1995, waarin een veranderlijke rentevoet is bedongen. (Koninklijk besluit tot uitvoering van het Wetboek van de inkomstenbelastingen 1992, artikel 18, § 3, 1, b, 3e lid).
 
  Periode Belgisch
 
@@ -2903,10 +2907,10 @@ Het koninklijk besluit van 12 oktober 1930, tot berekening van de afschrijvingen
 
   <KB 2003-02-28/31, art. 1, 092; Inwerkingtreding : 01-01-2003>
 
-   Art. N2. BIJLAGE II. Lijst van activa (die bedoeld zijn in artikel 69, § 1, eerste lid, 2°,) van het Wetboek van de inkomstenbelastingen 1992 en die dienen voor een rationeler energieverbruik, de verbetering van de industriële processen uit energetische overwegingen en de terugwinning van energie in de industrie. (Koninklijk besluit tot uitvoering van het Wetboek van de inkomstenbelastingen 1992, artikel 49) <KB 2000-09-21/33, art. 6, 068;
+##### Art. N2. BIJLAGE II. Lijst van activa (die bedoeld zijn in artikel 69, § 1, eerste lid, 2°,) van het Wetboek van de inkomstenbelastingen 1992 en die dienen voor een rationeler energieverbruik, de verbetering van de industriële processen uit energetische overwegingen en de terugwinning van energie in de industrie. (Koninklijk besluit tot uitvoering van het Wetboek van de inkomstenbelastingen 1992, artikel 49) <KB 2000-09-21/33, art. 6, 068;
  Inwerkingtreding : 01-01-1999>
 
-## Art. 1N2
+##### Art. 1N2
 
 Categorie 1. - Doelmatiger isolatie van gebouwen opgericht voor 1 januari 1980.
   De volgende investeringen komen in aanmerking, mits materialen worden gebruikt waarvan de warmtegeleidbaarheid volgens de Belgische normen NBN van de reeks B 62 of volgens bijzondere Belgische normen of dito technische goedkeuringen, kleiner is dan of gelijk is aan 0,080 watt per meter en per Kelvin :
@@ -2915,35 +2919,35 @@ Categorie 1. - Doelmatiger isolatie van gebouwen opgericht voor 1 januari 1980.
   c) vervangen van enkel vensterglas door dubbel of drievoudig vensterglas waarvan de warmtetransmissiecoëfficiënt k kleiner is dan of gelijk is aan 3,2 watt per vierkante meter en per Kelvin, evenals het aanpassen van de ramen of het vervangen ervan door houten of kunststoframen of door aluminiumramen met thermische onderbreking;
   d) plaatsen van voorzetramen in onbuigzaam materiaal met toebehoren.
 
-## Art. 2N2
+##### Art. 2N2
 
 Categorie 2. - Beperking van energieverlies in bestaande broeikassen of bij de vervanging van oude door nieuwe broeikassen.
   De volgende investeringen komen in aanmerking (voor een aanschaffings- of beleggingswaarde waarin het bedrag van de loonkosten tot dat van de materiaalkosten wordt en, bij vervanging van oude door nieuwe broeikassen, voor een beglaasde oppervlakte die niet groter is dan die van de te vervangen broeikassen, noch groter dan die van de broeikassen die de belastingplichtige heeft aangegeven voor de land- en tuinbouwtelling van 15 mei van het jaar dat de oprichting van de nieuwe broeikassen voorafgaat) :
   a) plaatsen van dubbel glas of van glas waarvan het isolatievermogen is verhoogd door het aanbrengen van metaaloxydelagen met een laag emissievermogen;
   b) plaatsen van wegneembare schermen die een scheiding vormen tussen kweekruimte en dak.
-## Art. 3N2
+##### Art. 3N2
 
 Categorie 3. - Terugwinnen van energie door het herinrichten van bestaande ruimteverwarmingssystemen in broeikassen opgericht voor 1 januari 1980.
   In aanmerking komen, de investeringen om de vaste verwarmingselementen langsheen de wanden of tussen kweekruimte en dak, in de onmiddellijke nabijheid van planten of wortels te brengen, evenals om kweektafelverwarming te plaatsen.
 
-## Art. 4N2
+##### Art. 4N2
 
 Categorie 4. - Beperking van energieverlies door in gebruik zijnde apparaten, leidingen, afsluiters en kanalen te isoleren of in gebruik zijnde warme of koude vloeistofbaden af te dekken.
   Alleen investeringen komen in aanmerking waarbij isolatiemateriaal is gebruikt waarvan de warmtegeleidbaarheid volgens de Belgische normen NBN van de reeks B 62 of volgens bijzondere Belgische normen of dito technische goedkeuringen, kleiner is dan of gelijk is aan 0,080 watt per meter en per Kelvin.
 
-## Art. 5N2
+##### Art. 5N2
 
 Categorie 5. - Beperking van energieverlies in bestaande ovens.
   Alleen investeringen voor het binnenin bijkomend isoleren van de ovens komen in aanmerking, waarbij het vervangen van vuurvaste bekleding als energiebesparend wordt geteld in verhouding tot de erdoor bekomen vermindering van warmteverlies.
 
-## Art. 6N2
+##### Art. 6N2
 
 Categorie 6. - Beperking van ventilatieverlies in gebouwen opgericht voor 1 januari 1980.
   De volgende investeringen komen in aanmerking :
   a) aanbrengen van tochtsluizen, tochtgordijnen of automatisch sluitende deuren en poorten tussen de binnenen buitenkant van het gebouw;
   b) aanbrengen van automatisch sluitende deuren tussen bestaande koel- of diepvrieskamers en de rest van het gebouw.
 
-## Art. 7N2
+##### Art. 7N2
 
 Categorie 7. - Terugwinnen van afvalwarmte.
   De volgende investeringen komen in aanmerking wanneer zij het, in een bestaand systeem voor het bedrijf mogelijk maken eigen afvalwarmte op te vangen en aan derden te leveren of afvalwarmte van derden op te vangen :
@@ -2951,7 +2955,7 @@ Categorie 7. - Terugwinnen van afvalwarmte.
   b) plaatsen van geïsoleerde opslagvaten die uitsluitend dienen voor het tijdelijk opslaan van de teruggewonnen warmte;
   c) plaatsen van warmtewisselaars voor warmterecuperatie, toestellen om teruggewonnen warmte rechtstreeks aan te wenden niet inbegrepen.
 
-## Art. 8N2
+##### Art. 8N2
 
 Categorie 8. - Terugwinnen van afvalwarmte van in gebruik zijnde produktie- of klimaatregelingsapparatuur.
   De volgende investeringen, andere dan het plaatsen van warmterecuperatoren van krachtopwekkingsinstallaties met stoom die een onderdeel vormen van de krachtopwekkingscyclus, komen in aanmerking wanneer zij niet nodig zijn voor het produktie- of klimaatregelingsproces :
@@ -2965,7 +2969,7 @@ Categorie 8. - Terugwinnen van afvalwarmte van in gebruik zijnde produktie- of k
   - geïsoleerde leidingen voor het transport van teruggewonnen warmte;
   - warmtepompen.
 
-## Art. 9N2
+##### Art. 9N2
 
 Categorie 9. - Rendementsverhoging van in gebruik zijnde verbrandingsapparatuur.
   De volgende investeringen komen in aanmerking :
@@ -2973,7 +2977,7 @@ Categorie 9. - Rendementsverhoging van in gebruik zijnde verbrandingsapparatuur.
   b) vervangen van atmosferische branders en van branders met ventilatoren door recuperatieve branders;
   c) plaatsen of verbeteren van schakel-, meet- of regelapparatuur.
 
-## Art. 10N2
+##### Art. 10N2
 
 Categorie 10. - Aanwenden van expansieënergie die vrijkomt bij bestaande produktieprocessen of bij ontspanning van vloeistoffen onder druk gebracht voor transport.
   In aanmerking komen, de investeringen om bestaande installaties en systemen voor het aanwenden van die expansieënergie aan te passen door het plaatsen van : - tegendrukturbines;
@@ -2981,7 +2985,7 @@ Categorie 10. - Aanwenden van expansieënergie die vrijkomt bij bestaande produk
   - expansieturbines;
   - generatoren, met inbegrip van snelheidsreductoren, waarin de opgewekte mechanische energie wordt omgezet in elektrische energie.
 
-## Art. 11N2
+##### Art. 11N2
 
 Categorie 11. - Apparatuur waarin krachtopwekking en warmteproduktie zijn gecombineerd.
   De volgende investeringen komen in aanmerking, mits de gelijktijdig voortgebrachte kracht en warmte voor eigen behoeften worden aangewend en de produktie van elke energiesoort (kracht en warmte) gemiddeld ten minste 25 pct. bedraagt van het totaal ontwikkelde vermogen :
@@ -2998,7 +3002,7 @@ Categorie 11. - Apparatuur waarin krachtopwekking en warmteproduktie zijn gecomb
   - apparatuur ter behandeling van ketelvoedingswater;
   - elektrotechnische apparatuur voor aansluiting op het interne elektriciteitsnet.
 
-## Art. 12N2
+##### Art. 12N2
 
 Categorie 12. - Opvangen van directe of diffuse zonnestraling.
    Als investeringen komen in aanmerking, mits zij uitsluitend voor het opvangen van die zonnestraling dienen, het plaatsen van :
@@ -3012,7 +3016,7 @@ Categorie 12. - Opvangen van directe of diffuse zonnestraling.
    - batterijen voor het opslaan van de geproduceerde elektrische energie;
    - elektrotechnische uitrusting voor aansluiting op het interne elektriciteitsnet.
 
-## Art. 13N2
+##### Art. 13N2
 
 Categorie 13. - Aanwenden van windenergie.
   Als investeringen komen in aanmerking, het plaatsen van :
@@ -3022,7 +3026,7 @@ Categorie 13. - Aanwenden van windenergie.
   d) batterijen voor het opslaan van de geproduceerde energie;
   e) generatoren en elektrotechnische uitrusting voor aansluiting op het interne elektriciteitsnet.
 
-## Art. 14N2
+##### Art. 14N2
 
 Categorie 14. - Waterkrachtcentrales om energie voort te brengen met een vermogen van maximum 1 MW.
    Als investeringen komen in aanmerking het plaatsen, de nodige infrastructuurwerken daarin niet begrepen, van :
@@ -3031,7 +3035,7 @@ Categorie 14. - Waterkrachtcentrales om energie voort te brengen met een vermoge
    c) ondulators en gelijkrichters;
    d) generatoren en elektrotechnische uitrusting voor de aansluiting op het interne elektriciteitsnet.
 
-## Art. 15N2
+##### Art. 15N2
 
 Categorie 15. - Aanwenden van steenkool als brandstof.
   Met uitsluiting van investeringen om steenkool te gebruiken in krachtopwekkingscentrales die werken met stoomcondensatie, komen in aanmerking :
@@ -3044,7 +3048,7 @@ Categorie 15. - Aanwenden van steenkool als brandstof.
   b) stookketels, met inbegrip van oververhitters, brandstofbespaarders en voorverwarmers van verbrandingslucht;
   c) rookgasreinigingsapparatuur en schoorstenen.
 
-## Art. 16N2
+##### Art. 16N2
 
 Categorie 16. - Produktie van energie door verbranding van afvalstoffen.
   In aanmerking komen, de investeringen in :
@@ -3057,7 +3061,7 @@ Categorie 16. - Produktie van energie door verbranding van afvalstoffen.
   e) warmtewisselaars;
   f) meet- of regelapparatuur.
 
-## Art. 17N2
+##### Art. 17N2
 
 Categorie 17. - Aanwenden van gassen ontstaan uit anaërobe fermentatie van afval.
   In aanmerking komen, de investeringen in :
@@ -3068,17 +3072,17 @@ Categorie 17. - Aanwenden van gassen ontstaan uit anaërobe fermentatie van afva
   e) meet- of regelapparatuur;
   f) krachtwerktuigen om biogas te verbranden.
 
-## Art. 18N2
+##### Art. 18N2
 
 Categorie 18. - Energiebesparend vervoer.
   In aanmerking komen, de investeringen, binnen de inrichting, in nieuwe los- en laadinrichtingen voor vervoer via spoor- of waterweg of in nieuwe uitrustingen voor aansluiting op het spoorwegnet.
 
-## Art. 19N2
+##### Art. 19N2
 
 Categorie 19. - Verbetering van het energetisch rendement van in gebruik zijnde installaties.
   Als investeringen komen in aanmerking, het aanbrengen of verbeteren, uitsluitend met het oog op een betere controle van het energetisch rendement, van meet- en regelapparatuur.
 
-## Art. 20N2
+##### Art. 20N2
 
 Categorie 20. - Verbetering van het energetisch rendement van bestaande verdampings- of distilliatietoestellen en stoomdistributienetten gebruikt bij produktieprocessen.
   In aanmerking komen, de investeringen :
@@ -3087,7 +3091,7 @@ Categorie 20. - Verbetering van het energetisch rendement van bestaande verdampi
   - om in de distillatie-installaties het aantal droogplaten te verhogen of het refluxgehalte te verminderen;
   - om meet- of regelapparatuur te plaatsen of te verbeteren.
 
-## Art. 21N2
+##### Art. 21N2
 
 Categorie 21. - Verbetering van het energetisch rendement van bestaande droogtoestellen gebruikt bij produktieprocessen.
   In aanmerking komen, de investeringen om :
@@ -3096,31 +3100,31 @@ Categorie 21. - Verbetering van het energetisch rendement van bestaande droogtoe
   - de hoeveelheid drooglucht te regelen door het meten van de relatieve vochtigheid;
   - meet- en regelapparatuur te plaatsen of te verbeteren.
 
-## Art. 22N2
+##### Art. 22N2
 
 Categorie 22. - Verbetering van het energetisch rendement van bestaande koel-, pasteurisatie- of sterilisatietoestellen gebruikt bij produktieprocessen.
   In aanmerking komen, de investeringen om :
   - meet- en regelapparatuur te plaatsen of te verbeteren;
   - toestellen te plaatsen waarmee omgekeerde osmose kan gerealiseerd worden.
 
-## Art. 23N2
+##### Art. 23N2
 
 Categorie 23. - Verbetering van het rendement van bestaande toestellen van elektrochemische of elektrometallurgische aard gebruikt bij produktieprocessen.
   In aanmerking komen, de investeringen om :
   - nieuwe types van elektroden of membranen te plaatsen;
   - meet- en regelapparatuur te plaatsen.
 
-## Art. 24N2
+##### Art. 24N2
 
 Categorie 24. - Energiebesparing bij vacuümpompen.
   In aanmerking komen de investeringen om vacuümstoomstraalpompen door vacuümpompen te vervangen.
 
-## Art. 25N2
+##### Art. 25N2
 
 Categorie 25. - Regeling van de aandrijving van machines.
   In aanmerking komen, de investeringen voor het toevoegen van elektronische toerentalregelaars en van systemen voor automatisch stoppen waardoor nullastwerking van draaiende machines wordt vermeden.
 
-  Art. N2bis. <Ingevoegd bij KB 2002-12-20/36, art. 1; Inwerkingtreding : 01-01-2004> Bijlage IIbis. Verplichte vermeldingen die moeten voorkomen op de factuur betreffende de uitgaven die in artikel 14524 van het Wetboek van de inkomstenbelastingen 1992 opgesomd zijn met het oog op een rationeler energiegebruik in een woning (KB/WIB 92, artikel 63.11).
+##### Art. N2bis. <Ingevoegd bij KB 2002-12-20/36, art. 1; Inwerkingtreding : 01-01-2004> Bijlage IIbis. Verplichte vermeldingen die moeten voorkomen op de factuur betreffende de uitgaven die in artikel 14524 van het Wetboek van de inkomstenbelastingen 1992 opgesomd zijn met het oog op een rationeler energiegebruik in een woning (KB/WIB 92, artikel 63.11).
   Maatregel 1 : Vervanging van oude stookketels
    A. Met betrekking tot de oude stookketels : de geregistreerde aannemer bevestigt dat hij de oude stookketel vervangt en vermeldt de beschikbare kenmerken van de oude stookketel (merk, type en serienummer van het toestel);
    B. Met betrekking tot de nieuwe verwarmingsinstallaties : de geregistreerde aannemer bevestigt dat op de nieuwe installaties bedoeld in artikel 63.11, § 1, 1°, tweede lid, KB/WIB 92 het EG-kenmerk is aangebracht en dat zij in overeenstemming zijn met het koninklijk besluit van 18 maart 1997 betreffende de rendementseisen voor nieuwe olie- en gasgestookte centrale verwarmingsketels.
@@ -3143,11 +3147,11 @@ Categorie 25. - Regeling van de aandrijving van machines.
    Maatregel 6 : Plaatsing van een warmteregeling van een installatie van centrale verwarming door middel van thermostatische kranen of door een kamerthermostaat met tijdsinschakeling De geregistreerde aannemer bevestigt dat hij thermostatische kranen of een klokthermostaat, eventueel met inbegrip van een externe sonde, heeft geplaatst met het oog op de warmteregeling van een installatie van centrale verwarming.
    Wanneer in de woning noch thermostatische kranen noch een warmteregeling aanwezig zijn, bevestigt de geregistreerde aannemer, bij de plaatsing ervan, dat de twee soorten werken zijn uitgevoerd.
 
-  Art. N3. BIJLAGE III
+##### Art. N3. BIJLAGE III
   (Opgeheven en vervangen door KB 2001-11-21/33, art. 1, 084; Inwerkingtreding : 01-01-2002; voor de tekst, zie 2001-11-21/49) (Vervangen door KB 2001-11-21/33, art. 2; Inwerkingtreding : 01-04-2002; voor de tekst, zie 2001-11-21/50) (Vervangen door KB 2002-06-19/36, art. 1; Inwerkingtreding : 01-10-2002; voor de tekst, zie 2002-06-19/38) (Vervangen door KB 2002-10-25/31, art. 1; Inwerkingtreding : 01-01-2003; voor de tekst, zie 2002-10-25/45 en gewijzigd door KB 2002-12-12/40, art.1; Inwerkingtreding : 01-01-2003) (Gewijzigd door KB 2003-01-09/41, art. 1; Inwerkingtreding : 15-02-2003; voor de tekst, zie 2002-10-25/45) (Gewijzigd bij KB 2005-06-28/30, art. 1; Inwerkingtreding : 01-07-2005; voor de tekst, zie 2004-11-26/34) (Gewijzigd bij KB 2005-07-12/30, art. 1; Inwerkingtreding : 01-07-2005; voor de tekst, zie 2004-11-26/34) (Gewijzigd bij KB 2005-07-20/67, art. 1; Inwerkingtreding : 01-01-2006; voor de tekst, zie 2004-11-26/34) (Gewijzigd bij KB 2006-02-02/32, art. 1; Inwerkingtreding : 01-01-2006; voor de tekst, zie 2005-12-15/40) (Gewijzigd bij KB 2006-12-18/32, art. 1; Inwerkingtreding : 01-01-2007; voor de tekst, zie 2006-12-18/32) (Gewijzigd bij KB 2007-04-21/34, art. 1; Inwerkingtreding : 01-01-2007; voor de tekst, zie 2007-04-21/34) (Gewijzigd bij KB 2008-09-09/31, art. 1; Inwerkingtreding : 01-10-2008; voor de tekst, zie 2008-09-09/31) (Gewijzigd bij KB 2010-04-06/01, art. 1; Inwerkingtreding : 01-05-2010; voor de tekst, zie 2010-04-06/01) (Gewijzigd bij KB 2010-07-02/01, art. 1; Inwerkingtreding : 01-01-2010; voor de tekst; zie 2009-12-03/10) (Gewijzigd bij KB 2010-12-01/02, art. 2; Inwerkingtreding : 01-01-2011; voor de tekst; zie VARIA 2009-12- 03/10> (Gewijzigd bij KB 2012-06-06/01, art. 1; Inwerkingtreding : 01-07-2012; voor de tekst ; zie VARIA 2011-03- 15/01> (Gewijzigd bij KB 2012-12-11/02, art. 1; Inwerkingtreding : 01-01-2013; voor de tekst, zie VARIA 2012-12- 11/03>
-  Art. N4. BIJLAGE IV. <KB 1994-08-12/48, art. 13, 006; Inwerkingtreding : 10-09-1994>itvoering van het Wetboek van de inkomstenbelastingen 1992, artikel 183)
+##### Art. N4. BIJLAGE IV. <KB 1994-08-12/48, art. 13, 006; Inwerkingtreding : 10-09-1994>itvoering van het Wetboek van de inkomstenbelastingen 1992, artikel 183)
 
-## Art. 1N4
+##### Art. 1N4
 
 Tabel 1. Directie Antwerpen I.
 
@@ -3157,7 +3161,7 @@ Tabel 1. Directie Antwerpen I.
     Sint-Niklaas, Stekene, Temse, Waasmunster en
     Zwijndrecht
 
-## Art. 2N4
+##### Art. 2N4
 
 Tabel 2. Directie Antwerpen II.
 
@@ -3179,7 +3183,7 @@ Tabel 2. Directie Antwerpen II.
     Retie, Rijkevorsel, Stabroek, Turnhout,
     Vosselaar en Wuustwezel
 
-## Art. 3N4
+##### Art. 3N4
 
 Tabel 3. Directie Brussel I.
 
@@ -3189,7 +3193,7 @@ Tabel 3. Directie Brussel I.
  Vorst Etterbeek, Sint-Gillis en Vorst
  Ukkel Ukkel
 
-## Art. 4N4
+##### Art. 4N4
 
 Tabel 4. Directie Brussel II.
 
@@ -3205,7 +3209,7 @@ Tabel 4. Directie Brussel II.
  Woluwe Oudergem, Sint-Lambrechts-Woluwe,
     Sint-Pieters-Woluwe en Watermaal-Bosvoorde
 
-## Art. 5N4
+##### Art. 5N4
 
 Tabel 5. Directie Leuven.
 
@@ -3228,7 +3232,7 @@ Tabel 5. Directie Leuven.
     Opwijk, Steenokkerzeel, Ternat, Vilvoorde,
     Zaventem en Zemst
 
-## Art. 6N4
+##### Art. 6N4
 
 Tabel 6. Directie Brugge.
 
@@ -3254,7 +3258,7 @@ Tabel 6. Directie Brugge.
     Oostrozebeke, Pittem, Roeselare, Ruiselede,
     Staden, Tielt, Wielsbeke en Wingene
 
-## Art. 7N4
+##### Art. 7N4
 
 Tabel 7. Directie Gent.
 
@@ -3278,7 +3282,7 @@ Tabel 7. Directie Gent.
     Oudenaarde, Ronse, Sint-Lievens-Houtem,
     Wortegem-Petegem, Zingem, Zottegem, Zulte en Zwalm
 
-## Art. 8N4
+##### Art. 8N4
 
 Tabel 8. Directie Charleroi.
 
@@ -3295,7 +3299,7 @@ Tabel 8. Directie Charleroi.
     Pont-a-Celles
  La Louviere La Louviere, Le Roeulx, Manage en Seneffe
 
-## Art. 9N4
+##### Art. 9N4
 
 Tabel 9. Directie Bergen.
 
@@ -3313,7 +3317,7 @@ Tabel 9. Directie Bergen.
     Komen-Waasten, Leuze-en-Hainaut, Moeskroen,
     Mont-de-l'Enclus, Pecq en Rumes
 
-## Art. 10N4
+##### Art. 10N4
 
 Tabel 10. - Directie Luik.
 
@@ -3343,7 +3347,7 @@ Tabel 10. - Directie Luik.
     Trois-Ponts, Verviers, Waimes en
     Welkenraedt
 
-## Art. 11N4
+##### Art. 11N4
 
 Tabel 11. - Directie Hasselt.
 
@@ -3363,7 +3367,7 @@ Tabel 11. - Directie Hasselt.
     Sint-Truiden, Tongeren, Voeren, Wellen en
     Zutendaal
 
-## Art. 12N4
+##### Art. 12N4
 
 Tabel 12. - Directie Aarlen.
 
@@ -3382,7 +3386,7 @@ Tabel 12. - Directie Aarlen.
     Tenneville, Vaux-sur-Sure, Vielsalm en
     Wellin
 
-## Art. 13N4
+##### Art. 13N4
 
 Tabel 13. - Directie Namen.
 
@@ -3409,11 +3413,11 @@ Tabel 13. - Directie Namen.
 
     Walhain en Waver
 
-  Art. N5. BIJLAGE V. Rentevoeten die in aanmerking komen voor de vaststelling van de als beroepskosten aftrekbare interesten van obligaties, leningen, schulden, deposito's en andere effecten ter vertegenwoordiging van leningen. (Koninklijk besluit tot uitvoering van het Wetboek van de inkomstenbelastingen 1992, artikel 29) (Opgeheven) <KB 1993-10-22/33, art. 15; ED 01-01-1992; Voor de tekst, zie B.St. 13-09-1993, p. 20280- 20285>
+##### Art. N5. BIJLAGE V. Rentevoeten die in aanmerking komen voor de vaststelling van de als beroepskosten aftrekbare interesten van obligaties, leningen, schulden, deposito's en andere effecten ter vertegenwoordiging van leningen. (Koninklijk besluit tot uitvoering van het Wetboek van de inkomstenbelastingen 1992, artikel 29) (Opgeheven) <KB 1993-10-22/33, art. 15; ED 01-01-1992; Voor de tekst, zie B.St. 13-09-1993, p. 20280- 20285>
 
   OVEREENSTEMMINGSTABELLEN.
 
-  Art. N6. DEEL I. KB/WIB en andere bepalingen -- KB/WIB 92.
+##### Art. N6. DEEL I. KB/WIB en andere bepalingen -- KB/WIB 92.
 
  Artikel KB/WIB Artikel KB/WIB 92
  1 1
@@ -3769,7 +3773,7 @@ Tabel 13. - Directie Namen.
  KB 6.2.1989, art. 1 180
  KB 6.2.1989, art. 2 181
 
-  Art. N7. DEEL II. KB/WIB 92 -- KB/WIB en andere bepalingen.
+##### Art. N7. DEEL II. KB/WIB 92 -- KB/WIB en andere bepalingen.
 
  KB/WIB 92 KB/WIB Andere bepalingen
  1 1

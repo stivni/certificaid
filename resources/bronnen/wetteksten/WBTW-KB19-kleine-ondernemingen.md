@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 3
+  type: "Art."
+  sub_strategy: null
 ---
 
 # BTW KB nr. 19 — Vrijstellingsregeling kleine ondernemingen
@@ -36,21 +40,21 @@ Titel
 
 Bron : FINANCIEN
 
-#### HOOFDSTUK 1. - Algemene bepaling
+## HOOFDSTUK 1. - Algemene bepaling
 
-## Art. 1
+### Art. 1
 
 Dit koninklijk besluit voorziet in de gedeeltelijke omzetting van Richtlijn (EU) 2020/285 van de Raad van 18 februari 2020 tot wijziging van Richtlijn 2006/112/EG betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde wat betreft de bijzondere regeling voor kleine ondernemingen en Verordening (EU) nr. 904/2010 betreffende de administratieve samenwerking en uitwisseling van inlichtingen voor doeleinden van toezicht op de juiste uitvoering van de bijzondere regeling voor kleine ondernemingen.
 Het vormt ook een gedeeltelijke omzetting van Richtlijn 2006/112/EG van de Raad van 28 november 2006 betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde.
 
-## Art. 2.Voor
+### Art. 2.Voor
 
 de toepassing van dit besluit wordt verstaan onder "koninklijk besluit nr. 10": het koninklijk besluit nr. 10 van 29 december 1992 met betrekking tot de uitoefeningsmodaliteiten van de keuzen, [1 de voorafgaande kennisgevingen en de aangiften van aanvang, wijziging en stopzetting van activiteit inzake belasting over de toegevoegde waarde]1.
 (1)<KB 2025-12-17/06, art. 26, 002; Inwerkingtreding : 10-01-2026>
 
-#### HOOFDSTUK 2. - Vrijstellingsregeling van belasting bedoeld in artikel 56ter, § 1, van het Wetboek
+## HOOFDSTUK 2. - Vrijstellingsregeling van belasting bedoeld in artikel 56ter, § 1, van het Wetboek
 
-## Art. 3
+### Art. 3
 
 § 1. Overeenkomstig artikel 56ter, § 1, vierde lid, van het Wetboek kan de belastingplichtige die de zetel van zijn economische activiteit in België heeft gevestigd en die een economische activiteit aanvangt, gebruikmaken van de vrijstellingsregeling van belasting wanneer hij de administratie belast met de belasting over de toegevoegde waarde vooraf in kennis stelt van zijn voornemen om van die regeling gebruik te maken en dat zijn activiteit naar alle waarschijnlijkheid zal voldoen aan de in artikel 56ter, § 1, van het Wetboek bepaalde voorwaarden voor de toepassing van die regeling.
 De belastingplichtige stuurt de in het eerste lid bedoelde kennisgeving via de aangifte bedoeld in artikel 1 of 7bis van het koninklijk besluit nr. 10.
@@ -62,7 +66,7 @@ De in het tweede lid bedoelde aangifte vermeldt ook, afhankelijk van de situatie
 Op voorwaarde dat de belastingplichtige in het lopende kalenderjaar het bedrag van de in artikel 56ter, § 1, eerste lid, van het Wetboek bedoelde omzet niet heeft overschreden, heeft de in het tweede lid bedoelde aangifte uitwerking voor onbepaalde duur vanaf 1 januari van het volgende kalenderjaar wanneer de aangifte werd ingediend vóór 15 december.
 Op voorwaarde dat de belastingplichtige in de loop van het voorafgaande kalenderjaar en van het lopende kalenderjaar het bedrag van de in artikel 56ter, § 1, eerste lid, van het Wetboek bedoelde omzet niet heeft overschreden, heeft de in het tweede lid bedoelde aangifte uitwerking voor onbepaalde duur respectievelijk vanaf 1 april, 1 juli of 1 oktober van het lopende kalenderjaar wanneer de aangifte is ingediend respectievelijk vóór 15 maart, 15 juni of 15 september.
 
-## Art. 4
+### Art. 4
 
 § 1. De belastingplichtige die overeenkomstig artikel 3, § 2, niet langer onderworpen is aan de normale belastingregeling of aan de forfaitaire regeling van artikel 56 van het Wetboek, herziet de door hem verrichte aftrek van de belasting geheven van:
 1° de andere goederen en diensten dan bedrijfsmiddelen, die nog niet werden gebruikt of verbruikt op het tijdstip van wijziging van belastingregeling;
@@ -72,7 +76,7 @@ De overgang naar de vrijstellingsregeling van belasting wordt gelijkgesteld met 
 De in het eerste lid bedoelde stukken vermelden op gedetailleerde wijze de goederen en diensten die in aanmerking worden genomen voor de herziening, de datum en het nummer van de factuur van de aankoop of het invoerdocument, de maatstaf van heffing waarover ze met de belasting over de toegevoegde waarde werden belast en het te herziene bedrag.
 § 3. De belastingplichtige verricht de in paragraaf 1 bedoelde herziening bij het indienen van de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte met betrekking tot de handelingen van de laatste maand vóór de wijziging van belastingregeling.
 
-## Art. 5
+### Art. 5
 
 § 1. Wanneer gedurende een kalenderjaar het totale bedrag van de omzet met maximaal tien pct. het in artikel 56ter, § 1, eerste lid, van het Wetboek bedoelde bedrag overschrijdt, valt de belastingplichtige die gebruikmaakt van de vrijstellingsregeling van belasting onder de normale belastingregeling vanaf 1 januari van het daaropvolgende kalenderjaar.
 De in het eerste lid bedoelde belastingplichtige stelt uiterlijk op 15 december van het lopende kalenderjaar de administratie belast met de belasting over de toegevoegde waarde hiervan in kennis, via de aangifte bedoeld in artikel 2 of 7bis van het koninklijk besluit nr. 10.
@@ -86,7 +90,7 @@ De in het eerste lid bedoelde belastingplichtige kan opnieuw overgaan naar de vr
 § 5. De in artikel 56ter, § 1, van het Wetboek bedoelde belastingplichtige kan kiezen voor de normale belastingregeling via de aangifte bedoeld in artikel 2 of 7bis van het koninklijk besluit nr. 10. Die keuze heeft uitwerking te rekenen vanaf het verstrijken van de maand na die waarin de aangifte is gedaan.
 Vóór 1 januari van het tweede jaar na dat waarin de in het eerste lid bedoelde keuze uitwerking heeft gehad, kan de belastingplichtige niet opnieuw overgaan naar de vrijstellingsregeling van belasting. Van die wijziging in de belastingregeling wordt vóór 15 december kennis gegeven aan de administratie belast met de belasting over de toegevoegde waarde via de aangifte bedoeld in artikel 2 of 7bis van het koninklijk besluit nr. 10. Die wijziging heeft uitwerking met ingang van 1 januari van het volgend jaar.
 
-## Art. 6
+### Art. 6
 
 § 1. De belastingplichtige die overeenkomstig artikel 5 niet langer onderworpen is aan de vrijstellingsregeling van belasting, kan bij wijze van herziening zijn recht op aftrek uitoefenen voor:
 1° de andere goederen en diensten dan bedrijfsmiddelen, die nog niet werden gebruikt of verbruikt op het tijdstip van de wijziging van belastingregeling;
@@ -99,11 +103,11 @@ De in het eerste lid bedoelde stukken vermelden op gedetailleerde wijze de goede
 § 3. De belastingplichtige verricht de in paragraaf 1, eerste lid, 1°, bedoelde herziening in een in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte, die wordt ingediend vóór het verstrijken van het derde kalenderjaar volgend op dat waarin de af te trekken belasting opeisbaar is geworden.
 De belastingplichtige verricht de in paragraaf 1, eerste lid, 2°, bedoelde herziening in een in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte, die wordt ingediend vóór het verstrijken van het derde kalenderjaar volgend op dat waarin de wijziging van belastingregeling heeft plaatsgevonden.
 
-## Art. 7
+### Art. 7
 
 De in artikel 56quinquies, § 2, van het Wetboek bedoelde inlichtingen worden langs elektronische weg verzonden door middel van een door de minister van Financiën bepaalde internettoepassing.
 
-## Art. 8
+### Art. 8
 
 De belastingplichtige die gewoonlijk in artikel 56bis, § 2, tweede lid, 3°, van het Wetboek bedoelde leveringen van recuperatiestoffen en -producten verricht, kan geen gebruikmaken van de vrijstellingsregeling van belasting.
 Voor de toepassing van het eerste lid wordt verstaan onder "recuperatiestoffen en -producten":
@@ -125,11 +129,11 @@ In afwijking van het tweede lid worden de volgende goederen voor de toepassing v
 4° elektronische en elektrische toestellen die al dan niet worden aangeboden in de originele verpakking en die als dusdanig bruikbaar of herbruikbaar zijn voor het doel waarvoor ze oorspronkelijk zijn bedoeld, ook al zullen ze worden ontmanteld;
 5° steenkool gerecupereerd door het wassen van de afval van terrils.
 
-#### HOOFDSTUK 3. - Vrijstelling bedoeld in titel XII,
+## HOOFDSTUK 3. - Vrijstelling bedoeld in titel XII,
 
 hoofdstuk 1,. van Richtlijn 2006/112/EG
 
-## Art. 9
+### Art. 9
 
 § 1. Overeenkomstig artikel 56quater, § 1, 1°, van het Wetboek, kan de belastingplichtige die de zetel van zijn economische activiteit in België heeft gevestigd in één of meerdere andere lidstaten dan België gebruikmaken van de in titel XII, hoofdstuk 1, van Richtlijn 2006/112/EG bedoelde vrijstelling wanneer hij de administratie belast met de belasting over de toegevoegde waarde vooraf in kennis stelt van zijn voornemen om van die regeling gebruik te maken en dat zijn activiteit naar alle waarschijnlijkheid zal voldoen aan de in de betrokken lidstaat bepaalde voorwaarden in uitvoering van titel XII, hoofdstuk 1, van Richtlijn 2006/112/EG voor de toepassing van die regeling.
 De belastingplichtige stuurt de in het eerste lid bedoelde kennisgeving via de aangifte bedoeld in artikel 1 of 2 of 7bis van het koninklijk besluit nr. 10.
@@ -140,34 +144,34 @@ De in het eerste lid bedoelde kennisgeving heeft uitwerking voor een onbepaalde 
 1° vanaf de datum waarop de administratie belast met de belasting over de toegevoegde waarde het in artikel 56quater, § 1, 2°, van het Wetboek bedoelde individuele identificatienummer bevestigt aan de belastingplichtige ingevolge de actualisering van de kennisgeving, overeenkomstig artikel 56quater, § 4, van het Wetboek;
 2° in afwijking van de bepaling onder 1°, in geval van beëindiging van de toepassing van de vrijstelling in een andere lidstaat of in andere lidstaten dan België, met ingang van de eerste dag van het kalenderkwartaal dat volgt op de ontvangst van de in het eerste lid bedoelde kennisgeving of, wanneer die kennisgeving in de loop van de laatste maand van een kalenderkwartaal wordt ontvangen, op de eerste dag van de tweede maand van het daaropvolgende kalenderkwartaal, overeenkomstig artikel 56quater, § 3, tweede lid, van het Wetboek.
 
-## Art. 10
+### Art. 10
 
 Wanneer gedurende een kalenderjaar het totale bedrag van de omzet in een andere lidstaat dan België de in artikel 284, lid 2, van Richtlijn 2006/112/EG bedoelde drempels overschrijdt, binnen de grenzen vastgesteld door die lidstaat overeenkomstig artikel 288 bis, lid 1, van Richtlijn 2006/112/EG, stelt de belastingplichtige onmiddellijk de administratie belast met de belasting over de toegevoegde waarde hiervan in kennis.
 De in het eerste lid bedoelde belastingplichtige stuurt de in het eerste lid bedoelde kennisgeving via de aangifte bedoeld in artikel 2 of 7bis van het koninklijk besluit nr. 10.
 
-## Art. 11
+### Art. 11
 
 De in artikel 56quinquies, § 1, eerste lid, van het Wetboek bedoelde inlichtingen worden langs elektronische weg verzonden door middel van een door de minister van Financiën bepaalde internettoepassing.
 
-## Art. 12
+### Art. 12
 
 De belastingplichtige stuurt de in artikel 56quinquies, § 1, derde lid, van het Wetboek bedoelde kennisgeving via de aangifte bedoeld in artikel 2 of 7bis van het koninklijk besluit nr. 10.
 
-## Art. 13
+### Art. 13
 
 De overeenkomstig artikel 50, § 1, eerste lid, 1° of 3°, van het Wetboek in België voor btw-doeleinden geïdentificeerde belastingplichtige, die de zetel van zijn economische activiteit in een andere lidstaat dan België heeft gevestigd en die in België overeenkomstig artikel 56ter, § 2, van het Wetboek gebruikmaakt van de vrijstellingsregeling van belasting, stuurt onverwijld aan de administratie belast met de belasting over de toegevoegde waarde, de aangifte bedoeld in artikel 2 of 7bis van het koninklijk besluit nr. 10, met als doel zijn btw-identificatienummer te laten schrappen.
 
-#### HOOFDSTUK 4. - Slotbepalingen
+## HOOFDSTUK 4. - Slotbepalingen
 
-## Art. 14
+### Art. 14
 
 Het koninklijk besluit nr. 19 van 29 juni 2014 met betrekking tot de vrijstellingsregeling van belasting over de toegevoegde waarde in het voordeel van kleine ondernemingen wordt opgeheven.
 
-## Art. 15
+### Art. 15
 
 Dit besluit treedt in werking op 1 januari 2025.
 
-## Art. 16
+### Art. 16
 
 De minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.(1) Verwijzingen naar het Belgisch Staatsblad : Wet van 3 juli 1969, Belgisch Staatsblad van 17 juli 1969;
 Wet van 15 december 2013, Belgisch Staatsblad van 31 december 2013, ed. 1;

@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest
@@ -54,9 +58,9 @@ Nota:
 (2) Artikel 9 is slechts van toepassing op voertuigen die vanaf 01.01.2022 worden ingeschreven.
 In afwijking van lid 1 is artikel 9 niet van toepassing op voertuigen die vóór 01.01.2022 definitief zijn verworven, maar vanaf die datum worden geleverd en ingeschreven (art. 52).
 
-#### HOOFDSTUK II - Vrijstellingen
+### HOOFDSTUK II - Vrijstellingen
 
-## Art. 5
+#### Art. 5
 
 (gewijzigd bij art. 2 van het decreet van 12.07.2023 (B.S., 18.09.2023 – Numac: 2023045351). Tekst van toepassing vanaf 28.09.2023 (art. -))
 
@@ -127,15 +131,15 @@ Nota:
 Zie hieronder een officieuze vertaling:
 “en de bromfietsen en de motorfietsen die uitsluitend worden aangedreven door een elektrische motor met een maximumvermogen van elf kilowatt of minder.”
 
-#### HOOFDSTUK III - Belastingschuldigen
+### HOOFDSTUK III - Belastingschuldigen
 
-## Art. 6
+#### Art. 6
 
 Is de belasting schuldig al wie een of meer van de in de artikelen 3 en 4 genoemde voertuigen aanwendt tot eigen gebruik of ze exploiteert, hetzij hij er de eigendom of het persoonlijk bezit van heeft, hetzij hij door huur of andere overeenkomst bestendig of gewoonlijk daarover beschikt.
 
-#### HOOFDSTUK IV - Belastbare grondslag
+### HOOFDSTUK IV - Belastbare grondslag
 
-## Art. 7
+#### Art. 7
 
 (gewijzigd bij art. 14 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
@@ -143,7 +147,7 @@ De belasting is, naar gelang van het geval, verschuldigd op grond van het vermog
 
 De Waalse Regering stelt de regelen vast die in acht te nemen zijn voor de bepaling, de opneming en de controle van het vermogen van de motoren.
 
-## Art. 8
+#### Art. 8
 
 (gewijzigd bij art. 11 van het decreet van 22.12.2021 (B.S., 12.01.2022 – Numac: 2022020006). Tekst van toepassing vanaf 01.01.2022 (art. 55, lid 1)) (1)
 
@@ -156,11 +160,11 @@ Nota:
 
 geheel van rechtshandelingen waaruit één rechtshandeling waarvan ten minste de eerste rechtshandeling is verricht vóór 01.01.2022 en ten minste de laatste rechtshandeling is verricht vanaf 01.01.2022 (art. 54).
 
-#### HOOFDSTUK V - Bedrag der belasting of belastingvoet
+### HOOFDSTUK V - Bedrag der belasting of belastingvoet
 
-#### HOOFDSTUK V - Bedrag der belasting of belastingvoet
+### HOOFDSTUK V - Bedrag der belasting of belastingvoet
 
-## Art. 9
+#### Art. 9
 
 (B., gewijzigd bij art. 2 van het decreet van 23.03.2023 (B.S., 07.04.2023 – Numac: 2023030909). Tekst van toepassing vanaf 01.01.2022, voor iedere kampeerwagen, ingeschreven te rekenen van die datum, en die niet in aanmerking is gekomen voor de overgangsmaatregel inzake inwerkingtreding vastgesteld bij art. 52, lid 2, van het decreet van 22.12.2021 houdende verscheidene bepalingen voor een rechtvaardiger belasting (art. 6))
 
@@ -291,7 +295,7 @@ F. Aanhangwagens en opleggers
 
 De aanhangwagens en de opleggers zijn onderworpen aan een belasting die respectievelijk 23,92 euro of 49,68 euro bedraagt, naargelang de maximaal toegelaten massa niet hoger is dan 500 kilogram of 501 kilogram bereikt zonder 3.500 kilogram te overschrijden.
 
-## Art. 10
+#### Art. 10
 
 (gewijzigd bij art. 3 van het decreet van 12.07.2023 (B.S., 18.09.2023 – Numac: 2023045351). Tekst van toepassing vanaf 28.09.2023 (art. -))
 
@@ -336,7 +340,7 @@ en de minibussen overeenkomstig artikel 4, § 3, belast ten belope van 40 percen
 Nota:
 (1) Lees: koninklijk besluit van 15 maart 1968 van het koninklijk besluit van 15 maart 1968 houdende algemeen reglement op de technische eisen waaraan de auto's, hun aanhangwagens, hun onderdelen en hun veiligheidstoebehoren moeten voldoen.
 
-## Art. 11
+#### Art. 11
 
 (gewijzigd bij art. 9 van de wet van 08.04.2002 (B.S., 12.04.2002 – Numac: 2002003199). Tekst van toepassing vanaf 01.01.2001 (art. 12))
 
@@ -344,9 +348,9 @@ De belasting vastgesteld volgens artikel 9, A en C, de minimumbelasting bedoeld 
 
 De aldus aangepaste belastingbedragen kunnen met maximum 0,11 EUR worden verlaagd ten einde een veelvoud van 12 te vormen.
 
-#### HOOFDSTUK VI - Aanvullende verkeersbelasting
+### HOOFDSTUK VI - Aanvullende verkeersbelasting
 
-## Art. 12
+#### Art. 12
 
 (gewijzigd bij art. 4 van het decreet van 12.07.2023 (B.S., 18.09.2023 – Numac: 2023045351). Tekst van toepassing vanaf 28.09.2023 (art. -))
 
@@ -356,7 +360,7 @@ Deze belasting is niet van toepassing op de voertuigen onderworpen aan een forfa
 
 § 2. Deze aanvullende verkeersbelasting wordt geregeld volgens de bepalingen die van toepassing zijn op de verkeersbelasting, met uitzondering echter van de bepalingen van artikel 5, § 1, 3°, 6° en 8°, en van de artikelen 11, 15 en 42, § 2.
 
-## Art. 13
+#### Art. 13
 
 (hersteld bij art. 27 van de wet van 11.04.1983 (B.S., 16.04.1983 – Numac: 1983003404). Tekst van toepassing de derde maand volgend op de maand van de bekendmaking van deze wet in het B.S., zijnde 01.07.1983 (art. 30))
 
@@ -366,9 +370,9 @@ Gehele of gedeeltelijke vrijstelling van de aanvullende verkeersbelasting wordt 
 
 2° aan de internationale organisaties, aan hun vertegenwoordigers, ambtenaren en leden, in de mate dat zij vrijgesteld zijn van de verkeersbelasting op de autovoertuigen, ingevolge de voorrechten en immuniteiten hun toegestaan overeenkomstig het internationale recht.
 
-#### HOOFDSTUK VII - Verminderingen
+### HOOFDSTUK VII - Verminderingen
 
-## Art. 14
+#### Art. 14
 
 (vervangen bij art. 7 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.1999 (art. 18))
 
@@ -376,7 +380,7 @@ De belasting wordt verminderd met 25 pct. voor elk voertuig, dat uitsluitend wor
 
 De vermindering wordt eveneens verleend voor aanhangwagens die uitsluitend door de in het eerste lid bedoelde motorvoertuigen worden getrokken.
 
-## Art. 15
+#### Art. 15
 
 (gewijzigd bij art. 15 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
@@ -386,7 +390,7 @@ De Waalse Regering schrijft alle nodig geoordeelde controlemaatregelen voor.
 
 De bepalingen van dit artikel zijn niet van toepassing op de belastingen vastgesteld overeenkomstig artikel 10, § 1.
 
-## Art. 16
+#### Art. 16
 
 (vervangen bij art. 9 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.1999 (art. 18))
 
@@ -394,33 +398,33 @@ De belasting wordt met 10 pct. verminderd wanneer zij is verschuldigd krachtens 
 
 De vermindering van 10 pct. is niet van toepassing op de belasting verminderd krachtens artikel 15.
 
-## Art. 17
+#### Art. 17
 
 (opgeheven bij art. 3 van de wet van 26.02.1969 (B.S., 18.03.1969 – Numac: 1969022603). Tekst van toepassing vanaf aanslagjaar 1969 (art. 5))
 
 (…)
 
-## Art. 18
+#### Art. 18
 
 (opgeheven bij art. 10 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.1999 (art. 18))
 
 (…)
 
-## Art. 19
+#### Art. 19
 
 (opgeheven bij art. 10 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.1999 (art. 18))
 
 (…)
 
-## Art. 20
+#### Art. 20
 
 (opgeheven bij art. 10 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.1999 (art. 18))
 
 (…)
 
-#### HOOFDSTUK VIII - Ontstaan van de belastingschuld
+### HOOFDSTUK VIII - Ontstaan van de belastingschuld
 
-## Art. 21
+#### Art. 21
 
 (gewijzigd bij art. 10 van de wet van 08.04.2002 (B.S., 12.04.2002 – Numac: 2002003199). Tekst van toepassing vanaf 01.01.2001 (art. 12))
 
@@ -428,7 +432,7 @@ De belasting is verschuldigd door de natuurlijke of rechtspersoon die vermeld is
 
 De in het eerste lid beoogde voertuigen zijn de personenauto's, de auto's voor dubbel gebruik, de trage auto's voor dubbel gebruik, de minibussen, de ziekenauto's, de motorfietsen, de motorfietsen-driewielers, de motorfietsen-vierwielers, de lichte vrachtauto's, de trage lichte vrachtauto's, de bootaanhangwagens, de kampeeraanhangwagens, de kampeerauto's, de aanhangwagens en opleggers met een maximaal toegelaten massa tot 3.500 kg.
 
-## Art. 22
+#### Art. 22
 
 (vervangen bij art. 11 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.2000 (art. 18))
 
@@ -436,17 +440,17 @@ De in het eerste lid beoogde voertuigen zijn de personenauto's, de auto's voor d
 
 § 2. Elk tijdperk van twaalf achtereenvolgende maanden bedoeld in § 1 vormt een aanslagjaar. Dit laatste wordt genoemd naar het jaar waarin het tijdperk een aanvang neemt.
 
-## Art. 23
+#### Art. 23
 
 (vervangen bij art. 11 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.2000 (art. 18)) Wanneer de voorwaarden tot vrijstelling in de loop van een aanslagjaar niet meer vervuld zijn, is de belasting verschuldigd naar verhouding van de niet verstreken maanden.
 
-## Art. 23bis
+#### Art. 23bis
 
 (ingevoegd bij art. 11 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.2000 (art. 18))
 
 Wanneer een voertuig in de loop van een aanslagjaar wordt afgevoerd van het repertorium of vrijstelling komt te genieten, wordt de betaalde belasting teruggegeven naar verhouding van de niet verstreken maanden of, in dezelfde mate, aangerekend op de belasting die door de belastingschuldige voor een ander voertuig is verschuldigd.
 
-## Art. 23ter
+#### Art. 23ter
 
 (gewijzigd bij art. 16 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
@@ -456,41 +460,41 @@ Die terugbetaling wordt op forfaitaire wijze berekend, maar kan nooit meer bedra
 
 De Waalse Regering bepaalt de voorwaarden en de nadere regels voor de toepassing van dit artikel.
 
-#### HOOFDSTUK IX - Dagelijkse belasting
+### HOOFDSTUK IX - Dagelijkse belasting
 
-## Art. 24
-
-(opgeheven bij art. 17 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
-
-(…)
-
-## Art. 25
+#### Art. 24
 
 (opgeheven bij art. 17 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 (…)
 
-## Art. 26
+#### Art. 25
+
+(opgeheven bij art. 17 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
+
+(…)
+
+#### Art. 26
 
 (opgeheven bij art. 3 van de wet van 26.02.1969 (B.S., 18.03.1969 – Numac: 1969022603). Tekst van toepassing vanaf aanslagjaar 1969 (art. 5))
 
 (…)
 
-## Art. 27
+#### Art. 27
 
 (opgeheven bij art. 17 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 (…)
 
-## Art. 28
+#### Art. 28
 
 (opgeheven bij art. 17 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 (…)
 
-#### HOOFDSTUK X - Vestiging en invordering
+### HOOFDSTUK X - Vestiging en invordering
 
-## Art. 29
+#### Art. 29
 
 (gewijzigd bij art. 18 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
@@ -499,37 +503,37 @@ Deze termijn mag echter niet minder dan vijftien dagen zijn.
 
 Bij gebrek aan dergelijk bericht moet de belasting volgens de door de Waalse Regering vastgestelde modaliteiten worden gestort uiterlijk bij het verstrijken van de maand volgend op die tijdens dewelke zij verschuldigd is.
 
-## Art. 30
+#### Art. 30
 
 (vervangen bij art. 13 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.2000 (art. 18))
 
 De plaats van aanslag is de gemeente die vermeld is of het moet zijn op het inschrijvingsbewijs op het ogenblik van het ontstaan van de belastingschuld.
 
-## Art. 31
+#### Art. 31
 
 (opgeheven bij art. 19 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 (…)
 
-## Art. 32
+#### Art. 32
 
 (opgeheven bij art. 19 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 (…)
 
-## Art. 33
+#### Art. 33
 
 (opgeheven bij art. 19 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 (…)
 
-## Art. 34
+#### Art. 34
 
 (gewijzigd bij art. 20 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 De Directie voor de Inschrijving van de Voertuigen zorgt ervoor dat de gegevens die noodzakelijk zijn om de belasting te bepalen, op elektronische wijze ter beschikking van de dienst aangewezen door de Waalse Regering worden gesteld.
 
-## Art. 35
+#### Art. 35
 
 (gewijzigd bij art. 21 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
@@ -539,15 +543,15 @@ De dienst aangewezen door de Waalse Regering kan de erkende instellingen voor au
 
 2° de mededeling van de onder punt 1° bedoelde gegevens aan de Directie voor de Inschrijving van de Voertuigen.
 
-## Art. 36
+#### Art. 36
 
 (opgeheven bij art. 13 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.2000 (art. 18))
 
 (…)
 
-#### HOOFDSTUK Xbis - Bijzondere bepalingen
+### HOOFDSTUK Xbis - Bijzondere bepalingen
 
-## Art. 36bis
+#### Art. 36bis
 
 (gewijzigd bij art. 151 van de programmawet van 23.12.2009 (B.S., 30.12.2009 – ed. 1 – Numac: 2009021133). Tekst van toepassing vanaf 09.01.2010 (art. -))
 
@@ -561,7 +565,7 @@ De bepalingen van de hoofdstukken VIII en X, met uitzondering van de artikelen 3
 
 De voormelde voertuigen zijn daarentegen onderworpen aan de respectievelijke bepalingen van artikel 36ter en 36quater.
 
-## Art. 36ter
+#### Art. 36ter
 
 (gewijzigd bij art. 1 van het decreet van 30.11.2023 (B.S., 11.01.2024 – Numac: 2023206945). Tekst van toepassing vanaf 01.01.2024 (art. 4))
 
@@ -599,7 +603,7 @@ Het in artikel 10, § 2, vastgestelde minimum geldt voor het totaal bedrag van d
 
 In het geval van de in paragraaf 4 bedoelde aanhangwagen is de voormalige houder aansprakelijk voor de belasting zolang er geen aangifte is gedaan van de verandering betreffende het houden ervan.
 
-## Art. 36quater
+#### Art. 36quater
 
 (gewijzigd bij art. 2 van het decreet van 30.11.2023 (B.S., 11.01.2024 – Numac: 2023206945). Tekst van toepassing vanaf 01.01.2024 (art. 4))
 
@@ -625,41 +629,41 @@ Dit bedrag mag niet lager zijn dan het in artikel 10, § 2, vastgestelde minimum
 
 § 7. Elk belastbaar tijdperk eindigt automatisch met de schrapping van het registratiemerkteken.
 
-#### HOOFDSTUK XI - Uitvoerings- en controlemaatregelen
+### HOOFDSTUK XI - Uitvoerings- en controlemaatregelen
 
-## Art. 37
+#### Art. 37
 
 De belastingschuldige die om gelijk welke vrijstelling of vermindering verzoekt, kan er slechts het voordeel van verkrijgen of behouden indien hij zijn recht op deze vrijstelling of vermindering bewijst.
 
-## Art. 38
+#### Art. 38
 
 (opgeheven bij art. 24 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 (…)
 
-## Art. 39
+#### Art. 39
 
 (opgeheven bij art. 24 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 (…)
 
-#### HOOFDSTUK XII - Sancties
+### HOOFDSTUK XII - Sancties
 
-## Art. 40
+#### Art. 40
 
 (opgeheven bij art. 24 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 (…)
 
-## Art. 41
+#### Art. 41
 
 (gewijzigd bij art. 25 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 Wanneer de belasting niet is betaald kan de rechtbank de nummerplaat van het voertuig verbeurd verklaren en de teruggave ervan bevelen de dienst die het afgeleverd heeft.
 
-#### HOOFDSTUK XIII - Bevoegdheid van de provincies, de agglomeraties en de gemeenten
+### HOOFDSTUK XIII - Bevoegdheid van de provincies, de agglomeraties en de gemeenten
 
-## Art. 42
+#### Art. 42
 
 (gewijzigd bij art. 26 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
@@ -677,7 +681,7 @@ Wanneer de gemeenten echter deel uitmaakt van een agglomeratie van gemeenten, wo
 
 3° voertuigen waarvan de belasting verminderd werd overeenkomstig artikel 15.
 
-## Art. 42bis
+#### Art. 42bis
 
 (gewijzigd bij art. 48 van het decreet van 22.12.2021 (B.S., 12.01.2022 – Numac: 2022020006). Tekst van toepassing vanaf 01.01.2022 (art. 55, lid 1)) (1)
 
@@ -693,11 +697,11 @@ Nota:
 (1) Tot 31.12.2023 mag in elke al dan niet elektronische mededeling van of aan de Waalse Overheidsdienst Financiën rechtsgeldig de vermelding "Waalse Overheidsdienst Fiscaliteit" of "Operationeel Directoraat-generaal Fiscaliteit van de Waalse Overheidsdienst" worden gebruikt in plaats van "Waalse Overheidsdienst Financiën".
 Voor de toepassing van lid 1 wordt onder mededeling verstaan de toezending van een document, een formulier, een aangifte, een rol, een beslissing, een dwangmaatregel of enigerlei andere briefwisseling van welke aard ook (art. 51).
 
-### TITEL III - BELASTING OP DE SPELEN EN DE WEDDENSCHAPPEN
+## TITEL III - BELASTING OP DE SPELEN EN DE WEDDENSCHAPPEN
 
-#### HOOFDSTUK I - Belastbare spelen en weddenschappen
+### HOOFDSTUK I - Belastbare spelen en weddenschappen
 
-## Art. 43
+#### Art. 43
 
 (gewijzigd bij art. 1 van het decreet van 22.07.2010 (B.S., 09.08.2010 – Numac: 2010204226). Tekst van toepassing vanaf de dag waarop het in het B.S. wordt bekendgemaakt, zijnde 09.08.2010 (art. 12))
 
@@ -716,11 +720,11 @@ Een belasting wordt geheven op het brutobedrag van de sommen of inleggelden inge
 worden ingericht ten behoeve van musea of ten behoeve van instellingen als bedoeld in artikel 104, 1 ste lid,
 3° en 4°, van het Wetboek van de inkomstenbelastingen 1992.
 
-#### HOOFDSTUK Ibis - Grondslagen en aanslagvoet
+### HOOFDSTUK Ibis - Grondslagen en aanslagvoet
 
 (ingevoegd bij art. 4 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1))
 
-## Art. 44
+#### Art. 44
 
 (opgeheven bij art. 3 en hersteld bij art. 4 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1))
 
@@ -731,7 +735,7 @@ Voor de toepassing van deze Titel dient te worden verstaan onder brutobedrag van
 Nota:
 (1) artikelen 3 en 4 van dit decreet zijn enkel van toepassing op de belastingen op de spelen en weddenschappen en op de automatische ontspanningstoestellen, interesten en fiscale geldboeten met betrekking tot deze twee belastingen, betreffende het belastingjaar 2010 en volgende.
 
-## Art. 44bis
+#### Art. 44bis
 
 (hersteld bij art. 2 van het decreet van 22.07.2010 (B.S., 09.08.2010 – Numac: 2010204226). Tekst van toepassing de dag waarop het in het B.S. wordt bekendgemaakt, zijnde 09.08.2010 (art. 12))
 
@@ -741,7 +745,7 @@ Nota:
 
 § 3. Voor de toepassing van § 1 worden de sommen of inleggeleden geacht ingezet te zijn in het Waalse Gewest als de spelen of weddenschappen worden ontvangen via een server die in het Waalse Gewest gevestigd is of uitgebaat wordt.
 
-## Art. 45
+#### Art. 45
 
 (gewijzigd bij art. 28 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 28.12.2013 (art. 35))
 
@@ -749,7 +753,7 @@ Nota:
 
 § 2. Voor de toepassing van § 1 dient te worden verstaan onder werkelijke brutomarge, het brutobedrag van de sommen of inleggelden ingezet bij spelen en weddenschappen, verminderd met de winsten die voor die spelen en weddenschappen werkelijk verdeeld zijn.
 
-## Art. 46
+#### Art. 46
 
 (gewijzigd bij art. 29 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
@@ -783,7 +787,7 @@ De belastbare basis wordt aan de in § 1, 2°, bedoelde koers van de belasting o
 
 Voor wat betreft de pokerspelen uitgebaat buiten de hierbovenvermelde gevallen, is artikel 44 toepasbaar.
 
-## Art. 47
+#### Art. 47
 
 (hersteld bij art. 4 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1))
 
@@ -802,41 +806,41 @@ Voor wat betreft de pokerspelen uitgebaat buiten de hierbovenvermelde gevallen, 
 Nota:
 (1) artikel 4 van dit decreet is enkel van toepassing op de belastingen op de spelen en weddenschappen en op de automatische ontspanningstoestellen, interesten en fiscale geldboeten met betrekking tot deze twee belastingen, betreffende het belastingjaar 2010 en volgende.
 
-## Art. 48
+#### Art. 48
 
 (opgeheven bij art. 6 van het decreet van 04.12.2003 (B.S., 04.02.2004 – ed. 2 – Numac: 2004200208). Tekst van toepassing vanaf 01.01.1989 (art. 11, 1°))
 
 (…)
 
-## Art. 49
+#### Art. 49
 
 (opgeheven bij art. 6 van het decreet van 04.12.2003 (B.S., 04.02.2004 – ed. 2 – Numac: 2004200208). Tekst van toepassing vanaf 01.01.1989 (art. 11, 1°))
 
 (…)
 
-## Art. 50
+#### Art. 50
 
 (opgeheven bij art. 6 van het decreet van 04.12.2003 (B.S., 04.02.2004 – ed. 2 – Numac: 2004200208). Tekst van toepassing vanaf 01.01.1989 (art. 11, 1°))
 
 (...)
 
-#### HOOFDSTUK II - Belastingschuldigen
+### HOOFDSTUK II - Belastingschuldigen
 
-## Art. 51
+#### Art. 51
 
 (vervangen bij art. 4 van het decreet van 22.07.2010 (B.S., 09.08.2010 – Numac: 2010204226). Tekst van toepassing de dag van publicatie in B.S., dus 09.08.2010 (art. 12))
 
 De belasting is verschuldigd door elke persoon die, in het kader van de spelen en weddenschappen bedoeld in artikel 43, zelfs toevallig, enige inzet of enig inleggeld hetzij voor eigen rekening, hetzij als tussen persoon aanneemt tot de in het eerste hoofdstuk van deze titel omschreven doeleinden.
 
-## Art. 52
+#### Art. 52
 
 (gewijzigd bij art. 5 van het decreet van 22.07.2010 (B.S., 09.08.2010 – Numac: 2010204226). Tekst van toepassing de dag waarop het in het B.S. wordt bekendgemaakt, aldus 09.08.2010 (art. 12))
 
 Wanneer er, in private kringen of in andere lokalen, of wanneer er via informatiemaatschappij-instrumenten in de zin van de wet van 7 mei 1999 op de kansspelen, de weddenschappen, de kansspelinrichtingen en de bescherming van de spelers aan spel of aan weddenschappen wordt gedaan, derwijze dat niemand in het bijzonder ermede belast is de inzetten of inleggelden, hetzij voor eigen rekening, hetzij als tussenpersoon aan te nemen, rust de uitvoering van alle wettelijke voorschriften op de inrichters van de verrichtingen, worden als dusdanig beschouwd en zijn hoofdelijk de belasting verschuldigd, degenen die het lokaal of het materieel ter beschikking stellen van personen die aan spel of weddenschappen doen.
 
-#### HOOFDSTUK III - Aangifte
+### HOOFDSTUK III - Aangifte
 
-## Art. 53
+#### Art. 53
 
 (vervangen bij art. 5 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1) (2))
 
@@ -852,9 +856,9 @@ Nota:
 (1) worden evenwel beschouwd als voldoend aan artikel 53 WIGB, en blijven hun gevolgen behouden vanaf 1 januari 2010, de door de belastingplichtigen op de spelen en weddenschappen ingediende aangiften, en waarover nog geen uitspraak is gedaan, en de vóór 1 januari 2010 rechtsgeldig afgeleverde vergunningen, ter uitvoering van artikel 53 van dit Wetboek dat van toepassing blijft tot 31 december 2009.
 (2) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun gevolgen behouden vanaf 1 januari 2010, en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-#### HOOFDSTUK IV - Controlemaatregelen
+### HOOFDSTUK IV - Controlemaatregelen
 
-## Art. 54
+#### Art. 54
 
 (vervangen bij art. 6 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1))
 
@@ -865,7 +869,7 @@ De tickets, kaarten of biljetten moeten de in artikel 46 bedoelde winsten en elk
 Nota:
 (1) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun gevolgen behouden vanaf 1 januari 2010, en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-## Art. 55
+#### Art. 55
 
 (vervangen bij art. 7 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1))
 
@@ -874,7 +878,7 @@ Elke dag schrijft de belastingplichtige in een register het bedrag der ontvangst
 Nota:
 (1) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun gevolgen behouden vanaf 1 januari 2010, en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-## Art. 56
+#### Art. 56
 
 (vervangen bij art. 8 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1))
 
@@ -885,7 +889,7 @@ Ze kan elke andere maatregel nemen om de controle op en de juiste inning van de 
 Nota:
 (1) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun gevolgen behouden vanaf 1 januari 2010, en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-## Art. 57
+#### Art. 57
 
 (vervangen bij art. 9 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1))
 
@@ -922,7 +926,7 @@ Voornoemde uitbater voegt twee exemplaren van de samenvattende lijst voor twee w
 Nota:
 (1) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun gevolgen behouden vanaf 1 januari 2010, en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-## Art. 58
+#### Art. 58
 
 (vervangen bij art. 10 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1))
 
@@ -935,15 +939,15 @@ Wanneer laatstgenoemde tijdelijk toevertrouwd zijn aan financiële inrichtingen,
 Nota:
 (1) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun gevolgen behouden vanaf 1 januari 2010, en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-## Art. 59
+#### Art. 59
 
 (gewijzigd bij art. 6 van het decreet van 22.07.2010 (B.S., 09.08.2010 – Numac: 2010204226). Tekst van toepassing vanaf de dag waarop het in het B.S. wordt bekendgemaakt, zijnde 09.08.2010 (art. 12))
 
 In afwijking van de artikelen 54 tot 57 kan de Waalse Regering onder de door haar bepaalde voorwaarden met inbegrip van de spelen en weddenschappen die worden ontvangen via informatiemaatschappij-instrumenten in de zin van de wet van 7 mei 1999 op de kansspelen, de weddenschappen, de kansspelinrichtingen en de bescherming van de spelers de controle op de belastbare elementen door andere middelen dan die voorzien in dit Wetboek vereenvoudigen, de belastingplichten van bepaalde verplichtingen vrijstellen, de verplichtingen van de belastingplichtigen aanpassen aan de ontwikkeling van de federale wetgeving betreffende de kansspelen of op facultatieve wijze en met het oog op de vereenvoudiging of de toepassing op spelen en weddenschappen waarop de artikelen 54 tot 57 niet zouden kunnen worden toegepast of waarbij ze de juiste inning van de belasting overdreven moeilijk zouden maken, de forfaitaire bepaling van voornoemde elementen toelaten, eventueel met vervroegde aflossing van de desbetreffende belasting.
 
-#### HOOFDSTUK V - Betaling van de belasting
+### HOOFDSTUK V - Betaling van de belasting
 
-## Art. 60
+#### Art. 60
 
 (gewijzigd bij art. 7 van het decreet van 22.07.2010 (B.S., 09.08.2010 – Numac: 2010204226). Tekst van toepassing vanaf de dag waarop het in het B.S. wordt bekendgemaakt, zijnde 09.08.2010 (art. 12))
 
@@ -957,7 +961,7 @@ Voor de spelen en weddenschappen die worden ontvangen via informatiemaatschappij
 
 Bij gebrek aan spontane betaling neemt de door de Waalse Regering aangewezen ambtenaar, nadat hij de belastingplichtige daarover heeft ingelicht, in voorkomend geval, het bedrag van de verschuldigde belasting van de waarborg verstrekt overeenkomstig de artikelen 63 tot 63quinquies op.
 
-## Art. 61
+#### Art. 61
 
 (hersteld bij art. 13 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1) (2))
 
@@ -975,7 +979,7 @@ Nota:
 (1) Worden evenwel beschouwd als voldoend aan artikel 61 WIGB, en blijven hun gevolgen behouden vanaf 1 januari 2010, de vóór 1 januari 2010 betaalde voorschotten, ter uitvoering van artikel 35bis van het koninklijk besluit van 8 juli 1970 houdende de algemene verordening betreffende de met inkomstenbelastingen gelijkgestelde belastingen, dat van toepassing blijft tot 31 december 2009.
 (2) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun gevolgen behouden vanaf 1 januari 2010, en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-## Art. 62
+#### Art. 62
 
 (hersteld bij art. 13 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1) (2))
 
@@ -993,9 +997,9 @@ Nota:
 (1) worden evenwel beschouwd als voldoend aan artikel 62 WIGB, en blijven hun gevolgen behouden vanaf 1 januari 2010, de vóór 1 januari 2010 betaalde voorschotten, ter uitvoering van artikel 7quinquies van het ministerieel besluit van 17 juli 1970 houdende de algemene verordening betreffende de met inkomstenbelastingen gelijkgestelde belastingen, dat van toepassing blijft tot 31 december 2009.
 (2) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun gevolgen behouden vanaf 1 januari 2010, en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-#### HOOFDSTUK VI - Borgtocht en zakelijke waarborg
+### HOOFDSTUK VI - Borgtocht en zakelijke waarborg
 
-## Art. 63
+#### Art. 63
 
 (6°, vervangen bij art. 8 van het decreet van 22.07.2010 (B.S., 09.08.2010 – Numac: 2010204226). Tekst van toepassing vanaf de dag waarop het in het B.S. wordt bekendgemaakt, zijnde 09.08.2010 (art. 12)) (1)
 
@@ -1015,7 +1019,7 @@ Een zakelijke waarborg dient verstrekt te worden door de belastingplichtigen van
 Nota:
 (1) In afwijking van artikel 63quater WIGB, moet de waarborg waarvan sprake in artikel 63, 6° van hetzelfde Wetboek worden verstrekt binnen de maand na de inwerkingtreding van dit decreet als de persoon die onderworpen is aan de belasting op de spelen en weddenschappen reeds inleggelden of sommen aangenomen heeft vóór de inwerkingtreding van dit decreet via informatiemaatschappij-instrumenten in de zin van de wet van 7 mei 1999 op de kansspelen, de weddenschappen, de kansspelinrichtingen en de bescherming van de spelers (art. 12, § 2).
 
-## Art. 63bis
+#### Art. 63bis
 
 (ingevoegd bij art. 14 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1) (2))
 
@@ -1025,7 +1029,7 @@ Nota:
 (1) Worden evenwel beschouwd als voldoend aan de artikelen 63 tot 63quinquies WIGB, en blijven hun gevolgen behouden vanaf 1 januari 2010, de door de belastingplichtigen op de spelen en weddenschappen verstrekte borgtochten en zakelijke zekerheden, en de vóór 1 januari 2010 afgeleverde vergunningen, ter uitvoering van de artikelen 51 en 52 van het koninklijk besluit van 8 juli 1970 houdende de algemene Verordening betreffende de met inkomstenbelastingen gelijkgestelde belastingen en de artikelen 3 tot 5 van het ministerieel besluit van 17 juli 1970 tot uitvoering van het Wetboek van de met inkomstenbelastingen gelijkgestelde belastingen, dat van toepassing blijft tot 31 december 2009.
 (2) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun gevolgen behouden vanaf 1 januari 2010, en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-## Art. 63ter
+#### Art. 63ter
 
 (3°bis, ingevoegd bij art. 9 van het decreet van 22.07.2010 (B.S., 09.08.2010 – Numac: 2010204226). Tekst van toepassing vanaf de dag waarop het in het B.S. wordt bekendgemaakt, zijnde 09.08.2010 (art. 12)) (1)
 
@@ -1044,7 +1048,7 @@ Het bedrag van de zakelijke waarborg wordt als volgt vastgesteld:
 Nota:
 (1) In afwijking van artikel 63quater WIGB, moet de waarborg waarvan sprake in artikel 63ter, 3bis, van hetzelfde Wetboek worden verstrekt binnen de maand na de inwerkingtreding van dit decreet als de persoon die onderworpen is aan de belasting op de spelen en weddenschappen reeds inleggelden of sommen aangenomen heeft vóór de inwerkingtreding van dit decreet via informatiemaatschappij-instrumenten in de zin van de wet van 7 mei 1999 op de kansspelen, de weddenschappen, de kansspelinrichtingen en de bescherming van de spelers (art. 12, § 2).
 
-## Art. 63quater
+#### Art. 63quater
 
 (ingevoegd bij art. 14 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1) (2))
 
@@ -1055,7 +1059,7 @@ Nota:
 (1) Worden evenwel beschouwd als voldoend aan de artikelen 63 tot 63quinquies WIGB, en blijven hun gevolgen behouden vanaf 1 januari 2010, de door de belastingplichtigen op de spelen en weddenschappen verstrekte borgtochten en zakelijke zekerheden, en de vóór 1 januari 2010 afgeleverde vergunningen, ter uitvoering van de artikelen 51 en 52 van het koninklijk besluit van 8 juli 1970 houdende de algemene Verordening betreffende de met inkomstenbelastingen gelijkgestelde belastingen en de artikelen 3 tot 5 van het ministerieel besluit van 17 juli 1970 tot uitvoering van het Wetboek van de met inkomstenbelastingen gelijkgestelde belastingen, dat van toepassing blijft tot 31 december 2009.
 (2) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun gevolgen behouden vanaf 1 januari 2010, en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-## Art. 63quinquies
+#### Art. 63quinquies
 
 (ingevoegd bij art. 14 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1) (2))
 
@@ -1065,9 +1069,9 @@ Nota:
 (1) Worden evenwel beschouwd als voldoend aan de artikelen 63 tot 63quinquies WIGB, en blijven hun gevolgen behouden vanaf 1 januari 2010, de door de belastingplichtigen op de spelen en weddenschappen verstrekte borgtochten en zakelijke zekerheden, en de vóór 1 januari 2010 afgeleverde vergunningen, ter uitvoering van de artikelen 51 en 52 van het koninklijk besluit van 8 juli 1970 houdende de algemene Verordening betreffende de met inkomstenbelastingen gelijkgestelde belastingen en de artikelen 3 tot 5 van het ministerieel besluit van 17 juli 1970 tot uitvoering van het Wetboek van de met inkomstenbelastingen gelijkgestelde belastingen, dat van toepassing blijft tot 31 december 2009.
 (2) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun gevolgen behouden vanaf 1 januari 2010, en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-#### HOOFDSTUK VII - Afwijkende bepalingen
+### HOOFDSTUK VII - Afwijkende bepalingen
 
-## Art. 64
+#### Art. 64
 
 (gewijzigd bij art. 15 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1)
 
@@ -1078,7 +1082,7 @@ De Waalse Regering oefent de Hem verleende bevoegdheid uit, hetzij door het slui
 Nota:
 (1) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun gevolgen behouden vanaf 1 januari 2010, en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-## Art. 65
+#### Art. 65
 
 (opgeheven bij art. 16 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1)
 
@@ -1087,11 +1091,11 @@ Nota:
 Nota:
 (1) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun gevolgen behouden vanaf 1 januari 2010, en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-#### HOOFDSTUK VIII - Bijzondere bepalingen in verband met de paardenwedrennen
+### HOOFDSTUK VIII - Bijzondere bepalingen in verband met de paardenwedrennen
 
 (vervangen bij art. 48 van de wet van 10.01.2010 (B.S., 01.02.2010 – Numac: 2010009070). Tekst van toepassing vanaf 01.01.2011 (art. 61, lid 1). De Koning kan voor iedere bepaling van deze wet een datum van inwerkingtreding bepalen (art. 61, lid 2))
 
-## Art. 66
+#### Art. 66
 
 (gewijzigd bij art. 49 van de wet van 10.01.2010 (B.S., 01.02.2010 – Numac: 2010009070). Tekst van toepassing vanaf 01.01.2011 (art. 61, lid 1). De Koning kan voor iedere bepaling van deze wet een datum van inwerkingtreding bepalen (art. 61, lid 2))
 
@@ -1107,15 +1111,15 @@ Nota:
 
 3° (…).
 
-## Art. 67
+#### Art. 67
 
 (opgeheven bij art. 50 van de wet van 10.01.2010 (B.S., 01.02.2010 – Numac: 2010009070). Tekst van toepassing vanaf 01.01.2011 (art. 61, lid 1). De Koning kan voor iedere bepaling van deze wet een datum van inwerkingtreding bepalen (art. 61, lid 2))
 
 (…)
 
-#### HOOFDSTUK IX - Sancties
+### HOOFDSTUK IX - Sancties
 
-## Art. 68
+#### Art. 68
 
 (gewijzigd bij art. 10 van het decreet van 22.07.2010 (B.S., 09.08.2010 – Numac: 2010204226). Tekst van toepassing vanaf de dag van de publicatie in het B.S., zijnde 09.08.2010 (art. 12))
 
@@ -1143,7 +1147,7 @@ Voor de vaststelling van het toe te passen percentage van de verminderde evenred
 
 § 4. De bij dit artikel bedoelde boete is niet verschuldigd, wanneer het ontstaande feit daarvoor het voorwerp heeft uitgemaakt van definitief afgesloten strafvervolgingen.
 
-## Art. 68bis
+#### Art. 68bis
 
 (ingevoegd bij art. 18 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103))
 
@@ -1151,7 +1155,7 @@ Bij overtreding van Titel III van dit Wetboek of van de uitvoeringsbesluiten erv
 
 De bij dit artikel bedoelde boete is niet verschuldigd, wanneer het daartoe aanleiding gevend feit daarvoor het voorwerp heeft uitgemaakt van definitief afgesloten strafvervolgingen.
 
-## Art. 68ter
+#### Art. 68ter
 
 (gewijzigd bij art. 20 van het decreet van 01.06.2017 (B.S., 10.07.2017 – Numac: 2017030429). Tekst van toepassing vanaf 01.07.2017 (art. 23))
 
@@ -1163,13 +1167,13 @@ de geschillen inzake de directe gewestelijke belastingen wordt hij die met het o
 
 § 3. Onverminderd de toepassing van de administratieve boete bedoeld in artikel 63, § 2, 2°, van het decreet van 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de directe gewestelijke belastingen wordt hij die schuldig is aan een valse getuigenis, de tolk of de deskundige die schuldig is aan valse verklaringen en diegene die schuldig is aan verleiding van getuigen, deskundigen of tolken tijdens de uitoefening door de door de Waalse Regering aangewezen dienst van één van de bevoegdheden om onderzoeken te doen, bedoeld in artikel 11 van het decreet van 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de directe gewestelijke belastingen, gestraft overeenkomstig de bepalingen van de artikelen 220 tot 224 van het Strafwetboek.
 
-## Art. 69
+#### Art. 69
 
 (gewijzigd bij art. 11 van het decreet van 22.07.2010 (B.S., 09.08.2010 – Numac: 2010204226). Tekst van toepassing vanaf de dag waarop het in het B.S. wordt bekendgemaakt, zijnde 09.08.2010 (art. 12))
 
 Onverminderd de toepassing van de bepalingen van hoofdstuk VII van het Eerste Boek van het Strafwetboek, wordt, naar het geval, als dader, mededader of medeplichtige van de overtredingen van de bepalingen van deze titel III of van de ter uitvoering ervan genomen maatregelen beschouwd, hij die wetens, op welke plaats en onder welke vorm ook, in het openbaar of op een andere wijze, spelen of weddenschappen bedoeld in artikel 43 inricht of exploiteert, aan die inrichting of aan die exploitatie deelneemt door spelen of weddenschappen aan te bieden of door rechtstreeks of met hulp van een tussenpersoon te spelen of te wedden, of nog, zich aanbiedt om gelden bestemd tot de dienst van spelen of van weddenschappen in ontvangst te nemen, ze inzamelt of ze stort.
 
-## Art. 70
+#### Art. 70
 
 (gewijzigd bij art. 20 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103))
 
@@ -1185,19 +1189,19 @@ De beslissing tot sluiting van de inrichting of tot verbod om inzetten of wedden
 
 De voorziening schorst de uitvoering van de beslissing niet wanneer deze laatste genomen werd wegens de weigering de reglementaire controlemaatregelen na te leven, een waarborg te stellen of de belasting te betalen, ofwel, wegens het verzet tegen het optreden van de agenten van toezicht.
 
-## Art. 71
+#### Art. 71
 
 (gewijzigd bij art. 2, 1 van het KB van 20.07.2000 (B.S., 30.08.2000 – ed. 1 – Numac: 2000003467). Tekst van toepassing vanaf 01.01.2002 (art. 7, § 2), zelf gewijzigd bij art. 42, 5° van het KB van 13.07.2001 (B.S., 11.08.2001 – ed. 1). Tekst van toepassing vanaf 01.01.2002 (art. 45, § 1))
 
 Hij die hetzij rechtstreeks, hetzij onrechtstreeks, hetzij door een tussenpersoon, de sluiting of het verbod uitgesproken krachtens artikel 70 schendt, wordt gestraft met gevangenisstraf van acht dagen tot twee jaar en met boete van 250 EUR tot 12.500 EUR of met één van die straffen alleen.
 
-## Art. 72
+#### Art. 72
 
 (vervangen bij art. 21 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103))
 
 De wet van 5 maart 1952, gewijzigd bij de wetten van 22 december 1989 en 20 juli 1991, betreffende de opdeciemen op de strafrechtelijke geldboeten, vindt geen toepassing op de misdrijven bedoeld in de artikelen 68ter en 71.
 
-## Art. 73
+#### Art. 73
 
 (hersteld bij art. 22 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103))
 
@@ -1211,7 +1215,7 @@ In geen enkel geval schorst het verzoek om advies de strafvordering.
 
 § 3. De ambtenaren van het Waalse Gewest mogen, op straffe van nietigheid van de akte van rechtspleging, slechts als getuige worden gehoord in het kader van de in § 1 bedoelde strafvordering.
 
-## Art. 73bis
+#### Art. 73bis
 
 (ingevoegd bij art. 23 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103))
 
@@ -1219,15 +1223,15 @@ Personen die als daders of als medeplichtigen van misdrijven bedoeld in artikel 
 
 De natuurlijke personen of de rechtspersonen zijn burgerlijk en hoofdelijk aansprakelijk voor de geldboeten en kosten die het gevolg zijn van de veroordelingen welke krachtens artikel 68ter tegen hun gemachtigden of bedrijfsleiders zijn uitgesproken, tenzij ze kunnen bewijzen dat ze geen enkele fout hebben begaan door alle maatregelen waarover ze beschikken, te hebben genomen om te voorkomen dat het materiële bestanddeel van de overtreding werkelijkheid wordt.
 
-## Art. 73ter
+#### Art. 73ter
 
 (ingevoegd bij art. 24 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103))
 
 De rechter kan bevelen dat ieder vonnis of arrest houdende veroordeling tot een gevangenisstraf, uitgesproken krachtens artikel 68ter of 71, wordt aangeplakt in de plaatsen dit hij bepaalt en, eventueel bij uittreksel, wordt bekendgemaakt op de wijze die hij bepaalt, een en ander op kosten van de veroordeelde.
 
-#### HOOFDSTUK X - Bevoegdheid van de provincies en de gemeenten
+### HOOFDSTUK X - Bevoegdheid van de provincies en de gemeenten
 
-## Art. 74
+#### Art. 74
 
 (gewijzigd bij art. 2, 1 van het KB van 20.07.2000 (B.S., 30.08.2000 – ed. 1 – Numac: 2000003467). Tekst van toepassing vanaf 01.01.2002 (art. 7, § 2), zelf gewijzigd bij art. 42, 5° van het KB van 13.07.2001 (B.S., 11.08.2001 – ed. 1). Tekst van toepassing vanaf 01.01.2002 (art. 45, § 1))
 
@@ -1235,29 +1239,29 @@ De provincies en de gemeenten mogen onder welke vorm ook, geen belastingen heffe
 
 De provincies alsmede de gemeenten mogen nochtans een belasting heffen op de agentschappen voor weddenschappen op paardenwedrennen toegelaten in het kader van artikel 66. De provinciale- en de gemeentebelasting mogen ieder, per agentschap, niet meer bedragen dan respectievelijk 37,50 EUR en 62 EUR per maand bedrijvigheid of per gedeelte daarvan.
 
-## Art. 74bis
+#### Art. 74bis
 
 (opgeheven bij art. 1 van het decreet van 06.08.1992 (B.S., 29.09.1992). Tekst van toepassing vanaf 01.03.1993 (art. -))
 
 (…)
 
-## Art. 75
+#### Art. 75
 
 (opgeheven bij art. 19 van de wet van 28.12.1973 (B.S., 29.12.1973 – Numac: 1973122801). Tekst van toepassing vanaf aanslagjaar 1974 (art. 57))
 
 (…)
 
-### TITEL IV - BELASTING OP DE AUTOMATISCHE ONTSPANNINGSTOESTELLEN
+## TITEL IV - BELASTING OP DE AUTOMATISCHE ONTSPANNINGSTOESTELLEN
 
-#### HOOFDSTUK I - Belastbare toestellen
+### HOOFDSTUK I - Belastbare toestellen
 
-## Art. 76
+#### Art. 76
 
 § 1. Een jaarlijkse forfaitaire belasting wordt geheven op de automatische toestellen dienende tot ontspanning, opgesteld op de openbare weg, in de voor liet publiek toegankelijke plaatsen of in private kringen, ongeacht of de toegang tot deze kringen al dan niet onderworpen is aan bepaalde formaliteiten.
 
 § 2. Wordt als automatisch beschouwd: elk toestel dat een mechanisch, elektrisch of elektronisch onderdeel bevat, dienstig voor het op gang brengen, de werking, of voor de bediening ervan, en waarvan de start veroorzaakt wordt door het inbrengen van een geldstuk, van een penning of door gelijk welk ander middel dat hiervoor in de plaats komt.
 
-## Art. 77
+#### Art. 77
 
 (vervangen bij art. 25 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepaling (1))
 
@@ -1270,15 +1274,15 @@ De Waalse Regering bepaalt de modaliteiten van het bewijs betreffende de hierbov
 Nota:
 (1) artikel 25 van dit decreet is enkel van toepassing op de belastingen op de spelen en weddenschappen en op de automatische ontspanningstoestellen, interesten en fiscale geldboeten met betrekking tot deze twee belastingen, betreffende het belastingjaar 2010 en volgende.
 
-#### HOOFDSTUK II - Belastingschuldigen
+### HOOFDSTUK II - Belastingschuldigen
 
-## Art. 78
+#### Art. 78
 
 De belasting is verschuldigd door de eigenaar van het toestel. Nochtans, in geval van niet-betaling, wordt de persoon die als uitbater van lokalen of andere plaatsen bedoeld bij artikel 76, toelaat hierin het toestel op te stellen, als belastingschuldige beschouwd.
 
-#### HOOFDSTUK III - Bedrag van de belasting
+### HOOFDSTUK III - Bedrag van de belasting
 
-## Art. 79
+#### Art. 79
 
 (gewijzigd bij art. 15 van het decreet van 22.12.2021 (B.S., 12.01.2022 – Numac: 2022020006). Tekst van toepassing vanaf 01.01.2022 (art. 55, lid 1)) (1)
 
@@ -1334,7 +1338,7 @@ Indien geen dergelijke aangifte wordt gedaan, wordt het toestel ambtshalve geran
 Nota:
 (1) In geval van fiscaal misbruik in verband met de belasting bedoeld in afdeling 2 van Hoofdstuk I van titel VI van het Wetboek van de inkomstenbelastingen 1992, blijft artikel 344, paragraaf 1, van hetzelfde Wetboek van toepassing op het geheel van rechtshandelingen waaruit één rechtshandeling waarvan ten minste de eerste rechtshandeling is verricht vóór 01.01.2022 en ten minste de laatste rechtshandeling is verricht vanaf 01.01.2022 (art. 54).
 
-## Art. 80
+#### Art. 80
 
 (gewijzigd bij art. 48 van het decreet van 22.12.2021 (B.S., 12.01.2022 – Numac: 2022020006). Tekst van toepassing vanaf 01.01.2022 (art. 55, lid 1)) (1)
 
@@ -1356,7 +1360,7 @@ Nota:
 (1) Tot 31.12.2023 mag in elke al dan niet elektronische mededeling van of aan de Waalse Overheidsdienst Financiën rechtsgeldig de vermelding "Waalse Overheidsdienst Fiscaliteit" of "Operationeel Directoraat-generaal Fiscaliteit van de Waalse Overheidsdienst" worden gebruikt in plaats van "Waalse Overheidsdienst Financiën".
 Voor de toepassing van lid 1 wordt onder mededeling verstaan de toezending van een document, een formulier, een aangifte, een rol, een beslissing, een dwangmaatregel of enigerlei andere briefwisseling van welke aard ook (art. 51).
 
-## Art. 81
+#### Art. 81
 
 (gewijzigd bij art. 27 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepaling (1))
 
@@ -1369,9 +1373,9 @@ De belasting wordt verminderd tot:
 Nota:
 (1) voldoend aan artikel 81 WIGB, en blijven hun gevolgen behouden vanaf 1 januari 2010, de vóór 1 januari 2010 ingediende aangiften inzake de belasting op de automatische ontspanningstoestellen, ter uitvoering van artikel 81 van dit Wetboek dat van toepassing blijft tot 31 december 2009.
 
-#### HOOFDSTUK IV - Eisbaarheid van de belasting, aangifte en invordering
+### HOOFDSTUK IV - Eisbaarheid van de belasting, aangifte en invordering
 
-## Art. 82
+#### Art. 82
 (aangevuld bij art. 28 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepaling (1))
 
 De belasting is over het ganse jaar verschuldigd wanneer het toestel in de loop van het eerste kwartaal wordt opgesteld; slechts de drie vierden, de helft of het vierde ervan zijn verschuldigd naargelang de opstelling in de loop van het tweede, het derde of het vierde kwartaal geschiedt.
@@ -1381,7 +1385,7 @@ Dit artikel is niet van toepassing op de toestellen die in aanmerking komen voor
 Nota:
 (1) artikel 28 van dit decreet is enkel van toepassing op de belastingen op de spelen en weddenschappen en op de automatische ontspanningstoestellen, interesten en fiscale geldboeten met betrekking tot deze twee belastingen, betreffende het belastingjaar 2010 en volgende.
 
-## Art. 83
+#### Art. 83
 
 (vervangen bij art. 29 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepaling (1))
 
@@ -1394,7 +1398,7 @@ Het gebrek aan verzending van die belastinguitnodiging stelt de belastingplichti
 Nota:
 (1) voldoend aan artikel 83 WIGB, en blijven hun gevolgen behouden vanaf 1 januari 2010, de vóór 1 januari 2010 betaalde belastingen op de automatische ontspanningstoestellen voor het belastingjaar 2010, ter uitvoering van artikel 83 van dit Wetboek, dat van toepassing blijft tot 31 december 2009.
 
-## Art. 84
+#### Art. 84
 
 (gewijzigd bij art. 30 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepaling (2))
 
@@ -1418,9 +1422,9 @@ Nota:
 (1) Lees: ’de door de Waalse Regering aangewezen ambtenaar’
 (2) Voldoend aan artikel 84 WIGB, en blijven hun gevolgen behouden vanaf 1 januari 2010, de door de belastingplichtigen op de automatische ontspanningstoestellen ingediende borderellen en de vóór 1 januari 2010 rechtsgeldig afgeleverde fiscale kentekens voor het belastingjaar 2010, ter uitvoering van artikel 84 van dit Wetboek, dat van toepassing blijft tot 31 december 2009.
 
-#### HOOFDSTUK V - Controlemaatregelen
+### HOOFDSTUK V - Controlemaatregelen
 
-## Art. 85
+#### Art. 85
 
 (lid 2, vervangen bij art. 31 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepaling (1))
 
@@ -1433,7 +1437,7 @@ Nota:
 (1) artikel 31 van dit decreet is enkel van toepassing op de overdrachten van toestellen die in werking treden vanaf 1 januari
 2010.
 
-## Art. 86
+#### Art. 86
 
 (aangevuld bij art. 32 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103))
 
@@ -1441,13 +1445,13 @@ De fiscale kentekens worden slechts vervangen in geval van teruggave en wanneer 
 
 De afstand geschiedt kosteloos bij de in artikel 84, § 1, bedoelde ambtenaar.
 
-## Art. 87
+#### Art. 87
 
 (opgeheven bij art. 33 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103))
 
 (…)
 
-## Art. 88
+#### Art. 88
 
 (vervangen bij art. 34 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1))
 
@@ -1458,9 +1462,9 @@ verplichtingen of om de verplichtingen van de belastingplichtigen aan te passen 
 Nota:
 (1) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun gevolgen behouden vanaf 1 januari 2010, en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-#### HOOFDSTUK VI - Sancties en strafbepalingen
+### HOOFDSTUK VI - Sancties en strafbepalingen
 
-## Art. 89
+#### Art. 89
 
 (vervangen bij art. 35 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art 103))
 
@@ -1486,7 +1490,7 @@ Voor de vaststelling van het toe te passen percentage van de verminderde evenred
 
 § 4. De bij dit artikel bedoelde boete wordt niet verschuldigd wanneer het ontstaanfeit daarvoor het voorwerp heeft uitgemaakt van definitief afgesloten strafvervolgingen.
 
-## Art. 89bis
+#### Art. 89bis
 
 (ingevoegd bij art. 36 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103))
 
@@ -1494,7 +1498,7 @@ Bij overtreding van Titel IV van dit Wetboek of van de uitvoeringsbesluiten erva
 
 De bij dit artikel bedoelde boete wordt niet verschuldigd, wanneer het daartoe aanleiding gevend feit daarvoor het voorwerp heeft uitgemaakt van definitief afgesloten strafvervolgingen.
 
-## Art. 90
+#### Art. 90
 
 (gewijzigd bij art. 21 van het decreet van 01.06.2017 (B.S., 10.07.2017 – Numac: 2017030429). Tekst van toepassing vanaf 01.07.2017 (art. 23))
 
@@ -1506,14 +1510,14 @@ De bij dit artikel bedoelde boete wordt niet verschuldigd, wanneer het daartoe a
 
 valse verklaringen en diegene die schuldig is aan verleiding van getuigen, deskundigen of tolken tijdens de uitoefening door de door de Waalse Regering aangewezen dienst van één van de bevoegdheden om onderzoeken te doen, bedoeld in artikel 11 van het decreet van 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de directe gewestelijke belastingen, gestraft overeenkomstig de bepalingen van de artikelen 220 tot 224 van het Strafwetboek.
 
-## Art. 90bis
+#### Art. 90bis
 
 (ingevoegd bij art. 38 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103))
 
 De wet van 5 maart 1952 betreffende de opdeciemen op de strafrechtelijke geldboeten gewijzigd bij de wetten van 22 december 1989 en 20 juli 1991 is niet van toepassing op de overtredingen bedoeld in artikel
 90.
 
-## Art. 90ter
+#### Art. 90ter
 
 (ingevoegd bij art. 39 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103))
 
@@ -1527,7 +1531,7 @@ In geen enkel geval schorst het verzoek om advies de strafvordering.
 
 § 3. De ambtenaren van het Waalse Gewest mogen, op straffe van nietigheid van de akte van rechtspleging, slechts als getuige worden gehoord in het kader van de in § 1 bedoelde strafvordering.
 
-## Art. 90quater
+#### Art. 90quater
 
 (ingevoegd bij art. 40 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103))
 
@@ -1535,21 +1539,21 @@ Personen die als daders of als medeplichtigen van misdrijven bedoeld in artikel 
 
 De natuurlijke personen of de rechtspersonen zijn burgerlijk en hoofdelijk aansprakelijk voor de geldboeten en kosten die het gevolg zijn van de veroordelingen welke krachtens artikel 90 tegen hun gemachtigden of bedrijfsleiders zijn uitgesproken.
 
-## Art. 90quinquies
+#### Art. 90quinquies
 
 (ingevoegd bij art. 41 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103))
 
 De rechter kan bevelen dat ieder vonnis of arrest houdende veroordeling tot een gevangenisstraf, uitgesproken krachtens artikel 90, wordt aangeplakt in de plaatsen dit hij bepaalt en, eventueel bij uittreksel, wordt bekendgemaakt op de wijze die hij bepaalt, een en ander op kosten van de veroordeelde.
 
-#### HOOFDSTUK VII - Automatische kansspeltoestellen waarvan de exploitatie verboden is
+### HOOFDSTUK VII - Automatische kansspeltoestellen waarvan de exploitatie verboden is
 
-## Art. 91
+#### Art. 91
 
 (gewijzigd bij art. 9 van het programmadecreet van 18.12.2003 (B.S., 06.02.2004 – Numac: 2004200252). Tekst van toepassing vanaf 30.12.2000 (art. 10))
 
 De bepalingen van titel IV, met uitzondering van de artikelen 76, 80, § 2, 87, 88 en 93 zijn niet van toepassing op de automatische kansspeltoestellen waarvan de exploitatie is verboden krachtens waarvan de exploitatie niet toegelaten is voor de instelling waar ze zich bevinden, ter uitvoering van de artikelen 4, 7 en 8 van de wet van 7 mei 1999 op de kansspelen, de kansspelinrichtingen en de bescherming van de spelers, of waarvan de exploitatie door een gemachtigde instelling de bepalingen vastgesteld door de Koning ter uitvoering van dezelfde wet van 7 mei 1999, niet naleeft.
 
-## Art. 92
+#### Art. 92
 
 (lid 3, opgeheven bij art. 42 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van toepassing vanaf 01.01.2010 (art. 103))
 
@@ -1557,21 +1561,21 @@ Het opstellen van een in artikel 91 bedoeld toestel opgesteld in de bij artikel 
 
 De eigenaar alsmede de persoon die toestemde in de opstelling van het toestel zijn hoofdelijk aansprakelijk voor de betaling van de aldus gevestigde belasting en van de bijhorigheden.
 
-#### HOOFDSTUK VIII - Bevoegdheid van de provincies en gemeenten
+### HOOFDSTUK VIII - Bevoegdheid van de provincies en gemeenten
 
 (vernummerd (oud Hoofdstuk VII) bij art. 9 van de wet van 24.12.1976 (B.S., 28.12.1976 – Numac: 1976122405). Tekst van toepassing vanaf aanslagjaar 1977 (art. 14))
 
-## Art. 93
+#### Art. 93
 
 (vernummerd (oud artikel 91) bij art. 9 van de wet van 24.12.1976 (B.S., 28.12.1976 – Numac: 1976122405). Tekst van toepassing vanaf aanslagjaar 1977 (art. 14))
 
 De provincies en de gemeenten mogen onder welke vorm ook geen belastingen heffen op de automatische ontspanningstoestellen belastbaar krachtens deze titel.
 
-### TITEL V - BELASTING OP DE INVERKEERSTELLING
+## TITEL V - BELASTING OP DE INVERKEERSTELLING
 
-#### HOOFDSTUK I - Belastbare voertuigen
+### HOOFDSTUK I - Belastbare voertuigen
 
-## Art. 94
+#### Art. 94
 
 (1°, gewijzigd bij art. 2 van de bijzondere wet van 27.12.2005 (B.S., 30.12.2005 – ed. 2 – Numac: 2005021184). Tekst van toepassing vanaf 01.01.2005 (aanslagjaar 2006) (art. 3))
 
@@ -1585,15 +1589,15 @@ zoals zij worden verstaan in de zin van artikel 4, § 3, en voor zover deze voer
 
 3° de jachten en pleziervaartuigen langer dan 7,5 meter, wanneer voor deze een vlaggebrief is of moet zijn afgeleverd, wanneer de wegvoertuigen, luchtvaartuigen of boten, op de openbare weg in het verkeer worden gesteld of gebruikt in België.
 
-## Art. 95
+#### Art. 95
 
 (gewijzigd bij art. 31 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 Voor zover er door de bepalingen van deze titel niet wordt afgeweken, zijn de artikelen 34, 35, 37 en 41 van toepassing op de belasting op de inverkeerstelling.
 
-#### HOOFDSTUK II - Vrijstellingen
+### HOOFDSTUK II - Vrijstellingen
 
-## Art. 96
+#### Art. 96
 
 (gewijzigd bij art. 32 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
@@ -1611,9 +1615,9 @@ b) de personen die volledig blind zijn, volledig blind zijn, volledig verlamd zi
 
 De Waalse Regering kan de voorwaarden en de regels voor de toepassing van dit artikel vaststellen.
 
-#### HOOFDSTUK III - Belastbare grondslag
+### HOOFDSTUK III - Belastbare grondslag
 
-## Art. 97
+#### Art. 97
 
 (vervangen bij art. 1 van het decreet van 07.09.2023 (B.S., 06.11.2023 – Numac: 2023046826). Tekst van toepassing vanaf 01.07.2025 en is alleen van toepassing op voertuigen die vanaf de inwerkingtreding ervan zijn geregistreerd (art. 3))
 
@@ -1634,9 +1638,9 @@ Nota:
 
 TOEKOMSTIG RECHT (vanaf 01.07.2026)
 
-#### HOOFDSTUK IV - Bedrag van de belasting
+### HOOFDSTUK IV - Bedrag van de belasting
 
-## Art. 98
+#### Art. 98
 
 (gewijzigd bij art. 2 van het decreet van 30.05.2025 (B.S., 12.06.2025 – Numac: 2025004290). Tekst van toepassing vanaf 01.07.2026 (art. 4, lid 2))
 
@@ -1851,9 +1855,9 @@ Nota:
 
 -----
 
-#### HOOFDSTUK IV - Bedrag van de belasting
+### HOOFDSTUK IV - Bedrag van de belasting
 
-## Art. 98
+#### Art. 98
 
 (gewijzigd bij art. 1 van het decreet van 30.05.2025 (B.S., 12.06.2025 – Numac: 2025004290). Tekst van toepassing vanaf 01.07.2025 (art. 4, lid 1))
 
@@ -2063,7 +2067,7 @@ Nota:
 (1) Lees “1°” (zie Franse tekst).
 (2) Lees “artikel 94°, 1°“ (zie Franse tekst).
 
-## Art. 98bis
+#### Art. 98bis
 
 (ingevoegd bij art. 3 van het decreet van 30.05.2025 (B.S., 12.06.2025 – Numac: 2025004290). Tekst van toepassing vanaf 01.07.2025 (art. 4, lid 1))
 
@@ -2119,11 +2123,11 @@ Onder "gecorrigeerd gemiddeld bedrag" wordt verstaan het gemiddelde bedrag dat v
 
 § 7. De Regering kan de toepassingsmodaliteiten voor dit artikel bepalen.
 
-#### HOOFDSTUK V - Ontstaan van de belastingschuld en inningsregels
+### HOOFDSTUK V - Ontstaan van de belastingschuld en inningsregels
 
 (ingevoegd bij art. 1 van de wet van 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992). Tekst van toepassing vanaf 01.06.1992 (art. 3))
 
-## Art. 99
+#### Art. 99
 
 (ingevoegd bij art. 1 van de wet van 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992). Tekst van toepassing vanaf 01.06.1992 (art. 3))
 
@@ -2133,7 +2137,7 @@ Onder "gecorrigeerd gemiddeld bedrag" wordt verstaan het gemiddelde bedrag dat v
 
 § 3. De in artikel 94, 3°, bedoelde boten worden geacht in België te zijn gebruikt wanneer voor deze een vlaggebrief is of moet zijn uitgereikt door het Bestuur van het Zeewezen en van de Binnenvaart.
 
-## Art. 100
+#### Art. 100
 
 (gewijzigd bij art. 36 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
@@ -2141,13 +2145,13 @@ Onder "gecorrigeerd gemiddeld bedrag" wordt verstaan het gemiddelde bedrag dat v
 
 § 2. De belasting is niet verschuldigd voor een in artikel 94, 1°, bedoeld voertuig of een in artikel 94, 2°, bedoeld luchtvaartuig dat wordt ingeschreven of voor een in artikel 94, 3°, bedoelde boot waarvoor een vlaggebrief wordt uitgereikt naar aanleiding van een overdracht tussen echtgenoten of wettelijk samenwonenden of een overdracht tussen uit de echt gescheiden personen ingevolge de echtscheiding of de beëindiging van wettelijke samenwoning, op voorwaarde dat de overdrager voor ditzelfde voertuig, luchtvaartuig of boot reeds de belasting heeft betaald.
 
-## Art. 101
+#### Art. 101
 
 (gewijzigd bij art. 37 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 De plaats van aanslag is de gemeente vermeld of het moet zijn op het inschrijvingsbewijs of op de vlaggebrief op het ogenblik van het ontstaan van de belastingschuld.
 
-## Art. 102
+#### Art. 102
 
 (gewijzigd bij art. 38 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
@@ -2155,25 +2159,25 @@ De belasting dient te worden gestort op de wijze en binnen de termijn aangeduid 
 
 Bij gebrek aan dergelijk bericht moet de belasting volgens de door de Waalse Regering vastgestelde regels worden gestort uiterlijk bij het verstrijken van de maand volgend op die tijdens welke zij verschuldigd is.
 
-## Art. 103
+#### Art. 103
 
 (vervangen bij art. 45 van de wet van 28.12.1992 (B.S., 31.12.1992 – ed. 3 – Numac: 1992003810). Tekst van toepassing vanaf 01.06.1992 (art. 47))
 
 De belasting is verbonden aan een aanslagjaar dat begint op de eerste dag van de maand waarin de belasting verschuldigd is. Deze aanslagjaren worden genoemd naar het jaar waarin de belasting verschuldigd is.
 
-## Art. 103bis
+#### Art. 103bis
 
 (opgeheven bij art. 39 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 (...)
 
-## Art. 104
+#### Art. 104
 
 (opgeheven bij art. 39 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 (…)
 
-## Art. 105
+#### Art. 105
 
 (gewijzigd bij art. 40 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
@@ -2181,70 +2185,70 @@ Ontheffing van belasting wordt verleend voor de in artikel 94, 1°, 2° en 3°, 
 
 De Waalse Regering regelt de uitvoering van dit artikel.
 
-#### HOOFDSTUK VI - Controlemaatregelen
+### HOOFDSTUK VI - Controlemaatregelen
 
-## Art. 106
+#### Art. 106
 
 (opgeheven bij art. 41 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van toepassing vanaf 01.01.2014 (art. 56))
 
 (…)
 
-#### HOOFDSTUK VII - Bevoegdheid van de gemeenschappen, de gewesten, de provincies, de agglomeraties en de gemeenten
+### HOOFDSTUK VII - Bevoegdheid van de gemeenschappen, de gewesten, de provincies, de agglomeraties en de gemeenten
 
 (ingevoegd bij art. 1 van de wet van 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992). Tekst van toepassing vanaf 01.06.1992 (art. 3))
 
-## Art. 107
+#### Art. 107
 
 (ingevoegd bij art. 1 van de wet van 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992). Tekst van toepassing vanaf 01.06.1992 (art. 3))
 
 De Gemeenschappen, de Gewesten, de provincies, de agglomeraties en de gemeenten zijn niet gerechtigd de opcentiemen op de belasting op de inverkeerstelling te heffen.
 
-### TITEL VI - (…)
+## TITEL VI - (…)
 
 (titel opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183).
 Tekst van toepassing vanaf aanslagjaar 2008 (art. 14))
 De accijnscompenserende belasting wordt helemaal afgeschaft vanaf aanslagjaar 2008.
 
-## Art. 108
+#### Art. 108
 
 (opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183). Tekst van toepassing vanaf aanslagjaar 2008 (art. 14))
 
 (…)
 
-## Art. 109
+#### Art. 109
 
 (opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183). Tekst van toepassing vanaf aanslagjaar 2008 (art. 14))
 
 (…)
 
-## Art. 109bis
+#### Art. 109bis
 
 (opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183). Tekst van toepassing vanaf aanslagjaar 2008 (art. 14))
 
 (…)
 
-## Art. 110
+#### Art. 110
 
 (opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183). Tekst van toepassing vanaf aanslagjaar 2008 (art. 14))
 
 (…)
 
-## Art. 111
+#### Art. 111
 
 (opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183). Tekst van toepassing vanaf aanslagjaar 2008 (art. 14))
 
 (…)
 
-### TITEL VII - BELASTING OP DE WERKNEMERSPARTICIPATIE IN HET
+## TITEL VII - BELASTING OP DE WERKNEMERSPARTICIPATIE IN HET
 KAPITAAL VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE VOOR DE
 WERKNEMERS
 
 (opschrift in de Franse tekst gewijzigd bij art. 19 van de wet van 30.07.2018 (B.S., 10.08.2018 – Numac: 2018031626).
 Tekst van toepassing vanaf 01.01.2018 (art. 21))
 
-#### HOOFDSTUK I - Belastbaar feit
+### HOOFDSTUK I - Belastbaar feit
 
-## Art. 112
+#### Art. 112
 
 (gewijzigd bij art. 70 van de programmawet van 25.12.2017 (B.S., 29.12.2017 – ed. 1 – Numac: 2017032136). Tekst van toepassing vanaf 01.01.2018 (art. 78))
 
@@ -2252,9 +2256,9 @@ Er wordt een belasting vastgesteld ten laste van de werknemers op de deelname in
 
 Er wordt een aanvullende belasting vastgesteld ten laste van de werknemers in geval van niet-naleving van de voorwaarde van onbeschikbaarheid van de deelname bepaald in de artikelen 11 en 19 van de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers of van het deelbewijs vermeld in artikel 15, § 1, van dezelfde wet.
 
-#### HOOFDSTUK II - Belastbare grondslag
+### HOOFDSTUK II - Belastbare grondslag
 
-## Art. 113
+#### Art. 113
 
 (gewijzigd bij art. 20 van de wet van 30.07.2018 (B.S., 10.08.2018 – Numac: 2018031626). Tekst van toepassing vanaf 01.01.2018 (art. 21))
 
@@ -2275,7 +2279,7 @@ Er wordt een aanvullende belasting vastgesteld ten laste van de werknemers in ge
 
 - in de andere gevallen, niet kleiner zijn dan de werkelijke waarde van het aandeel op het moment van de toekenning ervan, vastgesteld door de vennootschap die het toekent overeenkomstig het gelijkluidend advies van een bedrijfsrevisor of externe accountant die ze heeft aangewezen. Die waarde mag evenwel niet lager zijn dan de boekwaarde van de aandelen zoals blijkt uit de laatste jaarrekening van de uitgevende vennootschap die afgesloten en goedgekeurd is door het bevoegde orgaan vóór de datum van de toekenning.
 
-## Art. 114
+#### Art. 114
 
 (gewijzigd bij art. 72 van de programmawet van 25.12.2017 (B.S., 29.12.2017 – ed. 1 – Numac: 2017032136). Tekst van toepassing vanaf 01.01.2018 (art. 78))
 
@@ -2283,9 +2287,9 @@ De belastbare grondslag van de aanvullende belasting komt overeen met die welke 
 
 113, § 1, 3°, als het een winstpremie voor de werknemers is in het kader van een investeringsspaarplan en wordt beperkt in evenredigheid met de beschikbaar geworden aandelen of deelbewijzen met aftrek, in de twee gevallen, van de belasting bedoeld in artikel 112, eerste lid.
 
-#### HOOFDSTUK III - Opeisbaarheid van de belasting
+### HOOFDSTUK III - Opeisbaarheid van de belasting
 
-## Art. 115
+#### Art. 115
 
 (gewijzigd bij art. 73 van de programmawet van 25.12.2017 (B.S., 29.12.2017 – ed. 1 – Numac: 2017032136). Tekst van toepassing vanaf 01.01.2018 (art. 78))
 
@@ -2293,15 +2297,15 @@ De toekenning of de betaalbaarstelling van deelnames in de winst of in het kapit
 
 Als toekenning wordt inzonderheid beschouwd, de inschrijving van het aandeel op een ten bate van de verkrijger geopende rekening, zelfs als die rekening onbeschikbaar is, mits de onbeschikbaarheid het gevolg is van een uitdrukkelijke of stilzwijgende overeenkomst met de verkrijger of overeenkomstig de artikelen 11 en 19, § 1, van de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers.
 
-## Art. 116
+#### Art. 116
 
 (gewijzigd bij art. 74 van de programmawet van 25.12.2017 (B.S., 29.12.2017 – ed. 1 – Numac: 2017032136). Tekst van toepassing vanaf 01.01.2018 (art. 78))
 
 De bijkomende belasting is verschuldigd op het moment dat de onbeschikbaarheid van de participatie, bedoeld in de artikelen 11 en 19, § 1, of van de deelbewijzen, bedoeld in artikel 15, § 1, van de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers, ophoudt behalve in de gevallen bedoeld in de artikelen 11, § 3, 15, § 2 of 19, § 3, van genoemde wet.
 
-#### HOOFDSTUK IV - Belastingtarieven
+### HOOFDSTUK IV - Belastingtarieven
 
-## Art. 117
+#### Art. 117
 
 (§ 1, vervangen bij art. 75 van de programmawet van 25.12.2017 (B.S., 29.12.2017 – ed. 1 – Numac: 2017032136).
 Tekst van toepassing vanaf 01.01.2018 (art. 78))
@@ -2316,9 +2320,9 @@ Tekst van toepassing vanaf 01.01.2018 (art. 78))
 
 § 2. De aanslagvoet van de aanvullende belasting wordt vastgesteld op 23,29 %.
 
-#### HOOFDSTUK V - Schuldenaars van de belasting
+### HOOFDSTUK V - Schuldenaars van de belasting
 
-## Art. 118
+#### Art. 118
 
 (gewijzigd bij art. 76 van de programmawet van 25.12.2017 (B.S., 29.12.2017 – ed. 1 – Numac: 2017032136). Tekst van toepassing vanaf 01.01.2018 (art. 78))
 
@@ -2334,12 +2338,12 @@ De inhouding van de aanvullende belasting wordt uitgevoerd ofwel door verkoop do
 
 3° in alle andere gevallen, de werkgever bedoeld in artikel 2 van de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers.
 
-#### HOOFDSTUK VI - Stortingswijze, vestiging en inning van de belasting
+### HOOFDSTUK VI - Stortingswijze, vestiging en inning van de belasting
 
 (titel vervangen in de Franse tekst bij art. 71 van de wet van 13.04.2019 (B.S., 30.04.2019 – ed. 1 – Numac: 2019041000).
 Tekst van toepassing vanaf 1 jan 2020 (art. 139, lid 1). De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen (art. 139, lid 2))
 
-## Art. 119
+#### Art. 119
 
 (gewijzigd in de Franse tekst bij art. 72 van de wet van 13.04.2019 (B.S., 30.04.2019 – ed. 1 – Numac: 2019041000).
 Tekst van toepassing vanaf 1 jan 2020 (art. 139, lid 1). De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen (art. 139, lid 2))

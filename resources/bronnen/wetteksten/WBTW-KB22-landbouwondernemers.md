@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 22 van 15 september 1970, met betrekking tot de biezondere regeling voor landbouwondernemers inzake belasting over de toegevoegde waarde

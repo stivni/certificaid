@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. 1 oktober 2013 met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem in de horecasector

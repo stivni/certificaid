@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 13 van 29 december 1992, met betrekking tot de regeling voor tabaksfabricaten op het stuk van de belasting over de toegevoegde waarde

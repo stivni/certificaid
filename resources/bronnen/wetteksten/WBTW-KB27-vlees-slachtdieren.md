@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 27 van 26 juni 1973, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde, ten aanzien van vlees van slachtdieren

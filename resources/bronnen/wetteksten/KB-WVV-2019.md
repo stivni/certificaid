@@ -24,42 +24,46 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
 
-## Art. 1:2
+###### Art. 1:2
 
 Overeenkomstig artikel 1:1 worden de dossiers bijgehouden van:
   1° de rechtspersonen die worden beheerst door het Wetboek van vennootschappen en verenigingen, waarvan de zetel in België is gelegen, met uitzondering van de Europese politieke partijen en de Europese politieke stichtingen;
   2° de buitenlandse rechtspersonen, waarvan een bijkantoor in België is gevestigd, alsook van de Europese economische samenwerkingsverbanden waarvan de zetel in een andere Staat is gelegen en die een bijkantoor hebben in België.
   Het dossier kan geheel of gedeeltelijk elektronisch zijn.
 
-## Art. 1:3
+###### Art. 1:3
 
 Behoudens in geval van overmacht of onbeschikbaarheid van een elektronisch systeem geschiedt de neerlegging bedoeld in artikel 1:1 elektronisch:
   1° voor de authentieke akten, door de notarissen overeenkomstig de technische voorschriften vastgesteld door de Minister van Justitie;
   2° voor de onderhandse akten, door alle hoofdelijk aansprakelijke vennoten, het vertegenwoordigingsbevoegd orgaan of hun gemachtigde of door de notarissen volgens de technische voorschriften vastgesteld door de Minister van Justitie.
   Deze elektronische neerlegging houdt tevens verzending in naar de diensten van het Belgisch Staatsblad.
 
-## Art. 1:4
+###### Art. 1:4
 
 De elektronische neerlegging wordt ondertekend door middel van een geheel van elektronische gegevens dat aan een bepaalde persoon kan worden toegerekend en het behoud van de integriteit van de inhoud van de uitgifte of kopie van de akte, het uittreksel, de beslissing of het stuk aantoont en, in voorkomend geval, de hoedanigheid van notaris, overeenkomstig de technische voorschriften vastgesteld door de Minister van Justitie.
    Verslagen of aan de akte gehechte stukken die krachtens het Wetboek van vennootschappen en verenigingen gelijktijdig moeten worden neergelegd met de openbaar te maken akte waarop zij betrekking hebben en die, ingevolge overmacht of onbeschikbaarheid van het elektronisch systeem, niet op elektronische wijze kunnen worden neergelegd met de akte, worden gelijktijdig afzonderlijk neergelegd op papier.
 
-## Art. 1:5
+###### Art. 1:5
 
 Ingeval van een neerlegging op elektronische wijze van een onderhandse akte of stuk, worden de originele stukken bewaard op de zetel van de rechtspersoon. De neerlegging gaat gepaard met een door alle hoofdelijk aansprakelijke vennoten, het vertegenwoordigingsbevoegd orgaan of hun gemachtigde of door de notaris elektronisch ondertekende verklaring die bepaalt dat de originele stukken en de neergelegde elektronische kopieën eensluidend zijn. Onder deze voorwaarden genieten de elektronische kopieën dezelfde bewijswaarde als het origineel stuk, onverminderd de mogelijkheid om het tegenbewijs te leveren.
 
-## Art. 1:6
+###### Art. 1:6
 
 Online raadplegingen gebeuren volgens de technische voorschriften vastgesteld door de Minister van Justitie, behalve voor wat betreft het deel van het in artikel 2:7, § 2, van het Wetboek van vennootschappen en verenigingen bedoelde elektronisch databanksysteem dat wordt beheerd door de Koninklijke Federatie van het Belgisch Notariaat en vrij raadpleegbaar is.
    Wanneer een neergelegd stuk niet elektronisch beschikbaar is, kan via de door de Minister van Justitie bepaalde webpagina een aanvraag tot scanning van het gevraagde papieren stuk worden gedaan. De aangevraagde stukken mogen evenwel niet vóór 1 januari 1997 zijn neergelegd.
    De griffier beschikt vanaf de aanvraag over een termijn van 15 dagen om het te scannen document in te voeren in het elektronisch dossier. De griffier brengt op het gescande stuk diens elektronische handtekening aan. Deze geldt echter niet als waarmerking.
 
-## Art. 1:7
+###### Art. 1:7
 
 § 1. Wanneer een rechtspersoon voor het eerst een bij het in artikel 1:2, eerste lid, bedoelde dossier te voegen akte, uittreksel van een akte, beslissing of stuk neerlegt, schrijft deze zich hetzij rechtstreeks elektronisch in, hetzij wordt zij door de instrumenterende notaris, hetzij door de griffie van de ondernemingsrechtbank ingeschreven in het rechtspersonenregister van de Kruispuntbank van Ondernemingen.
    Bij de inschrijving worden volgende gegevens vermeld:
@@ -89,7 +93,7 @@ Online raadplegingen gebeuren volgens de technische voorschriften vastgesteld do
    ----------
    (1)<KB 2022-09-14/03, art. 3, 004; Inwerkingtreding : 23-10-2022>
 
-## Art. 1:8
+###### Art. 1:8
 
 Het ondernemingsnummer van de rechtspersoon wordt vermeld op alle in het dossier op te nemen stukken.
   De griffier of zijn gevolmachtigde viseert al de stukken die in het materiële deel van de dossiers moeten worden opgenomen, geeft ze een volgnummer en bergt ze er in op. De griffier houdt een inventaris bij van de stukken.
@@ -97,7 +101,7 @@ Het ondernemingsnummer van de rechtspersoon wordt vermeld op alle in het dossier
   De stukken die in het elektronische deel van de dossiers worden opgenomen, krijgen een volgnummer. Een inventaris van de stukken die het elektronische deel bevat, wordt automatisch bijgehouden. Deze inventaris vermeldt voor ieder neergelegd stuk het volgnummer, het onderwerp en de neerleggingsdatum.
    Onverminderd de elektronische neerlegging door alle hoofdelijk aansprakelijke vennoten, het vertegenwoordigingsbevoegd orgaan of hun gemachtigde, bezorgen de notaris of de griffier de betrokken rechtspersoon een elektronische kopie of een fotokopie van de inschrijving of wijziging alsmede een ontvangstmelding van de neergelegde akte, uittreksel van een akte, proces-verbaal of document.
 
-## Art. 1:9
+###### Art. 1:9
 
 § 1. De akten, uittreksels van akten, beslissingen en stukken die in de Bijlagen bij het Belgisch Staatsblad moeten worden bekendgemaakt, worden, onverminderd de elektronische neerlegging, neergelegd ter griffie samen met een kopie. Indien een akte, een uittreksel van een akte, een beslissing of een stuk betrekking heeft op een verrichting die door verschillende rechtspersonen moeten worden bekendgemaakt in de Bijlagen bij het Belgisch Staatsblad, dan moeten er zoveel neerleggingen met bijgevoegde kopie geschieden als er betrokken rechtspersonen zijn.
    De akten, beslissingen en stukken die in de vorm van een mededeling in de Bijlagen bij het Belgisch Staatsblad moeten worden bekendgemaakt, worden neergelegd in één exemplaar.
@@ -129,7 +133,7 @@ Het ondernemingsnummer van de rechtspersoon wordt vermeld op alle in het dossier
    De verbetering van een vergissing in een stuk waarvan de neerlegging werd bekendgemaakt door mededeling in de Bijlagen bij het Belgisch Staatsblad, gebeurt door neerlegging ter griffie, overeenkomstig de voorgaande paragrafen, van één of meer verbeterde of bijkomende bladen, waarop "verbetering" is vermeld. Zij worden gevoegd bij een blad waarop de gegevens bedoeld in paragraaf 2, vierde lid zijn vermeld alsook de aanduiding van het stuk waarop de verbetering betrekking heeft. De verbeterde of bijkomende bladen worden in het dossier bewaard.
   De neerlegging van verbeterde of bijkomende bladen wordt door uittreksel in de Bijlagen bij het Belgisch Staatsblad bekendgemaakt.
 
-## Art. 1:10
+###### Art. 1:10
 
 § 1. Onverminderd de elektronische neerlegging bepaald in artikel 1:3, gebeuren neerleggingen door overlegging ter griffie.
    Mogen evenwel per gewone of aangetekende brief aan de griffie worden toegezonden:
@@ -143,47 +147,47 @@ Het ondernemingsnummer van de rechtspersoon wordt vermeld op alle in het dossier
    In geval van elektronische neerlegging geschiedt de betaling van de kosten voor de bekendmaking via elektronische betaling volgens de technische voorschriften vastgesteld door de Minister van Justitie.
    In geval van elektronische neerlegging door de notarissen wordt de betaling van de kosten voor de bekendmaking in de Bijlagen bij het Belgisch Staatsblad van akten, uittreksels van akten, stukken en mededelingen geregeld via elektronische uitwisseling van gegevens. De modaliteiten van deze uitwisseling worden uitgewerkt in een protocol tussen de Minister van Justitie en de Koninklijke Federatie van het Belgisch Notariaat.
 
-## Art. 1:11
+###### Art. 1:11
 
 De bekendmaking in de Bijlagen bij het Belgisch Staatsblad, van een akte, een uittreksel van een akte, een stuk, een beslissing of een mededeling, geldt voor de betrokken neergelegde stukken als ontvangstbewijs.
 
-## Art. 1:12
+###### Art. 1:12
 
 Uiterlijk de tweede werkdag na de datum van de neerlegging zendt de griffier aan het bestuur van het de mededelingen, die hij heeft ontvangen en die in de Bijlagen bij het Belgisch Staatsblad moeten worden bekendgemaakt.
   De zendingen bestaan uit de op dezelfde dag in ontvangst genomen kopieën en exemplaren en de daarop betrekking hebbende mededelingen; zij worden verzonden hetzij bij een ter post aangetekende brief of tegen ontvangstbewijs overhandigd, hetzij door teletransmissie wanneer die documenten op elektronische wijze werden neergelegd.
 
-## Art. 1:13
+###### Art. 1:13
 
 De griffies en de door de Minister van Justitie aangeduide dienst houden, ieder wat hem betreft, een staat bij waarin de datum van verzending wordt aangetekend van de stukken die naar het Bestuur van het Zolang de Minister van Justitie de in het eerste lid bedoelde dienst niet heeft aangeduid, worden deze taken waargenomen door de stafdienst ICT van de FOD Justitie.
 
-## Art. 1:14
+###### Art. 1:14
 
 Wanneer bekendmaking vereist is, vindt zij plaats in de Bijlagen bij het Belgisch Staatsblad binnen de termijnen door de wet bepaald.
 
-## Art. 1:15
+###### Art. 1:15
 
 Binnen een maand na de bekendmaking in het Belgisch Staatsblad zendt het bestuur van het Belgisch Staatsblad aan het Bureau voor publicaties van de Europese Unie de gegevens betreffende de oprichting en de sluiting van de vereffening van een Europese vennootschap (SE), een Europese coöperatieve vennootschap (SCE) of een Europees economisch samenwerkingsverband (EESV).
 
-## Art. 1:16
+###### Art. 1:16
 
 De Minister van Justitie stelt het tarief vast van de kosten van bekendmaking van de in artikel 1:1 bedoelde stukken.
 
-## Art. 1:17
+###### Art. 1:17
 
 Wanneer aan de griffie een integrale kopie wordt gevraagd, worden de uittreksels uit de in artikel 1:2 bepaalde dossiers afgegeven op een fotokopie of beschikbaar gesteld op elektronische wijze.
   Elektronische kopieën worden niet voor eensluidend gewaarmerkt, tenzij de aanvrager hier uitdrukkelijk om verzoekt. De waarmerking gebeurt via een elektronische systeemhandtekening.
   In de mate dat de elektronische kopie betrekking heeft op stukken die zijn opgenomen in het deel van het in artikel 2:7, § 2, van het Wetboek van vennootschappen en verenigingen bedoelde elektronisch databanksysteem dat wordt beheerd door de Koninklijke Federatie van het Belgisch Notariaat, gebeurt de in het tweede lid bedoelde waarmerking via een elektronische systeemhandtekening van de Koninklijke Federatie van het Belgisch Notariaat.
   De betaling van de kosten voor de waarmerking door de griffie van elektronisch neergelegde stukken kan door elektronische betaling volgens de technische voorschriften vastgesteld door de Minister van Justitie.
 
-## Art. 1:18
+###### Art. 1:18
 
 De bepalingen van dit boek vinden geen toepassing op de stukken die overeenkomstig het Wetboek van vennootschappen en verenigingen niet moeten worden neergelegd ter griffie maar toch moeten worden bekendgemaakt in het Belgisch Staatsblad. Zij worden door de belanghebbenden rechtstreeks aan het Belgisch Staatsblad gezonden, en in de vorm van een aankondiging bekendgemaakt.
 
-## Art. 1:19
+###### Art. 1:19
 
 Wanneer hetzij de zetel, hetzij het bijkantoor dat bepalend is geweest voor de plaats waar het dossier moest worden neergelegd, van een rechtsgebied naar een ander wordt overgebracht wordt het dossier bedoeld in artikel 1:2 van de ene griffie naar de andere overgezonden binnen vijftien dagen te rekenen vanaf de neerlegging van de wijzigende akte van de rechtspersoon op de griffie van de rechtbank waar het register met die inschrijving zich bevindt. De materiële overzending geschiedt door toedoen van de griffier van de ondernemingsrechtbank van het rechtsgebied waarbinnen hetzij de zetel, hetzij het bijkantoor dat bepalend is geweest voor de plaats waar het dossier moest worden neergelegd zich bevond.
 
-## Art. 1:20
+###### Art. 1:20
 
 [1 Via het Europese systeem van gekoppelde registers als bedoeld in artikel 22 van richtlijn 2017/1132/EU van het Europees Parlement en de Raad van 14 juni 2017 aangaande bepaalde aspecten van het vennootschapsrecht notificeert het rechtspersonenregister, onderdeel van de Kruispuntbank van Ondernemingen, aan de centrale, handels- of vennootschapsregisters van de Europese Economische Ruimte de informatie aangaande:
     1° de opening en de sluiting van ontbindings- en insolventieprocedures van Belgische vennootschappen die een bijkantoor hebben in een andere lidstaat van de Europese Economische Ruimte;
@@ -198,7 +202,7 @@ Wanneer hetzij de zetel, hetzij het bijkantoor dat bepalend is geweest voor de p
    ----------
    (1)<KB 2022-09-14/03, art. 4, 004; Inwerkingtreding : 23-10-2022>
 
-## Art. 1:21
+###### Art. 1:21
 
 [1 Door de beheersdienst van de Kruispuntbank van Ondernemingen wordt de informatie, via elektronische weg ontvangen via het Europese systeem van gekoppelde registers als bedoeld in artikel 1:20, opgenomen in het rechtspersonenregister betreffende:
    1° de stopzetting van een buitenlandse vennootschap met een bijkantoor in België en;
@@ -207,7 +211,7 @@ Wanneer hetzij de zetel, hetzij het bijkantoor dat bepalend is geweest voor de p
   ----------
   (1)<KB 2022-09-14/03, art. 5, 004; Inwerkingtreding : 23-10-2022>
 
-## Art. 1:22
+###### Art. 1:22
 
 De bepalingen van dit besluit zijn van overeenkomstige toepassing op de openbaarmaking van akten en stukken van de organismen voor de financiering van pensioenen voorgeschreven door de wet van 27 oktober 2006 betreffende het toezicht op de instellingen voor bedrijfspensioenvoorziening.
 
@@ -215,23 +219,23 @@ De bepalingen van dit besluit zijn van overeenkomstige toepassing op de openbaar
 
 ### TITEL 1. - Gerechtelijke ontbinding van vennootschappen
 
-## Art. 2:1
+###### Art. 2:1
 
 Het vonnis dat overeenkomstig artikel 2:101, tweede lid, van het Wetboek van vennootschappen en verenigingen de sluiting van de vereffening van een vennootschap uitspreekt, beveelt het deposito in de Deposito- en Consignatiekas van alle geldsommen en andere effecten die het aan de schuldeisers of aan de vennoten of aandeelhouders heeft toegekend, maar niet aan hun kunnen worden afgeleverd.
   De consignatie geschiedt overeenkomstig de bepalingen van het koninklijk besluit van 24 december 1934 betreffende de toepassing der wetten op het onvrijwillig bezitsverlies van toonderpapier.
 
-## Art. 2:2
+###### Art. 2:2
 
 Wanneer de rechter de door de rechtbank aangewezen vereffenaars of de personen die overeenkomstig artikel 2:79 van het Wetboek van vennootschappen en verenigingen als vereffenaars worden beschouwd veroordeelt op grond van artikel 2:143, § 1, van hetzelfde wetboek, kan hij de activa die op de dag van het vonnis nog zijn geconsigneerd ten bate van de vennoten of aandeelhouders ten belope van het bedrag van de veroordeling bestemmen voor de uitvoering daarvan.
 
 ### TITEL 2. - Gerechtelijke ontbinding van verenigingen
 
-## Art. 2:3
+###### Art. 2:3
 
 Het vonnis dat overeenkomstig artikel 2:134, § 3, van het Wetboek van vennootschappen en verenigingen de sluiting van de vereffening van een VZW of van een IVZW uitspreekt, beveelt het deposito in de Deposito- en Consignatiekas van alle geldsommen en andere effecten die het aan de schuldeisers of aan de leden heeft toegekend, maar niet aan hun kunnen worden afgeleverd.
   De consignatie geschiedt overeenkomstig de bepalingen van het koninklijk besluit van 24 december 1934 betreffende de toepassing der wetten op het onvrijwillig bezitsverlies van toonderpapier.
 
-## Art. 2:4
+###### Art. 2:4
 
 Wanneer een vordering wordt ingesteld tegen de door de rechtbank aangewezen vereffenaars, kan de rechtbank op de activa die op de dag van het te vellen vonnis nog geconsigneerd zouden zijn ten bate van de leden, een inhouding bevelen ten gunste van de eiser, ten belope van wat hem verschuldigd blijft op de dag van de sluiting van de vereffening om ze te bestemmen voor de aflossing van het saldo van zijn schuldvordering.
    Wanneer de rechter de door de rechtbank aangewezen vereffenaars veroordeelt op grond van artikel 2:143, § 2, van het Wetboek van vennootschappen en verenigingen, kan hij de activa die op de dag van het vonnis nog zijn geconsigneerd ten bate van de leden ten belope van het bedrag van de veroordeling bestemmen voor de uitvoering daarvan.
@@ -242,37 +246,37 @@ Wanneer een vordering wordt ingesteld tegen de door de rechtbank aangewezen vere
 
 #### HOOFDSTUK 1. - Algemene principes.
 
-## Art. 3:1
+###### Art. 3:1
 
 De jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de vennootschap, VZW, IVZW of stichting.
   Wanneer de toepassing van de bepalingen van deze titel, titel 2 en titel 3 niet volstaat om te voldoen aan dit voorschrift moeten aanvullende inlichtingen worden verstrekt in de toelichting.
 
-## Art. 3:2
+###### Art. 3:2
 
 § 1. De jaarrekening moet duidelijk worden opgesteld en stelselmatig weergeven, enerzijds, de aard en het bedrag, op de dag waarop het boekjaar wordt afgesloten, van de bezittingen en rechten van de vennootschap, VZW, IVZW of stichting, van haar schulden en verplichtingen evenals van haar eigen middelen, en anderzijds, voor het op die dag afgesloten boekjaar, de aard en het bedrag van haar kosten en haar opbrengsten.
   § 2. Compensatie tussen tegoeden en schulden, tussen rechten en verplichtingen en tussen kosten en opbrengsten is verboden, behalve in de gevallen voorzien door deze titel, titel 2 of titel 3 van onderhavig boek. In dergelijke gevallen worden de te verrekenen bedragen als brutobedragen in de toelichting bij de jaarrekening vermeld.
   § 3. In de toelichting worden per soort vermeld de rechten en verplichtingen die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap, VZW, IVZW of stichting aanmerkelijk kunnen beïnvloeden.
   Belangrijke rechten en verplichtingen die niet kunnen worden becijferd, worden op passende wijze vermeld in de toelichting.
 
-## Art. 3:3
+###### Art. 3:3
 
 § 1. De balans wordt opgesteld na toewijzing, dit wil zeggen, rekening houdend met de beslissingen tot besteding van het saldo van de resultatenrekening en van het overgedragen resultaat.
   Wanneer die toewijzing bij gebreke van een beslissing van het bevoegde orgaan niet definitief is, wordt de balans opgesteld onder de opschortende voorwaarde van die beslissing.
   § 2. De beginbalans van een boekjaar moet, onverminderd de toepassing van artikel 3:59, tweede lid, overeenstemmen met de eindbalans van het voorafgaande boekjaar.
 
-## Art. 3:4
+###### Art. 3:4
 
 Het rekeningenstelsel van de vennootschap, VZW, IVZW of stichting moet zodanig worden opgevat of aangepast dat de balans en de resultatenrekening zonder toevoeging of weglating voortvloeien uit de balans van de desbetreffende rekeningen, opgemaakt na het in overeenstemming brengen bedoeld in artikel III.90, § 1, van het Wetboek van economisch recht.
 
-## Art. 3:5
+###### Art. 3:5
 
 In de jaarrekening worden de bedragen in euro uitgedrukt.
 
 #### HOOFDSTUK 2. - Waarderingsregels
 
-##### Afdeling 1. - Algemene beginselen
 
-## Art. 3:6
+##### Afdeling 1. - Algemene beginselen
+###### Art. 3:6
 
 § 1. Het bestuursorgaan van de vennootschap, VZW, IVZW of stichting bepaalt de regels die gelden voor de waardering van de inventaris bedoeld in artikel III.89, § 1, van het Wetboek van economisch recht. Deze regels worden bepaald met nakoming van de bepalingen van deze titel, titel 2 en titel 3, doch rekening houdende met de eigen kenmerken van de vennootschap, VZW, IVZW of stichting.
   Deze regels worden vastgelegd in het boek bedoeld in artikel III.89, § 1, van het Wetboek van economisch recht. Ze worden samengevat in de toelichting; overeenkomstig hetgeen is bepaald in artikel 3:1, eerste lid, moet deze samenvatting voldoende nauwkeurig zijn zodat inzicht wordt verkregen in de toegepaste waarderingsmethoden.
@@ -284,70 +288,70 @@ In de jaarrekening worden de bedragen in euro uitgedrukt.
   c) een voorziening moet worden gevormd voor de kosten die verbonden zijn aan de beëindiging van de werkzaamheden, inzonderheid voor de aan het personeel uit te keren vergoedingen.
   Hetzelfde geldt, ingeval een bedrijfsonderdeel of een vestiging van de vennootschap, VZW, IVZW of stichting wordt gesloten. In dat geval is het tweede lid van toepassing op de activa, de passiva en de verplichtingen die betrekking hebben op dat bedrijfsonderdeel of die vestiging.
 
-## Art. 3:7
+###### Art. 3:7
 
 Indien in uitzonderingsgevallen blijkt dat de toepassing van een in dit hoofdstuk bedoelde waarderingsregel niet leidt tot nakoming van het bepaalde in artikel 3:1, eerste lid, moet daarvan worden afgeweken ten einde te voldoen aan de in het voornoemde artikel bedoelde verplichting.
   Dergelijke afwijking wordt bij de waarderingsregels in de toelichting vermeld en verantwoord.
   De geraamde invloed ervan op het vermogen, de financiële positie en het resultaat van de vennootschap, VZW, IVZW of stichting wordt vermeld bij de waarderingsregels in de toelichting bij de jaarrekening over het boekjaar waarin de afwijkende waarderingsregel voor het eerst wordt toegepast.
 
-## Art. 3:8
+###### Art. 3:8
 
 De waarderingsregels bedoeld in artikel 3:6, § 1, eerste lid, moeten van het ene boekjaar op het andere identiek blijven en stelselmatig worden toegepast.
    Ze worden evenwel gewijzigd wanneer, onder meer uit hoofde van belangrijke veranderingen in de activiteiten van de vennootschap, VZW, IVZW of stichting, in de structuur van haar vermogen of in de economische dan wel technologische omstandigheden de vroeger gevolgde waarderingsregels niet langer aan het voorschrift van artikel 3:1, eerste lid, beantwoorden.
    Het tweede en het derde lid van artikel 3:7 zijn van toepassing op deze wijzigingen.
    Deze bepaling is niet van toepassing op de jaarrekening over het eerste boekjaar waarop voor een vennootschap, VZW, IVZW of stichting de bepalingen van deze titel, titel 2 of titel 3 van toepassing zijn.
 
-## Art. 3:9
+###### Art. 3:9
 
 Elk bestanddeel van het vermogen wordt afzonderlijk gewaardeerd.
 
-## Art. 3:10
+###### Art. 3:10
 
 De waarderingen moeten voldoen aan de eisen van voorzichtigheid, oprechtheid en goede trouw.
 
-## Art. 3:11
+###### Art. 3:11
 
 Er moet rekening worden gehouden met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen, ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft of tijdens voorgaande boekjaren, zelfs indien deze risico's, verliezen of ontwaardingen slechts gekend zijn tussen de balansdatum en het ogenblik waarop de jaarrekening door het bestuursorgaan van de vennootschap, VZW, IVZW of stichting wordt opgesteld. In de gevallen waarin, bij gebreke aan objectieve beoordelingscriteria, de waardering van de voorzienbare risico's, de mogelijke verliezen en de ontwaardingen onvermijdelijk aleatoir is, wordt hiervan melding gemaakt in de toelichting, wanneer de betrokken bedragen rekening houdend met de doelstelling van artikel 3:1, eerste lid, belangrijk zijn.
    Er moet rekening worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, behalve indien de effectieve inning van deze opbrengsten onzeker is. Ten laste van het boekjaar moeten inzonderheid worden geboekt: het geraamde bedrag van de belastingen op het resultaat van het boekjaar of op het resultaat van vorige boekjaren, alsmede de bezoldigingen, uitkeringen en andere sociale voordelen die in de loop van een volgend boekjaar zullen worden betaald voor diensten die tijdens het boekjaar of tijdens vorige boekjaren zijn verricht. Wanneer de opbrengsten of de kosten in belangrijke mate worden beïnvloed door opbrengsten of kosten die aan een ander boekjaar moeten worden toegerekend, wordt daarvan melding gemaakt in de toelichting.
-## Art. 3:12
+###### Art. 3:12
 
 De methoden en grondslagen voor de omrekening van in vreemde valuta uitgedrukte bezittingen, schulden en verplichtingen, alsmede de methoden voor de omrekening van de financiële staten van bijkantoren in het buitenland, worden in de toelichting vermeld bij de in artikel 3:6, § 1, bedoelde waarderingsregels.
 
-##### Afdeling 2. - Aanschaffingswaarde - Beginselen
 
-## Art. 3:13
+##### Afdeling 2. - Aanschaffingswaarde - Beginselen
+###### Art. 3:13
 
 Onverminderd de toepassing van de artikelen 3:7, 3:35, 3:45, 3:47, 3:49, 3:51 en 3:55, wordt elk actiefbestanddeel gewaardeerd tegen aanschaffingswaarde en voor dat bedrag in de balans opgenomen, onder aftrek van de desbetreffende afschrijvingen en waardeverminderingen.
   Onder aanschaffingswaarde wordt verstaan: of de aanschaffingsprijs zoals bepaald in artikel 3:14, of de vervaardigingsprijs zoals bepaald in artikel 3:15, of de inbrengwaarde zoals bepaald in artikel 3:17.
 
-## Art. 3:14
+###### Art. 3:14
 
 De aanschaffingsprijs omvat, naast de aankoopprijs, de bijkomende kosten zoals niet terugbetaalbare belastingen en vervoerkosten.
   De aanschaffingsprijs van een actiefbestanddeel verkregen in ruil voor een tegenprestatie anders dan in geld is de marktwaarde van deze tegenprestatie; is deze waarde moeilijk vast te stellen, dan is de aanschaffingsprijs de marktwaarde van het verkregen actiefbestanddeel. Deze waarden worden geschat op de datum van de ruil.
 
-## Art. 3:15
+###### Art. 3:15
 
 De vervaardigingsprijs omvat naast de aanschaffingskosten van de grondstoffen, verbruiksgoederen en hulpstoffen, de productiekosten die rechtstreeks aan het individuele product of aan de productengroep toerekenbaar zijn evenals het evenredig deel van de productiekosten die slechts onrechtstreeks aan het individuele product of aan de productengroep toerekenbaar zijn, voor zover deze kosten op de normale productieperiode betrekking hebben. Het staat de vennootschappen, VZW's, IVZW's en stichtingen echter vrij deze onrechtstreekse productiekosten niet geheel of gedeeltelijk in de vervaardigingsprijs op te nemen; in geval van deze mogelijkheid gebruik wordt gemaakt, wordt zulks in de toelichting bij de waarderingsregels vermeld.
 
-## Art. 3:16
+###### Art. 3:16
 
 In de aanschaffingswaarde van immateriële en materiële vaste activa mag de rente op vreemd vermogen dat wordt gebruikt voor hun financiering worden opgenomen, doch slechts voor zover zij betrekking heeft op de periode welke de bedrijfsklaarheid van deze vaste activa voorafgaat.
   In de vervaardigingsprijs van voorraden en bestellingen in uitvoering mag de rente op vreemd vermogen dat wordt gebruikt voor hun financiering slechts worden opgenomen voor zover deze rente betrekking heeft op voorraden of bestellingen waarvan de productie of uitvoering meer dan één jaar bestrijkt en zij op de normale productieperiode van deze voorraden of de normale uitvoeringstermijn van deze bestellingen betrekking heeft.
   Het opnemen van de rente op vreemd vermogen in de aanschaffingswaarde van immateriële of materiële vaste activa of van voorraden of bestellingen in uitvoering, wordt bij de waarderingsregels in de toelichting vermeld.
 
-## Art. 3:17
+###### Art. 3:17
 
 De inbrengwaarde stemt overeen met de bedongen waarde van de inbreng.
   In geval van bestemming voor of inbreng in een onderneming die geen vennootschap met eigen rechtspersoonlijkheid is en die geen VZW, IVZW of stichting is, moet onder inbrengwaarde worden verstaan de waarde van de goederen bij de inbreng of de bestemming. De inbrengwaarde mag niet hoger zijn dan de prijs die op het ogenblik van de inbreng of de bestemming voor de aankoop van de betrokken goederen op de markt zou moeten worden betaald.
   De belastingen en kosten met betrekking tot de inbreng zijn niet begrepen in de inbrengwaarde; indien zij niet volledig ten laste worden gebracht van de resultatenrekening van het boekjaar in de loop waarvan de inbreng is geschied, worden ze opgenomen in de rubriek "Oprichtingskosten".
 
-## Art. 3:18
+###### Art. 3:18
 
 Wat de goederen betreft die worden verkregen tegen betaling van een lijfrente:
   1° wordt onder aanschaffingswaarde verstaan het kapitaal dat op het ogenblik van de aanschaffing nodig is om de rente te betalen, in voorkomend geval verhoogd met het bedrag dat bij de aanschaffing werd betaald en met de kosten;
   2° wordt een voorziening gevormd ten belope van het bedrag van het hiervoorgenoemde kapitaal; deze voorziening wordt jaarlijks aangepast.
 
-## Art. 3:19
+###### Art. 3:19
 
 § 1. De aanschaffingswaarde van deelnemingen of aandelen ontvangen als vergoeding voor inbrengen die niet bestaan in contanten of die voortkomen uit de omzetting van vorderingen, stemt overeen met de conventionele waarde van de ingebrachte goederen en waarden of van de omgezette vorderingen. Als evenwel die conventionele waarde lager is dan de marktwaarde van de ingebrachte goederen en waarden of van de omgezette vorderingen, dan stemt de aanschaffingswaarde overeen met de hogere marktwaarde.
   In afwijking van het eerste lid worden de deelnemingen of aandelen van een vennootschap die een vennootschap, VZW, IVZW of stichting ontvangt bij fusie of splitsing als bedoeld in artikel 3:56, in ruil voor de deelnemingen of aandelen die zij in de overgenomen of gesplitste vennootschap bezat, bij die fusie of splitsing in haar boekhouding opgenomen tegen de waarde waarvoor de deelnemingen of aandelen van de overgenomen of gesplitste vennootschap hierin op die datum stonden geboekt. De verdeling van de boekwaarde van de deelnemingen of aandelen in de gesplitste vennootschap over de verschillende verkregen deelnemingen of aandelen in de verkrijgende vennootschappen vindt plaats pro rata [1 het aandeel in de reële waarde van de overgedragen vermogens dat kan worden toegerekend aan de vennootschap, VZW, IVZW of stichting die deze deelnemingen of aandelen ontvangt]1.
@@ -358,17 +362,17 @@ Wat de goederen betreft die worden verkregen tegen betaling van een lijfrente:
    ----------
    (1)<KB 2023-11-26/05, art. 1, 005; Inwerkingtreding : 21-12-2023>
 
-## Art. 3:20
+###### Art. 3:20
 
 In afwijking van de artikelen 3:9, 3:13, 3:25, 3:30, 3:34, 3:46, 3:47, 3:48, 3:49, 3:50 en 3:52 mogen het klein materieel evenals de grond- en hulpstoffen die bestendig worden hernieuwd en waarvan de aanschaffingswaarde te verwaarlozen is in verhouding tot het balanstotaal, op het actief worden opgenomen voor een vast bedrag indien de hoeveelheid, de waarde en de samenstelling ervan niet aanmerkelijk veranderen van het ene boekjaar tot het andere. In dit geval wordt de prijs voor de hernieuwing van deze bestanddelen opgenomen onder de bedrijfskosten.
 
-## Art. 3:21
+###### Art. 3:21
 
 De aanschaffingswaarde van activa met identieke technische of juridische kenmerken wordt bepaald hetzij door individualisering van de prijs van elk bestanddeel, hetzij volgens de methode van gewogen gemiddelde prijzen, volgens de methode "Fifo" (eerst in - eerst uit) of volgens de methode "Lifo" (laatst in - eerst uit).
    Indien de methode wordt gewijzigd, mag de aanschaffingswaarde van de goederen die geacht worden eerst te zijn ingekomen, niet lager zijn dan de waarde waarvoor ze, voor toepassing van de desbetreffende waardeverminderingen, voorkwamen in de inventaris bij het afsluiten van het boekjaar tevoren.
    Wanneer, inzonderheid bij toepassing van de Lifo-methode, de boekwaarde van de voorraden aanzienlijk verschilt van de waarde berekend op basis van de marktwaarde op balansdatum, moet het totale bedrag van dit verschil, per voorraadpost die in de balans voorkomt, in de toelichting worden vermeld. Dit verschil kan door de in de artikelen 1:24, 1:28 en 1:30 van het Wetboek van vennootschappen en verenigingen bedoelde kleine vennootschappen, VZW's, IVZW's en stichtingen door middel van een totaalbedrag voor het geheel van de betrokken posten worden opgegeven.
 
-## Art. 3:22
+###### Art. 3:22
 
 Indien, bij het begin van het eerste boekjaar waarin voor een vennootschap, VZW, IVZW of stichting deze titel toepasselijk wordt, de aanschaffingswaarde van bepaalde actiefbestanddelen niet kan worden wedersamengesteld, is de aanschaffingswaarde van elk van die bestanddelen gelijk aan de waarde waarvoor ze, vóór toepassing van de desbetreffende afschrijvingen en waardeverminderingen, in de inventaris van het boekjaar tevoren voorkwamen.
    De in toepassing van het vorige lid bepaalde aanschaffingswaarde:
@@ -377,51 +381,51 @@ Indien, bij het begin van het eerste boekjaar waarin voor een vennootschap, VZW,
    De herwaarderingsmeerwaarden die geboekt werden voor het eerste boekjaar waarop voor een vennootschap, VZW, IVZW of stichting de bepalingen van deze titel van toepassing zijn, de kapitaalsubsidies die bekomen werden voor datzelfde boekjaar alsook de door een vennootschap ontvangen uitgiftepremies moeten in de jaarrekening slechts opgenomen worden voor zover ze nog als zodanig in de boekhouding van de vennootschap, VZW, IVZW of stichting voorkwamen op het einde van het voorafgaande boekjaar.
    Zijn door een vennootschap meerwaarden geboekt tijdens een boekjaar dat voorafgaat aan het boekjaar dat ingaat na 31 december 1983, dan mogen deze meerwaarden in rubriek III "Herwaarderingsmeerwaarden" behouden blijven.
 
-##### Afdeling 3. - Afschrijvingen en waardeverminderingen
 
-## Art. 3:23
+##### Afdeling 3. - Afschrijvingen en waardeverminderingen
+###### Art. 3:23
 
 Onder "afschrijvingen" verstaat men de bedragen ten laste van de resultatenrekening genomen, met betrekking tot oprichtingskosten en tot immateriële en materiële vaste activa waarvan de gebruiksduur beperkt is, ten einde hetzij het bedrag van deze oprichtingskosten en van de eventueel geherwaardeerde aanschaffingskosten van deze vaste activa te spreiden over hun waarschijnlijke nuttigheids- of gebruiksduur, hetzij deze kosten ten laste te nemen op het ogenblik waarop zij worden aangegaan.
    Onder "waardeverminderingen" verstaat men correcties op de aanschaffingswaarde van de actiefbestanddelen, andere dan die vermeld in het vorige lid, om rekening te houden met al dan niet als definitief aan te merken ontwaardingen bij het afsluiten van het boekjaar.
    De gecumuleerde afschrijvingen en waardeverminderingen worden afgetrokken van de actiefposten waarop ze betrekking hebben.
 
-## Art. 3:24
+###### Art. 3:24
 
 De afschrijvingen en de waardeverminderingen moeten voldoen aan de eisen van voorzichtigheid, oprechtheid en goede trouw.
 
-## Art. 3:25
+###### Art. 3:25
 
 De afschrijvingen en waardeverminderingen zijn specifiek voor de actiefbestanddelen waarop ze betrekking hebben. Voor actiefbestanddelen met volkomen identieke technische of juridische kenmerken mogen echter globale afschrijvingen of waardeverminderingen geacteerd worden.
 
-## Art. 3:26
+###### Art. 3:26
 
 De afschrijvingen en de waardeverminderingen moeten stelselmatig worden gevormd volgens de door de vennootschap, VZW, IVZW of stichting overeenkomstig artikel 3:6, § 1, vastgelegde methoden. Ze mogen niet afhangen van het resultaat van het boekjaar.
 
-## Art. 3:27
+###### Art. 3:27
 
 De waardeverminderingen mogen niet worden gehandhaafd in die mate waarin ze op het einde van het boekjaar hoger zijn dan wat vereist is volgens een actuele beoordeling, conform de normen waarvan sprake in artikel 3:24, van de minderwaarden waarvoor ze werden gevormd.
 
-##### Afdeling 4. - Voorzieningen
 
-## Art. 3:28
+##### Afdeling 4. - Voorzieningen
+###### Art. 3:28
 
 De voorzieningen voor risico's en kosten beogen naar hun aard duidelijk omschreven verliezen of kosten te dekken die op de balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat.
   Onverminderd artikel 3:11, eerste lid, vertegenwoordigt een voorziening op balansdatum de beste schatting van de kosten die als waarschijnlijk worden beschouwd of, in geval van een verplichting, de beste schatting van het bedrag dat vereist is om die verplichting op de balansdatum na te komen.
   Voorzieningen mogen niet worden gebruikt voor waardecorrecties op activa.
 
-## Art. 3:29
+###### Art. 3:29
 
 De voorzieningen voor risico's en kosten moeten voldoen aan de eisen van voorzichtigheid, oprechtheid en goede trouw.
 
-## Art. 3:30
+###### Art. 3:30
 
 De voorzieningen voor risico's en kosten worden geïndividualiseerd naar gelang van de risico's en kosten met dezelfde aard die ze moeten dekken. Onder de risico's en kosten met dezelfde aard moeten de soorten van risico's en kosten worden verstaan die bij wijze van voorbeeld in artikel 3:32 zijn vermeld.
 
-## Art. 3:31
+###### Art. 3:31
 
 De voorzieningen voor risico's en kosten moeten stelselmatig worden gevormd volgens de door de vennootschap, VZW, IVZW of stichting overeenkomstig artikel 3:6, § 1, vastgelegde methoden. Ze mogen niet afhangen van het resultaat van het boekjaar.
 
-## Art. 3:32
+###### Art. 3:32
 
 Voorzieningen moeten, onder meer, gevormd worden met het oog op:
   a) de verplichtingen die op de vennootschap, VZW, IVZW of stichting rusten inzake rust- en overlevingspensioenen, werkloosheid met bedrijfstoeslag en andere gelijkaardige pensioenen of renten;
@@ -429,16 +433,16 @@ Voorzieningen moeten, onder meer, gevormd worden met het oog op:
   c) de verlies- of kostenrisico's die voor de vennootschap, VZW, IVZW of stichting voortvloeien uit persoonlijke of zakelijke zekerheden, verstrekt tot waarborg van schulden of verbintenissen van derden, uit verbintenissen tot aan- of verkoop van vaste activa, uit de uitvoering van gedane of ontvangen bestellingen, uit termijnposities of overeenkomsten in deviezen, termijnposities of overeenkomsten op goederen, uit technische waarborgen verbonden aan reeds door de vennootschap, VZW, IVZW of stichting verrichte verkopen of diensten, uit hangende geschillen;
   d) de kosten van een milieuverplichting.
 
-## Art. 3:33
+###### Art. 3:33
 
 De voorzieningen voor risico's en kosten mogen niet worden gehandhaafd in die mate waarin ze op het einde van het boekjaar hoger zijn dan wat vereist is volgens een actuele beoordeling, conform de normen waarvan sprake in artikel 3:29, van de risico's en kosten waarvoor ze werden gevormd.
-##### Afdeling 5. - Herwaarderingsmeerwaarden
 
-## Art. 3:34
+##### Afdeling 5. - Herwaarderingsmeerwaarden
+###### Art. 3:34
 
 De herwaarderingen zijn specifiek voor de actiefbestanddelen waarop ze betrekking hebben. Voor actiefbestanddelen met volkomen identieke technische of juridische kenmerken mogen echter globale herwaarderingen geacteerd worden.
 
-## Art. 3:35
+###### Art. 3:35
 
 § 1. De vennootschappen, VZW's, IVZW's en stichtingen mogen de materiële vaste activa, de deelnemingen en aandelen die onder de financiële vaste activa voorkomen of bepaalde soorten hiervoor genoemde vaste activa herwaarderen, wanneer de waarde van deze activa, bepaald in functie van hun nut voor de vennootschap, VZW, IVZW of stichting, op vaststaande en duurzame wijze uitstijgt boven hun boekwaarde.
  Wanneer de betrokken activa noodzakelijk zijn voor de voortzetting van het bedrijf van de vennootschap, VZW, IVZW of stichting of van een onderdeel daarvan, mogen zij slechts worden geherwaardeerd in de mate waarin de aldus uitgedrukte meerwaarde wordt verantwoord door de rentabiliteit van de vennootschap of de activiteiten van de VZW, IVZW of stichting of van het betrokken onderdeel daarvan.
@@ -449,27 +453,27 @@ De herwaarderingen zijn specifiek voor de actiefbestanddelen waarop ze betrekkin
   2° bij latere vastgestelde minderwaarde worden afgeboekt tot het beloop van het nog niet afgeschreven gedeelte van de meerwaarde.
   Een herwaarderingsmeerwaarde mag nooit rechtstreeks of onrechtstreeks aangewend worden om overgedragen verliezen geheel of gedeeltelijk aan te zuiveren voor het nog niet afgeschreven gedeelte van de herwaarderingsmeerwaarde.
 
+
 ##### Afdeling 6. - Bijzondere regels
+##### Onderafdeling 1. - Bijzondere regels betreffende de oprichtingskosten
 
-###### Onderafdeling 1. - Bijzondere regels betreffende de oprichtingskosten
-
-## Art. 3:36
+###### Art. 3:36
 
 De oprichtingskosten worden slechts op het actief geboekt voor zover ze niet ten laste worden genomen gedurende het boekjaar waarin ze werden besteed.
   Kosten die worden gemaakt in het kader van een herstructurering worden alleen dan onder de activa opgenomen, wanneer het gaat om welbepaalde kosten die verband houden met een ingrijpende wijziging in de structuur of de organisatie van de vennootschap, VZW, IVZW of stichting en die kosten ertoe strekken een gunstige en duurzame invloed te hebben op de rentabiliteit van de vennootschap of de activiteiten van de VZW, IVZW of stichting. In de toelichting moet bij de waarderingsregels worden verantwoord dat aan deze voorwaarden is voldaan. De herstructureringskosten die het karakter hebben van bedrijfskosten of van financiële kosten worden geactiveerd door ze op zichtbare wijze in mindering te brengen van het totaal bedrag respectievelijk van de bedrijfskosten en van de financiële kosten.
 
-## Art. 3:37
+###### Art. 3:37
 
 Voor de oprichtingskosten worden passende afschrijvingen geboekt, per jaarlijkse tranches van ten minste twintig percent van de werkelijk uitgegeven bedragen. De afschrijving van de kosten bij uitgifte van leningen mag echter gespreid worden over de looptijd van de leningen.
 
-###### Onderafdeling 2. - Bijzondere regels betreffende immateriële vaste activa
+##### Onderafdeling 2. - Bijzondere regels betreffende immateriële vaste activa
 
-## Art. 3:38
+###### Art. 3:38
 
 Andere dan van derden verworven immateriële vaste activa worden slechts tegen vervaardigingsprijs op het actief geboekt voor zover die niet hoger is dan een voorzichtige raming van de gebruikswaarde of van het toekomstig rendement voor de vennootschap, VZW, IVZW of stichting van deze vaste activa.
   De kleine vennootschappen bedoeld in artikel 1:24 van het Wetboek van vennootschappen en verenigingen en kleine VZW's, IVZW's en stichtingen bedoeld in de artikelen 1:28 en 1:30 van hetzelfde wetboek vermelden in de toelichting het bedrag van de onder de immateriële vaste activa opgenomen kosten van ontwikkeling.
 
-## Art. 3:39
+###### Art. 3:39
 
 § 1. Voor immateriële vaste activa met een beperkte gebruiksduur wordt overgegaan tot afschrijvingen volgens een overeenkomstig artikel 3:6, § 1, opgesteld plan. Er mag, overeenkomstig de fiscale bepalingen ter zake, een versneld afschrijvingsplan voor worden toegepast. Wanneer de toepassing van een plan voor versnelde afschrijving met zich brengt dat aanzienlijk vlugger wordt afgeschreven dan economisch verantwoord, wordt in de toelichting melding gemaakt van het verschil tussen het gecumuleerd bedrag van de geboekte afschrijvingen en dat van de economisch verantwoorde afschrijvingen. Tevens wordt de invloed aangegeven van de tijdens het boekjaar of tijdens vorige boekjaren geboekte versnelde afschrijvingen op het bedrag van de afschrijvingen in de resultatenrekening van het boekjaar.
   Voor de in het vorige lid bedoelde vaste activa wordt overgegaan tot aanvullende of niet-recurrente afschrijvingen wanneer, ingevolge hun technische ontwaarding of wegens de wijziging van economische of technologische omstandigheden, hun boekhoudkundige waarde hoger is dan hun gebruikswaarde voor de vennootschap, VZW, IVZW of stichting.
@@ -478,38 +482,38 @@ Andere dan van derden verworven immateriële vaste activa worden slechts tegen v
   Afschrijvingen en waardeverminderingen op goodwill worden niet teruggenomen.
   § 2. Voor immateriële vaste activa waarvan de gebruiksduur niet is beperkt wordt slechts tot waardeverminderingen overgegaan in geval van duurzame minderwaarde of ontwaarding.
 
-###### Onderafdeling 3. - Bijzondere regels betreffende materiële vaste activa
+##### Onderafdeling 3. - Bijzondere regels betreffende materiële vaste activa
 
-## Art. 3:40
+###### Art. 3:40
 
 De gebruiksrechten betreffende materiële vaste activa waarover de vennootschap, VZW, IVZW of stichting beschikt op grond van leasing of gelijkaardige overeenkomsten zoals omschreven in respectievelijk titel 2 en 3 van dit boek, worden, onverminderd de toepassing van de artikelen 3:23 en 3:42, § 1, onder de activa opgenomen voor het gedeelte van de volgens de overeenkomst te storten termijnen, dat strekt tot de wedersamenstelling van de kapitaalwaarde van het goed waarop de overeenkomst betrekking heeft.
   De overeenkomstige verplichtingen aan de passiefzijde worden ieder jaar gewaardeerd ten belope van het gedeelte van de in de volgende boekjaren te storten termijnen, dat strekt tot de wedersamenstelling van de kapitaalwaarde van het goed waarop de overeenkomst betrekking heeft.
 
-## Art. 3:41
+###### Art. 3:41
 
 De meer- of minderwaarde die wordt vastgesteld bij de overdracht van een afschrijfbaar materieel vast actief met afsluiting door de cedent van een leasingovereenkomst die op dat zelfde goed slaat, wordt opgenomen in de overlopende rekeningen en wordt elk jaar in resultaat genomen naar verhouding van de afschrijving van dit geleaste vast actief voor het betrokken boekjaar.
 
-## Art. 3:42
+###### Art. 3:42
 
 § 1. Voor materiële vaste activa met een beperkte gebruiksduur wordt overgegaan tot afschrijvingen volgens een overeenkomstig artikel 3:6, § 1, opgesteld plan. Er mag, overeenkomstig de fiscale bepalingen ter zake, een versneld afschrijvingsplan voor worden toegepast. Wanneer de toepassing van een plan voor versnelde afschrijving met zich brengt dat aanzienlijk vlugger wordt afgeschreven dan economisch verantwoord, wordt in de toelichting melding gemaakt van het verschil tussen het gecumuleerd bedrag van de geboekte afschrijvingen en dat van de economisch verantwoorde afschrijvingen. Tevens wordt de invloed aangegeven van de tijdens het boekjaar of tijdens vorige boekjaren geboekte versnelde afschrijvingen op het bedrag van de afschrijvingen in de resultatenrekening van het boekjaar.
   Voor de in het vorige lid bedoelde vaste activa wordt overgegaan tot aanvullende of niet-recurrente afschrijvingen wanneer, ingevolge hun technische ontwaarding of wegens de wijziging van economische of technologische omstandigheden, hun boekhoudkundige waarde hoger is dan hun gebruikswaarde voor de vennootschap, VZW, IVZW of stichting.
   De afschrijvingen met toepassing van het eerste lid op materiële vaste activa met beperkte gebruiksduur mogen slechts worden teruggenomen, wanneer blijkt dat het daarvoor toegepaste afschrijvingsplan, wegens gewijzigde economische of technologische omstandigheden, een te snelle afschrijving tot gevolg heeft gehad. De afschrijvingen met toepassing van het tweede lid, die niet langer verantwoord blijken, moeten worden teruggenomen ten belope van het surplus ten opzichte van de overeenkomstig het eerste lid geplande afschrijvingen.
   § 2. Voor materiële vaste activa waarvan de gebruiksduur niet is beperkt wordt slechts tot waardeverminderingen overgegaan in geval van duurzame minderwaarde of ontwaarding.
 
-## Art. 3:43
+###### Art. 3:43
 
 Voor de buiten gebruik gestelde of niet meer duurzaam tot de activiteit van de vennootschap, VZW, IVZW of stichting bijdragende materiële vaste activa, wordt in voorkomend geval tot een niet-recurrente afschrijving overgegaan om rekening te houden met de waarschijnlijke realisatiewaarde ervan.
 
-###### Onderafdeling 4. - Bijzondere regels betreffende financiële vaste activa
+##### Onderafdeling 4. - Bijzondere regels betreffende financiële vaste activa
 
-## Art. 3:44
+###### Art. 3:44
 
 § 1. De niet opgevraagde bedragen op deelnemingen en aandelen worden vermeld in de toelichting per onderrubriek waarin de nog vol te storten deelnemingen en aandelen zijn opgenomen.
   § 2. Voor de deelnemingen en de aandelen die in de rubriek "Financiële vaste activa" zijn opgenomen wordt tot waardevermindering overgegaan in geval van duurzame minderwaarde of ontwaarding, verantwoord door de toestand, de rentabiliteit of de vooruitzichten van de vennootschap waarin de deelnemingen of de aandelen worden aangehouden.
   Op de vorderingen, inclusief de vastrentende effecten, die in de financiële vaste activa zijn opgenomen, worden waardeverminderingen toegepast, zo er voor het geheel of een gedeelte van de vordering onzekerheid bestaat over de betaling hiervan op de vervaldag.
-###### Onderafdeling 5. - Bijzondere regels betreffende vorderingen terugbetaalbaar op meer dan een jaar en op ten hoogste een jaar
+##### Onderafdeling 5. - Bijzondere regels betreffende vorderingen terugbetaalbaar op meer dan een jaar en op ten hoogste een jaar
 
-## Art. 3:45
+###### Art. 3:45
 
 § 1. Vorderingen worden in de balans opgenomen voor hun nominale waarde, onverminderd de toepassing van paragraaf 2 en van de artikelen 3:46 en 3:51.
    § 2. Bij de boeking van een vordering in de balans voor haar nominale waarde worden in voorkomend geval in de overlopende rekeningen van het passief geboekt en pro rata temporis in resultaat genomen op grond van de samengestelde interesten:
@@ -521,39 +525,39 @@ Voor de buiten gebruik gestelde of niet meer duurzaam tot de activiteit van de v
    Het in sub c) bedoelde disconto wordt berekend op basis van de voor dergelijke vorderingen geldende marktrente op het ogenblik waarop de vordering werd opgenomen in het vermogen van de vennootschap, VZW, IVZW of stichting.
    Het bedrag van de rente mag niet worden gecompenseerd met de kosten en provisies in verband met deze verrichtingen.
 
-## Art. 3:46
+###### Art. 3:46
 
 Op de vorderingen terugbetaalbaar op meer dan een jaar en op ten hoogste een jaar worden waardeverminderingen toegepast, zo er voor het geheel of een gedeelte van de vordering onzekerheid bestaat over de betaling hiervan op de vervaldag. Op deze vorderingen mogen eveneens waardeverminderingen worden toegepast wanneer hun realisatiewaarde op de datum van de jaarafsluiting lager is dan hun boekwaarde vastgesteld overeenkomstig artikel 3:45.
 
-###### Onderafdeling 6. - Bijzondere regels betreffende voorraden
+##### Onderafdeling 6. - Bijzondere regels betreffende voorraden
 
-## Art. 3:47
+###### Art. 3:47
 
 § 1. De grond- en hulpstoffen, het gereed produkt, de handelsgoederen en de voor verkoop bestemde onroerende goederen worden gewaardeerd tegen aanschaffingswaarde of tegen de marktwaarde op balansdatum als die lager is.
    De waardering tegen de lagere marktwaarde, met toepassing van het eerste lid, mag niet worden gehandhaafd indien achteraf de marktwaarde hoger is dan de lagere waarde waartegen de voorraad werd gewaardeerd.
    § 2. De goederen in bewerking worden, onverminderd de toepassing van artikel 3:48, gewaardeerd tegen vervaardigingsprijs.
 
-## Art. 3:48
+###### Art. 3:48
 
 Ten aanzien van de goederen in bewerking worden waardeverminderingen toegepast, indien hun vervaardigingsprijs, vermeerderd met het geraamde bedrag van de nog te maken kosten hoger is dan de Er worden aanvullende waardeverminderingen geboekt op de activa bedoeld in artikel 3:47 en in het eerste lid van dit artikel, om rekening te houden hetzij met de evolutie van hun realisatie- of marktwaarde, hetzij met de risico's inherent aan de aard van de betrokken producten of van de gevoerde activiteit.
 
-###### Onderafdeling 7. - Bijzondere regels betreffende bestellingen in uitvoering
+##### Onderafdeling 7. - Bijzondere regels betreffende bestellingen in uitvoering
 
-## Art. 3:49
+###### Art. 3:49
 
 De bestellingen in uitvoering worden gewaardeerd tegen vervaardigingsprijs vermeerderd, naarmate de produktie of de werkzaamheden vorderen, met het verschil tussen de in de overeenkomst bepaalde prijs en de vervaardigingsprijs, wanneer dit verschil met voldoende zekerheid als verworven mag worden beschouwd; een vennootschap, VZW, IVZW of stichting kan echter ook als regel aannemen de bestellingen in uitvoering of bepaalde soorten daarvan op de balans te blijven boeken tegen hun vervaardigingsprijs.
   De bestellingen in uitvoering mogen rechtstreeks worden gecompenseerd met de ontvangen vooruitbetalingen per overeenkomst, waarbij ofwel het debetsaldo wordt gepresenteerd als bestelling in uitvoering ofwel het creditsaldo wordt gepresenteerd als ontvangen vooruitbetaling. Bij het begin van elk boekjaar wordt de saldering tegen geboekt. In geval gebruik wordt gemaakt van deze mogelijkheid tot compensatie worden de bedragen vóór saldering in de toelichting vermeld.
   In de toelichting worden bij de waarderingsregels de methoden en criteria vermeld die voor de waardering van bestellingen in uitvoering zijn toegepast.
   Voor de risico's en kosten verbonden aan de verdere uitvoering van deze bestellingen worden, overeenkomstig de artikelen 3:11, 3:29, 3:31, 3:32 en 3:33 voorzieningen gevormd, voor zover deze risico's niet zijn gedekt door waardeverminderingen, geboekt met toepassing van artikel 3:50.
 
-## Art. 3:50
+###### Art. 3:50
 
 Ten aanzien van de bestellingen in uitvoering worden waardeverminderingen toegepast, indien hun vervaardigingsprijs, vermeerderd met het geraamde bedrag van de nog te maken kosten, hoger is dan de in de overeenkomst bedongen prijs.
   Er worden aanvullende waardeverminderingen geboekt op de bestellingen in uitvoering, om rekening te houden hetzij met de evolutie van hun realisatie- of marktwaarde, hetzij met de risico's inherent aan de aard van de betrokken producten of van de gevoerde activiteit.
 
-###### Onderafdeling 8. - Bijzondere regels betreffende geldbeleggingen en liquide middelen
+##### Onderafdeling 8. - Bijzondere regels betreffende geldbeleggingen en liquide middelen
 
-## Art. 3:51
+###### Art. 3:51
 
 De vastrentende effecten worden gewaardeerd op grond van hun aanschaffingswaarde. Wanneer evenwel hun actuariële rendement berekend bij de aankoop, met inachtneming van hun terugbetalingswaarde op vervaldag, verschilt van hun nominale rendement, wordt het verschil tussen de aanschaffingswaarde en de terugbetalingswaarde pro rata temporis voor de resterende looptijd van de effecten in resultaat genomen als bestanddeel van de renteopbrengst van deze effecten en, naar gelang van het geval, toegevoegd aan of afgetrokken van de aanschaffingswaarde van de effecten.
    De inresultaatneming van dit verschil geschiedt op geactualiseerde basis, uitgaande van het actuariële rendement bij aankoop.
@@ -562,32 +566,32 @@ De vastrentende effecten worden gewaardeerd op grond van hun aanschaffingswaarde
    2° de vastrentende effecten voor hun aanschaffingswaarde in de balans te behouden wanneer de weerslag van de inresultaatneming van het actuariële rendement van de effecten ten opzichte van de inresultaatneming van het louter nominale rendement, te verwaarlozen zou zijn.
    Het eerste en het tweede lid zijn van toepassing op effecten met een rendement dat, volgens de uitgiftevoorwaarden, uitsluitend voortkomt uit het verschil tussen de uitgifteprijs en de terugbetalingswaarde.
 
-## Art. 3:52
+###### Art. 3:52
 
 Op geldbeleggingen en liquide middelen worden waardeverminderingen toegepast wanneer de realisatiewaarde op de datum van de jaarafsluiting lager is dan de aanschaffingswaarde.
 
-## Art. 3:53
+###### Art. 3:53
 
 Er worden aanvullende waardeverminderingen geboekt op de geldbeleggingen en liquide middelen om rekening te houden hetzij met de evolutie van hun realisatie- of marktwaarde, hetzij met de risico's inherent aan de aard van de betrokken producten of van de gevoerde activiteit.
 
-###### Onderafdeling 9. - Bijzondere regels betreffende uitgestelde belastingen
+##### Onderafdeling 9. - Bijzondere regels betreffende uitgestelde belastingen
 
-## Art. 3:54
+###### Art. 3:54
 
 § 1. De uitgestelde belastingen op kapitaalsubsidies en gerealiseerde meerwaarden worden oorspronkelijk gewaardeerd tegen het normale bedrag van de belasting die erop zou zijn geheven indien die subsidies en meerwaarden zouden zijn belast ten laste van het boekjaar waarin zij werden geboekt. Zij worden evenwel gewaardeerd na aftrek van de weerslag van de belastingverminderingen en vrijstellingen waarvan op het ogenblik dat deze subsidies en meerwaarden worden geboekt kan worden vermoed dat zij, in een nabije toekomst, zullen leiden tot een lagere belasting op deze subsidies en meerwaarden.
   § 2. De uitgestelde belastingen op ontvangen kapitaalsubsidies worden geleidelijk afgeboekt via overboeking naar de post "Onttrekkingen aan de uitgestelde belastingen" van de resultatenrekening, gelijkmatig met de afboeking van de kapitaalsubsidies in de passiefpost waarop zij betrekking hebben.
   De uitgestelde belastingen op gerealiseerde meerwaarden worden geleidelijk afgeboekt via overboeking naar de post "Onttrekkingen aan de uitgestelde belastingen" van de resultatenrekening, gelijkmatig met de opneming van de betrokken meerwaarden in het belastbaar resultaat.
   § 3. Behoudens toepassing van paragraaf 2 mag het gepassiveerde bedrag van de uitgestelde belastingen slechts worden aangepast in zover, ingevolge een wijziging in de fiscale toestand van de vennootschap, VZW, IVZW of stichting, het effectieve bedrag van de geraamde belasting die in een nabije toekomst op deze subsidies en meerwaarden zal zijn verschuldigd, waarschijnlijk sterk zal verschillen van het bedrag aan passiefzijde.
 
-###### Onderafdeling 10. - Bijzondere regels betreffende schulden
+##### Onderafdeling 10. - Bijzondere regels betreffende schulden
 
-## Art. 3:55
+###### Art. 3:55
 
 De artikelen 3:45 en 3:51 zijn van overeenkomstige toepassing op de schulden van overeenstemmende aard en looptijd.
 
-###### Onderafdeling 11. - Bijzondere regels betreffende bestanddelen verworven in het kader van een fusie, splitsing of hiermee gelijkgestelde verrichting
+##### Onderafdeling 11. - Bijzondere regels betreffende bestanddelen verworven in het kader van een fusie, splitsing of hiermee gelijkgestelde verrichting
 
-## Art. 3:56
+###### Art. 3:56
 
 § 1. Bij een fusie door overneming, een fusie door oprichting van een nieuwe vennootschap of een met fusie door overneming gelijkgestelde verrichting zoals gedefinieerd in de artikelen 12:2, 12:3 en 12:7 [1 , 1° en 2°,]1 van het Wetboek van vennootschappen en verenigingen, alsook bij uitvoering van deze verrichtingen door VZW's, IVZW's of stichtingen zoals bedoeld in artikel 13:1 van hetzelfde wetboek, worden alle actief- en passiefbestanddelen van de overgenomen vennootschap, VZW, IVZW of stichting, inclusief de verschillende bestanddelen van het eigen vermogen, de afschrijvingen, waardeverminderingen en gevormde voorzieningen, de rechten en verplichtingen alsook de opbrengsten en kosten van het boekjaar, onverminderd de toepassing van artikel 3:77 voor vennootschappen, opgenomen in de boekhouding van de overnemende vennootschap, VZW, IVZW of stichting tegen de waarde waarvoor zij in de boekhouding van de overgenomen vennootschap, VZW, IVZW of stichting voorkwamen op de datum vanaf wanneer de handelingen van de overgenomen vennootschap, VZW, IVZW of stichting boekhoudkundig geacht worden te zijn verricht voor rekening van de overnemende vennootschap, VZW, IVZW of stichting.
   Bij een fusie door oprichting wordt elke fuserende vennootschap, VZW, IVZW of stichting beschouwd als overgenomen vennootschap, VZW, IVZW of stichting en wordt de nieuw opgerichte vennootschap, VZW, IVZW of stichting beschouwd als overnemende vennootschap, VZW, IVZW of stichting.
@@ -599,9 +603,9 @@ De artikelen 3:45 en 3:51 zijn van overeenkomstige toepassing op de schulden van
   ----------
   (1)<KB 2023-11-26/05, art. 2, 005; Inwerkingtreding : 21-12-2023>
 
-###### Onderafdeling 12. - Bijzondere regels betreffende bestanddelen verworven in het kader van een inbreng van algemeenheid of van bedrijfstak
+##### Onderafdeling 12. - Bijzondere regels betreffende bestanddelen verworven in het kader van een inbreng van algemeenheid of van bedrijfstak
 
-## Art. 3:57
+###### Art. 3:57
 
 Bij inbreng van een bedrijfsafdeling of een algemeenheid van goederen zoals gedefinieerd in de artikelen 12:9 tot 12:11 van het Wetboek van vennootschappen en verenigingen [1 of bij een met een splitsing gelijkgestelde grensoverschrijdende verrichting zoals gedefinieerd in artikel 12:8, 3°, van het Wetboek van vennootschappen en verenigingen]1 of bij toepassing van artikel 13:1 van hetzelfde wetboek, worden de ingebrachte [1 of overgedragen]1 activa, passiva, rechten en verplichtingen opgenomen in de boekhouding van de [1 verkrijgende]1 vennootschap, VZW, IVZW of stichting [1 ...]1 tegen de waarde waarvoor zij op [1 de datum van de verrichting]1 in de boekhouding van de inbrengende [1 of overdragende]1 vennootschap, VZW, IVZW of stichting voorkwamen.
    ----------
@@ -609,7 +613,7 @@ Bij inbreng van een bedrijfsafdeling of een algemeenheid van goederen zoals gede
 
 #### HOOFDSTUK 3. - Vorm en inhoud van de jaarrekening
 
-## Art. 3:58
+###### Art. 3:58
 
 § 1. De balans en de resultatenrekening worden, onverminderd de toepassing van artikel 3:62, tweede lid, opgesteld overeenkomstig de schema's opgenomen in de bij dit besluit toevoegde bijlage 3 voor wat de vennootschappen betreft en de bijlage 6 voor wat de VZW's, IVZW's en stichtingen betreft.
    De toelichting bevat de aanvullende gegevens bedoeld in titel 2 voor wat de vennootschappen betreft en in titel 3, voor wat de VZW's, IVZW's en stichtingen betreft.
@@ -623,18 +627,18 @@ Bij inbreng van een bedrijfsafdeling of een algemeenheid van goederen zoals gede
    § 6. De inhoud van de posten in de jaarrekening wordt, waar nodig, nader bepaald in titel 2 voor wat de vennootschappen betreft en in titel 3 voor wat de VZW's, IVZW's en stichtingen betreft.
    Voor de toepassing van deze titels zijn rubrieken de posten van de balans en de resultatenrekening aangeduid met een Romeins cijfer of een hoofdletter en onderrubrieken de posten aangeduid met een Arabisch cijfer.
 
-## Art. 3:59
+###### Art. 3:59
 
 Bij elke rubriek en onderrubriek van de balans en van de resultatenrekening wordt het bedrag van de overeenkomstige post van het voorafgaande boekjaar vermeld. Wanneer evenwel een vennootschap, VZW, IVZW of stichting, die haar jaarrekening over het voorafgaande boekjaar heeft opgesteld overeenkomstig artikel 3:58, § 2 of § 3, haar jaarrekening over het nieuwe boekjaar overeenkomstig artikel 3:58, § 1 of respectievelijk artikel 3:58, § 1 of § 2 opstelt, volstaat het dat zij als vergelijkende cijfers voor het voorafgaande boekjaar de bedragen vermeldt die als zodanig voorkwamen in de jaarrekening over dat boekjaar.
   Wanneer de bedragen van het boekjaar niet vergelijkbaar zijn met die van het voorafgaande boekjaar, mogen de bedragen van het voorafgaande boekjaar worden aangepast met het oog op hun vergelijkbaarheid; in dat geval worden deze aanpassingen, behalve indien zij onbelangrijk zijn, in de toelichting bij de waarderingsregels vermeld en onder verwijzing naar de betrokken rubrieken, toegelicht. Worden de bedragen van het voorafgaande boekjaar niet aangepast, dan moet de toelichting de nodige gegevens bevatten om een vergelijking mogelijk te maken.
   Voor vennootschappen is deze bepaling niet van toepassing op de jaarrekening over het eerste boekjaar waarop de bepalingen van deze titel en van titel 2 van toepassing zijn.
   Voor VZW's, IVZW's en stichtingen geldt deze bepaling niet voor de jaarrekening van het eerste boekjaar waarop de bepalingen van deze titel en titel 3 van toepassing zijn. De cijfers van de openingsbalans, vastgelegd in overeenstemming met artikel 3:175 van onderhavig besluit worden beschouwd als de cijfers van de balans van het vorige boekjaar.
 
-## Art. 3:60
+###### Art. 3:60
 
 Kunnen actief- of passiefbestanddelen tot meer dan één rubriek of onderrubriek van de balans behoren, of opbrengsten dan wel kosten tot meer dan één rubriek of onderrubriek van de resultatenrekening, dan worden ze ingeschreven onder die post welke ten opzichte van het voorschrift van artikel 3:1, eerste lid, het meest is aangewezen. In dergelijk geval wordt in de toelichting bij de waarderingsregels het verband met de andere posten vermeld.
 
-## Art. 3:61
+###### Art. 3:61
 
 De toelichting bevat, indien van materieel belang zoals gedefinieerd in artikel 3:58, § 5, tweede lid:
   1° een samenvatting van de waarderingsregels krachtens artikel 3:6, § 1, tweede lid;
@@ -642,12 +646,12 @@ De toelichting bevat, indien van materieel belang zoals gedefinieerd in artikel 
   3° naargelang de vorm en de grootte van de vennootschap, VZW, IVZW of stichting, de aanvullende gegevens zoals vermeld in de artikelen 3:82, 3:85, 3:88, 3:164, 3:167 en 3:170.
   Onverminderd artikel 3:1, tweede lid, zijn de aanvullende of bijkomende gegevens die door dit besluit worden opgelegd in de samenvatting van de waarderingsregels niet van toepassing op microvennootschappen.
 
-## Art. 3:62
+###### Art. 3:62
 
 De vennootschappen, VZW's, IVZW's en stichtingen mogen in de toelichting de rubrieken en onderrubrieken die verplicht moeten worden vermeld verder indelen.
   De omschrijving van de in de schema's door een hoofdletter aangegeven rubrieken en van de onderrubrieken moet, wanneer de naleving van het voorschrift van artikel 3:1, eerste lid, dit vereist, aangepast worden aan de bijzondere aard van de werkzaamheden, van het vermogen en van de opbrengsten en kosten van de vennootschap, VZW, IVZW of stichting.
 
-## Art. 3:63
+###### Art. 3:63
 
 De voorstelling van de jaarrekening moet identiek zijn van het ene jaar tot het andere.
   Ze wordt echter gewijzigd wanneer, onder meer ingevolge een belangrijke wijziging in de structuur van het vermogen, van de opbrengsten en van de kosten van de vennootschap, VZW, IVZW of stichting ze niet meer beantwoordt aan het voorschrift van artikel 3:1, eerste lid. Deze wijzigingen worden vermeld en verantwoord bij de waarderingsregels in de toelichting die behoort tot het boekjaar waarin ze werden ingevoerd.
@@ -655,11 +659,11 @@ De voorstelling van de jaarrekening moet identiek zijn van het ene jaar tot het 
 
 #### HOOFDSTUK 4. - Openbaarmaking van de jaarrekening en van de geconsolideerde jaarrekening
 
+
 ##### Afdeling 1. - Voorstelling van de jaarrekening en de geconsolideerde jaarrekening waarvan de neerlegging bij het Wetboek van vennootschappen en verenigingen is voorgeschreven
+##### Onderafdeling 1. - Opmaak van de jaarrekening waarvan de openbaarmaking door het Wetboek van vennootschappen en verenigingen is voorgeschreven
 
-###### Onderafdeling 1. - Opmaak van de jaarrekening waarvan de openbaarmaking door het Wetboek van vennootschappen en verenigingen is voorgeschreven
-
-## Art. 3:64
+###### Art. 3:64
 
 § 1. De jaarrekening waarvan de openbaarmaking door het Wetboek van vennootschappen en verenigingen is voorgeschreven, wordt opgesteld overeenkomstig de bepalingen van titel 1, titel 2 en titel 3 van dit boek.
   In de jaarrekening worden de bedragen uitgedrukt in euro, zonder decimalen.
@@ -667,23 +671,23 @@ De voorstelling van de jaarrekening moet identiek zijn van het ene jaar tot het 
   In de jaarrekening wordt uitdrukkelijk vermeld dat de bedragen in euro zijn uitgedrukt.
   § 2. De jaarrekening kan, naast de openbaarmaking in euro als voorgeschreven door § 1, ook openbaar gemaakt worden in de munteenheid van een lidstaat van de Organisatie voor Economische Samenwerking en Ontwikkeling, zulks met gebruikmaking van de omrekeningskoers op de balansdatum. Deze koers wordt in de toelichting aangegeven.
 
-###### Onderafdeling 2. - Opmaak van de geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid waarvan de openbaarmaking door het Wetboek van vennootschappen en verenigingen is voorgeschreven
+##### Onderafdeling 2. - Opmaak van de geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid waarvan de openbaarmaking door het Wetboek van vennootschappen en verenigingen is voorgeschreven
 
-## Art. 3:65
+###### Art. 3:65
 
 In de geconsolideerde jaarrekening worden de bedragen uitgedrukt in duizenden euro, zonder decimalen; de bedragen in de geconsolideerde jaarrekening van de vennootschappen waarvan het geconsolideerd balanstotaal meer dan één miljard euro bedraagt, mogen evenwel in miljoenen euro worden uitgedrukt, zonder decimalen.
   In de geconsolideerde jaarrekening wordt uitdrukkelijk vermeld, naargelang het geval, dat de bedragen in duizenden euro of in miljoenen euro zijn uitgedrukt.
   De geconsolideerde jaarrekening mag worden opgesteld in de munteenheid van een lidstaat van de Organisatie voor Economische Samenwerking en Ontwikkeling wanneer deze munteenheid de meest relevante is voor de verrichtingen, voor de activa en de passiva en voor de resultaten van het geconsolideerde geheel.
 
-##### Afdeling 2. - Openbaarmaking
 
-## Art. 3:66
+##### Afdeling 2. - Openbaarmaking
+###### Art. 3:66
 
 De Nationale Bank van België ontvangt de neerlegging van de volgende documenten: - de jaarrekening en de andere stukken die bij haar moeten worden neergelegd in toepassing van de artikelen 3:10, 3:12, § 1, 3:47, § 7 en 3:51, § 7 van het Wetboek van vennootschappen en verenigingen of in toepassing van andere wettelijke of reglementaire bepalingen;
   - de geconsolideerde jaarrekening en de andere stukken die bij haar moeten worden neergelegd in toepassing van de artikelen 3:35 en 3:36 van het Wetboek van vennootschappen en verenigingen of in toepassing van andere wettelijke of reglementaire bepalingen.
   Een afzonderlijke neerlegging van de in het eerste lid bedoelde andere stukken is enkel toegestaan mits al deze stukken tegelijk worden neergelegd en de jaarrekening respectievelijk geconsolideerde jaarrekening voorafgaandelijk werd neergelegd.
 
-## Art. 3:67
+###### Art. 3:67
 
 § 1. De neergelegde jaarrekening of geconsolideerde jaarrekening vermeldt:
    1° de naam van de rechtspersoon zoals die op datum van de neerlegging in de statuten voorkomt;
@@ -710,13 +714,13 @@ De Nationale Bank van België ontvangt de neerlegging van de volgende documenten
    De vermelding bedoeld in paragraaf 4, vierde lid mag worden weggelaten.
    § 6. De VZW's, IVZW's en stichtingen die op grond van de artikelen 3:47, § 5, of 3:51, § 5, van het Wetboek van vennootschappen en verenigingen hun jaarrekening niet moeten opmaken overeenkomstig de schema's zoals opgenomen in de bijlagen bij titel 3 van dit boek, laten hun jaarrekening en de andere neer te leggen stukken voorafgaan door het "Specifiek voorblad voor jaarrekeningen van VZW's, IVZW's of stichtingen opgesteld volgens een afwijkend schema", opgesteld door de Nationale Bank van België en op haar website ter beschikking gesteld.
 
-## Art. 3:68
+###### Art. 3:68
 
 De jaarrekening opgesteld in euro, zonder afwijkingen, volgens één van de schema's opgenomen in de bij dit besluit toevoegde bijlage 3 en 4 voor wat de vennootschappen betreft en bijlagen 6 en 7 voor wat de VZW's, IVZW's of stichtingen betreft en de andere neer te leggen stukken worden neergelegd overeenkomstig de bepalingen van artikel 3:69, § 1.
   Alle andere jaarrekeningen en de geconsolideerde jaarrekeningen, alsook de andere bij de Nationale Bank van België neer te leggen stukken,worden neergelegd overeenkomstig de bepalingen van artikel 3:69, § 2.
   Mogen eveneens in de vorm van een pdf-bestand worden neergelegd, de jaarrekening en voor wat de vennootschappen betreft, de geconsolideerde jaarrekening, alsook de andere neer te leggen stukken, die betrekking hebben op een buitenlandse vennootschap of een Europees economisch samenwerkingsverband naar buitenlands recht.
 
-## Art. 3:69
+###### Art. 3:69
 
 § 1. De jaarrekening en de andere bij de Nationale Bank van België neer te leggen stukken worden langs elektronische weg neergelegd.
    De gestandaardiseerde schema's kunnen worden neergelegd in de vorm van een gestructureerd databestand dat voldoet: - aan rekenkundige en logische controles, en - aan alle technische voorwaarden vastgesteld door de Nationale Bank van België en opgenomen in het "Protocol voor de neerlegging langs elektronische weg van jaarrekeningen in de vorm van een gestructureerd databestand". Dit technisch Protocol wordt door de Nationale Bank van België ter beschikking gesteld op haar website.
@@ -731,7 +735,7 @@ De jaarrekening opgesteld in euro, zonder afwijkingen, volgens één van de sche
    ----------
    (1)<KB 2021-09-29/05, art. 1, 002; Inwerkingtreding : 01-01-2022>
 
-## Art. 3:70
+###### Art. 3:70
 
 § 1. De kosten voor de neerlegging van de in artikel 3:66 bedoelde documenten omvatten de openbaarmakingskosten bedoeld in paragraaf 2, de bijdrage in de kosten gemaakt door de federale toezichthoudende overheden bedoeld in artikel 3:13, derde lid, van het Wetboek van vennootschappen en verenigingen, alsook alle bijdragen, belastingen of kosten die krachtens andere wettelijke of reglementaire bepalingen tegelijk met voornoemde kosten moeten worden betaald.
    § 2. De kosten voor de openbaarmaking van de in artikel 3:66 bedoelde documenten, worden vastgesteld op: - 300,70 euro wanneer de documenten in de vorm van een gestructureerd databestand worden neergelegd overeenkomstig artikel 3:69, § 1;
@@ -753,21 +757,21 @@ De jaarrekening opgesteld in euro, zonder afwijkingen, volgens één van de sche
   - het ondernemingsnummer van de betrokken vennootschap alsook de kenmerken en de afsluitingsdatum van de laattijdig neergelegde jaarrekening; deze gegevens worden als mededeling aan de begunstigde opgenomen.
   Wanneer blijkt dat uitzonderlijke omstandigheden noodzakelijkerwijze een geval van overmacht zullen vormen voor het geheel of een groot deel van de vennootschappen die ertoe gehouden zijn hun jaarrekening of geconsolideerde jaarrekening neer te leggen, kan de Minister die Economie onder zijn bevoegdheden heeft met het oog op administratieve vereenvoudiging overgaan tot een algemene vrijstelling van heffing van de bijdrage tot de kosten gemaakt door de federale toezichthoudende overheden voor een duur die hij vaststelt en die hoogstens twee maanden bedraagt. Deze beslissing dient bij een met redenen omkleed ministerieel besluit uiterlijk één maand voor het vervallen van de termijn van acht maanden bedoeld in artikel 3:13, derde lid, van het Wetboek van vennootschappen en verenigingen in het Belgisch Staatsblad te worden bekendgemaakt.
 
-## Art. 3:71
+###### Art. 3:71
 
 De Nationale Bank van België registreert de datum van ontvangst van de in artikel 3:66 bedoelde documenten.
   De neerlegging van deze documenten wordt slechts door de Nationale Bank van België aanvaard als de bepalingen van de artikelen 3:64, § 1, tweede lid, 3:67 tot 3:69 in acht werden genomen en als de neerleggingskosten bedoeld in artikel 3:70, § 1, overeenkomstig de bepalingen van artikel 3:70, § 2 tot 4 betaald zijn.
   Het feit dat de neerlegging van een voormeld document niet aanvaard werd door de Nationale Bank van België en de redenen die tot deze beslissing hebben geleid, worden binnen acht werkdagen na de datum van de ontvangst van het betrokken document meegedeeld.
   De persoon die het niet-aanvaarde document heeft geüpload kan deze kennisgeving raadplegen in de toepassing bedoeld in artikel 3:69, § 3, eerste lid, gedurende maximum één maand na die upload.
 
-## Art. 3:72
+###### Art. 3:72
 
 Wanneer de neerlegging van een in artikel 3:66 bedoeld document aanvaard wordt, neemt de Nationale Bank van België deze neerlegging op in het elektronisch register van aanvaarde jaarrekeningen en geconsolideerde jaarrekeningen.
   Binnen elf werkdagen die volgen op de datum van de aanvaarding van de neerlegging, stuurt de Nationale Bank van België de mededeling van deze neerlegging [1 via de eBox, ingesteld door de wet van 27 februari 2019 inzake elektronische uitwisseling van berichten via de eBox,]1 naar de rechtspersoon op wie het document betrekking heeft.
   ----------
   (1)<KB 2021-09-29/05, art. 2, 002; Inwerkingtreding : 01-01-2022>
 
-## Art. 3:73
+###### Art. 3:73
 
 De aanpassing van een in artikel 3:66 bedoeld document, waarvan de neerlegging eerder door de Nationale Bank van België werd aanvaard, gebeurt door neerlegging, naar gelang het geval en volgens de voorwaarden bepaald door artikel 3:68: - van de integrale, behoorlijk aangepaste jaarrekening of desgevallend van de integrale, behoorlijk aangepaste set van de in artikel 3:66 bedoelde andere stukken, wanneer de aanpassing wordt neergelegd in de vorm van een gestructureerd databestand overeenkomstig artikel 3:69, § 1;
   - van de integrale, behoorlijk aangepaste jaarrekening of geconsolideerde jaarrekening, voorafgegaan door de in artikel 3:67, § 4, derde lid bedoelde sectie van het model van jaarrekening opgesteld door de Nationale Bank van België of desgevallend van de integrale, behoorlijk aangepaste set van de in artikel 3:66 bedoelde andere stukken, wanneer de aanpassing wordt neergelegd in de vorm van een PDF-bestand overeenkomstig artikel 3:69, § 2.
@@ -777,14 +781,14 @@ De aanpassing van een in artikel 3:66 bedoeld document, waarvan de neerlegging e
   De aanpassing van een eerder openbaar gemaakt document luidt in dezelfde munteenheid en hetzelfde veelvoud hiervan en gebeurt in dezelfde taal als het betrokken document.
   De artikelen 3:71 en 3:72 zijn van toepassing op de neerlegging van een aangepast document.
 
-## Art. 3:74
+###### Art. 3:74
 
 [1 De Nationale Bank van België onderwerpt de neer te leggen jaarrekening, opgemaakt volgens de schema's zoals opgenomen in de bijlagen bij titel 2 en 3 van dit boek, aan rekenkundige en logische controles, met uitsluiting van het document dat wordt neergelegd ter verbetering van deze jaarrekening overeenkomstig artikel 3:73 en van de jaarrekeningen met betrekking tot boekjaren die het laatste boekjaar waarvoor een jaarrekening werd neergelegd, voorafgaan.
    Deze rekenkundige en logische controles beogen de samenhang van de bedragen van het recentste boekjaar, voor de rubrieken die voorzien zijn van een code, na te gaan. Ze zijn opgenomen in een lijst opgesteld door de Nationale Bank van België na advies van de Commissie voor Boekhoudkundige normen. Deze lijst wordt bekendgemaakt in het Belgisch Staatsblad.]1
   ----------
   (1)<KB 2021-09-29/05, art. 3, 002; Inwerkingtreding : 01-01-2022>
 
-## Art. 3:75
+###### Art. 3:75
 
 § 1. De Nationale Bank van België stelt op haar website een kopie beschikbaar, in de vorm van een bestand in het "Portable Document Format" (PDF)-formaat, van alle in artikel 3:66 bedoelde documenten die bij haar werden neergelegd tijdens het lopende en de minstens vijf vorige kalenderjaren, volgens de voorwaarden die zij bepaalt en die op haar website bekendgemaakt worden.
    § 2. De Nationale Bank van België bezorgt op aanvraag een kopie van alle in artikel 3:66 bedoelde documenten die bij haar werden neergelegd.
@@ -803,13 +807,13 @@ De aanpassing van een in artikel 3:66 bedoeld document, waarvan de neerlegging e
 
 #### HOOFDSTUK 1. - Jaarrekening
 
-##### Afdeling 1. - Waarderingsregels: bijzondere bepalingen
 
-## Art. 3:76
+##### Afdeling 1. - Waarderingsregels: bijzondere bepalingen
+###### Art. 3:76
 
 Naamloze vennootschappen, Europese vennootschappen en Europese coöperatieve vennootschappen mogen de in artikel 3:35 bedoelde geboekte meerwaarden in kapitaal omzetten voor het gedeelte van de geherwaardeerde waarde verminderd met de geraamde belastingen hierop.
 
-## Art. 3:77
+###### Art. 3:77
 
 § 1. Bij een fusie door overneming, een fusie door oprichting van een nieuwe vennootschap of een met fusie door overneming gelijkgestelde verrichting zoals gedefinieerd in de artikelen 12:2, 12:3 en 12:7 van het Wetboek van vennootschappen of verenigingen vervallen:
   1° de eigen aandelen die de overgenomen vennootschap bezit en die krachtens de artikelen 12:34, § 2, 2°, 12:48, § 2, en 13:57, 2° van het Wetboek van vennootschappen en verenigingen niet mogen worden omgewisseld tegen aandelen van de overnemende vennootschap;
@@ -825,7 +829,7 @@ Naamloze vennootschappen, Europese vennootschappen en Europese coöperatieve ven
   b) In het tegenovergestelde geval wordt het verschil als volgt verwerkt: voor zover dit voortvloeit uit een overwaardering van activa of een onderwaardering van passiva door de overgenomen vennootschap, worden op het tijdstip van de fusie voor het desbetreffende bedrag in de resultatenrekening afschrijvingen, waardeverminderingen, voorzieningen en correcties geboekt.
   Het verschil dat overblijft na deze correctieboekingen wordt in resultaat genomen.
 
-## Art. 3:78
+###### Art. 3:78
 
 Een splitsing door overneming, een splitsing door oprichting van nieuwe vennootschappen of een gemengde splitsing zoals gedefinieerd in de artikelen 12:4, 12:5 en 12:6 van het Wetboek van vennootschappen en verenigingen, alsook een met splitsing gelijkgestelde verrichting zoals gedefinieerd in artikel 12:8 [1 , 1° en
  2°,]1 van hetzelfde wetboek, wordt verwerkt overeenkomstig het bepaalde in artikel 3:77.
@@ -833,29 +837,29 @@ Een splitsing door overneming, een splitsing door oprichting van nieuwe vennoots
   ----------
   (1)<KB 2023-11-26/05, art. 4, 005; Inwerkingtreding : 21-12-2023>
 
-## Art. 3:79
+###### Art. 3:79
 
 De latente meerwaarden die worden uitgedrukt in toepassing van de artikelen 14:38 en 14:42 van het Wetboek van vennootschappen en verenigingen en betrekking hebben op vaste activa met een beperkte gebruiksduur moeten worden afgeschreven volgens een overeenkomstig artikel 3:6, § 1, opgemaakt plan dat ertoe strekt de vastgestelde waarde af te schrijven over de vermoedelijke residuele gebruiksduur van de betrokken activa.
 
-##### Afdeling 2. - Vorm en inhoud van de jaarrekening
 
-###### Onderafdeling 1. - Jaarrekening volgens het volledige schema
+##### Afdeling 2. - Vorm en inhoud van de jaarrekening
+##### Onderafdeling 1. - Jaarrekening volgens het volledige schema
 
   1. Schema van de balans.
 
-## Art. 3:80
+###### Art. 3:80
 
 De balans wordt opgesteld overeenkomstig het schema opgenomen in bijlage 3.
 
   2. Schema van de resultatenrekening.
 
-## Art. 3:81
+###### Art. 3:81
 
 De resultatenrekening wordt opgesteld overeenkomstig het schema opgenomen in bijlage 3.
 
   3. Inhoud van de toelichting.
 
-## Art. 3:82
+###### Art. 3:82
 
 In de toelichting bij het volledig schema van de jaarrekening worden de hierna volgende gegevens opgenomen: I.
   Een staat van de oprichtingskosten (post I van de activa) met de vermelding van hun nettoboekwaarde per einde van het vorige boekjaar, de mutaties tijdens het boekjaar (nieuwe kosten van het boekjaar, afschrijvingen, andere) alsmede de nettoboekwaarde per einde van het boekjaar. Deze laatste wordt uitgesplitst in: - kosten van oprichting of, in voorkomend geval, kapitaalverhoging of verhoging van de inbreng, kosten bij uitgifte van leningen, en andere oprichtingskosten;
@@ -1065,23 +1069,23 @@ In de toelichting bij het volledig schema van de jaarrekening worden de hierna v
    In geval van niet-gebruik van de waarderingsmethode op basis van de reële waarde voor de financiële instrumenten: voor iedere categorie afgeleide financiële instrumenten, voor het boekjaar en het vorig boekjaar, een overzicht van de omvang en de aard van de instrumenten, het ingedekte risico en een vergelijking tussen de boekwaarde en de reële waarde van de instrumenten indien een dergelijke waarde kan worden bepaald middels een van de in artikel 3:91 B. voorgeschreven methoden.
    Voor financiële vaste activa die in aanmerking worden genomen tegen een hoger bedrag dan hun reële waarde: de boekwaarde en de reële waarde van de afzonderlijke activa, dan wel van passende groepen van deze afzonderlijke activa en de redenen waarom de boekwaarde niet is verminderd, met opgave van de aard van de aanwijzingen die aan de veronderstelling ten grondslag liggen dat de boekwaarde zal kunnen worden gerealiseerd.
 
-###### Onderafdeling 2. - Jaarrekening in verkorte vorm
+##### Onderafdeling 2. - Jaarrekening in verkorte vorm
 
   1. Schema van de balans.
 
-## Art. 3:83
+###### Art. 3:83
 
 De balans wordt opgesteld overeenkomstig het schema opgenomen in bijlage 4.
 
   2. Schema van de resultatenrekening.
 
-## Art. 3:84
+###### Art. 3:84
 
 De resultatenrekening wordt opgesteld overeenkomstig het schema opgenomen in bijlage 4.
 
   3. Inhoud van de toelichting.
 
-## Art. 3:85
+###### Art. 3:85
 
 In de toelichting bij het verkort schema van de jaarrekening worden de hierna volgende gegevens opgenomen: I.
    Een staat van de vaste activa (rubrieken II, III en IV van de activa) die respectievelijk inzake de immateriële, de materiële en de financiële vaste activa de volgende gegevens bevat:
@@ -1134,23 +1138,23 @@ In de toelichting bij het verkort schema van de jaarrekening worden de hierna vo
   C. de leden van de leidinggevende, toezichthoudende of bestuursorganen van de vennootschap.
   Informatie over individuele transacties kan overeenkomstig de aard daarvan worden samengevoegd, behalve wanneer gescheiden informatie nodig is voor het verkrijgen van inzicht in de gevolgen van de transacties met verbonden partijen voor de financiële positie van de onderneming.
 
-###### Onderafdeling 3. - Microschema van de jaarrekening.
+##### Onderafdeling 3. - Microschema van de jaarrekening.
 
   1. Schema van de balans.
 
-## Art. 3:86
+###### Art. 3:86
 
 De balans van het microschema van de jaarrekening wordt opgesteld overeenkomstig het schema van de balans van de jaarrekening in verkorte vorm, zoals opgenomen in bijlage 4.
 
   2. Schema van de resultatenrekening.
 
-## Art. 3:87
+###### Art. 3:87
 
 De resultatenrekening van het microschema van de jaarrekening wordt opgesteld overeenkomstig het schema van de resultatenrekening van de jaarrekening in verkorte vorm, zoals opgenomen in bijlage 4.
 
   3. Inhoud van de toelichting.
 
-## Art. 3:88
+###### Art. 3:88
 
 In de toelichting bij het microschema van de jaarrekening worden de hierna volgende gegevens opgenomen: I.
    Een staat van de vaste activa (rubrieken II, III en IV van de activa) die respectievelijk inzake de immateriële, de materiële en de financiële vaste activa de volgende gegevens bevat:
@@ -1176,11 +1180,11 @@ In de toelichting bij het microschema van de jaarrekening worden de hierna volge
   IV.
   Het aantal eigen aandelen dat door de vennootschap wordt aangehouden.
 
-###### Onderafdeling 4. - Inhoud van bepaalde rubrieken.
+##### Onderafdeling 4. - Inhoud van bepaalde rubrieken.
 
   1. Inhoud van bepaalde rubrieken van de balans.
 
-## Art. 3:89
+###### Art. 3:89
 
 § 1. De inhoud van bepaalde rubrieken van het actief wordt als volgt gedefinieerd: I. Oprichtingskosten Onder die post worden vermeld, voor zover zij niet op een andere wijze ten laste van de resultatenrekening van het lopende boekjaar worden gebracht, de kosten verbonden met de oprichting, de verdere ontwikkeling of de herstructurering van de vennootschap, in het bijzonder de kosten van oprichting, kapitaalverhoging of verhoging van de inbreng, de kosten bij uitgifte van leningen, en de herstructureringskosten.
    II. Immateriële vaste activa
@@ -1312,7 +1316,7 @@ In de toelichting bij het microschema van de jaarrekening worden de hierna volge
 
   2. Inhoud van bepaalde rubrieken van de resultatenrekening.
 
-## Art. 3:90
+###### Art. 3:90
 
 De inhoud van bepaalde rubrieken van de resultatenrekening wordt als volgt gedefinieerd: I. A. Omzet (volledige schema) Onder omzet wordt verstaan het bedrag van de verkoop van goederen en de levering van diensten aan derden, in het kader van de gewone bedrijfsuitoefening van de vennootschap, onder aftrek van de op de verkoopprijs in de handel toegestane kortingen (afslag, ristorno, rabat); dit bedrag omvat niet de belasting over de toegevoegde waarde, noch enige andere rechtstreeks met de omzet verbonden belasting.
    Onder die post moeten eveneens worden opgenomen de tegemoetkomingen van de overheid in het kader van een tariferingspolitiek als compensatie voor lagere ontvangsten.
@@ -1399,7 +1403,7 @@ De inhoud van bepaalde rubrieken van de resultatenrekening wordt als volgt gedef
 
   3. Inhoud van bepaalde verplichte vermeldingen in de toelichting.
 
-## Art. 3:91
+###### Art. 3:91
 
 De inhoud van bepaalde verplichte vermeldingen in de toelichting wordt gedefinieerd als volgt: A. Niet in de balans opgenomen rechten en verplichtingen 00 Zekerheden door derden gesteld of onherroepelijk beloofd voor rekening van de vennootschap Op deze rekening worden de zakelijke of persoonlijke zekerheden geboekt die door derden ten behoeve van de crediteuren van de vennootschap zijn gesteld of onherroepelijk beloofd, als waarborg voor de voldoening van actuele of potentiële schulden of verplichtingen die de vennootschap jegens hen heeft aangegaan.
   01 Persoonlijke zekerheden gesteld of onherroepelijk beloofd voor rekening van derden Op deze rekening worden de persoonlijke zekerheden geboekt die door de vennootschap ten behoeve van derden zijn gesteld of onherroepelijk beloofd als waarborg voor de voldoening van actuele of potentiële schulden en verplichtingen die deze derden hebben aangegaan jegens andere schuldeisers dan de vennootschap zelf.
@@ -1428,33 +1432,33 @@ De inhoud van bepaalde verplichte vermeldingen in de toelichting wordt gedefinie
    b) zij bij de totstandkoming voor dat doeleinde werden bestemd, en
    c) de afwikkeling naar verwachting zal geschieden door levering van de grondstof.
 
-##### Afdeling 3. - Diverse bepalingen en overgangsbepalingen.
 
-## Art. 3:92
+##### Afdeling 3. - Diverse bepalingen en overgangsbepalingen.
+###### Art. 3:92
 
 De verzekeringsondernemingen die niet worden bedoeld bij artikel III.95, § 2, tweede lid, van het Wetboek van economisch recht, alsmede de herverzekeringsondernemingen maken hun jaarrekening op overeenkomstig het koninklijk besluit van 17 november 1994 op de jaarrekening van de verzekerings- en herverzekeringsondernemingen.
 
-## Art. 3:93
+###### Art. 3:93
 
 De herwaardering van de nijverheids-, handels- of landbouwoutillering en van de daarmede gelijkgestelde nijverheidsgebouwen waartoe wordt overgegaan in toepassing van artikel 511, § 2, van het Wetboek van de Inkomstenbelastingen 1992, wordt in de jaarrekening behandeld overeenkomstig de bepalingen van het koninklijk besluit genomen ter uitvoering van dit artikel.
 
-## Art. 3:94
+###### Art. 3:94
 
 Onder post II van de passiefzijde "Herwaarderingsmeerwaarden" mogen rechtstreeks worden geboekt en gehandhaafd tot op het ogenblik waarop de betrokken goederen gerealiseerd zijn de terugneming van waardeverminderingen op deelnemingen, effecten en andere in portefeuille gehouden waardepapieren, voor zover deze waardeverminderingen werden geboekt vóór 1 januari 1976 of, indien de vennootschap het boekjaar anders dan per 31 december afsluit, vóór het begin van het boekjaar afgesloten in de loop van 1977.
 
-## Art. 3:95
+###### Art. 3:95
 
 De vennootschappen en de publiekrechtelijke rechtspersonen en entiteiten, onderworpen aan boek III, titel 3, hoofdstuk 2, van het Wetboek van economisch recht, die voor hun personeelsleden en/of bedrijfsleiders, rust- of overlevingspensioenverplichtingen hebben aangegaan in het kader van een pensioenregeling, die door een instelling voor bedrijfspensioenvoorziening wordt beheerd, zijn vrijgesteld van de vorming van voorzieningen voor die verplichtingen. Die vrijstelling heeft betrekking op het gedeelte van de voorzieningen waarvoor de instelling voor bedrijfspensioenvoorziening van een vrijstelling geniet overeenkomstig artikel 163 tot 166, 168 of 169 van de wet van 27 oktober 2006 betreffende het toezicht op de instellingen voor bedrijfspensioenvoorziening of waarvan de vennootschap of publiekrechtelijke rechtspersoon of entiteit geniet overeenkomstig respectievelijk artikel 165, eerste lid of 168, § 1, tweede lid, van de voormelde wet van 27 oktober 2006.
 
 #### HOOFDSTUK 2. - Geconsolideerde jaarrekening
 
-##### Afdeling 1. - Consolidatiekring
 
-## Art. 3:96
+##### Afdeling 1. - Consolidatiekring
+###### Art. 3:96
 
 De consoliderende vennootschap en al haar dochterondernemingen worden in de consolidatie opgenomen.
 
-## Art. 3:97
+###### Art. 3:97
 
 Een dochteronderneming mag buiten de consolidatie worden gelaten:
    1° indien zij slechts van te verwaarlozen betekenis is en haar opneming geen betekenis zou hebben voor de beoordeling van het geconsolideerd vermogen, de geconsolideerde financiële positie of het geconsolideerd resultaat; indien meer dochterondernemingen aan deze voorwaarde voldoen, mag van deze mogelijkheid slechts gebruik worden gemaakt indien zij te zamen aan de gestelde voorwaarde voldoen;
@@ -1463,35 +1467,35 @@ Een dochteronderneming mag buiten de consolidatie worden gelaten:
    4° indien haar aandelen uitsluitend met het oog op latere vervreemding worden gehouden.
    Gebruik van dit artikel moet worden gemotiveerd in de toelichting.
 
-## Art. 3:98
+###### Art. 3:98
 
 Een dochteronderneming waarover de consoliderende vennootschap een controle in feite bezit wordt buiten de consolidatie gelaten indien de opneming ervan in de consolidatie zou indruisen tegen het in artikel 3:105 verwoorde beginsel.
   De toepassing van deze bepaling wordt vermeld en gemotiveerd in de toelichting.
 
-## Art. 3:99
+###### Art. 3:99
 
 De dochterondernemingen in vereffening alsmede de dochterondernemingen die hebben besloten hun bedrijf stop te zetten of waarvoor er niet meer kan van worden uitgegaan dat zij hun bedrijf zullen voortzetten, worden buiten de consolidatie gelaten.
 
-## Art. 3:100
+###### Art. 3:100
 
 De deelnemingen in de dochterondernemingen die met toepassing van de artikelen 3:98en 3:99 buiten de consolidatie zijn gelaten, worden in de geconsolideerde jaarrekening opgenomen volgens de vermogensmutatiemethode.
 
-## Art. 3:101
+###### Art. 3:101
 
 Indien de jaarrekening of de geconsolideerde jaarrekening van de dochterondernemingen die met toepassing van de artikelen3:98 en 3:99 buiten de consolidatie zijn gelaten, niet in België openbaar worden gemaakt, moeten zij bij de geconsolideerde jaarrekening worden gevoegd of voor het publiek verkrijgbaar worden gesteld op de zetel van de consoliderende vennootschap; in dit laatste geval moeten zij op verzoek verkrijgbaar zijn, tegen een prijs die niet hoger mag liggen dan de kostprijs van de kopie.
 
-## Art. 3:102
+###### Art. 3:102
 
 Indien de samenstelling van het geconsolideerde geheel in de loop van het boekjaar een aanmerkelijke wijziging heeft ondergaan, dient de toelichting inlichtingen te bevatten die een zinvolle vergelijking van de achtereenvolgende geconsolideerde jaarrekeningen mogelijk maken.
 
-##### Afdeling 2. - Algemene beginselen.
 
-## Art. 3:103
+##### Afdeling 2. - Algemene beginselen.
+###### Art. 3:103
 
 De geconsolideerde jaarrekening bestaat uit de balans, de resultatenrekening en de toelichting. Deze stukken vormen één geheel.
   Onverminderd artikel 3:30, § 2 van het Wetboek van vennootschappen en verenigingen worden in de geconsolideerde jaarrekening de bedragen in euro uitgedrukt.
 
-## Art. 3:104
+###### Art. 3:104
 
 § 1. De geconsolideerde jaarrekening wordt opgesteld overeenkomstig de bepalingen van deze titel.
    § 2. Het bestuursorgaan van elke consoliderende vennootschap kan echter de beslissing nemen om de geconsolideerde jaarrekening op te stellen met toepassing van het geheel van de internationale boekhoudnormen bepaald door de International Accounting Standards Board en die, op de datum van de afsluiting van de balans werden aangenomen door de Europese Commissie met toepassing van het artikel 3 van de Verordening 1606/2002/EG van 19 juli 2002 betreffende de toepassing van internationale standaarden voor de jaarrekeningen.
@@ -1505,56 +1509,56 @@ De geconsolideerde jaarrekening bestaat uit de balans, de resultatenrekening en 
    3° het globaal bedrag van de bezoldigingen voor het boekjaar toegekend aan de bestuurders of zaakvoerders van de consoliderende vennootschap om reden van hun functies in deze vennootschap, in haar dochterondernemingen en in haar geassocieerde vennootschappen, inbegrepen het bedrag van de rustpensioenen toegekend om dezelfde reden aan gewezen bestuurders of zaakvoerders;
    4° het globaal bedrag van de voorschotten en de kredieten toegekend aan de bestuurders of zaakvoerders van de consoliderende vennootschap door deze vennootschap, door een dochteronderneming of door een geassocieerde vennootschap.
 
-## Art. 3:105
+###### Art. 3:105
 
 De geconsolideerde jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel.
   Wanneer de toepassing van de bepalingen van deze titel niet volstaat om te voldoen aan dit voorschrift, moeten aanvullende inlichtingen worden verstrekt in de toelichting.
 
-## Art. 3:106
+###### Art. 3:106
 
 Indien in uitzonderingsgevallen blijkt dat de toepassing van een bepaling van de afdelingen 2 tot 4 van dit hoofdstuk strijdig zou zijn met het voorschrift van artikel 3:105, dient met toepassing van voornoemd artikel hiervan te worden afgeweken.
   Zulke afwijking moet in de toelichting worden gemotiveerd.
   De invloed ervan op het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel wordt vermeld in de toelichting bij de geconsolideerde jaarrekening over het boekjaar waarin deze afwijking voor het eerst werd toegepast.
 
-## Art. 3:107
+###### Art. 3:107
 
 De geconsolideerde jaarrekening moet duidelijk worden opgesteld en stelselmatig weergeven, enerzijds, op de dag waarop het boekjaar wordt afgesloten, de aard en het bedrag van de bezittingen en rechten van het geconsolideerde geheel, van zijn schulden en verplichtingen evenals van zijn eigen middelen, en anderzijds, voor het op die dag afgesloten boekjaar, de aard en het bedrag van zijn opbrengsten en zijn kosten.
  Zij moet zowel in de balans als in de resultatenrekening afzonderlijk de belangen van derden vermelden.
    Compensatie tussen tegoeden en schulden, tussen rechten en verplichtingen en tussen opbrengsten en kosten is verboden, behoudens in de gevallen bij dit hoofdstuk bepaald.
 
-## Art. 3:108
+###### Art. 3:108
 
 De geconsolideerde balans en resultatenrekening moeten voortvloeien uit een samenhangend en controleerbaar boekhoudsysteem, zodanig dat de boekhoudkundige continuïteit van de geconsolideerde jaarrekening van het ene jaar op het andere is verzekerd.
 
-## Art. 3:109
+###### Art. 3:109
 
 De geconsolideerde jaarrekening wordt op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap.
   De geconsolideerde jaarrekening kan evenwel op een ander tijdstip worden afgesloten om rekening te houden met de balansdatum van de meeste of van de belangrijkste van de in de consolidatie opgenomen ondernemingen.
 
-## Art. 3:110
+###### Art. 3:110
 
 Onverminderd de artikelen 3:127, 2,134, 3:137 en 3:138, bevat de geconsolideerde jaarrekening alle actief- en passiefbestanddelen en alle rechten en verplichtingen van de consoliderende vennootschap en van de dochterondernemingen die in de consolidatie zijn opgenomen, op de afsluitingsdatum van de geconsolideerde jaarrekening, alsmede alle opbrengsten en kosten van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen, die betrekking hebben op de door de geconsolideerde resultatenrekening bestreken periode.
    Indien het uiterst moeilijk zou blijken om actief- en passiefbestanddelen en rechten en verplichtingen van de consoliderende vennootschap of van een dochteronderneming, dan wel opbrengsten en kosten uit de door de geconsolideerde resultatenrekening bestreken periode in de geconsolideerde jaarrekening op te nemen op de afsluitingsdatum of zulks de opstelling en openbaarmaking van de geconsolideerde jaarrekening uitermate zou vertragen, dan mogen zij op een ander tijdstip in aanmerking worden genomen. Tussen beide data of de beschouwde periodes mag evenwel onder geen enkel beding meer dan drie maanden liggen.
 
-## Art. 3:111
+###### Art. 3:111
 
 Gebruik van de in artikel 3:109, tweede lid of artikel 3:110, tweede lid bedoelde mogelijkheid wordt gemotiveerd in de toelichting en in de geconsolideerde jaarrekening wordt rekening gehouden met of in de toelichting daarbij melding gemaakt van belangrijke gebeurtenissen die zich tussen de balansdatum waarop de jaarrekening in de geconsolideerde jaarrekening is opgenomen en de datum van afsluiting van de geconsolideerde jaarrekening hebben voorgedaan en betrekking hebben op het vermogen, de financiële positie of het resultaat van de consoliderende vennootschap of van de betrokken dochteronderneming, inzonderheid verrichtingen tussen haar en de consoliderende vennootschap of de dochterondernemingen die in de consolidatie zijn opgenomen.
 
-## Art. 3:112
+###### Art. 3:112
 
 Wanneer een vennootschap die er krachtens het Wetboek van vennootschappen en verenigingen niet toe verplicht is een geconsolideerde jaarrekening op te stellen en openbaar te maken, als gevolg van bijzondere bepalingen of op eigen initiatief een geconsolideerde jaarrekening openbaar maakt of mededeelt aan de werknemers of hun vertegenwoordigers, aan overheid of rechter, moet deze zijn opgesteld in overeenstemming met de bepalingen van dit hoofdstuk, tenzij de betrokken bijzondere bepalingen daarvan afwijken.
 
-## Art. 3:113
+###### Art. 3:113
 
 De consoliderende vennootschap moet haar controlebevoegdheid aanwenden om vanwege de in de consolidatie opgenomen of op te nemen dochterondernemingen te verkrijgen dat zij haar op haar verzoek tijdig de gegevens verstrekken die zij nodig heeft om de verplichtingen na te komen die voor haar uit dit hoofdstuk voortvloeien.
 
-## Art. 3:114
+###### Art. 3:114
 
 Behalve wanneer artikel 3:109, tweede lid, wordt toegepast, wordt de geconsolideerde balans opgesteld na toewijzing, dit wil zeggen, na bestemming van het niet-geconsolideerde resultaat van de consoliderende vennootschap. Wanneer die bestemming bij gebreke van een beslissing van het bevoegde orgaan niet definitief is, wordt de geconsolideerde balans opgesteld onder de opschortende voorwaarde van die beslissing.
 
-##### Afdeling 3. - Waarderingsregels.
 
-## Art. 3:115
+##### Afdeling 3. - Waarderingsregels.
+###### Art. 3:115
 
 De in de geconsolideerde jaarrekening opgenomen actief- en passiefbestanddelen en rechten en verplichtingen worden gewaardeerd overeenkomstig de artikelen 3:6 tot 3:55, met uitzondering van de artikelen 3:12, 3:22 en 3:54.
   Zij worden gewaardeerd volgens uniforme regels. Indien in de financiële staten van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen actief- of passiefbestanddelen niet zijn gewaardeerd volgens de regels die voor de geconsolideerde jaarrekening zijn gehanteerd, moeten zij ten behoeve van de consolidatie opnieuw worden gewaardeerd, tenzij de uitkomst van deze nieuwe waardering slechts van een te verwaarlozen betekenis zou zijn, gelet op artikel 3:105.
@@ -1562,31 +1566,31 @@ De in de geconsolideerde jaarrekening opgenomen actief- en passiefbestanddelen e
   In uitzonderingsgevallen mag van het tweede lid worden afgeweken.
   De toelichting vermeldt in welke gevallen met toepassing van het derde en vierde lid verschillende waarderingsregels werden gehandhaafd en waarom.
 
-## Art. 3:116
+###### Art. 3:116
 
 De consoliderende vennootschap moet, onverminderd artikel 3:118, voor haar geconsolideerde jaarrekening dezelfde waarderingsregels toepassen als voor haar jaarrekening.
    In uitzonderingsgevallen mag van dit beginsel worden afgeweken op voorwaarde dat de gehanteerde regels stroken met titel 1 en hoofdstuk 1, afdeling 1 van deze titel. Eventuele afwijkingen worden in de toelichting bij de geconsolideerde jaarrekening gemotiveerd.
 
-## Art. 3:117
+###### Art. 3:117
 
 De waarderingsregels moeten van het ene boekjaar op het andere identiek blijven en stelselmatig worden toegepast.
   Zij worden evenwel aangepast wanneer, onder meer als gevolg van een belangrijke wijziging in het bedrijf van de consoliderende vennootschap, haar vermogensstructuur of in de economische dan wel technologische omstandigheden de voorheen gehanteerde waarderingsregels niet langer voldoen aan het voorschrift van artikel 3:105.
   Het tweede en derde lid van artikel 3:106 zijn van toepassing op dergelijke aanpassingen.
 
-## Art. 3:118
+###### Art. 3:118
 
 Wanneer in de jaarrekening van de consoliderende vennootschap of van een in de consolidatie opgenomen dochteronderneming, overeenkomstig de geldende fiscale voorschriften op de actiefbestanddelen grotere afschrijvingen of waardeverminderingen zijn toegepast dan economisch verantwoord, of wanneer in de jaarrekening van de consoliderende vennootschap of van een in de consolidatie opgenomen dochteronderneming, overeenkomstig de geldende fiscale voorschriften passiva werden geboekt, gevormd of gewaardeerd voor een groter bedrag dan economisch verantwoord, kunnen deze bestanddelen pas in de geconsolideerde jaarrekening worden opgenomen nadat deze distorsies ongedaan zijn gemaakt, tenzij indien het belang van betrokken bedragen verwaarloosbaar is, gelet op het doel van artikel 3:105.
 
-## Art. 3:119
+###### Art. 3:119
 
 In de geconsolideerde balans en resultatenrekening wordt rekening gehouden met het verschil dat bij de consolidatie blijkt tussen de aan het boekjaar en de vorige boekjaren toe te rekenen belastingen en de met betrekking tot deze boekjaren betaalde of nog te betalen belastingen, voor zover mag worden aangenomen dat daaruit voor de consoliderende vennootschap of voor een in de consolidatie opgenomen dochteronderneming in de afzienbare toekomst inderdaad kosten zullen voortvloeien.
   Deze belastinglatenties worden aan passiefzijde van de geconsolideerde balans geboekt in een afzonderlijke post IX. B. " Uitgestelde belastingen en belastinglatenties".
 
-## Art. 3:120
+###### Art. 3:120
 
 Wanneer actief- of passiefbestanddelen voor hun opneming in de consolidatie worden aangepast of herberekend, worden de afschrijvingen, waardeverminderingen en resultaten uit overdracht in de geconsolideerde jaarrekening geboekt op grond van deze aangepaste of herberekende waarde.
 
-## Art. 3:121
+###### Art. 3:121
 
 De actief- en passiefbestanddelen, de rechten en verplichtingen alsmede de opbrengsten en kosten van geconsolideerde buitenlandse dochterondernemingen worden, vooraleer in de geconsolideerde jaarrekening te worden opgenomen, omgerekend in euro, hetzij volgens de monetaire/niet-monetaire methode, hetzij volgens de slotkoersmethode.
   De keuze van de methode moet voldoen aan het vereiste van het getrouwe beeld bedoeld in artikel 3:105.
@@ -1595,7 +1599,7 @@ De actief- en passiefbestanddelen, de rechten en verplichtingen alsmede de opbre
   2° deze criteria stelselmatig worden toegepast.
   In bijzondere gevallen en met naleving van artikel 3:105 en het 1° en 2° van voorgaand lid, kunnen de consoliderende vennootschappen andere omrekeningsmethoden toepassen.
 
-## Art. 3:122
+###### Art. 3:122
 
 § 1. Volgens de monetaire/niet-monetaire methode worden niet-monetaire activa alsmede afschrijvingen, waardeverminderingen en regularisaties met betrekking tot dergelijke activa, omgerekend tegen de geldende koers op het ogenblik waarop deze activa in het vermogen van de consoliderende vennootschap of van de betrokken dochteronderneming zijn opgenomen, zo niet op de in artikel 3:129, tweede lid bedoelde datum, indien later. De monetaire activa en passiva, rechten en verplichtingen worden omgerekend tegen slotkoers; wanneer het wisselrisico met betrekking tot een monetaire post specifiek wordt gedekt, worden de monetaire post en de dekkingsverrichting samen omgerekend, hetzij tegen slotkoers, hetzij tegen de koers van de dekkingsverrichting.
   Volgens de slotkoersmethode worden alle zowel monetaire als niet-monetaire actief- en passiefbestanddelen, rechten en verplichtingen - inclusief de verrichtingen ter dekking van het wisselrisico, met uitzondering van diegene die conform het eerste lid moeten worden behandeld - omgerekend tegen slotkoers.
@@ -1608,15 +1612,15 @@ De actief- en passiefbestanddelen, de rechten en verplichtingen alsmede de opbre
   3° Wanneer de omrekeningsverschillen aan passiefzijde in de post "Omrekeningsverschillen" worden geboekt, dan wordt het aan derden toe te rekenen gedeelte van deze omrekeningsverschillen aan passiefzijde in de post "Belangen van derden" geboekt; wanneer ze in resultaat worden genomen wordt het gedeelte van deze verschillen dat toerekenbaar is aan derden in de resultatenrekening in de post "Aandeel van derden in het resultaat" geboekt.
   4° In bijzondere gevallen en met inachtneming van artikel 3:105 mogen de consoliderende vennootschappen andere methoden hanteren voor de verwerking van omrekeningsverschillen, inzover de voorwaarden bepaald bij artikel 3:121, tweede lid en derde lid, 1° en 2° worden nageleefd.
 
+
 ##### Afdeling 4. - Consolidatiemethoden
+##### Onderafdeling 1. - Algemene beginselen
 
-###### Onderafdeling 1. - Algemene beginselen
-
-## Art. 3:123
+###### Art. 3:123
 
 In de geconsolideerde jaarrekening worden het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel opgenomen alsof het om één enkele vennootschap ging.
 
-## Art. 3:124
+###### Art. 3:124
 
 In de geconsolideerde jaarrekening:
    1° worden de actief- en passiefbestanddelen, rechten en verplichtingen alsmede opbrengsten en kosten van de consoliderende vennootschap en van haar dochterondernemingen waarover zij de exclusieve controle bezit integraal in de consolidatie opgenomen;
@@ -1624,44 +1628,44 @@ In de geconsolideerde jaarrekening:
    3° worden de deelnemingen in geassocieerde vennootschappen zoals gedefinieerd in artikel 1:21 van het Wetboek van vennootschappen en verenigingen, gewaardeerd en het aandeel in het resultaat van deze vennootschappen vastgesteld met toepassing van de vermogensmutatiemethode.
    De gemeenschappelijke dochterondernemingen mogen evenwel in de geconsolideerde jaarrekening worden opgenomen volgens de vermogensmutatiemethode, wanneer hun bedrijf niet nauw geïntegreerd is in het bedrijf van de vennootschap die over de gezamenlijke controle beschikt.
 
-## Art. 3:125
+###### Art. 3:125
 
 De consolidatiebeginselen en -methoden mogen niet van het ene boekjaar tot het andere worden gewijzigd.
   Met toepassing van artikel 3:105 mag van het eerste lid worden afgeweken. In dit geval zijn het tweede en derde lid van artikel 3:106 van toepassing.
 
-###### Onderafdeling 2. - Integrale consolidatie.
+##### Onderafdeling 2. - Integrale consolidatie.
 
   1. De geconsolideerde balans.
 
-## Art. 3:126
+###### Art. 3:126
 
 Onverminderd de artikelen 3:127 en 3:134, worden alle actief- en passiefbestanddelen van de consoliderende vennootschap en van de dochterondernemingen die in de consolidatie zijn opgenomen, in de geconsolideerde balans opgenomen.
 
-## Art. 3:127
+###### Art. 3:127
 
 In de geconsolideerde balans wordt het eigen vermogen van elke geconsolideerde dochteronderneming:
   a) ten belope van het deel van haar eigen vermogen dat de aandelen belichaamt in bezit van de consoliderende vennootschap en van de in de consolidatie opgenomen dochteronderneming, gecompenseerd met de boekwaarde van deze aandelen in de boekhouding van de consoliderende vennootschap en van de dochterondernemingen die ze bezitten, en
   b) ten belope van het deel van haar eigen vermogen dat de aandelen belichaamt in bezit van andere personen dan de consoliderende vennootschap en de in de consolidatie opgenomen dochterondernemingen, aan passiefzijde van de geconsolideerde balans geboekt, in de post "Belangen van derden".
 
-## Art. 3:128
+###### Art. 3:128
 
 Het eigen vermogen van de dochteronderneming, dat in aanmerking wordt genomen voor de toepassing van artikel 3:127, vloeit voort uit de boekwaarde van de actiefbestanddelen, de voorzieningen en schulden van deze dochteronderneming, eventueel na aanpassing van de boekwaarde van deze bestanddelen, overeenkomstig de artikelen 3:115, 3:116, 3:118 en 3:119. Het eigen vermogen omvat het resultaat van het boekjaar op datum van verwerving, behalve inzover hierop vóór de verwerving een interimdividend zou zijn toegekend.
 
-## Art. 3:129
+###### Art. 3:129
 
 De vaststelling van de waarde van het eigen vermogen van de dochteronderneming en de in artikel 3:127, a), bedoelde compensatie geschieden voor elke dochteronderneming op de datum waarop de aandelen zijn verworven of op een nabijzijnde datum.
   Wanneer evenwel:
   a) een vennootschap voor de eerste maal een geconsolideerde jaarrekening opstelt, mag deze compensatie, ten belope van de aandelen in haar bezit op die datum, geschieden op de aanvangsdatum van het boekjaar waarop deze eerste geconsolideerde jaarrekening betrekking heeft;
   b) een dochteronderneming die vroeger niet werd geconsolideerd, noch behandeld volgens de vermogensmutatiemethode, voor de eerste maal in de consolidatie wordt opgenomen, mag deze compensatie, ten belope van de aandelen in haar bezit op die datum, geschieden op de aanvangsdatum van het boekjaar waarop de geconsolideerde jaarrekening waarin de dochteronderneming voor de eerste maal wordt opgenomen, betrekking heeft.
 
-## Art. 3:130
+###### Art. 3:130
 
 Het verschil uit deze compensatie overeenkomstig artikel 3:127, a), wordt zoveel mogelijk toegerekend aan de actief- en passiefbestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde in de boekhouding van de dochteronderneming.
   Het verschil dat overblijft na toepassing van het eerste lid, wordt in de post "Consolidatieverschillen" van de geconsolideerde balans opgenomen, aan actiefzijde zo het verschil positief is, aan passiefzijde zo het verschil negatief is.
   De in het tweede lid bedoelde positieve en negatieve consolidatieverschillen mogen niet met elkaar gecompenseerd worden, tenzij zij betrekking hebben op eenzelfde dochteronderneming; in dit laatste geval is compensatie verplicht.
   Indien met toepassing van het eerste lid, actief- en passiefbestanddelen van de dochterondernemingen worden herberekend, dan wordt het aandeel van derden in deze herberekeningen geboekt in de post "Belangen van derden" aan passiefzijde van de geconsolideerde balans.
 
-## Art. 3:131
+###### Art. 3:131
 
 § 1. De in artikel 3:130, tweede lid, bedoelde positieve consolidatieverschillen worden afgeschreven ten laste van de geconsolideerde resultatenrekening, volgens een passend afschrijvingsplan dat overeenstemt met de vermoedelijke gebruiksduur van dit actief. Indien hun afschrijving wordt gespreid over meer dan vijf jaar, moet zulks worden gemotiveerd in de toelichting.
   Op deze verschillen worden aanvullende of niet-recurrente afschrijvingen toegepast wanneer het, ingevolge wijzigingen in de economische omstandigheden, niet langer economisch verantwoord is ze tegen die waarde te handhaven in de geconsolideerde balans.
@@ -1669,16 +1673,16 @@ Het verschil uit deze compensatie overeenkomstig artikel 3:127, a), wordt zoveel
   § 2. Negatieve consolidatieverschillen mogen niet in de geconsolideerde resultatenrekening worden opgenomen.
  Wanneer evenwel het negatieve consolidatieverschil te verklaren valt uit een op de overeenkomstig artikel 3:129 bepaalde datum verwachte ongunstige ontwikkeling van de resultaten van de betrokken dochteronderneming of uit kosten die deze dochteronderneming naar verwachting zal veroorzaken, wordt het in de geconsolideerde resultatenrekening opgenomen voor zover en op het ogenblik dat deze vooruitzichten werkelijkheid worden.
 
-## Art. 3:132
+###### Art. 3:132
 
 Ingeval de aandelen van een in de consolidatie opgenomen dochteronderneming geheel of ten dele buiten de consolidatiekring worden gerealiseerd, wordt het overblijvende consolidatieverschil afgeboekt naar verhouding van de gerealiseerde aandelen.
 
-## Art. 3:133
+###### Art. 3:133
 
 De eigen aandelen van de consoliderende vennootschap alsmede de aandelen in de consoliderende vennootschap gehouden door een in de consolidatie opgenomen dochteronderneming, worden in de geconsolideerde balans geboekt in actiefpost IX.
   De toelichting vermeldt hoeveel aandelen van de consoliderende vennootschap in bezit zijn van haarzelf en van haar in de consolidatie opgenomen dochteronderneming, alsook welk percentage van de uitgegeven aandelen ze vertegenwoordigen.
 
-## Art. 3:134
+###### Art. 3:134
 
 Worden uit de geconsolideerde balans weggelaten:
   1° de onderlinge vorderingen en schulden van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen;
@@ -1686,13 +1690,13 @@ Worden uit de geconsolideerde balans weggelaten:
 
   2. De geconsolideerde resultatenrekening.
 
-## Art. 3:135
+###### Art. 3:135
 
 Alle opbrengsten en kosten van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen worden onverminderd de artikelen 3:136, 3:143 en 3:145 in de geconsolideerde resultatenrekening opgenomen.
   Ze bevat onder de kosten het gedeelte van het resultaat van de dochterondernemingen dat bij bestemming anderszins dan als dividend wordt toegekend.
   De overboeking naar de belastingvrije reserves wordt uit de resultatenrekening gehaald en in de resultaatverwerking opgenomen. Dit geldt ook voor de onttrekkingen aan deze belastingvrije reserves.
 
-## Art. 3:136
+###### Art. 3:136
 
 Worden uit de geconsolideerde resultatenrekening weggelaten:
   1° de onderlinge opbrengsten en kosten die verband houden met verrichtingen tussen de consoliderende vennootschap en de in de consolidatie opgenomen dochterondernemingen of tussen deze laatste;
@@ -1701,37 +1705,37 @@ Worden uit de geconsolideerde resultatenrekening weggelaten:
   4° de dividenden toegekend door de consoliderende vennootschap of door in de consolidatie opgenomen dochterondernemingen aan de consoliderende vennootschap of aan in de consolidatie opgenomen dochterondernemingen;
   5° de waardeverminderingen op deelnemingen in de consoliderende vennootschap of in dochterondernemingen opgenomen in de consolidatie, hetzij behandeld volgens de vermogensmutatiemethode.
 
-## Art. 3:137
+###### Art. 3:137
 
 Het gedeelte van het resultaat van de volledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen die worden gehouden door andere personen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochterondernemingen, wordt in de geconsolideerde resultatenrekening vermeld onder de post "Aandeel van derden in het resultaat".
 
   3. De geconsolideerde toelichting.
 
-## Art. 3:138
+###### Art. 3:138
 
 De inlichtingen met betrekking tot het geheel van de consoliderende vennootschap en de in de consolidatie opgenomen dochterondernemingen die krachtens dit besluit in de toelichting moeten worden opgenomen, slaan niet op de wederzijdse rechten en verplichtingen die worden weggelaten.
 
   4. Gemeenschappelijke bepaling.
 
-## Art. 3:139
+###### Art. 3:139
 
 De in de artikelen 3:134, 3:136, eerste lid, 1° en 2°, en 3:138 bedoelde weglatingen mogen achterwege blijven wanneer de betrokken bedragen, gelet op het doel van artikel 3:105 slechts van te verwaarlozen betekenis zijn.
 
-###### Onderafdeling 3. - Evenredige consolidatie
+##### Onderafdeling 3. - Evenredige consolidatie
 
-## Art. 3:140
+###### Art. 3:140
 
 In geval van evenredig geconsolideerde gemeenschappelijke dochterondernemingen:
   a) zijn de artikelen 3:127, a) en 3:128 tot 3:133 van toepassing;
   b) worden de actief- en passiefbestanddelen, rechten en verplichtingen, opbrengsten en kosten van gemeenschappelijke dochterondernemingen in de geconsolideerde jaarrekening opgenomen naar rato van de rechten in het kapitaal of voor wat de kapitaalloze vennootschappen betreft, in de inbreng die door de consoliderende vennootschap en door de in de consolidatie opgenomen dochterondernemingen worden gehouden; de artikelen 3:134, 3:136, 3:138 en 3:139 zijn van toepassing.
 
-##### Afdeling 5. - De vermogensmutatie
 
-## Art. 3:141
+##### Afdeling 5. - De vermogensmutatie
+###### Art. 3:141
 
 Deelnemingen in vennootschappen waarop de vermogensmutatiemethode is toegepast, worden in de geconsolideerde balans opgenomen onder een afzonderlijke post van de financiële vaste activa, genoemd "Vennootschappen waarop vermogensmutatie is toegepast".
 
-## Art. 3:142
+###### Art. 3:142
 
 § 1. Wanneer op een deelneming de vermogensmutatiemethode wordt toegepast, wordt zij in de geconsolideerde balans opgenomen voor het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap, inclusief het resultaat over het boekjaar, dat deze deelneming belichaamt.
    Artikel 3:129 is van overeenkomstige toepassing wat de datum betreft waarop deze deelneming wordt herberekend.
@@ -1741,39 +1745,39 @@ Deelnemingen in vennootschappen waarop de vermogensmutatiemethode is toegepast, 
    § 4. Het verschil dat overblijft na toepassing van paragraaf 3 wordt in de post "Consolidatieverschillen" van de geconsolideerde balans opgenomen, aan actiefzijde bij een positief verschil, aan passiefzijde bij een negatief verschil. Positieve en negatieve verschillen mogen niet worden gecompenseerd, tenzij zij betrekking hebben op een zelfde geassocieerde vennootschap; in dit laatste geval is compensatie verplicht.
    § 5. De artikelen 3:131 en 3:132 zijn van toepassing op de verschillen na vermogensmutatie.
 
-## Art. 3:143
+###### Art. 3:143
 
 De waarde waartegen de deelneming in de geconsolideerde jaarrekening, overeenkomstig artikel 3:142, §§ 1 en 2, is opgenomen, wordt vervolgens, naar gelang van het geval, verhoogd of verminderd met het bedrag van de tijdens het boekjaar of het gedeelte van het boekjaar opgetreden verandering in het deel van het eigen vermogen van de betrokken vennootschap dat deze deelneming belichaamt. Dit eigen vermogen omvat, naast het resultaat van het boekjaar, met uitsluiting evenwel van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, tevens de uitdrukking van een herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en de boeking van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening.
   Deze waarde wordt verminderd met het bedrag van de dividenden met betrekking tot deze deelneming.
   Bij toepassing van artike 3:142, § 3, wordt deze waarde zonodig aangepast om rekening te houden met de gevolgen van de waardeherberekeningen met toepassing van genoemd artikel 3:142, § 3.
 
-## Art. 3:144
+###### Art. 3:144
 
 De bepalingen over de omrekening in euro, van tegoeden en verplichtingen in deviezen en van de financiële staten van dochterondernemingen in het buitenland, zijn van toepassing op de vennootschappen waarop de vermogensmutatie is toegepast.
 
-## Art. 3:145
+###### Art. 3:145
 
 § 1. Het aandeel in het resultaat van de betrokken vennootschap dat aan deze deelneming kan worden toegerekend, wordt vermeld in de geconsolideerde resultatenrekening onder een afzonderlijke post "Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast".
   § 2. De resultaten van verrichtingen tussen de consoliderende vennootschap en de in de consolidatie opgenomen dochterondernemingen alsmede vennootschappen waarop de vermogensmutatiemethode wordt toegepast en die begrepen zijn in de boekwaarde van de activa van de consoliderende vennootschap of van een dochteronderneming opgenomen in de consolidatie, hetzij van een vennootschap waarop de vermogensmutatiemethode wordt toegepast, worden voor zover de daartoe noodzakelijke gegevens bekend of toegankelijk zijn, uit de geconsolideerde resultaten weggelaten.
   Ten aanzien van voorgaand lid zijn de artikelen 3:136 en 3:139 van toepassing.
 
-## Art. 3:146
+###### Art. 3:146
 
 Het aandeel in de herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en de boeking van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening van de betrokken vennootschap dat aan deze deelneming kan worden toegerekend, wordt vermeld in de geconsolideerde balans onder de rubriek "Reserves".
 
-## Art. 3:147
+###### Art. 3:147
 
 Wanneer een vennootschap waarop de vermogensmutatiemethode wordt toegepast, een geconsolideerde jaarrekening opstelt, zijn de bepalingen van deze afdeling van toepassing onder verwijzing naar de geconsolideerde jaarrekening van deze vennootschap.
 
-## Art. 3:148
+###### Art. 3:148
 
 De vermogensmutatiemethode hoeft niet te worden toegepast wanneer de toepassing ervan slechts van te verwaarlozen betekenis zou zijn, gelet op het doel van artikel 3:105.
 
+
 ##### Afdeling 6. - Vorm en inhoud van de geconsolideerde jaarrekening
+##### Onderafdeling 1. - Algemene beginselen
 
-###### Onderafdeling 1. - Algemene beginselen
-
-## Art. 3:149
+###### Art. 3:149
 
 § 1. De geconsolideerde balans en resultatenrekening worden opgesteld overeenkomstig de schema's opgenomen in bijlage 5 van dit besluit, onverminderd de bepalingen van dit hoofdstuk, samengevat in onderafdeling 2 van deze afdeling en met inachtneming van de aanpassingen die noodzakelijk zijn wegens de eigen kenmerken van de geconsolideerde jaarrekening.
   De omschrijving van de in de schema's door een hoofdletter aangegeven posten en van de subposten moet, wanneer de naleving van het voorschrift van artikel 3:105 dit vereist, worden aangepast aan de bijzondere aard van het bedrijf, het vermogen en de opbrengsten en kosten van het geconsolideerd geheel.
@@ -1782,43 +1786,43 @@ De vermogensmutatiemethode hoeft niet te worden toegepast wanneer de toepassing 
   § 3. Indien het bedrijf van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen, als geheel beschouwd, voornamelijk bestaat uit een bankbedrijf, wordt de geconsolideerde jaarrekening opgesteld volgens de schema's en waarderingsregels die naar gelang van het geval, van toepassing zijn op de jaarrekening van de kredietinstellingen. De staten XIII en XV van artikel 3:156 zijn niet van toepassing.
   Indien het bedrijf van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen, als geheel beschouwd, voornamelijk bestaat uit een verzekerings- of herverzekeringsbedrijf, is de consoliderende vennootschap onderworpen aan de bepalingen van het koninklijk besluit van 13 februari 1996 betreffende de geconsolideerde jaarrekening van verzekeringsondernemingen en herverzekeringsondernemingen.
 
-## Art. 3:150
+###### Art. 3:150
 
 De posten van de geconsolideerde balans en resultatenrekening en de vermeldingen in de toelichting mogen worden weggelaten wanneer zij niet dienstig zijn voor het betrokken boekjaar en het voorafgaande boekjaar.
 
-## Art. 3:151
+###### Art. 3:151
 
 Kunnen actief- of passiefbestanddelen tot meer dan één post of subpost van de balans behoren, of opbrengsten dan wel kosten tot meer dan één post of subpost van de resultatenrekening, dan worden ze ingeschreven onder die post die ten opzichte van het voorschrift van artikel 3:105 het meest is aangewezen. In dergelijk geval wordt in de toelichting het verband met de andere posten vermeld.
    De consoliderende vennootschappen kunnen de posten en subposten die verplicht worden vermeld, verder indelen.
    Er mag in bijkomende subposten worden voorzien voor zover hun inhoud niet door een andere subpost, vermeld in de schema's, wordt gedekt.
 
-## Art. 3:152
+###### Art. 3:152
 
 Bij elke post en subpost van de geconsolideerde balans en resultatenrekening wordt het bedrag van de overeenkomstige post van het voorafgaande boekjaar vermeld.
    Wanneer de bedragen van het voorafgaande boekjaar niet vergelijkbaar zijn, moet de toelichting de nodige gegevens bevatten om een betekenisvolle vergelijking tussen de opeenvolgende geconsolideerde jaarrekeningen mogelijk te maken.
    De verplichting om cijfers over het voorgaande boekjaar te vermelden, geldt niet voor de geconsolideerde jaarrekening over het eerste boekjaar waarin de bepalingen van dit hoofdstuk van toepassing zijn.
 
-## Art. 3:153
+###### Art. 3:153
 
 De indeling van de geconsolideerde jaarrekening moet identiek zijn van het ene jaar tot het andere; ze wordt echter gewijzigd wanneer zij, onder meer ingevolge een belangrijke wijziging in de structuur van het vermogen, van de opbrengsten en van de kosten van het geconsolideerde geheel, niet meer beantwoordt aan het voorschrift van artikel 3:105. Deze wijzigingen worden gemotiveerd in de toelichting over het boekjaar waarin zij werden ingevoerd.
 
-###### Onderafdeling 2. - Geconsolideerde jaarrekening
+##### Onderafdeling 2. - Geconsolideerde jaarrekening
 
   1. Schema van de balans.
 
-## Art. 3:154
+###### Art. 3:154
 
 De balans wordt opgesteld overeenkomstig het schema opgenomen in bijlage 5.
 
   2. Schema's van de resultatenrekening.
 
-## Art. 3:155
+###### Art. 3:155
 
 Naar gelang van de gekozen opsplitsing van de bedrijfsresultaten moet de resultatenrekening worden opgesteld overeenkomstig de schema's opgenomen in bijlage 5.
 
   3. Inhoud van de toelichting.
 
-## Art. 3:156
+###### Art. 3:156
 
 In de toelichting moeten, naast de door andere bepalingen van dit hoofdstuk voorgeschreven vermeldingen, de volgende gegevens worden opgenomen indien van materieel belang zoals gedefinieerd in artikel 3:58, § 5, tweede lid: I.
   De criteria die worden gehanteerd, respectievelijk voor de integrale consolidatie, voor de evenredige consolidatie en voor de opneming volgens de vermogensmutatiemethode, alsmede de gevallen waarin van deze criteria wordt afgeweken, met motivering ervan.
@@ -1926,13 +1930,13 @@ In de toelichting moeten, naast de door andere bepalingen van dit hoofdstuk voor
    De volgende gegevens betreffende het niet-gebruik van de waarderingsmethode op basis van de reële waarde: In geval van niet-gebruik van de waarderingsmethode op basis van de reële waarde voor de financiële instrumenten: voor iedere categorie afgeleide financiële instrumenten, voor het boekjaar en het vorig boekjaar, een overzicht van de omvang en de aard van de instrumenten, het ingedekte risico en een vergelijking tussen de boekwaarde en reële waarde van de instrumenten indien een dergelijke waarde kan worden bepaald middels een van de in artikel 3:91. B voorgeschreven methoden.
    Voor financiële vaste activa die in aanmerking worden genomen tegen een hoger bedrag dan hun reële waarde: de boekwaarde en de reële waarde van de afzonderlijke activa, dan wel van de passende groepen van deze afzonderlijke activa en de redenen waarom de boekwaarde niet is verminderd, met opgave van de aard van de aanwijzingen die aan de veronderstelling ten grondslag liggen dat de boekwaarde zal kunnen worden gerealiseerd.
 
-## Art. 3:157
+###### Art. 3:157
 
 De gegevens die krachtens dit besluit in de toelichting moeten worden vermeld, mogen achterwege blijven wanneer hun belang verwaarloosbaar is, gelet op artikel 3:105.
 
-###### Onderafdeling 3. - Inhoud van sommige posten van de geconsolideerde jaarrekening
+##### Onderafdeling 3. - Inhoud van sommige posten van de geconsolideerde jaarrekening
 
-## Art. 3:158
+###### Art. 3:158
 
 Inbreng: deze rubriek bevat uitsluitend het kapitaal of de inbreng van de consoliderende vennootschap.
   Uitgiftepremie: deze post bevat uitsluitend de uitgiftepremie van de consoliderende vennootschap.
@@ -1945,44 +1949,44 @@ Inbreng: deze rubriek bevat uitsluitend het kapitaal of de inbreng van de consol
 
 #### HOOFDSTUK 1. - Jaarrekening
 
-##### Afdeling 1. - Waarderingsregels: bijzondere bepalingen
 
-## Art. 3:159
+##### Afdeling 1. - Waarderingsregels: bijzondere bepalingen
+###### Art. 3:159
 
 Wanneer de functionaliteit van materiële vaste activa constant is, kan het bestuursorgaan van de VZW, IVZW of stichting, mits melding en verantwoording in de toelichting, beslissen om deze materiële vaste activa niet af te schrijven en de onderhouds- en vervangingskosten die daaraan verbonden zijn, op zich te nemen.
 
-## Art. 3:160
+###### Art. 3:160
 
 De goederen die aan de VZW, IVZW of stichting werden geschonken of nagelaten worden geboekt op het ogenblik van hun verkrijging.
   De VZW, IVZW of stichting waardeert de goederen die haar worden geschonken of nagelaten tegen aanschaffingswaarde. Het bestuursorgaan kan, mits melding en verantwoording in de toelichting, evenwel beslissen om deze geschonken of nagelaten goederen te waarderen tegen werkelijke waarde, marktwaarde of gebruikswaarde waarbij het verschil tussen de aanschaffingswaarde en deze waarde wordt geboekt op een afzonderlijke subrekening van het betrokken actief met als tegenpost een opbrengstrekening of een rekening van het eigen vermogen. Wanneer het verschil betrekking heeft op een vast actief met een beperkte gebruiksduur moet dit verschil worden afgeschreven over de gebruiksduur.
 
+
 ##### Afdeling 2. - Vorm en inhoud van de jaarrekening
+##### Onderafdeling 1. - Sociale balans
 
-###### Onderafdeling 1. - Sociale balans
-
-## Art. 3:161
+###### Art. 3:161
 
 § 1. De toelichting bevat de inlichtingen betreffende de sociale balans bedoeld in hoofdstuk 9 van de wet van 22 december 1995 houdende maatregelen tot uitvoering van het meerjarenplan voor werkgelegenheid indien de VZW, IVZW of stichting een jaargemiddelde van ten minste 20 personeelsleden telt, uitgedrukt in voltijdse equivalenten en waarvoor de VZW, IVZW of stichting een onmiddellijke aangifte van tewerkstelling heeft gedaan bij de met de inning van de sociale zekerheidsbijdragen belaste instelling of die zijn ingeschreven in het algemeen personeelsregister, krachtens het koninklijk besluit van 8 augustus 1980 betreffende het bijhouden van sociale documenten.
    De sociale balans bevat de informatie als bedoeld in artikel 5:2.
    § 2. De sociale balans van een VZW, IVZW of stichting die overeenkomstig artikel 3:47, § 3 en 3:51, § 3, van het Wetboek van vennootschappen en verenigingen een jaarrekening opmaakt volgens een verkort schema en die een jaargemiddelde van ten minste 20 personeelsleden telt, uitgedrukt in voltijdse equivalenten en waarvoor de VZW, IVZW of stichting een onmiddellijke aangifte van tewerkstelling heeft gedaan bij de met de inning van de sociale zekerheidsbijdragen belaste instelling of die zijn ingeschreven in het algemeen personeelsregister krachtens het koninklijk besluit van 8 augustus 1980 betreffende het bijhouden van sociale documenten, bevat de informatie als bedoeld in artikel 5:3.
 
-###### Onderafdeling 2. - Jaarrekening volgens volledig schema
+##### Onderafdeling 2. - Jaarrekening volgens volledig schema
 
   1. Schema van de balans.
 
-## Art. 3:162
+###### Art. 3:162
 
 De balans wordt opgesteld overeenkomstig het schema opgenomen in bijlage 6.
 
   2. Schema van de resultatenrekening.
 
-## Art. 3:163
+###### Art. 3:163
 
 De resultatenrekening wordt opgesteld overeenkomstig het schema opgenomen in bijlage 6.
 
   3. Inhoud van de toelichting.
 
-## Art. 3:164
+###### Art. 3:164
 
 De toelichting bij het volledige schema van de jaarrekening bevat de hierna vermelde aanvullende gegevens: I.
   Een staat van de oprichtingskosten (post I van de activa) met de vermelding van hun nettoboekwaarde per einde van het vorige boekjaar, de mutaties tijdens het boekjaar (nieuwe kosten van het boekjaar, afschrijvingen, andere) alsmede de nettoboekwaarde per einde van het boekjaar. Deze laatste wordt uitgesplitst in: - Kosten van oprichting, kosten bij uitgifte van leningen, en andere oprichtingskosten;
@@ -2173,23 +2177,23 @@ De toelichting bij het volledige schema van de jaarrekening bevat de hierna verm
    In geval van niet-gebruik van de waarderingsmethode op basis van de reële waarde voor de financiële instrumenten: voor iedere categorie afgeleide financiële instrumenten, voor het boekjaar en het vorig boekjaar, een overzicht van de omvang en de aard van de instrumenten, het ingedekte risico en een vergelijking tussen de boekwaarde en de reële waarde van de instrumenten indien een dergelijke waarde kan worden bepaald middels een van de in artikel 3:173. B. voorgeschreven methoden.
    Voor financiële vaste activa die in aanmerking worden genomen tegen een hoger bedrag dan hun reële waarde: de boekwaarde en de reële waarde van de afzonderlijke activa, dan wel van passende groepen van deze afzonderlijke activa en de redenen waarom de boekwaarde niet is verminderd, met opgave van de aard van de aanwijzingen die aan de veronderstelling ten grondslag liggen dat de boekwaarde zal kunnen worden gerealiseerd.
 
-###### Onderafdeling 3. - Jaarrekening in verkorte vorm.
+##### Onderafdeling 3. - Jaarrekening in verkorte vorm.
 
   1. Schema van de balans
 
-## Art. 3:165
+###### Art. 3:165
 
 De balans wordt opgesteld overeenkomstig het schema opgenomen in bijlage 7.
 
   2. Schema van de resultatenrekening.
 
-## Art. 3:166
+###### Art. 3:166
 
 De resultatenrekening wordt opgesteld overeenkomstig het schema opgenomen in bijlage 7.
 
   3. Inhoud van de toelichting.
 
-## Art. 3:167
+###### Art. 3:167
 
 De toelichting bij het verkorte schema van de jaarrekening bevat de hierna vermelde aanvullende gegevens: I.
   Een staat van de vaste activa (rubrieken II, III en IV van de activa) die respectievelijk inzake de immateriële, de materiële, en de financiële vaste activa de volgende gegevens bevat:
@@ -2239,23 +2243,23 @@ De toelichting bij het verkorte schema van de jaarrekening bevat de hierna verme
   XI.
   Transacties die rechtstreeks of onrechtstreeks zijn aangegaan tussen de VZW, IVZW of stichting en de leden van de leidinggevende, de toezichthoudende of de bestuursorganen.
 
-###### Onderafdeling 4. - Microschema van de jaarrekening
+##### Onderafdeling 4. - Microschema van de jaarrekening
 
   1. Schema van de balans.
 
-## Art. 3:168
+###### Art. 3:168
 
 De balans van het microschema van de jaarrekening wordt opgesteld overeenkomstig het schema van de balans van de jaarrekening in verkorte vorm, zoals opgenomen in bijlage 7.
 
   2. Schema van de resultatenrekening.
 
-## Art. 3:169
+###### Art. 3:169
 
 De resultatenrekening van het microschema van de jaarrekening wordt opgesteld overeenkomstig het schema van de resultatenrekening van de jaarrekening in verkorte vorm, zoals opgenomen in bijlage 7.
 
   3. Inhoud van de toelichting.
 
-## Art. 3:170
+###### Art. 3:170
 
 In de toelichting bij het microschema van de jaarrekening worden de hierna volgende gegevens opgenomen: I.
   Een staat van de vaste activa (rubrieken II, III en IV van de activa) die respectievelijk inzake de immateriële, de materiële en de financiële vaste activa de volgende gegevens bevat:
@@ -2280,11 +2284,11 @@ In de toelichting bij het microschema van de jaarrekening worden de hierna volge
    III.
    Het bedrag van de aan de leden van de leidinggevende, de toezichthoudende of de bestuursorganen verleende voorschotten en kredieten, met vermelding van de interestvoet, de belangrijkste voorwaarden en de eventueel afgeloste of afgeschreven bedragen of bedragen waarvan werd afgezien, alsmede ten behoeve van de betrokken personen aangegane garantieverplichtingen van welke aard ook, met opgave van een totaalbedrag voor elke genoemde groep.
 
-###### Onderafdeling 5. - Inhoud van bepaalde rubrieken
+##### Onderafdeling 5. - Inhoud van bepaalde rubrieken
 
   1. Inhoud van bepaalde rubrieken van de balans.
 
-## Art. 3:171
+###### Art. 3:171
 
 § 1. De inhoud van bepaalde rubrieken van het actief worden als volgt gedefinieerd: I. Oprichtingskosten Onder die post worden vermeld, voor zover zij niet op een andere wijze ten laste van de resultatenrekening van het lopende boekjaar worden gebracht, de kosten verbonden met de oprichting, de verdere ontwikkeling of de herstructurering van de VZW, IVZW of stichting, in het bijzonder de kosten van oprichting, de kosten bij uitgifte van leningen, en de herstructureringskosten.
   II. Immateriële vaste activa
@@ -2409,7 +2413,7 @@ In de toelichting bij het microschema van de jaarrekening worden de hierna volge
 
   2. Inhoud van bepaalde rubrieken van de resultatenrekening.
 
-## Art. 3:172
+###### Art. 3:172
 
 De inhoud van bepaalde rubrieken van de resultatenrekening wordt als volgt gedefinieerd: I. A. Omzet (volledig schema) Onder omzet wordt verstaan het bedrag van de verkoop van goederen en de levering van diensten aan derden, in het kader van de gewone bedrijfsuitoefening van de VZW, IVZW of stichting, onder aftrek van de op de verkoopprijs in de handel toegestane kortingen (afslag, ristorno, rabat); dit bedrag omvat niet de belasting over de toegevoegde waarde, noch enige andere rechtstreeks met de omzet verbonden belasting.
    Onder die post moeten eveneens worden opgenomen de tegemoetkomingen van de overheid in het kader van een tariferingspolitiek als compensatie voor lagere ontvangsten.
@@ -2500,7 +2504,7 @@ De inhoud van bepaalde rubrieken van de resultatenrekening wordt als volgt gedef
 
   3. Inhoud van bepaalde verplichte vermeldingen in de toelichting.
 
-## Art. 3:173
+###### Art. 3:173
 
 De inhoud van bepaalde verplichte vermeldingen in de toelichting wordt gedefinieerd als volgt: A. Niet in de balans opgenomen rechten en verplichtingen
    00. Zekerheden door derden gesteld of onherroepelijk beloofd voor rekening van de VZW, IVZW of stichting.
@@ -2533,11 +2537,11 @@ De inhoud van bepaalde verplichte vermeldingen in de toelichting wordt gedefinie
 
 #### HOOFDSTUK 2. - Diverse bepalingen
 
-## Art. 3:174
+###### Art. 3:174
 
 Elke VZW, IVZW of stichting die niet langer haar boekhouding voert in overeenstemming met het model van de vereenvoudigde boekhouding zoals bedoeld in artikel III.85, § 2 van het Wetboek van economisch recht, moet de wijziging van de toepasselijke regels vermelden in de toelichting bij haar jaarrekening en de belangrijkste gevolgen van deze wijziging voor de VZW, IVZW of stichting vermelden. Vanaf dat moment voert ze haar boekhouding met inachtneming van de gebruikelijke regels van het dubbel boekhouden zoals bepaald in boek III, titel 3, hoofdstuk 2 van het Wetboek van economisch recht en stelt ze haar jaarrekening op met de exclusieve toepassing van de bepalingen van titel 1 en onderhavige titel.
 
-## Art. 3:175
+###### Art. 3:175
 
 § 1. Elke VZW, IVZW of stichting die, aan het begin van het boekjaar over een vermogen beschikkend, ertoe gehouden is, in toepassing van artikel 3:47, § 1 of 3:51, § 1, van het Wetboek van vennootschappen en verenigingen om voor de eerste maal de bepalingen van titel 1 en onderhavige titel toe te passen, past de hierna vastgestelde regels toe om omzichtig, oprecht en te goeder trouw de nodige opnemingen, verificaties, onderzoekingen en waarderingen te verrichten die nodig zijn om de openingsbalans van het boekjaar op te stellen op de eerste dag van het eerste boekjaar waarvoor de bepalingen van titel 1 en onderhavige titel gelden.
   § 2. Als de VZW, IVZW of stichting, naar de mening van haar bestuursorgaan, die wordt vermeld in de toelichting bij de jaarrekening, al een boekhouding voert die ten minste overeenstemt met deze die titel 1 en onderhavige titel vereisen, stemt de openingsbalans van het eerste boekjaar waarvoor de bepalingen van titel 1 en onderhavige titel gelden, overeen met de afsluitingsbalans van het vorige boekjaar.
@@ -2551,58 +2555,58 @@ Elke VZW, IVZW of stichting die niet langer haar boekhouding voert in overeenste
 
 #### HOOFDSTUK 1. - Algemeen.
 
-## Art. 3:176
+###### Art. 3:176
 
 Titel 1, 2 en 3 zijn niet van toepassing op VZW's, IVZW's en stichtingen die overeenkomstig artikel III.85, § 2, van het Wetboek van economisch recht een vereenvoudigde boekhouding voeren. Voor deze VZW's, IVZW's en stichtingen gelden de bepalingen opgenomen in onderhavige titel.
 
-## Art. 3:177
+###### Art. 3:177
 
 De in artikel 3:47, § 2, en 3:51, § 2, van het Wetboek van vennootschappen en verenigingen bedoelde jaarrekening bevat de staat van ontvangsten en uitgaven alsook de toelichting. Deze stukken vormen een geheel. De jaarrekening wordt in euro geformuleerd, zonder decimalen.
 
 #### HOOFDSTUK 2. - Waarderingsregels
 
-## Art. 3:178
+###### Art. 3:178
 
 Het bestuursorgaan van de VZW, IVZW of stichting bepaalt de regels die, rekening houdend met de kenmerken van de VZW, IVZW of stichting, ten grondslag liggen aan de waarderingen in de inventaris.
  Bezittingen worden gewaardeerd tegen de som van de waarde van de tegenprestaties en uitgaven ingevolge de verwerving.
   In afwijking van het eerste lid mogen de bezittingen verworven tijdens een boekjaar dat aanvangt vóór 1 mei 2019, waarvoor de som van de waarde van de tegenprestaties en uitgaven ingevolge de verwerving niet wordt teruggevonden, worden gewaardeerd tegen de waarde bepaald door het bestuursorgaan.
   De waarderingsregels zijn samengevat in de toelichting. Deze samenvatting moet voldoende nauwkeurig zijn teneinde de toegepaste waarderingsmethodes te kunnen beoordelen.
 
-## Art. 3:179
+###### Art. 3:179
 
 De waarderingsregels en de toepassing ervan moeten voor alle boekjaren dezelfde zijn.
   Zij worden evenwel aangepast ingeval zij niet langer de mogelijkheid bieden om voorzichtig, oprecht en te goeder trouw de in artikel III.89, § 1, van het Wetboek van economisch recht bedoelde verrichtingen uit te voeren.
   Deze aanpassingen worden vermeld en verantwoord in de toelichting. De inschatting van de invloed van deze aanpassingen wordt vermeld in de toelichting betreffende de rekeningen van het boekjaar waarin deze aanpassing voor het eerst werd ingevoerd.
 
-## Art. 3:180
+###### Art. 3:180
 
 De waarderingen moeten beantwoorden aan de criteria van voorzichtigheid, oprechtheid en goede trouw.
 
 #### HOOFDSTUK 3. - Vorm en inhoud van de jaarrekening
 
-## Art. 3:181
+###### Art. 3:181
 
 De jaarrekening wordt voorzichtig, oprecht, te goeder trouw en duidelijk opgemaakt.
   Ingeval de toepassing van de bepalingen van deze titel niet volstaat om te voldoen aan dit bepaalde, moeten in de toelichting bijkomende inlichtingen worden verschaft.
 
-## Art. 3:182
+###### Art. 3:182
 
 De staat van de ontvangsten en de uitgaven vloeit rechtstreeks voort uit het in artikel III.85, § 2, van het Wetboek van economisch recht bedoelde ongesplitst dagboek.
   De staat moet voor het afgesloten boekjaar stelselmatig de aard en het bedrag van de ontvangsten en de uitgaven van de VZW, IVZW of stichting vermelden.
   Enige compensatie tussen ontvangsten en uitgaven is verboden.
   De staat van ontvangsten en uitgaven moet overeenkomstig het minimaal schema in bijlage 8 van dit besluit worden opgemaakt.
 
-## Art. 3:183
+###### Art. 3:183
 
 De toelichting bevat de inlichtingen zoals bepaald in de artikelen 3:178, 3:179, 3:181 en 3:184 alsook een staat van het vermogen van de VZW, IVZW of stichting. Zij moet worden opgemaakt overeenkomstig het minimaal schema in bijlage 8 van dit besluit.
 
-## Art. 3:184
+###### Art. 3:184
 
 De staat van het vermogen vloeit rechtstreeks voort uit de in artikel III.89, § 1, van het Wetboek van economisch recht bedoelde inventaris.
    De staat moet op de datum van de afsluiting van het boekjaar stelselmatig de aard en het bedrag van het geheel van de bezittingen en van de schulden van de VZW, IVZW of stichting vermelden.
    De staat van het vermogen moet bovendien de rechten en de verplichtingen vermelden die een belangrijke invloed kunnen hebben op de financiële toestand van de VZW, IVZW of stichting. Ingeval deze rechten en verplichtingen niet in cijfers kunnen worden vertaald, worden zij enkel op passende wijze in de toelichting vermeld.
 
-## Art. 3:185
+###### Art. 3:185
 
 Een VZW, IVZW of stichting die een vereenvoudigde boekhouding kan voeren en haar jaarrekening kan opmaken overeenkomstig de bepalingen van deze titel, kan evenwel beslissen zich vrijwillig te onderwerpen aan de verplichtingen die gelden voor de VZW's, IVZW's en stichtingen die niet voldoen aan de voorwaarden zoals bepaald in artikel III.85, § 2, van het Wetboek van economisch recht.
   In dit geval past de VZW, IVZW of stichting het geheel van de bepalingen toe die gelden voor de opmaak en openbaarmaking van de jaarrekening van de VZW's, IVZW's en stichtingen die niet voldoen aan de voorwaarden zoals bepaald in artikel III.85, § 2, van het Wetboek van economisch recht.
@@ -2610,11 +2614,11 @@ Een VZW, IVZW of stichting die een vereenvoudigde boekhouding kan voeren en haar
 
 #### HOOFDSTUK 4. - Openbaarmaking
 
-## Art. 3:186
+###### Art. 3:186
 
 De jaarrekening en de andere stukken die bij de Nationale Bank moeten worden neergelegd in toepassing van de artikelen 3:47, § 7, en 3:51, § 7, van het Wetboek van vennootschappen en verenigingen of in toepassing van andere wettelijke of reglementaire bepalingen worden langs elektronische weg neergelegd in de vorm van een gestructureerd databestand dat voldoet aan alle technische voorwaarden vastgesteld door de Nationale Bank van België en opgenomen in het "Protocol voor de neerlegging langs elektronische weg van jaarrekeningen in de vorm van een gestructureerd databestand". Dit technisch Protocol wordt door de Nationale Bank van België ter beschikking gesteld op haar website. De neerlegging gebeurt via de speciaal hiertoe voorziene toepassing op de website van de Nationale Bank van België. De toegang tot deze toepassing is enkel mogelijk door middel van een door de Nationale Bank van België erkend digitaal certificaat.
 
-## Art. 3:187
+###### Art. 3:187
 
 § 1. De neergelegde jaarrekening vermeldt:
   1° de naam van de rechtspersoon zoals die op datum van de neerlegging in de statuten voorkomt;
@@ -2628,33 +2632,33 @@ De jaarrekening en de andere stukken die bij de Nationale Bank moeten worden nee
   § 3. In de jaarrekening worden de bedragen uitgedrukt in euro, hetzij zonder decimalen, hetzij met twee decimalen, met het oog op hun neerlegging in de vorm van een gestructureerd databestand.
   § 4. De jaarrekening en de andere stukken die het voorwerp van een neerlegging vormen, moeten in éénzelfde taal worden opgemaakt.
 
-## Art. 3:188
+###### Art. 3:188
 
 § 1. De kosten voor de neerlegging van de jaarrekening en de andere bij de Nationale Bank van België neer te leggen stukken omvatten de openbaarmakingskosten bedoeld in paragraaf 2 en alle bijdragen, belastingen of kosten die krachtens andere wettelijke of reglementaire bepalingen tegelijk met voornoemde kosten moeten worden betaald.
   § 2. De kosten voor de openbaarmaking van de in paragraaf 1 bedoelde documenten worden vastgesteld op 31,60 euro. De kosten voor de openbaarmaking van een verbeterde jaarrekening of ander aangepast stuk en van een afzonderlijk van de jaarrekening neergelegd stuk worden vastgesteld op 25 euro.
   De in deze paragraaf bepaalde openbaarmakingskosten worden jaarlijks, op 1 januari, aangepast aan de evolutie van het indexcijfer van de consumptieprijzen volgens de volgende formule: het nieuwe bedrag is gelijk aan het basisbedrag bepaald in deze paragraaf vermenigvuldigd met het nieuwe indexcijfer, met name het indexcijfer van de maand oktober van het jaar voordien, en gedeeld door het aanvangsindexcijfer, met name het indexcijfer van de maand oktober 2018. Het verkregen resultaat wordt afgerond op het hogere veelvoud van 10 eurocent. De aangepaste bedragen worden uiterlijk op 15 december van elk jaar in het Belgisch Staatsblad bekendgemaakt.
   § 3. De neerleggingskosten bedoeld in paragraaf 1 worden betaald aan de Nationale Bank van België door een girale overschrijving uitgevoerd volgens de voorwaarden en de technische modaliteiten die de Nationale Bank van België bepaalt en die op haar website ter beschikking worden gesteld.
 
-## Art. 3:189
+###### Art. 3:189
 
 De Nationale Bank van België registreert de datum van ontvangst van de in artikel 3:186 bedoelde documenten.
   De neerlegging van deze documenten wordt slechts door de Nationale Bank van België aanvaard als de bepalingen van de artikelen 3:186 en 3:187 in acht werden genomen en als de neerleggingskosten bedoeld in artikel 3:188 betaald zijn.
   Het feit dat de neerlegging van een voormeld document niet aanvaard werd door de Nationale Bank van België en de redenen die tot deze beslissing hebben geleid, worden binnen acht werkdagen na de datum van de ontvangst van het betrokken document meegedeeld.
   De persoon die het niet-aanvaarde document heeft geüpload kan deze kennisgeving raadplegen in de toepassing bedoeld in artikel 3:186, gedurende maximum één maand na die upload.
 
-## Art. 3:190
+###### Art. 3:190
 
 Wanneer de neerlegging van een in artikel 3:186 bedoeld document aanvaard wordt, neemt de Nationale Bank van België deze neerlegging op in het elektronisch register van aanvaarde jaarrekeningen.
   Binnen elf werkdagen die volgen op de datum van de aanvaarding van de neerlegging, stuurt de Nationale Bank van België de mededeling van deze neerlegging naar de rechtspersoon op wie het document betrekking heeft.
 
-## Art. 3:191
+###### Art. 3:191
 
 De aanpassing van een in artikel 3:186 bedoeld document, waarvan de neerlegging eerder door de Nationale Bank van België werd aanvaard, gebeurt door neerlegging, volgens de voorwaarden bepaald door artikel 3:186 van de integrale, behoorlijk verbeterde jaarrekening of desgevallend van het integraal, behoorlijk verbeterde ander neer te leggen stuk.
   De vermelding "verbetering" wordt opgenomen in het gestructureerd databestand bedoeld in artikel 3:186.
   De verbetering van een eerder openbaar gemaakt document luidt in dezelfde munteenheid en hetzelfde veelvoud hiervan en gebeurt in dezelfde taal als het betrokken document.
   De artikelen 3:189 en 3:190 zijn van toepassing op de neerlegging van een verbeterd document.
 
-## Art. 3:192
+###### Art. 3:192
 
 § 1. De Nationale Bank van België stelt op haar website een kopie beschikbaar, in de vorm van een bestand in het "Portable Document Format" (PDF)-formaat, van alle in artikel 3:186 bedoelde documenten die bij haar werden neergelegd tijdens het lopende en de minstens vijf vorige kalenderjaren, volgens de voorwaarden die zij bepaalt en die op haar website worden bekendgemaakt.
   § 2. De Nationale Bank van België bezorgt op aanvraag een kopie van alle in artikel 3:186 bedoelde documenten die bij haar werden neergelegd.
@@ -2672,7 +2676,7 @@ De aanpassing van een in artikel 3:186 bedoeld document, waarvan de neerlegging 
 
 ## BOEK 4. - Voordracht aan de ondernemingsraden van kandidaten voor de opdracht van commissaris of van bedrijfsrevisor
 
-## Art. 4:1
+###### Art. 4:1
 
 § 1. Dit boek is van toepassing op alle vennootschappen waarin een ondernemingsraad moet worden opgericht in uitvoering van de wet van 20 september 1948 houdende organisatie van het bedrijfsleven tenzij er in de ondernemingsraad een andersluidend akkoord werd gesloten over de procedure tot voordracht van kandidaten voor de opdracht van commissaris of van bedrijfsrevisor, vastgesteld bij proces-verbaal ten minste drie maanden vóór de dag waarop de benoeming van de commissaris(sen) of de bedrijfsrevisor(en) plaats zal hebben in de schoot van de onderneming, door de algemene vergadering der vennoten of bij ontstentenis daarvan door het statutair orgaan dat bevoegd is voor het bestuur van de onderneming of door het ondernemingshoofd.
   § 2. Wanneer er in een vennootschap meerdere ondernemingsraden zijn en deze afzonderlijk vergaderen gelden de bepalingen van paragraaf 1 voor ieder van deze ondernemingsraden afzonderlijk.
@@ -2680,36 +2684,36 @@ De aanpassing van een in artikel 3:186 bedoeld document, waarvan de neerlegging 
   § 3. Wanneer er in een onderneming een gemeenschappelijke vergadering van de ondernemingsraad wordt belegd overeenkomstig artikel 15 van de collectieve arbeidsovereenkomst van 9 maart 1972 tot coördinatie van de in de Nationale Arbeidsraad gesloten akkoorden en de collectieve arbeidsovereenkomst betreffende de ondernemingsraden, overeenkomst die algemeen bindend werd verklaard bij koninklijk besluit van 12 september 1972, gelden de bepalingen van dit boek voor deze gemeenschappelijke vergadering.
   § 4. Wanneer er voor meerdere juridische entiteiten slechts één ondernemingsraad bestaat, wordt voor de toepassing van de termijn vermeld in paragraaf 1 de datum in aanmerking genomen waarop de eerste benoeming voor één van de juridische entiteiten zal plaats hebben.
 
-## Art. 4:2
+###### Art. 4:2
 
 Ten minste twee maanden vóór de dag waarop de benoeming van de commissaris(sen) of de bedrijfsrevisor(en) plaats zal hebben in de schoot van de vennootschap dient de ondernemingsraad ten minste éénmaal beraadslaagd en eventueel beslist te hebben over de kandidaturen voorgesteld door het orgaan dat statutair bevoegd is voor het bestuur van de vennootschap of door het ondernemingshoofd.
 
-## Art. 4:3
+###### Art. 4:3
 
 Indien op de in artikel 4:2 bedoelde vergadering van de ondernemingsraad geen overeenstemming kan worden bereikt over de voorgestelde kandidaat commissaris(sen) of bedrijfsrevisor(en) moet over de voordracht opnieuw beraadslaagd en beslist worden uiterlijk op de laatste vergadering van de ondernemingsraad vóór de datum waarop de benoeming in de schoot van de vennootschap zal plaats hebben.
   Indien er voor die datum geen gewone vergadering van de ondernemingsraad meer wordt gehouden moet desgevallend een bijzondere vergadering van de ondernemingsraad worden bijeengeroepen.
   Het orgaan dat statutair bevoegd is voor het bestuur van de vennootschap of het ondernemingshoofd kunnen desgevallend één of meer nieuwe kandidaat commissarissen of bedrijfsrevisoren voordragen.
 
-## Art. 4:4
+###### Art. 4:4
 
 Alle schriftelijke inlichtingen die de kandidaat commissaris(sen) of bedrijfsrevisor(en) hebben meegedeeld aan het statutair orgaan dat bevoegd is voor het bestuur van de vennootschap of aan het ondernemingshoofd met het oog op het voordragen van hun kandidatuur in de ondernemingsraad, moeten samen met de uitnodigingen tot in de in de artikelen 4:2 en 4:3 bedoelde vergaderingen van de ondernemingsraad vooraf worden meegedeeld aan de leden van de ondernemingsraad.
   Buiten de in het eerste lid bedoelde inlichtingen moet aan de leden van de ondernemingsraad een " curriculum vitae " worden meegedeeld, alsmede, indien een meerderheid van werknemersafgevaardigden hierom verzoekt, een nota betreffende een raming van de omvang en de vergoeding van de uit te voeren prestaties en een beschrijving van hun inhoud.
 
-## Art. 4:5
+###### Art. 4:5
 
 Op verzoek van een meerderheid van werknemersafgevaardigden van de ondernemingsraad moet(en) de voorgestelde kandidaat-commissaris(sen) of bedrijfsrevisor(en) worden uitgenodigd om te verschijnen op de vergadering van de ondernemingsraad die over de voordracht beraadslaagt. De kandidaat-commissaris of bedrijfsrevisor moet aanwezig zijn op de vergadering van de ondernemingsraad waartoe hij wordt uitgenodigd ten einde zich voor te stellen.
   Hij dient te antwoorden op de vragen die hem gesteld worden in verband met de aard en de omvang van zijn opdracht in de vennootschap evenals de uitoefening ervan.
 
-## Art. 4:6
+###### Art. 4:6
 
 Wanneer een vennootschap meerdere ondernemingsraden telt, worden, voor het bepalen van de meerderheid voorgeschreven door artikel 3:88, eerste lid, van het Wetboek van vennootschappen en verenigingen, die raden geacht een enkel kiescollege te vormen, ongeacht of zij zich afzonderlijk dan wel in gemeenschappelijke vergadering over de hun voorgestelde kandidaturen uitspreken.
 
-## Art. 4:7
+###### Art. 4:7
 
 Wanneer er voor meerdere juridische entiteiten slechts één ondernemingsraad bestaat, geldt de beraadslaging en de beslissing van de enige ondernemingsraad voor al die juridische entiteiten, waarvoor de ondernemingsraad eenzelfde beslissing wenst te nemen over de hem voorgelegde voordracht(en).
   In dat geval wordt voor de toepassing van de termijnen vermeld in de artikelen 4:2 en 4:3 de datum in aanmerking genomen waarop de eerste benoeming voor één van deze juridische entiteiten zal plaats hebben.
 
-## Art. 4:8
+###### Art. 4:8
 
 Dit besluit is van toepassing op alle ondernemingen die geen vennootschappen zijn, bedoeld in artikel 15bis van de wet van 20 september 1948 houdende organisatie van het bedrijfsleven tenzij er in de ondernemingsraad een andersluidend akkoord werd gesloten over de procedure tot voordracht van kandidaten voor de opdracht van commissaris of van bedrijfsrevisor, vastgesteld bij proces-verbaal ten minste drie maanden vóór de dag waarop de benoeming van de commissaris(sen) of de bedrijfsrevisor(en) plaats zal hebben in de schoot van de onderneming, door de algemene vergadering der vennoten of bij ontstentenis daarvan door het statutair orgaan dat bevoegd is voor het bestuur van de onderneming of door het ondernemingshoofd.
 
@@ -2717,13 +2721,13 @@ Dit besluit is van toepassing op alle ondernemingen die geen vennootschappen zij
 
 ### TITEL 1. - Algemene beginselen
 
-## Art. 5:1
+###### Art. 5:1
 
 De natuurlijk persoon die zelfstandig een beroepsactiviteit uitoefent moeten de gegevens betreffende de sociale balans niet meedelen.
 
 ### TITEL 2. - Inhoud sociale balans
 
-## Art. 5:2
+###### Art. 5:2
 
 Volgende gegevens inzake het personeelsbestand dienen te worden vermeld: I Een staat van de tewerkgestelde personen met uitsplitsing tussen enerzijds de personen waarvoor de vennootschap, VZW, IVZW of stichting een DIMONA-verklaring heeft ingediend bij de RSZ conform de bepalingen van het koninklijk besluit van 5 november 2002 tot invoering van een onmiddellijke aangifte van tewerkstelling of, indien de tewerkstelling uitgesloten is van het toepassingsgebied van het koninklijk besluit van 5 november 2002 tot invoering van een onmiddellijke aangifte van tewerkstelling, de werknemers ingeschreven in het algemeen personeelsregister en anderzijds de uitzendkrachten en de ter beschikking van de vennootschap, VZW, IVZW of stichting gestelde personen.
    Wat de werknemers betreft waarvoor de vennootschap, VZW, IVZW of stichting een DIMONA-verklaring heeft ingediend bij de RSZ conform de bepalingen van het koninklijk besluit van 5 november 2002 tot invoering van een onmiddellijke aangifte van tewerkstelling of, indien de tewerkstelling uitgesloten is van het toepassingsgebied van het koninklijk besluit van 5 november 2002 tot invoering van een onmiddellijke aangifte van tewerkstelling, de werknemers ingeschreven in het algemeen personeelsregister, vermeldt deze staat:
@@ -2762,7 +2766,7 @@ Volgende gegevens inzake het personeelsbestand dienen te worden vermeld: I Een s
 
 ### TITEL 3. - Inhoud sociale balans voor kleine vennootschappen en kleine VZW's, IVZW's en stichtingen
 
-## Art. 5:3
+###### Art. 5:3
 
 De kleine vennootschappen bedoeld in artikel 1:24 en kleine VZW's, IVZW's en stichtingen zoals bedoeld in de artikelen 1:28 en 1:30 van het Wetboek van vennootschappen en verenigingen kunnen de sociale balans opstellen volgens een verkort schema, waarbij volgende gegevens inzake het personeelsbestand worden verstrekt: I Een staat van de werknemers waarvoor de vennootschap, VZW, IVZW of stichting een DIMONA-verklaring heeft ingediend bij de RSZ conform de bepalingen van het koninklijk besluit van 5 november 2002 tot invoering van een onmiddellijke aangifte van tewerkstelling of, indien de tewerkstelling uitgesloten is van het toepassingsgebied van het koninklijk besluit van 5 november 2002 tot invoering van een onmiddellijke aangifte van tewerkstelling, een staat van de werknemers ingeschreven in het algemeen personeelsregister.
    Deze staat vermeldt:
@@ -2797,7 +2801,7 @@ De kleine vennootschappen bedoeld in artikel 1:24 en kleine VZW's, IVZW's en sti
 
 ### TITEL 4. - Inhoud van bepaalde rubrieken van de sociale balans
 
-## Art. 5:4
+###### Art. 5:4
 
 Voor het opstellen van de sociale balans verstaat men onder:
    1° werknemers waarvoor de vennootschap, VZW, IVZW of stichting een DIMONA-verklaring heeft ingediend bij de RSZ conform de bepalingen van het koninklijk besluit van 5 november 2002 tot invoering van een onmiddellijke aangifte van tewerkstelling of, indien de tewerkstelling uitgesloten is van het toepassingsgebied van het koninklijk besluit van 5 november 2002 tot invoering van een onmiddellijke aangifte van tewerkstelling, de werknemers ingeschreven in het algemeen personeelsregister: werknemers waarvoor de vennootschap, VZW, IVZW of stichting een DIMONA-verklaring heeft ingediend bij de RSZ conform de bepalingen van het koninklijk besluit van 5 november 2002 tot invoering van een onmiddellijke aangifte van tewerkstelling of, indien de tewerkstelling uitgesloten is van het toepassingsgebied van het koninklijk besluit van 5 november 2002 tot invoering van een onmiddellijke aangifte van tewerkstelling, de werknemers ingeschreven in het algemeen personeelsregister, en verbonden met de vennootschap, VZW, IVZW of stichting door een arbeidsovereenkomst of startbaanovereenkomst;
@@ -2827,7 +2831,7 @@ Voor het opstellen van de sociale balans verstaat men onder:
 
 ### TITEL 1. - Definities
 
-## Art. 6:1
+###### Art. 6:1
 
 Voor de toepassing van dit boek wordt verstaan onder:
   1° overheid: eender welke nationale, regionale of lokale autoriteit van een lidstaat van de Europese Unie of van een derde land. Onder overheid vallen tevens enige departementen, organen of ondernemingen waarover die autoriteit controle uitoefent als bepaald in artikel 1:14 van het Wetboek van vennootschappen en verenigingen;
@@ -2849,7 +2853,7 @@ Voor de toepassing van dit boek wordt verstaan onder:
 
 ### TITEL 2. - Inhoud verslag van betalingen aan overheden
 
-## Art. 6:2
+###### Art. 6:2
 
 De volgende gegevens dienen in het verslag van de betalingen aan overheden voor het betrokken boekjaar vermeld te worden:
    1° het totale bedrag van aan elke overheid gedane betalingen;
@@ -2862,7 +2866,7 @@ De volgende gegevens dienen in het verslag van de betalingen aan overheden voor 
 
 ### TITEL 3. - Inhoud geconsolideerd verslag van betalingen aan overheden
 
-## Art. 6:3
+###### Art. 6:3
 
 De definities gegeven in artikel 6:1 zijn van overeenkomstige toepassing.
    Een moedervennootschap wordt geacht actief te zijn in de winningsindustrie of in de houtkap van oerbossen indien een of meer van haar dochtervennootschappen actief zijn in de winningsindustrie of in de houtkap van oerbossen.
@@ -2873,14 +2877,14 @@ De definities gegeven in artikel 6:1 zijn van overeenkomstige toepassing.
   ----------
   (1)<Ingevoegd bij KB 2024-04-18/29, art. 4, 006; Inwerkingtreding : 16-06-2024>
 
-## Art. 6:4
+###### Art. 6:4
 
 [1 Het verslag inzake informatie over de inkomstenbelasting omvat informatie over alle activiteiten van de onderworpen vennootschap of onderneming, met inbegrip van de activiteiten van alle verbonden entiteiten die in de jaarrekening over het betrokken boekjaar zijn geconsolideerd.
    Voor de toepassing van deze titel mogen de instructies bedoeld in artikel 321/2 van het Wetboek van Inkomstenbelasting 1992 gebruikt worden. Wordt er gebruik gemaakt van deze optie, dan wordt dat in het verslag inzake informatie over de inkomstenbelasting vermeld.]1
   ----------
   (1)<Ingevoegd bij KB 2024-04-18/29, art. 4, 006; Inwerkingtreding : 16-06-2024>
 
-## Art. 6:5
+###### Art. 6:5
 
 [1 § 1. De informatie bedoeld in artikel 6:4 omvat:
     1° de naam van de op zichzelf staande vennootschap, de uiteindelijke moedervennootschap of de uiteindelijke moederonderneming van een derde land;
@@ -2930,26 +2934,26 @@ De definities gegeven in artikel 6:1 zijn van overeenkomstige toepassing.
    ----------
    (1)<Ingevoegd bij KB 2024-04-18/29, art. 4, 006; Inwerkingtreding : 16-06-2024>
 
-## Art. 6:6
+###### Art. 6:6
 
 [1 Voor de openbaarmaking van het verslag inzake informatie over de inkomstenbelasting gebruikt de onderworpen vennootschap of bijkantoor het model en het formaat voor elektronische verslaglegging vastgesteld door de Europese Commissie door middel van uitvoeringshandelingen, als bedoeld in artikel 48quater van de Richtlijn 2013/34/EU.]1
   ----------
   (1)<Ingevoegd bij KB 2024-04-18/29, art. 4, 006; Inwerkingtreding : 16-06-2024>
 
-## Art. 6:7
+###### Art. 6:7
 
 [1 In afwijking van artikel 3:66 ontvangt de Nationale Bank van België de neerlegging van het verslag inzake informatie over de inkomstenbelasting ten laatste binnen de twaalf maanden na de datum van afsluiting van het boekjaar waarop het verslag betrekking heeft, overeenkomstig artikelen 3:12/1, 3:20/1, § 4, en 3:36/1 van het Wetboek van vennootschappen en verenigingen.
     Legt de onderworpen vennootschap of het bijkantoor het verslag inzake informatie over de inkomstenbelasting tegelijk met andere stukken neer, dan is het verslag inzake informatie over de inkomstenbelasting duidelijk afgescheiden van de andere stukken. Het is geenszins toegelaten om het verslag in de jaarrekening of het jaarverslag te incorporeren.]1
    ----------
    (1)<Ingevoegd bij KB 2024-04-18/29, art. 4, 006; Inwerkingtreding : 16-06-2024>
 
-## Art. 6:8
+###### Art. 6:8
 
 [1 Het verslag inzake informatie over de inkomstenbelasting wordt elektronisch neergelegd volgens de technische modaliteiten en procedures die de Nationale Bank van België in een protocol heeft vastgelegd. De Nationale Bank van België maakt de technische modaliteiten en procedures openbaar via haar website.]1
   ----------
   (1)<Ingevoegd bij KB 2024-04-18/29, art. 4, 006; Inwerkingtreding : 16-06-2024>
 
-## Art. 6:9
+###### Art. 6:9
 
 [1 De Nationale Bank van België aanvaardt de neerlegging van het verslag inzake informatie over de inkomstenbelasting enkel wanneer dit verslag in overeenstemming is met artikel 6:6 wat betreft het model en het formaat en na betaling van de neerleggingskosten. De neerleggingskosten die aan Nationale Bank van België moeten worden betaald, bedragen 81,70 euro.
     De in dit artikel bepaalde neerleggingskosten worden jaarlijks, op 1 januari, aangepast aan de evolutie van het indexcijfer van de consumptieprijzen volgens de volgende formule: het nieuwe bedrag is gelijk aan het basisbedrag bepaald in het eerste lid vermenigvuldigd met het nieuwe indexcijfer, met name het indexcijfer van de maand oktober van het jaar voordien, en gedeeld door het aanvangsindexcijfer, met name het indexcijfer van de maand oktober 2023. Het verkregen resultaat wordt afgerond op het hogere veelvoud van 10 eurocent. De aangepaste bedragen worden uiterlijk op 15 december van elk jaar in het Belgisch Staatsblad bekendgemaakt.
@@ -2958,7 +2962,7 @@ De definities gegeven in artikel 6:1 zijn van overeenkomstige toepassing.
    ----------
    (1)<Ingevoegd bij KB 2024-04-18/29, art. 4, 006; Inwerkingtreding : 16-06-2024>
 
-## Art. 6:10
+###### Art. 6:10
 
 [1 De aanpassing van het verslag inzake informatie over de inkomstenbelasting, waarvan de neerlegging eerder door de Nationale Bank van België werd aanvaard, gebeurt door neerlegging, volgens de voorwaarden bepaald door artikel 6:8 en de neerleggingskosten bedoeld in artikel 6:9 van de integrale, behoorlijk verbeterd verslag inzake informatie over de inkomstenbelasting.
    De vermelding "verbetering" wordt opgenomen in het gestructureerd databestand bedoeld in artikel 6:6.
@@ -2966,7 +2970,7 @@ De definities gegeven in artikel 6:1 zijn van overeenkomstige toepassing.
   ----------
   (1)<Ingevoegd bij KB 2024-04-18/29, art. 4, 006; Inwerkingtreding : 16-06-2024>
 
-## Art. 6:11
+###### Art. 6:11
 
 [1 De Nationale Bank van België stelt op haar website een kopie beschikbaar, in de vorm van het gestructureerd databestand bedoeld in artikel 6:6 en in de vorm van een bestand in het "Portable Document Format" (PDF)-formaat, van het verslag inzake informatie over de inkomstenbelasting dat bij haar werd neergelegd tijdens het lopende en de minstens vijf vorige kalenderjaren, volgens de voorwaarden die zij bepaalt en die op haar website bekendgemaakt worden. De Nationale Bank van België kan het verslag ook op andere wijzen ter beschikking stellen.]1
   ----------
@@ -2976,7 +2980,7 @@ De definities gegeven in artikel 6:1 zijn van overeenkomstige toepassing.
 
 ### TITEL 1. - Uitkoopbod voor de besloten vennootschap en de naamloze vennootschap
 
-## Art. 7:1
+###### Art. 7:1
 
 § 1. Voor de toepassing van deze titel, wordt verstaan onder:
    1° "bieder": de persoon die de voorwaarden van artikel 7:2 vervult en een uitkoopbod doet;
@@ -2997,17 +3001,17 @@ De definities gegeven in artikel 6:1 zijn van overeenkomstige toepassing.
   3° andere personen die met de in het 1° of 2° bedoelde personen een akkoord hebben gesloten om de verwerving van effecten van de doelvennootschap te financieren en die bij het resultaat van het bod een belang hebben dat niet uitsluitend een belang als schuldeiser is;
   4° onderling verbonden personen.
 
-## Art. 7:2
+###### Art. 7:2
 
 De bieder moet alleen, rechtstreeks of onrechtstreeks, dan wel in onderling overleg, 95 % van de stemrechtverlenende effecten van de doelvennootschap bezitten; om dit quotum van 95 % te berekenen worden de effecten in bezit van met de bieder verbonden personen en van personen die in overleg met hem handelen, bij de effecten in bezit van de bieder geteld.
    Dit percentage wordt berekend op het ogenblik waarop het verslag van de bieder als bedoeld in artikel 7:4, § 2, is opgesteld.
 
-## Art. 7:3
+###### Art. 7:3
 
 De bieder moet zich, wat hem betreft, ertoe verbinden het bod ten einde te brengen en mag, zodra hij de in artikel 7:6 bepaalde kennisgeving heeft verricht, geen effecten waarop het bod betrekking heeft, verwerven tegen andere voorwaarden dan die van het bod, tenzij hij die uitbreidt tot alle begunstigden van het bod.
   Alle voor de verwezenlijking van het uitkoopbod noodzakelijke middelen moeten beschikbaar zijn, hetzij op een rekening bij een kredietinstelling, hetzij in de vorm van een onherroepelijk en onvoorwaardelijk krediet dat een kredietinstelling voor de bieder heeft geopend; deze middelen moeten worden geblokkeerd om de betaling te waarborgen van de aankoopprijs van de effecten die in het kader van het uitkoopbod zijn verworven of uitsluitend daartoe worden aangewend.
 
-## Art. 7:4
+###### Art. 7:4
 
 § 1. De bieder bepaalt de prijs voor het uitkoopbod, rekening houdend met de belangen van de eigenaars van effecten.
   § 2. De bieder moet een schriftelijk en omstandig verslag opstellen over de verrichting. Dit verslag moet alle noodzakelijke inlichtingen bevatten opdat de eigenaars van effecten van de doelvennootschap zich met kennis van zaken een oordeel zouden kunnen vormen over de verrichting, en moet tenminste de volgende elementen bevatten:
@@ -3025,44 +3029,44 @@ De bieder moet zich, wat hem betreft, ertoe verbinden het bod ten einde te breng
   g) vermelding van de plaats waar en de wijze waarop de effecten die na afsluiting van het aldus heropende bod niet zijn aangeboden, worden geconsigneerd.
   3° in verband met de doelvennootschap: de naam van de vennootschap, de datum van oprichting ervan, het doel, het adres van de zetel van de vennootschap, de vermelding van de wijzigingen die in de loop van de laatste 10 jaar in de statuten zijn aangebracht, met verwijzing naar de bekendmakingen, de namen van de leden van het bestuursorgaan met vermelding van hun bevoegdheid.
 
-## Art. 7:5
+###### Art. 7:5
 
 Bij het schriftelijke en omstandige verslag van de bieder wordt gevoegd:
   1° een schriftelijk verslag van een bedrijfsrevisor, een accountant ingeschreven op het Tableau van de externe accountants van het Instituut van Accountants en de Belastingsconsulenten. In dit verslag spreekt de bedrijfsrevisor of de accountant zich uit over de relevantie, ten aanzien van de gebruikelijk gehanteerde waarderingscriteria, van de door de bieder gebruikte waarderingsmethode(s) om de vennootschap te waarderen en de prijs te rechtvaardigen; de bedrijfsrevisor of de accountant vermeldt ook of hij van oordeel is dat de prijs de belangen van de eigenaars van effecten veilig stelt.
   2° het advies van het bestuursorgaan van de doelvennootschap, waarin het bestuursorgaan stelt dat het door de bieder opgesteld verslag naar zijn oordeel geen leemten vertoont of geen gegevens bevat die de eigenaars van effecten van de doelvennootschap kunnen misleiden. Bovendien moet in dit advies het oordeel staan van het bestuursorgaan over het verslag van de onder het 1° vermelde bedrijfsrevisor of accountant. Tot slot moet het advies vermelden of hij vindt dat met de prijs de belangen van de effectenhouders al dan niet veilig komen worden gesteld.
 
-## Art. 7:6
+###### Art. 7:6
 
 Wanneer niet alle effecten op naam zijn, moet tweemaal, met een tussentijd van ten minste acht dagen, in een landelijk verspreid blad en in een blad uit de streek waar de vennootschap haar zetel heeft, een bericht worden bekendgemaakt waarin wordt vermeld waar de eigenaars van effecten de in de artikelen 7:4 en 7:5 bedoelde verslagen kunnen verkrijgen.
   Wanneer alle effecten op naam zijn, moeten die verslagen met een aangetekende brief worden verzonden.
   Elke eigenaar van effecten kan kosteloos en op verzoek een volledige kopie krijgen van de in de artikelen 7:4 en 7:5 bedoelde verslagen.
 
-## Art. 7:7
+###### Art. 7:7
 
 De eigenaars van effecten waarop het bod slaat, beschikken over een termijn van dertig dagen na bekendmaking van het tweede bericht als bedoeld in artikel 7:6, eerste lid, om schriftelijk de bieder hun bezwaren mede te delen tegen het bod en, meer in het bijzonder, tegen de waardering van de effecten van de doelvennootschap of de geboden prijs, inzonderheid uit het oogpunt van het veilig stellen van de belangen van de eigenaars van effecten.
   Wanneer alle effecten op naam zijn, loopt de termijn vanaf de verzending van de aangetekende brieven als bedoeld in artikel 7:6, tweede lid.
 
-## Art. 7:8
+###### Art. 7:8
 
 Indien in de loop van de in artikel 7:7 genoemde termijn, bezwaren zijn gemaakt, kan de bieder hetzij zijn oorspronkelijke bod handhaven, hetzij het in gunstigere zin voor de effectenhouders wijzigen.
    De bieder maakt de beslissing die hij heeft genomen met toepassing van het eerste lid, of, wanneer geen bezwaar werd medegedeeld, het behoud van het bod, bekend via een bericht dat binnen de vijftien dagen volgend op het eind van de in artikel 7:7 bepaalde termijn wordt bekendgemaakt in een landelijk verspreid blad en in een blad uit de streek waar de vennootschap haar zetel heeft. Dit bericht herhaalt de plaats waar de eigenaars van effecten de in de artikelen 7:4 en 7:5 bedoelde verslagen kunnen bekomen en geeft de er gebeurlijk aangebrachte wijzigingen alsmede de aanvangs- en slotdata van de aanvaardingsperiode van het uitkoopbod, aan.
    Wanneer alle effecten op naam zijn, kan deze publicatie worden vervangen door de verzending van aangetekende brieven aan alle eigenaars van effecten binnen de vijftien dagen volgend op het eind van de in artikel 7:7 bepaalde termijn.
 
-## Art. 7:9
+###### Art. 7:9
 
 Vanaf de datum waarop het verslag van de bieder als bedoeld in artikel 7:4 werd opgesteld, mag het uitkoopbod enkel worden gewijzigd met toepassing van artikel 7:3, eerste lid of van artikel 7:8, eerste lid.
 
-## Art. 7:10
+###### Art. 7:10
 
 De periode voor de aanvaarding van het uitkoopbod bedraagt minimum tien en maximum twintig dagen, te rekenen vanaf de datum van de bekendmaking overeenkomstig artikel 7:8.
 
-## Art. 7:11
+###### Art. 7:11
 
 Met uitzondering van de effecten waarvan de eigenaars uitdrukkelijk en schriftelijk voor het sluiten van de aanvaardingsperiode van het bod hebben te kennen gegeven dat ze er geen afstand van willen doen, worden de effecten die na afsluiting van het bod niet zijn aangeboden, geacht van rechtswege op de bieder te zijn overgegaan. De betaling van de overgedragen effecten geschiedt ten laatste binnen één maand na afsluiting van het bod. De middelen die noodzakelijk zijn voor de betaling van de overgedragen effecten, worden geconsigneerd bij de Deposito- en Consignatiekas ten gunste van hun vroegere eigenaars.
 
 ### TITEL 2. - Elektronisch effectenregister voor de besloten vennootschap, de coöperatieve vennootschap en de naamloze vennootschap
 
-## Art. 7:12
+###### Art. 7:12
 
 § 1. Vanaf de opmaak van het register van effecten op naam dat in elektronische vorm wordt gehouden overeenkomstig de artikelen 5:24, 6:24 of 7:28 van het Wetboek van vennootschappen en verenigingen geldt enkel de inschrijving in dit register, tot het bewijs van het tegendeel, als vermoeden houder te zijn van de effecten waarvoor de betrokkene is ingeschreven, zoals bepaald in de artikelen 5:29, 6:28 en 7:34 van het Wetboek van vennootschappen en verenigingen. Dit vermoeden geldt niet voor een eventueel papieren register dat nog zou blijven voortbestaan, dat geen officieel karakter meer heeft en bijgevolg geen andere bewijswaarde heeft dan deze die het kan genieten op basis van de bewijsregels van het gemeen recht.
    § 2. Wanneer een bestaande vennootschap een elektronisch effectenregister opmaakt, wordt de op datum van de omzetting van het register bestaande toestand overgenomen onder verantwoordelijkheid van het bestuursorgaan. Het papieren register, dat de historiek bevat van de verrichtingen met betrekking tot de effecten, wordt bewaard op de statutaire zetel van de vennootschap, met het oog op de bewijswaarde van de inschrijvingen die dateren van voor de opmaak van het elektronisch register.
@@ -3079,7 +3083,7 @@ Met uitzondering van de effecten waarvan de eigenaars uitdrukkelijk en schriftel
    § 6. Overeenkomstig artikel 32 van de Algemene Verordening Gegevensbescherming dient de beheerder van het elektronisch register alle noodzakelijke middelen aan te wenden om de bewaarde gegevens te beschermen tegen elke opzettelijke of onopzettelijke aantasting of beschadiging. Hij ziet toe op de integriteit van de bewaarde gegeven en dient alle noodzakelijke middelen aan te wenden om elke ongeoorloofde toegang tot de apparatuur, de communicatiesystemen en de dragers die de bewaarde gegevens bevatten, te verhinderen.
    § 7. Overeenkomstig de artikelen 33 en 34 van de Algemene Verordening Gegevensbescherming dient de beheerder van het elektronisch register procedures te voorzien om te kunnen reageren op incidenten en hun gevolgen te kunnen beperken.
 
-## Art. 7:13
+###### Art. 7:13
 
 § 1. De beheerder van het elektronisch register zorgt voor de bewaring van de technische informatie die noodzakelijk is voor de controle van de raadplegingen en verrichtingen bedoeld in artikel 7:12, § 5, tweede en derde lid.
   § 2. De toegangscontrole bedoeld in artikel 7:12, § 5, eerste lid, omvat zowel een aspect van identificatie van de persoon, door middel van een geheel van elektronische gegevens dat aan een bepaalde persoon kan worden toegerekend, als een controle van het welbepaalde en precieze karakter van de wettelijke hoedanigheid die deze derde toelaat om toegang te krijgen en naar het relevante karakter van de gevraagde gegevens, evenals de omvang van deze toegang.
@@ -3089,12 +3093,12 @@ Met uitzondering van de effecten waarvan de eigenaars uitdrukkelijk en schriftel
   Andere personen die, hetzij namens de vennootschap, hetzij namens de effectenhouders of hun erfgenamen als gemachtigde optreden, ontlenen hun hoedanigheid voor de rechtstreekse raadpleging van het register en, in voorkomend geval, voor de inschrijving, aanvulling of ondertekening van het register aan deze machtiging.
  Hetzelfde geldt voor de tussenpersonen die, in voorkomend geval, worden gemachtigd indien de vennootschap beroep doet op een vertrouwensderde voor de bewaring en het beheer van het register. De beheerder neemt de gepaste maatregelen om het bewijs van deze hoedanigheid te bepalen en te controleren, zowel voor wat de rechtstreekse raadpleging als voor wat de rechtstreekse inschrijving van een verrichting betreft.
 
-## Art. 7:14
+###### Art. 7:14
 
 § 1. De vennootschap wordt met betrekking tot deze gegevens beschouwd als de verantwoordelijke voor de verwerking als bedoeld in artikel 4.7 van Verordening (EU) 2016/679 van 27 april 2016 van het Europees Parlement en de Raad betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG. De vertrouwensderde wordt beschouwd als verwerker als bedoeld in artikel 4.8 van dezelfde verordening.
   § 2. Onverminderd andersluidende wettelijke en reglementaire bepalingen, moet hij die in welke hoedanigheid ook deelneemt aan de verzameling, de verwerking of de mededeling van de in artikel 7:13 bedoelde gegevens of kennis heeft van die gegevens, met inbegrip van de personen die belast zijn met het technisch beheer van het elektronisch systeem, het vertrouwelijk karakter ervan in acht nemen.
 
-## Art. 7:15
+###### Art. 7:15
 
 In geval van stopzetting van het elektronisch register om welke reden dan ook, met inbegrip van de sluiting van de vereffening van de vennootschap, dient het bestuursorgaan of, in voorkomend geval, de vereffenaar, een volledige print van het elektronisch register op papier te bewaren op de zetel van de vennootschap of, in geval van vereffening, op de plaats waar de boeken en bescheiden van de vennootschap worden neergelegd en gedurende de in artikel 2:102 van het Wetboek van vennootschappen en verenigingen bedoelde termijn moeten worden bewaard. Deze geprinte versie vermeldt de datum van de print en wordt ondertekend door het bestuurs- of vertegenwoordigingsorgaan of, in voorkomend geval, de vereffenaar.
  Wanneer de stopzetting het gevolg is van een besluit van het bestuursorgaan wordt deze print gehecht aan de notulen van dat besluit.
@@ -3103,7 +3107,7 @@ In geval van stopzetting van het elektronisch register om welke reden dan ook, m
 
 ### TITEL 1. - Het openbaar karakter van het verzoek tot verlening van volmachten
 
-## Art. 8:1
+###### Art. 8:1
 
 Het openbaar karakter van een verzoek tot verlening van volmachten in de zin van artikel 7:145 van het Wetboek van vennootschappen en verenigingen staat vast zodra één van volgende omstandigheden zich voordoet:
   1° bij aanwending door de verzoeker of voor zijn rekening, van reclamemiddelen, van welke aard ook, die verzoeken of aanbevelen om de betreffende volmachten te verlenen;
@@ -3118,21 +3122,21 @@ Het openbaar karakter van een verzoek tot verlening van volmachten in de zin van
 
 ### TITEL 2. - Verkrijging van eigen effecten door genoteerde vennootschappen en vennootschappen waarvan de effecten zijn toegelaten tot de verhandeling op een MTF
 
-## Art. 8:2
+###### Art. 8:2
 
 Voor de toepassing van deze titel wordt verstaan onder:
   1° "MTF": multilaterale handelsfaciliteit zoals gedefinieerd in artikel 3, 10°, van de wet van 21 november 2017 over de infrastructure voor de markten voor financiële instrumenten en houdende omzetting van richtlijn 2014/65/EU, voor zover deze werkt met minstens één dagelijkse verhandeling en met een centraal orderboek;
   2° "het koninklijk besluit van 14 november 2007": het koninklijk besluit van 14 november 2007 betreffende de verplichtingen van emittenten van financiële instrumenten die zijn toegelaten tot de verhandeling op een gereglementeerde markt;
   3° "de FSMA": de Autoriteit voor Financiële Diensten en Markten.
 
-## Art. 8:3
+###### Art. 8:3
 
 § 1. Genoteerde vennootschappen en vennootschappen waarvan de effecten zijn toegelaten tot de verhandeling op een MTF moeten alvorens de verrichtingen uit te voeren die zij met toepassing van artikel 7:215,
  § 1, van het Wetboek van vennootschappen en verenigingen overwegen uit te voeren, aan de FSMA een kopie bezorgen van het besluit van de algemene vergadering of van het bestuursorgaan, en, in voorkomend geval, van de bepaling uit de statuten die de vennootschap tot die verrichtingen machtigt.
   Die vennootschappen moeten de FSMA ook op de hoogte brengen wanneer dit besluit of deze bepaling effectief ten uitvoer wordt gelegd.
   § 2. De overmaking van de informatie aan de FSMA gebeurt op de door de FSMA bepaalde wijze.
 
-## Art. 8:4
+###### Art. 8:4
 
 § 1. Genoteerde vennootschappen en vennootschappen waarvan de effecten zijn toegelaten tot de verhandeling op een MTF moeten de inkoopverrichtingen die zij met toepassing van artikel 7:215, § 1, van het Wetboek van vennootschappen en verenigingen hebben uitgevoerd, uiterlijk op het einde van de zevende beursdag volgend op de datum van uitvoering van deze verrichtingen openbaar maken.
    Bij een inkoopverrichting op termijn moet de openbaarmaking als bedoeld in het eerste lid uiterlijk plaatsvinden op het einde van de zevende beursdag volgend op de datum waarop de inkoopovereenkomst wordt afgesloten.
@@ -3154,7 +3158,7 @@ Voor de toepassing van deze titel wordt verstaan onder:
    Na het verstrijken van de door haar vastgestelde termijn kan de FSMA, op de wijze die zij bepaalt en op kosten van de betrokken vennootschap, een waarschuwing openbaar maken die vermeldt dat de betrokken vennootschap de bepalingen van dit artikel niet heeft nageleefd. Als zij dit aangewezen vindt, kan zij, om rekening te houden met de opmerkingen van de vennootschap, een waarschuwing openbaar maken die verschilt van haar oorspronkelijke standpunt.
    § 8. Voor de uitvoering van haar toezichtsbevoegdheid als bedoeld in paragraaf 6 beschikt de FSMA ten aanzien van de vennootschappen die aan de betrokken regels zijn onderworpen, de financiële tussenpersonen, de leden van een Belgische gereglementeerde markt of MTF, de marktondernemingen, de MTF's, de verrekenings- of vereffeningsinstellingen, en de met vereffeningsinstellingen gelijkgestelde instellingen over de bevoegdheid om zich elke informatie en elk document, in welke vorm ook, te laten meedelen, met inbegrip van informatie en documenten die betrekking hebben op de relaties tussen de tussenpersoon en een bepaalde cliënt.
 
-## Art. 8:5
+###### Art. 8:5
 
 Voor de toepassing van artikel 7:215, § 1, eerste lid, 4°, van het Wetboek van vennootschappen en verenigingen, [1 wordt aangenomen dat de biedprijs van de genoteerde vennootschappen of de vennootschappen waarvan de effecten zijn toegelaten tot de verhandeling op een MTF]1, gelijkwaardig is en de gelijke behandeling van de aandeelhouders of certificaathouders die zich in gelijke omstandigheden bevinden, waarborgt: - wanneer de inkoopverrichting wordt uitgevoerd in het centraal orderboek van een gereglementeerde markt of een MTF, of, - als de inkoopverrichting niet in het centraal orderboek van een gereglementeerde markt of een MTF wordt uitgevoerd, indien de geboden prijs ten hoogste gelijk is aan de hoogste actuele onafhankelijke biedprijs, in het centraal orderboek van een gereglementeerde markt of, indien het effect niet is toegelaten tot de verhandeling op een gereglementeerde markt, in het centraal orderboek van de in termen van liquiditeit meest relevante MTF [1 , of, - in geval van een intragroepstransactie die niet in het centraal orderboek van een gereglementeerde markt of een MTF wordt uitgevoerd, indien de geboden prijs gelijk is aan de laatst gedane koers.]1.
    Bij een inkoopverrichting op termijn is de hoogste actuele onafhankelijke biedprijs die als referentie wordt gehanteerd, de biedprijs die in het centraal orderboek verschijnt op het ogenblik dat de inkoopovereenkomst wordt afgesloten, verhoogd met de interest die overeenstemt met de normale marktvoorwaarden. [1 In geval van een intragroepstransactie op termijn wordt, in plaats van de hoogste actuele onafhankelijke biedprijs, de laatst gedane koers gehanteerd.]1 Voor de toepassing van het eerste [1 en vierde]1 lid wordt onder "in termen van liquiditeit meest relevante MTF" de MTF verstaan waarop het volume voor de effecten waarop de verrichting betrekking heeft, het hoogst was in de laatste drie maanden vóór de verrichting.
@@ -3162,7 +3166,7 @@ Voor de toepassing van artikel 7:215, § 1, eerste lid, 4°, van het Wetboek van
    ----------
    (1)<KB 2022-08-31/05, art. 1, 003; Inwerkingtreding : 22-09-2022>
 
-## Art. 8:6
+###### Art. 8:6
 
 § 1. Genoteerde vennootschappen en vennootschappen waarvan de effecten zijn toegelaten tot de verhandeling op een MTF moeten de verrichtingen tot vervreemding die zij met toepassing van artikel 7:218, § 1, van het Wetboek van vennootschappen en verenigingen hebben uitgevoerd, uiterlijk op het einde van de zevende beursdag volgend op de datum van uitvoering van deze verrichtingen openbaar maken. [1 Deze verplichting geldt niet voor de verrichtingen tot vervreemding aan het personeel die zij met toepassing van artikel 7:218, § 1, eerste lid, 5°, van het Wetboek van vennootschappen en verenigingen hebben uitgevoerd.]1 Bij een verrichting tot vervreemding op termijn moet de openbaarmaking als bedoeld in het eerste lid uiterlijk plaatsvinden op het einde van de zevende beursdag volgend op de datum waarop de overeenkomst tot vervreemding wordt afgesloten.
    § 2. Deze openbaarmaking omvat:
@@ -3185,7 +3189,7 @@ Voor de toepassing van artikel 7:215, § 1, eerste lid, 4°, van het Wetboek van
    ----------
    (1)<KB 2022-08-31/05, art. 2, 003; Inwerkingtreding : 22-09-2022>
 
-## Art. 8:7
+###### Art. 8:7
 
 Voor de toepassing van artikel 7:218, § 1, eerste lid, 2°, van het Wetboek van vennootschappen en verenigingen, wordt aangenomen dat de vraagprijs van de genoteerde vennootschappen of de vennootschappen waarvan de effecten zijn toegelaten tot de verhandeling op een gereglementeerde markt of een MTF, gelijkwaardig is en de gelijke behandeling van de aandeelhouders of certificaathouders die zich in gelijke omstandigheden bevinden, waarborgt:
    1° wanneer de vervreemding wordt uitgevoerd in het centraal orderboek van een gereglementeerde markt of een MTF,
@@ -3200,7 +3204,7 @@ Voor de toepassing van artikel 7:218, § 1, eerste lid, 2°, van het Wetboek van
 
 ### TITEL 1. - Opheffingsbepalingen
 
-## Art. 9:1
+###### Art. 9:1
 
 Worden opgeheven:
    1° het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen, gewijzigd bij de koninklijke besluiten van 7 juli 2017, 22 december 2016, 31 mei 2016, 18 december 2015, 25 april 2014 tot wijziging van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen, wat de elektronische invoer van gegevens door derden in de Kruispuntbank van Ondernemingen betreft, 25 april 2014 betreffende de administratieve en boekhoudkundige organisatie, de interne controle, de boekhouding en de jaarrekeningen van de vennootschappen voor het beheer van auteursrechten en naburige rechten alsook de informatie die zij moeten verschaffen, 29 maart 2012, 7 november 2011, 3 maart 2011 betreffende de evolutie van de toezichtsarchitectuur voor de financiële sector, 27 mei 2010, 10 augustus 2009, 26 april 2009, 9 september 2008, 27 april 2007, 5 april 2006, 10 november 2005, 8 maart 2005, 18 januari 2005, 12 juli 2004, 19 december 2003, 23 juni 2003 en 4 april 2003;
@@ -3213,36 +3217,36 @@ Worden opgeheven:
 
 #### HOOFDSTUK 1. - Wijziging van het koninklijk besluit van 27 april 2007 op de openbare uitkoopbiedingen
 
-## Art. 9:2
+###### Art. 9:2
 
 In het koninklijk besluit van 27 april 2007 op de openbare uitkoopbiedingen wordt het opschrift van hoofdstuk I vervangen als volgt: "Hoofdstuk I. - Definities en toepassingsgebied".
 
-## Art. 9:3
+###### Art. 9:3
 
 In hoofdstuk I van hetzelfde besluit wordt een artikel 1/1 ingevoegd, luidende: "Art. 1/1. Dit besluit is van toepassing op de openbare uitkoopbiedingen op vennootschappen onderworpen aan het regime van artikel 7:82, § 1, van het Wetboek van vennootschappen en verenigingen, uitgezonderd de openbare uitkoopbiedingen die overeenkomstig het koninklijk besluit van 27 april 2007 op de openbare overnamebiedingen plaatsvinden onder de vorm van een heropening van een openbaar overnamebod.
   De vennootschappen waarvan de aandelen zijn toegelaten tot de verhandeling op de multilaterale handelsfaciliteiten Alternext en Vrije Markt, uitgebaat door Euronext Brussels, worden onderworpen aan het regime van artikel 7:82, § 1, van het Wetboek van vennootschappen en verenigingen.".
 
-## Art. 9:4
+###### Art. 9:4
 
 In artikel 2 van hetzelfde besluit worden de volgende wijzigingen aangebracht:
   a) in de bepaling onder 1° worden de woorden "artikel 513, § 1, vierde lid, W.Venn." vervangen door de woorden "artikel 7:82, § 1, vijfde lid, van het Wetboek van vennootschappen en verenigingen";
   b) in de bepaling onder 2° worden de woorden ", die een openbaar beroep doet of heeft gedaan op het spaarwezen in de zin van artikel 438 W.Venn." opgeheven.
 
-## Art. 9:5
+###### Art. 9:5
 
 In artikel 3, eerste lid, van hetzelfde besluit worden de volgende wijzigingen aangebracht:
    a) de woorden "artikel 513, § 1, vierde lid, W.Venn." worden vervangen door de woorden "artikel 7:82, § 1, vijfde lid, van het Wetboek van vennootschappen en verenigingen";
    b) de woorden "van een naamloze vennootschap die een openbaar beroep op het spaarwezen doet of gedaan heeft in de zin van artikel 438 W.Venn." worden vervangen door de woorden "van een vennootschap als bedoeld in artikel 1/1".
 
-## Art. 9:6
+###### Art. 9:6
 
 In artikel 5, § 1, 2°, van hetzelfde besluit worden de woorden "artikel 133, § 4, W.Venn." vervangen door de woorden "artikel 3:62, § 4, van het Wetboek van vennootschappen en verenigingen."
 
-## Art. 9:7
+###### Art. 9:7
 
 In artikel 7, derde lid, 1°, van hetzelfde besluit worden de woorden ", indien effecten van de doelvennootschap zijn toegelaten tot de handel op een Belgische gereglementeerde markt" opgeheven.
 
-## Art. 9:8
+###### Art. 9:8
 
 In de bijlage bij hetzelfde besluit worden de volgende wijzigingen aangebracht:
   a) in 2.2., tweede lid, worden de woorden "artikel 7, § 2, W.Venn." vervangen door de woorden "artikel 1:16, § 2, van het Wetboek van vennootschappen en verenigingen";
@@ -3250,11 +3254,11 @@ In de bijlage bij hetzelfde besluit worden de volgende wijzigingen aangebracht:
 
 #### HOOFDSTUK 2. - Wijziging van het koninklijk besluit van 21 oktober 2018 tot uitvoering van de artikelen III.82 tot en met III.95 van het wetboek van economisch recht
 
-## Art. 9:9
+###### Art. 9:9
 
 In titel 1, artikelen 1 en 3 van het koninklijk besluit van 21 oktober 2018 tot uitvoering van de artikelen III.82 tot en met III.95 van het wetboek van economisch recht worden de woorden "gewone commanditaire vennootschappen" vervangen door de woorden "commanditaire vennootschappen".
 
-## Art. 9:10
+###### Art. 9:10
 
 In hoofdstuk 1 van de bijlage 1 van het koninklijk besluit van 21 oktober 2018 tot uitvoering van de artikelen III.82 tot en met III.95 van het wetboek van economisch recht worden de volgende wijzigingen aangebracht:
   1° de Franstalige omschrijving van de rekening 1 "Patrimoine propre, provisions pour risques et charges et dettes à plus d'un an" wordt vervangen door de omschrijving "Fonds propres, provisions pour risques et charges et dettes à plus d'un an";
@@ -3289,7 +3293,7 @@ In hoofdstuk 1 van de bijlage 1 van het koninklijk besluit van 21 oktober 2018 t
 
 #### HOOFDSTUK 3. - Wijziging van het koninklijk besluit van 24 december 1934 betreffende de toepassing der wetten op het onvrijwillig bezitsverlies van toonderpapier
 
-## Art. 9:11
+###### Art. 9:11
 
 In artikel 4 van het koninklijk besluit van 24 december 1934 betreffende de toepassing der wetten op het onvrijwillig bezitsverlies van toonderpapier worden de volgende wijzigingen aangebracht:
   1° in het eerste lid worden de woorden "artikel 182 van het Wetboek van vennootschappen, de artikelen 73 en 83 van de faillissementswet van 8 augustus 1997 en artikel 19bis van de wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de stichtingen" vervangen door de woorden "artikelen 2:74, 2:113 en 2:134 van het Wetboek van vennootschappen en verenigingen en de artikelen XX.135 en XX.172 het Wetboek van economisch recht";
@@ -3297,7 +3301,7 @@ In artikel 4 van het koninklijk besluit van 24 december 1934 betreffende de toep
 
 ### TITEL 3. - Inwerkingtreding
 
-## Art. 9:12
+###### Art. 9:12
 
 Dit besluit treedt in werking op dezelfde dag als de datum waarop de bepalingen van de wet waarvan het de uitvoering verzekert van toepassing worden.
   In afwijking van het eerste lid treden de artikelen 3:75, § 5, en 3:192, § 5, in werking treden op 1 januari 2021.
@@ -3305,21 +3309,21 @@ Dit besluit treedt in werking op dezelfde dag als de datum waarop de bepalingen 
 
 ### TITEL 4. - Uitvoeringsbepaling
 
-## Art. 9:13
+###### Art. 9:13
 
 De minister van Economie, de minister van Justitie, de minister van Financiën en de Minister van Middenstand zijn, ieder wat hem betreft, belast met de uitvoering van dit besluit.
 
   BIJLAGEN.
 
-  Art. N1. Bijlage 1. - Aanvraagformulier I tot inschrijving (luiken A en C) en tot bekendmaking in de Bijlagen bij het
+###### Art. N1. Bijlage 1. - Aanvraagformulier I tot inschrijving (luiken A en C) en tot bekendmaking in de Bijlagen bij het
 
   (Beeld niet opgenomen om technische redenen, zie B.St. van 30-04-2019, p. 42396)
 
-  Art. N2. Bijlage 2. - Aanvraagformulier II tot wijziging van de inschrijving in KBO.
+###### Art. N2. Bijlage 2. - Aanvraagformulier II tot wijziging van de inschrijving in KBO.
 
   (Beeld niet opgenomen om technische redenen, zie B.St. van 30-04-2019, p. 42400)
 
-  Art. N3. Bijlage 3. - Vennootschappen - jaarrekening volgens volledig schema: schema van de balans en de resultatenrekening.
+###### Art. N3. Bijlage 3. - Vennootschappen - jaarrekening volgens volledig schema: schema van de balans en de resultatenrekening.
   Balans
   ACTIVA
   I. Oprichtingskosten
@@ -3456,7 +3460,7 @@ De minister van Economie, de minister van Justitie, de minister van Financiën e
   3. Werknemers
   4. Andere rechthebbenden
 
-  Art. N4. Bijlage 4. - Vennootschappen - jaarrekening volgens verkort en microschema: schema van de balans en de resultatenrekening.
+###### Art. N4. Bijlage 4. - Vennootschappen - jaarrekening volgens verkort en microschema: schema van de balans en de resultatenrekening.
   Balans
   ACTIVA
   I. Oprichtingskosten
@@ -3563,7 +3567,7 @@ De minister van Economie, de minister van Justitie, de minister van Financiën e
   3. Werknemers
   4. Andere rechthebbenden
 
-  Art. N5. Bijlage 5. - schema van de balans en de resultatenrekening.
+###### Art. N5. Bijlage 5. - schema van de balans en de resultatenrekening.
   Balans
   ACTIVA
   I. Oprichtingskosten
@@ -3609,7 +3613,7 @@ De minister van Economie, de minister van Justitie, de minister van Financiën e
   1. Uitsplitsing in de geconsolideerde resultatenrekening van de bedrijfsresultaten naar hun aard (artikel 3:149, § 1): I. Bedrijfsopbrengsten (5) II. Bedrijfskosten (5) III. Bedrijfswinst (bedrijfsverlies) IV. Financiële opbrengsten (5) V. Financiële kosten (5) VI. Winst (verlies) van het boekjaar voor belasting van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen VII. A. Overboeking naar de uitgestelde belastingen en de belastinglatenties B. Onttrekkingen aan de uitgestelde belastingen en de belastinglatenties VIII. Belastingen op het resultaat (5) IX. Winst (verlies) van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen X. Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast A. Winstresultaten B. Verliesresultaten XI. Geconsolideerde winst (geconsolideerd verlies) XII. Aandeel van derden in het resultaat XIII. Aandeel van de groep in het resultaat
   2. Uitsplitsing in de geconsolideerde resultatenrekening van de bedrijfsresultaten naar hun bestemming (artikel 3:149, § 2): I. Omzet II. Kosten van verkopen III. Marge van de omzet IV. Commerciële kosten V. Administratieve kosten VI. Kosten van ontwikkeling VII. Andere bedrijfsopbrengsten VIII. Andere bedrijfskosten (6) IX. Bedrijfswinst (verlies) X. Financiële opbrengsten (7) XI. Financiële kosten (7) XII. Winst (verlies) van het boekjaar voor belasting van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen XIII. A. Overboeking naar de uitgestelde belastingen en de belastinglatenties B. Onttrekkingen aan de uitgestelde belastingen en de belastinglatenties XIV. Belastingen op het resultaat (7) XV. Winst (verlies) van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen XVI. Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast A. Winstresultaten B. Verliesresultaten XVII. Geconsolideerde winst (geconsolideerd verlies) XVIII. Aandeel van derden in het resultaat XIX. Aandeel van de groep in het resultaat
 
-  Art. N6. Bijlage 6. - Verenigingen en stichtingen - jaarrekening volgens volledig schema: schema van de balans en de resultatenrekening.
+###### Art. N6. Bijlage 6. - Verenigingen en stichtingen - jaarrekening volgens volledig schema: schema van de balans en de resultatenrekening.
   Balans
   ACTIVA
   I. Oprichtingskosten
@@ -3710,7 +3714,7 @@ De minister van Economie, de minister van Justitie, de minister van Financiën e
    C. Toevoeging aan de bestemde fondsen en andere reserves
    D. Over te dragen positief (negatief) resultaat
 
-  Art. N7. Bijlage 7. - Verenigingen en stichtingen - jaarrekening volgens verkort en microschema: schema van de balans en de resultatenrekening.
+###### Art. N7. Bijlage 7. - Verenigingen en stichtingen - jaarrekening volgens verkort en microschema: schema van de balans en de resultatenrekening.
   Balans
   ACTIVA
   I. Oprichtingskosten
@@ -3787,7 +3791,7 @@ De minister van Economie, de minister van Justitie, de minister van Financiën e
    C. Toevoeging aan de bestemde fondsen en andere reserves
    D. Over te dragen positief (negatief) resultaat
 
-  Art. N8. Bijlage 8. - Schema van de jaarrekening van de verenigingen en stichtingen die een vereenvoudigde boekhouding voeren.
+###### Art. N8. Bijlage 8. - Schema van de jaarrekening van de verenigingen en stichtingen die een vereenvoudigde boekhouding voeren.
   Genormaliseerd minimaal schema van de staat van de ontvangsten en uitgaven.
 
  Uitgaven Ontvangsten
@@ -3811,7 +3815,7 @@ De minister van Economie, de minister van Justitie, de minister van Financiën e
 
  5. Belangrijke rechten en verplichtingen die niet in cijfers kunnen worden weergegeven
 
-  Art. N9. Bijlage 9.
+###### Art. N9. Bijlage 9.
 
   (Beeld niet opgenomen om technische redenen, zie B.St. van 30-04-2019, p. 42423)
 

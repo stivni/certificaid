@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde
@@ -41,38 +45,38 @@ pg. 113850)
 
     Inhoudstafel
 
-##### AFDELING 1. Betalingen op de rekeningen van "btw-ontvangsten"
+## AFDELING 1. Betalingen op de rekeningen van "btw-ontvangsten"
     Brussel, "Inning en Invordering", "Mini One Stop Shop -
     btw BE" en "btw on E-Services".
 
-###### Onderafdeling 1. Betaling op de postrekening van "BTW-Ontvangsten"
+### Onderafdeling 1. Betaling op de postrekening van "BTW-Ontvangsten"
     Brussel Art. 1 - 8
 
-###### Onderafdeling 2. Betaling op de financiële rekening van "Inning en
+### Onderafdeling 2. Betaling op de financiële rekening van "Inning en
     Invordering". Art. 9 - 13
 
-###### Onderafdeling 3. Betaling op de postrekening van "Mini One Stop Shop
+### Onderafdeling 3. Betaling op de postrekening van "Mini One Stop Shop
     - VAT BE” Art. 13bis
 
-###### Onderafdeling 4. Betaling op de postrekening van "VAT on E-Services”
+### Onderafdeling 4. Betaling op de postrekening van "VAT on E-Services”
 
     Disposition temporaire Art. 13ter
 
-##### AFDELING 2. Betaling vastgesteld door middel van het elektronische
+## AFDELING 2. Betaling vastgesteld door middel van het elektronische
     systeem PLDA van de Algemene Administratie van de
     Douane en Accijnzen. Art. 14 - 15
 
-##### AFDELING 3. Betaling bestemd voor het kantoor van de door of vanwege
+## AFDELING 3. Betaling bestemd voor het kantoor van de door of vanwege
     de Minister van Financiën met de invordering belaste
     ambtenaar. Art. 16 - 19
 
-##### AFDELING 4. Betaling op een douane of accijnskantoor voor andere dan
+## AFDELING 4. Betaling op een douane of accijnskantoor voor andere dan
     bij invoer verschuldigde belasting over de toegevoegde
     waarde. Art. 20 - 21
 
-##### AFDELING 5. Slotbepalingen. Art. 22 - 24
+## AFDELING 5. Slotbepalingen. Art. 22 - 24
 
-##### AFDELING 1
+## AFDELING 1
     Betalingen op de rekeningen van "btw-ontvangsten" Brussel,
     "Inning en Invordering", "Mini One Stop Shop - btw BE" en
     "btw on E-Services".
@@ -80,10 +84,10 @@ pg. 113850)
 (Het opschrift van Afdeling 1, werd vervangen met ingang van 01.12.2019 (Art. 31,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
-###### Onderafdeling 1
+### Onderafdeling 1
     Betaling op de postrekening van "BTW-Ontvangsten" Brussel.
 
-## Art. 1
+#### Art. 1
 (De tekst van KB nr. 24, artikel 1, inleidende zin, werd gewijzigd met ingang van
 05.12.2019 (Art. 4, KB 07.11.2019, B.S. 25.11.2019, pg 108072))
 
@@ -102,14 +106,14 @@ op de in de artikelen 2 tot 7 aangegeven wijze betaald:
     1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de
     belasting over de toegevoegde waarde.
 
-## Art. 2
+#### Art. 2
 (De tekst van KB nr. 24, artikel 2, is van toepassing met ingang van 01.01.1999 (Art.1,
 KB 12.11.1998))
 
 De betaling wordt gedaan op de postrekening nr. 679-2003000-47 van "BTW-Ontvangsten"
 Brussel door storting of overschrijving.
 
-## Art. 3
+#### Art. 3
 (De tekst van KB nr. 24, artikel 3, § 1, eerste lid, werd gewijzigd met ingang van
 16.05.2014 (Art. 21, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
@@ -132,7 +136,7 @@ bedragen te betalen.
 In geen geval mag het op het betaalformulier gedrukte BTW-identificatienummer worden
 gewijzigd.
 
-## Art. 4
+#### Art. 4
 (De tekst van KB nr. 24, artikel 4 is van toepassing met ingang van 01.01.1999 (Art.1,
 KB 12.11.1998))
 
@@ -151,7 +155,7 @@ bepaald, die door de kredietinstellingen die aangesloten of vertegenwoordigd zij
 verrekenkamer van het land moeten worden nageleefd, voor de uitvoering van de ontvangen
 betalingsorders en voor de overmaking van het geld ten bate van de Schatkist.
 
-## Art. 5
+#### Art. 5
 (De tekst van KB nr. 24, artikel 5, § 1, 2°, a) en § 2, werd gewijzigd met ingang van
 01.04.2019 (Art. 11, KB 17.03.2019, B.S. 08.04.2019, pg. 35699). Dit besluit
 (KB 17.03.2019) is niet van toepassing op het dwangbevel dat werd kennisgegeven of betekend
@@ -194,7 +198,7 @@ identificatienummer van een belastingplichtige die periodieke aangiften moet ind
 niettegenstaande elke strijdige verklaring, geacht te zijn gedaan om te worden ingeschreven op
 de rekening-courant van die belastingplichtige.
 
-## Art. 6
+#### Art. 6
 (De tekst van KB nr. 24, artikel 6, eerste lid, werd gewijzigd met ingang van 01.04.2019
 (Art. 12, KB 17.03.2019, B.S. 08.04.2019, pg. 35699). Dit besluit (KB 17.03.2019) is niet
 van toepassing op het dwangbevel dat werd kennisgegeven of betekend vóór de datum van zijn
@@ -215,7 +219,7 @@ De toerekening gebeurt:
 3° voor de in artikel 5, § 2, bedoelde inschrijvingen, op de datum bepaald door of vanwege
     de Minister van Financiën.
 
-## Art. 7
+#### Art. 7
 (De tekst van KB nr. 24, artikel 7, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
@@ -229,7 +233,7 @@ De aanvraag om teruggaaf moet door de belastingplichtige worden ingesteld op de 
 aangeduid in artikel 8(1), § 4, van het koninklijk besluit nr. 4 met betrekking tot de teruggaven
 inzake belasting over de toegevoegde waarde.
 
-## Art. 8
+#### Art. 8
 (De tekst van KB nr. 24, artikel 8, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
@@ -265,13 +269,13 @@ geacht te zijn gedaan ter voldoening van de in artikel 1 en artikel 5, § 2, bed
 die de belastingplichtige verschuldigd is of zal worden voor het tijdvak dat volgt op dat
 waarvoor het bijhouden van een bijzondere rekening werd voorgeschreven.
 
-###### Onderafdeling 2
+### Onderafdeling 2
     Betaling op de financiële rekening van "Inning en Invordering".
 
 (Het opschrift van Onderafdeling 2, werd vervangen met ingang van 01.12.2019 (Art. 32,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
-## Art. 9
+#### Art. 9
 (De tekst van KB nr. 24, artikel 9, werd gewijzigd met ingang van 01.01.2020 (Art. 31,
 KB 09.12.2019, B.S. 16.12.2019 - Ed. 2, pg. 113850))
 
@@ -281,7 +285,7 @@ wegens inbreuken op de bepalingen van het Wetboek of de uitvoeringsbepalingen, g
 overeenkomstig hetgeen voorzien is in de artikelen 15 tot 17 van het Wetboek van de
 minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen.
 
-## Art. 10
+#### Art. 10
 (De tekst van KB nr. 24, artikel 10, inleidende zin, werd gewijzigd met ingang van
 01.01.2020 (Art. 32, KB 09.12.2019, B.S. 16.12.2019, pg. 113850))
 
@@ -301,7 +305,7 @@ minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderinge
     van het Wetboek, voor het laattijdig betalen van de belasting waarvan de opeisbaarheid
     uit die aangiften blijkt.
 
-## Art. 11
+#### Art. 11
 (De tekst van KB nr. 24, artikel 11, werd gewijzigd met ingang van 01.01.2020 (Art. 33,
 KB 09.12.2019, B.S. 16.12.2019 – Ed. 2, pg. 113850))
 
@@ -316,25 +320,25 @@ worden eveneens gedaan overeenkomstig hetgeen voorzien is in de artikelen 15 tot
 Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale
 schuldvorderingen.
 
-## Art. 12
+#### Art. 12
 (De tekst van KB nr. 24, artikel 12, werd opgeheven met ingang van 01.12.2019 (Art. 36,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
     (Opgeheven)
 
-## Art. 13
+#### Art. 13
 (De tekst van KB nr. 24, artikel 13, werd opgeheven met ingang van 01.12.2019 (Art. 36,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
     (Opgeheven)
 
-###### Onderafdeling 3
+### Onderafdeling 3
     Betaling op de postrekening van "Mini One Stop Shop - VAT BE”.
 
 (De tekst van Onderafdeling 3, werd vervangen met ingang van 01.01.2015 (Art. 7,
 KB 05.07.2015, B.S. 10.07.2015, pg. 45614))
 
-## Art. 13bis
+#### Art. 13bis
 (De tekst van KB nr. 24, artikel 13bis, werd vervangen met ingang van 01.01.2015 (Art. 7,
 KB 05.07.2015, B.S. 10.07.2015, pg. 45614))
 
@@ -349,13 +353,13 @@ Stop Shop - VAT BE" wordt gedaan door storting of overschrijving met vermelding 
 gestructureerde mededeling die hem werd ter kennis gebracht door de administratie. Zij heeft
 uitwerking op de datum bepaald overeenkomstig artikel 4, § 1.
 
-###### Onderafdeling 4
+### Onderafdeling 4
     Betaling op de postrekening van "VAT on E-Services".
 
 (De tekst van Onderafdeling 4, werd ingevoegd met ingang van 01.01.2015. (Art. 8, KB
 05.07.2015, B.S. 10.07.2015, pg. 45614))
 
-## Art. 13ter
+#### Art. 13ter
 (De tekst van KB nr. 24, artikel 13ter, werd ingevoegd met ingang van 01.01.2015 (Art. 8,
 KB 05.07.2015, B.S. 10.07.2015, pg. 45614))
 
@@ -374,7 +378,7 @@ tijdvak voorafgaand aan 1 januari 2015, waardoor de belasting aan de Schatkist m
 gestort, wordt de betaling eveneens gedaan op de in het eerste lid daartoe voorziene
 postrekening.
 
-##### AFDELING 2
+## AFDELING 2
 Betaling vastgesteld door middel van het elektronische systeem PLDA
     van
     de Algemene Administratie van de Douane en Accijnzen.
@@ -382,13 +386,13 @@ Betaling vastgesteld door middel van het elektronische systeem PLDA
 (Het opschrift van KB nr. 24, afdeling 2, werd gewijzigd met ingang van 16.05.2014
 (Art. 23, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
-## Art. 14
+#### Art. 14
 (De tekst van KB nr. 24, artikel 14, is opgeheven met ingang van 01.01.2002 (Art.10, 2°,
 KB 13.07.2001))
 
     (opgeheven)
 
-## Art. 15
+#### Art. 15
 (De tekst van KB nr. 24, artikel 15, § 1, inleidende zin, werd gewijzigd met ingang van
 16.05.2014 (Art. 24, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
@@ -410,39 +414,39 @@ aanvaarden:
 onder de voorwaarden door hen te bepalen, worden toegestaan dat de voldoening van de ter
 zake van invoer verschuldigde BTW op een andere wijze wordt vastgesteld.
 
-##### AFDELING 3
+## AFDELING 3
     Betaling bestemd voor het kantoor van de door of vanwege de
     Minister van Financiën met de invordering belaste ambtenaar.
 
-## Art. 16
+#### Art. 16
 (De tekst van KB nr. 24, artikel 16, wordt opgeheven met ingang van 01.12.2019 (Art. 37,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
     (Opgeheven)
 
-## Art. 17
+#### Art. 17
 (De tekst van KB nr. 24, artikel 17, wordt opgeheven met ingang van 01.12.2019 (Art. 37,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
     (Opgeheven)
 
-## Art. 18
+#### Art. 18
 (De tekst van KB nr. 24, artikel 18, wordt opgeheven met ingang van 01.12.2019 (Art. 37,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
     (Opgeheven)
 
-## Art. 19
+#### Art. 19
 (De tekst van KB nr. 24, artikel 19, wordt opgeheven met ingang van 01.12.2019 (Art. 37,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
     (Opgeheven)
 
-##### AFDELING 4
+## AFDELING 4
  Betaling op een douane of accijnskantoor voor andere dan bij invoer
     verschuldigde belasting over de toegevoegde waarde.
 
-## Art. 20
+#### Art. 20
 (De tekst van KB nr. 24, artikel 20, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
@@ -455,7 +459,7 @@ worden verricht geschiedt in speciën of door overschrijving op de postrekening 
 of op een andere wijze bepaald door of vanwege de Minister van Financiën in de door of namens
 hem te bepalen gevallen.
 
-## Art. 21
+#### Art. 21
 (De tekst van KB nr. 24, artikel 21, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
@@ -472,23 +476,23 @@ Indien door of vanwege de Minister van Financiën overeenkomstig artikel 20 van 
 andere wijze van betalen wordt toegestaan, wordt door of vanwege hem eveneens de datum
 bepaald waarop de betaling uitwerking heeft.
 
-##### AFDELING 5
+## AFDELING 5
     Slotbepalingen.
 
-## Art. 22
+#### Art. 22
 (De tekst van KB nr. 24, artikel 22, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
 Dit besluit vervangt het koninklijk besluit nr. 24 van 23 oktober 1970 met betrekking tot de
 voldoening van de belasting over de toegevoegde waarde.
 
-## Art. 23
+#### Art. 23
 (De tekst van KB nr. 24, artikel 23, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 
 Dit besluit treedt in werking op 1 januari 1993.
 
-## Art. 24
+#### Art. 24
 (De tekst van KB nr. 24, artikel 24, is van toepassing met ingang van 01.01.1993
 (KB 29.12.1992))
 

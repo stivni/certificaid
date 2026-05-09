@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 3
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde
@@ -42,7 +46,7 @@ Laatstelijk gewijzigd met ingang van 01.01.2020 (KB 11.12.2019, B.S. 23.12.2019,
     niet-proportionele fiscale geldboeten op het stuk van de belasting over de
     toegevoegde waarde.
 
-## Art. 1
+### Art. 1
 (De tekst van KB nr. 44, dd. 09.07.2012, artikel 1, is van toepassing met ingang van
 01.07.2012 (Art. 1, KB 09.07.2012, B.S. 17.07.2012))
 
@@ -50,7 +54,7 @@ De bedragen van de niet-proportionele fiscale geldboeten voor de overtredingen b
 artikel 70, § 4, eerste lid, van het Wetboek van de belasting over de toegevoegde waarde, zijn
 opgenomen in de bijlage bij dit besluit.
 
-## Art. 2
+### Art. 2
 (De tekst van KB nr. 44, dd. 09.07.2012, artikel 2, is van toepassing met ingang van
 01.07.2012 (Art. 2, KB 09.07.2012, B.S. 17.07.2012))
 
@@ -58,7 +62,7 @@ Wanneer de overtreding werd begaan met de bedoeling om de belasting te ontduiken
 bedrag van de hoogste geldboete die voorzien is voor deze overtreding verdubbeld, zonder dat
 deze het bedrag van 5.000 euro per overtreding mag overschrijden.
 
-## Art. 3
+### Art. 3
 (De tekst van KB nr. 44, dd. 09.07.2012, artikel 3, is van toepassing met ingang van
 01.07.2012 (Art. 3, KB 09.07.2012, B.S. 17.07.2012))
 
@@ -68,7 +72,7 @@ aan het tijdstip waarop de overtreding wordt begaan.
 De overtredingen worden aangemerkt als eerste overtreding indien dezelfde overtredingen niet
 werden bestraft voorafgaand aan de datum waarop deze werden begaan.
 
-## Art. 4
+### Art. 4
 (De tekst van KB nr. 44, dd. 09.07.2012, artikel 4, is van toepassing met ingang van
 01.07.2012 (Art. 4, KB 09.07.2012, B.S. 17.07.2012))
 
@@ -76,13 +80,13 @@ Dit besluit vervangt het koninklijk besluit nr. 44 van 21 oktober 1993 tot vasts
 bedrag van de niet-proportionele ﬁscale geldboeten op het stuk van de belasting over de
 toegevoegde waarde.
 
-## Art. 5
+### Art. 5
 (De tekst van KB nr. 44, dd. 09.07.2012, artikel 5, is van toepassing met ingang van
 01.07.2012 (Art. 5, KB 09.07.2012, B.S. 17.07.2012))
 
 Dit besluit heeft uitwerking met ingang van 1 juli 2012.
 
-## Art. 6
+### Art. 6
 (De tekst van KB nr. 44, dd. 09.07.2012, artikel 6, is van toepassing met ingang van
 01.07.2012 (Art. 6, KB 09.07.2012, B.S. 17.07.2012))
 
@@ -90,7 +94,7 @@ De Minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.
 
     BIJLAGE
 
-##### AFDELING 1 : AANGIFTEVERPLICHTING
+## AFDELING 1 : AANGIFTEVERPLICHTING
 
 I. Aangifte bedoeld in artikel 53, § 1 , eerste lid, 2°, van het Wetboek
 
@@ -305,7 +309,7 @@ IV. Lijsten en opgaven
 
     D. Niet naleven van de procedure van indienen 200 EUR per document
 
-##### AFDELING 2 : FACTUREN EN ANDERE STUKKEN VOORZIEN DOOR OF
+## AFDELING 2 : FACTUREN EN ANDERE STUKKEN VOORZIEN DOOR OF
     KRACHTENS DE REGELGEVING
 
 I. Factuur en als zodanig geldend stuk
@@ -407,7 +411,7 @@ III. Andere door of krachtens de regelgeving voorziene stukken en rapporten
     EUR met een maximum van
     2.500 EUR
 
-##### AFDELING 3 : VERPLICHTINGEN INZAKE VAN BOEKHOUDING
+## AFDELING 3 : VERPLICHTINGEN INZAKE VAN BOEKHOUDING
 
 I. Boeken, registers en journalen waarvan het houden wordt voorgeschreven door of
     krachtens de regelgeving
@@ -469,7 +473,7 @@ III. Andere door of krachtens de regelgeving op te maken/te houden stukken en ge
     - volgende overtredingen:
     1.000 EUR
 
-##### AFDELING 4 : CONTROLEMAATREGELEN
+## AFDELING 4 : CONTROLEMAATREGELEN
 
 I. Verplichting tot het meedelen van het identificatienummer bedoeld in artikel 53quater
     van het Wetboek
@@ -500,7 +504,7 @@ IV. Verplichtingen bedoeld in de artikelen 61, 62, 62bis en 63 van het Wetboek
     - volgende overtredingen:
     5.000 EUR
 
-##### AFDELING 5 : INTERNATIONAAL
+## AFDELING 5 : INTERNATIONAAL
 
 I. Artikelen 39, 39bis, 39quater, 40, 40bis, 41 en 42 van het Wetboek - Artikel 81 van het
     koninklijk besluit nr. 4 van 29 december 1969
@@ -528,7 +532,7 @@ II. Artikel 52 van het Wetboek
     tot het aangeven van de goederen onder de door artikel
     52, § 1, van het Wetboek, voorgeschreven voorwaarden
 
-##### AFDELING 6 : DIVERSE BEPALINGEN
+## AFDELING 6 : DIVERSE BEPALINGEN
 
     Elke andere verplichting bedoeld in het Wetboek en de besluiten genomen ter uitvoering
     ervan dan deze beoogd in afdeling 1 tot en met 5 van deze bijlage

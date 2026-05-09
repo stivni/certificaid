@@ -5,6 +5,10 @@ wet: "Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW
 status: "beschikbaar"
 bijgewerkt: "2023"
 bron: "sbb.be / CBN-CNC"
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # MAR — Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen

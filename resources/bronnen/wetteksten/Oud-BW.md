@@ -6,6 +6,10 @@ status: "beschikbaar"
 bijgewerkt: "11.12.2025"
 bron: "ejustice.just.fgov.be (Justel, geconsolideerd)"
 raw-bron: "resources/raw/wetteksten/BW-geconsolideerd-incl-boek8.pdf"
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Burgerlijk Wetboek (geconsolideerd)
@@ -30,17 +34,18 @@ INLEIDENDE TITEL. - BEKENDMAKING, GEVOLGEN EN TOEPASSING VAN DE WETTEN IN HET AL
 
 #### HOOFDSTUK II. [1 ...]1
 
+
 ##### AFDELING I. [1 ...]1
 
 ##### AFDELING II. [1 ...]1
-
 ### TITEL II. [1 - DE BURGERLIJKE STAND.]1
 
 #### HOOFDSTUK I. [1 - Algemene principes van de burgerlijke stand.]1
 
-##### Afdeling 1. [1 Doelstellingen van de burgerlijke stand]1
 
-## Art. 6
+##### Afdeling 1. [1 Doelstellingen van de burgerlijke stand]1
+###### Art. 6
+
 
 ##### Afdeling 2. [1 De ambtenaar van de burgerlijke stand]1
 
@@ -51,134 +56,133 @@ INLEIDENDE TITEL. - BEKENDMAKING, GEVOLGEN EN TOEPASSING VAN DE WETTEN IN HET AL
 ##### Afdeling 5. [1 Uittreksels en afschriften]1
 
 ##### Afdeling 6. [1 Wijzigingen van akten van de burgerlijke stand]1
+###### Art. 31
 
-## Art. 31
 
 ##### Afdeling 7. [1 Meldingen op akten van de burgerlijke stand]1
+###### Art. 32
 
-## Art. 32
 
 ##### Afdeling 8. [1 Verbetering en nietigverklaring van akten van de burgerlijke stand]1
-
 ##### Onderafdeling 1. [1 Verbetering door de ambtenaar van de burgerlijke stand]1
 
 ##### Onderafdeling 2. [1 Ambtshalve nietigverklaring van een akte door de ambtenaar van de burgerlijke stand]1
 
 ##### Onderafdeling 2. Onderafdeling 3 [1 Verbetering en nietigverklaring door de familierechtbank]1
 
-## Art. 35
+###### Art. 35
+
 
 ##### Afdeling 9. [1 Aansprakelijkheid van en controle op de ambtenaar van de burgerlijke stand]1
-
 #### HOOFDSTUK II. [1 - De verschillende akten van de burgerlijke stand.]1
 
-##### Afdeling 1. [1 Algemene bepaling]1
 
-## Art. 41
+##### Afdeling 1. [1 Algemene bepaling]1
+###### Art. 41
+
 
 ##### Afdeling 2. [1 De akten van geboorte]1
-
 ##### Onderafdeling 1. [1 De akte van geboorte]1
 
 ##### Onderafdeling 2.[1 Akte van geboorte van een vondeling]1
 
 ##### Onderafdeling 3. [1 Akte van geboorte in geval van geboorte aan boord van een schip of een luchtvaartuig]1
 
-## Art. 47
+###### Art. 47
 
 ##### Onderafdeling 4. [1 Gemeenschappelijke bepalingen]1
 
-##### Afdeling 3. [1 De akten van erkenning]1
 
+##### Afdeling 3. [1 De akten van erkenning]1
 ##### Onderafdeling 1. [1 Akte van prenatale erkenning]1
 
-## Art. 50
+###### Art. 50
 
 ##### Onderafdeling 2. [1 Akte van erkenning]1
 
-## Art. 51
+###### Art. 51
+
 
 ##### Afdeling 4. [1 Akte van verklaring van naamskeuze]1
+###### Art. 52
 
-## Art. 52
 
 ##### Afdeling 5. [1 Akte van aanpassing van de registratie van het geslacht]1
+###### Art. 53
 
-## Art. 53
 
 ##### Afdeling 6. [1 Akte van huwelijk]1
+###### Art. 54
 
-## Art. 54
 
 ##### Afdeling 7. [1 Akten van overlijden]1
-
 ##### Onderafdeling 1. [1 Akte van overlijden]1
 
 ##### Onderafdeling 2. [1 Akte van overlijden in geval van een overlijden aan boord van een schip of een luchtvaartuig]1
 
-## Art. 57
+###### Art. 57
 
 ##### Onderafdeling 3.[1 Akte van een levenloos kind]1
 
 ##### Onderafdeling 4. [1 Gemeenschappelijke bepaling]1
 
-## Art. 60
+###### Art. 60
+
 
 ##### Afdeling 8. [1 Akte van afwezigheid]1
+###### Art. 61
 
-## Art. 61
 
 ##### Afdeling 9. [1 Akte van voornaamsverandering]1
+###### Art. 62
 
-## Art. 62
 
 ##### Afdeling 10.[1 Akte van naamsverandering]1
+###### Art. 63
 
-## Art. 63
 
 ##### Afdeling 11. [1 Akte van echtscheiding]1
+###### Art. 64
 
-## Art. 64
 
 ##### Afdeling 12. [1 Akte van adoptie]1
+###### Art. 65
 
-## Art. 65
 
 ##### Afdeling 13. [1 Akte van herroeping of herziening van adoptie [2 ...]2 of van nietigverklaring]1
+###### Art. 66
 
-## Art. 66
 
 ##### Afdeling 14. [1 Akten van Belgische nationaliteit]1
+###### Art. 67
 
-## Art. 67
 
 ##### Afdeling 15. [1 Akte opgemaakt op basis van een buitenlandse akte]1
 
 ##### Afdeling 16. [1 Akte opgemaakt op basis van een buitenlandse rechterlijke of buitenlandse administratieve beslissing]1
-
-## Art. 70
+###### Art. 70
 
 #### HOOFDSTUK 3. [1 De databank voor de akten van de burgerlijke stand]1
+
 
 ##### Afdeling 1. [1 Algemene bepalingen]1
 
 ##### Afdeling 2. [1 Beheer van de DABS]1
 
 ##### Afdeling 3. [1 Toegang tot de DABS]1
-
 ### TITEL III. - WOONPLAATS.
 
 ### TITEL IV. - AFWEZIGEN.
 
 #### HOOFDSTUK I. - (AFWEZIGHEID).
 
+
 ##### Afdeling I. - Vermoeden van afwezigheid
 
 ##### Afdeling II. - Verklaring van afwezigheid
 
 ##### Afdeling III. - Gevolgen van de afwezigheid of van het vermoeden van afwezigheid voor de minderjarige kinderen
-
-## Art. 125
+###### Art. 125
 
 #### HOOFDSTUK lI. - Gerechtelijke verklaring van overlijden
 
@@ -190,10 +194,10 @@ INLEIDENDE TITEL. - BEKENDMAKING, GEVOLGEN EN TOEPASSING VAN DE WETTEN IN HET AL
 
 #### HOOFDSTUK II. [1 - Formaliteiten betreffende het huwelijk.]1
 
+
 ##### Afdeling I. [1 - Aangifte van het huwelijk]1
 
 ##### Afdeling 2. [1 - Voltrekking van het huwelijk]1
-
 #### HOOFDSTUK III.
 
 #### HOOFDSTUK IV. - VORDERINGEN TOT NIETIGVERKLARING VAN HET HUWELIJK.
@@ -204,11 +208,11 @@ INLEIDENDE TITEL. - BEKENDMAKING, GEVOLGEN EN TOEPASSING VAN DE WETTEN IN HET AL
 
 #### HOOFDSTUK VII. - ONTBINDING VAN HET HUWELIJK.
 
-## Art. 227
+###### Art. 227
 
 #### HOOFDSTUK VIII. - TWEEDE HUWELIJK.
 
-## Art. 228
+###### Art. 228
 
 ### TITEL VI. - ECHTSCHEIDING.
 
@@ -216,14 +220,14 @@ INLEIDENDE TITEL. - BEKENDMAKING, GEVOLGEN EN TOEPASSING VAN DE WETTEN IN HET AL
 
 #### HOOFDSTUK II. - ECHTSCHEIDING OP GROND VAN BEPAALDE FEITEN.
 
-##### AFDELING I. - VORM VAN DE ECHTSCHEIDING OP GROND VAN BEPAALDE FEITEN.
 
-##### AFDELING II. - VOORLOPIGE MAATREGELEN WAARTOE DE EIS TOT ECHTSCHEIDING OP GROND VAN
+##### AFDELING I. - VORM VAN DE ECHTSCHEIDING OP GROND VAN BEPAALDE FEITEN.
 BEPAALDE FEITEN AANLEIDING KAN GEVEN.
 
-##### AFDELING III. - GRONDEN VAN NIET-ONTVANKELIJKHEID TEGEN DE VORDERING TOT ECHTSCHEIDING OP
+##### AFDELING II. - VOORLOPIGE MAATREGELEN WAARTOE DE EIS TOT ECHTSCHEIDING OP GROND VAN
 GROND VAN BEPAALDE FEITEN.
 
+##### AFDELING III. - GRONDEN VAN NIET-ONTVANKELIJKHEID TEGEN DE VORDERING TOT ECHTSCHEIDING OP
 #### HOOFDSTUK III. - ECHTSCHEIDING DOOR ONDERLINGE TOESTEMMING.
 
 #### HOOFDSTUK IV. - GEVOLGEN VAN ECHTSCHEIDING.
@@ -236,13 +240,14 @@ GROND VAN BEPAALDE FEITEN.
 
 #### HOOFDSTUK 2. - VASTSTELLING VAN DE AFSTAMMING VAN VADERSZIJDE.
 
+
 ##### AFDELING 1. - VERMOEDEN VAN VADERSCHAP.
 
 ##### AFDELING 2. - ERKENNING.
 
-##### AFDELING 3. - ONDERZOEK NAAR HET VADERSCHAP.
-
 #### HOOFDSTUK 2/1. [1 - VASTSTELLING VAN DE AFSTAMMING VAN MEEMOEDERSZIJDE.]1
+
+##### AFDELING 3. - ONDERZOEK NAAR HET VADERSCHAP.
 
 ##### AFDELING 1. [1 - ALGEMENE BEPALINGEN.]1
 
@@ -251,24 +256,23 @@ GROND VAN BEPAALDE FEITEN.
 ##### AFDELING 3. [1 - ERKENNING.]1
 
 ##### AFDELING 4. [1 - ONDERZOEK NAAR HET MEEMOEDERSCHAP.]1
-
 #### HOOFDSTUK 3. - GEMEENSCHAPPELIJKE BEPALINGEN NOPENS DE WIJZE WAAROP DE AFSTAMMING WORDT VASTGESTELD.
 
-##### AFDELING 1. - HET TIJDSTIP VAN DE VERWEKKING.
 
-## Art. 326
+##### AFDELING 1. - HET TIJDSTIP VAN DE VERWEKKING.
+###### Art. 326
+
 
 ##### AFDELING 2. - DE ERKENNING.
-
 #### HOOFDSTUK 4. - VORDERINGEN MET BETREKKING TOT DE AFSTAMMING.
+
 
 ##### AFDELING 1. - ALGEMEEN.
 
 ##### AFDELING 2. - DE VORDERINGEN IN HET BIJZONDER.
 
 ##### AFDELING 3. - BEKENDMAKING VAN DE RECHTERLIJKE BESLISSING IN [1 de DABS]1.
-
-## Art. 333
+###### Art. 333
 
 #### HOOFDSTUK 5. - GEVOLGEN VAN DE AFSTAMMING.
 
@@ -278,11 +282,10 @@ GROND VAN BEPAALDE FEITEN.
 
 #### HOOFDSTUK I. - Intern recht.
 
+
 ##### Afdeling 1. - Algemene bepaling.
+###### Art. 343
 
-## Art. 343
-
-##### Afdeling 2. - Bepalingen gemeenschappelijk aan beide vormen van adoptie.
 
 § 1. Voorwaarden voor adoptie.
 
@@ -290,7 +293,8 @@ A. Grondvoorwaarden.
 
 B. Leeftijd.
 
-## Art. 345
+##### Afdeling 2. - Bepalingen gemeenschappelijk aan beide vormen van adoptie.
+###### Art. 345
 
 C. Geschiktheid.
 
@@ -302,17 +306,16 @@ E. Toestemmingen.
 
 § 3. Vaststelling van de afstamming van de geadopteerde na de adoptie.
 
-## Art. 350
+###### Art. 350
 
 § 4. Herziening van de adoptie.
 
-## Art. 351
+###### Art. 351
 
 § 5. Tussenpersonen.
 
-## Art. 352
+###### Art. 352
 
-##### Afdeling 3. - Bepalingen eigen aan iedere vorm van adoptie
 
 § 1. Gewone adoptie.
 A. Gevolgen.
@@ -323,15 +326,15 @@ B. Herroeping.
 
 A. Leeftijdsvoorwaarde.
 
-## Art. 355
+##### Afdeling 3. - Bepalingen eigen aan iedere vorm van adoptie
+###### Art. 355
 
 B. Gevolgen.
 
 #### HOOFDSTUK II. - Internationaal recht.
 
-##### Afdeling 1. - Bijzondere bepalingen van internationaal privaatrecht.
 
-##### Afdeling 2. - Totstandkoming van een adoptie die de interlandelijke overbrenging van een kind onderstelt.
+##### Afdeling 1. - Bijzondere bepalingen van internationaal privaatrecht.
 
 § 1. Definities.
 
@@ -341,7 +344,7 @@ B. Gevolgen.
 
 § 4. Beschermingsmaatregelen.
 
-##### Afdeling 3. - Uitwerking van buitenlandse beslissingen inzake adoptie in België
+##### Afdeling 2. - Totstandkoming van een adoptie die de interlandelijke overbrenging van een kind onderstelt.
 
 § 1. Erkenning van adopties beheerst door het Verdrag.
 
@@ -353,6 +356,7 @@ B. Gevolgen.
 
 § 4. [1 Akte van adoptie]1
 
+##### Afdeling 3. - Uitwerking van buitenlandse beslissingen inzake adoptie in België
 #### HOOFDSTUK III. - Administratieve formaliteiten.
 
 ### TITEL VIII/1. [1 - Namen en voornamen.]1
@@ -365,7 +369,7 @@ B. Gevolgen.
 
 ### TITEL VIIIbis. - VERLATING VAN EEN MINDERJARIGE. (opgeheven)
 
-Art. 370bis, 370ter, 370quater
+###### Art. 370bis, 370ter, 370quater
 
 ### TITEL IX. [1 - Ouderlijk gezag en pleegzorg.]1
 
@@ -373,24 +377,25 @@ Art. 370bis, 370ter, 370quater
 
 #### HOOFDSTUK II. [1 - Pleegzorg.]1
 
-Art. 387quater, 387quinquies, 387sexies, 387septies, 387octies, 387novies, 387decies, 387undecies,
+###### Art. 387quater, 387quinquies, 387sexies, 387septies, 387octies, 387novies, 387decies, 387undecies,
 387duodecies, 387terdecies, 387quaterdecies
 
 #### HOOFDSTUK III. [1 - Broers en zussen.]1
 
-Art. 387quinquiesdecies, 387sexiesdecies, 387septiesdecies
+###### Art. 387quinquiesdecies, 387sexiesdecies, 387septiesdecies
 
 ### TITEL X. - MINDERJARIGHEID, VOOGDIJ EN ONTVOOGDING.
 
 #### HOOFDSTUK I. - MINDERJARIGHEID.
 
-## Art. 388
+###### Art. 388
 
 #### HOOFDSTUK II. - VOOGDIJ.
 
-##### Afdeling I. - Ontstaan van de voogdij.
 
-## Art. 389
+##### Afdeling I. - Ontstaan van de voogdij.
+###### Art. 389
+
 
 ##### Afdeling II. - Organisatie van de voogdij.
 
@@ -399,38 +404,37 @@ Art. 387quinquiesdecies, 387sexiesdecies, 387septiesdecies
 ##### Afdeling IV. - Werking van de voogdij.
 
 ##### Afdeling V. - Voogdijrekeningen en voogdijverslag.
-
 #### HOOFDSTUK IIbis. - PLEEGVOOGDIJ.
 
-Art. 475bis, 475ter, 475quater, 475quinquies, 475sexies, 475septies
+###### Art. 475bis, 475ter, 475quater, 475quinquies, 475sexies, 475septies
 
 #### HOOFDSTUK III. - ONTVOOGDING.
 
 #### HOOFDSTUK IV. [1 Opschorting van het stemrecht van de minderjarigen ouder dan zestien jaar voor de verkiezing van het Europees Parlement]1
 
-Art. 487bis, 487ter, 487quater, 487quinquies, 487sexies, 487septies, 487octies
+###### Art. 487bis, 487ter, 487quater, 487quinquies, 487sexies, 487septies, 487octies
 
 ### TITEL XI. - [1 Meerderjarigheid en beschermde personen]1
 
 #### HOOFDSTUK I. - MEERDERJARIGHEID.
 
-## Art. 488
+###### Art. 488
 
 #### HOOFDSTUK Ibis. - VOORLOPIG BEWIND OVER DE GOEDEREN TOEBEHOREND AAN EEN MEERDERJARIGE.
 
-## Art. 488bis
+###### Art. 488bis
 
 #### HOOFDSTUK II. - [1 Beschermde personen]1
+
 
 ##### Afdeling 1. - [1 Toepassingsgebied]1
 
 ##### Afdeling 2. - [1 Buitengerechtelijke bescherming]1
 
 ##### Afdeling 3. - [1 Rechterlijke bescherming]1
-
 ##### Onderafdeling 1. [1 Definities]1
 
-## Art. 491
+###### Art. 491
 
 ##### Onderafdeling 2. - [1 De onbekwaamheid]1
 
@@ -438,18 +442,18 @@ Art. 487bis, 487ter, 487quater, 487quinquies, 487sexies, 487septies, 487octies
 
 #### HOOFDSTUK II/1. [1 Het bewind]1
 
-##### Afdeling 1. [1 Definities]1
 
-## Art. 494
+##### Afdeling 1. [1 Definities]1
+###### Art. 494
+
 
 ##### Afdeling 2. [1 Ontstaan van het bewind]1
+###### Art. 495
 
-## Art. 495
 
 ##### Afdeling 3. [1 Organisatie van het bewind]1
 
 ##### Afdeling 4. [1 De werking van het bewind]1
-
 ##### Onderafdeling 1. [1 Algemene bepalingen]1
 
 ##### Onderafdeling 2. - [1 Bijstand]1
@@ -462,15 +466,15 @@ Art. 487bis, 487ter, 487quater, 487quinquies, 487sexies, 487septies, 487octies
 
 ##### Onderafdeling 5. [1 Vertrouwenspersoon]1
 
-##### Afdeling 5. [1 De beëindiging van het bewind]1
 
+##### Afdeling 5. [1 De beëindiging van het bewind]1
 #### HOOFDSTUK III.
 
 ## BOEK II. - GOEDEREN EN VERSCHILLENDE BEPERKINGEN VAN DE EIGENDOM.
 
 ### TITEL I. - ONDERSCHEIDING VAN DE GOEDEREN.
 
-## Art. 516
+###### Art. 516
 
 #### HOOFDSTUK I. - ONROERENDE GOEDEREN.
 
@@ -484,18 +488,18 @@ Art. 487bis, 487ter, 487quater, 487quinquies, 487sexies, 487septies, 487octies
 
 #### HOOFDSTUK II. - RECHT VAN NATREKKING OP HETGEEN MET DE ZAAK VERENIGD WORDT EN EEN LICHAAM ERMEE UITMAAKT.
 
-## Art. 551
+###### Art. 551
+
 
 ##### AFDELING I. - RECHT VAN NATREKKING BETREFFENDE ONROERENDE ZAKEN.
 
 ##### AFDELING II. - RECHT VAN NATREKKING BETREFFENDE ROERENDE ZAKEN.
-
 #### HOOFDSTUK III. - MEDEEIGENDOM.
+
 
 ##### AFDELING I. - (GEWONE MEDEEIGENDOM EN GEDWONGEN MEDEEIGENDOM IN HET ALGEMEEN.)
 
 ##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.)
-
 ##### Onderafdeling I. - Algemene bepalingen.
 
 ##### Onderafdeling II. - Rechtspersoonlijkheid van de vereniging van medeëigenaars.
@@ -512,12 +516,12 @@ Art. 487bis, 487ter, 487quater, 487quinquies, 487sexies, 487septies, 487octies
 
 #### HOOFDSTUK I. - VRUCHTGEBRUIK.
 
+
 ##### AFDELING I. - RECHTEN VAN DE VRUCHTGEBRUIKER.
 
 ##### AFDELING II. - VERPLICHTINGEN VAN DE VRUCHTGEBRUIKER.
 
 ##### AFDELING III. - HOE VRUCHTGEBRUIK EINDIGT.
-
 #### HOOFDSTUK II. - GEBRUIK EN BEWONING.
 
 ### TITEL IV. - ERFDIENSTBAARHEDEN OF GRONDLASTEN.
@@ -526,32 +530,32 @@ Art. 487bis, 487ter, 487quater, 487quinquies, 487sexies, 487septies, 487octies
 
 #### HOOFDSTUK II. - ERFDIENSTBAARHEDEN DIE DOOR DE WET GEVESTIGD ZIJN.
 
+
 ##### AFDELING I. - GEMENE MUUR EN GEMENE GRACHT.
 
 ##### AFDELING II. - AFSTAND EN TUSSENWERKEN VEREIST BIJ BEPAALDE BOUWWERKEN.
+###### Art. 674
 
-## Art. 674
 
 ##### AFDELING III. - UITZICHTEN OP HET EIGENDOM VAN DE NABUUR.
 
 ##### AFDELING IV. - DAKDROP.
+###### Art. 681
 
-## Art. 681
 
 ##### AFDELING V. - RECHT VAN UITWEG.
-
 #### HOOFDSTUK III. - ERFDIENSTBAARHEDEN DIE DOOR 'S MENSEN TOEDOEN GEVESTIGD WORDEN.
 
-##### AFDELING I. - ONDERSCHEIDEN SOORTEN VAN ERFDIENSTBAARHEDEN DIE OP GOEDEREN KUNNEN WORDEN
 GEVESTIGD.
 
-##### AFDELING II. - HOE ERFDIENSTBAARHEDEN GEVESTIGD WORDEN.
+##### AFDELING I. - ONDERSCHEIDEN SOORTEN VAN ERFDIENSTBAARHEDEN DIE OP GOEDEREN KUNNEN WORDEN
 
-##### AFDELING III. - RECHTEN VAN DE EIGENAAR VAN HET ERF WAARAAN DE ERFDIENSTBAARHEID
+##### AFDELING II. - HOE ERFDIENSTBAARHEDEN GEVESTIGD WORDEN.
 VERSCHULDIGD IS.
 
-##### AFDELING IV. - HOE ERFDIENSTBAARHEDEN TENIET GAAN.
+##### AFDELING III. - RECHTEN VAN DE EIGENAAR VAN HET ERF WAARAAN DE ERFDIENSTBAARHEID
 
+##### AFDELING IV. - HOE ERFDIENSTBAARHEDEN TENIET GAAN.
 ## BOEK III. - OP WELKE WIJZE EIGENDOM VERKREGEN WORDT.
 
 ALGEMENE BEPALINGEN.
@@ -564,21 +568,21 @@ ALGEMENE BEPALINGEN.
 
 #### HOOFDSTUK III.
 
+
 ##### AFDELING I.
 
 ##### AFDELING II.
 
 ##### AFDELING III.
-
-## Art. 745
+###### Art. 745
 
 (AFDELING IV.
 
-Art. 745bis, 745ter, 745quater, 745quinquies, 745sexies, 745septies
+###### Art. 745bis, 745ter, 745quater, 745quinquies, 745sexies, 745septies
+
 
 ##### Afdeling IVbis.
-
-## Art. 745octies
+###### Art. 745octies
 
 AFDELING(
 
@@ -586,11 +590,12 @@ AFDELING(
 
 #### HOOFDSTUK IV.
 
+
 ##### AFDELING I.
 
 ##### AFDELING II.
-
 #### HOOFDSTUK V.
+
 
 ##### AFDELING I.
 
@@ -599,8 +604,8 @@ AFDELING(
 ##### AFDELING III.
 
 ##### AFDELING IV.
-
 #### HOOFDSTUK VI.
+
 
 ##### AFDELING I.
 
@@ -611,7 +616,6 @@ AFDELING(
 ##### AFDELING IV.
 
 ##### AFDELING V.
-
 #### HOOFDSTUK VII.
 
 ### TITEL II.
@@ -622,25 +626,26 @@ AFDELING(
 
 #### HOOFDSTUK III.
 
+
 ##### AFDELING I.
 
 ##### AFDELING II.
-
 #### HOOFDSTUK IV.
 
+
 ##### AFDELING I.
 
 ##### AFDELING II.
-
 #### HOOFDSTUK V.
+
 
 ##### AFDELING I.
 
 ##### AFDELING II.
 
 ##### AFDELING III.
+###### Art. 1002
 
-## Art. 1002
 
 ##### AFDELING IV.
 
@@ -651,7 +656,6 @@ AFDELING(
 ##### AFDELING VII.
 
 ##### AFDELING VIII.
-
 #### HOOFDSTUK VI.
 
 #### HOOFDSTUK VII.
@@ -680,7 +684,8 @@ AFDELING(
 
 #### HOOFDSTUK II.
 
-## Art. 1108
+###### Art. 1108
+
 
 ##### AFDELING I.
 
@@ -689,8 +694,8 @@ AFDELING(
 ##### AFDELING III.
 
 ##### AFDELING IV.
-
 #### HOOFDSTUK III.
+
 
 ##### AFDELING I.
 
@@ -703,10 +708,8 @@ AFDELING(
 ##### AFDELING V.
 
 ##### AFDELING VI.
-
 #### HOOFDSTUK IV.
 
-##### AFDELING I.
 
 § 1.
 
@@ -714,29 +717,29 @@ AFDELING(
 
 § III.
 
+##### AFDELING I.
+
 ##### AFDELING II.
 
 ##### AFDELING III.
-
-##### AFDELING IV.
 
 § 1.
 
 § II.
 
-##### AFDELING V.
+##### AFDELING IV.
 
 § I.
 
 § II.
 
-##### AFDELING VI.
+##### AFDELING V.
 
+##### AFDELING VI.
 #### HOOFDSTUK V.
 
-## Art. 1234
+###### Art. 1234
 
-##### AFDELING I.
 
 § I.
 
@@ -747,6 +750,8 @@ AFDELING(
 § IV.
 
 § V.
+
+##### AFDELING I.
 
 ##### AFDELING II.
 
@@ -759,10 +764,8 @@ AFDELING(
 ##### AFDELING VI.
 
 ##### AFDELING VII.
-
 #### HOOFDSTUK VI. - BEWIJS VAN DE VERBINTENISSEN EN BEWIJS VAN DE BETALING.
 
-##### AFDELING I. - SCHRIFTELIJK BEWIJS.
 
 § I. DE AUTHENTIEKE TITEL.
 
@@ -770,33 +773,34 @@ AFDELING(
 
 § III.
 
-## Art. 1333
+##### AFDELING I. - SCHRIFTELIJK BEWIJS.
+###### Art. 1333
 
 § IV.
 
 § V. AKTEN VAN ERKENNING EN VAN BEVESTIGING.
 
-##### AFDELING II.
 
 AFDELING II/1.
 
-## Art. 1348bis
+##### AFDELING II.
+###### Art. 1348bis
+
 
 ##### AFDELING III.
-
-## Art. 1349
+###### Art. 1349
 
 § 1.
 
 § II.
 
-## Art. 1353
+###### Art. 1353
+
 
 ##### AFDELING IV.
 
 ##### AFDELING V.
-
-## Art. 1357
+###### Art. 1357
 
 § I.
 
@@ -804,7 +808,7 @@ AFDELING II/1.
 
 ### TITEL IV. - VERBINTENISSEN BUITEN OVEREENKOMST.
 
-## Art. 1370
+###### Art. 1370
 
 #### HOOFDSTUK I.
 
@@ -812,7 +816,7 @@ AFDELING II/1.
 
 ### TITEL IVbis. - VERGOEDING VAN DE SCHADE DOOR ABNORMALEN VEROORZAAKT.
 
-## Art. 1386bis
+###### Art. 1386bis
 
 ### TITEL V.
 
@@ -820,9 +824,9 @@ AFDELING II/1.
 
 #### HOOFDSTUK II.
 
-##### AFDELING I.
 
-## Art. 1398
+##### AFDELING I.
+###### Art. 1398
 
 § 1.
 
@@ -830,23 +834,22 @@ AFDELING II/1.
 
 § 3.
 
-## Art. 1405
+###### Art. 1405
 
 § 4.
+
 
 ##### AFDELING II.
 
 ##### AFDELING III.
 
 ##### AFDELING IV.
-
-## Art. 1425
+###### Art. 1425
 
 GEMEENSCHAPPELIJKE BEPALING VOOR HET BESTUUR VAN DE EIGEN VERMOGENS
 
-## Art. 1426
+###### Art. 1426
 
-##### AFDELING V.
 
 § 1.
 
@@ -860,11 +863,12 @@ GEMEENSCHAPPELIJKE BEPALING VOOR HET BESTUUR VAN DE EIGEN VERMOGENS
 
 § 6.
 
-## Art. 1450
+##### AFDELING V.
+###### Art. 1450
 
 #### HOOFDSTUK III.
 
-## Art. 1451
+###### Art. 1451
 
 § 1.
 
@@ -874,18 +878,18 @@ GEMEENSCHAPPELIJKE BEPALING VOOR HET BESTUUR VAN DE EIGEN VERMOGENS
 
 § 4.
 
-## Art. 1465
+###### Art. 1465
 
 #### HOOFDSTUK IV.
 
-##### AFDELING I.
 
 1469/12, 1469/13
+
+##### AFDELING I.
 
 ##### AFDELING II.
 
 ##### AFDELING III.
-
 ### TITEL Vbis. - (ingevoegd bij ) Wettelijke samenwoning.
 
 OVERGANGSRECHT.
@@ -900,32 +904,32 @@ OVERGANGSRECHT.
 
 #### HOOFDSTUK IV. - VERPLICHTINGEN VAN DE VERKOPER.
 
+
 ##### AFDELING I. - ALGEMENE BEPALINGEN.
 
 ##### AFDELING II. - LEVERING.
 
 ##### AFDELING III. - VRIJWARING.
-
-## Art. 1625
+###### Art. 1625
 
 § I. VRIJWARING VOOR UITWINNING.
 
 § II. VRIJWARING VOOR GEBREKEN VAN DE VERKOCHTE ZAAK.
 
-##### Afdeling IV. Bepalingen met betrekking tot de verkopen aan consumenten.
 
-Art. 1649bis, 1649ter, 1649quater, 1649quinquies, 1649sexies, 1649septies, 1649octies, 1649nonies
+##### Afdeling IV. Bepalingen met betrekking tot de verkopen aan consumenten.
+###### Art. 1649bis, 1649ter, 1649quater, 1649quinquies, 1649sexies, 1649septies, 1649octies, 1649nonies
 
 #### HOOFDSTUK V. - VERPLICHTINGEN VAN DE KOPER.
 
 #### HOOFDSTUK VI. - NIETIGHEID EN ONTBINDING VAN DE KOOP.
 
-## Art. 1658
+###### Art. 1658
+
 
 ##### AFDELING I. - RECHT VAN WEDERINKOOP.
 
 ##### AFDELING II. - VERNIETIGING VAN DE KOOP UIT HOOFDE VAN BENADELING.
-
 #### HOOFDSTUK VII. - VEILING VAN ONVERDEELDE GOEDEREN.
 
 #### HOOFDSTUK VIII. - OVERDRACHT VAN SCHULDVORDERINGEN EN ANDERE ONLICHAMELIJKE RECHTEN.
@@ -938,6 +942,7 @@ Art. 1649bis, 1649ter, 1649quater, 1649quinquies, 1649sexies, 1649septies, 1649o
 
 #### HOOFDSTUK III. [1 - Conformiteit van de digitale inhoud of digitale dienst.]1
 
+
 ##### Afdeling 1. [1 - Conformiteitsvereisten.]1
 
 ##### Afdeling 2. [1 - Subjectieve conformiteitsvereisten.]1
@@ -945,15 +950,14 @@ Art. 1649bis, 1649ter, 1649quater, 1649quinquies, 1649sexies, 1649septies, 1649o
 ##### Afdeling 3. [1 - Objectieve conformiteitsvereisten.]1
 
 ##### Afdeling 4. [1 - Verkeerde integratie van de digitale inhoud of digitale dienst.]1
-
 #### HOOFDSTUK IV. [1 - Aansprakelijkheid van de handelaar.]1
 
 #### HOOFDSTUK V. [1 - Remedies in geval van leveringsverzuim en van conformiteitsgebrek.]1
 
+
 ##### Afdeling 1. [1 - Remedies in geval van leveringsverzuim.]1
 
 ##### Afdeling 2. [1 - Remedies in geval van conformiteitsgebrek.]1
-
 #### HOOFDSTUK VI. [1 - Verplichtingen van de handelaar bij ontbinding.]1
 
 #### HOOFDSTUK VII. [1 - Verbintenissen van de consument bij ontbinding.]1
@@ -976,255 +980,256 @@ Art. 1649bis, 1649ter, 1649quater, 1649quinquies, 1649sexies, 1649septies, 1649o
 
 #### HOOFDSTUK II. - HUUR VAN GOEDEREN.
 
-## Art. 1713
+###### Art. 1713
+
 
 ##### AFDELING I. - (ALGEMENE BEPALINGEN BETREFFENDE DE HUUR VAN ONROERENDE GOEDEREN).
+###### Art. 1714
 
-## Art. 1714
+###### Art. 1714_WAALS_GEWEST
 
-## Art. 1714_WAALS_GEWEST
+###### Art. 1714bis
 
-## Art. 1714bis
+###### Art. 1714bis_VLAAMS_GEWEST
 
-## Art. 1714bis_VLAAMS_GEWEST
+###### Art. 1714bis_WAALS_GEWEST
 
-## Art. 1714bis_WAALS_GEWEST
+###### Art. 1714bis_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1714bis_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1715
 
-## Art. 1715
+###### Art. 1715_WAALS_GEWEST
 
-## Art. 1715_WAALS_GEWEST
+###### Art. 1716
 
-## Art. 1716
+###### Art. 1716_VLAAMS_GEWEST
 
-## Art. 1716_VLAAMS_GEWEST
+###### Art. 1716_WAALS_GEWEST
 
-## Art. 1716_WAALS_GEWEST
+###### Art. 1716_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1716_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1716bis, 1717
 
-Art. 1716bis, 1717
+###### Art. 1717_WAALS_GEWEST
 
-## Art. 1717_WAALS_GEWEST
+###### Art. 1717_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1717_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1718
 
-## Art. 1718
+###### Art. 1718_WAALS_GEWEST
 
-## Art. 1718_WAALS_GEWEST
+###### Art. 1719
 
-## Art. 1719
+###### Art. 1719_WAALS_GEWEST
 
-## Art. 1719_WAALS_GEWEST
+###### Art. 1720
 
-## Art. 1720
+###### Art. 1720_WAALS_GEWEST
 
-## Art. 1720_WAALS_GEWEST
+###### Art. 1720_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1720_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1721
 
-## Art. 1721
+###### Art. 1721_WAALS_GEWEST
 
-## Art. 1721_WAALS_GEWEST
+###### Art. 1722
 
-## Art. 1722
+###### Art. 1722_WAALS_GEWEST
 
-## Art. 1722_WAALS_GEWEST
+###### Art. 1723
 
-## Art. 1723
+###### Art. 1723_WAALS_GEWEST
 
-## Art. 1723_WAALS_GEWEST
+###### Art. 1724
 
-## Art. 1724
+###### Art. 1724_WAALS_GEWEST
 
-## Art. 1724_WAALS_GEWEST
+###### Art. 1725
 
-## Art. 1725
+###### Art. 1725_WAALS_GEWEST
 
-## Art. 1725_WAALS_GEWEST
+###### Art. 1726
 
-## Art. 1726
+###### Art. 1726_WAALS_GEWEST
 
-## Art. 1726_WAALS_GEWEST
+###### Art. 1727
 
-## Art. 1727
+###### Art. 1727_WAALS_GEWEST
 
-## Art. 1727_WAALS_GEWEST
+###### Art. 1728
 
-## Art. 1728
+###### Art. 1728_WAALS_GEWEST
 
-## Art. 1728_WAALS_GEWEST
+###### Art. 1728bis
 
-## Art. 1728bis
+###### Art. 1728bis_WAALS_GEWEST
 
-## Art. 1728bis_WAALS_GEWEST
+###### Art. 1728bis_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1728bis_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1728ter
 
-## Art. 1728ter
+###### Art. 1728ter_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1728ter_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1728ter_WAALS_GEWEST
 
-## Art. 1728ter_WAALS_GEWEST
+###### Art. 1728quater
 
-## Art. 1728quater
+###### Art. 1728quater_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1728quater_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1728quater_WAALS_GEWEST
 
-## Art. 1728quater_WAALS_GEWEST
+###### Art. 1729
 
-## Art. 1729
+###### Art. 1729_WAALS_GEWEST
 
-## Art. 1729_WAALS_GEWEST
+###### Art. 1730
 
-## Art. 1730
+###### Art. 1730_WAALS_GEWEST
 
-## Art. 1730_WAALS_GEWEST
+###### Art. 1730_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1730_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1731
 
-## Art. 1731
+###### Art. 1731_WAALS_GEWEST
 
-## Art. 1731_WAALS_GEWEST
+###### Art. 1732
 
-## Art. 1732
+###### Art. 1732_WAALS_GEWEST
 
-## Art. 1732_WAALS_GEWEST
+###### Art. 1733
 
-## Art. 1733
+###### Art. 1733_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1733_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1733_WAALS_GEWEST
 
-## Art. 1733_WAALS_GEWEST
+###### Art. 1735_WAALS_GEWEST
 
-## Art. 1735_WAALS_GEWEST
+###### Art. 1736
 
-## Art. 1736
+###### Art. 1736_WAALS_GEWEST
 
-## Art. 1736_WAALS_GEWEST
+###### Art. 1737
 
-## Art. 1737
+###### Art. 1737_WAALS_GEWEST
 
-## Art. 1737_WAALS_GEWEST
+###### Art. 1738
 
-## Art. 1738
+###### Art. 1738_WAALS_GEWEST
 
-## Art. 1738_WAALS_GEWEST
+###### Art. 1739
 
-## Art. 1739
+###### Art. 1739_WAALS_GEWEST
 
-## Art. 1739_WAALS_GEWEST
+###### Art. 1740
 
-## Art. 1740
+###### Art. 1740_WAALS_GEWEST
 
-## Art. 1740_WAALS_GEWEST
+###### Art. 1741
 
-## Art. 1741
+###### Art. 1741_WAALS_GEWEST
 
-## Art. 1741_WAALS_GEWEST
+###### Art. 1742
 
-## Art. 1742
+###### Art. 1742_WAALS_GEWEST
 
-## Art. 1742_WAALS_GEWEST
+###### Art. 1743
 
-## Art. 1743
+###### Art. 1743_WAALS_GEWEST
 
-## Art. 1743_WAALS_GEWEST
+###### Art. 1743_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1743_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1744
 
-## Art. 1744
+###### Art. 1744_WAALS_GEWEST
 
-## Art. 1744_WAALS_GEWEST
+###### Art. 1745
 
-## Art. 1745
+###### Art. 1745_WAALS_GEWEST
 
-## Art. 1745_WAALS_GEWEST
+###### Art. 1747_WAALS_GEWEST
 
-## Art. 1747_WAALS_GEWEST
+###### Art. 1748
 
-## Art. 1748
+###### Art. 1748_WAALS_GEWEST
 
-## Art. 1748_WAALS_GEWEST
+###### Art. 1748_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1748_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1749
 
-## Art. 1749
+###### Art. 1749_WAALS_GEWEST
 
-## Art. 1749_WAALS_GEWEST
+###### Art. 1750
 
-## Art. 1750
+###### Art. 1750_WAALS_GEWEST
 
-## Art. 1750_WAALS_GEWEST
+###### Art. 1750_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1750_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1751
 
-## Art. 1751
+###### Art. 1751_WAALS_GEWEST
 
-## Art. 1751_WAALS_GEWEST
+###### Art. 1752
 
-## Art. 1752
+###### Art. 1752_WAALS_GEWEST
 
-## Art. 1752_WAALS_GEWEST
+###### Art. 1752bis, 1753
 
-Art. 1752bis, 1753
+###### Art. 1753_WAALS_GEWEST
 
-## Art. 1753_WAALS_GEWEST
+###### Art. 1754
 
-## Art. 1754
+###### Art. 1754_WAALS_GEWEST
 
-## Art. 1754_WAALS_GEWEST
+###### Art. 1754_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1754_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1755
 
-## Art. 1755
+###### Art. 1755_WAALS_GEWEST
 
-## Art. 1755_WAALS_GEWEST
+###### Art. 1755_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1755_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1756
 
-## Art. 1756
+###### Art. 1756_WAALS_GEWEST
 
-## Art. 1756_WAALS_GEWEST
+###### Art. 1756_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 1756_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1757
 
-## Art. 1757
+###### Art. 1757_WAALS_GEWEST
 
-## Art. 1757_WAALS_GEWEST
+###### Art. 1758
 
-## Art. 1758
+###### Art. 1758_WAALS_GEWEST
 
-## Art. 1758_WAALS_GEWEST
+###### Art. 1758bis, 1758ter, 1759, 1759bis, 1760
 
-Art. 1758bis, 1758ter, 1759, 1759bis, 1760
+###### Art. 1760_WAALS_GEWEST
 
-## Art. 1760_WAALS_GEWEST
+###### Art. 1762bis_WAALS_GEWEST
 
-## Art. 1762bis_WAALS_GEWEST
-
-##### AFDELING II. - REGELS BETREFFENDE DE HUUROVEREENKOMSTEN MET BETREKKING TOT DE
 HOOFDVERBLIJFPLAATS VAN DE HUURDER IN HET BIJZONDER. (Voor de autonome Tekst : 1991-02-20/32)
 
-##### AFDELING II. WAALS_GEWEST.
+##### AFDELING II. - REGELS BETREFFENDE DE HUUROVEREENKOMSTEN MET BETREKKING TOT DE
 
-##### AFDELING IIbis. - REGELS BETREFFENDE DE HANDELSHUUR IN HET BIJZONDER. (Voor de autonome Tekst :
+##### AFDELING II. WAALS_GEWEST.
 1951-04-30/30)
 
-##### AFDELING III. - REGELS BETREFFENDE DE PACHT IN HET BIJZONDER. (Voor de autonome Tekst : 1969-1104/31)
+##### AFDELING IIbis. - REGELS BETREFFENDE DE HANDELSHUUR IN HET BIJZONDER. (Voor de autonome Tekst :
 
+##### AFDELING III. - REGELS BETREFFENDE DE PACHT IN HET BIJZONDER. (Voor de autonome Tekst : 1969-1104/31)
 #### HOOFDSTUK III. - HUUR VAN WERK EN VAN DIENSTEN.
 
-## Art. 1779
+###### Art. 1779
+
 
 ##### AFDELING I. - HUUR VAN DIENSTBODEN EN WERKLIEDEN.
 
 ##### AFDELING II. - ONDERNEMERS VAN VERVOER TE LAND EN TE WATER.
 
 ##### AFDELING III. - BESTEKKEN EN AANNEMINGEN.
-
 #### HOOFDSTUK IV. - VEEPACHT.
+
 
 ##### AFDELING I. - ALGEMENE BEPALINGEN.
 
@@ -1232,15 +1237,14 @@ HOOFDVERBLIJFPLAATS VAN DE HUURDER IN HET BIJZONDER. (Voor de autonome Tekst : 1
 
 ##### AFDELING III. - VEEPACHT BIJ HELFTEN.
 
-##### AFDELING IV. - VEEPACHT DOOR DE EIGENAAR TOEGESTAAN AAN ZIJN PACHTER OF ZIJN DEELPACHTER.
-
 § I. VEEPACHT AAN DE PACHTER TOEGESTAAN.
 
 § II. VEEPACHT AAN DE DEELPACHTER TOEGESTAAN.
 
-##### AFDELING V. - CONTRACT ONEIGENLIJK VEEPACHT GENOEMD.
+##### AFDELING IV. - VEEPACHT DOOR DE EIGENAAR TOEGESTAAN AAN ZIJN PACHTER OF ZIJN DEELPACHTER.
 
-## Art. 1831
+##### AFDELING V. - CONTRACT ONEIGENLIJK VEEPACHT GENOEMD.
+###### Art. 1831
 
 ### TITEL IX. - (VENNOOTSCHAPPEN).
 
@@ -1248,44 +1252,44 @@ HOOFDVERBLIJFPLAATS VAN DE HUURDER IN HET BIJZONDER. (Voor de autonome Tekst : 1
 
 #### HOOFDSTUK II. - VERSCHILLENDE SOORTEN VAN VENNOOTSCHAPPEN.
 
-## Art. 1835
+###### Art. 1835
+
 
 ##### AFDELING I. - ALGEMENE VENNOOTSCHAPPEN.
 
 ##### AFDELING II. - BIJZONDERE VENNOOTSCHAP.
-
 #### HOOFDSTUK III. - VERPLICHTINGEN VAN DE VENNOTEN ONDERLING EN TEN AANZIEN VAN DERDEN.
+
 
 ##### AFDELING I. - VERPLICHTINGEN VAN DE VENNOTEN ONDERLING.
 
 ##### AFDELING II. - VERPLICHTINGEN VAN DE VENNOTEN TEN AANZIEN VAN DERDEN.
-
 #### HOOFDSTUK IV. - VERSCHILLENDE WIJZEN WAAROP DE VENNOOTSCHAP EINDIGT.
 
 BEPALING BETREFFENDE DE HANDELSVENNOOTSCHAPPEN.
 
-## Art. 1873
+###### Art. 1873
 
 ### TITEL X. - LENING.
 
-## Art. 1874
+###### Art. 1874
 
 #### HOOFDSTUK I. - BRUIKLENING OF COMMODAAT.
+
 
 ##### AFDELING I. - AARD VAN DE BRUIKLENING.
 
 ##### AFDELING II. - VERPLICHTINGEN VAN DE LENER.
 
 ##### AFDELING III. - VERPLICHTINGEN VAN DEGENE DIE IN BRUIKLEEN GEEFT.
-
 #### HOOFDSTUK II. - VERBRUIKLENING OF EENVOUDIGE LENING.
+
 
 ##### AFDELING I. - AARD VAN DE VERBRUIKLENING.
 
 ##### AFDELING II. - VERPLICHTINGEN VAN DE UITLENER.
 
 ##### AFDELING III. - VERPLICHTINGEN VAN DE LENER.
-
 #### HOOFDSTUK III. - LENING OP INTEREST.
 
 ### TITEL XI. - BEWAARGEVING EN SEKWESTER.
@@ -1293,6 +1297,7 @@ BEPALING BETREFFENDE DE HANDELSVENNOOTSCHAPPEN.
 #### HOOFDSTUK I. - BEWAARGEVING IN HET ALGEMEEN EN VERSCHILLENDE SOORTEN VAN BEWAARGEVING.
 
 #### HOOFDSTUK II. - EIGENLIJKE BEWAARGEVING.
+
 
 ##### AFDELING I. - AARD EN WEZEN VAN HET CONTRACT VAN BEWAARGEVING.
 
@@ -1303,29 +1308,28 @@ BEPALING BETREFFENDE DE HANDELSVENNOOTSCHAPPEN.
 ##### AFDELING IV. - VERPLICHTINGEN VAN DE BEWAARGEVER.
 
 ##### AFDELING V. - BEWAARGEVING UIT NOODZAAK.
-
 #### HOOFDSTUK III. - SEKWESTER.
 
-##### AFDELING I. - VERSCHILLENDE SOORTEN VAN SEKWESTER.
 
-## Art. 1955
+##### AFDELING I. - VERSCHILLENDE SOORTEN VAN SEKWESTER.
+###### Art. 1955
+
 
 ##### AFDELING II. - BIJ OVEREENKOMST BEDONGEN SEKWESTER.
 
 ##### AFDELING III. - GERECHTELIJK SEKWESTER OF GERECHTELIJK BEWAARGEVING.
-
 ### TITEL XII. - KANSCONTRACTEN.
 
-## Art. 1964
+###### Art. 1964
 
 #### HOOFDSTUK I. - SPEL EN WEDDENSCHAP.
 
 #### HOOFDSTUK II. - CONTRACT VAN LIJFRENTE.
 
+
 ##### AFDELING I. - VOORWAARDEN DIE VOOR DE GELDIGHEID VAN HET CONTRACT VEREIST ZIJN.
 
 ##### AFDELING II. - GEVOLGEN VAN HET CONTRACT TUSSEN DE CONTRACTERENDE PARTIJEN.
-
 ### TITEL XIII. - LASTGEVING.
 
 #### HOOFDSTUK I. - AARD EN VORM VAN DE LASTGEVING.
@@ -1342,13 +1346,13 @@ BEPALING BETREFFENDE DE HANDELSVENNOOTSCHAPPEN.
 
 #### HOOFDSTUK II.
 
+
 ##### AFDELING I.
 
 ##### AFDELING II.
 
 ##### AFDELING III.
-
-## Art. 2033
+###### Art. 2033
 
 #### HOOFDSTUK III.
 
@@ -1356,7 +1360,7 @@ BEPALING BETREFFENDE DE HANDELSVENNOOTSCHAPPEN.
 
 #### HOOFDSTUK V.
 
-Art. 2043bis, 2043ter, 2043quater, 2043quinquies, 2043sexies, 2043septies, 2043octies
+###### Art. 2043bis, 2043ter, 2043quater, 2043quinquies, 2043sexies, 2043septies, 2043octies
 
 ### TITEL XV. - DADING.
 
@@ -1378,11 +1382,12 @@ Art. 2043bis, 2043ter, 2043quater, 2043quinquies, 2043sexies, 2043septies, 2043o
 
 #### HOOFDSTUK IV. - OORZAKEN DIE DE VERJARING STUITEN OF SCHORSEN.
 
+
 ##### AFDELING I. - OORZAKEN DIE DE VERJARING STUITEN.
 
 ##### AFDELING II. - OORZAKEN DIE DE LOOP VAN DE VERJARING SCHORSEN.
-
 #### HOOFDSTUK V. - TIJD DIE VOOR DE VERJARING VEREIST IS.
+
 
 ##### AFDELING I. - ALGEMENE BEPALINGEN.
 
@@ -1391,36 +1396,35 @@ Art. 2043bis, 2043ter, 2043quater, 2043quinquies, 2043sexies, 2043septies, 2043o
 ##### AFDELING III. - TIENJARIGE EN TWINTIGJARIGE VERJARING.
 
 ##### AFDELING IV. - ENIGE BIJZONDERE VERJARINGEN.
-
 ### TITEL XXI. - (KENNISGEVING).
 
-## Art. 2281
+###### Art. 2281
 
 #### HOOFDSTUK II. - STELSEL VAN GEMEENSCHAP VAN GOEDEREN.
 
-## Art. 1399
+###### Art. 1399
 
 EERSTE DEEL. - WETTELIJKE GEMEENSCHAP.
 
-## Art. 1400
+###### Art. 1400
 
-##### AFDELING I. - BATEN EN LASTEN DIE DE GEMEENSCHAP UITMAKEN.
 
 § I. BATEN VAN DE GEMEENSCHAP.
 
 § II. LASTEN VAN DE GEMEENSCHAP EN VORDERINGEN TEGEN DE GEMEENSCHAP DIE DAARUIT ONTSTAAN.
 
-##### AFDELING II. - BEHEER VAN DE GEMEENSCHAP EN GEVOLGEN VAN DE HANDELINGEN VAN IEDER VAN BEIDE
+##### AFDELING I. - BATEN EN LASTEN DIE DE GEMEENSCHAP UITMAKEN.
 ECHTGENOTEN TEN OPZICHTE VAN DE HUWELIJKSGEMEENSCHAP.
 
-##### AFDELING III. - ONTBINDING VAN DE GEMEENSCHAP EN ENIGE GEVOLGEN DAARVAN.
+##### AFDELING II. - BEHEER VAN DE GEMEENSCHAP EN GEVOLGEN VAN DE HANDELINGEN VAN IEDER VAN BEIDE
 
-##### AFDELING IV. - AANVAARDING VAN DE GEMEENSCHAP, EN BEVOEGDHEID OM DAARVAN AFSTAND TE DOEN,
+##### AFDELING III. - ONTBINDING VAN DE GEMEENSCHAP EN ENIGE GEVOLGEN DAARVAN.
 MET DE VOORWAARDEN DIENAANGAANDE.
 
-##### AFDELING V. - VERDELING VAN DE AANVAARDE GEMEENSCHAP.
+##### AFDELING IV. - AANVAARDING VAN DE GEMEENSCHAP, EN BEVOEGDHEID OM DAARVAN AFSTAND TE DOEN,
 
-## Art. 1467
+##### AFDELING V. - VERDELING VAN DE AANVAARDE GEMEENSCHAP.
+###### Art. 1467
 
 § 1. VERDELINGEN VAN DE BATEN.
 
@@ -1431,58 +1435,58 @@ AFDELlNG VI. - AFSTAND VAN DE GEMEENSCHAP EN GEVOLGEN DAARVAN.
 BEPALING BETREFFENDE DE WETTELIJKE GEMEENSCHAP, INGEVAL EEN VAN DE ECHTGENOTEN OF BEIDE
 ECHTGENOTEN KINDEREN HEBBEN UIT EEN VROEGER HUWELIJK.
 
-## Art. 1496
+###### Art. 1496
 
 TWEEDE DEEL. BEDONGEN GEMEENSCHAP EN OVEREENKOMSTEN WAARBIJ DE WETTELIJKE GEMEENSCHAP
 KAN WORDEN GEWIJZIGD OF ZELFS UITGESLOTEN.
 
-## Art. 1497
+###### Art. 1497
+
 
 ##### AFDELING I. - GEMEENSCHAP TOT DE AANWINSTEN BEPERKT.
-
-##### AFDELING II. - BEDING WAARBIJ DE ROERENDE GOEDEREN GEHEEL OF TEN DELE VAN DE GEMEENSCHAP
 WORDEN UITGESLOTEN.
 
 AFDELlNG III. - BEDING WAARBIJ ONROERENDE GOEDEREN ALS ROEREND GOED WORDEN INGEBRACHT.
 
-##### AFDELING IV. - BEDING VAN SCHEIDING VAN SCHULDEN.
+##### AFDELING II. - BEDING WAARBIJ DE ROERENDE GOEDEREN GEHEEL OF TEN DELE VAN DE GEMEENSCHAP
 
-##### AFDELING V. - BEVOEGDHEID AAN DE VROUW VERLEEND OM HAAR INBRENG VRIJ EN ONBELAST TERUG TE
+##### AFDELING IV. - BEDING VAN SCHEIDING VAN SCHULDEN.
 NEMEN.
 
-## Art. 1514
+##### AFDELING V. - BEVOEGDHEID AAN DE VROUW VERLEEND OM HAAR INBRENG VRIJ EN ONBELAST TERUG TE
+###### Art. 1514
+
 
 ##### AFDELING VI. - BEDONGEN VOORUITNEMING.
-
-##### AFDELING VII. - BEDINGEN WAARBIJ AAN DE ECHTGENOTEN EEN ONGELIJK AANDEEL IN DE GEMEENSCHAP
 WORDT TOEGEKEND.
 
-##### AFDELING VIII. - ALGEMENE GEMEENSCHAP.
+##### AFDELING VII. - BEDINGEN WAARBIJ AAN DE ECHTGENOTEN EEN ONGELIJK AANDEEL IN DE GEMEENSCHAP
 
-## Art. 1526
+##### AFDELING VIII. - ALGEMENE GEMEENSCHAP.
+###### Art. 1526
 
 BEPALINGEN AAN DE ACHT VOORAFGAANDE AFDELINGEN GEMEEN.
 
-##### AFDELING IX. - OVEREENKOMSTEN WAARBIJ DE GEMEENSCHAP VAN GOEDEREN WORDT UITGESLOTEN.
 
-## Art. 1529
+##### AFDELING IX. - OVEREENKOMSTEN WAARBIJ DE GEMEENSCHAP VAN GOEDEREN WORDT UITGESLOTEN.
+###### Art. 1529
 
 § I. BEDING WAARBIJ BEPAALD WORDT DAT DE ECHTGENOTEN ZONDER GEMEENSCHAP HUWEN.
 
 #### HOOFDSTUK III. - DOTAAL STELSEL.
 
+
 ##### AFDELING I. - AANBRENGST VAN HUWELIJKSGOED.
+VAN HET DOTALE ERF.
 
 ##### AFDELING II. - RECHTEN VAN DE MAN BETREFFENDE DE DOTALE GOEDEREN, EN ONVERVREEMDBAARHEID
-VAN HET DOTALE ERF.
 
 ##### AFDELING III. - TERUGGAVE VAN HET HUWELIJKSGOED.
 
-##### AFDELING IV. - PARAFERNALE GOEDEREN.
-
 BIJZONDERE BEPALING.
 
-## Art. 1581
+##### AFDELING IV. - PARAFERNALE GOEDEREN.
+###### Art. 1581
 
 Inleidende bepalingen. Overdracht van zakelijke rechten.
 
@@ -1490,57 +1494,57 @@ Inleidende bepalingen. Overdracht van zakelijke rechten.
 
 #### HOOFDSTUK II. _ Voorrechten.
 
-##### AFDELING I. _ Voorrechten op roerende en onroerende goederen.
 
-## Art. 17
+##### AFDELING I. _ Voorrechten op roerende en onroerende goederen.
+###### Art. 17
+
 
 ##### AFDELING II. _ Voorrechten op roerende goederen.
-
-## Art. 18
+###### Art. 18
 
 § I. ALGEMENE VOORRECHTEN OP ROERENDE GOEDEREN.
 
-## Art. 19
+###### Art. 19
 
 § II. VOORRECHTEN OP BEPAALDE ROERENDE GOEDEREN.
 
-## Art. 20
+###### Art. 20
 
 § III. RANG VAN DE VOORRECHTEN OP ROERENDE GOEDEREN IN GEVAL VAN SAMENLOOP VAN DIE
 VOORRECHTEN.
 
+
 ##### AFDELING III. _ Voorrechten op onroerende goederen.
 
 ##### AFDELING IV. _ Hoe voorrechten bewaard worden.
-
 #### HOOFDSTUK III. _ Hypotheken.
 
+
 ##### AFDELING I. _ Wettelijke hypotheken.
+###### Art. 47
 
-## Art. 47
+###### Art. 47_WAALS_GEWEST
 
-## Art. 47_WAALS_GEWEST
-
-## Art. 48
+###### Art. 48
 
 § 1. WAARBORGEN DOOR VOOGDEN TE VERSTREKKEN IN HET BELANG VAN MINDERJARIGEN EN
 ONBEKWAAMVERKLAARDEN.
 
 § 2. WAARBORGEN TEN BEHOEVE VAN GEHUWDE VROUWEN. (Opgeheven. - Overgangsbepaling)
 
+
 ##### AFDELING II. - Bedongen hypotheken.
 
 ##### AFDELING III. _ Rang van de hypotheken onderling.
+###### Art. 81
 
-## Art. 81
 
 ##### AFDELING IV. [1 - Hypotheken voor alle sommen]1
+###### Art. 81bis
 
-## Art. 81bis
 
 ##### AFDELING V. - [1 Overdracht van bevoorrechte en hypothecaire schuldvorderingen.]1
-
-Art. 81ter, 81quater, 81quinquies, 81sexies, 81septies, 81octies, 81nonies, 81decies, 81undecies
+###### Art. 81ter, 81quater, 81quinquies, 81sexies, 81septies, 81octies, 81nonies, 81decies, 81undecies
 
 #### HOOFDSTUK IV. _ Wijze van inschrijving van de voorrechten en hypotheken.
 
@@ -1550,7 +1554,7 @@ Art. 81ter, 81quater, 81quinquies, 81sexies, 81septies, 81octies, 81nonies, 81de
 
 #### HOOFDSTUK VII. _ Tenietgaan van de voorrechten en hypotheken.
 
-## Art. 108
+###### Art. 108
 
 #### HOOFDSTUK VIII. _ Wijze waarop eigendommen van de voorrechten en hypotheken worden gezuiverd.
 
@@ -1562,35 +1566,35 @@ Art. 81ter, 81quater, 81quinquies, 81sexies, 81septies, 81octies, 81nonies, 81de
 
 #### Hoofdstuk XII. _ Materiële vormen van de formaliteiten van openbaarmaking en van de aanvragen.
 
-## Art. 144
+###### Art. 144
 
 #### Hoofdstuk XIII.[1 De organisatie van de hypotheekbewaring]1
 
-##### Afdeling IIbis. Regels betreffende de handelshuur in het bijzonder.
 
 § 1. Handelshuur.
 
-## Art. 1
+##### Afdeling IIbis. Regels betreffende de handelshuur in het bijzonder.
+###### Art. 1
 
-## Art. 1_WAALS_GEWEST
+###### Art. 1_WAALS_GEWEST
 
-## Art. 2
+###### Art. 2
 
-## Art. 2_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 2_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
-## Art. 2_WAALS_GEWEST
+###### Art. 2_WAALS_GEWEST
 
-## Art. 2_VLAAMS_GEWEST
+###### Art. 2_VLAAMS_GEWEST
 
 § 2. Duur van de handelshuur.
 
-## Art. 3
+###### Art. 3
 
-## Art. 3_WAALS_GEWEST
+###### Art. 3_WAALS_GEWEST
 
 § 3. Herziening van de huur.
 
-## Art. 6
+###### Art. 6
 
 § 4. Recht van de huurder om het gehuurde goed voor zijn bedrijf geschikt te maken.
 
@@ -1598,205 +1602,206 @@ Art. 81ter, 81quater, 81quinquies, 81sexies, 81septies, 81octies, 81nonies, 81de
 
 § 6. Overdracht van het gehuurde goed.
 
-## Art. 12
+###### Art. 12
 
 § 7. Recht op hernieuwing van de huur.
 
-## Art. 13
+###### Art. 13
 
-## Art. 13_WAALS_GEWEST
+###### Art. 13_WAALS_GEWEST
 
 § 8. Vergoeding wegens uitzetting.
 
 § 9. Rechtspleging.
 
-##### Afdeling 3. - Regels betreffende de pacht in het bijzonder.
 
 § 1. - Pacht.
 
-## Art. 2_WAALS_GEWEST
+##### Afdeling 3. - Regels betreffende de pacht in het bijzonder.
+###### Art. 2_WAALS_GEWEST
 
-## Art. 2_VLAAMS_GEWEST
+###### Art. 2_VLAAMS_GEWEST
 
-## Art. 2bis_WAALS_GEWEST
+###### Art. 2bis_WAALS_GEWEST
 
-## Art. 2ter_WAALS_GEWEST
+###### Art. 2ter_WAALS_GEWEST
 
-## Art. 3
+###### Art. 3
 
-## Art. 3_WAALS_GEWEST
+###### Art. 3_WAALS_GEWEST
 
 § 2. - Pachttijd.
 
-## Art. 4
+###### Art. 4
 
-## Art. 4_WAALS_GEWEST
+###### Art. 4_WAALS_GEWEST
 
-## Art. 5
+###### Art. 5
 
 § 3. - Opzegging door de verpachter.
 
-## Art. 6
+###### Art. 6
 
-## Art. 6_VLAAMS_GEWEST
+###### Art. 6_VLAAMS_GEWEST
 
-Art. 6_WAALSE_GEWEST, 7
+###### Art. 6_WAALSE_GEWEST, 7
 
-## Art. 7_WAALS_GEWEST
+###### Art. 7_WAALS_GEWEST
 
-## Art. 8
+###### Art. 8
 
-## Art. 8_WAALS_GEWEST
+###### Art. 8_WAALS_GEWEST
 
-## Art. 8BIS
+###### Art. 8BIS
 
-## Art. 8bis_WAALS_GEWEST
+###### Art. 8bis_WAALS_GEWEST
 
-## Art. 9
+###### Art. 9
 
-## Art. 9_WAALS_GEWEST
+###### Art. 9_WAALS_GEWEST
 
-## Art. 9_VLAAMS_GEWEST
+###### Art. 9_VLAAMS_GEWEST
 
-## Art. 10
+###### Art. 10
 
-## Art. 10_WAALS_GEWEST
+###### Art. 10_WAALS_GEWEST
 
-## Art. 10bis_WAALS_GEWEST
+###### Art. 10bis_WAALS_GEWEST
 
-## Art. 11
+###### Art. 11
 
-## Art. 11_WAALS_GEWEST
+###### Art. 11_WAALS_GEWEST
 
-## Art. 11bis
+###### Art. 11bis
 
-## Art. 11bis_WAALS_GEWEST
+###### Art. 11bis_WAALS_GEWEST
 
-## Art. 12
+###### Art. 12
 
-## Art. 12_WAALS_GEWEST
+###### Art. 12_WAALS_GEWEST
 
-## Art. 12_VLAAMS_GEWEST
+###### Art. 12_VLAAMS_GEWEST
 
-## Art. 13
+###### Art. 13
 
 § 4. - Opzegging door de pachter en beëindiging in onderlinge overeenstemming.
 
-## Art. 14
+###### Art. 14
 
 § 5. - Vergissingen inzake oppervlakte en gevallen van bezitsaanmatiging.
 
 § 6. - Pachtprijs en andere geldelijke lasten.
 
-## Art. 17
+###### Art. 17
 
-## Art. 17_WAALS_GEWEST
+###### Art. 17_WAALS_GEWEST
 
-## Art. 18
+###### Art. 18
 
-## Art. 18_WAALS_GEWEST
+###### Art. 18_WAALS_GEWEST
 
-## Art. 19
+###### Art. 19
 
-## Art. 19_WAALS_GEWEST
+###### Art. 19_WAALS_GEWEST
 
 § 7. - Exploitatie van het gepachte goed.
 
-## Art. 24
+###### Art. 24
 
-## Art. 24_WAALS_GEWEST
+###### Art. 24_WAALS_GEWEST
 
-## Art. 26_WAALS_GEWEST
+###### Art. 26_WAALS_GEWEST
 
-## Art. 28_WAALS_GEWEST
+###### Art. 28_WAALS_GEWEST
 
 § 8. - Onderpacht en pachtoverdracht.
 
-## Art. 30
+###### Art. 30
 
-## Art. 30_WAALS_GEWEST
+###### Art. 30_WAALS_GEWEST
 
-## Art. 30bis_WAALS_GEWEST
+###### Art. 30bis_WAALS_GEWEST
 
-## Art. 31
+###### Art. 31
 
-## Art. 31_WAALS_GEWEST
+###### Art. 31_WAALS_GEWEST
 
-## Art. 34_WAALS_GEWEST
+###### Art. 34_WAALS_GEWEST
 
-## Art. 34bis
+###### Art. 34bis
 
-## Art. 34bis_WAALS_GEWEST
+###### Art. 34bis_WAALS_GEWEST
 
-## Art. 35
+###### Art. 35
 
-## Art. 35_WAALS_GEWEST
+###### Art. 35_WAALS_GEWEST
 
-## Art. 36
+###### Art. 36
 
-## Art. 36_WAALS_GEWEST
+###### Art. 36_WAALS_GEWEST
 
-## Art. 36bis_WAALS_GEWEST
+###### Art. 36bis_WAALS_GEWEST
 
-## Art. 37
+###### Art. 37
 
-## Art. 37_WAALS_GEWEST
+###### Art. 37_WAALS_GEWEST
 
 § 9. - Overlijden van de pachter.
 
-## Art. 39_WAALS_GEWEST
+###### Art. 39_WAALS_GEWEST
 
-## Art. 41_WAALS_GEWEST
+###### Art. 41_WAALS_GEWEST
 
-## Art. 43_WAALS_GEWEST
+###### Art. 43_WAALS_GEWEST
 
-## Art. 44
+###### Art. 44
 
 § 10. - Vergoedingen toekomende aan de afgaande pachter.
 
-## Art. 45
+###### Art. 45
 
-## Art. 45_WAALS_GEWEST
+###### Art. 45_WAALS_GEWEST
 
-## Art. 46
+###### Art. 46
 
-## Art. 46_VLAAMS_GEWEST
+###### Art. 46_VLAAMS_GEWEST
 
 § 11. - Vervreemding van het gepachte goed en recht van voorkoop van de pachter.
 
-## Art. 47
+###### Art. 47
 
-## Art. 47_WAALS_GEWEST
+###### Art. 47_WAALS_GEWEST
 
-## Art. 48
+###### Art. 48
 
-## Art. 48_WAALS_GEWEST
+###### Art. 48_WAALS_GEWEST
 
-## Art. 48bis
+###### Art. 48bis
 
-## Art. 48bis_WAALS_GEWEST
+###### Art. 48bis_WAALS_GEWEST
 
-## Art. 49
+###### Art. 49
 
-## Art. 49_WAALS_GEWEST
+###### Art. 49_WAALS_GEWEST
 
-## Art. 52_WAALS_GEWEST
+###### Art. 52_WAALS_GEWEST
 
-## Art. 54_WAALS_GEWEST
+###### Art. 54_WAALS_GEWEST
 
-## Art. 55
+###### Art. 55
 
-## Art. 55_WAALS_GEWEST
+###### Art. 55_WAALS_GEWEST
 
 § 12. - Algemene bepalingen.
 
-## Art. 57_WAALS_GEWEST
+###### Art. 57_WAALS_GEWEST
 
-## Art. 57bis_WAALS_GEWEST
+###### Art. 57bis_WAALS_GEWEST
 
-## Art. 58
+###### Art. 58
 
 #### HOOFDSTUK 1. - Pandrecht
+
 
 ##### Afdeling 1. - Algemeen
 
@@ -1809,8 +1814,7 @@ Art. 6_WAALSE_GEWEST, 7
 ##### Afdeling 5 - Rangconflicten
 
 ##### Afdeling 6 - Pandrecht op geldsom
-
-## Art. 59
+###### Art. 59
 
 ##### Afdeling 7 [1 - Pandrecht op schuldvorderingen]1
 
@@ -1822,99 +1826,99 @@ Art. 6_WAALSE_GEWEST, 7
 
 #### Hoofdstuk 1. Algemene bepalingen
 
-##### Afdeling 1. Definities
 
-## Art. 8.1
+##### Afdeling 1. Definities
+###### Art. 8.1
+
 
 ##### Afdeling 2. Aanvullend karakter van de bewijsregels
+###### Art. 8.2
 
-## Art. 8.2
 
 ##### Afdeling 3. Voorwerp van het bewijs
+###### Art. 8.3
 
-## Art. 8.3
 
 ##### Afdeling 4. Bewijslast
+###### Art. 8.4
 
-## Art. 8.4
 
 ##### Afdeling 5. Bewijsstandaard
+###### Art. 8.5-8.6
 
-Art. 8.5-8.6
 
 ##### Afdeling 6. Wettelijke vermoedens
-
-## Art. 8.7
+###### Art. 8.7
 
 #### Hoofdstuk 2. Toelaatbaarheid van de bewijsmiddelen
 
-##### Afdeling 1. Algemene bepalingen
 
-Art. 8.8-8.9
+##### Afdeling 1. Algemene bepalingen
+###### Art. 8.8-8.9
+
 
 ##### Afdeling 2. Uitzonderingen op het gereglementeerde bewijsstelsel
-
-Art. 8.10-8.14
+###### Art. 8.10-8.14
 
 #### Hoofdstuk 3. Bewijsmiddelen
 
-##### Afdeling 1. Bewijs door ondertekend geschrift
 
+##### Afdeling 1. Bewijs door ondertekend geschrift
 ##### Onderafdeling 1. Authentieke akte
 
-Art. 8.15-8.17
+###### Art. 8.15-8.17
 
 ##### Onderafdeling 2. Onderhandse akte
 
-Art. 8.18-8.22
+###### Art. 8.18-8.22
 
 ##### Onderafdeling 3. Onderhandse akte die mede wordt ondertekend door de advocaten van de partijen
 
-## Art. 8.23
+###### Art. 8.23
 
 ##### Onderafdeling 4. Andere geschriften
 
-## Art. 8.24
+###### Art. 8.24
 
 ##### Onderafdeling 5. Afschriften
 
-Art. 8.25-8.26
+###### Art. 8.25-8.26
 
 ##### Onderafdeling 6. Teruggave van de akte door de schuldeiser aan de schuldenaar
 
-## Art. 8.27
+###### Art. 8.27
+
 
 ##### Afdeling 2. Bewijs door getuigen
+###### Art. 8.28
 
-## Art. 8.28
 
 ##### Afdeling 3. Bewijs door feitelijke vermoedens
+###### Art. 8.29
 
-## Art. 8.29
 
 ##### Afdeling 4. Bekentenis
+###### Art. 8.30-8.32
 
-Art. 8.30-8.32
 
 ##### Afdeling 5. Eed
-
-## Art. 8.33
+###### Art. 8.33
 
 ##### Onderafdeling 1. Beslissende eed
 
-Art. 8.34-8.37
+###### Art. 8.34-8.37
 
 ##### Onderafdeling 2. Ambtshalve opgelegde eed
 
-Art. 8.38-8.39
+###### Art. 8.38-8.39
 
 INLEIDENDE TITEL. - BEKENDMAKING, GEVOLGEN EN TOEPASSING VAN DE WETTEN IN HET ALGEMEEN.
 
-## Art. 1
+###### Art. 1
 
 <Opgeheven bij W 2022-04-28/24, art. 1, 096; Inwerkingtreding : 01-01-2023>
 
-## Art. 2
+###### Art. 2
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 097; Inwerkingtreding : 01-01-2023>
 
@@ -1926,14 +1930,14 @@ INLEIDENDE TITEL. - BEKENDMAKING, GEVOLGEN EN TOEPASSING VAN DE WETTEN IN HET AL
 
 (1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 3.[1 (oud artikel 7)]1 De uitoefening van de burgerlijke rechten is onafhankelijk van de hoedanigheid van
+###### Art. 3.[1 (oud artikel 7)]1 De uitoefening van de burgerlijke rechten is onafhankelijk van de hoedanigheid van
 staatsburger, die alleen overeenkomstig de Grondwet wordt verkregen en behouden.
 (1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 4.[1 (oud artikel 8)]1 Ieder Belg heeft het genot van de burgerlijke rechten.
+###### Art. 4.[1 (oud artikel 8)]1 Ieder Belg heeft het genot van de burgerlijke rechten.
 (1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 5.[1 (oud artikel 11)]1 <W 15-12-1980, art. 84> Een vreemdeling heeft in België het genot van alle aan de
+###### Art. 5.[1 (oud artikel 11)]1 <W 15-12-1980, art. 84> Een vreemdeling heeft in België het genot van alle aan de
 Belgen verleende burgerlijke rechten behoudens de uitzonderingen door de wet gesteld.
 Een vreemdeling die gemachtigd is zich in het Rijk te vestigen en die in het bevolkingsregister is ingeschreven,
 heeft het genot van alle aan de Belgen verleende burgerlijke rechten zolang hij in België verblijf houdt.
@@ -1943,12 +1947,12 @@ heeft het genot van alle aan de Belgen verleende burgerlijke rechten zolang hij 
 
 (1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
+(1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
+
 ##### AFDELING I. [1 ...]1
 (1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
 ##### AFDELING II. [1 ...]1
-(1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
-
 ### TITEL II. [1 - DE BURGERLIJKE STAND.]1
 
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
@@ -1957,11 +1961,11 @@ heeft het genot van alle aan de Belgen verleende burgerlijke rechten zolang hij 
 
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 1. [1 Doelstellingen van de burgerlijke stand]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 6
+##### Afdeling 1. [1 Doelstellingen van de burgerlijke stand]1
+###### Art. 6
 
 [1 § 1. De burgerlijke stand heeft als voornaamste doelstellingen :
 - de rechtsfeiten en rechtshandelingen vast te stellen die de staat van een persoon bepalen of wijzigen;
@@ -1973,11 +1977,11 @@ in de familie en in de maatschappij bepalen en die hem onderscheiden van de ande
 de uitoefening van bepaalde rechten betreft.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 2. [1 De ambtenaar van de burgerlijke stand]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 7
+##### Afdeling 2. [1 De ambtenaar van de burgerlijke stand]1
+###### Art. 7
 
 [1 Het college van burgemeester en schepenen is bevoegd voor het beheer van de burgerlijke stand.
 De burgemeester, of een hiertoe door het college aangeduide schepen, vervult de taak van ambtenaar van de
@@ -1987,7 +1991,7 @@ Bij verhindering van de ambtenaar van de burgerlijke stand wordt deze tijdelijk 
 burgemeester, een schepen of een raadslid in de volgorde van hun benoemingen.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 8
+###### Art. 8
 
 [1 Wanneer binnengemeentelijke territoriale organen werden opgericht overeenkomstig artikel 41 van de
 Grondwet, kan het college van burgemeester en schepenen, in afwijking van artikel 7, één of meer schepenen
@@ -1995,7 +1999,7 @@ aanwijzen voor de taak van de ambtenaar van de burgerlijke stand wanneer de burg
 uitoefent, die elk voor één of meer binnengemeentelijke territoriale organen bevoegd zullen zijn.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 9.[1 De ambtenaar van de burgerlijke stand kan voor alle taken inzake het opmaken van akten van
+###### Art. 9.[1 De ambtenaar van de burgerlijke stand kan voor alle taken inzake het opmaken van akten van
 burgerlijke stand, met inbegrip van het afleveren van afschriften en uittreksels ervan [2 en het indienen van een
 verzoekschrift als bedoeld in artikel 35, § 1, tweede lid]2, een speciale schriftelijke machtiging verlenen aan één of
 meer beambten van het gemeentebestuur. [3 Deze machtiging wordt gemeld voor de handtekening van de
@@ -2007,13 +2011,13 @@ beambten van het gemeentebestuur, aan wie de machtiging is verleend.]3
 (2)<W 2020-07-31/03, art. 2, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-09-13/08, art. 2, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 10
+###### Art. 10
 
 [1 De consulaire ambtenaren, bij het Consulair Wetboek bevoegd verklaard inzake burgerlijke stand, zijn
 bevoegd voor de bediening van de burgerlijke stand onder de voorwaarden bepaald in het Consulair Wetboek.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 11.[1 [2 De officier aangeduid door de minister van Defensie of de hiertoe gedelegeerde autoriteit maakt,
+###### Art. 11.[1 [2 De officier aangeduid door de minister van Defensie of de hiertoe gedelegeerde autoriteit maakt,
 van zodra mogelijk, een proces-verbaal van overlijden op]2 van de personen van Belgische nationaliteit in dienst
 van de Belgische strijdkrachten, alsook van het personeel van Defensie van Belgische nationaliteit waarvan de
 aanwezigheid bij deze Strijdkrachten is vereist, overeenkomstig de bepalingen van dit Wetboek indien het, bij
@@ -2028,7 +2032,7 @@ Rijksarchief in de Provinciën.]2
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 3, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 12
+###### Art. 12
 
 [1 De ambtenaar van de burgerlijke stand of zijn gemachtigde mag geen akte van de burgerlijke stand
 opmaken die betrekking heeft op zichzelf, zijn echtgenoot of echtgenote, zijn wettelijk samenwonende partner,
@@ -2037,7 +2041,7 @@ graad.
 Artikel 7, derde lid, is in dit geval van toepassing.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 13.[1 Tenzij de wet anders bepaalt, is de bevoegde ambtenaar van de burgerlijke stand deze van :
+###### Art. 13.[1 Tenzij de wet anders bepaalt, is de bevoegde ambtenaar van de burgerlijke stand deze van :
 - de plaats van inschrijving in het bevolkings-, vreemdelingen- of wachtregister van de betrokkene, de
 betrokkenen of één van hen; of bij gebrek hieraan,
 [2 - de laatste plaats van inschrijving in het bevolkings-, vreemdelingen- of wachtregister van de betrokkene, de
@@ -2047,11 +2051,11 @@ betrokkenen of één van hen; of bij gebrek hieraan,]2
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 4, 102; Inwerkingtreding : 01-01-2024>
 
-##### Afdeling 3. [1 De akten van de burgerlijke stand]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 14
+##### Afdeling 3. [1 De akten van de burgerlijke stand]1
+###### Art. 14
 
 [1 De akten van de burgerlijke stand zijn authentieke akten.
 De akten van de burgerlijke stand worden, behoudens wettelijke uitzonderingen, in gedematerialiseerde vorm
@@ -2066,7 +2070,7 @@ de ambtenaar van de burgerlijke stand die de akte heeft opgemaakt, tot op het og
 het proces-verbaal aan het Algemeen Rijksarchief en Rijksarchief in de Provinciën.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 15
+###### Art. 15
 
 [1 De bijlagen worden slechts in de DABS gevoegd, bij de akten van de burgerlijke stand waarop ze
 betrekking hebben, wanneer de wet dit uitdrukkelijk vermeldt en voor zover ze niet beschikbaar zijn in een
@@ -2075,27 +2079,27 @@ Indien de partijen bijlagen hebben overgelegd aan de ambtenaar van de burgerlijk
 van deze bijlagen aan hen teruggeven.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 16
+###### Art. 16
 
 [1 De ambtenaar van de burgerlijke stand vermeldt in de akten die hij opmaakt niets anders dan wat
 hem door de partijen moet worden verklaard en wat hem door de wet wordt opgelegd.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 17
+###### Art. 17
 
 [1 De personen waarop de akte betrekking heeft of die betrokken zijn bij de totstandkoming ervan zijn
 verplicht de ambtenaar van de burgerlijke stand alle informatie mee te delen die de ambtenaar nodig heeft om de
 akte op te maken, voor zover deze informatie niet beschikbaar is in een andere authentieke bron.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 18.[1 § 1. De ambtenaar van de burgerlijke stand tekent de door hem opgemaakte of, overeenkomstig
+###### Art. 18.[1 § 1. De ambtenaar van de burgerlijke stand tekent de door hem opgemaakte of, overeenkomstig
 afdeling 6, gewijzigde akten [2 en processen-verbaal]2, tenzij de wet anders bepaalt.
 § 2. [2 Onverminderd artikel 8.15, derde lid, van het Burgerlijk Wetboek, kan de handtekening uit een
 handgeschreven handtekening bestaan in geval van toepassing van artikel 14, vierde lid.]2]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 5, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 19
+###### Art. 19
 
 [1 Door de ondertekening van de in artikel 18, § 1, bedoelde akten waarborgt de ambtenaar van de
 burgerlijke stand :
@@ -2108,30 +2112,30 @@ De akten van de burgerlijke stand die de wijziging van de in het eerste lid bedo
 zichtbaar in de DABS.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 20
+###### Art. 20
 
 [1 Er wordt niets bij afkorting in de akten van de burgerlijke stand vermeld.
 De data worden in cijfers uitgedrukt.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 21.[1 De belanghebbende partijen kunnen zich bij alle akten [2 en aangiften]2, met uitzondering van de
+###### Art. 21.[1 De belanghebbende partijen kunnen zich bij alle akten [2 en aangiften]2, met uitzondering van de
 huwelijksakte, laten vertegenwoordigen door een lasthebber door middel van een bijzondere en authentieke
 volmacht.
 De volmacht wordt als bijlage [2 bij de akte]2 in de DABS opgenomen.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 6, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 22
+###### Art. 22
 
 [1 De ambtenaar van de burgerlijke stand kan de akte voorlezen. In elk geval wordt de akte voorgelezen
 op verzoek van één van de verschijnende partijen.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 4. [1 Bewijskracht van akten van de burgerlijke stand]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 23
+##### Afdeling 4. [1 Bewijskracht van akten van de burgerlijke stand]1
+###### Art. 23
 
 [1 Enkel de akten van de burgerlijke stand gelden als enige bewijs van de staat van de persoon, tenzij de
 wet het anders bepaalt.
@@ -2139,12 +2143,12 @@ Enkel de processen-verbaal als bedoeld in de artikelen 14, vierde lid, 47 en 57 
 staat van de persoon, zolang er op basis hiervan geen akte van de burgerlijke stand werd opgemaakt.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 24.[1 De na [2 31 maart 2019]2 in de DABS opgenomen akten, alsook de afschriften en uittreksels daarvan,
+###### Art. 24.[1 De na [2 31 maart 2019]2 in de DABS opgenomen akten, alsook de afschriften en uittreksels daarvan,
 gelden tot bewijs van valsheid in geschrifte.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 61, 102; Inwerkingtreding : 01-01-2024>
 
-Art. 25.[1 § 1. De in gedematerialiseerde vorm in de DABS opgenomen akten van de burgerlijke stand op basis
+###### Art. 25.[1 § 1. De in gedematerialiseerde vorm in de DABS opgenomen akten van de burgerlijke stand op basis
 van de vóór [2 31 maart 2019]2 op papier opgemaakte akten, gelden tot bewijs van het tegendeel.
 De oorspronkelijke papieren akten gelden tot bewijs van valsheid in geschrifte.
 In geval van tegenstrijdigheid tussen een oorspronkelijke papieren akte en dezelfde, in gedematerialiseerde
@@ -2157,7 +2161,7 @@ gelden tot bewijs van valsheid in geschrifte.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 61, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 26
+###### Art. 26
 
 [1 Indien een akte van de burgerlijke stand vernietigd of verloren is gegaan, kan de akte vervangen
 worden overeenkomstig artikel 35.
@@ -2165,18 +2169,18 @@ De vernietiging of het verlies en de inhoud van de akte kunnen bewezen worden do
 authentieke bronnen of door getuigen.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 27
+###### Art. 27
 
 [1 Elke persoon kan de vervangende akte van de burgerlijke stand aan elke verzoekende overheid
 overleggen, indien hij aantoont dat hij nog steeds in de onmogelijkheid verkeert de betrokken akte van de
 burgerlijke stand te verkrijgen, voor zover de juistheid van de erin vervatte gegevens niet wordt weerlegd.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 5. [1 Uittreksels en afschriften]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 28.[1 § 1. Er kunnen zowel uittreksels als afschriften worden afgeleverd van de akten van de burgerlijke
+##### Afdeling 5. [1 Uittreksels en afschriften]1
+###### Art. 28.[1 § 1. Er kunnen zowel uittreksels als afschriften worden afgeleverd van de akten van de burgerlijke
 stand.
 § 2. Een uittreksel vermeldt de actuele gegevens van de akte, zonder de historiek van de staat van de persoon
 op wie de akte betrekking heeft.
@@ -2191,7 +2195,7 @@ een buitenlandse akte of op basis van een buitenlandse gerechtelijke of administ
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 7, 102; Inwerkingtreding : 01-01-2024>
 
-Art. 29.[1 § 1. [2 Eenieder heeft recht op een uittreksel van:
+###### Art. 29.[1 § 1. [2 Eenieder heeft recht op een uittreksel van:
 1° akten van overlijden;
 2° akten van huwelijk van meer dan vijfenzeventig jaar oud;
 3° anderen akten van meer dan honderd jaar oud.]2
@@ -2230,7 +2234,7 @@ elektronisch zegel van de DABS.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 8, 102; Inwerkingtreding : 01-01-2025>
 
-Art. 30.[1 § 1. Voor akten van de burgerlijke stand opgemaakt vóór [2 31 maart 2019]2 neemt een afschrift van
+###### Art. 30.[1 § 1. Voor akten van de burgerlijke stand opgemaakt vóór [2 31 maart 2019]2 neemt een afschrift van
 een akte de vorm aan van een afdruk van de in gedematerialiseerde vorm in de DABS opgenomen
 oorspronkelijke akte met de hierop aangebrachte randmeldingen en de metadata van de wijzigingen van deze
 akte na [2 31 maart 2019]2.
@@ -2243,11 +2247,11 @@ akte in de DABS.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 61, 102; Inwerkingtreding : 01-01-2024>
 
-##### Afdeling 6. [1 Wijzigingen van akten van de burgerlijke stand]1
 
 (1)<W 2020-07-31/03, art. 3, 089; Inwerkingtreding : 01-09-2020>
 
-Art. 31.[1 § 1. In geval een in kracht van gewijsde gegane rechterlijke beslissing een wijziging van één of
+##### Afdeling 6. [1 Wijzigingen van akten van de burgerlijke stand]1
+###### Art. 31.[1 § 1. In geval een in kracht van gewijsde gegane rechterlijke beslissing een wijziging van één of
 meerdere akten van de burgerlijke stand tot gevolg heeft, en voor zover hiervan geen akte van de burgerlijke
 stand kan worden opgemaakt zoals bepaald in hoofdstuk 2, maakt de bevoegde ambtenaar de gewijzigde akte of
 akten op.
@@ -2273,11 +2277,11 @@ bevoegde procureur des Konings.]3]2
 (2)<W 2020-07-31/03, art. 4, 089; Inwerkingtreding : 31-03-2019>
 (3)<W 2023-09-13/08, art. 9, 102; Inwerkingtreding : 01-01-2024>
 
-##### Afdeling 7. [1 Meldingen op akten van de burgerlijke stand]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 32.[1 § 1. [3 De volgende rechterlijke beslissingen of administratieve beslissingen geven aanleiding tot een
+##### Afdeling 7. [1 Meldingen op akten van de burgerlijke stand]1
+###### Art. 32.[1 § 1. [3 De volgende rechterlijke beslissingen of administratieve beslissingen geven aanleiding tot een
 melding:
 1° een nietigverklaring van een akte, als bedoeld in de artikelen 122, vierde lid, 134, vierde lid, 193ter, derde lid,
 in artikel 391octies, § 4, tweede lid, van het Strafwetboek, en in artikel 79quater, § 4, tweede lid, van de wet van
@@ -2314,15 +2318,15 @@ paragraaf 1, worden de meldingen vervangen door de griffier of door de ambtenaar
 (2)<W 2020-07-31/03, art. 5, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-09-13/08, art. 10, 102; Inwerkingtreding : 01-01-2024>
 
-##### Afdeling 8. [1 Verbetering en nietigverklaring van akten van de burgerlijke stand]1
 
 (1)<W 2020-07-31/03, art. 7, 089; Inwerkingtreding : 01-09-2020>
 
+##### Afdeling 8. [1 Verbetering en nietigverklaring van akten van de burgerlijke stand]1
 ##### Onderafdeling 1. [1 Verbetering door de ambtenaar van de burgerlijke stand]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 33.[1 § 1. De bevoegde ambtenaar van de burgerlijke stand of de ambtenaar van de burgerlijke stand van
+###### Art. 33.[1 § 1. De bevoegde ambtenaar van de burgerlijke stand of de ambtenaar van de burgerlijke stand van
 de plaats van opmaak van de akte die een materiële vergissing vaststellen op een akte van de burgerlijke stand,
 op basis van een authentieke akte of officieel attest, verbetert deze akte van de burgerlijke stand.
 De ambtenaar van de burgerlijke stand gaat na of de akten die de materiële vergissing staven beschikbaar zijn
@@ -2341,7 +2345,7 @@ DABS opgenomen.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 61, 102; Inwerkingtreding : 01-01-2024>
 
-Art. 34.[1 § 1. Een materiële vergissing houdt in dat een ambtenaar van de burgerlijke stand, bij de opmaak of
+###### Art. 34.[1 § 1. Een materiële vergissing houdt in dat een ambtenaar van de burgerlijke stand, bij de opmaak of
 wijziging van een akte van de burgerlijke stand, bij vergissing een gegeven heeft opgenomen in deze akte dat niet
 volledig overeenstemt met de vermelding van dit gegeven op de authentieke akten of officiële attesten die hij op
 dat ogenblik in zijn bezit had.
@@ -2400,7 +2404,7 @@ voorbije burgerlijke jaar. De minister van Justitie legt deze lijst neer in de K
 
 (1)<W 2020-07-31/03, art. 10, 089; Inwerkingtreding : 01-09-2020>
 
-Art. 35.[1 § 1. De persoon die een akte wil laten verbeteren [2 of laten nietig verklaren]2 of een ontbrekende
+###### Art. 35.[1 § 1. De persoon die een akte wil laten verbeteren [2 of laten nietig verklaren]2 of een ontbrekende
 akte wil laten vervangen overeenkomstig [2 artikel 26]2 kan hiertoe een verzoekschrift indienen bij de
 familierechtbank.
 De ambtenaar van de burgerlijke stand van de plaats van opmaak van de akte die deze akte wil laten verbeteren
@@ -2421,30 +2425,30 @@ en verbindt deze, in voorkomend geval, met de akten van de burgerlijke stand waa
 (2)<W 2020-07-31/03, art. 11, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-09-13/08, art. 13, 102; Inwerkingtreding : 01-01-2024>
 
-##### Afdeling 9. [1 Aansprakelijkheid van en controle op de ambtenaar van de burgerlijke stand]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 36.[1 De ambtenaar van de burgerlijke stand is verantwoordelijk voor de door hem opgemaakte, verbeterde
+##### Afdeling 9. [1 Aansprakelijkheid van en controle op de ambtenaar van de burgerlijke stand]1
+###### Art. 36.[1 De ambtenaar van de burgerlijke stand is verantwoordelijk voor de door hem opgemaakte, verbeterde
 [2 , gewijzigde of ambtshalve nietig verklaarde]2 akten van de burgerlijke stand.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 12, 089; Inwerkingtreding : 01-09-2020>
 
-Art. 37.[1 In geval van ernstige twijfel omtrent het opmaken van de akten van de burgerlijke stand kan de
+###### Art. 37.[1 In geval van ernstige twijfel omtrent het opmaken van de akten van de burgerlijke stand kan de
 ambtenaar van de burgerlijke stand de procureur des Konings verzoeken hierover advies uit te brengen.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 38.[1 [2 De ambtenaar van de burgerlijke stand is]2 burgerrechtelijk aansprakelijk voor het niet naleven van
+###### Art. 38.[1 [2 De ambtenaar van de burgerlijke stand is]2 burgerrechtelijk aansprakelijk voor het niet naleven van
 de in het kader van zijn functie opgelegde voorschriften, behoudens verhaal op de personen die hem verhinderd
 hebben deze voorschriften uit te voeren, indien daartoe grond bestaat.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 14, 102; Inwerkingtreding : 01-01-2024>
 
-Art. 39.[1 Elke onrechtmatige verandering en elke valsheid in de akten van de burgerlijke stand leveren grond op
+###### Art. 39.[1 Elke onrechtmatige verandering en elke valsheid in de akten van de burgerlijke stand leveren grond op
 tot schadevergoeding aan de partijen, onverminderd de straffen voorzien in het Strafwetboek.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 40.[1 § 1. De procureur des Konings bij de rechtbank van eerste aanleg van het gerechtelijk arrondissement
+###### Art. 40.[1 § 1. De procureur des Konings bij de rechtbank van eerste aanleg van het gerechtelijk arrondissement
 waartoe de gemeente van de ambtenaar van de burgerlijke stand die de akte heeft opgemaakt behoort, houdt
 toezicht op de naleving van de bepalingen inzake de burgerlijke stand.
 Het College van procureurs-generaal kan richtlijnen uitvaardigen ter verduidelijking van de wijze waarop de in
@@ -2461,11 +2465,11 @@ uitoefening van zijn functie gepleegde inbreuken.]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 1. [1 Algemene bepaling]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 41.[1 § 1. De akten van de burgerlijke stand vermelden steeds :
+##### Afdeling 1. [1 Algemene bepaling]1
+###### Art. 41.[1 § 1. De akten van de burgerlijke stand vermelden steeds :
 1° de naam, de voornaam en de handtekening van de ambtenaar van de burgerlijke stand of de
 overeenkomstig artikel 9 gemachtigde beambte, die de akte heeft opgemaakt;
 2° de datum van opmaak van de akte;
@@ -2497,15 +2501,15 @@ verwerkingsverantwoordelijken voor de DABS, bedoeld in artikel 73, gemachtigd om
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 16, 102; Inwerkingtreding : 01-01-2024>
 
-##### Afdeling 2. [1 De akten van geboorte]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
+##### Afdeling 2. [1 De akten van geboorte]1
 ##### Onderafdeling 1. [1 De akte van geboorte]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 42.[1 De kennisgeving van de geboorte, met medisch attest, wordt gedaan aan de ambtenaar van de
+###### Art. 42.[1 De kennisgeving van de geboorte, met medisch attest, wordt gedaan aan de ambtenaar van de
 burgerlijke stand van de geboorteplaats, uiterlijk de eerst volgende werkdag na de geboorte door :
 1° in geval van geboorte in een ziekenhuis of andere verzorgingsinrichting, de verantwoordelijke van de
 inrichting of zijn afgevaardigde;
@@ -2513,7 +2517,7 @@ inrichting of zijn afgevaardigde;
 persoon bij wie de geboorte heeft plaatsgehad.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 43.[1 § 1. De vader of de meemoeder, en de moeder, of één van hen, doen de geboorteaangifte bij de
+###### Art. 43.[1 § 1. De vader of de meemoeder, en de moeder, of één van hen, doen de geboorteaangifte bij de
 ambtenaar van de burgerlijke stand van de geboorteplaats, binnen vijftien dagen na de geboorte. Is de laatste
 dag van die termijn een zaterdag, een zondag of een wettelijke feestdag, dan wordt de termijn verlengd tot de
 eerstvolgende werkdag.
@@ -2524,7 +2528,7 @@ artikel 42.
 § 4. De ambtenaar van de burgerlijke stand maakt de akte van geboorte onmiddellijk op.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 44.[1 De akte van geboorte vermeldt :
+###### Art. 44.[1 De akte van geboorte vermeldt :
 1° de geboortedatum, de geboorteplaats, het uur van geboorte, het geslacht, de naam en de voornamen van
 het kind, hetzij, in de gevallen bedoeld in artikel 43, § 2, en artikel 45, de op het ogenblik van de opmaak van de
 akte beschikbare gegevens;
@@ -2545,7 +2549,7 @@ vastgesteld.]1
 
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 45.[1 Elke persoon die een pasgeboren kind gevonden heeft, geeft hiervan onmiddellijk kennis aan de
+###### Art. 45.[1 Elke persoon die een pasgeboren kind gevonden heeft, geeft hiervan onmiddellijk kennis aan de
 openbare hulpdiensten en deelt hen alle nuttige informatie hierover mee.
 De hulpdienst doet aangifte van de geboorte van de vondeling bij de ambtenaar van de burgerlijke stand [2 van
 de plaats waar het kind gevonden is]2.
@@ -2554,14 +2558,14 @@ wordt als bijlage opgenomen in de DABS.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 17, 102; Inwerkingtreding : 01-01-2024>
 
-Art. 46.[1 De akte van geboorte vermeldt in dit geval de gegevens bedoeld in artikel 44, 1°.]1
+###### Art. 46.[1 De akte van geboorte vermeldt in dit geval de gegevens bedoeld in artikel 44, 1°.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 ##### Onderafdeling 3. [1 Akte van geboorte in geval van geboorte aan boord van een schip of een luchtvaartuig]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 1, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 47.[1 § 1. In geval van geboorte tijdens een zeereis aan boord van een schip onder Belgische vlag, of
+###### Art. 47.[1 § 1. In geval van geboorte tijdens een zeereis aan boord van een schip onder Belgische vlag, of
 tijdens de vlucht van een Belgisch luchtvaartuig, ontvangt de gezagvoerder persoonlijk de geboorteaangifte van
 de vader of de meemoeder en de moeder of één van hen, of, bij gebrek hieraan, van een persoon die bij de
 geboorte aanwezig was. Het kind wordt ingeschreven op de passagierslijst. De gezagvoerder maakt, van zodra
@@ -2581,7 +2585,7 @@ landingsplaats zich bevindt.]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 48.[1 Indien het geslacht van een kind onduidelijk is, kunnen de vader of de meemoeder en de moeder, of
+###### Art. 48.[1 Indien het geslacht van een kind onduidelijk is, kunnen de vader of de meemoeder en de moeder, of
 één van hen, aangifte doen van het geslacht binnen drie maanden na de geboorte, met voorlegging van een
 medisch attest.]1
 [2 De ambtenaar van de burgerlijke stand van de geboorteplaats wijzigt de geboorteakte door toevoeging van
@@ -2589,7 +2593,7 @@ het geslacht van het kind.]2
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 18, 102; Inwerkingtreding : 01-01-2024>
 
-Art. 49.[1 De ambtenaar van de burgerlijke stand die een akte van geboorte opmaakt van een kind van wie de
+###### Art. 49.[1 De ambtenaar van de burgerlijke stand die een akte van geboorte opmaakt van een kind van wie de
 afstamming ten aanzien van zijn ouders niet vaststaat of die een akte van de burgerlijke stand wijzigt ten gevolge
 van een in kracht van gewijsde gegane rechterlijke beslissing waarbij een vordering betreffende de betwisting van
 de afstamming wordt toegewezen ten aanzien van de ouders of ten aanzien van de enige ouder met betrekking
@@ -2599,15 +2603,15 @@ De vervaldag is in de termijn begrepen. Is die dag echter een zaterdag, een zond
 dan wordt de vervaldag uitgesteld tot de eerstvolgende werkdag.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 3. [1 De akten van erkenning]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
+##### Afdeling 3. [1 De akten van erkenning]1
 ##### Onderafdeling 1. [1 Akte van prenatale erkenning]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 50.[1 De akte van prenatale erkenning vermeldt :
+###### Art. 50.[1 De akte van prenatale erkenning vermeldt :
 1° de naam, de voornamen, de geboortedatum en de geboorteplaats van de moeder;
 2° de naam, de voornamen, de geboortedatum, de geboorteplaats en de hoedanigheid van de erkenner;
 3° de toestemming van de moeder, met vermelding van de datum, plaats en autoriteit voor wie de
@@ -2620,7 +2624,7 @@ wordt als bijlage in de DABS opgenomen.]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 51
+###### Art. 51
 
 [1 De akte van erkenning vermeldt :
 1° de naam, de voornamen, de geboortedatum en de geboorteplaats van het kind;
@@ -2644,11 +2648,11 @@ en de moeder;
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-12-19/05, art. 2, 103; Inwerkingtreding : 01-03-2024>
 
-##### Afdeling 4. [1 Akte van verklaring van naamskeuze]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 52.[1 De akte van verklaring van naamskeuze vermeldt :
+##### Afdeling 4. [1 Akte van verklaring van naamskeuze]1
+###### Art. 52.[1 De akte van verklaring van naamskeuze vermeldt :
 1° de naam, de voornamen, de geboortedatum en de geboorteplaats van het kind of de kinderen op wie de
 verklaring betrekking heeft;
 2° de naam, de voornamen, de geboortedatum, en de geboorteplaats van de moeder en de vader of de
@@ -2657,20 +2661,20 @@ meemoeder;
 4° de wettelijke basis van de verklaring op basis waarvan de akte werd opgesteld.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 5. [1 Akte van aanpassing van de registratie van het geslacht]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 53.[1 De akte van aanpassing van de registratie van het geslacht vermeldt :
+##### Afdeling 5. [1 Akte van aanpassing van de registratie van het geslacht]1
+###### Art. 53.[1 De akte van aanpassing van de registratie van het geslacht vermeldt :
 - de naam, de voornamen, de geboortedatum en de geboorteplaats van de betrokkene;
 - het nieuwe geslacht van de betrokkene.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 6. [1 Akte van huwelijk]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 54.[1 De akte van huwelijk vermeldt :
+##### Afdeling 6. [1 Akte van huwelijk]1
+###### Art. 54.[1 De akte van huwelijk vermeldt :
 1° de naam, de voornamen, de geboortedatum en de geboorteplaats van de echtgenoten;
 2° de datum [2 en de plaats]2 van het huwelijk;
 3° de door een echtgenoot gekozen naam [3 en/of de voornaam]3 na voltrekking van het huwelijk,
@@ -2680,15 +2684,15 @@ overeenkomstig het recht van de Staat waarvan hij de nationaliteit heeft;
 (2)<W 2020-07-31/03, art. 13, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-09-13/08, art. 19, 102; Inwerkingtreding : 01-01-2024>
 
-##### Afdeling 7. [1 Akten van overlijden]1
 
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
+##### Afdeling 7. [1 Akten van overlijden]1
 ##### Onderafdeling 1. [1 Akte van overlijden]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 55.[1 § 1. De ambtenaar van de burgerlijke stand van de plaats van overlijden maakt onmiddellijk een akte
+###### Art. 55.[1 § 1. De ambtenaar van de burgerlijke stand van de plaats van overlijden maakt onmiddellijk een akte
 van overlijden op, van zodra hem een overlijdensattest wordt voorgelegd dat werd opgesteld door de arts die het
 overlijden heeft vastgesteld.
 § 2. In geval van overlijden van een onbekend persoon, maakt de ambtenaar van de burgerlijke stand een
@@ -2696,7 +2700,7 @@ proces-verbaal op dat alle informatie bevat die hij heeft kunnen inwinnen omtren
 Het proces-verbaal wordt als bijlage opgenomen bij de akte van overlijden in de DABS.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 56.[1 De akte van overlijden vermeldt :
+###### Art. 56.[1 De akte van overlijden vermeldt :
 1° de naam, de voornamen, de geboortedatum en geboorteplaats van de overledene, of, in geval het gaat om
 een onbekende, de op het ogenblik van de opmaak van de akte beschikbare gegevens;
 2° de plaats, de datum en het uur van het overlijden of [2 van de vaststelling van het overlijden]2.]1
@@ -2706,7 +2710,7 @@ een onbekende, de op het ogenblik van de opmaak van de akte beschikbare gegevens
 ##### Onderafdeling 2. [1 Akte van overlijden in geval van een overlijden aan boord van een schip of een luchtvaartuig]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 57.[1 § 1. In geval van overlijden tijdens een zeereis, aan boord van een schip onder Belgische vlag, of
+###### Art. 57.[1 § 1. In geval van overlijden tijdens een zeereis, aan boord van een schip onder Belgische vlag, of
 tijdens de vlucht van een Belgisch luchtvaartuig, maakt de gezagvoerder, van zodra mogelijk en uiterlijk bij het
 eerste aanleggen of de eerste landing, een proces-verbaal op dat de gegevens bedoeld in artikel 56 bevat. Het
 overlijden wordt vermeld op de passagierslijst.
@@ -2725,7 +2729,7 @@ de haven of landingsplaats zich bevindt.]1
 
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 58.[1 § 1. Wanneer een kind overleden is op het ogenblik van de vaststelling van de bevalling door de arts
+###### Art. 58.[1 § 1. Wanneer een kind overleden is op het ogenblik van de vaststelling van de bevalling door de arts
 of de vroedvrouw na een zwangerschapsduur van honderdtachtig dagen te rekenen van de verwekking, maakt
 de ambtenaar van de burgerlijke stand [2 van de plaats van de bevalling]2 een akte van een levenloos kind op, op
 basis van een medisch attest voorgelegd door een persoon die de inlichtingen kan meedelen welke vereist zijn
@@ -2756,7 +2760,7 @@ bepaald.]1
 (2)<W 2023-09-13/08, art. 21, 102; Inwerkingtreding : 01-01-2024>
 (3)<W 2024-03-28/60, art. 49, 105; Inwerkingtreding : 08-04-2024>
 
-Art. 59.[1 De akte van een levenloos kind vermeldt :
+###### Art. 59.[1 De akte van een levenloos kind vermeldt :
 1° de datum, de plaats, het uur van de bevalling en het geslacht van het kind;
 2° de zwangerschapsduur;
 3° de naam, de voornamen, de geboortedatum en de geboorteplaats van de moeder;
@@ -2775,7 +2779,7 @@ overeenkomstige toepassing.]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 60.[1 De ambtenaar van de burgerlijke stand die een akte van overlijden opmaakt van de enige ouder of
+###### Art. 60.[1 De ambtenaar van de burgerlijke stand die een akte van overlijden opmaakt van de enige ouder of
 adoptieve ouder van een minderjarige of van een persoon die optrad als voogd over een minderjarige, notificeert
 dit binnen drie dagen elektronisch via de DABS aan de vrederechter bedoeld in artikel 390.
 De ambtenaar van de burgerlijke stand die een akte van overlijden opmaakt, notificeert dit binnen drie dagen
@@ -2785,28 +2789,28 @@ De vervaldag is in de termijn begrepen. Is die dag echter een zaterdag, een zond
 dan wordt de vervaldag uitgesteld tot de eerstvolgende werkdag.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 8. [1 Akte van afwezigheid]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 61.[1 De akte van afwezigheid vermeldt de naam, de voornamen, de geboortedatum en de geboorteplaats
+##### Afdeling 8. [1 Akte van afwezigheid]1
+###### Art. 61.[1 De akte van afwezigheid vermeldt de naam, de voornamen, de geboortedatum en de geboorteplaats
 van de afwezige.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 9. [1 Akte van voornaamsverandering]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 62.[1 De akte van voornaamsverandering vermeldt :
+##### Afdeling 9. [1 Akte van voornaamsverandering]1
+###### Art. 62.[1 De akte van voornaamsverandering vermeldt :
 1° de naam, de voornaam of voornamen, de geboortedatum en de geboorteplaats van de betrokkene;
 2° de nieuwe voornaam of voornamen van de betrokkene.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 10.[1 Akte van naamsverandering]1
 
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 63.[1 De akte van naamsverandering vermeldt :
+##### Afdeling 10.[1 Akte van naamsverandering]1
+###### Art. 63.[1 De akte van naamsverandering vermeldt :
 1° [2 in voorkomend geval, de datum van het verzoek;]2
 2° de naam en de voornamen van de betrokkene;
 3° de geboortedatum en geboorteplaats van de betrokkene;
@@ -2820,11 +2824,11 @@ wordt toegestaan.]4]1
 (3)<W 2023-12-19/05, art. 3, 103; Inwerkingtreding : 01-03-2024>
 (4)<W 2024-01-07/03, art. 2, 107; Inwerkingtreding : 01-07-2024>
 
-##### Afdeling 11. [1 Akte van echtscheiding]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 64.[1 De akte van echtscheiding vermeldt :
+##### Afdeling 11. [1 Akte van echtscheiding]1
+###### Art. 64.[1 De akte van echtscheiding vermeldt :
 1° [2 het aktenummer van de Belgische huwelijksakte of, bij gebrek hieraan, de datum en plaats van het
 huwelijk;]2
 2° [2 ...]2
@@ -2835,11 +2839,11 @@ huwelijk;]2
 (2)<W 2020-07-31/03, art. 15, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-09-13/08, art. 22, 102; Inwerkingtreding : 01-01-2024>
 
-##### Afdeling 12. [1 Akte van adoptie]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 65.[1 De akte van adoptie vermeldt :
+##### Afdeling 12. [1 Akte van adoptie]1
+###### Art. 65.[1 De akte van adoptie vermeldt :
 1° de naam, de voornamen, de geboorteplaats en de geboortedatum van de adoptanten;
 2° de naam, de voornamen, de geboorteplaats en de geboortedatum van de geadopteerde;
 3° de nieuwe naam en, in voorkomend geval, de nieuwe voornaam van de geadopteerde na de adoptie;
@@ -2850,12 +2854,12 @@ autoriteit;]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 16, 089; Inwerkingtreding : 01-09-2020>
 
-##### Afdeling 13. [1 Akte van herroeping of herziening van adoptie [2 ...]2 of van nietigverklaring]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-07-20/19, art. 3, 100; Inwerkingtreding : 01-10-2023>
 
-Art. 66.[1 De akte van herroeping of herziening van adoptie [3 ...]3 of van nietigverklaring, vermeldt :
+##### Afdeling 13. [1 Akte van herroeping of herziening van adoptie [2 ...]2 of van nietigverklaring]1
+###### Art. 66.[1 De akte van herroeping of herziening van adoptie [3 ...]3 of van nietigverklaring, vermeldt :
 1° het aktenummer van de akte waarop het betrekking heeft;
 2° [2 indien het een rechterlijke beslissing betreft,]2 de aard van het beschikkend gedeelte van de rechterlijke
 beslissing, met name of het gaat om :
@@ -2870,11 +2874,11 @@ van het Wetboek van strafvordering;]1
 (2)<W 2020-07-31/03, art. 17, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-07-20/19, art. 3, 100; Inwerkingtreding : 01-10-2023>
 
-##### Afdeling 14. [1 Akten van Belgische nationaliteit]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 67.[1 § 1. De akten van nationaliteit bedoeld in de artikelen 15 en 22, § 4, van het Wetboek van de Belgische
+##### Afdeling 14. [1 Akten van Belgische nationaliteit]1
+###### Art. 67.[1 § 1. De akten van nationaliteit bedoeld in de artikelen 15 en 22, § 4, van het Wetboek van de Belgische
 nationaliteit vermelden :
 1° de naam, de voornamen, de geboortedatum en de geboorteplaats van de persoon op wie de akte
 betrekking heeft;
@@ -2888,11 +2892,11 @@ van de vervallenverklaring]2.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 23, 102; Inwerkingtreding : 01-01-2024>
 
-##### Afdeling 15. [1 Akte opgemaakt op basis van een buitenlandse akte]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 68.[1 § 1. Iedere Belg, of zijn wettelijke vertegenwoordiger, legt elke buitenlandse authentieke akte die op
+##### Afdeling 15. [1 Akte opgemaakt op basis van een buitenlandse akte]1
+###### Art. 68.[1 § 1. Iedere Belg, of zijn wettelijke vertegenwoordiger, legt elke buitenlandse authentieke akte die op
 hem betrekking heeft, voor zover deze een wijziging van de staat van een persoon tot gevolg heeft, voor aan de
 ambtenaar van de burgerlijke stand. De ambtenaar van de burgerlijke stand maakt vervolgens een akte van de
 burgerlijke stand, als bedoeld in dit hoofdstuk, op basis van een buitenlandse authentieke akte op.
@@ -2904,7 +2908,7 @@ een buitenlandse authentieke akte wordt voorgelegd bij de opmaak of de wijziging
 stand of bij een aanpassing van het bevolkings-, vreemdelingen- of wachtregister.]1
 (1)<W 2023-09-13/08, art. 24, 102; Inwerkingtreding : 01-01-2025>
 
-Art. 69.[1 § 1. De akte van de burgerlijke stand op basis van een buitenlandse akte vermeldt uitsluitend de
+###### Art. 69.[1 § 1. De akte van de burgerlijke stand op basis van een buitenlandse akte vermeldt uitsluitend de
 gegevens zoals voorzien in dit hoofdstuk en die erkend kunnen worden overeenkomstig artikel 27 van het
 Wetboek van Internationaal Privaatrecht.
 Indien de buitenlandse akte een materiële vergissing zoals bedoeld in artikel 34 bevat, vastgesteld op basis van
@@ -2914,10 +2918,10 @@ van de burgerlijke stand verbeterde of aangevulde gegevens van de buitenlandse a
 ervan, wordt als bijlage in de DABS opgenomen.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 16. [1 Akte opgemaakt op basis van een buitenlandse rechterlijke of buitenlandse administratieve beslissing]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 70.[1 § 1. Iedere Belg of zijn wettelijke vertegenwoordiger legt elke buitenlandse in kracht van gewijsde
+##### Afdeling 16. [1 Akte opgemaakt op basis van een buitenlandse rechterlijke of buitenlandse administratieve beslissing]1
+###### Art. 70.[1 § 1. Iedere Belg of zijn wettelijke vertegenwoordiger legt elke buitenlandse in kracht van gewijsde
 gegane rechterlijke of buitenlandse definitieve administratieve beslissing, die op hem betrekking heeft, voor zover
 deze een wijziging van de staat van een persoon tot gevolg heeft, voor aan de ambtenaar van de burgerlijke
 stand. De ambtenaar van de burgerlijke stand maakt een akte van de burgerlijke stand op basis van een
@@ -2940,11 +2944,11 @@ en, in voorkomend geval, de beëdigde vertaling ervan, wordt als bijlage in de D
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 1. [1 Algemene bepalingen]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 71.[1 De DABS wordt opgericht bij de Federale Overheidsdienst Justitie en heeft tot taak:
+##### Afdeling 1. [1 Algemene bepalingen]1
+###### Art. 71.[1 De DABS wordt opgericht bij de Federale Overheidsdienst Justitie en heeft tot taak:
 1° het ondersteunen van de ambtenaren van de burgerlijke stand en van de consulaire ambtenaren in hun
 wettelijke opdrachten inzake het opmaken en bijhouden van de akten en de registers van de burgerlijke stand;
 2° het als authentieke bron waarborgen van de opslag, de bewaring en de ter beschikkingstelling van alle in de
@@ -2965,7 +2969,7 @@ ervan aan het Algemeen Rijksarchief en Rijksarchief in de Provinciën;
 10° te voorzien in een gelijktijdige actualisatie van de gegevens van het Rijksregister op basis van de gegevens
 opgenomen in de DABS.]1
 (1)<W 2023-09-13/08, art. 26, 102; Inwerkingtreding : 01-01-2024>
-Art. 72.[1 In de DABS worden opgenomen:
+###### Art. 72.[1 In de DABS worden opgenomen:
 1° alle in gedematerialiseerde vorm opgemaakte akten van de burgerlijke stand, de wijzigingen van akten van
 de burgerlijke stand, de meldingen op akten van de burgerlijke stand en de door de wet vereiste bijlagen, voor
 zover deze niet beschikbaar zijn in een andere authentieke bron;
@@ -2984,11 +2988,11 @@ De DABS geldt als authentieke bron voor alle akten opgemaakt na 31 maart 2019, e
 opgenomen.]1
 (1)<W 2023-09-13/08, art. 27, 102; Inwerkingtreding : 01-01-2024>
 
-##### Afdeling 2. [1 Beheer van de DABS]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 73.[1 De Federale Overheidsdienst Justitie, de gemeentelijke overheden en de Federale Overheidsdienst
+##### Afdeling 2. [1 Beheer van de DABS]1
+###### Art. 73.[1 De Federale Overheidsdienst Justitie, de gemeentelijke overheden en de Federale Overheidsdienst
 Buitenlandse Zaken zijn de gezamenlijke verantwoordelijke voor de verwerking van de gegevens in de DABS in de
 zin van artikel 4, 7), van de Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april
 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van
@@ -2996,7 +3000,7 @@ persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrek
 (algemene verordening gegevensbescherming).]1
 (1)<W 2023-09-13/08, art. 28, 102; Inwerkingtreding : 01-01-2025>
 
-Art. 74.[1 § 1. Het beheerscomité van de DABS, hierna genoemd "beheerscomité", oefent de gezamenlijke
+###### Art. 74.[1 § 1. Het beheerscomité van de DABS, hierna genoemd "beheerscomité", oefent de gezamenlijke
 verwerkingsverantwoorde-lijkheid uit.
 Het beheerscomité heeft een coördinerende functie.
 Het beheerscomité bepaalt ook welke nieuwe toegangen tot de DABS worden verleend, in uitvoering van artikel
@@ -3033,7 +3037,7 @@ samengesteld als volgt:
 2° twee vertegenwoordigers van de Federale Overheidsdienst Binnenlandse Zaken.]1
 (1)<W 2023-09-13/08, art. 29, 102; Inwerkingtreding : 01-01-2025>
 
-Art. 75.[1 De Federale Overheidsdienst Justitie stelt een functionaris voor de gegevensbescherming aan voor de
+###### Art. 75.[1 De Federale Overheidsdienst Justitie stelt een functionaris voor de gegevensbescherming aan voor de
 persoonsgegevens en de informatie die in het kader van deze wet worden verwerkt.
 Deze is meer bepaald belast met :
 1° het verstrekken van deskundige adviezen inzake de bescherming van de persoonlijke levenssfeer en de
@@ -3052,22 +3056,22 @@ De Koning kan, na advies van de Gegevens-beschermingsautoriteit, nadere regels v
 functionaris voor de gegevensbescherming zijn opdrachten uitvoert, bepalen.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 76.[1 De gegevens bedoeld in [2 artikel 72]2, worden bewaard tot op het ogenblik van de overdracht ervan
+###### Art. 76.[1 De gegevens bedoeld in [2 artikel 72]2, worden bewaard tot op het ogenblik van de overdracht ervan
 aan het Algemeen Rijksarchief en Rijksarchief in de Provinciën.
 De Koning bepaalt, na advies te hebben ingewonnen van het beheerscomité, de nadere regels van deze
 overdracht.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 30, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 77
+###### Art. 77
 
 <Opgeheven bij W 2023-09-13/08, art. 31, 102; Inwerkingtreding : 01-01-2024>
 
-##### Afdeling 3. [1 Toegang tot de DABS]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 78.[1 § 1. De DABS is geen openbaar register.
+##### Afdeling 3. [1 Toegang tot de DABS]1
+###### Art. 78.[1 § 1. De DABS is geen openbaar register.
 § 2. De gegevens van de DABS kunnen elektronisch meegedeeld worden aan de volgende personen,
 overheden of instellingen, in het kader van de uitoefening van hun wettelijke opdrachten:
 1° de ambtenaren van de burgerlijke stand en de door hen gemachtigde beambten;
@@ -3087,7 +3091,7 @@ modaliteiten van de mededeling ervan op eenzelfde wijze gedocumenteerd zijn in e
 norm.]1
 (1)<W 2023-09-13/08, art. 32, 102; Inwerkingtreding : 01-01-2024>
 
-Art. 79.[1 De Koning bepaalt, na het advies te hebben ingewonnen van de Gegevensbeschermingsautoriteit, [2
+###### Art. 79.[1 De Koning bepaalt, na het advies te hebben ingewonnen van de Gegevensbeschermingsautoriteit, [2
 door wie, waar en welke akten]2 raadpleegbaar zijn voor genealogische [2 of historische]2 doeleinden.]1
 [2 De aflevering van afschriften en uittreksels of de raadpleging van de akten in het kader van genealogisch of
 historisch onderzoek kunnen aanleiding geven tot een vergoeding die niet meer mag bedragen dan de kostprijs,
@@ -3095,17 +3099,17 @@ vastgesteld door de afleverende autoriteit.]2
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 33, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 80
+###### Art. 80
 
 <Opgeheven bij W 2023-09-13/08, art. 34, 102; Inwerkingtreding : 01-01-2024>
 
-Art. 81.[1 De overheden, de instellingen en de personen die gemachtigd zijn de [2 authentieke]2 gegevens van
+###### Art. 81.[1 De overheden, de instellingen en de personen die gemachtigd zijn de [2 authentieke]2 gegevens van
 de DABS te raadplegen [2 ...]2, mogen de betreffende gegevens niet meer opvragen via de betrokkene [2 of een
 andere overheid of instelling]2.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 35, 102; Inwerkingtreding : 01-01-2024>
 
-Art. 82.[1 § 1. [2 Het recht op rectificatie overeenkomstig artikel 16 van de algemene verordening
+###### Art. 82.[1 § 1. [2 Het recht op rectificatie overeenkomstig artikel 16 van de algemene verordening
 gegevensbescherming wordt uitgeoefend ten aanzien van de bevoegde ambtenaar van de burgerlijke stand die
 de vermelding, de inschrijving of de wijziging verbetert overeenkomstig hoofdstuk 1, afdeling 8.]2
 § 2. Alle overheden en instellingen, die toegang hebben tot de gegevens van de DABS zijn gehouden, van zodra
@@ -3114,11 +3118,11 @@ wijziging niet is gebeurd, dit te melden aan het [2 ...]2 beheerscomité.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 36, 102; Inwerkingtreding : 01-01-2024>
 
-Art. 83.[2 § 1.]2 [1 Hij die in welke hoedanigheid ook deelneemt aan de verzameling, de verwerking of de
+###### Art. 83.[2 § 1.]2 [1 Hij die in welke hoedanigheid ook deelneemt aan de verzameling, de verwerking of de
 mededeling van de in [2 artikel 72]2 bedoelde gegevens of kennis heeft van die gegevens, moet het vertrouwelijk
 karakter ervan in acht nemen.
 
-## Art. 458
+###### Art. 458
 
 van het Strafwetboek is op hen toepasselijk.]1
 [2 § 2. De overheidsdiensten, de instellingen en de beroepsgroepen die op enige wijze toegang hebben
@@ -3142,128 +3146,128 @@ beschikking gehouden van de Gegevens beschermingsautoriteit.]2
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 37, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 84
+###### Art. 84
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 85
+###### Art. 85
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 86
+###### Art. 86
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 87
+###### Art. 87
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 88
+###### Art. 88
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 89
+###### Art. 89
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 90
+###### Art. 90
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 91
+###### Art. 91
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 92
+###### Art. 92
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 93
+###### Art. 93
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 94
+###### Art. 94
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 95
+###### Art. 95
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 96
+###### Art. 96
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 97
+###### Art. 97
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 98
+###### Art. 98
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 99
+###### Art. 99
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 100
+###### Art. 100
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 101
+###### Art. 101
 
 <Opgeheven bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 ### TITEL III. - WOONPLAATS.
 
-## Art. 102
+###### Art. 102
 
 De woonplaats van ieder Belg, wat betreft de uitoefening van zijn burgerlijke rechten, is daar waar hij
 zijn hoofdverblijf heeft.
 
-## Art. 103
+###### Art. 103
 
 Verandering van woonplaats wordt teweeggebracht doordat men werkelijk gaat wonen in een andere
 plaats, met het voornemen om aldaar zijn hoofdverblijf te vestigen.
 
-## Art. 104
+###### Art. 104
 
 Het voornemen wordt bewezen door een uitdrukkelijke verklaring, gedaan zowel bij het
 gemeentebestuur van de plaats die men verlaat, als bij dat van de plaats waar men zijn woonplaats heeft
 overgebracht.
 
-## Art. 105
+###### Art. 105
 
 Bij gebreke van een uitdrukkelijke verklaring wordt het bewijs van het voornemen afgeleid uit de
 omstandigheden.
 
-## Art. 106
+###### Art. 106
 
 De burger die tot een tijdelijk of herroepelijk openbaar ambt benoemd wordt, behoudt de woonplaats
 die hij tevoren had, indien hij het tegenovergestelde voornemen niet heeft te kennen gegeven.
 
-## Art. 107
+###### Art. 107
 
 Het aanvaarden van een voor het leven verleend ambt heeft tot gevolg dat de woonplaats van de
 ambtenaar onmiddellijk wordt overgebracht naar de plaats waar hij zijn ambt moet uitoefenen.
 
-## Art. 108
+###### Art. 108
 
 <W 1995-04-13/37, art. 1, 003; Inwerkingtreding : 03-06-1995> De niet-ontvoogde minderjarige
 heeft zijn woonplaats in de gezamenlijke verblijfplaats van zijn ouders of, indien die niet samenleven, in de
 verblijfplaats van één van beiden.
 Degene die onder voogdij is geplaatst, heeft zijn woonplaats bij zijn voogd.
 
-## Art. 109
+###### Art. 109
 
 Meerderjarigen die gewoonlijk bij een ander dienen of werken, hebben dezelfde woonplaats als de
 persoon bij wie zij dienen of werken, indien zij met hem in hetzelfde huis wonen.
 
-## Art. 110
+###### Art. 110
 
 De woonplaats bepaalt de plaats waar een erfenis openvalt.
 
-## Art. 111
+###### Art. 111
 
 Wanneer de partijen of een van hen in een akte, met het oog op de uitvoering van die akte,
 woonplaats kiezen in een andere plaats dan de werkelijke woonplaats, kunnen de op die akte betrekking
@@ -3274,9 +3278,9 @@ rechter van die woonplaats geschieden.
 
 #### HOOFDSTUK I. - (AFWEZIGHEID). <W 2007-05-09/44, art. 2, 037; Inwerkingtreding : 01-07-2007>
 
-##### Afdeling I. - Vermoeden van afwezigheid <Ingevoegd bij W 2007-05-09/44, art. 3; Inwerkingtreding : 01-07- 2007>
 
-Art. 112.<W 2007-05-09/44, art. 4, 037; Inwerkingtreding : 01-07-2007> § 1. Wanneer een persoon sinds
+##### Afdeling I. - Vermoeden van afwezigheid <Ingevoegd bij W 2007-05-09/44, art. 3; Inwerkingtreding : 01-07- 2007>
+###### Art. 112.<W 2007-05-09/44, art. 4, 037; Inwerkingtreding : 01-07-2007> § 1. Wanneer een persoon sinds
 meer dan drie maanden niet meer verschijnt in zijn woon- of verblijfplaats en men van hem gedurende ten minste
 drie maanden geen nieuws heeft ontvangen en daaruit onzekerheid voortvloeit over zijn leven of zijn dood, kan
 de [1 vrederechter]1, op verzoek van iedere belanghebbende of van de procureur des Konings, het vermoeden
@@ -3288,7 +3292,7 @@ openbaar ministerie gehoord over zijn schriftelijk of mondeling advies of vorder
 rechtsvorderingen die de afwezigen aangaan.]1.
 (1)<W 2013-07-30/23, art. 5, 065; Inwerkingtreding : 01-09-2014>
 
-Art. 113.<W 2007-05-09/44, art. 5, 037; Inwerkingtreding : 01-07-2007> § 1. [1 Wanneer hij]1 vaststelt dat er
+###### Art. 113.<W 2007-05-09/44, art. 5, 037; Inwerkingtreding : 01-07-2007> § 1. [1 Wanneer hij]1 vaststelt dat er
 een vermoeden van afwezigheid is en de vermoedelijk afwezige geen algemeen gevolmachtigde heeft
 aangewezen om zijn goederen te beheren, wijst de vrederechter bij een met redenen omklede beschikking een
 gerechtelijk bewindvoerder aan met inachtneming van de aard en de samenstelling van de te beheren goederen.
@@ -3326,7 +3330,7 @@ gerechtelijk bewindvoerder.]2
 (1)<W 2013-07-30/23, art. 6, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2024-05-15/03, art. 34, 106; Inwerkingtreding : 07-06-2024>
 
-Art. 114.<W 2007-05-09/44, art. 6, 037; Inwerkingtreding : 01-07-2007> § 1. Uiterlijk één maand na de
+###### Art. 114.<W 2007-05-09/44, art. 6, 037; Inwerkingtreding : 01-07-2007> § 1. Uiterlijk één maand na de
 aanvaarding van zijn aanwijzing stelt de gerechtelijk bewindvoerder een verslag op met betrekking tot de
 vermogenstoestand van de vermoedelijk afwezige en zendt dit over aan de vrederechter.
 De gerechtelijk bewindvoerder geeft jaarlijks rekenschap van zijn beheer aan de vrederechter door voorlegging
@@ -3358,7 +3362,7 @@ het mandaat van gerechtelijk bewindvoerder.
 (Oud hoofdstuk II vervallen) <W 2007-05-09/44, art. 7, 037; Inwerkingtreding : 01-07-2007>
 (1)<W 2013-07-30/23, art. 7, 065; Inwerkingtreding : 01-09-2014>
 
-Art. 115.<W 2007-05-09/44, art. 8, 037; Inwerkingtreding : 01-07-2007> § 1. De gerechtelijk bewindvoerder
+###### Art. 115.<W 2007-05-09/44, art. 8, 037; Inwerkingtreding : 01-07-2007> § 1. De gerechtelijk bewindvoerder
 heeft tot taak de goederen van de vermoedelijk afwezige als een goede huisvader te beheren. Hij kan zich in zijn
 beheer laten bijstaan door een of meer personen die onder zijn verantwoordelijkheid optreden.
 § 2. Wanneer de belangen van de gerechtelijk bewindvoerder in strijd zijn met die van de vermoedelijk afwezige,
@@ -3405,7 +3409,7 @@ afwezige worden op zijn naam ingeschreven.
 (1)<W 2018-04-15/14, art. 252, 088; Inwerkingtreding : 01-11-2018>
 (2)<W 2022-01-19/18, art. 7, 094; Inwerkingtreding : 01-07-2022>
 
-## Art. 116
+###### Art. 116
 
 <W 2007-05-09/44, art. 9, 037; Inwerkingtreding : 01-07-2007> Is de vermoedelijk afwezige
 betrokken bij een verdeling of een erfenis, dan wordt hij vertegenwoordigd door de gerechtelijk bewindvoerder
@@ -3416,7 +3420,7 @@ iedere belanghebbende of van de procureur des Konings, een notaris aanwijzen om 
 Iedere verdeling waarbij de vermoedelijk afwezige betrokken is, geschiedt overeenkomstig artikel 1225 van het
 Gerechtelijk Wetboek.
 
-Art. 117.<W 2007-05-09/44, art. 10, 037; Inwerkingtreding : 01-07-2007> § 1. Indien de vermoedelijk afwezige
+###### Art. 117.<W 2007-05-09/44, art. 10, 037; Inwerkingtreding : 01-07-2007> § 1. Indien de vermoedelijk afwezige
 terugkeert, kan hij derdenverzet instellen tegen het vonnis waarbij de [1 vrederechter]1 het vermoeden van
 afwezigheid heeft vastgesteld.
 Indien de vermoedelijk afwezige terugkeert of indien men van hem nieuws ontvangt tijdens de periode van de
@@ -3451,9 +3455,9 @@ Het eindverslag en, in voorkomend geval, de inventaris worden bij het dossier be
 gevoegd.
 (1)<W 2013-07-30/23, art. 8, 065; Inwerkingtreding : 01-09-2014>
 
-##### Afdeling II. - Verklaring van afwezigheid <Ingevoegd bij W 2007-05-09/44, art. 11; Inwerkingtreding : 01-07- 2007>
 
-Art. 118.<W 2007-05-09/44, art. 11, 037; Inwerkingtreding : 01-07-2007> § 1. Wanneer er vijf jaar verlopen
+##### Afdeling II. - Verklaring van afwezigheid <Ingevoegd bij W 2007-05-09/44, art. 11; Inwerkingtreding : 01-07- 2007>
+###### Art. 118.<W 2007-05-09/44, art. 11, 037; Inwerkingtreding : 01-07-2007> § 1. Wanneer er vijf jaar verlopen
 zijn sinds het vonnis waarbij het vermoeden van afwezigheid werd vastgesteld, of zeven jaar sinds men voor het
 laatst nieuws ontvangen heeft van de afwezige, kan de verklaring van afwezigheid worden uitgesproken door de
 [1 familierechtbank]1 op verzoek van iedere belanghebbende of van de procureur des Konings.
@@ -3461,7 +3465,7 @@ laatst nieuws ontvangen heeft van de afwezige, kan de verklaring van afwezigheid
 verklaring van afwezigheid ter kennis brengen van de in artikel [1 112, § 1]1, bedoelde vrederechter.
 (1)<W 2013-07-30/23, art. 9, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 119
+###### Art. 119
 
 <W 2007-05-09/44, art. 13, 037; Inwerkingtreding : 01-07-2007> Het in artikel 118 bedoelde verzoek
 wordt, door toedoen van de griffier, bij uittreksel bekendgemaakt in het Belgisch Staatsblad, in twee dagbladen
@@ -3472,14 +3476,14 @@ De rechtbank kan alle andere maatregelen bevelen die zij nodig acht om dit verzo
 (Oud hoofdstuk III vervallen) <W 2007-05-09/44, art. 14, 037; Inwerkingtreding : 01-07-2007>
 (Oude afdeling I vervallen) <W 2007-05-09/44, art. 14, 037; Inwerkingtreding : 01-07-2007>
 
-Art. 120.<W 2007-05-09/44, art. 15, 037; Inwerkingtreding : 01-07-2007> De [1 familierechtbank]1 mag een
+###### Art. 120.<W 2007-05-09/44, art. 15, 037; Inwerkingtreding : 01-07-2007> De [1 familierechtbank]1 mag een
 vonnis houdende verklaring van afwezigheid eerst wijzen een jaar na de laatste bekendmaking bepaald in artikel
 119, eerste lid.
 Het vonnis houdende verklaring van afwezigheid wordt bij uittreksel bekendgemaakt op de wijze bepaald in
 artikel 119, binnen de termijn bepaald door de rechtbank.
 (1)<W 2013-07-30/23, art. 10, 065; Inwerkingtreding : 01-09-2014>
 
-Art. 121.[1 § 1. Het beschikkend gedeelte van de beslissing houdende verklaring van afwezigheid vermeldt de
+###### Art. 121.[1 § 1. Het beschikkend gedeelte van de beslissing houdende verklaring van afwezigheid vermeldt de
 gegevens opgesomd in artikel 56; het stelt, in voorkomend geval, de onmogelijkheid vast om sommige van die
 gegevens te vermelden.
 Op verzoek van de procureur des Konings stuurt de griffier onmiddellijk de gegevens nodig voor de opmaak
@@ -3492,7 +3496,7 @@ afwezigheid ten gevolge van de rechterlijke beslissing op.
 van de opmaak van de akte van afwezigheid.]1
 (1)<W 2018-06-18/03, art. 5, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 122.<W 2007-05-09/44, art. 17, 037; Inwerkingtreding : 01-07-2007> Indien de afwezige terugkeert, kan
+###### Art. 122.<W 2007-05-09/44, art. 17, 037; Inwerkingtreding : 01-07-2007> Indien de afwezige terugkeert, kan
 hij derdenverzet instellen tegen het vonnis van verklaring van afwezigheid uitgesproken door de [1
 familierechtbank]1, [2 waarna de akte van afwezigheid kan worden verbeterd overeenkomstig artikel 35]2.
 Indien het bewijs van het bestaan van de afwezige geleverd wordt na de dag waarop de beslissing houdende
@@ -3504,13 +3508,13 @@ De DABS maakt op basis hiervan een melding op en verbindt deze met de akte van a
 (1)<W 2013-07-30/23, art. 11, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2018-06-18/03, art. 6, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 123
+###### Art. 123
 
 <W 2007-05-09/44, art. 18, 037; Inwerkingtreding : 01-07-2007> Het op grond van artikel 122
 gewezen vonnis houdende verbetering wordt bij uittreksel bekendgemaakt op de bij artikel 119 bepaalde wijze en
 binnen de door de rechtbank bepaalde termijn.
 
-Art. 124.<W 2007-05-09/44, art. 19, 037; Inwerkingtreding : 01-07-2007> Indien de afwezige terugkeert of
+###### Art. 124.<W 2007-05-09/44, art. 19, 037; Inwerkingtreding : 01-07-2007> Indien de afwezige terugkeert of
 indien het bewijs van zijn bestaan geleverd wordt, krijgt de afwezige door het vonnis houdende verbetering zijn
 goederen en de goederen die hij tijdens zijn afwezigheid had moeten verkrijgen, terug in de staat waarin zij zich
 bevinden, alsook de prijs van de goederen die mochten zijn vervreemd, en de goederen die door wederbelegging
@@ -3526,9 +3530,9 @@ derde lid.
 Er wordt een einde gemaakt aan de maatregelen ten aanzien van de minderjarige kinderen.
 (1)<W 2011-08-13/17, art. 2, 054; Inwerkingtreding : 01-04-2012>
 
-##### Afdeling III. - Gevolgen van de afwezigheid of van het vermoeden van afwezigheid voor de minderjarige kinderen <Ingevoegd bij W 2007-05-09/44, art. 20; Inwerkingtreding : 01-07-2007>
 
-## Art. 125
+##### Afdeling III. - Gevolgen van de afwezigheid of van het vermoeden van afwezigheid voor de minderjarige kinderen <Ingevoegd bij W 2007-05-09/44, art. 20; Inwerkingtreding : 01-07-2007>
+###### Art. 125
 
 <W 2007-05-09/44, art. 23, 037; Inwerkingtreding : 01-07-2007> Indien er minderjarige kinderen zijn,
 moet de griffier een eensluidend verklaard afschrift van elke beslissing gewezen op grond van de artikelen 112,
@@ -3537,7 +3541,7 @@ overeenkomstig de regels voor de voogdij.
 
 #### HOOFDSTUK lI. - Gerechtelijke verklaring van overlijden <W 2007-05-09/44, art. 22, 037; Inwerkingtreding : 01- 07-2007>
 
-Art. 126.<W 2007-05-09/44, art. 23, 037; Inwerkingtreding : 01-07-2007> Bij ontstentenis van een akte van
+###### Art. 126.<W 2007-05-09/44, art. 23, 037; Inwerkingtreding : 01-07-2007> Bij ontstentenis van een akte van
 overlijden, kan de [1 familierechtbank]1, op verzoek van iedere belanghebbende of van de procureur des
 Konings, die ambtshalve optreedt of op verzoek van de minister van Justitie, het overlijden verklaren van iedere
 persoon die in levensbedreigende omstandigheden verdween, indien zijn lichaam niet kon worden teruggevonden
@@ -3545,26 +3549,26 @@ of niet kon worden geïdentificeerd, en zijn overlijden, gelet op de omstandighe
 beschouwd.
 (1)<W 2013-07-30/23, art. 12, 065; Inwerkingtreding : 01-09-2014>
 
-Art. 127.<W 2007-05-09/44, art. 24, 037; Inwerkingtreding : 01-07-2007> Onverminderd de toepassing van
+###### Art. 127.<W 2007-05-09/44, art. 24, 037; Inwerkingtreding : 01-07-2007> Onverminderd de toepassing van
 artikel 1226 van het Gerechtelijk Wetboek, kan de procureur des Konings het verzoek tot verklaring van
 overlijden van diverse personen instellen bij een enkel verzoekschrift en kan de [1 familierechtbank]1 in dat geval
 uitspraak doen bij een enkel vonnis.
 (1)<W 2013-07-30/23, art. 13, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 128
+###### Art. 128
 
 <W 2007-05-09/44, art. 25, 037; Inwerkingtreding : 01-07-2007> Is de verdwenen persoon
 betrokken bij een verdeling of een erfenis, dan gaat de rechtbank, overeenkomstig artikel 19 van het Gerechtelijk
 Wetboek, over tot het aanwijzen van de notaris die zijn belangen moet vertegenwoordigen tot het tijdstip waarop
 het vonnis houdende verklaring van overlijden wordt uitgesproken.
 
-## Art. 129
+###### Art. 129
 
 <W 2007-05-09/44, art. 26, 037; Inwerkingtreding : 01-07-2007> De rechtbank kan bepalen dat het
 verzoek in het Belgisch Staatsblad wordt bekendgemaakt. In dat geval bepaalt de rechtbank de termijn tijdens
 welke hij, na deze bekendmaking, zijn uitspraak over het verzoek zal opschorten.
 
-Art. 130.<W 2007-05-09/44, art. 27, 037; Inwerkingtreding : 01-07-2007> Binnen vijftien dagen na de
+###### Art. 130.<W 2007-05-09/44, art. 27, 037; Inwerkingtreding : 01-07-2007> Binnen vijftien dagen na de
 uitspraak brengt de griffier het beschikkend gedeelte van het vonnis bij gerechtsbrief ter kennis van de partijen.
 De termijn van hoger beroep bedraagt twee maanden te rekenen van deze kennisgeving. Het hoger beroep
 wordt bij verzoekschrift bij [1 de familiekamer van]1 het hof van beroep ingesteld. Op straffe van nietigheid moet
@@ -3578,7 +3582,7 @@ De termijn voor voorziening in cassatie en de voorziening tegen het arrest waarb
 vastgesteld hebben schorsende kracht.
 (1)<W 2013-07-30/23, art. 14, 065; Inwerkingtreding : 01-09-2014>
 
-Art. 131.<W 2007-05-09/44, art. 28, 037; Inwerkingtreding : 01-07-2007> De gerechtelijke beslissing tot
+###### Art. 131.<W 2007-05-09/44, art. 28, 037; Inwerkingtreding : 01-07-2007> De gerechtelijke beslissing tot
 verklaring van overlijden stelt de datum van het overlijden vast, rekening houdend met de vermoedens
 voortvloeiend uit de omstandigheden van de zaak; zo niet stelt ze die datum vast op de dag van de verdwijning.
 Deze datum mag niet onbepaald zijn.
@@ -3587,7 +3591,7 @@ omschreven vermeldingen; het stelt in voorkomend geval de onmogelijkheid vast me
 ervan.
 (1)<W 2018-06-18/03, art. 7, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 132.[1 Op verzoek van de procureur des Konings stuurt de griffier onmiddellijk de gegevens nodig voor de
+###### Art. 132.[1 Op verzoek van de procureur des Konings stuurt de griffier onmiddellijk de gegevens nodig voor de
 opmaak van de akte van overlijden ten gevolge van de in kracht van gewijsde gegane gerechtelijke beslissing tot
 verklaring van overlijden via de DABS naar de bevoegde ambtenaar van de burgerlijke stand.
 De ambtenaar van de burgerlijke stand van de laatste plaats van inschrijving van de overledene in het
@@ -3596,12 +3600,12 @@ van overlijden ingevolge de rechterlijke beslissing onmiddellijk op.
 In geval van een collectief vonnis wordt een akte van overlijden per betrokkene opgemaakt.]1
 (1)<W 2018-06-18/03, art. 8, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 133.[1 ...]1
+###### Art. 133.[1 ...]1
 De vonnissen en arresten waarbij een verzoek tot verklaring van overlijden wordt afgewezen, beletten niet dat
 een soortgelijk verzoek later ontvankelijk zou zijn, ingeval het gegrond is op nieuw bewijsmateriaal.
 (1)<W 2018-06-18/03, art. 9, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 134.[1 Indien de persoon die gerechtelijk overleden is verklaard terugkeert kan hij derdenverzet instellen
+###### Art. 134.[1 Indien de persoon die gerechtelijk overleden is verklaard terugkeert kan hij derdenverzet instellen
 tegen de rechterlijke beslissing tot gerechtelijke verklaring van overlijden uitgesproken door de familierechtbank,
 waarna de akte van overlijden kan verbeterd worden overeenkomstig artikel 35.
 Indien het bewijs van het bestaan van de gerechtelijk overleden verklaarde geleverd wordt na de datum waarop
@@ -3615,7 +3619,7 @@ rechtbank bepaalde termijn.
 Indien de persoon die gerechtelijk overleden is verklaard terugkeert, is artikel 124 van toepassing.]1
 (1)<W 2018-06-18/03, art. 10, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 135
+###### Art. 135
 
 <W 2007-05-09/44, art. 33, 037; Inwerkingtreding : 01-07-2007> De hoofdgriffiers van de hoven en
 rechtbanken stellen de minister van Buitenlandse Zaken onmiddellijk in kennis van enige krachtens dit hoofdstuk
@@ -3699,31 +3703,31 @@ wordt in de akte van geboorte steeds als meemoeder vermeld.
 In alle overige gevallen wordt voor de toepassing van boek I, titel VII, uitgegaan van het nieuwe geslacht.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 13, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 136
+###### Art. 136
 
 (Opgeheven) <W 2007-05-09/44, art. 34, 037; Inwerkingtreding : 01-07-2007>
 
-## Art. 137
+###### Art. 137
 
 (Opgeheven) <W 2007-05-09/44, art. 34, 037; Inwerkingtreding : 01-07-2007>
 
-## Art. 138
+###### Art. 138
 
 (Opgeheven) <W 2007-05-09/44, art. 34, 037; Inwerkingtreding : 01-07-2007>
 
-## Art. 139
+###### Art. 139
 
 (Opgeheven) <W 2007-05-09/44, art. 34, 037; Inwerkingtreding : 01-07-2007>
 
-## Art. 140
+###### Art. 140
 
 (Opgeheven) <W 14-05-1981, Art. 1>
 
-## Art. 141
+###### Art. 141
 
 (Opgeheven) <W 31-03-1987, art. 16>
 
-## Art. 142
+###### Art. 142
 
 (Opgeheven) <W 2007-05-09/44, art. 34, 037; Inwerkingtreding : 01-07-2007>
 
@@ -3731,17 +3735,17 @@ In alle overige gevallen wordt voor de toepassing van boek I, titel VII, uitgega
 
 #### HOOFDSTUK I. - HOEDANIGHEDEN EN VOORWAARDEN VEREIST OM EEN HUWELIJK TE MOGEN AANGAAN.
 
-## Art. 143
+###### Art. 143
 
 <W 2003-02-13/36, art. 3, 015; Ed : 01-06-2003> Een huwelijk kan worden aangegaan door twee
 personen van verschillend of van hetzelfde geslacht.
 Indien het huwelijk werd aangegaan tussen personen van hetzelfde geslacht, is artikel 315 niet van toepassing.
 
-## Art. 144
+###### Art. 144
 
 <W 19-01-1990, art. 7> Niemand mag een huwelijk aangaan voor hij de leeftijd van achttien jaar heeft
 bereikt.
-Art. 145.<W 19-01-1990, art. 8> Om gewichtige redenen kan de [1 familierechtbank]1 de in het vorige artikel
+###### Art. 145.<W 19-01-1990, art. 8> Om gewichtige redenen kan de [1 familierechtbank]1 de in het vorige artikel
 vervatte verbodsbepaling opheffen. (De vordering wordt bij verzoekschrift ingediend, ofwel door beide ouders,
 ofwel door een van hen, ofwel door de voogd, ofwel door de minderjarige indien de ouders of de voogd niet in
 het huwelijk toestemmen.) <W 2001-04-29/39, art. 4, 011; Inwerkingtreding : 01-08-2001>
@@ -3765,11 +3769,11 @@ Een eensluidend verklaard afschrift van de beschikking wordt eveneens overgezond
 (2)<W 2018-06-18/03, art. 14, 082; Inwerkingtreding : 31-03-2019>
 (3)<W 2018-12-21/09, art. 2, 086; Inwerkingtreding : 01-03-2019>
 
-## Art. 146
+###### Art. 146
 
 Er is geen huwelijk wanneer er geen toestemming is.
 
-## Art. 146bis
+###### Art. 146bis
 
 <Ingevoegd bij W 1999-05-04/63, art. 12, 006; Inwerkingtreding : 01-01-2000> Er is geen huwelijk
 wanneer, ondanks de gegeven formele toestemmingen tot het huwelijk, uit een geheel van omstandigheden blijkt
@@ -3777,17 +3781,17 @@ dat de intentie van minstens één van de echtgenoten kennelijk niet is gericht 
 duurzame levensgemeenschap, maar enkel op het bekomen van een verblijfsrechtelijk voordeel dat is verbonden
 aan de staat van gehuwde.
 
-Art. 146ter.<Ingevoegd bij W 2007-04-25/76, art. 3; Inwerkingtreding : 25-06-2007> Er is evenmin een
+###### Art. 146ter.<Ingevoegd bij W 2007-04-25/76, art. 3; Inwerkingtreding : 25-06-2007> Er is evenmin een
 huwelijk wanneer het wordt aangegaan zonder vrije toestemming [1 van beide echtgenoten of de toestemming]1
 van minstens een van de echtgenoten werd gegeven onder geweld of bedreiging.
 (1)<W 2013-06-02/08, art. 4, 059; Inwerkingtreding : 03-10-2013>
 
-Art. 147.[1 Men mag geen huwelijk aangaan:
+###### Art. 147.[1 Men mag geen huwelijk aangaan:
 1° vóór de ontbinding van een bestaand huwelijk;
 2° vóór de beëindiging van een bestaande wettelijke samenwoning, tenzij het dezelfde partijen betreft.]1
 (1)<W 2023-02-08/05, art. 2, 099; Inwerkingtreding : 11-03-2023>
 
-Art. 148.<W 19-01-1990, art. 9> Zonder toestemming van zijn ouders mag een minderjarige geen huwelijk
+###### Art. 148.<W 19-01-1990, art. 9> Zonder toestemming van zijn ouders mag een minderjarige geen huwelijk
 aangaan.
 Die toestemming wordt vastgesteld door de [2 familierechtbank]2 waarbij de vordering tot ontheffing van het
 leeftijd vereiste aanhangig is gemaakt.
@@ -3804,79 +3808,79 @@ ingeval zij niet verschijnen, kan de rechtbank toestemming tot het huwelijk verl
 (1)<W 2013-03-17/14, art. 4, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2013-07-30/23, art. 16, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 149
+###### Art. 149
 
 (Opgeheven) <W 19-01-1990, art. 10>
 
-## Art. 150
+###### Art. 150
 
 (Opgeheven) <W 19-01-1990, art. 11>
 
-## Art. 151
+###### Art. 151
 
 (Opgeheven) <W 19-01-1990, art. 12>
 
-## Art. 152
+###### Art. 152
 
 (Opgeheven) <W 19-01-1990, art. 13>
 
-## Art. 153
+###### Art. 153
 
 (Opgeheven) <W 19-01-1990, art. 14>
 
-## Art. 154
+###### Art. 154
 
 (Opgeheven) <W 19-01-1990, art. 15>
 
-## Art. 155
+###### Art. 155
 
 (Opgeheven) <W 31-03-1987, art. 24>
 
-## Art. 155bis
+###### Art. 155bis
 
 (Opgeheven) <W 31-03-1987, art. 24>
 
-## Art. 156
+###### Art. 156
 
 (Opgeheven) <W 15-12-1949, art. 29>
 
-## Art. 157
+###### Art. 157
 
 (Opgeheven) <W 15-12-1949, art. 29>
 
-## Art. 158
+###### Art. 158
 
 (Opgeheven) <W 31-03-1987, art. 24>
 
-## Art. 159
+###### Art. 159
 
 (Opgeheven) <W 31-03-1987, art. 24>
 
-## Art. 160
+###### Art. 160
 
 (Opgeheven) <W 31-03-1987, art. 24>
 
-## Art. 160bis
+###### Art. 160bis
 
 (Opgeheven) <W 31-03-1987, art. 24>
 
-## Art. 161
+###### Art. 161
 
 Het huwelijk is verboden tussen alle (...) bloedverwanten in de rechte opgaande en nederdalende lijn
 en de aanverwanten in dezelfde lijn. <W 31-03-1987, art. 25>
 
-## Art. 162
+###### Art. 162
 
 In de zijlijn is het huwelijk verboden tussen (broers, tussen zusters of tussen broer en zuster) (...).
 <W 31-03-1987, art. 25> <W 2001-03-27/38, art. 2, 010; Inwerkingtreding : 21-05-2001> <W 2003-02-13/36,
 (Lid opgeheven) <W 2001-03-27/38, art. 2, 010; Inwerkingtreding : 21-05-2001>
 
-## Art. 163
+###### Art. 163
 
 <W 2003-02-13/36, art. 5, 015; Inwerkingtreding : 01-06-2003> Het huwelijk is ook verboden tussen
 oom en nicht of neef, of tussen tante en nicht of neef.
 
-Art. 164.[1 De rechtbank kan, om gewichtige redenen, het in artikel 161 bedoelde verbod voor aanverwanten
+###### Art. 164.[1 De rechtbank kan, om gewichtige redenen, het in artikel 161 bedoelde verbod voor aanverwanten
 en het in artikel 163 bedoelde verbod opheffen.
 De procedure wordt op eenzijdig verzoekschrift ingeleid door een van de toekomstige echtgenoten. De
 rechtbank doet uitspraak na de toekomstige echtgenoten te hebben opgeroepen en na het advies van de
@@ -3887,7 +3891,6 @@ procureur des Konings ter zake te hebben ingewonnen.]1
 
 (1)<W 2018-06-18/03, art. 15, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling I. [1 - Aangifte van het huwelijk]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 16, 082; Inwerkingtreding : 31-03-2019>
 
@@ -4010,11 +4013,12 @@ de akte van bekendheid of door de toelating, voor zover de juistheid van de gege
 weerlegd.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 23, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 2. [1 - Voltrekking van het huwelijk]1
+##### Afdeling I. [1 - Aangifte van het huwelijk]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 24, 082; Inwerkingtreding : 31-03-2019>
 
-Art. 165.<W 1999-05-04/63, art. 13, 006; Inwerkingtreding : 01-01-2000> § 1. Het huwelijk mag niet worden
+##### Afdeling 2. [1 - Voltrekking van het huwelijk]1
+###### Art. 165.<W 1999-05-04/63, art. 13, 006; Inwerkingtreding : 01-01-2000> § 1. Het huwelijk mag niet worden
 voltrokken vóór de 14e dag na de datum van [3 ondertekening van de aangifte zoals bedoeld in artikel 164/1]3.
 § 2. De procureur des Konings bij de rechtbank van eerste aanleg van het gerechtelijk arrondissement waarin
 de verzoekers voornemens zijn te huwen, kan, om gewichtige redenen vrijstelling verlenen van de aangifte en
@@ -4042,11 +4046,11 @@ voltrekken.]2
 (2)<W 2019-03-23/01, art. 2, 087; Inwerkingtreding : 31-03-2019>
 (3)<W 2022-12-06/02, art. 2, 098; Inwerkingtreding : 31-12-2022>
 
-Art. 166.<W 1999-05-04/63, art. 14, 006; Inwerkingtreding : 01-01-2000> De voltrekking van het huwelijk
+###### Art. 166.<W 1999-05-04/63, art. 14, 006; Inwerkingtreding : 01-01-2000> De voltrekking van het huwelijk
 geschiedt in het openbaar voor de ambtenaar van de burgerlijke stand die de [1 ...]1 aangifte heeft opgemaakt.
 (1)<W 2023-09-13/08, art. 38, 102; Inwerkingtreding : 01-01-2024>
 
-Art. 167.<W 1999-05-04/63, art. 15, 006; Inwerkingtreding : 01-01-2000> De ambtenaar van de burgerlijke
+###### Art. 167.<W 1999-05-04/63, art. 15, 006; Inwerkingtreding : 01-01-2000> De ambtenaar van de burgerlijke
 stand weigert het huwelijk te voltrekken wanneer blijkt dat niet is voldaan aan de hoedanigheden en voorwaarden
 vereist om een huwelijk te mogen aangaan, of indien hij van oordeel is dat de voltrekking in strijd is met de
 beginselen van de openbare orde.
@@ -4076,85 +4080,85 @@ bij de [2 familierechtbank]2. <W 2000-03-01/48, art. 2, 008; Inwerkingtreding : 
 (1)<W 2013-06-02/08, art. 5, 059; Inwerkingtreding : 03-10-2013. Overgangsbepaling : art. 24>
 (2)<W 2013-07-30/23, art. 17, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 168
+###### Art. 168
 
 (Opgeheven) <W 26-12-1891, art. 10>
 
-## Art. 169
+###### Art. 169
 
 (Opgeheven) <W 26-12-1891, art. 10>
 
-## Art. 170
+###### Art. 170
 
 (Opgeheven) <W 2004-07-16/31, art. 139, 020; Inwerkingtreding : 01-10-2004>
 
-## Art. 170bis
+###### Art. 170bis
 
 <Opgeheven bij W 2013-12-21/50, art. 7,8°, 060; Inwerkingtreding : 15-06-2014 (KB 2014-04-19/02, art. 1>
 
-Art. 170ter.(Opgeheven) <W 2004-07-16/31, art. 139, 020; Inwerkingtreding : 01-10-2004>
+###### Art. 170ter.(Opgeheven) <W 2004-07-16/31, art. 139, 020; Inwerkingtreding : 01-10-2004>
 
-## Art. 171
+###### Art. 171
 
 (Opgeheven) <W 2004-07-16/31, art. 139, 020; Inwerkingtreding : 01-10-2004>
 
 #### HOOFDSTUK III. <Opgeheven bij W 2009-02-19/36, art.4, 044; Inwerkingtreding : 21-03-2009>
 
-## Art. 172
+###### Art. 172
 
 <Opgeheven bij W 2009-02-19/36, art. 4, 044; Inwerkingtreding : 21-03-2009>
 
-## Art. 173
+###### Art. 173
 
 <Opgeheven bij W 2009-02-19/36, art. 4, 044; Inwerkingtreding : 21-03-2009>
 
-## Art. 174
+###### Art. 174
 
 <Opgeheven bij W 2009-02-19/36, art. 4, 044; Inwerkingtreding : 21-03-2009>
 
-## Art. 175
+###### Art. 175
 
 <Opgeheven bij W 2009-02-19/36, art. 4, 044; Inwerkingtreding : 21-03-2009>
 
-## Art. 176
+###### Art. 176
 
 <Opgeheven bij W 2009-02-19/36, art. 4, 044; Inwerkingtreding : 21-03-2009>
 
-## Art. 177
+###### Art. 177
 
 <Opgeheven bij W 2009-02-19/36, art. 4, 044; Inwerkingtreding : 21-03-2009>
 
-## Art. 178
+###### Art. 178
 
 <Opgeheven bij W 2009-02-19/36, art. 4, 044; Inwerkingtreding : 21-03-2009>
 
-## Art. 179
+###### Art. 179
 
 <Opgeheven bij W 2009-02-19/36, art. 4, 044; Inwerkingtreding : 21-03-2009>
 
 #### HOOFDSTUK IV. - VORDERINGEN TOT NIETIGVERKLARING VAN HET HUWELIJK.
 
-## Art. 180
+###### Art. 180
 
 (Eerste lid opgeheven) <W 2007-04-25/76, art. 4, 036; Inwerkingtreding : 25-06-2007>
 Wanneer er dwaling in de persoon heeft plaatsgehad, kan tegen het huwelijk alleen worden opgekomen door
 degene van de echtgenoten die in dwaling werd gebracht.
 
-## Art. 181
+###### Art. 181
 
 In het geval van het vorige artikel is de vordering tot nietigverklaring niet meer ontvankelijk, wanneer
 de samenwoning is voortgezet gedurende zes maanden (nadat de dwaling door de echtgenoot is ontdekt). <W
 2007-04-25/76, art. 5, 036; Inwerkingtreding : 25-06-2007>
 
-## Art. 182
+###### Art. 182
 
 (Opgeheven) <W 19-01-1990, art. 21>
 
-## Art. 183
+###### Art. 183
 
 (Opgeheven) <W 19-01-1990, art. 22>
 
-Art. 184.<W 31-03-1987, art. 26> Tegen elk huwelijk dat is aangegaan met overtreding van (de bepalingen van
+###### Art. 184.<W 31-03-1987, art. 26> Tegen elk huwelijk dat is aangegaan met overtreding van (de bepalingen van
 de artikelen 144, 146bis, 146ter, 147, 161, 162, 163, 341 of 353-13,) kan worden opgekomen door de
 echtgenoten zelf, door allen die daarbij belang hebben en door het openbaar ministerie. <W 2007-04-25/76, art.
 6, 036; Inwerkingtreding : 25-06-2007>
@@ -4162,13 +4166,13 @@ echtgenoten zelf, door allen die daarbij belang hebben en door het openbaar mini
 artikelen 146bis of 146ter.]1
 (1)<W 2013-06-02/08, art. 6, 059; Inwerkingtreding : 03-10-2013>
 
-Art. 185.<W 19-01-1990, art. 23> Tegen een huwelijk dat is aangegaan door een minderjarige echtgenoot of
+###### Art. 185.<W 19-01-1990, art. 23> Tegen een huwelijk dat is aangegaan door een minderjarige echtgenoot of
 door minderjarige echtgenoten die van de [1 familierechtbank]1 geen toestemming hebben gekregen om een
 huwelijk aan te gaan, kan evenwel niet meer worden opgekomen wanneer zes maanden verlopen zijn sinds die
 echtgenoot of de echtgenoten de leeftijd van achttien jaar bereikt hebben.
 (1)<W 2013-07-30/23, art. 18, 065; Inwerkingtreding : 01-09-2014>
 
-Art. 186.[1 De persoon die krachtens artikel 492/1, § 1, derde lid, 3°, uitdrukkelijk onbekwaam werd verklaard
+###### Art. 186.[1 De persoon die krachtens artikel 492/1, § 1, derde lid, 3°, uitdrukkelijk onbekwaam werd verklaard
 om de nietigverklaring van het huwelijk te vorderen, kan, op zijn verzoek, door de in artikel 628, 3°, van het
 Gerechtelijk Wetboek bedoelde vrederechter, alsnog worden gemachtigd de vordering tot nietigverklaring van
 het huwelijk in te stellen.
@@ -4177,30 +4181,30 @@ De vrederechter oordeelt over de wilsbekwaamheid van de beschermde persoon.
 (1)<W 2013-03-17/14, art. 5, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 3, 086; Inwerkingtreding : 01-03-2019>
 
-## Art. 187
+###### Art. 187
 
 In alle gevallen waarin, overeenkomstig artikel 184, de vordering tot nietigverklaring kan worden
 ingesteld door allen die daarbij belang hebben, kan zulks niet geschieden door de bloedverwanten in de zijlijn of
 door de kinderen, (die niet uit dit huwelijk geboren zijn), zolang beide echtgenoten in leven zijn, doch eerst
 wanneer zij daarbij een reeds verkregen en dadelijk belang hebben. <W 31-03-1987, art. 27>
 
-## Art. 188
+###### Art. 188
 
 De echtgenoot ten nadele van wie een tweede huwelijk is aangegaan, kan de nietigverklaring ervan
 vorderen zelfs tijdens het leven van de echtgenoot die met hem verbonden was.
 
-## Art. 189
+###### Art. 189
 
 Indien de nieuwe echtgenoten de nietigheid van het eerste huwelijk inroepen, moet vooraf worden
 beslist of dat huwelijk geldig dan wel nietig is.
 
-## Art. 190
+###### Art. 190
 
 In alle gevallen waarin artikel 184 toepasselijk is en met inachtneming van de in artikel 185 gestelde
 beperkingen, kan en moet de procureur des Konings de nietigverklaring van het huwelijk vorderen tijdens het
 leven van beide echtgenoten en hen doen veroordelen om van elkaar te scheiden.
 
-## Art. 191.Tegen
+###### Art. 191.Tegen
 
 elk huwelijk dat niet in het openbaar is aangegaan en dat niet voor de bevoegde openbare
 ambtenaar is voltrokken (of waarvan geen aangifte is gedaan zoals bepaald in [1 artikel 164/1]1), kan worden
@@ -4208,7 +4212,7 @@ opgekomen door de echtgenoten zelf, door de ouders, door de grootouders en door 
 verkregen en dadelijk belang hebben, alsook door het openbaar ministerie. <W 1999-05-04/63, art. 18, 006;
 (1)<W 2023-09-13/08, art. 39, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 192
+###### Art. 192
 
 <W 2000-03-01/48, art. 4, 008; Inwerkingtreding : 16-04-2000> Indien het huwelijk niet is
 voorafgegaan door de vereiste aangifte, of indien door de wet toegelaten vrijstellingen niet zijn verkregen, of
@@ -4217,18 +4221,18 @@ openbare ambtenaar gestraft met geldboete van zesentwintig frank tot driehonderd
 gehuwden of degenen onder wier gezag zij gehandeld hebben, gestraft met geldboete van zesentwintig frank tot
 tweehonderd frank.
 
-## Art. 193
+###### Art. 193
 
 De in het vorige artikel bepaalde straffen worden opgelegd aan de daarin genoemde personen,
 wegens elke overtreding van de in (artikel 166) gestelde regels, ook al mochten die overtredingen niet voldoende
 geacht worden om de nietigheid van het huwelijk te doen uitspreken. <W 2000-03-01/48, art. 5, 008;
 
-Art. 193bis.<Ingevoegd bij W 14-11-1947, art. 1> Onverminderd de toepassing van de artikelen 184, 190 en
+###### Art. 193bis.<Ingevoegd bij W 14-11-1947, art. 1> Onverminderd de toepassing van de artikelen 184, 190 en
 191 hiervoren en van [1 artikelen 138bis, § 1, en 139 van het Gerechtelijk Wetboek]1, kan het openbaar
 ministerie als tussenkomende partij optreden bij alle rechtsvorderingen tot nietigverklaring van een huwelijk.
 (1)<W 2014-05-05/09, art. 2, 063; Inwerkingtreding : 18-07-2014>
 
-Art. 193ter.[1 Indien, in geval van een verzoek tot nietigverklaring van een huwelijk, de huwelijksakte in België
+###### Art. 193ter.[1 Indien, in geval van een verzoek tot nietigverklaring van een huwelijk, de huwelijksakte in België
 werd opgemaakt of in België werd overgeschreven voor 31 maart 2019, verzoekt de griffier de ambtenaar van
 de burgerlijke stand die de akte heeft opgemaakt of overgeschreven tot opname van de akte in de DABS. Indien
 de huwelijksakte in het buitenland werd opgemaakt, verzoekt hij de verzoekende partij om een akte van huwelijk
@@ -4248,56 +4252,56 @@ Indien het gaat om de nietigverklaring van een huwelijk dat is aangegaan met ove
 van de rechterlijke beslissing, onmiddellijk via de DABS aan de Dienst Vreemdelingenzaken genotificeerd.]1
 (1)<W 2023-09-13/08, art. 40, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 194.Niemand
+###### Art. 194.Niemand
 
 kan op de hoedanigheid van echtgenoot en op de burgerlijke gevolgen van het huwelijk
 aanspraak maken, [1 indien hij geen akte van huwelijk kan voorleggen, behalve in het geval bedoeld in artikel 26]1.
 (1)<W 2023-09-13/08, art. 41, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 195.Het
+###### Art. 195.Het
 
 bezit van staat kan degenen die beweren met elkaar gehuwd te zijn en zich tegenover elkaar op
 dat bezit beroepen, niet ontslaan van de verplichting om [1 de akte van huwelijk]1 over te leggen.
 (1)<W 2023-09-13/08, art. 42, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 196.Wanneer
+###### Art. 196.Wanneer
 
 er bezit van staat aanwezig is en [1 de akte van huwelijk]1 wordt overgelegd, zijn de
 echtgenoten niet ontvankelijk om tegen elkaar de nietigverklaring van die akte te vorderen.
 (1)<W 2023-09-13/08, art. 43, 102; Inwerkingtreding : 01-01-2024>
 
-Art. 197.[1 Het is niet mogelijk om de afstamming van kinderen, geboren uit twee personen die openlijk als
+###### Art. 197.[1 Het is niet mogelijk om de afstamming van kinderen, geboren uit twee personen die openlijk als
 gehuwden geleefd hebben en die beiden overleden zijn, te betwisten, met als enkele reden het niet voorleggen
 van de akte van huwelijk, wanneer deze afstamming blijkt uit een bezit van staat dat door de akte van geboorte
 niet wordt tegengesproken.]1
 (1)<W 2023-09-13/08, art. 44, 102; Inwerkingtreding : 01-01-2024>
 
-Art. 198.[1 Wanneer het bewijs van de wettelijke voltrekking van een huwelijk is verkregen als gevolg van een
+###### Art. 198.[1 Wanneer het bewijs van de wettelijke voltrekking van een huwelijk is verkregen als gevolg van een
 strafrechtelijke procedure, verzekert de opmaak van de akte van huwelijk ten gevolge van de rechterlijke
 beslissing, vanaf de dag van de voltrekking, alle burgerlijke gevolgen aan het huwelijk zowel ten aanzien van de
 echtgenoten als de uit het huwelijk geboren kinderen.]1
 (1)<W 2018-06-18/03, art. 28, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 199
+###### Art. 199
 
 Zijn de echtgenoten of is een van hen overleden zonder het bedrog te hebben ontdekt, dan kan de
 strafvordering worden ingesteld door allen die er belang bij hebben het huwelijk geldig te doen verklaren, alsook
 door de procureur des Konings.
 
-## Art. 200
+###### Art. 200
 
 Is de openbare ambtenaar reeds overleden wanneer het bedrog ontdekt wordt, dan wordt de
 rechtsvordering voor de burgerlijke rechtbank ingesteld tegen zijn erfgenamen door de procureur des Konings,
 in tegenwoordigheid van de belanghebbende partijen en op hun aangifte.
 
-## Art. 201
+###### Art. 201
 
 <W 31-03-1987, art. 29> Het huwelijk dat nietig verklaard is, heeft niettemin gevolgen ten aanzien
 van de echtgenoten, wanneer het te goeder trouw is aangegaan.
 Is de goede trouw slechts bij een van beide echtgenoten aanwezig, dan heeft het huwelijk alleen gevolgen ten
 voordele van die echtgenoot.
 
-## Art. 202
+###### Art. 202
 
 <W 31-03-1987, art. 30> Het heeft eveneens gevolgen ten voordele van de kinderen, ook al is geen
 van beide echtgenoten te goeder trouw geweest.
@@ -4306,7 +4310,7 @@ van beide echtgenoten te goeder trouw geweest.
 
 art. 31>
 
-Art. 203.[1 § 1. De ouders dienen naar evenredigheid van hun middelen te zorgen voor de huisvesting, het
+###### Art. 203.[1 § 1. De ouders dienen naar evenredigheid van hun middelen te zorgen voor de huisvesting, het
 levensonderhoud, de gezondheid, het toezicht, de opvoeding, de opleiding en de ontplooiing van hun kinderen.
 Indien de opleiding niet voltooid is, loopt de verplichting door na de meerderjarigheid van het kind.
 § 2. Met middelen wordt onder andere bedoeld alle beroepsinkomsten, roerende en onroerende inkomsten van
@@ -4322,7 +4326,7 @@ getreden. ]2
 (1)<W 2010-03-19/05, art. 2, 048; Inwerkingtreding : 01-08-2010; zie ook art. 17>
 (2)<W 2012-12-10/14, art. 2, 057; Inwerkingtreding : 21-01-2013>
 
-Art. 203bis.[1 § 1. Elke ouder draagt bij in de kosten die voortvloeien uit de bij artikel 203, § 1, bepaalde
+###### Art. 203bis.[1 § 1. Elke ouder draagt bij in de kosten die voortvloeien uit de bij artikel 203, § 1, bepaalde
 verplichting, in verhouding tot zijn respectieve aandeel in de samengevoegde middelen.
 § 2. Onverminderd de rechten van het kind, kan elk van de ouders van de andere ouder diens bijdrage
 vorderen in de kosten voortvloeiende uit artikel 203, § 1.
@@ -4364,7 +4368,7 @@ onderhoudsbijdragen in het kader van de in artikel 203, § 1, gedefinieerde onde
 (3)<W 2013-07-30/23, art. 19, 065; Inwerkingtreding : 01-09-2014>
 (4)<W 2018-12-21/09, art. 125, 086; Inwerkingtreding : 10-01-2019>
 
-Art. 203ter.[1 Indien de schuldenaar een van de verplichtingen opgelegd bij de artikelen 203, 203bis, 205, 207,
+###### Art. 203ter.[1 Indien de schuldenaar een van de verplichtingen opgelegd bij de artikelen 203, 203bis, 205, 207,
 336 of 353-14, van dit Wetboek of de krachtens artikel 1288, eerste lid, 3°, van het Gerechtelijk Wetboek of de
 krachtens een notariële of gehomologeerde overeenkomst tussen partijen aangegane verbintenis niet nakomt,
 kan de schuldeiser, onverminderd het recht van derden, zich voor de vaststelling van het bedrag van de
@@ -4386,7 +4390,7 @@ De griffier vermeldt in zijn kennisgeving wat de derdeschuldenaar moet betalen o
 (1)<W 2010-03-19/05, art. 4, 048; Inwerkingtreding : 01-08-2010; zie ook art. 17>
 (2)<W 2013-07-30/23, art. 20, 065; Inwerkingtreding : 01-09-2014>
 
-Art. 203quater.[1 § 1. De krachtens artikel 203, § 1, bepaalde onderhoudsbijdrage, vastgesteld hetzij bij vonnis
+###### Art. 203quater.[1 § 1. De krachtens artikel 203, § 1, bepaalde onderhoudsbijdrage, vastgesteld hetzij bij vonnis
 overeenkomstig artikel 1321 van het Gerechtelijk Wetboek, hetzij bij overeenkomst, wordt van rechtswege
 aangepast aan de schommelingen van het indexcijfer van de consumptieprijzen.
 Deze basisbijdrage is gebonden aan het indexcijfer van de consumptieprijzen van de maand die voorafgaat aan
@@ -4403,17 +4407,17 @@ onderhoudsbijdrage van rechtswege verhoogd wordt in de door hem bepaalde omstand
 (1)<Ingevoegd bij W 2010-03-19/05, art. 5, 048; Inwerkingtreding : 01-08-2010; zie ook art. 17>
 (2)<W 2013-07-30/23, art. 21, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 204
+###### Art. 204
 
 Het kind heeft tegen zijn ouders geen vordering tot het bekomen van een stand, hetzij als
 huwelijksuitzet, hetzij op een andere wijze.
 
-## Art. 205
+###### Art. 205
 
 <W 14-05-1981, art. 3> De kinderen zijn levensonderhoud verschuldigd aan hun ouders en hun
 andere bloedverwanten in de opgaande lijn die behoeftig zijn.
 
-Art. 205bis.<Ingevoegd bij W 14-05-1981, art. 4> § 1. De nalatenschap van de eerststervende echtgenoot, al
+###### Art. 205bis.<Ingevoegd bij W 14-05-1981, art. 4> § 1. De nalatenschap van de eerststervende echtgenoot, al
 was hij gescheiden van tafel en bed, is levensonderhoud verschuldigd aan de langstlevende, indien deze ten tijde
 van het overlijden behoeftig is.
 § 2. [2 De nalatenschap van degene die overleden is zonder nakomelingen achter te laten is levensonderhoud
@@ -4452,7 +4456,7 @@ tot deze nalatenschap te komen, ongeacht of hij daadwerkelijk tot de nalatenscha
 (3)<W 2018-07-22/01, art. 58, 084; Inwerkingtreding : 01-09-2018>
 (4)<W 2022-01-19/18, art. 8, 094; Inwerkingtreding : 01-07-2022>
 
-## Art. 206
+###### Art. 206
 
 Schoonzonen en schoondochters zijn eveneens en in dezelfde omstandigheden levensonderhoud
 verschuldigd aan hun schoonouders, doch deze verplichting houdt op :
@@ -4461,22 +4465,22 @@ verschuldigd aan hun schoonouders, doch deze verplichting houdt op :
 2° wanneer degene van de echtgenoten die de aanverwantschap heeft doen ontstaan en de kinderen uit zijn
 huwelijk met de andere echtgenoot geboren, overleden zijn.
 
-## Art. 207
+###### Art. 207
 
 De verplichtingen die uit deze bepalingen voortvloeien, zijn wederkerig.
 
-## Art. 208
+###### Art. 208
 
 Levensonderhoud wordt slechts toegestaan naar verhouding van de behoeften van hem die het
 vordert en van het vermogen van hem die het verschuldigd is.
 
-## Art. 209
+###### Art. 209
 
 Wanneer hij die het levensonderhoud verstrekt of hij die het geniet, tot zodanige staat komt dat de
 ene het niet meer kan verschaffen of de andere het niet meer nodig heeft, hetzij voor het geheel, hetzij voor een
 gedeelte, kan ontheffing of vermindering ervan gevorderd worden.
 
-## Art. 210.Wanneer
+###### Art. 210.Wanneer
 
 de persoon die het levensonderhoud moet verstrekken, bewijst dat hij de uitkering tot
 onderhoud niet kan betalen, kan de [1 familierechtbank]1, met inachtneming van de omstandigheden der zaak,
@@ -4484,7 +4488,7 @@ bevelen dat hij degene aan wie hij levensonderhoud verschuldigd is, bij zich zal
 en onderhoud zal verschaffen.
 (1)<W 2013-07-30/23, art. 22, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 211
+###### Art. 211
 
 De rechtbank beslist eveneens of de vader of de moeder die aanbiedt het kind waaraan
 levensonderhoud verschuldigd is, bij zich in huis te nemen en het aldaar kost en onderhoud te verschaffen,
@@ -4492,7 +4496,7 @@ alsdan zal vrijgesteld zijn van de verplichting om de uitkering tot onderhoud te
 
 #### HOOFDSTUK VI. - WEDERZIJDSE RECHTEN EN VERPLICHTINGEN VAN ECHTGENOTEN.
 
-## Art. 212
+###### Art. 212
 
 <W 14-07-1976, art. 1> De rechten, verplichtingen en bevoegdheden van de echtgenoten worden
 geregeld door de bepalingen van dit hoofdstuk, die van toepassing zijn door het enkele feit van het huwelijk.
@@ -4501,12 +4505,12 @@ huwelijkscontract, welke niet mogen afwijken van de bepalingen van dit hoofdstuk
 Het huwelijk wijzigt de handelingsbekwaamheid van de echtgenoten niet, behoudens bij toepassing van artikel
 476.
 
-## Art. 213
+###### Art. 213
 
 <W 14-07-1976, art. 1> Echtgenoten zijn jegens elkaar tot samenwoning verplicht; zij zijn elkaar
 getrouwheid, hulp en bijstand verschuldigd.
 
-Art. 214.<W 14-07-1976, art. 1> De echtelijke verblijfplaats wordt door de echtgenoten in onderlinge
+###### Art. 214.<W 14-07-1976, art. 1> De echtelijke verblijfplaats wordt door de echtgenoten in onderlinge
 overeenstemming vastgesteld. Bij gebreke van overeenstemming tussen de echtgenoten doet de [2
 familierechtbank]2 uitspraak in het belang van het gezin.
 [1 Ingeval een der echtgenoten vermoedelijk afwezig is, of ingeval de vrederechter oordeelt dat een der
@@ -4515,7 +4519,7 @@ echtelijke verblijfplaats vastgesteld door de andere echtgenoot.]1
 (1)<W 2013-03-17/14, art. 6, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2013-07-30/23, art. 23, 065; Inwerkingtreding : 01-09-2014>
 
-Art. 215.<W 14-07-1976, art. 1> § 1. De ene echtgenoot kan zonder de instemming van de andere niet onder
+###### Art. 215.<W 14-07-1976, art. 1> § 1. De ene echtgenoot kan zonder de instemming van de andere niet onder
 bezwarende titel of om niet onder de levenden beschikken over de rechten die hij bezit op het onroerend goed
 dat het gezin tot voornaamste woning dient, noch dat goed met hypotheek bezwaren.
 Hij kan zonder die instemming evenmin onder bezwarende titel of om niet onder de levenden beschikken over
@@ -4536,7 +4540,7 @@ De bepalingen van deze paragraaf zijn niet van toepassing op handelshuurovereenk
 pachtcontracten.
 (1)<W 2013-07-30/23, art. 24, 065; Inwerkingtreding : 01-09-2014>
 
-Art. 216.<W 14-07-1976, art. 1> § 1. Iedere echtgenoot heeft het recht een beroep uit te oefenen zonder de
+###### Art. 216.<W 14-07-1976, art. 1> § 1. Iedere echtgenoot heeft het recht een beroep uit te oefenen zonder de
 instemming van de andere echtgenoot.
 Indien deze evenwel oordeelt dat hieraan een ernstig nadeel verbonden is voor zijn zedelijke of stoffelijke
 belangen of voor die van de minderjarige kinderen, heeft hij het recht zich tot de [1 familierechtbank]1 te wenden.
@@ -4549,7 +4553,7 @@ De instemming kan alleen om gewichtige redenen worden ingetrokken. Tegen intrekk
 opkomen bij de [1 familierechtbank]1.
 (1)<W 2013-07-30/23, art. 25, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 217
+###### Art. 217
 
 <W 14-07-1976, art. 1> Iedere echtgenoot ontvangt zijn inkomsten alleen en besteedt ze bij
 voorrang aan zijn bijdrage in de lasten van het huwelijk.
@@ -4558,7 +4562,7 @@ uitoefening van zijn beroep; die goederen staan uitsluitend onder zijn bestuur.
 Wat er daarna nog overblijft is onderworpen aan de regels van het huwelijksvermogensstelsel van de
 echtgenoten.
 
-## Art. 218
+###### Art. 218
 
 <W 14-07-1976, art. 1> Iedere echtgenoot kan, zonder de instemming van de andere, op zijn naam
 een depositorekening voor geld of effecten doen openen en een brandkast huren.
@@ -4567,14 +4571,14 @@ hebben.
 De bewaarnemer en de verhuurder moeten de andere echtgenoot in kennis stellen van de opening van de
 rekening of de huur van de brandkast.
 
-## Art. 219
+###### Art. 219
 
 <W 14-07-1976, art. 1> Iedere echtgenoot kan tijdens het huwelijk aan de andere algemene of
 bijzondere last geven om hem te vertegenwoordigen in de uitoefening van de bevoegdheden die zijn
 huwelijksvermogensstelsel hem laat of toekent.
 Die lastgeving kan te allen tijde worden herroepen.
 
-Art. 220.<W 14-07-1976, art. 1> § 1. [1 Ingeval een der echtgenoten vermoedelijk afwezig is, of ingeval de
+###### Art. 220.<W 14-07-1976, art. 1> § 1. [1 Ingeval een der echtgenoten vermoedelijk afwezig is, of ingeval de
 rechtbank oordeelt, op grond van feiten vastgesteld in een met redenen omkleed proces-verbaal, dat een der
 echtgenoten in de onmogelijkheid verkeert zijn wil te kennen te geven of wilsonbekwaam is, dan kan de andere
 echtgenoot zich door de [2 familierechtbank]2 laten machtigen om de in artikel 215, § 1, bedoelde handelingen
@@ -4590,7 +4594,7 @@ huishouding.
 (2)<W 2014-05-12/02, art. 11, 003; Inwerkingtreding : 01-09-2014>
 (3)<W 2013-07-30/23, art. 26, 065; Inwerkingtreding : 01-09-2014, zie W 2014-05-08/02, art. 40, 066;
 
-Art. 221.<W 14-07-1976, art. 1> Iedere echtgenoot draagt in de lasten van het huwelijk bij naar zijn vermogen.
+###### Art. 221.<W 14-07-1976, art. 1> Iedere echtgenoot draagt in de lasten van het huwelijk bij naar zijn vermogen.
 Wanneer een der echtgenoten deze verplichting niet nakomt, kan de andere, [1 zonder dat een fout moet
 worden bewezen en]1 onverminderd de rechten van derden, zich door de [1 familierechtbank]1 laten machtigen
 om, met uitsluiting van zijn echtgenoot, diens inkomsten of de inkomsten uit de goederen die hij krachtens hun
@@ -4609,14 +4613,14 @@ blijft de machtiging niettemin uitvoerbaar tot aan de beslissing van de rechtban
 rechtbank in kort geding.
 (1)<W 2013-07-30/23, art. 27, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 222
+###### Art. 222
 
 <W 14-07-1976, art. 1> Iedere schuld die door een der echtgenoten wordt aangegaan ten behoeve
 van de huishouding en de opvoeding van de kinderen, verbindt de andere echtgenoot hoofdelijk.
 Deze is echter niet aansprakelijk voor schulden die, gelet op de bestaansmiddelen van het gezin, buitensporig
 zijn.
 
-Art. 223.[1 Indien een der echtgenoten grovelijk zijn plicht verzuimt, beveelt de familierechtbank, op verzoek van
+###### Art. 223.[1 Indien een der echtgenoten grovelijk zijn plicht verzuimt, beveelt de familierechtbank, op verzoek van
 de andere echtgenoot, dringende maatregelen, volgens het bepaalde in de artikelen [2 1253ter/4 tot 1253ter/6]2
 van het Gerechtelijk Wetboek.
 Hetzelfde geschiedt op verzoek van een der echtgenoten, indien de verstandhouding tussen hen ernstig
@@ -4624,7 +4628,7 @@ verstoord is.]1
 (1)<W 2013-07-30/23, art. 28, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2014-05-08/02, art. 41, 066; Inwerkingtreding : 01-09-2014
 
-## Art. 224
+###### Art. 224
 
 <W 14-07-1976, art. 1> § 1. Op verzoek van de andere echtgenoot en onverminderd de toekenning
 van schadevergoeding, kunnen worden nietigverklaard :
@@ -4640,41 +4644,41 @@ een jaar na de dag waarop de handeling ter kennis is gekomen van de echtgenoot-e
 Indien de echtgenoot overlijdt voordat verval is ingetreden, beschikken zijn erfgenamen vanaf het overlijden
 over een nieuwe termijn van een jaar.
 
-## Art. 225
+###### Art. 225
 
 (Opgeheven) <W 14-07-1976, art. 1>
 
-## Art. 226
+###### Art. 226
 
 (Opgeheven) <W 14-07-1976, art. 1>
 
-## Art. 226bis
+###### Art. 226bis
 
 (Opgeheven) <W 14-07-1976, art. 1>
 
-## Art. 226ter
+###### Art. 226ter
 
 (Opgeheven) <W 14-07-1976, art. 1>
 
-## Art. 226quater
+###### Art. 226quater
 
 (Opgeheven) <W 14-07-1976, art. 1>
 
-## Art. 226quinquies
+###### Art. 226quinquies
 
 (Opgeheven) <W 14-07-1976, art. 1>
 
-## Art. 226sexies
+###### Art. 226sexies
 
 (Opgeheven) <W 14-07-1976, art. 1>
 
-## Art. 226septies
+###### Art. 226septies
 
 (Opgeheven) <W 14-07-1976, art. 1>
 
 #### HOOFDSTUK VII. - ONTBINDING VAN HET HUWELIJK.
 
-## Art. 227
+###### Art. 227
 
 Het huwelijk wordt ontbonden :
 1° door de dood van een van de echtgenoten;
@@ -4682,7 +4686,7 @@ Het huwelijk wordt ontbonden :
 
 #### HOOFDSTUK VIII. - TWEEDE HUWELIJK.
 
-## Art. 228
+###### Art. 228
 
 (Opgeheven) <W 31-03-1987, art. 35>
 
@@ -4690,7 +4694,7 @@ Het huwelijk wordt ontbonden :
 
 #### HOOFDSTUK I. - GRONDEN TOT ECHTSCHEIDING.
 
-## Art. 229
+###### Art. 229
 
 <W 2007-04-27/00, art. 2, 034; Inwerkingtreding : 01-09-2007> § 1. De echtscheiding wordt
 uitgesproken wanneer de rechter vaststelt dat het huwelijk onherstelbaar ontwricht is. Het huwelijk is
@@ -4704,13 +4708,13 @@ werd gedaan overeenkomstig artikel 1255, § 1, van het Gerechtelijk Wetboek.
 echtgenoot na meer dan één jaar feitelijke scheiding of wanneer de aanvraag tot tweemaal toe werd gedaan
 overeenkomstig artikel 1255, § 2, van het Gerechtelijk Wetboek.
 
-## Art. 230
+###### Art. 230
 
 <Hersteld bij W 2007-04-27/00, art. 3, 034; Inwerkingtreding : 01-09-2007> De echtgenoten kunnen
 ook door onderlinge toestemming uit de echt scheiden volgens de voorwaarden die vastgesteld zijn in deel IV,
 boek IV, hoofdstuk XI, afdeling 2, van het Gerechtelijk Wetboek.
 
-Art. 231.[1 De persoon die krachtens artikel 492/1 uitdrukkelijk onbekwaam werd verklaard om de
+###### Art. 231.[1 De persoon die krachtens artikel 492/1 uitdrukkelijk onbekwaam werd verklaard om de
 echtscheiding te vorderen, kan, op zijn verzoek, door de in artikel 628, 3°, van het Gerechtelijk Wetboek
 bedoelde vrederechter, alsnog worden gemachtigd de vordering tot echtscheiding op grond van onherstelbare
 ontwrichting als bedoeld in artikel 229 in te stellen of een verzoek tot echtscheiding door onderlinge toestemming
@@ -4720,306 +4724,306 @@ De vrederechter oordeelt over de wilsbekwaamheid van de beschermde persoon.
 (1)<W 2013-03-17/14, art. 8, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 4, 086; Inwerkingtreding : 01-03-2019>
 
-## Art. 232
+###### Art. 232
 
 (Opgeheven) <W 2007-04-27/00, art. 4, 2°, 034; Inwerkingtreding : 01-09-2007>
 
-## Art. 233
+###### Art. 233
 
 (Opgeheven) <W 2007-04-27/00, art. 4, 3°, 034; Inwerkingtreding : 01-09-2007>
 
 #### HOOFDSTUK II. - ECHTSCHEIDING OP GROND VAN BEPAALDE FEITEN.
 
+
 ##### AFDELING I. - VORM VAN DE ECHTSCHEIDING OP GROND VAN BEPAALDE FEITEN.
-
-## Art. 234
-
-(Opgeheven) <W 10-10-1967, art. 18>
-
-## Art. 235
+###### Art. 234
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 236
+###### Art. 235
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 237
+###### Art. 236
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 238
+###### Art. 237
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 239
+###### Art. 238
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 240
+###### Art. 239
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 241
+###### Art. 240
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 242
+###### Art. 241
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 243
+###### Art. 242
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 244
+###### Art. 243
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 245
+###### Art. 244
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 246
+###### Art. 245
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 247
+###### Art. 246
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 248
+###### Art. 247
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 249
+###### Art. 248
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 250
+###### Art. 249
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 251
+###### Art. 250
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 252
+###### Art. 251
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 253
+###### Art. 252
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 254
+###### Art. 253
+
+(Opgeheven) <W 10-10-1967, art. 18>
+
+###### Art. 254
 
 (Opgeheven) <W 14-12-1935, art. 1>
 
-## Art. 255
+###### Art. 255
 
 (Opgeheven) <W 14-12-1935, art. 1>
 
-## Art. 256
+###### Art. 256
 
 (Opgeheven) <W 14-12-1935, art. 1>
 
-## Art. 257
+###### Art. 257
 
 (Opgeheven) <W 14-12-1935, art. 1>
 
-## Art. 258
+###### Art. 258
 
 (Opgeheven) <KB 239 07-02-1936, art. 5>
 
-## Art. 259
+###### Art. 259
 
 (Opgeheven) <W 15-07-1970, art. 58>
 
-## Art. 260
+###### Art. 260
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 261
+###### Art. 261
 
 (Opgeheven) <W 15-12-1949, art. 29>
 
-## Art. 262
+###### Art. 262
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 263
+###### Art. 263
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 264
+###### Art. 264
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 265
+###### Art. 265
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 266
+###### Art. 266
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 266bis
+###### Art. 266bis
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-##### AFDELING II. - VOORLOPIGE MAATREGELEN WAARTOE DE EIS TOT ECHTSCHEIDING OP GROND VAN
 BEPAALDE FEITEN AANLEIDING KAN GEVEN.
 
-## Art. 267
+##### AFDELING II. - VOORLOPIGE MAATREGELEN WAARTOE DE EIS TOT ECHTSCHEIDING OP GROND VAN
+###### Art. 267
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 268
+###### Art. 268
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 269
+###### Art. 269
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 270
+###### Art. 270
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 271
+###### Art. 271
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-##### AFDELING III. - GRONDEN VAN NIET-ONTVANKELIJKHEID TEGEN DE VORDERING TOT ECHTSCHEIDING OP
 GROND VAN BEPAALDE FEITEN.
 
-## Art. 272
+##### AFDELING III. - GRONDEN VAN NIET-ONTVANKELIJKHEID TEGEN DE VORDERING TOT ECHTSCHEIDING OP
+###### Art. 272
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 273
+###### Art. 273
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 274
+###### Art. 274
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
 #### HOOFDSTUK III. - ECHTSCHEIDING DOOR ONDERLINGE TOESTEMMING.
 
-## Art. 275
+###### Art. 275
 
 (Opgeheven) <W 2007-04-27/00, art. 4, 4°, 034; Inwerkingtreding : 01-09-2007>
 
-## Art. 276
+###### Art. 276
 
 (Opgeheven) <W 2007-04-27/00, art. 4, 5°, 034; Inwerkingtreding : 01-09-2007>
 
-## Art. 277
+###### Art. 277
 
 (Opgeheven) <W 20-11-1969, art. 2>
 
-## Art. 278
+###### Art. 278
 
 (Opgeheven) <W 20-07-1962, art. 5>
 
-## Art. 279
+###### Art. 279
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 280
+###### Art. 280
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 281
+###### Art. 281
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 282
+###### Art. 282
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 283
+###### Art. 283
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 284
+###### Art. 284
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 285
+###### Art. 285
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 286
+###### Art. 286
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 287
+###### Art. 287
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 288
+###### Art. 288
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 289
+###### Art. 289
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 290
+###### Art. 290
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 291
+###### Art. 291
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 292
+###### Art. 292
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 293
+###### Art. 293
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 294
+###### Art. 294
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 294bis
+###### Art. 294bis
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
 #### HOOFDSTUK IV. - GEVOLGEN VAN ECHTSCHEIDING.
 
-## Art. 295
+###### Art. 295
 
 <Opgeheven bij W 2022-01-19/18, art. 58, 094; Inwerkingtreding : 01-07-2022>
 
-## Art. 296
+###### Art. 296
 
 (Opgeheven) <W 31-03-1987, art. 37>
 
-## Art. 297
+###### Art. 297
 
 (Opgeheven) <W 30-06-1956, art. 4>
 
-## Art. 298
+###### Art. 298
 
 (Opgeheven) <W 15-05-1972, art. 1>
 
-Art. 299.[1 Behoudens overeenkomst in tegenovergestelde zin, leidt de echtscheiding tot het verval van de
+###### Art. 299.[1 Behoudens overeenkomst in tegenovergestelde zin, leidt de echtscheiding tot het verval van de
 overlevingsrechten die de echtgenoten elkaar bij huwelijksovereenkomst en sinds het aangaan van het huwelijk
 hebben toegekend.]1
 (1)<W 2018-07-22/01, art. 2, 084; Inwerkingtreding : 01-09-2018>
 
-## Art. 300
+###### Art. 300
 
 (Opgeheven) <W 2007-04-27/00, art. 6, 034; Inwerkingtreding : 01-09-2007>
 
-Art. 301.<W 2007-04-27/00, art. 7, 034; Inwerkingtreding : 01-09-2007> § 1. [5 De echtgenoten kunnen op elk
+###### Art. 301.<W 2007-04-27/00, art. 7, 034; Inwerkingtreding : 01-09-2007> § 1. [5 De echtgenoten kunnen op elk
 ogenblik overeenkomen omtrent de eventuele uitkering tot levensonderhoud, het bedrag ervan en de nadere
 regels volgens welke het overeengekomen bedrag zal kunnen worden herzien.]5
 § 2. Bij gebrek aan overeenkomst zoals bedoeld in § 1, kan de [4 familierechtbank]4 in het vonnis dat de
@@ -5102,11 +5106,11 @@ de kennisgeving ervan die hen door de griffier gedaan wordt op verzoek van de ei
 (4)<W 2013-07-30/23, art. 29, 065; Inwerkingtreding : 01-09-2014>
 (5)<W 2017-07-06/24, art. 63, 075; Inwerkingtreding : 03-08-2017>
 
-## Art. 301bis
+###### Art. 301bis
 
 (Opgeheven) <W 2007-04-27/00, art. 8, 034; Inwerkingtreding : 01-09-2007>
 
-Art. 302.<W 1995-04-13/37, art. 3, 003; Inwerkingtreding : 03-06-1995> Na de ontbinding van het huwelijk
+###### Art. 302.<W 1995-04-13/37, art. 3, 003; Inwerkingtreding : 03-06-1995> Na de ontbinding van het huwelijk
 door echtscheiding worden het gezag over de persoon van het kind en het beheer van zijn goederen ofwel door
 beide ouders gezamenlijk uitgeoefend ofwel door degene aan wie ze werden toevertrouwd, hetzij bij (een
 overeenkomst tussen partijen die gehomologeerd werd zoals bepaald is in artikel 1256) van het Gerechtelijk
@@ -5114,65 +5118,65 @@ Wetboek, hetzij bij een beschikking van de [1 familierechtbank]1 overeenkomstig 
 Wetboek, onverminderd het bepaalde in artikel 387bis van dit Wetboek. <W 2007-04-27/00, art. 9, 034;
 (1)<W 2013-07-30/23, art. 30, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 303
+###### Art. 303
 
 (opgeheven) <W 1995-04-13/37, art. 4, 003; Inwerkingtreding : 03-06-1995>
 
-## Art. 304
+###### Art. 304
 
 De ontbinding van het huwelijk door een in rechte (uitgesproken) echtscheiding ontneemt aan de
 kinderen uit dat huwelijk geen enkel voordeel dat hun door de wetten of door de huwelijksvoorwaarden van hun
 ouders was verzekerd; maar de rechten zullen aan de kinderen slechts op dezelfde wijze en in dezelfde
 omstandigheden toekomen als wanneer er geen echtscheiding geweest was. <W 2007-04-27/00, art. 10, 034;
 
-## Art. 305
+###### Art. 305
 
 (Opgeheven) <W 01-07-1972, art. 12>
 
-## Art. 306
+###### Art. 306
 
 (Opgeheven) <W 2007-04-27/00, art. 11, 1°, 034; Inwerkingtreding : 01-09-2007>
 
-## Art. 307
+###### Art. 307
 
 (Opgeheven) <W 2007-04-27/00, art. 11, 2°, 034; Inwerkingtreding : 01-09-2007>
 
-## Art. 307bis
+###### Art. 307bis
 
 (Opgeheven) <W 2007-04-27/00, art. 11, 1°, 034; Inwerkingtreding : 01-09-2007>
 
 #### HOOFDSTUK V. - SCHEIDING VAN TAFEL EN BED.
 
-## Art. 308
+###### Art. 308
 
 <W 2007-04-27/00, art. 12, 034; Inwerkingtreding : 01-09-2007> Na uitspraak van de scheiding van
 tafel en bed blijft de plicht van hulp bestaan.
 
-## Art. 309
+###### Art. 309
 
 (Opgeheven) <W 15-12-1949, art. 29>
 
-## Art. 310
+###### Art. 310
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 310bis
+###### Art. 310bis
 
 (Opgeheven) <W 10-10-1967, art. 18>
 
-## Art. 311
+###### Art. 311
 
 Scheiding van tafel en bed heeft altijd scheiding van goederen ten gevolge.
 
-Art. 311bis.<W 2007-04-27/00, art. 13, 034; Inwerkingtreding : 01-09-2007> De artikelen 229, 299, [1 , 231]1
+###### Art. 311bis.<W 2007-04-27/00, art. 13, 034; Inwerkingtreding : 01-09-2007> De artikelen 229, 299, [1 , 231]1
 302 en 304 van hetzelfde Wetboek zijn van toepassing bij scheiding van tafel en bed.
 (1)<W 2013-03-17/14, art. 9, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 311ter
+###### Art. 311ter
 
 (Opgeheven) <W 20-07-1962, art. 25>
 
-## Art. 311quater
+###### Art. 311quater
 
 (Opgeheven) <W 20-07-1962, art. 25>
 
@@ -5180,7 +5184,7 @@ Art. 311bis.<W 2007-04-27/00, art. 13, 034; Inwerkingtreding : 01-09-2007> De ar
 
 #### HOOFDSTUK 1. - VASTSTELLING VAN DE AFSTAMMING VAN MOEDERSZIJDE.
 
-## Art. 312
+###### Art. 312
 
 <W 31-03-1987, art. 38> § 1. Het kind heeft als moeder de persoon die als zodanig in de akte van
 geboorte is vermeld.
@@ -5191,7 +5195,7 @@ opzichte van wie de afstamming is vastgesteld en door de persoon die het moeders
 <W 2006-12-27/32, art. 367, 031; Inwerkingtreding : 01-07-2007>
 § 3. (opgeheven) <W 2006-12-27/32, art. 367, 031; Inwerkingtreding : 01-07-2007>
 
-## Art. 313
+###### Art. 313
 
 <W 31-03-1987, art. 38> § 1. Indien de naam van de moeder niet in de akte van geboorte is vermeld
 of bij ontstentenis van zulk een akte, kan zij het kind erkennen (onder de bij artikel 329bis bepaalde
@@ -5218,7 +5222,7 @@ tweede lid..]5
 (4)<W 2018-12-21/09, art. 119, 086; Inwerkingtreding : 10-01-2019>
 (5)<W 2023-12-19/05, art. 4, 103; Inwerkingtreding : 01-03-2024>
 
-Art. 314.<W 31-03-1987, art. 38> Bij gebreke van de akte van geboorte, van de vermelding van de naam van
+###### Art. 314.<W 31-03-1987, art. 38> Bij gebreke van de akte van geboorte, van de vermelding van de naam van
 de moeder in die akte of wanneer het kind onder valse namen is ingeschreven en niet is erkend, kan de
 afstamming van moederszijde gerechtelijk worden vastgesteld (onder de bij artikel 332quinquies bepaalde
 voorwaarden). <W 2006-07-01/75, art. 5, A, 030; Inwerkingtreding : 01-07-2007>
@@ -5236,21 +5240,21 @@ Het tegenbewijs kan eveneens door alle wettelijke middelen worden geleverd.
 
 #### HOOFDSTUK 2. - VASTSTELLING VAN DE AFSTAMMING VAN VADERSZIJDE.
 
-##### AFDELING 1. - VERMOEDEN VAN VADERSCHAP.
 
-## Art. 315
+##### AFDELING 1. - VERMOEDEN VAN VADERSCHAP.
+###### Art. 315
 
 <W 31-03-1987, art. 38> Het kind dat geboren is tijdens het huwelijk of binnen 300 dagen na de
 ontbinding of de nietigverklaring van het huwelijk, heeft de echtgenoot tot vader.
 
-## Art. 316
+###### Art. 316
 
 <W 31-03-1987, art. 38> Deze regel geldt niet wanneer (uit een beslissing houdende vaststelling van
 het vermoeden van afwezigheid) blijkt dat het kind geboren is meer dan 300 dagen na de verdwijning van de
 echtgenoot, onverminderd de rechten van de te goeder trouw handelende derden. <W 2007-05-09/44, art. 36,
 3°, 037; Inwerkingtreding : 01-07-2007>
 
-Art. 316bis.<ingevoegd bij W 2006-07-01/75, art. 6; Inwerkingtreding : 01-07-2007> Tenzij de echtgenoten op
+###### Art. 316bis.<ingevoegd bij W 2006-07-01/75, art. 6; Inwerkingtreding : 01-07-2007> Tenzij de echtgenoten op
 het tijdstip van de aangifte van de geboorte een gemeenschappelijke verklaring afgelegd hebben, is het in artikel
 315 bedoelde vermoeden van vaderschap niet meer van toepassing :
 1° wanneer het kind geboren is meer dan 300 dagen nadat de [1 familierechtbank]1 de overeenkomst tussen
@@ -5270,7 +5274,7 @@ opgenomen in de DABS.]2
 (1)<W 2013-07-30/23, art. 31, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2018-06-18/03, art. 30, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 317
+###### Art. 317
 
 <W 31-03-1987, art. 38> Het kind dat geboren is binnen 300 dagen na de ontbinding of de
 nietigverklaring van het huwelijk van zijn moeder en na een nieuw huwelijk van deze, heeft de nieuwe echtgenoot
@@ -5278,7 +5282,7 @@ tot vader.
 Wordt dit vaderschap betwist, dan wordt de vorige echtgenoot geacht de vader te zijn, behalve wanneer ook
 zijn vaderschap wordt betwist of wanneer het vaderschap van een derde komt vast te staan.
 
-Art. 318.<W 2006-07-01/75, art. 7, 030; Inwerkingtreding : 01-07-2007> § 1. Tenzij het kind bezit van staat
+###### Art. 318.<W 2006-07-01/75, art. 7, 030; Inwerkingtreding : 01-07-2007> § 1. Tenzij het kind bezit van staat
 heeft ten aanzien van de echtgenoot, kan het vermoeden van vaderschap worden betwist [1 voor de
 familierechtbank]1 door de moeder, het kind, de man ten aanzien van wie de afstamming vaststaat [2 de man die
 het vaderschap van het kind opeist en de vrouw die het meemoederschap van het kind opeist]2.
@@ -5332,14 +5336,14 @@ van artikel 332quinquies, §§ 1, 1/1, 2 en 4, is voldaan. Zo niet, wordt de vor
 (3)<W 2018-12-21/09, art. 101, 086; Inwerkingtreding : 10-01-2019>
 (4)<W 2024-03-28/60, art. 50, 105; Inwerkingtreding : 08-04-2024>
 
-##### AFDELING 2. - ERKENNING.
 
-Art. 319.[1 Wanneer het vaderschap niet vaststaat krachtens de artikelen 315 of 317, noch het
+##### AFDELING 2. - ERKENNING.
+###### Art. 319.[1 Wanneer het vaderschap niet vaststaat krachtens de artikelen 315 of 317, noch het
 meemoederschap bedoeld in hoofdstuk 2/1, kan de vader het kind erkennen onder de bij artikel 329bis bepaalde
 voorwaarden.]1
 (1)<W 2014-05-05/08, art. 6, 067; Inwerkingtreding : 01-01-2015>
 
-## Art. 319bis
+###### Art. 319bis
 
 <W 2006-07-01/75, art. 9, 030; Inwerkingtreding : 01-07-2007> Wanneer de vader gehuwd is en
 een kind erkent dat is verwekt bij een vrouw van wie hij niet de echtgenoot is, moet die erkenning ter kennis van
@@ -5359,19 +5363,19 @@ die de leeftijd van twaalf jaar bereikt hebben overeenkomstig de nadere regels b
 (2)<W 2018-06-18/03, art. 31, 082; Inwerkingtreding : 31-03-2019>
 (3)<W 2023-12-19/05, art. 5, 103; Inwerkingtreding : 01-03-2024>
 
-## Art. 320
+###### Art. 320
 
 (Opgeheven) <W 2006-07-01/75, art. 23, 030; Inwerkingtreding : 01-07-2007>
 
-Art. 321.<W 31-03-1987, art. 38> De vader kan het kind niet erkennen, wanneer uit die erkenning een
+###### Art. 321.<W 31-03-1987, art. 38> De vader kan het kind niet erkennen, wanneer uit die erkenning een
 huwelijksbeletsel zou blijken tussen hem en de moeder waarvoor [2 de familierechtbank]2 geen ontheffing kan
 verlenen ([1 ...]1. <W 2006-07-01/75, art. 10, 030; Inwerkingtreding : 01-07-2007>
 (1)<W 2018-12-21/09, art. 102, 086; Inwerkingtreding : 10-01-2019>
 (2)<W 2018-12-21/09, art. 119, 086; Inwerkingtreding : 10-01-2019>
 
-##### AFDELING 3. - ONDERZOEK NAAR HET VADERSCHAP.
 
-Art. 322.[2 Wanneer het vaderschap niet vaststaat krachtens de artikelen 315 of 317, noch op grond van een
+##### AFDELING 3. - ONDERZOEK NAAR HET VADERSCHAP.
+###### Art. 322.[2 Wanneer het vaderschap niet vaststaat krachtens de artikelen 315 of 317, noch op grond van een
 erkenning en wanneer het meemoederschap bedoeld in hoofdstuk 2/1 evenmin vaststaat, kan het bij vonnis,
 uitgesproken door de familierechtbank, worden vastgesteld onder de bij artikel 332quinquies bepaalde
 voorwaarden.]2
@@ -5383,11 +5387,11 @@ door beide echtgenoten.) <W 2003-02-13/36, art. 12, 015; Inwerkingtreding : 01-0
 (1)<W 2013-07-30/23, art. 33, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2014-05-05/08, art. 7, 067; Inwerkingtreding : 01-01-2015>
 
-## Art. 323
+###### Art. 323
 
 (Opgeheven) <W 2006-07-01/75, art. 24, 030; Inwerkingtreding : 01-07-2007>
 
-## Art. 324
+###### Art. 324
 
 <W 31-03-1987, art. 38> De afstamming wordt bewezen door het bezit van staat ten aanzien van de
 vermeende vader.
@@ -5395,7 +5399,7 @@ Bij gebreke van bezit van staat wordt de afstamming van vaderszijde door alle we
 Behalve wanneer er twijfel over bestaat, wordt het vaderschap vermoed wanneer is komen vast te staan dat de
 verweerder gedurende het wettelijk tijdperk van de verwekking gemeenschap heeft gehad met de moeder.
 
-Art. 325.<W 31-03-1987, art. 38> Het onderzoek naar het vaderschap is onontvankelijk, wanneer uit het
+###### Art. 325.<W 31-03-1987, art. 38> Het onderzoek naar het vaderschap is onontvankelijk, wanneer uit het
 vonnis een huwelijksbeletsel tussen de vermeende vader en de moeder zou blijken waarvoor [2 de
 familierechtbank]2 geen ontheffing kan verlenen [1 ...]1 [1 , tenzij de familierechtbank oordeelt dat de vaststelling
 van de afstamming van vaderszijde niet strijdig is met het belang van het kind]1. <W 2006-07-01/75, art. 11,
@@ -5407,13 +5411,12 @@ van de afstamming van vaderszijde niet strijdig is met het belang van het kind]1
 
 (1)<Ingevoegd bij W 2014-05-05/08, art. 8, 067; Inwerkingtreding : 01-01-2015>
 
-##### AFDELING 1. [1 - ALGEMENE BEPALINGEN.]1
 (1)<Ingevoegd bij W 2014-05-05/08, art. 9, 067; Inwerkingtreding : 01-01-2015>
 
 worden vastgesteld krachtens de bepalingen van dit hoofdstuk.]1
 (1)<Ingevoegd bij W 2014-05-05/08, art. 10, 067; Inwerkingtreding : 01-01-2015>
 
-##### AFDELING 2. [1 - VERMOEDEN VAN MEEMOEDERSCHAP.]1
+##### AFDELING 1. [1 - ALGEMENE BEPALINGEN.]1
 (1)<Ingevoegd bij W 2014-05-05/08, art. 11, 067; Inwerkingtreding : 01-01-2015>
 
 nietigverklaring van het huwelijk, heeft de echtgenote tot meemoeder.
@@ -5462,7 +5465,7 @@ afstammingsband van de verzoeker met zich. De familierechtbank gaat na of aan de
 (1)<Ingevoegd bij W 2014-05-05/08, art. 13, 067; Inwerkingtreding : 01-01-2015>
 (2)<W 2024-03-28/60, art. 51, 105; Inwerkingtreding : 08-04-2024>
 
-##### AFDELING 3. [1 - ERKENNING.]1
+##### AFDELING 2. [1 - VERMOEDEN VAN MEEMOEDERSCHAP.]1
 (1)<Ingevoegd bij W 2014-05-05/08, art. 14, 067; Inwerkingtreding : 01-01-2015>
 
 kind erkennen onder de bij artikel 329bis bepaalde voorwaarden.
@@ -5540,7 +5543,7 @@ verzoeker met zich. De familierechtbank gaat na of aan de voorwaarden van artike
 (2)<W 2014-12-18/01, art. 13, 071; Inwerkingtreding : 01-01-2015>
 (3)<W 2018-12-21/09, art. 105, 086; Inwerkingtreding : 10-01-2019>
 
-##### AFDELING 4. [1 - ONDERZOEK NAAR HET MEEMOEDERSCHAP.]1
+##### AFDELING 3. [1 - ERKENNING.]1
 (1)<Ingevoegd bij W 2014-05-05/08, art. 19, 067; Inwerkingtreding : 01-01-2015>
 
 erkenning, kan het bij vonnis worden vastgesteld onder de bij artikel 332quinquies, §§ 1, 1/1, 2 en 4, bepaalde
@@ -5570,20 +5573,21 @@ meemoederschap niet strijdig is met het belang van het kind]2.]1
 (2)<W 2018-12-21/09, art. 106, 086; Inwerkingtreding : 10-01-2019>
 (3)<W 2018-12-21/09, art. 119, 086; Inwerkingtreding : 10-01-2019>
 
+##### AFDELING 4. [1 - ONDERZOEK NAAR HET MEEMOEDERSCHAP.]1
 #### HOOFDSTUK 3. - GEMEENSCHAPPELIJKE BEPALINGEN NOPENS DE WIJZE WAAROP DE AFSTAMMING WORDT VASTGESTELD.
 
-##### AFDELING 1. - HET TIJDSTIP VAN DE VERWEKKING.
 
-## Art. 326
+##### AFDELING 1. - HET TIJDSTIP VAN DE VERWEKKING.
+###### Art. 326
 
 <W 31-03-1987, art. 38> Het kind wordt, behoudens tegenbewijs, vermoed te zijn verwekt in het
 tijdvak van de 300e tot en met de 180e dag voor de geboortedag en op het tijdstip dat voor hem het gunstigst
 is, gelet op het onderwerp van de vordering dat het heeft ingesteld of van het verweermiddel dat het heeft
 voorgedragen.
 
-##### AFDELING 2. - DE ERKENNING.
 
-Art. 327.[1 § 1. De erkenning gebeurt in de akte van geboorte of bij akte van erkenning.
+##### AFDELING 2. - DE ERKENNING.
+###### Art. 327.[1 § 1. De erkenning gebeurt in de akte van geboorte of bij akte van erkenning.
 § 2. De akte van erkenning wordt opgemaakt door de ambtenaar van de burgerlijke stand [2 die de aangifte
 heeft ondertekend, overeenkomstig artikel 327/1, § 1, eerste lid.]2]1
 [3 Deze ambtenaar van de burgerlijke stand verbindt de akte van erkenning met de akten van de burgerlijke
@@ -5680,7 +5684,7 @@ familierechtbank van de plaats van de aangifte van de erkenning.]1
 (2)<W 2023-09-13/08, art. 61, 102; Inwerkingtreding : 01-01-2024>
 (3)<W 2023-12-19/05, art. 7, 103; Inwerkingtreding : 01-03-2024>
 
-Art. 328.[2 § 1. De erkenning kan geschieden door een ontvoogde minderjarige en door een niet-ontvoogde
+###### Art. 328.[2 § 1. De erkenning kan geschieden door een ontvoogde minderjarige en door een niet-ontvoogde
 minderjarige met onderscheidingsvermogen.]2
 [1 [2 § 2.]2 De persoon die op grond van artikel 492/1, § 1, derde lid, 7°, uitdrukkelijk onbekwaam werd
 verklaard om een kind te erkennen, kan, op zijn verzoek, door de in artikel 628, 3°, van het Gerechtelijk Wetboek
@@ -5699,7 +5703,7 @@ van een zwangerschapsattest opgesteld door een geneesheer of een vroedvrouw.]3
 (4)<W 2018-06-18/03, art. 36, 082; Inwerkingtreding : 31-03-2019>
 (5)<W 2018-12-21/09, art. 5, 086; Inwerkingtreding : 01-03-2019>
 
-Art. 328bis.[1 . De vorderingen die worden bedoeld in de artikelen 318 en 325/3 kunnen voor de geboorte
+###### Art. 328bis.[1 . De vorderingen die worden bedoeld in de artikelen 318 en 325/3 kunnen voor de geboorte
 ingesteld worden door de man die het vaderschap van het kind opeist en door de vrouw die het
 meemoederschap opeist.
 De vordering die wordt bedoeld in artikel 325/4 kan voor de geboorte ingesteld worden door de vrouw die het
@@ -5707,7 +5711,7 @@ meemoederschap opeist.
 De vordering die wordt bedoeld in artikel 329bis kan voor de geboorte ingesteld worden door de man die het
 vaderschap van het kind opeist]1
 (1)<W 2014-12-18/01, art. 14, 071; Inwerkingtreding : 01-01-2015>
-Art. 329.[1 Ten aanzien van een kind kunnen niet meer dan twee afstammingsbanden uitwerking hebben.
+###### Art. 329.[1 Ten aanzien van een kind kunnen niet meer dan twee afstammingsbanden uitwerking hebben.
 Zo een kind wordt erkend door meer dan een persoon van hetzelfde geslacht, heeft alleen de eerste erkenning
 gevolg zolang ze niet is vernietigd. Deze bepaling is niet van toepassing in geval van een erkenning door de
 meemoeder van een kind dat door de moeder erkend werd. [2 Deze bepaling is evenmin van toepassing in geval
@@ -5719,7 +5723,7 @@ ze niet is vernietigd.]1
 (2)<W 2017-06-25/03, art. 6, 077; Inwerkingtreding : 01-01-2018>
 (3)<W 2023-09-13/08, art. 47, 102; Inwerkingtreding : 01-01-2024>
 
-Art. 329bis.<ingevoegd bij W 2006-07-01/75, art. 15; Inwerkingtreding : 01-07-2007> § 1. De erkenning van
+###### Art. 329bis.<ingevoegd bij W 2006-07-01/75, art. 15; Inwerkingtreding : 01-07-2007> § 1. De erkenning van
 het meerderjarige of het ontvoogde minderjarige kind is alleen ontvankelijk zo het kind daarin vooraf toestemt.
 [1 § 1/1. De toestemming van het meerderjarige kind is niet vereist indien de rechtbank, op grond van feiten die
 vastgesteld zijn in een met redenen omkleed proces-verbaal, oordeelt dat het kind niet wilsbekwaam is. Hetzelfde
@@ -5769,7 +5773,7 @@ aan het kind en aan zijn wettelijke vertegenwoordiger die er zich niettemin op k
 (3)<W 2017-09-19/06, art. 8, 079; Inwerkingtreding : 01-04-2018>
 (4)<W 2018-06-18/03, art. 37, 082; Inwerkingtreding : 31-03-2019>
 (5)<W 2018-12-21/09, art. 107, 086; Inwerkingtreding : 10-01-2019>
-Art. 330.<W 2006-07-01/75, art. 16, 030; Inwerkingtreding : 01-07-2007> § 1. Tenzij het kind bezit van staat
+###### Art. 330.<W 2006-07-01/75, art. 16, 030; Inwerkingtreding : 01-07-2007> § 1. Tenzij het kind bezit van staat
 heeft ten aanzien van degene die het heeft erkend, kan de erkenning van het moederschap worden betwist [1
 voor de familierechtbank]1 door de vader, het kind, de vrouw die het kind heeft erkend en de vrouw die het
 moederschap van het kind opeist. Tenzij het kind bezit van staat heeft ten aanzien van degene die het heeft
@@ -5877,20 +5881,20 @@ beslissing, onmiddellijk via de DABS aan de Dienst Vreemdelingenzaken genotifice
 
 #### HOOFDSTUK 4. - VORDERINGEN MET BETREKKING TOT DE AFSTAMMING.
 
-##### AFDELING 1. - ALGEMEEN.
 
-Art. 331.<W 31-03-1987, art. 38> § 1. [1 ...]1.
+##### AFDELING 1. - ALGEMEEN.
+###### Art. 331.<W 31-03-1987, art. 38> § 1. [1 ...]1.
 § 2. Telkens als de afstamming wordt betwist, kunnen de strafrechtbanken en de andere gerechten eerst
 uitspraak doen nadat de beslissing van de [1 familierechtbank]1 omtrent de staat in kracht van gewijsde is
 getreden.
 (1)<W 2013-07-30/23, art. 36, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 331bis
+###### Art. 331bis
 
 <W 31-03-1987, art. 38> Rechtsvorderingen met betrekking tot de afstamming zijn niet
 ontvankelijk indien het kind niet levensvatbaar geboren is.
 
-## Art. 331ter
+###### Art. 331ter
 
 <W 2006-07-01/75, art. 17, 030; Inwerkingtreding : 01-07-2007> Wanneer de wet geen kortere
 termijn stelt, verjaren de vorderingen betreffende de afstamming door verloop van dertig jaar te rekenen van de
@@ -5898,22 +5902,22 @@ dag waarop het bezit van staat geëindigd is, of, bij gebreke van bezit van staa
 van de dag waarop het kind in het bezit van staat is gekomen overeenkomstig de staat die hem werd betwist,
 waarbij artikel 2252 onverkort van toepassing blijft.
 
-## Art. 2253
+###### Art. 2253
 
 is niet van toepassing.
 De in dit artikel bepaalde verjaringstermijn geldt niet voor de op artikel 329bis gegronde vorderingen.
 
-## Art. 331quater
+###### Art. 331quater
 
 <W 31-03-1987, art. 38> Van het vorderingsrecht betreffende de afstamming kan niet worden
 afgezien.
 
-## Art. 331quinquies
+###### Art. 331quinquies
 
 <W 31-03-1987, art. 38> Erfgenamen kunnen de reeds begonnen rechtsvordering
 voortzetten, tenzij de verzoeker er uitdrukkelijk afstand van heeft gedaan.
 
-Art. 331sexies.<W 2006-07-01/75, art. 18, 030; Inwerkingtreding : 01-07-2007> [1 § 1.]1 Onverminderd artikel
+###### Art. 331sexies.<W 2006-07-01/75, art. 18, 030; Inwerkingtreding : 01-07-2007> [1 § 1.]1 Onverminderd artikel
 329bis, § 2, tweede lid, en § 3, eerste lid, [2 artikel 332quinquies en, wat betreft de meerderjarige, § 1/1 van die
 bepaling, worden de niet-ontvoogde minderjarige en de wilsonbekwame meerderjarige, in gedingen betreffende
 hun afstamming, als eiser of als verweerder, vertegenwoordigd door hun wettelijke vertegenwoordiger, of wordt
@@ -5926,18 +5930,18 @@ vrederechter]3 op verzoek van elke belanghebbende of van de procureur des Koning
 (2)<W 2014-04-25/23, art. 182, 062; Inwerkingtreding : 01-09-2014>
 (3)<W 2017-07-06/24, art. 64, 075; Inwerkingtreding : 03-08-2017>
 
-Art. 331septies.<W 31-03-1987, art. 38> De [1 familierechtbanken]1 beslechten de geschillen betreffende de
+###### Art. 331septies.<W 31-03-1987, art. 38> De [1 familierechtbanken]1 beslechten de geschillen betreffende de
 afstamming waarvoor de wet geen regeling getroffen heeft, door de meest waarschijnlijke afstamming met alle
 rechtsmiddelen vast te stellen.
 Zo de andere bewijsmiddelen onvoldoende zijn, wordt het bezit van staat in aanmerking genomen.
 (1)<W 2013-07-30/23, art. 37, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 331octies
+###### Art. 331octies
 
 <W 31-03-1987, art. 38> De rechtbanken kunnen, zelfs ambtshalve, een bloedonderzoek of
 enig ander onderzoek volgens beproefde wetenschappelijke methode gelasten.
 
-Art. 331nonies.<W 31-03-1987, art. 38> Het bezit van staat moet voortdurend zijn.
+###### Art. 331nonies.<W 31-03-1987, art. 38> Het bezit van staat moet voortdurend zijn.
 Het wordt bewezen door feiten die te samen of afzonderlijk de betrekking van afstamming aantonen.
 Die feiten zijn onder meer :
 - dat het kind altijd de naam heeft gedragen van degene van wie wordt gezegd dat het afstamt;
@@ -5948,7 +5952,7 @@ Die feiten zijn onder meer :
 - dat de openbare overheid het als zodanig beschouwt.
 (1)<W 2014-05-05/08, art. 25, 067; Inwerkingtreding : 01-01-2015>
 
-Art. 331decies.<W 31-03-1987, art. 38> Rechterlijke beslissingen inzake afstamming kunnen worden
+###### Art. 331decies.<W 31-03-1987, art. 38> Rechterlijke beslissingen inzake afstamming kunnen worden
 tegengeworpen zelfs aan personen die geen partij waren in het geding; dezen kunnen echter derdenverzet
 instellen.
 In afwijking van artikel 811 van het Gerechtelijk Wetboek kan de [1 familierechtbank]1, zelfs ambtshalve,
@@ -5956,19 +5960,19 @@ gelasten dat alle belanghebbenden jegens wie zij oordeelt dat de beslissing mede
 worden geroepen.
 (1)<W 2013-07-30/23, art. 38, 065; Inwerkingtreding : 01-09-2014>
 
-##### AFDELING 2. - DE VORDERINGEN IN HET BIJZONDER.
 
-## Art. 332
+##### AFDELING 2. - DE VORDERINGEN IN HET BIJZONDER.
+###### Art. 332
 
 (Opgeheven) <W 2006-07-01/75, art. 24, 030; Inwerkingtreding : 01-07-2007>.
 
-Art. 332bis.[1 De vorderingen tot betwisting van staat moeten op zodanige wijze worden ingesteld dat het kind
+###### Art. 332bis.[1 De vorderingen tot betwisting van staat moeten op zodanige wijze worden ingesteld dat het kind
 of zijn afstammelingen en degene van zijn ouders wiens vaderschap, meemoederschap of moederschap niet
 wordt betwist in het geding worden geroepen, alsook de persoon wiens vaderschap, meemoederschap of
 moederschap wordt betwist.]1
 (1)<W 2014-05-05/08, art. 26, 067; Inwerkingtreding : 01-01-2015>
 
-Art. 332ter.<W 31-03-1987, art. 38> De rechtsvordering tot inroeping van staat kan worden ingesteld door
+###### Art. 332ter.<W 31-03-1987, art. 38> De rechtsvordering tot inroeping van staat kan worden ingesteld door
 het kind en door elk van zijn ouders persoonlijk.
 Na het overlijden van het kind, kan de vordering worden ingesteld door diens afstammelingen, die dat evenwel
 enkel kunnen doen voor de vijfentwintigste verjaardag van hun ouder.
@@ -5981,7 +5985,7 @@ ingesteld tegen de echtgenoot of echtgenote en, in voorkomend geval, tegen de vo
 echtgenote van de vermeende moeder.]1
 (1)<W 2014-05-05/08, art. 27, 067; Inwerkingtreding : 01-01-2015>
 
-## Art. 332quater
+###### Art. 332quater
 
 <W 31-03-1987, art. 38> Indien een van de personen die krachtens de voorgaande artikelen
 moet worden gedagvaard overleden is, wordt de rechtsvordering tot betwisting van staat alleen ingesteld tegen
@@ -5991,7 +5995,7 @@ Indien allen die krachtens de voorafgaande bepalingen moeten worden gedagvaard o
 vordering ingesteld bij eenzijdig verzoekschrift en zijn de artikelen 1025 en volgende van het Gerechtelijk
 Wetboek van toepassing, met uitzondering van de artikelen 1029, tweede lid, en 1032.
 
-Art. 332quinquies.<W 2006-07-01/75, art. 20, 030; Inwerkingtreding : 01-07-2007> § 1. De vorderingen tot
+###### Art. 332quinquies.<W 2006-07-01/75, art. 20, 030; Inwerkingtreding : 01-07-2007> § 1. De vorderingen tot
 onderzoek naar het moederschap of het vaderschap zijn onontvankelijk indien het meerderjarige of het
 ontvoogde minderjarige kind zich daartegen verzet.
 [1 § 1/1. Er wordt geen rekening gehouden met het verzet van het meerderjarige kind indien de rechtbank, op
@@ -6020,10 +6024,10 @@ verworpen. <W 2006-12-27/32, art. 371, 031; Inwerkingtreding : 01-07-2007>
 (2)<W 2017-09-19/06, art. 12, 079; Inwerkingtreding : 01-04-2018>
 (3)<W 2018-12-21/09, art. 109, 086; Inwerkingtreding : 10-01-2019>
 
-##### AFDELING 3. - BEKENDMAKING VAN DE RECHTERLIJKE BESLISSING IN [1 de DABS]1.
 (1)<W 2018-06-18/03, art. 40, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 333
+##### AFDELING 3. - BEKENDMAKING VAN DE RECHTERLIJKE BESLISSING IN [1 de DABS]1.
+###### Art. 333
 
 <W 31-03-1987, art. 38> § 1. Elk exploot van betekening van een vonnis of arrest waarbij een
 vordering betreffende de afstamming wordt toegewezen, [2 wordt onmiddellijk door de instrumenterende
@@ -6045,18 +6049,18 @@ gerechtsbrief ter kennis van de afstammelingen in de eerste graad die de leeftij
 
 #### HOOFDSTUK 5. - GEVOLGEN VAN DE AFSTAMMING.
 
-## Art. 334
+###### Art. 334
 
 <W 31-03-1987, art. 38> Ongeacht de wijze waarop de afstamming is vastgesteld, hebben de
 kinderen en hun afstammelingen dezelfde rechten en dezelfde verplichtingen ten opzichte van de ouders en hun
 bloed- en aanverwanten en hebben de ouders en hun bloed- en aanverwanten dezelfde rechten en dezelfde
 verplichtingen ten opzichte van de kinderen en hun afstammelingen.
 
-## Art. 334bis
+###### Art. 334bis
 
 (Opgeheven) <W 2006-07-01/75, art. 24, 030; Inwerkingtreding : 01-07-2007>
 
-## Art. 334ter
+###### Art. 334ter
 
 <W 31-03-1987, art. 38> De erkenning waaruit blijkt dat een kind tijdens het huwelijk werd verwekt
 door een der echtgenoten en een andere persoon dan de echtgenoot, heeft tot gevolg dat degene die het kind
@@ -6073,7 +6077,7 @@ door een der echtgenoten en een andere persoon dan de echtgenoot, gelden dezelfd
 eerste lid aan een vrijwillige erkenning verbindt en de echtgenoot kan het recht uitoefenen dat hem bij het derde
 lid wordt verleend.
 
-## Art. 334quater
+###### Art. 334quater
 
 [1 In geval van betwisting van de afstamming, een nietigverklaring van een frauduleuze
 erkenning of een nietigverklaring van een akte van de burgerlijke stand, in voorkomend geval naar aanleiding van
@@ -6082,7 +6086,7 @@ vernietiging van de afstammingsband ten aanzien van een Belgische ouder, spreekt
 eventuele behoud van de Belgische nationaliteit van het kind.]1
 (1)<Ingevoegd bij W 2024-03-28/60, art. 165, 105; Inwerkingtreding : 08-04-2024>
 
-## Art. 335
+###### Art. 335
 
 [1 § 1. Het kind wiens afstamming van vaderszijde en afstamming van moederszijde tegelijkertijd
 komen vast te staan draagt ofwel de naam van zijn vader, ofwel de naam van zijn moeder, ofwel één die
@@ -6133,13 +6137,13 @@ vernietigd. Hij handhaaft de gevolgen van de vernietigde bepaling tot 31 decembe
 (6)<W 2018-12-21/09, art. 114, 086; Inwerkingtreding : 31-03-2019>
 (7)<W 2023-12-19/05, art. 9, 103; Inwerkingtreding : 01-03-2024>
 
-## Art. 335bis
+###### Art. 335bis
 
 [1 De overeenkomstig artikel 335, §§ 1 en 3, bepaalde naam geldt ook voor de andere kinderen wier
 afstamming later ten aanzien van dezelfde vader en moeder komt vast te staan.]1
 (1)<Ingevoegd bij W 2014-05-08/10, art. 3, 068; Inwerkingtreding : 01-06-2014>
 
-## Art. 335ter
+###### Art. 335ter
 
 [1 § 1. Het kind wiens afstamming van moederszijde en afstamming van meemoederszijde
 tegelijkertijd komen vast te staan draagt ofwel de naam van zijn moeder, ofwel de naam van zijn meemoeder,
@@ -6183,7 +6187,7 @@ van art. 335 door <W 2014-05-05/08, art. 28, 067; Inwerkingtreding : 01-01-2015>
 (4)<W 2018-12-21/09, art. 115, 086; Inwerkingtreding : 31-03-2019>
 (5)<W 2023-12-19/05, art. 10, 103; Inwerkingtreding : 01-03-2024>
 
-## Art. 335quater
+###### Art. 335quater
 
 [1 In afwijking van de artikelen 335, §§ 1 en 3, en 335ter, §§ 1 en 2, kunnen de vader en de
 moeder of de moeder en de meemoeder, naargelang het geval, de naam van het kind kiezen op het tijdstip van
@@ -6195,14 +6199,14 @@ met de akten van de burgerlijke stand waarop ze betrekking heeft.]2]1
 (1)<Ingevoegd bij W 2017-07-06/24, art. 65, 075; Inwerkingtreding : 03-08-2017>
 (2)<W 2018-06-18/03, art. 43, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 335quinquies
+###### Art. 335quinquies
 
 [1 e rechter neemt in zijn vonnis akte van de gekozen of door de wet vastgestelde naam van
 het kind in alle gevallen van wijziging van de afstamming ingevolge een rechtsvordering die aanleiding geeft tot
 een verandering van naam.]1
 (1)<W 2023-12-19/05, art. 11, 103; Inwerkingtreding : 01-03-2024>
 
-## Art. 335sexies
+###### Art. 335sexies
 
 [1 § 1. De naam van de ouder die is gekozen of vastgelegd ter gelegenheid van een verandering
 van afstamming overeenkomstig de artikelen 335, §§ 2 tot 4, en 335ter, §§ 2 en 3, geldt ook geheel of ten dele
@@ -6221,12 +6225,12 @@ of betekend.]1
 
 #### HOOFDSTUK 6. - VORDERING TOT UITKERING VOOR LEVENSONDERHOUD, OPVOEDING EN PASSENDE OPLEIDING.
 
-Art. 336.[1 Het kind wiens afstamming van vaderszijde niet vaststaat, kan van degene die gedurende het
+###### Art. 336.[1 Het kind wiens afstamming van vaderszijde niet vaststaat, kan van degene die gedurende het
 wettelijke tijdvak van de verwekking met zijn moeder gemeenschap heeft gehad, een onderhoudsbijdrage
 vorderen op grond van artikel 203, § 1.]1
 (1)<W 2010-03-19/05, art. 7, 048; Inwerkingtreding : 01-08-2010; zie ook art. 17>
 
-## Art. 337
+###### Art. 337
 
 <W 31-03-1987, art. 38> § 1. De vordering komt aan het kind persoonlijk toe. (...). <W 2006-0701/75, art. 22, 030; Inwerkingtreding : 01-07-2007>
 § 2. De vordering gaat niet over op de erfgenamen van het kind. Deze kunnen echter de begonnen
@@ -6235,7 +6239,7 @@ rechtsvordering voortzetten.
 gemeenschap heeft gehad, kan de vordering worden voortgezet maar niet meer ingesteld tegen zijn
 erfgenamen.
 
-Art. 338.<W 31-03-1987, art. 38> § 1. De eiser biedt de [2 familierechtbank]2 een verzoekschrift aan,
+###### Art. 338.<W 31-03-1987, art. 38> § 1. De eiser biedt de [2 familierechtbank]2 een verzoekschrift aan,
 bevattende een beknopte opgave van de feiten en vergezeld van de bewijsstukken, zo die er zijn.
 [2 In voorkomend geval verwijst de rechtbank de vordering naar de kamer voor minnelijke schikking, [3
 overeenkomstig artikel [4 734/1, § 2]4 van het Gerechtelijk Wetboek]3.]2
@@ -6249,31 +6253,31 @@ rechtbank]2 daarvan proces-verbaal op.
 (3)<W 2018-06-15/03, art. 2, 081; Inwerkingtreding : 12-07-2018>
 (4)<W 2023-12-19/05, art. 13, 103; Inwerkingtreding : 06-01-2024>
 
-## Art. 338bis
+###### Art. 338bis
 
 <W 31-03-1987, art. 38> De vordering wordt afgewezen indien de verweerder door alle wettelijke
 middelen het bewijs levert dat hij de vader niet is.
 
-Art. 339.[1 De artikelen 203, 203bis en 203quater zijn van overeenkomstige toepassing.]1
+###### Art. 339.[1 De artikelen 203, 203bis en 203quater zijn van overeenkomstige toepassing.]1
 (1)<W 2010-03-19/05, art. 8, 048; Inwerkingtreding : 01-08-2010; zie ook art. 17>
 
-Art. 339bis.<W 31-03-1987, art. 38> De last van de uitkering gaat over op de nalatenschap van de
+###### Art. 339bis.<W 31-03-1987, art. 38> De last van de uitkering gaat over op de nalatenschap van de
 uitkeringsplichtige overeenkomstig artikel [1 205bis, §§ 3, 4 en 6 ]1.
 De uitkering kan worden gewijzigd overeenkomstig artikel 209.
 (1)<W 2012-12-10/14, art. 5, 057; Inwerkingtreding : 21-01-2013>
 
-## Art. 340
+###### Art. 340
 
 <W 31-03-1987, art. 38> De uitkering is niet meer verschuldigd zodra de afstamming van vaderszijde
 vaststaat ten aanzien van een ander dan de uitkeringsplichtige of indien het kind geadopteerd wordt.
 
-## Art. 341
+###### Art. 341
 
 <W 31-03-1987, art. 38>. Een vonnis waarbij de verweerder krachtens artikel 336 wordt veroordeeld
 tot het betalen van een uitkering, heeft dezelfde gevolgen als de vaststelling van het vaderschap, wat de
 huwelijksbeletselen betreft.
 
-## Art. 342
+###### Art. 342
 
 (Opgeheven) <W 31-03-1987, art. 38>
 
@@ -6281,9 +6285,9 @@ huwelijksbeletselen betreft.
 
 #### HOOFDSTUK I. - Intern recht. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-##### Afdeling 1. - Algemene bepaling. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-Art. 343.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> § 1. Er wordt verstaan onder :
+##### Afdeling 1. - Algemene bepaling. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
+###### Art. 343.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> § 1. Er wordt verstaan onder :
 a) adoptant : een persoon, echtgenoten (...), of samenwonenden (...); <W 2006-05-18/44, art. 2, 1., 027;
 b) (samenwonenden : twee personen (...) die een verklaring van wettelijke samenwoning hebben afgelegd of
 twee personen (...) die op een permanente en affectieve wijze samenwonen sedert ten minste drie jaar op het
@@ -6301,7 +6305,6 @@ c) kind : een persoon van minder dan achttien jaar.
 (2)<W 2017-02-20/17, art. 2, 074; Inwerkingtreding : 01-04-2017>
 (3)<W 2018-12-21/09, art. 119, 086; Inwerkingtreding : 10-01-2019>
 
-##### Afdeling 2. - Bepalingen gemeenschappelijk aan beide vormen van adoptie. <W 2003-04-24/32, art. 2, 017;
 
 § 1. Voorwaarden voor adoptie. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
@@ -6325,7 +6328,8 @@ vlak.]1
 
 B. Leeftijd. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-Art. 345.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De adoptant of de adoptanten
+##### Afdeling 2. - Bepalingen gemeenschappelijk aan beide vormen van adoptie. <W 2003-04-24/32, art. 2, 017;
+###### Art. 345.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De adoptant of de adoptanten
 moeten de leeftijd van vijfentwintig jaar hebben bereikt en ten minste vijftien jaar ouder zijn dan de geadopteerde.
 Het volstaat evenwel de leeftijd van achttien jaar te hebben bereikt en ten minste tien jaar ouder te zijn dan de
 geadopteerde wanneer het gaat om een afstammeling in de eerste graad of om een geadopteerde van de
@@ -6536,7 +6540,7 @@ nietigheid worden bestreden.
 
 § 3. Vaststelling van de afstamming van de geadopteerde na de adoptie. <W 2003-04-24/32, art. 2, 017;
 
-## Art. 350
+###### Art. 350
 
 <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Vaststelling van de afstamming van
 de geadopteerde ten aanzien van de adoptant of van een van de adoptanten nadat het vonnis van adoptie in
@@ -6550,7 +6554,7 @@ verbodsbepalingen inzake het huwelijk bedoeld in de artikelen 161 tot 164 tot ge
 
 § 4. Herziening van de adoptie. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-Art. 351.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Uitsluitend wanneer er voldoende
+###### Art. 351.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Uitsluitend wanneer er voldoende
 aanwijzingen zijn dat de adoptie is totstandgekomen ingevolge de ontvoering van, de verkoop van of de handel in
 kinderen, wordt de herziening van het vonnis waarbij deze adoptie is uitgesproken, ten aanzien van de adoptant
 of van de adoptanten gevorderd door het openbaar ministerie.
@@ -6567,12 +6571,11 @@ adoptie wordt herzien.]2
 
 § 5. Tussenpersonen. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-## Art. 352
+###### Art. 352
 
 <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Niemand kan in het kader van een
 adoptie als tussenpersoon optreden zonder daartoe vooraf door de bevoegde gemeenschap te zijn erkend.
 
-##### Afdeling 3. - Bepalingen eigen aan iedere vorm van adoptie <W 2003-04-24/32, art. 2, 017; Inwerkingtreding :
 
 01-59-2005>
 
@@ -6750,7 +6753,8 @@ huwelijksbeletsels bedoeld in artikel 353-13 blijven van toepassing.]1
 
 A. Leeftijdsvoorwaarde. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-## Art. 355
+##### Afdeling 3. - Bepalingen eigen aan iedere vorm van adoptie <W 2003-04-24/32, art. 2, 017; Inwerkingtreding :
+###### Art. 355
 
 <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Volle adoptie is slechts toegestaan
 ten aanzien van een persoon die bij de neerlegging van het verzoekschrift tot adoptie minder dan achttien jaar
@@ -6799,14 +6803,14 @@ Herziening is mogelijk overeenkomstig artikel 351.
 
 #### HOOFDSTUK II. - Internationaal recht. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-##### Afdeling 1. - Bijzondere bepalingen van internationaal privaatrecht. <W 2003-04-24/32, art. 2, 017;
 
-## Art. 357
+##### Afdeling 1. - Bijzondere bepalingen van internationaal privaatrecht. <W 2003-04-24/32, art. 2, 017;
+###### Art. 357
 
 <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Ongeacht het recht dat van
 toepassing is op de totstandkoming van de adoptie, moeten de voorwaarden voor adoptie gesteld in artikel 3441 steeds vervuld zijn en moeten de adoptant of de adoptanten bekwaam en geschikt zijn om te adopteren.
 
-## Art. 358
+###### Art. 358
 
 <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Art. 348-1 is van toepassing,
 ongeacht het recht dat van toepassing is op de toestemming van de geadopteerde.
@@ -6838,7 +6842,6 @@ de beschermingsmaatregelen bedoeld in artikel 363-4 van toepassing.
 in België niet worden uitgesproken, zelfs niet indien het recht van de Staat waar zij is totstandgekomen dit
 toestaat.
 
-##### Afdeling 2. - Totstandkoming van een adoptie die de interlandelijke overbrenging van een kind onderstelt. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
 § 1. Definities. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
@@ -7124,7 +7127,7 @@ hoofdelijk ten laste van de adoptant of de adoptanten en, in voorkomend geval, v
 op hun verzoek is opgetreden en waarvan de aansprakelijkheid is vastgesteld, of van enig ander persoon die op
 onwettige wijze bij de adoptie als tussenpersoon is opgetreden.
 
-##### Afdeling 3. - Uitwerking van buitenlandse beslissingen inzake adoptie in België <W 2003-04-24/32, art. 2, 017;
+##### Afdeling 2. - Totstandkoming van een adoptie die de interlandelijke overbrenging van een kind onderstelt. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
 § 1. Erkenning van adopties beheerst door het Verdrag. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 0109-2005>
 
@@ -7379,6 +7382,7 @@ De bevoegde ambtenaar van de burgerlijke stand is deze bedoeld in artikel 368-1,
 (2)<W 2018-06-18/03, art. 51, 082; Inwerkingtreding : 31-03-2019>
 (3)<W 2023-09-13/08, art. 51, 102; Inwerkingtreding : 01-01-2024>
 
+##### Afdeling 3. - Uitwerking van buitenlandse beslissingen inzake adoptie in België <W 2003-04-24/32, art. 2, 017;
 #### HOOFDSTUK III. - Administratieve formaliteiten. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09- 2005>
 
 1° een akte van adoptie ten gevolge van een in België gewezen beslissing houdende uitspraak of omzetting van
@@ -7461,11 +7465,11 @@ onmiddellijk en uiterlijk binnen dezelfde periode van drie maanden op de hoogte 
 ieder ander bewijs tot staving van die gegevens over te leggen.]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 55, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 369
+###### Art. 369
 
 (Opgeheven) <W 2003-04-24/32, art. 3, 017; Inwerkingtreding : onbepaald>
 
-## Art. 370
+###### Art. 370
 
 (Opgeheven) <W 2003-04-24/32, art. 3, 017; Inwerkingtreding : onbepaald>
 
@@ -7649,15 +7653,15 @@ voornaamsverandering.]1
 
 ### TITEL VIIIbis. - VERLATING VAN EEN MINDERJARIGE. (opgeheven) <W 1999-05-07/58, art. 2, 007;
 
-## Art. 370bis
+###### Art. 370bis
 
 (opgeheven) <W 1999-05-07/58, art. 2, 007; Inwerkingtreding : 09-07-1999>
 
-## Art. 370ter
+###### Art. 370ter
 
 (opgeheven) <W 1999-05-07/58, art. 2, 007; Inwerkingtreding : 09-07-1999>
 
-## Art. 370quater
+###### Art. 370quater
 
 (opgeheven) <W 1999-05-07/58, art. 2, 007; Inwerkingtreding : 09-07-1999>
 
@@ -7669,17 +7673,17 @@ voornaamsverandering.]1
 
 (1)<Ingevoegd bij W 2017-03-19/08, art. 3, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 371
+###### Art. 371
 
 <W 1995-04-13/37, art. 5, 003; Inwerkingtreding : 03-06-1995> Een kind en zijn ouders zijn op elke
 leeftijd aan elkaar respect verschuldigd.
 
-## Art. 372
+###### Art. 372
 
 <W 1995-04-13/37, art. 6, 003; Inwerkingtreding : 03-06-1995> Een kind blijft onder het gezag van
 zijn ouders tot aan zijn meerderjarigheid of zijn ontvoogding.
 
-Art. 373.<W 1995-04-13/37, art. 7, 003; Inwerkingtreding : 03-06-1995> Wanneer de ouders samenleven,
+###### Art. 373.<W 1995-04-13/37, art. 7, 003; Inwerkingtreding : 03-06-1995> Wanneer de ouders samenleven,
 oefenen zij het gezag over de persoon van het kind gezamenlijk uit.
 Ten opzichte van derden die te goeder trouw zijn, wordt elke ouder geacht te handelen met de andere ouder
 wanneer hij, alleen, een handeling stelt die met gezag verband houdt behoudens de bij de wet bepaalde
@@ -7689,7 +7693,7 @@ De rechtbank kan één van de ouders toestemming verlenen alleen op te treden vo
 handelingen.
 (1)<W 2013-07-30/23, art. 58, 065; Inwerkingtreding : 01-09-2014>
 
-Art. 374.<W 1995-04-13/37, art. 8, 003; Inwerkingtreding : 03-06-1995> (§ 1.) Wanneer de ouders niet
+###### Art. 374.<W 1995-04-13/37, art. 8, 003; Inwerkingtreding : 03-06-1995> (§ 1.) Wanneer de ouders niet
 samenleven, blijven zij het ouderlijk gezag gezamenlijk uitoefenen en geldt het in artikel 373, tweede lid, bepaalde
 vermoeden. <W 2006-07-18/38, art. 2, 029; Inwerkingtreding : 14-09-2006>
 Bij gebreke van overeenstemming over de organisatie van de huisvesting van het kind, over de belangrijke
@@ -7750,7 +7754,7 @@ bij wie een aan de gang zijnde echtscheidingsprocedure aanhangig is gemaakt, en 
 bevoegde rechter.]1
 (1)<Ingevoegd bij W 2014-05-22/38, art. 3, 069; Inwerkingtreding : onbepaald>
 
-Art. 375.<W 31-03-1987, art. 42> [1 Indien de afstamming niet is vastgesteld ten aanzien van een van de
+###### Art. 375.<W 31-03-1987, art. 42> [1 Indien de afstamming niet is vastgesteld ten aanzien van een van de
 ouders of indien een van beiden overleden of vermoedelijk afwezig is dan wel in de onmogelijkheid verkeert zijn
 wil te kennen te geven of wilsonbekwaam is, oefent de andere dat gezag alleen uit. Tenzij deze onmogelijkheid
 voortvloeit uit een uitdrukkelijke beslissing genomen overeenkomstig artikel 492/1 of uit een vermoeden van
@@ -7760,7 +7764,7 @@ Gerechtelijk Wetboek.]1
 voogdijregeling worden uitgewerkt.) <W 1995-04-13/37, art. 9, 003; Inwerkingtreding : 03-06-1995>
 (1)<W 2013-03-17/14, art. 23, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-Art. 375bis.<ingevoegd bij W 1995-04-13/37, art. 10, 003; Inwerkingtreding : 03-06-1995> De grootouders
+###### Art. 375bis.<ingevoegd bij W 1995-04-13/37, art. 10, 003; Inwerkingtreding : 03-06-1995> De grootouders
 hebben het recht persoonlijk contact met het kind te onderhouden. [3 Alle broers en zussen hebben op elke
 leeftijd het recht persoonlijk contact met elkaar te onderhouden.]3 Datzelfde recht kan aan ieder ander persoon
 worden toegekend, indien hij aantoont dat hij met het kind een bijzondere affectieve band heeft.
@@ -7772,7 +7776,7 @@ recht ingaat tegen het belang van het kind.]2
 (2)<W 2018-06-15/03, art. 3, 081; Inwerkingtreding : 12-07-2018>
 (3)<W 2021-05-20/20, art. 3, 092; Inwerkingtreding : 19-06-2021>
 
-Art. 376.<W 1995-04-13/37, art. 11, 003; Inwerkingtreding : 03-06-1995> Wanneer de ouders het gezag over
+###### Art. 376.<W 1995-04-13/37, art. 11, 003; Inwerkingtreding : 03-06-1995> Wanneer de ouders het gezag over
 de persoon van het kind gezamenlijk uitoefenen, beheren zij ook gezamenlijk zijn goederen en treden zij
 gezamenlijk als zijn vertegenwoordiger op.
 Ten opzichte van derden die te goeder trouw zijn, wordt elke ouder geacht te handelen met instemming van de
@@ -7786,11 +7790,11 @@ het gezag uitoefent of bij derden alle nuttige informatie inwinnen en zich in he
 familierechtbank]1 wenden.
 (1)<W 2013-07-30/23, art. 61, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 377
+###### Art. 377
 
 (opgeheven) <W 1995-04-13/37, art. 12, 003; Inwerkingtreding : 03-06-1995>
 
-Art. 378.<W 2001-04-29/39, art. 12, 011; Inwerkingtreding : 01-08-2001> (§ 1.) Onder voorbehoud van het
+###### Art. 378.<W 2001-04-29/39, art. 12, 011; Inwerkingtreding : 01-08-2001> (§ 1.) Onder voorbehoud van het
 bepaalde in artikel [3 4.163, derde lid, van het Burgerlijk Wetboek]3 is de machtiging van de vrederechter vereist
 om [2 de in artikel 410, § 1, 1° tot 6° en 8° tot 14° bepaalde handelingen]2 te verrichten waarvoor de voogd
 bijzondere machtiging van de vrederechter moet verkrijgen. <W 2003-02-13/54, art. 2, 016; Inwerkingtreding :
@@ -7821,7 +7825,7 @@ aanhangig is, hetzij op verzoek van enig belanghebbende, hetzij ambtshalve, een 
 (2)<W 2017-07-31/25, art. 3, 083; Inwerkingtreding : 01-09-2018>
 (3)<W 2022-01-19/18, art. 9, 094; Inwerkingtreding : 01-07-2022>
 
-Art. 379.<W 31-03-1987, art. 46> De ouders die belast zijn met het beheer van de goederen van hun
+###### Art. 379.<W 31-03-1987, art. 46> De ouders die belast zijn met het beheer van de goederen van hun
 minderjarige kinderen, zijn rekening en verantwoording verschuldigd wat betreft de eigendom en de opbrengsten
 van de goederen waarvan ze niet het genot hebben, en wat betreft de eigendom alleen, van de goederen
 waarvan hun volgens de wet het genot toekomt.
@@ -7836,34 +7840,34 @@ Wanneer een voogdij is opengevallen, zendt hij eveneens een afschrift aan de gri
 waarvan de voogdij afhangt.) <W 2003-02-13/54, art. 3, 016; Inwerkingtreding : 04-04-2003>
 (1)<W 2013-07-30/23, art. 63, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 380
+###### Art. 380
 
 (Opgeheven) <W 15-05-1912, art. 64>
 
-## Art. 381
+###### Art. 381
 
 (Opgeheven) <W 15-05-1912, art. 64>
 
-## Art. 382
+###### Art. 382
 
 (Opgeheven) <W 15-05-1912, art. 64>
 
-## Art. 383
+###### Art. 383
 
 (Opgeheven) <W 15-05-1912, art. 64>
 
-## Art. 384
+###### Art. 384
 
 <W 1995-04-13/37, art. 13, 003; Inwerkingtreding : 03-06-1995> De ouders hebben het genot van
 de goederen van hun kinderen tot aan hun meerderjarigheid of hun ontvoogding. Het genot wordt gekoppeld
 aan het beheer : het behoort toe , hetzij aan de beide ouders samen hetzij aan de ouder die belast is met het
 beheer van de goederen van het kind.
 
-## Art. 385
+###### Art. 385
 
 (opgeheven) <W 1995-04-13/37, art. 14, 003; Inwerkingtreding : 03-06-1995>
 
-## Art. 386
+###### Art. 386
 
 <W 31-03-1987, art. 49> De lasten van dit genot zijn :
 1° Die waartoe vruchtgebruikers gehouden zijn;
@@ -7871,7 +7875,7 @@ beheer van de goederen van het kind.
 3° De betaling van de rentetermijnen of interesten van de kapitalen;
 4° De begrafeniskosten en de kosten van de laatste ziekte.
 
-## Art. 387.Het
+###### Art. 387.Het
 
 strekt zich niet uit tot de goederen welke de kinderen door afzonderlijke arbeid en nijverheid
 verwerven, noch tot die welke hun geschonken of vermaakt worden onder de uitdrukkelijke voorwaarde dat de
@@ -7880,7 +7884,7 @@ ouders daarvan het genot niet zullen hebben.
 recht op het genot van de goederen van dat kind.]1
 (1)<W 2012-12-10/14, art. 7, 057; Inwerkingtreding : 21-01-2013>
 
-Art. 387bis.[1 In alle gevallen, en onverminderd de artikelen 584 en 1280 van het Gerechtelijk Wetboek [3 en
+###### Art. 387bis.[1 In alle gevallen, en onverminderd de artikelen 584 en 1280 van het Gerechtelijk Wetboek [3 en
 artikel 7/1 van de wet van 8 april 1965 betreffende de jeugdbescherming, het ten laste nemen van minderjarigen
 die een als misdrijf omschreven feit hebben gepleegd en het herstel van de door dit feit veroorzaakte schade]3,
 kan de familierechtbank in het belang van het kind, op verzoek van beide ouders of van één van hen, dan wel van
@@ -7890,7 +7894,7 @@ volgens het bepaalde in de artikelen [2 1253ter/4 tot 1253ter/6]1 van het Gerech
 (2)<W 2014-05-08/02, art. 46, 066; Inwerkingtreding : 01-09-2014>
 (3)<W 2017-03-19/08, art. 4, 076; Inwerkingtreding : 01-09-2017>
 
-Art. 387ter.<Ingevoegd bij W 2006-07-18/38, art. 4; Inwerkingtreding : 14-09-2006> § 1. [1 Ingeval één van de
+###### Art. 387ter.<Ingevoegd bij W 2006-07-18/38, art. 4; Inwerkingtreding : 14-09-2006> § 1. [1 Ingeval één van de
 ouders weigert de rechterlijke beslissingen met betrekking tot de verblijfsregeling van de kinderen of het recht op
 persoonlijk contact uit te voeren, kan de zaak opnieuw voor de reeds geadieerde familierechtbank worden
 gebracht [2 , overeenkomstig de in artikel 1253ter/7 van het Gerechtelijk Wetboek voorziene procedure]2
@@ -7939,14 +7943,14 @@ internationale ontvoering van kinderen.
 
 (1)<Ingevoegd bij W 2017-03-19/08, art. 5, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387quater
+###### Art. 387quater
 
 [1 De bepalingen van dit hoofdstuk zijn van toepassing bij een plaatsing van een minderjarig niet
 ontvoogd kind in het kader van pleegzorg overeenkomstig de toepasselijke regelgeving inzake jeugdbijstand en
 jeugdbescherming.]1
 (1)<Ingevoegd bij W 2017-03-19/08, art. 6, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387quinquies
+###### Art. 387quinquies
 
 [1 Gedurende de periode van plaatsing oefenen de pleegzorgers het verblijfsrecht en het
 recht om alle dagdagelijkse beslissingen over het kind te nemen uit.
@@ -7957,7 +7961,7 @@ dat geval, brengen ze hun beslissing onverwijld ter kennis van de ouders of, ind
 worden verwittigd, van het bevoegde orgaan voor pleegzorg.]1
 (1)<Ingevoegd bij W 2017-03-19/08, art. 7, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387sexies
+###### Art. 387sexies
 
 [1 De ouders of de voogd en de pleegzorgers komen, met tussenkomst van het bevoegde
 orgaan voor pleegzorg, schriftelijk overeen op welke wijze de ouders of de voogd, hun recht op persoonlijk
@@ -7970,7 +7974,7 @@ Indien de ouders of de voogd en de pleegzorgers geen akkoord kunnen bereiken, do
 verzoek van de meest gerede partij.]1
 (1)<Ingevoegd bij W 2017-03-19/08, art. 8, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387septies
+###### Art. 387septies
 
 [1 § 1. De ouders of de voogd en de pleegzorgers kunnen schriftelijk, met tussenkomst van
 het bevoegde orgaan voor pleegzorg, overeenkomen om ook de bevoegdheid om de belangrijke beslissingen te
@@ -7989,7 +7993,7 @@ De gehomologeerde overeenkomst kan geen afbreuk doen aan de door de bevoegde org
 bepaalde duurtijd van de pleegzorg.]1
 (1)<Ingevoegd bij W 2017-03-19/08, art. 9, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387octies
+###### Art. 387octies
 
 [1 § 1. Bij gebrek aan een overeenkomst zoals bedoeld in artikel 387septies en op voorwaarde
 dat het kind gedurende ten minste één jaar voorafgaand aan het verzoek voortdurend was geplaatst in het gezin
@@ -8012,7 +8016,7 @@ worden gedelegeerd aan de pleegzorgers.]1
 artikel vernietigd)
 (1)<Ingevoegd bij W 2017-03-19/08, art. 10, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387novies
+###### Art. 387novies
 
 [1 De pleegzorgers oefenen de overeenkomstig dit hoofdstuk aan hen gedelegeerde
 bevoegdheden over het kind gezamenlijk uit.
@@ -8023,7 +8027,7 @@ Bij gebreke van instemming kan een van beide pleegzorgers de zaak bij de familie
 overeenkomstig artikel 387duodecies.]1
 (1)<Ingevoegd bij W 2017-03-19/08, art. 11, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387decies
+###### Art. 387decies
 
 [1 Bij de uitoefening van de hun overeenkomstig dit hoofdstuk gedelegeerde rechten en plichten
 nemen de pleegzorgers zoveel mogelijk de door de ouders of de voogd gekozen beginselen zoals, in
@@ -8031,7 +8035,7 @@ voorkomend geval, vastgelegd overeenkomstig de toepasselijke regelgeving inzake 
 het bijzonder bij de bevoegdheden als bedoeld in artikel 374, § 1, tweede lid.]1
 (1)<Ingevoegd bij W 2017-03-19/08, art. 12, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387undecies
+###### Art. 387undecies
 
 [1 De ouders of de voogd behouden het recht om toezicht uit te oefenen op de opvoeding
 van het kind, ongeacht of ze het ouderlijk gezag uitoefenen. Zij kunnen bij de pleegzorgers of bij derden alle
@@ -8040,7 +8044,7 @@ ouders of de voogd behouden eveneens het recht op persoonlijk contact met het ki
 kan enkel om bijzonder ernstige redenen worden geweigerd.]1
 (1)<Ingevoegd bij W 2017-03-19/08, art. 13, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387duodecies
+###### Art. 387duodecies
 
 [1 De familierechtbank kan in het belang van het kind, op verzoek van beide ouders of van
 één van hen, de voogd, de pleegzorgers dan wel van de procureur des Konings alle beslissingen met betrekking
@@ -8048,7 +8052,7 @@ tot het ouderlijk gezag opleggen, wijzigen of beëindigen, overeenkomstig de art
 van het Gerechtelijk Wetboek.]1
 (1)<Ingevoegd bij W 2017-03-19/08, art. 14, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387terdecies
+###### Art. 387terdecies
 
 [1 De gedelegeerde rechten en plichten ter uitoefening van het ouderlijk gezag die
 overeenkomstig dit hoofdstuk werden toegekend aan de pleegzorgers doven van rechtswege uit:
@@ -8059,7 +8063,7 @@ overeenkomstig dit hoofdstuk werden toegekend aan de pleegzorgers doven van rech
 en jeugdbescherming.]1
 (1)<Ingevoegd bij W 2017-03-19/08, art. 15, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387quaterdecies
+###### Art. 387quaterdecies
 
 [1 Voor de toepassing van artikel 375bis wordt de persoon bij wie een kind minstens één
 jaar voortdurend werd geplaatst, vermoed een bijzondere affectieve band te hebben met dit kind.]1
@@ -8069,20 +8073,20 @@ jaar voortdurend werd geplaatst, vermoed een bijzondere affectieve band te hebbe
 
 (1)<Ingevoegd bij W 2021-05-20/20, art. 4, 092; Inwerkingtreding : 19-06-2021>
 
-## Art. 387quinquiesdecies
+###### Art. 387quinquiesdecies
 
 [1 Dit hoofdstuk is van toepassing op de maatregelen bedoeld in de hoofdstukken I en
 II en op de plaatsing van een minderjarig niet ontvoogd kind in het kader van de jeugdbijstand en de
 jeugdbescherming, met uitzondering van plaatsingen ingevolge het plegen van een als misdrijf omschreven feit.]1
 (1)<Ingevoegd bij W 2021-05-20/20, art. 5, 092; Inwerkingtreding : 19-06-2021>
 
-## Art. 387sexiesdecies
+###### Art. 387sexiesdecies
 
 [1 In deze titel worden gelijkgesteld met broers en zussen, kinderen die samen binnen
 eenzelfde gezin worden opgevoed en die een bijzondere affectieve band met elkaar hebben ontwikkeld.]1
 (1)<Ingevoegd bij W 2021-05-20/20, art. 6, 092; Inwerkingtreding : 19-06-2021>
 
-## Art. 387septiesdecies
+###### Art. 387septiesdecies
 
 [1 Minderjarige broers en zussen hebben het recht om niet van elkaar te worden
 gescheiden. Dit recht moet in het belang van elk kind worden beoordeeld. Ingeval het belang van een kind vereist
@@ -8095,16 +8099,16 @@ strijdig is met het belang van dit kind.]1
 
 #### HOOFDSTUK I. - MINDERJARIGHEID.
 
-## Art. 388
+###### Art. 388
 
 De minderjarige is de persoon van het mannelijke of vrouwelijke geslacht die de volle leeftijd van
 (achttien) jaren nog niet bereikt heeft. <W 19-01-1990, art. 1>
 
 #### HOOFDSTUK II. <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> - VOOGDIJ.
 
-##### Afdeling I. <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> - Ontstaan van de voogdij.
 
-Art. 389.[1 De voogdij over minderjarigen ontstaat indien beide ouders overleden zijn, wettelijk onbekend zijn, in
+##### Afdeling I. <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> - Ontstaan van de voogdij.
+###### Art. 389.[1 De voogdij over minderjarigen ontstaat indien beide ouders overleden zijn, wettelijk onbekend zijn, in
 de voortdurende onmogelijkheid zijn om het ouderlijk gezag uit te oefenen of wilsonbekwaam zijn.
 Tenzij deze onmogelijkheid voortvloeit uit een uitdrukkelijke beslissing genomen overeenkomstig artikel 492/1,
 uit een vermoeden van afwezigheid of uit een verklaring van afwezigheid, wordt ze vastgesteld door de [2
@@ -8112,9 +8116,9 @@ familierechtbank]2 overeenkomstig artikel 1236bis van het Gerechtelijk Wetboek.]
 (1)<W 2013-03-17/14, art. 24, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-05-12/02, art. 12, 003; Inwerkingtreding : 01-09-2014>
 
-##### Afdeling II. <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> - Organisatie van de voogdij.
 
-## Art. 390
+##### Afdeling II. <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> - Organisatie van de voogdij.
+###### Art. 390
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Behoudens hetgeen is bepaald in
 artikel 13, § 2, van de wet van 31 december 1851 met betrekking tot de consulaten en de consulaire
@@ -8128,7 +8132,7 @@ verblijfplaats van de voogd. De beslissing is bindend voor de rechter aan wie de
 uitzondering van het hoger beroep ingesteld door de procureur des Konings is zij niet vatbaar voor enig
 rechtsmiddel.
 
-## Art. 391
+###### Art. 391
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Wanneer de voogdij ontstaat of
 openvalt, beveelt de vrederechter op verzoek van iedere belanghebbende of zelfs ambtshalve de dringende
@@ -8138,7 +8142,7 @@ De aanwijzing van een voogd maakt geen einde aan deze maatregelen. Zij vervallen
 intrekt of indien de eventueel door hem voorgeschreven termijn verstrijkt.
 De vrederechter wordt bij eenvoudige brief aangezocht.
 
-Art. 392.<W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> De ouder, die het laatst het ouderlijk
+###### Art. 392.<W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> De ouder, die het laatst het ouderlijk
 gezag uitoefent, kan een voogd aanwijzen, hetzij bij testament, hetzij bij wege van een verklaring voor de
 vrederechter van zijn woonplaats of voor een notaris.
 Op voorwaarde dat de ouders gezamenlijk handelen, kunnen zij zulks ook doen bij een verklaring voor de
@@ -8166,7 +8170,7 @@ een van hen wordt gevolgd.
 (1)<W 2018-12-21/09, art. 1, 086; Inwerkingtreding : 31-12-2019>
 (2)<W 2020-07-31/03, art. 35, 089; Inwerkingtreding : 17-08-2020>
 
-Art. 393.<W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Indien de ouders geen gebruik
+###### Art. 393.<W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Indien de ouders geen gebruik
 hebben gemaakt van de mogelijkheid die hen in het voorgaande artikel wordt geboden of indien het niet mogelijk
 was hun keuze te volgen, kiest de vrederechter zodra hij kennis heeft van het ontstaan van de voogdij, een
 voogd die geschikt is om de minderjarige op te voeden en zijn goederen te beheren, bij voorkeur uit de naaste
@@ -8176,7 +8180,7 @@ dezelfde voogd aan voor alle broers en zussen, rekening houdend met het belang v
 geval verduidelijkt de vrederechter hoe de broers en zussen persoonlijke contacten met elkaar onderhouden.]1
 (1)<W 2021-05-20/20, art. 8, 092; Inwerkingtreding : 19-06-2021>
 
-## Art. 394
+###### Art. 394
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Indien de minderjarige twaalf jaar
 oud is wordt hij door de vrederechter gehoord vooraleer deze een voogd benoemt of de aanwijzing van de
@@ -8187,7 +8191,7 @@ oproepen.
 De vrederechter moet bovendien eenieder horen van wie de mening voor hem nuttig kan zijn.
 De oproepingen geschieden bij gerechtsbrief.
 
-## Art. 395
+###### Art. 395
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> § 1. Indien het belang van de
 minderjarige zulks wegens uitzonderlijke omstandigheden vereist, kan de vrederechter de voogdij splitsen door
@@ -8199,7 +8203,7 @@ Ten opzichte van derden die te goeder trouw zijn, wordt elke voogd geacht te han
 andere voogd, wanneer hij alleen een handeling stelt die met de voogdij verband houdt, behoudens de bij de wet
 bepaalde uitzonderingen.
 
-## Art. 396
+###### Art. 396
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Niemand is verplicht een voogdij of
 een toeziende voogdij op zich te nemen.
@@ -8210,7 +8214,7 @@ juli 1976 betreffende de openbare centra voor maatschappelijk welzijn toegepast.
 maatschappelijk welzijn stelt binnen acht dagen volgend op de aanwijzing van de voogd en van de toeziende
 voogd de vrederechter in kennis van hun identiteit.) <W 2003-02-13/54, art. 4, 016; Inwerkingtreding : 04-042003>
 
-## Art. 397
+###### Art. 397
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Mogen geen voogd zijn :
 1° personen die niet de vrije beschikking over hun goederen hebben;
@@ -8219,7 +8223,7 @@ artikelen 29 tot 32 van (de wet van 8 april 1965 betreffende de jeugdbescherming
 minderjarigen die een als misdrijf omschreven feit hebben gepleegd en het herstel van de door dit feit
 veroorzaakte schade). <W 2006-05-15/35, art. 23; 026; Inwerkingtreding : 16-10-2006>
 
-## Art. 398
+###### Art. 398
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Zijn uitgesloten van de voogdij of
 kunnen, indien zij de voogdij reeds uitoefenen, daaruit worden ontzet :
@@ -8230,26 +8234,26 @@ bloedverwant in de opgaande lijn of een bloedverwant in de nederdalende lijn teg
 rechtsgeding voeren waarbij de staat van de minderjarige, zijn vermogen of een aanzienlijk deel van zijn goederen
 zijn betrokken.
 
-## Art. 399
+###### Art. 399
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Wanneer grond bestaat om de
 voogd te ontzetten, spreekt de vrederechter op verzoek van de toeziende voogd, van het openbaar ministerie of
 zelfs ambtshalve de ontzetting uit.
 
-## Art. 400
+###### Art. 400
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> De voogdij is een persoonlijke
 opdracht die niet overgaat op de erfgenamen van de voogd.
 
-## Art. 401
+###### Art. 401
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Indien grond bestaat om de voogd
 te vervangen, wordt overeenkomstig artikel 393 een nieuwe voogd aangewezen, zulks onverminderd artikel 391.
 De nieuwe voogd vat zijn taak aan op het tijdstip dat de beschikking wordt gegeven.
 
-##### Afdeling III. <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> - Toeziende voogd.
 
-## Art. 402
+##### Afdeling III. <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> - Toeziende voogd.
+###### Art. 402
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Bij elke voogdij is er een toeziende
 voogd die de vrederechter benoemt nadat hij zich verzekerd heeft van zijn aanvaarding.
@@ -8258,7 +8262,7 @@ bij voorkeur uit de andere lijn gekozen.
 De artikelen 395, 396, eerste en tweede lid, 397, 398 en 399 zijn van toepassing op de toeziende voogd.
 De taken van de toeziende voogd eindigen op hetzelfde tijdstip als de voogdij.
 
-## Art. 403
+###### Art. 403
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> De toeziende voogd houdt toezicht
 op de voogd. Indien hij vaststelt dat de voogd tekort schiet in de opvoeding van de minderjarige of in het beheer
@@ -8266,7 +8270,7 @@ van zijn goederen, moet hij de vrederechter daarvan onverwijld in kennis stellen
 De voogd dient alle medewerking te verlenen teneinde de toeziende voogd in staat te stellen dit toezicht uit te
 oefenen.
 
-## Art. 404
+###### Art. 404
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> De toeziende voogd
 vertegenwoordigt de minderjarige wanneer de belangen van deze laatste tegengesteld zijn aan die van de voogd.
@@ -8277,9 +8281,9 @@ Bij het openvallen van de voogdij vervangt de toeziende voogd de voogd niet van 
 hij op straffe van vergoeding van de schade die daaruit voor de minderjarige zou kunnen voortvloeien, een
 nieuwe voogd doen benoemen.
 
-##### Afdeling IV. <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> - Werking van de voogdij.
 
-## Art. 405
+##### Afdeling IV. <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> - Werking van de voogdij.
+###### Art. 405
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> § 1. De voogd draagt zorg voor de
 persoon van de minderjarige, die hij opvoedt overeenkomstig de beginselen waarvoor de ouders eventueel
@@ -8299,7 +8303,7 @@ De procureur des Konings wint alle nuttige inlichtingen in. Indien hij het verzo
 bij verzoekschrift aanhangig bij de vrederechter opdat deze het geschil beslecht.
 De vrederechter beslist na de minderjarige, de voogd en de toeziende voogd te hebben gehoord.
 
-## Art. 406
+###### Art. 406
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> § 1. De voogd doet binnen een
 maand volgend op de kennisgeving van zijn benoeming een boedelbeschrijving met waardeschatting opstellen
@@ -8324,7 +8328,7 @@ indien de voogd schuldeiser is van de minderjarige, moet hij zulks op straffe va
 mededelen in antwoord op de vraag die deze laatste hem moet stellen. De verklaring wordt opgetekend in een
 proces-verbaal dat bij het procesdossier wordt gevoegd.
 
-## Art. 407
+###### Art. 407
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> § 1. Binnen een maand nadat de
 boedelbeschrijving bij het procesdossier is gevoegd, bepaalt de vrederechter, na de voogd, de toeziende voogd
@@ -8355,7 +8359,7 @@ minderjarige indien hij vijftien jaar oud is, te hebben gehoord.
 gedeponeerde en aan de minderjarige toebehorende kapitalen, effecten en waardepapieren te beheren.
 De vrederechter bepaalt de voorwaarden van dit beheer.
 
-## Art. 408
+###### Art. 408
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Effecten aan toonder, alsook
 andere waardepapieren die aan de minderjarige behoren of die hem in de loop van de voogdij toekomen, worden
@@ -8363,7 +8367,7 @@ gedeponeerd op de rekening die overeenkomstig artikel 407, § 1, 4°, op zijn na
 Onverminderd artikel 409, § 2, vierde lid, vernieuwt de voogd op de vervaldag zonder bijzondere machtiging de
 plaatsing van het nominaal kapitaal in gelijkaardige waarden.
 
-## Art. 409
+###### Art. 409
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> § 1. Het saldo van de inkomsten
 bedoeld in artikel 407, § 1, 3°, wordt belegd overeenkomstig de voorwaarden die de vrederechter vaststelt in de
@@ -8379,7 +8383,7 @@ Na het advies van de voogd, van de toeziende voogd en van de minderjarige indien
 hebben ingewonnen, bepaalt de vrederechter op verzoek van de voogd de voorwaarden waaronder later een
 meer rendabele plaatsing kan geschieden.
 
-Art. 410.<W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> § 1. De vrederechter moet de
+###### Art. 410.<W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> § 1. De vrederechter moet de
 voogd bijzondere machtiging verlenen om :
 1° de goederen van de minderjarige, met uitzondering van de vruchten en de onbruikbare voorwerpen, te
 vervreemden, tenzij het beheer is opgedragen aan een instelling bedoeld in artikel 407, § 1, 4°;
@@ -8432,7 +8436,7 @@ indien hij dit wenst, gehoord te worden vooraleer machtiging kan worden verleend
 (4)<W 2020-07-31/03, art. 77, 089; Inwerkingtreding : 01-09-2020>
 (5)<W 2022-01-19/18, art. 10, 094; Inwerkingtreding : 01-07-2022>
 
-Art. 411.<W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> De voogd en de toeziende voogd
+###### Art. 411.<W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> De voogd en de toeziende voogd
 kunnen geen goederen van de minderjarige verkrijgen, noch rechtstreeks, noch door een tussenpersoon,
 behalve op grond van [1 boek 4, titel 1, ondertitels 9 en 10, van het Burgerlijk Wetboek]1 of in het kader van een
 gerechtelijke of minnelijke verdeling overeenkomstig artikel 1206 van het Gerechtelijk Wetboek. Zij kunnen de
@@ -8441,7 +8445,7 @@ machtiging verleent. In dat geval bepaalt de vrederechter in zijn beschikking de
 bijzondere waarborgen verbonden aan de aldus toegestane huur.
 (1)<W 2022-01-19/18, art. 11, 094; Inwerkingtreding : 01-07-2022>
 
-## Art. 412
+###### Art. 412
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> De vrederechter kan alle
 maatregelen nemen om zich te informeren over de familiale, morele en materiële toestand van de minderjarige,
@@ -8449,9 +8453,9 @@ alsook over diens leefomstandigheden.
 In het bijzonder kan hij de procureur des Konings verzoeken om, door de bemiddeling van de bevoegde sociale
 dienst, over al deze punten alle dienstige inlichtingen in te winnen.
 
-##### Afdeling V. <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> - Voogdijrekeningen en voogdijverslag.
 
-## Art. 413
+##### Afdeling V. <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> - Voogdijrekeningen en voogdijverslag.
+###### Art. 413
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> De voogd legt jaarlijks de rekening
 inzake zijn beheer neer in het procesdossier. Deze rekening wordt eveneens overhandigd aan de toeziende
@@ -8459,13 +8463,13 @@ voogd en aan de minderjarige indien hij vijftien jaar oud is. De vrederechter ka
 toeziende voogd, de voogd oproepen teneinde in raadkamer toelichtingen te geven.
 De Koning bepaalt de inhoud en de vorm van de rekeningen inzake het beheer.
 
-## Art. 414
+###### Art. 414
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Indien de voogd moet worden
 vervangen, worden de voogdijrekeningen afgesloten op de dag van de beschikking waarbij de nieuwe voogd
 wordt benoemd, zulks onverminderd de toepassing van artikel 391.
 
-## Art. 415
+###### Art. 415
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Binnen een maand na beëindiging
 van de taken van de voogd wordt de definitieve voogdijrekening in aanwezigheid van de vrederechter en van de
@@ -8480,7 +8484,7 @@ tweede lid, is nietig.
 Bij betwisting wordt overeenkomstig de artikelen 1358 en volgende van het Gerechtelijk Wetboek rekening en
 verantwoording voor de rechtbank gedaan.
 
-## Art. 416
+###### Art. 416
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Zolang de definitieve
 voogdijrekening niet is goedgekeurd, kunnen tussen de minderjarige en zijn vroegere voogd geen geldige
@@ -8489,13 +8493,13 @@ Op voorlegging van een eensluidend afschrift van het overeenkomstig artikel 415 
 verleent de nieuwe voogd of de minderjarige opheffing van de zekerheidstelling die de voogd inzake zijn beheer
 heeft gegeven.
 
-## Art. 417
+###### Art. 417
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> De goedkeuring van de rekening
 doet geenszins afbreuk aan de aansprakelijkheidsvorderingen die de minderjarige tegen de voogd en tegen de
 toeziende voogd kan instellen.
 
-## Art. 418
+###### Art. 418
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Het bedrag van het door de voogd
 verschuldigde saldo brengt van rechtswege intrest op zodra de rekening is goedgekeurd en ten laatste drie
@@ -8503,13 +8507,13 @@ maanden na beëindiging van de voogdij. De intresten van het bedrag dat de minde
 verschuldigd is, beginnen slechts te lopen op de dag dat tot betaling is aangemaand na goedkeuring van de
 rekening.
 
-## Art. 419
+###### Art. 419
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> Vorderingen van de minderjarige
 tegen zijn voogd of zijn toeziende voogd betreffende feiten en rekeningen van de voogdij verjaren na 5 jaar te
 rekenen van de meerderjarigheid, zelfs indien de minderjarige ontvoogd is geworden.
 
-## Art. 420
+###### Art. 420
 
 <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> De voogd brengt jaarlijks bij de
 vrederechter en de toeziende voogd verslag uit over de opvoeding en de opvang van de minderjarige, alsook
@@ -8520,7 +8524,7 @@ wordt bij het procesdossier gevoegd.
 
 #### HOOFDSTUK IIbis. - PLEEGVOOGDIJ.
 
-## Art. 475bis
+###### Art. 475bis
 
 <W 31-03-1987, art. 58> Wanneer iemand die ten minste 25 jaar oud is, zich verbindt om een niet
 ontvoogd minderjarig kind te onderhouden, op te voeden en in staat te stellen de kost te verdienen, kan hij zijn
@@ -8528,7 +8532,7 @@ pleegvoogd worden, met instemming van degenen wier toestemming vereist is voor d
 minderjarigen.
 Een echtgenoot kan slechts met toestemming van de andere echtgenoot pleegvoogd worden.
 
-Art. 475ter.<W 31-03-1987, art. 58> De overeenkomst waarbij de pleegvoogdij tot stand komt en, in
+###### Art. 475ter.<W 31-03-1987, art. 58> De overeenkomst waarbij de pleegvoogdij tot stand komt en, in
 voorkomend geval, de toestemming van de echtgenoot van de pleegvoogd worden vastgesteld bij authentieke
 akte opgemaakt door de vrederechter van de verblijfplaats van de minderjarige of door een notaris.
 Deze overeenkomst heeft eerst haar gevolgen nadat zij, op aanvraag van de pleegvoogd, bekrachtigd is door
@@ -8540,7 +8544,7 @@ hebben betuigd, worden door de rechtbank gehoord, althans opgeroepen. (...). [1 
 wordt gehoord of brengt een schriftelijk advies uit.]1. <W 2001-04-29/39, art. 14, 013; Inwerkingtreding : 01-082001>
 (1)<W 2013-07-30/23, art. 67, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 475quater
+###### Art. 475quater
 
 <W 31-03-1987, art. 58> De pleegvoogd beheert de goederen van zijn pleegkind, zonder het
 genot ervan te hebben en zonder de uitgaven voor onderhoud en opvoeding te mogen toerekenen op de
@@ -8554,7 +8558,7 @@ verplichtingen die voortvloeien (uit het ouderlijk gezag) of de voogdij en met n
 stemmen in het huwelijk, de adoptie of de volle adoptie van de minderjarige en om zijn ontvoogding te vorderen.)
 <W 19-01-1990, art. 31> <W 2001-04-29/39, art. 15, 013; Inwerkingtreding : 01-08-2001>
 
-Art. 475quinquies.<W 31-03-1987, art. 58> De pleegvoogdij neemt een einde bij de meerderjarigheid van het
+###### Art. 475quinquies.<W 31-03-1987, art. 58> De pleegvoogdij neemt een einde bij de meerderjarigheid van het
 pleegkind. Indien het pleegkind evenwel op dat ogenblik niet in staat is om de kost te verdienen, kan de
 pleegvoogd door de [1 familierechtbank]1 worden veroordeeld om het schadeloos te stellen. Deze
 schadeloosstelling bestaat in hulpmiddelen die geschikt zijn om het pleegkind een beroep te verschaffen,
@@ -8568,7 +8572,7 @@ De pleegvoogdij en de verplichtingen van de pleegvoogd of zijn nalatenschap neme
 pleegkind komt te overlijden of wanneer het ontvoogd, geadopteerd of (ten volle geadopteerd) wordt. <W 3103-1987, art. 60>
 (1)<W 2013-07-30/23, art. 68, 065; Inwerkingtreding : 01-09-2014>
 
-Art. 475sexies.<W 2001-04-29/39, art. 16, 013; Inwerkingtreding : 01-08-2001> De [1 familierechtbank]1 kan
+###### Art. 475sexies.<W 2001-04-29/39, art. 16, 013; Inwerkingtreding : 01-08-2001> De [1 familierechtbank]1 kan
 aan de pleegvoogdij een einde maken op verzoek :
 1° hetzij van de pleegvoogd;
 2° hetzij van degenen die overeenkomstig artikel 475bis met de pleegvoogdij hebben ingestemd of van degenen
@@ -8581,7 +8585,7 @@ verplichting van de pleegvoogd om het kind te onderhouden en het de mogelijkheid
 levensonderhoud te voorzien, beperken of opheffen.
 (1)<W 2013-07-30/23, art. 69, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 475septies
+###### Art. 475septies
 
 <W 31-03-1987, art. 58> De pleegvoogd die het beheer over enig goed van zijn pleegkind
 heeft gehad, moet daarvan rekening en verantwoording doen (overeenkomstig de artikelen 413 tot 420). <W
@@ -8589,13 +8593,13 @@ heeft gehad, moet daarvan rekening en verantwoording doen (overeenkomstig de art
 
 #### HOOFDSTUK III. - ONTVOOGDING.
 
-## Art. 476
+###### Art. 476
 
 Het huwelijk van de minderjarige heeft van rechtswege zijn ontvoogding ten gevolge.
 (Ieder van de echtgenoten is van rechtswege curator over zijn minderjarige echtgenoot. Wanneer beiden
 minderjarig zijn, wordt de curatele geregeld overeenkomstig artikel 480.) <W 30-04-1958, art. 4>
 
-Art. 477.<W 08-04-1965, art. 21, 1> De minderjarige die de volle leeftijd van vijftien jaar heeft bereikt, kan door
+###### Art. 477.<W 08-04-1965, art. 21, 1> De minderjarige die de volle leeftijd van vijftien jaar heeft bereikt, kan door
 de [1 familierechtbank]1 worden ontvoogd op verzoek van zijn ouders of, wanneer dezen het niet eens zijn, op
 verzoek van een hunner.
 De vader of de moeder die geen verzoek heeft ingediend evenals, in voorkomend geval, degene aan wie de
@@ -8607,7 +8611,7 @@ ontvoogd op verzoek van de enige ouder.) <W 31-03-1987, art. 61A>
 Konings.) <W 31-03-1987, art. 61B>
 (1)<W 2013-07-30/23, art. 70, 065; Inwerkingtreding : 01-09-2014>
 
-Art. 478.<W 2001-04-29/39, art. 18, 013; Inwerkingtreding : 01-08-2001> De minderjarige die geen ouders
+###### Art. 478.<W 2001-04-29/39, art. 18, 013; Inwerkingtreding : 01-08-2001> De minderjarige die geen ouders
 heeft en die vijftien jaar oud is, kan worden ontvoogd indien de voogd en de toeziende voogd hem daartoe
 geschikt oordelen.
 De voogd en de toeziende voogd dienen daartoe een verzoek in bij de [1 familierechtbank]1, die optreedt
@@ -8617,7 +8621,7 @@ Op verzoek van het openbaar ministerie wordt een eensluidend verklaard afschrift
 artikel uitgesproken vonnis overgezonden aan de vrederechter van de plaats waar de voogdij is opengevallen.
 (1)<W 2013-07-30/23, art. 71, 065; Inwerkingtreding : 01-09-2014>
 
-Art. 479.<W 2001-04-29/39, art. 19, 013; Inwerkingtreding : 01-08-2001> Wanneer de voogd niets heeft
+###### Art. 479.<W 2001-04-29/39, art. 19, 013; Inwerkingtreding : 01-08-2001> Wanneer de voogd niets heeft
 ondernomen om de minderjarige die voldoet aan de in artikel 478 gestelde voorwaarden te ontvoogden en
 wanneer een of meer bloedverwanten of aanverwanten tot in de vierde graad van deze minderjarige hem
 geschikt oordelen om te worden ontvoogd, kunnen zij de procureur des Konings verzoeken zich met het oog op
@@ -8626,7 +8630,7 @@ De minderjarige kan te dien einde eveneens een verzoek indienen bij de procureur
 Artikel 478, derde lid, is van toepassing.
 (1)<W 2013-07-30/23, art. 72, 065; Inwerkingtreding : 01-09-2014>
 
-Art. 480.<W 10-03-1975, art. 2> Indien de ontvoogde minderjarige geen curator van rechtswege heeft, wordt
+###### Art. 480.<W 10-03-1975, art. 2> Indien de ontvoogde minderjarige geen curator van rechtswege heeft, wordt
 hem een curator toegevoegd door de [1 familierechtbank]1, hetzij ambtshalve, hetzij op verzoek van enige
 belanghebbende :
 De [1 familierechtbank]1 benoemt op verzoek een curator ad hoc. De verzoeker kan aan de rechtbank een of
@@ -8635,26 +8639,26 @@ De voogdijrekening wordt gedaan aan de ontvoogde minderjarige, al naar het geval
 of door de curator ad hoc.
 (1)<W 2013-07-30/23, art. 73, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 481
+###### Art. 481
 
 De ontvoogde minderjarige mag verhuringen aangaan waarvan de duur negen jaren niet te boven
 gaat; hij neemt zijn inkomsten in ontvangst, geeft daarvan kwijting en verricht alle daden van louter beheer,
 zonder dat hij daartegen in zijn recht kan worden hersteld in de gevallen waarin de meerderjarige zelf dit niet zou
 kunnen.
 
-## Art. 482
+###### Art. 482
 
 Hij mag geen onroerende rechtsvordering instellen, noch zich op zodanige rechtsvordering
 verdedigen, noch zelfs roerende kapitalen in ontvangst nemen en daarvan kwijting geven zonder de bijstand van
 zijn curator, die in het laatste geval op de belegging van het ontvangen kapitaal toeziet.
 
-## Art. 483
+###### Art. 483
 
 <W 2001-04-29/39, art. 20, 013; Inwerkingtreding : 01-08-2001> De ontvoogde minderjarige mag
 onder geen enkel voorwendsel leningen aangaan zonder machtiging van de vrederechter gegeven
 overeenkomstig artikel 410, § 1.
 
-## Art. 484
+###### Art. 484
 
 Evenmin mag hij zijn onroerende goederen verkopen of vervreemden of enige daad verrichten buiten
 die van louter beheer, (zonder de regels betreffende de voogdij in acht te nemen). <W 2001-04-29/39, art. 21,
@@ -8664,7 +8668,7 @@ worden, ingeval zij buitensporig zijn; de rechtbanken nemen hierbij in aanmerkin
 minderjarige, de goede of kwade trouw van de personen die met hem hebben gehandeld, het nut of de
 nutteloosheid van de uitgaven.
 
-## Art. 485
+###### Art. 485
 
 <W 08-04-1965, art. 21, 4> Aan iedere ontvoogde minderjarige die er niet toe in staat blijkt zichzelf te
 leiden of wiens verbintenissen ingevolge het vorige artikel zijn verminderd, kan het voordeel van de ontvoogding
@@ -8672,19 +8676,19 @@ ontnomen worden; de ontvoogding wordt ingetrokken met inachtneming van dezelfde 
 verlenen van de ontvoogding zijn nagekomen, de minderjarige gehoord of opgeroepen.
 De procureur des Konings kan eveneens de intrekking van de ontvoogding aanvragen, (...). <W 2001-0429/39, art. 22, 013; Inwerkingtreding : 01-08-2001>
 
-## Art. 486
+###### Art. 486
 
 Vanaf de dag dat de ontvoogding is ingetrokken, komt de minderjarige terug onder voogdij en hij blijft
 onder voogdij totdat hij zijn meerderjarigheid zal hebben bereikt.
 
-## Art. 487
+###### Art. 487
 
 (Opgeheven) <W 19-01-1990, art. 33>
 
 #### HOOFDSTUK IV. [1 Opschorting van het stemrecht van de minderjarigen ouder dan zestien jaar voor de verkiezing van het Europees Parlement]1
 (1)<W 2023-12-25/12, art. 15, 104; Inwerkingtreding : 13-01-2024>
 
-Art. 487bis.[1 Met betrekking tot de minderjarige ouder dan 16 jaar die niet de bevoegdheid heeft om zelf zijn
+###### Art. 487bis.[1 Met betrekking tot de minderjarige ouder dan 16 jaar die niet de bevoegdheid heeft om zelf zijn
 rechten en plichten uit te oefenen op autonome wijze, kan de vrederechter van de woonplaats van de
 minderjarige, hetzij ambtshalve, hetzij op verzoek van de minderjarige, van iedere belanghebbende of van de
 procureur des Konings, bij een met redenen omklede beschikking, het stemrecht van deze minderjarige
@@ -8693,27 +8697,27 @@ van het Europees Parlement, en rekening houdend met de persoonlijke omstandighed
 gezondheidstoestand van de minderjarige.]1
 (1)<W 2023-12-25/12, art. 16, 104; Inwerkingtreding : 13-01-2024>
 
-## Art. 487ter
+###### Art. 487ter
 
 <Opgeheven bij W 2013-03-17/14, art. 25, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 487quater
+###### Art. 487quater
 
 <Opgeheven bij W 2013-03-17/14, art. 25, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 487quinquies
+###### Art. 487quinquies
 
 <Opgeheven bij W 2013-03-17/14, art. 25, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 487sexies
+###### Art. 487sexies
 
 <Opgeheven bij W 2013-03-17/14, art. 25, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 487septies
+###### Art. 487septies
 
 <Opgeheven bij W 2013-03-17/14, art. 25, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 487octies
+###### Art. 487octies
 
 <Opgeheven bij W 2013-03-17/14, art. 25, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
@@ -8723,7 +8727,7 @@ gezondheidstoestand van de minderjarige.]1
 
 #### HOOFDSTUK I. - MEERDERJARIGHEID.
 
-## Art. 488
+###### Art. 488
 
 <W 19-01-1990, art. 2> De meerderjarigheid is vastgesteld op de volle leeftijd van achttien jaren; op
 die leeftijd is men bekwaam tot alle handelingen van het burgerlijk leven.
@@ -8732,7 +8736,7 @@ die leeftijd is men bekwaam tot alle handelingen van het burgerlijk leven.
 
 <W 18-07-1991, art. 2>
 
-Art. 488bis.<Ingevoegd bij W 18-07-1991, art. 3 tot 13> A. De meerderjarige die, geheel of gedeeltelijk, zij het
+###### Art. 488bis.<Ingevoegd bij W 18-07-1991, art. 3 tot 13> A. De meerderjarige die, geheel of gedeeltelijk, zij het
 tijdelijk, wegens zijn gezondheidstoestand, niet in staat is zijn goederen te beheren, kan met het oog op de
 bescherming ervan, een voorlopige bewindvoerder toegevoegd worden, als hem nog geen wettelijke
 vertegenwoordiger werd toegevoegd.
@@ -9066,7 +9070,6 @@ worden gedaan aan diens woonplaats of verblijfplaats.
 
 (1)<W 2013-03-17/14, art. 28, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-##### Afdeling 1. - [1 Toepassingsgebied]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 29, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
@@ -9082,17 +9085,18 @@ meerderjarig wordt.]2 ]1
 die zich in staat van verkwisting bevinden, indien en voor zover de bescherming van hun belangen dit vereist.]1
 (1)<Ingevoegd bij W 2013-03-17/14, art. 31, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-##### Afdeling 2. - [1 Buitengerechtelijke bescherming]1
+##### Afdeling 1. - [1 Toepassingsgebied]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 32, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-Art. 489.[1 De bepalingen van deze afdeling zijn uitsluitend van toepassing op daden van vertegenwoordiging
+##### Afdeling 2. - [1 Buitengerechtelijke bescherming]1
+###### Art. 489.[1 De bepalingen van deze afdeling zijn uitsluitend van toepassing op daden van vertegenwoordiging
 die betrekking hebben op de goederen [2 en de personen, en op daden van beheer zoals bedoeld in artikel 494,
 g)]2.]1
 (1)<W 2013-03-17/14, art. 33, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 6, 086; Inwerkingtreding : 01-03-2019>
 
-Art. 490.[1 De bijzondere of algemene lastgeving verleend door een wilsbekwame meerderjarige of ontvoogde
+###### Art. 490.[1 De bijzondere of algemene lastgeving verleend door een wilsbekwame meerderjarige of ontvoogde
 minderjarige persoon waarvoor geen enkele beschermingsmaatregel werd getroffen als bedoeld in artikel 492/1,
 en die in het bijzonder tot doel heeft om voor hem een buitenrechterlijke bescherming te regelen [2 , en de
 beëindiging van deze lastgeving krachtens het vijfde lid worden geregistreerd]2 in het centraal register dat wordt
@@ -9179,15 +9183,15 @@ beschermingsmaatregel, overeenkomstig artikel 492/1;
 (1)<Ingevoegd bij W 2013-03-17/14, art. 36, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 9, 086; Inwerkingtreding : 01-03-2019>
 
-##### Afdeling 3. - [1 Rechterlijke bescherming]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 37, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
+##### Afdeling 3. - [1 Rechterlijke bescherming]1
 ##### Onderafdeling 1. [1 Definities]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 38, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-Art. 491.[1 Voor de toepassing van deze afdeling wordt verstaan onder :
+###### Art. 491.[1 Voor de toepassing van deze afdeling wordt verstaan onder :
 a) beschermde persoon : een meerderjarige persoon die door een rechterlijke beslissing overeenkomstig artikel
 492/1 onbekwaam werd verklaard om één of meer handelingen te stellen;
 b) [2 ...]2
@@ -9206,7 +9210,7 @@ handeling mag stellen.]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 40, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-Art. 492.[1 De vrederechter kan ten aanzien van de persoon bedoeld in de artikelen 488/1 en 488/2 een
+###### Art. 492.[1 De vrederechter kan ten aanzien van de persoon bedoeld in de artikelen 488/1 en 488/2 een
 rechterlijke beschermingsmaatregel bevelen wanneer en in de mate hij vaststelt dat dit noodzakelijk is en dat de
 bestaande wettelijke of buitengerechtelijke bescherming niet volstaat.
 [2 ...]2
@@ -9359,7 +9363,7 @@ vrederechter kennis van de definitieve invrijheidstelling van de geïnterneerde.
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 47, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-Art. 493.[1 § 1. De handelingen die door de beschermde persoon zijn verricht in strijd met zijn overeenkomstig
+###### Art. 493.[1 § 1. De handelingen die door de beschermde persoon zijn verricht in strijd met zijn overeenkomstig
 artikel 492/1, § 1, vastgestelde onbekwaamheid met betrekking tot zijn persoon, zijn rechtens nietig.
 Indien de in het eerste lid bedoelde handelingen voorwaardelijk werden toegestaan door de vrederechter maar
 door de beschermde persoon werden verricht zonder dat die voorwaarden in acht werden genomen, kan de
@@ -9425,11 +9429,11 @@ betwiste handeling zelf voortvloeit.]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 52, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-##### Afdeling 1. [1 Definities]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 53, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-Art. 494.[1 Voor de toepassing van dit hoofdstuk wordt verstaan onder :
+##### Afdeling 1. [1 Definities]1
+###### Art. 494.[1 Voor de toepassing van dit hoofdstuk wordt verstaan onder :
 a) beschermde persoon : een meerderjarige persoon die door een beslissing genomen overeenkomstig artikel
 492/1 onbekwaam werd verklaard om één of meerdere handelingen te stellen;
 b) bewindvoerder over de persoon : persoon die de beschermde persoon bijstaat of vertegenwoordigt bij het
@@ -9450,22 +9454,22 @@ g) beheer : het optreden van de bewindvoerder door het stellen van handelingen m
 goederen die niet vatbaar zijn voor vertegenwoordiging.]1
 (1)<W 2013-03-17/14, art. 54, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-##### Afdeling 2. [1 Ontstaan van het bewind]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 55, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-Art. 495.[1 Het bewind over beschermde personen ontstaat wanneer de vrederechter :
+##### Afdeling 2. [1 Ontstaan van het bewind]1
+###### Art. 495.[1 Het bewind over beschermde personen ontstaat wanneer de vrederechter :
 - een rechterlijke beschermingsmaatregel beveelt overeenkomstig artikel 492/1 en een persoon die de
 beschermde persoon bijstand verleent bij het stellen van handelingen moet worden aangewezen;
 - een rechterlijke beschermingsmaatregel beveelt overeenkomstig artikel 492/1 en een persoon die de
 beschermde persoon vertegenwoordigt bij het stellen van handelingen moet worden aangewezen.]1
 (1)<W 2013-03-17/14, art. 56, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-##### Afdeling 3. [1 Organisatie van het bewind]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 57, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-Art. 496.[1 Iedere persoon voor wie geen rechterlijke beschermingsmaatregel bedoeld in artikel 492/1 werd
+##### Afdeling 3. [1 Organisatie van het bewind]1
+###### Art. 496.[1 Iedere persoon voor wie geen rechterlijke beschermingsmaatregel bedoeld in artikel 492/1 werd
 genomen kan, ten overstaan van de vrederechter van zijn verblijfplaats of, bij gebrek daaraan, van zijn
 woonplaats of ten overstaan van een notaris een verklaring afleggen waarin hij zijn voorkeur te kennen geeft
 omtrent de aan te wijzen bewindvoerder of vertrouwenspersoon indien de vrederechter een rechterlijke
@@ -9578,15 +9582,15 @@ hetzij bij zijn aanwijzing, hetzij gedurende de uitoefening van zijn opdracht.]1
 (1)<Ingevoegd bij W 2013-03-17/14, art. 65, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 16, 086; Inwerkingtreding : 01-03-2019>
 
-##### Afdeling 4. [1 De werking van het bewind]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 66, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
+##### Afdeling 4. [1 De werking van het bewind]1
 ##### Onderafdeling 1. [1 Algemene bepalingen]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 67, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-Art. 497.[1 De bewindvoering is een persoonlijke opdracht die niet overgaat op de erfgenamen van de
+###### Art. 497.[1 De bewindvoering is een persoonlijke opdracht die niet overgaat op de erfgenamen van de
 bewindvoerder.
 De bewindvoering heeft tot doel de belangen van de beschermde persoon te behartigen. Zij bevordert, in de
 mate van het mogelijke, de autonomie van de beschermde persoon.]1
@@ -9756,7 +9760,7 @@ derde lid, werd nageleefd; en
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 77, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-Art. 498.[1 Deze onderafdeling is van toepassing ingeval de vrederechter een rechterlijke
+###### Art. 498.[1 Deze onderafdeling is van toepassing ingeval de vrederechter een rechterlijke
 beschermingsmaatregel van bijstand heeft bevolen overeenkomstig artikel 492/1.
 In afwijking van het eerste lid is deze onderafdeling in ieder geval van toepassing indien de vrederechter een
 rechterlijke beschermingsmaatregel heeft bevolen ten aanzien van een persoon die verkeert in de toestand
@@ -9845,7 +9849,7 @@ gevoegd.]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 83, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-Art. 499.[1 Deze onderafdeling is van toepassing ingeval de vrederechter een rechterlijke
+###### Art. 499.[1 Deze onderafdeling is van toepassing ingeval de vrederechter een rechterlijke
 beschermingsmaatregel van vertegenwoordiging heeft bevolen overeenkomstig artikel 492/1.]1
 (1)<W 2013-03-17/14, art. 84, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
@@ -10196,7 +10200,7 @@ vernietigen.]1
 (1)<Ingevoegd bij W 2013-03-17/14, art. 107, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
-Art. 500.[1 Deze onderafdeling is van toepassing ingeval de vrederechter een rechterlijke
+###### Art. 500.[1 Deze onderafdeling is van toepassing ingeval de vrederechter een rechterlijke
 beschermingsmaatregel van vertegenwoordiging heeft bevolen overeenkomstig artikel 492/1 en de ouders van
 de beschermde persoon of één van beiden heeft aangesteld tot bewindvoerder.]1
 (1)<W 2013-03-17/14, art. 108, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
@@ -10227,7 +10231,7 @@ de persoon ten aanzien van wie de rechterlijke beschermingsmaatregel is beëindi
 bewindvoerder, binnen één maand na de beëindiging van zijn opdracht, rekenschap en verantwoording af
 overeenkomstig artikel 499/17. De artikelen 499/18 en 499/20 tot 499/22 zijn in dat geval van toepassing.
 
-## Art. 499/19
+###### Art. 499/19
 
 is van toepassing ingeval het bewind eindigt door het overlijden van de beschermde persoon. In
 afwijking van artikel 499/19 moeten de ouders slechts rekenschap en verantwoording afleggen, binnen een
@@ -10240,7 +10244,7 @@ maand na het overlijden van de beschermde persoon, op uitdrukkelijk verzoek van 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 113, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
-Art. 501.[1 De te beschermen of beschermde persoon heeft het recht zich, tijdens de hele duur van het
+###### Art. 501.[1 De te beschermen of beschermde persoon heeft het recht zich, tijdens de hele duur van het
 bewind, te laten bijstaan door een door hemzelf aangewezen vertrouwenspersoon.
 De homologatie van de aanwijzing van de vertrouwenspersoon gebeurt door een schriftelijk of mondeling
 verzoek dat daartoe bij de aanvang of tijdens de duur van het bewind aan de vrederechter wordt gericht door de
@@ -10307,12 +10311,12 @@ persoon, na getracht te hebben het standpunt van de partijen dichter bij elkaar 
 artikel 1247 van het Gerechtelijk Wetboek.]1
 (1)<Ingevoegd bij W 2018-12-21/09, art. 39, 086; Inwerkingtreding : 01-03-2019>
 
-##### Afdeling 5. [1 De beëindiging van het bewind]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 117, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
-Art. 502.[1 § 1. Het bewind eindigt in de gevallen bedoeld in artikel 492/4.
+##### Afdeling 5. [1 De beëindiging van het bewind]1
+###### Art. 502.[1 § 1. Het bewind eindigt in de gevallen bedoeld in artikel 492/4.
 § 2. Onverminderd artikel 499/19, neemt de opdracht van de bewindvoerder een einde :
 1° door de beëindiging van het bewind;
 2° door het overlijden van de bewindvoerder of de ontbinding van de private stichting;
@@ -10325,43 +10329,43 @@ beschermingsmaatregel beveelt als bedoeld in de artikelen 490 of 490/1 en hierbi
 beschermingsmaatregel ten aanzien van de beschermde persoon beveelt.]1
 (1)<W 2013-03-17/14, art. 118, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 503
+###### Art. 503
 
 <Opgeheven bij W 2013-03-17/14, art. 119, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 504
+###### Art. 504
 
 <Opgeheven bij W 2013-03-17/14, art. 119, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 505
+###### Art. 505
 
 (Opgeheven) <W 24-06-1970, art. 37>
 
-## Art. 506
+###### Art. 506
 
 (Opgeheven) <W 2001-04-29/39, art. 24, 013; Inwerkingtreding : 01-08-2001>
 
-## Art. 507
+###### Art. 507
 
 (Opgeheven) <W 10-08-1909, art. 1>
 
-## Art. 508
+###### Art. 508
 
 <Opgeheven bij W 2013-03-17/14, art. 119, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 509
+###### Art. 509
 
 <Opgeheven bij W 2013-03-17/14, art. 119, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 510
+###### Art. 510
 
 <Opgeheven bij W 2013-03-17/14, art. 119, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 511
+###### Art. 511
 
 <Opgeheven bij W 2013-03-17/14, art. 119, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 512
+###### Art. 512
 
 <Opgeheven bij W 2013-03-17/14, art. 119, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
@@ -10369,15 +10373,15 @@ beschermingsmaatregel ten aanzien van de beschermde persoon beveelt.]1
 
 <Opgeheven bij W 2013-03-17/14, art. 120, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 513
+###### Art. 513
 
 <Opgeheven bij W 2013-03-17/14, art. 120, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 514
+###### Art. 514
 
 <Opgeheven bij W 2013-03-17/14, art. 120, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 515
+###### Art. 515
 
 <Opgeheven bij W 2013-03-17/14, art. 120, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
@@ -10390,274 +10394,274 @@ Artikel. 516.
 
 #### HOOFDSTUK I. - ONROERENDE GOEDEREN.
 
-## Art. 517
+###### Art. 517
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 518
+###### Art. 518
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 519
+###### Art. 519
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 520
+###### Art. 520
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 521
+###### Art. 521
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 522
+###### Art. 522
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 523
+###### Art. 523
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 524
+###### Art. 524
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 525
+###### Art. 525
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 526
+###### Art. 526
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 #### HOOFDSTUK II. - ROERENDE GOEDEREN.
 
-## Art. 527
+###### Art. 527
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 528
+###### Art. 528
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 529
+###### Art. 529
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 530
+###### Art. 530
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 531
+###### Art. 531
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 532
+###### Art. 532
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 533
+###### Art. 533
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 534
+###### Art. 534
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 535
+###### Art. 535
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 536
+###### Art. 536
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 #### HOOFDSTUK III. - GOEDEREN MET BETREKKING TOT HUN BEZITTERS.
 
-## Art. 537
+###### Art. 537
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 538
+###### Art. 538
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 539
+###### Art. 539
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 540
+###### Art. 540
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 541
+###### Art. 541
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 542
+###### Art. 542
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 543
+###### Art. 543
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 ### TITEL II. - EIGENDOM.
 
-## Art. 544
+###### Art. 544
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 545
+###### Art. 545
 
 (Opgeheven) <W 15-12-1949, art. 29>
 
-## Art. 546
+###### Art. 546
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 #### HOOFDSTUK I. - RECHT VAN NATREKKING OP HETGEEN DOOR EEN ZAAK WORDT VOORTGEBRACHT.
 
-## Art. 547
+###### Art. 547
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 548
+###### Art. 548
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 549
+###### Art. 549
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 550
+###### Art. 550
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 #### HOOFDSTUK II. - RECHT VAN NATREKKING OP HETGEEN MET DE ZAAK VERENIGD WORDT EN EEN LICHAAM ERMEE UITMAAKT.
 
-## Art. 551
+###### Art. 551
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
 
 ##### AFDELING I. - RECHT VAN NATREKKING BETREFFENDE ONROERENDE ZAKEN.
-
-## Art. 552
-
-<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
-
-## Art. 553
+###### Art. 552
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 554
+###### Art. 553
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 555
+###### Art. 554
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 556
+###### Art. 555
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 557
+###### Art. 556
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 558
+###### Art. 557
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 559
+###### Art. 558
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 560
+###### Art. 559
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 561
+###### Art. 560
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 562
+###### Art. 561
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 563
+###### Art. 562
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 564
+###### Art. 563
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
+###### Art. 564
+
+<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
 
 ##### AFDELING II. - RECHT VAN NATREKKING BETREFFENDE ROERENDE ZAKEN.
-
-## Art. 565
-
-<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
-
-## Art. 566
+###### Art. 565
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 567
+###### Art. 566
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 568
+###### Art. 567
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 569
+###### Art. 568
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 570
+###### Art. 569
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 571
+###### Art. 570
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 572
+###### Art. 571
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 573
+###### Art. 572
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 574
+###### Art. 573
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 575
+###### Art. 574
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 576
+###### Art. 575
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 577
+###### Art. 576
+
+<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
+###### Art. 577
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 #### HOOFDSTUK III. - MEDEEIGENDOM.
 
-##### AFDELING I. - (GEWONE MEDEEIGENDOM EN GEDWONGEN MEDEEIGENDOM IN HET ALGEMEEN.) <Ingevoegd
 bij W 1994-06-30/34, art. 1; Inwerkingtreding : 01-08-1995>
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.)
+##### AFDELING I. - (GEWONE MEDEEIGENDOM EN GEDWONGEN MEDEEIGENDOM IN HET ALGEMEEN.) <Ingevoegd
 <Ingevoegd bij W 1994-06-30/34, art. 2; Inwerkingtreding : 01-08-1995>
 
+##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.)
 ##### Onderafdeling I. - Algemene bepalingen.
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
@@ -10710,580 +10714,580 @@ bij W 1994-06-30/34, art. 1; Inwerkingtreding : 01-08-1995>
 
 #### HOOFDSTUK I. - VRUCHTGEBRUIK.
 
-## Art. 578
+###### Art. 578
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 579
+###### Art. 579
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 580
+###### Art. 580
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 581
+###### Art. 581
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
 
 ##### AFDELING I. - RECHTEN VAN DE VRUCHTGEBRUIKER.
-
-## Art. 582
-
-<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
-
-## Art. 583
+###### Art. 582
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 584
+###### Art. 583
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 585
+###### Art. 584
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 586
+###### Art. 585
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 587
+###### Art. 586
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 588
+###### Art. 587
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 589
+###### Art. 588
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 590
+###### Art. 589
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 591
+###### Art. 590
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 592
+###### Art. 591
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 593
+###### Art. 592
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 594
+###### Art. 593
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 595
+###### Art. 594
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 596
+###### Art. 595
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 597
+###### Art. 596
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 598
+###### Art. 597
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 599
+###### Art. 598
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
+###### Art. 599
+
+<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
 
 ##### AFDELING II. - VERPLICHTINGEN VAN DE VRUCHTGEBRUIKER.
-
-## Art. 600
-
-<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
-
-## Art. 601
+###### Art. 600
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 602
+###### Art. 601
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 603
+###### Art. 602
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 604
+###### Art. 603
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 605
+###### Art. 604
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 606
+###### Art. 605
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 607
+###### Art. 606
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 608
+###### Art. 607
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 609
+###### Art. 608
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 610
+###### Art. 609
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 611
+###### Art. 610
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 612
+###### Art. 611
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 613
+###### Art. 612
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 614
+###### Art. 613
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 615
+###### Art. 614
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 616
+###### Art. 615
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
+###### Art. 616
+
+<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
 
 ##### AFDELING III. - HOE VRUCHTGEBRUIK EINDIGT.
-
-## Art. 617
-
-<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
-
-## Art. 618
+###### Art. 617
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 619
+###### Art. 618
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 620
+###### Art. 619
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 621
+###### Art. 620
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 622
+###### Art. 621
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 623
+###### Art. 622
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 624
+###### Art. 623
+
+<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
+###### Art. 624
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 #### HOOFDSTUK II. - GEBRUIK EN BEWONING.
 
-## Art. 625
+###### Art. 625
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 626
+###### Art. 626
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 627
+###### Art. 627
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 628
+###### Art. 628
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 629
+###### Art. 629
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 630
+###### Art. 630
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 631
+###### Art. 631
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 632
+###### Art. 632
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 633
+###### Art. 633
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 634
+###### Art. 634
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 635
+###### Art. 635
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 636
+###### Art. 636
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 ### TITEL IV. - ERFDIENSTBAARHEDEN OF GRONDLASTEN.
 
-## Art. 637
+###### Art. 637
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 638
+###### Art. 638
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 639
+###### Art. 639
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 #### HOOFDSTUK I. - ERFDIENSTBAARHEDEN DIE ONTSTAAN UIT DE LIGGING VAN DE PLAATSEN.
 
-## Art. 640
+###### Art. 640
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 641
+###### Art. 641
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 642
+###### Art. 642
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 643
+###### Art. 643
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 644
+###### Art. 644
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 645
+###### Art. 645
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 646
+###### Art. 646
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 647
+###### Art. 647
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 648
+###### Art. 648
 
 (Opgeheven) <W 04-12-1961, art. 1, b>
 
 #### HOOFDSTUK II. - ERFDIENSTBAARHEDEN DIE DOOR DE WET GEVESTIGD ZIJN.
 
-## Art. 649
+###### Art. 649
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 650
+###### Art. 650
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 651
+###### Art. 651
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 652
+###### Art. 652
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
 
 ##### AFDELING I. - GEMENE MUUR EN GEMENE GRACHT.
-
-## Art. 653
-
-<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
-
-## Art. 654
+###### Art. 653
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 655
+###### Art. 654
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 656
+###### Art. 655
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 657
+###### Art. 656
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 658
+###### Art. 657
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 659
+###### Art. 658
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 660
+###### Art. 659
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 661
+###### Art. 660
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 662
+###### Art. 661
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 663
+###### Art. 662
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 664
+###### Art. 663
+
+<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
+###### Art. 664
 
 (Opgeheven) <W 08-07-1924, art. 2>
 
-## Art. 665
+###### Art. 665
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 666
+###### Art. 666
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 667
+###### Art. 667
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 668
+###### Art. 668
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 669
+###### Art. 669
 
 (Opgeheven) <W 07-10-1886, art. 98>
 
-## Art. 670
+###### Art. 670
 
 (Opgeheven) <W 07-10-1886, art. 98>
 
-## Art. 671
+###### Art. 671
 
 (Opgeheven) <W 07-10-1886, art. 98>
 
-## Art. 672
+###### Art. 672
 
 (Opgeheven) <W 07-10-1886, art. 98>
 
-## Art. 673
+###### Art. 673
 
 (Opgeheven) <W 07-10-1886, art. 98>
+
 
 ##### AFDELING II. - AFSTAND EN TUSSENWERKEN VEREIST BIJ BEPAALDE BOUWWERKEN.
-
-## Art. 674
+###### Art. 674
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
 
 ##### AFDELING III. - UITZICHTEN OP HET EIGENDOM VAN DE NABUUR.
-
-## Art. 675
-
-<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
-
-## Art. 676
+###### Art. 675
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 677
+###### Art. 676
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 678
+###### Art. 677
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 679
+###### Art. 678
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 680
+###### Art. 679
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 680bis
+###### Art. 680
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
+###### Art. 680bis
+
+<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
 
 ##### AFDELING IV. - DAKDROP.
-
-## Art. 681
+###### Art. 681
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
 
 ##### AFDELING V. - RECHT VAN UITWEG.
-
-## Art. 682
-
-<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
-
-## Art. 683
+###### Art. 682
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 684
+###### Art. 683
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 685
+###### Art. 684
+
+<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
+###### Art. 685
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 #### HOOFDSTUK III. - ERFDIENSTBAARHEDEN DIE DOOR 'S MENSEN TOEDOEN GEVESTIGD WORDEN.
 
-##### AFDELING I. - ONDERSCHEIDEN SOORTEN VAN ERFDIENSTBAARHEDEN DIE OP GOEDEREN KUNNEN
 WORDEN GEVESTIGD.
 
-## Art. 686
+##### AFDELING I. - ONDERSCHEIDEN SOORTEN VAN ERFDIENSTBAARHEDEN DIE OP GOEDEREN KUNNEN
+###### Art. 686
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 687
+###### Art. 687
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 688
+###### Art. 688
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 689
+###### Art. 689
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
 
 ##### AFDELING II. - HOE ERFDIENSTBAARHEDEN GEVESTIGD WORDEN.
-
-## Art. 690
-
-<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
-
-## Art. 691
+###### Art. 690
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 692
+###### Art. 691
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 693
+###### Art. 692
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 694
+###### Art. 693
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 695
+###### Art. 694
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 696
+###### Art. 695
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-##### AFDELING III. - RECHTEN VAN DE EIGENAAR VAN HET ERF WAARAAN DE ERFDIENSTBAARHEID
+###### Art. 696
+
+<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
 VERSCHULDIGD IS.
 
-## Art. 697
+##### AFDELING III. - RECHTEN VAN DE EIGENAAR VAN HET ERF WAARAAN DE ERFDIENSTBAARHEID
+###### Art. 697
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 698
+###### Art. 698
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 699
+###### Art. 699
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 700
+###### Art. 700
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 701
+###### Art. 701
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 702
+###### Art. 702
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
 
 ##### AFDELING IV. - HOE ERFDIENSTBAARHEDEN TENIET GAAN.
-
-## Art. 703
-
-<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
-
-## Art. 704
+###### Art. 703
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 705
+###### Art. 704
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 706
+###### Art. 705
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 707
+###### Art. 706
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 708
+###### Art. 707
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 709
+###### Art. 708
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 710
+###### Art. 709
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 710bis
+###### Art. 710
+
+<Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
+
+###### Art. 710bis
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
@@ -11291,31 +11295,31 @@ VERSCHULDIGD IS.
 
 ALGEMENE BEPALINGEN.
 
-## Art. 711
+###### Art. 711
 
 <Opgeheven bij W 2020-02-04/16, art. 29,2°, 035; Inwerkingtreding : 01-09-2021>
 
-## Art. 712
+###### Art. 712
 
 <Opgeheven bij W 2020-02-04/16, art. 29,2°, 035; Inwerkingtreding : 01-09-2021>
 
-## Art. 713
+###### Art. 713
 
 <Opgeheven bij W 2020-02-04/16, art. 29,2°, 035; Inwerkingtreding : 01-09-2021>
 
-## Art. 714
+###### Art. 714
 
 <Opgeheven bij W 2020-02-04/16, art. 29,2°, 035; Inwerkingtreding : 01-09-2021>
 
-## Art. 715
+###### Art. 715
 
 <Opgeheven bij W 2020-02-04/16, art. 29,2°, 035; Inwerkingtreding : 01-09-2021>
 
-## Art. 716
+###### Art. 716
 
 <Opgeheven bij W 2020-02-04/16, art. 29,2°, 035; Inwerkingtreding : 01-09-2021>
 
-## Art. 717
+###### Art. 717
 
 <Opgeheven bij W 2020-02-04/16, art. 29,2°, 035; Inwerkingtreding : 01-09-2021>
 
@@ -11327,31 +11331,31 @@ ALGEMENE BEPALINGEN.
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 718
+###### Art. 718
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 719
+###### Art. 719
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 720
+###### Art. 720
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 721
+###### Art. 721
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 722
+###### Art. 722
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 723
+###### Art. 723
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 724
+###### Art. 724
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -11359,27 +11363,27 @@ ALGEMENE BEPALINGEN.
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 725
+###### Art. 725
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 726
+###### Art. 726
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 727
+###### Art. 727
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 728
+###### Art. 728
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 729
+###### Art. 729
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 730
+###### Art. 730
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -11387,155 +11391,155 @@ ALGEMENE BEPALINGEN.
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
+
 ##### AFDELING I.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 731
+###### Art. 731
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 732
+###### Art. 732
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 733
+###### Art. 733
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 734
+###### Art. 734
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 735
+###### Art. 735
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 736
+###### Art. 736
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 737
+###### Art. 737
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 738
+###### Art. 738
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING II.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 739
+###### Art. 739
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 740
+###### Art. 740
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 741
+###### Art. 741
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 742
+###### Art. 742
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 743
+###### Art. 743
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 744
+###### Art. 744
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING III.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 745
+###### Art. 745
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 (AFDELING IV.
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 745bis
+###### Art. 745bis
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 745ter
+###### Art. 745ter
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 745quater
+###### Art. 745quater
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 745quinquies
+###### Art. 745quinquies
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 745sexies
+###### Art. 745sexies
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 745septies
+###### Art. 745septies
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
+
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### Afdeling IVbis.
-
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 745octies
-
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-AFDELING(
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 746
-
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 747
-
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 748
-
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 749
+###### Art. 745octies
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 AFDELING(
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 750
+###### Art. 746
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 751
+###### Art. 747
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 752
+###### Art. 748
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 753
+###### Art. 749
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 754
+AFDELING(
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
+
+###### Art. 750
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
+
+###### Art. 751
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
+
+###### Art. 752
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
+
+###### Art. 753
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
+
+###### Art. 754
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 755
+###### Art. 755
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -11543,81 +11547,81 @@ AFDELING(
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
+
 ##### AFDELING I.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 756
+###### Art. 756
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 757
+###### Art. 757
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 758
+###### Art. 758
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 759
+###### Art. 759
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 760
+###### Art. 760
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 761
+###### Art. 761
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 762
+###### Art. 762
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 763
+###### Art. 763
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 764
+###### Art. 764
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 765
+###### Art. 765
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 766
+###### Art. 766
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING II.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 767
+###### Art. 767
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 768
+###### Art. 768
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 769
+###### Art. 769
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 770
+###### Art. 770
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 771
+###### Art. 771
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 772
+###### Art. 772
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 773
+###### Art. 773
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -11625,189 +11629,189 @@ AFDELING(
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
+
 ##### AFDELING I.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 774
+###### Art. 774
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 775
+###### Art. 775
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 776
+###### Art. 776
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 777
+###### Art. 777
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 778
+###### Art. 778
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 779
+###### Art. 779
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 780
+###### Art. 780
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 781
+###### Art. 781
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 782
+###### Art. 782
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 783
+###### Art. 783
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING II.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 784
+###### Art. 784
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 785
+###### Art. 785
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 786
+###### Art. 786
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 787
+###### Art. 787
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 788
+###### Art. 788
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 789
+###### Art. 789
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 790
+###### Art. 790
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 791
+###### Art. 791
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 792
+###### Art. 792
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING III.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 793
+###### Art. 793
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 794
+###### Art. 794
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 795
+###### Art. 795
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 796
+###### Art. 796
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 797
+###### Art. 797
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 798
+###### Art. 798
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 799
+###### Art. 799
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 800
+###### Art. 800
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 801
+###### Art. 801
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 802
+###### Art. 802
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 803
+###### Art. 803
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 803bis
+###### Art. 803bis
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 804
+###### Art. 804
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 805
+###### Art. 805
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 806
+###### Art. 806
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 807
+###### Art. 807
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 808
+###### Art. 808
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 809
+###### Art. 809
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 810
+###### Art. 810
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 810bis
+###### Art. 810bis
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING IV.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 811
+###### Art. 811
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 812
+###### Art. 812
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 813
+###### Art. 813
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 814
+###### Art. 814
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -11815,340 +11819,340 @@ AFDELING(
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
+
 ##### AFDELING I.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 815
+###### Art. 815
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 816
+###### Art. 816
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 817
+###### Art. 817
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 818
+###### Art. 818
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 819
+###### Art. 819
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 820
+###### Art. 820
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 821
+###### Art. 821
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 822
+###### Art. 822
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 823
+###### Art. 823
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 824
+###### Art. 824
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 825
+###### Art. 825
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 826
+###### Art. 826
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 827
+###### Art. 827
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 828
+###### Art. 828
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 829
+###### Art. 829
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 830
+###### Art. 830
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 831
+###### Art. 831
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 832
+###### Art. 832
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 833
+###### Art. 833
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 834
+###### Art. 834
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 835
+###### Art. 835
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 836
+###### Art. 836
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 837
+###### Art. 837
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 838
+###### Art. 838
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 839
+###### Art. 839
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 840
+###### Art. 840
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 841
+###### Art. 841
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 842
+###### Art. 842
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING II.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 843
+###### Art. 843
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 844
+###### Art. 844
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 845
+###### Art. 845
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 846
+###### Art. 846
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 847
+###### Art. 847
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 848
+###### Art. 848
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 849
+###### Art. 849
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 850
+###### Art. 850
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 851
+###### Art. 851
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 852
+###### Art. 852
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 853
+###### Art. 853
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 854
+###### Art. 854
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 855
+###### Art. 855
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 856
+###### Art. 856
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 857
+###### Art. 857
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 858
+###### Art. 858
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 858bis
+###### Art. 858bis
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 858ter
+###### Art. 858ter
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 859
+###### Art. 859
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 860
+###### Art. 860
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 861
+###### Art. 861
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 862
+###### Art. 862
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 863
+###### Art. 863
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 864
+###### Art. 864
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 865
+###### Art. 865
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 866
+###### Art. 866
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 867
+###### Art. 867
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 868
+###### Art. 868
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 869
+###### Art. 869
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING III.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 870
+###### Art. 870
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 871
+###### Art. 871
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 872
+###### Art. 872
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 873
+###### Art. 873
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 874
+###### Art. 874
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 875
+###### Art. 875
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 876
+###### Art. 876
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 877
+###### Art. 877
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 878
+###### Art. 878
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 879
+###### Art. 879
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 880
+###### Art. 880
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 881
+###### Art. 881
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 882
+###### Art. 882
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING IV.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 883
+###### Art. 883
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 884
+###### Art. 884
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 885
+###### Art. 885
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 886
+###### Art. 886
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING V.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 887
+###### Art. 887
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 888
+###### Art. 888
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 889
+###### Art. 889
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 890
+###### Art. 890
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 891
+###### Art. 891
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 892
+###### Art. 892
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -12180,35 +12184,35 @@ AFDELING(
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 893
+###### Art. 893
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 894
+###### Art. 894
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 895
+###### Art. 895
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 896
+###### Art. 896
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 897
+###### Art. 897
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 898
+###### Art. 898
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 899
+###### Art. 899
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 900
+###### Art. 900
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -12216,51 +12220,51 @@ AFDELING(
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 901
+###### Art. 901
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 902
+###### Art. 902
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 903
+###### Art. 903
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 904
+###### Art. 904
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 905
+###### Art. 905
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 906
+###### Art. 906
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 907
+###### Art. 907
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 908
+###### Art. 908
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 909
+###### Art. 909
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 910
+###### Art. 910
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 911
+###### Art. 911
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 912
+###### Art. 912
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -12268,87 +12272,87 @@ AFDELING(
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
+
 ##### AFDELING I.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 913
+###### Art. 913
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 914
+###### Art. 914
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 915
+###### Art. 915
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 915bis
+###### Art. 915bis
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 916
+###### Art. 916
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 917
+###### Art. 917
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 918
+###### Art. 918
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 919
+###### Art. 919
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING II.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 920
+###### Art. 920
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 921
+###### Art. 921
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 922
+###### Art. 922
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 923
+###### Art. 923
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 924
+###### Art. 924
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 925
+###### Art. 925
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 926
+###### Art. 926
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 927
+###### Art. 927
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 928
+###### Art. 928
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 929
+###### Art. 929
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 930
+###### Art. 930
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -12356,153 +12360,153 @@ AFDELING(
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
+
 ##### AFDELING I.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 931
+###### Art. 931
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 932
+###### Art. 932
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 933
+###### Art. 933
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 934
+###### Art. 934
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 935
+###### Art. 935
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 936
+###### Art. 936
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 937
+###### Art. 937
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 938
+###### Art. 938
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 939
+###### Art. 939
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 940
+###### Art. 940
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 941
+###### Art. 941
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 942
+###### Art. 942
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 943
+###### Art. 943
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 944
+###### Art. 944
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 945
+###### Art. 945
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 946
+###### Art. 946
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 947
+###### Art. 947
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 948
+###### Art. 948
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 949
+###### Art. 949
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 950
+###### Art. 950
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 951
+###### Art. 951
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 952
+###### Art. 952
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING II.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 953
+###### Art. 953
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 954
+###### Art. 954
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 955
+###### Art. 955
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 956
+###### Art. 956
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 957
+###### Art. 957
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 958
+###### Art. 958
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 959
+###### Art. 959
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 960
+###### Art. 960
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 961
+###### Art. 961
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 962
+###### Art. 962
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 963
+###### Art. 963
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 964
+###### Art. 964
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 965
+###### Art. 965
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 966
+###### Art. 966
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -12510,351 +12514,351 @@ AFDELING(
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
+
 ##### AFDELING I.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 967
+###### Art. 967
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 968
+###### Art. 968
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 969
+###### Art. 969
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 970
+###### Art. 970
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 971
+###### Art. 971
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 972
+###### Art. 972
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 973
+###### Art. 973
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 974
+###### Art. 974
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 975
+###### Art. 975
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 976
+###### Art. 976
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 977
+###### Art. 977
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 978
+###### Art. 978
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 979
+###### Art. 979
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 980
+###### Art. 980
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING II.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 981
+###### Art. 981
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 982
+###### Art. 982
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 983
+###### Art. 983
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 984
+###### Art. 984
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 985
+###### Art. 985
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 986
+###### Art. 986
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 987
+###### Art. 987
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 988
+###### Art. 988
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 989
+###### Art. 989
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 990
+###### Art. 990
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 991
+###### Art. 991
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 992
+###### Art. 992
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 993
+###### Art. 993
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 994
+###### Art. 994
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 995
+###### Art. 995
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 996
+###### Art. 996
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 997
+###### Art. 997
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 998
+###### Art. 998
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 999
+###### Art. 999
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1000
+###### Art. 1000
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1001
+###### Art. 1001
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING III.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
+###### Art. 1002
 
-## Art. 1002
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING IV.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 1003
+###### Art. 1003
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1004
+###### Art. 1004
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1005
+###### Art. 1005
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1006
+###### Art. 1006
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1007
+###### Art. 1007
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1008
+###### Art. 1008
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1009
+###### Art. 1009
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING V.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 1010
+###### Art. 1010
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1011
+###### Art. 1011
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1012
+###### Art. 1012
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1013
+###### Art. 1013
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING VI.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 1014
+###### Art. 1014
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1015
+###### Art. 1015
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1016
+###### Art. 1016
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1017
+###### Art. 1017
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1018
+###### Art. 1018
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1019
+###### Art. 1019
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1020
+###### Art. 1020
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1021
+###### Art. 1021
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1022
+###### Art. 1022
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1023
+###### Art. 1023
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1024
+###### Art. 1024
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING VII.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 1025
+###### Art. 1025
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1026
+###### Art. 1026
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1027
+###### Art. 1027
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1028
+###### Art. 1028
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1029
+###### Art. 1029
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1030
+###### Art. 1030
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1031
+###### Art. 1031
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1032
+###### Art. 1032
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1033
+###### Art. 1033
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1034
+###### Art. 1034
+
+<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING VIII.
-<Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
-
-## Art. 1035
+###### Art. 1035
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1036
+###### Art. 1036
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1037
+###### Art. 1037
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1038
+###### Art. 1038
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1039
+###### Art. 1039
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1040
+###### Art. 1040
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1041
+###### Art. 1041
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1042
+###### Art. 1042
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1043
+###### Art. 1043
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1044
+###### Art. 1044
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1045
+###### Art. 1045
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1046
+###### Art. 1046
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1047
+###### Art. 1047
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -12862,111 +12866,111 @@ AFDELING(
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1048
+###### Art. 1048
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1049
+###### Art. 1049
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1050
+###### Art. 1050
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1051
+###### Art. 1051
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1052
+###### Art. 1052
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1053
+###### Art. 1053
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1054
+###### Art. 1054
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1055
+###### Art. 1055
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1056
+###### Art. 1056
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1057
+###### Art. 1057
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1058
+###### Art. 1058
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1059
+###### Art. 1059
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1060
+###### Art. 1060
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1061
+###### Art. 1061
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1062
+###### Art. 1062
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1063
+###### Art. 1063
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1064
+###### Art. 1064
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1065
+###### Art. 1065
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1066
+###### Art. 1066
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1067
+###### Art. 1067
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1068
+###### Art. 1068
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1069
+###### Art. 1069
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1070
+###### Art. 1070
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1071
+###### Art. 1071
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1072
+###### Art. 1072
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1073
+###### Art. 1073
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1074
+###### Art. 1074
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -12974,27 +12978,27 @@ AFDELING(
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1075
+###### Art. 1075
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1076
+###### Art. 1076
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1077
+###### Art. 1077
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1078
+###### Art. 1078
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1079
+###### Art. 1079
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1080
+###### Art. 1080
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -13002,43 +13006,43 @@ AFDELING(
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1081
+###### Art. 1081
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1082
+###### Art. 1082
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1083
+###### Art. 1083
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1084
+###### Art. 1084
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1085
+###### Art. 1085
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1086
+###### Art. 1086
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1087
+###### Art. 1087
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1088
+###### Art. 1088
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1089
+###### Art. 1089
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1090
+###### Art. 1090
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -13046,43 +13050,43 @@ AFDELING(
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1091
+###### Art. 1091
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1092
+###### Art. 1092
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1093
+###### Art. 1093
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1094
+###### Art. 1094
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1095
+###### Art. 1095
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1096
+###### Art. 1096
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1097
+###### Art. 1097
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1098
+###### Art. 1098
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1099
+###### Art. 1099
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
-## Art. 1100
+###### Art. 1100
 
 <Opgeheven bij W 2022-01-19/18, art. 58,3°, 037; Inwerkingtreding : 01-07-2022>
 
@@ -13132,31 +13136,31 @@ AFDELING(
 
 #### HOOFDSTUK I. - VOORAFGAANDE BEPALINGEN.
 
-## Art. 1101
+###### Art. 1101
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1102
+###### Art. 1102
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1103
+###### Art. 1103
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1104
+###### Art. 1104
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1105
+###### Art. 1105
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1106
+###### Art. 1106
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1107
+###### Art. 1107
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
@@ -13164,119 +13168,119 @@ AFDELING(
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1108
+###### Art. 1108
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING I.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1109
+###### Art. 1109
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1110
+###### Art. 1110
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1111
+###### Art. 1111
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1112
+###### Art. 1112
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1113
+###### Art. 1113
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1114
+###### Art. 1114
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1115
+###### Art. 1115
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1116
+###### Art. 1116
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1117
+###### Art. 1117
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1118
+###### Art. 1118
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1119
+###### Art. 1119
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1120
+###### Art. 1120
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1121
+###### Art. 1121
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1122
+###### Art. 1122
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING II.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1123
+###### Art. 1123
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1124
+###### Art. 1124
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1125
+###### Art. 1125
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING III.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1126
+###### Art. 1126
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1127
+###### Art. 1127
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1128
+###### Art. 1128
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1129
+###### Art. 1129
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1130
+###### Art. 1130
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING IV.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1131
+###### Art. 1131
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1132
+###### Art. 1132
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1133
+###### Art. 1133
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
@@ -13284,157 +13288,157 @@ AFDELING(
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
+
 ##### AFDELING I.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1134
+###### Art. 1134
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1135
+###### Art. 1135
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING II.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1136
+###### Art. 1136
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1137
+###### Art. 1137
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1138
+###### Art. 1138
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1139
+###### Art. 1139
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1140
+###### Art. 1140
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1141
+###### Art. 1141
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING III.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1142
+###### Art. 1142
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1143
+###### Art. 1143
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1144
+###### Art. 1144
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1145
+###### Art. 1145
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING IV.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1146
+###### Art. 1146
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1147
+###### Art. 1147
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1148
+###### Art. 1148
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1149
+###### Art. 1149
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1150
+###### Art. 1150
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1151
+###### Art. 1151
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1152
+###### Art. 1152
 
 (Opgeheven) <W 1998-11-23/36, art. 5, 005; Inwerkingtreding : 23-01-1999>
 
-## Art. 1153
+###### Art. 1153
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1154
+###### Art. 1154
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1155
+###### Art. 1155
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING V.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1156
+###### Art. 1156
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1157
+###### Art. 1157
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1158
+###### Art. 1158
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1159
+###### Art. 1159
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1160
+###### Art. 1160
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1161
+###### Art. 1161
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1162
+###### Art. 1162
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1163
+###### Art. 1163
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1164
+###### Art. 1164
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING VI.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1165
+###### Art. 1165
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1166
+###### Art. 1166
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1167
+###### Art. 1167
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
@@ -13442,305 +13446,305 @@ AFDELING(
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-##### AFDELING I.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 § 1.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1168
+##### AFDELING I.
+###### Art. 1168
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1169
+###### Art. 1169
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1170
+###### Art. 1170
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1171
+###### Art. 1171
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1172
+###### Art. 1172
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1173
+###### Art. 1173
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1174
+###### Art. 1174
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1175
+###### Art. 1175
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1176
+###### Art. 1176
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1177
+###### Art. 1177
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1178
+###### Art. 1178
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1179
+###### Art. 1179
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1180
+###### Art. 1180
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 § II.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1181
+###### Art. 1181
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1182
+###### Art. 1182
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 § III.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1183
+###### Art. 1183
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1184
+###### Art. 1184
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING II.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1185
+###### Art. 1185
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1186
+###### Art. 1186
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1187
+###### Art. 1187
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1188
+###### Art. 1188
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING III.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1189
+###### Art. 1189
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1190
+###### Art. 1190
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1191
+###### Art. 1191
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1192
+###### Art. 1192
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1193
+###### Art. 1193
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1194
+###### Art. 1194
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1195
+###### Art. 1195
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1196
+###### Art. 1196
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-##### AFDELING IV.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 § 1.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1197
+##### AFDELING IV.
+###### Art. 1197
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1198
+###### Art. 1198
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1199
+###### Art. 1199
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 § II.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1200
+###### Art. 1200
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1201
+###### Art. 1201
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1202
+###### Art. 1202
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1203
+###### Art. 1203
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1204
+###### Art. 1204
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1205
+###### Art. 1205
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1206
+###### Art. 1206
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1207
+###### Art. 1207
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1208
+###### Art. 1208
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1209
+###### Art. 1209
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1210
+###### Art. 1210
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1211
+###### Art. 1211
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1212
+###### Art. 1212
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1213
+###### Art. 1213
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1214
+###### Art. 1214
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1215
+###### Art. 1215
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1216
+###### Art. 1216
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING V.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1217
+###### Art. 1217
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1218
+###### Art. 1218
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1219
+###### Art. 1219
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 § I.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1220
+###### Art. 1220
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1221
+###### Art. 1221
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 § II.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1222
+###### Art. 1222
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1223
+###### Art. 1223
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1224
+###### Art. 1224
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1225
+###### Art. 1225
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING VI.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1226
+###### Art. 1226
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1227
+###### Art. 1227
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1228
+###### Art. 1228
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1229
+###### Art. 1229
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1230
+###### Art. 1230
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1231
+###### Art. 1231
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1232
+###### Art. 1232
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1233
+###### Art. 1233
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
@@ -13748,644 +13752,644 @@ AFDELING(
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1234
+###### Art. 1234
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-##### AFDELING I.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 § I.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1235
+##### AFDELING I.
+###### Art. 1235
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1236
+###### Art. 1236
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1237
+###### Art. 1237
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1238
+###### Art. 1238
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1239
+###### Art. 1239
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1240
+###### Art. 1240
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1240bis
+###### Art. 1240bis
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1240ter
+###### Art. 1240ter
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1241
+###### Art. 1241
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1242
+###### Art. 1242
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1243
+###### Art. 1243
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1244
+###### Art. 1244
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1245
+###### Art. 1245
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1246
+###### Art. 1246
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1247
+###### Art. 1247
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1248
+###### Art. 1248
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 § II.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1249
+###### Art. 1249
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1250
+###### Art. 1250
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1251
+###### Art. 1251
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1252
+###### Art. 1252
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 § III.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1253
+###### Art. 1253
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1254
+###### Art. 1254
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1255
+###### Art. 1255
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1256
+###### Art. 1256
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 § IV.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1257
+###### Art. 1257
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1258
+###### Art. 1258
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1259
+###### Art. 1259
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1260
+###### Art. 1260
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1261
+###### Art. 1261
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1262
+###### Art. 1262
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1263
+###### Art. 1263
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1264
+###### Art. 1264
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 § V.
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1265
+###### Art. 1265
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1266
+###### Art. 1266
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1267
+###### Art. 1267
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1268
+###### Art. 1268
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1269
+###### Art. 1269
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1270
+###### Art. 1270
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING II.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1271
+###### Art. 1271
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1272
+###### Art. 1272
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1273
+###### Art. 1273
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1274
+###### Art. 1274
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1275
+###### Art. 1275
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1276
+###### Art. 1276
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1277
+###### Art. 1277
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1278
+###### Art. 1278
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1279
+###### Art. 1279
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1280
+###### Art. 1280
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1281
+###### Art. 1281
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
+
 ##### AFDELING III.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1282
+###### Art. 1282
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1283
+###### Art. 1283
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1284
+###### Art. 1284
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1285
+###### Art. 1285
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1286
+###### Art. 1286
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1287
+###### Art. 1287
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1288
+###### Art. 1288
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING IV.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1289
+###### Art. 1289
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1290
+###### Art. 1290
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1291
+###### Art. 1291
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1292
+###### Art. 1292
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1293
+###### Art. 1293
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1294
+###### Art. 1294
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1295
+###### Art. 1295
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1296
+###### Art. 1296
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1297
+###### Art. 1297
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1298
+###### Art. 1298
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1299
+###### Art. 1299
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING V.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1300
+###### Art. 1300
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1301
+###### Art. 1301
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING VI.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1302
+###### Art. 1302
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1303
+###### Art. 1303
+
+<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 ##### AFDELING VII.
-<Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
-
-## Art. 1304
+###### Art. 1304
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1305
+###### Art. 1305
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1306
+###### Art. 1306
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1307
+###### Art. 1307
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1308
+###### Art. 1308
 
 (Opgeheven) <W 19-01-1990, art. 35>
 
-## Art. 1309
+###### Art. 1309
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1310
+###### Art. 1310
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1311
+###### Art. 1311
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1312
+###### Art. 1312
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1313
+###### Art. 1313
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1314
+###### Art. 1314
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 #### HOOFDSTUK VI. - BEWIJS VAN DE VERBINTENISSEN EN BEWIJS VAN DE BETALING.
 
-## Art. 1315
+###### Art. 1315
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1316
+###### Art. 1316
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-##### AFDELING I. - SCHRIFTELIJK BEWIJS.
 
 § I. DE AUTHENTIEKE TITEL.
 
-## Art. 1317
+##### AFDELING I. - SCHRIFTELIJK BEWIJS.
+###### Art. 1317
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1318
+###### Art. 1318
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1319
+###### Art. 1319
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1320
+###### Art. 1320
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1321
+###### Art. 1321
 
 <Opgeheven bij W 2022-04-28/25, art. 26, 048; Inwerkingtreding : 01-01-2023>
 
 § II.
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1322
+###### Art. 1322
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1323
+###### Art. 1323
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1324
+###### Art. 1324
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1325
+###### Art. 1325
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1326
+###### Art. 1326
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1327
+###### Art. 1327
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1328
+###### Art. 1328
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1329
+###### Art. 1329
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1330
+###### Art. 1330
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1331
+###### Art. 1331
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1332
+###### Art. 1332
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 § III.
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1333
+###### Art. 1333
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 § IV.
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1334
+###### Art. 1334
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1335
+###### Art. 1335
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1336
+###### Art. 1336
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 § V. AKTEN VAN ERKENNING EN VAN BEVESTIGING.
 
-## Art. 1337
+###### Art. 1337
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1338
+###### Art. 1338
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1339
+###### Art. 1339
 
 <Opgeheven bij W 2022-01-19/18, art. 58, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1340
+###### Art. 1340
 
 <Opgeheven bij W 2022-01-19/18, art. 58, 047; Inwerkingtreding : 01-07-2022>
+
+<Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 ##### AFDELING II.
-<Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
-
-## Art. 1341
+###### Art. 1341
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1342
+###### Art. 1342
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1343
+###### Art. 1343
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1344
+###### Art. 1344
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1345
+###### Art. 1345
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1346
+###### Art. 1346
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1347
+###### Art. 1347
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1348
+###### Art. 1348
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 AFDELING II/1.
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1348bis
+###### Art. 1348bis
+
+<Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 ##### AFDELING III.
-<Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
-
-## Art. 1349
+###### Art. 1349
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 § 1.
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1350
+###### Art. 1350
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1351
+###### Art. 1351
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1352
+###### Art. 1352
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 § II.
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1353
+###### Art. 1353
+
+<Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 ##### AFDELING IV.
-<Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
-
-## Art. 1354
+###### Art. 1354
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1355
+###### Art. 1355
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1356
+###### Art. 1356
+
+<Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 ##### AFDELING V.
-<Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
-
-## Art. 1357
+###### Art. 1357
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 § I.
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1358
+###### Art. 1358
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1359
+###### Art. 1359
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1360
+###### Art. 1360
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1361
+###### Art. 1361
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1362
+###### Art. 1362
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1363
+###### Art. 1363
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1364
+###### Art. 1364
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1365
+###### Art. 1365
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 § II.
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1366
+###### Art. 1366
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1367
+###### Art. 1367
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1368
+###### Art. 1368
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
-## Art. 1369
+###### Art. 1369
 
 <Opgeheven bij W 2019-04-13/28, art. 73, 045; Inwerkingtreding : 01-11-2020>
 
 ### TITEL IV. - VERBINTENISSEN BUITEN OVEREENKOMST.
 
-## Art. 1370
+###### Art. 1370
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
@@ -14393,75 +14397,75 @@ AFDELING II/1.
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1371
+###### Art. 1371
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1372
+###### Art. 1372
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1373
+###### Art. 1373
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1374
+###### Art. 1374
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1375
+###### Art. 1375
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1376
+###### Art. 1376
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1377
+###### Art. 1377
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1378
+###### Art. 1378
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1379
+###### Art. 1379
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1380
+###### Art. 1380
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
-## Art. 1381
+###### Art. 1381
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 048; Inwerkingtreding : 01-01-2023>
 
 #### HOOFDSTUK II. - MISDRIJVEN EN ONEIGENLIJKE MISDRIJVEN.
 
-## Art. 1382
+###### Art. 1382
 
 <Opgeheven bij W 2024-02-07/18, art. 41, 051; Inwerkingtreding : 01-01-2025>
 
-## Art. 1383
+###### Art. 1383
 
 <Opgeheven bij W 2024-02-07/18, art. 41, 051; Inwerkingtreding : 01-01-2025>
 
-## Art. 1384
+###### Art. 1384
 
 <Opgeheven bij W 2024-02-07/18, art. 41, 051; Inwerkingtreding : 01-01-2025>
 
-## Art. 1385
+###### Art. 1385
 
 <Opgeheven bij W 2024-02-07/18, art. 41, 051; Inwerkingtreding : 01-01-2025>
 
-## Art. 1386
+###### Art. 1386
 
 <Opgeheven bij W 2024-02-07/18, art. 41, 051; Inwerkingtreding : 01-01-2025>
 
 ### TITEL IVbis. - VERGOEDING VAN DE SCHADE DOOR ABNORMALEN VEROORZAAKT.
 
-## Art. 1386bis
+###### Art. 1386bis
 
 <Opgeheven bij W 2024-02-07/18, art. 41, 051; Inwerkingtreding : 01-01-2025>
 
@@ -14473,53 +14477,53 @@ AFDELING II/1.
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1387
+###### Art. 1387
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1388
+###### Art. 1388
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1389
-
-<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
-
-<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
+###### Art. 1389
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1390
+<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1391
+###### Art. 1390
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1392
+###### Art. 1391
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1393
+###### Art. 1392
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1394
+###### Art. 1393
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1395
+###### Art. 1394
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1396
+###### Art. 1395
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1397
+###### Art. 1396
+
+<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
+
+###### Art. 1397
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
@@ -14529,266 +14533,266 @@ AFDELING II/1.
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-##### AFDELING I.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1398
+##### AFDELING I.
+###### Art. 1398
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 § 1.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1399
+###### Art. 1399
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1400
+###### Art. 1400
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1401
+###### Art. 1401
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 § 2.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1402
+###### Art. 1402
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1403
+###### Art. 1403
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1404
+###### Art. 1404
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 § 3.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1405
+###### Art. 1405
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 § 4.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1406
+###### Art. 1406
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1407
+###### Art. 1407
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1408
+###### Art. 1408
+
+<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING II.
-<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
-
-## Art. 1409
+###### Art. 1409
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1410
+###### Art. 1410
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1411
+###### Art. 1411
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1412
+###### Art. 1412
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1413
+###### Art. 1413
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1414
+###### Art. 1414
+
+<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING III.
-<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
-
-## Art. 1415
+###### Art. 1415
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1416
+###### Art. 1416
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1417
+###### Art. 1417
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1418
+###### Art. 1418
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1419
+###### Art. 1419
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1420
+###### Art. 1420
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1421
+###### Art. 1421
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1422
+###### Art. 1422
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1423
+###### Art. 1423
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1424
+###### Art. 1424
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
+<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
+
 ##### AFDELING IV.
-<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
-
-## Art. 1425
+###### Art. 1425
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 GEMEENSCHAPPELIJKE BEPALING VOOR HET BESTUUR VAN DE EIGEN VERMOGENS
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1426
+###### Art. 1426
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-##### AFDELING V.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 § 1.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1427
+##### AFDELING V.
+###### Art. 1427
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1428
+###### Art. 1428
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1429
+###### Art. 1429
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1429bis
+###### Art. 1429bis
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1430
+###### Art. 1430
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1431
+###### Art. 1431
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 § 2.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1432
+###### Art. 1432
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1433
+###### Art. 1433
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1434
+###### Art. 1434
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1435
+###### Art. 1435
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1436
+###### Art. 1436
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1437
+###### Art. 1437
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1438
+###### Art. 1438
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 § 3.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1439
+###### Art. 1439
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1440
+###### Art. 1440
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1441
+###### Art. 1441
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 § 4.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1442
+###### Art. 1442
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1443
+###### Art. 1443
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1444
+###### Art. 1444
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 § 5.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1445
+###### Art. 1445
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1446
+###### Art. 1446
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1447
+###### Art. 1447
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1448
+###### Art. 1448
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1449
+###### Art. 1449
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 § 6.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1450
+###### Art. 1450
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
@@ -14796,75 +14800,75 @@ GEMEENSCHAPPELIJKE BEPALING VOOR HET BESTUUR VAN DE EIGEN VERMOGENS
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1451
+###### Art. 1451
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 § 1.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1452
+###### Art. 1452
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1453
+###### Art. 1453
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1454
+###### Art. 1454
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1455
+###### Art. 1455
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1456
+###### Art. 1456
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 § 2.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1457
+###### Art. 1457
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1458
+###### Art. 1458
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1459
+###### Art. 1459
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1460
+###### Art. 1460
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 § 3.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1461
+###### Art. 1461
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1462
+###### Art. 1462
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1463
+###### Art. 1463
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1464
+###### Art. 1464
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 § 4.
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1465
+###### Art. 1465
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
@@ -14872,22 +14876,22 @@ GEMEENSCHAPPELIJKE BEPALING VOOR HET BESTUUR VAN DE EIGEN VERMOGENS
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
+<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
+
 ##### AFDELING I.
-<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
-
-## Art. 1466
+###### Art. 1466
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1467
+###### Art. 1467
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1468
+###### Art. 1468
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1469
+###### Art. 1469
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
@@ -14902,6 +14906,8 @@ GEMEENSCHAPPELIJKE BEPALING VOOR HET BESTUUR VAN DE EIGEN VERMOGENS
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
+<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
+
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
@@ -14917,36 +14923,34 @@ GEMEENSCHAPPELIJKE BEPALING VOOR HET BESTUUR VAN DE EIGEN VERMOGENS
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING II.
-<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
-
-## Art. 1470
+###### Art. 1470
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1471
+###### Art. 1471
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1472
+###### Art. 1472
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1473
+###### Art. 1473
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-## Art. 1474
+###### Art. 1474
+
+<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
+
+<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
 ##### AFDELING III.
-<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
-
-<Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
-
 ### TITEL Vbis. - (ingevoegd bij <W 1998-11-23/35, art. 2, Inwerkingtreding : 01-01-2000>) Wettelijke samenwoning.
 
-Art. 1475.<W 1998-11-23/35, art. 2, 004; Inwerkingtreding : 01-01-2000> § 1. Onder "wettelijke
+###### Art. 1475.<W 1998-11-23/35, art. 2, 004; Inwerkingtreding : 01-01-2000> § 1. Onder "wettelijke
 samenwoning" wordt verstaan de toestand van samenleven van twee personen die een verklaring hebben
 afgelegd overeenkomstig artikel 1476.
 § 2. Om een verklaring van wettelijke samenwoning te kunnen afleggen, moeten beide partijen voldoen aan de
@@ -14963,7 +14967,7 @@ De vrederechter oordeelt over de wilsbekwaamheid van de beschermde persoon.
 (2)<W 2018-12-21/09, art. 45, 042; Inwerkingtreding : 01-03-2019>
 (3)<W 2022-04-28/25, art. 26, 048; Inwerkingtreding : 01-01-2023>
 
-Art. 1476.<W 1998-11-23/35, art. 2, 004; Inwerkingtreding : 01-01-2000> § 1. Een verklaring van wettelijke
+###### Art. 1476.<W 1998-11-23/35, art. 2, 004; Inwerkingtreding : 01-01-2000> § 1. Een verklaring van wettelijke
 samenwoning wordt afgelegd door middel van een geschrift dat tegen ontvangstbewijs [5 wordt door de partijen
 persoonlijk overhandigd]5 aan de ambtenaar van de burgerlijke stand van de gemeenschappelijke woonplaats.
 Dat geschrift bevat de volgende gegevens :
@@ -15024,7 +15028,7 @@ van beëindiging van wettelijke samenwoning op elektronische wijze te overhandig
 (4)<W 2023-02-08/05, art. 3, 049; Inwerkingtreding : 11-03-2023>
 (5)<W 2023-09-13/08, art. 60, 050; Inwerkingtreding : 01-01-2024>
 
-## Art. 1476bis
+###### Art. 1476bis
 
 [1 Er is geen wettelijke samenwoning wanneer, ondanks de geuite wil van beide partijen om
 wettelijk samen te wonen, uit een geheel van omstandigheden blijkt dat de intentie van minstens een van beide
@@ -15032,14 +15036,14 @@ partijen kennelijk enkel gericht is op het bekomen van een verblijfsrechtelijk v
 staat van wettelijk samenwonende.]1
 (1)<Ingevoegd bij W 2013-06-02/08, art. 8, 027; Inwerkingtreding : 03-10-2013>
 
-## Art. 1476ter
+###### Art. 1476ter
 
 [1 Er is evenmin een wettelijke samenwoning wanneer deze wordt aangegaan zonder vrije
 toestemming van beide wettelijk samenwonenden of de toestemming van minstens een van de wettelijk
 samenwonenden werd gegeven onder geweld of bedreiging.]1
 (1)<Ingevoegd bij W 2013-06-02/08, art. 9, 027; Inwerkingtreding : 03-10-2013>
 
-Art. 1476quater.[1 De ambtenaar van de burgerlijke stand weigert melding te maken van de verklaring van
+###### Art. 1476quater.[1 De ambtenaar van de burgerlijke stand weigert melding te maken van de verklaring van
 wettelijke samenwoning indien hij vaststelt dat de verklaring betrekking heeft op een in de artikelen 1476bis en
 1476ter bedoelde situatie.
 Indien er een ernstig vermoeden bestaat dat de verklaring betrekking heeft op een in de artikelen 1476bis en
@@ -15064,7 +15068,7 @@ deze beslissing beroep worden aangetekend bij de [2 familierechtbank]2.]1
 (1)<Ingevoegd bij W 2013-06-02/08, art. 10, 027; Inwerkingtreding : 03-10-2013>
 (2)<W 2014-05-12/02, art. 6, 030; Inwerkingtreding : 01-09-2014>
 
-## Art. 1476quinquies
+###### Art. 1476quinquies
 
 [1 § 1. In de in de artikelen 1476bis en 1476ter bedoelde gevallen, kan een vordering tot
 nietigverklaring worden ingesteld door de wettelijk samenwonenden zelf en door allen die daarbij belang hebben.
@@ -15087,7 +15091,7 @@ Ze heeft eveneens gevolgen ten voordele van de kinderen, ook al is geen van beid
 geweest.]1
 (1)<Ingevoegd bij W 2013-06-02/08, art. 11, 027; Inwerkingtreding : 03-10-2013>
 
-Art. 1477.<W 1998-11-23/35, art. 2, 004; Inwerkingtreding : 01-01-2000> § 1. De bepalingen van dit artikel die
+###### Art. 1477.<W 1998-11-23/35, art. 2, 004; Inwerkingtreding : 01-01-2000> § 1. De bepalingen van dit artikel die
 de rechten, verplichtingen en bevoegdheden van de wettelijk samenwonenden regelen, zijn van toepassing door
 het enkele feit van de wettelijke samenwoning.
 § 2. De artikelen 215, 220, § 1, en 224, § 1, 1, zijn van overeenkomstige toepassing op de wettelijke
@@ -15110,7 +15114,7 @@ kracht van gewijsde is getreden.]1
 (1)<W 2012-12-10/14, art. 41, 025; Inwerkingtreding : 21-01-2013>
 (2)<W 2017-07-31/25, art. 65, 038; Inwerkingtreding : 01-09-2018>
 
-Art. 1478.<W 1998-11-23/35, art. 2, 004; Inwerkingtreding : 01-01-2000> Elk van de wettelijk
+###### Art. 1478.<W 1998-11-23/35, art. 2, 004; Inwerkingtreding : 01-01-2000> Elk van de wettelijk
 samenwonenden behoudt de goederen waarvan hij de eigendom kan bewijzen, de inkomsten uit deze goederen
 en de opbrengsten uit arbeid.
 De goederen waarvan geen van beide wettelijk samenwonenden de eigendom kan bewijzen en de inkomsten
@@ -15134,7 +15138,7 @@ van toepassing. Bij het verzoekschrift wordt een kopie gevoegd van de notariële
 (1)<W 2013-01-14/16, art. 6, 026; Inwerkingtreding : 01-09-2015>
 (2)<W 2014-04-25/23, art. 200, 029; Inwerkingtreding : 01-09-2014>
 
-Art. 1479.[1 Indien de verstandhouding tussen de wettelijk samenwonenden ernstig verstoord is, beveelt de
+###### Art. 1479.[1 Indien de verstandhouding tussen de wettelijk samenwonenden ernstig verstoord is, beveelt de
 familierechtbank, op verzoek van één van de partijen, de dringende maatregelen die analoog zijn met die waarin
 de artikelen 1253ter/5 en 1253ter/6 van het Gerechtelijk Wetboek voorzien.
 De rechtbank bepaalt de geldigheidsduur van de maatregelen die zij oplegt. Hoe dan ook vervallen die
@@ -15148,7 +15152,7 @@ De rechtbank beschikt overeenkomstig de artikelen 1253ter tot 1253octies van het
 (1)<W 2013-07-30/23, art. 99, 031; Inwerkingtreding : 01-09-2014>
 (2)<W 2020-07-31/03, art. 38, 044; Inwerkingtreding : 17-08-2020>
 
-Art. 1480.[1 Wanneer de wettelijke samenwoning eindigt door het overlijden van een van de partijen, kan de
+###### Art. 1480.[1 Wanneer de wettelijke samenwoning eindigt door het overlijden van een van de partijen, kan de
 langstlevende partij in aanmerking komen voor een preferentiële toewijzing, tegen opleg indien daartoe grond
 bestaat, door zich bij voorrang te doen toewijzen, voor zover deze behoren tot het vermogen dat exclusief
 tussen de wettelijk samenwonenden in onverdeeldheid is:
@@ -15157,7 +15161,7 @@ tussen de wettelijk samenwonenden in onverdeeldheid is:
 3° de goederen die hij aanwendt voor de uitoefening van zijn beroep of de uitbating van zijn bedrijf.]1
 (1)<W 2025-12-11/19, art. 3, 052; Inwerkingtreding : 17-01-2026>
 
-Art. 1481.[1 § 1. Wanneer aan de wettelijke samenwoning een einde komt via een schriftelijke verklaring, hetzij in
+###### Art. 1481.[1 § 1. Wanneer aan de wettelijke samenwoning een einde komt via een schriftelijke verklaring, hetzij in
 onderlinge overeenstemming, hetzij eenzijdig, kan elk van de wettelijk samenwonenden tijdens de
 
 vereffeningsprocedure in aanmerking komen voor een preferentiële toewijzing, door aan de familierechtbank te
@@ -15173,403 +15177,403 @@ werd bevonden of indien de strafvordering tegen de andere wettelijk samenwonende
 van de procedure bedoeld in artikel 216ter van het Wetboek van strafvordering.]1
 (1)<W 2025-12-11/19, art. 4, 052; Inwerkingtreding : 17-01-2026>
 
-## Art. 1482
+###### Art. 1482
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1483
+###### Art. 1483
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1484
+###### Art. 1484
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1485
+###### Art. 1485
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1486
+###### Art. 1486
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1487
+###### Art. 1487
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1488
+###### Art. 1488
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1489
+###### Art. 1489
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1490
+###### Art. 1490
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1491
+###### Art. 1491
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1492
+###### Art. 1492
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1493
+###### Art. 1493
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1494
+###### Art. 1494
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1495
+###### Art. 1495
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1496
+###### Art. 1496
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1497
+###### Art. 1497
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1498
+###### Art. 1498
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1499
+###### Art. 1499
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1500
+###### Art. 1500
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1501
+###### Art. 1501
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1502
+###### Art. 1502
 
 _ (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1503
+###### Art. 1503
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1504
+###### Art. 1504
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1505
+###### Art. 1505
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1506
+###### Art. 1506
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1507
+###### Art. 1507
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1508
+###### Art. 1508
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1509
+###### Art. 1509
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1510
+###### Art. 1510
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1511
+###### Art. 1511
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1512
+###### Art. 1512
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1513
+###### Art. 1513
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1514
+###### Art. 1514
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1515
+###### Art. 1515
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1516
+###### Art. 1516
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1517
+###### Art. 1517
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1518
+###### Art. 1518
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1519
+###### Art. 1519
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1520
+###### Art. 1520
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1521
+###### Art. 1521
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1522
+###### Art. 1522
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1523
+###### Art. 1523
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1524
+###### Art. 1524
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1525
+###### Art. 1525
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1526
+###### Art. 1526
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1527
+###### Art. 1527
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1528
+###### Art. 1528
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1529
+###### Art. 1529
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1530
+###### Art. 1530
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1531
+###### Art. 1531
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1532
+###### Art. 1532
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1533
+###### Art. 1533
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1534
+###### Art. 1534
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1535
+###### Art. 1535
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1536
+###### Art. 1536
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1537
+###### Art. 1537
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1538
+###### Art. 1538
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1539
+###### Art. 1539
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1540
+###### Art. 1540
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1541
+###### Art. 1541
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1542
+###### Art. 1542
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1543
+###### Art. 1543
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1544
+###### Art. 1544
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1545
+###### Art. 1545
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1546
+###### Art. 1546
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1547
+###### Art. 1547
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1548
+###### Art. 1548
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1549
+###### Art. 1549
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1550
+###### Art. 1550
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1551
+###### Art. 1551
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1552
+###### Art. 1552
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1553
+###### Art. 1553
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1554
+###### Art. 1554
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1555
+###### Art. 1555
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1556
+###### Art. 1556
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1557
+###### Art. 1557
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1558
+###### Art. 1558
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1559
+###### Art. 1559
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1560
+###### Art. 1560
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1561
+###### Art. 1561
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1562
+###### Art. 1562
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1563
+###### Art. 1563
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1564
+###### Art. 1564
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1565
+###### Art. 1565
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1566
+###### Art. 1566
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1567
+###### Art. 1567
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1568
+###### Art. 1568
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1569
+###### Art. 1569
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1570
+###### Art. 1570
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1571
+###### Art. 1571
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1572
+###### Art. 1572
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1573
+###### Art. 1573
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1574
+###### Art. 1574
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1575
+###### Art. 1575
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1576
+###### Art. 1576
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1577
+###### Art. 1577
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1578
+###### Art. 1578
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1579
+###### Art. 1579
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1580
+###### Art. 1580
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1581
+###### Art. 1581
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
@@ -15581,19 +15585,19 @@ van echtgenoten en de huwelijksvermogensstelsels, art. III en IV, 47. Voor de au
 
 #### HOOFDSTUK I. - AARD EN VORM VAN DE KOOP.
 
-## Art. 1582
+###### Art. 1582
 
 Koop is een overeenkomst waarbij de ene partij zich verbindt om een zaak te leveren, en de
 andere om daarvoor een prijs te betalen.
 Hij kan bij authentieke of bij onderhandse akte worden aangegaan.
 
-## Art. 1583
+###### Art. 1583
 
 Hij is tussen partijen voltrokken, en de koper verkrijgt van rechtswege de eigendom ten aanzien van
 de verkoper, zodra er overeenkomst is omtrent de zaak en de prijs, hoewel de zaak nog niet geleverd en de prijs
 nog niet betaald is.
 
-## Art. 1584
+###### Art. 1584
 
 Koop kan worden aangegaan hetzij eenvoudig, hetzij onder een opschortende of onder een
 ontbindende voorwaarde.
@@ -15601,63 +15605,63 @@ Hij kan ook twee of meer alternatieve zaken tot voorwerp hebben.
 In al die gevallen worden de gevolgen van de koop geregeld naar de algemene beginselen van de
 overeenkomsten.
 
-## Art. 1585
+###### Art. 1585
 
 Wanneer koopwaren niet bij de hoop, maar bij het gewicht, het getal of de maat verkocht zijn, is de
 koop nog niet voltrokken, in die zin dat het risico van de verkochte zaken voor de verkoper blijft totdat zij zijn
 gewogen, geteld of gemeten; maar de koper kan ofwel de levering ervan eisen, ofwel, in geval van niet-uitvoering
 van de verbintenis, schadevergoeding, indien daartoe grond bestaat.
 
-## Art. 1586
+###### Art. 1586
 
 Wanneer echter de koopwaren bij de hoop verkocht zijn, is de koop voltrokken, hoewel de
 koopwaren nog niet zijn gewogen, geteld of gemeten.
 
-## Art. 1587
+###### Art. 1587
 
 Ten aanzien van wijn, olie en andere zaken die men gewoon is te proeven alvorens ze te kopen, is er
 geen koop zolang de koper die niet heeft geproefd en aanvaard.
 
-## Art. 1588
+###### Art. 1588
 
 Koop op proef wordt altijd vermoed te zijn aangegaan onder een opschortende voorwaarde.
 
-## Art. 1589
+###### Art. 1589
 
 Verkoopbelofte geldt als koop, wanneer er wederzijdse toestemming van de partijen is omtrent de
 zaak en omtrent de prijs.
 
-## Art. 1590
+###### Art. 1590
 
 Indien bij de verkoopbelofte handgeld is gegeven, is ieder van de contractanten vrij van de
 verkoopbelofte af te zien :
 Hij die het handgeld heeft gegeven, door het te laten behouden.
 En hij die het handgeld heeft ontvangen, door het dubbel terug te geven.
 
-## Art. 1591
+###### Art. 1591
 
 De koopprijs moet bepaald zijn en door de partijen worden vastgesteld.
 
-## Art. 1592
+###### Art. 1592
 
 De bepaling van de koopprijs kan echter aan een derde worden overgelaten; indien de derde de
 waardering niet wil of niet kan doen, is er geen koop.
 
-## Art. 1593
+###### Art. 1593
 
 De kosten van de akten en andere bijkomende kosten van de koop komen ten laste van de koper.
 
 #### HOOFDSTUK II. - WIE KOPEN OF VERKOPEN KAN.
 
-## Art. 1594
+###### Art. 1594
 
 Al degenen aan wie de wet het niet verbiedt, kunnen kopen of verkopen.
 
-## Art. 1595
+###### Art. 1595
 
 <Opgeheven bij W 2018-07-22/01, art. 50, 021; Inwerkingtreding : 01-09-2018>
 
-## Art. 1596
+###### Art. 1596
 
 Bij een openbare verkoping mogen, op straffe van nietigheid, noch door henzelf noch door
 tussenpersonen, kopers worden :
@@ -15668,7 +15672,7 @@ toevertrouwd;
 Openbare ambtenaren, wat betreft de goederen van de Staat, waarvan de verkoop door hun tussenkomst
 geschiedt.
 
-## Art. 1597
+###### Art. 1597
 
 Rechters, rechters-plaatsvervangers, ambtenaren van het openbaar ministerie, (referendarissen,
 parketjuristen,) griffiers, deurwaarders, (...) advocaten en notarissen mogen de processen, de betwiste rechten
@@ -15677,22 +15681,22 @@ uitoefenen, niet overnemen, op straffe van nietigheid, betaling van kosten en sc
 
 #### HOOFDSTUK III. - ZAKEN DIE VERKOCHT KUNNEN WORDEN.
 
-## Art. 1598
+###### Art. 1598
 
 Alles wat in de handel is, kan verkocht worden wanneer geen bijzondere wetsbepalingen de
 vervreemding ervan verbieden.
 
-## Art. 1599
+###### Art. 1599
 
 De verkoop van eens anders zaak is nietig; hij kan grond tot schadevergoeding opleveren, wanneer
 de koper niet geweten heeft dat de zaak aan een ander toebehoorde.
 
-## Art. 1600
+###### Art. 1600
 
 De nalatenschap van een nog levend persoon kan niet verkocht worden, zelfs niet met zijn
 toestemming.
 
-## Art. 1601
+###### Art. 1601
 
 Wanneer de verkochte zaak op het ogenblik van de koop geheel was teniet gegaan, is de koop nietig.
 Is slechts een gedeelte van de zaak teniet gegaan, dan heeft de koper de keus om van de koop af te zien, of
@@ -15700,31 +15704,31 @@ het behouden gebleven gedeelte te eisen, mits hij de prijs bij vergelijkende waa
 
 #### HOOFDSTUK IV. - VERPLICHTINGEN VAN DE VERKOPER.
 
-##### AFDELING I. - ALGEMENE BEPALINGEN.
 
-## Art. 1602
+##### AFDELING I. - ALGEMENE BEPALINGEN.
+###### Art. 1602
 
 De verkoper is verplicht duidelijk te verklaren waartoe hij zich verbindt.
 Ieder duister of dubbelzinnig beding wordt tegen de verkoper uitgelegd.
 
-## Art. 1603
+###### Art. 1603
 
 Hij heeft twee hoofdverplichtingen, de door hem verkochte zaak te leveren, en die te vrijwaren.
 
-##### AFDELING II. - LEVERING.
 
-## Art. 1604
+##### AFDELING II. - LEVERING.
+###### Art. 1604
 
 (De verkoper moet aan de koper een zaak leveren die met de overeenkomst in overeenstemming is.)
 <W 2004-09-01/38, art. 3, 008; Inwerkingtreding : 01-01-2005>
 Levering is de overdracht van de verkochte zaak in de macht en het bezit van de koper.
 
-## Art. 1605
+###### Art. 1605
 
 De verplichting om onroerende goederen te leveren is door de verkoper vervuld, wanneer hij de
 sleutels heeft afgegeven, indien het een gebouw betreft, of wanneer hij de titels van eigendom heeft afgegeven.
 
-## Art. 1606
+###### Art. 1606
 
 De levering van roerende goederen geschiedt :
 Of door de werkelijke overgave,
@@ -15732,59 +15736,59 @@ Of door afgifte van de sleutels van de gebouwen waarin zij zich bevinden,
 Of zelfs door de enkele toestemming van de partijen, indien de overgave niet kan geschieden op het ogenblik
 van de koop, of indien de koper de goederen reeds in een andere hoedanigheid in zijn macht had.
 
-## Art. 1607
+###### Art. 1607
 
 De overgave van onlichamelijke rechten geschiedt ofwel door de afgifte van de titels, ofwel door het
 gebruik dat de koper, met toestemming van de verkoper, daarvan maakt.
 
-## Art. 1608
+###### Art. 1608
 
 De kosten van de levering komen ten laste van de verkoper, en die van de afhaling komen ten laste
 van de koper, indien het tegendeel niet bedongen is.
 
-## Art. 1609
+###### Art. 1609
 
 De levering moet geschieden op de plaats waar het verkochte goed zich ten tijde van de koop
 bevond, indien daaromtrent niet anders is overeengekomen.
 
-## Art. 1610
+###### Art. 1610
 
 Wanneer de verkoper in gebreke blijft de levering te doen binnen de tussen partijen bedongen tijd,
 heeft de koper de keus om ontbinding van de koop ofwel inbezitstelling te vorderen, indien de vertraging alleen
 aan de verkoper te wijten is.
 
-## Art. 1611
+###### Art. 1611
 
 In elk geval moet de verkoper tot schadevergoeding veroordeeld worden, indien de koper schade
 lijdt doordat de levering niet op het bedongen tijdstip heeft plaatsgehad.
 
-## Art. 1612
+###### Art. 1612
 
 De verkoper is niet verplicht de zaak te leveren, indien de koper de prijs niet betaalt en de verkoper
 hem geen termijn voor de betaling heeft toegestaan.
 
-## Art. 1613
+###### Art. 1613
 
 Evenmin is hij tot levering verplicht, zelfs wanneer hij een termijn voor de betaling heeft toegestaan,
 indien de koper, sinds de koop, failliet gegaan is of in staat van onvermogen is geraakt, zodat de verkoper in het
 dreigend gevaar verkeert de prijs te verliezen; tenzij de koper borg stelt voor de betaling op het bepaalde tijdstip.
 
-## Art. 1614
+###### Art. 1614
 
 De zaak moet geleverd worden in de staat waarin zij zich op het ogenblik van de koop bevindt :
 Van die dag af behoren alle vruchten aan de koper.
 
-## Art. 1615
+###### Art. 1615
 
 De verplichting om een zaak te leveren strekt zich uit tot haar toebehoren en tot alles wat voor haar
 blijvend gebruik bestemd is.
 
-## Art. 1616
+###### Art. 1616
 
 De verkoper is verplicht het verkochte te leveren in de omvang die bij de overeenkomst bedongen is,
 echter met inachtneming van de navolgende bepalingen.
 
-## Art. 1617
+###### Art. 1617
 
 Indien de verkoop van een onroerend goed geschied is met vermelding van de omvang, tegen een
 bepaalde prijs per maat, is de verkoper verplicht aan de koper, indien deze het eist, de bij de overeenkomst
@@ -15792,13 +15796,13 @@ bepaalde grootte te leveren;
 En indien hem dit onmogelijk is, of indien de koper het niet eist, moet de verkoper met een evenredige
 vermindering van de prijs genoegen nemen.
 
-## Art. 1618
+###### Art. 1618
 
 Indien daarentegen, in het geval van het vorige artikel, de omvang groter bevonden wordt dan in het
 contract is uitgedrukt, heeft de koper de keus om de prijs aan te vullen of van het contract af te zien, indien de
 overmaat een twintigste gedeelte bedraagt van de opgegeven omvang.
 
-## Art. 1619
+###### Art. 1619
 
 In alle andere gevallen,
 Hetzij de koop een zekere en bepaalde zaak betreft,
@@ -15811,39 +15815,39 @@ ondermaat, dan voor zover het verschil tussen de werkelijke maat en die welke in
 een twintigste meer of minder bedraagt, berekend naar de waarde van het geheel der verkochte zaken, behalve
 indien het tegendeel bedongen is.
 
-## Art. 1620
+###### Art. 1620
 
 Ingeval er, volgens het vorige artikel, grond bestaat tot vermeerdering van de prijs wegens
 overmaat, heeft de koper de keus om van het contract af te zien, of de prijs aan te vullen, en zulks met de
 interest, indien hij het onroerend goed behouden heeft.
 
-## Art. 1621
+###### Art. 1621
 
 In alle gevallen waarin de koper het recht heeft om van het contract af te zien, is de verkoper
 verplicht hem, benevens de prijs, zo hij die ontvangen heeft, ook de kosten van dat contract terug te geven.
 
-## Art. 1622
+###### Art. 1622
 
 De rechtsvordering van de verkoper tot aanvulling van de prijs, en die van de koper tot vermindering
 van de prijs of tot ontbinding van het contract, moeten, op straffe van verval, ingesteld worden binnen een jaar
 te rekenen van de dag waarop het contract is aangegaan.
 
-## Art. 1623
+###### Art. 1623
 
 Indien twee erven zijn verkocht bij een en hetzelfde contract, en voor een enkele prijs, met opgave
 van de maat van ieder erf, en indien bevonden wordt dat het ene minder en het andere meer omvang heeft,
 worden de verschillen tegen elkaar tot het passende beloop verrekend; en de vordering, hetzij tot aanvulling,
 hetzij tot vermindering van de koopprijs, heeft slechts plaats overeenkomstig de hierboven vastgestelde regels.
 
-## Art. 1624
+###### Art. 1624
 
 De vraag wie van beiden, de verkoper of de koper, het verlies of de beschadiging van de verkochte
 zaak, voor de levering ontstaan, moet dragen, wordt beslist overeenkomstig de regels vastgesteld in de titel
 Contracten of verbintenissen uit overeenkomst in het algemeen.
 
-##### AFDELING III. - VRIJWARING.
 
-## Art. 1625
+##### AFDELING III. - VRIJWARING.
+###### Art. 1625
 
 De vrijwaring, waartoe de verkoper jegens de koper gehouden is, heeft een dubbel voorwerp : zij
 betreft ten eerste het ongestoord bezit van de verkochte zaak en, ten tweede, de verborgen gebreken van die
@@ -15851,30 +15855,30 @@ zaak of de koopvernietigende gebreken.
 
 § I. VRIJWARING VOOR UITWINNING.
 
-## Art. 1626
+###### Art. 1626
 
 Zelfs wanneer bij de koop geen beding omtrent de vrijwaring is gemaakt, is de verkoper van
 rechtswege verplicht de koper te vrijwaren voor de uitwinning die hij ondergaat op het geheel of op een gedeelte
 van de verkochte zaak, of voor de lasten die iemand beweert op die zaak te hebben, en die bij de koop niet zijn
 opgegeven.
 
-## Art. 1627
+###### Art. 1627
 
 Partijen kunnen, door bijzondere overeenkomsten, deze wettelijke verplichting uitbreiden of
 beperken; zij kunnen zelfs overeenkomen dat de verkoper tot geen vrijwaring zal zijn gehouden.
 
-## Art. 1628
+###### Art. 1628
 
 Zelfs wanneer bedongen is dat de verkoper tot geen vrijwaring zal zijn gehouden, blijft hij toch
 gehouden tot die welke volgt uit zijn eigen daad; elke hiermee strijdige overeenkomst is nietig.
 
-## Art. 1629
+###### Art. 1629
 
 In hetzelfde geval van een beding van niet-vrijwaring is, bij uitwinning, de verkoper verplicht de prijs
 terug te geven, tenzij de koper het gevaar van uitwinning heeft gekend ten tijde van de koop, of op eigen risico
 heeft gekocht.
 
-## Art. 1630
+###### Art. 1630
 
 Wanneer vrijwaring beloofd is, of wanneer dienaangaande niets is bedongen, heeft de koper, in geval
 van uitwinning, het recht om van de verkoper te vorderen :
@@ -15884,60 +15888,60 @@ van uitwinning, het recht om van de verkoper te vorderen :
 eiser gemaakt;
 4° Eindelijk, schadevergoeding, alsook de wettig gemaakte kosten van het contract.
 
-## Art. 1631
+###### Art. 1631
 
 Wanneer de verkochte zaak ten tijde van de uitwinning blijkt in waarde verminderd of aanmerkelijk
 beschadigd te zijn, hetzij door de nalatigheid van de koper, hetzij door overmacht, is de verkoper niettemin
 verplicht de gehele prijs terug te geven.
 
-## Art. 1632
+###### Art. 1632
 
 Indien echter de koper uit de door hem aangerichte beschadiging voordeel heeft getrokken, heeft de
 verkoper het recht om van de prijs een bedrag, gelijk aan dat voordeel, af te houden.
 
-## Art. 1633
+###### Art. 1633
 
 Indien de verkochte zaak ten tijde van de uitwinning blijkt in waarde te zijn vermeerderd, zelfs buiten
 toedoen van de koper, is de verkoper verplicht aan de koper te betalen hetgeen de zaak boven de koopprijs
 waard is.
 
-## Art. 1634
+###### Art. 1634
 
 De verkoper is verplicht aan de koper alle herstellingen en nuttige verbeteringen die deze aan het
 goed heeft aangebracht, te vergoeden, of door de uitwinner te doen vergoeden.
 
-## Art. 1635
+###### Art. 1635
 
 Indien de verkoper te kwader trouw eens anders erf verkocht heeft, is hij verplicht aan de koper alle
 uitgaven te vergoeden, die deze aan het erf besteed heeft, zelfs uit weelde of tot verfraaiing.
 
-## Art. 1636
+###### Art. 1636
 
 Indien slechts een gedeelte van de zaak tegen de koper wordt uitgewonnen, en dat gedeelte, in
 verhouding tot het geheel, zo belangrijk is dat de koper zonder het uitgewonnen gedeelte niet zou hebben
 gekocht, kan hij de koop doen ontbinden.
 
-## Art. 1637
+###### Art. 1637
 
 Indien, bij uitwinning van een gedeelte van het verkochte erf, de koop niet wordt ontbonden, wordt
 het uitgewonnen gedeelte aan de koper vergoed volgens de geschatte waarde ten tijde van de uitwinning, en niet
 naar evenredigheid van de gehele koopprijs, onverschillig of de verkochte zaak in waarde vermeerderd of
 verminderd is.
 
-## Art. 1638
+###### Art. 1638
 
 Indien het verkochte erf blijkt bezwaard te zijn met niet zichtbare erfdienstbaarheden, zonder dat
 zulks was opgegeven, en die zo gewichtig zijn dat er reden is om te vermoeden dat de koper niet zou hebben
 gekocht ingeval hij die gekend had, kan hij de ontbinding van het contract vorderen, tenzij hij verkiest met
 schadevergoeding genoegen te nemen.
 
-## Art. 1639
+###### Art. 1639
 
 De overige vraagstukken betreffende de vergoeding van de schade die voor de koper ontstaat uit de
 niet-uitvoering van de koop, worden opgelost volgens de algemene regels bepaald in de titel Contracten of
 Verbintenissen uit overeenkomst in het algemeen.
 
-## Art. 1640
+###### Art. 1640
 
 De vrijwaring voor uitwinning houdt op wanneer de koper, zonder de verkoper op te roepen, zich
 heeft laten veroordelen bij een vonnis dat in laatste aanleg is gewezen of waartegen geen hoger beroep meer
@@ -15945,59 +15949,59 @@ ontvankelijk is, indien de verkoper bewijst dat er voldoende middelen aanwezig w
 
 § II. VRIJWARING VOOR GEBREKEN VAN DE VERKOCHTE ZAAK.
 
-## Art. 1641
+###### Art. 1641
 
 De verkoper is gehouden tot vrijwaring voor de verborgen gebreken van de verkochte zaak, die deze
 ongeschikt maken tot het gebruik waartoe men ze bestemt, of die dit gebruik zodanig verminderen dat de koper,
 indien hij de gebreken gekend had, de zaak niet of slechts voor een mindere prijs zou hebben gekocht.
 
-## Art. 1642
+###### Art. 1642
 
 De verkoper moet niet instaan voor de gebreken die zichtbaar zijn en die de koper zelf heeft kunnen
 waarnemen.
 
-## Art. 1643
+###### Art. 1643
 
 Hij moet instaan voor de verborgen gebreken, zelfs wanneer hij die niet gekend heeft, tenzij hij in dat
 geval bedongen heeft dat hij tot geen vrijwaring zal zijn gehouden.
 
-## Art. 1644
+###### Art. 1644
 
 In het geval van de artikelen 1641 en 1643, heeft de koper de keus om ofwel de zaak terug te geven
 en zich de prijs te doen terugbetalen, ofwel de zaak te behouden en zich een gedeelte van de prijs te doen
 terugbetalen, welk gedeelte door deskundigen zal worden bepaald.
 
-## Art. 1645
+###### Art. 1645
 
 _ Indien de verkoper de gebreken van de zaak gekend heeft, is hij niet alleen gehouden tot teruggave
 van de prijs die hij ervoor ontvangen heeft, maar bovendien tot vergoeding van alle schade aan de koper.
 
-## Art. 1646
+###### Art. 1646
 
 Indien de verkoper de gebreken van de zaak niet gekend heeft, is hij slechts gehouden tot teruggave
 van de prijs, en tot vergoeding aan de koper van de door de koop veroorzaakte kosten.
 
-## Art. 1647
+###### Art. 1647
 
 Indien de zaak welke gebreken had, is teniet gegaan ten gevolge van haar slechte hoedanigheid, is
 het verlies voor rekening van de verkoper, die jegens de koper gehouden is tot teruggave van de prijs, en tot de
 overige schadevergoedingen in de twee vorige artikelen bepaald.
 Maar het verlies door toeval veroorzaakt is voor rekening van de koper.
 
-## Art. 1648
+###### Art. 1648
 
 De rechtsvordering op grond van koopvernietigende gebreken moet door de koper worden ingesteld
 binnen een korte tijd, al naar de aard van de koopvernietigende gebreken en de gebruiken van de plaats waar de
 koop gesloten is.
 
-## Art. 1649
+###### Art. 1649
 
 Deze vordering kan niet worden ingesteld wat betreft verkopingen die op rechterlijk gezag
 geschieden.
 
-##### Afdeling IV. Bepalingen met betrekking tot de verkopen aan consumenten. <Ingevoegd bij W 2004-09-01/38,
 
-Art. 1649bis.[1 § 1er. Voor de toepassing van deze afdeling wordt verstaan onder:
+##### Afdeling IV. Bepalingen met betrekking tot de verkopen aan consumenten. <Ingevoegd bij W 2004-09-01/38,
+###### Art. 1649bis.[1 § 1er. Voor de toepassing van deze afdeling wordt verstaan onder:
 1° "consument": iedere natuurlijke persoon die handelt voor doeleinden buiten zijn handels-, bedrijfs-,
 ambachts- of beroepsactiviteit;
 2° "verkoper": iedere natuurlijke persoon of rechtspersoon, ongeacht of deze privaat of publiek is, die handelt,
@@ -16068,7 +16072,7 @@ beschouwd.]2
 (1)<W 2022-03-20/05, art. 3, 028; Inwerkingtreding : 01-06-2022>
 (2)<W 2024-02-21/15, art. 1, 032; Inwerkingtreding : 01-05-2024>
 
-Art. 1649ter.[1 § 1. Voor de toepassing van artikel 1604, eerste lid, wordt het door de verkoper aan de
+###### Art. 1649ter.[1 § 1. Voor de toepassing van artikel 1604, eerste lid, wordt het door de verkoper aan de
 consument geleverde consumptiegoed geacht slechts in overeenstemming met de koopovereenkomst te zijn
 indien het voldoet aan de in de [2 paragrafen 2 tot 9]2 gestelde eisen.
 § 2. Voor conformiteit met de koopovereenkomst, moet het consumptiegoed voldoen aan de subjectieve
@@ -16146,7 +16150,7 @@ verzorging van het dier, beschouwd als een conformiteitsgebrek.]2
 (1)<W 2022-03-20/05, art. 4, 028; Inwerkingtreding : 01-06-2022>
 (2)<W 2024-02-21/15, art. 3, 032; Inwerkingtreding : 01-05-2024>
 
-Art. 1649quater.<Ingevoegd bij W 2004-09-01/38, art. 3, Inwerkingtreding : 01-01-2005> § 1. [1 De verkoper
+###### Art. 1649quater.<Ingevoegd bij W 2004-09-01/38, art. 3, Inwerkingtreding : 01-01-2005> § 1. [1 De verkoper
 is jegens de consument aansprakelijk voor elk conformiteitsgebrek dat bestaat bij de levering van de
 consumptiegoederen en dat zich manifesteert binnen een termijn van twee jaar te rekenen vanaf voornoemde
 levering.]1 [2 Deze termijn bedraagt evenwel één jaar indien het consumptiegoed een dier is, tenzij de verkoper in
@@ -16191,7 +16195,7 @@ verkochte zaak zijn van toepassing [1 na het verstrijken van de termijnen bedoel
 (1)<W 2022-03-20/05, art. 5, 028; Inwerkingtreding : 01-06-2022>
 (2)<W 2024-02-21/15, art. 4, 032; Inwerkingtreding : 01-05-2024>
 
-Art. 1649quinquies.<Ingevoegd bij W 2004-09-01/38, art. 3, Inwerkingtreding : 01-01-2005> § 1. Naast
+###### Art. 1649quinquies.<Ingevoegd bij W 2004-09-01/38, art. 3, Inwerkingtreding : 01-01-2005> § 1. Naast
 desgevallend schadevergoeding, heeft de consument het recht van de verkoper die met toepassing van artikel
 1649quater aansprakelijk is voor een [1 conformiteitsgebrek]1 te eisen, hetzij de herstelling of de vervanging van
 het goed onder de voorwaarden bedoeld in [2 paragrafen 2, 3 en 3/1]2, hetzij een [1 evenredige]1 vermindering
@@ -16327,7 +16331,7 @@ gestandaardiseerde informatiedocument.]2
 (1)<W 2022-03-20/05, art. 6, 028; Inwerkingtreding : 01-06-2022>
 (2)<W 2024-02-21/15, art. 5, 032; Inwerkingtreding : 01-05-2024>
 
-Art. 1649sexies.[1 Wanneer de verkoper jegens de consument aansprakelijk is uit hoofde van een
+###### Art. 1649sexies.[1 Wanneer de verkoper jegens de consument aansprakelijk is uit hoofde van een
 conformiteitsgebrek, met inbegrip van het nalaten om updates te verstrekken voor goederen met digitale
 elementen overeenkomstig artikel 1649ter, § 5, dat toe te schrijven is aan een persoon in een eerdere schakel
 van de overeenkomstenketen die tot de verkoop geleid heeft, kan hij tegen deze persoon verhaal doen op grond
@@ -16336,7 +16340,7 @@ beding dat tot gevolg heeft die aansprakelijkheid te beperken of op te heffen, h
 worden.]1
 (1)<W 2022-03-20/05, art. 7, 028; Inwerkingtreding : 01-06-2022>
 
-Art. 1649septies.[1 § 1. Een commerciële garantie is bindend voor de garant onder de voorwaarden in het
+###### Art. 1649septies.[1 § 1. Een commerciële garantie is bindend voor de garant onder de voorwaarden in het
 commerciële garantiebewijs en in de daarmee samenhangende reclame die beschikbaar was ten tijde van of vóór
 de sluiting van de overeenkomst. Wanneer een producent de consument een commerciële garantie van
 duurzaamheid voor een bepaald consumptiegoed gedurende een bepaalde periode biedt, is de producent
@@ -16362,7 +16366,7 @@ commerciële garantie;
 de garant.]1
 (1)<W 2022-03-20/05, art. 8, 028; Inwerkingtreding : 01-06-2022>
 
-Art. 1649octies.<Ingevoegd bij W 2004-09-01/38, art. 3, Inwerkingtreding : 01-01-2005> Zijn nietig,
+###### Art. 1649octies.<Ingevoegd bij W 2004-09-01/38, art. 3, Inwerkingtreding : 01-01-2005> Zijn nietig,
 contractuele bedingen of afspraken overeengekomen vooraleer het [1 conformiteitsgebrek]1 aan de verkoper
 door de consument ter kennis is gebracht, en waardoor, [1 ten nadele van laatstgenoemde, de rechten die de
 consument uit deze afdeling put, worden uitgesloten, ervan wordt afgeweken of de gevolgen ervan worden
@@ -16374,7 +16378,7 @@ bij gebreke van dat beding de wet van een lidstaat van de Europese Unie toepasse
 consument in genoemde aangelegenheden een hogere bescherming verleent.
 (1)<W 2022-03-20/05, art. 9, 028; Inwerkingtreding : 01-06-2022>
 
-## Art. 1649nonies
+###### Art. 1649nonies
 
 [1 De inbreuken op de bepalingen van deze afdeling en van de uitvoeringsbesluiten ervan
 worden opgespoord, vastgesteld en bestraft overeenkomstig boek XV van het Wetboek van economisch
@@ -16383,17 +16387,17 @@ recht.]1
 
 #### HOOFDSTUK V. - VERPLICHTINGEN VAN DE KOPER.
 
-## Art. 1650
+###### Art. 1650
 
 De hoofdverplichting van de koper bestaat in het betalen van de prijs op de dag en op de plaats bij de
 koop bepaald.
 
-## Art. 1651
+###### Art. 1651
 
 Indien bij het aangaan van de koop niets daaromtrent bedongen is, moet de koper betalen op de
 plaats en op het tijdstip voor de levering bepaald.
 
-## Art. 1652
+###### Art. 1652
 
 De koper is verplicht interest van de koopprijs te betalen tot aan de voldoening van het kapitaal, in de
 drie volgende gevallen :
@@ -16402,18 +16406,18 @@ Indien de verkochte en geleverde zaak vruchten of andere inkomsten oplevert;
 Indien de koper is aangemaand om te betalen.
 In dit laatste geval loopt de interest eerst te rekenen van de aanmaning.
 
-## Art. 1653
+###### Art. 1653
 
 Wanneer de koper wordt gestoord of gegronde vrees heeft te worden gestoord door een
 hypothecaire vordering of door een eigendomsvordering, kan hij de betaling van de prijs opschorten totdat de
 verkoper de stoornis heeft doen ophouden, tenzij deze verkiest borg te stellen of tenzij bedongen is dat de koper
 zal betalen niettegenstaande de stoornis.
 
-## Art. 1654
+###### Art. 1654
 
 Indien de koper de prijs niet betaalt, kan de verkoper de ontbinding van de koop vorderen.
 
-## Art. 1655
+###### Art. 1655
 
 De ontbinding van de verkoop van onroerende goederen wordt dadelijk uitgesproken, indien de
 verkoper gevaar loopt de zaak en de prijs te verliezen.
@@ -16421,14 +16425,14 @@ Indien dit gevaar niet bestaat, kan de rechter aan de koper een langer of korter
 de omstandigheden.
 Gaat die tijd voorbij zonder dat de koper betaalt, dan wordt de ontbinding van de koop uitgesproken.
 
-## Art. 1656
+###### Art. 1656
 
 Wanneer bij een verkoop van onroerende goederen bedongen is dat, bij gebreke van betaling van de
 prijs binnen de overeengekomen tijd, de koop van rechtswege zal zijn ontbonden, kan de koper niettemin na
 verloop van de tijd alsnog betalen, zolang hij niet door een aanmaning is in gebreke gesteld; maar na die
 aanmaning kan de rechter hem geen uitstel verlenen.
 
-## Art. 1657
+###### Art. 1657
 
 Wat betreft de verkoop van waren en roerende goederen, heeft de ontbinding van de koop plaats
 van rechtswege en zonder aanmaning ten voordele van de verkoper, na verloop van de tijd die voor de afhaling
@@ -16436,87 +16440,87 @@ is overeengekomen.
 
 #### HOOFDSTUK VI. - NIETIGHEID EN ONTBINDING VAN DE KOOP.
 
-## Art. 1658
+###### Art. 1658
 
 Behalve op grond van de oorzaken van nietigheid of van ontbinding welke in deze titel reeds zijn
 opgegeven, en van die welke aan alle overeenkomsten gemeen zijn, kan de koop ook ontbonden worden door de
 uitoefening van het recht van wederinkoop en wegens het bedingen van een te geringe prijs.
 
-##### AFDELING I. - RECHT VAN WEDERINKOOP.
 
-## Art. 1659
+##### AFDELING I. - RECHT VAN WEDERINKOOP.
+###### Art. 1659
 
 Het recht van wederinkoop is een beding waarbij de verkoper zich voorbehoudt de verkochte zaak
 terug te nemen, tegen de teruggave van de oorspronkelijke prijs en de vergoeding waarvan sprake is in artikel
 1673.
 
-## Art. 1660
+###### Art. 1660
 
 Het recht van wederinkoop mag voor niet langer dan vijf jaren worden bedongen.
 Het wordt tot die tijd beperkt, indien het voor langer bedongen is.
 
-## Art. 1661
+###### Art. 1661
 
 De bepaalde tijd is van strenge toepassing, en kan door de rechter niet verlengd worden.
 
-## Art. 1662
+###### Art. 1662
 
 Heeft de verkoper zijn recht van wederinkoop niet uitgeoefend binnen de voorgeschreven tijd, dan
 blijft de koper onherroepelijk eigenaar.
 
-## Art. 1663
+###### Art. 1663
 
 De termijn loopt tegen een ieder, zelfs tegen minderjarigen, behoudens hun verhaal op wie het
 aangaat, zo daartoe grond bestaat.
 
-## Art. 1664
+###### Art. 1664
 
 De verkoper onder beding van wederinkoop kan zijn recht tegen een tweede koper uitoefenen, zelfs
 wanneer het recht van wederinkoop in het tweede contract niet is vermeld.
 
-## Art. 1665
+###### Art. 1665
 
 De koper onder beding van wederinkoop oefent alle rechten van zijn verkoper uit; de verjaring loopt
 te zijnen voordele zowel tegen de ware eigenaar als tegen hen die zouden beweren rechten of hypotheken op de
 verkochte zaak te hebben.
 
-## Art. 1666
+###### Art. 1666
 
 Hij kan tegen de schuldeisers van zijn verkoper het voorrecht van uitwinning doen gelden.
 
-## Art. 1667
+###### Art. 1667
 
 Hij die een onverdeeld aandeel in een erf heeft verkregen onder beding van wederinkoop, kan, indien
 het gehele erf hem is toegewezen bij een tegen hem gevorderde veiling, de verkoper verplichten het gehele erf
 over te nemen, wanneer deze van het beding wil gebruik maken.
 
-## Art. 1668
+###### Art. 1668
 
 Indien verscheidene personen gezamenlijk en bij een en hetzelfde contract een erf verkocht hebben
 dat hun gemeenschappelijk toebehoorde, kan ieder van hen het recht van wederinkoop slechts uitoefenen voor
 het aandeel dat hij daarin had.
 
-## Art. 1669
+###### Art. 1669
 
 Hetzelfde geldt, wanneer iemand die alleen een erf verkocht heeft, verscheidene erfgenamen heeft
 achtergelaten.
 Ieder van die medeërfgenamen kan van het recht van wederinkoop slechts gebruik maken voor zijn aandeel in
 de nalatenschap.
 
-## Art. 1670
+###### Art. 1670
 
 Nochtans kan de koper, in het geval van de twee vorige artikelen, vorderen dat alle medeverkopers
 of alle medeërfgenamen worden opgeroepen, ten einde zich met elkaar te verstaan omtrent de wederinkoop van
 het gehele erf; en, indien zij het niet eens worden, wordt de eis tegen de koper afgewezen.
 
-## Art. 1671
+###### Art. 1671
 
 Indien een erf dat aan verscheidene personen toebehoorde, niet verkocht is door allen gezamenlijk
 en voor het geheel, maar door ieder slechts voor het aandeel dat hij daarin had, kan ieder van hen afzonderlijk
 het recht van wederinkoop uitoefenen, voor het aandeel dat hem toebehoorde;
 En de koper kan degene die het recht op die wijze uitoefent, niet verplichten het gehele erf over te nemen.
 
-## Art. 1672
+###### Art. 1672
 
 Indien de koper verscheidene erfgenamen heeft achtergelaten, kan het recht van wederinkoop tegen
 ieder van hen slechts worden uitgeoefend voor zijn aandeel, ingeval er nog onverdeeldheid is, alsook ingeval de
@@ -16524,7 +16528,7 @@ verkochte zaak onder hen verdeeld is.
 Indien echter de nalatenschap verdeeld is en de verkochte zaak aan een van de erfgenamen is toebedeeld, kan
 de vordering tot wederinkoop tegen deze voor het geheel worden ingesteld.
 
-## Art. 1673
+###### Art. 1673
 
 De verkoper die van het beding van wederinkoop gebruik maakt, moet niet alleen de koopprijs
 vergoeden, maar ook de wettig gemaakte kosten van de koop, de noodzakelijke herstellingen, alsmede de
@@ -16534,21 +16538,21 @@ Wanneer de verkoper, ten gevolge van het beding van wederinkoop, zijn erf terugb
 vrij van alle lasten en hypotheken waarmee de koper het mocht hebben bezwaard; de verhuringen die de koper
 zonder bedrog heeft aangegaan, moet hij gestand doen.
 
-##### AFDELING II. - VERNIETIGING VAN DE KOOP UIT HOOFDE VAN BENADELING.
 
-## Art. 1674
+##### AFDELING II. - VERNIETIGING VAN DE KOOP UIT HOOFDE VAN BENADELING.
+###### Art. 1674
 
 Indien de verkoper in de verkoopprijs van een onroerend goed voor meer dan zeven twaalfden is
 benadeeld, heeft hij het recht om de vernietiging van de koop te eisen, ook al had hij bij het contract uitdrukkelijk
 afstand gedaan van het recht om die vernietiging te vorderen, en al had hij verklaard de meerdere waarde te
 schenken.
 
-## Art. 1675
+###### Art. 1675
 
 Om te weten of er benadeling voor meer dan zeven twaalfden is, dient men het onroerend goed te
 schatten volgens zijn staat en zijn waarde op het ogenblik van de koop.
 
-## Art. 1676.De
+###### Art. 1676.De
 
 eis is niet meer ontvankelijk na verloop van twee jaren te rekenen van de dag van de koop.
 Die termijn loopt tegen (...), (vermoedelijk afwezigen) en [1 personen beschermd krachtens artikel 492/1]1 en
@@ -16556,35 +16560,35 @@ tegen minderjarigen die in de plaats komen van een meerderjarige verkoper. <W 20
 Die termijn loopt eveneens en is niet geschorst gedurende de tijd bedongen voor het recht van wederinkoop.
 (1)<W 2013-03-17/14, art. 142, 015; 015; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 1677
+###### Art. 1677
 
 Het bewijs van de benadeling kan alleen bij vonnis worden toegelaten, en slechts ingeval de gestelde
 feiten waarschijnlijk genoeg en gewichtig genoeg zijn om het bestaan van de benadeling te laten vermoeden.
 
-## Art. 1678
+###### Art. 1678
 
 Dat bewijs kan niet worden geleverd dan door een verslag van drie deskundigen, die een enkel
 gemeenschappelijk proces-verbaal moeten opmaken en slechts een enkel advies, bij meerderheid van stemmen,
 mogen uitbrengen.
 
-## Art. 1679
+###### Art. 1679
 
 Indien de adviezen verschillen, geeft het proces-verbaal de redenen daarvan op, zonder dat mag
 worden medegedeeld welk het advies van ieder der deskundigen is geweest.
 
-## Art. 1680
+###### Art. 1680
 
 De drie deskundigen worden ambtshalve benoemd, tenzij de partijen zich omtrent de benoeming van
 alle drie gezamenlijk verstaan hebben.
 
-## Art. 1681
+###### Art. 1681
 
 Ingeval de vordering tot vernietiging wordt toegewezen heeft de koper de keus om ofwel de zaak
 terug te geven en de prijs die hij ervoor betaald heeft, terug te nemen, ofwel het erf te behouden, mits hij
 hetgeen aan de juiste prijs ontbreekt, aanvult, onder aftrek van een tiende van de gehele prijs.
 De derde-bezitter heeft hetzelfde recht, onverminderd zijn verhaal op zijn verkoper.
 
-## Art. 1682
+###### Art. 1682
 
 Indien de koper verkiest de zaak te behouden, met aanvulling van de prijs, zoals in het vorige artikel
 is bepaald, is hij verplicht interest van het aanvullend bedrag te betalen, te rekenen van de dag waarop de eis tot
@@ -16594,16 +16598,16 @@ van de dag waarop de eis gedaan is.
 Ook de interest van de prijs die hij betaald heeft, wordt hem vergoed hetzij eveneens van de dag waarop die eis
 gedaan is, hetzij, indien hij geen vruchten genoten heeft, te rekenen van de dag van de betaling.
 
-## Art. 1683
+###### Art. 1683
 
 Vernietiging uit hoofde van benadeling heeft niet plaats ten voordele van de koper.
 
-## Art. 1684
+###### Art. 1684
 
 Zij heeft niet plaats ten aanzien van verkopingen die volgens de wet niet anders dan op rechterlijk
 gezag kunnen geschieden.
 
-## Art. 1685
+###### Art. 1685
 
 De regels in de vorige afdeling bepaald voor de gevallen dat verscheidene personen gezamenlijk of
 afzonderlijk verkocht hebben, en voor het geval dat de verkoper of de koper verscheidene erfgenamen heeft
@@ -16611,7 +16615,7 @@ achtergelaten, worden mede in acht genomen voor het instellen van de rechtsvorde
 
 #### HOOFDSTUK VII. - VEILING VAN ONVERDEELDE GOEDEREN.
 
-## Art. 1686
+###### Art. 1686
 
 Indien een zaak die aan verscheidene personen gemeenschappelijk toebehoort, niet gevoeglijk en
 zonder verlies verdeeld kan worden,
@@ -16619,12 +16623,12 @@ Of indien, bij een minnelijke verdeling van gemeenschappelijke goederen, zich da
 bevinden die geen van de deelgenoten kan of wil nemen,
 Geschiedt de verkoop bij opbod en de prijs wordt onder de medeëigenaars verdeeld.
 
-## Art. 1687
+###### Art. 1687
 
 Ieder medeëigenaar kan eisen dat ook vreemden tot de veiling van onverdeelde goederen worden
 opgeroepen; zij moeten worden opgeroepen, wanneer een van de medeëigenaars minderjarig is.
 
-## Art. 1688.De
+###### Art. 1688.De
 
 wijze en de vormen volgens welke de veiling van onverdeelde goederen moet geschieden, worden
 in de titel Erfenissen en in het [1 Gerechtelijk Wetboek]1 bepaald. <W 15-12-1949, art. 26>
@@ -16632,55 +16636,55 @@ in de titel Erfenissen en in het [1 Gerechtelijk Wetboek]1 bepaald. <W 15-12-194
 
 #### HOOFDSTUK VIII. - OVERDRACHT VAN SCHULDVORDERINGEN EN ANDERE ONLICHAMELIJKE RECHTEN.
 
-## Art. 1689
+###### Art. 1689
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 030; Inwerkingtreding : 01-01-2023>
 
-## Art. 1690
+###### Art. 1690
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 030; Inwerkingtreding : 01-01-2023>
 
-## Art. 1691
+###### Art. 1691
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 030; Inwerkingtreding : 01-01-2023>
 
-## Art. 1692
+###### Art. 1692
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 030; Inwerkingtreding : 01-01-2023>
 
-## Art. 1693
+###### Art. 1693
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 030; Inwerkingtreding : 01-01-2023>
 
-## Art. 1694
+###### Art. 1694
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 030; Inwerkingtreding : 01-01-2023>
 
-## Art. 1695
+###### Art. 1695
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 030; Inwerkingtreding : 01-01-2023>
 
-## Art. 1696
+###### Art. 1696
 
 <Opgeheven bij W 2022-01-19/18, art. 58, 029; Inwerkingtreding : 01-07-2022>
 
-## Art. 1697
+###### Art. 1697
 
 <Opgeheven bij W 2022-01-19/18, art. 58, 029; Inwerkingtreding : 01-07-2022>
 
-## Art. 1698
+###### Art. 1698
 
 <Opgeheven bij W 2022-01-19/18, art. 58, 029; Inwerkingtreding : 01-07-2022>
 
-## Art. 1699
+###### Art. 1699
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 030; Inwerkingtreding : 01-01-2023>
 
-## Art. 1700
+###### Art. 1700
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 030; Inwerkingtreding : 01-01-2023>
 
-## Art. 1701
+###### Art. 1701
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 030; Inwerkingtreding : 01-01-2023>
 
@@ -16800,14 +16804,13 @@ gekozen fysieke of virtuele faciliteit.]1
 
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 1. [1 - Conformiteitsvereisten.]1
 
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 geval, voldoet aan de vereisten van de artikelen 1701/5, 1701/6 en 1701/7.]1
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 2. [1 - Subjectieve conformiteitsvereisten.]1
+##### Afdeling 1. [1 - Conformiteitsvereisten.]1
 
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
@@ -16821,7 +16824,7 @@ klantenservice, als vereist in de overeenkomst; en
 4° van updates zijn voorzien als bepaald in de overeenkomst.]1
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 3. [1 - Objectieve conformiteitsvereisten.]1
+##### Afdeling 2. [1 - Subjectieve conformiteitsvereisten.]1
 
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
@@ -16871,7 +16874,7 @@ afzonderlijk heeft aanvaard.
 meest recente versie die ten tijde van de sluiting van de overeenkomst beschikbaar was.]1
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 4. [1 - Verkeerde integratie van de digitale inhoud of digitale dienst.]1
+##### Afdeling 3. [1 - Objectieve conformiteitsvereisten.]1
 
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
@@ -16883,6 +16886,7 @@ geïntegreerd; of
 verkeerde integratie te wijten was aan tekortkomingen in de door de handelaar verstrekte integratie-instructies.]1
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
+##### Afdeling 4. [1 - Verkeerde integratie van de digitale inhoud of digitale dienst.]1
 #### HOOFDSTUK IV. [1 - Aansprakelijkheid van de handelaar.]1
 
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
@@ -16938,7 +16942,6 @@ paragraaf 3, eerste lid.]1
 
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 1. [1 - Remedies in geval van leveringsverzuim.]1
 
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
@@ -16957,7 +16960,7 @@ heeft verzuimd de digitale inhoud of digitale dienst ten laatste op dat tijdstip
 1701/12, § 3, tweede lid, 1701/13, 1701/14 en 1701/15 van toepassing.]1
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 2. [1 - Remedies in geval van conformiteitsgebrek.]1
+##### Afdeling 1. [1 - Remedies in geval van leveringsverzuim.]1
 
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
@@ -17003,6 +17006,7 @@ De consument oefent het recht om de overeenkomst te ontbinden uit door middel va
 handelaar waarin het besluit tot ontbinding van de overeenkomst tot uitdrukking komt.]1
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
+##### Afdeling 2. [1 - Remedies in geval van conformiteitsgebrek.]1
 #### HOOFDSTUK VI. [1 - Verplichtingen van de handelaar bij ontbinding.]1
 
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
@@ -17132,31 +17136,31 @@ opgespoord, vastgesteld en bestraft overeenkomstig boek XV van het Wetboek van e
 
 ### TITEL VII. - RUIL.
 
-## Art. 1702
+###### Art. 1702
 
 Ruil is een contract waarbij de partijen aan elkaar een zaak in de plaats van een andere zaak geven.
 
-## Art. 1703
+###### Art. 1703
 
 Ruil komt tot stand door de enkele toestemming van de partijen, op dezelfde wijze als koop.
 
-## Art. 1704
+###### Art. 1704
 
 Indien een van de ruilers de zaak die hem in ruil gegeven wordt, reeds heeft ontvangen, en nadien
 bewijst dat de andere contractant geen eigenaar is van die zaak, kan hij niet genoodzaakt worden tot levering
 van de zaak die hij beloofd heeft daarvoor te zullen ruilen, maar alleen tot teruggave van die welke hij ontvangen
 heeft.
 
-## Art. 1705
+###### Art. 1705
 
 _ De ruiler die de zaak welke hij in ruil ontvangen heeft, door uitwinning verliest, heeft de keus om
 ofwel schadevergoeding, ofwel de teruggave van zijn zaak te vorderen.
 
-## Art. 1706
+###### Art. 1706
 
 Vernietiging uit hoofde van benadeling vindt geen toepassing op het ruilcontract.
 
-## Art. 1707
+###### Art. 1707
 
 De overige regels die omtrent het koopcontract zijn voorgeschreven, zijn mede van toepassing op
 het ruilcontract.
@@ -17165,24 +17169,24 @@ het ruilcontract.
 
 #### HOOFDSTUK I. - ALGEMENE BEPALINGEN.
 
-## Art. 1708
+###### Art. 1708
 
 Er zijn twee soorten van huur :
 De huur van goederen,
 En de huur van werk.
 
-## Art. 1709
+###### Art. 1709
 
 Huur van goederen is een contract waarbij de ene partij zich verbindt om de andere het genot van
 een zaak te doen hebben gedurende een zekere tijd, en tegen een bepaalde prijs, die de laatstgenoemde zich
 verbindt te betalen.
 
-## Art. 1710
+###### Art. 1710
 
 Huur van werk is een contract waarbij de ene partij zich verbindt om iets voor de andere te
 verrichten, tegen betaling van een tussen hen bedongen prijs.
 
-## Art. 1711
+###### Art. 1711
 
 Die twee soorten van huur worden nog verder onderverdeeld :
 Onder huishuur wordt verstaan de huur van huizen en die van meubelen;
@@ -17194,20 +17198,20 @@ Een bestek, een aanneming of vast akkoord betreffende het uitvoeren van een werk
 bepaalde prijs, is ook huur, wanneer de grondstof geleverd wordt door hem voor wie het werk wordt uitgevoerd.
 Voor de laatste drie soorten gelden bijzondere regels.
 
-## Art. 1712
+###### Art. 1712
 
 De verhuring van de goederen van de Staat, van de gemeenten en van de openbare instellingen is
 aan bijzondere reglementen onderworpen.
 
 #### HOOFDSTUK II. - HUUR VAN GOEDEREN.
 
-## Art. 1713
+###### Art. 1713
 
 Men kan alle soorten van goederen, zo roerende als onroerende, verhuren.
 
-##### AFDELING I. - (ALGEMENE BEPALINGEN BETREFFENDE DE HUUR VAN ONROERENDE GOEDEREN). <W 20-021991, art. 1>
 
-Art. 1714.[...] (Behalve tegenstrijdige wettelijke bepalingen) men kan huren bij geschrift of mondeling. <W 199102-20/33, art. 13, § 3, Inwerkingtreding : 20-02-1991> <W 2007-04-25/38, art. 97, 010; Inwerkingtreding : 1805-2007>
+##### AFDELING I. - (ALGEMENE BEPALINGEN BETREFFENDE DE HUUR VAN ONROERENDE GOEDEREN). <W 20-021991, art. 1>
+###### Art. 1714.[...] (Behalve tegenstrijdige wettelijke bepalingen) men kan huren bij geschrift of mondeling. <W 199102-20/33, art. 13, § 3, Inwerkingtreding : 20-02-1991> <W 2007-04-25/38, art. 97, 010; Inwerkingtreding : 1805-2007>
 [1 Elke schriftelijke huurovereenkomst moet, afgezien van alle andere modaliteiten, het volgende inhouden :
 1° voor de natuurlijke personen, hun naam, hun eerste twee voornamen, hun woonplaats en hun datum en
 plaats van geboorte;
@@ -17222,26 +17226,26 @@ De partij die zijn verplichting tot identificatie met het in het tweede lid beoo
 gevolgen van het gebrek aan registratie van de huurovereenkomst.]1
 (1)<W 2013-12-21/26, art. 41, 014; Inwerkingtreding : 01-02-2014>
 
-## Art. 1714_WAALS_GEWEST
+###### Art. 1714_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1714bis
+###### Art. 1714bis
 
 <ingevoegd bij W 2007-04-25/38, art. 98, Inwerkingtreding : 18-05-2007> Artikel 1bis van boek
 III, titel VIII, hoofdstuk II, afdeling 2, is van toepassing op de kamer bedoeld voor de huisvesting van één of
 meerdere studenten.
 
-## Art. 1714bis_VLAAMS_GEWEST
+###### Art. 1714bis_VLAAMS_GEWEST
 
 [1 ...]1
 (1)<DVR 2023-04-21/08, art. 88, 031; Inwerkingtreding : 09-06-2023>
 
-## Art. 1714bis_WAALS_GEWEST
+###### Art. 1714bis_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1714bis_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1714bis_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten
 onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>]
@@ -17249,7 +17253,7 @@ onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwer
 hoofdstuk II, afdeling 2, is van toepassing op de kamer bedoeld voor de huisvesting van één of meerdere
 studenten.
 
-## Art. 1715
+###### Art. 1715
 
 [...] Indien een huur die zonder geschrift is aangegaan, nog op generlei wijze is ten uitvoer gebracht,
 en een van de partijen die ontkent, kan het bewijs door getuigen niet worden toegelaten, hoe gering de huurprijs
@@ -17257,11 +17261,11 @@ ook is, en hoewel men aanvoert dat er handgeld is gegeven. <W 1991-02-20/33, art
 20-02-1991>
 Alleen de eed kan worden opgedragen aan hem die de huur ontkent.
 
-## Art. 1715_WAALS_GEWEST
+###### Art. 1715_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1716
+###### Art. 1716
 
 <hersteld bij W 2007-04-25/38, art. 99, Inwerkingtreding : 18-05-2007> Elke verhuring van een
 goed dat bestemd is voor bewoning in de ruime betekenis houdt in dat in elke officiële of publieke mededeling
@@ -17273,16 +17277,16 @@ verplichtingen van dit artikel vaststellen, vervolgen en bestraffen. De bevoegde
 zich bevindt. Deze inbreuken worden vastgesteld, vervolgd en bestraft overeenkomstig de vormvereisten,
 termijnen en procedures bepaald in artikel 119bis van de nieuwe gemeentewet, met uitzondering van § 5.
 
-## Art. 1716_VLAAMS_GEWEST
+###### Art. 1716_VLAAMS_GEWEST
 
 [1 ...]1
 (1)<DVR 2023-04-21/08, art. 89, 031; Inwerkingtreding : 09-06-2023>
 
-## Art. 1716_WAALS_GEWEST
+###### Art. 1716_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1716_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1716_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten
 onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>]
@@ -17296,11 +17300,11 @@ verplichtingen van dit artikel vaststellen, vervolgen en bestraffen. De bevoegde
 zich bevindt. Deze inbreuken worden vastgesteld, vervolgd en bestraft overeenkomstig de vormvereisten,
 termijnen en procedures bepaald in artikel 119bis van de nieuwe gemeentewet, met uitzondering van § 5.
 
-## Art. 1716bis
+###### Art. 1716bis
 
 (Opgeheven) <W 04-11-1969, art. 2>
 
-## Art. 1717
+###### Art. 1717
 
 (De huurder mag onderverhuren en zelfs zijn huur aan anderen overdragen, indien dit recht hem
 niet is ontzegd.
@@ -17322,11 +17326,11 @@ Het kan hem worden ontzegd voor het geheel of voor een gedeelte.
 Zodanig beding is altijd van strenge toepassing.
 (Leden 4 en 5 opgeheven) <W 04-11-1969, art. 2>
 
-## Art. 1717_WAALS_GEWEST
+###### Art. 1717_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1717_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1717_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten
 onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>]
@@ -17350,16 +17354,16 @@ Het kan hem worden ontzegd voor het geheel of voor een gedeelte.
 Zodanig beding is altijd van strenge toepassing.
 (Leden 4 en 5 opgeheven) <W 04-11-1969, art. 2>
 
-## Art. 1718
+###### Art. 1718
 
 <W 14-07-1976, art. IV, 14> Artikel 595, betreffende de verhuring door de vruchtgebruiker, is
 mede van toepassing op de verhuring van de goederen van minderjarigen.
 
-## Art. 1718_WAALS_GEWEST
+###### Art. 1718_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1719
+###### Art. 1719
 
 De verhuurder is, uit de aard van het contract, en zonder dat daartoe enig bijzonder beding nodig is,
 verplicht :
@@ -17367,21 +17371,21 @@ verplicht :
 2° Dat goed in zodanige staat te onderhouden dat het kan dienen tot het gebruik waartoe het verhuurd is;
 3° De huurder het rustig genot daarvan te doen hebben zolang de huur duurt.
 
-## Art. 1719_WAALS_GEWEST
+###### Art. 1719_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1720
+###### Art. 1720
 
 De verhuurder is verplicht het goed in alle opzichten in goede staat van onderhoud te leveren.
 Hij moet daaraan gedurende de huurtijd alle herstellingen doen, die nodig mochten worden, behalve de
 herstellingen ten laste van de huurder.
 
-## Art. 1720_WAALS_GEWEST
+###### Art. 1720_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1720_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1720_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten
 onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>]
@@ -17389,37 +17393,37 @@ De verhuurder is verplicht het goed in alle opzichten in goede staat van onderho
 Hij moet daaraan gedurende de huurtijd alle herstellingen doen, die nodig mochten worden, behalve de
 herstellingen ten laste van de huurder.
 
-## Art. 1721
+###### Art. 1721
 
 Vrijwaring is verschuldigd aan de huurder voor alle gebreken van het verhuurde goed, die het
 gebruik daarvan verhinderen, ook al mocht de verhuurder die bij het aangaan van de huur niet hebben gekend.
 Indien door die gebreken enig verlies voor de huurder ontstaat, is de verhuurder verplicht hem daarvoor
 schadeloos te stellen.
 
-## Art. 1721_WAALS_GEWEST
+###### Art. 1721_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1722
+###### Art. 1722
 
 Indien het verhuurde goed gedurende de huurtijd door toeval geheel is teniet gegaan, is de huur van
 rechtswege ontbonden; indien het goed slechts ten dele is teniet gegaan, kan de huurder, naar gelang van de
 omstandigheden, ofwel vermindering van de prijs, ofwel zelfs ontbinding van de huur vorderen. In geen van
 beide gevallen is schadeloosstelling verschuldigd.
 
-## Art. 1722_WAALS_GEWEST
+###### Art. 1722_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1723
+###### Art. 1723
 
 De verhuurder mag gedurende de huurtijd de gedaante van het verhuurde goed niet veranderen.
 
-## Art. 1723_WAALS_GEWEST
+###### Art. 1723_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1724
+###### Art. 1724
 
 Indien het verhuurde goed gedurende de huurtijd dringende herstellingen nodig heeft, die niet tot na
 het eindigen van de huur kunnen worden uitgesteld, moet de huurder die gedogen, welke ongemakken hem
@@ -17431,31 +17435,31 @@ derven.
 Indien de herstellingen van dien aard zijn dat hetgeen noodzakelijk is voor de huisvesting van de huurder en van
 zijn gezin, daardoor onbewoonbaar wordt, kan hij de huur doen ontbinden.
 
-## Art. 1724_WAALS_GEWEST
+###### Art. 1724_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1725
+###### Art. 1725
 
 De verhuurder is niet verplicht de huurder te vrijwaren voor de stoornis die derden hem door
 feitelijkheden toebrengen in zijn genot, zonder dat zij overigens beweren enig recht op het verhuurde goed te
 hebben; onverminderd het recht van de huurder om hen in eigen naam te vervolgen.
 
-## Art. 1725_WAALS_GEWEST
+###### Art. 1725_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1726
+###### Art. 1726
 
 Indien daarentegen de huurder of de pachter in zijn genot is gestoord ten gevolge van een
 rechtsvordering betreffende de eigendom van het erf, heeft hij recht op een evenredige vermindering van de
 huurprijs of de pachtprijs, mits van de stoornis en de belemmering aan de eigenaar is kennis gegeven.
 
-## Art. 1726_WAALS_GEWEST
+###### Art. 1726_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1727
+###### Art. 1727
 
 Indien zij die de feitelijkheden hebben begaan, beweren enig recht op het verhuurde goed te hebben,
 of indien de huurder zelf in rechte gedagvaard wordt om te worden verwezen tot ontruiming van het geheel of
@@ -17463,11 +17467,11 @@ van een gedeelte van het goed, of om de uitoefening van enige erfdienstbaarheid 
 de verhuurder in vrijwaring oproepen, en, indien hij het eist, zal hij buiten het geding gesteld worden, mits hij de
 verhuurder noemt, voor wie hij bezit.
 
-## Art. 1727_WAALS_GEWEST
+###### Art. 1727_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1728
+###### Art. 1728
 
 De huurder is tot twee hoofdverplichtingen gehouden :
 1° Het gehuurde te gebruiken als een goed huisvader, en volgens de bestemming welke bij het huurcontract
@@ -17475,11 +17479,11 @@ daaraan gegeven is, of volgens die welke, bij gebreke van overeenkomst daaromtre
 omstandigheden vermoed wordt;
 2° De huurprijs op de bepaalde termijn te voldoen.
 
-## Art. 1728_WAALS_GEWEST
+###### Art. 1728_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1728bis
+###### Art. 1728bis
 
 _ <Ingevoegd bij W 29-12-1983, art. 1> § 1. Indien een aanpassing van de huurprijs aan de
 kosten van levensonderhoud is bedongen, is deze slechts één maal per huurjaar toegelaten en ten vroegste op
@@ -17500,11 +17504,11 @@ afgesloten.
 tot die aanpassing ingekort worden.
 § 3. (...) <W 20-02-1991, art. 13>
 
-## Art. 1728bis_WAALS_GEWEST
+###### Art. 1728bis_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1728bis_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1728bis_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 _ <Ingevoegd bij W 29-12-1983, art. 1> § 1. Indien een aanpassing van de huurprijs aan de kosten van
 levensonderhoud is bedongen, is deze slechts één maal per huurjaar toegelaten en ten vroegste op de
@@ -17532,7 +17536,7 @@ vermindering van de geïndexeerde huurprijs tot gevolg hebben tijdens de tijdvak
 op de lonen en vervangingstegemoetkomingen geblokkeerd wordt.]1
 (1)<ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>
 
-## Art. 1728ter
+###### Art. 1728ter
 
 <Ingevoegd bij W 29-12-1983, art. 2> § 1. Behalve wanneer uitdrukkelijk overeengekomen is dat
 de aan de huurder opgelegde kosten en lasten in vaste bedragen worden bepaald, moeten ze met werkelijke
@@ -17547,16 +17551,16 @@ rechtspersoon die het beheer waarneemt.
 § 2. De contractuele bepalingen welke in strijd zijn met paragraaf 1 zijn nietig.
 § 3. Dit artikel is niet van toepassing op de pacht.
 
-## Art. 1728ter_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1728ter_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 <Opgeheven wat betreft woninghuurovereenkomsten en
 handelshuurovereenkomsten bij ORD 2024-04-04/10, art. 37, 034; Inwerkingtreding : 01-11-2024>
 
-## Art. 1728ter_WAALS_GEWEST
+###### Art. 1728ter_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1728quater
+###### Art. 1728quater
 
 <Ingevoegd bij W 29-12-1983, art. 3> § 1. Indien de huurder meer betaald heeft dan hij in
 toepassing van de wet of de overeenkomst verschuldigd is moet hem het teveel betaalde op zijn verzoek worden
@@ -17567,26 +17571,26 @@ De vordering tot teruggave verjaart door verloop van een termijn van één jaar,
 § 2. De contractuele bepalingen welke in strijd zijn met paragraaf 1 zijn nietig.
 § 3. Dit artikel is niet van toepassing op de pacht.
 
-## Art. 1728quater_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1728quater_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 <Opgeheven wat betreft
 woninghuurovereenkomsten en handelshuurovereenkomsten bij ORD 2024-04-04/10, art. 37, 034;
 
-## Art. 1728quater_WAALS_GEWEST
+###### Art. 1728quater_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1729
+###### Art. 1729
 
 Indien de huurder het gehuurde voor een ander gebruik bezigt dan waarvoor het bestemd was, of
 voor een gebruik waaruit enig nadeel kan ontstaan voor de verhuurder, kan deze, naar gelang van de
 omstandigheden, de huur doen ontbinden.
 
-## Art. 1729_WAALS_GEWEST
+###### Art. 1729_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1730
+###### Art. 1730
 
 <W 29-12-1983, art. 4> § 1. (De partijen zijn verplicht een omstandige plaatsbeschrijving op te
 stellen, op tegenspraak en voor gezamenlijke rekening. Deze plaatsbeschrijving wordt opgesteld ofwel tijdens de
@@ -17605,11 +17609,11 @@ behalve wat de termijnen betreft.
 § 3. De contractuele bepalingen welke in strijd zijn met de paragrafen 1 en 2 zijn nietig.
 § 4. Dit artikel is niet van toepassing op de pacht.
 
-## Art. 1730_WAALS_GEWEST
+###### Art. 1730_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1730_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1730_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 <W 29-12-1983, art. 4> § 1. (De partijen zijn verplicht een omstandige plaatsbeschrijving op te stellen, op
 tegenspraak en voor gezamenlijke rekening. Deze plaatsbeschrijving wordt opgesteld ofwel tijdens de periode dat
@@ -17629,7 +17633,7 @@ behalve wat de termijnen betreft.
 § 4. Dit artikel is niet van toepassing op de pacht.
 (1)<ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>
 
-## Art. 1731
+###### Art. 1731
 
 <W 29-12-1983, art. 5> § 1. Indien geen omstandige plaatsbeschrijving is opgemaakt, wordt
 vermoed dat de huurder het gehuurde goed ontvangen heeft in dezelfde staat als waarin het zich bevindt op het
@@ -17638,122 +17642,122 @@ einde van de huurovereenkomst, behoudens tegenbewijs, dat door alle middelen kan
 het goed teruggeven zoals hij het, volgens die beschrijving, ontvangen heeft, met uitzondering van hetgeen door
 ouderdom of overmacht is teniet gegaan of beschadigd.
 
-## Art. 1731_WAALS_GEWEST
+###### Art. 1731_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1732
+###### Art. 1732
 
 Hij is aansprakelijk voor de beschadigingen of de verliezen die gedurende zijn huurtijd ontstaan, tenzij
 hij bewijst dat die buiten zijn schuld hebben plaatsgehad.
 
-## Art. 1732_WAALS_GEWEST
+###### Art. 1732_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1733
+###### Art. 1733
 
 _ <W 20-02-1991, art. 7> Hij is aansprakelijk voor brand, tenzij hij bewijst dat de brand buiten zijn
 schuld is ontstaan.
 
-## Art. 1733_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1733_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 <Opgeheven wat betreft woninghuurovereenkomsten en
 handelshuurovereenkomsten bij ORD 2024-04-04/10, art. 37, 034; Inwerkingtreding : 01-11-2024>
 
-## Art. 1733_WAALS_GEWEST
+###### Art. 1733_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1734
+###### Art. 1734
 
 (Opgeheven) <W 20-02-1991, art. 13>
 
-## Art. 1735
+###### Art. 1735
 
 De huurder is aansprakelijk voor de beschadigingen en de verliezen die ontstaan door toedoen van
 zijn huisgenoten of van zijn onderhuurders.
 
-## Art. 1735_WAALS_GEWEST
+###### Art. 1735_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1736
+###### Art. 1736
 
 <W 20-02-1991, art. 8> Onverminderd het bepaalde in artikel 1758, wordt de voor onbepaalde duur
 gesloten huurovereenkomst geacht te zijn aangegaan per maand.
 De overeenkomst kan slechts worden beëindigd met inachtneming van een opzeggingstermijn van een maand.
 
-## Art. 1736_WAALS_GEWEST
+###### Art. 1736_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1737
+###### Art. 1737
 
 Indien de huur bij geschrift is aangegaan, eindigt zij van rechtswege wanneer de bepaalde tijd
 verstreken is, zonder dat een opzegging is vereist.
 
-## Art. 1737_WAALS_GEWEST
+###### Art. 1737_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1738
+###### Art. 1738
 
 <W 20-02-1991, art. 9> Indien de huurder, na beëindiging van een voor een bepaalde duur bij
 geschrift gesloten overeenkomst, het goed zonder verzet van de verhuurder verder blijft bewonen, is er
 wederinhuring tegen dezelfde voorwaarden, ook wat de duur betreft.
 
-## Art. 1738_WAALS_GEWEST
+###### Art. 1738_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1739
+###### Art. 1739
 
 Wanneer een opzegging is betekend, kan de huurder, hoewel hij in het genot gebleven is, zich niet
 beroepen op een stilzwijgende wederinhuring.
 
-## Art. 1739_WAALS_GEWEST
+###### Art. 1739_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1740
+###### Art. 1740
 
 <W 20-02-1991, art. 10> In het geval van de artikelen 1738 en 1739, strekken de verplichtingen van
 de borgtocht zich niet uit tot de verplichtingen die uit de wederinhuring ontstaan.
 
-## Art. 1740_WAALS_GEWEST
+###### Art. 1740_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1741
+###### Art. 1741
 
 Het huurcontract wordt ontbonden door het tenietgaan van het verhuurde goed, en door de nietnakoming van hun verplichtingen door de verhuurder of de huurder.
 
-## Art. 1741_WAALS_GEWEST
+###### Art. 1741_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1742
+###### Art. 1742
 
 [...] Het huurcontract wordt niet ontbonden door de dood van de verhuurder, noch door de dood
 van de huurder. <W 1991-02-20/33, art. 13, § 3, Inwerkingtreding : 28-02-1991>
 (Leden 2 tot 7 opgeheven) <W 04-11-1969, art. 2>
 
-## Art. 1742_WAALS_GEWEST
+###### Art. 1742_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1743
+###### Art. 1743
 
 [...] Indien de verhuurder het verhuurde goed verkoopt, kan de pachter of de huurder, die een
 authentieke huur of een huur met vaste dagtekening heeft, niet uit het gehuurde gezet worden door de koper,
 tenzij de verhuurder zich dit recht bij het huurcontract heeft voorbehouden. <W 1991-02-20/33, art. 13, § 3,
 
-## Art. 1743_WAALS_GEWEST
+###### Art. 1743_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1743_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1743_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten
 onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>]
@@ -17761,41 +17765,41 @@ onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwer
 huur of een huur met vaste dagtekening heeft, niet uit het gehuurde gezet worden door de koper, tenzij de
 verhuurder zich dit recht bij het huurcontract heeft voorbehouden. <W 1991-02-20/33, art. 13, § 3,
 
-## Art. 1744
+###### Art. 1744
 
 Indien bij het aangaan van de huur is overeengekomen dat, in geval van verkoop, de pachter of de
 huurder uit het gehuurde kan worden gezet door de koper, en geen beding gemaakt is omtrent de
 schadevergoeding, is de verhuurder verplicht de pachter of de huurder schadeloos te stellen op de volgende
 wijze.
 
-## Art. 1744_WAALS_GEWEST
+###### Art. 1744_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1745
+###### Art. 1745
 
 Indien het een huis, een appartement of een winkel betreft, betaalt de verhuurder aan de uit het
 gehuurde gezette huurder, als schadevergoeding, een bedrag gelijk aan de huurprijs voor de tijd die (volgens de
 wet of de overeenkomst) gelaten wordt tussen de opzegging en het vertrek. <W 20-02-1991, art. 11>
 
-## Art. 1745_WAALS_GEWEST
+###### Art. 1745_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1746
+###### Art. 1746
 
 (Opgeheven) <W 20-02-1991, art. 13>
 
-## Art. 1747
+###### Art. 1747
 
 De vergoeding wordt door deskundigen bepaald, indien het werkhuizen, fabrieken of andere
 inrichtingen betreft, die grote voorschotten vereisen.
 
-## Art. 1747_WAALS_GEWEST
+###### Art. 1747_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1748
+###### Art. 1748
 
 [...] De koper die gebruik wil maken van de bevoegdheid, bij het huurcontract voorbehouden, om, in
 geval van verkoop, (...) de huurder uit het gehuurde te zetten, is bovendien verplicht de huurder (te
@@ -17803,11 +17807,11 @@ waarschuwen binnen de termijnen bepaald door de wet of de overeenkomst.) <W 1991
 1991>
 (leden 2 tot 6 opgeheven) <W 04-11-1969, art. 2>
 
-## Art. 1748_WAALS_GEWEST
+###### Art. 1748_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1748_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1748_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten
 onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>]
@@ -17816,55 +17820,55 @@ verkoop, (...) de huurder uit het gehuurde te zetten, is bovendien verplicht de 
 de termijnen bepaald door de wet of de overeenkomst.) <W 1991-02-20/33, art. 13, § 3, Inwerkingtreding : 2802-1991> <W 07-03-1929, art. 2> <W 1991-02-20/33, art. 12, Inwerkingtreding : 28-02-1991>
 (leden 2 tot 6 opgeheven) <W 04-11-1969, art. 2>
 
-## Art. 1749
+###### Art. 1749
 
 Pachters of huurders kunnen niet uit het gehuurde gezet worden, tenzij de verhuurder of, zo niet,
 de nieuwe koper hun de hierboven bepaalde schadevergoedingen betaalt.
 
-## Art. 1749_WAALS_GEWEST
+###### Art. 1749_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1750
+###### Art. 1750
 
 Indien de huur niet bij authentieke akte is aangegaan, of geen vaste dagtekening heeft, is de koper
 niet tot schadevergoeding gehouden.
 
-## Art. 1750_WAALS_GEWEST
+###### Art. 1750_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1750_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1750_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten
 onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>]
 Indien de huur niet bij authentieke akte is aangegaan, of geen vaste dagtekening heeft, is de koper niet tot
 schadevergoeding gehouden.
 
-## Art. 1751
+###### Art. 1751
 
 De koper onder beding van wederinkoop kan geen gebruik maken van de bevoegdheid om de
 huurder uit het gehuurde te zetten, voordat hij, door het verstrijken van de tijd voor de wederinkoop bepaald,
 onherroepelijk eigenaar is geworden.
 
-## Art. 1751_WAALS_GEWEST
+###### Art. 1751_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1752
+###### Art. 1752
 
 De huurder die het huis niet van genoegzaam huisraad voorziet, kan eruit worden gezet, tenzij hij
 voldoende zekerheid stelt voor de betaling van de huur.
 
-## Art. 1752_WAALS_GEWEST
+###### Art. 1752_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1752bis
+###### Art. 1752bis
 
 (Opgeheven) <W 20-02-1991, art. 13>
 
-## Art. 1753
+###### Art. 1753
 
 De onderhuurder is jegens de eigenaar slechts gehouden ten belope van de prijs, die hij als
 onderhuurder verschuldigd is op het ogenblik van het beslag, en zonder dat hij zich op bij voorraad gedane
@@ -17872,11 +17876,11 @@ betalingen kan beroepen.
 Betalingen die de onderhuurder gedaan heeft, hetzij krachtens een beding van zijn huurcontract, hetzij
 overeenkomstig het plaatselijk gebruik, worden niet geacht bij voorraad te zijn gedaan.
 
-## Art. 1753_WAALS_GEWEST
+###### Art. 1753_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1754
+###### Art. 1754
 
 Herstellingen ten laste van de huurder, of geringe herstellingen tot onderhoud, waartoe, behoudens
 andersluidend beding, de huurder gehouden is, zijn die welke door het plaatselijk gebruik als zodanig beschouwd
@@ -17890,11 +17894,11 @@ voorvallen waarvoor de huurder niet aansprakelijk is;
 Aan deuren, vensterramen, planken dienende tot afschutting of tot sluiting van winkels, hengsels, grendels en
 sloten.
 
-## Art. 1754_WAALS_GEWEST
+###### Art. 1754_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1754_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1754_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten
 onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>]
@@ -17910,49 +17914,49 @@ voorvallen waarvoor de huurder niet aansprakelijk is;
 Aan deuren, vensterramen, planken dienende tot afschutting of tot sluiting van winkels, hengsels, grendels en
 sloten.
 
-## Art. 1755
+###### Art. 1755
 
 Geen van de herstellingen die geacht worden herstellingen ten laste van de huurder te zijn, komt
 voor rekening van de huurder, wanneer alleen ouderdom of overmacht daartoe aanleiding hebben gegeven.
 
-## Art. 1755_WAALS_GEWEST
+###### Art. 1755_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1755_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1755_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten
 onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>]
 Geen van de herstellingen die geacht worden herstellingen ten laste van de huurder te zijn, komt voor rekening
 van de huurder, wanneer alleen ouderdom of overmacht daartoe aanleiding hebben gegeven.
 
-## Art. 1756
+###### Art. 1756
 
 Het ruimen van putten en van sekreten komt ten laste van de verhuurder, indien niet het tegendeel
 bedongen is.
 
-## Art. 1756_WAALS_GEWEST
+###### Art. 1756_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1756_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 1756_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten
 onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>]
 Het ruimen van putten en van sekreten komt ten laste van de verhuurder, indien niet het tegendeel bedongen
 is.
 
-## Art. 1757
+###### Art. 1757
 
 De huur van meubelen om een geheel huis, een gehele woning, een winkel of enig ander
 appartement daarmee te stofferen, wordt geacht voor zolang te zijn aangegaan als de huizen, woningen, winkels
 en andere appartementen volgens plaatselijk gebruik doorgaans verhuurd worden.
 
-## Art. 1757_WAALS_GEWEST
+###### Art. 1757_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1758
+###### Art. 1758
 
 De huur van een gemeubileerd appartement wordt geacht te zijn aangegaan bij het jaar, wanneer zij
 is aangegaan tegen zoveel per jaar;
@@ -17960,152 +17964,152 @@ Bij de maand, wanneer zij is aangegaan tegen zoveel per maand;
 Bij de dag, wanneer zij is aangegaan tegen zoveel per dag.
 (Lid 4 opgeheven) <W 20-02-1991, art. 13>
 
-## Art. 1758_WAALS_GEWEST
+###### Art. 1758_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1758bis
+###### Art. 1758bis
 
 (Opgeheven) <W 20-02-1991, art. 13>
 
-## Art. 1758ter
+###### Art. 1758ter
 
 (Opgeheven) <W 20-02-1991, art. 13>
 
-## Art. 1759
+###### Art. 1759
 
 (Opgeheven) <W 20-02-1991, art. 13>
 
-## Art. 1759bis
+###### Art. 1759bis
 
 (Opgeheven) <W 20-02-1991, art. 13 en art. 14, §2, l3 voor overgangsbepaling>
 
-## Art. 1760
+###### Art. 1760
 
 In geval van ontbinding van de huur door de schuld van de huurder, is deze verplicht de huurprijs te
 betalen gedurende de tijd die voor de wederverhuring nodig is, onverminderd de vergoeding van de schade die
 door het wangebruik mocht zijn veroorzaakt.
 
-## Art. 1760_WAALS_GEWEST
+###### Art. 1760_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1761
+###### Art. 1761
 
 (Opgeheven) <W 20-02-1991, art. 13>
 
-## Art. 1762
+###### Art. 1762
 
 (Opgeheven) <W 20-02-1991, art. 13>
 
-## Art. 1762bis
+###### Art. 1762bis
 
 <Ingevoegd bij W 30-05-1931, art. 1> De uitdrukkelijke ontbindende voorwaarde wordt voor niet
 geschreven gehouden.
 
-## Art. 1762bis_WAALS_GEWEST
+###### Art. 1762bis_WAALS_GEWEST
 
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-##### AFDELING II. - REGELS BETREFFENDE DE HUUROVEREENKOMSTEN MET BETREKKING TOT DE
 HOOFDVERBLIJFPLAATS VAN DE HUURDER IN HET BIJZONDER. (Voor de autonome Tekst : 1991-02-20/32)
 
-##### AFDELING II. WAALS_GEWEST.
+##### AFDELING II. - REGELS BETREFFENDE DE HUUROVEREENKOMSTEN MET BETREKKING TOT DE
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-##### AFDELING IIbis. - REGELS BETREFFENDE DE HANDELSHUUR IN HET BIJZONDER. (Voor de autonome Tekst :
+##### AFDELING II. WAALS_GEWEST.
 1951-04-30/30)
 
-##### AFDELING III. - REGELS BETREFFENDE DE PACHT IN HET BIJZONDER. (Voor de autonome Tekst : 1969-1104/31)
+##### AFDELING IIbis. - REGELS BETREFFENDE DE HANDELSHUUR IN HET BIJZONDER. (Voor de autonome Tekst :
 
+##### AFDELING III. - REGELS BETREFFENDE DE PACHT IN HET BIJZONDER. (Voor de autonome Tekst : 1969-1104/31)
 #### HOOFDSTUK III. - HUUR VAN WERK EN VAN DIENSTEN.
 
-## Art. 1779
+###### Art. 1779
 
 Er zijn drie hoofdsoorten van huur van werk en van diensten :
 1° De huur van werklieden die in iemands dienst treden;
 2° Die van vervoerders te land en te water, die zich belasten met het vervoer van personen of van koopwaren;
 3° Die van aannemers van werken die handelen ingevolge bestekken of aannemingen.
 
-##### AFDELING I. - HUUR VAN DIENSTBODEN EN WERKLIEDEN.
 
-## Art. 1780
+##### AFDELING I. - HUUR VAN DIENSTBODEN EN WERKLIEDEN.
+###### Art. 1780
 
 Men kan zijn diensten slechts voor een tijd of voor een bepaalde onderneming verbinden.
 
-Art. 1781.[1 Deze afdeling is niet van toepassing op vervoerovereenkomsten die worden beheerst door het
+###### Art. 1781.[1 Deze afdeling is niet van toepassing op vervoerovereenkomsten die worden beheerst door het
 Belgisch Scheepvaartwetboek.]1
 (1)<W 2019-05-08/14, art. 5, 025; Inwerkingtreding : 01-09-2020>
 
-##### AFDELING II. - ONDERNEMERS VAN VERVOER TE LAND EN TE WATER.
 
-## Art. 1782
+##### AFDELING II. - ONDERNEMERS VAN VERVOER TE LAND EN TE WATER.
+###### Art. 1782
 
 Vervoerders te land en te water hebben, ten aanzien van de bewaring en het behoud van de zaken
 die hun zijn toevertrouwd, dezelfde verplichtingen als logementhouders, van wie sprake in de titel Bewaargeving
 en sekwester.
 
-## Art. 1783
+###### Art. 1783
 
 Zij zijn verantwoordelijk niet alleen voor hetgeen zij reeds in hun vaartuig of voertuig hebben geladen,
 maar ook voor hetgeen hun op de wal of in de stapelplaats is afgegeven om in hun vaartuig of voertuig te
 worden geplaatst.
 
-## Art. 1784
+###### Art. 1784
 
 Zij zijn aansprakelijk voor het verlies en de beschadiging van de zaken die hun zijn toevertrouwd,
 tenzij zij bewijzen dat deze zijn verloren gegaan of beschadigd door toeval of overmacht.
 
-## Art. 1785
+###### Art. 1785
 
 Ondernemers van openbaar personenvervoer te land en te water, en ondernemers van openbaar
 goederenvervoer, moeten een register houden van het geld, de voorwerpen en de pakketten met het vervoer
 waarvan zij zich belasten.
 
-## Art. 1786
+###### Art. 1786
 
 Ondernemers en bestuurders van openbaar personen- en goederenvervoer, en gezagvoerders van
 schuiten en schepen zijn bovendien onderworpen aan bijzondere reglementen, die tussen hen en de andere
 burgers tot wet strekken.
 
-##### AFDELING III. - BESTEKKEN EN AANNEMINGEN.
 
-## Art. 1787
+##### AFDELING III. - BESTEKKEN EN AANNEMINGEN.
+###### Art. 1787
 
 Wanneer men iemand belast met het maken van een werk, kan men overeenkomen dat hij alleen zijn
 arbeid of zijn diensten, ofwel dat hij ook de stof zal verstrekken.
 
-## Art. 1788
+###### Art. 1788
 
 Ingeval de werkman de stof verstrekt en de zaak op welke wijze ook teniet gaat voordat zij geleverd
 is, komt het verlies voor rekening van de werkman, tenzij de opdrachtgever in gebreke was om de zaak te
 ontvangen.
 
-## Art. 1789
+###### Art. 1789
 
 Ingeval de werkman alleen zijn arbeid of zijn diensten verstrekt en de zaak teniet gaat, is hij slechts
 voor zijn schuld aansprakelijk.
 
-## Art. 1790
+###### Art. 1790
 
 Indien, in het geval van het vorige artikel, de zaak teniet gaat, zelfs buiten enige schuld van de
 werkman, voordat het werk ontvangen is en zonder dat de opdrachtgever in gebreke was het werk goed te
 keuren, kan de werkman geen aanspraak maken op loon, tenzij de zaak is teniet gegaan door een gebrek in de
 stof.
 
-## Art. 1791
+###### Art. 1791
 
 Wanneer een werk bij het stuk of bij de maat vervaardigd wordt, kan de goedkeuring ervan bij
 gedeelten geschieden; zij wordt geacht te zijn gedaan voor al de betaalde gedeelten, indien de opdrachtgever de
 werkman telkens betaalt naar verhouding van hetgeen is afgewerkt.
 
-## Art. 1792
+###### Art. 1792
 
 Indien een gebouw dat tegen vaste prijs is opgericht, geheel of gedeeltelijk teniet gaat door een
 gebrek in de bouw, zelfs door de ongeschiktheid van de grond, zijn de architect en de aannemer daarvoor
 gedurende tien jaren aansprakelijk.
 
-## Art. 1793
+###### Art. 1793
 
 Wanneer een architect of een aannemer het oprichten van een gebouw op zich heeft genomen
 tegen vaste prijs, volgens een met de eigenaar van de grond vastgelegd en overeengekomen plan, kan hij geen
@@ -18114,27 +18118,27 @@ bouwstoffen, noch onder voorwendsel van verandering of vergrotingen die in het p
 voor die veranderingen of vergrotingen schriftelijke toestemming is verleend, en de prijs ervan met de eigenaar is
 overeengekomen.
 
-## Art. 1794
+###### Art. 1794
 
 De opdrachtgever kan de aanneming tegen vaste prijs door zijn enkele wil verbreken, ook al is het
 werk reeds begonnen, mits hij de aannemer schadeloos stelt voor al zijn uitgaven, al zijn arbeid, en alles wat hij bij
 die aanneming had kunnen winnen.
 
-## Art. 1795
+###### Art. 1795
 
 Huur van werk wordt ontbonden door de dood van de werkman, de architect of de aannemer.
 
-## Art. 1796
+###### Art. 1796
 
 Maar de eigenaar is gehouden aan hun nalatenschap de waarde van het gedane werk en die van de
 in gereedheid gebrachte bouwstoffen te betalen, naar evenredigheid van de bij de overeenkomst bedongen prijs,
 doch alleen indien die werken of die bouwstoffen hem van nut kunnen zijn.
 
-## Art. 1797
+###### Art. 1797
 
 De aannemer is aansprakelijk voor de daad van de personen die hij bezigt.
 
-## Art. 1798
+###### Art. 1798
 
 <W 19-02-1990, art. 2> Metselaars, timmerlieden, arbeiders, vaklui en onderaannemers gebezigd bij
 het oprichten van een gebouw of voor andere werken die bij aanneming zijn uitgevoerd, hebben tegen de
@@ -18149,7 +18153,7 @@ hoofdaannemer of de onderaannemer.]1
 (1)<W 2013-07-11/19, art. 90, 019; Inwerkingtreding : 01-01-2017, datum vervangen in 01-01-2018 bij W
 2016-12-25/12, art. 36, Inwerkingtreding : 01-01-2018 !!!>
 
-## Art. 1799
+###### Art. 1799
 
 Metselaars, timmerlieden, slotenmakers en andere werklieden die rechtstreeks werken aannemen
 tegen vaste prijs, zijn gehouden aan de regels in deze afdeling voorgeschreven : zij zijn aannemers voor het werk
@@ -18157,14 +18161,14 @@ dat zij uitvoeren.
 
 #### HOOFDSTUK IV. - VEEPACHT.
 
-##### AFDELING I. - ALGEMENE BEPALINGEN.
 
-## Art. 1800
+##### AFDELING I. - ALGEMENE BEPALINGEN.
+###### Art. 1800
 
 Veepacht is een contract waarbij de ene partij aan de andere vee geeft om het te bewaken, te
 voeden en te verzorgen, onder zodanige voorwaarden als tussen hen is overeengekomen.
 
-## Art. 1801
+###### Art. 1801
 
 Er zijn verschillende soorten van veepacht :
 Eenvoudige of gewone veepacht,
@@ -18172,56 +18176,56 @@ Veepacht bij helften,
 Veepacht gegeven aan de pachter of aan de deelpachter.
 Er is nog een vierde soort van contract, oneigenlijk 'veepacht' genoemd.
 
-## Art. 1802
+###### Art. 1802
 
 Men kan alle soorten van dieren in veepacht geven, die voor de aanfok geschikt zijn of die voor de
 landbouw of de handel voordeel kunnen opleveren.
 
-## Art. 1803
+###### Art. 1803
 
 Bij ontstentenis van bijzondere overeenkomsten worden die contracten naar de hiernavolgende
 beginselen geregeld.
 
-##### AFDELING II. - EENVOUDIGE VEEPACHT.
 
-## Art. 1804
+##### AFDELING II. - EENVOUDIGE VEEPACHT.
+###### Art. 1804
 
 Eenvoudige veepacht is een contract waarbij men aan een ander dieren geeft om die te bewaken, te
 voeden en te verzorgen, onder voorwaarde dat de pachter de helft zal ontvangen van de aanfok, en dat hij ook
 de helft zal dragen van het verlies.
 
-## Art. 1805
+###### Art. 1805
 
 Schatting van het vee in het contract van veepacht draagt de eigendom van het vee niet over op de
 pachter; zij dient alleen om het verlies of de winst bij het eindigen van de veepacht te bepalen.
 
-## Art. 1806
+###### Art. 1806
 
 De pachter is verplicht voor het behoud van het gepachte vee als een goed huisvader te zorgen.
 
-## Art. 1807
+###### Art. 1807
 
 Voor het toeval is hij alleen dan aansprakelijk indien er tevoren zijnerzijds enige schuld is geweest,
 zonder welke het verlies niet zou hebben plaatsgehad.
 
-## Art. 1808
+###### Art. 1808
 
 In geval van geschil dienaangaande moet de pachter het bewijs leveren van het toeval, en de
 verpachter het bewijs van de schuld die volgens hem aan de pachter te wijten is.
 
-## Art. 1809
+###### Art. 1809
 
 De pachter die, als gevolg van het toeval, van zijn verplichting ontslagen is, moet niettemin de huiden
 van de dieren verantwoorden.
 
-## Art. 1810
+###### Art. 1810
 
 Indien het vee geheel teniet gaat buiten de schuld van de pachter, komt het verlies daarvan voor
 rekening van de verpachter.
 Indien slechts een gedeelte teniet gaat, wordt het verlies gemeenschappelijk gedragen, volgens de schatting die
 gedaan is bij de aanvang, en die welke zal worden gedaan bij het eindigen van de veepacht.
 
-## Art. 1811
+###### Art. 1811
 
 Men mag niet bedingen :
 Dat de pachter het gehele verlies van het vee zal dragen, ook wanneer het door toeval en buiten zijn schuld is
@@ -18233,33 +18237,33 @@ Alle zodanige overeenkomsten zijn nietig.
 De pachter alleen geniet het voordeel van het zuivel, de mest en het werk van de in veepacht gegeven dieren.
 De wol en de aanfok worden verdeeld.
 
-## Art. 1812
+###### Art. 1812
 
 De pachter mag over geen enkel dier, hetzij van de oorspronkelijke kudde, hetzij van de aanfok,
 beschikken zonder toestemming van de verpachter, die evenmin erover mag beschikken zonder toestemming
 van de pachter.
 
-## Art. 1813
+###### Art. 1813
 
 Wanneer het vee in pacht gegeven wordt aan de pachter van een ander eigenaar, moet deze laatste
 daarvan in kennis worden gesteld; anders kan hij op het vee beslag leggen en het doen verkopen voor hetgeen
 zijn pachter hem verschuldigd is.
 
-## Art. 1814
+###### Art. 1814
 
 De pachter mag de schapen niet scheren zonder de verpachter daarvan vooraf te verwittigen.
 
-## Art. 1815
+###### Art. 1815
 
 Indien de duur van de veepacht niet bij de overeenkomst bepaald is, wordt zij geacht te zijn
 aangegaan voor drie jaren.
 
-## Art. 1816
+###### Art. 1816
 
 De verpachter kan de ontbinding ervan eerder vorderen, indien de pachter zijn verplichtingen niet
 nakomt.
 
-## Art. 1817
+###### Art. 1817
 
 Bij het einde van de pacht, of bij de ontbinding ervan, wordt het vee opnieuw geschat.
 De verpachter kan dieren van elke soort voorafnemen, ten belope van de eerste schatting; de overige worden
@@ -18267,14 +18271,14 @@ verdeeld.
 Indien er niet genoeg dieren zijn om de eerste schatting te bereiken, neemt de verpachter hetgeen over is, en
 de partijen vergoeden elkaar het verlies.
 
-##### AFDELING III. - VEEPACHT BIJ HELFTEN.
 
-## Art. 1818
+##### AFDELING III. - VEEPACHT BIJ HELFTEN.
+###### Art. 1818
 
 Veepacht bij helften is een vennootschap waarbij ieder contractant de helft van het vee verstrekt, dat
 gemeen blijft wat winst en verlies betreft.
 
-## Art. 1819
+###### Art. 1819
 
 De pachter alleen geniet, zoals bij eenvoudige veepacht, het voordeel van het zuivel, de mest en het
 werk van de dieren.
@@ -18282,42 +18286,42 @@ De verpachter heeft enkel recht op de helft van de wol en van de aanfok.
 Iedere daarmee strijdige overeenkomst is nietig, tenzij de verpachter eigenaar is van de boerderij waarvan de
 pachter huurder of deelpachter is.
 
-## Art. 1820
+###### Art. 1820
 
 Alle overige regels betreffende de eenvoudige veepacht zijn van toepassing op de veepacht bij
 helften.
 
-##### AFDELING IV. - VEEPACHT DOOR DE EIGENAAR TOEGESTAAN AAN ZIJN PACHTER OF ZIJN DEELPACHTER.
 
 § I. VEEPACHT AAN DE PACHTER TOEGESTAAN.
 
-## Art. 1821
+##### AFDELING IV. - VEEPACHT DOOR DE EIGENAAR TOEGESTAAN AAN ZIJN PACHTER OF ZIJN DEELPACHTER.
+###### Art. 1821
 
 Deze veepacht (ook "ijzeren veepacht" genoemd) is die waarbij de eigenaar van een boerderij deze in
 pacht geeft, onder verplichting voor de pachter om, bij het eindigen van de pacht, dieren achter te laten van
 gelijke waarde als de geschatte waarde van de dieren die hij ontvangen heeft.
 
-## Art. 1822
+###### Art. 1822
 
 De schatting van het aan de pachter gegeven vee draagt hem de eigendom daarvan niet over, maar
 brengt niettemin het risico te zijnen laste.
 
-## Art. 1823
+###### Art. 1823
 
 Alle voordelen komen toe aan de pachter zolang zijn pacht duurt, behoudens daarmee strijdige
 overeenkomst.
 
-## Art. 1824
+###### Art. 1824
 
 Bij veepacht aan de pachter toegestaan, is de mest niet begrepen in de persoonlijke voordelen van
 de pachter, maar behoort aan de boerderij en moet uitsluitend voor de exploitatie daarvan aangewend worden.
 
-## Art. 1825
+###### Art. 1825
 
 Het verlies, ook al is het volledig en door toeval veroorzaakt, komt voor het geheel ten laste van de
 pachter, behoudens daarmee strijdige overeenkomst.
 
-## Art. 1826
+###### Art. 1826
 
 Bij het einde van de pacht kan de pachter het vee niet behouden tegen betaling van de prijs van de
 oorspronkelijke schatting; hij moet vee achterlaten van gelijke waarde als het vee dat hij ontvangen heeft.
@@ -18325,12 +18329,12 @@ Indien er een tekort is, moet hij dit vergoeden; en alleen het meerdere behoort 
 
 § II. VEEPACHT AAN DE DEELPACHTER TOEGESTAAN.
 
-## Art. 1827
+###### Art. 1827
 
 Indien het in pacht gegeven vee geheel teniet gaat buiten de schuld van de deelpachter, draagt de
 verpachter het verlies.
 
-## Art. 1828
+###### Art. 1828
 
 Men mag bedingen dat de deelpachter aan de verpachter zijn aandeel in de wol zal overlaten tegen
 een prijs beneden de normale waarde;
@@ -18338,17 +18342,17 @@ Dat de verpachter een groter aandeel in de winst zal hebben;
 Dat hij de helft zal hebben van het zuivel;
 Maar men mag niet bedingen dat de deelpachter het gehele verlies zal dragen.
 
-## Art. 1829
+###### Art. 1829
 
 Deze veepacht eindigt tegelijk met de deelpacht.
 
-## Art. 1830
+###### Art. 1830
 
 Zij is verder aan alle regels van de gewone veepacht onderworpen.
 
-##### AFDELING V. - CONTRACT ONEIGENLIJK VEEPACHT GENOEMD.
 
-## Art. 1831
+##### AFDELING V. - CONTRACT ONEIGENLIJK VEEPACHT GENOEMD.
+###### Art. 1831
 
 Wanneer een of meer koeien gegeven worden om die te stallen en te voeden, behoudt de
 verhuurder de eigendom daarvan; geen ander voordeel dan de kalveren die van de koeien voortkomen, komt
@@ -18358,193 +18362,193 @@ hem toe.
 
 #### HOOFDSTUK I. - ALGEMENE BEPALINGEN.
 
-## Art. 1832
+###### Art. 1832
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1833
+###### Art. 1833
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1834
+###### Art. 1834
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
 #### HOOFDSTUK II. - VERSCHILLENDE SOORTEN VAN VENNOOTSCHAPPEN.
 
-## Art. 1835
+###### Art. 1835
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
+
 
 ##### AFDELING I. - ALGEMENE VENNOOTSCHAPPEN.
-
-## Art. 1836
-
-(Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
-
-## Art. 1837
+###### Art. 1836
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1838
+###### Art. 1837
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1839
+###### Art. 1838
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1840
+###### Art. 1839
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
+
+###### Art. 1840
+
+(Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
+
 
 ##### AFDELING II. - BIJZONDERE VENNOOTSCHAP.
-
-## Art. 1841
+###### Art. 1841
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1842
+###### Art. 1842
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
 #### HOOFDSTUK III. - VERPLICHTINGEN VAN DE VENNOTEN ONDERLING EN TEN AANZIEN VAN DERDEN.
 
+
 ##### AFDELING I. - VERPLICHTINGEN VAN DE VENNOTEN ONDERLING.
-
-## Art. 1843
-
-(Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
-
-## Art. 1844
+###### Art. 1843
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1845
+###### Art. 1844
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1846
+###### Art. 1845
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1847
+###### Art. 1846
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1848
+###### Art. 1847
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1849
+###### Art. 1848
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1850
+###### Art. 1849
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1851
+###### Art. 1850
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1852
+###### Art. 1851
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1853
+###### Art. 1852
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1854
+###### Art. 1853
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1855
+###### Art. 1854
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1856
+###### Art. 1855
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1857
+###### Art. 1856
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1858
+###### Art. 1857
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1859
+###### Art. 1858
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1860
+###### Art. 1859
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1861
+###### Art. 1860
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
+
+###### Art. 1861
+
+(Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
+
 
 ##### AFDELING II. - VERPLICHTINGEN VAN DE VENNOTEN TEN AANZIEN VAN DERDEN.
-
-## Art. 1862
-
-(Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
-
-## Art. 1863
+###### Art. 1862
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1864
+###### Art. 1863
+
+(Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
+
+###### Art. 1864
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
 #### HOOFDSTUK IV. - VERSCHILLENDE WIJZEN WAAROP DE VENNOOTSCHAP EINDIGT.
 
-## Art. 1865
+###### Art. 1865
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1866
+###### Art. 1866
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1867
+###### Art. 1867
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1868
+###### Art. 1868
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1869
+###### Art. 1869
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1870
+###### Art. 1870
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1871
+###### Art. 1871
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
-## Art. 1872
+###### Art. 1872
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
 BEPALING BETREFFENDE DE HANDELSVENNOOTSCHAPPEN.
 
-## Art. 1873
+###### Art. 1873
 
 (Opgeheven) <W 1999-05-07/66, art. 16, 005; Inwerkingtreding : 06-02-2001>
 
 ### TITEL X. - LENING.
 
-## Art. 1874
+###### Art. 1874
 
 Er zijn twee soorten van lening :
 De lening van zaken die niet teniet gaan door het gebruik dat men ervan maakt,
@@ -18554,99 +18558,99 @@ De tweede heet verbruiklening of eenvoudige lening.
 
 #### HOOFDSTUK I. - BRUIKLENING OF COMMODAAT.
 
-##### AFDELING I. - AARD VAN DE BRUIKLENING.
 
-## Art. 1875
+##### AFDELING I. - AARD VAN DE BRUIKLENING.
+###### Art. 1875
 
 Bruiklening of commodaat is een contract waarbij de ene partij aan de andere een zaak afgeeft om
 daarvan gebruik te maken, onder verplichting voor degene die de zaak ontvangt, die terug te geven na daarvan
 gebruik te hebben gemaakt.
 
-## Art. 1876
+###### Art. 1876
 
 Deze lening is essentieel een overeenkomst om niet.
 
-## Art. 1877
+###### Art. 1877
 
 De uitlener blijft eigenaar van de geleende zaak.
 
-## Art. 1878
+###### Art. 1878
 
 Alles wat in de handel is, en niet door het gebruik teniet gaat, kan het voorwerp zijn van deze
 overeenkomst.
 
-## Art. 1879
+###### Art. 1879
 
 De verbintenissen die uit de bruiklening ontstaan, gaan over op de erfgenamen van degene die te
 leen geeft, en op de erfgenamen van degene die te leen ontvangt.
 Indien men echter de lening alleen gedaan heeft uit aanmerking van de lener, en aan zijn persoon in het
 bijzonder, kunnen zijn erfgenamen het genot van de geleende zaak niet blijven behouden.
 
-##### AFDELING II. - VERPLICHTINGEN VAN DE LENER.
 
-## Art. 1880
+##### AFDELING II. - VERPLICHTINGEN VAN DE LENER.
+###### Art. 1880
 
 De lener is gehouden als een goed huisvader voor de bewaring en het behoud van de geleende zaak
 te zorgen. Hij mag zich slechts ervan bedienen voor het gebruik dat door de aard der zaak of door de
 overeenkomst bepaald is; een en ander op straffe van schadevergoeding, indien daartoe grond bestaat.
 
-## Art. 1881
+###### Art. 1881
 
 Indien de lener zich van de zaak bedient voor een ander gebruik, of gedurende een langere tijd dan
 hij mocht, is hij voor het verlies aansprakelijk, al is dit ook door toeval ontstaan.
 
-## Art. 1882
+###### Art. 1882
 
 Indien de zaak teniet gaat door een toeval waarvoor de lener die had kunnen behoeden door zijn
 eigen zaak te gebruiken, of indien hij, ingeval hij slechts een van beide kon behouden, de voorkeur aan de zijne
 heeft gegeven, is hij voor het verlies van de andere aansprakelijk.
 
-## Art. 1883
+###### Art. 1883
 
 Indien de zaak bij het te leen geven geschat is, komt het verlies, al ontstaat het ook door toeval, voor
 rekening van de lener, zo er geen daarmee strijdige overeenkomst bestaat.
 
-## Art. 1884
+###### Art. 1884
 
 Indien de zaak in waarde vermindert alleen ten gevolge van het gebruik waarvoor zij geleend is, en
 buiten enige schuld van de lener, moet deze voor de waardevermindering niet instaan.
 
-## Art. 1885
+###### Art. 1885
 
 De lener mag de zaak niet voor zich houden bij wijze van schuldvergelijking met hetgeen de uitlener
 hem verschuldigd is.
 
-## Art. 1886
+###### Art. 1886
 
 Indien de lener, om van de zaak gebruik te kunnen maken, enige uitgave heeft gedaan, kan hij die
 niet terugvorderen.
 
-## Art. 1887
+###### Art. 1887
 
 Indien verscheidene personen gezamenlijk dezelfde zaak te leen hebben ontvangen, zijn zij daarvoor
 jegens de uitlener hoofdelijk aansprakelijk.
 
-##### AFDELING III. - VERPLICHTINGEN VAN DEGENE DIE IN BRUIKLEEN GEEFT.
 
-## Art. 1888
+##### AFDELING III. - VERPLICHTINGEN VAN DEGENE DIE IN BRUIKLEEN GEEFT.
+###### Art. 1888
 
 De uitlener kan de geleende zaak niet terugnemen dan nadat de overeengekomen tijd verlopen is, of
 bij gebreke van overeenkomst dienaangaande, nadat zij gediend heeft voor het gebruik waarvoor zij was
 uitgeleend.
 
-## Art. 1889
+###### Art. 1889
 
 Indien evenwel, gedurende de tijd, of voordat de behoefte van de lener heeft opgehouden, de
 uitlener zijn zaak dringend en onvoorziens nodig heeft, kan de rechter, naar gelang van de omstandigheden, de
 lener verplichten hem die terug te geven.
 
-## Art. 1890
+###### Art. 1890
 
 Indien, gedurende de lening, de lener, voor het behoud van de zaak, enige buitengewone,
 noodzakelijke uitgave heeft moeten doen, die zo dringend was dat hij daarvan tevoren aan de uitlener geen
 kennis heeft kunnen geven, is deze verplicht hem de uitgave te vergoeden.
 
-## Art. 1891
+###### Art. 1891
 
 Wanneer de geleende zaak zodanige gebreken heeft dat zij aan hem die zich ervan bedient, schade
 kan veroorzaken, is de uitlener aansprakelijk, indien hij de gebreken kende en de lener daarvan niet op de hoogte
@@ -18654,25 +18658,25 @@ heeft gebracht.
 
 #### HOOFDSTUK II. - VERBRUIKLENING OF EENVOUDIGE LENING.
 
-##### AFDELING I. - AARD VAN DE VERBRUIKLENING.
 
-## Art. 1892
+##### AFDELING I. - AARD VAN DE VERBRUIKLENING.
+###### Art. 1892
 
 Verbruiklening is een contract waarbij de ene partij een zekere hoeveelheid zaken die door het
 gebruik teniet gaan, aan de andere partij afgeeft, onder verplichting voor deze om aan de eerstgenoemde
 evenzoveel van gelijke soort en hoedanigheid terug te geven.
 
-## Art. 1893
+###### Art. 1893
 
 Uit kracht van deze lening wordt de lener eigenaar van de geleende zaak; en indien deze, op welke
 wijze ook, teniet gaat, is het verlies ervan voor zijn rekening.
 
-## Art. 1894
+###### Art. 1894
 
 Zaken die, hoewel van dezelfde soort, individueel verschillen, zoals dieren, kan men niet als
 verbruiklening te leen geven : dat is dan bruiklening.
 
-## Art. 1895
+###### Art. 1895
 
 De verbintenis die voortvloeit uit een lening van geld, is steeds bepaald door de numerieke geldsom
 die in het contract is uitgedrukt.
@@ -18680,70 +18684,70 @@ Indien er voor het tijdstip van de betaling vermeerdering of vermindering van de
 heeft plaatsgehad, moet de schuldenaar de geleende numerieke geldsom teruggeven en moet hij slechts die som
 teruggeven in de muntspeciën die gangbaar zijn op het ogenblik van de betaling.
 
-## Art. 1896
+###### Art. 1896
 
 De in het vorige artikel gestelde regel geldt niet, indien de lening in staven geschied is.
 
-## Art. 1897
+###### Art. 1897
 
 Indien staven of waren zijn te leen gegeven, moet de schuldenaar, hoezeer de waarde daarvan ook
 vermeerderd of verminderd mocht zijn, altijd een gelijke hoeveelheid en hoedanigheid, en niets anders,
 teruggeven.
 
-##### AFDELING II. - VERPLICHTINGEN VAN DE UITLENER.
 
-## Art. 1898
+##### AFDELING II. - VERPLICHTINGEN VAN DE UITLENER.
+###### Art. 1898
 
 _ Bij verbruiklening is de uitlener aansprakelijk op de wijze die bij artikel 1891 voor de bruiklening
 bepaald is.
 
-## Art. 1899
+###### Art. 1899
 
 De uitlener kan de geleende zaken niet terugvorderen voordat de overeengekomen tijd verstreken is.
 
-## Art. 1900
+###### Art. 1900
 
 Indien voor de teruggave geen tijd bepaald is, kan de rechter aan de lener uitstel toestaan, naar
 gelang van de omstandigheden.
 
-## Art. 1901
+###### Art. 1901
 
 Indien enkel is overeengekomen dat de lener zal betalen wanneer hij dit zal kunnen, of wanneer bij de
 nodige middelen daartoe zal bezitten, bepaalt de rechter een tijd voor de betaling, naar gelang van de
 omstandigheden.
 
-##### AFDELING III. - VERPLICHTINGEN VAN DE LENER.
 
-## Art. 1902
+##### AFDELING III. - VERPLICHTINGEN VAN DE LENER.
+###### Art. 1902
 
 De lener is gehouden de geleende zaken in dezelfde hoeveelheid en hoedanigheid en op de
 overeengekomen tijd terug te geven.
 
-## Art. 1903
+###### Art. 1903
 
 Indien het hem niet mogelijk is daaraan te voldoen, moet hij de waarde van het geleende betalen,
 gelet op de tijd en de plaats waarop de zaak volgens de overeenkomst moest worden teruggegeven
 Indien die tijd en die plaats niet zijn bepaald, geschiedt de betaling volgens de prijs ten tijde en ter plaatse van de
 lening.
 
-## Art. 1904
+###### Art. 1904
 
 Indien de lener de geleende zaken of de waarde ervan niet op de overeengekomen tijd teruggeeft, is
 hij daarvan interest verschuldigd te rekenen van de dag van de (aanmaning). <W 01-05-1913, art. 7>
 
 #### HOOFDSTUK III. - LENING OP INTEREST.
 
-## Art. 1905
+###### Art. 1905
 
 Het is geoorloofd interest te bedingen voor eenvoudige leningen, hetzij van geld, hetzij van waren of
 andere roerende zaken.
 
-## Art. 1906
+###### Art. 1906
 
 De lener die interest betaald heeft welke niet bedongen was, kan die niet terugvorderen, noch op het
 kapitaal in mindering brengen.
 
-## Art. 1907
+###### Art. 1907
 
 <W 27-07-1934, art. 1> De interest is of wettelijk of bij overeenkomst bedongen. De wettelijke
 interest wordt bij de wet bepaald. De bedongen interest mag de wettelijke te boven gaan, in alle gevallen waarin
@@ -18757,14 +18761,14 @@ Indien de rentevoet van de lening niet is vastgesteld door een bijzondere bepali
 zal de wettelijke interest worden toegepast en de lener zal niets verschuldigd zijn als commissie of als bijkomende
 vergelding.
 
-## Art. 1907bis
+###### Art. 1907bis
 
 <Ingevoegd bij W 27-07-1934, art. 2> Bij gehele of gedeeltelijke terugbetaling van een lening of
 interest kan in geen geval van de schuldenaar, buiten het terugbetaalde kapitaal en de vervallen interest, een
 vergoeding voor wederbelegging worden gevorderd, groter dan zes maanden interest, berekend over de
 terugbetaalde som en naar de in de overeenkomst bepaalde rentevoet.
 
-## Art. 1907ter
+###### Art. 1907ter
 
 <Ingevoegd bij KB 18-03-1935, art. 3> Onverminderd de toepassing van de bepalingen tot
 bescherming der onbekwamen of betreffende de geldigheid der overeenkomsten, indien de uitlener, met
@@ -18775,40 +18779,40 @@ lener, diens verplichtingen tot de terugbetaling van het geleende kapitaal en de
 De vermindering is van toepassing op de door de lener gedane betalingen, mits de vordering wordt ingesteld
 binnen drie jaren te rekenen van de dag van de betaling.
 
-## Art. 1908
+###### Art. 1908
 
 Kwijting voor het kapitaal, gegeven zonder voorbehoud van de interest, doet vermoeden dat deze
 betaald is en heeft bevrijding ervan ten gevolge.
 
-## Art. 1909
+###### Art. 1909
 
 Men kan interest bedingen tegen betaling van een kapitaal dat de uitlener zich verbindt niet te zullen
 terugvorderen.
 In dit geval wordt de lening vestiging van rente genoemd.
 
-## Art. 1910
+###### Art. 1910
 
 Deze rente kan gevestigd worden op twee wijzen, als altijddurende rente of als lijfrente.
 
-## Art. 1911
+###### Art. 1911
 
 _ De altijddurende rente is essentieel aflosbaar.
 Partijen kunnen slechts overeenkomen dat de aflossing niet zal geschieden dan na verloop van een zekere tijd,
 die tien jaren niet mag te boven gaan, of zonder dat de schuldeiser vooraf zal zijn gewaarschuwd met
 inachtneming van de door hen bepaalde termijn.
 
-## Art. 1912
+###### Art. 1912
 
 De schuldenaar van een altijddurende rente kan tot aflossing genoodzaakt worden :
 1° Indien hij gedurende twee jaren ophoudt zijn verplichtingen na te komen;
 2° Indien hij verzuimt ten behoeve van de uitlener de bij het contract beloofde zekerheid te stellen.
 
-## Art. 1913
+###### Art. 1913
 
 Het kapitaal van de altijddurende rente wordt ook opeisbaar in geval van faillissement of van kennelijk
 onvermogen van de schuldenaar.
 
-## Art. 1914
+###### Art. 1914
 
 De regels betreffende de lijfrente worden bepaald in de titel Kanscontracten.
 
@@ -18816,63 +18820,63 @@ De regels betreffende de lijfrente worden bepaald in de titel Kanscontracten.
 
 #### HOOFDSTUK I. - BEWAARGEVING IN HET ALGEMEEN EN VERSCHILLENDE SOORTEN VAN BEWAARGEVING.
 
-## Art. 1915
+###### Art. 1915
 
 Bewaargeving in het algemeen is een handeling waarbij men de zaak van een ander aanneemt, onder
 verplichting om die te bewaren en in natura terug te geven.
 
-## Art. 1916
+###### Art. 1916
 
 Er zijn twee soorten van bewaargeving : de eigenlijke bewaargeving en het sekwester.
 
 #### HOOFDSTUK II. - EIGENLIJKE BEWAARGEVING.
 
-##### AFDELING I. - AARD EN WEZEN VAN HET CONTRACT VAN BEWAARGEVING.
 
-## Art. 1917
+##### AFDELING I. - AARD EN WEZEN VAN HET CONTRACT VAN BEWAARGEVING.
+###### Art. 1917
 
 De eigenlijke bewaargeving is essentieel een contract om niet.
 
-## Art. 1918
+###### Art. 1918
 
 Zij kan slechts roerende goederen tot voorwerp hebben.
 
-## Art. 1919
+###### Art. 1919
 
 Zij is niet voltrokken dan door de werkelijke of de fictieve overgave van de in bewaring gegeven zaak.
 Fictieve overgave is voldoende, wanneer de bewaarnemer reeds uit enigen anderen hoofde in het bezit is van
 de zaak die men hem op grond van de bewaargeving laat behouden.
 
-## Art. 1920
+###### Art. 1920
 
 Bewaargeving geschiedt vrijwillig of uit noodzaak.
 
-##### AFDELING II. - VRIJWILLIGE BEWAARGEVING.
 
-## Art. 1921
+##### AFDELING II. - VRIJWILLIGE BEWAARGEVING.
+###### Art. 1921
 
 Vrijwillige bewaargeving komt tot stand door de wederzijdse toestemming van de bewaargever en de
 bewaarnemer.
 
-## Art. 1922
+###### Art. 1922
 
 Vrijwillige bewaargeving kan slechts wettig gedaan worden door de eigenaar van de in bewaring
 gegeven zaak, of met zijn uitdrukkelijke of stilzwijgende toestemming.
 
-## Art. 1923
+###### Art. 1923
 
 Vrijwillige bewaargeving moet door geschrift bewezen worden. Het bewijs door getuigen wordt niet
 toegelaten voor een waarde die ((375 EUR)) te boven gaat. <W 10-12-1990, art. 2> <KB 2000-07-20/58, art. 1,
 006; Inwerkingtreding : 01-01-2002>
 
-## Art. 1924
+###### Art. 1924
 
 Wanneer een bewaargeving die ((375 EUR)) te boven gaat, niet door geschrift bewezen is, wordt hij
 die als bewaarnemer wordt aangesproken, op zijn woord geloofd, hetzij betreffende het feit van de bewaargeving
 zelf, hetzij betreffende de zaak die het voorwerp ervan uitmaakte, hetzij betreffende de teruggave daarvan. <W
 10-12-1990, art. 2> <KB 2000-07-20/58, art. 1, 006; Inwerkingtreding : 01-01-2002>
 
-## Art. 1925
+###### Art. 1925
 
 Vrijwillige bewaargeving kan alleen plaatshebben tussen personen die bekwaam zijn om contracten
 aan te gaan.
@@ -18880,21 +18884,21 @@ Wanneer evenwel iemand die bekwaam is om contracten aan te gaan, iets in bewarin
 onbekwame, is hij gehouden tot alle verplichtingen van een werkelijke bewaarnemer; hij kan vervolgd worden
 door de voogd of de bewindvoerder van de persoon die de zaak in bewaring gegeven heeft.
 
-## Art. 1926
+###### Art. 1926
 
 Indien de bewaargeving aan een onbekwame gedaan is door iemand die bekwaam is, heeft de
 bewaargever een vordering tot teruggave van de in bewaring gegeven zaak slechts zolang deze nog in handen
 van de bewaarnemer is, of een vordering tot vergoeding ten belope van het voordeel dat de bewaarnemer uit de
 zaak getrokken heeft.
 
-##### AFDELING III. - VERPLICHTINGEN VAN DE BEWAARNEMER.
 
-## Art. 1927
+##### AFDELING III. - VERPLICHTINGEN VAN DE BEWAARNEMER.
+###### Art. 1927
 
 De bewaarnemer moet aan de bewaring van de in bewaring gegeven zaak dezelfde zorg besteden
 als hij aan de bewaring van zijn eigen zaken besteedt.
 
-## Art. 1928
+###### Art. 1928
 
 De bepaling van het vorige artikel wordt strenger toegepast :
 1° indien de bewaarnemer zichzelf heeft aangeboden om de zaak in bewaring te nemen;
@@ -18903,57 +18907,57 @@ De bepaling van het vorige artikel wordt strenger toegepast :
 4° indien uitdrukkelijk is overeengekomen dat de bewaarnemer voor om het even welke schuld aansprakelijk zal
 zijn.
 
-## Art. 1929
+###### Art. 1929
 
 In geen geval is de bewaarnemer aansprakelijk voor gevallen van overmacht, behalve indien hij in
 gebreke gesteld is de in bewaring gegeven zaak terug te geven.
 
-## Art. 1930
+###### Art. 1930
 
 Hij mag zich van de in bewaring gegeven zaak niet bedienen, zonder uitdrukkelijk of stilzwijgend
 verlof van de bewaargever.
 
-## Art. 1931
+###### Art. 1931
 
 Hij mag niet onderzoeken waarin de zaken bestaan, die hem in bewaring zijn gegeven, wanneer die
 hem in een gesloten kist of onder verzegelde omslag zijn toevertrouwd.
 
-## Art. 1932
+###### Art. 1932
 
 De bewaarnemer moet de zaak zelf, die hij ontvangen heeft, teruggeven.
 Aldus moet in bewaring gegeven gemunt geld in dezelfde speciën worden teruggeven, hetzij de waarde ervan
 vermeerderd of verminderd is.
 
-## Art. 1933
+###### Art. 1933
 
 De bewaarnemer behoeft de in bewaring ontvangen zaak slechts terug te geven in de staat waarin zij
 zich bevindt op het tijdstip van de teruggave. De beschadiging die zij buiten zijn toedoen heeft ondergaan, komt
 voor rekening van de bewaargever.
 
-## Art. 1934
+###### Art. 1934
 
 De bewaarnemer aan wie de zaak door overmacht ontnomen is, en die daarvoor een prijs of iets
 anders in de plaats ontvangen heeft, moet het aldus ontvangene teruggeven.
 
-## Art. 1935
+###### Art. 1935
 
 De erfgenaam van de bewaarnemer, die, niet wetende dat de zaak in bewaring gegeven was, deze te
 goeder trouw verkocht heeft, is slechts verplicht de door hem ontvangen prijs terug te geven, of indien hij de
 prijs nog niet ontvangen heeft, zijn vordering tegen de koper af te staan.
 
-## Art. 1936
+###### Art. 1936
 
 Indien de in bewaring gegeven zaak vruchten heeft opgeleverd, die door de bewaarnemer ontvangen
 zijn, is hij verplicht die terug te geven. Van geld dat in bewaring is gegeven, is hij geen interest verschuldigd dan
 van de dag waarop hij in gebreke gesteld is het terug te geven.
 
-## Art. 1937
+###### Art. 1937
 
 De bewaarnemer moet de in bewaring gegeven zaak slechts teruggeven aan degene die ze hem
 heeft toevertrouwd, of aan hem in wiens naam de bewaargeving gedaan is, of aan hem die aangewezen is om ze
 terug te ontvangen.
 
-## Art. 1938
+###### Art. 1938
 
 Hij kan van hem die de zaak in bewaring gegeven heeft, het bewijs niet vorderen, dat hij eigenaar was
 van die zaak.
@@ -18963,7 +18967,7 @@ en genoegzame tijd op te eisen. Indien degene aan wie de kennisgeving gedaan is,
 gegeven zaak op te eisen, is de bewaarnemer wettig ontslagen door de overgave van de zaak aan hem van wie
 hij die ontvangen heeft.
 
-## Art. 1939
+###### Art. 1939
 
 In geval van (...) overlijden van de bewaargever kan de in bewaring gegeven zaak slechts aan zijn
 erfgenaam worden teruggegeven. <W 15-12-1949, art. 28>
@@ -18972,77 +18976,77 @@ aandeel.
 Indien de in bewaring gegeven zaak ondeelbaar is, moeten de erfgenamen zich met elkaar verstaan omtrent de
 overneming van de zaak.
 
-## Art. 1940
+###### Art. 1940
 
 <W 2003-02-13/36, art. 19, 007; Inwerkingtreding : 01-06-2003> Indien de bewaargever van staat
 veranderd is, bijvoorbeeld indien tegen een meerderjarige bewaargever onbekwaamverklaring is uitgesproken en
 in alle soortgelijke gevallen, kan de in bewaring gegeven zaak slechts teruggegeven worden aan hem die het
 beheer heeft over de rechten en de goederen van de bewaargever.
 
-## Art. 1941
+###### Art. 1941
 
 Indien de zaak in bewaring gegeven is door de voogd (...) of door een bewindvoerder, in hun
 onderscheiden hoedanigheid, en hun beheer of bestuur geëindigd is, kan zij slechts teruggegeven worden aan
 de persoon die door die voogd (...) of die bewindvoerder vertegenwoordigd werd. <W 2003-02-13/36, art. 20,
 007; Inwerkingtreding : 01-06-2003>
 
-## Art. 1942
+###### Art. 1942
 
 Indien het contract van bewaargeving de plaats aanwijst waar de teruggave moet geschieden, is de
 bewaarnemer gehouden de in bewaring gegeven zaak aldaar te brengen. Indien er kosten van vervoer zijn,
 komen deze ten laste van de bewaargever.
 
-## Art. 1943
+###### Art. 1943
 
 Indien het contract de plaats voor de teruggave niet aanwijst, moet deze gedaan worden op de
 plaats zelf waar de in bewaring gegeven zaak zich bevindt.
 
-## Art. 1944
+###### Art. 1944
 
 De in bewaring gegeven zaak moet aan de bewaargever teruggegeven worden zodra hij zulks
 vordert, al is ook bij het contract een bepaalde tijd voor de teruggave vastgesteld; tenzij er, in handen van de
 bewaarnemer, beslag onder derden gelegd is of verzet gedaan is tegen de teruggave en tegen de verplaatsing
 van de in bewaring gegeven zaak.
 
-## Art. 1945
+###### Art. 1945
 
 Het voorrecht van boedelafstand komt niet toe aan de ontrouwe bewaarnemer.
 
-## Art. 1946
+###### Art. 1946
 
 Alle verplichtingen van de bewaarnemer houden op, indien hij ontdekt en bewijst dat hij zelf eigenaar
 is van de in bewaring gegeven zaak.
 
-##### AFDELING IV. - VERPLICHTINGEN VAN DE BEWAARGEVER.
 
-## Art. 1947
+##### AFDELING IV. - VERPLICHTINGEN VAN DE BEWAARGEVER.
+###### Art. 1947
 
 De bewaargever is verplicht aan de bewaarnemer de kosten te vergoeden die deze voor het behoud
 van de in bewaring gegeven zaak gemaakt heeft, en hem schadeloos te stellen voor alle verliezen die de
 bewaargeving hem mocht hebben veroorzaakt.
 
-## Art. 1948
+###### Art. 1948
 
 De bewaarnemer kan de in bewaring gegeven zaak terughouden tot de gehele voldoening van
 hetgeen hem wegens de bewaargeving verschuldigd is.
 
-##### AFDELING V. - BEWAARGEVING UIT NOODZAAK.
 
-## Art. 1949
+##### AFDELING V. - BEWAARGEVING UIT NOODZAAK.
+###### Art. 1949
 
 Bewaargeving uit noodzaak is de bewaargeving waartoe men wordt gedwongen door enig ongeval,
 zoals brand, instorting, plundering, schipbreuk, of een andere onvoorziene gebeurtenis.
 
-## Art. 1950
+###### Art. 1950
 
 Het bewijs door getuigen kan toegelaten worden voor de bewaargeving uit noodzaak, zelfs wanneer
 het een waarde betreft van meer dan ((375 EUR)). <W 10-12-1990, art. 2>. <KB 2000-07-20/58, art. 1, 006;
 
-## Art. 1951
+###### Art. 1951
 
 Voor het overige is de bewaargeving uit noodzaak aan al de hierboven bepaalde regels onderworpen.
 
-## Art. 1952
+###### Art. 1952
 
 <W 04-07-1972, art. 1> De hotelhouder is als bewaarnemer aansprakelijk voor beschadiging,
 vernieling of ontvreemding van zaken welke een gast die in het hotel zijn intrek neemt en er logeert, naar het
@@ -19057,7 +19061,7 @@ heeft.
 De in dit artikel bedoelde aansprakelijkheid is per schadegeval beperkt tot 100 maal de logiesprijs per dag van de
 slaapgelegenheid. De Koning kan, in voorkomend geval, de gegevens voor het vaststellen van die prijs bepalen.
 
-## Art. 1953
+###### Art. 1953
 
 <W 04-07-1972, art. 2> De aansprakelijkheid van de hotelhouder is onbeperkt :
 a) wanneer de zaken in handen van de hotelhouder of van personen die hem hun diensten verlenen, ter
@@ -19072,7 +19076,7 @@ omstandigheden in aanmerking genomen, een buitensporige handelswaarde hebben of 
 Hij kan verlangen dat het hem toevertrouwde voorwerp is opgeborgen in een afgesloten of verzegelde
 verpakking.
 
-## Art. 1954
+###### Art. 1954
 
 <W 04-07-1972, art. 3> De hotelhouder is niet aansprakelijk voor zover de beschadiging, de
 vernieling of de ontvreemding te wijten is aan :
@@ -19081,18 +19085,18 @@ b) overmacht;
 c) gewapenderhand gepleegde diefstal;
 d) de aard of het gebrek van de zaak.
 
-## Art. 1954bis
+###### Art. 1954bis
 
 <Ingevoegd bij W 04-07-1972, art. 4> De rechten van de gast gaan teniet indien hij niet
 onmiddellijk na de vaststelling van de opgelopen schade kennis daarvan geeft, behoudens wanneer de schade
 veroorzaakt is door de schuld van de hotelhouder of van de personen die hem diensten verlenen.
 
-## Art. 1954ter
+###### Art. 1954ter
 
 <Ingevoegd bij W 04-07-1972, art. 5> Iedere verklaring of beding, waarbij de aansprakelijkheid
 van de hotelhouder voor het schadelijk feit wordt uitgesloten of beperkt, is nietig.
 
-## Art. 1954quater
+###### Art. 1954quater
 
 <Ingevoegd bij W 04-07-1972, art. 6> De artikelen 1952, 1953 en 1954bis zijn niet van
 toepassing op voertuigen, noch op zaken die tot hun lading behoren en ter plaatse zijn achtergelaten, noch op
@@ -19100,43 +19104,43 @@ levende dieren.
 
 #### HOOFDSTUK III. - SEKWESTER.
 
-##### AFDELING I. - VERSCHILLENDE SOORTEN VAN SEKWESTER.
 
-## Art. 1955
+##### AFDELING I. - VERSCHILLENDE SOORTEN VAN SEKWESTER.
+###### Art. 1955
 
 Men onderscheidt het bij overeenkomst bedongen sekwester en het gerechtelijk sekwester.
 
-##### AFDELING II. - BIJ OVEREENKOMST BEDONGEN SEKWESTER.
 
-## Art. 1956
+##### AFDELING II. - BIJ OVEREENKOMST BEDONGEN SEKWESTER.
+###### Art. 1956
 
 Het bij overeenkomst bedongen sekwester is de bewaargeving, door een of meer personen, van een
 zaak waarover geschil bestaat, in handen van een derde, die zich verbindt de zaak, nadat het geschil zal zijn
 uitgemaakt, terug te geven aan degene aan wie zij krachtens de beslissing zal toekomen.
 
-## Art. 1957
+###### Art. 1957
 
 Het sekwester geschiedt niet noodzakelijk om niet.
 
-## Art. 1958
+###### Art. 1958
 
 Wanneer het om niet geschiedt, is het onderworpen aan dezelfde regels als de eigenlijk
 bewaargeving, behoudens de hierna bepaalde verschillen.
 
-## Art. 1959
+###### Art. 1959
 
 Het sekwester kan niet alleen roerende goederen, maar ook onroerende goederen tot voorwerp
 hebben.
 
-## Art. 1960
+###### Art. 1960
 
 De bewaarnemer die met het sekwester belast is, kan daarvan niet worden ontslagen voordat het
 geschil is uitgemaakt, behalve met toestemming van alle belanghebbende partijen, of om een wettig geoordeelde
 reden.
 
-##### AFDELING III. - GERECHTELIJK SEKWESTER OF GERECHTELIJK BEWAARGEVING.
 
-## Art. 1961
+##### AFDELING III. - GERECHTELIJK SEKWESTER OF GERECHTELIJK BEWAARGEVING.
+###### Art. 1961
 
 De rechter kan het sekwester bevelen :
 1° Van roerende goederen die onder een schuldenaar in beslag genomen zijn;
@@ -19144,7 +19148,7 @@ De rechter kan het sekwester bevelen :
 personen in geschil is;
 3° Van zaken die een schuldenaar tot kwijting van zijn schuld aanbiedt.
 
-## Art. 1962
+###### Art. 1962
 
 De aanstelling van een gerechtelijke bewaarder doet tussen de beslaglegger en de bewaarder
 wederzijdse verplichtingen ontstaan. De bewaarder moet voor het behoud van de in beslag genomen zaken
@@ -19153,7 +19157,7 @@ Hij moet deze overgeven, hetzij ter ontlasting van de beslaglegger, in geval van
 tegen wie de tenuitvoerlegging heeft plaatsgehad, in geval van opheffing van het beslag.
 De verplichting van de beslaglegger bestaat in de betaling van het bij de wet bepaalde loon aan de bewaarder.
 
-## Art. 1963
+###### Art. 1963
 
 Het gerechtelijk sekwester wordt opgedragen, hetzij aan een persoon omtrent wie de
 belanghebbende partijen zijn overeengekomen, hetzij aan een persoon die door de rechter ambtshalve benoemd
@@ -19163,7 +19167,7 @@ sekwester medebrengt.
 
 ### TITEL XII. - KANSCONTRACTEN.
 
-## Art. 1964.Een
+###### Art. 1964.Een
 
 kanscontract is een wederkerige overeenkomst, waarvan de gevolgen, met betrekking tot winst
 en verlies, hetzij voor alle partijen, hetzij voor een of meer van hen, van een onzekere gebeurtenis afhangen.
@@ -19177,12 +19181,12 @@ Het contract van lijfrente.
 
 #### HOOFDSTUK I. - SPEL EN WEDDENSCHAP.
 
-## Art. 1965
+###### Art. 1965
 
 De wet staat geen rechtsvordering toe voor een speelschuld of voor de betaling van een
 weddenschap.
 
-## Art. 1966.De
+###### Art. 1966.De
 
 spelen die geschikt zijn tot oefening in de wapenhandel, de wedlopen te voet of te paard, de
 wedrennen met wagens, het kaatsspel, en andere soortgelijke spelen waarmee behendigheid en geoefendheid
@@ -19192,71 +19196,71 @@ vorige bepaling uitgezonderd.
 Evenwel kan de rechter de eis afwijzen, wanneer het bedrag hem buitensporig voorkomt.
 (1)<W 2010-01-10/12, art. 46, 013; Inwerkingtreding : 01-01-2011>
 
-## Art. 1967
+###### Art. 1967
 
 In geen geval kan de verliezer terugeisen wat hij vrijwillig betaald heeft, tenzij er van de kant van de
 winner bedrog, list of oplichting heeft plaatsgehad.
 
 #### HOOFDSTUK II. - CONTRACT VAN LIJFRENTE.
 
-##### AFDELING I. - VOORWAARDEN DIE VOOR DE GELDIGHEID VAN HET CONTRACT VEREIST ZIJN.
 
-## Art. 1968
+##### AFDELING I. - VOORWAARDEN DIE VOOR DE GELDIGHEID VAN HET CONTRACT VEREIST ZIJN.
+###### Art. 1968
 
 Lijfrente kan gevestigd worden onder bezwarende titel, tegen betaling van een som geld of tegen
 afstand van een geldswaardig roerend goed, of van een onroerend goed.
 
-## Art. 1969
+###### Art. 1969
 
 Zij kan ook geheel om niet gevestigd worden, bij schenking onder de levenden of bij testament.
 Alsdan moeten de bij de wet voorgeschreven vormen worden in acht genomen.
 
-## Art. 1970
+###### Art. 1970
 
 In het geval van het vorige artikel kan de lijfrente ingekort worden, indien zij het beschikbaar gedeelte
 overschrijdt; zij is nietig, indien zij gevestigd wordt ten behoeve van een persoon die onbekwaam is om bij
 schenking of bij testament te verkrijgen.
 
-## Art. 1971
+###### Art. 1971
 
 Lijfrente kan gevestigd worden hetzij op het leven van hem die de prijs daarvoor verstrekt, hetzij op
 het leven van een derde die op het genot van de lijfrente geen recht heeft.
 
-## Art. 1972
+###### Art. 1972
 
 Zij kan op het leven van een of meer personen gevestigd worden.
 
-## Art. 1973
+###### Art. 1973
 
 Zij kan gevestigd worden ten behoeve van een derde, hoewel de prijs ervan door een ander persoon
 verstrekt wordt.
 In dit laatste geval is de lijfrente, al heeft zij de kenmerken van een gift, niet onderworpen aan de voor de
 schenkingen vereiste vorm, behoudens de gevallen van inkorting en van nietigheid, in artikel 1970 bepaald.
 
-## Art. 1974
+###### Art. 1974
 
 Ieder contract van lijfrente, gevestigd op het leven van iemand die overleden was op de dag waarop
 het contract is aangegaan, is zonder gevolg.
 
-## Art. 1975
+###### Art. 1975
 
 Hetzelfde geld voor het contract, waarbij de rente gevestigd is op het leven van iemand die reeds
 was aangetast door de ziekte waaraan hij binnen twintig dagen na de dagtekening van het contract is overleden.
 
-## Art. 1976
+###### Art. 1976
 
 Lijfrente kan worden gevestigd tegen een rentevoet die de contracterende partijen goedvinden te
 bepalen.
 
-##### AFDELING II. - GEVOLGEN VAN HET CONTRACT TUSSEN DE CONTRACTERENDE PARTIJEN.
 
-## Art. 1977
+##### AFDELING II. - GEVOLGEN VAN HET CONTRACT TUSSEN DE CONTRACTERENDE PARTIJEN.
+###### Art. 1977
 
 De persoon te wiens behoeve een lijfrente onder bezwarende titel gevestigd is, kan de ontbinding
 van het contract vorderen, indien de renteplichtige hem de zekerheid die voor de uitvoering ervan bedongen is,
 niet bezorgt.
 
-## Art. 1978
+###### Art. 1978
 
 De enkele wanbetaling van de rentetermijnen geeft de persoon te wiens behoeve de lijfrente
 gevestigd is, niet het recht om de terugbetaling van het kapitaal of de teruggave van het door hem afgestane
@@ -19264,7 +19268,7 @@ goed te vorderen; hij kan slechts op de goederen van zijn schuldenaar beslag leg
 doen bevelen of doen toestaan dat uit de opbrengst van de verkoop een voldoende bedrag voor de uitkering van
 de termijnen wordt belegd.
 
-## Art. 1979
+###### Art. 1979
 
 De renteplichtige kan zich van de uitkering van de rente niet bevrijden, door de teruggave van het
 kapitaal aan te bieden, en door af te zien van de terugvordering van de betaalde rentetermijnen; hij is verplicht de
@@ -19272,23 +19276,23 @@ rente uit te keren gedurende het gehele leven van de persoon of van de personen 
 gevestigd is, hoe lang deze ook in leven blijven, en hoe bezwarend de uitkering van de rente ook mocht zijn
 geworden.
 
-## Art. 1980
+###### Art. 1980
 
 De eigenaar van een lijfrente verkrijgt deze slechts naar evenredigheid van het aantal dagen dat hij
 geleefd heeft.
 Indien echter bedongen is, dat zij vooruit betaald moet worden, is het recht op de verschenen termijn
 verkregen van de dag waarop de betaling moest geschieden.
 
-## Art. 1981
+###### Art. 1981
 
 Het beding, dat de lijfrente niet vatbaar is voor beslag, is slechts toegelaten wanneer zij om niet is
 gevestigd.
 
-## Art. 1982
+###### Art. 1982
 
 (Opgeheven) <W 15-12-1949, art. 29>
 
-## Art. 1983
+###### Art. 1983
 
 De eigenaar van een lijfrente kan de termijnen ervan niet vorderen dan door te doen blijken van zijn
 bestaan, of van het bestaan van hem op wiens leven zij gevestigd is.
@@ -19297,13 +19301,13 @@ bestaan, of van het bestaan van hem op wiens leven zij gevestigd is.
 
 #### HOOFDSTUK I. - AARD EN VORM VAN DE LASTGEVING.
 
-## Art. 1984
+###### Art. 1984
 
 Lastgeving of volmacht is een handeling, waarbij een persoon aan een ander de macht geeft om iets
 voor de lastgever en in zijn naam te doen.
 Het contract komt slechts tot stand door de aanneming van de lasthebber.
 
-## Art. 1984bis
+###### Art. 1984bis
 
 [1 De persoon die werd gelast met een gerechtelijke lastgeving, kan, in uitvoering van deze
 lastgeving, een volmacht verlenen aan een derde louter met het oog op de ondertekening van een authentieke
@@ -19311,7 +19315,7 @@ akte waarvan de inhoud reeds door deze persoon werd vastgelegd. Deze volmacht ve
 deze beperkt is tot de loutere ondertekening van de authentieke akte die erin wordt vermeld.]1
 (1)<Ingevoegd bij W 2024-05-15/03, art. 36, 033; Inwerkingtreding : 07-06-2024>
 
-## Art. 1985
+###### Art. 1985
 
 Lastgeving kan verleend worden of bij een openbare akte, of bij een onderhands geschrift, zelfs bij
 een brief. Zij kan ook mondeling verleend worden; maar het bewijs ervan door getuigen wordt alleen toegelaten
@@ -19319,27 +19323,27 @@ overeenkomstig de titel Contracten of verbintenissen uit overeenkomst in het alg
 De aanneming van de lastgeving kan ook stilzwijgend geschieden, en blijken uit de uitvoering ervan door de
 lasthebber.
 
-## Art. 1986
+###### Art. 1986
 
 Lastgeving geschiedt om niet, tenzij het tegendeel bedongen is.
 
-## Art. 1987
+###### Art. 1987
 
 Lastgeving is of bijzonder en betreft slechts een zaak of bepaalde zaken, of algemeen en betreft alle
 zaken van de lastgever.
 
-## Art. 1988
+###### Art. 1988
 
 Lastgeving, in algemene bewoordingen uitgedrukt, omvat alleen de daden van beheer.
 Om goederen te vervreemden of met hypotheek te bezwaren, of om enige andere daad van eigendom te
 verrichten, is een uitdrukkelijke lastgeving vereist.
 
-## Art. 1989
+###### Art. 1989
 
 De lasthebber mag niets doen buiten hetgeen in zijn lastgeving begrepen is; de macht om een dading
 te treffen omvat niet de macht om een compromis aan te gaan.
 
-## Art. 1990
+###### Art. 1990
 
 <W 14-07-1976, art. IV, 15> Ontvoogde minderjarigen kunnen tot lasthebber gekozen worden,
 maar de lastgever heeft geen vordering tegen zodanige lasthebber dan overeenkomstig de algemene regels
@@ -19353,27 +19357,27 @@ Huwelijkscontract (...).>
 
 #### HOOFDSTUK II. - VERPLICHTINGEN VAN DE LASTHEBBER.
 
-## Art. 1991
+###### Art. 1991
 
 De lasthebber is gehouden de lastgeving te volbrengen, zolang hij daarvan niet ontheven is, en hij is
 verantwoordelijk voor de schade die uit het niet uitvoeren ervan zou kunnen ontstaan.
 Eveneens is hij gehouden de zaak waarmee ten tijde van het overlijden van de lastgever een aanvang was
 gemaakt, ten einde te brengen, indien de aangelegenheid geen uitstel gedoogt.
 
-## Art. 1992
+###### Art. 1992
 
 De lasthebber is niet alleen aansprakelijk voor zijn opzet, maar ook voor zijn schuld in de uitvoering
 van zijn opdracht.
 Niettemin wordt de aansprakelijkheid wegens schuld minder streng toegepast ten aanzien van degene die de
 lastgeving om niet op zich neemt, dan ten aanzien van hem die daarvoor loon ontvangt.
 
-## Art. 1993
+###### Art. 1993
 
 Ieder lasthebber is gehouden rekenschap te geven van de uitvoering van zijn opdracht, en aan de
 lastgever verantwoording te doen van al hetgeen hij krachtens zijn volmacht ontvangen heeft, al was ook het
 door hem ontvangene aan de lastgever niet verschuldigd.
 
-## Art. 1994
+###### Art. 1994
 
 De lasthebber is aansprakelijk voor hem die hij bij de uitvoering van zijn opdracht in zijn plaats gesteld
 heeft :
@@ -19383,18 +19387,18 @@ hij daartoe gekozen heeft, blijkbaar onbevoegd of onvermogend was.
 In alle gevallen kan de persoon die door de lasthebber in zijn plaats is gesteld, door de lastgever rechtstreeks
 worden aangesproken.
 
-## Art. 1995
+###### Art. 1995
 
 Wanneer verscheidene gevolmachtigden of lasthebbers bij een zelfde akte zijn aangesteld, bestaat er
 tussen hen geen hoofdelijkheid, dan voor zover zulks uitdrukkelijk bepaald is.
 
-## Art. 1996
+###### Art. 1996
 
 De lasthebber is van de geldsommen die hij voor zijn eigen gebruik heeft besteed, interest
 verschuldigd te rekenen van het tijdstip waarop hij van die sommen gebruik heeft gemaakt; en van het door hem
 verschuldigde saldo, te rekenen van de dag dat hij in gebreke gesteld is.
 
-## Art. 1997
+###### Art. 1997
 
 De lasthebber die aan de partij, met wie hij in zijn hoedanigheid van lasthebber handelt, voldoende
 kennis van zijn volmacht gegeven heeft, is niet aansprakelijk voor hetgeen daarbuiten gedaan is, behalve indien hij
@@ -19402,14 +19406,14 @@ zich daartoe persoonlijk heeft verbonden.
 
 #### HOOFDSTUK III. - VERPLICHTINGEN VAN DE LASTGEVER.
 
-## Art. 1998
+###### Art. 1998
 
 De lastgever is gehouden de verbintenissen na te komen, die de lasthebber overeenkomstig de hem
 verleende macht heeft aangegaan.
 Hij is niet gehouden tot hetgeen daarbuiten mocht zijn gedaan, dan voor zover hij zulks uitdrukkelijk of
 stilzwijgend bekrachtigd heeft.
 
-## Art. 1999
+###### Art. 1999
 
 De lastgever moet de lasthebber de voorschotten en kosten vergoeden, die deze tot uitvoering van
 de lastgeving gedaan heeft, en hem zijn loon betalen wanneer er loon beloofd is.
@@ -19417,24 +19421,24 @@ Indien de lasthebber geen schuld te wijten is, kan de lastgever zich aan deze te
 onttrekken, al mocht de zaak ook mislukt zijn, noch het bedrag van de kosten en voorschotten doen
 verminderen, onder voorgeven dat zij geringer konden zijn.
 
-## Art. 2000
+###### Art. 2000
 
 De lastgever moet de lasthebber ook schadeloos stellen voor de verliezen die deze ter gelegenheid
 van de uitvoering van zijn opdracht geleden heeft, indien hem geen onvoorzichtigheid te wijten is.
 
-## Art. 2001
+###### Art. 2001
 
 De lastgever is aan de lasthebber voor gedane voorschotten interest verschuldigd, te rekenen van
 de dag waarop de voorschotten blijken te zijn gedaan.
 
-## Art. 2002
+###### Art. 2002
 
 Wanneer verscheidene personen een lasthebber hebben aangesteld voor een gemeenschappelijke
 zaak, is ieder van hen hoofdelijk jegens hem verbonden voor alle gevolgen van de lastgeving.
 
 #### HOOFDSTUK IV. - VERSCHILLENDE WIJZEN WAAROP LASTGEVING EINDIGT.
 
-## Art. 2003.Lastgeving
+###### Art. 2003.Lastgeving
 
 eindigt :
 Door herroeping van de volmacht van de lasthebber,
@@ -19453,14 +19457,14 @@ De lastgeving eindigt in alle gevallen indien de lasthebber komt te verkeren in 
 (2)<W 2014-04-25/23, art. 201, 016; Inwerkingtreding : 01-09-2014>
 (3)<W 2018-12-21/09, art. 47, 024; Inwerkingtreding : 01-03-2019>
 
-## Art. 2004
+###### Art. 2004
 
 De lastgever kan zijn volmacht herroepen wanneer hem zulks goeddunkt, en in voorkomend geval
 de lasthebber noodzaken hem terug te geven, hetzij het onderhands geschrift dat de lastgeving bevat, hetzij het
 origineel van de volmacht, indien deze in brevet is afgegeven, hetzij de uitgifte, indien een minuut ervan
 gehouden is.
 
-## Art. 2005.De
+###### Art. 2005.De
 
 herroeping waarvan alleen aan de lasthebber is kennis gegeven, kan niet worden tegengeworpen
 aan derden die, daarvan onkundig zijnde, met hem gehandeld hebben, onverminderd het verhaal van de
@@ -19470,29 +19474,29 @@ daarvan onkundig zijnde, met de lasthebber gehandeld hebben, onverminderd het ve
 lasthebber.]1
 (1)<W 2014-04-25/23, art. 202, 016; Inwerkingtreding : 01-09-2014>
 
-## Art. 2006
+###### Art. 2006
 
 De aanstelling van een nieuwe lasthebber voor dezelfde zaak, brengt de herroeping van de volmacht
 van de eerste mede, te rekenen van de dag waarop hem van deze aanstelling is kennis gegeven.
 
-## Art. 2007
+###### Art. 2007
 
 De lasthebber kan de lastgeving opzeggen door kennisgeving van zijn ontslag aan de lastgever.
 Indien evenwel dit ontslag de lastgever benadeelt, moet de lasthebber hem daarvoor schadeloos stellen, tenzij
 hij zich in de onmogelijkheid bevindt om de lastgeving verder te volbrengen, zonder daardoor zelf een
 aanmerkelijke schade te lijden.
 
-## Art. 2008
+###### Art. 2008
 
 Indien de lasthebber geen kennis draagt van het overlijden van de lastgever of van het bestaan van
 enige andere oorzaak die de lastgeving doet eindigen, is hetgeen hij in die onwetendheid verricht heeft, geldig.
 
-## Art. 2009
+###### Art. 2009
 
 In de hierboven bedoelde gevallen moeten de verbintenissen, door de lasthebber aangegaan,
 nagekomen worden ten aanzien van derden die te goeder trouw zijn.
 
-## Art. 2010
+###### Art. 2010
 
 Ingeval de lasthebber overlijdt, moeten zijn erfgenamen daarvan aan de lastgever kennis geven, en
 inmiddels alles doen wat de omstandigheden in het belang van de lastgever vereisen.
@@ -19505,43 +19509,43 @@ inmiddels alles doen wat de omstandigheden in het belang van de lastgever vereis
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2011
+###### Art. 2011
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2012
+###### Art. 2012
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2013
+###### Art. 2013
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2014
+###### Art. 2014
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2015
+###### Art. 2015
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2016
+###### Art. 2016
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2017
+###### Art. 2017
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2018
+###### Art. 2018
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2019
+###### Art. 2019
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2020
+###### Art. 2020
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
@@ -19549,64 +19553,64 @@ inmiddels alles doen wat de omstandigheden in het belang van de lastgever vereis
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
+<Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
+
 ##### AFDELING I.
-<Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
-
-## Art. 2021
+###### Art. 2021
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2022
+###### Art. 2022
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2023
+###### Art. 2023
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2024
+###### Art. 2024
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2025
+###### Art. 2025
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2026
+###### Art. 2026
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2027
+###### Art. 2027
+
+<Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
 ##### AFDELING II.
-<Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
-
-## Art. 2028
+###### Art. 2028
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2029
+###### Art. 2029
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2030
+###### Art. 2030
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2031
+###### Art. 2031
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2032
+###### Art. 2032
+
+<Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
 ##### AFDELING III.
-<Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
-
-## Art. 2033
+###### Art. 2033
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
@@ -19614,27 +19618,27 @@ inmiddels alles doen wat de omstandigheden in het belang van de lastgever vereis
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2034
+###### Art. 2034
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2035
+###### Art. 2035
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2036
+###### Art. 2036
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2037
+###### Art. 2037
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2038
+###### Art. 2038
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2039
+###### Art. 2039
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
@@ -19642,19 +19646,19 @@ inmiddels alles doen wat de omstandigheden in het belang van de lastgever vereis
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2040
+###### Art. 2040
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2041
+###### Art. 2041
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2042
+###### Art. 2042
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2043
+###### Art. 2043
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
@@ -19662,43 +19666,43 @@ inmiddels alles doen wat de omstandigheden in het belang van de lastgever vereis
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2043bis
+###### Art. 2043bis
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2043ter
+###### Art. 2043ter
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2043quater
+###### Art. 2043quater
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2043quinquies
+###### Art. 2043quinquies
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2043sexies
+###### Art. 2043sexies
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2043septies
+###### Art. 2043septies
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
-## Art. 2043octies
+###### Art. 2043octies
 
 <Opgeheven bij W 2025-06-05/09, art. 3, 023; Inwerkingtreding : 01-01-2026>
 
 ### TITEL XV. - DADING.
 
-## Art. 2044
+###### Art. 2044
 
 Dading is een contract, waarbij partijen een gerezen geschil beëindigen, of een toekomstig geschil
 voorkomen.
 Dit contract moet schriftelijk opgemaakt worden.
 
-## Art. 2045.Om
+###### Art. 2045.Om
 
 een dading aan te gaan, moet men bekwaam zijn om te beschikken over de voorwerpen die in de
 dading begrepen zijn.
@@ -19714,67 +19718,67 @@ De gemeenten en de openbare instellingen kunnen geen dading aangaan (dan met de 
 voorgeschreven bij artikel 49 van de organieke wet van 10 maart 1925 op de openbare onderstand). <W 15-121949, art. 27>.
 (1)<W 2013-03-17/14, art. 144, 013; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 2046
+###### Art. 2046
 
 Dading kan worden aangegaan over de burgerlijke belangen die uit een misdrijf ontstaan.
 Zij verhindert de vervolging van het openbaar ministerie niet.
 
-## Art. 2047
+###### Art. 2047
 
 Aan een dading kan een strafbeding worden toegevoegd tegen hem die mocht in gebreke blijven de
 dading na te komen.
 
-## Art. 2048
+###### Art. 2048
 
 Dadingen blijven beperkt tot hun voorwerp : wordt daarbij afstand gedaan van alle rechten,
 vorderingen en eisen, dan geldt zulks alleen voor hetgeen betrekking heeft op het geschil dat tot de dading
 aanleiding heeft gegeven.
 
-## Art. 2049
+###### Art. 2049
 
 Dadingen regelen slechts de geschillen die daarin zijn begrepen, hetzij partijen hun bedoeling in
 bijzondere of in algemene bewoordingen hebben uitgedrukt, hetzij die bedoeling als een noodzakelijk gevolg
 wordt afgeleid van hetgeen is uitgedrukt.
 
-## Art. 2050
+###### Art. 2050
 
 Hij die een dading heeft aangegaan over een recht dat hem uit eigen hoofde toebehoorde, en die
 vervolgens een dergelijk recht van een ander verkrijgt, is, met betrekking tot het nieuw verkregen recht, door de
 vorige dading geenszins gebonden.
 
-## Art. 2051
+###### Art. 2051
 
 Een dading, door een van de belanghebbenden aangegaan, verbindt de overige belanghebbenden
 niet, en kan door hen niet worden ingeroepen.
 
-## Art. 2052
+###### Art. 2052
 
 Dadingen hebben tussen partijen kracht van gewijsde in hoogste aanleg.
 Men kan er niet tegen opkomen uit hoofde van dwaling omtrent het recht of uit hoofde van benadeling.
 
-## Art. 2053
+###### Art. 2053
 
 Niettemin kan een dading vernietigd worden, wanneer er dwaling heeft plaatsgehad in de persoon of
 omtrent het voorwerp van het geschil.
 Zij kan vernietigd worden in alle gevallen waarin bedrog of geweld heeft plaatsgehad.
 
-## Art. 2054
+###### Art. 2054
 
 Vernietiging van een dading kan eveneens gevorderd worden, wanneer de dading is aangegaan ter
 uitvoering van een titel die nietig was, behalve in het geval dat partijen uitdrukkelijk over de nietigheid een dading
 hebben aangegaan.
 
-## Art. 2055
+###### Art. 2055
 
 Een dading, aangegaan op grond van stukken die naderhand vals bevonden zijn, is geheel nietig.
 
-## Art. 2056
+###### Art. 2056
 
 Een dading over een geding dat reeds beëindigd is door een vonnis dat in kracht van gewijsde is
 gegaan en waarvan partijen of een van hen geen kennis droegen, is nietig.
 Indien het vonnis waarvan partijen onkundig waren, voor hoger beroep vatbaar was, is de dading geldig.
 
-## Art. 2057
+###### Art. 2057
 
 Wanneer partijen een dading hebben aangegaan in het algemeen over alle zaken die zij met elkaar
 uitstaande mochten hebben, leveren de titels die hun toen onbekend waren en die naderhand ontdekt zijn, geen
@@ -19782,57 +19786,57 @@ grond op tot vernietiging, tenzij die titels door toedoen van een der partijen w
 Maar de dading is nietig, indien zij slechts een enkele zaak betreft en uit naderhand ontdekte titels blijkt dat een
 van de partijen daarop niet het minste recht had.
 
-## Art. 2058
+###### Art. 2058
 
 Een rekenfout, bij een dading gemaakt, moet verbeterd worden.
 
 ### TITEL XVI. - LIJFSDWANG IN BURGERLIJKE ZAKEN.
 
-## Art. 2059
+###### Art. 2059
 
 (Opgeheven) <W 21-03-1859, art. 48>.
 
-## Art. 2060
+###### Art. 2060
 
 (Opgeheven) <W 21-03-1859, art. 48>.
 
-## Art. 2061
+###### Art. 2061
 
 (Opgeheven) <W 21-03-1859, art. 48>.
 
-## Art. 2062
+###### Art. 2062
 
 (Opgeheven) <W 21-03-1859, art. 48>.
 
-## Art. 2063
+###### Art. 2063
 
 (Opgeheven) <W 21-03-1859, art. 48>.
 
-## Art. 2064
+###### Art. 2064
 
 (Opgeheven) <W 21-03-1859, art. 48>.
 
-## Art. 2065
+###### Art. 2065
 
 (Opgeheven) <W 21-03-1859, art. 48>.
 
-## Art. 2066
+###### Art. 2066
 
 (Opgeheven) <W 21-03-1859, art. 48>.
 
-## Art. 2067
+###### Art. 2067
 
 (Opgeheven) <W 21-03-1859, art. 48>.
 
-## Art. 2068
+###### Art. 2068
 
 (Opgeheven) <W 21-03-1859, art. 48>.
 
-## Art. 2069
+###### Art. 2069
 
 (Opgeheven) <W 21-03-1859, art. 48>.
 
-## Art. 2070
+###### Art. 2070
 
 (Opgeheven) <W 21-03-1859, art. 48>.
 
@@ -19841,11 +19845,11 @@ Een rekenfout, bij een dading gemaakt, moet verbeterd worden.
 (NOTA: Titel XVII wordt 2013-07-11/19)
 (1)<W 2013-07-11/19, art. 2-89, 014; Inwerkingtreding : 01-01-2018>
 
-## Art. 2071
+###### Art. 2071
 
 <Opgeheven bij W 2013-07-11/19, art. 2, 014; Inwerkingtreding : 01-01-2018>
 
-## Art. 2072
+###### Art. 2072
 
 <Opgeheven bij W 2013-07-11/19, art. 2, 014; Inwerkingtreding : 01-01-2018>
 
@@ -19856,63 +19860,63 @@ tekst, zie 1851-12-16/01)
 
 ### TITEL XIX. - GERECHTELIJKE UITWINNING EN RANGREGELING ONDER DE SCHULDEISERS.
 
-## Art. 2204
+###### Art. 2204
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
-## Art. 2205
+###### Art. 2205
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
-## Art. 2206
+###### Art. 2206
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
-## Art. 2207
+###### Art. 2207
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
-## Art. 2208
+###### Art. 2208
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
-## Art. 2209
+###### Art. 2209
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
-## Art. 2210
+###### Art. 2210
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
-## Art. 2211
+###### Art. 2211
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
-## Art. 2212
+###### Art. 2212
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
-## Art. 2213
+###### Art. 2213
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
-## Art. 2214
+###### Art. 2214
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
-## Art. 2215
+###### Art. 2215
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
-## Art. 2216
+###### Art. 2216
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
-## Art. 2217
+###### Art. 2217
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
-## Art. 2218
+###### Art. 2218
 
 (Opgeheven) <W 10-10-1967, art. 24>.
 
@@ -19920,26 +19924,26 @@ tekst, zie 1851-12-16/01)
 
 #### HOOFDSTUK I. - ALGEMENE BEPALINGEN.
 
-## Art. 2219
+###### Art. 2219
 
 Verjaring is een middel om, door verloop van een zekere tijd en onder de voorwaarden die de wet
 bepaalt, iets te verkrijgen of van een verbintenis bevrijd te worden.
 
-## Art. 2220
+###### Art. 2220
 
 Men kan vooraf geen afstand doen van de verjaring; men kan wel afstand doen van een verkregen
 verjaring.
 
-## Art. 2221
+###### Art. 2221
 
 Afstand van verjaring geschiedt uitdrukkelijk of stilzwijgend; de stilzwijgende afstand wordt afgeleid
 uit een daad die doet veronderstellen dat men zijn verkregen recht heeft laten varen.
 
-## Art. 2222
+###### Art. 2222
 
 Hij die niet kan vervreemden kan geen afstand doen van een verkregen verjaring.
 
-## Art. 2223.De
+###### Art. 2223.De
 
 rechter mag het middel van verjaring niet ambtshalve toepassen.
 [1 In afwijking van het eerste lid mag de rechter het middel van verjaring ambtshalve toepassen in het kader van
@@ -19948,100 +19952,100 @@ in artikel I.1, eerste lid, 1°, van het Wetboek van economisch recht, tegen een
 I.1, eerste lid, 2°, van het Wetboek van economisch recht.]1
 (1)<W 2024-05-15/20, art. 2, 022; Inwerkingtreding : 01-10-2024>
 
-## Art. 2224
+###### Art. 2224
 
 Men kan zich op verjaring beroepen in elke staat van het geding, zelfs voor het hof van beroep, tenzij
 de omstandigheden doen vermoeden dat de partij die zich op het middel van verjaring niet heeft beroepen,
 daarvan afstand heeft gedaan.
 
-## Art. 2225
+###### Art. 2225
 
 Schuldeisers, of alle andere personen die er belang bij hebben dat de verjaring verkregen is, kunnen
 zich daarop beroepen, hoewel de schuldenaar of de eigenaar ervan afstand doet.
 
-## Art. 2226
+###### Art. 2226
 
 Men kan door verjaring de eigendom niet verkrijgen van zaken die buiten de handel zijn.
 
-## Art. 2227
+###### Art. 2227
 
 De Staat, de openbare instellingen en de gemeenten zijn aan dezelfde verjaringen onderworpen als
 bijzondere personen en kunnen zich eveneens daarop beroepen.
 
 #### HOOFDSTUK II. - BEZIT.
 
-## Art. 2228
+###### Art. 2228
 
 <Opgeheven bij W 2020-02-04/16, art. 29,5°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2229
+###### Art. 2229
 
 <Opgeheven bij W 2020-02-04/16, art. 29,5°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2230
+###### Art. 2230
 
 <Opgeheven bij W 2020-02-04/16, art. 29,5°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2231
+###### Art. 2231
 
 <Opgeheven bij W 2020-02-04/16, art. 29,5°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2232
+###### Art. 2232
 
 <Opgeheven bij W 2020-02-04/16, art. 29,5°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2233
+###### Art. 2233
 
 <Opgeheven bij W 2020-02-04/16, art. 29,5°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2234
+###### Art. 2234
 
 <Opgeheven bij W 2020-02-04/16, art. 29,5°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2235
+###### Art. 2235
 
 <Opgeheven bij W 2020-02-04/16, art. 29,5°, 019; Inwerkingtreding : 01-09-2021>
 
 #### HOOFDSTUK III. - OORZAKEN DIE DE VERJARING VERHINDEREN.
 
-## Art. 2236
+###### Art. 2236
 
 <Opgeheven bij W 2020-02-04/16, art. 29,6°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2237
+###### Art. 2237
 
 <Opgeheven bij W 2020-02-04/16, art. 29,6°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2238
+###### Art. 2238
 
 <Opgeheven bij W 2020-02-04/16, art. 29,6°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2239
+###### Art. 2239
 
 <Opgeheven bij W 2020-02-04/16, art. 29,6°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2240
+###### Art. 2240
 
 <Opgeheven bij W 2020-02-04/16, art. 29,6°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2241
+###### Art. 2241
 
 Men kan verjaring verkrijgen in strijd met zijn titel, in die zin dat men zich door verjaring bevrijdt van
 de verbintenis die men heeft aangegaan.
 
 #### HOOFDSTUK IV. - OORZAKEN DIE DE VERJARING STUITEN OF SCHORSEN.
 
-##### AFDELING I. - OORZAKEN DIE DE VERJARING STUITEN.
 
-## Art. 2242
+##### AFDELING I. - OORZAKEN DIE DE VERJARING STUITEN.
+###### Art. 2242
 
 Stuiting van de verjaring kan of natuurlijk of burgerlijk zijn.
 
-## Art. 2243
+###### Art. 2243
 
 <Opgeheven bij W 2020-02-04/16, art. 29,7°, 019; Inwerkingtreding : 01-09-2021>
 
-Art. 2244.[1 § 1.]1 Een dagvaarding voor het gerecht, een bevel tot betaling, [2 , een aanmaning tot betaling als
+###### Art. 2244.[1 § 1.]1 Een dagvaarding voor het gerecht, een bevel tot betaling, [2 , een aanmaning tot betaling als
 bedoeld in artikel 1394/21 van het Gerechtelijk Wetboek]2 of een beslag, betekend aan hem die men wil beletten
 de verjaring te verkrijgen, vormen burgerlijke stuiting.
 (Een dagvaarding voor het gerecht stuit de verjaring tot het tijdstip waarop een definitieve beslissing wordt
@@ -20099,27 +20103,27 @@ woord « vernietigde » in artikel 2244, § 1, derde lid, vernietigd)
 (3)<W 2022-04-28/25, art. 28, 020; Inwerkingtreding : 01-01-2023>
 (4)<W 2022-02-24/26, art. 2, 021; Inwerkingtreding : 26-01-2024>
 
-## Art. 2245
+###### Art. 2245
 
 (Opgeheven) <W 15-12-1949, art. 29>.
 
-## Art. 2246
+###### Art. 2246
 
 Ook de dagvaarding voor een onbevoegde rechter stuit de verjaring.
 
-Art. 2247.[1 Eerste lid opgeheven.]1
+###### Art. 2247.[1 Eerste lid opgeheven.]1
 Indien de eiser afstand doet van zijn eis,
 (Derde lid opgeheven.)<W 15-12-1949, art. 28>.
 Of indien zijn eis wordt afgewezen.
 Wordt de stuiting voor niet bestaande gehouden.
 (1)<W 2012-07-16/04, art. 2, 011; Inwerkingtreding : 13-08-2012>
 
-## Art. 2248
+###### Art. 2248
 
 De erkenning van het recht van hem tegen wie de verjaring loopt, door de schuldenaar of de bezitter
 gedaan, stuit de verjaring.
 
-## Art. 2249
+###### Art. 2249
 
 De ingebrekestelling van een der hoofdelijke schuldenaars, overeenkomstig de bovenstaande
 artikelen, of de erkenning van de schul door hem gedaan, stuit de verjaring tegen alle overige, zelfs tegen hun
@@ -20132,29 +20136,29 @@ voor het aandeel waarvoor die erfgenaam verbonden is.
 Om de verjaring ten aanzien van de overige medeschuldenaars te stuiten voor het geheel, is vereist de
 ingebrekestelling van alle erfgenamen van de overleden schuldenaar, of de erkenning door al die erfgenamen.
 
-## Art. 2250
+###### Art. 2250
 
 De ingebrekestelling van de hoofdschuldenaar, of de erkenning van de schuld door hem gedaan,
 stuit de verjaring tegen de borg;
 
-##### AFDELING II. - OORZAKEN DIE DE LOOP VAN DE VERJARING SCHORSEN.
 
-## Art. 2251
+##### AFDELING II. - OORZAKEN DIE DE LOOP VAN DE VERJARING SCHORSEN.
+###### Art. 2251
 
 De verjaring loopt tegen alle personen, behalve tegen hen voor wie de wet uitzondering maakt.
 
-## Art. 2252.De
+###### Art. 2252.De
 
 verjaring loopt niet tegen minderjarigen en [1 beschermde personen wat betreft de handelingen
 waarvoor zij krachtens artikel 492/1 onbekwaam werden verklaard ]1, behoudens hetgeen in artikel 2278 bepaald
 is, en met uitzondering van de andere bij de wet bepaalde gevallen.
 (1)<W 2013-03-17/14, art. 145, 013; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 2253
+###### Art. 2253
 
 De verjaring loopt niet tussen echtgenoten.
 
-## Art. 2254
+###### Art. 2254
 
 <W 14-07-1976, art. IV, 17>. De verjaring loopt tegen de echtgenoot aan wie het bestuur van zijn
 goederen is ontnomen, behoudens zijn verhaal op de andere echtgenoot of op de lasthebber, in geval van
@@ -20164,7 +20168,7 @@ kracht in de voorziene gevallen : Ten aanzien van de goederen waarvan de man het
 verjaring tegen de gehuwde vrouw, zelfs al is zij niet van goederen gescheiden bij huwelijkscontract of bij
 rechterlijk vonnis, behoudens haar verhaal op haar man.>
 
-## Art. 2255
+###### Art. 2255
 
 (Opgeheven) <W 14-07-1976, art. IV, 18>.
 <NOTA : Bij wijze van overgangsmaatregel (zie art. IV, 47, § 1 W.) blijft de hierna volgende tekst van kracht in
@@ -20172,7 +20176,7 @@ de voorziene gevallen : De verjaring loopt echter niet, gedurende het huwelijk, 
 vervreemding van een erf dat aan het dotaal stelsel onderworpen is, overeenkomstig artikel 1561, in de titel
 Huwelijkscontract en wederzijdse rechten van de echtgenoten.>
 
-## Art. 2256
+###### Art. 2256
 
 (Opgeheven) <W 14-07-1976, art. IV, 18>.
 <NOTA : Bij wijze van overgangsmaatregel (zie art. IV, 47, § 1 W.) blijft de hierna volgende tekst van kracht in
@@ -20182,46 +20186,46 @@ aanvaarding of de afstand van de gemeenschap;
 2° Ingeval de man die het eigen goed van de vrouw zonder haar toestemming verkocht heeft, de verkoop moet
 vrijwaren, en in alle andere gevallen waarin de vordering van de vrouw op de man zou terugkomen.>
 
-## Art. 2257
+###### Art. 2257
 
 De verjaring loopt niet :
 Ten aanzien van een schuldvordering die van een voorwaarde afhangt, zolang die voorwaarde niet vervuld is;
 Ten aanzien van een vordering tot vrijwaring, zolang de uitwinning niet heeft plaatsgehad;
 Ten aanzien van een schuldvordering die op een bepaalde dag vervalt, zolang die dag niet verschenen is.
 
-## Art. 2258
+###### Art. 2258
 
 De verjaring loopt niet tegen de erfgenaam onder voorrecht van boedelbeschrijving, ten aanzien van
 zijn schuldvorderingen ten laste van de nalatenschap.
 Zij loopt tegen een onbeheerde nalatenschap, hoewel er geen curator is aangesteld.
 
-## Art. 2259
+###### Art. 2259
 
 Zij loopt eveneens gedurende de drie maanden die voor het opmaken van de boedelbeschrijving en
 de veertig dagen die voor het beraad zijn verleend.
 
 #### HOOFDSTUK V. - TIJD DIE VOOR DE VERJARING VEREIST IS.
 
-##### AFDELING I. - ALGEMENE BEPALINGEN.
 
-## Art. 2260
+##### AFDELING I. - ALGEMENE BEPALINGEN.
+###### Art. 2260
 
 De verjaring wordt gerekend bij dagen, niet bij uren.
 
-## Art. 2261
+###### Art. 2261
 
 Zij is verkregen, wanneer de laatste dag van de vereiste tijd verlopen is.
 
-##### AFDELING II. - <W 1998-06-10/39, art. 7, 004; Inwerkingtreding : 27-07-1998> (ALGEMENE TERMIJNEN VAN
 VERJARING.)
 
-## Art. 2262
+##### AFDELING II. - <W 1998-06-10/39, art. 7, 004; Inwerkingtreding : 27-07-1998> (ALGEMENE TERMIJNEN VAN
+###### Art. 2262
 
 <W 1998-06-10/39, art. 4, 004; Inwerkingtreding : 27-07-1998> Alle zakelijke rechtsvorderingen
 verjaren door verloop van dertig jaar, zonder dat hij die zich op deze verjaring beroept, verplicht is daarvan enige
 ### titel te vertonen of dat men hem de exceptie van kwade trouw kan tegenwerpen.
 
-## Art. 2262bis
+###### Art. 2262bis
 
 <Ingevoegd bij W 1998-06-10/39, art. 5; Inwerkingtreding : 27-07-1998> § 1. Alle persoonlijke
 rechtsvorderingen verjaren door verloop van tien jaar.
@@ -20235,47 +20239,47 @@ volgend op die waarop het feit waardoor de schade is veroorzaakt, zich heeft voo
 voorbehoud heeft erkend, dan is de eis die strekt om over het voorwerp van dat voorbehoud vonnis te doen
 wijzen, ontvankelijk gedurende twintig jaar na de uitspraak.
 
-## Art. 2263
+###### Art. 2263
 
 Na verloop van (acht) jaren, te rekenen van de dagtekening van de laatste titel, kan de schuldenaar
 van een rente genoodzaakt worden om op zijn kosten aan zijn schuldeiser of aan diens rechtverkrijgenden een
 nieuwe titel te verschaffen. <W 1998-06-10/39, art. 6, 004; Inwerkingtreding : 27-07-1998>
 
-## Art. 2264
+###### Art. 2264
 
 De regels van de verjaring met betrekking tot andere onderwerpen dan die in deze titel vermeld zijn,
 worden bepaald in de titels die daarover in het bijzonder handelen.
 
+
 ##### AFDELING III. - TIENJARIGE EN TWINTIGJARIGE VERJARING.
-
-## Art. 2265
-
-<Opgeheven bij W 2020-02-04/16, art. 29,8°, 019; Inwerkingtreding : 01-09-2021>
-
-## Art. 2266
+###### Art. 2265
 
 <Opgeheven bij W 2020-02-04/16, art. 29,8°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2267
+###### Art. 2266
 
 <Opgeheven bij W 2020-02-04/16, art. 29,8°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2268
+###### Art. 2267
 
 <Opgeheven bij W 2020-02-04/16, art. 29,8°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2269
+###### Art. 2268
 
 <Opgeheven bij W 2020-02-04/16, art. 29,8°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2270
+###### Art. 2269
+
+<Opgeheven bij W 2020-02-04/16, art. 29,8°, 019; Inwerkingtreding : 01-09-2021>
+
+###### Art. 2270
 
 Na verloop van tien jaren zijn architecten en aannemers ontslagen van hun aansprakelijkheid met
 betrekking tot de grote werken die zij hebben uitgevoerd of geleid.
 
-##### AFDELING IV. - ENIGE BIJZONDERE VERJARINGEN.
 
-## Art. 2271
+##### AFDELING IV. - ENIGE BIJZONDERE VERJARINGEN.
+###### Art. 2271
 
 De rechtsvordering van meesters on onderwijzers in kunsten en wetenschappen, wegens de lessen
 die zij bij de maand geven;
@@ -20283,7 +20287,7 @@ Die van hotelhouders en tafelhouders, wegens het verschaffen van woning en kost;
 Die van arbeiders en werklieden, tot betaling van hun daghuur, hun leveringen en hun loon,
 Verjaren door verloop van zes maanden.
 
-## Art. 2272
+###### Art. 2272
 
 (Lid 1 opgeheven) <W 06-08-1993, art. 63>.
 (De rechtsvordering) van (gerechtsdeurwaarders), tot betaling van hun loon voor de akten die zij betekenen, en
@@ -20294,35 +20298,35 @@ betaling van het leergeld;
 Die van dienstboden die zich bij het jaar verhuren, tot betaling van hun loon,
 verjaren door verloop van een jaar.
 
-## Art. 2273
+###### Art. 2273
 
 <W 29-12-1983, art. 8>. De rechtsvordering van de verhuurders tot betaling van het bedrag dat
 volgt uit de aanpassing van de huurprijs aan de kosten van levensonderhoud verjaart door verloop van een jaar.
 De rechtsvordering van de huurders tot teruggave van het te veel betaalde verjaart door verloop van een jaar
 vanaf de verzending van het verzoek bepaald bij artikel 1728quater.
 
-## Art. 2274
+###### Art. 2274
 
 De verjaring, in de voorgaande gevallen bepaald, heeft plaats, hoewel men met de verstrekkingen,
 leveringen, diensten en werken is voortgegaan.
 Zij houdt slechts op te lopen, indien er een afgesloten rekening, een onderhandse of authentieke
 schuldbekentenis bestaat, ofwel een dagvaarding voor het gerecht, waarop geen verval van instantie is gevolgd.
 
-## Art. 2275
+###### Art. 2275
 
 Niettemin kunnen zij tegen wie men zich op die verjaringen beroept, aan hen die zich erop beroepen,
 de eed opdragen omtrent de vraag of de zaak werkelijk betaald is.
 De eed kan worden opgedragen aan de weduwen en aan de erfgenamen, of aan de voogden van de
 laatstgenoemden, indien deze minderjarig zijn, opdat zij verklaren dat zij niet weten dat de zaak verschuldigd is.
 
-## Art. 2276
+###### Art. 2276
 
 Rechters (en pleitbezorgers) zijn niet meer verantwoordelijk voor de stukken, wanneer vijf jaren zijn
 verlopen sinds het geding is uitgewezen.
 Eveneens zijn (gerechtsdeurwaarders) daarvoor niet meer verantwoordelijk na verloop van twee jaren sinds de
 uitvoering van hun opdracht of de betekening van de akten waarmee zij belast waren. <W 05-07-1963, art. 48>.
 
-## Art. 2276bis
+###### Art. 2276bis
 
 <Ingevoegd bij W 08-08-1985, art. 1>. § 1. De advocaten zijn ontlast van hun
 beroepsaansprakelijkheid en zijn niet meer verantwoordelijk voor de bewaring van de stukken vijf jaar na het
@@ -20332,7 +20336,7 @@ is belast.
 § 2. De vordering van de advocaten tot betaling van kosten en ereloon verjaart na verloop van vijf jaar na het
 beëindigen van hun taak.
 
-## Art. 2276ter
+###### Art. 2276ter
 
 <Ingevoegd bij W 19-02-1990, art. 1>. § 1. Deskundigen zijn ontlast van hun
 beroepsaansprakelijkheid en zijn niet meer verantwoordelijk voor de bewaring van de stukken tien jaar na het
@@ -20342,12 +20346,12 @@ Deze verjaring is niet van toepassing wanneer en deskundige uitdrukkelijk met he
 stukken is belast.
 § 2. De vordering van dekundigen tot betaling van kosten en ereloon verjaart na verloop van vijf jaar.
 
-## Art. 2276quater
+###### Art. 2276quater
 
 <Ingevoegd bij W 1998-07-05/57, art. 15, 005; Inwerkingtreding : 01-01-1999> De
 schuldbemiddelaars zijn ontlast van hun beroepsaansprakelijkheid vijf jaar na het beëindigen van hun taak.
 
-## Art. 2276quinquies
+###### Art. 2276quinquies
 
 (Ingevoegd bij <W 1999-05-04/03, art. 47, Inwerkingtreding : 01-01-2000>) Voor de
 beroepsaansprakelijkheid van de notarissen gelden de gemeenrechtelijke verjaringstermijnen, behoudens voor de
@@ -20355,7 +20359,7 @@ beroepsaansprakelijkheid betreffende de laatste wilsbeschikkingen en de contract
 verjaringstermijn begint te lopen vanaf het overlijden van de betrokkene die de laatste wilsbeschikking of de
 contractuele erfstelling deed.
 
-## Art. 2277.Termijnen
+###### Art. 2277.Termijnen
 
 van altijddurende renten en van lijfrenten;
 Die van uitkeringen tot levensonderhoud;
@@ -20370,7 +20374,7 @@ elektronische communicatienetwerken verjaren na verloop van vijf jaren.]1
 (1)<W 2017-07-06/24, art. 48, 015; Inwerkingtreding : 03-08-2017>
 (2)<W 2018-12-21/09, art. 126, 017; Inwerkingtreding : 10-01-2019>
 
-## Art. 2277bis
+###### Art. 2277bis
 
 <Ingevoegd bij W 06-08-1993, art. 64>. De rechtsvordering van verzorgingsverstrekkers met
 betrekking tot de door hen geleverde geneeskundige verstrekkingen, diensten en goederen, daar inbegrepen de
@@ -20379,7 +20383,7 @@ jaar te rekenen vanaf het einde van de maand waarin deze zijn verstrekt.
 Dezelfde bepaling is van toepassing voor geneeskundige verstrekkingen, diensten, goederen en bijkomende
 kosten welke door de verplegings- en verzorgingsinstelling of door derden werden geleverd of gefaktureerd.
 
-## Art. 2277ter
+###### Art. 2277ter
 
 <Ingevoegd bij W 2007-04-25/38, art. 216; Inwerkingtreding : 18-05-2007> § 1.
 Rechtsvorderingen ingesteld door publieke overheden tot vergoeding van de kosten voor maatregelen tot
@@ -20394,24 +20398,24 @@ vijandelijkheden, burgeroorlog, oproer of milieuschade ten gevolge van een natuu
 onontkoombaar en onafwendbaar is, of milieuschade ten gevolge van activiteiten die uitsluitend tot doel hebben
 bescherming te bieden tegen natuurrampen, valt niet onder het toepassingsgebied van dit artikel.
 
-## Art. 2278.De
+###### Art. 2278.De
 
 verjaringen waarover in de artikelen van deze afdeling gehandeld wordt, lopen tegen
 minderjaringen en [1 personen beschermd krachtens artikel 492/1]1; behoudens hun verhaal op hun [1 voogd of
 bewindvoerder ]1.
 (1)<W 2013-03-17/14, art. 146, 013; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 2279
+###### Art. 2279
 
 <Opgeheven bij W 2020-02-04/16, art. 29,9°, 019; Inwerkingtreding : 01-09-2021>
 
-## Art. 2280
+###### Art. 2280
 
 <Opgeheven bij W 2020-02-04/16, art. 29,10°, 019; Inwerkingtreding : 01-09-2021>
 
 ### TITEL XXI. - (KENNISGEVING). <W 2001-10-20/40, art. 3; Inwerkingtreding : 01-01-2001>
 
-## Art. 2281
+###### Art. 2281
 
 <Opgeheven bij W 2022-04-28/25, art. 62, 020; Inwerkingtreding : 01-01-2023>
 
@@ -20422,7 +20426,7 @@ overgangsrecht)
 
 #### HOOFDSTUK II. - STELSEL VAN GEMEENSCHAP VAN GOEDEREN.
 
-## Art. 1399
+###### Art. 1399
 
 De wettelijke gemeenschap en de bedongen gemeenschap vangen aan op de dag dat het huwelijk
 voor de ambtenaar van de burgerlijke stand wordt aangegaan; men mag niet bedingen dat de gemeenschap op
@@ -20430,17 +20434,17 @@ een ander tijdstip zal aanvangen.
 
 EERSTE DEEL. - WETTELIJKE GEMEENSCHAP.
 
-## Art. 1400
+###### Art. 1400
 
 De gemeenschap die tot stand komt, hetzij door de enkele verklaring dat men huwt onder het stelsel
 van gemeenschap van goederen, hetzij bij ontstentenis van een contract, is onderworpen aan de regels die in de
 zes volgende afdelingen worden bepaald.
 
-##### AFDELING I. - BATEN EN LASTEN DIE DE GEMEENSCHAP UITMAKEN.
 
 § I. BATEN VAN DE GEMEENSCHAP.
 
-## Art. 1401
+##### AFDELING I. - BATEN EN LASTEN DIE DE GEMEENSCHAP UITMAKEN.
+###### Art. 1401
 
 De gemeenschap omvat, wat de baten betreft :
 1° Alle roerende goederen die de echtgenoten op de dag van de voltrekking van het huwelijk bezaten, alsook
@@ -20451,13 +20455,13 @@ of ontvangen en voortkomend van de goederen die aan de echtgenoten bij de voltre
 toebehoorden, of van de goederen die zij gedurende het huwelijk, onder welke titel ook, verkrijgen;
 3° Alle onroerende goederen die gedurende het huwelijk worden verkregen.
 
-## Art. 1402
+###### Art. 1402
 
 Ieder onroerend goed wordt als een aanwinst van de gemeenschap beschouwd, tenzij het bewezen
 is dat een van de echtgenoten de eigendom of het wettelijk bezit daarvan had voor het huwelijk, of dat hij het
 sindsdien door erfenis of schenking heeft verkregen.
 
-## Art. 1403
+###### Art. 1403
 
 Houtkappingen en voortbrengsels van mijnen en groeven vallen in de gemeenschap voor alles wat
 daarvan geacht wordt aan de vruchtgebruiker toe te komen volgens de regels bepaald in de titel Vruchtgebruik,
@@ -20468,7 +20472,7 @@ zijn erfgenamen.
 Indien de mijnen en groeven gedurende het huwelijk zijn geopend, vallen de voortbrengsels ervan slechts in de
 gemeenschap tegen vergoeding of schadeloosstelling aan de echtgenoot aan wie die mocht zijn verschuldigd.
 
-## Art. 1404
+###### Art. 1404
 
 De onroerende goederen die de echtgenoten op de dag van de huwelijksvoltrekking bezitten of die zij
 gedurende het huwelijk door erfenis verkrijgen, vallen niet in de gemeenschap.
@@ -20477,26 +20481,26 @@ huwelijkscontract waarbij gemeenschap bedongen is, en voor de voltrekking van he
 tussentijd verkregen onroerend goed in de gemeenschap, tenzij de verkrijging heeft plaatsgehad ter uitvoering
 van enig huwelijksbeding; in dit geval wordt de verkrijging volgens de overeenkomst geregeld.
 
-## Art. 1405
+###### Art. 1405
 
 Schenkingen van onroerende goederen, die gedurende het huwelijk aan een van beide echtgenoten
 worden gedaan, vallen niet in de gemeenschap en behoren uitsluitend aan de begiftigde toe, tenzij in de
 schenking uitdrukkelijk bepaald is dat het geschonken goed aan de gemeenschap toebehoort.
 
-## Art. 1406
+###### Art. 1406
 
 Een onroerend goed dat door de vader, de moeder of een ander bloedverwant in de opgaande lijn
 wordt overgelaten of afgestaan aan een van beide echtgenoten, hetzij om hem te voldoen wat hij hem
 verschuldigd is, hetzij onder verplichting om schulden van de schenker aan derden te betalen, valt niet in de
 gemeenschap; behoudens vergoeding of schadeloosstelling.
 
-## Art. 1407
+###### Art. 1407
 
 Een onroerend goed dat gedurende het huwelijk verkregen wordt in ruil voor een onroerend goed
 dat aan een van beide echtgenoten toebehoort, valt niet in de gemeenschap en wordt in de plaats gesteld van
 het vervreemde goed; behoudens vergoeding, indien er een opleg betaald is.
 
-## Art. 1408
+###### Art. 1408
 
 De verkrijging gedurende het huwelijk, bij veiling of op andere wijze, van een aandeel in een
 onroerend goed waarvan een van de echtgenoten medeëigenaar was, maakt geen aanwinst uit; behoudens
@@ -20509,7 +20513,7 @@ aan de gemeenschap van de prijs die voor de verkrijging betaald is.
 
 § II. LASTEN VAN DE GEMEENSCHAP EN VORDERINGEN TEGEN DE GEMEENSCHAP DIE DAARUIT ONTSTAAN.
 
-## Art. 1409
+###### Art. 1409
 
 De gemeenschap omvat, wat de lasten betreft :
 1° Alle roerende schulden die ten laste waren van de echtgenoten op de dag van de voltrekking van hun
@@ -20525,7 +20529,7 @@ gemeenschap vallen;
 5° Het levensonderhoud van de echtgenoten, de opvoeding en het onderhoud van de kinderen en alle andere
 lasten van het huwelijk.
 
-## Art. 1410
+###### Art. 1410
 
 De gemeenschap is tot betaling van de roerende schulden die door de vrouw voor het huwelijk zijn
 aangegaan, slechts gehouden voor zover die voortvloeien uit een authentieke akte van voor het huwelijk, of uit
@@ -20537,12 +20541,12 @@ goederen.
 De man die beweert zodanige schuld voor zijn vrouw te hebben betaald, kan daarvoor van zijn vrouw noch van
 haar erfgenamen vergoeding vorderen.
 
-## Art. 1411
+###### Art. 1411
 
 De schulden van uitsluitend roerende nalatenschappen, die de echtgenoten gedurende het huwelijk
 verkrijgen, zijn voor het geheel ten laste van de gemeenschap.
 
-## Art. 1412
+###### Art. 1412
 
 De schulden van een uitsluitend onroerende nalatenschap, die een van de echtgenoten gedurende
 het huwelijk verkrijgt, zijn niet ten laste van de gemeenschap; behoudens het recht van de schuldeisers om
@@ -20551,7 +20555,7 @@ Indien evenwel de nalatenschap door de man verkregen is, kunnen de schuldeisers 
 betaling vervolgen, hetzij op alle eigen goederen van de man, hetzij zelfs op de goederen van de gemeenschap;
 behoudens, in dit tweede geval, de vergoeding aan de vrouw of aan haar erfgenamen verschuldigd.
 
-## Art. 1413
+###### Art. 1413
 
 Indien een uitsluitend onroerende nalatenschap door de vrouw verkregen is en deze de
 nalatenschap aanvaard heeft met toestemming van haar man, kunnen de schuldeisers van de nalatenschap
@@ -20560,7 +20564,7 @@ de man, de nalatenschap slechts met machtiging van de rechter aanvaard heeft, ku
 de onroerende goederen van de nalatenschap ontoereikend zijn, zich niet verhalen dan op de blote eigendom
 van de overige persoonlijke goederen van de vrouw.
 
-## Art. 1414
+###### Art. 1414
 
 Wanneer de nalatenschap, door een van de echtgenoten verkregen, ten dele roerend en ten dele
 onroerend is, zijn de schulden waarmee de nalatenschap bezwaard is, niet verder ten laste van de gemeenschap
@@ -20570,7 +20574,7 @@ Deze bijdrage wordt bepaald volgens een boedelbeschrijving, die de man moet doen
 hoofde, indien de nalatenschap hem persoonlijk aangaat, hetzij omdat hij zijn vrouw bij haar handelingen leidt en
 machtigt, indien het een door haar verkregen nalatenschap betreft.
 
-## Art. 1415
+###### Art. 1415
 
 Bij het ontbreken van een boedelbeschrijving, en ingeval zulks de vrouw benadeelt, kan zij of kunnen
 haar erfgenamen, bij de ontbinding van de gemeenschap, de haar naar recht toekomende vergoedingen
@@ -20578,7 +20582,7 @@ vorderen, en zelfs het bewijs van de omvang en de waarde van de niet beschreven 
 zowel door huiselijke papieren en titels als door getuigen, en desnoods door de algemene bekendheid.
 De man wordt nooit toegelaten tot het leveren van dat bewijs.
 
-## Art. 1416
+###### Art. 1416
 
 De bepalingen van artikel 1414 verhinderen niet dat de schuldeisers van een ten dele roerende en
 ten dele onroerende nalatenschap betaling vervolgen op de goederen van de gemeenschap, hetzij de
@@ -20588,40 +20592,40 @@ Hetzelfde geldt ingeval de vrouw de nalatenschap slechts niet machtiging van de 
 roerend goed niettemin met dat van de gemeenschap vermengd is geworden, zonder dat vooraf een
 boedelbeschrijving is opgemaakt.
 
-## Art. 1417
+###### Art. 1417
 
 Indien de vrouw, in geval van weigering van de man, de nalatenschap slechts met machtiging van de
 rechter aanvaard heeft en een boedelbeschrijving werd opgemaakt, kunnen de schuldeisers alleen betaling
 vervolgen op de roerende en de onroerende goederen van die nalatenschap en, ingeval deze goederen
 ontoereikend zijn, op de blote eigendom van de overige persoonlijke goederen van de vrouw.
 
-## Art. 1418
+###### Art. 1418
 
 De regels, bij de artikelen 1411 en volgende bepaald, zijn van toepassing zowel op de schulden die
 met een schenking verband houden als op die welke uit een nalatenschap ontstaan.
 
-## Art. 1419
+###### Art. 1419
 
 De schuldeisers kunnen betaling vervolgen van de schulden die de vrouw heeft aangegaan met
 toestemming van haar man, zowel op alle goederen van de gemeenschap als op die van de man of van de
 vrouw; behoudens de aan de gemeenschap verschuldigde vergoeding of de aan de man verschuldigde
 schadeloosstelling.
 
-## Art. 1420
+###### Art. 1420
 
 Iedere schuld die de vrouw enkel krachtens een algemene of bijzondere volmacht van haar man
 heeft aangegaan, is ten laste van de gemeenschap; en de schuldeiser kan noch van de vrouw, noch op haar
 persoonlijke goederen betaling vervolgen van zodanige schuld.
 
-##### AFDELING II. - BEHEER VAN DE GEMEENSCHAP EN GEVOLGEN VAN DE HANDELINGEN VAN IEDER VAN BEIDE
 ECHTGENOTEN TEN OPZICHTE VAN DE HUWELIJKSGEMEENSCHAP.
 
-## Art. 1421
+##### AFDELING II. - BEHEER VAN DE GEMEENSCHAP EN GEVOLGEN VAN DE HANDELINGEN VAN IEDER VAN BEIDE
+###### Art. 1421
 
 De man alleen beheert de goederen van de gemeenschap.
 Hij mag die goederen verkopen, vervreemden en met hypotheek bezwaren zonder medewerking van de vrouw.
 
-## Art. 1422
+###### Art. 1422
 
 Hij mag niet bij schenking onder de levenden beschikken over onroerende goederen van de
 gemeenschap, noch over de algemeenheid of een gedeelte van de roerende goederen, dan alleen om aan
@@ -20629,7 +20633,7 @@ gemeenschappelijke kinderen een stand te verschaffen.
 Hij mag echter onder bijzondere titel over roerende goederen om niet beschikken ten voordele van wie ook,
 mits hij zich het vruchtgebruik daarvan niet voorbehoudt.
 
-## Art. 1423
+###### Art. 1423
 
 De schenking bij testament, door de man gedaan, mag zijn aandeel in de gemeenschap niet
 overschrijden.
@@ -20639,32 +20643,32 @@ niet te beurt valt aan deze erfgenamen, krijgt de legataris, ten laste van het a
 man in de gemeenschap en ten laste van de persoonlijke goederen van de man, een vergoeding gelijk aan de
 volle waarde van het geschonken goed.
 
-## Art. 1424
+###### Art. 1424
 
 Geldboeten die aan de man wegens misdrijf (...) worden opgelegd, kunnen worden verhaald op de
 goederen van de gemeenschap, behoudens de aan de vrouw verschuldigde vergoeding; die welke aan de vrouw
 worden opgelegd, kunnen, zolang de gemeenschap duurt, slechts op de blote eigendom van haar persoonlijke
 goederen verhaald worden. <W 15-12-1949, art. 28>
 
-## Art. 1425
+###### Art. 1425
 
 <W 16-04-1935, art. 2> Veroordelingen tegen de man uitgesproken bij toepassing van artikel
 1386bis kunnen worden verhaald op de goederen van de gemeenschap, behoudens de aan de vrouw
 verschuldigde vergoeding.
 
-## Art. 1426
+###### Art. 1426
 
 Handelingen die de vrouw verricht zonder toestemming van de man, zelfs met machtiging van de
 rechter, verbinden de goederen van de gemeenschap niet, behalve wanneer zij als openbare koopvrouw en voor
 haar handel verbintenissen aangaat.
 
-## Art. 1427
+###### Art. 1427
 
 De vrouw kan zichzelf of de goederen van de gemeenschap niet verbinden, zelfs om ontslag van
 haar man uit de gevangenis te bekomen of om, in geval van afwezigheid van de man, aan haar kinderen een
 stand te verschaffen, dan na daartoe door de rechter te zijn gemachtigd.
 
-## Art. 1428
+###### Art. 1428
 
 De man heeft het beheer van alle persoonlijke goederen van de vrouw.
 Hij kan alle roerende rechtsvorderingen en alle bezitsvorderingen die aan de vrouw toebehoren, alleen instellen.
@@ -20672,7 +20676,7 @@ Hij mag de persoonlijke onroerende goederen van zijn vrouw niet vervreemden zond
 Hij is aansprakelijk voor elke vermindering van de persoonlijke goederen van zijn vrouw, door verzuim van
 maatregelen tot bewaring veroorzaakt.
 
-## Art. 1429
+###### Art. 1429
 
 Verhuringen van goederen van de vrouw, door de man alleen voor langer dan negen jaren
 toegestaan, zijn, in geval van ontbinding van de gemeenschap, ten aanzien van de vrouw of van haar
@@ -20680,26 +20684,26 @@ erfgenamen, slechts verbindend voor de tijd die nog moet lopen, hetzij van de ee
 indien partijen zich nog daarin bevinden, hetzij van de tweede periode, en zo verder, op zulke wijze dat de
 huurder enkel recht heeft op het genot gedurende de gehele periode van negen jaren, waarin hij zich bevindt.
 
-## Art. 1430
+###### Art. 1430
 
 Verhuringen van goederen van de vrouw, voor negen jaren of minder, door de man alleen
 toegestaan of vernieuwd, meer dan drie jaren voor het eindigen van de lopende huur wanneer het
 landeigendommen betreft, en meer dan twee jaren voor hetzelfde tijdstip wanneer het huizen betreft, hebben
 geen gevolg, tenzij de uitvoering van de huur voor de ontbinding van de gemeenschap begonnen is.
 
-## Art. 1431
+###### Art. 1431
 
 De vrouw die zich met haar man hoofdelijk verbindt voor zaken van de gemeenschap of van de man,
 wordt, ten aanzien van de laatstgenoemde, geacht zich alleen als borg te hebben verbonden; zij moet voor de
 door haar aangegane verbintenis schadeloos gesteld worden.
 
-## Art. 1432
+###### Art. 1432
 
 Zo heeft ook de man die de verkoop van een persoonlijk onroerend goed, door zijn vrouw gedaan,
 hoofdelijk of op andere wijze vrijwaart, indien hij wordt lastig gevallen, een verhaal tegen haar, hetzij op haar
 aandeel in de gemeenschap, hetzij op haar persoonlijke goederen.
 
-## Art. 1433
+###### Art. 1433
 
 Indien een onroerend goed dat aan een van de echtgenoten toebehoorde, is verkocht, evenals indien
 grondlasten die aan eigen goederen van een van beiden verschuldigd waren, met geld zijn afgekocht, en de prijs
@@ -20707,20 +20711,20 @@ daarvan in de gemeenschap is gestort, een en ander zonder wederbelegging, wordt 
 voorafgenomen ten voordele van de echtgenoot die eigenaar was van het verkochte onroerend goed of van de
 afgekochte lasten.
 
-## Art. 1434
+###### Art. 1434
 
 Wederbelegging wordt geacht gedaan te zijn ten aanzien van de man, wanneer hij bij de aankoop van
 een goed verklaard heeft dat deze geschiedt met penningen voortkomende van de vervreemding van zijn eigen
 onroerend goed, en om hem tot wederbelegging te dienen.
 
-## Art. 1435
+###### Art. 1435
 
 De verklaring van de man, dat de aankoop geschiedt met penningen voortkomende van een
 onroerend goed door de vrouw verkocht en om haar tot wederbelegging te dienen, is niet voldoende, indien die
 wederbelegging niet uitdrukkelijk aanvaard is door de vrouw; wanneer zij deze niet heeft aanvaard, heeft zij, bij de
 ontbinding van de gemeenschap, alleen recht op de vergoeding van de prijs van haar verkocht onroerend goed.
 
-## Art. 1436
+###### Art. 1436
 
 De vergoeding van de prijs van een onroerend goed dat aan de man toebehoorde, kan alleen op de
 goederen van de gemeenschap worden verhaald; die van de prijs van een onroerend goed dat aan de vrouw
@@ -20728,7 +20732,7 @@ toebehoorde, kan verhaald worden op de persoonlijke goederen van de man, ingeval
 gemeenschap ontoereikend zijn. In alle gevallen komt alleen de verkoopprijs als vergoeding in aanmerking, wat
 men ook mag beweren omtrent de waarde van het vervreemde onroerend goed.
 
-## Art. 1437
+###### Art. 1437
 
 Telkens als een bedrag uit de gemeenschap wordt genomen, hetzij om persoonlijke schulden of
 lasten van een van de echtgenoten te voldoen, zoals de prijs of een gedeelte van de prijs van een eigen
@@ -20736,7 +20740,7 @@ onroerend goed of de afkoop van grondlasten, hetzij om zijn persoonlijke goedere
 of te verbeteren, en in het algemeen telkens als een van beide echtgenoten uit de goederen van de
 gemeenschap een persoonlijk voordeel getrokken heeft, is hij daarvoor vergoeding verschuldigd.
 
-## Art. 1438
+###### Art. 1438
 
 Wanneer ouders gezamenlijk aan een gemeenschappelijk kind huwelijksgoed hebben gegeven,
 zonder te bepalen welk aandeel ieder van hen daarin wilde bijdragen, worden zij geacht ieder de helft te hebben
@@ -20746,22 +20750,22 @@ In het tweede geval bezit de echtgenoot wiens persoonlijk onroerend of roerend g
 gegeven is, op de goederen van de andere echtgenoot een vordering tot vergoeding voor de helft van dat
 huwelijksgoed, met inachtneming van de waarde van het gegeven goed ten tijde van de gift.
 
-## Art. 1439
+###### Art. 1439
 
 Huwelijksgoed dat door de man alleen, uit goederen van de gemeenschap, aan een
 gemeenschappelijk kind gegeven is, komt ten laste van de gemeenschap; en ingeval de gemeenschap door de
 vrouw aanvaard wordt, komt het huwelijksgoed voor de helft ten haren laste, tenzij de man uitdrukkelijk
 verklaard heeft dat hij het goed voor het geheel of voor een gedeelte, groter dan de helft, te zijnen laste neemt.
 
-## Art. 1440
+###### Art. 1440
 
 Vrijwaring is verschuldigd door ieder die huwelijksgoed verstrekt; en de interest daarvan begint te
 lopen van de dag van het huwelijk, zelfs indien voor de uitkering een tijdsbepaling bedongen is, tenzij anders is
 overeengekomen.
 
-##### AFDELING III. - ONTBINDING VAN DE GEMEENSCHAP EN ENIGE GEVOLGEN DAARVAN.
 
-## Art. 1441
+##### AFDELING III. - ONTBINDING VAN DE GEMEENSCHAP EN ENIGE GEVOLGEN DAARVAN.
+###### Art. 1441
 
 De gemeenschap wordt ontbonden :
 1° door de dood; (...);
@@ -20769,7 +20773,7 @@ De gemeenschap wordt ontbonden :
 (3°) door scheiding van tafel en bed;
 (4°) door scheiding van goederen. <W 15-12-1949, art. 25 en 28>
 
-## Art. 1442
+###### Art. 1442
 
 Het ontbreken van een boedelbeschrijving na de (...) dood van een der echtgenoten heeft niet ten
 gevolge dat de gemeenschap voortduurt; onverminderd de vorderingen van de belanghebbende partijen, wat
@@ -20780,7 +20784,7 @@ de langstlevende echtgenoot het genot van de inkomsten van die kinderen verliest
 hem niet verplicht heeft een boedelbeschrijving op te maken, staat met hem hoofdelijk in voor alle veroordelingen
 die ten voordele van de minderjarigen kunnen woorden uitgesproken.
 
-## Art. 1443
+###### Art. 1443
 
 <W 10-10-1967, art. 104> Scheiding van goederen kan alleen in rechte worden gevorderd door de
 vrouw wier huwelijksgoed is in gevaar gebracht, en wanneer de wanorde van de zaken van de man doet vrezen
@@ -20788,49 +20792,49 @@ dat zijn goederen ontoereikend zullen zijn, om de rechten en terugnemingen van d
 Elke vrijwillige scheiding is nietig.
 De bekentenis van de man levert geen bewijs op, zelfs wanneer er geen schuldeisers zijn.
 
-## Art. 1444
+###### Art. 1444
 
 <W 12-07-1931, art. 1> De scheiding van goederen, hoewel in rechte uitgesproken, is nietig, indien
 zij niet is ten uitvoer gelegd door de werkelijke voldoening van de rechten en terugnemingen van de vrouw, bij
 authentieke akte, ten belope van de goederen van de man, of tenminste door vervolgingen die binnen (vier
 maanden) na het vonnis zijn begonnen en sindsdien niet zijn onderbroken. <W 28-05-1949, art. 1>
 
-## Art. 1445
+###### Art. 1445
 
 (Lid 1 opgeheven) <W 10-10-1967, art. 23> Het vonnis waarbij scheiding van goederen wordt
 uitgesproken, werkt terug, wat zijn gevolgen betreft, tot op de dag van de eis.
 
-## Art. 1446
+###### Art. 1446
 
 De persoonlijke schuldeisers van de vrouw kunnen geen scheiding van goederen vorderen zonder
 haar toestemming.
 Zij kunnen evenwel, in geval van faillissement of kennelijk onvermogen van de man, de rechten van hun
 schuldenares uitoefenen ten belope van hun schuldvorderingen.
 
-## Art. 1447
+###### Art. 1447
 
 De schuldeisers van de man kunnen opkomen tegen de scheiding van goederen, met bedrieglijke
 benadeling van hun rechten uitgesproken en zelfs tenuitvoergelegd; zij kunnen zelfs in het geding tot scheiding
 tussenkomen om de vordering te betwisten.
 
-## Art. 1448
+###### Art. 1448
 
 De vrouw die scheiding van goederen heeft verkregen, moet naar evenredigheid van haar vermogen
 en van dat van de man, bijdragen zowel in de kosten van de huishouding als in die van de opvoeding van de
 gemeenschappelijke kinderen.
 De kosten komen geheel ten laste van de vrouw, indien de man niets meer bezit.
 
-## Art. 1449
+###### Art. 1449
 
 <W 22-06-1959, art. 1> De vrouw die van tafel en bed gescheiden is, heeft volledige
 handelingsbekwaamheid en behoeft geen machtiging van haar man of van de rechter.
 Dit geldt eveneens voor de vrouw die enkel gescheiden is van goederen.
 
-## Art. 1450
+###### Art. 1450
 
 (Opgeheven) <W 22-06-1959, art. 3>
 
-## Art. 1451
+###### Art. 1451
 
 De gemeenschap die ontbonden is, hetzij door scheiding van tafel en bed en van goederen, hetzij
 door scheiding van goederen alleen, kan worden hersteld met toestemming van beide partijen.
@@ -20843,36 +20847,36 @@ verricht.
 Elke overeenkomst waarbij de echtgenoten hun gemeenschap zouden herstellen onder andere voorwaarden
 dan die waaraan zij tevoren onderworpen was, is nietig.
 
-## Art. 1452
+###### Art. 1452
 
 De ontbinding van de gemeenschap, teweeggebracht door echtscheiding, of door scheiding van tafel
 en bed en van goederen, of door scheiding van goederen alleen, maakt de overlevingsrechten van de vrouw niet
 opvorderbaar; deze behoudt echter de bevoegdheid om die rechten uit te oefenen bij de (...) dood van haar man.
 <W 15-12-1949, art. 28>
 
-##### AFDELING IV. - AANVAARDING VAN DE GEMEENSCHAP, EN BEVOEGDHEID OM DAARVAN AFSTAND TE DOEN,
 MET DE VOORWAARDEN DIENAANGAANDE.
 
-## Art. 1453
+##### AFDELING IV. - AANVAARDING VAN DE GEMEENSCHAP, EN BEVOEGDHEID OM DAARVAN AFSTAND TE DOEN,
+###### Art. 1453
 
 Na de ontbinding van de gemeenschap heeft de vrouw of hebben haar erfgenamen en
 rechtverkrijgenden de bevoegdheid om de gemeenschap te aanvaarden of daarvan afstand te doen; elke
 hiermee strijdige overeenkomst is nietig.
 
-## Art. 1454
+###### Art. 1454
 
 De vrouw die met betrekking tot goederen van de gemeenschap daden van inmenging heeft
 verricht, kan van de gemeenschap geen afstand doen.
 Daden van eenvoudig beheer of van bewaring worden niet beschouwd als daden van inmenging.
 
-## Art. 1455
+###### Art. 1455
 
 De meerderjarige vrouw die in een akte de hoedanigheid van vrouw in gemeenschap van goederen
 heeft aangenomen, kan daarvan geen afstand meer doen noch in haar recht worden hersteld tegen het
 aannemen van die hoedanigheid, zelfs wanneer zij die aangenomen heeft alvorens een boedelbeschrijving te
 hebben opgemaakt, tenzij er van de zijde van de erfgenamen van de man bedrog heeft plaatsgehad.
 
-## Art. 1456
+###### Art. 1456
 
 De vrouw die haar man overleeft en de bevoegdheid wil behouden om van de gemeenschap afstand
 te doen, moet binnen drie maanden na de dag van zijn overlijden, een getrouwe en nauwkeurige
@@ -20881,20 +20885,20 @@ van de man of dezen behoorlijk opgeroepen zijnde.
 Die boedelbeschrijving moet door haar, bij de sluiting, voor de openbare ambtenaar die ze heeft opgemaakt,
 waar en oprecht verklaard worden.
 
-## Art. 1457
+###### Art. 1457
 
 Binnen drie maanden en veertig dagen na het overlijden van de man moet zij haar afstand doen op
 de griffie der rechtbank van eerste aanleg van het arrondissement waar de man zijn woonplaats had; de akte van
 afstand moet worden ingeschreven in het register waarin de akten van verwerping van nalatenschappen worden
 opgenomen.
 
-## Art. 1458
+###### Art. 1458
 
 De weduwe kan, naar omstandigheden, aan de rechtbank van eerste aanleg een verlenging vragen
 van de termijn, door het vorige artikel bepaald voor de afstand; die verlenging wordt, indien daartoe grond
 bestaat, toegekend op tegenspraak van de erfgenamen van de man of dezen behoorlijk opgeroepen zijnde.
 
-## Art. 1459
+###### Art. 1459
 
 De weduwe die geen afstand heeft gedaan binnen de hierboven bepaalde termijn, behoudt de
 bevoegdheid om afstand te doen, indien zij geen daden van inmenging heeft verricht en een boedelbeschrijving
@@ -20903,13 +20907,13 @@ zij moet de kosten betalen die tot op het ogenblik van de afstand tegen haar zij
 Zij kan ook vervolgd worden na verloop van de termijn van veertig dagen sinds het sluiten van de
 boedelbeschrijving, indien deze voor het einde van de termijn van drie maanden gesloten is.
 
-## Art. 1460
+###### Art. 1460
 
 De weduwe die enig goed van de gemeenschap heeft weggemaakt of verborgen gehouden, wordt
 geacht in gemeenschap van goederen te blijven, ondanks haar afstand; dit geldt ook ten aanzien van haar
 erfgenamen.
 
-## Art. 1461
+###### Art. 1461
 
 Indien de weduwe voor het verstrijken van de termijn van drie maanden overlijdt, zonder de
 boedelbeschrijving te hebben opgemaakt of voleindigd, hebben de erfgenamen, om de boedelbeschrijving op te
@@ -20920,11 +20924,11 @@ te beraden, een nieuwe termijn van veertig dagen te rekenen van haar overlijden.
 Bovendien kunnen zij van de gemeenschap afstand doen, met inachtneming van de hierboven bepaalde
 vormen; de artikelen 1458 en 1459 zijn op hen van toepassing.
 
-## Art. 1462
+###### Art. 1462
 
 (Opgeheven) <W 15-12-1949, art. 29>
 
-## Art. 1463
+###### Art. 1463
 
 De uit de echt of van tafel en bed gescheiden vrouw die de gemeenschap niet aanvaard heeft binnen
 drie maanden en veertig dagen nadat de echtscheiding of de scheiding van tafel en bed definitief is uitgesproken,
@@ -20932,13 +20936,13 @@ wordt geacht van de gemeenschap afstand te hebben gedaan, behalve indien zij, no
 termijn, van de rechter een verlenging daarvan bekomen heeft, op tegenspraak van de man of deze behoorlijk
 opgeroepen zijnde.
 
-## Art. 1464
+###### Art. 1464
 
 De schuldeisers van de vrouw kunnen opkomen tegen de afstand die door haar of door haar
 erfgenamen mocht zijn gedaan met bedrieglijke benadeling van hun schuldvorderingen, en de gemeenschap uit
 eigen hoofde aanvaarden.
 
-## Art. 1465
+###### Art. 1465
 
 Gedurende de drie maanden en veertig dagen die haar zijn verleend om een boedelbeschrijving op te
 maken en zich te beraden, heeft de weduwe, onverschillig of zij aanvaardt dan wel afstand doet, het recht om
@@ -20950,35 +20954,35 @@ gemeenschap deel uitmaakt of aan de erfgenamen van de man toebehoort; en indien 
 ontbinding van de gemeenschap, een huurhuis bewoonden, moet de vrouw, gedurende die termijnen, niet
 bijdragen in de betaling van de huur, waarvan het bedrag uit de massa zal worden opgenomen.
 
-## Art. 1466
+###### Art. 1466
 
 Ingeval de gemeenschap ontbonden wordt door de dood van de vrouw, kunnen haar erfgenamen
 afstand doen van de gemeenschap binnen de termijnen en in de vorm door de wet bepaald ten aanzien van de
 vrouw die haar man overleeft.
 
-##### AFDELING V. - VERDELING VAN DE AANVAARDE GEMEENSCHAP.
 
-## Art. 1467
+##### AFDELING V. - VERDELING VAN DE AANVAARDE GEMEENSCHAP.
+###### Art. 1467
 
 Na de aanvaarding van de gemeenschap door de vrouw of haar erfgenamen, worden de baten
 verdeeld en de lasten gedragen op de hierna bepaalde wijze.
 
 § 1. VERDELINGEN VAN DE BATEN.
 
-## Art. 1468
+###### Art. 1468
 
 De echtgenoten of hun erfgenamen brengen in de massa van de aanwezige goederen alles in wat zij
 aan de gemeenschap als vergoeding of schadeloosstelling verschuldigd zijn, volgens de regels die hierboven in
 ##### afdeling II van het eerste deel van dit hoofdstuk zijn bepaald.
 
-## Art. 1469
+###### Art. 1469
 
 Elke echtgenoot of zijn erfgenaam doet eveneens inbreng van de geldsommen die uit de
 gemeenschap zijn genomen of van de waarde der goederen die de echtgenoot daaruit genomen heeft, hetzij om
 huwelijksgoed te geven aan een kind uit een ander huwelijk, hetzij om voor zich alleen huwelijksgoed te geven aan
 een gemeenschappelijk kind.
 
-## Art. 1470
+###### Art. 1470
 
 Uit de massa van de goederen neemt elke echtgenoot of zijn erfgenaam vooraf :
 1° Zijn persoonlijke goederen die niet in de gemeenschap zijn gevallen, wanneer zij in natura aanwezig zijn, of de
@@ -20987,31 +20991,31 @@ goederen die als wederbelegging zijn aangekocht;
 wederbelegging gedaan is;
 3° De vergoedingen die de gemeenschap hem verschuldigd is.
 
-## Art. 1471
+###### Art. 1471
 
 De vooruitnemingen van de vrouw worden gedaan voor die van de man.
 Zij worden, wat de goederen betreft die niet meer in natura aanwezig zijn, gedaan eerst uit het gereed geld,
 vervolgens uit de roerende goederen en ten slotte uit de onroerende goederen van de gemeenschap; in dit
 laatste geval behoort de keus van de onroerende goederen aan de vrouw en aan haar erfgenamen.
 
-## Art. 1472
+###### Art. 1472
 
 De man kan zijn terugnemingen slechts doen uit de goederen van de gemeenschap.
 De vrouw en haar erfgenamen kunnen, ingeval de gemeenschap ontoereikend is, hun terugnemingen doen uit
 de persoonlijke goederen van de man.
 
-## Art. 1473
+###### Art. 1473
 
 De wederbeleggingen en vergoedingen door de gemeenschap aan de echtgenoten verschuldigd, en
 de vergoedingen en schadeloosstellingen door hen aan de gemeenschap verschuldigd, brengen van rechtswege
 interest op, te rekenen van de dag van de ontbinding der gemeenschap.
 
-## Art. 1474
+###### Art. 1474
 
 Nadat alle vooruitnemingen van beide echtgenoten uit de massa gedaan zijn, wordt het overige bij
 helften verdeeld tussen de echtgenoten of de personen die hen vertegenwoordigen.
 
-## Art. 1475
+###### Art. 1475
 
 Indien de erfgenamen van de vrouw een verschillende houding hebben aangenomen, zodat de ene
 de gemeenschap aanvaard heeft en de andere daarvan afstand heeft gedaan, kan hij die aanvaard heeft, niet
@@ -21020,36 +21024,36 @@ Het overige verblijft aan de man, die, ten opzichte van de afstand doende erfgen
 rechten welke de vrouw in geval van afstand had kunnen uitoefenen, doch slechts ten belope van het persoonlijk
 erfelijk aandeel van de afstand doende erfgenaam.
 
-## Art. 1476
+###### Art. 1476
 
 Buitendien is de verdeling van de gemeenschap, voor alles wat betreft haar vormen, de veiling van de
 onroerende goederen wanneer daartoe grond bestaat, de gevolgen van de verdeling, de daaruit voortvloeiende
 vrijwaring, en de te betalen opleg, onderworpen aan alle regels die in de titel Erfenissen bepaald zijn voor de
 verdelingen tussen medeërfgenamen.
 
-## Art. 1477
+###### Art. 1477
 
 De echtgenoot die enig goed van de gemeenschap heeft weggemaakt of verborgen gehouden,
 verliest zijn aandeel in dat goed.
 
-## Art. 1478
+###### Art. 1478
 
 Indien een van de echtgenoten, na het voltrekken van de verdeling, persoonlijk schuldeiser is van de
 andere, zoals wanneer de prijs van zijn goed is aangewend om een persoonlijke schuld van de andere
 echtgenoot te betalen, of uit welke andere oorzaak ook, kan hij zijn schuldvordering verhalen op het aandeel dat
 de andere echtgenoot in de gemeenschap is te beurt gevallen, of op diens persoonlijke goederen.
 
-## Art. 1479
+###### Art. 1479
 
 Persoonlijke schuldvorderingen die de echtgenoten tegen elkaar hebben, brengen eerst interest op
 van de dag dat een rechtsvordering wordt ingesteld.
 
-## Art. 1480
+###### Art. 1480
 
 Schenkingen die een van de echtgenoten aan de andere heeft gedaan, worden niet uitgevoerd dan
 op het aandeel van de schenker in de gemeenschap, en op zijn persoonlijke goederen.
 
-## Art. 1481
+###### Art. 1481
 
 De rouw van de vrouw komt ten laste van de erfgenamen van de vooroverleden man.
 Het bedrag ervan wordt bepaald volgens het vermogen van de man.
@@ -21057,54 +21061,54 @@ De rouw is zelfs verschuldigd aan de vrouw die van de gemeenschap afstand doet.
 
 § II. LASTEN VAN DE GEMEENSCHAP EN BIJDRAGE IN DE SCHULDEN.
 
-## Art. 1482
+###### Art. 1482
 
 De schulden van de gemeenschap komen voor de helft ten laste van ieder van de echtgenoten of
 van hun erfgenamen; de kosten van verzegeling, boedelbeschrijving, verkoop van roerende goederen,
 vereffening, veiling en verdeling, zijn in die schulden begrepen.
 
-## Art. 1483
+###### Art. 1483
 
 De vrouw is, hetzij ten aanzien van de man, hetzij ten aanzien van de schuldeisers, voor de schulden
 van de gemeenschap niet verder gehouden dan tot het bedrag van hetgeen zij uit de gemeenschap geniet, mits
 er een goede en getrouwe boedelbeschrijving is opgemaakt, en zij rekenschap geeft zowel van hetgeen die
 boedelbeschrijving bevat als van hetgeen haar bij de verdeling is te beurt gevallen.
 
-## Art. 1484
+###### Art. 1484
 
 De man is voor de door hem aangegane schulden van de gemeenschap gehouden voor het geheel;
 behoudens zijn verhaal op de vrouw of op haar erfgenamen voor de helft van die schulden.
 
-## Art. 1485
+###### Art. 1485
 
 Voor de persoonlijke schulden van de vrouw die ten laste van de gemeenschap waren gevallen, is hij
 slechts gehouden voor de helft.
 
-## Art. 1486
+###### Art. 1486
 
 De vrouw kan vervolgd worden voor het geheel van de schulden die in haar persoon zijn ontstaan en
 in de gemeenschap waren gevallen, behoudens haar verhaal op de man of op zijn erfgenaam, voor de helft van
 die schulden.
 
-## Art. 1487
+###### Art. 1487
 
 De vrouw, zelfs wanneer zij persoonlijk verbonden is voor een schuld van de gemeenschap, kan
 slechts voor de helft van die schuld vervolgd worden, behalve wanneer het een hoofdelijke verbintenis betreft.
 
-## Art. 1488
+###### Art. 1488
 
 De vrouw die een schuld van de gemeenschap voor meer dan haar helft betaald heeft, kan het
 meerdere niet terugvorderen van de schuldeiser, tenzij de kwijting vermeldt dat de betaling gedaan is tot
 voldoening van haar helft.
 
-## Art. 1489
+###### Art. 1489
 
 Degene van beide echtgenoten die, ten gevolge van de uitoefening van het recht van hypotheek op
 een onroerend goed dat hem bij de verdeling is te beurt gevallen, vervolgd wordt voor het geheel van een schuld
 van de gemeenschap, heeft naar recht, voor de helft van die schuld, verhaal op de andere echtgenoot of op zijn
 erfgenamen.
 
-## Art. 1490
+###### Art. 1490
 
 De voorafgaande bepalingen verhinderen niet dat een van de deelgenoten bij de verdeling belast
 wordt met de betaling van een ander gedeelte van de schulden dan de helft, zelfs met de betaling van alle
@@ -21112,7 +21116,7 @@ schulden.
 Wanneer een van de deelgenoten schulden van de gemeenschap betaald heeft tot een hoger bedrag dan het
 gedeelte waartoe hij gehouden was, kan degene die te veel betaald heeft, zijn verhaal uitoefenen op de anderen.
 
-## Art. 1491
+###### Art. 1491
 
 Al hetgeen hierboven bepaald is ten aanzien van de man of van de vrouw, is toepasselijk op de
 erfgenamen van ieder van hen; en deze erfgenamen oefenen dezelfde rechten uit als de echtgenoot die zij
@@ -21120,13 +21124,13 @@ vertegenwoordigen, en dezelfde vorderingen kunnen tegen hen worden ingesteld.
 
 AFDELlNG VI. - AFSTAND VAN DE GEMEENSCHAP EN GEVOLGEN DAARVAN.
 
-## Art. 1492
+###### Art. 1492
 
 De vrouw die afstand doet, verliest alle rechten op de goederen van de gemeenschap, zelfs op de
 roerende goederen die van haar zijde in de gemeenschap zijn gevallen.
 Zij neemt alleen terug het linnen en de kleren die tot haar gebruik dienen.
 
-## Art. 1493
+###### Art. 1493
 
 De vrouw die afstand doet, heeft het recht terug te nemen :
 1° De haar toebehorende onroerende goederen, wanneer deze in natura aanwezig zijn, of het onroerend goed
@@ -21135,7 +21139,7 @@ dat als wederbelegging is aangekocht;
 aanvaard zoals hierboven bepaald is;
 3° Alle vergoedingen die de gemeenschap haar verschuldigd zou zijn.
 
-## Art. 1494
+###### Art. 1494
 
 De vrouw die afstand doet, is bevrijd van elke verplichting om bij te dragen in de schulden van de
 gemeenschap zowel ten aanzien van de man als ten aanzien van de schuldeisers. Ten aanzien van de
@@ -21143,7 +21147,7 @@ laatstgenoemden echter blijft zij gehouden, wanneer zij zich gezamenlijk met haa
 wanneer een schuld die ten laste van de gemeenschap gekomen is, oorspronkelijk in haar persoon is ontstaan;
 een en ander behoudens haar verhaal op de man of op zijn erfgenamen.
 
-## Art. 1495
+###### Art. 1495
 
 Zij kan alle hierboven vermelde vorderingen en terugnemingen uitoefenen, zowel op de goederen van
 de gemeenschap als op de persoonlijke goederen van de man.
@@ -21154,7 +21158,7 @@ maken en zich te beraden; deze rechten komen uitsluitend aan de overlevende vrou
 BEPALING BETREFFENDE DE WETTELIJKE GEMEENSCHAP, INGEVAL EEN VAN DE ECHTGENOTEN OF BEIDE
 ECHTGENOTEN KINDEREN HEBBEN UIT EEN VROEGER HUWELIJK.
 
-## Art. 1496
+###### Art. 1496
 
 Al het hierboven bepaalde is van toepassing, zelfs wanneer een van de echtgenoten of beide
 echtgenoten kinderen hebben uit een vroeger huwelijk.
@@ -21165,7 +21169,7 @@ hebben de kinderen uit het eerste huwelijk van de andere echtgenoot een rechtsvo
 TWEEDE DEEL. BEDONGEN GEMEENSCHAP EN OVEREENKOMSTEN WAARBIJ DE WETTELIJKE GEMEENSCHAP
 KAN WORDEN GEWIJZIGD OF ZELFS UITGESLOTEN.
 
-## Art. 1497
+###### Art. 1497
 
 De echtgenoten mogen de wettelijke gemeenschap wijzigen door alle overeenkomsten die niet strijdig
 zijn met de artikelen 1387, 1388, 1389 en 1390.
@@ -21182,9 +21186,9 @@ begrijpen, door die als roerend goed in te brengen;
 7° Dat de echtgenoten een ongelijk aandeel zullen hebben;
 8° Dat er tussen hen een gemeenschap onder algemene titel zal bestaan.
 
-##### AFDELING I. - GEMEENSCHAP TOT DE AANWINSTEN BEPERKT.
 
-## Art. 1498
+##### AFDELING I. - GEMEENSCHAP TOT DE AANWINSTEN BEPERKT.
+###### Art. 1498
 
 Wanneer de echtgenoten bedingen dat tussen hen slechts een gemeenschap van aanwinsten zal
 bestaan, worden zij geacht de tegenwoordige en toekomstige schulden van ieder van hen, alsook de
@@ -21194,16 +21198,16 @@ verdeling beperkt tot de aanwinsten die gedurende het huwelijk door de echtgenot
 verwezenlijkt, en die voortkomen zowel van hun gemeenschappelijke arbeid als van de besparingen op de
 vruchten en inkomsten van de goederen van beide echtgenoten.
 
-## Art. 1499
+###### Art. 1499
 
 Indien roerende goederen die bij het aangaan van het huwelijk aanwezig waren of nadien zijn
 verkregen, niet werden vastgesteld in een boedelbeschrijving of een staat in behoorlijke vorm, worden zij als
 aanwinst beschouwd.
 
-##### AFDELING II. - BEDING WAARBIJ DE ROERENDE GOEDEREN GEHEEL OF TEN DELE VAN DE GEMEENSCHAP
 WORDEN UITGESLOTEN.
 
-## Art. 1500
+##### AFDELING II. - BEDING WAARBIJ DE ROERENDE GOEDEREN GEHEEL OF TEN DELE VAN DE GEMEENSCHAP
+###### Art. 1500
 
 De echtgenoten mogen al hun tegenwoordige en toekomstige roerende goederen van hun
 gemeenschap uitsluiten.
@@ -21211,25 +21215,25 @@ Wanneer zij bedingen dat ieder van hen in de gemeenschap roerende goederen zal i
 bedrag of voor een bepaalde waarde, worden zij, daardoor alleen reeds, geacht zich het overige voor te
 behouden.
 
-## Art. 1501
+###### Art. 1501
 
 Dit beding maakt de echtgenoot tot schuldenaar van de gemeenschap voor het bedrag dat hij
 beloofd heeft te zullen inbrengen, en verplicht hem te bewijzen dat die inbreng gedaan is.
 
-## Art. 1502
+###### Art. 1502
 
 Ten aanzien van de man is de inbreng genoegzaam bewezen door de verklaring in het
 huwelijkscontract, dat zijn roerende goederen die waarde hebben.
 Ten aanzien van de vrouw is de inbreng genoegzaam bewezen door de kwijting die de man afgeeft aan haar zelf
 of aan hen die haar het huwelijksgoed gegeven hebben.
 
-## Art. 1503
+###### Art. 1503
 
 Ieder echtgenoot heeft het recht om, bij de ontbinding van de gemeenschap, de waarde van de
 roerende goederen die hij bij het aangaan van het huwelijk heeft aangebracht of die hij nadien verkregen heeft,
 vooraf terug te nemen in zover die waarde zijn bedongen inbreng in de gemeenschap overschrijdt.
 
-## Art. 1504
+###### Art. 1504
 
 De roerende goederen die een van de echtgenoten gedurende het huwelijk verkrijgt, moeten door
 een boedelbeschrijving worden vastgesteld.
@@ -21242,13 +21246,13 @@ titels, hetzij door getuigen, hetzij zelfs door de algemene bekendheid.
 
 AFDELlNG III. - BEDING WAARBIJ ONROERENDE GOEDEREN ALS ROEREND GOED WORDEN INGEBRACHT.
 
-## Art. 1505
+###### Art. 1505
 
 Wanneer de echtgenoten of een van hen hun tegenwoordige of toekomstige onroerende goederen
 voor het geheel of voor een deel in de gemeenschap inbrengen, wordt dat beding inbreng van onroerend goed
 als roerend goed genoemd.
 
-## Art. 1506
+###### Art. 1506
 
 De inbreng van onroerend goed als roerend goed kan bepaald of onbepaald zijn.
 Hij is bepaald, wanneer de echtgenoot verklaard heeft een bepaald onroerend goed voor het geheel of tot een
@@ -21256,7 +21260,7 @@ vastgesteld bedrag als roerend goed in de gemeenschap in te brengen.
 Hij is onbepaald, wanneer de echtgenoot eenvoudig verklaard heeft zijn onroerende goederen tot een
 vastgesteld bedrag in de gemeenschap in te brengen.
 
-## Art. 1507
+###### Art. 1507
 
 De bepaalde inbreng van onroerend goed als roerend goed heeft ten gevolge dat het onroerend
 goed of de onroerende goederen waarop hij betrekking heeft, goederen van de gemeenschap worden evenals
@@ -21268,7 +21272,7 @@ Wanneer een onroerend goed slechts voor een vastgesteld bedrag als roerend goed 
 man het niet vervreemden dan met toestemming van de vrouw; hij mag het echter zonder haar toestemming
 met hypotheek bezwaren, doch slechts ten belope van het als roerend goed ingebrachte gedeelte.
 
-## Art. 1508
+###### Art. 1508
 
 De onbepaalde inbreng van onroerende goederen als roerend goed geeft aan de gemeenschap niet
 de eigendom van de onroerende goederen waarop hij betrekking heeft; het beding heeft alleen ten gevolge dat
@@ -21279,15 +21283,15 @@ inbreng als roerend goed bedongen is, noch voor het geheel noch voor een deel ve
 toestemming van zijn vrouw; doch hij mag deze goederen met hypotheek bezwaren tot het bedrag van die
 inbreng.
 
-## Art. 1509
+###### Art. 1509
 
 De echtgenoot die enig erf als roerend goed heeft ingebracht, mag bij de verdeling dat erf voor zich
 behouden, mits hij het op zijn aandeel toerekent voor de prijs die het op dat ogenblik waard is; en zijn
 erfgenamen hebben hetzelfde recht.
 
-##### AFDELING IV. - BEDING VAN SCHEIDING VAN SCHULDEN.
 
-## Art. 1510
+##### AFDELING IV. - BEDING VAN SCHEIDING VAN SCHULDEN.
+###### Art. 1510
 
 Het beding waarbij de echtgenoten bepalen dat zij ieder afzonderlijk hun persoonlijke schulden zullen
 betalen, verplicht hen om, bij de ontbinding van de gemeenschap, elkaar de schulden te vergoeden waarvan blijkt
@@ -21301,19 +21305,19 @@ De schuldeisers hebben hetzelfde recht op de roerende goederen die de echtgenote
 verkrijgen, indien deze goederen niet eveneens zijn vastgesteld door een boedelbeschrijving of staat in
 authentieke vorm.
 
-## Art. 1511
+###### Art. 1511
 
 Wanneer de echtgenoten een bepaalde som of een bepaalde zaak in de gemeenschap inbrengen,
 sluit die inbreng de stilzwijgende overeenkomst in, dat hij niet bezwaard is met schulden van voor het huwelijk; en
 de echtgenoot die schuldenaar is, moet aan de andere alle schulden vergoeden die de beloofde inbreng zouden
 verminderen.
 
-## Art. 1512
+###### Art. 1512
 
 Het beding van scheiding van schulden verhindert niet dat de interesten en rentetermijnen die sinds
 het aangaan van het huwelijk hebben gelopen, ten laste van de gemeenschap komen.
 
-## Art. 1513
+###### Art. 1513
 
 Wanneer de gemeenschap vervolgd wordt wegens schulden van een echtgenoot die, volgens
 verklaring in het contract, vrij was van iedere schuld van voor het huwelijk, heeft de andere echtgenoot recht op
@@ -21325,10 +21329,10 @@ Die vordering tot vrijwaring kan zelfs uitgeoefend worden door de man tijdens de
 schuld in de persoon van de vrouw ontstaan is; in dit geval echter is de vrouw of zijn haar erfgenamen
 terugbetaling verschuldigd aan de garanten, na de ontbinding van de gemeenschap.
 
-##### AFDELING V. - BEVOEGDHEID AAN DE VROUW VERLEEND OM HAAR INBRENG VRIJ EN ONBELAST TERUG TE
 NEMEN.
 
-## Art. 1514
+##### AFDELING V. - BEVOEGDHEID AAN DE VROUW VERLEEND OM HAAR INBRENG VRIJ EN ONBELAST TERUG TE
+###### Art. 1514
 
 De vrouw mag bedingen dat zij, ingeval zij van de gemeenschap afstand doet, geheel of ten dele zal
 terugnemen hetgeen zij daarin heeft ingebracht, hetzij bij het aangaan van het huwelijk, hetzij nadien; dit beding
@@ -21341,9 +21345,9 @@ die aan de vrouw en aan de kinderen verleend is, zich niet uit tot de erfgenamen
 In elk geval kunnen de inbrengsten niet teruggenomen worden dan na aftrek van de persoonlijke schulden van
 de vrouw, indien deze zijn betaald door de gemeenschap.
 
-##### AFDELING VI. - BEDONGEN VOORUITNEMING.
 
-## Art. 1515
+##### AFDELING VI. - BEDONGEN VOORUITNEMING.
+###### Art. 1515
 
 Het beding waarbij de langstlevende echtgenoot wordt gemachtigd om, voor elke verdeling, een
 bepaalde geldsom of een bepaalde hoeveelheid roerende goederen in natura vooraf te nemen, verleent aan de
@@ -21352,16 +21356,16 @@ het huwelijkscontract haar dit recht heeft voorbehouden zelfs voor het geval dat
 Buiten zodanig voorbehoud wordt het recht van vooruitneming slechts uitgeoefend op de te verdelen massa,
 en niet op de persoonlijke goederen van de vooroverleden echtgenoot.
 
-## Art. 1516
+###### Art. 1516
 
 De vooruitneming wordt niet beschouwd als een voordeel dat aan de vormen van de schenking is
 onderworpen, maar wel als een huwelijksovereenkomst.
 
-## Art. 1517
+###### Art. 1517
 
 _ De (...) dood maakt de vooruitneming opvorderbaar. <W 15-12-1949, art. 28>
 
-## Art. 1518
+###### Art. 1518
 
 Ontbinding van de gemeenschap door echtscheiding of door scheiding van tafel en bed, heeft geen
 dadelijke uitkering van de vooruitneming ten gevolge; maar de echtgenoot die hetzij echtscheiding, hetzij
@@ -21369,15 +21373,15 @@ scheiding van tafel en bed bekomen heeft, behoudt zijn recht op de vooruitneming
 langst leeft. Is het de vrouw die de scheiding bekomen heeft, dan verblijft de som of de zaak die het voorwerp is
 van de vooruitneming, altijd voorlopig aan de man, onder verplichting van borgstelling.
 
-## Art. 1519
+###### Art. 1519
 
 De schuldeisers van de gemeenschap hebben altijd het recht om de in de vooruitneming begrepen
 zaken te doen verkopen, behoudens het verhaal van de echtgenoot, overeenkomstig artikel 1515.
 
-##### AFDELING VII. - BEDINGEN WAARBIJ AAN DE ECHTGENOTEN EEN ONGELIJK AANDEEL IN DE GEMEENSCHAP
 WORDT TOEGEKEND.
 
-## Art. 1520
+##### AFDELING VII. - BEDINGEN WAARBIJ AAN DE ECHTGENOTEN EEN ONGELIJK AANDEEL IN DE GEMEENSCHAP
+###### Art. 1520
 
 De echtgenoten mogen van de gelijke verdeling, bij de wet bepaald, afwijken hetzij door aan de
 langstlevende echtgenoot of aan zijn erfgenamen slechts een aandeel in de gemeenschap te geven dat kleiner is
@@ -21385,7 +21389,7 @@ dan de helft, hetzij door hem voor alle recht in de gemeenschap slechts een vast
 te bedingen dat de ganse gemeenschap, in bepaalde gevallen, zal toebehoren aan de langstlevende der
 echtgenoten, of enkel aan een van hen.
 
-## Art. 1521
+###### Art. 1521
 
 Wanneer bedongen is dat de echtgenoot of zijn erfgenamen slechts een beperkt aandeel in de
 gemeenschap zullen hebben, zoals een derde of een vierde, dan draagt de echtgenoot wiens aandeel aldus
@@ -21395,19 +21399,19 @@ De overeenkomst is nietig, indien zij de echtgenoot wiens aandeel aldus beperkt 
 een groter aandeel in de schulden te dragen, of indien zij hen vrijstelt van de verplichting om daarin een aandeel
 te dragen gelijk aan het aandeel dat zij uit de baten ontvangen.
 
-## Art. 1522
+###### Art. 1522
 
 Het beding waarbij bepaald wordt dat een van de echtgenoten of zijn erfgenamen, voor alle recht in
 de gemeenschap, slechts op een bepaalde geldsom zullen kunnen aanspraak maken, vormt een vast akkoord
 dat de andere echtgenoot of zijn erfgenamen verplicht de bedongen som te betalen, hetzij de gemeenschap
 gunstig of ongunstig is, toereikend of niet toereikend om de som te voldoen.
 
-## Art. 1523
+###### Art. 1523
 
 Indien het vast akkoord alleen ten opzichte van de erfgenamen van de echtgenoot bedongen is,
 heeft deze laatste ingeval hij het langst leeft, recht op de wettelijke verdeling bij helften.
 
-## Art. 1524
+###### Art. 1524
 
 De man of zijn erfgenamen, die, krachtens het in artikel 1520 omschreven beding, de gehele
 gemeenschap voor zich behouden, zijn verplicht alle schulden ervan te voldoen.
@@ -21417,7 +21421,7 @@ bedongen geldsom de gehele gemeenschap voor zich te behouden, heeft de keus om o
 betalen, terwijl zij voor alle schulden moet instaan, ofwel van de gemeenschap afstand te doen en de goederen
 en de lasten daarvan aan de erfgenamen van de man over te laten.
 
-## Art. 1525
+###### Art. 1525
 
 Het is de echtgenoten geoorloofd te bedingen dat de gehele gemeenschap zal toebehoren aan de
 langstlevende of enkel aan een van hen, behoudens het recht van de erfgenamen van de andere echtgenoot om
@@ -21427,9 +21431,9 @@ Dit beding wordt niet beschouwd als een voordeel, onderworpen aan de bepalingen 
 wat het wezen van de schenking of wat haar vorm betreft, maar enkel als een huwelijksovereenkomst en een
 overeenkomst tussen vennoten.
 
-##### AFDELING VIII. - ALGEMENE GEMEENSCHAP.
 
-## Art. 1526
+##### AFDELING VIII. - ALGEMENE GEMEENSCHAP.
+###### Art. 1526
 
 De echtgenoten mogen bij huwelijkscontract een algemene gemeenschap van hun goederen, zowel
 roerende als onroerende, tot stand brengen, omvattende hun tegenwoordige en toekomstige goederen, of
@@ -21437,7 +21441,7 @@ alleen al hun tegenwoordige goederen, of alleen al hun toekomstige goederen.
 
 BEPALINGEN AAN DE ACHT VOORAFGAANDE AFDELINGEN GEMEEN.
 
-## Art. 1527
+###### Art. 1527
 
 _ De overeenkomsten waarvoor de bedongen gemeenschap vatbaar is, zijn niet beperkt tot hetgeen
 in de acht voorafgaande afdelingen bepaald is.
@@ -21450,13 +21454,13 @@ winsten echter die alleen voortkomen van de gemeenschappelijke arbeid en van bes
 van ieder der echtgenoten, al zijn die ongelijk, worden niet beschouwd als een voordeel waarbij de kinderen uit
 het eerste huwelijk worden benadeeld.
 
-## Art. 1528
+###### Art. 1528
 
 De bedongen gemeenschap blijft onderworpen aan de regels van de wettelijke gemeenschap, voor
 alle gevallen waarin het contract daarvan niet stilzwijgend of uitdrukkelijk afwijkt.
-##### AFDELING IX. - OVEREENKOMSTEN WAARBIJ DE GEMEENSCHAP VAN GOEDEREN WORDT UITGESLOTEN.
 
-## Art. 1529
+##### AFDELING IX. - OVEREENKOMSTEN WAARBIJ DE GEMEENSCHAP VAN GOEDEREN WORDT UITGESLOTEN.
+###### Art. 1529
 
 Wanneer de echtgenoten, zonder zich aan het dotaal stelsel te onderwerpen, verklaren dat zij
 zonder gemeenschap huwen, of dat zij gescheiden van goederen zullen zijn, worden de gevolgen van dit beding
@@ -21464,20 +21468,20 @@ geregeld als volgt.
 
 § I. BEDING WAARBIJ BEPAALD WORDT DAT DE ECHTGENOTEN ZONDER GEMEENSCHAP HUWEN.
 
-## Art. 1530
+###### Art. 1530
 
 Het beding waarbij bepaald wordt dat de echtgenoten zonder gemeenschap huwen, geeft aan de
 vrouw niet het recht om haar goederen te beheren of de vruchten ervan in ontvangst te nemen; deze vruchten
 worden geacht aan de man te zijn aangebracht om de lasten van het huwelijk te helpen dragen.
 
-## Art. 1531
+###### Art. 1531
 
 De man behoudt het beheer van de roerende en de onroerende goederen van de vrouw en bijgevolg
 het recht om alle roerende goederen die zij als huwelijksgoed aanbrengt of die zij gedurende het huwelijk
 verkrijgt, in ontvangst te nemen, behoudens zijn verplichting om die goederen terug te geven na de ontbinding
 van het huwelijk, of na de scheiding van goederen welke door het gerecht zou worden uitgesproken.
 
-## Art. 1532
+###### Art. 1532
 
 Indien er onder de roerende goederen die de vrouw als huwelijksgoed heeft aangebracht, of die zij
 gedurende het huwelijk verkrijgt, zaken zijn die men niet kan gebruiken zonder ze te verbruiken, moet een staat
@@ -21485,54 +21489,54 @@ van schatting daarvan gevoegd worden bij het huwelijkscontract, of moet een boed
 opgemaakt worden ten tijde dat de vrouw die goederen verkrijgt, en de man moet de geschatte waarde
 vergoeden.
 
-## Art. 1533
+###### Art. 1533
 
 De man is verplicht alle lasten van het vruchtgebruik te dragen.
 
-## Art. 1534
+###### Art. 1534
 
 Het beding waarvan sprake in deze paragraaf, belet niet overeen te komen dat de vrouw jaarlijks een
 bepaald gedeelte van haar inkomsten tegen haar persoonlijke kwijting zal ontvangen voor haar onderhoud en
 haar persoonlijke behoeften.
 
-## Art. 1535
+###### Art. 1535
 
 De onroerende goederen in het geval van deze paragraaf als huwelijksgoed aangebracht, zijn niet
 onvervreemdbaar.
 Zij kunnen echter niet worden vervreemd zonder toestemming van de man en, in geval van weigering van de
 man, zonder machtiging van de rechter.
 
-## Art. 1536
+###### Art. 1536
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1537
+###### Art. 1537
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1538
+###### Art. 1538
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
-## Art. 1539
+###### Art. 1539
 
 (Opgeheven) <W 14-07-1976, art. 2>
 
 #### HOOFDSTUK III. - DOTAAL STELSEL.
 
-## Art. 1540
+###### Art. 1540
 
 Het huwelijksgoed, in dit stelsel evenals in dat van hoofdstuk II, is het goed dat de vrouw aan de man
 aanbrengt om de lasten van het huwelijk te dragen.
 
-## Art. 1541
+###### Art. 1541
 
 Alles wat door de vrouw zelf als huwelijksgoed wordt aangebracht of haar bij huwelijkscontract
 gegeven wordt, is dotaal, tenzij anders bedongen is.
 
-##### AFDELING I. - AANBRENGST VAN HUWELIJKSGOED.
 
-## Art. 1542
+##### AFDELING I. - AANBRENGST VAN HUWELIJKSGOED.
+###### Art. 1542
 
 Als huwelijksgoed kunnen worden aangebracht alle tegenwoordige en toekomstige goederen van de
 vrouw, of alleen al haar tegenwoordige goederen, of een deel van haar tegenwoordige en toekomstige goederen,
@@ -21540,11 +21544,11 @@ of zelfs een bepaald goed.
 De aanbrengst van alle goederen van de vrouw als huwelijksgoed, in algemene bewoordingen gedaan, omvat de
 toekomstige goederen niet.
 
-## Art. 1543
+###### Art. 1543
 
 _ Aanbrengst of vermeerdering van huwelijksgoed kan niet plaatshebben gedurende het huwelijk.
 
-## Art. 1544
+###### Art. 1544
 
 Wanneer ouders gezamenlijk huwelijksgoed geven zonder ieders aandeel te bepalen, wordt ieder
 geacht een gelijk deel te geven.
@@ -21552,32 +21556,32 @@ Wanneer huwelijksgoed gegeven wordt door de vader alleen, maar van vaders- en mo
 moeder, hoewel bij het contract aanwezig, niet verbonden, en blijft het huwelijksgoed geheel ten laste van de
 vader.
 
-## Art. 1545
+###### Art. 1545
 
 Wanneer de langstlevende der ouders huwelijksgoed geeft van vaders- en moederswege, zonder
 ieders aandeel te bepalen, wordt het huwelijksgoed eerst genomen uit de rechten van de aanstaande echtgenoot
 op de goederen van de vooroverleden vader of moeder, en, voor het overige, uit de goederen van degene die
 het huwelijksgoed geeft.
 
-## Art. 1546
+###### Art. 1546
 
 Wanneer ouders huwelijksgoed geven aan een dochter die eigen goederen bezit, waarvan zij het
 genot hebben, wordt niettemin het huwelijksgoed genomen uit de goederen van de ouders die het geven, tenzij
 anders bedongen is.
 
-## Art. 1547
+###### Art. 1547
 
 Zij die huwelijksgoed verstrekken, zijn gehouden tot vrijwaring van de verstrekte goederen.
 
-## Art. 1548
+###### Art. 1548
 
 De interest van het huwelijksgoed loopt van rechtswege van de dag van het huwelijk tegen degenen
 die het beloofd hebben, zelfs indien voor de uitkering een tijd bepaald is, tenzij anders bedongen is.
 
-##### AFDELING II. - RECHTEN VAN DE MAN BETREFFENDE DE DOTALE GOEDEREN, EN ONVERVREEMDBAARHEID
 VAN HET DOTALE ERF.
 
-## Art. 1549
+##### AFDELING II. - RECHTEN VAN DE MAN BETREFFENDE DE DOTALE GOEDEREN, EN ONVERVREEMDBAARHEID
+###### Art. 1549
 
 De man alleen heeft het beheer van de dotale goederen gedurende het huwelijk.
 Hij alleen heeft het recht om de schuldenaars en de houders van die goederen te vervolgen, de vruchten en de
@@ -21585,52 +21589,52 @@ interesten ervan te innen en terugbetaling van de kapitalen te ontvangen.
 Nochtans kan bij huwelijkscontract worden overeengekomen dat de vrouw jaarlijks een gedeelte van haar
 inkomsten tegen haar persoonlijke kwijting zal ontvangen voor haar onderhoud en haar persoonlijke behoeften.
 
-## Art. 1550
+###### Art. 1550
 
 De man is niet verplicht borg te stellen voor het ontvangen huwelijksgoed, tenzij het
 huwelijkscontract hem die verplichting heeft opgelegd.
 
-## Art. 1551
+###### Art. 1551
 
 Indien het huwelijksgoed geheel of ten dele bestaat in roerende goederen die bij het huwelijkscontract
 zijn geschat, zonder de verklaring dat de schatting geen verkoop uitmaakt, wordt de man eigenaar ervan en is hij
 slechts de prijs verschuldigd waarop de roerende goederen zijn gewaardeerd.
 
-## Art. 1552
+###### Art. 1552
 
 De schatting van een onroerend goed, als huwelijksgoed aangebracht, draagt de eigendom daarvan
 niet over aan de man, tenzij zulks uitdrukkelijk verklaard wordt.
 
-## Art. 1553
+###### Art. 1553
 
 Een onroerend goed dat met dotaal geld verkregen wordt, is niet dotaal, tenzij de verplichting om te
 beleggen bij het huwelijkscontract bedongen is.
 Hetzelfde geldt omtrent een onroerend goed dat in betaling gegeven wordt voor in geld bepaald huwelijksgoed.
 
-## Art. 1554
+###### Art. 1554
 
 Onroerende goederen die als huwelijksgoed zijn aangebracht, mogen gedurende het huwelijk noch
 door de man, noch door de vrouw, noch door beiden gezamenlijk, vervreemd of met hypotheek bezwaard
 worden; behoudens de hierna gestelde uitzonderingen.
 
-## Art. 1555
+###### Art. 1555
 
 De vrouw mag, met toestemming van haar man of, in geval van weigering van haar man, met verlof
 van de rechter, haar dotale goederen schenken om een stand te verschaffen aan kinderen die zij uit een vroeger
 huwelijk heeft; maar indien zij slechts gemachtigd is door de rechter, moet zij het genot aan haar man
 voorbehouden.
 
-## Art. 1556
+###### Art. 1556
 
 Zij mag ook, met toestemming van haar man, haar dotale goederen schenken om aan hun
 gemeenschappelijke kinderen een stand te verschaffen.
 
-## Art. 1557
+###### Art. 1557
 
 Een dotaal onroerend goed mag vervreemd worden, wanneer de vervreemding ervan door het
 huwelijkscontract is toegelaten.
 
-## Art. 1558
+###### Art. 1558
 
 Een dotaal onroerend goed mag eveneens, met verlof van de rechter, en bij opbod, na drie
 aanplakkingen, vervreemd worden :
@@ -21645,7 +21649,7 @@ erkend is.
 In al die gevallen zal het gedeelte van de verkoopprijs dat de erkende behoeften overschrijdt, dotaal blijven, en
 als zodanig ten voordele van de vrouw belegd worden.
 
-## Art. 1559
+###### Art. 1559
 
 Een dotaal onroerend goed mag, doch alleen met toestemming van de vrouw, geruild worden voor
 een ander onroerend goed dat ten minste voor vier vijfden in waarde gelijk is, mits het nut van de ruil bewezen is,
@@ -21654,7 +21658,7 @@ door de rechtbank ambtshalve benoemd worden.
 In dat geval is het in ruil ontvangen onroerend goed dotaal; de vergoeding van de overwaarde, indien er een is,
 is eveneens dotaal, en zal als zodanig ten voordele van de vrouw worden belegd.
 
-## Art. 1560
+###### Art. 1560
 
 Indien, buiten de hiervoren bepaalde uitzonderingsgevallen, de vrouw of de man, of beiden
 gezamenlijk, het dotale erf vervreemden, kan de vrouw of kunnen haar erfgenamen de vervreemding doen
@@ -21663,7 +21667,7 @@ tijdens de duur van het huwelijk; de vrouw heeft hetzelfde recht na scheiding va
 De man zelf kan de vervreemding doen vernietigen gedurende het huwelijk, maar hij is tot schadevergoeding
 jegens de koper gehouden, indien hij in het contract niet heeft verklaard dat het verkochte goed dotaal was.
 
-## Art. 1561
+###### Art. 1561
 
 De dotale onroerende goederen waaromtrent in het huwelijkscontract niet verklaard is dat zij
 vervreemdbaar zijn, zijn gedurende het huwelijk niet voor verjaring vatbaar, tenzij de verjaring reeds eerder
@@ -21671,21 +21675,21 @@ begonnen was.
 Zij worden echter voor verjaring vatbaar na scheiding van goederen, onverschillig op welk tijdstip de verjaring
 begonnen is.
 
-## Art. 1562
+###### Art. 1562
 
 De man is, met betrekking tot de dotale goederen, gehouden tot alle verplichtingen van een
 vruchtgebruiker.
 Hij is aansprakelijk voor elke verjaring die verkregen is en voor elke beschadiging die ontstaan is door zijn
 nalatigheid.
 
-## Art. 1563
+###### Art. 1563
 
 Indien het huwelijksgoed in gevaar is gebracht, kan de vrouw scheiding van goederen vorderen,
 gelijk bepaald is in de artikelen 1443 en volgende.
 
-##### AFDELING III. - TERUGGAVE VAN HET HUWELIJKSGOED.
 
-## Art. 1564
+##### AFDELING III. - TERUGGAVE VAN HET HUWELIJKSGOED.
+###### Art. 1564
 
 Indien het huwelijksgoed bestaat in onroerende goederen,
 Of in roerende goederen die in het huwelijkscontract niet zijn geschat, ofwel zijn geschat met de verklaring dat
@@ -21693,14 +21697,14 @@ de schatting de eigendom ervan aan de vrouw niet ontneemt,
 Kan de man of kunnen zijn erfgenamen genoodzaakt worden het huwelijksgoed terstond na de ontbinding van
 het huwelijk terug te geven.
 
-## Art. 1565
+###### Art. 1565
 
 Indien het huwelijksgoed bestaat in een geldsom,
 Of in roerende goederen die in het contract zijn geschat zonder de verklaring dat de schatting de man niet tot
 eigenaar ervan maakt,
 Kan de teruggave ervan eerst een jaar na de ontbinding geëist worden.
 
-## Art. 1566
+###### Art. 1566
 
 Indien de roerende goederen waarvan de vrouw de eigendom behoudt, door het gebruik en buiten
 de schuld van de man vervallen zijn, is hij slechts gehouden tot teruggave van de roerende goederen die
@@ -21709,26 +21713,26 @@ Niettemin mag de vrouw, in ieder geval, het linnen en de kleren die op dat ogenb
 terugnemen, met dien verstande dat de waarde in rekening gebracht wordt, indien het linnen en de kleren
 oorspronkelijk met schatting zijn aangebracht.
 
-## Art. 1567
+###### Art. 1567
 
 Indien het huwelijksgoed schuldvorderingen of gevestigde renten bevat, die zijn teniet gegaan of
 verminderd zonder dat zulks aan de nalatigheid van de man kan worden toegeschreven, is hij daarvoor niet
 aansprakelijk, en kan hij volstaan met de contracten terug te geven.
 
-## Art. 1568
+###### Art. 1568
 
 Indien een vruchtgebruik als huwelijksgoed is aangebracht, is de man of zijn diens erfgenamen, bij de
 ontbinding van het huwelijk, enkel verplicht tot teruggave van het recht van vruchtgebruik en niet van de
 gedurende het huwelijk vervallen vruchten.
 
-## Art. 1569
+###### Art. 1569
 
 Indien het huwelijk tien jaren geduurd heeft sinds de tijd die voor de uitkering van het huwelijksgoed
 bepaald was, kan de vrouw of kunnen haar erfgenamen het huwelijksgoed, na de ontbinding van het huwelijk,
 van de man terugvorderen, zonder te moeten bewijzen dat hij het ontvangen heeft, tenzij hij mocht doen blijken
 dat hij vruchteloos pogingen heeft aangewend om de uitkering ervan te bekomen.
 
-## Art. 1570
+###### Art. 1570
 
 Indien het huwelijk door de dood van de vrouw ontbonden wordt, lopen de interesten en de
 vruchten van het terug te geven huwelijksgoed van rechtswege ten voordele van haar erfgenamen, te rekenen
@@ -21739,19 +21743,19 @@ verschaffen op kosten van de nalatenschap van de man; maar in beide gevallen moe
 huisvesting en rouwkleren verstrekt worden uit de nalatenschap en zonder dat zulks op de haar verschuldigde
 interesten wordt toegerekend.
 
-## Art. 1571
+###### Art. 1571
 
 Bij de ontbinding van het huwelijk worden de vruchten van de dotale onroerende goederen tussen de
 man en de vrouw of hun erfgenamen verdeeld, naar evenredigheid van de tijd dat het huwelijk, in het laatste jaar,
 geduurd heeft.
 Het jaar wordt gerekend van de dag waarop het huwelijk werd voltrokken.
 
-## Art. 1572
+###### Art. 1572
 
 De vrouw en haar erfgenamen hebben voor de terugvordering van het huwelijksgoed geen
 voorrecht boven de schuldeisers wier hypotheek aan de hare voorafgaat.
 
-## Art. 1573
+###### Art. 1573
 
 Indien de man reeds onvermogend was en geen bedrijf of beroep had toen de vader huwelijksgoed
 aan zijn dochter gaf, heeft deze laatste geen andere verplichting dan in de nalatenschap van haar vader inbreng
@@ -21761,49 +21765,49 @@ Indien echter de man eerst na het huwelijk onvermogend is geworden,
 Of indien hij een bedrijf of een beroep had dat voor hem het bezit van goederen verving,
 Treft het verlies van het huwelijksgoed alleen de vrouw.
 
-##### AFDELING IV. - PARAFERNALE GOEDEREN.
 
-## Art. 1574
+##### AFDELING IV. - PARAFERNALE GOEDEREN.
+###### Art. 1574
 
 Alle goederen van de vrouw die niet als huwelijksgoed zijn aangebracht, zijn parafernaal.
 
-## Art. 1575
+###### Art. 1575
 
 Indien alle goederen van de vrouw parafernaal zijn, en indien het contract geen bepaling bevat
 waarbij haar een aandeel in de lasten van het huwelijk wordt opgelegd, draagt de vrouw in die lasten bij ten
 belope van een derde van haar inkomsten.
 
-## Art. 1576
+###### Art. 1576
 
 De vrouw heeft het beheer en het genot van haar parafernale goederen.
 Zij kan die echter niet vervreemden, en evenmin kan zij met betrekking tot die goederen in rechte optreden
 zonder machtiging van haar man, of in geval van weigering van haar man, zonder verlof van de rechter.
 
-## Art. 1577
+###### Art. 1577
 
 Indien de vrouw aan haar man last geeft om haar parafernale goederen te beheren, onder
 verplichting om aan haar rekening te doen van de vruchten, is hij jegens haar gehouden als ieder lasthebber.
 
-## Art. 1578
+###### Art. 1578
 
 Indien de man het genot van de parafernale goederen van zijn vrouw heeft gehad, zonder
 lastgeving, maar ook zonder verzet harerzijds, is hij, bij de ontbinding van het huwelijk, of op het eerste verzoek
 van de vrouw, slechts gehouden tot het opleveren van de aanwezige vruchten, en hij is geen verantwoording
 schuldig van de vruchten die tot dan toe zijn verbruikt.
 
-## Art. 1579
+###### Art. 1579
 
 Indien de man het genot van de parafernale goederen heeft gehad, ondanks het gebleken verzet van
 de vrouw, is hij haar verantwoording schuldig zowel van alle aanwezige als verbruikte vruchten.
 
-## Art. 1580
+###### Art. 1580
 
 De man die het genot van de parafernale goederen heeft, is gehouden tot alle verplichtingen van een
 vruchtgebruiker.
 
 BIJZONDERE BEPALING.
 
-## Art. 1581
+###### Art. 1581
 
 De echtgenoten die zich aan het dotaal stelsel onderwerpen, mogen niettemin een gemeenschap van
 aanwinsten bedingen, en de gevolgen van die gemeenschap worden geregeld zoals bepaald is in de artikelen
@@ -21817,27 +21821,27 @@ onbepaald
 
 Inleidende bepalingen. Overdracht van zakelijke rechten.
 
-## Art. 1
+###### Art. 1
 
 <Opgeheven bij W 2020-02-04/16, art. 29,3°, 068; Inwerkingtreding : 01-09-2021>
 
-## Art. 2
+###### Art. 2
 
 <Opgeheven bij W 2020-02-04/16, art. 29,3°, 068; Inwerkingtreding : 01-09-2021>
 
-## Art. 2bis
+###### Art. 2bis
 
 <Opgeheven bij W 2013-12-21/26, art. 64, 044; Inwerkingtreding : 01-04-2014>
 
-## Art. 3
+###### Art. 3
 
 <Opgeheven bij W 2020-02-04/16, art. 29,3°, 068; Inwerkingtreding : 01-09-2021>
 
-## Art. 4
+###### Art. 4
 
 <Opgeheven bij W 2020-02-04/16, art. 29,3°, 068; Inwerkingtreding : 01-09-2021>
 
-## Art. 5.Op
+###### Art. 5.Op
 
 de overdracht van een ingeschreven bevoorrechte of hypothecaire schuldvordering, of op de
 indeplaatsstelling in een zodanig recht, kan men zich tegen derden alleen beroepen indien zij voortvloeien uit
@@ -21855,7 +21859,7 @@ schuldvorderingen vereist is.
 (1)<W 2018-07-11/07, art. 13, 060; Inwerkingtreding : 30-07-2018>
 (2)<W 2020-02-04/16, art. 13, 068; Inwerkingtreding : 01-09-2021>
 
-## Art. 6
+###### Art. 6
 
 <W 10-10-1967, art. 3-21> Ieder tegen wie een hypothecaire inschrijving bestaat, genomen tot
 waarborg van een vaststaande en zekere schuldvordering, kan, zelfs voordat de schuld vervalt, door de
@@ -21868,72 +21872,72 @@ van het voormelde wetboek.
 
 #### HOOFDSTUK I. _ Algemene bepalingen.
 
-## Art. 7
+###### Art. 7
 
 <Opgeheven bij W 2020-02-04/16, art. 29,4°, 068; Inwerkingtreding : 01-09-2021>
 
-## Art. 8
+###### Art. 8
 
 <Opgeheven bij W 2020-02-04/16, art. 29,4°, 068; Inwerkingtreding : 01-09-2021>
 
 <Opgeheven bij W 2020-02-04/16, art. 29,4°, 068; Inwerkingtreding : 01-09-2021>
 
-## Art. 9
+###### Art. 9
 
 <Opgeheven bij W 2020-02-04/16, art. 29,4°, 068; Inwerkingtreding : 01-09-2021>
 
-## Art. 10
+###### Art. 10
 
 <Opgeheven bij W 2020-02-04/16, art. 29,4°, 068; Inwerkingtreding : 01-09-2021>
 
-## Art. 11
+###### Art. 11
 
 <Opgeheven bij W 2019-05-08/14, art. 7, 065; Inwerkingtreding : 01-09-2020>
 
 #### HOOFDSTUK II. _ Voorrechten.
 
-## Art. 12
+###### Art. 12
 
 (2095). Voorrecht is een recht dat uit hoofde van de bijzondere aard der schuldvordering aan een
 schuldeiser toekomt en hem voorrang verleent boven de andere schuldeisers, zelfs de hypothecaire.
 
-## Art. 13
+###### Art. 13
 
 (2096). Tussen de bevoorrechte schuldeisers wordt de voorrang geregeld naar de verschillende aard
 van de voorrechten.
 
-## Art. 14
+###### Art. 14
 
 (2097). Bevoorrechte schuldeisers die in dezelfde rang zijn, worden naar evenredigheid van hun
 vordering betaald.
 
-## Art. 15
+###### Art. 15
 
 (2098). Het voorrecht, verbonden aan de rechten van de Staatskas, en de orde waarin het wordt
 uitgeoefend, worden geregeld door de wetten daartoe betrekkelijk.
 De Staatskas kan echter geen voorrecht bekomen ten nadele van vroeger door derden verkregen rechten.
 
-## Art. 16
+###### Art. 16
 
 (2099). Voorrechten kunnen bestaan op roerende goederen of op onroerende goederen.
 
-##### AFDELING I. _ Voorrechten op roerende en onroerende goederen.
 
-## Art. 17
+##### AFDELING I. _ Voorrechten op roerende en onroerende goederen.
+###### Art. 17
 
 De gerechtskosten zijn bevoorrecht op de roerende en de onroerende goederen, ten aanzien van alle
 schuldeisers in wier belang zij zijn gemaakt.
 
-##### AFDELING II. _ Voorrechten op roerende goederen.
 
-## Art. 18
+##### AFDELING II. _ Voorrechten op roerende goederen.
+###### Art. 18
 
 (2100). De voorrechten zijn ofwel algemeen, ofwel bijzonder met betrekking tot bepaalde roerende
 goederen.
 
 § I. ALGEMENE VOORRECHTEN OP ROERENDE GOEDEREN.
 
-Art. 19.(2101). De schuldvorderingen, bevoorrecht op alle roerende goederen, worden hierna opgesomd en zij
+###### Art. 19.(2101). De schuldvorderingen, bevoorrecht op alle roerende goederen, worden hierna opgesomd en zij
 worden in de volgende orde verhaald :
 1° De gerechtskosten die in het gemeenschappelijk belang van de schuldeisers zijn gemaakt;
 2° De begrafeniskosten in verhouding tot de stand en het vermogen van de overledene;
@@ -22047,7 +22051,7 @@ overgangsbepalingen: art. 18 >
 
 § II. VOORRECHTEN OP BEPAALDE ROERENDE GOEDEREN.
 
-Art. 20.(2102). De schuldvorderingen, op bepaalde roerende goederen bevoorrecht, zijn :
+###### Art. 20.(2102). De schuldvorderingen, op bepaalde roerende goederen bevoorrecht, zijn :
 1° (De huur- en pachtgelden van onroerende goederen zijn bevoorrecht op de vruchten van de oogst van het
 jaar, en op de waarde van al hetgeen het verhuurde huis of de hoeve stoffeert en, van al hetgeen tot de
 exploitatie van de hoeve dient, en wel :
@@ -22123,43 +22127,43 @@ door deze gevestigd volgens de bepalingen van de wetgeving betreffende de zieken
 § III. RANG VAN DE VOORRECHTEN OP ROERENDE GOEDEREN IN GEVAL VAN SAMENLOOP VAN DIE
 VOORRECHTEN.
 
-## Art. 21
+###### Art. 21
 
 De gerechtskosten gaan boven alle schuldvorderingen ten behoeve waarvan zij zijn gemaakt.
 
-## Art. 22
+###### Art. 22
 
 De kosten die tot behoud van de zaak gemaakt zijn, gaan boven de vroegere voorrechten.
 Zij gaan, in alle gevallen, zelfs boven het voorrecht van de laatste drie nummers van artikel 19.
 
-Art. 23.[1 De vervoerder heeft de voorrang boven de verkoper van het roerend goed dat tot pand strekt,
+###### Art. 23.[1 De vervoerder heeft de voorrang boven de verkoper van het roerend goed dat tot pand strekt,
 behalve indien hij bij de ontvangst wist dat de prijs ervan nog verschuldigd was.]1
 Het voorrecht van de verkoper wordt pas uitgeoefend na dat van de eigenaar van het huis of van de hoeve,
 tenzij de verkoper ten tijde dat de roerende goederen in de verhuurde plaatsen werden gebracht, de verhuurder
 heeft gewaarschuwd dat de prijs ervan niet betaald was.
 (1)<W 2013-07-11/19, art. 92, 055; Inwerkingtreding : 01-01-2018>
 
-## Art. 24
+###### Art. 24
 
 <Opgeheven bij W 2013-07-11/19, art. 100, 055; Inwerkingtreding : 01-01-2018>
 
-Art. 25.[1 Het voorrecht van de begrafeniskosten gaat boven alle andere voorrechten, met uitzondering van het
+###### Art. 25.[1 Het voorrecht van de begrafeniskosten gaat boven alle andere voorrechten, met uitzondering van het
 voorrecht van de gerechtskosten, het voorrecht van de naderhand tot behoud van de zaak gemaakte kosten,
 en het voorrecht van de vervoerder, voor zover de verkoper van de in pand gegeven zaak boven hem geen
 voorrang heeft.]1
 (1)<W 2013-07-11/19, art. 93, 055; Inwerkingtreding : 01-01-2018>
 
-## Art. 25bis
+###### Art. 25bis
 
 <Opgeheven bij W 2013-07-11/19, art. 100, 055; Inwerkingtreding : 01-01-2018>
 
-## Art. 26
+###### Art. 26
 
 De bijzondere voorrechten hebben de voorrang boven de overige algemene voorrechten.
 
-##### AFDELING III. _ Voorrechten op onroerende goederen.
 
-Art. 27.(2103). De schuldeisers, op onroerende goederen bevoorrecht, zijn :
+##### AFDELING III. _ Voorrechten op onroerende goederen.
+###### Art. 27.(2103). De schuldeisers, op onroerende goederen bevoorrecht, zijn :
 1° De verkoper, op het verkochte onroerend goed, voor de betaling van de prijs;
 2° De ruilers, op de wederkerig geruilde onroerende goederen, voor de betaling van de opleg en de vergoeding
 van de overwaarde, en ook voor de vaste som die bij de akte mocht zijn bepaald als schadeloosstelling van het
@@ -22207,7 +22211,7 @@ ingeschreven voorrechten.]2
 (2)<W 2018-06-18/03, art. 176, 059; Inwerkingtreding : 01-01-2019>
 (3)<W 2018-07-11/07, art. 14, 060; Inwerkingtreding : 30-07-2018>
 
-## Art. 28
+###### Art. 28
 
 De rechtsvordering van artikel 1654 van het Burgerlijk Wetboek tot ontbinding van de koop, en de
 rechtsvordering van artikel 1705 tot terugvordering van de geruilde zaak, kunnen niet worden ingesteld ten
@@ -22224,44 +22228,44 @@ hypothecaire schuldvorderingen, die deze eigenschap ten gevolge van een van die 
 verliezen, en wel volgens de rang van die schuldvorderingen op het ogenblik van de ontbinding van de koop of
 van de ruil.
 
-##### AFDELING IV. _ Hoe voorrechten bewaard worden.
 
-Art. 29.(2106). Tussen de schuldeisers hebben de voorrechten slechts gevolg ten aanzien van de onroerende
+##### AFDELING IV. _ Hoe voorrechten bewaard worden.
+###### Art. 29.(2106). Tussen de schuldeisers hebben de voorrechten slechts gevolg ten aanzien van de onroerende
 goederen, voor zover zij zijn openbaar gemaakt door inschrijving in de registers van de [2 hypothecaire
 openbaarmaking]2, met uitzondering van de voorrechten der gerechtskosten [1 en van het voorrecht bedoeld in
 artikel 27, 7°.]1.
 (1)<W 2018-06-18/03, art. 177, 059; Inwerkingtreding : 01-01-2019>
 (2)<W 2018-07-11/07, art. 15, 060; Inwerkingtreding : 30-07-2018>
 
-## Art. 30
+###### Art. 30
 
 De verkoper bewaart zijn voorrecht door de overschrijving van de titel waarbij de eigendom is
 overgedragen en waarbij wordt vastgesteld dat de koopprijs hem geheel of ten dele verschuldigd is.
 
-## Art. 31
+###### Art. 31
 
 De ruilers bewaren wederzijds hun voorrecht op de geruilde onroerende goederen, door de
 overschrijving van het ruilcontract, waarbij wordt vastgesteld dat hun een opleg, een vergoeding van de
 overwaarde of een vaste som als schadeloosstelling voor het geval van uitwinning verschuldigd is.
 
-## Art. 32
+###### Art. 32
 
 De schenker bewaart zijn voorrecht, voor de geldelijke lasten of de andere begrote prestaties die aan
 de begiftigde zijn opgelegd, door de overschrijving van de akte van schenking, waarbij die lasten en prestaties
 worden vastgesteld.
 
-## Art. 33
+###### Art. 33
 
 De medeërfgenaam of deelgenoot bewaart zijn voorrecht door de overschrijving van de akte van
 verdeling of van de akte van veiling.
 
-## Art. 34
+###### Art. 34
 
 De overschrijving, bij de vier vorige artikelen voorgeschreven, geldt als inschrijving voor de verkoper, de
 ruiler, de schenker, de erfgenaam of de deelgenoot en voor de wettelijk in hun plaats gestelde uitlener.
 Hetzelfde geldt voor de overschrijving die op verzoek van de laatstgenoemde gedaan wordt.
 
-Art. 35.[1 Op straffe van vergoeding van alle schade jegens derden moet er, op het ogenblik van de
+###### Art. 35.[1 Op straffe van vergoeding van alle schade jegens derden moet er, op het ogenblik van de
 overschrijving ambtshalve in het register een inschrijving worden gedaan]1 :
 1° Van de schuldvorderingen die voortvloeien uit de akte van eigendomsoverdracht;
 2° Van iedere opleg of vergoeding van de overwaarde, die voortvloeit uit de akte van ruiling.
@@ -22272,7 +22276,7 @@ Deze inschrijving vermeldt de bedingen betreffende de vrijwaring wegens uitwinni
 zijn gemaakt.
 (1)<W 2015-12-18/12, art. 87, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 
-## Art. 36.De
+###### Art. 36.De
 
 verkoper, de ruilers, de schenker, de medeërfgenamen of deelgenoten kunnen, door een
 uitdrukkelijk beding in de akte, de [1 Algemene Administratie van de Patrimoniumdocumentatie]1 ontslaan van de
@@ -22282,13 +22286,13 @@ stellen, maar zij kunnen, krachtens hun titel, een hypothecaire inschrijving nem
 worden bepaald door haar dagtekening.
 (1)<W 2018-07-11/07, art. 16, 060; Inwerkingtreding : 30-07-2018>
 
-## Art. 37
+###### Art. 37
 
 De bij de vorige artikelen voorgeschreven inschrijvingen moeten door de schuldeisers vernieuwd
 worden overeenkomstig artikel 90. Bij gebreke van vernieuwing hebben dezen nog slechts een hypotheek,
 waarvan de rang zal worden bepaald door de dagtekening van haar inschrijving.
 
-## Art. 38
+###### Art. 38
 
 (2110). Door 1° de inschrijving van het proces-verbaal, die gedaan is voor de aanvang van de werken
 en waaruit de gesteldheid van de plaats blijkt; en 2° de inschrijving van het tweede proces-verbaal binnen vijftien
@@ -22302,7 +22306,7 @@ maanden nadat de beslissing in kracht van gewijsde is gegaan. In geval van een l
 voorrecht pas rang op de dag waarop het wordt ingeschreven.]1
 (1)<Ingevoegd bij W 2014-02-21/47, art. 4, 047; Inwerkingtreding : 25-05-2014>
 
-## Art. 38bis
+###### Art. 38bis
 
 <KBN2 18-04-1967, art. 12> De Staat behoudt het voorrecht, voorzien bij artikel 27, 6°, door
 inschrijving gedaan, vóór de aanvang der werken, van het proces-verbaal, dat de plaatsbeschrijving vaststelt en
@@ -22318,7 +22322,7 @@ rechtsvordering door het Aankoopcomité ingevoerd, overeenkomstig de laatste ali
 voormeld besluit, gedaan naast de inschrijving van het betwist proces-verbaal en verslag. De definitieve uitspraak
 over deze rechtsvordering gedaan, wordt ingeschreven.
 
-## Art. 39
+###### Art. 39
 
 De schuldeisers en legatarissen, die volgens artikel 878 van het Burgerlijk Wetboek het recht hebben
 om de afscheiding van de boedels te vragen, bewaren dit recht met betrekking tot de onroerende goederen der
@@ -22329,14 +22333,14 @@ Totdat deze termijn verstreken is, kan geen hypotheek op die goederen worden gev
 vervreemding ervan worden toegestaan door de erfgenamen of vertegenwoordigers van de overledene, ten
 nadele van de schuldeisers en legatarissen.
 
-## Art. 40
+###### Art. 40
 
 De overnemers van die verschillende bevoorrechte schuldvorderingen oefenen dezelfde rechten uit als
 de overdragers in wier plaats zij treden, mits zij zich gedragen naar de bepalingen van artikel 5 van deze wet.
 
 #### HOOFDSTUK III. _ Hypotheken.
 
-## Art. 41
+###### Art. 41
 
 (2114). Hypotheek is een zakelijk recht op onroerende goederen, die verbonden zijn ter voldoening van
 een verbintenis.
@@ -22344,16 +22348,16 @@ Zij is uit haar aard ondeelbaar en blijft voor het geheel bestaan op al de verbo
 van die goederen en op ieder gedeelte ervan.
 Zij volgt die goederen, in welke handen zij ook overgaan.
 
-## Art. 42
+###### Art. 42
 
 (2115). Hypotheek komt slechts tot stand in de gevallen en overeenkomstig de vormen bij de wet
 toegelaten.
 
-## Art. 43
+###### Art. 43
 
 (2116). Er zijn wettelijke hypotheken, bedongen hypotheken en testamentaire hypotheken.
 
-## Art. 44
+###### Art. 44
 
 (2117). De wettelijke hypotheek is de hypotheek die uit de wet ontstaat.
 De bedongen hypotheek is de hypotheek die afhankelijk is van overeenkomsten en van de uiterlijke vorm van
@@ -22361,7 +22365,7 @@ akten en contracten.
 De testamentaire hypotheek is de hypotheek die door een erflater wordt gevestigd op een of meer onroerende
 goederen, bepaaldelijk aangewezen in het testament, tot waarborg van de door hem gemaakte legaten.
 
-Art. 45.(2118). Voor hypotheek zijn alleen vatbaar :
+###### Art. 45.(2118). Voor hypotheek zijn alleen vatbaar :
 1° Onroerende goederen die in de handel zijn;
 2° De rechten van vruchtgebruik, erfpacht en opstal, gevestigd op dezelfde goederen, zolang die rechten
 duren.
@@ -22376,19 +22380,19 @@ evenwel, indien zij voor langer dan negen jaren zijn aangegaan, wordt de huurtij
 1°>
 (1)<W 2020-02-04/16, art. 13, 068; Inwerkingtreding : 01-09-2021>
 
-## Art. 45bis
+###### Art. 45bis
 
 <W 08-07-1924, art. 5> Hypotheek kan gevestigd worden op gebouwen waarvan de oprichting
 begonnen of zelfs nog maar ontworpen is, mits hij die de hypotheek verleent, een reeds bestaand recht heeft,
 op grond waarvan hij te zijnen behoeve vermag te bouwen.
 
-## Art. 46
+###### Art. 46
 
 (2119). Roerende goederen kunnen niet worden gevolgd krachtens hypotheek.
 
-##### AFDELING I. _ Wettelijke hypotheken.
 
-Art. 47.(2121). De rechten en schuldvorderingen waaraan een wettelijke hypotheek is toegekend, zijn : (...) die
+##### AFDELING I. _ Wettelijke hypotheken.
+###### Art. 47.(2121). De rechten en schuldvorderingen waaraan een wettelijke hypotheek is toegekend, zijn : (...) die
 van minderjarigen en onbekwaamverklaarden, op de goederen van hun voogd; ((...)); die van de Staat, de
 provincies, de gemeenten en de openbare instellingen, op de goederen van de ontvangers en beheerders die
 rekenplichtig zijn. <W 14-07-1976, art. 14-16, 2°> <W 1991-07-18/33, art. 15, 005; Inwerkingtreding : 199207-26>
@@ -22401,7 +22405,7 @@ toegekend op de onroerende goederen van de gemeenten die een tegemoetkoming van 
 <KBN 208, 23-09-1983, art. 11> (Bevestiging) <W 06-12-1984, art. 2, 1°> <Zie DCVR 24-01-1984, art. 23,
 inwerkingtreding is onbepaald>
 
-## Art. 47_WAALS_GEWEST
+###### Art. 47_WAALS_GEWEST
 
 (2121). De rechten en schuldvorderingen waaraan een wettelijke hypotheek is toegekend, zijn : (...) die van
 minderjarigen en onbekwaamverklaarden, op de goederen van hun voogd; ((...)); die van de Staat, de provincies,
@@ -22440,7 +22444,7 @@ overeenkomstig artikel D.289 van Boek II van het Milieuwetboek, dat het Waterwet
 (4)<DWG 2013-12-11/12, art. 157, 045; Inwerkingtreding : 01-01-2014>
 (5)<DWG 2014-12-12/02, art. 99, 051; Inwerkingtreding : 01-01-2015>
 
-## Art. 48
+###### Art. 48
 
 (2122). De wettelijke hypotheek van de Staat, de provincies, de gemeenten en de openbare instellingen
 strekt zich uit tot de tegenwoordige en toekomstige goederen van de rekenplichtige en tot de toekomstige
@@ -22450,7 +22454,7 @@ bezwarende titel met zijn of haar eigen penningen), verkregen heeft. <W 2003-02-
 § 1. WAARBORGEN DOOR VOOGDEN TE VERSTREKKEN IN HET BELANG VAN MINDERJARIGEN EN
 ONBEKWAAMVERKLAARDEN.
 
-## Art. 49
+###### Art. 49
 
 <W 2001-04-29/39, art. 43, 017; Inwerkingtreding : 01-08-2001> De vrederechter stelt binnen de
 termijn bepaald in artikel 407, § 1, van het Burgerlijk Wetboek het bedrag vast waarvoor een hypothecaire
@@ -22461,15 +22465,15 @@ verantwoordelijkheid van de voogd kan voordoen.
 De vrederechter kan naar gelang van de omstandigheden verklaren dat op de goederen van de voogd geen
 inschrijving wordt genomen. Dergelijke verklaring geldt slechts totdat zij wordt herroepen.
 
-## Art. 50
+###### Art. 50
 
 (Opgeheven) <W 2001-04-29/39, art. 44, 017; Inwerkingtreding : 01-08-2001>
 
-## Art. 51
+###### Art. 51
 
 (Opgeheven) <W 2001-04-29/39, art. 44, 017; Inwerkingtreding : 01-08-2001>
 
-## Art. 52
+###### Art. 52
 
 <W 2001-04-29/39, art. 45, 017; Inwerkingtreding : 01-08-2001> De inschrijving wordt genomen op
 verzoek van de griffier, zulks krachtens de beschikking van de vrederechter of het vonnis van de rechtbank.
@@ -22479,11 +22483,11 @@ de voogdij overeenkomstig artikel 398 van het Burgerlijk Wetboek onttrekken.
 De toeziende voogd moet op eigen verantwoordelijkheid erover waken dat de inschrijving wettig op de
 goederen van de voogd wordt genomen.
 
-## Art. 53
+###### Art. 53
 
 (Opgeheven) <W 2001-04-29/39, art. 46, 017; Inwerkingtreding : 01-08-2001>
 
-## Art. 54
+###### Art. 54
 
 <W 2001-04-29/39, art. 47, 017; Inwerkingtreding : 01-08-2001> De griffiers mogen op eigen
 verantwoordelijkheid en op straffe van afzetting, indien daartoe grond bestaat, geen uitgifte van beschikkingen
@@ -22491,22 +22495,22 @@ gegeven ter uitvoering van artikel 407 van het Burgerlijk Wetboek afgeven vooral
 inschrijving is genomen voor de bedragen en op de onroerende goederen die de vrederechter heeft
 aangewezen.
 
-## Art. 55
+###### Art. 55
 
 (Opgeheven) <W 2001-04-29/39, art. 48, 017; Inwerkingtreding : 01-08-2001>
 
-## Art. 56
+###### Art. 56
 
 <W 2001-04-29/39, art. 49, 017; Inwerkingtreding : 01-08-2001> Indien de voogd onroerende
 goederen bezit, die echter ontoereikend worden geoordeeld om voor zijn gehele beheer tot waarborg te
 strekken, kan de vrederechter overeenkomstig artikel 407, § 1, 6°, van het Burgerlijk Wetboek, bijkomende
 waarborgen bepalen.
 
-## Art. 57
+###### Art. 57
 
 (Opgeheven) <W 2001-04-29/39, art. 50, 017; Inwerkingtreding : 01-08-2001>
 
-## Art. 58
+###### Art. 58
 
 <W 2001-04-29/39, art. 51, 017; Inwerkingtreding : 01-08-2001> Ingeval de waarborgen verstrekt
 aan de minderjarigen of aan de onbekwaamverklaarden ontoereikend zijn geworden, kan de vrederechter
@@ -22516,33 +22520,33 @@ uitgebreid. Indien de voogd geen andere onroerende goederen bezit of de waarde e
 geoordeeld, kan de vrederechter andere waarborgen of bijkomende waarborgen bepalen zoals omschreven in
 artikel 56.
 
-## Art. 59.Indien
+###### Art. 59.Indien
 
 de voogd, [1 in het geval van artikel 58]1, naderhand onroerende goederen verkrijgt, wordt
 gehandeld zoals in de artikelen 49 en volgende bepaald is.
 (1)<W 2014-05-05/09, art. 8, 048; Inwerkingtreding : 18-07-2014>
 
-## Art. 60
+###### Art. 60
 
 <W 2001-04-29/39, art. 52, 017; Inwerkingtreding : 01-08-2001> Indien de door de voogd verstrekte
 waarborgen in de loop van de voogdij blijkbaar overmatig worden, kan de vrederechter overeenkomstig artikel
 407, § 2, van het Burgerlijk Wetboek, de aanvankelijk gestelde zekerheid verminderen.
 
-## Art. 61
+###### Art. 61
 
 (Opgeheven) <W 2001-04-29/39, art. 53, 017; Inwerkingtreding : 01-08-2001>
 
-## Art. 62
+###### Art. 62
 
 (Opgeheven) <W 2001-04-29/39, art. 53, 017; Inwerkingtreding : 01-08-2001>
 
-## Art. 63
+###### Art. 63
 
 (Opgeheven) <W 2001-04-29/39, art. 53, 017; Inwerkingtreding : 01-08-2001>
 
 § 2. WAARBORGEN TEN BEHOEVE VAN GEHUWDE VROUWEN. (Opgeheven. - Overgangsbepaling) <W 14-071976, art. 4-16, 3°; W 14-07-1976, art. 4-47, § 1>
 
-## Art. 64
+###### Art. 64
 
 (Opgeheven. - Overgangsbepaling) <W 14-07-1976, art. 4-16, 3°; art. 4-47, § 1> De vrouw heeft een
 bijzondere hypotheek op de goederen die bij het huwelijkscontract zijn verbonden tot zekerheid van haar
@@ -22554,13 +22558,13 @@ Deze hypotheken worden door de man, vóór de voltrekking van het huwelijk, inge
 rekenen van de dag van de inschrijving.
 De inschrijving kan ook door de vrouw gevorderd worden.
 
-## Art. 65
+###### Art. 65
 
 (Opgeheven. - Overgangsbepaling) <W 14-07-1976, art. 4-16, 3°; art. 4-47, § 1> Het contract wijst de
 goederen aan die met hypotheek bezwaard worden, het voorwerp van de waarborg en bepaalt tot welk bedrag
 de inschrijving mag worden genomen.
 
-## Art. 66
+###### Art. 66
 
 (Opgeheven. - Overgangsbepaling) <W 14-07-1976, art. 4-16, 3°; art. 4-47, § 1> Indien geen
 hypotheek bedongen is, of ingeval van ontoereikendheid van de waarborgen door het contract bepaald, kan de
@@ -22568,7 +22572,7 @@ vrouw, gedurende het huwelijk, krachtens een machtiging van de voorzitter van de
 woonplaats, en tot een door hem vast te stellen bedrag, hypothecaire inschrijvingen vorderen op de onroerende
 goederen van haar man, tot zekerheid van de rechten in § 1 van artikel 64 vermeld.
 
-## Art. 67
+###### Art. 67
 
 (Opgeheven. - Overgangsbepaling) <W 14-07-1976, art. 4-16, 3°; art. 4-47, § 1> De vrouw kan altijd,
 niettegenstaande beding van het tegendeel, maar krachtens een machtiging van de voorzitter van de rechtbank
@@ -22577,33 +22581,33 @@ echtgenoot wegens alle gronden van verhaal die zij tegen hem kan hebben, zoals d
 verbintenissen door haar ondertekend, uit vervreemding van haar eigen goederen, uit schenkingen of uit
 erfenissen waartoe zij mocht zijn geroepen.
 
-## Art. 68
+###### Art. 68
 
 (Opgeheven. - Overgangsbepaling) <W 14-07-1976, art. 4-16, 3°; art. 4-47, § 1> De inschrijvingen die
 krachtens de artikelen 66 en 67 genomen worden, wijzen elk onroerend goed in het bijzonder aan en vermelden
 de bedragen waarvoor die inschrijvingen worden gevorderd.
 
-## Art. 69
+###### Art. 69
 
 (Opgeheven. - Overgangsbepaling) <W 14-07-1976, art. 4-16, 3°; art. 4-47, § 1> De bloedverwanten
 en aanverwanten van de echtgenoten tot en met de derde graad kunnen, in de gevallen in de vorige artikelen
 bedoeld, mits zij zich gedragen naar de daarin voorgeschreven regels, de inschrijvingen vorderen in naam van de
 vrouw.
 
-## Art. 70
+###### Art. 70
 
 (Opgeheven. - Overgangsbepaling) <W 14-07-1976, art. 4-16, 3°; art. 4-47, § 1> De vrederechter van
 het kanton van de woonplaats van de man en de procureur des Konings bij de rechtbank van eerste aanleg
 kunnen deze inschrijvingen in naam van de vrouw ambtshalve vorderen.
 De man kan deze inschrijvingen altijd uit eigen hoofde nemen.
 
-## Art. 71
+###### Art. 71
 
 (Opgeheven. - Overgangsbepaling) <W 14-07-1976, art. 4-16, 3°; art. 4-47, § 1> De vrouw kan van de
 inschrijvingen, krachtens de voorgaande bepalingen genomen, niet rechtstreeks afstand doen ten voordele van
 haar man.
 
-## Art. 72
+###### Art. 72
 
 (Opgeheven. - Overgangsbepaling) <W 14-07-1976, art. 4-16, 3°; art. 4-47, § 1> In het geval van de
 artikelen 66, 67, 69 en 70 kan de man vragen dat de hypotheek, die uit hoofde van de terugnemingen van de
@@ -22614,36 +22618,36 @@ van deze, na het advies te hebben ingewonnen van de drie naaste bloedverwanten v
 ontstentenis van bloedverwanten binnen twee myriameter afstand, het advies van drie personen van wie bekend
 is dat zij met de vrouw of haar familie vriendschapsbetrekkingen onderhouden.
 
-##### AFDELING II. - Bedongen hypotheken.
 
-## Art. 73
+##### AFDELING II. - Bedongen hypotheken.
+###### Art. 73
 
 (2124). Bedongen hypotheken kunnen alleen worden toegestaan door hen die bekwaam zijn om de
 onroerende goederen welke zij daarmee bezwaren, te vervreemden.
 
-## Art. 74
+###### Art. 74
 
 (2125). Zij die op een onroerend goed enkel een recht hebben dat opgeschort is door een voorwaarde,
 of in bepaalde gevallen kan worden ontbonden, of vatbaar is voor vernietiging, kunnen slechts een hypotheek
 toestaan die aan dezelfde voorwaarden of aan dezelfde vernietiging onderworpen is.
 
-## Art. 75
+###### Art. 75
 
 (2126). Goederen van minderjarigen en van onbekwaamverklaarden kunnen niet anders met hypotheek
 bezwaard worden dan wegens de oorzaken en met inachtneming van de vormen die bij de wet bepaald zijn.
 (Tweede lid opgeheven) <W 2007-05-09/44, art. 36, 14°, 033; Inwerkingtreding : 01-07-2007>
 
-## Art. 76
+###### Art. 76
 
 (2127). De bedongen hypotheek kan slechts worden toegestaan bij een authentieke akte of bij een in
 rechte of voor notaris erkende onderhandse akte.
 Volmachten tot het vestigen van hypotheek moeten in dezelfde vorm gegeven worden.
 
-## Art. 77
+###### Art. 77
 
 <Opgeheven bij W 2013-12-21/26, art. 65, 044; Inwerkingtreding : 10-01-2014>
 
-## Art. 78
+###### Art. 78
 
 (2129). De bedongen hypotheek is alleen dan geldig, indien hetzij de authentieke titel tot vestiging van
 de schuldvordering, hetzij een latere authentieke akte, een bijzondere opgave bevat van de aard en de ligging van
@@ -22651,7 +22655,7 @@ ieder van de tegenwoordige onroerende goederen van de schuldenaar, waarop deze d
 schuldvordering toestaat.
 Hypotheek kan niet worden gevestigd op toekomstige goederen.
 
-## Art. 79
+###### Art. 79
 
 (2131). Indien de met hypotheek bezwaarde onroerende goederen teniet zijn gegaan of beschadiging
 hebben geleden, zodat zij voor de zekerheid van de schuldeiser ontoereikend zijn geworden, is deze gerechtigd
@@ -22659,7 +22663,7 @@ terugbetaling van zijn schuldvordering te eisen.
 De schuldenaar wordt echter toegelaten tot het aanbieden van een aanvullende hypotheek, indien het verlies of
 de beschadiging buiten zijn schuld heeft plaatsgehad.
 
-Art. 80.(2132). De bedongen hypotheek is slechts geldig voor zover het bedrag waarvoor zij is verleend, in de
+###### Art. 80.(2132). De bedongen hypotheek is slechts geldig voor zover het bedrag waarvoor zij is verleend, in de
 akte bepaald is.
 Indien de schuldvordering die uit de verbintenis voortvloeit, voorwaardelijk is, wordt de voorwaarde vermeld in
 de beschrijving waarvan hierna sprake is.
@@ -22680,9 +22684,9 @@ kan bij een eenvoudig exploot verleend worden.) <W 15-04-1889, enig art.>
 (1)<W 2018-07-11/07, art. 17, 060; Inwerkingtreding : 30-07-2018>
 (2)<W 2019-04-28/01, art. 46, 063; Inwerkingtreding : 16-05-2019>
 
-##### AFDELING III. _ Rang van de hypotheken onderling.
 
-Art. 81.(2134). Tussen de schuldeisers onderling neemt de hypotheek niet eerder rang dan van de dag der
+##### AFDELING III. _ Rang van de hypotheken onderling.
+###### Art. 81.(2134). Tussen de schuldeisers onderling neemt de hypotheek niet eerder rang dan van de dag der
 inschrijving in de registers van de [1 hypothecaire openbaarmaking]1 gedaan, in de vorm en op de wijze die de
 wet voorschrijft.
 Alle schuldeisers die op dezelfde dag zijn ingeschreven, hebben samenlopende hypotheken van dezelfde
@@ -22690,11 +22694,11 @@ dagtekening, zonder onderscheid tussen de inschrijving van 's morgens en die van
 verschil door de [1 Algemene Administratie van de Patrimoniumdocumentatie]1 mocht zijn vermeld.
 (1)<W 2018-07-11/07, art. 18, 060; Inwerkingtreding : 30-07-2018>
 
-##### AFDELING IV. [1 - Hypotheken voor alle sommen]1
 (1)<Ingevoegd bij W 2014-04-19/39, art. 20, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
-Art. 81bis.[1 § 1. Een hypotheek mag verleend worden tot zekerheid van toekomstige schuldvorderingen indien
+##### AFDELING IV. [1 - Hypotheken voor alle sommen]1
+###### Art. 81bis.[1 § 1. Een hypotheek mag verleend worden tot zekerheid van toekomstige schuldvorderingen indien
 de gewaarborgde schuldvorderingen bepaald zijn of bepaalbaar zijn op het ogenblik van de hypotheekstelling;
 haar rang wordt bepaald naar de dagtekening van haar inschrijving, ongeacht de tijdstippen waarop de
 gewaarborgde schuldvorderingen ontstaan.
@@ -22713,11 +22717,11 @@ schuldvorderingen die nog gewaarborgd zijn op het einde van de opzeggingstermijn
 (1)<Ingevoegd bij W 2014-04-19/39, art. 20, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
-##### AFDELING V. - [1 Overdracht van bevoorrechte en hypothecaire schuldvorderingen.]1
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
-Art. 81ter.[1 Deze afdeling is van toepassing op alle schuldvorderingen gewaarborgd door een hypotheek, alle
+##### AFDELING V. - [1 Overdracht van bevoorrechte en hypothecaire schuldvorderingen.]1
+###### Art. 81ter.[1 Deze afdeling is van toepassing op alle schuldvorderingen gewaarborgd door een hypotheek, alle
 schuldvorderingen waarvoor een recht werd bedongen om een hypothecaire waarborg te eisen, met inbegrip
 van een hypothecair mandaat of een hypotheekbelofte, en op alle schuldvorderingen gewaarborgd door een
 voorrecht op een onroerend goed.]1
@@ -22727,7 +22731,7 @@ toepassing op alle schuldvorderingen gewaarborgd door een scheepshypotheek.]2
 2)>
 (2)<W 2019-05-08/14, art. 8, 065; Inwerkingtreding : 01-09-2020>
 
-Art. 81quater.[1 § 1. Wanneer een schuldvordering waarvan sprake is in artikel 81ter wordt overgedragen of in
+###### Art. 81quater.[1 § 1. Wanneer een schuldvordering waarvan sprake is in artikel 81ter wordt overgedragen of in
 pand gegeven door of aan een instelling of, in voorkomend geval, aan of door een bijzonder vermogen of een
 compartiment van een instelling dat, op het ogenblik van de overdracht of van de inpandgeving :
 1° een mobiliseringsinstelling is in de zin van artikel 2 van de wet van 3 augustus 2012 betreffende diverse
@@ -22777,7 +22781,7 @@ om een hypotheekgarantie te eisen, met inbegrip van een hypothecair mandaat of e
 (2)<W 2015-10-26/06, art. 75, 052; Inwerkingtreding : 09-11-2015>
 (3)<W 2016-12-25/12, art. 63, 056; Inwerkingtreding : 01-01-2018>
 
-## Art. 81quinquies
+###### Art. 81quinquies
 
 [1 Wanneer eenzelfde hypotheek ongeacht of dit al dan niet in het kader van een
 kredietopening gebeurt meerdere schuldvorderingen waarborgt waarvan één is overgedragen aan een instelling
@@ -22794,7 +22798,7 @@ of in pand gegeven, behoudens uitdrukkelijk akkoord van deze derden.]1
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
-## Art. 81sexies
+###### Art. 81sexies
 
 [1 § 1. Een hypothecair mandaat wordt, behoudens uitdrukkelijk andersluidend beding in het
 mandaat, van rechtswege geacht te zijn bedongen ten gunste van de erfopvolgers ten bijzondere of ten
@@ -22839,7 +22843,7 @@ uitdrukkelijk akkoord van deze derden.]1
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
-## Art. 81septies
+###### Art. 81septies
 
 [1 Wanneer ter vervanging van een hypothecair mandaat, een hypotheekbelofte of een
 bestaande hypotheek, een nieuw hypothecair mandaat of een nieuwe hypotheekbelofte wordt verleend of een
@@ -22854,7 +22858,7 @@ compartiment van een instelling, zoals vermeld in artikel 81quater, § 1.]1
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
-## Art. 81octies
+###### Art. 81octies
 
 [1 § 1. Wanneer een schuldvordering die werd overgedragen aan een instelling, een bijzonder
 vermogen of een compartiment van een instelling, waarvan sprake is in artikel 81quater, § 1, wordt
@@ -22881,7 +22885,7 @@ overgedragen aan de pandgever, of alleen op naam van de overdrager van de schuld
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
-## Art. 81nonies
+###### Art. 81nonies
 
 [1 Wanneer een schuldvordering die opgenomen is in een hypothecaire grosse aan toonder of
 aan order, wordt overgedragen of in pand gegeven ten gunste van of door een instelling, een bijzonder
@@ -22891,7 +22895,7 @@ endossement of een afgifte van de titel aan de overnemer of aan de pandhoudende 
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
-Art. 81decies.[1 § 1. Een registratie van een schuldvordering overeenkomstig [2 artikel 15 van bijlage III van de
+###### Art. 81decies.[1 § 1. Een registratie van een schuldvordering overeenkomstig [2 artikel 15 van bijlage III van de
 wet van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen]2 of de schrapping van een
 schuldvordering uit dit register voor een wederbelegging in het algemene vermogen van de instelling die de
 Belgische covered bonds uitgeeft waarvoor het register wordt gehouden, wordt op dezelfde manier behandeld
@@ -22906,7 +22910,7 @@ overnemer en maakt de schrapping een loutere uitvoeringsdaad uit met betrekking 
 2)>
 (2)<W 2015-10-26/06, art. 76, 052; Inwerkingtreding : 09-11-2015>
 
-Art. 81undecies.[1 [3 Zonder afbreuk te doen aan artikel 78 van de wet van 25 april 2014 op het statuut van en
+###### Art. 81undecies.[1 [3 Zonder afbreuk te doen aan artikel 78 van de wet van 25 april 2014 op het statuut van en
 het toezicht op kredietinstellingen en aan artikel 106 van de wet van 13 maart 2016 op het statuut van en het
 toezicht op de verzekerings- of herverzekeringsondernemingen]3, kan een overdracht van schuldvorderingen
 zoals bedoeld in artikel 81ter, in het raam van een fusie, overneming of splitsing van ondernemingen of in het
@@ -22921,7 +22925,7 @@ FSMA.]1
 
 #### HOOFDSTUK IV. _ Wijze van inschrijving van de voorrechten en hypotheken.
 
-Art. 82.(2146). [2 De inschrijvingen geschieden op de bevoegde dienst van de Federale Overheidsdienst
+###### Art. 82.(2146). [2 De inschrijvingen geschieden op de bevoegde dienst van de Federale Overheidsdienst
 Financiën.]2
 De rechten van voorrecht of hypotheek die zijn verkregen maar niet ingeschreven vóór het overlijden van de
 schuldenaar, kunnen niet meer worden ingeschreven dan binnen drie maanden na het openvallen van de erfenis,
@@ -22931,7 +22935,7 @@ wetten op het faillissement geregeld.
 (1)<W 2018-07-11/07, art. 19, 060; Inwerkingtreding : 30-07-2018>
 (2)<W 2023-12-22/05, art. 6, 070; Inwerkingtreding : 08-01-2024>
 
-Art. 83.(2148). Om de inschrijving te verkrijgen [2 bezorgt de schuldeiser, zelf of via een derde, aan de
+###### Art. 83.(2148). Om de inschrijving te verkrijgen [2 bezorgt de schuldeiser, zelf of via een derde, aan de
 Algemene Administratie van de Patrimoniumdocumentatie]2 de authentieke uitgifte van de akte waaruit het
 voorrecht of de hypotheek ontstaat.
 Hij voegt daarbij twee (...) borderellen, waarvan een op de uitgifte van de titel kan worden geschreven. Deze
@@ -22958,7 +22962,7 @@ eraan]1.
 (2)<W 2018-07-11/07, art. 20, 060; Inwerkingtreding : 30-07-2018>
 (3)<W 2019-04-28/01, art. 47, 063; Inwerkingtreding : 16-05-2019>
 
-## Art. 84.Om
+###### Art. 84.Om
 
 de inschrijving of de vermelding door de artikelen 3 en 5 vereist, te verkrijgen, [2 bezorgen de
 partijen, zelf of via een derde, aan de Algemene Administratie van de Patrimoniumdocumentatie]2 :
@@ -23000,25 +23004,25 @@ terug, waarop [2 zij]2 de verklaring aanbrengt dat de inschrijving of de vermeld
 (2)<W 2018-07-11/07, art. 21, 060; Inwerkingtreding : 30-07-2018>
 (3)<W 2020-02-04/16, art. 13, 068; Inwerkingtreding : 01-09-2021>
 
-## Art. 85
+###### Art. 85
 
 Verzuim van een of meer van de formaliteiten, bij de twee vorige artikelen voorgeschreven, heeft alleen
 dan nietigheid van de inschrijving of van de vermelding ten gevolge, wanneer daaruit nadeel voor derden
 ontstaat.
 
-## Art. 86
+###### Art. 86
 
 (2149). Inschrijvingen op de goederen van een overledene kunnen gedaan worden met aanwijzing van
 de overledene alleen.
 
-## Art. 87
+###### Art. 87
 
 (2151). De bevoorrechte of hypothecaire schuldeiser die ingeschreven is voor een kapitaal dat
 interesten of rentetermijnen opbrengt, heeft het recht om ten hoogste voor drie jaren in dezelfde rang te worden
 geplaatst als voor zijn kapitaal, onverminderd de bijzondere inschrijvingen, die voor andere interesten of
 rentetermijnen kunnen worden genomen en hypotheek medebrengen te rekenen van hun dagtekening.
 
-Art. 88.(2152). Het is aan degene in wiens voordeel een inschrijving bestaat of aan zijn vertegenwoordigers
+###### Art. 88.(2152). Het is aan degene in wiens voordeel een inschrijving bestaat of aan zijn vertegenwoordigers
 geoorloofd, in het register van de hypotheken de door hem gekozen woonplaats te veranderen, onder
 verplichting om een andere [2 woonstkeuze te doen in België]2.
 Te dien einde legt hij, hetzij in persoon, hetzij door een derde, op het [1 bevoegde kantoor van de Algemene
@@ -23033,7 +23037,7 @@ gedaan aan de laatste in het register vermelde zetel of woonplaats in België.]2
 (1)<W 2018-07-11/07, art. 22, 060; Inwerkingtreding : 30-07-2018>
 (2)<W 2019-04-28/01, art. 48, 063; Inwerkingtreding : 16-05-2019>
 
-Art. 89.(2153). De wettelijke hypotheek van de Staat, de provincies, de gemeenten en de openbare instellingen
+###### Art. 89.(2153). De wettelijke hypotheek van de Staat, de provincies, de gemeenten en de openbare instellingen
 wordt ingeschreven tegen overlegging van twee borderellen, die bevatten :
 De naam, de voornamen, de hoedanigheid of de nauwkeurige aanwijzing van de schuldeiser en van de
 schuldenaar, hun [1 zetel of woonplaats]1, de aard van de te bewaren rechten en het bedrag van hun bepaalde
@@ -23041,7 +23045,7 @@ of eventuele waarde; ten slotte de speciale aanduiding van de aard en van de lig
 goederen.
 (1)<W 2019-04-28/01, art. 49, 063; Inwerkingtreding : 16-05-2019>
 
-## Art. 90
+###### Art. 90
 
 <W 10-10-1913, art. 5> (2154). De inschrijvingen houden de hypotheek en het voorrecht in stand
 gedurende (dertig jaar te rekenen van de dag der inschrijving); zij houden op van kracht te zijn indien de
@@ -23055,7 +23059,7 @@ In geval van achtereenvolgende overgangen sluit de vernieuwing, gedaan met verme
 een volgende verkrijger, voordat dertig jaren zijn verlopen sinds de eerste overdracht, de noodzakelijkheid uit van
 enige vernieuwing tegen de vroegere verkrijgers.
 
-Art. 90bis.<W 10-10-1913, art. 6> De inschrijvingen, overeenkomstig de (§ 1) der eerste afdeling van
+###### Art. 90bis.<W 10-10-1913, art. 6> De inschrijvingen, overeenkomstig de (§ 1) der eerste afdeling van
 hoofdstuk III, genomen ten behoeve van minderjarigen, van onbekwaamverklaarden, van in een
 krankzinnigengesticht geplaatste personen (...) houden op van kracht te zijn, indien zij niet worden vernieuwd
 voor het verstrijken van het jaar volgende op het eindigen van de voogdij of (van het voorlopig bewind) en, in elk
@@ -23069,12 +23073,12 @@ Patrimoniumdocumentatie]1 van ambtswege vernieuwd in de loop van het dertigste j
 der inschrijving.
 (1)<W 2018-07-11/07, art. 23, 060; Inwerkingtreding : 30-07-2018>
 
-## Art. 90ter
+###### Art. 90ter
 
 <W 10-10-1913, art. 7> De inschrijving tot vernieuwing geldt enkel als eerste inschrijving, indien zij
 niet de nauwkeurige aanwijzing van de vernieuwde inschrijving bevat, maar het is niet nodig de vorige
 inschrijvingen daarin te vermelden. De bepaling van artikel 85 is hierop toepasselijk.
-Art. 91.(2155). De kosten van de inschrijvingen en van hun vernieuwing komen ten laste van de schuldenaar,
+###### Art. 91.(2155). De kosten van de inschrijvingen en van hun vernieuwing komen ten laste van de schuldenaar,
 tenzij het tegendeel bedongen is; zij worden door de inschrijver voorgeschoten behalve wat betreft de wettelijke
 hypotheken; voor de inschrijving hiervan heeft de [1 Algemene Administratie van de Patrimoniumdocumentatie
 haar]1 verhaal op de schuldenaar.
@@ -23083,7 +23087,7 @@ De kosten van de overschrijving komen ten laste van de verkrijger.
 
 #### HOOFDSTUK V. _ Doorhaling en vermindering van de inschrijvingen.
 
-Art. 92.<W 2007-04-25/38, art. 2, 032; Inwerkingtreding : 18-05-2007> De inschrijvingen worden doorgehaald
+###### Art. 92.<W 2007-04-25/38, art. 2, 032; Inwerkingtreding : 18-05-2007> De inschrijvingen worden doorgehaald
 of verminderd krachtens de toestemming van de belanghebbende partijen, daartoe bevoegd, ofwel krachtens
 een vonnis in laatste aanleg gewezen of in kracht van gewijsde gegaan, ofwel krachtens een vonnis, uitvoerbaar
 verklaard niettegenstaande verzet of beroep. De volmacht tot doorhaling of vermindering moet uitdrukkelijk en in
@@ -23098,7 +23102,7 @@ De overnemer van een hypothecaire schuldvordering kan geen doorhaling of vermind
 overdracht voortvloeit uit akten als vermeld in artikel 2.
 (1)<W 2014-04-25/23, art. 139, 046; Inwerkingtreding : 24-05-2014>
 
-Art. 93.(2158). Zij die doorhaling of vermindering vorderen, leggen op het [2 bevoegde kantoor van de
+###### Art. 93.(2158). Zij die doorhaling of vermindering vorderen, leggen op het [2 bevoegde kantoor van de
 Algemene Administratie van de Patrimoniumdocumentatie]2 over, hetzij de uitgifte der authentieke akte of de
 akte in brevet, houdende toestemming (of houdende bevestiging van de toestemming), hetzij de uitgifte van het
 vonnis. <W 2007-04-25/38, art. 3, 032; Inwerkingtreding : 18-05-2007>
@@ -23108,7 +23112,7 @@ daarin verklaart dat de akte noch voorwaarde, noch voorbehoud bevat.
 (1)<W 2013-12-21/26, art. 68, 044; Inwerkingtreding : 10-01-2014>
 (2)<W 2018-07-11/07, art. 25, 060; Inwerkingtreding : 30-07-2018>
 
-## Art. 94
+###### Art. 94
 
 (2159). De eis tot doorhaling of vermindering, als hoofdvordering ingesteld, wordt (...) gebracht voor
 de rechtbank van de plaats waar de inschrijving gedaan is. <W 12-08-1911, enig art.>
@@ -23119,7 +23123,7 @@ ingesteld door dagvaarding aan hun persoon, of aan de laatste in het register ve
 zulks niettegenstaande het overlijden, hetzij van de schuldeisers, hetzij van hen bij wie zij woonplaats hebben
 gekozen.
 
-## Art. 95
+###### Art. 95
 
 (2160). De rechtbanken moeten de doorhaling bevelen, wanneer de inschrijving gedaan is zonder
 gegrond te zijn op de wet of op een titel, of wanneer zij geschied is krachtens een titel die hetzij onregelmatig,
@@ -23128,25 +23132,25 @@ gegaan.
 
 #### HOOFDSTUK VI. _ Gevolgen van de voorrechten en hypotheken tegen derden-bezitters.
 
-## Art. 96
+###### Art. 96
 
 (2166). De schuldeisers die een ingeschreven voorrecht of hypotheek hebben op een onroerend goed,
 volgen dat goed, in welke handen het ook overgaat, om gerangschikt en betaald te worden volgens de orde van
 hun schuldvorderingen of inschrijvingen.
 
-## Art. 97
+###### Art. 97
 
 (2167). Indien de derde-bezitter de hierna te bepalen formaliteiten om zijn eigendom te zuiveren niet
 vervult, blijft hij, uit kracht van de inschrijvingen alleen, als bezitter verbonden voor alle hypothecaire schulden;
 elke tijdsbepaling en elk uitstel van betaling, aan de oorspronkelijke schuldenaar verleend, komen hem ten goede.
 
-## Art. 98
+###### Art. 98
 
 (2168). De derde-bezitter is in dit geval verplicht van het met hypotheek bezwaarde onroerend goed
 zonder voorbehoud afstand te doen, ofwel alle opeisbare interesten en kapitalen te voldoen, hoe groot het
 bedrag daarvan ook mag zijn.
 
-## Art. 99
+###### Art. 99
 
 (2169). Voldoet de derde-bezitter niet geheel aan een van deze verplichtingen, dan heeft ieder
 hypothecair schuldeiser het recht om het met hypotheek bezwaarde goed tegen hem te doen verkopen, dertig
@@ -23156,18 +23160,18 @@ om de opeisbare schuld te betalen of van het erf afstand te doen.
 binnen de acht dagen die volgen op de betekening van het op hem verrichte beslag, aan de rechter ieder
 koopaanbod uit de hand van zijn onroerend goed over te maken.) <W 1998-07-05/57, art. 17, 014;
 
-## Art. 100
+###### Art. 100
 
 (2172). Afstand wegens hypotheek kan gedaan worden door alle derden-bezitters die niet persoonlijk
 verbonden zijn voor de schuld en die bekwaam zijn om te vervreemden.
 
-## Art. 101
+###### Art. 101
 
 (2173). Hij kan gedaan worden, zelfs nadat de derde-bezitter, uitsluitend in deze hoedanigheid, de
 verbintenis erkend heeft of veroordeeld is. De afstand belet niet dat de derde-bezitter, tot aan de toewijzing, het
 onroerend goed kan terugnemen tegen betaling van de gehele schuld en van de kosten.
 
-## Art. 102
+###### Art. 102
 
 (2174). Afstand wegens hypotheek wordt gedaan op de griffie van de rechtbank van de plaats waar
 de goederen gelegen zijn, en deze rechtbank verleent daarvan akte.
@@ -23175,40 +23179,40 @@ Op verzoek van de meest gerede onder de belanghebbenden, wordt een curator over 
 goed aangesteld, tegen wie de verkoping van het goed vervolgd wordt overeenkomstig de vormen
 voorgeschreven voor de uitwinning.
 
-## Art. 103
+###### Art. 103
 
 (2175). Beschadigingen door het toedoen of de nalatigheid van de derde-bezitter veroorzaakt, ten
 nadele van de hypothecaire of bevoorrechte schuldeisers, leveren grond op voor een eis tot schadevergoeding
 tegen hem; maar uitgaven en verbeteringen door hem gedaan kan hij slechts terugvorderen ten belope van de
 meerwaarde die uit de verbetering is ontstaan.
 
-## Art. 104
+###### Art. 104
 
 (2176). De vruchten van het met hypotheek bezwaarde onroerend goed zijn door de derde-bezitter
 eerst verschuldigd te rekenen van de dag van de aanmaning tot afstand of tot betaling; en, indien de begonnen
 vervolgingen gedurende drie jaren zijn gestaakt, te rekenen van de nieuwe aanmaning die gedaan zal worden.
 
-## Art. 105
+###### Art. 105
 
 (2177). De erfdienstbaarheden en zakelijke rechten, die de derde-bezitter had op het onroerend goed
 vooraleer dit in zijn bezit was, herleven na de afstand of na de tegen hem gedane toewijzing.
 Zijn persoonlijke schuldeisers oefenen hun hypotheek uit op het afgestane of toegewezen goed, volgens hun
 rang, na al degenen die tegen de vorige eigenaars een inschrijving hadden.
 
-## Art. 106
+###### Art. 106
 
 (2178). De derde-bezitter die de hypothecaire schuld betaald heeft, of die van het met hypotheek
 bezwaarde onroerend goed heeft afstand gedaan, of die de uitwinning van dat goed heeft ondergaan, heeft zijn
 verhaal, als naar recht, op de hoofdschuldenaar.
 
-## Art. 107
+###### Art. 107
 
 (2179). De derde-bezitter die zijn eigendom wil zuiveren door betaling van de prijs, moet de vormen in
 acht nemen die in hoofdstuk VIII hierna zijn voorgeschreven.
 
 #### HOOFDSTUK VII. _ Tenietgaan van de voorrechten en hypotheken.
 
-## Art. 108
+###### Art. 108
 
 (2180). De voorrechten en hypotheken gaan teniet :
 1° Door het tenietgaan van de hoofdverbintenis;
@@ -23231,12 +23235,12 @@ ervan indien hij het met hypotheek bezwaarde goed alsdan nog bezit;
 
 #### HOOFDSTUK VIII. _ Wijze waarop eigendommen van de voorrechten en hypotheken worden gezuiverd.
 
-## Art. 109
+###### Art. 109
 
 (2182). De overdrager draagt aan de verkrijger slechts de eigendom en de rechten over die hij zelf op
 het overgedragene bezat; hij draagt die over onder verband van dezelfde voorrechten en hypotheken als
 waarmede hij bezwaard was.
-Art. 110.(2183). De nieuwe eigenaar die zich wil beveiligen tegen de gevolgen van de vervolgingen die op grond
+###### Art. 110.(2183). De nieuwe eigenaar die zich wil beveiligen tegen de gevolgen van de vervolgingen die op grond
 van hoofdstuk VI hiervoren kunnen worden ingesteld is gehouden hetzij vóór de vervolgingen, hetzij uiterlijk
 binnen dertig dagen te rekenen van de eerste hem gedane aanmaning, aan de schuldeisers [1 ...]1 te betekenen :
 1° De dagtekening van zijn titel, indien deze authentiek is, of die van de notariële akte of van het vonnis,
@@ -23252,19 +23256,19 @@ inschrijvingen, alsook de opgave van het boekdeel en het nummer van die inschrij
 van de schuldeisers; en de derde, het bedrag van de ingeschreven schuldvorderingen.
 (1)<W 2019-04-28/01, art. 50, 063; Inwerkingtreding : 16-05-2019>
 
-## Art. 111
+###### Art. 111
 
 De nieuwe eigenaar kan van het recht, hem bij het vorige artikel verleend, slechts gebruik maken
 onder voorwaarde dat hij de voorgeschreven kennisgeving doet binnen een jaar te rekenen van de overschrijving
 van de titel van verkrijging.
 
-## Art. 112
+###### Art. 112
 
 De in de vorige artikelen vermelde kennisgeving moet alleen gedaan worden aan de schuldeisers die
 vóór de overschrijving van de akte van verkrijging ingeschreven waren.
 Elke inschrijving, die na die overschrijving genomen wordt tegen de vorige eigenaars, blijft zonder werking.
 
-## Art. 113
+###### Art. 113
 
 De nieuwe eigenaar verklaart bij dezelfde akte, dat hij de hypothecaire schulden en lasten zal voldoen
 ten belope van de prijs of van de opgegeven waarde, zonder enige aftrek ten voordele van de verkoper of van
@@ -23276,7 +23280,7 @@ De niet vervallen schuldvorderingen die slechts voor een gedeelte batig zijn ger
 opeisbaar, ten belope van dit gedeelte ten aanzien van de nieuwe eigenaar, en voor het geheel ten aanzien van
 de schuldenaar.
 
-## Art. 114
+###### Art. 114
 
 Indien zich onder de schuldeisers een verkoper bevindt, die bevoorrecht is en die tevens een
 rechtsvordering tot ontbinding bezit, zal hij, te rekenen van de hem gedane kennisgeving, veertig dagen tijd
@@ -23291,7 +23295,7 @@ geschorst en zij kan pas worden hervat nadat de verkoper afstand heeft gedaan va
 ontbinding, of nadat deze vordering is afgewezen.
 De voorafgaande bepalingen zijn van toepassing op de ruiler en op de schenker.
 
-Art. 115.(2185). Wanneer de nieuwe eigenaar de bovenvermelde kennisgeving binnen de bepaalde tijd gedaan
+###### Art. 115.(2185). Wanneer de nieuwe eigenaar de bovenvermelde kennisgeving binnen de bepaalde tijd gedaan
 heeft, kan ieder schuldeiser wiens titel is ingeschreven, vorderen dat het onroerend goed in openbare veiling
 verkocht wordt, onder voorwaarde :
 1° Dat deze vordering door een (deurwaarder) aan de nieuwe eigenaar wordt betekend, uiterlijk binnen veertig
@@ -23312,7 +23316,7 @@ betekent van het bewijs van consignatie.
 Alles op straffe van nietigheid.
 (1)<W 2019-04-28/01, art. 51, 063; Inwerkingtreding : 16-05-2019>
 
-## Art. 116
+###### Art. 116
 
 (2186). Indien de schuldeisers de veiling niet hebben gevorderd in de voorgeschreven vorm en binnen
 de gestelde tijd, blijft de waarde van het onroerend goed onherroepelijk bepaald op de prijs die in het contract
@@ -23326,23 +23330,23 @@ te voldoen, hetzij door de prijs ten belope van de schuldvorderingen in consigna
 Hij blijft onderworpen aan de batig gerangschikte voorrechten en hypotheken, voor de niet opeisbare
 schuldvorderingen waarvan hij zich niet zou willen of kunnen bevrijden.
 
-Art. 117.(2187). In geval van herverkoop ten gevolge van hoger bod, geschiedt die herverkoop met
+###### Art. 117.(2187). In geval van herverkoop ten gevolge van hoger bod, geschiedt die herverkoop met
 inachtneming van de vormen die door het [1 Gerechtelijk Wetboek]1 zijn bepaald.
 (1)<W 2014-05-05/09, art. 9, 048; Inwerkingtreding : 18-07-2014>
 
-Art. 118.(2188). Hij aan wie het goed wordt toegewezen, is gehouden de toewijzingsprijs te voldoen en
+###### Art. 118.(2188). Hij aan wie het goed wordt toegewezen, is gehouden de toewijzingsprijs te voldoen en
 bovendien de verkrijger of de begiftigde; die het bezit verloren heeft, te vergoeden voor de wettig gemaakte
 kosten van zijn contract, voor die van de overschrijving op de registers van de [1 hypothecaire
 openbaarmaking]1, voor die van de kennisgeving en voor die welke door hem zijn gemaakt om de herverkoop te
 bekomen.
 (1)<W 2018-07-11/07, art. 26, 060; Inwerkingtreding : 30-07-2018>
 
-## Art. 119
+###### Art. 119
 
 (2189). De verkrijger of de begiftigde, die het geveilde onroerend goed als laatste bieder behoudt, is
 niet verplicht het vonnis van toewijzing te doen overschrijven.
 
-## Art. 120
+###### Art. 120
 
 (2190). De schuldeiser die de veiling heeft gevorderd en van zijn vordering afstand doet, kan, zelfs
 indien hij het bedrag van het bod betaalt, de openbare veiling niet beletten, tenzij al de overige hypothecaire
@@ -23350,13 +23354,13 @@ schuldeisers daarin uitdrukkelijk toestemmen, of tenzij dezen, na door een deurw
 binnen vijftien dagen de veiling te vervolgen, aan die aanmaning geen gevolg geven. In dit geval behoort het
 bedrag van het bod aan de schuldeisers, volgens de rang van hun schuldvorderingen.
 
-## Art. 121
+###### Art. 121
 
 (2191). De verkrijger aan wie het goed wordt toegewezen, kan het bedrag dat de bij zijn titel bedongen
 prijs te boven gaat, en de interest van dat bedrag te rekenen van de dag van elke betaling, op de verkoper
 verhalen als naar recht.
 
-## Art. 122
+###### Art. 122
 
 (2192). Ingeval de titel van de nieuwe eigenaar onroerende en roerende goederen omvat, of
 verscheidene onroerende goederen, de ene met hypotheek bezwaard en de andere niet, ongeacht of zij gelegen
@@ -23375,7 +23379,7 @@ hem verkregen goederen of door de splitsing van bedrijven.
 
 (1)<W 2015-12-18/12, art. 88, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 
-Art. 123.<W 1995-02-09/35, art. 3, 012; Inwerkingtreding : 01-01-2001> [1 Wanneer verscheidene openbaar
+###### Art. 123.<W 1995-02-09/35, art. 3, 012; Inwerkingtreding : 01-01-2001> [1 Wanneer verscheidene openbaar
 te maken titels dezelfde dag in het bij artikel 124, 1°, voorgeschreven register worden ingeschreven in uitvoering
 van artikel 135, wordt de voorrang bepaald naar de dagtekening van die titels. Voor de titels die dezelfde datum
 dragen, wordt de voorrang bepaald naar het volgnummer waaronder de aanbieding van de titels vermeld wordt
@@ -23383,7 +23387,7 @@ in het voormelde register.]1
 Het eerste lid is niet van toepassing op de schuldeisers bedoeld in artikel 81, tweede lid.
 (1)<W 2013-12-21/26, art. 69, 044; Inwerkingtreding : 01-04-2014>
 
-Art. 124.[1 [2 Ieder inzake hypothecaire openbaarmaking bevoegd kantoor van de Algemene Administratie van
+###### Art. 124.[1 [2 Ieder inzake hypothecaire openbaarmaking bevoegd kantoor van de Algemene Administratie van
 de Patrimoniumdocumentatie houdt]2 :
 1° een register van de neergelegde titels, waarin de aanbiedingen van de titels waarvan men de inschrijving of
 de overschrijving vordert, worden aangetekend onder een volgnummer en naarmate zij geschieden;
@@ -23393,7 +23397,7 @@ verminderingen worden opgenomen.]1
 (1)<W 2013-12-21/26, art. 70, 044; Inwerkingtreding : 01-04-2014>
 (2)<W 2018-07-11/07, art. 27, 060; Inwerkingtreding : 30-07-2018>
 
-Art. 125.[2 Ieder inzake hypothecaire openbaarmaking bevoegd kantoor van de Algemene Administratie van de
+###### Art. 125.[2 Ieder inzake hypothecaire openbaarmaking bevoegd kantoor van de Algemene Administratie van de
 Patrimoniumdocumentatie houdt]2 bovendien een register (...); daarin [2 vermeldt]2 zij bij uittreksel en naarmate
 de [1 aanbieding]1 van de akten geschiedt, onder de namen van ieder bezwaarde eigenaar, en in een voor hem
 bestemd vak, de inschrijvingen, doorhalingen en andere akten die hem aangaan. Zij [2 wijst]2 ook de registers
@@ -23401,7 +23405,7 @@ aan waarin elke akte is opgenomen, en het nummer waaronder zij is ingeschreven. 
 (1)<W 2013-12-21/26, art. 71, 044; Inwerkingtreding : 01-04-2014>
 (2)<W 2018-07-11/07, art. 28, 060; Inwerkingtreding : 30-07-2018>
 
-Art. 126.[1[2 De Algemene Administratie van de Patrimoniumdocumentatie geeft]2 aan de verzoeker
+###### Art. 126.[1[2 De Algemene Administratie van de Patrimoniumdocumentatie geeft]2 aan de verzoeker
 desgevraagd een bewijs van de aanbieding van de akten of borderellen die bestemd zijn om overgeschreven of
 ingeschreven te worden. Dit bewijs vermeldt het registernummer waaronder de aanbieding is ingeschreven.
 Zij [2 mag]2 de overschrijvingen en inschrijvingen in de daartoe bestemde registers niet doen dan onder de in
@@ -23413,7 +23417,7 @@ teruggestuurd aan de verzoeker.]1
 (1)<W 2013-12-21/26, art. 72, 044; Inwerkingtreding : 01-04-2014>
 (2)<W 2018-07-11/07, art. 29, 060; Inwerkingtreding : 30-07-2018>
 
-Art. 127.(2196). De [1 Algemene Administratie van de Patrimoniumdocumentatie is gehouden]1 zijn gehouden
+###### Art. 127.(2196). De [1 Algemene Administratie van de Patrimoniumdocumentatie is gehouden]1 zijn gehouden
 getuigschriften af te geven, waarbij worden vastgesteld de overgangen en de toekenningen van zakelijke
 rechten, alsook de huurcontracten, toegestaan door alle personen, aangewezen in de schriftelijke vorderingen
 welke hun te dien einde worden gedaan.
@@ -23427,7 +23431,7 @@ artikel [4 3.85]4, § 1, van het Burgerlijk Wetboek, en de wijzigingen ervan, in
 (3)<W 2018-07-11/07, art. 32, 060; Inwerkingtreding : 30-07-2018>
 (4)<W 2020-02-04/16, art. 13, 068; Inwerkingtreding : 01-09-2021>
 
-Art. 128.[1 In geen geval mag, op straffe van schadevergoeding aan de partijen, verzuimd worden om, in de
+###### Art. 128.[1 In geen geval mag, op straffe van schadevergoeding aan de partijen, verzuimd worden om, in de
 registers, de overschrijvingen te doen van akten die aan deze formaliteit zijn onderworpen, en de inschrijvingen
 die op het [2 bevoegde kantoor van de Algemene Administratie van de Patrimoniumdocumentatie]2 zijn
 gevorderd.
@@ -23438,7 +23442,7 @@ van aanduidingen in de aanvraag tot het bekomen van het getuigschrift [3 ...]3.]
 (2)<W 2018-07-11/07, art. 33, 060; Inwerkingtreding : 30-07-2018>
 (3)<W 2021-02-07/01, art. 33, 067; Inwerkingtreding : 01-03-2021>
 
-Art. 129.(2198). In geval van zuivering blijft het onroerend goed, ten opzichte waarvan de [1 Algemene
+###### Art. 129.(2198). In geval van zuivering blijft het onroerend goed, ten opzichte waarvan de [1 Algemene
 Administratie van de Patrimoniumdocumentatie in haar]1 getuigschriften een of meer ingeschreven rechten van
 hypotheek onvermeld mocht hebben gelaten, hiervan ontheven in de handen van de nieuwe bezitter, mits de
 aanvraag van het getuigschrift duidelijk de schuldenaar aanwijst ten laste van wie de inschrijvingen zijn genomen.
@@ -23447,28 +23451,28 @@ de veiling te vorderen en om zich te doen plaatsen in de rang die hun toekomt, z
 niet is bers geopende rangregeling niet is gesloten.
 (1)<W 2018-07-11/07, art. 34, 060; Inwerkingtreding : 30-07-2018>
 
-Art. 130.(2199). In geen geval mogen [1 de overschrijvingen of inschrijvingen, of de afgifte van getuigschriften
+###### Art. 130.(2199). In geen geval mogen [1 de overschrijvingen of inschrijvingen, of de afgifte van getuigschriften
 worden geweigerd of vertraagd,]1, op straffe van schadevergoeding aan de partijen; te dien einde worden, op
 aanvraag van de verzoekers, dadelijk processen-verbaal van de weigeringen of vertragingen opgemaakt, hetzij
 door een vrederechter, hetzij door een (gerechtsdeurwaarder) of een notaris. <W 05-07-1963, art. 48, § 4>
 (1)<W 2015-12-18/12, art. 90, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 
-Art. 131.(2201). Alle registers van de [1 hypothecaire openbaarmaking]1, uitgezonderd het in artikel 125
+###### Art. 131.(2201). Alle registers van de [1 hypothecaire openbaarmaking]1, uitgezonderd het in artikel 125
 vermelde, worden (...) genummerd en geparafeerd op elk blad, met vermelding van eerste en laatste, door (een
 van de rechters van de rechtbank in wier gebied het kantoor gevestigd is.) <KB 14-07-1933, enig art.> <RB 2606-1947, art. 81>
 Het register van de neergelegde titels wordt dagelijks afgesloten, zoals de registratieregisters.
 (1)<W 2018-07-11/07, art. 35, 060; Inwerkingtreding : 30-07-2018>
 
-Art. 132.(2202). De [2 Algemene Administratie van de Patrimoniumdocumentatie is]2 zijn gehouden zich in de
+###### Art. 132.(2202). De [2 Algemene Administratie van de Patrimoniumdocumentatie is]2 zijn gehouden zich in de
 uitoefening van hun ambt naar alle bepalingen van dit hoofdstuk te gedragen [1 ...]1.
 (1)<W 2015-12-18/12, art. 91, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 (2)<W 2018-07-11/07, art. 36, 060; Inwerkingtreding : 30-07-2018>
 
-Art. 133.(2203). De vermeldingen van neerleggingen, de inschrijvingen en de overschrijvingen worden achter
+###### Art. 133.(2203). De vermeldingen van neerleggingen, de inschrijvingen en de overschrijvingen worden achter
 elkaar in de registers gedaan, zonder enig wit vak of enige tussenregel [1 ...]1.
 (1)<W 2015-12-18/12, art. 92, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 
-## Art. 134.De
+###### Art. 134.De
 
 [2 Algemene Administratie van de Patrimoniumdocumentatie kan de vergissingen die zij]2 mocht
 hebben begaan [1 , herstellen zonder dat van de belanghebbende partijen een retributie wordt gevorderd,]1 door
@@ -23479,7 +23483,7 @@ voorafgegaan door een nota waarin de eerste overschrijving vermeld wordt.
 
 #### HOOFDSTUK X. _ <ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> Wijze van houden en bewaren van de hypothecaire bescheiden.
 
-Art. 135.<ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> In het register van de
+###### Art. 135.<ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> In het register van de
 neergelegde titels, waarvan het houden is voorgeschreven bij artikel 124, 1°, worden ingeschreven :
 1° [1 op de dag en in de volgorde van hun aanbieding]1 [2 ...]2, alle akten, vonnissen, borderellen en enig ander
 stuk aangeboden om overgeschreven, ingeschreven of eenvoudig vermeld te worden op de kant van de
@@ -23494,12 +23498,12 @@ aangeboden met het oog op doorhaling of vermindering.
 (1)<W 2013-12-21/26, art. 73, 044; Inwerkingtreding : 01-04-2014>
 (2)<W 2018-07-11/07, art. 38, 060; Inwerkingtreding : 30-07-2018>
 
-Art. 136.<Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> Van de inschrijvingen in
+###### Art. 136.<Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> Van de inschrijvingen in
 het register van de neergelegde titels wordt onverwijld, zo niet na afsluiting van het register zonder verplaatsing
 een kopie gemaakt door de [1 Algemene Administratie van de Patrimoniumdocumentatie]1.
 (1)<W 2018-07-11/07, art. 39, 060; Inwerkingtreding : 30-07-2018>
 
-Art. 137.<Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> De openbare en andere
+###### Art. 137.<Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> De openbare en andere
 ambtenaren maken een echt verklaarde kopie van iedere akte die in brevet of origineel wordt aangeboden met
 
 het oog op doorhaling, vermindering of kantmelding.
@@ -23507,7 +23511,7 @@ De kopie wordt overhandigd [1 ...]1 terzelfder tijd als de akte. Ze heeft dezelf
 geval van verlies of vernieling van deze laatste.
 (1)<W 2018-07-11/07, art. 40, 060; Inwerkingtreding : 30-07-2018>
 
-## Art. 138
+###### Art. 138
 
 <Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> De Minister van
 Financiën bepaalt de vorm van de kopieën bedoeld in de artikelen 136 en 137.
@@ -23517,7 +23521,7 @@ van Financiën.
 #### Hoofdstuk XI. - <Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> Vermelding van
 de partijen en van de onroerende goederen.
 
-Art. 139.<Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> § 1. (In iedere akte of
+###### Art. 139.<Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> § 1. (In iedere akte of
 ieder stuk waarvan de [2 hypothecaire openbaarmaking]2 vereist is, wordt iedere natuurlijke persoon op wiens
 naam de openbaarmaking moet geschieden vermeld met zijn naam, gevolgd door zijn voornamen, plaats en
 datum van geboorte en woonplaats. [1 De personen die beschikken over een rijksregisternummer of aan wie een
@@ -23551,7 +23555,7 @@ voorgeschreven bij dit artikel.
 (1)<W 2013-12-21/26, art. 39, 044; Inwerkingtreding : 10-01-2014>
 (2)<W 2018-07-11/07, art. 41, 060; Inwerkingtreding : 30-07-2018>
 
-Art. 140.<Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> In iedere akte of ieder
+###### Art. 140.<Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> In iedere akte of ieder
 stuk waarvan de [2 hypothecaire openbaarmaking]2 vereist is, moet iedere vennootschap, vereniging of andere
 privaatrechtelijke rechtspersoon op wiens naam de openbaarmaking moet geschieden vermeld worden met de
 benaming, rechtsvorm, datum van de oprichtingsakte en de zetel van de vennootschap of de statutaire zetel,
@@ -23563,7 +23567,7 @@ De Koning kan de in dit artikel genoemde identificatieregels aanvullen.
 (1)<W 2013-12-21/26, art. 40, 044; Inwerkingtreding : 10-01-2014>
 (2)<W 2018-07-11/07, art. 42, 060; Inwerkingtreding : 30-07-2018>
 
-Art. 141.<Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> De vermelding van de
+###### Art. 141.<Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> De vermelding van de
 onroerende goederen waarvoor een openbaar te maken akte of stuk is opgemaakt, bevat de volgende gegevens
 : geografische ligging (gemeente, straat of gehucht, politienummer), kadastrale beschrijving, zoals blijkt uit een
 uittreksel, minder dan een jaar oud, uit de kadastrale legger, aard en oppervlakte. Indien sedert de overschrijving
@@ -23577,7 +23581,7 @@ onroerende goederen vermeld en de laatst overgeschreven titel indien hij minder 
 De Koning kan de in dit artikel genoemde identificatieregels aanvullen.
 (1)<W 2020-02-04/16, art. 13, 068; Inwerkingtreding : 01-09-2021>
 
-Art. 142.<Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> [1 § 1.]1 De Koning
+###### Art. 142.<Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> [1 § 1.]1 De Koning
 bepaalt de wijze waarop in elke aanvraag om een getuigschrift, de natuurlijke en de rechtspersonen uit hoofde
 van wie inlichtingen worden gevraagd en de betrokken onroerende goederen, moeten worden vermeld.
 [1 § 2. Personen die gemachtigd zijn om een getuigschrift aan te vragen bij de Algemene Administratie van de
@@ -23587,7 +23591,7 @@ worden beoogd overeenkomstig artikel 5, § 1 van de wet van 8 augustus 1983 tot 
 van de natuurlijke personen.]1
 (1)<W 2019-05-05/19, art. 132, 064; Inwerkingtreding : 29-06-2019>
 
-Art. 143.<Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> De [2 Algemene
+###### Art. 143.<Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> De [2 Algemene
 Administratie van de Patrimoniumdocumentatie]2 mag weigeren het geheel van de formaliteit waarvan de
 openbaarmaking gevraagd is te vervullen of het gevraagde getuigschrift af te geven indien niet is voldaan aan het
 bepaalde in de artikelen 139 tot 142 [1 of aan de door de Koning, krachtens artikel 144, 1° en 2°, vastgestelde
@@ -23598,7 +23602,7 @@ vereisten]1 .
 #### Hoofdstuk XII. _ <Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> Materiële
 vormen van de formaliteiten van openbaarmaking en van de aanvragen.
 
-Art. 144.[1 De Koning kan :
+###### Art. 144.[1 De Koning kan :
 1° voor de door Hem aangewezen stukken of categorieën van stukken bestemd voor hypothecaire
 openbaarmaking :
 a) de vereisten vaststellen waaraan ze moeten voldoen, alsook de materiële vormen van de hypothecaire
@@ -23631,14 +23635,14 @@ bepalen.]1
 (1)<Ingevoegd bij W 2015-12-18/12, art. 94, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35,
 1°)>
 
-Art. 145.[1 De openbare dienst van de [2 hypothecaire openbaarmaking van akten en stukken]2 wordt
+###### Art. 145.[1 De openbare dienst van de [2 hypothecaire openbaarmaking van akten en stukken]2 wordt
 verzekerd door [2 de Algemene Administratie van de Patrimoniumdocumentatie van de Federale Overheidsdienst
 Financiën]2.]1
 (1)<Ingevoegd bij W 2015-12-18/12, art. 95, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35,
 1°)>
 (2)<W 2018-07-11/07, art. 45, 060; Inwerkingtreding : 30-07-2018>
 
-Art. 146.[1 Voor de uitvoering van de hypothecaire formaliteiten en voor de aflevering van de afschriften en
+###### Art. 146.[1 Voor de uitvoering van de hypothecaire formaliteiten en voor de aflevering van de afschriften en
 getuigschriften is een retributie verschuldigd aan de Staat.
 De Koning bepaalt het tarief van deze retributies en de nadere regels inzake toepassing ervan.]1
 (1)<Ingevoegd bij W 2015-12-18/12, art. 96, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35,
@@ -23647,11 +23651,11 @@ De Koning bepaalt het tarief van deze retributies en de nadere regels inzake toe
 30 APRIL 1951. - OUD BURGERLIJK WETBOEK. - BOEK III - TITEL VIII - HOOFDSTUK II, Afdeling 2bis : Regels
 betreffende de handelshuur in het bijzonder (Opschrift gewijzigd door W 2019-04-13/28, art. 2, 009;
 
-##### Afdeling IIbis. Regels betreffende de handelshuur in het bijzonder.
 
 § 1. Handelshuur.
 
-## Art. 1
+##### Afdeling IIbis. Regels betreffende de handelshuur in het bijzonder.
+###### Art. 1
 
 <W 29-06-1955, art. 1> De bepalingen van deze afdelingen zijn van toepassing op de huur van
 onroerende goederen of gedeelten van onroerende goederen die, hetzij uitdrukkelijk of stilzwijgend vanaf de
@@ -23659,7 +23663,7 @@ ingenottreding van de huurder, hetzij krachtens een uitdrukkelijke overeenkomst 
 huur, door de huurder of door een onderhuurder in hoofdzaak gebruikt worden voor het uitoefenen van een
 kleinhandel of voor het bedrijf van een ambachtsman die rechtstreeks in contact staat met het publiek.
 
-## Art. 1_WAALS_GEWEST
+###### Art. 1_WAALS_GEWEST
 
 [1 § 1.]1 De bepalingen van deze afdelingen zijn van toepassing op de huur van onroerende goederen of
 gedeelten van onroerende goederen die, hetzij uitdrukkelijk of stilzwijgend vanaf de ingenottreding van de
@@ -23673,7 +23677,7 @@ recht van 28 februari 2013.
 worden gehuurd, wordt als ongeschreven beschouwd.]1
 (1)<DWG 2018-07-17/04, art. 23, 007; Inwerkingtreding : 18-10-2018>
 
-## Art. 2
+###### Art. 2
 
 De bepalingen van deze afdeling zijn evenwel niet van toepassing :
 1° Op de huur die, wegens die aard of de bestemming van het goed of volgens de gebruiken, normaal wordt
@@ -23690,7 +23694,7 @@ kunnen toepassen); <W 22-12-1951, art. 1>
 5° (Op de huur van onroerende goederen, ten algemenen nutte onteigend of verkregen, die wordt toegestaan
 door het openbaar bestuur of door de instelling van openbaar nut.) <W 22-12-1951, art. 2>
 
-## Art. 2_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+###### Art. 2_BRUSSELS_HOOFDSTEDELIJK_GEWEST
 
 De bepalingen van deze afdeling zijn evenwel niet van toepassing :
 1° [1 Op de huur die schriftelijk is gesloten voor een termijn die gelijk is aan of korter is dan één jaar ;]1
@@ -23707,7 +23711,7 @@ kunnen toepassen); <W 22-12-1951, art. 1>
 door het openbaar bestuur of door de instelling van openbaar nut.) <W 22-12-1951, art. 2>
 (1)<ORD 2019-04-25/12, art. 18, 008; Inwerkingtreding : 19-05-2019>
 
-## Art. 2_WAALS_GEWEST
+###### Art. 2_WAALS_GEWEST
 
 De bepalingen van deze afdeling zijn evenwel niet van toepassing :
 1° [1 op de huur die schriftelijk is gesloten voor een duur die gelijk is aan of korter is dan één jaar;]1
@@ -23724,7 +23728,7 @@ kunnen toepassen); <W 22-12-1951, art. 1>
 door het openbaar bestuur of door de instelling van openbaar nut.) <W 22-12-1951, art. 2>
 (1)<DWG 2018-03-15/12, art. 12, 006; Inwerkingtreding : 01-05-2018>
 
-## Art. 2_VLAAMS_GEWEST
+###### Art. 2_VLAAMS_GEWEST
 
 De bepalingen van deze afdeling zijn evenwel niet van toepassing :
 1° [1 op de huur die schriftelijk is gesloten voor een termijn die gelijk is aan of korter is dan één jaar;]1
@@ -23743,7 +23747,7 @@ door het openbaar bestuur of door de instelling van openbaar nut.) <W 22-12-1951
 
 § 2. Duur van de handelshuur.
 
-## Art. 3
+###### Art. 3
 
 De duur van de huur mag niet korter zijn dan negen jaren.
 Deze bepaling geldt ook voor de onderhuur, die echter niet mag worden aangegaan voor langer dan de looptijd
@@ -23762,7 +23766,7 @@ aangenomen kinderen of door een personenvennootschap waarvan de werkende vennote
 ten minste drie vierden van het kapitaal bezitten, in dezelfde betrekking van bloedverwantschap,
 aanverwantschap of aanneming staan tot de verhuurder of tot zijn echtgenoot. <W 29-06-1955, art. 1>
 
-## Art. 3_WAALS_GEWEST
+###### Art. 3_WAALS_GEWEST
 
 De duur van de huur mag niet korter zijn dan negen jaren.
 Deze bepaling geldt ook voor de onderhuur, die echter niet mag worden aangegaan voor langer dan de looptijd
@@ -23782,7 +23786,7 @@ ten minste drie vierden van het kapitaal bezitten, in dezelfde betrekking van bl
 aanverwantschap of aanneming staan tot de verhuurder of tot zijn echtgenoot. <W 29-06-1955, art. 1>
 (1)<DWG 2018-03-15/12, art. 13, 006; Inwerkingtreding : 07-04-2018>
 
-## Art. 4
+###### Art. 4
 
 De wettelijke huurtijd is toepasselijk :
 1° Op de huur van de voor bewoning bestemde lokalen die deel uitmaken van het geheel dat de
@@ -23794,7 +23798,7 @@ Evenwel, indien de in de twee vorige paragrafen bedoelde lokalen in huur genomen
 huur der hoofdinrichting, kan de huurtijd ervan beperkt worden tot de nog te lopen termijn van de huur der
 hoofdinrichting.
 
-## Art. 5
+###### Art. 5
 
 Ieder huurder wiens huur eindigt, mag gedurende de zes maanden die volgen op zijn vertrek, aan de
 lokalen een duidelijk zichtbaar bericht aanbrengen, waarbij wordt opgegeven naar welke plaats hij zijn inrichting
@@ -23802,7 +23806,7 @@ heeft overgebracht.
 
 § 3. Herziening van de huur.
 
-## Art. 6
+###### Art. 6
 
 Bij het verstrijken van elke driejarige periode hebben partijen het recht aan de vrederechter herziening
 van de huurprijs te vragen, mits zij bewijzen dat de normale huurwaarde van het gehuurde goed ten gevolge van
@@ -23816,7 +23820,7 @@ de vroegere huurprijs kan voorlopig worden gevorderd tot op de dag der eindbesli
 
 § 4. Recht van de huurder om het gehuurde goed voor zijn bedrijf geschikt te maken.
 
-## Art. 7
+###### Art. 7
 
 De huurder heeft het recht aan het gehuurde goed elke verbouwing uit te voeren die dienstig is voor zijn
 onderneming en waarvan de kosten drie jaar huur niet te boven gaan, mits daardoor noch de veiligheid, noch de
@@ -23844,7 +23848,7 @@ minuut en vóór registratie.
 De verhuurder en de eigenaar hebben toegang tot de werken. Zij kunnen alle lasthebbers naar hun keus
 daarheen afvaardigen.
 
-## Art. 8
+###### Art. 8
 
 De uitvoering van de door de huurder ondernomen werken geschiedt op zijn risico.
 De verhuurder of de eigenaar kan, hetzij vóór, hetzij tijdens de uitvoering van de werken, eisen dat de huurder
@@ -23856,7 +23860,7 @@ werken te doen stopzetten ingevolge een eenvoudige beschikking van de vrederecht
 verzoekschrift en uitvoerbaar op de minuut en vóór registratie. Het verbod kan niet worden opgeheven tenzij het
 bewijs van de verzekering en van de betaling der premie wordt geleverd.
 
-## Art. 9
+###### Art. 9
 
 Wanneer verbouwingen zijn uitgevoerd op kosten van de huurder, met uitdrukkelijk of stilzwijgend
 akkoord van de verhuurder of krachtens een rechterlijke beslissing, kan de verhuurder, behoudens
@@ -23871,7 +23875,7 @@ behoudt, is hij geen vergoeding verschuldigd.
 
 § 5. Overdracht van huur en onderhuur.
 
-## Art. 10
+###### Art. 10
 
 Het verbod om de huur aan anderen over te dragen of om een onroerend goed of een gedeelte van
 een onroerend goed in onderhuur te geven, kan geen beletsel zijn voor een overdracht of een onderverhuring
@@ -23891,7 +23895,7 @@ verkregen, behoudens het geval van overlijden van de huurder of andere buitengew
 beoordeling van de rechter.
 De huurder kan tegen het verzet in rechte opkomen binnen vijftien dagen, op straffe van verval.
 
-## Art. 11
+###### Art. 11
 
 <W 29-06-1955, art. 1> I. Bij overdracht van de gezamenlijke rechten van de hoofdhuurder, wordt de
 overnemer rechtstreekse huurder van de verhuurder.
@@ -23915,7 +23919,7 @@ huurprijs betreft, het in artikel 19 bepaalde toe.
 III. De oorspronkelijke huurder blijft hoofdelijk gehouden tot alle uit de aanvankelijke huur voortvloeiende
 verplichtingen.
 
-## Art. 11bis
+###### Art. 11bis
 
 <ingevoegd bij W 1997-04-13/43, art. 14, van toepassing op de overeenkomsten die op 31 mei
 1995 lopen> Indien de huurovereenkomst het hem niet verbiedt, kan de huurder een gedeelte van het gehuurde
@@ -23930,7 +23934,7 @@ zijn voordeel inroepen tegenover de verhuurder.
 
 § 6. Overdracht van het gehuurde goed.
 
-## Art. 12
+###### Art. 12
 
 Zelfs wanneer het huurcontract het recht voorbehoudt om de huurder uit het goed te zetten in geval
 van vervreemding, mag hij die het verhuurde goed om niet of onder bezwarende titel verkrijgt, de huurder
@@ -23942,7 +23946,7 @@ huurder het verhuurde goed sinds ten minste zes maanden in gebruik heeft.
 
 § 7. Recht op hernieuwing van de huur.
 
-## Art. 13
+###### Art. 13
 
 (De huurder heeft het recht, bij voorkeur boven alle andere personen, de hernieuwing van zijn
 huurovereenkomst te verkrijgen om dezelfde handel voort te zetten, hetzij bij het verstrijken ervan, hetzij bij het
@@ -23952,7 +23956,7 @@ drie hernieuwingen.) <W 27-03-1970, art. 1>
 Is evenwel de verhuurder of een der verhuurders minderjarig op het ogenblik van de hernieuwing van de huur,
 dan kan de duur daarvan beperkt worden tot de tijd die nog moet lopen tot aan zijn meerderjarigheid.
 
-## Art. 13_WAALS_GEWEST
+###### Art. 13_WAALS_GEWEST
 
 (De huurder heeft het recht, bij voorkeur boven alle andere personen, de hernieuwing van zijn
 huurovereenkomst te verkrijgen om dezelfde handel voort te zetten, hetzij bij het verstrijken ervan, hetzij bij het
@@ -23963,7 +23967,7 @@ Is evenwel de verhuurder of een der verhuurders minderjarig op het ogenblik van 
 dan kan de duur daarvan beperkt worden tot de tijd die nog moet lopen tot aan zijn meerderjarigheid.
 (1)<DWG 2018-03-15/12, art. 14, 006; Inwerkingtreding : 07-04-2018>
 
-## Art. 14
+###### Art. 14
 
 De huurder die het recht op hernieuwing verlangt uit te oefenen, moet zulks of straffe van verval bij
 (exploot van gerechtsdeurwaarder) of bij aangetekende brief ter kennis van de verhuurder brengen, ten
@@ -23987,12 +23991,12 @@ huurder om hernieuwing te vragen.
 Vanaf de aanvang der achttiende maand vóór het eindigen van de lopende huur, moet de huurder,
 overeenkomstig de gebruiken, de mogelijke gegadigden toelaten tot het bezichtigen van het goed.
 
-## Art. 15
+###### Art. 15
 
 Het recht op hernieuwing is van toepassing op de huur van voor bewoning bestemde lokalen of op de
 huur van bijlokalen, onder de voorwaarden vastgesteld in artikel 4.
 
-## Art. 16.I
+###### Art. 16.I
 
 De verhuurder kan de hernieuwing van de huur weigeren om een van de volgende redenen :
 1° Zijn wil om persoonlijk en werkelijk het verhuurde goed in gebruik te nemen, of het op die wijze te doen in
@@ -24039,14 +24043,14 @@ een vergoeding wegens uitzetting uitkeert, gelijk aan drie jaar huur, eventueel 
 toereikend om de veroorzaakte schade geheel te vergoeden.
 (1)<W 2013-03-17/14, art. 147, 004; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 17
+###### Art. 17
 
 Is de verhuurder een kapitaalvennootschap, dan is de in artikel 16, 1°, bedoelde weigering van
 hernieuwing slechts geoorloofd ten einde de hoofdzetel van het bedrijf van de verhuurder naar het gehuurde
 goed over te brengen of ten einde die hoofdzetel van het bedrijf uit te breiden, indien hij in een naburig goed is
 gevestigd.
 
-## Art. 18
+###### Art. 18
 
 Indien uit het in artikel 14 bedoelde antwoord blijkt, dat de verhuurder de hernieuwing afhankelijk stelt
 van voorwaarden betreffende de huurprijs, de bijdrage in de lasten, de wijze van genot of andere modaliteiten
@@ -24054,7 +24058,7 @@ van de huur, en indien omtrent die voorwaarden onenigheid blijft bestaan, wendt 
 binnen dertig dagen na het antwoord van de verhuurder, op straffe van verval.
 De rechter doet uitspraak naar billijkheid.
 
-## Art. 19
+###### Art. 19
 
 Indien de onenigheid de door de verhuurder gevraagde huurprijs betreft, houdt de rechter onder meer
 rekening met de prijs die in de wijk, de agglomeratie of de streek gewoonlijk wordt gevraagd voor vergelijkbare
@@ -24064,13 +24068,13 @@ gedeeltelijke onderverhuring van de lokalen.
 Hij let niet op het gunstig of ongunstig rendement van de onderneming, dat uitsluitend aan de huurder is toe te
 schrijven.
 
-## Art. 20
+###### Art. 20
 
 De huur wordt hernieuwd tegen de prijs en de voorwaarden door de rechter vastgesteld. Indien geen
 beroep is ingesteld tegen het in eerste aanleg gewezen vonnis of indien de huurder, binnen vijftien dagen na de
 betekening van het in hoger beroep gewezen vonnis, van zijn vraag tot hernieuwing geen afstand heeft gedaan.
 
-## Art. 21
+###### Art. 21
 
 Wanneer de verhuurder zich beroept op het aanbod van een derde, wordt dit slechts in aanmerking
 genomen, indien het de verbintenis van de derde insluit om aan de huurder, die eventueel uit het goed zal
@@ -24087,7 +24091,7 @@ opbod de voorkeur gegeven boven alle anderen.
 Indien het geschil loopt over de andere voorwaarden van de huur, roept de rechter de huurder, de verhuurder
 en de derde die het aanbod heeft gedaan, op en beslist aan wie de voorkeur moet worden gegeven.
 
-## Art. 22
+###### Art. 22
 
 Indien de huurder de geldigheid of de oprechtheid van het aanbod van de derde betwist en de rechter
 dit aanbod ongeldig verklaart, wordt de huur hernieuwd tegen de prijs en onder de voorwaarden, vastgesteld
@@ -24095,14 +24099,14 @@ hetzij in onderlinge overeenstemming, hetzij door de rechter volgens de bepaling
 Indien evenwel het eerste aanbod ongeldig verklaard is op andere gronden dan onoprechtheid, kan de
 verhuurder zich, binnen een maand na de betekening van het vonnis, op een ander aanbod beroepen.
 
-## Art. 23
+###### Art. 23
 
 Indien de huurder weigert een aanbod te doen gelijk aan dat van de derde of verzuimt dat aanbod te
 doen binnen de termijn van dertig dagen en in de vorm bij het tweede lid van artikel 21 voorgeschreven, heeft de
 derde de voorkeur, behoudens het eventuele recht van de huurder op een vergoeding wegens uitzetting als
 bepaald in artikel 25.
 
-## Art. 24
+###### Art. 24
 
 Indien de rechter de weigering van de verhuurder om toe te stemmen in de hernieuwing van de huur
 ongegrond verklaart na het verstrijken van de bij artikel 14 bepaalde termijn van drie maanden, wordt de huur
@@ -24114,7 +24118,7 @@ rekenen van de betekening van het vonnis.
 
 § 8. Vergoeding wegens uitzetting.
 
-## Art. 25
+###### Art. 25
 
 Indien de huurder regelmatig zijn wil heeft te kennen gegeven om van zijn recht op hernieuwing gebruik
 te maken en het hem is geweigerd, heeft hij in de hierna bepaalde gevallen recht op een vergoeding, die,
@@ -24160,27 +24164,27 @@ bewijst dat hij de belangrijkheid van de handelszaak met ten minste 15 t.h. heef
 de rechter de vergoeding vast naar billijkheid, op grond van de waardevermeerdering die daaruit voor de
 verhuurder is ontstaan.
 
-## Art. 26
+###### Art. 26
 
 De verhuurder die, bij toepassing van artikel 3, vijfde lid, de huur vóór de vervaldag beëindigt, en de
 verkrijger die, overeenkomstig de in artikel 12 bepaalde voorwaarden, de huurder uit het goed zet, zijn eventueel
 een vergoeding wegens uitzetting verschuldigd, in de gevallen en volgens de modaliteiten van de artikelen 25 en
 27.
 
-## Art. 27
+###### Art. 27
 
 Zolang de afgaande huurder de vergoeding wegens uitzetting waarop hij recht heeft, of het gedeelte
 van die vergoeding dat niet ernstig betwist wordt, niet heeft ontvangen, kan hij het goed in gebruik houden
 totdat de vergoeding geheel betaald is, zonder enige huur verschuldigd te zijn.
 
-## Art. 28
+###### Art. 28
 
 De rechtsvorderingen tot betaling van de vergoeding wegens uitzetting moeten worden ingesteld
 binnen een jaar te rekenen van het feit waarop de vordering gegrond is.
 
 § 9. Rechtspleging.
 
-## Art. 29
+###### Art. 29
 
 De rechtsvorderingen op grond van deze afdeling ingesteld, evenals de daarom verknochte
 rechtsvorderingen die mochten ontstaan uit de huur van een handelszaak, behoren, niettegenstaande elke
@@ -24188,7 +24192,7 @@ andersluidende overeenkomst aangegaan vóór het ontstaan van het geschil, tot d
 vrederechter van de plaats waar het voornaamste onroerend goed gelegen is, of van de plaats van het goed met
 het hoogste kadastraal inkomen, wanneer het verscheidene afzonderlijke onroerende goederen betreft.
 
-## Art. 30
+###### Art. 30
 
 Alvorens op grond van deze afdeling een vordering in te stellen, kan de eiser, bij een verzoekschrift,
 door hem, door zijn raadsman of door zijn bijzonder gevolmachtigde ondertekend, de toekomstige verweerder
@@ -24202,7 +24206,7 @@ Het bovenbedoelde verzoekschrift heeft dezelfde gevolgen, wat de door de wet ges
 de dagvaarding, op voorwaarde dat deze wordt uitgebracht binnen dertig dagen na de dagtekening van het
 proces-verbaal waarbij wordt vastgesteld dat geen minnelijke schikking is tot stand gekomen.
 
-## Art. 31
+###### Art. 31
 
 Alle vonnissen, door de vrederechter gewezen bij toepassing van de bepalingen van deze afdeling, zijn
 vatbaar voor hoger beroep.
@@ -24210,23 +24214,23 @@ De vonnissen in de loop der instantie gewezen zijn uitvoerbaar bij voorraad, nie
 gerichte voorziening, met uitzondering van de vonnissen waarbij de hernieuwing van de huur wordt geweigerd of
 het bedrag van de vergoeding wegens uitzetting wordt vastgesteld.
 
-## Art. 32
+###### Art. 32
 
 (Opgeheven) <W 23-05-1973, art. 1>
 
-## Art. 33
+###### Art. 33
 
 <Overgangsbepaling>
 
-## Art. 34
+###### Art. 34
 
 <Overgangsbepaling>
 
-## Art. 35
+###### Art. 35
 
 <Overgangsbepaling>
 
-## Art. 36
+###### Art. 36
 
 <Overgangsbepaling>
 
@@ -24242,11 +24246,11 @@ overeenstemming omgezet worden in loopbaanpachten overeenkomstig artikel 14 van 
 van boek II, titel VIII, hoofdstuk II van het Burgerlijk Wetboek." <W 1988-11-07/43, art. 44, 1° en 2
 °, Inwerkingtreding : 1988-12-16>
 
-##### Afdeling 3. - Regels betreffende de pacht in het bijzonder.
 
 § 1. - Pacht.
 
-## Art. 1
+##### Afdeling 3. - Regels betreffende de pacht in het bijzonder.
+###### Art. 1
 
 <W 1988-11-07/43, art. 1, 002; Inwerkingtreding : 1988-12-16>
 De bepalingen van deze afdeling zijn van toepassing op :
@@ -24260,7 +24264,7 @@ vestiging van vruchtgebruik onder de levenden door de wil van de mens en voor be
 Op het aldus verleende recht zijn de bepalingen van boek II, titel III, van het Burgerlijk Wetboek niet van
 toepassing.
 
-## Art. 2
+###### Art. 2
 
 <W 1988-11-07/43, art. 2, 002; Inwerkingtreding : 1988-12-16>
 De bepalingen van deze afdeling zijn niet van toepassing :
@@ -24279,7 +24283,7 @@ investeringen die noodzakelijk zouden worden;
 ##### afdeling normaal van toepassing zouden zijn, maar die werd opgericht voor een duur van ten minste 27 jaar;
 6° op de overeenkomsten met betrekking tot de fruitopbrengst van de hoogstamboomgaarden.
 
-## Art. 2_WAALS_GEWEST
+###### Art. 2_WAALS_GEWEST
 
 <W 1988-11-07/43, art. 2, 002; Inwerkingtreding : 1988-12-16>
 De bepalingen van deze afdeling zijn niet van toepassing :
@@ -24301,7 +24305,7 @@ toepassing zouden zijn, maar die werd opgericht voor een duur van ten minste 27 
 (1)<DWG 2019-05-02/90, art. 1,1°, 011; Inwerkingtreding : 01-01-2020>
 (2)<DWG 2019-05-02/90, art. 1,2°, 011; Inwerkingtreding : 15-07-2019>
 
-## Art. 2_VLAAMS_GEWEST
+###### Art. 2_VLAAMS_GEWEST
 
 <W 1988-11-07/43, art. 2, 002; Inwerkingtreding : 1988-12-16>
 De bepalingen van deze afdeling zijn niet van toepassing :
@@ -24322,7 +24326,7 @@ toepassing zouden zijn, maar die werd opgericht voor een duur van ten minste 27 
 6° op de overeenkomsten met betrekking tot de fruitopbrengst van de hoogstamboomgaarden.
 (1)<DVR 2019-04-26/31, art. 27, 010; Inwerkingtreding : 01-01-2020>
 
-## Art. 2bis_WAALS_GEWEST
+###### Art. 2bis_WAALS_GEWEST
 
 [1 In de zin van deze afdeling wordt verstaan onder:
 1° de wettelijk samenwonenden: de wettelijk samenwonenden in de zin van artikel 1475 van het Burgerlijk
@@ -24344,7 +24348,7 @@ wordt;
 artikel 35 en die resulteert in een vernieuwing van de pacht.]1
 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 2, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 2ter_WAALS_GEWEST
+###### Art. 2ter_WAALS_GEWEST
 
 [1 Iedere zending krachtens één van de bepalingen van deze afdeling wordt geacht van een vaste datum
 voorzien te zijn wanneer de datum van ontvangst ervan bewezen kan worden en zij één van volgende vormen
@@ -24356,7 +24360,7 @@ aanneemt:
 De toezending moet uiterlijk op de vervaldag van de termijn geschieden.]1
 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 3, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 3
+###### Art. 3
 
 <W 1988-11-07/43, art. 3, 002; Inwerkingtreding : 1988-12-16>
 1° De pacht moet schriftelijk worden vastgesteld. Bij ontstentenis van een nauwkeurige datum voor de aanvang
@@ -24381,7 +24385,7 @@ bepalingen ter beperking van de pachtprijzen.
 bewijs leveren van het bestaan van een pacht en van de pachtvoorwaarden door alle middelen met inbegrip van
 getuigen en vermoedens.
 
-## Art. 3_WAALS_GEWEST
+###### Art. 3_WAALS_GEWEST
 
 [1 § 1. Iedere pacht, vallend onder deze afdeling, evenals de wijziging of uitdrukkelijke verlenging ervan, worden
 schriftelijk vastgesteld. Dit geschrift bevat, los van de andere modaliteiten:
@@ -24432,7 +24436,7 @@ getuigen en vermoedens.
 
 § 2. - Pachttijd.
 
-## Art. 4
+###### Art. 4
 
 De pachttijd wordt vastgesteld door de partijen; hij mag niet korter zijn dan negen jaar. Is een kortere tijd
 bedongen, dan wordt hij van rechtswege op negen jaar gebracht.
@@ -24440,7 +24444,7 @@ Bij gebreke van geldige opzegging wordt de pact van rechtswege verlengd voor ope
 negen jaar bij het eindigen van de gebruiksperiode, zelfs indien de huur van de eerste gebruiksperiode langer is
 geweest dan negen jaar.
 
-## Art. 4_WAALS_GEWEST
+###### Art. 4_WAALS_GEWEST
 
 De pachttijd wordt vastgesteld door de partijen; hij mag niet korter zijn dan negen jaar. Is een kortere tijd
 bedongen, dan wordt hij van rechtswege op negen jaar gebracht.
@@ -24454,7 +24458,7 @@ van artikel 43 wordt de pacht op dag van overlijden van de pachter of op een lat
 volledige oogst van de wassende vruchten door zijn erfgenamen of rechthebbenden mogelijk te maken.]1
 (1)<DWG 2019-05-02/90, art. 5, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 5
+###### Art. 5
 
 De bepalingen van artikel 4 zijn niet toepasselijk op overeenkomsten betreffende percelen, door de
 verpachter gevoegd bij grotere percelen of bij hoevegebouwen die hij ingevolge een vroegere overeenkomst aan
@@ -24463,7 +24467,7 @@ hoofdpacht eindigt.
 
 § 3. - Opzegging door de verpachter.
 
-## Art. 6
+###### Art. 6
 
 <W 1988-11-07/43, art. 4, 002; Inwerkingtreding : 1988-12-16>
 § 1. In afwijking van artikel 4, kan de verpachter op ieder ogenblik een einde maken aan de lopende pacht om de
@@ -24493,7 +24497,7 @@ onteigening ten algemenen nutte beveelt of toestaat.
 pacht om een aaneengesloten grond die aan zijn woonhuis aansluit en niet groter is dan 20 are, aan te wenden
 voor gezinsdoeleinden. In geval van geschil over de plaats van het bedoelde perceel beslist de rechter.
 
-## Art. 6_VLAAMS_GEWEST
+###### Art. 6_VLAAMS_GEWEST
 
 <W 1988-11-07/43, art. 4, 002; Inwerkingtreding : 1988-12-16>
 § 1. In afwijking van artikel 4, kan de verpachter op ieder ogenblik een einde maken aan de lopende pacht om de
@@ -24538,7 +24542,7 @@ lopende pachtovereenkomst in de rechten en de plichten van de verpachter.]1
 (1)<DVR 2009-05-08/15, art. 66, 006; Inwerkingtreding : 06-09-2011>
 (3)<DVR 2016-03-25/25, art. 39, 008; Inwerkingtreding : 01-01-2017 (BVR 2016-10-28/24)>
 
-## Art. 6_WAALSE_GEWEST
+###### Art. 6_WAALSE_GEWEST
 
 <W 1988-11-07/43, art. 4, 002; Inwerkingtreding : 1988-12-16>
 § 1. In afwijking van artikel 4, kan de verpachter op ieder ogenblik een einde maken aan de lopende pacht om de
@@ -24596,7 +24600,7 @@ Het voorkooprecht van de pachter bepaald in artikel 47 is van toepassing.]3
 (3)<DWG 2019-05-02/90, art. 6, 011; Inwerkingtreding : 01-01-2020>
 (4)<DWG 2024-03-14/32, art. 3, 014; Inwerkingtreding : 01-07-2024>
 
-## Art. 7
+###### Art. 7
 
 <W 1988-11-07/43, art. 5, 002; Inwerkingtreding : 1988-12-16>
 De verpachter kan bij het verstrijken van elke pachtperiode een einde maken aan de pacht, indien hij van een
@@ -24634,7 +24638,7 @@ publiekrechtelijke rechtspersoon;
 10° de aanwending van percelen als bouwgronden of als gronden voor industriële doeleinden bestemd, mits zij
 wegens hun ligging op het ogenblik van de opzegging als zodanig moeten worden beschouwd.
 
-## Art. 7_WAALS_GEWEST
+###### Art. 7_WAALS_GEWEST
 
 <W 1988-11-07/43, art. 5, 002; Inwerkingtreding : 1988-12-16>
 De verpachter kan bij het verstrijken van elke pachtperiode een einde maken aan de pacht, indien hij van een
@@ -24675,7 +24679,7 @@ publiekrechtelijke rechtspersoon;
 wegens hun ligging op het ogenblik van de opzegging als zodanig moeten worden beschouwd.
 (1)<DWG 2019-05-02/90, art. 7, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 8
+###### Art. 8
 
 <W 1988-11-07/43, art. 6, 002; Inwerkingtreding : 1988-12-16>
 § 1. Gedurende elk van de opeenvolgende pachtperiodes, met uitsluiting van de eerste en de tweede, kan de
@@ -24710,7 +24714,7 @@ loopbaanpacht stilzwijgend verlengd van jaar tot jaar.
 Onder voorbehoud van de vorige leden zijn de bepalingen van deze wet volledig van toepassing op de
 loopbaanpacht.
 
-## Art. 8_WAALS_GEWEST
+###### Art. 8_WAALS_GEWEST
 
 [1 § 1. Te rekenen van de derde pachtperiode kan de verpachter, in afwijking van artikel 4 de pacht beëindigen
 mits een opzegging overeenkomstig artikel 11.3 gegeven, om zelf het verpachte goed geheel te exploiteren of de
@@ -24806,7 +24810,7 @@ afwijking van artikel 43 wordt de pacht opgezegd op de dag van het overlijden va
 datum zodat de groeiende oogst volledig weggehaald kan worden door zijn erfgenamen of rechthebbenden.]1
 (1)<DWG 2019-05-02/90, art. 8, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 8BIS
+###### Art. 8BIS
 
 <W 1988-11-07/43, art. 7, 002; Inwerkingtreding : 1988-12-16>
 Indien de pachter die na het bereiken van de pensioenleeftijd een rust- of overlevingspensioen geniet, onder de
@@ -24829,7 +24833,7 @@ De bepalingen van artikel 10, 12, met uitzondering van het 2, het 5 en het 7, en
 van overeenkomstige toepassing op deze opzegging. In geval van toepassing van het derde lid van dit artikel is
 artikel 12, 1°, tweede lid, niet van toepassing.
 
-## Art. 8bis_WAALS_GEWEST
+###### Art. 8bis_WAALS_GEWEST
 
 <W 1988-11-07/43, art. 7, 002; Inwerkingtreding : 1988-12-16>
 [1 Indien de pachter die na het bereiken van de pensioenleeftijd een rust- of overlevingspensioen geniet, onder
@@ -24865,7 +24869,7 @@ te baten om de pacht te beëindigen. De pacht wordt beëindigd middels een opzeg
 artikel 11.4]1
 (1)<DWG 2019-05-02/90, art. 9, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 9
+###### Art. 9
 
 <W 1988-11-07/43, art. 8, 002; Inwerkingtreding : 1988-12-16>
 De exploitatie van het goed dat van de pachter is teruggenomen op grond van bij artikelen 7, 1°, en 8, bepaalde
@@ -24892,7 +24896,7 @@ eenpersoonsvennootschap met beperkte aansprakelijkheid. Daarenboven moeten degen
 zaakvoerder de leiding hebben van de activiteit die in de vennootschap wordt gevoerd, daadwerkelijke arbeid
 verrichten op het landbouwbedrijf.
 
-## Art. 9_WAALS_GEWEST
+###### Art. 9_WAALS_GEWEST
 
 <W 1988-11-07/43, art. 8, 002; Inwerkingtreding : 1988-12-16>
 De exploitatie van het goed dat van de pachter is teruggenomen op grond van bij artikelen 7, 1°, en 8, bepaalde
@@ -24923,7 +24927,7 @@ gevoerd, daadwerkelijke arbeid verrichten op het landbouwbedrijf.
 (1)<DWG 2019-05-02/90, art. 10,1°, 011; Inwerkingtreding : 01-01-2020>
 (2)<DWG 2019-05-02/90, art. 10,2°, 011; Inwerkingtreding : 15-07-2019>
 
-## Art. 9_VLAAMS_GEWEST
+###### Art. 9_VLAAMS_GEWEST
 
 <W 1988-11-07/43, art. 8, 002; Inwerkingtreding : 1988-12-16>
 De exploitatie van het goed dat van de pachter is teruggenomen op grond van bij artikelen 7, 1°, en 8, bepaalde
@@ -24950,7 +24954,7 @@ bestuurder of zaakvoerder de leiding hebben van de activiteit die in de vennoots
 daadwerkelijke arbeid verrichten op het landbouwbedrijf.
 (1)<DVR 2019-04-26/31, art. 28, 010; Inwerkingtreding : 01-01-2020>
 
-## Art. 10
+###### Art. 10
 
 <W 1988-11-07/43, art. 9, 002; Inwerkingtreding : 1988-12-16>
 Geen persoonlijke exploitatie is de aanplanting van het pachtgoed door de genothebbers van de terugneming
@@ -24966,7 +24970,7 @@ Geen persoonlijke exploitatie is de verkoop van gras of van te velde staande oog
 de terugneming gedurende negen jaar na het vertrek van de pachter niet voor het gewone teelt- en
 onderhoudswerk zorgen, noch het in bewaring nemen van dieren gedurende dezelfde periode van negen jaar.
 
-## Art. 10_WAALS_GEWEST
+###### Art. 10_WAALS_GEWEST
 
 <W 1988-11-07/43, art. 9, 002; Inwerkingtreding : 1988-12-16>
 Geen persoonlijke exploitatie is de aanplanting van het pachtgoed door de genothebbers van de terugneming
@@ -24983,7 +24987,7 @@ de terugneming gedurende negen jaar na het vertrek van de pachter niet voor het 
 onderhoudswerk zorgen, noch het in bewaring nemen van dieren gedurende dezelfde periode van negen jaar.
 (1)<DWG 2019-05-02/90, art. 11, 011; Inwerkingtreding : 21-05-2021>
 
-## Art. 10bis_WAALS_GEWEST
+###### Art. 10bis_WAALS_GEWEST
 
 [1 Voor de toepassing van deze afdeling wordt de exploitatie als vennoot zaakvoerder van een VOFLO, als
 commanditaire vennoot van een CommVLO, als bestuurder van een BVLO of als bestuurder van een CVLO
@@ -24997,7 +25001,7 @@ als naar gelang het geval het statuut bezitten van vennoot-zaakvoerder, commandi
 de vennootschap.]1
 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 12, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 11
+###### Art. 11
 
 <W 1988-11-07/43, art. 10, 002; Inwerkingtreding : 1988-12-16>
 1. In gevallen als bedoeld in de artikelen 6 en 7, 9° en 10°, kan aan de pachter slechts opzegging worden
@@ -25010,7 +25014,7 @@ opzeggingstermijn van ten minste drie jaar en ten hoogste vier jaar.
 4. In het geval als bedoeld in artikel 8bis, kan aan de pachter slechts opzegging worden gedaan met een
 opzeggingstermijn van ten minste een jaar en ten hoogste vier jaar.
 
-## Art. 11_WAALS_GEWEST
+###### Art. 11_WAALS_GEWEST
 
 <W 1988-11-07/43, art. 10, 002; Inwerkingtreding : 1988-12-16>
 1. In gevallen als bedoeld in de artikelen 6 en 7, 9° en 10°, kan aan de pachter slechts opzegging worden
@@ -25031,7 +25035,7 @@ opzeggingstermijn van ten minste een jaar en ten hoogste vier jaar.
 een opzegging van zes maanden om de pachter zijn wassende vruchten te laten weghalen.]1
 (1)<DWG 2019-05-02/90, art. 13, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 11bis
+###### Art. 11bis
 
 <W 23-11-1978, art. 1> Onverminderd de bepalingen van artikel 14 kan degene die door ruil
 eigenaar-verpachter is geworden, geen opzegging doen om zelf het verpachte goed te exploiteren of de
@@ -25040,7 +25044,7 @@ van zijn echtgenoot, tijdens de pachtperiode die loopt op het ogenblik van het v
 In de daaropvolgende periode kan hij slechts opzegging doen met een opzeggingstermijn van ten minste zes
 jaar. De artikelen 7, 1°, en 8 zijn van overeenkomstige toepassing op deze opzegging.
 
-## Art. 11bis_WAALS_GEWEST
+###### Art. 11bis_WAALS_GEWEST
 
 <W 23-11-1978, art. 1> Onverminderd de bepalingen van artikel 14 kan degene die door ruil eigenaarverpachter is geworden, geen opzegging doen om zelf het verpachte goed te exploiteren of de exploitatie ervan
 over te dragen aan zijn echtgenoot [1 , aan zijn wettelijk samenwonende]1, aan zijn afstammelingen of
@@ -25050,7 +25054,7 @@ opzegging doen met een opzeggingstermijn van ten minste zes jaar. De artikelen 7
 overeenkomstige toepassing op deze opzegging.
 (1)<DWG 2019-05-02/90, art. 14, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 12
+###### Art. 12
 
 <W 1988-11-07/43, art. 11, 002; Inwerkingtreding : 1988-12-16>
 1. Op straffe van nietigheid moeten in de opzegging duidelijk de juiste reden of redenen opgegeven worden
@@ -25117,7 +25121,7 @@ verricht.
 9. De opzegging die door de rechter geldig is verklaard of waarin de pachter schriftelijk heeft berust, wordt als
 niet bestaande beschouwd, indien de pachter in het bezit van het gepachte goed blijft en wordt gelaten.
 
-## Art. 12_WAALS_GEWEST
+###### Art. 12_WAALS_GEWEST
 
 [1 § 1. Op straffe van nietigheid wordt de opzegging, uitgezonderd de opzegging bedoeld in artikel 11, 3/1,
 overgemaakt met inachtneming van de vorm bedoeld in artikel 57 en met duidelijke opgave van:
@@ -25205,7 +25209,7 @@ verricht.
 als niet bestaande beschouwd, indien de pachter in het bezit van het gepachte goed blijft en wordt gelaten.]1
 (1)<DWG 2019-05-02/90, art. 15, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 12_VLAAMS_GEWEST
+###### Art. 12_VLAAMS_GEWEST
 
 <W 1988-11-07/43, art. 11, 002; Inwerkingtreding : 1988-12-16>
 1. Op straffe van nietigheid moeten in de opzegging duidelijk de juiste reden of redenen opgegeven worden
@@ -25274,7 +25278,7 @@ verricht.
 niet bestaande beschouwd, indien de pachter in het bezit van het gepachte goed blijft en wordt gelaten.
 (1)<DVR 2017-06-30/08, art. 11, 009; Inwerkingtreding : 01-01-2017>
 
-## Art. 13
+###### Art. 13
 
 <W 1988-11-07/43, art. 12, 002; Inwerkingtreding : 1988-12-16>
 1. De pachter die het pachtgoed ontruimd heeft ingevolge een opzegging voor persoonlijke exploitatie, heeft
@@ -25298,7 +25302,7 @@ de beëindiging.
 
 § 4. - Opzegging door de pachter en beëindiging in onderlinge overeenstemming.
 
-## Art. 14
+###### Art. 14
 
 Ongeacht de duur van de pacht en ondanks elke andersluidende overeenkomst, kan de pachter te allen
 tijde een einde aan de pacht maken ingevolge een opzegging met een opzeggingstermijn van ten minste een jaar.
@@ -25307,7 +25311,7 @@ authentieke akte of bij een verklaring voor de vrederechter afgelegd op diens on
 
 § 5. - Vergissingen inzake oppervlakte en gevallen van bezitsaanmatiging.
 
-## Art. 15
+###### Art. 15
 
 Indien in een pachtovereenkomst aan het gepachte goed een kleinere of een grotere omvang wordt
 toegeschreven dan het werkelijk heeft, wordt de pachtprijs evenredig vermeerderd of verminderd, te rekenen
@@ -25317,7 +25321,7 @@ vordering tot ontbinding van de pachtovereenkomst zijn alleen dan ontvankelijk, 
 werkelijke en de in de overeenkomst vermelde omvang ten minste een twintigste bedraagt.
 De vordering is ontvankelijk gedurende de gehele pachttijd.
 
-## Art. 16
+###### Art. 16
 
 De pachter van een landeigendom is, op straffe van betaling van alle kosten en schadevergoeding,
 gehouden de eigenaar te verwittigen van de daden van bezitsaanmatiging, die op het erf mochten worden
@@ -25327,7 +25331,7 @@ naar de afstand van de plaatsen.
 
 § 6. - Pachtprijs en andere geldelijke lasten.
 
-## Art. 17
+###### Art. 17
 
 1. Bij het verstrijken van elke driejarige periode kunnen pachter en verpachter beiden bij de
 vrederechter herziening vorderen van de schriftelijk bedongen of door de vrederechter vastgestelde pachtprijs,
@@ -25343,7 +25347,7 @@ minste 10 pct. hoger of lager ligt dan de normale pachtprijs, geraamd op grond v
 De beslissing waarbij de pachtprijs wordt herzien zal gelden voor de lopende driejarige periode, maar de vroegere
 pachtprijs kan voorlopig worden gevorderd tot de eindbeslissing.
 
-## Art. 17_WAALS_GEWEST
+###### Art. 17_WAALS_GEWEST
 
 1. Bij het verstrijken van elke driejarige periode kunnen pachter en verpachter beiden bij de vrederechter
 herziening vorderen van de schriftelijk bedongen [1 ...]1 pachtprijs, op grond van de rentabiliteit van het
@@ -25360,7 +25364,7 @@ De beslissing waarbij de pachtprijs wordt herzien zal gelden voor de lopende dri
 pachtprijs kan voorlopig worden gevorderd tot de eindbeslissing.
 (1)<DWG 2019-05-02/90, art. 16, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 18
+###### Art. 18
 
 1. De Staat, de provincies, de gemeenten en de openbare instellingen verpachten hun
 landeigendommen bij wijze van inschrijving onder verzegelde en ter post aangetekende omslag. De inschrijvingen
@@ -25379,7 +25383,7 @@ normen, ingeval verscheidene inschrijvingen de maximum toelaatbare prijs bereike
 4. Indien goederen worden verpacht die werden onteigend of verkregen ten algemenen nutte, geniet de
 vroegere pachter een voorkeurrecht tegen de normale pachtprijs.
 
-## Art. 18_WAALS_GEWEST
+###### Art. 18_WAALS_GEWEST
 
 [1 § 1. De Staat, de Gewesten, de Gemeenschappen, de provincies, de gemeenten en iedere andere
 publiekrechtelijke rechtspersoon, hierna " de openbare eigenaar " genoemd, verpachten hun landeigendommen
@@ -25419,7 +25423,7 @@ voorkomend geval vermeerderd overeenkomstig het decreet van 20 oktober 2016 tot 
 pachtprijzen.]1
 (1)<DWG 2019-05-02/90, art. 17, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 19
+###### Art. 19
 
 Ongeacht de bedingen van de pachtovereenkomst, kan de pachter de pachtprijs altijd in geld voldoen.
 Indien de pachtprijs geheel of gedeeltelijk in landbouwprodukten bedongen wordt, mag zulks alleen geschieden
@@ -25439,7 +25443,7 @@ van de partijen de zaak bij hem aanhanging maakt, de overeenkomst aan die voorsc
 bedoelingen van de partijen zoveel mogelijk eerbiedigt. De beslissing van de rechter geldt slechts voor de
 pachtsommen die na het instellen van de vordering vervallen.
 
-## Art. 19_WAALS_GEWEST
+###### Art. 19_WAALS_GEWEST
 
 Ongeacht de bedingen van de pachtovereenkomst, kan de pachter de pachtprijs altijd in geld voldoen.
 Indien de pachtprijs geheel of gedeeltelijk in landbouwprodukten bedongen wordt, mag zulks alleen geschieden
@@ -25460,7 +25464,7 @@ bedoelingen van de partijen zoveel mogelijk eerbiedigt. De beslissing van de rec
 pachtsommen die na het instellen van de vordering vervallen.
 (1)<DWG 2019-05-02/90, art. 18, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 20
+###### Art. 20
 
 Voor niet-bestaande worden gehouden alle bedingen waarbij de pachter verplicht wordt tot het dragen
 van belastingen, taksen of onverschillig welke andere lasten die door de verpachter verschuldigd zijn, hetzij
@@ -25469,20 +25473,20 @@ ruimen van de grachten en van de niet-bevaarbare waterlopen die zich op of langs
 en van belastingverhoging wegens gebouwen, werken of aanplantingen die de pachter zelf op het gepachte goed
 heeft aangebracht.
 
-## Art. 21
+###### Art. 21
 
 Indien gedurende de pachttijd ten minste de helft van een oogst door toeval verloren gaat, voordat hij
 van de grond is afgescheiden, kan de pachter vermindering van de pachtprijs vorderen, tenzij hij schadeloos
 gesteld is.
 
-## Art. 22
+###### Art. 22
 
 De gevolgen van het gewone toeval, zoals hagel, bliksem of vorst, kunnen door een uitdrukkelijk beding
 ten laste van de pachter gebracht worden.
 De gevolgen van het buitengewone toeval, zoals de verwoestingen van de oorlog of een overstroming waaraan
 de streek niet gewoonlijk onderworpen is, kunnen niet te zijnen laste gebracht worden.
 
-## Art. 23
+###### Art. 23
 
 Behoudens in het geval voorzien bij lid 3 is de verpachter of zijn gemachtigde verplicht aan de pachter
 een kwijtschrift af te geven voor de ontvangen pachtprijs en er de werkelijk betaalde som op te vermelden.
@@ -25496,7 +25500,7 @@ voor de vrederechter brengt.) <W 1988-11-07/43, art. 13, 002; Inwerkingtreding :
 
 § 7. - Exploitatie van het gepachte goed.
 
-## Art. 24
+###### Art. 24
 
 <W 1988-11-07/43, art. 14, 002; Inwerkingtreding : 1988-12-16>
 Alle bedingen die de vrijheid van de pachter omtrent de wijze van bebouwing van de gepachte grond of omtrent
@@ -25516,7 +25520,7 @@ Deze machtiging kan afhankelijk gemaakt worden van het betalen van een vergoedin
 schade.
 De vrederechter kan echter geen machtiging geven om de bestemming van het gepachte goed te wijzigen.
 
-## Art. 24_WAALS_GEWEST
+###### Art. 24_WAALS_GEWEST
 
 <W 1988-11-07/43, art. 14, 002; Inwerkingtreding : 1988-12-16>
 [1 § 1.]1 Alle bedingen die de vrijheid van de pachter omtrent de wijze van bebouwing van de gepachte grond of
@@ -25572,7 +25576,7 @@ pachter zich tegen het hernemen of het opzeggen van de pachtovereenkomst verzett
 van nietigheid, uiterlijk drie maanden na afloop van de zes maanden opzegtijd tot de vrederechter te wenden.]1
 (1)<DWG 2019-05-02/90, art. 19, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 25
+###### Art. 25
 
 <W 1988-11-07/43, art. 15, 002; Inwerkingtreding : 1988-12-16>
 § 1. Onverminderd het bepaalde in de artikelen 1722 en 1724 van het Burgerlijk Wetboek, heeft de pachter,
@@ -25589,7 +25593,7 @@ gevolgd vooraleer de pachter tot wegruiming ervan mag overgaan.
 De pachter moet het goed in zijn oorspronkelijke toestand herstellen en de eventueel aangerichte schade
 vergoeden.
 
-## Art. 26
+###### Art. 26
 
 (1. Bij het verstrijken van de pacht heeft de pachter die de kosten van de gebouwen en werken heeft
 gedragen, recht op een vergoeding die gelijk is aan de waardevermeerdering welke het goed daardoor heeft
@@ -25638,7 +25642,7 @@ De afstand van het recht tot wegruimen in het vorig artikel bepaald, of van de v
 kan slechts geschieden na de uitvoering van de werken en moet worden vastgesteld bij authentieke akte of bij
 verklaring voor de vrederechter.) <W 1988-11-07/43, art. 16, B, 002; Inwerkingtreding : 1988-12-16>
 
-## Art. 26_WAALS_GEWEST
+###### Art. 26_WAALS_GEWEST
 
 (1. Bij het verstrijken van de pacht heeft de pachter die de kosten van de gebouwen en werken heeft
 gedragen, recht op een vergoeding die gelijk is aan de waardevermeerdering welke het goed daardoor heeft
@@ -25690,13 +25694,13 @@ verklaring voor de vrederechter.) <W 1988-11-07/43, art. 16, B, 002; Inwerkingtr
 
 (1)<DWG 2019-05-02/90, art. 20, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 27
+###### Art. 27
 
 Indien de verpachter de kosten draagt van de gebouwen en werken die met toestemming van de
 pachter zijn uitgevoerd, kan de pachtprijs zodanig worden verhoogd als door partijen wordt overeengekomen of
 door de rechter wordt bepaald.
 
-## Art. 28.De
+###### Art. 28.De
 
 verpachter mag geen bomen planten tenzij voor het vervangen van hoog- of laagstammige
 fruitbomen, voor het vervangen van bosbomen in de weiden en voor de aanplantingen die noodzakelijk zijn voor
@@ -25719,7 +25723,7 @@ had.
 Heeft zulk een aanplanting geleid tot een waardevermindering van het gepachte goed, dan heeft de verpachter
 recht op een vergoeding van de pachter, gelijk aan die waardevermindering.
 
-## Art. 28_WAALS_GEWEST
+###### Art. 28_WAALS_GEWEST
 
 De verpachter mag geen bomen planten tenzij voor het vervangen van hoog- of laagstammige fruitbomen, [1
 voor het vervangen van dode hagen]1 voor het vervangen van bosbomen in de weiden en voor de aanplantingen
@@ -25743,7 +25747,7 @@ Heeft zulk een aanplanting geleid tot een waardevermindering van het gepachte go
 recht op een vergoeding van de pachter, gelijk aan die waardevermindering.
 (1)<DWG 2019-05-02/90, art. 21, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 29
+###### Art. 29
 
 Indien de pachter van een landeigendom dit niet voorziet van de dieren en het gereedschap nodig voor
 het bedrijf, indien hij met de bebouwing ophoudt, indien hij bij de bebouwing niet als een goed huisvader handelt,
@@ -25753,7 +25757,7 @@ deze, naar gelang van de omstandigheden, de pachtovereenkomst doen ontbinden.
 In geval van ontbinding door de schuld van de pachter, is deze gehouden tot schadevergoeding.
 Het strafbeding en de uitdrukkelijk ontbindende voorwaarde zijn zonder waarde.
 
-## Art. 29bis
+###### Art. 29bis
 
 <W 1988-11-07/43, art. 17, 002; Inwerkingtreding : 1988-12-16>
 Naarmate de oogst wordt ingehaald, is de pachter gehouden om aan zijn opvolger op het bedrijf alle nodige
@@ -25762,7 +25766,7 @@ plaatselijke gebruiken.
 
 § 8. - Onderpacht en pachtoverdracht.
 
-## Art. 30
+###### Art. 30
 
 <W 1988-11-07/43, art. 18, 002; Inwerkingtreding : 1988-12-16>
 In afwijking van artikel 1717 van het Burgerlijk Wetboek en onder voorbehoud van het hierna bepaalde mag de
@@ -25776,7 +25780,7 @@ ook voor de gemeenschappelijke exploitatie van een landeigendom die in pacht geg
 medeëxploitanten, op voorwaarde dat deze laatste alleen houder van de pacht blijft en hij als hoofdbedrijf actief
 aan de exploitatie deelneemt.
 
-## Art. 30_WAALS_GEWEST
+###### Art. 30_WAALS_GEWEST
 
 [1 § 1. In afwijking van artikel 1717 van het Burgerlijk Wetboek geeft de pachter van landeigendommen noch het
 gepachte goed geheel of ten dele in onderpacht, noch draagt hij zijn pacht geheel of ten dele aan anderen over
@@ -25812,7 +25816,7 @@ De ruil wordt door de vrederechter vernietigd indien hij acht dat de redenen van
 verzoek van de verpachter worden ontbonden.]1
 (1)<DWG 2019-05-02/90, art. 22, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 30bis_WAALS_GEWEST
+###### Art. 30bis_WAALS_GEWEST
 
 [1 De procedure als bedoeld in artikel 30, § 2, is mutatis mutandis van toepassing bij verandering van
 verpachter. Wanneer de verandering van verpachter het gevolg is van een overlijden, delen de erfgenamen of
@@ -25820,14 +25824,14 @@ rechtverkrijgenden, afwijkend van artikel 30, § 2, drie maanden na dat overlijd
 mede.]1
 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 23, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 31
+###### Art. 31
 
 De pachter kan, zonder toestemming van de verpachter, het gehele pachtgoed in onderpacht geven
 aan zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot (evenals aan de echtgenoten
 van de voormelde afstammelingen of aangenomen kinderen.) <W 1988-11-07/43, art. 19, 002; Inwerkingtreding
 : 1988-12-16>
 
-## Art. 31_WAALS_GEWEST
+###### Art. 31_WAALS_GEWEST
 
 De pachter kan, zonder toestemming van de verpachter, het gehele pachtgoed in onderpacht geven aan zijn
 afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot [1 , zijn wettelijk samenwonende]1
@@ -25837,14 +25841,14 @@ aangenomen kinderen.) <W 1988-11-07/43, art. 19, 002; Inwerkingtreding : 1988-12
 maanden na de onderverpachting zoals bepaald in lid 1, over in.]1
 (1)<DWG 2019-05-02/90, art. 24, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 32
+###### Art. 32
 
 De rechten en verplichtingen die pachter en onderpachter tegenover elkaar hebben, worden geregeld
 volgens de bepalingen van deze wet, evenwel met uitzondering van de bepalingen betreffende de
 minimumpachttijd, in deze zin dat de onderpacht niet langer mag duren dan de hoofdpacht, ongeacht onder
 welke omstandigheden deze laatste een einde heeft genomen.
 
-## Art. 33
+###### Art. 33
 
 <W 1988-11-07/43, art. 20, 002; Inwerkingtreding : 1988-12-16> De pachter die een opzeggingsbrief
 ontvangt voor een onderverpacht goed of wiens pacht ontbonden wordt bij vonnis, moet op straffe van
@@ -25852,7 +25856,7 @@ schadevergoeding, binnen een maand na de betekening aan de onderpachter een afsc
 van het vonnis betekenen en hem op de hoogte stellen van het gevolg dat door hem aan de betekende
 opzegging of het betekend vonnis werd gegeven.
 
-## Art. 34
+###### Art. 34
 
 <W 1988-11-07/43, art. 21, 002; Inwerkingtreding : 1988-12-16> De pachter kan, zonder
 toestemming van de verpachter, zijn pacht geheel overdragen aan zijn afstammelingen of aangenomen kinderen
@@ -25861,7 +25865,7 @@ kinderen.
 De overnemer treedt in al de rechten en verplichtingen die uit de pacht voortvloeien, maar de overdrager blijkt
 met hem hoofdelijk gehouden tot de verplichtingen die uit de pacht zijn ontstaan.
 
-## Art. 34_WAALS_GEWEST
+###### Art. 34_WAALS_GEWEST
 
 <W 1988-11-07/43, art. 21, 002; Inwerkingtreding : 1988-12-16> De pachter kan, zonder toestemming van
 de verpachter, zijn pacht geheel overdragen aan zijn afstammelingen of aangenomen kinderen of aan die van zijn
@@ -25874,7 +25878,7 @@ met hem hoofdelijk gehouden tot de verplichtingen die uit de pacht zijn ontstaan
 maanden na de overdracht zoals bepaald in lid 1, over in.]1
 (1)<DWG 2019-05-02/90, art. 25, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 34bis
+###### Art. 34bis
 
 <W 1988-11-07/43, art. 22, 002; Inwerkingtreding : 1988-12-16> Indien een landeigendom
 gezamenlijk wordt gepacht door verschillende pachters en een van deze pachters besluit om zich terug te
@@ -25882,7 +25886,7 @@ trekken, dan wordt de pacht voortgezet ten voordele van de andere pachters.
 De verpachter heeft in dat geval evenwel de mogelijkheid te eisen dat de vorige exploitant hoofdelijk gehouden
 blijkt tot nakoming van de verplichtingen van de pacht samen met de andere pachters.
 
-## Art. 34bis_WAALS_GEWEST
+###### Art. 34bis_WAALS_GEWEST
 
 <W 1988-11-07/43, art. 22, 002; Inwerkingtreding : 1988-12-16> Indien een landeigendom gezamenlijk wordt
 gepacht door verschillende pachters en een van deze pachters besluit om zich terug te trekken, dan wordt de
@@ -25894,7 +25898,7 @@ van het verzoek daartoe kennis gegeven wordt binnen de zes maanden na de kennisg
 terugtrekking, op straffe van nietigheid]1.
 (1)<DWG 2019-05-02/90, art. 26, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 35
+###### Art. 35
 
 Op voorwaarde dat de pachter of zijn rechtverkrijgenden binnen drie maanden na de ingenottreding
 van de overnemer, aan de verpachter kennis geven van de pachtoverdracht die de pachter heeft gedaan aan zijn
@@ -25908,7 +25912,7 @@ overnemer of overnemers, een nieuwe eerste pachtperiode van negen jaar ingaat op
 ingenottreding van de overdrager volgend op de kennisgeving; bovendien is de overdrager ontslagen van alle uit
 de pacht voortvloeiende verplichtingen die na de kennisgeving zijn ontstaan.
 
-## Art. 35_WAALS_GEWEST
+###### Art. 35_WAALS_GEWEST
 
 [1 Op voorwaarde dat de pachter of zijn rechtverkrijgenden binnen drie maanden na de ingenottreding van de
 overnemer, aan de verpachter kennis geven van de pachtoverdracht die de pachter heeft gedaan aan zijn
@@ -25929,7 +25933,7 @@ studiegetuigschrift of een diploma in een landbouwrichting;
 De Regering kan de studiegetuigschriften of de diploma's in een landbouwrichting bepalen.]1
 (1)<DWG 2019-05-02/90, art. 27, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 36
+###### Art. 36
 
 De verpachter aan wie binnen de in artikel 35, bepaalde termijn kennis is gegeven van een overdracht,
 kan tegen de pachtvernieuwing opkomen door de vroegere en de nieuwe pachter, op straffe van verval, binnen
@@ -25941,7 +25945,7 @@ voornemens ten uitvoer zal brengen.
 Wordt het verzet toegelaten, dan wordt de pacht niet vernieuwd en heeft alleen de overdracht van de vroegere
 pacht gevolg.
 
-## Art. 36_WAALS_GEWEST
+###### Art. 36_WAALS_GEWEST
 
 De verpachter aan wie binnen de in artikel 35, bepaalde termijn kennis is gegeven van een overdracht, kan
 tegen de pachtvernieuwing opkomen door de vroegere en de nieuwe pachter, op straffe van verval, binnen drie
@@ -25953,7 +25957,7 @@ voornemens ten uitvoer zal brengen.
 [1 Wordt het verzet toegelaten, dan is de overdracht ongeldig.]1
 (1)<DWG 2019-05-02/90, art. 28, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 36bis_WAALS_GEWEST
+###### Art. 36bis_WAALS_GEWEST
 
 [1 Wanneer de verpachter de pachter zijn wens te kennen geeft, om een zakelijk recht op het (de) onder een
 pachtovereenkomst vallende goed(eren) te vervreemden, kan iedere bevoorrechte overdracht die plaatsvindt
@@ -25964,7 +25968,7 @@ overeenstemming onder de partijen, die ingaat na verstrijken van de bewarende pe
 bedoeld in lid 1.]1
 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 29, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 37
+###### Art. 37
 
 § 1. Als ernstige redenen van verzet kunnen uitsluitend worden aanvaard :
 1° het feit dat de verpachter vóór de kennisgeving van de overdracht, geldige opzegging heeft gedaan;
@@ -25992,7 +25996,7 @@ doen binnen drie maanden na afloop van die termijn, op straffe van verval. Indie
 komt, gaat de nieuwe pachtperiode in op de verjaardag van de ingenottreding van de overnemer, volgend op
 bedoelde kennisgeving.
 
-## Art. 37_WAALS_GEWEST
+###### Art. 37_WAALS_GEWEST
 
 § 1. Als ernstige redenen van verzet kunnen uitsluitend worden aanvaard :
 1° het feit dat de verpachter vóór de kennisgeving van de overdracht, geldige opzegging heeft gedaan;
@@ -26023,13 +26027,13 @@ bedoelde kennisgeving.
 
 § 9. - Overlijden van de pachter.
 
-## Art. 38
+###### Art. 38
 
 In geval van overlijden van de pachter van een landeigendom, loopt de pacht door ten voordele van zijn
 erfgenamen of rechtverkrijgenden, tenzij de verpachter, zijn erfgenamen of rechtverkrijgenden opzegging
 hebben gedaan overeenkomstig de hierna volgende bepalingen.
 
-## Art. 39
+###### Art. 39
 
 (De verpachter kan aan de erfgenamen of rechtverkrijgenden van de overleden pachter slechts
 opzegging doen, indien hij zich dat recht heeft voorbehouden in de pachtovereenkomst en de overleden pachter
@@ -26040,7 +26044,7 @@ Is aldus opzegging geoorloofd, dan moet op straffe van verval aan de erfgenamen 
 de pachter kennis ervan worden gegeven binnen één jaar na het overlijden en de opzegging heeft eerst
 uitwerking twee jaar na de kennisgeving.
 
-## Art. 39_WAALS_GEWEST
+###### Art. 39_WAALS_GEWEST
 
 [1 Bij overlijden van de pachter behoort het diens erfgenamen of rechtverkrijgenden toe, de verpachter daar
 onverwijld via een zending over in te lichten.
@@ -26055,12 +26059,12 @@ de pachter kennis ervan worden gegeven binnen één jaar na het overlijden en de
 uitwerking twee jaar na de kennisgeving.
 (1)<DWG 2019-05-02/90, art. 31, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 40
+###### Art. 40
 
 De erfgenamen of rechtverkrijgenden van de overleden pachter kunnen de pacht beëindigen mits zij,
 binnen één jaar na het overlijden, opzegging doen met een termijn van tenminste drie maanden.
 
-## Art. 41
+###### Art. 41
 
 De erfgenamen of rechtverkrijgenden van de overleden pachter kunnen overeenkomen de exploitatie
 gemeenschappelijk voort te zetten of een of meer hunner daartoe aanstellen.
@@ -26083,7 +26087,7 @@ gedurende ten minste negen jaar, te rekenen van de dag waarop het vonnis, dat de
 definitief is geworden, op straffe van schadevergoeding aan de overige erfgenamen of rechtverkrijgenden ten
 bedrage van 20 pct. van de hierboven bedoelde vergoeding.
 
-## Art. 41_WAALS_GEWEST
+###### Art. 41_WAALS_GEWEST
 
 De erfgenamen of rechtverkrijgenden van de overleden pachter kunnen overeenkomen de exploitatie
 gemeenschappelijk voort te zetten of een of meer hunner daartoe aanstellen.
@@ -26108,14 +26112,14 @@ definitief is geworden, op straffe van schadevergoeding aan de overige erfgename
 bedrage van 20 pct. van de hierboven bedoelde vergoeding.
 (1)<DWG 2019-05-02/90, art. 32, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 42
+###### Art. 42
 
 De erfgenamen of rechtverkrijgenden moeten aan de verpachter kennis geven van het akkoord dat zij
 hebben gesloten.
 Degene onder hen die door de rechter definitief is aangewezen om de exploitatie voort te zetten, moet hiervan
 aan de verpachter kennis geven. Iedere betrokken partij mag deze kennisgeving doen.
 
-## Art. 43
+###### Art. 43
 
 (Indien de persoon of de personen die de exploitatie voortzetten, afstammelingen of aangenomen
 kinderen van de overleden pachter of van diens echtgenoot zijn of echtgenoten van voormelde afstammelingen
@@ -26125,7 +26129,7 @@ Die pachtvernieuwing heeft dezelfde uitwerking als in het tweede lid van artikel
 hiertegen opkomen onder de voorwaarden gesteld in de artikelen 36 en 37, door de kennisgevers te dagvaarden
 voor de vrederechter.
 
-## Art. 43_WAALS_GEWEST
+###### Art. 43_WAALS_GEWEST
 
 (Indien de persoon of de personen die de exploitatie voortzetten, afstammelingen of aangenomen kinderen
 van de overleden pachter of [1 van diens echtgenoot of wettelijk samenwonende zijn, of echtgenoten of wettelijk
@@ -26136,7 +26140,7 @@ hiertegen opkomen onder de voorwaarden gesteld in de artikelen 36 en 37, door de
 voor de vrederechter.
 (1)<DWG 2019-05-02/90, art. 33, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 44
+###### Art. 44
 
 Zolang de kennisgeving niet is geschied, blijven de erfgenamen en rechtverkrijgenden hoofdelijk
 verbonden jegens de verpachter.
@@ -26146,7 +26150,7 @@ kennisgeving zijn ontstaan.
 
 § 10. - Vergoedingen toekomende aan de afgaande pachter.
 
-## Art. 45
+###### Art. 45
 
 1. (Afgezien van de vergoedingen die aan de pachter krachtens de voorgaande artikelen kunnen
 toekomen uit hoofde van gebouwen, aanplantingen en werken, moet de afgaande pachter van de verpachter
@@ -26178,7 +26182,7 @@ is voor hoger beroep, een deskundige aanstellen om die op te maken. Bij gebreke 
 wordt de pachter, behoudens tegenbewijs, geacht het goed te hebben ontvangen in de staat waarin het zich
 bevindt op het ogenblik dat hij het verlaat.
 
-## Art. 45_WAALS_GEWEST
+###### Art. 45_WAALS_GEWEST
 
 1. (Afgezien van de vergoedingen die aan de pachter krachtens de voorgaande artikelen kunnen toekomen uit
 hoofde van gebouwen, aanplantingen en werken, moet de afgaande pachter van de verpachter een vergoeding
@@ -26227,7 +26231,7 @@ elementen opgenomen in de minimuminhoud vastgesteld door de Regering. Voor het o
 tegenbewijs toegelaten.]1
 (1)<DWG 2019-05-02/90, art. 34, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 46
+###### Art. 46
 
 Naast de in het vorige artikel bepaalde vergoeding bij het verlaten van het gepachte goed is een
 bijkomende vergoeding tot beloop van de geleden schade verschuldigd aan de pachter van landeigendommen
@@ -26243,7 +26247,7 @@ gerechtelijke vaststelling ervan, vóór hij het goed verlaat, van de verpachter
 ontvangen, gelijk aan het bedrag van het aantal jaren pacht vóór het verstrijken van de pachtovereenkomst met
 dien verstande evenwel dat niet minder dan vier en niet meer dan acht jaren pacht in aanmerking kunnen komen.
 
-## Art. 46_VLAAMS_GEWEST
+###### Art. 46_VLAAMS_GEWEST
 
 Naast de in het vorige artikel bepaalde vergoeding bij het verlaten van het gepachte goed is een bijkomende
 vergoeding tot beloop van de geleden schade verschuldigd aan de pachter van landeigendommen wiens pacht
@@ -26262,7 +26266,7 @@ dien verstande evenwel dat niet minder dan vier en niet meer dan acht jaren pach
 
 § 11. - Vervreemding van het gepachte goed en recht van voorkoop van de pachter.
 
-## Art. 47
+###### Art. 47
 
 <W 1988-11-07/43, art. 29, 002; Inwerkingtreding : 1988-12-16> Bij verkoop van een in pacht
 gegeven landeigendom geniet de pachter het recht van voorkoop voor zichzelf of voor zijn afstammelingen of
@@ -26270,7 +26274,7 @@ aangenomen kinderen of voor die van zijn echtgenoot, of voor de echtgenoten van 
 afstammelingen of aangenomen kinderen, die daadwerkelijk aan de exploitatie van dat goed deelnemen,
 overeenkomstig de hierna bepaalde regels.
 
-## Art. 47_WAALS_GEWEST
+###### Art. 47_WAALS_GEWEST
 
 [1 Bij verkoop van een in pacht gegeven landeigendom geniet de pachter het recht van voorkoop voor zichzelf
 of voor zijn afstammelingen of aangenomen kinderen of voor die van zijn echtgenoot, zijn wettelijk
@@ -26279,7 +26283,7 @@ aangenomen kinderen, die daadwerkelijk aan de exploitatie van dat goed deelnemen
 ##### afdeling bepaalde regels.]1
 (1)<DWG 2019-05-02/90, art. 35, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 48
+###### Art. 48
 
 1. (De eigenaar mag het goed slechts aan iemand anders dan de pachter uit de hand verkopen nadat
 hij aan deze laatste de gelegenheid heeft gegeven om zijn recht van voorkoop uit te oefenen. Te dien einde geeft
@@ -26323,7 +26327,7 @@ In geval van herverkoop ten gevolge van de uitoefening van het recht van hoger b
 kennisgeving acht dagen te voren aan de pachter worden gedaan en dezelfde vraag in het openbaar aan de
 pachter worden gesteld bij de zitting van herverkoop.
 
-## Art. 48_WAALS_GEWEST
+###### Art. 48_WAALS_GEWEST
 
 [1 § 1. De eigenaar mag het goed slechts aan iemand anders dan de pachter uit de hand verkopen nadat hij aan
 deze laatste de gelegenheid heeft gegeven om zijn recht van voorkoop uit te oefenen. Te dien einde geeft de
@@ -26382,7 +26386,7 @@ Het uittreksel bevat de dag van de toewijzing, de prijs tegen welke de toewijzin
 instrumenterend ambtenaar die de toewijzing ontving.]1
 (1)<DWG 2019-05-02/90, art. 36, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 48bis
+###### Art. 48bis
 
 <W 1988-11-07/43, art. 31, 002; Inwerkingtreding : 1988-12-16> De pachter kan zijn recht van
 voorkoop voor het gehele goed, of voor een deel ervan indien hij het voor het overige deel zelf uitoefent, aan één
@@ -26405,7 +26409,7 @@ Bij overtreding van deze bepaling is hij aan de verkoper een schadevergoeding, g
 verkoopprijs van de betrokken percelen, verschuldigd, tenzij hij vooraf op grond van ernstige redenen,
 machtiging van de vrederechter heeft verkregen.
 
-## Art. 48bis_WAALS_GEWEST
+###### Art. 48bis_WAALS_GEWEST
 
 <W 1988-11-07/43, art. 31, 002; Inwerkingtreding : 1988-12-16> De pachter kan zijn recht van voorkoop
 voor het gehele goed, of voor een deel ervan indien hij het voor het overige deel zelf uitoefent, aan één of meer
@@ -26433,7 +26437,7 @@ verkoopprijs van de betrokken percelen, verschuldigd, tenzij hij vooraf op grond
 machtiging van de vrederechter heeft verkregen.
 (1)<DWG 2019-05-02/90, art. 37, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 49
+###### Art. 49
 
 1. Indien het goed door verscheidene pachters gemeenschappelijk gepacht wordt, moet de in artikel
 48, 1 en 2, bedoelde kennisgeving aan alle exploitanten van het goed gedaan worden. Het recht van voorkoop
@@ -26446,7 +26450,7 @@ rechtverkrijgenden die hun woonplaats hebben in de zetel van het bedrijf van de 
 2. Indien het gepachte goed aan verscheidene personen in medeëigendom toebehoort, is de in artikel 48, 1,
 bedoelde kennisgeving alleen geldig indien alle medeëigenaars daartoe hun medewerking hebben verleend.
 
-## Art. 49_WAALS_GEWEST
+###### Art. 49_WAALS_GEWEST
 
 1. [1 Indien het goed door verscheidene pachters gemeenschappelijk gepacht wordt, moeten de in artikel 48
 bedoelde kennisgevingen aan alle exploitanten van het goed gedaan worden.]1. Het recht van voorkoop kan met
@@ -26460,7 +26464,7 @@ rechtverkrijgenden die hun woonplaats hebben in de zetel van het bedrijf van de 
 bedoelde kennisgeving alleen geldig indien alle medeëigenaars daartoe hun medewerking hebben verleend.
 (1)<DWG 2019-05-02/90, art. 38, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 50
+###### Art. 50
 
 Wanneer het te koop gestelde eigendom slechts een deel is van het gepachte goed, is het recht van
 voorkoop van toepassing op dit deel.
@@ -26474,7 +26478,7 @@ Bij openbare verkoop moet dit deel van het eigendom afzonderlijk geveild en even
 worden.
 Deze bepalingen doen geen afbreuk aan het bij artikel 52, 8°, ten gunste van de eigenaar ingestelde recht.
 
-## Art. 51
+###### Art. 51
 
 In geval van verkoop met miskenning van de rechten van voorkoop van de pachter heeft deze het
 recht, ofwel in de plaats gesteld te worden van de koper, ofwel van de verkoper een schadevergoeding te eisen
@@ -26497,7 +26501,7 @@ zijn over de keuze. De kosten van de akte komen ten laste van de indeplaatsgeste
 Iedere uitspraak op een eis tot indeplaatsstelling wordt ingeschreven achter de inschrijving bedoeld in het
 tweede lid.
 
-## Art. 52
+###### Art. 52
 
 De pachter heeft geen recht van voorkoop :
 1° (indien het goed niet geëxploiteerd wordt door hem persoonlijk of door zijn echtgenoot, zijn afstammelingen
@@ -26531,7 +26535,7 @@ redenen heeft om de pachter te weren. Hij doet uitspraak na de partijen gehoord 
 hebben. Om de ernst van de aangevoerde redenen te beoordelen, laat de rechter zich onder meer leiden door de
 bepalingen van artikel 7 betreffende de redenen van opzegging.
 
-## Art. 52_WAALS_GEWEST
+###### Art. 52_WAALS_GEWEST
 
 De pachter heeft geen recht van voorkoop :
 1° (indien het goed niet geëxploiteerd wordt door hem persoonlijk of door zijn echtgenoot [1 of door zijn
@@ -26573,13 +26577,13 @@ hebben. Om de ernst van de aangevoerde redenen te beoordelen, laat de rechter zi
 bepalingen van artikel 7 betreffende de redenen van opzegging.
 (1)<DWG 2019-05-02/90, art. 39, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 53
+###### Art. 53
 
 Als niet bestaande, wordt beschouwd elke overeenkomst waarbij de pachter vooraf, geheel of ten dele
 afstand doet van het recht van voorkoop. Gedurende de pacht kan de pachter evenwel van dit recht afstand
 doen op de wijze bepaald in artikel 14, tweede lid.
 
-## Art. 54
+###### Art. 54
 
 (De pachter die gebruik heeft gemaakt van het recht van voorkoop, mag, gedurende een periode van
 vijf jaar te rekenen van de aankoop, het goed of de exploitatie ervan niet overdragen aan andere personen dan
@@ -26592,7 +26596,7 @@ Bij overtreding van deze bepaling zal hij aan de verkoper een schadevergoeding g
 verkoopprijs van de betrokken percelen verschuldigd zijn, tenzij hij vooraf, op grond van ernstige redenen,
 machtiging van de vrederechter heeft verkregen.
 
-## Art. 54_WAALS_GEWEST
+###### Art. 54_WAALS_GEWEST
 
 [1 De pachter die gebruik heeft gemaakt van het recht van voorkoop, mag, gedurende een periode van vijf jaar
 te rekenen van de aankoop, het goed of de exploitatie ervan niet overdragen aan andere personen dan zijn
@@ -26607,12 +26611,12 @@ verkoopprijs van de betrokken percelen verschuldigd zijn, tenzij hij vooraf, op 
 machtiging van de vrederechter heeft verkregen.
 (1)<DWG 2019-05-02/90, art. 40, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 55
+###### Art. 55
 
 In geval van vervreemding van het pachtgoed treedt de verkrijger volledig in de rechten en
 verplichtingen van de verpachter.
 
-## Art. 55_WAALS_GEWEST
+###### Art. 55_WAALS_GEWEST
 
 [1 Als de pachtovereenkomst een vroegere vaste datum heeft dan die van vervreemding van het verpachte
 goed, treedt de verkrijger onder bezwarende titel of om niet in de rechten en de verplichtingen van de verpachter
@@ -26628,7 +26632,7 @@ termijn wordt verlengd om de pachter de tijd te geven de wassende vruchten te oo
 
 § 12. - Algemene bepalingen.
 
-## Art. 56
+###### Art. 56
 
 Voor niet bestaande worden gehouden alle overeenkomsten waarbij de pachter uitdrukkelijk of
 stilzwijgend geheel of gedeeltelijk afstand doet van de rechten die de artikelen 1720, lid 2, 1721, 1722 en 1755
@@ -26639,21 +26643,21 @@ Wat betreft artikel 1722 en artikel 21 van deze afdeling, worden slechts geacht 
 overeenkomsten, bepalingen en bedingen voor zover het gaat om een buitengewoon toeval in de zin van artikel
 22 van deze afdeling.
 
-## Art. 57
+###### Art. 57
 
 <W 1988-11-07/43, art. 35, 002; Inwerkingtreding : 1988-12-16> Opzegging, verzet of kennisgeving
 bepaald in de artikelen 6, § 1, 3° en 4°, 11, 12, 14, eerste lid, 33, 35, 36, 37, 38, 39, 40, 42, 43, 44, 48 en 49
 moet, op straffe van niet bestaan betekend worden bij gerechtsdeurwaardersexploot of bij ter post
 aangetekende brief.
 
-## Art. 57_WAALS_GEWEST
+###### Art. 57_WAALS_GEWEST
 
 [1 Opzegging, verzet of kennisgeving bepaald in de artikelen 6, 8, § 4, 11, 12, 14, lid 1, 24, 30, 33, 34bis, 35,
 36, 36bis, 37, 38, 39, 40, 42, 44, 48, 49 en 55 moet, op straffe van niet bestaan betekend worden bij
 gerechtsdeurwaardersexploot of bij een zending.]1
 (1)<DWG 2019-05-02/90, art. 42, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 57bis_WAALS_GEWEST
+###### Art. 57bis_WAALS_GEWEST
 
 [1 Vanaf het ogenblik waarop de pachter de wettelijke pensioenleeftijd heeft bereikt, kan de verpachter of de
 instrumenterend ambtenaar hem vragen of hij een rust- of overlevingspensioen geniet, met inachtneming van de
@@ -26663,7 +26667,7 @@ in artikel 34 aanduidt als de persoon die zijn exploitatie voort kan zetten, wor
 overlevingspensioen te genieten.]1
 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 43, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 58
+###### Art. 58
 
 De datum waartegen opzegging is gedaan met toepassing van de artikelen 11, 2 en 3, 14, eerste lid,
 38, 39 of 40, wordt in voorkomend geval derwijze verschoven dat het gebruik eindigt op de datums voor het
@@ -26680,7 +26684,7 @@ opgeheven voor het Waalse Gewest bij DWG 2018-03-15/13, art. 92,§2, 009; Inwerk
 opgeheven voor het Vlaams Gewest, met uitzondering van artikel 10, bij DVR 2018-11-09/01, art.
 79,L1, 010; Inwerkingtreding : 01-01-2019
 
-## Art. 1
+###### Art. 1
 
 Toepassingsgebied.
 § 1. Deze afdeling is van toepassing op huurovereenkomsten betreffende een woning die de huurder, met
@@ -26705,7 +26709,7 @@ de bedrijvigheid van de huurder.
 § 3. Deze afdeling is niet langer van toepassing zodra het gehuurde pand niet meer tot hoofdverblijfplaats wordt
 bestemd.
 
-## Art. 1bis
+###### Art. 1bis
 
 <Ingevoegd bij W 2007-04-26/64, art. 2; Inwerkingtreding : 15-06-2007> Van elke
 huurovereenkomst die onder toepassing van deze afdeling valt en die betrekking heeft op de hoofdverblijfplaats
@@ -26722,7 +26726,7 @@ Een voorafgaande mondelinge overeenkomst tussen de partijen perkt de bevoegdheid
 Onverminderd het tweede en derde lid blijven de vóór de inwerkingtreding van dit artikel mondeling gesloten
 huurovereenkomsten onder de toepassing vallen van deze afdeling.
 
-## Art. 2
+###### Art. 2
 
 Staat van het gehuurde goed.
 (§ 1.) Het gehuurde goed moet beantwoorden aan de elementaire vereisten van veiligheid, gezondheid en
@@ -26750,7 +26754,7 @@ gedefinieerd, bij een koninklijk besluit vastgesteld na overleg in de Ministerra
 dwingend karakter en zullen uitwerking hebben voor de huurovereenkomsten die ondertekend worden na de
 inwerkingtreding van dit artikel.) <W 2007-04/25/38, art. 101, 3°, 005; Inwerkingtreding : 18-05-2007>
 
-## Art. 3
+###### Art. 3
 
 Duur van de huurovereenkomst.
 § 1. Elke huurovereenkomst bedoeld in artikel 1 wordt geacht te zijn aangegaan voor een duur van negen jaar.
@@ -26861,7 +26865,7 @@ onderworpen aan de bepalingen van de §§ 2 tot 4, tenzij partijen anders overee
 aanvang de eerste dag van de maand die volgt op de maand tijdens welke de opzegging wordt gedaan.) <W
 1997-04-13/43, art. 6, 002; Inwerkingtreding : 31-05-1997; zie evenwel W 1997-04-13/43, art. 15>
 
-## Art. 4
+###### Art. 4
 
 Overdracht van huur en onderhuur.
 § 1. De overdracht van de huurovereenkomst is verboden, behoudens schriftelijke en voorafgaande
@@ -26892,19 +26896,19 @@ evenwel W 1997-04-13/43, art. 15>
 § 3. De huurder alleen is ten aanzien van de verhuurder en de onderhuurder of de overnemer aansprakelijk
 voor de gevolgen die voortvloeien uit de niet-naleving van de bepalingen van dit artikel.
 
-## Art. 5
+###### Art. 5
 
 Onroerende voorheffing.
 De onroerende voorheffing betreffende het gehuurde onroerende goed kan niet ten laste van de huurder
 worden gelegd.
 
-## Art. 5bis
+###### Art. 5bis
 
 <Ingevoegd bij W 2006-12-27/30, art. 74; Inwerkingtreding : 01-07-2007> De verplichting van de
 registratie van de huurovereenkomst rust op de verhuurder. De kosten verbonden aan een eventueel laattijdige
 registratie zijn volledig ten zijne laste.
 
-## Art. 5ter
+###### Art. 5ter
 
 Bemiddeling door een derde voor de verhuring van het onroerend goed.
 [1 Wordt voor niet geschreven gehouden, elk beding dat de kosten voor de bemiddeling door een derde voor
@@ -26912,7 +26916,7 @@ de verhuring van het onroerend goed ten laste legt van de huurder, tenzij de huu
 de bemiddelingsopdracht.]1
 (1)<Ingevoegd bij W 2009-06-18/11, art. 2, 006; Inwerkingtreding : 17-08-2009>
 
-## Art. 6.Indexatie
+###### Art. 6.Indexatie
 
 (Indien zulks niet uitdrukkelijk is uitgesloten en op voorwaarde dat de huurovereenkomst bij geschrift is
 gesloten, is de aanpassing van de huurprijs aan de kosten van levensonderhoud eenmaal per huurjaar,
@@ -26922,7 +26926,7 @@ artikel 1728bis van het Burgerlijk Wetboek.) <W 1997-04-13/43, art. 8, 002; Inwe
 Deze aanpassing vindt slechts plaats op schriftelijk verzoek van de belanghebbende partij en werkt slechts
 terug tot drie maanden voorafgaand aan die van het verzoek.
 
-## Art. 7
+###### Art. 7
 
 Herziening van de huurprijs en de lasten.
 § 1. Onverminderd artikel 8 kunnen de partijen tussen de negende en de zesde maand voorafgaand aan het
@@ -26965,7 +26969,7 @@ of de omzetting ervan in werkelijke kosten en lasten. <W 1997-04-13/43, art. 9, 
 De rechter doet inzonderheid uitspraak op grond van de ontwikkeling van de werkelijke uitgaven.
 Hij beslist tot de omzetting indien zij mogelijk is.
 
-## Art. 8
+###### Art. 8
 
 <W 1997-04-13/43, art. 10, 002; Inwerkingtreding : 31-05-1997; zie evenwel W 1997-04-13/43, art.
 15> De partijen kunnen te allen tijde schriftelijk overeenkomen dat de huurder zich ertoe verbindt op zijn kosten
@@ -26982,7 +26986,7 @@ van de huurprijs te vragen, of verbindt hij zich ertoe de huurprijs te verlagen 
 Na beëindiging van de werken wordt op verzoek van de meest gerede partij overgegaan tot de oplevering ervan
 op tegenspraak.
 
-## Art. 9
+###### Art. 9
 
 Overdracht van het gehuurde goed.
 Indien de huurovereenkomst een vaste dagtekening voor de vervreemding van het gehuurde goed heeft,
@@ -26998,7 +27002,7 @@ maanden te rekenen (van de datum van het verlijden van de authentieke akte) tot 
 van eigendom. <W 1997-04-13/43, art. 11, 002; Inwerkingtreding : 31-05-1997; zie evenwel W 1997-04-13/43,
 art. 15>
 
-## Art. 10
+###### Art. 10
 
 Waarborg. <W 2007-04-25/38, art. 103, 005; Inwerkingtreding : 18-05-2007>
 § 1. Indien, behoudens de zekerheden voorzien in artikel 1752 van het Burgerlijk Wetboek, de huurder om de
@@ -27051,7 +27055,7 @@ een van beide partijen, mits voorleggen van ofwel een schriftelijk akkoord, dat 
 het beëindigen van de huurovereenkomst, ofwel van een kopie van een rechterlijke beslissing. Deze beslissing is
 uitvoerbaar bij voorraad, niettegenstaande verzet of voorziening en zonder borgstelling of kantonnement.
 
-## Art. 11
+###### Art. 11
 
 Verlenging wegens buitengewone omstandigheden.
 Wanneer een huurovereenkomst vervalt of eindigt ten gevolge van een opzegging, kan de huurder, die het
@@ -27067,7 +27071,7 @@ Slechts één aanvraag om hernieuwing van de verlenging kan worden ingediend ond
 Bij gebrek aan overeenstemming tussen de partijen kan de rechter deze verlenging toestaan eveneens onder
 dezelfde voorwaarden.
 
-## Art. 11bis
+###### Art. 11bis
 
 <ingevoegd bij W 2007-04-25/38, art. 102, Inwerkingtreding : 18-05-2007> § 1. De Koning zal drie
 bijlagen opstellen, een per gewest, voor elke huurovereenkomst, bevattende een uitleg over de wettelijke
@@ -27081,11 +27085,11 @@ verandering van eigenaar; de mogelijkheden voor de partijen om bijgestaan te kun
 § 2. Deze bijlage zal verplichtend bij de na de inwerkingtreding van dit artikel gesloten huurovereenkomst
 worden gevoegd.
 
-## Art. 12
+###### Art. 12
 
 Behalve als zij er anders over beschikken, zijn de bepalingen van deze afdeling van dwingend recht.
 
-Art. M. (Fictief artikel. Voor de data van inwerkingtreding van de bepalingen van onderhavige wet, zie W 199102-20/33 en wijzigende teksten.)
+###### Art. M. (Fictief artikel. Voor de data van inwerkingtreding van de bepalingen van onderhavige wet, zie W 199102-20/33 en wijzigende teksten.)
 
 11 JULI 2013. - OUD BURGERLIJK WETBOEK. - BOEK III - Titel XVII : Zakelijke zekerheden op roerende goederen
 - (Opschrift gewijzigd door W 2019-04-13/28, art. 2, 005; Inwerkingtreding : 01-11-2020) (Oude artikelen 2071
@@ -27093,22 +27097,22 @@ tot en met 2091 van het Burgerlijk Wetboek vormende de Titel XVII : Inpandgeving
 
 #### HOOFDSTUK 1. - Pandrecht
 
-##### Afdeling 1. - Algemeen
 
-## Art. 1.Doelstelling
+##### Afdeling 1. - Algemeen
+###### Art. 1.Doelstelling
 
 Het pandrecht verleent aan de pandhouder het recht om bij voorrang boven de andere schuldeisers te worden
 betaald uit de bezwaarde goederen.
 [1 Dit recht van voorrang geldt als een voorrecht zoals bedoeld in artikel 12 van de Hypotheekwet.]1
 (1)<W 2016-12-25/12, art. 2, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 2
+###### Art. 2
 
 Totstandkoming
 Onder voorbehoud van artikel 4, tweede lid, komt het pandrecht tot stand door de overeenkomst tussen
 pandgever en pandhouder.
 
-## Art. 3
+###### Art. 3
 
 Vertegenwoordiging
 Een pandovereenkomst die wordt gesloten door een vertegenwoordiger voor rekening van één of meer
@@ -27118,7 +27122,7 @@ van die begunstigden.
 De vertegenwoordiger kan alle rechten uitoefenen die normaal toekomen aan de pandhouder. Hij is, behoudens
 andersluidende overeenkomst, met de begunstigde hoofdelijk aansprakelijk.
 
-## Art. 4.Bewijs
+###### Art. 4.Bewijs
 
 De inpandgeving wordt bewezen door een geschrift dat de door het pand bezwaarde goederen, de
 gewaarborgde schuldvorderingen en het maximaal bedrag tot beloop waarvan de schuldvorderingen
@@ -27131,7 +27135,7 @@ verpande goed of van de verpande goederen.
 (1)<W 2016-12-25/12, art. 3, 002; Inwerkingtreding : 01-01-2018>
 (2)<W 2019-04-13/28, art. 13,1°, 005; Inwerkingtreding : 01-11-2020>
 
-## Art. 5
+###### Art. 5
 
 Derde-pandgever
 Het pandrecht kan door een derde worden gegeven voor de schuldenaar.
@@ -27139,7 +27143,7 @@ Behoudens anders overeengekomen, kan, indien voor eenzelfde schuldvordering zowe
 schuldenaar als van een derde zijn verpand, de derde-pandgever vorderen dat eerst de goederen van de
 schuldenaar worden uitgewonnen.
 
-## Art. 6
+###### Art. 6
 
 Bevoegdheid van de pandgever
 De inpandgeving is slechts geldig indien de pandgever bevoegd is de goederen te verpanden.
@@ -27147,7 +27151,7 @@ Heeft de pandgever die bevoegdheid niet, dan verkrijgt de pandhouder niettemin e
 sluiten van de overeenkomst redelijkerwijze mocht veronderstellen dat de pandgever tot verpanding bevoegd
 was.
 
-## Art. 7.Voorwerp
+###### Art. 7.Voorwerp
 
 [1 Het pandrecht kan een roerend lichamelijk of onlichamelijk goed, een goed dat roerend is uit zijn aard maar
 onroerend is geworden door bestemming of een bepaald geheel van dergelijke goederen tot voorwerp hebben
@@ -27166,12 +27170,12 @@ tot voorwerp hebben voor zover zij niet onverenigbaar zijn met andere bepalingen
 specifiek worden geregeld.
 (1)<W 2016-12-25/12, art. 4, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 8
+###### Art. 8
 
 Toekomstige goederen
 Het pand kan toekomstige goederen tot voorwerp hebben.
 
-## Art. 9
+###### Art. 9
 
 Zakelijke subrogatie
 Het pandrecht strekt zich uit tot alle schuldvorderingen die in de plaats komen van de bezwaarde goederen,
@@ -27182,7 +27186,7 @@ voortbrengen.
 De pandgever en in voorkomend geval de pandhouder zijn hierover rekenschap verschuldigd aan de andere
 partij.
 
-## Art. 10
+###### Art. 10
 
 Gewaarborgde schuldvordering
 Een pandrecht kan gevestigd worden tot zekerheid van een of meer bestaande of toekomstige
@@ -27190,7 +27194,7 @@ schuldvorderingen indien de gewaarborgde schuldvorderingen bepaald of bepaalbaar
 De pandovereenkomst vermeldt het maximumbedrag tot beloop waarvan de schuldvorderingen gewaarborgd
 zijn.
 
-## Art. 11
+###### Art. 11
 
 Duur
 De pandovereenkomst kan worden aangegaan voor een bepaalde of een onbepaalde duur.
@@ -27200,7 +27204,7 @@ Behoudens andersluidende overeenkomst, wanneer de pandovereenkomst wordt beëind
 verstrijken van de termijn of door een opzegging, strekt het pandrecht enkel tot waarborg van de
 schuldvorderingen die bestaan op het tijdstip van het einde van de overeenkomst.
 
-## Art. 12.Omvang
+###### Art. 12.Omvang
 
 Het pandrecht strekt zich, binnen het overeengekomen bedrag, uit tot de hoofdsom van de gewaarborgde
 schuldvordering en tot de bijhorigheden zoals de interest, het schadebeding en de kosten van uitwinning.
@@ -27209,7 +27213,7 @@ recht]1, dan mogen die bijhorigheden echter niet groter zijn dan 50 % [1 van de 
 de verdeling of de toerekening]1.
 (1)<W 2016-12-25/12, art. 5, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 13
+###### Art. 13
 
 Ondeelbaarheid
 Het pandrecht is ondeelbaar, niettegenstaande de schuld onder de algemene rechtsopvolgers of de
@@ -27221,13 +27225,13 @@ Zijnerzijds kan de algemene rechtsopvolger of de rechtsopvolger onder algemene t
 zijn aandeel in de schuld ontvangen heeft, het pandrecht niet teruggeven ten nadele van degenen onder zijn
 algemene mede-rechtsopvolgers of mede-rechtsopvolgers onder algemene titel, die niet betaald zijn.
 
-## Art. 14.Herverpanding
+###### Art. 14.Herverpanding
 
 De pandhouder is niet bevoegd tot het bezwaren van het goed [1 , tenzij de pandgever zijn toestemming
 geeft]1.
 (1)<W 2016-12-25/12, art. 6, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 15.Tegenwerpelijkheid
+###### Art. 15.Tegenwerpelijkheid
 
 Het pandrecht is tegenwerpelijk aan derden door een overeenkomstig [2 artikel 29, § 1, eerste lid]2, uitgevoerde
 registratie in het pandregister.
@@ -27247,19 +27251,19 @@ De Koning bepaalt de toepassingsmodaliteiten van dit artikel.
 (1)<W 2016-12-25/12, art. 7, 002; Inwerkingtreding : 01-01-2018>
 (2)<W 2018-06-18/03, art. 202, 003; Inwerkingtreding : 12-07-2018>
 
-## Art. 16
+###### Art. 16
 
 Verplichtingen van de pandgever
 De pandgever dient als goed pandgever voor de bezwaarde goederen zorg te dragen.
 De pandhouder is gerechtigd om op ieder ogenblik de bezwaarde goederen te inspecteren.
 
-## Art. 17
+###### Art. 17
 
 Gebruiksrecht
 De pandgever is gerechtigd tot een redelijk gebruik van de in pand gegeven goederen overeenkomstig hun
 bestemming.
 
-## Art. 18.Verwerking
+###### Art. 18.Verwerking
 
 Behoudens anders overeengekomen, is de pandgever gerechtigd tot verwerking van goederen die bestemd zijn
 voor verwerking.
@@ -27273,13 +27277,13 @@ dit goed de grootste waarde heeft. In dat geval heeft de derde op de pandhouder 
 verrijking zonder oorzaak.
 (1)<W 2020-02-04/16, art. 12, 006; Inwerkingtreding : 01-09-2021>
 
-## Art. 19
+###### Art. 19
 
 Onroerendmaking
 De onroerendmaking van de bezwaarde goederen laat het recht van de pandhouder om bij voorrang uit de
 opbrengst van deze goederen te worden voldaan onverlet.
 
-## Art. 20
+###### Art. 20
 
 Vermenging
 De vermenging van vervangbare goederen die volledig of gedeeltelijk met een pandrecht zijn bezwaard door een
@@ -27287,13 +27291,13 @@ of meer pandgevers, laat het pandrecht onverlet.
 Zijn er meerdere pandhouders, dan kunnen zij hun pandrecht op de vermengde goederen doen gelden in
 verhouding tot hun rechten.
 
-## Art. 21
+###### Art. 21
 
 Beschikking
 Behoudens anders overeengekomen, kan de pandgever vrij over de bezwaarde goederen beschikken binnen
 een normale bedrijfsvoering.
 
-## Art. 22
+###### Art. 22
 
 Sanctie
 Het beding op grond waarvan de bezwaarde goederen op eenvoudig verzoek van de pandhouder volledig of
@@ -27304,7 +27308,7 @@ sekwester worden gesteld.
 De bedrieglijke vervreemding of de bedrieglijke verplaatsing van de bezwaarde goederen is strafbaar met de
 straffen voorzien in artikel 491 van het Strafwetboek.
 
-## Art. 23
+###### Art. 23
 
 Overgang van pandrecht
 De overdracht van de gewaarborgde schuldvordering heeft de overgang van het pandrecht tot gevolg.
@@ -27313,7 +27317,7 @@ de overdracht van het bezit van de bezwaarde goederen aan de overnemer.
 De gewaarborgde schuldvordering mag gedeeltelijk worden overgedragen. In dat geval is de overgang van het
 pandrecht evenredig met de omvang van de overdracht van de schuldvordering.
 
-## Art. 24.Beschikking
+###### Art. 24.Beschikking
 
 van verpande goederen
 Het pandrecht volgt de bezwaarde goederen, in welke handen zij ook overgaan. De overnemer geldt als
@@ -27323,15 +27327,15 @@ beschikking over de bezwaarde goederen, indien de pandhouder had ingestemd met d
 verkrijger zich kan beroepen op artikel [1 3.28 van het Burgerlijk Wetboek]1.
 (1)<W 2020-02-04/16, art. 12, 006; Inwerkingtreding : 01-09-2021>
 
-Art. 25.Derde-verkrijgers
+###### Art. 25.Derde-verkrijgers
 De registratie in het pandregister sluit de toepassing van artikel [1 3.28 van het Burgerlijk Wetboek]1 uit ten
 aanzien van rechtverkrijgers onder bijzondere titel van de pandgever die handelen in het raam van hun bedrijf of
 beroep.
 (1)<W 2020-02-04/16, art. 12, 006; Inwerkingtreding : 01-09-2021>
 
-##### Afdeling 2. - Publiciteit
 
-## Art. 26.Pandregister
+##### Afdeling 2. - Publiciteit
+###### Art. 26.Pandregister
 
 [1 De registratie van een pandrecht en van een eigendomsvoorbehoud gebeurt in het Nationaal Pandregister,
 pand-register genoemd, dat wordt bewaard bij de Algemene Administratie van de Patrimoniumdocumentatie van
@@ -27349,14 +27353,14 @@ uitvoering van de bepalingen van die wet.
 eigendomsvoorbehoud.]1
 (1)<W 2016-12-25/12, art. 8, 002; Inwerkingtreding : 01-01-2018>
 
-Art. 27.[1 Authenticatie]1
+###### Art. 27.[1 Authenticatie]1
 [1 Elke registratie, raadpleging, wijziging, vernieuwing, rangafstand of overdracht van een pand of verwijdering
 van geregistreerde panden vereist de authenticatie van de gebruiker van het pandregister.]1
 De Koning bepaalt, na advies van de Commissie voor de bescherming van de persoonlijke levenssfeer, de
 nadere regels inzake die [1 authenticatie]1.
 (1)<W 2016-12-25/12, art. 9, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 28.Kosten
+###### Art. 28.Kosten
 
 De registratie, raadpleging, wijziging, [1 vernieuwing en verwijdering van gegevens, en de rangafstand of
 overdracht van een pand]1 kunnen elk aanleiding geven tot de betaling van een retributie waarvan het bedrag
@@ -27366,7 +27370,7 @@ instellingen die de Koning heeft bepaald na advies van de Commissie voor de besc
 levenssfeer.
 (1)<W 2016-12-25/12, art. 10, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 29.Registratie
+###### Art. 29.Registratie
 
 [1 § 1.]1 De pandhouder is krachtens de pandovereenkomst gerechtigd zijn pand te registreren door de in
 artikel 30 bedoelde gegevens zoals deze in het in artikel 4 bedoelde geschrift voorkomen, in overeenstemming
@@ -27383,7 +27387,7 @@ De verkoper is aansprakelijk voor alle schade ten gevolge van de registratie van
 De verkoper brengt de koper schriftelijk op de hoogte van de registratie.]1
 (1)<W 2016-12-25/12, art. 11, 002; Inwerkingtreding : 01-01-2018>
 
-Art. 30.[1 Te vermelden gegevens
+###### Art. 30.[1 Te vermelden gegevens
 § 1. De registratie van het pandrecht vermeldt de volgende gegevens :
 1° de identiteit van de pandhouder of van de vertegenwoordiger bedoeld in artikel 3 :
 a) indien het een natuurlijk persoon betreft, zijn naam, zijn eerste voornaam of de eerste twee voornamen, het
@@ -27417,7 +27421,7 @@ de gegevens opgesomd in § 1, 1°, a) of b), naargelang het geval;
 gevolge van de registratie van onjuiste gegevens.]1
 (1)<W 2016-12-25/12, art. 12, 002; Inwerkingtreding : 01-01-2018>
 
-Art. 31.[1 Raadplegen
+###### Art. 31.[1 Raadplegen
 § 1. Met betrekking tot een geregistreerd pand kunnen de volgende gegevens worden geraadpleegd :
 1° het registratienummer;
 2° de identiteit van de pandhouder of de vertegenwoordiger bedoeld in artikel 3;
@@ -27445,7 +27449,7 @@ gevolge van de registratie van onjuiste gegevens;
 8° de datum van de registratie.]1
 (1)<W 2016-12-25/12, art. 13, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 32.Wijziging
+###### Art. 32.Wijziging
 
 In geval van wijziging van de pandovereenkomst of in geval van onjuiste gegevens is de pandhouder gerechtigd
 de geregistreerde gegevens te wijzigen, overeenkomstig de overeenkomst en de nadere regels die de Koning
@@ -27454,7 +27458,7 @@ In geval van een wijziging, geeft het register zowel de oorspronkelijke [1 regis
 De pandhouder brengt schriftelijk de pandgever op de hoogte van de wijziging van de registratie.
 (1)<W 2016-12-25/12, art. 14, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 33.Onjuiste
+###### Art. 33.Onjuiste
 
 gegevens
 De pandgever is gerechtigd om van de pandhouder de verwijdering of de wijziging te vorderen van onjuiste
@@ -27462,11 +27466,11 @@ gegevens.
 [1 ...]1
 (1)<W 2016-12-25/12, art. 15, 002; Inwerkingtreding : 01-01-2018>
 
-Art. 34.[1 Toegang tot het register
+###### Art. 34.[1 Toegang tot het register
 "Eenieder heeft toegang tot het pandregister volgens de nadere regels die de Koning bepaalt.]1
 (1)<W 2016-12-25/12, art. 16, 002; Inwerkingtreding : 01-01-2018>
 
-Art. 35.[1 Termijn en vernieuwing]1
+###### Art. 35.[1 Termijn en vernieuwing]1
 De registratie van het pandrecht vervalt na verloop van tien jaar. Vanaf dat tijdstip is het pandrecht niet meer
 raadpleegbaar in het pandregister.
 Deze termijn is niettemin vatbaar voor herhaalde vernieuwing voor een nieuwe termijn van tien jaar.
@@ -27480,7 +27484,7 @@ De weergave van een vernieuwde registratie vermeldt eveneens de datum van de oor
 De pandhouder brengt de pandgever schriftelijk op de hoogte van de [1 vernieuwing]1 van de registratie.
 (1)<W 2016-12-25/12, art. 17, 002; Inwerkingtreding : 01-01-2018>
 
-Art. 36.[1 Gehele of gedeeltelijke verwijdering van de registratie
+###### Art. 36.[1 Gehele of gedeeltelijke verwijdering van de registratie
 § 1. De pandhouder moet in geval van betaling van de gewaarborgde schuld ervoor zorgen dat de registratie
 van het pandrecht wordt verwijderd.
 Deze verplichting tot verwijdering geldt eveneens voor de verkoper die een eigendomsvoorbehoud heeft laten
@@ -27499,7 +27503,7 @@ In geval van een gedeeltelijke verwijdering geeft het register bij raadpleging z
 als deze houdende de gedeeltelijke verwijdering weer.]1
 (1)<W 2016-12-25/12, art. 18, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 37.Overdracht
+###### Art. 37.Overdracht
 
 van schuldvordering
 De registratie van de overdracht van het pandrecht bij overdracht van de gewaarborgde schuldvordering
@@ -27511,7 +27515,7 @@ wordt eveneens bij raadpleging weergegeven.]1
 De registratie van de overdracht dient te gebeuren door de overdrager.
 (1)<W 2016-12-25/12, art. 19, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 38.Rangafstand
+###### Art. 38.Rangafstand
 
 Een afstand van rang is slechts tegenwerpelijk aan derden door de registratie ervan volgens de nadere regels
 die de Koning heeft bepaald na advies van de Commissie voor de bescherming van de persoonlijke levenssfeer.
@@ -27521,15 +27525,15 @@ De raadpleging van het pandregister met betrekking tot een geregistreerd pandrec
 geval een geregistreerde rangafstand.]1
 (1)<W 2016-12-25/12, art. 20, 002; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 3 - Tegenwerpelijkheid door buitenbezitstelling van lichamelijke goederen
 
-## Art. 39
+##### Afdeling 3 - Tegenwerpelijkheid door buitenbezitstelling van lichamelijke goederen
+###### Art. 39
 
 Inbezitstelling
 Het pandrecht van een lichamelijk goed is eveneens tegenwerpelijk aan derden wanneer het goed in de feitelijke
 macht van de schuldeiser of van een overeengekomen derde wordt gesteld.
 
-## Art. 40.Bewijs
+###### Art. 40.Bewijs
 
 De pandovereenkomst kan worden bewezen door alle rechtsmiddelen.
 Is de pandgever een consument [1 in de zin van artikel I.1, 2°, van boek I van het Wetboek van economisch
@@ -27538,19 +27542,19 @@ voldoet aan het vereiste [2 van artikel 8.20 of artikel 8.21 van het Burgerlijk 
 (1)<W 2016-12-25/12, art. 21, 002; Inwerkingtreding : 01-01-2018>
 (2)<W 2019-04-13/28, art. 13,2°, 005; Inwerkingtreding : 01-11-2020>
 
-## Art. 41
+###### Art. 41
 
 Gevolgen
 Tot aan de uitwinning van het pand blijft de pandgever eigenaar van het pand, dat in handen van de
 pandhouder niets meer is dan een bewaargeving tot waarborg van zijn pandrecht.
 
-## Art. 42
+###### Art. 42
 
 Gebruiksrecht
 De pandhouder is niet gerechtigd tot het gebruik van de bezwaarde goederen tenzij en voor zover dit
 noodzakelijk is voor hun behoud.
 
-## Art. 43
+###### Art. 43
 
 Verplichtingen van de pandhouder
 De pandhouder dient voor verpande goederen als een goed pandhouder zorg te dragen.
@@ -27561,7 +27565,7 @@ Door de pandhouder betaalde nuttige kosten tot behoud en tot onderhoud, met inbe
 het goed verbonden lasten, moeten hem door de pandgever worden terugbetaald.
 De pandgever is gerechtigd om op ieder ogenblik de goederen te inspecteren.
 
-## Art. 44
+###### Art. 44
 
 Segregatieplicht
 Heeft het pandrecht betrekking op soortzaken, dan rust, behoudens andersluidende overeenkomst, op de
@@ -27574,16 +27578,16 @@ goederen werden vermengd, worden de op dat tijdstip voorhanden zijnde goederen g
 goederen te zijn ten belope van de verpande hoeveelheid. Als er meerdere pandgevers zijn, doen zij hun
 aanspraken op de vermengde goederen gelden in verhouding tot hun rechten.
 
-## Art. 45
+###### Art. 45
 
 Sanctie
 Behalve indien de pandhouder of de overeengekomen derde in ernstige mate aan zijn verplichtingen verzuimt,
 kan de pandgever het pand niet terugvorderen voordat hij de schuld tot zekerheid waarvan het pand gegeven is
 ten volle betaald heeft, zowel wat de hoofdsom als de bijhorigheden betreft.
 
-##### Afdeling 4 - Uitwinning
 
-## Art. 46.Pandgever
+##### Afdeling 4 - Uitwinning
+###### Art. 46.Pandgever
 
 consument
 Indien de pandgever een consument is [1 in de zin van artikel I.1, 2° van boek I van het Wetboek van
@@ -27596,7 +27600,7 @@ zonder inachtneming van de hiervoor bepaalde vormen, is nietig.
 De artikelen 50 en 55 zijn van toepassing.
 (1)<W 2016-12-25/12, art. 22, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 47.Pandgever
+###### Art. 47.Pandgever
 
 niet-consument
 Indien de pandgever geen consument is [1 in de zin van artikel I.1, 2° van boek I van het Wetboek van
@@ -27618,7 +27622,7 @@ tot afgifte van de verpande goederen.]2
 (1)<W 2016-12-25/12, art. 23, 002; Inwerkingtreding : 01-01-2018>
 (2)<W 2019-05-02/25, art. 162, 004; Inwerkingtreding : 31-05-2019>
 
-## Art. 48.Kennisgeving
+###### Art. 48.Kennisgeving
 
 De pandhouder die tot uitwinning wenst over te gaan, moet daarvan ten minste tien dagen vooraf [1 bij
 aangetekende zending met ontvangstbewijs of gerechtsdeurwaardersexploot]1 kennisgeven aan de schuldenaar
@@ -27633,31 +27637,31 @@ schuldvordering.
 toelating van de rechter, via een gerechtsdeurwaarder beslag laten leggen op de verpande goederen.]1
 (1)<W 2019-05-02/25, art. 163, 004; Inwerkingtreding : 31-05-2019>
 
-## Art. 49
+###### Art. 49
 
 Bederfbare goederen
 De in artikel 48, eerste lid, bedoelde termijn voor de kennisgeving wordt beperkt tot drie dagen voor goederen
 die vatbaar zijn voor bederf of die onderhevig zijn aan snelle waardevermindering.
 
-## Art. 50
+###### Art. 50
 
 Betaling van de schuld
 Tot op het tijdstip van de uitwinning is de pandgever of iedere belanghebbende derde gerechtigd de bevrijding
 van het pand te verkrijgen tegen betaling van de gewaarborgde schuldvordering en de reeds gemaakte
 uitwinningskosten.
 
-## Art. 51
+###### Art. 51
 
 Verkoop
 De pandhouder kan een gerechtsdeurwaarder gelasten met de openbare of onderhandse verkoop of met de
 verhuur van de bezwaarde goederen.
 
-## Art. 52
+###### Art. 52
 
 Verkoop aan de pandhouder
 De pandhouder is niet gerechtigd om op te treden als koper bij een onderhandse verkoop.
 
-## Art. 53
+###### Art. 53
 
 Toe-eigening door de pandhouder
 Indien de schuldenaar in gebreke is te betalen, kan de pandgever toestemming geven voor de toe-eigening van
@@ -27666,7 +27670,7 @@ Een dergelijke overeenkomst kan ook gesloten worden bij de totstandkoming van de
 een later tijdstip, wanneer de overeenkomst bepaalt dat de waarde van de goederen op de dag van de toeeigening zal worden vastgesteld door een deskundige en, voor goederen die verhandeld worden op een markt,
 volgens de marktprijs.
 
-## Art. 54.Rechterlijke
+###### Art. 54.Rechterlijke
 
 controle
 [1 Indien de pandgever geen consument is, kunnen de pandgever en in geval van een derde-pandgever, de
@@ -27685,7 +27689,7 @@ Zij wordt onmiddellijk bij gerechtsbrief ter kennis gebracht aan de partijen. De
 lopen voor het cassatieberoep.
 (1)<W 2019-05-02/25, art. 164, 004; Inwerkingtreding : 31-05-2019>
 
-## Art. 55
+###### Art. 55
 
 Verdeling
 Het bedrag dat voortvloeit uit de uitwinning wordt toegerekend op de gewaarborgde schuldvordering en de
@@ -27694,7 +27698,7 @@ Zijn er meerdere pandhouders dan wordt de netto-opbrengst tussen hen verdeeld vo
 overeenkomstig artikelen 57 en 58.
 Het eventueel saldo komt toe aan de pandgever.
 
-## Art. 56.Rechterlijke
+###### Art. 56.Rechterlijke
 
 controle a posteriori
 Na de voltooiing van de uitwinning kan iedere belanghebbende partij zich tot de rechter wenden bij betwisting
@@ -27708,9 +27712,9 @@ De zaak wordt ingeleid bij dagvaarding of bij verzoekschrift op tegenspraak over
 volgende van het Gerechtelijk Wetboek.
 (1)<W 2016-12-25/12, art. 24, 002; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 5 - Rangconflicten
 
-## Art. 57.Anterioriteitsregel
+##### Afdeling 5 - Rangconflicten
+###### Art. 57.Anterioriteitsregel
 
 [1 Het pandrecht heeft voorrang op alle jongere rechten op de verpande goederen, onverminderd de artikelen
 21 tot 26 van Titel XVIII van Boek III van dit Wetboek.]1
@@ -27722,7 +27726,7 @@ hypothecaire of een op de onroerende goederen bevoorrechte schuldeiser bepaald v
 registratie en die van de inschrijving van de hypotheek of het voorrecht.
 (1)<W 2016-12-25/12, art. 25, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 58
+###### Art. 58
 
 Superprioriteit
 Een pandrecht dat gebaseerd is op een retentierecht voor een schuldvordering tot behoud van de zaak gaat
@@ -27730,9 +27734,9 @@ boven alle pandhouders.
 Onder voorbehoud van het eerste lid, gaan de onbetaalde verkoper die zich de eigendom heeft voorbehouden,
 de bevoorrechte verkoper en het voorrecht van de onderaannemer voor op de pandhouders op deze goederen.
 
-##### Afdeling 6 - Pandrecht op geldsom
 
-## Art. 59
+##### Afdeling 6 - Pandrecht op geldsom
+###### Art. 59
 
 Pandrecht op geldsom
 Bestaat het pand uit een geldsom en heeft bij de pandhouder vermenging plaatsgevonden, dan geldt de
@@ -27747,7 +27751,7 @@ gewaarborgde schuldvordering en dient hij het saldo aan de pandgever te restitue
 
 (1)<W 2016-12-25/12, art. 26, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 60.Bezitvereiste
+###### Art. 60.Bezitvereiste
 
 (" controle ")
 De pandhouder verkrijgt het bezit van een in pand gegeven schuldvordering door het sluiten van de
@@ -27758,7 +27762,7 @@ tegengeworpen nadat zij hem ter kennis werd gebracht of door hem is erkend.
 [1 De artikelen 3.28, § 2, 5.179, derde lid en 5 181, tweede en derde lid]1 zijn van toepassing.
 (1)<W 2022-04-28/25, art. 27, 007; Inwerkingtreding : 01-01-2023>
 
-## Art. 61.Bewijs
+###### Art. 61.Bewijs
 
 De pandovereenkomst wordt bewezen door een geschrift dat de door het pandrecht bezwaarde
 schuldvorderingen en de gewaarborgde schuldvorderingen nauwkeurig aanduidt. De bepalingen uit afdeling 1
@@ -27771,7 +27775,7 @@ worden gemaakt van het maximaal bedrag tot beloop waarvan de schuldvorderingen z
 (1)<W 2016-12-25/12, art. 27, 002; Inwerkingtreding : 01-01-2018>
 (2)<W 2019-04-13/28, art. 13,3°, 005; Inwerkingtreding : 01-11-2020>
 
-## Art. 62.Fiduciaire
+###### Art. 62.Fiduciaire
 
 overdracht tot zekerheid
 Een overdracht van een schuldvordering tot zekerheid verleent aan de overnemer enkel een pandrecht [1 op de
@@ -27780,13 +27784,13 @@ overgedragen schuldvordering en zulks ongeacht of deze overdracht beantwoordt aa
 economisch recht]1.
 (1)<W 2016-12-25/12, art. 28, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 63
+###### Art. 63
 
 Toekomstige schuldvorderingen
 Het pandrecht kan gevestigd worden op één of meer toekomstige schuldvorderingen op voorwaarde dat zij
 bepaalbaar zijn. "
 
-## Art. 64
+###### Art. 64
 
 Beding om niet over te dragen of niet te verpanden
 Een tussen de pandgever en de schuldenaar van de verpande schuldvordering gesloten overeenkomst waarbij
@@ -27794,19 +27798,19 @@ de schuldvordering die de betaling van een geldsom tot voorwerp heeft niet vatba
 verpanding is niet tegenwerpelijk aan derden, behoudens indien deze zich hebben schuldig gemaakt aan
 derdemedeplichtigheid aan de schending van dit beding.
 
-## Art. 65
+###### Art. 65
 
 Voorwerp
 Het pandrecht strekt zich uit tot de verpande schuldvordering in hoofdsom, interest en schadebeding en tot
 haar andere bijhorigheden.
 
-## Art. 66
+###### Art. 66
 
 Gedeeltelijke verpanding
 Het pandrecht kan gevestigd worden op een gedeelte van een schuldvordering, behoudens indien deze
 ondeelbaar is. "
 
-## Art. 67
+###### Art. 67
 
 Inningsrecht pandhouder
 Behoudens anders overeengekomen, is de pandhouder bevoegd om in en buiten rechte de nakoming te eisen
@@ -27822,7 +27826,7 @@ Indien de gewaarborgde schuldvordering nog niet opeisbaar is, stort de pandhoude
 een daartoe geopende afgescheiden bankrekening onder de verplichting het saldo aan de pandgever af te
 dragen wanneer de gewaarborgde schuldvordering werd nagekomen.
 
-## Art. 68
+###### Art. 68
 
 Schuldvordering tot levering van goederen
 Heeft de verpande schuldvordering de levering van goederen tot voorwerp en gaat de pandhouder tot
@@ -27830,7 +27834,7 @@ invordering ervan over, dan komt het pandrecht op deze goederen te rusten.
 
 #### HOOFDSTUK 2. - Eigendomsvoorbehoud
 
-## Art. 69.Geschrift
+###### Art. 69.Geschrift
 
 Roerende goederen, verkocht met een beding dat de eigendomsoverdracht opschort tot de volledige betaling
 van de prijs, kunnen worden teruggevorderd wanneer de koper in gebreke blijft de koopprijs te betalen voor
@@ -27841,19 +27845,19 @@ Het terugvorderingsrecht krachtens een beding van eigendomsvoorbehoud kan worden
 de juridische aard van de overeenkomst waarin het is opgenomen.
 (1)<W 2016-12-25/12, art. 29, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 70.Zakelijke
+###### Art. 70.Zakelijke
 
 subrogatie, verwerking en vermenging.
 De artikelen 9, 18 [1 , 20 en 23, lid 1]1 zijn van toepassing.
 (1)<W 2016-12-25/12, art. 30, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 71
+###### Art. 71
 
 Onroerendmaking
 Zijn de verkochte goederen onroerend door incorporatie geworden, dan blijft het eigendomsvoorbehoud
 behouden op voorwaarde van registratie in het pandregister.
 
-## Art. 72
+###### Art. 72
 
 Verrijkingsverbod
 De verkoper verrekent de waarde van het teruggevorderde goed met zijn schuldvordering. Overtreft deze
@@ -27861,20 +27865,20 @@ waarde het bedrag van de schuldvordering dan is de verkoper tot afdracht aan de 
 
 #### HOOFDSTUK 3. - Retentierecht
 
-## Art. 73
+###### Art. 73
 
 Begrip
 Het retentierecht verleent aan de schuldeiser het recht om de teruggave van een goed dat hem door zijn
 schuldenaar werd overhandigd of bestemd is voor zijn schuldenaar, op te schorten zolang zijn schuldvordering
 die verband houdt met dat goed niet is voldaan.
 
-## Art. 74
+###### Art. 74
 
 Feitelijke macht
 Het retentierecht eindigt van zodra de schuldeiser de feitelijke macht over het goed vrijwillig prijsgeeft, tenzij de
 schuldeiser deze feitelijke macht herkrijgt krachtens dezelfde rechtsverhouding.
 
-## Art. 75
+###### Art. 75
 
 Tegenwerpelijkheid
 Het retentierecht dat betrekking heeft op een roerend lichamelijk goed is tegenwerpelijk aan andere schuldeisers
@@ -27884,7 +27888,7 @@ Het retentierecht dat betrekking heeft op een roerend lichamelijk goed is evenee
 met een ouder recht, op voorwaarde dat de schuldeiser bij de inontvangstneming van het goed mocht
 aannemen dat de schuldenaar bevoegd was om dit goed aan een retentierecht te onderwerpen.
 
-## Art. 76
+###### Art. 76
 
 Pandrecht
 Het retentierecht geeft aanleiding tot een in artikel 1 bedoeld preferentieel recht van pandhouder.
@@ -27895,9 +27899,9 @@ Het retentierecht geeft aanleiding tot een in artikel 1 bedoeld preferentieel re
 
 #### Hoofdstuk 1. Algemene bepalingen
 
-##### Afdeling 1. Definities
 
-## Art. 8.1.Definities
+##### Afdeling 1. Definities
+###### Art. 8.1.Definities
 
 Wordt verstaan onder:
 1° geschrift: een geheel van alfabetische tekens of van enige andere verstaanbare tekens aangebracht op een
@@ -27933,17 +27937,17 @@ voorwaarden een bepaald bewijsmiddel kan uitmaken van een betwist feit;
 15° wettelijke bewijswaarde: de mate waarin een bewijsmiddel volgens de wet bewijs oplevert en de rechter en
 de partijen door dit bewijsmiddel gebonden zijn.
 
-##### Afdeling 2. Aanvullend karakter van de bewijsregels
 
-## Art. 8.2
+##### Afdeling 2. Aanvullend karakter van de bewijsregels
+###### Art. 8.2
 
 Algemene regel
 Behoudens de in dit boek opgenomen definities en behalve in de gevallen waarin de wet anders bepaalt, zijn alle
 regels van dit boek van aanvullend recht.
 
-##### Afdeling 3. Voorwerp van het bewijs
 
-## Art. 8.3
+##### Afdeling 3. Voorwerp van het bewijs
+###### Art. 8.3
 
 Algemene regel
 Behalve in de gevallen waarin de wet anders bepaalt, moeten feiten of rechtshandelingen worden bewezen
@@ -27951,9 +27955,9 @@ wanneer ze aangevoerd en betwist zijn.
 Algemeen bekende feiten of ervaringsregels moeten niet bewezen worden.
 Het recht, zelfs buitenlands, moet niet bewezen worden.
 
-##### Afdeling 4. Bewijslast
 
-## Art. 8.4
+##### Afdeling 4. Bewijslast
+###### Art. 8.4
 
 Regels die de bewijslast bepalen
 Hij die meent een ander in rechte te kunnen aanspreken, moet de rechtshandelingen of feiten bewijzen die
@@ -27968,15 +27972,15 @@ onredelijk zou zijn. De rechter kan slechts gebruik maken van deze mogelijkheid 
 onderzoeksmaatregelen heeft bevolen en erover gewaakt heeft dat de partijen meewerken aan de bewijsvoering,
 zonder op die manier voldoende bewijs te verkrijgen.
 
-##### Afdeling 5. Bewijsstandaard
 
-## Art. 8.5
+##### Afdeling 5. Bewijsstandaard
+###### Art. 8.5
 
 Algemene regel - zeker bewijs
 Behalve in de gevallen waarin de wet anders bepaalt, moet het bewijs geleverd worden met een redelijke mate
 van zekerheid.
 
-## Art. 8.6
+###### Art. 8.6
 
 Bewijs door waarschijnlijkheid
 Onverminderd de verplichting tot medewerking van alle partijen aan de bewijsvoering, kan hij die de bewijslast
@@ -27984,9 +27988,9 @@ draagt van een negatief feit, genoegen nemen met het aantonen van de waarschijnl
 Hetzelfde geldt voor positieve feiten waarvan het vanwege de aard zelf van het te bewijzen feit niet mogelijk of
 niet redelijk is om een zeker bewijs te verlangen.
 
-##### Afdeling 6. Wettelijke vermoedens
 
-## Art. 8.7
+##### Afdeling 6. Wettelijke vermoedens
+###### Art. 8.7
 
 Werking van de wettelijke vermoedens
 Het wettelijk vermoeden dat een wet met bepaalde rechtshandelingen of feiten verbindt, wijzigt het voorwerp
@@ -27999,14 +28003,14 @@ Het wettelijk vermoeden kan weerlegd worden, behalve:
 
 #### Hoofdstuk 2. Toelaatbaarheid van de bewijsmiddelen
 
-##### Afdeling 1. Algemene bepalingen
 
-## Art. 8.8
+##### Afdeling 1. Algemene bepalingen
+###### Art. 8.8
 
 Vrij bewijsstelsel
 Behalve in de gevallen waarin de wet anders bepaalt, kan het bewijs met alle bewijsmiddelen worden geleverd.
 
-## Art. 8.9
+###### Art. 8.9
 
 Gereglementeerd bewijsstelsel
 § 1. De rechtshandeling met betrekking tot een som of een waarde die gelijk is aan of hoger is dan 3 500,00
@@ -28023,9 +28027,9 @@ vergoedingen van de prestaties voor een maximale duur van één jaar.
 bepaalbaar is tijdens het ontstaan van de rechtshandeling, mag het bewijs geleverd worden met alle
 bewijsmiddelen.
 
-##### Afdeling 2. Uitzonderingen op het gereglementeerde bewijsstelsel
 
-## Art. 8.10
+##### Afdeling 2. Uitzonderingen op het gereglementeerde bewijsstelsel
+###### Art. 8.10
 
 Bewijs van eenzijdige rechtshandelingen
 In afwijking van artikel 8.9 en onder voorbehoud van de uitzonderingen bepaald in de wet, kan het bewijs van
@@ -28035,7 +28039,7 @@ Het bewijs van een rechtshandeling houdende een eenzijdige verbintenis tot betal
 tegenover een andere verbindt om hem een geldsom te betalen of hem een zekere hoeveelheid vervangbare
 zaken te leveren, is onderworpen aan artikel 8.21.
 
-## Art. 8.11
+###### Art. 8.11
 
 Bewijs door en tegen ondernemingen
 § 1. Bewijs kan tussen ondernemingen of tegen ondernemingen, zoals omschreven in artikel I.1, eerste lid van
@@ -28065,21 +28069,21 @@ omstandig stilzwijgen uitmaakt. De uitdrukkelijke of stilzwijgende aanvaarding v
 die geen onderneming is, maakt een feitelijk vermoeden uit. Iedere overeenkomst die afwijkt van de regels in dit
 lid en afgesloten is voor het ontstaan van het geschil, is nietig.
 
-## Art. 8.12
+###### Art. 8.12
 
 Onmogelijkheid om te bewijzen
 De in artikel 8.9 bedoelde regels lijden uitzondering in geval van materiële of morele onmogelijkheid zich een akte
 te verschaffen of indien het gebruikelijk is geen akte op te stellen.
 Hetzelfde geldt wanneer de akte verloren is gegaan door overmacht.
 
-## Art. 8.13
+###### Art. 8.13
 
 Andere uitzonderingen
 In afwijking van artikel 8.9, kan het ondertekend geschrift worden vervangen door een bekentenis, een
 beslissende eed of een begin van bewijs door geschrift voor zover dit laatste wordt aangevuld met een ander
 bewijsmiddel.
 
-## Art. 8.14
+###### Art. 8.14
 
 Bewijs door en tegen derden
 Derden kunnen het bewijs van een rechtshandeling met alle bewijsmiddelen leveren.
@@ -28088,11 +28092,11 @@ met alle bewijsmiddelen.
 
 #### Hoofdstuk 3. Bewijsmiddelen
 
-##### Afdeling 1. Bewijs door ondertekend geschrift
 
+##### Afdeling 1. Bewijs door ondertekend geschrift
 ##### Onderafdeling 1. Authentieke akte
 
-## Art. 8.15
+###### Art. 8.15
 
 Drager van de authentieke akte
 De authentieke akte mag op elke drager geplaatst worden, mits ze opgemaakt en bewaard wordt
@@ -28109,14 +28113,14 @@ openbare of ministeriële ambtenaar in gedematerialiseerde vorm zijn opgemaakt, 
 De hoedanigheid van de ondertekenaar dient steeds te kunnen worden gecontroleerd aan de hand van een bij
 wet bepaalde authentieke gegevensbank.
 
-## Art. 8.16
+###### Art. 8.16
 
 Onregelmatige authentieke akte
 Een akte die, uit hoofde van onbevoegdheid of onbekwaamheid van de openbare of ministeriële ambtenaar of
 uit hoofde van een gebrek in de vorm, geen authentieke akte is, geldt als onderhandse akte indien zij door de
 partij of partijen ondertekend is.
 
-## Art. 8.17
+###### Art. 8.17
 
 Wettelijke bewijswaarde van de authentieke akte
 Een authentieke akte levert tot betichting van valsheid een bewijs op van wat de openbare of ministeriële
@@ -28128,13 +28132,13 @@ ten aanzien van hun erfgenamen en rechtverkrijgenden.
 
 ##### Onderafdeling 2. Onderhandse akte
 
-## Art. 8.18
+###### Art. 8.18
 
 Wettelijke bewijswaarde van de onderhandse akte
 Een onderhandse akte levert een bewijs op van de overeenkomst die erin is vervat tussen de ondertekenaars
 van de akte en ten aanzien van hun erfgenamen en rechtverkrijgenden.
 
-## Art. 8.19
+###### Art. 8.19
 
 Ontkenning van handschrift of handtekening
 Tenzij de wet anders bepaalt, kan de partij tegen wie men zich erop beroept, haar handschrift of haar
@@ -28143,7 +28147,7 @@ de handtekening van hun rechtsvoorganger eveneens ontkennen of verklaren dat zij
 handtekening niet kennen. In die gevallen moet de echtheid van het handschrift worden onderzocht, zulks
 overeenkomstig de artikelen 883 en volgende van het Gerechtelijk Wetboek.
 
-## Art. 8.20
+###### Art. 8.20
 
 Vereist aantal originelen voor een onderhandse akte
 De onderhandse akte die een wederkerig contract vaststelt, levert slechts een bewijs op indien zij opgemaakt is
@@ -28160,7 +28164,7 @@ voorwaarden bedoeld in artikel 8.1, 7° van dit boek.
 De regels opgelegd in de eerste twee leden zijn niet van toepassing op contracten afgesloten via briefwisseling,
 hetzij verstuurd via de post, hetzij elektronisch.
 
-## Art. 8.21
+###### Art. 8.21
 
 Rechtshandeling houdende een eenzijdige verbintenis tot betalen
 Ongeacht de waarde van de rechtshandeling en zonder afbreuk te doen aan de uitzonderingen bepaald in de
@@ -28169,7 +28173,7 @@ leveren enkel een bewijs op indien zij de handtekening bevat van de persoon die 
 vermelding, door hemzelf geschreven, van de som of van de hoeveelheid voluit in letters uitgedrukt. Iedere
 overeenkomst die afwijkt van deze regel is nietig.
 
-## Art. 8.22
+###### Art. 8.22
 
 Vaste datum van de onderhandse akte
 De onderhandse akte verkrijgt, ten aanzien van derden, geen vaste dagtekening dan:
@@ -28180,7 +28184,7 @@ meer ten gevolge van het overlijden van een van hen.
 
 ##### Onderafdeling 3. Onderhandse akte die mede wordt ondertekend door de advocaten van de partijen
 
-## Art. 8.23
+###### Art. 8.23
 
 Voorwaarden en wettelijke bewijswaarde van de onderhandse akte die mede wordt ondertekend door
 de advocaten van de partijen
@@ -28204,7 +28208,7 @@ ondertekenende advocaten zijn.
 
 ##### Onderafdeling 4. Andere geschriften
 
-## Art. 8.24
+###### Art. 8.24
 
 Vermelding van de betaling op een akte of het dubbel ervan
 De vermelding van een betaling of van een andere reden van bevrijding die door de schuldeiser wordt
@@ -28215,7 +28219,7 @@ handen van de schuldenaar is.
 
 ##### Onderafdeling 5. Afschriften
 
-## Art. 8.25.Juridisch
+###### Art. 8.25.Juridisch
 
 statuut van het afschrift
 Het afschrift dat gemaakt werd door middel van een gekwalificeerde elektronische archiveringsdienst conform
@@ -28231,7 +28235,7 @@ vermoeden of in voorkomend geval een begin van bewijs door geschrift wanneer de 
 voorwaarden vervuld zijn. Indien het origineel nog bestaat, kan de overlegging ervan altijd worden gevorderd.
 (1)<W 2024-03-28/60, art. 44, 002; Inwerkingtreding : 08-04-2024>
 
-## Art. 8.26
+###### Art. 8.26
 
 Afschriften van authentieke akten
 § 1. De afschriften van de authentieke akten zijn onderworpen aan de volgende regels.
@@ -28269,23 +28273,23 @@ geweest, indien zij nog in leven zijn, gehoord worden.
 
 ##### Onderafdeling 6. Teruggave van de akte door de schuldeiser aan de schuldenaar
 
-## Art. 8.27
+###### Art. 8.27
 
 Vrijwillige teruggave van de akte door de schuldeiser aan de schuldenaar
 De vrijwillige teruggave aan de schuldenaar van de onderhandse titel of de grosse van de titel houdende de
 schuld, doet, behoudens tegenbewijs, de bevrijding van de schuldenaar vermoeden.
 
-##### Afdeling 2. Bewijs door getuigen
 
-## Art. 8.28
+##### Afdeling 2. Bewijs door getuigen
+###### Art. 8.28
 
 Toelaatbaarheid en bewijswaarde van getuigenissen
 Getuigenissen zijn enkel toelaatbaar in de gevallen waarin de wet het bewijs met alle bewijsmiddelen toelaat.
 Hun bewijswaarde wordt overgelaten aan het oordeel van de rechter.
 
-##### Afdeling 3. Bewijs door feitelijke vermoedens
 
-## Art. 8.29
+##### Afdeling 3. Bewijs door feitelijke vermoedens
+###### Art. 8.29
 
 Toelaatbaarheid en bewijswaarde van feitelijke vermoedens
 Feitelijke vermoedens zijn enkel toelaatbaar in de gevallen waarin de wet het bewijs met alle bewijsmiddelen
@@ -28294,14 +28298,14 @@ Hun bewijswaarde wordt overgelaten aan het oordeel van de rechter, die ze enkel 
 één of meer ernstige en precieze aanwijzingen berusten. Voor zover het vermoeden op meerdere aanwijzingen
 steunt, moeten ze met elkaar overeenstemmend zijn.
 
-##### Afdeling 4. Bekentenis
 
-## Art. 8.30
+##### Afdeling 4. Bekentenis
+###### Art. 8.30
 
 Kenmerken van de bekentenis
 De bekentenis kan gerechtelijk of buitengerechtelijk, uitdrukkelijk of stilzwijgend, al dan niet intentioneel zijn.
 
-## Art. 8.31
+###### Art. 8.31
 
 Buitengerechtelijke bekentenis
 De zuiver mondelinge buitengerechtelijke bekentenis is enkel toelaatbaar in de gevallen waarin de wet het bewijs
@@ -28310,7 +28314,7 @@ De buitengerechtelijke bekentenis kan voortvloeien uit het gedrag van een van de
 van een contract. Dat gedrag kan met alle bewijsmiddelen worden aangetoond.
 De buitengerechtelijke bekentenis heeft dezelfde wettelijke bewijswaarde als de gerechtelijke bekentenis.
 
-## Art. 8.32
+###### Art. 8.32
 
 Wettelijke bewijswaarde van de bekentenis
 De bekentenis is onherroepelijk, behalve in geval van dwaling omtrent de feiten, of in geval van iedere andere
@@ -28320,9 +28324,9 @@ De samengestelde bekentenis is onsplitsbaar, tenzij een van de onderdelen ervan 
 tegenspraak is met het andere onderdeel. In dat geval mag elk onderdeel worden ingeroepen, onafhankelijk van
 het andere.
 
-##### Afdeling 5. Eed
 
-## Art. 8.33
+##### Afdeling 5. Eed
+###### Art. 8.33
 
 Verschillende types eed
 De eed kan, ter beslissing van het geding, door de ene partij aan de andere worden opgedragen om de
@@ -28331,7 +28335,7 @@ partijen worden opgelegd.
 
 ##### Onderafdeling 1. Beslissende eed
 
-## Art. 8.34
+###### Art. 8.34
 
 Juridische regeling
 De beslissende eed kan worden opgedragen omtrent alle geschillen, van welke aard ook, en in elke stand van
@@ -28339,20 +28343,20 @@ het geding. De partij aan wie de eed is opgedragen en die weigert hem af te legg
 de partij aan wie de eed is teruggewezen en die weigert hem af te leggen, wordt betreffende haar bewering in het
 ongelijk gesteld.
 
-## Art. 8.35
+###### Art. 8.35
 
 Toepassingsgebied
 Hij kan alleen worden opgedragen omtrent een feit waarbij de partij, aan wie men hem opdraagt, persoonlijk
 betrokken is. Hij mag door haar teruggewezen worden, tenzij de partij naar wie de eed wordt teruggewezen
 persoonlijk betrokken is bij het feit dat het voorwerp ervan uitmaakt.
 
-## Art. 8.36
+###### Art. 8.36
 
 Definitief karakter
 De partij die de eed heeft opgedragen of teruggewezen, kan daarop niet meer terugkomen, wanneer de
 tegenpartij zich heeft bereid verklaard die eed af te leggen.
 
-## Art. 8.37
+###### Art. 8.37
 
 Wettelijke bewijswaarde
 De eed levert alleen bewijs op ten voordele van hem die de eed heeft opgedragen en ten voordele van zijn
@@ -28368,13 +28372,13 @@ hoofdschuld, en niet omtrent de hoofdelijkheid of de borgtocht.
 
 ##### Onderafdeling 2. Ambtshalve opgelegde eed
 
-## Art. 8.38
+###### Art. 8.38
 
 Bewijswaarde
 De rechter kan ambtshalve aan een van de partijen de eed opleggen. Die eed kan niet aan de tegenpartij worden
 teruggewezen. De bewijswaarde ervan wordt overgelaten aan het oordeel van de rechter.
 
-## Art. 8.39
+###### Art. 8.39
 
 Toepassingsgebied
 De rechter kan de eed, hetzij omtrent de eis, hetzij omtrent de exceptie die tegen de eis wordt opgeworpen,

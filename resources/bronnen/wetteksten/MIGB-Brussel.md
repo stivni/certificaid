@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest
@@ -45,9 +49,9 @@ d) elke auto opgevat en gebouwd voor het vervoer van zaken waarvan de maximaal t
 § 3. Indien het in de voormelde reglementering als lichte vrachtauto aangeduid voertuig, niet beantwoordt aan één van de in § 2 opgesomde voertuigtypes, wordt het in de zin van deze Titel II, met uitzondering van
 Hoofdstuk VI, afhankelijk van zijn constructie, beschouwd als een personenauto, auto voor dubbel gebruik of minibus.
 
-#### HOOFDSTUK II - Vrijstellingen
+### HOOFDSTUK II - Vrijstellingen
 
-## Art. 5
+#### Art. 5
 
 (aangevuld bij art. 2 van de ordonnantie van 18.12.2020 (B.S., 05.01.2021 – Numac: 2020044602). Tekst van toepassing vanaf 01.01.2021 (art. 4))
 
@@ -109,15 +113,15 @@ De Brusselse Hoofdstedelijke Regering kan de voorwaarden en de toepassingsmodali
 
 De vrijstelling van de voertuigen bedoeld in het eerste lid is niet van toepassing als de belastingplichtige een vennootschap, een autonoom overheidsbedrijf of een vereniging zonder winstgevend doel met leasingactiviteiten is.
 
-#### HOOFDSTUK III - Belastingschuldigen
+### HOOFDSTUK III - Belastingschuldigen
 
-## Art. 6
+#### Art. 6
 
 Is de belasting schuldig al wie een of meer van de in de artikelen 3 en 4 genoemde voertuigen aanwendt tot eigen gebruik of ze exploiteert, hetzij hij er de eigendom of het persoonlijk bezit van heeft, hetzij hij door huur of andere overeenkomst bestendig of gewoonlijk daarover beschikt.
 
-#### HOOFDSTUK IV - Belastbare grondslag
+### HOOFDSTUK IV - Belastbare grondslag
 
-## Art. 7
+#### Art. 7
 
 (gewijzigd bij art. 75 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042687). Tekst van toepassing vanaf 01.01.2020 (art. 102)) (1)
 
@@ -130,7 +134,7 @@ De wet van 13 april 2019 tot invoering van het Wetboek van de minnelijke en gedw
 
 inkomstenbelastingen 1992 en het Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen, zoals ze van toepassing zijn op de belastingen bedoeld in artikel 3, eerste lid, 5°, 10° en 11° van de Bijzondere wet van 16 januari 1989 betreffende de financiering van de Gemeenschappen en de Gewesten (art. 101).
 
-## Art. 8
+#### Art. 8
 
 (vervangen bij art. 4 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.1999 (art. 18))
 
@@ -138,9 +142,9 @@ Breuken van paardekracht worden naar boven of naar beneden afgerond, naargelang 
 
 Breuken van deciliter van de cilinderinhoud worden naar boven of naar beneden afgerond, naargelang zij al dan niet een halve deciliter overschrijden.
 
-#### HOOFDSTUK V - Bedrag der belasting of belastingvoet
+### HOOFDSTUK V - Bedrag der belasting of belastingvoet
 
-## Art. 9
+#### Art. 9
 
 (Abis, ingevoegd bij art. 4, 1° en F, aangevuld bij art. 4, 2° van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688). Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18)) (1)
 
@@ -251,7 +255,7 @@ G. (…)
 Nota:
 (1) Art. 4 is niet van toepassing op belastingplichtigen die een vennootschap, een autonoom overheidsbedrijf of een vereniging zonder winstgevend doel met leasingactiviteiten zijn (art. 17).
 
-## Art. 9bis
+#### Art. 9bis
 
 (ingevoegd bij art. 3 van de ordonnantie van 24.03.2016 (B.S., 31.03.2016 – ed. 3 – Numac: 2016031253) err. (B.S., 08.04.2016 – Numac: 2016031275) err. (B.S., 29.04.2016 – ed. 1 – Numac: 2016031337). Tekst van toepassing vanaf 01.04.2016 (art. 9))
 
@@ -259,7 +263,7 @@ Nota:
 
 § 2. Paragraaf 1, tweede lid, van de artikelen 36ter en 36quater, is niet van toepassing voor het belastingjaar 2016, voor de voertuigen belast krachtens artikel 9, punt E).
 
-## Art. 10
+#### Art. 10
 
 (gewijzigd bij art. 5 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688). Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18)) (1)
 
@@ -287,7 +291,7 @@ De bepalingen van de artikelen 30 en 32 en van het hoofdstuk VIII zijn ter zake 
 Nota:
 (1) Art. 5 is niet van toepassing op belastingplichtigen die een vennootschap, een autonoom overheidsbedrijf of een vereniging zonder winstgevend doel met leasingactiviteiten zijn (art. 17).
 
-## Art. 11
+#### Art. 11
 
 (gewijzigd bij art. 9 van de wet van 08.04.2002 (B.S., 12.04.2002 – Numac: 2002003199). Tekst van toepassing vanaf 01.01.2001 (art. 12))
 
@@ -295,9 +299,9 @@ De belasting vastgesteld volgens artikel 9, A en C, de minimumbelasting bedoeld 
 
 De aldus aangepaste belastingbedragen kunnen met maximum 0,11 EUR worden verlaagd ten einde een veelvoud van 12 te vormen.
 
-#### HOOFDSTUK VI - Aanvullende verkeersbelasting
+### HOOFDSTUK VI - Aanvullende verkeersbelasting
 
-## Art. 12
+#### Art. 12
 
 (gewijzigd bij art. 102 van de programmawet van 27.12.2005 (B.S., 30.12.2005 – ed. 2 – Numac: 2005021182). Tekst van toepassing vanaf aanslagjaar 2006 (art. 108))
 
@@ -305,7 +309,7 @@ De aldus aangepaste belastingbedragen kunnen met maximum 0,11 EUR worden verlaag
 
 § 2. Deze aanvullende verkeersbelasting wordt geregeld volgens de bepalingen die van toepassing zijn op de verkeersbelasting, met uitzondering echter van de bepalingen van artikel 5, § 1, 3°, 4°, 6° en 8°, en van de artikelen 11, 15 en 42, § 2.
 
-## Art. 13
+#### Art. 13
 
 (gewijzigd in de Franse versie bij art. 6 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688).
 Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18))
@@ -316,9 +320,9 @@ Gehele of gedeeltelijke vrijstelling van de aanvullende verkeersbelasting wordt 
 
 2° aan de internationale organisaties, aan hun vertegenwoordigers, ambtenaren en leden, in de mate dat zij vrijgesteld zijn van de verkeersbelasting op de autovoertuigen, ingevolge de voorrechten en immuniteiten hun toegestaan overeenkomstig het internationale recht.
 
-#### HOOFDSTUK VII - Verminderingen
+### HOOFDSTUK VII - Verminderingen
 
-## Art. 14
+#### Art. 14
 
 (opgeheven bij art. 7 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688). Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18)) (1)
 
@@ -327,7 +331,7 @@ Gehele of gedeeltelijke vrijstelling van de aanvullende verkeersbelasting wordt 
 Nota:
 (1) Art. 7 is niet van toepassing op belastingplichtigen die een vennootschap, een autonoom overheidsbedrijf of een vereniging zonder winstgevend doel met leasingactiviteiten zijn (art. 17).
 
-## Art. 15
+#### Art. 15
 
 (opgeheven bij art. 8 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688). Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18)) (1)
 
@@ -336,7 +340,7 @@ Nota:
 Nota:
 (1) Art. 8 is niet van toepassing op belastingplichtigen die een vennootschap, een autonoom overheidsbedrijf of een vereniging zonder winstgevend doel met leasingactiviteiten zijn (art. 17).
 
-## Art. 16
+#### Art. 16
 
 (opgeheven bij art. 9 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688). Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18)) (1)
 
@@ -345,33 +349,33 @@ Nota:
 Nota:
 (1) Art. 9 is niet van toepassing op belastingplichtigen die een vennootschap, een autonoom overheidsbedrijf of een vereniging zonder winstgevend doel met leasingactiviteiten zijn (art. 17).
 
-## Art. 17
+#### Art. 17
 
 (opgeheven bij art. 3 van de wet van 26.02.1969 (B.S., 18.03.1969 – Numac: 1969022603). Tekst van toepassing vanaf aanslagjaar 1969 (art. 5))
 
 (…)
 
-## Art. 18
+#### Art. 18
 
 (opgeheven bij art. 10 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.1999 (art. 18))
 
 (…)
 
-## Art. 19
+#### Art. 19
 
 (opgeheven bij art. 10 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.1999 (art. 18))
 
 (…)
 
-## Art. 20
+#### Art. 20
 
 (opgeheven bij art. 10 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.1999 (art. 18))
 
 (…)
 
-#### HOOFDSTUK VIII - Ontstaan van de belastingschuld
+### HOOFDSTUK VIII - Ontstaan van de belastingschuld
 
-## Art. 21
+#### Art. 21
 
 (gewijzigd bij art. 10 van de wet van 08.04.2002 (B.S., 12.04.2002 – Numac: 2002003199). Tekst van toepassing vanaf 01.01.2001 (art. 12))
 
@@ -379,7 +383,7 @@ De belasting is verschuldigd door de natuurlijke of rechtspersoon die vermeld is
 
 De in het eerste lid beoogde voertuigen zijn de personenauto's, de auto's voor dubbel gebruik, de trage auto's voor dubbel gebruik, de minibussen, de ziekenauto's, de motorfietsen, de motorfietsen-driewielers, de motorfietsen-vierwielers, de lichte vrachtauto's, de trage lichte vrachtauto's, de bootaanhangwagens, de kampeeraanhangwagens, de kampeerauto's, de aanhangwagens en opleggers met een maximaal toegelaten massa tot 3.500 kg.
 
-## Art. 22
+#### Art. 22
 
 (vervangen bij art. 11 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.2000 (art. 18))
 
@@ -387,21 +391,21 @@ De in het eerste lid beoogde voertuigen zijn de personenauto's, de auto's voor d
 
 § 2. Elk tijdperk van twaalf achtereenvolgende maanden bedoeld in § 1 vormt een aanslagjaar. Dit laatste wordt genoemd naar het jaar waarin het tijdperk een aanvang neemt.
 
-## Art. 23
+#### Art. 23
 
 (gewijzigd in de Franse versie bij art. 10 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688).
 Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18))
 
 Wanneer de voorwaarden tot vrijstelling in de loop van een aanslagjaar niet meer vervuld zijn, is de belasting verschuldigd naar verhouding van de niet verstreken maanden.
 
-## Art. 23bis
+#### Art. 23bis
 
 (gewijzigd in de Franse versie bij art. 11 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688).
 Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18))
 
 Wanneer een voertuig in de loop van een aanslagjaar wordt afgevoerd van het repertorium of vrijstelling komt te genieten, wordt de betaalde belasting teruggegeven naar verhouding van de niet verstreken maanden of, in dezelfde mate, aangerekend op de belasting die door de belastingschuldige voor een ander voertuig is verschuldigd.
 
-## Art. 23ter
+#### Art. 23ter
 
 (gewijzigd bij art. 77 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019). Tekst van toepassing vanaf 01.01.2020 (art.
 102)) (1)
@@ -416,55 +420,55 @@ De Brusselse Hoofdstedelijke Regering bepaalt de voorwaarden en de nadere regels
 
 De wet van 13 april 2019 tot invoering van het Wetboek van de minnelijke en gedwongen invordering van fiscale en nietfiscale schuldvorderingen heeft geen uitwerking ten aanzien van de bepalingen van het Wetboek van de inkomstenbelastingen 1992 en het Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen, zoals ze van toepassing zijn op de belastingen bedoeld in artikel 3, eerste lid, 5°, 10° en 11° van de Bijzondere wet van 16 januari 1989 betreffende de financiering van de Gemeenschappen en de Gewesten (art. 101).
 
-#### HOOFDSTUK IX - (…)
+### HOOFDSTUK IX - (…)
 
 (opschrift opgeheven bij art. 12 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688). Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18))
 
-## Art. 24
+#### Art. 24
 
 (opgeheven bij art. 12 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688). Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18))
 
 (…)
 
-## Art. 25
+#### Art. 25
 
 (opgeheven bij art. 12 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688). Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18))
 
 (…)
 
-## Art. 26
+#### Art. 26
 
 (opgeheven bij art. 3 van de wet van 26.02.1969 (B.S., 18.03.1969 – Numac: 1969022603). Tekst van toepassing vanaf aanslagjaar 1969 (art. 5))
 
 (…)
 
-## Art. 27
+#### Art. 27
 
 (opgeheven bij art. 12 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688). Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18))
 
 (…)
 
-## Art. 28
+#### Art. 28
 
 (opgeheven bij art. 12 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688). Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18))
 
 (…)
 
-#### HOOFDSTUK X - Vestiging en invordering
+### HOOFDSTUK X - Vestiging en invordering
 
-## Art. 29
+#### Art. 29
 
 (opgeheven bij art. 13 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688). Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18))
 
 (…)
 
-## Art. 30
+#### Art. 30
 
 (vervangen bij art. 13 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.2000 (art. 18))
 
 De plaats van aanslag is de gemeente die vermeld is of het moet zijn op het inschrijvingsbewijs op het ogenblik van het ontstaan van de belastingschuld.
 
-## Art. 31
+#### Art. 31
 
 (opgeheven bij art. 25, 1° van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing vanaf 01.01.2020 (art. 26) en overgangsbepaling) (1)
 
@@ -474,7 +478,7 @@ Nota:
 
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-## Art. 32
+#### Art. 32
 
 (opgeheven bij art. 25, 1° van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing vanaf 01.01.2020 (art. 26) en overgangsbepaling) (1)
 
@@ -483,7 +487,7 @@ Nota:
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-## Art. 33
+#### Art. 33
 
 (opgeheven bij art. 25, 2° van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing vanaf 01.01.2020 (art. 26) en overgangsbepaling) (1)
 
@@ -492,13 +496,13 @@ Nota:
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-## Art. 34
+#### Art. 34
 
 (hersteld bij art. 54 van de wet van 21.12.2009 (B.S., 31.12.2009 – ed. 2 – Numac: 2009003773). Tekst van toepassing vanaf aanslagjaar 2009 (art. 58))
 
 De Directie voor de Inschrijving van de Voertuigen zorgt ervoor dat de gegevens die noodzakelijk zijn om de belasting te bepalen, op elektronische wijze ter beschikking van de administratie worden gesteld.
 
-## Art. 35
+#### Art. 35
 
 (gewijzigd bij art. 81 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042687). Tekst van toepassing vanaf 01.01.2020 (art. 102) en overgangsbepaling) (1)
 
@@ -511,15 +515,15 @@ De dienst aangewezen door de Brusselse Hoofdstedelijke Regering kan de erkende i
 Nota:
 (1) De wet van 13 april 2019 tot invoering van het Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen heeft geen uitwerking ten aanzien van de bepalingen van het Wetboek van de inkomstenbelastingen 1992 en het Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen, zoals ze van toepassing zijn op de belastingen bedoeld in artikel 3, eerste lid, 5°, 10° en 11° van de Bijzondere wet van 16 januari 1989 betreffende de financiering van de Gemeenschappen en de Gewesten (art. 101).
 
-## Art. 36
+#### Art. 36
 
 (opgeheven bij art. 13 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf 01.01.2000 (art. 18))
 
 (…)
 
-#### HOOFDSTUK Xbis - Bijzondere bepalingen
+### HOOFDSTUK Xbis - Bijzondere bepalingen
 
-## Art. 36bis
+#### Art. 36bis
 
 (gewijzigd bij art. 22 van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing vanaf 01.01.2020 (art. 26) en overgangsbepaling) (1)
 
@@ -536,7 +540,7 @@ De voormelde voertuigen zijn daarentegen onderworpen aan de bepaling van artikel
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-## Art. 36ter
+#### Art. 36ter
 
 (opgeheven bij art. 25, 3° van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing vanaf 01.01.2020 (art. 26) en overgangsbepaling) (1)
 
@@ -545,7 +549,7 @@ Nota:
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-## Art. 36quater
+#### Art. 36quater
 
 (gewijzigd bij art. 23 van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing vanaf 01.01.2020 (art. 26) en overgangsbepaling) (1)
 
@@ -574,13 +578,13 @@ Dit bedrag mag niet lager zijn dan het in artikel 10, § 2, vastgestelde minimum
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-#### HOOFDSTUK XI - Uitvoerings- en controlemaatregelen
+### HOOFDSTUK XI - Uitvoerings- en controlemaatregelen
 
-## Art. 37
+#### Art. 37
 
 De belastingschuldige die om gelijk welke vrijstelling of vermindering verzoekt, kan er slechts het voordeel van verkrijgen of behouden indien hij zijn recht op deze vrijstelling of vermindering bewijst.
 
-## Art. 38
+#### Art. 38
 
 (opgeheven bij art. 25, 4° van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing vanaf 01.01.2020 (art. 26) en overgangsbepaling) (1)
 
@@ -589,7 +593,7 @@ De belastingschuldige die om gelijk welke vrijstelling of vermindering verzoekt,
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-## Art. 39
+#### Art. 39
 
 (opgeheven bij art. 25, 5° van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing vanaf 01.01.2020 (art. 26) en overgangsbepaling) (1)
 
@@ -599,9 +603,9 @@ Nota:
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-#### HOOFDSTUK XII - Sancties
+### HOOFDSTUK XII - Sancties
 
-## Art. 40
+#### Art. 40
 
 (opgeheven bij art. 25, 6° van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing vanaf 01.01.2020 (art. 26) en overgangsbepaling) (1)
 
@@ -610,15 +614,15 @@ Nota:
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-## Art. 41
+#### Art. 41
 
 (vervangen bij art. 6 van de wet van 10.02.1981 (B.S., 14.02.1981 – Numac: 1981000212). Tekst van toepassing vanaf de dag van de bekendmaking in het B.S. van de herstelwet inzake inkomensmatiging, zijnde 14.02.1981 (art. 22))
 
 Wanneer de belasting niet is betaald kan de rechtbank de nummerplaat van het voertuig verbeurd verklaren en de teruggave ervan bevelen aan de Dienst van het Wegverkeer.
 
-#### HOOFDSTUK XIII - Bevoegdheid van de provincies, de agglomeraties en de gemeenten
+### HOOFDSTUK XIII - Bevoegdheid van de provincies, de agglomeraties en de gemeenten
 
-## Art. 42
+#### Art. 42
 
 (§ 3, 1°, opgeheven bij art. 11 van de wet van 08.04.2002 (B.S., 12.04.2002 – Numac: 2002003199). Tekst van toepassing vanaf 01.01.2001 (art. 12))
 
@@ -636,11 +640,11 @@ Wanneer de gemeenten echter deel uitmaakt van een agglomeratie van gemeenten, wo
 
 3° voertuigen waarvan de belasting verminderd werd overeenkomstig artikel 15.
 
-### TITEL III - BELASTING OP DE SPELEN EN DE WEDDENSCHAPPEN
+## TITEL III - BELASTING OP DE SPELEN EN DE WEDDENSCHAPPEN
 
-#### HOOFDSTUK I - Grondslagen en belastingvoeten
+### HOOFDSTUK I - Grondslagen en belastingvoeten
 
-## Art. 43
+#### Art. 43
 
 (gewijzigd bij art. 2 van de ordonnantie van 17.03.2011 (B.S., 01.04.2011 – Numac: 2011031159). Tekst van toepassing vanaf 01.04.2011 (art. 6))
 
@@ -659,7 +663,7 @@ Een belasting wordt geheven op het brutobedrag van de sommen of inleggelden inge
 worden ingericht ten behoeve van musea of ten behoeve van instellingen als bedoeld in artikel 104, 1 ste lid,
 3° en 4°, van het Wetboek van de inkomstenbelastingen 1992.
 
-## Art. 44
+#### Art. 44
 
 (vervangen bij art. 3 van de ordonnantie van 17.03.2011 (B.S., 01.04.2011 – Numac: 2011031159). Tekst van toepassing vanaf 01.04.2011 (art. 6))
 
@@ -667,7 +671,7 @@ De belasting wordt vastgesteld op 15 pct. op het brutobedrag van de sommen of in
 
 Voor de toepassing van deze Titel dient te worden verstaan onder brutobedrag van de ingezette sommen of inleggelden: het bedrag van de sommen of inleggelden zonder aftrek van kosten van welke aard ook. Met die sommen of inleggelden worden gelijkgesteld, de rechten of retributies die moeten worden betaald voor de inschrijving voor of deelname aan een spel of weddenschap.
 
-## Art. 44bis
+#### Art. 44bis
 
 (ingevoegd bij art. 4 van de ordonnantie van 17.03.2011 (B.S., 01.04.2011 – Numac: 2011031159). Tekst van toepassing vanaf 01.04.2011 (art. 6))
 
@@ -679,7 +683,7 @@ In afwijking van artikel 44 wordt de belasting vastgesteld op:
 
 Voor de toepassing van dit artikel wordt verstaan onder werkelijke brutomarge, het brutobedrag van de sommen of inleggelden ingezet bij spelen en weddenschappen, verminderd met de winsten die voor die spelen en weddenschappen werkelijk verdeeld zijn.
 
-## Art. 45
+#### Art. 45
 
 (gewijzigd bij art. 2 van de ordonnantie van 26.05.2016 (B.S., 09.06.2016 – Numac: 2016031404). Tekst van toepassing vanaf 01.06.2016 (art. 3))
 
@@ -713,95 +717,95 @@ De heffingsgrondslag wordt aan de § 2, eerste lid, bedoelde tarieven onderworpe
 
 Wat betreft de exploitatie van pokerspelen die buiten de hiervoor genoemde gevallen valt, is artikel 44 van toepassing.
 
-## Art. 46
+#### Art. 46
 
 (opgeheven bij art. 3 van de ordonnantie van 20.07.2000 (B.S., 07.09.2000 – Numac: 2000031288). Tekst van toepassing vanaf 01.01.2000 (art. 4))
 
 (…)
 
-## Art. 47
+#### Art. 47
 
 (herhaling van wijzigingen die reeds gebeurden door besluiten: opgeheven bij art. 6 van de ordonnantie van 06.03.2008 (B.S., 01.04.2008 – Numac: 2008031122) err. (B.S., 04.04.2008 – Numac: 2008031167) err. (B.S., 04.04.2008). Tekst van toepassing vanaf 01.05.1967 (art. 12, 1°))
 
 (…)
 
-## Art. 48
+#### Art. 48
 
 (herhaling van wijzigingen die reeds gebeurden door besluiten: opgeheven bij art. 7 van de ordonnantie van 06.03.2008 (B.S., 01.04.2008 – Numac: 2008031122) err. (B.S., 04.04.2008 – Numac: 2008031167) err. (B.S., 04.04.2008). Tekst van toepassing 12.09.1980 (art. 12, 5°))
 
 (…)
 
-## Art. 49
+#### Art. 49
 
 (herhaling van wijzigingen die reeds gebeurden door besluiten: opgeheven bij art. 7 van de ordonnantie van 06.03.2008 (B.S., 01.04.2008 – Numac: 2008031122) err. (B.S., 04.04.2008 – Numac: 2008031167) err. (B.S., 04.04.2008). Tekst van toepassing 12.09.1980 (art. 12, 5°))
 
 (…)
 
-## Art. 50
+#### Art. 50
 
 (herhaling van wijzigingen die reeds gebeurden door besluiten: opgeheven bij art. 7 van de ordonnantie van 06.03.2008 (B.S., 01.04.2008 – Numac: 2008031122) err. (B.S., 04.04.2008 – Numac: 2008031167). Tekst van toepassing 12.09.1980 (art. 12, 5°))
 
 (...)
 
-#### HOOFDSTUK II - Belastingschuldigen
+### HOOFDSTUK II - Belastingschuldigen
 
-## Art. 51
+#### Art. 51
 
 (gewijzigd bij art. 8 van het koninklijk besluit van 18.04.1967 (B.S., 20.04.1967 – Numac: 1967041816). Tekst van toepassing vanaf 01.05.1967 (art. 20, 1°))
 
 De belasting is verschuldigd door elke persoon die, zelfs toevallig, enige inzet of enig inleggeld hetzij voor eigen rekening, hetzij als tussen persoon aanneemt tot de in het eerste hoofdstuk van deze titel omschreven doeleinden.
 
-## Art. 52
+#### Art. 52
 
 Wanneer er, in private kringen of in andere lokalen, aan spel of aan weddenschappen wordt gedaan, derwijze dat niemand in het bijzonder ermede belast is de inzetten of inleggelden, hetzij voor eigen rekening, hetzij als tussenpersoon aan te nemen, rust de uitvoering van alle wettelijke voorschriften op de inrichters van de verrichtingen, worden als dusdanig beschouwd en zijn hoofdelijk de belasting verschuldigd, degenen die het lokaal of het materieel ter beschikking stellen van personen die aan spel of weddenschappen doen.
 
-#### HOOFDSTUK III - Aangifte
+### HOOFDSTUK III - Aangifte
 
-## Art. 53
+#### Art. 53
 
 (gewijzigd bij art. 52 van de wet van 27.04.2016 (B.S., 06.05.2016 – Numac: 2016003144). Tekst van toepassing vanaf 16.05.2016 (art. -))
 
 De belastingschuldigen moeten, alvorens hun verrichtingen te beginnen, uiterlijk de voorlaatste dag een aangifte indienen bij de ontvanger van het gebied. Treden zij bestendig op, dan mag die aangifte geldig worden gemaakt tot aan de herroeping ervan.
 
-#### HOOFDSTUK IV - Controlemaatregelen
+### HOOFDSTUK IV - Controlemaatregelen
 
-## Art. 54
+#### Art. 54
 
 (vervangen bij art. 41 van de wet van 17.06.2013 (B.S., 28.06.2013 – ed. 1 – Numac: 2013003202). Tekst van toepassing vanaf 08.07.2013 (art. -))
 
 Het bedrag van de inzetten, de inleggelden, de uitgekeerde winsten, de weddenschappen, alsook alle andere gegevens die noodzakelijk zijn om de belasting te bepalen, moeten op een elektronische informatiedrager worden bijgehouden.
 
-## Art. 55
+#### Art. 55
 
 (opgeheven bij art. 18 van de wet van 19.05.2010 (B.S., 28.05.2010 – ed. 2 – Numac: 2010003319). Tekst van toepassing vanaf 07.06.2010 (art. -))
 
 (…)
 
-## Art. 56
+#### Art. 56
 
 (vervangen bij art. 19 van de wet van 19.05.2010 (B.S., 28.05.2010 – ed. 2 – Numac: 2010003319). Tekst van toepassing vanaf 07.06.2010 (art. -))
 
 Het model van de aangifte wordt door de Koning vastgesteld.
 
-## Art. 57
+#### Art. 57
 
 (gewijzigd bij art. 9 van het koninklijk besluit van 18.04.1967 (B.S., 20.04.1967 – Numac: 1967041816). Tekst van toepassing vanaf 01.05.1967 (art. 20, 1°))
 
 De organismen bedoeld bij artikel 46 zijn verplicht een register te houden, waarin het aantal in hun bezit zijnde ringen en het aantal verkochte ringen worden vermeld.
 
-## Art. 58
+#### Art. 58
 
 (gewijzigd bij art. 20 van de wet van 19.05.2010 (B.S., 28.05.2010 – ed. 2 – Numac: 2010003319). Tekst van toepassing vanaf 07.06.2010 (art. -))
 
 De inrichter en, in voorkomend geval, de bewoner van het gebouw, waar spelen of weddenschappen plaatshebben, zijn verplicht toegang tot de inrichting te verlenen aan de agenten van toezicht; bovendien is de belastingschuldige verplicht hun de bij artikel 54 op een elektronische informatiedrager geplaatste gegevens in een leesbare en verstaanbare vorm voor te leggen en hun toe te laten gedurende de vertoning of de vermakelijkheid de in kas zijnde gelden te controleren.
 
-## Art. 59
+#### Art. 59
 
 De Koning is gemachtigd om andere controlemaatregelen te nemen.
 
-#### HOOFDSTUK V - Betaling van de belasting
+### HOOFDSTUK V - Betaling van de belasting
 
-## Art. 60
+#### Art. 60
 
 (gewijzigd bij art. 57 van de wet van 25.04.2014 (B.S., 16.05.2014 – Numac: 2014003219). Tekst van toepassing de dag van haar bekendmaking in het B.S., zijnde 16.05.2014 (art. 99))
 
@@ -811,31 +815,31 @@ Zij is echter eisbaar op het tijdstip zelf waarop de ontvangsten worden gedaan, 
 
 § 2. De opbrengst van de in artikel 46 bepaalde belasting in verband met de verkochte ringen wordt, in afwijking van § 1, de 15e van elke maand in de Schatkist gestort voor de verrichtingen van de vorige maand.
 
-## Art. 61
+#### Art. 61
 
 (opgeheven bij art. 12 van het koninklijk besluit van 22.08.1980 (B.S., 02.09.1980 – Numac: 1980082202). Tekst van toepassing vanaf 12.09.1980 (art. -))
 
 (…)
 
-## Art. 62
+#### Art. 62
 
 (opgeheven bij art. 12 van het koninklijk besluit van 22.08.1980 (B.S., 02.09.1980 – Numac: 1980082202). Tekst van toepassing vanaf 12.09.1980 (art. -))
 
 (…)
 
-#### HOOFDSTUK VI - (…)
+### HOOFDSTUK VI - (…)
 
 (titel opgeheven bij art. 67 van de wet van 13.04.2019 (B.S., 30.04.2019 – ed. 1 – Numac: 2019041000). Tekst van toepassing vanaf 01.01.2020 (art. 139, lid 1). De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen (art. 139, lid 2))
 
-## Art. 63
+#### Art. 63
 
 (opgeheven bij art. 67 van de wet van 13.04.2019 (B.S., 30.04.2019 – ed. 1 – Numac: 2019041000). Tekst van toepassing vanaf 01.01.2020 (art. 139, lid 1). De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen (art. 139, lid 2))
 
 (…)
 
-#### HOOFDSTUK VII - Afwijkende bepalingen
+### HOOFDSTUK VII - Afwijkende bepalingen
 
-## Art. 64
+#### Art. 64
 
 (gewijzigd bij art. 4 van het koninklijk besluit van 22.08.1980 (B.S., 02.09.1980 – Numac: 1980082202). Tekst van toepassing vanaf 01.09.1980 (art. 13))
 
@@ -845,7 +849,7 @@ op de spelen en weddenschappen ingesteld bij artikel 43 en, anderzijds, in de bu
 
 De Koning oefent de Hem verleende bevoegdheid uit, hetzij door het sluiten van internationale overeenkomsten, hetzij bij wege van met redenen omklede besluiten die vaststellen dat de vereiste wederkerigheid bestaat.
 
-## Art. 65
+#### Art. 65
 
 In afwijking van de artikelen 53 tot 56 en 60, § 1, mag die Minister van Financiën:
 
@@ -855,11 +859,11 @@ In afwijking van de artikelen 53 tot 56 en 60, § 1, mag die Minister van Financ
 
 3° voor de categorieën van spelen en weddenschappen en onder de door hem bepaalde voorwaarden, de verplichting opleggen de belasting, zelfs vooraf, te betalen onder de vorm van een forfaitaire storting waarvan het bedrag vast te stellen is rekening gehouden met de aard en de wijze van inrichting der spelen en weddenschappen.
 
-#### HOOFDSTUK VIII - Bijzondere bepalingen in verband met de paardenwedrennen
+### HOOFDSTUK VIII - Bijzondere bepalingen in verband met de paardenwedrennen
 
 (vervangen bij art. 48 van de wet van 10.01.2010 (B.S., 01.02.2010 – Numac: 2010009070). Tekst van toepassing vanaf 01.01.2011 (art. 61, lid 1). De Koning kan voor iedere bepaling van deze wet een datum van inwerkingtreding bepalen (art. 61, lid 2))
 
-## Art. 66
+#### Art. 66
 
 (gewijzigd bij art. 49 van de wet van 10.01.2010 (B.S., 01.02.2010 – Numac: 2010009070). Tekst van toepassing vanaf 01.01.2011 (art. 61, lid 1). De Koning kan voor iedere bepaling van deze wet een datum van inwerkingtreding bepalen (art. 61, lid 2))
 
@@ -871,23 +875,23 @@ In afwijking van de artikelen 53 tot 56 en 60, § 1, mag die Minister van Financ
 
 1° de voorwaarden waaraan het verlenen en het behouden der toelating ondergeschikt zijn.
 
-## Art. 67
+#### Art. 67
 
 (opgeheven bij art. 50 van de wet van 10.01.2010 (B.S., 01.02.2010 – Numac: 2010009070). Tekst van toepassing vanaf 01.01.2011 (art. 61, lid 1). De Koning kan voor iedere bepaling van deze wet een datum van inwerkingtreding bepalen (art. 61, lid 2))
 
 (…)
 
-#### HOOFDSTUK IX - Sancties
+### HOOFDSTUK IX - Sancties
 
 (vervangen bij art. 7, § 1 van de wet van 10.02.1981 (B.S., 14.02.1981 – Numac: 1981000212). Tekst van toepassing vanaf de dag van de bekendmaking in het B.S. van de herstelwet inzake inkomensmatiging, zijnde 14.02.1981 (art. 22))
 
-## Art. 68
+#### Art. 68
 
 (gewijzigd bij art. 12 van het koninklijk besluit van 18.04.1967 (B.S., 20.04.1967 – Numac: 1967041816). Tekst van toepassing vanaf de eerste dag van de maand volgend op die gedurende dit besluit in het B.S. is bekendgemaakt, zijnde 01.05.1967 (art. 20, 1°))
 
 In geval van bedrog of verzuim, hetzij in het register of in de tickets, kaarten of biljetten bedoeld bij de artikelen 54, eerste lid, en 55, hetzij in de voorgeschreven aangiften, wordt de belasting vervijfvoudigd; desnoods wordt zij van ambtswege vastgesteld op grond van de vermoedelijke ontvangsten.
 
-## Art. 69
+#### Art. 69
 
 (vervangen bij art. 7, § 2 van de wet van 10.02.1981 (B.S., 14.02.1981 – Numac: 1981000212). Tekst van toepassing vanaf de dag van de bekendmaking in het B.S. van de herstelwet inzake inkomensmatiging, zijnde 14.02.1981 (art. 22))
 
@@ -895,7 +899,7 @@ Onverminderd de toepassing van de bepalingen van hoofdstuk VII van het Eerste Bo
 
 gelden bestemd tot de dienst van spelen of van weddenschappen in ontvangst te nemen, ze inzamelt of ze stort.
 
-## Art. 70
+#### Art. 70
 
 (gewijzigd bij art. 68 van de wet van 13.04.2019 (B.S., 30.04.2019 – ed. 1 – Numac: 2019041000). Tekst van toepassing vanaf 01.01.2020 (art. 139, lid 1). De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen (art. 139, lid 2))
 
@@ -911,27 +915,27 @@ De beslissing tot sluiting van de inrichting of tot verbod om inzetten of wedden
 
 De voorziening schorst de uitvoering van de beslissing niet wanneer deze laatste genomen werd wegens de weigering de reglementaire controlemaatregelen na te leven, of de belasting te betalen, ofwel, wegens het verzet tegen het optreden van de agenten van toezicht.
 
-## Art. 71
+#### Art. 71
 
 (gewijzigd bij art. 2, 1 van het KB van 20.07.2000 (B.S., 30.08.2000 – ed. 1 – Numac: 2000003467). Tekst van toepassing vanaf 01.01.2002 (art. 7, § 2), zelf gewijzigd bij art. 42, 5° van het KB van 13.07.2001 (B.S., 11.08.2001 – ed. 1). Tekst van toepassing vanaf 01.01.2002 (art. 45, § 1))
 
 Hij die hetzij rechtstreeks, hetzij onrechtstreeks, hetzij door een tussenpersoon, de sluiting of het verbod uitgesproken krachtens artikel 70 schendt, wordt gestraft met gevangenisstraf van acht dagen tot twee jaar en met boete van 250 EUR tot 12.500 EUR of met één van die straffen alleen.
 
-## Art. 72
+#### Art. 72
 
 (hersteld bij art. 7, § 3 van de wet van 10.02.1981 (B.S., 14.02.1981 – Numac: 1981000212). Tekst van toepassing vanaf de dag van de bekendmaking in het B.S. van de herstelwet inzake inkomensmatiging, zijnde 14.02.1981 (art. 22))
 
 De wet van 5 maart 1952, gewijzigd bij de wetten van 22 december 1969 en 29 juni 1975, betreffende de opdecimes op de strafrechtelijke geldboeten, vindt geen toepassing op de misdrijven bedoeld in artikel 71.
 
-## Art. 73
+#### Art. 73
 
 (opgeheven bij art. 8 van de wet van 10.02.1981 (B.S., 14.02.1981 – Numac: 1981000212). Tekst van toepassing vanaf de dag van de bekendmaking in het B.S. van de herstelwet inzake inkomensmatiging, zijnde 14.02.1981 (art. 22))
 
 (…)
 
-#### HOOFDSTUK X - Bevoegdheid van de provincies en de gemeenten
+### HOOFDSTUK X - Bevoegdheid van de provincies en de gemeenten
 
-## Art. 74
+#### Art. 74
 
 (gewijzigd bij art. 2, 1 van het KB van 20.07.2000 (B.S., 30.08.2000 – ed. 1 – Numac: 2000003467). Tekst van toepassing vanaf 01.01.2002 (art. 7, § 2), zelf gewijzigd bij art. 42, 5° van het KB van 13.07.2001 (B.S., 11.08.2001 – ed. 1). Tekst van toepassing vanaf 01.01.2002 (art. 45, § 1))
 
@@ -939,17 +943,17 @@ De provincies en de gemeenten mogen onder welke vorm ook, geen belastingen heffe
 
 De provincies alsmede de gemeenten mogen nochtans een belasting heffen op de agentschappen voor weddenschappen op paardenwedrennen toegelaten in het kader van artikel 66. De provinciale- en de gemeentebelasting mogen ieder, per agentschap, niet meer bedragen dan respectievelijk 37,50 EUR en 62 EUR per maand bedrijvigheid of per gedeelte daarvan.
 
-## Art. 75
+#### Art. 75
 
 (opgeheven bij art. 19 van de wet van 28.12.1973 (B.S., 29.12.1973 – Numac: 1973122801). Tekst van toepassing vanaf aanslagjaar 1974 (art. 57))
 
 (…)
 
-### TITEL IV - BELASTING OP DE AUTOMATISCHE ONTSPANNINGSTOESTELLEN
+## TITEL IV - BELASTING OP DE AUTOMATISCHE ONTSPANNINGSTOESTELLEN
 
-#### HOOFDSTUK I - Belastbare toestellen
+### HOOFDSTUK I - Belastbare toestellen
 
-## Art. 76
+#### Art. 76
 
 § 1. Een jaarlijkse forfaitaire belasting wordt geheven op de automatische toestellen dienende tot ontspanning, opgesteld op de openbare weg, in de voor liet publiek toegankelijke plaatsen of in private kringen, ongeacht of de toegang tot deze kringen al dan niet onderworpen is aan bepaalde formaliteiten.
 
@@ -960,7 +964,7 @@ Nota:
 § 2. In afwijking van artikel 83 van hetzelfde wetboek geschiedt voor de in paragraaf 1 bedoelde toestellen, de betaling voor het belastingjaar 2021, ofwel vóór 1 juli 2021, zo het voormelde toestel op die datum opgesteld is, ofwel vóór de opstelling van het toestel, zo het voormelde toestel na 1 juli 2021 zou worden opgesteld.
 § 3. Indien voor de in paragraaf 1 bedoelde toestellen de in artikel 76 van het hetzelfde wetboek bedoelde belasting volledig werd betaald voor het belastingjaar 2021 zal de helft van het betaalde bedrag worden teruggestort.“ (art. 1 van het bijzonderemachtenbesluit van de Brusselse Hoofdstedelijke Regering nr. 2020/053 met betrekking tot de belasting op de automatische ontspanningstoestellen verschuldigd voor het belastingjaar 2021 op grond van de gezondheidscrisis van de COVID-19 van 07.01.2021(B.S., 21.01.2021 – Numac: 2021030064). Inwerkingtreding op 01.01.2021 (art. 2)).
 
-## Art. 77
+#### Art. 77
 
 (aangevuld bij art. 3 van de ordonnantie van 20.12.2002 (B.S., 26.02.2003 – ed. 1 – Numac: 2002031660) err. (B.S., 02.07.2004 – ed. 1 – Numac: 2004031361). Tekst van toepassing vanaf 01.01.2003 (art. 5))
 
@@ -968,15 +972,15 @@ Vallen echter niet onder toepassing van deze titel, de toestellen waarvan het be
 
 Wat het Brussels Hoofdstedelijk gewest betreft, vallen toestellen die samen uitgebaat worden door de inrichter van casinospelen, als bedoeld in artikel 45, niet onder de toepassing van deze titel.
 
-#### HOOFDSTUK II - Belastingschuldigen
+### HOOFDSTUK II - Belastingschuldigen
 
-## Art. 78
+#### Art. 78
 
 De belasting is verschuldigd door de eigenaar van het toestel. Nochtans, in geval van niet-betaling, wordt de persoon die als uitbater van lokalen of andere plaatsen bedoeld bij artikel 76, toelaat hierin het toestel op te stellen, als belastingschuldige beschouwd.
 
-#### HOOFDSTUK III - Bedrag van de belasting
+### HOOFDSTUK III - Bedrag van de belasting
 
-## Art. 79
+#### Art. 79
 
 (gewijzigd bij art. 58 van de wet van 25.04.2014 (B.S., 16.05.2014 – Numac: 2014003219). Tekst van toepassing de dag van haar bekendmaking in het B.S., zijnde 16.05.2014 (art. 99))
 
@@ -1035,7 +1039,7 @@ De Brusselse Hoofdstedelijke Regering zal een ontwerp van ordonnantie tot bevest
 De administrateur-generaal van de administratie belast met de vestiging van de met de inkomstenbelastingen gelijkgestelde belastingen bepaalt het model van de aangifte bedoeld in het vorige lid.
 Deze aangifte dient te worden gestaafd met een foto van het toestel of een gelijkaardig document.
 
-## Art. 80
+#### Art. 80
 
 (gewijzigd bij art. 2 van de ordonnantie van 16.12.2011 (B.S., 18.01.2012 – ed. 2 – Numac: 2012031014). Tekst van toepassing vanaf 01.01.2012 (art. 4))
 
@@ -1055,7 +1059,7 @@ De in euro uitgedrukte bedragen, bepaald in deze paragraaf, worden jaarlijks aan
 
 Indien dergelijke combinatie de aard vertoont van een competitiespel, wordt het aantal belastbare toestellen evenwel beperkt tot het aantal tekens, nummers, figuren of andere voorwerpen die in het spel kunnen worden betrokken.
 
-## Art. 81
+#### Art. 81
 
 (gewijzigd bij art. 53 van de wet van 27.04.2016 (B.S., 06.05.2016 – Numac: 2016003144). Tekst van toepassing vanaf 16.05.2016 (art. -))
 
@@ -1065,11 +1069,11 @@ De belasting wordt verminderd tot:
 
 2° 1/2 van haar bedrag voor het hele jaar voor de toestellen uitsluitend opgesteld in een seizoenbedrijf. Wordt als dusdanig aangezien, elk bedrijf met uitsluiting van de drankgelegenheden, dat niet meer dan zes maanden per jaar voor het publiek toegankelijk is. Dat tijdperk kan met dertig dagen worden verlengd op voorwaarde dat er vooraf aangifte wordt van gedaan bij de bevoegde ambtenaar van de administratie belast met de vestiging van de met de inkomstenbelastingen gelijkgestelde belastingen in wiens gebied die toestellen staan opgesteld.
 
-#### HOOFDSTUK IV - Eisbaarheid van de belasting, aangifte en inning
+### HOOFDSTUK IV - Eisbaarheid van de belasting, aangifte en inning
 
 (titel vervangen bij art. 69 van de wet van 13.04.2019 (B.S., 30.04.2019 – ed. 1 – Numac: 2019041000). Tekst van toepassing vanaf 01.01.2020 (art. 139, lid 1). De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen (art. 139, lid 2))
 
-## Art. 82
+#### Art. 82
 
 De belasting is over het ganse jaar verschuldigd wanneer het toestel in de loop van het eerste kwartaal wordt opgesteld; slechts de drie vierden, de helft of het vierde ervan zijn verschuldigd naargelang de opstelling in de loop van het tweede, het derde of het vierde kwartaal geschiedt. (1) (2)
 ----------
@@ -1086,7 +1090,7 @@ In voornoemd document verklaren zij dat de som van het gecumuleerde bedrag aan d
 1° niet meer bedraagt dan 200.000 euro over drie belastingjaren, en
 2° niet meer bedraagt dan hun verlies aan zakencijfer.” (art. 3 van de Ord. van 22.07.2021 met betrekking tot de belasting op de automatische ontspanningstoestellen verschuldigd voor het belastingjaar 2021 op grond van de gezondheidscrisis van de COVID-19 (B.S., 05.08.2021 – Numac: 2021042613). Inwerkingtreding op 01.01.2021 (art. 4)).
 
-## Art. 83
+#### Art. 83
 
 (gewijzigd bij art. 59 van de wet van 25.04.2014 (B.S., 16.05.2014 – Numac: 2014003219). Tekst van toepassing de dag van haar bekendmaking in het B.S., zijnde 16.05.2014 (art. 99))
 
@@ -1106,7 +1110,7 @@ In voornoemd document verklaren zij dat de som van het gecumuleerde bedrag aan d
 
 2° niet meer bedraagt dan hun verlies aan zakencijfer.” (art. 3 van de Ord. van 22.07.2021 met betrekking tot de belasting op de automatische ontspanningstoestellen verschuldigd voor het belastingjaar 2021 op grond van de gezondheidscrisis van de COVID-19 (B.S., 05.08.2021 – Numac: 2021042613). Inwerkingtreding op 01.01.2021 (art. 4)).
 
-## Art. 84
+#### Art. 84
 
 (gewijzigd bij art. 60 van de wet van 25.04.2014 (B.S., 16.05.2014 – Numac: 2014003219). Tekst van toepassing de dag van haar bekendmaking in het B.S., zijnde 16.05.2014 (art. 99))
 
@@ -1124,9 +1128,9 @@ Hij mag nochtans weigeren dit kenteken af te leveren:
 
 § 3. De administrateur-generaal van de administratie belast met de vestiging van de met de inkomstenbelastingen gelijkgestelde belastingen bepaalt het model van het borderel en van het fiscaal kenteken.
 
-#### HOOFDSTUK V - Controlemaatregelen
+### HOOFDSTUK V - Controlemaatregelen
 
-## Art. 85
+#### Art. 85
 
 (gewijzigd bij art. 8 van de wet van 24.12.1976 (B.S., 28.12.1976 – Numac: 1976122405). Tekst van toepassing vanaf aanslagjaar 1977 (art. 14))
 
@@ -1136,23 +1140,23 @@ In geval van verkoop van het toestel is de nieuwe eigenaar gemachtigd het voorhe
 
 Elke overtreding van de bepalingen van dit artikel wordt gelijkgesteld met niet-betaling van de belasting.
 
-## Art. 86
+#### Art. 86
 
 De fiscale kentekens worden slechts vervangen in geval van teruggave en wanneer hun identificatie mogelijk is, met uitzondering echter voor de gevallen waarin het kenteken vernield werd ten gevolge van een ramp en het onbetwistbaar bewijs van zijn vernietiging geleverd wordt.
 
-## Art. 87
+#### Art. 87
 
 (gewijzigd bij art. 3 van het koninklijk besluit van 29.03.1994 (B.S., 19.04.1994 – Numac: 1994003259). Tekst van toepassing vanaf aanslagjaar 1992 (art. 6))
 
 De personen, houders van lokalen zoals bedoeld in artikel 76, en, in voorkomend geval, de bewoner van het gebouw waarin deze lokalen zijn gelegen, zijn verplicht toegang tot de inrichting te verlenen aan de toezichtambtenaren aangewezen in artikel 176 van het KB/WIB 92, die belast zijn met het opsporen en het vaststellen van de overtredingen van deze titel en van de eventueel te nemen besluiten. De regelen betreffende de processen-verbaal bedoeld in voormeld artikel 176 zijn terzake van toepassing.
 
-## Art. 88
+#### Art. 88
 
 De Minister van Financiën schrijft alle nodig geachte controlemaatregelen voor.
 
-#### HOOFDSTUK VI - Sancties en strafbepalingen
+### HOOFDSTUK VI - Sancties en strafbepalingen
 
-## Art. 89
+#### Art. 89
 
 (gewijzigd bij art. 18 van het koninklijk besluit van 18.04.1967 (B.S., 20.04.1967 – Numac: 1967041816). Tekst van toepassing vanaf 01.05.1967 (art. 20, 5°))
 
@@ -1164,22 +1168,22 @@ De van ambtswege vastgestelde belasting moet onmiddellijk worden betaald.
 
 De belasting mag gevestigd worden binnen een termijn van drie jaar, die aanvangt op 1 januari van het aanslagjaar waarvoor zijn verschuldigd is.
 
-## Art. 90
+#### Art. 90
 
 (opgeheven bij art. 8 van de wet van 10.02.1981 (B.S., 14.02.1981 – Numac: 1981000212). Tekst van toepassing vanaf de dag van de bekendmaking in het B.S. van de herstelwet inzake inkomensmatiging, zijnde 14.02.1981 (art. 22))
 
 (…)
 
-#### HOOFDSTUK VII - Automatische kansspeltoestellen waarvan de exploitatie verboden is
+### HOOFDSTUK VII - Automatische kansspeltoestellen waarvan de exploitatie verboden is
 
-## Art. 91
+#### Art. 91
 
 (gewijzigd bij art. 134 van de wet van 01.03.2007 (B.S., 14.03.2007 – Numac: 2007200604). Tekst van toepassing vanaf 30.12.2000 (art. 135). Deze wijziging wordt vernietigd door het arrest nr. 124/2008 van het Grondwettelijk Hof van 1 sep.
 2008 (B.S., 18.09.2008))
 
 De bepalingen van titel IV, met uitzondering van de artikelen 76, 80, § 2, 87, 88 en 93 zijn niet van toepassing op de automatische kansspeltoestellen waarvan de exploitatie is verboden krachtens artikel 1 van de wet van 24 oktober 1902 betreffende het spel, aangevuld bij de wet van 19 april 1963 en bij artikel 1 van de wet van 22 november 1974.
 
-## Art. 92
+#### Art. 92
 
 (gewijzigd bij art. 3 van de ordonnantie van 16.12.2011 (B.S., 18.01.2012 – ed. 2 – Numac: 2012031014). Tekst van toepassing vanaf 01.01.2012 (art. 4))
 
@@ -1189,21 +1193,21 @@ De eigenaar alsmede de persoon die toestemde in de opstelling van het toestel zi
 
 De ambtshalve gevestigde belasting is onmiddellijk te betalen; Zij kan worden gevestigd in een termijn van drie jaar vanaf 1 januari van het aanslagjaar waarvoor zij verschuldigd is.
 
-#### Hoofdstuk VIII - Bevoegdheid van de provincies en gemeenten
+### Hoofdstuk VIII - Bevoegdheid van de provincies en gemeenten
 
 (opschrift vernummerd bij art. 9 van de wet van 24.12.1976 (B.S., 28.12.1976 – Numac: 1976122405). Tekst van toepassing vanaf aanslagjaar 1977 (art. 14))
 
-## Art. 93
+#### Art. 93
 
 (vernummerd bij art. 9 van de wet van 24.12.1976 (B.S., 28.12.1976 – Numac: 1976122405). Tekst van toepassing vanaf aanslagjaar 1977 (art. 14))
 
 De provincies en de gemeenten mogen onder welke vorm ook geen belastingen heffen op de automatische ontspanningstoestellen belastbaar krachtens deze titel.
 
-### TITEL V - BELASTING OP DE INVERKEERSTELLING
+## TITEL V - BELASTING OP DE INVERKEERSTELLING
 
-#### HOOFDSTUK I - Belastbare voertuigen
+### HOOFDSTUK I - Belastbare voertuigen
 
-## Art. 94
+#### Art. 94
 
 (1°, gewijzigd bij art. 2 van de bijzondere wet van 27.12.2005 (B.S., 30.12.2005 – ed. 2). Tekst van toepassing vanaf 01.01.2005 (aanslagjaar 2006) (art. 3))
 
@@ -1217,7 +1221,7 @@ van een andere nummerplaat dan een in het kader van de bedoelde regeling uitgere
 
 3° de jachten en pleziervaartuigen langer dan 7,5 meter, wanneer voor deze een vlaggebrief is of moet zijn afgeleverd, wanneer de wegvoertuigen, luchtvaartuigen of boten, op de openbare weg in het verkeer worden gesteld of gebruikt in België.
 
-## Art. 95
+#### Art. 95
 
 (gewijzigd bij art. 24 van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing vanaf 01.01.2020 (art. 26) en overgangsbepaling) (1)
 
@@ -1226,9 +1230,9 @@ Voor zover er door de bepalingen van deze titel niet wordt afgeweken, zijn de ar
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-#### HOOFDSTUK II - Vrijstellingen
+### HOOFDSTUK II - Vrijstellingen
 
-## Art. 96
+#### Art. 96
 
 (gewijzigd bij art. 3 van de ordonnantie van 18.12.2020 (B.S., 05.01.2021 – Numac: 2020044602). Tekst van toepassing vanaf 01.01.2021 (art. 4))
 
@@ -1254,19 +1258,19 @@ De vrijstelling van de voertuigen bedoeld in het eerste lid, 4° is niet van toe
 
 De Brusselse Hoofdstedelijke Regering kan de voorwaarden en de regels voor de toepassing van dit artikel vaststellen.
 
-#### HOOFDSTUK III - Belastbare grondslag
+### HOOFDSTUK III - Belastbare grondslag
 
 (ingevoegd bij art. 1 van de wet van 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992). Tekst van toepassing vanaf 01.06.1992 (art. 3))
 
-## Art. 97
+#### Art. 97
 
 (ingevoegd bij art. 1 van de wet van 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992). Tekst van toepassing vanaf 01.06.1992 (art. 3))
 
 De belasting is, voor de wegvoertuigen, verschuldigd op grond van het vermogen van de motor uitgedrukt hetzij in fiscale paardenkracht, hetzij in kilowatt.
 
-#### HOOFDSTUK IV - Bedrag der belasting
+### HOOFDSTUK IV - Bedrag der belasting
 
-## Art. 98
+#### Art. 98
 
 (gewijzigd bij art. 22 van de ordonnantie van 12.12.2016 (B.S., 29.12.2016 – ed. 3 – Numac: 2016031878). Tekst van toepassing vanaf 01.01.2016 (art. 41))
 
@@ -1320,17 +1324,17 @@ Voor de luchtvaartuigen en boten van 10 jaar en meer wordt de belasting eenvormi
 
 De Koning zal bij de Wetgevende Kamers, onmiddellijk indien ze in zitting zijn, zoniet bij de opening van de eerstvolgende zitting, een ontwerp van wet indienen tot bekrachtiging van de ter uitvoering van het eerste lid genomen besluiten.
 
-## Art. 98bis
+#### Art. 98bis
 
 (ingevoegd bij art. 3 van de ordonnantie van 25.04.2024 (B.S., 15.05.2024 – Numac: 2024004157). Tekst van toepassing vanaf 01.07.2024 (art. 5))
 
 Tenzij de belastingplichtige een vennootschap, een autonoom overheidsbedrijf of een vereniging zonder winstgevend doel met leasingactiviteiten is, zijn de bedragen van de belasting, vermeld in artikel 98, § 1, § 1bis, derde lid, en § 2, tweede, derde en vijfde lid, gekoppeld aan de schommelingen van het algemene indexcijfer der consumptieprijzen van het Rijk. De aanpassing van de belastingbedragen wordt uitgevoerd op 1 juli van elk jaar op grond van de schommelingen van het algemeen indexcijfer der consumptieprijzen vastgesteld tussen de maand mei van het jaar 2019 en de maand mei van het lopende jaar.
 
-#### HOOFDSTUK V - Ontstaan van de belastingschuld en inningsregels
+### HOOFDSTUK V - Ontstaan van de belastingschuld en inningsregels
 
 (ingevoegd bij art. 1 van de wet van 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992). Tekst van toepassing vanaf 1 jun 1992 (art. 3))
 
-## Art. 99
+#### Art. 99
 
 (ingevoegd bij art. 1 van de wet van 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992). Tekst van toepassing vanaf 1 jun 1992 (art. 3))
 
@@ -1340,7 +1344,7 @@ Tenzij de belastingplichtige een vennootschap, een autonoom overheidsbedrijf of 
 
 § 3. De in artikel 94, 3°, bedoelde boten worden geacht in België te zijn gebruikt wanneer voor deze een vlaggebrief is of moet zijn uitgereikt door het Bestuur van het Zeewezen en van de Binnenvaart.
 
-## Art. 100
+#### Art. 100
 
 (§ 2, gewijzigd bij art. 16 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688). Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18))
 
@@ -1350,14 +1354,14 @@ Tenzij de belastingplichtige een vennootschap, een autonoom overheidsbedrijf of 
 
 samenwonenden of een overdracht tussen gescheiden personen ingevolge de echtscheiding of de stopzetting van de wettelijke samenwoning, op voorwaarde dat de overdrager voor ditzelfde voertuig, luchtvaartuig of boot reeds de belasting heeft betaald.
 
-## Art. 101
+#### Art. 101
 
 (ingevoegd bij art. 1 van de wet van du 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992).
 Tekst van toepassing vanaf 01.06.1992 (art. 3))
 
 De plaats van aanslag is de gemeente vermeld op het inschrijvingsbewijs of op de vlaggebrief op het ogenblik van het ontstaan van de belastingschuld.
 
-## Art. 102
+#### Art. 102
 
 (opgeheven bij art. 25, 7° van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing vanaf 01.01.2020 (art. 26) en overgangsbepaling (1))
 
@@ -1366,13 +1370,13 @@ De plaats van aanslag is de gemeente vermeld op het inschrijvingsbewijs of op de
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-## Art. 103
+#### Art. 103
 
 (vervangen bij art. 45 van de wet van 28.12.1992 (B.S., 31.12.1992 – ed. 3 – Numac: 1992003810). Tekst van toepassing vanaf 01.06.1992 (art. 47))
 
 De belasting is verbonden aan een aanslagjaar dat begint op de eerste dag van de maand waarin de belasting verschuldigd is. Deze aanslagjaren worden genoemd naar het jaar waarin de belasting verschuldigd is.
 
-## Art. 103bis
+#### Art. 103bis
 
 (opgeheven bij art. 25, 8° van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing vanaf 01.01.2020 (art. 26) en overgangsbepaling (1))
 
@@ -1382,7 +1386,7 @@ De belasting is verbonden aan een aanslagjaar dat begint op de eerste dag van de
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-## Art. 104
+#### Art. 104
 
 (opgeheven bij art. 25, 9° van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing vanaf 01.01.2020 (art. 26) en overgangsbepaling (1))
 
@@ -1391,7 +1395,7 @@ Nota:
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-## Art. 105
+#### Art. 105
 
 (gewijzigd bij art. 95 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019). Tekst van toepassing vanaf 01.01.2020 (art.
 102) en overgangsbepaling (1))
@@ -1403,9 +1407,9 @@ De Brusselse Hoofdstedelijke Regering regelt de uitvoering van dit artikel.
 Nota:
 (1) De wet van 13 april 2019 tot invoering van het Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen heeft geen uitwerking ten aanzien van de bepalingen van het Wetboek van de inkomstenbelastingen 1992 en het Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen, zoals ze van toepassing zijn op de belastingen bedoeld in artikel 3, eerste lid, 5°, 10° en 11° van de Bijzondere wet van 16 januari 1989 betreffende de financiering van de Gemeenschappen en de Gewesten (art. 101).
 
-#### HOOFDSTUK VI - Controlemaatregelen
+### HOOFDSTUK VI - Controlemaatregelen
 
-## Art. 106
+#### Art. 106
 
 (opgeheven bij art. 25, 10° van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing vanaf 01.01.2020 (art. 26) en overgangsbepaling (1))
 
@@ -1414,61 +1418,61 @@ Nota:
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-#### HOOFDSTUK VII - Bevoegdheid van de gemeenschappen, de gewesten, de provincies, de agglomeraties en de gemeenten
+### HOOFDSTUK VII - Bevoegdheid van de gemeenschappen, de gewesten, de provincies, de agglomeraties en de gemeenten
 
 (ingevoegd bij art. 1 van de wet van 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992). Tekst van toepassing vanaf 01.06.1992 (art. 3))
 
-## Art. 107
+#### Art. 107
 
 (ingevoegd bij art. 1 van de wet van 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992). Tekst van toepassing vanaf 01.06.1992 (art. 3))
 
 De Gemeenschappen, de Gewesten, de provincies, de agglomeraties en de gemeenten zijn niet gerechtigd de opcentiemen op de belasting op de inverkeerstelling te heffen.
 
-### TITEL VI - (…)
+## TITEL VI - (…)
 
 (titel opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183).
 Tekst van toepassing vanaf aanslagjaar 2008 (art. 14))
 De accijnscompenserende belasting wordt helemaal afgeschaft vanaf aanslagjaar 2008.
 
-## Art. 108
+#### Art. 108
 
 (opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183). Tekst van toepassing vanaf aanslagjaar 2008 (art. 14))
 
 (…)
 
-## Art. 109
+#### Art. 109
 
 (opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183). Tekst van toepassing vanaf aanslagjaar 2008 (art. 14))
 
 (…)
 
-## Art. 109bis
+#### Art. 109bis
 
 (opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183). Tekst van toepassing vanaf aanslagjaar 2008 (art. 14))
 
 (…)
 
-## Art. 110
+#### Art. 110
 
 (opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183). Tekst van toepassing vanaf aanslagjaar 2008 (art. 14))
 
 (…)
 
-## Art. 111
+#### Art. 111
 
 (opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183). Tekst van toepassing vanaf aanslagjaar 2008 (art. 14))
 
 (…)
 
-### TITEL VII - BELASTING OP DE WERKNEMERSPARTICIPATIE IN HET KAPITAAL
+## TITEL VII - BELASTING OP DE WERKNEMERSPARTICIPATIE IN HET KAPITAAL
 VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE VOOR DE WERKNEMERS
 
 (opschrift in de Franse tekst gewijzigd bij art. 19 van de wet van 30.07.2018 (B.S., 10.08.2018 – Numac: 2018031626).
 Tekst van toepassing vanaf 01.01.2018 (art. 21))
 
-#### HOOFDSTUK I - Belastbaar feit
+### HOOFDSTUK I - Belastbaar feit
 
-## Art. 112
+#### Art. 112
 
 (gewijzigd bij art. 70 van de programmawet van 25.12.2017 (B.S., 29.12.2017 – ed. 1 – Numac: 2017032136). Tekst van toepassing vanaf 01.01.2018 (art. 78))
 
@@ -1476,9 +1480,9 @@ Er wordt een belasting vastgesteld ten laste van de werknemers op de deelname in
 
 Er wordt een aanvullende belasting vastgesteld ten laste van de werknemers in geval van niet-naleving van de voorwaarde van onbeschikbaarheid van de deelname bepaald in de artikelen 11 en 19 van de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers of van het deelbewijs vermeld in artikel 15, § 1, van dezelfde wet.
 
-#### HOOFDSTUK II - Belastbare grondslag
+### HOOFDSTUK II - Belastbare grondslag
 
-## Art. 113
+#### Art. 113
 
 (gewijzigd bij art. 20 van de wet van 30.07.2018 (B.S., 10.08.2018 – Numac: 2018031626). Tekst van toepassing vanaf 01.01.2018 (art. 21))
 
@@ -1499,15 +1503,15 @@ Er wordt een aanvullende belasting vastgesteld ten laste van de werknemers in ge
 
 - in de andere gevallen, niet kleiner zijn dan de werkelijke waarde van het aandeel op het moment van de toekenning ervan, vastgesteld door de vennootschap die het toekent overeenkomstig het gelijkluidend advies van een bedrijfsrevisor of externe accountant die ze heeft aangewezen. Die waarde mag evenwel niet lager zijn dan de boekwaarde van de aandelen zoals blijkt uit de laatste jaarrekening van de uitgevende vennootschap die afgesloten en goedgekeurd is door het bevoegde orgaan vóór de datum van de toekenning.
 
-## Art. 114
+#### Art. 114
 
 (gewijzigd bij art. 72 van de programmawet van 25.12.2017 (B.S., 29.12.2017 – ed. 1 – Numac: 2017032136). Tekst van toepassing vanaf 01.01.2018 (art. 78))
 
 De belastbare grondslag van de aanvullende belasting komt overeen met die welke werd vastgesteld met toepassing van artikel 113, § 1, 2°, als het een participatie in het kapitaal betreft of met toepassing van artikel 113, § 1, 3°, als het een winstpremie voor de werknemers is in het kader van een investeringsspaarplan en wordt beperkt in evenredigheid met de beschikbaar geworden aandelen of deelbewijzen met aftrek, in de twee gevallen, van de belasting bedoeld in artikel 112, eerste lid.
 
-#### HOOFDSTUK III - Opeisbaarheid van de belasting
+### HOOFDSTUK III - Opeisbaarheid van de belasting
 
-## Art. 115
+#### Art. 115
 
 (gewijzigd bij art. 73 van de programmawet van 25.12.2017 (B.S., 29.12.2017 – ed. 1 – Numac: 2017032136). Tekst van toepassing vanaf 01.01.2018 (art. 78))
 
@@ -1517,15 +1521,15 @@ Als toekenning wordt inzonderheid beschouwd, de inschrijving van het aandeel op 
 
 en 19, § 1, van de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers.
 
-## Art. 116
+#### Art. 116
 
 (gewijzigd bij art. 74 van de programmawet van 25.12.2017 (B.S., 29.12.2017 – ed. 1 – Numac: 2017032136). Tekst van toepassing vanaf 01.01.2018 (art. 78))
 
 De bijkomende belasting is verschuldigd op het moment dat de onbeschikbaarheid van de participatie, bedoeld in de artikelen 11 en 19, § 1, of van de deelbewijzen, bedoeld in artikel 15, § 1, van de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers, ophoudt behalve in de gevallen bedoeld in de artikelen 11, § 3, 15, § 2 of 19, § 3, van genoemde wet.
 
-#### HOOFDSTUK IV - Belastingtarieven
+### HOOFDSTUK IV - Belastingtarieven
 
-## Art. 117
+#### Art. 117
 
 (§ 1, vervangen bij art. 75 van de programmawet van 25.12.2017 (B.S., 29.12.2017 – ed. 1 – Numac: 2017032136).
 Tekst van toepassing vanaf 01.01.2018 (art. 78))
@@ -1540,9 +1544,9 @@ Tekst van toepassing vanaf 01.01.2018 (art. 78))
 
 § 2. De aanslagvoet van de aanvullende belasting wordt vastgesteld op 23,29 %.
 
-#### HOOFDSTUK V - Schuldenaars van de belasting
+### HOOFDSTUK V - Schuldenaars van de belasting
 
-## Art. 118
+#### Art. 118
 
 (gewijzigd bij art. 76 van de programmawet van 25.12.2017 (B.S., 29.12.2017 – ed. 1 – Numac: 2017032136). Tekst van toepassing vanaf 01.01.2018 (art. 78))
 
@@ -1558,12 +1562,12 @@ De inhouding van de aanvullende belasting wordt uitgevoerd ofwel door verkoop do
 
 3° in alle andere gevallen, de werkgever bedoeld in artikel 2 van de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers.
 
-#### HOOFDSTUK VI - Stortingswijze, vestiging en inning van de belasting
+### HOOFDSTUK VI - Stortingswijze, vestiging en inning van de belasting
 
 (titel vervangen in de Franse tekst bij art. 71 van de wet van 13.04.2019 (B.S., 30.04.2019 – ed. 1 – Numac: 2019041000).
 Tekst van toepassing vanaf 01.01.2020 (art. 139, lid 1). De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen (art. 139, lid 2))
 
-## Art. 119
+#### Art. 119
 
 (gewijzigd in de Franse tekst bij art. 72 van de wet van 13.04.2019 (B.S., 30.04.2019 – ed. 1 – Numac: 2019041000).
 Tekst van toepassing vanaf 01.01.2020 (art. 139, lid 1). De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen (art. 139, lid 2))

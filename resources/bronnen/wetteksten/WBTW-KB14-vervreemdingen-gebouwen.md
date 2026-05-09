@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 14 van 3 juni 1970, met betrekking tot de vervreemdingen van gebouwen, gedeelten van gebouwen en het bijhorende terrein

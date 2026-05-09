@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Klokkenluiderswet 2022
@@ -36,11 +40,11 @@ Titel
 
 Bron : ECONOMIE, KMO, MIDDENSTAND EN ENERGIE
 
-#### HOOFDSTUK 1. - Doel, toepassingsgebied en definities
+## HOOFDSTUK 1. - Doel, toepassingsgebied en definities
 
-##### Afdeling 1. - Doel
+### Afdeling 1. - Doel
 
-## Art. 1
+#### Art. 1
 
 § 1. Deze wet regelt een aangelegenheid als bedoeld in artikel 74 van de Grondwet.
 § 2. Deze wet heeft tot doel de tenuitvoerlegging van het Unierecht en -beleid op specifieke gebieden te verbeteren door de vaststelling van gemeenschappelijke minimumnormen die zorgen voor een hoog niveau van bescherming van melders van inbreuken op het Unierecht. Zij voorziet in de omzetting van Richtlijn (EU) 2019/1937 van het Europees Parlement en de Raad van 23 oktober 2019 inzake de bescherming van personen die inbreuken op het Unierecht melden met betrekking tot de juridische entiteiten in de private sector in het licht van de federale bevoegdheden.
@@ -58,9 +62,9 @@ Deze wet voorziet ook in:
 10° de tenuitvoerlegging van Verordening (EU) 2017/1129 van het Europees Parlement en de Raad van 14 juni 2017 betreffende het prospectus dat moet worden gepubliceerd wanneer effecten aan het publiek worden aangeboden of tot de handel op een gereglementeerde markt worden toegelaten en tot intrekking van Richtlijn 2003/71/EG, artikel 41;
 11° de omzetting van Richtlijn 2013/36/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende toegang tot het bedrijf van kredietinstellingen en het prudentieel toezicht op kredietinstellingen en beleggingsondernemingen, tot wijziging van Richtlijn 2002/87/EG en tot intrekking van de Richtlijnen 2006/48/EG en 2006/49/EG, artikel 71.
 
-##### Afdeling 2. - Materieel toepassingsgebied
+### Afdeling 2. - Materieel toepassingsgebied
 
-## Art. 2
+#### Art. 2
 
 Deze wet bepaalt gemeenschappelijke minimumnormen voor de bescherming van melders van de volgende inbreuken:
 1° inbreuken die betrekking hebben op de volgende gebieden:
@@ -80,7 +84,7 @@ Elke inbreuk op de wettelijke of reglementaire bepalingen of de rechtstreeks toe
 2° inbreuken waardoor de financiële belangen van de Unie als bedoeld in artikel 325 van het Verdrag betreffende de werking van de Europese Unie en nader toegelicht in relevante Uniemaatregelen en, indien van toepassing, in de nationale uitvoeringsbepalingen, worden geschaad;
 3° inbreuken in verband met de interne markt, als bedoeld in artikel 26, lid 2, van het Verdrag betreffende de werking van de Europese Unie, met inbegrip van inbreuken op de Unieregels inzake mededinging en staatssteun.
 
-## Art. 3
+#### Art. 3
 
 § 1. De bepalingen van deze wet doen geen afbreuk aan de bepalingen inzake het melden van inbreuken die opgenomen zijn in de wettelijke en reglementaire bepalingen en rechtstreeks toepasbare Europese bepalingen, bedoeld in artikel 4, met inbegrip van de bepalingen die in uitvoering hiervan zijn vastgesteld.
 De bepalingen inzake het melden van inbreuken die opgenomen zijn in de wettelijke en reglementaire bepalingen en rechtstreeks toepasbare Europese bepalingen, bedoeld in artikel 4, 1°, a), zijn van toepassing op de inbreuken zoals bedoeld in artikel 2, 1°, k).
@@ -89,7 +93,7 @@ De bepalingen van deze wet zijn van toepassing voor zover een aangelegenheid nie
 De bepalingen van deze wet zijn niettemin van toepassing in zover ze gunstiger zijn voor de melder.
 Deze wet doet evenmin afbreuk aan het recht van de werknemer om, indien hij het nuttig acht, zijn personeelsvertegenwoordiger en/of vakbond met betrekking tot zijn rechten en verplichtingen te raadplegen vooraleer een melding te doen.
 
-## Art. 4
+#### Art. 4
 
 De bepalingen bedoeld in artikel 3, § 1, zijn met name de volgende:
 1° op het gebied van voorkoming van witwassen van geld en terrorismefinanciering:
@@ -100,7 +104,7 @@ a) het koninklijk besluit van 30 juli 2021 tot optimalisatie van de maritieme ar
 b) Verordening (EU) nr. 376/2014 van het Europees Parlement en de Raad van 3 april 2014 inzake het melden, onderzoeken en opvolgen van voorvallen in de burgerluchtvaart en tot wijziging van Verordening (EU) nr.
 996/2010 van het Europees Parlement en de Raad en tot intrekking van Richtlijn 2003/42/EG van het Europees Parlement en de Raad en de Verordeningen (EG) nr. 1321/2007 en (EG) nr. 1330/2007 van de Commissie.
 
-## Art. 5
+#### Art. 5
 
 § 1. Deze wet is niet van toepassing op:
 1° op het gebied van de nationale veiligheid, behalve met betrekking tot meldingen van inbreuken op regels betreffende overheidsopdrachten op het gebied van defensie en veiligheid in zover die regels onderhevig zijn aan Richtlijn 2009/81/EG van het Europees Parlement en de Raad van 13 juli 2009, betreffende de coördinatie van de procedures voor het plaatsen door aanbestedende diensten van bepaalde opdrachten voor werken, leveringen en diensten op defensie- en veiligheidsgebied, en tot wijziging van Richtlijnen 2004/17/EG en 2004/18/EG;
@@ -111,9 +115,9 @@ Die informatie blijft onderhevig aan de betreffende bepalingen in het Unierecht 
 § 2. Deze wet doet geen afbreuk aan de regels met betrekking tot het strafprocesrecht.
 Desalniettemin zijn de maatregelen ter bescherming van de melders, bedoeld in de hoofdstukken 6 en 7, van toepassing op de melders die zich tot de gerechtelijke overheden richten in toepassing van artikel 30 van het Wetboek van Strafvordering in zover die beschermingsmaatregelen gunstiger zijn voor hen.
 
-##### Afdeling 3. - Personeel toepassingsgebied
+### Afdeling 3. - Personeel toepassingsgebied
 
-## Art. 6
+#### Art. 6
 
 § 1. Onverminderd het bepaalde in paragraaf 6, is deze wet van toepassing op in de private sector werkzame melders die informatie over inbreuken hebben verkregen in een werkgerelateerde context, met inbegrip van ten minste:
 1° de personen met de hoedanigheid van werknemer in de zin van artikel 45, lid 1, van het Verdrag betreffende de werking van de Europese Unie, met inbegrip van ambtenaren;
@@ -132,9 +136,9 @@ De maatregelen ter bescherming van de melders bedoeld in de hoofdstukken 6 en 7 
 § 7. De bepalingen van deze wet met betrekking tot de bescherming van melders zijn van toepassing op elke organisatie, al dan niet met rechtspersoonlijkheid, die onderworpen is aan de deelstaten voor zover een kwestie niet door de wetgeving van de gewesten en de gemeenschappen wordt geregeld en onder de bevoegdheid van de Federale Staat valt.
 De beschermingsmaatregelen bedoeld in de hoofdstukken 6 en 7 zijn niettemin van toepassing in zover ze gunstiger zijn voor de melder.
 
-##### Afdeling 4. - Definities
+### Afdeling 4. - Definities
 
-## Art. 7
+#### Art. 7
 
 Voor de toepassing van deze wet en van de besluiten en reglementen tot uitvoering ervan, gelden de volgende definities:
 1° "inbreuken": handelingen of nalatigheden die:
@@ -165,11 +169,11 @@ b) de wettelijke en reglementaire bepalingen en de rechtstreeks toepasbare Europ
 c) de wettelijke en reglementaire bepalingen en de rechtstreeks toepasbare Europese bepalingen, met inbegrip van de bepalingen die in uitvoering hiervan zijn vastgesteld, die van toepassing zijn op de financiële instellingen bedoeld in artikel 36/2 van de wet van 22 februari 1998 tot vaststelling van het organiek statuut van de Nationale Bank van België, waarvoor de Nationale Bank van België of de Europese Centrale Bank bevoegd is om op de naleving toe te zien op grond van voormeld artikel of op grond van Verordening (EU) nr. 1024/2013 van de Raad van 15 oktober 2013 waarbij aan de Europese Centrale Bank specifieke taken worden opgedragen betreffende het beleid inzake het prudentieel toezicht op kredietinstellingen; en
 d) voor zover niet opgenomen in de bepalingen onder a) tot c), alle andere regels tot vaststelling van een regelgevings- en toezichtskader en van consumenten- en beleggersbescherming op het gebied van financiële diensten en kapitaalmarkten, bankdiensten, kredietverstrekking, beleggingen, verzekering en herverzekering, individuele en bedrijfspensioenproducten, effecten, beleggings-fondsen, betalingsdiensten, en de activiteiten die zijn opgenomen in artikel 4, eerste lid, van de wet van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen.
 
-#### HOOFDSTUK 2. - Beschermingsvoorwaarden
+## HOOFDSTUK 2. - Beschermingsvoorwaarden
 
-##### Afdeling 1. - Voorwaarden voor bescherming van de melders
+### Afdeling 1. - Voorwaarden voor bescherming van de melders
 
-## Art. 8
+#### Art. 8
 
 § 1. Melders komen voor bescherming krachtens de hoofdstukken 6 en 7 in aanmerking mits:
 1° zij gegronde redenen hadden om aan te nemen dat de gemelde informatie over inbreuken op het moment van de melding juist was en dat die informatie binnen het toepassingsgebied van deze wet viel; en
@@ -182,22 +186,22 @@ In afwijking van het eerste lid zijn de juridische entiteiten in de private sect
 § 4. Personen die binnen het toepassingsgebied van deze wet vallende inbreuken melden aan bevoegde instellingen, organen of instanties van de Unie komen in aanmerking voor bescherming krachtens deze wet onder dezelfde voorwaarden als personen die een externe melding doen.
 § 5. Personen die binnen het toepassingsgebied van deze wet vallende inbreuken melden aan gerechtelijke overheden in het kader van artikel 30 van het Wetboek van Strafvordering, komen in aanmerking voor bescherming krachtens deze wet onder dezelfde voorwaarden als personen die een externe melding doen, onverminderd de regeling ter bescherming van bedreigde getuigen, bedoeld in artikel 102 en volgende van het voormelde Wetboek en voor zover die beschermingsmaatregelen gunstiger voor hen zijn.
 
-##### Afdeling 2. - Voorwaarden voor bescherming van de facilitators en derden die verbonden zijn met de melders
+### Afdeling 2. - Voorwaarden voor bescherming van de facilitators en derden die verbonden zijn met de melders
 
-## Art. 9
+#### Art. 9
 
 De personen bedoeld in artikel 6, § 4, 1° tot 3°, komen in aanmerking voor de beschermingsmaatregelen bedoeld in de hoofdstukken 6 en 7 indien ze gegronde redenen hadden om aan te nemen dat de melder binnen het toepassingsgebied voor bescherming van deze wet viel.
 
-#### HOOFDSTUK 3. - Interne meldingen en opvolging
+## HOOFDSTUK 3. - Interne meldingen en opvolging
 
-##### Afdeling 1. - Verplichting tot het opzetten van interne meldingskanalen
+### Afdeling 1. - Verplichting tot het opzetten van interne meldingskanalen
 
-## Art. 10
+#### Art. 10
 
 § 1. Onverminderd de artikelen 15 en 19, mag informatie over inbreuken worden gemeld via de interne meldingskanalen en -procedures waarin dit hoofdstuk voorziet.
 § 2. De nodige informatie over het gebruik van in paragraaf 1 bedoelde interne meldingskanalen maakt deel uit van de informatie die wordt verstrekt door de juridische entiteiten in de private sector krachtens artikel 12 en door de bevoegde autoriteiten krachtens artikel 16.
 
-Art. 11.§ 1. De juridische entiteiten in de private sector zetten kanalen en procedures voor de interne melding en voor opvolging op, na overleg met de sociale partners.
+#### Art. 11.§ 1. De juridische entiteiten in de private sector zetten kanalen en procedures voor de interne melding en voor opvolging op, na overleg met de sociale partners.
 De in het eerste lid bedoelde kanalen en procedures bieden minstens aan de werknemers van de entiteit de mogelijkheid om informatie over inbreuken te melden.
 § 2. Onder voorbehoud van paragraaf 5, is paragraaf 1 niet van toepassing op de juridische entiteiten in de private sector met minder dan vijftig werknemers.
 [1 De drempel wordt berekend volgens het gemiddelde van de werknemers tewerkgesteld in de onderneming in de zin van artikel 14 van de wet van 20 september 1948 houdende organisatie van het bedrijfsleven en van artikel 49 van de wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk, waarbij dit gemiddelde jaarlijks op 1 januari wordt berekend op dezelfde wijze als omschreven in artikel 7, §§ 1 en 2, van de wet van 4 december 2007 betreffende de sociale verkiezingen, evenwel over de referteperiode van de vier trimesters van het voorgaande kalenderjaar.]1 De in het eerste lid bedoelde uitzondering geldt niet voor entiteiten die onder het toepassingsgebied vallen van de bepalingen op het gebied van financiële diensten, producten en markten en van de bepalingen bedoeld in artikel 4, 1°.
@@ -207,9 +211,9 @@ De juridische entiteiten in de private sector met minder dan 250 werknemers moge
 § 5. Na een passende risicobeoordeling, waarbij rekening wordt gehouden met de aard van de activiteiten van de entiteiten en het daaraan verbonden risiconiveau voor met name het milieu en de volksgezondheid, kan de Koning, bij een besluit vastgesteld na overleg in de Ministerraad, de juridische entiteiten in de private sector met minder dan vijftig werknemers verplichten om kanalen en procedures voor interne meldingen op te zetten overeenkomstig dit hoofdstuk.
 (1)<W 2024-02-09/19, art. 199, 002; Inwerkingtreding : 31-03-2024>
 
-##### Afdeling 2. - Procedures voor interne melding en opvolging
+### Afdeling 2. - Procedures voor interne melding en opvolging
 
-## Art. 12
+#### Art. 12
 
 § 1. De procedures voor interne melding en opvolging als bedoeld in artikel 11 omvatten de volgende elementen:
 1° kanalen voor het ontvangen van meldingen die door hun ontwerp, opzet en beheer op beveiligde wijze de vertrouwelijkheid van de identiteit van de melder en van eventuele in de melding genoemde derden beschermen en waartoe niet-gemachtigde personeelsleden geen toegang hebben. Deze kanalen bieden de mogelijkheid om mondeling of schriftelijk meldingen te doen, of beide. Mondelinge melding is mogelijk via de telefoon of via andere spraakberichtsystemen en, op verzoek van de melder, door middel van een fysieke ontmoeting binnen een redelijke termijn;
@@ -223,15 +227,15 @@ Verenigingen en andere instellingen die categorieën van de juridische entiteite
 De in artikel 14 bedoelde bevoegde autoriteiten, in overleg met de federale coördinator, bevorderen de opstelling van gedragscodes die ertoe strekken bij te dragen tot de juiste toepassing van deze wet, met inachtneming van de specifieke kenmerken van de diverse sectoren en de specifieke behoeften van de micro-, kleine en middelgrote ondernemingen.
 § 2. In afwijking van artikel 20 kan de meldingsbeheerder vertrouwelijke informatie meedelen om feedback in de zin van paragraaf 1, eerste lid, 5°, te waarborgen.
 
-#### HOOFDSTUK 4. - Externe meldingen en opvolging
+## HOOFDSTUK 4. - Externe meldingen en opvolging
 
-##### Afdeling 1. - Externe meldingskanalen
+### Afdeling 1. - Externe meldingskanalen
 
-## Art. 13
+#### Art. 13
 
 Onverminderd artikel 19 verstrekken melders informatie over inbreuken door gebruik te maken van de in artikel 15 en 16 bedoelde kanalen en procedures, nadat zij eerst een melding hebben gedaan via interne meldingskanalen of door meteen een melding te doen via externe meldingskanalen.
 
-## Art. 14
+#### Art. 14
 
 § 1. De Koning wijst, bij een besluit vastgesteld na overleg in de Ministerraad, de autoriteiten aan die bevoegd zijn voor het ontvangen van meldingen, het geven van feedback en het bieden van opvolging inzake meldingen. Bij gebrek aan aanwijzing of indien geen enkele autoriteit zich bevoegd acht om een melding te ontvangen, treden de in artikel 18, § 1, bedoelde federale Ombudsmannen op als bevoegde autoriteit voor de toepassing van deze wet.
 De bevoegde autoriteiten moeten over voldoende middelen beschikken om de verplichtingen die uit deze wet voortvloeien uit te voeren.
@@ -254,9 +258,9 @@ Wanneer bevoegde autoriteiten worden geconfronteerd met grote aantallen meldinge
 § 5. De overeenkomstig paragraaf 1 aangestelde bevoegde autoriteiten bepalen, door middel van een reglement of een rondzendbrief, de in de paragrafen 2, 3 en 4, en in artikel 15 bedoelde procedureregels voor het ontvangen en in behandeling nemen van meldingen. Deze reglementen en rondzendbrieven zijn bindend en worden bekendgemaakt op de website van de bevoegde autoriteit, met vermelding van zowel de datum waarop ze werden aangenomen als de datum waarop ze op de website bekendgemaakt worden. De bekendmaking en de datum van bekendmaking blijken uit de door het bevoegde orgaan ondertekende bekendmakingsakte.
 § 6. Bij het geven van feedback overeenkomstig paragraaf 2, 4° en 5°, en paragraaf 4, eerste lid, derde zin, en tweede lid, tweede zin, dienen de bevoegde autoriteiten hun verplichtingen inzake beroepsgeheim na te leven.
 
-##### Afdeling 2. - Procedures voor externe melding
+### Afdeling 2. - Procedures voor externe melding
 
-## Art. 15
+#### Art. 15
 
 § 1. Externe meldingskanalen worden als onafhankelijk en autonoom beschouwd, indien zij aan elk van de volgende criteria voldoen:
 1° door hun ontwerp, opzet en beheer waarborgen de kanalen de volledigheid, integriteit en geheimhouding van de informatie en zijn zij niet toegankelijk voor niet-gemachtigde personeelsleden van de bevoegde autoriteit;
@@ -272,7 +276,7 @@ Mondelinge melding is mogelijk via de telefoon of via andere spraakberichtsystem
 § 6. De in paragraaf 4 bedoelde personeelsleden zijn gehouden tot de geheimhoudingsplicht die is ingesteld krachtens artikel 20.
 In afwijking van artikel 20 kunnen de in paragraaf 4 bedoelde personeelsleden vertrouwelijke informatie verstrekken met het oog op feedback in de zin van artikel 14, § 2, 4° en 5°, behoudens in de in artikel 14, § 6, bedoelde gevallen.
 
-## Art. 16
+#### Art. 16
 
 De bevoegde autoriteiten publiceren op een afzonderlijke, gemakkelijk herkenbare en toegankelijke pagina van hun website ten minste de volgende informatie:
 1° de voorwaarden om in aanmerking te komen voor bescherming krachtens deze wet;
@@ -284,9 +288,9 @@ De bevoegde autoriteiten publiceren op een afzonderlijke, gemakkelijk herkenbare
 7° een verklaring met een duidelijke toelichting van de voorwaarden waaronder personen die meldingen doen aan de bevoegde autoriteit worden beschermd tegen het oplopen van aansprakelijkheid voor een inbreuk op de geheimhoudingsregels krachtens artikel 27; en
 8° de contactgegevens van de federale coördinator en van het Federaal Instituut voor de bescherming en de bevordering van de rechten van de mens.
 
-##### Afdeling 3. - Evaluatie van de procedures door de bevoegde autoriteiten en rapporteringsverplichting
+### Afdeling 3. - Evaluatie van de procedures door de bevoegde autoriteiten en rapporteringsverplichting
 
-## Art. 17
+#### Art. 17
 
 § 1. De bevoegde autoriteiten evalueren hun procedures voor de ontvangst en opvolging van meldingen regelmatig, en ten minste om de drie jaar. Bij de evaluatie van deze procedures houden de bevoegde autoriteiten rekening met hun eigen ervaring en die van andere bevoegde autoriteiten alsook met de ervaring van de federale coördinator en passen zij hun procedures dienovereenkomstig aan.
 In afwijking van het eerste lid worden de procedures om de twee jaar geëvalueerd door de autoriteiten bevoegd voor het ontvangen van meldingen van inbreuken op het gebied van financiële diensten, producten en markten en op de bepalingen bedoeld in artikel 4, 1°.
@@ -296,9 +300,9 @@ De bevoegde autoriteiten delen het resultaat van hun evaluatie mee aan de federa
 2° het aantal onderzoeken en procedures die naar aanleiding van deze meldingen werden ingesteld en het resultaat daarvan;
 3° het geschatte financiële verlies en de ingevorderde bedragen als gevolg van de onderzoeken en procedures in verband met de gemelde schendingen, voor zover dit werd vastgesteld.
 
-##### Afdeling 4. - De federale coördinator voor externe meldingen in de private sector
+### Afdeling 4. - De federale coördinator voor externe meldingen in de private sector
 
-## Art. 18
+#### Art. 18
 
 § 1. De federale Ombudsmannen, bedoeld in de wet van 22 maart 1995 tot instelling van federale ombudsmannen, zijn belast met de coördinatie van externe meldingen in de private sector.
 § 2. Onverminderd artikel 14, § 3, eerste en tweede lid, wordt de federale coördinator belast met de volgende opdrachten:
@@ -313,9 +317,9 @@ De federale coördinator treedt op als verantwoordelijke van de verwerking van d
 § 3. De in paragraaf 2 genoemde opdrachten doen geen afbreuk aan het recht van de melder om de melding rechtstreeks bij de bevoegde autoriteit te doen. In dat geval informeert de bevoegde autoriteit de federale coördinator, behalve wanneer zij gehouden is door een beroepsgeheim. In dat laatste geval bevestigt de bevoegde autoriteit desgevallend aan de melder dat hij een melding heeft gedaan overeenkomstig deze wet en informeert zij hem over het feit dat hij zich tot het Federaal Instituut voor de bescherming en bevordering van de rechten van de mens kan wenden voor de ondersteuning bedoeld in deze wet.
 § 4. Overeenkomstig artikel 29 van het Wetboek van Strafvordering stellen de federale ombudsmannen de procureur des Konings in kennis wanneer zij tijdens de uitoefening van hun functie een feit vaststellen dat een misdaad of een wanbedrijf kan uitmaken, met uitzondering van feiten waarvan zij kennis hebben genomen naar aanleiding van meldingen waarvoor een bevoegde autoriteit werd aangewezen waarvoor een uitzondering op voormeld artikel is bepaald en/of waarvan de personeelsleden genieten van een dergelijke uitzondering.
 
-#### HOOFDSTUK 5. - Openbaarmaking
+## HOOFDSTUK 5. - Openbaarmaking
 
-## Art. 19
+#### Art. 19
 
 § 1. Een persoon die een openbaarmaking doet, komt in aanmerking voor bescherming krachtens deze wet indien is voldaan aan een van de volgende voorwaarden:
 1° de persoon deed eerst een interne en externe melding, of meteen een externe melding overeenkomstig de hoofdstukken 3 en 4, maar er zijn naar aanleiding van die melding geen passende maatregelen genomen binnen de in artikel 12, § 1, eerste lid, 5°, of artikel 14, § 2, 4°, genoemde termijn; of
@@ -325,11 +329,11 @@ b) er in geval van externe melding een risico op represailles bestaat, of het ni
 Het eerste lid, 1°, geldt niet wanneer geen feedback wordt verstrekt overeenkomstig artikel 14, § 6.
 § 2. Dit artikel is niet van toepassing op gevallen waarin een persoon rechtstreeks informatie aan de pers verstrekt op grond van specifieke bepalingen die een stelsel voor de bescherming van de vrijheid van meningsuiting en informatie instellen.
 
-#### HOOFDSTUK 6. - Bepalingen met betrekking tot interne en externe meldingen
+## HOOFDSTUK 6. - Bepalingen met betrekking tot interne en externe meldingen
 
-##### Afdeling 1. - Geheimhoudingsplicht
+### Afdeling 1. - Geheimhoudingsplicht
 
-## Art. 20
+#### Art. 20
 
 § 1. De identiteit van de melder mag in geen geval zonder diens vrije en uitdrukkelijke toestemming worden bekendgemaakt aan anderen dan de gemachtigde personeelsleden die bevoegd zijn voor de ontvangst of de opvolging van meldingen. Dit geldt ook voor alle andere informatie waaruit de identiteit van de melder direct of indirect kan worden afgeleid.
 Tenzij de melder van een externe melding hiermee instemt, wijst de bevoegde autoriteit of de federale coördinator elke vraag om inzage, uitleg of mededeling, in welke vorm ook, van een bestuursdocument waaruit rechtstreeks of onrechtstreeks de identiteit van de melder blijkt, af.
@@ -338,17 +342,17 @@ Tenzij de melder van een externe melding hiermee instemt, wijst de bevoegde auto
 § 4. Bevoegde autoriteiten of de federale coördinator die informatie ontvangen over inbreuken met bedrijfsgeheimen, mogen die bedrijfsgeheimen niet gebruiken of bekendmaken voor andere doeleinden dan hetgeen noodzakelijk is voor een gedegen opvolging.
 § 5. Desgevallend zijn de in de paragrafen 1 tot 3 bedoelde beschermingsmaatregelen ook van toepassing op de in artikel 6, § 4, bedoelde personen.
 
-##### Afdeling 2. - Verwerking van persoonsgegevens
+### Afdeling 2. - Verwerking van persoonsgegevens
 
-## Art. 21
+#### Art. 21
 
 Elke verwerking van persoonsgegevens krachtens deze wet, met inbegrip van de uitwisseling of doorgifte van persoonsgegevens door de bevoegde autoriteiten of de federale coördinator, gebeurt overeenkomstig Verordening (EU) 2016/679 en de wettelijke bepalingen inzake de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens. Elke uitwisseling of doorgifte van informatie door de instellingen, organen of instanties van de Unie gebeurt overeenkomstig Verordening (EU) 2018/1725.
 Persoonsgegevens die duidelijk niet relevant zijn voor de behandeling van een specifieke melding, worden niet verzameld, of worden, indien onbedoeld verzameld, onmiddellijk gewist.
 De naam, de functie en de contactgegevens zowel van de melder en elke persoon tot wie de beschermings- en ondersteuningsmaatregelen zich uitstrekken, als van de betrokkene, met inbegrip van, in voorkomend geval, het ondernemingsnummer, worden bijgehouden tot wanneer de gemelde inbreuk is verjaard.
 
-##### Afdeling 3. - Registratie van de meldingen
+### Afdeling 3. - Registratie van de meldingen
 
-## Art. 22
+#### Art. 22
 
 § 1. De juridische entiteiten in de private sector, de bevoegde autoriteiten en de federale coördinator houden een register bij van elke ontvangen melding, in overeenstemming met de in artikel 20 bedoelde geheimhoudingsvereisten.
 Meldingen worden bijgehouden gedurende de tijd dat de contractuele relatie bedoeld in artikel 6, §§ 1 en 2, loopt.
@@ -363,11 +367,11 @@ De juridische entiteiten in de private sector, de bevoegde autoriteiten en de fe
 2° door een nauwkeurig verslag van het onderhoud, opgesteld door het voor het behandelen van de melding verantwoordelijke personeelslid.
 De juridische entiteiten in de private sector, de bevoegde autoriteiten en de federale coördinator bieden de melder de mogelijkheid de schriftelijke weergave van het verslag van het onderhoud te controleren, te corrigeren en voor akkoord te tekenen.
 
-#### HOOFDSTUK 7. - Beschermingsmaatregelen
+## HOOFDSTUK 7. - Beschermingsmaatregelen
 
-##### Afdeling 1. -Verbod op represailles
+### Afdeling 1. -Verbod op represailles
 
-## Art. 23
+#### Art. 23
 
 Elke vorm van represailles tegen de in artikel 6 bedoelde personen, waaronder dreigingen met en pogingen tot represailles, is verboden, met name op de volgende wijzen:
 1° schorsing, tijdelijke buitendienststelling, ontslag of soortgelijke maatregelen;
@@ -386,9 +390,9 @@ Elke vorm van represailles tegen de in artikel 6 bedoelde personen, waaronder dr
 14° intrekking van een licentie of vergunning;
 15° psychiatrische of medische verwijzingen.
 
-##### Afdeling 2. - Ondersteuningsmaatregelen
+### Afdeling 2. - Ondersteuningsmaatregelen
 
-## Art. 24
+#### Art. 24
 
 § 1. De in artikel 6 bedoelde personen hebben, naargelang het geval, toegang tot ondersteuningsmaatregelen en met name:
 1° volledige en onafhankelijke informatie en adviezen, die gemakkelijk en kosteloos toegankelijk zijn, over de beschikbare remedies en procedures die bescherming bieden tegen represailles, alsmede over de rechten van de betrokkene, met inbegrip van zijn rechten op het vlak van bescherming van persoonsgegevens; de melder moet bovendien worden geïnformeerd dat hij in aanmerking komt voor de beschermingsmaatregelen waarin deze wet voorziet;
@@ -398,7 +402,7 @@ Elke vorm van represailles tegen de in artikel 6 bedoelde personen, waaronder dr
 5° financiële bijstand aan melders in het kader van gerechtelijke procedures.
 § 2. Onverminderd artikel 20 kunnen de bevoegde autoriteiten, op verzoek van de betrokken melder, de in artikel 6 bedoelde personen bijstaan ten aanzien van elke administratieve of gerechtelijke autoriteit die betrokken is bij hun bescherming tegen represailles en kunnen zij naar aanleiding daarvan in het bijzonder bevestigen dat die persoon een melding heeft gedaan overeenkomstig deze wet.
 
-## Art. 25
+#### Art. 25
 
 § 1. Het Federaal Instituut voor de bescherming en de bevordering van de rechten van de mens, opgericht bij de wet van 12 mei 2019 tot oprichting van een Federaal Instituut voor de bescherming en de bevordering van de rechten van de mens, wordt belast met de volgende opdrachten, zowel in geval van een interne melding, een externe melding, als een openbaarmaking:
 1° het toepassen van of toezien op de toepassing van de ondersteuningsmaatregelen bedoeld in artikel 24, § 1,
@@ -410,9 +414,9 @@ Elke vorm van represailles tegen de in artikel 6 bedoelde personen, waaronder dr
 § 2. Artikel 458 van het Strafwetboek is van toepassing op het Federaal Instituut voor de bescherming en de bevordering van de rechten van de mens en zijn personeel voor de uitvoering van de opdrachten die aan het Instituut in het kader van deze wet zijn toevertrouwd.
 § 3. Overeenkomstig artikel 29 van het Wetboek van Strafvordering stellen de leden van het Federaal Instituut voor de bescherming en de bevordering van de rechten van de mens de procureur des Konings in kennis wanneer zij tijdens de uitoefening van hun functie een feit vaststellen dat een misdaad of een wanbedrijf kan uitmaken, met uitzondering van feiten waarvan zij kennis hebben genomen naar aanleiding van meldingen waarvoor een bevoegde autoriteit werd aangewezen waarvoor een uitzondering op voormeld artikel is bepaald en/of waarvan de personeelsleden genieten van een dergelijke uitzondering.
 
-##### Afdeling 3. - Beschermingsmaatregelen tegen represailles
+### Afdeling 3. - Beschermingsmaatregelen tegen represailles
 
-## Art. 26
+#### Art. 26
 
 § 1. Elke beschermde persoon bedoeld in artikel 6 die meent slachtoffer te zijn van of bedreigd te worden met een represaille, kan een met redenen omklede klacht indienen bij de federale coördinator, die een buitengerechtelijke beschermingsprocedure opstart.
 § 2. De federale coördinator verifieert het bestaan van een redelijk vermoeden van een represaille.
@@ -423,7 +427,7 @@ Elke vorm van represailles tegen de in artikel 6 bedoelde personen, waaronder dr
 § 7. De hoogste leidinggevende van de juridische entiteit geeft binnen de twintig dagen na ontvangst van de aanbeveling aan of hij de aanbeveling van de federale coördinator aanvaardt of niet.
 De federale coördinator brengt de beschermde persoon daarvan schriftelijk op de hoogte.
 
-## Art. 27
+#### Art. 27
 
 § 1. Onverminderd artikel 5, § 1 en § 2, eerste lid, worden personen die informatie over inbreuken melden of een openbaarmaking doen overeenkomstig deze wet, niet geacht een inbreuk te hebben gepleegd op enige bij overeenkomst of bij wettelijke of bestuursrechtelijke bepaling opgelegde beperking op de openbaarmaking van informatie, en kunnen zij op generlei wijze aansprakelijk worden gesteld voor een dergelijke melding of openbaarmaking, mits zij redelijke gronden hadden om aan te nemen dat de melding of de openbaarmaking van zulke informatie noodzakelijk was voor het onthullen van een inbreuk overeenkomstig deze wet. Onder dezelfde voorwaarden kunnen tegen deze personen geen burgerrechtelijke, strafrechtelijke of tuchtrechtelijke vorderingen worden ingesteld, noch professionele sancties worden uitgesproken omwille van deze melding of openbaarmaking.
 Melders kunnen niet aansprakelijk worden gesteld voor de verwerving van of de toegang tot de informatie die wordt gemeld of openbaar wordt gemaakt, tenzij die verwerving of die toegang op zichzelf een strafbaar feit vormde.
@@ -438,34 +442,34 @@ Wanneer de represaille in strijd met artikel 23 wordt getroffen nadat de arbeids
 Deze paragraaf is eveneens van toepassing op statutaire personeelsleden en op personen die door andere personen dan werkgevers in professionele betrekkingen worden tewerkgesteld of contractuele opdrachten krijgen toegewezen.
 § 4. De vergoeding bedoeld in de paragrafen 2 en 3 kan niet worden gecumuleerd met de vergoeding in geval van kennelijk onredelijk ontslag bedoeld in artikel 9, § 2, van de collectieve arbeidsovereenkomst nr. 109 van 12 februari 2014 betreffende de motivering van het ontslag, overeenkomstig artikel 9, § 3, van deze collectieve arbeidsovereenkomst.
 
-## Art. 28
+#### Art. 28
 
 Onverminderd elk ander administratief of buitengerechtelijk middel heeft elke in artikel 6 bedoelde persoon het recht een beroep in te leiden voor de arbeidsrechtbank in geval van represailles overeenkomstig artikel 578 van het Gerechtelijk Wetboek.
 Overeenkomstig artikel 584, vijfde lid, 8°, van het Gerechtelijk Wetboek kan de voorzitter van de arbeidsrechtbank, zitting houdend zoals in kort geding, herstelmaatregelen tegen de represailles treffen,{ met inbegrip van voorlopige maatregelen in afwachting van de beslechting van de gerechtelijke procedure.
 
-## Art. 29
+#### Art. 29
 
 In procedures voor een gerechtelijke instantie of een andere autoriteit, die verband houden met benadeling waarmee de melder in de zin van deze wet is geconfronteerd, wordt, mits de melder aantoont dat hij een melding of openbaarmaking heeft gedaan en met benadeling is geconfronteerd, vermoed dat de benadeling een represaille was voor de melding of de openbaarmaking.
 In dergelijke gevallen is het aan de persoon die de benadelende maatregel heeft genomen, om aan te tonen dat die maatregel naar behoren is gerechtvaardigd.
 
-## Art. 30
+#### Art. 30
 
 In gerechtelijke procedures, onder meer wegens laster, schending van auteursrechten, schending van de geheimhoudingsplicht, schending van de gegevensbeschermingsvoorschriften, openbaarmaking van bedrijfsgeheimen, of wegens eisen tot schadeloosstelling op grond van het privaatrecht, het publiekrecht of het collectief arbeidsrecht kunnen de in artikel 6 bedoelde personen op generlei wijze aansprakelijk worden gesteld als gevolg van meldingen of openbaarmakingen overeenkomstig deze wet.
 
-## Art. 31
+#### Art. 31
 
 Wanneer een persoon melding maakt van of informatie openbaar maakt over binnen het toepassingsgebied van deze wet vallende inbreuken, en die informatie bedrijfsgeheimen omvat, en indien die persoon aan de voorwaarden van deze wet voldoet, wordt die melding of die openbaarmaking rechtmatig geacht overeenkomstig artikel XI.332/3, § 2, van het Wetboek van economisch recht.
 
-##### Afdeling 4. - Maatregelen ter bescherming van betrokkenen
+### Afdeling 4. - Maatregelen ter bescherming van betrokkenen
 
-## Art. 32
+#### Art. 32
 
 De bevoegde autoriteiten en de federale coördinator zorgen ervoor dat de identiteit van de betrokkenen wordt beschermd zolang onderzoeken naar aanleiding van de melding of openbaarmaking lopen.
 De in artikel 20, 21 en 22 bedoelde regels betreffende de bescherming van de identiteit van de melders zijn ook van toepassing op de bescherming van de identiteit van de betrokkenen.
 
-##### Afdeling 5. - Sancties
+### Afdeling 5. - Sancties
 
-## Art. 33
+#### Art. 33
 
 § 1. Onverminderd andere maatregelen waarin deze wet voorziet, worden inbreuken door de juridische entiteiten in de private sector op hoofdstuk 3 en op artikel 22 opgespoord, vastgesteld en bestraft overeenkomstig het Sociaal Strafwetboek.
 Het eerste lid is niet van toepassing wanneer de bevoegde autoriteiten administratieve maatregelen of sancties kunnen nemen en opleggen op grond van specifieke wettelijke of bestuursrechtelijke bepalingen wegens inbreuken op hoofdstuk 3 en artikel 22.
@@ -477,91 +481,91 @@ d) inbreuk pleegt op de in artikel 20 bedoelde verplichting tot geheimhouding va
 § 3. Onverminderd andere maatregelen waarin deze wet of andere wettelijke of bestuursrechtelijke bepalingen voorzien, worden melders gestraft overeenkomstig de artikelen 443 tot 450 van het Strafwetboek wanneer wordt vastgesteld dat zij opzettelijk valse informatie hebben gemeld of openbaar hebben gemaakt.
 Personen die schade lijden als gevolg van dergelijke meldingen of openbaarmakingen hebben recht op schadevergoedingsmaatregelen overeenkomstig de contractuele of buitencontractuele aansprakelijkheid.
 
-## Art. 34
+#### Art. 34
 
 Er is geen sprake van een misdrijf wanneer een persoon die uit hoofde van zijn staat of beroep houder is van geheimen, die geheimen meldt of openbaar maakt met naleving van de voorwaarden van deze wet. Deze bepaling is van toepassing onverminderd artikel 5, § 1 en § 2, eerste lid.
 
-#### HOOFDSTUK 8. - Wijzigingsbepalingen
+## HOOFDSTUK 8. - Wijzigingsbepalingen
 
-##### Afdeling 1. - Wijziging van de wet van 3 juli 1978 betreffende de arbeidsovereenkomsten
+### Afdeling 1. - Wijziging van de wet van 3 juli 1978 betreffende de arbeidsovereenkomsten
 
-## Art. 35
+#### Art. 35
 
 Artikel 18 van de wet van 3 juli 1978 betreffende de arbeidsovereenkomsten wordt aangevuld met een lid luidende: "Een melding of openbaarmaking overeenkomstig de wet van 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector maakt geen zware schuld, noch bedrog, noch gewoonlijke lichte schuld uit waarvoor de werknemer burgerlijk aansprakelijk kan worden gesteld, dit ongeacht de motivering van de werknemer.".
 
-##### Afdeling 2. - Wijzigingen van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten
+### Afdeling 2. - Wijzigingen van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten
 
-## Art. 36
+#### Art. 36
 
 Artikel 69bis van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten, ingevoegd bij de wet van 31 juli 2017 en gewijzigd bij de wet van 5 juli 2022, wordt vervangen als volgt: "Art. 69bis. De FSMA ziet toe op de naleving door de instellingen en personen bedoeld in artikel 45, § 1, eerste lid, 2°, van de bepalingen van hoofdstuk 3 en artikel 22 van de wet van 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector.
 De artikelen 36, 36bis en 37 zijn van toepassing indien de in het eerste lid bedoelde instellingen en personen deze bepalingen niet naleven.".
 
-## Art. 37
+#### Art. 37
 
 Artikel 69ter van dezelfde wet, ingevoegd bij de wet van 31 juli 2017, wordt opgeheven.
 
-##### Afdeling 3. - Wijzigingen van de wet van 7 december 2016 tot organisatie van het beroep van en het publiek toezicht op de bedrijfsrevisoren
+### Afdeling 3. - Wijzigingen van de wet van 7 december 2016 tot organisatie van het beroep van en het publiek toezicht op de bedrijfsrevisoren
 
-## Art. 38
+#### Art. 38
 
 Artikel 3, 22°, van de wet van 7 december 2016 tot organisatie van het beroep van en het publiek toezicht op de bedrijfsrevisoren, gewijzigd bij de wetten van 11 juli 2018, 30 juli 2018 en 27 juni 2021, wordt aangevuld met een streepje, luidende: " - hoofdstuk 3 en artikel 22 van de wet van 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector.".
 
-## Art. 39
+#### Art. 39
 
 In titel 3 van dezelfde wet wordt hoofdstuk 6, dat de artikelen 82 tot 84 bevat, opgeheven.
 
-##### Afdeling 4. - Wijzigingen van de wet van 22 februari 1998 tot vaststelling van het organiek statuut van de Nationale Bank van België
+### Afdeling 4. - Wijzigingen van de wet van 22 februari 1998 tot vaststelling van het organiek statuut van de Nationale Bank van België
 
-## Art. 40
+#### Art. 40
 
 Artikel 36/7/1 van de wet van 22 februari 1998 tot vaststelling van het organiek statuut van de Nationale Bank van België, ingevoegd bij de wet van 16 maart 2016 en vervangen bij de wet van 2 mei 2019, wordt opgeheven.
 
-## Art. 41
+#### Art. 41
 
 In artikel 36/30/1 van dezelfde wet wordt paragraaf 4 opgeheven.
 
-##### Afdeling 5. - Wijziging van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten
+### Afdeling 5. - Wijziging van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten
 
-## Art. 42
+#### Art. 42
 
 Artikel 10 van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten wordt vervangen als volgt: "Art. 10. De onderworpen entiteiten ontwikkelen en leggen passende procedures ten uitvoer die evenredig zijn met hun aard en omvang, om hun personeelsleden of hun agenten of distributeurs in staat te stellen om, op vertrouwelijke en anonieme basis, via een specifiek en onafhankelijk kanaal, de inbreuken op de in dit boek bedoelde verplichtingen te melden aan de personen die aangewezen zijn op grond van artikel 9.".
 
-##### Afdeling 6. - Wijziging van de wet van 2 juni 2021 houdende diverse financiële bepalingen inzake fraudebestrijding
+### Afdeling 6. - Wijziging van de wet van 2 juni 2021 houdende diverse financiële bepalingen inzake fraudebestrijding
 
-## Art. 43
+#### Art. 43
 
 In artikel 45, § 1, van de wet van 2 juni 2021 houdende diverse financiële bepalingen inzake fraudebestrijding worden de woorden "de regeling inzake de melding van daadwerkelijke of potentiële inbreuken als bedoeld in artikel 69bis van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten, en in artikel 36/7/1 van de wet van 22 februari 1998 tot vaststelling van het organiek statuut van de Nationale Bank van België" vervangen door de woorden "de regeling inzake de melding van inbreuken als bedoeld in de wet van 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector".
 
-##### Afdeling 7. - Wijzigingen van het Gerechtelijk Wetboek
+### Afdeling 7. - Wijzigingen van het Gerechtelijk Wetboek
 
-## Art. 44
+#### Art. 44
 
 In artikel 578 van het Gerechtelijk Wetboek, laatstelijk gewijzigd bij de wet van 2 mei 2019, worden de volgende wijzigingen aangebracht:
 1° de bepaling onder 25°, ingevoegd bij de wet van 31 juli 2017, wordt vervangen als volgt: "25° van de geschillen betreffende vergelding, discriminatie en andere vormen van nadelige behandeling of nadelige maatregelen, die verband houden met de melding van een inbreuk in de zin van de wet van 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector;";
 2° de bepaling onder 25°, ingevoegd bij de wet van 23 november 2017, wordt vernummerd tot 26° ;
 3° de bepaling onder 27°, ingevoegd bij de wet van 2 mei 2019, wordt opgeheven.
 
-## Art. 45
+#### Art. 45
 
 In artikel 581 van hetzelfde Wetboek, laatstelijk gewijzigd bij de wet van 2 mei 2019, worden de volgende wijzigingen aangebracht:
 1° de bepaling onder 14°, ingevoegd bij de wet van 31 juli 2017, wordt opgeheven;
 2° de bepaling onder 15°, ingevoegd bij de wet van 2 mei 2019, wordt opgeheven.
 
-## Art. 46
+#### Art. 46
 
 Artikel 584, vijfde lid, van hetzelfde Wetboek, laatstelijk gewijzigd bij de wet van 4 mei 2020, wordt aangevuld met de bepaling onder 8°, luidende: "8° herstelmaatregelen tegen de represailles treffen, met inbegrip van voorlopige maatregelen in afwachting van de beslechting van de gerechtelijke procedure, in het kader van de geschillen bedoeld in artikel 578, 25°, van dit wetboek.".
 
-##### Afdeling 8. - Wijzigingen van de wet van 7 april 2019 tot vaststelling van een kader voor de beveiliging van netwerk- en informatiesystemen van algemeen belang voor de openbare veiligheid
+### Afdeling 8. - Wijzigingen van de wet van 7 april 2019 tot vaststelling van een kader voor de beveiliging van netwerk- en informatiesystemen van algemeen belang voor de openbare veiligheid
 
-## Art. 47
+#### Art. 47
 
 In artikel 4, § 3, eerste lid, van de wet van 7 april 2019 tot vaststelling van een kader voor de beveiliging van netwerk- en informatiesystemen van algemeen belang voor de openbare veiligheid worden de woorden "met uitzondering van de bepalingen van titel I, hoofdstuk 1 van titel II en van artikel 26" vervangen door de woorden "met uitzondering van de bepalingen van titel 1, van titel 2, hoofdstuk 1, van titel 5 en van artikel 26".
 
-## Art. 48
+#### Art. 48
 
 Artikel 6 van dezelfde wet wordt aangevuld met de bepaling onder 34°, luidende: "34° "kwetsbaarheid": een zwakheid, vatbaarheid of gebrek van een activum of van een netwerk- en informatiesysteem die of dat kan worden uitgebuit door een cyberbedreiging als bedoeld in artikel 2, punt 8), van Verordening (EU) 2019/881 van het Europees Parlement en de Raad van 17 april 2019 inzake Enisa (het Agentschap van de Europese Unie voor cyberbeveiliging), en inzake de certificering van de cyberbeveiliging van informatie- en communicatietechnologie en tot intrekking van Verordening (EU) nr. 526/2013 (de cyberbeveiligingsverordening).".
 
-## Art. 49
+#### Art. 49
 
 In titel 5, hoofdstuk 1, afdeling 2, van dezelfde wet wordt een artikel 62/1 ingevoegd, luidende: "Art. 62/1. § 1. Onverminderd de toepassing van de wet van 28 november 2022 inzake de bescherming van personen die inbreuken op het Unierecht of het nationaal recht melden die binnen een juridische entiteit in de private sector zijn vastgesteld, kan iedere natuurlijke of rechtspersoon aan het nationale CSIRT het bestaan melden van een mogelijke kwetsbaarheid als bedoeld in artikel 6, 34°.
 Deze bepaling doet evenmin afbreuk aan de wettelijke bepalingen over de bescherming van personen die inbreuken op het Unierecht of het nationaal recht melden die binnen een juridische entiteit in de overheidssector zijn vastgesteld.
@@ -572,7 +576,7 @@ De toegang tot deze informatie wordt beperkt tot personen die daartoe door de di
 § 4. De directeur van het nationale CSIRT ziet toe op de naleving van de in dit artikel vermelde voorwaarden.
 Daartoe werkt hij interne procedures uit.".
 
-## Art. 50
+#### Art. 50
 
 In dezelfde afdeling 2 wordt een artikel 62/2 ingevoegd, luidende:
 "Art. 62/2. § 1. In het kader van de procedure bedoeld in artikel 62/1 plegen melders geen misdrijf voor feiten die noodzakelijk zijn voor de melding, op voorwaarde dat:
@@ -583,53 +587,53 @@ In dezelfde afdeling 2 wordt een artikel 62/2 ingevoegd, luidende:
 § 2. Personen die informatie melden over een mogelijke kwetsbaarheid waarvan zij in het kader van hun beroep kennis hebben gekregen, worden niet geacht hun beroepsgeheim te hebben geschonden en kunnen op generlei wijze aansprakelijk worden gesteld voor de overdracht van informatie die noodzakelijk was om een mogelijke kwetsbaarheid aan het nationale CSIRT te melden.
 § 3. Voor elke andere mogelijke aansprakelijkheid van melders die voortvloeit uit handelingen of nalatigheden die niet noodzakelijk zijn voor de uitvoering van de procedure bedoeld in artikel 62/1 en die niet voldoen aan de voorwaarden van paragraaf 1, blijft het toepasselijke recht gelden.".
 
-##### Afdeling 9. - Wijziging van de wet van 22 maart 1995 tot instelling van federale ombudsmannen
+### Afdeling 9. - Wijziging van de wet van 22 maart 1995 tot instelling van federale ombudsmannen
 
-## Art. 51
+#### Art. 51
 
 Artikel 1, eerste lid, van de wet van 22 maart 1995 tot instelling van federale ombudsmannen, gewijzigd bij de wet van 15 september 2013, wordt aangevuld met de bepaling onder 5°, luidende: "5° op te treden als federale coördinator voor externe meldingen van inbreuken in de private sector overeenkomstig de wet van 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector.".
 
-##### Afdeling 10. - Wijziging van de wet van 12 mei 2019 tot oprichting van een Federaal Instituut voor de bescherming en de bevordering van de rechten van de mens
+### Afdeling 10. - Wijziging van de wet van 12 mei 2019 tot oprichting van een Federaal Instituut voor de bescherming en de bevordering van de rechten van de mens
 
-## Art. 52
+#### Art. 52
 
 Artikel 5, eerste lid, van de wet van 12 mei 2019 tot oprichting van een Federaal Instituut voor de bescherming en de bevordering van de rechten van de mens wordt aangevuld met de bepaling onder 8°, luidende: "8° Het Instituut vervult de opdrachten bedoeld in de artikelen 24, § 1, en 25 van de wet van 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector.".
 
-##### Afdeling 11. - Wijziging van het Sociaal strafwetboek
+### Afdeling 11. - Wijziging van het Sociaal strafwetboek
 
-## Art. 53
+#### Art. 53
 
 In boek 2, hoofdstuk 1, van het Sociaal Strafwetboek, wordt een afdeling 3/2 ingevoegd met als opschrift: "Intern meldkanaal voor melders"
 
-## Art. 54
+#### Art. 54
 
 In afdeling 3/2, ingevoegd bij artikel 53, wordt een artikel 133/1 ingevoegd, luidende: "Art. 133/1. Onder voorbehoud van artikel 33, § 1, tweede lid, van de wet van 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector, wordt met een sanctie van niveau 4 bestraft:
 1° de werkgever, zijn aangestelde of zijn lasthebber, die een inbreuk heeft gepleegd op hoofdstuk 3 van de voormelde wet;
 2° de werkgever, zijn aangestelde of zijn lasthebber, de bevoegde autoriteit of de federale coördinator die een inbreuk heeft gepleegd op artikel 22 van de voormelde wet.".
 
-#### HOOFDSTUK 9. - Slotbepalingen
+## HOOFDSTUK 9. - Slotbepalingen
 
-## Art. 55
+#### Art. 55
 
 Van de rechten en middelen waarin deze wet voorziet, is geen afstand of beperking mogelijk bij overeenkomst, door beleid, of door arbeidsvorm of arbeidsvoorwaarde, met inbegrip van aan geschillen voorafgaande arbitrageovereenkomsten.
 De bepalingen van contractuele of statutaire aard of de bepalingen in een collectieve arbeidsovereenkomst die strijdig zijn met deze wet of met de bepalingen genomen ter uitvoering ervan, alsook de contractuele bedingen die bepalen dat afgezien wordt van de rechten die erdoor gewaarborgd worden, zijn nietig.
 De bepalingen van deze wet zijn van openbare orde.
 
-## Art. 56
+#### Art. 56
 
 Deze wet wordt in het tweede jaar na de inwerkingtreding ervan onderworpen aan een gezamenlijke evaluatie door de minister bevoegd voor Justitie, de minister bevoegd voor Sociale Zaken, de minister bevoegd voor Volksgezondheid, de minister bevoegd voor Financiën, de minister bevoegd voor Leefmilieu en de minister bevoegd voor Privacy, onder leiding van de minister bevoegd voor Economie, de minister bevoegd voor Ambtenarenzaken, en de sociale partners in het kader van de Nationale Arbeidsraad en de Centrale Raad voor het Bedrijfsleven.
 Over deze wet wordt in het tweede jaar na de inwerkingtreding ervan een openbare raadpleging gehouden.
 De minister bevoegd voor Economie brengt aan het eind van elk jaar aan de federale Kamers verslag uit over de toepassing van deze wet.
 
-#### HOOFDSTUK 10. - Inwerkingtreding en overgangsbepalingen
+## HOOFDSTUK 10. - Inwerkingtreding en overgangsbepalingen
 
-## Art. 57
+#### Art. 57
 
 Deze wet treedt in werking twee maanden na de dag waarop ze in het Belgisch Staatsblad wordt bekendgemaakt.
 In afwijking van het eerste lid zijn de bepalingen van hoofdstuk 3 vanaf 17 december 2023 van toepassing op de juridische entiteiten in de private sector met 50 tot 249 werknemers.
 De in het tweede lid bedoelde afwijking geldt niet voor de entiteiten die onder het toepassingsgebied vallen van de bepalingen op gebied van financiële diensten, producten en markten en van de bepalingen bedoeld in artikel 4,
 1°.
 
-## Art. 58
+#### Art. 58
 
 De meldingssystemen die zijn ingesteld overeenkomstig de in artikel 4 bedoelde bepalingen blijven geldig, maar moeten met deze wet in overeenstemming worden gebracht ten laatste op de datum van inwerkingtreding van deze wet.

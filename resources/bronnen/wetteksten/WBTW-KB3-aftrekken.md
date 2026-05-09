@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 3
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 3 van 10 december 1969, met betrekking tot de aftrekken voor de toepassing van de belasting over de toegevoegde waarde
@@ -52,7 +56,7 @@ gebruikt, is het recht op aftrek naar verhouding van dat gebruik uitgesloten. Di
 dient door de belastingplichtige te worden bepaald onder controle van de administratie belast
 met de belasting over de toegevoegde waarde.
 
-## Art. 2
+### Art. 2
 (De tekst van KB nr. 3, artikel 2, werd vervangen met ingang van 01.01.2013 (Art. 4,
 K.B. 30.04.2013, B.S. 08.05.2013))
 
@@ -88,7 +92,7 @@ Het recht op aftrek ontstaat:
     toegevoegde waarde, op het tijdstip waarop die belasting opeisbaar wordt krachtens
     artikel 9 van datzelfde besluit.
 
-## Art. 3
+### Art. 3
 (De tekst van KB nr. 3, artikel 3, § 1, 1° en 7°, werd gewijzigd met ingang van 07.01.2016
 (Art. 4, KB 18.12.2015, B.S. 28.12.2015, Ed. 2, p. 79604))
 
@@ -155,7 +159,7 @@ Het recht op aftrek ontstaat:
 waarde, de aftrek worden verricht met inachtneming van de door of vanwege de Minister van
 Financiën gestelde voorwaarden.
 
-## Art. 4
+### Art. 4
 (De tekst van KB nr. 3, artikel 4 is van toepassing met ingang van 07.07.2003 (Art. 1,
 KB 16.06.2003, B.S. 27.06.2003))
 
@@ -173,11 +177,11 @@ betrekking tot het tijdvak waarin de formaliteiten worden vervuld of in een aang
 een volgend tijdvak, ingediend vóór het verstrijken van het derde kalenderjaar volgend op dat
 waarin de af te trekken belasting opeisbaar is geworden.
 
-##### AFDELING II
+## AFDELING II
     Herziening van de aftrek ten aanzien van andere belasting dan die
     geheven van bedrijfsmiddelen.
 
-## Art. 5
+### Art. 5
 (De tekst van KB nr. 3, artikel 5, werd vervangen met ingang van 01.01.2011 (Art. 2,
 KB 19.12.2010, B.S. 24.12.2010))
 
@@ -205,11 +209,11 @@ aftrek bestaat.
 
 § 3. De toepassing van dit artikel wordt geregeld door of vanwege de Minister van Financiën.
 
-##### AFDELING III
+## AFDELING III
     Herziening van de aftrek ten aanzien van belasting geheven
     van bedrijfsmiddelen.
 
-## Art. 6
+### Art. 6
 (De tekst van KB nr. 3, artikel 6 is van toepassing met ingang van 18.05.2007 (Art. 125,
 W 27.04.2007) B.S. 08.05.2007
 
@@ -224,7 +228,7 @@ door de minister van Financiën gestelde criteria.
 De in dit artikel bedoelde bepalingen gelden eveneens voor de toepassing van de artikelen 12,
 § 1, en 19, § 2, van het Wetboek.
 
-## Art. 7
+### Art. 7
 (De tekst van KB nr. 3, artikel 7, is van toepassing met ingang van 18.05.2007 (Art. 126,
 W 27.04.2007, B.S. 08.05.2007))
 
@@ -243,7 +247,7 @@ onderworpen is aan herziening:
     de overdracht van het genot van bedrijfsmiddelen of het verlenen van rechten op dat
     genot.
 
-## Art. 8
+### Art. 8
 (De tekst van KB nr. 3, artikel 8, eerste lid, 2°, is van toepassing met ingang van
 01.01.2011 (Art. 3, KB 19.12.2010, B.S. 24.12.2010))
 
@@ -256,7 +260,7 @@ De belastingplichtige herziet de oorspronkelijk verrichte aftrek voor bedrijfsmi
 
 De toepassing van dit artikel wordt geregeld door of vanwege de Minister van Financiën.
 
-## Art. 9
+### Art. 9
 (De tekst van KB nr. 3, artikel 9, § 2, tweede lid, 2° en 3°, werd gewijzigd met ingang van
 02.01.2020 (Art. 5, K.B. 11.12.2019, B.S. 23.12.2019, pg. 116136)) (1)
 
@@ -317,7 +321,7 @@ eerste ingebruikneming.
     januari 2019, blijven onderworpen aan artikel 9, § 1, in de versie van kracht vóór de inwerkingtreding van dit
     besluit. (Art. 9, KB 12.05.2019)
 
-## Art. 10
+### Art. 10
 (De tekst van KB nr. 3, artikel 10 is van toepassing met ingang van 01.04.2007 (Art. 103,
 W 27.04.2007) B.S. 08.05.2007 - Erratum B.S. 23.05.2007
 
@@ -381,7 +385,7 @@ ressorteren, een inventaris worden verstrekt van de aan herziening onderworpen g
 waarvan het model is vastgesteld door of vanwege de minister van Financiën, en van een
 afschrift van de bovenbedoelde toestemming.
 
-## Art. 11
+### Art. 11
 (De tekst van KB nr. 3, artikel 11, § 1, werd vervangen, §§ 2 en 3 gewijzigd en § 4
 vervangen, met ingang van 27.05.2019 (Art. 2, KB 12.05.2019, B.S. 27.05.2019, pg. 50443))
 
@@ -449,11 +453,11 @@ verstrijken van het in artikel 9 van dit besluit bedoelde herzieningstijdvak.
 
 § 6. De toepassing van dit artikel wordt geregeld door of vanwege de Minister van Financiën.
 
-##### AFDELING IV
+## AFDELING IV
     Bepalingen met betrekking tot de aftrek volgens het
     algemeen verhoudingsgetal.
 
-## Art. 12
+### Art. 12
 (De tekst van KB nr. 3, artikel 12, is van toepassing met ingang van 01.01.1971
 (KB 10.12.1969))
 
@@ -471,7 +475,7 @@ De van de handelingen geheven belasting is niet begrepen in de bedragen bedoeld 
 Het algemeen verhoudingsgetal wordt uitgedrukt in percenten. De wijze van berekening en
 afronding ervan wordt bepaald door of vanwege de Minister van Financiën.
 
-## Art. 13
+### Art. 13
 (De tekst van KB nr. 3, artikel 13, lid 1, 2° is van toepassing met ingang van 01.01.1993
 (Art.10, KB 29.12.1992))
 
@@ -488,13 +492,13 @@ verhoudingsgetal niet in aanmerking genomen:
     bedrijfszetel die onderscheiden is van de in België gevestigde zetel en de uitgaven met
     betrekking tot die handelingen niet rechtstreeks door deze laatste zetel worden gedragen.
 
-## Art. 14
+### Art. 14
 (De tekst van KB nr. 3, artikel 14, is opgeheven met ingang van 01.01.1978 (Art. 19,
 KB 31.03.1978))
 
     (opgeheven)
 
-## Art. 15
+### Art. 15
 (De tekst van KB nr. 3, artikel 15, is van toepassing met ingang van 18.09.2001 (Art. 3,
 KB 05.09.2001))
 
@@ -519,7 +523,7 @@ artikel 18, §§ 1 en 2, van het koninklijk besluit nr. 1 van 29 december 1992, 
 verhoudingsgetal voor het eerst wordt aangewend. Het berekeningsblad dient te verwijzen naar
 die aangifte.
 
-## Art. 16
+### Art. 16
 (De tekst van KB nr. 3, artikel 16, werd vervangen met ingang van 27.05.2019 (Art. 3,
 KB 12.05.2019, M.B. 27.05.2019, Ed. 1, pg. 50443))
 
@@ -537,7 +541,7 @@ verhoudingsgetal in aftrek gebrachte belasting. De belastingplichtige verricht d
 door dat verhoudingsgetal te vergelijken met het definitieve verhoudingsgetal van ieder van de
 vier, veertien of vierentwintig in aanmerking te nemen jaren.
 
-## Art. 17
+### Art. 17
 (De tekst van KB nr. 3, artikel 17, is van toepassing met ingang van 01.01.1971
 (KB 10.12.1969))
 
@@ -553,7 +557,7 @@ voorziet, op voorwaarde dat hij zulks doet voor ten minste vijf achtereenvolgend
 daarvan kennis geeft aan de administratie in het berekeningsblad waarvan sprake in artikel 15,
 laatste lid.
 
-## Art. 18
+### Art. 18
 (De tekst van KB nr. 3, artikel 18, eerste lid is van toepassing met ingang van 01.01.2011
 (Art. 6, KB 19.12.2010, B.S. 24.12.2010))
 
@@ -577,11 +581,11 @@ Financiën:
     gebruik van de goederen en diensten, naar de regeling waarbij de aftrek geschiedt
     volgens het algemeen verhoudingsgetal, en omgekeerd;
 
-##### AFDELING V
+## AFDELING V
 Bepalingen met betrekking tot de aftrek volgens het werkelijk gebruik
     van de goederen en diensten.
 
-## Art. 19
+### Art. 19
 (De tekst van KB nr. 3, artikel 19, is van toepassing met ingang van 01.01.1971
 (KB 10.12.1969))
 
@@ -596,7 +600,7 @@ waarvan de handelingen geen recht op aftrek geven. Ze heeft een bijkomende aftre
 in het tegenovergestelde geval. Ten aanzien van de belasting geheven van bedrijfsmiddelen
 wordt de herziening verricht overeenkomstig artikel 20.
 
-## Art. 20
+### Art. 20
 (De tekst van KB nr. 3, artikel 20, leden 1, 2 en 3, werd gewijzigd met ingang van
 02.01.2020 (Art. 6, KB 11.12.2019, B.S. 23.11.2019, pg. 116136))
 
@@ -617,7 +621,7 @@ het bedrag van de aftrek gelijk aan de belasting die oorspronkelijk niet kon wor
 verminderd met een vijfde, een vijftiende of een vijfentwintigste volgens het hierboven
 gemaakte onderscheid.
 
-## Art. 21
+### Art. 21
 (De tekst van KB nr. 3, artikel 21, tweede lid, 3°, werd opgeheven met ingang van
 01.01.2012 (Art.1, KB 09.01.2012, B.S. 23.01.2012))
 
@@ -634,10 +638,10 @@ Door of namens hem wordt onder meer de wijze van herziening van de aftrek bepaal
     handelingen die geen recht op aftrek verlenen, uitsluitend handelingen begint te stellen
     die recht op aftrek verlenen;
 
-##### Afdeling VI
+## Afdeling VI
     Bijzondere bepaling
 
-## Art. 21bis
+### Art. 21bis
 (De tekst van KB nr. 3, artikel 21bis, § 1, tweede lid, werd gewijzigd met ingang van
 27.05.2019 (Art. 5, KB 12.05.2019, B.S. 27.05.2019, Ed. 1, pg. 50443))
 
@@ -684,7 +688,7 @@ volgende aangiftetijdvakken overgebracht tot passend beloop van vak 71 van deze 
 § 4. Door of vanwege de Minister van Financiën worden de toepassingsmodaliteiten van de
 herziening en de wijze bepaald waarop deze wordt verricht.
 
-## Art. 21ter
+### Art. 21ter
 (De tekst van artikel 21ter, werd ingevoerd met ingang van 27.05.2019 (Art. 6,
 KB 12.05.2019, B.S. 27.05.2019, Ed. 1, pg. 50443) (2)
 
@@ -751,7 +755,7 @@ januari 2019.
 § 5. De Minister van Financiën bepaalt de toepassingsmodaliteiten van de regularisatie en de
 wijze waarop die wordt verricht.
 
-## Art. 21quater
+### Art. 21quater
 (De tekst van KB nr. 3, artikel 21quater, werd ingevoegd met ingang van 27.05.2019 (Art. 7,
 KB 12.05.2019, B.S. 27.05.2019, Ed. 1, pg. 50443))
 
@@ -768,14 +772,14 @@ blijft lopen:
     overdracht van het goed of na de overdracht of wederoverdracht van een zakelijk recht
     op dat goed, uitsluitend verricht in hoofde van de overnemer van dat goed.
 
-## Art. 22
+### Art. 22
 (De tekst van KB nr. 3, artikel 22, is van toepassing met ingang van 01.01.1971
 (KB 10.12.1969))
 
 Dit besluit treedt in werking op dezelfde datum als de wet van 3 juli 1969 tot invoering van het
 Wetboek van de belasting over de toegevoegde waarde.
 
-## Art. 23
+### Art. 23
 (De tekst van KB nr. 3, artikel 23, is van toepassing met ingang van 01.01.1971
 (KB 10.12.1969))
 

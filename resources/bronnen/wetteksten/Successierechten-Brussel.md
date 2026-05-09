@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 5
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Successierechten — Brussels Hoofdstedelijk Gewest
@@ -45,47 +49,47 @@ Wetgeving van toepassing in het Brusselse Hoofdstedelijk Gewest
 
 (KB nr. 308 van 31.03.1936 (B.S., 07.04.1936) en err. (B.S., 26.04.1936), genomen in uitvoering van art. 1, § 1, litt. a, van de wet van 31 jul. 1934, verlengd en vervolledigd door deze van 7 dec. 1934, van 15 mrt. en van 30 mrt. 1935. Bekrachtigd door de wet van 4 mei 1936)
 
-#### HOOFDSTUK XI - Aan derden opgelegde verplichtingen ten einde de juiste heffing der ingevolge het
+### HOOFDSTUK XI - Aan derden opgelegde verplichtingen ten einde de juiste heffing der ingevolge het
 
 overlijden van rijksinwoners verschuldigde successierechten te verzekeren ....................................................... 69
 
-#### HOOFDSTUK XII - Bewijsmiddelen ..................................................................................................................................... 83
+### HOOFDSTUK XII - Bewijsmiddelen ..................................................................................................................................... 83
 
 Eerste afdeling - Bewijsmiddelen van gemeen recht .............................................................................................. 83
 
-##### Afdeling II - Bijzondere bewijsmiddelen ....................................................................................................................... 84
+#### Afdeling II - Bijzondere bewijsmiddelen ....................................................................................................................... 84
 
-##### Afdeling III - Controle-schatting ..................................................................................................................................... 86
+#### Afdeling III - Controle-schatting ..................................................................................................................................... 86
 
-#### HOOFDSTUK XIII - Strafbepalingen .................................................................................................................................... 91
+### HOOFDSTUK XIII - Strafbepalingen .................................................................................................................................... 91
 
 Eerste afdeling - Fiscale boeten ..................................................................................................................................... 91
 
-##### Afdeling II - Correctionele straffen................................................................................................................................. 95
+#### Afdeling II - Correctionele straffen................................................................................................................................. 95
 
-#### HOOFDSTUK XIV - Teruggave van de rechten ............................................................................................................. 100
+### HOOFDSTUK XIV - Teruggave van de rechten ............................................................................................................. 100
 
-#### HOOFDSTUK XV - Verjaring ............................................................................................................................................... 104
+### HOOFDSTUK XV - Verjaring ............................................................................................................................................... 104
 
-#### HOOFDSTUK XVI - Vervolgingen en gedingen ............................................................................................................. 107
+### HOOFDSTUK XVI - Vervolgingen en gedingen ............................................................................................................. 107
 
-#### HOOFDSTUK XVII - Door de Algemene Administratie van de Patrimoniumdocumentatie te verstrekken
+### HOOFDSTUK XVII - Door de Algemene Administratie van de Patrimoniumdocumentatie te verstrekken
 
 inlichtingen .............................................................................................................................................................................. 110
 
-#### HOOFDSTUK XVIII - Aan alle belastingen gemene bepalingen ............................................................................... 113
+### HOOFDSTUK XVIII - Aan alle belastingen gemene bepalingen ............................................................................... 113
 
 ## BOEK II - TAKS TOT VERGOEDING DER SUCCESSIERECHTEN ....................................................................... 143
 
-#### HOOFDSTUK I - Vestiging van de taks ........................................................................................................................... 143
+### HOOFDSTUK I - Vestiging van de taks ........................................................................................................................... 143
 
-#### HOOFDSTUK II - Zetting der taks ..................................................................................................................................... 145
+### HOOFDSTUK II - Zetting der taks ..................................................................................................................................... 145
 
-#### HOOFDSTUK III - Aangifte .................................................................................................................................................. 148
+### HOOFDSTUK III - Aangifte .................................................................................................................................................. 148
 
-#### HOOFDSTUK IV - Verevening en betaling van de taks .............................................................................................. 149
+### HOOFDSTUK IV - Verevening en betaling van de taks .............................................................................................. 149
 
-#### HOOFDSTUK V - Diverse bepalingen .............................................................................................................................. 151
+### HOOFDSTUK V - Diverse bepalingen .............................................................................................................................. 151
 
 ## BOEK IIBIS - (…) .................................................................................................................................................. 166
 
@@ -94,18 +98,18 @@ inlichtingen ...................................................................
 (…) .............................................................................................................................................................................................. 175 (…) .............................................................................................................................................................................................. 176
 Eerste afdeling – (…) ....................................................................................................................................................... 176
 
-##### Afdeling II - (…) .................................................................................................................................................................. 179
+#### Afdeling II - (…) .................................................................................................................................................................. 179
 
 *                              *
 *
 
 ## BOEK I - RECHTEN VAN SUCCESSIE EN VAN OVERGANG BIJ OVERLIJDEN
 
-#### HOOFDSTUK I - Vestiging van de rechten
+### HOOFDSTUK I - Vestiging van de rechten
 
-##### Afdeling I - Erfopvolging bij versterf en testamentaire erfopvolging
+#### Afdeling I - Erfopvolging bij versterf en testamentaire erfopvolging
 
-## Art. 1
+##### Art. 1
 
 (van toepassing vanaf 03.09.2010)
 
@@ -121,7 +125,7 @@ Voor een Rijksinwoner wordt gehouden, hij die, op het ogenblik van zijn overlijd
 
 Voor een inwoner van de Europese Economische Ruimte wordt gehouden, hij die, op het ogenblik van zijn overlijden, binnen deze Ruimte zijn domicilie of de zetel van zijn vermogen heeft gevestigd.
 
-## Art. 2
+##### Art. 2
 
 (van toepassing vanaf 17.04.1936)
 
@@ -129,9 +133,9 @@ Deze rechten zijn verschuldigd op de erfgoederen ongeacht of zij ingevolge wette
 
 Ze zijn, bovendien, verschuldigd in de gevallen aangeduid onder artikelen 3 tot 14.
 
-##### Afdeling II - Overdrachten en beschikkingen gelijkgesteld met overgangen uit oorzaak van dood
+#### Afdeling II - Overdrachten en beschikkingen gelijkgesteld met overgangen uit oorzaak van dood
 
-## Art. 3
+##### Art. 3
 
 (van toepassing vanaf 01.07.2007)
 
@@ -139,7 +143,7 @@ Ze zijn, bovendien, verschuldigd in de gevallen aangeduid onder artikelen 3 tot 
 
 (…)
 
-## Art. 4
+##### Art. 4
 
 (van toepassing vanaf 01.07.2022)
 
@@ -160,7 +164,7 @@ a) op het ogenblik van de schenking: de persoon die op dat ogenblik zijn fiscale
 
 b) op het ogenblik van zijn overlijden: de persoon die op dat ogenblik zijn fiscale woonplaats had in dat Gewest; als hij zijn fiscale woonplaats op meer dan één plaats in België heeft gehad tijdens de vijf jaar vóór zijn overlijden, de persoon die zijn fiscale woonplaats in de voormelde periode het langst in dat Gewest had.
 
-## Art. 5
+##### Art. 5
 
 (van toepassing vanaf 01.07.2022)
 
@@ -170,7 +174,7 @@ De langstlevende echtgenoot, aan wie een huwelijksovereenkomst, die niet aan de 
 
 het deel van de andere echtgenoot krachtens een schenking onder levenden of een bepaling wegens overlijden geheel of gedeeltelijk verkrijgt.
 
-## Art. 6
+##### Art. 6
 
 (van toepassing vanaf 28.09.1976)
 
@@ -179,7 +183,7 @@ het deel van de andere echtgenoot krachtens een schenking onder levenden of een 
 De overlevende man wordt geacht legataris te zijn van het deel der bij de ontbinding der gemeenschap bestaande goederen, dat hem tengevolge van verwerping door de erfgenamen zijner vrouw ten goede komt.
 (1) Artikel opgeheven maar blijft van kracht bij wijze van overgangsmaatregel (z. wet van 14.07.1976, B.S., 18.09.1976, art. 4, 45 en 47 – Adm. circ. nr. 13 van 21.09.1976)
 
-## Art. 7
+##### Art. 7
 
 (van toepassing vanaf 24.07.2025)
 
@@ -191,7 +195,7 @@ Wanneer er door het Bestuur of door de erfgenamen en legatarissen bewezen wordt 
 
 De vrijstelling van het schenkingsrecht bedoeld in artikel 131bis, eerste lid, van het Wetboek der registratie-, hypotheek- en griffierechten sluit de toepassing van dit artikel niet uit.
 
-## Art. 8
+##### Art. 8
 
 (van toepassing vanaf 24.07.2025)
 
@@ -227,7 +231,7 @@ Dit artikel is niet van toepassing:
 
 4° op de sommen, renten of waarden, bij het overlijden van de overledene verkregen, ingevolge een contract bevattende een door een derde ten behoeve van de verkrijger gemaakt beding, wanneer er bewezen wordt dat deze derde kosteloos ten behoeve van de verkrijger heeft bedongen.
 
-## Art. 9
+##### Art. 9
 
 (van toepassing vanaf 17.04.1936)
 
@@ -235,7 +239,7 @@ Dit artikel is niet van toepassing:
 
 De roerende of onroerende goederen, verkregen ten bezwarende titel voor het vruchtgebruik door de overledene en voor de blote eigendom door een derde, alsmede de effecten aan toonder of op naam, ingeschreven voor het vruchtgebruik op naam van de overledene en voor de blote eigendom op naam van een derde, worden, voor de heffing van het uit hoofde van de nalatenschap van de overledene eisbaar successierecht en recht van overgang bij overlijden, geacht in volle eigendom in dezes nalatenschap voorhanden te zijn en door de derde als legaat te zijn verkregen, tenzij het bewezen wordt dat de verkrijging of de inschrijving niet een bedekte bevoordeling ten behoeve van de derde is.
 
-## Art. 10
+##### Art. 10
 
 (van toepassing vanaf 17.04.1936)
 
@@ -245,7 +249,7 @@ De belastbare waarde wordt bepaald door een breuk van de waarde, ten dage van he
 
 Dit artikel is niet van toepassing wanneer er bewezen wordt dat de verdeling geen bevoordeling ten behoeve van de verscheidene mederechthebbenden in de onverdeeldheid bedekte.
 
-## Art. 11
+##### Art. 11
 
 (van toepassing In de Franse versie vanaf 01.07.2022)
 
@@ -257,13 +261,13 @@ Indien de overledene, daarenboven, de overlating van een goed in eigendom te zij
 
 Het recht van overgang, geheven bij de registratie der akte van verkoop of van afstand, en, in voorkomend geval, het overschrijvingsrecht, worden afgetrokken van het successierecht of van het recht van overgang bij overlijden, in de mate waarin laatstgemelde rechten eisbaar zijn krachtens dit artikel eventueel gecombineerd met het volgend artikel.
 
-## Art. 12
+##### Art. 12
 
 (van toepassing vanaf 17.04.1936)
 
 Wanneer er, in de gevallen voorzien onder artikelen 9, 10 en 11, niet bewezen wordt dat de verrichting geen bevoordeling verbergt, doch er uitgemaakt wordt dat de overledene werkelijk het levenslang recht genoten heeft, is er aanleiding toe, op de belastbare grondslag, ten dage van het openvallen der nalatenschap, een evenredige vermindering toe te passen zoals deze voorzien onder de tweede alinea van artikelen 10 en 11, en zulks rekening gehouden met de waarde van bedoeld levenslang recht gekapitaliseerd tegen 4 t.h. en volgens het werkelijk aantal volle jaren gedurende dewelke de overledene het genoten heeft; gaat het om een vruchtgebruik of ander zakelijk levenslang recht, dan dient de waarde van het in aanmerking te nemen jaarlijks inkomen forfaitair vastgesteld op 4 t. h. van de waarde van de volle eigendom van het goed ten dage van het contract.
 
-## Art. 13
+##### Art. 13
 
 (van toepassing vanaf 30.04.1967)
 
@@ -271,7 +275,7 @@ Wanneer er, in de gevallen voorzien onder artikelen 9, 10 en 11, niet bewezen wo
 
 Het krachtens artikelen 8, 5e alinea, 9, 10, 3e alinea, 11, 1e alinea, en 12 te leveren bewijs, kan door alle gewone rechtsmiddelen, ook door getuigen en vermoedens, bijgebracht worden.
 
-## Art. 14
+##### Art. 14
 
 (van toepassing vanaf 17.04.1936)
 
@@ -281,11 +285,11 @@ Artikelen 9 tot 13 zijn niet van toepassing:
 
 2° Indien de derde, in het geval van artikel 9, de mederechthebbende in de onverdeeldheid, verkrijger van de blote eigendom of belast met het levenslang recht, in het geval van artikel 10, de verkrijger of de overnemer, in het geval van artikel 11, niet behoren tot de soort van personen vermeld in de alinea's 1, 2 en 3 van artikel 33.
 
-#### HOOFDSTUK II - Belastbaar actief
+### HOOFDSTUK II - Belastbaar actief
 
-##### Afdeling I - Successierecht
+#### Afdeling I - Successierecht
 
-## Art. 15
+##### Art. 15
 
 (van toepassing vanaf 03.09.2010)
 
@@ -293,7 +297,7 @@ Artikelen 9 tot 13 zijn niet van toepassing:
 
 Het successierecht is verschuldigd op de algemeenheid der aan de overledene of aan de afwezige toebehorende goederen, waar ze zich ook bevinden, na aftrek van het in artikel 27, eerste lid bedoelde passief en behoudens toepassing van artikelen 16 en 17.
 
-## Art. 16
+##### Art. 16
 
 (van toepassing vanaf 01.07.2022)
 
@@ -307,7 +311,7 @@ Wordt niet beschouwd als terugneming of vergoeding vallende onder toepassing van
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 17
+##### Art. 17
 
 (van toepassing vanaf 01.01.2028)
 
@@ -319,7 +323,7 @@ De vermindering, waarvan sprake, is afhankelijk gesteld van de verzending aan de
 
 Indien de bij de vorige alinea bedoelde bewijsstukken vóór de betaaldag der rechten niet verzonden zijn, moeten deze binnen het wettelijk tijdsbestek betaald worden, behoudens teruggave, in voorkomend geval, overeenkomstig hetgeen voorzien is in artikel 135, 2°.
 
-## Art. 17
+##### Art. 17
 
 (van toepassing vanaf 01.08.2022)
 
@@ -331,9 +335,9 @@ De vermindering, waarvan sprake, is afhankelijk gesteld van het inleveren, aan d
 
 Indien de bij de vorige alinea bedoelde bewijsstukken vóór de betaaldag der rechten niet ingeleverd zijn, moeten deze binnen het wettelijk tijdsbestek betaald worden, behoudens teruggave, in voorkomend geval, overeenkomstig hetgeen voorzien is in artikel 135, 2°.
 
-##### Afdeling II - Recht van overgang bij overlijden
+#### Afdeling II - Recht van overgang bij overlijden
 
-## Art. 18
+##### Art. 18
 
 (van toepassing vanaf 03.09.2010)
 
@@ -341,11 +345,11 @@ Indien de bij de vorige alinea bedoelde bewijsstukken vóór de betaaldag der re
 
 Het recht van overgang bij overlijden is verschuldigd op de algemeenheid der in België gelegen onroerende goederen, die aan de overledene of aan de afwezige toebehoren, na aftrek van het in artikel 27, tweede lid, bedoelde passief indien de overledene een inwoner van de Europese Economische Ruimte was.
 
-#### HOOFDSTUK III - Waardering van het belastbaar actief
+### HOOFDSTUK III - Waardering van het belastbaar actief
 
-##### Afdeling I - Algemene regelen
+#### Afdeling I - Algemene regelen
 
-## Art. 19
+##### Art. 19
 
 (van toepassing vanaf 17.04.1936)
 
@@ -355,7 +359,7 @@ Voor de waardering der goederen waarvan de schijnbare eigendom op het hoofd van 
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 20
+##### Art. 20
 
 (van toepassing vanaf 01.01.2028)
 
@@ -369,7 +373,7 @@ Er wordt gehandeld overeenkomstig artikelen 113 tot 120 en 122.
 
 De waardering is definitief en dient tot grondslag voor de verevening der belasting.
 
-## Art. 20
+##### Art. 20
 
 (van toepassing vanaf 30.07.2018)
 
@@ -383,9 +387,9 @@ Er wordt gehandeld overeenkomstig artikelen 113 tot 120 en 122.
 
 De waardering is definitief en dient tot grondslag voor de verevening der belasting.
 
-##### Afdeling II - Bijzondere regelen
+#### Afdeling II - Bijzondere regelen
 
-## Art. 21
+##### Art. 21
 
 (van toepassing vanaf 01.09.2015)
 
@@ -442,7 +446,7 @@ Geen aftrek heeft plaats wanneer het vruchtgebruik bij toepassing van artikel 67
 
 (1) De wijzigingen aan de tekst van art. 21, III, van toepassing op de successierechten gelokaliseerd in het Brussels Hoofdstedelijk Gewest, blijft zonder gevolg op de taks tot vergoeding van de successierechten; deze taks behoort volledig tot de bevoegdheid van de federale staat.
 
-## Art. 22
+##### Art. 22
 
 (van toepassing vanaf 17.04.1936)
 
@@ -450,13 +454,13 @@ Worden voor de toepassing van artikelen 21 en 66 met vruchtgebruik gelijkgesteld
 
 Indien de lijfrente, de levenslange prestatie of het vruchtgebruik op het hoofd van twee of meer personen is gevestigd, is de in aanmerking te nemen leeftijd die van de jongste persoon.
 
-## Art. 23
+##### Art. 23
 
 (van toepassing vanaf 17.04.1936)
 
 Het jaarlijks bedrag in geld der periodieke renten en prestaties betaalbaar in natura wordt geregeld naar het gemiddeld bedrag van de marktprijzen der twee jongste jaren van de markt die het naast bij de tot waarborg aangewende goederen en, bij ontstentenis van bezwaarde goederen, bij de woonplaats van de schuldenaar gelegen is; indien geen marktprijzen bestaan, wordt dit bedrag door de aangevende partijen begroot.
 
-## Art. 24
+##### Art. 24
 
 (van toepassing vanaf 17.04.1936)
 
@@ -464,7 +468,7 @@ De zekere schuldvorderingen, doch waarvan het bedrag op 't ogenblik van het over
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 25
+##### Art. 25
 
 (van toepassing vanaf 01.01.2028)
 
@@ -472,7 +476,7 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 In de in artikel 37, 2°, 3°, 4° en 6°, bedoelde gevallen moet als belastbare waarden worden aangegeven de waarde der goederen op de dag van het vonnis, van de dading of van de gebeurtenis, die het uitgangspunt vormt van de termijn die bij artikel 40, vierde lid, is bepaald voor de verzending van de aangifte.
 
-## Art. 25
+##### Art. 25
 
 (van toepassing vanaf 30.04.1967)
 
@@ -480,15 +484,15 @@ In de in artikel 37, 2°, 3°, 4° en 6°, bedoelde gevallen moet als belastbare
 
 In de in artikel 37, 2°, 3°, 4° en 6°, bedoelde gevallen moet als belastbare waarden worden aangegeven de waarde der goederen op de dag van het vonnis, van de dading of van de gebeurtenis, die het uitgangspunt vormt van de termijn die bij artikel 40, vierde lid, is bepaald voor de inlevering van de aangifte.
 
-## Art. 26
+##### Art. 26
 
 (van toepassing vanaf 17.04.1936)
 
 Voor de heffing der rechten van successie en van overgang bij overlijden, in rechte lijn of tussen echtgenoten die één of meer gemene kinderen of afstammelingen van hen nalaten, wordt de regering ertoe gemachtigd een wijze van waardering der in België gelegen onroerende goederen vast te stellen, gegrond op de kadastrale opbrengst dier goederen vermenigvuldigd door een naar de gemiddelde verhouding tussen kadastrale opbrengsten en verkoopprijzen periodiek vast te stellen coëfficiënt
 
-#### HOOFDSTUK IV - Aannemelijk passief
+### HOOFDSTUK IV - Aannemelijk passief
 
-## Art. 27
+##### Art. 27
 
 (van toepassing vanaf 03.09.2010)
 
@@ -502,13 +506,13 @@ Als aannemelijk passief met betrekking tot de nalatenschap van een Rijksinwoner 
 
 Als aannemelijk passief met betrekking tot de nalatenschap van een inwoner van de Europese Economische Ruimte die geen Rijksinwoner is, gelden slechts de op de dag van zijn overlijden bestaande schulden waarvan de aangevers het bewijs leveren dat ze specifiek werden aangegaan om de aan de belasting onderworpen onroerende goederen te verwerven of te behouden.
 
-## Art. 28
+##### Art. 28
 
 (van toepassing vanaf 17.04.1936)
 
 De regelen betreffende de begroting der goederen die het actief ener nalatenschap samenstellen zijn van toepassing op de begroting der in het passief aannemelijke schulden.
 
-## Art. 29
+##### Art. 29
 
 (van toepassing vanaf 17.04.1936)
 
@@ -516,7 +520,7 @@ Het bestaan der schulden moet bewezen worden door de bewijsmiddelen die in recht
 
 De schulden aangaande het beroep van de overledene en deze aangaande de huiselijke uitgaven van het verstreken jaar en van het lopend jaar kunnen evenwel door getuigen en vermoedens worden vastgesteld.
 
-## Art. 30
+##### Art. 30
 
 (van toepassing vanaf 17.04.1936)
 
@@ -528,13 +532,13 @@ De overlegging alleen van de rechtstitel volstaat niet om het bestaan vast te st
 
 3° van de sedert meer dan een jaar vóór het overlijden verschenen termijnen van schuldbekentenissen waarvan het bedrag bij annuïteiten wordt afgedaan.
 
-## Art. 31
+##### Art. 31
 
 (van toepassing vanaf 17.04.1936)
 
 Alle schuld, waarvan het bestaan bewezen wordt door overlegging van een stuk waarop een niet gedagtekende kwitantie is gesteld, wordt geacht, tenzij het tegendeel bewezen wordt, vóór het overlijden voldaan te zijn geworden.
 
-## Art. 32
+##### Art. 32
 
 (van toepassing vanaf 03.09.2010)
 
@@ -542,7 +546,7 @@ Alle schuld, waarvan het bestaan bewezen wordt door overlegging van een stuk waa
 
 Worden uitgesloten uit het passief, de bij artikel 4 vermelde schulden.
 
-## Art. 33
+##### Art. 33
 
 (van toepassing vanaf 01.07.2022)
 
@@ -564,7 +568,7 @@ Evenwel, worden bedoelde schulden aangenomen:
 
 2° Indien zij tot onmiddellijke en rechtstreekse oorzaak hebben de verkrijging, de verbetering, het behoud of de terugbekoming van een goed, dat op de dag van het afsterven van de overledene tot dezes boedel behoorde.
 
-## Art. 34
+##### Art. 34
 
 (van toepassing vanaf 17.04.1936)
 
@@ -576,11 +580,11 @@ Het bestuur is ertoe gerechtigd te vorderen dat de handtekening gelegaliseerd wo
 
 De verklaring blijft bij de aangifte van nalatenschap gevoegd.
 
-#### HOOFDSTUK V - Aangifte van nalatenschap
+### HOOFDSTUK V - Aangifte van nalatenschap
 
 Eerste afdeling - Verplichting tot aangifte
 
-## Art. 35
+##### Art. 35
 
 (van toepassing vanaf 17.04.1936)
 
@@ -588,7 +592,7 @@ De rechten van successie en van overgang bij overlijden worden verevend op zicht
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 36
+##### Art. 36
 
 (van toepassing vanaf 01.01.2028)
 
@@ -596,7 +600,7 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 Er bestaat een verplichting tot verzending van deze aangifte in al de gevallen dat een goed overgedragen wordt onder de voorwaarden voorzien onder artikelen 1 tot 14.
 
-## Art. 36
+##### Art. 36
 
 (van toepassing vanaf 17.04.1936)
 
@@ -604,7 +608,7 @@ Er bestaat verplichting tot inlevering van deze aangifte in al de gevallen dat e
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 37
+##### Art. 37
 
 (van toepassing vanaf 01.01.2028)
 
@@ -626,7 +630,7 @@ Een nieuwe aangifte wordt verzonden:
 
 7° wanneer, naar gelang van het geval, het in artikel 8, derde lid, bedoelde contract wordt afgekocht of er een uitkering gebeurt op grond van het contract.
 
-## Art. 37
+##### Art. 37
 
 (van toepassing vanaf 11.08.2022)
 
@@ -650,9 +654,9 @@ Een nieuwe aangifte moet ingeleverd worden:
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-##### Afdeling II - Personen verplicht tot aangifte - Bevoegd kantoor
+#### Afdeling II - Personen verplicht tot aangifte - Bevoegd kantoor
 
-## Art. 38
+##### Art. 38
 
 (van toepassing vanaf 01.01.2028)
 
@@ -682,9 +686,9 @@ Zo de door eenzelfde erfgenaam, legataris of begiftigde verkregen onroerende goe
 
 8° in het in artikel 37, 7°, bedoelde geval, naar gelang het geval, door de persoon die het contract afkoopt of door degene die de uitkering op grond van het contract ontvangt ten kantore waar de eerste aangifte werd ingediend.
 
-##### Afdeling II - Personen verplicht tot aangifte - Bevoegd kantoor
+#### Afdeling II - Personen verplicht tot aangifte - Bevoegd kantoor
 
-## Art. 38
+##### Art. 38
 
 (van toepassing vanaf 11.08.2022)
 
@@ -714,7 +718,7 @@ Zo de door eenzelfde erfgenaam, legataris of begiftigde verkregen onroerende goe
 
 8° in het in artikel 37, 7°, bedoelde geval, naar gelang het geval, door de persoon die het contract afkoopt of door degene die de uitkering op grond van het contract ontvangt ten kantore waar de eerste aangifte werd ingediend.
 
-## Art. 39
+##### Art. 39
 
 (van toepassing vanaf 01.01.2002)
 
@@ -724,9 +728,9 @@ Zo de door eenzelfde erfgenaam, legataris of begiftigde verkregen onroerende goe
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-##### Afdeling III - Aangiftetermijn
+#### Afdeling III - Aangiftetermijn
 
-## Art. 40
+##### Art. 40
 
 (van toepassing vanaf 01.01.2028)
 
@@ -746,9 +750,9 @@ In geval van fideïcommis, loopt de termijn te rekenen van de datum der door het
 
 In geval van gebeurtenissen voorzien in artikel 37, 7°, loopt de termijn, naargelang het geval, te rekenen vanaf de dag van het afkopen of die waarop een uitkering gebeurt op grond van het contract.
 
-##### Afdeling III - Aangiftetermijn
+#### Afdeling III - Aangiftetermijn
 
-## Art. 40
+##### Art. 40
 
 (van toepassing vanaf 11.08.2022)
 
@@ -770,7 +774,7 @@ In geval van gebeurtenissen voorzien in artikel 37, 7°, loopt de termijn, naarg
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 41
+##### Art. 41
 
 (van toepassing vanaf 01.01.2028)
 
@@ -780,7 +784,7 @@ De voor de verzending van de aangifte gestelde termijn, kan door de administrate
 
 De aangifte verzonden binnen de bij de wet bepaalde of door de administrateur-generaal verlengde termijn kan worden gewijzigd zolang de termijn niet verstreken is, tenzij de belanghebbenden uitdrukkelijk in een in de wettelijke vorm ingeleverde aangifte aan dit vermogen hebben verzaakt.
 
-## Art. 41
+##### Art. 41
 
 (van toepassing vanaf 16.05.2016)
 
@@ -790,9 +794,9 @@ De voor de inlevering der aangifte gestelde termijn, kan door de administrateur-
 
 De aangifte ingeleverd binnen de bij de wet bepaalde of door de administrateur-generaal verlengde termijn kan worden gewijzigd zolang de termijn niet verstreken is, tenzij de belanghebbenden uitdrukkelijk in een in de wettelijke vorm ingeleverde aangifte aan dit vermogen hebben verzaakt. (1)
 
-##### Afdeling IV - Vorm en inhoud
+#### Afdeling IV - Vorm en inhoud
 
-## Art. 42
+##### Art. 42
 
 (van toepassing vanaf 01.01.2024)
 
@@ -826,7 +830,7 @@ X. Ingeval het recht van successie verschuldigd is, bevat de aangifte bovendien 
 
 XI. in voorkomend geval, de aanvraag tot toepassing van artikel 60quinquies, met vermelding van de in artikel 60quinquies, tweede lid, bedoelde personen.
 
-## Art. 43
+##### Art. 43
 
 (van toepassing vanaf 01.01.1986)
 
@@ -850,7 +854,7 @@ In strijd met de voorschriften van nummer VI van artikel 42, mogen het voorwerp 
 
 8° de wijn en andere waren.
 
-## Art. 44
+##### Art. 44
 
 (van toepassing vanaf 17.04.1936)
 
@@ -868,7 +872,7 @@ In geval van ophouding van vruchtgebruik, vermeldt de aangifte:
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 45
+##### Art. 45
 
 (van toepassing vanaf 01.01.2028)
 
@@ -885,7 +889,7 @@ De Koning kan:
 2° onder voorbehoud van de bepalingen van de Archiefwet van 24 juni 1955, de bewaartermijn en de wijze van bewaring van de aangiften van nalatenschap bepalen.
 Nota: Art. 92, 2° brengt een wijziging aan in het derde lid, 1°, worden de woorden "de indiening" vervangen door de woorden "de verzending". De tekst werd reeds aangepast bij art. 73 van de wet van 12.05.2024 (B.S., 29.05.2024).
 
-## Art. 45
+##### Art. 45
 
 (van toepassing vanaf 08.06.2024)
 
@@ -901,7 +905,7 @@ De Koning kan:
 
 2° onder voorbehoud van de bepalingen van de Archiefwet van 24 juni 1955, de bewaartermijn en de wijze van bewaring van de aangiften van nalatenschap bepalen.
 
-## Art. 46
+##### Art. 46
 
 (van toepassing vanaf 30.04.1967)
 
@@ -911,9 +915,9 @@ Indien de door de overledene nagelaten lichamelijk roerende goederen verzekerd w
 
 Waren de goederen in kwestie niet verzekerd op de overlijdensdag, dan moeten de aangevers dit uitdrukkelijk in de aangifte bevestigen.
 
-##### Afdeling V - Niet-inlevering van aangifte
+#### Afdeling V - Niet-inlevering van aangifte
 
-## Art. 47
+##### Art. 47
 
 (van toepassing vanaf 24.11.1942)
 
@@ -921,11 +925,11 @@ Waren de goederen in kwestie niet verzekerd op de overlijdensdag, dan moeten de 
 
 Bij niet-inlevering van aangifte binnen de bepaalde termijn, mag het bestuur van ambtswege, behoudens latere regeling, het bedrag der verschuldigde sommen begroten en de invordering er van vervolgen overeenkomstig artikel 1421.
 
-#### HOOFDSTUK VI - Tarief der rechten
+### HOOFDSTUK VI - Tarief der rechten
 
 Eerste Afdeling - Algemeen tarief
 
-## Art. 48
+##### Art. 48
 
 (van toepassing vanaf 01.01.2024)
 
@@ -973,7 +977,7 @@ Voor de toepassing van het zevende lid, c), houdt de inschrijving in het bevolki
 
 samenwonen en van het vormen van een gemeenschappelijke huishouding met de erflater. Deze voorwaarden worden geacht ook vervuld te zijn als het samenwonen en het vormen van een gemeenschappelijke huishouding met de erflater, aansluitend op de in het zevende lid, c), bedoelde periode tot op de dag van het overlijden onmogelijk is geworden, ingevolge overmacht.
 
-## Art. 482
+##### Art. 482
 
 (van toepassing vanaf 22.07.2023)
 
@@ -981,9 +985,9 @@ samenwonen en van het vormen van een gemeenschappelijke huishouding met de erfla
 
 (…)
 
-##### Afdeling II - Bijzondere regelen
+#### Afdeling II - Bijzondere regelen
 
-## Art. 49
+##### Art. 49
 
 (van toepassing vanaf 01.07.2022)
 
@@ -991,7 +995,7 @@ samenwonen en van het vormen van een gemeenschappelijke huishouding met de erfla
 
 Wanneer er onzekerheid bestaat omtrent de devolutie der nalatenschap of de graad van verwantschap van een erfgenaam, legataris of begiftigde, wordt het hoogste opvorderbaar recht geheven, onder voorbehoud, voor de belanghebbenden, de teruggaaf te vorderen ingeval aan de onzekerheid een einde zou worden gemaakt.
 
-## Art. 50
+##### Art. 50
 
 (van toepassing vanaf 01.01.2024)
 
@@ -1019,7 +1023,7 @@ Voor de toepassing van hetzelfde tarief, wordt met de vader of de moeder van de 
 
 § 2. Het tarief van het recht tussen partners is niet van toepassing, naargelang het geval, wanneer de echtgenoten uit de echtgescheiden of van tafel en bed gescheiden zijn of wanneer de wettelijke samenwoning of de in artikel 48, zevende lid, c), bedoelde samenwoning een einde heeft genomen, tenzij de partners gemeenschappelijke kinderen of nakomelingen hebben.
 
-## Art. 51
+##### Art. 51
 
 (van toepassing vanaf 01.01.2024)
 
@@ -1027,7 +1031,7 @@ Voor de toepassing van hetzelfde tarief, wordt met de vader of de moeder van de 
 
 Wanneer de langstlevende partner als wettige erfgenaam en, bovendien, uit welken hoofde ook, tot de nalatenschap van de erflater komt, wordt het recht op al wat hem vervalt verrekend tegen het percentage bepaald voor wat tussen partners wordt verkregen.
 
-## Art. 521
+##### Art. 521
 
 (van toepassing vanaf 01.07.2022)
 
@@ -1035,7 +1039,7 @@ Wanneer de langstlevende partner als wettige erfgenaam en, bovendien, uit welken
 
 Wanneer een persoon, verwant van de overledene in verschillende graden in de vaderlijke en moederlijke linies tot de nalatenschap komt, hetzij in zijn dubbele hoedanigheid van erfgenaam, hetzij als legataris of begiftigde, wordt het recht volgens het laagste tarief verrekend op al wat hij verkrijgt.
 
-## Art. 522
+##### Art. 522
 
 (van toepassing vanaf 01.01.2024)
 
@@ -1053,7 +1057,7 @@ Evenwel wordt, mits bewijs te verstrekken door de belanghebbenden, met deze adop
 
 4° wanneer de adoptie gedaan werd door een persoon van wie al de afstammelingen voor België gestorven zijn.
 
-## Art. 53
+##### Art. 53
 
 (van toepassing vanaf 17.04.1936)
 
@@ -1061,11 +1065,11 @@ Wanneer een met fideïcommis bezwaard goed op de gesubstitueerde overgaat, zomed
 
 In deze verscheidene gevallen, blijven de ten laste van de bezwaarde of van de ingestelde in eerste rang geheven rechten aan de Staat vervallen, tenzij de substitutie, de aanwas of de terugvalling binnen het jaar na het overlijden van de beschikker plaats hebben, in welk geval de eerste geheven rechten op de eisbaar geworden rechten worden aangerekend, zonder dat er evenwel aanleiding tot restitutie kunnen zijn, en behoudens eventuele toepassing van artikel 67.
 
-#### HOOFDSTUK VII - Vrijstellingen en verminderingen
+### HOOFDSTUK VII - Vrijstellingen en verminderingen
 
 Eerste Afdeling - Vrijstellingen
 
-## Art. 54
+##### Art. 54
 
 (van toepassing vanaf 01.07.2022)
 
@@ -1079,7 +1083,7 @@ Dit abattement wordt ten gunste van de kinderen van de overledene die de leeftij
 
 2° hetgeen verkregen wordt door alle andere erfgenamen, legatarissen of begiftigden uit de nalatenschappen waarvan het zuiver bedrag 1.250 euro niet overschrijdt.
 
-## Art. 55
+##### Art. 55
 
 (van toepassing vanaf 12.02.2012)
 
@@ -1102,7 +1106,7 @@ Van de rechten van successie en van overgang bij overlijden worden vrijgesteld d
 7° aan de openbare instellingen van de publiekrechtelijke rechtspersonen vermeld in de onderdelen 1° tot
 6°.
 
-## Art. 55bis
+##### Art. 55bis
 
 (van toepassing vanaf 01.01.2024)
 
@@ -1126,9 +1130,9 @@ Zijn aandeel in de overige schulden en de begrafeniskosten worden eerst aangerek
 
 Ingeval, volgens de gegevens van het Rijksregister, de in het eerste lid gestelde voorwaarden zijn vervuld, past de ontvanger deze vrijstelling ambtshalve toe. Indien de erflater, of zijn partner, zijn hoofdverblijfplaats niet heeft kunnen behouden in het gebouw, als bedoeld in het vierde lid, of indien een einde is gekomen aan de samenwoning door overmacht, moet de toepassing van de vrijstelling worden gevraagd in de aangifte en, in voorkomend geval, moet de overmacht worden bewezen.
 
-##### Afdeling II - Verminderingen
+#### Afdeling II - Verminderingen
 
-## Art. 56
+##### Art. 56
 
 (van toepassing vanaf 01.01.2017)
 
@@ -1140,19 +1144,19 @@ Deze vermindering wordt, ten gunste van de partner, gebracht op 4 t.h. per kind 
 
 Voor de toepassing van dit artikel wordt het ontvangen kind voor zover het levensvatbaar geboren wordt, gelijkgesteld met het geboren kind.
 
-## Art. 57
+##### Art. 57
 
 (van toepassing vanaf 17.04.1936)
 
 Indien de goederen die belast zijn met het successierecht of met het recht van overgang bij overlijden het voorwerp uitmaken, binnen het jaar na het overlijden van de afgestorvene, van een of meer andere overdrachten bij overlijden, worden de wegens bewuste overdrachten verschuldigde rechten met de helft verminderd, zonder dat de daaruit voort te vloeien belastingverlaging, voor elkeen van bedoelde overdrachten bij overlijden, de op de onmiddellijk vorige overdracht geheven rechten moge te boven gaan.
 
-## Art. 58
+##### Art. 58
 
 (van toepassing vanaf 17.04.1936)
 
 Wanneer een goed in blote eigendom vóór het vervallen van het vruchtgebruik meermaals wegens overlijden werd overgedragen, is de erfgenaam, die het genot van het volle erfgoed verkrijgt, slechts gehouden, zowel voor de rechten waarvan de betaling werd geschorst, als voor die welke hij uit zijne hoofde mocht verschuldigd zijn, ten hoogste een som te betalen welke zestig ten honderd vertegenwoordigt van de waarde in volle eigendom van het goed op de datum waarop de jongste overdracht van de blote eigendom plaats had.
 
-## Art. 59
+##### Art. 59
 
 (van toepassing vanaf 19.09.2019)
 
@@ -1168,7 +1172,7 @@ De rechten van successie en van overgang bij overlijden worden verlaagd:
 - een statistische inschatting van de inkomsten voor de volgende vijf jaar, rekening houdende met het gevoerde beleid.
 De Regering maakt het rapport ter informatie over aan het Parlement (art. 4).
 
-## Art. 60
+##### Art. 60
 
 (van toepassing vanaf 12.02.2012)
 
@@ -1176,7 +1180,7 @@ De Regering maakt het rapport ter informatie over aan het Parlement (art. 4).
 
 De verlagingen bepaald in artikel 59 zijn ook toepasselijk op gelijkaardige rechtspersonen die opgericht zijn volgens en onderworpen zijn aan de wetgeving van een lidstaat van de Europese Economische Ruimte, en die hun statutaire zetel, hun hoofdbestuur of hun hoofdvestiging binnen de Europese Economische Ruimte hebben.
 
-## Art. 60bis
+##### Art. 60bis
 
 (van toepassing vanaf 01.05.2019 (art. 7, 1°, b) en c), 2° en 3°) en 22.07.2023 (art. 7, 1°, a) en 4°))
 
@@ -1248,7 +1252,7 @@ d) de kinderen van broers en zussen van de erflater of aandeelhouder.
 1° en 2°, a), ii) en b), 5, § 1, 2°, 7, 1°, b) en c), 2°, a), ii), en b), en 8 uitwerking met ingang van 01.01.2020 (art. 17, lid 1).
 In afwijking van het eerste lid, wanneer de vennootschap, opgericht vóór 01.05.2019, waarvan de aandelen werden verkregen door erfopvolging, heeft besloten, overeenkomstig artikel 39, § 1, tweede lid, van de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen, om de bepalingen van voornoemd Wetboek toe te passen vóór 01.01.2020, is artikel 7, 1°, b) en c), 2°, a), ii), en b), van toepassing op de opengevallen nalatenschappen vanaf de dag van publicatie van de wijziging van de statuten die deze beslissing bekrachtigt. Artikel 8 is van toepassing vanaf de dag van publicatie van de wijziging van de statuten die deze beslissing bekrachtigt (art. 17, lid 3).
 
-## Art. 60bis/1
+##### Art. 60bis/1
 
 (van toepassing vanaf 01.05.2019)
 
@@ -1281,7 +1285,7 @@ In afwijking van het eerste lid, wanneer de vennootschap, opgericht vóór 01.05
 
 Wetboek toe te passen vóór 01.01.2020, is artikel 7, 1°, b) en c), 2°, a), ii), en b), van toepassing op de opengevallen nalatenschappen vanaf de dag van publicatie van de wijziging van de statuten die deze beslissing bekrachtigt. Artikel 8 is van toepassing vanaf de dag van publicatie van de wijziging van de statuten die deze beslissing bekrachtigt (art. 17, lid 3).
 
-## Art. 60bis/2
+##### Art. 60bis/2
 
 (van toepassing vanaf 22.07.2023)
 
@@ -1297,7 +1301,7 @@ Bij niet-vervulling van de voorwaarde vermeld in artikel 60bis/1, § 2, 3°, is 
 
 Bij niet-vervulling van de voorwaarden vermeld in artikel 60bis/1, § 2, 3°, is het successierecht of het recht van overgang bij overlijden evenredig verschuldigd tegen het tarief vermeld in artikel 48, zonder toepassing van het verlaagde tarief.
 
-## Art. 60bis/3
+##### Art. 60bis/3
 
 (van toepassing vanaf 22.07.2023)
 
@@ -1323,7 +1327,7 @@ In geval de erfopvolgers één van de voornoemde verplichtingen niet naleven, wo
 
 (opgeheven bij art. 9 van de ordonnantie van 06.07.2023 (B.S., 27.09.2023). Tekst van toepassing vanaf 01.01.2024 en op de nalatenschappen die openvallen vanaf deze datum (art. 18))
 
-## Art. 60ter
+##### Art. 60ter
 
 (van toepassing vanaf 01.01.2024)
 
@@ -1344,7 +1348,7 @@ Ingeval, volgens de gegevens van het Rijksregister, de in het eerste lid gesteld
 
 In geval de erflater zijn hoofdverblijfplaats wegens overmacht niet heeft kunnen behouden in het bedoelde gebouw, als bedoeld in het tweede lid, moet de toepassing van het voordeeltarief wel uitdrukkelijk worden gevraagd in de aangifte en moet de overmacht worden bewezen.
 
-## Art. 60quater
+##### Art. 60quater
 
 (van toepassing vanaf 01.01.2003)
 
@@ -1360,7 +1364,7 @@ Onder nettowaarde in de zin van de artikelen 60bis en 60ter, dient te worden ver
 
 Indien de erfgenaam of legataris evenwel bewijst dat sommige schulden speciaal zijn gemaakt om goederen van de nalatenschap te verkrijgen, te verbeteren of te bewaren, worden die schulden afgetrokken van de waarde van die goederen.
 
-## Art. 60quinquies
+##### Art. 60quinquies
 
 (van toepassing vanaf 01.01.2024)
 
@@ -1374,17 +1378,17 @@ Het in het eerste lid bedoelde verlaagde tarief wordt toegepast op een totaalbed
 
 Wanneer het verkregen aandeel dat door de in het tweede lid bedoelde persoon of personen wordt verkregen het in het derde lid bedoelde bedrag overschrijdt wordt het in het eerste lid bedoelde verlaagde tarief toegepast op de eerste schijf of schijven van de tarieven van tabellen II, III of IV van artikel 48 die met dit bedrag overeenstemmen.
 
-#### HOOFDSTUK VIII - Verevening van de rechten
+### HOOFDSTUK VIII - Verevening van de rechten
 
 Eerste Afdeling - Algemene regelen
 
-## Art. 61
+##### Art. 61
 
 (van toepassing vanaf 17.04.1936)
 
 Het toe te passen tarief is dit van kracht ten dage van het overlijden.
 
-## Art. 62
+##### Art. 62
 
 (van toepassing vanaf 01.01.2002)
 
@@ -1392,7 +1396,7 @@ Het toe te passen tarief is dit van kracht ten dage van het overlijden.
 
 Het bedrag der verevende rechten wordt, desvoorkomend, tot de hogere cent afgerond.
 
-## Art. 63
+##### Art. 63
 
 (van toepassing vanaf 01.01.1999)
 
@@ -1400,7 +1404,7 @@ Het bedrag der verevende rechten wordt, desvoorkomend, tot de hogere cent afgero
 
 (…)
 
-## Art. 64
+##### Art. 64
 
 (van toepassing vanaf 01.07.2022)
 
@@ -1410,13 +1414,13 @@ Voor de verevening van het successierecht, wordt beschouwd als legaat de verbint
 
 Kan niet beschouwd worden als legaat, de verbintenis om iets te doen opgelegd aan een erfgenaam, legataris of begiftigde ten bate van een ander en, inzonderheid, de last opgelegd aan de erfgenamen, legatarissen of begiftigden om de rechten en kosten verbonden aan een aan een andere persoon gedaan legaat te dragen.
 
-## Art. 65
+##### Art. 65
 
 (van toepassing vanaf 17.04.1936)
 
 In geval van legaat van een som of van legaat van een periodieke rente of pensioen, wordt het bedrag van de gelegateerde som of het kapitaal waarop het successierecht naar rato van bedoelde rente of pensioen dient geheven, afgetrokken, voor de verevening van de rechten, van het zuiver bedrag van hetgeen verkregen wordt door de erfgenaam, legataris of begiftigde die het legaat der som of de rente moet uitbetalen.
 
-## Art. 66
+##### Art. 66
 
 (van toepassing vanaf 01.07.2022)
 
@@ -1432,7 +1436,7 @@ Dezelfde regelen zijn van toepassing zo het gaat om een op het hoofd van een rec
 
 Zo de lijfrente of levenslange prestatie of zo het vruchtgebruik ten bate van twee of meer natuurlijke personen achtereenvolgens of gezamenlijk met beding van aanwas is gevestigd, wordt de belastbare grondslag, voor de heffing van het op het ogenblik van de gebeurtenis vorderbaar recht, volgens de leeftijd van de genieter bij deze gebeurtenis bepaald.
 
-## Art. 66bis
+##### Art. 66bis
 
 (van toepassing vanaf 01.01.2016)
 
@@ -1440,7 +1444,7 @@ Zo de lijfrente of levenslange prestatie of zo het vruchtgebruik ten bate van tw
 
 (…)
 
-## Art. 66ter
+##### Art. 66ter
 
 (van toepassing vanaf 22.07.2023)
 
@@ -1448,15 +1452,15 @@ Zo de lijfrente of levenslange prestatie of zo het vruchtgebruik ten bate van tw
 
 In geval van toepassing van de artikelen 60bis en 60ter, worden de aandelen van de rechtverkrijgenden in de in die artikelen bedoelde nettowaarden, gevoegd bij hun aandeel in de belastbare waarde van de overige goederen, voor de toepassing van het progressieve tarief van artikel 48 op de overgang van deze overige goederen.
 
-##### Afdeling II - Bijzondere regelen
+#### Afdeling II - Bijzondere regelen
 
-## Art. 67
+##### Art. 67
 
 (van toepassing vanaf 17.04.1936)
 
 Voor het verrekenen van de rechten van successie en van overgang bij overlijden, komt niet in aanmerking hetgeen in vruchtgebruik of als levenslange of periodieke rente of pensioen wordt verkregen, indien de verkrijger binnen de zes maanden na het afsterven van de overledene sterft.
 
-## Art. 68
+##### Art. 68
 
 (van toepassing vanaf 01.01.2024)
 
@@ -1464,7 +1468,7 @@ Voor het verrekenen van de rechten van successie en van overgang bij overlijden,
 
 (…)
 
-## Art. 69
+##### Art. 69
 
 (van toepassing vanaf 01.01.2024)
 
@@ -1474,11 +1478,11 @@ Voor het verrekenen van de rechten van successie en van overgang bij overlijden,
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-#### HOOFDSTUK IX - Betaling der rechten en boeten
+### HOOFDSTUK IX - Betaling der rechten en boeten
 
 Eerste afdeling - Verplichting
 
-## Art. 70
+##### Art. 70
 
 (van toepassing vanaf 01.01.2028)
 
@@ -1490,11 +1494,11 @@ Bovendien, zijn de erfgenamen, algemene legatarissen en begiftigden in de nalate
 
 Deze regel is niet van toepassing op de rechten en interesten verschuldigd op de in artikel 37 voorziene nieuwe aangiften, wanneer het op hen niet berust deze aangiften te verzenden. Hij is evenmin van toepassing op de rechten en interesten verschuldigd op de in artikelen 7 en 8 bedoelde bevoordelingen.
 
-#### HOOFDSTUK IX - Betaling der rechten en boeten
+### HOOFDSTUK IX - Betaling der rechten en boeten
 
 Eerste afdeling - Verplichting
 
-## Art. 70
+##### Art. 70
 
 (van toepassing vanaf 01.03.2021)
 
@@ -1505,7 +1509,7 @@ De erfgenamen, legatarissen en begiftigden zijn tegenover de Staat aansprakelijk
 Bovendien, zijn de erfgenamen, algemene legatarissen en begiftigden in de nalatenschap van een Rijksinwoner samen aansprakelijk, ieder in verhouding van zijn erfdeel, voor de gezamenlijke rechten en interesten verschuldigd door de legatarissen en begiftigden onder algemene titel of onder bijzondere titel.
 Deze regel is niet van toepassing op de rechten en interesten verschuldigd op de in artikel 37 voorziene nieuwe aangiften, wanneer het op hen niet berust deze aangiften in te leveren. Hij is evenmin van toepassing op de rechten en interesten verschuldigd op de in artikelen 7 en 8 bedoelde bevoordelingen.
 
-## Art. 71
+##### Art. 71
 
 (van toepassing vanaf 17.04.1936)
 
@@ -1515,7 +1519,7 @@ Wordt door verscheidene personen een overtreding gepleegd, die tot een met het r
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 72
+##### Art. 72
 
 (van toepassing vanaf 01.01.2028)
 
@@ -1533,7 +1537,7 @@ De personen beschuldigd als daders of als medeplichtigen van misdrijven bedoeld 
 
 4° de verjaring van de strafvordering.
 
-## Art. 72
+##### Art. 72
 
 (van toepassing vanaf 28.04.2024)
 
@@ -1551,7 +1555,7 @@ De personen beschuldigd als daders of als medeplichtigen van misdrijven bedoeld 
 
 4° de verjaring van de strafvordering.
 
-## Art. 73
+##### Art. 73
 
 (van toepassing vanaf 01.07.2022)
 
@@ -1563,7 +1567,7 @@ De beheerder, voor de vereffening van de nalatenschap aangesteld zoals bepaald i
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 74
+##### Art. 74
 
 (van toepassing vanaf 01.01.2028)
 
@@ -1571,29 +1575,29 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 De vertegenwoordigers der erfgenamen, legatarissen en begiftigden, de curators van onbeheerde nalatenschappen, de sekwesters, de testamentuitvoerders en alle anderen die tot opdracht hebben of de last op zich genomen hebben de aangifte te verzenden, zijn tegenover de Staat aansprakelijk voor de rechten van successie of van overgang bij overlijden, voor de interesten en de boeten, voor zoveel het van hen heeft afgehangen in de nakoming van de wet te voorzien.
 
-## Art. 74
+##### Art. 74
 
 (van toepassing vanaf 17.04.1936)
 
 De vertegenwoordigers der erfgenamen, legatarissen en begiftigden, de curators van onbeheerde nalatenschappen, de sekwesters, de testamentuitvoerders en alle anderen die tot opdracht hebben of de last op zich genomen hebben de aangifte in te leveren, zijn tegenover de Staat aansprakelijk voor de rechten van successie of van overgang bij overlijden, voor de interesten en de boeten, voor zoveel het van hen heeft afgehangen in de nakoming van de wet te voorzien.
 
-##### Afdeling II - Bijdrage
+#### Afdeling II - Bijdrage
 
-## Art. 75
+##### Art. 75
 
 (van toepassing vanaf 17.04.1936)
 
 In zover er geen andersluidende beschikkingen bestaan, worden de rechten van successie en van overgang bij overlijden gedragen door de erfgenamen, legatarissen en begiftigden, ieder voor datgeen wat door hem verkregen wordt.
 
-## Art. 76
+##### Art. 76
 
 (van toepassing vanaf 17.04.1936)
 
 Onverminderd 's Rijks rechten, hebben de legatarissen van levenslange of periodieke renten en pensioenen het vermogen te eisen dat het te hunnen laste verevend successierecht voorgeschoten worde door de renteplichtige erfgenamen, legatarissen of begiftigden in zover dit recht de middelen van de renteheffer overtreft; in dit geval, zo het recht door de erflater niet ten laste van de erfgenamen, legatarissen of begiftigden werd gelegd, wordt achtereenvolgens van de rente- en pensioentermijnen afgehouden een gedeelte van het terug te geven kapitaal, bepaald door het aantal jaren gedurende dewelke, voor de heffing der belasting, de prestatie vermoed werd verstrekt te moeten zijn; bij dit gedeelte moeten de naar de in burgerlijke zaken geldende rentevoet berekende interesten worden gevoegd.
 
-##### Afdeling III - Termijn van betaling
+#### Afdeling III - Termijn van betaling
 
-## Art. 77
+##### Art. 77
 
 (van toepassing vanaf 16.05.2016)
 
@@ -1603,7 +1607,7 @@ De betaling van de rechten van successie en van overgang bij overlijden, zomede 
 
 De administrateur-generaal van de Algemene Administratie van de Patrimoniumdocumentatie kan, indien de erfgoederen voor het uitoefenen van een beroepswerkzaamheid worden gebruikt of wanneer zij niet voor een onmiddellijke tegeldemaking vatbaar zijn zonder aan de belastingplichtigen een aanzienlijk nadeel te berokkenen, deze, tegen waarborg, toelaten hun schuld bij gedeeltelijke betalingen te voldoen binnen een tijdsbestek dat vijf jaren, te rekenen vanaf de datum van het overlijden of van de tot de belasting aanleiding gevende gebeurtenis, niet mag overschrijden.
 
-## Art. 78
+##### Art. 78
 
 (van toepassing vanaf 30.04.1967)
 
@@ -1613,7 +1617,7 @@ In geval van achtereenvolgende overgangen door overlijden van een onder opschort
 
 Indien de achtereenvolgende overgangen tot voorwerp hebben een betwist goed in het bezit van de overledene of een goed toebehorende aan evenbedoelde onder ontbindende voorwaarde, is de belasting onmiddellijk opvorderbaar bij elk overlijden, behoudens eventuele teruggaaf van de verscheidene geïnde rechten.
 
-## Art. 79
+##### Art. 79
 
 (van toepassing vanaf 17.04.1936)
 
@@ -1621,7 +1625,7 @@ De erfgenaam, legataris of begiftigde die een goed in blote eigendom uit de nala
 
 In dit geval, moet de belanghebbende zich ertoe verbinden, als belasting, boven het recht verevend op de waarde van de blote eigendom ten dage van het openvallen van de nalatenschap, een forfaitaire som te betalen gelijk aan de jaarlijkse interest van dit recht, vermenigvuldigd met het aantal jaren dat tot grondslag gediend heeft voor de berekening van de waarde van het vruchtgebruik, zulks overeenkomstig artikel 21; de rentevoet van de in aanmerking te nemen interest is die vastgesteld in burgerlijke zaken ten dage van het overlijden.
 
-## Art. 80
+##### Art. 80
 
 (van toepassing vanaf 10.12.2004)
 
@@ -1631,9 +1635,9 @@ Wanneer een legaat ten behoeve van een rechtspersoon met statutaire zetel, hoofd
 
 Wanneer, overeenkomstig artikel 83-3, kunstwerken ter betaling worden aangeboden, wordt de invordering van de rechten waarvan de betaling door middel van die kunstwerken wordt aangeboden, geschorst tot het einde der twee maanden na de dag waarop het aanbod is geweigerd of na de dag van de slechts gedeeltelijke aanvaarding, hetzij qua goederen, hetzij qua waarde.
 
-##### Afdeling IV - Moratoire interest
+#### Afdeling IV - Moratoire interest
 
-## Art. 81
+##### Art. 81
 
 (van toepassing vanaf 01.01.1986)
 
@@ -1645,7 +1649,7 @@ De rechtspersoon, die de onder artikel 80 eerste lid, voorziene schorsing genote
 
 Over de rechten waarvan de invordering met toepassing van artikel 80, tweede lid, wordt geschorst, is de intrest slechts verschuldigd in de mate waarin die rechten niet door de inbetalinggeving worden voldaan.
 
-## Art. 82
+##### Art. 82
 
 (van toepassing vanaf 01.01.2002)
 
@@ -1661,9 +1665,9 @@ Geen interest wordt gevorderd indien de voor rechten te betalen som lager is dan
 
 De gedeeltelijke betalingen mogen, met de instemming van het bestuur, vooreerst op het kapitaal toegerekend worden.
 
-##### Afdeling V - Wijze van betaling
+#### Afdeling V - Wijze van betaling
 
-## Art. 83
+##### Art. 83
 
 (van toepassing vanaf 01.03.2021)
 
@@ -1671,7 +1675,7 @@ De gedeeltelijke betalingen mogen, met de instemming van het bestuur, vooreerst 
 
 De Koning bepaalt de wijze van betaling van alle bedragen die krachtens de bepalingen van dit boek en de uitvoeringsbesluiten ervan verschuldigd zijn, andere dan de strafrechtelijke boetes.
 
-## Art. 831
+##### Art. 831
 
 (van toepassing vanaf 01.03.2021)
 
@@ -1679,7 +1683,7 @@ De Koning bepaalt de wijze van betaling van alle bedragen die krachtens de bepal
 
 (…)
 
-## Art. 832
+##### Art. 832
 
 (van toepassing vanaf 01.03.2021)
 
@@ -1689,7 +1693,7 @@ De Koning bepaalt de wijze van betaling van alle bedragen die krachtens de bepal
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 833
+##### Art. 833
 
 (van toepassing vanaf 01.01.2028)
 
@@ -1717,7 +1721,7 @@ Het bewijs dat de ter betaling aangeboden goederen in hun geheel tot de nalatens
 
 Aanvullende regels betreffende de inbetalinggeving worden vastgelegd bij koninklijk besluit.
 
-## Art. 833
+##### Art. 833
 
 (van toepassing vanaf 22.07.2005)
 
@@ -1744,7 +1748,7 @@ Het bewijs dat de ter betaling aangeboden goederen in hun geheel tot de nalatens
 
 Aanvullende regels betreffende de inbetalinggeving worden vastgelegd bij koninklijk besluit.
 
-## Art. 834
+##### Art. 834
 
 (van toepassing vanaf 16.05.2014)
 
@@ -1772,11 +1776,11 @@ De leden van de bijzondere commissie worden door de Minister van Financiën beno
 
 De organisatie en de werkwijze van de bijzondere commissie worden door de Minister van Financiën vastgesteld.
 
-#### HOOFDSTUK X - Waarborgen van de Staat
+### HOOFDSTUK X - Waarborgen van de Staat
 
 Eerste afdeling - Zakelijke zekerheden
 
-## Art. 84
+##### Art. 84
 
 (van toepassing vanaf 01.03.2021)
 
@@ -1790,13 +1794,13 @@ Bovendien, wordt de invordering der rechten van successie en van overgang bij ov
 
 Deze waarborgen dekken insgelijks de interesten, alsmede de kosten van vervolging en van geding.
 
-## Art. 85
+##### Art. 85
 
 (van toepassing vanaf 17.04.1936)
 
 Het voorrecht op de meubelen vervalt met achttien maanden na de dag van het overlijden, indien, vóór bedoeld tijdperk, de ontvanger geen gerechtelijke vervolgingen aangevangen heeft.
 
-## Art. 86
+##### Art. 86
 
 (van toepassing vanaf 17.04.1936)
 
@@ -1806,7 +1810,7 @@ Zij behoudt haar uitwerking met ingang van dezelfde datum indien de inschrijving
 
 Na het verstrijken van dien termijn, neemt zij slechts rang te rekenen van de dag van de inschrijving.
 
-## Art. 87
+##### Art. 87
 
 (van toepassing vanaf 17.04.1936)
 
@@ -1822,13 +1826,13 @@ kanton waarin het ontvangstkantoor ligt. In dergelijk geval, bepaalt het bevel d
 
 In het geval van artikel 94, mag de ontvanger zowel vóór als na de invorderbaarheid van de rechten inschrijving vorderen op zicht van het bevel van de vrederechter houdende bepaling van het bedrag van de borgtocht.
 
-## Art. 88
+##### Art. 88
 
 (van toepassing vanaf 17.04.1936)
 
 Wanneer de inschrijving binnen de achttien maanden na het overlijden wordt gevorderd, wordt ze onder de naam van de overledene genomen, zonder dat de erfgenamen, legatarissen of begiftigden in het borderel dienen nader bepaald. In dit geval, wordt de overledene zoveel mogelijk door zijn voornamen, datums en plaatsen van zijn geboorte en van zijn overlijden aangeduid.
 
-## Art. 89
+##### Art. 89
 
 (van toepassing vanaf 30.07.2018)
 
@@ -1838,7 +1842,7 @@ De ontvanger geeft handlichting van de inschrijving, in den administratieve vorm
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 90
+##### Art. 90
 
 (van toepassing vanaf 01.01.2028)
 
@@ -1852,7 +1856,7 @@ De erfgenamen, legatarissen en begiftigden, alsmede de openbare ambtenaren die b
 
 Dit attest wordt binnen de maand van de aanvraag per aangetekende zending verzonden.
 
-## Art. 90
+##### Art. 90
 
 (van toepassing vanaf 01.01.2024)
 
@@ -1866,7 +1870,7 @@ De erfgenamen, legatarissen en begiftigden, alsmede de openbare ambtenaren die b
 
 Dit attest wordt binnen de maand van de aanvraag per aangetekende zending afgeleverd.
 
-## Art. 91
+##### Art. 91
 
 (van toepassing vanaf 16.05.2016)
 
@@ -1874,23 +1878,23 @@ Dit attest wordt binnen de maand van de aanvraag per aangetekende zending afgele
 
 Zo de belanghebbenden, alvorens de rechten van successie of van overgang bij overlijden gekweten te hebben, de gezamenlijke bezwaarde goederen of een deel ervan van de hypotheek willen bevrijden, vragen zij dit aan de bevoegde adviseur-generaal van de Algemene Administratie van de Patrimoniumdocumentatie binnen wiens ambtsgebied het kantoor van heffing gelegen is. Deze aanvraag wordt aangenomen zo de Staat voor het verschuldigd bedrag reeds voldoende zekerheid heeft of zo deze hem gegeven wordt.
 
-## Art. 92
+##### Art. 92
 
 (van toepassing vanaf 17.04.1936)
 
 Door het recht van voorrecht en van wettelijke hypotheek worden de vroeger door derden verkregen rechten niet benadeeld.
 
-## Art. 93
+##### Art. 93
 
 (van toepassing vanaf 17.04.1936)
 
 De kosten der hypothecaire formaliteiten betreffende de wettelijke hypotheek komen, in alle geval, ten laste van de Staat.
 
-##### Afdeling II - Buiten de Europese Economische Ruimte wonende erfgenaam
+#### Afdeling II - Buiten de Europese Economische Ruimte wonende erfgenaam
 
 (gewijzigd bij art. 64 van de wet van 14.04.2011 (B.S., 06.05.2011). Tekst van toepassing vanaf 16.05.2011 (art. -))
 
-## Art. 94
+##### Art. 94
 
 (van toepassing vanaf 16.05.2016)
 
@@ -1904,7 +1908,7 @@ Dit getuigschrift wordt gevoegd bij het proces-verbaal der verkoping van de roer
 
 De bevoegde adviseur-generaal van de Algemene Administratie van de Patrimoniumdocumentatie mag de erfgenaam die buiten de Europese Economische Ruimte woont er van ontslaan de borgstelling te verstrekken.
 
-## Art. 95
+##### Art. 95
 
 (van toepassing vanaf 16.05.2011)
 
@@ -1920,9 +1924,9 @@ Het in het derde lid bedoelde bedrag wordt uitbetaald onverminderd de betaling v
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-#### HOOFDSTUK XI - Aan derden opgelegde verplichtingen ten einde de juiste heffing der ingevolge het overlijden van rijksinwoners verschuldigde successierechten te verzekeren
+### HOOFDSTUK XI - Aan derden opgelegde verplichtingen ten einde de juiste heffing der ingevolge het overlijden van rijksinwoners verschuldigde successierechten te verzekeren
 
-## Art. 96
+##### Art. 96
 
 (van toepassing vanaf 01.01.2028)
 
@@ -1942,9 +1946,9 @@ De in het eerste lid bedoelde personen vermelden in het bericht het Rijksregiste
 
 De Koning kan de aanvullende modaliteiten van de in het eerste tot vijfde lid bedoelde communicatie bepalen.
 
-#### HOOFDSTUK XI - Aan derden opgelegde verplichtingen ten einde de juiste heffing der ingevolge het overlijden van rijksinwoners verschuldigde successierechten te verzekeren
+### HOOFDSTUK XI - Aan derden opgelegde verplichtingen ten einde de juiste heffing der ingevolge het overlijden van rijksinwoners verschuldigde successierechten te verzekeren
 
-## Art. 96
+##### Art. 96
 
 (van toepassing vanaf 16.05.2014 en 01.01.2015)
 
@@ -1967,7 +1971,7 @@ De Koning kan bepalen dat de berichten op elektronische wijze moeten worden gege
 
 In afwijking van het eerste lid wordt, in geval het bericht op elektronische wijze wordt gegeven, de in het eerste lid bepaalde termijn van drie maanden verlengd met een maand en wordt het bericht gegeven binnen de maand na de dag waarop de betrokken inrichting kennis heeft van het overlijden, wanneer die kennis wordt verkregen meer dan drie maanden na het overlijden.
 
-## Art. 97
+##### Art. 97
 
 (van toepassing vanaf 16.05.2014 en 01.01.2015)
 
@@ -1992,7 +1996,7 @@ In afwijking van het eerste lid wordt, in geval de lijst op elektronische wijze 
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 98
+##### Art. 98
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2008,7 +2012,7 @@ De door de houder overeenkomstig onderhavig artikel op te maken lijst mag worden
 
 Een ambtenaar van de Algemene Administratie van de Patrimoniumdocumentatie mag in elk geval aanwezig zijn bij het opmaken hetzij van de lijst, hetzij van de inventaris voorzien in voorgaande alinea. Daartoe is de houder, die de lijst moet opmaken, of de met de inventaris belaste notaris verplicht de daartoe aangewezen ambtenaar kennis te geven van plaats, dag en uur waarop die verrichting zal gebeuren. De kennisgeving moet verzonden worden bij aangetekende zending; met het opmaken van de lijst of de inventaris mag men niet beginnen vóór de vijfde dag na de datum van ontvangstbevestiging overeenkomstig artikel 162sexies.
 
-## Art. 98
+##### Art. 98
 
 (van toepassing vanaf 16.05.2014)
 
@@ -2026,7 +2030,7 @@ Een ambtenaar van de Algemene Administratie van de Patrimoniumdocumentatie mag i
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 99
+##### Art. 99
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2044,7 +2048,7 @@ Indien, na het overlijden van een der medebelanghebbenden of van dezes echtgenoo
 
 De bepalingen van de laatste twee alinea's van artikel 98 zijn van toepassing wat betreft de aan de houder in een gesloten koffer, omslag of colli toevertrouwde zaken.
 
-## Art. 99
+##### Art. 99
 
 (van toepassing vanaf 18.05.1940)
 
@@ -2070,7 +2074,7 @@ b) een overeenkomstig artikel 97 opgemaakte lijst van de in de gesloten koffer, 
 
 De bepalingen van de laatste twee alinea's van artikel 98 zijn van toepassing wat betreft de aan de houder in een gesloten koffer, omslag of colli toevertrouwde zaken.
 
-## Art. 100
+##### Art. 100
 
 (van toepassing vanaf 24.07.2025)
 
@@ -2093,7 +2097,7 @@ Enkel in het kader van de aangiften van nalatenschap kunnen de ambtenaren van Al
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 101
+##### Art. 101
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2107,7 +2111,7 @@ Elke persoon die de brandkast wil openen of doen openen na het overlijden van de
 
 Elke persoon die na het overlijden in de onwetendheid daarvan zaken heeft teruggenomen, welke in de brandkast voorhanden waren, is gehouden, zodra het overlijden hem bekend is, een overeenkomstig de eerste alinea van onderhavig artikel opgemaakte lijst der ten dage van de terugneming in de kast berustende zaken aan de bevoegden ambtenaar te verzenden.
 
-## Art. 101
+##### Art. 101
 
 (van toepassing vanaf 16.05.2014)
 
@@ -2123,7 +2127,7 @@ Elke persoon die na het overlijden in de onwetendheid daarvan zaken heeft terugg
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 1021
+##### Art. 1021
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2163,7 +2167,7 @@ c) De terugnemingen en overdrachten van de gesloten koffers, omslagen of colli's
 
 Alvorens hun werkzaamheden aan te vangen moeten de verhuurders van brandkasten daarenboven den daartoe aangewezen ambtenaar, bij een geschrift, bericht geven van het feit dat zij brandkasten verhuren en de plaats nauwkeurig aanduiden waar de kasten zich bevinden.
 
-## Art. 1021
+##### Art. 1021
 
 (van toepassing vanaf 16.05.2016)
 
@@ -2203,7 +2207,7 @@ c) De terugnemingen en overdrachten van de gesloten koffers, omslagen of colli's
 
 Alvorens hun werkzaamheden aan te vangen moeten de verhuurders van brandkasten daarenboven den daartoe aangewezen ambtenaar, bij een in dubbel opgesteld geschrift, bericht geven van het feit dat zij brandkasten verhuren en de plaats nauwkeurig aanduiden waar de kasten zich bevinden.
 
-## Art. 1022
+##### Art. 1022
 
 (van toepassing vanaf 18.05.1940)
 
@@ -2221,7 +2225,7 @@ De brandkasten of inrichtingen met eigen afzonderlijk slot, die zich in een veil
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 1023
+##### Art. 1023
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2231,7 +2235,7 @@ Elke rechtspersoon die een zetel van verrichtingen in België bezit en huurder i
 
 De persoon die de beschikking heeft over de kast wordt geacht huurder te zijn.
 
-## Art. 1023
+##### Art. 1023
 
 (van toepassing vanaf 16.05.2016)
 
@@ -2243,7 +2247,7 @@ De persoon die de beschikking heeft over de kast wordt geacht huurder te zijn.
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 1031
+##### Art. 1031
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2261,7 +2265,7 @@ De beroepsverzekeraars die in België hun voornaamste instelling, een bijhuis, e
 
 De Koning kan de aanvullende modaliteiten van de in het eerste lid bedoelde communicatie bepalen.
 
-## Art. 1031
+##### Art. 1031
 
 (van toepassing vanaf 07.02.2022)
 
@@ -2279,7 +2283,7 @@ De beroepsverzekeraars die in België hun voornaamste instelling, een bijhuis, e
 
 De Koning kan bepalen dat de inlichtingen op elektronische wijze moeten worden toegezonden en de nadere regels daarvan bepalen.
 
-## Art. 1032
+##### Art. 1032
 
 (van toepassing vanaf 18. 05.1940)
 
@@ -2287,7 +2291,7 @@ De Koning kan bepalen dat de inlichtingen op elektronische wijze moeten worden t
 
 Het in artikelen 96 tot 1031 gebruikt woord "echtgenoot" bedoelt niet de uit de echt of van tafel en bed gescheiden echtgenoot.
 
-## Art. 104
+##### Art. 104
 
 (van toepassing vanaf 02.08.2018)
 
@@ -2299,7 +2303,7 @@ Het in artikelen 96 tot 1031 gebruikt woord "echtgenoot" bedoelt niet de uit de 
 
 (hoofding hoofdstuk XIbis opgeheven bij art. 7 van de wet van 17.08.2013 (B.S., 05.09.2013). Tekst van toepassing vanaf 01.01.2013 (art. 21))
 
-## Art. 104/1
+##### Art. 104/1
 
 (van toepassing vanaf 01.01.2013)
 
@@ -2309,11 +2313,11 @@ Het in artikelen 96 tot 1031 gebruikt woord "echtgenoot" bedoelt niet de uit de 
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-#### HOOFDSTUK XII - Bewijsmiddelen
+### HOOFDSTUK XII - Bewijsmiddelen
 
 Eerste afdeling - Bewijsmiddelen van gemeen recht
 
-## Art. 105
+##### Art. 105
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2323,11 +2327,11 @@ Behoudens de bewijs en controlemiddelen speciaal voorzien door onderhavig wetboe
 
 Deze processen-verbaal gelden als bewijs tot het tegendeel bewezen is. Zij zullen aan belanghebbenden betekend worden binnen de maand van de vaststelling van de overtreding. Deze betekening geschiedt met een aangetekende zending.
 
-#### HOOFDSTUK XII - Bewijsmiddelen
+### HOOFDSTUK XII - Bewijsmiddelen
 
 Eerste afdeling - Bewijsmiddelen van gemeen recht
 
-## Art. 105
+##### Art. 105
 
 (van toepassing vanaf 16.05.2016)
 
@@ -2337,7 +2341,7 @@ Behoudens de bewijs en controlemiddelen speciaal voorzien door onderhavig wetboe
 
 Deze processen-verbaal gelden als bewijs tot het tegendeel bewezen is. Zij zullen aan belanghebbenden betekend worden binnen de maand van de vaststelling van de overtreding. Deze betekening mag gebeuren bij een ter post aangetekend schrijven. De afgifte van het stuk ter post geldt als betekening van de volgende dag af.
 
-## Art. 106
+##### Art. 106
 
 (van toepassing vanaf 01.01.2003)
 
@@ -2347,9 +2351,9 @@ Tegenbrieven kunnen de Staat niet tegengesteld worden, in zover zij vermindering
 
 ###### Paragraaf 2 van artikel 18 van het Wetboek der Registratie-, Hypotheek- en Griffierechten is mutatis mutandis van toepassing.
 
-##### Afdeling II - Bijzondere bewijsmiddelen
+#### Afdeling II - Bijzondere bewijsmiddelen
 
-## Art. 107
+##### Art. 107
 
 (van toepassing vanaf 16.05.2016)
 
@@ -2359,7 +2363,7 @@ Wanneer de nalatenschap van een Rijksinwoner de eigendom, voor het geheel of voo
 
 In geval van geding tussen Staat en erfgenamen, mag de mededeling in rechte van bedoelde boeken en stukken niet geweigerd worden.
 
-## Art. 108
+##### Art. 108
 
 (van toepassing vanaf 24.07.2025)
 
@@ -2370,7 +2374,7 @@ De eis tot betaling van de rechten van successie en van overgang bij overlijden,
 
 Edoch, ten opzichte van lichamelijke roerende goederen, contant geld en effecten aan toonder, bestaat het door vorige alinea gevestigd wettelijk vermoeden slechts op voorwaarde dat de akten niet reeds sedert meer dan vijf jaar vóór het overlijden bestaan; in het tegenovergesteld geval, kan het bestaan van bedoelde akten door het bestuur enkel ingeroepen worden als een element van vermoeden, overeenkomstig artikel 105.
 
-## Art. 109
+##### Art. 109
 
 (van toepassing vanaf 30.07.2018)
 
@@ -2386,7 +2390,7 @@ Er bestaat insgelijks, tot de levering van het tegenbewijs, een wettelijk vermoe
 
 4° Wat aangaat de obligaties, aandelen of andere schuldvorderingen op de provinciën, gemeenten, openbare instellingen en stichtingen van openbaar nut van het Rijk, wanneer zij ten name van overledene op hun registers en rekeningen ingeschreven zijn.
 
-## Art. 110
+##### Art. 110
 
 (van toepassing vanaf 18.05.1940)
 
@@ -2398,9 +2402,9 @@ Worden geacht de overledene voor het geheel toe te behoren, behoudens tegenbewij
 
 Het tegenbewijs van deze vermoedens van eigendom mag worden geleverd door alle rechtsmiddelen, met inbegrip van getuigen en vermoedens, maar met uitzondering van de eed.
 
-##### Afdeling III - Controle-schatting
+#### Afdeling III - Controle-schatting
 
-## Art. 111
+##### Art. 111
 
 (van toepassing vanaf 17.04.1936)
 
@@ -2408,7 +2412,7 @@ Om de te lage schatting vast te stellen van het geheel of van een gedeelte der z
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 112
+##### Art. 112
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2418,7 +2422,7 @@ De schatting dient gevorderd bij een aanvraag door de ontvanger ter kennis gebra
 
 Deze aanvraag houdt aanwijzing van de goederen waarover de schatting gaat, zomede van de som waarop zij door het bestuur geschat werden en van het vermoedelijk wegens recht en boete verschuldigd bedrag.
 
-## Art. 112
+##### Art. 112
 
 (van toepassing vanaf 17.04.1936)
 
@@ -2428,7 +2432,7 @@ Deze aanvraag houdt aanwijzing van de goederen waarover de schatting gaat, zomed
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 113
+##### Art. 113
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2440,7 +2444,7 @@ In dit geval, wordt de overeenkomst geconstateerd door een proces-verbaal dat he
 
 Dit proces-verbaal is gedagtekend; het wordt door de ontvanger en door de partij ondertekend; indien de partij niet mag of niet kan ondertekenen, dient dit op het proces-verbaal vermeld.
 
-## Art. 113
+##### Art. 113
 
 (van toepassing vanaf 17.04.1936)
 
@@ -2450,7 +2454,7 @@ In dit geval, wordt de overeenkomst geconstateerd door een proces-verbaal dat he
 
 Dit proces-verbaal is gedagtekend; het wordt door de ontvanger en door de partij ondertekend; indien de partij niet mag of niet kan ondertekenen, dient dit op het proces-verbaal vermeld.
 
-## Art. 114
+##### Art. 114
 
 (van toepassing vanaf 17.04.1936)
 
@@ -2460,7 +2464,7 @@ Dit verzoekschrift wordt aan de partij betekend.
 
 De rechter beslist binnen de vijftien dagen na de aanvraag; hij beveelt de schatting en stelt, naar vereis van zaken één of drie schatters aan.
 
-## Art. 115
+##### Art. 115
 
 (van toepassing vanaf 16.05.2016)
 
@@ -2474,7 +2478,7 @@ Kunnen niet als schatters gekozen of daartoe benoemd worden:
 
 3° De beambten van bedoelde ambtenaren en openbare of ministeriële ambtenaren.
 
-## Art. 116
+##### Art. 116
 
 (van toepassing vanaf 01.11.1970)
 
@@ -2490,7 +2494,7 @@ Deze nieuwe beslissing wordt aan de partij betekend.
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 117
+##### Art. 117
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2502,7 +2506,7 @@ Onmiddellijk na de ontvangst van deze notificatie sturen de schatters onder hun 
 
 Ieder aan de schatters door één der partijen medegedeeld bescheid moet door haar terzelfder tijd in afschrift aan de tegenpartij worden gezonden bij aangetekende zending.
 
-## Art. 117
+##### Art. 117
 
 (van toepassing vanaf 11.12.1939)
 
@@ -2514,7 +2518,7 @@ Onmiddellijk na de ontvangst van deze notificatie sturen de schatters onder hun 
 
 Ieder aan de schatters door één der partijen medegedeeld bescheid moet door haar terzelfder tijd in afschrift aan de tegenpartij worden gezonden onder aangetekende omslag.
 
-## Art. 118
+##### Art. 118
 
 (van toepassing vanaf 16.07.1974)
 
@@ -2538,7 +2542,7 @@ of:
 
 De minuut van het verslag wordt ter griffie van het onder artikel 114 aangeduid vredegerecht gedeponeerd.
 
-## Art. 119
+##### Art. 119
 
 (van toepassing vanaf 17.04.1936)
 
@@ -2546,7 +2550,7 @@ Het verslag wordt door de meest gerede partij gelicht en aan de andere partij be
 
 De door de schatters gegeven begroting en, in geval van niet-overeenstemming, de begroting van de meerderheid of, bij gemis van meerderheid, de tussenbegroting bepaalt de verkoopwaarde van het goed ten opzichte van de heffing der belasting.
 
-## Art. 120
+##### Art. 120
 
 (van toepassing vanaf 25.07.2004)
 
@@ -2554,7 +2558,7 @@ De door de schatters gegeven begroting en, in geval van niet-overeenstemming, de
 
 Zowel de ontvanger als de partij kunnen de schatting betwisten door inleiding van een rechtsvordering. De rechtsvordering dient ingeleid te worden, op straffe van verval, binnen de termijn van één maand te rekenen van de betekening van het verslag.
 
-## Art. 121
+##### Art. 121
 
 (van toepassing vanaf 17.04.1936)
 
@@ -2572,7 +2576,7 @@ Bedoelde kosten vallen ten laste van de partij, wanneer een boete vorderbaar is.
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 122
+##### Art. 122
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2582,7 +2586,7 @@ De betekeningen en notificaties te doen krachtens de bepalingen van deze afdelin
 
 De betekeningen en notificaties te doen aan de aangevers mogen, welke ook het getal dezer weze, het voorwerp uitmaken van één enkele briefwisseling gericht naar de in de aangifte verkozen woonplaats.
 
-## Art. 122
+##### Art. 122
 
 (van toepassing vanaf 17.04.1936)
 
@@ -2590,11 +2594,11 @@ De betekeningen en notificaties te doen krachtens de bepalingen van deze afdelin
 
 De betekeningen en notificaties te doen aan de aangevers mogen, welke ook het getal dezer weze, het voorwerp uitmaken van één enkele brief gericht naar de in de aangifte verkozen woonplaats.
 
-#### HOOFDSTUK XIII - Strafbepalingen
+### HOOFDSTUK XIII - Strafbepalingen
 
 Eerste afdeling - Fiscale boeten
 
-## Art. 1231
+##### Art. 1231
 
 (van toepassing vanaf 30.07.1960)
 
@@ -2602,7 +2606,7 @@ Eerste afdeling - Fiscale boeten
 
 Wanneer iemand verscheidene overtredingen gepleegd heeft, is hij bij cumulatie de op elk derzelve gestelde boeten verschuldigd.
 
-## Art. 1232
+##### Art. 1232
 
 (van toepassing vanaf 30.07.1960)
 
@@ -2612,7 +2616,7 @@ Valt de laatste dag van de termijn, voorzien voor de uitvoering van een formalit
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 124
+##### Art. 124
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2622,7 +2626,7 @@ Elke persoon, die de aangifte te laat verzendt, loopt individueel per maand vert
 
 Zo de verzuimde aangifte betrekking heeft op een nalatenschap of op een voorwerp niet vatbaar voor rechten, is er een boete van 25 EUR verschuldigd door elk overtreder, vijftien dagen nadat deze met een aangetekende zending aangemaand werd de aangifte te verzenden.
 
-## Art. 124
+##### Art. 124
 
 (van toepassing vanaf 01.01.2002)
 
@@ -2635,13 +2639,13 @@ mag het tiende van de door de overtreder verschuldigde rechten niet te boven gaa
 
 Zo de verzuimde aangifte betrekking heeft op een nalatenschap of op een voorwerp niet vatbaar voor rechten, is er een boete van 25 EUR verschuldigd door elk overtreder, vijftien dagen nadat deze bij aangetekende brief aangemaand werd de aangifte in te leveren.
 
-## Art. 125
+##### Art. 125
 
 (van toepassing vanaf 17.04.1936)
 
 De erfgenaam, legataris of begiftigde die ten achteren is met de betaling van de op een ingeleverde aangifte of een aanvaarde transactie verschuldigde rechten, loopt een boete op gelijk aan het tiende der verschuldigde rechten, indien de betaling der belasting niet gedaan is binnen de vijftien dagen na de betekening van het te zijnen laste uitgevaardigd dwangbevel.
 
-## Art. 126
+##### Art. 126
 
 (van toepassing vanaf 30.07.2018)
 
@@ -2651,7 +2655,7 @@ De erfgenaam, legataris of begiftigde, die verzuimd heeft in België gelegen onr
 
 Wanneer het verzuim andere goederen betreft, is de boete gelijk aan tweemaal de rechten.
 
-## Art. 127
+##### Art. 127
 
 (van toepassing vanaf 01.01.1990)
 
@@ -2661,7 +2665,7 @@ Wanneer er bevonden wordt dat de aangegeven waarde van aan de onder artikel 111 
 
 Wanneer het daarentegen gaat om niet aan schatting onderworpen goederen en er vastgesteld wordt dat hun waarde niet verklaard werd overeenkomstig de bepalingen van dit wetboek, moet de belasting gekweten worden op het bedrag van het tekort, bovendien, wordt een boete opgelopen gelijk aan tweemaal de rechten.
 
-## Art. 128
+##### Art. 128
 
 (van toepassing vanaf 01.01.2014)
 
@@ -2677,7 +2681,7 @@ Een boete gelijk aan het tweevoud van het ontdoken recht wordt verbeurd door de 
 
 4° die verzuimt de in artikel 42,VIIIbis en X bedoelde vermeldingen in de aangifte op te nemen of die dienaangaande een onjuiste of onvolledige vermelding maakt.
 
-## Art. 129
+##### Art. 129
 
 (van toepassing vanaf 01.03.2021)
 
@@ -2685,7 +2689,7 @@ Een boete gelijk aan het tweevoud van het ontdoken recht wordt verbeurd door de 
 
 (…)
 
-## Art. 130
+##### Art. 130
 
 (van toepassing vanaf 16.05.2016)
 
@@ -2699,7 +2703,7 @@ Degenen die deze boeten verbeuren, zijn bovendien persoonlijk aansprakelijk voor
 
 Het bedrag van de boeten wordt binnen bovenbedoelde grenzen vastgesteld door de bevoegde adviseurgeneraal van de Algemene Administratie van de Patrimoniumdocumentatie.
 
-## Art. 131
+##### Art. 131
 
 (van toepassing vanaf 01.01.1990)
 
@@ -2707,7 +2711,7 @@ Het bedrag van de boeten wordt binnen bovenbedoelde grenzen vastgesteld door de 
 
 De partijen worden vrijgesteld van de boeten voorzien in de artikelen 126 tot 128 indien zij bewijzen dat zij niet in fout zijn.
 
-## Art. 132
+##### Art. 132
 
 (van toepassing vanaf 31.12.2024)
 
@@ -2721,9 +2725,9 @@ De Koning legt de progressieve schaal van de administratieve geldboetes vast en 
 
 De Koning kan voor de geldboeten die Hij bepaalt, voorzien in de toepassingsmodaliteiten van de maatregelen tot individualisering van de sanctie door de bevoegde rechter.
 
-##### Afdeling II - Correctionele straffen
+#### Afdeling II - Correctionele straffen
 
-## Art. 133
+##### Art. 133
 
 (van toepassing vanaf 01.07.2017)
 
@@ -2735,7 +2739,7 @@ gevangenisstraf van acht dagen tot twee jaar en met geldboete van 250 tot 500.00
 
 In afwijking van het eerste lid bedraagt de maximale boete voor het overtreden van de bepalingen met betrekking tot de proceduregels 12.500 euro.
 
-## Art. 133bis
+##### Art. 133bis
 
 (van toepassing vanaf 01.07.2017)
 
@@ -2745,7 +2749,7 @@ Met gevangenisstraf van een maand tot vijf jaar en met geldboete van 250 tot 500
 
 Hij die wetens en willens een vals getuigschrift opstelt dat de belangen van de Schatkist kan schaden of die van een dergelijk getuigschrift gebruik maakt, wordt gestraft met gevangenisstraf van acht dagen tot twee jaar en met geldboete van 250 tot 500.000 EUR of met één van die straffen alleen. In het geval dat dit valse getuigschrift afgegeven werd of gebruikt werd in het kader van een inbreuk op een procedureregel, wordt het maximum van de boete vastgesteld op 12.500 euro.
 
-## Art. 133bis/1
+##### Art. 133bis/1
 
 (van toepassing vanaf 01.01.2020)
 
@@ -2755,7 +2759,7 @@ Wanneer de overtreding werd begaan in het kader van Boek II of IIbis en ten eind
 
 Artikel 42, 3°, van het Strafwetboek vindt geen toepassing op de vermogensvoordelen die rechtstreeks uit de fiscale misdrijven zijn verkregen, op de goederen en waarden die in de plaats ervan zijn gesteld en op de inkomsten uit de belegde voordelen in geval de vordering van de fiscale administratie gegrond wordt verklaard en tot een effectieve betaling van deze volledige vordering heeft geleid.
 
-## Art. 133ter
+##### Art. 133ter
 
 (van toepassing vanaf 14.02.1981)
 
@@ -2779,7 +2783,7 @@ De rechter kan bovendien, mits hij zijn beslissing op dat stuk motiveert, voor e
 
 § 2. Het verbod en de sluiting bedoeld in § 1 treden in werking vanaf de dag waarop de veroordeling in kracht van gewijsde is gegaan.
 
-## Art. 133quater
+##### Art. 133quater
 
 (van toepassing vanaf 01.07.2017)
 
@@ -2787,7 +2791,7 @@ De rechter kan bovendien, mits hij zijn beslissing op dat stuk motiveert, voor e
 
 Hij die, rechtstreeks of onrechtstreeks, het verbod of de sluiting, uitgesproken krachtens artikel 133ter overtreedt, wordt gestraft met gevangenisstraf van acht dagen tot twee jaar en geldboete van 250 tot 500.000 EUR of met één van die straffen alleen. In het geval dat het verbod of de sluiting was uitgesproken in het kader van een inbreuk op een proceduregel, wordt het maximum van de boete vastgesteld op 12.500 euro.
 
-## Art. 133quinquies
+##### Art. 133quinquies
 
 (van toepassing vanaf 20.08.1986)
 
@@ -2799,7 +2803,7 @@ Hij die, rechtstreeks of onrechtstreeks, het verbod of de sluiting, uitgesproken
 
 § 3. De wet van 5 maart 1952, gewijzigd bij de wetten van 22 december 1969 en 25 juni 1975, betreffende de opdecimes op de strafrechtelijke geldboeten, vindt geen toepassing op de misdrijven bedoeld in de artikelen 133, 133bis en 133quater.
 
-## Art. 133sexies
+##### Art. 133sexies
 
 (van toepassing vanaf 09.04.2018)
 
@@ -2807,7 +2811,7 @@ Hij die, rechtstreeks of onrechtstreeks, het verbod of de sluiting, uitgesproken
 
 De natuurlijke personen of rechtspersonen zijn burgerlijk en hoofdelijk aansprakelijk voor de geldboeten en kosten die het gevolg zijn van de veroordelingen welke krachtens de artikelen 133 tot 133quater tegen hun aangestelden of hun bestuurders, zaakvoerders of vereffenaars, in het kader van de uitoefening van hun functie, in rechte of in feite zijn uitgesproken.
 
-## Art. 133septies
+##### Art. 133septies
 
 (van toepassing vanaf 14.02.1981)
 
@@ -2817,7 +2821,7 @@ De rechter kan bevelen dat ieder vonnis of arrest houdende veroordeling tot een 
 
 Hetzelfde kan gelden voor iedere krachtens artikel 133ter uitgesproken beslissing tot verbod van het uitoefenen van een beroepswerkzaamheid in België of tot sluiting van de in het land geëxploiteerde inrichtingen.
 
-## Art. 133octies
+##### Art. 133octies
 
 (van toepassing vanaf 14.02.1981)
 
@@ -2825,7 +2829,7 @@ Hetzelfde kan gelden voor iedere krachtens artikel 133ter uitgesproken beslissin
 
 De schending van het bij artikel 146bis bepaalde beroepsgeheim wordt gestraft overeenkomstig de artikelen 66, 67 en 458 van het Strafwetboek.
 
-## Art. 133nonies
+##### Art. 133nonies
 
 (van toepassing vanaf 01.01.2020)
 
@@ -2841,7 +2845,7 @@ Het openbaar ministerie beslist om al dan niet de strafvervolging in te stellen 
 
 In geen geval schorst het verzoek om advies de strafvordering.
 
-## Art. 133decies
+##### Art. 133decies
 
 (van toepassing vanaf 16.05.2016)
 
@@ -2855,9 +2859,9 @@ Het eerste lid is evenmin van toepassing op de ambtenaren van die administraties
 
 Het eerste lid is niet van toepassing op de ambtenaren die deelnemen aan het in artikel 29, derde lid, van het Wetboek van strafvordering bedoelde overleg.
 
-#### HOOFDSTUK XIV - Teruggave van de rechten
+### HOOFDSTUK XIV - Teruggave van de rechten
 
-## Art. 134
+##### Art. 134
 
 (van toepassing vanaf 17.04.1936)
 
@@ -2869,7 +2873,7 @@ De gekweten rechten van successie en van overgang bij overlijden, de interesten 
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 135
+##### Art. 135
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2901,7 +2905,7 @@ c) aangaande de hoedanigheid van Rijksinwoner in hoofde van de overledene;
 
 9° wanneer de in artikel 59, 1°, bedoelde erkenning wordt verkregen de dag van het overlijden of het jaar dat volgt op het overlijden.
 
-## Art. 135
+##### Art. 135
 
 (van toepassing vanaf 01.01.2024)
 
@@ -2933,7 +2937,7 @@ c) aangaande de hoedanigheid van Rijksinwoner in hoofde van de overledene;
 
 9° wanneer de in artikel 59, 1°, bedoelde erkenning wordt verkregen de dag van het overlijden of het jaar dat volgt op het overlijden.
 
-## Art. 136
+##### Art. 136
 
 (van toepassing vanaf 16.05.2016)
 
@@ -2945,9 +2949,9 @@ Wanneer met toepassing van artikel 83-3 successierechten voldaan zijn door de af
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-#### HOOFDSTUK XV - Verjaring
+### HOOFDSTUK XV - Verjaring
 
-## Art. 137
+##### Art. 137
 
 (van toepassing vanaf 01.01.2028)
 
@@ -2976,9 +2980,9 @@ In geval van overlijden in het buitenland, loopt de verjaring eerst van de dag v
 Wanneer, overeenkomstig artikel 833, een aanbod tot inbetalinggeving wordt gedaan, gaat de in het eerste lid,
 1°, bedoelde termijn slechts in, ten aanzien van de sommen die niet door de inbetalinggeving zijn voldaan ingevolge weigering of gedeeltelijke aanvaarding van het aanbod, vanaf de dag waarop het aanbod wordt geweigerd, of maar gedeeltelijk wordt aanvaard, hetzij qua goederen, hetzij qua waarde.
 
-#### HOOFDSTUK XV - Verjaring
+### HOOFDSTUK XV - Verjaring
 
-## Art. 137
+##### Art. 137
 
 (van toepassing vanaf 01.03.2021)
 
@@ -3009,7 +3013,7 @@ het recht om enig rechtsmiddel aan te wenden en behalve in het geval bepaald in 
 Wanneer, overeenkomstig artikel 833, een aanbod tot inbetalinggeving wordt gedaan, gaat de in het eerste lid,
 1°, bedoelde termijn slechts in, ten aanzien van de sommen die niet door de inbetalinggeving zijn voldaan ingevolge weigering of gedeeltelijke aanvaarding van het aanbod, vanaf de dag waarop het aanbod wordt geweigerd, of maar gedeeltelijk wordt aanvaard, hetzij qua goederen, hetzij qua waarde.
 
-## Art. 138
+##### Art. 138
 
 (van toepassing vanaf 27.05.2019)
 
@@ -3027,7 +3031,7 @@ Het tweede lid is enkel van toepassing indien de volgende voorwaarden samen verv
 
 3° artikel 15, § 4, derde lid, van de voormelde wet is niet van toepassing.
 
-## Art. 139
+##### Art. 139
 
 (van toepassing vanaf 17.04.1936)
 
@@ -3037,7 +3041,7 @@ Deze stuiting heeft haar uitwerking tot de dag der neerlegging ter griffie van h
 
 De invordering der rechten, interesten en boeten, opvorderbaar hoofdens de door bedoeld verslag erkende ongenoegzaamheid, dient vervolgd binnen de twee jaar na de neerlegging van het verslag.
 
-## Art. 1401
+##### Art. 1401
 
 (van toepassing vanaf 17.01.1959)
 
@@ -3049,7 +3053,7 @@ De afstand van de verlopen tijd van de verjaring wordt, wat zijn uitwerking betr
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 1402
+##### Art. 1402
 
 (van toepassing vanaf 01.01.2028)
 
@@ -3060,7 +3064,7 @@ De verjaringen voor de teruggaaf van rechten, interesten en boeten worden gestui
 Zo de verjaring gestuit werd door de aan de ontvanger of adviseur-generaal genotificeerde aanvraag, is er een nieuwe verjaring van twee jaar, die slechts op de wijze en onder de voorwaarden voorzien bij artikelen 2244 en volgende van het Burgerlijk Wetboek kan worden gestuit, verworven twee jaar na de datum van de verzending van de notificatie van de verworpen beslissing aan belanghebbende bij aangetekende zending.
 Nota: Art. 113, 1° brengt een wijziging aan in het eerste lid, de woorden "bij aangetekende brief" moet gelezen worden als “bij ter post aangetekend schrijven”, worden vervangen door de woorden "bij aangetekende zending".
 
-## Art. 1402
+##### Art. 1402
 
 (van toepassing vanaf 16.05.2016)
 
@@ -3074,7 +3078,7 @@ Zo de verjaring gestuit werd door de aan de ontvanger of adviseur-generaal genot
 
 De afgifte van de brieven ter post geldt als notificatie van de volgende dag af.
 
-## Art. 1403
+##### Art. 1403
 
 (van toepassing vanaf 09.04.2018)
 
@@ -3084,9 +3088,9 @@ Elke daad van onderzoek of van vervolging als bedoeld in artikel 22 van de Voora
 
 De schorsing vangt aan met het op gang brengen van de strafvordering, en eindigt met het staken van de strafrechtelijke vervolging, het verval van de strafvordering of wanneer het vonnis of arrest in kracht van gewijsde is gegaan voor de misdrijven bedoeld in het eerste lid.
 
-#### HOOFDSTUK XVI - Vervolgingen en gedingen
+### HOOFDSTUK XVI - Vervolgingen en gedingen
 
-## Art. 141
+##### Art. 141
 
 (van toepassing vanaf 01.05.2007)
 
@@ -3103,7 +3107,7 @@ De Minister van Financiën of de door hem gemachtigde ambtenaar gaat de transact
 
 Binnen de door de wet gestelde grenzen, wordt het bedrag van de proportionele fiscale boeten vastgesteld in dit Wetboek of in de ter uitvoering ervan genomen besluiten, bepaald volgens een schaal waarvan de trappen door de Koning worden vastgesteld.
 
-## Art. 141bis
+##### Art. 141bis
 
 (van toepassing vanaf 16.05.2016)
 
@@ -3111,7 +3115,7 @@ Binnen de door de wet gestelde grenzen, wordt het bedrag van de proportionele fi
 
 In bijzondere gevallen mag de bevoegde adviseur-generaal van de Algemene Administratie van de Patrimoniumdocumentatie, onder door hem bepaalde voorwaarden, vrijstelling verlenen voor alle in artikel 81 bedoelde interesten of voor een deel ervan.
 
-## Art. 1421
+##### Art. 1421
 
 (van toepassing vanaf 27.09.1947)
 
@@ -3121,7 +3125,7 @@ De vervolgingen en gedingen door de Staat of de belastingplichtige in te spannen
 
 Edoch, voor al de vorderingen en vervolgingen, krachtens het wetboek tegen de erfgenamen, legatarissen of begiftigden en tegen de in artikel 74 aangeduide personen ingespannen, is het veroorloofd alle om het even welke betekeningen en notificaties aan het in de aangifte verkozen domicilie te doen.
 
-## Art. 1421/1
+##### Art. 1421/1
 
 (van toepassing vanaf 14.07.2016)
 
@@ -3129,7 +3133,7 @@ Edoch, voor al de vorderingen en vervolgingen, krachtens het wetboek tegen de er
 
 In geval van niet-betaling van een schuld voortvloeiende uit de toepassing van dit Wetboek, kan de ambtenaar die belast is met de inning van die schuld, bij het Centraal Aanspreekpunt van de Nationale Bank bedoeld in artikel 322, § 3, eerste lid, van het Wetboek van de inkomstenbelastingen 1992, de gegevens opvragen die ten aanzien van die schuldenaar beschikbaar zijn zonder de beperkingen van artikel 322, §§ 2 tot 4, van hetzelfde Wetboek. De machtiging hiertoe wordt verleend door een ambtenaar met minstens de graad van adviseur–generaal.
 
-## Art. 1422
+##### Art. 1422
 
 (van toepassing vanaf 27.09.1947)
 
@@ -3137,7 +3141,7 @@ In geval van niet-betaling van een schuld voortvloeiende uit de toepassing van d
 
 Onverminderd hetgeen gezegd werd in de artikelen 81 en 82, zijn de moratoire interesten op de in te vorderen of terug te geven sommen verschuldigd naar de voet en de regelen in burgerlijke zaken vastgesteld.
 
-## Art. 1423
+##### Art. 1423
 
 (van toepassing vanaf 06.04.1999)
 
@@ -3145,7 +3149,7 @@ Onverminderd hetgeen gezegd werd in de artikelen 81 en 82, zijn de moratoire int
 
 De termijnen van verzet, hoger beroep en cassatie, alsmede het verzet, het hoger beroep en de voorziening in cassatie schorsen de tenuitvoerlegging van de gerechtelijke beslissing.
 
-## Art. 1424
+##### Art. 1424
 
 (van toepassing vanaf 10.01.2005)
 
@@ -3153,9 +3157,9 @@ De termijnen van verzet, hoger beroep en cassatie, alsmede het verzet, het hoger
 
 Het verzoekschrift houdende voorziening in cassatie en het antwoord op de voorziening mag door een advocaat worden ondertekend en neergelegd.
 
-#### HOOFDSTUK XVII - Door de Algemene Administratie van de Patrimoniumdocumentatie te verstrekken inlichtingen
+### HOOFDSTUK XVII - Door de Algemene Administratie van de Patrimoniumdocumentatie te verstrekken inlichtingen
 
-## Art. 143
+##### Art. 143
 
 (van toepassing vanaf 01.11.2023 en 01.01.2024 (art. 3, 2°))
 
@@ -3171,7 +3175,7 @@ De aflevering van deze stukken geeft recht op een retributie.
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 144
+##### Art. 144
 
 (van toepassing vanaf 01.01.2028)
 
@@ -3181,7 +3185,7 @@ De ambtenaren van de Algemene administratie van de patrimoniumdocumentatie zijn 
 
 In afwijking van het eerste lid, is de aflevering van een eigendomstitel kosteloos wanneer deze titel bestemd is om een akte van erfopvolging op te stellen, de instrumenterende ambtenaar voor het opstellen van de akte geen vacaties of kosten vraagt en de akte opgesteld wordt binnen de 6 maanden na het overlijden.
 
-## Art. 144
+##### Art. 144
 
 (van toepassing vanaf 01.01.2024)
 
@@ -3191,7 +3195,7 @@ De ambtenaren van de Algemene administratie van de patrimoniumdocumentatie zijn 
 
 In afwijking van het eerste lid, is de aflevering van een eigendomstitel kosteloos wanneer deze titel bestemd is om een akte van erfopvolging op te stellen, de instrumenterende ambtenaar voor het opstellen van de akte geen vacaties of kosten vraagt en de akte opgesteld wordt binnen de 6 maanden na het overlijden.
 
-## Art. 144/1
+##### Art. 144/1
 
 (van toepassing vanaf 01.11.2023)
 
@@ -3209,7 +3213,7 @@ In afwijking van het eerste lid, is de aflevering van een eigendomstitel kostelo
 
 De verstrekte inlichtingen mogen niet langer worden bewaard dan noodzakelijk is voor de verwezenlijking van met de verwerking van de persoonsgegevens nagestreefde doelstelling.
 
-## Art. 145
+##### Art. 145
 
 (van toepassing vanaf 01.01.2024)
 
@@ -3221,13 +3225,13 @@ hetzij van een van zijn vertegenwoordigers, de terugnemingen en vergoedingen aan
 
 In dat geval kunnen de ambtenaren eisen dat de verzoekers hun de datum van het huwelijk en het huwelijksvermogensstelsel doen kennen van de echtgenoot wiens terugnemingen en vergoedingen moeten worden opgezocht.
 
-## Art. 146
+##### Art. 146
 
 (van toepassing vanaf 17.04.1936)
 
 De onder artikelen 143 tot 145 voorziene inlichtingen moeten insgelijks verstrekt worden aan de lasthebber van de belanghebbenden, op voorwaarde dat men van de lastgeving late blijken.
 
-## Art. 146/1
+##### Art. 146/1
 
 (van toepassing vanaf 08.06.2024)
 
@@ -3243,7 +3247,7 @@ De Koning kan ter uitvoering van dit hoofdstuk:
 
 4° onder voorbehoud van de bepalingen van de Archiefwet van 24 juni 1955, de bewaartermijnen en wijze van bewaring bepalen van de vragen om inlichtingen en van de verstrekte antwoorden.
 
-## Art. 146bis
+##### Art. 146bis
 
 (van toepassing vanaf 01.11.2023)
 
@@ -3255,11 +3259,11 @@ Personen die deel uitmaken van diensten of openbare instellingen of inrichtingen
 
 De ambtenaren van de Algemene administratie van de patrimoniumdocumentatie, oefenen hun ambt uit wanneer zij overeenkomstig de bepalingen van dit hoofdstuk inlichtingen, afschriften of uittreksels afleveren.
 
-#### HOOFDSTUK XVIII - Aan alle belastingen gemene bepalingen
+### HOOFDSTUK XVIII - Aan alle belastingen gemene bepalingen
 
 (ingevoegd bij art. 8 van de wet van 17.08.2013 (B.S., 05.09.2013). Tekst van toepassing vanaf 01.01.2013 (art. 21))
 
-## Art. 146ter
+##### Art. 146ter
 
 (van toepassing vanaf 01.01.2013)
 
@@ -3273,7 +3277,7 @@ Elke inlichting, stuk, proces-verbaal of akte, in het uitoefenen van zijn functi
 
 Onder openbare instellingen of inrichtingen worden verstaan de instellingen, maatschappijen, verenigingen, inrichtingen en diensten welke de Staat, een Gemeenschap of een Gewest mede beheert, waaraan de Staat, een Gemeenschap of een Gewest een waarborg verstrekt, op de werkzaamheden waarvan de Staat, een Gemeenschap of een Gewest toezicht uitoefent of waarvan het bestuurspersoneel wordt aangewezen door de
 
-## Art. 146quater
+##### Art. 146quater
 
 (van toepassing vanaf 11.04.2026)
 
@@ -3730,7 +3734,7 @@ Indien voor de toepassing van deze richtlijn een gegevensinbreuk in het centrale
 
 maatregelen kunnen inhouden dat de toegang tot het centrale gegevensbestand of het CCN-netwerk voor de toepassing van de richtlijn wordt geschorst totdat de gegevensinbreuk is verholpen.
 
-## Art. 146quinquies
+##### Art. 146quinquies
 
 (van toepassing vanaf 09.04.2018)
 
@@ -3738,7 +3742,7 @@ maatregelen kunnen inhouden dat de toegang tot het centrale gegevensbestand of h
 
 De bepalingen van dit Wetboek doen geen afbreuk aan het recht van de Staat om het herstel van de schade te vorderen die kan bestaan uit de niet-betaling van de rechten, interesten, fiscale geldboeten en bijbehoren door een burgerlijke partijstelling of door een aansprakelijkheidsvordering.
 
-## Art. 146sexies
+##### Art. 146sexies
 
 (van toepassing vanaf 11.04.2026)
 
@@ -3787,7 +3791,7 @@ d) ingeschreven zijn bij een beroepsorganisatie in verband met de verstrekking v
 
 8° "cliënt": elke intermediair of relevante belastingplichtige die diensten, met inbegrip van bijstand, advies, raad of begeleiding, ontvangt van een tot het juridisch beroepsgeheim gehouden intermediair met betrekking tot een meldingsplichtige grensoverschrijdende constructie.
 
-## Art. 146septies
+##### Art. 146septies
 
 (van toepassing vanaf 01.07.2020)
 
@@ -3879,7 +3883,7 @@ b) de prognoses van de toekomstige kasstromen of inkomsten die naar verwachting 
 
 3° een constructie met een grensoverschrijdende overdracht binnen de groep van functies, en/of risico's en/of activa, indien de geraamde jaarlijkse winst vóór interest en belastingen (ebit) van de overdrager of overdragers, tijdens de periode van drie jaar na de overdracht, minder dan 50 % bedraagt van de geraamde jaarlijkse ebit van die overdrager of overdragers indien de overdracht niet had plaatsgevonden.
 
-## Art. 146octies
+##### Art. 146octies
 
 (van toepassing vanaf 01.07.2020)
 
@@ -3907,7 +3911,7 @@ Onverminderd het eerste lid moeten de intermediairs bedoeld in artikel 146septie
 
 Wanneer er op grond van het eerste lid een meervoudige meldingsplicht bestaat, wordt de intermediair ontheven van het verstrekken van de inlichtingen als hij een schriftelijk bewijs voorlegt dat dezelfde inlichtingen in een andere lidstaat zijn verstrekt.
 
-## Art. 146nonies
+##### Art. 146nonies
 
 (van toepassing vanaf 01.07.2020)
 
@@ -3915,7 +3919,7 @@ Wanneer er op grond van het eerste lid een meervoudige meldingsplicht bestaat, w
 
 Indien het gaat om marktklare constructie moet de intermediair om de drie maanden een periodiek verslag opstellen met een overzicht van nieuwe meldingsplichtige inlichtingen zoals bedoeld in artikel 146quater, § 6/3, 1°, 4°, 7° en 8°, die sinds het laatste ingediende verslag beschikbaar zijn geworden.
 
-## Art. 146decies
+##### Art. 146decies
 
 (van toepassing vanaf 01.07.2020)
 
@@ -3925,7 +3929,7 @@ Naar aanleiding van de melding van een grensoverschrijdende constructie die ten 
 
 De intermediair die het uniek referentienummer van de bevoegde instanties ontvangt, dient dit, samen met de samenvatting betreffende de gemelde constructie, onverwijld aan de andere betrokken intermediairs en aan de relevante belastingplichtige door te geven.
 
-## Art. 146undecies
+##### Art. 146undecies
 
 (van toepassing vanaf 01.07.2020)
 
@@ -3935,7 +3939,7 @@ Wanneer meerdere intermediairs betrokken zijn bij dezelfde meldingsplichtige gre
 
 Een intermediair wordt ontheven van de verplichting tot het verstrekken van inlichtingen indien hij een schriftelijk bewijs voorlegt dat een andere intermediair de inlichtingen bedoeld in artikel 146quater, § 6/3, tweede lid, reeds heeft verstrekt.
 
-## Art. 146duodecies
+##### Art. 146duodecies
 
 (van toepassing vanaf 11.04.2026)
 
@@ -3957,7 +3961,7 @@ Indien de relevante belastingplichtige geen instemming verleent blijft de meldin
 
 § 4. In afwijking van paragraaf 1, eerste lid, 1°, is de intermediair die een advocaat is, niet gehouden een betrokken intermediair die niet de cliënt is op de hoogte te brengen dat hij niet aan de meldingsplicht kan voldoen.
 
-## Art. 146terdecies
+##### Art. 146terdecies
 
 (van toepassing vanaf 01.07.2020)
 
@@ -3991,7 +3995,7 @@ Indien de relevante belastingplichtige geen instemming verleent blijft de meldin
 
 Wanneer er op grond van het eerste lid een meervoudige meldingsplicht bestaat, wordt de relevante belastingplichtige ontheven van het verstrekken van de inlichtingen als hij een schriftelijk bewijs voorlegt dat dezelfde inlichtingen in een andere lidstaat zijn verstrekt.
 
-## Art. 146quaterdecies
+##### Art. 146quaterdecies
 
 (van toepassing vanaf 01.07.2020)
 
@@ -4005,7 +4009,7 @@ Wanneer de meldingsplicht bij de relevante belastingplichtige ligt en er meer da
 
 Een relevante belastingplichtige wordt ontheven van de verplichting tot het verstrekken van de inlichtingen indien hij een schriftelijk bewijs voorlegt dat een andere relevante belastingplichtige de inlichtingen bedoeld in artikel 146quater, § 6/3, reeds heeft verstrekt.
 
-## Art. 146quindecies
+##### Art. 146quindecies
 
 (van toepassing vanaf 01.07.2020)
 
@@ -4014,7 +4018,7 @@ Een relevante belastingplichtige wordt ontheven van de verplichting tot het vers
 Voor de toepassing van artikelen 146quater, § 6/3, 146sexies tot en met 146quaterdecies en de daaruit voortvloeiende uitvoeringsbesluiten dient de melding van de inlichtingen, voor de onderdelen die de Koning nader bepaalt, naast het gebruik van één van de officiële landstalen, ook in het Engels te gebeuren.
 Het KB van 03.07.2020 (B.S., 14.07.2020) voorziet dat de Minister van Financiën of de door hem aangewezen leidinggevende ambtenaar bepaalt welke gegevens, naast het gebruik van één van de officiële landstalen, ook in het Engels moeten worden meegedeeld (art. 1) en eveneens het formulier dat door de intermediair of de relevante belastingplichtige moet worden gebruikt (art. 2). De leidinggevende ambtenaar bedoeld in het bovenvermelde KB is de leidinggevende ambtenaar van de algemene administratie bevoegd voor de vestiging van de inkomstenbelastingen (art. 1, MB van 07.07.2020 (B.S., 14.07.2020)).
 
-## Art. 146sedecies
+##### Art. 146sedecies
 
 (van toepassing vanaf 01.07.2020)
 
@@ -4023,7 +4027,7 @@ Het KB van 03.07.2020 (B.S., 14.07.2020) voorziet dat de Minister van Financiën
 De Koning bepaalt het formulier waarop de intermediair of de relevante belastingplichtige de verplichtingen opgenomen in de artikelen 146sexies tot en met 146quindecies moeten naleven.
 Het KB van 03.07.2020 (B.S., 14.07.2020) voorziet dat de Minister van Financiën of de door hem aangewezen leidinggevende ambtenaar bepaalt welke gegevens, naast het gebruik van één van de officiële landstalen, ook in het Engels moeten worden meegedeeld (art. 1) en eveneens het formulier dat door de intermediair of de relevante belastingplichtige moet worden gebruikt (art. 2). De leidinggevende ambtenaar bedoeld in het bovenvermelde KB is de leidinggevende ambtenaar van de algemene administratie bevoegd voor de vestiging van de inkomstenbelastingen (art. 1, MB van 07.07.2020 (B.S., 14.07.2020)).
 
-## Art. 146septdecies
+##### Art. 146septdecies
 
 (van toepassing vanaf 01.07.2020)
 
@@ -4037,9 +4041,9 @@ De beroepen tot gehele of gedeeltelijke vernietiging van de wet van 20.12.2019 (
 
 ## BOEK II - TAKS TOT VERGOEDING DER SUCCESSIERECHTEN
 
-#### HOOFDSTUK I - Vestiging van de taks
+### HOOFDSTUK I - Vestiging van de taks
 
-## Art. 147
+##### Art. 147
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4047,7 +4051,7 @@ De beroepen tot gehele of gedeeltelijke vernietiging van de wet van 20.12.2019 (
 
 De verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de private stichtingen, beheerst door het Wetboek van vennootschappen en verenigingen, zijn vanaf 1 januari volgend op de datum van hun oprichting onderworpen aan een jaarlijkse taks tot vergoeding van de successierechten.
 
-## Art. 148
+##### Art. 148
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4055,7 +4059,7 @@ De verenigingen zonder winstoogmerk, de internationale verenigingen zonder winst
 
 (…)
 
-## Art. 148bis
+##### Art. 148bis
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4063,7 +4067,7 @@ De verenigingen zonder winstoogmerk, de internationale verenigingen zonder winst
 
 (…)
 
-## Art. 149
+##### Art. 149
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4085,9 +4089,9 @@ van het behoud van het natuurlijk erfgoed van België, en voor zover dit patrimo
 
 6° de instellingen voor bedrijfspensioenvoorziening die onderworpen zijn aan de vennootschapsbelasting.
 
-#### HOOFDSTUK II - Zetting der taks
+### HOOFDSTUK II - Zetting der taks
 
-## Art. 150
+##### Art. 150
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4144,7 +4148,7 @@ Op de taks ingesteld bij artikel 147 zijn de bepalingen van boek I betreffende d
 
 Beroepen tot gedeeltelijke vernietiging van de wet van 28.12.2023 « houdende diverse fiscale bepalingen » (Taks tot vergoeding der successierechten - Belastbare grondslag - Vrijstelling - Toepassingsgebied - Bevoegdheidverdelende regels) Het Hof vernietigt art. 15, 2°, b), van de wet van 28.12.2023 en handhaaft de gevolgen van de vernietigde bepaling tot uiterlijk 31.12.2026 (GwH nr. 159/2025 d.d. 04.12.2025).
 
-## Art. 150/1
+##### Art. 150/1
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4164,9 +4168,9 @@ Bij gebreke van gelijktijdige neerlegging kan de vermindering overeenkomstig art
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-#### HOOFDSTUK III - Aangifte
+### HOOFDSTUK III - Aangifte
 
-## Art. 151
+##### Art. 151
 
 (van toepassing vanaf 01.01.2028)
 
@@ -4184,9 +4188,9 @@ Valt de laatste dag van de termijn op een sluitingsdag van de kantoren, dan word
 
 De bepalingen van artikelen 42, nummers VI en VII, 43, 45, eerste en tweede lid, en 46 zijn op bedoelde aangifte van toepassing.
 
-#### HOOFDSTUK III - Aangifte
+### HOOFDSTUK III - Aangifte
 
-## Art. 151
+##### Art. 151
 
 (van toepassing vanaf 08.06.2024)
 
@@ -4204,7 +4208,7 @@ Valt de laatste dag van de termijn op een sluitingsdag van de kantoren, dan word
 
 De bepalingen van artikelen 42, nummers VI en VII, 43, 45, eerste en tweede lid, en 46 zijn op bedoelde aangifte van toepassing.
 
-## Art. 151/1
+##### Art. 151/1
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4212,9 +4216,9 @@ De bepalingen van artikelen 42, nummers VI en VII, 43, 45, eerste en tweede lid,
 
 De in artikel 147 bedoelde instellingen zijn vrijgesteld van het indienen van een aangifte wanneer hun belastbare bezittingen de in artikel 152 bedoelde eerste schijf niet overschrijden.
 
-#### HOOFDSTUK IV - Verevening en betaling van de taks
+### HOOFDSTUK IV - Verevening en betaling van de taks
 
-## Art. 152
+##### Art. 152
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4232,7 +4236,7 @@ De taks wordt geheven volgens het tarief in de onderstaande tabel aangeduid:
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 153
+##### Art. 153
 
 (van toepassing vanaf 01.01.2028)
 
@@ -4244,7 +4248,7 @@ Wordt de taks niet betaald binnen deze termijn, dan is de wettelijke interest, t
 
 De Koning bepaalt de wijze van betaling van alle bedragen die krachtens de bepalingen van dit boek en de uitvoeringsbesluiten ervan verschuldigd zijn, andere dan de strafrechtelijke boetes.
 
-## Art. 153
+##### Art. 153
 
 (van toepassing vanaf 01.03.2021)
 
@@ -4256,13 +4260,13 @@ Wordt de taks niet betaald binnen deze termijn, dan is de wettelijke interest, t
 
 De Koning bepaalt de wijze van betaling van alle bedragen die krachtens de bepalingen van dit boek en de uitvoeringsbesluiten ervan verschuldigd zijn, andere dan de strafrechtelijke boetes.
 
-## Art. 154
+##### Art. 154
 
 (van toepassing vanaf 17.04.1936)
 
 Voor de berekening van de interest, wordt artikel 82 toegepast.
 
-## Art. 155
+##### Art. 155
 
 (van toepassing vanaf 01.01.1990)
 
@@ -4270,7 +4274,7 @@ Voor de berekening van de interest, wordt artikel 82 toegepast.
 
 (…)
 
-## Art. 156
+##### Art. 156
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4280,7 +4284,7 @@ Voor de berekening van de interest, wordt artikel 82 toegepast.
 (…)
 (1) De belastingplichtige die gebruik heeft gemaakt van de mogelijkheid bedoeld in art. 156 W.Succ. zoals dat bestond voor de afschaffing ervan bij art. 20 van deze wet en waarvan de bezittingen of de waarde ervan op de 1ste januari van een van de twee jaren waarvoor de taks vooraf betaald is, zodanig vermeerderd zijn dat de taks over het meerdere ten minste 25 euro bereikt, is gehouden, uiterlijk op 31 maart van dat jaar, een aangifte in te dienen en de taks voor het geheel van zijn belastbaar vermogen te voldoen, onder aftrek van het reeds betaalde (art. 25, lid 1). De Koning kan nadere regels bepalen voor de indiening van de aanvullende aangiften bedoeld in het eerste lid (art. 25, lid 2).
 
-## Art. 157
+##### Art. 157
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4288,9 +4292,9 @@ Voor de berekening van de interest, wordt artikel 82 toegepast.
 
 (…)
 
-#### HOOFDSTUK V - Diverse bepalingen
+### HOOFDSTUK V - Diverse bepalingen
 
-## Art. 158
+##### Art. 158
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4303,7 +4307,7 @@ Volgens de gevallen, is de bevoegde rechter of rechtbank deze, binnen wiens ambt
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 158bis
+##### Art. 158bis
 
 (van toepassing vanaf 01.01.2028)
 
@@ -4313,7 +4317,7 @@ Elke belastingplichtige, die de aangifte te laat verzendt, loopt per maand vertr
 
 Het totaal dezer boeten mag het tiende der verschuldigde taks niet te boven gaan, noch minder dan 2,50 EUR bedragen.
 
-## Art. 158bis
+##### Art. 158bis
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4323,7 +4327,7 @@ Elke belastingplichtige, die de aangifte te laat inlevert, loopt per maand vertr
 
 Het totaal dezer boeten mag het tiende der verschuldigde taks niet te boven gaan, noch minder dan 2,50 EUR bedragen.
 
-## Art. 158ter
+##### Art. 158ter
 
 (van toepassing vanaf 05.08.1993)
 
@@ -4331,7 +4335,7 @@ Het totaal dezer boeten mag het tiende der verschuldigde taks niet te boven gaan
 
 In geval van verzuim van goederen of van te lage waardering vastgesteld in de aangifte, wordt een boete gelijk aan de ontdoken taks opgelopen.
 
-## Art. 159
+##### Art. 159
 
 (van toepassing vanaf 01.01.2024)
 
@@ -4341,7 +4345,7 @@ Zijn van toepassing, op de bij artikel 147 gevestigde taks, de bepalingen van he
 
 Het maximumbedrag van de tussen een minimumbedrag en een maximumbedrag vast te stellen geldstraffen als bepaald in het eerste boek, wordt voor de toepassing ervan in het kader van dit boek gebracht op 125.000,00 EUR.
 
-## Art. 160
+##### Art. 160
 
 (van toepassing vanaf 08.06.2024)
 
@@ -4360,7 +4364,7 @@ De Koning kan:
 
 4° onder voorbehoud van de bepalingen van de Archiefwet van 24 juni 1955, de bewaartermijnen en de wijze van bewaring bepalen van de vragen om inlichtingen en van de verstrekte antwoorden.
 
-## Art. 160bis
+##### Art. 160bis
 
 (van toepassing vanaf 21.08.2017)
 
@@ -4671,7 +4675,7 @@ b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodi
 (opgeheven bij art. 109 van de wet van 13.04.2019 (B.S., 30.04.2019 - ed. 1). Tekst van toepassing vanaf 01.01.2020 (art.
 139, lid 1))
 
-## Art. 161
+##### Art. 161
 
 (van toepassing vanaf 01.01.2020)
 
@@ -4680,7 +4684,7 @@ b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodi
 
 (…)
 
-## Art. 161bis
+##### Art. 161bis
 
 (van toepassing vanaf 01.01.2020)
 
@@ -4689,7 +4693,7 @@ b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodi
 
 (…)
 
-## Art. 161ter
+##### Art. 161ter
 
 (van toepassing vanaf 01.01.2020)
 
@@ -4698,7 +4702,7 @@ b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodi
 
 (…)
 
-## Art. 161quater
+##### Art. 161quater
 
 (van toepassing vanaf 01.01.2020)
 
@@ -4707,7 +4711,7 @@ b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodi
 
 (…)
 
-## Art. 161quinquies
+##### Art. 161quinquies
 
 (van toepassing vanaf 01.01.2020)
 
@@ -4716,7 +4720,7 @@ b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodi
 
 (…)
 
-## Art. 161sexies
+##### Art. 161sexies
 
 (van toepassing vanaf 01.01.2020)
 
@@ -4725,7 +4729,7 @@ b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodi
 
 (…)
 
-## Art. 161septies
+##### Art. 161septies
 
 (van toepassing vanaf 01.01.2020)
 
@@ -4734,7 +4738,7 @@ b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodi
 
 (…)
 
-## Art. 161octies
+##### Art. 161octies
 
 (van toepassing vanaf 01.01.2020)
 
@@ -4743,7 +4747,7 @@ b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodi
 
 (…)
 
-## Art. 161nonies
+##### Art. 161nonies
 
 (van toepassing vanaf 01.01.2020)
 
@@ -4752,7 +4756,7 @@ b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodi
 
 (…)
 
-## Art. 162
+##### Art. 162
 
 (van toepassing vanaf 01.01.2020)
 
@@ -4761,7 +4765,7 @@ b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodi
 
 (…)
 
-## Art. 162/1
+##### Art. 162/1
 
 (van toepassing vanaf 01.01.2020)
 
@@ -4776,7 +4780,7 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 (Boek III hersteld bij art. 118 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
 
-## Art. 162bis
+##### Art. 162bis
 
 (van toepassing vanaf 01.01.2028)
 
@@ -4794,7 +4798,7 @@ Voor de toepassing van de bepalingen van dit Wetboek, van de bijzondere wetsbepa
 
 (Boek III opgeheven bij art. 95 van de wet van 21.12.2013 (B.S., 31.12.2013 – ed. 2). Tekst van toepassing vanaf 01.01.2011 (art. 95))
 
-## Art. 162bis
+##### Art. 162bis
 
 (van toepassing vanaf 01.01.2011)
 
@@ -4806,7 +4810,7 @@ Voor de toepassing van de bepalingen van dit Wetboek, van de bijzondere wetsbepa
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 162ter
+##### Art. 162ter
 
 (van toepassing vanaf 01.01.2028)
 
@@ -4828,7 +4832,7 @@ Wanneer het bericht van de Federale Overheidsdienst Financiën aan een burger, n
 
 § 3. De keuze van een natuurlijke persoon die geen houder is van een ondernemingsnummer om langs elektronische weg met de Federale Overheidsdienst Financiën te communiceren gebeurt door de uitdrukkelijke en voorafgaande aanvaarding van het elektronische communicatieproces met de Federale uitdrukkelijke toestemming moet vrij, weloverwogen en ondubbelzinnig zijn. De natuurlijk persoon die geen houder is van een ondernemingsnummer kan zijn instemming op elk moment intrekken. Het bericht zal dan voor de toekomst onder gesloten omslag worden verstuurd en deze intrekking van toestemming zal onmiddellijk van kracht worden.
 
-## Art. 162ter
+##### Art. 162ter
 
 (van toepassing vanaf 09.06.2024)
 
@@ -4839,7 +4843,7 @@ Wanneer het bericht van de Federale Overheidsdienst Financiën aan een burger, n
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 162quater
+##### Art. 162quater
 
 (van toepassing vanaf 01.01.2028)
 
@@ -4849,7 +4853,7 @@ Behoudens indien de wettelijke of reglementaire bepalingen anders bepalen, wordt
 
 Behoudens indien de wettelijke of reglementaire bepalingen anders bepalen, wordt elk bericht van de verzonden door middel van een beveiligd elektronisch platform.
 
-## Art. 162quater
+##### Art. 162quater
 
 (van toepassing vanaf 01.01.2011)
 
@@ -4861,7 +4865,7 @@ Behoudens indien de wettelijke of reglementaire bepalingen anders bepalen, wordt
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 162quinquies
+##### Art. 162quinquies
 
 (van toepassing vanaf 01.01.2028)
 
@@ -4871,7 +4875,7 @@ Behoudens indien de wettelijke of reglementaire bepalingen anders bepalen, zal e
 
 Wanneer een persoon zich niet heeft kunnen identificeren bij een beveiligd elektronisch platform omdat het beveiligd elektronisch platform technisch niet geconfigureerd is om deze persoon toe te staan er verbinding mee te maken, wordt het bericht eveneens onder gesloten omslag verzonden.
 
-## Art. 162quinquies
+##### Art. 162quinquies
 
 (van toepassing vanaf 01.01.2011)
 
@@ -4883,7 +4887,7 @@ Wanneer een persoon zich niet heeft kunnen identificeren bij een beveiligd elekt
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 162sexies
+##### Art. 162sexies
 
 (van toepassing vanaf 01.01.2028)
 
@@ -4899,7 +4903,7 @@ Wanneer een bericht wordt verzonden door de Federale Overheidsdienst Financiën 
 
 § 2. Behoudens indien de wettelijke of reglementaire bepalingen anders bepalen, is het de derde werkdag die volgt op de datum van verzending van het bericht verzonden of ontvangen onder gesloten omslag, die het vertrekpunt zal zijn van de termijnen die van toepassing zijn voor het vervullen van de rechten en plichten in dit Wetboek, in de bijzondere wetsbepalingen met betrekking tot de successierechten of in de tot uitvoering ervan genomen besluiten.
 
-## Art. 162sexies
+##### Art. 162sexies
 
 (van toepassing vanaf 01.01.2011)
 
@@ -4911,7 +4915,7 @@ Wanneer een bericht wordt verzonden door de Federale Overheidsdienst Financiën 
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 162septies
+##### Art. 162septies
 
 (van toepassing vanaf 01.01.2028)
 
@@ -4919,7 +4923,7 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 De rechtsgevolgen van een bericht verzonden door middel van een beveiligd elektronisch platform of onder gesloten omslag zijn dezelfde.
 
-## Art. 162septies
+##### Art. 162septies
 
 (van toepassing vanaf 01.01.2011)
 
@@ -4931,7 +4935,7 @@ De rechtsgevolgen van een bericht verzonden door middel van een beveiligd elektr
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-## Art. 162octies
+##### Art. 162octies
 
 (van toepassing vanaf 01.01.2028)
 
@@ -4941,7 +4945,7 @@ Wanneer een document elektronisch wordt ondertekend door de opsteller of opstell
 
 Wanneer een document elektronisch wordt ondertekend door middel van het stelsel voor elektronische identificatie aangemeld door België overeenkomstig artikel 9.1. van de Verordening (EU) nr. 910/2014, wordt die ondertekening beschouwd als gekwalificeerd in de zin van artikel 3.12. van die Verordening.
 
-## Art. 162octies
+##### Art. 162octies
 
 (van toepassing vanaf 01.01.2011)
 
@@ -4951,7 +4955,7 @@ Wanneer een document elektronisch wordt ondertekend door middel van het stelsel 
 (…) (1)
 (1) De bepalingen van boek III blijven echter van toepassing voor de taksen geheven tot 31.12.2010 (art. 95).
 
-## Art. 162nonies
+##### Art. 162nonies
 
 (van toepassing vanaf 01.01.2011)
 
@@ -4961,7 +4965,7 @@ Wanneer een document elektronisch wordt ondertekend door middel van het stelsel 
 (…) (1)
 (1) De bepalingen van boek III blijven echter van toepassing voor de taksen geheven tot 31.12.2010 (art. 95).
 
-## Art. 162decies
+##### Art. 162decies
 
 (van toepassing vanaf 01.01.2011)
 
@@ -4975,7 +4979,7 @@ Wanneer een document elektronisch wordt ondertekend door middel van het stelsel 
 
 (opgeheven bij art. 24 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van toepassing vanaf 01.03.2021 (art. -))
 
-## Art. 163
+##### Art. 163
 
 (van toepassing vanaf 01.03.2021)
 
@@ -4991,7 +4995,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (opgeheven bij art. 25 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van toepassing vanaf 01.03.2021 (art. -))
 
-## Art. 164
+##### Art. 164
 
 (van toepassing vanaf 01.03.2021)
 
@@ -4999,7 +5003,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 165
+##### Art. 165
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5007,7 +5011,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 166
+##### Art. 166
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5015,7 +5019,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 167
+##### Art. 167
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5023,7 +5027,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 168
+##### Art. 168
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5031,7 +5035,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 169
+##### Art. 169
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5039,7 +5043,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 170
+##### Art. 170
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5047,7 +5051,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 171
+##### Art. 171
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5055,7 +5059,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 172
+##### Art. 172
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5063,7 +5067,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 173
+##### Art. 173
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5071,7 +5075,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 174
+##### Art. 174
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5079,7 +5083,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 175
+##### Art. 175
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5087,7 +5091,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 176
+##### Art. 176
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5095,7 +5099,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 177
+##### Art. 177
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5103,7 +5107,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 178
+##### Art. 178
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5111,11 +5115,11 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-##### Afdeling II - (…) (van toepassing vanaf 01.03.2021)
+#### Afdeling II - (…) (van toepassing vanaf 01.03.2021)
 
 (opgeheven bij art. 25 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van toepassing vanaf 01.03.2021 (art. -))
 
-## Art. 179
+##### Art. 179
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5123,7 +5127,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 180
+##### Art. 180
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5131,7 +5135,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 181
+##### Art. 181
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5139,7 +5143,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 182
+##### Art. 182
 
 (van toepassing vanaf 01.03.2021)
 
@@ -5147,7 +5151,7 @@ Eerste afdeling – (…) (van toepassing vanaf 01.03.2021)
 
 (…)
 
-## Art. 183
+##### Art. 183
 
 (van toepassing vanaf 01.03.2021)
 

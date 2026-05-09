@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 46 van 29 december 1992, tot regeling van de aangifte van de intracommunautaire verwerving van vervoermiddelen en van de betaling van de ter zake verschuldigde BTW

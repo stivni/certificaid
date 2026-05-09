@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 16 van 3 juni 1970, met betrekking tot de toepassing van de belasting over de toegevoegde waarde inzake de verkoop van vis, schaal-, schelp- en weekdieren in de gemeentelijke vismijn

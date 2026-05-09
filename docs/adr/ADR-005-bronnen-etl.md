@@ -152,12 +152,15 @@ universele hardgecodeerde label-naar-niveau mapping. Pipeline:
    structuurlabel of het eerste artikel? (WVV mist DEEL 1 / BOEK 1 / TITEL 1 /
    Art. 1:1 in onze conversie — sanity-check tegen officiële bron.)
 
-2. **Containment-detectie** (`tools/etl/inject_wettekst_headings.py`):
-   - Voor elk paar (A, B), tel hoe vaak B voorkomt tussen twee opeenvolgende A's
-   - Topo-sort levert ranks (hoogste = bevat meeste andere types tussen z'n
-     opeenvolgende instances)
-   - Niet "eerste verschijning" — dat geeft fouten bij wetten als WVV waar DEEL
-     pas mid-document verschijnt maar BOEKs groepeert
+2. **Hiërarchie-detectie** (`tools/etl/inject_wettekst_headings.py`):
+   - Scan welke structuurlabels aanwezig zijn in het document
+   - Orden ze volgens de vaste Belgische wettekst-hiërarchie:
+     DEEL > BOEK > TITEL > HOOFDSTUK > AFDELING > ONDERAFDELING
+   - De volgorde is altijd dezelfde; alleen de aanwezigheid varieert per wet
+   - "Art." staat altijd als laagste rank (chunk-grens)
+   - Noot: containment-analyse (eerder ontworpen) bleek onbetrouwbaar bij sparse
+     nesting (ONDERAFDELING optioneel binnen AFDELING) en bij wetten met slechts
+     één BOEK-sectie (Antiwitwaswet). De vaste Belgische hiërarchie is robuuster.
 
 3. **Mapping H2 → H6** met conditional flattening bij overflow:
    - Hoogste rank → H2; volgende ranks → H3, H4, ... ; artikel = laagste rank

@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 5
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Strafwetboek 2024 — Boek 1
@@ -34,63 +38,63 @@ Titel
 
 29 FEBRUARI 2024. - Wet tot invoering van boek I van het Strafwetboek
 
-#### HOOFDSTUK 1. - Voorafgaande bepaling
+### HOOFDSTUK 1. - Voorafgaande bepaling
 
-## Art. 1
+##### Art. 1
 
 Deze wet regelt een aangelegenheid als bedoeld in artikel 74 van de Grondwet.
 
-#### HOOFDSTUK 2. - Het Strafwetboek
+### HOOFDSTUK 2. - Het Strafwetboek
 
 ## Boek I. -
 
-## Art. 2
+##### Art. 2
 
 De hiernavolgende bepalingen vormen boek I van het Strafwetboek:
 "Boek 1. Algemene regels van het strafrecht
 
-#### Hoofdstuk 1. Strafwet Artikel 1. Legaliteitsbeginsel
+### Hoofdstuk 1. Strafwet Artikel 1. Legaliteitsbeginsel
 Niemand kan worden gestraft voor een misdrijf waarvan de bestanddelen niet in de wet worden omschreven.
 Niemand kan worden gestraft met een straf waarin de wet niet voorziet.
 Dit artikel staat niet in de weg aan de berechting en bestraffing van iemand die schuldig is aan een handelen of nalaten dat, ten tijde van het handelen of nalaten, een misdrijf was overeenkomstig de algemene beginselen die door de internationale volkerengemeenschap worden erkend.
 
-## Art. 2
+##### Art. 2
 
 Toepassing van de strafwet in de tijd
 Niemand kan worden bestraft voor een handelen of nalaten dat niet bij wet strafbaar was ten tijde van dat handelen of nalaten.
 Evenmin kan een zwaardere hoofd- of bijkomende straf worden opgelegd dan die waarin ten tijde van het plegen van het misdrijf bij wet was voorzien.
 In geval van wijziging van de strafwet na het plegen van het misdrijf gelden de voor de dader meest gunstige bepalingen.
 
-## Art. 3
+##### Art. 3
 
 Toepassing van de strafwet in de ruimte
 Behoudens de bij wet bepaalde uitzonderingen wordt het misdrijf, op Belgisch grondgebied door Belgen of vreemdelingen gepleegd, bestraft overeenkomstig de bepalingen van de Belgische wetten.
 Het misdrijf, buiten het Belgisch grondgebied door Belgen of vreemdelingen gepleegd, wordt in België niet bestraft, behoudens in de bij wet bepaalde gevallen.
 Het misdrijf is op het grondgebied van het Rijk gepleegd wanneer een van de constitutieve of verzwarende bestanddelen ervan materieel op dat grondgebied heeft plaatsgevonden.
 
-## Art. 4
+##### Art. 4
 
 Interpretatie van de strafwet
 De strafwet moet strikt worden geïnterpreteerd. Zij kan niet naar analogie worden toegepast in het nadeel van de vervolgde persoon.
 De strafwet kan worden toegepast op feiten die de wetgever volstrekt onmogelijk kon voorzien ten tijde van haar afkondiging op voorwaarde dat de wil van de wetgever om dat soort feiten tot misdrijf te maken zeker is en dat de feiten onder de wettelijke omschrijving van het misdrijf kunnen vallen.
 
-#### Hoofdstuk 2. Misdrijf
+### Hoofdstuk 2. Misdrijf
 
-##### Afdeling 1. Definitie van het misdrijf
+#### Afdeling 1. Definitie van het misdrijf
 
-## Art. 5
+##### Art. 5
 
 Bestanddelen van het misdrijf
 Er is slechts een misdrijf indien een materieel bestanddeel en een moreel bestanddeel aanwezig zijn.
 De gedraging wordt geacht wederrechtelijk te zijn wanneer het materieel en het moreel bestanddeel vervuld zijn.
 De wet kan eveneens voorzien in verzwarende bestanddelen.
 
-## Art. 6
+##### Art. 6
 
 Materieel bestanddeel
 Elk misdrijf vereist het bestaan van een materieel bestanddeel. Dit bestanddeel bestaat uit een handeling of een nalaten.
 
-## Art. 7
+##### Art. 7
 
 Moreel bestanddeel
 § 1. Elk misdrijf vereist het bestaan van een moreel bestanddeel bij de dader. Dit moreel bestanddeel houdt voor alle misdrijven in, het in staat zijn bewust en uit vrije wil te handelen.
@@ -103,14 +107,14 @@ Het algemeen opzet bestaat uit het voornemen om met kennis van zaken het door de
 Het bijzonder opzet bestaat, naast de vereisten gesteld aan het algemeen opzet, uit het voornemen om het door de wet bepaalde resultaat te bereiken of uit een door de wet bepaalde bijzondere geestesgesteldheid bij de dader. Indien het bijzonder opzet bestaat uit het voornemen om een bepaald resultaat te bereiken, wordt dit resultaat geacht te zijn nagestreefd door de dader wanneer hij dit resultaat als doel van zijn gedrag had of wanneer hij dit heeft aanvaard als een gevolg dat zich zou voordoen binnen het normale verloop van de gebeurtenissen.
 § 3. De zware fout bestaat uit een ernstig gebrek aan voorzorg of voorzichtigheid.
 
-## Art. 8
+##### Art. 8
 
 Verzwarend bestanddeel
 De wet kan voorzien in elementen, verzwarende bestanddelen genoemd, die tot gevolg hebben dat het misdrijf met een straf van één of meer niveaus hoger wordt bestraft.
 
-##### Afdeling 2. Strafbare poging
+#### Afdeling 2. Strafbare poging
 
-## Art. 9
+##### Art. 9
 
 Strafbare poging
 § 1. De poging tot misdrijf is strafbaar wanneer het crimineel voornemen van de dader zich door een begin van uitvoering heeft geopenbaard.
@@ -120,9 +124,9 @@ De strafbare poging wordt bestraft met een straf van het onmiddellijk lagere str
 De strafbare poging van een misdrijf waarop in de wet op het voltooide misdrijf een straf van niveau 1 is gesteld, wordt bestraft met dezelfde straf of, wanneer de wet voorziet in een bijkomende straf en de rechter oordeelt dat dit een gepaste straf is, met een bijkomende straf die wordt uitgesproken in plaats van de hoofdstraf.
 § 2. Wordt bestraft met een straf die twee niveaus lager is dan het niveau gesteld op het voltooid misdrijf, de persoon die op vasthoudende en zekere wijze voorstelt, aanbiedt of aanzet een misdrijf te plegen waarop in de wet een straf van niveau 5 of hoger is gesteld en hij die een dergelijk voorstel, aanbod of aanzetting heeft aanvaard, terwijl dit geen uitwerking heeft gehad wegens omstandigheden onafhankelijk van zijn wil.
 
-##### Afdeling 3. Rechtvaardigingsgronden
+#### Afdeling 3. Rechtvaardigingsgronden
 
-## Art. 10
+##### Art. 10
 
 Rechtvaardigingsgronden
 Rechtvaardigingsgronden zijn door de wet bepaalde omstandigheden die de wederrechtelijkheid van de gestelde gedraging opheffen waardoor deze gedraging geoorloofd of gerechtvaardigd wordt.
@@ -133,43 +137,43 @@ De rechtvaardigingsgronden zijn:
 4° de wettige verdediging;
 5° het wettig verzet in geval van misbruik door de overheid.
 
-## Art. 11
+##### Art. 11
 
 Gebod of toelating bij de wet
 Er is geen misdrijf wanneer het feit door de wet is opgelegd of toegelaten.
 
-## Art. 12
+##### Art. 12
 
 Bevel van de overheid
 Er is geen misdrijf wanneer het feit door de overheid is bevolen overeenkomstig de wet.
 
-## Art. 13
+##### Art. 13
 
 Noodtoestand
 Er is noodtoestand en dus geen misdrijf wanneer iemand enkel door het plegen van een als misdrijf omschreven feit een recht of een belang kan vrijwaren dat een ernstig en onmiddellijk gevaar loopt en waarvan de waarde hoger is dan de waarde van hetgeen door het als misdrijf omschreven feit wordt prijsgegeven.
 De feiten worden niet gerechtvaardigd indien de betrokkene de aangevoerde noodtoestand zelf opzettelijk heeft doen ontstaan.
 
-## Art. 14
+##### Art. 14
 
 Wettige verdediging
 Eigenrichting waarbij een misdrijf wordt gepleegd, is niet geoorloofd.
 Er is evenwel wettige verdediging en dus geen misdrijf wanneer iemand, die niet in de mogelijkheid verkeert om een onrechtmatige, ernstige en ogenblikkelijke aanval tegen zijn persoon of tegen de persoon van een derde te ontwijken, anders dan door het als misdrijf omschreven feit te plegen, zich met de wil om deze aanval af te weren op een evenredige manier verweert.
 
-## Art. 15
+##### Art. 15
 
 Wettig verzet in geval van misbruik door de overheid
 Er is geen misdrijf wanneer actief of passief verzet wordt geboden tegen een kennelijk onwettige daad van de overheid, die een onverwijlde reactie noodzakelijk maakt teneinde onherstelbare schade te voorkomen, en dit verzet wordt uitgeoefend op een manier die evenredig is met de aard en het belang van de onwettigheid.
 
-#### Hoofdstuk 3. Dader van het misdrijf
+### Hoofdstuk 3. Dader van het misdrijf
 
-##### Afdeling 1. Daderschap en deelneming
+#### Afdeling 1. Daderschap en deelneming
 
-## Art. 16
+##### Art. 16
 
 Beginsel van de individuele verantwoordelijkheid
 Niemand is strafrechtelijk verantwoordelijk dan voor zijn eigen gedragingen.
 
-## Art. 17
+##### Art. 17
 
 Definitie van daderschap
 Dader is de natuurlijke persoon of de rechtspersoon die alle bestanddelen van het misdrijf in zich verenigt of die voldoet aan de in artikel 9 bepaalde voorwaarden:
@@ -177,7 +181,7 @@ Dader is de natuurlijke persoon of de rechtspersoon die alle bestanddelen van he
 2° hetzij door zich te bedienen van een ander persoon als louter instrument;
 3° hetzij door opzettelijk met anderen samen te werken.
 
-## Art. 18
+##### Art. 18
 
 Verantwoordelijkheid van rechtspersonen
 Een rechtspersoon is strafrechtelijk verantwoordelijk voor de misdrijven die hetzij een intrinsiek verband hebben met de verwezenlijking van zijn voorwerp of de waarneming van zijn belangen, of die, zoals blijkt uit de concrete omstandigheden, voor zijn rekening zijn gepleegd.
@@ -186,7 +190,7 @@ Met rechtspersonen worden gelijkgesteld:
 2° vennootschappen in oprichting.
 De strafrechtelijke verantwoordelijkheid van de rechtspersonen sluit die van de natuurlijke personen die daders zijn van dezelfde feiten of eraan hebben deelgenomen, niet uit.
 
-## Art. 19
+##### Art. 19
 
 Strafbare deelneming
 Diegenen die wetens en willens op betekenisvolle wijze bijdragen tot een misdrijf, op de wijze en binnen de perken als hierna aangegeven, worden als deelnemers beschouwd en kunnen als daders worden gestraft:
@@ -197,16 +201,16 @@ Diegenen die wetens en willens op betekenisvolle wijze bijdragen tot een misdrij
 5° zij die hulp of bijstand verlenen aan de dader na het misdrijf indien hierover vooraf overleg is gepleegd.
 In dit wetboek wordt onder het begrip "dader" ook de deelnemer aan het misdrijf begrepen.
 
-##### Afdeling 2. Doorwerking van verzwarende bestanddelen en verzwarende factoren
+#### Afdeling 2. Doorwerking van verzwarende bestanddelen en verzwarende factoren
 
-## Art. 20
+##### Art. 20
 
 Doorwerking van de verzwarende bestanddelen en de verzwarende factoren De dader in de zin van artikel 17, 3°, of de deelnemer die kennis had of kennis had moeten hebben van het bestaan van een objectief verzwarend bestanddeel of een objectieve verzwarende factor bij het misdrijf of die wist of had moeten weten dat de verwezenlijking van dat bestanddeel of die factor in de lijn lag van het normale of voorzienbare verloop van de gebeurtenissen en die, met kennis van zaken, heeft volhard in zijn wil om mee te werken aan het plegen van dat misdrijf, wordt gestraft als dader of deelnemer van het verzwaarde misdrijf.
 Subjectieve verzwarende bestanddelen en subjectieve verzwarende factoren hebben enkel gevolgen voor de straf van de dader of deelnemer aan het misdrijf indien wat hem betreft aan de toepassingsvoorwaarden ervan is voldaan.
 
-##### Afdeling 3. Schuldontheffingsgronden
+#### Afdeling 3. Schuldontheffingsgronden
 
-## Art. 21
+##### Art. 21
 
 Schuldontheffingsgronden
 Schuldontheffingsgronden zijn de in het tweede lid bedoelde omstandigheden waardoor de dader van het misdrijf geen verwijt treft wegens de concrete situatie waarin hij de strafbaar gestelde gedraging stelt.
@@ -214,19 +218,19 @@ De schuldontheffingsgronden zijn:
 1° de onweerstaanbare dwang;
 2° de onoverkomelijke dwaling.
 
-## Art. 22
+##### Art. 22
 
 Onweerstaanbare dwang
 Een persoon is niet strafrechtelijk verantwoordelijk als hij gedwongen werd door een fysieke of morele macht die hij niet heeft kunnen weerstaan.
 
-## Art. 23
+##### Art. 23
 
 Onoverkomelijke dwaling
 Een persoon is niet strafrechtelijk verantwoordelijk als hij gehandeld heeft uit onoverkomelijke dwaling in rechte of in feite.
 
-##### Afdeling 4. Gronden van niet-toerekeningsvatbaarheid
+#### Afdeling 4. Gronden van niet-toerekeningsvatbaarheid
 
-## Art. 24
+##### Art. 24
 
 Gronden van niet-toerekeningsvatbaarheid
 De gronden van niet-toerekeningsvatbaarheid zijn de in het tweede lid bedoelde omstandigheden waardoor de dader van het misdrijf niet strafrechtelijk verantwoordelijk is al blijft het stellen van de strafbaar gestelde gedraging wederrechtelijk en verwijtbaar.
@@ -234,21 +238,21 @@ De gronden van niet-toerekeningsvatbaarheid zijn:
 1° de geestesstoornis;
 2° de minderjarigheid.
 
-## Art. 25
+##### Art. 25
 
 Geestesstoornis
 Een persoon is niet strafrechtelijk verantwoordelijk als hij op het tijdstip van de feiten leed aan een geestesstoornis die zijn oordeelsvermogen of de controle over zijn daden heeft tenietgedaan.
 
-## Art. 26
+##### Art. 26
 
 Minderjarigheid
 Behoudens in de gevallen bij wet bepaald, is een persoon niet strafrechtelijk verantwoordelijk als hij op het tijdstip van de feiten de leeftijd van achttien jaar niet heeft bereikt.
 
-#### Hoofdstuk 4. Straffen
+### Hoofdstuk 4. Straffen
 
-##### Afdeling 1. Algemeen
+#### Afdeling 1. Algemeen
 
-## Art. 27
+##### Art. 27
 
 Doelstellingen van de straf
 Bij de keuze van de straf en het bepalen van de strafmaat, streeft de rechter de volgende doelen na:
@@ -261,55 +265,55 @@ Alvorens een straf uit te spreken, moet de rechter deze doelstellingen in overwe
 De gevangenisstraf is de laatst te overwegen straf, die slechts kan worden uitgesproken wanneer de strafdoelen niet kunnen worden bereikt met een van de andere straffen of maatregelen waarin de wet voorziet.
 Indien de rechter een straf van niveau 2 gepast acht ter bestraffing van het misdrijf en binnen dit strafniveau kiest voor de gevangenisstraf, motiveert hij waarom de doelstellingen van de straf niet door een van de andere straffen van niveau 2 kunnen worden bereikt.
 
-## Art. 28
+##### Art. 28
 
 Verzwarende factoren
 De wet kan voorzien in verzwarende factoren die de rechter in overweging moet nemen wanneer hij de straf of de maatregel en de zwaarte ervan kiest, zonder dat hij een straf van een hoger niveau mag opleggen.
 
-## Art. 29
+##### Art. 29
 
 De discriminerende drijfveer
 De discriminerende drijfveer van de dader is een verzwarende factor bij alle misdrijven, behoudens in die gevallen waarin de wet van de discriminerende drijfveer een verzwarend bestanddeel maakt.
 Een misdrijf wordt geacht te zijn gepleegd vanuit een discriminerende drijfveer wanneer een van de drijfveren van de dader bestaat uit de haat tegen, het misprijzen van of de vijandigheid tegen een persoon wegens diens zogenaamd ras, huidskleur, afkomst, nationale of etnische afstamming, nationaliteit, geslacht, zwangerschap, bevalling, het geven van borstvoeding, medisch begeleide voortplanting, moederschap, gezinsverantwoordelijkheden, medische of sociale transitie, genderidentiteit, genderexpressie, seksekenmerken, seksuele oriëntatie, burgerlijke staat, geboorte, leeftijd, vermogen, geloof of levensbeschouwing, gezondheidstoestand, handicap, taal, politieke overtuiging, syndicale overtuiging, fysieke of genetische eigenschap of sociale afkomst en positie, ongeacht of dit criterium daadwerkelijk aanwezig is of slechts vermeend is door de dader.
 Hetzelfde geldt wanneer een van de drijfveren van de dader erin bestaat dat het slachtoffer een band of vermeende band heeft met een persoon ten aanzien van wie hij haat, misprijzen of vijandigheid koestert wegens een of meer van de in het tweede lid aangehaalde werkelijke of vermeende criteria.
 
-## Art. 30
+##### Art. 30
 
 Verzachtende omstandigheden
 Wanneer de rechter oordeelt dat hij verzachtende omstandigheden in aanmerking kan nemen, vermindert of wijzigt hij de straffen in de mate en volgens de voorwaarden vermeld in dit hoofdstuk.
 
-## Art. 31
+##### Art. 31
 
 Voorlichtingsrapport
 Met het oog op het opleggen van de meest geschikte straf kan het openbaar ministerie of de rechter bij wie de zaak aanhangig werd gemaakt, aan de bevoegde dienst van het gerechtelijk arrondissement van de verblijfplaats van de beklaagde of de beschuldigde de opdracht geven een voorlichtingsrapport op te stellen teneinde de pertinente informatie te verstrekken die van aard is de rechter in te lichten over de opportuniteit van de overwogen straffen of maatregelen. De Koning bepaalt de inhoud en de nadere regels betreffende het opstellen van het voorlichtingsrapport.
 
-## Art. 32
+##### Art. 32
 
 Advies van een deskundige of dienst gespecialiseerd in de begeleiding of behandeling van seksuele of terroristische delinquenten Indien de beklaagde of de beschuldigde wordt vervolgd voor een terroristisch misdrijf of een misdrijf tegen de seksuele integriteit of het seksuele zelfbeschikkingsrecht, wint het openbaar ministerie of de rechter bij wie de zaak aanhangig werd gemaakt, met het oog op het opleggen van de meest geschikte straf, het gemotiveerd advies in van een deskundige of dienst gespecialiseerd in de begeleiding of de behandeling van seksuele of terroristische delinquenten.
 In afwijking van het eerste lid is het openbaar ministerie of de rechter niet verplicht het bedoelde advies in te winnen indien het niet strikt noodzakelijk is.
 
-##### Afdeling 2. Verschoningsgronden
+#### Afdeling 2. Verschoningsgronden
 
-## Art. 33
+##### Art. 33
 
 Definitie
 De verschoningsgronden zijn in de wet omschreven omstandigheden die hetzij strafontheffing hetzij strafvermindering tot gevolg hebben.
 
-## Art. 34
+##### Art. 34
 
 Noodweerexces
 Er is noodweerexces wanneer iemand op een onevenredige of niet noodzakelijke wijze reageert op een onrechtmatige, ernstige en ogenblikkelijke aanval tegen zijn persoon of tegen de persoon van een derde en deze reactie in direct causaal verband stond met de hevige gemoedsbeweging die door de aanval werd veroorzaakt.
 Indien het misdrijf werd gepleegd met noodweerexces wordt de straf vervangen door een straf van niveau 3 indien op het gepleegde misdrijf een straf van niveau 8 of 7 is gesteld, door een straf van niveau 2 indien op het gepleegde misdrijf een straf van niveau 6, 5 of 4 is gesteld, en door een straf van niveau 1 indien op het gepleegde misdrijf een straf van niveau 3 of 2 is gesteld.
 Indien op het gepleegde misdrijf een straf van niveau 1 is voorzien, moet de rechter die verschoningsgrond in overweging nemen bij het bepalen van de straf, die vervangen kan worden door een op het misdrijf gestelde bijkomende straf.
 
-## Art. 35
+##### Art. 35
 
 Minderjarigheid
 Indien de dader minderjarig is op het ogenblik van het aannemen van de strafbare gedraging, wordt de door de wet voorziene straf vervangen door een straf van het onmiddellijk lagere niveau. Indien het gaat om een misdrijf waarop in de wet een straf van niveau 1 is gesteld, spreekt de rechter deze straf uit of, wanneer de wet voorziet in een bijkomende straf, kan hij deze bijkomende straf opleggen in plaats van deze hoofdstraf indien hij dit een gepaste straf acht.
 
-##### Afdeling 3. Op natuurlijke personen toepasselijke straffen
+#### Afdeling 3. Op natuurlijke personen toepasselijke straffen
 
-## Art. 36
+##### Art. 36
 
 Hoofdstraffen
 De straf van niveau 8 bestaat uit levenslange gevangenisstraf of een behandeling onder vrijheidsberoving van meer dan achttien jaar tot ten hoogste twintig jaar. Bij aanneming van verzachtende omstandigheden wordt die straf vervangen door een van de straffen van niveau 7, 6, 5, 4 of 3.
@@ -335,7 +339,7 @@ De straf van niveau 1 bestaat uit een van de volgende straffen:
 6° de veroordeling bij schuldigverklaring.
 Wanneer de wet voorziet in een bijkomende straf voor een misdrijf dat wordt bestraft met een hoofdstraf van niveau 1, kan de rechter bij aanneming van verzachtende omstandigheden die bijkomende straf uitspreken in plaats van de hoofdstraf.
 
-## Art. 37
+##### Art. 37
 
 Bijkomende straffen
 In de door de wet bepaalde gevallen en zonder afbreuk te doen aan de in de bijzondere wetten bepaalde straffen, zijn de op de misdrijven toepasselijke bijkomende straffen:
@@ -351,9 +355,9 @@ In de door de wet bepaalde gevallen en zonder afbreuk te doen aan de in de bijzo
 10° het verval van het recht tot sturen;
 11° het verblijfs-, plaats- of contactverbod.
 
-##### Afdeling 4. Op rechtspersonen toepasselijke straffen
+#### Afdeling 4. Op rechtspersonen toepasselijke straffen
 
-## Art. 38
+##### Art. 38
 
 Hoofdstraffen
 De straf van niveau 8 bestaat uit een geldboete van meer dan 4.000.000 euro tot ten hoogste 5.760.000 euro.
@@ -383,7 +387,7 @@ De straf van niveau 1 bestaat uit een van de volgende straffen:
 8° de veroordeling bij schuldigverklaring.
 Wanneer de wet voorziet in een bijkomende straf voor een misdrijf dat wordt bestraft met een hoofdstraf van niveau 1, kan de rechter bij aanneming van verzachtende omstandigheden die bijkomende straf uitspreken in plaats van de hoofdstraf.
 
-## Art. 39
+##### Art. 39
 
 Bijkomende straffen
 In de door de wet bepaalde gevallen en zonder afbreuk te doen aan de in de bijzondere wetten bepaalde straffen, zijn de op de misdrijven toepasselijke bijkomende straffen:
@@ -395,14 +399,14 @@ In de door de wet bepaalde gevallen en zonder afbreuk te doen aan de in de bijzo
 6° de sluiting van de inrichting;
 7° de bekendmaking van de beslissing houdende veroordeling.
 
-## Art. 40
+##### Art. 40
 
 De op bepaalde publiekrechtelijke rechtspersonen toepasselijke straf
 Ten aanzien van de Federale Staat, de gewesten, de gemeenschappen, de provincies, de hulpverleningszones, de prezones, de Brusselse agglomeratie, de gemeenten, de meergemeentezones, de binnengemeentelijke territoriale organen, de Franse Gemeenschapscommissie, de Vlaamse Gemeenschapscommissie, de Gemeenschappelijke Gemeenschapscommissie en de Openbare Centra voor Maatschappelijk Welzijn kan enkel, met uitsluiting van elke andere straf, de veroordeling bij schuldigverklaring worden uitgesproken.
 
-##### Afdeling 5. Vrijheidsbenemende straffen
+#### Afdeling 5. Vrijheidsbenemende straffen
 
-## Art. 41
+##### Art. 41
 
 Gevangenisstraf
 § 1. De gevangenisstraf bestaat uit de vrijheidsberoving van een persoon voor de termijn die de rechter bepaalt en overeenkomstig de door de wet bepaalde nadere regels.
@@ -413,7 +417,7 @@ De duur van een jaar gevangenisstraf is driehonderdvijfenzestig dagen.
 § 3. Elke hechtenis, vóór het definitief worden van de veroordeling ondergaan ten gevolge van het misdrijf dat tot die veroordeling aanleiding geeft, wordt toegerekend op de duur van de nog uit te voeren gevangenisstraffen. Hetzelfde geldt voor iedere voorlopige plaatsingsmaatregel in een gesloten opvoedingsafdeling ten aanzien van een minderjarige die een als misdrijf omschreven feit heeft gepleegd.
 § 4. De tot een gevangenisstraf veroordeelden ondergaan hun straf in de door de Koning aangewezen inrichtingen.
 
-## Art. 42
+##### Art. 42
 
 Behandeling onder vrijheidsberoving
 § 1. Indien het misdrijf van die aard is dat een gevangenisstraf kan worden opgelegd, kan de rechter de beklaagde of de beschuldigde opleggen zich aan een geschikte behandeling te onderwerpen, indien hij aan een psychiatrische aandoening lijdt die niet dermate ernstig is dat die zijn oordeelsvermogen of de controle over zijn daden tenietdoet, maar waardoor hij een ernstig gevaar vormt voor andermans leven of integriteit.
@@ -429,9 +433,9 @@ Indien nog niet is voldaan aan de voorwaarden die overeenkomstig de wet van 17 m
 § 4. De behandeling onder vrijheidsberoving vindt plaats in een instelling aangewezen door de strafuitvoeringsrechtbank en de tenuitvoerlegging ervan wordt geregeld in de bepalingen van de wet van 17 mei 2006 betreffende de externe rechtspositie van de veroordeelden tot een vrijheidsstraf en de aan het slachtoffer toegekende rechten in het raam van de strafuitvoeringsmodaliteiten. Zij kan evenwel niet bevelen dat de uitvoering van de behandeling onder vrijheidsberoving moet plaatsvinden in een gevangenis.
 § 5. Indien de veroordeelde in het kader van de uitvoering van de behandeling onder vrijheidsberoving te kennen geeft de opgelegde behandeling niet meer te willen volgen, indien hij de uitvoering van de behandeling onmogelijk maakt of de voorwaarden voor een goede uitvoering van de behandeling niet respecteert, kan de strafuitvoeringsrechtbank, op vordering van het openbaar ministerie en na de veroordeelde te hebben gehoord, beslissen dat de vervangende gevangenisstraf of een deel daarvan wordt uitgevoerd en dit rekening houdend met het deel van de behandeling onder vrijheidsberoving dat de veroordeelde reeds heeft ondergaan.
 
-##### Afdeling 6. Vrijheidsbeperkende straffen
+#### Afdeling 6. Vrijheidsbeperkende straffen
 
-## Art. 43
+##### Art. 43
 
 Straf onder elektronisch toezicht
 § 1. Wanneer de rechter van oordeel is dat hij een straf van niveau 2 moet uitspreken, kan hij als hoofdstraf een straf onder elektronisch toezicht opleggen waarvan de duur minstens een maand en ten hoogste een jaar bedraagt.
@@ -448,7 +452,7 @@ De rechter kan de veroordeelde bovendien aan geïndividualiseerde bijzondere voo
 § 4. De Koning bepaalt de nadere regels inzake de tenuitvoerlegging en controle van de straf onder elektronisch toezicht.
 § 5. Indien de straf onder elektronisch toezicht niet of slechts gedeeltelijk wordt uitgevoerd of in geval van ernstige niet-naleving van de algemene of bijzondere voorwaarden kan de strafuitvoeringsrechtbank, op vordering van het openbaar ministerie en na de veroordeelde te hebben gehoord, beslissen dat zal worden overgegaan tot de uitvoering van de uitgesproken vervangende gevangenisstraf of van het restant ervan na aftrek van de duur van het reeds uitgevoerde elektronisch toezicht, waarbij een dag van de straf onder elektronisch toezicht gelijkstaat aan een dag gevangenisstraf.
 
-## Art. 44
+##### Art. 44
 
 Probatiestraf
 § 1. Wanneer de rechter van oordeel is dat hij een straf van niveau 2 of van niveau 1 moet uitspreken, kan hij als hoofdstraf een probatiestraf opleggen.
@@ -469,7 +473,7 @@ De strafuitvoeringsrechtbank kan de bijzondere voorwaarden geheel of ten dele op
 De Koning bepaalt voor het overige de nadere regels inzake de tenuitvoerlegging en controle van de probatiestraf. Hij organiseert ook samen met de bevoegde instanties de verspreiding van informatie en het overleg inzake de toepassing van de probatiestraffen.
 § 5. Wanneer de probatiestraf geheel of gedeeltelijk niet wordt uitgevoerd, kan de strafuitvoeringsrechtbank, op vordering van het openbaar ministerie, en na de veroordeelde gehoord te hebben, beslissen dat de vervangende straf of een deel ervan ten uitvoer zal worden gelegd, hierbij rekening houdende met het deel van de probatiestraf dat de veroordeelde reeds heeft verricht.
 
-## Art. 45
+##### Art. 45
 
 Werkstraf
 § 1. Wanneer de rechter van oordeel is dat hij een straf van niveau 2 of van niveau 1 moet uitspreken, kan hij als hoofdstraf een werkstraf opleggen.
@@ -483,7 +487,7 @@ De rechter legt bij het uitspreken van een werkstraf van niveau 1 een geldboete 
 De Koning bepaalt de nadere regels inzake de tenuitvoerlegging en controle van de werkstraf. Hij organiseert ook samen met de bevoegde instanties de verspreiding van informatie en het overleg inzake de toepassing van de werkstraffen.
 § 4. Wanneer de werkstraf geheel of gedeeltelijk niet wordt uitgevoerd, kan de strafuitvoeringsrechtbank, op vordering van het openbaar ministerie, en na de veroordeelde te hebben gehoord, beslissen dat de vervangende straf of een deel ervan ten uitvoer zal worden gelegd, hierbij rekening houdende met het deel van de werkstraf dat de veroordeelde reeds heeft verricht.
 
-## Art. 46
+##### Art. 46
 
 Verlengde opvolging
 § 1. Indien de rechter een straf oplegt van niveau 3 of van een hoger niveau wegens een misdrijf dat een ernstige inbreuk heeft uitgemaakt op het leven, de fysieke, seksuele of psychische integriteit van het slachtoffer of een ernstig gevaar uitmaakte voor de openbare veiligheid kan hij een verlengde opvolging opleggen als bijkomende straf.
@@ -509,7 +513,7 @@ De opgelegde voorwaarden omvatten de volgende algemene voorwaarden:
 3° gevolg geven aan de oproepingen van de strafuitvoeringsrechtbank en, in voorkomend geval, aan die van de bevoegde dienst van de gemeenschappen die met de begeleiding is belast.
 De strafuitvoeringsrechtbank kan op elk moment de opgelegde voorwaarden geheel of ten dele opschorten, nader omschrijven of aanpassen aan de omstandigheden, hetzij ambtshalve, hetzij op vordering van het openbaar ministerie, hetzij op verzoek van de veroordeelde. Indien de strafuitvoeringsrechtbank van oordeel is dat de verlengde opvolging het gevaar op recidive afdoende ingeperkt heeft, beslist zij om voortijdig een einde te maken aan deze straf, zelfs indien de door de vonnisrechter bepaalde termijn nog niet is verstreken.
 
-## Art. 47
+##### Art. 47
 
 Ontzetting uit bepaalde burgerlijke en politieke rechten
 De gehele of gedeeltelijke ontzetting heeft betrekking op de uitoefening van de volgende rechten:
@@ -526,7 +530,7 @@ In geval van veroordeling tot een straf van niveau 2 tot en met 6, kan de rechte
 De periode van de ontzetting, bij het vonnis of arrest van veroordeling bepaald, gaat in op de dag waarop de veroordeling in kracht van gewijsde is getreden. De termijn wordt evenwel verlengd met de tijd waarin de gevangenisstraf of de behandeling onder vrijheidsberoving wordt uitgevoerd, met uitzondering van de periode gedurende dewelke de straf wordt uitgevoerd onder de modaliteit van het elektronisch toezicht en de periodes van voorwaardelijke of voorlopige invrijheidstelling.
 Indien daartoe grond bestaat, kan de strafuitvoeringsrechtbank beslissen een in kracht van gewijsde getreden veroordeling tot de ontzetting uit de rechten te wijzigen door de duur of de omvang van de ontzetting te verminderen, de ontzetting op te schorten of te beëindigen.
 
-## Art. 48
+##### Art. 48
 
 Beroepsverbod
 De rechter kan de veroordeelde verbieden zijn beroep uit te oefenen indien hij ernstig misbruik heeft gemaakt van zijn beroep om het misdrijf te plegen.
@@ -534,7 +538,7 @@ Het beroepsverbod bedraagt minstens een jaar en ten hoogste vijf jaar.
 Het beroepsverbod gaat in vanaf de dag waarop de veroordeling in kracht van gewijsde is getreden. De termijn wordt evenwel verlengd met de tijd waarin de gevangenisstraf of de behandeling onder vrijheidsberoving wordt uitgevoerd, met uitzondering van de periode gedurende dewelke de straf wordt uitgevoerd onder de modaliteit van het elektronisch toezicht en de periodes van voorwaardelijke of voorlopige invrijheidstelling.
 Indien daartoe grond bestaat, kan de strafuitvoeringsrechtbank beslissen een in kracht van gewijsde getreden veroordeling tot het beroepsverbod te wijzigen door de duur van het verbod te verminderen, het verbod op te schorten of te beëindigen.
 
-## Art. 49
+##### Art. 49
 
 Verval van het recht tot sturen
 De rechter kan de dader veroordelen tot een verval van het recht tot sturen indien een motorrijtuig gediend heeft of bestemd was tot het plegen van het misdrijf of tot het verzekeren van de vlucht.
@@ -545,25 +549,25 @@ Artikel 40, tweede lid tot vierde lid, van de wet van 16 maart 1968 betreffende 
 Indien daartoe grond bestaat, kan de strafuitvoeringsrechtbank beslissen een in kracht van gewijsde getreden veroordeling tot verval van het recht tot sturen te wijzigen door de duur van het verval te verminderen, het verval op te schorten of te beëindigen.
 De Koning bepaalt de formaliteiten die moeten worden vervuld met betrekking tot de uitvoering van de vervallenverklaringen van het recht tot sturen.
 
-## Art. 50
+##### Art. 50
 
 Verblijfs-, plaats- of contactverbod
 De rechter kan de veroordeelde, voor een termijn van een jaar tot ten hoogste twintig jaar, de ontzetting opleggen van het recht te wonen, te verblijven of zich op te houden in het door de rechter bepaalde gebied of contact te hebben met de personen die hij individueel aanwijst.
 Het verblijfs-, plaats- of contactverbod gaat in vanaf de dag waarop de veroordeling in kracht van gewijsde is getreden. De termijn wordt evenwel verlengd met de tijd waarin de gevangenisstraf of de behandeling onder vrijheidsberoving wordt uitgevoerd, met uitzondering van de periode gedurende dewelke de straf wordt uitgevoerd onder de modaliteit van het elektronisch toezicht en de periodes van voorwaardelijke of voorlopige invrijheidstelling.
 Indien daartoe grond bestaat, kan de strafuitvoeringsrechtbank beslissen een in kracht van gewijsde getreden veroordeling waarbij een verblijfs-, plaats- of contactverbod is opgelegd, te wijzigen door de duur of de omvang van het verbod te beperken, de nadere regels of de voorwaarden ervan aan te passen, het op te schorten of het te beëindigen.
 
-##### Afdeling 7. Veroordeling bij schuldigverklaring
+#### Afdeling 7. Veroordeling bij schuldigverklaring
 
-## Art. 51
+##### Art. 51
 
 Veroordeling bij schuldigverklaring
 Wanneer de rechter van oordeel is dat hij een straf van niveau 2 of van niveau 1 moet uitspreken kan hij de veroordeling bij schuldigverklaring uitspreken, wanneer hij vaststelt dat in het licht van de concrete omstandigheden van de zaak de hem voorgelegde feiten slechts van geringe ernst zijn of dat de tijd die is verstreken sinds het plegen van het misdrijf het uitspreken van een andere straf niet opportuun maakt.
 Wanneer de rechter de veroordeling bij schuldigverklaring uitspreekt, wordt de beklaagde veroordeeld in de kosten en, zo daartoe aanleiding bestaat, tot teruggave.
 Met uitzondering van de verbeurdverklaring en van de verruimde verbeurdverklaring mag de schuldigverklaring niet samen met een andere straf worden uitgesproken.
 
-##### Afdeling 8. Vermogensstraffen
+#### Afdeling 8. Vermogensstraffen
 
-## Art. 52
+##### Art. 52
 
 Geldboete
 § 1. De geldboete kan worden opgelegd, hetzij als hoofdstraf, hetzij als bijkomende straf.
@@ -579,7 +583,7 @@ In geval van veroordeling tot een straf van niveau 2 tot en met 8 kan de rechter
 De rechter kan een geldboete uitspreken beneden het wettelijk minimum indien de beklaagde of de beschuldigde om het even welk element voorlegt dat zijn precaire financiële situatie bewijst.
 De rechter kan beslissen dat de geldboete in schijven zal worden betaald wanneer de omstandigheden van de zaak dit rechtvaardigen.
 
-## Art. 53
+##### Art. 53
 
 Verbeurdverklaring
 § 1. Behoudens wanneer ze als hoofdstraf van niveau 1 wordt uitgesproken, is de verbeurdverklaring een bijkomende straf die de rechter moet uitspreken wanneer hij het misdrijf bewezen verklaart.
@@ -599,7 +603,7 @@ De verbeurdverklaring van de in paragraaf 2, eerste lid, 1° en 2°, bedoelde za
 § 8. Behoudens toepassing van artikel 67, worden de verbeurdverklaarde zaken aan de Schatkist toegekend.
 § 9. Iedere derde die beweert recht te hebben op de verbeurdverklaarde zaak, kan dit recht laten gelden binnen een termijn en volgens de nadere regels bepaald door de Koning.
 
-## Art. 54
+##### Art. 54
 
 Verruimde verbeurdverklaring
 § 1. De vermogensvoordelen, de goederen en waarden die in de plaats ervan zijn gesteld en de inkomsten uit de belegde voordelen die worden gevonden in het vermogen of in het bezit van een persoon, ook indien zij gelokaliseerd zijn buiten het Belgische grondgebied, kunnen op schriftelijke vordering van het openbaar ministerie verbeurdverklaard worden, of die persoon kan worden veroordeeld tot de betaling van een bedrag dat door de rechter wordt geraamd als zijnde overeenstemmend met de waarde van deze zaken indien de betrokkene schuldig werd bevonden:
@@ -626,15 +630,15 @@ Onder verrijking verstaat men de al dan niet tijdelijke vermeerdering van de mid
 § 5. Iedere derde die beweert recht te hebben op de verbeurdverklaarde zaak, kan dit recht laten gelden binnen een termijn en volgens de nadere regels bepaald door de Koning. In dit verband kan hij de rechtmatige herkomst van de zaak aannemelijk maken.
 § 6. Behoudens toepassing van artikel 67, worden de verbeurdverklaarde zaken aan de Schatkist toegekend.
 
-## Art. 55
+##### Art. 55
 
 Geldstraf vastgesteld op basis van het verwachte of uit het misdrijf behaalde voordeel Wanneer het plegen van het misdrijf ertoe strekte rechtstreeks of onrechtstreeks een vermogensvoordeel te behalen en de rechter het bedrag van de door de wet voorziene geldboete als bijkomende straf onvoldoende acht om tot een gepaste bestraffing te komen, kan hij elk van de daders veroordelen tot betaling van een som die overeenstemt met maximum het drievoud van de waarde van het vermogensvoordeel dat de dader of de daders rechtstreeks of onrechtstreeks uit het misdrijf hebben behaald of hoopten te behalen in plaats van de bijkomende geldboete. Deze som wordt geïnd als een geldboete.
 Deze straf kan als hoofdstraf van niveau 1 worden uitgesproken.
 Indien hij een dergelijke straf oplegt, houdt de rechter bij het bepalen van het bedrag ervan rekening met de elementen die door de beklaagde of de beschuldigde worden ingeroepen met betrekking tot zijn financiële draagkracht en zijn sociale toestand.
 
-##### Afdeling 9. Specifieke straffen toepasselijk op de rechtspersonen
+#### Afdeling 9. Specifieke straffen toepasselijk op de rechtspersonen
 
-## Art. 56
+##### Art. 56
 
 Dienstverleningsstraf ten gunste van de gemeenschap
 § 1. Wanneer de rechter van oordeel is dat hij een straf van niveau 1 of 2 moet uitspreken, kan hij de rechtspersoon veroordelen tot een dienstverleningsstraf ten gunste van de gemeenschap als hoofdstraf.
@@ -646,38 +650,38 @@ De rechter legt, binnen de grenzen bepaald voor het misdrijf en door de wet, bij
 § 3. Op de tenuitvoerlegging van de dienstverleningsstraf ten gunste van de gemeenschap wordt toegezien door de strafuitvoeringsrechtbank.
 § 4. Wanneer de dienstverleningsstraf ten gunste van de gemeenschap geheel of gedeeltelijk niet wordt uitgevoerd, kan de strafuitvoeringsrechtbank, op vordering van het openbaar ministerie en na de veroordeelde gehoord te hebben, beslissen dat de vervangende geldboete of een deel ervan ten uitvoer zal worden gelegd, hierbij rekening houdende met het deel van de dienstverleningsstraf ten gunste van de gemeenschap dat de veroordeelde reeds heeft verricht.
 
-## Art. 57
+##### Art. 57
 
 Verbod om een activiteit die deel uitmaakt van het voorwerp uit te oefenen Het verbod een activiteit uit te oefenen die deel uitmaakt van het voorwerp, met uitzondering van de werkzaamheden die behoren tot een opdracht van openbare dienstverlening, kan door de rechter worden uitgesproken, voor een termijn van een jaar tot ten hoogste tien jaar, wanneer de rechtspersoon is veroordeeld wegens een misdrijf.
 De veroordeling wordt overgezonden naar de griffie van de ondernemingsrechtbank en wordt binnen drie maanden, te rekenen vanaf de dag waarop de beslissing in kracht van gewijsde is getreden, op kosten van de veroordeelde bekendgemaakt in het Belgisch Staatsblad.
 Indien nodig kan de strafuitvoeringsrechtbank beslissen een in kracht van gewijsde getreden veroordeling waarbij een verbod om een activiteit die deel uitmaakt van het voorwerp te verrichten is opgelegd, te wijzigen door de duur of de omvang van het verbod te beperken, het op te schorten of het te beëindigen.
 
-##### Afdeling 10. Andere straffen
+#### Afdeling 10. Andere straffen
 
-## Art. 58
+##### Art. 58
 
 Bekendmaking van de beslissing houdende veroordeling
 In de bij wet bepaalde gevallen kan de rechter bevelen dat de beslissing houdende veroordeling volledig of bij uittreksel wordt bekendgemaakt in het Belgisch Staatsblad, in de dagbladen die hij aanwijst, door elk ander communicatiemiddel of door de opname ervan in het Centraal register bedoeld in artikel 782, § 4, van het Gerechtelijk Wetboek op een niet-geanonimiseerde wijze voor een termijn van drie maanden, dit alles op kosten van de veroordeelde.
 
-## Art. 59
+##### Art. 59
 
 Sluiting van de inrichting
 In de bij wet bepaalde gevallen kan de rechter de definitieve gehele of gedeeltelijke sluiting bevelen van de inrichting van de veroordeelde, met uitzondering van de inrichtingen waar werkzaamheden worden verricht die behoren tot een opdracht van openbare dienstverlening. De sluiting van de inrichting houdt het verbod in hierin enige activiteit uit te oefenen gelijkaardig aan die naar aanleiding waarvan het misdrijf werd gepleegd. De sluiting gaat in vanaf de dag waarop de veroordeling in kracht van gewijsde is getreden. Bij gebreke aan vrijwillige sluiting gebeurt deze op initiatief van het openbaar ministerie op kosten van de veroordeelde.
 
-##### Afdeling 11. Straftoemeting
+#### Afdeling 11. Straftoemeting
 
-## Art. 60.Herhaling
+##### Art. 60.Herhaling
 
 Indien de dader wordt vervolgd voor een misdrijf waarop door de wet een straf van niveau 1, 2, 3, 4, 5 of 6 is gesteld, kan deze straf worden verhoogd naar een straf van het onmiddellijk hogere niveau indien op het ogenblik van het plegen van het misdrijf nog geen vijf jaren verlopen waren te rekenen vanaf de dag waarop een vorige veroordeling in kracht van gewijsde is getreden. De termijn van vijf jaar wordt evenwel verlengd met de tijd waarin de gevangenisstraf of behandeling onder vrijheidsberoving wordt uitgevoerd, met uitzondering van de periode gedurende dewelke de straf wordt uitgevoerd onder de modaliteit van het elektronisch toezicht en de periodes van voorwaardelijke of voorlopige invrijheidstelling.
 Indien de dader wordt vervolgd voor een misdrijf waarop door de wet een straf van niveau 7 is gesteld en de dader reeds eerder werd veroordeeld tot een straf van niveau 7 of 8, wordt de minimumstraf gebracht op een gevangenisstraf van tweeëntwintig jaar of een behandeling onder vrijheidsberoving van zeventien jaar.
 (NOTA : bij arrest nr. 14/2026 van 29-01-2026 (AGH 2026-01-29/09, art. 1; Inwerkingtreding : 28-03-2024, B.St. 27-03-2026, p. 18839), heeft het Grondwettelijk Hof dit artikel vernietigd)
 
-## Art. 61
+##### Art. 61
 
 Eendaadse samenloop
 Wanneer eenzelfde feit verscheidene misdrijven oplevert, wordt de hoofdstraf opgelegd binnen het zwaarste strafniveau. De bijkomende straffen worden cumulatief opgelegd binnen de grenzen bepaald door de wet.
 
-## Art. 62
+##### Art. 62
 
 Meerdaadse samenloop
 § 1. Er is meerdaadse samenloop wanneer iemand schuldig wordt bevonden aan verscheidene misdrijven die ieder het gevolg zijn van een verschillend feit en die zijn gepleegd op een ogenblik waarop voor geen van deze feiten een veroordeling is tussengekomen die in kracht van gewijsde is getreden.
@@ -687,14 +691,14 @@ In geval van niet-gelijktijdige berechting houdt de laatst optredende feitenrech
 De bijkomende straffen worden cumulatief opgelegd binnen de grenzen bepaald door de wet.
 § 4. Wanneer de rechter bij wie een zaak laatst is aangebracht, uitspraak doet zonder kennis van de samenloop, vermindert de strafuitvoeringsrechtbank het straftotaal volgens de voorgaande regels.
 
-## Art. 63
+##### Art. 63
 
 Toerekening van de hechtenis voor de einduitspraak
 Wanneer de rechter een andere straf dan een gevangenisstraf uitspreekt, houdt hij bij de keuze van de straf en de bepaling van de strafmaat rekening met de hechtenis die vóór het definitief worden van de veroordeling is ondergaan of de duur van de voorlopige plaatsingsmaatregel in een gesloten opvoedingsafdeling ten aanzien van een minderjarige die een als misdrijf omschreven feit heeft gepleegd.
 
-##### Afdeling 12. Opschorting en uitstel
+#### Afdeling 12. Opschorting en uitstel
 
-## Art. 64
+##### Art. 64
 
 Opschorting van de uitspraak van de ver-oordeling
 § 1. Wanneer de rechter het ten laste gelegd misdrijf waarop een straf van niveau 1, 2, 3, 4, 5 of 6 is gesteld bewezen verklaart, kan hij de opschorting van de uitspraak van de veroordeling gelasten indien de beklaagde hiermee instemt.
@@ -708,7 +712,7 @@ De beslissing tot opschorting maakt een einde aan de vervolging indien zij niet 
 Indien de opschorting wordt herroepen, kan voor het betrokken misdrijf ten hoogste een straf van niveau 3 worden opgelegd.
 De vordering tot herroeping en tot uitspraak van de veroordeling voor het misdrijf dat aanleiding heeft gegeven tot de opschorting verjaart drie volle jaren na de dag waarop de veroordeling wegens het nieuwe misdrijf in kracht van gewijsde is getreden.
 
-## Art. 65
+##### Art. 65
 
 Uitstel van de tenuitvoerlegging van de straffen
 § 1. Wanneer de rechter een straf oplegt die een straf van niveau 3 niet te boven gaat, kan hij bevelen dat de tenuitvoerlegging van de hoofdstraffen of bijkomende straffen die hij uitspreekt volledig of gedeeltelijk wordt uitgesteld.
@@ -728,13 +732,13 @@ Het uitstel kan worden herroepen indien bij een in kracht van gewijsde getreden 
 Het probatie-uitstel kan eveneens worden herroepen in geval van een andere ernstige niet-naleving van de algemene of bijzondere probatievoorwaarden.
 Wanneer het uitstel kan worden herroepen, doet de strafuitvoeringsrechtbank uitspraak over het verzoek tot herroeping ingediend door het openbaar ministerie. Het verzoek tot herroeping wegens ernstige niet-naleving van de probatievoorwaarden moet uiterlijk binnen een jaar na het verstrijken van de proeftijd van het uitstel worden ingesteld. Het verjaart een jaar na de dag waarop zij bij de strafuitvoeringsrechtbank is aangebracht.
 
-#### Hoofdstuk 5. Burgerrechtelijke bepalingen en beveiligingsmaatregelen
+### Hoofdstuk 5. Burgerrechtelijke bepalingen en beveiligingsmaatregelen
 
-## Art. 66
+##### Art. 66
 
 Burgerrechtelijke aansprakelijkheid voor de betaling van een vermogensstraf Niemand kan burgerlijk aansprakelijk worden gesteld voor de betaling van de vermogensstraf waartoe een ander wordt veroordeeld.
 
-## Art. 67
+##### Art. 67
 
 Teruggave en de schadevergoeding
 De veroordeling tot de bij de wet gestelde straffen wordt uitgesproken, onverminderd de teruggave en de schadevergoeding die aan partijen mocht verschuldigd zijn.
@@ -744,43 +748,43 @@ Indien de verbeurdverklaarde zaken aan de burgerlijke partij toebehoren, worden 
 Onverminderd de bepalingen inzake de verbeurdverklaring, beveelt de rechter ambtshalve de teruggave van de goederen die aan de eigenaar werden ontnomen of de toewijzing aan hem van de goederen of waarden die door de veroordeelde in de plaats van deze goederen werden gesteld. Daarnaast beoogt de teruggave de materiële gevolgen van het bewezen verklaarde misdrijf teniet te doen, met als doel het herstel van de feitelijke toestand zoals die bestond vóór het plegen van het bewezen verklaarde misdrijf.
 Indien het slachtoffer zich nog geen burgerlijke partij had gesteld op het moment van de uitspraak van de verbeurdverklaring van een geldsom die overeenstemt met het goed dat zijn eigendom was, beschikt hij over een schuldvordering tegenover de Staat ten belope van het bedrag dat door de veroordeelde ter uitvoering van deze straf werd betaald en die zal worden verrekend met de later toegekende schadevergoeding.
 
-## Art. 68
+##### Art. 68
 
 Hoofdelijkheid
 Alle wegens eenzelfde misdrijf veroordeelde personen zijn hoofdelijk gehouden tot de kosten, wanneer zij door eenzelfde vonnis of arrest zijn veroordeeld.
 Nochtans kan de rechter alle veroordeelden of een van hen vrijstellen van de hoofdelijkheid, mits hij de redenen van die vrijstelling opgeeft en het door ieder van hen persoonlijk te dragen aandeel in de gerechtskosten bepaalt.
 Personen, door onderscheiden vonnissen of arresten veroordeeld, zijn alleen wegens daden van vervolging die hun gemeen zijn, hoofdelijk gehouden tot de kosten.
 
-## Art. 69
+##### Art. 69
 
 Voorrangsregeling
 Wanneer de goederen van de veroordeelde ontoereikend zijn om de veroordelingen tot geldboete, geldstraf vastgesteld op basis van het verwachte of uit het misdrijf behaalde voordeel, verbeurdverklaring, gerechtskosten, teruggave en schadevergoeding te dekken, hebben de teruggave en schadevergoeding de voorrang in de volgorde van kwijting. Bij samentreffen van geldboete, geldstraf vastgesteld op basis van het verwachte of uit het misdrijf behaalde voordeel of verbeurdverklaring, en aan de Staat verschuldigde gerechtskosten, worden de betalingen, door de veroordeelde gedaan, het eerst op die gerechtskosten toegerekend. Deze betalingen stuiten de verjaringstermijn van zowel de geldboete, de geldstraf vastgesteld op basis van het verwachte of uit het misdrijf behaalde voordeel en de verbeurdverklaring, als van de gerechtskosten.
 
-## Art. 70
+##### Art. 70
 
 Verbeurdverklaring als beveiligingsmaatregel
 De rechter die over de grond van de zaak oordeelt, beveelt, zelfs ambtshalve, de vernietiging of verbeurdverklaring van zaken waarvan het bezit strijdig is met de openbare orde, de openbare veiligheid of volksgezondheid of met de goede zeden.
 De vernietiging of verbeurdverklaring wordt zelfs uitgesproken indien deze goederen niet de eigendom zijn van de veroordeelde, indien de beklaagde of de beschuldigde wordt vrijgesproken of overleden is, wanneer de dader onbekend is gebleven of indien de strafvordering vervallen of onontvankelijk is.
 
-## Art. 71
+##### Art. 71
 
 Ontbinding van de rechtspersoon
 De ontbinding kan door de rechter worden uitgesproken als beveiligingsmaatregel, wanneer de rechtspersoon opzettelijk is opgericht om de strafbare werkzaamheden te verrichten waarvoor hij werd veroordeeld of wanneer hij opzettelijk van zijn voorwerp is afgewend om dergelijke werkzaamheden te verrichten. De ontbinding kan niet worden uitgesproken ten aanzien van een publiekrechtelijke rechtspersoon.
 Wanneer de rechter de ontbinding uitspreekt, verwijst hij de zaak naar het gerecht dat bevoegd is kennis te nemen van de vereffening van de rechtspersoon.
 
-## Art. 72
+##### Art. 72
 
 Onwaardigheid om te erven
 In de bij wet bepaalde gevallen kan de rechter ook de onwaardigheid om te erven uitspreken, waardoor de dader van de nalatenschap van het slachtoffer wordt uitgesloten.
 
-#### Hoofdstuk 6. Tenietgaan en verjaring van straffen en van burgerlijke veroordelingen
+### Hoofdstuk 6. Tenietgaan en verjaring van straffen en van burgerlijke veroordelingen
 
-## Art. 73
+##### Art. 73
 
 Dood van de veroordeelde
 Straffen, uitgesproken bij onherroepelijk geworden arresten of vonnissen, gaan teniet door de dood van de veroordeelde. Het verlies van rechtspersoonlijkheid van de veroordeelde rechtspersoon doet de straf niet tenietgaan.
 
-## Art. 74
+##### Art. 74
 
 Verjaring van de straf
 § 1. Behalve straffen uitgesproken voor de misdaad van genocide, misdaden tegen de mensheid en oorlogsmisdaden, verjaren straffen van niveau 7 en 8 door verloop van twintig jaar, te rekenen vanaf de dag waarop de veroordeling in kracht van gewijsde is getreden.
@@ -790,23 +794,23 @@ De verjaring van de straf kan worden gestuit door elke daad die een begin van ef
 De verjaring van de straf wordt geschorst wanneer de wet dit bepaalt of wanneer er een wettelijk beletsel is dat de tenuitvoerlegging van de straf verhindert.
 § 2. De verjaring van de vermogensstraffen wordt eveneens gestuit door elke handeling gesteld door een bevoegde overheid met het oog op de uitvoering van deze straffen.
 
-## Art. 75
+##### Art. 75
 
 Verjaring van burgerrechtelijke veroordelingen
 Burgerrechtelijke veroordelingen, uitgesproken bij arresten of vonnissen gewezen in strafzaken, verjaren volgens de regels van het burgerlijk recht, te rekenen van de dag waarop zij in kracht van gewijsde zijn getreden.
 De onwaardigheid om te erven, door de rechter uitgesproken op grond van artikel 72 verjaart niet. Ze kan opgeheven worden door vergiffenis, door het slachtoffer geschonken overeenkomstig artikel 4.7 van het Burgerlijk Wetboek.
 
-#### Hoofdstuk 7. Diverse bepalingen
+### Hoofdstuk 7. Diverse bepalingen
 
-## Art. 76
+##### Art. 76
 
 Gevolgen van de veroordelingen uitgesproken in een andere lidstaat van de Europese Unie De veroordelingen uitgesproken door de strafgerechten van een andere lidstaat van de Europese Unie worden in aanmerking genomen onder dezelfde voorwaarden als de veroordelingen uitgesproken door de Belgische strafgerechten en hebben dezelfde rechtsgevolgen als deze veroordelingen. Indien de wet bepaalde vereisten stelt aan de door deze veroordeling opgelegde straf, wordt elke gelijkwaardige straf in aanmerking genomen.
 
-## Art. 77
+##### Art. 77
 
 Toepassing van de bepalingen van dit boek op boek II en de bijzondere wetten Bij gebreke van andersluidende bepalingen in boek II en in de bijzondere wetten en verordeningen, worden de bepalingen van dit boek toegepast op de misdrijven die bij boek II alsook bij die bijzondere wetten en verordeningen strafbaar zijn gesteld.
 
-## Art. 78
+##### Art. 78
 
 Omzetting en bepaling van de strafmaat in bijzondere wetten die geen strafniveau bepalen
 § 1. Indien de hoofdstraf in de bijzondere strafwet of in de uitvoering van de bijzondere strafwetten niet is omschreven als een straf van niveau 1 tot 8, moet de in de wet bepaalde straf als volgt worden gelezen:
@@ -830,51 +834,51 @@ Indien het maximum van de hoofdstraf bestaat uit een gevangenisstraf van ten hoo
 Indien de bijzondere strafwet verwijst naar "wanbedrijven", zonder dat hierbij enige verwijzing wordt gemaakt naar een concrete strafmaat, moet dit worden gelezen als "misdrijven waarop een straf van niveau 1, 2 of 3 is gesteld".
 § 8. Behoudens indien de wet anders bepaalt, moet in de wettelijke bepalingen die voor hun toepassing verwijzen naar een strafdrempel van een gevangenisstraf van minimum een jaar, deze verwijzing worden gelezen als een verwijzing naar een gevangenisstraf van niveau 2, bepaald door artikel 36."
 
-#### HOOFDSTUK 3. - Wijzigingsbepalingen
+### HOOFDSTUK 3. - Wijzigingsbepalingen
 
-##### Afdeling 1. - Wijzigingen van het Militair Strafwetboek
+#### Afdeling 1. - Wijzigingen van het Militair Strafwetboek
 
-## Art. 3
+##### Art. 3
 
 In het Militair Strafwetboek wordt een artikel 14quinquies ingevoegd, luidende: "Art. 14quinquies. Personen die niet aan de militaire strafwetten zijn onderworpen op basis van de bepalingen van dit hoofdstuk, kunnen worden veroordeeld als deelnemer aan een misdrijf omschreven in dit Wetboek.
 De bepalingen van boek I van het Strafwetboek zijn op hen van toepassing.
 De militaire gevangenisstraf en de afzetting, die als hoofdstraf wordt opgelegd, worden voor hen vervangen door een straf van niveau 2.".
 
-## Art. 4
+##### Art. 4
 
 In hetzelfde Wetboek wordt in "Hoofdstuk IX - Algemene bepalingen" een artikel 57ter ingevoegd, luidende: "Art. 57ter. Behalve wat betreft de misdrijven bepaald in boek II, titel 1, van het Strafwetboek is er geen misdrijf wanneer een lid van de Krijgsmacht gebruikmaakt van dwangmaatregelen of van gewapend geweld of daartoe het bevel geeft, met eerbiediging van het internationaal recht, wanneer dat nodig is voor de uitvoering van zijn opdracht, bij een operationele inzet die plaatsvindt buiten het Belgisch grondgebied of buiten de Belgische territoriale wateren, alsook bij een militaire operatie in volle zee.".
 
-##### Afdeling 2. - Wijziging van de Voorafgaande Titel van het Wetboek van Strafvordering
+#### Afdeling 2. - Wijziging van de Voorafgaande Titel van het Wetboek van Strafvordering
 
-## Art. 5
+##### Art. 5
 
 In artikel 5ter van de Voorafgaande Titel van het Wetboek van Strafvordering, ingevoegd bij wet van 19 december 2002 en gewijzigd bij de wet van 10 augustus 2005, worden de volgende wijzigingen aangebracht:
 1° in de bestaande tekst die het eerste lid zal vormen, worden de woorden "in de artikelen 42, 3°, 43bis en 43quater van het Strafwetboek" vervangen door de woorden "in artikel 53, § 2, eerste lid, 4° en tweede lid, § 3, § 4, § 6 en § 9, in artikel 54 en in artikel 67, vierde tot zesde lid, van het Strafwetboek" en de woorden "in artikel 42,
 1°, " vervangen door de woorden "in artikel 53, § 2, eerste lid, 1° en 2°, ";
 2° een tweede lid wordt ingevoegd, luidende: "Elke belanghebbende derde die volgens de door de rechtspleging verschafte aanwijzingen krachtens zijn rechtmatig bezit rechten kan doen gelden op de inrichting die in aanmerking komt voor sluiting op grond van artikel 59 van het Strafwetboek, wordt op de hoogte gebracht van de rechtsdag voor het gerecht dat zal vonnissen over de grond van de zaak. Bij gebreke van dergelijke kennisgeving kan de rechter de sluiting van de inrichting niet uitspreken.".
 
-##### Afdeling 3. - Wijzigingen van het Wetboek van Strafvordering
+#### Afdeling 3. - Wijzigingen van het Wetboek van Strafvordering
 
-## Art. 6
+##### Art. 6
 
 In artikel 35, § 1, van het Wetboek van Strafvordering, laatstelijk gewijzigd bij de wet van 10 mei 2007, worden de woorden "de artikelen 42 en 43quater" vervangen door de woorden "de artikelen 53, § 2, eerste lid en 54".
 
-## Art. 7
+##### Art. 7
 
 In artikel 35ter, § 1, eerste lid, van hetzelfde Wetboek, ingevoegd bij de wet van 19 december 2002 en vervangen bij de wet van 5 februari 2016, worden de woorden "de artikelen 42, 3°, of 43quater, § 2" vervangen door de woorden "de artikelen 53, § 2, eerste lid, 4°, of 54, § 2".
 
-## Art. 8
+##### Art. 8
 
 In artikel 216/5, § 1, van hetzelfde Wetboek, ingevoegd bij de wet van 22 juli 2018, worden de volgende wijzigingen aangebracht:
 1° in het eerste lid, 1°, worden de woorden "de artikelen 80 en 81" vervangen door de woorden "artikel 36 of 38";
 2° in het eerste lid, wordt de bepaling onder 2° opgeheven;
 3° in het tweede lid, worden de woorden "in de artikelen 31 tot 34" vervangen door de woorden "in de artikelen 47 en 48".
 
-## Art. 9
+##### Art. 9
 
 In artikel 216bis, § 2, elfde lid, van hetzelfde Wetboek, ingevoegd bij de wet van 28 juni 1984, vervangen bij de wet van 14 april 2011 en gewijzigd bij de wet van 18 maart 2018, worden de woorden "onverminderd artikel 50, derde lid" vervangen door de woorden "onverminderd artikel 68, tweede lid".
 
-## Art. 10
+##### Art. 10
 
 Artikel 216novies van hetzelfde Wetboek, ingevoegd bij wet van 21 december 2009, wordt vervangen als volgt: "Art. 216novies. Het hof van assisen neemt kennis van de criminele zaken. De criminele zaken zijn de zaken met betrekking tot:
 1° de misdrijven waarop een straf van niveau 8 is gesteld;
@@ -883,127 +887,127 @@ Artikel 216novies van hetzelfde Wetboek, ingevoegd bij wet van 21 december 2009,
 4° de aantasting van seksuele integriteit en verkrachting met de dood tot gevolg, bedoeld in artikel 139 van het Strafwetboek;
 5° de gijzeling met de dood tot gevolg, bedoeld in artikel 228 van het Strafwetboek.".
 
-## Art. 11
+##### Art. 11
 
 In artikel 524bis, § 1, van hetzelfde Wetboek, ingevoegd bij de wet van 19 december 2002 en gewijzigd bij de wetten van 18 maart 2018 en van 28 november 2021, worden de volgende wijzigingen aangebracht:
 1° in het eerste lid, worden de woorden "in artikel 42, 3°, artikel 43bis en 43quater," worden vervangen door de woorden "in artikel 53, § 2, eerste lid, 4°, en tweede lid, en artikel 54,";
 2° in het tweede lid, worden de woorden "in artikel 43quater, § 1" vervangen door de woorden "in artikel 54, § 1".
 
-## Art. 12
+##### Art. 12
 
 In artikel 590, eerste lid, 5°, van hetzelfde Wetboek, hersteld bij de wet van 8 augustus 1997 en vervangen bij de wet van 26 april 2007, worden de woorden "de artikelen 34bis tot en met 34quater" vervangen door de woorden "artikel 42 van de wet van 29 februari 2024 tot invoering van boek I van het Strafwetboek".
 
-## Art. 13
+##### Art. 13
 
 In artikel 594, eerste lid, van hetzelfde Wetboek, hersteld bij de wet van 8 augustus 1997 en laatstelijk gewijzigd bij de wet van 18 maart 2018, worden de volgende wijzigingen aangebracht:
 1° in de bepaling onder 4°, worden de woorden "overeenkomstig artikel 37quinquies" vervangen door de woorden "overeenkomstig artikel 45";
 2° in de bepaling onder 5°, worden de woorden "overeenkomstig artikel 37ter" vervangen door de woorden "overeenkomstig artikel 43";
 3° in de bepaling onder 6°, worden de woorden "autonome probatiestraf overeenkomstig artikel 37octies" vervangen door de woorden "probatiestraf overeenkomstig artikel 44".
 
-## Art. 14
+##### Art. 14
 
 In artikel 626, eerste en tweede lid, van hetzelfde Wetboek, vervangen bij de wet van 7 april 1964 en laatstelijk gewijzigd bij de wet van 25 april 2014, worden de woorden "overeenkomstig de artikelen 54 tot 57bis van het Strafwetboek of indien hij ter beschikking van de strafuitvoeringsrechtbank is gesteld ingevolge de artikelen 34bis, 34ter of 34quater van het Strafwetboek" telkens vervangen door de woorden "overeenkomstig artikel 60 van het Strafwetboek of indien hij onderworpen is aan verlengde opvolging op grond van artikel 42 van de wet van 29 februari 2024 tot invoering van boek I van het Strafwetboek".
 
-##### Afdeling 4. - Wijziging van de wet van 24 februari 1921 betreffende het verhandelen van giftstoffen, slaapmiddelen en verdovende middelen, psychotrope stoffen, ontsmettingsstoffen en antiseptica en van de stoffen die kunnen gebruikt worden voor de illegale vervaardiging van verdovende middelen en psychotrope stoffen
+#### Afdeling 4. - Wijziging van de wet van 24 februari 1921 betreffende het verhandelen van giftstoffen, slaapmiddelen en verdovende middelen, psychotrope stoffen, ontsmettingsstoffen en antiseptica en van de stoffen die kunnen gebruikt worden voor de illegale vervaardiging van verdovende middelen en psychotrope stoffen
 
-## Art. 15
+##### Art. 15
 
 Artikel 4, § 6, van de wet van 24 februari 1921 betreffende het verhandelen van giftstoffen, slaapmiddelen en verdovende middelen, psychotrope stoffen, ontsmettingsstoffen en antiseptica en van de stoffen die kunnen gebruikt worden voor de illegale vervaardiging van verdovende middelen en psychotrope stoffen, vervangen bij de wet van 9 juli 1975 en gewijzigd bij de wetten van 14 juli 1994 en 3 mei 2003, wordt aangevuld met de volgende zin: "Onroerende goederen die hebben gediend of die bestemd waren om de in de artikelen 2, 2°, 2bis, 2quater en 3 bedoelde misdrijven te plegen mogen worden verbeurdverklaard, ook al zijn ze geen eigendom van de veroordeelde, onverminderd de rechten die derden te goeder trouw hierop kunnen laten gelden.".
 
-##### Afdeling 5. - Wijzigingen van het Gerechtelijk wetboek
+#### Afdeling 5. - Wijzigingen van het Gerechtelijk wetboek
 
-## Art. 16
+##### Art. 16
 
 *Artikel 92bis van het Gerechtelijk Wetboek, ingevoegd bij de wet van 17 maart 2013 en laatstelijk gewijzigd bij de wet van 11 juli 2018, wordt vervangen als volgt: "Art. 92bis. In strafuitvoeringszaken worden de zaken betreffende een veroordeling tot een gevangenisstraf van dertig jaar of een levenslange vrijheidsstraf, met een terbeschikkingstelling van de strafuitvoeringsrechtbank, overeenkomstig artikel 42 van de wet van 29 februari 2024 tot invoering van boek I van het Strafwetboek, toegewezen aan de overeenkomstig artikel 78, vijfde lid, samengestelde kamers.".
 
-## Art. 17
+##### Art. 17
 
 In artikel 699 van hetzelfde Wetboek, gewijzigd bij de wet van 26 juni 2000, worden de volgende wijzigingen aangebracht:
 1° in het eerste lid, worden de woorden "gevangenisstraf van acht dagen tot een jaar en met geldboete van 100 euro tot 5000 euro, of met een van die straffen alleen" vervangen door de woorden "straf van niveau 2";
 2° het tweede lid wordt opgeheven.
 
-## Art. 18
+##### Art. 18
 
 In artikel 1270 van hetzelfde Wetboek, gewijzigd bij de wet van 26 juni 2000, worden de volgende wijzigingen aangebracht:
 1° in het eerste lid, worden de woorden "geldboete van honderd euro tot tweeduizend euro en van gevangenis van acht dagen tot zes maanden of van een van die straffen alleen" vervangen door de woorden "straf van niveau 1";
 2° het tweede lid wordt opgeheven.
 
-## Art. 19
+##### Art. 19
 
 In artikel 1389bis/18 van hetzelfde Wetboek, ingevoegd bij de wet van 29 mei 2000, worden de woorden "met inbegrip van hoofdstuk VII en artikel 85, doch met uitzondering van hoofdstuk V" vervangen door de woorden "met uitzondering van artikel 60".
 
-## Art. 20
+##### Art. 20
 
 In artikel 1394/17 van hetzelfde Wetboek, ingevoegd bij de wet van 12 mei 2014, worden de woorden "met inbegrip van hoofdstuk VII en artikel 85, doch met uitzondering van hoofdstuk V" vervangen door de woorden "met uitzondering van artikel 60".
 
-## Art. 21
+##### Art. 21
 
 In artikel 1411bis, § 5, van hetzelfde Wetboek, ingevoegd bij de wet van 27 december 2005, worden de volgende wijzigingen aangebracht:
 1° in het eerste lid, worden de woorden "geldboete van 200 euro tot 5.000 euro" vervangen door de woorden "een straf van niveau 1".
 2° in het derde lid, worden de woorden "geldboete van 200 euro tot 5.000 euro" vervangen door de woorden "een straf van niveau 1";
 3° het laatste lid wordt opgeheven.
 
-##### Afdeling 6. - Wijzigingen van de wet van 17 mei 2006 betreffende de externe rechtspositie van de veroordeelden tot een vrijheidsstraf en de aan het slachtoffer toegekende rechten in het raam van de strafuitvoeringsmodaliteiten
+#### Afdeling 6. - Wijzigingen van de wet van 17 mei 2006 betreffende de externe rechtspositie van de veroordeelden tot een vrijheidsstraf en de aan het slachtoffer toegekende rechten in het raam van de strafuitvoeringsmodaliteiten
 
-## Art. 22
+##### Art. 22
 
 In artikel 54, § 2, eerste lid, van de wet van 17 mei 2006 betreffende de externe rechtspositie van de veroordeelden tot een vrijheidsstraf en de aan het slachtoffer toegekende rechten in het raam van de strafuitvoeringsmodaliteiten, ingevoegd bij de wet van 17 maart 2013 en gewijzigd bij de wet van 21 december 2017, worden de woorden "de artikelen 34ter of 34quater van het Strafwetboek" vervangen door de woorden "artikel 42 van de wet van 29 februari 2024 tot invoering van boek I van het Strafwetboek".
 
-## Art. 23
+##### Art. 23
 
 In artikel 64, 1°, van dezelfde wet, vervangen bij de wet van 25 april 2014, worden de woorden "artikel 99bis van het Strafwetboek" vervangen door de woorden "artikel 76 van het Strafwetboek".
 
-## Art. 24
+##### Art. 24
 
 In artikel 68, § 5, vierde lid, van dezelfde wet, ingevoegd bij de wet van 5 februari 2016, worden de woorden "de artikelen 34ter of 34quater van het Strafwetboek" vervangen door de woorden "artikel 42 van de wet van 29 februari 2024 tot invoering van boek I van het Strafwetboek".
 
-## Art. 25
+##### Art. 25
 
 In artikel 71 van dezelfde wet, laatstelijk gewijzigd bij wet van 28 november 2021, wordt tussen het vierde en het vijfde lid een lid ingevoegd, luidende: "Indien de veroordeelde naast de gevangenisstraf of behandeling onder vrijheidsberoving ook een verlengde opvolging bedoeld in artikel 46 van het Strafwetboek werd opgelegd, kan de proeftijd niet korter zijn dan de duur van de verlengde opvolging.".
 
-## Art. 26
+##### Art. 26
 
 In artikel 76, § 1, 1°, van dezelfde wet, laatstelijk gewijzigd bij de wet van 5 februari 2016, worden de woorden "artikel 99bis van het Strafwetboek" vervangen door de woorden "artikel 76 van het Strafwetboek".
 
-## Art. 27
+##### Art. 27
 
 In artikel 95/2, § 1, van dezelfde wet, ingevoegd bij de wet van 26 april 2007 en gewijzigd bij de wet van 25 april 2014, worden de woorden "de artikelen 34bis tot en met 34quater van het Strafwetboek" vervangen door de woorden "artikel 42 van de wet van 29 februari 2024 tot invoering van boek I van het Strafwetboek".
 
-## Art. 28
+##### Art. 28
 
 In artikel 95/27, § 1, 1°, van dezelfde wet, ingevoegd bij de wet van 26 april 2007 en vervangen bij de wet van 25 april 2014, worden de woorden "artikel 99bis van het Strafwetboek" vervangen door de woorden "artikel 76 van het Strafwetboek".
 
-## Art. 29
+##### Art. 29
 
 In artikel 95/28 van dezelfde wet, ingevoegd bij de wet van 26 april 2007, worden de woorden "de artikelen 34bis tot en met 34quater van het Strafwetboek" vervangen door de woorden "artikel 42 van de wet van 29 februari 2024 tot invoering van boek I van het Strafwetboek".
 
-##### Afdeling 7. - Wijzigingen van het Wetboek van economisch recht
+#### Afdeling 7. - Wijzigingen van het Wetboek van economisch recht
 
-## Art. 30
+##### Art. 30
 
 In artikel XI.66, § 1, eerste lid, van het Wetboek van economisch recht, ingevoegd bij de wet van 19 april 2014 en vervangen bij de wet van 8 juli 2018, worden de woorden "in de artikelen 31 tot 34" vervangen door de woorden "in artikel 47".
 
-## Art. 31
+##### Art. 31
 
 In artikel XV.69 van hetzelfde Wetboek, ingevoegd bij de wet van 20 november 2013 en gewijzigd bij de wet van 26 oktober 2015, worden de woorden ", met inbegrip van hoofdstuk VII en van artikel 85," opgeheven.
 
-## Art. 32
+##### Art. 32
 
 In artikel XV.130 van hetzelfde Wetboek, ingevoegd bij de wet van 20 november 2013 en gewijzigd bij de wet van 19 april 2014, worden de woorden "van de artikelen 42 tot en met 43quater" telkens vervangen door de woorden "van de artikelen 53 en 54".
 
-## Art. 33
+##### Art. 33
 
 In artikel XV.130/4 van hetzelfde Wetboek, ingevoegd bij de wet van 19 april 2014, worden de woorden "van artikel 43" vervangen door de woorden "van artikel 53, § 1".
 
-## Art. 34
+##### Art. 34
 
 In artikel XX.234, van hetzelfde Wetboek, ingevoegd bij de wet van 11 augustus 2017, worden de volgende wijzigingen aangebracht:
 1° in het eerste lid, worden de woorden "gevangenisstraf van drie maanden tot twee jaren en met geldboete van 25 euro tot 250 euro." vervangen door de woorden "straf van niveau 2";
 2° het tweede lid wordt opgeheven.
 
-#### HOOFDSTUK 4. - Opheffingsbepalingen
+### HOOFDSTUK 4. - Opheffingsbepalingen
 
-## Art. 35
+##### Art. 35
 
 De hierna opgesomde bepalingen worden opgeheven:
 1° boek I van het Strafwetboek van 8 juni 1867;
@@ -1016,13 +1020,13 @@ De hierna opgesomde bepalingen worden opgeheven:
 8° de artikelen 25 en 26 van de wet van 10 mei 2007 ter bestrijding van bepaalde vormen van discriminatie;
 9° de artikelen 30 en 31 van de wet van 10 mei 2007 ter bestrijding van discriminatie tussen vrouwen en mannen.
 
-#### HOOFDSTUK 5. - Overgangsbepalingen en inwerkingtredingsbepalingen
+### HOOFDSTUK 5. - Overgangsbepalingen en inwerkingtredingsbepalingen
 
-## Art. 36
+##### Art. 36
 
 Tot de inwerkingtreding van artikel 46 van het Strafwetboek moeten de verwijzingen naar "de verlengde opvolging" in het Strafwetboek worden gelezen als verwijzingen naar "de terbeschikkingstelling van de strafuitvoeringsrechtbank", zoals geregeld door artikel 37 van deze wet.
 
-## Art. 37
+##### Art. 37
 
 § 1. De terbeschikkingstelling van de strafuitvoeringsrechtbank is een bijkomende straf die in de in paragraaf 2 bepaalde gevallen kan of moet worden uitgesproken, met het oog op de bescherming van de maatschappij.
 De terbeschikkingstelling van de strafuitvoeringsrechtbank maakt het voor de strafuitvoeringsrechtbank mogelijk om de veroordeelde verder van zijn vrijheid te beroven na de uitvoering van de gevangenisstraf of de behandeling onder vrijheidsberoving of om hem verder te onderwerpen aan strafuitvoeringsmodaliteiten.
@@ -1038,7 +1042,7 @@ e) een terroristisch misdrijf in de zin van artikel 371 van het Strafwetboek, wa
 De terbeschikkingstelling van de strafuitvoeringsrechtbank gaat in na afloop van de vrijheidsberovende straf.
 § 4. De strafdossiers met betrekking tot de eerdere veroordelingen die als grondslag worden ingeroepen voor de terbeschikkingstelling van de strafuitvoeringsrechtbank worden aan het dossier gevoegd. Indien het gaat om een veroordeling bedoeld in artikel 76 van het Strafwetboek wordt een voor eensluidend verklaard afschrift van de betrokken beslissing aan het dossier gevoegd.
 
-## Art. 38.Deze
+##### Art. 38.Deze
 
 wet treedt in werking [1 op 1 september 2026]1, met uitzondering van de artikelen 42 en 46 van het Strafwetboek en artikel 25 van deze wet die in werking treden op 1 januari 2035.
 De Koning kan voor de artikelen 42 en 46 van het Strafwetboek en artikel 25 van deze wet een datum van inwerkingtreding bepalen voorafgaand aan de datum vermeld in het eerste lid.

@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 55 van 9 maart 2007, met betrekking tot de regeling voor belastingplichtingen die een BTW-eenheid vormen

@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen

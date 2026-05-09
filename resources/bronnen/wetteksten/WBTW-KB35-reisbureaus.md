@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf van heffing van de belasting over de toegevoegde waarde op de winstmarge van reisbureaus

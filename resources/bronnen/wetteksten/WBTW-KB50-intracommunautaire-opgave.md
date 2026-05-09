@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 3
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 50 van 11 december 2019, met betrekking tot de btw-opgave van de intracommunautaire handelingen
@@ -43,19 +47,19 @@ pg. 116117, nr. Numac: 2019031045))
 
     Inhoudstafel
 
-#### Hoofdstuk 1. Deel 1 van de opgave met betrekking tot de intracommunautaire leveringen en
+## Hoofdstuk 1. Deel 1 van de opgave met betrekking tot de intracommunautaire leveringen en
     diensten
 
-#### Hoofdstuk 2. Deel 2 van de opgave met betrekking tot de intracommunautaire handelingen
+## Hoofdstuk 2. Deel 2 van de opgave met betrekking tot de intracommunautaire handelingen
 
-#### Hoofdstuk 3. Slotbepalingen
+## Hoofdstuk 3. Slotbepalingen
 Bijlage: Btw-opgave van de intracommunautaire handelingen
 
-#### Hoofdstuk 1
+## Hoofdstuk 1
 ## Deel 1 van de opgave met betrekking tot de intracommunautaire
     leveringen en diensten
 
-## Art. 1
+### Art. 1
 (De tekst van K.B. nr. 50 (2019), artikel 1, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
@@ -108,7 +112,7 @@ genoemd, waarin de volgende gegevens voorkomen:
 
     d) de diensten als bedoeld in 1°, e).
 
-## Art. 2
+### Art. 2
 (De tekst van K.B. nr. 50 (2019), artikel 2, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
@@ -119,7 +123,7 @@ Financiën of zijn gemachtigde.
 Indien meerdere bedragen moeten worden opgenomen voor eenzelfde persoon, dient voor ieder
 aangegeven bedrag zijn in artikel 1, 1°, bedoeld identificatienummer te worden vermeld.
 
-## Art. 3
+### Art. 3
 (De tekst van K.B. nr. 50 (2019), artikel 3, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
@@ -128,7 +132,7 @@ bedoelde bedragen tot het passende beloop herzien. Het bedrag van de herziening 
 in deel 1 van de intracommunautaire opgave met betrekking tot het tijdvak waarin een document
 wordt uitgereikt dat de herziening van de maatstaf van heffing ter kennis brengt.
 
-## Art. 4
+### Art. 4
 (De tekst van K.B. nr. 50 (2019), artikel 4, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
@@ -148,7 +152,7 @@ bepaald.
 Onder materiële vergissing wordt verstaan elke vergissing die geen aanleiding geeft tot de uitreiking
 van een document dat de herziening van de maatstaf van heffing ter kennis brengt.
 
-## Art. 5
+### Art. 5
 (De tekst van K.B. nr. 50 (2019), artikel 5, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
@@ -177,7 +181,7 @@ bedoelde gegevens met betrekking tot het verstreken kalenderjaar bevat.
 Wanneer een in het eerste lid bedoelde belastingplichtige die hoedanigheid verliest, dient hij deel 1
 van zijn intracommunautaire opgave in binnen drie maanden vanaf dit verlies.
 
-## Art. 6
+### Art. 6
 (De tekst van K.B. nr. 50 (2019), artikel 6, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
@@ -211,14 +215,14 @@ Wetboek:
 intracommunautaire opgave bedoeld in artikel 9, eerste lid, indienen, het deel 1 van die opgave
 eveneens langs elektronische weg in overeenkomstig paragraaf 1.
 
-## Art. 7
+### Art. 7
 (De tekst van K.B. nr. 50 (2019), artikel 7, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
 ## Deel 1 van de intracommunautaire opgave moet niet worden ingediend wanneer er geen enkel
 gegeven bedoeld in de artikelen 1, 3 en 4 moet worden opgenomen.
 
-## Art. 8
+### Art. 8
 (De tekst van K.B. nr. 50 (2019), artikel 8, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
@@ -228,11 +232,11 @@ documenten om te kunnen voldoen aan de voorschriften van de artikelen 1 tot 7 en
 op de naleving ervan, zoals, per klant, een dubbel van alle facturen die zij uitreiken of documenten
 die betrekking hebben op de handelingen die in deel 1 van de opgave moeten worden vermeld.
 
-#### HOOFDSTUK 2
+## HOOFDSTUK 2
 ## Deel 2 van de opgave met betrekking tot de
     intracommunautaire handelingen
 
-## Art. 9
+### Art. 9
 (De tekst van K.B. nr. 50 (2019), artikel 9, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
@@ -263,7 +267,7 @@ tevens het btw-identificatienummer opgenomen dat werd toegekend door de lidstaat
 van de goederen die werden verzonden of vervoerd onder de regeling inzake voorraad op afroep aan
 de belastingplichtige voor wie de goederen voorheen bestemd waren.
 
-## Art. 10
+### Art. 10
 (De tekst van K.B. nr. 50 (2019), artikel 10, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
@@ -283,7 +287,7 @@ bepaald.
 Onder materiële vergissing wordt verstaan elke vergissing die geen aanleiding geeft tot de uitreiking
 van een document dat de herziening van de maatstaf van heffing ter kennis brengt.
 
-## Art. 11
+### Art. 11
 (De tekst van K.B. nr. 50 (2019), artikel 11, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
@@ -313,7 +317,7 @@ met betrekking tot het verstreken kalenderjaar bevat.
 Wanneer een in het eerste lid bedoelde belastingplichtige die hoedanigheid verliest, dient hij deel 2
 van zijn intracommunautaire opgave in binnen drie maanden vanaf dit verlies.
 
-## Art. 12
+### Art. 12
 (De tekst van K.B. nr. 50 (2019), artikel 12, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
@@ -322,14 +326,14 @@ overdracht van de informatie bedoeld in de artikelen 9 en 10 op het elektronisch
 gecreëerd werd en onder de door de Minister van Financiën of zijn gemachtigde gestelde
 voorwaarden.
 
-## Art. 13
+### Art. 13
 (De tekst van K.B. nr. 50 (2019), artikel 13, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
 ## Deel 2 van de intracommunautaire opgave moet niet worden ingediend wanneer er geen enkel
 gegeven bedoeld in de artikelen 9 en 10 moet worden in opgenomen.
 
-## Art. 14
+### Art. 14
 (De tekst van K.B. nr. 50 (2019), artikel 14, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
@@ -347,23 +351,23 @@ Dit koninklijk besluit voorziet in de omzetting van:
     bepaalde regels in het btw-stelsel voor de belastingheffing in het handelsverkeer tussen de
     lidstaten.
 
-#### HOOFDSTUK 3
+## HOOFDSTUK 3
     Slotbepalingen
 
-## Art. 15
+### Art. 15
 (De tekst van K.B. nr. 50 (2019), artikel 15, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
 Het koninklijk besluit nr. 50 van 9 december 2009 met betrekking tot de btw-opgave van de
 intracommunautaire handelingen wordt opgeheven.
 
-## Art. 16
+### Art. 16
 (De tekst van K.B. nr. 50 (2019), artikel 16, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
 Dit besluit treedt in werking op 1 januari 2020.
 
-## Art. 17
+### Art. 17
 (De tekst van K.B. nr. 50 (2019), artikel 17, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
@@ -382,7 +386,7 @@ Gewijzigd met ingang van 16.05.2014 (KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, p
     nr. 50, van 11 december 2019 met betrekking tot de btw-opgave van de intracommunautaire
     handelingen
 
-## Art. 1
+### Art. 1
     (De tekst van KB nr. 50, artikel 1, inleidende zin, werd gewijzigd met ingang van
     16.05.2014. (Art. 32, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
@@ -424,7 +428,7 @@ de volgende gegevens voorkomen:
     c) de leveringen van goederen als bedoeld in 1°, d) ;
     d) de diensten als bedoeld in 1°, e) .
 
-## Art. 2
+### Art. 2
     (De tekst van KB nr. 50, artikel 2, werd gewijzigd met ingang van 16.05.2014. (Art.
     33, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
@@ -434,7 +438,7 @@ administratie.
     Indien meerdere bedragen moeten worden opgenomen voor een- zelfde persoon, dient voor ieder
 aangegeven bedrag zijn in artikel 1, 1°, bedoeld identificatienummer te worden vermeld.
 
-## Art. 3
+### Art. 3
     (De tekst van KB nr. 50, artikel 3, werd ingevoerd met ingang van 01.01.2010. (Art.
     3, KB 09.12.2009, B.S. 17.12.2009))
 
@@ -443,7 +447,7 @@ bedoelde bedragen tot het passende beloop worden herzien. Het bedrag van de herz
 opgenomen in de intracommunautaire opgave met betrekking tot het tijdvak waarin een stuk wordt
 uitgereikt dat de herziening van de maatstaf van heffing ter kennis brengt.
 
-## Art. 4
+### Art. 4
     (De tekst van KB nr. 50, artikel 4, werd ingevoerd met ingang van 01.01.2010. (Art.
     4, KB 09.12.2009, B.S. 17.12.2009))
 
@@ -455,7 +459,7 @@ bepaald
     Onder materiële vergissing wordt verstaan elke vergissing die geen aanleiding geeft tot het uitreiken
 van een stuk dat de herziening van de maatstaf van heffing ter kennis brengt.
 
-## Art. 5
+### Art. 5
     (De tekst van KB nr. 50, artikel 5, werd ingevoerd met ingang van 01.01.2010. (Art.
     5, KB 09.12.2009, B.S. 17.12.2009))
 
@@ -480,7 +484,7 @@ verstreken kalenderjaar bevat.
     Wanneer een in het eerste lid bedoelde belastingplichtige die hoedanigheid verliest, dient zijn
 intracommunautaire opgave binnen drie maanden vanaf dit verlies te worden ingediend.
 
-## Art. 6
+### Art. 6
     (De tekst van KB nr. 50, artikel 6, § 4, 2°, werd gewijzigd met ingang van
     16.05.2014. (Art. 33, KB 24.01.2014, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
@@ -511,14 +515,14 @@ Wetboek :
 § 5. De toepassingsmodaliteiten van dit artikel worden geregeld door of vanwege de Minister van
 Financiën.
 
-## Art. 7
+### Art. 7
     (De tekst van KB nr. 50, artikel 7, werd ingevoerd met ingang van 01.01.2010. (Art.
     7, KB 09.12.2009, B.S. 17.12.2009))
 
     De intracommunautaire opgave moet niet worden ingediend wanneer er geen enkel van de gegevens
 als bedoeld in de artikelen 1, 3 en 4 moet worden opgenomen.
 
-## Art. 8
+### Art. 8
     (De tekst van KB nr. 50, artikel 8, werd ingevoerd met ingang van 01.01.2010. (Art.
     8, KB 09.12.2009, B.S. 17.12.2009))
 
@@ -526,14 +530,14 @@ als bedoeld in de artikelen 1, 3 en 4 moet worden opgenomen.
 eenheid in de zin van artikel 4, § 2, van het Wetboek houden klantenrekeningen of alle andere stukken om
 te kunnen voldoen aan de voorschriften van dit besluit en aan het toezicht op de naleving ervan.
 
-## Art. 9
+### Art. 9
     (De tekst van KB nr. 50, artikel 9, werd ingevoerd met ingang van 01.01.2010. (Art.
     9, KB 09.12.2009, B.S. 17.12.2009))
 
     Het bedrag van 50.000 euro bedoeld in artikel 5 wordt tot 31 december 2011 op 100.000 euro
 gebracht.
 
-## Art. 10
+### Art. 10
     (De tekst van KB nr. 50, artikel 10, werd ingevoerd met ingang van 01.01.2010. (Art.
     10, KB 09.12.2009, B.S. 17.12.2009))
 
@@ -543,7 +547,7 @@ en van de richtlijn 2008/117/EG van de Raad van 16 december 2008 tot wijziging v
 2006/112/EG betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde ter
 bestrijding van de belastingfraude in het intracommunautaire verkeer.
 
-## Art. 11
+### Art. 11
     (De tekst van KB nr. 50, artikel 11, werd ingevoerd met ingang van 01.01.2010. (Art.
     11, KB 09.12.2009, B.S. 17.12.2009))
 
@@ -551,13 +555,13 @@ bestrijding van de belastingfraude in het intracommunautaire verkeer.
 toepassingsmodaliteiten van artikel 53sexies, § 1, van het Wetboek van de belasting over de toegevoegde
 waarde.
 
-## Art. 12
+### Art. 12
     (De tekst van KB nr. 50, artikel 12, werd ingevoerd met ingang van 01.01.2010. (Art.
     12, KB 09.12.2009, B.S. 17.12.2009))
 
     Dit besluit treedt in werking op 1 januari 2010.
 
-## Art. 13
+### Art. 13
     (De tekst van KB nr. 50, artikel 13, werd ingevoerd met ingang van 01.01.2010. (Art.
     13, KB 09.12.2009, B.S. 17.12.2009))
 

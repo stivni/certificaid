@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervoermiddelen in de zin van artikel 8bis, § 2, 1°, van het Btw- Wetboek, verricht binnen de voorwaarden van artikel 39bis van het Btw- Wetboek

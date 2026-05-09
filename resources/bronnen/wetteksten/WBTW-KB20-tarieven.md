@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 3
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven
@@ -42,7 +46,7 @@ Laatstelijk gewijzigd bij:
     verenigingen en houdende diverse bepalingen (B.S. 13.09.2019, pg. 86195).
     Dit KB wijzigt met ingang van 01.05.2019, Tabel A, rubriek XXXII van de bijlage.
 
-## Art. 1
+### Art. 1
 
     (De tekst van KB nr. 20, artikel 1, werd aangevuld met de bepaling onder c), met
     ingang van 01.04.2019 (Art. 2, KB 13.04.2019, B.S. 26.04.2019, pg. 40552))
@@ -59,7 +63,7 @@ in het Wetboek bedraagt 21 pct.
 
     Tijdelijke bepalingen
 
-## Art. 1bis
+### Art. 1bis
 
     (De tekst van KB nr. 20, artikel 1bis, § 1 werd gewijzigd en § 3, werd ingevoegd met
     ingang van 01.09.2015 (Art. 1, KB 23.08.2015, B.S. 31.08.2015, pg. 55460, bekrachtigd
@@ -97,14 +101,14 @@ wordt uitgevoerd aan de hand van het in de elektriciteitsmarkt vastgelegde verbr
 synthetisch lastprofiel) dat per kwartier of per uur van een volledig jaar het relatieve gebruik weergeeft van
 een bepaald type van klanten.
 
-## Art. 1ter
+### Art. 1ter
 
     (De tekst van KB nr. 20, artikel 1ter, werd opgeheven met ingang van 01.07.2011
     (Art. 26, W 04.07.2011, B.S. 19.07.2011))
 
     (opgeheven)
 
-## Art. 1quater
+### Art. 1quater
 
     (KB nr. 20, artikel 1quater, werd gewijzigd met ingang van 01.01.2010 (Art. 1,
     KB 09.12.2009, B.S. 14.12.2009, bekrachtigd bij art. 14, W 19.05.2010,
@@ -118,7 +122,7 @@ voorwaarden, met uitzondering van de bepaling onder 2°, en voor zover de aanvra
 stedenbouwkundige vergunning met betrekking tot bedoelde werken wordt ingediend bij de bevoegde
 overheid vóór 1 april 2010.
 
-## Art. 1quinquies
+### Art. 1quinquies
 
     (De tekst van KB nr. 20, artikel 1quinquies, § 1, tweede lid, 2°, werd opgeheven met
     ingang van 17.06.2010 (Art. 2, KB 02.06.2010, B.S. 07.06.2010))
@@ -219,7 +223,7 @@ waardoor de voorwaarden bedoeld onder § 1, eerste lid en § 2, eerste lid, niet
 
 Tarieven www.fisconetplus.be KB20 pg. I/3
 
-## Art. 1sexies
+### Art. 1sexies
 
     (KB nr. 20, artikel 1sexies, werd gewijzigd met ingang van 01.01.2010 (Art. 3,
     KB 09.12.2009, B.S. 14.12.2009, bekrachtigd bij art. 14, W 19.05.2010, B.S.
@@ -231,7 +235,7 @@ bijlage bij dit besluit voor zover de aanvraag voor de stedenbouwkundige vergunn
 bedoelde werken wordt ingediend bij de bevoegde overheid vóór 1 april 2010. De uitsluitingen opgenomen
 in rubriek X, § 2, van dezelfde tabel B blijven van toepassing.
 
-## Art. 2
+### Art. 2
 
     (De tekst van KB nr. 20, artikel 2, is van toepassing met ingang van 01.01.1971
     (Art. 98, W 03.07.1967))
@@ -239,7 +243,7 @@ in rubriek X, § 2, van dezelfde tabel B blijven van toepassing.
     Dit besluit treedt in werking op dezelfde datum als de wet van 3 juli 1969 tot invoering van het
 Wetboek van de belasting over de toegevoegde waarde.
 
-## Art. 3
+### Art. 3
 
     (De tekst van KB nr. 20, artikel 3, is van toepassing met ingang van 01.01.1971
     (Art. 98, W 03.07.1967))
@@ -662,7 +666,7 @@ T. A - Goederen 6 pct. www.fisconetplus.be KB20 pg. II/6
     betalingsmodaliteiten binnen de administratie van de Federale Overheidsdienst Financiën belast met
     de inning en de invordering van fiscale en niet-fiscale schuldvorderingen.
 
-##### Afdeling II - Onderdelen, uitrustingsstukken en toebehoren van voertuigen voor invaliden.
+## Afdeling II - Onderdelen, uitrustingsstukken en toebehoren van voertuigen voor invaliden.
 
     Het verlaagd tarief van 6 pct., is van toepassing op onderdelen, uitrustingsstukken en toebehoren die
     ingevoerd, intracommunautair verworven of hier te lande verkregen worden door in de eerste

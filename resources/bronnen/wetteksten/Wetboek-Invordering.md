@@ -24,30 +24,34 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
 
-## Art. 3
+###### Art. 3
 
 De ontvanger is belast met de invordering van de fiscale en niet-fiscale schuldvorderingen.
 
-## Art. 4
+###### Art. 4
 
 Onverminderd de bevoegdheden die hem door dit Wetboek, de fiscale wetten, de wettelijke of reglementaire bepalingen met betrekking tot niet-fiscale schuldvorderingen of andere specifieke wettelijke bepalingen worden toegekend, stelt de ontvanger eveneens de rechtsvorderingen in die rechtstreeks of onrechtstreeks verband houden met de invordering van de fiscale en niet-fiscale schuldvorderingen namens de Belgische Staat, Federale Overheidsdienst Financiën of namens de schuldeiser voor wiens rekening hij optreedt.
 
-## Art. 5
+###### Art. 5
 
 In procedures waarin een ontvanger of een adviseur-generaal van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen optreedt, kan de verschijning in persoon namens de Belgische Staat, Federale Overheidsdienst Financiën of namens de schuldeiser voor wiens rekening de ontvanger of de adviseur-generaal optreedt, worden gedaan door de betrokken ontvanger of adviseur-generaal of door elke andere daartoe aangestelde ambtenaar van de Federale Overheidsdienst Financiën.
    Bovendien kunnen in collectieve insolventieprocedures waarin een ontvanger of de Belgische Staat, Federale Overheidsdienst Financiën, betrokken is, de handelingen en de formaliteiten die inherent zijn aan de collectieve insolventieprocedure namens de Belgische Staat, Federale Overheidsdienst Financiën of namens de schuldeiser voor wiens rekening de ontvanger de invordering verzekert, door de betrokken ontvanger of door elke andere daartoe aangestelde ambtenaar van de Federale Overheidsdienst Financiën uitgevoerd worden.
 
-#### HOOFDSTUK 4. - De uitvoerbare titels en hun uitvoerbare kracht
+### HOOFDSTUK 4. - De uitvoerbare titels en hun uitvoerbare kracht
 
-##### Afdeling 1. - Algemene bepalingen
+#### Afdeling 1. - Algemene bepalingen
 
-## Art. 6
+###### Art. 6
 
 § 1. Onverminderd het nemen van bewarende of waarborgmaatregelen, overeenkomstig dit Wetboek, de fiscale wetten, de wettelijke of reglementaire bepalingen met betrekking tot niet-fiscale schuldvorderingen of het gemeen recht, wordt de invordering van fiscale en niet-fiscale schuldvorderingen vervolgd op grond van een uitvoerbaar verklaard kohier of innings- en invorderingsregister of op grond van een rechterlijke beslissing houdende veroordeling tot betaling van fiscale of niet-fiscale schuldvorderingen.
    § 2. Ingeval [1 het kohier]1 of innings- en invorderingsregister bedoeld in de eerste paragraaf op elektronische wijze [1 wordt]1 opgemaakt, wordt de oorsprong en de integriteit van de inhoud van dit kohier of deze inningsen invorderingsregisters verzekerd door middel van geschikte beveiligingstechnieken.
@@ -57,25 +61,25 @@ In procedures waarin een ontvanger of een adviseur-generaal van de administratie
    ----------
    (1)<W 2021-12-20/04, art. 11, 006; Inwerkingtreding : 07-01-2022>
 
-## Art. 7
+###### Art. 7
 
 Het kohier en het innings- en invorderingsregister zijn ook uitvoerbaar tegen de medeschuldenaars.
 
-##### Afdeling 2. - Bijzondere bepalingen inzake inkomstenbelastingen, voorheffingen en met de inkomstenbelastingen gelijkgestelde belastingen
+#### Afdeling 2. - Bijzondere bepalingen inzake inkomstenbelastingen, voorheffingen en met de inkomstenbelastingen gelijkgestelde belastingen
 
-## Art. 8
+###### Art. 8
 
 De inkomstenbelasting of voorheffing ingekohierd op naam van meerdere personen kan slechts ten laste van elk van hen worden ingevorderd voor het gedeelte dat verband houdt met hun eigen inkomsten.
   Het kohier is uitvoerbaar tegen elk van hen in de mate dat de inkomstenbelasting of voorheffing te hunnen laste kan worden ingevorderd op grond van dit Wetboek, de fiscale wetten of het gemeen recht.
 
-## Art. 9
+###### Art. 9
 
 De invordering van een inkomstenbelasting gevestigd overeenkomstig artikel 126, § 2, eerste lid, 2°, van het Wetboek van de inkomstenbelastingen 1992 op de inkomsten van een feitelijk gescheiden echtgenoot mag slechts worden vervolgd ten laste van de andere echtgenoot op voorwaarde dat:
   1° aan de echtgenoot op wiens inkomsten de belasting is gevestigd een aanmaning tot betaling bedoeld in artikel 13, § 1, werd verzonden;
   2° aan de andere echtgenoot een aanmaning tot betaling bedoeld in artikel 13, § 2, werd verzonden binnen een termijn die aanvangt de vijftiende werkdag volgend op die van de verzending van de aanmaning tot betaling aan de echtgenoot op wiens inkomsten de belasting is gevestigd en die verstrijkt op het einde van de vierde maand van deze verzending.
   Geen enkele aanmaning tot betaling mag worden toegezonden aan de andere echtgenoot op wiens inkomen de belasting is gevestigd zolang hij de verplichtingen van het afbetalingsplan dat hem, in voorkomend geval, werd toegekend, naleeft.
 
-## Art. 10
+###### Art. 10
 
 § 1. De inkomstenbelasting of het gedeelte van de inkomstenbelasting in verband met het belastbare inkomen van één van de echtgenoten en de op naam van één van hen beiden ingekohierde voorheffing of met de inkomstenbelastingen gelijkgestelde belastingen mogen, ongeacht het aangenomen huwelijksvermogensstelsel of ongeacht de notariële overeenkomst waarin de modaliteiten van de wettelijke samenwoning worden geregeld, op de eigen en gemeenschappelijke goederen van beide echtgenoten worden ingevorderd.
    De inkomstenbelasting of het gedeelte van de inkomstenbelasting in verband met het belastbare inkomen van één van de echtgenoten, alsook de roerende voorheffing, de bedrijfsvoorheffing en de met de inkomstenbelastingen gelijkgestelde belastingen ingekohierd op naam van één van hen, mogen evenwel niet op de eigen goederen van de andere echtgenoot worden ingevorderd wanneer deze laatste aantoont:
@@ -87,40 +91,40 @@ De invordering van een inkomstenbelasting gevestigd overeenkomstig artikel 126, 
    § 3. Na de ontbinding van het huwelijk of de beëindiging van de wettelijke samenwoning in de zin van artikel 1476 van het Burgerlijk Wetboek kunnen de inkomstenbelastingen en de voorheffingen die betrekking hebben op de inkomsten die de echtgenoten vóór die ontbinding of beëindiging hebben verkregen alsook de met de inkomstenbelastingen gelijkgestelde belastingen in verband met de periode vóór die ontbinding of beëindiging, worden ingevorderd op de goederen van de beide echtgenoten, op de wijze omschreven in paragrafen 1 en 2.
    § 4. Paragraaf 1 is niet van toepassing op de inkomstenbelastingen, de voorheffingen en de met de inkomstenbelastingen gelijkgestelde belastingen in verband met de periode vóór het huwelijk en vóór het afleggen van de verklaring van wettelijke samenwoning.
 
-## Art. 11
+###### Art. 11
 
 Zolang de overgang van een eigendom niet in de stukken van het kadaster is overgeschreven, zijn de vroegere houder van het recht op de belastbare goederen of zijn erfgenamen, tenzij zij bewijzen dat het recht op een andere houder is overgegaan en dat zij de volledige identiteit en adres van de nieuwe houder laten kennen, aansprakelijk voor de betaling van de onroerende voorheffing, behoudens hun verhaal op de nieuwe houder van het recht.
   Ingeval van overlegging van het in het eerste lid bedoelde bewijsstuk of van de vaststelling van de overgang van de eigendom door een ambtenaar belast met de invordering, mag de invordering van de onroerende voorheffing, ingekohierd op naam van de vroegere houder van het recht, krachtens hetzelfde kohier worden voortgezet ten laste van de werkelijke schuldenaar van de voorheffing. Deze schuldenaar ontvangt een nieuw exemplaar van het aanslagbiljet met de vermelding dat het krachtens deze bepaling werd uitgereikt en hij de hoedanigheid van schuldenaar in de zin van dit Wetboek heeft verkregen.
   Onder "overgang van eigendom" wordt verstaan elke verandering die een eigendom ondergaat, ofwel omdat hij van eigenaar verandert, ofwel omdat het goed bezwaard wordt met een recht van erfpacht, vruchtgebruik, opstal, gebruik of bewoning, of omdat één van deze rechten komt uit te doven.
   Onder "houder van het recht" wordt verstaan degene die het zakelijk recht uitoefent krachtens hetwelk de onroerende voorheffing verschuldigd is.
 
-## Art. 11_WAALS_GEWEST.
+###### Art. 11_WAALS_GEWEST.
   <Opgeheven zoals zij van toepassing waren op de onroerende voorheffing in het Waalse Gewest, bij DWG 2020-12-17/47, art. 17, 005; Inwerkingtreding : 01-01-2021>
 
-## Art. 12
+###### Art. 12
 
 De administratie of instelling belast met het beheer van een goed van de Staat, een Gemeenschap of een Gewest is verantwoordelijk voor de betaling van de onroerende voorheffing die op dat goed betrekking heeft.
 
-## Art. 12_WAALS_GEWEST.
+###### Art. 12_WAALS_GEWEST.
   <Opgeheven zoals zij van toepassing waren op de onroerende voorheffing in het Waalse Gewest, bij DWG 2020-12-17/47, art. 17, 005; Inwerkingtreding : 01-01-2021>
 
-## Art. 12/1
+###### Art. 12/1
 
 [1 De invordering van de inkomstenbelastingen verschuldigd door een vennootschap die het voorwerp heeft uitgemaakt van een fusie, splitsing, verrichting gelijkgesteld met een fusie of andere ontbinding zonder verdeling van het gehele maatschappelijk vermogen, en die is gevestigd ten name van, naargelang het geval, de vennootschap die het voorwerp van de verrichting heeft uitgemaakt, de overnemende of verkrijgende vennootschap of de verkrijgende vennootschappen, wordt ook verricht, naargelang het geval, ten name van de overnemende of verkrijgende vennootschap of van de verkrijgende vennootschappen en, in dit laatste geval, behoudens afwijkende vermeldingen in de akte die de verrichting vaststelt, ten name van de verschillende verkrijgende vennootschappen naar rato van de werkelijke waarde van het netto actief dat ze elk ontvangen hebben.]1
   ----------
   (1)<Ingevoegd bij W 2021-12-20/04, art. 3, 006; Inwerkingtreding : 07-01-2022>
 
-## Art. 12/2
+###### Art. 12/2
 
 [1 De invordering van de inkomstenbelastingen gevestigd ten name van vennootschappen zoals bedoeld in artikel 2, § 1, 5°, a, eerste lid, tweede streepje, van het Wetboek van de inkomstenbelastingen 1992 kan rechtstreeks ten laste van de aandeelhouders of vennoten worden vervolgd in zover die belastingen proportioneel overeenstemmen met het aandeel van die aandeelhouders of vennoten in het kapitaal.]1
   ----------
   (1)<Ingevoegd bij W 2021-12-20/04, art. 4, 006; Inwerkingtreding : 07-01-2022>
 
-### TITEL 2. - De minnelijke invordering
+## TITEL 2. - De minnelijke invordering
 
-#### HOOFDSTUK 1. - De aanmaning tot betaling
+### HOOFDSTUK 1. - De aanmaning tot betaling
 
-## Art. 13
+###### Art. 13
 
 § 1. Wanneer de invordering van een fiscale of niet-fiscale schuldvordering wordt vervolgd lastens een schuldenaar, wordt een aanmaning tot betaling, waarin de gegevens van de schuldvordering volledig en ondubbelzinnig zijn opgenomen, bij gewone zending aan de schuldenaar verzonden. De aanmaning tot betaling heeft uitwerking vanaf de derde werkdag die volgt op [1 de datum van haar verzending, behalve wanneer de rechten van de Schatkist in het gedrang komen, in welk geval de aanmaning tot betaling uitwerking heeft vanaf de datum van haar verzending. Behalve wanneer de rechten van de Schatkist in het gedrang komen, mag deze aanmaning]1 niet verzonden worden dan na het verstrijken van een termijn van tien dagen, te rekenen van de eerste dag na het verstrijken van de wettelijke betaaltermijn van de fiscale of niet-fiscale schuldvordering.
   Wanneer de schuldenaar geen gekende woonplaats in België of in het buitenland heeft, wordt deze aanmaning tot betaling aan de procureur des Konings te Brussel verzonden.
@@ -134,14 +138,14 @@ De administratie of instelling belast met het beheer van een goed van de Staat, 
    ----------
    (1)<W 2021-12-20/04, art. 5, 006; Inwerkingtreding : 07-01-2022>
 
-## Art. 14
+###### Art. 14
 
 De aanmaning tot betaling bedoeld in artikel 13 geldt als ingebrekestelling. Zij doet, vanaf haar uitwerkingsdatum, een nalatigheidsinterest berekend tegen de wettelijke rentevoet in fiscale zaken lopen wanneer de nalatigheidsinteresten niet eerder lopen.
   De nalatigheidsinterest verschuldigd overeenkomstig het eerste lid wordt berekend per kalendermaand voor elke fiscale en niet-fiscale schuldvordering op het resterende verschuldigd bedrag in hoofdsom, verhogingen, administratieve en fiscale geldboeten, afgerond op het dichtstbijzijnde lagere veelvoud van 10 euro. De maand van de uitwerkingsdatum van de aanmaning tot betaling wordt niet gerekend, maar de maand in de loop waarvan de betaling gebeurt wordt gerekend voor een volledige maand. De interest van een maand wordt niet aangerekend wanneer hij geen 5 euro bedraagt.
 
-#### HOOFDSTUK 2. - De betalingen
+### HOOFDSTUK 2. - De betalingen
 
-## Art. 15
+###### Art. 15
 
 § 1. Behoudens indien de fiscale wetten of de wettelijke of reglementaire bepalingen met betrekking tot niet-fiscale schuldvorderingen anders bepalen, gebeurt de betaling van fiscale en niet-fiscale schuldvorderingen op een van de volgende manieren:
    1° door storting of overschrijving op de financiële rekening "Inning en Invordering" van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen;
@@ -153,7 +157,7 @@ De aanmaning tot betaling bedoeld in artikel 13 geldt als ingebrekestelling. Zij
    ----------
    (1)<W 2023-03-12/08, art. 11, 014; Inwerkingtreding : 01-01-2025>
 
-## Art. 15/1
+###### Art. 15/1
 
 [1 § 1. In afwijking van artikel 15 kan de Koning bepalen dat de spontane betaling van fiscale en nietfiscale schuldvorderingen gebeurt op één van de volgende manieren:
     1° door storting of overschrijving op de financiële rekeningen van de administratie van de Federale Overheidsdienst Financiën belast met de inning en invordering van fiscale en niet-fiscale schuldvorderingen, zoals bepaald in functie van de aard van de te betalen schuldvordering;
@@ -164,7 +168,7 @@ De aanmaning tot betaling bedoeld in artikel 13 geldt als ingebrekestelling. Zij
    ----------
    (1)<Ingevoegd bij W 2023-03-12/08, art. 12, 014; Inwerkingtreding : 01-01-2025>
 
-## Art. 15/2
+###### Art. 15/2
 
 [1 Wanneer de betaling van fiscale en niet-fiscale schuldvorderingen gebeurt via domiciliëring in de zin van artikel I.9.13° van het Wetboek van economisch recht, en in afwijking van artikel VII.33, § 3, van hetzelfde Wetboek, is de voorafgaande kennisgeving van het op te nemen bedrag niet verplicht, wanneer het mandaat wordt gegeven aan de Federale Overheidsdienst Financiën in de volgende gevallen:
    a) door de belastingplichtige, bedoeld in artikel 53, § 1, van het btw-wetboek, met het oog op de betaling van de bedragen die verschuldigd zijn uit hoofde van de aangifte bedoeld in artikel 53, § 1, eerste lid, 2°, van hetzelfde Wetboek, alsmede van de nalatigheidsinteresten, en op voorwaarde dat deze aangifte door de belastingplichtige of zijn gemachtigde vertegenwoordiger is ingediend;
@@ -173,7 +177,7 @@ De aanmaning tot betaling bedoeld in artikel 13 geldt als ingebrekestelling. Zij
   ----------
   (1)<Ingevoegd bij W 2023-03-12/08, art. 13, 014; Inwerkingtreding : 01-01-2025>
 
-## Art. 16
+###### Art. 16
 
 Gelden als bewijs van betaling:
   - voor stortingen, de door de naamloze vennootschap van publiek recht bpost gedateerde ontvangstbewijzen;
@@ -181,7 +185,7 @@ Gelden als bewijs van betaling:
   ----------
   (1)<W 2023-03-12/08, art. 14, 014; Inwerkingtreding : 01-01-2025>
 
-## Art. 17
+###### Art. 17
 
 [1 De betaling van de fiscale en niet-fiscale schuldvorderingen heeft uitwerking:
    1° voor betalingen en overschrijvingen, op de valutadatum van de creditering van de in de artikelen 15, § 1, eerste lid, 1° en 15/1, § 1, eerste lid, 1° bedoelde financiële rekeningen;
@@ -192,7 +196,7 @@ Gelden als bewijs van betaling:
   ----------
   (1)<W 2023-03-12/08, art. 15, 014; Inwerkingtreding : 01-01-2025>
 
-## Art. 18
+###### Art. 18
 
 § 1. In afwijking van de aanrekeningsregels die bepaald zijn in de fiscale wetten, kan een persoon, wanneer hij verschillende sommen verschuldigd is uit hoofde van fiscale en niet-fiscale schuldvorderingen waarvan de betaling moet gebeuren op de financiële rekening "Inning en Invordering" bedoeld in artikel 15, aangeven welke hij wil aanzuiveren ofwel bij elke betaling die hij verricht via het elektronisch platform dat de Federale Overheidsdienst Financiën hem ter beschikking stelt, ofwel wanneer hij het voorafgaand aan zijn betaling aanvraagt bij de daartoe door de Koning aangewezen dienst.
   Voor elk verschuldigd bedrag uit hoofde van fiscale en niet-fiscale schuldvorderingen waarvan deze persoon aangegeven heeft dat hij het wenst aan te zuiveren overeenkomstig het eerste lid, gebeurt de aanrekening, niettegenstaande elke andersluidende aanduiding van deze persoon en onverminderd de toepassing van artikel 23 van de wet van 21 februari 2003 tot oprichting van een Dienst voor alimentatievorderingen bij de FOD Financiën, in de onderstaande volgorde:
@@ -204,11 +208,11 @@ Gelden als bewijs van betaling:
   a) dat, onverminderd de toepassing van artikel 23, 1° en 2°, van de wet van 21 februari 2003 tot oprichting van een Dienst voor alimentatievorderingen bij de FOD Financiën, de betalingen bij voorrang aangerekend worden op de kosten van alle aard gemaakt door de Federale Overheidsdienst Financiën, ongeacht de fiscale en niet-fiscale schuldvorderingen waarop ze betrekking hebben;
   b) dat, onverminderd de toepassing van a) en van artikel 23, 3° tot 6°, van de wet van 21 februari 2003 tot oprichting van een Dienst voor alimentatievorderingen bij de FOD Financiën, de aanrekening, voor wat betreft elk van de fiscale en niet-fiscale schuldvorderingen die de bevoegde ambtenaar wil aanzuiveren, in de volgende volgorde gebeurt: eerst op de nalatigheidsinteresten, vervolgens op de verhogingen en de fiscale of administratieve geldboeten, en ten slotte op de nog verschuldigde fiscale of niet-fiscale schuldvordering in hoofdsom.
 
-### TITEL 3. - De gedwongen invordering
+## TITEL 3. - De gedwongen invordering
 
-#### HOOFDSTUK 1. - De vervolgingen
+### HOOFDSTUK 1. - De vervolgingen
 
-## Art. 19
+###### Art. 19
 
 § 1. De tenuitvoerlegging van een uitvoerbaar verklaard kohier of innings- en invorderingsregister of van een rechterlijke beslissing houdende veroordeling tot betaling van fiscale en niet-fiscale schuldvorderingen gebeurt in overeenstemming met de bepalingen van het Gerechtelijk Wetboek, Deel V, Titel III met betrekking tot de gedwongen tenuitvoerlegging. Titel III met betrekking tot de gedwongen tenuitvoerlegging, behalve indien dit Wetboek, de fiscale wetten en de wettelijke of reglementaire bepalingen met betrekking tot niet fiscale schuldvorderingen anders bepalen.
    De overhandiging door de ontvanger aan de gerechtsdeurwaarder van een uittreksel uit het kohier met vermelding van de datum van uitvoerbaarverklaring van dit kohier, van een afschrift van het innings- en invorderingsbericht of van de uitgifte van de rechterlijke beslissing overeenkomstig artikel 1393 van het Gerechtelijk Wetboek, geldt als volmacht voor alle tenuitvoerleggingen.
@@ -217,11 +221,11 @@ Gelden als bewijs van betaling:
    Inzake niet-fiscale schuldvorderingen, wordt de rechtsvordering, bij ontstentenis van andere bevoegdheidsbepalingen, ingeleid voor de rechtbank van eerste aanleg.
    Inzake inkomstenbelastingen, voorheffingen en met de inkomstenbelastingen gelijkgestelde belastingen, kan de tenuitvoerlegging van het kohier, ingeval van een administratief bezwaar of een rechtsvordering, slechts plaatsvinden inzoverre als bepaald in artikel 61.
 
-## Art. 20
+###### Art. 20
 
 De kosten van de in dit Wetboek voorgeschreven aangetekende zendingen met betrekking tot de tenuitvoerlegging van een uitvoerbaar verklaard kohier, een innings- en invorderingsregister of een rechterlijke beslissing houdende veroordeling tot betaling van fiscale en niet-fiscale schuldvorderingen zijn op grond van artikel 1024 van het Gerechtelijk Wetboek ten laste van de schuldenaar of de medeschuldenaar.
 
-## Art. 21
+###### Art. 21
 
 § 1. De ontvanger kan, bij aangetekende zending, uitvoerend beslag onder derden leggen op de aan de schuldenaar of de medeschuldenaar verschuldigde of toebehorende sommen en zaken, tot beloop van het geheel of een deel van het bedrag van de fiscale en niet-fiscale schuldvorderingen dat door de schuldenaar verschuldigd is of tot betaling van hetgeen waartoe de medeschuldenaar gehouden is.
   Dit beslag heeft uitwerking vanaf de overhandiging van het stuk aan de geadresseerde.
@@ -254,15 +258,15 @@ De kosten van de in dit Wetboek voorgeschreven aangetekende zendingen met betrek
   1° ofwel de afgifte bij de aanbieder van de universele postdienst van het verzet van de schuldenaar of de medeschuldenaar als bepaald in paragraaf 3, tweede lid, of van de verklaring als bedoeld in artikel 1452 van het Gerechtelijk Wetboek;
   2° ofwel de ontvangstmelding van deze verklaring wanneer zij werd verzonden op elektronische wijze als voorzien in § 5, eerste lid, 1°.
 
-## Art. 22
+###### Art. 22
 
 De termijnen van verzet, hoger beroep en cassatie, alsmede het verzet, het hoger beroep en de voorziening in cassatie schorsen de tenuitvoerlegging van de rechterlijke beslissing die, zelfs gedeeltelijk, maatregelen betreffen die ertoe strekken de invordering van de fiscale en niet-fiscale schuldvorderingen te verwezenlijken of te waarborgen.
 
-#### HOOFDSTUK 2. - De verjaring
+### HOOFDSTUK 2. - De verjaring
 
-##### Afdeling 1. - De verjaringstermijnen
+#### Afdeling 1. - De verjaringstermijnen
 
-## Art. 23
+###### Art. 23
 
 § 1. De inkomstenbelastingen, de voorheffingen en de met de inkomstenbelastingen gelijkgestelde belastingen, evenals de verhogingen en de administratieve geldboeten met betrekking tot deze belastingen en voorheffingen, verjaren door verloop van vijf jaren vanaf de datum van uitvoerbaarverklaring van het kohier waarin ze zijn opgenomen overeenkomstig de fiscale wetten.
    § 2. De verjaring van de vordering tot invordering van de belasting over de toegevoegde waarde, de nalatigheidsinteresten en de administratieve geldboeten wordt geregeld door de bepalingen van het Wetboek van de belasting over de toegevoegde waarde.
@@ -276,9 +280,9 @@ De termijnen van verzet, hoger beroep en cassatie, alsmede het verzet, het hoger
    ----------
    (1)<W 2021-12-20/04, art. 13, 006; Inwerkingtreding : 07-01-2022>
 
-##### Afdeling 2. - De stuiting en schorsing van de verjaring
+#### Afdeling 2. - De stuiting en schorsing van de verjaring
 
-## Art. 24
+###### Art. 24
 
 De verjaring bedoeld in artikel 23, § 1, § 2, tweede lid, § 3, tweede lid, § 4, tweede lid en § 5, tweede lid, evenals de verjaring van de fiscale en niet-fiscale schuldvorderingen waartoe een rechterlijke beslissing de schuldenaar tot betaling veroordeelt, wordt gestuit:
   1° op de wijze bepaald in de artikelen 2244 en volgende van het Burgerlijk Wetboek, met uitsluiting van artikel 2244, § 2;
@@ -286,7 +290,7 @@ De verjaring bedoeld in artikel 23, § 1, § 2, tweede lid, § 3, tweede lid, §
   3° door de verzending bij aangetekende zending van een aanmaning tot betaling, waarin de gegevens van de schuldvordering volledig en ondubbelzinnig zijn opgenomen. De afgifte van het stuk bij de aanbieder van de universele postdienst geldt als kennisgeving vanaf de derde daarop volgende werkdag. Wanneer de schuldenaar of de medeschuldenaar geen gekende woonplaats in België of in het buitenland heeft, wordt deze aanmaning tot betaling bij aangetekende zending aan de procureur des Konings te Brussel verzonden.
   In geval van stuiting van de verjaring treedt een nieuwe verjaring in, die op dezelfde wijze kan worden gestuit, door verloop van vijf jaren na de laatste stuitingsdaad waardoor de vorige verjaring is gestuit.
 
-## Art. 25
+###### Art. 25
 
 § 1. De inleidende akte van een rechtsgeding met betrekking tot de toepassing of de vestiging, de inning of de invordering van fiscale en niet-fiscale schuldvorderingen die wordt ingesteld door de Belgische Staat, door de schuldenaar van deze schuldvorderingen, door elke medeschuldenaar, alsook door iedere andere persoon die een verkregen en dadelijk belang heeft om in rechte te treden, schorst de verjaring bedoeld in de artikelen 23, § 1, § 2, tweede lid, § 3, tweede lid, § 4, tweede lid, en § 5, tweede lid, alsook de verjaring van de fiscale en niet-fiscale schuldvorderingen waartoe een rechterlijke beslissing de schuldenaar tot betaling veroordeelt.
    De schorsing eindigt wanneer de rechterlijke beslissing in kracht van gewijsde is gegaan.
@@ -297,65 +301,65 @@ De verjaring bedoeld in artikel 23, § 1, § 2, tweede lid, § 3, tweede lid, §
    § 3. Elke daad van onderzoek of van vervolging bedoeld in artikel 22 van de Voorafgaande titel van het Wetboek van Strafvordering met betrekking tot de misdrijven bedoeld in de artikelen 449 tot 452 van het Wetboek van de inkomstenbelastingen 1992, 73 en 73bis van het Wetboek van de belasting over de toegevoegde waarde, 207 en 207bis van het Wetboek diverse rechten en taksen en 85 tot 88 van dit Wetboek, schorst de verjaring van de fiscale en niet-fiscale schuldvorderingen.
    De schorsing neemt aanvang vanaf het ogenblik dat de strafvordering wordt ingesteld en eindigt wanneer de strafvervolging wordt stopgezet, de strafvordering uitdooft of wanneer het vonnis of het arrest in kracht van gewijsde is getreden voor de misdrijven bedoeld in het eerste lid.
 
-#### HOOFDSTUK 3. - De rechten en voorrechten van de Schatkist
+### HOOFDSTUK 3. - De rechten en voorrechten van de Schatkist
 
-##### Afdeling 1. - De door sommige schuldenaars van de belasting op de spelen en de weddenschappen te stellen waarborgen
+#### Afdeling 1. - De door sommige schuldenaars van de belasting op de spelen en de weddenschappen te stellen waarborgen
 
-## Art. 26
+###### Art. 26
 
 De Koning kan van de schuldenaars van de belasting op de spelen en de weddenschappen bedoeld in titel III van het Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen een zakelijke waarborg eisen in de gevallen die Hij bepaalt en volgens de voorwaarden die Hij vaststelt.
    De Koning bepaalt het bedrag van deze waarborg, rekening houdend met de aard en de organisatievoorwaarden van de verrichtingen.
    Deze waarborg moet gesteld worden uiterlijk acht dagen voor de aanvang van de verrichtingen.
    De zakelijke waarborg bestaat uit een borgstelling in geld of effecten.
 
-##### Afdeling 2. - Het voorrecht en de wettelijke hypotheek
+#### Afdeling 2. - Het voorrecht en de wettelijke hypotheek
 
-## Art. 27
+###### Art. 27
 
 Voor de invordering van de fiscale en niet-fiscale schuldvorderingen heeft de Schatkist een algemeen voorrecht op de inkomsten en roerende goederen van alle aard van de schuldenaar en de medeschuldenaar, met uitzondering van de schepen en vaartuigen.
 
-## Art. 28
+###### Art. 28
 
 Het voorrecht bedoeld in artikel 27 neemt rang onmiddellijk na het voorrecht vermeld in artikel 19, eerste lid, 5°, van de hypotheekwet van 16 december 1851.
   In afwijking van het eerste lid, heeft het voorrecht inzake bedrijfsvoorheffing, roerende voorheffing, belasting over de toegevoegde waarde en de verhogingen, administratieve geldboeten en bijbehoren die betrekking hebben op deze voorheffingen en op deze belasting, evenals het voorrecht inzake de bijbehoren die betrekking hebben op deze verhogingen en administratieve geldboeten, dezelfde rang als het voorrecht vermeld in artikel 19, eerste lid, 4° ter, van de hypotheekwet van 16 december 1851.
   De aanwending bij voorrang, vermeld in artikel 19 in fine van de hypotheekwet van 16 december 1851, is van toepassing op de fiscale en niet-fiscale schuldvorderingen bedoeld in artikel 27.
 
-## Art. 29
+###### Art. 29
 
 De fiscale en niet-fiscale schuldvorderingen zijn gewaarborgd door een wettelijke hypotheek op al de aan de schuldenaar en de medeschuldenaar toebehorende goederen, die in België gelegen en daarvoor vatbaar zijn.
   De wettelijke hypotheek neemt rang te rekenen vanaf de dag van de inschrijving die is genomen op verzoek van de ontvanger.
 
-## Art. 30
+###### Art. 30
 
 De ontvanger kan de inschrijving van de wettelijke hypotheek vorderen vanaf de datum van uitvoerbaarverklaring van het kohier of van het innings- en invorderingsregister of vanaf het ogenblik dat de rechterlijke beslissing houdende veroordeling tot betaling van de fiscale of niet-fiscale schuldvordering in kracht van gewijsde is getreden.
    In afwijking van het eerste lid kan de inschrijving van de wettelijke hypotheek lastens een medeschuldenaar slechts gevorderd worden vanaf de uitwerkingsdatum van de aanmaning tot betaling bedoeld in artikel 13, § 2, behalve wanneer de rechten van de Schatkist in het gedrang komen, in welk geval zij gevorderd kan worden vanaf de datum van uitvoerbaarverklaring van het kohier of van het innings- en invorderingsregister.
    Artikel XX.113 van het Wetboek van economisch recht is niet van toepassing op de wettelijke hypotheek wat betreft de fiscale of niet-fiscale schuldvordering die is opgenomen in een kohier of een innings- en invorderingsregister dat vóór het vonnis van faillietverklaring uitvoerbaar werd verklaard, of die het voorwerp uitmaakt van een rechterlijke beslissing houdende veroordeling tot betaling van deze schuldvordering die vóór het vonnis van faillietverklaring in kracht van gewijsde is getreden.
 
-## Art. 31
+###### Art. 31
 
 [1 De inschrijving van de wettelijke hypotheek heeft plaats niettegenstaande verzet, betwisting of beroep.
    Behalve de vermeldingen bedoeld in artikel 89 van de hypotheekwet van 16 december 1851, vermeldt het borderel, voor elke fiscale of niet-fiscale schuldvordering die gewaarborgd is door de wettelijke hypotheek, de datum van uitvoerbaarverklaring van het kohier of van het innings- en invorderingsregister, of de datum waarop de rechterlijke beslissing houdende veroordeling tot betaling van de fiscale of niet-fiscale schuldvordering in kracht van gewijsde is getreden.]1
   ----------
   (1)<W 2021-02-07/01, art. 34, 004; Inwerkingtreding : 01-03-2021>
 
-## Art. 32
+###### Art. 32
 
 De inschrijving van de wettelijke hypotheek kan worden gevorderd voor een door de ontvanger in het borderel te bepalen bedrag, dat al de bijbehoren vertegenwoordigt die voor de vereffening van de fiscale of nietfiscale schuldvordering in hoofdsom, opcentiemen, opdeciemen, verhogingen en administratieve en fiscale geldboeten zouden kunnen verschuldigd zijn.
 
-## Art. 33
+###### Art. 33
 
 De kosten van de hypothecaire formaliteiten in verband met de wettelijke hypotheek zijn ten laste van de schuldenaar of de medeschuldenaar.
 
-## Art. 34
+###### Art. 34
 
 § 1. De ontvanger verleent handlichting in de administratieve vorm zonder dat hij, tegenover de Algemene Administratie van de Patrimoniumdocumentatie, gehouden is verantwoording van de betaling van de verschuldigde sommen te verstrekken.
   § 2. Zo de betrokkene, alvorens de fiscale of niet-fiscale schuldvordering vereffend te hebben die door de wettelijke hypotheek gewaarborgd is, wenst alle of een deel van de bezwaarde goederen vrij te maken van hypotheek, dient hij daartoe een verzoek in bij de bevoegde ontvanger. Dat verzoek wordt ingewilligd zo de Staat reeds voldoende zekerheid bezit, of zo deze hem wordt gegeven, voor het bedrag van hetgeen hem verschuldigd is.
 
-##### Afdeling 3. - De aansprakelijkheid en plichten van sommige ministeriële officieren, openbare ambtenaren en andere personen
+#### Afdeling 3. - De aansprakelijkheid en plichten van sommige ministeriële officieren, openbare ambtenaren en andere personen
 
-###### Onderafdeling 1. - De aansprakelijkheid en plichten inzake de opmaak van akten die de vervreemding of hypothecaire aanwending van een voor hypotheek vatbaar goed tot voorwerp hebben
+##### Onderafdeling 1. - De aansprakelijkheid en plichten inzake de opmaak van akten die de vervreemding of hypothecaire aanwending van een voor hypotheek vatbaar goed tot voorwerp hebben
 
-## Art. 35
+###### Art. 35
 
 § 1. [1 Om de Schatkist, met het oog op de invordering van fiscale en niet-fiscale schuldvorderingen, in staat te stellen een wettelijke hypotheek te nemen op een voor hypotheek vatbaar goed dat het voorwerp uitmaakt van een ontwerpakte tot vervreemding of hypothecaire aanwending is de notaris die verzocht is om een akte op te maken die de vervreemding of de hypothecaire aanwending van een voor hypotheek vatbaar goed tot voorwerp heeft, persoonlijk aansprakelijk, in de zin van artikel [3 6.5]3 van het Burgerlijk Wetboek, voor de betaling van de fiscale en niet-fiscale schuldvorderingen die tot een hypothecaire inschrijving aanleiding kunnen geven, indien hij daarvan geen bericht geeft aan:]1
   1° de dienst belast met de informatie- en communicatietechnologie van de Federale Overheidsdienst Financiën, op elektronische wijze;
@@ -374,7 +378,7 @@ De kosten van de hypothecaire formaliteiten in verband met de wettelijke hypothe
   (2)<W 2021-12-20/04, art. 14, 006; Inwerkingtreding : 07-01-2022>
   (3)<W 2024-02-07/18, art. 7, 013; Inwerkingtreding : 01-01-2025>
 
-## Art. 36
+###### Art. 36
 
 Indien het belang van de Schatkist dit vereist, geeft de bevoegde ontvanger aan de notaris, vóór het verstrijken van de [2 tiende]2 werkdag volgend op de verzending van het in artikel 35 bedoelde bericht, kennis van het bedrag van de fiscale en niet-fiscale schuldvorderingen die aanleiding kunnen geven tot inschrijving van de wettelijke hypotheek van de Schatkist op het goed [1 dat het voorwerp van de akte is en in voorkomend geval dat hij een wettelijke hypotheek op het goed heeft ingeschreven voor het bedrag van deze schulden:]1
    1° op elektronische wijze, volgens de door de Koning bepaalde procedure;
@@ -391,7 +395,7 @@ Indien het belang van de Schatkist dit vereist, geeft de bevoegde ontvanger aan 
    (1)<W 2020-04-23/27, art. 18, 002; Inwerkingtreding : 01-01-2020>
    (2)<W 2023-12-28/01, art. 93, 011; Inwerkingtreding : 08-01-2024>
 
-## Art. 37
+###### Art. 37
 
 § 1. Wanneer de in artikel 35 bedoelde akte verleden is, geldt de in artikel 36 bedoelde kennisgeving als beslag onder derden in handen van de notaris op de bedragen en waarden die hij krachtens de akte onder zich houdt voor rekening of ten bate van de schuldenaar of de medeschuldenaar en geldt ze als verzet tegen de prijs in de zin van artikel 1642 van het Gerechtelijk Wetboek in de gevallen waarin de notaris gehouden is deze bedragen en waarden overeenkomstig de artikelen 1639 tot 1654 van het Gerechtelijk Wetboek te verdelen.
    Onverminderd de rechten van derden, is de notaris ertoe gehouden, wanneer de in artikel 35 bedoelde akte verleden is, onder voorbehoud van toepassing van de artikelen 1639 tot 1654 van het Gerechtelijk Wetboek, de bedragen en waarden die hij krachtens de akte onder zich houdt voor rekening of ten bate van de schuldenaar of de medeschuldenaar, uiterlijk de [2 zevende]2 werkdag die volgt op het verlijden van de akte, aan de in artikel 36 bedoelde ontvanger te storten tot beloop van het bedrag van de fiscale en niet-fiscale schuldvorderingen die hem in uitvoering van artikel 36 ter kennis werden gebracht en in zoverre deze schuldvorderingen het voorwerp kunnen zijn van middelen tot tenuitvoerlegging.
@@ -408,43 +412,43 @@ Indien het belang van de Schatkist dit vereist, geeft de bevoegde ontvanger aan 
   (2)<W 2023-12-28/01, art. 94, 011; Inwerkingtreding : 08-01-2024>
   (3)<W 2024-02-07/18, art. 8, 013; Inwerkingtreding : 01-01-2025>
 
-## Art. 37/1
+###### Art. 37/1
 
 [1 De Federale Overheidsdienst Financiën vertegenwoordigd door de voorzitter van het Directiecomité is de verwerkingsverantwoordelijke in de zin van de Verordening (EU) 2016/679 van 27 april 2016 van het Europees Parlement en de Raad betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van richtlijn 95/46/EG, en van de wet van 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens, voor het verzamelen en opslaan van de gegevens die van de notarissen worden ontvangen overeenkomstig artikel 35, het gebruik ervan om na te gaan of de personen die daarin worden vermeld, schuldenaars zijn van een zekere schuld, de kennisgeving van deze schulden, de mededeling van deze schulden aan de betrokken notarissen en, in voorkomend geval, het nemen van de nodige maatregelen voor de inschrijving van de wettelijke hypotheek.
     De gegevens opgenomen in het bericht, de kennisgeving en de inlichting respectievelijk bedoeld in de artikelen 35, 36 en 37 worden door de Federale Overheidsdienst Financiën bewaard tot uiterlijk 31 december van het jaar volgend op het jaar waarin de verjaring plaatsvindt van alle handelingen nodig om de wettelijke hypotheek van de Schatkist te waarborgen of om aansprakelijkheidsvorderingen te kunnen instellen teneinde de invordering te verzekeren van fiscale en niet-fiscale schuldvorderingen die tot de bevoegdheid van de verwerkingsverantwoordelijke bedoeld in het eerste lid behoren en, in voorkomend geval, de volledige betaling van alle ermee verbonden bedragen gerealiseerd werd en de ermee verbonden procedures en administratieve en gerechtelijke beroepen definitief afgesloten zijn.]1
    ----------
    (1)<Ingevoegd bij W 2020-04-23/27, art. 19, 002; Inwerkingtreding : 01-01-2020>
 
-## Art. 38
+###### Art. 38
 
 De inschrijvingen genomen na de in artikel 37, § 3, eerste lid bedoelde termijn, of tot zekerheid van de fiscale en niet-fiscale schuldvorderingen waarvoor de in artikel 36 bedoelde kennisgeving niet werd gedaan, kunnen niet worden ingeroepen tegen de hypothecaire schuldeiser, noch tegen de verkrijger die handlichting ervan zal kunnen vorderen.
 
-## Art. 39
+###### Art. 39
 
 De aansprakelijkheid door de notaris opgelopen krachtens de artikelen 35 en 37 kan, naar het geval, de waarde van het vervreemde goed of het bedrag van de hypothecaire inschrijving, na aftrek van de sommen en waarden waarop in zijn handen beslag onder derden werd gelegd, niet te bovengaan.
 
-## Art. 40
+###### Art. 40
 
 De artikelen [1 35 tot 37 en 38 tot 39]1 zijn van toepassing op elke persoon die bevoegd is om authenticiteit te verlenen aan de in artikel 35 bedoelde akten.
   ----------
   (1)<W 2020-04-23/27, art. 20, 002; Inwerkingtreding : 01-01-2020>
 
-## Art. 41
+###### Art. 41
 
 Met akkoord van de schuldenaar of de medeschuldenaar zijn de banken, onderworpen aan de wet van 25 april 2014 op het statuut van en het toezicht op de kredietinstellingen, evenals de kredietgevers en bemiddelaars inzake hypothecair krediet, onderworpen aan boek VII, titel 4, hoofdstuk 4 van het Wetboek van economisch recht, gemachtigd het in artikel 35 bedoelde bericht te verzenden en zijn zij bevoegd om de in artikel 36 bedoelde kennisgeving te ontvangen.
   De afgifte van een attest door die instellingen aan de notaris betreffende de verzending van het bericht en het gevolg daaraan gegeven door de ontvanger, stelt de aansprakelijkheid van die instellingen in de plaats van die van de notaris.
 
-## Art. 42
+###### Art. 42
 
 Geen akte die in het buitenland verleden is en de vervreemding of hypothecaire aanwending van een onroerend goed of een schip tot voorwerp heeft, wordt in België tot overschrijving of inschrijving in de registers van de hypothecaire openbaarmaking, wat de onroerende goederen betreft, of in het Belgisch Scheepsregister, wat de schepen betreft, toegelaten, indien zij niet vergezeld gaat van een attest van de ontvanger bedoeld in artikel 35.
   Dit attest moet vaststellen ofwel dat de eigenaar of de houder van een zakelijk recht geen sommen verschuldigd is uit hoofde van fiscale en niet-fiscale schuldvorderingen die tot een hypothecaire inschrijving aanleiding kunnen geven, ofwel dat de wettelijke hypotheek, die de fiscale en niet-fiscale schuldvorderingen waarborgt, ingeschreven is.
 
-###### Onderafdeling 2. - De aansprakelijkheid en plichten inzake de opmaak van een akte of attest van erfopvolging bedoeld in artikel [2 4.59, § 4, derde lid,]2 van het Burgerlijk Wetboek
+##### Onderafdeling 2. - De aansprakelijkheid en plichten inzake de opmaak van een akte of attest van erfopvolging bedoeld in artikel [2 4.59, § 4, derde lid,]2 van het Burgerlijk Wetboek
   ----------
   (1)<W 2022-01-19/18, art. 41, 008; Inwerkingtreding : 01-07-2022>
   (2)<W 2022-07-30/03, art. 35, 009; Inwerkingtreding : 01-11-2022>
 
-## Art. 43
+###### Art. 43
 
 § 1. [1 Om de inning van zekere en vaststaande fiscale en niet-fiscale schuldvorderingen, die de erflater, zijn erfgenamen en legatarissen of de begunstigden van een door de erflater gemaakte contractuele erfstelling verschuldigd zijn, te verzekeren zijn de notarissen die verzocht zijn om een in artikel [5 4.59, § 4, derde lid,]5 van het Burgerlijk Wetboek bedoelde akte of attest van erfopvolging op te maken, persoonlijk aansprakelijk in de zin van artikel [6 6.5]6 van het Burgerlijk Wetboek, voor de betaling van de door de erflater, zijn erfgenamen en legatarissen, waarvan de identiteit vermeld is in de akte of het attest, of de begunstigden van een door de erflater gemaakte contractuele erfstelling, verschuldigde sommen uit hoofde van fiscale en niet-fiscale schuldvorderingen die ter kennis gebracht kunnen worden overeenkomstig artikel 44, indien zij daarvan geen bericht geven aan:]1
    1° de dienst belast met informatie- en communicatietechnologie van de Federale Overheidsdienst Financiën., en dit op elektronische wijze;
@@ -467,7 +471,7 @@ Geen akte die in het buitenland verleden is en de vervreemding of hypothecaire a
    (5)<W 2022-07-30/03, art. 36, 009; Inwerkingtreding : 01-11-2022>
    (6)<W 2024-02-07/18, art. 9, 013; Inwerkingtreding : 01-01-2025>
 
-## Art. 44
+###### Art. 44
 
 § 1. De bevoegde ontvanger kan aan de notaris die het in artikel 43 bedoelde bericht verzonden heeft, vóór het verstrijken van de [2 tiende]2 werkdag volgend op de verzendingsdatum van dat bericht, kennisgeven van het bestaan lastens de erflater of een andere persoon vermeld in het bericht, van een som verschuldigd uit hoofde van fiscale en niet-fiscale schuldvorderingen, met opgave voor elk van de schuldenaars van het bedrag van de hiervoor bedoelde schuld:
   1° op elektronische wijze, volgens de door de Koning bepaalde procedure;
@@ -485,7 +489,7 @@ Geen akte die in het buitenland verleden is en de vervreemding of hypothecaire a
    (1)<W 2020-04-23/27, art. 22, 002; Inwerkingtreding : 01-01-2020>
    (2)<W 2023-12-28/01, art. 95, 011; Inwerkingtreding : 08-01-2024>
 
-## Art. 45
+###### Art. 45
 
 In het attest van erfopvolging of onderaan de afgeleverde uitgifte [1 of het uittreksel]1 van de akte van erfopvolging wordt vermeld hetzij dat er geen kennisgeving van schulden bij toepassing van artikel 44 werd gedaan en dit zowel in hoofde van de erflater als in hoofde van één of meerdere personen die vermeld zijn in het bericht en die bestemmeling zijn van het attest [1 , de uitgifte of het uittreksel]1, hetzij dat de schulden waarvan bij toepassing van artikel 44 kennis werd gegeven zijn betaald of, in voorkomend geval zullen worden betaald met de tegoeden gehouden door de schuldenaar van deze fondsen.
   De vermelding van de gedane of van de nog te verrichten betaling wordt door de door de Koning aangewezen ambtenaar onderaan het attest toegevoegd of vervolledigd.
@@ -493,7 +497,7 @@ In het attest van erfopvolging of onderaan de afgeleverde uitgifte [1 of het uit
   ----------
   (1)<W 2022-07-30/03, art. 37, 009; Inwerkingtreding : 01-11-2022>
 
-## Art. 46
+###### Art. 46
 
 § 1. Op straffe van persoonlijk aansprakelijk te zijn voor de betaling van de schulden waarvan kennis werd gegeven bij toepassing van artikel 44, kan diegene die tegoeden van een overledene vrijgeeft overeenkomstig artikel [2 4.59, § 4, derde lid,]2 van het Burgerlijk Wetboek, dat maar op een bevrijdende wijze doen indien duidelijk uit het attest van erfopvolging [2 , de uitgifte of het uittreksel]2 van de akte van erfopvolging blijkt dat geen enkele kennisgeving als bedoeld in artikel 44 werd gedaan.
   In afwijking van het eerste lid kan het vrijgeven van de tegoeden van de overledene overeenkomstig artikel [2 4.59, § 4, derde lid,]2 van het Burgerlijk Wetboek toch op een bevrijdende wijze gedaan worden aan de erfgenaam, de legataris, de begunstigde van een contractuele erfstelling of een gerechtsmandataris die een attest van erfopvolging [2 , een uitgifte of een uittreksel]2 van de akte van erfopvolging voorlegt, waarin wordt vermeld:
@@ -504,27 +508,27 @@ In het attest van erfopvolging of onderaan de afgeleverde uitgifte [1 of het uit
   (1)<W 2022-01-19/18, art. 43, 008; Inwerkingtreding : 01-07-2022>
   (2)<W 2022-07-30/03, art. 38, 009; Inwerkingtreding : 01-11-2022>
 
-## Art. 47
+###### Art. 47
 
 Het in artikel 43 bedoelde bericht wordt opgemaakt overeenkomstig het door de Koning bepaalde model.
 
-## Art. 47/1
+###### Art. 47/1
 
 [1 De Federale Overheidsdienst Financiën vertegenwoordigd door de voorzitter van het Directiecomité is de verwerkingsverantwoordelijke in de zin van de Verordening (EU) 2016/679 van 27 april 2016 van het Europees Parlement en de Raad betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van richtlijn 95/46/EG, en van de wet van 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens, voor het verzamelen en opslaan van gegevens die van de notarissen worden ontvangen overeenkomstig artikel 43, het gebruik ervan om na te gaan of de personen die daarin worden vermeld, schuldenaar zijn van een zekere schuld, de kennisgeving van deze schulden, de mededeling van deze schulden aan de betrokken notarissen teneinde de inning van deze schulden te verzekeren.
     De gegevens opgenomen in het bericht en de kennisgeving respectievelijk bedoeld in de artikelen 43 en 44 worden door de Federale Overheidsdienst Financiën bewaard tot uiterlijk 31 december van het jaar volgend op het jaar waarin de verjaring plaatsvindt van alle handelingen nodig om de inning te verzekeren van zekere en vaststaande fiscale en niet-fiscale schuldvorderingen, verschuldigd door de erflater, zijn erfgenamen en legatarissen of de begunstigden van een door de erflater gemaakte contractuele erfstelling of om aansprakelijkheidsvorderingen te kunnen instellen teneinde de invordering van deze schulden te verzekeren, die tot de bevoegdheid van de verwerkingsverantwoordelijke bedoeld in het eerste lid behoren en, in voorkomend geval, de volledige betaling van alle ermee verbonden bedragen gerealiseerd werd en de ermee verbonden procedures en administratieve en gerechtelijke beroepen definitief afgesloten zijn.]1
    ----------
    (1)<Ingevoegd bij W 2020-04-23/27, art. 23, 002; Inwerkingtreding : 01-01-2020>
 
-## Art. 48
+###### Art. 48
 
 De artikelen 43 tot 47 zijn van toepassing op elke persoon of dienst die bevoegd is om een in artikel [2 4.59, § 4, derde lid,]2 van het Burgerlijk Wetboek bedoeld attest van erfopvolging op te maken.
   ----------
   (1)<W 2022-01-19/18, art. 44, 008; Inwerkingtreding : 01-07-2022>
   (2)<W 2022-07-30/03, art. 39, 009; Inwerkingtreding : 01-11-2022>
 
-###### Onderafdeling 3. - De overige aansprakelijkheden en plichten
+##### Onderafdeling 3. - De overige aansprakelijkheden en plichten
 
-## Art. 49
+###### Art. 49
 
 Openbare ambtenaren of ministeriële officieren, belast met de openbare verkoop van roerende goederen waarvan de waarde ten minste 2 500 euro bedraagt, zijn persoonlijk aansprakelijk in de zin van artikel [2 6.5]2 van het Burgerlijk Wetboek, voor de betaling van de sommen verschuldigd uit hoofde van fiscale en nietfiscale schuldvorderingen die de eigenaar op het ogenblik van de verkoop verschuldigd is, indien zij niet ten minste [1 zeven]1 werkdagen vooraf, bij aangetekende zending, de ontvanger waarvan de eigenaar van die goederen afhangt, ervan verwittigen.
    Wanneer de verkoop heeft plaatsgehad, geldt de kennisgeving van het bedrag van de fiscale en niet-fiscale schuldvorderingen door de ontvanger gedaan bij aangetekende zending, uiterlijk daags vóór de verkoop, als beslag onder derden in handen van de in het eerste lid vermelde openbare ambtenaren of ministeriële officieren.
@@ -532,7 +536,7 @@ Openbare ambtenaren of ministeriële officieren, belast met de openbare verkoop 
    (1)<W 2023-12-28/01, art. 96, 011; Inwerkingtreding : 08-01-2024>
    (2)<W 2024-02-07/18, art. 10, 013; Inwerkingtreding : 01-01-2025>
 
-## Art. 50
+###### Art. 50
 
 § 1. Onverminderd de toepassing van de artikelen 35 tot 41 is de overdracht in eigendom of in vruchtgebruik, van een geheel van goederen, samengesteld uit onder meer elementen die het behoud van de clientèle mogelijk maken, die voor de uitoefening van een vrij beroep, ambt of post of een industrieel, handels- of landbouwbedrijf worden aangewend, evenals de vestiging van een vruchtgebruik op dezelfde goederen, niet tegenstelbaar aan de ontvanger dan na verloop van de maand die volgt op die waarin een met het origineel eensluidend verklaard afschrift van de akte tot overdracht of vestiging ter kennis is gebracht van de voor de overdrager bevoegde ontvanger.
    § 2. De overnemer is hoofdelijk aansprakelijk voor de betaling van de sommen verschuldigd door de overdrager uit hoofde van fiscale en niet-fiscale schuldvorderingen, na verloop van de in paragraaf 1 vermelde termijn, tot beloop van het bedrag dat reeds door hem is betaald of verstrekt, of van een bedrag dat overeenstemt met de werkelijke waarde van de aandelen die in ruil voor de overdracht zijn toegekend vóór de afloop van de voornoemde termijn.
@@ -545,7 +549,7 @@ Openbare ambtenaren of ministeriële officieren, belast met de openbare verkoop 
    ----------
    (1)<W 2021-12-20/04, art. 7, 006; Inwerkingtreding : 07-01-2022>
 
-## Art. 51
+###### Art. 51
 
 § 1. In geval van tekortkoming, door een vennootschap of [1 een vereniging zonder winstoogmerk, een internationale vereniging zonder winstoogmerk of een buitenlandse vereniging wanneer deze verenigingen meer dan één van de criteria bedoeld in artikel 3:47, § 2, eerste lid, van het Wetboek van vennootschappen en verenigingen overschrijden]1, aan haar verplichting tot het betalen van de bedrijfsvoorheffing of de belasting over de toegevoegde waarde in haar hoedanigheid van belastingplichtige, zijn de bestuurder of bestuurders van de vennootschap of rechtspersoon die belast zijn met de dagelijkse leiding van de vennootschap of rechtspersoon hoofdelijk aansprakelijk voor de betaling van de bedrijfsvoorheffing of de belasting over de toegevoegde waarde indien de tekortkoming te wijten is aan een fout in de zin van artikel [2 6.6]2 van het Burgerlijk Wetboek, die ze hebben begaan bij het besturen van de vennootschap of rechtspersoon.
    Deze hoofdelijke aansprakelijkheid kan worden uitgebreid naar de andere bestuurders van de vennootschap of rechtspersoon indien in hun hoofde een fout wordt aangetoond die heeft bijgedragen tot de in het eerste lid bedoelde tekortkoming.
@@ -564,7 +568,7 @@ Openbare ambtenaren of ministeriële officieren, belast met de openbare verkoop 
    (1)<W 2021-12-20/04, art. 8, 006; Inwerkingtreding : 07-01-2022>
    (2)<W 2024-02-07/18, art. 11, 013; Inwerkingtreding : 01-01-2025>
 
-## Art. 52
+###### Art. 52
 
 § 1. Iedere rechtspersoon of natuurlijke persoon die - al dan niet samen met zijn echtgenoot en/of zijn descendenten, ascendenten en zijverwanten tot en met de tweede graad - rechtstreeks of onrechtstreeks minstens 33 percent bezit van de aandelen in een binnenlandse vennootschap, zoals bedoeld in artikel 2, § 1, 5°, b), van het Wetboek van de inkomstenbelastingen 1992, en deze aandelen, of een gedeelte daarvan ten belope van minstens 75 percent overdraagt uiterlijk in een tijdsspanne van één jaar, is van rechtswege hoofdelijk aansprakelijk voor de betaling van de inkomstenbelastingen en voorheffingen verschuldigd door de binnenlandse vennootschap waarvan het actief uiterlijk op de dag van de betaling van de prijs van de aandelen voor ten minste 75 percent bestaat uit vorderingen, financiële vaste activa, geldbeleggingen en/of liquide middelen.
   § 2. De in paragraaf 1 bedoelde hoofdelijke aansprakelijkheid geldt enkel voor de inkomstenbelastingen en voorheffingen, bedoeld in artikel 2, § 1, 7°, a), ii., van dit Wetboek, met inbegrip van de bijbehoren, verhogingen en geldboeten die betrekking hebben op:
@@ -573,9 +577,9 @@ Openbare ambtenaren of ministeriële officieren, belast met de openbare verkoop 
   Als de vennootschap uiterlijk de dag van de overdracht van de aandelen een meerwaarde gerealiseerd heeft op immateriële of materiële vaste activa dewelke het voorwerp kunnen uitmaken van een gespreide taxatie als bedoeld in artikel 47 van het Wetboek van de inkomstenbelastingen 1992 op voorwaarde van herbelegging van de waarde van de vervreemding overeenkomstig paragraaf 2 van dit artikel en tevens de intentie tot herbelegging kenbaar heeft gemaakt in haar fiscale aangifte met betrekking tot het belastbaar tijdperk waarin de meerwaarde gerealiseerd werd, zijn de verkopers van de aandelen bovendien hoofdelijk aansprakelijk voor de betaling van de belasting die betrekking heeft op de meerwaarde, als de herbelegging niet geschiedde binnen de wettelijke termijn.
   § 3. Paragraaf 1 is niet van toepassing op de overgedragen aandelen van een genoteerde vennootschap of een onderneming die onder het toezicht staat van de Autoriteit voor Financiële Diensten en Markten.
 
-##### Afdeling 4. - De hoofdelijke aansprakelijkheid voor de fiscale en niet-fiscale schulden van een aannemer of onderaannemer
+#### Afdeling 4. - De hoofdelijke aansprakelijkheid voor de fiscale en niet-fiscale schulden van een aannemer of onderaannemer
 
-## Art. 53
+###### Art. 53
 
 Voor de toepassing van de artikelen [2 54 tot 59]2, wordt verstaan onder:
    1° "werken":
@@ -628,7 +632,7 @@ Voor de toepassing van de artikelen [2 54 tot 59]2, wordt verstaan onder:
    (1)<W 2021-12-20/04, art. 9, 006; Inwerkingtreding : 07-01-2022>
    (2)<W 2021-12-20/04, art. 17, 006; Inwerkingtreding : 07-01-2022>
 
-## Art. 54
+###### Art. 54
 
 § 1. De opdrachtgever die, voor de in artikel 53, eerste lid, 1°, vermelde werken een beroep doet op een aannemer die fiscale en niet-fiscale schulden heeft op het ogenblik van het afsluiten van de overeenkomst, is hoofdelijk aansprakelijk voor de betaling van de schulden van zijn medecontractant.
    § 2. De aannemer die, voor de in artikel 53, eerste lid, 1°, vermelde werken een beroep doet op een onderaannemer die fiscale en niet-fiscale schulden heeft op het ogenblik van het afsluiten van de overeenkomst, is hoofdelijk aansprakelijk voor de betaling van de schulden van zijn medecontractant.
@@ -644,7 +648,7 @@ Voor de toepassing van de artikelen [2 54 tot 59]2, wordt verstaan onder:
    ----------
    (1)<W 2026-02-10/05, art. 35, 016; Inwerkingtreding : 09-03-2026>
 
-## Art. 55
+###### Art. 55
 
 § 1. De opdrachtgever die voor de in artikel 53, eerste lid, 1°, vermelde werken, een deel of het geheel van de prijs betaalt aan een aannemer die op het ogenblik van de betaling fiscale en niet-fiscale schulden heeft, is verplicht bij die betaling 15 percent van het door hem verschuldigde bedrag, exclusief belasting over de toegevoegde waarde, in te houden en te storten aan de door de Koning aangewezen ambtenaar volgens de door Hem bepaalde modaliteiten.
   § 2. De aannemer die voor de in artikel 53, eerste lid, 1°, vermelde werken, een deel of het geheel van de prijs betaalt aan een onderaannemer die op het ogenblik van de betaling fiscale en niet-fiscale schulden heeft, is verplicht bij die betaling 15 percent van het door hem verschuldigde bedrag, exclusief belasting over de toegevoegde waarde, in te houden en te storten aan de door de Koning aangewezen ambtenaar volgens de door Hem bepaalde modaliteiten.
@@ -654,58 +658,58 @@ Voor de toepassing van de artikelen [2 54 tot 59]2, wordt verstaan onder:
   § 5. Teneinde het bestaan van fiscale en niet-fiscale schulden in hoofde van de medecontractant te kunnen vaststellen, stelt de Federale Overheidsdienst Financiën een gegevensbank ter beschikking van het publiek die bewijskracht heeft voor de toepassing van de artikelen 54 en 55.
   Wanneer de opdrachtgever of aannemer met behulp van die gegevensbank vaststelt dat hij de in de paragrafen 1 en 2 vermelde inhoudingen moet doen, en wanneer het bedrag van de factuur die hem is voorgelegd hoger is dan of gelijk aan 7 143 euro, nodigt hij zijn medecontractant uit om hem een attest over te leggen dat het bedrag van de schuld weergeeft. Dit attest houdt rekening met de schuld op de dag waarop het is opgesteld. De Koning bepaalt de geldigheidstermijn van dit attest. Indien zijn medecontractant bevestigt dat de fiscale en niet-fiscale schulden hoger zijn dan de te verrichten inhoudingen of wanneer hij het attest niet binnen de maand na de aanvraag overlegt, is de opdrachtgever of de aannemer ertoe gehouden 15 percent van het door hem verschuldigde bedrag, exclusief belasting over de toegevoegde waarde, in te houden en te storten.
 
-## Art. 56
+###### Art. 56
 
 De vennoten van een vennootschap zonder rechtspersoonlijkheid zijn onderling hoofdelijk aansprakelijk voor de betaling van de sommen die in uitvoering van de artikelen 54 en 55 door de vennootschap zonder rechtspersoonlijkheid verschuldigd zijn.
 
-## Art. 57
+###### Art. 57
 
 § 1. Het ter uitvoering van artikel 55 gestorte bedrag wordt aangewend tot aanzuivering van de in artikel 53, eerste lid, 5°, vermelde fiscale en niet-fiscale schulden.
    Voor ieder van de in het eerste lid, bedoelde fiscale en niet-fiscale schulden wordt de aanwending in de navolgende volgorde toegerekend: eerst op de kosten, daarna op de nalatigheidsinteresten, vervolgens op de verhogingen, de administratieve of fiscale geldboeten en tenslotte op de nog verschuldigde hoofdsom, met inbegrip van de opdeciemen en opcentiemen.
    § 2. De Koning bepaalt op welke wijze, onder welke voorwaarden en binnen welke termijn de persoon op wiens schuldvordering het gestorte bedrag werd ingehouden dit bedrag terugkrijgt in de mate dat de stortingen het bedrag van de in paragraaf 1 bedoelde fiscale en niet-fiscale schulden overschrijden.
 
-## Art. 58
+###### Art. 58
 
 De artikelen 54 en 55 zijn niet van toepassing op de opdrachtgever-natuurlijke persoon in de mate dat hij voor louter privédoeleinden de in artikel 53, eerste lid, 1°, vermelde werken laat uitvoeren.
 
-## Art. 59
+###### Art. 59
 
 De artikelen 54 tot 58 blijven van toepassing in geval van een procedure van gerechtelijke reorganisatie, faillissement of elke andere samenloop van schuldeisers alsook in geval van overdracht, beslag onder derden, inpandgeving, inbetalinggeving of een in artikel 1798 van het Burgerlijk Wetboek bedoelde rechtstreekse vordering.
 
-##### Afdeling 5. [1 De hoofdelijke aansprakelijkheid van groepsentiteiten voor de minimumbelasting]1
+#### Afdeling 5. [1 De hoofdelijke aansprakelijkheid van groepsentiteiten voor de minimumbelasting]1
   ----------
   (1)<Ingevoegd bij W 2023-12-19/07, art. 74, 010; Inwerkingtreding : 07-01-2024>
 
-## Art. 59/1
+###### Art. 59/1
 
 [1 De aan de binnenlandse bijheffing onderworpen groepsentiteiten, joint ventures en de met de joint ventures gelieerde partijen, bedoeld in artikel 27/1 van de wet van 19 december 2023 houdende de invoering van een minimumbelasting voor multinationale ondernemingen en omvangrijke binnenlandse groepen, zijn hoofdelijk gehouden tegenover de Staat tot de betaling van de bedragen verschuldigd ten titel van fiscale schuldvorderingen uit hoofde van deze binnenlandse bijheffing.
     De aan de UTPR-bijheffing onderworpen groepsentiteiten bedoeld in artikel 35, paragraaf 1, van dezelfde wet, zijn hoofdelijk gehouden tegenover de Staat tot de betaling van de bedragen verschuldigd ten titel van fiscale schuldvorderingen uit hoofde van deze bijheffing.]1
   ----------
   (1)<W 2025-12-19/36, art. 29, 015; Inwerkingtreding : 10-01-2026>
 
-#### HOOFDSTUK 4. - De betwiste fiscale en niet-fiscale schuldvorderingen
+### HOOFDSTUK 4. - De betwiste fiscale en niet-fiscale schuldvorderingen
 
-##### Afdeling 1. - Algemene bepalingen
+#### Afdeling 1. - Algemene bepalingen
 
-## Art. 60
+###### Art. 60
 
 In geval van een administratief beroep of een rechtsvordering, kunnen de aldus betwiste fiscale en nietfiscale schuldvorderingen, op basis van een uittreksel uit het kohier met vermelding van de datum van uitvoerbaarverklaring van dat kohier of van een afschrift van een innings- en invorderingsbericht, voorwerp zijn van bewarende beslagen of alle andere maatregelen die ertoe strekken de invordering ervan te waarborgen.
 
-##### Afdeling 2. - De zekere en vaststaande schuldvordering inzake inkomstenbelastingen, voorheffingen en met de inkomstenbelastingen gelijkgestelde belastingen
+#### Afdeling 2. - De zekere en vaststaande schuldvordering inzake inkomstenbelastingen, voorheffingen en met de inkomstenbelastingen gelijkgestelde belastingen
 
-## Art. 61
+###### Art. 61
 
 In geval van administratief beroep of van een rechtsvordering, worden de betwiste inkomstenbelastingen, de voorheffingen en de met de inkomstenbelastingen gelijkgestelde belastingen beschouwd als een zekere en vaststaande schuldvordering en kunnen ze door middelen tot tenuitvoerlegging worden ingevorderd, in de mate dat zij overeenstemmen met het bedrag van de aangegeven inkomsten of, wanneer zij ambtshalve werden gevestigd bij niet-aangifte, voor zover zij niet meer bedragen dan de laatste aanslag welke, voor een vorig aanslagjaar, definitief gevestigd werd ten laste van de schuldenaar.
    Voor de toepassing van het eerste lid worden de inkomsten waaraan de schuldenaar tijdens de procedure van vestiging van de inkomstenbelastingen, voorheffingen en met de inkomstenbelastingen gelijkgestelde belastingen zijn goedkeuring heeft gehecht, gelijkgesteld met de aangegeven inkomsten.
    In bijzondere gevallen kan de adviseur-generaal van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen of zijn gemachtigde de invordering doen uitstellen, in de mate en onder de door hem te bepalen voorwaarden.
 
-## Art. 62
+###### Art. 62
 
 Na invordering van de inkomstenbelastingen, voorheffingen en met de inkomstenbelastingen gelijkgestelde belastingen in de mate bepaald in artikel 61, behoudt het uitvoerend beslag zijn uitwerking ten opzichte van het overschot van de inkomstenbelastingen, voorheffingen en met de inkomstenbelastingen gelijkgestelde belastingen.
 
-#### HOOFDSTUK 5. - Het onbeperkt uitstel van de invordering
+### HOOFDSTUK 5. - Het onbeperkt uitstel van de invordering
 
-## Art. 63
+###### Art. 63
 
 § 1. Op verzoek van een schuldenaar of een medeschuldenaar, natuurlijke persoon, kan de adviseurgeneraal van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen of zijn gemachtigde aan hem onbeperkt uitstel van de invordering verlenen voor de door hem uit hoofde van fiscale of niet-fiscale schuldvorderingen verschuldigde sommen.
    De adviseur-generaal van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen of zijn gemachtigde bepaalt de voorwaarden waaronder hij, geheel of gedeeltelijk, het onbeperkt uitstel van de invordering van een of meerdere verschuldigde sommen bedoeld in het eerste lid verleent. Hij verbindt zijn beslissing aan de voorwaarde dat de verzoeker onmiddellijk of gespreid een betaling doet van een som die bestemd is om te worden aangewend op de sommen verschuldigd uit hoofde van de fiscale of niet-fiscale schuldvorderingen en waarvan het bedrag door hem wordt bepaald.
@@ -716,18 +720,18 @@ Na invordering van de inkomstenbelastingen, voorheffingen en met de inkomstenbel
    § 3. Het onbeperkt uitstel van de invordering kan eveneens ambtshalve worden verleend aan de schuldenaar of medeschuldenaar, onder de voorwaarden bedoeld in de paragrafen 1 en 2, op voorstel van de ontvanger.
    § 4 De adviseur-generaal van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen of zijn gemachtigde kan geen onbeperkt uitstel van de invordering verlenen voor sommen verschuldigd uit hoofde van fiscale en niet-fiscale schuldvorderingen die het voorwerp zijn van een administratief beroep of van een rechtsvordering, noch voor sommen verschuldigd uit hoofde van schuldvorderingen gevestigd ten gevolge van de vaststelling van fiscale fraude of in geval van samenloop van schuldeisers.
 
-## Art. 64
+###### Art. 64
 
 Het verzoek tot uitstel moet worden gemotiveerd en moet bewijskrachtige elementen bevatten met betrekking tot de toestand van de verzoeker.
   Het wordt bij aangetekende zending ingediend bij de adviseur-generaal van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen waaronder de schuldenaar ressorteert.
   Aan de verzoeker wordt een ontvangstbewijs uitgereikt met vermelding van de datum van ontvangst van het verzoek.
 
-## Art. 65
+###### Art. 65
 
 De behandeling van het verzoek tot onbeperkt uitstel van de invordering wordt toevertrouwd aan de ontvanger.
   Teneinde de behandeling van het verzoek te verzekeren, beschikt hij over de onderzoeksbevoegdheden zoals bedoeld in titel 4.
 
-## Art. 66
+###### Art. 66
 
 § 1. De adviseur-generaal van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen of zijn gemachtigde doet uitspraak binnen de zes maanden na de ontvangst van het verzoek.
    Zijn beslissing wordt ter kennis gebracht van de verzoeker bij aangetekende zending.
@@ -736,12 +740,12 @@ De behandeling van het verzoek tot onbeperkt uitstel van de invordering wordt to
   De commissie doet uitspraak binnen de drie maanden na de ontvangst van het beroep.
   De beslissing van de commissie wordt per aangetekende zending ter kennis van de eiser gebracht.
 
-## Art. 67
+###### Art. 67
 
 De indiening van het verzoek of van het voorstel tot onbeperkt uitstel van de invordering schorst alle middelen tot tenuitvoerlegging tot op de dag dat de beslissing van de adviseur-generaal van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen of van zijn gemachtigde definitief is geworden of, in het geval van beroep, tot op de dag van de kennisgeving van de beslissing van de commissie bedoeld in artikel 66, § 2. De reeds gelegde beslagen behouden echter hun bewarende werking.
   Het indienen van het verzoek of van het voorstel tot onbeperkt uitstel van de invordering doet echter geen afbreuk aan andere maatregelen die ertoe strekken de invordering van de fiscale en niet-fiscale schuldvorderingen te waarborgen, noch aan de kennisgeving van een aanmaning tot betaling om de verjaring te stuiten overeenkomstig artikel 24.
 
-## Art. 68
+###### Art. 68
 
 De schuldenaar of medeschuldenaar verliest het voordeel van het onbeperkt uitstel van de invordering wanneer hij, hetzij:
   1° onjuiste informatie heeft verstrekt teneinde het voordeel van het onbeperkt uitstel van de invordering te verkrijgen;
@@ -749,37 +753,37 @@ De schuldenaar of medeschuldenaar verliest het voordeel van het onbeperkt uitste
   3° onrechtmatig zijn passief heeft verhoogd of zijn actief heeft verminderd;
   4° zijn onvermogen heeft bewerkstelligd.
 
-## Art. 69
+###### Art. 69
 
 De Koning bepaalt de toepassingsvoorwaarden van de artikelen 63 tot 68. Hij kan met name de objectieve voorwaarden bepalen voor het vaststellen van de som die moet worden betaald door de verzoeker, zoals bedoeld in artikel 63, § 1.
 
-#### HOOFDSTUK 6. - De vrijstelling van nalatigheidsinteresten
+### HOOFDSTUK 6. - De vrijstelling van nalatigheidsinteresten
 
-## Art. 70
+###### Art. 70
 
 In bijzondere gevallen mag de adviseur-generaal van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen of zijn gemachtigde ambtenaar, onder de door hem bepaalde voorwaarden, vrijstelling verlenen voor al de nalatigheidsinteresten of een deel ervan verschuldigd op de fiscale en niet-fiscale schuldvorderingen.
 
-#### HOOFDSTUK 7. - De fiscale en niet-fiscale bemiddeling
+### HOOFDSTUK 7. - De fiscale en niet-fiscale bemiddeling
 
-## Art. 71
+###### Art. 71
 
 In geval van betwisting met een ambtenaar van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen, kunnen de schuldenaar alsook de medeschuldenaar een aanvraag tot bemiddeling indienen bij de fiscale bemiddelingsdienst bedoeld bij artikel 116 van de wet van 25 april 2007 houdende diverse bepalingen (IV).
 
-#### HOOFDSTUK 8. - De wederzijdse bijstand
+### HOOFDSTUK 8. - De wederzijdse bijstand
 
-## Art. 72
+###### Art. 72
 
 De invordering van Belgische fiscale en niet-fiscale schuldvorderingen in het buitenland geschiedt op basis van communautaire instrumenten of internationale bilaterale of multilaterale verdragen, waarbij België en de aangezochte buitenlandse Staat partij zijn en die bepalingen inzake invorderingsbijstand bevatten.
 
-## Art. 73
+###### Art. 73
 
 De ontvanger is gemachtigd om buitenlandse schuldvorderingen in te vorderen die bedoeld zijn in een communautair instrument of een internationaal bilateraal of multilateraal verdrag, waarbij België en de verzoekende buitenlandse Staat partij zijn en die bepalingen inzake invorderingsbijstand bevatten.
 
-### TITEL 4. - De onderzoeksbevoegdheden, de bewijsmiddelen en het beroepsgeheim van de ambtenaren belast met de invordering
+## TITEL 4. - De onderzoeksbevoegdheden, de bewijsmiddelen en het beroepsgeheim van de ambtenaren belast met de invordering
 
-#### HOOFDSTUK 1. - De onderzoeksbevoegdheden en de bewijsmiddelen
+### HOOFDSTUK 1. - De onderzoeksbevoegdheden en de bewijsmiddelen
 
-## Art. 74
+###### Art. 74
 
 Iedere persoon is gehouden om, zonder verplaatsing, op ieder verzoek van de ambtenaren belast met de invordering, alle boeken en bescheiden voor te leggen die toereikend, ter zake dienend, niet overmatig en noodzakelijk zijn om zijn vermogenssituatie of die van derden te bepalen met het oog op het invorderen van de fiscale en niet-fiscale schuldvorderingen in zijn hoofde of in hoofde van derden.
    Wanneer de boeken en bescheiden, geheel of ten dele, door middel van een informaticasysteem worden gehouden, opgesteld, uitgereikt, ontvangen of bewaard, hebben die ambtenaren het recht om zich de op die informatiedragers geplaatste gegevens in een leesbare en verstaanbare vorm ter inzage te doen voorleggen. Die ambtenaren kunnen eveneens de in het eerste lid bedoelde persoon verzoeken om in hun bijzijn en op zijn uitrusting kopies te maken in de door hen gewenste vorm van het geheel of een deel van de voormelde gegevens, alsook om de informaticabewerkingen te verrichten die nodig worden geacht met het oog op het invorderen van de fiscale en niet-fiscale schuldvorderingen.
@@ -788,12 +792,12 @@ Iedere persoon is gehouden om, zonder verplaatsing, op ieder verzoek van de ambt
    De in het derde lid bedoelde retentie maakt het voorwerp uit van een proces-verbaal van retentie dat bewijs oplevert zolang het tegendeel niet is bewezen. Een afschrift van dit proces-verbaal wordt binnen de vijf werkdagen volgend op de retentie aan de in het derde lid bedoelde persoon uitgereikt.
    De in dit artikel vermelde verplichtingen gelden eveneens wanneer de gegevens waar de ambtenaren belast met de invordering om verzoeken, zich digitaal in België of in het buitenland bevinden.
 
-## Art. 75
+###### Art. 75
 
 Onverminderd het recht van de ambtenaren belast met de invordering om mondeling inlichtingen te vragen, is iedere persoon verplicht deze ambtenaren op hun verzoek, binnen de termijn vermeld op de schriftelijke aanvraag, welke termijn wegens wettige redenen kan worden verlengd, schriftelijk alle toereikende, ter zake dienende en niet overmatige inlichtingen te verstrekken die van hem worden gevorderd, teneinde zijn vermogenssituatie of die van derden te bepalen met het oog op het invorderen van de fiscale en niet-fiscale schuldvorderingen in zijn hoofde of in hoofde van derden.
    De ontvanger kan, mits machtiging van een ambtenaar met minimum de graad van adviseur-generaal, aan het centraal aanspreekpunt van de Nationale Bank van België de in artikel 322, § 3, eerste lid, van het Wetboek van de inkomstenbelastingen 1992 bedoelde beschikbare gegevens betreffende een schuldenaar of een medeschuldenaar vragen zonder de beperkingen van artikel 322, §§ 2 tot 4, van hetzelfde Wetboek, teneinde de invordering van de fiscale en niet-fiscale schuldvorderingen te verzekeren.
 
-## Art. 76
+###### Art. 76
 
 Teneinde zijn vermogenssituatie of die van een derde te bepalen en met het oog op het invorderen van de fiscale en niet-fiscale schuldvorderingen in zijn hoofde of in hoofde van derden is iedere persoon gehouden aan de ambtenaren belast met de invordering, voorzien van hun aanstellingsbewijs, tijdens de uren dat er een werkzaamheid wordt uitgeoefend, vrije toegang te verlenen tot de beroepslokalen of de lokalen waar hij zijn werkzaamheden uitoefent, zoals kantoren, fabrieken, werkhuizen, werkplaatsen, magazijnen, bergplaatsen, garages en als werkplaats, werkhuis of opslagplaats gebruikte terreinen, teneinde deze ambtenaren toe te laten:
   1° om alle toereikende, ter zake dienende en niet overmatige boeken en bescheiden die er zich bevinden, te onderzoeken;
@@ -801,7 +805,7 @@ Teneinde zijn vermogenssituatie of die van een derde te bepalen en met het oog o
   De ambtenaren belast met de invordering, voorzien van hun aanstellingsbewijs, mogen voor hetzelfde doel op elk ogenblik en zonder voorafgaande verwittiging maar op toereikende, ter zake dienende en niet overmatige wijze, vrij binnentreden in alle gebouwen, werkplaatsen, inrichtingen, lokalen of andere plaatsen, die niet in het eerste lid bedoeld zijn en waar werkzaamheden verricht of vermoedelijk verricht worden. Tot particuliere woningen of bewoonde lokalen hebben zij evenwel slechts toegang tussen vijf uur `s morgens en negen uur `s avonds en met de machtiging van de politierechter.
   De voormelde ambtenaren, voorzien van hun aanstellingsbewijs, mogen door middel van de gebruikte uitrusting en met de bijstand van de personen als vermeld in artikel 74, tweede lid, de betrouwbaarheid nagaan van de toereikende, ter zake dienende en niet overmatige geïnformatiseerde inlichtingen, gegevens en bewerkingen, door inzonderheid de voorlegging ter inzage te vorderen van stukken die in het bijzonder zijn opgesteld om de op informatiedragers geplaatste gegevens om te zetten in een leesbare en verstaanbare vorm.
 
-## Art. 77
+###### Art. 77
 
 § 1. De administratieve diensten van de Staat, de parketten en de griffies van de hoven en van alle rechtscolleges, de administraties van de Gemeenschappen, de Gewesten, de provincies, de agglomeraties, de federaties van gemeenten en de gemeenten evenals de openbare instellingen en inrichtingen, zijn gehouden, wanneer zij daartoe worden aangezocht door een ambtenaar belast met de invordering van fiscale en niet-fiscale schuldvorderingen, hem alle in hun bezit zijnde toereikende, ter zake dienende en niet overmatige inlichtingen te verstrekken, hem, zonder verplaatsing, van alle in hun bezit zijnde akten, stukken, registers en om het even welke bescheiden inzage te verlenen, en hem alle inlichtingen, afschriften of uittreksels te laten nemen, welke de bedoelde ambtenaar nodig acht om de invordering van de fiscale en niet-fiscale schuldvorderingen te verzekeren.
    Onder "openbare instellingen of inrichtingen" verstaat men de instellingen, maatschappijen, verenigingen, inrichtingen en diensten welke de Staat, een Gemeenschap of een Gewest mede beheert, waaraan de Staat, een Gemeenschap of een Gewest een waarborg verstrekt, op de werkzaamheden waarvan de Staat, een Gemeenschap of een Gewest toezicht uitoefent of waarvan het bestuurspersoneel wordt aangewezen door de federale regering of een Gemeenschaps- of Gewestregering, op haar voordracht of met haar goedkeuring.
@@ -814,21 +818,21 @@ Teneinde zijn vermogenssituatie of die van een derde te bepalen en met het oog o
    ----------
    (1)<W 2021-12-20/04, art. 10, 006; Inwerkingtreding : 07-01-2022>
 
-## Art. 78
+###### Art. 78
 
 Alle administraties die ressorteren onder de Federale Overheidsdienst [1 Financiën zijn gehouden]1 aan de ambtenaren belast met de invordering, alle in hun bezit zijnde toereikende, ter zake dienende en niet overmatige inlichtingen ter beschikking te stellen, die bijdragen tot de vervulling van de opdracht van die ambtenaren om de invordering van fiscale en niet-fiscale schuldvorderingen te verzekeren, onder de voorwaarden en modaliteiten bepaald door artikel 4 van de wet van 3 augustus 2012 houdende bepalingen betreffende de verwerking van persoonsgegevens door de Federale Overheidsdienst Financiën in het kader van zijn opdrachten.
   ----------
   (1)<W 2021-12-20/04, art. 19, 006; Inwerkingtreding : 07-01-2022>
 
-## Art. 79
+###### Art. 79
 
 Wanneer een krachtens de artikelen 74 tot 76 aangezochte persoon het beroepsgeheim doet gelden, verzoekt de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen om tussenkomst van de territoriaal bevoegde tuchtoverheid opdat deze zou oordelen of, en gebeurlijk in welke mate, de vraag om inlichtingen of de overlegging van boeken en bescheiden, of het verzoek tot vrije toegang tot de beroepslokalen of de lokalen waar hij werkzaamheden uitoefent verzoenbaar is met het eerbiedigen van het beroepsgeheim.
 
-## Art. 80
+###### Art. 80
 
 Elke inlichting, stuk, proces-verbaal of akte, bij het uitoefenen van zijn functie ontdekt of bekomen door een ambtenaar belast met de invordering, hetzij rechtstreeks, hetzij door tussenkomst van één van de in artikel 77 bedoelde administratieve diensten, parketten en griffies, administraties, openbare instellingen of inrichtingen, kan door de Staat worden ingeroepen om elke krachtens de fiscale wetten verschuldigde som op te sporen.
 
-## Art. 81
+###### Art. 81
 
 [1 § 1. Elk bericht dat onder gesloten omslag wordt verzonden aan de Federale Overheidsdienst Financiën in het kader van de toepassing van dit Wetboek of de ter uitvoering ervan genomen besluiten, de fiscale wetten of de wettelijke of reglementaire bepalingen met betrekking tot niet-fiscale schuldvorderingen wordt [2 door de administratie]2 van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen, gereproduceerd, geregistreerd en bewaard [2 ...]2 volgens een informatica- of telegeleidingstechniek.
     Het aldus gedigitaliseerd beeld van het bericht verzonden aan de Federale Overheidsdienst Financiën, verkregen door middel van een informatica- of telegeleidingstechniek, heeft, voor de toepassing van de bepalingen van dit Wetboek of de ter uitvoering ervan genomen besluiten, de fiscale wetten of wettelijke of reglementaire bepalingen met betrekking tot niet-fiscale schuldvorderingen, bewijskracht voor zover het de getrouwe en duurzame kopie is van het geschrift waarvan het afkomstig is en het voorzien is van een geavanceerd elektronische zegel dat voldoet aan de eisen vermeld in artikel 36 van de verordening (EU) nr.
@@ -841,62 +845,62 @@ Elke inlichting, stuk, proces-verbaal of akte, bij het uitoefenen van zijn funct
    (1)<W 2021-01-26/12, art. 173, 007; Inwerkingtreding : 01-04-2021>
    (2)<W 2022-01-21/03, art. 113, 007; Inwerkingtreding : 07-02-2022>
 
-## Art. 82
+###### Art. 82
 
 Iedere overtreding of elk misbruik van de bepalingen van dit Wetboek of van de ter uitvoering ervan genomen besluiten, kan door de ambtenaren belast met de invordering worden bewezen volgens de regelen en door alle bewijsmiddelen van het gemeen recht, getuigen en vermoedens inbegrepen, doch uitgezonderd de eed, en daarenboven door de processen-verbaal opgesteld door de ambtenaren van de Federale Overheidsdienst Financiën.
   De processen-verbaal leveren bewijs op zolang het tegendeel niet is bewezen.
 
-#### HOOFDSTUK 2. - Het beroepsgeheim
+### HOOFDSTUK 2. - Het beroepsgeheim
 
-## Art. 83
+###### Art. 83
 
 Hij die, in welke hoedanigheid ook, optreedt bij de toepassing van dit Wetboek, de fiscale wetten of wettelijke of reglementaire bepalingen met betrekking tot niet-fiscale schuldvorderingen, of die toegang heeft tot de ambtsvertrekken van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen, is, buiten de uitoefening van zijn ambt, verplicht tot de meest volstrekte geheimhouding aangaande alle zaken waarvan hij wegens de uitvoering van zijn opdracht kennis heeft.
    De ambtenaren van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen oefenen hun ambt uit wanneer zij aan andere administratieve diensten van de Staat, aan de parketten en de griffies van de hoven en van alle rechtscolleges, aan de administraties van de Gemeenschappen, de Gewesten, de provincies, de agglomeraties, de federaties van gemeenten en de gemeenten, evenals aan de in artikel 77, § 1, tweede lid, bedoelde openbare instellingen of inrichtingen, inlichtingen verstrekken welke voor die administratieve diensten, parketten en griffies, administraties, openbare instellingen of inrichtingen nodig zijn om de uitvoering van de hun opgedragen wettelijke of reglementaire bepalingen te verzekeren.
    De ambtenaren van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen oefenen eveneens hun ambt uit wanneer zij, met betrekking tot de fiscale en niet-fiscale schuldvorderingen verschuldigd door een schuldenaar, een vraag om raadpleging, uitleg of mededeling van een medeschuldenaar inwilligen.
    Personen die deel uitmaken van de diensten waaraan de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen ingevolge het tweede lid inlichtingen heeft verstrekt, zijn eveneens tot dezelfde geheimhouding verplicht en mogen de bekomen inlichtingen niet gebruiken buiten het kader van de wettelijke of reglementaire bepalingen voor de uitvoering waarvan zij zijn verstrekt.
 
-### TITEL 5. - Sancties
+## TITEL 5. - Sancties
 
-#### HOOFDSTUK 1. - De administratieve geldboeten
+### HOOFDSTUK 1. - De administratieve geldboeten
 
-## Art. 84
+###### Art. 84
 
 De adviseur-generaal van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen of de door hem gemachtigde ambtenaar kan voor iedere overtreding van de bepalingen van dit Wetboek, evenals van de ter uitvoering ervan genomen besluiten, een geldboete van 50 euro tot 1 250 euro opleggen.
    De Koning legt de schaal van de administratieve geldboeten vast en regelt hun toepassingsmodaliteiten.
    Deze geldboete wordt gevestigd overeenkomstig artikel 3, §§ 2 tot 4, van de domaniale wet van 22 december
  1949.
 
-#### HOOFDSTUK 2. - De strafrechtelijke en bijzondere sancties
+### HOOFDSTUK 2. - De strafrechtelijke en bijzondere sancties
 
-## Art. 85
+###### Art. 85
 
 Hij die met bedrieglijk opzet of met het oogmerk om te schaden, de bepalingen van dit Wetboek of van de ter uitvoering ervan genomen besluiten overtreedt, wordt gestraft met een gevangenisstraf van acht dagen tot twee jaar en met een geldboete van 250 euro tot 500 000 euro of met een van die straffen alleen.
 
-## Art. 86
+###### Art. 86
 
 Met een gevangenisstraf van een maand tot vijf jaar en met een geldboete van 250 euro tot 500 000 euro of met één van die straffen alleen wordt gestraft hij die, met het oogmerk om een van de in artikel 85 bedoelde misdrijven te plegen, in openbare geschriften, in handelsgeschriften of in private geschriften valsheid pleegt, of die van een zodanig vals geschrift gebruik maakt.
   Hij die wetens en willens een vals getuigschrift opstelt dat de belangen van de Schatkist kan schaden of die van een dergelijk getuigschrift gebruik maakt, wordt gestraft met een gevangenisstraf van acht dagen tot twee jaar en met een geldboete van 250 euro tot 500 000 euro of met één van die straffen alleen.
 
-## Art. 86/1
+###### Art. 86/1
 
 [1 Ten einde te vermijden dat een veroordeelde aan een onredelijk zware straf zou worden onderworpen, houdt de rechter bij de straftoemeting rekening met de verschuldigde administratieve geldboeten.
    Artikel 42, 3°, van het Strafwetboek vindt geen toepassing op de vermogensvoordelen die rechtstreeks uit de misdrijven bedoeld in de artikelen 85 tot 89 en 91 zijn verkregen, op de goederen en waarden die in de plaats ervan zijn gesteld en op de inkomsten uit de belegde voordelen in geval de vordering van de fiscale administratie gegrond wordt verklaard en tot een effectieve betaling van deze volledige vordering heeft geleid.]1
   ----------
   (1)<Ingevoegd bij W 2020-06-11/15, art. 9, 003; Inwerkingtreding : 01-01-2020>
 
-## Art. 87
+###### Art. 87
 
 Hij die een valse getuigenis aflegt, als tolk of als deskundige een valse verklaring aflegt, een of meer getuigen, deskundigen of tolken in een van de door de artikelen 74 tot 76 toegelaten onderzoeken verleidt, wordt gestraft overeenkomstig de bepalingen van de artikelen 220 tot 224 van het Strafwetboek.
 
-## Art. 88
+###### Art. 88
 
 De niet-verschijning of de weigering om te getuigen in de door de artikelen 74 tot 76 toegelaten onderzoeken wordt gestraft met een gevangenisstraf van acht dagen tot zes maanden en met een geldboete van 125 euro tot 500 000 euro of met één van die straffen alleen.
 
-## Art. 89
+###### Art. 89
 
 De schending van het bij artikel 83 bepaalde beroepsgeheim wordt gestraft overeenkomstig artikel 458 van het Strafwetboek.
 
-## Art. 90
+###### Art. 90
 
 Onverminderd de toepassing van artikel 84, kunnen de overtredingen van de bepalingen van dit Wetboek, evenals van de ter uitvoering ervan genomen besluiten met betrekking tot de belasting op de spelen en de weddenschappen bedoeld in titel III van het Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen aanleiding geven tot:
    1° de verbeurdverklaring van de gelden of effecten bij de spelen of de weddenschappen ingezet, alsmede de gelden of effecten bestemd voor de dienst van de spelen of de weddenschappen in het bezit gevonden van de overtreders op het ogenblik dat het misdrijf wordt vastgesteld;
@@ -905,18 +909,18 @@ Onverminderd de toepassing van artikel 84, kunnen de overtredingen van de bepali
    De beslissing tot sluiting van de inrichting of tot verbod om inzetten of weddenschappen aan te nemen kan, binnen tien dagen van haar kennisgeving, het voorwerp zijn van een verhaal bij de voorzitter van de rechtbank van eerste aanleg zetelend in kortgeding; de bevoegde voorzitter is deze van het ambtsgebied waarvan de gemeente afhangt waar de inrichting gevestigd is of waar de inzetten of de weddenschappen werden aangenomen.
    Het verhaal schorst de uitvoering van de beslissing niet wanneer deze laatste genomen wordt omwille van een weigering om de onderzoeksdaden bedoeld in Titel 4 te respecteren, een zakelijke waarborg te stellen of de uitstaande schuld te betalen.
 
-## Art. 91
+###### Art. 91
 
 Hij die, hetzij rechtstreeks, hetzij onrechtstreeks, hetzij door een tussenpersoon, de sluiting of het verbod uitgesproken krachtens artikel 90, schendt, wordt gestraft met een gevangenisstraf van acht dagen tot twee jaar en met een geldboete van 250 euro tot 12 500 euro of met één van die straffen alleen.
 
-## Art. 92
+###### Art. 92
 
 Alle bepalingen van boek I, van het Strafwetboek, met inbegrip van hoofdstuk VII en artikel 81 zijn van toepassing op de in de artikelen 85 tot 89 en 91 bedoelde misdrijven.
   De wet van 5 maart 1952 betreffende de opdecimes op de strafrechtelijke geldboeten, is van toepassing op de misdrijven bedoeld in de [1 artikelen 85, 86, 88 en 91]1.
   ----------
   (1)<W 2021-12-20/04, art. 20, 006; Inwerkingtreding : 07-01-2022>
 
-## Art. 93
+###### Art. 93
 
 § 1. Personen die als daders of als medeplichtigen van misdrijven bedoeld in de artikelen 85 tot 88 werden veroordeeld, zijn hoofdelijk gehouden tot betaling van de fiscale en niet-fiscale schuldvorderingen, met uitsluiting van de verhogingen, de administratieve en fiscale geldboeten bedoeld in artikel 2, § 1, 7°, en de op deze verhogingen en geldboeten betrekking hebbende bijbehoren, waarvan de betaling werd ontdoken.
   De hoofdelijkheid bedoeld in het eerste lid is eveneens van toepassing op de personen die, als daders of als medeplichtigen worden beschuldigd van misdrijven bedoeld in de [1 artikelen 85 tot 88]1, wanneer de feiten die de misdrijven opleveren bewezen verklaard zijn, wanneer zij genieten van:
@@ -929,7 +933,7 @@ Alle bepalingen van boek I, van het Strafwetboek, met inbegrip van hoofdstuk VII
   (1)<W 2021-12-20/04, art. 21, 006; Inwerkingtreding : 07-01-2022>
   (2)<W 2024-04-09/07, art. 59, 012; Inwerkingtreding : 28-04-2024>
 
-## Art. 94
+###### Art. 94
 
 § 1. De strafvordering wordt uitgeoefend door het openbaar ministerie.
    § 2. Het openbaar ministerie kan echter geen vervolgingen instellen, indien het kennis heeft gekregen van de feiten enkel ten gevolge van een klacht of een aangifte van een ambtenaar die niet de machtiging had waarvan sprake is in [1 artikel 29, § 2]1, van het Wetboek van Strafvordering.
@@ -939,13 +943,13 @@ Alle bepalingen van boek I, van het Strafwetboek, met inbegrip van hoofdstuk VII
    ----------
    (1)<W 2020-06-11/15, art. 10, 003; Inwerkingtreding : 01-01-2020>
 
-## Art. 95
+###### Art. 95
 
 In het kader van de kennisgeving en het overleg bedoeld in [1 artikel 29, § 2 en § 3, tweede lid]1, van het Wetboek van Strafvordering, deelt de bevoegde adviseur-generaal van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen of de ambtenaar die hij aanwijst, de gegevens van het dossier met betrekking tot de feiten die strafrechtelijk strafbaar zijn ingevolge de bepalingen van dit Wetboek of van de ter uitvoering ervan genomen besluiten mede aan het openbaar ministerie.
   ----------
   (1)<W 2020-06-11/15, art. 11, 003; Inwerkingtreding : 01-01-2020>
 
-## Art. 96
+###### Art. 96
 
 De ambtenaren van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen mogen, op straffe van nietigheid van de akte van rechtspleging, slechts als getuige worden gehoord.
    Het eerste lid is niet van toepassing op de krachtens artikel 71 van de wet van 28 december 1992 houdende fiscale, financiële en diverse bepalingen, bij het parket gedetacheerde ambtenaren van deze administratie.

@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld

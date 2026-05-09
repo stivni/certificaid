@@ -436,22 +436,39 @@ def _merge_bis_ter(chunks: list[dict], max_chars: int) -> list[dict]:
 
 def split_wettekst(text: str, source_id: str, fm: dict) -> list[dict]:
     """
-    Splits markdown op artikel-headings. Sub-headings blijven inline.
+    Splits markdown op chunk-grenzen uit frontmatter (ADR-006 §4).
     Chunk-id = `<source_id>__art_<nr>` (stabiel, zie ADR-006 §3.1).
 
-    Preprocessing:
-    - Plain-text structuurlabels (BOEK, TITEL, HOOFDSTUK, AFDELING, ...)
-      worden omgezet naar markdown-headings zodat ze in de context-stack
-      worden meegenomen (breadcrumb).
-    - Bis/ter/quater-artikelen worden gemerged met hun basisartikel.
+    Frontmatter chunk-configuratie (data-driven):
+        chunk:
+          level: 6       # MD-heading-niveau waarop chunk-grens ligt
+          type: "Art."   # label dat als chunk-grens dient
+          sub_strategy: null
+
+    Backwards-compat: als chunk: ontbreekt, valt terug op type-detectie
+    (is_article=True voor Art./Par.-headings).
+
+    Bis/ter/quater-artikelen worden gemerged met hun basisartikel.
     """
     wet_naam = str(fm.get("wet") or fm.get("bron") or source_id)
+
+    # Frontmatter-driven chunk-configuratie (ADR-006 §4)
+    chunk_config = fm.get("chunk") or {}
+    chunk_type = str(chunk_config.get("type", "Art."))   # bv. "Art." of "Par."
+    # chunk_level is informatief; de type-gebaseerde detectie bepaalt de grens
+
     lines = text.split("\n")
     chunks: list[dict] = []
     structural_stack: list[dict] = []
     current_article: dict | None = None
     current_lines: list[str] = []
     art_counter: dict[str, int] = {}  # voor duplicate art-nrs (bis/ter)
+
+    def _is_chunk_boundary(parsed: dict) -> bool:
+        """Geeft True als deze heading een chunk-grens is (data-driven via frontmatter)."""
+        if chunk_type == "Art.":
+            return parsed["is_article"]  # Art. of Par.
+        return parsed["type"] == chunk_type
 
     def flush():
         if current_article is None:
@@ -504,7 +521,7 @@ def split_wettekst(text: str, source_id: str, fm: dict) -> list[dict]:
         if parsed is None:
             current_lines.append(line)
             continue
-        if parsed["is_article"]:
+        if _is_chunk_boundary(parsed):
             flush()
             current_article = parsed
             current_lines = []

@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboek van de belasting over de toegevoegde waarde met betrekking tot de opmaak van innings- en invorderingsregisters

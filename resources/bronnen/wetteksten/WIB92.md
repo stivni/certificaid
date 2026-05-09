@@ -25,6 +25,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Wetboek van de Inkomstenbelastingen 1992 (WIB92)
@@ -35,9 +39,9 @@ provenance:
 WETBOEK VAN DE
 INKOMSTENBELASTINGEN 1992
 
-### TITEL I. - DE VERSCHILLENDE INKOMSTENBELASTINGEN
+## TITEL I. - DE VERSCHILLENDE INKOMSTENBELASTINGEN
 
-## Art. 1
+###### Art. 1
 
 § 1. Als inkomstenbelastingen worden
 geheven :
@@ -59,9 +63,9 @@ geheten.
 § 2. De belastingen worden geheven door
 middel van voorheffingen, binnen de grenzen en
 onder de voorwaarden als bepaald in titel VI,
-#### hoofdstuk I.
+### hoofdstuk I.
 
-## Art. 2
+###### Art. 2
 
 § 1. Voor de toepassing van dit Wetboek,
 van de bijzondere wetsbepalingen op het stuk van
@@ -2030,18 +2034,18 @@ Vanaf 1 januari 2014, is artikel 1.1.0.0.2.
 van dezelfde Codex van toepassing ( zie Vlaamse
 Codex Fiscaliteit).
 
-### TITEL II. - PERSONENBELASTING.
+## TITEL II. - PERSONENBELASTING.
 
-#### HOOFDSTUK I.
+### HOOFDSTUK I.
 
 Aan de belasting onderworpen personen.
 
-## Art. 3
+###### Art. 3
 
 De rijksinwoners zijn onderworpen aan de
 personenbelasting.
 
-## Art. 4
+###### Art. 4
 
 Aan de personenbelasting zijn niet
 onderworpen :
@@ -2088,7 +2092,7 @@ voor zover die echtgenoten zich niet in één
 van de in artikel 126, § 2, eerste lid, 1° tot
 3° vermelde gevallen bevinden.
 
-## Art. 5
+###### Art. 5
 
 Rijksinwoners zijn aan de personenbelasting
 onderworpen op grond van al hun in dit Wetboek
@@ -2096,7 +2100,7 @@ als belastbaar vermelde inkomsten, zelfs indien
 sommige daarvan in het buitenland zijn behaald of
 verkregen.
 
-## Art. 5/1
+###### Art. 5/1
 
 § 1. De inkomsten die werden verkregen
 door de juridische constructie zijn belastbaar in
@@ -2242,7 +2246,7 @@ moet onder de uitoefening van een economische
 activiteit, het aanbieden van goederen of diensten
 op een bepaalde markt worden begrepen.
 
-## Art. 5/2
+###### Art. 5/2
 
 De roerende inkomsten die werden
 verkregen op een rekening op naam van een
@@ -2258,13 +2262,13 @@ meerdere personen is elke rijksinwoner belastbaar
 in verhouding tot het aantal personen dat
 gemachtigd is deze rekening te beheren.
 
-#### HOOFDSTUK II.
+### HOOFDSTUK II.
 
 Grondslag van de belasting.
 
-##### Afdeling I.- Algemene bepaling van het belastbare inkomen.
+#### Afdeling I.- Algemene bepaling van het belastbare inkomen.
 
-## Art. 6
+###### Art. 6
 
 Het belastbare inkomen wordt gevormd
 door het totale netto-inkomen, verminderd met de
@@ -2281,11 +2285,11 @@ kapitalen ;
 
 4° divers inkomen.
 
-##### Afdeling II.- Inkomen van onroerende goederen.
+#### Afdeling II.- Inkomen van onroerende goederen.
 
 ##### Onderafdeling I.- Belastbare inkomsten.
 
-## Art. 7
+###### Art. 7
 
 § 1. Inkomsten van onroerende goederen
 zijn :
@@ -2461,7 +2465,7 @@ een eenmaal door de huurder gedane uitgave,
 wordt het bedrag ervan over de gehele duur van
 het huurcontract verdeeld.
 
-## Art. 8
+###### Art. 8
 
 Ingeval een onroerend goed aan een
 natuurlijke persoon is verhuurd en de huurprijs en
@@ -2473,7 +2477,7 @@ andere doeleinden wordt gebruikt, worden de
 inkomsten van ieder gedeelte afzonderlijk bepaald
 ingevolge artikel 7, § 1, 2°, a of c, naar het geval.
 
-## Art. 9
+###### Art. 9
 
 Voor de toepassing van deze afdeling en
 onder voorbehoud van artikel 494, §§ 3 en 6,
@@ -2506,7 +2510,7 @@ werkelijke duur, uitgedrukt in dagen, van elk deel
 van het belastbare tijdperk vóór en na de wisseling
 van omstandigheden.
 
-## Art. 10
+###### Art. 10
 
 § 1. De bedragen verkregen bij vestiging of
 overdracht van een recht van erfpacht of van opstal
@@ -2549,7 +2553,7 @@ van de overeenkomst van rechtswege op de
 gebruiker overgaat of de overeenkomst een
 aankoopoptie voor de gebruiker bevat.
 
-## Art. 11
+###### Art. 11
 
 De inkomsten als omschreven in artikel 7,
 § 1, 1° en 2°, zijn, naar het geval, belastbaar ten
@@ -2558,7 +2562,7 @@ opstalhouder of vruchtgebruiker van het goed.
 
 ##### Onderafdeling II.- Vrijgestelde inkomsten.
 
-## Art. 12
+###### Art. 12
 
 § 1. Vrijgesteld zijn de inkomsten van
 onroerende goederen of delen van onroerende
@@ -2638,7 +2642,7 @@ griffie-rechten kosteloos aan de registratieformaliteit zijn onderworpen.
 
 ##### Onderafdeling III.- Vaststelling van het nettoinkomen.
 
-## Art. 13
+###### Art. 13
 
 Met betrekking tot de huurprijs en de
 huurvoordelen van onroerende goederen wordt
@@ -2710,7 +2714,7 @@ bereikt;
 - 10 pct. voor ongebouwde onroerende
 goederen.
 
-## Art. 14
+###### Art. 14
 
 Les redevances et la valeur des charges y
 assimilées afférentes à l'acquisition d'un droit
@@ -2748,7 +2752,7 @@ het saldo aangerekend op de inkomsten van de
 onroerende goederen van de andere
 belastingplichtige.
 
-## Art. 15
+###### Art. 15
 
 § 1. Het kadastraal inkomen wordt
 proportioneel verminderd naar verhouding tot de
@@ -2795,15 +2799,15 @@ kadastraal inkomen wordt bepaald.
 
 ##### Onderafdeling IV.- Woningaftrek.
 
-## Art. 16
+###### Art. 16
 
 …
 
-##### Afdeling III.- Inkomen van roerende goederen en kapitalen.
+#### Afdeling III.- Inkomen van roerende goederen en kapitalen.
 
 ##### Onderafdeling I.- Bepaling.
 
-## Art. 17
+###### Art. 17
 
 § 1. Inkomsten uit roerende goederen en
 kapitalen zijn alle opbrengsten van roerend
@@ -2906,7 +2910,7 @@ in vreemde valuta is bepaald, wordt het in euro
 omgezet naar de wisselkoers bij de betaling of de
 toekenning van die inkomsten.
 
-## Art. 18
+###### Art. 18
 
 Dividenden omvatten :
 
@@ -3263,7 +3267,7 @@ op een juridische constructie die krachtens artikel
 5/1, § 3, van de toepassing van artikel 5/1, § 1, of
 van artikel 220/1 is uitgesloten.
 
-## Art. 19
+###### Art. 19
 
 § 1. Interest omvat :
 
@@ -3417,7 +3421,7 @@ kapitalisatie van de interesten tegen 4,75 pct. per
 jaar, berekend op het totale bedrag van de gestorte
 premies.
 
-## Art. 19bis
+###### Art. 19bis
 
 § 1. Interest omvat eveneens de inkomsten
 in het bedrag verkregen ingeval van overdracht
@@ -3538,7 +3542,7 @@ Voor de toepassing van het eerste lid
 moeten de woorden "1 juli 2005" in § 2, tweede
 lid, gelezen worden als "1 juli 2008".
 
-## Art. 19ter
+###### Art. 19ter
 
 Interest omvat eveneens elke som toegekend
 of betaalbaar gesteld aan zijn leden door een
@@ -3557,7 +3561,7 @@ verplichting bedoeld in artikel 321bis.
 Vanaf 29 juli 2025, wordt een artikel
 19quater ingevoegd, luidend als volgt :
 
-## Art. 19quater
+###### Art. 19quater
 
 Carried interest omvat:
 
@@ -3623,7 +3627,7 @@ houdende diverse bepalingen.
 
 ----------
 
-## Art. 20
+###### Art. 20
 
 Wanneer in artikel 17, § 1, 4°, vermelde
 lijfrenten of tijdelijke renten zijn aangelegd tegen
@@ -3635,7 +3639,7 @@ het vruchtgebruik van onroerende goederen, dan
 wordt de waarde van het kapitaal bepaald zoals op
 het stuk van registratierechten.
 
-## Art. 20bis
+###### Art. 20bis
 
 In geval van toekenning of
 betaalbaarstelling van roerende inkomsten in de
@@ -3667,7 +3671,7 @@ raadpleegbare bronnen.
 
 ##### Onderafdeling II.- Niet als inkomsten van roerende goederen en kapitalen belastbare inkomsten.
 
-## Art. 21
+###### Art. 21
 
 De inkomsten van roerende goederen en
 kapitalen omvatten niet :
@@ -4055,7 +4059,7 @@ van toepassing op de inkomsten die vanaf 1 januari
 
 ##### Onderafdeling III.- Vaststelling van het nettoinkomen.
 
-## Art. 22
+###### Art. 22
 
 § 1. Onder netto-inkomen van roerende
 goederen en kapitalen wordt het bedrag verstaan
@@ -4095,13 +4099,13 @@ Koning bepaalt (1).
 
 ----------
 
-##### Afdeling IV.- Beroepsinkomen.
+#### Afdeling IV.- Beroepsinkomen.
 
 ##### Onderafdeling I.- Belastbare inkomsten.
 
 A.- Algemeen.
 
-## Art. 23
+###### Art. 23
 
 § 1. Beroepsinkomsten zijn inkomsten die
 rechtstreeks of onrechtstreeks voortkomen uit
@@ -4152,7 +4156,7 @@ aftrekken worden aangerekend.
 
 B.- Winst.
 
-## Art. 24
+###### Art. 24
 
 Winst bestaat uit inkomsten van alle
 nijverheids-, handels- of landbouwondernemingen
@@ -4218,7 +4222,7 @@ vastgestelde meerwaarden bij omzetting van
 effecten in rechten van deelneming in
 beleggingsfondsen.
 
-## Art. 25
+###### Art. 25
 
 Winst omvat eveneens :
 
@@ -4261,7 +4265,7 @@ aan de vrijstelling die overeenkomstig
 artikel 67sexies voor het aanslagjaar 2020
 werd gevraagd.
 
-## Art. 25/1
+###### Art. 25/1
 
 Wanneer het bedrag van de winst voor het
 belastbare tijdperk verbonden met het aanslagjaar
@@ -4297,7 +4301,7 @@ vastgestelde tarief wordt afgerond op de hogere of
 lagere tweede decimaal naargelang het cijfer van
 de derde decimaal al dan niet 5 bereikt.
 
-## Art. 26
+###### Art. 26
 
 Wanneer een in België gevestigde onderneming abnormale of goedgunstige voordelen
 verleent, worden die voordelen, onverminderd de
@@ -4333,7 +4337,7 @@ inrichting.
 
 C.- Baten.
 
-## Art. 27
+###### Art. 27
 
 Baten zijn alle inkomsten uit een vrij
 beroep, een ambt of post en alle niet als winst of
@@ -4398,7 +4402,7 @@ vastgestelde meerwaarden bij omzetting van
 effecten in rechten van deelneming in
 beleggingsfondsen.
 
-## Art. 27/1
+###### Art. 27/1
 
 Wanneer het bedrag van de baten voor het
 belastbare tijdperk verbonden met het aanslagjaar
@@ -4437,7 +4441,7 @@ niet 5 bereikt.
 
 D.- Winst en baten van een vorige beroepswerkzaamheid.
 
-## Art. 28
+###### Art. 28
 
 Winst en baten van een vorige
 beroepswerkzaamheid die de verkrijger of de
@@ -4478,7 +4482,7 @@ en definitief worden stopgezet.
 E.- Vennootschappen of verenigingen zonder
 rechtspersoonlijkheid
 
-## Art. 29
+###### Art. 29
 
 § 1. In vennootschappen of verenigingen
 zonder rechtspersoonlijkheid, andere dan deze
@@ -4534,7 +4538,7 @@ bezitten.
 
 F.- Bezoldigingen.
 
-## Art. 30
+###### Art. 30
 
 Bezoldigingen omvatten, ongeacht de
 schuldenaar of de benaming ervan en de wijze
@@ -4547,7 +4551,7 @@ waarop ze worden vastgesteld en toegekend :
 3° bezoldigingen van meewerkende
 echtgenoten.
 
-## Art. 31
+###### Art. 31
 
 Onder voorbehoud van artikel 90, eerste lid,
 1° ter, zijn bezoldigingen van werknemers alle
@@ -4610,7 +4614,7 @@ van de provincie, met uitzondering van de
 terugbetaling van de kosten verbonden aan de
 uitoefening van het ambt.
 
-## Art. 31bis
+###### Art. 31bis
 
 De in artikel 31, tweede lid, 4°, bedoelde
 vergoedingen omvatten eveneens :
@@ -4685,11 +4689,11 @@ zijn aan de voordelen die in de voormelde
 collectieve arbeidsovereenkomst nr. 17 zijn
 vastgesteld.
 
-## Art. 31ter
+###### Art. 31ter
 
 …
 
-## Art. 32
+###### Art. 32
 
 Bezoldigingen van bedrijfsleiders zijn alle
 beloningen verleend of toegekend aan een
@@ -4754,7 +4758,7 @@ aanmerking komen.
 
 …
 
-## Art. 32/1
+###### Art. 32/1
 
 § 1. In hoofde van ingekomen
 belastingplichtigen die in artikel 30, 1° of 2°,
@@ -5151,7 +5155,7 @@ van paragraaf 5;
 eigen kosten van de werkgever in toepassing
 van paragraaf 6.
 
-## Art. 32/2
+###### Art. 32/2
 
 § 1. In hoofde van ingekomen onderzoekers
 die in artikel 30, 1°, bedoelde bezoldigingen
@@ -5476,7 +5480,7 @@ van paragraaf 5;
 eigen kosten van de werkgever in toepassing
 van paragraaf 6.
 
-## Art. 33
+###### Art. 33
 
 Bezoldigingen van meewerkende
 echtgenoten zijn alle toekenningen van een deel
@@ -5506,21 +5510,21 @@ van alle aard tot volledig of gedeeltelijk herstel
 van een tijdelijke derving van de voormelde
 bezoldigingen.
 
-## Art. 33bis
+###### Art. 33bis
 
 Voor de toekenning van de in artikel 30, 3°,
 bedoelde bezoldigingen worden de beroepsinkomsten die afzonderlijk worden belast evenals
 de in de artikelen 25, 7° en 27, tweede lid, 7°,
 bedoelde inkomsten buiten beschouwing gelaten.
 
-## Art. 33ter
+###### Art. 33ter
 
 …
 
 G.- Pensioenen, renten en als zodanig geldende
 toelagen.
 
-## Art. 34
+###### Art. 34
 
 § 1. Pensioenen, renten en als zodanig
 geldende toelagen omvatten, ongeacht de
@@ -5769,7 +5773,7 @@ dergelijk tegoed onmiddellijk of
 binnen afzienbare termijn terug te
 betalen.
 
-## Art. 35
+###### Art. 35
 
 Pensioenen, renten en als zodanig geldende
 toelagen, die aan beide echtgenoten samen worden
@@ -5785,7 +5789,7 @@ voor de toekenning van de pensioenrechten.
 H. - Raming van anders dan in geld verkregen
 inkomsten.
 
-## Art. 36
+###### Art. 36
 
 § 1. Anders dan in geld verkregen voordelen
 van alle aard gelden voor de werkelijke waarde bij
@@ -5924,7 +5928,7 @@ verkrijger van dat voordeel
 I.- Inkomsten van onroerende en roerende
 goederen met beroepskarakter.
 
-## Art. 37
+###### Art. 37
 
 Onverminderd de toepassing van de
 voorheffingen, worden inkomsten van onroerende
@@ -5993,7 +5997,7 @@ hoedanigheid van roerende inkomsten.
 
 J.- Diverse inkomsten met beroepskarakter
 
-## Art. 37bis
+###### Art. 37bis
 
 § 1. Onverminderd de toepassing van de
 roerende voorheffing, worden vergoedingen voor
@@ -6035,7 +6039,7 @@ bedraagt dan 3 830 euro.
 
 A.- Sociale en culturele vrijstellingen.
 
-## Art. 38
+###### Art. 38
 
 § 1. Vrijgesteld zijn :
 
@@ -6717,7 +6721,7 @@ VLAAMSE GEWEST
 Tekst : WIB 92 – Historische versie –
 Vlaams Gewest
 
-## Art. 38/1
+###### Art. 38/1
 
 § 1. De volgende voordelen vormen een
 voordeel als bedoeld in artikel 38, § 1, eerste lid,
@@ -6900,7 +6904,7 @@ een geldigheidsduur van drie maanden.
 B. - Vrijgestelde pensioenen, renten, kapitalen,
 spaartegoeden en afkoopwaarden.
 
-## Art. 39
+###### Art. 39
 
 § 1. De in artikel 34, § 1, 1°, vermelde
 pensioenen, lijfrenten of tijdelijke renten en als
@@ -7031,7 +7035,7 @@ vermeld op de berekeningsnota die gevoegd is bij
 het aanslagbiljet inzake per-sonenbelasting van de
 genieter.
 
-## Art. 40
+###### Art. 40
 
 Deelnemingen in de winst ter zake van
 levensverzekeringscontracten, van aanvullende
@@ -7054,7 +7058,7 @@ hetzelfde Wetboek vrijgesteld zijn van de taks.
 
 C.- Meerwaarden.
 
-## Art. 41
+###### Art. 41
 
 Voor de toepassing van de artikelen 24,
 eerste lid, 2°, 27, tweede lid, 3° en 28, worden
@@ -7074,7 +7078,7 @@ beroepswerkzaamheid tot stand zijn
 gekomen, ongeacht of zij als
 activabestanddeel zijn geboekt.
 
-## Art. 42
+###### Art. 42
 
 In afwijking van artikel 1183 van het
 Burgerlijk Wetboek worden bestanddelen die het
@@ -7098,7 +7102,7 @@ voldaan.
 
 ----------
 
-## Art. 43
+###### Art. 43
 
 De verwezenlijkte meerwaarde is gelijk aan
 het positieve verschil tussen eensdeels de
@@ -7109,7 +7113,7 @@ aanschaffings- of beleggingswaarde ervan
 verminderd met de voorheen aangenomen
 waardeverminderingen en afschrijvingen.
 
-## Art. 44
+###### Art. 44
 
 § 1. In afwijking van de artikelen 24, eerste
 lid, 2°, 27, tweede lid, 3°, 28, eerste lid, 1° en
@@ -7146,7 +7150,7 @@ beleggingsvennootschap, in deelnemingsrechten in
 een andere afdeling van dezelfde
 beleggingsvennootschap.
 
-## Art. 44bis
+###### Art. 44bis
 
 § 1. De meerwaarden die in de in het tweede
 lid bedoelde omstandigheden op bedrijfsvoertuigen
@@ -7241,7 +7245,7 @@ inkomen van het belastbare tijdperk waarin de
 herbeleggingstermijn verstreken is. In dat geval is
 artikel 47 niet van toepassing.
 
-## Art. 44ter
+###### Art. 44ter
 
 § 1. De meerwaarden die in de in het tweede
 lid bedoelde omstandigheden op voor de
@@ -7349,7 +7353,7 @@ aangemerkt als een inkomen van het belastbare
 tijdperk waarin de herbeleggingstermijn verstreken
 is. In dat geval is artikel 47 niet van toepassing.
 
-## Art. 45
+###### Art. 45
 
 § 1. Vrijgesteld zijn eveneens de
 meerwaarden op aandelen in binnenlandse
@@ -7462,7 +7466,7 @@ aandelen geacht te zijn verworven op de datum van
 aanschaffing van de geruilde rechten van
 deelneming.
 
-## Art. 46
+###### Art. 46
 
 § 1. Stopzettingsmeerwaarden als
 omschreven in artikel 28, eerste lid, 1°, hierin
@@ -7667,7 +7671,7 @@ gebruikt en wordt de gemiddelde gerevaloriseerde
 waarde van elk aandeel bepaald naar rata van de
 totale gerevaloriseerde waarde van die activa.
 
-## Art. 47
+###### Art. 47
 
 § 1. Wanneer een bedrag gelijk aan de
 verkregen schadevergoeding of de verkoopwaarde
@@ -7785,7 +7789,7 @@ vastgoedbeleggingsfondsen ingeschreven vennootschap deelneemt.
 D.- Vrijgestelde waardeverminderingen en
 voorzieningen.
 
-## Art. 48
+###### Art. 48
 
 Binnen de grenzen en onder de voorwaarden
 die de Koning bepaalt (1), worden vrijgesteld de
@@ -7817,7 +7821,7 @@ E. - Winst voortvloeiend uit de homologatie van
 een reorganisatieplan en uit de vaststelling van een
 minnelijk akkoord
 
-## Art. 48/1
+###### Art. 48/1
 
 De winst die voortvloeit uit de
 minderwaarden die door de schuldenaar zijn
@@ -7858,7 +7862,7 @@ de herleving heeft plaatsgevonden.
 
 A. - Beroepskosten.
 
-## Art. 49
+###### Art. 49
 
 Als beroepskosten zijn aftrekbaar de kosten
 die de belastingplichtige in het belastbare tijdperk
@@ -7877,7 +7881,7 @@ karakter van zekere en vaststaande schulden of
 verliezen hebben verkregen en als zodanig zijn
 geboekt.
 
-## Art. 50
+###### Art. 50
 
 § 1. De kosten waarvan het bedrag niet is
 verantwoord, mogen in overleg met de
@@ -7898,7 +7902,7 @@ sociale aard, kosten voor beroepskledij, linnen en
 wassen en uitgaven voor tijdschriften zonder
 faktuur.
 
-## Art. 51
+###### Art. 51
 
 Met betrekking tot andere bezoldigingen,
 winst en baten dan de in de artikelen 25, 7° en 27,
@@ -7961,7 +7965,7 @@ uit dergelijke forfaitair vastgestelde inkomsten
 verkrijgt, kunnen geen gebruik maken van het
 forfait bepaald in het tweede lid, 3°, 4° en 5°.
 
-## Art. 52
+###### Art. 52
 
 Onder voorbehoud van het bepaalde in de
 artikelen 53 tot 66bis worden inzonderheid als
@@ -8151,7 +8155,7 @@ uitvoering van het Wetboek van
 vennootschappen en verenigingen, te boeken
 inkopen van goederen en diensten.
 
-## Art. 52bis
+###### Art. 52bis
 
 De sommen die een belastingplichtige, die in
 artikel 23, § 1, 1° en 2°, vermelde winst of baten
@@ -8202,11 +8206,11 @@ creëren of behouden van in 3° vermelde
 opvangplaatsen, als het aantal desbetreffende
 plaatsen opgeeft.
 
-## Art. 52ter
+###### Art. 52ter
 
 …
 
-## Art. 53
+###### Art. 53
 
 Als beroepskosten worden niet aangemerkt :
 
@@ -8536,7 +8540,7 @@ beperkende maatregelen naar aanleiding van
 de acties van Rusland die de situatie in
 Oekraïne destabiliseren.
 
-## Art. 53/1
+###### Art. 53/1
 
 In afwijking van artikel 53 worden kosten of
 toekenningen bedoeld in artikel 53, 7° tot 9°, die
@@ -8551,7 +8555,7 @@ doorgerekend, als beroepskost aangemerkt mits
 deze taks uitdrukkelijk en afzonderlijk op de
 factuur is vermeld.
 
-## Art. 54
+###### Art. 54
 
 § 1. Interesten, in artikel 90, eerste lid, 11°,
 bedoelde vergoedingen, die worden betaald als
@@ -8591,7 +8595,7 @@ uitzondering van een eed, aantoont dat de betaling
 zin dat ze is verricht om geldige zakelijke redenen
 die de economische realiteit weerspiegelen.
 
-## Art. 55
+###### Art. 55
 
 Interesten van obligaties, leningen, schulden,
 deposito's en andere effecten ter
@@ -8647,7 +8651,7 @@ betrekking hebben, indien en in zover de
 contractuele bepalingen uitwerking hebben
 gehad.
 
-## Art. 56
+###### Art. 56
 
 § 1. Voor de toepassing van artikel 55 wordt
 geen beperking toegepast voor sommen betaald
@@ -8781,7 +8785,7 @@ van een gelijkaardige bepaling die van kracht is in
 een andere lidstaat van de Europese Economische
 Ruimte.
 
-## Art. 57
+###### Art. 57
 
 De volgende kosten worden slechts als
 beroepskosten aangenomen wanneer ze worden
@@ -8869,11 +8873,11 @@ fiscale bevoegdheden vormt in het kader van
 gegevensverwerking een gewichtige reden van
 algemeen belang.
 
-## Art. 58
+###### Art. 58
 
 …
 
-## Art. 59
+###### Art. 59
 
 § 1. De werkgeversbijdragen en -premies
 bedoeld in artikel 52, 3°, b, kunnen slechts als
@@ -9089,7 +9093,7 @@ sommige aanvullende voordelen inzake sociale
 zekerheid en de aanvullende pensioenovereenkomsten voor zelfstandigen bedoeld in de
 programmawet (I) van 24 december 2002.
 
-## Art. 60
+###### Art. 60
 
 Pensioenen, renten of als zodanig geldende
 toelagen worden als beroepskosten aangemerkt
@@ -9113,7 +9117,7 @@ toepassing van het koninklijk besluit van
 van de programmawet (I) van 27 december
 2006, moeten zijn verstrekt.
 
-## Art. 61
+###### Art. 61
 
 Afschrijvingen worden als beroepskosten
 aangemerkt naar de mate dat ze gegrond zijn op de
@@ -9137,7 +9141,7 @@ hebben die daaraan wordt toegekend door de
 wetgeving op de boekhouding en de jaarrekening
 van de ondernemingen.
 
-## Art. 62
+###### Art. 62
 
 Het gedeelte van de aanschaffings- of
 beleggingswaarde dat overeenstemt met het totale
@@ -9149,7 +9153,7 @@ kosten zijn gemaakt, ofwel bij gelijke fracties
 zonder onderbreking gespreid over het aantal jaren
 dat de belastingplichtige bepaalt.
 
-## Art. 63
+###### Art. 63
 
 Met uitzondering van de investeringen in
 audiovisuele werken worden de immateriële vaste
@@ -9158,7 +9162,7 @@ het aantal niet minder dan 3 mag bedragen wanneer
 het investeringen in onderzoek en ontwikkeling
 betreft en niet minder dan 5 in de andere gevallen.
 
-## Art. 64
+###### Art. 64
 
 De Koning kan (1), bij een in Ministerraad
 overlegd besluit, onder de voorwaarden, binnen de
@@ -9178,7 +9182,7 @@ afschrijvingsannuïteit mag in geen geval meer
 bedragen dan 40 pct. van de aanschaffings- of
 beleggingswaarde.
 
-## Art. 64bis
+###### Art. 64bis
 
 In de ontwikkelingszones van categorie 1,
 vermeld in artikel 11 van de wet van 30 december
@@ -9231,7 +9235,7 @@ de administratie belast met de vestiging van de
 inkomstenbelastingen die voor de uitvoering ervan
 zorgt.
 
-## Art. 64ter
+###### Art. 64ter
 
 Zijn ten belope van 120 pct. aftrekbaar :
 
@@ -9306,7 +9310,7 @@ roerende en onroerende goederen.
 
 …
 
-## Art. 64quater
+###### Art. 64quater
 
 De afschrijvingen met betrekking tot in
 nieuwe staat verkregen of tot stand gebrachte vaste
@@ -9386,7 +9390,7 @@ aanmerking voor het bepalen van de latere
 meerwaarden en minderwaarden op die
 laadstations.
 
-## Art. 65
+###### Art. 65
 
 Met betrekking tot de andere dan uitsluitend
 voor bezoldigd vervoer van personen gebruikte
@@ -9401,7 +9405,7 @@ bedoelde bijkomende kosten evenwel op dezelfde
 wijze als de aanschaffings- of beleggingswaarde
 van die voertuigen afgeschreven.
 
-## Art. 66
+###### Art. 66
 
 § 1. Beroepskosten met betrekking tot het
 gebruik van de in artikel 65 bedoelde voertuigen
@@ -9897,7 +9901,7 @@ belope van 75 pct. aftrekbaar.
 
 ----------
 
-## Art. 66bis
+###### Art. 66bis
 
 De beroepskosten met betrekking tot de
 verplaatsing tussen de woonplaats en de plaats van
@@ -9957,7 +9961,7 @@ onderdeel 1° opgeheven.
 
 ----------
 
-## Art. 67
+###### Art. 67
 
 § 1. Winst wordt vrijgesteld tot een bedrag
 van 10.000 EUR per bijkomende uiterlijk op 31
@@ -10022,7 +10026,7 @@ opgeheven.
 
 1°bis …
 
-## Art. 67bis
+###### Art. 67bis
 
 …
 
@@ -10037,7 +10041,7 @@ onderdeel 1°ter opgeheven.
 
 ----------
 
-## Art. 67ter
+###### Art. 67ter
 
 § 1. Winst en baten van belastingplichtigen
 die op 31 december 1997 of aan het einde van het
@@ -10118,7 +10122,7 @@ opgeheven.
 1°quater Sociaal passief ingevolge het
 eenheidsstatuut
 
-## Art. 67quater
+###### Art. 67quater
 
 Winsten en baten worden van belasting
 vrijgesteld tot beloop van een bepaald bedrag aan
@@ -10199,7 +10203,7 @@ van dit artikel
 
 1°quinquies Compensatievergoedingen
 
-## Art. 67quinquies
+###### Art. 67quinquies
 
 De inkomenscompensatievergoedingen die
 door de gewesten overeenkomstig de wet van
@@ -10214,7 +10218,7 @@ domein, worden vrijgesteld.
 
 1°sexies Vrijstelling voor toekomstige verliezen
 
-## Art. 67sexies
+###### Art. 67sexies
 
 § 1. De winst en baten van het belastbare
 tijdperk dat verbonden is met het aanslagjaar 2020
@@ -10259,7 +10263,7 @@ moeilijkheden.
 
 2° Investeringsaftrek.
 
-## Art. 68
+###### Art. 68
 
 Winst en baten worden vrijgesteld tot een
 ## deel van de aanschaffings- of beleggingswaarde
@@ -10281,7 +10285,7 @@ gestort, mag deze niet doorgestorte
 bedrijfsvoorheffing niet in de berekeningsbasis van
 de investeringsaftrek worden opgenomen.
 
-## Art. 69
+###### Art. 69
 
 ----------
 
@@ -10303,7 +10307,7 @@ De in het eerste lid, 1°, bedoelde basisaftrek
 wordt verhoogd met 10 percentpunten indien het
 digitale vaste activa betreft.
 
-## Art. 69/1
+###### Art. 69/1
 
 § 1. De verhoogde thematische aftrek
 bedoeld in artikel 69, eerste lid, 2°, kent volgende
@@ -10495,7 +10499,7 @@ nieuwe lijst zal de Koning de geldigheidstermijn
 van de investeringslijst voor digitale ondersteuning
 éénmalig met een termijn van twee jaar verlengen.
 
-## Art. 69/2
+###### Art. 69/2
 
 De technologieaftrek bedoeld in artikel 69,
 eerste lid, 3°, wordt toegekend voor:
@@ -10511,7 +10515,7 @@ het negatieve effect op het leefmilieu van
 bestaande producten en technologieën zoveel
 mogelijk te beperken.
 
-## Art. 69/3
+###### Art. 69/3
 
 § 1. Om te kunnen genieten van de in artikel
 69/1, § 1, bedoelde investeringsaftrek moet de
@@ -10587,7 +10591,7 @@ op basis van de lijst die van kracht is op het
 moment van de indiening van de aanvraag van de
 attestering.
 
-## Art. 70
+###### Art. 70
 
 De belastingplichtigen kunnen desgewenst
 de investeringsaftrek spreiden over de
@@ -10606,7 +10610,7 @@ van de afschrijvingsperiode worden aangenomen.
 
 ----------
 
-## Art. 71
+###### Art. 71
 
 Indien bij de overdracht of bij de
 buitengebruikstelling van een vast activum het
@@ -10618,7 +10622,7 @@ waarin de betrokken vaste activa zijn verkregen of
 tot stand gebracht, wordt een aanvullende aftrek tot
 het bedrag van dat verschil verleend.
 
-## Art. 72
+###### Art. 72
 
 Indien een belastbaar tijdperk geen of
 onvoldoende winst of baten oplevert om de
@@ -10630,14 +10634,14 @@ tijdperken.
 
 …
 
-## Art. 73
+###### Art. 73
 
 De investeringsaftrek komt niet in
 aanmerking voor het bepalen van de latere
 meerwaarden of minderwaarden op de vaste activa
 waarvoor hij is verleend.
 
-## Art. 74
+###### Art. 74
 
 Geen investeringsaftrek wordt verleend
 wanneer de winst of de baten worden bepaald
@@ -10648,7 +10652,7 @@ in artikel 69, eerste lid, 2° en 3°, waarvoor van
 overheidswege geen financiële steun tot
 aanmoediging van energiebesparing is verleend.
 
-## Art. 75
+###### Art. 75
 
 De investeringsaftrek is evenmin van
 toepassing op :
@@ -10755,7 +10759,7 @@ hun advies overgaan tot de overlegging van het
 ontwerp van besluit houdende de opmaak,
 wijziging of vervanging van de klimaat- en milieuuitsluitingslijst.
 
-## Art. 76
+###### Art. 76
 
 De uitsluiting ingevolge artikel 75, 3°, is niet
 van toepassing op audiovisuele werken waarvan de
@@ -10784,7 +10788,7 @@ projectie of door de samenvoeging van de
 projectietijden van een reeks episodes die
 samen een homogeen werk vormen.
 
-## Art. 77
+###### Art. 77
 
 De Koning bepaalt bij een koninklijk besluit
 vastgesteld na overleg in Ministerraad :
@@ -10838,7 +10842,7 @@ attest dat de bevoegde ministers moeten afleveren.
 
 C.- Beroepsverliezen.
 
-## Art. 78
+###### Art. 78
 
 § 1. Vorige beroepsverliezen worden
 achtereenvolgens van de beroepsinkomsten van elk
@@ -10955,7 +10959,7 @@ bedoelde schade definitief is vastgesteld. Deze
 aanvraag is definitief en onherroepelijk. De Koning
 bepaalt de indieningsmodaliteiten van dit formulier.
 
-## Art. 79
+###### Art. 79
 
 Beroepsverliezen worden niet afgetrokken
 van het gedeelte van de winst of de baten dat
@@ -10965,7 +10969,7 @@ aanzien waarvan hij zich rechtstreeks of
 onrechtstreeks in enige band van wederzijdse
 afhankelijkheid bevindt.
 
-## Art. 80
+###### Art. 80
 
 Beroepsverliezen van vennootschappen en
 verenigingen zonder rechtspersoonlijkheid als
@@ -10985,12 +10989,12 @@ financiële of economische behoeften.
 
 D- ...
 
-Art. 81 - 85
+###### Art. 81 - 85
 ...
 
 ##### Onderafdeling IV.- Toekenning en toerekening van een deel van de beroepsinkomsten aan de echtgenoot.
 
-## Art. 86
+###### Art. 86
 
 Wanneer een gemeenschappelijke aanslag
 wordt gevestigd ten laste van twee echtgenoten,
@@ -11014,7 +11018,7 @@ echtgenoot wordt uitgeoefend, behoudens indien de
 prestaties van de meewerkende echtgenoot hem
 kennelijk recht geven op een groter deel.
 
-## Art. 87
+###### Art. 87
 
 Wanneer een gemeenschappelijke aanslag
 wordt gevestigd en slechts één van de echtgenoten
@@ -11031,7 +11035,7 @@ echtgenoten samen genomen wordt verhoogd.
 Dat deel bedraagt 30 pct. van die inkomsten,
 doch mag niet hoger zijn dan 6.700 EUR.
 
-## Art. 88
+###### Art. 88
 
 Wanneer een gemeenschappelijke aanslag
 wordt gevestigd en de beroepsinkomsten van één
@@ -11053,7 +11057,7 @@ titels die op grond van artikel 90, eerste lid, 1°,
 belastbaar zijn, voor beide echtgenoten
 samengenomen wordt verhoogd.
 
-## Art. 89
+###### Art. 89
 
 Voor het toekennen en het toerekenen van
 een deel van de beroepsinkomsten aan de
@@ -11069,11 +11073,11 @@ aan de andere echtgenoot, wordt dat deel evenredig
 samengesteld uit beroepsinkomsten van dezelfde
 categorieën.
 
-##### Afdeling V.- Diverse inkomsten.
+#### Afdeling V.- Diverse inkomsten.
 
 ##### Onderafdeling I.- Bepaling.
 
-## Art. 90
+###### Art. 90
 
 Diverse inkomsten zijn :
 
@@ -11503,11 +11507,11 @@ van het opstellen van het voornoemde document.
 
 ----------
 
-## Art. 90/1
+###### Art. 90/1
 
 …
 
-## Art. 91
+###### Art. 91
 
 In afwijking van artikel 90, eerste lid, 10°, is
 artikel 90, eerste lid, 8°, van toepassing op de
@@ -11516,11 +11520,11 @@ gebouwen zijn opgetrokken waarvan de
 verkoopwaarde lager is dan 30 pct. van de
 verkoopprijs van het geheel.
 
-## Art. 92
+###### Art. 92
 
 ...
 
-## Art. 93
+###### Art. 93
 
 In afwijking van artikel 90, eerste lid, 8°, zijn
 niet belastbaar, de meerwaarden vastgesteld ter
@@ -11560,7 +11564,7 @@ der registratie-, hypotheek- en griffierechten
 kosteloos aan de registratieformaliteit zijn
 onderworpen.
 
-## Art. 93bis
+###### Art. 93bis
 
 In afwijking van artikel 90, eerste lid, 10°,
 zijn niet belastbaar, de meerwaarden vastgesteld ter
@@ -11602,7 +11606,7 @@ der registratie-, hypotheek- en griffierechten
 kosteloos aan de registratieformaliteit zijn
 onderworpen.
 
-## Art. 94
+###### Art. 94
 
 Wanneer in het tijdvak van 12 maanden die
 voorafgaan aan de verwerving van de aandelen
@@ -11627,7 +11631,7 @@ betrekking tot de belangrijkheid van de
 maatschappelijke rechten in de vennootschap
 waarvan de aandelen vervreemd zijn geweest.
 
-## Art. 95
+###### Art. 95
 
 Niettegenstaande het bepaalde in artikel 90,
 eerste lid, 9°, worden de meerwaarden op aandelen
@@ -11690,7 +11694,7 @@ belastbaar inkomen voor het belastbaar tijdperk
 tijdens hetwelk de voorwaarde van bezit niet langer
 vervuld is.
 
-## Art. 96
+###### Art. 96
 
 Voor zover de in artikel 95 bedoelde
 tijdelijke vrijstelling van toepassing is, worden de
@@ -11733,13 +11737,13 @@ verrichting, ten name van de aandeelhouder,
 gelijkgesteld met de omruiling van aandelen
 ingevolge splitsing.
 
-## Art. 96/1
+###### Art. 96/1
 
 …
 
 ##### Onderafdeling II.- Vaststelling van het nettoinkomen.
 
-## Art. 97
+###### Art. 97
 
 § 1. De in artikel 90, eerste lid, 1°, vermelde
 inkomsten worden naar het netto bedrag ervan in
@@ -11765,7 +11769,7 @@ worden vermeld op de berekeningsnota die
 gevoegd is bij het aanslagbiljet inzake
 personenbelasting van de genieter.
 
-## Art. 97/1
+###### Art. 97/1
 
 De in artikel 90, eerste lid, 1° bis, bedoelde
 inkomsten worden naar het netto bedrag ervan in
@@ -11778,7 +11782,7 @@ daadwerkelijk is betaald of toegekend, verhoogd
 met alle sommen die door het platform of door
 tussenkomst van het platform zijn ingehouden.
 
-## Art. 97/2
+###### Art. 97/2
 
 De in artikel 90, eerste lid, 1°ter, vermelde
 inkomsten worden naar het netto bedrag ervan in
@@ -11792,7 +11796,7 @@ van de beloningen als vermeld in artikel 38 en
 vergoedingen tot geheel of gedeeltelijk herstel van
 een tijdelijke derving van inkomsten.
 
-## Art. 98
+###### Art. 98
 
 De in artikel 90, eerste lid, 2°, vermelde
 inkomsten worden in aanmerking genomen naar het
@@ -11806,7 +11810,7 @@ genomen naar het aan de verkrijger werkelijk
 betaalde of toegekende bedrag, in voorkomend
 geval verhoogd met de roerende voorheffing.
 
-## Art. 99
+###### Art. 99
 
 De in artikel 90, eerste lid, 3° en 4°,
 vermelde uitkeringen of kapitalen worden in
@@ -11835,7 +11839,7 @@ verkrijger betaalde of toegekende bedrag.
 
 ----------
 
-## Art. 100
+###### Art. 100
 
 De in artikel 90, eerste lid, 5°, vermelde
 inkomsten worden in aanmerking genomen :
@@ -11883,7 +11887,7 @@ ineens worden verkregen of de kosten die ineens
 worden gedaan over de gehele duur van het
 huurcontract of van de concessie verdeeld.
 
-## Art. 101
+###### Art. 101
 
 § 1. De in artikel 90, eerste lid, 8°, vermelde
 meerwaarden worden in aanmerking genomen naar
@@ -12023,7 +12027,7 @@ meerwaarden.
 ------------------------------
 (1) art. 54, KB/WIB 92.
 
-## Art. 102
+###### Art. 102
 
 De in artikel 90, eerste lid, 9°, vermelde
 meerwaarden worden in aanmerking genomen naar
@@ -12058,7 +12062,7 @@ heeft verkregen.
 
 …
 
-## Art. 102bis
+###### Art. 102bis
 
 De in artikel 90, 12°, vermelde inkomsten
 worden in aanmerking genomen naar het aan de
@@ -12069,11 +12073,11 @@ forfaitaire kosten.
 
 ##### Onderafdeling III.- Aftrekbare verliezen.
 
-## Art. 102ter
+###### Art. 102ter
 
 …
 
-## Art. 103
+###### Art. 103
 
 § 1. Verliezen die in de vijf vorige belastbare
 tijdperken zijn geleden bij het verrichten van
@@ -12095,11 +12099,11 @@ verliezen die in de vijf vorige belastbare tijdperken
 zijn geleden naar aanleiding van verrichtingen als
 vermeld in artikel 90, eerste lid,10°.
 
-##### Afdeling VI.- Aftrekbare bestedingen.
+#### Afdeling VI.- Aftrekbare bestedingen.
 
 A.- Algemeen.
 
-## Art. 104
+###### Art. 104
 
 De volgende bestedingen worden van het
 totale netto-inkomen afgetrokken, in zover zij in het
@@ -12217,7 +12221,7 @@ werd toegepast, niet aftrekbaar ;
 
 11° …
 
-## Art. 105
+###### Art. 105
 
 Wanneer een gemeenschappelijke aanslag
 wordt gevestigd, worden de aftrekken bedoeld in
@@ -12233,7 +12237,7 @@ voorrang aangerekend op het totale nettoinkomen van die echtgenoot en het eventu
 saldo wordt op het totale netto-inkomen van
 de andere echtgenoot aangerekend.
 
-## Art. 106
+###### Art. 106
 
 De Koning bepaalt (1) de wijze waarop de
 uitgaven van de verschillende inkomstencategorieën worden afgetrokken.
@@ -12243,38 +12247,38 @@ uitgaven van de verschillende inkomstencategorieën worden afgetrokken.
 
 B.- …
 
-Art. 107 - 111
+###### Art. 107 - 111
 …
 
 C. - …
 
-## Art. 112
+###### Art. 112
 
 …
 
 D.- …
 
-Art. 113 - 114
+###### Art. 113 - 114
 …
 
 E.- …
 
-## Art. 115
+###### Art. 115
 
 …
 
-## Art. 116
+###### Art. 116
 
 …
 
 F. - ...
 
-Art. 117 - 125
+###### Art. 117 - 125
 ...
 
-##### Afdeling VII. - Gemeenschappelijke aanslag voor echtgenoten en wettelijke samenwonenden.
+#### Afdeling VII. - Gemeenschappelijke aanslag voor echtgenoten en wettelijke samenwonenden.
 
-## Art. 126
+###### Art. 126
 
 § 1. In geval van huwelijk of wettelijke
 samenwoning wordt een gemeenschappelijke
@@ -12340,7 +12344,7 @@ wijze waarop het gedeelte van de belasting in
 verband met het belastbare inkomen van elke
 echtgenoot wordt vastgesteld.
 
-## Art. 127
+###### Art. 127
 
 Wanneer een gemeenschappelijke aanslag
 wordt gevestigd, wordt bij de vaststelling van het
@@ -12361,11 +12365,11 @@ eigen zijn op grond van het vermogensrecht ;
 4° 50 pct. van de totaliteit van alle andere
 inkomsten van beide belastingplichtigen.
 
-## Art. 128
+###### Art. 128
 
 ...
 
-## Art. 129
+###### Art. 129
 
 Wanneer de inkomsten van een echtgenoot
 onvoldoende zijn om de overeenkomstig de
@@ -12381,9 +12385,9 @@ aanrekening gebeurt.
 ------------------------------
 (1) art. 63, KB/WIB 92.
 
-##### Afdeling VIII. -. Beperking van de voordelen in verhouding tot de duur van het belastbare tijdperk
+#### Afdeling VIII. -. Beperking van de voordelen in verhouding tot de duur van het belastbare tijdperk
 
-## Art. 129/1
+###### Art. 129/1
 
 Wanneer het belastbare tijdperk om een
 andere reden dan overlijden niet overeenstemt met
@@ -12443,15 +12447,15 @@ Dit artikel is eveneens van toepassing op de
 bedragen die worden vermeld in de in uitvoering
 van de artikelen 22, § 3, genomen bepalingen.
 
-#### HOOFDSTUK III.
+### HOOFDSTUK III.
 
 Berekening van de belasting.
 
-##### Afdeling I.- Gewoon stelsel van aanslag.
+#### Afdeling I.- Gewoon stelsel van aanslag.
 
 ##### Onderafdeling I.- Belastingtarief.
 
-## Art. 130
+###### Art. 130
 
 De basisbelasting wordt bepaald op :
 
@@ -12473,7 +12477,7 @@ belastingplichtige.
 
 ##### Onderafdeling II.- Belastingvrije som.
 
-## Art. 131
+###### Art. 131
 
 Voor de berekening van de belasting wordt
 een basisbedrag van 4.785 EUR vrijgesteld van
@@ -12484,7 +12488,7 @@ belasting.
 Dit bedrag wordt verhoogd met 870 EUR
 indien de belastingplichtige gehandicapt is.
 
-## Art. 132
+###### Art. 132
 
 Het overeenkomstig artikel 131 bepaalde
 basisbedrag wordt verhoogd met de volgende
@@ -12542,7 +12546,7 @@ het ziekenfonds of een gelijkwaardige instelling of
 persoon uit een andere lidstaat van de Europese
 Economische Ruimte.
 
-## Art. 132bis
+###### Art. 132bis
 
 De toeslagen bedoeld in artikel 132, eerste
 lid, 1° tot 6°, worden verdeeld over twee
@@ -12604,7 +12608,7 @@ bedoeld in artikel 104, 1°, worden afgetrokken
 door één van de hierboven bedoelde
 belastingplichtigen.
 
-## Art. 133
+###### Art. 133
 
 Het overeenkomstig artikel 131 bepaalde
 basisbedrag wordt bovendien verhoogd met de
@@ -12678,7 +12682,7 @@ het feit dat de wettelijk samenwonenden met elkaar
 in het huwelijk treden, wordt voor de toepassing
 van dit lid niet in aanmerking genomen.
 
-## Art. 134
+###### Art. 134
 
 De belastingvrije som wordt
 § 1.
@@ -12907,7 +12911,7 @@ belastingkrediet van elk van de echtgenoten
 ten opzichte van de som van de
 belastingkredieten van de beide echtgenoten.
 
-## Art. 135
+###### Art. 135
 
 Als gehandicapt wordt aangemerkt :
 
@@ -12965,7 +12969,7 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 136
+###### Art. 136
 
 Als ten laste van de belastingplichtigen
 worden aangemerkt, mits zij deel uitmaken van
@@ -12985,7 +12989,7 @@ graad ;
 kind volledig of hoofdzakelijk ten laste is
 geweest.
 
-## Art. 137
+###### Art. 137
 
 De kinderen van wie alle belastbare
 inkomsten worden samengevoegd met die van hun
@@ -12993,7 +12997,7 @@ ouders, worden ten laste van deze laatsten
 beschouwd, ongeacht de omvang van hun
 inkomsten.
 
-## Art. 138
+###### Art. 138
 
 Een in het belastbare tijdperk overleden kind
 wordt geacht deel uit te maken van het gezin van
@@ -13026,7 +13030,7 @@ of ter zake een klacht heeft ingediend bij het parket
 of bij de Belgische overheden die bevoegd zijn
 inzake ontvoeringen van kinderen.
 
-## Art. 139
+###### Art. 139
 
 Ingeval een persoon als vermeld in
 artikel 136, 2° tot 4°, in het belastbare tijdperk is
@@ -13035,7 +13039,7 @@ het gezin van de belastingplichtige op 1 januari van
 het aanslagjaar, op voorwaarde dat hij reeds voor
 het vorige aanslagjaar te zijnen laste was.
 
-## Art. 140
+###### Art. 140
 
 Wanneer verscheidene afzonderlijk
 belastbare belastingplichtigen deel uitmaken van
@@ -13047,7 +13051,7 @@ gezin staat.
 
 …
 
-## Art. 141
+###### Art. 141
 
 Het in artikel 136 bedoelde bedrag van 1.800
 euro wordt gebracht op 5.265 euro voor kinderen
@@ -13055,7 +13059,7 @@ ten laste.
 
 …
 
-## Art. 142
+###### Art. 142
 
 Onder nettobedrag van de bestaansmiddelen
 wordt verstaan het brutobedrag daarvan
@@ -13071,7 +13075,7 @@ Wanneer die bestaansmiddelen bestaan in
 bezoldigingen van werknemers of in baten,
 bedragen de aftrekbare kosten ten minste 250 EUR.
 
-## Art. 143
+###### Art. 143
 
 Voor het vaststellen van het nettobedrag van
 de bestaansmiddelen komen niet in aanmerking :
@@ -13150,7 +13154,7 @@ houdende inrichting van het sociaal statuut
 der zelfstandigen, tot een bedrag van 3.000
 euro per jaar.
 
-## Art. 144
+###### Art. 144
 
 Om uit te maken of een aan de zorgen van de
 belastingplichtige toevertrouwd kind volledig of
@@ -13158,7 +13162,7 @@ hoofdzakelijk ten laste is, worden bijdragen van de
 overheid in de onderhoudskosten van dat kind niet
 meegerekend.
 
-## Art. 145
+###### Art. 145
 
 Als ten laste worden niet aangemerkt de
 personen die deel uitmaken van het gezin van de
@@ -13215,7 +13219,7 @@ buitenlands recht.
 
 A.- Algemeen
 
-## Art. 1451
+###### Art. 1451
 
 Binnen de grenzen en onder de voorwaarden
 bepaald in de artikelen 1452 tot 14516 wordt een
@@ -13276,7 +13280,7 @@ zijn ;
 
 6° ...
 
-## Art. 1452
+###### Art. 1452
 
 De belastingvermindering is gelijk aan 30
 pct. van de werkelijk betaalde uitgaven.
@@ -13290,7 +13294,7 @@ bedoelde uitgaven berekend tegen het tarief van
 B. Persoonlijke bijdragen en premies betaald
 door de werkgever of de onderneming
 
-## Art. 1453
+###### Art. 1453
 
 De in artikel 1451, 1°, vermelde persoonlijke
 bijdragen en premies komen voor vermindering in
@@ -13378,7 +13382,7 @@ programmawet (I) van 24 december 2002.
 B/1. Bijdragen en premies betaald voor een
 aanvullend pensioen voor zelfstandigen
 
-## Art. 1453/1
+###### Art. 1453/1
 
 § 1. De in artikel 1451, 1° bis bedoelde
 bijdragen en premies komen voor een
@@ -13564,7 +13568,7 @@ belastingvermindering verder bepalen.
 
 C.- Premies van individuele levensverzekeringen
 
-## Art. 1454
+###### Art. 1454
 
 De in artikel 1451, 2°, vermelde bijdragen
 komen voor vermindering in aanmerking op
@@ -13652,7 +13656,7 @@ of te behouden.
 D.- Aflossing of wedersamenstelling van
 hypothecaire leningen
 
-## Art. 1455
+###### Art. 1455
 
 De in artikel 1451, 3°, vermelde betalingen
 voor de aflossing of wedersamenstelling van een
@@ -13685,7 +13689,7 @@ januari 2023 en 31 december 2022 gebracht op
 respectievelijk 1 januari 2024 en 31 december
 2023.
 
-## Art. 1456
+###### Art. 1456
 
 De bijdragen en betalingen vermeld in
 artikel 1451, 2° en 3°, komen voor vermindering in
@@ -13722,7 +13726,7 @@ artikel 1451, 2° en 3°, wordt toegepast.
 
 E.- Verwerving van werkgeversaandelen
 
-## Art. 1457
+###### Art. 1457
 
 § 1. De in artikel 1451, 4°, vermelde
 betalingen in geld voor aandelen komen voor
@@ -13769,7 +13773,7 @@ periode van 60 maanden.
 
 F. - Betalingen voor het pensioensparen
 
-## Art. 1458
+###### Art. 1458
 
 § 1. De betalingen die ingevolge
 artikel 1451, 5°, in het kader van het
@@ -13846,7 +13850,7 @@ lid vermelde instellingen en ondernemingen
 enerzijds en hun klanten en de Belgische
 belastingadministratie anderzijds.
 
-## Art. 1459
+###### Art. 1459
 
 De betalingen komen slechts voor
 vermindering in aanmerking op voorwaarde dat :
@@ -13920,7 +13924,7 @@ uitkering het gevolg is van het overlijden van de
 belastingplichtige, of waarin de belastingplichtige
 de leeftijd van 65 jaar bereikt heeft.
 
-## Art. 14510
+###### Art. 14510
 
 De in artikel 14515 vermelde instellingen en
 ondernemingen mogen, naar het geval, per
@@ -13954,7 +13958,7 @@ Koning bepaalt (1).
 ------------------------------
 (1) art. 635, KB/WIB 92.
 
-## Art. 14511
+###### Art. 14511
 
 De beheersvennootschap van de
 overeenkomstig artikel 145/16 erkende
@@ -14168,7 +14172,7 @@ aanmerking wordt genomen voor de
 bepaling van het maximumpercentage
 vermeld in 1°.
 
-## Art. 14512
+###### Art. 14512
 
 Bij de opening van een individuele
 spaarrekening moet de belastingplichtige aan de in
@@ -14215,21 +14219,21 @@ toepassing van dit artikel wordt nagegaan.
 ------------------------------
 (1) art. 635, KB/WIB 92.
 
-## Art. 14513
+###### Art. 14513
 
 De dekkingswaarden van de technische
 reserves betreffende de activiteiten van de
 spaarverzekering worden belegd overeenkomstig
 het bepaalde in artikel 14511.
 
-## Art. 14514
+###### Art. 14514
 
 De vermindering voor pensioensparen kan
 niet samen met de vermindering voor verwerving
 van werkgeversaandelen ingevolge artikel 1451, 4°,
 worden verkregen.
 
-## Art. 14515
+###### Art. 14515
 
 Alleen de in artikel 56, § 2, 2°, a vermelde
 instellingen mogen collectieve of individuele
@@ -14251,7 +14255,7 @@ gevestigd zijn, die de Europese richtlijnen inzake
 de erkenning van verzekeringsondernemingen
 omzetten of ernaar verwijzen, mogen spaarverzekeringen afsluiten.
 
-## Art. 14516
+###### Art. 14516
 
 Voor de toepassing van het pensioensparen
 en van artikel 34, § 1, 3°, wordt verstaan onder :
@@ -14292,18 +14296,18 @@ verzekeringsonderneming.
 
 G.- …
 
-## Art. 14516bis
+###### Art. 14516bis
 
 …
 
 ##### Onderafdeling IIter.- …
 
-Art. 14517 - 14520
+###### Art. 14517 - 14520
 …
 
 ##### Onderafdeling IIquater.- Vermindering voor uitgaven betaald voor prestaties in het kader van plaatselijke werkgelegenheidsagentschappen en voor prestaties betaald met dienstencheques andere dan sociale dienstencheques.
 
-## Art. 14521
+###### Art. 14521
 
 Onder de voorwaarden bepaald in
 artikel 14522, wordt een belastingvermindering
@@ -14340,7 +14344,7 @@ B. BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 14522
+###### Art. 14522
 
 De Koning bepaalt (1) de voorwaarden
 waaraan de in artikel 14521 vermelde uitgaven
@@ -14357,7 +14361,7 @@ WAALSE GEWEST
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
-## Art. 14523
+###### Art. 14523
 
 § 1. In geval van een gemeenschappelijke
 aanslag wordt de in artikel 14521 vermelde
@@ -14409,13 +14413,13 @@ Brussels Hoofdstedelijk Gewest
 
 ##### Onderafdeling IIquinquies. - …(opgeheven)
 
-## Art. 14524
+###### Art. 14524
 
 …
 
 ##### Onderafdeling IIsexies.- Vermindering voor uitgaven voor vernieuwing van woningen gelegen in een zone voor positief grootstedelijk beleid
 
-## Art. 14525
+###### Art. 14525
 
 Er wordt een belastingvermindering verleend
 voor de uitgaven die tijdens het belastbare tijdperk
@@ -14505,7 +14509,7 @@ Brussels Hoofdstedelijk Gewest
 
 ##### Onderafdeling IIsepties.- Vermindering voor de verwerving van nieuwe aandelen van startende ondernemingen - Terugname van de vermindering
 
-## Art. 14526
+###### Art. 14526
 
 § 1. Er wordt een belastingvermindering
 verleend voor de betalingen voor :
@@ -15064,13 +15068,13 @@ voldaan.
 
 ##### Onderafdeling IIsepties/1.- …
 
-## Art. 14526/1
+###### Art. 14526/1
 
 …
 
 ##### Onderafdeling IIocties. - Vermindering voor de verwerving van nieuwe aandelen van groeibedrijven - Terugname van de vermindering
 
-## Art. 14527
+###### Art. 14527
 
 § 1. Er wordt een belastingvermindering
 verleend voor de betalingen voor :
@@ -15446,19 +15450,19 @@ voldaan.
 
 ##### Onderafdeling IInonies. - …
 
-## Art. 14528
+###### Art. 14528
 
 …
 
 ##### Onderafdeling IIdecies …
 
-## Art. 14529
+###### Art. 14529
 
 ….
 
 ##### Onderafdeling IIundecies. - Vermindering voor uitgaven gedaan voor vernieuwing van tegen een redelijke huurprijs in huur gegeven woningen
 
-## Art. 14530
+###### Art. 14530
 
 Er wordt een belastingvermindering verleend
 voor de volgende uitgaven die tijdens het
@@ -15543,7 +15547,7 @@ Brussels Hoofdstedelijk Gewest
 
 ##### Onderafdeling IIduodecies. - Vermindering voor uitgaven ter beveiliging van woningen tegen inbraak of brand.
 
-## Art. 14531
+###### Art. 14531
 
 Een belastingvermindering wordt verleend
 voor de uitgaven die tijdens het belastbare tijdperk
@@ -15623,7 +15627,7 @@ onderafdeling IIterdecies, opgeheven.
 
 ----------
 
-## Art. 14532
+###### Art. 14532
 
 § 1. …
 
@@ -15694,7 +15698,7 @@ opgeheven.
 
 ##### Onderafdeling IIquaterdecies - Vermindering voor giften
 
-## Art. 14533
+###### Art. 14533
 
 § 1. Er wordt een belastingvermindering
 verleend voor de volgende in het belastbaar
@@ -16055,13 +16059,13 @@ jaar zijn erkend.
 
 ##### Onderafdeling IIquinquedecies - …
 
-## Art. 14534
+###### Art. 14534
 
 …
 
 ##### Onderafdeling IIsexdecies - Belastingvermindering voor kinderoppas
 
-## Art. 14535
+###### Art. 14535
 
 Er wordt een belastingvermindering verleend
 voor de in het belastbaar tijdperk werkelijk
@@ -16223,7 +16227,7 @@ terugbetaalbaar belastingkrediet.
 
 ##### Onderafdeling IIseptdecies - Belastingvermindering voor onderhoud en restauratie van beschermde monumenten en landschappen
 
-## Art. 14536
+###### Art. 14536
 
 Er wordt een belastingvermindering verleend
 voor het niet door subsidies gedekte gedeelte van
@@ -16310,12 +16314,12 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 BRUSSELS HOOFDSTEDELIJK GEWEST
 
-## Art. 14536bis
+###### Art. 14536bis
 
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 14537
+###### Art. 14537
 
 § 1. Er wordt een belastingvermindering
 verleend voor de volgende uitgaven die tijdens het
@@ -16460,7 +16464,7 @@ B. WAALSE GEWEST
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
-## Art. 14538
+###### Art. 14538
 
 § 1. De in artikel 14537 vermelde
 vermindering wordt verleend onder de volgende
@@ -16622,7 +16626,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-## Art. 14538/1
+###### Art. 14538/1
 
 Tekst : WIB 92 – Historische versie –
 Vlaams Gewest
@@ -16631,12 +16635,12 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-## Art. 14538/2
+###### Art. 14538/2
 
 Tekst : WIB 92 – Historische versie –
 Vlaams Gewest
 
-## Art. 14539
+###### Art. 14539
 
 Binnen de grenzen en onder de
 voorwaarden bepaald in artikel 14540 wordt een
@@ -16684,7 +16688,7 @@ B. WAALSE GEWEST
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
-## Art. 14540
+###### Art. 14540
 
 § 1. De in artikel 14539, eerste lid, 1°,
 vermelde bijdragen komen voor de belastingvermindering in aanmerking op voorwaarde dat:
@@ -16819,7 +16823,7 @@ B. WAALSE GEWEST
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
-## Art. 14541
+###### Art. 14541
 
 Dit artikel is van toepassing op de in artikel
 14539 vermelde uitgaven wanneer die:
@@ -16896,7 +16900,7 @@ VLAAMSE GEWEST
 Tekst : WIB 92 – Historische versie –
 Vlaams Gewest
 
-## Art. 14542
+###### Art. 14542
 
 Dit artikel is van toepassing op de in de
 artikelen 14539 vermelde uitgaven wanneer die:
@@ -17007,7 +17011,7 @@ B. WAALSE GEWEST
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
-## Art. 14543
+###### Art. 14543
 
 Er wordt een belastingvermindering
 verleend voor:
@@ -17086,7 +17090,7 @@ B. WAALSE GEWEST
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
-## Art. 14544
+###### Art. 14544
 
 § 1. Dit artikel is van toepassing wanneer
 leningen die specifiek zijn gesloten om de eigen
@@ -17162,7 +17166,7 @@ B. WAALSE GEWEST
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
-## Art. 14545
+###### Art. 14545
 
 § 1. Dit artikel is van toepassing wanneer:
 
@@ -17358,7 +17362,7 @@ B. WAALSE GEWEST
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
-## Art. 14546
+###### Art. 14546
 
 § 1. Wanneer de belastingplichtige:
 - tussen 1 januari 2005 en 31 december 2013
@@ -17465,7 +17469,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-## Art. 14546/1
+###### Art. 14546/1
 
 Tekst : WIB 92 – Historische versie –
 Vlaams Gewest
@@ -17474,7 +17478,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 WAALSE GEWEST
 
-## Art. 14546bis
+###### Art. 14546bis
 
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
@@ -17483,7 +17487,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 WAALSE GEWEST
 
-## Art. 14546ter
+###### Art. 14546ter
 
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
@@ -17492,7 +17496,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 WAALSE GEWEST
 
-## Art. 14546quater
+###### Art. 14546quater
 
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
@@ -17501,7 +17505,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 WAALSE GEWEST
 
-## Art. 14546quinquies
+###### Art. 14546quinquies
 
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
@@ -17510,14 +17514,14 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 WAALSE GEWEST
 
-## Art. 14546sexies
+###### Art. 14546sexies
 
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
 ##### Onderafdeling IInovodecies - Belastingverminderingen voor uitgaven voor dakisolatie
 
-## Art. 14547
+###### Art. 14547
 
 Er wordt een belastingvermindering
 verleend voor de uitgaven die tijdens het belastbaar
@@ -17578,25 +17582,25 @@ Brussels Hoofdstedelijk Gewest
 
 ##### Onderafdeling IIvicies - …
 
-## Art. 14548
+###### Art. 14548
 
 …
 
 ##### Onderafdeling IIvicies semel - …
 
-## Art. 14549
+###### Art. 14549
 
 …
 
 ##### Onderafdeling IIvicies bis- …
 
-## Art. 14550
+###### Art. 14550
 
 …
 
 ##### Onderafdeling III.- Vermindering voor pensioenen en vervangingsinkomsten.
 
-## Art. 146
+###### Art. 146
 
 Voor de toepassing van deze onderafdeling
 gelden de volgende begripsomschrijvingen :
@@ -17637,7 +17641,7 @@ als zelfstandige, van de in artikel 31bis,
 eerste lid, 2°, vermelde aanvullende
 vergoedingen.
 
-## Art. 147
+###### Art. 147
 
 Op de overeenkomstig de artikelen 130 tot
 145 bepaalde belasting met betrekking tot
@@ -17750,15 +17754,15 @@ belasting alsnog tot nul terug te brengen. Deze
 verhoogde bedragen zijn enkel van toepassing voor
 het betrokken aanslagjaar.
 
-## Art. 148
+###### Art. 148
 
 ...
 
-## Art. 149
+###### Art. 149
 
 ...
 
-## Art. 150
+###### Art. 150
 
 Wanneer een gemeenschappelijke aanslag
 wordt gevestigd, worden, de in deze onderafdeling
@@ -17769,7 +17773,7 @@ belastingplichtige berekend.
 
 ...
 
-## Art. 151
+###### Art. 151
 
 Wanneer het belastbare inkomen
 18.600 EUR of meer bedraagt, worden de
@@ -17785,7 +17789,7 @@ eensdeels, het verschil tussen 18.600 EUR en het
 belastbare inkomen en, anderdeels, het verschil
 tussen 18.600 EUR en 14.900 EUR.
 
-## Art. 151/1
+###### Art. 151/1
 
 De aanvullende verminderingen voor
 pensioenen en andere vervangingsinkomsten en
@@ -17799,7 +17803,7 @@ tussen, eensdeels, het verschil tussen 14 900 EUR
 en het belastbare inkomen en, anderdeels, het
 verschil tussen 14 900 EUR en 10 160 EUR.
 
-## Art. 152
+###### Art. 152
 
 Wanneer het belastbare inkomen
 29.800 EUR of meer bedraagt, worden de niet in de
@@ -17813,11 +17817,11 @@ eensdeels, het verschil tussen 29.800 EUR en het
 belastbare inkomen en, anderdeels, het verschil
 tussen 29.800 EUR en 14.900 EUR.
 
-## Art. 152bis
+###### Art. 152bis
 
 …
 
-## Art. 153
+###### Art. 153
 
 Geen vermindering ingevolge deze
 ###### onderafdeling mag hoger zijn dan het gedeelte van
@@ -17825,7 +17829,7 @@ de overeenkomstig de artikelen 130 tot 145
 bepaalde belasting dat betrekking heeft op de
 inkomsten waarvoor zij is verleend.
 
-## Art. 154
+###### Art. 154
 
 § 1. Een bijkomende vermindering wordt
 verleend wanneer het totale netto-inkomen
@@ -17985,7 +17989,7 @@ opgeheven.
 
 ##### Onderafdeling Illbis. - Vermindering voor bezoldigingen ingevolge het presteren van overwerk dat recht geeft op een overwerktoeslag
 
-## Art. 154bis
+###### Art. 154bis
 
 Er wordt een belastingvermindering verleend
 aan de werknemers die gedurende het belastbare
@@ -18137,7 +18141,7 @@ toepassing van de artikelen 155 of 156.
 
 ##### Onderafdeling IV.- Vermindering voor inkomsten uit het buitenland.
 
-## Art. 155
+###### Art. 155
 
 Inkomsten die krachtens internationale
 overeenkomsten ter voorkoming van dubbele
@@ -18173,7 +18177,7 @@ wordt gevestigd, wordt de vermindering per
 belastingplichtige op zijn totale netto-inkomen
 berekend.
 
-## Art. 156
+###### Art. 156
 
 Tot de helft wordt verminderd het deel van
 de overeenkomstig de artikelen 130 tot 145, 146 tot
@@ -18218,13 +18222,13 @@ berekend.
 
 ##### Onderafdeling IVbis - Omzetting van verminderingen in een terugbetaalbaar belastingkrediet
 
-## Art. 156bis
+###### Art. 156bis
 
 …
 
 ##### Onderafdeling V.- Vermeerdering ingeval geen of ontoereikende voorafbetalingen zijn gedaan.
 
-## Art. 157
+###### Art. 157
 
 In zover de totale belasting op winst, baten
 en de in artikel 30, 2° en 3°, bedoelde
@@ -18240,7 +18244,7 @@ artikel 86 een gedeelte van zijn winst of baten
 toekent aan de meewerkende echtgenoot, komt van
 rechtswege toe aan de meewerkende echtgenoot.
 
-## Art. 158
+###### Art. 158
 
 Bij het bepalen van het belastingbedrag
 waarop de vermeerdering wordt berekend worden
@@ -18254,7 +18258,7 @@ het forfaitair gedeelte van buitenlandse belasting en
 de belastingkredieten die op die inkomsten
 betrekking hebben.
 
-## Art. 159
+###### Art. 159
 
 De vermeerdering is gelijk aan het positieve
 verschil tussen :
@@ -18270,12 +18274,12 @@ naargelang zij uiterlijk zijn gedaan op
 van het jaar vóór dat waarnaar het
 aanslagjaar wordt genoemd.
 
-## Art. 160
+###### Art. 160
 
 De vermeerdering ingevolge artikel 159
 wordt tot 90 pct. van haar bedrag teruggebracht.
 
-## Art. 161
+###### Art. 161
 
 De basisrentevoet is het, in voorkomend
 geval tot de lagere eenheid afgeronde, rentetarief
@@ -18285,7 +18289,7 @@ vóór dat waarnaar het aanslagjaar wordt genoemd,
 zonder dat die basisrentevoet lager mag zijn dan 1
 pct.
 
-## Art. 162
+###### Art. 162
 
 Wanneer zulks ingevolge de op de geldmarkt
 toegepaste rentevoeten verantwoord is, kan de
@@ -18315,14 +18319,14 @@ niet bij wet zijn bekrachtigd binnen de 12 maanden
 na de datum van hun bekendmaking in het
 Belgisch Staatsblad.
 
-## Art. 163
+###### Art. 163
 
 Geen vermeerdering is verschuldigd
 wanneer het ingevolge de artikelen 159 en 160
 berekende bedrag ervan lager is dan 0,5 pct. van de
 belasting waarop zij is berekend of 50 EUR.
 
-## Art. 164
+###### Art. 164
 
 Geen vermeerdering is verschuldigd op de
 belasting op de winst, de baten en de in artikel 30,
@@ -18333,13 +18337,13 @@ werkzaamheid gedurende de eerste drie jaren
 verkrijgen. Het jaar waarin elke werkzaamheid
 aanvangt wordt voor een volledig jaar geteld.
 
-## Art. 165
+###### Art. 165
 
 Voor de toepassing van deze onderafdeling
 bedraagt de belasting 106 pct. van de totale
 belasting.
 
-## Art. 166
+###### Art. 166
 
 Voor de toepassing van deze onderafdeling
 omvatten de winst, de baten en de in artikel 30, 2°
@@ -18351,7 +18355,7 @@ bezoldigingen of baten;
 2° de inkomsten die overeenkomstig artikel 171
 zijn belast.
 
-## Art. 167
+###### Art. 167
 
 De Koning bepaalt (1) de voorwaarden en de
 regels van uitvoering van de artikelen 157 tot 166
@@ -18370,7 +18374,7 @@ seizoenwerkzaamheid.
 ------------------------------
 (1) art. 64 tot 71, KB/WIB 92.
 
-## Art. 168
+###### Art. 168
 
 De Koning kan van de vermeerdering geheel
 of gedeeltelijk afzien wanneer de voorafbetalingen
@@ -18380,7 +18384,7 @@ bepaalt.
 
 ##### Onderafdeling VI.- Vermeerdering ingevolge de overschrijding van de maximale steunintensiteit ten gevolge van de achterwaartse aftrek van beroepsverliezen.
 
-## Art. 168/1
+###### Art. 168/1
 
 § 1. Wanneer de belastingplichtige heeft
 geopteerd voor de achterwaartse aftrek van
@@ -18470,14 +18474,14 @@ bepalingen van voormelde verordening (EU)
 702/2014 en andere relevante Europeesrechtelijke
 bepalingen.
 
-##### Afdeling II.- Bijzondere stelsels van aanslag.
+#### Afdeling II.- Bijzondere stelsels van aanslag.
 
 ##### Onderafdeling I.- Omzetting van sommige
 
 kapitalen, vergoedingen en afkoopwaarden in
 lijfrente.
 
-## Art. 169
+###### Art. 169
 
 § 1. De hierna vermelde kapitalen worden
 voor de vaststelling van de belastbare grondslag
@@ -18630,7 +18634,7 @@ wanneer die gebeurtenis plaatsvindt vóór het
 verstrijken van die periode van 13 belastbare
 tijdperken.
 
-## Art. 170
+###### Art. 170
 
 Wanneer de inkomsten een in artikel 90,
 eerste lid, 3°, vermeld kapitaal omvatten, komt dat
@@ -18652,7 +18656,7 @@ gezamenlijk met de andere inkomsten belast.
 
 ##### Onderafdeling II.- Afzonderlijke aanslagen.
 
-## Art. 171
+###### Art. 171
 
 In afwijking van de artikelen 130 tot 145 en
 146 tot 156, zijn afzonderlijk belastbaar, behalve
@@ -19503,7 +19507,7 @@ besluit.
 belasting bij toepassing van artikel 155 zou
 worden verminderd indien ze overeenkomstig artikel 130 zouden worden belast.
 
-## Art. 171/1
+###### Art. 171/1
 
 Artikel 171 is niet van toepassing op de
 bezoldigingen die worden betaald of toegekend in
@@ -19515,7 +19519,7 @@ vrijgesteld bij toepassing van artikel 38, § 1, eerste
 lid, 29°, omwille van het overschrijden van het in
 diezelfde bepaling vermelde maximumbedrag.
 
-## Art. 172
+###### Art. 172
 
 Om het belastbare bedrag van de in artikel
 171 vermelde inkomsten te bepalen, worden de
@@ -19536,7 +19540,7 @@ niet aangerekende saldo belast overeenkomstig het
 fiscaal regime dat op elk van deze bestanddelen
 van toepassing is.
 
-## Art. 173
+###### Art. 173
 
 Verwezenlijkte meerwaarden op financiële
 vaste activa of andere aandelen worden slechts aan
@@ -19553,7 +19557,7 @@ bedoelde activa zijn vervreemd nadat zij meer dan
 5 jaar voor het uitoefenen van de
 beroepswerkzaamheid zijn gebruikt.
 
-## Art. 174
+###### Art. 174
 
 Behoudens in geval van overlijden vinden de
 bepalingen van artikel 171, 1°bis, slechts
@@ -19575,7 +19579,7 @@ belegd is gebleven.
 
 ##### Onderafdeling III.- Beperking van de voordelen in verhouding tot de duur van het belastbare tijdperk
 
-## Art. 174/1
+###### Art. 174/1
 
 Wanneer het belastbare tijdperk om een
 andere reden dan overlijden niet overeenstemt met
@@ -19652,9 +19656,9 @@ dan niet 5 bereikt.
 
 ----------
 
-##### Afdeling III.- Bonificatie voor voorafbetaling van de belasting.
+#### Afdeling III.- Bonificatie voor voorafbetaling van de belasting.
 
-## Art. 175
+###### Art. 175
 
 Op de totale belasting, verhoogd tot 106
 pct., vermeerderd met de in de artikelen 25/1,
@@ -19679,14 +19683,14 @@ is voorafbetaald (1).
 
 (1) art. 64 tot 71, KB/WIB 92.
 
-## Art. 176
+###### Art. 176
 
 Het gedeelte van de in artikel 157 bedoelde
 voorafbetalingen dat hoger is dan het in artikel 175,
 2°, genoemde bedrag, komt in aanmerking als een
 voorafbetaling die recht geeft op bonificatie.
 
-## Art. 177
+###### Art. 177
 
 De in artikel 175 vermelde bonificatie is
 gelijk aan het bedrag van de voorafbetalingen
@@ -19697,9 +19701,9 @@ basisrentevoet naar gelang zij uiterlijk op 10 april,
 vóór dat waarvoor het aanslagjaar wordt genoemd,
 zijn gedaan.
 
-##### Afdeling IV. - Jaarlijkse indexatie.
+#### Afdeling IV. - Jaarlijkse indexatie.
 
-## Art. 178
+###### Art. 178
 
 § 1. De bedragen die in deze titel en in de
 desbetreffende bijzondere wetsbepalingen zijn
@@ -19983,9 +19987,9 @@ B. WAALSE GEWEST
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
-##### Afdeling V. - Aanrekening van de belastingverminderingen en de kortingen.
+#### Afdeling V. - Aanrekening van de belastingverminderingen en de kortingen.
 
-## Art. 178/1
+###### Art. 178/1
 
 § 1. De belastingverminderingen als
 vermeld in de artikelen 1451 tot 14516, 14526, 14527,
@@ -20042,13 +20046,13 @@ B. WAALSE GEWEST
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
-### TITEL III. - VENNOOTSCHAPSBELASTING.
+## TITEL III. - VENNOOTSCHAPSBELASTING.
 
-#### HOOFDSTUK I.
+### HOOFDSTUK I.
 
 Aan de belasting onderworpen vennootschappen.
 
-## Art. 179
+###### Art. 179
 
 Aan de vennootschapsbelasting zijn de
 binnenlandse vennootschappen onderworpen en de
@@ -20057,7 +20061,7 @@ bedoeld in artikel 8 van de wet van 27 oktober
 2006 betreffende het toezicht op de instellingen
 voor bedrijfspensioenvoorziening.
 
-## Art. 179/1
+###### Art. 179/1
 
 De in artikel 220 bedoelde verenigingen
 zonder winstoogmerk en andere rechtspersonen,
@@ -20071,7 +20075,7 @@ een raamovereenkomst op grond van artikel 194ter,
 194ter/1 of 194ter/3 hebben gesloten en voor de
 drie daaropvolgende aanslagjaren.
 
-## Art. 180
+###### Art. 180
 
 Aan de vennootschapsbelasting zijn niet
 onderworpen :
@@ -20179,7 +20183,7 @@ van 19 december 2008 betreffende de
 organisatie van de openbare centra voor
 maatschappelijk welzijn.
 
-## Art. 181
+###### Art. 181
 
 Aan de vennootschapsbelasting zijn ook niet
 onderworpen, verenigingen zonder winstoogmerk
@@ -20246,7 +20250,7 @@ toepassing van het WIB 1992 gelijkgesteld
 worden met de effecten waarop ze
 betrekking hebben.
 
-## Art. 182
+###### Art. 182
 
 Voor verenigingen zonder winstoogmerk en
 andere rechtspersonen die geen winstoogmerk
@@ -20266,13 +20270,13 @@ nijverheids-, handels- of landbouwverrichtingen betrekking heeft of niet
 volgens nijverheids- of handelsmethoden
 wordt uitgevoerd.
 
-#### HOOFDSTUK II.
+### HOOFDSTUK II.
 
 Grondslag van de belasting.
 
-##### Afdeling I.- Algemene bepalingen.
+#### Afdeling I.- Algemene bepalingen.
 
-## Art. 183
+###### Art. 183
 
 Onder voorbehoud van de in deze titel
 omschreven afwijkingen zijn, wat hun aard betreft,
@@ -20283,7 +20287,7 @@ worden beoogd ; het bedrag ervan wordt
 vastgesteld volgens de regels die van toepassing
 zijn op winst.
 
-## Art. 183bis
+###### Art. 183bis
 
 Voor de toepassing van de artikelen 45, § 1,
 eerste lid, 46, § 1, eerste lid, 2°, 95, eerste lid, 211,
@@ -20301,7 +20305,7 @@ het bewijs van het tegendeel, dat die verrichting als
 hoofddoel of een van de hoofddoelen
 belastingfraude of belastingontwijking heeft.
 
-## Art. 184
+###### Art. 184
 
 Het gestort kapitaal is het kapitaal voor
 zover dat gevormd wordt door werkelijk gestorte
@@ -20394,7 +20398,7 @@ zijn aangerekend.
 
 …
 
-## Art. 184bis
+###### Art. 184bis
 
 § 1 Wanneer een bedrijfsafdeling of een tak
 van werkzaamheid of een algemeenheid van
@@ -20620,7 +20624,7 @@ de berekening van de jaarlijkse dotatie aan de
 wettelijke reserve of van enige beloning of
 toekenning.
 
-## Art. 184ter
+###### Art. 184ter
 
 § 1. Wordt evenwel, onverminderd de
 toepassing van artikel 214, § 1, niet als gestort
@@ -20863,7 +20867,7 @@ kan niet lager zijn dan nul.
 
 ----------
 
-## Art. 184quater
+###### Art. 184quater
 
 Een vennootschap die als kleine
 vennootschap wordt aangemerkt, kan een
@@ -20899,7 +20903,7 @@ definitief zijn vervreemd en voor zover deze aldus
 onrechtstreeks worden aangehouden door een
 Carried interest begunstigde.
 
-## Art. 184quinquies
+###### Art. 184quinquies
 
 Onder voorbehoud van de bepalingen van
 artikel 30 van de wet van 12 augustus 2000
@@ -21028,9 +21032,9 @@ vinden tijdens een belastbaar tijdperk voor hetwelk
 zij aan de rechtspersonenbelasting onderworpen
 was.
 
-##### Afdeling II.- Belastinggrondslag.
+#### Afdeling II.- Belastinggrondslag.
 
-## Art. 185
+###### Art. 185
 
 § 1. Vennootschappen zijn belastbaar op het
 totale bedrag van de winst, uitgekeerde dividenden
@@ -21480,7 +21484,7 @@ aangelegd, is aangevangen voor 1 januari
 reserve wordt teruggenomen is
 aangevangen op of na 1 januari 2020.
 
-## Art. 185/1
+###### Art. 185/1
 
 In afwijking van artikel 24 komt winst
 eveneens voort uit de overdracht van een of
@@ -21498,7 +21502,7 @@ anderzijds de aanschaffings- of beleggingswaarde
 ervan, verminderd met de voorheen aangenomen
 waardeverminderingen en afschrijvingen.
 
-## Art. 185/2
+###### Art. 185/2
 
 § 1. Onverminderd de toepassing van artikel
 185, § 2, a), omvat winst eveneens de in paragraaf
@@ -21789,7 +21793,7 @@ economische activiteit, het aanbieden van goederen
 of diensten op een bepaalde markt worden
 begrepen.
 
-## Art. 185bis
+###### Art. 185bis
 
 § 1. In afwijking van artikel 185 zijn de
 beleggingsvennootschappen bedoeld in de artikelen
@@ -21970,19 +21974,19 @@ administratieve zaken.
 
 ----------
 
-## Art. 185ter
+###### Art. 185ter
 
 …
 
-## Art. 185quater
+###### Art. 185quater
 
 …
 
-## Art. 185quinquies
+###### Art. 185quinquies
 
 Het artikel 25, 7°, is niet van toepassing.
 
-## Art. 186
+###### Art. 186
 
 Wanneer een vennootschap op enige wijze
 eigen aandelen verkrijgt, wordt als uitgekeerd
@@ -22054,7 +22058,7 @@ invloed op de toepassing van het artikel 192, § 1,
 in hoofde van de vennootschap die eigen aandelen
 overdraagt die in portefeuille werden gehouden.
 
-## Art. 187
+###### Art. 187
 
 Wanneer het maatschappelijk vermogen van
 een vennootschap gedeeltelijk wordt verdeeld ten
@@ -22066,7 +22070,7 @@ in enige andere vorm aan de belanghebbende of
 zijn rechthebbenden en zijn aandeel in de
 gerevaloriseerde waarde van het gestorte kapitaal.
 
-## Art. 188
+###### Art. 188
 
 In geval van toepassing van de artikelen 186
 en 187 wordt het gestorte kapitaal verminderd met
@@ -22107,7 +22111,7 @@ verwerving van de aandelen. Deze regel
 blijft zonder gevolg voor het bepalen van de
 belastbare winst.
 
-## Art. 189
+###### Art. 189
 
 § 1. In coöperatieve verbruiksverenigingen
 worden als winst aangemerkt de restorno's en
@@ -22137,11 +22141,11 @@ van de coöperatieve vereniging belast en worden
 bepaald zonder dat rekening wordt gehouden met
 de algemene uitslag van de onderneming.
 
-##### Afdeling III.- Vrijgestelde inkomsten.
+#### Afdeling III.- Vrijgestelde inkomsten.
 
 ##### Onderafdeling I.- Meerwaarden.
 
-## Art. 190
+###### Art. 190
 
 Het voor de personenbelasting geldende
 meerwaardenstelsel, bepaald in de artikelen 44,
@@ -22174,7 +22178,7 @@ voorlopig niet belaste gedeelte van de
 meerwaarden als winst van dat belastbare tijdperk
 beschouwd.
 
-## Art. 190bis
+###### Art. 190bis
 
 Het behoud van de aftrek van 20 pct. van de
 in artikel 64ter, zoals het bestond voordat het werd
@@ -22188,11 +22192,11 @@ aanvaard boven het bedrag van de werkelijk
 gedane of gedragen kosten, is onderworpen aan de
 in artikel 190, tweede lid, bedoelde voorwaarde.
 
-## Art. 191
+###### Art. 191
 
 …
 
-## Art. 192
+###### Art. 192
 
 § 1. De niet in artikel 45, § 1, eerste lid, 1°,
 bedoelde meerwaarden op aandelen verwezenlijkt,
@@ -22446,7 +22450,7 @@ land gelegen inrichting van die vennootschap
 overeenkomstig artikel 185/2 in hoofde van de
 binnenlandse vennootschap werd belast
 
-## Art. 193
+###### Art. 193
 
 De in artikel 44, § 2, vermelde vrijstelling op
 verwezenlijkte meerwaarden op ongebouwde
@@ -22454,7 +22458,7 @@ onroerende goederen van landbouw- of tuinbouwondernemingen is niet van toepassin
 
 ##### Onderafdeling Ibis. - Vrijgestelde gewestelijke steunmaatregelen
 
-## Art. 193bis
+###### Art. 193bis
 
 § 1. De tewerkstellingspremies en
 beroepsoverstappremies, die door de bevoegde
@@ -22487,7 +22491,7 @@ voorheen vrijgestelde winst geacht een winst te zijn
 van het belastbaar tijdperk gedurende hetwelk de
 vervreemding heeft plaatsgevonden.
 
-## Art. 193ter
+###### Art. 193ter
 
 § 1. De winst wordt vrijgesteld ten belope
 van het bedrag van de premies, en de kapitaal- of
@@ -22510,7 +22514,7 @@ vervreemding heeft plaatsgevonden.
 
 ##### Onderafdeling Iter. - Inschakelingsbedrijven
 
-## Art. 193quater
+###### Art. 193quater
 
 § 1. Voor vennootschappen die op het einde
 van het belastbare tijdperk op grond van artikel 1, §
@@ -22582,7 +22586,7 @@ belastbare tijdperk.
 
 ##### Onderafdeling II.- Vrijgestelde voorzieningen
 
-## Art. 194
+###### Art. 194
 
 Onverminderd de toepassing van artikel
 194bis, is de vrijstelling voor voorzieningen voor
@@ -22604,7 +22608,7 @@ reglementering.
 
 ##### Onderafdeling III. - Technische voorzieningen van verzekeringsondernemingen.
 
-## Art. 194bis
+###### Art. 194bis
 
 Binnen de grenzen en onder de voorwaarden
 bepaald door de Koning (1) worden de technische
@@ -22617,7 +22621,7 @@ toezicht op de verzekerings- of herverzekeringsondernemingen vrijgesteld.
 
 ##### Onderafdeling IV.- Ondernemingen die in het kader van een taxshelter-stelsel investeren in een raamovereenkomst voor de productie van audiovisueel werk, een podiumwerk of een videospel
 
-## Art. 194ter
+###### Art. 194ter
 
 § 1. Voor de toepassing van dit artikel wordt
 verstaan onder :
@@ -23536,7 +23540,7 @@ het publiek worden aangeboden of tot de handel op
 een gereglementeerde markt worden toegelaten en
 tot intrekking van richtlijn 2003/71/EG.
 
-## Art. 194ter/1
+###### Art. 194ter/1
 
 § 1. De toepassing van artikel 194ter wordt
 verruimd tot de in aanmerking komende
@@ -23784,7 +23788,7 @@ ervan vergewissen dat het werk voor het eerst in de
 Europese Economische Ruimte publiekelijk werd
 vertoond.
 
-## Art. 194ter/2
+###### Art. 194ter/2
 
 Wanneer het in artikel 194ter, 194ter/1, § 2,
 eerste lid, 1°, of artikel 194ter/3, § 2, 1°, bedoelde
@@ -23802,7 +23806,7 @@ en de procedures die deze betreffen voor de
 toepassing van de artikelen 194ter, 194ter/1 en
 194ter/3.
 
-## Art. 194ter/3
+###### Art. 194ter/3
 
 § 1. Artikel 194ter is eveneens van
 toepassing op de in aanmerking komende
@@ -24086,7 +24090,7 @@ gebracht.
 
 ##### Onderafdeling V - Investeringsreserve.
 
-## Art. 194quater
+###### Art. 194quater
 
 § 1. De investeringsreserve die bij het
 verstrijken van een belastbaar tijdperk dat ten
@@ -24236,7 +24240,7 @@ vaststellen dat hoger is dan 37.500 EUR.
 
 ##### Onderafdeling V/1 - Wederopbouwreserve.
 
-## Art. 194quater/1
+###### Art. 194quater/1
 
 § 1. De wederopbouwreserve, die bij het
 verstrijken van het belastbaar tijdperk dat
@@ -24415,7 +24419,7 @@ vrijstelling toegepast wordt.
 
 ##### Onderafdeling VI - Vrijgestelde innovatieinkomsten.
 
-## Art. 194quinquies
+###### Art. 194quinquies
 
 § 1. Voor het belastbaar tijdperk waarin de
 aanvraag voor een in artikel 205/1, § 2, 1°, a) tot d)
@@ -24499,7 +24503,7 @@ vastgesteld.
 
 ##### Onderafdeling VII. - Specifieke vrijstellingen
 
-## Art. 194sexies
+###### Art. 194sexies
 
 De winst wordt vrijgesteld ten belope van
 het totaal van het in artikel 198/1, § 2 bedoelde
@@ -24521,7 +24525,7 @@ haar aangifte in de vennootschapsbelasting een
 opgave voegt waarvan het model door de Koning
 wordt vastgesteld.
 
-## Art. 194septies
+###### Art. 194septies
 
 De winst wordt vrijgesteld :
 
@@ -24553,7 +24557,7 @@ vennootschap of Belgische inrichting.
 
 ##### Onderafdeling VIII. - Vrijstelling ter versterking van de solvabiliteit en het eigen vermogen van de vennootschappen ten gevolge van de COVID-19 pandemie.
 
-## Art. 194septies/1
+###### Art. 194septies/1
 
 § 1. Voor het aanslagjaar 2019 of 2020 dat
 verband houdt met een boekjaar dat afgesloten
@@ -24695,11 +24699,11 @@ deze opgave samen met de aangifte uiterlijk op 30
 november 2020 toezenden volgens de nadere regels
 bepaald door de Koning.
 
-##### Afdeling IV.- Vaststelling van het netto-inkomen.
+#### Afdeling IV.- Vaststelling van het netto-inkomen.
 
 ##### Onderafdeling I.- Beroepskosten.
 
-## Art. 194octies
+###### Art. 194octies
 
 De artikelen 51, tweede lid, 5° en 64ter,
 eerste lid, 2° en 3°, tweede en derde lid, zijn niet
@@ -24748,7 +24752,7 @@ woning te worden gebruikt;
 - aan meerdere natuurlijke personen die ze
 uitsluitend gezamenlijk als woning gebruiken.
 
-## Art. 195
+###### Art. 195
 
 § 1. Bedrijfsleiders worden voor de
 toepassing van de bepalingen inzake beroepskosten
@@ -24784,7 +24788,7 @@ Om het aftrekbare deel van de premies te
 bepalen komen uitsluitend de in § 1, tweede lid,
 omschreven bezoldigingen in aanmerking.
 
-## Art. 195/1
+###### Art. 195/1
 
 De kosten die werkelijk zijn betaald of
 gedragen, of het karakter van zekere en vaststaande
@@ -24799,7 +24803,7 @@ belastbare tijdperken, in verhouding tot het
 gedeelte van die kosten dat betrekking heeft op dat
 belastbare tijdperk.
 
-## Art. 196
+###### Art. 196
 
 § 1. De Koning kan, bij in Ministerraad
 overlegd besluit, criteria en normen stellen om te
@@ -24844,7 +24848,7 @@ kosten op dezelfde wijze als de hoofdsom van de
 aanschaffings- of beleggingswaarde van de
 desbetreffende vaste activa afgeschreven.
 
-## Art. 197
+###### Art. 197
 
 Niet-verantwoorde kosten en verdoken
 meerwinsten, die ingevolge artikel 219 aan de
@@ -24857,7 +24861,7 @@ zesde lid, worden in afwijking van artikel 57,
 eerste lid, de niet verantwoorde uitgaven
 beschouwd als beroepskosten.
 
-## Art. 198
+###### Art. 198
 
 § 1. Als beroepskosten worden niet
 aangemerkt :
@@ -25489,7 +25493,7 @@ c) de modaliteiten voor de tussenkomst
 van de vennootschappen en de
 gehanteerde interestvoeten.
 
-## Art. 198/1
+###### Art. 198/1
 
 § 1. Onverminderd de toepassing van de
 artikelen 54 en 55 wordt het in § 2 bedoelde
@@ -25838,7 +25842,7 @@ bewijs moet worden geleverd dat de
 belastingplichtige zich binnen het toepassingsgebied bevindt van een van de in het eerste lid
 bedoelde definities.
 
-## Art. 198bis
+###### Art. 198bis
 
 Het in artikel 66, § 1, tweede lid, vermelde
 minimum van 75 pct. voor de met betrekking tot
@@ -25857,17 +25861,17 @@ artikel 198bis, als volgt :
 De artikelen 66, § 1/1, en 550, derde en
 vijfde lid, zijn niet van toepassing.
 
-## Art. 198ter
+###### Art. 198ter
 
 …
 
-## Art. 198quater
+###### Art. 198quater
 
 …
 
 ##### Onderafdeling II.- Aftrek van vrijgestelde inkomsten.
 
-## Art. 199
+###### Art. 199
 
 Met uitzondering van in de in artikel 21,
 eerste lid, 5°, 10°, 11°, 13° en 14°, vermelde
@@ -25883,7 +25887,7 @@ aanmerking komen, die begrepen zijn in de winst
 van het belastbare tijdperk, van die winst
 afgetrokken.
 
-## Art. 200
+###### Art. 200
 
 Het percentage van 10 pct. en het
 maximumbedrag van 250.000 EUR die inzake
@@ -25891,11 +25895,11 @@ vermindering voor giften zijn vermeld in artikel
 14533, § 1, vierde lid, worden respectievelijk op 5
 pct. en op 500.000 EUR gebracht.
 
-## Art. 200/1
+###### Art. 200/1
 
 Artikel 67sexies is niet van toepassing.
 
-## Art. 201
+###### Art. 201
 
 § 1. De in artikel 69, eerste lid, 1°, en derde
 lid bedoelde basisaftrek van de investeringsaftrek
@@ -25981,7 +25985,7 @@ Vanaf aanslagjaar 2027, wordt artikel 201,
 
 ##### Onderafdeling III.- Aftrekken van de belastbare winst.
 
-## Art. 202
+###### Art. 202
 
 § 1. Van de winst van het belastbare tijdperk
 worden mede afgetrokken, in zover zij erin
@@ -26138,7 +26142,7 @@ belastingplichtige als dividend werd aangemerkt.
 
 ----------
 
-## Art. 203
+###### Art. 203
 
 § 1. De in artikel 202, § 1, 1° en 2°,
 vermelde inkomsten zijn bovendien niet aftrekbaar
@@ -26467,7 +26471,7 @@ vastgoedbeleggingsfondsen, en dit voor zover zij
 daar in toepassing van de voormelde artikelen toe
 verplicht waren.
 
-## Art. 204
+###### Art. 204
 
 De ingevolge artikel 202, § 1, aftrekbare
 inkomsten worden geacht in de winst van het
@@ -26476,7 +26480,7 @@ het geïnde of verkregen bedrag eventueel
 vermeerderd met de roerende voorheffing of de
 fictieve roerende voorheffing.
 
-## Art. 205
+###### Art. 205
 
 § 1. Geen aftrek ingevolge artikel 202 wordt
 verleend ter zake van inkomsten uit activa die voor
@@ -26558,11 +26562,11 @@ overgedragen.
 
 ##### Onderafdeling IIIbis. - Aftrek voor innovatie-inkomsten.
 
-## Art. 2051
+###### Art. 2051
 
 …
 
-## Art. 205/1
+###### Art. 205/1
 
 § 1. De winst van het belastbare tijdperk
 wordt verminderd met 85 pct. van de
@@ -26834,11 +26838,11 @@ vennootschap zich rechtstreeks, noch
 onrechtstreeks in een band van wederzijdse
 afhankelijkheid bevindt.
 
-## Art. 2052
+###### Art. 2052
 
 …
 
-## Art. 205/2
+###### Art. 205/2
 
 § 1. Om de aftrek voor innovatie-inkomsten
 voor een belastbaar tijdperk te bepalen, stemmen
@@ -26953,11 +26957,11 @@ verder overeenkomstig het tweede lid in mindering
 gebracht in de loop van de volgende belastbare
 tijdperken.
 
-## Art. 2053
+###### Art. 2053
 
 …
 
-## Art. 205/3
+###### Art. 205/3
 
 § 1. De overeenkomstig artikel 205/2
 afzonderlijk bepaalde innovatie-inkomsten worden
@@ -27073,11 +27077,11 @@ van 24 december 2002 tot wijziging van de
 vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van
 voorafgaande beslissingen in fiscale zaken.
 
-## Art. 2054
+###### Art. 2054
 
 …
 
-## Art. 205/4
+###### Art. 205/4
 
 § 1. De belastingplichtige houdt ter
 beschikking van de administratie de bewijsstukken
@@ -27174,7 +27178,7 @@ van het belastbaar tijdperk beschouwd.
 
 ##### Onderafdeling IIIbis/1. - Aftrek van de groepsbijdrage.
 
-## Art. 205/5
+###### Art. 205/5
 
 § 1. Bij de bepaling van het belastbaar
 inkomen wordt het in dit artikel omschreven
@@ -27432,41 +27436,41 @@ door de Koning wordt vastgesteld.
 
 …
 
-## Art. 205bis
+###### Art. 205bis
 
 …
 
-## Art. 205ter
+###### Art. 205ter
 
 …
 
-## Art. 205quater
+###### Art. 205quater
 
 …
 
-## Art. 205quinquies
+###### Art. 205quinquies
 
 …
 
-## Art. 205sexies
+###### Art. 205sexies
 
 …
 
-## Art. 205septies
+###### Art. 205septies
 
 …
 
-## Art. 205octies
+###### Art. 205octies
 
 …
 
-## Art. 205novies
+###### Art. 205novies
 
 …
 
 ##### Onderafdeling IV.- Vorige Verliezen.
 
-## Art. 206
+###### Art. 206
 
 § 1. Vorige beroepsverliezen worden
 achtereenvolgens van de winst van elk volgende
@@ -27715,7 +27719,7 @@ formulier.
 
 ##### Onderafdeling V.-. Gemene bepalingen en volgorde van toepassing van de wettelijke bepalingen voor de vaststelling van het belastbaar inkomen
 
-## Art. 206/1
+###### Art. 206/1
 
 Om het belastbare resultaat vast te stellen,
 wordt het resultaat van het belastbare tijdperk,
@@ -27908,7 +27912,7 @@ een andere categorie behoren;
 3° onder "dividenden", de dividenden bedoeld
 in artikel 18.
 
-## Art. 206/2
+###### Art. 206/2
 
 Het totale bedrag van het overeenkomstig
 artikel 206/1 vastgestelde resultaat wordt
@@ -27919,7 +27923,7 @@ waarvoor de winst forfaitair wordt vastgesteld
 overeenkomstig de artikelen 115 tot 120 of 124 van
 de programmawet van 2 augustus 2002.
 
-## Art. 206/3
+###### Art. 206/3
 
 § 1. Van het resultaat dat overeenkomstig
 artikel 206/2 is vastgesteld, worden de
@@ -28012,7 +28016,7 @@ vermeerderd met het bedrag van de verliezen die
 krachtens artikel 185, § 3, eerste of tweede lid
 buiten beschouwing worden gelaten.
 
-## Art. 206/4
+###### Art. 206/4
 
 Het totale bedrag van het overeenkomstig de
 artikelen 206/1 tot 206/3 vastgestelde resultaat
@@ -28098,7 +28102,7 @@ deze verliezen werden geleden, evenals het bedrag
 van deze verliezen en het belastbare tijdperk
 waarin deze verliezen werden geleden.
 
-## Art. 206/5
+###### Art. 206/5
 
 Van het saldo van de winst dat
 overeenkomstig de artikelen 206/1 tot 206/4 is
@@ -28131,7 +28135,7 @@ winst van het belastbare tijdperk afgetrokken en,
 tot het eventuele overschot, van de niet bij verdrag
 vrijgestelde winst van dat tijdperk.
 
-## Art. 207
+###### Art. 207
 
 De in de artikelen 201 tot 206, 536 en 543
 bedoelde aftrekken worden vervolgens van de
@@ -28267,7 +28271,7 @@ beroepsverliezen.
 
 …
 
-## Art. 207/1
+###### Art. 207/1
 
 Het resultaat na toepassing van artikel 207
 wordt verhoogd met de op forfaitaire wijze
@@ -28276,7 +28280,7 @@ de programmawet van 2 augustus 2002,
 vastgestelde winst uit zeescheepvaart en uit het
 beheer van zeeschepen voor rekening van derden.
 
-## Art. 207/2
+###### Art. 207/2
 
 Het in artikel 206/3, § 1, eerste lid, bedoelde
 gedeelte van het resultaat wordt opnieuw gevoegd
@@ -28288,11 +28292,11 @@ na aftrek van de resterende overeenkomstig artikel
 205, § 2, aftrekbare inkomsten, opnieuw gevoegd
 bij het resultaat na toepassing van artikel 207/1.
 
-Art. 207/3 tot 207/9 …
+###### Art. 207/3 tot 207/9 …
 
-##### Afdeling V.- Ontbinding en vereffening.
+#### Afdeling V.- Ontbinding en vereffening.
 
-## Art. 208
+###### Art. 208
 
 Vennootschappen in vereffening blijven aan
 de vennootschapsbelasting onderworpen volgens
@@ -28302,7 +28306,7 @@ Hun winst bevat mede de meerwaarden die
 worden verwezenlijkt of vastgesteld naar
 aanleiding van de verdeling van hun vermogen.
 
-## Art. 209
+###### Art. 209
 
 Wanneer het maatschappelijk vermogen van
 een vennootschap wordt verdeeld ten gevolge van
@@ -28342,7 +28346,7 @@ revalorisatie daarvan volgens de coëfficiënten die
 op dezelfde datum van toepassing zijn voor de
 jaren waarin die verdelingen hebben plaatsgehad.
 
-## Art. 210
+###### Art. 210
 
 § 1. De artikelen 208 en 209 zijn mede van
 toepassing :
@@ -28573,7 +28577,7 @@ invloed op de vaststelling van het bedrag aan
 dividenden dat in hoofde van de vennoten en
 aandeelhouders wordt vastgesteld.
 
-## Art. 210/1
+###### Art. 210/1
 
 De artikelen 208 en 209 zijn eveneens van
 toepassing in het geval dat een vennootschap niet
@@ -28594,7 +28598,7 @@ vennootschapsbelasting was onderworpen, niet in
 aanmerking genomen voor de bepaling van de
 belastbare grondslag.
 
-## Art. 211
+###### Art. 211
 
 § 1. Ingeval van fusie, splitsing of met fusie
 door overneming gelijkgestelde verrichting als
@@ -28788,7 +28792,7 @@ inrichting die in toepassing van artikel 233 in
 aanmerking worden genomen voor de vaststelling
 van de belastinggrondslag.
 
-## Art. 212
+###### Art. 212
 
 In gevallen als vermeld in artikel 211
 worden de afschrijvingen, investeringsaftrekken,
@@ -28828,7 +28832,7 @@ meerwaarden worden uitgedrukt, worden deze
 gelijkgesteld met de in artikel 44, § 1, 1°, bedoelde
 uitgedrukte, niet verwezenlijkte meerwaarden.
 
-## Art. 213
+###### Art. 213
 
 Bij het bepalen van het gestort kapitaal en
 van de voorheen gereserveerde winst die in geval
@@ -28859,7 +28863,7 @@ aangemerkt hetzij als gesplitste vennootschap,
 hetzij als overnemende of verkrijgende
 vennootschap.
 
-## Art. 214
+###### Art. 214
 
 § 1. Artikel 212 is van toepassing op de
 vennootschap die een andere rechtsvorm heeft
@@ -28908,7 +28912,7 @@ geacht niet te hebben plaatsgevonden.
 
 ----------
 
-## Art. 214bis
+###### Art. 214bis
 
 Niettegenstaande artikel 210, § 1, 4°, ingeval
 van overbrenging van de voornaamste inrichting of
@@ -28937,15 +28941,15 @@ teruggevonden worden binnen het eigen
 vermogen van de Belgische inrichting van
 deze vennootschap.
 
-#### HOOFDSTUK III.
+### HOOFDSTUK III.
 
 Berekening van de belasting.
 
-##### Afdeling I.- Gewoon stelsel van aanslag.
+#### Afdeling I.- Gewoon stelsel van aanslag.
 
 ##### Onderafdeling I.- Belastingtarief.
 
-## Art. 215
+###### Art. 215
 
 Het tarief van de vennootschapsbelasting
 bedraagt 25 pct.
@@ -29037,7 +29041,7 @@ voor bedrijfspensioenvoorziening, in de
 mate dat artikel 185bis, § 1, toepassing
 vindt.
 
-## Art. 216
+###### Art. 216
 
 Het tarief van de vennootschapsbelasting
 bedraagt :
@@ -29084,7 +29088,7 @@ maatregelen;
 
 ##### Onderafdeling II.- …
 
-## Art. 217
+###### Art. 217
 
 Het tarief van de vennootschapsbelasting
 bedraagt evenwel :
@@ -29147,7 +29151,7 @@ betrekking tot dat vast actief niet meer verleend
 vanaf het belastbaar tijdperk waarin de
 vervreemding heeft plaatsgevonden.
 
-## Art. 217/1
+###### Art. 217/1
 
 § 1. Het tarief van de vennootschapsbelasting is evenwel gelijk aan het in het derde lid
 bedoelde percentage wat betreft :
@@ -29204,7 +29208,7 @@ voorziening geacht eerst te zijn teruggenomen.
 
 ##### Onderafdeling III.- Vermeerdering ingeval geen of ontoereikende voorafbetalingen zijn gedaan.
 
-## Art. 218
+###### Art. 218
 
 § 1. De belasting berekend overeenkomstig
 de artikelen 215 tot 217, met uitsluiting van het in
@@ -29234,7 +29238,7 @@ haar oprichting.
 
 ##### Onderafdeling IV.-. Vermeerdering ingevolge de overschrijding van de maximale steunintensiteit ten gevolge van de achterwaartse aftrek van beroepsverliezen
 
-## Art. 218/1
+###### Art. 218/1
 
 Wanneer de belastingplichtige heeft
 geopteerd voor de achterwaartse aftrek van
@@ -29252,9 +29256,9 @@ vermeerderd met het overeenkomstig in artikel
 De Koning legt de nadere regels vast
 overeenkomstig artikel 168/1, § 4.
 
-##### Afdeling II.- Afzonderlijke aanslagen.
+#### Afdeling II.- Afzonderlijke aanslagen.
 
-## Art. 219
+###### Art. 219
 
 Een afzonderlijke aanslag wordt gevestigd
 op kosten als bedoeld in artikel 57, eerste lid, en
@@ -29413,7 +29417,7 @@ tweede lid, en 358.
 
 ----------
 
-## Art. 219bis
+###### Art. 219bis
 
 § 1. Ten name van de kredietverenigingen
 en van de maatschappijen voor onderlinge
@@ -29544,7 +29548,7 @@ beschouwd.
 worden de oudst gevormde reserves geacht eerst
 te zijn aangetast.
 
-## Art. 219ter
+###### Art. 219ter
 
 § 1. Voor het belastbare tijdperk waarin het
 in artikel 194septies/1, § 1, bedoelde vrijgestelde
@@ -29633,7 +29637,7 @@ vermeerderd met het in artikel 185, § 5 bedoelde
 bedrag, is het tarief van deze afzonderlijke
 aanslag gelijk aan 40 pct.
 
-## Art. 219quater
+###### Art. 219quater
 
 Voor het belastbaar tijdperk waarin een
 liquidatiereserve wordt aangelegd zoals bedoeld
@@ -29652,7 +29656,7 @@ van dit Wetboek of in voorkomend geval in
 uitvoering van bijzondere wetsbepalingen
 verschuldigd zijn.
 
-## Art. 219quinquies
+###### Art. 219quinquies
 
 § 1. Een afzonderlijke aanslag van 10 pct.
 wordt gevestigd wat betreft:
@@ -29701,7 +29705,7 @@ belastbare tijdperk waarin aan de in paragraaf 2
 bedoelde ononderbroken periode niet langer
 voldaan is.
 
-## Art. 219sexies
+###### Art. 219sexies
 
 In hoofde van de vennootschappen die
 overeenkomstig artikel 192, § 1, vrijgestelde
@@ -29756,14 +29760,14 @@ van dit Wetboek of in voorkomend geval in
 uitvoering van bijzondere wetsbepalingen
 verschuldigd zijn.
 
-### TITEL IV. - RECHTSPERSONENBELASTING.
+## TITEL IV. - RECHTSPERSONENBELASTING.
 
-#### HOOFDSTUK I.
+### HOOFDSTUK I.
 
 Aan de belasting onderworpen
 rechtspersonen.
 
-## Art. 220
+###### Art. 220
 
 Aan de rechtspersonenbelasting zijn
 onderworpen :
@@ -29799,7 +29803,7 @@ wijze hebben geopteerd aan de
 rechtspersonenbelasting te worden
 onderworpen.
 
-## Art. 220/1
+###### Art. 220/1
 
 § 1. De inkomsten die werden verkregen
 door de juridische constructie zijn belastbaar in
@@ -29840,11 +29844,11 @@ rechtspersonen.
 § 3. Paragraaf 1 is niet van toepassing in de
 in artikel 5/1, § 3, bedoelde gevallen.
 
-#### HOOFDSTUK II.
+### HOOFDSTUK II.
 
 Grondslag van de belasting.
 
-## Art. 221
+###### Art. 221
 
 De aan de rechtspersonenbelasting onderworpen rechtspersonen zijn uitsluitend belastbaar
 ter zake van :
@@ -29868,7 +29872,7 @@ inkomsten.
 Artikel 21, eerste lid, 12°, is van toepassing
 op de overeenkomstig artikel 220/1 belaste rechtspersonen.
 
-## Art. 222
+###### Art. 222
 
 De in de artikelen 180, 1°, en 220, 3°,
 vermelde rechtpersonen zijn eveneens belastbaar
@@ -29950,7 +29954,7 @@ bedrag van die meerwaarden wordt
 overeenkomstig de artikelen 101, §§ 2 en 3,
 en 103, § 3, vastgesteld.
 
-## Art. 223
+###### Art. 223
 
 De rechtspersonen vermeld in artikel 220,
 2° en 3°, zijn eveneens belastbaar ter zake van :
@@ -30171,7 +30175,7 @@ wordt belast en de eigen bijdrage van die derde
 voor het persoonlijk gebruik van dat voertuig.
 ----------
 
-## Art. 224
+###### Art. 224
 
 De in artikel 180, 1°, bedoelde
 intercommunales, samenwerkingsverbanden,
@@ -30184,11 +30188,11 @@ gewesten, de provincies, de agglomeraties, de
 federaties van gemeenten, de gemeenten en de
 openbare centra voor maatschappelijk welzijn.
 
-#### HOOFDSTUK III.
+### HOOFDSTUK III.
 
 Berekening van de belasting.
 
-## Art. 225
+###### Art. 225
 
 De belasting met betrekking tot in
 artikel 221 vermelde inkomsten is gelijk aan de
@@ -30287,7 +30291,7 @@ kosten;
 6° tegen het tarief van 25 pct. op in artikel 224
 vermelde dividenden.
 
-## Art. 226
+###### Art. 226
 
 De belasting op de dividenden vermeld in
 artikel 224, wordt vermeerderd zoals bepaald in
@@ -30295,13 +30299,13 @@ artikel 218, ingeval geen of ontoereikende
 voorafbetalingen als vermeld in dat artikel zijn
 gedaan.
 
-### TITEL V. - BELASTING VAN NIETINWONERS.
+## TITEL V. - BELASTING VAN NIETINWONERS.
 
-#### HOOFDSTUK I.
+### HOOFDSTUK I.
 
 Aan de belasting onderworpen personen.
 
-## Art. 227
+###### Art. 227
 
 Aan de belasting van niet-inwoners zijn
 onderworpen :
@@ -30332,7 +30336,7 @@ verrichtingen bezighouden met
 uitzondering van de in artikel 227/1
 bedoelde rechtspersonen.
 
-## Art. 227/1
+###### Art. 227/1
 
 De rechtspersonen die aan de belasting van
 niet-inwoners zijn onderworpen en die erkend zijn
@@ -30348,13 +30352,13 @@ raamovereenkomst op grond van artikel 194ter,
 194ter/1 of 194ter/3 hebben gesloten en voor de
 drie daarop volgende aanslagjaren.
 
-#### HOOFDSTUK II.
+### HOOFDSTUK II.
 
 Grondslag van de belasting.
 
-##### Afdeling I. Belastbare inkomsten.
+#### Afdeling I. Belastbare inkomsten.
 
-## Art. 228
+###### Art. 228
 
 § 1. De belasting wordt geheven van in
 België behaalde of verkregen inkomsten die aan
@@ -30674,7 +30678,7 @@ belastingplichtige niet het bewijs levert dat
 deze inkomsten daadwerkelijk worden
 belast in de Staat waarvan hij inwoner is.
 
-## Art. 229
+###### Art. 229
 
 § 1. Onder de uitdrukking "Belgische
 inrichting" wordt verstaan elke vaste
@@ -31121,9 +31125,9 @@ en afschrijvingen die zich overeenkomstig
 de bepalingen van dit Wetboek hebben
 voorgedaan.
 
-##### Afdeling II. – Vrijgestelde inkomsten.
+#### Afdeling II. – Vrijgestelde inkomsten.
 
-## Art. 230
+###### Art. 230
 
 Vrijgesteld zijn :
 
@@ -31404,7 +31408,7 @@ vervreemding heeft plaatsgevonden en wordt het
 bedrag van de voorheen vrijgestelde winst geacht
 een winst te zijn van dit belastbaar tijdperk.
 
-## Art. 231
+###### Art. 231
 
 § 1. Op voorwaarde van wederkerigheid
 zijn vrijgesteld :
@@ -31614,13 +31618,13 @@ inbrengverrichting niet tot gevolg hebben dat de
 oorspronkelijke herbeleggingstermijn wordt
 verlengd.
 
-#### HOOFDSTUK III.
+### HOOFDSTUK III.
 
 Samenvoeging van sommige inkomsten.
 
-##### Afdeling I.- Maatstaf van belastingheffing.
+#### Afdeling I.- Maatstaf van belastingheffing.
 
-## Art. 232
+###### Art. 232
 
 Voor belastingplichtigen vermeld in
 artikel 227, 1°, wordt de belasting gevestigd :
@@ -31677,7 +31681,7 @@ vermelde keuze heeft gemaakt, en
 onroerende goederen van elke echtgenoot
 lager is dan 2.500 euro.
 
-## Art. 233
+###### Art. 233
 
 Voor belastingplichtigen vermeld in
 artikel 227, 2°, wordt de belasting gevestigd op
@@ -31722,7 +31726,7 @@ Daarenboven wordt een afzonderlijke
 aanslag vastgesteld volgens de regels bedoeld in
 artikel 219sexies.
 
-## Art. 234
+###### Art. 234
 
 Voor belastingplichtigen vermeld in
 artikel 227, 3°, wordt de belasting gevestigd :
@@ -31971,9 +31975,9 @@ wordt belast en de eigen bijdrage van die derde
 voor het persoonlijk gebruik van dat voertuig.
 ----------
 
-##### Afdeling II.- Vaststelling van het nettobedrag van de samen te voegen inkomsten.
+#### Afdeling II.- Vaststelling van het nettobedrag van de samen te voegen inkomsten.
 
-## Art. 235
+###### Art. 235
 
 Onder voorbehoud van het bepaalde in de
 artikelen 236 tot 240bis, wordt het nettobedrag
@@ -31996,15 +32000,15 @@ belastingplichtigen vermeld in artikel 227,
 3°, zoals deze regels voorkomen in de
 artikelen 221 tot 224.
 
-## Art. 235bis
+###### Art. 235bis
 
 …
 
-## Art. 236
+###### Art. 236
 
 …
 
-## Art. 236bis
+###### Art. 236bis
 
 De artikelen 205/1 tot 205/4 zijn van
 toepassing op de in artikel 227, 2°, bedoelde
@@ -32023,28 +32027,28 @@ eigendomsrechten die ten laste van het belastbaar
 resultaat van de Belgische inrichtingen worden
 gelegd.
 
-## Art. 237
+###### Art. 237
 
 Voor aftrek als beroepskosten komen alleen
 in aanmerking de kosten die uitsluitend op de
 overeenkomstig de artikelen 228 tot 231 in België
 belastbare beroepsinkomsten drukken.
 
-## Art. 238
+###### Art. 238
 
 Voor de toepassing van artikel 53, 2°, of
 artikel 198, § 1, 1°, wordt de belasting van nietinwoners naar het geval gelijkgesteld met de
 personenbelasting of met de vennootschapsbelasting.
 
-## Art. 239
+###### Art. 239
 
 …
 
-## Art. 239/1
+###### Art. 239/1
 
 …
 
-## Art. 240
+###### Art. 240
 
 Ten name van vennootschappen, verenigingen, instellingen of lichamen vermeld in
 artikel 227, 2°, omvat de belastbare winst het
@@ -32063,7 +32067,7 @@ investeringsaftrek en belastingkrediet voor
 onderzoek en ontwikkeling de bepalingen die van
 toepassing zijn voor de vennootschapsbelasting.
 
-## Art. 240bis
+###### Art. 240bis
 
 § 1. De beperkingen inzake overdracht van
 beroepsverliezen en van de in artikel 205, § 3,
@@ -32129,7 +32133,7 @@ aftrekbaar binnen de Belgische inrichting
 waarover de vennootschap na deze overbrenging
 beschikt.
 
-## Art. 240ter
+###### Art. 240ter
 
 § 1. Indien een in artikel 32/1, § 2,
 bedoelde ingekomen belastingplichtige moet
@@ -32151,7 +32155,7 @@ eerste lid, 2°, bedoelde bezoldigingen, de
 soortgelijke bezoldigingen die effectief aan de
 belasting van niet-inwoners worden onderworpen.
 
-## Art. 240quater
+###### Art. 240quater
 
 Indien een in artikel 32/2, § 2, bedoelde
 ingekomen onderzoeker moet worden aangemerkt
@@ -32172,13 +32176,13 @@ tweede lid, bedoelde bezoldigingen, de
 soortgelijke bezoldigingen die effectief aan de
 belasting van niet-inwoners worden onderworpen.
 
-##### Afdeling III.- Aftrekbare bestedingen.
+#### Afdeling III.- Aftrekbare bestedingen.
 
-## Art. 241
+###### Art. 241
 
 …
 
-## Art. 242
+###### Art. 242
 
 § 1. Wanneer de belastingplichtige in
 België belastbare beroepsinkomsten heeft behaald
@@ -32228,11 +32232,11 @@ vast.
 uitgaven zijn slechts aftrekbaar onder de in de
 artikelen 104 tot 106 bepaalde voorwaarden.
 
-#### HOOFDSTUK IV.
+### HOOFDSTUK IV.
 
 Berekening van de belasting.
 
-## Art. 243
+###### Art. 243
 
 In gevallen vermeld in artikel 232 vinden
 de bepalingen van de artikelen 86 tot 89 geen
@@ -32321,7 +32325,7 @@ de artikelen 130, 1451, 1° et 4°, 1452, 1453,
 
 ----------
 
-## Art. 243/1
+###### Art. 243/1
 
 Wanneer de belastingplichtige in België
 belastbare beroepsinkomsten heeft behaald of
@@ -32416,7 +32420,7 @@ belasting.
 
 ----------
 
-## Art. 244
+###### Art. 244
 
 Wanneer de belastingplichtige inwoner is
 van een andere lidstaat van de Europese
@@ -32485,7 +32489,7 @@ worden geregulariseerd overeenkomstig de
 artikelen 232 en 248, §§ 2 en 3, in
 aanmerking worden genomen;
 
-## Art. 244bis
+###### Art. 244bis
 
 Voor de toepassing van de artikelen 243 tot
 244 is er geen aanleiding tot een
@@ -32507,7 +32511,7 @@ artikel 133, eerste lid, 1°, wordt niet verleend.
 Artikel 174/1 is van toepassing op het in
 het eerste lid vermelde bedrag.
 
-## Art. 245
+###### Art. 245
 
 De belasting gevestigd ingevolge de
 artikelen 243 tot 244 wordt verhoogd met zes
@@ -32562,7 +32566,7 @@ opcentiemen.
 ------------------------------
 (1) art. 80, KB/WIB 92.
 
-## Art. 246
+###### Art. 246
 
 In gevallen vermeld in artikel 233 :
 
@@ -32689,7 +32693,7 @@ vervreemding heeft plaatsgevonden en wordt het
 bedrag van de voorheen vrijgestelde winst geacht
 een winst te zijn van dit belastbaar tijdperk.
 
-## Art. 247
+###### Art. 247
 
 In gevallen vermeld in artikel 234 wordt de
 belasting berekend :
@@ -32769,7 +32773,7 @@ die kosten of voordelen een rechtspersoon,
 is in welk geval de aanslag gelijk is aan
 50 pct.
 
-## Art. 248
+###### Art. 248
 
 § 1. De belasting betreffende de niet in de
 artikelen 232 tot 234 vermelde inkomsten, is
@@ -32913,12 +32917,12 @@ naargelang het geval, in artikel 232, 233 of 234
 bedoelde inkomsten om het netto bedrag te
 bepalen en de belasting te berekenen.
 
-#### HOOFDSTUK V.
+### HOOFDSTUK V.
 
 Toepassing van de gewestelijke
 belastingregels
 
-## Art. 248/1
+###### Art. 248/1
 
 Om rekening te houden met de gewestelijke
 belastingregels wordt een in artikel 227, 1°,
@@ -32927,7 +32931,7 @@ belasting overeenkomstig artikel 244 wordt
 berekend, in een gewest gelokaliseerd
 overeenkomstig de artikelen 248/2 en 248/3.
 
-## Art. 248/2
+###### Art. 248/2
 
 § 1. Voor de toepassing van dit hoofdstuk
 worden de in artikel 227, 1° bedoelde nietinwoners in één enkel gewest gelokaliseerd.
@@ -32993,7 +32997,7 @@ van beide echtgenoten samengeteld;
 lid, 3°, de effectief gepresteerde dagen van
 beide echtgenoten samengeteld.
 
-## Art. 248/3
+###### Art. 248/3
 
 § 1. Om te bepalen in welk gewest een
 beroepsinkomen werd behaald, worden de in
@@ -33171,15 +33175,15 @@ De in artikel 228, § 3, vermelde inkomsten
 worden geacht te zijn behaald in het gewest waar
 de schuldenaar van de inkomsten is gevestigd.
 
-### TITEL VI. - AAN DE VIER BELASTINGEN GEMENE BEPALINGEN.
+## TITEL VI. - AAN DE VIER BELASTINGEN GEMENE BEPALINGEN.
 
-#### HOOFDSTUK I.
+### HOOFDSTUK I.
 
 Storting van de belasting door voorheffing.
 
-##### Afdeling I.- Algemene bepalingen.
+#### Afdeling I.- Algemene bepalingen.
 
-## Art. 249
+###### Art. 249
 
 De belasting wordt geheven bij wijze van
 voorheffingen, volgens het onderscheid en op de
@@ -33203,7 +33207,7 @@ Vanaf aanslagjaar 2014, is artikel
 betreft (BS 23 december 2013) van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 250
+###### Art. 250
 
 De Koning bepaalt (1) de wijze van storting
 van de roerende voorheffing en de bedrijfsvoorheffing.
@@ -33211,9 +33215,9 @@ van de roerende voorheffing en de bedrijfsvoorheffing.
 ------------------------------
 (1) art. 83 tot 95 en 137 tot 144, KB/WIB 92.
 
-##### Afdeling II.- Onroerende voorheffing.
+#### Afdeling II.- Onroerende voorheffing.
 
-## Art. 251
+###### Art. 251
 
 De onroerende voorheffing is verschuldigd
 door de eigenaar, bezitter, erfpachter,
@@ -33249,11 +33253,11 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 252
+###### Art. 252
 
 ...
 
-## Art. 253
+###### Art. 253
 
 Van de onroerende voorheffing wordt het
 kadastraal inkomen vrijgesteld :
@@ -33298,7 +33302,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 254
+###### Art. 254
 
 Het aanslagjaar van de onroerende
 voorheffing wordt genoemd naar het jaar waarvan
@@ -33324,7 +33328,7 @@ B. WAALSE GEWEST
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
-## Art. 255
+###### Art. 255
 
 De onroerende voorheffing bedraagt
 1,25 pct. van het kadastraal inkomen, zoals dit is
@@ -33368,7 +33372,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 256
+###### Art. 256
 
 Voor de vestiging van de onroerende
 voorheffing wordt geen rekening gehouden met
@@ -33388,7 +33392,7 @@ Vanaf aanslagjaar 2014, is artikel
 2.1.3.0.2. van dezelfde Codex van toepassing (zie
 Vlaamse Codex Fiscaliteit).
 
-## Art. 257
+###### Art. 257
 
 Op aanvraag van de belanghebbende wordt
 verleend :
@@ -33479,7 +33483,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 258
+###### Art. 258
 
 De verminderingen ingevolge artikel 257,
 1° tot 3° worden beoordeeld naar de toestand op
@@ -33522,7 +33526,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 259
+###### Art. 259
 
 De verminderingen ingevolge artikel 257,
 2° en 3° zijn van de huur aftrekbaar
@@ -33559,7 +33563,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 260
+###### Art. 260
 
 Wanneer de in artikel 257, 1°, vermelde
 grens van 745 EUR wordt overschreden, blijft de
@@ -33601,7 +33605,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 260/1
+###### Art. 260/1
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -33610,7 +33614,7 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 260bis
+###### Art. 260bis
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -33632,7 +33636,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 260ter
+###### Art. 260ter
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -33648,11 +33652,11 @@ Vanaf aanslagjaar 2014, is artikel
 2.1.5.0.7. van dezelfde Codex van toepassing (zie
 Vlaamse Codex Fiscaliteit).
 
-##### Afdeling III.- Roerende voorheffing.
+#### Afdeling III.- Roerende voorheffing.
 
 ##### Onderafdeling I.- Schuldenaars van de voorheffing.
 
-## Art. 261
+###### Art. 261
 
 De roerende voorheffing is verschuldigd :
 
@@ -33899,7 +33903,7 @@ die inkomsten doen overhandigen in geval
 van toekenning of betaalbaarstelling onder
 de vorm van goederen in natura.
 
-## Art. 262
+###### Art. 262
 
 § 1. De roerende voorheffing is
 verschuldigd door aan de rechtspersonenbelasting
@@ -34002,7 +34006,7 @@ beleggen van fondsen ingezameld met het
 doel wettelijke of aanvullende pensioenen
 uit te betalen.
 
-## Art. 263
+###### Art. 263
 
 De Koning kan bijzondere maatregelen
 nemen om de betaling te waarborgen van de
@@ -34025,7 +34029,7 @@ verstrekken.
 
 ##### Onderafdeling II.- Vrijstelling en verzaking van de voorheffing.
 
-## Art. 264
+###### Art. 264
 
 De roerende voorheffing is niet
 verschuldigd op het gedeelte van dividenden :
@@ -34219,7 +34223,7 @@ winst.
 ------------------------------
 (1) art. 102 tot 104, KB/WIB 92.
 
-## Art. 264/1
+###### Art. 264/1
 
 § 1. De roerende voorheffing is niet
 verschuldigd op de in artikel 202, § 1, 1° en 2°,
@@ -34393,7 +34397,7 @@ adres en in voorkomend geval het fiscaal
 identificatienummer van de verkrijgende
 vennootschap is.
 
-## Art. 264/2
+###### Art. 264/2
 
 § 1. De roerende voorheffing is niet
 verschuldigd op de in artikel 202, § 1, 1° en 2°,
@@ -34460,7 +34464,7 @@ adres en in voorkomend geval het fiscaal
 identificatienummer van de verkrijgende
 vennootschap is.
 
-## Art. 264bis
+###### Art. 264bis
 
 Wanneer een in België gevestigde
 kredietinstelling, beursvennootschap of erkende
@@ -34484,7 +34488,7 @@ beroepsactiviteit in België ;
 de kapitalen en financiële instrumenten die
 de inkomsten voortbrengen.
 
-## Art. 265
+###### Art. 265
 
 Evenmin is roerende voorheffing
 verschuldigd op inkomsten die zijn verleend of
@@ -34650,7 +34654,7 @@ voorwaarden is voldaan, en dat
 ter beschikking van de
 administratie wordt gehouden.
 
-## Art. 266
+###### Art. 266
 
 De Koning kan (1), onder de voorwaarden
 en binnen de grenzen die Hij bepaalt, geheel of
@@ -34753,7 +34757,7 @@ verbonden zijn, kunstmatig is.
 
 ##### Onderafdeling III.- Opeisbaarheid van de voorheffing.
 
-## Art. 267
+###### Art. 267
 
 De toekenning of de betaalbaarstelling van
 de inkomsten, in geld of in natura, brengt de
@@ -34803,7 +34807,7 @@ voorwaarden.
 
 ##### Onderafdeling IV.- Berekening van de voorheffing.
 
-## Art. 268
+###### Art. 268
 
 De roerende voorheffing die eventueel ten
 laste van de schuldenaar valt ter ontlasting van de
@@ -34811,7 +34815,7 @@ verkrijger der inkomsten, wordt aan het bedrag
 van die inkomsten toegevoegd voor de berekening
 van de roerende voorheffing.
 
-## Art. 269
+###### Art. 269
 
 § 1. De aanslagvoet van de roerende
 voorheffing is vastgesteld :
@@ -35229,15 +35233,15 @@ voorwaarden is voldaan. In voorkomend geval is
 kapitaalverhoging mogelijk zonder de uitgifte van
 nieuwe aandelen.
 
-## Art. 269/1
+###### Art. 269/1
 
 …
 
-##### Afdeling IV.- Bedrijfsvoorheffing.
+#### Afdeling IV.- Bedrijfsvoorheffing.
 
 ##### Onderafdeling 1.-. Schuldenaars van de voorheffing
 
-## Art. 270
+###### Art. 270
 
 De bedrijfsvoorheffing is verschuldigd
 door :
@@ -35344,7 +35348,7 @@ vennootschappen en verenigingen en houdende diverse
 bepalingen niet in werking is getreden.(art. 109 en 110, W
 11.02.2019 - B.S. 22.03.2019; Numac: 2019040488)
 
-## Art. 271
+###### Art. 271
 
 De Koning kan (1), onder de voorwaarden
 die Hij bepaalt, de toepassing van artikel 270
@@ -35357,7 +35361,7 @@ diverse inkomsten.
 
 ##### Onderafdeling 2.-. Inhouding, opeisbaarheid en berekening van de voorheffing
 
-## Art. 272
+###### Art. 272
 
 Behoudens strijdig beding :
 
@@ -35385,7 +35389,7 @@ voorheffing inhouden op de meerwaarden die
 begrepen zijn in de in artikel 228, § 2, 3°, a en 4°
 vermelde winst of baten.
 
-## Art. 273
+###### Art. 273
 
 De bedrijfsvoorheffing is opeisbaar uit
 hoofde van :
@@ -35396,11 +35400,11 @@ bezoldigingen ;
 2° de verwezenlijking van in artikel 272,
 tweede lid, vermelde meerwaarden.
 
-## Art. 274
+###### Art. 274
 
 ...
 
-## Art. 275
+###### Art. 275
 
 § 1. De bedrijfsvoorheffing wordt
 vastgesteld volgens de regels vastgelegd door de
@@ -35428,7 +35432,7 @@ het Belgisch Staatsblad.
 
 ##### Onderafdeling 3.-. Vrijstelling van doorstorting van de voorheffing
 
-## Art. 2750/1
+###### Art. 2750/1
 
 Voor de toepassing van deze onderafdeling
 wordt een organisatie van werkgevers die in
@@ -35443,7 +35447,7 @@ arbeidswetgeving en de sociale
 zekerheidswetgeving voortvloeien uit de
 tewerkstelling van deze havenarbeiders.
 
-## Art. 2751
+###### Art. 2751
 
 De in het tweede lid omschreven
 werkgevers die bezoldigingen betalen of
@@ -35652,7 +35656,7 @@ toepassing van artikel 38, § 1, eerste lid, 30°.
 ---------------
 (1) art. 95², KB/WIB 92.
 
-## Art. 2752
+###### Art. 2752
 
 § 1. Dit artikel is van toepassing op de
 werkgevers die behoren tot de koopvaardij-, de
@@ -35760,7 +35764,7 @@ van de in dit artikel beschreven maatregel.
 ---------------
 (1) art. 95², KB/WIB 92.
 
-## Art. 2753
+###### Art. 2753
 
 § 1. De universiteiten en hogescholen die
 bezoldigingen uitbetalen of toekennen aan
@@ -36179,7 +36183,7 @@ wijze bepalen waarop de in § 1, tweede lid,
 bedoelde wetenschappelijke instellingen worden
 erkend.
 
-## Art. 2754
+###### Art. 2754
 
 § 1. Dit artikel is van toepassing op de
 werkgevers die behoren tot de sector van de
@@ -36256,7 +36260,7 @@ de gestorte bedrijfsvoorheffing.
 ---------------
 (1) art. 95², KB/WIB 92.
 
-## Art. 2755
+###### Art. 2755
 
 § 1. De ondernemingen waarin ploegenarbeid wordt verricht, die een ploegenpremie
 betalen of toekennen en die krachtens artikel 270,
@@ -37073,7 +37077,7 @@ dit artikel. Hij bepaalt inzonderheid de nadere
 regels en modaliteiten voor het indienen van de in
 paragraaf 4, zevende lid, bedoelde verklaring.
 
-## Art. 2756
+###### Art. 2756
 
 De schuldenaars van de bedrijfsvoorheffing
 bedoeld in artikel 270, eerste lid, 1°, die
@@ -37164,7 +37168,7 @@ aanvullend bovenop de bedrijfsvoorheffing die
 reglementair minimaal verschuldigd is, wordt
 ingehouden.
 
-## Art. 2757
+###### Art. 2757
 
 De in het tweede lid omschreven
 werkgevers die bezoldigingen betalen of
@@ -37277,7 +37281,7 @@ De Koning bepaalt de toepassingsmodaliteiten van dit artikel (1).
 ---------------
 (1) art. 952, KB/WIB 92.
 
-## Art. 2758
+###### Art. 2758
 
 § 1. De in § 2 bedoelde werkgevers die een
 in § 3 bedoelde investering verrichten in een
@@ -37665,7 +37669,7 @@ aanvullend bovenop de bedrijfsvoorheffing die
 reglementair minimaal verschuldigd is, wordt
 ingehouden.
 
-## Art. 2759
+###### Art. 2759
 
 § 1. De in § 2 bedoelde werkgevers die een
 in § 3 bedoelde investering verrichten in een
@@ -38049,7 +38053,7 @@ aanvullend bovenop de bedrijfsvoorheffing die
 reglementair minimaal verschuldigd is, wordt
 ingehouden.
 
-## Art. 2759/1
+###### Art. 2759/1
 
 § 1. De in § 2 bedoelde werkgevers die
 schade hebben geleden ten gevolge van een
@@ -38276,7 +38280,7 @@ bedoelde termijnen verlengen tot uiterlijk de 47e
 maand die volgt op de maand waarin de
 natuurramp heeft plaatsgevonden.
 
-## Art. 27510
+###### Art. 27510
 
 De in het tweede lid omschreven
 werkgevers die bezoldigingen van werknemers
@@ -38358,7 +38362,7 @@ De Koning bepaalt de formaliteiten die
 moeten worden vervuld voor de toepassing van
 dit artikel.
 
-## Art. 27511
+###### Art. 27511
 
 De werkgevers die aan jonge werknemers
 compenserende toeslagen als bedoeld in artikel
@@ -38397,7 +38401,7 @@ De Koning bepaalt de formaliteiten die
 moeten worden vervuld voor de toepassing van
 dit artikel.
 
-## Art. 27512
+###### Art. 27512
 
 § 1. De in het tweede lid bedoelde
 werkgevers die bij toepassing van artikel 270,
@@ -38575,7 +38579,7 @@ bedrijfsvoorheffing het bewijs wordt geleverd dat
 aan de in paragrafen 2 tot 4 vermelde
 voorwaarden voldaan is.
 
-## Art. 27513
+###### Art. 27513
 
 Uittreksel uit arrest nr. 86/2025 van 12.06.2025
 van het Grondwettelijk Hof (B.S. 14.07.2025;
@@ -38690,13 +38694,13 @@ en de manier waarop het bewijs wordt geleverd
 dat aan de voorwaarden voor de toepassing van
 dit artikel is voldaan.
 
-#### HOOFDSTUK II.
+### HOOFDSTUK II.
 
 Verrekening van de voorheffingen.
 
-##### Afdeling I.- Algemene bepalingen.
+#### Afdeling I.- Algemene bepalingen.
 
-## Art. 276
+###### Art. 276
 
 De in artikel 1 vermelde belastingen
 worden naar de mate als hierna is bepaald
@@ -38728,25 +38732,25 @@ respectievelijk werden opgeheven bij artikel 81,
 belope van het totale werkelijk geïnde bedrag,
 beschouwd als ingehouden bedrijfsvoorheffing.
 
-##### Afdeling II.- Onroerende voorheffing.
+#### Afdeling II.- Onroerende voorheffing.
 
-## Art. 277
+###### Art. 277
 
 …
 
-## Art. 278
+###### Art. 278
 
 ...
 
-##### Afdeling III.- Roerende voorheffing.
+#### Afdeling III.- Roerende voorheffing.
 
-## Art. 279
+###### Art. 279
 
 Als roerende voorheffing wordt verrekend
 het bedrag van de roerende voorheffing
 vastgesteld overeenkomstig artikel 269.
 
-## Art. 280
+###### Art. 280
 
 Ten name van de verkrijger van inkomsten
 van roerende goederen en kapitalen, niet zijnde
@@ -38820,7 +38824,7 @@ dewelke de leninggever, de overdrager of de
 pandgever de volle eigendom heeft gehad van die
 financiële instrumenten.
 
-## Art. 281
+###### Art. 281
 
 De roerende voorheffing betreffende
 dividenden waarvan de verkrijger de effecten
@@ -38831,7 +38835,7 @@ eigendom van de effecten had op de datum
 waarop de rechthebbenden van de dividenden
 worden geïdentificeerd.
 
-## Art. 281/1
+###### Art. 281/1
 
 Uit hoofde van dividenden wordt geen
 roerende voorheffing verrekend indien de
@@ -38853,7 +38857,7 @@ met als hoofddoel of een van de hoofddoelen de
 verrekening van de roerende voorheffing op deze
 dividenden te verkrijgen.
 
-## Art. 282
+###### Art. 282
 
 Uit hoofde van dividenden wordt geen
 roerende voorheffing verrekend in zover de
@@ -38882,7 +38886,7 @@ Belgische inrichting.
 Vanaf aanslagjaar 2026, wordt een artikel
 282/1 ingevoegd, luidend als volgt:
 
-## Art. 282/1
+###### Art. 282/1
 
 Uit hoofde van dividenden die in
 toepassing van de artikelen 202 en 203 van de
@@ -38910,7 +38914,7 @@ vennootschappen
 
 ----------
 
-## Art. 283
+###### Art. 283
 
 Behalve indien de lening wordt gesloten
 door tussenkomst van een erkend gecentraliseerd
@@ -38949,7 +38953,7 @@ verschuldigd zijn geweest door de leninggever
 indien deze laatste zelf de dividenden had
 ontvangen.
 
-## Art. 284
+###### Art. 284
 
 De Koning kan (1) de verrekening van een
 fictieve voorheffing voorschrijven binnen de
@@ -38971,15 +38975,15 @@ de inkomstenbelastingen zijn uitgegeven.
 ------------------------------
 (1) art. 121 en 122, KB/WIB 92.
 
-##### Afdeling IIIbis. - …
+#### Afdeling IIIbis. - …
 
-## Art. 284/1
+###### Art. 284/1
 
 …
 
-##### Afdeling IV. - Forfaitair gedeelte van buitenlandse belasting.
+#### Afdeling IV. - Forfaitair gedeelte van buitenlandse belasting.
 
-## Art. 285
+###### Art. 285
 
 Met betrekking tot inkomsten van roerende
 goederen en kapitalen en met betrekking tot
@@ -39003,7 +39007,7 @@ dat deze dividenden voortkomen uit inkomsten
 die voldoen aan de voorwaarden vermeld in het
 eerste lid en in artikel 289.
 
-## Art. 286
+###### Art. 286
 
 Het forfaitair gedeelte van buitenlandse
 belasting bedraagt vijftien vijfentachtigsten van
@@ -39037,7 +39041,7 @@ de buitenlandse belasting heeft gedragen tot
 ontlasting van de verkrijger, bedraagt de in het
 tweede lid vermelde noemer 100.
 
-## Art. 287
+###### Art. 287
 
 Met betrekking tot inkomsten van roerende
 goederen en kapitalen niet zijnde dividenden en
@@ -39078,7 +39082,7 @@ omvatten de inkomsten van roerende goederen en
 kapitalen eveneens de in artikel 21 bedoelde
 inkomsten.
 
-## Art. 288
+###### Art. 288
 
 Ten name van de verkrijger van inkomsten
 van roerende goederen en kapitalen niet zijnde
@@ -39091,7 +39095,7 @@ belastbaar zijn in verhouding tot het tijdperk
 waarin de belastingplichtige de volle eigendom
 van de goederen of kapitalen heeft gehad.
 
-## Art. 289
+###### Art. 289
 
 Het forfaitair gedeelte van buitenlandse
 belasting wordt niet verrekend ter zake van
@@ -39127,7 +39131,7 @@ zakelijke-zekerheidsovereenkomst.
 
 belasting op de in artikel 185/2 bedoelde winst
 
-## Art. 289/1
+###### Art. 289/1
 
 In het geval overeenkomstig artikel 185/2
 de niet uitgekeerde winst van een in datzelfde
@@ -39188,11 +39192,11 @@ gedaan, maar worden in voorkomend geval de
 belastingverhogingen, boeten of andere vormen
 van administratieve sancties uitgesloten.
 
-##### Afdeling IVbis.- Belastingkredieten.
+#### Afdeling IVbis.- Belastingkredieten.
 
 ##### Onderafdeling I - Belastingkrediet voor belastingplichtigen - natuurlijke personen
 
-## Art. 289bis
+###### Art. 289bis
 
 § 1. Aan rijksinwoners die winst of baten
 behalen of verkrijgen als vermeld in artikel 23, §
@@ -39279,7 +39283,7 @@ opgave voegen, waarvan het model door de
 Minister van Financiën of zijn afgevaardigde
 wordt vastgesteld.
 
-## Art. 289ter
+###### Art. 289ter
 
 § 1. Wanneer het totale netto-inkomen van
 het belastbare tijdperk niet meer bedraagt dan
@@ -39417,7 +39421,7 @@ wordt genomen.
 en 178, § 3, eerste lid, 2°, zijn van toepassing op
 de in dit artikel vermelde bedragen.
 
-## Art. 289ter/1
+###### Art. 289ter/1
 
 Er wordt een belastingkrediet verleend aan
 rijksinwoners en niet-inwoners voor wie de
@@ -39479,7 +39483,7 @@ lid, 2°, zijn van toepassing op dit bedrag.
 
 ##### Onderafdeling II - Belastingkrediet voor belastingplichtigen - vennootschappen
 
-## Art. 289quater
+###### Art. 289quater
 
 Wat de in artikel 69/2 vermelde vaste activa
 betreft, kan een belastingkrediet worden
@@ -39517,13 +39521,13 @@ doorgestorte bedrijfsvoorheffing niet in de
 berekeningsbasis van het in het eerste lid
 bedoelde belastingkrediet worden opgenomen.
 
-## Art. 289quinquies
+###### Art. 289quinquies
 
 Het in artikel 289quater, eerste lid,
 vermelde deel is gelijk aan het in artikel 69, eerste
 lid, 3°, voorziene percentage.
 
-## Art. 289sexies
+###### Art. 289sexies
 
 Wat de in artikel 69/2, 2°, vermelde vaste
 activa, kunnen de belastingplichtigen desgewenst
@@ -39549,7 +39553,7 @@ worden verrekend overeenkomstig artikel
 aanvullend belastingkrediet voor onderzoek en
 ontwikkeling verleend.
 
-## Art. 289septies
+###### Art. 289septies
 
 Het belastingkrediet voor onderzoek en
 ontwikkeling komt niet in aanmerking voor het
@@ -39557,7 +39561,7 @@ bepalen van de latere meerwaarden of
 minderwaarden op de vaste activa waarvoor het is
 verleend.
 
-## Art. 289octies
+###### Art. 289octies
 
 De in de artikelen 75 en 76 vermelde
 bepalingen van uitsluiting van vaste activa voor
@@ -39565,7 +39569,7 @@ de investeringsaftrek zijn ook van toepassing voor
 het belastingkrediet voor onderzoek en
 ontwikkeling.
 
-## Art. 289novies
+###### Art. 289novies
 
 De Koning bepaalt (1) de wijze waarop het
 belastingkrediet voor onderzoek en ontwikkeling
@@ -39578,7 +39582,7 @@ het belastingkrediet.
 ---------------
 (1) art. 81 tot 82, KB/WIB 92.
 
-## Art. 289decies
+###### Art. 289decies
 
 Wat de in artikel 205/1, § 1, derde lid,
 bedoelde aftrek voor innovatie-inkomsten betreft
@@ -39594,9 +39598,9 @@ voorziene tarief. Dit belastingkrediet wordt het
 "belastingkrediet voor innovatie-inkomsten"
 genoemd.
 
-##### Afdeling V. - Mate van verrekening van de roerende voorheffing, het forfaitair gedeelte van buitenlandse belasting, de buitenlandse belasting op de in artikel 185/2 bedoelde winst en de belastingkredieten.
+#### Afdeling V. - Mate van verrekening van de roerende voorheffing, het forfaitair gedeelte van buitenlandse belasting, de buitenlandse belasting op de in artikel 185/2 bedoelde winst en de belastingkredieten.
 
-## Art. 290
+###### Art. 290
 
 Voor rijksinwoners :
 
@@ -39630,11 +39634,11 @@ belasting, verhoogd met de in de artikelen 25/1,
 
 ----------
 
-## Art. 291
+###### Art. 291
 
 …
 
-## Art. 292
+###### Art. 292
 
 Voor binnenlandse vennootschappen
 worden de als fictieve roerende voorheffing en
@@ -39665,7 +39669,7 @@ overdracht en de eventuele betalingen die
 eveneens in het kader van die hybride overdracht
 moesten gedaan worden.
 
-## Art. 292/1
+###### Art. 292/1
 
 De in artikel 289/1 bedoelde buitenlandse
 belasting op de in artikel 185/2 bedoelde winst
@@ -39679,7 +39683,7 @@ wordt het voor dat aanslagjaar niet verrekende
 buitenlandse belasting niet terugbetaald, maar
 overgedragen naar een volgend aanslagjaar.
 
-## Art. 292bis
+###### Art. 292bis
 
 § 1. De belastingplichtige kiest om het
 belastingkrediet voor onderzoek en ontwikkeling
@@ -39736,7 +39740,7 @@ belastbaar tijdperk.
 
 § 3. …
 
-## Art. 292ter
+###### Art. 292ter
 
 § 1. Het belastingkrediet voor innovatieinkomsten wordt volledig met de
 vennootschapsbelasting of met de belasting van
@@ -39767,13 +39771,13 @@ de vennootschapsbelasting met betrekking tot dat
 belastbare tijdperk, noch tot enig ander later
 belastbaar tijdperk.
 
-## Art. 293
+###### Art. 293
 
 Geen voorheffingen worden verrekend met
 de aanslagen in de rechtspersonenbelasting
 gevestigd ingevolge artikel 225, tweede lid.
 
-## Art. 294
+###### Art. 294
 
 De bepalingen van de artikelen 290 tot 292
 zijn, volgens het in de artikelen 243 tot 245 en
@@ -39885,7 +39889,7 @@ artikel 247 berekende belasting geen verrekening
 verricht uit hoofde van voorheffingen op die
 andere inkomsten.
 
-## Art. 295
+###### Art. 295
 
 De Koning regelt (1) de uitvoering van de
 artikelen 276 tot 294.
@@ -39893,9 +39897,9 @@ artikelen 276 tot 294.
 ------------------------------
 (1) art. 123 tot 125, KB/WIB 92.
 
-##### Afdeling VI.- Bedrijfsvoorheffing.
+#### Afdeling VI.- Bedrijfsvoorheffing.
 
-## Art. 296
+###### Art. 296
 
 Met de belasting, eventueel verminderd met
 de roerende voorheffing, het forfaitair gedeelte
@@ -39908,7 +39912,7 @@ bedrijfsvoorheffing ;
 - de niet ingehouden bedrijfsvoorheffing die
 werkelijk in de Schatkist wordt gestort.
 
-### TITEL VII. - VESTIGING EN INNING VAN DE BELASTINGEN.
+## TITEL VII. - VESTIGING EN INNING VAN DE BELASTINGEN.
 
 ----------
 
@@ -39923,11 +39927,11 @@ Fiscale Procedure
 
 ----------
 
-#### HOOFDSTUK I.
+### HOOFDSTUK I.
 
 Algemene Bepalingen.
 
-## Art. 297
+###### Art. 297
 
 Voor de bij artikel 27, 5°, bedoelde personen
 is één enkel, bij koninklijk besluit te bepalen (1),
@@ -39937,7 +39941,7 @@ onderzoek van de aangifte belast.
 ------------------------------
 (1) art. 125bis tot 127, KB/WIB 92.
 
-## Art. 298
+###### Art. 298
 
 § 1. Voor de belasting en voor de
 voorheffingen, in hoofdsom, opcentiemen en
@@ -39973,7 +39977,7 @@ B. BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 299
+###### Art. 299
 
 De gegevens van de kohieren die door de
 administratie belast met de vestiging van de
@@ -39990,7 +39994,7 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 300
+###### Art. 300
 
 § 1. De Koning regelt de wijze waarop men
 dient te handelen voor de aangiften, de opmaking
@@ -40045,7 +40049,7 @@ B. BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 301
+###### Art. 301
 
 Ten name van de in artikel 227, 1° en 3°,
 vermelde belastingplichtigen wordt de belasting
@@ -40104,7 +40108,7 @@ artikel.
 
 ----------
 
-## Art. 302
+###### Art. 302
 
 Al de mededelingen betreffende de aangifte
 en de controle, alsmede de aanslagbiljetten
@@ -40174,7 +40178,7 @@ B. BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 303
+###### Art. 303
 
 Bij het vaststellen van de belastbare
 inkomsten en behoudens het bepaalde in
@@ -40182,7 +40186,7 @@ artikel 505, wordt slechts rekening gehouden met
 bedragen in euro, ongeacht eventuele
 pariteitswijzigingen.
 
-## Art. 304
+###### Art. 304
 
 § 1. De onroerende voorheffing wordt
 opgenomen in kohieren. Aanslagen in de
@@ -40289,7 +40293,7 @@ B. WAALSE GEWEST
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
-## Art. 304/1
+###### Art. 304/1
 
 § 1. Onverminderd de toepassing van artikel
 334 van de programmawet van 27 december 2004,
@@ -40349,7 +40353,7 @@ eerste lid, wordt het terug te betalen bedrag of het
 saldo ervan, in afwijking van artikel 304, niet
 terugbetaald.
 
-## Art. 304bis
+###### Art. 304bis
 
 Voor zover hiervan niet wordt afgeweken,
 zijn de bepalingen van deze titel die van toepassing
@@ -40386,7 +40390,7 @@ datum respectievelijk te bepalen door de Koning),
 wordt een artikel 304ter ingevoegd, luidend als
 volgt :
 
-## Art. 304ter
+###### Art. 304ter
 
 § 1. Behoudens indien de wettelijke of
 reglementaire bepalingen anders bepalen, wordt
@@ -40472,7 +40476,7 @@ datum respectievelijk te bepalen door de Koning),
 wordt een artikel 304quater ingevoegd, luidend als
 volgt :
 
-## Art. 304quater
+###### Art. 304quater
 
 Behoudens indien de wettelijke of
 reglementaire bepalingen anders bepalen, wordt
@@ -40495,7 +40499,7 @@ datum respectievelijk te bepalen door de Koning),
 wordt een artikel 304quinquies ingevoegd, luidend
 als volgt :
 
-## Art. 304quinquies
+###### Art. 304quinquies
 
 Behoudens indien de wettelijke of
 reglementaire bepalingen anders bepalen, zal een
@@ -40519,7 +40523,7 @@ datum respectievelijk te bepalen door de Koning),
 wordt een artikel 304sexies ingevoegd, luidend als
 volgt :
 
-## Art. 304sexies
+###### Art. 304sexies
 
 § 1. Behoudens indien de wettelijke of
 reglementaire bepalingen anders bepalen, wordt
@@ -40586,7 +40590,7 @@ datum respectievelijk te bepalen door de Koning),
 wordt een artikel 304septies ingevoegd, luidend
 als volgt :
 
-## Art. 304septies
+###### Art. 304septies
 
 De rechtsgevolgen van een bericht
 verzonden door middel van een beveiligd
@@ -40600,7 +40604,7 @@ datum respectievelijk te bepalen door de Koning),
 wordt een artikel 304octies ingevoegd, luidend als
 volgt :
 
-## Art. 304octies
+###### Art. 304octies
 
 Wanneer een document elektronisch wordt
 ondertekend door de opsteller of opstellers, gebeurt
@@ -40628,7 +40632,7 @@ datum respectievelijk te bepalen door de Koning),
 wordt een artikel 304nonies ingevoegd, luidend als
 volgt :
 
-## Art. 304nonies
+###### Art. 304nonies
 
 Voor de toepassing van titel VII, hoofdstuk
 I/1, wordt verstaan onder "bericht": alle
@@ -40642,16 +40646,16 @@ ongeacht de gebruikte drager.
 
 ----------
 
-#### HOOFDSTUK II.
+### HOOFDSTUK II.
 
 Aangifte.
 
-##### Afdeling I.- Aangifte inzake personenbelasting,
+#### Afdeling I.- Aangifte inzake personenbelasting,
 
 vennootschapsbelasting, rechtspersonenbelasting
 en belasting van niet-inwoners.
 
-## Art. 305
+###### Art. 305
 
 Belastingplichtigen die aan de
 personenbelasting, aan de vennootschapsbelasting
@@ -40752,7 +40756,7 @@ door een lasthebber, die alsdan van de algemene
 lastgeving krachtens welke hij optreedt moet doen
 blijken.
 
-## Art. 306
+###### Art. 306
 
 § 1. Volgens de regels en onder de
 voorwaarden die Hij bepaalt, kan de Koning (1),
@@ -40879,7 +40883,7 @@ nageleefd wordt het voorstel van vereenvoudigde
 aangifte met een onvolledige of onjuiste aangifte
 gelijkgesteld.
 
-## Art. 307
+###### Art. 307
 
 § 1. De aangifte wordt gedaan op een
 formulier waarvan het model door de Koning
@@ -41444,7 +41448,7 @@ wordt artikel 307, § 5, opgeheven.
 
 ----------
 
-## Art. 307bis
+###### Art. 307bis
 
 § 1. De elektronische aangifte, door de
 Federale Overheidsdienst Financiën ter
@@ -41490,7 +41494,7 @@ wordt artikel 307bis, opgeheven.
 …
 ----------
 
-## Art. 308
+###### Art. 308
 
 § 1. De in artikel 305 beoogde
 belastingplichtigen voor wie op 1 januari van het
@@ -41687,7 +41691,7 @@ aanspraak kunnen maken.
 
 ----------
 
-## Art. 308/1
+###### Art. 308/1
 
 In afwijking van artikel 308, § 1, beschikken
 de belastingplichtigen onderworpen aan de
@@ -41754,7 +41758,7 @@ begiftigden, tot en met 15 januari van het jaar
 volgend op het jaar waarnaar het aanslagjaar wordt
 genoemd om hun aangifte in te dienen.
 
-## Art. 309
+###### Art. 309
 
 De in artikel 305 beoogde belastingplichtigen
 waarvoor de gronden voor belastbaarheid zoals
@@ -41772,7 +41776,7 @@ aangifte bij de daarop vermelde dienst toekomen
 binnen drie maanden na de dag waarop de gronden
 van belastbaarheid zijn weggevallen.
 
-## Art. 310
+###### Art. 310
 
 Voor binnenlandse vennootschappen of aan
 de rechtspersonenbelasting onderworpen
@@ -41817,7 +41821,7 @@ december van het jaar voorafgaand aan het
 betrokken aanslagjaar tot en met de laatste dag van
 februari van het betrokken aanslagjaar.
 
-## Art. 311
+###### Art. 311
 
 De administrateur-generaal van de
 administratie belast met de vestiging van de
@@ -41838,12 +41842,12 @@ bepalen in welke omstandigheden een ernstige
 reden kan worden ingeroepen alsook aangaande de
 wijze waarop uitstel aangevraagd moet worden.
 
-##### Afdeling II.-. Aangifte inzake roerende
+#### Afdeling II.-. Aangifte inzake roerende
 
 voorheffing, bedrijfsvoorheffing en vrijstelling van
 doorstorting van bedrijfsvoorheffing
 
-## Art. 312
+###### Art. 312
 
 De Koning bepaalt (1) de wijze waarop de
 schuldenaars van roerende voorheffing en van
@@ -41902,9 +41906,9 @@ Schatkist moeten worden gestort.
 ------------------------------
 (1) art. 83 tot 95, KB/WIB 92.
 
-##### Afdeling III.- Vrijstelling van de verplichting om bepaalde inkomsten uit kapitalen en bepaalde diverse inkomsten aan te geven.
+#### Afdeling III.- Vrijstelling van de verplichting om bepaalde inkomsten uit kapitalen en bepaalde diverse inkomsten aan te geven.
 
-## Art. 313
+###### Art. 313
 
 De aan de personenbelasting onderworpen
 belastingplichtigen zijn er niet toe gehouden in hun
@@ -41965,9 +41969,9 @@ bij overeenkomst zijn vrijgesteld en die niet in
 aanmerking komen voor de berekening van de
 belasting op zijn andere inkomsten.
 
-##### Afdeling IV.- Identificatie van de belastingplichtige.
+#### Afdeling IV.- Identificatie van de belastingplichtige.
 
-## Art. 314
+###### Art. 314
 
 § 1. Aan de belastingplichtigen die aan de in
 artikel 1 vermelde belastingen zijn onderworpen,
@@ -42173,9 +42177,9 @@ B. BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-##### Afdeling V. - Bewijskracht van aangiften
+#### Afdeling V. - Bewijskracht van aangiften
 
-## Art. 314bis
+###### Art. 314bis
 
 De door de belastingplichtigen ingediende
 aangiften bedoeld in de afdelingen I en II van dit
@@ -42204,13 +42208,13 @@ Vanaf 1 januari 2014, is artikel 3.1.0.0.3.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-#### HOOFDSTUK III.
+### HOOFDSTUK III.
 
 Onderzoek en controle.
 
-##### Afdeling I.- Plichten van de belastingplichtige.
+#### Afdeling I.- Plichten van de belastingplichtige.
 
-## Art. 315
+###### Art. 315
 
 Eenieder die onderhevig is aan de
 personenbelasting, de vennootschapsbelasting, de
@@ -42271,7 +42275,7 @@ Vanaf 1 januari 2014, is artikel 3.13.1.2.1.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-## Art. 315bis
+###### Art. 315bis
 
 De natuurlijke personen en rechtspersonen
 die een beroep doen op een informaticasysteem of
@@ -42354,7 +42358,7 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 315ter
+###### Art. 315ter
 
 De ambtenaren van de administratie
 bevoegd voor de inkomstenbelastingen hebben het
@@ -42389,7 +42393,7 @@ Vanaf 1 januari 2014, is artikel 3.13.1.2.2.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-## Art. 315quater
+###### Art. 315quater
 
 De relevante belastingplichtige, bedoeld in
 artikel 326/1, 5°, is gehouden alle informatie die
@@ -42404,7 +42408,7 @@ diens intermediair heeft ontvangen, of die zij zelf
 heeft opgesteld met betrekking tot de
 meldingsplichtige constructie.
 
-## Art. 315quinquies
+###### Art. 315quinquies
 
 De platformexploitant bedoeld in artikel
 321quater, 4° of 5°, moet de administratie op haar
@@ -42422,7 +42426,7 @@ informatie en documenten die nodig zijn om na te
 gaan of hij een uitgesloten platformexploitant is in
 de zin van artikel 321quater, 3°.
 
-## Art. 316
+###### Art. 316
 
 Onverminderd het recht van de administratie
 tot het vragen van mondelinge inlichtingen, is
@@ -42470,7 +42474,7 @@ Vanaf 1 januari 2014, is artikel 3.13.1.2.3.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit).
 
-## Art. 317
+###### Art. 317
 
 De in de artikelen 315, eerste en tweede lid,
 315bis, eerste tot derde lid, 315ter en 316 bedoelde
@@ -42494,7 +42498,7 @@ Vanaf 1 januari 2014, is artikel 3.13.1.2.4.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-## Art. 318
+###### Art. 318
 
 In afwijking van de bepalingen van
 artikel 317, en onverminderd de toepassing van de
@@ -42536,7 +42540,7 @@ Vanaf 1 januari 2014, is artikel 3.13.1.2.5.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit).
 
-## Art. 319
+###### Art. 319
 
 Natuurlijke of rechtspersonen zijn gehouden
 aan de ambtenaren van de administratie belast met
@@ -42603,7 +42607,7 @@ Vanaf 1 januari 2014, is artikel 3.13.1.2.6.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit).
 
-## Art. 319bis
+###### Art. 319bis
 
 …
 
@@ -42621,7 +42625,7 @@ Vanaf 1 januari 2014, is artikel 3.13.1.2.7.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-## Art. 320
+###### Art. 320
 
 § 1. Personen die een vrij beroep, een ambt
 of een post uitoefenen zijn gehouden voor elke in
@@ -42716,7 +42720,7 @@ inkomstenbelastingen.
 
 ----------
 
-## Art. 320/1
+###### Art. 320/1
 
 Elke binnenlandse vennootschap, alsook
 elke in artikel 227, 2°, bedoelde belastingplichtige
@@ -42750,7 +42754,7 @@ boekhoudkundige verplichtingen voorzien, in de
 mate dat deze niet noodzakelijk zijn voor de
 controle en vaststelling van de belastbare basis.
 
-## Art. 321
+###### Art. 321
 
 Onverminderd de bepalingen van
 artikel 320, kan de Minister van Financiën (1)
@@ -42795,7 +42799,7 @@ Codex Fiscaliteit ).
 
 Afdeling. - Aanvullende rapporteringsverplichtingen inzake verrekenprijzen
 
-## Art. 321/1
+###### Art. 321/1
 
 Voor de toepassing van deze afdeling wordt
 verstaan onder :
@@ -43015,7 +43019,7 @@ Belgische groepsentiteit gegroepeerd rond
 een bepaalde activiteit, productgroep of
 technologie.
 
-## Art. 321/2
+###### Art. 321/2
 
 § 1. Elke Belgische groepsentiteit die de
 uiteindelijke moederentiteit van een multinationale
@@ -43183,7 +43187,7 @@ vastgesteld.
 (1) KB van 28.10.2016 – BS 02.12.2016 en toelichting BS
 02.12.2016, err. 14.08.2017
 
-## Art. 321/3
+###### Art. 321/3
 
 § 1. Elke Belgische groepsentiteit van een
 multinationale groep, die overeenkomstig artikel
@@ -43222,7 +43226,7 @@ voorziene termijn voor zover deze inlichtingen
 verschillen van deze die werden meegedeeld met
 betrekking tot de voorgaande rapporteringsperiode.
 
-## Art. 321/4
+###### Art. 321/4
 
 § 1. Een Belgische groepsentiteit moet
 binnen 12 maanden na de laatste dag van de
@@ -43267,7 +43271,7 @@ vastgesteld.
 (1) KB van 28.10.2016 – BS 02.12.2016 en toelichting BS
 02.12.2016, err. 14.08.2017
 
-## Art. 321/5
+###### Art. 321/5
 
 § 1. Een Belgische groepsentiteit, dient bij
 haar aangifte een lokaal dossier in met betrekking
@@ -43320,7 +43324,7 @@ de Koning (1) werd vastgesteld.
 (1) KB van 28.10.2016 – BS 02.12.2016 en toelichting BS
 02.12.2016, err. 14.08.2017
 
-## Art. 321/6
+###### Art. 321/6
 
 Het landenrapport zal gebruikt worden voor
 het beoordelen van grote verrekenprijsrisico's en
@@ -43344,7 +43348,7 @@ van een groepsentiteit met als gevolg dat passende
 correcties mogen gemaakt worden aan het
 belastbaar inkomen van een groepsentiteit.
 
-## Art. 321/7
+###### Art. 321/7
 
 Voor de toepassing van deze afdeling en de
 daaruit voortvloeiende uitvoeringsbesluiten kan de
@@ -43359,11 +43363,11 @@ een vertaling in een van de Belgische landstalen, al
 dan niet door een beëdigd vertaler, door de
 belastingplichtige ingediend worden.
 
-##### Afdeling Ibis. - Bijzondere plicht van collectieve
+#### Afdeling Ibis. - Bijzondere plicht van collectieve
 
 beleggingsinstellingen
 
-## Art. 321bis
+###### Art. 321bis
 
 De beheersvennootschappen van instellingen
 voor collectieve belegging bedoeld in artikel 3,
@@ -43383,9 +43387,9 @@ door de Koning vastgestelde regels, per categorie
 het bedrag opgeven van de toegekende of
 uitgekeerde inkomsten.
 
-##### Afdeling Iter. - Plichten van pensioeninstellingen
+#### Afdeling Iter. - Plichten van pensioeninstellingen
 
-## Art. 321ter
+###### Art. 321ter
 
 De instellingen bedoeld in de Boeken II en
 III van de wet van 13 maart 2016 op het statuut
@@ -43470,7 +43474,7 @@ worden te zijn door art. 4 van huidige wet van
 12.2022, van toepassing blijft tot en met
 03.2023.
 
-##### Afdeling Iquater. - Plichten van rapporterende
+#### Afdeling Iquater. - Plichten van rapporterende
 
 platformexploitanten
 
@@ -43780,7 +43784,7 @@ rechtsgebied buiten de Unie dat als zodanig
 is geïdentificeerd op een door België
 gepubliceerde lijst.
 
-## Art. 321quinquies
+###### Art. 321quinquies
 
 § 1. De rapporterende platformexploitant als
 omschreven in artikel 321quater, 4°, stelt elke
@@ -44013,7 +44017,7 @@ uitvoering van de due diligence-procedures en zijn
 rapportageverplichtingen aan de Belgische
 bevoegde autoriteit.
 
-## Art. 321sexies
+###### Art. 321sexies
 
 § 1. Een rapporterende platformexploitant in
 de zin van artikel 321quater, 4°, a), verstrekt aan
@@ -44249,7 +44253,7 @@ verkopers of te rapporteren verkopers voor een
 bepaalde periode, dan vervolledigt deze laatste het
 mededelingsformulier in die zin.
 
-## Art. 321septies
+###### Art. 321septies
 
 § 1. De rapporterende platformexploitant in
 de zin van artikel 321quater, 4°, b), registreert
@@ -44339,7 +44343,7 @@ d) indien de Belgische bevoegde autoriteit de
 registratie heeft herroepen op grond van
 ###### paragraaf 5.
 
-## Art. 321octies
+###### Art. 321octies
 
 Indien een verkoper de rapporterende
 platformexploitant niet de inlichtingen verstrekt
@@ -44355,7 +44359,7 @@ in van de tegenprestatie die bedoeld is voor de
 verkoper zolang de verkoper niet de gevraagde
 inlichtingen heeft verstrekt.
 
-## Art. 321nonies
+###### Art. 321nonies
 
 De Koning bepaalt de modellen van de
 formulieren, de verzendingsmodaliteiten aan de
@@ -44371,7 +44375,7 @@ rapportageverplichtingen overeenkomstig artikel
 zodat de platformexploitant de in artikel 321sexies,
 §§ 6 en 7 bedoelde mededelingen kan uitvoeren.
 
-## Art. 321decies
+###### Art. 321decies
 
 De rapporterende platformexploitanten
 bewaren de in artikel 321quinquies, § 9, beoogde
@@ -44396,9 +44400,9 @@ geschil.
 
 …
 
-##### Afdeling II.- Plichten van derden.
+#### Afdeling II.- Plichten van derden.
 
-## Art. 322
+###### Art. 322
 
 § 1. De administratie mag, wat een bepaalde
 belastingplichtige betreft, geschreven attesten
@@ -44593,7 +44597,7 @@ B. BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 323
+###### Art. 323
 
 De administratie mag eveneens van
 natuurlijke of rechtspersonen alsook van
@@ -44646,7 +44650,7 @@ B. BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 323/1
+###### Art. 323/1
 
 § 1. Wanneer een kredietinstelling of -
 organisme of een verzekeringsonderneming een
@@ -44710,7 +44714,7 @@ verzekeringsondernemingen, mag het gebruikt
 worden voor de naleving van de in paragraaf 1
 bedoelde verplichting.
 
-## Art. 323/2
+###### Art. 323/2
 
 § 1. Wanneer een instantie als bedoeld in
 artikel 14535, tweede lid, 3°, een attest aflevert met
@@ -44774,7 +44778,7 @@ reeds voor andere doeleinden in het bezit is van de
 betrokken instanties, mag het gebruikt worden
 voor de toepassing van de paragraaf 1.
 
-## Art. 323/3
+###### Art. 323/3
 
 § 1. Wanneer een instantie als bedoeld in
 artikel 14533, § 1, eerste lid, 1° tot 4°, een attest
@@ -44856,7 +44860,7 @@ gegevens, met uitzondering van de gevallen waarin
 nog een beroep of een gerechtelijke procedure
 hangende is bij het verlopen van deze termijn.
 
-## Art. 323bis
+###### Art. 323bis
 
 De bepalingen van artikel 315bis zijn van
 toepassing op verenigingen zonder
@@ -44882,7 +44886,7 @@ Vanaf 1 januari 2014, is artikel 3.13.1.3.3.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-## Art. 323ter
+###### Art. 323ter
 
 De fiscale administratie mag binnen de door
 haar bepaalde termijn, welke wegens wettige
@@ -44896,7 +44900,7 @@ Belgische bevoegde autoriteit en die, na toepassing
 te hebben gemaakt van artikel 315quater, niet
 werden overgemaakt.
 
-## Art. 324
+###### Art. 324
 
 De administratie mag de juistheid nagaan
 van de in de artikelen 322, 323 en 323bis bedoelde
@@ -44916,7 +44920,7 @@ Vanaf 1 januari 2014, is artikel 3.13.1.3.4.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-## Art. 325
+###### Art. 325
 
 De belastingplichtige wordt bij ter post
 aangetekende brief opgeroepen om het
@@ -44962,7 +44966,7 @@ Vanaf 1 januari 2014, is artikel 3.13.1.3.5.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-## Art. 326
+###### Art. 326
 
 Van de verklaringen van de getuigen en,
 indien de belastingplichtige zulks verlangt, van
@@ -45015,7 +45019,7 @@ Codex Fiscaliteit ).
 
 ##### Afdeling II/1.-. Aanvullende rapporteringsverplichtingen voor intermediairs of relevante belastingplichtigen inzake grensoverschrijdende constructies
 
-## Art. 326/1
+###### Art. 326/1
 
 Voor de toepassing van deze afdeling en van
 artikel 338, § 6/4, wordt verstaan onder:
@@ -45136,7 +45140,7 @@ zijn;
 7° "constructie op maat": een grensoverschrijdende constructie die geen
 marktklare constructie is.
 
-## Art. 326/2
+###### Art. 326/2
 
 De in artikel 326/1, 3°, bedoelde
 wezenskenmerken van een grensoverschrijdende
@@ -45430,7 +45434,7 @@ van de geraamde jaarlijkse ebit van die
 overdrager of overdragers indien de
 overdracht niet had plaatsgevonden.
 
-## Art. 326/3
+###### Art. 326/3
 
 § 1. Elke intermediair moet de in artikel 338,
 § 6/4, bedoelde inlichtingen, inzake
@@ -45493,7 +45497,7 @@ inlichtingen als hij een schriftelijk bewijs voorlegt
 dat dezelfde inlichtingen in een andere lidstaat zijn
 verstrekt.
 
-## Art. 326/4
+###### Art. 326/4
 
 Indien het gaat om een marktklare
 constructie moet de intermediair om de drie
@@ -45503,7 +45507,7 @@ inlichtingen zoals bedoeld in artikel 338, § 6/4, 1°,
 4°, 7° en 8°, die sinds het laatste ingediende
 verslag beschikbaar zijn geworden.
 
-## Art. 326/5
+###### Art. 326/5
 
 Naar aanleiding van de melding van een
 grensoverschrijdende constructie die ten minste
@@ -45523,7 +45527,7 @@ betreffende de gemelde constructie, onverwijld aan
 de andere betrokken intermediairs en aan de
 relevante belastingplichtige door te geven.
 
-## Art. 326/6
+###### Art. 326/6
 
 Wanneer meerdere intermediairs betrokken
 zijn bij dezelfde meldingsplichtige
@@ -45539,7 +45543,7 @@ dat een andere intermediair de inlichtingen bedoeld
 in artikel 338, § 6/4, tweede lid, reeds heeft
 verstrekt.
 
-## Art. 326/7
+###### Art. 326/7
 
 § 1. Wanneer een intermediair gebonden is
 door een beroepsgeheim, is hij gehouden:
@@ -45634,7 +45638,7 @@ rechten en taksen
 
 ----------
 
-## Art. 326/8
+###### Art. 326/8
 
 § 1. In de volgende gevallen ligt de
 meldingsplicht bij de relevante belastingplichtige:
@@ -45714,7 +45718,7 @@ verstrekken van de inlichtingen als hij een
 schriftelijk bewijs voorlegt dat dezelfde
 inlichtingen in een andere lidstaat zijn verstrekt.
 
-## Art. 326/9
+###### Art. 326/9
 
 Wanneer de meldingsplicht bij de relevante
 belastingplichtige ligt en er meer dan één relevante
@@ -45736,7 +45740,7 @@ bewijs voorlegt dat een andere relevante
 belastingplichtige de inlichtingen bedoeld in artikel
 338, § 6/4, reeds heeft verstrekt.
 
-## Art. 326/10
+###### Art. 326/10
 
 Voor de toepassing van deze afdeling,
 artikel 338, § 6/4, en de daaruit voortvloeiende
@@ -45745,16 +45749,16 @@ inlichtingen, voor de onderdelen die de Koning
 nader bepaalt, naast het gebruik van één van de
 officiële landstalen, ook in het Engels te gebeuren.
 
-## Art. 326/11
+###### Art. 326/11
 
 De Koning bepaalt het formulier waarop de
 intermediair of de relevante belastingplichtige de
 verplichtingen opgenomen in deze afdeling moeten
 naleven.
 
-##### Afdeling III.- Plichten van openbare diensten, instellingen en inrichtingen.
+#### Afdeling III.- Plichten van openbare diensten, instellingen en inrichtingen.
 
-## Art. 327
+###### Art. 327
 
 § 1. De bestuursdiensten van de Staat, met
 inbegrip van de parketten en de griffies der Hoven
@@ -45834,7 +45838,7 @@ Vanaf 1 januari 2014, is artikel 3.13.1.4.1.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit)
 
-## Art. 328
+###### Art. 328
 
 De bestuursdiensten van de Staat, de
 besturen van de Gemeenschappen, de Gewesten,
@@ -45863,7 +45867,7 @@ onrechtstreeks een door de Staat of door een
 Gemeenschap of een Gewest toegekend voordeel
 is verbonden.
 
-## Art. 329
+###### Art. 329
 
 Onder openbare instellingen of inrichtingen
 worden verstaan, in de zin van de artikelen 327 en
@@ -45892,7 +45896,7 @@ Vanaf 1 januari 2014, is artikel 3.13.1.4.1.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit).
 
-## Art. 330
+###### Art. 330
 
 Ten opzichte van de in de artikelen 327 en
 328 bedoelde diensten, besturen, vennootschappen,
@@ -45913,7 +45917,7 @@ VLAAMSE GEWEST
 Tekst : WIB 92 – Historische versie –
 Vlaams Gewest
 
-## Art. 331
+###### Art. 331
 
 De aangiften inzake personenbelasting,
 vennootschapsbelasting of belasting van nietinwoners zijn tegen de belastingplichtigen in te
@@ -45942,13 +45946,13 @@ geen rekening gehouden met inkomstenwijzigingen welke door de belastingplichtige
 het schadeverwekkend feit spontaan werden
 gedaan.
 
-## Art. 332
+###### Art. 332
 
 ...
 
-##### Afdeling IV.- Gemene bepalingen inzake recht van onderzoek ten aanzien van de belastingplichtige en van derden.
+#### Afdeling IV.- Gemene bepalingen inzake recht van onderzoek ten aanzien van de belastingplichtige en van derden.
 
-## Art. 333
+###### Art. 333
 
 Onverminderd de bevoegdheden die haar bij
 de artikelen 351 tot 354 zijn toegekend, kan de
@@ -46020,7 +46024,7 @@ Vanaf 1 januari 2014, is artikel 3.13.1.1.3.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit.)
 
-## Art. 333/1
+###### Art. 333/1
 
 § 1. In de gevallen bedoeld in de artikelen
 322, § 2, en 327, § 3, tweede lid, stelt de
@@ -46147,7 +46151,7 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 333/2
+###### Art. 333/2
 
 Onverminderd de toepassing van artikel 333,
 kan de administratie binnen de aanslagtermijn van
@@ -46155,7 +46159,7 @@ artikel 358, § 3, de in dit hoofdstuk bedoelde
 onderzoekingen verrichten voor de in artikel 358,
 § 1, 2°, vermelde jaren.
 
-## Art. 333/3
+###### Art. 333/3
 
 Onverminderd de toepassing van artikel 333,
 kan de administratie, inzake roerende voorheffing
@@ -46168,7 +46172,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-## Art. 333bis
+###### Art. 333bis
 
 Vanaf 1 januari 2014, wordt artikel 333bis,
 zoals van toepassing voor de onroerende
@@ -46180,7 +46184,7 @@ Vanaf 1 januari 2014, is artikel 3.13.1.1.4.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit).
 
-## Art. 334
+###### Art. 334
 
 Wanneer een krachtens de artikelen 315,
 eerste en tweede lid, 315bis, eerste tot derde lid,
@@ -46207,7 +46211,7 @@ Vanaf 1 januari 2014, is artikel 3.19.0.0.1.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-## Art. 334bis
+###### Art. 334bis
 
 De in dit hoofdstuk bedoelde
 onderzoekingen mogen door ambtenaren van
@@ -46218,9 +46222,9 @@ dat nodig acht, de ambtenaren aan.
 ------------------------------
 (1) art. 181bis, KB/WIB 92.
 
-##### Afdeling V.- Aan alle belastingen gemene bepalingen.
+#### Afdeling V.- Aan alle belastingen gemene bepalingen.
 
-## Art. 335
+###### Art. 335
 
 Alle administraties die ressorteren onder de
 Federale Overheidsdienst Financiën zijn gehouden
@@ -46263,7 +46267,7 @@ B. BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 336
+###### Art. 336
 
 Elke inlichting, stuk, proces-verbaal of akte,
 in het uitoefenen van zijn functie ontdekt of
@@ -46295,9 +46299,9 @@ B. BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-##### Afdeling VI.- Beroepsgeheim.
+#### Afdeling VI.- Beroepsgeheim.
 
-## Art. 337
+###### Art. 337
 
 Hij die, uit welken hoofde ook, optreedt bij
 de toepassing van de belastingwetten of die
@@ -46408,7 +46412,7 @@ B. BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 337/1
+###### Art. 337/1
 
 In afwijking van artikel 4 van de wet van 11
 april 1994 betreffende de openbaarheid van
@@ -46436,9 +46440,9 @@ wiens hoofde het onderzoek door de buitenlandse
 Staat wordt gevoerd uitdrukkelijk deze toegang
 aan de Belgische Staat heeft gevraagd.
 
-##### Afdeling VII.- Wederzijdse bijstand.
+#### Afdeling VII.- Wederzijdse bijstand.
 
-## Art. 338
+###### Art. 338
 
 § 1. Dit artikel legt de voorschriften en
 procedures vast voor de samenwerking tussen
@@ -48338,7 +48342,7 @@ VLAAMSE GEWEST
 Tekst : WIB 92 – Historische versie –
 Vlaams Gewest
 
-## Art. 338bis
+###### Art. 338bis
 
 § 1. Dit artikel regelt de uitwisseling van
 gegevens in het kader van de richtlijn 2003/48/EG
@@ -48385,7 +48389,7 @@ uiteindelijk gerechtigde worden vastgelegd.
 
 § 4…
 
-## Art. 338ter
+###### Art. 338ter
 
 Teneinde de gegevens bedoeld in artikel
 338, § 24/1, te kunnen overmaken aan de bevoegde
@@ -48402,9 +48406,9 @@ meldingsplichtige entiteiten worden opgevraagd,
 die ze binnen een maand na het verzoek dienen te
 bezorgen aan de Belgische bevoegde autoriteit.
 
-##### Afdeling VIII.- De toekenning van de hoedanigheid van officier van gerechtelijke politie, hulpofficier van de procureur des Konings
+#### Afdeling VIII.- De toekenning van de hoedanigheid van officier van gerechtelijke politie, hulpofficier van de procureur des Konings
 
-## Art. 338quater
+###### Art. 338quater
 
 § 1. Bekleed worden met de hoedanigheid
 van officier van gerechtelijke politie, hulpofficier
@@ -48486,11 +48490,11 @@ opgedragen ambt trouw waar te nemen."
 Zij kunnen hun bevoegdheden buiten het
 rechtsgebied van hun woonplaats uitoefenen.
 
-#### HOOFDSTUK IV.
+### HOOFDSTUK IV.
 
 Bewijsmiddelen van de administratie.
 
-## Art. 339
+###### Art. 339
 
 De aangifte wordt onderzocht en de
 aanslag wordt gevestigd door de administratie
@@ -48506,7 +48510,7 @@ van vereenvoudigde aangifte vermelde gegevens,
 desgevallend verbeterd aan de hand van de
 opmerkingen van de belastingplichtige.
 
-## Art. 339/1
+###### Art. 339/1
 
 § 1. …
 
@@ -48526,7 +48530,7 @@ Vanaf 1 januari 2014, is artikel 3.1.0.0.3.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-## Art. 340
+###### Art. 340
 
 Ter bepaling van het bestaan en van het
 bedrag van de belastingschuld alsook ter
@@ -48576,7 +48580,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 341
+###### Art. 341
 
 Behoudens tegenbewijs mag de raming
 van de belastbare grondslag, zowel voor
@@ -48596,7 +48600,7 @@ ze de vermelding "op naam" dragen en zijn
 opgesteld ten name van de belastingplichtige of
 van de personen van wie hij de rechthebbende is.
 
-## Art. 342
+###### Art. 342
 
 § 1. Bij gebreke van bewijskrachtige
 gegevens, geleverd door de belanghebbenden,
@@ -48670,11 +48674,11 @@ en tientallen al dan niet 50 bereiken.
 dag volgend op de bekendmaking van deze wet in
 het Belgisch Staatsblad van 12 juli 2005.
 
-## Art. 343
+###### Art. 343
 
 ...
 
-## Art. 344
+###### Art. 344
 
 § 1. Aan de administratie kan niet worden
 tegengeworpen, de rechtshandeling noch het
@@ -48777,7 +48781,7 @@ Vanaf 1 januari 2014, is artikel
 3.17.0.0.2. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 344/1
+###### Art. 344/1
 
 Indien op grond van vermoedens of andere
 in artikel 340 bedoelde bewijsmiddelen, en aan
@@ -48803,17 +48807,17 @@ dan wordt de belastbare grondslag en de
 belastingberekening hersteld overeenkomstig
 artikel 344, § 1, vierde lid.
 
-## Art. 345
+###### Art. 345
 
 …
 
-#### HOOFDSTUK V.
+### HOOFDSTUK V.
 
 Aanslagprocedure.
 
-##### Afdeling I.- Wijziging van de aangifte.
+#### Afdeling I.- Wijziging van de aangifte.
 
-## Art. 346
+###### Art. 346
 
 Indien ze meent de inkomsten en andere
 gegevens te moeten wijzigen welke de
@@ -48943,12 +48947,12 @@ voorheffing, opgeheven (zie artikel 5.0.0.0.1., §
 1, 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
-Art. 347 - 350
+###### Art. 347 - 350
 ...
 
-##### Afdeling II.- Aanslag van ambtswege.
+#### Afdeling II.- Aanslag van ambtswege.
 
-## Art. 351
+###### Art. 351
 
 De administratie kan de aanslag
 ambtshalve vestigen op het bedrag van de
@@ -49052,7 +49056,7 @@ voorheffing, opgeheven (zie artikel 5.0.0.0.1., §
 1, 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
-## Art. 352
+###### Art. 352
 
 Indien hij ambtshalve is aangeslagen
 behoort het aan de belastingplichtige het bewijs
@@ -49082,7 +49086,7 @@ dat artikel vermelde termijn omdat de
 rechten van de Schatkist in gevaar
 verkeerden.
 
-## Art. 352bis
+###### Art. 352bis
 
 Ten laatste de dag van de vestiging van de
 aanslag, stelt de administratie de
@@ -49110,13 +49114,13 @@ haar beslissing rechtvaardigen.
 
 ----------
 
-#### HOOFDSTUK VI.
+### HOOFDSTUK VI.
 
 Aanslag.
 
-##### Afdeling I.- Aanslagtermijnen.
+#### Afdeling I.- Aanslagtermijnen.
 
-## Art. 353
+###### Art. 353
 
 De belasting met betrekking tot de
 inkomsten en de andere gegevens vermeld in de
@@ -49151,7 +49155,7 @@ belastingplichtige werd verzonden.
 
 ----------
 
-## Art. 354
+###### Art. 354
 
 § 1. Wanneer de verschuldigde belasting
 hoger is dan de belasting met betrekking tot de
@@ -49325,7 +49329,7 @@ B. WAALSE GEWEST
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
-## Art. 354/1
+###### Art. 354/1
 
 De aanvullende termijn bedoeld in artikel
 354, § 1, tweede lid, kan, wanneer deze
@@ -49362,7 +49366,7 @@ voordelen voor maaltijdcheques, sport- of
 cultuurcheques, of ecocheques als bedoeld
 in artikel 38, § 1.
 
-## Art. 355
+###### Art. 355
 
 Wanneer een aanslag nietig verklaard is
 omdat hij niet werd gevestigd overeenkomstig
@@ -49407,7 +49411,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 356
+###### Art. 356
 
 Wanneer tegen een beslissing van de
 adviseur-generaal van de administratie belast met
@@ -49479,7 +49483,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 357
+###### Art. 357
 
 Voor de toepassing van de artikelen 355
 en 356 worden met dezelfde belastingschuldige
@@ -49528,7 +49532,7 @@ Vanaf 1 januari 2014, is artikel 3.7.0.0.2.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-## Art. 358
+###### Art. 358
 
 § 1. De belasting of de aanvullende
 belasting mag worden gevestigd, zelfs nadat de
@@ -49642,7 +49646,7 @@ Vanaf 1 januari 2014, is artikel 3.3.3.0.2.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit).
 
-## Art. 358/1
+###### Art. 358/1
 
 Wanneer wordt vastgesteld dat
 beroepsverliezen van een belastbaar tijdperk,
@@ -49658,9 +49662,9 @@ toepassing is met betrekking tot het belastbare
 tijdperk waarin deze beroepsverliezen zijn
 ontstaan.
 
-##### Afdeling II.- Aanslagjaar en belastbaar tijdperk.
+#### Afdeling II.- Aanslagjaar en belastbaar tijdperk.
 
-## Art. 359
+###### Art. 359
 
 Het aanslagjaar begint op 1 januari en
 eindigt op de daaropvolgende 31ste december.
@@ -49685,7 +49689,7 @@ Vanaf 1 januari 2014, is artikel 3.3.2.0.1.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-## Art. 360
+###### Art. 360
 
 De voor een aanslagjaar verschuldigde
 belasting wordt gevestigd op de inkomsten die de
@@ -49698,7 +49702,7 @@ tijdperk en de inkomsten die daartoe behoren.
 ------------------------------
 (1) art. 199 tot 206, KB/WIB 92.
 
-## Art. 361
+###### Art. 361
 
 Wanneer bij het onderzoek van de
 boekhouding over een bepaald belastbaar
@@ -49712,7 +49716,7 @@ tijdperken, tenzij de belastingplichtige bewijst
 dat ermee rekening is gehouden bij het bepalen
 van het resultaat van deze laatste tijdperken.
 
-## Art. 362
+###### Art. 362
 
 Kapitaalsubsidies die van overheidswege
 worden verkregen om immateriële en materiële
@@ -49745,7 +49749,7 @@ kapitaalsubsidie ten name van de inbrengverkrijgende vennootschap blijft zonder 
 op de vaststelling van het resultaat van het
 belastbaar tijdperk.
 
-## Art. 362bis
+###### Art. 362bis
 
 § 1. Ten name van belastingplichtigen die
 kapitalen, niet zijnde aandelen, gebruiken voor
@@ -49794,7 +49798,7 @@ wordt het bedrag van de premie in geval van
 gedeeltelijke afkoop van de overeenkomst
 proportioneel verminderd.
 
-## Art. 363
+###### Art. 363
 
 Vorderingen zonder rente die slechts
 eisbaar zijn na een termijn van ten minste één
@@ -49825,7 +49829,7 @@ onder basisdiscontotarief verstaan, het rentetarief
 van de depositofaciliteit van de Europese
 Centrale Bank verhoogd met 0,75 punten.
 
-## Art. 364
+###### Art. 364
 
 In vennootschappen en verenigingen
 zonder rechtspersoonlijkheid als bedoeld in
@@ -49841,7 +49845,7 @@ overeenkomstig de bepalingen van het contract
 of de overeenkomst van associatie of nog, bij
 gebreke daarvan, volgens het hoofdelijk aandeel.
 
-## Art. 364bis
+###### Art. 364bis
 
 Wanneer de in artikel 34 vermelde
 kapitalen, afkoopwaarden en spaartegoeden
@@ -49857,7 +49861,7 @@ Voor de toepassing van het eerste lid,
 wordt elke overdracht als vermeld in artikel 34,
 § 2, 3°, met een toekenning gelijkgesteld.
 
-## Art. 364ter
+###### Art. 364ter
 
 Wanneer kapitalen of afkoopwaarden die
 gevormd zijn door in artikel 52, 7°bis, of in
@@ -49883,7 +49887,7 @@ Ruimte gevestigde voorzorgsinstelling,
 verzekeringsonder-neming of instelling voor
 bedrijfspensioen-voorzieningen.
 
-## Art. 364quater
+###### Art. 364quater
 
 § 1. Wanneer in artikel 19, § 1, tweede lid,
 bedoelde afkoopwaarden rechtstreeks worden
@@ -49936,9 +49940,9 @@ worden die betalingen, in afwijking van
 artikel 1458, § 1, vierde lid, beschouwd als
 betalingen voor één enkele spaarverzekering.
 
-##### Afdeling III.- Aanslag in hoofde van de overnemende of verkrijgende vennootschap
+#### Afdeling III.- Aanslag in hoofde van de overnemende of verkrijgende vennootschap
 
-## Art. 365
+###### Art. 365
 
 Ingeval een vennootschap wordt
 overgenomen of gesplitst in het kader van een
@@ -49972,13 +49976,13 @@ Vanaf 1 januari 2014, is artikel 3.2.4.0.1.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-#### HOOFDSTUK VII.
+### HOOFDSTUK VII.
 
 Rechtsmiddelen.
 
-##### Afdeling I.- Administratief beroep.
+#### Afdeling I.- Administratief beroep.
 
-## Art. 366
+###### Art. 366
 
 De belastingschuldige, alsmede zijn
 echtgenoot op wiens goederen de aanslag wordt
@@ -50067,7 +50071,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 367
+###### Art. 367
 
 Het bezwaarschrift gericht tegen een
 aanslag die gevestigd is op betwiste
@@ -50094,7 +50098,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 368
+###### Art. 368
 
 Bij gebrek aan een kennisgeving van de
 inning van de bedrijfsvoorheffing en de roerende
@@ -50107,7 +50111,7 @@ binnen een termijn van vijf jaar vanaf 1 januari
 van het jaar waarin deze voorheffingen gestort
 zijn geweest
 
-## Art. 368/1
+###### Art. 368/1
 
 In afwijking van artikel 368, moet de
 teruggave van de voorheffing gevraagd worden
@@ -50131,7 +50135,7 @@ wanneer de aanvraag wordt ingediend op basis
 van de in artikel 2759/1 bedoelde vrijstelling van
 doorstorting van bedrijfsvoorheffing.
 
-## Art. 369
+###### Art. 369
 
 De bepalingen van de artikelen 366, 367,
 371 en 372 zijn mede van toepassing op
@@ -50153,11 +50157,11 @@ Vanaf 1 januari 2014, is artikel 3.5.3.0.3.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-## Art. 370
+###### Art. 370
 
 …
 
-## Art. 371
+###### Art. 371
 
 De bezwaarschriften moeten worden
 gemotiveerd en op straffe van verval worden
@@ -50236,7 +50240,7 @@ Vanaf 1 januari 2014, zijn de artikelen
 3.5.2.0.1. en 3.5.2.0.4. van dezelfde Codex van
 toepassing (zie Vlaamse Codex Fiscaliteit ).
 
-## Art. 372
+###### Art. 372
 
 Zolang geen beslissing is gevallen mag de
 belastingschuldige, zijn echtgenoot op wiens
@@ -50263,7 +50267,7 @@ Vanaf 1 januari 2014, is artikel 3.5.2.0.2.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit).
 
-## Art. 373
+###### Art. 373
 
 Wanneer een aanvullende aanslag voor
 een bepaald aanslagjaar gevestigd wordt
@@ -50340,7 +50344,7 @@ Vanaf 1 januari 2014, is artikel 3.5.2.0.3.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit).
 
-## Art. 374
+###### Art. 374
 
 Ten einde de behandeling van het
 bezwaarschrift of het verzoek tot rechtzetting te
@@ -50384,7 +50388,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 375
+###### Art. 375
 
 § 1. De adviseur-generaal van de
 administratie belast met de vestiging van de
@@ -50541,7 +50545,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 375/1
+###### Art. 375/1
 
 De adviseur-generaal van de administratie
 belast met de vestiging van de inkomstenbelastingen of de door hem gedelegeerde ambtenaar
@@ -50550,7 +50554,7 @@ teveel aan gevestigde belasting ingevolge de
 achterwaartse aftrek van beroepsverliezen bij
 toepassing van artikel 78, § 2, of artikel 206, § 4.
 
-## Art. 376
+###### Art. 376
 
 § 1. De adviseur-generaal van de
 administratie belast met de vestiging van de
@@ -50685,7 +50689,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 376/1
+###### Art. 376/1
 
 Wanneer een in artikel 227, 1°, bedoelde
 niet-inwoner, artikel 21, eerste lid, 14°, wenst toe
@@ -50711,7 +50715,7 @@ bedoelde bewijs wordt geleverd. De Koning
 bepaalt tevens de nadere modaliteiten van de
 aanvraag en de terugbetaling.
 
-## Art. 376bis
+###### Art. 376bis
 
 De Minister van Financiën of zijn
 gedelegeerde kan, met één enkele met redenen
@@ -50734,7 +50738,7 @@ eerste aanleg binnen de termijn vastgesteld door
 artikel 1385undecies van het Gerechtelijk
 Wetboek.
 
-## Art. 376ter
+###### Art. 376ter
 
 De adviseur-generaal van de administratie
 belast met de vestiging van de
@@ -50800,7 +50804,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 376quater
+###### Art. 376quater
 
 Aan de verzoekers van de
 bezwaarschriften en de aanvragen tot ambtshalve
@@ -50834,7 +50838,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 376quinquies
+###### Art. 376quinquies
 
 § 1. Ingeval een bezwaarschrift werd
 ingediend bij de adviseur-generaal van de
@@ -50883,7 +50887,7 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 376sexies
+###### Art. 376sexies
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -50892,7 +50896,7 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 376septies
+###### Art. 376septies
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -50901,9 +50905,9 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-##### Afdeling II.- Bijzondere bepalingen inzake rechtsmiddelen.
+#### Afdeling II.- Bijzondere bepalingen inzake rechtsmiddelen.
 
-## Art. 377
+###### Art. 377
 
 De termijnen van verzet, hoger beroep en
 cassatie, alsmede het verzet, het hoger beroep en
@@ -50924,7 +50928,7 @@ Vanaf 1 januari 2014, is artikel 3.8.0.0.1.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit).
 
-## Art. 378
+###### Art. 378
 
 Het verzoekschrift houdende voorziening
 in cassatie en het antwoord op de voorziening
@@ -50945,7 +50949,7 @@ Vanaf 1 januari 2014, is artikel 3.8.0.0.2.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-## Art. 379
+###### Art. 379
 
 Inzake de geschillen betreffende de
 toepassing van een belastingwet, kunnen de
@@ -50983,7 +50987,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 380
+###### Art. 380
 
 De adviseur-generaal van de administratie
 belast met de vestiging van de
@@ -50996,7 +51000,7 @@ belastingplichtige, van het ontheven of
 vernietigd bedrag in een kohier dat uitvoerbaar
 wordt verklaard.
 
-## Art. 381
+###### Art. 381
 
 In geval van niet-naleving door de
 belastingplichtige of door een derde van de
@@ -51033,16 +51037,16 @@ inlichtingen met betrekking tot
 belastingaangelegenheden tussen de akkoord
 sluitende Staten mogelijk maakt.
 
-Art. 382 - 392
+###### Art. 382 - 392
 
-#### HOOFDSTUK VIII.
+### HOOFDSTUK VIII.
 
 Naleving van de inhoudingsplicht,
 betaaltermijn en interesten
 
-##### Afdeling I.- Naleving van de inhoudingsplicht
+#### Afdeling I.- Naleving van de inhoudingsplicht
 
-## Art. 393
+###### Art. 393
 
 § 1. De ambtenaren van de administratie
 van de Federale Overheidsdienst Financiën
@@ -51079,7 +51083,7 @@ Vanaf 1 januari 2014, is artikel
 3.10.3.1.1. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 393bis
+###### Art. 393bis
 
 …
 
@@ -51102,7 +51106,7 @@ Vanaf 1 januari 2014, is artikel
 3.10.4.1.1. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 394
+###### Art. 394
 
 …
 
@@ -51125,7 +51129,7 @@ Vanaf 1 januari 2014, is artikel
 3.10.4.1.2. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 394bis
+###### Art. 394bis
 
 …
 
@@ -51134,7 +51138,7 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-## Art. 395
+###### Art. 395
 
 …
 
@@ -51157,7 +51161,7 @@ Vanaf 1 januari 2014, is artikel
 3.10.4.4.2. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 396
+###### Art. 396
 
 …
 
@@ -51180,7 +51184,7 @@ Vanaf 1 januari 2014, is artikel
 3.10.4.4.2. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 397
+###### Art. 397
 
 …
 
@@ -51203,7 +51207,7 @@ Vanaf 1 januari 2014, is artikel
 3.10.4.4.1. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit ).
 
-## Art. 398
+###### Art. 398
 
 …
 
@@ -51219,7 +51223,7 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 399
+###### Art. 399
 
 …
 
@@ -51242,7 +51246,7 @@ Vanaf 1 januari 2014, is artikel
 3.10.4.2.1. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit ).
 
-## Art. 399bis
+###### Art. 399bis
 
 …
 
@@ -51258,7 +51262,7 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 399ter
+###### Art. 399ter
 
 …
 
@@ -51281,22 +51285,13 @@ Vanaf 1 januari 2014, is artikel
 3.10.4.2.2. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 399quater
+###### Art. 399quater
 
 …
 
-##### Afdeling II. - …
+#### Afdeling II. - …
 
-## Art. 400
-
-…
-
-Opmerking: overgangsbepaling art. 138, W
-13.04.2019 – BS 30.04.2019, numac
-2019041000/ vorige tekst zie historisch wetboek
-WIB 92
-
-## Art. 401
+###### Art. 400
 
 …
 
@@ -51305,7 +51300,7 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-## Art. 402
+###### Art. 401
 
 …
 
@@ -51314,7 +51309,7 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-## Art. 403
+###### Art. 402
 
 …
 
@@ -51323,7 +51318,16 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-## Art. 404
+###### Art. 403
+
+…
+
+Opmerking: overgangsbepaling art. 138, W
+13.04.2019 – BS 30.04.2019, numac
+2019041000/ vorige tekst zie historisch wetboek
+WIB 92
+
+###### Art. 404
 
 …
 
@@ -51337,7 +51341,7 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-## Art. 405
+###### Art. 405
 
 …
 
@@ -51346,7 +51350,7 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-## Art. 406
+###### Art. 406
 
 …
 
@@ -51355,7 +51359,7 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-## Art. 407
+###### Art. 407
 
 …
 
@@ -51364,7 +51368,7 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-## Art. 408
+###### Art. 408
 
 …
 
@@ -51373,9 +51377,9 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-##### Afdeling III. - …
+#### Afdeling III. - …
 
-## Art. 409
+###### Art. 409
 
 …
 
@@ -51398,7 +51402,7 @@ Vanaf 1 januari 2014, is artikel
 3.10.4.6.1. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 410
+###### Art. 410
 
 …
 
@@ -51427,7 +51431,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 411
+###### Art. 411
 
 …
 
@@ -51436,9 +51440,9 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-##### Afdeling IV.- Betaaltermijn van voorheffingen en belastingen.
+#### Afdeling IV.- Betaaltermijn van voorheffingen en belastingen.
 
-## Art. 412
+###### Art. 412
 
 De roerende voorheffing is betaalbaar
 binnen de vijftien dagen na de toekenning of de
@@ -51472,7 +51476,7 @@ eerste tot derde lid moet evenwel worden
 voorafgegaan door opneming ervan in kohieren
 overeenkomstig artikel 304.
 
-## Art. 412bis
+###### Art. 412bis
 
 § 1. Art. 412bis. § 1. In afwijking van
 artikel 412, tweede lid, is de bedrijfsvoorheffing
@@ -51687,7 +51691,7 @@ inkomstenbelastingen.
 die voorkomen in het bericht bedoeld in
 paragraaf 2, eerste lid.
 
-## Art. 413
+###### Art. 413
 
 De krachtens artikel 304 ten kohiere
 gebrachte directe belastingen en onroerende
@@ -51752,7 +51756,7 @@ Vanaf 1 januari 2014, zijn de artikelen
 3.4.2.0.1. en 3.4.2.0.4. van dezelfde Codex van
 toepassing (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 413/1
+###### Art. 413/1
 
 § 1. De in paragraaf 2 beoogde keuze
 tussen de onmiddellijke betaling en de gespreide
@@ -52223,18 +52227,9 @@ geding.
 
 ----------
 
-##### Afdeling IVbis. - …
+#### Afdeling IVbis. - …
 
-## Art. 413bis
-
-…
-
-Opmerking: overgangsbepaling art. 138, W
-13.04.2019 – BS 30.04.2019, numac
-2019041000/ vorige tekst zie historisch wetboek
-WIB 92
-
-## Art. 413ter
+###### Art. 413bis
 
 …
 
@@ -52243,23 +52238,7 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-GEWESTELIJKE FISCALE BEPALINGEN
-
-BRUSSELS HOOFDSTEDELIJK GEWEST
-
-Tekst : WIB 92 – Historische versie –
-Brussels Hoofdstedelijk Gewest
-
-## Art. 413quater
-
-…
-
-Opmerking: overgangsbepaling art. 138, W
-13.04.2019 – BS 30.04.2019, numac
-2019041000/ vorige tekst zie historisch wetboek
-WIB 92
-
-## Art. 413quinquies
+###### Art. 413ter
 
 …
 
@@ -52275,7 +52254,7 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 413sexies
+###### Art. 413quater
 
 …
 
@@ -52284,11 +52263,7 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-## Art. 413septies
-
-…
-
-## Art. 413octies
+###### Art. 413quinquies
 
 …
 
@@ -52297,11 +52272,40 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-##### Afdeling V.- Interesten.
+GEWESTELIJKE FISCALE BEPALINGEN
+
+BRUSSELS HOOFDSTEDELIJK GEWEST
+
+Tekst : WIB 92 – Historische versie –
+Brussels Hoofdstedelijk Gewest
+
+###### Art. 413sexies
+
+…
+
+Opmerking: overgangsbepaling art. 138, W
+13.04.2019 – BS 30.04.2019, numac
+2019041000/ vorige tekst zie historisch wetboek
+WIB 92
+
+###### Art. 413septies
+
+…
+
+###### Art. 413octies
+
+…
+
+Opmerking: overgangsbepaling art. 138, W
+13.04.2019 – BS 30.04.2019, numac
+2019041000/ vorige tekst zie historisch wetboek
+WIB 92
+
+#### Afdeling V.- Interesten.
 
 ##### Onderafdeling I.- Nalatigheidsinteresten.
 
-## Art. 414
+###### Art. 414
 
 § 1. Bij wanbetaling binnen de in de
 artikelen 412, 413, en 413/1 gestelde termijnen,
@@ -52371,7 +52375,7 @@ Vanaf 1 januari 2014, is artikel 3.9.1.0.1.
 van dezelfde Codex van toepassing (zie Vlaamse
 Codex Fiscaliteit ).
 
-## Art. 415
+###### Art. 415
 
 § 1. In afwijking van artikel 414 is
 nalatigheidsinterest verschuldigd vanaf 1 juli van
@@ -52438,7 +52442,7 @@ nalatigheidsinterest betreffende die verhoging of
 die boete verschuldigd vanaf het verstrijken van
 de in artikel 412 vermelde betalingstermijn.
 
-## Art. 415/1
+###### Art. 415/1
 
 Wanneer bij toepassing van artikel 375/1
 ontheffing werd verleend en het bedrag van de
@@ -52454,7 +52458,7 @@ overeenkomstig artikel 414, § 1, vanaf de eerste
 dag van de maand die volgt op de maand waarin
 de ontheffing werd verleend.
 
-## Art. 416
+###### Art. 416
 
 In afwijking van artikel 414 en
 onverminderd de toepassing van de artikelen 444
@@ -52504,7 +52508,7 @@ verschuldigd, berekend overeenkomstig artikel
 aanslagjaar wordt genoemd waarvoor de
 vrijstelling voor de eerste keer werd gevraagd.
 
-## Art. 417
+###### Art. 417
 
 …
 
@@ -52535,7 +52539,7 @@ Brussels Hoofdstedelijk Gewest
 
 ##### Onderafdeling II.- Moratoriuminteresten.
 
-## Art. 418
+###### Art. 418
 
 Bij terugbetaling van belastingen,
 voorheffingen, voorafbetalingen, nalatigheidsinterest, belastingverhogingen of administratieve
@@ -52583,7 +52587,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 419
+###### Art. 419
 
 Geen moratoriuminterest wordt
 toegekend :
@@ -52663,11 +52667,11 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-#### HOOFDSTUK IX. - …
+### HOOFDSTUK IX. - …
 
-##### Afdeling I.- …
+#### Afdeling I.- …
 
-## Art. 420
+###### Art. 420
 
 …
 
@@ -52690,7 +52694,7 @@ Vanaf 1 januari 2014, is artikel
 3.10.5.1.1. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 421
+###### Art. 421
 
 …
 
@@ -52713,7 +52717,7 @@ Vanaf 1 januari 2014, is artikel
 3.10.5.1.2. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 421bis
+###### Art. 421bis
 
 …
 
@@ -52722,9 +52726,9 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-##### Afdeling II.- …
+#### Afdeling II.- …
 
-## Art. 422
+###### Art. 422
 
 …
 
@@ -52747,7 +52751,7 @@ Vanaf 1 januari 2014, is artikel
 3.10.5.2.1. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 423
+###### Art. 423
 
 …
 
@@ -52770,7 +52774,7 @@ Vanaf 1 januari 2014, is artikel
 3.10.5.2.2. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 424
+###### Art. 424
 
 ...
 
@@ -52779,9 +52783,9 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-##### Afdeling III.- …
+#### Afdeling III.- …
 
-## Art. 425
+###### Art. 425
 
 …
 
@@ -52804,7 +52808,7 @@ Vanaf 1 januari 2014, is artikel
 3.10.5.3.1. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 426
+###### Art. 426
 
 …
 
@@ -52827,7 +52831,7 @@ Vanaf 1 januari 2014, is artikel
 3.10.5.3.2. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 427
+###### Art. 427
 
 …
 
@@ -52856,7 +52860,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 428
+###### Art. 428
 
 …
 
@@ -52885,7 +52889,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 429
+###### Art. 429
 
 …
 
@@ -52914,7 +52918,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 430
+###### Art. 430
 
 …
 
@@ -52943,7 +52947,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 431
+###### Art. 431
 
 …
 
@@ -52972,7 +52976,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 432
+###### Art. 432
 
 …
 
@@ -52995,9 +52999,9 @@ Vanaf 1 januari 2014, is artikel
 3.10.5.3.8. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-##### Afdeling IV.- …
+#### Afdeling IV.- …
 
-## Art. 433
+###### Art. 433
 
 …
 
@@ -53028,7 +53032,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 434
+###### Art. 434
 
 …
 
@@ -53059,7 +53063,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 435
+###### Art. 435
 
 …
 
@@ -53090,7 +53094,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 436
+###### Art. 436
 
 …
 
@@ -53115,7 +53119,7 @@ Vanaf 1 januari 2014, is artikel
 3.12.1.0.4. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 437
+###### Art. 437
 
 …
 
@@ -53140,7 +53144,7 @@ Vanaf 1 januari 2014, is artikel
 3.12.1.0.5. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 438
+###### Art. 438
 
 …
 
@@ -53165,7 +53169,7 @@ Vanaf 1 januari 2014, is artikel
 3.12.1.0.6. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 439
+###### Art. 439
 
 …
 
@@ -53190,7 +53194,7 @@ Vanaf 1 januari 2014, is artikel
 3.12.1.0.7. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 440
+###### Art. 440
 
 …
 
@@ -53221,7 +53225,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 441
+###### Art. 441
 
 …
 
@@ -53250,7 +53254,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 442
+###### Art. 442
 
 …
 
@@ -53279,7 +53283,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 442bis
+###### Art. 442bis
 
 …
 
@@ -53308,7 +53312,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 442ter
+###### Art. 442ter
 
 …
 
@@ -53331,7 +53335,7 @@ Vanaf 1 januari 2014, is artikel
 3.12.1.0.15. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit ).
 
-## Art. 442quater
+###### Art. 442quater
 
 …
 
@@ -53347,7 +53351,7 @@ VLAAMSE GEWEST
 Tekst : WIB 92 – Historische versie –
 Vlaams Gewest
 
-## Art. 442quinquies
+###### Art. 442quinquies
 
 …
 
@@ -53356,9 +53360,9 @@ Opmerking: overgangsbepaling art. 138, W
 2019041000/ vorige tekst zie historisch wetboek
 WIB 92
 
-##### Afdeling V.- …
+#### Afdeling V.- …
 
-## Art. 443
+###### Art. 443
 
 …
 
@@ -53381,9 +53385,9 @@ Vanaf 1 januari 2014, is artikel
 3.12.2.0.1. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-#### HOOFDSTUK IXbis. - …
+### HOOFDSTUK IXbis. - …
 
-## Art. 443bis
+###### Art. 443bis
 
 …
 
@@ -53412,7 +53416,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 443ter
+###### Art. 443ter
 
 …
 
@@ -53441,15 +53445,15 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-#### HOOFDSTUK X.
+### HOOFDSTUK X.
 
 Strafbepalingen.
 
-##### Afdeling I.- Administratieve sancties.
+#### Afdeling I.- Administratieve sancties.
 
 ##### Onderafdeling I.- Belastingverhogingen.
 
-## Art. 444
+###### Art. 444
 
 Bij niet-aangifte, bij laattijdige
 overlegging van de aangifte of in geval van
@@ -53508,7 +53512,7 @@ aangegeven of laattijdig aangegeven inkomsten
 
 ##### Onderafdeling II.- Administratieve boete.
 
-## Art. 445
+###### Art. 445
 
 § 1. De door de adviseur-generaal
 gemachtigde ambtenaar kan een geldboete van
@@ -53701,7 +53705,7 @@ Vanaf 1 januari 2014, is artikel
 
 ##### Onderafdeling III.- Verval van het recht om belastingplichtigen te vertegenwoordigen.
 
-## Art. 446
+###### Art. 446
 
 De Minister van Financiën kan, bij
 gemotiveerd besluit, voor een tijdperk dat vijf
@@ -53727,7 +53731,7 @@ Vanaf 1 januari 2014, is artikel
 3.16.0.0.1. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 447
+###### Art. 447
 
 Het in artikel 446 bedoelde besluit mag
 slechts worden uitgevaardigd nadat de betrokken
@@ -53805,7 +53809,7 @@ GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 448
+###### Art. 448
 
 Het in artikel 446 bedoelde besluit,
 waarvan een eensluidend verklaard afschrift bij
@@ -53851,7 +53855,7 @@ Vanaf 1 januari 2014, is artikel
 3.16.0.0.3. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 448/1
+###### Art. 448/1
 
 § 1. De minister van Financiën kan,
 wanneer een rapporterende platformexploitant in
@@ -53915,9 +53919,9 @@ ingediende beroep bij de Raad van State tegen
 het besluit van de minister van Financiën heeft
 een schorsende werking op het besluit.
 
-##### Afdeling II.- Strafrechterlijke sancties.
+#### Afdeling II.- Strafrechterlijke sancties.
 
-## Art. 449
+###### Art. 449
 
 Hij die met bedrieglijk opzet of met het
 oogmerk om te schaden, de bepalingen van dit
@@ -54006,7 +54010,7 @@ Vanaf 1 januari 2014, is artikel
 3.15.3.0.1. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 450
+###### Art. 450
 
 Met gevangenisstraf van een maand tot
 vijf jaar en met geldboete van 250 EUR tot
@@ -54068,7 +54072,7 @@ Vanaf 1 januari 2014, is artikel
 3.15.3.0.2. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 450bis
+###### Art. 450bis
 
 Ten einde te vermijden dat een
 veroordeelde aan een onredelijk zware straf zou
@@ -54115,7 +54119,7 @@ van de verbeurdverklaring.
 
 ----------
 
-## Art. 451
+###### Art. 451
 
 Hij die een valse getuigenis aflegt, als tolk
 of als deskundige een valse verklaring aflegt, een
@@ -54155,7 +54159,7 @@ Vanaf 1 januari 2014, is artikel
 3.15.3.0.3. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 452
+###### Art. 452
 
 De niet-verschijning of de weigering om te
 getuigen in de door de artikelen 322, 325 en 374
@@ -54196,7 +54200,7 @@ Vanaf 1 januari 2014, is artikel
 3.15.3.0.4. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 453
+###### Art. 453
 
 De schending van het bij artikel 337
 bepaalde beroepsgeheim wordt gestraft overeenkomstig artikel 458 van het Strafwetboek.
@@ -54225,11 +54229,11 @@ Vanaf 1 januari 2014, is artikel
 3.15.3.0.5. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 454
+###### Art. 454
 
 …
 
-## Art. 455
+###### Art. 455
 
 § 1. Wanneer de beoefenaar van een van
 de volgende beroepen :
@@ -54287,7 +54291,7 @@ Vanaf 1 januari 2014, is artikel
 3.15.3.0.6. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 456
+###### Art. 456
 
 Hij, die rechtstreeks of onrechtstreeks het
 verbod of de sluiting uitgesproken krachtens de
@@ -54327,7 +54331,7 @@ Vanaf 1 januari 2014, is artikel
 3.15.3.0.7. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 457
+###### Art. 457
 
 § 1. Alle bepalingen van Boek I, van het
 Strafwetboek, met inbegrip van hoofdstuk VII en
@@ -54386,7 +54390,7 @@ Vanaf 1 januari 2014, is artikel
 Vanaf 9 april 2026, wordt een artikel 457/1
 ingevoegd, luidend als volgt :
 
-## Art. 457/1
+###### Art. 457/1
 
 Indien de rechter verzachtende
 omstandigheden aanneemt, wordt de
@@ -54413,7 +54417,7 @@ omstandigheden worden aangenomen.
 Vanaf 9 april 2026, wordt een artikel 457/2
 ingevoegd, luidend als volgt :
 
-## Art. 457/2
+###### Art. 457/2
 
 In het geval van een strafbare poging zoals
 bepaald in artikel 9 van het Strafwetboek, wordt
@@ -54434,7 +54438,7 @@ strafbare poging.
 
 ----------
 
-## Art. 458
+###### Art. 458
 
 Personen die als daders of als
 medeplichtigen van misdrijven bedoeld in de
@@ -54494,7 +54498,7 @@ Vanaf 1 januari 2014, is artikel
 3.15.3.0.9. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 459
+###### Art. 459
 
 De rechter kan bevelen dat ieder vonnis of
 arrest houdende veroordeling tot een
@@ -54525,7 +54529,7 @@ Vanaf 1 januari 2014, is artikel
 3.15.3.0.10. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 460
+###### Art. 460
 
 § 1. De strafvordering wordt uitgeoefend
 door het openbaar ministerie.
@@ -54560,7 +54564,7 @@ Vanaf 1 januari 2014, is artikel
 3.15.1.0.1. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 461
+###### Art. 461
 
 Onverminderd het in artikel 29, § 3,
 tweede lid, van het Wetboek van strafvordering
@@ -54592,7 +54596,7 @@ Vanaf 1 januari 2014, is artikel
 3.15.1.0.2. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 462
+###### Art. 462
 
 In het kader van de kennisgeving en het
 overleg bedoeld in artikel 29, § 2 en § 3, eerste
@@ -54604,7 +54608,7 @@ ingevolge de bepalingen van dit Wetboek of van
 de ter uitvoering ervan genomen besluiten mede
 aan het openbaar ministerie.
 
-## Art. 463
+###### Art. 463
 
 De ambtenaren van de Algemene
 Administratie van de Fiscaliteit en de Algemene
@@ -54639,19 +54643,19 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-### TITEL VIIBIS. - …
+## TITEL VIIBIS. - …
 
-## Art. 463bis
+###### Art. 463bis
 
 …
 
-### TITEL VIII. - TOEKENNINGEN AAN DE PROVINCIES, DE AGGLOMERATIES EN DE GEMEENTEN.
+## TITEL VIII. - TOEKENNINGEN AAN DE PROVINCIES, DE AGGLOMERATIES EN DE GEMEENTEN.
 
-#### HOOFDSTUK I.
+### HOOFDSTUK I.
 
 Algemene bepalingen.
 
-## Art. 464
+###### Art. 464
 
 De provincies, de agglomeraties en
 gemeenten zijn niet gemachtigd tot het heffen van :
@@ -54663,7 +54667,7 @@ belastingen ;
 
 2° belastingen op het vee.
 
-## Art. 464/1
+###### Art. 464/1
 
 In afwijking van artikel 464 mogen de
 provincies, de agglomeraties en de gemeenten
@@ -54689,17 +54693,17 @@ van de Vlaamse Codex Fiscaliteit van 13 december
 de onroerende voorheffing betreft (zie Vlaamse
 Codex Fiscaliteit ).
 
-#### HOOFDSTUK II.
+### HOOFDSTUK II.
 
 Aanvullende belastingen.
 
-## Art. 465
+###### Art. 465
 
 In afwijking van artikel 464, mogen de
 agglomeraties en de gemeenten een aanvullende
 belasting vestigen op de personenbelasting.
 
-## Art. 466
+###### Art. 466
 
 De aanvullende gemeentebelasting op de
 personenbelasting en de aanvullende
@@ -54715,7 +54719,7 @@ evenals met het gedeelte van de belasting dat
 betrekking heeft op de in artikel 17, § 1, 6°,
 bedoelde roerende inkomsten.
 
-## Art. 466bis
+###### Art. 466bis
 
 Wanneer een rijksinwoner beroepsinkomsten uit het buitenland verkrijgt die krachtens
 een internationale overeenkomst ter voorkoming
@@ -54728,7 +54732,7 @@ belasting die vastgesteld zou zijn indien de
 beroepsinkomsten in kwestie uit bronnen in België
 zouden zijn verkregen.
 
-## Art. 467
+###### Art. 467
 
 De aanvullende belasting op de personenbelasting wordt door de gemeente of door de
 agglomeratie geheven ten laste van de
@@ -54736,7 +54740,7 @@ rijksinwoners die respectievelijk belastbaar zijn in
 die gemeente of in de gemeenten die deel uitmaken
 van die agglomeratie.
 
-## Art. 468
+###### Art. 468
 
 De aanvullende belasting op de personenbelasting wordt voor alle belastingplichtigen van
 eenzelfde agglomeratie of gemeente vastgesteld op
@@ -54765,7 +54769,7 @@ personenbelasting gevestigd op grond van het
 percentage dat van toepassing was voor het vorige
 aanslagjaar.
 
-## Art. 469
+###### Art. 469
 
 De vestiging en de inning van de
 aanvullende belastingen op de personenbelasting
@@ -54791,7 +54795,7 @@ Voor zover hiervan niet wordt afgeweken,
 zijn de bepalingen van titel VII van dit Wetboek op
 die belastingen van toepassing.
 
-## Art. 470
+###### Art. 470
 
 Op het bedrag van de in de artikelen 465 tot
 469 bedoelde aanvullende belastingen wordt een
@@ -54799,11 +54803,11 @@ korting van 1 pct. ingehouden voor de
 terugbetaling van de administratiekosten aan de
 Schatkist.
 
-#### HOOFDSTUK III.
+### HOOFDSTUK III.
 
 Bijzondere invorderingsregels
 
-Art. 470/1 (oud 470bis)
+###### Art. 470/1 (oud 470bis)
 De administratie belast met de inning en de
 invordering van de inkomstenbelastingen kent aan
 de provincies, de gemeenten en agglomeraties van
@@ -54866,7 +54870,7 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-## Art. 470/2
+###### Art. 470/2
 
 Wat de opbrengst van de aanvullende
 gemeentebelasting op de personenbelasting betreft,
@@ -54989,13 +54993,13 @@ werkelijk geïnde netto-ontvangsten.
 
 (1) art. 233/2 en 233/3, KB/WIB 92
 
-### TITEL IX. - HET KADASTRAAL INKOMEN VAN ONROERENDE GOEDEREN.
+## TITEL IX. - HET KADASTRAAL INKOMEN VAN ONROERENDE GOEDEREN.
 
-#### HOOFDSTUK I.
+### HOOFDSTUK I.
 
 Bepaling van het kadastraal inkomen.
 
-## Art. 471
+###### Art. 471
 
 § 1. Er wordt een kadastraal inkomen
 vastgesteld voor alle gebouwde of ongebouwde
@@ -55072,13 +55076,13 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013)
 
-#### HOOFDSTUK II.
+### HOOFDSTUK II.
 
 Vaststelling van het kadastraal inkomen.
 
-##### Afdeling I.- Algemene bepalingen.
+#### Afdeling I.- Algemene bepalingen.
 
-## Art. 472
+###### Art. 472
 
 § 1. Het kadastraal inkomen wordt per
 kadastraal perceel bepaald. Tot dit doel gaat de
@@ -55115,9 +55119,9 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteitvan 13 december 2013 (BS 23 december
 2013)
 
-##### Afdeling II.- Aangifte van de belastingplichtigen en recht van onderzoek van de administratie.
+#### Afdeling II.- Aangifte van de belastingplichtigen en recht van onderzoek van de administratie.
 
-## Art. 473
+###### Art. 473
 
 § 1. De eigenaar, bezitter, erfpachter,
 opstalhouder of vruchtgebruiker van een in België
@@ -55212,7 +55216,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013)
 
-## Art. 474
+###### Art. 474
 
 Op verzoek van de Algemene Administratie
 van de Patrimoniumdocumentatie is de
@@ -55237,7 +55241,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit ).
 
-## Art. 475
+###### Art. 475
 
 De Algemene Administratie van de
 Patrimoniumdocumentatie kan :
@@ -55279,7 +55283,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit ).
 
-## Art. 476
+###### Art. 476
 
 Op voorwaarde dat zij van hun
 aanstellingsbewijs voorzien zijn, hebben de
@@ -55309,9 +55313,9 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit ).
 
-##### Afdeling III.- Gebouwde onroerende goederen.
+#### Afdeling III.- Gebouwde onroerende goederen.
 
-## Art. 477
+###### Art. 477
 
 § 1. Voor de gebouwde percelen wordt het
 kadastraal inkomen vastgesteld op grond van de
@@ -55354,7 +55358,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 478
+###### Art. 478
 
 Wanneer voor een gebouwd perceel geen
 gepast referentieperceel voorhanden is, wordt het
@@ -55403,9 +55407,9 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit ).
 
-##### Afdeling IV.- Ongebouwde onroerende goederen.
+#### Afdeling IV.- Ongebouwde onroerende goederen.
 
-## Art. 479
+###### Art. 479
 
 § 1. Voor de ongebouwde percelen wordt het
 kadastraal inkomen bepaald bij vergelijking met de
@@ -55431,7 +55435,7 @@ artikel 5.0.0.0.1., § 1, van de van 13 december
 2013 (BS 23 december 2013) (zie Vlaamse Codex
 Fiscaliteit ).
 
-## Art. 480
+###### Art. 480
 
 § 1. Worden beschouwd :
 
@@ -55499,7 +55503,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 481
+###### Art. 481
 
 § 1. De beboste percelen worden, per streek,
 in drie klassen ingedeeld volgens de aard van hun
@@ -55534,7 +55538,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 482
+###### Art. 482
 
 Het kadastraal inkomen van de percelen met
 een andere aard dan deze vermeld in de artikelen
@@ -55562,16 +55566,16 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit ).
 
-## Art. 482/1
+###### Art. 482/1
 
 Het kadastraal inkomen van ongebouwde
 onroerende goederen die gelegen zijn in het
 buitenland wordt vastgesteld op basis van de schaal
 van 2 euro per hectare.
 
-##### Afdeling V.- Materieel en outillage.
+#### Afdeling V.- Materieel en outillage.
 
-## Art. 483
+###### Art. 483
 
 Het kadastraal inkomen van het materieel en
 de outillage wordt berekend door op hun
@@ -55617,7 +55621,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 484
+###### Art. 484
 
 Het materieel en de outillage worden slechts
 in aanmerking genomen ingeval hun
@@ -55639,7 +55643,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit ).
 
-## Art. 485
+###### Art. 485
 
 Wanneer de in artikel 474 bedoelde aangifte
 niet steunt op bewijskrachtige gegevens wat betreft
@@ -55667,9 +55671,9 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-##### Afdeling VI.- Referentietijdstip.
+#### Afdeling VI.- Referentietijdstip.
 
-## Art. 486
+###### Art. 486
 
 Met referentietijdstip wordt bedoeld de
 1ste januari van het jaar vóór datgene waarin de
@@ -55686,14 +55690,14 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-#### HOOFDSTUK III.
+### HOOFDSTUK III.
 
 Tijdstip van vaststelling en invoegetreding
 van de kadastrale inkomens.
 
-##### Afdeling I.- Algemene perekwatie van de kadastrale inkomens.
+#### Afdeling I.- Algemene perekwatie van de kadastrale inkomens.
 
-## Art. 487
+###### Art. 487
 
 § 1. De Algemene Administratie van de
 Patrimoniumdocumentatie gaat om de tien jaar
@@ -55716,9 +55720,9 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-##### Afdeling II.- Herzieningen van de kadastrale inkomens.
+#### Afdeling II.- Herzieningen van de kadastrale inkomens.
 
-## Art. 488
+###### Art. 488
 
 Buiten de algemene perekwaties mag, in een
 gemeente of kadastrale afdeling van gemeente, tot
@@ -55739,7 +55743,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 489
+###### Art. 489
 
 De buitengewone herzieningen worden
 verricht volgens de procedure voorzien onder
@@ -55755,7 +55759,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit ).
 
-## Art. 490
+###### Art. 490
 
 De buitengewone herziening mag
 ambtshalve door de Minister van Financiën worden
@@ -55788,7 +55792,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 491
+###### Art. 491
 
 Buiten de algemene perekwaties, mag de
 Minister van Financiën of zijn gedelegeerde (1),
@@ -55821,7 +55825,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 492
+###### Art. 492
 
 De speciale herzieningen worden uitgevoerd
 volgens een summiere methode, door op de
@@ -55840,7 +55844,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 493
+###### Art. 493
 
 De kadastrale inkomens, voortspruitend uit
 een buitengewone of speciale herziening, worden
@@ -55867,9 +55871,9 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-##### Afdeling III.- Schatting en herschatting van de kadastrale inkomens.
+#### Afdeling III.- Schatting en herschatting van de kadastrale inkomens.
 
-## Art. 494
+###### Art. 494
 
 § 1. Buiten de algemene perekwaties gaat de
 Algemene Administratie van de Patrimoniumdocumentatie over :
@@ -56028,11 +56032,11 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-#### HOOFDSTUK IV.
+### HOOFDSTUK IV.
 
 Betekening van de kadastrale inkomens.
 
-## Art. 495
+###### Art. 495
 
 § 1. Elk nieuw vastgesteld, herzien, geschat
 of herschat kadastraal inkomen wordt, in de vorm
@@ -56064,7 +56068,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 496
+###### Art. 496
 
 De Algemene Administratie van de
 Patrimoniumdocumentatie mag het bedrag van het
@@ -56094,13 +56098,13 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-#### HOOFDSTUK V.
+### HOOFDSTUK V.
 
 Bezwaar tegen het kadastraal inkomen.
 
-##### Afdeling I.- Recht van bezwaar.
+#### Afdeling I.- Recht van bezwaar.
 
-## Art. 497
+###### Art. 497
 
 De belastingplichtige mag tegen het hem
 betekend kadastraal inkomen bezwaar indienen,
@@ -56121,7 +56125,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 498
+###### Art. 498
 
 Het enkel feit van de overdracht aan een
 derde van de eigendom van een perceel waarvan
@@ -56141,9 +56145,9 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-##### Afdeling II.- Voorwaarden van geldigheid van het bezwaar.
+#### Afdeling II.- Voorwaarden van geldigheid van het bezwaar.
 
-## Art. 499
+###### Art. 499
 
 Op straffe van verval moet het bezwaar :
 
@@ -56184,7 +56188,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 500
+###### Art. 500
 
 Geen enkel bezwaar tegen een kadastraal
 inkomen zal nog geldig kunnen ingediend worden
@@ -56202,9 +56206,9 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-##### Afdeling III.- Procedure bij het onderzoek van de bezwaren.
+#### Afdeling III.- Procedure bij het onderzoek van de bezwaren.
 
-## Art. 501
+###### Art. 501
 
 Het bezwaar wordt onderzocht door een
 ambtenaar belast met de behandeling van de
@@ -56220,7 +56224,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 501bis
+###### Art. 501bis
 
 § 1. Indien in de loop van de behandeling
 van het bezwaar en na onderhandelingen de
@@ -56257,7 +56261,7 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-## Art. 502
+###### Art. 502
 
 De Koning bepaalt (1) de regelen in verband
 met de arbitrageprocedure. Hij bepaalt de termijn
@@ -56279,9 +56283,9 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-##### Afdeling IV.- Uitwerking van de bezwaren.
+#### Afdeling IV.- Uitwerking van de bezwaren.
 
-## Art. 503
+###### Art. 503
 
 De eventuele wijziging van het kadastraal
 inkomen ingevolge een bezwaar heeft uitwerking
@@ -56299,12 +56303,12 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-#### HOOFDSTUK VI.
+### HOOFDSTUK VI.
 
 Bewaring en bijhouding van de kadastrale
 bescheiden.
 
-## Art. 504
+###### Art. 504
 
 De Algemene Administratie van de
 Patrimoniumdocumentatie staat in voor het
@@ -56335,9 +56339,9 @@ artikel 5.0.0.0.1., § 1, van de Vlaamse Codex
 Fiscaliteit van 13 december 2013 (BS 23 december
 2013) (zie Vlaamse Codex Fiscaliteit).
 
-### TITEL X. - OVERGANGSBEPALINGEN.
+## TITEL X. - OVERGANGSBEPALINGEN.
 
-## Art. 505
+###### Art. 505
 
 § 1. De belastbare meerwaarden
 waaromtrent de belastingplichtige het bewijs
@@ -56383,7 +56387,7 @@ voorhanden worden gehouden.
 190 zijn van toepassing op de krachtens § 1
 vrijgestelde meerwaarden.
 
-## Art. 506
+###### Art. 506
 
 Wanneer de grondbelasting krachtens vóór
 1 januari 1962 gesloten overeenkomsten ten laste
@@ -56395,7 +56399,7 @@ beding, niet verplicht worden meer dan twee derde
 van die voorheffing te dragen. Deze beperking is
 niet van toepassing op de provincie- en gemeenteopcentiemen.
 
-## Art. 507
+###### Art. 507
 
 Wanneer de mobiliënbelasting ten laste van
 de schuldenaar van de inkomsten gelegd is
@@ -56422,7 +56426,7 @@ artikel.
 ------------------------------
 (1) art. 234, KB/WIB 92.
 
-## Art. 508
+###### Art. 508
 
 De pensioenen, renten, kapitalen en
 afkoopwaarden van levensverzekeringscontracten
@@ -56458,7 +56462,7 @@ artikel 82, 1°, c, zoals het bestond alvorens door
 artikel 80 van de wet van 28 december 1992 te zijn
 opgeheven.
 
-## Art. 508bis
+###### Art. 508bis
 
 Onverminderd de toepassing van artikel 34
 zijn vrijgesteld, de pensioenen, renten, kapitalen,
@@ -56484,7 +56488,7 @@ verkregen ingevolge artikel 104, eerste lid,
 81, 2°, van de wet van 28 december 1992 te
 zijn opgeheven.
 
-## Art. 509
+###### Art. 509
 
 Aftrekbare beroepskosten zijn, wanneer zij
 tijdens het belastbare tijdperk werden gedaan :
@@ -56525,7 +56529,7 @@ belasting van een aanslagjaar dat 1964
 voorafgaat, indien zij tijdig waren gevestigd
 en ten laste genomen.
 
-## Art. 510
+###### Art. 510
 
 De bepalingen van artikel 509 zijn eveneens
 van toepassing in de gevallen bedoeld in artikel 2,
@@ -56540,7 +56544,7 @@ bevordering van de opslorping of de fusie van
 vennootschappen en de inbreng van één of meer
 bedrijfsafdelingen of takken van werkzaamheid.
 
-## Art. 511
+###### Art. 511
 
 § 1. De bepalingen van de artikelen 23bis,
 107bis, 124, § 6, en 306bis, zoals die bestonden
@@ -56576,7 +56580,7 @@ waardevermindering op de normale datum van
 afsluiting van de laatste jaarbalans opgemaakt voor
 31 december 1946.
 
-## Art. 512
+###### Art. 512
 
 Artikel 9bis van het koninklijk besluit van
 4 maart 1965 tot uitvoering van het Wetboek van
@@ -56590,7 +56594,7 @@ anders boekhouden dan per kalenderjaar, na de
 datum van afsluiting van het boekjaar waarvan het
 resultaat belastbaar is voor het aanslagjaar 1981.
 
-## Art. 513
+###### Art. 513
 
 Wanneer de verkoopprijs wordt herbelegd in
 de hierna vermelde vormen en termijnen, worden,
@@ -56645,11 +56649,11 @@ opgave niet wordt ingediend, de als herbelegging
 verkregen effecten worden overgedragen of de
 werkzaamheid wordt stopgezet.
 
-## Art. 514
+###### Art. 514
 
 …
 
-## Art. 515
+###### Art. 515
 
 § 1. In afwijking van artikel 47, § 1, 4°, van
 de wet van 27 december 1984 houdende fiscale
@@ -56753,7 +56757,7 @@ plaatsvindt vóór het verstrijken van
 die periode van 13 belastbare
 tijdperken.
 
-## Art. 515bis
+###### Art. 515bis
 
 Artikel 31, derde lid, zoals het bestond
 alvorens door artikel 74 van de wet van
@@ -56876,7 +56880,7 @@ rechthebbende worden uitgekeerd naar aanleiding
 van zijn toetreding tot het stelsel van werkloosheid
 met bedrijfstoeslag.
 
-## Art. 515bis/1
+###### Art. 515bis/1
 
 In afwijking van artikel 171, 1° bis, en 2°, d,
 zijn de kapitalen, afkoopwaarden of spaartegoeden
@@ -56884,7 +56888,7 @@ die zijn gevormd door middel van premies of
 betalingen die in 1992 werden gestort of gedaan,
 belastbaar aan de aanslagvoet van 16,5 pct.
 
-## Art. 515ter
+###### Art. 515ter
 
 Artikel 174, eerste lid, 2°, is niet van
 toepassing op collectieve of individuele
@@ -56892,7 +56896,7 @@ spaarrekeningen die zijn geopend of
 spaarverzekeringen die zijn aangegaan vóór
 4 augustus 1992.
 
-## Art. 515quater
+###### Art. 515quater
 
 § 1. Wat de pensioentoezeggingen betreft,
 ingesteld door een collectieve arbeidsovereenkomst, een pensioenreglement of een pensioenovereenkomst gesloten vóór de datum van
@@ -57031,7 +57035,7 @@ zijn pensionering of vanaf de leeftijd van 58 jaar of
 naar aanleiding van het overlijden van de persoon
 van wie hij de rechtverkrijgende is".
 
-## Art. 515quinquies
+###### Art. 515quinquies
 
 De artikelen 52, 3°, b, en 195, § 2, zoals ze
 bestonden vóórdat ze door de artikelen 79 en 87
@@ -57046,7 +57050,7 @@ inwerkingtreding van de genoemde wet in het
 voordeel van de onderneming op het hoofd van de
 bedrijfsleiders
 
-## Art. 515sexies
+###### Art. 515sexies
 
 In geval van overdracht van kapitalen of
 afkoopwaarden gevormd door middel van
@@ -57106,7 +57110,7 @@ overdracht van het kapitaal of de afkoopwaarde
 naar een buiten de Europese Economische Ruimte
 gevestigde verzekeringsonderneming, voorzorgsinstelling of instelling voor bedrijfspensioenvoorzieningen.
 
-## Art. 515septies
+###### Art. 515septies
 
 Dit artikel is van toepassing op de
 aanvullende pensioenkapitalen die door middel van
@@ -57151,7 +57155,7 @@ bepalingen van artikel 38, § 1, eerste lid, 18° en
 de begrenzing gesteld in de artikelen 59 en 195 zijn
 nageleefd tot op het ogenblik van de overdracht.
 
-## Art. 515octies
+###### Art. 515octies
 
 Artikel 171, 4°, g, zoals het bestond
 vooraleer het werd gewijzigd door artikel 86 van
@@ -57165,7 +57169,7 @@ kapitalen worden uitgekeerd in uitvoering van een
 contractuele verbintenis die is gesloten voor de
 inwerkingtreding van de genoemde wet.
 
-## Art. 515novies
+###### Art. 515novies
 
 Dit artikel is van toepassing op de kapitalen
 en afkoopwaarden die zijn gevormd door middel
@@ -57241,7 +57245,7 @@ overdracht van het kapitaal of de afkoopwaarde
 naar een buiten de Europese Economische Ruimte
 gevestigde verzekeringsonderneming, voorzorgsinstelling of instelling voor bedrijfspensioenvoorzieningen.
 
-## Art. 516
+###### Art. 516
 
 § 1. In afwijking van artikel 1456, tweede
 lid, wordt de belastingvermindering op de
@@ -57302,7 +57306,7 @@ de lening.
 overeenkomstig artikel 178 aan het indexcijfer van
 de consumptieprijzen van het Rijk aangepast.
 
-## Art. 517
+###### Art. 517
 
 Voor de toepassing van de artikelen 131,
 tweede lid, en 132, tweede lid, wordt eveneens
@@ -57311,7 +57315,7 @@ rekening gehouden met de handicap die vóór
 datum vigerende artikel 81, § 3, 1°, van het
 Wetboek van de inkomstenbelastingen.
 
-## Art. 518
+###### Art. 518
 
 Voor de toepassing van de artikelen 7 tot 11,
 221, 1° en 222, 2°, 234, eerste lid, 1°, en
@@ -57342,15 +57346,15 @@ WAALSE GEWEST
 Tekst : WIB 92 – Historische versie –Waals
 Gewest
 
-## Art. 519
+###### Art. 519
 
 …
 
-## Art. 519bis
+###### Art. 519bis
 
 …
 
-## Art. 519ter
+###### Art. 519ter
 
 § 1. In afwijking van de artikelen 215 en
 246, eerste lid, wordt, voor de aanslagjaren 2021
@@ -57432,7 +57436,7 @@ zijn gedaan.
 
 § 4. …
 
-## Art. 520
+###### Art. 520
 
 De artikelen 36, 40, § 2, tweede lid, 105,
 eerste lid, 124, § 3, tweede lid en 306bis van het
@@ -57445,11 +57449,11 @@ toepassing op de meerwaarden die waren
 vrijgesteld overeenkomstig de hiervoren vermelde
 artikelen 36 en 105.
 
-## Art. 521
+###### Art. 521
 
 …
 
-## Art. 522
+###### Art. 522
 
 Met betrekking tot kapitalen die reeds op de
 eerste dag van het belastbaar tijdperk verbonden
@@ -57461,7 +57465,7 @@ interestgedeelten van die kapitalen, beschouwd als
 een inkomen van het tijdperk waarin de interest
 wordt geïnd of verkregen.
 
-## Art. 523
+###### Art. 523
 
 In afwijking van artikel 289bis, § 2, wordt
 het belastingkrediet nochtans niet verleend in
@@ -57483,7 +57487,7 @@ op de handelsvennootschappen tot doel hebben,
 door naamloze vennootschappen die op het tijdstip
 van de inwerkingtreding van deze wet bestonden.
 
-## Art. 524
+###### Art. 524
 
 Artikel 67, § 2, zoals het bestond alvorens te
 zijn vervangen door artikel 3 van de wet van
@@ -57493,14 +57497,14 @@ onderzoek werd tewerkgesteld tijdens één van de
 belastbare tijdperken verbonden aan de
 aanslagjaren 1996 en vorige.
 
-## Art. 525
+###### Art. 525
 
 Artikel 1454, 2°, a, zoals het bestond voor
 het door artikel 31 van de wet van 10 augustus
 2001 werd gewijzigd, blijft van toepassing op de
 contracten die zijn afgesloten vóór 1 januari 2002.
 
-## Art. 526
+###### Art. 526
 
 § 1. Deze paragraaf is tot en met aanslagjaar
 2025 van toepassing wanneer aan de volgende
@@ -57711,7 +57715,7 @@ beantwoorden aan de begunstigingsclausule zoals
 die in het genoemde artikel bestond alvorens het
 werd gewijzigd door de hiervoor vermelde wetten.
 
-## Art. 5261
+###### Art. 5261
 
 Bijdragen en premies die zijn betaald in
 uitvoering van verzekeringscontracten die vóór
@@ -57733,7 +57737,7 @@ bepalingen en de artikelen 114 en 115 van de wet
 van 22 december 2008 houdende diverse
 bepalingen (1).
 
-## Art. 527
+###### Art. 527
 
 Artikel 19, § 1, 3°, a, zoals dat bestond
 alvorens te zijn gewijzigd door artikel 390 van de
@@ -57805,7 +57809,7 @@ voordat het door artikel 397 van de programmawet
 werd gewijzigd, of zoals dat krachtens artikel 526,
 § 2, tweede lid, van toepassing is gebleven.
 
-## Art. 528
+###### Art. 528
 
 De bepaling van artikel 201, vijfde lid, zoals
 ze wordt ingevoegd bij de wet van 22 juni 2005 tot
@@ -57816,7 +57820,7 @@ investeringsaftrekken die worden toegelaten vanaf
 een aanslagjaar dat aan het aanslagjaar 2007
 voorafgaat.
 
-## Art. 529
+###### Art. 529
 
 De bepalingen van het artikel 292bis, zoals
 die bestonden vóór ze werden opgeheven bij de
@@ -57827,7 +57831,7 @@ belastingkrediet zoals dit bestond vóór het werd
 opgeheven bij voormelde wet en dat niet is
 verrekend vóór aanslagjaar 2007.
 
-## Art. 530
+###### Art. 530
 
 § 1. Wat de belastingplichtigen die aan de
 vennootschapsbelasting worden onderworpen of de
@@ -57881,7 +57885,7 @@ vermenigvuldigd met het in artikel 70, tweede lid,
 voorziene percentage en met het in artikel
 289quater, tweede lid, voorziene tarief.
 
-## Art. 531
+###### Art. 531
 
 De bepalingen van artikel 67, § 4, blijven
 van toepassing op de voorheen vrijgestelde winst
@@ -57926,7 +57930,7 @@ De legistieke rechtzetting zal eerstdaags gebeuren.
 
 ----------
 
-## Art. 532
+###### Art. 532
 
 De bepalingen van de artikelen 58 en 463bis,
 § 2, 1°, zoals die bestonden vóór ze werden
@@ -57937,11 +57941,11 @@ geheime commissielonen die tot de dagelijkse
 praktijk behoren, indien ze werden betaald of
 toegekend vóór 8 juni 2007.
 
-## Art. 533
+###### Art. 533
 
 …
 
-## Art. 534
+###### Art. 534
 
 In afwijking van de artikelen 171, 3°, en
 269, 1°, wordt het tarief van de personenbelasting,
@@ -57958,11 +57962,11 @@ aangegeven in de personenbelasting.
 
 …
 
-## Art. 535
+###### Art. 535
 
 …
 
-## Art. 536
+###### Art. 536
 
 De overeenkomstig artikel 205quinquies,
 zoals dit bestond voor de opheffing ervan door
@@ -58006,7 +58010,7 @@ van de winst vastgesteld na toepassing van artikel
 vermindering van de aftrekken waarin deze leden
 voorzien.
 
-## Art. 537
+###### Art. 537
 
 In afwijking van de artikelen 171, 3°, en
 269, § 1, 1°, wordt het tarief van de
@@ -58103,11 +58107,11 @@ inbreng, 17 pct.;
 3° tijdens het vierde jaar volgend op de
 inbreng, 5 pct.
 
-## Art. 538
+###### Art. 538
 
 …
 
-## Art. 539
+###### Art. 539
 
 § 1. Dit artikel is tot en met aanslagjaar
 2025 van toepassing wanneer aan de volgende
@@ -58232,7 +58236,7 @@ bestaande beschouwd wat betreft de verlenging van
 de duurtijd waarin de belastingvermindering kan
 worden verleend.
 
-## Art. 540
+###### Art. 540
 
 Artikel 19, § 1, eerste lid, 3°, a, zoals het
 bestond voordat het werd vervangen bij artikel 13
@@ -58301,7 +58305,7 @@ artikel 20 van de wet van 8 mei 2014 werd
 opgeheven of op grond van artikel 539 van
 toepassing is gebleven.
 
-## Art. 541
+###### Art. 541
 
 § 1. Een vennootschap kan, voor een
 gedeelte of het geheel van de boekhoudkundige
@@ -58639,11 +58643,11 @@ basis van dit artikel aangelegde liquidatiereserves.
 ------------------------------
 (1) KB 18.09.2015 – BS. 25.09.2015
 
-## Art. 542
+###### Art. 542
 
 …
 
-## Art. 543
+###### Art. 543
 
 De belastingplichtige kan de toepassing
 vragen van de overeenkomstig de artikelen 2051 tot
@@ -58667,7 +58671,7 @@ aftrek voor octrooi-inkomsten of voor een analoge
 regeling van buitenlands recht in aanmerking
 komen.
 
-## Art. 544
+###### Art. 544
 
 § 1. Voor de toepassing van artikel 59, §
 1, eerste lid, 1° en van de bepalingen van titel II,
@@ -58703,7 +58707,7 @@ verrichtingen of overbrengingen die ten laatste
 op 31 december 2020 zijn bekend gemaakt in de
 Bijlagen bij het Belgisch Staatsblad.
 
-## Art. 545
+###### Art. 545
 
 Voor de toepassing van de artikelen 171,
 3° quater, en 269, § 1, 3°, worden voor wat
@@ -58719,7 +58723,7 @@ een lidstaat van de Europese Economische
 Ruimte gelegen onroerende goederen
 beschouwd.
 
-## Art. 546
+###### Art. 546
 
 Artikel 132, eerste lid, 7°, en tweede lid,
 zoals ze bestonden vooraleer ze werden
@@ -58738,9 +58742,9 @@ toepassing van artikel 132, eerste lid, 7°, en
 tweede lid, zoals gewijzigd bij de wet van 20
 december 2020, kan worden toegekend.
 
-Art. 547 ?
+###### Art. 547 ?
 
-## Art. 548
+###### Art. 548
 
 Niettegenstaande artikel 198quater blijven
 de bepalingen van artikel 67 van toepassing op
@@ -58796,7 +58800,7 @@ vrijstelling nog zijn vervuld.
 
 ----------
 
-## Art. 549
+###### Art. 549
 
 …
 
@@ -58808,7 +58812,7 @@ verbonden aan een belastbaar tijdperk dat ten
 vroegste aanvangt op 1 januari 2026), wordt een
 artikel 550 ingevoegd, luidend als volgt :
 
-## Art. 550
+###### Art. 550
 
 In afwijking van artikel 66, §§ 1 en 1/1, zijn
 de beroepskosten met betrekking tot het gebruik
@@ -58947,7 +58951,7 @@ januari 2018.
 
 ----------
 
-## Art. 551
+###### Art. 551
 
 § 1. Het percentage van 30 pct. bedoeld in
 de artikelen 37, tweede lid, eerste streepje, 171,
@@ -58990,7 +58994,7 @@ Artikel 174/1 is van toepassing op het in
 artikel 171, 2°bis, bedoelde bedrag dat
 overeenkomstig het tweede lid is herleid.
 
-## Art. 552
+###### Art. 552
 
 Voor de activa die werden verkregen of tot
 stand gebracht voor 1 januari 2025, worden de

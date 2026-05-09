@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde

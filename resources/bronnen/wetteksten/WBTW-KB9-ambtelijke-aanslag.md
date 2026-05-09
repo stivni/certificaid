@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 9 van 12 december 1970, met betrekking tot de ambtelijke aanslag inzake belasting over de toegevoegde waarde

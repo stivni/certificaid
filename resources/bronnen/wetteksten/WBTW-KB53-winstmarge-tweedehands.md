@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # K.B. nr. 53 van 23 december 1994, met betrekking tot de bijzondere regeling van belastingheffing over de winstmarge voor gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten

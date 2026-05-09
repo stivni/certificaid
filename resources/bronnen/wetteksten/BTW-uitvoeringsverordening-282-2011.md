@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 5
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG
@@ -258,43 +262,43 @@ Een aantal wijzigingen vloeit voort uit Richtlijn
 2008/8/EG. Aangezien deze wijzigingen betrekking heb­ ben op de belastingheffing ter zake van de langdurende verhuur van vervoermiddelen vanaf 1 januari 2013 ener­ zijds, en op de belastingheffing op langs elektronische weg verrichte diensten vanaf 1 januari 2015 anderzijds, moet worden verduidelijkt dat de overeenkomstige arti­ kelen van deze verordening pas op dezelfde datums van toepassing worden,
 
 HEEFT DE VOLGENDE VERORDENING VASTGESTELD:
-#### HOOFDSTUK I
+## HOOFDSTUK I
 ONDERWERP
 
-## Art. 1
+##### Art. 1
 Deze verordening behelst maatregelen ter uitvoering van som­ mige bepalingen van de titels I tot en met V en VII tot en met XII van Richtlijn 2006/112/EG.
-#### HOOFDSTUK II
+## HOOFDSTUK II
 TOEPASSINGSGEBIED
 (TITEL I VAN RICHTLIJN 2006/112/EG)
 
-## Art. 2
+##### Art. 2
 De volgende handelingen geven geen aanleiding tot intracom­ munautaire verwervingen in de zin van artikel 2, lid 1, onder b), van Richtlijn 2006/112/EG:
 a) het overbrengen van een nieuw vervoermiddel door een nietbelastingplichtige in het kader van een woonplaatsverande­ ring, op voorwaarde dat de vrijstelling van artikel 138, lid 2, onder a), van Richtlijn 2006/112/EG op het tijdstip van levering geen toepassing kon vinden;
 b) het terugzenden van een nieuw vervoermiddel door een nietbelastingplichtige naar de lidstaat vanwaaruit het oorspron­ kelijk aan hem was geleverd met de vrijstelling van artikel 138, lid 2, onder a), van Richtlijn 2006/112/EG.
 
 
-## Art. 3
+##### Art. 3
 Onverminderd artikel 59 bis, eerste alinea, onder b), van Richt­ lijn 2006/112/EG zijn de onderstaande diensten niet aan de btw onderworpen indien de dienstverrichter aantoont dat de over­ eenkomstig hoofdstuk V, afdeling 4, onderafdelingen 3 en 4, van deze verordening bepaalde plaats van de dienst buiten de Gemeenschap gelegen is:
 a) vanaf 1 januari 2013, de in artikel 56, lid 2, eerste alinea, van Richtlijn 2006/112/EG bedoelde dienst;
 b) vanaf 1 januari 2015, de in artikel 58 van Richtlijn
 2006/112/EG vermelde diensten;
 c) de in artikel 59 van Richtlijn 2006/112/EG vermelde diensten.
-## Art. 4
+##### Art. 4
 Een belastingplichtige die overeenkomstig artikel 3 van Richtlijn
 2006/112/EG ter zake van zijn intracommunautaire verwervin­ gen van goederen aanspraak op niet-belastbaarheid heeft, be­ houdt die aanspraak wanneer hem, overeenkomstig artikel 214, lid 1, onder d) of e), van die richtlijn, een btwidentificatienummer is toegekend voor de door hem afgenomen diensten waarvoor hij tot voldoening van de btw is gehouden, of voor de door hem op het grondgebied van een andere lid­ staat verrichte diensten waarvoor uitsluitend de afnemer de btw moet voldoen.
 Indien evenwel deze belastingplichtige dit btw-identificatienum­ mer met betrekking tot een intracommunautaire verwerving van goederen meedeelt aan een leverancier, wordt hij geacht het in artikel 3, lid 3, van die Richtlijn bedoelde keuzerecht te hebben uitgeoefend.
-#### HOOFDSTUK III
+## HOOFDSTUK III
 BELASTINGPLICHTIGEN
 (TITEL III VAN RICHTLIJN 2006/112/EG)
 
-## Art. 5
+##### Art. 5
 Het overeenkomstig Verordening (EEG) nr. 2137/85 opgerichte
 Europees economisch samenwerkingsverband (EESV) dat aan zijn leden of aan derden onder bezwarende titel goederen of diensten levert, is een belastingplichtige in de zin van artikel 9, lid 1, van Richtlijn 2006/112/EG.
-#### HOOFDSTUK IV
+## HOOFDSTUK IV
 BELASTBARE HANDELINGEN
 (ARTIKELEN 24 TOT EN MET 29 VAN RICHTLIJN 2006/112/EG)
 
-## Art. 6
+##### Art. 6
 1.
 Onder restaurant- en cateringdiensten wordt verstaan het verstrekken van bereide of onbereide spijzen of dranken dan wel beide, voor menselijke consumptie, in combinatie met vol­ doende bijkomende diensten ten behoeve van de onmiddellijke consumptie van die spijzen of dranken. Het verstrekken van spijzen of dranken dan wel beide is niet meer dan een onderdeel van het geheel waarin het dienstenaspect de overhand heeft.
 Restaurantdiensten zijn dergelijke diensten verstrekt in de ruim­ ten van de dienstverrichter en cateringdiensten zijn dergelijke diensten verstrekt elders dan in de ruimten van de dienstver­ richter.
@@ -312,7 +316,7 @@ L 77/5
 d) cd-roms, floppydisks en soortgelijke materiële informatie­ dragers;
 e) drukwerk, zoals boeken, nieuwsbrieven, dagbladen of tijd­ schriften;
 
-## Art. 7
+##### Art. 7
 1.
 De in Richtlijn 2006/112/EG bedoelde „langs elektro­ nische weg verrichte diensten” betreffen diensten die over het internet of een elektronisch netwerk worden verleend, wegens hun aard grotendeels geautomatiseerd zijn en slechts in geringe mate menselijk ingrijpen vergen, en zonder informatietechnolo­ gie niet kunnen worden verricht.
 
@@ -360,11 +364,11 @@ p) klassieke veilingen met rechtstreeks menselijk ingrijpen, on­ geacht de wijz
 q) telefonische diensten met een videocomponent, ook bekend als videofoondiensten;
 r) toegang tot het internet en het world wide web;
 s) telefonische diensten die over het internet worden verricht.
-## Art. 8
+##### Art. 8
 Wanneer een belastingplichtige slechts de diverse onderdelen van een machine assembleert die hem alle door zijn klant zijn bezorgd, is deze handeling een dienst in de zin van artikel 24, lid 1, van Richtlijn 2006/112/EG.
 
 a) radio- en televisieomroepdiensten;
-## Art. 9
+##### Art. 9
 b) telecommunicatiediensten;
 c) goederen waarbij de bestelling en de verwerking van de bestelling langs elektronische weg geschieden;
 
@@ -377,18 +381,18 @@ NL
 Publicatieblad van de Europese Unie
 
 
-#### HOOFDSTUK V
+## HOOFDSTUK V
 
-## Art. 12
+##### Art. 12
 
 PLAATS VAN BELASTBARE HANDELINGEN
 
 Voor de toepassing van Richtlijn 2006/112/EG is de „woon­ plaats” van een al dan niet belastingplichtige natuurlijke persoon het adres dat in het bevolkingsregister of een soortgelijk open­ baar register is opgenomen, of het adres dat door die persoon aan de relevante belastingautoriteiten is meegedeeld tenzij er bewijs voorhanden is dat dit adres niet met de werkelijkheid overeenstemt.
 
-##### AFDELING 1
+### AFDELING 1
 
 Begrippen
-## Art. 10
+##### Art. 10
 1.
 Voor de toepassing van de artikelen 44 en 45 van Richt­ lijn 2006/112/EG wordt onder de plaats waar een belasting­ plichtige de zetel van zijn bedrijfsuitoefening heeft gevestigd, de plaats verstaan waar de centrale bestuurstaken van het bedrijf worden uitgeoefend.
 2.
@@ -396,7 +400,7 @@ Om te bepalen waar de in lid 1 bedoelde plaats gelegen is, wordt rekening gehoud
 Wanneer op grond van deze criteria niet met zekerheid kan worden bepaald waar de zetel van de bedrijfsuitoefening van een bedrijf is gevestigd, is de plaats waar de voornaamste be­ slissingen betreffende de algemene leiding van het bedrijf wor­ den genomen het doorslaggevende criterium.
 3.
 Het enkele bestaan van een postadres is ontoereikend om dat adres aan te merken als de plaats van de zetel van de bedrijfsuitoefening van een belastingplichtige.
-## Art. 11
+##### Art. 11
 1.
 Voor de toepassing van artikel 44 van Richtlijn
 2006/112/EG wordt onder „vaste inrichting” verstaan iedere andere inrichting dan de in artikel 10 van deze verordening bedoelde zetel van de bedrijfsuitoefening die gekenmerkt wordt door een voldoende mate van duurzaamheid en een - wat per­ soneel en technische middelen betreft - geschikte structuur om de voor haar eigen behoeften verrichte diensten te kunnen af­ nemen en ter plaatse te gebruiken.
@@ -409,14 +413,14 @@ Richtlijn 2006/112/EG;
 c) tot en met 31 december 2014, artikel 58 van Richtlijn
 2006/112/EG;
 
-## Art. 13
+##### Art. 13
 De in Richtlijn 2006/112/EG bedoelde „gebruikelijke verblijf­ plaats” van een al dan niet belastingplichtige natuurlijke persoon is de plaats waar deze gewoonlijk verblijft wegens persoonlijke en beroepsmatige bindingen.
 Wanneer de natuurlijke persoon beroepsmatige bindingen heeft in een ander land dan het land waar hij persoonlijke bindingen heeft of wanneer beroepsmatige bindingen ontbreken, wordt zijn gebruikelijke verblijfplaats bepaald aan de hand van per­ soonlijke bindingen waaruit nauwe banden tussen hemzelf en een plaats waar hij woont blijken.
-##### AFDELING 2
+### AFDELING 2
 
 Plaats van levering van goederen
 (Artikelen 31 tot en met 39 van richtlijn 2006/112/EG)
-## Art. 14
+##### Art. 14
 Wanneer in de loop van een kalenderjaar de drempel die over­ eenkomstig artikel 34 van Richtlijn 2006/112/EG door een lidstaat wordt toegepast, wordt overschreden, wijzigt artikel 33 van de bovengenoemde richtlijn niet de plaats van de leveringen ter zake van goederen andere dan accijnsproduc­ ten die in de loop van datzelfde kalenderjaar zijn verricht voor­ dat de door de lidstaten toegepaste drempel voor het lopende kalenderjaar is overschreden, mits alle onderstaande voorwaar­ den vervuld zijn:
 a) de leverancier heeft geen gebruikgemaakt van het in artikel 34, lid 4, van genoemde richtlijn bepaalde recht om te kiezen;
 b) de waarde van zijn goederenleveringen heeft de drempel in het voorafgaande kalenderjaar niet overschreden.
@@ -437,29 +441,29 @@ NL
 
 Publicatieblad van de Europese Unie
 
-## Art. 15
+##### Art. 15
 Het in de Gemeenschap verrichte gedeelte van een passagiers­ vervoer als bedoeld in artikel 37 van Richtlijn 2006/112/EG wordt bepaald door het traject van het vervoermiddel, en niet door het traject dat door elk van de passagiers wordt afgelegd.
 
-##### AFDELING 3
+### AFDELING 3
 
 Plaats van een intracommunautaire verwerving van goederen
 (Artikelen 40, 41 en 42 van richtlijn 2006/112/EG)
-## Art. 16
+##### Art. 16
 De lidstaat van aankomst van de verzending of het vervoer van goederen waar een intracommunautaire verwerving in de zin van artikel 20 van Richtlijn 2006/112/EG plaatsvindt, oefent zijn heffingsbevoegdheid uit, ongeacht de btw-behandeling van de handeling in de lidstaat van vertrek van de zending of het vervoer van goederen.
 Een eventueel verzoek om correctie, door de leverancier van de goederen, van de btw die hij in rekening heeft gebracht en aan de lidstaat van vertrek van de zending of het vervoer van goe­ deren heeft aangegeven, wordt door deze lidstaat overeenkom­ stig zijn nationale bepalingen afgehandeld.
 
-##### AFDELING 4
+### AFDELING 4
 
 Plaats van een dienst
 (Artikelen 43 tot en met 59 van richtlijn 2006/112/EG)
-###### Onderafdeling 1
+#### Onderafdeling 1
 Status van de afnemer
-## Art. 17
+##### Art. 17
 1.
 Wanneer de plaats van een dienst afhangt van het al dan niet belastingplichtig zijn van de afnemer, wordt de status van de afnemer bepaald op basis van de artikelen 9 tot en met 13 en artikel 43 van Richtlijn 2006/112/EG.
 2.
 Een niet-belastingplichtige rechtspersoon die overeenkom­ stig artikel 214, lid 1, onder b), van Richtlijn 2006/112/EG voor btw-doeleinden geïdentificeerd is of zou moeten zijn, om­ dat zijn intracommunautaire verwervingen van goederen aan de btw onderworpen zijn of omdat hij gebruik heeft gemaakt van het keuzerecht om deze handelingen aan de btw te onderwer­ pen, is een belastingplichtige in de zin van artikel 43 van die richtlijn.
-## Art. 18
+##### Art. 18
 1.
 Een dienstverrichter kan, tenzij hij over tegengestelde in­ formatie beschikt, ervan uitgaan dat een in de Gemeenschap gevestigde afnemer de status van belastingplichtige heeft:
 a) wanneer de afnemer hem diens individuele btw-identificatie­ nummer heeft verstrekt en mits hij overeenkomstig artikel 31 van Verordening (EU) nr. 904/2010 van de Raad van 7 oktober 2010 betreffende de administratieve
@@ -474,9 +478,9 @@ Een dienstverrichter kan, tenzij hij over tegengestelde in­ formatie beschikt, 
 Een dienstverrichter kan, tenzij hij over tegengestelde in­ formatie beschikt, ervan uitgaan dat een buiten de Gemeenschap gevestigde afnemer de status van belastingplichtige heeft:
 a) indien hij van de afnemer een verklaring verkrijgt die is afgegeven door de bevoegde belastingautoriteiten van de af­ nemer waarin wordt bevestigd dat deze economische activi­ teiten verricht zodat hij teruggaaf van de btw kan krijgen uit hoofde van Richtlijn 86/560/EEG van de Raad van 17 november 1986 betreffende de harmonisatie van de wet­ gevingen der lidstaten inzake omzetbelasting - Regeling voor de teruggaaf van de belasting over de toegevoegde waarde aan niet op het grondgebied van de Gemeenschap gevestigde belastingplichtigen (2);
 b) indien hij, wanneer de afnemer niet in het bezit is van die verklaring, beschikt over het btw-nummer, of een soortgelijk bedrijvenidentificatienummer dat aan de afnemer is toege­ kend door diens land van vestiging of enig ander bewijs waaruit blijkt dat de afnemer een belastingplichtige is en mits hij controles van een redelijke omvang verricht van de juistheid van de door de afnemer verstrekte informatie, met behulp van in het handelsverkeer normale veiligheids­ maatregelen, zoals maatregelen inzake identiteits- en beta­ lingscontroles.
-###### Onderafdeling 2
+#### Onderafdeling 2
 Hoedanigheid van de afnemer
-## Art. 19
+##### Art. 19
 Voor de toepassing van de regels inzake de plaats van een dienst opgenomen in de artikelen 44 en 45 van Richtlijn 2006/112/EG wordt een belastingplichtige, of een als een be­ lastingplichtige te beschouwen niet-belastingplichtige rechtsper­ soon, die uitsluitend voor privégebruik, inclusief privégebruik van zijn personeel, diensten afneemt als een niet-belastingplich­ tige aangemerkt.
 (1) PB L 268 van 12.10.2010, blz. 1.
 (2) PB L 326 van 21.11.1986, blz. 40.
@@ -488,7 +492,7 @@ NL
 Publicatieblad van de Europese Unie
 
 
-## Art. 22
+##### Art. 22
 
 Tenzij hij beschikt over tegengestelde informatie, bijvoorbeeld op grond van de aard van de verrichte diensten, kan de dienst­ verrichter ervan uitgaan dat de diensten voor de bedrijfsdoel­ einden van de afnemer bestemd zijn, indien de afnemer hem voor de handeling in kwestie diens individuele btw-identificatie­ nummer heeft meegedeeld.
 
@@ -499,16 +503,16 @@ Eenzelfde dienst die zowel voor privégebruik, inclusief privé­ gebruik van he
 
 Wanneer de dienstverrichter niet aan de hand van de aard en het gebruik van de verrichte dienst kan bepalen voor welke vaste inrichting van de afnemer de dienst wordt verricht, let hij er bij het bepalen om welke vaste inrichting het gaat in het bijzonder op of de vaste inrichting in het contract, op de bestelbon en middels het door de lidstaat van de afnemer toe­ gekende en door de afnemer aan hem meegedeelde btwidentificatienummer als afnemer van de dienst aangeduid is alsook of de vaste inrichting de entiteit is die de dienst betaalt.
 
-###### Onderafdeling 3
+#### Onderafdeling 3
 Plaats van vestiging van de afnemer
-## Art. 20
+##### Art. 20
 Wanneer een voor een belastingplichtige, of een als belasting­ plichtige te beschouwen niet-belastingplichtige rechtspersoon, verrichte dienst onder artikel 44 van Richtlijn 2006/112/EG valt en die belastingplichtige in slechts één land is gevestigd dan wel, bij gebreke van een zetel van de bedrijfsuitoefening of van een vaste inrichting, zijn woonplaats en zijn gebruikelijke verblijfplaats in slechts één land heeft, is die dienst in dat land belastbaar.
 
 De dienstverrichter bepaalt op basis van door de afnemer ver­ strekte informatie om welke plaats het gaat, en controleert die informatie met behulp van in het handelsverkeer normale vei­ ligheidsmaatregelen, zoals maatregelen inzake identiteits- en be­ talingscontroles.
 
 Die informatie kan een btw-identificatienummer omvatten dat is toegekend door de lidstaat waar de afnemer is gevestigd.
 
-## Art. 21
+##### Art. 21
 Wanneer een voor een belastingplichtige, of een als belasting­ plichtige te beschouwen niet-belastingplichtige rechtspersoon, verrichte dienst onder artikel 44 van Richtlijn 2006/112/EG valt en de belastingplichtige in meer dan één land is gevestigd, is die dienst belastbaar in het land waar deze belastingplichtige de zetel van zijn bedrijfsuitoefening heeft gevestigd.
 
 Wordt de dienst evenwel verricht voor een vaste inrichting van de belastingplichtige die zich op een andere plaats bevindt dan waar hij de zetel van zijn bedrijfsuitoefening heeft gevestigd, dan is die dienst belastbaar op de plaats van de vaste inrichting die de dienst afneemt en voor haar eigen behoeften gebruikt.
@@ -518,12 +522,12 @@ Bij gebreke van een zetel van bedrijfsuitoefening of een vaste inrichting is de 
 Wanneer niet overeenkomstig de eerste en de tweede alinea van het onderhavige lid kan worden bepaald voor welke vaste in­ richting van de afnemer de dienst wordt verricht of wanneer onder artikel 44 van Richtlijn 2006/112/EG vallende diensten worden verricht voor een belastingplichtige in het kader van een contract dat betrekking heeft op één of meer diensten die op een niet identificeerbare of niet kwantificeerbare manier worden afgenomen, kan de dienstverrichter er rechtsgeldig van uitgaan dat de diensten worden verricht op de plaats waar de afnemer de zetel van zijn bedrijfsuitoefening heeft gevestigd.
 2.
 De toepassing van dit artikel laat de verplichtingen van de afnemer onverlet.
-## Art. 23
+##### Art. 23
 1.
 Vanaf 1 januari 2013 wordt, wanneer een dienst overeen­ komstig artikel 56, lid 2, eerste alinea, van Richtlijn 2006/112/EG belastbaar is op de plaats waar de afnemer is gevestigd dan wel, bij gebreke aan een vestiging, zijn woon­ plaats of gebruikelijke verblijfplaats heeft, deze plaats door de dienstverrichter bepaald op basis van door de afnemer verstrekte feitelijke informatie, die hij verifieert met behulp van in het handelsverkeer normale veiligheidsmaatregelen, zoals maatrege­ len inzake identiteits- en betalingscontroles.
 2.
 Wanneer een dienst overeenkomstig de artikelen 58 en 59 van Richtlijn 2006/112/EG belastbaar is op de plaats waar de afnemer is gevestigd dan wel, bij gebreke aan een vestiging, zijn woonplaats of gebruikelijke verblijfplaats heeft, bepaalt de dienstverrichter deze plaats op basis van door de afnemer ver­ strekte feitelijke informatie, die hij verifieert met behulp van in het handelsverkeer normale veiligheidsmaatregelen, zoals identi­ teits- en betalingscontroles.
-## Art. 24
+##### Art. 24
 1.
 Vanaf 1 januari 2013 wordt, wanneer onder artikel 56, lid 2, eerste alinea, van Richtlijn 2006/112/EG vallende diensten worden verricht voor een niet-belastingplichtige die in meer dan één land gevestigd is of zijn woonplaats in één land en zijn gebruikelijke verblijfplaats in een ander land heeft, bij de plaats­ bepaling van die diensten voorrang gegeven aan de plaats die het beste garandeert dat die diensten worden belast op de plaats van het werkelijke verbruik.
 
@@ -535,36 +539,36 @@ Publicatieblad van de Europese Unie
 2.
 Wanneer onder de artikelen 58 en 59 van Richtlijn
 2006/112/EG vallende diensten worden verricht voor een niet-belastingplichtige die in meer dan één land gevestigd is of zijn woonplaats in één land en zijn gebruikelijke verblijfplaats in een ander land heeft, wordt bij de plaatsbepaling van die dien­ sten voorrang gegeven aan de plaats die het beste garandeert dat die diensten worden belast op de plaats van het werkelijke verbruik.
-###### Onderafdeling 4
+#### Onderafdeling 4
 Gemeenschappelijke bepaling betreffende de bepaling van de status, de hoedanigheid en de plaats van vestiging van de afnemer
-## Art. 25
+##### Art. 25
 Voor de toepassing van de regels betreffende de plaats van een dienst worden alleen de omstandigheden in aanmerking geno­ men die heersen op het tijdstip waarop het belastbare feit plaatsvindt. Latere wijzigingen in het gebruik van de verrichte dienst hebben geen invloed op de plaatsbepaling, op voor­ waarde dat er geen misbruik is.
-###### Onderafdeling 5
+#### Onderafdeling 5
 Plaats van een dienst krachtens de hoofd­ regels
-## Art. 26
+##### Art. 26
 De handeling waarbij televisie-uitzendrechten voor voetbalwed­ strijden door een lichaam aan belastingplichtigen wordt toege­ wezen, is een handeling die valt onder artikel 44 van Richtlijn 2006/112/EG.
-## Art. 27
+##### Art. 27
 Diensten die bestaan in het verzoeken om of ontvangen van een btw-teruggave uit hoofde van Richtlijn 2008/9/EG van de Raad van 12 februari 2008 tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van de belasting over de toegevoegde waarde aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn (1), vallen onder artikel 44 van Richtlijn 2006/112/EG.
-## Art. 28
+##### Art. 28
 Diensten die worden verricht in het kader van uitvaartverzor­ ging, vallen voor zover zij deel uitmaken van één enkele dienst, onder de artikelen 44 en 45 van Richtlijn 2006/112/EG.
-## Art. 29
+##### Art. 29
 Onverminderd artikel 41 van deze verordening valt de vertaling van teksten onder de artikelen 44 en 45 van Richtlijn 2006/112/EG.
-###### Onderafdeling 6
+#### Onderafdeling 6
 Diensten van tussenpersonen
-## Art. 30
+##### Art. 30
 Onder diensten van tussenpersonen zoals bedoeld in artikel 46 van Richtlijn 2006/112/EG worden verstaan de diensten
 (1) PB L 44 van 20.2.2008, blz. 23.
 
 L 77/9
 
 verricht door tussenpersonen die handelen in naam en voor rekening van de afnemer van de dienst, en de diensten verricht door tussenpersonen die handelen in naam en voor rekening van de dienstverrichter.
-## Art. 31
+##### Art. 31
 Door in naam en voor rekening van een ander handelende tussenpersonen verrichte diensten die bestaan in bemiddeling bij het verstrekken van accommodatie in het hotelbedrijf of in sectoren met een soortgelijke functie vallen onder:
 a) artikel 44 van Richtlijn 2006/112/EG indien zij worden ver­ richt voor een belastingplichtige of voor een als belasting­ plichtige te beschouwen niet-belastingplichtige rechtspersoon;
 b) artikel 46 van die richtlijn indien zij worden verricht voor een niet-belastingplichtige.
-###### Onderafdeling 7
+#### Onderafdeling 7
 Culturele, artistieke, sportieve, weten­ schappelijke, onderwijs-, amusements- of soortgelijke diensten
-## Art. 32
+##### Art. 32
 1.
 Diensten die bestaan in het verlenen van toegang tot cul­ turele, artistieke, sportieve, wetenschappelijke, onderwijs-, amu­ sements- of soortgelijke evenementen als bedoeld in artikel 53 van Richtlijn 2006/112/EG omvatten diensten die er in essentie in bestaan dat in ruil voor een biljet of tegen betaling, inclusief betaling in de vorm van een abonnement, seizoensticket of periodieke bijdrage, toegang tot een evenement wordt verleend.
 2.
@@ -576,7 +580,7 @@ b) het verlenen van toegang tot sportevenementen, zoals wed­ strijden of concou
 c) het verlenen van toegang tot evenementen op het gebied van onderwijs en wetenschappen, zoals conferenties en seminars.
 3.
 Onder lid 1 valt niet het recht gebruik te maken van accommodaties, zoals gymnastiekzalen, tegen betaling van een bijdrage.
-## Art. 33
+##### Art. 33
 De in artikel 53 van Richtlijn 2006/112/EG bedoelde samen­ hangende diensten omvatten de diensten die rechtstreeks met het verlenen van toegang tot culturele, artistieke, sportieve, we­ tenschappelijke, onderwijs-, amusements- of soortgelijke eve­ nementen samenhangen en die afzonderlijk onder bezwarende titel worden verstrekt aan degene die het evenement bijwoont.
 Die samenhangende diensten omvatten met name het gebruik van vestiaires of sanitaire voorzieningen maar niet de loutere diensten van tussenpersonen met betrekking tot de verkoop van toegangsbiljetten.
 
@@ -586,9 +590,9 @@ NL
 
 Publicatieblad van de Europese Unie
 
-###### Onderafdeling 8
+#### Onderafdeling 8
 Met vervoer samenhangende diensten, ex­ pertises of werkzaamheden met betrek­ king tot roerende zaken
-## Art. 34
+##### Art. 34
 Behalve wanneer de geassembleerde goederen deel gaan uitma­ ken van onroerende goederen, wordt de plaats van een voor een niet-belastingplichtige verrichte dienst, die er uitsluitend in be­ staat dat een belastingplichtige de diverse onderdelen van een machine, die hem alle door zijn afnemer zijn bezorgd, assem­ bleert, vastgesteld overeenkomstig artikel 54 van Richtlijn 2006/112/EG.
 
 
@@ -599,12 +603,12 @@ a) landvoertuigen, zoals auto’s, motorfietsen, twee- en driewie­ lers, en car
 b) aanhangwagens en opleggers;
 c) treinwagons;
 
-###### Onderafdeling 9
+#### Onderafdeling 9
 Het verstrekken van restaurantcateringdiensten, aan boord van vervoermiddel
 
 d) vaartuigen; en een
 
-## Art. 35
+##### Art. 35
 Het in de Gemeenschap verrichte gedeelte van een passagiers­ vervoer als bedoeld in artikel 57 van Richtlijn 2006/112/EG wordt bepaald door het traject van het vervoermiddel, en niet door het traject dat door elk van de passagiers wordt afgelegd.
 
 e) luchtvaartuigen;
@@ -612,7 +616,7 @@ f) voertuigen speciaal ontworpen voor het vervoer van zieken of gewonden;
 g) landbouwtrekkers en andere landbouwvoertuigen;
 h) mechanisch of elektronisch aangedreven invalidenwagens.
 
-## Art. 36
+##### Art. 36
 Restaurantdiensten en cateringdiensten die binnen een in de
 Gemeenschap verricht gedeelte van een passagiersvervoer wor­ den verricht, vallen onder artikel 57 van Richtlijn 2006/112/EG.
 
@@ -620,18 +624,18 @@ Restaurantdiensten en cateringdiensten die buiten een dergelijk gedeelte maar op
 
 3.
 Voertuigen die bestemd zijn voor stationair gebruik en containers worden niet als in lid 1 bedoelde vervoermiddelen beschouwd.
-## Art. 39
+##### Art. 39
 1.
 Voor de toepassing van artikel 56 van Richtlijn
 2006/112/EG wordt de duur van het ononderbroken bezit of gebruik van een vervoermiddel dat wordt verhuurd bepaald op basis van het contract tussen de betrokken partijen.
 Het contract vormt een vermoeden dat met alle middelen in feite of in rechte kan worden weerlegd om de werkelijke duur van het ononderbroken bezit of gebruik vast te stellen.
 
-## Art. 37
+##### Art. 37
 De plaats van een in de Gemeenschap verrichte restaurantdienst of cateringdienst die deels binnen een in de Gemeenschap ver­ richt gedeelte van een passagiersvervoer wordt verricht en deels buiten een dergelijke gedeelte maar op het grondgebied van een lidstaat, wordt geheel en al bepaald volgens de regels voor het bepalen van de plaats van een dienst die bij de aanvang van de verrichting van de restaurantdienst of cateringdienst van toepas­ sing zijn.
 
-###### Onderafdeling 10
+#### Onderafdeling 10
 Verhuur van vervoermiddelen
-## Art. 38
+##### Art. 38
 1.
 Onder „vervoermiddelen” als bedoeld in artikel 56 en artikel 59, eerste alinea, onder g), van Richtlijn 2006/112/EG worden mede verstaan voertuigen, al dan niet gemotoriseerd, alsook ander materieel en andere toestellen bestemd voor het
 
@@ -648,71 +652,71 @@ Publicatieblad van de Europese Unie
 
 3.
 Behoudens misbruik hebben latere opeenvolgende con­ tracten voor de toepassing van artikel 56, lid 1, geen invloed op de kwalificatie van een eerder contract overeenkomstig de eerste alinea als een contract van kortdurende verhuur.
-## Art. 40
+##### Art. 40
 De plaats waar het vervoermiddel daadwerkelijk ter beschikking wordt gesteld van de afnemer als bedoeld in artikel 56, lid 1, van Richtlijn 2006/112/EG, is de plaats waar de afnemer of een voor zijn rekening handelende derde, het fysiek in bezit neemt.
 
-##### AFDELING 2
+### AFDELING 2
 
 Vrijstellingen ten gunste van andere activiteiten
 (Artikelen 135, 136 en 137 van richtlijn 2006/112/EG)
-## Art. 45
+##### Art. 45
 De in artikel 135, lid 1, onder e), van Richtlijn 2006/112/EG bedoelde vrijstelling is niet van toepassing op platinum nobles.
 
-##### AFDELING 3
+### AFDELING 3
 
 Vrijstellingen bij invoer
 
-###### Onderafdeling 11
+#### Onderafdeling 11
 Diensten
 
 voor niet-belastingplichtigen buiten de gemeenschap
-## Art. 41
+##### Art. 41
 
 De voor een buiten de Gemeenschap gevestigde niet-belasting­ plichtige verrichte vertaling van teksten valt onder artikel 59, eerste alinea, onder c), van Richtlijn 2006/112/EG.
 
 L 77/11
 
 (Artikelen 143, 144 en 145 van richtlijn 2006/112/EG)
-## Art. 46
+##### Art. 46
 De in artikel 144 van Richtlijn 2006/112/EG bedoelde vrijstel­ ling is van toepassing op vervoerdiensten die samenhangen met de invoer van roerende goederen in het kader van een woon­ plaatsverandering.
 
-#### HOOFDSTUK VI
+## HOOFDSTUK VI
 
-##### AFDELING 4
+### AFDELING 4
 
 MAATSTAF VAN HEFFING
 (TITEL VII VAN RICHTLIJN 2006/112/EG)
 
-## Art. 42
+##### Art. 42
 Indien een leverancier van goederen of diensten als voorwaarde voor betaling met krediet- of betaalkaart van de afnemer eist dat deze een bedrag aan hemzelf of een andere onderneming be­ taalt, en het door de afnemer te betalen totaalbedrag niet af­ hangt van de wijze van betaling, dan maakt dat bedrag deel uit van de maatstaf van heffing voor de levering van goederen of diensten in de zin van de artikelen 73 tot en met 80 van Richtlijn 2006/112/EG.
 
 Vrijstellingen bij uitvoer
 (Artikelen 146 en 147 van richtlijn 2006/112/EG)
-## Art. 47
+##### Art. 47
 Onder de in artikel 146, lid 1, onder b), van Richtlijn
 2006/112/EG bedoelde „vervoermiddelen voor privégebruik” vallen vervoermiddelen die voor niet-zakelijke doeleinden wor­ den gebruikt door andere dan natuurlijke personen, zoals pu­ bliekrechtelijke lichamen in de zin van artikel 13 van die richt­ lijn en verenigingen.
 
-## Art. 48
+##### Art. 48
 
-#### HOOFDSTUK VII
+## HOOFDSTUK VII
 TARIEVEN
 
-## Art. 43
+##### Art. 43
 Het „verstrekken van vakantieaccommodatie” als bedoeld in punt 12 van bijlage III bij Richtlijn 2006/112/EG omvat de verhuur van op kampeerterreinen geïnstalleerde en als accom­ modatie gebruikte tenten, caravans en kampeerauto’s.
-#### HOOFDSTUK VIII
+## HOOFDSTUK VIII
 
 Om te bepalen of de maximumwaarde die een lidstaat vaststelt, als voorwaarde voor de vrijstelling van de levering van goederen die deel uitmaken van de persoonlijke bagage van reizigers, overeenkomstig artikel 147, lid 1, eerste alinea, onder c), van Richtlijn 2006/112/EG is overschreden, moet de berekening gebeuren op basis van de factuurwaarde. De samengetelde waarde van meerdere goederen mag slechts worden gebruikt indien al deze goederen zijn vermeld op dezelfde factuur van dezelfde belastingplichtige die de goederen aan dezelfde afnemer levert.
 
 VRIJSTELLINGEN
-##### AFDELING 1
+### AFDELING 1
 
 Vrijstellingen voor bepaalde activtiteiten van algemeen belang
 (Artikelen 132, 133 en 134 van richtlijn 2006/112/EG)
-## Art. 44
+##### Art. 44
 De onder de voorwaarden van artikel 132, lid 1, onder i), van
 Richtlijn 2006/112/EG verrichte diensten inzake beroepsoplei­ ding of -herscholing omvatten onderwijs dat rechtstreeks ver­ band houdt met een vak of een beroep, en onderwijs met het oog op het voor beroepsdoeleinden verwerven of op peil hou­ den van kennis. De duur van een opleiding of herscholing is hierbij van geen belang.
 
-##### AFDELING 5
+### AFDELING 5
 
 Vrijstellingen
 
@@ -725,7 +729,7 @@ uitvoer
 gelijkgestelde
 
 (Artikelen 151 en 152 van richtlijn 2006/112/EG)
-## Art. 49
+##### Art. 49
 De vrijstelling bedoeld in artikel 151 van Richtlijn
 2006/112/EG is ook van toepassing op elektronische diensten wanneer deze worden verricht door een belastingplichtige op wie de in de artikelen 357 tot en met 369 van die richtlijn bedoelde bijzondere regeling voor langs elektronische weg ver­ richte diensten van toepassing is.
 
@@ -735,7 +739,7 @@ NL
 
 Publicatieblad van de Europese Unie
 
-## Art. 50
+##### Art. 50
 1.
 Om een lichaam dat wordt opgericht als een Consortium voor een Europese onderzoeksinfrastructuur (ERIC) als bedoeld in Verordening (EG) nr. 723/2009 van de Raad van 25 juni 2009 betreffende een communautair rechtskader voor een Con­ sortium voor een Europese onderzoeksinfrastructuur (ERIC) (1), voor de toepassing van artikel 143, lid 1, punt g), en artikel 151, lid 1, eerste alinea, punt b), van Richtlijn 2006/112/EG als een internationale instelling te kunnen erken­ nen, moet elk van de volgende voorwaarden vervuld zijn:
 a) het vormt een afzonderlijke rechtspersoon met volledige handelingsbevoegdheid;
@@ -750,7 +754,7 @@ Het in lid 1 bedoelde certificaat wordt afgestempeld door de bevoegde autoriteit
 De lidstaten delen de Commissie mee welk contactpunt is aan­ gewezen ter aanduiding van de diensten die het certificaat kun­ nen afstempelen, alsook in welke mate zij ontheffing verlenen van de verplichting tot afstempeling van het certificaat. De Commissie brengt de van de lidstaten ontvangen gegevens ter kennis van de andere lidstaten.
 3.
 Wanneer de vrijstelling direct wordt verleend in de lidstaat waar de levering of de dienst wordt verricht, verlangt de leve­ rancier of dienstverrichter dat zijn afnemer hem het in lid 1 van dit artikel bedoelde certificaat bezorgt en houdt hij dit bij in zijn administratie. Wanneer de vrijstelling wordt verleend in de vorm van teruggaaf van de btw overeenkomstig artikel 151, lid 2, van Richtlijn 2006/112/EG, wordt het certificaat gehecht aan het verzoek om teruggaaf dat bij de betrokken lidstaat wordt ingediend.
-#### HOOFDSTUK IX
+## HOOFDSTUK IX
 AFTREK
 
 2.
@@ -759,22 +763,22 @@ De beperkingen en voorwaarden voor een dergelijke vrijstelling worden vastgestel
 
 (TITEL X VAN RICHTLIJN 2006/112/EG)
 
-## Art. 52
+##### Art. 52
 Wanneer de lidstaat van invoer een elektronisch systeem voor het vervullen van de douaneformaliteiten heeft ingevoerd, omvat het begrip „document waaruit de invoer blijkt” in artikel 178, onder e), van Richtlijn 2006/112/EG eveneens de elektronische versie van dergelijke documenten, mits de uitoefening van het recht op aftrek kan worden gecontroleerd.
-#### HOOFDSTUK X
+## HOOFDSTUK X
 VERPLICHTINGEN VAN DE BELASTINGPLICHTIGEN EN VAN
 BEPAALDE NIET-BELASTINGPLICHTIGE PERSONEN
 (TITEL XI VAN RICHTLIJN 2006/112/EG)
-##### AFDELING 1
+### AFDELING 1
 
-## Art. 51
+##### Art. 51
 1.
 Wanneer de afnemer van goederen of diensten in de Ge­ meenschap is gevestigd maar niet in de lidstaat waar de levering of de dienst wordt verricht, geldt het in bijlage II bij deze verordening opgenomen certificaat van vrijstelling van btw en/of van accijnzen, onverminderd de toelichtingen in de bijlage bij dat certificaat, als bevestiging dat de handeling mogelijk in aanmerking komt voor die vrijstelling krachtens artikel 151 van Richtlijn 2006/112/EG.
 Bij gebruikmaking van dat certificaat kan de lidstaat van vesti­ ging van de afnemer van de goederen of de diensten besluiten of hij van een gemeenschappelijk certificaat van vrijstelling van btw en accijnzen dan wel van twee onderscheiden certificaten gebruik maakt.
 (1) PB L 206 van 8.8.2009, blz. 1.
 
 Tegenover de schatkist tot voldoening van de belasting gehouden personen Artikelen 192 bis tot en met 205 van Richtlijn 2006/112/EG
-## Art. 53
+##### Art. 53
 1.
 Voor de toepassing van artikel 192 bis van Richtlijn
 2006/112/EG komt alleen in aanmerking een vaste inrichting van de belastingplichtige welke gekenmerkt wordt door een voldoende mate van duurzaamheid en een - wat personeel en technisch materieel betreft - geschikte structuur die het mogelijk maakt de goederenlevering of de dienst waarbij die inrichting betrokken is te verrichten.
@@ -791,49 +795,49 @@ Wanneer de middelen van de vaste inrichting uitsluitend wor­ den ingezet voor a
 
 L 77/13
 
-## Art. 57
+##### Art. 57
 Met het oog op de vaststelling van de in artikel 345 van Richt­ lijn 2006/112/EG bedoelde lijst van gouden munten verwijzen de begrippen „prijs” en „openmarktwaarde” als bedoeld in in artikel 344, lid 1, onder 2), van die richtlijn, naar de prijs en de openmarktwaarde op 1 april van elk jaar. Wanneer 1 april niet valt op een dag waarop deze waarden worden vastgesteld, worden de waarden gebruikt van de eerstvolgende dag waarop zij worden vastgesteld.
-##### AFDELING 2
+### AFDELING 2
 
 Wanneer een factuur evenwel wordt uitgereikt onder het btwidentificatienummer dat is toegekend door de lidstaat van de vaste inrichting, wordt die vaste inrichting geacht betrokken te zijn bij de in die lidstaat verrichte goederenlevering of dienst, tenzij het tegendeel is bewezen.
 
 Bijzondere regeling voor niet in de gemeenschap gevestigde belastingplichtigen die langs elektronische weg diensten verrichten voor niet-belastingplichtigen
 
-## Art. 54
+##### Art. 54
 
-## Art. 58
+##### Art. 58
 
 Wanneer een belastingplichtige de zetel van zijn bedrijfsuitoefe­ ning heeft gevestigd op het grondgebied van de lidstaat waar de btw verschuldigd is, is artikel 192 bis van Richtlijn 2006/112/EG niet van toepassing, ongeacht of die zetel betrok­ ken is bij de door de belastingplichtige in die lidstaat verrichte goederenlevering of dienst.
 
 Wanneer een niet in de Gemeenschap gevestigde belastingplich­ tige die gebruik maakt van de bijzondere regeling voor langs elektronische weg verrichte diensten van de artikelen 357 tot en met 369 van Richtlijn 2006/112/EG, in de loop van een ka­ lenderkwartaal aan ten minste één van de in artikel 363 van die richtlijn vastgestelde verwijderingscriteria voldoet, sluit de lid­ staat van identificatie deze niet in de Gemeenschap gevestigde belastingplichtige uit van de bijzondere regeling. In dergelijke gevallen kan de niet in de Gemeenschap gevestigde belasting­ plichtige op elk tijdstip gedurende dat kwartaal van de bijzon­ dere regeling worden uitgesloten.
 
-##### AFDELING 2
+### AFDELING 2
 
 Diverse bepalingen
 (Artikelen 272 en 273 van Richtlijn 2006/112/EG)
-## Art. 55
+##### Art. 55
 Voor de in artikel 262 van Richtlijn 2006/112/EG bedoelde handelingen zijn de belastingplichtigen aan wie overeenkomstig artikel 214 van die richtlijn een individueel btw-identificatie­ nummer moet worden toegekend en voor btw-doeleinden ge­ ïdentificeerde niet-belastingplichtige rechtspersonen, wanneer zij als zodanig handelen, verplicht om aan de verrichters van voor hen bestemde goederenleveringen of diensten hun btw-identifi­ catienummer mee te delen zodra dat nummer in hun bezit is.
 Belastingplichtigen als bedoeld in artikel 3, lid 1, punt b), van
 Richtlijn 2006/112/EG die overeenkomstig artikel 4, eerste ali­ nea, van deze verordening ter zake van hun intracommunau­ taire verwervingen van goederen aanspraak op niet-belastbaar­ heid hebben, zijn niet verplicht hun individuele btw-identifica­ tienummer mee te delen wanneer hun overeenkomstig artikel 214, lid 1, punt d) of punt e), van die richtlijn een btw-identificatienummer is toegekend.
-#### HOOFDSTUK XI
+## HOOFDSTUK XI
 BIJZONDERE REGELINGEN
-##### AFDELING 1
+### AFDELING 1
 
 (Artikelen 357 tot en met 369 van Richtlijn 2006/112/EG)
 
 Ter zake van de langs elektronische weg verrichte diensten die verricht zijn vóór de verwijdering maar tijdens het kalender­ kwartaal waarin de verwijdering geschiedde, dient de niet in de Gemeenschap gevestigde belastingplichtige over het totale kwartaal een btw-aangifte in overeenkomstig artikel 364 van Richtlijn 2006/112/EG. De verplichting tot het indienen van deze aangifte laat de eventuele verplichting tot identificatie voor btw-doeleinden in een lidstaat volgens de gebruikelijke bepalingen onverlet.
-## Art. 59
+##### Art. 59
 Elke aangifteperiode (kalenderkwartaal) in de zin van artikel 364 van Richtlijn 2006/112/EG is een afzonderlijke aangifteperiode.
-## Art. 60
+##### Art. 60
 De bedragen op een overeenkomstig artikel 364 van Richtlijn
 2006/112/EG ingediende btw-aangifte kunnen op een later tijd­ stip uitsluitend worden gewijzigd door middel van een wijziging van diezelfde aangifte en niet door middel van een verrekening op een volgende aangifte.
 
 Bijzondere regeling voor beleggingsgoud
 (Artikelen 344 tot en met 356 van Richtlijn 2006/112/EG)
 
-## Art. 61
+##### Art. 61
 
-## Art. 56
+##### Art. 56
 
 Bedragen op btw-aangiften in het kader van de bijzondere re­ geling voor langs elektronische weg verrichte diensten van de artikelen 357 tot en met 369 van Richtlijn 2006/112/EG mo­ gen niet worden afgerond op de dichtstbijzijnde hele monetaire eenheid. Het precieze btw-bedrag moet worden aangegeven en voldaan.
 
@@ -845,15 +849,15 @@ NL
 
 Publicatieblad van de Europese Unie
 
-## Art. 62
+##### Art. 62
 De lidstaat van identificatie die een bedrag ontvangt dat hoger is dan het opgegeven bedrag in de btw-aangifte die is ingediend voor langs elektronische weg verrichte diensten in het kader van artikel 364 van Richtlijn 2006/112/EG, betaalt het teveel be­ taalde bedrag rechtstreeks aan de betrokken belastingplichtige terug.
 Wanneer de lidstaat van identificatie een bedrag heeft ontvan­ gen met betrekking tot een btw-aangifte die nadien onjuist blijkt te zijn, terwijl deze lidstaat dat bedrag reeds over de lidstaten van verbruik heeft verdeeld, maken deze lidstaten het te veel geïnde bedrag rechtstreeks over aan de niet in de Gemeenschap gevestigde belastingplichtige en stellen zij de lidstaat van iden­ tificatie in kennis van de vereiste aanpassing.
-## Art. 63
+##### Art. 63
 
 
 Verwijzingen naar de ingetrokken verordening gelden als ver­ wijzingen naar de onderhavige verordening en worden gelezen volgens de concordantietabel in bijlage IV.
 
-## Art. 65
+##### Art. 65
 Deze verordening treedt in werking op de twintigste dag na die van de bekendmaking ervan in het Publicatieblad van de Europese Unie.
 
 Zij is van toepassing vanaf 1 juli 2011.
@@ -865,13 +869,13 @@ De bedragen aan btw die overeenkomstig artikel 367 van Richt­ lijn 2006/112/EG 
 — Artikel 3, punt a), artikel 11, lid 2, punt b), artikel 23, lid 1, en artikel 24, lid 1, van toepassing zijn vanaf 1 januari
 2013.
 
-#### HOOFDSTUK XII
+## HOOFDSTUK XII
 
 — Artikel 3, punt b), van toepassing is vanaf 1 januari 2015.
 
 SLOTBEPALINGEN
 
-## Art. 64
+##### Art. 64
 Verordening (EG) nr. 1777/2005 wordt ingetrokken.
 
 — Artikel 11, lid 2, punt c), van toepassing is tot en met
@@ -1025,75 +1029,75 @@ Verordening (EG) nr. 1777/2005
 
 Deze verordening
 
-#### Hoofdstuk I
+## Hoofdstuk I
 
-#### Hoofdstuk I
+## Hoofdstuk I
 
-### Art. 1
+##### Art. 1
 
-### Art. 1
+##### Art. 1
 
-#### Hoofdstuk II
+## Hoofdstuk II
 
 Hoofdstukken III en IV
 
 ##### Afdeling 1 van hoofdstuk II
 
-#### Hoofdstuk III
+## Hoofdstuk III
 
-### Art. 2
+##### Art. 2
 
-### Art. 5
+##### Art. 5
 
 ##### Afdeling 2 van hoofdstuk II
 
-#### Hoofdstuk IV
+## Hoofdstuk IV
 
 Artikel 3, lid 1
 
-### Art. 9
+##### Art. 9
 
 Artikel 3, lid 2
 
-### Art. 8
+##### Art. 8
 
-#### Hoofdstuk III
+## Hoofdstuk III
 
-#### Hoofdstuk V
+## Hoofdstuk V
 
 ##### Afdeling 1 van hoofdstuk III
 
 ##### Afdeling 4 van hoofdstuk V
 
-### Art. 4
+##### Art. 4
 
-### Art. 28
+##### Art. 28
 
 ##### Afdeling 2 van hoofdstuk III
 
 ##### Afdeling 4 van hoofdstuk V
 
-### Art. 5
+##### Art. 5
 
-### Art. 34
+##### Art. 34
 
-### Art. 6
+##### Art. 6
 
 Artikelen 29 en 41
 
-### Art. 7
+##### Art. 7
 
-### Art. 26
+##### Art. 26
 
-### Art. 8
+##### Art. 8
 
-### Art. 27
+##### Art. 27
 
-### Art. 9
+##### Art. 9
 
-### Art. 30
+##### Art. 30
 
-### Art. 10
+##### Art. 10
 
 Artikel 38, lid 2, onder b) en c)
 
@@ -1101,41 +1105,41 @@ Artikel 11, leden 1 en 2
 
 Artikel 7, leden 1 en 2
 
-### Art. 12
+##### Art. 12
 
 Artikel 7, lid 3
 
-#### Hoofdstuk IV
+## Hoofdstuk IV
 
-#### Hoofdstuk VI
+## Hoofdstuk VI
 
-### Art. 13
+##### Art. 13
 
-### Art. 42
+##### Art. 42
 
-#### Hoofdstuk V
+## Hoofdstuk V
 
-#### Hoofdstuk VIII
+## Hoofdstuk VIII
 
 ##### Afdeling 1 van hoofdstuk V
 
 ##### Afdeling 1 van hoofdstuk VIII
 
-### Art. 14
+##### Art. 14
 
-### Art. 44
+##### Art. 44
 
-### Art. 15
+##### Art. 15
 
-### Art. 45
+##### Art. 45
 
 ##### Afdeling 2 van hoofdstuk V
 
 ##### Afdeling 4 van hoofdstuk VIII
 
-### Art. 16
+##### Art. 16
 
-### Art. 47
+##### Art. 47
 
 NL
 
@@ -1148,73 +1152,73 @@ Verordening (EG) nr. 1777/2005
 
 Deze verordening
 
-### Art. 17
+##### Art. 17
 
-### Art. 48
+##### Art. 48
 
-#### Hoofdstuk VI
+## Hoofdstuk VI
 
-#### Hoofdstuk IX
+## Hoofdstuk IX
 
-### Art. 18
+##### Art. 18
 
-### Art. 52
+##### Art. 52
 
-#### Hoofdstuk VII
+## Hoofdstuk VII
 
-#### Hoofdstuk XI
+## Hoofdstuk XI
 
 Artikel 19, lid 1
 
-### Art. 56
+##### Art. 56
 
 Artikel 19, lid 2
 
-### Art. 57
+##### Art. 57
 
 Artikel 20, lid 1
 
-### Art. 58
+##### Art. 58
 
 Artikel 20, lid 2
 
-### Art. 62
+##### Art. 62
 
 Artikel 20, lid 3, eerste alinea
 
-### Art. 59
+##### Art. 59
 
 Artikel 20, lid 3, tweede alinea
 
-### Art. 60
+##### Art. 60
 
 Artikel 20, lid 3, derde alinea
 
-### Art. 63
+##### Art. 63
 
 Artikel 20, lid 4
 
-### Art. 61
+##### Art. 61
 
-#### Hoofdstuk VIII
+## Hoofdstuk VIII
 
 ##### Afdeling 3 van hoofdstuk V
 
-### Art. 21
+##### Art. 21
 
-### Art. 16
+##### Art. 16
 
-### Art. 22
+##### Art. 22
 
-### Art. 14
+##### Art. 14
 
-#### Hoofdstuk IX
+## Hoofdstuk IX
 
-#### Hoofdstuk XII
+## Hoofdstuk XII
 
-### Art. 23
+##### Art. 23
 
-### Art. 65
+##### Art. 65
 
 Bijlage I
 

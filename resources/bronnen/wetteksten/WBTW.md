@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 5
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Wetboek van de Belasting over de Toegevoegde Waarde (WBTW)
@@ -53,9 +57,9 @@ Actuele tekst, met de bijwerking nr. 62 / 01.02.2026
 ____________________________
 (1)   Inwerkingtreding op 31.12.2025
 
-#### HOOFDSTUK I INVOERING VAN DE BELASTING
+## HOOFDSTUK I INVOERING VAN DE BELASTING
 
-## Art. 1
+##### Art. 1
 
 § 1. Onder de naam belasting over de toegevoegde waarde wordt een omzetbelasting ingevoerd, die geheven wordt onder de voorwaarden en met inachtneming van de regelen bepaald in dit Wetboek.
 
@@ -216,7 +220,7 @@ Artikel 1, § 14, W.Btw werd vernietigd met tegenstelbaarheid “erga omnes” v
 
 § 23. Voor de toepassing van dit Wetboek en de uitvoeringsbesluiten ervan wordt verstaan onder "telecommunicatiediensten": de diensten die betrekking hebben op de transmissie, uitzending of ontvangst van signalen, tekst, beelden en geluiden of informatie van allerlei aard, via draad, radiogolven, optische of andere elektromagnetische systemen, daaronder begrepen de overdracht en het verlenen van het recht om gebruik te maken van capaciteit voor een dergelijke transmissie, uitzending of ontvangst. Voor de toepassing van deze bepaling wordt onder telecommunicatiediensten mede verstaan het bieden van toegang tot wereldwijde informatienetten.
 
-## Art. 1bis
+##### Art. 1bis
 
 (De tekst van art. 1bis, 10° en 11°, werd ingevoegd (Art. 3, W 07.04.2023, B.S. 18.04.2023, pg.
 39876, Numac: 2023041376) met ingang van 01.01.2024 (Art. 11, W 07.04.2023))
@@ -244,7 +248,7 @@ Voor de toepassing van dit Wetboek en de uitvoeringsbesluiten ervan wordt versta
 
 11°   "Verordening (EU) nr. 260/2012": de Verordening (EU) nr. 260/2012 van het Europees Parlement en de Raad van 14 maart 2012 tot vaststelling van technische en bedrijfsmatige vereisten voor overmakingen en automatische afschrijvingen in euro en tot wijziging van Verordening (EG) nr. 924/2009.
 
-## Art. 2
+##### Art. 2
 
 (De tekst van art. 2 is van toepassing met ingang van 01.01.1993 (Art.2, W 28.12.1992))
 
@@ -252,21 +256,21 @@ De leveringen van goederen en de diensten die door een als zodanig handelende be
 
 De handelingen verricht door de curator van een gefailleerde belastingplichtige ter uitvoering van de hem toevertrouwde opdracht, of door een derde onder toezicht van de curator, worden geacht door de gefailleerde zelf te zijn verricht.
 
-## Art. 3
+##### Art. 3
 
 (De tekst van art. 3 is van toepassing met ingang van 01.01.1993 (Art.3, W 28.12.1992))
 
 De invoer van goederen, door wie ook, is eveneens aan de belasting onderworpen wanneer de invoer in België plaatsvindt.
 
-## Art. 3bis
+##### Art. 3bis
 
 (De tekst van art. 3bis is ingevoegd met ingang van 01.01.1993 (Art. 4, W 28.12.1992))
 
 De intracommunautaire verwervingen van goederen, omschreven in artikel 25bis, worden, wanneer zij in België geschieden, eveneens aan de belasting onderworpen, wanneer ze onder bezwarende titel plaatsvinden onder de in artikel 25ter gestelde voorwaarden.
 
-#### HOOFDSTUK II BELASTINGPLICHT
+## HOOFDSTUK II BELASTINGPLICHT
 
-## Art. 4
+##### Art. 4
 
 (De tekst van art. 4, § 1, tweede lid, werd ingevoegd met ingang van 03.11.2022 (Art. 4, W 16.10.2022, B.S. 24.10.2022, Ed. 2, pg. 77534, Numac: 2022033779))
 
@@ -276,13 +280,13 @@ De in het eerste lid bedoelde voorwaarde dat de economische activiteit zelfstand
 
 § 2. De Koning kan, in de gevallen en volgens de regels die Hij bepaalt, de in België gevestigde personen die juridisch gezien wel zelfstandig zijn, doch financieel, economisch en organisatorisch nauw met elkaar verbonden zijn, voor de toepassing van dit Wetboek als één belastingplichtige aanmerken.
 
-## Art. 5
+##### Art. 5
 
 (De tekst van art. 5, werd opgeheven met ingang van 28.12.1992 (Art. 6, W 28.12.1992))
 
 (opgeheven)
 
-## Art. 6
+##### Art. 6
 
 (De tekst van art. 6, tweede en derde lid is van toepassing met ingang van 01.07.2007 (Art. 39, b) en c), W 27.12.2006, B.S. 28.12.2006)) (2)
 
@@ -321,13 +325,13 @@ Artikel 39, a), W 27.12.2006, tot wijziging van het eerste lid van art. 6, W.Btw
 
 12°   de leveringen van goederen en de diensten verricht door radio- en televisieomroepdiensten.
 
-## Art. 7
+##### Art. 7
 
 (De tekst van art. 7, werd opgeheven met ingang van 27.12.1977 (Art. 3, W 27.12.1977))
 
 (opgeheven)
 
-## Art. 8
+##### Art. 8
 
 (De tekst van art. 8, werd gewijzigd met ingang van 25.05.2019 (Art. 8, W 02.05.2019, B.S.
 15.05.2019, pg. 46586))
@@ -344,7 +348,7 @@ Deze persoon heeft eveneens de hoedanigheid van belastingplichtige, wanneer de i
 
 Deze persoon heeft eveneens de hoedanigheid van belastingplichtige, wanneer de in het eerste lid beoogde overdracht of wederoverdracht van het zakelijk recht daarenboven betrekking heeft op het bijhorende terrein.
 
-## Art. 8bis
+##### Art. 8bis
 
 (De tekst van art. 8bis, is van toepassing met ingang van 01.01.1995 (Art. 1, KB 23.12.1994))
 
@@ -366,18 +370,18 @@ Door of vanwege de Minister van Financiën wordt vastgesteld onder welke voorwaa
 
 - II / 3 -
 
-#### HOOFDSTUK III WERKINGSSFEER
+## HOOFDSTUK III WERKINGSSFEER
 
-##### Afdeling 1
+### Afdeling 1
 
 Levering van goederen
 
-##### Onderafdeling 1
+#### Onderafdeling 1
 
 Bedoelde goederen en handelingen
 (De titel van onderafdeling 1, werd ingevoegd met ingang van 01.01.2013 (Art. 4, W 17.12.2012, B.S. 21.12.2012))
 
-## Art. 9
+##### Art. 9
 
 (De tekst van art. 9, tweede lid, 2°, werd aangevuld met ingang van 01.01.2019 (Art. 3, W 14.10.2018, B.S. 25.10.2018, pg. 81448, Erratum B.S. 30.11.2018))
 
@@ -391,7 +395,7 @@ Als lichamelijke goederen worden beschouwd:
 
 Effecten aan toonder worden niet als lichamelijke goederen beschouwd.
 
-## Art. 10
+##### Art. 10
 
 (De tekst van art. 10, werd vervangen met ingang van 01.01.2013 (Art. 5, W 17.12.2013, B.S.
 21.12.2013, ed. 2, erratum B.S. 22.01.2013))
@@ -412,13 +416,13 @@ c)     de overdracht van een goed ingevolge een overeenkomst tot koop of verkoop
 
 § 3. De afgifte van een goed als verbruiklening en de teruggaaf ingevolge een zodanige lening worden ook als een levering onder bezwarende titel in de zin van paragraaf 1 beschouwd.
 
-## Art. 11
+##### Art. 11
 
 (De tekst van art. 11 is van toepassing met ingang van 01.01.1993 (Art.12, W 28.12.1992))
 
 Als levering wordt niet beschouwd de overdracht van een algemeenheid van goederen of van een bedrijfsafdeling, onder bezwarende titel of om niet, bij wege van inbreng in vennootschap of anderszins, wanneer de overnemer een belastingplichtige is die de belasting, indien ze ingevolge de overdracht zou verschuldigd zijn, geheel of gedeeltelijk zou kunnen aftrekken. In dat geval wordt de overnemer geacht de persoon van de overdrager voort te zetten.
 
-## Art. 12
+##### Art. 12
 
 (De tekst van art. 12, § 1, eerste lid, 2°, a) en derde lid, werd vervangen met ingang van 10.07.2021 (Art. 4, W 27.06.2021, B.S. 30.06.2021, pg. 66732, Numac: 2021042511). Tijdens de periode van 01.03.2020 t.e.m. 31.12.2020 was er een afwijkende regeling van toepassing naar aanleiding van COVID-19, zie historiek, versie html)
 
@@ -453,7 +457,7 @@ De in het eerste en het tweede lid bedoelde belastingplichtige in wiens voordeel
 
 - III / 3 -
 
-## Art. 12bis
+##### Art. 12bis
 
 (De tekst van art. 12bis, tweede lid, 1°, werd gewijzigd (Art. 14, W 16.10.2022, B.S. 24.10.2022, Ed.
 2, pg. 77534, Numac: 2022033779) met ingang van 01.01.2022 (Art. 16, W 16.10.2022))
@@ -479,7 +483,7 @@ Als overbrenging naar een andere lidstaat wordt beschouwd iedere verzending of i
 
 Wanneer één van de voorwaarden voor de toepassing van de bepalingen van het tweede lid hierboven niet meer wordt vervuld, wordt het goed evenwel beschouwd als overgebracht naar een andere lidstaat. In dat geval vindt de overbrenging plaats op het tijdstip waarop de voorwaarde niet meer wordt vervuld.
 
-## Art. 12ter
+##### Art. 12ter
 
 (De tekst van art. 12ter, werd ingevoegd met ingang van 01.01.2020 (Art. 4, W 03.11.2019, B.S.
 13.11.2019, pg. 104872. Errata B.S. 27.12.2019, Ed. 2, pg. 118384). Deze bepaling is van toepassing op de goederen die vanaf 1 januari 2020 worden verzonden of vervoerd van België naar een andere lidstaat of omgekeerd onder de regeling bedoeld in artikel 17bis van de richtlijn 2006/112/EG (Art. 11, W 03.11.2019))
@@ -523,7 +527,7 @@ Wanneer de goederen worden verzonden of vervoerd naar een ander land dan België
 
 In geval van vernietiging, verlies of diefstal van de goederen worden de in de paragrafen 2 en 6 bedoelde voorwaarden geacht niet langer te zijn vervuld op de datum waarop de goederen daadwerkelijk werden verwijderd of vernietigd, of wanneer het onmogelijk is om deze datum te bepalen, op de datum waarop werd vastgesteld dat de goederen waren vernietigd of verdwenen.
 
-## Art. 13
+##### Art. 13
 
 (De tekst van art. 13, werd ingevoegd met ingang van 01.01.1971 (W 03.07.1969))
 
@@ -533,7 +537,7 @@ In geval van vernietiging, verlies of diefstal van de goederen worden de in de p
 
 § 3. Voor de toepassing van de §§ 1 en 2 hoeft ten aanzien van inkoop- of verkoopcombinaties niet te worden nagegaan of zij al dan niet zijn opgericht in de vorm van een vennootschap of vereniging met rechtspersoonlijkheid.
 
-## Art. 13bis
+##### Art. 13bis
 
 (Het artikel 13bis, werd ingevoegd met ingang van 01.07.2021 (Art. 4, W 02.04.2021, B.S.
 13.04.2021, pg. 32957, Numac: 2021041096))
@@ -544,12 +548,12 @@ In geval van vernietiging, verlies of diefstal van de goederen worden de in de p
 
 - III / 6 -
 
-##### Onderafdeling 2
+#### Onderafdeling 2
 
 Plaats van de levering van de goederen
 (De titel van onderafdeling 2, werd ingevoegd met ingang van 01.01.2013 (Art. 7, W 17.12.2012, B.S. 21.12.2012))
 
-## Art. 14
+##### Art. 14
 
 (De tekst van art. 14, werd gewijzigd met ingang van 01.07.2021:
 1. § 6, werd ingevoegd (Art. 5, W 02.04.2021, B.S. 13.04.2021, pg. 32957, Numac: 2021041096);
@@ -577,7 +581,7 @@ Deze paragraaf is niet van toepassing op de in artikel 13bis bedoelde situaties.
 
 § 6. Indien een belastingplichtige geacht wordt goederen te hebben ontvangen en geleverd overeenkomstig artikel 13bis, wordt de verzending of het vervoer van de goederen toegerekend aan de levering die door die belastingplichtige wordt verricht.
 
-## Art. 14bis
+##### Art. 14bis
 
 (De tekst van art. 14bis, werd ingevoegd met ingang van 01.01.2013 (Art. 9, W 17.12.2012 (I), B.S.
 21.12.2012, Ed. 2))
@@ -588,7 +592,7 @@ a)    de plaats waar de afnemer de zetel van zijn economische activiteit of een 
 
 b)    de plaats waar de afnemer het effectieve gebruik en verbruik van deze goederen heeft wanneer het gaat om leveringen niet bedoeld in a). Indien alle goederen of een deel ervan in werkelijkheid niet door deze afnemer worden gebruikt, worden deze nietverbruikte goederen geacht te zijn gebruikt en verbruikt op de plaats waar hij de zetel van zijn economische activiteit of een vaste inrichting heeft gevestigd waarvoor de goederen worden geleverd. Bij gebreke van een dergelijke zetel of vaste inrichting wordt hij geacht de goederen te hebben gebruikt en verbruikt in zijn woonplaats of gebruikelijke verblijfplaats.
 
-## Art. 15
+##### Art. 15
 
 (1. De tekst van art. 15, werd vervangen met ingang van 01.07.2021 (Art. 6, W 02.04.2021, B.S.
 13.04.2021, pg. 32957, Numac: 2021041096);
@@ -629,12 +633,12 @@ goederen zich op het tijdstip van de aankomst van de zending of van het vervoer 
 
 § 3. De Koning bepaalt de modaliteiten van de mededeling van de gegevens bedoeld in paragraaf 2, derde lid, en de modaliteiten voor de uitoefening van de keuze bedoeld in paragraaf 2, vierde lid.
 
-##### Onderafdeling 3
+#### Onderafdeling 3
 
 Belastbaar feit en opeisbaarheid van de belasting
 (De titel van onderafdeling 3, werd ingevoegd met ingang van 01.01.2013 (Art. 11, W 17.12.2012, B.S. 21.12.2012))
 
-## Art. 16
+##### Art. 16
 
 (De tekst van art. 16, § 2, derde lid, werd gewijzigd met ingang van 25.05.2019 (Art. 10, W 02.05.2019, B.S. 15.05.2019, pg. 46586))
 
@@ -654,7 +658,7 @@ Wat de vervreemding van goederen betreft bedoeld in artikel 1, § 9, eerste lid,
 
 tweede lid, 2°, op zulke goederen, wordt de levering geacht te zijn verricht uiterlijk bij het verstrijken van de in artikel 44, § 3, 1°, bepaalde termijn.
 
-## Art. 17
+##### Art. 17
 
 (De tekst van art. 17, §§ 5 en 6, werd ingevoegd met ingang van 01.07.2021 (Art. 7, W 02.04.2021, B.S. 13.04.2021, pg. 32957, Numac: 2021041096))
 
@@ -684,16 +688,16 @@ Het eerste lid is niet van toepassing op de leveringen van roerende goederen waa
 
 hoofdstuk 6, afdeling 4, van de richtlijn 2006/112/EG plaats, en wordt de belasting verschuldigd op het tijdstip waarop de betaling is aanvaard.
 
-##### Afdeling 2
+### Afdeling 2
 
 Diensten
 
-##### Onderafdeling 1
+#### Onderafdeling 1
 
 Bedoelde diensten
 (De titel van onderafdeling 1, werd ingevoegd met ingang van 01.01.2013 (Art. 14, W 17.12.2012, B.S. 21.12.2012))
 
-## Art. 18
+##### Art. 18
 
 (De tekst van art. 18, § 1, tweede lid,1° en 14°, werd gewijzigd met ingang van 03.11.2022 (Art. 5, W 16.10.2022, B.S. 24.10.2022, Ed. 2, pg. 77534, Numac: 2022033779))
 
@@ -740,7 +744,7 @@ Als een dienst wordt, voor het geheel, bovendien beschouwd, de uitvoering door e
 
 § 3. Als diensten worden niet beschouwd de in §1 bedoelde handelingen die, bij de overdracht van een algemeenheid van goederen of van een bedrijfsafdeling, bij wege van inbreng in een vennootschap of anderszins, onder de voorwaarden van artikel 11 worden verricht.
 
-## Art. 19
+##### Art. 19
 
 (De tekst van art. 19, § 2, eerste lid, werd vervangen en een tweede lid werd ingevoegd met ingang van 16.12.2017 (Art. 5, W 29.11.2017, B.S. 06.12.2017, pg. 107694))
 
@@ -760,14 +764,14 @@ Voor de toepassing van dit Wetboek wordt verstaan onder werk in onroerende staat
 
 § 3. Teneinde ernstige ongelijkheden in de concurrentieverhoudingen te voorkomen, kan de Koning, in de gevallen en volgens de regelen die Hij bepaalt, de uitvoering door een belastingplichtige, voor de doeleinden van zijn economische activiteit, van andere handelingen dan deze bedoeld in §§ 1 en 2, aan de belasting onderwerpen, wanneer de belastingplichtige, ingeval een dergelijke handeling door een andere belastingplichtige zou zijn verricht, geen recht zou hebben op volledige aftrek van de belasting.
 
-## Art. 19bis
+##### Art. 19bis
 
 (De tekst van art. 19bis, werd opgeheven met ingang van 27.12.2015 (Art. 2, W 06.12.2015, B.S.
 17.12.2015, pg. 75662)
 
 (opgeheven)
 
-## Art. 20
+##### Art. 20
 
 (De tekst van art. 20 is van toepassing met ingang van 01.01.2000 (Art.3, KB 28.12.1999))
 
@@ -781,12 +785,12 @@ Artikel 13, § 3, is mede van toepassing op deze bepaling.
 
 2°     de tussenpersonen in reizen beoogd in artikel 1, § 7, tweede lid, 2°.
 
-##### Onderafdeling 2
+#### Onderafdeling 2
 
 Plaats van de dienst
 (De titel van onderafdeling 2, werd ingevoegd met ingang van 01.01.2013 (Art. 15, W 17.12.2012, B.S. 21.12.2012))
 
-## Art. 21
+##### Art. 21
 
 De tekst van art. 21, § 3, 3° werd vervangen met ingang van 31.12.2025 (Art. 3, W 19.12.2025, B.S.
 31.12.2025)
@@ -821,7 +825,7 @@ Onder ″verhuur op korte termijn″ wordt verstaan het ononderbroken bezit of g
 
 2°     de plaats van deze diensten die, krachtens dit artikel, buiten de Gemeenschap is gelegen, aanmerken als in België te zijn gelegen, wanneer het werkelijke gebruik of de werkelijke exploitatie in België geschieden.
 
-## Art. 21bis
+##### Art. 21bis
 
 De tekst van art. 21bis, § 2, 5° en §3, inleidende zin werd vervangen (Art. 4, W 19.12.2025, B.S.
 31.12.2025, pg.99183, Numac : 2025009849) met ingang van 31.12.2025
@@ -927,18 +931,18 @@ k) (opgeheven)
 
 2° de plaats van deze diensten, die krachtens dit artikel, buiten de Gemeenschap is gelegen, aanmerken als in het binnenland te zijn gelegen, wanneer het werkelijke gebruik of de werkelijke exploitatie in België geschieden.
 
-## Art. 21ter
+##### Art. 21ter
 
 (De tekst van art. 21ter, werd ingevoegd met ingang van 01.01.2010 (Art. 9, W 26.11.2009, B.S. 04.12.2009))
 
 In afwijking van de artikelen 21 en 21bis, worden de diensten bedoeld in artikel 18, § 2, tweede lid, geacht plaats te vinden op de plaats waar het reisbureau de zetel van zijn economische activiteit of een vaste inrichting heeft gevestigd van waaruit het de dienst heeft verricht.
 
-##### Onderafdeling 3
+#### Onderafdeling 3
 
 Belastbare feit en opeisbaarheid van de belasting
 (De titel van onderafdeling 3, werd ingevoegd met ingang van 01.01.2013 (Art. 16, W 17.12.2012, B.S. 21.12.2012))
 
-## Art. 22
+##### Art. 22
 
 (De tekst van art. 22, is vervangen met ingang van 01.01.2013 (Art. 17, W 17.12.2012 (I), B.S.
 21.12.2012, Ed. 2, erratum B.S. 22.01.2013))
@@ -951,7 +955,7 @@ Belastbare feit en opeisbaarheid van de belasting
 
 Doorlopende diensten waarvoor de belasting wordt verschuldigd door de ontvanger van de dienst krachtens artikel 51, § 2, eerste lid, 1° en die gedurende een periode langer dan één jaar geen aanleiding geven tot afrekeningen of betalingen in die periode worden geacht te zijn verricht bij het verstrijken van elk kalenderjaar totdat de dienst wordt beëindigd.
 
-## Art. 22bis
+##### Art. 22bis
 
 (De tekst van art. 22bis, § 3, werd gewijzigd met ingang van 01.01.2019 (Art. 5, W 11.02.2019, B.S.
 22.02.2019, pg. 17992))
@@ -978,13 +982,13 @@ Het eerste lid is niet van toepassing op de diensten waarvoor de belasting is ve
 
 - III / 19 -
 
-##### Afdeling 2bis
+### Afdeling 2bis
 
 Gemeenschappelijke bepalingen voor de afdelingen 1 en 2
 (De titel van Afdeling 2bis, werd ingevoegd met ingang van 01.01.2019 (Art. 6, W 11.02.2019, B.S.
 22.02.2019, pg. 17992))
 
-## Art. 22ter
+##### Art. 22ter
 
 (Het artikel 22ter, werd ingevoegd met ingang van 01.01.2019 (Art. 7, W 11.02.2019, B.S.
 22.02.2019, pg. 17992). Art. 22ter is slechts van toepassing op vouchers die na 31 december 2018 zijn uitgegeven (Art. 15, W 11.02.2019))
@@ -999,11 +1003,11 @@ Indien de verrichter van de levering van goederen of dienst niet de belastingpli
 
 Indien de voucher voor meervoudig gebruik wordt overgedragen door een belastingplichtige die niet de belastingplichtige is die overeenkomstig het eerste lid de aan de belasting onderworpen handeling verricht, zijn alle vormen van dienstverrichting, zoals distributie- of promotiediensten, onderworpen aan de belasting.
 
-##### Afdeling 3
+### Afdeling 3
 
 Invoer
 
-## Art. 23
+##### Art. 23
 
 (De tekst van art. 23, § 4, 6°, werd vervangen met ingang van 16.12.2017 (Art. 6, W 29.11.2017, B.S. 06.12.2017, pg. 107694))
 
@@ -1037,7 +1041,7 @@ Invoer
 
 § 5. In afwijking van § 3 vindt, wanneer een in § 1, 2°, bedoeld goed vanaf het binnenkomen in de Gemeenschap wordt geplaatst onder een regeling voor intern communautair douanevervoer of onder één van de door de Koning bepaalde fiscale regelingen die equivalent zijn aan de regelingen bedoeld in § 4, 1°, 2°, 4°, 5°, 6° en 7°, de invoer plaats in de Lid-Staat op het grondgebied waarvan het goed aan één van die regelingen wordt onttrokken.
 
-## Art. 24
+##### Art. 24
 
 (De tekst van art. 24 is van toepassing met ingang van 01.01.1993 (Art. 24, W 28.12.1992))
 
@@ -1053,17 +1057,17 @@ gemeenschappelijk beleid, wordt de belasting opeisbaar op het tijdstip van het o
 
 In de andere gevallen waarin de ingevoerde goederen niet aan één van deze communautaire rechten zijn onderworpen, wordt het tijdstip van de opeisbaarheid van de belasting bepaald overeenkomstig de vigerende bepalingen met betrekking tot het vaststellen van het tijdstip van het ontstaan van de douaneschuld.
 
-## Art. 25
+##### Art. 25
 
 (De tekst van art. 25 is van toepassing met ingang van 01.01.1993 (Art.25, W 28.12.1992))
 
 Hij die in een derde land of in een derdelands gebied goederen heeft verkregen of er voor zijn rekening goederen heeft laten bewerken, wordt behoudens tegenbewijs geacht die goederen in België nadien te hebben ingevoerd.
 
-##### Afdeling 4
+### Afdeling 4
 
 Intracommunautaire verwerving van goederen
 
-## Art. 25bis
+##### Art. 25bis
 
 (De tekst van art. 25bis, § 3, werd ingevoegd met ingang van 01.01.2020 (Art. 5, W 03.11.2019, B.S. 13.11.2019, pg. 104872. Errata B.S. 27.12.2019, Ed. 2, pg. 118384). Deze bepaling is van toepassing op de goederen die vanaf 1 januari 2020 worden verzonden of vervoerd van België naar een andere lidstaat of omgekeerd onder de regeling bedoeld in artikel 17bis van de richtlijn 2006/112/EG (Art. 11, W 03.11.2019))
 
@@ -1081,7 +1085,7 @@ Intracommunautaire verwerving van goederen
 
 - III / 22 -
 
-## Art. 25ter
+##### Art. 25ter
 
 (De tekst van art. 25ter, § 1, eerste lid, werd vervangen; § 1, tweede lid, 2°, eerste lid, a) en tweede lid, 2°, vierde lid werden gewijzigd (Art. 3, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -1124,7 +1128,7 @@ d)    degene voor wie de volgende levering is bestemd, is, overeenkomstig artike
 
 § 4.   Aan de belasting is tevens onderworpen de toewijzing beoogd in artikel 25quater, § 2.
 
-## Art. 25quater
+##### Art. 25quater
 
 (De tekst van art. 25quater, § 2, werd vervangen (Art. 3, W 20.12.2021, B.S. 28.12.2021, pg.
 125175, Numac: 2021034485), met ingang van 01.07.2022 (Art. 5, W 20.12.2021))
@@ -1141,7 +1145,7 @@ begeleidende burgerpersoneel, van goederen die zij niet tegen de algemene belast
 
 Met een intracommunautaire verwerving van goederen onder bezwarende titel wordt gelijkgesteld de toewijzing door de strijdkrachten van een staat die partij is bij het Noord-Atlantisch Verdrag, ten behoeve van deze strijdkrachten of het hen begeleidende burgerpersoneel, van goederen die zij niet tegen de algemene belastingvoorwaarden van de interne markt van een lidstaat hebben verworven, wanneer de invoer van deze goederen niet in aanmerking zou kunnen komen voor de in artikel 42, § 3, eerste lid, 5°, bedoelde vrijstelling.
 
-## Art. 25quinquies
+##### Art. 25quinquies
 
 (De tekst van art. 25quinquies, § 4, werd vervangen met ingang van 17.07.2016 (Art. 4, W 27.06.2016, B.S. 07.07.2016, pg. 42305))
 
@@ -1172,7 +1176,7 @@ Voor de toepassing van het eerste lid wordt de intracommunautaire verwerving van
 
 § 5. Behoudens tegenbewijs, wordt de intracommunautaire verwerving van een goed geacht in België plaats te vinden wanneer de afnemer zijn intracommunautaire verwerving onder een ter uitvoering van artikel 50, § 1, toegekend BTW-identificatienummer heeft verricht of wanneer hij, op het tijdstip van de verwerving, in België een zetel van economische activiteit of een vaste inrichting heeft of, bij gebrek aan een dergelijke zetel of vaste inrichting, een woonplaats of een gebruikelijke verblijfplaats.
 
-## Art. 25sexies
+##### Art. 25sexies
 
 (De tekst van art. 25sexies, werd vervangen met ingang van 01.01.2013 (Art. 20, W 17.12.2012 (I), B.S. 21.12.2012))
 
@@ -1184,7 +1188,7 @@ De intracommunautaire verwerving van goederen wordt geacht te zijn verricht op h
 
 De belasting wordt opeisbaar op de vijftiende dag van de maand volgend op die waarin het belastbare feit heeft plaatsgevonden, indien geen factuur werd uitgereikt voor deze datum.
 
-## Art. 25septies
+##### Art. 25septies
 
 (De tekst van art. 25septies, werd opgeheven met ingang van 01.01.2013 (Art. 21, W 17.12.2012 (I), B.S. 21.12.2012, Ed. 2))
 
@@ -1192,9 +1196,9 @@ De belasting wordt opeisbaar op de vijftiende dag van de maand volgend op die wa
 
 - III / 26 -
 
-#### HOOFDSTUK IV MAATSTAF VAN HEFFING
+## HOOFDSTUK IV MAATSTAF VAN HEFFING
 
-## Art. 26
+##### Art. 26
 
 (De tekst van art. 26 werd vervangen met ingang van 01.01.2019 (Art. 8, W 11.02.2019, B.S.
 22.02.2019). Het nieuwe artikel 26 is slechts van toepassing op vouchers die na 31 december 2018 zijn uitgegeven (Art. 15, W 11.02.2019))
@@ -1207,7 +1211,7 @@ Belastingen, rechten en heffingen moeten eveneens in de maatstaf van heffing wor
 
 § 2. Onverminderd paragraaf 1 is de maatstaf van heffing voor de met betrekking tot een voucher voor meervoudig gebruik verrichte levering van goederen of dienst gelijk aan de tegenprestatie die betaald is voor de voucher of, bij ontstentenis van informatie over die tegenprestatie, de op de voucher voor meervoudig gebruik zelf of in de bijhorende documentatie vermelde monetaire waarde, verminderd met het bedrag van de belasting over de geleverde goederen of de verrichte diensten.
 
-## Art. 26bis
+##### Art. 26bis
 
 (De tekst van art. 26bis is van toepassing met ingang van 01.01.1993 (Art.9, KB 29.12.1992, B.S.
 31.12.1992))
@@ -1220,7 +1224,7 @@ Wanneer de afnemer na het tijdstip waarop de intracommunautaire verwerving van g
 
 - IV / 1 -
 
-## Art. 27
+##### Art. 27
 
 (De tekst van art. 27, § 3, werd gewijzigd met ingang van 01.07.2021 (Art. 9, W 02.04.2021, B.S.
 13.04.2021, pg. 32957, Numac: 2021041096))
@@ -1237,7 +1241,7 @@ Wanneer een wisselkoers wordt overeengekomen tussen de partijen, of wanneer een 
 
 § 3. Wanneer de elementen voor de bepaling van de maatstaf van heffing van een in de artikelen 58ter, 58quater en 58quinquies bedoelde handeling zijn uitgedrukt in de munteenheid van een derde land of van een lidstaat die de euro niet heeft aangenomen, is in afwijking van paragraaf 2 voor de omrekening tussen deze munteenheid en de euro de wisselkoers van toepassing die gold op de laatste dag van de aangifteperiode die de Europese Centrale Bank voor die dag bekend heeft gemaakt of, bij gebreke, de wisselkoers voor de eerstvolgende dag van bekendmaking.
 
-## Art. 28
+##### Art. 28
 
 (De tekst van art. 28 is van toepassing met ingang van 01.01.1993 (Art.30, W 28.12.1992, B.S.
 31.12.1992))
@@ -1258,7 +1262,7 @@ Tot de maatstaf van heffing behoren niet:
 
 - IV / 2 -
 
-## Art. 29
+##### Art. 29
 
 (De tekst van art. 29, § 2, werd gewijzigd met ingang van 25.05.2019 (Art. 4, W 02.05.2019, B.S.
 15.05.2019, pg. 46586))
@@ -1269,20 +1273,20 @@ In de relatie tussen de verkrijger van goederen of de afnemer van diensten en zi
 
 § 2. De maatstaf van heffing van de dienst bedoeld in artikel 18, § 2, tweede lid, die een reisbureau in de zin van artikel 1, § 7, eerste lid, 2°, verleent aan de afnemer, wordt bepaald door de marge die de betrokkene terzake verwezenlijkt, dit wil zeggen door het verschil tussen het totaalbedrag te betalen door de afnemer, met uitsluiting van de belasting over de toegevoegde waarde en de werkelijke kosten, belasting over de toegevoegde waarde inbegrepen, die het reisbureau draagt voor de goederen en de diensten die hem worden geleverd met het oog op zijn prestatie, in de mate waarin deze goederen en diensten rechtstreeks de afnemer ten goede komen.
 
-## Art. 30
+##### Art. 30
 
 (De tekst van art. 30 werd vervangen met ingang van 01.01.2011 (Art. 146, W 23.12.2009, B.S.
 30.12.2009))
 
 Wanneer een belastingplichtige voor een niet gesplitste prijs een gebouw of een gedeelte van een gebouw en het bijhorende terrein met voldoening van de belasting vervreemdt samen met een andere grond dan het bijhorende terrein, wordt de belasting berekend over de bedongen prijs en lasten, onder aftrek van de verkoopwaarde van de andere grond dan het bijhorende terrein, geraamd op het tijdstip van de vervreemding, doch met inachtneming van de staat van deze grond vóór de aanvang van het werk.
 
-## Art. 31
+##### Art. 31
 
 (De tekst van art. 31, werd ingevoegd met ingang van 01.01.1971 (W 03.07.1969))
 
 Bij vordering of onteigening door of vanwege de overheid wordt de vergoeding, met uitzondering van de wederbeleggingsvergoeding, geacht de te belasten prijs te zijn.
 
-## Art. 32
+##### Art. 32
 
 (De tekst van art. 32 is van toepassing met ingang van 07.01.2007 (Art. 43, W 27.12.2006, B.S.
 28.12.2006))
@@ -1294,7 +1298,7 @@ Indien er geen vergelijkbare verrichting voorhanden is, mag de normale waarde va
 
 goederen of, indien er geen aankoopprijs is, de kostprijs, berekend op het tijdstip waarop die levering wordt verricht, en, met betrekking tot een dienst, een waarde die niet lager is dan de door de belastingplichtige voor het verrichten van die dienst gemaakte uitgaven.
 
-## Art. 33
+##### Art. 33
 
 (De tekst van art. 33, § 1, 1°, werd gewijzigd (Art. 9, W 11.02.2019, B.S. 22.02.2019, pg. 17992) en
 § 2bis, werd ingevoegd (Art. 4, W 14.10.2018, B.S. 25.10.2018, pg. 81448, Erratum B.S.
@@ -1345,14 +1349,14 @@ g)    ingevolge het feit dat zij in rechte of in feite rechtstreeks of onrechtst
 
 § 3. Bij ruil en, meer algemeen, wanneer de tegenprestatie niet uitsluitend uit een geldsom bestaat, wordt die prestatie voor de berekening van de belasting op haar normale waarde gerekend.
 
-## Art. 33bis
+##### Art. 33bis
 
 (De tekst van art. 33bis is ingevoegd met ingang van 07.01.2007 (Art. 115, W 27.04.2007) B.S.
 08.05.2007)
 
 Voor de levering van goederen bedoeld in artikel 12bis en voor de intracommunautaire verwerving van goederen bedoeld in artikel 25quater, wordt de maatstaf van heffing bepaald overeenkomstig artikel 33, § 1, 1°.
 
-## Art. 34
+##### Art. 34
 
 (De tekst van art. 34, § 4, werd opgeheven en de vroegere § 5 wordt § 4 waarvan de tekst tevens werd vervangen met ingang van 01.01.2013 (Art. 23, W 17.12.2012 (I), B.S. 21.12.2012, Ed. 2))
 
@@ -1372,7 +1376,7 @@ In de maatstaf van heffing moeten eveneens de in 2° bedoelde bijkomende kosten 
 
 - IV / 5 -
 
-## Art. 35
+##### Art. 35
 
 (De tekst van art. 35, tweede lid, werd gewijzigd met ingang van 25.05.2019 (Art. 5, W 02.05.2019, B.S. 15.05.2019, pg. 46586))
 
@@ -1386,7 +1390,7 @@ De Koning kan een minimummaatstaf van heffing bepalen voor de levering, de intra
 
 Hij kan eveneens de maatstaf van heffing van de dienst, bedoeld in artikel 18, § 2, tweede lid, vaststellen op een percentage van het totaal van de bedragen die het reisbureau in de zin van artikel 1, § 7, eerste lid, 2°, aanrekent aan de afnemer.
 
-## Art. 36
+##### Art. 36
 
 (De tekst van art. 36, § 1, a), werd gewijzigd met ingang van 25.05.2019 (Art. 11, W 02.05.2019, B.S. 15.05.2019, pg. 46586))
 
@@ -1404,9 +1408,9 @@ Wanneer werken in onroerende staat betrekking hebben op de voltooiing van een ge
 
 - IV / 6 -
 
-#### HOOFDSTUK V TARIEF VAN DE BELASTING
+## HOOFDSTUK V TARIEF VAN DE BELASTING
 
-## Art. 37
+##### Art. 37
 
 (De tekst van art. 37, § 2, werd gewijzigd met ingang van 03.11.2022 (Art. 17, W 16.10.2022, B.S.
 24.10.2022, Ed. 2, pg. 77534, Numac: 2022033779))
@@ -1416,7 +1420,7 @@ Bij eenzelfde procedure kan Hij de indeling en de tarieven wijzigen wanneer de e
 
 § 2. De Koning zal bij de Kamer van volksvertegenwoordigers, onmiddellijk indien ze in zitting is, zo niet bij de opening van de eerstvolgende zitting, een wetsontwerp indienen tot bekrachtiging van de in uitvoering van paragraaf 1 van dit artikel, genomen besluiten. Die besluiten worden geacht nooit uitwerking te hebben gehad indien ze niet bij wet zijn bekrachtigd binnen een termijn van twaalf maanden na de datum van hun bekendmaking in het Belgisch Staatsblad.
 
-## Art. 38
+##### Art. 38
 
 (De tekst van art. 38, § 5, werd gewijzigd met ingang van 03.11.2022 (Art. 18, W 16.10.2022, B.S.
 24.10.2022, Ed. 2, pg. 77534, Numac: 2022033779))
@@ -1433,7 +1437,7 @@ In de gevallen bedoeld in artikel 24, § 2, is het toe te passen tarief evenwel 
 
 § 5. De Koning zal bij de Kamer van volksvertegenwoordigers, onmiddellijk indien ze in zitting is, zo niet bij de opening van de eerstvolgende zitting, een wetsontwerp indienen tot bekrachtiging van de in uitvoering van paragraaf 4 genomen besluiten. Die besluiten worden geacht nooit uitwerking te hebben gehad indien ze niet bij wet zijn bekrachtigd binnen een termijn van twaalf maanden na de datum van hun bekendmaking in het Belgisch Staatsblad.
 
-## Art. 38bis
+##### Art. 38bis
 
 (De tekst van art. 38bis, werd vervangen met ingang van 10.07.2021 (Art. 6, W 27.06.2021, B.S.
 30.06.2021, Ed. 3, pg. 66732, Numac: 2021042511))
@@ -1442,20 +1446,20 @@ Het voor de intracommunautaire verwerving van een goed toe te passen tarief is h
 
 Het voor de invoer van goederen toe te passen tarief is het tarief dat in het binnenland voor de levering van eenzelfde goed wordt toegepast.
 
-## Art. 38ter
+##### Art. 38ter
 
 (Het artikel 38ter, werd ingevoegd met ingang van 10.07.2021 (Art. 7, W 27.06.2021, B.S.
 30.06.2021, Ed. 3, pg. 66732, Numac: 2021042511))
 
 Iedere handeling die bijdraagt tot het vervaardigen, het bouwen, het monteren of het omvormen van een ander goed dan een uit zijn aard onroerend goed, is aan de belasting onderworpen aan het tarief dat geldt voor het goed beschouwd in de staat waarin het verkeert na de uitvoering van de handeling.
 
-#### HOOFDSTUK VI VRIJSTELLINGEN
+## HOOFDSTUK VI VRIJSTELLINGEN
 
-##### Afdeling 1
+### Afdeling 1
 
 Uitvoer, intracommunautaire leveringen en verwervingen, invoer en internationaal vervoer
 
-## Art. 39
+##### Art. 39
 
 (De tekst van art. 39, § 1, 4° en § 3, werd vervangen met ingang van 01.01.2013 (Art. 25, W 17.12.2012 (I), B.S. 21.12.2012, Ed. 2, erratum B.S. 22.01.2013))
 
@@ -1480,7 +1484,7 @@ Uitvoer, intracommunautaire leveringen en verwervingen, invoer en internationaal
 
 - VI / 1 -
 
-## Art. 39bis
+##### Art. 39bis
 
 (De tekst van art. 39bis, eerste lid, 1°, inleidende zin en 3°, werd gewijzigd (Art. 4, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -1495,7 +1499,7 @@ b)     deze leveringen worden verricht voor een andere belastingplichtige, of vo
 De in het eerste lid, 1°, bedoelde vrijstelling geldt niet indien de verkoper niet voldoet aan de verplichting om de in artikel 53sexies bedoelde btw-opgave van de intracommunautaire handelingen in te dienen of indien de door hem ingediende opgave niet de correcte informatie betreffende die leveringen bevat, tenzij hij de tekortkoming aan die verplichtingen terdege kan verantwoorden.
 De Koning bepaalt de beperkingen en voorwaarden voor de toepassing van deze vrijstelling.
 
-## Art. 39ter
+##### Art. 39ter
 
 (De tekst van art. 39ter, werd hersteld met ingang van 01.07.2021 (Art. 10, W 02.04.2021, B.S.
 13.04.2021, pg. 32957, Numac: 2021041096))
@@ -1504,7 +1508,7 @@ De Koning bepaalt de beperkingen en voorwaarden voor de toepassing van deze vrij
 
 Zijn vrijgesteld van de belasting, de leveringen van goederen aan de belastingplichtige die geacht wordt die goederen te hebben ontvangen en geleverd overeenkomstig artikel 13bis, § 2.
 
-## Art. 39quater
+##### Art. 39quater
 
 (De tekst van art. 39quater, werd vervangen met ingang van 11.12.2023 (Art. 6, W 23.11.2023, B.S.
 01.12.2023, pg. 111953, Numac: 2023047474))
@@ -1660,7 +1664,7 @@ Behoudens tegenbewijs, worden de tekorten van goederen in het entrepot ander dan
 
 § 7. De Koning bepaalt de toepassingsmodaliteiten van deze vrijstelling wat betreft de voldoening van de belasting in geval van regularisatie van de vrijstelling, de procedure voor de aanvraag en de uitreiking van de in paragraaf 1, vierde lid, bedoelde vergunning, de verplichtingen in hoofde van de personen die betrokken zijn bij de toepassing van deze vrijstelling en de sancties ingeval van overtreding van deze vrijstellingsregeling.
 
-## Art. 40
+##### Art. 40
 
 (De tekst van art. 40, § 1, 1°bis, werd ingevoegd met ingang van 01.07.2021 (Art. 11, W 02.04.2021, B.S. 13.04.2021, pg. 32957, Numac: 2021041096))
 
@@ -1701,7 +1705,7 @@ b)    van goederen die buiten de Gemeenschap een herstelling, een bewerking, een
 
 § 4. Onverminderd de §§ 1 tot 3, kan de Koning, om de uitvoering van internationale akten te verzekeren, alle maatregelen nemen volgens welke gehele of gedeeltelijke vrijstelling van de belasting bij de invoer van goederen wordt verleend onder de door Hem te stellen beperkingen en voorwaarden.
 
-## Art. 40bis
+##### Art. 40bis
 
 (De tekst van art. 40bis is ingevoegd met ingang van 01.01.1993 (Art. 46, W 28.12.1992))
 
@@ -1709,7 +1713,7 @@ Van de belasting zijn vrijgesteld de intracommunautaire verwervingen van goedere
 
 - VI / 7 -
 
-## Art. 41
+##### Art. 41
 
 (De tekst van art. 41, § 2bis, werd ingevoegd (Art. 105, W 15.05.2014, B.S. 19.06.2014, pg. 46206) met ingang van 01.05.2014 (Art. 1, KB 13.06.2014, B.S. 25.06.2014, pg. 47827.))
 
@@ -1767,7 +1771,7 @@ Indien de in het eerste lid bedoelde handelingen zowel binnen als buiten de Geme
 
 § 3.   De Koning bepaalt de toepassingsvoorwaarden van dit artikel.
 
-## Art. 42
+##### Art. 42
 
 (In de tekst van art. 42, § 3, werd tussen het vierde en het vijfde lid, een lid ingevoegd met ingang van 03.11.2022 (Art. 19, W 16.10.2022, B.S. 24.10.2022, Ed. 2, pg. 77534, Numac: 2022033779))
 
@@ -1849,17 +1853,17 @@ Wanneer België de lidstaat van ontvangst is en tot op Europees niveau een unifo
 2°     de met betrekking tot die goederen aan dezelfde personen verstrekte diensten.
 Door of vanwege de Minister van Financiën worden de perken en de voorwaarden voor de toepassing van deze paragraaf bepaald.
 
-## Art. 43
+##### Art. 43
 
 (De tekst van art. 43, werd opgeheven met ingang van 28.12.1992 (Art. 49, W 28.12.1992))
 
 (opgeheven)
 
-##### Afdeling 2
+### Afdeling 2
 
 Andere vrijstellingen
 
-## Art. 44
+##### Art. 44
 
 (De tekst van artikel 44, werd gewijzigd met ingang van 03.11.2022 : § 2, 14° werd ingevoegd (Art.
 20, W 16.10.2022, B.S. 24.10.2022, Ed. 2, pg. 77534, Numac: 2022033779); § 2bis, eerste lid, 1°, werd vervangen en de eerste zin onder 2° werd vervangen (Art. 21, W 16.10.2022) en § 3, 14°, werd opgeheven (Art. 22, W 16.10.2022). De Franse tekst van § 2, 12°, werd gewijzigd (Art. 63 W 21.12.2022, B.S. 29.12.2022, pg. 102555, Numac: 2022043130) met ingang van 01.01.2022 (Art.
@@ -2090,7 +2094,7 @@ d)     de organismen voor de financiering van pensioenen bedoeld in artikel 8 va
 
 14°   (opgeheven).
 
-## Art. 44bis
+##### Art. 44bis
 
 (De tekst van art. 44bis is ingevoegd met ingang van 01.01.2000 (Art. 2, KB 30.12.1999))
 
@@ -2108,9 +2112,9 @@ Indien de leverancier heeft geopteerd voor de belastingheffing van dergelijke le
 
 - VI / 20 -
 
-#### HOOFDSTUK VII AFTREK VAN VOORBELASTING
+## HOOFDSTUK VII AFTREK VAN VOORBELASTING
 
-## Art. 45
+##### Art. 45
 
 (De tekst van art. 45, § 1, 3°, werd vervangen (Art. 5, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -2172,7 +2176,7 @@ b)    door belastingplichtigen die op hun beurt dezelfde diensten onder bezwaren
 § 5. De belastingplichtigen kunnen niet in aftrek brengen de verschuldigde of betaalde belasting in de situaties bedoeld in artikel 58, § 4, 5°.
 In de mate dat hij leveringen verricht onderworpen aan de bijzondere regeling van belastingheffing over de winstmarge, mag de belastingplichtige wederverkoper de verschuldigde of betaalde belasting niet in aftrek brengen in de situaties bedoeld in artikel 58, § 4, 6°.
 
-## Art. 46
+##### Art. 46
 
 (De tekst van art. 46, werd vervangen met ingang van 11.12.2023 (Art. 7, W 23.11.2023, B.S.
 01.12.2023, pg. 111953, Numac: 2023047474 - Errata, B.S. 01.03.2024, pg. 28826, Numac: 2024001947))
@@ -2211,7 +2215,7 @@ De belastingplichtige die, op 31 december 2022, het recht op aftrek uitoefent me
 
 verplicht om het recht op aftrek uit te oefenen met inachtneming van het werkelijk gebruik overeenkomstig paragraaf 2, tweede lid.
 
-## Art. 47
+##### Art. 47
 
 (De tekst van art. 47, 2° lid, wordt vervangen en het artikel wordt aangevuld met een lid (Art. 2, W 12.03.2023, B.S. 23.03.2023, pg. 33328, Numac: 2023041020) met ingang van 01.02.2024 (Art. 21,
 3° lid, W 12.03.2023). De Koning kan een latere datum van inwerkingtreding bepalen dan die vermeld in artikel 21, eerste lid, zonder dat die datum later mag zijn dan 1 januari 2025 (Art. 21, 3° lid, W 12.03.2023). De datum van inwerkingtreding van de wet van 12.03.2023 werd effectief met een jaar uitgesteld (art. 35, KB 17.12.2023, B.S. 22.12.2023, pg. 120969, Numac: 2023048329). De wijziging van artikel 47, van het wetboek, wordt bijgevolg met evenveel maanden uitgesteld tot 01.02.2025) (5)
@@ -2223,7 +2227,7 @@ Wanneer tijdens het aangiftetijdvak het af te trekken bedrag meer bedraagt dan d
 
 De Koning bepaalt het minimumbedrag dat op de Provisierekening btw kan worden ingeschreven.
 
-## Art. 48
+##### Art. 48
 
 (De tekst van art. 48, werd vervangen met ingang van 01.01.2019 (Art. 6, W 14.10.2018, B.S.
 25.10.2018, pg. 81448. Erratum Franse tekst B.S. 30.11.2018, pg. 91.362)
@@ -2243,7 +2247,7 @@ In geval van toepassing van het eerste lid, worden de in artikel 138, tweede lid
 
 jaar en wordt de herziening elk jaar, al naargelang het geval, verricht tot beloop van een vijfde of een vijfentwintigste van het bedrag van die belasting.
 
-## Art. 49
+##### Art. 49
 
 (De tekst van art. 49, inleidende zin werd gewijzigd; punt 4° werd vervangen en punt 6° werd ingevoegd met ingang van 11.12.2023 (Art. 8, W 23.11.2023, B.S. 01.12.2023, pg. 111953, Numac: 2023047474))
 
@@ -2270,9 +2274,9 @@ c)     bij het sluiten of beëindigen van de huurovereenkomst.
 
 - VII / 6 -
 
-#### HOOFDSTUK VIII REGELING VOOR DE VOLDOENING VAN DE BELASTING
+## HOOFDSTUK VIII REGELING VOOR DE VOLDOENING VAN DE BELASTING
 
-## Art. 50
+##### Art. 50
 
 (De tekst van art. 50, § 1, eerste lid, 1°, werd vervangen; § 1, tweede lid en § 4, inleidende zin, werden gewijzigd (Art. 6, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -2328,7 +2332,7 @@ Zij kent aan de leden van de in het eerste lid bedoelde BTW-eenheid eveneens een
 
 - VIII / 2 -
 
-## Art. 51
+##### Art. 51
 
 (De tekst van art. 51, § 2, tweede lid, werd gewijzigd met ingang van 11.12.2023 (Art. 16, W 23.11.2023, B.S. 01.12.2023, pg. 111953, Numac: 2023047474))
 
@@ -2352,7 +2356,7 @@ Voor de toepassing van het eerste lid, 1°, 5° en 6°, wordt een leverancier of
 
 - VIII / 3 -
 
-## Art. 51bis
+##### Art. 51bis
 
 ((De tekst van art. 51bis, § 3bis, werd ingevoegd (Art. 17, 2°, W 23.11.2023, B.S. 01.12.2023, pg.
 111953, Numac: 2023047474 - Errata, B.S. 01.03.2024, pg. 28826, Numac: 2024001947) met ingang van 01.01.2024 (§ 3bis, zoals ingevoegd bij artikel 17, 2°, is van toepassing op de belasting die opeisbaar is vanaf 1 januari 2024 - Art. 18, W 23.11.2023)
@@ -2412,13 +2416,13 @@ De in het tweede lid, 2°, a), bedoelde mededeling aan de in het eerste lid bedo
 
 § 4. Elke belastingplichtige is hoofdelijk gehouden de belasting te voldoen met de persoon die er krachtens artikel 51, §§ 1 en 2, schuldenaar van is, als hij op het tijdstip waarop hij een handeling heeft verricht, wist of moest weten dat de betaling van de belasting, in de ketting van de handelingen, niet werd gedaan of zal worden gedaan met de bedoeling de belasting te ontduiken.
 
-## Art. 51ter
+##### Art. 51ter
 
 (De tekst van art. 51ter, werd gewijzigd (Art. 7, W 20.11.2022, B.S. 30.11.2022, pg. 88145, Numac: 2022034191) met ingang van 01.01.2023 (Art. 38, W 20.11.2022))
 
 De personen die bij toepassing van artikel 4, § 2, als één belastingplichtige worden aangemerkt, zijn ten opzichte van de Staat hoofdelijk gehouden tot de voldoening van de belasting, de nalatigheidsintresten, de geldboeten en de kosten die opeisbaar zijn ingevolge de handelingen die betrekking hebben op de periode waarin deze personen als één belastingplichtige worden aangemerkt voor de toepassing van dit Wetboek.
 
-## Art. 52
+##### Art. 52
 
 (De tekst van art. 52, § 2, tweede lid en § 3, werd gewijzigd met ingang van 16.05.2014 (Art. 36, W 25.04.2014, B.S. 16.05.2014, pg. 39621))
 
@@ -2434,7 +2438,7 @@ Bij invoer zonder aangifte kunnen de goederen en de ervoor gebezigde vervoermidd
 
 - VIII / 6 -
 
-## Art. 52bis
+##### Art. 52bis
 
 (De tekst van art. 52bis, § 3, werd vervangen met ingang van 01.04.2019 (Art. 2, W 26.11.2018, B.S. 04.12.2018, pg. 93842). Art. 19, W 26.11.2018: “Deze wet is niet van toepassing op het dwangbevel dat ter kennis werd gegeven of betekend werd vóór de datum van haar inwerkingtreding.”)
 
@@ -2493,7 +2497,7 @@ Door de loutere kennisgeving van dit innings- en invorderingsbericht wordt het b
 
 Het uitvoerend beslag op roerende goederen zal vervolgens plaatsvinden overeenkomstig de bepalingen van artikel 1499 en volgende van het Gerechtelijk Wetboek, onverminderd de mogelijkheid voor de beslagene, in geval van veranderde omstandigheden, om de wijziging of opheffing van het beslag te verzoeken voor de beslagrechter.
 
-## Art. 53
+##### Art. 53
 
 § 1. De belastingplichtige, met uitzondering van degene die geen enkel recht op aftrek heeft, is gehouden :
 
@@ -2611,7 +2615,7 @@ De in paragraaf 2bis, tweede tot en met vierde lid, bedoelde voorwaarden zijn va
 
 De Koning kan andere verplichtingen bepalen om de juiste heffing van de belasting te waarborgen en om de fraude te vermijden.
 
-## Art. 53bis
+##### Art. 53bis
 
 (De tekst van art. 53bis, § 1, eerste lid, werd gewijzigd (Art. 8, W 21.03.2024, B.S. 09.04.2024, pg.
 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
@@ -2627,7 +2631,7 @@ De belastingplichtigen bedoeld in artikel 50, § 1, eerste lid, 5°, dienen even
 
 ontvanger van de dienst, mee te delen dat zij een dergelijke dienst voor de eerste maal verstrekken.
 
-## Art. 53ter
+##### Art. 53ter
 
 (De tekst van art. 53ter, eerste lid, is van toepassing met ingang van 01.01.2004 (Art. 8, W 28.01.2004, B.S. 10.02.2004))
 
@@ -2641,7 +2645,7 @@ b)     de intracommunautaire verwervingen van accijnsprodukten als bedoeld in ar
 
 2°    de verschuldigd geworden belasting voldoen binnen de termijn van indiening van deze aangifte.
 
-## Art. 53quater
+##### Art. 53quater
 
 (De tekst van art. 53quater, § 1, vijfde en zesde lid werd gewijzigd (Art. 9, W 21.03.2024, B.S.
 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
@@ -2712,7 +2716,7 @@ De leden van de btw-eenheid in de zin van artikel 4, § 2, delen aan hun leveran
 
 § 5. De niet in België gevestigde belastingplichtigen die overeenkomstig artikel 55, § 1 of § 2, hier te lande een aansprakelijke vertegenwoordiger hebben laten erkennen of die overeenkomstig artikel 55, § 3, tweede lid, door een vooraf erkende persoon worden vertegenwoordigd, moeten bovendien, voor de handelingen die zij in België verrichten of ontvangen, de naam of benaming en het adres van hun aansprakelijke vertegenwoordiger in België of van de vooraf erkende persoon die hen vertegenwoordigt, aan hun klanten en hun leveranciers of hun dienstverrichters mededelen.
 
-## Art. 53quinquies
+##### Art. 53quinquies
 
 (De tekst van art. 53quinquies, derde lid, werd gewijzigd (Art. 10, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -2734,7 +2738,7 @@ De leden van een BTW-eenheid in de zin van artikel 4, § 2, die overeenkomstig a
 
 De belastingplichtige op wie de in de artikelen 56bis tot en met 56undecies bedoelde vrijstellingsregeling van belasting van toepassing is en die geen enkele van de in het eerste lid, inleidende zin, bedoelde handelingen verricht, is niet gehouden de voornoemde administratie hiervan in kennis te stellen.
 
-## Art. 53sexies
+##### Art. 53sexies
 
 (De tekst van art. 53sexies, § 2, werd gedeeltelijk opgeheven en § 3 werd ingevoegd met ingang van 10.07.2021 (Art. 15, W 27.06.2021, B.S. 30.06.2021, Ed. 3, pg. 66732, Numac: 2021042511))
 
@@ -2754,13 +2758,13 @@ door de ontvanger krachtens de communautaire bepalingen en in de loop van de vor
 
 § 3. De in de paragrafen 1 en 2 bedoelde gegevens worden door de belastingplichtige aan de administratie belast met de belasting over de toegevoegde waarde verstrekt met het oog op de toepassing van de belasting en de controle daarop door de administratie in de lidstaat van vertrek en in de lidstaat van aankomst van de verzending of het vervoer van de goederen en door de administratie in de lidstaat van vestiging van de dienstverrichter en in de lidstaat van vestiging van de afnemer.
 
-## Art. 53septies
+##### Art. 53septies
 
 (De tekst van art. 53septies is ingevoegd met ingang van 01.01.1993 (Art. 64, W 28.12.1992))
 
 De Koning kan belastingplichtigen, die in België intracommunautaire verwervingen van goederen verrichten als bedoeld in de artikelen 25ter, § 1, en 25quater, opleggen om met betrekking tot iedere in een andere Lid-Staat voor BTW-doeleinden geïdentificeerde leverancier een gedetailleerde aangifte in te dienen van de gedane verwervingen, op voorwaarde evenwel dat dergelijke aangiften niet kunnen worden geëist voor tijdvakken van minder dan één maand.
 
-## Art. 53octies
+##### Art. 53octies
 
 (De tekst van art. 53octies, § 2, wordt opgeheven (Art. 215, W 12.05.2024, B.S. 30.05.2024, Ed. 2, pg. 68168, Numac: 2024003880) met ingang van 09.06.2024 (Art. 222, W 12.05.2024, B.S.
 30.05.2024, Ed. 2, pg. 68168, Numac: 2024003880))
@@ -2782,7 +2786,7 @@ worden ingediend en dat de in de artikelen 53quinquies tot 53octies, § 1, bedoe
 
 § 4. Onverminderd de toepassing van paragraaf 3, hebben de gegevens en de stukken die de administratie belast met de belasting over de toegevoegde waarde, opgesteld of verzonden in et kader van de toepassing van de wetgeving inzake de belasting over de toegevoegde waarde en die fotografisch, optisch, elektronisch of volgens elke andere informatica- of telegeleidingstechniek worden geregistreerd, bewaard of weergegeven, evenals hun weergave op een leesbare drager, bewijskracht.
 
-## Art. 53nonies
+##### Art. 53nonies
 
 (De tekst van art. 53nonies, § 1, tweede lid, is ingevoegd met ingang van 01.01.2004 (Art. 10, W 28.01.2004, B.S. 10.02.2004))
 
@@ -2791,7 +2795,7 @@ Hij kan dezelfde regels opleggen voor iedere andere intracommunautaire verwervin
 
 § 2. Hij neemt iedere andere maatregel met het oog op de controle en de betaling van de belasting verschuldigd ter zake van de levering, de invoer of de intracommunautaire verwerving van een vervoermiddel.
 
-## Art. 53decies
+##### Art. 53decies
 
 (De tekst van art. 53decies, § 1, derde lid, werd vervangen met ingang van 01.07.2021 (Art. 15, W 02.04.2021, B.S. 13.04.2021, pg. 32957, Numac: 2021041096))
 
@@ -2812,21 +2816,21 @@ In afwijking van het eerste lid, is de facturering onderworpen aan de regels die
 
 § 2. De Koning kan de regels voor de uitreiking van facturen bepalen en maatregelen nemen wat de vereenvoudiging van facturen betreft.
 
-## Art. 53undecies
+##### Art. 53undecies
 
 (Artikel 53undecies, werd ingevoegd met ingang van 20.08.2018 (Art. 9, W 30.07.2018, B.S.
 10.08.2018, pg. 62704 – Erratum B.S. 28.08.2018, p. 66582))
 
 Wanneer de belastingplichtige failliet wordt verklaard, wordt de curator in het kader van de vereffening in de plaats gesteld van de belastingplichtige ten aanzien van alle rechten die zijn verleend en alle verplichtingen die zijn opgelegd aan de laatstgenoemde door het Wetboek en de ter uitvoering ervan genomen besluiten.
 
-## Art. 53duodecies
+##### Art. 53duodecies
 
 (Artikel 53duodecies, werd ingevoegd met ingang van 20.08.2018 (Art. 10, W 30.07.2018, B.S.
 10.08.2018, pg. 62704 – Erratum B.S. 28.08.2018, pg. 66582))
 
 De Koning regelt de praktische toepassingsmodaliteiten van de artikelen 53 tot en met 53undecies.
 
-## Art. 53terdecies
+##### Art. 53terdecies
 
 (Artikel 53terdecies, werd ingevoegd met ingang van 25.05.2019 (Art. 37, W 02.05.2019, B.S.
 15.05.2019, pg. 46579).
@@ -2835,7 +2839,7 @@ De Koning regelt de praktische toepassingsmodaliteiten van de artikelen 53 tot e
 
 § 2. De door de Federale Overheidsdienst Financiën ter beschikking gestelde elektronische aangifte die werd ingevuld en overgezonden overeenkomstig de daarin voorkomende aanduidingen, wordt gelijkgesteld met een gewaarmerkte, gedagtekende en ondertekende aangifte als bedoeld in paragraaf 1.
 
-## Art. 54
+##### Art. 54
 
 - VIII / 19 -
 
@@ -2845,7 +2849,7 @@ Onverminderd de bevoegdheden die Hem bij de artikelen 51 tot 53duodecies worden 
 
 Hij regelt eveneens het stellen van een borg, het verlenen van een borgtocht en het verrichten van een provisionele storting, zo nodig met afwijking van de bepalingen betreffende de organisatie en de werking van de Deposito- en Consignatiekas.
 
-## Art. 54bis
+##### Art. 54bis
 
 (De tekst van art. 54bis, § 1, werd vervangen met ingang van 10.07.2021 (Art. 16, W 27.06.2021, B.S. 30.06.2021, Ed. 3, pg. 66732, Numac: 2021042511))
 
@@ -2861,7 +2865,7 @@ Iedere belastingplichtige, met uitsluiting van de btw-eenheden in de zin van art
 
 § 3.   De Koning regelt de toepassingsmodaliteiten van de §§ 1 en 2.
 
-## Art. 54ter
+##### Art. 54ter
 
 (Het artikel 54ter, werd ingevoegd met ingang van 01.07.2021 (Art. 16, W 02.04.2021, B.S.
 13.04.2021, pg. 32957, Numac: 2021041096))
@@ -2876,7 +2880,7 @@ De gegevens opgenomen in de registers bedoeld in het eerste lid moeten worden be
 
 De Koning bepaalt de aard van de in het eerste lid bedoelde registers op te nemen gegevens en de manier waarop die registers moeten worden gehouden.
 
-## Art. 55
+##### Art. 55
 
 (De tekst van art. 55, § 6, tweede lid werd gewijzigd met ingang van 11.12.2023 (Art. 12, W 23.11.2023, B.S. 01.12.2023, pg. 111953, Numac: 2023047474))
 
@@ -2909,18 +2913,18 @@ De medecontractant te goeder trouw, die bewijst dat hij aan zijn leverancier of 
 
 - VIII / 22 -
 
-#### HOOFDSTUK IX BIJZONDERE REGELINGEN
+## HOOFDSTUK IX BIJZONDERE REGELINGEN
 
-##### Afdeling 1
+### Afdeling 1
 
 Kleine ondernemingen
 
-##### Onderafdeling 1
+#### Onderafdeling 1
 
 Regeling van de forfaitaire grond
 (De titel van Onderafdeling 1, werd ingevoegd (Art. 11, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
-## Art. 56
+##### Art. 56
 
 (De tekst van art. 56, § 4, tweede en vierde lid, werd gewijzigd (Art. 12, W 21.03.2024, B.S.
 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
@@ -2981,12 +2985,12 @@ De belastingplichtige die zijn economische activiteit aanvangt vanaf 1 januari 2
 
 § 7.   Dit artikel treedt buiten werking op 1 januari 2028.
 
-##### Onderafdeling 2
+#### Onderafdeling 2
 
 Vrijstellingsregeling van belasting
 (De titel Onderafdeling 2, werd ingevoegd (Art. 13, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
-## Art. 56bis
+##### Art. 56bis
 
 (De tekst van art. 56bis, werd vervangen (Art. 14, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -3026,7 +3030,7 @@ De in het tweede lid, 1°, bedoelde uitsluiting is niet van toepassing op de die
 
 5°     de in artikel 44, § 3, 2°, a), derde streepje, bedoelde handelingen, met uitzondering van degene die worden verricht door een belastingplichtige natuurlijke persoon onder de voorwaarden van artikel 50, § 4.
 
-## Art. 56ter
+##### Art. 56ter
 
 (Het artikel 56ter werd ingevoegd (Art. 15, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -3054,7 +3058,7 @@ Niettegenstaande artikel 292 ter van Richtlijn 2006/112/EG, opdat een in het eer
 
 2°     wordt hij voor de toepassing van de vrijstelling slechts in zijn lidstaat van vestiging onder een individueel nummer geïdentificeerd, waaraan voor de toepassing van de vrijstellingsregeling het achtervoegsel "EX" wordt toegevoegd.
 
-## Art. 56quater
+##### Art. 56quater
 
 (Het artikel 56quater werd ingevoegd (Art. 16, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -3090,7 +3094,7 @@ De in het eerste lid, 1° of 2°, bedoelde datum, valt niet later dan vijfendert
 
 § 5. Wanneer de belastingplichtige overeenkomstig paragraaf 3, eerste lid, de administratie belast met de belasting over de toegevoegde waarde in kennis stelt van zijn voornemen om gebruik te maken van de vrijstelling in een andere lidstaat of in andere lidstaten dan aangegeven in de in paragraaf 1, 1°, bedoelde voorafgaande kennisgeving, is hij niet verplicht de in paragraaf 2 bedoelde gegevens te verstrekken voor zover die reeds in eerdere krachtens artikel 56quinquies ingediende aangiften zijn opgenomen
 
-## Art. 56quinquies
+##### Art. 56quinquies
 
 (Het artikel 56quinquies werd ingevoegd (Art. 17, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -3109,7 +3113,7 @@ Tegelijkertijd geeft de belastingplichtige het bedrag aan van de in het eerste l
 
 De in het eerste lid bedoelde belastingplichtige deelt die gegevens mee uiterlijk op 31 maart volgend op het in het eerste lid bedoelde kalenderjaar.
 
-## Art. 56sexies
+##### Art. 56sexies
 
 (Het artikel 56sexies werd ingevoegd (Art. 18, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -3125,7 +3129,7 @@ Voor de toepassing van de artikelen 56ter, § 2, tweede lid, 56quater, § 2, 3°
 
 De in de artikelen 56ter, § 2, tweede lid, 56quater, § 3, en 56quinquies, § 1, eerste en derde lid, bedoelde gegevens worden meegedeeld op het daarvoor door de minister van Financiën of zijn gemachtigde gecreëerde elektronische adres.
 
-## Art. 56septies
+##### Art. 56septies
 
 (Het artikel 56septies werd ingevoegd (Art. 19, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -3145,7 +3149,7 @@ Het eerste lid is niet van toepassing indien de belastingplichtige de in artikel
 
 Het eerste lid is niet van toepassing indien de belastingplichtige de in artikel 56quinquies bedoelde verplichtingen niet nakomt
 
-## Art. 56octies
+##### Art. 56octies
 
 (Het artikel 56octies werd ingevoegd (Art. 20, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -3158,7 +3162,7 @@ Het in artikel 56quater, § 1, 2°, bedoelde btw-identificatienummer wordt zonde
 3°    de belastingplichtige heeft zijn beslissing om de toepassing van de vrijstellingsregeling te beëindigen, gemeld;
 4°    de belastingplichtige heeft gemeld, of de administratie belast met de belasting over de toegevoegde waarde kan anderszins aannemen, dat zijn werkzaamheden zijn beëindigd.
 
-## Art. 56nonies
+##### Art. 56nonies
 
 (Het artikel 56nonies werd ingevoegd (Art. 21, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -3174,7 +3178,7 @@ De jaaromzet die als maatstaf dient voor de toepassing van de in deze onderafdel
 
 De overdracht van materiële of immateriële investeringsgoederen van de belastingplichtige wordt niet in aanmerking genomen voor het berekenen van de in het eerste lid bedoelde omzet.
 
-## Art. 56decies
+##### Art. 56decies
 
 (Het artikel 56decies werd ingevoegd (Art. 22, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -3189,17 +3193,17 @@ Wanneer tijdens een kalenderjaar de in artikel 56ter, § 1, eerste lid of § 2, 
 § 2. De niet in België maar in een andere lidstaat gevestigde belastingplichtige mag niet van de vrijstellingsregeling van belasting genieten wanneer de in artikel 56ter, § 2, eerste lid, 1°, bedoelde drempel voor de jaaromzet in de Unie in het voorafgaande kalenderjaar werd overschreden.
 Wanneer tijdens een kalenderjaar de in artikel 56ter, § 2, eerste lid, 1°, bedoelde drempel voor de jaaromzet in de Unie wordt overschreden, is de vrijstellingsregeling van belasting die is verleend aan de niet in België maar in een andere lidstaat gevestigde belastingplichtige, vanaf dat tijdstip niet langer van toepassing.
 
-## Art. 56undecies
+##### Art. 56undecies
 
 (Het artikel 56undecies werd ingevoegd (Art. 23, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
 De Koning bepaalt de toepassingsmodaliteiten van deze onderafdeling wat betreft de vorm van de in artikelen 56ter, § 1, vierde lid en 56quater, § 1, 1°, bedoelde voorafgaandelijke kennisgeving, de wijziging of stopzetting van de activiteit of van de belastingregeling, de wijze waarop herzieningen worden doorgevoerd bij een wijziging van de belastingregeling en de wijze waarop de in de artikelen 56quater, § 3, en 56quinquies bedoelde gegevens aan de administratie belast met de belasting over de toegevoegde waarde wordt verstrekt.
 
-##### Afdeling 2
+### Afdeling 2
 
 Landbouwondernemingen
 
-## Art. 57
+##### Art. 57
 
 (De tekst van art. 57, § 6, eerste lid, 2° en § 9, eerste lid, werd gewijzigd (Art. 24, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
@@ -3329,11 +3333,11 @@ Hij kan toelaten dat de landbouwondernemers onderworpen aan de in dit artikel va
 
 In de gevallen die concurrentieverstoringen teweegbrengen, wordt de landbouwondernemer, die financieel, economisch en organisatorisch nauw verbonden is met één of meerdere personen die juridisch gezien zelfstandig zijn en niet aan deze bijzondere regeling zijn onderworpen, door de administratie die belast is met de belasting over de toegevoegde waarde, uitgesloten van deze bijzondere regeling.
 
-##### Afdeling 3
+### Afdeling 3
 
 Andere bijzondere regelingen
 
-## Art. 58
+##### Art. 58
 
 De tekst van art. 58, § 4, 4°, eerste lid, werd vervangen (Art. 5, W 19.12.2025, B.S. 31.12.2025, pg.99183, Numac : 2025009849) met ingang van 31.12.2025
 
@@ -3425,30 +3429,30 @@ De stukken die dat recht op aftrek staven, moeten worden bewaard gedurende de te
 
 13°   de Koning bepaalt de andere regelen en toepassingsmodaliteiten van de door deze paragraaf ingestelde regeling; inzonderheid definieert Hij de beoogde goederen en bepaalt Hij de maatstaf van heffing en de winstmarge.
 
-##### Afdeling 4
+### Afdeling 4
 
 - IX / 16 -
 
 Bijzondere regelingen van toepassing op diensten verricht voor niet-belastingplichtigen, afstandsverkopen van goederen of bepaalde binnenlandse leveringen van goederen (Het opschrift van Afdeling 4, werd vervangen met ingang van 01.07.2021 (Art. 18, W 02.04.2021, B.S. 13.04.2021, pg. 32957, Numac: 2021041096))
 
-##### Onderafdeling 1
+#### Onderafdeling 1
 
 Definities
 (De titel Onderafdeling 1, werden ingevoegd met ingang van 01.01.2015 (Art. 72, W 25.04.2014, B.S. 16.05.2014, pg. 39621)
 
-## Art. 58bis
+##### Art. 58bis
 
 (De tekst van art. 58bis, werd vervangen met ingang van 01.07.2021 (Art. 19, W 02.04.2021, B.S.
 13.04.2021, pg. 32957, Numac: 2021041096))
 
 Voor de toepassing van de artikelen 58ter tot 58quinquies, wordt verstaan onder "aangifte": de aangifte waarin alle gegevens staan die nodig zijn om het bedrag van de in elke lidstaat verschuldigde btw vast te stellen.
 
-##### Onderafdeling 2
+#### Onderafdeling 2
 
 Bijzondere regeling voor diensten verricht door niet in de Gemeenschap gevestigde belastingplichtigen (De titel Onderafdeling 2, werd ingevoegd met ingang van 01.01.2015 (Art. 74, W 25.04.2014, B.S.
 16.05.2014, pg. 39621)
 
-## Art. 58ter
+##### Art. 58ter
 
 (De tekst van art. 58ter, werd vervangen met ingang van 01.07.2021 (Art. 20, W 02.04.2021, B.S.
 13.04.2021, pg. 32957, Numac: 2021041096))
@@ -3521,11 +3525,11 @@ De niet in de Gemeenschap gevestigde belastingplichtige die van deze bijzondere 
 
 - IX / 19 -
 
-##### Onderafdeling 3
+#### Onderafdeling 3
 
 Bijzondere regeling voor intracommunautaire afstandsverkopen van goederen, voor leveringen van goederen binnen een lidstaat door elektronische interfaces die die leveringen faciliteren en voor diensten verricht door in de Gemeenschap maar niet in de lidstaat van verbruik gevestigde belastingplichtigen (Het opschrift van Onderafdeling 3, werd vervangen met ingang van 01.07.2021 (Art. 21, W 02.04.2021, B.S. 13.04.2021, pg. 32957, Numac: 2021041096)
 
-## Art. 58quater
+##### Art. 58quater
 
 (De tekst van art. 58quater, § 6, vierde en vijfde lid, werd gewijzigd met ingang van 10.01.2022 (Art.
 13, W 27.12.2021, B.S. 31.12.2021 - Ed. 2, pg. 127779, Numac: 2021034489))
@@ -3615,12 +3619,12 @@ De niet in België gevestigde belastingplichtige die van deze bijzondere regelin
 
 § 9. De Koning bepaalt de na te leven formaliteiten met betrekking tot de aangifte van de verrichte handelingen, de betaling van de verschuldigde belasting, het bijhouden van een gepaste boekhouding en de teruggaaf van de voorbelasting.
 
-##### Onderafdeling 4
+#### Onderafdeling 4
 
 Bijzondere regeling van toepassing op afstandsverkopen van uit derdelandsgebieden of derde landen ingevoerde goederen (De titel, Onderafdeling 4, werd ingevoegd met ingang van 01.07.2021 (Art. 23, W 02.04.2021, B.S.
 13.04.2021, pg. 32957, Numac: 2021041096))
 
-## Art. 58quinquies
+##### Art. 58quinquies
 
 (De tekst van artikel 58quinquies, § 2, eerste lid, 3°, werd gewijzigd met ingang van 03.11.2022 (Art.
 10, W 16.10.2022, B.S. 24.10.2022, Ed. 2, pg. 77534, Numac: 2022033779))
@@ -3748,12 +3752,12 @@ De belastingplichtige die van deze bijzondere regeling gebruikmaakt maar die Bel
 
 § 9. De Koning bepaalt de na te leven formaliteiten met betrekking tot de aangifte van de verrichte handelingen, de betaling van de verschuldigde belasting, het bijhouden van een gepaste boekhouding, de teruggaaf van de voorbelasting en de door de in paragraaf 3, eerste lid bedoelde tussenpersoon te vervullen formaliteiten om te kunnen worden aangewezen.
 
-##### Afdeling 5
+### Afdeling 5
 
 Bijzondere regeling voor de aangifte en betaling van de btw bij invoer (De titel, Afdeling 5, werd ingevoegd met ingang van 01.07.2021 (Art. 25, W 02.04.2021, B.S.
 13.04.2021, pg. 32957, Numac: 2021041096))
 
-## Art. 58sexies
+##### Art. 58sexies
 
 (Artikel 58sexies, werd ingevoegd met ingang van 01.07.2021 (Art. 26, W 02.04.2021, B.S.
 13.04.2021, pg. 32957, Numac: 2021041096))
@@ -3779,9 +3783,9 @@ De in het eerste lid bedoelde persoon voldoet het totale bedrag van de in die aa
 
 - IX / 28 -
 
-#### HOOFDSTUK X BEWIJSMIDDELEN EN CONTROLEMAATREGELEN
+## HOOFDSTUK X BEWIJSMIDDELEN EN CONTROLEMAATREGELEN
 
-## Art. 59
+##### Art. 59
 
 (De tekst van art. 59, § 1, derde lid, werd ingevoegd met ingang van 04.04.2022 (Art. 15, W 17.03.2022, B.S. 25.03.2022, pg. 24484, Numac: 2022020530))
 
@@ -3799,7 +3803,7 @@ De Koning geeft regelen in verband met de schattingsprocedure. Hij bepaalt de te
 
 § 3.   (opgeheven)
 
-## Art. 60
+##### Art. 60
 
 (8)
 (De tekst van art. 60, § 5, tweede lid, werd gewijzigd met ingang van 11.12.2023 (Art. 13, W 23.11.2023, B.S. 01.12.2023, pg. 111953, Numac: 2023047474))
@@ -3838,7 +3842,7 @@ Onder de bewaring van een factuur in een elektronisch formaat wordt verstaan de 
 
 De bewaring moet de authenticiteit van de herkomst en de integriteit van de inhoud van deze facturen waarborgen.
 
-## Art. 61
+##### Art. 61
 
 (In de tekst van art. 61, § 1, werd tussen het vierde en het vijfde lid een lid ingevoegd met ingang van 10.07.2021 (Art. 106, W 27.06.2021, B.S. 30.06.2021, Ed. 3, pg. 66736, Numac: 2021021157);
 
@@ -3868,7 +3872,7 @@ De in het eerste lid bedoelde retentie maakt het voorwerp uit van een proces-ver
 
 § 3. De in dit artikel vermelde verplichtingen gelden eveneens wanneer de gegevens waar de administratie om verzoekt, zich digitaal in België of in het buitenland bevinden.
 
-## Art. 62
+##### Art. 62
 
 (De tekst van art. 62, werd vervangen (Art. 4, W 12.03.2023, B.S. 23.03.2023, pg. 33328, Numac: 2023041020) met ingang 01.01.2024 (Art. 21, 1° lid, W 12.03.2023). De datum van inwerkingtreding van de wet van 12.03.2023 werd met een jaar uitgesteld tot 01.01.2025 (Art. 35, KB 17.12.2023, B.S. 22.12.2023, pg. 120969, Numac: 2023048329))
 
@@ -3880,7 +3884,7 @@ De in het eerste lid bedoelde termijn wordt teruggebracht tot tien dagen wanneer
 
 2°    de vraag deel uitmaakt van de controle van een in artikel 76, § 1 of § 2, bedoeld overschot van belasting.
 
-## Art. 62bis
+##### Art. 62bis
 
 (De tekst van art. 62bis, tweede lid, werd vervangen met ingang van 31.12.2020 (Art. 19, W 20.12.2020, B.S. 30.12.2020, Ed. 1, pg. 96068, Numac: 2020044541. De inwerkingtreding werd bepaald bij art. 21))
 
@@ -3894,7 +3898,7 @@ De in het vorige lid vermelde machtiging wordt slechts verleend als alle andere 
 
 De raadpleging van het in het tweede lid bedoeld centraal aanspreekpunt gebeurt volgens de nadere regels in toepassing van artikel 322, § 3, derde lid, 3°, van het Wetboek van de inkomstenbelastingen 1992.
 
-## Art. 63
+##### Art. 63
 
 (De tekst van art. 63 is van toepassing met ingang van 01.01.1993 (Art. 78, W 28.12.1992). Zie de interpretatie van het derde lid door het Grondwettelijk Hof (9))
 
@@ -3915,13 +3919,13 @@ Zij mogen ook, op elk tijdstip en zonder voorafgaande verwittiging, alle vervoer
 (9) Arrest van het Grondwettelijk Hof nr. 104/2019 d.d. 27.06.2019 (B.S. 04.03.2020, pg. 13431).
 Ongrondwettelijke interpretatie van artikel 63, derde lid. (Zie bijlage B).
 
-## Art. 63bis
+##### Art. 63bis
 
 (De tekst van art. 63bis, eerste, tweede en derde lid, wordt opgeheven met ingang van 01.01.2020 (Art. 3, W 13.04.2019, B.S. 30.04.2019, pg. 41412). Deze wetswijziging is niet van toepassing op het administratieve dwangbevel inzake belasting over de toegevoegde waarde dat ter kennis werd gebracht of werd betekend vóór de datum van haar inwerkingtreding (Art. 138, W 13.04.2019))
 
 De bevoegdheden waarover de ambtenaren bedoeld in de artikelen 61, 62, § 1, en 63, beschikken, kunnen worden toegekend aan ambtenaren van andere fiscale administraties. De Koning duidt deze administraties en, wanneer hij het nodig acht, de ambtenaren aan.
 
-## Art. 63ter
+##### Art. 63ter
 
 (De tekst van art. 63ter, werd ingevoegd met ingang van 04.04.2022 (Art. 14, W 17.03.2022, B.S.
 25.03.2022, pg. 24484, Numac: 2022020530))
@@ -3942,7 +3946,7 @@ De Koning kan de voorwaarden betreffende de ervaring en de opleiding van deze fi
 
 Zij kunnen hun bevoegdheden buiten het rechtsgebied van hun woonplaats uitoefenen.
 
-## Art. 64
+##### Art. 64
 
 (De tekst van art. 64, § 4, derde lid, werd vervangen en § 4 werd aangevuld met een vierde lid, met ingang van 20.08.2018 (Art. 13, W 30.07.2018, B.S. 10.08.2018, pg. 62704 – Erratum B.S.
 28.08.2018, pg. 66582)).
@@ -3963,13 +3967,13 @@ De inlichtingen bedoeld in het derde lid worden meegedeeld door middel van een f
 
 § 5. Behoudens tegenbewijs wordt de levering van een goed geacht te zijn verricht op het tijdstip waarop het goed niet meer aanwezig is in het magazijn, de werkplaats, het depot of enige andere inrichting waarover de leverancier in België beschikt.
 
-## Art. 65
+##### Art. 65
 
 (De tekst van art. 65, werd ingevoegd met ingang van 01.01.1971 (W 03.07.1969))
 
 Op zicht gezonden of in consignatie gegeven goederen worden geacht door de geadresseerde of de consignataris te zijn gekocht, indien deze niet kan bewijzen dat hij ze onder zich houdt of ze aan de afzender of de consignant heeft teruggestuurd.
 
-## Art. 66
+##### Art. 66
 
 (De tekst van art. 66, eerste lid, werd vervangen, het tweede lid werd gewijzigd en het vierde lid werd opgeheven (Art. 5, Wet 12.03.2023, B.S. 23.03.2023, pg. 33328, Numac: 2023041020) met ingang van 01.01.2024 (Art. 21, 1° lid, W 12.03.2023). De datum van inwerkingtreding van de wet van 12.03.2023 werd met een jaar uitgesteld tot 01.01.2025 (Art. 35, KB 17.12.2023, B.S.
 22.12.2023, pg. 120969, Numac: 2023048329))
@@ -3980,7 +3984,7 @@ De administratie kan ook ambtshalve een aanslag opleggen aan de bovengenoemde pe
 
 Een aanslag kan evenwel niet ambtshalve worden opgelegd wanneer de in het vorige lid bedoelde overtredingen als louter toevallig dienen te worden aangemerkt, inzonderheid op grond van het aantal en het belang van de handelingen waarvoor geen regelmatige factuur is uitgereikt, vergeleken met het aantal en het belang van de handelingen waarvoor wel een regelmatige factuur is uitgereikt.
 
-## Art. 67
+##### Art. 67
 
 (De tekst van art. 67, tweede lid werd vervangen en het derde lid werd ingevoegd (Art. 6, W 12.03.2023, B.S. 23.03.2023, pg. 33328, Numac: 2023041020) met ingang van 01.01.2024 (Art. 21,
 1° lid, W 12.03.2023). De datum van inwerkingtreding van de wet van 12.03.2023 werd met een jaar uitgesteld tot 01.01.2025 (art. 35, KB 17.12.2023, B.S. 22.12.2023, pg. 120969, Numac: 2023048329))
@@ -3991,7 +3995,7 @@ De administratie belast met de belasting over de toegevoegde waarde brengt voora
 
 De administratie brengt de beslissing van ambtshalve aanslag ter kennis bij aangetekende zending. Deze kennisgeving heeft uitwerking op de derde werkdag volgend op de afgifte van de zending aan de aanbieder van de universele postdienst.
 
-## Art. 68
+##### Art. 68
 
 (De tekst van art. 68, is van toepassing met ingang van 01.01.1993 (Art. 82, W 28.12.1992))
 
@@ -4002,19 +4006,19 @@ De administratie brengt de beslissing van ambtshalve aanslag ter kennis bij aang
 § 3. Bij ontstentenis van het tegenbewijs toegelaten door de §§ 1 en 2, is de belasting opeisbaar volgens de ten aanzien van invoer geldende regelen. De belasting en de bij artikel 70,
 § 1, ingestelde geldboete zijn hoofdelijk verschuldigd door de importeur, de eigenaar, de houder en indien het om een voertuig gaat, de bestuurder ervan.
 
-## Art. 69
+##### Art. 69
 
 (De tekst van art. 69, is van toepassing met ingang van 01.01.1993 (Art. 83, W 28.12.1992))
 
 Ontvangers belast met de heffing van een belasting op vervoermiddelen of aanhangwagens daarvoor, kunnen vóór de uitreiking van het stuk dat de voldoening van die belasting vaststelt, van de eigenaar het bewijs vorderen dat de belasting over de toegevoegde waarde voldaan is of dat hij ervan vrijgesteld is.
 
-#### HOOFDSTUK XI STRAFBEPALINGEN
+## HOOFDSTUK XI STRAFBEPALINGEN
 
-##### Afdeling 1
+### Afdeling 1
 
 Administratieve geldboeten
 
-## Art. 70
+##### Art. 70
 
 (De tekst van art. 70, § 4, tweede lid, werd gewijzigd (Art. 9, W 20.11.2022, B.S. 30.11.2022, pg.
 88145, Numac: 2022034191) met ingang van 01.01.2023 (Art. 38, W 20.11.2022). De Franse tekst werd gewijzigd (Art. 14, W 23.11.2023))
@@ -4048,7 +4052,7 @@ Zij die niet tot voldoening van de belasting zijn gehouden, maar aan wie bij de 
 
 § 5. Wanneer ten aanzien van goederen en diensten waarvoor de in artikel 59, § 2, bedoelde deskundige schatting kan worden gevorderd, bevonden wordt dat de belasting over een ontoereikende maatstaf werd voldaan, verbeurt de schuldenaar van de aanvullende belasting een geldboete ten bedrage van die belasting indien het tekort gelijk is aan of groter is dan een achtste van de maatstaf waarover de belasting werd voldaan.
 
-## Art. 71
+##### Art. 71
 
 (De tekst van art. 71, is van toepassing met ingang van 07.01.2007 (Art. 117, W 27.04.2007) B.S.
 08.05.2007)
@@ -4063,18 +4067,18 @@ De bij de drie vorige leden ingestelde geldboete bedraagt ten minste 50 EUR per 
 
 - XI / 2 -
 
-## Art. 72
+##### Art. 72
 
 (De tekst van art. 72, is van toepassing met ingang van 05.08.1993 (Art. 26, W 22.07.1993). (Een tweede lid werd ingevoegd met ingang van 01.11.2012 (Art. 14, W 20.09.2012, B.S. 22.10.2012).
 Het Grondwettelijk Hof heeft artikel 14 van de wet van 20.09.2012 vernietigd.(11)
 
 Alle bij dit Wetboek ingestelde geldboeten, behalve die welke de artikelen 73, 73bis en 73quater opleggen, zijn administratieve geldboeten.
 
-##### Afdeling 2
+### Afdeling 2
 
 Strafrechtelijke sancties
 
-## Art. 73
+##### Art. 73
 
 (De tekst van art. 73, werd aangevuld met een derde lid, met ingang van 28.12.2019 (Art. 11, W 09.12.2019, B.S. 18.12.2019, pg. 114228. Addendum B.S. 09.01.2020, pg. 323))
 
@@ -4084,7 +4088,7 @@ Indien de in het eerste lid vermelde inbreuken gepleegd werden in het raam van e
 
 Fiscale fraude wordt in ieder geval als ernstig beschouwd wanneer de in het eerste lid bedoelde inbreuken, verbonden zijn met het grondgebied van ten minste twee lidstaten en een schade veroorzaken van ten minste 10.000.000 euro.
 
-## Art. 73bis
+##### Art. 73bis
 
 (De tekst van art. 73bis, eerste lid, werd gewijzigd met ingang van 01.01.2013 (Art. 42, W 17.12.2012 (I), B.S. 21.12.2012, Ed. 2))
 
@@ -4092,7 +4096,7 @@ Met gevangenisstraf van een maand tot vijf jaar en met geldboete van 250 EUR tot
 
 Hij die wetens en willens een vals getuigschrift opstelt dat de belangen van de Schatkist kan schaden of die van een dergelijk getuigschrift gebruik maakt, wordt gestraft met gevangenisstraf van acht dagen tot twee jaar en met geldboete van 250 EUR tot 500.000 euro of met één van die straffen alleen.
 
-## Art. 73bis/1
+##### Art. 73bis/1
 
 (11) Arrest van het Grondwettelijk Hof nr. 61/2014, d.d. 03.04.2014 (B.S. 02.06.2014, pg. 42200).
 Een tweede lid werd ingevoegd in art. 72, met ingang van 01.11.2012 (Art. 14, W 20.09.2012, B.S. 22.10.2012). Het Grondwettelijk Hof heeft artikel 14 van de wet van 20.09.2012 vernietigd. (Zie bijlage B).
@@ -4105,7 +4109,7 @@ Ten einde te vermijden dat een veroordeelde aan een onredelijk zware straf zou w
 
 Artikel 42, 3°, van het Strafwetboek vindt geen toepassing op de vermogensvoordelen die rechtstreeks uit de fiscale misdrijven zijn verkregen, op de goederen en waarden die in de plaats ervan zijn gesteld en op de inkomsten uit de belegde voordelen in geval de vordering van de fiscale administratie gegrond wordt verklaard en tot een effectieve betaling van deze volledige vordering heeft geleid.
 
-## Art. 73ter
+##### Art. 73ter
 
 (De tekst van art. 73ter is van toepassing met ingang van 01.01.1993 (Art. 85, W 28.12.1992))
 
@@ -4124,14 +4128,14 @@ De rechter kan bovendien, mits hij zijn beslissing op dat stuk motiveert, voor e
 
 § 2. Het verbod en de sluiting bedoeld in § 1 treden in werking vanaf de dag waarop de veroordeling in kracht van gewijsde is gegaan.
 
-## Art. 73quater
+##### Art. 73quater
 
 (De tekst van art. 73quater, werd gewijzigd met ingang van 01.11.2012 (Art. 20, W 20.09.2012, B.S.
 22.10.2012))
 
 Hij die, rechtstreeks of onrechtstreeks, het verbod of de sluiting uitgesproken krachtens artikel 73ter overtreedt, wordt gestraft met gevangenisstraf van acht dagen tot twee jaar en een geldboete van 250 EUR tot 500.000 euro of met één van die straffen alleen.
 
-## Art. 73quinquies
+##### Art. 73quinquies
 
 - XI / 4 -
 
@@ -4143,7 +4147,7 @@ Hij die, rechtstreeks of onrechtstreeks, het verbod of de sluiting uitgesproken 
 
 § 3. De wet van 5 maart 1952, gewijzigd bij de wetten van 22 december 1969 en 25 juni 1975, betreffende de opdecimes op de strafrechtelijke geldboeten, is van toepassing op de misdrijven bedoeld in de artikelen 73, 73bis en 73quater.
 
-## Art. 73sexies
+##### Art. 73sexies
 
 (De tekst van art. 73sexies, eerste en tweede lid, werd gewijzigd (Art. 10, W 20.11.2022, B.S.
 30.11.2022, pg. 88145, Numac: 2022034191) met ingang van 01.01.2023 (Art. 38, W 20.11.2022))
@@ -4161,7 +4165,7 @@ De personen beschuldigd als daders of als medeplichtigen van misdrijven bedoeld 
 
 De natuurlijke personen of de rechtspersonen zijn burgerlijk en hoofdelijk aansprakelijk voor de geldboeten en kosten die het gevolg zijn van de veroordelingen welke krachtens de artikelen 73 tot 73quater tegen hun aangestelden of hun bestuurders, zaakvoerders of vereffenaars, in het kader van de uitoefening van hun functie, in rechte of in feite, zijn uitgesproken.
 
-## Art. 73septies
+##### Art. 73septies
 
 (De tekst van art. 73septies, werd ingevoegd met ingang van 14.02.1981 (Art. 9, W 10.02.1981))
 
@@ -4171,25 +4175,25 @@ Hetzelfde kan gelden voor iedere krachtens artikel 73ter uitgesproken beslissing
 
 - XI / 5 -
 
-## Art. 73octies
+##### Art. 73octies
 
 (De tekst van art. 73octies, werd ingevoegd met ingang van 14.02.1981 (Art. 9, W 10.02.1981))
 
 De schending van het bij artikel 93bis bepaalde beroepsgeheim wordt gestraft overeenkomstig de artikelen 66, 67 en 458 van het Strafwetboek.
 
-## Art. 73nonies
+##### Art. 73nonies
 
 (De tekst van art. 73nonies, werd ingevoegd met ingang van 28.12.2019 (Art. 12, W 09.12.2019, B.S. 18.12.2019, pg. 114228. Addendum B.S. 09.01.2020, pg. 323))
 
 De poging om een in artikel 73, derde lid, bedoelde inbreuk te plegen, wordt gestraft met een gevangenisstraf van acht dagen tot drie jaar en met een geldboete van 26 euro tot 50.000 euro of met een van die straffen alleen.
 
-## Art. 73decies
+##### Art. 73decies
 
 (De tekst van art. 73decies, werd ingevoegd met ingang van 28.12.2019 (Art. 13, W 09.12.2019, B.S. 18.12.2019, pg. 114228. Addendum B.S. 09.01.2020, pg. 323))
 
 Wanneer de in artikel 73, derde lid, bedoelde inbreuk gepleegd wordt door een criminele organisatie in de zin van artikel 324bis van het Strafwetboek, wordt de schuldige gestraft met een gevangenisstraf van 1 jaar tot 5 jaar en met een geldboete van 5.000 euro tot 500.000 euro of met een van die straffen alleen.
 
-## Art. 74
+##### Art. 74
 
 (De tekst van art. 74, § 2, eerste lid, werd gewijzigd; § 2, tweede lid, werd vervangen en § 3, eerste lid, werd gewijzigd met ingang van 01.01.2020 (Art. 112, W 05.05.2019, B.S. 24.05.2019, pg.
 50023))
@@ -4205,7 +4209,7 @@ In geen geval schorst het verzoek om advies de strafvordering.
 
 - XI / 6 -
 
-## Art. 74bis
+##### Art. 74bis
 
 (De tekst van art. 74bis, vijfde lid, werd ingevoegd met ingang van 04.04.2022 (Art. 16, W 17.03.2022, B.S. 25.03.2022, pg. 24484, Numac: 2022020530))
 
@@ -4219,7 +4223,7 @@ Het eerste lid is niet van toepassing op de ambtenaren die deelnemen aan het in 
 
 Het eerste lid is niet van toepassing op de fiscale ambtenaren zoals bedoeld in artikel 63ter, § 1, die bijstand leveren aan de gemengde multidisciplinaire onderzoeksteams zoals bedoeld in artikel 63ter, § 2.
 
-## Art. 74ter
+##### Art. 74ter
 
 (De tekst van art. 74ter, werd gewijzigd met ingang van 01.01.2020 (Art. 7, W 11.06.2020, B.S.
 19.06.2020, pg. 44740))
@@ -4228,15 +4232,15 @@ In het kader van de kennisgeving en het overleg bedoeld in artikel 29, § 2 en �
 
 - XI / 7 -
 
-#### HOOFDSTUK XII TERUGGAAF VAN BELASTING
+## HOOFDSTUK XII TERUGGAAF VAN BELASTING
 
-## Art. 75
+##### Art. 75
 
 (De tekst van art. 75, werd gewijzigd met ingang van 01.01.1978 (Art. 35, W 27.12.1977)
 
 De belasting kan slechts worden teruggegeven in de gevallen waarin dit Wetboek voorziet.
 
-## Art. 76
+##### Art. 76
 
 (De tekst van art. 76, § 1, werd vervangen (Art. 7, W 12.03.2023, B.S. 23.03.2023, pg. 33328, Numac: 2023041020) met ingang van 01.02.2024 (Art. 21, 3° lid, W 12.03.2023). De Koning kan een latere datum van inwerkingtreding bepalen dan die vermeld in artikel 21, eerste lid, zonder dat die datum later mag zijn dan 1 januari 2025 (Art. 22, 1° lid, W 12.03.2023). De datum van inwerkingtreding van de wet van 12.03.2023 werd met een jaar uitgesteld (art. 35, KB 17.12.2023, B.S. 22.12.2023, pg. 120969, Numac: 2023048329). Deze wijziging van artikel 76, van het wetboek, werd bijgevolg met evenveel maanden uitgesteld tot 01.02.2025) (12)
 
@@ -4292,7 +4296,7 @@ De Koning bepaalt de toepassingsvoorwaarden van deze paragraaf met betrekking to
 
 Wanneer de teruggaaf moet plaatsvinden overeenkomstig de bepalingen inzake teruggaaf van de Richtlijn 86/560/EEG of de Richtlijn 2008/9/EG, regelt de Koning de toepassingsmodaliteiten van deze paragraaf met betrekking tot het personele toepassingsgebied, de belasting waarvoor om teruggaaf kan verzocht worden, de te volgen procedure, de vormvoorwaarden, het teruggaaftijdvak, de minimumbedragen, de in acht te nemen termijnen en de correcties, met inachtneming van het feit dat de teruggaaf op grond van de Richtlijn 85/560/EEG, waar die richtlijn dat toelaat, wordt verleend onder dezelfde voorwaarden als die van toepassing voor de teruggaaf op grond van de Richtlijn 2008/9/EG. De Koning kan daarbij afwijken van het bepaalde in artikel 82bis.
 
-## Art. 77
+##### Art. 77
 
 (De tekst van art. 77, § 2, eerste lid, inleidende zin, werd vervangen en § 3 werd ingevoegd met ingang van 10.07.2021 (Art. 17, W 27.06.2021, B.S. 30.06.2021, Ed. 3, pg. 66732, Numac: 2021042511))
 
@@ -4350,21 +4354,21 @@ De Koning kan bepalen dat:
 
 - XII / 4 -
 
-## Art. 77bis
+##### Art. 77bis
 
 (De tekst van art. 77bis, werd vervangen met ingang van 10.07.2021 (Art. 18, W 27.06.2021, B.S.
 30.06.2021, Ed. 3, pg. 66732, Numac: 2021042511))
 
 Onverminderd de toepassing van artikel 334 van de programmawet van 27 december 2004 wordt, wanneer in het in artikel 25quinquies, § 4, bepaalde geval de door een nietbelastingplichtige rechtspersoon verworven goederen uit een derdelandsgebied of een derde land worden verzonden of vervoerd naar een andere lidstaat dan België, de belasting betaald in geval van invoer van de goederen in België teruggegeven aan de niet-belastingplichtige rechtspersoon die in het bezit is van een invoerdocument dat hem vermeldt als persoon op wiens naam de belasting mag of moet worden voldaan overeenkomstig artikel 52, § 1, tweede lid, en dat de betaling van de belasting vaststelt, in de mate dat laatstgenoemde aantoont dat de intracommunautaire verwerving die hij verricht aan de belasting werd onderworpen in de lidstaat van aankomst van de verzending of het vervoer van de goederen.
 
-## Art. 78
+##### Art. 78
 
 (De tekst van art. 78, werd gewijzigd met ingang van 01.01.2004 (Art. 14, W 28.01.2004, B.S.
 10.02.2004))
 
 Wanneer degene die goederen levert, diensten verricht, intracommunautaire verwervingen van goederen verricht of schuldenaar is van de ter zake van invoer geheven belasting een belastingplichtige is of een niet-belastingplichtige rechtspersoon die, al naar het geval, gehouden zijn tot de indiening van de in de artikelen 53, § 1, eerste lid, 2°, of 53ter, 1°, bepaalde aangifte, wordt het ingevolge artikel 77 terug te geven bedrag toegerekend op de belasting die ter zake van later verrichte handelingen verschuldigd wordt.
 
-## Art. 79
+##### Art. 79
 
 (De tekst van art. 79, § 2, werd gewijzigd met ingang van 07.01.2007 (Art. 51, W 27.12.2006, B.S.
 28.12.2006))
@@ -4383,7 +4387,7 @@ De persoon die de belasting in aftrek heeft gebracht geheven van de goederen en 
 
 intracommunautaire verwervingen die hij heeft verricht, is er toe gehouden de aldus afgetrokken bedragen aan de Staat terug te storten als hij, op het tijdstip waarop hij deze handeling heeft verricht, wist of moest weten dat de verschuldigde belasting, in de ketting van de handelingen, niet werd of zal worden gestort aan de Staat met de bedoeling de belasting te ontduiken.
 
-## Art. 80
+##### Art. 80
 
 (De tekst van art. 80, vierde lid, werd ingevoegd met ingang van 10.07.2021 (Art. 19, W 27.06.2021, B.S. 30.06.2021, Ed. 3, pg. 66732, Numac: 2021042511))
 
@@ -4398,15 +4402,15 @@ Onverminderd het eerste lid, bepaalt Hij de toepassingsvoorwaarden van de terugg
 
 - XII / 6 -
 
-#### HOOFDSTUK XIII VERJARING
+## HOOFDSTUK XIII VERJARING
 
-## Art. 81
+##### Art. 81
 
 (De tekst van art. 81, werd gewijzigd (Art. 11, W 20.11.2022, B.S. 30.11.2022, pg. 88145, Numac: 2022034191) met ingang van 01.01.2023 (Art. 38, W 20.11.2022))
 
 De vordering tot voldoening van de belasting, van de nalatigheidsinteresten en van de administratieve geldboeten begint te verjaren vanaf de dag dat deze vordering ontstaat.
 
-## Art. 81bis
+##### Art. 81bis
 
 (13)
 (De tekst van art. 81bis, § 1, werd aangevuld met een lid, met ingang van 11.12.2023 (Art. 20, W 23.11.2023, B.S. 01.12.2023, pg. 111953, Numac: 2023047474))
@@ -4429,19 +4433,19 @@ De verjaring bedoeld in het derde lid, 2°, treedt ten vroegste in na het verstr
 
 § 2. Indien de in artikel 59, § 2, bedoelde procedure uitwijst dat de belasting over een ontoereikende maatstaf werd voldaan, verjaart de vordering tot voldoening van de aanvullende belasting, van de nalatigheidsinteresten, van de administratieve geldboeten en van de procedurekosten, door verloop van twee jaar te rekenen van de laatste daad in die procedure.
 
-## Art. 82
+##### Art. 82
 
 (De tekst van art. 82, werd gewijzigd (Art. 13, W 20.11.2022, B.S. 30.11.2022, pg. 88145, Numac: 2022034191) met ingang van 01.01.2023 (Art. 38, W 20.11.2022))
 
 De vordering tot teruggaaf van de belasting, van de nalatigheidsinteresten en van de administratieve geldboeten begint te verjaren vanaf de dag dat deze vordering ontstaat.
 
-## Art. 82bis
+##### Art. 82bis
 
 (De tekst van art. 82bis, werd gewijzigd (Art. 14, W 20.11.2022, B.S. 30.11.2022, pg. 88145, Numac: 2022034191) met ingang van 01.01.2023 (Art. 38, W 20.11.2022))
 
 Er is verjaring voor de vordering tot teruggaaf van de belasting, van de nalatigheidsinteresten en van de administratieve geldboeten, na het verstrijken van het derde kalenderjaar volgend op dat waarin de oorzaak van teruggaaf van die belasting, interesten en administratieve geldboeten zich heeft voorgedaan.
 
-## Art. 83
+##### Art. 83
 
 (De tekst van art. 83, § 1, eerste en tweede lid en § 3, eerste lid, werd gewijzigd (Art. 15, W 20.11.2022, B.S. 30.11.2022, pg. 88145, Numac: 2022034191) met ingang van 01.01.2023 (Art. 38, W 20.11.2022)). (14)
 
@@ -4466,10 +4470,10 @@ De schorsing vangt aan met het op gang brengen van de strafvordering, en eindigt
 
 - XIII / 3 -
 
-#### HOOFDSTUK XIV INNING EN GEDINGEN
+## HOOFDSTUK XIV INNING EN GEDINGEN
 (De betiteling van hoofdstuk XIV, werd vervangen met ingang van 01.01.2020 (Art. 5, W 13.04.2019, B.S. 30.04.2019, pg. 41412))
 
-## Art. 83bis
+##### Art. 83bis
 
 (De tekst van art. 83bis, werd ingevoegd in Hoofdstuk XIV van het Wetboek (Art. 8, W 12.03.2023, B.S. 23.03.2023, pg. 33328, Numac: 2023041020) met ingang van 01.02.2024 (Art. 21, 3° lid, W 12.03.2023). De Koning kan een latere datum van inwerkingtreding bepalen dan die vermeld in artikel 21, eerste lid, zonder dat die datum later mag zijn dan 1 januari 2025 (Art. 22, 3° lid, W 12.03.2023). De datum van inwerkingtreding van de wet van 12.03.2023 werd effectief met een jaar uitgesteld (art. 35, KB 17.12.2023, B.S. 22.12.2023, pg. 120969, Numac: 2023048329). De invoering van artikel 83bis, van het wetboek, werd bijgevolg met evenveel maanden uitgesteld tot 01.02.2025) (15)
 
@@ -4490,7 +4494,7 @@ In geval van toepassing van het eerste lid, worden de in artikel 138, tweede lid
 
 - XIV / 1 -
 
-## Art. 84
+##### Art. 84
 
 (De tekst van art. 84, werd gewijzigd met ingang van 06.04.1999 (Art. 57, W 15.03.1999))
 
@@ -4500,7 +4504,7 @@ De Minister van Financiën treft met de belastingschuldigen dadingen, voor zover
 
 Binnen de door de wet gestelde grenzen, wordt het bedrag van de proportionele fiscale boeten vastgesteld in dit Wetboek of in de ter uitvoering ervan genomen besluiten, bepaald volgens een schaal waarvan de trappen door de Koning worden vastgesteld.
 
-## Art. 84bis
+##### Art. 84bis
 
 (16)
 (De tekst van art. 84bis, werd opgeheven met ingang van 01.01.2020 (Art. 6, W 13.04.2019, B.S.
@@ -4508,13 +4512,13 @@ Binnen de door de wet gestelde grenzen, wordt het bedrag van de proportionele fi
 
 (Opgeheven)
 
-## Art. 84ter
+##### Art. 84ter
 
 (De tekst van art. 84ter, werd vervangen (Art. 21, W 23.11.2023, B.S. 01.12.2023, pg. 111953, Numac: 2023047474) met ingang van 01.01.2023 - Artikel 84ter, zoals vervangen bij artikel 21, is van toepassing op de belasting die opeisbaar is vanaf 1 januari 2023 (Art. 22, W 23.11.2023))
 
 Indien zij voornemens is de in artikel 81bis, § 1, vierde lid, bepaalde verjaringstermijn toe te passen, moet de administratie belast met de belasting over de toegevoegde waarde, op straffe van nietigheid van de rechtzetting, op basis van aanwijzingen van fraude, voorafgaandelijk aan de betrokkene schriftelijk kennis geven van de vermoedens van fraude die tegen hem bestaan in de betreffende periode.
 
-## Art. 84quater
+##### Art. 84quater
 
 (16)   Het artikel zoals van kracht vóór 01.01.2020, blijft van toepassing op het administratieve dwangbevel dat ter kennis werd gebracht of werd betekend vóór 01.01.2020.
 De Wet tot invoering van het Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen van 13.04.2019 is niet van toepassing op het administratieve dwangbevel inzake belasting over de toegevoegde waarde dat ter kennis werd gebracht of werd betekend voor de datum van haar inwerkingtreding (art. 138, 1°); op fiscale en niet-fiscale schuldvorderingen opgenomen in een kohier, een bijzonder kohier of een innings- en invorderingsregister, uitvoerbaar verklaard voor de datum van haar inwerkingtreding (art. 138, 5°); op fiscale en niet-fiscale schuldvorderingen, andere dan deze waarvan de inning en de invordering verzekerd zijn in toepassing van de wet van 21 februari 2003 tot oprichting van een Dienst voor alimentatievorderingen bij de FOD Financiën, die het voorwerp hebben uitgemaakt van een in kracht van gewijsde getreden rechterlijke beslissing houdende veroordeling tot hun betaling, voor de datum van haar inwerkingtreding (art. 138, 6°).
@@ -4532,32 +4536,32 @@ Wanneer de schuldenaar van de belasting een rechtsvordering instelt met toepassi
 § 3. Ingevolge het bemiddelingsverslag kan de administratieve beslissing het bedrag van de fiscale schuld aanpassen, voor zover dit geen vrijstelling of vermindering van belasting inhoudt.
 Het is evenwel niet toegelaten een aanvullende belasting te vestigen.
 
-## Art. 84quinquies
+##### Art. 84quinquies
 
 (De tekst van art. 84quinquies, werd opgeheven met ingang van 01.01.2020 (Art. 7, W 13.04.2019, B.S. 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
 
 (Opgeheven)
 
-## Art. 84sexies
+##### Art. 84sexies
 
 (De tekst van art. 84sexies, werd opgeheven met ingang van 01.01.2020 (Art. 8, W 13.04.2019, B.S.
 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
 
 (Opgeheven)
 
-## Art. 84septies
+##### Art. 84septies
 
 (De tekst van art. 84septies, werd opgeheven met ingang van 01.01.2020 (Art. 9, W 13.04.2019, B.S. 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
 
 (Opgeheven)
 
-## Art. 84octies
+##### Art. 84octies
 
 (De tekst van art. 84octies, werd opgeheven met ingang van 01.01.2020 (Art. 10, W 13.04.2019, B.S. 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
 
 (Opgeheven)
 
-## Art. 84nonies
+##### Art. 84nonies
 
 - XIV / 3 -
 
@@ -4565,19 +4569,19 @@ Het is evenwel niet toegelaten een aanvullende belasting te vestigen.
 
 (Opgeheven)
 
-## Art. 84decies
+##### Art. 84decies
 
 (De tekst van art. 84decies, werd opgeheven met ingang van 01.01.2020 (Art. 12, W 13.04.2019, B.S. 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
 
 (Opgeheven)
 
-## Art. 84undecies
+##### Art. 84undecies
 
 (De tekst van art. 84undecies, werd opgeheven met ingang van 01.01.2020 (Art. 13, W 13.04.2019, B.S. 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
 
 (Opgeheven)
 
-## Art. 85
+##### Art. 85
 
 (17) (18)
 (De tekst van art. 85, § 1, derde lid werd vervangen; tussen het vierde en vijfde lid, werd een lid ingevoegd; het zesde lid, dat het zevende lid werd, werd gewijzigd; het achtste lid, dat het negende lid werd, werd vervangen en het negende lid, dat het tiende lid werd, werd gewijzigd (Art. 9, W 12.03.2023, B.S. 23.03.2023, pg. 33328, Numac: 2023041020), met ingang van 01.01.2024 (Art.
@@ -4626,42 +4630,42 @@ De Koning bepaalt de toepassingsmodaliteiten van de in het tweede lid bedoelde p
 
 §§ 4, 5 en 6 (Opgeheven) (20)
 
-## Art. 85bis
+##### Art. 85bis
 
 (De tekst van art. 85bis, werd opgeheven met ingang van 01.01.2020 (Art. 15, W 13.04.2019, B.S.
 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
 
 (Opgeheven)
 
-## Art. 85ter
+##### Art. 85ter
 
 (De tekst van art. 85ter, werd opgeheven met ingang van 01.01.2020 (Art. 16, W 13.04.2019, B.S.
 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
 
 (Opgeheven)
 
-## Art. 86
+##### Art. 86
 
 (De tekst van art. 86, werd opgeheven met ingang van 01.01.2020 (Art. 17, W 13.04.2019, B.S.
 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
 
 (Opgeheven)
 
-## Art. 87
+##### Art. 87
 
 (De tekst van art. 87, werd opgeheven met ingang van 01.01.2020 (Art. 18, W 13.04.2019, B.S.
 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
 
 (Opgeheven)
 
-## Art. 88
+##### Art. 88
 
 (De tekst van art. 88, werd opgeheven met ingang van 01.01.2020 (Art. 19, W 13.04.2019, B.S.
 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
 
 (Opgeheven)
 
-## Art. 88bis
+##### Art. 88bis
 
 (De tekst van art. 88bis, werd opgeheven met ingang van 01.01.2020 (Art. 20, W 13.04.2019, B.S.
 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
@@ -4672,28 +4676,28 @@ De Koning bepaalt de toepassingsmodaliteiten van de in het tweede lid bedoelde p
 
 - XIV / 6 -
 
-## Art. 88ter
+##### Art. 88ter
 
 (De tekst van art. 88ter, werd opgeheven met ingang van 01.01.2020 (Art. 21, W 13.04.2019, B.S.
 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
 
 (Opgeheven)
 
-## Art. 89
+##### Art. 89
 
 (De tekst van art. 89, werd opgeheven met ingang van 01.01.2020 (Art. 22, W 13.04.2019, B.S.
 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
 
 (Opgeheven)
 
-## Art. 89bis
+##### Art. 89bis
 
 (De tekst van art. 89bis, werd opgeheven met ingang van 01.01.2020 (Art. 23, W 13.04.2019, B.S.
 30.04.2019, pg. 41412). (Zie noot bij art. 84bis)
 
 (Opgeheven)
 
-## Art. 90
+##### Art. 90
 
 (De tekst van art. 90, werd vervangen (Art. 21, W 20.12.2024, B.S. 31.12.2024, pg. 144062, Numac: 2024011891) met ingang van 10.01.2025 (tiende dag na publicatie))
 
@@ -4701,7 +4705,7 @@ Inzake de geschillen betreffende de toepassing van een belastingwet, kunnen de v
 
 Wanneer in toepassing van artikel 4bis van de voorafgaande titel van het Wetboek van strafvordering, de belastingadministratie tussenkomt in een strafzaak door middel van de burgerlijke vordering, kan de verschijning in persoon namens de Belgische Staat alsook elke procedurehandeling worden gedaan door elke ambtenaar van een belastingadministratie.
 
-## Art. 91
+##### Art. 91
 
 (De tekst van art. 91, § 4, eerste lid, 1°, werd aangevuld en het eerste lid werd aangevuld met een punt 1°/1, met ingang van 08.01.2024 (Art. 86, W 28.12.2023, B.S. 29.12.2023, pg. 125014, Numac: 2023048795))
 
@@ -4767,13 +4771,13 @@ Er is echter geen interest verschuldigd wanneer:
 
 2°    de administratie niet over de noodzakelijke gegevens beschikt om de terug te betalen sommen te vereffenen en deze gegevens door haar niet met redelijke inspanningen kunnen worden verkregen. Geen moratoriuminterest is verschuldigd voor de periode vanaf de eerste dag van de maand volgend op deze waarin de sommen hadden moeten zijn uitbetaald op grond van een ingebrekestelling van de administratie indien zij over de noodzakelijke gegevens had beschikt, tot het einde van de maand volgend op de maand waarin de noodzakelijke gegevens om de terug te betalen sommen te vereffenen aan de administratie zijn meegedeeld.
 
-## Art. 92
+##### Art. 92
 
 (De tekst van art. 92, werd gewijzigd (Art. 18, W 20.11.2022, B.S. 30.11.2022, pg. 88145, Numac: 2022034191) met ingang van 01.01.2023 (Art. 38, W 20.11.2022) (De huidige tekst is niet van toepassing op het administratieve dwangbevel inzake belasting over de toegevoegde waarde dat ter kennis werd gebracht of werd betekend vóór 01.01.2020 (Art. 138, W 13.04.2019). (Zie noot bij art. 84bis)
 
 De bepalingen van dit Wetboek doen geen afbreuk aan het recht van de Staat om het herstel van de schade te vorderen die kan bestaan uit de niet-betaling van de belastingen, nalatigheidsinteresten, administratieve geldboeten en bijbehoren, door een burgerlijke partijstelling of door een aansprakelijkheidsvordering.
 
-## Art. 92bis
+##### Art. 92bis
 
 (De tekst van art. 92bis is ingevoegd met ingang van 01.01.1999 (Art. 62, W 15.03.1999))
 
@@ -4781,7 +4785,7 @@ De termijnen van verzet, hoger beroep en cassatie, alsmede het verzet, het hoger
 
 - XIV / 9 -
 
-## Art. 92ter
+##### Art. 92ter
 
 (De tekst van art. 93ter, werd ingevoegd met ingang van 10.12.2022 (Art. 91, W 20.11.2022, B.S.
 30.11.2022, pg. 88145, Numac: 2022034191))
@@ -4792,7 +4796,7 @@ De vordering wordt aanhangig gemaakt bij de rechter die bevoegd is om te oordele
 
 De dwangsom kan gevorderd worden wanneer de onderzoekingen uitgevoerd worden op vraag van een Staat waarmee België een rechtsgrond tot uitwisselen van inlichtingen heeft inzake de belasting over de toegevoegde waarde.
 
-## Art. 93
+##### Art. 93
 
 (De tekst van art. 93 is van toepassing met ingang van 10.01.2005 (Art. 381, W 27.12.2004, B.S.
 31.12.2004))
@@ -4801,9 +4805,9 @@ Het verzoekschrift houdende voorziening in cassatie en het antwoord op de voorzi
 
 - XIV / 10 -
 
-#### HOOFDSTUK XV BEROEPSGEHEIM
+## HOOFDSTUK XV BEROEPSGEHEIM
 
-## Art. 93bis
+##### Art. 93bis
 
 (De tekst van art. 93bis, tweede lid, werd gewijzigd met ingang van 10.07.2021 (Art. 108, W 27.06.2021, B.S. 30.06.2021, Ed. 3, pg. 66736, Numac: 2021021157))
 
@@ -4814,7 +4818,7 @@ Personen die deel uitmaken van diensten waaraan de administratie belast met de b
 Personen die deel uitmaken van diensten waaraan de administratie belast met de belasting over de toegevoegde waarde, ingevolge het vorige lid inlichtingen van fiscale aard heeft verstrekt, zijn tot dezelfde geheimhouding verplicht en mogen de bekomen inlichtingen niet gebruiken buiten het kader van de wettelijke bepalingen voor de uitvoering waarvan zij zijn verstrekt.
 Onder openbare instellingen of inrichtingen dienen verstaan de instellingen, maatschappijen, verenigingen, inrichtingen en diensten welke de Staat mede beheert, waaraan de Staat een waarborg verstrekt, op welker bedrijvigheid de Staat toezicht uitoefent of waarvan het bestuurspersoneel aangewezen wordt door de regering, op haar voordracht of met haar goedkeuring.
 
-## Art. 93bis/1
+##### Art. 93bis/1
 
 (De tekst van art. 93bis/1, werd ingevoegd met ingang van 01.04.2019 (Art. 31, W 11.02.2019, B.S.
 22.03.2019, pg. 28349))
@@ -4824,22 +4828,22 @@ Het in het eerste lid bedoelde akkoord wordt geacht te zijn bekomen wanneer de b
 
 - XV / 1 -
 
-#### HOOFDSTUK XVI AANSPRAKELIJKHEID EN PLICHTEN VAN SOMMIGE OPENBARE AMBTENAREN EN ANDERE PERSONEN
+## HOOFDSTUK XVI AANSPRAKELIJKHEID EN PLICHTEN VAN SOMMIGE OPENBARE AMBTENAREN EN ANDERE PERSONEN
 (Hoofdstuk XVI, dat de artikelen 93ter tot 93undeciesE bevat, werd opgeheven met ingang van 01.01.2020 (Art. 25, W 13.04.2019, B.S. 30.04.2019, pg. 41412). De artikelen van dit hoofdstuk blijven evenwel van toepassing op de gevallen bedoeld in art. 138, W 13.04.2019) (21)
 
-## Art. 93ter
+##### Art. 93ter
 
 (Pro memorie: Het artikel 93ter, werd vóór de opheffing op 01.01.2020, nog gewijzigd met ingang van 30.12.2019 (Art. 2, W 23.04.2020, B.S. 11.05.2020, pg. 33377) – Zie voor deze gewijzigde tekst, welke in bepaalde gevallen ook na 01.01.2020 nog van toepassing kan zijn (12), de historiek van dit artikel in de html-versie van het Btw-Wetboek)
 
 (Opgeheven) (12) (22)
 
-## Art. 93quater
+##### Art. 93quater
 
 (Pro memorie: Het artikel 93quater, werd vóór de opheffing op 01.01.2020, nog gewijzigd met ingang van 30.12.2019 (Art. 2, W 23.04.2020, B.S. 11.05.2020, pg. 33377) – Zie voor deze gewijzigde tekst, welke in bepaalde gevallen ook na 01.01.2020 nog van toepassing kan zijn (12), de historiek van dit artikel in de html-versie van het Btw-Wetboek) (Voor de gevallen waarin het artikel nog steeds van toepassing is, werd de tekst van § 1 gewijzigd (Art. 87, W 28.12.2023, B.S. 29.12.2023, pg. 125014, Numac: 2023048795). Deze wijziging is van toepassing voor alle situaties waarin de berichten bedoeld in artikel 93ter, § 1, van het Wetboek van de belasting over de toegevoegde waarde verzonden worden na 01.01.2024 (Art. 90, W 28.12.2023) – Zie de historiek)
 
 (Opgeheven) (12) (13)
 
-## Art. 93quinquies
+##### Art. 93quinquies
 
 (21) De artikelen zoals van kracht vóór 01.01.2020, blijven van toepassing op het administratieve dwangbevel dat ter kennis werd gebracht of werd betekend vóór 01.01.2020. - Zie voor deze teksten, welke in bepaalde gevallen ook na 01.01.2020 nog van toepassing kunnen zijn, de historiek van deze artikelen in de html-versie van het Btw-Wetboek.
 De Wet tot invoering van het Wetboek van de minnelijke en gedwongen invordering van fiscale en nietfiscale schuldvorderingen van 13.04.2019 is niet van toepassing op het administratieve dwangbevel inzake belasting over de toegevoegde waarde dat ter kennis werd gebracht of werd betekend voor de datum van haar inwerkingtreding (art. 138, 1°); op fiscale en niet-fiscale schuldvorderingen opgenomen in een kohier, een bijzonder kohier of een innings- en invorderingsregister, uitvoerbaar verklaard voor de datum van haar inwerkingtreding (art. 138, 5°); op fiscale en niet-fiscale schuldvorderingen, andere dan deze waarvan de inning en de invordering verzekerd zijn in toepassing van de wet van 21 februari 2003 tot oprichting van een Dienst voor alimentatievorderingen bij de FOD Financiën, die het voorwerp hebben uitgemaakt van een in kracht van gewijsde getreden rechterlijke beslissing houdende veroordeling tot hun betaling, voor de datum van haar inwerkingtreding (art. 138, 6°).
@@ -4851,41 +4855,41 @@ De Wet tot invoering van het Wetboek van de minnelijke en gedwongen invordering 
 
 (Opgeheven) (12) (13)
 
-## Art. 93sexies
+##### Art. 93sexies
 
 (Opgeheven) (12)
 
-## Art. 93septies
+##### Art. 93septies
 
 (Opgeheven) (12)
 
-## Art. 93octies
+##### Art. 93octies
 
 (Pro memorie: Het artikel 93octies, werd vóór de opheffing op 01.01.2020, nog hersteld met ingang van 30.12.2019 (Art. 2, W 23.04.2020, B.S. 11.05.2020, pg. 33377) – Zie voor deze herstelde tekst, welke in bepaalde gevallen ook na 01.01.2020 nog van toepassing kan zijn (12), de historiek van dit artikel in de html-versie van het Btw-Wetboek). Betreffende de gevallen waarvoor het artikel, zoals van kracht vóór 01.01.2020, nog steeds van toepassing kan zijn, werd het eerste lid gewijzigd met ingang van 03.11.2022 (Art. 13, W 16.10.2022, B.S. 24.10.2022, Ed. 2, pg. 77534, Numac: 2022033779))
 
 (Opgeheven) (12)
 
-## Art. 93nonies
+##### Art. 93nonies
 
 (Opgeheven) (12)
 
-## Art. 93decies
+##### Art. 93decies
 
 (Opgeheven) (12)
 
-## Art. 93undeciesA
+##### Art. 93undeciesA
 
 (Opgeheven) (12)
 
-## Art. 93undeciesB
+##### Art. 93undeciesB
 
 (Opgeheven) (12)
 
-## Art. 93undeciesC
+##### Art. 93undeciesC
 
 (Opgeheven) (12) (23)
 
-## Art. 93undeciesD
+##### Art. 93undeciesD
 
 (23) Voor de gevallen bedoeld in art. 138, W 13.04.2019: De tekst van art. 93undeciesC, § 1, eerste lid, werd gewijzigd met ingang van 01.05.2019 (Art. 86, W 17.03.2019, B.S. 10.05.2019, pg. 45450). Die wijziging van § 1, eerste lid werd later nogmaals gewijzigd (Art. 24, W 20.12.2021, B.S. 28.12.2021, pg. 125177, Numac:2021034484), eveneens met ingang van 01.05.2019 (Art. 30, W 20.12.2021) – Zie de historiek, versie in html.
 
@@ -4895,16 +4899,16 @@ De Wet tot invoering van het Wetboek van de minnelijke en gedwongen invordering 
 
 (Opgeheven) (12)
 
-## Art. 93undeciesE
+##### Art. 93undeciesE
 
 (Opgeheven) (12)
 
 - XVI / 3 -
 
-#### HOOFDSTUK XVII VERPLICHTINGEN VAN BETALINGSDIENSTAANBIEDERS
+## HOOFDSTUK XVII VERPLICHTINGEN VAN BETALINGSDIENSTAANBIEDERS
 (Het opschrift van hoofdstuk XVII, werd hersteld (Art. 4, W 07.04.2023, B.S. 18.04.2023, pg. 39876, Numac: 2023041376) met ingang van 01.01.2024 (Art. 11, W 07.04.2023))
 
-## Art. 93duodecies
+##### Art. 93duodecies
 
 (24)
 (De tekst van art. 93duodecies, werd hersteld (Art. 5, W 07.04.2023, B.S. 18.04.2023, pg. 39876, Numac: 2023041376) met ingang van 01.01.2024 (Art. 11, W 07.04.2023))
@@ -4931,7 +4935,7 @@ Voor de toepassing van dit hoofdstuk wordt verstaan onder:
 
 10°   "BIC": "BIC" zoals bedoeld in artikel 2, punt 16, van Verordening (EU) nr. 260/2012.
 
-## Art. 93duodecies/1
+##### Art. 93duodecies/1
 
 (24) De tekst zoals van kracht vóór 01.01.2020, blijft evenwel van toepassing op het administratieve dwangbevel dat ter kennis werd gebracht of werd betekend vóór 01.01.2020.
 De Wet tot invoering van het Wetboek van de minnelijke en gedwongen invordering van fiscale en nietfiscale schuldvorderingen van 13.04.2019 is niet van toepassing op het administratieve dwangbevel inzake belasting over de toegevoegde waarde dat ter kennis werd gebracht of werd betekend voor de datum van haar inwerkingtreding (art. 138, 1°); op fiscale en niet-fiscale schuldvorderingen opgenomen in een kohier, een bijzonder kohier of een innings- en invorderingsregister, uitvoerbaar verklaard voor de datum van haar inwerkingtreding (art. 138, 5°); op fiscale en niet-fiscale schuldvorderingen, andere dan deze waarvan de inning en de invordering verzekerd zijn in toepassing van de wet van 21 februari 2003 tot oprichting van een Dienst voor alimentatievorderingen bij de FOD Financiën, die het voorwerp hebben uitgemaakt van een in kracht van gewijsde getreden rechterlijke beslissing houdende veroordeling tot hun betaling, voor de datum van haar inwerkingtreding (art. 138, 6°).
@@ -4965,7 +4969,7 @@ a)    België de lidstaat van herkomst is van de betalingsdienstaanbieder;
 
 b)    België de lidstaat van ontvangst is van de betalingsdienstaanbieder, wanneer België niet zijn lidstaat van herkomst is maar hij in België betalingsdiensten verleent.
 
-## Art. 93duodecies/2
+##### Art. 93duodecies/2
 
 - XVII / 2 -
 
@@ -4984,7 +4988,7 @@ Voor de toepassing van artikel 93duodecies/1, § 2, tweede lid, en onverminderd 
 
 2°    bij gebrek aan een in 1° bedoelde identificatiecode, de BIC of een andere bedrijfsidentificatiecode die de namens de begunstigde handelende betalingsdienstaanbieder ondubbelzinnig identificeert en de locatie van de betalingsdienstaanbieder opgeeft.
 
-## Art. 93duodecies/3
+##### Art. 93duodecies/3
 
 (De tekst van art. 93duodecies/1, werd ingevoegd (Art. 8, W 07.04.2023, B.S. 18.04.2023, pg.
 39876, Numac: 2023041376) met ingang van 01.01.2024 (Art. 11, W 07.04.2023)
@@ -5020,14 +5024,14 @@ De in het eerste lid, 7° en 8°, bedoelde informatie bevat de volgende bijzonde
 
 5°    in voorkomend geval, informatie waaruit blijkt dat de betaling in de fysieke locatie van de handelaar is geïnitieerd.
 
-## Art. 93duodecies/4
+##### Art. 93duodecies/4
 
 (De tekst van art. 93duodecies/1, werd ingevoegd (Art. 9, W 07.04.2023, B.S. 18.04.2023, pg.
 39876, Numac: 2023041376) met ingang van 01.01.2024 (Art. 11, W 07.04.2023)
 
 De administratie belast met de belasting over de toegevoegde waarde bewaart de in artikel 93duodecies/3 bedoelde informatie in een nationaal elektronisch systeem tot en met 31 december van het vijfde jaar na het jaar waarin die gegevens overeenkomstig artikel 93duodecies/1, § 4, 2°, ter beschikking werden gesteld, om de correcte toepassing van de verplichtingen van de betalingsdienstaanbieders te kunnen controleren en om die gegevens te kunnen samenvoegen met andere reeds beschikbare gegevens om gerichte fiscale controles uit te voeren op basis van risico-indicatoren.
 
-## Art. 93duodecies/5
+##### Art. 93duodecies/5
 
 (De tekst van art. 93duodecies/1, werd ingevoegd (Art. 10, W 07.04.2023, B.S. 18.04.2023, pg.
 39876, Numac: 2023041376) met ingang van 01.01.2024 (Art. 11, W 07.04.2023)
@@ -5036,9 +5040,9 @@ De Koning bepaalt het tijdstip van de in artikel 93duodecies/1, § 4, 2°, bedoe
 
 - XVII / 4 -
 
-#### HOOFDSTUK XVIII WEDERZIJDSE BIJSTAND
+## HOOFDSTUK XVIII WEDERZIJDSE BIJSTAND
 
-## Art. 93terdecies
+##### Art. 93terdecies
 
 (De tekst van art. 93terdecies, werd gewijzigd met ingang van 16.05.2014 (Art. 52, W 25.04.2014, B.S. 16.05.2014, pg. 39621))
 
@@ -5054,9 +5058,9 @@ De inlichtingen die door een ambtenaar van de administratie belast met de belast
 
 - XVIII / 1 -
 
-#### HOOFDSTUK XIX AAN ALLE BELASTINGEN GEMENE BEPALINGEN
+## HOOFDSTUK XIX AAN ALLE BELASTINGEN GEMENE BEPALINGEN
 
-## Art. 93quaterdecies
+##### Art. 93quaterdecies
 
 (De tekst van art. 93quaterdecies, § 1, eerste lid, werd gewijzigd met ingang van 01.01.2020 (Art.
 27, W 13.04.2019, B.S. 30.04.2019, pg. 41412). Deze wetswijziging is niet van toepassing op het administratieve dwangbevel inzake belasting over de toegevoegde waarde dat ter kennis werd gebracht of werd betekend vóór de datum van haar inwerkingtreding (Art. 138, W 13.04.2019)))
@@ -5076,7 +5080,7 @@ Elke ambtenaar van de Federale Overheidsdienst Financiën, die regelmatig werd b
 
 OPHEFFINGSBEPALINGEN
 
-## Art. 94
+##### Art. 94
 
 (De tekst van art. 94, werd ingevoegd met ingang van 01.01.1971 (W 03.07.1969))
 
@@ -5100,7 +5104,7 @@ b)     § 3;
 
 6°    het ministerieel besluit van 23 december 1964 houdende Aanvullende Verordening op de met het zegel gelijkgestelde taksen.
 
-## Art. 95
+##### Art. 95
 
 (De tekst van art. 95, werd ingevoegd met ingang van 01.01.1971 (W 03.07.1969))
 
@@ -5110,15 +5114,15 @@ b)     § 3;
 
 - Opheffing en inwerkingtreding / 1 -
 
-## Art. 96
+##### Art. 96
 
 (De tekst van art. 96, werd ingevoegd met ingang van 01.01.1971 (W 03.07.1969))
 
-## Art. 9
+##### Art. 9
 
 van de wet van 7 maart 1935 tot oprichting van een gedenkteken der regering van Koning Albert wordt met het volgende lid aangevuld: "De bepalingen betreffende de belasting over de toegevoegde waarde zijn van toepassing op de verrichtingen bedoeld in het eerste lid".
 
-## Art. 97
+##### Art. 97
 
 (De tekst van art. 97, werd ingevoegd met ingang van 01.01.1971 (W 03.07.1969))
 
@@ -5126,7 +5130,7 @@ De bepalingen van vóór de inwerkingtreding van dit Wetboek, die sommige publie
 
 INWERKINGTREDING
 
-## Art. 98
+##### Art. 98
 
 (De tekst van artikel 98, werd ingevoegd met ingang van 01.01.1971 (W 03.07.1969))
 
@@ -5142,7 +5146,7 @@ TIJDELIJKE BEPALINGEN
 (De tekst van het opschrift werd vervangen met ingang van 01.07.2013 (Art. 55, W 17.06.2013, B.S.
 28.06.2013, pg. 41014)
 
-## Art. 99
+##### Art. 99
 
 (De tekst van art. 99, werd met ingang van 01.07.2013 opgeheven bij art. 50 en hersteld bij art. 56, W 17.06.2013, B.S. 28.06.2013, pg. 41014)
 
@@ -5155,7 +5159,7 @@ Voor de toepassing van de overgangsmaatregelen in het kader van de toetreding to
 
 3°    "uitgebreide Gemeenschap": het grondgebied van de Gemeenschap als omschreven in artikel 1, § 2, 2°, na de toetreding van de nieuwe lidstaten.
 
-## Art. 100
+##### Art. 100
 
 (De tekst van art. 100, werd met ingang van 01.07.2013 opgeheven bij art. 51 en hersteld bij art.
 57, W 17.06.2013, B.S. 28.06.2013, pg. 41014)
@@ -5168,7 +5172,7 @@ De bepalingen die van toepassing waren op het tijdstip dat een goed onder een re
 
 3°    het goed is niet vóór de datum van toetreding aan deze regeling onttrokken.
 
-## Art. 101
+##### Art. 101
 
 (De tekst van art. 101, werd met ingang van 01.07.2013 opgeheven bij art. 52 en hersteld bij art.
 58, W 17.06.2013, B.S. 28.06.2013, pg. 41014)
@@ -5181,7 +5185,7 @@ De bepalingen die van toepassing waren op het tijdstip dat een goed onder een re
 
 - Overgangsbepalingen / 1 -
 
-## Art. 102
+##### Art. 102
 
 (De tekst van art. 102, werd met ingang van 01.07.2013 opgeheven bij art. 53 en hersteld bij art.
 59, W 17.06.2013, B.S. 28.06.2013, pg. 41014)
@@ -5202,7 +5206,7 @@ Eveneens wordt met de invoer van een goed in België in de zin van artikel 23 ge
 
 2°    het goed is niet voor de datum van toetreding ingevoerd in de Gemeenschap.
 
-## Art. 103
+##### Art. 103
 
 (De tekst van art. 103, werd met ingang van 01.07.2013 opgeheven bij art. 54 en hersteld bij art.
 60, W 17.06.2013, B.S. 28.06.2013, pg. 41014)
@@ -5221,20 +5225,20 @@ De in het eerste lid, 3°, bedoelde voorwaarde wordt geacht te zijn vervuld wann
 
 Europese Unie langer is dan acht jaar en het bedrag van de belasting die in hoofde van de invoer verschuldigd zou zijn niet meer bedraagt dan 5 euro.
 
-## Art. 104
+##### Art. 104
 
 (De tekst van art. 104, werd ingevoegd met ingang van 01.01.1993 (Art. 97, W 28.12.1992))
 
 Wanneer een goed in verband met de afgifte ervan door of voor rekening van de leverancier wordt verzonden of vervoerd en deze verzending of dat vervoer uitsluitend in België wordt verricht, vindt de levering van het goed, in afwijking van artikel 16, § 1, tweede lid, plaats op het tijdstip van de aanvang van de verzending of van het vervoer, wanneer dat tijdstip vóór 1 januari 1993 ligt en de aankomst van de verzending of van het vervoer van het goed na 31 december 1992 plaatsvindt.
 
-## Art. 105
+##### Art. 105
 
 (De tekst van art. 105, werd opgeheven met ingang van 08.01.2018 (Art. 14, W 25.12.2017, B.S.
 29.12.2017, pg. 116414))
 
 (opgeheven)
 
-## Art. 106
+##### Art. 106
 
 (De tekst van art. 106, werd ingevoegd met ingang van 01.01.1993 (Art. 24, KB 29.12.1992))
 
@@ -5276,7 +5280,7 @@ Voor de toepassing van 3° wordt met "intern communautair douanevervoer" gelijkg
 
 § 3. In afwijking van artikel 24 wordt de invoer van een goed in de zin van § 2 verricht zonder dat een belastbaar feit plaatsvindt wanneer: -      het ingevoerde goed uit de Gemeenschap wordt verzonden of vervoerd of -      het in de zin van § 2, 1°, ingevoerde goed geen vervoermiddel is en herverzonden of vervoerd wordt naar de Lid-Staat waaruit het werd uitgevoerd en naar degene die het heeft uitgevoerd of -      het in de zin van § 2, 1°, ingevoerde goed een vervoermiddel is dat vóór 1 januari 1993 onder de algemene belastingvoorwaarden van de binnenlandse markt van een Lid-Staat werd verkregen of ingevoerd en/of waarvoor, uit hoofde van zijn uitvoer, geen vrijstelling of teruggaaf van de belasting over de toegevoegde waarde werd verleend. Aan deze voorwaarde wordt geacht te zijn voldaan wanneer de eerste ingebruikneming van het vervoermiddel dateert van vóór 1 januari 1985.
 
-## Art. 107
+##### Art. 107
 
 (De tekst van art. 107, werd ingevoegd met ingang van 01.01.1995 (Art. 3, KB 07.08.1995))
 
@@ -5306,7 +5310,7 @@ Voor de toepassing van 3° wordt met "intern communautair douanevervoer" gelijkg
 
 Aan deze voorwaarde wordt geacht te zijn voldaan wanneer de datum van de eerste ingebruikneming van het vervoermiddel voorafgaat aan 1 januari 1987.
 
-## Art. 107bis
+##### Art. 107bis
 
 (De tekst van art. 107bis, is van toepassing met ingang van 01.05.2004 (Art. 4, W 17.06.2004, B.S.
 28.06.2004))
@@ -5369,7 +5373,7 @@ of
 
 Aan deze voorwaarde wordt geacht te zijn voldaan wanneer de datum van de eerste ingebruikneming van het vervoermiddel voorafgaat aan 1 mei 1996.
 
-## Art. 107ter
+##### Art. 107ter
 
 (De tekst van art. 107ter is van toepassing met ingang van 01.01.2007 (Art. 130, W 27.04.2007, B.S. 08.05.2007))
 
@@ -5429,7 +5433,7 @@ of
 
 Aan deze voorwaarde wordt geacht te zijn voldaan wanneer de datum van de eerste ingebruikneming van het vervoermiddel voorafgaat aan 1 januari 1999.
 
-## Art. 108
+##### Art. 108
 
 (De tekst van art. 108 is ingevoegd met ingang van 01.01.1996 (Art. 21, KB 22.12.1995))
 
@@ -5449,7 +5453,7 @@ blijven de bepalingen die van toepassing waren op het tijdstip dat de goederen o
 
 § 2. De goederen bedoeld in § 1 moeten uiterlijk op 31 december 1996 ten verbruik worden aangegeven.
 
-## Art. 109
+##### Art. 109
 
 (De tekst van art. 109, werd opgeheven met ingang van 01.01.2015 (Art. 79, W 19.12.2014, B.S.
 29.12.2014, Ed. 2, pg. 106219)
@@ -6418,7 +6422,7 @@ Wijzigen met ingang van 01.01.2012:
 
 ## Bijlage B — Opmerkingen en arresten bij bepaalde artikelen
 
-## Art. 1
+##### Art. 1
 
 W.Btw
 
@@ -6434,7 +6438,7 @@ a) de spelen, onder welke benaming ook, die gelegenheid geven tot mededinging na
 b) de spelen, onder welke benaming ook, die gelegenheid geven tot mededinging naar prijzen of premies in geld of natura, uitgeloofd aan de deelnemers van een prijskamp, van welke aard ook, tenzij de prijskamp de totstandbrenging van een contract tussen de winnaars en de organisator ervan tot gevolg heeft;
 2° "loterijen": elke gelegenheid om door middel van te kopen deelbewijzen van deelneming mee te dingen naar prijzen of premies in geld of in natura waarbij de winnaars door het lot of een andere kansbepaling waarop zij geen invloed kunnen uitoefenen worden aangewezen.)
 
-## Art. 18
+##### Art. 18
 
 W.Btw
 
@@ -6449,7 +6453,7 @@ De vernietigde tekst luidde als volgt:
 
 - Bijlage B. Arresten / 1 -
 
-## Art. 44
+##### Art. 44
 
 W.Btw
 1)
@@ -6506,7 +6510,7 @@ Van de vrijstelling bedoeld in de bepaling onder a) zijn uitgesloten, de ziekenh
 
 ((Onvoorwaardelijk vernietigd))
 
-## Art. 50
+##### Art. 50
 
 W.Btw
 
@@ -6532,7 +6536,7 @@ b) van overeenkomsten voor occasionele diensten tussen burgers bedoeld in hoofds
 6°    alle diensten bedoeld onder 4°, b), evenals de voor de diensten overeengekomen vergoeding worden geregistreerd in de elektronische toepassing bedoeld in artikel 25 van de wet van 18 juli 2018 betreffende de economische relance en de versterking van de sociale cohesie;
 7°    de omzet die bestaat uit de vergoedingen bedoeld in de bepaling onder 5°, met inbegrip van alle sommen die door dat platform of door tussenkomst van dat platform zijn ingehouden, verhoogd met de omzet die bestaat uit de vergoedingen bedoeld in de bepaling onder 6°, bedraagt per kalenderjaar niet meer dan 3 830 euro, geïndexeerd overeenkomstig artikel 178, § 1 en § 3, eerste lid, 2°, van het Wetboek van de inkomstenbelastingen 1992.)
 
-## Art. 51bis
+##### Art. 51bis
 
 W.Btw
 
@@ -6549,7 +6553,7 @@ De vernietigde tekst luidde als volgt:
 
 over een btw-identificatienummer toegekend door een andere lidstaat in toepassing van één van de bijzondere regelingen bedoeld in de artikelen 358bis tot en met 369duodecies van richtlijn 2006/112/EG.)
 
-## Art. 63
+##### Art. 63
 
 W.Btw
 
@@ -6564,7 +6568,7 @@ De desbetreffende tekst luidt als volgt:
 (Met hetzelfde doel mogen die ambtenaren eveneens op elk tijdstip, zonder voorafgaande verwittiging, vrij binnentreden in alle gebouwen, werkplaatsen, inrichtingen, lokalen of andere plaatsen die niet in het vorige lid zijn bedoeld en waar in dit Wetboek bedoelde handelingen verricht of vermoedelijk worden verricht.
 Tot particuliere woningen of bewoonde lokalen hebben zij evenwel slechts toegang tussen vijf uur 's morgens en negen uur 's avonds en uitsluitend met de machtiging van de politierechter.)
 
-## Art. 70
+##### Art. 70
 
 W.Btw
 
@@ -6610,7 +6614,7 @@ Aldus gewezen in het Frans en het Nederlands, overeenkomstig artikel 65 van de b
 De desbetreffende tekst luidt als volgt:
 (§ 1bis. Ieder die op onrechtmatige of ongeoorloofde wijze de belasting in aftrek heeft gebracht, verbeurt een geldboete gelijk aan het dubbel van die belasting in zover die overtreding niet wordt bestraft bij toepassing van § 1, eerste lid.)
 
-## Art. 72
+##### Art. 72
 
 W.Btw
 

@@ -24,6 +24,10 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke fiscale regeling voor moedermaatschappijen en dochterondernemingen uit verschillende lidstaten
@@ -483,19 +487,19 @@ Artikel 8, lid 1
 
 Artikel 8, lid 2
 
-### Art. 8
+## Art. 8
 
 —
 
-### Art. 9
+## Art. 9
 
 —
 
-### Art. 10
+## Art. 10
 
-### Art. 9
+## Art. 9
 
-### Art. 11
+## Art. 11
 
 Bijlage
 

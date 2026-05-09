@@ -24,13 +24,17 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van beroepskwalificaties
 
 *Bijgewerkt tot en met 12.02.2008 — gecoördineerde versie.*
 
-## Art. 5/1
+#### Art. 5/1
 
 [1 Aanvraag van Europese beroepskaart voor de uitoefening van een beroepsactiviteit in een andere lidstaat Wanneer de Europese Commissie voor een bepaald beroep een Europese beroepskaart heeft ingevoerd door middel van een uitvoeringshandeling en ze er de voorwaarden van heeft bepaald, kan de houder van de in België daartoe benodigde beroepskwalificatie die dit beroep in een andere lidstaat wil uitoefenen :
     1° de erkenning van deze beroepskwalificatie aanvragen in de ontvangende lidstaat, of
@@ -38,14 +42,14 @@ provenance:
    ----------
    (1)<Ingevoegd bij W 2016-12-25/44, art. 8, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 5/1_WAALS_GEWEST.
+#### Art. 5/1_WAALS_GEWEST.
   [1 Wanneer de Europese Commissie voor een bepaald beroep een Europese beroepskaart heeft ingevoerd door middel van een uitvoeringshandeling en ze er de voorwaarden van heeft bepaald, kan de houder van de beroepskwalificatie die dit beroep in een andere lidstaat wil uitoefenen:
    1° de erkenning van deze beroepskwalificatie aanvragen in de ontvangende lidstaat, of;
    2° afhankelijk van het geval, aan de bevoegde autoriteit vragen om een Europese beroepskaart af te leveren of om bij de ontvangende lidstaat een vraag tot aflevering van een Europese beroepskaart in te dienen door alle voorbereidende stappen met betrekking tot het IMI-dossier uit te voeren.]1
   ----------
   (1)<DWG 2017-07-12/16, art. 9, 004; Inwerkingtreding : 22-09-2017>
 
-## Art. 5/2
+#### Art. 5/2
 
 [1 Indiening van de aanvraag van Europese beroepskaart
     § 1. De houder van een in artikel 5/1 bedoelde beroepskwalificatie die een beroepsactiviteit in andere lidstaten wil uitoefenen, kan zijn aanvraag van een Europese beroepskaart indienen middels het door de Europese Commissie ter beschikking gestelde online-instrument, dat voor de betrokken aanvrager automatisch een IMIbestand aanmaakt.
@@ -57,7 +61,7 @@ provenance:
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 9, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 5/2_WAALS_GEWEST.
+#### Art. 5/2_WAALS_GEWEST.
   [1 § 1. De houder van een in artikel 5/1 bedoelde beroepskwalificatie die een beroepsactiviteit in andere lidstaten wil uitoefenen, kan zijn aanvraag van een Europese beroepskaart indienen middels het door de Europese Commissie ter beschikking gestelde online-instrument, dat voor de betrokken aanvrager automatisch een IMIbestand aanmaakt.
    De aanvrager ondersteunt zijn aanvraag met alle documenten die zijn voorgeschreven in de door de Europese Commissie genomen uitvoeringshandeling.
    § 2. De bevoegde autoriteit bevestigt binnen een week na ontvangst van de aanvraag dat deze is ontvangen en deelt de aanvrager mee welke documenten ontbreken.
@@ -71,7 +75,7 @@ provenance:
   ----------
   (1)<Ingevoegd bij DWG 2017-07-12/16, art. 11, 004; Inwerkingtreding : 22-09-2017>
 
-## Art. 5/3
+#### Art. 5/3
 
 [1 Afgifte van de Europese beroepskaart voor de uitoefening van een beroepsactiviteit in een andere lidstaat
     § 1. Indien de aanvraag van de beroepskaart bedoeld in artikel 5/1 betrekking heeft op het tijdelijk en incidenteel verrichten van andere diensten dan de diensten die gevolgen hebben voor de volksgezondheid of de openbare veiligheid bedoeld in artikel 9, levert de bevoegde Belgische autoriteit, na controle van de aanvraag en de bijhorende bewijstukken, de beroepskaart af binnen een termijn van drie weken die aanvangt :
@@ -81,7 +85,7 @@ provenance:
    ----------
    (1)<Ingevoegd bij W 2016-12-25/44, art. 10, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 5/3_WAALS_GEWEST.
+#### Art. 5/3_WAALS_GEWEST.
   [1 Indien de aanvraag van de beroepskaart bedoeld in artikel 5/1 betrekking heeft op het tijdelijk en incidenteel verrichten van andere diensten dan de diensten die gevolgen hebben voor de volksgezondheid of de openbare veiligheid bedoeld in artikel 9, § 4, levert de bevoegde autoriteit, na controle van de aanvraag en de bijhorende bewijsstukken, de beroepskaart af binnen een termijn van drie weken die aanvangt:
    1° ofwel vanaf de ontvangst van de ontbrekende documenten bedoeld in artikel 5/2;
    2° ofwel, indien er geen enkel bijkomend document werd gevraagd, bij het verlopen van de termijn van een week volgend op de ontvangst van de aanvraag bedoeld in artikel 5/2.
@@ -89,7 +93,7 @@ provenance:
   ----------
   (1)<DWG 2017-07-12/16, art. 12, 004; Inwerkingtreding : 22-09-2017>
 
-## Art. 5/4
+#### Art. 5/4
 
 [1 Actualisatie van de Europese beroepskaart
     De houder van een Europese beroepskaart die andere diensten wenst te leveren dan diegene vermeld in zijn oorspronkelijke aanvraag of die diensten wenst te blijven leveren na de oorspronkelijke periode van achttien maanden, stelt de bevoegde Belgische autoriteit hiervan in kennis. Hij verschaft eveneens alle door deze autoriteit, in toepassing van de uitvoeringshandeling aangenomen door de Europese Commissie, vereiste informatie omtrent wezenlijke veranderingen in de in het IMI-bestand vastgelegde situatie.
@@ -97,13 +101,13 @@ provenance:
    ----------
    (1)<Ingevoegd bij W 2016-12-25/44, art. 11, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 5/4_WAALS_GEWEST.
+#### Art. 5/4_WAALS_GEWEST.
   [1 De houder van een Europese beroepskaart die andere diensten wenst te leveren dan diegene vermeld in zijn oorspronkelijke aanvraag of die diensten wenst te blijven leveren na de oorspronkelijke periode van achttien maanden bedoeld in artikel 5/3, stelt de bevoegde autoriteit hiervan in kennis. Hij verschaft eveneens alle door deze autoriteit, in toepassing van de uitvoeringshandeling aangenomen door de Europese Commissie, vereiste informatie omtrent wezenlijke veranderingen in de in het IMI-bestand vastgelegde situatie.
     De bevoegde autoriteit zendt de geactualiseerde Europese beroepskaart naar alle betrokken ontvangende lidstaten.
    ----------
    (1)<DWG 2017-07-12/16, art. 13, 004; Inwerkingtreding : 22-09-2017>
 
-## Art. 5/5
+#### Art. 5/5
 
 [1 Onderzoek van een aanvraag voor een Europese beroepskaart voor vestiging en voor tijdelijke en incidentele verrichting van diensten bedoeld in artikel 9, § 4
     § 1. Indien de Europese beroepskaart bedoeld in artikel 5/1 aangevraagd wordt voor vestiging of voor tijdelijke en incidentele verrichting van diensten die gevolgen kunnen hebben voor de volksgezondheid of de openbare veiligheid, stelt de bevoegde Belgische autoriteit het voorbereidend dossier op met betrekking tot de aanvraag.
@@ -115,7 +119,7 @@ provenance:
    ----------
    (1)<Ingevoegd bij W 2016-12-25/44, art. 12, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 5/5_WAALS_GEWEST.
+#### Art. 5/5_WAALS_GEWEST.
    [1 § 1. Indien de Europese beroepskaart bedoeld in artikel 5/1 aangevraagd wordt voor vestiging of voor tijdelijke en incidentele verrichting van diensten die gevolgen kunnen hebben voor de volksgezondheid of de openbare veiligheid, stelt de bevoegde autoriteit het voorbereidend dossier op met betrekking tot de aanvraag.
  Zij gaat in het bijzonder de geldigheid en de authenticiteit na van de in het IMI-dossier ter staving opgenomen documenten, binnen een termijn van één maand die aanvangt:
     1° ofwel vanaf de ontvangst van de ontbrekende documenten bedoeld in artikel 5/2;
@@ -125,7 +129,7 @@ provenance:
    ----------
    (1)<DWG 2017-07-12/16, art. 14, 004; Inwerkingtreding : 22-09-2017>
 
-## Art. 5/5/1_WAALS_GEWEST
+#### Art. 5/5/1_WAALS_GEWEST
 
 [1 § 1. Dit artikel is van toepassing wanneer de bevoegde autoriteit van de bevoegde autoriteit van de lidstaat van oorsprong van de houder van de beroepskwalificatie een aanvraag voor een beroepskaart ontvangt voor vestiging of voor uitoefening in het Waalse Gewest van tijdelijke of incidentele verrichting van diensten met implicaties voor de volksgezondheid of de openbare veiligheid op het grondgebied van het Waalse Gewest.
    § 2. In de gevallen bedoeld in de artikelen 18, 21/1 en 21/2 besluit de bevoegde autoriteit binnen een maand na ontvangst van het door de bevoegde autoriteit van de lidstaat van oorsprong ingediende verzoek of zij de beroepskaart al dan niet aflevert.
@@ -140,7 +144,7 @@ provenance:
    ----------
    (1)<Ingevoegd bij DWG 2020-10-29/21, art. 3, 005; Inwerkingtreding : 03-12-2020>
 
-## Art. 5/5/2_WAALS_GEWEST
+#### Art. 5/5/2_WAALS_GEWEST
 
 [1 De Europese beroepskaart vervangt de verklaring die in voorkomend geval op grond van artikel 9 gevraagd is. Een bevoegde autoriteit mag binnen 18 maanden na afgifte ervan geen nieuwe verklaring vragen.]1
   ----------
@@ -150,7 +154,7 @@ provenance:
   ----------
   (1)<Ingevoegd bij DWG 2017-07-12/16, art. 15, 004; Inwerkingtreding : 22-09-2017>
 
-## Art. 5/6
+#### Art. 5/6
 
 [1 Onderzoek van een aanvraag voor een Europese beroepskaart met het oog op het uitoefenen van een beroepsactiviteit in België en gevolgen op het Belgische grondgebied
    § 1. Dit artikel is van toepassing op de gevallen waarin de bevoegde Belgische autoriteit van de bevoegde autoriteit van de lidstaat van oorsprong van de houder van de beroepskwalificatie een aanvraag voor een beroepskaart krijgt voor vestiging of voor tijdelijke en incidentele verrichting van diensten in België die gevolgen hebben voor de volksgezondheid of de openbare veiligheid op het Belgische grondgebied.
@@ -166,7 +170,7 @@ provenance:
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 13, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 5/6_WAALS_GEWEST.
+#### Art. 5/6_WAALS_GEWEST.
    [1 § 1. De gegevens op de Europese beroepskaart beperken zich tot de gegevens die nodig zijn om vast te stellen dat de houder gerechtigd is om het beroep uit te oefenen waarvoor de kaart werd afgegeven, namelijk de voor- en achternaam van de houder, datum en plaats van geboorte, beroep, de opleidingstitels van de houder, het toepasselijk stelsel, de betrokken bevoegde autoriteiten, het kaartnummer, de beveiligingsfuncties en een verwijzing naar een geldig bewijs van identiteit. Informatie met betrekking tot opgedane beroepservaring of compensatiemaatregelen waaraan door de houder van de Europese beroepskaart is voldaan, wordt opgenomen in het IMI-bestand.
     § 2. Onverminderd het vermoeden van onschuld, werken de bevoegde Belgische autoriteiten binnen de grenzen van hun bevoegdheden het IMI-bestand dat betrekking heeft op een Europese beroepskaart bij door er informatie op te nemen over tuchtrechtelijke maatregelen of de strafrechtelijke sancties die betrekking hebben op een verbod of beperking op de uitoefening van een professionele activiteit en die invloed hebben op de uitoefening van de werkzaamheden van de houder van een Europese beroepskaart.
     Daarbij nemen zij de regels in acht inzake de bescherming van persoonsgegevens en in het bijzonder de bepalingen van of genomen in uitvoering van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en van de wet van 24 augustus 2005 tot omzetting van verschillende bepalingen van de richtlijn financiële diensten op afstand en van de richtlijn privacy en elektronische communicatie.
@@ -195,14 +199,14 @@ provenance:
   ----------
   (1)<Ingevoegd bij DWG 2017-07-12/16, art. 17, 004; Inwerkingtreding : 22-09-2017>
 
-## Art. 5/7
+#### Art. 5/7
 
 [1 Statuut van de Europese beroepskaart ten aanzien van de in artikel 9 bedoelde verklaring De Europese beroepskaart vervangt de verklaring die desgevallend wordt gevraagd op basis van artikel 9.
  Binnen de 18 maanden volgend op haar aflevering mag geen enkele aanvullende verklaring gevraagd worden door een bevoegde Belgische autoriteit.]1
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 14, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 5/7_WAALS_GEWEST.
+#### Art. 5/7_WAALS_GEWEST.
   [1 § 1. De bevoegde autoriteiten verlenen per geval gedeeltelijke toegang tot een beroepsactiviteit op het grondgebied van het Gewest, doch alleen indien aan alle volgende voorwaarden is voldaan:
    1° de beroepsbeoefenaar is in zijn lidstaat van oorsprong volledig gekwalificeerd om de beroepsactiviteit uit te oefenen waarvoor in het Waalse Gewest gedeeltelijke toegang wordt aangevraagd;
    2° de verschillen tussen de in de lidstaat van oorsprong legaal verrichte beroepsactiviteiten en het gereglementeerde beroep in het Waalse Gewest zijn zo groot dat de toepassing van compenserende maatregelen erop zou neerkomen dat de aanvrager het volledige onderwijs- en opleidingsprogramma in het Waalse Gewest zou moeten doorlopen om tot het volledige gereglementeerde beroep toegelaten te worden;
@@ -218,7 +222,7 @@ provenance:
   ----------
   (1)<DWG 2017-07-12/16, art. 18, 004; Inwerkingtreding : 22-09-2017>
 
-## Art. 5/8
+#### Art. 5/8
 
 [1 Verwerking van en toegang tot gegevens met betrekking tot de Europese beroepskaart en het IMI bestand
    § 1. De gegevens op de Europese beroepskaart beperken zich tot de gegevens die nodig zijn om vast te stellen dat de houder gerechtigd is om het beroep uit te oefenen waarvoor de kaart werd afgegeven, namelijk de vooren achternaam van de houder, datum en plaats van geboorte, beroep, de opleidingstitels van de houder, het toepasselijk stelsel, de betrokken bevoegde autoriteiten, het kaartnummer, de beveiligingsfuncties en een verwijzing naar een geldig bewijs van identiteit. Informatie met betrekking tot opgedane beroepservaring of compensatiemaatregelen waaraan door de houder van de Europese beroepskaart is voldaan, wordt opgenomen in het IMI-bestand.
@@ -249,7 +253,7 @@ provenance:
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 16, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 5/9
+#### Art. 5/9
 
 [1 Voorwaarden voor de toekenning van een gedeeltelijke toegang
     § 1. De bevoegde Belgische autoriteit bevoegd voor het verlenen van de toegang tot of het toestaan van de uitoefening van een gereglementeerd beroep, verleent gedeeltelijke toegang tot een beroepsactiviteit in België, alleen indien aan alle volgende voorwaarden is voldaan :
@@ -265,18 +269,18 @@ provenance:
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 17, 002; Inwerkingtreding : 10-02-2017>
 
-### TITEL II. - Vrije dienstverrichting.
+## TITEL II. - Vrije dienstverrichting.
 
   Toepassingsgebied.
 
-## Art. 6
+#### Art. 6
 
 De bepalingen van deze titel zijn uitsluitend van toepassing wanneer de dienstverrichter zich naar het grondgebied van België begeeft om er tijdelijk en incidenteel het in artikel 7, § 1, bedoelde beroep uit te oefenen.
   Het tijdelijke en incidentele karakter van de dienstverrichting wordt per geval beoordeeld, met name in het licht van de duur, frequentie, regelmaat en continuïteit van de verrichting.
 
   Beginsel van het vrij verrichten van diensten.
 
-## Art. 7
+#### Art. 7
 
 § 1. Onverminderd de artikelen 8 en 9, kunnen om redenen van beroepskwalificatie geen beperkingen worden gesteld aan het vrij verrichten van diensten :
    a) indien de dienstverrichter op wettige wijze is gevestigd in een lidstaat (hierna "lidstaat van vestiging" genoemd) om er hetzelfde beroep uit te oefenen, en
@@ -285,7 +289,7 @@ De bepalingen van deze titel zijn uitsluitend van toepassing wanneer de dienstve
    ----------
    (1)<W 2016-12-25/44, art. 18, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 7_WAALS_GEWEST.
+#### Art. 7_WAALS_GEWEST.
     § 1. Onverminderd de artikelen 8 en 9, kunnen om redenen van beroepskwalificatie geen beperkingen worden gesteld aan het vrij verrichten van diensten :
    a) indien de dienstverrichter op wettige wijze is gevestigd in een lidstaat (hierna "lidstaat van vestiging" genoemd) om er hetzelfde beroep uit te oefenen, en
    b) [2 wanneer de dienstverrichter zich naar een andere lidstaat begeeft, indien hij dat beroep tijdens de laatste tien jaar die voorafgaan aan de dienstverrichting gedurende ten minste een jaar heeft uitgeoefend in een of meer lidstaten wanneer het beroep niet gereglementeerd is in de lidstaat van vestiging. Deze voorwaarde, namelijk een jaar beroepsuitoefening, is niet van toepassing wanneer het beroep of het onderwijs en de opleiding die toegang verleent tot het beroep gereglementeerd is.]2
@@ -296,7 +300,7 @@ De bepalingen van deze titel zijn uitsluitend van toepassing wanneer de dienstve
 
   Vrijstellingen.
 
-## Art. 8
+#### Art. 8
 
 Overeenkomstig artikel 7, § 1, wordt een in een andere lidstaat gevestigde dienstverrichter vrijgesteld van de eisen die worden gesteld aan op Belgisch grondgebied gevestigde beroepsbeoefenaren met betrekking tot :
   a) een vergunning, de inschrijving of de aansluiting bij een beroepsorganisatie. Om overeenkomstig artikel 7, § 2, toepassing van de geldende tuchtrechtelijke bepalingen mogelijk te maken, kan de bevoegde Belgische autoriteit voorzien in automatische tijdelijke inschrijving of aansluiting pro forma bij een beroepsorganisatie, voorzover dit de dienstverrichting op geen enkele wijze vertraagt of bemoeilijkt en voor de dienstverrichter geen extra kosten meebrengt. De bevoegde Belgische autoriteit stuurt een kopie van de in artikel 9, § 1, bedoelde verklaring en eventueel verlenging ervan, en daarnaast, voor beroepen die verband houden met de volksgezondheid en de openbare veiligheid genoemd in artikel 9, § 4, een kopie van de in artikel 9, § 2, bedoelde documenten aan de betrokken beroepsorganisatie, hetgeen gelijkstaat met een automatische tijdelijke inschrijving of aansluiting pro forma voor dit doel;
@@ -304,7 +308,7 @@ Overeenkomstig artikel 7, § 1, wordt een in een andere lidstaat gevestigde dien
   De dienstverrichter stelt evenwel de onder b) bedoelde instelling vooraf, of in dringende gevallen achteraf, van de door hem verrichte dienst in kennis.
   Vooraf af te leggen verklaring in geval de dienstverrichter zich naar België begeeft
 
-## Art. 9
+#### Art. 9
 
 § 1. De bevoegde Belgische autoriteit kan eisen dat de dienstverrichter, wanneer hij zich voor het eerst van een lidstaat naar België begeeft om er diensten te verrichten, haar vooraf door middel van een schriftelijke verklaring, met daarin de gegevens betreffende verzekeringsdekking of soortgelijke individuele of collectieve vormen van bescherming inzake beroepsaansprakelijkheid, in kennis stelt. Deze verklaring wordt eenmaal per jaar verlengd indien de dienstverrichter voornemens is om gedurende dat jaar in België tijdelijke of incidentele diensten te verrichten. De dienstverrichter mag de verklaring met alle middelen aanleveren.
    § 2. Voor de eerste dienstverrichting, of indien zich een wezenlijke verandering heeft voorgedaan in de door de documenten gestaafde situatie, kan de bevoegde Belgische autoriteit eisen dat de verklaring vergezeld gaat van de volgende documenten :
@@ -330,7 +334,7 @@ Overeenkomstig artikel 7, § 1, wordt een in een andere lidstaat gevestigde dien
    (1)<W 2016-12-25/44, art. 19, 002; Inwerkingtreding : 10-02-2017>
    (2)<W 2021-08-29/23, art. 6, 006; Inwerkingtreding : 07-10-2021>
 
-## Art. 9_WAALS_GEWEST.
+#### Art. 9_WAALS_GEWEST.
     § 1. De bevoegde Belgische autoriteit kan eisen dat de dienstverrichter, wanneer hij zich voor het eerst van een lidstaat naar België begeeft om er diensten te verrichten, haar vooraf door middel van een schriftelijke verklaring, met daarin de gegevens betreffende verzekeringsdekking of soortgelijke individuele of collectieve vormen van bescherming inzake beroepsaansprakelijkheid, in kennis stelt. Deze verklaring wordt eenmaal per jaar verlengd indien de dienstverrichter voornemens is om gedurende dat jaar in België tijdelijke of incidentele diensten te verrichten. De dienstverrichter mag de verklaring met alle middelen aanleveren.
    § 2. Voor de eerste dienstverrichting, of indien zich een wezenlijke verandering heeft voorgedaan in de door de documenten gestaafde situatie, kan de bevoegde Belgische autoriteit eisen dat de verklaring vergezeld gaat van de volgende documenten :
    a) een bewijs van de nationaliteit van de dienstverrichter,
@@ -357,7 +361,7 @@ Overeenkomstig artikel 7, § 1, wordt een in een andere lidstaat gevestigde dien
 
   Administratieve samenwerking.
 
-## Art. 10
+#### Art. 10
 
 § 1. [1 De bevoegde Belgische autoriteiten kunnen de bevoegde autoriteiten van de lidstaat van vestiging in geval van gegronde twijfel verzoeken om alle informatie over de rechtmatigheid van de vestiging en het goed gedrag van de dienstverrichter, alsmede over het ontbreken van eventuele tuchtrechtelijke of strafrechtelijke maatregelen met betrekking tot de beroepsuitoefening.
     Indien een bevoegde Belgische autoriteit beslist de beroepskwalificaties van de houder van een kwalificatie die in België een activiteit wil uitoefenen met het oog op het tijdelijk en incidenteel verrichten van diensten in de zin van artikel 9, § 4, te controleren, kunnen zij bij de bevoegde autoriteiten van de lidstaat van vestiging informatie vragen over de opleidingen van de dienstverrichter, voor zover dit nodig is voor het beoordelen van wezenlijke verschillen die de volksgezondheid of de openbare veiligheid kunnen schaden.
@@ -366,7 +370,7 @@ Overeenkomstig artikel 7, § 1, wordt een in een andere lidstaat gevestigde dien
    ----------
    (1)<W 2016-12-25/44, art. 20, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 10_WAALS_GEWEST.
+#### Art. 10_WAALS_GEWEST.
     § 1. [2 De bevoegde autoriteiten kunnen de bevoegde autoriteiten van de lidstaat van vestiging in geval van gegronde twijfel verzoeken om alle informatie over de rechtmatigheid van de vestiging en het goed gedrag van de dienstverrichter, alsmede over het ontbreken van eventuele tuchtrechtelijke of strafrechtelijke maatregelen met betrekking tot de beroepsuitoefening.
     Indien een bevoegde autoriteit beslist de beroepskwalificaties van de houder van een kwalificatie die in het Waalse Gewest een activiteit wil uitoefenen met het oog op het tijdelijk en incidenteel verrichten van diensten in de zin van artikel 9, § 4, te controleren, kunnen zij bij de bevoegde autoriteiten van de lidstaat van vestiging informatie vragen over de opleidingen van de dienstverrichter, voor zover dit nodig is voor het beoordelen van wezenlijke verschillen die de volksgezondheid of de openbare veiligheid kunnen schaden.
     De bevoegde Belgische autoriteiten verstrekken deze informatie op hun beurt overeenkomstig artikel 27.]2
@@ -377,7 +381,7 @@ Overeenkomstig artikel 7, § 1, wordt een in een andere lidstaat gevestigde dien
 
   Informatie ten behoeve van de afnemers van de dienst.
 
-## Art. 11
+#### Art. 11
 
 Wanneer de dienst wordt verricht onder de beroepstitel van de lidstaat van vestiging of onder de opleidingstitel van de dienstverrichter, kunnen de bevoegde Belgische autoriteiten eisen dat de dienstverrichter in aanvulling op de overige informatievoorschriften van het Gemeenschapsrecht, aan de afnemer van de dienst een van de volgende gegevens of al de volgende gegevens verstrekt :
    a) wanneer de dienstverrichter in een handelsregister of een vergelijkbaar openbaar register is ingeschreven, het register waar hij is ingeschreven en zijn inschrijvingsnummer, of een vergelijkbaar middel ter identificatie in dat register;
@@ -387,13 +391,13 @@ Wanneer de dienst wordt verricht onder de beroepstitel van de lidstaat van vesti
    e) wanneer de dienstverrichter een onder de BTW vallende werkzaamheid uitoefent, het identificatienummer, zoals bedoeld in artikel 50 van het Wetboek van de belasting over de toegevoegde waarde ingevolge artikel 22, § 1, van de Zesde Richtlijn 77/388/EEG van de Raad van 17 mei 1977 betreffende de harmonisatie van de wetgevingen der lidstaten inzake omzetbelasting - Gemeenschappelijk stelsel van belasting over de toegevoegde waarde : uniforme grondslag;
    f) gegevens betreffende verzekeringsdekking of soortgelijke individuele of collectieve vormen van bescherming inzake beroepsaansprakelijkheid.
 
-### TITEL III. - Vrijheid van vestiging.
+## TITEL III. - Vrijheid van vestiging.
 
-#### HOOFDSTUK I. - Algemeen stelsel van erkenning van opleidingstitels.
+### HOOFDSTUK I. - Algemeen stelsel van erkenning van opleidingstitels.
 
   Toepassingsgebied.
 
-## Art. 12
+#### Art. 12
 
 Dit hoofdstuk is van toepassing op alle beroepen die niet onder hoofdstuk II van deze titel vallen en in onderstaande gevallen waarin de aanvrager, om een bijzondere en uitzonderlijke reden, niet voldoet aan de in dat hoofdstuk opgenomen voorwaarden :
   a) voor de werkzaamheden van bijlage IV, wanneer de aanvrager niet voldoet aan de eisen van de artikelen 19, 20 en 21;
@@ -401,7 +405,7 @@ Dit hoofdstuk is van toepassing op alle beroepen die niet onder hoofdstuk II van
 
   Kwalificatieniveaus.
 
-## Art. 13
+#### Art. 13
 
 [1 Voor de toepassing van artikel 15 en artikel 16, § 6,]1 worden de beroepskwalificaties in de volgende niveaus ingedeeld :
    a) een bekwaamheidsattest dat is afgegeven door een overeenkomstig de wettelijke en bestuursrechtelijke bepalingen aangewezen bevoegde autoriteit van de lidstaat van oorsprong, nadat men : - hetzij een opleiding heeft genoten die niet wordt afgesloten met een certificaat of diploma zoals bedoeld onder b), c), d) of e), hetzij een specifiek examen zonder voorafgaande opleiding heeft afgelegd, hetzij het beroep tijdens de voorafgaande tien jaren gedurende drie opeenvolgende jaren voltijds of gedurende een gelijkwaardige periode deeltijds in een lidstaat heeft uitgeoefend, - hetzij op het niveau van het primair of secundair onderwijs een algemene opleiding heeft genoten, waaruit blijkt dat de houder over een zekere algemene ontwikkeling beschikt;
@@ -413,7 +417,7 @@ Dit hoofdstuk is van toepassing op alle beroepen die niet onder hoofdstuk II van
   ----------
   (1)<W 2016-12-25/44, art. 21, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 13_WAALS_GEWEST.
+#### Art. 13_WAALS_GEWEST.
     [1 Voor de toepassing van artikel 15 [2 en artikel 16, § 6]2,]1 worden de beroepskwalificaties in de volgende niveaus ingedeeld :
    a) een bekwaamheidsattest dat is afgegeven door een overeenkomstig de wettelijke en bestuursrechtelijke bepalingen aangewezen bevoegde autoriteit van de lidstaat van oorsprong, nadat men : - hetzij een opleiding heeft genoten die niet wordt afgesloten met een certificaat of diploma zoals bedoeld onder b), c), d) of e), hetzij een specifiek examen zonder voorafgaande opleiding heeft afgelegd, hetzij het beroep tijdens de voorafgaande tien jaren gedurende drie opeenvolgende jaren voltijds of gedurende een gelijkwaardige periode deeltijds in een lidstaat heeft uitgeoefend, - hetzij op het niveau van het primair of secundair onderwijs een algemene opleiding heeft genoten, waaruit blijkt dat de houder over een zekere algemene ontwikkeling beschikt;
    b) een certificaat ter afsluiting van een cyclus van secundair onderwijs : - hetzij van algemene aard, aangevuld met een andere dan de onder c) bedoelde studiecyclus of beroepsopleiding en/of met de beroepsstage of praktijkervaring die als aanvulling op deze studiecyclus vereist is, - hetzij van technische of beroepsmatige aard, in voorkomend geval aangevuld met een studiecyclus of beroepsopleiding zoals bedoeld onder i), en/of met de beroepsstage of praktijkervaring die als aanvulling op deze studiecyclus vereist is;
@@ -427,13 +431,13 @@ Dit hoofdstuk is van toepassing op alle beroepen die niet onder hoofdstuk II van
 
   Gelijke behandeling van kwalificaties.
 
-## Art. 14
+#### Art. 14
 
 [1 Met een opleidingstitel bedoeld in artikel 13, met inbegrip van het betrokken niveau, wordt gelijkgesteld elke opleidingstitel die ofwel elk geheel van opleidingstitels dat door een bevoegde autoriteit in een lidstaat is afgegeven, wanneer daarmee een in de Europese Unie op voltijdse of deeltijdse basis zowel binnen als buiten formele programma's gevolgde opleiding wordt afgesloten die door deze lidstaat als gelijkwaardig wordt erkend en de houder ervan dezelfde rechten inzake de toegang tot of de uitoefening van een beroep verleent, dan wel hem voorbereidt op de uitoefening van dat beroep.]1 Onder dezelfde voorwaarden als die in het eerste lid wordt met een dergelijke opleidingstitel ook gelijkgesteld elke beroepskwalificatie die weliswaar niet voldoet aan de eisen die in de wettelijke en bestuursrechtelijke bepalingen van de lidstaat van oorsprong voor de toegang tot of uitoefening van een beroep zijn vastgesteld, maar die de houder ervan krachtens deze bepalingen verworven rechten verleent. Dit geldt met name indien de lidstaat van oorsprong het niveau verhoogt van de opleiding die vereist is voor de toegang tot een beroep of de uitoefening ervan, en indien een persoon die vroeger een opleiding heeft genoten die niet meer voldoet aan de eisen van de nieuwe kwalificatie, verworven rechten geniet uit hoofde van nationale wettelijke of bestuursrechtelijke bepalingen; in dat geval wordt de vroeger genoten opleiding door de bevoegde Belgische autoriteit beschouwd - met het oog op de toepassing van artikel 15 - als overeenkomend met het niveau van de nieuwe opleiding.
    ----------
    (1)<W 2016-12-25/44, art. 22, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 14_WAALS_GEWEST.
+#### Art. 14_WAALS_GEWEST.
     [2 Met een opleidingstitel bedoeld in artikel 13, met inbegrip van het betrokken niveau, wordt gelijkgesteld elke opleidingstitel die ofwel elk geheel van opleidingstitels dat door een bevoegde autoriteit in een lidstaat is afgegeven, wanneer daarmee een in de Europese Unie op voltijdse of deeltijdse basis zowel binnen als buiten formele programma's gevolgde opleiding wordt afgesloten die door deze lidstaat als gelijkwaardig wordt erkend en de houder ervan dezelfde rechten inzake de toegang tot of de uitoefening van een beroep verleent, dan wel hem voorbereidt op de uitoefening van dat beroep.]2 Onder dezelfde voorwaarden als die in het eerste lid wordt met een dergelijke opleidingstitel ook gelijkgesteld elke beroepskwalificatie die weliswaar niet voldoet aan de eisen die in de wettelijke en bestuursrechtelijke bepalingen van de lidstaat van oorsprong voor de toegang tot of uitoefening van een beroep zijn vastgesteld, maar die de houder ervan krachtens deze bepalingen verworven rechten verleent. Dit geldt met name indien de lidstaat van oorsprong het niveau verhoogt van de opleiding die vereist is voor de toegang tot een beroep of de uitoefening ervan, en indien een persoon die vroeger een opleiding heeft genoten die niet meer voldoet aan de eisen van de nieuwe kwalificatie, verworven rechten geniet uit hoofde van nationale wettelijke of bestuursrechtelijke bepalingen; in dat geval wordt de vroeger genoten opleiding door de bevoegde Belgische autoriteit beschouwd - met het oog op de toepassing van artikel 15 - als overeenkomend met het niveau van de nieuwe opleiding.
    ----------
    (1)<W 2016-12-25/44, art. 22, 002; Inwerkingtreding : 10-02-2017>
@@ -441,7 +445,7 @@ Dit hoofdstuk is van toepassing op alle beroepen die niet onder hoofdstuk II van
 
   Voorwaarden inzake erkenning.
 
-## Art. 15
+#### Art. 15
 
 [1 § 1. Wanneer de toegang tot of uitoefening van een gereglementeerd beroep afhankelijk wordt gesteld van het bezit van bepaalde beroepskwalificaties, staat de bevoegde Belgische autoriteit onder dezelfde voorwaarden als die welke voor de eigen onderdanen gelden, de toegang tot en uitoefening van dit beroep toe aan aanvragers die in het bezit zijn van een bekwaamheidsattest dat of een opleidingstitel zoals bedoeld in artikel 13 die in een andere lidstaat verplicht wordt gesteld voor de toegang tot of de uitoefening van datzelfde beroep op zijn grondgebied.
     De bekwaamheidsattesten of opleidingstitels worden afgegeven door een bevoegde autoriteit in een lidstaat die overeenkomstig de wettelijke, reglementaire of bestuursrechtelijke bepalingen van die lidstaat is aangewezen.
@@ -455,7 +459,7 @@ Dit hoofdstuk is van toepassing op alle beroepen die niet onder hoofdstuk II van
    ----------
    (1)<W 2016-12-25/44, art. 23, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 15_WAALS_GEWEST
+#### Art. 15_WAALS_GEWEST
 
 .
   [1 § 1. Wanneer de toegang tot of uitoefening van een gereglementeerd beroep afhankelijk wordt gesteld van het bezit van bepaalde beroepskwalificaties, staan de bevoegde autoriteiten onder dezelfde voorwaarden als diegenen die in het Waalse Gewest zijn gevestigd, de toegang tot en uitoefening van dit beroep toe aan aanvragers die in het bezit zijn van een bekwaamheidsattest of een opleidingstitel zoals bedoeld in artikel 13 die in een andere lidstaat verplicht wordt gesteld voor de toegang tot of de uitoefening van datzelfde beroep op zijn grondgebied.
@@ -472,7 +476,7 @@ Dit hoofdstuk is van toepassing op alle beroepen die niet onder hoofdstuk II van
 
   Compenserende maatregelen.
 
-## Art. 16
+#### Art. 16
 
 § 1. De bevoegde Belgische autoriteit kan in een van de volgende gevallen van de aanvrager eisen dat hij een aanpassingsstage van ten hoogste drie jaar doorloopt of een proeve van bekwaamheid aflegt : [1 a) wanneer de door de aanvrager gevolgde opleiding betrekking heeft op vakken die wezenlijk verschillen van die welke worden afgedekt door de in België vereiste opleidingstitel;
     b) wanneer het in België gereglementeerde beroep een of meer gereglementeerde beroepswerkzaamheden omvat die niet bestaan in het overeenkomstige beroep in de lidstaat van oorsprong van de aanvrager, en wanneer de opleiding vereist in België betrekking heeft op vakken die wezenlijk verschillen van die afgedekt door het bekwaamheidsattest of de opleidingstitel die de aanvrager overlegt.]1
@@ -495,7 +499,7 @@ Dit hoofdstuk is van toepassing op alle beroepen die niet onder hoofdstuk II van
    (1)<W 2016-12-25/44, art. 24, 002; Inwerkingtreding : 10-02-2017>
    (2)<W 2021-08-29/23, art. 7, 006; Inwerkingtreding : 07-10-2021>
 
-## Art. 16_WAALS_GEWEST.
+#### Art. 16_WAALS_GEWEST.
     § 1. [2 De bevoegde Belgische autoriteit kan in een van de volgende gevallen van de aanvrager eisen dat hij een aanpassingsstage van ten hoogste drie jaar doorloopt of een proeve van bekwaamheid aflegt :
     1° wanneer de door de aanvrager gevolgde opleiding betrekking heeft op vakken die wezenlijk verschillen van die welke worden afgedekt door de in het Waalse Gewest vereiste opleidingstitel;
     2° wanneer het in het Waalse Gewest gereglementeerde beroep een of meer gereglementeerde beroepswerkzaamheden omvat die niet bestaan in het overeenkomstige beroep in de lidstaat van oorsprong van de aanvrager, en wanneer de opleiding vereist in het Waalse Gewest betrekking heeft op vakken die wezenlijk verschillen van die afgedekt door het bekwaamheidsattest of de opleidingstitel die de aanvrager overlegt.]2
@@ -518,21 +522,21 @@ Dit hoofdstuk is van toepassing op alle beroepen die niet onder hoofdstuk II van
    (1)<W 2016-12-25/44, art. 24, 002; Inwerkingtreding : 10-02-2017>
    (2)<DWG 2017-07-12/16, art. 25, 004; Inwerkingtreding : 22-09-2017>
 
-## Art. 17.
+#### Art. 17.
 
-## Art. 17_WAALS_GEWEST.
+#### Art. 17_WAALS_GEWEST.
 
-#### HOOFDSTUK II. - Erkenning van beroepservaring.
+### HOOFDSTUK II. - Erkenning van beroepservaring.
 
   Eisen inzake beroepservaring.
 
-## Art. 18
+#### Art. 18
 
 Wanneer de toegang tot of uitoefening van een van de in bijlage IV vermelde werkzaamheden afhankelijk wordt gesteld van het bezit van algemene kennis, handels- of vakkennis en -bekwaamheid, beschouwt de bevoegde Belgische autoriteit als genoegzaam bewijs van die kennis en bekwaamheid het feit dat de werkzaamheid in kwestie voorafgaandelijk in een andere lidstaat is uitgeoefend. Deze werkzaamheid moet overeenkomstig de artikelen 19, 20 en 21 zijn uitgeoefend.
 
   Werkzaamheden van lijst I van bijlage IV.
 
-## Art. 19
+#### Art. 19
 
 § 1. Bij werkzaamheden van lijst I van bijlage IV moet de voorafgaande werkzaamheid zijn uitgeoefend :
   a) hetzij gedurende zes opeenvolgende jaren als zelfstandige of als bedrijfsleider;
@@ -545,7 +549,7 @@ Wanneer de toegang tot of uitoefening van een van de in bijlage IV vermelde werk
 
     Werkzaamheden van lijst II van bijlage IV.
 
-## Art. 20
+#### Art. 20
 
 § 1. Bij werkzaamheden van lijst II van bijlage IV moet de voorafgaande werkzaamheid zijn uitgeoefend :
    a) hetzij gedurende vijf opeenvolgende jaren als zelfstandige of als bedrijfsleider;
@@ -558,7 +562,7 @@ Wanneer de toegang tot of uitoefening van een van de in bijlage IV vermelde werk
 
     Werkzaamheden van lijst III van bijlage IV.
 
-## Art. 21
+#### Art. 21
 
 § 1. Bij werkzaamheden van lijst III van bijlage IV moet de voorafgaande werkzaamheid zijn uitgeoefend :
    a) hetzij gedurende drie opeenvolgende jaren als zelfstandige of als bedrijfsleider;
@@ -571,7 +575,7 @@ Wanneer de toegang tot of uitoefening van een van de in bijlage IV vermelde werk
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 26, 002; Inwerkingtreding : 10-02-2017> en <DWG 2017-07-12/16, art. 27, 004; Inwerkingtreding : 22-09-2017>
 
-## Art. 21/1
+#### Art. 21/1
 
 [1 Gemeenschappelijk opleidingskader
    § 1. Voor de toepassing van dit artikel wordt onder een "gemeenschappelijk opleidingskader" verstaan een voor de uitoefening van een specifiek beroep vereist gemeenschappelijk geheel van minimumkennis, vaardigheden en competenties.
@@ -584,7 +588,7 @@ Wanneer de toegang tot of uitoefening van een van de in bijlage IV vermelde werk
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 27, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 21/1_WAALS_GEWEST.
+#### Art. 21/1_WAALS_GEWEST.
   [1 Gemeenschappelijk opleidingskader
    Voor de toegang tot of de uitoefening van een beroep, hebben de op basis van een gemeenschappelijk opleidingskader verworven opleidingstitels in de zin van artikel 49 bis, § 2, van de Richtlijn, dezelfde gevolgen als de opleidingstitels verleend in het Waalse Gewest, behalve als één van de volgende voorwaarden is vervuld:
    1° in het Waalse Gewest zijn er geen onderwijs- of opleidingsinstellingen die een dergelijke opleiding voor het betrokken beroep kunnen aanbieden;
@@ -593,7 +597,7 @@ Wanneer de toegang tot of uitoefening van een van de in bijlage IV vermelde werk
   ----------
   (1)<DWG 2017-07-12/16, art. 28, 004; Inwerkingtreding : 22-09-2017>
 
-## Art. 21/2
+#### Art. 21/2
 
 [1 Gemeenschappelijke opleidingsproeven
     § 1. Voor de toepassing van dit artikel wordt onder een gemeenschappelijke opleidingsproef verstaan een gestandaardiseerde proeve van bekwaamheid die in alle deelnemende lidstaten beschikbaar is en voorbehouden is voor houders van bepaalde beroepskwalificaties.
@@ -606,17 +610,17 @@ Wanneer de toegang tot of uitoefening van een van de in bijlage IV vermelde werk
    ----------
    (1)<Ingevoegd bij W 2016-12-25/44, art. 28, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 21/2_WAALS_GEWEST.
+#### Art. 21/2_WAALS_GEWEST.
   [1 Gemeenschappelijke opleidingsproeven
    Het slagen voor een gemeenschappelijke opleidingsproef in de zin van artikel 49ter van de Richtlijn, laat de houder van een bepaalde beroepskwalificatie toe om het beroep in het Waalse Gewest onder dezelfde voorwaarden uitoefenen als de houders van de in het Waalse Gewest verworven beroepskwalificaties behalve als de inhoud van de gemeenschappelijke opleidingsproef de ernstige risico's voor de volksgezondheid of de veiligheid van de afnemers van de diensten die in het Waalse Gewest van belang zijn, niet voldoende beperkt.]1
   ----------
   (1)<DWG 2017-07-12/16, art. 29, 004; Inwerkingtreding : 22-09-2017>
 
-#### HOOFDSTUK III. - Gemeenschappelijke bepalingen inzake vestiging.
+### HOOFDSTUK III. - Gemeenschappelijke bepalingen inzake vestiging.
 
   Documenten en formaliteiten.
 
-## Art. 22
+#### Art. 22
 
 § 1. Wanneer de bevoegde Belgische autoriteiten overeenkomstig deze titel over een aanvraag tot uitoefening van het betrokken gereglementeerde beroep beslissen, kunnen zij de in § 5 genoemde documenten eisen.
   De in § 5, onder d), e) en f), bedoelde documenten mogen bij overlegging niet ouder dan drie maanden zijn.
@@ -643,7 +647,7 @@ Wanneer de toegang tot of uitoefening van een van de in bijlage IV vermelde werk
    ----------
    (1)<W 2016-12-25/44, art. 29, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 22_WAALS_GEWEST.
+#### Art. 22_WAALS_GEWEST.
     § 1. Wanneer de bevoegde Belgische autoriteiten overeenkomstig deze titel over een aanvraag tot uitoefening van het betrokken gereglementeerde beroep beslissen, kunnen zij de in § 5 genoemde documenten eisen.
    De in § 5, onder d), e) en f), bedoelde documenten mogen bij overlegging niet ouder dan drie maanden zijn.
    De bevoegde Belgische autoriteiten dragen er zorg voor dat de inhoud van de verstrekte informatie geheim blijft.
@@ -670,24 +674,24 @@ Wanneer de toegang tot of uitoefening van een van de in bijlage IV vermelde werk
   (1)<W 2016-12-25/44, art. 29, 002; Inwerkingtreding : 10-02-2017>
   (2)<DWG 2017-07-12/16, art. 30, 004; Inwerkingtreding : 22-09-2017>
 
-## Art. 23
+#### Art. 23
 
 § 1. De bevoegde Belgische autoriteit bevestigt binnen één maand de ontvangst van het dossier van de aanvrager en deelt in voorkomend geval mee welke documenten ontbreken.
   § 2. De procedure voor de behandeling van een aanvraag om een gereglementeerd beroep te mogen uitoefenen, moet uiterlijk drie maanden na de indiening van het volledige dossier van de aanvrager door een met redenen omkleed besluit van de bevoegde Belgische autoriteit worden afgesloten. Deze uiterste datum kan echter met één maand worden verlengd voor de beroepen die onder deze wet vallen.
 
   Voeren van een beroepstitel.
 
-## Art. 24
+#### Art. 24
 
 § 1. Wanneer voorschriften gelden voor het voeren van de beroepstitel voor een van de werkzaamheden van het betrokken beroep, voeren de onderdanen van de andere lidstaten die op grond van titel III gerechtigd zijn een gereglementeerd beroep uit te oefenen, de beroepstitel die in België met dit beroep overeenkomt, en maken zij gebruik van de eventuele afkorting van deze titel.
    § 2. Wanneer een beroep is gereglementeerd door een vereniging of organisatie zoals bedoeld in artikel 2, § 2, mogen de onderdanen van de lidstaten de door die organisatie of vereniging verleende beroepstitel of de afkorting daarvan uitsluitend gebruiken indien zij het bewijs overleggen dat zij lid van die organisatie of vereniging zijn.
    Wanneer de vereniging of organisatie het lidmaatschap afhankelijk stelt van bepaalde kwalificaties, mag zij deze kwalificaties slechts overeenkomstig de bepalingen van deze wet eisen van onderdanen van andere lidstaten die over beroepskwalificaties beschikken.
 
-### TITEL IV. - Wijze van uitoefening van het beroep.
+## TITEL IV. - Wijze van uitoefening van het beroep.
 
   Talenkennis.
 
-## Art. 25
+#### Art. 25
 
 [1 § 1. De beroepsbeoefenaren die erkenning van beroepskwalificaties hebben verkregen, moeten beschikken over de talenkennis die vereist is voor de uitoefening van het beroep in België.
    § 2. De controles die tot doel hebben de taalkennis bedoeld in § 1 na te gaan, zijn beperkt tot de kennis van één officiële Belgische landstaal.
@@ -697,7 +701,7 @@ Wanneer de toegang tot of uitoefening van een van de in bijlage IV vermelde werk
   ----------
   (1)<W 2016-12-25/44, art. 30, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 25_WAALS_GEWEST.
+#### Art. 25_WAALS_GEWEST.
   [1 De beroepsbeoefenaren die erkenning van beroepskwalificaties hebben verkregen, moeten beschikken over de talenkennis die vereist is voor de uitoefening van het beroep in het Waalse Gewest.
    Elke controle die wordt uitgevoerd door of onder toezicht van de bevoegde autoriteiten voor de controle op de naleving van de verplichting bedoeld in het eerste lid, moet beperkt blijven tot de kennis van het Frans of het Duits.
    Overeenkomstig lid 2 uitgevoerde controles mogen worden opgelegd indien het uit te oefenen beroep implicaties voor de veiligheid van de patiënt heeft. Ten aanzien van andere beroepen mogen controles worden opgelegd in gevallen waar er ernstige en concrete twijfel over bestaat of de beroepsbeoefenaar over voldoende talenkennis beschikt voor de beroepswerkzaamheden die hij wil uitoefenen.
@@ -708,11 +712,11 @@ Wanneer de toegang tot of uitoefening van een van de in bijlage IV vermelde werk
 
   Voeren van de academische titels.
 
-## Art. 26
+#### Art. 26
 
 Onverminderd de artikelen 9 en 24, ziet de bevoegde Belgische autoriteit erop toe dat de betrokkenen het recht hebben gebruik te maken van academische titels die hun verleend zijn in de lidstaat van oorsprong, en eventueel van de afkorting daarvan, in de taal van de lidstaat van herkomst. De bevoegde Belgische autoriteit kan voorschrijven dat deze titel wordt gevolgd door de naam en de plaats van de instelling of van de examencommissie die de titel heeft verleend. Wanneer een academische titel van de lidstaat van oorsprong in België kan worden verward met een titel waarvoor in België een aanvullende opleiding is vereist die de begunstigde niet heeft gevolgd, kan de bevoegde Belgische autoriteit voorschrijven dat de begunstigde een academische titel van de lidstaat van oorsprong voert in een door haar aangegeven passende vorm.
 
-## Art. 26/1
+#### Art. 26/1
 
 [1 Erkenning van beroepsstages
     § 1. Indien voor de toegang tot een gereglementeerd beroep in België een beroepsstage moet worden volbracht, erkent de bevoegde Belgische autoriteit, wanneer zij een verzoek onderzoekt om toelating om het gereglementeerde beroep uit te oefenen met het oog op de vestiging, beroepsstages die in een andere lidstaat gevolgd zijn, mits de stage in overeenstemming is met de in § 2 bedoelde gepubliceerde richtsnoeren, en houdt zij rekening met in een derde land gevolgde beroepsstages.
@@ -722,7 +726,7 @@ Onverminderd de artikelen 9 en 24, ziet de bevoegde Belgische autoriteit erop to
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 31, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 26/1_WAALS_GEWEST.
+#### Art. 26/1_WAALS_GEWEST.
    [1 Erkenning van beroepsstages
     § 1. Indien de voor toegang tot een gereglementeerd beroep een beroepsstage in het Waalse Gewest moet worden volbracht, erkennen de bevoegde autoriteiten, wanneer zij een verzoek om toelating om het gereglementeerde beroep uit te oefenen, in overweging nemen, beroepsstages die in een andere lidstaat gevolgd zijn, mits de stage in overeenstemming is met de in paragraaf 2 bedoelde gepubliceerde richtsnoeren, en houdt zij rekening met een in een derde land gevolgde beroepsstage.
     De Regering is gemachtigd om lidstaten om de duur van het deel van de beroepsstage die in het buitenland mag worden gevolgd tot een redelijke periode te beperken, rekening houdend met de geplogenheden van elk gereglementeerd beroep.
@@ -731,11 +735,11 @@ Onverminderd de artikelen 9 en 24, ziet de bevoegde Belgische autoriteit erop to
    ----------
    (1)<DWG 2017-07-12/16, art. 32, 004; Inwerkingtreding : 22-09-2017>
 
-### TITEL V. - Administratieve samenwerking.
+## TITEL V. - Administratieve samenwerking.
 
   Bevoegde autoriteiten.
 
-## Art. 27
+#### Art. 27
 
 § 1. De bevoegde Belgische autoriteiten werken nauw samen met de bevoegde autoriteiten van de lidstaat van oorsprong bij de toepassing van de richtlijn. Zij zien toe op de vertrouwelijkheid van de uitgewisselde informatie.
    § 2. De bevoegde Belgische autoriteiten wisselen informatie uit met de bevoegde autoriteiten van de lidstaat van oorsprong over tuchtrechtelijke maatregelen of strafrechtelijke sancties die genomen zijn, en over alle andere specifieke ernstige feiten die van invloed kunnen zijn op de uitoefening van werkzaamheden in het kader van deze wet, met inachtneming van de wet [1 van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens]1 en van de wet van 24 augustus 2005 voor wat betreft de bepalingen inzake de omzetting van de richtlijn privacy en elektronische communicatie (richtlijn 2002/58/EG).
@@ -744,7 +748,7 @@ Onverminderd de artikelen 9 en 24, ziet de bevoegde Belgische autoriteit erop to
    ----------
    (1)<W 2016-12-25/44, art. 32, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 27_WAALS_GEWEST.
+#### Art. 27_WAALS_GEWEST.
    § 1. De bevoegde Belgische autoriteiten werken nauw samen met de bevoegde autoriteiten van de lidstaat van oorsprong bij de toepassing van de richtlijn. Zij zien toe op de vertrouwelijkheid van de uitgewisselde informatie.
   § 2. De bevoegde Belgische autoriteiten wisselen informatie uit met de bevoegde autoriteiten van de lidstaat van oorsprong over tuchtrechtelijke maatregelen of strafrechtelijke sancties die genomen zijn, en over alle andere specifieke ernstige feiten die van invloed kunnen zijn op de uitoefening van werkzaamheden in het kader van deze wet, met inachtneming van de wet [2 van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens]2 en van de wet van 24 augustus 2005 voor wat betreft de bepalingen inzake de omzetting van de richtlijn privacy en elektronische communicatie (richtlijn 2002/58/EG).
    In het omgekeerde geval, op aanvraag van de bevoegde autoriteiten van de ontvangende lidstaat, gaan de bevoegde Belgische autoriteiten de juistheid van deze feiten na, bepalen de aard en de omvang van het in te stellen onderzoek en stellen de bevoegde autoriteiten van de ontvangende lidstaat in kennis van de consequenties die zij daaruit trekken ten aanzien van de verstrekte informatie.
@@ -753,7 +757,7 @@ Onverminderd de artikelen 9 en 24, ziet de bevoegde Belgische autoriteit erop to
    (1)<W 2016-12-25/44, art. 32, 002; Inwerkingtreding : 10-02-2017>
    (2)<DWG 2017-07-12/16, art. 33, 004; Inwerkingtreding : 22-09-2017>
 
-## Art. 27/1
+#### Art. 27/1
 
 [1 Waarschuwingsmechanismes
     § 1. De bevoegde Belgische autoriteit stelt de bevoegde autoriteiten van alle andere lidstaten binnen drie dagen nadat de rechtbank het besluit heeft genomen, door middel van een waarschuwing via het IMI in kennis van de identiteit van beroepsbeoefenaars die krachtens deze wet een aanvraag tot erkenning van een kwalificatie hebben ingediend en die daarna in dit verband door een rechtbank schuldig zijn bevonden aan het gebruik van valse bewijzen voor het bewijs van hun beroepskwalificaties.
@@ -763,7 +767,7 @@ Onverminderd de artikelen 9 en 24, ziet de bevoegde Belgische autoriteit erop to
    ----------
    (1)<Ingevoegd bij W 2016-12-25/44, art. 33, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 27/1_WAALS_GEWEST.
+#### Art. 27/1_WAALS_GEWEST.
    [1 Waarschuwingsmechanismes
    § 1. De bevoegde autoriteiten stellen de bevoegde autoriteiten van alle andere lidstaten binnen drie dagen nadat de rechtbank het besluit heeft genomen, door middel van een waarschuwing via het IMI in kennis van de identiteit van beroepsbeoefenaars die krachtens deze wet een aanvraag tot erkenning van een kwalificatie hebben ingediend en die daarna in dit verband door een rechtbank schuldig zijn bevonden aan het gebruik van valse bewijzen voor het bewijs van hun beroepskwalificaties.
     § 2. De verwerking van persoonsgegevens bedoeld in paragraaf 1 vindt plaats met inachtneming van de regels inzake de bescherming van persoonsgegevens
@@ -772,7 +776,7 @@ Onverminderd de artikelen 9 en 24, ziet de bevoegde Belgische autoriteit erop to
    ----------
    (1)<DWG 2017-07-12/16, art. 34, 004; Inwerkingtreding : 22-09-2017>
 
-## Art. 27/2
+#### Art. 27/2
 
 [1 Communicatie door elektronische middelen
    De bevoegde Belgische autoriteit zorgt ervoor dat alle vereisten, procedures en formaliteiten inzake aangelegenheden die onder deze wet vallen, eenvoudig, op afstand en met elektronische middelen kunnen worden afgewikkeld of opgevolgd.
@@ -781,31 +785,31 @@ Onverminderd de artikelen 9 en 24, ziet de bevoegde Belgische autoriteit erop to
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 34, 002; Inwerkingtreding : 10-02-2017>
 
-## Art. 27/2_WAALS_GEWEST.
+#### Art. 27/2_WAALS_GEWEST.
   [1 De bevoegde autoriteiten zorgen ervoor dat alle vereisten, procedures en formaliteiten inzake aangelegenheden die onder deze wet vallen, eenvoudig, op afstand en met elektronische middelen kunnen worden afgewikkeld of opgevolgd.
    Het eerste lid belet de bevoegde autoriteiten niet om in een latere fase voor eensluidend gewaarmerkte afschriften te vragen indien zij gegronde twijfel hebben en indien dit strikt noodzakelijk is Het eerste lid is niet van toepassing op het uitvoeren van een aanpassingsstage of een proeve van bekwaamheid.]1
   ----------
   (1)<DWG 2017-07-12/16, art. 35, 004; Inwerkingtreding : 22-09-2017>
 
-### TITEL VI. - Slotbepalingen.
+## TITEL VI. - Slotbepalingen.
 
-## Art. 28
+#### Art. 28
 
 De Koning kan wijzigingen aanbrengen aan de bijlagen van deze wet, teneinde ze in overeenstemming te brengen met de toekomstige wijzigingen in de Europese regelgeving.
 
-## Art. 29
+#### Art. 29
 
 De wet tot instelling van het algemeen kader voor de wederzijdse erkenning van beroepsopleidingen van 10 mei 2006 wordt opgeheven.
 
   Inwerkingtreding.
 
-## Art. 30
+#### Art. 30
 
 Deze wet treedt in werking de dag waarop ze in het Belgisch Staatsblad wordt bekendgemaakt.
 
   BIJLAGEN.
 
-   Art. N1. BIJLAGE 1. - Lijst van beroepsverenigingen of -organisaties die voldoen aan de voorwaarden van artikel 2, § 2.
+#### Art. N1. BIJLAGE 1. - Lijst van beroepsverenigingen of -organisaties die voldoen aan de voorwaarden van artikel 2, § 2.
    IERLAND (1)
    ( (1) Ierse onderdanen zijn eveneens lid van de volgende verenigingen of organisaties in het Verenigd Koninkrijk : - Institute of Chartered Accountants in England and Wales - Instftute of Chartered Accountants of Scotland - Institute of Actuaries - Faculty of Actuaries - The Chartered Institute of Management Accountants - Institute of Chartered Secretaries and Administrators - Royal Town Planning Institute - Royal Institution of Chartered Surveyors - Chartered Institute of Building. )
    1. The Institute of Chartered Accountants in Ireland (2)
@@ -854,15 +858,15 @@ Deze wet treedt in werking de dag waarop ze in het Belgisch Staatsblad wordt bek
   37. Institute of Measurement and Control
   38. British Computer Society
 
-  Art. N2.
+#### Art. N2.
 
-  Art. N2_WAALS_GEWEST.
+#### Art. N2_WAALS_GEWEST.
 
-  Art. N3.
+#### Art. N3.
 
-  Art. N3_WAALS_GEWEST.
+#### Art. N3_WAALS_GEWEST.
 
-  Art. N4. Bijlage IV. - Werkzaamheden die verband houden met de beroepservaringscategorieën bedoeld in de artikelen 19, 20 en 21.
+#### Art. N4. Bijlage IV. - Werkzaamheden die verband houden met de beroepservaringscategorieën bedoeld in de artikelen 19, 20 en 21.
   Lijst I. - Klassen die vallen onder Richtlijn 64/427/EEG, zoals gewijzigd bij Richtlijn 69/77/EEG, en onder de Richtlijnen 68/366/EEG en 82/489/EEG.
   1.
   Richtlijn 64/427/EEG
@@ -976,6 +980,6 @@ Deze wet treedt in werking de dag waarop ze in het Belgisch Staatsblad wordt bek
    - het verrichten van de technische controle of expertise van motorrijtuigen;
    - het meten, wegen en ijken van goederen.
 
-  Art. N5. Bijlage V. - Omzettingstabel.
+#### Art. N5. Bijlage V. - Omzettingstabel.
   (Tabel niet opgenomen om technische redenen. Zie B.S. 02-04-2008, p. 17918-17921).
 

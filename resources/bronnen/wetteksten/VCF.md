@@ -24,24 +24,28 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy: null
 ---
 
 # Vlaamse Codex Fiscaliteit (VCF)
 
 *Bijgewerkt tot en met 03.04.2026 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
 
-### TITEL 1 - Inleidende bepalingen                         TITRE 1er - Dispositions introductives
-#### Hoofdstuk 1 - Algemene bepalingen en definities           Chapitre 1er - Dispositions générales et définitions
+## TITEL 1 - Inleidende bepalingen                         TITRE 1er - Dispositions introductives
+### Hoofdstuk 1 - Algemene bepalingen en definities           Chapitre 1er - Dispositions générales et définitions
 
-## Art. 1.1.0.0.1
+###### Art. 1.1.0.0.1
 
-Art. 1.1.0.0.1.
+###### Art. 1.1.0.0.1.
 
 Deze codex regelt een gewestaangelegenheid.               Le présent Code règle une matière régionale.
 
-## Art. 1.1.0.0.2
+###### Art. 1.1.0.0.2
 
-Art. 1.1.0.0.2.
+###### Art. 1.1.0.0.2.
 
 In deze codex wordt verstaan onder :                      Dans le présent code, il y a lieu d'entendre par :
 
@@ -322,9 +326,9 @@ In titel 2, hoofdstuk 13, en in titel 3, wordt, overeenkomstig   Au titre 2, cha
 
 - vierde lid, punt 4° werd toegevoegd door art. 116 van het      alinéa 4, point 4° est ajouté par art. 116 du décret du 18 decreet van 18 dec. 2015 (B.S., 29.12.2015). De tekst treedt     déc. 2015 (M.B., 29.12.2015). Texte est entré en in werking vanaf 1 januari 2016 (art. 135) vigueur le 01.01.2016 (art. 135)) - gewijzigd door art. 2 van het decreet van 17.07.2015 (B.S.     - modifié par art. 2 du décret du 17 juillet 2015 (M.B., 14.08.2015 erratum B.S. 12.09.2017).                             14.08.2015 erratum M.B. 12.09.2017). Texte est entré Inwerkingtreding op 14.08.2015 (art. 41)                         en vigueur le 14 août 2015 (art. 41)) - vervangen door art. 2 van het decreet van 19.12.2014           - remplacé par art. 2 du décret du 19.12.2014 (M.B., (B.S. 29.01.2015 Ed.2 erratum B.S. 12.09.2017).                  29.01.2015, Ed. 2 - erratum M.B. 12.09.2017). Texte est Inwerkingtreding op 01.01.2015 (art. 325)                        entré en vigueur le 01.01.2015 (art. 325))
 
-## Art. 1.1.0.0.3
+###### Art. 1.1.0.0.3
 
-Art. 1.1.0.0.3.
+###### Art. 1.1.0.0.3.
 
 De begrippen, gehanteerd in titel 2, hoofdstuk 5, van deze      Les notions, utilisées dans le titre 2, chapitre 5, du codex, worden geïnterpreteerd in overeenstemming met de         présent Code, sont interprétées conformément aux bepalingen van artikel 1.3 en boek 3, deel 5, titel 2, van de   dispositions de l'article 1.3 et du livre 3, partie 5, titre 2, Vlaamse Codex Wonen van 2021.                                   du Code flamand du Logement de 2021.
 
@@ -338,49 +342,49 @@ Bekrachtigd door art. 224, 2° van het decreet van               Confirmé par l
 20.09.2021.
 - gewijzigd door art. 26 van het decreet van 29.03.2019         - modifié par l'art. 26 du décret du 29.03.2019 (B.S. 29.04.2019). Tekst treedt in werking op 01.01.2021        (M.B.29.04.2019). Texte entre en vigueur le 01.01.2021
 
-## Art. 1.1.0.0.4
+###### Art. 1.1.0.0.4
 
-Art. 1.1.0.0.4.
+###### Art. 1.1.0.0.4.
 
 De Vlaamse Regering kan eenieder die onderhevig is aan          Le Gouvernement flamand peut imposer à quiconque, de bepalingen van deze codex de verplichting opleggen om        sujet aux dispositions du présent Code, l'obligation documenten en formulieren te gebruiken waarvan ze de            d'utiliser des documents et des formulaires dont il inhoud en het gebruik bepaalt.                                  détermine le contenu et l'usage.
 
-### TITEL 2 - Belastingheffing                                 TITRE 2 - Perception des impôts
-#### Hoofdstuk 1 - Onroerende voorheffing                            Chapitre 1er - Précompte immobilier
+## TITEL 2 - Belastingheffing                                 TITRE 2 - Perception des impôts
+### Hoofdstuk 1 - Onroerende voorheffing                            Chapitre 1er - Précompte immobilier
 
-##### Afdeling 1 - Belastbaar voorwerp                                  Section 1re - Objet imposable
+#### Afdeling 1 - Belastbaar voorwerp                                  Section 1re - Objet imposable
 
-## Art. 2.1.1.0.1
+###### Art. 2.1.1.0.1
 
-Art. 2.1.1.0.1.
+###### Art. 2.1.1.0.1.
 
 Overeenkomstig artikel 249 van het federale WIB 92 wordt        Conformément à l'article 249 du CIR 92 fédéral, l'impôt de belasting geheven op inkomsten uit onroerende                est levé sur les revenus de biens immobiliers, situés en goederen, gelegen in het Vlaamse Gewest.                        Région flamande.
 
-##### Afdeling 2 - Belastingplichtigen                                  Section 2 - Contribuables
+#### Afdeling 2 - Belastingplichtigen                                  Section 2 - Contribuables
 
-## Art. 2.1.2.0.1
+###### Art. 2.1.2.0.1
 
-Art. 2.1.2.0.1.
+###### Art. 2.1.2.0.1.
 
 De belastingplichtige is degene die op 1 januari van het        Le contribuable est celui qui, le 1er janvier de l'année aanslagjaar de eigenaar, bezitter, erfpachter, opstalhouder     d'imposition, est le propriétaire, le possesseur, of vruchtgebruiker is van de belastbare goederen.               l'emphytéote, le superficiaire ou l'usufruitier des biens immobiliers.
 
-##### Afdeling 3. - Belastbare grondslag                                  Section 3 - Base imposable
+#### Afdeling 3. - Belastbare grondslag                                  Section 3 - Base imposable
 
-## Art. 2.1.3.0.1
+###### Art. 2.1.3.0.1
 
-Art. 2.1.3.0.1.
+###### Art. 2.1.3.0.1.
 De onroerende voorheffing wordt vastgesteld op basis van        Le précompte immobilier est déterminé sur la base du het kadastraal inkomen van de belastbare goederen dat op        revenu cadastral des biens imposables qui est connu le 1 januari van het aanslagjaar bekend is.                        1er janvier de l'année d'imposition.
 
-## Art. 2.1.3.0.2
+###### Art. 2.1.3.0.2
 
-Art. 2.1.3.0.2.
+###### Art. 2.1.3.0.2.
 
 Voor de vaststelling van de belastbare grondslag wordt         Pour la détermination de la base imposable, il n'est pas geen rekening gehouden met de vermindering                     tenu compte de la réduction conformément à l'article 15 overeenkomstig artikel 15 van het federale WIB 92.             du CIR 92 fédéral.
 
-##### Afdeling 4 - Tarieven                                           Section 4 - Tarifs
+#### Afdeling 4 - Tarieven                                           Section 4 - Tarifs
 
-## Art. 2.1.4.0.1
+###### Art. 2.1.4.0.1
 
-Art. 2.1.4.0.1.
+###### Art. 2.1.4.0.1.
 
 § 1. Het tarief van de onroerende voorheffing bedraagt 3,97    § 1er. Le tarif du précompte immobilier s’élève à 3,97 %.                                                             %.
 
@@ -440,9 +444,9 @@ Bekrachtigd door art. 224, 2° van het decreet van               Confirmé par l
 - § 2 vervangen door art. 3 van het decreet van 20 dec. 2013 - §2 remplacé par l’art. 3 du décret du 20.12.2013 (M.B.
 (B.S., 31.12.2013). De tekst is in werking getreden met      31.12.2013). Texte entre en vigueur à partir de l’année ingang van aanslagjaar 2014 (art. 61).                       d’imposition 2014 (art. 61)
 
-## Art. 2.1.4.0.2
+###### Art. 2.1.4.0.2
 
-Art. 2.1.4.0.2.
+###### Art. 2.1.4.0.2.
 
 § 1. Overeenkomstig artikel 464/1, 1°, van het Wetboek           § 1er. Conformément à l’article 464/1, 1°, du Code des van de Inkomstenbelastingen 1992, zijn de provincies,            Impôts sur les Revenus 1992, les provinces, communes gemeenten en de agglomeraties gemachtigd om                      et agglomérations sont autorisées à lever des centimes opcentiemen op de onroerende voorheffing te heffen.              additionnels sur le précompte immobilier.
 
@@ -472,11 +476,11 @@ Als een gemeente de opbrengst van haar deel in die               Lorsqu’une co
 
 - gewijzigd door art. 7 van het decreet van 19.12.2014 (B.S., - remplacé par art. 7 du décret du 19.12.2014 (M.B., 13.01.2015). De tekst is in werking getreden vanaf het        13.01.2015). Texte est entré en vigueur à partir de aanslagjaar 2015. (art. 24)                                   l’année d’imposition 2015 (art. 24)
 
-##### Afdeling 5 - Verminderingen                                       Section 5 – Réductions
+#### Afdeling 5 - Verminderingen                                       Section 5 – Réductions
 
-## Art. 2.1.5.0.1
+###### Art. 2.1.5.0.1
 
-Art. 2.1.5.0.1.
+###### Art. 2.1.5.0.1.
 
 § 1. Er wordt een vermindering verleend van :                  § 1er. Il est accordé une réduction :
 
@@ -555,9 +559,9 @@ Bij de overdracht van een onroerend goed waarvoor een        En cas de transfert
 
 - gewijzigd door art. 98 van het decreet van 18 dec. 2015   - remplacé par art. 98 du décret du 18 déc. 2015 (M.B., (B.S., 29.12.2015). De tekst is in werking getreden vanaf   29.12.2015). Texte est entré en vigueur à partir de aanslagjaar 2016 (art. 135)                                 l'année d'imposition 2016 (art. 135)
 
-## Art. 2.1.5.0.2
+###### Art. 2.1.5.0.2
 
-Art. 2.1.5.0.2.
+###### Art. 2.1.5.0.2.
 
 § 1. Op aanvraag van de belastingschuldige wordt :          § 1er. Sur la demande du redevable :
 
@@ -589,18 +593,18 @@ De kwijtschelding of proportionele vermindering voor             La remise ou r�
 - gewijzigd door art. 20 van het decreet van 23.12.2016          - modifié par l'art. 20 du décret du 23 décembre 2016.
 (B.S.: 30.12.2016). Tekst in werking getreden op                 (M.B.: 30.12.2016). Le texte entre en vigueur le 08.01.2017                                                       08.01.2017
 
-## Art. 2.1.5.0.3
+###### Art. 2.1.5.0.3
 
-Art. 2.1.5.0.3.
+###### Art. 2.1.5.0.3.
 De verminderingen, vermeld in artikel 2.1.5.0.1, § 1, 1°         Les réductions, visées à l'article 2.1.5.0.1, § 1er, 1° à 3° tot en met 3°, artikel 2.1.5.0.1, § 1/1, artikel 2.1.5.0.1, §    inclus, article 2.1.5.0.1, § 1er/1, à l'article 2.1.5.0.1, § 2, 2, eerste lid, 1° tot en met 7°, en artikel 2.1.5.0.2, § 1, 1°   alinéa premier, 1° à 7° inclus, et à l'article 2.1.5.0.2, § 1er, en 2°, worden beoordeeld naar de toestand op 1 januari           1° et 2°, sont évaluées en fonction de la situation le 1er van het jaar waarnaar het aanslagjaar van de onroerende          janvier de l'année dont le millésime désigne l'année voorheffing wordt genoemd. Die verminderingen                    d'imposition du précompte immobilier. Ces réductions kunnen worden samengevoegd, met uitzondering van de              peuvent être cumulées, à l'exception de la réduction, visée vermindering, vermeld in artikel 2.1.5.0.1, § 2, eerste lid,     à l'article 2.1.5.0.1, § 2, alinéa premier, 3°, qui ne peut être
 3°, die niet samengevoegd kan worden met de                      cumulée avec les réductions, visées à l'article 2.1.5.0.1, § verminderingen, vermeld in artikel 2.1.5.0.1, § 2, eerste        2, alinéa premier, 1° et 2°. lid, 1° en 2°.
 ---- historiek ----                                              ---- historique ----
 
 - gewijzigd door art. 10 van het decreet van 16.12.2022          - modifié par l'art. 10 du décret du 16.12.2022 (M.B., (B.S., 29.12.2022). Inwerkingtreding vanaf aanslagjaar           29.12.2022). En vigueur à partir de l'année d'imposition 2023                                                             2023 - gewijzigd door art. 3 van het decreet van 19.11.2021           - modifié par l'art. 3 du décret du 19.11.2021 (M.B., (B.S., 16.12.2021). Inwerkingtreding: 01.01.2022                 16.12.2021). En vigueur le 01.01.2022
 
-## Art. 2.1.5.0.4
+###### Art. 2.1.5.0.4
 
-Art. 2.1.5.0.4.
+###### Art. 2.1.5.0.4.
 
 De verminderingen, vermeld in artikel 2.1.5.0.1, § 1, 2°         Les réductions, visées à l'article 2.1.5.0.1, § 1er, 2° et en 3°, artikel 2.1.5.0.1, § 1/1 en artikel 2.1.5.0.2, § 1, 2°,   3°, article 2.1.5.0.1, § 1er/1 et à l'article 2.1.5.0.2, § 1er, zijn van de huur aftrekbaar, niettegenstaande elk beding         2°, sont déductibles du loyer, nonobstant toute dat strijdig is daarmee. De verminderingen zijn niet van         convention contraire. Les réductions ne sont pas toepassing op het gedeelte van de woning of van het              applicables à la partie de l'habitation ou du bien onroerend goed dat wordt bewoond door personen die               immobilier qui est occupée par des personnes qui ne geen deel uitmaken van hetzelfde gezin of die niet tot het       font pas partie de la même famille ou qui gezin van de betrokken oorlogsverminkte of van het               n'appartiennent pas à la famille du mutilé de guerre ou gehandicapt kind of de persoon met een handicap                  de l'enfant handicapé ou de la personne handicapée behoren.                                                         concernés.
 ---- historiek ----                                              ---- historique ----
@@ -608,9 +612,9 @@ De verminderingen, vermeld in artikel 2.1.5.0.1, § 1, 2°         Les réductio
 - gewijzigd door art. 11 van het decreet van               - modifié par l'art. 11 du décret du 16.12.2022 (M.B.
 16.12.2022 (B.S. 29.12.2022). Inwerkingtreding vanaf       29.12.2022). Entrée en vigueur à partir de l'année aanslagjaar 2023                                           d'imposition 2023 - gewijzigd door art. 4 van het decreet van 09.12.2022 (B.S. 20.12.2022). Inwerkingtreding: 30.12.2022
 
-## Art. 2.1.5.0.5
+###### Art. 2.1.5.0.5
 
-Art. 2.1.5.0.5.
+###### Art. 2.1.5.0.5.
 
 Als de grens van 745 euro, vermeld in artikel 2.1.5.0.1,   Lorsque la limite de 745 euros, visée à l'article 2.1.5.0.1,
 § 1, 1°, wordt overschreden, blijft de vermindering van    § 1er, 1°, est dépassée, la réduction de 25 % prévue par 25 % ingevolge die bepaling niettemin behouden voor        cette disposition est néanmoins maintenue au profit du de belastingplichtige die ze genoten heeft voor het        contribuable qui en a bénéficié pour l'année aanslagjaar 1979, zolang:                                  d'imposition 1979, aussi longtemps que :
@@ -620,9 +624,9 @@ Als de grens van 745 euro, vermeld in artikel 2.1.5.0.1,   Lorsque la limite de 
 
 3° het kadastraal inkomen van zijn gezamenlijke, in het    3° le revenu cadastral de l'ensemble de ses biens Vlaamse Gewest gelegen, onroerende goederen niet           immobiliers, situés en Région flamande, n'est pas meer bedraagt dan 992 euro.                                supérieur à 992 euros.
 
-## Art. 2.1.5.0.6
+###### Art. 2.1.5.0.6
 
-Art. 2.1.5.0.6.
+###### Art. 2.1.5.0.6.
 
 (…)                                                        (…)
 
@@ -637,9 +641,9 @@ Tekst in werking getreden vanaf aanslagjaar 2018           Texte en vigueur à p
 - vervangen door art. 52 van het decreet van 01 juli 2016 - modifié par l'art. 52 du décret du 01.07.2016 (M.B., (B.S., 19.08.2016). Tekst treedt in werking op een door de 19.08.2016). Texte entre en vigueur à une date à fixer Vlaamse Regering vast te stellen datum (art.               par le Gouvernement flamand (art. 66).
 66)
 
-## Art. 2.1.5.0.7
+###### Art. 2.1.5.0.7
 
-Art. 2.1.5.0.7.
+###### Art. 2.1.5.0.7.
 
 Aan de belastingplichtige rechtspersoon wordt een          Il est accordé au contribuable un crédit d’impôt égal à : belastingkrediet toegekend dat gelijk is aan :
 
@@ -658,11 +662,11 @@ Het belastingkrediet, vermeld in het eerste lid, komt         Le crédit d’imp
 
 - vervangen door art. 34 van het decreet van 18               - remplacé par l'art. 34 du décret du 18 novembre 2016. november 2016. Tekst van toepassing vanaf aanslagjaar         Texte en vigueur à partir de l'année d'imposition 2018
 
-##### Afdeling 6 - Vrijstellingen                                   Section 6 – Exonérations
+#### Afdeling 6 - Vrijstellingen                                   Section 6 – Exonérations
 
-## Art. 2.1.6.0.1
+###### Art. 2.1.6.0.1
 
-Art. 2.1.6.0.1.
+###### Art. 2.1.6.0.1.
 
 Op aanvraag van de belastingschuldige wordt een               Sur la demande du redevable, une exonération du vrijstelling van de onroerende voorheffing verleend voor      précompte immobilier est accordée pour le revenu het kadastraal inkomen van :                                  cadastral :
 
@@ -711,9 +715,9 @@ De nieuwe onroerende goederen die geplaatst worden in         Les biens immobili
 - lid 5, vervangen door art. 2 van het decreet van 20 dec.    - al. 5 remplacé par l’art. 2 du décret du 20 déc. 2013 2013 (B.S., 17.01.2014 – ed. 2). Tekst treedt in werking      (M.B., 17.01.2014 – éd. 2). Texte applicable depuis vanaf aanslagjaar 2015 (art. 4).                              l’année d’imposition 2015 (art. 4).
 - lid 6, vervangen door art. 2 van het decreet van 20 dec.    - al. 6 remplacé par l’art. 2 du décret du 20 déc. 2013 2013 (B.S., 17.01.2014 – ed. 2). Tekst treedt in werking      (M.B., 17.01.2014 – éd. 2). Texte applicable depuis vanaf aanslagjaar 2015 (art. 4).                              l’année d’imposition 2015 (art. 4).
 
-## Art. 2.1.6.0.2
+###### Art. 2.1.6.0.2
 
-Art. 2.1.6.0.2.
+###### Art. 2.1.6.0.2.
 
 Op aanvraag van de belastingschuldige wordt ook een           Sur la demande du redevable, une exonération du vrijstelling van de onroerende voorheffing verleend voor      précompte immobilier est également accordée pour le het kadastraal inkomen van:                                   revenu cadastral :
 
@@ -758,9 +762,9 @@ Bekrachtigd door art. 224, 2° van het decreet van            Confirmé par l’
 
 - gewijzigd door art. 21 van het decreet van 23 december     - modifié par l'art. 21 du décret du 23 décembre 2016 2016 (B.S.: 30.12.2016). Tekst in werking getreden vanaf     (M.B.: 30.12.2016).Le texte entre en vigueur à partir de aanslagjaar 2017                                             l'année d'imposition 2017
 
-## Art. 2.1.6.0.3
+###### Art. 2.1.6.0.3
 
-Art. 2.1.6.0.3.
+###### Art. 2.1.6.0.3.
 
 Aan de belastingschuldige wordt een automatische             Une exonération automatique du précompte immobilier vrijstelling van onroerende voorheffing verleend voor        est également accordée au redevable pour le revenu het kadastraal inkomen van :                                 cadastral :
 
@@ -778,29 +782,29 @@ d) ze hebben het label `Toerisme voor Allen' ontvangen       d) ils ont obtenu l
 - gewijzigd door art. 4 van het decreet van 03.04.2026       - modifié par l'art. 4 du décret du 03.04.2026 (M.B.
 (M.B. 23.04.2026). Inwerkingtreding: 03.05.2026              23.04.2026). En vigueur le 03.05.2026 - gewijzigd door art. 15 van het decreet van 11.02.2022      - modifié par l'art. 15 du décret du 11.02.2022 (M.B., (B.S., 11.03.2022). Inwerkingtreding: nog te bepalen         11.03.2022). Date de l'entrée en vigueur à fixer par le door de Vlaamse Regering                                     Gouvernement flamand
 
-##### Afdeling 7 - Wijze van heffing                              Section 7 - Modalités de perception
+#### Afdeling 7 - Wijze van heffing                              Section 7 - Modalités de perception
 
-## Art. 2.1.7.0.1
+###### Art. 2.1.7.0.1
 
-Art. 2.1.7.0.1.
+###### Art. 2.1.7.0.1.
 
 De belasting wordt geheven in overeenstemming met de          L'impôt est perçu conformément aux dispositions de bepalingen van artikel 3.3.2.0.1, eerste lid, 1°, en tweede   l'article 3.3.2.0.1, alinéa premier, 1°, et alinéa deux, 1°. lid, 1°.
 
-#### Hoofdstuk 2 - Verkeersbelasting                                Chapitre 2 - Taxe de circulation
+### Hoofdstuk 2 - Verkeersbelasting                                Chapitre 2 - Taxe de circulation
 
-##### Afdeling 1 - Belastbaar voorwerp                                 Section 1re - Objet imposable
+#### Afdeling 1 - Belastbaar voorwerp                                 Section 1re - Objet imposable
 
-## Art. 2.2.1.0.1
+###### Art. 2.2.1.0.1
 
-Art. 2.2.1.0.1.
+###### Art. 2.2.1.0.1.
 
 Overeenkomstig artikel 3 van het federale Wetboek van         Conformément à l'article 3 du Code fédéral du 23 23 november 1965 van de met inkomstenbelastingen              novembre 1965 des taxes assimilées aux impôts sur les gelijkgestelde belastingen, wordt er een belasting            revenus, une taxe est perçue sur les véhicules à vapeur geheven op de stoom- of motorvoertuigen dienende              ou à moteur, servant soit au transport des personnes, soit hetzij tot het vervoer van personen, hetzij tot het vervoer   au transport de marchandises ou d'objets quelconques van goederen of van om het even welke voorwerpen              sur les routes. over de wegen.
 
-##### Afdeling 2 - Belastingplichtigen                                   Section 2 – Contribuables
+#### Afdeling 2 - Belastingplichtigen                                   Section 2 – Contribuables
 
-## Art. 2.2.2.0.1
+###### Art. 2.2.2.0.1
 
-Art. 2.2.2.0.1.
+###### Art. 2.2.2.0.1.
 
 § 1. De belastingplichtige is degene die een of meer van      § 1er. Le contribuable est la personne qui emploie un ou de voertuigen, vermeld in artikel 2.2.1.0.1, aanwendt         plusieurs des véhicules, visés à l'article 2.2.1.0.1, pour voor eigen gebruik of ze exploiteert, hetzij als ze zijn      son propre usage ou les exploite, soit qu'il en ait la eigendom of persoonlijk bezit zijn, hetzij als hij er         propriété ou la possession personnelle, soit qu'il en ait la bestendig of gewoonlijk over beschikt door huur of            disposition permanente ou habituelle par louage ou andere overeenkomst.                                          autre convention.
 
@@ -820,11 +824,11 @@ Deze paragraaf is niet van toepassing op :                   Le présent paragra
 
 - §2, eerste lid gewijzigd door art. 9 van het decreet van   - § 2, alinéa premier, remplacé par art. 7 du décret du 19.12.2014 (B.S., 13.01.2015).De tekst is in werking         19.12.2014 (M.B., 13.01.2015). Texte est entré en getreden vanaf het aanslagjaar 2015. (art. 24)               vigueur à partir de l’année d’imposition 2015.
 
-##### Afdeling 3 - Belastbare grondslag                               Section 3 - Base imposable
+#### Afdeling 3 - Belastbare grondslag                               Section 3 - Base imposable
 
-## Art. 2.2.3.0.1
+###### Art. 2.2.3.0.1
 
-Art. 2.2.3.0.1.
+###### Art. 2.2.3.0.1.
 
 De belasting wordt, naargelang van het geval,                La taxe est fixée, selon le cas, sur la base de la puissance vastgesteld op basis van het vermogen van de motor, van      du moteur, de sa cylindrée ou le poids total autorisé en zijn cilinderinhoud of van het maximaal toegestane           charge du véhicule, fixée par l'autorité compétente, sauf totaalgewicht van het voertuig, vastgesteld door de          disposition contraire au présent Code. bevoegde overheid, tenzij anders is bepaald in deze codex.
 
@@ -832,9 +836,9 @@ De belasting wordt, naargelang van het geval,                La taxe est fixée,
 
 - gewijzigd door art. 10 van het decreet van 08.12.2017      - modifié par l'art. 10 du décret du 08.12.2017 (M.B., (B.S., 14.12.2017).De tekst is in werking getreden vanaf     14.12.2017). Le texte entre en vigueur le 24.12.2017 24.12.2017
 
-## Art. 2.2.3.0.2
+###### Art. 2.2.3.0.2
 
-Art. 2.2.3.0.2.
+###### Art. 2.2.3.0.2.
 
 § 1. Het belastbaar vermogen van de motor van de             § 1er. La puissance imposable du moteur des véhicules voertuigen (pk) wordt berekend volgens de volgende           (ch) est calculé selon la formule suivante : ch = k * d2 * formule: pk = k * d2 * c * n.                                c * n.
 
@@ -870,9 +874,9 @@ Gedeelten van een deciliter worden voor een deciliter       Les fractions de dé
 
 Gedeelten van honderd kilogram worden voor honderd          Les fractions de cent kilogrammes sont comptées pour kilogram aangerekend of weggelaten, naargelang ze al        cent kilogrammes ou sont négligées, selon qu'elles dan niet de vijftig kilogram overschrijden.                 dépassent les cinquante kilogrammes ou non.
 
-## Art. 2.2.3.0.3
+###### Art. 2.2.3.0.3
 
-Art. 2.2.3.0.3.
+###### Art. 2.2.3.0.3.
 
 § 1. In afwijking van de bepalingen van artikel 2.2.3.0.2   § 1er. Par dérogation aux dispositions de l'article wordt het belastbaar vermogen van de motor van de           2.2.3.0.2, la puissance imposable du moteur des voertuigen (pk) die uitgerust zijn met motoren met          véhicules (ch) pourvus de moteurs à pistons rotatifs est draaiende zuigers, berekend volgens de volgende             calculée selon la formule suivante : ch = 4 * V + Pds / formule: pk = 4 * V + Gew / 4.                              4.
 
@@ -886,9 +890,9 @@ Het nuttige volume van de verbrandingskamers is gelijk      Le volume utile des 
 
 Gedeelten van honderd kilogram worden voor honderd          Les fractions de cent kilogrammes sont comptées pour kilogram aangerekend of weggelaten, naargelang ze al        cent kilogrammes ou sont négligées, selon qu'elles dan niet de vijftig kilogram overschrijden.                 dépassent les cinquante kilogrammes ou non.
 
-## Art. 2.2.3.0.4
+###### Art. 2.2.3.0.4
 
-Art. 2.2.3.0.4.
+###### Art. 2.2.3.0.4.
 
 In afwijking van de bepalingen van artikel 2.2.3.0.2        Par dérogation aux dispositions de l'article 2.2.3.0.2, la wordt het belastbaar vermogen van de motor van de           puissance imposable du moteur des véhicules (ch) voertuigen (pk) die uitgerust zijn met elektromotoren,      pourvus de moteurs mus par l'électricité est calculée berekend volgens de volgende formule: pk = 0,0012 * n       selon la formule suivante : ch = 0,0012 * n * e * i.
 * e * i.
@@ -901,40 +905,40 @@ De parameters, vermeld in het eerste lid, worden            Les paramètres, vis
 
 3° i = de gemiddelde sterkte van de stroom bij dezelfde     3° i = l'intensité moyenne du courant au même régime, regeling, in ampère.                                        en ampères.
 
-## Art. 2.2.3.0.5
+###### Art. 2.2.3.0.5
 
-Art. 2.2.3.0.5.
+###### Art. 2.2.3.0.5.
 
 Het belastbaar vermogen van de motor van                    La puissance imposable du moteur de voitures personenauto's, auto's voor dubbel gebruik en               particulières, de voitures mixtes et de minibus, non minibussen die niet zijn uitgerust met elektromotoren en    pourvus d'un moteur électrique et qui doivent être die vanaf 1 januari 1972 in de belasting moeten worden      déclarés à la taxe à partir du 1er janvier 1972, est aangegeven, wordt uitsluitend berekend volgens de           déterminée exclusivement au moyen des formules, formules, vermeld in artikel 2.2.3.0.2, § 3, en artikel     visées à l'article 2.2.3.0.2, § 3, et à l'article 2.2.3.0.3, § 2.2.3.0.3, § 1, waarin de parameter Gew / 4 wordt           1er, où le paramètre Pds / 4 est remplacé par un vervangen door een coëfficiënt in functie van de            coefficient en fonction de la cylindrée du moteur ou du cilinderinhoud van de motor of van het nuttige volume       volume utile des chambres de combustion, visés au van de verbrandingskamers, vermeld in de volgende           tableau suivant : tabel:
 
 cilinderinhoud of nuttig volume van de                                      coëfficiënt verbrandingskamers, in liter                                               / /                                                        coefficient cylindrée ou volume utile des chambres de combustion, en litres tot en met 0,9           jusqu'à 0,9 inclusivement                                1,50 1 tot met 1,2             1 à 1,2 inclusivement                                  1,75 1,3 tot en met 1,5          1,3 à 1,5 inclusivement                                 2,00 1,6 en 1,7                     1,6 et 1,7                                       2,25 1,8 en 1,9                     1,8 et 1,9                                       2,50 2 en 2,1                      2 et 2,1                                        2,75 2,2 en 2,3                     2,2 et 2,3                                       3,00 2,4 tot en met 2,6          2,4 à 2,6 inclusivement                                 3,25 2,7 tot en met 3,3          2,7 à 3,3 inclusivement                                 3,50 3,4 tot en met 3,9          3,4 à 3,9 inclusivement                                 3,75 4 tot en met 4,9            4 à 4,9 inclusivement                                  4,00 5 tot met 5,9             5 à 5,9 inclusivement                                  4,50 6 en meer                       6 et plus                                       5,00
 
-## Art. 2.2.3.0.6
+###### Art. 2.2.3.0.6
 
-Art. 2.2.3.0.6.
+###### Art. 2.2.3.0.6.
 De opname en de controle van de elementen die nodig         La mesure et le contrôle des éléments nécessaires pour zijn voor de vaststelling van het belastbaar vermogen en    la détermination de la puissance imposable et du poids het belastbaar gewicht, gebeuren door middel van            imposable se font au moyen d'indications sur des aanduidingen      op     facturen,    in    catalogussen,   factures, dans des catalogues, des livrets d'instructions beschrijvende handleidingen, weegbons of in andere          descriptifs, des bons de pesage ou dans d'autres bewijskrachtige documenten.                                 documents à force probante.
 
 Zo nodig gaat de bevoegde entiteit van de Vlaamse           Le cas échéant, l'entité compétente de l'administration administratie over tot het wegen van het voertuig of tot    flamande procède au pesage du véhicule ou à son een grondig onderzoek ervan.                                examen approfondi.
 
-## Art. 2.2.3.0.7
+###### Art. 2.2.3.0.7
 
-Art. 2.2.3.0.7.
+###### Art. 2.2.3.0.7.
 
 De plaats, de datum en het uur van de weging of van het   Le lieu, la date et l'heure du pesage ou de l'examen volledige onderzoek van het voertuig worden ten minste    complet du véhicule sont communiqués au moins cinq vijf dagen vooraf meegedeeld aan de betrokkenen, die      jours à l'avance aux personnes concernées, qui sont ertoe gehouden zijn het voertuig in bedrijfsvaardige      tenues de présenter le véhicule en état de toestand aan te bieden.                                   fonctionnement.
 
-## Art. 2.2.3.0.8
+###### Art. 2.2.3.0.8
 
-Art. 2.2.3.0.8.
+###### Art. 2.2.3.0.8.
 
 Breuken van fiscale paardenkracht worden naar boven       Les fractions de chevaux fiscaux sont arrondies à l'unité of naar beneden afgerond, naargelang ze al dan niet de    supérieure ou inférieure, selon qu'elles dépassent la helft overschrijden.                                      moitié ou non.
 
 Breuken van deciliter van de cilinderinhoud worden        Les fractions de décilitres de la cylindrée sont arrondies naar boven of naar beneden afgerond, naargelang ze al     à l'unité supérieure ou inférieure, selon qu'elles dan niet de halve deciliter overschrijden.                dépassent le demi-décilitre ou non.
 
-##### Afdeling 4 - Tarieven                                         Section 4 – Tarifs
+#### Afdeling 4 - Tarieven                                         Section 4 – Tarifs
 
-## Art. 2.2.4.0.1
+###### Art. 2.2.4.0.1
 
-Art. 2.2.4.0.1.
+###### Art. 2.2.4.0.1.
 
 § 1. De belasting wordt, ofwel per periode van twaalf     § 1er. La taxe est calculée, soit par période de douze opeenvolgende maanden, ofwel per kalenderjaar,            mois consécutifs, soit par année calendaire, de la berekend op de wijze die in de hierna volgende            manière visée aux paragraphes suivants. paragrafen wordt vermeld.
 
@@ -1084,9 +1088,9 @@ Deze bepaling geldt voor voertuigen van:                         Cette dispositi
 
 - paragraaf 2/1 werd toegevoegd door art. 106 van het         - paragraphe 2/1 est ajouté par art. 106 du décret du 18 decreet van 18 dec. 2015 (B.S., 29.12.2015). De tekst         déc. 2015 (M.B., 29.12.2015). Texte est entré en vigueur le 1er janvier 2016 (art. 135)) treedt in werking vanaf 1 januari 2016 (art. 135)
 
-## Art. 2.2.4.0.2
+###### Art. 2.2.4.0.2
 
-Art. 2.2.4.0.2.
+###### Art. 2.2.4.0.2.
 
 § 1. In afwijking van artikel 2.2.4.0.1, § 1, § 2, § 2/1, §   § 1er. Par dérogation à l'article 2.2.4.0.1, § 1er, § 2, § 2/2, § 3, § 3/1, § 3/2, § 3/3, § 5, § 6, § 7 en § 8,          2/1, § 2/2, § 3, § 3/1, § 3/2, § 3/3, § 5, § 6, § 7 et § 8, la bedraagt de belasting:                                        taxe s'élève à :
 1° 90,90 euro voor de voertuigen die bij het ontstaan van     1° 90,90 euros pour les véhicules mis en circulation de belastingplicht sinds meer dan dertig jaar in het          depuis plus de trente ans au moment de verkeer zijn gebracht;                                        l'assujettissement ;
@@ -1139,9 +1143,9 @@ De aangepaste belastingbedragen, vermeld in het eerste            Les montants d
 
 - eerste lid werd vervangen door art. 107 van het decreet         - alinéa premier est remplacé par art. 107 du décret du van 18 dec. 2015 (B.S., 29.12.2015). De tekst                     18 déc. 2015 (M.B., 29.12.2015). Texte est entré en vigueur le 1er janvier 2016 (art. 135) treedt in werking vanaf 1 januari 2016 (art. 135)
 
-## Art. 2.2.4.0.4
+###### Art. 2.2.4.0.4
 
-Art. 2.2.4.0.4.
+###### Art. 2.2.4.0.4.
 
 De personenauto's, de auto's voor dubbel gebruik en de            Les voitures particulières, les voitures mixtes et les minibussen, met inbegrip van de lichte vrachtauto's,              minibus, y compris les camionnettes, visées à l'article vermeld in artikel 1.1.0.0.2, derde lid, 2°, laatste zin,         1.1.0.0.2, alinéa trois, 2°, dernière phrase, dont le waarvan de motor, zelfs gedeeltelijk of tijdelijk,                moteur est alimenté, même partiellement ou gedreven wordt met vloeibaar petroleumgas of andere               temporairement, au gaz de pétrole liquéfié ou aux autres vloeibare koolwaterstofgassen, zijn onderworpen aan               hydrocarbures gazeux liquéfiés, sont soumises à une een aanvullende verkeersbelasting van 89,16 euro,                 taxe de circulation complémentaire de 89,16 euros, 148,68 euro of 208,20 euro, naargelang het belastbaar             148,68 euros ou 208,20 euros, selon que la puissance vermogen niet hoger is dan 7 pk, 8 pk bereikt zonder 13           imposable n'est pas supérieure à 7 ch, atteint les 8 ch pk te overschrijden of meer bedraagt dan 13 pk.                   sans dépasser les 13 ch ou est supérieure à 13 ch.
 
@@ -1155,9 +1159,9 @@ Als de belastingplichtige, met toepassing van het eerste     Lorsque le contribu
 - gewijzigd door art. 59 van het decreet van 26.06.2020      - modifié par l’art. 59 du décret du 26.06.2020 (M.B.
 (B.S. 17.07.2020). Tekst treedt in werking op 01.10.2020     17.07.2020). Texte entre en vigueur le 01.10.2020
 
-## Art. 2.2.4.0.5
+###### Art. 2.2.4.0.5
 
-Art. 2.2.4.0.5.
+###### Art. 2.2.4.0.5.
 § 1. Overeenkomstig artikel 42 van het federale              § 1er. Conformément à l'article 42 du Code fédéral du Wetboek van 23 november 1965 van de met                      23 novembre 1965 des taxes assimilées aux impôts sur inkomstenbelastingen gelijkgestelde belastingen, zijn de     les revenus, les provinces, les agglomérations et les provincies, de agglomeraties en de gemeenten niet            communes ne sont pas autorisées à établir des centimes gemachtigd tot het heffen van opcentiemen op de              additionnels à la taxe de circulation, ni des taxes verkeersbelasting of enigerlei belasting op de               quelconques sur les véhicules, visées à l'article voertuigen, vermeld in artikel 2.2.1.0.1, behoudens wat      2.2.1.0.1, sauf en ce qui concerne les bateaux, les betreft de vaartuigen, de bootjes, de bromfietsen en de      embarcations, les cyclomoteurs et les motocyclettes, motorfietsen respectievelijk bedoeld in artikel 2.2.6.0.1,   visés respectivement à l'article 2.2.6.0.1, § 1er, alinéa
 § 1, eerste lid, 6° en 10°.                                  premier, 6° et 10°.
 
@@ -1175,9 +1179,9 @@ Als de gemeente deel uitmaakt van een agglomeratie van       Lorsque la commune 
 
 - gewijzigd door art. 8 van het decreet van 02.04.2021       - modifié par l'art. 8 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021             15.04.2021). En vigueur le 25.04.2021
 
-## Art. 2.2.4.0.6
+###### Art. 2.2.4.0.6
 
-Art. 2.2.4.0.6.
+###### Art. 2.2.4.0.6.
 
 Als de euronorm van het voertuig niet bekend is, wordt        Lorsque l'Euronorme du véhicule n'est pas connue, ce die parameter voor de toepassing van artikel 2.2.4.0.1, §     paramètre est déterminé pour l'application de l'article 2/1, eerste lid, 2°, artikel 2.2.4.0.1, § 3/1 en § 3/2,       2.2.4.0.1, § 2/1, alinéa 1er, 2°, l’article 2.2.4.0.1, § 3/1 bepaald aan de hand van de datum van de eerste                et § 3/2, au moyen de la date de première inschrijving van het voertuig, vermeld in de volgende         immatriculation du véhicule, visée au tableau suivant : tabel:
 
@@ -1187,9 +1191,9 @@ Datum van de eerste inschrijving van het voertuig in het binnenland of in het bu
 
 - toegevoegd door art. 108 van het decreet van 18 dec.        - ajouté par art. 108 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst is in werking getreden      29.12.2015). Texte est entré en vigueur le 1er janvier op 1 januari 2016 (art. 135)                                  2016 (art.135)
 
-## Art. 2.2.4.0.7
+###### Art. 2.2.4.0.7
 
-Art. 2.2.4.0.7.
+###### Art. 2.2.4.0.7.
 
 § 1. Als de CO2-uitstoot van het voertuig niet bekend is,     § 1er. Lorsque l'émission de CO2 du véhicule n'est pas wordt die parameter voor de toepassing van artikel            connue, ce paramètre est déterminé pour l'application de 2.2.4.0.1, § 2/1, eerste lid, 1°, artikel 2.2.4.0.1, § 3/1,   l'article 2.2.4.0.1, § 2/1, alinéa 1er, 1°, l'article 2.2.4.0.1, bepaald aan de hand van de brandstofsoort, de                 § 3/1, au moyen du type de carburant, de la cylindrée et cilinderinhoud en de euronorm, vermeld in de volgende         de l'euronorme, repris au tableau suivant : tabel:
 
@@ -1230,9 +1234,9 @@ Een voertuig op aardgas is een voertuig waarvan de              Un véhicule au 
 
 - toegevoegd door art. 109 van het decreet van 18 dec.          - ajouté par art. 109 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst is in werking getreden        29.12.2015). Texte est entré en vigueur le 1er janvier op 1 januari 2016 (art. 135                                     2016 (art. 135))
 
-## Art. 2.2.4.0.8
+###### Art. 2.2.4.0.8
 
-Art. 2.2.4.0.8.
+###### Art. 2.2.4.0.8.
 
 De aanwezigheid van een roetfilter als vermeld in artikel       La présence d'un filtre à particules tel que visé à l'article 2.2.4.0.1, § 2/1, eerste lid, 2°, artikel 2.2.4.0.1, § 3/1 en   2.2.4.0.1, § 2/1, alinéa 1er, 2°, l’article 2.2.4.0.1, § 3/1
 § 3/2, wordt vastgesteld op basis van de PM-gegevens            et § 3/2, est constatée sur la base des données PM ou sur of op basis van de gegevens over de premie voor de              la base des données sur la prime pour l'achat et aankoop en installatie van emissieverminderende                 l'installation d'équipements de réduction des émissions voorzieningen in voertuigen met een dieselmotor. Onder          dans les véhicules à moteur diesel. Par PM, on entend : PM wordt verstaan: de uitstoot van deeltjes, gemeten            les émissions de particules, mesurées lors de tijdens de homologatie van het voertuig volgens de              l'homologation du véhicule selon la réglementation geldende Europese regelgeving.                                  européenne en vigueur.
@@ -1249,9 +1253,9 @@ Een halfopen roetfilter wordt geacht aanwezig te zijn bij    Un filtre à partic
 
 - toegevoegd door art. 110 van het decreet van 18 dec.       - ajouté par art. 110 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst is in werking getreden     29.12.2015). Texte est entré en vigueur le 1er janvier op 1 januari 2016 (art. 135))                                2016 (art. 135)
 
-## Art. 2.2.4.0.9
+###### Art. 2.2.4.0.9
 
-Art. 2.2.4.0.9.
+###### Art. 2.2.4.0.9.
 De belasting voor de personenauto's, de auto's voor          La taxe pour les voitures particulières, voitures mixtes dubbel gebruik en de minibussen, vermeld in artikel          et minibus, visée à l'article 2.2.4.0.1, § 2/1, est calculée 2.2.4.0.1, § 2/1, wordt berekend op basis van de             sur la base des dispositions du présent chapitre telles bepalingen van dit hoofdstuk zoals deze van toepassing       qu'elles s'appliquaient avant le 1er janvier 2016, waren vóór 1 januari 2016, meer bepaald wat betreft de       notamment en ce qui concerne les tarifs, visés dans la tarieven, vermeld in deze afdeling, de verminderingen,       présente section, les réductions, visées à la section 5, et vermeld in afdeling 5, en de vrijstellingen, vermeld in      les exonérations, visées à la section 6. afdeling 6.
 
 Op straffe van verval wordt aan de volgende                  A peine de déchéance, les conditions suivantes doivent voorwaarden voldaan:                                         être satisfaites :
@@ -1275,18 +1279,18 @@ Verkeersveiligheid.
 
 - toegevoegd door art. 111 van het decreet van 18 dec.      - ajouté par art. 111 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst is in werking getreden    29.12.2015). Texte est entré en vigueur le 1er janvier op 1 januari 2016 (art. 135)                                2016 (art. 135))
 
-##### Afdeling 5 - Verminderingen                                    Section 5 – Réductions
+#### Afdeling 5 - Verminderingen                                    Section 5 – Réductions
 
-## Art. 2.2.5.0.1
+###### Art. 2.2.5.0.1
 
-Art. 2.2.5.0.1.
+###### Art. 2.2.5.0.1.
 De belasting wordt verminderd met 25 % voor elk             La taxe est réduite de 25 % pour chaque véhicule qui est voertuig dat uitsluitend wordt gebruikt voor het            employé exclusivement pour le transport rémunéré de bezoldigd vervoer van personen krachtens een                personnes en vertu d'une autorisation délivrée en vue de machtiging uitgereikt voor de exploitatie van               l'exploitation de services d'autocars, en exécution de autocardiensten, ter uitvoering van de besluitwet van 30    l'arrêté-loi du 30 décembre 1946 relatif aux transports december 1946 betreffende het bezoldigd vervoer van         rémunérés de voyageurs par route effectués par autobus personen over de weg met autobussen en met autocars,        et par autocars, qui ont été mis en circulation depuis au dat bij het ontstaan van de belastingplicht sedert ten      moins cinq ans au moment de l'assujettissement. La date minste vijf jaar in het verkeer is gebracht. De datum       de première mise en circulation du véhicule est la date waarop het voertuig voor het eerst in het verkeer is        qui est mentionnée comme telle sur le certificat gebracht, is die welke op het inschrijvingsbewijs van het   d'immatriculation du véhicule. voertuig is vermeld.
 
 De vermindering, vermeld in het eerste lid, wordt ook       La réduction, visée à l'alinéa premier, est également verleend voor aanhangwagens die uitsluitend worden          accordée aux remorques qui sont tirées exclusivement getrokken door voertuigen als vermeld in het eerste lid.    par des véhicules tels que visés à l'alinéa premier.
 
-## Art. 2.2.5.0.2
+###### Art. 2.2.5.0.2
 
-Art. 2.2.5.0.2.
+###### Art. 2.2.5.0.2.
 
 (…)                                                         (…)
 
@@ -1294,9 +1298,9 @@ Art. 2.2.5.0.2.
 
 - opgeheven door art. 8 van het decreet van 22.06.2018.       - abrogé par l’art. 8 du décret du 22.06.2018. Texte entre Tekst in werking getreden vanaf aanslagjaar 2019              en vigueur à partir de l'année d'imposition 2019
 
-## Art. 2.2.5.0.3
+###### Art. 2.2.5.0.3
 
-Art. 2.2.5.0.3.
+###### Art. 2.2.5.0.3.
 
 De belasting wordt met 10 % verminderd als ze is              La taxe est réduite de 10 % lorsqu'elle est due en vertu verschuldigd krachtens een regelmatige aangifte,              d'une déclaration régulière, introduite par un ingediend door een belastingplichtige die op 1 januari        contribuable qui, le 1er janvier de l'année d'imposition, van het aanslagjaar, en dit tot minstens 30 juni drie of      et ce au moins jusqu'au 30 juin, déclare trois véhicules à meer motorvoertuigen aangeeft die zijn geïnvesteerd in        moteur ou plus qui sont investis dans une exploitation een handels- of nijverheidsbedrijf en die uitsluitend         commerciale ou industrielle et qui sont employés worden gebruikt voor het bezoldigd vervoer van                exclusivement pour le transport rémunéré de personnes personen krachtens een machtiging uitgereikt voor de          en vertu d'une autorisation délivrée en vue de exploitatie van autocardiensten, ter uitvoering van de        l'exploitation de services d'autocars en exécution de besluitwet van 30 december 1946 betreffende het               l'arrêté-loi du 30 décembre 1946 relatif aux transports bezoldigd vervoer van personen over de weg met                rémunérés de voyageurs par route effectués par autobus autobussen en met autocars.                                   et par autocars.
 
@@ -1306,9 +1310,9 @@ De belasting wordt met 10 % verminderd als ze is              La taxe est rédui
 
 - gewijzigd door art. 10 van het decreet van 02.04.2021       - modifié par l'art. 10 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021              15.04.2021). En vigueur le 25.04.2021
 
-## Art. 2.2.5.0.4
+###### Art. 2.2.5.0.4
 
-Art. 2.2.5.0.4.
+###### Art. 2.2.5.0.4.
 
 Voor de voertuigen waarvan de motor, ook al is het maar       Pour les véhicules dont le moteur est alimenté, même gedeeltelijk of tijdelijk, aangedreven wordt met              partiellement ou temporairement, au gaz de pétrole vloeibaar petroleumgas of andere vloeibare                    liquéfié ou autres hydrocarbures gazeux liquéfiés, la koolwaterstofgassen, wordt de belasting verminderd            taxe est réduite de 100 euros, le cas échéant limité au met 100 euro, in voorkomend geval beperkt tot het             montant de la taxe calculé conformément les articles bedrag van de belasting als berekend overeenkomstig           2.2.4.0.1 à 2.2.4.0.3 inclus, mais sans application des artikel 2.2.4.0.1 tot en met 2.2.4.0.3, maar zonder           taxes minimum, visées à l'article 2.2.4.0.1, § 2/1, alinéa toepassing van de minimumbelastingen, vermeld in              2, en § 5, et à l'article 2.2.4.0.2, § 2. artikel 2.2.4.0.1, § 2/1, tweede lid, en § 5, en in artikel 2.2.4.0.2, § 2.
 Dit artikel is alleen van toepassing op wegvoertuigen, de     Le présent article s'applique uniquement aux véhicules lichte vrachtauto’s, vermeld in artikel 1.1.0.0.2, derde      routiers, aux camionnettes, visées à l’article 1.1.0.0.2, lid, 2°, laatste zin, lijkwagens, en alleenrijdende           alinéa 3, 2°, dernière phrase, aux corbillards et aux trekkers, als het andere voertuigen zijn dan de               tracteurs à moteur solos, autres que ceux visés à l’article voertuigen, vermeld in artikel 2.2.4.0.1, § 6, van            2.2.4.0.1, § 6, de personnes physiques et d'autres natuurlijke personen en andere rechtspersonen dan             personnes morales que les sociétés, les entreprises vennootschappen, autonome overheidsbedrijven en               publiques autonomes et les associations sans but verenigingen zonder winstgevend doel, met                     lucratif, qui exercent des activités de leasing. leasingactiviteiten.
@@ -1319,11 +1323,11 @@ Dit artikel is alleen van toepassing op wegvoertuigen, de     Le présent articl
 
 - toegevoegd door art. 112 van het decreet van 18 dec.     - ajouté par art. 112 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst is in werking getreden   29.12.2015). Texte est entré en vigueur à partir de vanaf aanslagjaar 2016 (art. 135)                          l'année d'imposition 2016 (art. 135)
 
-##### Afdeling 6 - Vrijstellingen                                 Section 6 – Exonérations
+#### Afdeling 6 - Vrijstellingen                                 Section 6 – Exonérations
 
-## Art. 2.2.6.0.1
+###### Art. 2.2.6.0.1
 
-Art. 2.2.6.0.1.
+###### Art. 2.2.6.0.1.
 
 § 1. Met uitzondering van de motorvoertuigen en van de     § 1er. A l'exception des véhicules à moteur et des samengestelde voertuigen gebruikt voor het vervoer van     ensembles de véhicules qui sont employés pour le goederen over de weg met het maximaal toegestane           transport par route de marchandises, d'un poids total totaalgewicht van minstens twaalf ton, wordt er een        autorisé en charge d'au moins 12 tonnes, une vrijstelling van de belasting verleend voor :              exonération de la taxe est accordée :
 
@@ -1412,9 +1416,9 @@ De belastingplichtige die zijn aangifte of inschrijving        Le contribuable q
 
 - § 1, eerste lid, en § 2, eerste lid gewijzigd door art. 12 - § 1er, alinéa premier, et § 2, alinéa premier modifiés van het decreet van 08.12.2017 (B.S. : 14.12.2017). Tekst par l'art. 12 du décret du 08.12.2017 (M.B.: 14.12.2017). in werking getreden op 24.12.2017                            Texte entre en vigueur le 24.12.2017
 
-## Art. 2.2.6.0.2
+###### Art. 2.2.6.0.2
 
-Art. 2.2.6.0.2.
+###### Art. 2.2.6.0.2.
 
 Er wordt een gehele of gedeeltelijke vrijstelling van de       Une exonération totale ou partielle de la taxe de aanvullende verkeersbelasting verleend aan:                    circulation complémentaire est accordée :
 
@@ -1422,17 +1426,17 @@ Er wordt een gehele of gedeeltelijke vrijstelling van de       Une exonération 
 
 2°      de     internationale    organisaties,    hun          2° aux organisations internationales, à leurs vertegenwoordigers, ambtenaren en leden, voor zover ze         représentants, fonctionnaires et membres, dans la vrijgesteld zijn van de verkeersbelasting op de                mesure où ils bénéficient de l'exonération de la taxe de autovoertuigen, ingevolge de voorrechten en                    circulation sur les véhicules automobiles, en vertu des immuniteiten die aan hen toegestaan zijn                       privilèges et immunités qui leur sont accordés overeenkomstig het internationale recht.                       conformément au droit international.
 
-## Art. 2.2.6.0.3
+###### Art. 2.2.6.0.3
 
-Art. 2.2.6.0.3.
+###### Art. 2.2.6.0.3.
 
 Als de voorwaarden tot vrijstelling in de loop van een         Lorsque les conditions d'exonération ne sont plus aanslagjaar niet meer vervuld zijn, is de belasting            remplies au cours d'une année d'imposition, la taxe est verschuldigd in verhouding tot de niet-verstreken              due en fonction des mois non écoulés. maanden.
 
 Dit artikel is niet van toepassing op de voertuigen,           Le présent article ne s'applique pas aux véhicules, visés vermeld in artikel 2.2.2.0.1, § 2, tweede lid.                 à l'article 2.2.2.0.1, § 2, alinéa deux.
 
-## Art. 2.2.6.0.4
+###### Art. 2.2.6.0.4
 
-Art. 2.2.6.0.4.
+###### Art. 2.2.6.0.4.
 
 De belasting, betaald voor vrachtauto's, tractors,          La taxe, payée pour des camions, des tracteurs, des aanhangwagens en opleggers, wordt terugbetaald als die      remorques et des semi-remorques, est remboursée voertuigen afstanden afleggen in het kader van              lorsque ces véhicules effectuent des parcours dans le gecombineerd vervoer als vermeld in artikel 1 van           cadre d'un transport combiné, tel que visé à l'article 1er Richtlijn nr. 92/106/EEG van de Raad van 7 december         de la Directive n° 92/106/CEE du Conseil du 7 1992 houdende vaststelling van gemeenschappelijke           décembre 1992 relative à l'établissement de règles voorschriften voor bepaalde vormen van gecombineerd         communes pour certains transports combinés de vervoer van goederen tussen Lid-Staten.                     marchandises entre Etats membres.
 De terugbetaling (T), vermeld in het eerste lid, wordt op   Le remboursement (T), visé à l'alinéa 1er, est calculé de forfaitaire wijze berekend volgens de volgende formule:     manière forfaitaire selon la formule suivante : T=t*n/100, waarbij:                                         T=t*n/100, où :
@@ -1458,9 +1462,9 @@ De Vlaamse Regering bepaalt de wijze van de aanvrag         Le Gouvernement flam
 
 - gewijzigd door art. 2 van het decreet van 23.12.2016      - modifié par l'art. 2 du décret du 23.12.2016 (M.B.: (B.S.: 13.01.2017). De tekst is van toepassing vanaf        13.01.2017). Texte entre en vigueur à partir de l'année aanslagjaar 2016                                            d'imposition 2016
 
-## Art. 2.2.6.0.5
+###### Art. 2.2.6.0.5
 
-Art. 2.2.6.0.5.
+###### Art. 2.2.6.0.5.
 
 § 1. Er wordt een vrijstelling van de belasting verleend     § 1er. Une exonération de la taxe est accordée pour les voor de personenauto's, de auto's voor dubbel gebruik,       voitures particulières, les voitures mixtes, les minibus, y de minibussen, met inbegrip van de aanhangwagens van         compris les remorques de ces véhicules, et les die voertuigen, en de motorfietsen die tijdelijk in België   motocyclettes qui sont importés en Belgique worden ingevoerd door een natuurlijke persoon die zijn       temporairement par une personne physique qui a sa gewone verblijfplaats in een andere staat van de             résidence habituelle dans un autre état de l'Espace Europese Economische Ruimte heeft, en die op het             économique européen, et qui sont affectés sur le Belgische grondgebied voor persoonlijk of voor beroepsmatig gebruik van de invoerder worden                 territoire belge à l'usage personnel ou professionnel de aangewend.                                                   l'importateur.
 
@@ -1492,9 +1496,9 @@ De voertuigen die voor dezelfde doeleinden worden           En outre, les véhic
 
 - gewijzigd door art. 12 van het decreet van 02.04.2021      - modifié par l'art. 12 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021             15.04.2021). En vigueur le 25.04.2021
 
-## Art. 2.2.6.0.6
+###### Art. 2.2.6.0.6
 
-Art. 2.2.6.0.6.
+###### Art. 2.2.6.0.6.
 
 Op voertuigen die uitsluitend aangedreven worden door        Les véhicules fonctionnant exclusivement avec moteur een elektrische motor of waterstof en die uiterlijk op 31    électrique ou à l'hydrogène et immatriculés au plus tard december 2025 worden ingeschreven in het repertorium         au répertoire de la Direction générale Mobilité et van     het    Directoraat-generaal    Mobiliteit      en    Sécurité routière au 31 décembre 2025 ne sont pas Verkeersveiligheid wordt geen belasting geheven.             taxés.
 
@@ -1523,9 +1527,9 @@ b) de voornamen, de achternaam en het domicilieadres         b) les prénom, nom
 
 - toegevoegd door art. 113 van het decreet van 18 dec.      - ajouté par art. 113 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst treedt in werking vanaf   29.12.2015). Texte est entré en vigueur à partir de aanslagjaar 2016 (art. 135)                                 l'année d'imposition 2016 (art. 135)
 
-## Art. 2.2.6.0.7
+###### Art. 2.2.6.0.7
 
-Art. 2.2.6.0.7.
+###### Art. 2.2.6.0.7.
 
 Er wordt op volgende voertuigen die uiterlijk op 31         Les véhicules suivants qui sont inscrits au plus tard le december 2020 worden ingeschreven in het repertorium        31 décembre 2020 au répertoire de la Direction générale van het Directoraat-generaal Mobiliteit en                  Mobilité et Sécurité routière, sont exonérés de taxes : Verkeersveiligheid geen belasting geheven op:
 1° voertuigen waarvan de motor, ook al is het maar          1° véhicules dont le moteur est alimenté, même gedeeltelijk of tijdelijk, aangedreven wordt met aardgas;   partiellement ou temporairement, au gaz naturel ;
@@ -1560,17 +1564,17 @@ Het eerste lid, 2°, is alleen van toepassing op de          L’alinéa 1er, 2�
 
 - toegevoegd door art. 114 van het decreet van 18 dec.       - ajouté par art. 114 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst treedt in werking vanaf    29.12.2015). Texte est entré en vigueur à partir de aanslagjaar 2016 (art. 135). De tekst houdt op               l'année d'imposition 2016 (art. 135). Texte cesse de uitwerking te hebben vanaf 1 januari 2021 (art. 135)         produire ses effets à partir du 1er janvier 2021 (art. 135)
 
-##### Afdeling 7 - Wijze van heffing                              Section 7- Modalités de perception
+#### Afdeling 7 - Wijze van heffing                              Section 7- Modalités de perception
 
-## Art. 2.2.7.0.1
+###### Art. 2.2.7.0.1
 
-Art. 2.2.7.0.1.
+###### Art. 2.2.7.0.1.
 
 De belasting wordt geheven in overeenstemming met de         La taxe est perçue conformément aux dispositions de bepalingen van artikel 3.3.2.0.1, eerste lid, 2° en 3°, en   l'article 3.3.2.0.1, alinéa premier, 2° et 3°, et alinéa deux, tweede lid, 2° en 3°.                                        2° et 3°.
 
-## Art. 2.2.7.0.2
+###### Art. 2.2.7.0.2
 
-Art. 2.2.7.0.2.
+###### Art. 2.2.7.0.2.
 
 § 1. Met toepassing van artikel 2.2.7.0.1 is de belasting    § 1er. En application de l'article 2.2.7.0.1, la taxe est due verschuldigd voor het aantal maanden dat begrepen is         pour le nombre de mois compris entre le premier jour du tussen de eerste dag van de maand waarin het voertuig        mois au cours duquel le véhicule est mis en usage sur la in de loop van een kalenderjaar in gebruik is genomen        voie publique dans le courant d'une année calendaire et op de openbare weg en 31 december van hetzelfde jaar,        le 31 décembre de la même année, pour les véhicules, voor de voertuigen, vermeld in artikel 2.2.2.0.1, § 2,       visés à l'article 2.2.2.0.1, § 2, alinéa deux. tweede lid.
 
@@ -1584,21 +1588,21 @@ Dat bedrag mag niet lager zijn dan het minimum,              Ce montant ne peut 
 
 § 4. Als het voertuig wordt gewijzigd, is de belasting die   § 4. En cas de modification du véhicule, la taxe qui doit betaald moet worden, het bedrag dat verschuldigd is          être payée est le montant dû à concurrence des mois voor de verstreken maanden.                                  écoulés.
 
-#### Hoofdstuk 3 - Belasting op de inverkeerstelling                 Chapitre 3 - Taxe sur la mise en circulation
+### Hoofdstuk 3 - Belasting op de inverkeerstelling                 Chapitre 3 - Taxe sur la mise en circulation
 
-##### Afdeling 1 - Belastbaar voorwerp                                 Section 1re - Objet imposable
+#### Afdeling 1 - Belastbaar voorwerp                                 Section 1re - Objet imposable
 
-## Art. 2.3.1.0.1
+###### Art. 2.3.1.0.1
 
-Art. 2.3.1.0.1.
+###### Art. 2.3.1.0.1.
 
 Overeenkomstig artikel 94 van het federale Wetboek           Conformément à l'article 94 du Code fédéral du 23 van     23    november      1965      van    de    met       novembre 1965 des taxes assimilées aux impôts sur les inkomstenbelastingen gelijkgestelde belastingen, wordt       revenus, une taxe est perçue sur les véhicules routiers, er een belasting geheven op de wegvoertuigen, de             les aéronefs et les bateaux, lorsqu'ils sont mis en usage luchtvaartuigen en de boten, als ze op de openbare weg       sur la voie publique ou utilisés en Belgique. in het verkeer worden gesteld of worden gebruikt in België.
 
-##### Afdeling 2 - Belastingplichtigen                               Section 2 – Contribuables
+#### Afdeling 2 - Belastingplichtigen                               Section 2 – Contribuables
 
-## Art. 2.3.2.0.1
+###### Art. 2.3.2.0.1
 
-Art. 2.3.2.0.1.
+###### Art. 2.3.2.0.1.
 
 § 1. De belastingplichtige is degene die vermeld is,        § 1er. Le contribuable est celui qui est mentionné, selon naargelang het geval, op het inschrijvingsbewijs of op      le cas, sur le certificat d'immatriculation ou la lettre de registratiebrief op het ogenblik van de eerste           d'immatriculation au moment de la première mise en inverkeerstelling op de openbare weg van het                circulation sur la voie publique du véhicule routier ou au wegvoertuig of op het ogenblik van een eerste gebruik       moment du premier usage d'un aéronef ou d'un bateau van een luchtvaartuig of van een boot door de vermelde      par la personne physique ou morale visée. natuurlijke persoon of rechtspersoon.
 
@@ -1618,11 +1622,11 @@ De boten worden geacht in België te zijn gebruikt als       Les bateaux sont ce
 - gewijzigd door art. 6 van het decreet van 21.12.2018      - modifié par l'art. 6 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst treedt in werking op 07.01.2019    28.12.2018). Texte entre en vigueur le 07.01.2019
 
-##### Afdeling 3 - Belastbare grondslag                              Section 3 - Base imposable
+#### Afdeling 3 - Belastbare grondslag                              Section 3 - Base imposable
 
-## Art. 2.3.3.0.1
+###### Art. 2.3.3.0.1
 
-Art. 2.3.3.0.1.
+###### Art. 2.3.3.0.1.
 § 1. Voor de wegvoertuigen wordt de belasting               § 1er. Pour les véhicules routiers, la taxe est fixée sur la vastgesteld op basis van het vermogen van de motor,         base de la puissance du moteur, exprimée en chevaux uitgedrukt in fiscale paardenkracht of in kilowatt.         fiscaux ou en kilowatts.
 
 § 2. In afwijking van paragraaf 1 wordt de belasting op       § 2. Par dérogation au paragraphe 1er, la taxe sur les de wegvoertuigen, vermeld in artikel 2.3.4.1.1,               véhicules routiers, visée à l'article 2.3.4.1.1, est fixée sur vastgesteld op basis van milieukenmerken.                     la base de caractéristiques environnementales.
@@ -1631,13 +1635,13 @@ De milieukenmerken van het wegvoertuig worden                 Les indicateurs en
 
 Euronormen zijn de maximumdrempels voor de                    Les Euronormes sont les plafonds maximums pour la concentratie van bepaalde vervuilende stoffen in de           concentration de certains polluants dans les gaz uitlaatgassen van autovoertuigen, bepaald in                  d'échappement de véhicules automobiles, fixés dans des opeenvolgende Europese richtlijnen en verordeningen.          directives et règlements européen successifs.
 
-##### Afdeling 4 - Tarieven                                          Section 4 – Tarifs
+#### Afdeling 4 - Tarieven                                          Section 4 – Tarifs
 
 ##### Onderafdeling 1 - Bedrag van de belasting voor           Sous-section 1re -Montant de la taxe pour les voitures personenauto's, auto's voor dubbel gebruik en minibussen privées, les voitures mixtes et les minibus, tels que visés à als vermeld in artikel 1.1.0.0.2, vierde lid, 1°, die worden l'article 1.1.0.0.2, alinéa quatre, 1°, qui sont censés être geacht in het verkeer te zijn gesteld in het Vlaamse Gewest             mis en circulation en Région flamande
 
-## Art. 2.3.4.1.1
+###### Art. 2.3.4.1.1
 
-Art. 2.3.4.1.1.
+###### Art. 2.3.4.1.1.
 
 De belasting op de personenauto's, auto's voor dubbel         La taxe sur les voitures privées, les voitures mixtes et les gebruik en de minibussen, vermeld in artikel 1.1.0.0.2,       minibus, visés à l'article 1.1.0.0.2, alinéa quatre, 1°, qui vierde lid, 1°, die worden geacht in het verkeer te zijn      sont censés être mis en circulation en Région flamande, gesteld in het Vlaamse Gewest, met uitzondering van de        à l'exception des véhicules qui sont censés être mis en voertuigen die worden geacht in het verkeer te zijn           circulation par des sociétés, des entreprises publiques gesteld      door      vennootschappen,       autonome        autonomes et des associations sans but lucratif, ayant overheidsbedrijven       en      verenigingen    zonder       des activités de crédit-bail, est calculée selon le mode, winstgevend doel, met leasingactiviteiten, wordt              visé aux articles 2.3.4.1.2 à 2.3.4.1.7 inclus et à l'article berekend op de wijze, vermeld in artikel 2.3.4.1.2 tot en     2.3.6.0.3. met 2.3.4.1.7 en artikel 2.3.6.0.3.
 
@@ -1654,9 +1658,9 @@ Verkeersveiligheid, 61,50 euro.
 
 - gewijzigd door art. 125 van het decreet van 18 dec.       - modifié par art. 125 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst is in werking getreden    29.12.2015). Texte est entré en vigueur le 1er janvier op 1 januari 2016 (art. 135)                                2016 (art. 135). Texte cesse de produire ses effets à partir du 1er janvier 2021 (art. 135)
 
-## Art. 2.3.4.1.2
+###### Art. 2.3.4.1.2
 
-Art. 2.3.4.1.2.
+###### Art. 2.3.4.1.2.
 
 De belasting wordt berekend volgens de volgende            La taxe est calculée selon la formule suivante : formule: BIV= ((CO2 * f + x) /246)6 * 4500 + c) * LC                BIV= ((CO2 * f + x) /246)6 * 4500 + c) * LC
 
@@ -1687,9 +1691,9 @@ ouderdom van het wegvoertuig op basis van de datum van de eerste inschrijving er
 
 - eerste lid werd gewijzigd door art. 117 van het decreet    - alinéa premier est remplacé par art. 117 du décret du van 18 dec. 2015 (B.S., 29.12.2015). De tekst                18 déc. 2015 (M.B., 29.12.2015). Texte est entré en vigueur le 1er janvier 2016 (art. 135) treedt in werking vanaf 1 januari 2016 (art. 135) - tweede lid, 4° werd gewijzigd door art. 117 van het        - alinéa 2, 4° est remplacé par art. 117 du décret du 18 decreet van 18 dec. 2015 (B.S., 29.12.2015). De tekst        déc. 2015 (M.B., 29.12.2015). Texte est entré en vigueur le 1er janvier 2016 (art. 135) treedt in werking vanaf 1 januari 2016 (art. 135))
 
-## Art. 2.3.4.1.2/1
+###### Art. 2.3.4.1.2/1
 
-Art. 2.3.4.1.2/1
+###### Art. 2.3.4.1.2/1
 
 De belasting wordt voor de voertuigen, vermeld in            Pour les véhicules visés à l'article 2.3.4.1.1, qui sont artikel 2.3.4.1.1, die voor de eerste keer worden            inscrits pour la première fois au répertoire de la ingeschreven in het repertorium van het Directoraat-         Direction générale Mobilité et Sécurité routière après le generaal Mobiliteit en Verkeersveiligheid na 31              31 décembre 2020, la taxe est calculée selon la formule december 2020, berekend volgens de volgende                  suivante : formule:
 
@@ -1712,9 +1716,9 @@ waarde ouderdom van het wegvoertuig op basis van de datum van de eerste inschrij
 
 - ingevoegd door art. 57 van het decreet van 18.12.2020      - modifié par l’art. 57 du décret du 18.12.2020 (M.B., (B.S., 30.12.2020). Inwerkingtreding: 01.01.2021             30.12.2020). En vigueur le 01.01.2021
 
-## Art. 2.3.4.1.3
+###### Art. 2.3.4.1.3
 
-Art. 2.3.4.1.3.
+###### Art. 2.3.4.1.3.
 
 De belasting bedraagt nooit minder dan 41,99 euro en        La taxe n'est jamais inférieure à 41,99 euros et jamais nooit meer dan 10.497,70 euro. In afwijking van artikel     supérieure à 10.497,70 euros. Par dérogation aux articles 2.3.4.1.2 en artikel 2.3.4.1.2/1 bedraagt de belasting      2.3.4.1.2 et 2.3.4.1.2/1, la taxe s’élève à 41,99 euros pour 41,99 euro voor de wegvoertuigen die een eerste keer in     les véhicules routiers dont la première mise en het verkeer zijn gesteld 30 jaar geleden of eerder.         circulation date d’il y a 30 ans ou plus.
 
@@ -1731,9 +1735,9 @@ De belasting bedraagt nooit minder dan 41,99 euro en        La taxe n'est jamais
 
 - gewijzigd door art. 118 van het decreet van 18 dec.        - remplacé par art. 118 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst treedt in werking vanaf    29.12.2015). Texte est entré en vigueur le 1er janvier 1 januari 2016 (art. 135))                                   2016 (art. 135)
 
-## Art. 2.3.4.1.4
+###### Art. 2.3.4.1.4
 
-Art. 2.3.4.1.4.
+###### Art. 2.3.4.1.4.
 
 De bedragen, vermeld in artikel 2.3.4.1.2, tweede lid, 4°,   Les montants, visés à l'article 2.3.4.1.2, alinéa 2, 4°, et à en artikel 2.3.4.1.2/1, tweede lid, 4°, en de bedragen,      l'article 2.3.4.1.2/1, alinéa 2, 4°, et les montants, visés à vermeld in artikel 2.3.4.1.3, zijn gekoppeld aan de          l'article 2.3.4.1.3, sont liés aux fluctuations de l'indice schommelingen van het algemeen indexcijfer van de            général des prix à la consommation du Royaume. Les consumptieprijzen van het Rijk. De bedragen worden           montants sont adaptés le 1er juillet de chaque année sur aangepast op 1 juli van elk jaar op grond van de             la base des fluctuations de l'indice général des prix à la schommelingen van het algemeen indexcijfer van de            consommation du Royaume, fixé entre le mois de mai consumptieprijzen van het Rijk, vastgesteld tussen de        de l'année précédente et le mois de mai de l'année en maand mei van het vorige jaar en de maand mei van het        cours. Les montants, visés à l'article 2.3.4.1.2, à l'article lopende jaar. De bedragen, vermeld in artikel 2.3.4.1.2,     2.3.4.1.2/1 et à l'article 2.3.4.1.3, sont les montants qui 2.3.4.1.2/1 en artikel 2.3.4.1.3, zijn de bedragen die van   s'appliquaient le 1er juillet 2015. toepassing waren op 1 juli 2015.
 ---- historiek ----                                          ---- historique ----
@@ -1742,17 +1746,17 @@ De bedragen, vermeld in artikel 2.3.4.1.2, tweede lid, 4°,   Les montants, vis�
 
 - gewijzigd door art. 119 van het decreet van 18 dec.        - remplacé par art. 119 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst is in werking getreden     29.12.2015). Texte est entré en vigueur le 1er janvier op 1 januari 2016 (art. 135)                                 2016 (art. 135)
 
-## Art. 2.3.4.1.5
+###### Art. 2.3.4.1.5
 
-Art. 2.3.4.1.5.
+###### Art. 2.3.4.1.5.
 
 Als de euronorm van het wegvoertuig niet bekend is,          Lorsque l'Euronorme du véhicule routier n'est pas wordt die parameter bepaald aan de hand van de datum         connue, ce paramètre est déterminé au moyen de la date van de eerste inschrijving van het wegvoertuig, vermeld      de la première immatriculation du véhicule routier, in de volgende tabel:                                        visée au tableau suivant :
 
 datum van de eerste inschrijving van het wegvoertuig in het binnenland of in het buitenland              Euronorm /                                                                 / date de la première immatriculation du véhicule routier en Belgique ou à l'étranger                  Euronorme tot en met 31 december 1993                   jusqu'au 31 décembre 1993 inclus                      euro 0 vanaf 1 januari 1994 tot en met 31 december      du 1er janvier 1994 au 31 décembre 1996 euro 1 1996                                             inclus vanaf 1 januari 1997 tot en met 31 december      du 1er janvier 1997 au 31 décembre 2000 2000                                                                                     euro 2 inclus vanaf 1 januari 2001 tot en met 31 december      du 1er janvier 2001 au 31 décembre 2005 2005                                                                                     euro 3 inclus vanaf 1 januari 2006 tot en met 31 december      du 1er janvier 2006 au 31 décembre 2010 euro 4 2010                                             inclus vanaf 1 januari 2011 tot en met 31 augustus      du 1er janvier 2011 au 31 août 2015 inclus 2015                                                                                     euro 5 vanaf 1 september 2015                       à partir du 1er septembre 2015                       euro 6
 
-## Art. 2.3.4.1.6
+###### Art. 2.3.4.1.6
 
-Art. 2.3.4.1.6.
+###### Art. 2.3.4.1.6.
 § 1. Als de CO2-uitstoot van het wegvoertuig niet bekend      § 1er. Lorsque les émissions de CO2 du véhicule routier is, wordt die parameter voor de toepassing van artikel        ne sont pas connues, ce paramètre est déterminé, aux fins 2.3.4.2.1, bepaald aan de hand van de brandstofsoort, de      de l'article 2.3.4.2.1, au moyen du type de carburant, de la cilinderinhoud en de euronorm, vermeld in de volgende         cylindrée et de l'Euronorme, visés au tableau suivant : tabel :
 
 brandstofsoort                 cilinderinhoud in cc                              Euronorm /                                  /                                           / type de carburant                   cylindrée en cc                               Euronorme 6      5      4      3      2         1      0 CO2-emissies in g/km minder dan 1400 benzine en andere                         /                     117     125     140    150     164    173     175 brandstoffen, met uitzondering          moins de 1400 van diesel en aardgas           1400 tot en met 2000 /                                /                     150     159     172    185     200    211     213 essence et autres carburants, à    1400 à 2000 inclusivement l'exception du diesel et du gaz         meer dan 2000 naturel                             /                     228     238     247    259     279    295     297 plus de 2000 minder dan 1400 /                      98     103     120    116     125    132     133 moins de 1400 diesel                   1400 tot en met 2000 /                     117     125     144    151     163    173     174 1400 à 2000 inclusivement meer dan 2000 /                     159     169     201    199     214    226     228 plus de 2000 minder dan 1400 /                      94     100     112    120     131    139     140 moins de 1400 aardgas                    1400 tot en met 2000 /                                 /                     120     127     138    148     160    169     171 gaz naturel               1400 à 2000 inclusivement meer dan 2000 /                     182     190     198    207     223    236     238 plus de 2000
@@ -1787,9 +1791,9 @@ Een voertuig op aardgas is een voertuig waarvan de           Un véhicule au gaz
 
 - gewijzigd door art. 120 van het decreet van 18 dec.        - remplacé par art. 120 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst is in werking getreden     29.12.2015). Texte est entré en vigueur le 1er janvier op 1 januari 2016 (art. 135)                                 2016 (art. 135)
 
-## Art. 2.3.4.1.7
+###### Art. 2.3.4.1.7
 
-Art. 2.3.4.1.7.
+###### Art. 2.3.4.1.7.
 
 De aanwezigheid van een roetfilter als vermeld in artikel    La présence d'un filtre à particules tel que visé à l'article 2.3.4.1.2, tweede lid, wordt vastgesteld op basis van de     2.3.4.1.2, alinéa deux, est constatée sur la base des PM-gegevens of op basis van de gegevens over de              données PM ou sur la base des données sur la prime pour premie voor de aankoop en installatie van                    l'achat et l'installation d'équipements de réduction des emissieverminderende voorzieningen in wegvoertuigen          émissions dans les véhicules routiers à moteur diesel. met een dieselmotor. Onder PM wordt verstaan: de             Par PM, on entend : les émissions de particules,
 
@@ -1801,19 +1805,9 @@ Een gesloten roetfilter wordt geacht aanwezig te zijn bij      Un filtre à part
 
 Een halfopen roetfilter wordt geacht aanwezig te zijn bij      Un filtre à particules demi-ouvert est censé être présent wegvoertuigen als de premieaanvraag voor de aankoop            dans les véhicules routiers lorsque la demande de prime en installatie van de roetfilter door de Vlaamse overheid      pour l'achat et l'installation du filtre à particules a été is goedgekeurd.                                                approuvée par l'es autorités flamandes.
 
-## Art. 2.3.4.1.8
+###### Art. 2.3.4.1.8
 
-Art. 2.3.4.1.8.
-
-(…)                                                            (…)
-
----- historiek ----                                            ---- historique ----
-
-- opgeheven door art. 10 van het decreet van 22.06.2018. - abrogé par l’art. 10 du décret du 22.06.2018. Texte Tekst in werking getreden vanaf 03.08.2018               entre en vigueur à partir du 03.08.2018
-
-## Art. 2.3.4.1.9
-
-Art. 2.3.4.1.9.
+###### Art. 2.3.4.1.8.
 
 (…)                                                            (…)
 
@@ -1821,9 +1815,19 @@ Art. 2.3.4.1.9.
 
 - opgeheven door art. 10 van het decreet van 22.06.2018. - abrogé par l’art. 10 du décret du 22.06.2018. Texte Tekst in werking getreden vanaf 03.08.2018               entre en vigueur à partir du 03.08.2018
 
-## Art. 2.3.4.1.10
+###### Art. 2.3.4.1.9
 
-Art. 2.3.4.1.10.
+###### Art. 2.3.4.1.9.
+
+(…)                                                            (…)
+
+---- historiek ----                                            ---- historique ----
+
+- opgeheven door art. 10 van het decreet van 22.06.2018. - abrogé par l’art. 10 du décret du 22.06.2018. Texte Tekst in werking getreden vanaf 03.08.2018               entre en vigueur à partir du 03.08.2018
+
+###### Art. 2.3.4.1.10
+
+###### Art. 2.3.4.1.10.
 
 (…)                                                            (…)
 
@@ -1836,9 +1840,9 @@ Art. 2.3.4.1.10.
 
 ##### Onderafdeling 2 - Bedrag van de belasting voor      Sous-section 2 - Montant de la taxe pour les motocyclettes, motorfietsen, luchtvoertuigen,boten en andere voertuigen les aéronefs, les bateaux et les véhicules autres que les dan de wegvoertuigen, vermeld in artikel 2.3.4.1.1          véhicules routiers, visés à l'article 2.3.4.1.1
 
-## Art. 2.3.4.2.1
+###### Art. 2.3.4.2.1
 
-Art. 2.3.4.2.1.
+###### Art. 2.3.4.2.1.
 
 § 1. De belasting op andere voertuigen dan de               § 1er. La taxe sur les véhicules autres que les véhicules, voertuigen, vermeld in artikel 2.3.4.1.1, wordt berekend    visés à l'article 2.3.4.1.1, est calculée de la manière visée op de wijze die hierna wordt vermeld:                       ci-après :
 
@@ -1896,17 +1900,17 @@ In afwijking van het vierde lid bedraagt de belasting       Par dérogation au q
 
 - §3, vijfde lid vervangen door art. 4 van het decreet van   - §3, alinéa cinq est remplacé par art. 4 du décret du 17 17 juli 2015 (B.S., 14.08.2015 ). De tekst is in werking     juillet 2015 (M.B., 14.08.2015). Texte est entré en getreden vanaf aanslagjaar 2015 (art. 41)                    vigueur à partir de l'année d'imposition 2015 (art. 41)
 
-## Art. 2.3.4.2.2
+###### Art. 2.3.4.2.2
 
-Art. 2.3.4.2.2.
+###### Art. 2.3.4.2.2.
 
 Overeenkomstig artikel 107 van het federale Wetboek          Conformément à l'article 107 du Code fédéral du 23 van 23 november 1965 van de met inkomstenbelastingen         novembre 1965 des taxes assimilées aux impôts sur les gelijkgestelde belastingen, zijn de gemeenschappen, de       revenus, les communautés, les régions, les provinces, les gewesten, de provincies, de agglomeraties en de              agglomérations et les communes ne sont pas autorisées gemeenten niet gemachtigd om opcentiemen te heffen           à établir des centimes additionnels à la taxe sur la mise op de belasting op de                                        en circulation. inverkeerstelling.
 
-##### Afdeling 5 - Verminderingen                                     Section 5 – Réductions
+#### Afdeling 5 - Verminderingen                                     Section 5 – Réductions
 
-## Art. 2.3.5.0.1
+###### Art. 2.3.5.0.1
 
-Art. 2.3.5.0.1.
+###### Art. 2.3.5.0.1.
 
 Voor voertuigen waarvan het belastbaar vermogen 11           Pour les véhicules dont la puissance imposable est fiscale paardenkracht te boven gaat en waarvan de            supérieure à 11 chevaux fiscaux et dont le moteur est motor, ook al is het maar gedeeltelijk of tijdelijk,         alimenté, même partiellement ou temporairement, au aangedreven wordt met aardgas, wordt de belasting            gaz naturel, la taxe est réduite de 4000 euros, le cas verminderd met vierduizend euro, in voorkomend geval         échéant limité au montant de la taxe calculé beperkt tot het bedrag van de belasting als berekend         conformément aux articles 2.3.4.1.2 à 2.3.4.1.4 inclus, overeenkomstig artikel 2.3.4.1.2 tot en met 2.3.4.1.4,       mais sans application de la taxe minimale, visée à maar zonder toepassing van de minimumbelasting,              l’article 2.3.4.1.3. vermeld in artikel 2.3.4.1.3.
 
@@ -1927,11 +1931,11 @@ b) de voornamen, de achternaam en het domicilieadres          b) les prénom, no
 
 - ingevoegd door art. 13 van het decreet van 16 juni 2017 - inséré par l'art. 13 du décret du 16 juin 2017 (M.B. : (B.S. : 04.07.2017). Tekst in werking getreden op de      04.07.2017). Texte s'applique aux périodes imposables belastbare tijdperken die starten vanaf 1 juli 2017       qui commencent à partir du 1er juillet 2017
 
-##### Afdeling 6 - Vrijstellingen                                   Section 6 – Exonérations
+#### Afdeling 6 - Vrijstellingen                                   Section 6 – Exonérations
 
-## Art. 2.3.6.0.1
+###### Art. 2.3.6.0.1
 
-Art. 2.3.6.0.1.
+###### Art. 2.3.6.0.1.
 
 § 1. Er wordt een vrijstelling van de belasting verleend      § 1er. Une exonération de la taxe est accordée pour : voor :
 
@@ -1990,9 +1994,9 @@ In het eerste lid wordt verstaan onder op afstand           A l’alinéa premie
 
 - gewijzigd door art. 22 van het decreet van 23.12.2016     - modifié par l'art. 22 du décret du 23 décembre 2016 (B.S.: 30.12.2016). Tekst in werking getreden vanaf         (M.B.: 30.12.2016). Texte entre en vigueur à partir de aanslagjaar 2016                                            l'année d'imposition 2016
 
-## Art. 2.3.6.0.2
+###### Art. 2.3.6.0.2
 
-Art. 2.3.6.0.2.
+###### Art. 2.3.6.0.2.
 
 Op voertuigen die uitsluitend aangedreven worden door       Les véhicules fonctionnant exclusivement avec moteur een elektrische motor of waterstof en die uiterlijk op 31   électrique ou à l'hydrogène et immatriculés au plus tard december 2025 worden ingeschreven in het repertorium        au répertoire de la Direction générale Mobilité et Sécurité van     het    Directoraat-generaal    Mobiliteit      en   routière au 31 décembre 2025 ne sont pas taxés.
 Verkeersveiligheid wordt geen belasting geheven.
@@ -2016,9 +2020,9 @@ b) de voornamen, de achternaam en het domicilieadres          b) les prénom, no
 
 - vervangen door art. 122 van het decreet van 18 dec.         - remplacé par art. 122 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst is in werking getreden      29.12.2015). Texte est entré en vigueur le 1er janvier op 1 januari 2016 (art. 135))                                 2016 (art. 135)
 
-## Art. 2.3.6.0.3
+###### Art. 2.3.6.0.3
 
-Art. 2.3.6.0.3.
+###### Art. 2.3.6.0.3.
 
 Er wordt voor volgende voertuigen die uiterlijk op 31         Les véhicules suivants qui sont inscrits au plus tard le december 2020 worden ingeschreven in het repertorium          31 décembre 2020 au répertoire de la Direction van het Directoraat-generaal Mobiliteit en                    générale Mobilité et Sécurité routière, sont exonérés de Verkeersveiligheid geen belasting geheven op:                 taxes :
 
@@ -2048,24 +2052,24 @@ b) de voornamen, de achternaam en het domicilieadres        b) les prénom, nom 
 135 du décret du 18 décembre 2015)
 - toegevoegd door art. 123 van het decreet van 18 dec.       - ajouté par art. 123 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst treedt in werking op 1     29.12.2015). Texte est entré en vigueur le 1er janvier januari 2016 (art. 135). De tekst houdt op uitwerking te     2016 (art. 135). Texte cesse de produire ses effets à hebben vanaf 1 januari 2021 (art. 135)                       partir du 1er janvier 2021 (art. 135)
 
-##### Afdeling 7 - Wijze van heffing                           Section 7 - Modalités de perception
+#### Afdeling 7 - Wijze van heffing                           Section 7 - Modalités de perception
 
-## Art. 2.3.7.0.1
+###### Art. 2.3.7.0.1
 
-Art. 2.3.7.0.1.
+###### Art. 2.3.7.0.1.
 
 De belasting wordt geheven in overeenstemming met de         La taxe est perçue conformément aux dispositions de bepalingen van artikel 3.3.2.0.1, eerste lid, 4°.            l'article 3.3.2.0.1, alinéa premier, 4°.
 
-#### Hoofdstuk 4 - Kilometerheffing                           Chapitre 4 - Prélèvement kilométrique
+### Hoofdstuk 4 - Kilometerheffing                           Chapitre 4 - Prélèvement kilométrique
 
 - gewijzigd door art. 13 van het decreet van 3 juli 2015     - modifié par l’art. 13 du décret du 3.07.2015 (M.B.
 (B.S., 10.08.2015). De tekst treedt in werking op een door   10.08.2015). Le texte entre en vigueur à une date à de Vlaamse Regering vast te stellen datum en ten             déterminer par le Gouvernement flamand et au plus tôt vroegste op 1 april 2016 (art. 44))                          le 01.04.2016 (art. 44)
 
-##### Afdeling 1 - Belastbaar voorwerp                               Section 1re - Objet imposable
+#### Afdeling 1 - Belastbaar voorwerp                               Section 1re - Objet imposable
 
-## Art. 2.4.1.0.1
+###### Art. 2.4.1.0.1
 
-Art. 2.4.1.0.1.
+###### Art. 2.4.1.0.1.
 
 Er wordt een kilometerheffing geheven op het gebruik         Un prélèvement kilométrique est levé sur l'usage que dat een voertuig maakt van een niet-geconcedeerde weg.       fait un véhicule d'une route non concédée.
 
@@ -2073,19 +2077,19 @@ Er wordt een kilometerheffing geheven op het gebruik         Un prélèvement ki
 
 - vervangen door art. 14 van het decreet van 3 juli 2015     - remplacé par art. 14 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op 1 april    10.08.2015). Texte entre en vigueur le 1er avril 2016 2016 (art. 44)                                               (Arrêté du Gouvernement flamand du 17 juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-## Art. 2.4.1.0.2
+###### Art. 2.4.1.0.2
 
-Art. 2.4.1.0.2.
+###### Art. 2.4.1.0.2.
 
 (…)                                                          (…)
 
 ---- historiek ----                                          ---- historique ---- - opgeheven door art. 15 van het decreet van 3 juli 2015     - abrogé par art. 15 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op 1 april    10.08.2015). Texte entre en vigueur le 1er avril 2016 2016 (art. 44)                                               (Arrêté du Gouvernement flamand du 17 juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-##### Afdeling 2 - Belastingplichtigen                                Section 2 – Contribuables
+#### Afdeling 2 - Belastingplichtigen                                Section 2 – Contribuables
 
-## Art. 2.4.2.0.1
+###### Art. 2.4.2.0.1
 
-Art. 2.4.2.0.1.
+###### Art. 2.4.2.0.1.
 
 § 1. De belastingplichtige is degene die houder is van het   § 1er. Le contribuable est la personne qui est le détenteur voertuig. De houder van het voertuig is degene, hetzij :     du véhicule. Le détenteur du véhicule est la personne, soit :
 
@@ -2107,22 +2111,22 @@ De Vlaamse Regering kan de voorwaarden, beperkingen          Le Gouvernement fla
 
 - vervangen door art. 16 van het decreet van 3 juli 2015     - remplacé par art. 16 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op 1 april    10.08.2015). Texte entre en vigueur le 1er avril 2016 2016 (art. 44)                                               (Arrêté du Gouvernement flamand du 17 juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-##### Afdeling 3 - Belastbare grondslag                               Section 3 - Base imposable
+#### Afdeling 3 - Belastbare grondslag                               Section 3 - Base imposable
 
-## Art. 2.4.3.0.1
+###### Art. 2.4.3.0.1
 
-Art. 2.4.3.0.1.
+###### Art. 2.4.3.0.1.
 De heffing wordt vastgesteld op basis van het aantal         Le prélèvement est fixé sur la base du nombre de kilometers die door een voertuig worden afgelegd en die      kilomètres parcourus et enregistrés par un véhicule geregistreerd worden conform artikel 3.3.1.0.13.             conformément à l'article 3.3.1.0.13.
 
 ---- historiek ----                                          ---- historique ----
 
 - vervangen door art. 17 van het decreet van 3 juli 2015     - remplacé par art. 17 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op 1 april    10.08.2015). Texte entre en vigueur le 1er avril 2016 2016 (art. 44)                                               (Arrêté du Gouvernement flamand du 17 juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-##### Afdeling 4 - Tarieven                                         Section 4 – Tarifs
+#### Afdeling 4 - Tarieven                                         Section 4 – Tarifs
 
-## Art. 2.4.4.0.1
+###### Art. 2.4.4.0.1
 
-Art. 2.4.4.0.1.
+###### Art. 2.4.4.0.1.
 
 De heffing wordt vastgesteld met behulp van de               Le prélèvement est établi en appliquant la formule de volgende berekeningsformule :                                calcul suivante :
 
@@ -2144,9 +2148,9 @@ Voor de toepassing van deze afdeling wordt verstaan          Pour l'application 
 
 - vervangen door art. 18 van het decreet van 3 juli 2015     - remplacé par art. 18 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op 1 april    10.08.2015). Texte entre en vigueur le 1er avril 2016 2016 (art. 44)                                               (Arrêté du Gouvernement flamand du 17 juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-## Art. 2.4.4.0.2
+###### Art. 2.4.4.0.2
 
-Art. 2.4.4.0.2.
+###### Art. 2.4.4.0.2.
 De hoogte van het tarief Tz, vermeld in artikel 2.4.4.0.1,   La hauteur du tarif Tz, visé à l'article 2.4.4.0.1, 1°,
 1°, uitgedrukt in eurocent wordt als volgt bepaald :         exprimé en centimes d'euros, est déterminée selon la formule suivante :
 
@@ -2223,9 +2227,9 @@ Voor de overige emissievrije voertuigen, andere dan             l'alinéa 5, le 
 
 - vervangen door art. 19 van het decreet van 3 juli 2015        - remplacé par art. 19 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op 1 april       10.08.2015). Texte entre en vigueur le 1er avril 2016 2016 (art. 44)                                                  (Arrêté du Gouvernement flamand du 17 juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-## Art. 2.4.4.0.3
+###### Art. 2.4.4.0.3
 
-Art. 2.4.4.0.3.
+###### Art. 2.4.4.0.3.
 
 Het aantal aan te rekenen kilometers Kz, vermeld in           Le nombre Kz de kilomètres à prendre en compte, visé artikel 2.4.4.0.1, eerste lid, 2°, wordt bepaald volgens de   à l'article 2.4.4.0.1, alinéa premier, 2°, est déterminé volgende formule :                                            selon la formule suivante :
 
@@ -2241,18 +2245,18 @@ waarbij :                                                     où :
 
 - gewijzigd door art. 20 van het decreet van 3 juli 2015       - ajouté par art. 20 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op 1 april      10.08.2015). Texte entre en vigueur le 1er avril 2016 2016 (art. 44)                                                 (Arrêté du Gouvernement flamand du 17 juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-## Art. 2.4.4.0.4
+###### Art. 2.4.4.0.4
 
-Art. 2.4.4.0.4.
+###### Art. 2.4.4.0.4.
 Op de kilometerheffing mogen geen opcentiemen                 Des centimes additionnels ne peuvent pas être établis worden geheven.                                               sur le prélèvement kilométrique.
 
 ---- historiek ----                                            ---- historique ----
 
 - gewijzigd door art. 21 van het decreet van 3 juli 2015       - ajouté par art. 21 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op een door     10.08.2015). Texte entre en vigueur le 1er avril 2016 de Vlaamse Regering vast te stellen datum en ten               (Arrêté du Gouvernement flamand du 17 juillet 2015 - vroegste op 1 april 2016 (art. 44)                             M.B., 10.08.2015 - art. 4)
 
-## Art. 2.4.4.0.5
+###### Art. 2.4.4.0.5
 
-Art. 2.4.4.0.5.
+###### Art. 2.4.4.0.5.
 
 In dit artikel wordt verstaan onder de niet voor de weg       Dans le présent article, on entend par engins mobiles bestemde mobiele machines: de voertuigen, vermeld in          non routiers les véhicules visés à l’article 1er, 1°, de artikel 1, 1°, van het koninklijk besluit van 5 december      l’arrêté royal du 5 décembre 2004 concernant 2004 houdende vaststelling van productnormen voor             l’établissement des normes de produits pour des moteurs inwendige verbrandingsmotoren in niet voor de weg             à combustion interne aux engins mobiles non routiers. bestemde mobiele machines.
 
@@ -2276,11 +2280,11 @@ vanaf 1 oktober 2001 tot en met 30            du 1er octobre 2001 au 30 septembe
 
 ---- historiek ----                                             ---- historique ---- - ingevoegd door art. 24 van het decreet van 23                 - inséré par l'art. 24 du décret du 23.12.2016 (M.B.: december 2016 (B.S.: 30.12.2016) Tekst in werking               30.12.2016). Texte entre en vigueur le 01.04.2016 getreden op 01.04.2016
 
-##### Afdeling 5 - Verminderingen                                        Section 5 – Réductions
+#### Afdeling 5 - Verminderingen                                        Section 5 – Réductions
 
-## Art. 2.4.5.0.1
+###### Art. 2.4.5.0.1
 
-Art. 2.4.5.0.1.
+###### Art. 2.4.5.0.1.
 
 Voorbehouden voor toekomstig gebruik.                           Réservé pour un usage futur.
 
@@ -2288,11 +2292,11 @@ Voorbehouden voor toekomstig gebruik.                           Réservé pour u
 
 - gewijzigd door art. 22 van het decreet van 3 juli 2015        - remplacé par art. 22 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op 1 april       10.08.2015). Texte entre en vigueur le 1er avril 2016 2016 (art. 44)                                                  (Arrêté du Gouvernement flamand du 17 juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-##### Afdeling 6 - Vrijstellingen                                     Section 6 – Exonérations
+#### Afdeling 6 - Vrijstellingen                                     Section 6 – Exonérations
 
-## Art. 2.4.6.0.1
+###### Art. 2.4.6.0.1
 
-Art. 2.4.6.0.1.
+###### Art. 2.4.6.0.1.
 § 1. Er wordt in een vrijstelling van de heffing voorzien       § 1er. Sont exonérés du prélèvement les véhicules : voor de voertuigen die :
 
 1° in het Waalse Gewest of het Brusselse                        1° qui sont exonérés du prélèvement en Région Hoofdstedelijke Gewest overeenkomstig de aldaar                 wallonne ou dans la Région de Bruxelles-Capitale geldende bepalingen zijn vrijgesteld van de heffing;            conformément aux dispositions en vigueur dans ces régions ;
@@ -2329,11 +2333,11 @@ artikel 101 van het decreet van 18 dec. 2015 (B.S.,           Art. 101 du décre
 
 De vrijstellingen van de kilometerheffing, als vermeld in    Les exonérations du prélèvement kilométrique, telles que artikel 23 van het decreet van 3 juli 2015 tot invoering     visées à l'article 23 du décret du 3 juillet 2015 van de kilometerheffing en stopzetting van de heffing van    introduisant le prélèvement kilométrique et annulant le het eurovignet en tot wijziging van de Vlaamse Codex         prélèvement de l'Eurovignette et modifiant le Code Fiscaliteit van 13 december 2013 in dat verband, kunnen      flamand de la Fiscalité du 13 décembre 2013 en la worden aangevraagd vanaf 1 januari 2016.                     matière, peuvent être demandées à partir du 1er janvier
 
-##### Afdeling 7 - Wijze van heffing                            Section 7 - Modalités de perception
+#### Afdeling 7 - Wijze van heffing                            Section 7 - Modalités de perception
 
-## Art. 2.4.7.0.1
+###### Art. 2.4.7.0.1
 
-Art. 2.4.7.0.1.
+###### Art. 2.4.7.0.1.
 
 De heffing wordt geheven in overeenstemming met              Le prélèvement est établi conformément à l'article artikel 3.3.2.0.1, eerste lid, 10°, en tweede lid, 6°.       3.3.2.0.1, alinéa premier, 10°, et alinéa deux, 6°.
 
@@ -2341,9 +2345,9 @@ De heffing wordt geheven in overeenstemming met              Le prélèvement es
 
 - gewijzigd door art. 24 van het decreet van 3 juli 2015     - remplacé par art. 24 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op een door   10.08.2015). Texte entre en vigueur le 1er avril 2016 de Vlaamse Regering vast te stellen datum en ten             (Arrêté du Gouvernement flamand du 17 juillet 2015 - vroegste op 1 april 2016 (art. 44)                           M.B., 10.08.2015 - art. 4)
 
-## Art. 2.4.7.0.2
+###### Art. 2.4.7.0.2
 
-Art. 2.4.7.0.2.
+###### Art. 2.4.7.0.2.
 
 (…)                                                          (…)
 
@@ -2351,13 +2355,13 @@ Art. 2.4.7.0.2.
 
 - gewijzigd door art. 25 van het decreet van 3 juli 2015     - abrogé par art. 25 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op een door   10.08.2015). Texte entre en vigueur le 1er avril 2016 de Vlaamse Regering vast te stellen datum en ten             (Arrêté du Gouvernement flamand du 17 juillet 2015 - vroegste op 1 april 2016 (art. 44)                           M.B., 10.08.2015 - art. 4)
 
-#### Hoofdstuk 5 - Heffing ongeschikte en onbewoonbare              Chapitre 5 -Taxe sur les habitations inadaptées et woningen                                                    inhabitables
+### Hoofdstuk 5 - Heffing ongeschikte en onbewoonbare              Chapitre 5 -Taxe sur les habitations inadaptées et woningen                                                    inhabitables
 
-##### Afdeling 1 - Belastbaar voorwerp                               Section 1re - Objet imposable
+#### Afdeling 1 - Belastbaar voorwerp                               Section 1re - Objet imposable
 
-## Art. 2.5.1.0.1
+###### Art. 2.5.1.0.1
 
-Art. 2.5.1.0.1.
+###### Art. 2.5.1.0.1.
 
 § 1. De gemeenten zijn gemachtigd tot het heffen van         § 1er. Les communes sont autorisées à lever une taxe een gemeentelijke heffing op ongeschikte en/of               communale sur les habitations inadaptées et/ou onbewoonbare woningen die opgenomen zijn in de               inhabitables reprises dans l’inventaire, compte tenu de inventaris, rekening houdend met het minimale                la condition de redevance minimale, qui est égale à : voorschrift dat de minimumaanslag bedraagt:
 a) 500 euro voor een kamer als vermeld in artikel 3.19,      a) 500 euros pour une pièce telle que visée à l'article 1.3,
@@ -2380,11 +2384,11 @@ Voorde toepassing van het eerste lid geldt, behalve in      Pour l'application d
 
 - vervangen door art. 26 van het decreet van 23             - remplacé par l'art. 26 du décret du 23 décembre 2016 december 2016 (B.S.: 30.12.2016). Tekst in werking          (M.B.: 30.12.2016) Texte entre en vigueur à partir de getreden vanaf aanslagjaar 2017                             l'année d'imposition 2017
 
-##### Afdeling 2 - Belastingplichtigen                                 Section 2 – Contribuables
+#### Afdeling 2 - Belastingplichtigen                                 Section 2 – Contribuables
 
-## Art. 2.5.2.0.1
+###### Art. 2.5.2.0.1
 
-Art. 2.5.2.0.1.
+###### Art. 2.5.2.0.1.
 
 De belastingplichtige van de heffing is degene die de       Le contribuable de la taxe est celui qui est le titulaire houder is van een van de volgende zakelijke rechten met     d'un des droits réels suivants relatifs à une habitation au betrekking tot een woning op het ogenblik dat elke          moment de l'échéance de chaque période consécutive de opeenvolgende periode van twaalf maanden na de              douze mois suivant la reprise dans l'inventaire : opname in de inventaris verstreken is :
 1° de volle eigendom;                                       1° la pleine propriété ;
@@ -2408,11 +2412,11 @@ Bekrachtigd door art. 224, 2° van het decreet van           Confirmé par l’a
 
 - gewijzigd door art. 27 van het decreet van 23.12.2016     - modifié par l'art. 27 du décret du 23 décembre 2016 (B.S.: 30.12.2016). Tekst in werking getreden vanaf         (M.B.: 30.12.2016). Texte entre en vigueur à partir de aanslagjaar 2017                                            l'année d'imposition 2017
 
-##### Afdeling 3 - Belastbare grondslag                              Section 3 - Base imposable
+#### Afdeling 3 - Belastbare grondslag                              Section 3 - Base imposable
 
-## Art. 2.5.3.0.1
+###### Art. 2.5.3.0.1
 
-Art. 2.5.3.0.1.
+###### Art. 2.5.3.0.1.
 
 De heffing wordt vastgesteld op een basisbedrag van         La taxe est fixée sur un montant de base de 1100 euros.
 1100 euro.
@@ -2427,11 +2431,11 @@ Het aangepast basisbedrag, vermeld in het tweede lid,       Le montant de base a
 - vervangen door art. 30 van het decreet van 29.03.2019     - remplacé par l'art. 30 du décret du 29.03.2019 (M.B.
 (B.S. 29.04.2019). Inwerkingtreding op                      29.04.2019). Texte entre en vigueur le 01.01.2021 01.01.2021 - gewijzigd door art. 28 van het decreet van 23.12.2016     - modifié par l'art. 28 du décret du 23 décembre 2016 (B.S.: 30.12.2016) Tekst in werking getreden vanaf          (M.B.: 30.12.2016). Texte entre en vigueur à partir de aanslagjaar 2017                                            l'année d'imposition 2017
 
-##### Afdeling 4 - Tarieven                                        Section 4 – Tarifs
+#### Afdeling 4 - Tarieven                                        Section 4 – Tarifs
 
-## Art. 2.5.4.0.1
+###### Art. 2.5.4.0.1
 
-Art. 2.5.4.0.1.
+###### Art. 2.5.4.0.1.
 
 De heffing wordt berekend volgens de volgende               La taxe est calculée selon la formule suivante : B * (P + formule: B * (P + 1), waarbij:                              1), où :
 
@@ -2448,9 +2452,9 @@ Bekrachtigd door art. 224, 2° van het decreet van           Confirmé par l’a
 - vervangen door art. 31 van het decreet van 29.03.2019     - remplacé par l'art. 31 du décret du 29.03.2019 (M.B.
 (B.S. 29.04.2019). Inwerkingtreding op                      29.04.2019). Texte entre en vigueur le 01.01.2021 01.01.2021 - gewijzigd door art. 29 van het decreet van 23.12.2016     - modifié par l'art. 29 du décret du 23.12.2016 (M.B.: (B.S.: 30.12.2016). Tekst in werking getreden vanaf         30.12.2016). Texte entre en vigueur à partir de l'année aanslagjaar 2017                                            d'imposition 2017
 
-## Art. 2.5.4.0.2
+###### Art. 2.5.4.0.2
 
-Art. 2.5.4.0.2.
+###### Art. 2.5.4.0.2.
 
 Met toepassing van artikel 464/1, 2°, van het federale      En application de l'article 464/1, 2°, du CIR fédéral 92, WIB 92 mogen de provincies, de agglomeraties en de          les provinces, les agglomérations et les communes gemeenten opcentiemen heffen op de heffing                  peuvent percevoir des centimes additionnels sur la taxe ongeschikte en onbewoonbare woningen.                       sur les habitations inadaptées et insalubres.
 
@@ -2460,19 +2464,19 @@ Met toepassing van artikel 464/1, 2°, van het federale      En application de l
 
 - toegevoegd door art. 11 van het decreet van 19.12.2014 - complété par art. 11 du décret du 19.12.2014 (M.B., (B.S., 13.01.2015). De tekst is in werking getreden vanaf 13.01.2015). Texte est entré en vigueur à partir de het aanslagjaar 2015. (art. 24)                           l’année d’imposition 2015.
 
-##### Afdeling 5 - Verminderingen                                    Section 5 – Réductions
+#### Afdeling 5 - Verminderingen                                    Section 5 – Réductions
 
-## Art. 2.5.5.0.1
+###### Art. 2.5.5.0.1
 
-Art. 2.5.5.0.1.
+###### Art. 2.5.5.0.1.
 
 Voorbehouden voor toekomstig gebruik.                       Réservé pour un usage futur
 
-##### Afdeling 6 - Vrijstellingen                                  Section 6 – Exonérations
+#### Afdeling 6 - Vrijstellingen                                  Section 6 – Exonérations
 
-## Art. 2.5.6.0.1
+###### Art. 2.5.6.0.1
 
-Art. 2.5.6.0.1.
+###### Art. 2.5.6.0.1.
 
 De houder van een zakelijk recht wordt vrijgesteld van       Le titulaire d'un droit réel est exonéré de la taxe lorsqu'il de heffing als hij de woning volledig en uitsluitend         utilise l'habitation totalement et exclusivement comme gebruikt als zijn hoofdverblijfplaats en als hij niet over   sa résidence principale et lorsqu'il ne dispose pas d'une een andere woning beschikt.                                  autre habitation.
 
@@ -2480,9 +2484,9 @@ De houder van een zakelijk recht wordt vrijgesteld van       Le titulaire d'un d
 
 - gewijzigd door art. 28 van het decreet van 23.12.2016      - modifié par l'art. 28 du décret du 23 décembre 2016 (B.S.: 30.12.2016). Tekst in werking getreden vanaf          (M.B.: 30.12.2016). Texte entre en vigueur à partir de aanslagjaar 2017                                             l'année d'imposition 2017
 
-## Art. 2.5.6.0.2
+###### Art. 2.5.6.0.2
 
-Art. 2.5.6.0.2.
+###### Art. 2.5.6.0.2.
 
 § 1. De houder van een zakelijk recht wordt vrijgesteld      § 1er. Le titulaire d'un droit réel est exonéré de la taxe van de heffing op :                                          sur :
 
@@ -2517,9 +2521,9 @@ Bekrachtigd door art. 224, 2° van het decreet van             Confirmé par l�
 
 - §1, punt 2 opgeheven door art. 5 van het decreet van 17 - §1, point 2 est abrogé par art. 5 du décret du 17 juillet juli 2015 (B.S., 14.08.2015 ). De tekst treedt in werking 2015 (M.B., 14.08.2015). Texte entre en vigueur à partir op 1 januari 2016 (art. 41)                               du 1er janvier 2016 (art. 41)
 
-## Art. 2.5.6.0.3
+###### Art. 2.5.6.0.3
 
-Art. 2.5.6.0.3.
+###### Art. 2.5.6.0.3.
 
 De Vlaamse Regering kan nadere procedurele regels             Le Gouvernement flamand peut arrêter des règles vaststellen voor de aanvraag en de toekenning van             procédurales pour la demande et l'octroi d'exonérations vrijstellingen als vermeld in artikel 2.5.6.0.1 en            telles que visées aux articles 2.5.6.0.1 et 2.5.6.0.2.
 2.5.6.0.2.
@@ -2529,11 +2533,11 @@ De Vlaamse Regering kan nadere procedurele regels             Le Gouvernement fl
 - ingevoegd door art. 32 van het decreet van 29.03.2019       - inséré par l’art. 32 du décret du 29.03.2019 (M.B.
 (B.S. 29.04.2019). Inwerkingtreding op                        29.04.2019). Texte entre en vigueur le 01.01.2021 01.01.2021
 
-##### Afdeling 7 - Wijze van heffing                            Section 7 - Modalités de perception
+#### Afdeling 7 - Wijze van heffing                            Section 7 - Modalités de perception
 
-## Art. 2.5.7.0.1
+###### Art. 2.5.7.0.1
 
-Art. 2.5.7.0.1.
+###### Art. 2.5.7.0.1.
 
 De heffing is verschuldigd als de woning gedurende            La taxe est due lorsque l'habitation est repris(e) dans twaalf opeenvolgende maanden is opgenomen in de               l'inventaire pendant douze mois consécutifs. inventaris.
 
@@ -2543,9 +2547,9 @@ Zolang de woning niet is geschrapt uit de inventaris,         Tant que l'habitat
 
 - gewijzigd door art. 28 van het decreet van 23.12.2016       - modifié par l'art. 28 du décret du 23.12.2016 (M.B.: (B.S.: 30.12.2016). Tekst in werking getreden vanaf           30.12.2016). Texte entre en vigueur à partir de l'année aanslagjaar 2017                                              d'imposition 2017
 
-## Art. 2.5.7.0.2
+###### Art. 2.5.7.0.2
 
-Art. 2.5.7.0.2.
+###### Art. 2.5.7.0.2.
 
 Aan de verkrijger van een zakelijk recht als vermeld in       Il est accordé à l'acquéreur d'un droit réel, tel que visé à artikel 2.5.2.0.1, wordt een opschorting van de heffing       l'article 2.5.2.0.1, une suspension de la taxe pendant une verleend gedurende een periode van twee jaar die volgt        période de deux ans suivant le transfert total du bâtiment op de volledige overdracht van het gebouw of de               ou de l'habitation, à condition qu'au cours de la période woning, op voorwaarde dat in de loop van de voormelde         précitée aucun nouveau transfert n'ait lieu, et qu'un des periode geen nieuwe overdracht plaatsvindt, en zich een       deux cas suivants se présente : van de twee volgende gevallen voordoet :
 
@@ -2568,9 +2572,9 @@ De opschorting, vermeld in het eerste lid, geldt niet voor    La suspension, vis
 
 - gewijzigd door art. 28 van het decreet van 23.12.2016       - modifié par l'art. 28 du décret du 23 décembre 2016 (B.S.: 30.12.2016). Tekst in werking getreden vanaf           (M.B. 30.12.2016). Texte entre en vigueur à partir de aanslagjaar 2017                                              l'année d'imposition 2017
 
-## Art. 2.5.7.0.3
+###### Art. 2.5.7.0.3
 
-Art. 2.5.7.0.3.
+###### Art. 2.5.7.0.3.
 
 Er wordt een opschorting van de heffing verleend zodra        Une exonération de la taxe est prévue dès que le de belastingplichtige:                                        contribuable :
 
@@ -2610,9 +2614,9 @@ Bekrachtigd door art. 224, 2° van het decreet van           Confirmé par l’a
 - vervangen door art. 33 van het decreet van 29.03.2019     - remplacé par l'art. 33 du décret du 29.03.2019 (M.B.
 (B.S. 29.04.2019). Inwerkingtreding op                      29.04.2019). Texte entre en vigueur le 01.01.2021 01.01.2021 - gewijzigd door art. 33 van het decreet van 23.12.2016     - modifié par l'art. 33 du décret du 23.12.2016 (M.B.: (B.S.: 30.12.2016). Tekst in werking getreden vanaf         30.12.2016). Texte entre en vigueur à partir de l'année aanslagjaar 2017                                            d'imposition 2017.
 
-## Art. 2.5.7.0.4
+###### Art. 2.5.7.0.4
 
-Art. 2.5.7.0.4.
+###### Art. 2.5.7.0.4.
 
 De Vlaamse Regering kan nadere procedurele regels           Le Gouvernement flamand peut arrêter des règles vaststellen voor de aanvraag en de toekenning van           procédurales pour la demande et l'octroi de suspensions opschortingen als vermeld in artikel 2.5.7.0.2 en           telles que visées aux articles 2.5.7.0.2 et 2.5.7.0.3.
 2.5.7.0.3.
@@ -2621,37 +2625,37 @@ De Vlaamse Regering kan nadere procedurele regels           Le Gouvernement flam
 
 - ingevoegd door art. 34 van het decreet van 29.03.2019     - inséré par l’art. 34 du décret du 29.03.2019 (M.B.
 (B.S. 29.04.2019). Inwerkingtreding op                      29.04.2019). Texte entre en vigueur le 01.01.2021 01.01.2021
-#### Hoofdstuk 6 - Leegstandsheffing bedrijfsruimten           Chapitre 6 - Taxe sur les sites d'activité économique désaffectés
+### Hoofdstuk 6 - Leegstandsheffing bedrijfsruimten           Chapitre 6 - Taxe sur les sites d'activité économique désaffectés
 
-##### Afdeling 1 - Belastbaar voorwerp                              Section 1re - Objet imposable
+#### Afdeling 1 - Belastbaar voorwerp                              Section 1re - Objet imposable
 
-## Art. 2.6.1.0.1
+###### Art. 2.6.1.0.1
 
-Art. 2.6.1.0.1.
+###### Art. 2.6.1.0.1.
 
 Er wordt een leegstandsheffing geheven op de                Une taxe d'inoccupation est prélevée sur les sites bedrijfsruimten die opgenomen zijn in de inventaris.        d'activité économique repris dans l'inventaire.
 
-##### Afdeling 2 - Belastingplichtigen                               Section 2- Contribuables
+#### Afdeling 2 - Belastingplichtigen                               Section 2- Contribuables
 
-## Art. 2.6.2.0.1
+###### Art. 2.6.2.0.1
 
-Art. 2.6.2.0.1.
+###### Art. 2.6.2.0.1.
 
 De belastingplichtige is degene die op 1 januari van het    Le contribuable est celui qui, le 1er janvier de l'année aanslagjaar eigenaar is van de bedrijfsgebouwen die         d'imposition, est le propriétaire des bâtiments d'activité onderworpen zijn aan de heffing.                            économique soumis à la taxe.
 
-##### Afdeling 3 - Belastbare grondslag                              Section 3 - Base imposable
+#### Afdeling 3 - Belastbare grondslag                              Section 3 - Base imposable
 
-## Art. 2.6.3.0.1
+###### Art. 2.6.3.0.1
 
-Art. 2.6.3.0.1.
+###### Art. 2.6.3.0.1.
 
 De heffing wordt vastgesteld op basis van het kadastraal    La taxe est fixée sur la base du revenu cadastral des inkomen van de gronden dat op 1 januari van het             terres, connu le 1er janvier de l'année d'imposition, y aanslagjaar bekend is, inclusief opstanden, van het         compris les élévations, de la parcelle constituant le site perceel dat de leegstaande en/of verwaarloosde              d'activité économique inoccupé et/ou désaffecté, ainsi bedrijfsruimte uitmaakt, alsook voor de niet-               que, pour les entreprises non agricoles, sur la base du landbouwbedrijven op basis van het kadastraal inkomen       revenu cadastral de toutes les parcelles attenantes van alle aangrenzende percelen die één geheel ermee         formant un ensemble et appartenant au même vormen en die behoren tot dezelfde eigenaar.                propriétaire.
 
-##### Afdeling 4 - Tarieven                                              Section 4 – Tarifs
+#### Afdeling 4 - Tarieven                                              Section 4 – Tarifs
 
-## Art. 2.6.4.0.1
+###### Art. 2.6.4.0.1
 
-Art. 2.6.4.0.1.
+###### Art. 2.6.4.0.1.
 De heffing wordt berekend volgens de volgende tabel,              La taxe est calculée selon le tableau suivant, dans lequel waarbij het kadastraal inkomen wordt verdeeld in de               le revenu cadastral est réparti dans les tranches volgende schijven, die elk worden onderworpen aan de              suivantes, chacune étant soumise aux taux de taxation volgende een heffingspercentages:                                 suivants : percentage van toepassing op het           totaalbedrag van de heffing op het schijf van het kadastraal inkomen in overeenstemmende gedeelte                   voorgaande gedeelte in euro euro /                                            / / pourcentage qui s'applique à la           montant total de la taxe sur la partie tranche du revenu cadastral en euros partie correspondante                        précédente en euros tot en met 12.350 /                                       168                                               / jusqu'à 12.350 inclus van 12.351 tot en met 37.150 /                                       140                                         20.748 de 12.351 à 37.150 van 37.151 tot en met 74.350 /                                       112                                         55.468 de 37.151 à 74.350 vanaf 74.351 /                                       84                                          97.132 à partir de 74.351
 
 De heffing bedraagt nooit minder dan 3.700 euro.                 La taxe n'est jamais inférieure à 3.700 euros.
@@ -2664,9 +2668,9 @@ Voor de niet-landbouwbedrijven komt het bedrag van de            Pour les entrep
 
 - gewijzigd door art. 12 van het decreet van 19.12.2014           - modifié par art. 12 du décret du 19.12.2014 (M.B., (B.S., 13.01.2015).De tekst is in werking getreden op             13.01.2015). Texte applicable à partir du 01.01.2015 01.01.2015. (art. 24)
 
-## Art. 2.6.4.0.2
+###### Art. 2.6.4.0.2
 
-Art. 2.6.4.0.2.
+###### Art. 2.6.4.0.2.
 
 Met toepassing van artikel 464/1, 2°, van het federale           En application de l'article 464/1er, 2°, du CIR fédéral WIB 92 mogen de provincies, de agglomeraties en de               92, les provinces, les agglomérations et les communes gemeenten opcentiemen heffen op de leegstandsheffing             peuvent percevoir des centimes additionnels sur la bedrijfsruimten.                                                 redevance visant à lutter contre le délabrement d'habitations et de bâtiments.
 
@@ -2674,34 +2678,34 @@ Met toepassing van artikel 464/1, 2°, van het federale           En application
 
 - toegevoegd door art. 13 van het decreet van 19.12.2014 - inséré par art. 13 du décret du 19.12.2014 (M.B., (B.S., 13.01.2015).De tekst is in werking getreden vanaf 13.01.2015). Texte est entré en vigueur à partir de het aanslagjaar 2015. (art. 24)                          l’année d’imposition 2015.
 
-##### Afdeling 5 - Verminderingen                                    Section 5 – Réductions
+#### Afdeling 5 - Verminderingen                                    Section 5 – Réductions
 
-## Art. 2.6.5.0.1
+###### Art. 2.6.5.0.1
 
-Art. 2.6.5.0.1.
+###### Art. 2.6.5.0.1.
 
 Voorbehouden voor toekomstig gebruik.                      Réservé pour un usage futur
 
-##### Afdeling 6 - Vrijstellingen                                 Section 6 – Exonérations
+#### Afdeling 6 - Vrijstellingen                                 Section 6 – Exonérations
 
-## Art. 2.6.6.0.1
+###### Art. 2.6.6.0.1
 
-Art. 2.6.6.0.1.
+###### Art. 2.6.6.0.1.
 Voorbehouden voor toekomstig gebruik.                      Réservé pour un usage futur
 
-##### Afdeling 7 - Wijze van heffing                            Section 7 - Modalités de perception
+#### Afdeling 7 - Wijze van heffing                            Section 7 - Modalités de perception
 
-## Art. 2.6.7.0.1
+###### Art. 2.6.7.0.1
 
-Art. 2.6.7.0.1.
+###### Art. 2.6.7.0.1.
 
 De heffing is verschuldigd vanaf het kalenderjaar dat      La taxe est due à partir de l'année calendaire suivant le volgt op de derde opeenvolgende registratie in de          troisième enregistrement consécutif dans l'inventaire inventaris voor geheel of gedeeltelijk leegstaande en/of   pour des sites d'activité économique inoccupés et/ou verwaarloosde bedrijfsruimten.                             désaffectés en tout ou en partie.
 
 ##### Onderafdeling 1 - Opschorting door een vernieuwing, al of Sous-section 1re - Suspension suite à une rénovation, liée niet gekoppeld aan de beëindiging van de leegstand             ou non à la cessation de l'inoccupation
 
-## Art. 2.6.7.1.1
+###### Art. 2.6.7.1.1
 
-Art. 2.6.7.1.1.
+###### Art. 2.6.7.1.1.
 
 Er wordt een opschorting van de heffing verleend voor      Une suspension de la taxe est accordée pour les sites de bedrijfsruimten waarvoor uiterlijk op 31 december       d'activité économique pour lesquels, au plus tard le 31 van het kalenderjaar dat voorafgaat aan het aanslagjaar,   décembre de l'année calendaire précédant l'année een vernieuwingsvoorstel wordt ingediend, voor zover       d'imposition, une proposition de rénovation est wordt voldaan aan de voorwaarden voor indiening en         introduite, dans la mesure où les conditions aanvaarding van dat voorstel, bepaald met toepassing       d'introduction et d'acceptation de cette proposition, van het vierde lid.                                        fixées en application du paragraphe 4, sont remplies.
 
@@ -2721,16 +2725,16 @@ De Vlaamse Regering bepaalt de regels voor de              Le Gouvernement flama
 
 - gewijzigd door art. 8 van het decreet van 12.12.2025     - modifié par l'art. 8 du décret du 12.12.2025 (M.B., (B.S., 23.12.2025). Inwerkingtreding: 01.01.2025           23.12.2025). Entrée en vigueur : 01.01.2025
 
-## Art. 2.6.7.1.2
+###### Art. 2.6.7.1.2
 
-Art. 2.6.7.1.2.
+###### Art. 2.6.7.1.2.
 In de inventaris worden de datum van de indiening van      L'inventaire mentionne la date de l'introduction de la het    aanvaarde     vernieuwingsvoorstel    en    de      proposition de rénovation acceptée et le délai de opschortingstermijn vermeld.                               suspension.
 
 ##### Onderafdeling 2 - Opschorting ingevolge een definitief       Sous-section 2 - Suspension suite à une convention gesloten brownfieldconvenant                             Brownfield conclue à titre définitif
 
-## Art. 2.6.7.2.1
+###### Art. 2.6.7.2.1
 
-Art. 2.6.7.2.1.
+###### Art. 2.6.7.2.1.
 
 Er kan een opschorting van de heffing worden verleend      Une suspension de la taxe peut être accordée sur la op verzoek van de eigenaar of eigenaars voor de            demande du propriétaire ou des propriétaires pour les bedrijfsruimten die gevat zijn in een brownfieldproject    sites d'activité économique faisant l'objet d'une waarvoor het ontwerp van brownfieldconvenant is            convention Brownfield, dont le projet est approuvé par goedgekeurd door de Vlaamse Regering, conform              le Gouvernement flamand, conformément au chapitre hoofdstuk III van het decreet van 30 maart 2007            III du décret du 30 mars 2007 relatif aux conventions betreffende de Brownfieldconvenanten, voor zover de        Brownfield, pour autant que le propriétaire soit acteur eigenaar actor is bij het brownfieldconvenant.             de la convention Brownfield.
 De opschorting wordt ongedaan gemaakt als de Vlaamse       La suspension est annulée si le Gouvernement flamand Regering     beslist   tot   stopzetting     van     de    décide d'arrêter les négociations visées à l'article 8, § 3, onderhandelingen, vermeld in artikel 8, § 3, eerste lid,   alinéa 1er, du décret du 30 mars 2007 relatif aux van het decreet van 30 maart 2007 betreffende de           conventions Brownfield, ou si le projet Brownfield n'est Brownfieldconvenanten, of als het brownfieldproject        pas entamé ou réalisé à temps conformément aux niet tijdig wordt gestart of gerealiseerd conform de       conditions visées à la convention Brownfield. Dans ces voorwaarden, vermeld in het brownfieldconvenant. De        cas, les taxes suspendues sont tout de même dues. opgeschorte heffingen zijn in die gevallen alsnog verschuldigd.
@@ -2747,9 +2751,9 @@ De Vlaamse Regering bepaalt de regels voor de                Le Gouvernement fla
 
 ##### Onderafdeling 3 - Opschorting ingevolge een conform               Sous-section 3 - Suspension suite à un projet verklaard bodemsaneringsproject                           d'assainissement du sol déclaré conforme
 
-## Art. 2.6.7.3.1
+###### Art. 2.6.7.3.1
 
-Art. 2.6.7.3.1.
+###### Art. 2.6.7.3.1.
 
 Er kan een opschorting van de heffing worden verleend        Une suspension de la taxe peut être accordée sur la op verzoek van de eigenaar(s) voor de bedrijfsruimten        demande du propriétaire ou des propriétaires pour les die het voorwerp uitmaken van een door de OVAM               sites d'activité économique faisant l'objet d'un projet conform verklaard bodemsaneringsproject, met                 d'assainissement du sol déclaré conforme par l'OVAM, toepassing van titel III, hoofdstuk V, van het decreet van   en application du titre III, chapitre V, du décret du 27 27 oktober 2006 betreffende de bodemsanering en de           octobre 2006 relatif à l'assainissement du sol et à la bodembescherming.                                            protection du sol.
 
@@ -2761,9 +2765,9 @@ De Vlaamse Regering bepaalt de regels voor de                Le Gouvernement fla
 
 ##### Onderafdeling 4 - Opschorting voor nieuwe eigenaars            Sous-section 4 - Suspension pour les nouveaux propriétaires
 
-## Art. 2.6.7.4.1
+###### Art. 2.6.7.4.1
 
-Art. 2.6.7.4.1.
+###### Art. 2.6.7.4.1.
 
 Nieuwe eigenaars van een geregistreerde bedrijfsruimte     Les nouveaux propriétaires d'un site d'activité krijgen een opschorting van de heffing gedurende twee      économique enregistré obtiennent une suspension de la jaar vanaf de datum van het verlijden van de authentieke   taxe pendant deux ans, à partir de la date de la passation akte van overdracht. Als er verschillende eigenaars voor   de l'acte de transfert authentique. Lorsqu'il y a plusieurs dezelfde bedrijfsruimte zijn, en minstens één ervan een    propriétaires pour le même site d'activité économique, nieuwe eigenaar is, gelet op de overdracht aan hem door    et au moins un d'entre eux est le nouveau propriétaire, erfopvolging of testament, krijgen ze een opschorting      vu le transfert à lui suite à un héritage ou un testament, van de heffing gedurende twee jaar vanaf de datum van      ils obtiennent une suspension de la taxe pendant deux eigendomsoverdracht door erfopvolging of testament.        ans, à partir de la date du transfert de propriété par héritage ou testament.
 
@@ -2777,17 +2781,17 @@ De volgende rechtspersonen of natuurlijke personen         Les personnes morales
 
 - Gewijzigd door art. 10 van het decreet van 18.06.2021    - modifié par l'art. 10 du décret du 18.06.2021 (M.B., (B.S., 15.07.2021). Inwerkingtreding door de Vlaamse       15.07.2021). En vigueur à fixer par le Gouvernement Regering vast te stellen en uiterlijk op 01.10.2021        flamand et au plus tard le 1er octobre 2021
 
-## Art. 2.6.7.4.2
+###### Art. 2.6.7.4.2
 
-Art. 2.6.7.4.2.
+###### Art. 2.6.7.4.2.
 
 In de inventaris worden de datum van het verlijden van     L'inventaire mentionne la date de la passation de l'acte de authentieke akte en de opschortingstermijn vermeld.     authentique et le délai de suspension.
 
 ##### Onderafdeling 5 - Opschorting voor leegstaande maar          Sous-section 5 - Suspension pour des sites d'activité niet-verwaarloosde bedrijfsruimten                      économique inoccupés mais non désaffectés
 
-## Art. 2.6.7.5.1
+###### Art. 2.6.7.5.1
 
-Art. 2.6.7.5.1.
+###### Art. 2.6.7.5.1.
 
 Er kan een opschorting van de heffing worden verleend      Une suspension de la taxe peut être accordée sur la op verzoek van de eigenaars voor de bedrijfsruimten die    demande des propriétaires pour les sites d'activité ten gevolge van bedrijfseconomische omstandigheden         économique qui, suite à des circonstances économiques, geheel of gedeeltelijk leegstaan, maar die in een goede    sont inoccupés, en tout ou en partie, mais qui sont
 
@@ -2799,26 +2803,26 @@ De opschorting wordt verleend voor de bedrijfsruimten        La suspension est a
 
 De Vlaamse Regering bepaalt de regels voor de                Le Gouvernement flamand fixe les règles pour indiening en aanvaarding van het verzoek tot                 l'introduction et l'acceptation de la demande de opschorting.                                                 suspension.
 
-## Art. 2.6.7.5.2
+###### Art. 2.6.7.5.2
 
-Art. 2.6.7.5.2.
+###### Art. 2.6.7.5.2.
 
 In de inventaris worden de datum van de indiening van        L'inventaire mentionne la date de l'introduction de la de     aanvaarde    opschortingsaanvraag     en    de        demande de suspension acceptée et le délai de opschortingstermijn vermeld.                                 suspension.
 
 ##### Onderafdeling 6 - Opschorting ingevolge staving van de         Sous-section 6 - Suspension suite à la preuve de la beëindiging van de vernieuwing en/of de leegstand            cessation de la rénovation et/ou de l'inoccupation
 
-## Art. 2.6.7.6.1
+###### Art. 2.6.7.6.1
 
-Art. 2.6.7.6.1.
+###### Art. 2.6.7.6.1.
 
 Als     de    eigenaar      tijdens     de    toegestane     Lorsque le propriétaire a introduit, au cours du délai de opschortingstermijn een aanvraag tot schrapping uit de       suspension accordé, une demande de radiation de inventaris heeft ingediend conform artikel 12 van het        l'inventaire, conformément à l'article 12 du décret du 19 decreet van 19 april 1995, krijgt hij een opschorting van    avril 1995, il obtient une suspension de la taxe pendant de heffing gedurende de termijn dat zijn aanvraag,           le délai d'examen de sa demande, conformément à conform artikel 13 van het decreet van 19 april 1995,        l'article 13 du décret du 19 avril 1995. Lorsque la onderzocht wordt. Als de aanvraag tot schrapping             demande de radiation est refusée, cette décision produit geweigerd wordt, heeft die beslissing rechtsgevolgen         des effets juridiques à partir de la date de la notification, vanaf de datum van de kennisgeving, vermeld in artikel       visée à l'article 12 du décret précité.
 12 van het voormelde decreet.
 
 ##### Onderafdeling 7 - Sancties                                     Sous-section 7 – Sanctions
 
-## Art. 2.6.7.7.1
+###### Art. 2.6.7.7.1
 
-Art. 2.6.7.7.1.
+###### Art. 2.6.7.7.1.
 
 Als de opschortingen, verleend met toepassing van            Lorsque, à l'expiration des délais de suspension artikel 2.6.7.1.1, 2.6.7.2.1, 2.6.7.3.1, 2.6.7.4.1 en        accordés, les suspensions accordées en application des 2.6.7.5.1, bij het verstrijken van de toegestane             articles 2.6.7.1.1, 2.6.7.2.1, 2.6.7.3.1, 2.6.7.4.1 et opschortingstermijnen niet resulteren in een beëindiging     2.6.7.5.1, ne résultent pas en une cessation de la van de verwaarlozing en/of de leegstand, is de               désaffectation et/ou de l'inoccupation, la taxe suspendue opgeschorte heffing alsnog verschuldigd voor die             est tout de même due pour ces délais, majorée des termijnen, vermeerderd met de interesten.                    intérêts.
 
@@ -2836,21 +2840,21 @@ Als de eigenaar, aan wie een opschorting is verleend met     Lorsque le proprié
 - gewijzigd door art. 20 van het decreet van 06.07.2018      - modifié par l’art. 20 du décret du 06.07.2018 (M.B.
 (B.S. 30.08.2018). Tekst treedt in werking op 21.07.2012     30.08.2018). Texte entre en vigueur le 21.07.2012
 
-#### Hoofdstuk 7 – Erfbelasting                               Chapitre 7 - Impôt de succession
+### Hoofdstuk 7 – Erfbelasting                               Chapitre 7 - Impôt de succession
 
 ---- historiek ----                                          ---- historique ----
 
 - hoofdstuk 7 is toegevoegd door art. 3 van het decreet      - chapitre 7 inséré par art. 3 du décret du 19.12.2014 van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in    (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 1 – Belastbaar voorwerp                               Section 1re - Objet imposable
+#### Afdeling 1 – Belastbaar voorwerp                               Section 1re - Objet imposable
 
 ---- historiek ----                                          ---- historique ----
 
 - afdeling 1 is toegevoegd door art. 4 van het decreet van   - section 1re inséré par art. 4 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.1.0.1
+###### Art. 2.7.1.0.1
 
-Art. 2.7.1.0.1.
+###### Art. 2.7.1.0.1.
 
 Overeenkomstig artikel 3, 4°, van de bijzondere wet van      Conformément à l'article 3, 4°, de la loi spéciale du 16 16 januari 1989 betreffende de financiering van de           janvier 1989 relative au financement des communautés gemeenschappen en de gewesten wordt het                      et des régions, le droit de succession et le droit de successierecht en het recht van overgang gevestigd op        mutation sont établis sur les biens transmis suite au de goederen die overgaan ingevolge het overlijden            décès.
 
@@ -2858,9 +2862,9 @@ Overeenkomstig artikel 3, 4°, van de bijzondere wet van      Conformément à l
 
 - toegevoegd door art. 5 van het decreet van 19.12.2014      - inséré par art. 5 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in                   29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.1.0.2
+###### Art. 2.7.1.0.2
 
-Art. 2.7.1.0.2.
+###### Art. 2.7.1.0.2.
 
 De erfbelasting is verschuldigd ongeacht of de               L'impôt de succession est dû, que l'acquisition découle verkrijging gebeurt ingevolge wettelijke devolutie,          de la dévolution légale, d'une disposition testamentaire uiterste wilsbeschikking of contractuele erfstelling.        ou d'une institution contractuelle.
 
@@ -2883,9 +2887,9 @@ Naast het geval, vermeld in het eerste lid, is de            Outre le cas visé 
 
 - toegevoegd door art. 6 van het decreet van 19.12.2014      - inséré par art. 6 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in                   29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.1.0.3
+###### Art. 2.7.1.0.3
 
-Art. 2.7.1.0.3.
+###### Art. 2.7.1.0.3.
 
 Worden met het oog op de heffing van het successierecht      Sont considérées comme legs, pour la perception du als legaten beschouwd :                                      droit de succession :
 
@@ -2904,9 +2908,9 @@ Het eerste lid, 3°, is niet van toepassing bij de realisatie   L’alinéa 1er,
 
 - toegevoegd door art. 7 van het decreet van 19.12.2014 - inséré par art. 7 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015, Ed. 2 – Err. B.S., 09.07.2024). De tekst 29.01.2015, Ed. 2 – Err. M.B., 09.07.2024). Texte est is in entré en vigueur le 01.01.2015 (art. 325) werking getreden op 01.012015 (art. 325)
 
-## Art. 2.7.1.0.4
+###### Art. 2.7.1.0.4
 
-Art. 2.7.1.0.4.
+###### Art. 2.7.1.0.4.
 De langstlevende echtgenoot die ingevolge een                  L'époux survivant, auquel une convention de mariage huwelijksovereenkomst die niet aan de regels voor de           non sujette aux règles relatives aux donations attribue schenkingen is onderworpen, meer dan de helft van de           plus de la moitié de la communauté, est assimilé, pour gemeenschap toegekend krijgt, wordt voor de heffing            la perception de l’impôt de succession, à l'époux van de erfbelasting gelijkgesteld met de langstlevende         survivant qui, en l'absence d'une dérogation au partage echtgenoot die, als niet wordt afgeweken van de gelijke        égal de la communauté, recueille, en tout ou en partie, verdeling van de gemeenschap, het deel van de andere           la portion de l'autre époux, en vertu d'une donation ou echtgenoot krachtens een schenking onder de levenden           d'une disposition testamentaire. of een uiterste wilsbeschikking geheel of gedeeltelijk verkrijgt.
 
 ---- historiek ----                                            ---- historique ----
@@ -2915,9 +2919,9 @@ De langstlevende echtgenoot die ingevolge een                  L'époux survivan
 
 - toegevoegd door art. 8 van het decreet van 19.12.2014        - inséré par art. 8 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in                     29.01.2015, Ed. 2 - erratum M.B., 04.03.2015). Texte werking getreden op 01.01.2015 (art. 325)                      est entré en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.7.1.0.5
+###### Art. 2.7.1.0.5
 
-Art. 2.7.1.0.5.
+###### Art. 2.7.1.0.5.
 
 § 1. De goederen waarvan de bevoegde entiteit van de           § 1er. Les biens dont l'entité compétente de Vlaamse administratie het bewijs levert dat de erflater er     l'administration flamande établit que le défunt a disposé kosteloos over beschikte gedurende de vijf jaar vóór zijn      à titre gratuit dans les cinq années précédant son décès, overlijden, worden geacht deel uit te maken van zijn           sont considérés comme faisant partie de sa succession si nalatenschap, tenzij de bevoordeling onderworpen is aan        la libéralité n'a pas été assujettie au l’impôt de donation de schenkbelasting of het registratierecht op de               ou au droit d'enregistrement établi pour les donations schenkingen onder de levenden. De erfgenamen of                entre vifs. Les héritiers ou légataires possèdent un droit legatarissen hebben een verhaalsrecht ten aanzien van de       de recours contre le donataire pour les droits de begiftigde voor de successierechten die op die goederen        succession acquittés à raison desdits biens. voldaan zijn.
 
@@ -2931,9 +2935,9 @@ De termijn van zeven jaar, vermeld in het eerste lid,        Le délai de sept a
 
 ---- historiek ----                                          ---- historique ---- - gewijzigd door art. 31 van het decreet van 20.12.2024      - modifié par l'art. 31 du décret du 20.12.2024 (M.B., (B.S., 30.12.2024). Inwerkingtreding op 01.01.2025 en        30.12.2024). Entrée en vigueur le 01.01.2025 et van toepassing zijn op de kosteloze beschikkingen die        s'applique aux dispositions gratuites datées à partir du dagtekenen vanaf 1 januari 2025                              1er janvier 2025 - toegevoegd door art. 9 van het decreet van 19.12.2014      - inséré par art. 9 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in                   29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.1.0.6
+###### Art. 2.7.1.0.6
 
-Art. 2.7.1.0.6.
+###### Art. 2.7.1.0.6.
 
 § 1. De sommen, renten of waarden die kosteloos aan          § 1er. Les sommes, rentes ou valeurs qu’une personne een persoon kunnen toekomen bij het overlijden van de        peut être appelée à recevoir à titre gratuit au décès du erflater, ingevolge een contract dat een door de erflater    testateur en vertu d’une stipulation faite à son profit of door een derde in het voordeel van die persoon            dans un contrat conclu par le défunt ou par un tiers au gemaakt beding bevat, worden geacht als legaat te zijn       profit de cette personne sont considérées comme verkregen door die persoon.                                  recueillies à titre de legs par cette personne.
 
@@ -2973,9 +2977,9 @@ van toepassing zijn op de kosteloze beschikkingen die         s'applique aux dis
 
 - toegevoegd door art. 10 van het decreet van 19.12.2014 - inséré par art. 10 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.1.0.7
+###### Art. 2.7.1.0.7
 
-Art. 2.7.1.0.7
+###### Art. 2.7.1.0.7
 
 De roerende en onroerende goederen die wat betreft het        Les biens meubles ou immeubles qui ont été acquis à vruchtgebruik door de erflater en wat betreft de blote        titre onéreux par le défunt pour l'usufruit et par un tiers eigendom door een derde onder bezwarende titel zijn           pour la nue-propriété sont considérés, pour la perception verkregen, worden, voor de heffing van de erfbelasting,       de l’impôt de succession, comme se trouvant en pleine geacht in volle eigendom in zijn nalatenschap aanwezig        propriété dans la succession de celui-ci et comme te zijn en als legaat door die derde te zijn verkregen.       recueillis à titre de legs par le tiers. Il en va de même Hetzelfde geldt voor effecten aan toonder of op naam en       pour les titres au porteur ou nominatifs et pour les voor geldbeleggingen die voor het vruchtgebruik               placements d'argent qui ont été immatriculés au nom du ingeschreven zijn op naam van de erflater en voor de          défunt pour l'usufruit et au nom d'un tiers pour la nueblote eigendom op naam van een derde.                         propriété.
 
@@ -2988,9 +2992,9 @@ Het eerste lid is niet van toepassing :                       L'alinéa premier 
 
 - toegevoegd door art. 11 van het decreet van 19.12.2014 - inséré par art. 11 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.1.0.8
+###### Art. 2.7.1.0.8
 
-Art. 2.7.1.0.8.
+###### Art. 2.7.1.0.8.
 
 Als aan de erflater bij een verdeling of bij een met          En cas de partage ou d'acte équipollent à partage dans verdeling gelijkgestelde akte een vruchtgebruik, een          lequel il a été attribué au défunt un usufruit, une rente rente of elk ander recht toebedeeld is dat vervalt            ou tout autre droit devant cesser à sa mort, l'opération ingevolge zijn overlijden, wordt de verrichting voor de       est, pour la perception de l'impôt de succession, heffing van de erfbelasting gelijkgesteld met een legaat      assimilée à un legs au profit des copartageants du in het voordeel van de deelgenoten van de erflater, de        défunt, attributaires de la nue-propriété ou chargés du verkrijgers van de blote eigendom of de personen die          droit viager, dans la mesure où ceux-ci ont obtenu des belast zijn met het levenslange recht, in de mate waarin      biens en propriété au-delà de leur part dans l'indivision. die deelgenoten, verkrijgers of personen boven hun deel in de onverdeeldheid goederen in eigendom hebben verkregen.
 
@@ -3004,9 +3008,9 @@ Het eerste lid is niet van toepassing als :                   L'alinéa premier 
 
 - toegevoegd door art. 12 van het decreet van 19.12.2014 - inséré par art. 12 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.1.0.9
+###### Art. 2.7.1.0.9
 
-Art. 2.7.1.0.9.
+###### Art. 2.7.1.0.9.
 
 Als de roerende of onroerende goederen door de erflater       Les biens meubles ou immeubles qui ont été vendus ou onder bezwarende titel zijn verkocht of afgestaan,            cédés à titre onéreux par le défunt sont considérés, pour worden ze voor de heffing van de erfbelasting geacht          la perception de l’impôt de succession, comme faisant deel uit te maken van zijn nalatenschap en als legaat te      partie de sa succession et comme recueillis à titre de legs zijn verkregen door de verkrijger of door de overnemer        par l'acquéreur ou par le cessionnaire, si le défunt, aux als de erflater zich volgens de overeenkomst ofwel een        termes de la convention, s'est réservé un usufruit ou a vruchtgebruik heeft voorbehouden op de afgestane              stipulé l'abandon à son profit soit de l'usufruit d'un autre goederen of op andere goederen, ofwel de afstand van          bien, soit de tout autre droit viager. om het even welk ander levenslange recht in zijn voordeel heeft bedongen.
 
@@ -3019,9 +3023,9 @@ Het eerste lid is niet van toepassing als :                   L'alinéa premier 
 
 - toegevoegd door art. 13 van het decreet van 19.12.2014 - inséré par art. 13 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.1.0.10
+###### Art. 2.7.1.0.10
 
-Art. 2.7.1.0.10.
+###### Art. 2.7.1.0.10.
 
 De in een testament of andere beschikking die                 Pour la liquidation du droit de succession, est considérée uitwerking heeft bij het overlijden van de beschikker,        comme legs l'obligation imposée à titre gratuit par le door de erflater aan zijn erfgenaam, legataris of             défunt, dans un testament ou autre disposition à cause begiftigde opgelegde verbintenis om aan een met naam          de mort, à son héritier, légataire ou donataire de donner aangeduide derde een kapitaal of een rente te geven die       à un tiers nommément désigné un capital ou une rente in natura in de nalatenschap niet bestaat en in geld of in    n'existant pas en nature dans l'hérédité et payable en vervangbare zaken betaalbaar is, wordt voor de heffing        argent ou en choses fongibles. van het successierecht als legaat beschouwd.
 
@@ -3031,21 +3035,21 @@ De aan een erfgenaam, legataris of begiftigde opgelegde     Ne peut être consid
 
 - toegevoegd door art. 14 van het decreet van 19.12.2014 - inséré par art. 14 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 2 – Belastingplichtigen                                Section 2 – Contribuables
+#### Afdeling 2 – Belastingplichtigen                                Section 2 – Contribuables
 
 ---- historiek ----                                         ---- historique ----
 
 - afdeling 2 toegevoegd door art. 15 van het decreet van    - section 2 inséré par art. 15 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.2.0.1
+###### Art. 2.7.2.0.1
 
-Art. 2.7.2.0.1.
+###### Art. 2.7.2.0.1.
 
 De belastingplichtige is degene die erfgenaam, legataris    Le contribuable est celui qui est héritier, légataire ou of begiftigde is of, in voorkomend geval, de onbeheerde     donataire ou, le cas échéant, la succession vacante. nalatenschap.
 
 ---- historiek ----                                         ---- historique ---- - toegevoegd door art. 13 van het decreet van 08.12.2017 - complété par l'art. 13 du décret du 08.12.2017 (M.B., (B.S., 14.12.2017). De tekst is in werking getreden op   14.12.2017). Texte entre en vigueur le 24.12.2017 24.12.2017 - toegevoegd door art. 16 van het decreet van 19.12.2014 - inséré par art. 16 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 3 – Belastbare grondslag                               Section 3 - Base imposable
+#### Afdeling 3 – Belastbare grondslag                               Section 3 - Base imposable
 
 ---- historiek ----                                         ---- historique ----
 
@@ -3057,9 +3061,9 @@ De belastingplichtige is degene die erfgenaam, legataris    Le contribuable est 
 
 - onderafdeling 1 toegevoegd door art. 18 van het decreet - sous-section 1re inséré par art. 18 du décret du van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De             19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré tekst is in werking getreden op 1 januari 2015 (art. 325)   en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.7.3.1.1
+###### Art. 2.7.3.1.1
 
-Art. 2.7.3.1.1.
+###### Art. 2.7.3.1.1.
 
 Het successierecht wordt gevestigd op de waarde van         Le droit de succession est établi sur la valeur de tout ce alles wat uit de nalatenschap van een rijksinwoner wordt    qui est recueilli dans la succession d’un habitant du verkregen overeenkomstig afdeling 1 van dit hoofdstuk.      royaume conformément à la section 1re du présent chapitre.
 
@@ -3078,9 +3082,9 @@ Het recht van overgang wordt gevestigd op de waarde         Le droit de mutation
 
 - onderafdeling 2 toegevoegd door art. 20 van het decreet - sous-section 2 inséré par art. 20 du décret du van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De             19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré tekst is in werking getreden op 1 januari 2015 (art. 325)   en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.7.3.2.1
+###### Art. 2.7.3.2.1
 
-Art. 2.7.3.2.1.
+###### Art. 2.7.3.2.1.
 Het successierecht wordt vastgesteld op basis van de        Le droit de succession est établi sur la base de la valeur belastbare waarde van alle goederen die toebehoren aan      imposable de tous les biens qui appartiennent au défunt, de erflater, waar ze zich ook bevinden, na aftrek van de    où qu'ils se trouvent, déduction faite des dettes schulden, vermeld in onderafdeling 4, en met behoud         mentionnées à la sous-section 4, et sous réserve de van de toepassing van artikel 2.7.3.2.7 en artikel          l'application de l'article 2.7.3.2.7 et de l'article 2.7.5.0.4.
 2.7.5.0.4.
 
@@ -3088,9 +3092,9 @@ Het successierecht wordt vastgesteld op basis van de        Le droit de successi
 
 - toegevoegd door art. 21 van het decreet van 19.12.2014 - inséré par art. 21 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.2.2
+###### Art. 2.7.3.2.2
 
-Art. 2.7.3.2.2.
+###### Art. 2.7.3.2.2.
 
 Het recht van overgang wordt vastgesteld op basis van       Le droit de mutation est établi sur la base de la valeur de belastbare waarde van alle onroerende goederen die       imposable de tous les biens immobiliers qui, overeenkomstig artikel 5, § 2, 4°, tweede streepje, van     conformément à l'article 5, § 2, 4°, deuxième tiret de la de bijzondere wet van 16 januari 1989 betreffende de        loi spéciale du 16 janvier 1989 relative au financement financiering van de Gemeenschappen en de Gewesten in        des communautés et des régions, sont à localiser dans la het Vlaamse Gewest te lokaliseren zijn, en die aan de       région flamande, et qui appartiennent au défunt, erflater toebehoren, na aftrek van de schulden, vermeld     déduction faite des dettes mentionnées à l'article in artikel 2.7.3.4.1, tweede lid.                           2.7.3.4.1, deuxième alinéa.
 
@@ -3098,9 +3102,9 @@ Het recht van overgang wordt vastgesteld op basis van       Le droit de mutation
 
 - vervangen door art. 6 van het decreet van 17 juli 2015     - modifié par art. 6 du décret du 17 juillet 2015 (M.B., (B.S., 14.08.2015 ). De tekst is in werking getreden op 14   14.08.2015). Texte est entré en vigueur le 14 août 2015 augustus 2015 (art. 41)                                      (art. 41)
 
-## Art. 2.7.3.2.3
+###### Art. 2.7.3.2.3
 
-Art. 2.7.3.2.3.
+###### Art. 2.7.3.2.3.
 
 Als een erfgenaam, legataris of begiftigde het               Si un héritier, légataire ou donataire acquiert l'usufruit vruchtgebruik of de blote eigendom verkrijgt van een         ou la nue-propriété d'un bien dont la pleine propriété goed waarvan de volle eigendom van de nalatenschap           dépend de la succession, ou lorsqu'il reçoit une rente ou afhangt, of als hij een door de erflater gevestigde          pension périodique créée par le défunt, la base periodieke rente of pensioen ontvangt, wordt de              imposable est déterminée conformément aux règles belastbare grondslag bepaald overeenkomstig de regels,       tracées par les articles 2.7.3.3.2 et 2.7.3.3.3. vermeld in artikel 2.7.3.3.2 en artikel 2.7.3.3.3.
 
@@ -3116,9 +3120,9 @@ Als de lijfrente, de levenslange prestatie of het            Si la rente ou pres
 
 - toegevoegd door art. 23 van het decreet van 19.12.2014 - inséré par art. 23 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.2.4
+###### Art. 2.7.3.2.4
 
-Art. 2.7.3.2.4.
+###### Art. 2.7.3.2.4.
 
 Met behoud van de toepassing van artikel 2.7.3.2.1           Sous réserve de l'application de l'article 2.7.3.2.1, il bestaat er voor de heffing van de erfbelasting, alsook van   existe pour la perception de l'impôt de succession, ainsi de belastingverhogingen, tot bewijs van het tegendeel,       que des majorations d'impôt, et jusqu'à preuve du een wettelijk vermoeden van eigendom in de volgende          contraire, une présomption légale de propriété dans les gevallen :                                                   cas suivants :
 
@@ -3138,9 +3142,9 @@ Belgisch Scheepsregister zijn ingeschreven;
 
 - toegevoegd door art. 24 van het decreet van 19.12.2014 inséré par art. 24 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.2.5
+###### Art. 2.7.3.2.5
 
-Art. 2.7.3.2.5.
+###### Art. 2.7.3.2.5.
 Voor de heffing van de erfbelasting, alsook van de           Pour la perception de l'impôt de succession, ainsi que belastingverhoging wegens het gebrek aan aangifte of         des majorations d'impôt pour défaut de déclaration ou het verzuim bepaalde goederen aan te geven, is het           pour l'omission de déclaration de certains biens, bestaan van een roerend of onroerend goed, tot bewijs        l'existence d'un bien mobilier ou immobilier, jusqu'à van het tegendeel, voldoende vastgesteld bij de akten        preuve du contraire, est suffisamment établie par les van eigendom die ten bate van de erflater of op zijn         actes de propriété qui ont été passés en faveur du défunt verzoek zijn verleden.                                       ou à sa demande.
 
 Voor lichamelijke roerende goederen, contant geld en         Pour biens mobiliers corporels, espèces et titres au effecten aan toonder bestaat het wettelijk vermoeden,        porteur la présomption légale dont question au premier vermeld in het eerste lid, alleen op voorwaarde dat de       alinéa n'existe qu'à la condition que les actes n'existent akten niet sinds meer dan vijf jaar vóór het overlijden      pas depuis plus de cinq ans avant le décès. Si tel est bien bestaan. Als dat wel het geval is, kan het bestaan van die   le cas, l'existence de ces actes ne peut être invoquée par akten door de bevoegde entiteit van de Vlaamse               l'entité compétente de l'administration flamande que administratie alleen ingeroepen worden als een element       comme un élément de présomption, tel que figurant à van vermoeden als vermeld in artikel 3.17.0.0.1.             l'article 3.17.0.0.1.
@@ -3153,9 +3157,9 @@ Voor lichamelijke roerende goederen, contant geld en         Pour biens mobilier
 
 - toegevoegd door art. 25 van het decreet van 19.12.2014 - inséré par art. 25 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.2.6
+###### Art. 2.7.3.2.6
 
-Art. 2.7.3.2.6.
+###### Art. 2.7.3.2.6.
 
 Voor de heffing van het successierecht wordt het           Pour la perception du droit de succession, sont volgende, behoudens tegenbewijs, geacht aan de erflater    considérés, sauf preuve contraire, comme appartenant voor een gelijk deel per hoofd toe te behoren :            au défunt pour une part virile :
 
@@ -3174,18 +3178,18 @@ Het volgende wordt, behoudens tegenbewijs, geacht in       Sont considérés com
 
 - toegevoegd door art. 26 van het decreet van 19.12.2014 - inséré par art. 26 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in 29.01.2015, Ed. 2). Texte est entré en vigueur le werking getreden op 1 januari 2015 (art. 325)            01.01.2015 (art. 325)
 
-## Art. 2.7.3.2.7
+###### Art. 2.7.3.2.7
 
-Art. 2.7.3.2.7.
+###### Art. 2.7.3.2.7.
 Voor de inning van het successierecht in rechte             Pour la perception du droit de succession en ligne nederdalende lijn of tussen echtgenoten met                 directe descendante ou entre époux ayant des enfants ou gemeenschappelijke kinderen of afstammelingen               descendants communs, il est fait abstraction des reprises worden de terugnemingen en vergoedingen die                 et des récompenses qui se rattachent soit à la verbonden zijn hetzij aan de gemeenschap die heeft          communauté ayant existé entre le défunt et un conjoint bestaan tussen de erflater en een echtgenoot, met wie de    dont il a, à son décès, des enfants ou descendants en vie, erflater bij het overlijden levende kinderen of             soit à la communauté ayant existé entre les ascendants afstammelingen heeft, hetzij aan de gemeenschap die         du défunt. tussen de verwanten in de opgaande lijn van de erflater heeft bestaan, niet in aanmerking genomen.
 
 ---- historiek ----                                         ---- historique ----
 
 - tweede lid opgeheven door art.5 van het decreet van       - alinéa 2 abrogé par l'art. 5 du décret du 06.07.2018 06.07.2018 (B.S. 20.07.2018 Ed.2). Tekst treedt in          (M.B. 20.07.2018 Ed. 2). Texte entre en vigueur le 01.09.2018 werking op 01.09.2018 - toegevoegd door art. 27 van het decreet van 19.12.2014 - inséré par art. 27 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.2.8
+###### Art. 2.7.3.2.8
 
-Art. 2.7.3.2.8.
+###### Art. 2.7.3.2.8.
 
 § 1. Als de erflater gehuwd was onder een stelsel van       § 1er. Lorsque le défunt était marié sous un régime de gemeenschap van goederen, worden de sommen, renten          communauté, les sommes, rentes ou valeurs of waarden, vermeld in artikel 2.7.1.0.6, die aan de        mentionnées à l'article 2.7.1.0.6, recueillies à titre de echtgenoot als legaat toevallen voor het volledige bedrag   legs par le conjoint pour la totalité, sont imposées ervan, als legaat belast als ze zijn verkregen als          comme legs si elles sont la contrepartie de biens propres tegenwaarde voor de eigen goederen van de erflater. Ze      au défunt. Elles sont imposées à concurrence de la worden slechts voor de helft belast in alle andere          moitié seulement dans les autres cas. Le droit n'est pas gevallen. Het recht is niet verschuldigd als er bewezen     dû s'il est établi que les sommes, rentes ou valeurs sont wordt dat de sommen, renten of waarden verkregen zijn       la contrepartie de biens propres au conjoint survivant. als tegenwaarde voor eigen goederen van de echtgenoot.      La circonstance que la stipulation est réciproque De omstandigheid dat het beding wederkerig is,              n'enlève pas à celle-ci le caractère de libéralité. ontneemt de aard van bevoordeling niet daaraan.
 
@@ -3199,9 +3203,9 @@ De verkrijging wordt vermoed kosteloos te zijn              Le bénéficiaire de
 
 - toegevoegd door art. 28 van het decreet van 19.12.2014 - inséré par art. 28 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le werking getreden op 1 januari 2015 (art. 325)               01.01.2015 (art. 325)
 
-## Art. 2.7.3.2.9
+###### Art. 2.7.3.2.9
 
-Art. 2.7.3.2.9.
+###### Art. 2.7.3.2.9.
 Als er schenkingen onder de levenden als vermeld in           S'il existe des donations entre vifs telles que artikel 3.3.1.0.8, § 1, eerste lid, 12°, bestaan, wordt de    mentionnées à l'article 3.3.1.0.8, § 1er, premier alinéa, basis waarop de schenkbelasting is geheven of zou             12°, la base sur laquelle l’impôt de donation est prélevé moeten worden geheven, gevoegd bij de erfgoederen             ou devrait être prélevé est ajoutée à l'héritage des ayants van de belanghebbenden om de progressieve                     droit afin de déterminer l’impôt de succession erfbelasting die op die erfgoederen van toepassing is, te     progressive qui est d'application sur l'héritage en bepalen.                                                      question.
 
 Het eerste lid is niet van toepassing op :                    L'alinéa premier ne s'applique pas aux :
@@ -3224,9 +3228,9 @@ Het eerste lid is niet van toepassing op :                    L'alinéa premier 
 
 - toegevoegd door art. 29 van het decreet van 19.12.2014 - inséré par art. 29 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2 - erratum M.B., 04.03.2015). Texte werking getreden op 1 januari 2015 (art. 325)                 est entré en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.7.3.2.10
+###### Art. 2.7.3.2.10
 
-Art. 2.7.3.2.10.
+###### Art. 2.7.3.2.10.
 
 Als de verkrijger binnen zes maanden na het overlijden        Il n'est pas tenu compte, pour le calcul de l'impôt de van de erflater sterft, wordt voor de berekening van de       succession, de ce qui est recueilli en usufruit ou à titre erfbelasting op de nalatenschap van die laatste geen          de rente ou pension viagère ou périodique, si le rekening gehouden met hetgeen de verkrijger in                bénéficiaire meurt dans les six mois du décès du défunt. vruchtgebruik of als levenslange of periodieke rente of als pensioen heeft verkregen.
 
@@ -3237,18 +3241,18 @@ Als de verkrijger binnen zes maanden na het overlijden        Il n'est pas tenu 
 
 - toegevoegd door art. 30 van het decreet van 19.12.2014 - inséré par art. 30 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in 29.01.2015, Ed. 2). Texte est entré en vigueur le werking getreden op 1 januari 2015 (art. 325)            01.01.2015 (art. 325)
 
-## Art. 2.7.3.2.11
+###### Art. 2.7.3.2.11
 
-Art. 2.7.3.2.11.
+###### Art. 2.7.3.2.11.
 Als in de gevallen, vermeld in artikel 2.7.1.0.7, 2.7.1.0.8    Lorsque, dans les cas prévus aux articles 2.7.1.0.7, en 2.7.1.0.9, niet bewezen wordt dat de verrichting geen       2.7.1.0.8 et 2.7.1.0.9, il n'est pas démontré que bedekte bevoordeling is, maar kan worden bewezen dat           l'opération ne déguise pas une libéralité, mais qu'il est de erflater werkelijk het levenslange recht genoten heeft,     établi que le défunt a réellement joui du droit viager, il wordt op de belastbare grondslag op de dag van het             y a lieu d'opérer sur la base imposable, au jour de openvallen van de nalatenschap een evenredige                  l'ouverture de la succession, une réduction vermindering toegepast, conform artikel 2.7.3.3.4 en           proportionnelle conformément aux articles 2.7.3.3.4 et artikel 2.7.3.3.5. Daarbij wordt rekening gehouden met         2.7.3.3.5, et ce en tenant compte de la valeur dudit droit de waarde van het bedoelde levenslange recht dat wordt         viager capitalisée au taux de 4 % et d'après le nombre gekapitaliseerd tegen 4%, volgens het werkelijke aantal        effectif des années entières pendant lesquelles le défunt volle jaren dat de erflater het recht genoten heeft. Als het   en a joui. S'il s'agit d'un usufruit ou autre droit réel gaat om een vruchtgebruik of een ander zakelijk                viager, la valeur du revenu annuel à prendre en levenslang recht, wordt de waarde van het in aanmerking        considération doit être fixée forfaitairement à 4 % de la te nemen jaarlijkse inkomen forfaitair vastgesteld op 4%       valeur de la pleine propriété du bien au jour du contrat. van de waarde van de volle eigendom van het goed op de dag van het contract.
 
 ---- historiek ----                                            ---- historique ----
 
 - toegevoegd door art. 31 van het decreet van 19.12.2014 - inséré par art. 31 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.2.12
+###### Art. 2.7.3.2.12
 
-Art. 2.7.3.2.12.
+###### Art. 2.7.3.2.12.
 
 § 1. Op hetgeen een persoon met een handicap of een            § 1er. Ce qui est recueilli par une personne handicapée gehandicapt kind verkrijgt, wordt een abattement               ou par un enfant handicapé fait l'objet d'un abattement à toegepast voor de som die verkregen is door toepassing         concurrence du montant obtenu par l'application de la van de volgende formule :                                      formule suivante :
 
@@ -3273,9 +3277,9 @@ Als een persoon met een handicap of een gehandicapt            Au cas où une pe
 
 - toegevoegd door art. 32 van het decreet van 19.12.2014 - inséré par art. 32 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.2.13
+###### Art. 2.7.3.2.13
 
-Art. 2.7.3.2.13.
+###### Art. 2.7.3.2.13.
 
 In geval van legaat van een geldsom of van legaat van        En cas de legs d'une somme d'argent ou de legs d'une een periodieke rente of pensioen wordt het bedrag van        rente ou pension périodique, le montant de la somme de gelegateerde geldsom of het kapitaal waarop het           léguée ou du capital légué, sur lequel le droit de successierecht naar rato van de bedoelde rente of het        succession est perçu au prorata de la rente ou de la pensioen wordt geheven, voor de berekening van de            pension en question, est déduit, pour le calcul des droits, rechten afgetrokken van de nettoverkrijging van de           de l'acquisition nette de l'héritier, du légataire ou du erfgenaam, legataris of begiftigde die het legaat van de     donataire qui doit acquitter le legs de la somme d'argent, geldsom, de rente of het pensioen moet uitbetalen.           de la rente ou de la pension.
 
@@ -3283,9 +3287,9 @@ In geval van legaat van een geldsom of van legaat van        En cas de legs d'un
 
 - toegevoegd door art. 33 van het decreet van 19.12.2014 - inséré par art. 33 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.2.14
+###### Art. 2.7.3.2.14
 
-Art. 2.7.3.2.14.
+###### Art. 2.7.3.2.14.
 
 Voor de inning van het successierecht worden andere          Pour le recouvrement du droit de succession, les schuldvorderingen dan de schuldvorderingen, vermeld          créances autres que les créances visées à l’article in artikel 2.7.3.2.7, die voortkomen uit de toepassing van   2.7.3.2.7, découlant de l’application d’une stipulation een beding in een huwelijksovereenkomst dat door de          dans un contrat de mariage conclu entre le défunt et son erflater en zijn partner is overeengekomen en dat            partenaire et se rapportant à la liquidation de leur régime betrekking heeft op de vereffening van hun                   matrimonial, ne sont pas prises en considération. huwelijksvermogensstelsel, niet in aanmerking genomen.
 
@@ -3293,9 +3297,9 @@ Voor de inning van het successierecht worden andere          Pour le recouvremen
 
 - ingevoegd door art. 14 van het decreet van                 - inséré par l'art. 14 du décret du 08.12.2017 (M.B.: 14.12.2017). Texte entre en vigueur le 24.12.2017 08.12.2017 (B.S., 14.12.2017). De tekst is in werking getreden op 24.12.2017
 
-## Art. 2.7.3.2.15
+###### Art. 2.7.3.2.15
 
-Art. 2.7.3.2.15.
+###### Art. 2.7.3.2.15.
 Als er zich onder de erfgenamen, legatarissen of             S'il y a, parmi les héritiers, légataires ou bénéficiaires, begiftigden een of meer legatarissen bevinden van wie        un ou plusieurs légataires dont le legs relève de het legaat onder de toepassing van artikel 2.7.4.2.1 valt,   l'application de l'article 2.7.4.2.1, pour le calcul des wordt om de rechten te berekenen:                            droits :
 1° voor de legatarissen, vermeld in artikel 2.7.4.2.1, het   1° pour les légataires visés à l'article 2.7.4.2.1, le eventuele bedrag om de erfbelasting van andere               montant éventuel pour payer les droits de succession des erfgenamen, legatarissen of begiftigden te voldoen,          autres héritiers, légataires ou bénéficiaires, divisé par (1 gedeeld door (1 - het marginale tarief dat is toegepast om   - le taux marginal appliqué pour calculer ce montant) et dat bedrag te berekenen) en begrensd tot het legaat zelf,    limité au legs lui-même, n'est pas pris en considération niet in aanmerking genomen voor de belastbare                pour la base imposable ; grondslag;
 2° voor de andere erfgenamen, legatarissen of                2° pour les autres héritiers, légataires ou bénéficiaires, begiftigden, vermeld in punt 1°, het eventuele bedrag,       visés au point 1°, le montant éventuel visé au point 1° vermeld in punt 1°, in aanmerking genomen voor de            est pris en considération pour la base imposable. belastbare grondslag.
@@ -3307,9 +3311,9 @@ Als er zich onder de erfgenamen, legatarissen of             S'il y a, parmi les
 
 - onderafdeling 3 toegevoegd door art. 34 van het decreet - sous-section 3 inséré par art. 34 du décret du van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De             19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré tekst is in werking getreden op 1 januari 2015 (art. 325)     en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.7.3.3.1
+###### Art. 2.7.3.3.1
 
-Art. 2.7.3.3.1.
+###### Art. 2.7.3.3.1.
 
 De belastbare waarde van de goederen die het actief van       La valeur imposable des biens composant l'actif de la de nalatenschap van een rijksinwoner uitmaken en van          succession d'un habitant du Royaume et des immeubles de onroerende goederen die onderworpen zijn aan het           assujettis au droit de mutation par décès est la valeur recht van overgang, is de door de aangevers te schatten       vénale au jour du décès, à estimer par les déclarants. verkoopwaarde op de dag van het overlijden.
 
@@ -3319,9 +3323,9 @@ In afwijking van het eerste lid wordt voor de waardering      Par dérogation au
 
 - toegevoegd door art. 35 van het decreet van 19.12.2014 - inséré par art. 35 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.3.2
+###### Art. 2.7.3.3.2
 
-Art. 2.7.3.3.2.
+###### Art. 2.7.3.3.2.
 
 In afwijking van artikel 2.7.3.3.1 wordt de belastbare        Par dérogation à l'article 2.7.3.3.1, la valeur imposable waarde van de goederen die tot de nalatenschap behoren,       des biens qui appartiennent à la succession est établie als volgt vastgesteld :                                       comme suit :
 
@@ -3368,9 +3372,9 @@ Voor de toepassing van het eerste lid, 3°, kunnen de       Pour l'application d
 
 - toegevoegd door art. 36 van het decreet van 19.12.2014 - inséré par art. 36 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.3.3
+###### Art. 2.7.3.3.3
 
-Art. 2.7.3.3.3.
+###### Art. 2.7.3.3.3.
 
 Het recht van gebruik en het recht van bewoning, alsook    Sont assimilés à l'usufruit pour l'application des articles het recht op vruchten, inkomsten of opbrengsten worden     2.7.3.3.2 et 2.7.3.2.3, les droits d'usage et d'habitation voor de toepassing van artikel 2.7.3.3.2 en van artikel    ainsi que le droit aux fruits, revenus ou produits.
 2.7.3.2.3 met vruchtgebruik gelijkgesteld.
@@ -3381,9 +3385,9 @@ Als de lijfrente, de levenslange prestatie of het          Si la rente ou presta
 
 - toegevoegd door art. 37 van het decreet van 19.12.2014 - inséré par art. 37 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.3.4
+###### Art. 2.7.3.3.4
 
-Art. 2.7.3.3.4.
+###### Art. 2.7.3.3.4.
 
 De belastbare waarde (X) van de goederen die het           La valeur imposable (X) des biens qui font l'objet de voorwerp uitmaken van de verrichting, vermeld in           l'opération, dont question à l'article 2.7.1.0.8, est artikel 2.7.1.0.8, wordt als volgt bepaald :               déterminée comme suit :
 
@@ -3401,9 +3405,9 @@ De parameters, vermeld in het eerste lid, worden als      Les paramètres, visé
 
 - toegevoegd door art. 38 van het decreet van 19.12.2014 - inséré par art. 38 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.3.5
+###### Art. 2.7.3.3.5
 
-Art. 2.7.3.3.5.
+###### Art. 2.7.3.3.5.
 
 De belastbare waarde (X) van de goederen die het          La valeur imposable (X) des biens qui font l'objet d'une voorwerp uitmaken van een verkoop of afstand als          vente à distance telle que visée à l'article 2.7.1.0.9, est vermeld in artikel 2.7.1.0.9, wordt, als de erflater      déterminée comme suit, si le défunt a stipulé en outre daarenboven de overlating van een goed in eigendom in     l'abandon à son profit d'un bien en propriété : zijn voordeel heeft bedongen, als volgt bepaald : axb                                                       axb 𝑥=                                                        𝑥= c                                                         c
 
@@ -3419,9 +3423,9 @@ De parameters, vermeld in het eerste lid, worden als      Les paramètres, visé
 
 - toegevoegd door art. 39 van het decreet van 19.12.2014 - inséré par art. 39 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.3.6
+###### Art. 2.7.3.3.6
 
-Art. 2.7.3.3.6.
+###### Art. 2.7.3.3.6.
 
 De zekere schuldvorderingen waarvan het bedrag op het     Les créances certaines dont le montant est indéterminé ogenblik van het overlijden onbepaald is, worden in de    au moment du décès sont reprises dans la déclaration aangifte voor de waarde ervan opgenomen, behoudens        pour leur valeur, sauf régularisation lors de la détermination définitive de leur montant.
 
@@ -3431,9 +3435,9 @@ regularisatie bij de definitieve bepaling van het bedrag ervan.
 
 - toegevoegd door art. 40 van het decreet van 19.12.2014 - inséré par art. 40 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.3.7
+###### Art. 2.7.3.3.7
 
-Art. 2.7.3.3.7.
+###### Art. 2.7.3.3.7.
 
 In de gevallen, vermeld in artikel 3.3.1.0.6, eerste lid,    Dans les cas visés à l'article 3.3.1.0.6, premier alinéa, il moet de waarde van de goederen op de dag van het             y a lieu de déclarer comme valeur imposable la valeur vonnis, van de dading of van de gebeurtenis die het          des biens au jour du jugement, de la transaction ou de uitgangspunt vormt van de termijn voor de indiening van      l'événement, qui constitue le point de départ du délai, de aangifte, vermeld in artikel 3.3.1.0.6, vierde lid, als   fixé par l'article 3.3.1.0.6, alinéa 4, pour le dépôt de la belastbare waarde worden aangegeven.                         déclaration.
 
@@ -3447,9 +3451,9 @@ In de gevallen, vermeld in artikel 3.3.1.0.6, eerste lid,    Dans les cas visés
 
 - onderafdeling 4 toegevoegd door art. 42 van het decreet - sous-section 4 inséré par art. 42 du décret du van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De             19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré tekst is in werking getreden op 1 januari 2015 (art. 325)    en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.7.3.4.1
+###### Art. 2.7.3.4.1
 
-Art. 2.7.3.4.1.
+###### Art. 2.7.3.4.1.
 
 Als passief van de nalatenschap van een rijksinwoner         Le passif admissible dans la succession d'un habitant du wordt alleen het volgende aanvaard :                         royaume se borne :
 
@@ -3474,9 +3478,9 @@ Het bedrag van de regularisatieheffing die is geheven en      Le montant du pré
 
 - toegevoegd door art. 43 van het decreet van 19.12.2014 - inséré par art. 43 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.4.2
+###### Art. 2.7.3.4.2
 
-Art. 2.7.3.4.2.
+###### Art. 2.7.3.4.2.
 
 De schulden van de erflater die op de dag van het             Les dettes du testateur existantes au jour du décès sont overlijden bestaan, worden forfaitair bepaald op 1500         fixées forfaitairement à 1.500 euros. euro.
 
@@ -3502,9 +3506,9 @@ De aangevers kunnen, in afwijking van het eerste,            Les déclarants peu
 
 Bericht in verband met de automatische indexering            Avis relatif à l’indexation automatique en matière inzake erfbelasting - Aanslagjaar 2016                       d'impôt de succession - Exercice d'imposition 2016 (Le texte n'existe qu'en néerlandais)
 
-## Art. 2.7.3.4.3
+###### Art. 2.7.3.4.3
 
-Art. 2.7.3.4.3.
+###### Art. 2.7.3.4.3.
 
 De schulden en schuldbekentenissen, vermeld in artikel       Sont exclues du passif de la succession les dettes et 2.7.1.0.3, worden niet aanvaard als passief van de           reconnaissances de dette mentionnées à l'article nalatenschap.                                                2.7.1.0.3.
 
@@ -3512,9 +3516,9 @@ De schulden en schuldbekentenissen, vermeld in artikel       Sont exclues du pas
 
 - toegevoegd door art. 45 van het decreet van 19.12.2014 - inséré par art. 45 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.4.4
+###### Art. 2.7.3.4.4
 
-Art. 2.7.3.4.4.
+###### Art. 2.7.3.4.4.
 
 De schulden die aangegaan zijn door de erflater in het       Ne sont pas admises les dettes contractées par le défunt voordeel van een van zijn erfgenamen, legatarissen of        au profit d'un de ses héritiers, légataires ou donataires begiftigden of van tussenpersonen, worden niet               ou de personnes interposées. aanvaard als passief van de nalatenschap.
 
@@ -3545,9 +3549,9 @@ De schulden, vermeld in het eerste lid, worden wel           Toutefois, les dett
 
 - onderafdeling 5 toegevoegd door art. 47 van het decreet - sous-section 5 inséré par art. 47 du décret du van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De             19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré tekst is in werking getreden op 1 januari 2015 (art. 325)    en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.7.3.5.1
+###### Art. 2.7.3.5.1
 
-Art. 2.7.3.5.1.
+###### Art. 2.7.3.5.1.
 
 De nettoverkrijging wordt bepaald door het aandeel dat       L'acquisition nette est déterminée par la part que de erfgenaam, legataris of begiftigde in de belastbare       l'héritier, le légataire ou le donataire reçoit dans la valeur waarde van de goederen verkrijgt, te verminderen met         imposable des biens, déduction faite du passif qui doit het passief dat op die goederen moet worden                  être imputé sur les biens en question suivant les règles aangerekend, volgens de regels, vermeld in artikel           mentionnées à l'article 2.7.3.5.2.
 2.7.3.5.2.
@@ -3556,9 +3560,9 @@ De nettoverkrijging wordt bepaald door het aandeel dat       L'acquisition nette
 
 - toegevoegd door art. 48 van het decreet van 19.12.2014 - inséré par art. 48 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.3.5.2
+###### Art. 2.7.3.5.2
 
-Art. 2.7.3.5.2.
+###### Art. 2.7.3.5.2.
 
 Voor de toepassing van artikel 2.7.4.1.1 worden niet-        Pour l'application de l'article 2.7.4.1.1, les dettes non specifieke schulden en begrafeniskosten eerst                spécifiques et les frais funéraires sont imputés aangerekend op de goederen, vermeld in artikel               prioritairement sur les biens, visés à l'article 2.7.4.2.2, 2.7.4.2.2, vervolgens op de roerende goederen en ten         ensuite sur les biens meubles et finalement sur les biens slotte op de onroerende goederen.                            immeubles.
 
@@ -3574,7 +3578,7 @@ Als de langstlevende partner een deel verkrijgt in de        Si le partenaire su
 
 - vervangen door art. 8 van het decreet van 17 juli 2015     - remplacé par art. 8 du décret du 17 juillet 2015 (M.B., (B.S., 14.08.2015 ). De tekst is in werking getreden op 14   14.08.2015). Texte est entré en vigueur le 14 août 2015 augustus 2015 (art. 41)                                      (art. 41)
 
-##### Afdeling 4 – Tarieven                                         Section 4 – Tarifs
+#### Afdeling 4 – Tarieven                                         Section 4 – Tarifs
 
 ---- historiek ----                                          ---- historique ----
 
@@ -3586,9 +3590,9 @@ Als de langstlevende partner een deel verkrijgt in de        Si le partenaire su
 
 - onderafdeling 1 toegevoegd door art. 51 van het decreet - sous-section 1 inséré par art. 51 du décret du van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De             19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré tekst is in werking getreden op 1 januari 2015 (art. 325)    en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.7.4.1.1
+###### Art. 2.7.4.1.1
 
-Art. 2.7.4.1.1.
+###### Art. 2.7.4.1.1.
 
 § 1. De erfbelasting wordt berekend volgens het tarief,      § 1er. L'impôt de succession est calculé selon le tarif vermeld in de onderstaande tabellen :                        mentionné dans les tableaux ci-dessous :
 
@@ -3616,9 +3620,9 @@ A. Voor alle anderen wordt dit tarief toegepast op het       Pour tous les autre
 
 - toegevoegd door art. 52 van het decreet van 19.12.2014 - inséré par art. 52 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.4.1.2
+###### Art. 2.7.4.1.2
 
-Art. 2.7.4.1.2.
+###### Art. 2.7.4.1.2.
 
 Als er onzekerheid bestaat over de devolutie van de          Lorsqu'il y a incertitude au sujet de la dévolution de la nalatenschap of de graad van bloedverwantschap van           succession ou du degré de parenté d'un héritier, légataire een erfgenaam, legataris of begiftigde, wordt de hoogste     ou donataire, il est perçu l’impôt de succession le plus erfbelasting geheven.                                        élevé.
 
@@ -3626,9 +3630,9 @@ Als er onzekerheid bestaat over de devolutie van de          Lorsqu'il y a incer
 
 - toegevoegd door art. 53 van het decreet van 19.12.2014 - inséré par art. 53 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.4.1.3
+###### Art. 2.7.4.1.3
 
-Art. 2.7.4.1.3.
+###### Art. 2.7.4.1.3.
 
 Als een persoon in verschillende hoedanigheden tot de        Si une personne vient en plusieurs qualités à la nalatenschap van de erflater komt, wordt de erfbelasting     succession du testateur, l'impôt de succession sur tout ce op alles wat hij verkrijgt, berekend volgens het voor die    qu'il obtient est calculé au tarif le plus avantageux pour persoon voordeligste tarief, vermeld in artikel 2.7.4.1.1.   la personne en question, tarif mentionné à l'article 2.7.4.1.1.
 
@@ -3636,9 +3640,9 @@ Als een persoon in verschillende hoedanigheden tot de        Si une personne vie
 
 - toegevoegd door art. 54 van het decreet van 19.12.2014 - inséré par art. 54 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.4.1.4
+###### Art. 2.7.4.1.4
 
-Art. 2.7.4.1.4.
+###### Art. 2.7.4.1.4.
 
 Als een met fideï-commis bezwaard goed op de                 Lorsqu'un bien grevé de fidéicommis passe au substitué, verwachter overgaat, alsook in geval van aanwas of           ainsi qu'en cas d'accroissement ou de réversion de terugval van eigendom, vruchtgebruik of van elk              propriété, d'usufruit ou de tout autre droit temporaire ou tijdelijk of levenslang recht, is de erfbelasting bij        viager, l'impôt de succession est dû suivant le degré de overlijden verschuldigd volgens de graad van                 parenté entre le défunt et le substitué ou autre verwantschap tussen de erflater en de verwachter of          bénéficiaire. andere verkrijger.
 
@@ -3650,9 +3654,9 @@ substitutie, de aanwas of de terugval binnen een jaar na      ou la réversion n
 
 - toegevoegd door art. 55 van het decreet van 19.12.2014 - inséré par art. 55 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.4.1.5
+###### Art. 2.7.4.1.5
 
-Art. 2.7.4.1.5.
+###### Art. 2.7.4.1.5.
 
 Het toe te passen tarief is het tarief dat van kracht is op   Le tarif à appliquer est le tarif qui est en vigueur au jour de dag van het overlijden.                                    du décès.
 
@@ -3666,9 +3670,9 @@ Het toe te passen tarief is het tarief dat van kracht is op   Le tarif à appliq
 
 - onderafdeling 2 toegevoegd door art. 57 van het decreet - sous-section 2 inséré par art. 57 du décret du van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De             19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré tekst is in werking getreden op 1 januari 2015 (art. 325)     en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.7.4.2.1
+###### Art. 2.7.4.2.1
 
-Art. 2.7.4.2.1.
+###### Art. 2.7.4.2.1.
 
 In afwijking van artikel 2.7.4.1.1 bedraagt het tarief van    Par dérogation à l'article 2.7.4.1.1, le tarif de l'impôt de de erfbelasting 0 % voor de legaten aan :                     succession est réduit à 0 % pour les legs faits :
 
@@ -3709,9 +3713,9 @@ Bekrachtigd door art. 224, 2° van het decreet van           Confirmé par l’a
 20.09.2021.
 - toegevoegd door art. 58 van het decreet van 19.12.2014 - inséré par art. 58 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.4.2.2
+###### Art. 2.7.4.2.2
 
-Art. 2.7.4.2.2.
+###### Art. 2.7.4.2.2.
 
 § 1. In afwijking van artikel 2.7.4.1.1 wordt het tarief     § 1er. Par dérogation à l'article 2.7.4.1.1, le tarif de van de erfbelasting verlaagd tot 3% voor een verkrijging     l'impôt de succession est réduit à 3 % pour une in rechte lijn en tussen partners en tot 7% voor een         acquisition en ligne directe et entre partenaires et à 7 % verkrijging tussen andere personen voor :                    pour une acquisition entres d'autres personnes pour :
 
@@ -3765,9 +3769,9 @@ d) de kinderen van broers en zussen van de erflater of      d) les enfants de fr
 
 - §2, punt 4° vervangen door art. 9 van het decreet van      - §2, point 4° est remplacé par art. 9 du décret du 17 17 juli 2015 (B.S., 14.08.2015 ). De tekst is in werking     juillet 2015 (M.B., 14.08.2015). Texte est entré en getreden op 14 augustus 2015 (art. 41)                       vigueur le 14 août 2015 (art. 41)
 
-## Art. 2.7.4.2.3
+###### Art. 2.7.4.2.3
 
-Art. 2.7.4.2.3.
+###### Art. 2.7.4.2.3.
 
 § 1. Het verlaagde tarief, vermeld in artikel 2.7.4.2.2, §   § 1er. Le tarif réduit mentionné à l'article 2.7.4.2.2, § 1, eerste lid, 1°, wordt alleen behouden als de volgende     1er, premier alinéa, 1°, n'est applicable que si les voorwaarden cumulatief zijn vervuld :                        conditions suivantes sont remplies de manière cumulative :
 
@@ -3799,9 +3803,9 @@ b)      als     de    familiale  vennootschap      een     b) si la société fa
 - gewijzigd door art. 10 van het decreet van 21.12.2018    - modifié par l'art. 10 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Inwerkingtreding op 01.05.2019 (art.    28.12.2018). Entrée en vigueur le 01.05.2019 (art. 3 de 3 van het besluit van 05.04.2019 - B.S. l'arrêté du 05.04.2019 - M.B. 07.05.2019) 07.05.2019) - toegevoegd door art. 60 van het decreet van 19.12.2014 - inséré par art. 60 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.4.2.4
+###### Art. 2.7.4.2.4
 
-Art. 2.7.4.2.4.
+###### Art. 2.7.4.2.4.
 
 § 1. Na verloop van een termijn van drie jaar vanaf de     § 1er. Après l'expiration d'un délai de 3 ans à compter datum van het overlijden van de erflater controleren de    de la date du décès du testateur, les fonctionnaires bevoegde personeelsleden of de voorwaarden, gesteld        compétents vérifient si les conditions, posées pour le voor het behoud van het verlaagde tarief, vervuld zijn.    maintien du tarif réduit, ont été remplies.
 
@@ -3820,9 +3824,9 @@ Bij niet-vervulling van de voorwaarde, vermeld in             En cas de non-resp
 
 - toegevoegd door art. 61 van het decreet van 19.12.2014 - inséré par art. 61 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.4.2.5
+###### Art. 2.7.4.2.5
 
-Art. 2.7.4.2.5.
+###### Art. 2.7.4.2.5.
 
 § 1. In afwijking van artikel 2.7.4.1.1, § 1, wordt voor de    § 1er. Par dérogation à l'article 2.7.4.1.1, § 1er, le taux verkrijgingen, vermeld in tabel II van artikel 2.7.4.1.1, §    des droits de succession est réduit pour les acquisitions 1, het tarief van de erfbelasting verlaagd:                    visées au tableau II de l'article 2.7.4.1.1, § 1er :
 1° tot 3% voor het gedeelte van de nettoverkrijging dat        1° à 3 % pour la partie de l'acquisition nette inférieure kleiner is dan of gelijk is aan 50.000 euro;                   ou égale à 50 000 € ;
@@ -3848,24 +3852,24 @@ Als het totaal van de nettoverkrijgingen, vermeld in het       Si le total des a
 alle nalatenschappen die openvallen vanaf 1 januari
 2026.
 
-## Art. 2.7.4.2.6
+###### Art. 2.7.4.2.6
 
-Art. 2.7.4.2.6.
+###### Art. 2.7.4.2.6.
 Voor de toepassing van artikel 2.7.4.2.2 en van artikel      Aux fins de l'application de l'article 2.7.4.2.2 et de 2.7.4.2.3, § 1, 2°, moet de aanwending of de bestemming      l'article 2.7.4.2.3, § 1er, 2°, l'affectation ou la destination van een onroerend goed worden nagegaan per kadastraal        d'un bien immobilier doit être déterminée par parcelle perceel of per gedeelte van een kadastraal perceel als dat   cadastrale ou par partie de parcelle cadastrale si cette gedeelte ofwel een afzonderlijke huisvesting is, ofwel       partie est soit un logement séparé, soit un département een afdeling van de productie of van de werkzaamheden        de production ou d'activités qui, en tout ou en partie, is die, of een onderdeel daarvan dat, afzonderlijk kan       peut fonctionner séparément, soit une unité qui peut être werken, ofwel een eenheid is die van de andere goederen      séparée des autres biens ou parties qui constituent la of delen die het perceel vormen, kan worden                  parcelle. afgezonderd.
 ---- historiek ----                                          ---- historique ----
 
 - ingevoegd door art. 7 van het decreet van 19.12.2025       - inséré par l’art. 7 du décret du 19.12.2025 (M.B.
 (B.S. 30.12.2025). Inwerkingtreding: 01.01.2026              30.12.2025). En vigueur le 01.01.2026
 
-##### Afdeling 5 – Verminderingen                                     Section 5 – Réductions
+#### Afdeling 5 – Verminderingen                                     Section 5 – Réductions
 
 ---- historiek ----                                          ---- historique ----
 
 - afdeling 5 toegevoegd door art. 62 van het decreet van     - section 5 inséré par art. 62 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.5.0.1
+###### Art. 2.7.5.0.1
 
-Art. 2.7.5.0.1.
+###### Art. 2.7.5.0.1.
 
 § 1. De erfbelasting, verschuldigd uit hoofde van een       § 1er. L’impôt de succession dus du chef d'une obtention verkrijging in de rechte lijn of tussen partners wordt      en ligne directe entre partenaires sont réduits de 500 verminderd met 500 euro, vermenigvuldigd met [1 -           euros multipliés par [1-(obtention nette/50.000)], si (nettoverkrijging / 50.000)], als de nettoverkrijging van   l'obtention nette cumulée des biens mobiliers et roerende en onroerende goederen samen niet meer             immobiliers n'excède pas 50.000 EUR. bedraagt dan 50.000 euro.
 
@@ -3890,9 +3894,9 @@ Voor de bepaling van de nettoverkrijging, vermeld in het    Pour la déterminati
 
 - toegevoegd door art. 63 van het decreet van 19.12.2014 - inséré par art. 63 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2 - erratum M.B., 04.03.2015). Texte werking getreden op 1 januari 2015 (art. 325)               est entré en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.7.5.0.2
+###### Art. 2.7.5.0.2
 
-Art. 2.7.5.0.2.
+###### Art. 2.7.5.0.2.
 § 1. De door een kind van de erflater verschuldigde           § 1er. L'impôt de succession dû par un enfant du erfbelasting wordt verminderd met 75 euro voor elk vol        testateur est réduit de 75 € pour chaque année entière jaar dat nog moet verlopen tot het kind de leeftijd van       restant à courir avant que l'enfant atteigne l'âge de 21 eenentwintig jaar bereikt.                                    ans.
 
 De door de langstlevende partner verschuldigde                L'impôt de succession dû par le partenaire survivant est erfbelasting wordt verminderd met de helft van de             réduit de la moitié des réductions dont bénéficient les verminderingen die de gemeenschappelijke kinderen             enfants communs conformément au premier alinéa. overeenkomstig het eerste lid genieten.
@@ -3905,9 +3909,9 @@ De gemeenschappelijke kinderen, vermeld in het tweede         Les enfants commun
 
 - toegevoegd door art. 64 van het decreet van 19.12.2014 - inséré par art. 64 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.5.0.3
+###### Art. 2.7.5.0.3
 
-Art. 2.7.5.0.3.
+###### Art. 2.7.5.0.3.
 
 Als de goederen die belast zijn met de erfbelasting,          Si les biens qui font l'objet de l'impôt de succession, binnen een jaar na het overlijden van de erflater het         dans l'année qui suit le décès du testateur, font l'objet voorwerp uitmaken van een of meer andere                      d'une ou de plusieurs autres mutations par décès, l'impôt overdrachten bij overlijden, wordt de wegens die              de succession dû en raison de ces mutations est réduit overdrachten verschuldigde erfbelasting met de helft          de moitié. La réduction ne peut jamais, pour chacune de verminderd. De vermindering mag voor elk van die              ces mutations, être supérieure à l'impôt de succession overdrachten nooit hoger zijn dan de erfbelasting,            perçu sur la mutation qui précède immédiatement. geheven op de overdracht die er onmiddellijk aan voorafgaat.
 
@@ -3917,9 +3921,9 @@ Als voor dezelfde nalatenschap zowel de vermindering,         S'il est possible 
 
 - toegevoegd door art. 65 van het decreet van 19.12.2014 - inséré par art. 65 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.5.0.4
+###### Art. 2.7.5.0.4
 
-Art. 2.7.5.0.4.
+###### Art. 2.7.5.0.4.
 
 Als het actief van de nalatenschap van een rijksinwoner       Si l'actif de la succession d'un habitant du royaume buitenlandse goederen bevat die in het buitenland             contient des biens étrangers qui, à l'étranger, donnent aanleiding geven tot het heffen van een erfbelasting,         lieu à la perception d'un impôt de succession, le wordt het verschuldigde successierecht, in                    droit de
 
@@ -3936,9 +3940,9 @@ Als voor dezelfde nalatenschap zowel de vermindering,        S'il est possible d
 
 - toegevoegd door art. 66 van het decreet van 19.12.2014 - inséré par art. 66 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.5.0.5
+###### Art. 2.7.5.0.5
 
-Art. 2.7.5.0.5.
+###### Art. 2.7.5.0.5.
 
 Het verkooprecht en het verdeelrecht dat geheven wordt       Le droit de vente et le droit de partage qui sont perçus bij de registratie van de akte van verkoop of van afstand,   lors de l'enregistrement de l'acte de vente ou de cession en, in voorkomend geval, het overschrijvingsrecht, of        et, le cas échéant, le droit de transcription, ou un impôt een soortgelijke belasting die geheven wordt in een staat    équivalent qui est perçu dans un Etat de l'Espace van de Europese Economische Ruimte, worden                   économique européen, sont déduits de l'impôt de afgetrokken van de erfbelasting als de voormelde             succession dans la mesure où ces derniers droits sont belastingen opeisbaar zijn krachtens artikel 2.7.1.0.9 en    exigibles en vertu de l'article 2.7.1.0.9 et de l'article artikel 2.7.3.3.5, eventueel gecombineerd met artikel        2.7.3.3.5, combiné éventuellement avec l'article 2.7.3.2.11.                                                  2.7.3.2.11.
 
@@ -3946,9 +3950,9 @@ Het verkooprecht en het verdeelrecht dat geheven wordt       Le droit de vente e
 
 - toegevoegd door art. 67 van het decreet van 19.12.2014 - inséré par art. 67 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.5.0.6
+###### Art. 2.7.5.0.6
 
-Art. 2.7.5.0.6.
+###### Art. 2.7.5.0.6.
 
 De erfbelasting, verschuldigd door natuurlijke personen      Les droits de succession dus par des personnes van wie de verkrijging onderworpen is aan het tarief,        physiques dont l'acquisition est soumise au tarif visé au vermeld in tabel II van artikel 2.7.4.1.1, en die voldoen    tableau II de l'article 2.7.4.1.1 et qui remplissent les aan de hierna gestelde voorwaarden, wordt verminderd         conditions énoncées ci-dessous, sont diminués d'un met een bedrag dat verkregen wordt door toepassing van       montant obtenu en appliquant la formule suivante : X = de volgende formule: X = a x (b - c).                        a x (b - c).
 De parameters, vermeld in het eerste lid, worden             Les paramètres, visés à l'alinéa 1er, sont définis comme gedefinieerd als volgt:                                      suit :
@@ -3974,15 +3978,15 @@ De vermindering, vermeld in het eerste lid, wordt niet       La réduction visé
 
 01.07.2021 en is van toepassing op nalatenschappen die          s'applique aux successions qui se sont ouvertes à partir opengevallen zijn vanaf 01.07.2021                              du 01.07.2021 - Ingevoegd door art. 4 van het decreet van 19.03.2021          - Inséré par l’art. 4 du décret du 19.03.2021 (M.B., (B.S., 07.04.2021). Inwerkingtreding: 01.07.2021. Van           07.04.2021). En vigueur le 01.07.2021. S’applique aux toepassing op nalatenschappen die opengevallen zijn             successions qui se sont ouvertes à partir du 1er juillet vanaf 1 juli 2021                                               2021
 
-##### Afdeling 6 – Vrijstelling                                      Section 6 – Exonération
+#### Afdeling 6 – Vrijstelling                                      Section 6 – Exonération
 
 ---- historiek ----                                             ---- historique ----
 
 - afdeling 6 toegevoegd door art. 68 van het decreet van        - section 6 inséré par art. 68 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in           (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.6.0.1
+###### Art. 2.7.6.0.1
 
-Art. 2.7.6.0.1.
+###### Art. 2.7.6.0.1.
 
 § 1. De waarde van de maatschappelijke rechten,                 § 1er. Sont exemptes du droit de succession, les parts vermeld in paragraaf 2, die door de erflater of door zijn       sociales visées au § 2 du présent article qui sont acquises echtgenoot ten minste vijf jaar vóór het openvallen van         par le défunt ou son conjoint au moins cinq ans avant de nalatenschap en uiterlijk in het jaar 2005 zijn              l'ouverture de la succession et au plus tard au cours de verworven en die gedurende de vermelde termijn                  l'année 2005, et ont fait l'objet pendant le délai précité ingeschreven waren op naam van de erflater of van zijn          d'une souscription au nom du défunt ou de son conjoint, echtgenoot, of de waarde van hetgeen verkregen wordt            ainsi que tout ce qui est recueilli en guise de als terugbetaling van diezelfde maatschappelijke                remboursement de ces mêmes parts sociales. Lorsque le rechten, wordt vrijgesteld van het successierecht. Als de       testateur n'a pas opté, au moment de la souscription, erflater op het moment van de inschrijving niet heeft           pour la capitalisation du revenu périodique attribué aux geopteerd voor de kapitalisatie van het inkomen dat             droits sociaux en question, le montant admis à periodiek toegekend is aan het maatschappelijk recht,           l'exemption est tout de même calculé comme si l'option wordt het bedrag dat voor de vrijstelling in aanmerking         de la capitalisation avait été choisie. komt, toch berekend alsof voor kapitalisatie gekozen is.
 
@@ -4035,9 +4039,9 @@ Bij uitreiking van een tweede attest wordt bovendien         A la délivrance de
 
 - toegevoegd door art. 69 van het decreet van 19.12.2014 - inséré par art. 69 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.6.0.2
+###### Art. 2.7.6.0.2
 
-Art. 2.7.6.0.2.
+###### Art. 2.7.6.0.2.
 
 (…)                                                         (…)
 
@@ -4047,9 +4051,9 @@ Art. 2.7.6.0.2.
 (B.S. 21.02.2018). Tekst treedt in werking op 09.06.2020    21.02.2018). Texte entre en vigueur le 09.06.2020 (art.1 (art. 1 besluit 04.05.2018 B.S.                             de l’arr. du 04.05.2018 – M.B. 30.05.2018) 30.05.2018) - toegevoegd door art. 70 van het decreet van 19.12.2014 - inséré par art. 70 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325) - vervangen door art. 53 van het decreet van 01 juli 2016 - modifié par l'art. 53 du décret du 01.07.2016 (M.B., (B.S., 19.08.2016). Tekst treedt in werking op een door de 19.08.2016). Texte entre en vigueur à une date à fixer Vlaamse Regering vast te stellen datum (art.               par le Gouvernement flamand (art. 66).
 66)
 
-## Art. 2.7.6.0.3
+###### Art. 2.7.6.0.3
 
-Art. 2.7.6.0.3.
+###### Art. 2.7.6.0.3.
 
 (…)                                                         (…)
 
@@ -4058,9 +4062,9 @@ Art. 2.7.6.0.3.
 - opgeheven door art. 13 van het decreet van 22.12.2017     - abrogé par l’art. 13 du décret du 22.12.2017 (M.B.
 (B.S. 21.02.2018). Tekst treedt in werking op 09.06.2020    21.02.2018). Texte entre en vigueur le 09.06.2020 (art.1 (art. 1 besluit 04.05.2018 B.S.                             de l’arr. du 04.05.2018 – M.B. 30.05.2018) 30.05.2018) - toegevoegd door art. 71 van het decreet van 19.12.2014 - inséré par art. 71 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.6.0.4
+###### Art. 2.7.6.0.4
 
-Art. 2.7.6.0.4.
+###### Art. 2.7.6.0.4.
 
 De waarde van de zaken die ascendenten verkrijgen uit        La valeur des biens qu'obtiennent les ascendants de la de nalatenschap van de erflater, wordt vrijgesteld van de    succession du testateur est exemptée de l'impôt de erfbelasting als de volgende voorwaarden cumulatief          succession, lorsque les conditions cumulatives zijn vervuld :                                               suivantes sont remplies :
 
@@ -4074,9 +4078,9 @@ De waarde van de zaken die ascendenten verkrijgen uit        La valeur des biens
 
 - toegevoegd door art. 72 van het decreet van 19.12.2014 - inséré par art. 72 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.6.0.5
+###### Art. 2.7.6.0.5
 
-Art. 2.7.6.0.5.
+###### Art. 2.7.6.0.5.
 
 § 1. De waarde van de nettoverkrijging in de                 § 1er. La valeur de l’acquisition nette dans les biens onbebouwde onroerende goederen waarvoor een                  immobiliers non bâtis pour lesquels un plan de gestion natuurbeheerplan type twee, drie of vier als vermeld in      de la nature type deux, trois ou quatre tel que visé à artikel 16ter, § 1, 2°, 3° en 4°, van het decreet van 21     l’article 16ter, § 1er, 2°, 3° et 4°, du décret du 21 octobre oktober 1997 betreffende het natuurbehoud en het             1997 concernant la conservation de la nature et le milieu natuurlijk milieu, is goedgekeurd conform artikel            naturel, a été approuvée conformément à l’article 16octies van het voormelde decreet, wordt op de datum        16octies du décret précité, est exemptée de l’impôt de van het openvallen van de nalatenschap, zowel voor de        succession à la date de l’ouverture de la succession, tant grond- als voor de opstandswaarde, als volgt van de          pour la valeur du terrain que pour celle des peuplements erfbelasting vrijgesteld:                                    ;
 1° ten belope van 50% in geval van een                       1° à concurrence de 50 % en cas d’un plan de gestion de natuurbeheerplan type twee;                                  la nature type deux ;
@@ -4097,9 +4101,9 @@ In voorkomend geval dient deze overeenkomst                  Le cas échéant, c
 - ingevoegd door art. 14 van het decreet van 22.12.2017      - inséré par l’art. 14 du décret du 22.12.2017 (M.B.
 (B.S. 21.02.2018). Tekst treedt in werking op 09.06.2018     21.02.2018). Texte entre en vigueur le 09.06.2018 (art.1 (art. 1 besluit 04.05.2018 B.S.                              de l’arr. du 04.05.2018 – M.B. 30.05.2018) 30.05.2018)
 
-## Art. 2.7.6.0.6
+###### Art. 2.7.6.0.6
 
-Art. 2.7.6.0.6.
+###### Art. 2.7.6.0.6.
 
 § 1. Voor de toepassing van het tarief, vermeld in artikel   § 1er. Pour l’application du tarif, visé à l’article 2.7.4.1.1, § 1, in rechte nederdalende lijn, en voor zover   2.7.4.1.1, § 1er, en ligne directe descendante, et dans la de andere ouder van het betrokken kind reeds                 mesure où l’autre parent de l’enfant concerné est déjà vooroverleden is, wordt de eerste schijf van 75.000 euro     décédé antérieurement, la première tranche de 75.000 in de nettoverkrijging van het rechtverkrijgende kind        euros dans l’acquisition nette de l’enfant ayant droit de onder de 21 jaar van de roerende goederen vrijgesteld        moins de 21 ans des biens meubles est exonérée du droit van het successierecht.                                      de succession.
 
@@ -4116,15 +4120,15 @@ In afwijking van artikel 2.7.4.1.1, § 2, tweede lid, en      Par dérogation à
 (B.S. 28.12.2018). Tekst heeft uitwerking                   28.12.2018). Texte produit ses effets à partir du 01.09.2018 vanaf 01.09.2018 - ingevoegd door art. 9 van het decreet van 06.07.2018      - inséré par l’art. 9 du décret du 06.07.2018 (M.B.
 (B.S. 20.07.2018 Ed.2). Tekst treedt in werking op          20.07.2018 Ed.2). Texte entre en vigueur le 01.09.2018 01.09.2018
 
-##### Afdeling 7 - Wijze van heffing                          Section 7 - Modalités de perception
+#### Afdeling 7 - Wijze van heffing                          Section 7 - Modalités de perception
 
 ---- historiek ----                                         ---- historique ----
 
 - afdeling 7 toegevoegd door art. 73 van het decreet van    - section 7 inséré par art. 73 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.7.0.1
+###### Art. 2.7.7.0.1
 
-Art. 2.7.7.0.1.
+###### Art. 2.7.7.0.1.
 
 De erfbelasting wordt gevestigd op zicht van de aangifte,   L'impôt de succession est établi sur la vue de la vermeld in artikel 3.3.1.0.5 en 3.3.1.0.6, of ambtshalve    déclaration mentionnée à l'article 3.3.1.0.5 et 3.3.1.0.6, als de aangifte niet is ingediend binnen de termijn,        ou d'office, si la déclaration n'est pas introduite dans le vermeld in artikel 3.3.1.0.5 en artikel 3.3.1.0.6, of bij   délai mentionné à l'article 3.3.1.0.5 et à l'article onjuistheid of onvolledigheid van de aangifte.              3.3.1.0.6, ou en cas de déclaration inexacte ou incomplète.
 
@@ -4132,9 +4136,9 @@ De erfbelasting wordt gevestigd op zicht van de aangifte,   L'impôt de successi
 
 - toegevoegd door art. 74 van het decreet van 19.12.2014 - inséré par art. 74 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.7.0.2
+###### Art. 2.7.7.0.2
 
-Art. 2.7.7.0.2.
+###### Art. 2.7.7.0.2.
 
 In geval van achtereenvolgende overgangen door              En cas de transmissions successives par décès d'un bien overlijden van een goed dat onder opschortende              acquis sous condition suspensive ou d'un bien possédé voorwaarde is verkregen, of van een goed dat in bezit is    par un tiers, mais revendiqué par la succession, l'impôt van een derde, maar door de nalatenschap is teruggeëist,    de succession est dû, dans les conditions déterminées is de erfbelasting verschuldigd overeenkomstig de           par l'article 2.7.3.3.7, par l'article 3.3.1.0.5, § 2, et par voorwaarden, vermeld in artikel 2.7.3.3.7, artikel          l'article 3.3.1.0.6, uniquement à raison de la dernière 3.3.1.0.5, § 2, en artikel 3.3.1.0.6, alleen wegens de      mutation. laatste overgang.
 Als de achtereenvolgende overgangen een goed tot            Si les transmissions successives ont pour objet un bien voorwerp hebben dat betwist in het bezit van de erflater    litigieux en la possession du défunt ou un bien is of dat aan hem toebehoort onder ontbindende              appartenant à celui-ci sous condition résolutoire, l'impôt voorwaarde, is de belasting onmiddellijk opvorderbaar       est immédiatement exigible lors de chaque décès. bij elk overlijden.
@@ -4143,9 +4147,9 @@ Als de achtereenvolgende overgangen een goed tot            Si les transmissions
 
 - toegevoegd door art. 75 van het decreet van 19.12.2014 - inséré par art. 75 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.7.7.0.3
+###### Art. 2.7.7.0.3
 
-Art. 2.7.7.0.3.
+###### Art. 2.7.7.0.3.
 
 (…)                                                         (…)
 
@@ -4154,21 +4158,21 @@ Art. 2.7.7.0.3.
 - opgeheven door art. 16 van het decreet van 08.12.2017       - abrogé par l'art. 16 du décret du 08.12.2017 (M.B.: (B.S., 14.12.2017). De tekst is in werking getreden op        14.12.2017). Texte entre en vigueur le 24.12.2017 24.12.2017
 
 - toegevoegd door art. 76 van het decreet van 19.12.2014 - inséré par art. 76 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
-#### Hoofdstuk 8 – Schenkbelasting                                Chapitre 8 - Impôt de donation
+### Hoofdstuk 8 – Schenkbelasting                                Chapitre 8 - Impôt de donation
 
 ---- historiek ----                                           ---- historique ----
 
 - hoofdstuk 8 toegevoegd door art. 77 van het decreet van - chapitre 8 inséré par art. 77 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in     (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 1 - Belastbaar voorwerp                                Section 1re - Objet imposable
+#### Afdeling 1 - Belastbaar voorwerp                                Section 1re - Objet imposable
 
 ---- historiek ----                                           ---- historique ----
 
 - afdeling 1 toegevoegd door art. 78 van het decreet van      - section 1re inséré par art. 78 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         (M.B., 29.01.2015, Ed. 2). Texte est entré werking getreden op 1 januari 2015 (art. 325)                 en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.8.1.0.1
+###### Art. 2.8.1.0.1
 
-Art. 2.8.1.0.1.
+###### Art. 2.8.1.0.1.
 
 Overeenkomstig artikel 1, artikel 19 en artikel 31 van het    Conformément à l'article 1er, à l'article 19 et à l'article Griffierechten wordt de schenkbelasting gevestigd naar        d'hypothèque et de greffe, l’ impôt de donation est établi aanleiding van de registratie of de verplichting tot          à l'occasion de l'enregistrement ou de l'obligation registratie van akten of geschriften die tot bewijs           d'enregistrement d'actes décrits tendant à prouver une strekken van een schenking onder de levenden                  donation entre vifs.
 
@@ -4176,9 +4180,9 @@ Overeenkomstig artikel 1, artikel 19 en artikel 31 van het    Conformément à l
 
 - toegevoegd door art. 79 van het decreet van 19.12.2014 - inséré par art. 79 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in 29.01.2015, Ed. 2). Texte est entré en vigueur le werking getreden op 1 januari 2015 (art. 325)            01.01.2015 (art. 325)
 
-## Art. 2.8.1.0.2
+###### Art. 2.8.1.0.2
 
-Art. 2.8.1.0.2.
+###### Art. 2.8.1.0.2.
 § 1. Vonnissen en arresten die tot bewijs strekken van        § 1er. Les jugements et arrêts tendant à faire preuve een schenking onder de levenden van eigendom of               d'une donation entre vifs de propriété ou d'usufruit vruchtgebruik van onroerende goederen in België die           d'immeubles situés en Belgique qui n'a pas subi l'impôt nog niet aan de schenkbelasting onderworpen zijn,             y afférent, donnent lieu à la perception de l’impôt de geven aanleiding tot de heffing van de schenkbelasting        donation auquel la donation serait assujettie si elle était waaraan de schenking onderworpen zou zijn als ze in           constatée dans un acte de donation. een schenkingsakte zou zijn vastgesteld.
 
 Dat geldt ook als de rechterlijke beslissing die tot bewijs   Il en est également ainsi si la décision judiciaire faisant van de overeenkomst strekt, de ontbinding of herroeping       titre de la convention prononce la résolution ou la ervan uitspreekt of vaststelt voor om het even welke          révocation de celle-ci pour quelque cause que ce soit, à reden, tenzij uit de beslissing blijkt dat ten hoogste één    moins qu'il ne résulte de la décision que la convention jaar na de overeenkomst een eis tot ontbinding of             n'est pas antérieure de plus d'un an à une demande en herroeping, zelfs bij een onbevoegde rechter, is              résolution ou en révocation, même si elle a été introduite ingesteld.                                                    devant un juge incompétent.
@@ -4193,15 +4197,15 @@ De schenkbelasting is ook van toepassing in geval van          L’impôt de don
 
 - toegevoegd door art. 80 van het decreet van 19.12.2014 - inséré par art. 80 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 2 – Belastingplichtigen                                   Section 2 – Contribuables
+#### Afdeling 2 – Belastingplichtigen                                   Section 2 – Contribuables
 
 ---- historiek ----                                            ---- historique ----
 
 - afdeling 2.toegevoegd door art. 81 van het decreet van       - section 2 inséré par art. 81 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in          (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le werking getreden op 1 januari 2015 (art. 325)                  01.01.2015 (art. 325)
 
-## Art. 2.8.2.0.1
+###### Art. 2.8.2.0.1
 
-Art. 2.8.2.0.1.
+###### Art. 2.8.2.0.1.
 De belastingplichtige is de begiftigde.                        Le contribuable est le donataire.
 
 Bij een inbreng om niet is de belastingplichtige de            En cas d'apport à titre gratuit, le contribuable est la begunstigde rechtspersoon.                                     personne morale bénéficiaire.
@@ -4210,15 +4214,15 @@ Bij een inbreng om niet is de belastingplichtige de            En cas d'apport �
 
 - toegevoegd door art. 82 van het decreet van 19.12.2014 - inséré par art. 82 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 3 - Belastbare grondslag                                 Section 3 - Base imposable
+#### Afdeling 3 - Belastbare grondslag                                 Section 3 - Base imposable
 
 ---- historiek ----                                            ---- historique ----
 
 - afdeling 3.toegevoegd door art. 83 van het decreet van      - section 3 inséré par art. 83 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.3.0.1
+###### Art. 2.8.3.0.1
 
-Art. 2.8.3.0.1.
+###### Art. 2.8.3.0.1.
 
 § 1. Voor de schenkingen onder de levenden van                § 1er. Pour les donations entre vifs de biens mobiliers et roerende en onroerende goederen wordt een                     immobiliers, un l’impôt de donation est perçu sur la part schenkbelasting geheven op het aandeel van elke               de chaque donataire, sur la valeur vénale des biens begiftigde, op basis van de verkoopwaarde van de              donnés, sans distraction de charges. geschonken goederen, zonder aftrek van lasten.
 
@@ -4253,9 +4257,9 @@ b) b = de leeftijdscoëfficiënt, vermeld in de tabel van       b) b = le coeffi
 
 - toegevoegd door art. 84 van het decreet van 19.12.2014 - inséré par art. 84 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2 erratum M.B., 04.03.2015). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.3.0.2
+###### Art. 2.8.3.0.2
 
-Art. 2.8.3.0.2.
+###### Art. 2.8.3.0.2.
 
 De schenkbelasting, verschuldigd op akten waarbij           L’impôt de donation qui est dû sur les actes translatifs eigendom of vruchtgebruik van een handelszaak               de propriété ou d'usufruit de fonds de commerce est overgedragen wordt, wordt geheven op basis van de           perçu sur les bases imposables mentionnées dans la belastbare grondslagen, vermeld in deze afdeling.           présente section.
 
@@ -4265,9 +4269,9 @@ De schulden die al dan niet met de handelszaak in           Les dettes, afféren
 
 - toegevoegd door art. 85 van het decreet van 19.12.2014 - inséré par art. 85 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.3.0.3
+###### Art. 2.8.3.0.3
 
-Art. 2.8.3.0.3.
+###### Art. 2.8.3.0.3.
 
 § 1. Als er eerdere schenkingen van onroerende              § 1er. S'il existe des donations de biens immobiliers déjà goederen bestaan tussen dezelfde partijen, die              intervenues entre les mêmes parties, constatées par actes vastgesteld zijn door akten die dateren van minder dan      remontant à moins de trois ans avant la date de la drie jaar vóór de datum van de nieuwe schenking van         nouvelle donation de biens immobiliers, la base onroerende goederen, wordt de belastbare grondslag van      imposable de ces donations antérieures s'ajoute à la base die eerdere schenkingen gevoegd bij de belastbare           imposable de la nouvelle donation pour déterminer grondslag van de nieuwe schenking om de toepasselijke       l’impôt de donation applicable sur la nouvelle donation. schenkbelasting op de nieuwe schenking te bepalen.
 
@@ -4298,9 +4302,9 @@ Het eerste lid is niet van toepassing op:                   L’alinéa premier 
 
 - toegevoegd door art. 86 van het decreet van 19.12.2014 - inséré par art. 86 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2 - erratum M.B., 04.03.2015). Texte werking getreden op 01.01.2015 (art. 325)                    est entré en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.8.3.0.4
+###### Art. 2.8.3.0.4
 
-Art. 2.8.3.0.4.
+###### Art. 2.8.3.0.4.
 
 Op hetgeen aan een persoon met een handicap of een           Toute donation à une personne handicapée ou un enfant gehandicapt kind geschonken wordt, wordt een                 handicapé fait l'objet d'un abattement au taux de la base abattement toegepast aan de voet van de belastbare           imposable, à concurrence de la somme obtenue en grondslag, voor de som die verkregen is door toepassing      application de la formule suivante : van de volgende formule :
 
@@ -4317,9 +4321,9 @@ Het abattement, vermeld in het eerste lid, wordt slechts     L'abattement, visé
 
 - toegevoegd door art. 25 van het decreet van 3 juli              - inséré par art. 25 du décret du 3 juillet 2015 (M.B., 2015 (B.S., 15.07.2015). De tekst is in werking getreden          15.07.2015). Texte est entré en vigueur le 1er juillet op 01.07.2015 (art. 61))                                          2015 (art. 61)
 
-## Art. 2.8.3.0.5
+###### Art. 2.8.3.0.5
 
-Art. 2.8.3.0.5.
+###### Art. 2.8.3.0.5.
 Een akte die een door de wet toegelaten                           Un acte établissant un pacte successoral autorisé par la erfovereenkomst vaststelt, strekt voor de toepassing van          loi, ne fait pas preuve, pour l’application de l’impôt de de schenkbelasting niet tot bewijs van een schenking die          donation, d’une donation qui est mentionnée dans le in die overeenkomst wordt vermeld en die niet aan de              pacte et qui n’est pas soumise à la formalité de formaliteit van de registratie is onderworpen, en                 l’enregistrement, et dont les parties confirment dans ou waarvan de partijen in of onderaan de akte bevestigen             en bas de l’acte qu’elle a eu lieu avant la date de dat die heeft plaatsgevonden vóór de datum waarop die             conclusion de ce pacte. overeenkomst gesloten werd.
 
 In afwijking van het eerste lid kunnen de partijen of een         Par dérogation à l’alinéa 1er, les parties ou l’une d’entre van hen in een uitdrukkelijke fiscale verklaring in of            elles peuvent communiquer dans une déclaration fiscale onderaan de akte te kennen geven dat de vermelding van            explicite dans ou en bas de l’acte qu’une donation een dergelijke schenking wel tot bewijs strekt voor de            pareille fait effectivement preuve pour l’application de toepassing van de schenkbelasting.                                l’impôt de donation.
@@ -4329,7 +4333,7 @@ In afwijking van het eerste lid kunnen de partijen of een         Par dérogatio
 - ingevoegd door art. 10 van het decreet van 06.07.2018           - inséré par l’art. 10 du décret du 06.07.2018 (M.B.
 (B.S. 20.07.2018 Ed. 2). Tekst treedt in                          20.07.2018 Ed.2). Texte entre en vigueur le 01.09.2018 werking op 01.09.2018
 
-##### Afdeling 4 - Tarieven                                              Section 4 - Tarifs.
+#### Afdeling 4 - Tarieven                                              Section 4 - Tarifs.
 
 ---- historiek ----                                               ---- historique ----
 
@@ -4341,9 +4345,9 @@ In afwijking van het eerste lid kunnen de partijen of een         Par dérogatio
 
 - onderafdeling 1 toegevoegd door art. 88 van het decreet - sous-section 1re inséré par art. 88 du décret du van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De             19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré tekst is in werking getreden op 1 januari 2015 (art. 325)         en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.8.4.1.1
+###### Art. 2.8.4.1.1
 
-Art. 2.8.4.1.1.
+###### Art. 2.8.4.1.1.
 
 § 1. De schenkbelasting voor de schenkingen van                   § 1er. L'impôt de donation pour les donations de biens onroerende goederen wordt berekend volgens het tarief,            immeubles est calculé selon le tarif, visé aux tableaux vermeld in de onderstaande tabellen :                             suivants :
 
@@ -4414,9 +4418,9 @@ Bekrachtigd door art. 224, 2° van het decreet van            Confirmé par l’
 - gewijzigd door art. 11 van het decreet van 21.12.2018      - modifié par l'art. 11 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Inwerkingtreding op 01.05.2019 (art.      28.12.2018). Entrée en vigueur le 01.05.2019 (art. 3 de 3 van het besluit van 05.04.2019 - B.S. l'arrêté du 05.04.2019 - M.B. 07.05.2019) 07.05.2019) - §2, 1°, 2° gewijzigd door art. 10 van het decreet van 17   - §2, point 1° et 2° sont modifiés par art. 10 du décret du juli 2015 (B.S., 14.08.2015 ). De tekst is in werking        17 juillet 2015 (M.B., 14.08.2015). Texte est entré getreden op 14 augustus 2015 (art. 41) en vigueur le 14 août 2015 (art. 41)
 
-## Art. 2.8.4.1.2
+###### Art. 2.8.4.1.2
 
-Art. 2.8.4.1.2.
+###### Art. 2.8.4.1.2.
 
 Als een akte of geschrift, overeengekomen tussen             Lorsqu'un acte ou un écrit, convenu entre les mêmes dezelfde partijen, verschillende van elkaar afhankelijke     parties, contient des réglementations dépendantes l'une of noodzakelijk uit elkaar voortvloeiende regelingen         de l'autre ou découlant nécessairement l'une de l'autre, bevat waaronder een schenking die onderworpen is aan         et en vertu desquelles une donation est soumise aux de schenkbelasting, wordt de belasting geheven die van       droits de donation, le droit qui est perçu est le droit toepassing is op de regeling die aanleiding geeft tot de     d'application en vertu de la réglementation qui donne heffing van de hoogste belasting, vastgesteld met            lieu à la perception du droit le plus élevé, constaté en toepassing van hoofdstuk 8 tot en met hoofdstuk 11.          application des chapitres 8 à 11.
 
@@ -4433,9 +4437,9 @@ Als een akte of geschrift, overeengekomen tussen            Lorsqu'un acte ou un
 
 - onderafdeling 2 toegevoegd door art. 91 van het decreet - sous-section 2 inséré par art. 91 du décret du van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De             19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré tekst is in werking getreden op 1 januari 2015 (art. 325)   en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.8.4.2.1
+###### Art. 2.8.4.2.1
 
-Art. 2.8.4.2.1.
+###### Art. 2.8.4.2.1.
 
 In afwijking van artikel 2.8.4.1.1, § 1, wordt de           Par dérogation à l'article 2.8.4.1.1, § 1er, l’impôt de schenkbelasting voor schenkingen van een perceel            donation pour les donations d'une parcelle de terrain en
 
@@ -4455,9 +4459,9 @@ TABEL IV / TABLEAU IV tarief tussen alle andere personen / tarif entre toutes au
 
 - toegevoegd door art. 92 van het decreet van 19.12.2014 - inséré par art. 92 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.4.2.2
+###### Art. 2.8.4.2.2
 
-Art. 2.8.4.2.2.
+###### Art. 2.8.4.2.2.
 
 De schenkbelasting, vermeld in artikel 2.8.4.2.1, is niet     L’impôt de donation mentionné à l'article 2.8.4.2.1, n'est van toepassing op schenkingen die zijn gedaan onder           pas applicable pour les donations qui sont faites sous een opschortende voorwaarde die vervuld wordt na het          une condition suspensive remplie après l'expiration de verstrijken van de periode, bepaald in hetzelfde artikel,     la période fixée dans le même article ou faites à un terme of die zijn gedaan onder een tijdsbepaling die verder         au-delà de la période fixée à l'article précité. reikt dan de periode, bepaald in het voormelde artikel.
 
@@ -4465,9 +4469,9 @@ De schenkbelasting, vermeld in artikel 2.8.4.2.1, is niet     L’impôt de dona
 
 - toegevoegd door art. 93 van het decreet van 19.12.2014 - inséré par art. 93 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.4.2.3
+###### Art. 2.8.4.2.3
 
-Art. 2.8.4.2.3.
+###### Art. 2.8.4.2.3.
 
 De schenkbelasting, vermeld in artikel 2.8.4.2.1, wordt       L’impôt de donation mentionné à l'article 2.8.4.2.1, n'est alleen toegepast als in de akte van schenking                 appliqué que s'il est expressément déclaré dans l'acte de uitdrukkelijk wordt verklaard dat :                           donation que :
 
@@ -4489,9 +4493,9 @@ Bij niet-nakoming van de aangegane verbintenis,                 En cas de non-re
 
 - onderafdeling 3 toegevoegd door art. 27 van het decreet - sous-section 3 inséré par art. 27 du décret du 3 juillet van 3 juli 2015 (B.S., 15.07.2015). De tekst is in werking 2015 (M.B., 15.07.2015). Texte est entré en vigueur le getreden op 01.07.2015 (art. 61)                           1er juillet 2015 (art. 61)
 
-## Art. 2.8.4.3.1
+###### Art. 2.8.4.3.1
 
-Art. 2.8.4.3.1.
+###### Art. 2.8.4.3.1.
 
 § 1. In afwijking van artikel 2.8.4.1.1, § 1, wordt de          § 1er. Par dérogation à l'article 2.8.4.1.1, § 1er, l'impôt schenkbelasting voor schenkingen van onroerende                 de donation pour les donations de biens immeubles goederen gelegen in het Vlaamse Gewest en gedaan met            situés en Région flamande, faites à partir du 1er juillet ingang van 1 juli 2015 en voor 1 januari 2025, berekend         2015 et avant le 1er janvier 2025, est calculé selon le volgens het tarief, vermeld in de onderstaande tabellen,        tarif, visé aux tableaux suivants, à condition que : op voorwaarde dat :
 1° de begiftigden, een van hen of de schenker die zich          1° les bénéficiaires ou l’un d’entre eux ou le donateur het vruchtgebruik heeft voorbehouden, binnen vijf jaar          qui s’est réservé l’usufruit, fassent effectuer dans les vanaf de datum van de akte van schenking                        cinq ans à partir de la date de l’acte de donation, des renovatiewerken laten uitvoeren aan het geschonken              travaux de rénovation au bien immobilier faisant l’objet onroerend goed voor een totaalbedrag van minstens               de la donation pour un montant total d’au moins 10.000 10.000 euro, exclusief de belasting over de toegevoegde         euros, hors la taxe sur la valeur ajoutée, tel qu’il ressort waarde, zoals blijkt uit facturen die uitgereikt zijn door      des factures délivrées par des entrepreneurs de travaux ; aannemers van werken;
@@ -4546,9 +4550,9 @@ Bekrachtigd door art. 224, 2° van het decreet van           Confirmé par l’a
 - ingevoegd door art. 5 van het decreet van 21.04.2017.     - sous-section 4 inséré par l’art. 5 du décret du 21 avr.
 Tekst in werking getreden op 14.05.2017                     2017 (M.B., 04.05.2017). Texte est entré en vigueur le 14 mai 2017
 
-## Art. 2.8.4.4.1
+###### Art. 2.8.4.4.1
 
-Art. 2.8.4.4.1.
+###### Art. 2.8.4.4.1.
 
 § 1. In afwijking van artikel 2.8.4.1.1, § 1, wordt de      § 1er. Par dérogation à l’article 2.8.4.1.1, § 1er, l’impôt schenkbelasting voor schenkingen van de geheelheid          de donation pour les donations de la totalité de propriété eigendom van onroerende goederen in het Vlaamse             de biens immobiliers situés en Région flamande Gewest, gedaan voor 1 januari 2025, berekend volgens        effectué avant le 1er janvier 2025 est calculé selon le het tarief, vermeld in de tabellen, vermeld in artikel      tarif, visé aux tableaux visés à l’article 2.8.4.3.1, § 1er, 2.8.4.3.1, § 1, eerste lid, op voorwaarde dat:              alinéa 1er, à condition que :
 
@@ -4578,15 +4582,15 @@ Het verschil tussen de schenkbelasting, berekend              La différence ent
 - gewijzigd door art. 11 van het decreet van 06.07.2018       - modifié par l’art. 11 du décret du 06.07.2018 (M.B.
 (B.S. 30.08.2018). Tekst in werking getreden op               30.08.2018). Texte entre en vigueur le 31.08.2018 31.08.2018 - aangevuld door art. 19 van het decreet van 08.12.2017       - complété par l'art. 19 du décret du 08.12.2017 (M.B.: (B.S.: 14.12.2017). Tekst in werking                          14.12.2017). Texte en vigueur le 24.12.2017 getreden op 24.12.2017 - ingevoegd door art. 6 van het decreet van 21.04.2017.       - inséré par l’art. 6 du décret du 21.04.2017. Texte en Tekst in werking getreden op 14.05.2017                       vigueur le 14.05.2017
 
-##### Afdeling 5 – Verminderingen                                      Section 5 – Réductions
+#### Afdeling 5 – Verminderingen                                      Section 5 – Réductions
 
 ---- historiek ----                                           ---- historique ----
 
 - afdeling 5 toegevoegd door art. 95 van het decreet van      - section 5 inséré par art. 95 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.5.0.1
+###### Art. 2.8.5.0.1
 
-Art. 2.8.5.0.1.
+###### Art. 2.8.5.0.1.
 
 § 1. Als de belastingplichtige op het tijdstip waarop de      § 1er. Lorsque le donataire a au moins trois enfants en schenkbelasting opvorderbaar is, minstens drie kinderen       vie, n'ayant pas atteint l'âge de vingt et un ans au jour où in leven heeft die de leeftijd van eenentwintig jaar niet     le droit est exigible, le montant du impôt fixé suivant hebben bereikt, wordt de met toepassing van artikel           l'article 2.8.4.1.1, § 1er est réduit de 2 % pour chacun de 2.8.4.1.1, § 1, vastgestelde schenkbelasting verminderd       ces enfants, sans que la réduction puisse excéder 62 met 2% voor elk van die kinderen van de begiftigde,           euros par enfant. zonder dat de vermindering meer dan 62 euro per kind mag bedragen.
 
@@ -4600,15 +4604,15 @@ De belastingplichtige die over het aantal kinderen een       Le contribuable qui
 
 ---- historiek ----                                          ---- historique ---- - tweede lid opgeheven door art. 12 van het decreet          - §2, deuxième alinéa est abrogé par art. 12 du décret du 17 juillet 2015 (M.B., 14.08.2015). Texte est entré van 17 juli 2015 (B.S., 14.08.2015 ). De tekst is in werking getreden op 14 augustus 2015 (art. 41)               en vigueur le 14 août 2015 (art. 41)
 
-##### Afdeling 6 – Vrijstellingen                                  Section 6 – Exonérations
+#### Afdeling 6 – Vrijstellingen                                  Section 6 – Exonérations
 
 ---- historiek ----                                          ---- historique ----
 
 - toegevoegd door art. 97 van het decreet van 19.12.2014 - section 6 inséré par art. 97 du décret du 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in               (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.6.0.1
+###### Art. 2.8.6.0.1
 
-Art. 2.8.6.0.1.
+###### Art. 2.8.6.0.1.
 
 Er wordt een vrijstelling van de schenkbelasting             Une exonération de l’impôt de donation est accordée verleend voor :                                              pour :
 
@@ -4635,9 +4639,9 @@ De schenkbelasting is alsnog verschuldigd door de              Le droit de donat
 
 - toegevoegd door art. 98 van het decreet van 19.12.2014 - inséré par art. 98 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2 erratum M.B., 04.03.2015). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.6.0.2
+###### Art. 2.8.6.0.2
 
-Art. 2.8.6.0.2.
+###### Art. 2.8.6.0.2.
 
 Er wordt een vrijstelling van de schenkbelasting             Une exonération de l’impôt de donation est octroyée verleend voor vonnissen en arresten houdende                 pour les jugements et arrêts portant annulation, vernietiging, ontbinding of herroeping van een               résolution ou révocation d'une donation de biens schenking van onroerende goederen die in België liggen.      immobiliers situés en Belgique.
 
@@ -4647,9 +4651,9 @@ Als de vernietiging, ontbinding of herroeping, vermeld       Lorsque l'annulatio
 
 - toegevoegd door art. 99 van het decreet van 19.12.2014 - inséré par art. 99 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.6.0.3
+###### Art. 2.8.6.0.3
 
-Art. 2.8.6.0.3.
+###### Art. 2.8.6.0.3.
 
 § 1. In afwijking van artikel 2.8.4.1.1 wordt van de         § 1er. Par dérogation à l'article 2.8.4.1.1, sont exemptées schenkbelasting vrijgesteld :                                du impôt de donation :
 
@@ -4708,9 +4712,9 @@ Europese Economische Ruimte hebben.
 - gewijzigd door art. 12 van het decreet van 21.12.2018      - modifié par l'art. 12 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Inwerkingtreding op 01.05.2019 (art.      28.12.2018). Entrée en vigueur le 01.05.2019 (art. 3 de 3 van het besluit van 05.04.2019 - B.S. l'arrêté du 05.04.2019 - M.B. 07.05.2019) 07.05.2019) - gewijzigd door art. 13 van het decreet van 17 juli 2015    - modifié par l’art. 13 du décret du 17 juillet 2015 (M.B., (B.S., 14.08.2015 ). De tekst is in werking getreden op 14   14.08.2015). Texte est entré en vigueur le 14 août 2015 augustus 2015 (art. 41)                                      (art. 41)
 
-## Art. 2.8.6.0.4
+###### Art. 2.8.6.0.4
 
-Art. 2.8.6.0.4.
+###### Art. 2.8.6.0.4.
 
 De vrijstelling, vermeld in artikel 2.8.6.0.3, is alleen     L'exonération mentionnée à l'article 2.8.6.0.3 n'est toepasselijk als de volgende voorwaarden cumulatief          applicable que si les conditions suivantes sont remplies zijn vervuld :                                               de manière cumulative :
 
@@ -4724,9 +4728,9 @@ De vrijstelling, vermeld in artikel 2.8.6.0.3, is alleen     L'exonération ment
 
 - 2° vervangen door art. 14 van het decreet van 17 juli      - 2° est modifié par art. 14 du décret du 17 juillet 2015 2015 (B.S., 14.08.2015 ). De tekst is in werking getreden    (M.B., 14.08.2015). Texte est entré en vigueur le 14 août op 14 augustus 2015 (art. 41)                                2015 (art. 41)
 
-## Art. 2.8.6.0.5
+###### Art. 2.8.6.0.5
 
-Art. 2.8.6.0.5.
+###### Art. 2.8.6.0.5.
 
 Voor de toepassing van artikel 2.8.6.0.3 en artikel          Pour l'application de l'article 2.8.6.0.3 et de l'article 2.8.6.0.6., § 1, 2°, moet de aanwending of de                2.8.6.0.6., § 1er, 2°, l'affectation ou la destination d'un bestemming van een onroerend goed worden nagegaan            immeuble doit s'apprécier par parcelle cadastrale ou par per kadastraal perceel of per gedeelte van een kadastraal    partie de parcelle cadastrale lorsqu'une telle partie perceel als dat gedeelte ofwel een afzonderlijke             forme, soit un logement séparé, soit un département ou huisvesting is, ofwel een afdeling van de productie of       une division de production ou d'activité susceptibles de van de werkzaamheden is die, of een onderdeel daarvan        fonctionner séparément, soit une entité dissociable des dat, afzonderlijk kan werken, ofwel een eenheid is die       autres biens ou parties formant la parcelle. van de andere goederen of delen die het perceel vormen, kan worden afgezonderd.
 
@@ -4734,9 +4738,9 @@ Voor de toepassing van artikel 2.8.6.0.3 en artikel          Pour l'application 
 
 - toegevoegd door art. 102 van het decreet van               - inséré par art. 102 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.6.0.6
+###### Art. 2.8.6.0.6
 
-Art. 2.8.6.0.6.
+###### Art. 2.8.6.0.6.
 
 § 1. De vrijstelling, vermeld in artikel 2.8.6.0.3, § 1,     § 1er. L'exonération mentionnée à l'article 2.8.6.0.3, § eerste lid, 1°, wordt behouden als de volgende               1er, alinéa premier, 1°, n'est maintenue que s'il est voorwaarden cumulatief zijn vervuld;                         satisfait de manière cumulative aux conditions suivantes :
 
@@ -4771,9 +4775,9 @@ b)     als    de     familiale       vennootschap een      b) si la société fa
 - gewijzigd door art. 13 van het decreet van 21.12.2018     - modifié par l'art. 13 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Inwerkingtreding op 01.05.2019 (art.     28.12.2018). Entrée en vigueur le 01.05.2019 (art. 3 de 3 van het besluit van 05.04.2019 - B.S. l'arrêté du 05.04.2019 - M.B. 07.05.2019) 07.05.2019) - toegevoegd door art. 103 van het decreet van              - inséré par art. 103 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.6.0.7
+###### Art. 2.8.6.0.7
 
-Art. 2.8.6.0.7.
+###### Art. 2.8.6.0.7.
 § 1. Na verloop van een termijn van drie jaar na de datum   § 1er. Après l'expiration d'un délai de 3 ans après la date van de authentieke akte van schenking controleert het       de l'acte authentique de donation, le membre du bevoegde personeelslid of de voorwaarden, gesteld voor      personnel compétent vérifie si les conditions, posées het behoud van de vrijstelling, vervuld zijn.               pour le maintien de la réduction, ont été remplies.
 
 Bij niet-vervulling van de voorwaarden, vermeld in het      En cas de non-respect des conditions telles que visées eerste lid, wordt de schenkbelasting geacht verschuldigd    au premier alinéa, l’impôt de donation qui est censé être te zijn, berekend tegen het tarief, vermeld in artikel      dû, est calculé au tarif mentionné à l'article 2.8.4.1.1, 2.8.4.1.1, zonder toepassing van de vrijstelling.           sans application de l'exonération.
@@ -4791,9 +4795,9 @@ Bij niet-vervulling van de voorwaarde, vermeld in           En cas de non-respec
 (B.S. 30.12.2025). Inwerkingtreding: Van toepassing op         30.12.2025). Texte s'applique à tous les actes alle authentieke schenkingsakten die worden verleend           authentiques de donation passés à partir du 1er janvier vanaf 1 januari 2026.                                          2026.
 - toegevoegd door art. 104 van het decreet van                 - inséré par art. 104 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in          29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.6.0.8
+###### Art. 2.8.6.0.8
 
-Art. 2.8.6.0.8.
+###### Art. 2.8.6.0.8.
 
 § 1. De waarde van de onbebouwde onroerende                    § 1er. La valeur des biens immobiliers non bâtis pour goederen waarvoor een natuurbeheerplan type twee, drie         lesquels un plan de gestion de la nature type deux, trois of vier als vermeld in artikel 16ter, § 1, 2°, 3° en 4°, van   ou quatre tel que visé à l’article 16ter, § 1er, 2°, 3° et 4°, het decreet van 21 oktober 1997 betreffende het                du décret du 21 octobre 1997 concernant la conservation natuurbehoud en het natuurlijk milieu, is goedgekeurd          de la nature et le milieu naturel a été approuvé conform artikel 16octies van het voormelde decreet,            conformément à l’article 16octies du décret précité, est wordt, zowel voor de grond- als voor de                        exemptée comme suit de l’impôt de donation, tant pour opstandswaarde, als volgt van de schenkbelasting               la valeur du terrain que pour celle des peuplements : vrijgesteld:
 
@@ -4816,9 +4820,9 @@ De vrijstelling, vermeld in het eerste lid, wordt verleend     L’exemption vis
 - ingevoegd door art. 16 van het decreet van 22.12.2017       - inséré par l’art. 16 du décret du 22.12.2017 (M.B.
 (B.S. 21.02.2018). Tekst treedt in werking op 09.06.2018      21.02.2018). Texte entre en vigueur le 09.06.2018 (art.1 (art. 1 besluit 04.05.2018 B.S.                               de l’arr. du 04.05.2018 – M.B. 30.05.2018) 30.05.2018)
 
-## Art. 2.8.6.0.9
+###### Art. 2.8.6.0.9
 
-Art. 2.8.6.0.9.
+###### Art. 2.8.6.0.9.
 
 Als de waarde van de goederen die belast is met de            Si la valeur des biens qui est soumise à l’impôt de erfbelasting, of een deel van deze goederen, binnen het       succession, ou une partie de ces biens, est donnée par jaar na het overlijden van de erflater, door een verkrijger   acte notarié dans un an après le décès du testateur, par van wie de verkrijging belast werd aan het tarief voor        un acquéreur dont l’acquisition a été imposée selon le een verkrijging in de rechte lijn en tussen partners, bij     tarif pour une acquisition en ligne directe et entre notariële akte wordt geschonken aan een of meer van           partenaires, à un ou plusieurs de ses descendants ou à zijn afstammelingen of aan een of meer personen die           une ou plusieurs personnes qui sont assimilées à des voor de toepassing van de schenkbelasting met                 descendants pour l’application de l’impôt de donation, afstammelingen worden gelijkgesteld, wordt de                 la donation est exonérée de l’impôt de donation dans la schenking vrijgesteld van de schenkbelasting in de mate       mesure où la valeur des biens donnés n’excède pas la dat de waarde van de geschonken goederen de                   valeur brute des biens soumis à l’impôt de succession. brutowaarde van de met erfbelasting belaste goederen niet te boven gaat.
 
@@ -4868,9 +4872,9 @@ Voor de toepassing van dit artikel moet onder               Pour l’application
 - ingevoegd door art. 11 van het decreet van 06.07.2018     - inséré par l’art. 11 du décret du 06.07.2018 (M.B.
 (B.S. 20.07.2018 Ed. 2). Tekst treedt in                    20.07.2018 Ed. 2). Texte entre en vigueur le 01.09.2018 werking op 01.09.2018
 
-## Art. 2.8.6.0.10
+###### Art. 2.8.6.0.10
 
-Art. 2.8.6.0.10.
+###### Art. 2.8.6.0.10.
 
 Er wordt een vrijstelling van de schenkbelasting            Une exonération de l'impôt de donation est accordée verleend voor de akten in der minne die betrekking          pour les actes à l'amiable portant sur des biens hebben op onroerende goederen die uitsluitend bestemd       immobiliers exclusivement destinés à l'enseignement, et zijn voor onderwijs, en die verleden zijn op naam van of    qui sont passés au nom ou en faveur des pouvoirs ten voordele van de inrichtende machten van het             organisateurs de l'enseignement communautaire ou gemeenschapsonderwijs of het gesubsidieerd onderwijs,       subventionné, ou au nom ou en faveur d'associations of op naam van of ten voordele van verenigingen zonder      sans but lucratif de gestion patrimoniale dont le seul but winstoogmerk voor patrimoniaal beheer die uitsluitend       est de mettre des biens immobiliers à la disposition de tot doel hebben onroerende goederen ter beschikking te      l'enseignement dispensé par les pouvoirs organisateurs
 
@@ -4879,15 +4883,15 @@ stellen voor onderwijs dat door de voormelde                 précités. inricht
 
 - ingevoegd door art. 29 van het decreet van 02.04.2021      - inséré par l'art. 29 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021             15.04.2021). En vigueur le 25.04.2021
 
-##### Afdeling 7 - Wijze van heffing                             Section 7 - Modalités de perception
+#### Afdeling 7 - Wijze van heffing                             Section 7 - Modalités de perception
 
 ---- historiek ----                                          ---- historique ----
 
 - afdeling 7 toegevoegd door art. 105 van het decreet van - inséré par art. 105 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in     29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.7.0.1
+###### Art. 2.8.7.0.1
 
-Art. 2.8.7.0.1.
+###### Art. 2.8.7.0.1.
 
 De schenkbelasting wordt geheven in overeenstemming          L’impôt de donation est perçu conformément aux met de bepalingen van artikel 3.3.2.0.1, 9°, en artikel      dispositions de l'article 3.3.2.0.1, 9°, et de l'article 3.3.3.0.1, § 4/2.                                            3.3.3.0.1, § 4/2.
 
@@ -4895,9 +4899,9 @@ De schenkbelasting wordt geheven in overeenstemming          L’impôt de donat
 
 - toegevoegd door art. 106 van het decreet van               - inséré par art. 106 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.7.0.2
+###### Art. 2.8.7.0.2
 
-Art. 2.8.7.0.2.
+###### Art. 2.8.7.0.2.
 
 § 1. De belastingplicht, de belastbare grondslag, het        § 1er. L'obligation de contribution, la base imposable, le tarief, de vrijstellingen en de verminderingen worden        tarif, les exonérations et les réductions sont déterminés bepaald door het ogenblik waarop de rechtshandeling is       par le moment où l'acte juridique est posé. gesteld.
 
@@ -4914,30 +4918,30 @@ Voor de toepassing van het eerste lid wordt de door een      Pour l'application 
 
 - toegevoegd door art. 107 van het decreet van               - inséré par art. 107 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.8.7.0.3
+###### Art. 2.8.7.0.3
 
-Art. 2.8.7.0.3.
+###### Art. 2.8.7.0.3.
 
 In geval van een handelszaak wordt de schenkbelasting        Dans le cas d'un fonds de commerce, l’impôt de vastgesteld volgens de aard van elk goed dat er deel van     donation et constaté suivant la nature de chaque bien qui uitmaakt.                                                    en fait partie.
 
 ---- historiek ----                                          ---- historique ----
 
 - toegevoegd door art. 108 van het decreet van               - inséré par art. 108 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
-#### Hoofdstuk 9 - Verkooprecht                                   Chapitre 9 - Droit de vente
+### Hoofdstuk 9 - Verkooprecht                                   Chapitre 9 - Droit de vente
 
 ---- historiek ----                                          ---- historique ----
 
 - hoofdstuk 9 toegevoegd door art. 109 van het decreet       - chapitre 9 inséré par art. 109 du décret du 19.12.2014 van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in    (M.B., 29.01.2015, Ed. 2). Texte est entré werking getreden op 1 januari 2015 (art. 325)                en vigueur le 01.01.2015 (art. 325)
 
-##### Afdeling 1 - Belastbaar voorwerp                               Section 1re - Objet imposable
+#### Afdeling 1 - Belastbaar voorwerp                               Section 1re - Objet imposable
 
 ---- historiek ----                                          ---- historique ----
 
 - afdeling 1 toegevoegd door art. 110 van het decreet van - section 1re inséré par art. 110 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in     (M.B., 29.01.2015, Ed. 2). Texte est entré werking getreden op 1 januari 2015 (art. 325)                en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.9.1.0.1
+###### Art. 2.9.1.0.1
 
-Art. 2.9.1.0.1.
+###### Art. 2.9.1.0.1.
 
 Overeenkomstig artikel 1, artikel 19 en artikel 31 van het   Conformément à l'article 1er, à l'article 19 et à l'article Griffierechten wordt het verkooprecht gevestigd naar         d'hypothèque et de greffe, le droit de vente est établi à aanleiding van de registratie of de verplichting tot         l'occasion de l'enregistrement ou de l'obligation registratie van akten of geschriften die als titel gelden    d'enregistrement d'actes ou d'écrits tendant à prouver van een overeenkomst houdende overdracht onder               une convention translative à titre onéreux de propriété bezwarende titel van eigendom of vruchtgebruik van           ou d'usufruit de biens immeubles, à l'exception des onroerende goederen, met uitsluiting van de inbrengen,       apports visés à l'article 115bis du Code fédéral des droits d'enregistrement, d'hypothèque et de greffe. vermeld in artikel 115bis van het federale Wetboek van Registratie-, Hypotheek- en Griffierechten.
 
@@ -4945,9 +4949,9 @@ Overeenkomstig artikel 1, artikel 19 en artikel 31 van het   Conformément à l'
 
 - toegevoegd door art. 111 van het decreet van              - inséré par art. 111 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.1.0.2
+###### Art. 2.9.1.0.2
 
-Art. 2.9.1.0.2.
+###### Art. 2.9.1.0.2.
 
 Voor de toepassing van dit hoofdstuk worden de              Pour l'application de ce chapitre, les conventions volgende overeenkomsten gelijkgesteld met een               suivantes sont assimilées à une convention translative à overeenkomst houdende overdracht onder bezwarende           titre onéreux de propriété ou d'usufruit de biens titel van eigendom van onroerende goederen :                immeubles :
 
@@ -4961,9 +4965,9 @@ Het eerste lid is niet van toepassing als bewezen wordt     Le premier alinéa n
 
 - toegevoegd door art. 112 van het decreet van              - inséré par art. 112 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.1.0.3
+###### Art. 2.9.1.0.3
 
-Art. 2.9.1.0.3.
+###### Art. 2.9.1.0.3.
 
 Met behoud van de toepassing van artikel 2.9.1.0.1,         Sans préjudice de l'application de l'article 2.9.1.0.1, le wordt, behoudens vestiging van de belasting, vermeld in     droit de vente, excepté établissement de l'impôt visé aux hoofdstuk 10 en 11, het verkooprecht gevestigd op een       chapitres 10 et 11, est établi sur un apport de biens inbreng van onroerende goederen als vermeld in artikel      immobiliers tels que mentionnés à l'article 115bis du 115bis van het federale Wetboek van Registratie-,           code fédéral des droits d'enregistrement, d'hypothèque Hypotheek- en Griffierechten in een Belgische               et de greffe, dans une société belge, dans la mesure où vennootschap naarmate die inbreng anders vergoed            cet apport est autrement rémunéré que par l'octroi de wordt dan bij toekenning van maatschappelijke rechten.      droits sociaux.
 
@@ -4979,9 +4983,9 @@ Dit artikel is ook van toepassing op de oprichting van      Cet article est éga
 
 - toegevoegd door art. 113 van het decreet van              - inséré par art. 113 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.1.0.4
+###### Art. 2.9.1.0.4
 
-Art. 2.9.1.0.4.
+###### Art. 2.9.1.0.4.
 
 Het verkooprecht wordt ook gevestigd op de verkrijging,     Le droit de vente est également établi pour l’acquisition op welke wijze ook, anders dan bij inbreng in een           par un ou plusieurs associés, de quelque manière qu’elle vennootschap, door een of meer vennoten van                 s’opère, mais autrement que par voie d’apport en onroerende goederen die in België liggen en die             société, d’immeubles situés en Belgique provenant voortkomen van een vennootschap onder firma, van een        d’une société en nom collectif ou en commandite, d’une commanditaire vennootschap, van een besloten                société privée ou d’une société coopérative. vennootschap of van een coöperatieve vennootschap.
 
@@ -5006,9 +5010,9 @@ Als al de vennoten maatschappelijke onroerende               Si tous les associ�
 
 - tweede lid, 2° gewijzigd door art. 15 van het decreet      - deuxième alinéa, 2° est modifié par art. 15 du décret du van 17 juli 2015 (B.S., 14.08.2015 ). De tekst is in         17 juillet 2015 (M.B., 14.08.2015). Texte est entré werking getreden op 14 augustus 2015 (art. 41) en vigueur le 14 août 2015 (art. 41)
 
-## Art. 2.9.1.0.5
+###### Art. 2.9.1.0.5
 
-Art. 2.9.1.0.5.
+###### Art. 2.9.1.0.5.
 
 Het verkooprecht wordt ook gevestigd op de verkrijging,      Le droit de vente est également établi sur l’acquisition, op welke wijze ook, door een of meer vennoten van            de quelque manière que ce soit, par un ou plusieurs onroerende goederen die in België liggen en die              associés, de biens immobiliers situés en Belgique et voortkomen van een naamloze vennootschap, van een            provenant d’une société anonyme, d’une société Europese vennootschap of van een Europese                    européenne ou d’une société coopérative européenne. coöperatieve vennootschap.
 
@@ -5019,9 +5023,9 @@ Het eerste lid is niet van toepassing bij een verkrijging    Le premier alinéa 
 - gewijzigd door art. 17 van het decreet van 21.12.2018      - modifié par l'art. 17 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Inwerkingtreding op 01.05.2019 (art.      28.12.2018). Entrée en vigueur le 01.05.2019 (art. 3 de 3 van het besluit van 05.04.2019 - B.S. l'arrêté du 05.04.2019 - M.B. 07.05.2019) 07.05.2019) - toegevoegd door art. 115 van het decreet van               - inséré par art. 115 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.1.0.6
+###### Art. 2.9.1.0.6
 
-Art. 2.9.1.0.6.
+###### Art. 2.9.1.0.6.
 
 § 1. Vonnissen en arresten die tot bewijs strekken van       § 1er. Les jugements et arrêts tendant à faire preuve een overeenkomst waarop de bepalingen van deze               d'une convention sur laquelle les dispositions de la afdeling van toepassing zijn, maar die nog niet aan het      présente section sont d'application mais qui n'ont pas verkooprecht onderworpen is, geven aanleiding tot de         encore été soumises au droit de vente, donnent lieu à la heffing van het verkooprecht.                                perception du droit de vente.
 
@@ -5039,9 +5043,9 @@ Het verkooprecht is ook van toepassing in geval van            Le droit de vente
 
 - toegevoegd door art. 116 van het decreet van                 - inséré par art. 116 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in          29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.1.0.7
+###### Art. 2.9.1.0.7
 
-Art. 2.9.1.0.7.
+###### Art. 2.9.1.0.7.
 
 In afwijking van artikel 2.10.1.0.1 wordt in geval van         Par dérogation à l'article 2.10.1.0.1, en cas d'attribution toebedeling bij verdeling of van afstand van onverdeelde       par partage ou de cession de parts indivises à un tiers qui delen aan een derde die bij overeenkomst een onverdeeld        a acquis conventionnellement une part indivise de biens deel heeft verkregen van goederen die toebehoren aan           appartenant à une ou à plusieurs personnes, le droit est een of meer personen, het verkooprecht geheven op de           perçu sur les quotités dont le tiers devient propriétaire delen waarvan de derde ten gevolge van de                      par l'effet de la convention en application de l'article overeenkomst eigenaar wordt, met toepassing van                2.9.3.0.1 et des articles 2.9.3.0.4 à 2.9.3.0.7. artikel 2.9.3.0.1 en artikel 2.9.3.0.4 tot en met artikel 2.9.3.0.7.
 
@@ -5053,13 +5057,13 @@ Het eerste lid is niet van toepassing als de derde, aan wie    Le premier aliné
 
 - toegevoegd door art. 117 van het decreet van                 - inséré par art. 117 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in          29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 2 – Belastingplichtigen                                   Section 2 - Contribuables
+#### Afdeling 2 – Belastingplichtigen                                   Section 2 - Contribuables
 
 ---- historiek ----                                            ---- historique ---- - afdeling 2 toegevoegd door art. 118 van het decreet van - section 2 inséré par art. 118 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in     (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.2.0.1
+###### Art. 2.9.2.0.1
 
-Art. 2.9.2.0.1.
+###### Art. 2.9.2.0.1.
 
 De belastingplichtige is de verkrijger van het zakelijk     Le contribuable est le cessionnaire du droit réel. recht.
 
@@ -5071,15 +5075,15 @@ Voor de belasting, vermeld in artikel 2.9.4.2.9, is de      Pour l'imposition me
 
 - toegevoegd door art. 119 van het decreet van              - inséré par art. 119 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 3 - Belastbare grondslag                              Section 3 - Base imposable
+#### Afdeling 3 - Belastbare grondslag                              Section 3 - Base imposable
 
 ---- historiek ----                                         ---- historique ----
 
 - afdeling 3 toegevoegd door art. 120 van het decreet van - section 3 inséré par art. 120 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in     (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.3.0.1
+###### Art. 2.9.3.0.1
 
-Art. 2.9.3.0.1.
+###### Art. 2.9.3.0.1.
 
 § 1. Het verkooprecht wordt vastgesteld op basis van het    § 1er. Le droit de vente est établi sur la base du montant bedrag van de overeengekomen prijs en lasten of het         du prix convenu et des charges ou du montant de la bedrag van de overeengekomen tegenprestatie ten laste       contrepartie convenue à charge du cessionnaire. van de verkrijger.
 
@@ -5091,9 +5095,9 @@ In afwijking van het eerste lid wordt het verkooprecht      Par dérogation au p
 
 - toegevoegd door art. 121 van het decreet van              - inséré par art. 121 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le werking getreden op 1 januari 2015 (art. 325)               01.01.2015 (art. 325)
 
-## Art. 2.9.3.0.2
+###### Art. 2.9.3.0.2
 
-Art. 2.9.3.0.2.
+###### Art. 2.9.3.0.2.
 (…)                                                         (…)
 
 ---- historiek ----                                         ---- historique ----
@@ -5102,9 +5106,9 @@ Art. 2.9.3.0.2.
 
 - § 1, derde lid vervangen door art. 16 van het decreet     - § 1er, troisième alinéa est modifié par art. 16 du décret van 17 juli 2015 (B.S., 14.08.2015 ). De tekst is in        du 17 juillet 2015 (M.B., 14.08.2015). Texte est werking getreden op 14 augustus 2015 (art. 41) entré en vigueur le 14 août 2015 (art. 41) - toegevoegd door art. 122 van het decreet van              - inséré par art. 122 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S. 29.01.2015 Ed.2). Inwerkingtreding         29.01.2015, Ed. 2 - erratum M.B. 12.09.2017). Texte op 01.01.2015 (art. 325)                                    est entré en vigueur le 01.01.2015 (art. 325))
 
-## Art. 2.9.3.0.3
+###### Art. 2.9.3.0.3
 
-Art. 2.9.3.0.3.
+###### Art. 2.9.3.0.3.
 
 (…)                                                         (…)
 
@@ -5116,9 +5120,9 @@ Art. 2.9.3.0.3.
 
 - toegevoegd door art. 123 van het decreet van              - inséré par art. 123 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.3.0.4
+###### Art. 2.9.3.0.4
 
-Art. 2.9.3.0.4.
+###### Art. 2.9.3.0.4.
 
 § 1. Als bij een overeenkomst als vermeld in artikel        § 1er. Lorsque, par un contrat tel que mentionné à 2.9.3.0.1, een levenslang vruchtgebruik op een              l'article 2.9.3.0.1, un usufruit viager est établi sur un onroerend goed wordt gevestigd, wordt de                    bien immobilier, la valeur vénale (vv), mentionnée à verkoopwaarde (vkw), vermeld in artikel 2.9.3.0.1, § 2,     l'article 2.9.3.0.1, § 2, est calculée selon la formule berekend volgens de volgende formule : vkw = a x b.         suivante : vv = a x b.
 
@@ -5146,9 +5150,9 @@ De verkoopwaarde, verkregen in het eerste lid, mag niet      La valeur vénale o
 
 - toegevoegd door art. 124 van het decreet van               - inséré par art. 124 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.3.0.5
+###### Art. 2.9.3.0.5
 
-Art. 2.9.3.0.5.
+###### Art. 2.9.3.0.5.
 
 Als bij een overeenkomst als vermeld in artikel 2.9.3.0.1,   Lorsque, par un contrat tel que mentionné à l'article de blote eigendom wordt overgedragen met voorbehoud          2.9.3.0.1, la nue-propriété est transmise sous réserve van het vruchtgebruik, mag de verkoopwaarde, vermeld         d'usufruit, la valeur vénale mentionnée à l'article in artikel 2.9.3.0.1, § 2, niet lager zijn dan de            2.9.3.0.1, § 2, ne peut être inférieure à la valeur vénale verkoopwaarde van de volle eigendom.                         de la pleine propriété.
 
@@ -5156,9 +5160,9 @@ Als bij een overeenkomst als vermeld in artikel 2.9.3.0.1,   Lorsque, par un con
 
 - toegevoegd door art. 125 van het decreet van               - inséré par art. 125 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.3.0.6
+###### Art. 2.9.3.0.6
 
-Art. 2.9.3.0.6.
+###### Art. 2.9.3.0.6.
 
 Als bij een overeenkomst als vermeld in artikel 2.9.3.0.1,   Lorsque, par un contrat tel que mentionné à l'article de blote eigendom wordt overgedragen zonder dat het          2.9.3.0.1, la nue-propriété est transmise, sans que vruchtgebruik door de vervreemder is voorbehouden,           l'usufruit ne soit réservé par l'aliénateur, la valeur vénale mag de verkoopwaarde, vermeld in artikel 2.9.3.0.1, § 2,     mentionnée à l'article 2.9.3.0.1, § 2, ne peut être niet lager zijn dan de verkoopwaarde van de volle            inférieure à la valeur vénale de la pleine propriété, eigendom, na aftrek van de waarde van het                    déduction faite de la valeur de l'usufruit calculé selon vruchtgebruik, berekend volgens artikel 2.9.3.0.4.           l'article 2.9.3.0.4.
 
@@ -5166,9 +5170,9 @@ Als bij een overeenkomst als vermeld in artikel 2.9.3.0.1,   Lorsque, par un con
 
 - toegevoegd door art. 126 van het decreet van               - inséré par art. 126 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.3.0.7
+###### Art. 2.9.3.0.7
 
-Art. 2.9.3.0.7.
+###### Art. 2.9.3.0.7.
 
 Als bij een overeenkomst als vermeld in artikel 2.9.3.0.1,   Si par une convention telle que mentionnée à l'article een vruchtgebruik op een onroerend goed op het hoofd         2.9.3.0.1, l'usufruit est ou a été constitué sur la tête de van twee of meer personen wordt gevestigd, met recht         deux ou plusieurs personnes avec droit d'accroissement van aanwas of van terugvalling, wordt voor de toepassing     ou de réversion, l'âge à prendre en considération pour van artikel 2.9.3.0.4 en artikel 2.9.3.0.6 rekening          l'application des articles 2.9.3.0.4 et 2.9.3.0.6 est celui de gehouden met de leeftijd van de jongste persoon.             la personne la plus jeune.
 
@@ -5176,9 +5180,9 @@ Als bij een overeenkomst als vermeld in artikel 2.9.3.0.1,   Si par une conventi
 
 - toegevoegd door art. 127 van het decreet van               - inséré par art. 127 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.3.0.8
+###### Art. 2.9.3.0.8
 
-Art. 2.9.3.0.8.
+###### Art. 2.9.3.0.8.
 
 Het verkooprecht, verschuldigd op akten waarbij              Le droit de vente dû sur les actes translatifs ou déclaratifs eigendom of vruchtgebruik van een handelszaak                de propriété ou d'usufruit d'un fonds de commerce est overgedragen wordt, wordt vastgesteld op basis van de in     établi selon les bases établies dans la présente section. deze afdeling vastgestelde grondslagen.
 
@@ -5188,9 +5192,9 @@ De schulden die al dan niet met de handelszaak in            Les dettes, affére
 
 - toegevoegd door art. 128 van het decreet van               - inséré par art. 128 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.3.0.9
+###### Art. 2.9.3.0.9
 
-Art. 2.9.3.0.9.
+###### Art. 2.9.3.0.9.
 
 In geval van een openbare verkoop van onroerende             En cas de vente publique de biens immobiliers en goederen, in verschillende loten, wordt het verkooprecht     plusieurs lots, le droit de vente est perçu sur le montant cumulé des lots soumis au même tarif.
 
@@ -5200,7 +5204,7 @@ geheven op het samengevoegde bedrag van de aan hetzelfde tarief onderworpen lote
 
 - toegevoegd door art. 129 van het decreet van               - inséré par art. 129 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 4 – Tarieven                                         Section 4 – Tarifs
+#### Afdeling 4 – Tarieven                                         Section 4 – Tarifs
 
 ---- historiek ----                                          ---- historique ----
 
@@ -5212,9 +5216,9 @@ geheven op het samengevoegde bedrag van de aan hetzelfde tarief onderworpen lote
 
 - onderafdeling 1 toegevoegd door art. 131 van het           - sous-section 1re inséré par art. 131 du décret du decreet van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De        19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré tekst is in werking getreden op 1 januari 2015 (art. 325)    en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.9.4.1.1
+###### Art. 2.9.4.1.1
 
-Art. 2.9.4.1.1.
+###### Art. 2.9.4.1.1.
 
 Het verkooprecht bedraagt 12 %.                              Le droit de vente se monte à 12 %.
 
@@ -5222,9 +5226,9 @@ Het verkooprecht bedraagt 12 %.                              Le droit de vente s
 
 - gewijzigd door art. 73 van het decreet van 23.12.2022      - modifié par l'art. 73 du décret du 23.12.2021 (M.B., (B.S., 29.12.2021). Inwerkingtreding: 01.01.2022             29.12.2021). En vigueur le 01.01.2022 - toegevoegd door art. 132 van het decreet van               - inséré par art. 132 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.4.1.2
+###### Art. 2.9.4.1.2
 
-Art. 2.9.4.1.2.
+###### Art. 2.9.4.1.2.
 
 Als een akte of geschrift, overeengekomen tussen             Lorsqu'un acte ou un écrit, convenu entre les mêmes dezelfde partijen, verschillende van elkaar afhankelijke     parties, contient des réglementations dépendantes l'une of noodzakelijk uit elkaar voortvloeiende regelingen         de l'autre ou découlant nécessairement l'une de l'autre, et bevat waaronder een verkoopovereenkomst die                  en vertu desquelles un contrat de vente est soumis au onderworpen is aan het verkooprecht, wordt de belasting      droit de vente, le droit qui est perçu est le droit qui est geheven die van toepassing is op de regeling die             d'application en vertu de la réglementation qui donne aanleiding geeft tot de heffing van de hoogste belasting,    lieu à la perception du droit le plus élevé, constaté en vastgesteld met toepassing van hoofdstuk 8 tot en met        application des chapitres 8 à 11. hoofdstuk 11.
 
@@ -5238,9 +5242,9 @@ Als een akte of geschrift, overeengekomen tussen             Lorsqu'un acte ou u
 
 - onderafdeling 2 toegevoegd door art. 134 van het           - sous-section 2 inséré par art. 134 du décret du decreet van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De        19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré tekst is in werking getreden op 1 januari 2015 (art. 325)    en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.9.4.2.1
+###### Art. 2.9.4.2.1
 
-Art. 2.9.4.2.1.
+###### Art. 2.9.4.2.1.
 
 (…)                                                          (…)
 
@@ -5250,9 +5254,9 @@ Art. 2.9.4.2.1.
 
 - gewijzigd door art. 17 van het decreet van 17 juli 2015    - modifié par art. 17 du décret du 17 juillet 2015 (M.B., (B.S., 14.08.2015 ). De tekst is in werking getreden op 14   14.08.2015). Texte est entré en vigueur le 14 août 2015 augustus 2015 (art. 41)                                      (art. 41)
 
-## Art. 2.9.4.2.2
+###### Art. 2.9.4.2.2
 
-Art. 2.9.4.2.2.
+###### Art. 2.9.4.2.2.
 
 (…)                                                          (…)
 
@@ -5262,9 +5266,9 @@ Art. 2.9.4.2.2.
 
 - toegevoegd door art. 136 van het decreet van               - inséré par art. 136 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.4.2.3
+###### Art. 2.9.4.2.3
 
-Art. 2.9.4.2.3.
+###### Art. 2.9.4.2.3.
 In afwijking van artikel 2.9.4.1.1 bedraagt het
 Par dérogation à l'article 2.9.4.1.1, le droit de vente se verkooprecht 1,50 % voor verkoopovereenkomsten van monte à 1,50 % pour les ventes d'habitation qui sont woningen die gesloten zijn door de Vlaamse conclues par la « Vlaamse Maatschappij voor Sociaal Maatschappij voor Sociaal Wonen of door de erkende Wonen » ou par les sociétés de logement reconnues woonmaatschappijen, vermeld in artikel 4.36 van de mentionnées à l'article 4.36 du Code flamand du Vlaamse Codex Wonen van 2021, en voor kopers die Logement de 2021, et pour les acheteurs qui répondent voldoen aan de voorwaarden, opgelegd ter uitvoering van aux conditions établies en exécution de l'article 4.27, artikel 4.27, 4.45 en 5.91 van de Vlaamse Codex Wonen 4.45 et 5.91 du Code flamand du Logement de 2021. van 2021.
 
@@ -5284,9 +5288,9 @@ Bekrachtigd door art. 224, 2° van het decreet van              Confirmé par l�
 20.09.2021.
 - toegevoegd door art. 137 van het decreet van                 - inséré par art. 137 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in          29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.4.2.4
+###### Art. 2.9.4.2.4
 
-Art. 2.9.4.2.4.
+###### Art. 2.9.4.2.4.
 
 § 1. In afwijking van artikel 2.9.4.1.1 wordt het tarief van   § 1er. Par dérogation à l'article 2.9.4.1.1, le tarif du droit het verkooprecht verlaagd tot 6% voor overeenkomsten           de vente est réduit à 6 pour cent pour les cessions à titre houdende overdrachten ten bezwarende titel, uit de hand        onéreux, faits de gré à gré et par acte authentique, à en bij authentieke akte, met uitsluiting van de inbrengen,     l'exception des apports visés à l'article 115bis du Code vermeld in artikel 115bis van het federale Wetboek van         fédéral des droits d'enregistrement, d'hypothèque et de Registratie-, Hypotheek- en Griffierechten, waarbij de         greffe à des personnes qui exercent la profession verkrijger een persoon is die zijn beroep maakt van het        d'acheter des immeubles en vue de la revente. kopen en verkopen van onroerende goederen.
 
@@ -5312,9 +5316,9 @@ Een andere beroepspersoon dan de persoon, vermeld in        Un professionnel non
 
 - §1 vervangen door art. 18 van het decreet van 17 juli     - § 1er est modifié par art. 18 du décret du 17 juillet 2015 2015 (B.S., 14.08.2015 ). De tekst is in werking getreden   (M.B., 14.08.2015). Texte est entré en vigueur le 14 août op 14 augustus 2015 (art. 41)                               2015 (art. 41)
 
-## Art. 2.9.4.2.5
+###### Art. 2.9.4.2.5
 
-Art. 2.9.4.2.5.
+###### Art. 2.9.4.2.5.
 
 § 1. Als de verkrijger, vermeld in artikel 2.9.4.2.4, § 1, of   § 1er. Si l'acquéreur mentionné à l'article ou ses ayants zijn rechthebbenden het verkregen onroerend goed niet           cause n'ont pas aliéné cet immeuble par revente ou par vervreemd hebben door een wederverkoop of elke andere           toute transmission à titre onéreux, constatée par acte overdracht onder bezwarende titel, vastgesteld bij een          authentique passé au plus tard le 31 décembre de la authentieke akte die uiterlijk verleden is op 31 december       huitième année qui suit la date de l'acte d'achat, le tarif van het achtste jaar na de datum van de koopakte, is het        mentionné à l'article 2.9.4.2.4, § 1er en vigueur à tarief, vermeld in artikel 2.9.4.1.1, dat van kracht is op      moment de l'achat est dû, déduction faite de l'impôt déjà het ogenblik van de aankoop, verschuldigd na aftrek van         perçu. de reeds geheven belasting.
 
@@ -5330,9 +5334,9 @@ Een wederverkoop aan een beroepspersoon met                     Une revente à u
 
 - gewijzigd door art. 19 van het decreet van 17 juli 2015       - modifié par art. 19 du décret du 17 juillet 2015 (M.B., (B.S., 14.08.2015 ). De tekst is in werking getreden op 14      14.08.2015). Texte est entré en vigueur le 14 août 2015 augustus 2015 (art. 41)                                         (art. 41)
 
-## Art. 2.9.4.2.6
+###### Art. 2.9.4.2.6
 
-Art. 2.9.4.2.6.
+###### Art. 2.9.4.2.6.
 
 Bij overlijden van de vertegenwoordiger van een                 En cas de décès du représentant d'un professionnel visé beroepspersoon als vermeld in artikel 2.9.4.2.4, § 2, 3°,       à l'article 2.9.4.2.4, § 2, 3°, de retrait de son agrément ou bij de intrekking van zijn erkenning of als hij onbekwaam       d'évènement entraînant son incapacité à agir comme wordt verklaard om als vertegenwoordiger op te treden,          représentant, il doit être pourvu à son remplacement dans moet binnen een termijn van zes maanden in zijn                 les six mois. vervanging voorzien worden.
 
@@ -5344,9 +5348,9 @@ Als de voorschriften, vermeld in het eerste lid, niet           Si les prescript
 
 - toegevoegd door art. 140 van het decreet van                 - inséré par art. 140 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in          29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.4.2.7
+###### Art. 2.9.4.2.7
 
-Art. 2.9.4.2.7.
+###### Art. 2.9.4.2.7.
 
 In afwijking van artikel 2.9.4.1.1 bedraagt het                Par dérogation à l'article 2.9.4.1.1, le droit de vente se verkooprecht 6% voor een koopovereenkomst ter                  monte à 6 % pour un contrat d'achat, pour la réalisation verwezenlijking van haar voorwerp :                            de son objet, par :
 
@@ -5362,9 +5366,9 @@ Het verlaagde tarief, vermeld in het eerste lid, is ook van    Le tarif réduit 
 
 - toegevoegd door art. 141 van het decreet van                 - inséré par art. 141 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in          29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.4.2.8
+###### Art. 2.9.4.2.8
 
-Art. 2.9.4.2.8.
+###### Art. 2.9.4.2.8.
 
 § 1. In afwijking van artikel 2.9.4.1.1 wordt het tarief van   § 1er. Par dérogation à l'article 2.9.4.1.1, le tarif du droit het verkooprecht verlaagd tot 6% voor de                       de vente est abaissé à 6% pour les échanges d'immeubles ruilovereenkomsten van ongebouwde landgoederen                 ruraux non bâtis dont la superficie de chacun des lots waarvan de oppervlakte van elk van de kavels niet meer         n’excède pas cinq hectares, si la différence de valeur ou bedraagt dan vijf hectare, op voorwaarde dat het               la soulte n'excède pas le quart de la valeur vénale du waardeverschil tussen elk van de kavels of de opleg een        moindre lot. vierde van de verkoopwaarde van de minste kavel niet te boven gaat.
 Pour l'application du tarif mentionné au premier alinéa, il
@@ -5383,9 +5387,9 @@ Hetzelfde geldt voor elke overschatting van de kavels die    Il en est de même 
 
 - toegevoegd door art. 142 van het decreet van               - inséré par art. 142 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.4.2.9
+###### Art. 2.9.4.2.9
 
-Art. 2.9.4.2.9.
+###### Art. 2.9.4.2.9.
 
 § 1. Een overeenkomst als vermeld in artikel 2.9.1.0.1,      § 1er. Une convention visée à l'article 2.9.1.0.1 est wordt onderworpen aan een tarief van 10 euro als ze niet     soumise à un tarif de 10 euros si elle n'a pas été constatée bij authentieke akte is vastgesteld, en als binnen de        par acte authentique et si, dans les délais visés aux termijnen, overeenkomstig artikel 32 of artikel 33 van het   articles 32 ou 33 du code fédéral des droits Griffierechten, samen met de ter registratie aangeboden      présenté ensemble à l'enregistrement, le document relatif akte of het ter registratie aangeboden geschrift een         à cette convention ainsi qu'une convention constatée par schriftelijk vastgestelde overeenkomst ter registratie       écrit dans laquelle toutes les parties à cette première wordt aangeboden waarin alle partijen verklaren de           convention déclarent avoir résolu ou annulé celle-ci à eerste overeenkomst in der minne te hebben ontbonden         l'amiable ou dans laquelle elles déclarent qu'une of vernietigd of waarin ze verklaren dat een in de eerste    condition résolutoire expresse stipulée dans la première overeenkomst uitdrukkelijk bedongen ontbindende              convention s'est réalisée. voorwaarde al is vervuld.
 
@@ -5403,9 +5407,9 @@ Het tarief, vermeld in het eerste lid, geldt niet voor de    Ce tarif ne vaut pa
 
 - toegevoegd door art. 143 van het decreet van                - inséré par art. 143 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.4.2.10
+###### Art. 2.9.4.2.10
 
-Art. 2.9.4.2.10.
+###### Art. 2.9.4.2.10.
 
 § 1. Het tarief, vermeld in artikel 2.9.4.1.1, wordt voor     § 1er. Le tarif, visé à l’article 2.9.4.1.1, pour les contrats overeenkomsten gesloten voor 1 januari 2025 gehalveerd        de vente conclus avant le 1er janvier 2025, est réduit de voor verkrijgingen onder bezwarende titel bij authentieke     moitié par des acquisitions à titre onéreux par acte akte van de geheelheid eigendom van een beschermd             authentique de la totalité de la propriété d’un monument monument als vermeld in artikel 2.1, 16°, van het             protégé tel que visé à l’article 2.1, 16° du Décret relatif Onroerenderfgoeddecreet van 12 juli 2013, met                 au patrimoine immobilier du 12 juillet 2013, à uitzondering van ruilovereenkomsten die onder de              l’exception des conventions d’échange relevant de toepassing vallen van artikel 2.9.7.0.2.                      l’application de l’article 2.9.7.0.2.
 § 2. Voor de toepassing van het verlaagde tarief, vermeld     § 2. Pour l’application du tarif réduit, visé au paragraphe in paragraaf 1, moeten de volgende voorwaarden vervuld        1er, les conditions suivantes doivent être remplies : zijn:
@@ -5440,9 +5444,9 @@ Het voordeel van de toepassing van de                         L’avantage de l�
 
 - ingevoegd door art. 7 van het decreet van 21.04.2017.       - inséré par l'art. 7 du décret du 21.04.2017. Texte en Tekst in werking getreden op 14.05.2017                       vigueur le 14.05.2017
 
-## Art. 2.9.4.2.11
+###### Art. 2.9.4.2.11
 
-Art. 2.9.4.2.11.
+###### Art. 2.9.4.2.11.
 
 § 1. In afwijking van artikel 2.9.4.1.1 bedraagt het          § 1er Par dérogation à l'article 2.9.4.1.1, le droit de vente verkooprecht 2 % voor overeenkomsten houdende                 s'élève à 2 % pour les contrats d'acquisition pure d'une zuivere aankoop van volle eigendom, waarbij uitsluitend       pleine propriété, aux termes desquels exclusivement une door een of meer natuurlijke personen samen en                ou plusieurs personnes physiques acquièrent ensemble et gelijktijdig de geheelheid volle eigendom van een             simultanément la totalité en pleine propriété d'un woning wordt verkregen om er hun                              immeuble affecté ou destiné à hoofdverblijfplaats te vestigen.                              l'habitation en vue d'y établir leur résidence principale.
 In afwijking van het eerste lid bedraagt het tarief 6% voor   Par dérogation à l'alinéa premier, le tarif est de 6 % pour overeenkomsten houdende zuivere aankoop waarvan de            les contrats d'acquisition pure dont l'acte authentique est authentieke akte uiterlijk op 31 december 2023 is             passé au plus tard le 31 décembre 2023, si l'acquéreur verleden, als de verkrijger opteert voor de vermindering,     opte pour la réduction, visée à l'article 2.9.5.0.1, ou le vermeld in artikel 2.9.5.0.1, of de ontheffing, vermeld in    dégrèvement, visé à l'article 3.6.0.0.6, § 3. artikel 3.6.0.0.6, § 3.
@@ -5485,9 +5489,9 @@ De koper die de voorwaarden, vermeld in het eerste lid,       L’acheteur qui n
 
 - ingevoegd door art. 5 van het decreet van 18.05.2018          - inséré par l’art. 5 du décret du 18.05.2018 (M.B. : (B.S.: 28.05.2018). Tekst is van toepassing op                  28.05.2018). Texte s’applique aux contrats de vente verkoopovereenkomsten afgesloten vanaf 1 juni 2018              conclus à partir du 1er juin 2018.
 
-## Art. 2.9.4.2.12
+###### Art. 2.9.4.2.12
 
-Art. 2.9.4.2.12.
+###### Art. 2.9.4.2.12.
 
 § 1. Het verlaagde tarief, vermeld in artikel 2.9.4.2.11, §     § 1er Le tarif réduit, visé à l'article 2.9.4.2.11, § 1, alinéa 1, eerste lid, wordt verminderd tot 1% voor                     premier, est réduit jusqu'à 1 % pour les contrats de vente verkoopovereenkomsten gesloten voor 1 januari 2025,             conclus avant le 1er janvier 2025, s'il a été satisfait à als aan al de volgende voorwaarden is voldaan:                  toutes les conditions suivantes :
 
@@ -5547,9 +5551,9 @@ De koper die de voorwaarden, vermeld in het eerste lid,         L’acheteur qui
 
 - ingevoegd door art. 6 van het decreet van 18.05.2018        - inséré par l’art. 6 du décret du 18.05.2018 (M.B. : (B.S.: 28.05.2018). Tekst is van toepassing op                28.05.2018). Texte s’applique aux contrats de vente verkoopovereenkomsten afgesloten vanaf 1 juni 2018            conclus à partir du 1er juin 2018.
 
-## Art. 2.9.4.2.13
+###### Art. 2.9.4.2.13
 
-Art. 2.9.4.2.13.
+###### Art. 2.9.4.2.13.
 § 1. In afwijking van artikel 2.9.4.1.1 bedraagt het          § 1er. Par dérogation à l'article 2.9.4.1.1, le droit de vente verkooprecht 7 % voor overeenkomsten houdende                 s'élève à 7 % pour les contrats d'acquisition pure, aux zuivere aankoop, waarbij door een of meer natuurlijke         termes desquels une ou plusieurs personnes physiques personen samen en gelijktijdig de geheelheid volle            acquièrent ensemble et simultanément la totalité en eigendom van een woning wordt verkregen als aan de            pleine propriété d'une habitation s'il a été satisfait aux volgende voorwaarden is voldaan:                              conditions suivantes :
 
 1° de verkrijger verbindt zich ertoe om binnen een            1° l'acquéreur s'engage à conclure avec une agence termijn van drie jaar vanaf de datum van de authentieke       immobilière sociale un contrat de location d'une durée akte een huurovereenkomst met een minimumduur van 9           minimum de 9 ans pour le bien acquis en application des jaar voor het aangekochte goed af te sluiten met een          et conformément aux conditions, visées à l'article 4.55, erkende woonmaatschappij met toepassing van en                alinéas 2 et 3, du Code flamand du Logement de 2021 et conform de voorwaarden opgelegd ter uitvoering van            à l'article 4.168 de l'arrêté Code flamand du Logement artikel 4.40, 4°, van de Vlaamse Codex Wonen van 2021         de 2021 [lire 'société de logement agréée en application ;                                                             des et conformément aux conditions établies en exécution de l'article 4.40, 4°, du Code flamand du Logement de 2021', voir version nl] et ce dans un délai de trois ans à partir de la date de la signature de l'acte authentique ;
@@ -5574,9 +5578,9 @@ De koper die de voorwaarden, vermeld in het eerste lid,     L'acheteur qui n'a p
 - gewijzigd door art. 20 van het decreet van 21.12.2018     - modifié par l'art. 20 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst is van toepassing op               28.12.2018). Texte s’applique aux contrats de vente verkoopovereenkomsten afgesloten vanaf 1 juni 2018          conclus à partir du 1er juin 2018 - ingevoegd door art. 7 van het decreet van 18.05.2018      - inséré par l’art. 7 du décret du 18.05.2018 (M.B. : (B.S.: 28.05.2018). Tekst is van toepassing op              28.05.2018). Texte s’applique aux contrats de vente verkoopovereenkomsten afgesloten vanaf 1 juni 2018          conclus à partir du 1er juin 2018.
 
-## Art. 2.9.4.2.14
+###### Art. 2.9.4.2.14
 
-Art. 2.9.4.2.14.
+###### Art. 2.9.4.2.14.
 
 § 1. Het verlaagde tarief, vermeld in artikel 2.9.4.2.11,   § 1er. Le tarif réduit, visé à l'article 2.9.4.2.11, est réduit wordt verminderd tot 1 % wanneer deze verkrijging naast     à 1 % lorsque cette acquisition, outre la condition visée de voorwaarde, vermeld in artikel 2.9.4.2.11, § 2, eerste   à l'article 2.9.4.2.11, § 2, alinéa 1er, 1°, satisfait lid, 1°, ook voldoet aan de voorwaarden, vermeld in         également aux conditions visées à l'article 2.9.4.2.10. artikel 2.9.4.2.10.
 
@@ -5626,9 +5630,9 @@ De koper die de voorwaarden, vermeld in het eerste lid,       L’acheteur qui n
 
 - ingevoegd door art. 8 van het decreet van 18.05.2018           - inséré par l’art. 8 du décret du 18.05.2018 (M.B. : (B.S.: 28.05.2018). Tekst is van toepassing op                   28.05.2018). Texte s’applique aux contrats de vente verkoopovereenkomsten afgesloten vanaf 1 juni 2018               conclus à partir du 1er juin 2018.
 
-## Art. 2.9.4.2.15
+###### Art. 2.9.4.2.15
 
-Art. 2.9.4.2.15.
+###### Art. 2.9.4.2.15.
 § 1. In afwijking van artikel 2.9.4.1.1 bedraagt het             § 1. Par dérogation à l'article 2.9.4.1.1, le droit de vente verkooprecht 10% voor verkoopovereenkomsten van                  s'élève à 10 % pour les contrats de vente de biens onbebouwde        onroerende         goederen         die        immobiliers non bâtis exclusivement et entièrement stedenbouwkundig uitsluitend en volledig zijn bestemd            destinés sur le plan urbanistique à l'agriculture ou voor landbouw of die uitsluitend en volledig liggen in de        exclusivement et entièrement situés dans la catégorie de
 
 categorie gebiedsaanduiding landbouw of een                    zones affectées à l'agriculture ou dans une sous-catégorie subcategorie van de gebiedsaanduiding landbouw en              de zones affectées à l'agriculture et de biens immobiliers onbebouwde onroerende goederen waarvoor een                    non bâtis pour lesquels un plan de gestion de la nature natuurbeheerplan type twee of drie als vermeld in artikel      type deux ou trois visé à l'article 16ter, § 1, 2° et 3°, du 16ter, § 1, 2° en 3°, van het decreet van 21 oktober 1997      décret du 21 octobre 1997 concernant la conservation de betreffende het natuurbehoud en het natuurlijk milieu, is      la nature et le milieu naturel, a été approuvé goedgekeurd conform artikel 16octies van het voormelde         conformément à l'article 16octies du décret précité. decreet.
@@ -5639,13 +5643,13 @@ categorie gebiedsaanduiding landbouw of een                    zones affectées 
 
 ---- historiek ----                                            ---- historique ---- - gewijzigd door art. 15 van het decreet van 16.12.2022        - modifié par l’art. 15 du décret du 16.12.2022 (M.B., (B.S., 29.12.2022). Inwerkingtreding: 01.01.2023               29.12.2022) . En vigueur le 01.01.2023 - Ingevoegd door art. 77 van het decreet van 23.12.2021        - Inséré par l’art. 77 du décret du 23.12.2021 (M.B., (B.S., 29.12.2021). Inwerkingtreding: 01.01.2022               29.12.2021) . En vigueur le 01.01.2022
 
-##### Afdeling 5 – Verminderingen                                       Section 5 – Réductions
+#### Afdeling 5 – Verminderingen                                       Section 5 – Réductions
 
 ---- historiek ----                                            ---- historique ---- - afdeling 5 toegevoegd door art. 144 van het decreet van      - section 5 inséré par art. 144 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in          (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.5.0.1
+###### Art. 2.9.5.0.1
 
-Art. 2.9.5.0.1.
+###### Art. 2.9.5.0.1.
 
 In geval van zuivere aankoop van een tot bewoning            En cas d'acquisition pure d'un immeuble affecté ou aangewend of bestemd onroerend goed waarvan de               destiné à l'habitation dont l'acte authentique est passé au authentieke akte uiterlijk op 31 december 2023 wordt         plus tard le 31 décembre 2023 par une personne physique verleden door een natuurlijke persoon om er zijn             en vue d'y établir sa résidence principale, sa partie légale hoofdverblijfplaats te vestigen, wordt zijn wettelijk        dans les droits dus conformément aux article 2.9.4.1.1, aandeel in de belastingen die met toepassing van artikel     article 2.9.4.2.11, article 2.9.4.2.12, article 2.9.4.2.13 ou, 2.9.4.1.1, artikel 2.9.4.2.11, artikel 2.9.4.2.12, artikel   sur l'acquisition de l'habitation dont l'acte authentique a 2.9.4.2.13 of artikel 2.9.4.2.14, verschuldigd waren op de   été passé avant le 1er janvier 2022 et qui lui a servi aankoop van de woning waarvan de authentieke akte            auparavant comme résidence principale ou du terrain à voor 1 januari 2022 werd verleden en die hem voorheen        bâtir sur lequel cette habitation est construite, décomptée tot hoofdverblijfplaats heeft gediend of van de              de sa partie légale dans les droits dus à la nouvelle bouwgrond waarop die woning is opgericht, in mindering       acquisition, à condition que l'acte authentique de la gebracht van zijn wettelijk aandeel in de belastingen,       nouvelle acquisition est passé dans les deux ans après la verschuldigd op de nieuwe aankoop, op voorwaarde dat         date de la passation de l'acte authentique ayant donné lieu de authentieke akte van de nieuwe aankoop is verleden        à une des opérations suivantes : binnen twee jaar na de datum van het verlijden van de authentieke akte die aanleiding heeft gegeven of geeft tot een van de volgende handelingen :
 1° de heffing van het verkooprecht op de zuivere             1° à l'établissement du droit de vente, soit sur la revente wederverkoop van de woning die hem voorheen tot              pure de l'habitation affectée antérieurement à sa hoofdverblijfplaats heeft gediend, of de heffing van het     résidence principale, soit sur droit de partage de cette verdeelrecht op de verdeling van die woning waarbij de       habitation, la personne physique ayant cédé tous ses natuurlijke persoon al zijn rechten erin heeft afgestaan;    droits ;
@@ -5670,9 +5674,9 @@ Het in mindering te brengen bedrag, verkregen met               Le montant à r�
 
 - gewijzigd door art. 20 van het decreet van 17 juli 2015     - modifié par art. 20 du décret du 17 juillet 2015 (M.B., (B.S., 14.08.2015 ). De tekst is in werking getreden op 14    14.08.2015). Texte est entré en vigueur le 14 août 2015 augustus 2015 (art. 41)                                       (art. 41)
 
-## Art. 2.9.5.0.2
+###### Art. 2.9.5.0.2
 
-Art. 2.9.5.0.2.
+###### Art. 2.9.5.0.2.
 
 Aan de vermindering, vermeld in artikel 2.9.5.0.1, zijn de    A la réduction mentionnée à l'article 2.9.5.0.1, sont liées volgende voorwaarden verbonden :                              les conditions suivantes :
 1° aan de verplichting, vermeld in artikel 3.12.3.0.1, § 1,   1° il est satisfait à l'obligation mentionnée à l'article is voldaan en de verklaringen, vermeld in artikel             3.12.3.0.1, § 1er, et les déclarations mentionnées à 3.12.3.0.1, § 4, tweede of vierde lid, zijn gedaan;           l'article 3.12.3.0.1, § 4, deuxième au quatrième alinéa, ont été faites ;
@@ -5695,9 +5699,9 @@ Als een van de voorwaarden, vermeld in het eerste lid,        Si une des conditi
 
 - toegevoegd door art. 146 van het decreet van                - inséré par art. 146 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.5.0.3
+###### Art. 2.9.5.0.3
 
-Art. 2.9.5.0.3.
+###### Art. 2.9.5.0.3.
 
 In geval van onjuistheid van de vermeldingen,                 Au cas où les mentions prescrites par l'article 2.9.5.0.2, voorgeschreven bij artikel 2.9.5.0.2, eerste lid, 2°, is de   premier alinéa, 2°, seraient inexactes, la personne natuurlijke persoon gehouden tot betaling van de              physique est tenue au paiement des droits aanvullende rechten.                                          complémentaires.
 
@@ -5707,9 +5711,9 @@ In geval van niet-naleving van de verbintenis tot het          En cas de non-res
 
 - toegevoegd door art. 147 van het decreet van                  - inséré par art. 147 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in           29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.5.0.4
+###### Art. 2.9.5.0.4
 
-Art. 2.9.5.0.4.
+###### Art. 2.9.5.0.4.
 
 Voor de toepassing van artikel 2.9.5.0.1 tot en met artikel     Pour l'application des articles 2.9.5.0.1 à 2.9.5.0.3 et pour 2.9.5.0.3 en voor de toepassing van artikel 3.6.0.0.6, § 3,     l'application de l'article 3.6.0.0.6, § 3, est assimilée à une wordt met een verrichting als vermeld in artikel 2.9.5.0.1,     opération au sens de l'article 2.9.5.0.1, alinéa premier, ou eerste lid, of in artikel 3.6.0.0.6, § 3, eerste lid,           de l'article 3.6.0.0.6, § 3, alinéa premier, une gelijkgesteld een combinatie van twee van dergelijke            combinaison de deux opérations semblables pour verrichtingen waarbij de voorlaatste aankoop van de             laquelle l'avant-dernière acquisition assujettie au droit de heffing van het verkooprecht is vrijgesteld met                 vente proportionnel en a été exonérée en application de toepassing van artikel 2.9.6.0.1, eerste lid, 4°.               l'article 2.9.6.0.1, alinéa premier, 4°.
 
@@ -5741,9 +5745,9 @@ b) dat hij zijn hoofdverblijfplaats had gevestigd op de            b) qu'il a é
 
 - toegevoegd door art. 148 van het decreet van                     - inséré par art. 148 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in              29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.5.0.5
+###### Art. 2.9.5.0.5
 
-Art. 2.9.5.0.5.
+###### Art. 2.9.5.0.5.
 § 1. Si le tarif réduit visé à l'article 2.9.4.2.11, § 1, alinéa
 § 1. Als er voor alle verkrijgers toepassing wordt gemaakt premier, ou à l'article 2.9.4.2.12, § 1, alinéa premier, est van het verlaagde tarief, vermeld in artikel 2.9.4.2.11, § appliqué à tous les acquéreurs, et si la base imposable 1, eerste lid, of artikel 2.9.4.2.12, § 1, eerste lid, en als de totale du bien immobilier n'excède pas 220 000 euros, totale belastbare grondslag van het onroerend goed niet une réduction des droits est accordée de respectivement hoger is dan 220.000 euro, wordt er een 2 800 euros ou 960 euros sur le total des droits qui ont rechtenvermindering toegestaan van respectievelijk 2800 été calculés sur l'acquisition. Si le droit de vente dû est euro of 960 euro op het totaal van de op de aankoop inférieur, selon le cas, à 2800 euros ou à 960 euros, la berekende rechten. Als het verschuldigde verkooprecht réduction des droits est réduite jusqu'au montant de ce lager is dan, naargelang het geval, hetzij 2800 euro, hetzij droit de vente.
 960 euro, dan wordt de rechtenvermindering verlaagd tot het bedrag van dit verkooprecht.
@@ -5769,15 +5773,15 @@ Voor de onroerende goederen gelegen op het                   Pour les biens immo
 
 - ingevoegd door art. 10 van het decreet van 18.05.2018      - inséré par l’art. 10 du décret du 18.05.2018 (M.B. : (B.S.: 28.05.2018). Tekst is van toepassing op               28.05.2018). Texte s’applique aux contrats de vente verkoopovereenkomsten afgesloten vanaf 1 juni 2018           conclus à partir du 1er juin 2018.
 
-##### Afdeling 6 - Vrijstellingen                                  Section 6 – Exonérations
+#### Afdeling 6 - Vrijstellingen                                  Section 6 – Exonérations
 
 ---- historiek ----                                          ---- historique ----
 
 - Afdeling 6 toegevoegd door art. 149 van het decreet van    - section 6 inséré par art. 149 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.6.0.1
+###### Art. 2.9.6.0.1
 
-Art. 2.9.6.0.1.
+###### Art. 2.9.6.0.1.
 
 Er wordt een vrijstelling van het verkooprecht verleend      Sont exemptés du droit de vente : voor :
 
@@ -5829,9 +5833,9 @@ Als onroerende goederen verkregen worden in andere              Si des immeubles
 
 - zevende lid vervangen door art. 21 van het decreet van        - septième alinéa est modifié par art. 21 du décret du 17 17 juli 2015 (B.S., 14.08.2015 ). De tekst is in werking        juillet 2015 (M.B., 14.08.2015). Texte est entré en getreden op 14 augustus 2015 (art. 41) vigueur le 14 août 2015 (art. 41)
 
-## Art. 2.9.6.0.2
+###### Art. 2.9.6.0.2
 
-Art. 2.9.6.0.2.
+###### Art. 2.9.6.0.2.
 
 Er wordt een vrijstelling van het verkooprecht verleend         Une exonération du droit de vente est octroyée pour : voor :
 
@@ -5876,9 +5880,9 @@ Om de vrijstelling, vermeld in het eerste lid, te            Pour obtenir l'exon
 
 - gewijzigd door art. 20 van het decreet van 08.12.2017      - modifié par l'art. 20 du décret du 08.12.2017 (M.B.: (B.S.: 14.12.2017). Tekst in werking getreden op             14.12.2017). Texte entre en vigueur le 24.12.2017 24.12.2017 - gewijzigd door art. 42 van het decreet van 23.12.2016    - modifié par l'art. 42 du décret du 23.12.2016 (M.B.: (B.S.: 30.12.2016). Tekst in werking getreden op 8 januari 30.12.2016). Texte entre en vigueur le 8 janvier 2017 - toegevoegd door art. 151 van het decreet van               - inséré par art. 151 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.6.0.3
+###### Art. 2.9.6.0.3
 
-Art. 2.9.6.0.3.
+###### Art. 2.9.6.0.3.
 
 Er wordt een vrijstelling van het verkooprecht verleend      Une exonération du droit de vente est accordée pour : voor:
 
@@ -5910,9 +5914,9 @@ Het verkooprecht is alsnog verschuldigd door de                Le droit de vente
 
 - toegevoegd door art. 152 van het decreet van                - inséré par art. 152 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.6.0.4
+###### Art. 2.9.6.0.4
 
-Art. 2.9.6.0.4.
+###### Art. 2.9.6.0.4.
 
 Er wordt een vrijstelling van het verkooprecht verleend       Une exonération du droit de vente est accordée dans le voor de ruilovereenkomsten van onbebouwde                     cas de conventions d'échange de bien ruraux non bâtis landeigendommen waarvan de oppervlakte van elk van            dont la superficie de chacun des lots n’excède pas cinq de kavels niet meer bedraagt dan vijf hectare, op             hectares,, à condition qu'il n'y ait aucune différence de voorwaarde dat er tussen elk van de kavels geen               valeur ou soulte entre chacun des lots. waardeverschil of opleg is.
 
@@ -5922,9 +5926,9 @@ Er wordt een vrijstelling van het verkooprecht verleend       Une exonération d
 
 - toegevoegd door art. 153 van het decreet van                - inséré par art. 153 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.6.0.5
+###### Art. 2.9.6.0.5
 
-Art. 2.9.6.0.5.
+###### Art. 2.9.6.0.5.
 In afwijking van artikel 2.9.1.0.3 wordt een vrijstelling     Par dérogation à l'article 2.9.1.0.3, une exonération du van het verkooprecht verleend voor :                          droit de vente est accordée pour :
 
 1° de omvorming van een vennootschap met                      1° la conversion d'une société possédant la personnalité rechtspersoonlijkheid in een vennootschap van een             morale en une société d'un différent type et la conversion verschillende soort en de omzetting van een vereniging        d'une association sans but lucratif en une société zonder winstoogmerk in een coöperatieve vennootschap          coopérative reconnue comme société à finalité sociale. erkend als sociale onderneming. Dit punt is ook van           Ce point s'applique également si la conversion a lieu par toepassing als de omvorming plaatsvindt via een               le biais d'une liquidation, suivie de la constitution d'une vereffening, gevolgd door de oprichting van een nieuwe        nouvelle société, si cette constitution est prévue dans vennootschap, als in die oprichting voorzien wordt in de      l'acte de mise en liquidation et si elle a lieu dans les akte van invereffeningstelling en als ze binnen vijftien      quinze jours suivant l'acte ; dagen na de akte plaatsvindt;
@@ -5945,9 +5949,9 @@ In alle gevallen, vermeld in het eerste lid, is het           Dans tous les cas,
 - gewijzigd door art. 25 van het decreet van 21.12.2018       - modifié par l'art. 25 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Inwerkingtreding op 01.05.2019 (art.       28.12.2018). Entrée en vigueur le 01.05.2019 (art. 3 de 3 van het besluit van 05.04.2019 - B.S. 07.05.2019)           l'arrêté du 05.04.2019 - M.B. 07.05.2019) - toegevoegd door art. 154 van het decreet van                - inséré par art. 154 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.6.0.6
+###### Art. 2.9.6.0.6
 
-Art. 2.9.6.0.6.
+###### Art. 2.9.6.0.6.
 
 Er wordt een vrijstelling van het verkooprecht verleend       Une exonération du droit de vente est accordée pour des voor vonnissen en arresten houdende vernietiging,             jugements et arrêts portant annulation, résolution ou ontbinding of herroeping van een overeenkomst als             révocation d'une convention telle que visée à l'article vermeld in artikel 2.9.1.0.1, waarbij eigendom of             2.9.1.0.1, en vertu de laquelle la propriété ou l'usufruit vruchtgebruik wordt overgedragen van onroerende               d'immeubles situés en Belgique sont cédés. goederen die in België liggen.
 
@@ -5957,9 +5961,9 @@ Als de vernietiging, ontbinding of herroeping, vermeld in     Si l'annulation, l
 
 - toegevoegd door art. 155 van het decreet van                - inséré par art. 155 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.6.0.7
+###### Art. 2.9.6.0.7
 
-Art. 2.9.6.0.7.
+###### Art. 2.9.6.0.7.
 
 § 1. De waarde van de onbebouwde onroerende goederen          § 1er. La valeur des biens immobiliers non bâtis pour waarvoor een natuurbeheerplan type vier als vermeld in        lesquels un plan de gestion de la nature type quatre tel artikel 16ter, § 1, 4°, van het decreet van 21 oktober 1997   que visé à l’article 16ter, § 1er, 4°, du décret du 21 betreffende het natuurbehoud en het natuurlijk milieu, is     octobre 1997 concernant la conservation de la nature et goedgekeurd conform artikel 16octies van het voormelde        le milieu naturel a été approuvé conformément à l’article decreet, wordt volledig van het verkooprecht vrijgesteld.     16octies du décret précité, est entièrement exemptée du De vrijstelling geldt zowel voor de grond- als voor de        droit de vente. L’exemption s’applique tant pour la opstandswaarde.                                               valeur du terrain que pour celle des peuplements.
 
@@ -5976,15 +5980,15 @@ De vrijstelling, vermeld in het eerste lid, wordt verleend    L’exemption vis�
 - ingevoegd door art. 17 van het decreet van 22.12.2017       - inséré par l’art. 17 du décret du 22.12.2017 (M.B.
 (B.S. 21.02.2018). Tekst treedt in werking op 09.06.2018      21.02.2018). Texte entre en vigueur le 09.06.2018 (art.1 (art. 1 besluit 04.05.2018 B.S. 30.05.2018)                   de l’arr. du 04.05.2018 – M.B. 30.05.2018)
 
-##### Afdeling 7 - Wijze van heffing                               Section 7 - Mode de perception
+#### Afdeling 7 - Wijze van heffing                               Section 7 - Mode de perception
 
 ---- historiek ----                                           ---- historique ----
 
 - afdeling 7 toegevoegd door art. 156 van het decreet van     - section 7 inséré par art. 156 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le werking getreden op 1 januari 2015 (art. 325)                 01.01.2015 (art. 325)
 
-## Art. 2.9.7.0.1
+###### Art. 2.9.7.0.1
 
-Art. 2.9.7.0.1.
+###### Art. 2.9.7.0.1.
 Het verkooprecht wordt geheven in overeenstemming             Le droit de vente est levé conformément aux dispositions met de bepalingen van artikel 3.3.2.0.1, 9°, en artikel       des articles 3.3.2.0.1, 9° et 3.3.3.0.1, § 4 /2.
 3.3.3.0.1, § 4/2.
 
@@ -5992,9 +5996,9 @@ Het verkooprecht wordt geheven in overeenstemming             Le droit de vente 
 
 - toegevoegd door art. 157 van het decreet van               - inséré par art. 157 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.7.0.2
+###### Art. 2.9.7.0.2
 
-Art. 2.9.7.0.2.
+###### Art. 2.9.7.0.2.
 
 Voor ruilovereenkomsten wordt het verkooprecht               Dans le cas de conventions d'échange, le droit de vente gevestigd op basis van het bedrag van de                     est fixé sur la base du montant de la valeur convenue de overeengekomen waarde van het onroerend goed waarop          l'immeuble auquel le contrat d'échange a trait et qui de ruilovereenkomst betrekking heeft, dat aanleiding         donne lieu à la perception du droit le plus élevé. geeft tot heffing van het hoogste recht.
 
@@ -6006,9 +6010,9 @@ Bij       ruilovereenkomsten       van      onbebouwde       Dans le cas de conv
 
 - toegevoegd door art. 158 van het decreet van               - inséré par art. 158 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.7.0.3
+###### Art. 2.9.7.0.3
 
-Art. 2.9.7.0.3.
+###### Art. 2.9.7.0.3.
 
 § 1. De belastingplicht, de belastbare grondslag, het        § 1er. L'obligation fiscale, la base imposable, le tarif, les tarief, de vrijstellingen en de verminderingen worden        exonérations et les réductions sont fixés par le moment bepaald door het ogenblik waarop de rechtshandeling is       où l'acte juridique a été posé. gesteld.
 
@@ -6026,9 +6030,9 @@ De rechtshandeling die door een rechtspersoon wordt          L'acte juridique po
 
 - toegevoegd door art. 159 van het decreet van               - inséré par art. 159 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.7.0.4
+###### Art. 2.9.7.0.4
 
-Art. 2.9.7.0.4.
+###### Art. 2.9.7.0.4.
 
 In geval van een handelszaak wordt het verkooprecht          Dans le cas d'un fonds de commerce, le droit de vente est vastgesteld volgens de aard van elk goed dat er deel van     fixé selon la nature de chaque bien qui en fait partie. uitmaakt.
 
@@ -6036,9 +6040,9 @@ In geval van een handelszaak wordt het verkooprecht          Dans le cas d'un fo
 
 - toegevoegd door art. 160 van het decreet van               - inséré par art. 160 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.9.7.0.5
+###### Art. 2.9.7.0.5
 
-Art. 2.9.7.0.5.
+###### Art. 2.9.7.0.5.
 
 Voor de toepassing van artikel 115bis van het federale       Pour l'application de l'article 115bis du Code fédéral des Wetboek van Registratie-, Hypotheek- en Griffierechten       droits d'enregistrement, d'hypothèque et de greffe, et du , en titel 2, hoofdstuk 9 van deze Codex moet de             titre 2, chapitre 9 du présent Code l'affectation ou la aanwending of de bestemming van een onroerend goed           destination d'un immeuble doit s'apprécier par parcelle worden nagegaan per kadastraal perceel of per gedeelte       cadastrale ou par partie de parcelle cadastrale lorsqu'une van kadastraal perceel als dat gedeelte ofwel een            telle partie forme soit un logement séparé, soit un afzonderlijke huisvesting is, ofwel een afdeling van de      département ou une division de production ou d'activités productie of van de werkzaamheden die, of een onderdeel      susceptibles de fonctionner séparément, soit une unité daarvan dat, afzonderlijk kan werken, ofwel een eenheid      dissociable des autres biens ou parties formant la die van de andere goederen of delen die het perceel          parcelle. vormen, kan worden afgezonderd.
 
@@ -6047,18 +6051,18 @@ Voor de toepassing van artikel 115bis van het federale       Pour l'application 
 - gewijzigd door art. 11 van het decreet van 18.05.2018      - modifié par l’art. 11 du décret du 18.05.2018 (M.B. : (B.S.: 28.05.2018). Tekst is van toepassing op               28.05.2018). Texte s’applique aux contrats de vente verkoopovereenkomsten afgesloten vanaf 1 juni 2018           conclus à partir du 1er juin 2018.
 
 - toegevoegd door art. 161 van het decreet van               - inséré par art. 161 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
-#### Hoofdstuk 10 – Verdeelrecht                                Chapitre 10 - Droit de partage.
+### Hoofdstuk 10 – Verdeelrecht                                Chapitre 10 - Droit de partage.
 ---- historiek ----                                          ---- historique ---- - hoofdstuk 10 toegevoegd door art. 162 van het decreet      - chapitre 10 ajouté par art. 162 du décret du 19.12.2014 van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in    (M.B., 29.01.2015, Ed. 2). Texte est entré werking getreden op 1 januari 2015 (art. 325)                en vigueur le 01.01.2015 (art. 325)
 
-##### Afdeling 1 - Belastbaar voorwerp                                  Section 1re - Objet imposable
+#### Afdeling 1 - Belastbaar voorwerp                                  Section 1re - Objet imposable
 
 ---- historiek ----                                             ---- historique ----
 
 - afdeling 1 toegevoegd door art. 163 van het decreet van       - Section 1re inséré par art. 163 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in           (M.B., 29.01.2015, Ed. 2). Texte est entré werking getreden op 1 januari 2015 (art. 325)                   en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.10.1.0.1
+###### Art. 2.10.1.0.1
 
-Art. 2.10.1.0.1.
+###### Art. 2.10.1.0.1.
 
 Overeenkomstig artikel 1, artikel 19 en artikel 31 van het      Conformément aux articles 1er, 19 et 31 du Code fédéral Griffierechten wordt het verdeelrecht gevestigd naar            droit de partage est fixé des suites de l'enregistrement ou aanleiding van de registratie of de verplichting tot            de l'obligation d'enregistrement d'actes ou d'écrits qui registratie van akten of geschriften die als titel gelden van   valent comme titre d'un contrat portant sur : een overeenkomst houdende :
 
@@ -6075,9 +6079,9 @@ Overeenkomstig artikel 1, artikel 19 en artikel 31 van het      Conformément au
 
 - toegevoegd door art. 164 van het decreet van                  - inséré par art. 164 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in           29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.1.0.2
+###### Art. 2.10.1.0.2
 
-Art. 2.10.1.0.2.
+###### Art. 2.10.1.0.2.
 
 § 1. Vonnissen en arresten die tot bewijs strekken van een      § 1er. Les jugements et arrêts faisant titre d'une overeenkomst waarop de bepalingen van deze afdeling             convention à laquelle les dispositions de la présente van toepassing zijn, maar die nog niet aan het                  section s'appliquent, mais qui n'a pas encore été soumise verdeelrecht onderworpen is, geven aanleiding tot de            au droit de partage, donnent lieu à la perception du droit heffing van het verdeelrecht.                                   de partage.
 
@@ -6094,9 +6098,9 @@ België uitvoerbaar is.
 
 - toegevoegd door art. 165 van het decreet van                 - inséré par art. 165 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in          29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.1.0.3
+###### Art. 2.10.1.0.3
 
-Art. 2.10.1.0.3.
+###### Art. 2.10.1.0.3.
 
 Met behoud van de toepassing van artikel 2.10.1.0.1            Sans préjudice de l'application de l'article 2.10.1.0.1., wordt, behoudens vestiging van de belasting, vermeld in        hormis fixation de l'impôt, visé aux chapitres 9 et 11, le hoofdstukken 9 en 11, het verdeelrecht gevestigd op een        droit de partage est fixé sur un apport de biens inbreng van onroerende goederen als vermeld in artikel         immeubles, tels que visés à l'article 115bis du Code 115bis van het federale Wetboek van Registratie-,              fédéral des droits d'enregistrement, d'hypothèque et de Hypotheek- en Griffierechten in een Belgische                  greffe, dans une société belge à mesure que cet apport est vennootschap naarmate die inbreng anders vergoed               rémunéré autrement que moyennant octroi de droits wordt dan bij de toekenning van maatschappelijke               sociaux. rechten.
 
@@ -6112,9 +6116,9 @@ Dit artikel is ook van toepassing op de oprichting van       Le présent article
 
 - toegevoegd door art. 166 van het decreet van               - inséré par art. 166 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.1.0.4
+###### Art. 2.10.1.0.4
 
-Art. 2.10.1.0.4.
+###### Art. 2.10.1.0.4.
 
 De bepalingen van dit hoofdstuk zijn niet van toepassing     Les dispositions du présent chapitre ne s'appliquent pas op de uitvoering van een beding van terugval of van          à l'exécution d'une clause de régression ou aanwas.                                                      d'accroissement.
 
@@ -6122,15 +6126,15 @@ De bepalingen van dit hoofdstuk zijn niet van toepassing     Les dispositions du
 
 - toegevoegd door art. 167 van het decreet van               - inséré par art. 167 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 2 – Belastingplichtigen                                Section 2 – Contribuables
+#### Afdeling 2 – Belastingplichtigen                                Section 2 – Contribuables
 
 ---- historiek ----                                          ---- historique ----
 
 - afdeling 2 toegevoegd door art. 168 van het decreet van    - section 2 inséré par art. 168 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.2.0.1
+###### Art. 2.10.2.0.1
 
-Art. 2.10.2.0.1.
+###### Art. 2.10.2.0.1.
 
 De belastingplichtige is de verkrijger van het zakelijk      Le contribuable est l'acquéreur du droit réel. recht.
 
@@ -6138,13 +6142,13 @@ De belastingplichtige is de verkrijger van het zakelijk      Le contribuable est
 
 - toegevoegd door art. 169 van het decreet van               - inséré par art. 169 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 3 - Belastbare grondslag                               Section 3 - Base imposable
+#### Afdeling 3 - Belastbare grondslag                               Section 3 - Base imposable
 
 ---- historiek ----                                          ---- historique ---- - afdeling 3 toegevoegd door art. 170 van het decreet van    - section 3 inséré par art. 170 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.3.0.1
+###### Art. 2.10.3.0.1
 
-Art. 2.10.3.0.1.
+###### Art. 2.10.3.0.1.
 
 § 1. Het verdeelrecht wordt vastgesteld op basis van de       § 1er. Le droit de partage est fixé sur la base de la valeur overeengekomen waarde van de goederen, zoals ze blijkt        convenue des biens telle qu'elle ressort des dispositions uit de bepalingen van de akte, zonder dat de belastbare       de l'acte, sans que la base imposable puisse être grondslag lager dan de verkoopwaarde mag zijn.                inférieure à la valeur vénale.
 
@@ -6158,9 +6162,9 @@ Voor de goederen waarvan de akte de onverdeeldheid            Pour les biens pou
 
 - toegevoegd door art. 171 van het decreet van                - inséré par art. 171 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.3.0.2
+###### Art. 2.10.3.0.2
 
-Art. 2.10.3.0.2.
+###### Art. 2.10.3.0.2.
 
 (…)                                                           (…)
 
@@ -6168,9 +6172,9 @@ Art. 2.10.3.0.2.
 
 - opgeheven door art. 21 van het decreet van 08.12.2017       - abrogé par l'art. 21 du décret du 08.12.2017 (M.B.: (B.S.: 14.12.2017). Tekst in werking                          14.12.2017). Texte entre en vigueur le 24.12.2017 getreden op 24.12.2017 - zevende lid toegevoegd door art. 22 van het decreet van     - septième alinéa est ajouté par art. 22 du décret du 17 17 juli 2015 (B.S., 14.08.2015 ). De tekst is in werking      juillet 2015 (M.B., 14.08.2015). Texte est entré en vigueur getreden op 14 augustus 2015 (art. 41)                        le 14 août 2015 (art. 41)
 
-## Art. 2.10.3.0.3
+###### Art. 2.10.3.0.3
 
-Art. 2.10.3.0.3.
+###### Art. 2.10.3.0.3.
 
 De rechten die verschuldigd zijn op akten waarbij             Les droits qui sont dus sur des actes indiquant la eigendom of vruchtgebruik van een handelszaak                 propriété ou l'usufruit d'un fonds de commerce sont levés aangewezen wordt, worden geheven op de bij dit                en fonction des bases imposables fixées par le présent hoofdstuk vastgestelde belastbare grondslagen.                chapitre.
 
@@ -6178,15 +6182,15 @@ De schulden die al dan niet met de handelszaak in             Les dettes, en rap
 
 ---- historiek ----                                           ---- historique ---- - toegevoegd door art. 173 van het decreet van                - inséré par art. 173 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 4 – Tarieven                                          Section 4 – Tarifs
+#### Afdeling 4 – Tarieven                                          Section 4 – Tarifs
 
 ---- historiek ----                                           ---- historique ----
 
 - afdeling 4 toegevoegd door art. 174 van het decreet van     - section 4 inséré par art. 174 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.4.0.1
+###### Art. 2.10.4.0.1
 
-Art. 2.10.4.0.1.
+###### Art. 2.10.4.0.1.
 
 Het verdeelrecht bedraagt 2,5 %.                              Le droit de partage s'élève à 2,5 %.
 
@@ -6202,9 +6206,9 @@ Het verlaagde tarief, vermeld in het tweede lid, is ook van   Le tarif réduit, 
 
 - tweede lid werd vervangen door art. 95 van het decreet      - alinéa 2 est remplacé par art. 95 du décret du 18 déc. van 18 dec. 2015 (B.S., 29.12.2015). De tekst is in           2015 (M.B., 29.12.2015). Texte est entré en vigueur le 1er werking getreden op 1 januari 2016 (art. 135)                 janvier 2016 (art. 135)
 
-## Art. 2.10.4.0.2
+###### Art. 2.10.4.0.2
 
-Art. 2.10.4.0.2.
+###### Art. 2.10.4.0.2.
 
 Als een akte of geschrift, overeengekomen tussen              Si un acte ou un écrit, convenu entre les mêmes parties, dezelfde partijen, verschillende van elkaar afhankelijke      contient différents règlements dépendant les uns des of noodzakelijk uit elkaar voortvloeiende regelingen          autres ou découlant nécessairement les uns des autres bevat waaronder een rechtshandeling als vermeld in            dont un acte juridique tel que visé à l'article 2.10.1.0.1, artikel 2.10.1.0.1, die onderworpen is aan het                qui est soumis au droit de partage, l'impôt est levé tel verdeelrecht, wordt de belasting geheven die van              qu'il s'applique au règlement qui donne lieu à la toepassing is op de regeling die aanleiding geeft tot de      perception de l'impôt le plus élevé, fixé en application heffing van de hoogste belasting, vastgesteld met             des chapitres 8 à 11 inclus. toepassing van hoofdstuk 8 tot en met hoofdstuk 11.
 
@@ -6214,15 +6218,15 @@ Als een akte of geschrift, overeengekomen tussen             Si un acte ou un é
 
 - toegevoegd door art. 176 van het decreet van               - inséré par art. 176 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 5 – Verminderingen                                     Section 5 – Réductions
+#### Afdeling 5 – Verminderingen                                     Section 5 – Réductions
 
 ---- historiek ----                                          ---- historique ----
 
 - afdeling 5 toegevoegd door art. 177 van het decreet van    - section 5 inséré par art. 177 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.5.0.1
+###### Art. 2.10.5.0.1
 
-Art. 2.10.5.0.1.
+###### Art. 2.10.5.0.1.
 
 Voorbehouden voor toekomstig gebruik                         Réservé pour utilisation future.
 
@@ -6230,15 +6234,15 @@ Voorbehouden voor toekomstig gebruik                         Réservé pour util
 
 - toegevoegd door art. 178 van het decreet van               - inséré par art. 178 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 6 - Vrijstellingen                                  Section 6 – Exonérations
+#### Afdeling 6 - Vrijstellingen                                  Section 6 – Exonérations
 
 ---- historiek ----                                          ---- historique ----
 
 - afdeling 6 toegevoegd door art. 179 van het decreet van    - section 6 inséré par art. 179 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.6.0.1
+###### Art. 2.10.6.0.1
 
-Art. 2.10.6.0.1.
+###### Art. 2.10.6.0.1.
 
 Er wordt een vrijstelling van het verdeelrecht verleend      Une exonération du droit de partage est accordée pour : voor :
 
@@ -6259,9 +6263,9 @@ Om de vrijstelling, vermeld in het eerste lid, 2°, te          Pour obtenir l'e
 
 - toegevoegd door art. 180 van het decreet van                 - inséré par art. 180 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in          29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.6.0.2
+###### Art. 2.10.6.0.2
 
-Art. 2.10.6.0.2.
+###### Art. 2.10.6.0.2.
 
 (…)                                                            (…)
 
@@ -6271,9 +6275,9 @@ Art. 2.10.6.0.2.
 
 - toegevoegd door art. 181 van het decreet van                 - inséré par art. 181 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in          29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.6.0.3
+###### Art. 2.10.6.0.3
 
-Art. 2.10.6.0.3.
+###### Art. 2.10.6.0.3.
 
 Er wordt een vrijstelling van het verdeelrecht verleend    Une exemption du droit de partage est accordée pour les voor de overeenkomsten tot overdracht van onroerende       conventions de cession de biens immeubles, telles que
 
@@ -6293,9 +6297,9 @@ Het verdeelrecht is alsnog verschuldigd door de               Le droit de partag
 
 - toegevoegd door art. 182 van het decreet van                - inséré par art. 182 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.6.0.4
+###### Art. 2.10.6.0.4
 
-Art. 2.10.6.0.4.
+###### Art. 2.10.6.0.4.
 
 Er wordt een vrijstelling van het verdeelrecht verleend       Il est accordé une exemption du droit de partage pour les voor vonnissen en arresten houdende vernietiging,             jugements ou arrêts portant annulation, résolution ou ontbinding of herroeping van een overeenkomst als             révocation d'une convention telle que visée à l'article vermeld in artikel 2.10.1.0.1, waarbij eigendom of
 
@@ -6307,15 +6311,15 @@ Als de vernietiging, ontbinding of herroeping, vermeld in     Si l'annulation, l
 
 - toegevoegd door art. 183 van het decreet van                - inséré par art. 183 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 7 - Wijze van heffing                             Section 7 - Modalité de perception
+#### Afdeling 7 - Wijze van heffing                             Section 7 - Modalité de perception
 
 ---- historiek ----                                           ---- historique ----
 
 - afdeling 7 toegevoegd door art. 184 van het decreet van     - section 7 inséré par art. 184 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.7.0.1
+###### Art. 2.10.7.0.1
 
-Art. 2.10.7.0.1.
+###### Art. 2.10.7.0.1.
 
 Het verdeelrecht wordt geheven in overeenstemming met         Le droit de partage est levé conformément aux de bepalingen van artikel 3.3.2.0.1, 9°, en artikel           dispositions de l'article 3.3.2.0.1, 9°, et de l'article 3.3.3.0.1, § 4/2.                                             3.3.3.0.1, § 4/2.
 
@@ -6323,9 +6327,9 @@ Het verdeelrecht wordt geheven in overeenstemming met         Le droit de partag
 
 - toegevoegd door art. 185 van het decreet van                - inséré par art. 185 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.7.0.2
+###### Art. 2.10.7.0.2
 
-Art. 2.10.7.0.2.
+###### Art. 2.10.7.0.2.
 
 § 1. De belastingplicht, de belastbare grondslag, het         § 1er. La redevabilité, la base imposable, le tarif, les tarief, de vrijstellingen en de verminderingen worden         exemptions et les réductions sont déterminés par le bepaald door het ogenblik waarop de rechtshandeling is        moment où l'acte juridique est posé. gesteld.
 
@@ -6343,30 +6347,30 @@ De rechtshandeling die door een rechtspersoon verricht       L'acte juridique qu
 
 - toegevoegd door art. 186 van het decreet van               - inséré par art. 186 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.10.7.0.3
+###### Art. 2.10.7.0.3
 
-Art. 2.10.7.0.3.
+###### Art. 2.10.7.0.3.
 
 In geval van een handelszaak wordt het verdeelrecht          En cas de fonds de commerce, le droit de partage est fixé vastgesteld volgens de aard van elk goed dat er deel van     selon la nature de chaque bien qui en fait partie. uitmaakt.
 
 ---- historiek ----                                          ---- historique ----
 
 - toegevoegd door art. 187 van het decreet van               - inséré par art. 187 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
-#### Hoofdstuk 11 - Recht op hypotheekvestiging               Chapitre 11 - droit sur la constitution d'hypothèque
+### Hoofdstuk 11 - Recht op hypotheekvestiging               Chapitre 11 - droit sur la constitution d'hypothèque
 
 ---- historiek ----                                          ---- historique ----
 
 - hoofdstuk 11 toegevoegd door art. 188 van het decreet      - chapitre 11 ajouté par art. 188 du décret du 19.12.2014 van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in    (M.B., 29.01.2015, Ed. 2). Texte est entré werking getreden op 1 januari 2015 (art. 325)                en vigueur le 01.01.2015 (art. 325)
 
-##### Afdeling 1 - Belastbaar voorwerp                               Section 1re - Objet imposable
+#### Afdeling 1 - Belastbaar voorwerp                               Section 1re - Objet imposable
 
 ---- historiek ----                                          ---- historique ----
 
 - afdeling 1 toegevoegd door art. 189 van het decreet van    - section 1re inséré par art. 189 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        (M.B., 29.01.2015, Ed. 2). Texte est entré werking getreden op 1 januari 2015 (art. 325)                en vigueur le 01.01.2015 (art. 325
 
-## Art. 2.11.1.0.1
+###### Art. 2.11.1.0.1
 
-Art. 2.11.1.0.1.
+###### Art. 2.11.1.0.1.
 
 Overeenkomstig artikel 1, artikel 19 en artikel 31 van het   Conformément à l'article 1er, à l'article 19 et à l'article Griffierechten wordt het recht op hypotheekvestiging         d'hypothèque et de greffe, le droit sur la constitution
 
@@ -6376,9 +6380,9 @@ gevestigd naar aanleiding van de registratie of de           d'hypothèque est �
 
 - toegevoegd door art. 190 van het decreet van               - inséré par art. 190 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.11.1.0.2
+###### Art. 2.11.1.0.2
 
-Art. 2.11.1.0.2.
+###### Art. 2.11.1.0.2.
 
 Met behoud van de toepassing van artikel 2.11.1.0.1          Sans préjudice de l'application de l'article 2.11.1.0.1, le wordt, behoudens vestiging van de belasting, vermeld in      droit sur la constitution d'hypothèque est établi, hormis hoofdstukken 9 en 10, het recht op hypotheekvestiging        l'établissement des droits visés aux chapitres 9 et 10, sur gevestigd op een inbreng van onroerende goederen als         un apport de biens immeubles, tel que visé à l'article vermeld in artikel 115bis van het federale Wetboek van       115bis du Code fédéral des droits d'enregistrement Registratie-, Hypotheek- en Griffierechten in een            d'hypothèque et de greffe, dans une société belge si cet Belgische vennootschap als die inbreng anders vergoed        apport est rémunéré autrement que par l'attribution de wordt dan bij de toekenning van maatschappelijke             droits sociaux et si l'apport donne lieu à la nouvelle rechten en als die inbreng aanleiding geeft tot de nieuwe    inscription. inschrijving.
 
@@ -6392,13 +6396,13 @@ Dit artikel is ook van toepassing op de oprichting van       Cet article est d'a
 
 - toegevoegd door art. 191 van het decreet van               - inséré par art. 191 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 2 – Belastingplichtigen                                  Section 2 – Redevables
+#### Afdeling 2 – Belastingplichtigen                                  Section 2 – Redevables
 
 ---- historiek ----                                          ---- historique ---- - afdeling 2 toegevoegd door art. 192 van het decreet van    - section 2 inséré par art. 192 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.11.2.0.1
+###### Art. 2.11.2.0.1
 
-Art. 2.11.2.0.1.
+###### Art. 2.11.2.0.1.
 
 De belastingplichtige is de hypotheeksteller.                Le redevable est l'affectant hypothécaire.
 
@@ -6406,15 +6410,15 @@ De belastingplichtige is de hypotheeksteller.                Le redevable est l'
 
 - toegevoegd door art. 193 van het decreet van               - inséré par art. 193 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 3 - Belastbare grondslag                               Section 3 - Base imposable
+#### Afdeling 3 - Belastbare grondslag                               Section 3 - Base imposable
 
 ---- historiek ----                                          ---- historique ----
 
 - afdeling 3 toegevoegd door art. 194 van het decreet van    - section 3 inséré par art. 194 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.11.3.0.1
+###### Art. 2.11.3.0.1
 
-Art. 2.11.3.0.1.
+###### Art. 2.11.3.0.1.
 
 Het recht op hypotheekvestiging wordt vastgesteld op         Le droit sur la constitution d'hypothèque est fixé sur la basis van het bedrag van de sommen die door de               base du montant des sommes qui sont garanties par hypotheek gewaarborgd zijn, met uitsluiting van de           l'hypothèque à l'exclusion des intérêts ou arrérages de interesten of rentetermijnen van drie jaar, die              trois ans, qui sont garantis par l'article 87 de la loi gewaarborgd zijn door artikel 87 van de Hypotheekwet         hypothécaire du 16 décembre 1851. van 16 december 1851.
 
@@ -6422,15 +6426,15 @@ Het recht op hypotheekvestiging wordt vastgesteld op         Le droit sur la con
 
 - toegevoegd door art. 195 van het decreet van               - inséré par art. 195 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 4 - Tarieven                                         Section 4 – Tarifs
+#### Afdeling 4 - Tarieven                                         Section 4 – Tarifs
 
 ---- historiek ----                                          ---- historique ----
 
 - afdeling 4 toegevoegd door art. 196 van het decreet van    - section 4 inséré par art. 196 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.11.4.0.1
+###### Art. 2.11.4.0.1
 
-Art. 2.11.4.0.1.
+###### Art. 2.11.4.0.1.
 
 Het recht op hypotheekvestiging bedraagt 1 %.                Le droit sur la constitution d'hypothèque s'élève à 1 %.
 
@@ -6438,18 +6442,18 @@ Het recht op hypotheekvestiging bedraagt 1 %.                Le droit sur la con
 
 - toegevoegd door art. 197 van het decreet van               - inséré par art. 197 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le werking getreden op 1 januari 2015 (art. 325)                01.01.2015 (art. 325)
 
-## Art. 2.11.4.0.2
+###### Art. 2.11.4.0.2
 
-Art. 2.11.4.0.2.
+###### Art. 2.11.4.0.2.
 De belasting, vermeld in artikel 2.11.4.0.1, is van          Les droits, visés à l'article 2.11.4.0.1, sont d'application toepassing, zelfs als de hypotheek gevestigd is tot          même si l'hypothèque a été constituée en sûreté d'une zekerheid van een toekomstige schuld, van een                dette future, d'une dette conditionnelle ou éventuelle ou voorwaardelijke of eventuele schuld of van een               d'un engagement à faire quelque chose. verbintenis om iets te doen.
 
 ---- historiek ----                                          ---- historique ----
 
 - toegevoegd door art. 198 van het decreet van               - inséré par art. 198 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.11.4.0.3
+###### Art. 2.11.4.0.3
 
-Art. 2.11.4.0.3.
+###### Art. 2.11.4.0.3.
 
 De vestiging van een hypotheek op een onroerend goed         La constitution d'une hypothèque sur un immeuble pour tot zekerheid van een schuld die gewaarborgd is door een     sûreté d'une dette garantie par une hypothèque sur un hypotheek op een schip dat niet naar zijn aard voor het      navire qui n'est pas destiné par nature au transport zeevervoer bestemd is, door de verpanding van een            maritime, par un gage sur fonds de commerce ou par un handelszaak of door een landbouwvoorrecht, die aan het       privilège agricole qui sont soumis au droit, visé à l’article recht, vermeld in artikel 88 van het federale Wetboek van    88 du Code fédéral des droits d’Enregistrement, Registratie-, Hypotheek- en Griffierechten, zijn             d’Hypothèque et de Greffe, est assujettie au droit réduit onderworpen, wordt onderworpen aan een verlaagd tarief       de 0,50 %. van 0,50 %.
 
@@ -6460,9 +6464,9 @@ De vestiging van een hypotheek op een onroerend goed         La constitution d'u
 
 - toegevoegd door art. 199 van het decreet van               - inséré par art. 199 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.11.4.0.4
+###### Art. 2.11.4.0.4
 
-Art. 2.11.4.0.4.
+###### Art. 2.11.4.0.4.
 
 Als een akte, overeengekomen tussen dezelfde partijen,       Si un acte, convenu entre les mêmes parties, contient verschillende van elkaar afhankelijke of noodzakelijk uit    différents régimes interdépendants ou découlant elkaar voortvloeiende regelingen bevat waaronder een         nécessairement l'un de l'autre, dont une constitution vestiging van een hypotheek op een onroerend goed dat        d'une hypothèque sur un bien immeuble qui est soumise onderworpen is aan het recht op hypotheekvestiging,          au droit sur la constitution d'hypothèque, sont perçus les wordt de belasting geheven die van toepassing is op de       droits applicables au régime qui donne lieu à la regeling die aanleiding geeft tot de heffing van de          perception des droits les plus élevés, déterminés en hoogste belasting, vastgesteld met toepassing van            application des chapitres 8 à 11 inclus. hoofdstuk 8 tot en met hoofdstuk 11.
 
@@ -6473,15 +6477,15 @@ Als een akte, overeengekomen tussen dezelfde partijen,       Si un acte, convenu
 
 - toegevoegd door art. 200 van het decreet van               - inséré par art. 200 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2 erratum M.B., 04.03.2015). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 5 - Verminderingen                                     Section 5 – Réductions
+#### Afdeling 5 - Verminderingen                                     Section 5 – Réductions
 
 ---- historiek ----                                          ---- historique ----
 
 - afdeling 5 toegevoegd door art. 201 van het decreet van    - section 5 insérée par l’art. 201 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        (M.B., 29.01.2015, Ed. 2). Texte est entré werking getreden op 1 januari 2015 (art. 325)                en vigueur le 01.01.2015 (art. 325)
 
-## Art. 2.11.5.0.1
+###### Art. 2.11.5.0.1
 
-Art. 2.11.5.0.1.
+###### Art. 2.11.5.0.1.
 
 Voorbehouden voor toekomstig gebruik.                        Réservé pour une utilisation ultérieure.
 
@@ -6489,15 +6493,15 @@ Voorbehouden voor toekomstig gebruik.                        Réservé pour une 
 
 - toegevoegd door art. 202 van het decreet van               - inséré par art. 202 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 6 - Vrijstellingen                                   Section 6 - Exemptions
+#### Afdeling 6 - Vrijstellingen                                   Section 6 - Exemptions
 
 ---- historiek ----                                          ---- historique ----
 
 - afdeling 6 toegevoegd door art. 203 van het decreet van    - section 6 inséré par art. 203 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.11.6.0.1
+###### Art. 2.11.6.0.1
 
-Art. 2.11.6.0.1.
+###### Art. 2.11.6.0.1.
 
 Er wordt een vrijstelling van het recht op                   Une exemption du droit sur la constitution d'hypothèque hypotheekvestiging verleend voor elke vestiging van een      est accordée pour toute constitution d'une hypothèque hypotheek die na de heffing van de belasting, vermeld in     qui est autorisée, après la perception des droits visés à artikel 2.11.3.0.1 of in artikel 87 van het federale         l'article 2.11.3.0.1 ou à l’article 87 du Code fédéral des Wetboek van Registratie-, Hypotheek- en Griffierechten,      Droits d’Enregistrement, d’Hypothèque et de Greffe, en wordt toegestaan tot zekerheid van dezelfde                  sûreté de la même créance pour le même montant schuldvordering voor hetzelfde gewaarborgde bedrag.          garanti.
 
@@ -6508,32 +6512,32 @@ Er wordt een vrijstelling van het recht op                   Une exemption du dr
 
 - toegevoegd door art. 204 van het decreet van               - inséré par art. 204 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.11.6.0.2
+###### Art. 2.11.6.0.2
 
-Art. 2.11.6.0.2.
+###### Art. 2.11.6.0.2.
 
 Er wordt een vrijstelling van het recht op                   Une exemption du droit sur la constitution d'hypothèque hypotheekvestiging verleend voor de gewaarborgde             est accordée pour l'engagement garanti qui découle d'une verbintenis die voortvloeit uit een overeenkomst waarop      convention sur laquelle est perçu impôt d'enregistrement een registratiebelasting van minstens 1% is geheven.         d'au moins 1 %.
 
 ---- historiek ----                                          ---- historique ---- - toegevoegd door art. 205 van het decreet van               - inséré par art. 205 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.11.6.0.3
+###### Art. 2.11.6.0.3
 
-Art. 2.11.6.0.3.
+###### Art. 2.11.6.0.3.
 
 Er wordt een vrijstelling van het recht op                   Une exonération de droit sur la constitution hypotheekvestiging verleend voor de akten in der minne       d'hypothèque est accordée pour les actes à l'amiable die betrekking hebben op onroerende goederen die             portant sur des biens immobiliers exclusivement uitsluitend bestemd zijn voor onderwijs, en die verleden     destinés à l'enseignement, et qui sont passés au nom ou zijn op naam van of ten voordele van de inrichtende          en faveur des pouvoirs organisateurs de l'enseignement machten van het gemeenschapsonderwijs of het                 communautaire ou subventionné, ou au nom ou en gesubsidieerd onderwijs, of op naam van of ten               faveur d'associations sans but lucratif de gestion voordele van verenigingen zonder winstoogmerk voor           patrimoniale dont le seul but est de mettre des biens patrimoniaal beheer die uitsluitend tot doel hebben          immobiliers à la disposition de l'enseignement dispensé onroerende goederen ter beschikking te stellen voor          par les pouvoirs organisateurs précités. onderwijs dat door de voormelde inrichtende machten wordt verstrekt.
 ---- historiek ----                                          ---- historique ----
 
 - ingevoegd door art. 46 van het decreet van 02.04.2021      - inséré par l'art. 46 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021             15.04.2021). En vigueur le 25.04.2021
 
-##### Afdeling 7 - Wijze van heffing                            Section 7 - Modalité de perception
+#### Afdeling 7 - Wijze van heffing                            Section 7 - Modalité de perception
 
 ---- historiek ----                                          ---- historique ----
 
 - afdeling 7 toegevoegd door art. 206 van het decreet van    - section 7 inséré par art. 206 du décret du 19.12.2014 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.11.7.0.1
+###### Art. 2.11.7.0.1
 
-Art. 2.11.7.0.1.
+###### Art. 2.11.7.0.1.
 
 Het recht op hypotheekvestiging wordt geheven in             Le droit sur la constitution d'hypothèque est perçu overeenstemming met de bepalingen van artikel                conformément aux dispositions de l'article 3.3.2.0.1, 9°, 3.3.2.0.1, 9°, en artikel 3.3.3.0.1, § 4/2.                  et de l'article 3.3.3.0.1, § 4/2.
 
@@ -6541,9 +6545,9 @@ Het recht op hypotheekvestiging wordt geheven in             Le droit sur la con
 
 - toegevoegd door art. 207 van het decreet van               - inséré par art. 207 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.11.7.0.2
+###### Art. 2.11.7.0.2
 
-Art. 2.11.7.0.2.
+###### Art. 2.11.7.0.2.
 
 § 1. De belastingplicht, de belastbare grondslag, het        § 1er. La redevabilité, la base imposable, le tarif, les tarief, de vrijstellingen en de verminderingen worden        exemptions et les réductions sont déterminés par le bepaald door het ogenblik waarop de rechtshandeling is       moment où l'acte juridique est posé. gesteld.
 
@@ -6560,22 +6564,22 @@ De rechtshandeling die door een rechtspersoon verricht       L'acte juridique qu
 
 - toegevoegd door art. 208 van het decreet van               - inséré par art. 208 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 2.11.7.0.3
+###### Art. 2.11.7.0.3
 
-Art. 2.11.7.0.3.
+###### Art. 2.11.7.0.3.
 
 In geval van een handelszaak wordt het recht van             En cas de fonds de commerce, le droit sur les hypotheekvestiging vastgesteld volgens de aard van elk       constitutions d'hypothèque est fixé selon la nature de goed dat er deel van uitmaakt.                               chaque bien qui en fait partie.
 
 ---- historiek ----                                          ---- historique ----
 
 - toegevoegd door art. 209 van het decreet van               - inséré par art. 209 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
-#### Hoofdstuk 12 - Belasting op de spelen en                         Chapitre 12 - Taxe sur les jeux et paris weddenschappen
+### Hoofdstuk 12 - Belasting op de spelen en                         Chapitre 12 - Taxe sur les jeux et paris weddenschappen
 
-##### Afdeling 1 - Belastbaar voorwerp                                 Section 1re - Objet imposable
+#### Afdeling 1 - Belastbaar voorwerp                                 Section 1re - Objet imposable
 
-## Art. 2.12.1.0.1
+###### Art. 2.12.1.0.1
 
-Art. 2.12.1.0.1.
+###### Art. 2.12.1.0.1.
 
 Overeenkomstig artikel 3, eerste lid, 1°, van de             Conformément à l’article 3, alinéa premier, 1°, de loi bijzondere wet van 16 januari 1989 betreffende de            spéciale du 16 janvier 1989 relative au financement des financiering van de gemeenschappen en de gewesten            Communautés et des Régions, une taxe est levée sur les wordt er een belasting geheven op de spelen en               jeux et paris. weddenschappen.
 
@@ -6584,11 +6588,11 @@ Overeenkomstig artikel 3, eerste lid, 1°, van de             Conformément à l
 - ingevoegd door art. 5 van het decreet van 07.12.2018        - inséré par l’art. 5 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking getreden op               20.12.2018). Texte entre en vigueur le 01.01.2019 01.01.2019
 
-##### Afdeling 2 - Belastingplichtigen                                 Section 2 – Contribuables
+#### Afdeling 2 - Belastingplichtigen                                 Section 2 – Contribuables
 
-## Art. 2.12.2.0.1
+###### Art. 2.12.2.0.1
 
-Art. 2.12.2.0.1.
+###### Art. 2.12.2.0.1.
 
 De belastingplichtige is degene die, zelfs toevallig, enige   Le contribuable est celui qui accepte, même de manière inzet of enig inleggeld aanneemt in het kader van spelen      occasionnelle, toute forme d’enjeu ou toute forme de en weddenschappen, hetzij voor eigen rekening, hetzij als     mise dans le cadre de jeux et de paris, soit pour son tussenpersoon.                                                propre compte, soit en tant qu’intermédiaire.
 
@@ -6600,11 +6604,11 @@ In afwijking van het eerste lid zijn de belastingplichtigen   Par dérogation à
 (B.S. 20.12.2018). Tekst in werking getreden op               20.12.2018). Texte entre en vigueur le 01.01.2019.
 01.01.2019
 
-##### Afdeling 3 - Belastbare grondslag                                Section 3 - Base imposable
+#### Afdeling 3 - Belastbare grondslag                                Section 3 - Base imposable
 
-## Art. 2.12.3.0.1
+###### Art. 2.12.3.0.1
 
-Art. 2.12.3.0.1.
+###### Art. 2.12.3.0.1.
 
 § 1. De belasting op de spelen en weddenschappen wordt        § 1er. La taxe sur les jeux et les paris est levée sur les geheven op de opbrengst van de spelen en de                   gains des jeux et des paris, en ce inclus ceux qui sont weddenschappen, met inbegrip van deze die ingezet             engagés via des instruments de la société de worden via informatiemaatschappij-instrumenten als            l’information, tels que visés à l’article 2, 10° de la Loi vermeld in artikel 2, 10°, van de Kansspelwet van 7 mei       sur les jeux de hasard du 7 mai 1999.
 1999.
@@ -6631,11 +6635,11 @@ Voor de toepassing van het eerste lid worden de sommen       Pour l’applicatio
 (B.S. 20.12.2018). Tekst in werking getreden op              20.12.2018). Texte entre en vigueur le 01.01.2019.
 01.01.2019
 
-##### Afdeling 4 - Tarieven                                         Section 4 – Tarifs
+#### Afdeling 4 - Tarieven                                         Section 4 – Tarifs
 
-## Art. 2.12.4.0.1
+###### Art. 2.12.4.0.1
 
-Art. 2.12.4.0.1.
+###### Art. 2.12.4.0.1.
 
 § 1. Het tarief van de belasting bedraagt 15%.               § 1er. Le taux la taxe est de 15%.
 
@@ -6658,9 +6662,9 @@ De schijven, vermeld in het eerste lid, 2° en 3°, worden             Les tranc
 - ingevoegd door art. 11 van het decreet van 07.12.2018     - inséré par l’art. 11 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                         20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-## Art. 2.12.4.0.2
+###### Art. 2.12.4.0.2
 
-Art. 2.12.4.0.2.
+###### Art. 2.12.4.0.2.
 
 De provincies en de gemeenten zijn niet gemachtigd tot      Les provinces et les communes ne sont pas habilitées à het heffen van opcentiemen op de belasting op de spelen     lever des centimes additionnels sur la taxes sur les jeux en de weddenschappen, vermeld in artikel 2.12.1.0.1, of     et paris visée dans l’article 2.12.1.0.1, ou sur quelle taxe van welke belasting dan ook op de spelen en                 que ce soit sur les jeux et paris assujettis à la taxe visée weddenschappen die onderhevig zijn aan de belasting,        dans le présent chapitre. vermeld in dit hoofdstuk.
 
@@ -6671,22 +6675,22 @@ In afwijking van het eerste lid kunnen de provincies en     Par dérogation à l
 - ingevoegd door art. 12 van het decreet van 07.12.2018     - inséré par l’art. 12 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                         20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-##### Afdeling 5 - Verminderingen                                    Section 5 – Réductions
+#### Afdeling 5 - Verminderingen                                    Section 5 – Réductions
 
-## Art. 2.12.5.0.1
+###### Art. 2.12.5.0.1
 
-Art. 2.12.5.0.1.
+###### Art. 2.12.5.0.1.
 
 Voorbehouden voor toekomstig gebruik                        Réservées à un usage futur.
 
 ---- historiek ----                                         ---- historique ---- - ingevoegd door art. 14 van het decreet van 07.12.2018     - inséré par l’art. 14 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                         20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-##### Afdeling 6 - Vrijstellingen                                 Section 6 – Exonérations
+#### Afdeling 6 - Vrijstellingen                                 Section 6 – Exonérations
 
-## Art. 2.12.6.0.1
+###### Art. 2.12.6.0.1
 
-Art. 2.12.6.0.1.
+###### Art. 2.12.6.0.1.
 
 Er wordt een vrijstelling van de belasting verleend voor:   Une exonération de la taxe est accordée pour :
 
@@ -6711,11 +6715,11 @@ De vrijstellingen, vermeld in het eerste lid, 2° tot en met   Les exonérations
 - ingevoegd door art. 16 van het decreet van 07.12.2018       - inséré par l’art. 16 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                           20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-##### Afdeling 7 - Wijze van heffing                            Section 7 - Modalités de perception
+#### Afdeling 7 - Wijze van heffing                            Section 7 - Modalités de perception
 
-## Art. 2.12.7.0.1
+###### Art. 2.12.7.0.1
 
-Art. 2.12.7.0.1.
+###### Art. 2.12.7.0.1.
 
 De belasting op de spelen en weddenschappen wordt             La taxe sur les jeux et paris est établie sur la vue de la gevestigd op zicht van de aangifte, vermeld in artikel        déclaration visée à l’article 3.3.1.0.15 ou d’office si la 3.3.1.0.15, of ambtshalve als de aangifte niet is             déclaration n’a pas été introduite endéans le délai visé à ingediend binnen de termijn, vermeld in artikel               l’article 3.3.1.0.15, ou en cas d’inexactitude ou de 3.3.1.0.15, of bij onjuistheid of onvolledigheid van de       incomplétude de la déclaration et conformément à aangifte, en conform artikel 3.3.2.0.1, eerste lid, 11°, en   l’article 3.3.2.0.1, alinéa premier, 11°, et alinéa deux, tweede lid, 7°, en artikel 3.3.3.0.1, § 2.                    7°, et à l’article 3.3.3.0.1, § 2.
 
@@ -6724,13 +6728,13 @@ De belasting op de spelen en weddenschappen wordt             La taxe sur les je
 - ingevoegd door art. 18 van het decreet van 07.12.2018       - inséré par l’art. 18 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                           20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-#### Hoofdstuk 13 - Belasting op de automatische                 Chapitre 13 - Taxe sur les appareils automatiques de ontspanningstoestellen                                              divertissement
+### Hoofdstuk 13 - Belasting op de automatische                 Chapitre 13 - Taxe sur les appareils automatiques de ontspanningstoestellen                                              divertissement
 
-##### Afdeling 1 - Belastbaar voorwerp                                 Section 1ère - Objet imposable
+#### Afdeling 1 - Belastbaar voorwerp                                 Section 1ère - Objet imposable
 
-## Art. 2.13.1.0.1
+###### Art. 2.13.1.0.1
 
-Art. 2.13.1.0.1.
+###### Art. 2.13.1.0.1.
 
 Overeenkomstig artikel 3, eerste lid, 2°, van de                Conformément à l’article 3, alinéa premier, 2°, de loi bijzondere wet van 16 januari 1989 betreffende de               spéciale du 16 janvier 1989 relative au financement des financiering van de gemeenschappen en de gewesten en            Communautés et des Régions et à l’article 76 du Code artikel 76 van het federaleWetboek van 23 november              fédéral du 23 novembre 1965 des taxes assimilées aux 1965 van de met Inkomstenbelastingen Gelijkgestelde             impôts sur les revenus, une taxe est levée sur les Belastingen wordt een belasting geheven op de                   appareils automatiques de divertissement, qui sont automatische ontspanningstoestellen, die opgesteld              installés sur la voie publique, dans les endroits worden op de openbare weg, in de voor het publiek               accessibles au public ou dans des cercles privés, que toegankelijke plaatsen of in private kringen, ongeacht of       l’accès à ces cercles soit soumis ou non à des formalités de toegang tot die kringen al dan niet onderworpen is aan       spécifiques. bepaalde formaliteiten.
 
@@ -6739,11 +6743,11 @@ Overeenkomstig artikel 3, eerste lid, 2°, van de                Conformément �
 - ingevoegd door art. 21 van het decreet van 07.12.2018         - inséré par l’art. 21 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                             20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-##### Afdeling 2 - Belastingplichtigen                                   Section 2 - Contribuables
+#### Afdeling 2 - Belastingplichtigen                                   Section 2 - Contribuables
 
-## Art. 2.13.2.0.1
+###### Art. 2.13.2.0.1
 
-Art. 2.13.2.0.1.
+###### Art. 2.13.2.0.1.
 
 De belastingplichtige is de eigenaar               van    het   Le contribuable est le propriétaire de l’appareil automatische ontspanningstoestel.                               automatique de divertissement.
 
@@ -6752,11 +6756,11 @@ De belastingplichtige is de eigenaar               van    het   Le contribuable 
 - ingevoegd door art. 23 van het decreet van 07.12.2018         - inséré par l’art. 23 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                             20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-##### Afdeling 3 - Belastbare grondslag                                  Section 3 - Base imposable
+#### Afdeling 3 - Belastbare grondslag                                  Section 3 - Base imposable
 
-## Art. 2.13.3.0.1
+###### Art. 2.13.3.0.1
 
-Art. 2.13.3.0.1.
+###### Art. 2.13.3.0.1.
 
 § 1. De automatische ontspanningstoestellen zijn                § 1er. Les appareils automatiques de divertissement sont volgens hun type ingedeeld in vier categorieën,                 classifiés selon leur type en quatre catégories, désignées respectievelijk aangeduid door de cijfers 1, 2, 3 en 4.         respectivement par les chiffres 1, 2, 3 et 4.
 
@@ -6781,9 +6785,9 @@ Voor de rangschikking van een toestel wordt rekening         Pour la classificat
 - ingevoegd door art. 25 van het decreet van 07.12.2018      - inséré par l’art. 25 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                          20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-## Art. 2.13.3.0.2
+###### Art. 2.13.3.0.2
 
-Art. 2.13.3.0.2.
+###### Art. 2.13.3.0.2.
 
 Elke combinatie van toestellen waarop gelijktijdig           Toute combinaison d’appareils sur lesquels plusieurs verschillende inzetten kunnen worden gedaan, die ieder       mises peuvent simultanément être engagées, chaque recht geven op een afzonderlijk spel, bevat zoveel           mise donnant droit à un jeu distinct, comprend autant belastbare toestellen als er afzonderlijke spelen mogelijk   d’appareils taxables qu’il y a de potentiels jeux distincts zijn die gelijktijdig kunnen plaatsvinden.                   qui peuvent être joués simultanément.
 
@@ -6794,11 +6798,11 @@ Als de combinatie, vermeld in het eerste lid, de aard        Si la combinaison, 
 - ingevoegd door art. 26 van het decreet van 07.12.2018      - inséré par l’art. 26 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                          20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-##### Afdeling 4 - Tarieven                                         Section 4 – Tarifs
+#### Afdeling 4 - Tarieven                                         Section 4 – Tarifs
 
-## Art. 2.13.4.0.1
+###### Art. 2.13.4.0.1
 
-Art. 2.13.4.0.1.
+###### Art. 2.13.4.0.1.
 
 De belasting wordt berekend volgens het tarief per           La taxe est calculée sur la base du tarif par année kalenderjaar, vermeld in de volgende tabel:                  calendaire, visé dans le tableau suivant :
 
@@ -6824,9 +6828,9 @@ Daarbij worden de volgende afrondingen toegepast:            Dans ce contexte, l
 - ingevoegd door art. 28 van het decreet van 07.12.2018   - inséré par l’art. 28 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                       20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-## Art. 2.13.4.0.2
+###### Art. 2.13.4.0.2
 
-Art. 2.13.4.0.2.
+###### Art. 2.13.4.0.2.
 
 De provincies en de gemeenten zijn niet gemachtigd tot    Les provinces et les communes ne sont pas autorisées à het heffen van opcentiemen op belasting op de             lever des centimes additionnels sur la taxe sur les automatische ontspanningstoestellen of van welke          appareils automatiques de divertissement ou sur quelle belasting     dan    ook      op     de  automatische     taxe que ce soit sur les appareils automatiques de ontspanningstoestellen die onderhevig zijn aan de         divertissement qui sont soumis à la taxe visée dans le belasting, vermeld in dit hoofdstuk.                      présent chapitre.
 
@@ -6835,11 +6839,11 @@ De provincies en de gemeenten zijn niet gemachtigd tot    Les provinces et les c
 - ingevoegd door art. 29 van het decreet van 07.12.2018   - inséré par l’art. 29 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                       20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-##### Afdeling 5 - Verminderingen                                  Section 5 - Réductions
+#### Afdeling 5 - Verminderingen                                  Section 5 - Réductions
 
-## Art. 2.13.5.0.1
+###### Art. 2.13.5.0.1
 
-Art. 2.13.5.0.1.
+###### Art. 2.13.5.0.1.
 
 (…)                                                       (…)
 
@@ -6850,9 +6854,9 @@ Art. 2.13.5.0.1.
 - ingevoegd door art. 31 van het decreet van 07.12.2018   - inséré par l’art. 31 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                       20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-## Art. 2.13.5.0.2
+###### Art. 2.13.5.0.2
 
-Art. 2.13.5.0.2.
+###### Art. 2.13.5.0.2.
 
 […]                                                       […]
 
@@ -6863,11 +6867,11 @@ Art. 2.13.5.0.2.
 - ingevoegd door art. 32 van het decreet van 07.12.2018     - inséré par l’art. 32 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                         20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-##### Afdeling 6 - Vrijstellingen                                 Section 6 - Exonérations
+#### Afdeling 6 - Vrijstellingen                                 Section 6 - Exonérations
 
-## Art. 2.13.6.0.1
+###### Art. 2.13.6.0.1
 
-Art. 2.13.6.0.1.
+###### Art. 2.13.6.0.1.
 
 Er wordt een vrijstelling van de belasting verleend voor    Une exonération de la taxe est octroyée pour les de automatische ontspanningstoestellen:                     appareils automatiques de divertissement :
 
@@ -6880,11 +6884,11 @@ Er wordt een vrijstelling van de belasting verleend voor    Une exonération de 
 - ingevoegd door art. 34 van het decreet van 07.12.2018     - inséré par l’art. 34 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                         20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-##### Afdeling 7 - Wijze van heffing                          Section 7 - Modalités de perception
+#### Afdeling 7 - Wijze van heffing                          Section 7 - Modalités de perception
 
-## Art. 2.13.7.0.1
+###### Art. 2.13.7.0.1
 
-Art. 2.13.7.0.1.
+###### Art. 2.13.7.0.1.
 
 De belasting wordt gevestigd op zicht van de aangifte,      La taxe est établie sur vue de la déclaration, visée à vermeld in artikel 3.3.1.0.16, of ambtshalve als de         l’article 3.3.1.0.16 ou d’office si la déclaration n’a pas aangifte niet is ingediend binnen de termijn, vermeld in    été introduite endéans le délai, visé dans l’article artikel 3.3.1.0.16, of bij onjuistheid of onvolledigheid    3.3.1.0.16, ou en cas d’inexactitude ou d’incomplétude van de aangifte, en conform de bepalingen van artikel       de la déclaration, et conformément aux dispositions de 3.3.2.0.1, eerste lid, 12°, en tweede lid, 8°, en artikel   l’article 3.3.2.0.1, alinéa premier, 12° et alinéa deux, 8°, 3.3.3.0.1, § 2.                                             et à l’article 3.3.3.0.1, § 2.
 
@@ -6893,9 +6897,9 @@ De belasting wordt gevestigd op zicht van de aangifte,      La taxe est établie
 - ingevoegd door art. 36 van het decreet van 07.12.2018     - inséré par l’art. 36 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                         20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-## Art. 2.13.7.0.2
+###### Art. 2.13.7.0.2
 
-Art. 2.13.7.0.2.
+###### Art. 2.13.7.0.2.
 
 ##### Afdeling 5 en 6 van dit hoofdstuk zijn niet van             Les sections 5 et 6 du présent chapitre ne s'appliquent toepassing op de automatische ontspanningstoestellen        pas aux appareils automatiques de divertissement dont waarvan de exploitatie is verboden krachtens artikel 4, 7   l’exploitation est interdite en vertu des articles 4, 7 et 8 en 8 van de Kansspelwet van 7 mei 1999.                     de la Loi sur les jeux du hasard du 7 mai 1999.
 
@@ -6905,12 +6909,12 @@ Art. 2.13.7.0.2.
 
 - ingevoegd door art. 37 van het decreet van 07.12.2018         - inséré par l’art. 37 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                             20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
-### TITEL 3 - Inning en invordering                              TITRE 3 - Perception et recouvrement
-#### Hoofdstuk 1 - Inleidende bepalingen, opcentiemen,                Chapitre 1er - Dispositions préliminaires, centimes opdeciem en administratieve onkostenvergoedingen                 additionnels, décime additionnel et indemnisations administratives
+## TITEL 3 - Inning en invordering                              TITRE 3 - Perception et recouvrement
+### Hoofdstuk 1 - Inleidende bepalingen, opcentiemen,                Chapitre 1er - Dispositions préliminaires, centimes opdeciem en administratieve onkostenvergoedingen                 additionnels, décime additionnel et indemnisations administratives
 
-## Art. 3.1.0.0.1
+###### Art. 3.1.0.0.1
 
-Art. 3.1.0.0.1.
+###### Art. 3.1.0.0.1.
 
 De bepalingen van titel 3 zijn, behalve bij afwijkende          Les dispositions du titre 3 s'appliquent, sauf en cas de bijzondere bepalingen, van toepassing op alle                   dispositions dérogatoires, à tous les impôts, visés au belastingen, vermeld in titel 2, alsook op het eurovignet.      titre 2, ainsi qu'à l'eurovignette.
 
@@ -6950,9 +6954,9 @@ Als een vordering voor het gerecht, zelfs gedeeltelijk,         Si une action en
 Texte entre en vigueur le 1er avril 2016 (art. 4))
 2016 (B.S., 01.04.2016). De tekst treedt in werking op 1 april 2016 (art. 4))
 
-## Art. 3.1.0.0.2
+###### Art. 3.1.0.0.2
 
-Art. 3.1.0.0.2.
+###### Art. 3.1.0.0.2.
 
 § 1. Aan de belastingschuldigen wordt door de bevoegde       § 1er. Un numéro d'identification fiscale est attribué aux entiteit van de Vlaamse administratie een fiscaal            redevables par l'entité compétente de l'administration identificatienummer toegekend, namelijk een van de           flamande, notamment un des numéros suivants : volgende nummers:
 
@@ -6996,9 +7000,9 @@ De derden, vermeld in het eerste lid, mogen alleen over      Les tiers, cités d
 
 2° de natuurlijke personen of rechtspersonen en de          2° les personnes physiques ou personnes morales et les feitelijke verenigingen die zich bevinden in de toestand,   associations de fait qui se trouvent dans la situation, vermeld in paragraaf 3, eerste lid, 5°, en die verplicht    citée dans le paragraphe 3, alinéa premier, 5°, et qui sont zijn gebruik te maken van het identificatienummer van       obligées d'utiliser le numéro d'identification des de natuurlijke personen met toepassing van de               personnes physiques en application des arrêtés royaux koninklijke besluiten van 5 december 1986 tot regeling      du 5 décembre 1986 réglant l'utilisation dans le secteur in de sociale sector van het gebruik van het                social du numéro d'identification du Registre national identificatienummer van het Rijksregister van de            des personnes physiques. natuurlijke personen.
 
-## Art. 3.1.0.0.3
+###### Art. 3.1.0.0.3
 
-Art. 3.1.0.0.3.
+###### Art. 3.1.0.0.3.
 
 § 1. De gegevens en de documenten die de bevoegde           § 1. Les informations et les documents que l'entité entiteit van de Vlaamse administratie heeft ontvangen,      compétente de l'administration flamande a reçus, établis opgesteld of verzonden in het kader van de toepassing       ou envoyés dans le cadre de l'application du présent van de bepalingen van deze codex, met inbegrip van de       code, y compris les déclarations introduites par les door de belastingplichtigen ingediende aangiften, alsook    contribuables ainsi que les documents ou pièces de daarbij gevoegde documenten en bewijsstukken, en         justificatives joints à ces dernières, et qui sont die fotografisch, optisch, elektronisch of volgens elke     enregistrés, conservés ou reproduits par des moyens andere informatica- of telegeleidingstechniek worden        photographiques, optiques ou électroniques ou par toute geregistreerd, bewaard of weergegeven, alsook de            autre       technique      d'informatique       ou      de weergave ervan op een leesbare drager, hebben               télécommunication, ainsi que leur reproduction sur un bewijskracht voor de toepassing van de bepalingen van       support lisible, ont force probante pour l'application des deze codex.                                                 dispositions du présent code.
 
@@ -7009,9 +7013,9 @@ Art. 3.1.0.0.3.
 - gewijzigd door art. 55 van het decreet van 08.06.2018     - modifié par l'art. 55 du décret du 08.06.2018 (M.B.
 (B.S. 26.06.2018). Tekst in werking getreden op             26.06.2018). Texte entre en vigueur le 25.05.2018 25.05.2018
 
-## Art. 3.1.0.0.4
+###### Art. 3.1.0.0.4
 
-Art. 3.1.0.0.4.
+###### Art. 3.1.0.0.4.
 
 § 1. Als er met toepassing van de bepalingen van deze       § 1er. Si en application des dispositions du présent code codex opcentiemen of een opdeciem worden geheven,           des centimes additionnels ou un décime additionnel sont worden die, samen met de belasting zelf, geïnd door de      perçus, ils sont perçus, conjointement avec l'impôtbevoegde entiteit van de Vlaamse administratie.             même, par l'entité compétente de l'administration flamande.
 
@@ -7059,9 +7063,9 @@ De schuldvordering, vermeld in het tweede lid, wordt         La créance, citée
 - gewijzigd door art. 2 van het decreet van 30.06.2017        - modifié par l'art. 2 du décret du 30.06.2017 (M.B.
 (B.S. 12.07.2017). Tekst in werking getreden vanaf            12.07.2017). Texte entre en vigueur à partir de l'année aanslagjaar 2017                                              d'imposition 2017
 
-## Art. 3.1.0.0.5
+###### Art. 3.1.0.0.5
 
-Art. 3.1.0.0.5.
+###### Art. 3.1.0.0.5.
 
 De Vlaamse Regering bepaalt welk percentage van de            Le Gouvernement flamand fixe quel pourcentage de la leegstandsheffing bedrijfsruimten die elk jaar geïnd          redevance sur les sites d'activité économique wordt, en van de heffing ongeschikte en onbewoonbare          désaffectés et de la taxe sur les habitations inadaptées et woningen die elk jaar geïnd wordt, met uitzondering van       insalubres qui sont annuellement perçues, à l'exception de gemeentelijke opcentiemen, de interesten en de             des centimes additionnels communaux, des intérêts et administratieve geldboetes, aan de gemeenten wordt            des amendes administratives, est versé aux communes doorgestort als vergoeding voor de administratiekosten        comme indemnisation des frais administratifs qu'elles die ze in het kader van die belastingen moeten maken.         doivent faire dans le cadre de ces impôts.
 
@@ -7069,9 +7073,9 @@ De Vlaamse Regering bepaalt welk percentage van de            Le Gouvernement fl
 
 - gewijzigd door art. 46 van het decreet van 23.12.2016       - modifié par l'art. 46 du décret du 23.12.2016 (M.B.: (B.S.: 30.12.2016). Tekst in werking getreden vanaf           30.12.2016). Texte entre en vigueur à partir de l'année aanslagjaar 2017                                              d'imposition 2017
 
-## Art. 3.1.0.0.6
+###### Art. 3.1.0.0.6
 
-Art. 3.1.0.0.6.
+###### Art. 3.1.0.0.6.
 
 De provincies en de gemeenten die met toepassing van         Les provinces et les communes levant des centimes artikel 2.1.4.0.2 opcentiemen op de onroerende                additionnels sur le précompte immobilier en application voorheffing heffen, en die met toepassing van artikel         de l'article 2.1.4.0.2, et perdant ces revenus en 2.1.4.0.1, 2, eerste lid, 3°, voor zover het eigendommen      application de l'article 2.1.4.0.1, § 2, alinéa 1, 3°, pour betreft die verhuurd worden conform de voorwaarden ter        autant que cela concerne des propriétés louées uitvoering van artikel 4.40, 4°, van de Vlaamse Codex         conformément aux conditions en exécution de l'article Wonen van 2021, en 7, en § 2/1, artikel 2.1.5.0.1, § 2,       4.40, 4°, du Code flamand du Logement de 2021, et 7°, artikel 2.1.6.0.2 en artikel 2.2.6.0.1, § 2, 2, die           et § 2/1, de l'article 2.1.5.0.1, § 2, de l'article 2.1.6.0.2 et opbrengsten derven, worden daarvoor volledig vergoed          de l'article 2.2.6.0.1, § 2, 2°, sont entièrement door het Vlaamse Gewest. De compensatie voor artikel          indemnisées pour ces pertes par la Région flamande. La 2.2.6.0.1, § 2, 2, geldt enkel voor voertuigen die voor het   compensation pour l'article 2.2.6.0.1, § 2, 2°, ne vaut eerst worden vrijgesteld vanaf aanslagjaar 2019.              que pour les véhicules qui sont exonérés pour la première fois à partir de l'année d'imposition 2019.
 
@@ -7087,7 +7091,7 @@ De provincies en de gemeenten die met toepassing van         Les provinces et le
 
 ---- info ----                                              ---- info ----
 
-## Art. 100
+###### Art. 100
 
 van het decreet van 18 dec. 2015 (B.S.,          Art. 100 du décret du 18.12.2015 (M.B. 29.12.2015).
 29.12.2015). De tekst is in werking getreden op 1 januari
@@ -7107,9 +7111,9 @@ Gemeentefonds.
 
 Het bedrag x, vermeld in het eerste lid, wordt aan de       Le montant x, visé à l'alinéa premier, est payé à la gemeente betaald uiterlijk op 15 oktober van elk jaar.      commune au plus tard le 15 octobre de chaque année.
 
-## Art. 3.1.0.0.7
+###### Art. 3.1.0.0.7
 
-Art. 3.1.0.0.7.
+###### Art. 3.1.0.0.7.
 Het aanvaarden onder voorrecht van boedelbeschrijving       L'acceptation sous bénéfice d'inventaire d'une van een nalatenschap ontheft de erfgenamen niet van de      succession ne dégage pas les héritiers des obligations in deze codex voorgeschreven verplichtingen inzake de       prescrites dans le présent code en matière de impôt de erfbelasting.                                               succession.
 
 De beheerder die voor de vereffening van de                 L'administrateur chargé de la liquidation de la nalatenschap aangesteld is overeenkomstig artikel 4.54,     succession conformément à l'article 4.54, § 1er et § 2, et
@@ -7122,22 +7126,22 @@ De beheerder die voor de vereffening van de                 L'administrateur cha
 
 - toegevoegd door art. 210 van het decreet van              - inséré par art. 210 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.1.0.0.8
+###### Art. 3.1.0.0.8
 
-Art. 3.1.0.0.8.
+###### Art. 3.1.0.0.8.
 
 Wat de invordering en de vervolging inzake de               En ce qui concerne le recouvrement et les poursuites en erfbelasting betreft, kunnen elke kennisgeving en           matière de impôt de succession, chaque notification et betekening aan het adres van de woonplaats, vermeld in      signification peut être faite à l'adresse du domicile visé artikel 3.3.1.0.8, § 1, eerste lid, 7°, gedaan worden.      à l'article 3.3.1.0.8, § 1er, alinéa premier, 7°.
 
 ---- historiek ----                                         ---- historique ----
 
 - toegevoegd door art. 211 van het decreet van              - inséré par art. 211 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
-#### Hoofdstuk 2 - Inkohiering                                   Chapitre 2 – Enrôlement
+### Hoofdstuk 2 - Inkohiering                                   Chapitre 2 – Enrôlement
 
-##### Afdeling 1 - Algemeen                                     Section 1re – Généralités
+#### Afdeling 1 - Algemeen                                     Section 1re – Généralités
 
-## Art. 3.2.1.0.1
+###### Art. 3.2.1.0.1
 
-Art. 3.2.1.0.1.
+###### Art. 3.2.1.0.1.
 
 § 1. De belastingen worden opgenomen in kohieren.           § 1er. Les impôts sont enrôlés.
 
@@ -7157,9 +7161,9 @@ De kohieren bevatten ten minste de volgende elementen:      Les rôles contienne
 
 § 3. De geautomatiseerde bestanden van de kohieren          § 3. Les fichiers automatisés des rôles ont la même force hebben dezelfde bewijskracht als de originelen als die      probante que les originaux si ces fichiers ont été créés bestanden door de bevoegde entiteit van de Vlaamse          par l'entité compétente de l'administration flamande ou administratie of onder haar controle zijn aangemaakt.       sous son contrôle.
 
-## Art. 3.2.1.0.2
+###### Art. 3.2.1.0.2
 
-Art. 3.2.1.0.2.
+###### Art. 3.2.1.0.2.
 Aanslagen inzake de onroerende voorheffing die              Les impositions en matière de précompte immobilier betrekking hebben op onroerende goederen die samen          portant sur les biens immobiliers ayant ensemble un een kadastraal inkomen hebben van minder dan 15 euro,       revenu cadastral de moins de 15 euros, ne sont pas worden niet in een kohier opgenomen.                        enrôlées.
 
 Een aanslag heeft betrekking op de onroerende goederen      Une imposition porte sur les biens immobiliers situés die gelegen zijn in eenzelfde gemeente en waarvan de        dans une même commune dont les droits réels d’un zakelijke rechten van een belastingplichtige of groep van   contribuable ou d’un groupe de contribuables sont belastingplichtigen voor elk van die onroerende             identiques pour chacun de ces droits réel. goederen identiek zijn.
@@ -7168,11 +7172,11 @@ Een aanslag heeft betrekking op de onroerende goederen      Une imposition porte
 
 - toegevoegd door art. 28 van het decreet van 08 juli       - modifié par art. 28 du décret du 08 juillet 2016 (M.B., 2016 (B.S., 22.08.2016). De tekst is in werking getreden    22.08.2016). Texte est entré en vigueur l'année vanaf aanslagjaar 2016 (art. 38)                            d'imposition 2016 (art. 38)
 
-##### Afdeling 2 - Uitvoerbaarverklaring                                 Section 2 – Exequatur
+#### Afdeling 2 - Uitvoerbaarverklaring                                 Section 2 – Exequatur
 
-## Art. 3.2.2.0.1
+###### Art. 3.2.2.0.1
 
-Art. 3.2.2.0.1.
+###### Art. 3.2.2.0.1.
 
 Van de belastingschuldigen mag alleen een som worden        Une somme ne peut être demandée aux redevables qu'en gevorderd krachtens een uitvoerbaar verklaard kohier        vertu d'un rôle déclaré exécutoire qui constitue le titre dat de inningstitel vormt. Dat geldt zowel voor de          de perception. Ceci s'applique tant aux impôts-mêmes belastingen zelf, als voor de eventuele administratieve     qu'aux éventuelles amendes administratives et geldboeten en belastingverhogingen, als voor de             majorations d'impôts et centimes additionnels éventuels eventuele opcentiemen of de opdeciem voor de                ou le décime additionnel pour les provinces, provincies, de agglomeraties en de gemeenten.               agglomérations et communes.
 
@@ -7187,18 +7191,18 @@ De boetes die worden opgelegd ingevolge overtredingen       Les amendes imposée
 
 - vierde lid werd toegevoegd door art. 26 van het decreet   - alinéa quatre est inséré par art. 26 du décret du 3 van 3 juli 2015 (B.S., 10.08.2015). De tekst treedt in      juillet 2015 (M.B., 10.08.2015). Texte entre en vigueur le werking op 1 april 2016 (art. 4 van het besluit van         1er avril 2016 (Arrêté du Gouvernement flamand du 17 17.07.2015 – B.S. 10.08.2015)                               juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-##### Afdeling 3 - Overledenen en onverdeeldheden                    Section 3 - Personnes décédées et indivisions
+#### Afdeling 3 - Overledenen en onverdeeldheden                    Section 3 - Personnes décédées et indivisions
 
-## Art. 3.2.3.0.1
+###### Art. 3.2.3.0.1
 
-Art. 3.2.3.0.1.
+###### Art. 3.2.3.0.1.
 De Vlaamse Regering kan de regels bepalen voor de              Le Gouvernement flamand peut arrêter les règles inkohiering ten laste van overledenen en                       d'enrôlement à charge de personnes décédées et onverdeeldheden.                                               d'indivisions.
 
-##### Afdeling 4 - Aanslag voor overnemende of verkrijgende          Section 4 - Imposition pour une société repreneuse ou vennootschap                                                    attributaire
+#### Afdeling 4 - Aanslag voor overnemende of verkrijgende          Section 4 - Imposition pour une société repreneuse ou vennootschap                                                    attributaire
 
-## Art. 3.2.4.0.1
+###### Art. 3.2.4.0.1
 
-Art. 3.2.4.0.1.
+###### Art. 3.2.4.0.1.
 
 Als een vennootschap wordt overgenomen of gesplitst in         Si une société est reprise ou scindée dans le cadre d'une het kader van een fusie, een aan een fusie gelijkgestelde      fusion, d'une opération assimilée à une fusion ou à une verrichting of een splitsing als vermeld in artikel 12:2 tot   scission telle que citée dans les articles 12:2 à 12:8 du en met 12:8 van het Wetboek van vennootschappen en             Code des sociétés et des associations ou d'une opération verenigingen,          of          een         soortgelijke    dans le cadre des droits de société soumise à un droit vennootschapsrechtelijke verrichting onder buitenlands         étranger, l'imposition qui a trait à des faites imposables recht, kan de aanslag die betrekking heeft op belastbare       qui datent d'avant l'opération précitée, dans les délais feiten die dateren van vóór de vermelde verrichting,           fixés dans le présent chapitre, peut être établie au nom binnen de termijnen, bepaald in dit hoofdstuk, gevestigd       de la société repreneuse ou des sociétés attributaires, worden op naam van de overnemende vennootschap of              même à un moment où la société reprise ou scindée de verkrijgende vennootschappen, zelfs op een tijdstip         n'existe plus en tant que personne morale. waarop de overgenomen of gesplitste vennootschap als rechtspersoon niet langer bestaat.
 
@@ -7206,25 +7210,25 @@ Als een vennootschap wordt overgenomen of gesplitst in         Si une société 
 
 - gewijzigd door art. 48 van het decreet van 02.04.2021        - modifié par l'art. 48 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021               15.04.2021). En vigueur le 25.04.2021
 
-##### Afdeling 5 - Berekening en afrondingswijze                    Section 5 - Calcul et mode d'arrondissement
+#### Afdeling 5 - Berekening en afrondingswijze                    Section 5 - Calcul et mode d'arrondissement
 
-## Art. 3.2.5.0.1
+###### Art. 3.2.5.0.1
 
-Art. 3.2.5.0.1.
+###### Art. 3.2.5.0.1.
 
 De Vlaamse Regering bepaalt de regels voor de                  Le Gouvernement flamand fixe les règles du calcul des berekening van de belastingen en de wijze waarop ze            impôts et du mode dont ils sont arrondis. afgerond worden.
 
-#### Hoofdstuk 3 - Aanslagprocedure                               Chapitre 3 - Procédure d'imposition
+### Hoofdstuk 3 - Aanslagprocedure                               Chapitre 3 - Procédure d'imposition
 
-##### Afdeling 1 – Aangifte                                    Section 1re – Déclaration
+#### Afdeling 1 – Aangifte                                    Section 1re – Déclaration
 
 ---- historiek ----                                            ---- historique ----
 
 - afdeling 1 gewijzigd door art. 212 van het decreet van       - section 1re modifié par art. 212 du décret du 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in          19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré werking getreden op 1 januari 2015 (art. 325)                  en vigueur le 01.01.2015 (art. 325)
 
-## Art. 3.3.1.0.1
+###### Art. 3.3.1.0.1
 
-Art. 3.3.1.0.1.
+###### Art. 3.3.1.0.1.
 
 De belastingplichtige moet vóór de ingebruikname van           Le contribuable doit, avant la mise en service du het voertuig, vermeld in artikel 2.2.2.0.1, § 2, tweede lid,   véhicule, citée dans l'article 2.2.2.0.1, § 2, alinéa deux, een aangifte onderschrijven die alle gegevens bevat die        signer une déclaration qui contient toutes les données nodig zijn om de belasting te berekenen en voor het            nécessaires au calcul de la taxe et à son contrôle. toezicht erop.
 
@@ -7245,9 +7249,9 @@ De aangifteplicht voorzien in dit artikel geldt niet voor      L'obligation de d
 Texte applicable à partir du 01.01.2015.
 De aangifte, vermeld in artikel 3.3.1.0.1 van de Vlaamse       En ce qui concerne les corbillards, il est Codex Fiscaliteit van 13 december 2013, die op 1 januari       automatiquement mis fin à la déclaration, visée à 2015 nog loopt, zal voor de lijkwagens automatisch             l'article 3.3.1.0.1 du Code flamand de la Fiscalité du 13 worden stopgezet op het einde van de maand die                 décembre 2013, qui est encore en cours le 01.01.2015, à voorafgaat aan de maand die overeenstemt met de maand          la fin du mois précédant le mois qui correspond au mois waarin de inschrijving in het repertorium van het              dans lequel l'immatriculation au répertoire du Directoraat-generaal Mobiliteit en Verkeersveiligheid is       Directorat général Mobilité et Sécurité Routière est uitgevoerd. Bij het begin van de daaropvolgende maand          effectuée. Au début du mois suivant, l'impôt sera zal de aanslag worden gevestigd voor het belastbaar            constitué pour la période imposable, visée à l'article tijdperk, vermeld in artikel 3.3.2.0.1, tweede lid, 2°, van    3.3.2.0.1, alinéa deux, 2°, du code précité. de voormelde codex.
 
-## Art. 3.3.1.0.2
+###### Art. 3.3.1.0.2
 
-Art. 3.3.1.0.2.
+###### Art. 3.3.1.0.2.
 
 Voor de toepassing van titel 2, hoofdstuk 2 en 3, kan          Pour l'application du titre 2, chapitres 2 et 3, le behalve in geval van wettige redenen de                        contribuable qui n'inscrit pas son véhicule auprès le belastingplichtige die zijn voertuig niet inschrijft bij het   Directorat-général de la Mobilité et de la Sécurité Directoraat-generaal Mobiliteit en Verkeersveiligheid,         routière, qui ne fournit pas en temps voulu les die niet tijdig inlichtingen verstrekt conform artikel         informations conformément à l'article 3.13.1.2.3, qui 3.13.1.2.3, die geen aangifte doet of die op de aangifte       n'introduit pas de déclaration ou qui mentionne des onjuiste gegevens over het voertuig vermeldt, door het         données incorrectes sur le véhicule dans la déclaration, bevoegde personeelslid van ambtswege aangeslagen               peut, sauf en cas de raisons légales, être confisqué par le worden, behoudens zijn recht om bezwaar in te dienen.          membre du personnel compétent, sans préjudice de son droit de recours.
 
@@ -7257,9 +7261,9 @@ In afwijking van artikel 2.2.2.0.1, § 2, eerste lid, artikel   Par dérogation 
 
 Bij gebrek aan andersluidende kennisgeving is de              A défaut d'une notification contraire, la déclaration aangifte die voor een jaar is ingediend, of de gevestigde     introduite pour un an ou l'imposition établie d'office est ambtshalve aanslag geldig voor de volgende jaren.             valable pour les années suivantes.
 
-## Art. 3.3.1.0.3
+###### Art. 3.3.1.0.3
 
-Art. 3.3.1.0.3.
+###### Art. 3.3.1.0.3.
 
 (…)                                                           (…)
 
@@ -7268,16 +7272,16 @@ Art. 3.3.1.0.3.
 - opgeheven door art. 30 van het decreet van 21.12.2018       - abrogé par l'art. 30 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst treedt in werking op 07.01.2019      28.12.2018). Texte entre en vigueur le 07.01.2019
 
-## Art. 3.3.1.0.4
+###### Art. 3.3.1.0.4
 
-Art. 3.3.1.0.4.
+###### Art. 3.3.1.0.4.
 
 Met toepassing van titel 2, hoofdstuk 2 en 4, wordt bij       En application du titre 2, chapitres 2 et 4, le membre du schrapping of wissing uit het repertorium van het             personnel compétent procèdera d'office à l'arrêt de la Directoraat-generaal Mobiliteit en Verkeersveiligheid         déclaration, citée dans les articles 3.3.1.0.2 et 3.3.1.0.3 van een trekkend voertuig of van een alleen rijdend           en cas de radiation ou d'effacement du répertoire du voertuig als vermeld in artikel 2.2.2.0.1, § 2, tweede lid,   Directorat-général de la Mobilité et de la Sécurité
 1°, en artikel 2.4.1.0.1, door het bevoegde personeelslid     routière d'un véhicule tracteur ou d'un véhicule ambtshalve overgegaan tot de stopzetting van de               autonome, tel que cité dans l'article 2.2.2.0.1, § 2, alinéa aangifte, vermeld in artikel 3.3.1.0.2 en 3.3.1.0.3.          deux, 1°, et l'article 2.4.1.0.1.
 
-## Art. 3.3.1.0.5
+###### Art. 3.3.1.0.5
 
-Art. 3.3.1.0.5.
+###### Art. 3.3.1.0.5.
 
 § 1. De aangifte van nalatenschap moet bij elke               § 1er. La déclaration de succession doit être déposée par verkrijging overeenkomstig titel 2, hoofdstuk 7, door de      les personnes suivantes auprès de l'entité compétente de volgende personen ingediend worden bij de bevoegde            l'administration flamande pour toute acquisition entiteit van de Vlaamse administratie :                       conformément au titre 2, chapitre 7 :
 
@@ -7307,9 +7311,9 @@ In afwijking van het eerste lid is de termijn voor de        Par dérogation à 
 
 - gewijzigd door art. 24 van het decreet van 17 juli 2015    - modifié par l’art. 24 du décret du 17 juillet 2015 (M.B., (B.S., 14.08.2015 ). De tekst is in werking getreden op 14   14.08.2015). Texte est entré en vigueur le 14 août 2015 augustus 2015 (art. 41)                                      (art. 41)
 
-## Art. 3.3.1.0.6
+###### Art. 3.3.1.0.6
 
-Art. 3.3.1.0.6.
+###### Art. 3.3.1.0.6.
 
 In de volgende gevallen moet binnen dezelfde termijnen       Dans les cas suivants, il y a lieu de déposer dans les als vermeld in artikel 3.3.1.0.5, § 2, een nieuwe aangifte   mêmes délais que visés à l'article 3.3.1.0.5, § 2 une ingediend worden bij de bevoegde entiteit van de             nouvelle déclaration auprès de l'entité compétente de Vlaamse administratie :                                      l'administration flamande :
 
@@ -7361,9 +7365,9 @@ In het geval vermeld in het eerste lid, 6°, moet de          Dans le cas visé 
 
 - gewijzigd door art. 25 van het decreet van 17 juli. 2015   - dernier alinéa est modifié par art. 25 du décret du 17 (B.S., 14.08.2015). De tekst is in werking getreden op 14    juillet 2015 (M.B., 14.08.2015). Texte est entré en augustus 2015 (art. 41)                                      vigueur le 14 août 2015 (art. 41)
 
-## Art. 3.3.1.0.7
+###### Art. 3.3.1.0.7
 
-Art. 3.3.1.0.7.
+###### Art. 3.3.1.0.7.
 
 Met behoud van de toepassing van artikel 3.18.0.0.6, §       Sans préjudice de l'application de l'article 3.18.0.0.6, § 2, kan de aangiftetermijn, vermeld in artikel 3.3.1.0.5, §   2, le délai de déclaration visé dans les articles 3.3.1.0.5, 2, en 3.3.1.0.6, door het bevoegde personeelslid worden      § 2 et 3.3.1.0.6 peut être prolongé par le membre du verlengd.                                                    personnel compétent.
 
@@ -7373,9 +7377,9 @@ De aangifte, ingediend binnen de termijn, vermeld in         La déclaration, d�
 
 - toegevoegd door art. 215 van het decreet van               - inséré par art. 215 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.3.1.0.8
+###### Art. 3.3.1.0.8
 
-Art. 3.3.1.0.8.
+###### Art. 3.3.1.0.8.
 
 § 1. De aangifte van nalatenschap vermeldt :                 La déclaration de succession mentionne :
 
@@ -7551,9 +7555,9 @@ Het eerste lid geldt niet voor cultuurgoederen die worden L'alinéa 1er ne s'app
 
 - § 1, 14°, j) toegevoegd door art. 26 van het decreet van   - § 1er,14°, point j) est ajouté par art. 26 du décret du 17 17 juli 2015 (B.S., 14.08.2015). De tekst is in werking      juillet 2015 (M.B., 14.08.2015). Texte est entré en getreden op 14 augustus 2015 (art. 41) vigueur le 14 août 2015 (art. 41)
 
-## Art. 3.3.1.0.9
+###### Art. 3.3.1.0.9
 
-Art. 3.3.1.0.9.
+###### Art. 3.3.1.0.9.
 
 De erfgenamen, algemene legatarissen en begiftigden en       Les héritiers, légataires universels et donataires et toute al wie gehouden is tot het indienen van een aangifte van     personne tenue de déposer une déclaration de succession nalatenschap, kunnen vóór de aangifte en uiterlijk vóór      peuvent demander à l'entité compétente de het verstrijken van de aangiftetermijn, vermeld in artikel   l'administration flamande une évaluation de l'ensemble 3.3.1.0.5, § 2, en 3.3.1.0.6, aan de bevoegde entiteit van   ou d'une partie des immeubles qui se trouvent en de Vlaamse administratie een schatting vragen van het        Belgique et doivent ou peuvent être déclarés pour leur geheel of een deel van de onroerende goederen die zich       valeur vénale avant la déclaration et, au plus tard, avant in België bevinden en die voor hun verkoopwaarde             l'expiration du délai de déclaration visé aux articles moeten of kunnen worden aangegeven. De aanvragers            3.3.1.0.5, § 2, et 3.3.1.0.6. Les demandeurs peuvent kunnen bij hun aanvraag en bij het eventuele                 produire des éléments utiles pour cette évaluation dans plaatsbezoek, vermeld in het derde lid, elementen            leur demande et lors de la visite éventuelle sur les lieux, aandragen die nuttig zijn voor die schatting.                visée au troisième alinéa.
 
@@ -7571,9 +7575,9 @@ De aanvraag tot schatting, vermeld in dit artikel, heeft     La demande d'évalu
 
 - toegevoegd door art. 217 van het decreet van               - inséré par art. 217 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst treedt in    29.01.2015, Ed. 2). Texte entrera en vigueur à une date à werking op een door de Vlaamse Regering te bepalen           déterminer par le Gouvernement flamand. (art. 325) datum (art. 325)
 
-## Art. 3.3.1.0.9./1
+###### Art. 3.3.1.0.9./1
 
-Art. 3.3.1.0.9./1
+###### Art. 3.3.1.0.9./1
 
 § 1. De erfgenamen, algemene legatarissen en                  § 1er. Les héritiers, légataires et bénéficiaires généraux begiftigden en iedereen die ertoe gehouden is een             et quiconque est tenu d’introduire une déclaration de aangifte van nalatenschap in te dienen, kunnen een            succession peuvent désigner un taxateur-expert pour schatter-expert aanstellen om een schatting te maken van      faire une estimation de l’ensemble ou d’une partie des het geheel of een deel van de onroerende goederen die         biens immobiliers qui se trouvent en Belgique et qui zich in België bevinden en die voor hun verkoopwaarde         doivent ou peuvent être déclarés à concurrence de leur moeten of kunnen worden aangegeven.                           valeur vénale.
 
@@ -7690,9 +7694,9 @@ Als er geen beslissing wordt genomen over het beroep        Si aucune décision 
 
 - ingevoegd door art. 23 van het decreet van 08.12.2017     - inséré par l'art. 23 du décret du 08.12.2017 (M.B., (B.S., 14.12.2017). De tekst is in werking getreden op      14.12.2017). Texte entre en vigueur le 24.12.2017 et 24.12.2017 en treed buiten werking op een door de           cesse de produire ses effets à une date à fixer par le Vlaamse Regering vast te stellen datum                      Gouvernement flamand (art. 32)
 
-## Art. 3.3.1.0.10
+###### Art. 3.3.1.0.10
 
-Art. 3.3.1.0.10.
+###### Art. 3.3.1.0.10.
 
 Als de laatste dag van een termijn als vermeld in deze      Si le dernier jour d'un délai, visé dans la présente section, afdeling, op een zaterdag, zondag of op een wettelijke of   tombe un samedi, un dimanche ou un jour férié légal ou decretale feestdag valt, wordt de termijn verlengd tot de   décrétal, le délai est prolongé jusqu'au premier jour eerstvolgende werkdag die volgt op het verstrijken van      ouvrable suivant l'expiration du délai. de termijn.
 
@@ -7700,9 +7704,9 @@ Als de laatste dag van een termijn als vermeld in deze      Si le dernier jour d
 
 - toegevoegd door art. 218 van het decreet van              - inséré par art. 218 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.3.1.0.11
+###### Art. 3.3.1.0.11
 
-Art. 3.3.1.0.11.
+###### Art. 3.3.1.0.11.
 
 § 1. Tenzij het voertuig is vrijgesteld van de              § 1er. A moins que le véhicule ne soit exonéré du kilometerheffing, moet de houder van een voertuig als       prélèvement kilométrique, le détenteur d'un véhicule, tel vermeld in artikel 1.1.0.0.2, vijfde lid, 6°, voorafgaand   que visé à l'article 1.1.0.0.2, alinéa cinq, 6°, est tenu de aan het gebruik van elke weg, voor dat voertuig met een     conclure un contrat de prestation de services avec un dienstaanbieder of de hoofddienstaanbieder naar keuze       prestataire de services ou prestataire de services een dienstverleningsovereenkomst sluiten.                   principal de son choix pour ce véhicule, préalablement à l'utilisation de toute route.
 
@@ -7737,9 +7741,9 @@ De lijst van ongeldig verklaarde boordapparatuur wordt       La liste des équip
 01.07.2025
 - toegevoegd door art. 27 van het decreet van 3 juli 2015    - inséré par art. 27 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op 1 april    10.08.2015). Texte entre en vigueur le 1er avril 2016 2016 (art. 44)                                               (Arrêté du Gouvernement flamand du 17 juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-## Art. 3.3.1.0.13
+###### Art. 3.3.1.0.13
 
-Art. 3.3.1.0.13.
+###### Art. 3.3.1.0.13.
 
 § 1. De registratie van afgelegde kilometers, die nodig is   § 1er. L'enregistrement des kilomètres parcourus, voor de berekening van de kilometerheffing, wordt            nécessaire au calcul du prélèvement kilométrique, est gedaan met behulp van een boordapparatuur.                   réalisé à l'aide d'un équipement embarqué.
 
@@ -7773,9 +7777,9 @@ De Vlaamse Regering bepaalt de instructies, vermeld in       Le Gouvernement fla
 
 - toegevoegd door art. 28 van het decreet van 3 juli 2015    - inséré par art. 28 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op 1 april    10.08.2015). Texte entre en vigueur le 01.04.2016 (Arrêté 2016 (art. 44)                                               du Gouvernement flamand du 17 juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-## Art. 3.3.1.0.14
+###### Art. 3.3.1.0.14
 
-Art. 3.3.1.0.14.
+###### Art. 3.3.1.0.14.
 De belastingplichtige dient uiterlijk de voorlaatste         Le contribuable introduit une déclaration préalable werkdag voor het begin van de verrichtingen voor spelen      auprès de l’entité compétente de l’administration en weddenschappen bij de bevoegde entiteit van de            flamande au plus tard l’avant-dernier jour ouvrable avant Vlaamse administratie een voorafgaande aangifte in.          le début des opérations pour jeux et paris.
 
 Als de spelen of de weddenschappen een voortdurend           Si les jeux ou paris ont un caractère permanent, la karakter hebben, geldt de aangifte tot de intrekking         déclaration est valable jusqu’à son retrait. ervan.
@@ -7799,9 +7803,9 @@ De aangifteplicht die is bepaald in dit artikel geldt niet   L’obligation de d
 - ingevoegd door art. 38 van het decreet van 07.12.2018      - inséré par l’art. 38 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                          20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-## Art. 3.3.1.0.15
+###### Art. 3.3.1.0.15
 
-Art. 3.3.1.0.15.
+###### Art. 3.3.1.0.15.
 
 Voor de toepassing van titel 2, hoofdstuk 12, dient de       Pour l’application du titre 2, chapitre 12, le contribuable belastingplichtige uiterlijk de vijfde werkdag van de        introduit au plus tard le cinquième jour ouvrable du mois maand bij de bevoegde entiteit van de Vlaamse                auprès de l’entité compétente une déclaration pour les administratie een aangifte in voor de verrichtingen die      opérations réalisées dans le mois précédent. gerealiseerd zijn in de vorige maand.
 
@@ -7826,9 +7830,9 @@ De aangifteplicht die is bepaald in dit artikel geldt niet     L’obligation de
 - ingevoegd door art. 39 van het decreet van 07.12.2018        - inséré par l’art. 39 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                            20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-## Art. 3.3.1.0.16
+###### Art. 3.3.1.0.16
 
-Art. 3.3.1.0.16.
+###### Art. 3.3.1.0.16.
 
 De belastingplichtige dient uiterlijk de voorlaatste           Le contribuable introduit au plus tard l’avant-dernier werkdag voor de opstelling van het automatische                jour ouvrable avant l’installation de l’appareil ontspanningstoestel, vermeld in artikel 2.13.1.0.1, een        automatique de divertissement, tel que visé à l’article aangifte in bij de bevoegde entiteit van de Vlaamse            2.13.1.0.1, une déclaration auprès de l’entité compétente administratie.                                                 de l’administration flamande.
 
@@ -7863,11 +7867,11 @@ De aangifteplicht die is bepaald in dit artikel geldt niet   L’obligation de d
 - ingevoegd door art. 40 van het decreet van 07.12.2018      - inséré par l’art. 40 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                          20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-##### Afdeling 2 - Aanslagjaar en belastbaar tijdperk           Section 2. - Année d'imposition et période imposable
+#### Afdeling 2 - Aanslagjaar en belastbaar tijdperk           Section 2. - Année d'imposition et période imposable
 
-## Art. 3.3.2.0.1
+###### Art. 3.3.2.0.1
 
-Art. 3.3.2.0.1.
+###### Art. 3.3.2.0.1.
 
 Het aanslagjaar is voor :                                    L'année d'imposition a trait :
 
@@ -7943,11 +7947,11 @@ Bekrachtigd door art. 224, 2° van het decreet van           Confirmé par l’a
 
 - eerste lid, 7° gewijzigd door art. 219 van het decreet    - alinéa premier, 7° remplacé par art. 219 du décret du van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in   19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré werking getreden op 1 januari 2015 (art. 325)               en vigueur le 01.01.2015 (art. 325) - eerste lid, 8° en 9° toegevoegd door art. 220 van het     - alinéa premier, 8° et 9° ajouté par art. 220 du décret du decreet van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De       19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est tekst is in werking getreden op 1 januari 2015 (art. 325)   entré en vigueur le 01.01.2015 (art. 325)
 
-##### Afdeling 3 - Aanslagtermijn                                   Section 3. - Délai d'imposition
+#### Afdeling 3 - Aanslagtermijn                                   Section 3. - Délai d'imposition
 
-## Art. 3.3.3.0.1
+###### Art. 3.3.3.0.1
 
-Art. 3.3.3.0.1.
+###### Art. 3.3.3.0.1.
 
 § 1. Voor de onroerende voorheffing mag de belasting           § 1er. En ce qui concerne le précompte immobilier, la of de aanvullende belasting worden geheven gedurende           taxe ou la taxe complémentaire peut être levée pendant vijf jaar vanaf 1 januari van het aanslagjaar waarvoor de      cinq ans à partir du 1er janvier de l'année d'imposition belasting is verschuldigd.                                     pour laquelle la taxe est due.
 
@@ -7991,17 +7995,17 @@ De termijnen uit het eerste, tweede en derde lid worden       Les délais des pr
 
 - § 4/1 en § 4/2 ingevoegd door art. 221 van het decreet      - § 4/1 et § 4/2 inséré par art. 221 du décret du van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in     19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré werking getreden op 1 januari 2015 (art. 325)                 en vigueur le 01.01.2015 (art. 325) - § 5 gewijzigd door art. 222 van het decreet van             - § 5 modifié par art. 222 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.3.3.0.2
+###### Art. 3.3.3.0.2
 
-Art. 3.3.3.0.2.
+###### Art. 3.3.3.0.2.
 
 De belasting en de opcentiemen mogen worden geheven,          La taxe et les centimes additionnels peuvent être levés, zelfs nadat de termijn, vermeld in artikel 3.3.3.0.1, § 1,    même après que le délai, cité dans l'article 3.3.3.0.1, § is verstreken, als bewijskrachtige gegevens uitwijzen dat     1er, s'est écoulé, si des données à force probante de belastingplichtige nagelaten heeft aangifte te doen        démontrent que le redevable a négligé de faire une met toepassing van artikel 473 van het federale WIB 92.       déclaration en application de l'article 473 du CIR 92 fédéral.
 
 In het geval, vermeld in het eerste lid, moeten de            Dans le cas, cité dans l'alinéa premier, la taxe et les belasting en de opcentiemen worden geheven binnen             centimes additionnels doivent être levés dans les douze twaalf maanden vanaf de datum waarop de inbreuk,              mois à laquelle l'infraction, citée dans l'alinéa premier, vermeld in het eerste lid, is vastgesteld.                    a été constatée.
 
-## Art. 3.3.3.0.3
+###### Art. 3.3.3.0.3
 
-Art. 3.3.3.0.3.
+###### Art. 3.3.3.0.3.
 
 § 1. Als wordt vastgesteld dat de aangegeven waarde van       § 1er. S’il est constaté que la valeur déclarée des biens de aangegeven goederen voor de berekening van de              déclarés est trop faible pour le calcul de l’impôt de erfbelasting te laag is, wordt de belastingplichtige          succession, le contribuable doit être informé par écrit de schriftelijk in kennis gesteld van de intentie van de         l’intention de l’entité compétente de l’administration bevoegde entiteit van de Vlaamse administratie om             flamande d’établir des droits supplémentaires et la aanvullende rechten en de belastingverhoging, vermeld         majoration des impôts visés à l’article 3.18.0.0.0.8, in artikel 3.18.0.0.8, eerste lid, te vestigen. Die           premier alinéa. Cette notification se fait dans les 2 ans kennisgeving gebeurt binnen de 2 jaar na het indienen         suivant l’introduction de la déclaration visée aux articles van de aangifte, vermeld in artikel 3.3.1.0.5 en 3.3.1.0.6.   3.3.1.0.5 et 3.3.1.1.0.6.
 
@@ -8022,11 +8026,11 @@ Als de vrijstelling, vermeld in artikel 2.8.6.0.3, is           Si l'exonératio
 - ingevoegd door art. 33 van het decreet van 21.12.2018         - inséré par l’art. 33 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst treedt in werking op 07.01.2019        28.12.2018). Texte entre en vigueur le 07.01.2019
 
-##### Afdeling 4 - Aanslagbiljet                                   Section 4 - Feuille d'imposition
+#### Afdeling 4 - Aanslagbiljet                                   Section 4 - Feuille d'imposition
 
-## Art. 3.3.4.0.1
+###### Art. 3.3.4.0.1
 
-Art. 3.3.4.0.1.
+###### Art. 3.3.4.0.1.
 
 Het aanslagbiljet vermeldt:                                     La feuille d'imposition mentionne :
 
@@ -8045,11 +8049,11 @@ Het aanslagbiljet vermeldt:                                     La feuille d'imp
 
 8° de termijn waarin de belastingschuldige bezwaar kan          8° le délai pendant lequel le redevable peut introduire indienen, de benaming en het adres van de entiteit van          une réclamation, le nom et l'adresse de l'entité de de Vlaamse administratie die bevoegd is om het bezwaar          l'administration flamande compétente pour recevoir la te ontvangen, en de formaliteiten die daarbij moeten            réclamation et les formalités qui doivent être respectées worden nageleefd.                                               en cette matière.
 
-##### Afdeling 5 - Verzending                                                 Section 5 – Envoi
+#### Afdeling 5 - Verzending                                                 Section 5 – Envoi
 
-## Art. 3.3.5.0.1
+###### Art. 3.3.5.0.1
 
-Art. 3.3.5.0.1.
+###### Art. 3.3.5.0.1.
 
 De aanslagbiljetten worden in gesloten omslag aan de            Les feuilles d'imposition           sont     transmises   aux belastingschuldigen toegezonden.                                contribuables sous pli fermé.
 
@@ -8060,29 +8064,29 @@ De       Vlaamse       Regering      bepaalt      de          Le Gouvernement fl
 
 - gewijzigd door art. 26 van het decreet van 09.12.2022       - modifié par l'art. 26 du décret du 09.12.2022 (M.B., (B.S., 20.12.2022). Inwerkingtreding: 30.12.2022              20.12.2022). Entrée en vigueur le 30.12.2022 - gewijzigd door art. 52 van het decreet van 02.04.2021       - modifié par l'art. 52 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021              15.04.2021). En vigueur le 25.04.2021
 
-## Art. 3.3.5.0.2
+###### Art. 3.3.5.0.2
 
-Art. 3.3.5.0.2.
+###### Art. 3.3.5.0.2.
 
 Als artikel 2.5.7.0.2 of 2.5.7.0.3 van toepassing is, moet    Si l'article 2.5.7.0.2 ou 2.5.7.0.3 s'applique, la feuille het aanslagbiljet om geldig te zijn, verstuurd worden         d'imposition doit être envoyée, pour être valable, vers la tegen het einde van het kwartaal dat volgt op de              fin du trimestre qui suit la date finale de la période de einddatum van de periode van opschorting.                     suspension.
 
 Het eerste lid geldt voor de aanslagbiljetten die vanaf 5     L'alinéa premier s'applique aux feuilles d'imposition augustus 2004 verstuurd worden.                               envoyées à partir du 5 août 2004.
 
-#### Hoofdstuk 4 - Betalingen                                       Chapitre 4 – Paiements
+### Hoofdstuk 4 - Betalingen                                       Chapitre 4 – Paiements
 
-##### Afdeling 1 - Algemeen                                       Section 1re – Généralités
+#### Afdeling 1 - Algemeen                                       Section 1re – Généralités
 
-## Art. 3.4.1.0.1
+###### Art. 3.4.1.0.1
 
-Art. 3.4.1.0.1.
+###### Art. 3.4.1.0.1.
 
 De Vlaamse Regering kan bepalen aan wie de                    Le Gouvernement flamand peut arrêter le destinataire belastingen betaald moeten worden.                            des paiements des impôts.
 
-##### Afdeling 2 - Betaaltermijn                                Section 2 - Délai de paiement
+#### Afdeling 2 - Betaaltermijn                                Section 2 - Délai de paiement
 
-## Art. 3.4.2.0.1
+###### Art. 3.4.2.0.1
 
-Art. 3.4.2.0.1.
+###### Art. 3.4.2.0.1.
 
 De belasting of de administratieve geldboete, vermeld in    L'impôt ou l’amende administrative, visée à l’article artikel 3.18.0.0.1, moet uiterlijk binnen een termijn van   3.18.0.0.1, doit être payé au plus tard dans un délai de twee maanden vanaf de verzendingsdatum, vermeld op          deux mois à partir de la date d'envoi, citée sur la feuille het aanslagbiljet, betaald worden op de rekening van de     d'imposition adressée, sur le compte de l'entité bevoegde entiteit van de Vlaamse administratie.             compétente de l'administration flamande.
 In het geval, vermeld in artikel 3.3.5.0.1, tweede lid,     Dans le cas, cité dans l'article 3.3.5.0.1, alinéa deux, dans waarbij het aanslagbiljet door middel van een procedure     lequel la feuille d'imposition a été transmise au waarbij informaticatechnieken worden gebruikt, aan de       redevable à l'aide d'une procédure utilisant des belastingschuldige is bezorgd, moet de belasting worden     techniques informatiques, l'impôt doit être payé dans les betaald binnen twee maanden na de verzendingsdatum,         deux mois suivant la date d'envoi citée sur la feuille vermeld op het aanslagbiljet.                               d'imposition.
@@ -8093,9 +8097,9 @@ In het geval, vermeld in artikel 3.3.5.0.1, tweede lid,     Dans le cas, cité d
 
 - gewijzigd door art. 15 van het decreet van 19.12.2014     - modifié par art. 15 du décret du 19.12.2014 (M.B., (B.S., 13.01.2015). De tekst is in werking getreden op      13.01.2015). Texte applicable à partir de 1 janvier 2015 01.01.2015. (art. 24)                                       (art.24)
 
-## Art. 3.4.2.0.2
+###### Art. 3.4.2.0.2
 
-Art. 3.4.2.0.2.
+###### Art. 3.4.2.0.2.
 
 (…)                                                         (…)
 
@@ -8104,21 +8108,21 @@ Art. 3.4.2.0.2.
 - opgeheven door art. 34 van het decreet van 21.12.2018     - abrogé par l'art. 34 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst treedt in werking op 07.01.2019    28.12.2018). Texte entre en vigueur le 07.01.2019
 
-## Art. 3.4.2.0.3
+###### Art. 3.4.2.0.3
 
-Art. 3.4.2.0.3.
+###### Art. 3.4.2.0.3.
 
 Het indienen van een bezwaar, een aanvraag tot              L'introduction d'une réclamation, d'une demande ambtshalve ontheffing, een vordering in rechte of een       d'exonération d'office, d'une demande en droit ou d'une verzoek om spreiding van betaling schort de verplichting    demande d'étalement de paiement ne suspend pas tot betaling van de belastingen en toebehoren niet op.      l'obligation de paiement des impôts et accessoires.
 
-## Art. 3.4.2.0.4
+###### Art. 3.4.2.0.4
 
-Art. 3.4.2.0.4.
+###### Art. 3.4.2.0.4.
 
 In afwijking van artikel 3.4.2.0.1 moeten alle              En dérogation à l'article 3.4.2.0.1, tous les impôts et belastingen en toebehoren onverwijld worden betaald         accessoires doivent immédiatement être payés si les als de rechten van het Vlaamse Gewest in het gedrang        droits de la Région flamande sont compromis. Lorsque komen. Als de belastingschuldige betwist dat de rechten     le redevable conteste que les droits de la Région van het Vlaamse Gewest in gevaar verkeren, wordt er         flamande sont en péril, il est statué sur la contestation over de betwisting uitspraak gedaan, zoals in kort          comme en référé par le juge des saisies de l'endroit où geding, door de beslagrechter van de plaats waar de         l'entité compétente de l'administration flamande qui doit bevoegde entiteit van de Vlaamse administratie die de       percevoir la taxe, est établie. belasting moet innen, is gevestigd.
 
-## Art. 3.4.2.0.5
+###### Art. 3.4.2.0.5
 
-Art. 3.4.2.0.5.
+###### Art. 3.4.2.0.5.
 
 In afwijking van artikel 3.4.2.0.1 moet de                     En dérogation de l'article 3.4.2.0.1, le redevable doit belastingschuldige de registratiebelasting onmiddellijk        payer impôt d'enregistrement immédiatement après la na de bezorging van het aanslagbiljet betalen.                 réception de l'avertissement-extrait de rôle.
 Het eerste lid is niet van toepassing op de aanvullende        L’alinéa premier ne s’applique pas aux droits rechten op het verkooprecht, vermeld in artikel 2.9.4.2.3,     complémentaires sur le droit de vente, visé à l’article tweede lid, artikel 2.9.4.2.11, § 2, tweede lid, of § 3,       2.9.4.2.3, alinéa deux, l’article 2.9.4.2.11, § 2, alinéa tweede lid, artikel 2.9.4.2.12, § 1, tweede lid, vierde lid,   deux, ou § 3, alinéa deux, l’article 2.9.4.2.12, § 1er, of § 2, tweede lid, artikel 2.9.4.2.13, § 1, tweede lid,       alinéa deux, alinéa quatre, ou § 2, alinéa deux, l’article artikel 2.9.4.2.14, § 5, tweede lid, of § 7, en artikel        2.9.4.2.13, § 1er, alinéa deux, l’article 2.9.4.2.14, § 5, 2.9.5.0.3, tweede lid, en de daaraan verbonden                 alinéa deux, ou § 7, et à l’article 2.9.5.0.3, alinéa deux, belastingverhogingen, vermeld in artikel 3.18.0.0.11 en        et aux majorations d’impôt y afférentes, telles que visées artikel 3.18.0.0.12.                                           aux articles 3.18.0.0.11 et 3.18.0.0.12.
@@ -8135,17 +8139,17 @@ Het eerste lid is niet van toepassing op de aanvullende        L’alinéa premi
 
 - toegevoegd door art. 223 van het decreet van                 - inséré par art. 223 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in          29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Afdeling 3 - Wijze van betaling                                 Section 3 - Mode de paiement
+#### Afdeling 3 - Wijze van betaling                                 Section 3 - Mode de paiement
 
-## Art. 3.4.3.0.1
+###### Art. 3.4.3.0.1
 
-Art. 3.4.3.0.1.
+###### Art. 3.4.3.0.1.
 
 De Vlaamse Regering kan de regels bepalen voor de              Le Gouvernement flamand peut arrêter le mode de wijze van betaling van de belastingen.                         paiement des impôts.
 
-## Art. 3.4.3.0.2
+###### Art. 3.4.3.0.2
 
-Art. 3.4.3.0.2.
+###### Art. 3.4.3.0.2.
 
 § 1. Iedere erfgenaam, legataris of begiftigde kan             § 1er. Tout héritier, légataire ou donataire peut demander verzoeken de erfbelasting en toebehoren die                    le paiement de tout ou partie des droits de succession et invorderbaar zijn op grond van een nalatenschap, geheel        accessoires récupérables en vertu d'une succession en of gedeeltelijk te betalen door de afgifte van de              abandonnant la pleine et entière propriété des biens geheelheid volle eigendom van de volgende                      culturels suivants : cultuurgoederen :
 
@@ -8181,35 +8185,35 @@ Als de Vlaamse Regering het verzoek tot                     Si le Gouvernement f
 
 - toegevoegd door art. 224 van het decreet van              - inséré par art. 224 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325) - modifié par art. 224 du décret du 19.12.2014 (M.B., 29.01.2015, Ed. 2, erratum M.B., 04.03.2015)
 
-##### Afdeling 4 - Vermeldingen op het betaalformulier            Section 4 - Mentions sur le formulaire de paiement
+#### Afdeling 4 - Vermeldingen op het betaalformulier            Section 4 - Mentions sur le formulaire de paiement
 
-## Art. 3.4.4.0.1
+###### Art. 3.4.4.0.1
 
-Art. 3.4.4.0.1.
+###### Art. 3.4.4.0.1.
 
 De Vlaamse Regering kan de regels bepalen voor de           Le Gouvernement flamand peut arrêter les modalités vermeldingen op het betaalformulier.                        des mentions sur le formulaire de paiement.
 
-##### Afdeling 5 - Bewijs van betaling                            Section 5 - Preuve de paiement
+#### Afdeling 5 - Bewijs van betaling                            Section 5 - Preuve de paiement
 
-## Art. 3.4.5.0.1
+###### Art. 3.4.5.0.1
 
-Art. 3.4.5.0.1.
+###### Art. 3.4.5.0.1.
 
 De Vlaamse Regering kan de regels bepalen voor het          Le Gouvernement flamand peut arrêter les modalités de bewijs van betaling.                                        la preuve de paiement.
 
-##### Afdeling 6 - Datum van uitwerking van betaling                      Section 6 - Date des effets du paiement
+#### Afdeling 6 - Datum van uitwerking van betaling                      Section 6 - Date des effets du paiement
 
-## Art. 3.4.6.0.1
+###### Art. 3.4.6.0.1
 
-Art. 3.4.6.0.1.
+###### Art. 3.4.6.0.1.
 
 De Vlaamse Regering kan de regels bepalen voor de            Le Gouvernement flamand peut arrêter les modalités de datum waarop de betaling uitwerking heeft.                   la date à laquelle le paiement produit ses effets.
 
-##### Afdeling 7 - Wijze van aanrekening van betaling,           Section 7 - Mode d'imputation de paiement, d'utilisation aanwending en aanzuivering                                           et d'apurement
+#### Afdeling 7 - Wijze van aanrekening van betaling,           Section 7 - Mode d'imputation de paiement, d'utilisation aanwending en aanzuivering                                           et d'apurement
 
-## Art. 3.4.7.0.1
+###### Art. 3.4.7.0.1
 
-Art. 3.4.7.0.1.
+###### Art. 3.4.7.0.1.
 
 § 1. De belastingschuldige die een of meer belastingen       § 1er. Le redevable qui doit payer un ou plusieurs en toebehoren te betalen heeft, moet bij elke betaling       impôts et accessoires, doit mentionner à chaque vermelden wat hij wil vereffenen.                            paiement l'objet de ce dernier.
 
@@ -8224,9 +8228,9 @@ Als een dergelijke vermelding ontbreekt, worden de           A défaut d'une tel
 
 4° op de verschuldigde belasting en de opcentiemen of        4° à l'impôt et aux centimes ou décime additionnels dus. de opdeciem.
 
-## Art. 3.4.7.0.2
+###### Art. 3.4.7.0.2
 
-Art. 3.4.7.0.2.
+###### Art. 3.4.7.0.2.
 
 § 1. De bepalingen van artikel 5.182 en boek 5, titel 3,     § 1er. Les dispositions de l'article 5.182 et du livre 5, ondertitel 8, hoofdstuk 4, van het Burgerlijk Wetboek        titre 3, sous-titre 8, chapitre 4, du Code civil, ne zijn inzake de belastingen, vermeld in deze codex, niet      s'appliquent pas en matière des impôts cités dans le van toepassing.                                              présent code.
 § 2. Elke som die aan een persoon moet worden                § 2. Toute somme devant être remboursée ou payée à teruggegeven of betaald, hetzij in het kader van de          une personne, soit dans le cadre de l'application du toepassing van deze codex, hetzij krachtens de               présent code, soit en vertu des dispositions du droit civil bepalingen van het burgerlijk recht met betrekking tot de    relatif au paiement indu, peut être affectée au choix et onverschuldigde betaling, kan naar keuze en zonder           sans formalité par le membre du personnel compétent au formaliteit door het bevoegde personeelslid worden           paiement des montants dus par cette personne en aangewend ter betaling van de door hem verschuldigde         application du présent code, ou au règlement des bedragen bij de toepassing van deze codex of ter             créances non fiscales dont la perception et le voldoening van de niet-fiscale schuldvorderingen             recouvrement sont assurés par l'entité compétente de waarvan de inning en invordering, door of krachtens een      l'administration flamande, par ou en vertu d'une bepaling met kracht van wet door de bevoegde entiteit        disposition ayant force de loi. van de Vlaamse administratie worden verzekerd.
@@ -8244,15 +8248,15 @@ Het eerste lid blijft van toepassing in geval van beslag,   L'alinéa premier re
 
 - § 4 toegevoegd door art. 225 van het decreet van          - § 4 inséré par art. 225 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.4.7.0.3
+###### Art. 3.4.7.0.3
 
-Art. 3.4.7.0.3.
+###### Art. 3.4.7.0.3.
 
 Als een voertuig in de loop van een aanslagjaar wordt       Si un véhicule est radié du répertoire du Directoratafgevoerd van het repertorium van het Directoraat-          général de la Mobilité et de la Sécurité routière pendant generaal Mobiliteit en Verkeersveiligheid of een            l'année d'imposition ou bénéficie d'une exonération, la vrijstelling geniet, wordt de betaalde verkeersbelasting    taxe de circulation payée est remboursée teruggegeven in verhouding tot de niet-verstreken           proportionnellement aux mois non écoulés ou, dans la maanden of, in dezelfde mate, aangerekend op de             même mesure, imputée sur la base de la taxe due par le belasting die door de belastingschuldige voor een ander     redevable pour un autre véhicule. voertuig is verschuldigd.
 
-## Art. 3.4.7.0.4
+###### Art. 3.4.7.0.4
 
-Art. 3.4.7.0.4.
+###### Art. 3.4.7.0.4.
 (…)                                                         (…)
 
 ---- historiek ----                                         ---- historique ----
@@ -8260,9 +8264,9 @@ Art. 3.4.7.0.4.
 - opgeheven door art. 36 van het decreet van 21.12.2018     - abrogé par l'art. 36 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst treedt in werking op 01.01.2021    28.12.2018). Texte entre en vigueur le 01.01.2021
 
-## Art. 3.4.7.0.5
+###### Art. 3.4.7.0.5
 
-Art. 3.4.7.0.5.
+###### Art. 3.4.7.0.5.
 
 (…)                                                         (…)
 
@@ -8271,9 +8275,9 @@ Art. 3.4.7.0.5.
 - opgeheven door art. 37 van het decreet van 21.12.2018     - abrogé par l'art. 37 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst treedt in werking op 07.01.2019    28.12.2018). Texte entre en vigueur le 07.01.2019
 
-## Art. 3.4.7.0.6
+###### Art. 3.4.7.0.6
 
-Art. 3.4.7.0.6.
+###### Art. 3.4.7.0.6.
 
 Inzake de registratiebelasting worden de aanvullende        En ce qui concerne l'impôt d'enregistrement, les droits rechten die ingevolge een tekortschatting of om een         complémentaires payés en raison d'une sous-évaluation andere reden betaald zijn, aangerekend op de                ou pour tout autre motif sont imputés sur les droits aanvullende rechten die ingevolge prijsbewimpeling          complémentaires dus en raison d'une dissimulation de verschuldigd zijn.                                          prix.
 
@@ -8281,9 +8285,9 @@ Inzake de registratiebelasting worden de aanvullende        En ce qui concerne l
 
 - toegevoegd door art. 226 van het decreet van              - inséré par art. 226 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.4.7.0.7
+###### Art. 3.4.7.0.7
 
-Art. 3.4.7.0.7.
+###### Art. 3.4.7.0.7.
 
 (…)                                                         (…)
 
@@ -8294,11 +8298,11 @@ Art. 3.4.7.0.7.
 - ingevoegd door art. 43 van het decreet van 07.12.2018     - inséré par l’art. 43 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                         20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-##### Afdeling 8 - Betalingsfaciliteiten                          Section 8 - Facilités de paiement
+#### Afdeling 8 - Betalingsfaciliteiten                          Section 8 - Facilités de paiement
 
-## Art. 3.4.8.0.1
+###### Art. 3.4.8.0.1
 
-Art. 3.4.8.0.1.
+###### Art. 3.4.8.0.1.
 
 § 1. De belastingschuldige kan verzoeken om spreiding       § 1er. Le redevable peut demander d'étaler le paiement van betaling van de belastingen en toebehoren.              des impôts et accessoires.
 
@@ -8311,21 +8315,21 @@ Het bevoegde personeelslid kan het verzoek inwilligen.      Le membre du personn
 - §2 opgeheven door art. 38 van het decreet van             - §2 abrogé par l'art. 38 du décret du 21.12.2018 (M.B.
 21.12.2018 (B.S. 28.12.2018). Tekst treedt in werking op    28.12.2018). Texte entre en vigueur le 07.01.2019 07.01.2019
 
-#### Hoofdstuk 5 - Bezwaar                                     Chapitre 5 – Réclamation
+### Hoofdstuk 5 - Bezwaar                                     Chapitre 5 – Réclamation
 
-##### Afdeling 1 - Ontvangstmelding                            Section 1re - Notification de réception
+#### Afdeling 1 - Ontvangstmelding                            Section 1re - Notification de réception
 
-## Art. 3.5.1.0.1
+###### Art. 3.5.1.0.1
 
-Art. 3.5.1.0.1.
+###### Art. 3.5.1.0.1.
 
 Aan de indieners van de bezwaarschriften en de             Une notification de réception mentionnant la date de aanvragen tot ambtshalve ontheffing wordt een              réception du recours administratif est transmise aux ontvangstmelding bezorgd die de datum van ontvangst        auteurs des réclamations et des demandes d'exonération van het administratief beroep vermeldt.                    d'office.
 
-##### Afdeling 2 - Bezwaartermijn                               Section 2 - Délai de réclamation
+#### Afdeling 2 - Bezwaartermijn                               Section 2 - Délai de réclamation
 
-## Art. 3.5.2.0.1
+###### Art. 3.5.2.0.1
 
-Art. 3.5.2.0.1.
+###### Art. 3.5.2.0.1.
 
 De bezwaarschriften moeten worden gemotiveerd en op        Les réclamations doivent être motivées et introduites, straffe van verval worden ingediend binnen een termijn     sous peine de d'échéance, dans un délai de trois mois à van drie maanden na de derde werkdag die volgt op de       compter du troisième jour ouvrable suivant la date verzendingsdatum, vermeld op het aanslagbiljet.            d'envoi citée sur la feuille d'imposition.
 
@@ -8341,47 +8345,47 @@ Als het bezwaarschrift wordt ingediend met een             Lorsque la réclamati
 - tweede lid gewijzigd door art. 16 van het decreet van    - deuxième alinéa modifié par art. 16 du décret du 19.12.2014 (B.S., 13.01.2015). De tekst is in werking      19.12.2014 (M.B., 13.01.2015). Texte applicable à getreden op 01.01.2015. (art. 24) partir du 01.01.2015.
 - derde lid toegevoegd door art. 16 van het decreet van    - troisième alinéa inséré par art. 16 du décret du 19.12.2014 (B.S., 13.01.2015). De tekst is in werking      19.12.2014 (M.B., 13.01.2015). Texte applicable à getreden op 01.01.2015. (art. 24) partir du 01.01.2015.
 
-## Art. 3.5.2.0.2
+###### Art. 3.5.2.0.2
 
-Art. 3.5.2.0.2.
+###### Art. 3.5.2.0.2.
 
 Zolang er geen beslissing is gevallen, mag de              Tant qu'aucune décision n'a été prise, le redevable peut belastingschuldige zijn oorspronkelijke bezwaarschrift     compléter sa réclamation originale par des nouvelles aanvullen met nieuwe, schriftelijk geformuleerde           réclamations écrites, même si elles sont introduites en bezwaren, zelfs als die buiten de termijn, vermeld in      dehors du délai, cité dans l'article 3.5.2.0.1 artikel 3.5.2.0.1, worden ingediend.
 
-## Art. 3.5.2.0.3
+###### Art. 3.5.2.0.3
 
-Art. 3.5.2.0.3.
+###### Art. 3.5.2.0.3.
 
 Als een aanvullende aanslag voor een bepaald                    Si un impôt complémentaire pour une certaine année aanslagjaar gevestigd wordt met toepassing van artikel          d'imposition est établi en application de l'article 3.3.3.0.1 en de nieuwe aanslag op naam van dezelfde             3.3.3.0.1 et si le nouvel impôt au nom du même belastingplichtige voor een of meer aanslagjaren een            contribuable donne naissance à une taxe excessive pour door de aanvullende belasting veroorzaakte overmatige           une ou plusieurs années d'imposition à cause de la taxe belasting doet ontstaan, kan de belastingschuldige              complémentaire, le redevable peut introduire une binnen een termijn van drie maanden vanaf de derde              réclamation contre la taxe excessive précitée dans un werkdag die volgt op de verzendingsdatum, vermeld op            délai de trois mois à partir du troisième jour ouvrable het aanslagbiljet dat de aanvullende aanslag omvat, een         qui suit la date d'envoi citée sur la feuille d'imposition bezwaarschrift indienen tegen de voormelde overmatige           contenant l'impôt complémentaire. belasting.
 
 In het geval, vermeld in artikel 3.3.5.0.1, tweede lid,         Dans le cas, cité dans l'article 3.3.5.0.1, alinéa deux, waarbij het aanslagbiljet door middel van een procedure         dans lequel la feuille d'imposition a été transmise au waarbij informaticatechnieken worden gebruikt, aan de           contribuable à l'aide d'une procédure utilisant des belastingplichtige is bezorgd, vangt de termijn aan vanaf       techniques informatiques, le délai commence à partir de de verzendingsdatum, vermeld op het aanslagbiljet dat           la date d'envoi citée sur la feuille d'imposition contenant de aanvullende aanslag omvat.                                   l'impôt complémentaire.
 
-## Art. 3.5.2.0.4
+###### Art. 3.5.2.0.4
 
-Art. 3.5.2.0.4.
+###### Art. 3.5.2.0.4.
 
 Vanaf het aanslagjaar 2008 kan de termijn, vermeld in           A partir de l'année d'imposition 2008, le délai, visé à artikel 3.5.2.0.1, niet verstrijken voor 31 maart van het       l'article 3.5.2.0.1, ne peut pas expirer avant le 31 mars jaar dat volgt op het aanslagjaar, als met het                  de l'année qui suit l'année d'imposition, lorsque la bezwaarschrift de vermindering met toepassing van               réclamation invoque la réduction au titre de l'article artikel 2.1.5.0.2, § 1, 3°, wordt ingeroepen.                   2.1.5.0.2, § 1er, 3°.
 
-## Art. 3.5.2.0.5
+###### Art. 3.5.2.0.5
 
-Art. 3.5.2.0.5.
+###### Art. 3.5.2.0.5.
 
 De termijn, vermeld in artikel 3.5.2.0.1, is voor de            En ce qui concerne la taxe sur les sites d'activité leegstandsheffing bedrijfsruimten ook van toepassing in         économique désaffectés, le délai, visé à l'article geval van opschorting van de belasting als vermeld in           3.5.2.0.1, s'applique également en cas de suspension artikel 2.6.7.1.1, 2.6.7.2.1, 2.6.7.3.1, 2.6.7.4.1, 2.6.7.5.1   d'impôt telle que visée aux articles 2.6.7.1.1, 2.6.7.2.1, en 2.6.7.6.1. De persoon op naam van wie de belasting           2.6.7.3.1, 2.6.7.4.1, 2.6.7.5.1 et 2.6.7.6.1. La personne in het kohier is ingeschreven, kan echter alsnog om             au nom de laquelle l'impôt est enrôlé peut toutefois ontheffing verzoeken op basis van middelen die geen             encore demander une exonération sur la base de moyens betrekking hebben op de vestiging van de belasting zelf         qui ne concernent pas l'établissement de la taxe elleen op basis van feiten die zich hebben afgespeeld               même et sur la base de faits qui ont eu lieu pendant la gedurende de opschorting van de belasting en waarvan            suspension de la taxe et dont cette personne ne pouvait die persoon in het kader van de procedure, vermeld in           pas avoir connaissance dans le cadre de la procédure artikel 3.5.2.0.1, geen kennis kon hebben.                      visée à l'article 3.5.2.0.1.
 
 Het verzoek, vermeld in het eerste lid, moet op straffe         La demande, visée à l'alinéa premier, doit être van verval bij het bevoegde personeelslid schriftelijk          introduite, sous peine d'échéance, auprès du membre du ingediend worden binnen een termijn van drie maanden            personnel compétent dans un délai de trois mois à partir vanaf de derde werkdag die volgt op de datum waarop             du troisième jour ouvrable suivant la date de l'échéance de opschorting vervalt.                                         de la suspension.
 
-##### Afdeling 3 - Natuurlijke personen en rechtspersonen die       Section 3 - Personnes physiques et personnes morales bezwaar kunnen indienen en de wijze waarop ze bezwaar              pouvant introduire une réclamation et mode kunnen indienen                                       d'introduction de la réclamation
+#### Afdeling 3 - Natuurlijke personen en rechtspersonen die       Section 3 - Personnes physiques et personnes morales bezwaar kunnen indienen en de wijze waarop ze bezwaar              pouvant introduire une réclamation et mode kunnen indienen                                       d'introduction de la réclamation
 
-## Art. 3.5.3.0.1
+###### Art. 3.5.3.0.1
 
-Art. 3.5.3.0.1.
+###### Art. 3.5.3.0.1.
 
 De belastingschuldige kan tegen het bedrag van de            Le redevable peut introduire une réclamation auprès des gevestigde aanslag, opcentiemen en de opdeciem,              membres compétents du personnel contre le montant de verhogingen en boeten inbegrepen, schriftelijk bezwaar       l'impôt établi, des centimes et décime additionnels, indienen bij de bevoegde personeelsleden.                    majorations et amendes comprises.
 
 De bezwaarindiener voegt bij het bezwaarschrift de           L'auteur de la réclamation joint à la réclamation toutes nodige bewijskrachtige stukken om zijn bezwaar te            les pièces justificatives à l'appui de ses objections. staven.
 
-## Art. 3.5.3.0.2
+###### Art. 3.5.3.0.2
 
-Art. 3.5.3.0.2.
+###### Art. 3.5.3.0.2.
 
 De belastingschuldige die om om het even welke               Le redevable qui demande quelconque exonération ou vrijstelling of vermindering verzoekt, kan er alleen het     réduction, ne peut en obtenir ou garder l'avantage que voordeel van verkrijgen of behouden als hij zijn recht op    s'il prouve son droit à cette exonération ou réduction. die vrijstelling of vermindering bewijst.
 
@@ -8391,15 +8395,15 @@ De belastingschuldige moet het bevoegde personeelslid        Le contribuable doi
 
 - tweede lid toegevoegd door art. 31 van het decreet van     - deuxième alinéa est ajouté par art. 31 du décret du 3 3 juli 2015 (B.S., 10.08.2015). De tekst treedt in werking   juillet 2015 (M.B., 10.08.2015). Texte entre en vigueur le op 1 april 2016 (art. 44)                                    1er avril 2016 (Arrêté du Gouvernement flamand du 17 juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-## Art. 3.5.3.0.3
+###### Art. 3.5.3.0.3
 
-Art. 3.5.3.0.3.
+###### Art. 3.5.3.0.3.
 
 De bepalingen van artikel 3.5.2.0.1, 3.5.2.0.2 en            Les dispositions des articles 3.5.2.0.1, 3.5.2.0.2 et 3.5.3.0.1 zijn ook van toepassing op aanvragen tot           3.5.3.0.1 s'appliquent également aux demandes de kwijtschelding of vermindering van de onroerende             remise ou de réduction du précompte immobilier dans voorheffing in de gevallen, vermeld in artikel 2.1.5.0.1     les cas, cités dans les articles 2.1.5.0.1 en 2.1.5.0.2. en 2.1.5.0.2.
 
-## Art. 3.5.3.0.4
+###### Art. 3.5.3.0.4
 
-Art. 3.5.3.0.4.
+###### Art. 3.5.3.0.4.
 
 Als de belastingschuldige beroep kon aantekenen met          Si le redevable pouvait introduire un recours en toepassing van artikel 3.21 van de Vlaamse Codex             application de l'article 3.21 du Code flamand du Wonen van 2021, of beroep kon aantekenen met                 Logement de 2021, ou former un recours en application toepassing van artikel 7 van het decreet van 19 april        de l'article 7 du décret du 19 avril 1995, il ne peut plus 1995, kan hij bij zijn bezwaar tegen de belasting de         contester l'inscription dans l'inventaire dans sa opname in de inventaris niet meer betwisten.                 réclamation contre la taxe.
 
@@ -8413,11 +8417,11 @@ Bekrachtigd door art. 224, 2° van het decreet van            Confirmé par l’
 - gewijzigd door art. 36 van het decreet van 29.03.2019     - modifié par l'art. 36 du décret du 29.03.2019 (M.B.
 (B.S.: 29.04.2019). Tekst van toepassing op 01.01.2021      29.04.2019). Texte entre en vigueur le 01.01.2021 - gewijzigd door art. 25 van het decreet van 08.12.2017     - modifié par l'art. 25 du décret du 08.12.2017 (M.B.: (B.S.: 14.12.2017). Tekst van toepassing vanaf              14.12.2017). Le texte entre en vigueur le 24.12.2017 24.12.2017
 
-##### Afdeling 4 - Onderzoeksbevoegdheden                            Section 4 - Compétences d'enquête
+#### Afdeling 4 - Onderzoeksbevoegdheden                            Section 4 - Compétences d'enquête
 
-## Art. 3.5.4.0.1
+###### Art. 3.5.4.0.1
 
-Art. 3.5.4.0.1.
+###### Art. 3.5.4.0.1.
 
 Om de behandeling van het bezwaarschrift te verzekeren      Afin d'assurer le traitement de la réclamation, chaque beschikt elk bevoegde personeelslid over de                 membre du personnel compétent dispose des moyens bewijsmiddelen en de bevoegdheden die aan de                justificatifs et des compétences accordés à administratie verleend zijn met toepassing van artikel      l'administration en application des articles 3.13.1.1.1, 3.13.1.1.1, 3.13.1.1.2, 3.13.1.1.3, 3.13.1.2.1 tot en met   3.13.1.1.2, 3.13.1.1.3, 3.13.1.2.1 à 3.13.1.2.5 inclus, et 3.13.1.2.5, 3.13.1.3.1 tot en met 3.13.1.3.6, 3.13.1.4.1,   3.13.1.3.1 à 3.13.1.3.6, 3.13.1.4.1, 3.13.1.4.2, 3.17.0.0.1 3.13.1.4.2, 3.17.0.0.1 en 3.19.0.0.1.                       et 3.19.0.0.1 inclus.
 
@@ -8426,59 +8430,59 @@ Bovendien kan hij, in het kader van dat bezwaarschrift,     Il peut en outre, da
 
 - gewijzigd door art. 53 van het decreet van 02.04.2021     - modifié par l'art. 53 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021            15.04.2021). En vigueur le 25.04.2021
 
-## Art. 3.5.4.0.2
+###### Art. 3.5.4.0.2
 
-Art. 3.5.4.0.2.
+###### Art. 3.5.4.0.2.
 
 Op verzoek van de bevoegde entiteit van de Vlaamse          Sur demande de l'entité compétente de l'administration administratie zal er een protocol over de advisering bij    flamande, un protocole sur l'émission d'avis lors du de behandeling van ingediende bezwaren worden               traitement des réclamations introduites sera conclu avec gesloten met de andere entiteiten van de Vlaamse            les autres entités de l'administration flamande qui sont administratie die bevoegd zijn voor een van de gegevens     compétentes pour une des données nécessaires pour die noodzakelijk zijn om de belastingen, vermeld in deze    fixer les taxes, citées dans le présent code. codex, te bepalen.
 
-##### Afdeling 5 - Behandeltijd                            Section 5 - Temps imparti au traitement
+#### Afdeling 5 - Behandeltijd                            Section 5 - Temps imparti au traitement
 
-## Art. 3.5.5.0.1
+###### Art. 3.5.5.0.1
 
-Art. 3.5.5.0.1.
+###### Art. 3.5.5.0.1.
 
 Voorbehouden voor toekomstig gebruik.                       Réservé pour un usage futur
 
-##### Afdeling 6 - Beslissingswijze voor bezwaar              Section 6 - Mode de décision en cas de réclamation
+#### Afdeling 6 - Beslissingswijze voor bezwaar              Section 6 - Mode de décision en cas de réclamation
 
-## Art. 3.5.6.0.1
+###### Art. 3.5.6.0.1
 
-Art. 3.5.6.0.1.
+###### Art. 3.5.6.0.1.
 
 Het bevoegde personeelslid doet, als administratieve        Le membre du personnel compétent s'énonce, comme overheid, uitspraak bij een met redenen omklede             l'autorité administrative, au moyen d'une décision beslissing over de bezwaren die aangevoerd worden           motivée sur les réclamations introduites par le door de belastingschuldige.                                 redevable.
 
 Het is het personeelslid, vermeld in het eerste lid, niet   Le membre du personnel, visé à l'alinéa premier, n'est toegelaten bij zijn beslissing een aanvullende aanslag te   pas autorisé à établir un impôt complémentaire lors de vestigen, noch de compensatie te verwezenlijken tussen      sa décision, ni à réaliser une compensation entre une een rechtmatig bevonden ontheffing en een                   exonération justifiée et une insuffisance d'impôt qui ontoereikendheid van aanslag die zou zijn vastgesteld.      aurait été constatée.
 
-##### Afdeling 7 - Collectieve beslissing                            Section 7 - Décision collective
+#### Afdeling 7 - Collectieve beslissing                            Section 7 - Décision collective
 
-## Art. 3.5.7.0.1
+###### Art. 3.5.7.0.1
 
-Art. 3.5.7.0.1.
+###### Art. 3.5.7.0.1.
 
 Voorbehouden voor toekomstig gebruik.                       Réservé pour un usage futur
 
-##### Afdeling 8 - Hoorzitting                                       Section 8 – Audition
+#### Afdeling 8 - Hoorzitting                                       Section 8 – Audition
 
-## Art. 3.5.8.0.1
+###### Art. 3.5.8.0.1
 
-Art. 3.5.8.0.1.
+###### Art. 3.5.8.0.1.
 
 Als de bezwaarindiener dat in zijn bezwaarschrift heeft     Si l'auteur de la réclamation l'a demandé dans sa gevraagd, zal hij worden uitgenodigd om gehoord te          réclamation, il sera invité à être entendu avant la worden voor de bezwaarbeslissing wordt genomen.             décision relative à la réclamation.
 
-##### Afdeling 9 - Kennisgeving                                     Section 9 – Notification
+#### Afdeling 9 - Kennisgeving                                     Section 9 – Notification
 
-## Art. 3.5.9.0.1
+###### Art. 3.5.9.0.1
 
-Art. 3.5.9.0.1.
+###### Art. 3.5.9.0.1.
 
 De beslissing wordt schriftelijk meegedeeld en ze           La décision est communiquée par écrit et elle mentionne vermeldt de wijze waarop ertegen in rechte kan worden       la façon dont il peut être agi en justice contre cette getreden. De beslissing is onherroepelijk als geen          décision. La décision est irrévocable si aucune demande vordering is ingesteld bij de rechtbank van eerste aanleg   n'a été introduite au tribunal de première instance dans binnen de termijn, vermeld in artikel 1385undecies van      le délai, visé à l'article 1385undecies du Code judiciaire. het Gerechtelijk Wetboek.
 
-#### Hoofdstuk 6 - Ambtshalve ontheffing                            Chapitre 6 - Exonération d'office
+### Hoofdstuk 6 - Ambtshalve ontheffing                            Chapitre 6 - Exonération d'office
 
-## Art. 3.6.0.0.1
+###### Art. 3.6.0.0.1
 
-Art. 3.6.0.0.1.
+###### Art. 3.6.0.0.1.
 
 Het bevoegde personeelslid verleent in afwijking van        Le membre du personnel compétent accorde d'office, artikel 3.5.9.0.1 ambtshalve ontheffing van de              par dérogation à l'article 3.5.9.0.1, l'exonération des overmatige belastingen die voortvloeien uit materiële       taxes excessives résultant d'erreurs matérielles, de vergissingen, uit dubbele belasting, alsook van die welke   doubles impôts, ainsi que de celles qui apparaîtraient à blijken uit afdoende bevonden nieuwe bescheiden of          la lumière de documents ou faits nouveaux probants, feiten waarvan het laattijdig overleggen of inroepen door   dont la production ou l'allégation tardive par le de belastingschuldige wordt verantwoord door                redevable est justifiée par de justes motifs, à condition gewettigde redenen en op voorwaarde dat:                    que :
 
@@ -8493,21 +8497,21 @@ Het bevoegde personeelslid verleent ook ambtshalve            Le membre du perso
 (B.S. 23.04.2026). Inwerkingtreding op 03.05.2026             23.04.2026). Entrée en vigueur le 03.05.2026 - gewijzigd door art. 27 van het decreet van 09.12.2022       - modifié par l'art. 27 du décret du 09.12.2022 (M.B.
 (B.S. 20.12.2022). Inwerkingtreding: 30.12.2022               20.12.2022). Entrée en vigueur le 30.12.2022
 
-## Art. 3.6.0.0.2
+###### Art. 3.6.0.0.2
 
-Art. 3.6.0.0.2.
+###### Art. 3.6.0.0.2.
 
 Het bevoegde personeelslid doet bij met redenen               Le membre du personnel s'énonce au moyen d'une omklede beslissing uitspraak over het verzoek dat             décision motivée sur la demande introduite par le ingediend is door de belastingschuldige.                      redevable.
 
-## Art. 3.6.0.0.3
+###### Art. 3.6.0.0.3
 
-Art. 3.6.0.0.3.
+###### Art. 3.6.0.0.3.
 
 De beslissing wordt schriftelijk meegedeeld en ze             La décision est communiquée par écrit et elle mentionne vermeldt de wijze waarop ertegen in rechte kan worden         la façon dont il peut être agi en justice contre cette getreden. De beslissing is onherroepelijk als geen            décision. La décision est irrévocable si aucune demande vordering is ingesteld bij de rechtbank van eerste aanleg     n'a été introduite au tribunal de première instance dans binnen de termijn, vermeld in artikel 1385undecies van        le délai, visé à l'article 1385undecies du Code judiciaire. het Gerechtelijk Wetboek.
 
-## Art. 3.6.0.0.4
+###### Art. 3.6.0.0.4
 
-Art. 3.6.0.0.4.
+###### Art. 3.6.0.0.4.
 
 Wat de erfbelasting betreft, verleent het bevoegde            En ce qui concerne les impôt de succession, le membre personeelslid ook ontheffing van de erfbelasting in de        du personnel compétent accorde également le volgende gevallen op voorwaarde dat een aangifte is           dégrèvement des droits de succession dans les cas ingediend binnen een termijn van vijf jaar vanaf 1            suivants, à condition qu'une déclaration ait été déposée januari van het jaar waarin het recht tot teruggave is        dans un délai de cinq ans à compter du 1er janvier de ontstaan, die het hierna vermelde feit aanduidt :             l'année de la naissance du droit de restitution, qui désigne le fait spécifié ci-après :
 
@@ -8533,9 +8537,9 @@ De bepalingen van artikel 3.6.0.0.2 en 3.6.0.0.3 zijn       Les dispositions des
 
 - toegevoegd door art. 227 van het decreet van              - inséré par art. 227 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.6.0.0.5
+###### Art. 3.6.0.0.5
 
-Art. 3.6.0.0.5.
+###### Art. 3.6.0.0.5.
 
 Als de erfbelasting en toebehoren zijn betaald met          Si les droits de succession et les accessoires sont payés cultuurgoederen ingevolge de toepassing van artikel         par des biens culturels en application de l'article 3.4.3.0.2, kan de terugbetaling die voortvloeit uit de      3.4.3.0.2, le remboursement qui découle de l'application toepassing van artikel 3.6.0.0.1 of 3.6.0.0.4, alleen in    des articles geld gedaan worden.                                         3.6.0.0.1 ou 3.6.0.0.4 peut seulement être effectué en argent.
 ---- historiek ----                                         ---- historique ----
@@ -8544,9 +8548,9 @@ Als de erfbelasting en toebehoren zijn betaald met          Si les droits de suc
 
 - toegevoegd door art. 228 van het decreet van              - inséré par art. 228 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.6.0.0.6
+###### Art. 3.6.0.0.6
 
-Art. 3.6.0.0.6.
+###### Art. 3.6.0.0.6.
 
 § 1. Wat de registratiebelasting betreft, verleent het      § 1er. En ce qui concerne les impôt d’enregistrement, le bevoegde personeelslid ook ontheffing van de                membre du personnel compétent accorde également un registratiebelasting in de volgende gevallen op             dégrèvement des impôt d’enregistrement dans les cas voorwaarde dat een verzoek is ingediend binnen een          suivants à condition qu'une demande soit déposée dans termijn van vijf jaar vanaf 1 januari van het jaar waarin   un délai de cinq ans à compter du 1er janvier de l'année het recht tot teruggave is ontstaan, dat het hierna         de la naissance du droit de restitution, qui désigne le fait vermelde feit aanduidt :                                    mentionné ci-dessus :
 
@@ -8644,17 +8648,17 @@ De bepalingen van paragraaf 2, derde en vierde lid, zijn       Les dispositions 
 
 - gewijzigd door art. 8 van het decreet van 21.04.2017.         - modifié par l'art. 8 du décret du 21.04.2017. Texte en De tekst is in werking getreden op 14.05.2017                   vigueur le 14.05.2017
 
-#### Hoofdstuk 7 - Nietigverklaring                                     Chapitre 7 – Annulation
+### Hoofdstuk 7 - Nietigverklaring                                     Chapitre 7 – Annulation
 
-## Art. 3.7.0.0.1
+###### Art. 3.7.0.0.1
 
-Art. 3.7.0.0.1.
+###### Art. 3.7.0.0.1.
 
 Een aanslag kan door het bevoegde personeelslid nietig       Un impôt peut être annulé par le membre du personnel verklaard worden omdat hij niet is gevestigd                 compétent parce qu'il n'a pas été établi conformément à overeenkomstig een wettelijke regel, binnen een termijn      une règle légale dans un délai de cinq ans à partir du 1er van vijf jaar vanaf 1 januari van het jaar waarin de         janvier de l'année pendant laquelle la taxe a été établie. belasting is gevestigd. Die termijn is niet van toepassing   Ce délai ne s'applique pas si l'impôt est annulé à cause als de aanslag nietig is verklaard vanwege een regel over    d'une règle sur la prescription. de verjaring.
 
-## Art. 3.7.0.0.2
+###### Art. 3.7.0.0.2
 
-Art. 3.7.0.0.2.
+###### Art. 3.7.0.0.2.
 
 § 1. Als een aanslag nietig verklaard is omdat hij niet is   § 1er. Si un impôt est annulé parce qu'il n'a pas été établi gevestigd overeenkomstig een wettelijke regel, met           conformément à une règle légale, à l'exception d'une uitzondering van een regel over de verjaring, kan de         règle sur la prescription, l'entité compétente de bevoegde entiteit van de Vlaamse administratie, zelfs als    l'administration flamande peut, même si le délai de de termijn om de aanslag te vestigen al verlopen is, op      l'établissement de l'impôt est déjà échu, établir un naam van dezelfde belastingplichtige, op grond van           nouvel impôt au nom du même redevable, sur la base dezelfde belastingelementen of op een gedeelte ervan,        des mêmes données d'imposition ou sur une partie de een nieuwe aanslag vestigen binnen drie maanden vanaf        ces dernières, dans les trois mois à partir de la date à de datum waarop de beslissing van het bevoegde               laquelle la décision du membre du personnel compétent personeelslid niet meer voor de rechter kan worden           ne plus être portée devant un juge. gebracht.
 
@@ -8679,46 +8683,46 @@ Als de subsidiaire aanslag gevestigd wordt voor een met      Si l'impôt subsidi
 ---- historiek ----                                          ---- historique ----
 
 - gewijzigd door art. 54 van het decreet van 02.04.2021      - modifié par l'art. 54 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021             15.04.2021). En vigueur le 25.04.2021
-#### Hoofdstuk 8 - Gerechtelijk beroep                             Chapitre 8 - Recours judiciaire
+### Hoofdstuk 8 - Gerechtelijk beroep                             Chapitre 8 - Recours judiciaire
 
-## Art. 3.8.0.0.1
+###### Art. 3.8.0.0.1
 
-Art. 3.8.0.0.1.
+###### Art. 3.8.0.0.1.
 
 De termijnen van verzet, hoger beroep en cassatie,           Les délais d'opposition, recours et cassation, ainsi que alsook het verzet, het hoger beroep en de voorziening in     l'opposition, le recours et le pourvoi en cassation cassatie schorsen de tenuitvoerlegging van de                suspendent l'exequatur de la décision judiciaire. gerechtelijke beslissing.
 
-## Art. 3.8.0.0.2
+###### Art. 3.8.0.0.2
 
-Art. 3.8.0.0.2.
+###### Art. 3.8.0.0.2.
 
 Het verzoekschrift houdende voorziening in cassatie en       La demande portant pourvoi en cassation et la réponse het antwoord op de voorziening mag door een advocaat         au pourvoi peut être signée et déposée par un avocat. worden ondertekend en neergelegd.
 
-## Art. 3.8.0.0.3
+###### Art. 3.8.0.0.3
 
-Art. 3.8.0.0.3.
+###### Art. 3.8.0.0.3.
 
 Inzake de geschillen over de toepassing van deze codex       Le membre du personnel compétent peut paraître au kan het bevoegde personeelslid in naam van het               nom de la Région flamande en matière des litiges Vlaamse Gewest verschijnen.                                  relatifs à l'application du présent code.
 
-## Art. 3.8.0.0.4
+###### Art. 3.8.0.0.4
 
-Art. 3.8.0.0.4.
+###### Art. 3.8.0.0.4.
 
 De openbare of ministeriële ambtenaren en officieren         Les fonctionnaires et officiers publics ou ministériels die, krachtens de bepalingen van deze titel, voor de         qui, en vertu des dispositions de ce titre, peuvent, pour partijen de registratiebelasting en, in voorkomend geval,    les parties qui ont avancé impôt d'enregistrement et, le de administratieve geldboeten voorgeschoten hebben,          cas échéant, les amendes administratives, demander une kunnen met het oog op de terugbetaling ervan,                ordonnance exécutoire au juge de paix de leur canton uitvoerbaar bevel vragen aan de vrederechter van hun         pour en obtenir le remboursement. kanton.
 
-## Art. 3.8.0.0.1
+###### Art. 3.8.0.0.1
 
 is toepasselijk op het tegen dit bevel     L'article 3.8.0.0.1 est d'application à l'opposition aangetekend verzet.                                          signifiée contre cette ordonnance.
 
 ---- historiek ----                                          ---- historique ----
 
 - toegevoegd door art. 230 van het decreet van               - inséré par art. 230 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
-#### Hoofdstuk 9 - Interesten                                      Chapitre 9 – Intérêts
+### Hoofdstuk 9 - Interesten                                      Chapitre 9 – Intérêts
 
-##### Afdeling 1 - Nalatigheidsinteresten                            Section 1re - Intérêts de retard
+#### Afdeling 1 - Nalatigheidsinteresten                            Section 1re - Intérêts de retard
 
-## Art. 3.9.1.0.1
+###### Art. 3.9.1.0.1
 
-Art. 3.9.1.0.1.
+###### Art. 3.9.1.0.1.
 § 1. Bij wanbetaling binnen de termijnen, vermeld in         § 1er. A défaut de paiement dans les délais, visés au hoofdstuk 4, afdeling 2, brengen de verschuldigde            chapitre 4, section 2, les sommes dues au profit de la sommen ten bate van het Vlaamse Gewest, voor de duur         Région flamande, rapportent, pour la durée du retard, un van het verwijl, een interest van 4 % op jaarbasis op,       intérêt de 4 % sur base annuel, calculé par mois berekend per kalendermaand.                                  calendaire.
 
 Die interest wordt voor elke aanslag per kalendermaand       Cet intérêt est calculé pour chaque imposition par mois berekend op de nog verschuldigde som, afgerond op het        calendaire sur la somme encore due, arrondie au lagere veelvoud van tien euro, hetzij vanaf de eerste dag    multiple inférieur de dix euros, soit à partir du premier van de maand die volgt op de vervaldag, hetzij vanaf de      jour du mois qui suit l'échéance, soit à partir du premier eerste dag van de maand die volgt op de vorige betaling      jour du mois qui suit le paiement précédent si une als een som is aangerekend op de hoofdsom van de             somme a été imputée sur le capital de la dette, jusqu'au schuld, tot op de laatste dag van de maand waarin de         dernier jour du moins dans lequel le paiement a lieu. betaling plaatsvindt.
@@ -8731,15 +8735,15 @@ De nalatigheidsinterest is niet verschuldigd als hij geen    L'intérêt de reta
 
 - gewijzigd door art. 51 van het decreet van 18.12.2020      - modifié par l’art. 51 du décret du 18.12.2020 (M.B., (B.S., 30.12.2020). Inwerkingtreding: 01.01.2021             30.12.2020). En vigueur le 01.01.2021
 
-## Art. 3.9.1.0.2
+###### Art. 3.9.1.0.2
 
-Art. 3.9.1.0.2.
+###### Art. 3.9.1.0.2.
 
 In bijzondere gevallen mag het bevoegde personeelslid,       Dans des cas exceptionnels, le membre du personnel onder door hem bepaalde voorwaarden, vrijstelling            compétent peut, aux conditions que ce dernier a fixées, verlenen voor al de nalatigheidsinteresten of voor een       accorder une exonération de tous les intérêts de retard deel ervan.                                                  ou d'une partie de ces derniers.
 
-## Art. 3.9.1.0.3
+###### Art. 3.9.1.0.3
 
-Art. 3.9.1.0.3.
+###### Art. 3.9.1.0.3.
 
 De rechtspersoon die inzake de erfbelasting de                La personne morale qui obtient, en matière de impôt de schorsing, vermeld in artikel 3.10.3.1.3, verkrijgt, moet     succession, la suspension visée à l'article 3.10.3.1.3, doit nalatigheidsinteresten betalen alsof hij die schorsing niet   payer les intérêts de retard comme si elle n'avait pas verkregen had.                                                obtenu cette suspension.
 
@@ -8749,11 +8753,11 @@ Inzake de erfbelasting, waarvan de invordering is             En matière de imp
 
 - toegevoegd door art. 231 van het decreet van                - inséré par art. 231 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in 29.01.2015, Ed. 2). Texte est entré en vigueur le werking getreden op 1 januari 2015 (art. 325)                 01.01.2015 (art. 325)
 
-##### Afdeling 2 - Moratoriuminteresten                               Section 2 - Intérêts moratoires
+#### Afdeling 2 - Moratoriuminteresten                               Section 2 - Intérêts moratoires
 
-## Art. 3.9.2.0.1
+###### Art. 3.9.2.0.1
 
-Art. 3.9.2.0.1.
+###### Art. 3.9.2.0.1.
 
 Bij        terugbetaling       van        belastingen,        En cas de remboursement d'impôts, d'intérêts de retard, nalatigheidsinteresten,   belastingverhogingen      of        de majorations d'impôts ou d'amendes administratives, administratieve geldboeten wordt moratoriuminterest           un intérêt moratoire est accordé à un taux d'intérêt de 4 toegekend tegen een rentevoet van 4 % op jaarbasis,           % sur base annuelle, calculé par mois calendaire. berekend per kalendermaand.
 
@@ -8774,31 +8778,31 @@ Er wordt geen moratoriuminterest toegekend :                  Aucun intérêt mo
 - gewijzigd door art. 52 van het decreet van 18.12.2020    - modifié par l’art. 52 du décret du 18.12.2020 (M.B., (B.S., 30.12.2020). Inwerkingtreding: 01.01.2021           30.12.2020). En vigueur le 01.01.2021 - gewijzigd door art. 26 van het decreet van 08.12.2017    - modifié par l'art. 26 du décret du 08.12.2017 (M.B.: (B.S.: 14.12.2017). Tekst van toepassing vanaf             14.12.2017). Texte entre en vigueur le 24.12.2017 24.12.2017
 
 - 3° en 4° toegevoegd door art. 232 van het decreet van    - alinéa trois, point 3° et point 4° insérés par art. 232 du 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in      décret du 19.12.2014 (M.B., 29.01.2015, Ed. 2). werking getreden op 1 januari 2015 (art. 325)              Texte est entré en vigueur le 01.01.2015 (art. 325)
-#### Hoofdstuk 10 - Invordering                               Chapitre 10 – Recouvrement
+### Hoofdstuk 10 - Invordering                               Chapitre 10 – Recouvrement
 
-##### Afdeling 1 - Herinnering                                    Section 1re – Rappel
+#### Afdeling 1 - Herinnering                                    Section 1re – Rappel
 
-## Art. 3.10.1.0.1
+###### Art. 3.10.1.0.1
 
-Art. 3.10.1.0.1.
+###### Art. 3.10.1.0.1.
 
 Voorbehouden voor toekomstig gebruik.                      Réservé pour un usage futur
 
-##### Afdeling 2 - Laatste herinnering                              Section 2 - Dernier rappel
+#### Afdeling 2 - Laatste herinnering                              Section 2 - Dernier rappel
 
-## Art. 3.10.2.0.1
+###### Art. 3.10.2.0.1
 
-Art. 3.10.2.0.1.
+###### Art. 3.10.2.0.1.
 
 Het bevoegde personeelslid moet een herinneringsbrief      Le membre du personnel compétent doit envoyer une sturen    ten  minste     één   maand     voor    de       lettre de rappel au moins un mois avant que le huissier gerechtsdeurwaarder een bevel tot betaling opstelt,        de justice ne donne un ordre de paiement, sauf si les behalve als de rechten van het Vlaamse Gewest in           droits de la Région flamande sont en péril. gevaar zijn.
 
-##### Afdeling 3 - Vervolging                                    Section 3 – Poursuite
+#### Afdeling 3 - Vervolging                                    Section 3 – Poursuite
 
 ##### Onderafdeling 1 - Algemeen                               Sous-section 1re – Généralités
 
-## Art. 3.10.3.1.1
+###### Art. 3.10.3.1.1
 
-Art. 3.10.3.1.1.
+###### Art. 3.10.3.1.1.
 
 § 1. De belasting die wordt ingekohierd op naam van één    § 1er. L'impôt enrôlé au nom d'une personne physique natuurlijke persoon of rechtspersoon, kan ten laste van    ou morale peut être recouvré au nom de cette personne. die persoon worden ingevorderd.
 
@@ -8819,9 +8823,9 @@ De registratiebelasting, die wordt ingekohierd op naam      L'impôt d'enregistr
 
 - § 2, tweede lid werd toegevoegd door art. 3 van het       - § 2, alinéa deux est modifié par art. 3 du décret du 25 decreet van 25 maart 2016 (B.S., 01.04.2016). De tekst      mars 2016 (M.B., 01.04.2016). Texte entre en vigueur le 1er avril 2016 (art. 4)) treedt in werking op 1 april 2016 (art. 4)) - §2, derde lid toegevoegd door art. 233 van het decreet    - § 2, alinéa 3 inséré par art. 233 du décret du van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De               19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré tekst is in werking getreden op 01.01.2015 (art. 325)       en vigueur le 01.01.2015 (art. 325)
 
-## Art. 3.10.3.1.2
+###### Art. 3.10.3.1.2
 
-Art. 3.10.3.1.2.
+###### Art. 3.10.3.1.2.
 
 De met erfstelling bezwaarde erfgenaam die de aangifte        L’héritier, grevé de substitution en défaut de déposer la in het geval, vermeld in artikel 3.3.1.0.6, eerste lid, 5°,   déclaration prescrite à l’article 3.3.1.0.6, alinéa premier, niet indient, is en de personen die zijn veroordeeld als      5°, est solidairement tenu avec le redevable, en matière daders of medeplichtigen van misdrijven als vermeld in        de impôt de succession, au paiement des droits et artikel 3.15.3.0.1 en artikel 3.15.3.0.2, zijn inzake de      accessoires qui ont été éludés par le fait de l'infraction erfbelasting met de belastingschuldige hoofdelijk             et, le cas échéant, des intérêts de retard et des amendes gehouden tot de betaling van de belastingen en                administratives et accroissements. toebehoren, die door de inbreuk ontdoken werden, en, in voorkomend geval, van de nalatigheidsinteresten en van de      administratieve       geldboetes       en       de belastingverhogingen.
 
@@ -8832,9 +8836,9 @@ De met erfstelling bezwaarde erfgenaam die de aangifte        L’héritier, gre
 
 - toegevoegd door art. 234 van het decreet van                - inséré par art. 234 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.10.3.1.3
+###### Art. 3.10.3.1.3
 
-Art. 3.10.3.1.3.
+###### Art. 3.10.3.1.3.
 
 Als een legaat ten behoeve van een rechtspersoon met          Si un legs au profit d'une personne morale dont le siège, zetel, hoofdbestuur of hoofdvestiging op het                  l'administration centrale ou le principal établissement grondgebied van een staat van de Europese Economische         est situé sur le territoire d'un Etat de l'Espace Ruimte aan een machtiging of aan een                          économique européen est soumis à une goedkeuring van de overheid onderworpen is, wordt             autorisation ou une approbation de l'autorité, le inzake de erfbelasting, op schriftelijk verzoek van de        recouvrement, en matière de impôt de succession, des rechtspersoon, de invordering van de belastingen en           droits et accessoires dus par cette personne morale est toebehoren, verschuldigd door die rechtspersoon,              suspendu pendant deux mois à la demande écrite de la geschorst gedurende twee maanden.                             personne morale.
 
@@ -8844,9 +8848,9 @@ Als een legaat ten behoeve van een rechtspersoon met          Si un legs au prof
 
 - toegevoegd door art. 235 van het decreet van                - inséré par art. 235 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.10.3.1.4
+###### Art. 3.10.3.1.4
 
-Art. 3.10.3.1.4.
+###### Art. 3.10.3.1.4.
 
 […]                                                           […]
 
@@ -8856,9 +8860,9 @@ Art. 3.10.3.1.4.
 
 - toegevoegd door art. 236 van het decreet van               - inséré par art. 236 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.10.3.1.5
+###### Art. 3.10.3.1.5
 
-Art. 3.10.3.1.5.
+###### Art. 3.10.3.1.5.
 
 In geval van toepassing van artikel 2.8.4.2.3, tweede lid,   En cas d'application de l'article 2.8.4.2.3, alinéa deux, le zijn de schenker en de begiftigden hoofdelijk gehouden       donateur et les donataires sont solidairement tenus au tot de betaling van de aanvullende rechten.                  paiement des droits complémentaires.
 
@@ -8868,9 +8872,9 @@ In geval van toepassing van artikel 2.8.4.2.3, derde lid,    En cas d'applicatio
 
 - toegevoegd door art. 237 van het decreet van               - inséré par art. 237 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.10.3.1.6
+###### Art. 3.10.3.1.6
 
-Art. 3.10.3.1.6.
+###### Art. 3.10.3.1.6.
 
 (…)                                                          (…)
 
@@ -8878,9 +8882,9 @@ Art. 3.10.3.1.6.
 
 - opgeheven door art. 27 van het decreet van 08.12.2017      - abrogé par l'art. 27 du décret du 08.12.2017 (M.B.: 14.12.2017). Texte entre en vigueur le 24.12.2017 (B.S.: 14.12.2017). Tekst       van      toepassing vanaf 24.12.2017 - toegevoegd door art. 238 van het decreet van               - inséré par art. 238 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.10.3.1.7
+###### Art. 3.10.3.1.7
 
-Art. 3.10.3.1.7.
+###### Art. 3.10.3.1.7.
 
 (…)                                                          (…)
 
@@ -8888,9 +8892,9 @@ Art. 3.10.3.1.7.
 
 - opgeheven door art. 27 van het decreet van 08.12.2017      - abrogé par l'art. 27 du décret du 08.12.2017 (M.B.: (B.S.: 14.12.2017). Tekst van toepassing                     14.12.2017). Texte entre en vigueur le 24.12.2017 vanaf 24.12.2017 - toegevoegd door art. 239 van het decreet van               - inséré par art. 239 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.10.3.1.8
+###### Art. 3.10.3.1.8
 
-Art. 3.10.3.1.8.
+###### Art. 3.10.3.1.8.
 
 Als de verklaring over de uitbating van de geruilde          Si la déclaration à propos de l'exploitation des biens onroerende goederen, vermeld in artikel 3.12.3.0.1, § 3,     immeubles échangés, prescrite à article 3.12.3.0.1, § 3, derde lid, onjuist wordt bevonden, zijn de partijen          alinéa 3, est estimée inexacte, les parties sont hoofdelijk gehouden tot de betaling van de aanvullende       solidairement tenues au paiement des droits rechten.                                                     complémentaires.
 
@@ -8902,9 +8906,9 @@ Als de verklaring over de uitbating van de geruilde          Si la déclaration 
 
 ##### Onderafdeling 2 - Rechtstreekse vervolging                        Sous-section 2 - Poursuite directe
 
-## Art. 3.10.3.2.1
+###### Art. 3.10.3.2.1
 
-Art. 3.10.3.2.1.
+###### Art. 3.10.3.2.1.
 
 Als de belastingen en toebehoren niet voldaan worden,        Si les impôts et les accessoires ne sont pas réglés, les kunnen de bevoegde personeelsleden een dwangschrift          membres du personnel compétents peuvent émettre une uitvaardigen.                                                lettre de contrainte.
 
@@ -8923,43 +8927,43 @@ De Vlaamse Regering kan de regels bepalen voor de            Le Gouvernement fla
 
 ##### Onderafdeling 3 - Onrechtstreekse vervolging                     Sous-section 3 - Poursuite indirecte
 
-## Art. 3.10.3.3.1
+###### Art. 3.10.3.3.1
 
-Art. 3.10.3.3.1.
+###### Art. 3.10.3.3.1.
 
 De Vlaamse Regering kan de regels bepalen voor de         Le Gouvernement flamand peut arrêter les modalités de onrechtstreekse vervolging.                               la poursuite indirecte.
 
 ##### Onderafdeling 4 - Vervolgingskosten                         Sous-section 4 - Frais de poursuite
 
-## Art. 3.10.3.4.1
+###### Art. 3.10.3.4.1
 
-Art. 3.10.3.4.1.
+###### Art. 3.10.3.4.1.
 
 De Vlaamse Regering kan de regels bepalen voor de         Le Gouvernement flamand peut arrêter les modalités vervolgingskosten.                                        des frais de la poursuite.
 
 ##### Onderafdeling 5 - Met vervolging belaste personen         Sous-section 5 - Personnes chargées de la poursuite
 
-## Art. 3.10.3.5.1
+###### Art. 3.10.3.5.1
 
-Art. 3.10.3.5.1.
+###### Art. 3.10.3.5.1.
 
 De Vlaamse Regering kan bepalen welke personen            Le Gouvernement flamand peut fixer quelles sont les belast zijn met vervolging en welke regels ze moeten      personnes chargées de la poursuite et quelles sont les naleven.                                                  règles qu'elles doivent respecter.
 
-##### Afdeling 4 - Bijzondere gevallen                              Section 4 - Cas particuliers
+#### Afdeling 4 - Bijzondere gevallen                              Section 4 - Cas particuliers
 
 ##### Onderafdeling 1. - Invordering bij echtgenoten of ex-     Sous-section 1re - Recouvrement auprès d'époux ou ex- echtgenoten en bij wettelijk samenwonenden of ex-          époux et auprès des cohabitants légaux ou les exwettelijksamenwonenden                                         cohabitants légaux
 
-## Art. 3.10.4.1.1
+###### Art. 3.10.4.1.1
 
-Art. 3.10.4.1.1.
+###### Art. 3.10.4.1.1.
 
 Met behoud van de toepassing van artikel 3.10.4.1.2,      Avec maintien de l'application de l'article 3.10.4.1.2, le mag de invordering van een belasting die is ingekohierd   recouvrement d'un impôt qui est enrôlé au nom d'un op naam van de ene echtgenoot of wettelijk                époux ou cohabitant légal peut être poursuivi à charge samenwonende, worden vervolgd ten laste van de            de l'autre époux ou cohabitant légal à condition qu'un andere echtgenoot of wettelijk samenwonende op            exemplaire de la feuille d'imposition a été envoyée à voorwaarde dat aan de andere echtgenoot of wettelijk      l'autre époux ou cohabitant légal. samenwonende een exemplaar van het aanslagbiljet is toegezonden.
 
 Door de verzending van het aanslagbiljet begint voor de   Par l'envoi de la feuille d'imposition, le délai de geadresseerde de termijn voor bezwaar, vermeld in         réclamation, visé au chapitre 5, section 2, prend cours. hoofdstuk 5, afdeling 2, te lopen.
 
-## Art. 3.10.4.1.2
+###### Art. 3.10.4.1.2
 
-Art. 3.10.4.1.2.
+###### Art. 3.10.4.1.2.
 § 1. De belasting mag, ongeacht het aangenomen            § 1er. L'impôt peut, quel que soit le régime de huwelijksvermogensstelsel of ongeacht de notariële        patrimoine conjugal adopté ou quel que soit l'acte overeenkomst waarin de wettelijke samenwoning is          notarial réglant la cohabitation légale, être récupéré à geregeld, op al de eigen en de gemeenschappelijke         charge de tous les biens propres et communs des deux goederen van beide echtgenoten of op al de eigen en de    époux ou de tous les biens indivisés des deux onverdeelde    goederen     van    beide      wettelijk   cohabitants légaux. samenwonenden worden verhaald.
 
 De belasting die verschuldigd is door de ene echtgenoot   L'impôt qui est dû par un époux ou cohabitant légal, ne of wettelijk samenwonende, mag evenwel niet op de         peut cependant pas être récupéré à charge des propres eigen goederen van de andere echtgenoot of wettelijk      biens de l'autre époux ou cohabitant légal si ce dernier samenwonende worden verhaald als die laatste een van      démontre un des faits suivants : de volgende feiten aantoont :
@@ -8988,9 +8992,9 @@ De belasting die verschuldigd is door de ene echtgenoot   L'impôt qui est dû p
 
 ##### Onderafdeling 2 - Invordering bij vennootschappen           Sous-section 2 - Recouvrement auprès de sociétés
 
-## Art. 3.10.4.2.1
+###### Art. 3.10.4.2.1
 
-Art. 3.10.4.2.1.
+###### Art. 3.10.4.2.1.
 
 De invordering van de belasting die gevestigd is op        Le recouvrement de l'impôt établi au nom des associés naam van de vennoten van vennootschappen zonder            de sociétés sans personnalité juridique ou des membres rechtspersoonlijkheid of van de leden van verenigingen     d'associations sans personnalité juridique, peut être zonder rechtspersoonlijkheid, kan rechtstreeks ten laste   directement poursuivie à charge de la société ou de van de vennootschap of de vereniging worden vervolgd       l'association     si      cet     impôt      correspond als die belasting proportioneel overeenstemt met het       proportionnellement à la quote-part des associés ou des aandeel van de vennoten of leden in de niet-uitgekeerde    membres dans les bénéfices ou profits non payés des ces winst of baten van die vennootschappen of                  sociétés ou associations. verenigingen.
 
@@ -8998,9 +9002,9 @@ De invordering van de belasting die gevestigd is op        Le recouvrement de l'
 
 - vervangen door art. 57 van het decreet van 02.04.2021    - remplacé par l'art. 57 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021           15.04.2021). En vigueur le 25.04.2021
 
-## Art. 3.10.4.2.2
+###### Art. 3.10.4.2.2
 
-Art. 3.10.4.2.2.
+###### Art. 3.10.4.2.2.
 
 De invordering van de belasting van een met toepassing     Le recouvrement de l'impôt d'une société dissociée en van artikel 12:4 tot en met 12:6 van het Wetboek van       application des articles 12:4 à 12:6 du Code des sociétés vennootschappen en verenigingen of van een                 et des associations ou d'un acte similaire dans le cadre gelijkaardige vennootschapsrechtelijke verrichting         des droits de société soumise à un droit étranger, qui est onder buitenlands recht gesplitste vennootschap die        établie au nom des sociétés attributaires, peut, sauf dans gevestigd is op naam van de verkrijgende                   le cas de mentions dérogatoires dans l'acte réglant vennootschappen, kan, behalve in geval van afwijkende      l'opération, être effectué au nom de chaque société vermeldingen in de akte die de verrichting vaststelt,      attributaire.   Chaque      société     attributaire   est worden verricht op naam van iedere verkrijgende            solidairement tenue au paiement de l'impôt. vennootschap. Elke verkrijgende vennootschap is hoofdelijk gehouden tot betaling van de belasting.
 
@@ -9010,9 +9014,9 @@ De invordering van de belasting van een met toepassing     Le recouvrement de l'
 
 ##### Onderafdeling 3 - Invordering bij erfgenamen            Sous-section 3 - Recouvrement auprès des héritiers
 
-## Art. 3.10.4.3.1
+###### Art. 3.10.4.3.1
 
-Art. 3.10.4.3.1.
+###### Art. 3.10.4.3.1.
 
 De erfgenamen, algemene legatarissen en begiftigden in     Les héritiers, légataires universels et donataires dans la de nalatenschap van een rijksinwoner zijn, ieder in        succession d'un habitant du Royaume sont, chacun en verhouding tot zijn erfdeel, samen gehouden tot de         proportion de leur part, tenus solidairement au paiement betaling van het gezamenlijke successierecht, de           de l'ensemble des droits de succession, des intérêts de nalatigheidsinteresten en de kosten van vervolging en      retard et des frais de poursuite et d'exécution, dus par les tenuitvoerlegging, verschuldigd door de legatarissen en    légataires et donataires à titre universel ou à titre
 
@@ -9028,15 +9032,15 @@ Het eerste lid is evenmin van toepassing op het               Le premier alinéa
 
 ##### Onderafdeling 4 - Invordering bij andere personen die         Sous-section 4 - Recouvrement auprès d'autres personnes gehouden zijn tot betaling van de schuld                                tenues de payer les dettes
 
-## Art. 3.10.4.4.1
+###### Art. 3.10.4.4.1
 
-Art. 3.10.4.4.1.
+###### Art. 3.10.4.4.1.
 
 De administratie of de instelling die belast is met het       L'administration ou la structure qui est chargée de la beheer van een goed van de staat, van een gemeenschap         gestion d'un bien de l'état, d'une communauté ou d'une of van een gewest, is verantwoordelijk voor de betaling       région, est responsable du paiement des impôts ayant van de belastingen die op dat goed betrekking hebben.         trait à ce bien.
 
-## Art. 3.10.4.4.2
+###### Art. 3.10.4.4.2
 
-Art. 3.10.4.4.2.
+###### Art. 3.10.4.4.2.
 
 Zolang een eigendom niet is overgeschreven in de              Tant qu'une propriété n'a pas été transcrite dans les stukken van het de Algemene Administratie van de              documents de l'Administration générale de la Patrimoniumdocumentatie, zijn de vroegere eigenaar of         Documentation patrimoniale, l'ancien propriétaire ou zijn erfgenamen, tenzij ze bewijzen dat de belastbare         ses héritiers sont, sauf s'ils prouvent que les bien goederen op een andere eigenaar zijn overgegaan en dat        imposables sont passés à un autre propriétaire et qu'ils ze de identiteit en het volledige adres van de nieuwe         font connaître l'identité et l'adresse complète du eigenaar laten kennen, aansprakelijk voor de betaling         nouveau propriétaire, responsables du paiement du van de onroerende voorheffing, behoudens hun verhaal          précompte immobilier, sauf leur récupération du op de nieuwe eigenaar.                                        nouveau propriétaire.
 
@@ -9046,9 +9050,9 @@ In geval van overlegging van het bewijsstuk, vermeld in       En cas de présent
 
 - gewijzigd door art.12 van het decreet van 19.12.2014         - modifié par art. 12 du décret du 19.12.2014 (M.B., (B.S., 13.01.2015).De tekst is in werking getreden op          13.01.2015). Texte applicable à partir du 01.01.2015 01.01.2015. (art. 24)
 
-## Art. 3.10.4.4.3
+###### Art. 3.10.4.4.3
 
-Art. 3.10.4.4.3.
+###### Art. 3.10.4.4.3.
 
 De vertegenwoordigers van de erfgenamen, legatarissen          Les représentants des héritiers, légataires et donataires, en begiftigden, de curatoren van onbeheerde                    les curateurs de successions vacantes, les séquestres, les nalatenschappen,          de       sekwesters,        de       exécuteurs testamentaires et tous les autres qui ont pour testamentuitvoerders en alle anderen die tot opdracht          mission ou assument la charge de déposer la déclaration hebben of de last op zich genomen hebben de aangifte in        sont tenus, envers la Région flamande, au paiement des te dienen, zijn tegenover het Vlaamse Gewest gehouden          impôt de succession, des intérêts de retard et des frais de tot de betaling van de erfbelasting, van de                    poursuite et d'exécution s'ils sont en défaut de satisfaire nalatigheidsinteresten en de kosten van vervolging en          aux obligations relatives à la déclaration de la tenuitvoerlegging als ze in gebreke zijn gebleven om aan       succession. de verplichtingen inzake de aangifte van de nalatenschap te voldoen.
 
@@ -9056,9 +9060,9 @@ De vertegenwoordigers van de erfgenamen, legatarissen          Les représentant
 
 - toegevoegd door art. 242 van het decreet van 19 dec.         - inséré par art. 242 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking        29.01.2015, Ed. 2). Texte est entré en vigueur le getreden op 1 januari 2015 (art. 325)                          01.01.2015 (art. 325)
 
-## Art. 3.10.4.4.4
+###### Art. 3.10.4.4.4
 
-Art. 3.10.4.4.4.
+###### Art. 3.10.4.4.4.
 
 Voor wat betreft de registratiebelasting kunnen de             En ce qui concerne l'impôt d'enregistrement, les droits belasting en de toebehoren eveneens ingevorderd                et les accessoires peuvent également être recouvrés à worden ten laste van :                                         charge :
 
@@ -9087,9 +9091,9 @@ In de gevallen, vermeld in het tweede lid, zijn de partijen    Pour les cas ment
 
 - toegevoegd door art. 243 van het decreet van 19 dec.         - inséré par art. 243 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking        29.01.2015, Ed. 2 erratum M.B., 04.03.2015). Texte est getreden op 1 januari 2015 (art. 325)                          entré en vigueur le 01.01.2015 (art. 325)
 
-## Art. 3.10.4.4.5
+###### Art. 3.10.4.4.5
 
-Art. 3.10.4.4.5.
+###### Art. 3.10.4.4.5.
 
 De vertegenwoordiger, vermeld in artikel 2.9.4.2.4, § 2,       Le représentant, visé à l'article 2.9.4.2.4, § 2, 3°, est
 3°, is hoofdelijk gehouden tot de fiscale verplichtingen       solidairement tenu aux obligations fiscales de van de verkrijger, vermeld in hetzelfde punt 3°.               l'acquéreur visé au même point 3°.
@@ -9098,9 +9102,9 @@ De vertegenwoordiger, vermeld in artikel 2.9.4.2.4, § 2,       Le représentant
 
 - toegevoegd door art. 244 van het decreet van 19 dec.         - inséré par art. 244 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking        29.01.2015, Ed. 2). Texte est entré en vigueur le getreden op 1 januari 2015 (art. 325)                          01.01.2015 (art. 325)
 
-## Art. 3.10.4.4.6
+###### Art. 3.10.4.4.6
 
-Art. 3.10.4.4.6.
+###### Art. 3.10.4.4.6.
 
 Als    de    belastingplichtige      het    automatische       Si le contribuable n’a pas déclaré l’appareil automatique ontspanningstoestel niet heeft aangegeven, wordt de            de divertissement, la personne autorisant en tant persoon die als uitbater van lokalen of andere plaatsen        qu’exploitant de salles ou d’autres endroits, tels que als vermeld in artikel 2.13.1.0.1, toelaat om in die           visés à l’article 2.13.1.0.1, que l’appareil automatique lokalen of andere plaatsen het automatisch                     de divertissement soit installé dans ces salles ou à ontspanningstoestel op te stellen, als belastingschuldige      d’autres endroits, est considéré comme redevable des beschouwd voor de belasting en toebehoren.                     taxes et accessoires.
 
@@ -9111,9 +9115,9 @@ Als    de    belastingplichtige      het    automatische       Si le contribuabl
 
 ##### Onderafdeling 5 - Invordering van het eurovignet bij         Sous-section 5 - Recouvrement de l'Eurovignette auprès de andere belastingschuldigen dan de eigenaar                       débiteurs d'impôts autres que le propriétaire
 
-## Art. 3.10.4.5.1
+###### Art. 3.10.4.5.1
 
-Art. 3.10.4.5.1.
+###### Art. 3.10.4.5.1.
 
 In geval van niet-betaling door de eigenaar zijn de          En cas de non paiement par le propriétaire, ondernemer, de houder of de bestuurder van het voertuig      l'entrepreneur, le détenteur ou le chauffeur du véhicule hoofdelijk gehouden tot betaling van het eurovignet,         sont solidairement tenus de payer l'Eurovignette, sous onder voorbehoud van hun verhaal tegen de eigenaar.          réserve de leur recours vis-à-vis du propriétaire.
 
@@ -9127,9 +9131,9 @@ Voor de toepassing van het tweede lid wordt de               Pour l'application 
 
 ##### Onderafdeling 6 - Invordering van betwiste belastingen           Sous-section 6 - Recouvrement d'impôts contesté
 
-## Art. 3.10.4.6.1
+###### Art. 3.10.4.6.1
 
-Art. 3.10.4.6.1.
+###### Art. 3.10.4.6.1.
 
 In geval van bezwaar, van een aanvraag tot ontheffing        Dans le cas de réclamation, d'une demande als vermeld in artikel 3.6.0.0.1, artikel 3.6.0.0.4 en       d'exonération, telle que visée à l'article 3.6.0.0.1, artikel 3.6.0.0.6 of in geval van een vordering in rechte,   l'article 3.6.0.0.4 et l'article 3.6.0.0.6 ou en cas d'une kan de gedwongen invordering van de betwiste                 demande en droit, le recouvrement forcé des impôts et belastingen en toebehoren opgeschort worden totdat de        accessoires contestés peut être suspendu jusqu'à ce que beroepstermijn tegen de administratieve beslissing           le délai de recours contre la décision administrative soit verstreken is of de rechterlijke beslissing in kracht van    échu ou si la décision juridique a la force de chose jugée. gewijsde is gegaan.
 
@@ -9139,13 +9143,13 @@ In geval van bezwaar, van een aanvraag tot ontheffing        Dans le cas de réc
 
 - gewijzigd door art. 245 van het decreet van 19 dec.        - modifié par art. 245 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking      29.01.2015, Ed. 2). Texte est entré en vigueur le getreden op 1 januari 2015 (art. 325)                        01.01.2015 (art. 325)
 
-##### Afdeling 5 - Zekerheden                                        Section 5 – Sûretés
+#### Afdeling 5 - Zekerheden                                        Section 5 – Sûretés
 
 ##### Onderafdeling 1 - Waarborg                                   Sous-section 1re – Garantie
 
-## Art. 3.10.5.1.1
+###### Art. 3.10.5.1.1
 
-Art. 3.10.5.1.1.
+###### Art. 3.10.5.1.1.
 
 § 1. Het bevoegde personeelslid kan een zakelijke            § 1er. Le membre du personnel compétent peut exiger zekerheid of een persoonlijke borgstelling eisen van elke    un sûreté réelle ou un cautionnement personnel de toute natuurlijke persoon of rechtspersoon die onderworpen is      personne physique ou morale qui est soumise à un des aan een van de belastingen, vermeld in titel 2, als de       impôts, visés au titre 2, si la valeur vénale de ses biens venale waarde van zijn goederen in België die het pand       en Belgique qui constitue le gage de la Région van het Vlaamse Gewest vormen, na aftrek van de              flamande, après déduction des dettes et charges qui la schulden en lasten die ze bezwaren, ontoereikend is om       grèvent, est insuffisante pour couvrir le montant qui est het bedrag te dekken dat vermoedelijk voor één jaar          probablement dû pour un an en vertu du présent code. verschuldigd zal zijn krachtens deze codex.
 
@@ -9155,15 +9159,15 @@ De Vlaamse Regering bepaalt de gegevens die als              Le Gouvernement fla
 
 De rechtspleging verloopt zoals in kort geding.              La procédure judiciaire se déroule comme une procédure en référé.
 
-## Art. 3.10.5.1.2
+###### Art. 3.10.5.1.2
 
-Art. 3.10.5.1.2.
+###### Art. 3.10.5.1.2.
 
 Het stellen van een zakelijke zekerheid of van een           L'établissement d'une sûreté réelle ou d'une caution persoonlijke borg als vermeld in artikel 3.10.5.1.1, § 1,    personnelle telle que visée à l'article 3.10.5.1.1, § 1er, moet gebeuren binnen twee maanden na de                      doit se faire dans les deux mois après la notification de kennisgeving van de beslissing van het bevoegde              la décision du membre du personnel compétent ou après personeelslid of na de datum waarop de rechterlijke          la date où la décision juridique a la force de chose jugée. beslissing in kracht van gewijsde is gegaan.
 
-## Art. 3.10.5.1.3
+###### Art. 3.10.5.1.3
 
-Art. 3.10.5.1.3.
+###### Art. 3.10.5.1.3.
 (…)
 (…)
 
@@ -9173,9 +9177,9 @@ Art. 3.10.5.1.3.
 
 ##### Onderafdeling 2 - Voorrecht                                  Sous-section 2 – Privilège
 
-## Art. 3.10.5.2.1
+###### Art. 3.10.5.2.1
 
-Art. 3.10.5.2.1.
+###### Art. 3.10.5.2.1.
 
 §1. Voor de invordering van de belastingen en               § 1er. En vue du recouvrement des impôts et toebehoren heeft het Vlaamse Gewest een algemeen            accessoires, la Région flamande jouit d'un privilège voorrecht op de inkomsten en op de roerende goederen        général sur les revenus et sur les biens meubles de toute van alle aard van de belastingschuldige, met                nature du redevable, à l'exception des bateaux et uitzondering van schepen en vaartuigen.                     embarcations.
 
@@ -9187,9 +9191,9 @@ Het voorrecht bezwaart ook de inkomsten en de               Le privilège grève
 
 - §2 toegevoegd door art. 247 van het decreet van 19 dec. - § 2 inséré par art. 247 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking   29.01.2015, Ed. 2). Texte est entré en vigueur le getreden op 1 januari 2015 (art. 325)                     01.01.2015 (art. 325)
 
-## Art. 3.10.5.2.2
+###### Art. 3.10.5.2.2
 
-Art. 3.10.5.2.2.
+###### Art. 3.10.5.2.2.
 
 De voorrechten, vermeld in artikel 3.10.5.2.1, nemen de     Les privilèges visés à l'article 3.10.5.2.1, prennent rang rang in onmiddellijk na het voorrecht, vermeld in artikel   immédiatement après le privilège visé à l'article 19, 5°, 19, 5°, van de Hypotheekwet van 16 december 1851.           de la loi hypothécaire du 16 décembre 1851.
 
@@ -9199,9 +9203,9 @@ De aanwending bij voorrang, vermeld in artikel 19 in        L'utilisation par pr
 
 - eerste lid vervangen door art. 248 van het decreet van    - alinéa premier remplacé par art. 248 du décret du 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in     19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré werking getreden op 1 januari 2015 (art. 325)               en vigueur le 01.01.2015 (art. 325)
 
-## Art. 3.10.5.2.3
+###### Art. 3.10.5.2.3
 
-Art. 3.10.5.2.3.
+###### Art. 3.10.5.2.3.
 
 (…)                                                         (…)
 
@@ -9213,9 +9217,9 @@ Art. 3.10.5.2.3.
 
 ##### Onderafdeling 3 - Wettelijke hypotheek                         Sous-section 3 - Hypothèque légale
 
-## Art. 3.10.5.3.1
+###### Art. 3.10.5.3.1
 
-Art. 3.10.5.3.1.
+###### Art. 3.10.5.3.1.
 
 § 1. De belastingen en toebehoren zijn gewaarborgd           §1er. Les impôts et accessoires sont garantis par une door een wettelijke hypotheek op al de goederen in           hypothèque légale sur tous les biens en Belgique qui België die toebehoren aan de belastingschuldige en die       appartiennent au redevable et qui y sont susceptibles. vatbaar zijn daarvoor.
 
@@ -9227,9 +9231,9 @@ De hypotheek bezwaart ook de goederen van de                 L'hypothèque grèv
 
 - § 2 toegevoegd door art. 250 van het decreet van 19        - modifié par art. 250 du décret du 19.12.2014 (M.B., dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in         29.01.2015, Ed. 2). Texte est entré en vigueur le werking getreden op 1 januari 2015 (art. 325)                01.01.2015 (art. 325)
 
-## Art. 3.10.5.3.2
+###### Art. 3.10.5.3.2
 
-Art. 3.10.5.3.2.
+###### Art. 3.10.5.3.2.
 
 § 1. De wettelijke hypotheek, vermeld in artikel             § 1. L'hypothèque légale, visée à l'article 3.10.5.3.1, § 3.10.5.3.1, § 1, neemt pas rang in vanaf haar                1er, ne prend rang qu'à partir de son inscription. inschrijving.
 
@@ -9247,9 +9251,9 @@ Na het verstrijken van die termijn neemt ze pas rang        Après l'expiration 
 
 - vervangen door art. 251 van het decreet van 19 dec.       - modifié par art. 251 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking     29.01.2015, Ed. 2). Texte est entré en vigueur le getreden op 1 januari 2015 (art. 325)                       01.01.2015 (art. 325)
 
-## Art. 3.10.5.3.3
+###### Art. 3.10.5.3.3
 
-Art. 3.10.5.3.3.
+###### Art. 3.10.5.3.3.
 
 De hypotheek wordt ingeschreven op verzoek van het          L'hypothèque est inscrite sur la demande du membre du bevoegde personeelslid.                                     personnel compétent.
 
@@ -9264,9 +9268,9 @@ Artikel XX.113 van het Wetboek van Economisch Recht         L'article XX.113 du 
 
 - tweede lid vervangen door art. 252 van het decreet van    - deuxième alinéa modifié par art. 252 du décret du 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is        19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré in werking getreden op 1 januari 2015 (art. 325)            en vigueur le 01.01.2015 (art. 325)
 
-## Art. 3.10.5.3.4
+###### Art. 3.10.5.3.4
 
-Art. 3.10.5.3.4.
+###### Art. 3.10.5.3.4.
 
 De inschrijving van de hypotheek, vermeld in artikel        L'inscription de l'hypothèque, visée à l'article 3.10.5.3.1, 3.10.5.3.1, vindt plaats, niettegenstaande verzet,          est effectuée, nonobstant opposition, contestation ou betwisting of beroep, op voorlegging van een door het       recours, sur production de copies certifiées conformes bevoegde personeelslid voor echt verklaard afschrift van    par le membre du personnel compétent de het aanslagbiljet houdende vermelding van de datum van      l'avertissement-extrait de rôle indiquant la date de uitvoerbaarverklaring van het kohier.                    d'exécutoire du rôle.
 
@@ -9278,15 +9282,15 @@ personeelslid te ramen bedrag, houdende de belastingen        un montant à éva
 
 - vervangen door art. 253 van het decreet van 19 dec.         - modifié par art. 253 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking       29.01.2015, Ed. 2). Texte est entré en vigueur le getreden op 1 januari 2015 (art. 325)                         01.01.2015 (art. 325)
 
-## Art. 3.10.5.3.5
+###### Art. 3.10.5.3.5
 
-Art. 3.10.5.3.5.
+###### Art. 3.10.5.3.5.
 
 Met behoud van de toepassing van artikel 87 van de            Avec maintien de l'application de l'article 87, de la Loi Hypotheekwet van 16 december 1851 kan de                      hypothécaire du 16 décembre 1851, l'inscription peut inschrijving worden gevorderd voor een door het               être demandée pour un montant à fixer par le membre bevoegde personeelslid in het borderel te bepalen bedrag      du personnel compétent dans le bordereau qui dat al de nalatigheidsinteresten en kosten                    représente tous les intérêts de retard et frais qui vertegenwoordigt die voor de vereffening van de               pourraient être dus pour la liquidation de l'impôt. belasting verschuldigd zouden kunnen zijn.
 
-## Art. 3.10.5.3.6
+###### Art. 3.10.5.3.6
 
-Art. 3.10.5.3.6.
+###### Art. 3.10.5.3.6.
 
 Het bevoegde personeelslid verleent handlichting in de        Le membre du personnel compétent accorde la administratieve vorm zonder dat hij ertoe gehouden is         mainlevée sous forme administrative sans qu'il soit tenu verantwoording van de betaling van de verschuldigde           de justifier le paiement des sommes dues. sommen te verstrekken.
 
@@ -9295,15 +9299,15 @@ Het bevoegde personeelslid verleent handlichting in de        Le membre du perso
 - gewijzigd door art. 43 van het decreet van 21.12.2018       - modifié par l'art. 43 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst treedt in werking op 07.01.2019      28.12.2018). Texte entre en vigueur le 07.01.2019
 
-## Art. 3.10.5.3.7
+###### Art. 3.10.5.3.7
 
-Art. 3.10.5.3.7.
+###### Art. 3.10.5.3.7.
 
 Als de betrokkenen, voor ze de bedragen betaald hebben        Si les concernés veulent libérer, avant qu'ils ont payé les die door de wettelijke hypotheek gewaarborgd zijn, alle       montants qui sont garantis par l'hypothèque, tous les bezwaarde goederen of een deel ervan willen vrijmaken         biens grevés ou une parties de ces derniers de van de hypotheek, dienen ze daarvoor een verzoek in bij       l'hypothèque, il doivent introduire une demande à cet het bevoegde personeelslid. Dat verzoek wordt                 effet auprès du membre du personnel compétent. Cette ingewilligd als het Vlaamse Gewest al voldoende               demande est satisfaite si la Région flamande dispose zekerheid bezit, of als die eraan wordt gegeven, voor het     déjà de suffisamment de sûreté, ou si cette dernière y est bedrag dat verschuldigd is aan het Vlaamse Gewest.            donnée, pour le montant dû à la Région flamande.
 
-## Art. 3.10.5.3.8
+###### Art. 3.10.5.3.8
 
-Art. 3.10.5.3.8.
+###### Art. 3.10.5.3.8.
 
 De kosten van de formaliteiten voor de wettelijke             Les frais des formalités pour l'hypothèque légale, visée hypotheek, vermeld in artikel 3.10.5.3.1, § 1, zijn ten       à l'article 3.10.5.3.1, § 1er, sont à charge du redevable. laste van de belastingschuldige.
 
@@ -9319,9 +9323,9 @@ De kosten van de formaliteiten voor de wettelijke             Les frais des form
 
 - onderafdeling 4 toegevoegd door art. 255 van het           - sous-section 4 inséré par art. 255 du décret du decreet van 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De      19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré tekst is in werking getreden op 1 januari 2015 (art. en vigueur le 01.01.2015 (art. 325) 325)
 
-## Art. 3.10.5.4.1
+###### Art. 3.10.5.4.1
 
-Art. 3.10.5.4.1.
+###### Art. 3.10.5.4.1.
 
 Als binnen achttien maanden na het openvallen van de         Lorsque, dans les dix-huit mois de l'ouverture de la nalatenschap een derde te goeder trouw een goed van de       succession, un tiers de bonne foi a acquis à titre onéreux nalatenschap, een zakelijk recht, een hypotheek, een         un bien de l'hérédité, un droit réel, une hypothèque, un pand of een inpandgeving op een dergelijk goed onder         gage ou un nantissement sur pareil bien après que la bezwarende titel verkregen heeft nadat de ingeleverde        déclaration déposée est devenue définitive, soit par aangifte definitief geworden is, hetzij door het             l'expiration du délai de dépôt, soit par la renonciation verstrijken van de termijn van inlevering, hetzij            des déclarants au droit de rectification ou après que les ingevolge het afstand doen van de aangevers van het          impôt de succession ont été établis d'office en recht van verbetering, of nadat de erfbelasting              application de l'article 2.7.7.0.1, le privilège et ambtshalve is gevestigd met toepassing van artikel           l'hypothèque légale, visés à l'article 3.1.5.3.1, § 2 ne sont 2.7.7.0.1, kunnen het voorrecht en de wettelijke             pas opposables à ce tiers pour le recouvrement des droits hypotheek, vermeld in artikel 3.10.5.3.1, § 2, niet aan de   et accessoires qui se rapportent aux droits derde tegengeworpen worden voor de invordering van           complémentaires. de belastingen en toebehoren die betrekking hebben op de aanvullende rechten.
 
@@ -9345,9 +9349,9 @@ Dat attest moet binnen een maand na de aanvraag              Cette attestation d
 
 - onderafdeling 5 toegevoegd door art. 257 van het            - sous-section 5 inséré par art. 257 du décret du decreet van 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De       19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré tekst is in werking getreden op 1 januari 2015 (art. en vigueur le 01.01.2015 (art. 325) 325)
 
-## Art. 3.10.5.5.1
+###### Art. 3.10.5.5.1
 
-Art. 3.10.5.5.1.
+###### Art. 3.10.5.5.1.
 
 Onverminderd de zekerheden, vermeld in artikel               Sans préjudice des sûretés mentionnées aux articles 3.10.5.2.1 en 3.10.5.3.1, is iedere persoon die buiten de    3.10.5.2.1 et 3.10.5.3.1, toute personne habitant en Europese Economische Ruimte woont en die erfgenaam,          dehors de l'Espace économique européen, héritière, legataris of begiftigde is in de nalatenschap van roerende   légataire ou donataire dans la succession mobilière d'un goederen van een rijksinwoner, ertoe verplicht inzake        habitant du Royaume est obligée de fournir caution pour het successierecht een borg te stellen voor de betaling      le paiement des droits et accessoires dont elle est tenue van de belastingen en toebehoren waartoe hij tegenover       envers la Région flamande. het Vlaamse Gewest gehouden is.
 
@@ -9359,9 +9363,9 @@ De zegels die overeenkomstig artikel 1148 tot en met         Les scellés qui on
 
 - toegevoegd door art. 258 van het decreet van 19 dec.        - inséré par art. 258 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking       29.01.2015, Ed. 2). Texte est entré en vigueur le getreden op 1 januari 2015 (art. 325)                         01.01.2015 (art. 325)
 
-## Art. 3.10.5.5.2
+###### Art. 3.10.5.5.2
 
-Art. 3.10.5.5.2.
+###### Art. 3.10.5.5.2.
 
 De inschrijvingen, effecten op naam of aan toonder,          Les inscriptions, titres nominatifs ou au porteur, sommen, waarden, gesloten koffers, omslagen en colli's,      sommes, valeurs, coffres fermés, plis et colis, dont il est vermeld in artikel 96 tot en met 99 van het federale         question aux articles 96 à 99 inclus du Code fédéral des Wetboek van Successierechten, mogen niet het                 droits de succession ne peuvent faire l'objet d'un
 
@@ -9380,21 +9384,21 @@ Het bedrag, vermeld in het derde lid, wordt uitbetaald       Le montant visé à
 
 - toegevoegd door art. 259 van het decreet van 19 dec.       - inséré par art. 259 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking      29.01.2015, Ed. 2). Texte est entré en vigueur le getreden op 1 januari 2015 (art. 325)                        01.01.2015 (art. 325)
 
-#### Hoofdstuk 11 - Wederzijdse internationale bijstand             Chapitre 11 - Assistance internationale mutuelle
+### Hoofdstuk 11 - Wederzijdse internationale bijstand             Chapitre 11 - Assistance internationale mutuelle
 
-## Art. 3.11.0.0.1
+###### Art. 3.11.0.0.1
 
-Art. 3.11.0.0.1.
+###### Art. 3.11.0.0.1.
 
 Voorbehouden voor toekomstig gebruik.                        Réservé pour un usage futur
 
-#### Hoofdstuk 12 - Verplichtingen van derden                        Chapitre 12 - Obligations de tiers
+### Hoofdstuk 12 - Verplichtingen van derden                        Chapitre 12 - Obligations de tiers
 
-##### Afdeling 1 - Notificatieverplichtingen van derden         Section 1re - Obligations de notification de tiers
+#### Afdeling 1 - Notificatieverplichtingen van derden         Section 1re - Obligations de notification de tiers
 
-## Art. 3.12.1.0.1
+###### Art. 3.12.1.0.1
 
-Art. 3.12.1.0.1.
+###### Art. 3.12.1.0.1.
 
 De notarissen die een akte moeten opmaken die de         Les notaires requis de dresser un acte ayant pour objet vervreemding of de hypothecaire aanwending van een       l'aliénation ou l'affectation hypothécaire d'un immeuble, onroerend goed, van een schip of een vaartuig tot        d'un bateau ou d'une embarcation, sont personnellement voorwerp heeft, zijn persoonlijk aansprakelijk voor de   responsables du paiement des impôts et accessoires
 
@@ -9412,9 +9416,9 @@ Als hetzelfde bericht achtereenvolgens wordt verstuurd      Lorsqu'un même avis
 
 - eerste lid, 2° gewijzigd door art. 260 van het decreet    - alinéa premier, 2° modifié par art. 260 du décret du van 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is    19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré in werking getreden op 1 januari 2015 (art. 325)            en vigueur le 1er janvier 2015 (art. 325)
 
-## Art. 3.12.1.0.2
+###### Art. 3.12.1.0.2
 
-Art. 3.12.1.0.2.
+###### Art. 3.12.1.0.2.
 
 Vóór het verstrijken van de tiende werkdag die volgt op     Avant l'échéance du dixième jour ouvrable qui suit de verzending van het bericht, vermeld in artikel           l'expédition de l'avis, cité dans l'article 3.12.1.0.1, le 3.12.1.0.1, wordt door het bevoegde personeelslid aan       membre du personnel compétent notifie au notaire le de notaris kennisgegeven van het bedrag van de              montant des impôts et accessoires qui pourraient mener belastingen en toebehoren die aanleiding kunnen geven       à l'inscription de l'hypothèque légale de la Région tot inschrijving van de wettelijke hypotheek van het        flamande sur les biens qui font l'objet de l'acte, d'une des Vlaamse Gewest op de goederen die het voorwerp van          manières suivantes : de akte zijn, op een van de volgende wijzen :
 
@@ -9437,9 +9441,9 @@ Artikel 3.12.1.0.2, eerste lid van de Vlaamse Codex          L'article 3.12.1.0.
 
 - eerste lid, 2° gewijzigd door art. 261 van het decreet     - alinéa premier, 2° modifié par art. 261 du décret du van 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is     19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré in werking getreden op 1 januari 2015 (art. 325)             en vigueur le 1er janvier 2015 (art. 325)
 
-## Art. 3.12.1.0.3
+###### Art. 3.12.1.0.3
 
-Art. 3.12.1.0.3.
+###### Art. 3.12.1.0.3.
 
 § 1. Als de akte, vermeld in artikel 3.12.1.0.1, verleden    § 1er. Si l'acte visé à l'article 3.12.1.0.1, est passé, la is, geldt de kennisgeving, vermeld in artikel 3.12.1.0.2,    notification citée dans l'article 3.12.1.0.2, emporte als beslag onder derden in handen van de notaris op de       saisie-arrêt entre tiers entre les mains du notaire sur les bedragen en waarden die hij krachtens de akte onder zich     sommes et valeurs qu'il détient en vertu de l'acte pour le houdt voor rekening of ten bate van de                       compte ou au profit du redevable, et emporte opposition belastingschuldige, en als verzet tegen de prijs als         sur le prix au sens de l'article 1642 du Code judiciaire vermeld in artikel 1642 van het Gerechtelijk Wetboek,        dans les cas où le notaire est tenu de distribuer les in de gevallen waarin de notaris gehouden is de bedragen     sommes et valeurs conformément aux articles 1639 à en waarden conform artikel 1639 tot en met 1654 van          1654 inclus du Code judiciaire. het Gerechtelijk Wetboek te verdelen.
 
@@ -9465,28 +9469,28 @@ Alle niet-ingeschreven schuldvorderingen waarvoor pas       Toutes créances non
 - gewijzigd door art. 14 van het decreet van 15.03.2024     - modifié par l'art. 14 du décret du 15.03.2024 (M.B.
 (B.S. 20.03.2024). Inwerkingtreding: 30.03.2024             20.03.2024). En vigueur le 30.03.2024
 
-## Art. 3.12.1.0.3
+###### Art. 3.12.1.0.3
 
 van de Vlaamse Codex Fiscaliteit van     L'article 3.12.1.0.3, du Code flamand de la Fiscalité du 13 december 2013, zoals van kracht vanaf de                 13 décembre 2013, tel qu'en vigueur à partir de l'entrée inwerkingtreding van het decreet van 15.03.2024, is van     en vigueur du décret du 15.03.2024, s'applique à toutes toepassing voor alle situaties waarin de berichten,         les situations auxquelles l'avis de la vente publique de vermeld in artikel 3.12.1.0.1 en 3.12.1.0.16 van de         biens meubles, visé à l'article 3.12.1.0.10 du code voormelde codex, verzonden worden na 1 april 2024.          précité, est envoyé après le 1er avril 2024. (art. 21 du (art. 21 van het decreet van 15.03.2024 (B.S.,              décret du 15.03.2024 (M.B., 20.03.2024)) 20.03.2024)) - derde lid, 2° en vierde lid gewijzigd door art. 262 van   - troisième alinéa, 2° et quatrième alinéa modifiés par het decreet van 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2).    art. 262 du décret du 19.12.2014 (M.B., 29.01.2015, De tekst is in werking getreden op 1 januari 2015 (art.
 Ed. 2). Texte est entré en vigueur le 1er janvier 2015
 325)
 (art. 325)
 
-## Art. 3.12.1.0.4
+###### Art. 3.12.1.0.4
 
-Art. 3.12.1.0.4.
+###### Art. 3.12.1.0.4.
 
 De inschrijvingen, genomen na de termijn, vermeld in        Les inscriptions, faites après le délai, cité dans l'article artikel 3.12.1.0.3, § 3, eerste lid, of tot zekerheid van   3.12.1.0.3, § 3, alinéa premier, ou prise en sureté des belastingen die niet overeenkomstig artikel 3.12.1.0.2      impôts qui n'ont pas été notifiés conformément à l'article ter kennis zijn gegeven, kunnen niet worden ingeroepen      3.12.1.0.2, ne peuvent pas être invoquées contre les tegen de hypothecaire schuldeisers, noch tegen de           créanciers hypothécaires, ni contre l'attributaire qui verkrijger die handlichting ervan zal kunnen vorderen.      pourra en demander la mainlevée.
 
-## Art. 3.12.1.0.5
+###### Art. 3.12.1.0.5
 
-Art. 3.12.1.0.5.
+###### Art. 3.12.1.0.5.
 
 De aansprakelijkheid door de notaris, opgelopen met           La responsabilité encourue par le notaire en application toepassing van artikel 3.12.1.0.1 en 3.12.1.0.3, gaat,        des articles 3.12.1.0.1 et 3.12.1.0.3, n'excède pas, selon naargelang het geval, de waarde van het vervreemde            le cas, la valeur du bien aliéné ou le montant de goed of het bedrag van de hypothecaire inschrijving, na       l'inscription de l'hypothèque, après déduction des aftrek van de sommen en waarden waarop in zijn handen         sommes et valeurs, sur lesquelles il a été procédé à une beslag onder derden werd gelegd, niet te boven.               saisie-arrêt entre ses mains.
 
-## Art. 3.12.1.0.6
+###### Art. 3.12.1.0.6
 
-Art. 3.12.1.0.6.
+###### Art. 3.12.1.0.6.
 
 § 1. De Vlaamse Regering kan voor de berichten en             § 1er. Le Gouvernement flamand peut fixer les modèles inlichtingen, vermeld in artikel 3.12.1.0.1 en 3.12.1.0.3,    des avis et informations, cités dans les articles 3.12.1.0.1 de modellen vaststellen.                                      et 3.12.1.0.3.
 
@@ -9516,18 +9520,18 @@ De gevolgde procedures moeten bovendien toelaten dat          Les procédures su
 
 - § 2, eerste lid gewijzigd door art. 263 van het decreet     - § 2, alinéa premier modifié par art. 263 du décret du van 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is      19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré in werking getreden op 1 januari 2015 (art. 325)              en vigueur le 1er janvier 2015 (art. 325)
 
-## Art. 3.12.1.0.7
+###### Art. 3.12.1.0.7
 
-Art. 3.12.1.0.7.
+###### Art. 3.12.1.0.7.
 
-## Art. 3.12.1.0.1
+###### Art. 3.12.1.0.1
 
 tot en met 3.12.1.0.6 zijn van             Les articles 3.12.1.0.1 à 3.12.1.0.6 inclus s'appliquent à toepassing op elke persoon die bevoegd is om de               toute personne qui est compétente pour accorder authenticiteit te verlenen aan de akten, vermeld in artikel   l'authenticité aux actes, cités dans l'article 3.12.1.0.1.
 3.12.1.0.1.
 
-## Art. 3.12.1.0.8
+###### Art. 3.12.1.0.8
 
-Art. 3.12.1.0.8.
+###### Art. 3.12.1.0.8.
 
 Met het akkoord van de belastingschuldige zijn de             Moyennant l'accord du redevable, les banques qui sont banken die onderworpen zijn aan de wet van 25 april           soumises à la loi du 25 avril 2014 relative au statut et au 2014 op het statuut van en het toezicht op                    contrôle des établissements de crédit et des sociétés de kredietinstellingen en beursvennootschappen, en ook de        bourse, ainsi que les prêteurs et intermédiaires en crédit kredietgevers en bemiddelaars inzake hypothecair              hypothécaire qui sont soumis au livre VII, titre 4, krediet die onderworpen zijn aan boek VII, titel 4,           chapitre 4, du Code de droit économique, sont autorisées hoofdstuk 4, van het Wetboek van economisch recht,            d'envoyer l'avis, cité dans l'article 3.12.1.0.1, et en gemachtigd het bericht, vermeld in artikel 3.12.1.0.1, toe    mesure de recevoir la notification, citée dans l'article te sturen en in staat om de kennisgeving,                     3.12.1.0.2, . vermeld in artikel 3.12.1.0.2, te ontvangen.
 
@@ -9537,9 +9541,9 @@ De afgifte door die instellingen van een attest aan de          La délivrance d
 
 - gewijzigd door art. 61 van het decreet van 02.04.2021         - modifié par l'art. 61 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021                15.04.2021). En vigueur le 25.04.2021
 
-## Art. 3.12.1.0.9
+###### Art. 3.12.1.0.9
 
-Art. 3.12.1.0.9.
+###### Art. 3.12.1.0.9.
 
 Geen akte die in het buitenland verleden is en de               Aucun acte passé à l'étranger et qui a pour objet vervreemding of de hypothecaire aanwending van een              l'aliénation ou l'utilisation hypothécaire d'un bien onroerend goed, een schip of een vaartuig tot voorwerp          immobilier, d'un bateau ou d'une embarcation, n'est heeft, wordt in België tot overschrijving of inschrijving       autorisé en Belgique à la transcription ou à l'inscription in de registers van de hypothecaire openbaarmaking of           dans les registres de la publicité hypothécaire ou dans le in de registers van het Belgisch Scheepsregister                Registre naval belge s'il n'y a pas d'attestation jointe du toegelaten, als er niet een attest bij gevoegd is van het       membre du personnel compétent dans le ressort bevoegde personeelslid in het ambtsgebied van wie het           administratif duquel le bien immobilier se situe, et, le onroerend goed ligt en, in voorkomend geval, van het            cas échéant, du membre du personnel compétent du bevoegde personeelslid in het ambtsgebied van wie de            ressort administratif duquel le concerné a son domicile betrokkene zijn woonplaats of zijn hoofdinrichting              ou son établissement principal. heeft.
 
@@ -9550,9 +9554,9 @@ Het attest, vermeld in het eerste lid, geeft er blijk van dat   L'attestation, c
 - gewijzigd door art. 44 van het decreet van 21.12.2018         - modifié par l'art. 44 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst treedt in werking op 07.01.2019        28.12.2018). Texte entre en vigueur le 07.01.2019
 
-## Art. 3.12.1.0.10
+###### Art. 3.12.1.0.10
 
-Art. 3.12.1.0.10.
+###### Art. 3.12.1.0.10.
 
 Openbare ambtenaren of ministeriële officieren, belast          Les fonctionnaires publics ou les officiers ministériels met de openbare verkoping van roerende goederen                 chargés de vendre publiquement des biens meubles, waarvan de waarde ten minste 2500 euro bedraagt, zijn           dont la valeur atteint au moins 2500 euros, sont persoonlijk aansprakelijk voor de betaling van de               personnellement responsables du paiement des impôts belastingen en toebehoren die de eigenaar op het                et accessoires dus par le propriétaire au moment de la ogenblik van de verkoping schuldig is, als ze niet ten          vente, s'ils n'en avisent pas au moins sept jours minste zeven werkdagen vooraf de volgende instanties            ouvrables à l'avance les instances ou personnes of personen verwittigen op de volgende wijze:                   suivantes de la manière suivante:
 
@@ -9569,9 +9573,9 @@ Als hetzelfde bericht achtereenvolgens wordt verstuurd       Lorsqu'un même avi
 (B.S. 20.03.2024). Inwerkingtreding: 30.03.2024              20.03.2024). En vigueur le 30.03.2024
 Artikel 3.12.1.0.10, eerste lid, van de Vlaamse Codex        L'article 3.12.1.0.10, alinéa 1er, du Code flamand de la Fiscaliteit van 13 december 2013, zoals van kracht vanaf     Fiscalité du 13 décembre 2013, tel qu'en vigueur à partir de inwerkingtreding van het decreet van 15.03.2024, is       de l'entrée en vigueur du décret du 15.03.2024, van toepassing voor alle situaties waarin het bericht van    s'applique à toutes les situations auxquelles l'avis de la de openbare verkoop van roerende goederen, vermeld in        vente publique de biens meubles, visé à l'article artikel 3.12.1.0.10 van de voormelde codex, verzonden        3.12.1.0.10 du code précité, est envoyé après le 1er avril wordt na 1 april 2024. (art. 21 van het decreet van          2024. (art. 21 du décret du 15.03.2024 (M.B., 15.03.2024 (B.S., 20.03.2024))                               20.03.2024)) - eerste lid, 2° gewijzigd door art. 264 van het decreet     - alinéa premier, 2° modifié par art. 264 du décret du van 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is     19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré in werking getreden op 1 januari 2015 (art. 325)             en vigueur le 1er janvier 2015 (art. 325)
 
-## Art. 3.12.1.0.11
+###### Art. 3.12.1.0.11
 
-Art. 3.12.1.0.11.
+###### Art. 3.12.1.0.11.
 
 Als de verkoping heeft plaatsgevonden, geldt de              Lorsque la vente a eu lieu, la notification du montant des kennisgeving van het bedrag van de verschuldigde             sommes dues, effectuée au plus tard la veille du jour de bedragen, die uiterlijk daags vóór de verkoping              la vente par l'entité visée à l'article 3.12.1.0.10, alinéa uitgevoerd wordt door de entiteit, vermeld in artikel        premier, 1°, ou par le membre du personnel compétent, 3.12.1.0.10, eerste lid, 1°, of door het bevoegde            visé à l'article 3.12.1.0.10, alinéa premier, 2°, emporte personeelslid, vermeld in artikel 3.12.1.0.10, eerste lid,   saisie-arrêt entre les mains des fonctionnaires publics ou
 2°, als beslag onder derden in handen van de openbare        des officiers ministériels visés à l'article 3.12.1.0.10, ambtenaren of ministeriële officieren als vermeld in         alinéa premier. La notification se fait : artikel 3.12.1.0.10, eerste lid. De kennisgeving gebeurt:
@@ -9593,15 +9597,15 @@ Artikel 3.12.1.0.11, vierde lid, van de Vlaamse Codex        L'article 3.12.1.0.
 
 - eerste lid, 2° gewijzigd door art. 265 van het decreet     - alinéa premier, 2° modifié par art. 265 du décret du van 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is     19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré in werking getreden op 1 januari 2015 (art. 325)             en vigueur le 1er janvier 2015 (art. 325)
 
-## Art. 3.12.1.0.12
+###### Art. 3.12.1.0.12
 
-Art. 3.12.1.0.12.
+###### Art. 3.12.1.0.12.
 
 De aansprakelijkheid door de openbare ambtenaren en          La responsabilité encourue par les fonctionnaires ministeriële officieren, opgelopen met toepassing van        publics ou les officiers ministériels en application des artikel 3.12.1.0.10 en 3.12.1.0.11, gaat, naargelang het     articles 3.12.1.0.10 et 3.12.1.0.11, n'excède pas, selon le geval, de waarde van de verkochte goederen, na aftrek        cas, la valeur des biens vendus, après déduction des van de sommen en waarden waarop in hun handen                sommes et valeurs, sur lesquelles il a été procédé à une beslag onder derden werd gelegd, niet te boven.              saisie-arrêt entre leurs mains.de tiers.
 
-## Art. 3.12.1.0.13
+###### Art. 3.12.1.0.13
 
-Art. 3.12.1.0.13.
+###### Art. 3.12.1.0.13.
 
 § 1. De Vlaamse Regering kan voor de berichten en            § 1er. Le Gouvernement flamand peut fixer les modèles inlichtingen, vermeld in het artikel 3.12.1.0.10, de         des avis et informations, cités dans l'article 3.12.1.0.10. modellen vaststellen.
 
@@ -9634,9 +9638,9 @@ Die gegevens moeten gedurende een periode van tien           Ces données doiven
 
 - § 2, eerste lid gewijzigd door art. 266 van het decreet    - § 2, alinéa premier modifié par art. 266 du décret du van 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is     19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré in werking getreden op 1 januari 2015 (art. 325)             en vigueur le 1er janvier 2015 (art. 325)
 
-## Art. 3.12.1.0.14
+###### Art. 3.12.1.0.14
 
-Art. 3.12.1.0.14.
+###### Art. 3.12.1.0.14.
 
 § 1. Met behoud van de toepassing van artikel 3.12.1.0.1     § 1er. Sans préjudice de l'application des articles tot en met 3.12.1.0.8 is de overdracht in eigendom of in     3.12.1.0.1 à 3.12.1.0.8 inclus le transfert en propriété ou vruchtgebruik van een geheel van goederen,                   en usufruit d'un ensemble de biens, composé d'entre samengesteld uit onder meer elementen die het behoud         autres d'éléments permettant le maintien de la clientèle, van de clientèle mogelijk maken, die voor de uitoefening     qui sont utilisés pour l'exercice d'une profession libre, van een vrij beroep, ambt of post of een industrieel,        d'une fonction ou d'un poste ou d'une entreprise handels- of landbouwbedrijf worden aangewend, alsook         industrielle, commerciale ou agricole, ainsi que de vestiging van een vruchtgebruik op dezelfde               l'établissement d'un usufruit des mêmes biens, n'est goederen, pas tegenstelbaar aan de bevoegde                  opposable aux membres du personnel compétents personeelsleden na verloop van de maand die volgt op         qu'après écoulement du mois qui suit le mois pendant de maand waarin een eensluidend verklaard afschrift van      lequel une copie déclarée conforme de l'acte de transfert de akte tot overdracht of vestiging ter kennis is gebracht   ou d'établissement a été notifiée au membre du van het bevoegde personeelslid van de woonplaats of          personnel compétent du domicile ou du siège du cédant. van de zetel van de overdrager.
 
@@ -9658,9 +9662,9 @@ Het certificaat wordt ofwel uitgereikt ofwel geweigerd     Le certificat est soi
 - gewijzigd door art. 45 van het decreet van 21.12.2018    - modifié par l'art. 45 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst heeft uitwerking op               28.12.2018). Texte produit ses effets aux procédures insolventieprocedures geopend vanaf 1 mei 2018             d’insolvabilité, ouvertes à partir du 1er mai 2018
 
-## Art. 3.12.1.0.15
+###### Art. 3.12.1.0.15
 
-Art. 3.12.1.0.15.
+###### Art. 3.12.1.0.15.
 
 Iedere rechtspersoon of natuurlijke persoon die, al dan       Chaque personne morale ou personne physique qui niet samen met zijn echtgenoot of zijn wettelijk              possède, que ce soit ou non conjointement avec son samenwonende of zijn descendenten, ascendenten en             époux ou cohabitants légaux ou ses descendants, zijverwanten tot en met de tweede graad, onrechtstreeks       ascendants et apparentés jusqu'au deuxième degré of onmiddellijk minstens 33 % bezit van de aandelen in        inclus, au moins 33 % des parts dans une société een binnenlandse vennootschap en die aandelen, of een         intérieure et qui transfère ces parts, ou une partie de ces gedeelte daarvan, voor minstens 75 % overdraagt               dernières, pour au moins 75 % au plus tard dans une uiterlijk in een tijdspanne van één jaar, is van rechtswege   période d'un an, est solidairement responsable de droit hoofdelijk aansprakelijk voor de betaling van de              pour le paiement des dettes fiscales et accessoires si belastingschulden en toebehoren als het actief van de         l'actif de la société est constitué, au plus tard au jour du vennootschap uiterlijk op de dag van de betaling van de       paiement du prix des parts, pour au moins 75 % de prijs van de aandelen voor ten minste 75 % bestaat uit        créances, d'actifs financiers fixes,de placements de vorderingen, financiële vaste activa, geldbeleggingen of      fonds ou de moyens liquides. liquide middelen.
 
@@ -9672,9 +9676,9 @@ De hoofdelijke aansprakelijkheid, vermeld in het eerste       La responsabilité
 
 Het eerste lid is niet van toepassing op de overgedragen      L'alinéa premier ne s'applique pas aux parts transférées aandelen van een genoteerde vennootschap of van een           d'une société notée ou d'une entreprise qui est sous onderneming die onder het toezicht staat van de               contrôle de l'Autorité des Services et Marchés Autoriteit voor Financiële Diensten en Markten.               financiers.
 
-## Art. 3.12.1.0.16
+###### Art. 3.12.1.0.16
 
-Art. 3.12.1.0.16.
+###### Art. 3.12.1.0.16.
 
 § 1. De notarissen die een akte of attest van erfopvolging    § 1er. Les notaires qui doivent établir un acte ou une moeten opmaken overeenkomstig artikel 4.59 van het            attestation d'hérédité conformément à l'article 4.59 du Burgerlijk Wetboek, zijn persoonlijk aansprakelijk voor       Code civil doivent répondre personnellement du de betaling van de schulden van de overledene, zijn           paiement des dettes du défunt, de ses héritiers et erfgenamen en legatarissen, van wie de identiteit             légataires dont l'identité est indiquée dans l'acte ou vermeld is in de akte of het attest, of de begunstigden       l'attestation ou des bénéficiaires d'une institution van een door hem gemaakte contractuele erfstelling, op        contractuelle établie par lui, à condition que ces dettes voorwaarde dat die schulden het onderwerp kunnen              puissent faire l'objet d'une notification visée à l'article uitmaken van een kennisgeving als vermeld in artikel          3.12.1.0.17 s'ils n'en avisent pas : 3.12.1.0.17 als ze daarvan geen bericht geven aan :
 
@@ -9705,9 +9709,9 @@ Voor de toepassing van het eerste lid omvat de identiteit     Pour l'application
 
 - toegevoegd door art. 267 van het decreet van 19 dec.      - inséré par art. 267 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst treedt in         29.01.2015, Ed. 2). Texte entrera en vigueur à une date à werking op een door de Vlaamse Regering te bepalen          déterminer par le Gouvernement flamand. (art. 325) datum (art. 325)
 
-## Art. 3.12.1.0.17
+###### Art. 3.12.1.0.17
 
-Art. 3.12.1.0.17.
+###### Art. 3.12.1.0.17.
 
 § 1. Vóór het verstrijken van de tiende werkdag die volgt   § 1er. Avant l'expiration du dixième jour ouvrable qui op de datum van de verzending van het bericht, vermeld      suit la date de l'expédition de l'avis, visé à l'article in artikel 3.12.1.0.16, kan door het bevoegde               3.12.1.0.16, le membre du personnel compétent peut personeelslid aan de notaris, kennisgegeven worden van      notifier au notaire l'existence, à charge du défunt ou het bestaan ten laste van de overledene of een andere       d'une autre personne, visée dans l'avis, d'une dette persoon, vermeld in het bericht, van een fiscale schuld     fiscale qui relève du champ d'application du présent die onder het toepassingsgebied van deze codex valt en      code et se compose de droits et accessoires en indiquant, die bestaat uit belastingen en toebehoren, met opgave       pour chacun des débiteurs, le montant de cette dette de voor elk van de schuldenaars van het bedrag van die         l'une des manières suivantes : schuld op een van de volgende wijzen :
 
@@ -9732,9 +9736,9 @@ Als dezelfde kennisgeving achtereenvolgens wordt            Si la même notifica
 
 - toegevoegd door art. 268 van het decreet van 19 dec.        - inséré par art. 268 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst treedt in           29.01.2015, Ed. 2). Texte entrera en vigueur à une date à werking op een door de Vlaamse Regering te bepalen            déterminer par le Gouvernement flamand. (art. 325) datum (art. 325)
 
-## Art. 3.12.1.0.18
+###### Art. 3.12.1.0.18
 
-Art. 3.12.1.0.18.
+###### Art. 3.12.1.0.18.
 
 In het attest van erfopvolging of onderaan op de uitgifte     Dans le certificat d'hérédité ou au pied de l'expédition van de akte van erfopvolging wordt vermeld hetzij dat er      de l'acte d'hérédité délivrée, il est fait mention soit de geen kennisgeving van schulden met toepassing van             l'absence de notification de dettes en application de artikel 3.12.1.0.17 is gedaan, zowel wat de overledene        l'article 3.12.1.0.17, tant dans le chef du défunt que dans betreft als wat een of meer personen betreft die vermeld      le chef d'une ou plusieurs personnes mentionnées dans zijn in het bericht en die bestemmeling zijn van het attest   l'avis et destinataires du certificat ou de l'expédition, soit of de uitgifte, hetzij dat de schulden waarvan met            du paiement des dettes notifiées en application de toepassing van artikel 3.12.1.0.17 is kennisgegeven, zijn     l'article 3.12.1.0.17, le cas échéant à intervenir au betaald of, in voorkomend geval, zullen worden betaald        moyen des fonds détenus auprès du débiteur. met de tegoeden, gehouden door de schuldenaar.
 
@@ -9746,9 +9750,9 @@ De notaris die een attest van erfopvolging of een uitgifte    Le notaire qui dé
 
 - toegevoegd door art. 269 van het decreet van 19 dec.        - inséré par art. 269 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst treedt in           29.01.2015, Ed. 2). Texte entrera en vigueur à une date à werking op een door de Vlaamse Regering te bepalen            déterminer par le Gouvernement flamand. (art. 325) datum (art. 325)
 
-## Art. 3.12.1.0.19
+###### Art. 3.12.1.0.19
 
-Art. 3.12.1.0.19.
+###### Art. 3.12.1.0.19.
 
 § 1. Op straffe van persoonlijk aansprakelijk te zijn voor    § 1er. Sous peine d'être personnellement responsable du de betaling van de belastingen en hun toebehoren,             paiement des impôts et accessoires, notifiés en waarvan is kennisgegeven met toepassing van artikel           application de l'article 3.12.1.0.17, celui qui libère des 3.12.1.0.17, kan iemand die tegoeden van een                  avoirs d'un défunt conformément à l'article 4.59 du overledene vrijgeeft overeenkomstig artikel 4.59 van het      Code civil ne peut le faire de manière libératoire qu'à Burgerlijk Wetboek, dat maar op een bevrijdende wijze         condition qu'il résulte clairement du certificat d'hérédité doen als duidelijk uit het attest van erfopvolging of uit     ou de l'expédition de l'acte qu'aucune notification visée de uitgifte van de akte van erfopvolging blijkt dat geen      à l'article 3.12.1.0.17 n'a été faite. enkele kennisgeving als vermeld in artikel 3.12.1.0.17, is gedaan.
 
@@ -9766,9 +9770,9 @@ Art. 3.12.1.0.19.
 
 - toegevoegd door art. 270 van het decreet van 19 dec.     - inséré par art. 270 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst treedt in        29.01.2015, Ed. 2). Texte entrera en vigueur à une date à werking op een door de Vlaamse Regering te bepalen         déterminer par le Gouvernement flamand. (art. 325) datum (art. 325)
 
-## Art. 3.12.1.0.20
+###### Art. 3.12.1.0.20
 
-Art. 3.12.1.0.20.
+###### Art. 3.12.1.0.20.
 
 § 1. De Vlaamse Regering kan voor de berichten en          § 1er. Le Gouvernement flamand peut déterminer les kennisgevingen, vermeld in artikel 3.12.1.0.16 en          modèles des avis et notifications visés aux articles 3.12.1.0.17, modellen vaststellen.                         3.12.1.0.16 et 3.12.1.0.17.
 
@@ -9793,11 +9797,11 @@ De gevolgde procedures moeten bovendien toelaten dat          Les procédures su
 
 - toegevoegd door art. 271 van het decreet van 19 dec.        - inséré par art. 271 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst treedt in           29.01.2015, Ed. 2). Texte entrera en vigueur à une date à werking op een door de Vlaamse Regering te bepalen            déterminer par le Gouvernement flamand. (art. 325) datum (art. 325)
 
-## Art. 3.12.1.0.21
+###### Art. 3.12.1.0.21
 
-Art. 3.12.1.0.21.
+###### Art. 3.12.1.0.21.
 
-## Art. 3.12.1.0.16
+###### Art. 3.12.1.0.16
 
 tot en met artikel 3.12.1.0.20 zijn van   Les articles 3.12.1.0.16 à 3.12.1.0.20 s'appliquent par overeenkomstige toepassing op elke persoon of dienst          analogie à toute personne compétente ou à tout service die bevoegd is om een attest van erfopvolging op te           compétent pour dresser un certificat d'hérédité maken overeenkomstig artikel 4.59 van het Burgerlijk          conformément à l'article 4.59 du Code civil.
 Wetboek.
@@ -9809,11 +9813,11 @@ Wetboek.
 
 - toegevoegd door art. 272 van het decreet van 19 dec.        - inséré par art. 272 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst treedt in           29.01.2015, Ed. 2). Texte entrera en vigueur à une date à werking op een door de Vlaamse Regering te bepalen            déterminer par le Gouvernement flamand. (art. 325) datum (art. 325)
 
-##### Afdeling 2 - Verplichtingen van kredietinstellingen of Section 2- Obligations des établissements ou structures de crédit -inrichtingen
+#### Afdeling 2 - Verplichtingen van kredietinstellingen of Section 2- Obligations des établissements ou structures de crédit -inrichtingen
 
-## Art. 3.12.2.0.1
+###### Art. 3.12.2.0.1
 
-Art. 3.12.2.0.1.
+###### Art. 3.12.2.0.1.
 
 Als openbare of private kredietinstellingen of -              Si les établissements ou structures de crédit publics ou inrichtingen kredieten, leningen of voorschotten              privés accordent des crédits, des prêts ou des avances toekennen waarvoor een voordeel is verleend in het            pour lesquels un avantage a été accordé dans le cadre kader van de regelgeving inzake economische expansie          d'un règlement en matière d'expansion économique ou of waarvoor een dergelijk voordeel is aangevraagd aan         pour lesquels un tel avantage a été demandé à l'autorité de bevoegde overheid, mogen ze de fondsen noch geheel         compétente, ils ne peuvent pas libérer les fonds, ni en noch gedeeltelijk vrijgeven, tenzij nadat de genieter of      partie, ni en tout, sauf après présentation par le aanvrager hun een attest heeft overgelegd dat is              bénéficiaire ou demandeur d'une attestation délivrée par uitgereikt door het bevoegde personeelslid en waaruit         le membre du personnel compétent dont il ressort un des een van de volgende feiten blijkt:                            faits suivants :
 
@@ -9821,15 +9825,15 @@ Als openbare of private kredietinstellingen of -              Si les établissem
 
 2° er is een bepaald bedrag aan ingekohierde belastingen      2° un certain montant d'impôts et accessoires enrôlés est of      toebehoren     verschuldigd     waarvoor       de     dû pour lesquels le délai de paiement est échu, dans quel betalingstermijn verstreken is, in welk geval de betaling     cas le paiement des montants dus, sous la forme et dans van de verschuldigde bedragen, in de vorm en binnen de        les délais fixés dans l'attestation, doivent faire l'objet termijnen, bepaald in het attest, het voorwerp moet           d'une clause spéciale dans la décision d'octroi de uitmaken van een bijzonder beding in de beslissing tot        l'avantage. toekenning van het voordeel.
 
-##### Afdeling 3 - Andere verplichtingen in het kader van de        Section 3 - Autres obligations dans le cadre de l'impôt registratiebelasting                                            d'enregistrement
+#### Afdeling 3 - Andere verplichtingen in het kader van de        Section 3 - Autres obligations dans le cadre de l'impôt registratiebelasting                                            d'enregistrement
 
 ---- historiek ----                                           ---- historique ----
 
 - afdeling 3 toegevoegd door art. 273 van het decreet van - section 3 inséré par art. 273 du décret du 19.12.2014 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is      (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 1er janvier 2015 (art. 325) in werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.12.3.0.1
+###### Art. 3.12.3.0.1
 
-Art. 3.12.3.0.1.
+###### Art. 3.12.3.0.1.
 
 § 1. Al naargelang de situatie verklaren de partijen in de      § 1er. Selon le cas, les parties déclarent dans l'acte ou akte of het geschrift, of in een vermelding onderaan op         l'écrit, ou dans une mention au pied de l'acte ou de l'écrit de akte of het geschrift, dat :                                 que :
 
@@ -10006,9 +10010,9 @@ Als het verslag, vermeld in artikel 3.12.3.0.1, § 5, tweede     Si le rapport v
 
 - gewijzigd door art. 9 van het decreet van 21.04.2017.         - modifié par l'art. 9 du décret du 21.04.2017. Texte en De tekst is in werking getreden op 14.05.2017                   vigueur le 14.05.2017
 
-## Art. 3.12.3.0.2
+###### Art. 3.12.3.0.2
 
-Art. 3.12.3.0.2.
+###### Art. 3.12.3.0.2.
 
 Als in een authentieke akte die aan de formaliteit van de   Si, dans un acte authentique qui est soumis à la formalité registratie is onderworpen en die geen vonnis of arrest     d'enregistrement et qui n'est ni un jugement ni un arrêt, is, melding wordt gemaakt van een onderhandse akte of       il est fait mention d'un acte sous seing privé ou d'un acte van een in het buitenland verleden akte als vermeld in      passé à l'étranger tel que visé à l'article 19, premier artikel 19, eerste lid, 2°, van het federale Wetboek der    alinéa, 2°, du Code fédéral des droits d'enregistrement, Registratie-, Hypotheek- en Griffierechten, moet die        d'hypothèque et de greffe, cet acte authentique doit authentieke akte het bedrag en de datum van betaling        mentionner le montant et la date du paiement de l'impôt van de registratiebelasting, geheven op vermelde akte,      d'enregistrement prélevé sur l'acte en question. vermelden.
 
@@ -10018,18 +10022,18 @@ Indien de onderhandse akte of in het buitenland verleden    Si l'acte sous seing
 
 - toegevoegd door art. 275 van het decreet van 19 dec.      - inséré par art. 275 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking     29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                       janvier 2015 (art. 325)
 
-## Art. 3.12.3.0.3
+###### Art. 3.12.3.0.3
 
-Art. 3.12.3.0.3.
+###### Art. 3.12.3.0.3.
 In geval van een schenking moet de notaris in de akte       En cas de donation, le notaire doit reprendre dans l'acte een verklaring van de schenker opnemen die de               une déclaration du donateur contenant la mention des vermelding inhoudt van het adres en de datum en de duur     adresse, date d'établissement et durée d'occupation des van de vestiging van de verschillende fiscale               différents domiciles fiscaux que le donateur a eus durant woonplaatsen die de schenker gehad heeft in de periode      la période de cinq ans précédant la donation. van vijf jaar voorafgaand aan de datum van de schenking.
 
 ---- historiek ----                                         ---- historique ----
 
 - toegevoegd door art. 276 van het decreet van 19 dec.      - inséré par art. 276 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking     29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                       janvier 2015 (art. 325)
 
-## Art. 3.12.3.0.4
+###### Art. 3.12.3.0.4
 
-Art. 3.12.3.0.4.
+###### Art. 3.12.3.0.4.
 
 § 1. De akten van schenking van onroerende goederen         § 1er. Les actes de donation de biens immobiliers moeten vermelden of er tussen dezelfde partijen al een      doivent mentionner s'il est déjà intervenu entre les of meer schenkingen van onroerende goederen zijn            mêmes parties une ou des donations de biens voorgekomen die vastgesteld zijn door akten die dateren     immobiliers constatées par actes remontant à moins de van minder dan drie jaar vóór de datum van de nieuwe        trois ans avant la date de la nouvelle donation et qui, schenking en die vóór dezelfde datum geregistreerd zijn     avant la même date, ont été enregistrés ou sont devenus of verplicht registreerbaar geworden zijn.                  obligatoirement enregistrables.
 
@@ -10043,9 +10047,9 @@ De vastgelegde bepalingen, vermeld in dit artikel,          Les dispositions fix
 
 - toegevoegd door art. 277 van het decreet van 19 dec.      - inséré par art. 277 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking     29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                       janvier 2015 (art. 325)
 
-## Art. 3.12.3.0.5
+###### Art. 3.12.3.0.5
 
-Art. 3.12.3.0.5.
+###### Art. 3.12.3.0.5.
 
 § 1. Alle uitgiften, afschriften of uittreksels van een     § 1er. Toutes les expéditions, toutes les copies et tous burgerlijke authentieke akte die aan de registratie         les extraits d'un acte civil authentique soumis à onderworpen is, moeten het bedrag en de datum van           l'enregistrement doivent mentionner le montant et la betaling van de registratiebelasting vermelden.             date de paiement de l'impôt d'enregistrement.
 
@@ -10073,9 +10077,9 @@ Art. 3.12.3.0.5.
 
 - toegevoegd door art. 278 van het decreet van 19 dec.      - inséré par art. 278 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking     29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                       janvier 2015 (art. 325)
 
-## Art. 3.12.3.0.6
+###### Art. 3.12.3.0.6
 
-Art. 3.12.3.0.6.
+###### Art. 3.12.3.0.6.
 
 Geen akte of geschrift mag bij een akte van een notaris     Aucun acte ou écrit ne peut être annexé à un acte de of bij een exploot of proces-verbaal van een                notaire ou à un exploit ou un procès-verbal d'huissier de gerechtsdeurwaarder worden gevoegd, of onder de             justice, ou déposé au rang des minutes d'un notaire, sans minuten van een notaris worden neergelegd zonder dat        que l'impôt d'enregistrement y afférent ait été payé. de registratiebelasting die erop verschuldigd is, betaald is.
 
@@ -10088,11 +10092,11 @@ Dit artikel is niet van toepassing in geval van bijvoeging    Cet article n'est 
 
 - toegevoegd door art. 279 van het decreet van 19 dec.         - inséré par art. 279 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking        29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                          janvier 2015 (art. 325)
 
-##### Afdeling 4 - Verplichtingen van derden in het kader van        Section 4 - Obligations de tiers dans le cadre de la taxe de belasting op de automatische ontspanningstoestellen            sur les appareils automatiques de divertissement
+#### Afdeling 4 - Verplichtingen van derden in het kader van        Section 4 - Obligations de tiers dans le cadre de la taxe de belasting op de automatische ontspanningstoestellen            sur les appareils automatiques de divertissement
 
-## Art. 3.12.4.0.1
+###### Art. 3.12.4.0.1
 
-Art. 3.12.4.0.1.
+###### Art. 3.12.4.0.1.
 
 Een automatisch ontspanningstoestel dat een kansspel is        Un appareil automatique de divertissement qui est un als vermeld in artikel 2, eerste lid, 1°, van de               jeu de hasard tel que visé à l'article 2, alinéa 1er, 1°, de Kansspelwet van 7 mei 1999, en niet beschikt over het          la loi du 7 mai 1999 sur les jeux de hasard, et qui ne goedkeuringsattest, vermeld in artikel 52 van voormelde        dispose pas de l'attestation d'agrément visée à l'article wet, wordt ambtshalve beschouwd als een toestel van de         52 de ladite loi, est considéré d'office comme un categorie 1, vermeld in artikel 2.13.3.0.1, § 2, eerste lid,   appareil de catégorie 1, visé à l'article 2.13.3.0.1, § 2,
 1°.                                                            alinéa 1er, 1°.
@@ -10107,11 +10111,11 @@ Een automatisch ontspanningstoestel dat een kansspel is        Un appareil autom
 - ingevoegd door art. 47 van het decreet van 07.12.2018        - inséré par l’art. 47 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                            20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-##### Afdeling 5 - Verplichtingen in het kader van de           Section 5 - Obligations dans le cadre de l’action civile burgerlijke vordering
+#### Afdeling 5 - Verplichtingen in het kader van de           Section 5 - Obligations dans le cadre de l’action civile burgerlijke vordering
 
-## Art. 3.12.5.0.1
+###### Art. 3.12.5.0.1
 
-Art. 3.12.5.0.1.
+###### Art. 3.12.5.0.1.
 
 De bepalingen van deze codex doen geen afbreuk aan            Les dispositions du présent code ne portent pas het recht van het Vlaamse Gewest om het herstel van de        préjudice au droit de la Région flamande de réclamer schade te vorderen die kan bestaan uit de niet-betaling       des dommages-intérêts en cas de non-paiement des van de belastingen en toebehoren, door een                    taxes et accessoires, par une action civile ou par une burgerlijkepartijstelling    of        door         een       action en responsabilité. aansprakelijkheidsvordering.
 
@@ -10120,27 +10124,27 @@ De bepalingen van deze codex doen geen afbreuk aan            Les dispositions d
 - vernummerd door art. 9 van het decreet van                  - renuméroté par l’art. 9 du décret du 20.11.2020 20.11.2020 (B.S., 03.12.2020). Inwerkingtreding vanaf         (M.B., 03.12.2020). En vigueur à partir de l’année d’imposition 2021 aanslagjaar 2021 - ingevoegd door art. 48 van het decreet van 21.12.2018       - inséré par l’art. 48 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst treedt in werking op 07.01.2019      28.12.2018). Texte entre en vigueur le 07.01.2019
 
-#### Hoofdstuk 13 - Onderzoek en controle                             Chapitre 13 - Enquête et contrôle
+### Hoofdstuk 13 - Onderzoek en controle                             Chapitre 13 - Enquête et contrôle
 
-##### Afdeling 1 - Administratieve controle                         Section 1re - Contrôle administratif
+#### Afdeling 1 - Administratieve controle                         Section 1re - Contrôle administratif
 
 ##### Onderafdeling 1 - Algemeen                                  Sous-section 1re – Généralités
 
-## Art. 3.13.1.1.1
+###### Art. 3.13.1.1.1
 
-Art. 3.13.1.1.1.
+###### Art. 3.13.1.1.1.
 
 Elk bevoegde personeelslid, regelmatig belast met een         Chaque membre du personnel compétent, chargé controle of een onderzoek in verband met de toepassing        régulièrement d'un contrôle ou d'une enquête relative à van een belasting, vermeld in deze codex, bij een             l'application d'un impôt, cité dans le présent code, natuurlijke persoon of een rechtspersoon, is van              auprès d'une personne morale ou physique, est autorisé rechtswege gemachtigd alle inlichtingen op te zoeken of       de droit de rechercher ou d'obtenir toutes les in te winnen die de juiste heffing van alle belastingen,      informations pouvant assurer la levée exacte de tous les vermeld in deze codex, die door deze persoon                  impôts, cités dans le présent code, dus par cette verschuldigd zijn, kunnen verzekeren.                         personne.
 
-## Art. 3.13.1.1.2
+###### Art. 3.13.1.1.2
 
-Art. 3.13.1.1.2.
+###### Art. 3.13.1.1.2.
 
 Elke inlichting, elk stuk, elk proces-verbaal of elke akte,   Toute information, tout document, tout procès-verbal ou door een bevoegde personeelslid ontdekt of verkregen          tout acte, découvert ou obtenu par un membre du bij de uitoefening van zijn functie, hetzij rechtstreeks,     personnel compétent lors de l'exercice de sa fonction, hetzij door tussenkomst van een van de diensten,              soit directement, soit par intervention d'un des services, besturen of inrichtingen, vermeld in artikel 3.13.1.4.1,      administrations ou établissements, cités dans l'article kan door het Vlaamse Gewest worden ingeroepen om              3.13.1.4.1, peut être invoqué par la Région flamande elke som op te sporen die met toepassing van de               afin de tracer toute somme due en application des bepalingen van deze codex verschuldigd is.                    dispositions du présent code.
 
-## Art. 3.13.1.1.3
+###### Art. 3.13.1.1.3
 
-Art. 3.13.1.1.3.
+###### Art. 3.13.1.1.3.
 
 Met behoud van de toepassing van de bevoegdheden,             Sans préjudice de l'application des compétences, citées vermeld in artikel 3.3.3.0.1, kan de bevoegde entiteit van    dans l'article 3.3.3.0.1, l'entité compétente de de Vlaamse administratie de onderzoekingen, vermeld           l'administration flamande peut procéder aux recherches, in dit hoofdstuk, verrichten, zelfs als de desbetreffende     citées dans le présent chapitre, même si les impôts belastingen al betaald zijn.                                  concernés ont déjà été payés.
 
@@ -10150,9 +10154,9 @@ De onderzoekingen, vermeld in het eerste lid, mogen            Les recherches, c
 De onderzoekingen, vermeld in het eerste lid, mogen            Les recherches, citées dans l'alinéa premier, peuvent en bovendien voor de onroerende voorheffing worden                outre être exécutées pour le précompte immobilier verricht gedurende de aanvullende termijn van vier jaar,       pendant le délai complémentaire de quatre ans, cité dans vermeld in artikel 3.3.3.0.1, § 1, op voorwaarde dat de        l'article 3.3.3.0.1, § 1er, à condition que l'entité bevoegde entiteit van de Vlaamse administratie de              compétente      de    l'administration    flamande     a belastingplichtige vooraf schriftelijk en op nauwkeurige       préalablement notifié le contribuable par écrit et de wijze heeft kennisgegeven van de aanwijzingen inzake           manière précise des indices en matière de fraude fiscale belastingontduiking die voor hem bestaan voor het              qui lui concernent pour la période concernée. bedoelde tijdperk.
 Die voorafgaande kennisgeving, vermeld in het derde            Cette notification préalable, citée dans l'alinéa trois, est lid, is voorgeschreven op straffe van nietigheid van de        prescrite sous peine de nullité de l'imposition. aanslag.
 
-## Art. 3.13.1.1.4
+###### Art. 3.13.1.1.4
 
-Art. 3.13.1.1.4.
+###### Art. 3.13.1.1.4.
 
 § 1. In de gevallen, vermeld in artikel 3.13.1.3.1, § 2, en    § 1er. Dans les cas, cités dans les articles 3.13.1.3.1, § 3.13.1.4.1, § 3, tweede lid, stelt de bevoegde entiteit van    2, et 3.13.1.4.1, § 3, alinéa deux, l'entité compétente de de Vlaamse administratie de belastingschuldige in              l'administration flamande peut informer le redevable de kennis van de aanwijzing of de aanwijzingen van                l'indice ou des indices de fraude fiscale qui justifient une belastingontduiking die een vraag om inlichtingen bij          demande d'informations à un établissement financier. een financiële instelling rechtvaardigen. Deze                 Cette notification se fait pas lettre recommandée, en kennisgeving gebeurt bij aangetekende brief, gelijktijdig      même temps que l'envoi de la demande d'informations met het verzenden van de voormelde vraag om                    précitée. inlichtingen.
 
@@ -10167,9 +10171,9 @@ Het eerste lid is niet van toepassing als de rechten van       L'alinéa premier
 Dit verslag wordt openbaar gemaakt door de Vlaamse             Ce rapport est rendu public par le Ministre flamand des minister van Financiën en overgezonden aan het                 Finances et transmis au Parlement flamand.
 Vlaamse Parlement.
 
-## Art. 3.13.1.1.5
+###### Art. 3.13.1.1.5
 
-Art. 3.13.1.1.5.
+###### Art. 3.13.1.1.5.
 Met toepassing van artikel 23, lid 1, e) en h), van
 En application de l'article 23, paragraphe 1, e) et h) du verordening (EU) 2016/679 van het Europees Parlement règlement (UE) n° 2016/679 du Parlement européen et en de Raad van 27 april 2016 betreffende de du Conseil du 27 avril 2016 relatif à la protection des bescherming van natuurlijke personen in verband met de personnes physiques à l'égard du traitement des données verwerking van persoonsgegevens en betreffende het à caractère personnel et à la libre circulation de ces vrije verkeer van die gegevens en tot intrekking van données et abrogeant la directive 95/46/CE (règlement Richtlijn     95/46/EG       (algemene       verordening général sur la protection des données), l'entité gegevensbescherming) kan de bevoegde entiteit van de compétente de l'administration flamande peut décider Vlaamse administratie beslissen om de reikwijdte van de de limiter la portée des obligations et des droits visés verplichtingen en de rechten, vermeld in artikel 12 tot en aux articles 12 à 22 du règlement précité, lors du met 22 van de voormelde verordening, te beperken bij traitement des données à caractère personnel dans le de verwerkingen van persoonsgegevens in het kader van cadre d'une enquête concernant une personne physique een onderzoek dat betrekking heeft op een welbepaalde déterminée, si les conditions énoncées aux alinéas 2 à 9 natuurlijke persoon, als voldaan is aan de voorwaarden, sont remplies. vermeld in het tweede tot en met het negende lid.
 De afwijkingsmogelijkheid, vermeld in het eerste lid,        La possibilité de dérogation visée à l'alinéa premier ne geldt alleen gedurende de periode waarin de betrokkene       s'applique que pendant la période au cours de laquelle het voorwerp uitmaakt van een controle, een onderzoek        l'intéressé fait l'objet d'un contrôle, d'une enquête ou des of de voorbereidende werkzaamheden die daarmee               activités préparatoires y afférentes, dans le cadre des verband houden, in het kader van de decretale en             missions décrétales et réglementaires de l'entité reglementaire opdrachten van de bevoegde entiteit van        compétente de l'administration flamande, à condition de Vlaamse administratie, op voorwaarde dat het voor         qu'il soit ou puisse être nécessaire pour le bon het goede verloop van het onderzoek noodzakelijk is of       déroulement de l'enquête que les obligations et droits kan zijn dat de verplichtingen en de rechten, vermeld in     visés aux articles 12 à 22 dudit règlement ne soient pas artikel 12 tot en met 22 van de voormelde verordening,       appliqués. La durée des activités préparatoires ne peut, niet worden toegepast. De duur van de voorbereidende         le cas échéant, dépasser un an à compter de la date de werkzaamheden mag in voorkomend geval niet meer              réception d'une demande d'exercice d'un des droits visés bedragen dan een jaar vanaf de ontvangst van een             aux articles 12 à 22 dudit règlement. verzoek tot uitoefening van een van de rechten, vermeld in artikel 12 tot en met 22 van de voormelde verordening.
@@ -10198,9 +10202,9 @@ Als een dossier dat persoonsgegevens als vermeld in het     Si un dossier conten
 
 ##### Onderafdeling 2 - Plichten van de belastingplichtige             Sous-section 2 - Obligations du contribuable
 
-## Art. 3.13.1.2.1
+###### Art. 3.13.1.2.1
 
-Art. 3.13.1.2.1.
+###### Art. 3.13.1.2.1.
 
 Eenieder die onderhevig is aan de belastingen, vermeld       Chacun qui est soumis aux impôts, cités dans le présent in deze codex, is verplicht de bevoegde entiteit van de      code, est obligé de présenter tous les documents et les Vlaamse administratie, op haar verzoek, en zonder dat        déclarations complémentaires qui sont nécessaires pour de belastingschuldige zich moet verplaatsen naar de          fixer le montant des impôts dus, à l'entité compétente de kantoren van de administratie, met het oog op de             l'administration flamande, sur demande de cette controle ervan, alle documenten en aanvullende               dernière et sans que le redevable doit se rendre aux verklaringen voor te leggen die noodzakelijk zijn om het     bureaux de l'administration, en vue de leur contrôle. bedrag van zijn verschuldigde belastingen te bepalen.
 
@@ -10214,9 +10218,9 @@ In geval van een rechtsgeding tussen het Vlaamse             En cas d'instance e
 
 - eerste lid gewijzigd door art. 280 van het decreet van     - premier alinéa modifié par art. 280 du décret du 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in      19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré werking getreden op 1 januari 2015 (art. 325)                en vigueur le 1er janvier 2015 (art. 325) - derde lid en vierde lid toegevoegd door art. 281 van het   - troisième et quatrième alinéa insérés par art. 281 du decreet van 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De      décret du 19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte tekst is in werking getreden op 1 januari 2015 (art. 325) est entré en vigueur le 1er janvier 2015 (art. 325)
 
-## Art. 3.13.1.2.2
+###### Art. 3.13.1.2.2
 
-Art. 3.13.1.2.2.
+###### Art. 3.13.1.2.2.
 
 De natuurlijke personen en rechtspersonen die een           Les personnes physiques et morales qui font appel à un beroep doen op een informaticasysteem of elk ander          système informatique ou tout autre appareil électronique elektronisch apparaat om de documenten waarvan de           pour tenir, rédiger, envoyer ou conserver, en tout ou en voorlegging is voorgeschreven met toepassing van            entier, les documents dont la présentation est prescrite artikel 3.13.1.2.1, geheel of ten dele, te houden, op te    en application de l'article 3.13.1.2.1, sont également stellen, toe te zenden of te bewaren, zijn ook verplicht,   obligées, sur demande de l'entité compétente de op verzoek van de bevoegde entiteit van de Vlaamse          l'administration flamande, de présenter pour administratie, ter plaatse, de dossiers over de analyses,   consultation, sur place, les dossiers sur les analyses, les de programma's en het beheer van het gebruikte systeem,     programmes et la gestion du système utilisé, ainsi que alsook de informatiedragers en alle gegevens die ze         tous les supports d'information et toutes les données bevatten, ter inzage voor te leggen.                        qu'ils contiennent.
 De gegevens die geplaatst zijn op de informatiedragers,     Les données qui sont placées sur les supports moeten in een leesbare en verstaanbare vorm ter inzage      d'information doivent être présentées en une forme worden voorgelegd.                                          lisible et compréhensible.
@@ -10230,9 +10234,9 @@ De verplichtingen, vermeld in het eerste en derde lid,      Les obligations vis�
 - gewijzigd door art. 30 van het decreet van 09.12.2022     - modifié par l'art. 30 du décret du 09.12.2022 (M.B.
 (B.S. 20.12.2022). Inwerkingtreding: 30.12.2022             20.12.2022). Entrée en vigueur le 30.12.2022
 
-## Art. 3.13.1.2.2/1
+###### Art. 3.13.1.2.2/1
 
-Art. 3.13.1.2.2/1.
+###### Art. 3.13.1.2.2/1.
 
 De personeelsleden van de bevoegde entiteit van de          Par dérogation à l'article 3.3.1.0.16, alinéa 1er, le Vlaamse administratie kunnen de documenten die              contribuable peut introduire, au plus tard le 15 janvier voorgelegd moeten worden met toepassing van artikel         2023, une déclaration auprès de l'entité compétente de 3.13.1.2.1, voor de duur van het onderzoek behouden         l'administration flamande pour un appareil automatique telkens als ze menen dat die documenten nodig zijn om       de divertissement qui sera installé pendant la première het bedrag van de belastingen van de belastingplichtige     moitié de janvier 2023. of van derden te bepalen.
 De retentie, vermeld in het eerste lid, maakt het           Par dérogation à l'article 3.3.1.0.16, alinéa 4, une voorwerp uit van een proces-verbaal van retentie dat        déclaration qui est introduite ou renouvelée
@@ -10242,15 +10246,15 @@ bewijs oplevert zolang het tegendeel niet is bewezen.            automatiquement
 
 - Ingevoegd door art. 31 van het decreet van 09.12.2022          - Inséré par l’art. 31 du décret du 09.12.2022 (M.B., (B.S., 20.12.2022). Inwerkingtreding: 30.12.2022                 20.12.2022). Entrée en vigueur le 30.12.2022
 
-## Art. 3.13.1.2.3
+###### Art. 3.13.1.2.3
 
-Art. 3.13.1.2.3.
+###### Art. 3.13.1.2.3.
 
 Met behoud van het recht van de bevoegde entiteit van            Sans préjudice du droit de l'entité compétente de de Vlaamse administratie tot het vragen van mondelinge           l'administration flamande de demander des informations inlichtingen is eenieder die onderhevig is aan de                orales à chacun qui est soumis aux impôts, cités dans le belastingen, vermeld in deze codex, verplicht de                 présent code, est obligé de fournir par écrit les données bevoegde entiteit van de Vlaamse administratie, op haar          qui sont exigées de sa part en vue de l'enquête de sa verzoek, binnen een maand vanaf de derde werkdag die             situation fiscale, à l'entité compétente de l'administration volgt op de verzending van de aanvraag, schriftelijk alle        flamande, sur sa demande, dans le mois à partir du inlichtingen te verstrekken die van hem worden                   troisième jour ouvrable suivant l'envoi de la demande. gevorderd met het oog op het onderzoek van zijn fiscale          Le délai peut être prolongé pour des raisons légales. toestand. De termijn kan om wettige redenen worden verlengd.
 
-## Art. 3.13.1.2.4
+###### Art. 3.13.1.2.4
 
-Art. 3.13.1.2.4.
+###### Art. 3.13.1.2.4.
 
 De verificaties en vragen om inlichtingen, vermeld in            Les vérifications et les demandes d'information, citées artikel 3.13.1.2.1, eerste lid, artikel 3.13.1.2.2, eerste tot   dans l'article 3.13.1.2.1, alinéa premier, l'article en met derde lid, artikel 3.13.1.2.2/1, eerste lid, en           3.13.1.2.2, alinéa premier à trois inclus, l'article artikel 3.13.1.2.3, mogen slaan op alle verrichtingen            3.13.1.2.2/1, alinéa 1er, et dans l'article 3.13.1.2.3, waaraan de belastingplichtige heeft deelgenomen. De              peuvent avoir trait à toutes les opérations auxquelles le aldus ingewonnen inlichtingen kunnen ook worden                  contribuable a participé. Les informations ainsi obtenues ingeroepen met het oog op het belasten van derden.               peuvent également être invoquées en vue d'imposer des tiers.
 ---- historiek ----                                              ---- historique ----
@@ -10258,9 +10262,9 @@ De verificaties en vragen om inlichtingen, vermeld in            Les vérificati
 - gewijzigd door art. 32 van het decreet van 09.12.2022          - modifié par l'art. 32 du décret du 09.12.2022 (M.B.
 (B.S. 20.12.2022). Inwerkingtreding: 30.12.2022                  20.12.2022). Entrée en vigueur le 30.12.2022
 
-## Art. 3.13.1.2.5
+###### Art. 3.13.1.2.5
 
-Art. 3.13.1.2.5.
+###### Art. 3.13.1.2.5.
 
 In afwijking van artikel 3.13.1.2.4, en met behoud van           En dérogation à l'article 3.13.1.2.4, et sans préjudice de de toepassing van artikel 3.13.1.2.1 tot en met                  l'application des articles 3.13.1.2.1 à 3.13.1.2.3 inclus, 3.13.1.2.3, is de bevoegde entiteit van de Vlaamse               l'entité compétente de l'administration flamande n'est administratie niet gemachtigd om in de rekeningen,               pas autorisée de demander des informations provenant boeken en documenten van de bank-, wissel-, krediet- en          des comptes, livres et documents des établissements de spaarinstellingen inlichtingen in te zamelen met het oog         banque, d'échange, de crédite et d'épargne en vue op het belasten van hun cliënten.                                d'imposer leurs clients.
 
@@ -10270,9 +10274,9 @@ Dit artikel is niet van toepassing op de erfbelasting en de   Le présent articl
 
 ---- historiek ----                                           ---- historique ---- - derde lid toegevoegd door art. 282 van het decreet van      - troisième alinéa inséré par art. 282 du décret du 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is          19.12.2014 (M.B., 29.01.2015, Ed. 2). Texte est entré in werking getreden op 1 januari 2015 (art. 325)              en vigueur le 1er janvier 2015 (art. 325)
 
-## Art. 3.13.1.2.6
+###### Art. 3.13.1.2.6
 
-Art. 3.13.1.2.6.
+###### Art. 3.13.1.2.6.
 
 Natuurlijke personen of rechtspersonen zijn gehouden          Les personnes physiques et les personnes morales sont aan de bevoegde personeelsleden, voorzien van hun             tenues de donner accès libre aux membres du personnel legitimatiebewijs en belast met het verrichten van een        compétents, munis de leur légitimation et chargés controle of een onderzoek over de toepassing van de           d'effectuer un contrôle ou enquête sur l'application des belastingen, vermeld in deze codex, tijdens de uren dat       impôts, cités dans le présent code, pendant des heures er een werkzaamheid wordt uitgeoefend, vrije toegang          d'activités, aux locaux professionnels ou aux locaux les te verlenen tot de beroepslokalen of de lokalen waar          personnes morales exercent leurs activités tels que rechtspersonen hun werkzaamheden uitoefenen, zoals            bureaux, usines, lieux de travail, ateliers, entrepôts, kantoren, fabrieken, werkplaatsen, werkhuizen,                remises, garages ou aux terrains qui sont utilisés comme magazijnen, bergplaatsen, garages of tot hun terreinen        lieu de travail, atelier ou entrepôt des provisions afin de die als werkplaats, werkhuis of opslagplaats van              permettre à ces membres du personnel de fixer le voorraden dienst doen, om aan die personeelsleden de          montant des impôts dus. mogelijkheid te verschaffen het bedrag van de verschuldigde belastingen vast te stellen.
 
@@ -10280,9 +10284,9 @@ De bevoegde personeelsleden, voorzien van hun                 Les membres du per
 
 De personeelsleden, vermeld in het eerste en het tweede       Les membres du personnel cités, cités dans les alinéas lid, mogen door middel van de gebruikte uitrusting en         premier et deux, peuvent vérifier, à l'aide de met de bijstand van de personen, vermeld in artikel           l'équipement utilisé et avec l'aide des personnes, visées 3.13.1.2.2, eerste lid, de betrouwbaarheid nagaan van de      à l'article 3.13.1.2.2, la fiabilité des informations, geïnformatiseerde        inlichtingen,   gegevens     en      données et opérations, informatisées, notamment en bewerkingen, door inzonderheid de voorlegging ter             demandant la présentation en vue de la consultation des inzage te vorderen van stukken die in het bijzonder zijn      pièces qui sont notamment établies pour convertir les opgesteld om de gegevens die op informatiedragers             données placées sur les supports d'information en une geplaatst zijn, om te zetten in een leesbare en               forme lisible et compréhensible. verstaanbare vorm.
 
-## Art. 3.13.1.2.7
+###### Art. 3.13.1.2.7
 
-Art. 3.13.1.2.7.
+###### Art. 3.13.1.2.7.
 
 De personeelsleden die belast zijn met de invordering,        Les membres du personnel chargés du recouvrement, beschikken over alle onderzoeksbevoegdheden, vermeld          disposent de toutes les compétences d'enquête, citées in deze codex, om de vermogenssituatie van de                 dans le présent code, pour déterminer le patrimoine du schuldenaar te bepalen met het oog op de invordering          débiteur en vue du recouvrement des impôts et van de belastingen en toebehoren.                             accessoires.
 
@@ -10294,9 +10298,9 @@ In afwijking van artikel 3.13.1.3.1, § 6, derde tot en met    Par dérogation �
 
 ---- historiek ----                                           ---- historique ---- - derde lid ingevoegd door art. 22 van het decreet van        - alinéa 3 inséré par l'art. 22 du décret du 03.04.2026 03.04.2026 (B.S. 23.04.2026). Inwerkingtreding op             (M.B. 23.04.2026). Entrée en vigueur le 03.05.2026 03.05.2026
 
-## Art. 3.13.1.2.8
+###### Art. 3.13.1.2.8
 
-Art. 3.13.1.2.8.
+###### Art. 3.13.1.2.8.
 Het bevoegde personeelslid kan voor de erfbelasting op      Concernant impôt de succession, le membre du elk moment van de aangevers eisen dat ze een verklaring     personnel compétent a à tout moment la faculté d'exiger van de schuldeiser bezorgen, waarin wordt bevestigd dat     des déclarants la production d'une attestation du een schuld die in het passief opgenomen is, ten laste van   créancier certifiant qu'une dette portée au passif existait de overledene al bestond op de dag van zijn overlijden.     à la charge du défunt au jour de son décès. L'attestation De verklaring moet ondertekend worden door de               doit être signée par le créancier, par son représentant schuldeiser, door zijn wettelijke vertegenwoordiger of      légal ou par un mandataire constitué à cet effet. door een daarvoor aangestelde gevolmachtigde.
 
 De verklaring, vermeld in het eerste lid, mag op straffe    L'attestation, visée au premier alinéa, ne peut être van schadevergoeding door de schuldeiser niet worden        refusée par le créancier, sous peine de dommagesgeweigerd als ze wettig wordt aangevraagd.                  intérêts, lorsqu'elle est légitimement réclamée.
@@ -10307,9 +10311,9 @@ De verklaring blijft bij de aangifte van nalatenschap       L'attestation reste 
 
 - toegevoegd door art. 283 van het decreet van 19 dec.      - inséré par art. 283 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking     29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                       janvier 2015 (art. 325)
 
-## Art. 3.13.1.2.9
+###### Art. 3.13.1.2.9
 
-Art. 3.13.1.2.9.
+###### Art. 3.13.1.2.9.
 
 De belastingplichtige houdt het bedrag van de inzetten,     Le contribuable sauvegarde le montant des mises, des de inleggelden, de uitgekeerde winsten, de                  enjeux, des bénéfices payés, des paris et toutes les autres weddenschappen en alle andere gegevens die                  données nécessaires pour déterminer la taxe sur les jeux noodzakelijk zijn om de belasting op de spelen en           et paris, sur un support d’information électronique. weddenschappen te bepalen, bij op een elektronische informatiedrager.
 
@@ -10320,9 +10324,9 @@ De belastingplichtige houdt het bedrag van de inzetten,     Le contribuable sauv
 
 ##### Onderafdeling 3 - Plichten van derden                         Sous-section 3 - Obligations de tiers
 
-## Art. 3.13.1.3.1
+###### Art. 3.13.1.3.1
 
-Art. 3.13.1.3.1.
+###### Art. 3.13.1.3.1.
 
 § 1. De bevoegde entiteit van de Vlaamse administratie      § 1er. L'entité compétente de l'Administration flamande mag geschreven attesten inzamelen, derden horen, een        peut rassembler des attestations écrites, entendre des onderzoek instellen, en binnen de door haar bepaalde        tiers, instaurer un enquête, et, dans un délai fixé par elletermijn, die om wettige redenen kan worden verlengd,        même qui peut être prolongé pour des raisons légales, van natuurlijke personen of rechtspersonen, alsook van      demander toutes les information des personnes verenigingen zonder rechtspersoonlijkheid en openbare       physiques et des personnes morales ainsi que toutes les of ministeriële ambtenaren en officieren alle               association sans personnalité juridique et les inlichtingen vorderen die ze nodig acht om de juiste        fonctionnaires ou les officiers publics ou ministériels vestiging en inning van de belasting te verzekeren.         qu'elle juge utilises pour assurer l'établissement correcte et de la perception d'un impôt.
 
@@ -10374,30 +10378,30 @@ Als voor de registratiebelasting of de erfbelasting blijkt   En matière d'impô
 
 - §6 en §7 toegevoegd door art. 285 van het decreet van      - § 6 et § 7 inséré par art. 285 du décret du 19.12.2014 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is         (M.B., 29.01.2015, Ed. 2 erratum M.B., 04.03.2015). in werking getreden op 1 januari 2015 (art. 325)             Texte est entré en vigueur le 1er janvier 2015 (art. 325)
 
-## Art. 3.13.1.3.2
+###### Art. 3.13.1.3.2
 
-Art. 3.13.1.3.2.
+###### Art. 3.13.1.3.2.
 De bevoegde entiteit van de Vlaamse administratie mag        L'entité compétente de l'administration flamande peut van natuurlijke personen of rechtspersonen alsook van        demander à toutes les personnes morales ou personnes verenigingen zonder rechtspersoonlijkheid en openbare        physiques ainsi qu'à toutes les associations sans of ministeriële ambtenaren en officieren, binnen de door     personnalité juridique et les fonctionnaires ou les haar bepaalde termijn, voor alle of voor een deel van hun    officiers publics ou ministériels, dans le délai fixée par verrichtingen of activiteiten de overlegging vorderen        elle-même, pour toutes ou pour une partie de leurs van inlichtingen over elke persoon of groep van              opérations ou activités, la présentation des informations personen, zelfs als ze niet met naam zijn aangeduid, met     sur chaque personnes ou groupe de personnes, même si wie ze rechtstreeks of onrechtstreeks contact hebben         elles ne sont pas désignées par leur nom avec lesquelles gehad uit hoofde van die verrichtingen of activiteiten.      qu'elle sont eu un contact direct ou indirect du chef de De termijn kan wegens wettige redenen worden                 ces opérations ou activités. Le délai peut être prolongé verlengd.                                                    pour des raisons légales.
 
 ---- historiek ----                                          ---- historique ----
 
 - gewijzigd door art. 286 van het decreet van 19 dec.        - modifié par art. 286 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking      29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                        janvier 2015 (art. 325)
 
-## Art. 3.13.1.3.3
+###### Art. 3.13.1.3.3
 
-Art. 3.13.1.3.3.
+###### Art. 3.13.1.3.3.
 
 De bepalingen van artikel 3.13.1.2.2 zijn van toepassing     Les dispositions de l'article 3.13.1.2.2 s'appliquent aux op verenigingen zonder rechtspersoonlijkheid alsook op       associations sans personnalité juridique ainsi qu'aux derden op wie een beroep wordt gedaan om de                  tiers auxquels il est fait appel pour tenir, établir, envoyer documenten, waarvan de voorlegging is voorgeschreven         ou conserver entièrement ou partiellement les door artikel 3.13.1.2.1, geheel of gedeeltelijk te houden,   documents à l'aide de systèmes informatisés dont la op te stellen, toe te zenden of te bewaren door middel       présentation est prescrite par l'article 3.13.1.2.1. van computersystemen.
 
-## Art. 3.13.1.3.4
+###### Art. 3.13.1.3.4
 
-Art. 3.13.1.3.4.
+###### Art. 3.13.1.3.4.
 
 De bevoegde entiteit van de Vlaamse administratie mag        L'entité compétente de l'administration flamande peut de juistheid nagaan van de inlichtingen, vermeld in          vérifier l'exactitude des informations, citées dans les artikel 3.13.1.3.1, 3.13.1.3.2 en 3.13.1.3.3.                articles 3.13.1.3.1, 3.13.1.3.2 en 3.13.1.3.3.
 
-## Art. 3.13.1.3.5
+###### Art. 3.13.1.3.5
 
-Art. 3.13.1.3.5.
+###### Art. 3.13.1.3.5.
 
 De belastingschuldige wordt met een aangetekende brief       Le redevable est convoqué par lettre recommandée pour opgeroepen om het getuigenverhoor bij te wonen.              assister à l'interrogation des témoins.
 
@@ -10407,9 +10411,9 @@ Voor ze getuigen, leggen ze de eed af, vermeld in artikel    Avant de témoigner
 
 Het tegenbewijs is rechtens toegelaten.                      La preuve du contraire est autorisée de droit.
 
-## Art. 3.13.1.3.6
+###### Art. 3.13.1.3.6
 
-Art. 3.13.1.3.6.
+###### Art. 3.13.1.3.6.
 
 Van de verklaringen van de getuigen en, als de               Un procès-verbal des déclarations des témoins est belastingschuldige dat verlangt, van zijn eigen              dressé et, si le redevable le souhaite, de ces propres verklaringen wordt een proces-verbaal opgemaakt.             déclarations.
 
@@ -10419,11 +10423,11 @@ Ze laten hun handtekening voorafgaan door de met de          Ils font précéder
 
 Een eensluidend verklaard afschrift van het proces-          Une copie déclarée conforme du procès-verbal est verbaal wordt aan de belastingschuldige betekend             notifiée au redevable dans les huit jours de sa binnen acht dagen na zijn dagtekening.                       notification.
 
-## Art. 3.13.1.3.7
+###### Art. 3.13.1.3.7
 
-Art. 3.13.1.3.7.
+###### Art. 3.13.1.3.7.
 
-## Art. 96
+###### Art. 96
 
 tot en met artikel 99 en artikel 101 tot en met   Les articles 96 à 99 et les articles 101 à 1032 du Code artikel 1032 van het federale Wetboek van                    des droits de succession et ses arrêtés d'exécution restent Successierechten, en de ter uitvoering daarvan genomen       invariablement d'application en vue d'assurer l'exacte besluiten, blijven onverminderd van toepassing met het       perception et le recouvrement des droits de succession. oog op de juiste heffing en de invordering van het           Les services de l'administration fiscale fédérale qui y successierecht.     De     erin    vermelde       federale   sont mentionnés et les fonctionnaires fiscaux fédéraux belastingdiensten en federale belastingambtenaren            conservent les missions et les compétences qui behouden de bevoegdheden en taken die uit die                découlent de ces dispositions. bepalingen voortvloeien.
 
@@ -10439,9 +10443,9 @@ De aangewezen ambtenaar van de bestuursdienst van de         Le fonctionnaire d�
 
 ##### Onderafdeling 4 - Plichten van openbare instellingen          Sous-section 4 - Obligations des organismes publics
 
-## Art. 3.13.1.4.1
+###### Art. 3.13.1.4.1
 
-Art. 3.13.1.4.1.
+###### Art. 3.13.1.4.1.
 
 § 1. De bestuursdiensten van de staat, met inbegrip van       § 1er. Les services administratifs de l'état, y compris les de parketten en de griffies van de hoven en van alle          parquets et greffes des tribunaux et des collèges rechtscolleges, de besturen van de gemeenschappen, de         juridictionnels, les administrations des communautés, gewesten, de provincies, de agglomeraties, de federaties      des régions, des provinces, des agglomérations, les van gemeenten en de gemeenten, alsook de openbare             fédérations de communes et les communes, ainsi que les instellingen en inrichtingen, zijn gehouden, als ze           organismes et structures publics, sont tenus, si un daarvoor worden aangezocht door een personeelslid,            membre du personnel chargé de l'établissement ou du belast met de vestiging of de invordering van de              recouvrement des impôts le leur demande, de lui fournir belastingen, hem alle inlichtingen die ze in hun bezit        toutes les données dont ils sont en possession, hebben, te verstrekken, hem, zonder verplaatsing, in alle     d'autoriser la consultation par ce même membre, sans akten, stukken, registers en om het even welke                déplacement de ce dernier, de tous les actes, pièces, bescheiden die ze in hun bezit hebben, inzage te              registres et de toute autre document dont ils sont en verlenen, en hem alle inlichtingen, afschriften of            possession, et de le laisser prendre toutes les uittreksels te laten nemen die het bedoelde personeelslid     informations et copies et tous les extraits que ce membre nodig acht voor de vestiging of de invordering van de         du personnel juge utiles pour l'établissement ou le belastingen, vermeld in deze codex.                           recouvrement des impôts cités dans le présent code.
 
@@ -10464,9 +10468,9 @@ De originelen van de ontvangstbewijzen-getuigschriften        Les originaux des 
 - gewijzigd door art. 34 van het decreet van 09.12.2022    - modifié par l'art. 34 du décret du 09.12.2022 (M.B.
 (B.S. 20.12.2022). Inwerkingtreding: 30.12.2022            20.12.2022). Entrée en vigueur le 30.12.2022
 
-## Art. 3.13.1.4.2
+###### Art. 3.13.1.4.2
 
-Art. 3.13.1.4.2.
+###### Art. 3.13.1.4.2.
 
 De diensten, besturen, vennootschappen, verenigingen,      Les services, administrations, sociétés, associations, instellingen of inrichtingen, vermeld in artikel           organismes ou structures, cités dans l'article 3.13.1.4.1, 3.13.1.4.1, zijn gehouden de gegevens die noodzakelijk     sont tenus de fixer les données nécessaires pour établir zijn om de belastingen, vermeld in deze codex, te          les impôts, cités dans le présent code, et de les mettre à bepalen, op elektronische wijze ter beschikking te         la disposition de manière informatisée de l'entité stellen van de bevoegde entiteit van de Vlaamse            compétente de l'administration flamande. Le administratie. De leidend ambtenaar van de bevoegde        fonctionnaire dirigeant de l'entité compétente de entiteit van de Vlaamse administratie richt daarvoor een   l'administration flamande adresse à cet effet une eenmalig verzoek aan de diensten, besturen,                demande unique aux services, administrations, sociétés, vennootschappen, verenigingen, instellingen of             associations, organismes ou structures, cités dans inrichtingen, vermeld in artikel 3.13.1.4.1, met           l'article 3.13.1.4.1, avec mention de la fréquence et de la vermelding van de frequentie en de wijze waarop de         façon dont ces données doivent être rendues disponibles gegevens ter beschikking gesteld moeten worden.            ;
 
@@ -10476,11 +10480,11 @@ De mogelijkheid om via eenvoudig verzoek                   La possibilité de r�
 
 - tweede lid toegevoegd door art. 19 van het decreet van   - deuxième alinéa inséré par art. 19 du décret du 19 dec. 2014 (B.S., 13.01.2015). De tekst is in werking    19.12.2014 (M.B., 13.01.2015). Texte applicable à partir getreden op 01.01.2014. (art. 24)                          du 1er janvier 2014.
 
-##### Afdeling 2 - Controle ter plaatse                           Section 2 - Contrôle sur place
+#### Afdeling 2 - Controle ter plaatse                           Section 2 - Contrôle sur place
 
-## Art. 3.13.2.0.1
+###### Art. 3.13.2.0.1
 
-Art. 3.13.2.0.1.
+###### Art. 3.13.2.0.1.
 
 Voor de verkeersbelasting, de belasting op de               Pour la taxe de circulation, la taxe de mise en inverkeerstelling, het eurovignet en de kilometerheffing    circulation, l'Eurovignette et le prélèvement houden de bevoegde personeelsleden toezicht op de           kilométrique les membres du personnel compétents naleving van de bepalingen van deze codex en de             surveillent le respect des dispositions du présent code et uitvoeringsbesluiten ervan met betrekking tot de            de ses arrêtés d'exécution afférentes aux véhicules se voertuigen die zich op de openbare weg bevinden. Ze         trouvant sur la voie publique. Ils sont autorisés à kunnen alle documenten die nuttig zijn voor de              demander que tous les documents jugés utiles à identificatie van het voertuig of vaartuig, van de          l'identification du véhicule ou du bateau, du conducteur bestuurder of houder doen voorleggen, alsook een ander      ou du détenteur soient produits, aussi bien qu'un autre document dat de betaling van de belasting bewijst. Ze       document, attestant du paiement de la taxe. Ils sont zijn gemachtigd zonder enige bijstand de garages, de        autorisés à enquêter sans aucune assistance dans les hangars en de berg- of aanmeerplaatsen te onderzoeken.      garages, hangars et les dépôts et les lieux d'accostage.
 
@@ -10494,9 +10498,9 @@ De bevoegde personeelsleden die toezicht houden op de       Les membres du perso
 
 - vervangen door art. 34 van het decreet van 3 juli 2015    - remplacé par art. 34 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op 1 april   10.08.2015). Texte entre en vigueur le 1er avril 2016 2016 (art. 44)                                              (Arrêté du Gouvernement flamand du 17 juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-## Art. 3.13.2.0.2
+###### Art. 3.13.2.0.2
 
-Art. 3.13.2.0.2.
+###### Art. 3.13.2.0.2.
 
 In het kader van de uitoefening van hun opdracht kunnen     Dans le cadre de l'exercice de leur mission les de bevoegde personeelsleden:                                fonctionnaires compétents peuvent :
 
@@ -10509,15 +10513,15 @@ In het kader van de uitoefening van hun opdracht kunnen     Dans le cadre de l'e
 4° vaststellingen doen aan de hand van vaste en mobiele      4° procéder à des constatations à l'aide de caméras fixes camera's met automatische nummerplaatherkenning.             et mobiles avec reconnaissance automatique des plaques d'immatriculation.
 ---- historiek ----                                          ---- historique ---- - 4° ingevoegd door art. 4 van het decreet van               - 4° inséré par l'art. 4 du décret du19.04.2024 (M.B., 19.04.2024 (B.S., 03.06.2024). Inwerkingtreding:             03.06.2024). Texte entre en vigueur le 13.06.2024 13.06.2024
 
-## Art. 3.13.2.0.3
+###### Art. 3.13.2.0.3
 
-Art. 3.13.2.0.3.
+###### Art. 3.13.2.0.3.
 
 Met behoud van de bevoegdheden die toevertrouwd              Sans préjudice des compétences confiées aux autres worden aan de andere officieren of agenten van               officiers ou agents de la police judiciaire et aux gerechtelijke politie en aan de leden van het operationele   membres du cadre opérationnel de la police locale et kader van de lokale en de federale politie, hebben de        fédérale, les membres du personnel compétents exerçant bevoegde personeelsleden die toezicht houden op de           le contrôle sur l'exécution des dispositions du présent uitvoering van de bepalingen van deze codex en de            code et de sis arrêtés d'exécution ont la qualité d'agent uitvoeringsbesluiten ervan, de hoedanigheid van agent        ou d'officier de la police judiciaire. of officier van de gerechtelijke politie.
 
-## Art. 3.13.2.0.4
+###### Art. 3.13.2.0.4
 
-Art. 3.13.2.0.4.
+###### Art. 3.13.2.0.4.
 
 § 1. Als de niet-betaling van de verkeersbelasting, de       § 1er. Si le non-paiement de la taxe de circulation, de la belasting op de inverkeerstelling, het eurovignet of de      taxe de mise en circulation, de l'Eurovignette ou des administratieve geldboetes die worden opgelegd               amendes administratives qui sont imposées suite aux ingevolge overtredingen van de regelgeving inzake de         contraventions de la réglementation en matière du kilometerheffing, met inbegrip van de administratieve        prélèvement kilométrique, y compris les amendes geldboetes inzake kilometerheffing die worden                administratives relatives au prélèvement kilométrique opgelegd voor overtredingen die eerder zijn begaan,          qui sont imposées pour les infractions commises maar die niet vroeger ter kennis konden worden gebracht      antérieurement, mais qui n'ont pas pu être notifiées plus aan de overtreder ingevolge de niet-naleving van zijn        tôt au contrevenant suite au non-respect de ses verplichtingen, wordt vastgesteld op de openbare weg,        obligations, est constaté sur la voie publique, le moet de bestuurder van het voertuig dat aan een van die      conducteur du véhicule soumis à une de ces taxes, belastingen onderhevig is, de niet-betaalde belastingen      acquitte immédiatement la taxe non payée et les en toebehoren die voor het gecontroleerde voertuig           accessoires dues pour le véhicule inspecté, entre les verschuldigd zijn op het ogenblik van de vaststelling van    mains du membre du personnel compétent, visé à de overtreding dadelijk betalen aan het bevoegde             l'article 3.13.2.0.3, au moment de la constatation de personeelslid, vermeld in artikel 3.13.2.0.3.                l'infraction.
 
@@ -10559,9 +10563,9 @@ Het beslag wordt na betaling van alle sommen waarvoor           La saisie est ab
 
 - gewijzigd door art. 35 van het decreet van 3 juli 2015        - paragraphe 1er est remplacé par art. 35 du décret du 3 (B.S., 10.08.2015). De tekst treedt in werking op 1 april       juillet 2015 (M.B., 10.08.2015). Texte entre en vigueur le 2016 (art. 44)                                                  1er avril 2016 (Arrêté du Gouvernement flamand du 17 juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-## Art. 3.13.2.0.5
+###### Art. 3.13.2.0.5
 
-Art. 3.13.2.0.5.
+###### Art. 3.13.2.0.5.
 
 Als een overtreding van de bepalingen van deze codex            Si une infraction aux dispositions du présent code est wordt geconstateerd, zal een verslag van vaststelling           constatée, un rapport de constatation sera dressé par le worden opgemaakt door het bevoegde personeelslid,               membre du personnel compétent, cité dans l'article vermeld in artikel 3.13.2.0.3. Het verslag van                  3.13.2.0.3. Le rapport de constatation mentionne au vaststelling vermeldt minstens de overtreding alsook de         moins l'infraction, ainsi que les éléments qui doivent elementen die moeten toelaten de overtreder te                  permettre l'identification du contrevenant. Le rapport de identificeren. Het verslag van vaststelling voor een            constatation d'une infraction aux dispositions relatives overtreding van de bepalingen met betrekking tot de             au prélèvement kilométrique mentionne au moins le kilometerheffing vermeldt minstens het bedrag van de            montant de l'amende administrative, la nature, la date et administratieve boete, de aard, de datum en het uur van         l'heure de l'infraction commise, la référence aux articles de gepleegde overtreding, de verwijzing naar de                 qui n'ont pas été respectés, le nom et l'adresse de l'entité artikelen die werden miskend, de naam en het adres van          compétente de l'administration flamande auprès de de bevoegde entiteit van de Vlaamse administratie bij           laquelle des informations sur l'infraction et l'amende wie informatie over de inbreuk en de boete kan worden           peuvent être obtenues et le recours administratif qui peut verkregen en het administratief beroep dat kan worden           être introduit ainsi que le délai, de même que les ingesteld samen met de termijn, alsook de elementen die         éléments qui doivent permettre d'identifier le détenteur moeten toelaten de houder of de bestuurder van het              ou le conducteur du véhicule. voertuig te identificeren.
 
@@ -10583,9 +10587,9 @@ Als in samenhang met de overtredingen, vermeld in het           Si concomitammen
 
 - vierde lid toegevoegd door art. 36 van het decreet van 3 - alinéa quatre est ajouté par art. 36 du décret du 3 juli 2015 (B.S., 10.08.2015). De tekst treedt in           juillet 2015 (M.B., 10.08.2015). Texte entre en vigueur le 1er avril 2016 (Arrêté du Gouvernement flamand du 17 werking op 1 april 2016 (art. 44)) juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-## Art. 3.13.2.0.6
+###### Art. 3.13.2.0.6
 
-Art. 3.13.2.0.6.
+###### Art. 3.13.2.0.6.
 
 § 1. Het bericht van inbeslagneming, opgemaakt                  § 1er. L'avis de saisie, établi conformément à l'article ingevolge artikel 3.13.2.0.4, § 3, eerste lid, bevat            3.13.2.0.4, § 3, alinéa 1er, comprend au moins : minstens:
 
@@ -10601,13 +10605,13 @@ Le redevable transmet immédiatement l'avis de saisie au inbeslagneming onmiddel
 
 - Ingevoegd door art. 3 van het decreet van 26.04.2024       - Inséré par l’art. 3 du décret du 26.04.2024 (M.B., (B.S., 24.05.2024). Inwerkingtreding: 01.09.2024             24.05.2024). Entrée en vigueur le 01.09.2024
 
-#### Hoofdstuk 14 - Verjaring                                    Chapitre 14 – Prescription
+### Hoofdstuk 14 - Verjaring                                    Chapitre 14 – Prescription
 
-##### Afdeling 1 - Termijn                                      Section 1re – Délai
+#### Afdeling 1 - Termijn                                      Section 1re – Délai
 
-## Art. 3.14.1.0.1
+###### Art. 3.14.1.0.1
 
-Art. 3.14.1.0.1.
+###### Art. 3.14.1.0.1.
 
 De belastingen, vermeld in deze codex, verjaren na           Les impôts, cités dans le présent code, se prescrivent verloop van vijf jaar vanaf de datum waarop ze betaald       après écoulement de cinq ans à partir de la date à moeten zijn.                                                 laquelle ils doivent être payés.
 
@@ -10615,9 +10619,9 @@ De belastingen, vermeld in deze codex, verjaren na           Les impôts, cités
 
 - gewijzigd door art. 288 van het decreet van 19 dec.        - modifié par art. 288 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking      29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                        janvier 2015 (art. 325)
 
-## Art. 3.14.1.0.2
+###### Art. 3.14.1.0.2
 
-Art. 3.14.1.0.2.
+###### Art. 3.14.1.0.2.
 
 […]                                                          […]
 
@@ -10627,11 +10631,11 @@ Art. 3.14.1.0.2.
 
 - toegevoegd door art. 289 van het decreet van 19 dec.      - inséré par art. 289 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking     29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                       janvier 2015 (art. 325)
 
-##### Afdeling 2 - Stuiting                                  Section 2 – Interruption
+#### Afdeling 2 - Stuiting                                  Section 2 – Interruption
 
-## Art. 3.14.2.0.1
+###### Art. 3.14.2.0.1
 
-Art. 3.14.2.0.1.
+###### Art. 3.14.2.0.1.
 De termijn, vermeld in artikel 3.14.1.0.1, kan worden       Le délai, cité dans l'article 3.14.1.0.1, peut être gestuit op de wijze, vermeld in artikel 2244 tot en met     interrompu de la façon, citée dans les articles 2244 à artikel 2250 van het Burgerlijk Wetboek, door de            2250 inclus du code civil, par l'envoi par lettre verzending met een aangetekende brief van elke              recommandée de toute sommation de paiement dans aanmaning tot betaling waarin de gegevens van de            laquelle les données de la créance sont inclues de schuldvordering volledig en ondubbelzinnig zijn             manière complète et non équivoque, ou en abandonnant opgenomen, of door afstand te doen van de termijn die       le délai écoulé de la prescription. En cas d'interruption verlopen is op de verjaring. In geval van stuiting van de   de la prescription, une nouvelle prescription commence, verjaring treedt een nieuwe verjaring in, die op dezelfde   qui peut être interrompue de la même façon après cinq wijze kan worden gestuit na verloop van vijf jaar na de     ans après le dernier acte ou procédure ayant interrompu laatste akte of handeling waardoor de vorige verjaring is   la prescription précédente, si aucune action en justice gestuit, als geen geding voor het gerecht aanhangig is.     n'est en instance.
 
 Voor een aanmaning tot betaling die met een                 Pour une sommation de paiement envoyée par lettre aangetekende brief wordt verzonden, geldt de datum van      recommandée, la date d'introduction de cette sommation de poststempel op het verzendingsbewijs als                 est celle du cachet de la poste figurant sur la preuve de indieningsdatum van die aanmaning. Als de schuldenaar       l'envoi. Si le débiteur ou le codébiteur n'a pas de of de medeschuldenaar geen bekende woonplaats in            domicile connu en Belgique ou à l'étranger, la België of in het buitenland heeft, wordt de aanmaning       sommation de paiement est envoyée par lettre tot betaling met een aangetekende brief aan de procureur    recommandée au Procureur du Roi de Bruxelles. des Konings van Brussel verzonden.
@@ -10642,11 +10646,11 @@ De kosten voor de verzending met een aangetekende           Les frais d'envoi pa
 
 - derde lid ingevoegd door art. 24 van het decreet van      - alinéa 3 inséré par l'art. 24 du décret du 03.04.2026 03.04.2026 (B.S. 23.04.2026). Inwerkingtreding op           (M.B. 23.04.2026). Entrée en vigueur le 03.05.2026 03.05.2026 - gewijzigd door art. 4 van het decreet van 26.04.2024      - modifié par l'art. 4 du décret du 26.04.2024 (M.B., (B.S., 24.05.2024). Inwerkingtreding: 03.06.2024            24.05.2024). Entrée en vigueur le 03.06.2024
 
-##### Afdeling 3 - Schorsing                                      Section 3 – Suspension
+#### Afdeling 3 - Schorsing                                      Section 3 – Suspension
 
-## Art. 3.14.3.0.1
+###### Art. 3.14.3.0.1
 
-Art. 3.14.3.0.1.
+###### Art. 3.14.3.0.1.
 
 Elk rechtsgeding met betrekking tot de vestiging, de         Toute action en justice relative à l’établissement, la inning of de invordering van de belastingen, vermeld in      perception ou au recouvrement des impôts, cités dans le deze codex, dat wordt ingesteld door het Vlaamse             présent code, instaurée par la Région flamande, par le Gewest, door de schuldenaar van de belastingen of door       débiteur des impôts ou par toute autre personne qui est iedere andere persoon die gehouden is tot de betaling        tenue de payer la dette en application du présent code, van de schuld met toepassing van deze codex, van de          des arrêtés pris en son exécution ou d'un droit commun, besluiten die genomen zijn ter uitvoering ervan, of van      suspend la prescription. het gemeen recht, schorst de verjaring.
 
@@ -10659,9 +10663,9 @@ Het bezwaar en de aanvraag tot ontheffing, vermeld in        La réclamation et 
 
 - gewijzigd door art. 290 van het decreet van 19 dec.        - modifié par art. 290 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking      29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                        janvier 2015 (art. 325)
 
-## Art. 3.14.3.0.2
+###### Art. 3.14.3.0.2
 
-Art. 3.14.3.0.2.
+###### Art. 3.14.3.0.2.
 
 In het geval, vermeld in artikel 3.14.3.0.1, eerste lid,     Dans le cas, cité dans l'article 3.14.3.0.1, alinéa premier, vangt de schorsing aan met de inleidende vordering en        la suspension commence par l'introduction de la requête eindigt als de rechterlijke beslissing in kracht van         et prend fin quand la décision juridique est coulée en gewijsde is gegaan.                                          force de chose jugée.
 
@@ -10671,9 +10675,9 @@ In het geval, vermeld in artikel 3.14.3.0.1, tweede lid,     Dans le cas, cité 
 
 2° in de andere gevallen, na verloop van de termijn die      2° dans les autres cas, après écoulement du délai dont le voor de belastingplichtige openstaat om een beroep in te     contribuable dispose pour former un recours contre la stellen tegen de administratieve beslissing.                 décision administrative.
 
-## Art. 3.14.3.0.3
+###### Art. 3.14.3.0.3
 
-Art. 3.14.3.0.3.
+###### Art. 3.14.3.0.3.
 Elke daad van onderzoek of van vervolging als vermeld        Tout acte d’instruction ou de poursuite visé à l’article in artikel 22 van de Voorafgaande Titel van het Wetboek      22 du Titre antérieur du Code d’Instruction Criminelle, van Strafvordering, betreffende de misdrijven, vermeld       concernant les infractions visées aux articles 3.15.3.0.1 in artikel 3.15.3.0.1 tot en met 3.15.3.0.4 van deze         à 3.15.3.3.0.4 du présent code, suspend la prescription codex, schorst de verjaring van de belastingen die erop      des impôts y afférents. betrekking hebben.
 
 De schorsing begint bij het opstarten van de                 La suspension commence au début de l’action pénale et strafvordering, en eindigt op een van de volgende            se termine à l’un des moments suivants : momenten:
@@ -10689,13 +10693,13 @@ De schorsing begint bij het opstarten van de                 La suspension comme
 - ingevoegd door art. 51 van het decreet van 21.12.2018     - inséré par l’art. 51 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst treedt in werking op 07.01.2019    28.12.2018). Texte entre en vigueur le 07.01.2019
 
-#### Hoofdstuk 15 - Strafrechtelijke vervolging                         Chapitre 15 - Poursuite pénale
+### Hoofdstuk 15 - Strafrechtelijke vervolging                         Chapitre 15 - Poursuite pénale
 
-##### Afdeling 1 - Algemene bepalingen                            Section 1re - Dispositions générales
+#### Afdeling 1 - Algemene bepalingen                            Section 1re - Dispositions générales
 
-## Art. 3.15.1.0.1
+###### Art. 3.15.1.0.1
 
-Art. 3.15.1.0.1.
+###### Art. 3.15.1.0.1.
 
 Overeenkomstig artikel 460 van het federale WIB 92 en       Conformément à l'article 460 du CIR 92 fédéral et à artikel 94, § 1, van het Wetboek van de minnelijke en       l'article 94, § 1er, du Code du recouvrement amiable et gedwongen invordering van fiscale en niet-fiscale           forcé des créances fiscales et non fiscales, l'action schuldvorderingen wordt de strafvordering uitgeoefend       pénale est exercée par le Ministère public. door het Openbaar Ministerie.
 Het Openbaar Ministerie kan echter geen vervolgingen        Toutefois, le Ministère public ne peut pas entamer des instellen, indien het kennis heeft gekregen van de feiten   poursuites pénales, s'il a été informé de faits suite à une ten gevolge van een klacht of een aangifte van het          plainte ou à une déclaration d'un membre du personnel bevoegd personeelslid dat niet de machtiging had            compétent qui ne disposait pas de l'autorisation dont waarvan sprake is in artikel 29, § 2, van het Wetboek van   question dans l'article 29, § 2, du Code de Procédure Strafvordering.                                             pénale.
@@ -10706,9 +10710,9 @@ Het Openbaar Ministerie kan de strafrechtelijk strafbare    Le Ministère public
 
 - gewijzigd door art. 68 van het decreet van 02.04.2021     modifié par l'art. 68 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021            15.04.2021). En vigueur le 25.04.2021
 
-## Art. 3.15.1.0.2
+###### Art. 3.15.1.0.2
 
-Art. 3.15.1.0.2.
+###### Art. 3.15.1.0.2.
 
 § 1. Overeenkomstig artikel 461 van het federale WIB          § 1er. Conformément à l'article 461du CIR 92 fédéral, 92 en onverminderd het in artikel 29, § 3, van het            et sans préjudice de la concertation visée à l'article 29, § Wetboek van Strafvordering bedoelde overleg kan de            3, du Code de Procédure pénale, le procureur du Roi procureur des Konings, indien hij een vervolging instelt      peut, s'il instaure une poursuite pour des faits wegens feiten die strafrechtelijk strafbaar zijn ingevolge    punissables par droit pénal suite aux dispositions du de bepalingen van deze codex of van de ter uitvoering         présent code ou des arrêtés pris en son exécution, ervan genomen besluiten, het advies vragen van het            demander l'avis du membre du personnel compétent. Le bevoegde personeelslid. De procureur des Konings              procureur du Roi joint les faits dont il dispose à sa voegt het feitenmateriaal waarover hij beschikt bij zijn      demande d'avis. Le membre du personnel compétent verzoek om advies. Het bevoegde personeelslid                 répond à cette demande dans les quatre mois après sa antwoordt op dit verzoek binnen vier maanden na de            réception. ontvangst ervan.
 
@@ -10720,19 +10724,19 @@ In geen geval schorst het verzoek om advies de                En aucun cas, la d
 
 - gewijzigd door art. 69 van het decreet van 02.04.2021       - modifié par l'art. 69 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021              15.04.2021). En vigueur le 25.04.2021
 
-##### Afdeling 2 - Opsporing van inbreuken                            Section 2 - Détection d'infractions
+#### Afdeling 2 - Opsporing van inbreuken                            Section 2 - Détection d'infractions
 
-## Art. 3.15.2.0.1
+###### Art. 3.15.2.0.1
 
-Art. 3.15.2.0.1.
+###### Art. 3.15.2.0.1.
 
 Voorbehouden voor toekomstig gebruik.                         Réservé pour un usage futur
 
-##### Afdeling 3 - Strafrechtelijke sancties                            Section 3 - Sanctions pénales
+#### Afdeling 3 - Strafrechtelijke sancties                            Section 3 - Sanctions pénales
 
-## Art. 3.15.3.0.1
+###### Art. 3.15.3.0.1
 
-Art. 3.15.3.0.1.
+###### Art. 3.15.3.0.1.
 
 Een persoon die met bedrieglijk opzet of met het              Une personne qui, directement ou indirectement, oogmerk om te schaden de bepalingen van deze codex            contrevient à l'interdiction ou à la fermeture, décidée en of van de besluiten die genomen zijn ter uitvoering           application de l'article 3.15.3.0.6, est punie d'un ervan, overtreedt, wordt gestraft met een                     emprisonnement du huit jours à deux ans et d'une gevangenisstraf van acht dagen tot twee jaar en met een       amende de 250 euros à 500.000 euros ou par une de ces geldboete van 250 euro tot 500.000 euro of met een van        punitions. die straffen alleen.
 
@@ -10740,9 +10744,9 @@ Een persoon die met bedrieglijk opzet of met het              Une personne qui, 
 
 - gewijzigd door art. 70 van het decreet van 02.04.2021       - modifié par l'art. 70 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021              15.04.2021). En vigueur le 25.04.2021
 
-## Art. 3.15.3.0.2
+###### Art. 3.15.3.0.2
 
-Art. 3.15.3.0.2.
+###### Art. 3.15.3.0.2.
 
 Een persoon wordt gestraft met een gevangenisstraf van        Une personne est punie d'un emprisonnement du huit een maand tot vijf jaar en met een geldboete van 250          jours à deux ans et d'une amende de 250 euros à 500.000 euro tot 500.000 euro of met een van die straffen alleen      euros ou par une de ces punitions si elle, dans le but de als hij, met het oogmerk om een van de misdrijven,            commettre un des délits, cités dans l'article 3.15.3.0.1, vermeld in artikel 3.15.3.0.1, te plegen, in openbare         falsifie des écritures publiques, des écritures geschriften, in handelsgeschriften of in private              commerciales ou des écritures privées, ou si elle utilise geschriften valsheid pleegt, of als hij gebruikmaakt van      une attestation falsifiée d'une telle manière. een geschrift dat op die manier vervalst is.
 
@@ -10750,14 +10754,14 @@ Een persoon die willens en wetens een vals getuigschrift      Une personne qui, 
 
 ---- historiek ----                                           ---- historique ---- - gewijzigd door art. 70 van het decreet van 02.04.2021       - modifié par l'art. 70 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021              15.04.2021). En vigueur le 25.04.2021
 
-## Art. 3.15.3.0.3
+###### Art. 3.15.3.0.3
 
-Art. 3.15.3.0.3.
+###### Art. 3.15.3.0.3.
 Een persoon die een valse getuigenis aflegt, die als tolk     Une personne qui délivre un faux témoignage, qui en of als deskundige een valse verklaring aflegt, of die een     tant qu'interprète ou expert dépose une fausse of meer getuigen, deskundigen of tolken in een van de         déclaration, ou qui tente un ou plusieurs témoins, informatiegevallen die toegelaten zijn met toepassing         experts ou interprètes dans un des cas d'information van artikel 3.5.4.0.1, 3.5.8.0.1, 3.13.1.3.1 en 3.13.1.3.5,   autorisé en application des articles 3.5.4.0.1, 3.5.8.0.1, verleidt, wordt gestraft overeenkomstig de bepalingen         3.13.1.3.1 et 3.13.1.3.5, est punie conformément aux van artikel 220 tot en met 224 van het Strafwetboek.          dispositions des articles 220 à 224 inclus du Code pénal.
 
-## Art. 3.15.3.0.4
+###### Art. 3.15.3.0.4
 
-Art. 3.15.3.0.4.
+###### Art. 3.15.3.0.4.
 
 De niet-verschijning of de weigering om te getuigen in        La non apparition ou le refus de témoigner lors des de onderzoeken die toegelaten zijn met toepassing van         enquêtes, autorisé en application des articles 3.5.4.0.1, artikel 3.5.4.0.1, 3.5.8.0.1, 3.13.1.3.1 en 3.13.1.3.5,       3.5.8.0.1, 3.13.1.3.1 et 3.13.1.3.5 sont punis d'un wordt gestraft met een gevangenisstraf van acht dagen         emprisonnement du huit jours à six mois et d'une tot zes maanden en met een geldboete van 125 euro tot         amende de 125 euros à 500.000 euros ou par une de ces 500.000 euro of met een van die straffen alleen.              punitions.
 
@@ -10765,15 +10769,15 @@ De niet-verschijning of de weigering om te getuigen in        La non apparition 
 
 - gewijzigd door art. 71 van het decreet van 02.04.2021       - modifié par l'art. 71 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021              15.04.2021). En vigueur le 25.04.2021
 
-## Art. 3.15.3.0.5
+###### Art. 3.15.3.0.5
 
-Art. 3.15.3.0.5.
+###### Art. 3.15.3.0.5.
 
 De schending van het beroepsgeheim, vermeld in artikel        La violation du secret professionnel, citée dans l'article 3.19.0.0.2, wordt gestraft conform artikel 458 van het        3.19.0.0.2, est punie conformément à l'article 458 du Strafwetboek.                                                 code pénal.
 
-## Art. 3.15.3.0.6
+###### Art. 3.15.3.0.6
 
-Art. 3.15.3.0.6.
+###### Art. 3.15.3.0.6.
 
 § 1. Als de beoefenaar van een van de volgende              § 1er. Si le professionnel dans une des professions beroepen of van een ander beroep dat tot doel heeft voor    suivantes ou dans une autre profession ayant pour but de een of meer belastingplichtigen boek te houden of te        tenir ou d'aider à tenir la comptabilité d'un ou plusieurs helpen houden, ofwel voor eigen rekening ofwel als          contribuables, soit pour leur propre compte, soit en tant hoofd, lid of bediende van een vennootschap,                que chef, membre ou employé d'une société, d'une vereniging, groepering of onderneming of, meer in het       association, d'un groupement ou d'une entreprise ou, algemeen, het beroep dat erin bestaat een of meer           plus en général, dans une profession qui consiste à belastingplichtigen raad te geven of bij te staan bij het   conseiller un ou plusieurs contribuables ou de les aider vervullen van de verplichtingen, opgelegd bij deze          à respecter les obligations imposées par le présent code codex of bij de besluiten die vastgesteld zijn ter          ou par les arrêtés pris en exécution de ce dernier, est uitvoering ervan, wordt veroordeeld wegens een van de       condamné pour un des délits, cités dans les articles misdrijven, vermeld in artikel 3.15.3.0.1 tot en met        3.15.3.0.1 à 3.15.3.0.5 inclus, le jugement peut lui 3.15.3.0.5, kan het vonnis hem het verbod opleggen om       imposer l'interdiction d'exercer, pendant trois mois gedurende drie maanden tot vijf jaar, rechtstreeks of       jusqu'à cinq ans, directement ou indirectement, les onrechtstreeks, dezelfde beroepen op welke wijze ook        mêmes professions de quelque manière que cela soit : uit te oefenen:
 
@@ -10787,9 +10791,9 @@ De rechter kan bovendien, als hij zijn beslissing op dat    Le juge peut en outr
 
 § 2. Het verbod en de sluiting, vermeld in paragraaf 1,     § 2. L'interdiction et la fermeture, citées dans le treden in werking vanaf de dag waarop de veroordeling       paragraphe 1er, entre en vigueur à partir du jour auquel in kracht van gewijsde is gegaan.                           la condamnation est coulée en chose de force jugée.
 
-## Art. 3.15.3.0.7
+###### Art. 3.15.3.0.7
 
-Art. 3.15.3.0.7.
+###### Art. 3.15.3.0.7.
 Een persoon die rechtstreeks of onrechtstreeks het          Une personne qui, directement ou indirectement, verbod of de sluiting, uitgesproken met toepassing van      contrevient à l'interdiction ou à la fermeture, décidée en artikel 3.15.3.0.6 of 3.16.0.0.5, overtreedt, wordt         application de l'article 3.15.3.0.6 ou de l’article gestraft met een gevangenisstraf van acht dagen tot twee    3.16.0.0.5, est punie d'un emprisonnement du huit jours jaar en met een geldboete van 250 euro tot 500.000 euro     à deux ans et d'une amende de 250 euros à 500.000 euros of met een van die straffen alleen.                         ou par une de ces punitions.
 
 ---- historiek ----                                         ---- historique ----
@@ -10799,9 +10803,9 @@ Een persoon die rechtstreeks of onrechtstreeks het          Une personne qui, di
 - gewijzigd door art. 52 van het decreet van 07.12.2018     - modifié par l'art. 52 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking getreden op             20.12.2018). Texte entre en vigueur le 01.01.2019 01.01.2019
 
-## Art. 3.15.3.0.8
+###### Art. 3.15.3.0.8
 
-Art. 3.15.3.0.8.
+###### Art. 3.15.3.0.8.
 
 De wet van 5 maart 1952 betreffende de opdecimes op         La loi du 5 mars 1952 relative aux décimes additionnels de strafrechterlijke geldboeten, is van toepassing op de    sur les amendes pénales s'applique aux délits cités dans misdrijven, vermeld in artikel 3.15.3.0.1, 3.15.3.0.2,      les articles 3.15.3.0.1, 3.15.3.0.2, 3.15.3.0.4 3.15.3.0.4 en 3.15.3.0.7.                                   en 3.15.3.0.7.
 
@@ -10809,9 +10813,9 @@ De wet van 5 maart 1952 betreffende de opdecimes op         La loi du 5 mars 195
 
 - gewijzigd door art. 73 van het decreet van 02.04.2021     - modifié par l'art. 73 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021            15.04.2021). En vigueur le 25.04.2021
 
-## Art. 3.15.3.0.9
+###### Art. 3.15.3.0.9
 
-Art. 3.15.3.0.9.
+###### Art. 3.15.3.0.9.
 
 Personen die als daders of als medeplichtigen van           Les personnes qui ont été condamnés en tant qu'auteurs misdrijven als vermeld in artikel 3.15.3.0.1 tot en met     ou complices des délits tels que cités dans les articles 3.15.3.0.4, zijn veroordeeld, zijn hoofdelijk gehouden      3.15.3.0.1 à 3.15.3.0.4 inclus, sont solidairement tenus tot betaling van de ontdoken belasting en de                de payer les impôts éludés et des intérêts de retard dus nalatigheidsintresten    verschuldigd       door     de     par le contribuable. belastingplichtige.
 
@@ -10834,17 +10838,17 @@ veroordelingen die met toepassing van artikel 3.15.3.0.1     application des art
 - gewijzigd door art. 52 van het decreet van 21.12.2018      - modifié par l'art. 52 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst treedt in werking op 07.01.2019     28.12.2018). Texte entre en vigueur le 07.01.2019
 
-## Art. 3.15.3.0.10
+###### Art. 3.15.3.0.10
 
-Art. 3.15.3.0.10.
+###### Art. 3.15.3.0.10.
 
 De rechter kan bevelen dat ieder vonnis of arrest            Le juge peut ordonner que chaque jugement ou arrêt houdende veroordeling tot een gevangenisstraf,               portant condamnation à un emprisonnement, énoncé en uitgesproken met toepassing van artikel 3.15.3.0.1 tot en    application des articles 3.15.3.0.1 à 3.15.3.0.4 et de met 3.15.3.0.4 en artikel 3.15.3.0.7, wordt aangeplakt in    l'article 3.15.3.0.7, soit affiché aux endroits qu'il de plaatsen die hij bepaalt en, eventueel bij uittreksel,    détermine et publié, éventuellement par extrait, de la wordt bekendgemaakt op de wijze die hij bepaalt, op          manière de son choix, aux frais du condamné. kosten van de veroordeelde.
 
 De mogelijkheid, vermeld in het eerste lid, geldt ook        La possibilité, citée dans l'alinéa premier, vaut voor iedere met toepassing van artikel 3.15.3.0.6            également pour chaque décision énoncée en application uitgesproken beslissing tot verbod van het uitoefenen        de l'article 3.15.3.0.6 d'interdiction de l'exercice d'une van een beroepswerkzaamheid in België of tot sluiting        activité professionnelle en Belgique ou de la fermeture van de in het land geëxploiteerde inrichtingen.              des établissements exploités dans le pays.
 
-## Art. 3.15.3.0.11
+###### Art. 3.15.3.0.11
 
-Art. 3.15.3.0.11.
+###### Art. 3.15.3.0.11.
 
 Als de verkeersbelasting, de belasting op de                 Si la taxe de circulation, la taxe de mise en circulation inverkeerstelling of de kilometerheffing niet is betaald,    ou le prélèvement kilométrique ne sont pas payés, le kan de rechtbank de nummerplaat van het voertuig             tribunal peut confisquer la plaque d'immatriculation du verbeurd verklaren en de teruggave ervan bevelen aan         véhicule et en ordonner la remise à l'autorité chargée de de overheid die belast is met de inschrijving van de         l'immatriculation des véhicules. voertuigen.
 
@@ -10852,9 +10856,9 @@ Als de verkeersbelasting, de belasting op de                 Si la taxe de circu
 
 - vervangen door art. 37 van het decreet van 3 juli 2015     - remplacé par art. 37 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op 1 april    10.08.2015). Texte entre en vigueur le 1er avril 2016 2016 (art. 44))                                              (Arrêté du Gouvernement flamand du 17 juillet 2015 - M.B., 10.08.2015 - art. 4)
 
-## Art. 3.15.3.0.12
+###### Art. 3.15.3.0.12
 
-Art. 3.15.3.0.12.
+###### Art. 3.15.3.0.12.
 
 Met behoud van de toepassing van hoofdstuk VII van           Sans préjudice de l’application du chapitre VII du livre boek 1 van het Strafwetboek wordt de persoon die, op         1er du Code pénal, celui qui, à quel endroit ou sous welke plaats en onder welke vorm ook, in het openbaar        quelle forme que ce soit, organise ou exploite des jeux of op een andere wijze, spelen of weddenschappen             ou paris dans l’espace public ou selon d’autres organiseert of exploiteert, aan die organisatie of aan die   modalités, participe à cette organisation ou à cette exploitatie deelneemt door spelen of weddenschappen          exploitation en offrant des jeux ou paris ou en aan te bieden of door rechtstreeks of met hulp van een       participant à des jeux ou paris, soit directement soit avec tussenpersoon te spelen of te wedden, of zich aanbiedt       l’aide d’un intermédiaire ou qui se présente pour om gelden die bestemd zijn tot de dienst van spelen of       accepter des fonds destinés au service de jeux ou de van weddenschappen in ontvangst te nemen, ze inzamelt        paris, collecte ou verse ces fonds, est considéré comme of ze stort, beschouwd als dader, mededader of               auteur d’un crime, complice d’un crime ou complice des medeplichtige van de overtredingen van de bepalingen         infractions aux dispositions du présent code en matière
 
@@ -10865,9 +10869,9 @@ van deze codex inzake de belasting op de spelen en          de la taxe sur les j
 - ingevoegd door art. 53 van het decreet van 07.12.2018     - inséré par l’art. 53 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                         20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-## Art. 3.15.3.0.13
+###### Art. 3.15.3.0.13
 
-Art. 3.15.3.0.13.
+###### Art. 3.15.3.0.13.
 
 Met behoud van de toepassing van de andere bepalingen       Sans préjudice de l’application des autres dispositions van dit hoofdstuk, kan een overtreding op de bepalingen     du présent chapitre, une infraction aux dispositions du van deze codex over de belasting op de spelen en            présent code en matière de la taxe sur les jeux ou paris weddenschappen, of van de uitvoeringsbesluiten ervan,       ou à ses arrêtés d’exécution peut donner lieu à la aanleiding geven tot de verbeurdverklaring van de           confiscation des fonds ou effets misés lors de jeux ou de gelden of effecten die bij spelen of weddenschappen zijn    paris ou destinés au service des jeux et paris et trouvés ingezet of die bestemd zijn voor de dienst van de spelen    sur la personne des contrevenants au moment où le of de weddenschappen en in het bezit worden gevonden        crime est constaté. van de overtreders op het ogenblik dat het misdrijf wordt vastgesteld.
 
@@ -10875,21 +10879,21 @@ Met behoud van de toepassing van de andere bepalingen       Sans préjudice de l
 
 - ingevoegd door art. 54 van het decreet van 07.12.2018     - inséré par l’art. 54 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                         20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
-#### Hoofdstuk 16 - Administratieve sancties                     Chapitre 16 - Sanctions administratives
+### Hoofdstuk 16 - Administratieve sancties                     Chapitre 16 - Sanctions administratives
 
 ---- historiek ----                                         ---- historique ----
 
 - hoofdstuk 16 gewijzigd door art. 291 van het decreet      - chapitre 16 modifié par art. 291 du décret du 19 déc. van 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is    2014 (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 1er janvier 2015 (art. 325) in werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.16.0.0.1
+###### Art. 3.16.0.0.1
 
-Art. 3.16.0.0.1.
+###### Art. 3.16.0.0.1.
 
 De Vlaamse Regering kan voor een tijdperk dat vijf jaar     Le Gouvernement flamand peut, pour une période qui niet overtreft, elke persoon het recht ontzeggen            n'excède pas cinq ans, interdire à chaque personne le belastingplichtigen te vertegenwoordigen in de              droit de représenter les contribuables dans la qualité de hoedanigheid van lasthebber, behalve als die persoon        mandataire, sauf si cette personne est soumise à une onderworpen is aan een wettelijk ingestelde                 discipline professionnelle légalement imposée ou beroepstucht of zijn last vervult krachtens de wet of een   remplit son mandat en vertu d'une loi ou d'une décision rechterlijke beslissing.                                    judiciaire.
 
-## Art. 3.16.0.0.2
+###### Art. 3.16.0.0.2
 
-Art. 3.16.0.0.2.
+###### Art. 3.16.0.0.2.
 
 Het besluit, vermeld in artikel 3.16.0.0.1, mag pas         La décision, citée dans l'article 3.16.0.0.01, ne peut être worden uitgevaardigd nadat de betrokken lasthebber is       énoncée qu'après que le mandataire concerné est invité uitgenodigd om binnen twintig dagen te verschijnen, om      à paraître dans les vingt jours pour être entendu par le te worden gehoord door het bevoegde personeelslid. De       membre du personnel compétent. Le mandataire peut se lasthebber mag zich door een raadsman laten bijstaan.       faire assister par un conseiller.
 
@@ -10899,15 +10903,15 @@ handtekening voorafgaan door de met de hand                 les mots manuscrits 
 
 Een eensluidend verklaard afschrift van het proces-         Une copie déclarée conforme du procès-verbal est verbaal wordt binnen acht dagen na zijn dagtekening aan     notifiée au mandataire dans les huit jours après de lasthebber ter kennis gegeven.                           apposition de la date et de la signature.
 
-## Art. 3.16.0.0.3
+###### Art. 3.16.0.0.3
 
-Art. 3.16.0.0.3.
+###### Art. 3.16.0.0.3.
 
 Het besluit, vermeld in artikel 3.16.0.0.1, waarvan een     La décision, citée dans l'article 3.16.0.0.01, dont une eensluidend verklaard afschrift met een aangetekende        copie déclarée conforme du procès-verbal est envoyée brief naar de betrokken lasthebber wordt gestuurd, wordt    au mandataire, est publiée par extrait au Moniteur belge, in uittreksel in het Belgisch Staatsblad bekendgemaakt,     sauf si le concerné a interjeté appel auprès du Conseil tenzij de betrokkene zijn beroep heeft ingesteld bij de     d'Etat. Dans ce cas, la publication au Moniteur belge Raad van State. In dat geval zal de bekendmaking in het     n'aura lieu que si la décision n'a pas été rompue par le Belgisch Staatsblad alleen plaatsvinden als het besluit     Conseil d'Etat. niet door de Raad van State verbroken is.
 
-## Art. 3.16.0.0.4
+###### Art. 3.16.0.0.4
 
-Art. 3.16.0.0.4.
+###### Art. 3.16.0.0.4.
 
 Derden die betreffende de erfbelasting administratieve      Les tiers qui, en ce qui concerne impôt de succession, geldboeten verschuldigd zijn, zijn zelf gehouden tot        sont redevables d'amendes administratives, sont euxbetaling van de belastingen en toebehoren die ten           mêmes tenus de payer les impôts et accessoires qui n'ont gevolge van de overtreding niet konden worden geïnd.        pas pu être recouvrés en raison de l'infraction.
 
@@ -10915,9 +10919,9 @@ Derden die betreffende de erfbelasting administratieve      Les tiers qui, en ce
 
 - gewijzigd door art. 292 van het decreet van 19 dec.       - inséré par art. 292 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking     29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                       janvier 2015 (art. 325)
 
-## Art. 3.16.0.0.5
+###### Art. 3.16.0.0.5
 
-Art. 3.16.0.0.5.
+###### Art. 3.16.0.0.5.
 
 Met behoud van de toepassing van hoofdstuk 15, kan een      Sans préjudice de l’application du chapitre 15, une overtreding op de bepalingen van deze codex over de         infraction aux dispositions du présent code en matière belasting op de spelen en weddenschappen, of van de         de la taxe sur les jeux ou paris ou à ses arrêtés uitvoeringsbesluiten ervan, aanleiding geven tot de         d’exécution peut donner lieu à la fermeture de sluiting van de kansspelinrichting of tot het verbod om     l’établissement de jeux de hasard ou à l’interdiction inzetten of weddenschappen aan te nemen voor een duur       d’accepter des mises ou paris pendant une période de van tien dagen tot dertig dagen.                            dix à trente jours.
 
@@ -10933,23 +10937,23 @@ De voorziening schorst de uitvoering van de beslissing       La structure ne sus
 
 - ingevoegd door art. 55 van het decreet van 07.12.2018      - inséré par l’art. 55 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                          20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
-#### Hoofdstuk 17 – Bewijsmiddelen                               Chapitre 17 - Moyens de preuve
+### Hoofdstuk 17 – Bewijsmiddelen                               Chapitre 17 - Moyens de preuve
 
 ---- historiek ----                                          ---- historique ----
 
 - hoofdstuk 17 gewijzigd door art. 293 van het decreet       - chapitre 17 modifié par art. 293 du décret du 19 déc. van 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is     2014 (M.B., 29.01.2015, Ed. 2). Texte est entré en vigueur le 1er janvier 2015 (art. 325) in werking getreden op 1 januari 2015 (art. 325)
 
-## Art. 3.17.0.0.1
+###### Art. 3.17.0.0.1
 
-Art. 3.17.0.0.1.
+###### Art. 3.17.0.0.1.
 
 Om het bestaan en het bedrag van de belastingschuld te       Afin de déterminer l'existence et le montant de la dette bepalen, alsook ter vaststelling van een overtreding van     fiscale, ainsi qu'en vue de constater une infraction aux de bepalingen van deze codex of van de besluiten die         dispositions du présent code ou des arrêtés pris en genomen zijn ter uitvoering ervan, kan de bevoegde           exécution de ce dernier, l'entité compétente de entiteit van de Vlaamse administratie alle                   l'administration flamande peut invoquer toutes les bewijsmiddelen aanvoeren die door het gemeen recht           preuves autorisées par le droit commun, y compris les toegelaten zijn, met inbegrip van de processen-verbaal,      procès-verbaux, dressés par le membre du personnel opgesteld door het bevoegde personeelslid, maar met          compétent, mais à l'exception du serment. uitzondering van de eed.
 
 De processen-verbaal hebben bewijskracht tot bewijs          Les procès-verbaux dressés font foi jusqu'à preuve du van het tegendeel.                                           contraire.
 
-## Art. 3.17.0.0.2
+###### Art. 3.17.0.0.2
 
-Art. 3.17.0.0.2.
+###### Art. 3.17.0.0.2.
 
 Aan de bevoegde entiteit van de Vlaamse administratie        N'est pas opposable à l'entité compétente de kan niet worden tegengeworpen, de rechtshandeling            l'Administration flamande l'acte juridique ni l'ensemble noch het geheel van rechtshandelingen dat een zelfde         d'actes juridiques réalisant une même opération lorsque verrichting tot stand brengt, wanneer die entiteit door      cette entité démontre par présomptions ou par d'autres vermoedens of door andere bewijsmiddelen, vermeld in         moyens de preuves, visés à l'article 3.17.0.0.1, et à la artikel 3.17.0.0.1, en aan de hand van objectieve            lumière de circonstances objectives qu'il y a abus fiscal. omstandigheden aantoont dat er sprake is van fiscaal misbruik.
 
@@ -10965,9 +10969,9 @@ Het komt aan de belastingplichtige toe te bewijzen dat         Il appartient au 
 
 - vervangen door art. 294 van het decreet van 19 dec.          - remplacé par art. 294 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking        29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                          janvier 2015 (art. 325)
 
-## Art. 3.17.0.0.3
+###### Art. 3.17.0.0.3
 
-Art. 3.17.0.0.3.
+###### Art. 3.17.0.0.3.
 
 Wat de erfbelasting betreft, wordt elke schuld, waarvan        En ce qui concerne impôt de succession, toute dette dont het bestaan bewezen wordt door een stuk voor te leggen         l'existence est justifiée par la production d'un document waarop een niet-gedagtekend betalingsbewijs is gesteld,        revêtu d'une quittance non datée est réputée, jusqu'à geacht vóór het overlijden voldaan te zijn, tenzij het         preuve contraire, avoir été acquittée antérieurement au tegendeel bewezen wordt.                                       décès.
 
@@ -10975,9 +10979,9 @@ Wat de erfbelasting betreft, wordt elke schuld, waarvan        En ce qui concern
 
 - toegevoegd door art. 295 van het decreet van 19 dec.         - inséré par art. 295 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking        29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                          janvier 2015 (art. 325)
 
-## Art. 3.17.0.0.4
+###### Art. 3.17.0.0.4
 
-Art. 3.17.0.0.4.
+###### Art. 3.17.0.0.4.
 
 Wat de registratiebelasting betreft, wordt de verandering      En ce qui concerne l'impôt d'enregistrement, le in eigen-dom of vruchtgebruik van een onroerend goed           changement dans la propriété ou l'usufruit d'un bien dat in België ligt, ten gevolge van een overdragende of        immobilier situé en Belgique, par suite d'une convention aanwijzende overeenkomst, voor de invordering van de           translative ou déclarative, est suffisamment établi, pour belastingen en toebehoren bij de nieuwe eigenaar of            le recouvrement des impôts et accessoires auprès du vruchtgebruiker, in voldoende mate bewezen door daden          nouveau propriétaire ou usufruitier, par des actes de van beschikking of van bestuur of door andere                  disposition ou d'administration ou autres actes handelingen of akten waarbij de eigendom of het                constatant ou impliquant, dans son chef, la propriété ou l'usufruit.
 
@@ -10987,9 +10991,9 @@ vruchtgebruik in hoofde van deze nieuwe eigenaar of vruchtgebruiker vastgesteld 
 
 - toegevoegd door art. 296 van het decreet van 19 dec.       - inséré par art. 296 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking      29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                        janvier 2015 (art. 325)
 
-## Art. 3.17.0.0.5
+###### Art. 3.17.0.0.5
 
-Art. 3.17.0.0.5.
+###### Art. 3.17.0.0.5.
 
 Wat de registratiebelasting betreft, wordt iedere            En ce qui concerne l'impôt d'enregistrement, tout tussenpersoon die de verkoop van een onroerend goed          intermédiaire qui effectue la vente d'un bien immobilier bewerkstelligt, voor de invordering van de belastingen       est, pour le recouvrement des impôts et des accessoires, en toebehoren als koper voor eigen rekening beschouwd.       considéré comme un acheteur à son propre compte. Il ne Hij mag zich op de hoedanigheid van lasthebber of van        peut invoquer la qualité de mandataire ou de commissionair van de verkoper niet beroepen als              commissionnaire du vendeur lorsqu'il est établi que, dès vaststaat dat hij al voor de totstandbrenging van de         avant la réalisation de la vente, il a payé ou s'est engagé verkoop aan de verkoper de prijs of elke som die             à payer au vendeur le prix ou toute somme à provenir de voortkomt uit de verkoop, betaald heeft of er zich toe       la vente. verbonden heeft die prijs of som te betalen.
 
@@ -10999,9 +11003,9 @@ De tussenpersoon, vermeld in het eerste lid, wordt           L'intermédiaire, v
 
 - toegevoegd door art. 297 van het decreet van 19 dec.       - inséré par art. 297 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking      29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                        janvier 2015 (art. 325)
 
-## Art. 3.17.0.0.6
+###### Art. 3.17.0.0.6
 
-Art. 3.17.0.0.6.
+###### Art. 3.17.0.0.6.
 
 Als een akte of geschrift waarvan geen minuut bestaat,       Si un acte ou un écrit dont il n'existe pas de minute inlichtingen bevat die kunnen dienen om verschuldigde        contient des informations pouvant servir à détecter les bedragen te ontdekken, heeft het bevoegde personeelslid      montants dus, le membre du personnel compétent a le het recht er een afschrift van te maken en dat eensluidend   droit d'en faire une copie et de la faire déclarer conforme te laten verklaren met het origineel door de                 à l'original par le fonctionnaire ou l'officier public ou instrumenterende openbare of ministeriële ambtenaar of       ministériel instrumentant ou, s'il s'agit d'un acte sous officier of, als het gaat om een onderhandse of in het       seing privé ou passé à l'étranger, par la personne qui a buitenland verleden akte, door de betrokken persoon die      demandé l'enregistrement. En cas de refus, le membre de registratie heeft gevorderd. Bij weigering waarmerkt      du personnel compétent légalise lui-même la het bevoegde personeelslid zelf de eensluidendheid van       certification conforme de la copie, avec mention du het afschrift, met vermelding van de weigering. Het          refus. La copie est réputée conforme, sauf preuve afschrift wordt, behoudens bewijs van het tegendeel, als     contraire. eensluidend beschouwd
 
@@ -11009,9 +11013,9 @@ Als een akte of geschrift waarvan geen minuut bestaat,       Si un acte ou un é
 
 - toegevoegd door art. 298 van het decreet van 19 dec.       - inséré par art. 298 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking      29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                        janvier 2015 (art. 325)
 
-## Art. 3.17.0.0.7
+###### Art. 3.17.0.0.7
 
-Art. 3.17.0.0.7.
+###### Art. 3.17.0.0.7.
 
 De datum van de onderhandse akten of van de                  La date des actes sous seing privé ou des conventions overeenkomsten die door het feit alleen van hun bestaan      qui, du simple fait de leur existence, sont
 
@@ -11021,9 +11025,9 @@ verplicht aan de registratie onderworpen zijn, kan alleen   obligatoirement soum
 
 - toegevoegd door art. 299 van het decreet van 19 dec.      - inséré par art. 299 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking     29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                       janvier 2015 (art. 325)
 
-## Art. 3.17.0.0.8
+###### Art. 3.17.0.0.8
 
-Art. 3.17.0.0.8.
+###### Art. 3.17.0.0.8.
 
 Voor het bewijs van het passief van de nalatenschap         En ce qui concerne la preuve du passif de la succession betreffende de erfbelasting volstaat het voorleggen van     relativement à impôt de succession, la seule production de rechtstitel niet om het bestaan vast te stellen van :    du titre constitutif ne suffit pas pour établir l'existence :
 
@@ -11037,9 +11041,9 @@ Voor het bewijs van het passief van de nalatenschap         En ce qui concerne l
 
 - toegevoegd door art. 300 van het decreet van 19 dec.      - inséré par art. 300 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking     29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                       janvier 2015 (art. 325)
 
-## Art. 3.17.0.0.9
+###### Art. 3.17.0.0.9
 
-Art. 3.17.0.0.9.
+###### Art. 3.17.0.0.9.
 
 Tegenbrieven zijn niet tegenstelbaar aan het Vlaamse        Les contre-lettres ne sont pas opposables à la Région Gewest als ze een vermindering van het actief of een        flamande, en tant qu'elles auraient pour effet de vermeerdering van het passief van de nalatenschap tot       diminuer l'actif ou d'augmenter le passif de la gevolg hebben.                                              succession.
 
@@ -11047,9 +11051,9 @@ Tegenbrieven zijn niet tegenstelbaar aan het Vlaamse        Les contre-lettres n
 
 - toegevoegd door art. 301 van het decreet van 19 dec.      - inséré par art. 301 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking     29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                       janvier 2015 (art. 325)
 
-## Art. 3.17.0.0.10
+###### Art. 3.17.0.0.10
 
-Art. 3.17.0.0.10.
+###### Art. 3.17.0.0.10.
 
 Het tegenbewijs van de vermoedens van eigendom,             La preuve contraire à ces présomptions de propriété, vermeld in artikel 2.7.3.2.6, kan geleverd worden door      visée à l'article 2.7.3.2.6, peut être administrée par alle rechtsmiddelen, met inbegrip van getuigen en           toutes voies de droit, témoins et présomptions compris, vermoedens, maar met uitzondering van de eed.               à l'exception du serment.
 
@@ -11057,9 +11061,9 @@ Het tegenbewijs van de vermoedens van eigendom,             La preuve contraire 
 
 - toegevoegd door art. 302 van het decreet van 19 dec.          - inséré par art. 302 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking         29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                           janvier 2015 (art. 325)
 
-## Art. 3.17.0.0.11
+###### Art. 3.17.0.0.11
 
-Art. 3.17.0.0.11.
+###### Art. 3.17.0.0.11.
 
 Het bewijs dat te leveren is krachtens artikel 2.7.1.0.6, §     La preuve à fournir en vertu de l'article 2.7.1.0.6, § 2, 2, tweede lid, artikel 2.7.1.0.7, tweede lid, 1°, artikel       deuxième alinéa, de l'article 2.7.1.0.7, deuxième alinéa, 2.7.1.0.8, tweede lid, 1°, artikel 2.7.1.0.9, tweede lid, 1°,   1°, de l'article 2.7.1.0.8, deuxième alinéa, 1°, de l'article artikel 2.7.3.2.8, tweede lid, en artikel 2.7.3.2.11, kan       2.7.1.0.9, deuxième alinéa, 1°, de l'article 2.7.3.2.8, door alle gewone rechtsmiddelen, ook door getuigen en           deuxième alinéa et de l'article 2.7.3.2.11, peut être vermoedens, bijgebracht worden.                                 apportée par toutes voies de droit, témoins et présomptions compris.
 
@@ -11067,9 +11071,9 @@ Het bewijs dat te leveren is krachtens artikel 2.7.1.0.6, §     La preuve à fo
 
 - toegevoegd door art. 303 van het decreet van 19 dec.          - inséré par art. 303 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking         29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                           janvier 2015 (art. 325)
 
-## Art. 3.17.0.0.12
+###### Art. 3.17.0.0.12
 
-Art. 3.17.0.0.12.
+###### Art. 3.17.0.0.12.
 
 In het geval, vermeld in artikel 2.7.3.4.2, zevende lid,        Dans le cas, visé à l'article 2.7.3.4.2, alinéa 7, l'existence moet het bestaan van de schulden bewezen worden door            des dettes doit être prouvée par des moyens de preuve de bewijsmiddelen die in rechte toelaatbaar zijn in de          admissibles en justice dans un débat entre créancier et verhouding tussen schuldeiser en schuldenaar.                   débiteur.
 
@@ -11081,11 +11085,11 @@ De schulden met betrekking tot het beroep van de                Les dettes relat
 
 - toegevoegd door art. 304 van het decreet van 19 dec.          - inséré par art. 304 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking         29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                           janvier 2015 (art. 325)
 
-#### Hoofdstuk 18 - Belastingverhogingen en                      Chapitre 18 - Majoration d'impôts et amendes administratieve geldboetes                                            administratives
+### Hoofdstuk 18 - Belastingverhogingen en                      Chapitre 18 - Majoration d'impôts et amendes administratieve geldboetes                                            administratives
 
-## Art. 3.18.0.0.1
+###### Art. 3.18.0.0.1
 
-Art. 3.18.0.0.1.
+###### Art. 3.18.0.0.1.
 
 § 1. Het bevoegde personeelslid kan een administratieve         § 1er. Le membre du personnel compétent peut geldboete van 50 euro tot 1250 euro opleggen voor               appliquer pour toute infraction aux dispositions du iedere overtreding van de bepalingen van deze codex,            présent code, ainsi que des arrêtés pris pour leur alsook van de besluiten die genomen zijn ter uitvoering         exécution, une amende administrative allant de 50 à ervan, met uitzondering van overtredingen van artikel           1250 euros, à l'exception des infractions à l'article 3.1.0.0.2, §§ 2 tot en met 4 en van de bepalingen,              3.1.0.0.2, §§ 2 à 4 et aux dispositions énoncées au vermeld in hoofdstuk 23.                                        chapitre 23.
 
@@ -11172,9 +11176,9 @@ De tekst treedt in werking op 1 april 2016 (besluit van de    Texte entre en vig
 
 - paragraaf 2/2 werd toegevoegd door art. 124 van het      - paragraphe 2/2 est ajouté par art. 124 du décret du 18 decreet van 18 dec. 2015 (B.S., 29.12.2015). De tekst is   déc. 2015 (M.B., 29.12.2015). Texte est entré en vigueur in werking getreden vanaf 1 januari 2016 (art. 135)        le 1er janvier 2016 (art. 135). Texte cesse de produire ses effets à partir du 1er janvier 2021 (art. 135)
 
-## Art. 3.18.0.0.2
+###### Art. 3.18.0.0.2
 
-Art. 3.18.0.0.2.
+###### Art. 3.18.0.0.2.
 
 (…)                                                        (…)
 
@@ -11187,9 +11191,9 @@ Art. 3.18.0.0.2.
 
 - tweede lid opgeheven door art. 31 van het decreet van    - deuxième alinéa est abrogé par art. 31 du décret du 17 17 juli 2015 (B.S., 14.08.2015 ). De tekst is in werking   juillet 2015 (M.B., 14.08.2015). Texte est entré en getreden op 14 augustus 2015 (art. 41) vigueur le 14 août 2015 (art. 41)
 
-## Art. 3.18.0.0.3
+###### Art. 3.18.0.0.3
 
-Art. 3.18.0.0.3.
+###### Art. 3.18.0.0.3.
 
 In afwijking van artikel 3.2.2.0.1 kunnen de bevoegde      Par dérogation à l'article 3.2.2.0.1, les membres du personeelsleden tijdens de uitvoering van het toezicht,    personnel compétents peuvent, pendant l'exercice de la vermeld in artikel 3.13.2.0.1, de administratieve          surveillance, citée dans l'article 3.13.2.0.1, imposer les geldboetes, vermeld in artikel 3.18.0.0.1, of de           amendes administratives, citées dans l'article 3.18.0.0.1, belastingverhogingen, vermeld in artikel 3.18.0.0.2,       ou les majorations d'impôt, citées dans l'article 3.18.0.0.15/1 en 3.18.0.0.15/2, opleggen zonder dat ze     3.18.0.0.2, l’article 3.18.0.0.15/1 et l’article moeten worden ingekohierd. Als daarbij geen contante       3.18.0.0.15/2, sans qu'elles doivent être enrôlées. Si à betaling verkregen kan worden, worden die                  cet effet aucun paiement en espèces ne peut être obtenu, administratieve geldboetes of belastingverhogingen op      ces amendes administratives ou majorations de l'impôt een later tijdstip alsnog ingekohierd.                     seront quand même enrôlées à un moment ultérieur.
 
@@ -11198,14 +11202,14 @@ In afwijking van artikel 3.2.2.0.1 kunnen de bevoegde      Par dérogation à l'
 - gewijzigd door art. 56 van het decreet van 07.12.2018    - modifié par l'art. 56 du décret du 07.12.2018 (M.B.
 (B.S 20.12.2018). Tekst treedt in werking op 01.01.2019    20.12.2018). Texte entre en vigueur le 01.01.2019
 
-## Art. 3.18.0.0.4
+###### Art. 3.18.0.0.4
 
-Art. 3.18.0.0.4.
+###### Art. 3.18.0.0.4.
 De ontdoken verkeersbelasting wordt op het drievoudige     La taxe de circulation éludée est triplée si elle dépasse gebracht als ze een tiende van de oorspronkelijke          un dixième de la taxe originale. belasting overschrijdt.
 
-## Art. 3.18.0.0.5
+###### Art. 3.18.0.0.5
 
-Art. 3.18.0.0.5.
+###### Art. 3.18.0.0.5.
 
 Iedere persoon die een overtreding van de bepalingen         Toute personne qui enfreint les dispositions de ce code van deze codex betreffende de erfbelasting, alsook van       relatif aux impôt de succession, ainsi que les décisions de ter uitvoering ervan genomen besluiten, heeft             prises pour sa mise en oeuvre, est tenu au paiement de gepleegd, is gehouden tot de betaling van de wegens          la majoration d'impôt redevable du fait de cette deze overtreding verschuldigde belastingverhoging.           infraction.
 
@@ -11217,9 +11221,9 @@ Als iemand verschillende overtredingen als vermeld in        Si une personne a c
 
 - toegevoegd door art. 306 van het decreet van 19 dec.       - inséré par art. 306 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking      29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                        janvier 2015 (art. 325)
 
-## Art. 3.18.0.0.6
+###### Art. 3.18.0.0.6
 
-Art. 3.18.0.0.6.
+###### Art. 3.18.0.0.6.
 
 § 1. Als de aangifte niet binnen de aangiftetermijn,         § 1er. Si la déclaration n'est pas introduite dans le délai vermeld in artikel 3.3.1.0.5, § 2, of 3.3.1.0.6, is          de déclaration visé à l'article 3.3.1.0.5, § 2 ou 3.3.1.0.6, ingediend, is elke persoon die tot de aangifte gehouden      toute personne qui est tenue d'introduire une déclaration is, een belastingverhoging verschuldigd, conform de          est redevable d'une majoration d'impôt, conformément onderstaande tabel :                                         au tableau suivant :
 
@@ -11235,9 +11239,9 @@ Als met toepassing van artikel 3.3.1.0.7 de                   Si, en application
 
 - toegevoegd door art. 307 van het decreet van 19 dec.         - inséré par art. 307 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking        29.01.2015, Ed. 2 erratum M.B., 04.03.2015). Texte est getreden op 1 januari 2015 (art. 325)                          entré en vigueur le 1er janvier 2015 (art. 325)
 
-## Art. 3.18.0.0.7
+###### Art. 3.18.0.0.7
 
-Art. 3.18.0.0.7.
+###### Art. 3.18.0.0.7.
 
 De erfgenaam, legataris of begiftigde die niet alle           L'héritier, le légataire ou le donataire qui n'a pas indiqué goederen heeft aangegeven overeenkomstig de                   tous les biens conformément aux dispositions de l'article bepalingen van artikel 3.3.1.0.8, betaalt een                 3.3.1.0.8, paie une majoration d'impôt équivalente à 20 belastingverhoging die gelijk is aan 20 % van de              % des droits complémentaires dus. daardoor verschuldigde aanvullende rechten.
 
@@ -11265,9 +11269,9 @@ maand / mois 7                    maand / mois 10                               
 
 - tweede lid toegevoegd door art. 32 van het decreet van     - deuxième alinéa est ajouté par art. 32 du décret du 17 17 juli 2015 (B.S., 14.08.2015 ). De tekst is in werking     juillet 2015 (M.B., 14.08.2015). Texte est entré en getreden op 14 augustus 2015 (art. 41) vigueur le 14 août 2015 (art. 41)
 
-## Art. 3.18.0.0.8
+###### Art. 3.18.0.0.8
 
-Art. 3.18.0.0.8.
+###### Art. 3.18.0.0.8.
 
 Als wordt vastgesteld dat de aangegeven waarde van de        S'il est constaté que la valeur déclarée des biens déclarés aangegeven goederen te laag is, is een                       est trop faible, une majoration d'impôt est due belastingverhoging verschuldigd, conform de                  conformément au tableau ci-dessous : onderstaande tabel :
 
@@ -11280,9 +11284,9 @@ In afwijking van het eerste lid, wordt de                    Par dérogation à 
 
 - vervangen door art. 33 van het decreet van 17 juli 2015    - remplacé par art. 33 du décret du 17 juillet 2015 (M.B., (B.S., 14.08.2015). De tekst is in werking getreden op 14    14.08.2015). Texte est entré en vigueur le 14 août 2015 augustus 2015 (art. 325)                                     (art. 41)
 
-## Art. 3.18.0.0.9
+###### Art. 3.18.0.0.9
 
-Art. 3.18.0.0.9.
+###### Art. 3.18.0.0.9.
 
 De erfgenaam, legataris of begiftigde die geen aangifte      L'héritier, le légataire ou le donataire qui n'introduit pas als vermeld in artikel 3.3.1.0.5 of 3.3.1.0.6 indient,       de déclaration comme visé à l'article 3.3.1.0.5 ou betaalt een belastingverhoging die gelijk is aan 20 % van    3.3.1.0.6 paie une majoration d'impôt équivalente à 20 de verschuldigde erfbelasting                                % des impôt de succession dus
 
@@ -11290,9 +11294,9 @@ De erfgenaam, legataris of begiftigde die geen aangifte      L'héritier, le lé
 
 - toegevoegd door art. 310 van het decreet van 19 dec.         - inséré par art. 310 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking        29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                          janvier 2015 (art. 325)
 
-## Art. 3.18.0.0.10
+###### Art. 3.18.0.0.10
 
-Art. 3.18.0.0.10.
+###### Art. 3.18.0.0.10.
 
 Een belastingverhoging van 20 % van de aanvullende             Une majoration d'impôt de 20 % impôt rechten inzake de erfbelasting is verschuldigd door de         complémentaires de succession est due par l'héritier, le erfgenaam, legataris of begiftigde als de verplichte           légataire ou le donataire si les mentions obligatoires vermeldingen, vermeld in artikel 3.3.1.0.8, foutief of         visées à l'article 3.3.1.0.8 sont incorrectes ou onvolledig zijn, tenzij die fout of onvolledigheid al          incomplètes, sauf si cette erreur donne déjà lieu à une aanleiding geeft tot een belastingverhoging ingevolge de       majoration d'impôt conformément à l'application des toepassing van artikel 3.18.0.0.6, 3.18.0.0.7, 3.18.0.0.8      articles 3.18.0.0.6, 3.18.0.0.7, 3.18.0.0.8 ou 3.18.0.0.9. of 3.18.0.0.9.
 
@@ -11300,9 +11304,9 @@ Een belastingverhoging van 20 % van de aanvullende             Une majoration d'
 
 - toegevoegd door art. 311 van het decreet van 19 dec.         - inséré par art. 311 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking        29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                          janvier 2015 (art. 325)
 
-## Art. 3.18.0.0.11
+###### Art. 3.18.0.0.11
 
-Art. 3.18.0.0.11.
+###### Art. 3.18.0.0.11.
 Een belastingverhoging van 20 % van de                         Une majoration d'impôt de 20 % de la taxe registratiebelasting, respectievelijk van de aanvullende       d'immatriculation des droits complémentaires est rechten, is in de volgende gevallen verschuldigd door :        redevable dans les cas suivants par :
 
 1° de persoon die binnen de voorgeschreven termijnen           1° la personne qui n'a pas fait enregistrer dans les délais de akten of geschriften die aan de registratieformaliteit      prescrits les actes ou attestations qui sont soumis à une zijn onderworpen, niet heeft laten registreren;                formalité d'immatriculation ;
@@ -11376,9 +11380,9 @@ In afwijking van het eerste lid, 1°, bedraagt de             Par dérogation à
 
 - punt 7° /1 ingevoegd door art. 34 van het decreet van       - premier alinéa, point 7° /1 est ajouté par art. 34 du 17 juli 2015 (B.S., 14.08.2015 ). De tekst is in werking      décret du 17 juillet 2015 (M.B., 14.08.2015). Texte est getreden op 14 augustus 2015 (art. 41) entré en vigueur le 14 août 2015 (art. 41)
 
-## Art. 3.18.0.0.12
+###### Art. 3.18.0.0.12
 
-Art. 3.18.0.0.12.
+###### Art. 3.18.0.0.12.
 
 Een belastingverhoging van 50 % van de aanvullende            Une augmentation de l’impôt de 50 % des droits rechten inzake de registratiebelasting is verschuldigd        complémentaires        en      matière      de     l’impôt door de verkrijgers als de verklaring, vermeld in artikel     d’enregistrement est payable par les cessionnaires si la 3.12.3.0.1, § 1, 1°, onjuist wordt bevonden.                  déclaration, visée à l’article 3.12.3.0.1, § 1er, 1°, a été jugée incorrecte.
 Een belastingverhoging van 50 % van de aanvullende            Une majoration d'impôt de 50 % des droits rechten inzake de registratiebelasting is verschuldigd        complémentaires concernant impôt d’enregistrement est door de schenker, als hij weigert de verklaring, vermeld      due par le donateur s'il refuse d'effectuer la déclaration in artikel 3.12.3.0.3, te doen, of als deze verklaring        visée à l'article 3.12.3.0.3, ou si cette déclaration est onjuist of onvolledig is.                                     inexacte ou incomplète
@@ -11389,9 +11393,9 @@ Een belastingverhoging van 50 % van de aanvullende            Une majoration d'i
 
 - toegevoegd door art. 313 van het decreet van 19 dec.        - inséré par art. 313 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking       29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                         janvier 2015 (art. 325)
 
-## Art. 3.18.0.0.13
+###### Art. 3.18.0.0.13
 
-Art. 3.18.0.0.13.
+###### Art. 3.18.0.0.13.
 
 Als wordt vastgesteld dat de waarde die aangegeven is         S'il est constaté que la valeur qui est indiquée ou le prix of de prijs die opgegeven is voor de berekening van de        qui est indiqué pour le calcul de impôt d’enregistrement registratiebelasting, te laag is, is een belastingverhoging   est trop faible, une majoration d'impôt est due verschuldigd, conform de onderstaande tabel :                 conformément au tableau ci-dessous :
 
@@ -11399,9 +11403,9 @@ verhouding van het tekort in % ten opzichte van de aangegeven waarde van        
 
 ---- historiek ----                                           ---- historique ---- - toegevoegd door art. 314 van het decreet van 19 dec.        - inséré par art. 314 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking       29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                         janvier 2015 (art. 325)
 
-## Art. 3.18.0.0.14
+###### Art. 3.18.0.0.14
 
-Art. 3.18.0.0.14.
+###### Art. 3.18.0.0.14.
 
 Een belastingverhoging van 100 % van de aanvullende           Une majoration d'impôt de 100 % des droits rechten inzake de registratiebelasting is in de volgende      complémentaires concernant impôt d’enregistrement est gevallen verschuldigd door elk van de contracterende          due dans les cas suivants par chacune des parties partijen die aan de overtreding hebben deelgenomen:           contractantes qui ont participé à l’infraction:
 
@@ -11417,9 +11421,9 @@ In de gevallen, vermeld in het eerste lid, zijn de partijen   Pour les cas menti
 
 - toegevoegd door art. 315 van het decreet van 19 dec.        - inséré par art. 315 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking       29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                         janvier 2015 (art. 325)
 
-## Art. 3.18.0.0.15
+###### Art. 3.18.0.0.15
 
-Art. 3.18.0.0.15.
+###### Art. 3.18.0.0.15.
 
 De belastingverhogingen, vermeld in artikel 3.18.0.0.6        Les majorations d'impôt mentionnées aux articles tot en met artikel 3.18.0.0.13, worden verhoogd tot 100       3.18.0.0.6 à 3.18.0.0.13 sont augmentées jusqu'à 100 % % als de overtredingen zijn gepleegd met de bedoeling         si les infractions sont commises dans le but d'éluder de belasting te ontduiken of dat mogelijk te maken.           l'impôt ou de permettre de l'éluder
 
@@ -11427,9 +11431,9 @@ De belastingverhogingen, vermeld in artikel 3.18.0.0.6        Les majorations d'
 
 - toegevoegd door art. 316 van het decreet van 19 dec.     - inséré par art. 316 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking    29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                      janvier 2015 (art. 325)
 
-## Art. 3.18.0.0.15/1
+###### Art. 3.18.0.0.15/1
 
-Art. 3.18.0.0.15/1
+###### Art. 3.18.0.0.15/1
 
 In geval van een ambtshalve aanslag als vermeld in         Dans le cas d’une taxation d’office, telle que visée dans artikel 2.12.7.0.1, of in geval van onjuiste gegevens op   l’article 2.12.7.0.1, ou dans le cas de données de elektronische informatiedrager, vermeld in artikel      incorrectes sur le support d’information électronique, 3.13.1.2.9, is een belastingverhoging verschuldigd van     visé à l’article 3.13.1.2.9, une augmentation de la taxe 20% van de belasting op de spelen en weddenschappen,       de 20% de la taxe sur les jeux et paris, visée à l’article vermeld in artikel 2.12.4.0.1.                             2.12.4.0.1 est due.
 
@@ -11441,9 +11445,9 @@ In afwijking van het eerste lid bedraagt de                Par dérogation à l�
 - ingevoegd door art. 57 van het decreet van 07.12.2018    - inséré par l’art. 57 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                        20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-## Art. 3.18.0.0.15/2
+###### Art. 3.18.0.0.15/2
 
-Art. 3.18.0.0.15/2
+###### Art. 3.18.0.0.15/2
 
 In geval van een ambtshalve aanslag als vermeld in         Dans le cas d’une taxation d’office, telle que visée à artikel 2.13.7.0.1, is een belastingverhoging per          l’article 2.13.7.0.1, une augmentation de la taxe par automatisch ontspanningstoestel verschuldigd van 20%       appareil automatique de divertissement est due à van de verschuldigde belasting, met een minimum van        concurrence de 20% de la taxe due, avec un minimum 50 euro per aanslag.                                       de 50 euros par imposition.
 
@@ -11456,9 +11460,9 @@ In afwijking van het eerste lid bedraagt de                Par dérogation à l�
 - ingevoegd door art. 58 van het decreet van 07.12.2018    - inséré par l’art. 58 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                        20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-## Art. 3.18.0.0.16
+###### Art. 3.18.0.0.16
 
-Art. 3.18.0.0.16.
+###### Art. 3.18.0.0.16.
 
 De leidend ambtenaar van de bevoegde entiteit van de         Le fonctionnaire dirigeant de l'entité compétente de Vlaamse administratie kan kwijtschelding of                  l'Administration flamande peut accorder la remise ou vermindering van de administratieve geldboetes of van        une diminution des amendes administratives ou des de belastingverhogingen, vermeld in dit hoofdstuk,           majorations d'impôt visées dans ce chapitre si la partie verlenen als de betrokken partij bewijst niet in fout te     concernée prouve qu'elle n'était pas en faute zijn.
 
@@ -11466,26 +11470,26 @@ De leidend ambtenaar van de bevoegde entiteit van de         Le fonctionnaire di
 
 - toegevoegd door art. 317 van het decreet van 19 dec.       - inséré par art. 317 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking      29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                        janvier 2015 (art. 325)
 
-## Art. 3.18.0.0.17
+###### Art. 3.18.0.0.17
 
-Art. 3.18.0.0.17.
+###### Art. 3.18.0.0.17.
 
 Zonder afbreuk te doen aan de geldigheid van de              Sans préjudice de la validité des opérations bestuurs- of gerechtelijke handelingen, verricht met het     administratives ou judiciaires accomplies en vue de oog op de vestiging of de invordering van de                 l'établissement ou du recouvrement de la dette fiscale, la belastingschuld, wordt de mogelijkheid om een                possibilité d'infliger ou de recouvrer une amende administratieve geldboete of een belastingverhoging als      administrative ou une majoration d'impôt visée au vermeld in dit hoofdstuk, op te leggen of in te vorderen     présent chapitre et le cours de la prescription de l'action en het verloop van de verjaring van de vordering tot         en recouvrement sont suspendus si le Ministère public voldoening ervan geschorst als het Openbaar Ministerie       exerce l'action publique conformément à l'article de strafvordering overeenkomstig artikel 3.15.1.0.1          3.15.1.0.1. La saisine du tribunal correctionnel rend uitoefent. De aanhangigmaking bij de correctionele           l'imposition ou le recouvrement d'une amende rechtbank maakt het opleggen van of het invorderen van       administrative     ou     une      majoration     d'impôt een administratieve geldboete of een belastingverhoging      définitivement impossible. Par contre, l'ordonnance de definitief onmogelijk. Daarentegen maakt de                  non-lieu met fin à la suspension. beschikking van buitenvervolgingstelling een einde aan de schorsing.
 
 Zodra een administratieve geldboete of een                   Dès qu'une amende administrative ou une majoration belastingverhoging, opgelegd met toepassing van de           d'impôt infligée par application des dispositions du bepalingen van dit hoofdstuk, definitief is geworden,        présent chapitre est devenu définitive, l'action publique vervalt de strafvordering.                                   échoit.
 ---- historiek ----                                          ---- historique ---- - toegevoegd door art. 35 van het decreet van 17 juli        - ajouté par art. 35 du décret du 17 juillet 2015 (M.B., 2015 (B.S., 14.08.2015 ). De tekst is in werking getreden    14.08.2015). Texte est entré en vigueur le 14 août 2015 op 14 augustus 2015 (art. 41)                                (art. 41)
 
-#### Hoofdstuk 19 - Beroepsgeheim                              Chapitre 19 - Secret professionnel
+### Hoofdstuk 19 - Beroepsgeheim                              Chapitre 19 - Secret professionnel
 
-## Art. 3.19.0.0.1
+###### Art. 3.19.0.0.1
 
-Art. 3.19.0.0.1.
+###### Art. 3.19.0.0.1.
 
 Als een met toepassing van artikel 3.13.1.2.1, eerste lid,   Si une personne requise fait valoir le secret artikel 3.13.1.2.2, eerste tot en met derde lid, artikel     professionnel en application de l'article 3.13.1.2.1, 3.13.1.2.3 en artikel 3.13.1.3.1 tot en met 3.13.1.3.4       alinéa premier, de l'article 3.13.1.2.2, alinéas premier à aangezochte persoon het beroepsgeheim doet gelden,           trois inclus, de l'article 3.13.1.2.3 et des articles verzoekt de bevoegde entiteit van de Vlaamse                 3.13.1.3.1 à 3.13.1.3.4 inclus, l'entité compétente de administratie om tussenkomst van de territoriaal             l'administration flamande demande l'intervention d'une bevoegde tuchtoverheid om te oordelen of, en eventueel       autorité disciplinaire territorialement compétente afin in welke mate, de vraag om inlichtingen of de                de juger si, et éventuellement en quelle mesure, la overlegging van documenten verzoenbaar is met het            demande d'informations ou la transmission de eerbiedigen van het beroepsgeheim.                           documents est compatible avec le respect du secret professionnel.
 
-## Art. 3.19.0.0.2
+###### Art. 3.19.0.0.2
 
-Art. 3.19.0.0.2.
+###### Art. 3.19.0.0.2.
 
 Een persoon die, op welke grond ook, optreedt bij de         Une personne qui, sur quelconque base, agit lors de toepassing van de bepalingen van deze codex of die           l'application des dispositions du présent code ou qui a toegang heeft tot de ambtsvertrekken van de bevoegde         accès aux locaux administratifs de l'entité compétente entiteit van de Vlaamse administratie, is, buiten de         de l'autorité flamande, est obligée, hors de l'exercice de uitoefening van zijn ambt verplicht tot volstrekte           sa fonction, au secret professionnel le plus stricte geheimhouding over alle zaken waarvan hij wegens de          concernant toutes les affaires dont il a connaissance du uitvoering van zijn opdracht kennis heeft.                   chef de l'exécution de sa tâche.
 
@@ -11504,15 +11508,15 @@ De bepalingen van het vijfde lid zijn ook van toepassing     Les dispositions de
 
 - de nieuwe lid 5 en 6 zijn gewijzigd door art. 2 van het     - les nouveaux al. 5 et 6 sont modifiés par l’art. 2 du decreet van 4 apr. 2014 (B.S., 13.06.2014). Tekst treedt      décret du 4 avr. 2014 (M.B., 13.06.2014). Texte in werking vanaf 23 juni 2014 (art. -).                       applicable à partir du 23 juin 2014 (art. -).
 
-#### Hoofdstuk 20 - Te verstrekken inlichtingen                    Chapitre 20 - Renseignements à fournir
+### Hoofdstuk 20 - Te verstrekken inlichtingen                    Chapitre 20 - Renseignements à fournir
 
 ---- historiek ----                                           ---- historique ----
 
 - hoofdstuk 20 toegevoegd door art. 318 van het decreet     - chapitre 20 ajouté par art. 318 du décret du 19 déc. van 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in 2014 (M.B., 29.01.2015, Ed. 2). Texte est entré en werking getreden op 1 januari 2015 (art.                    vigueur le 1er janvier 2015 (art. 325) 325)
 
-## Art. 3.20.0.0.1
+###### Art. 3.20.0.0.1
 
-Art. 3.20.0.0.1.
+###### Art. 3.20.0.0.1.
 
 Het bevoegde personeelslid reikt op verzoek van de            Le membre du personnel compétent délivre, à la betrokkenen in rechtstreekse naam, van hun erfgenamen         demande des intéressés en nom direct, au nom de leurs of rechthebbenden of op verzoek van derden die                héritiers ou de leurs ayants droit ou à la demande de tiers voldoende belang aantonen, een afschrift of een               pouvant démontrer un intérêt suffisant, une copie ou un uittreksel van de successieaangiften uit.                     extrait des déclarations de succession
 
@@ -11520,15 +11524,15 @@ Het bevoegde personeelslid reikt op verzoek van de            Le membre du perso
 
 - toegevoegd door art. 319 van het decreet van 19 dec.        - inséré par art. 319 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking       29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                         janvier 2015 (art. 325)
 
-#### Hoofdstuk 21 - Voorafgaande attesten                           Chapitre 21 - Attestations antérieures
+### Hoofdstuk 21 - Voorafgaande attesten                           Chapitre 21 - Attestations antérieures
 
 ---- historiek ----                                           ---- historique ----
 
 - hoofdstuk 21 toegevoegd door art. 320 van het decreet     - chapitre 21 ajouté par art. 320 du décret du 19 déc. van 19 dec. 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in 2014 (M.B., 29.01.2015, Ed. 2). Texte est entré en werking getreden op 1 januari 2015 (art.                    vigueur le 1er janvier 2015 (art. 325) 325)
 
-## Art. 3.21.1.0.0.1
+###### Art. 3.21.1.0.0.1
 
-Art. 3.21.1.0.0.1.
+###### Art. 3.21.1.0.0.1.
 § 1. Voor de aangifte en uiterlijk voor het verstrijken van   § 1er. Avant la déclaration et au plus tard avant de aangiftetermijn, vermeld in artikel 3.3.1.0.5, § 2, en     l'expiration du délai de déclaration visé à l'article artikel 3.3.1.0.6, kunnen de erfgenamen, algemene             3.3.1.0.5, § 2, et à l'article 3.3.1.0.6, les héritiers, legatarissen, begiftigden en al wie gehouden is tot het       légataires universels, donataires et toute personne tenue indienen van een aangifte van nalatenschap een verzoek        de déposer une déclaration de succession peuvent richten tot de bevoegde entiteit van de Vlaamse               introduire une demande auprès de l'entité compétente de administratie tot het bekomen van een attest dat op basis     l'administration flamande afin d'obtenir une attestation van de gegevens, aangereikt door de verzoeker, de             confirmant, sur la base des données fournies par le waardering, bedoeld in artikel 3.3.1.0.8, § 1, eerste lid,    demandeur, la valorisation visée à l'article 3.3.1.0.8, §
 14°, b), 8), iv), vi) en vii) bevestigt.                      1er, alinéa 1er, 14°, b), 8), iv), vi) et vii).
 Het verzoek bevat de gegevens en de bescheiden,               La demande contient les données et documents visés à vermeld in artikel 3.3.1.0.8, § 1, eerste lid, 14°, b).       l'article 3.3.1.0.8, § 1er, alinéa 1er, 14°, b).
@@ -11543,9 +11547,9 @@ Het attest, vermeld in paragraaf 1, is bindend voor de        L'attestation vis�
 ---- historiek ----                                           ---- historique ---- - ingevoegd door art. 13 van het decreet van 19.12.2025       - inséré par l’art. 13 du décret du 19.12.2025 (M.B.
 (B.S. 30.12.2025). Inwerkingtreding: 01.01.2026               30.12.2025). En vigueur le 01.01.2026
 
-## Art. 3.21.0.0.1/1
+###### Art. 3.21.0.0.1/1
 
-Art. 3.21.0.0.1/1
+###### Art. 3.21.0.0.1/1
 § 1. Voorafgaand aan de authentieke akte van schenking        § 1er. Préalablement à l'acte authentique de donation, la kan de belanghebbende een verzoek richten tot de              partie intéressée peut adresser une demande à l'entité bevoegde entiteit van de Vlaamse administratie tot het        compétente de l'Administration flamande pour obtenir bekomen van een attest waaruit blijkt dat op het moment       une attestation témoignant qu'au moment de la demande van het verzoek en op basis van de gegevens, aangereikt       et sur la base des données fournies par le demandeur, les door de verzoeker, al dan niet aan de voorwaarden,            conditions visées à l'article 2.8.6.0.3 étaient ou non vermeld in artikel 2.8.6.0.3, is voldaan en dat, in           satisfaites et que, le cas échéant, la valorisation visée à voorkomend geval, de waardering, bedoeld in artikel           l'article 3.12.3.0.1, § 5, alinéa 2, 5°, d), f) et g), confirme 3.12.3.0.1, § 5, tweede lid, 5°, d), f) en g), bevestigt op   à la date de référence visée à l'article 3.12.3.0.1, § 5, de referentiedatum, vermeld in artikel 3.12.3.0.1, § 5,       alinéa 2, 5°, i), sur la base des données fournies par le tweede lid, 5°, i), op basis van de gegevens, aangereikt      demandeur. door de verzoeker.
 In het verzoek wordt opgave gedaan van de gegevens,           Dans la demande, il est fait mention des données visées vermeld in artikel 3.12.3.0.1, § 5, eerste lid, en de         à l'article 3.12.3.0.1, § 5, premier alinéa et les pièces bescheiden, vermeld in artikel 3.12.3.0.1, § 5, tweede        justificatives visées à l'article 3.12.3.0.1, § 5, deuxième lid, worden toegevoegd.                                       alinéa, sont ajoutées.
 
@@ -11563,15 +11567,15 @@ Het attest, vermeld in paragraaf 1, is zestig dagen vanaf    L'attestation visé
 
 - toegevoegd door art. 321 van het decreet van 19 dec.       - inséré par art. 321 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking      29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                        janvier 2015 (art. 325)
 
-#### Hoofdstuk 22 - Voorafgaande beslissingen over de            Chapitre 22 - Décisions anticipées sur les matières et materies en bepalingen vervat in deze codex                   dispositions énoncées dans le présent code
+### Hoofdstuk 22 - Voorafgaande beslissingen over de            Chapitre 22 - Décisions anticipées sur les matières et materies en bepalingen vervat in deze codex                   dispositions énoncées dans le présent code
 
 ---- historiek ----                                          ---- historique ----
 
 - toegevoegd door art. 36 van het decreet van 17 juli        - ajouté par art. 36 du décret du 17 juillet 2015 (M.B., 2015 (B.S., 14.08.2015 ). De tekst is in werking getreden    14.08.2015). Texte est entré en vigueur le 14 août 2015 op 14 augustus 2015 (art. 41)                                (art. 41)
 
-## Art. 3.22.0.0.1
+###### Art. 3.22.0.0.1
 
-Art. 3.22.0.0.1.
+###### Art. 3.22.0.0.1.
 
 § 1. De bevoegde entiteit van de Vlaamse administratie       § 1er. L'entité compétente de l'Administration flamande spreekt zich bij voorafgaande beslissing uit over alle       se prononce par décision anticipée sur toutes les aanvragen die uitsluitend de toepassing van de               demandes qui concernent exclusivement l'application bepalingen van deze codex betreffen.                         des dispositions du présent code.
 
@@ -11651,9 +11655,9 @@ Elke aanvraag die ingediend is bij de fiscale overheden      Toute demande dépo
 
 ---- historiek ----                                         ---- historique ---- - toegevoegd door art. 37 van het decreet van 17 juli       - ajouté par art. 37 du décret du 17 juillet 2015 (M.B., 2015 (B.S., 14.08.2015 ). De tekst is in werking getreden   14.08.2015). Texte est entré en vigueur le 14 août 2015 op 14 augustus 2015 (art. 41)                               (art. 41)
 
-## Art. 3.22.0.0.2
+###### Art. 3.22.0.0.2
 
-Art. 3.22.0.0.2.
+###### Art. 3.22.0.0.2.
 
 § 1. Met betrekking tot de toepassing van de bepalingen     § 1er. Par rapport à l'application des dispositions du van deze codex, verstrekt de bevoegde entiteit van de       présent code, l'entité compétente de l'Administration Vlaamse administratie een bindend advies tot                flamande émet un avis contraignant sur la décision voorafgaande beslissing als vermeld in artikel              anticipée telle que visée à l'article 3.22.0.0.1, § 1er, 3.22.0.0.1, § 1, tweede lid, aan de federale Dienst         deuxième alinéa, au Service fédéral des Décisions Voorafgaande Beslissingen in fiscale zaken over alle        Anticipées en matière fiscale sur toutes les demandes en aanvragen inzake situaties of verrichtingen, die deels      matière de situations ou opérations qui relèvent en partie onder haar bevoegdheid en deels onder de bevoegdheid        de sa compétence et en partie de la compétence du van de federale Dienst Voorafgaande Beslissingen in         Service fédéral des Décisions Anticipées en matière fiscale zaken vallen.                                       fiscale.
 
@@ -11673,20 +11677,20 @@ Het bindend advies, vermeld in paragraaf 1, eerste lid,     L'avis contraignant 
 
 - toegevoegd door art. 37 van het decreet van 17 juli     - ajouté par art. 37 du décret du 17 juillet 2015 (M.B., 2015 (B.S., 14.08.2015 ). De tekst is in werking getreden 14.08.2015). Texte est entre en vigueur à 15 septembre op 15 september 2015 ( (besluit van de Vlaamse Regering 2015 (Arrêté du Gouvernement flamand, M.B. van 18 september 2015 - B.S., 12.10.2015 - art. 2)) 12.10.2015 - art. 2)
 
-#### Hoofdstuk 23 - Verwerking van persoonsgegevens             Chapitre 23 - Traitement des données à caractère personnel
+### Hoofdstuk 23 - Verwerking van persoonsgegevens             Chapitre 23 - Traitement des données à caractère personnel
 
-##### Afdeling 1 - Bepalingen die aan alle             Section 1re - Dispositions communes à l'ensemble des gegevensverwerkingen gemeenschappelijk zijn                           traitements de données
+#### Afdeling 1 - Bepalingen die aan alle             Section 1re - Dispositions communes à l'ensemble des gegevensverwerkingen gemeenschappelijk zijn                           traitements de données
 
-## Art. 3.23.1.0.1
+###### Art. 3.23.1.0.1
 
-Art. 3.23.1.0.1.
+###### Art. 3.23.1.0.1.
 De bevoegde entiteit van de Vlaamse administratie kan      L'entité compétente de l'administration flamande peut persoonsgegevens verwerken als dat noodzakelijk is         traiter les données à caractère personnel si cela est voor de vervulling van een taak van algemeen belang,       nécessaire à l'accomplissement d'une tâche d'intérêt namelijk om de juiste heffing en inning van alle           général, à savoir le prélèvement et la perception corrects belastingen, vermeld in deze codex, te kunnen              de toutes les taxes visées dans le présent code. verzekeren.
 De bevoegde entiteit van de Vlaamse administratie is       L'entité compétente de l'administration flamande est le verwerkingsverantwoordelijke als vermeld in artikel 4,     responsable du traitement, visé à l'article 4, 7), du 7), van verordening (EU) 2016/679 van het Europees         règlement (UE) 2016/679 du Parlement européen et du Parlement en de Raad van 27 april 2016 betreffende de      Conseil du 27 avril 2016 relatif à la protection des bescherming van natuurlijke personen in verband met de     personnes physiques à l'égard du traitement des données verwerking van persoonsgegevens en betreffende het         à caractère personnel et à la libre circulation de ces vrije verkeer van die gegevens en tot intrekking van       données et abrogeant la directive 95/46/CE (règlement Richtlijn    95/46/EG      (algemene       verordening     général sur la protection des données), aux fins du gegevensbescherming), voor de verwerking van de            traitement des données à caractère personnel, figurant à persoonsgegevens, vermeld in het eerste lid.               l'alinéa 1er.
 ---- historiek ----                                       ---- historique ---- - Ingevoegd door art. 8 van het decreet van 19.04.2024    - Inséré par l’art. 8 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024          03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.1.0.2
+###### Art. 3.23.1.0.2
 
-Art. 3.23.1.0.2.
+###### Art. 3.23.1.0.2.
 De volgende categorieën van persoonsgegevens worden        Les catégories suivantes de données à caractère in het kader van de toepassing van artikel 3.23.1.0.1,     personnel sont traitées aux fins de l'article 3.23.1.0.1, eerste lid, van deze codex, verwerkt:                      alinéa 1er du présent code :
 1° het rijksregisternummer of het identificatienummer,     1° le numéro du registre national ou le numéro vermeld in artikel 8 van de wet van 15 januari 1990        d'identification, figurant à l'article 8 de la loi du 15 houdende oprichting en organisatie van een                 janvier 1990 relative à l'institution et à l'organisation Kruispuntbank van de Sociale Zekerheid;                    d'une Banque-carrefour de la sécurité sociale ;
 2° het ondernemingsnummer dat bekend is bij de             2° le numéro d'entreprise enregistré auprès de la Kruispuntbank van Ondernemingen;                           Banque-Carrefour des Entreprises ;
@@ -11696,9 +11700,9 @@ De volgende categorieën van persoonsgegevens worden        Les catégories suiv
 6° de financiële bijzonderheden.                           6° les particularités financières.
 ---- historiek ----                                       ---- historique ---- - Ingevoegd door art. 9 van het decreet van 19.04.2024    - Inséré par l’art. 9 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024          03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.1.0.3
+###### Art. 3.23.1.0.3
 
-Art. 3.23.1.0.3.
+###### Art. 3.23.1.0.3.
 De persoonsgegevens van de volgende categorieën van        Les données à caractère personnel des catégories betrokkenen kunnen in het kader van de toepassing van      suivantes de personnes concernées peuvent être traitées
 
 artikel 3.23.1.0.1, eerste lid, worden verwerkt:               aux fins de l'article 3.23.1.0.1, alinéa 1er :
@@ -11710,9 +11714,9 @@ artikel 3.23.1.0.1, eerste lid, worden verwerkt:               aux fins de l'art
 De persoonsgegevens van de categorieën van                     Les données à caractère personnel des catégories de betrokkenen, vermeld in het eerste lid, worden alleen          personnes concernées visées à l'alinéa 1er ne sont verwerkt als dat noodzakelijk is voor het concrete doel        traitées que si cela est nécessaire à la finalité concrète van de gegevensverwerking.                                     du traitement des données.
 ---- historiek ----                                           ---- historique ---- - Ingevoegd door art. 10 van het decreet van 19.04.2024       - Inséré par l’art. 10 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024              03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.1.0.4
+###### Art. 3.23.1.0.4
 
-Art. 3.23.1.0.4.
+###### Art. 3.23.1.0.4.
 § 1. Met behoud van de toepassing van paragraaf 2              § 1er. Sous réserve de l'application du paragraphe 2, aux kunnen in het kader van de toepassing van artikel              fins de l'article 3.23.1.0.1, alinéa 1er, les données à 3.23.1.0.1, eerste lid, de persoonsgegevens, vermeld in        caractère personnel visées à l'article 3.23.1.0.2 peuvent artikel 3.23.1.0.2, uitgewisseld worden met de volgende        être échangées avec les catégories de destinataires categorieën van ontvangers:                                    suivantes :
 1° de advocaten die in opdracht van de bevoegde entiteit       1° les avocats qui, pour le compte de l'entité compétente van de Vlaamse administratie het Vlaamse Gewest                de l'administration flamande, représentent la Région vertegenwoordigen in geschillen over de toepassing van         flamande dans les litiges relatifs à l'application du deze codex;                                                    présent code ;
 2° de gerechtsdeurwaarders die in opdracht van de              2° les huissiers de justice qui, pour le compte de l'entité bevoegde entiteit van de Vlaamse administratie de              compétente de l'administration flamande, perçoivent les belastingen, vermeld in deze codex, invorderen;                taxes prévues par le présent code ;
@@ -11728,17 +11732,17 @@ administratie aan een derde de uitvoering toevertrouwt          flamande confie 
 De derden, vermeld in het eerste lid, kunnen alleen over        Les tiers, visés à l'alinéa 1er, ne peuvent disposer des de beoogde persoonsgegevens beschikken gedurende de             données à caractère personnel concernées que pour le tijd die nodig is voor de uitvoering van de handelingen,        temps nécessaire à l'exécution des actes, visés à l'alinéa vermeld in het eerste lid, en kunnen die                        1er et ne peuvent utiliser ces données à caractère persoonsgegevens uitsluitend voor dat doel gebruiken.           personnel qu'à cette fin.
 ---- historiek ----                                             ---- historique ---- - Ingevoegd door art. 11 van het decreet van 19.04.2024         - Inséré par l’art. 11 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024                03.06.2024). En vigueur le 13.06.2024
 
-##### Afdeling 2 - Gegevensverwerking voor de onroerende             Section 2 - Traitement de données aux fins du précompte voorheffing, heffing ongeschikte en onbewoonbare              immobilier, de la redevance sur les logements inadéquats woningen en leegstandsheffing bedrijfsruimten                et inhabitables et de la redevance sur les sites d'activité économique inoccupés
+#### Afdeling 2 - Gegevensverwerking voor de onroerende             Section 2 - Traitement de données aux fins du précompte voorheffing, heffing ongeschikte en onbewoonbare              immobilier, de la redevance sur les logements inadéquats woningen en leegstandsheffing bedrijfsruimten                et inhabitables et de la redevance sur les sites d'activité économique inoccupés
 
-## Art. 3.23.2.0.1
+###### Art. 3.23.2.0.1
 
-Art. 3.23.2.0.1.
+###### Art. 3.23.2.0.1.
 Met behoud van de toepassing van afdeling 1 zijn de             Sans préjudice de l'application de la section 1re, les bepalingen van deze afdeling van toepassing op de               dispositions de la présente section régissent le gegevensverwerking die noodzakelijk is voor de juiste           traitement des données nécessaires au prélèvement et à heffing en inning van de belastingen, vermeld in titel 2,       la perception corrects des taxes visées au titre 2, hoofdstuk 1, 5 en 6.                                            chapitres 1er, 5 et 6.
 ---- historiek ----                                             ---- historique ---- - Ingevoegd door art. 13 van het decreet van 19.04.2024         - Inséré par l’art. 13 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024                03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.2.0.2
+###### Art. 3.23.2.0.2
 
-Art. 3.23.2.0.2.
+###### Art. 3.23.2.0.2.
 In het kader van de gegevensverwerking, vermeld in              Dans le cadre du traitement des données visé à l'article artikel 3.23.2.0.1, kunnen naast de categorieën van             3.23.2.0.1, outre les catégories de données à caractère persoonsgegevens, vermeld in artikel 3.23.1.0.2, de             personnel visées à l'article 3.23.1.0.2, les catégories volgende specifieke categorieën van persoonsgegevens            spécifiques suivantes de données à caractère personnel worden verwerkt:                                                peuvent être traitées :
 1° beeldopnamen, namelijk plannen, plattegronden en             1° les enregistrements visuels, à savoir plans, cartes et foto's van onroerende goederen;                                 photographies de biens immobiliers ;
 2° de gebouw- of woningkenmerken;                               2° les caractéristiques du bâtiment ou du logement ;
@@ -11747,9 +11751,9 @@ In het kader van de gegevensverwerking, vermeld in              Dans le cadre du
 2°.
 ---- historiek ----                                             ---- historique ---- - Ingevoegd door art. 14 van het decreet van 19.04.2024         - Inséré par l’art. 14 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024                03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.2.0.3
+###### Art. 3.23.2.0.3
 
-Art. 3.23.2.0.3.
+###### Art. 3.23.2.0.3.
 In het kader van de gegevenswerking, vermeld in artikel         Dans le cadre du traitement des données visé à l'article 3.23.2.0.1, kunnen naast de persoonsgegevens van de             3.23.2.0.1, outre les données à caractère personnel des categorieën van betrokkenen, vermeld in artikel                 catégories de personnes concernées, visées à l'article
 
 3.23.1.0.3, de persoonsgegevens van de volgende              3.23.1.0.3, les données à caractère personnel des categorieën van betrokkenen worden verwerkt:                 catégories suivantes de personnes concernées peuvent être traitées :
@@ -11761,25 +11765,25 @@ De persoonsgegevens van de categorieën van                   Les données à ca
 
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 15 van het decreet van 19.04.2024     - Inséré par l’art. 16 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.2.0.4
+###### Art. 3.23.2.0.4
 
-Art. 3.23.2.0.4.
+###### Art. 3.23.2.0.4.
 Met behoud van de toepassing van de noodzakelijke            Sans préjudice de l'application de la conservation bewaring ervan voor de latere verwerking met het oog         nécessaire des données personnelles en vue du op archivering in het algemeen belang, wetenschappelijk      traitement ultérieur, à des fins archivistiques dans of historisch onderzoek of statistische doeleinden,          l'intérêt public, à des fins de recherche scientifique ou vermeld in artikel 89 van verordening (EU) 2016/679          historique ou à des fins statistiques, visées à l'article 89 van het Europees Parlement en de Raad van 27 april           du règlement (UE) 2016/679 du Parlement européen et 2016 betreffende de bescherming van natuurlijke              du Conseil du 27 avril 2016 relatif à la protection des personen in verband met de verwerking van                    personnes physiques à l'égard du traitement des données persoonsgegevens en betreffende het vrije verkeer van        à caractère personnel et à la libre circulation de ces die gegevens en tot intrekking van Richtlijn 95/46/EG        données, et abrogeant la directive 95/46/CE (règlement (algemene verordening gegevensbescherming), worden           général sur la protection des données), les données à de persoonsgegevens, vermeld in artikel 3.23.2.0.2,          caractère personnel visées à l'article 3.23.2.0.2, sont bewaard gedurende tien jaar na de betaling of de             conservées pendant dix ans après le paiement ou la verjaring van de belastingen, vermeld in artikel             prescription des taxes, visées à l'article 3.23.2.0.1, ou, le 3.23.2.0.1, of, in voorkomend geval, tien jaar na de         cas échéant, pendant dix ans après la fin définitive de la definitieve beëindiging van de administratieve               procédure administrative et le paiement intégral de tous procedure en de integrale betaling van alle bedragen die     les montants y afférents. daaraan verbonden zijn.
 
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 16 van het decreet van 19.04.2024     - Inséré par l’art. 16 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-##### Afdeling 3 - Gegevensverwerking voor de               Section 3 - Traitement de données aux fins de la taxe de verkeersbelasting, de belasting op inverkeerstelling, de        circulation, de la taxe de mise en circulation, du kilometerheffing en het eurovignet                       prélèvement kilométrique et de l'eurovignette
+#### Afdeling 3 - Gegevensverwerking voor de               Section 3 - Traitement de données aux fins de la taxe de verkeersbelasting, de belasting op inverkeerstelling, de        circulation, de la taxe de mise en circulation, du kilometerheffing en het eurovignet                       prélèvement kilométrique et de l'eurovignette
 
-## Art. 3.23.3.0.1
+###### Art. 3.23.3.0.1
 
-Art. 3.23.3.0.1.
+###### Art. 3.23.3.0.1.
 Met behoud van de toepassing van afdeling 1 zijn de          Sans préjudice de l'application de la section 1re, les bepalingen van deze afdeling van toepassing op de            dispositions de la présente section régissent le gegevensverwerking die noodzakelijk is voor de juiste        traitement des données nécessaires au prélèvement et à inning en heffing van de belastingen, vermeld in titel 2,    la perception corrects des taxes visées au titre 2, hoofdstuk 2, 3 en 4, en het eurovignet.                      chapitres 2, 3 et 4, et de l'eurovignette.
 
 ---- historiek ----                                          ---- historique ---- - Ingevoegd door art. 18 van het decreet van 19.04.2024      - Inséré par l’art. 18 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024             03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.3.0.2
+###### Art. 3.23.3.0.2
 
-Art. 3.23.3.0.2.
+###### Art. 3.23.3.0.2.
 In het kader van de gegevensverwerking, vermeld in           Dans le cadre du traitement des données visé à l'article artikel 3.23.3.0.1, kunnen naast de categorieën van          3.23.3.0.1, outre les catégories de données à caractère persoonsgegevens, vermeld in artikel 3.23.1.0.2, de          personnel visées à l'article 3.23.1.0.2, les catégories volgende specifieke categorieën van persoonsgegevens         spécifiques suivantes de données à caractère personnel worden verwerkt:                                             peuvent être traitées :
 1° de voertuig-, boot- of luchtvaartuigkenmerken;            1° les caractéristiques du véhicule, du navire ou de l'aéronef ;
 2° de gegevens over de samenstelling van het gezin;          2° les données relatives à la composition du ménage ;
@@ -11791,32 +11795,32 @@ Met behoud van de toepassing van het eerste lid worden       Sans préjudice de 
 4° de voertuigkenmerken.                                     4° les caractéristiques du véhicule.
 ---- historiek ----                                          ---- historique ---- - Ingevoegd door art. 19 van het decreet van 19.04.2024      - Inséré par l’art. 19 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024             03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.3.0.3
+###### Art. 3.23.3.0.3
 
-Art. 3.23.3.0.3.
+###### Art. 3.23.3.0.3.
 In het kader van de gegevensverwerking, vermeld in           Dans le cadre du traitement des données visé à l'article artikel 3.23.3.0.1, kunnen naast de persoonsgegevens         3.23.3.0.1, outre les données à caractère personnel des van de categorieën van betrokkenen, vermeld in artikel       catégories de personnes concernées, visées à l'article 3.23.1.0.3, de persoonsgegevens van de persoon met een       3.23.1.0.3, les données à caractère personnel de la handicap en de grootoorlogsinvalide, vermeld in artikel      personne handicapée et du grand invalide de guerre, 2.2.6.0.1 en 2.3.6.0.1, worden verwerkt.                     visés aux articles 2.2.6.0.1 et 2.3.6.0.1, peuvent être traitées.
 De persoonsgegevens van de betrokkenen, vermeld in           Les données à caractère personnel des personnes het eerste lid, worden alleen verwerkt als dat               concernées visées à l'alinéa 1er ne sont traitées que si noodzakelijk is voor het concrete doel van de                cela est nécessaire à la finalité concrète du traitement gegevensverwerking.                                          des données.
 ---- historiek ----                                          ---- historique ---- - Ingevoegd door art. 20 van het decreet van 19.04.2024      - Inséré par l’art. 20 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024             03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.3.0.4
+###### Art. 3.23.3.0.4
 
-Art. 3.23.3.0.4.
+###### Art. 3.23.3.0.4.
 Met behoud van de toepassing van de noodzakelijke            Sans préjudice de l'application de la conservation bewaring ervan voor de latere verwerking met het oog         nécessaire des données personnelles en vue du op archivering in het algemeen belang, wetenschappelijk      traitement ultérieur, à des fins archivistiques dans of historisch onderzoek of statistische doeleinden,          l'intérêt public, à des fins de recherche scientifique ou vermeld in artikel 89 van verordening (EU) 2016/679          historique ou à des fins statistiques, visées à l'article 89 van het Europees Parlement en de Raad van 27 april           du règlement (UE) 2016/679 du Parlement européen et 2016 betreffende de bescherming van natuurlijke              du Conseil du 27 avril 2016 relatif à la protection des personen in verband met de verwerking van                    personnes physiques à l'égard du traitement des données persoonsgegevens en betreffende het vrije verkeer van        à caractère personnel et à la libre circulation de ces die gegevens en tot intrekking van Richtlijn 95/46/EG        données, et abrogeant la directive 95/46/CE (règlement (algemene verordening gegevensbescherming), worden           général sur la protection des données), les données à de persoonsgegevens, vermeld in artikel 3.23.3.0.2,          caractère personnel visées à l'article 3.23.3.0.2, sont bewaard gedurende tien jaar na de betaling of de             conservées pendant dix ans après le paiement ou la verjaring van de belastingen, vermeld in artikel             prescription des taxes, visées à l'article 3.23.3.0.1, ou, le 3.23.3.0.1, of, in voorkomend geval, tien jaar na de         cas échéant, pendant dix ans après la fin définitive de la definitieve beëindiging van de administratieve               procédure administrative et le paiement intégral de tous procedure en de integrale betaling van alle bedragen die     les montants y afférents. daaraan verbonden zijn.
 In afwijking van het eerste lid worden de                    Par dérogation à l'alinéa 1er, les données à caractère persoonsgegevens, vermeld in artikel 3.23.3.0.2, tweede      personnel, visées à l'article 3.23.3.0.2, alinéa 2, qui lid, die aanleiding geven tot een vaststelling op de         donnent lieu à une constatation sur la voie publique, openbare weg als vermeld in artikel 3.13.2.0.4, § 1,         visée à l'article 3.13.2.0.4, § 1er, sont conservées negentig dagen na die vaststelling bewaard.                  pendant nonante jours après cette constatation.
 
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 21 van het decreet van 19.04.2024     - Inséré par l’art. 21 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-##### Afdeling 4 - Gegevensverwerking voor de erfbelasting        Section 4 - Traitement de données aux fins des droits de succession
+#### Afdeling 4 - Gegevensverwerking voor de erfbelasting        Section 4 - Traitement de données aux fins des droits de succession
 
-## Art. 3.23.4.0.1
+###### Art. 3.23.4.0.1
 
-Art. 3.23.4.0.1.
+###### Art. 3.23.4.0.1.
 Met behoud van de toepassing van afdeling 1 zijn de          Sans préjudice de l'application de la section 1re, les bepalingen van deze afdeling van toepassing op de            dispositions de la présente section régissent le gegevensverwerking die noodzakelijk is voor de juiste        traitement des données nécessaires au prélèvement et à heffing en inning van de belastingen, vermeld in titel 2,    la perception corrects des taxes visées au titre 2, chapitre hoofdstuk 7.                                                 7.
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 23 van het decreet van 19.04.2024     - Inséré par l’art. 23 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.4.0.2
+###### Art. 3.23.4.0.2
 
-Art. 3.23.4.0.2.
+###### Art. 3.23.4.0.2.
 In het kader van de gegevensverwerking, vermeld in           Dans le cadre du traitement des données visé à l'article artikel 3.23.4.0.1, kunnen naast de categorieën van          3.23.4.0.1, outre les catégories de données à caractère persoonsgegevens, vermeld in artikel 3.23.1.0.2, de          personnel visées à l'article 3.23.1.0.2, les catégories volgende specifieke categorieën van persoonsgegevens         spécifiques suivantes de données à caractère personnel worden verwerkt:                                             peuvent être traitées :
 1° beeldopnamen, namelijk plannen, plattegronden en          1° les enregistrements visuels, à savoir plans, cartes et foto's van onroerende goederen;                              photographies de biens immobiliers ;
 2° de gebouw- of woningkenmerken;                            2° les caractéristiques du bâtiment ou du logement ;
@@ -11826,9 +11830,9 @@ In het kader van de gegevensverwerking, vermeld in           Dans le cadre du tr
 5° gerechtelijke gegevens met betrekking tot de            5° les données judiciaires relatives à l'indignité de venir onwaardigheid om tot een nalatenschap te komen,            à la succession, visée à l'article 4.6 du Code civil. vermeld in artikel 4.6 van het Burgerlijk Wetboek.
 ---- historiek ----                                        ---- historique ---- - Ingevoegd door art. 24 van het decreet van 19.04.2024    - Inséré par l’art. 24 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024           03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.4.0.3
+###### Art. 3.23.4.0.3
 
-Art. 3.23.4.0.3.
+###### Art. 3.23.4.0.3.
 In het kader van de gegevenswerking, vermeld in artikel    Dans le cadre du traitement des données visé à l'article 3.23.4.0.1, kunnen naast de persoonsgegevens van de        3.23.4.0.1, outre les données à caractère personnel des categorieën van betrokkenen, vermeld in artikel            catégories de personnes concernées, visées à l'article 3.23.1.0.3, de persoonsgegevens van de volgende            3.23.1.0.3, les données à caractère personnel des categorieën van betrokkenen worden verwerkt:               catégories suivantes de personnes concernées peuvent être traitées :
 1° de partner van de erflater;                             1° le partenaire du testateur ;
 2° de persoon die de nalatenschap verwerpt;                2° la personne qui renonce à la succession ;
@@ -11839,25 +11843,25 @@ In het kader van de gegevenswerking, vermeld in artikel    Dans le cadre du trai
 De persoonsgegevens van de categorieën van                 Les données à caractère personnel des catégories de betrokkenen, vermeld in het eerste lid, worden alleen      personnes concernées visées à l'alinéa 1er ne sont verwerkt als dat noodzakelijk is voor het concrete doel    traitées que si cela est nécessaire à la finalité concrète van de gegevensverwerking.                                 du traitement des données.
 ---- historiek ----                                        ---- historique ---- - Ingevoegd door art. 25 van het decreet van 19.04.2024    - Inséré par l’art. 25 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024           03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.4.0.4
+###### Art. 3.23.4.0.4
 
-Art. 3.23.4.0.4.
+###### Art. 3.23.4.0.4.
 
 Met behoud van de toepassing van de noodzakelijke          Sans préjudice de l'application de la conservation bewaring ervan voor de latere verwerking met het oog       nécessaire des données personnelles en vue du op archivering in het algemeen belang, wetenschappelijk    traitement ultérieur, à des fins archivistiques dans of historisch onderzoek of statistische doeleinden,        l'intérêt public, à des fins de recherche scientifique ou vermeld in artikel 89 van verordening (EU) 2016/679        historique ou à des fins statistiques, visées à l'article 89 van het Europees Parlement en de Raad van 27 april         du règlement (UE) 2016/679 du Parlement européen et 2016 betreffende de bescherming van natuurlijke            du Conseil du 27 avril 2016 relatif à la protection des personen in verband met de verwerking van                  personnes physiques à l'égard du traitement des données persoonsgegevens en betreffende het vrije verkeer van      à caractère personnel et à la libre circulation de ces die gegevens en tot intrekking van Richtlijn 95/46/EG      données, et abrogeant la directive 95/46/CE (règlement (algemene verordening gegevensbescherming), worden         général sur la protection des données), les données à de persoonsgegevens, vermeld in artikel 3.23.4.0.2,        caractère personnel visées à l'article 3.23.4.0.2, sont bewaard gedurende dertig jaar na de betaling of de         conservées pendant trente ans après le paiement ou la verjaring van de belastingen, vermeld in artikel           prescription des taxes, visées à l'article 3.23.4.0.1, ou, le 3.23.4.0.1, of, in voorkomend geval, dertig jaar na de     cas échéant, pendant trente ans après la fin définitive de definitieve beëindiging van de administratieve             la procédure administrative et le paiement intégral de procedure en de integrale betaling van alle bedragen die   tous les montants y afférents. daaraan verbonden zijn.
 
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 26 van het decreet van 19.04.2024     - Inséré par l’art. 26 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-##### Afdeling 5 - Gegevensverwerking voor de              Section 5 - Traitement de données aux fins de la taxe registratiebelasting                                        d'enregistrement
+#### Afdeling 5 - Gegevensverwerking voor de              Section 5 - Traitement de données aux fins de la taxe registratiebelasting                                        d'enregistrement
 
-## Art. 3.23.5.0.1
+###### Art. 3.23.5.0.1
 
-Art. 3.23.5.0.1.
+###### Art. 3.23.5.0.1.
 Met behoud van de toepassing van afdeling 1 zijn de         Sans préjudice de l'application de la section 1re, les bepalingen van deze afdeling van toepassing op de           dispositions de la présente section régissent le gegevensverwerking die noodzakelijk is voor de juiste       traitement des données nécessaires au prélèvement et à heffing en inning van de belastingen, vermeld in titel 2,   la perception corrects des taxes visées au titre 2, hoofdstuk 8, 9, 10 en 11.                                   chapitres 8, 9, 10 et 11.
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 28 van het decreet van 19.04.2024     - Inséré par l’art. 28 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.5.0.2
+###### Art. 3.23.5.0.2
 
-Art. 3.23.5.0.2.
+###### Art. 3.23.5.0.2.
 In het kader van de gegevensverwerking, vermeld in          Dans le cadre du traitement des données visé à l'article artikel 3.23.5.0.1, kunnen naast de categorieën van         3.23.5.0.1, outre les catégories de données à caractère persoonsgegevens, vermeld in artikel 3.23.1.0.2, de         personnel visées à l'article 3.23.1.0.2, les catégories volgende specifieke categorieën van persoonsgegevens        spécifiques suivantes de données à caractère personnel worden verwerkt:                                            peuvent être traitées :
 1° beeldopnamen, namelijk plannen, plattegronden en         1° les enregistrements visuels, à savoir plans, cartes et foto's van onroerende goederen;                             photographies de biens immobiliers ;
 2° de gebouw- en woningkenmerken;                           2° les caractéristiques du bâtiment et du logement ;
@@ -11865,66 +11869,66 @@ In het kader van de gegevensverwerking, vermeld in          Dans le cadre du tra
 4° de gegevens over de gezondheid die noodzakelijk zijn     4° les données de santé nécessaires à l'octroi de voor de toekenning van het abattement, vermeld in           l'abattement visé à l'article 2.8.3.0.4. artikel 2.8.3.0.4.
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 29 van het decreet van 19.04.2024     - Inséré par l’art. 29 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.5.0.3
+###### Art. 3.23.5.0.3
 
-Art. 3.23.5.0.3.
+###### Art. 3.23.5.0.3.
 Met behoud van de toepassing van de noodzakelijke           Sans préjudice de l'application de la conservation bewaring ervan voor de latere verwerking met het oog        nécessaire des données personnelles en vue du op archivering in het algemeen belang, wetenschappelijk     traitement ultérieur, à des fins archivistiques dans of historisch onderzoek of statistische doeleinden,         l'intérêt public, à des fins de recherche scientifique ou vermeld in artikel 89 van verordening (EU) 2016/679         historique ou à des fins statistiques, visées à l'article 89 van het Europees Parlement en de Raad van 27 april          du règlement (UE) 2016/679 du Parlement européen et 2016 betreffende de bescherming van natuurlijke             du Conseil du 27 avril 2016 relatif à la protection des personen in verband met de verwerking van                   personnes physiques à l'égard du traitement des données persoonsgegevens en betreffende het vrije verkeer van       à caractère personnel et à la libre circulation de ces die gegevens en tot intrekking van Richtlijn 95/46/EG       données, et abrogeant la directive 95/46/CE (règlement (algemene verordening gegevensbescherming), worden          général sur la protection des données), les données à de persoonsgegevens, vermeld in artikel 3.23.5.0.2,         caractère personnel visées à l'article 3.23.5.0.2, sont bewaard gedurende dertig jaar na de betaling of de          conservées pendant trente ans après le paiement ou la verjaring van de belastingen, vermeld in artikel            prescription des taxes, visées à l'article 3.23.5.0.1, ou, le 3.23.5.0.1, of, in voorkomend geval, dertig jaar na de      cas échéant, pendant trente ans après la fin définitive de definitieve beëindiging van de administratieve              la procédure administrative et le paiement intégral de procedure en de integrale betaling van alle bedragen die    tous les montants y afférents. daaraan verbonden zijn.
 
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 30 van het decreet van 19.04.2024     - Inséré par l’art. 30 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-##### Afdeling 6 - Gegevensverwerking voor de belasting op de Section 6 - Traitement de données aux fins de la taxe sur spelen en weddenschappen en de belasting op de             les jeux et paris et de la taxe sur les appareils automatische ontspanningstoestellen                        automatiques de divertissement
+#### Afdeling 6 - Gegevensverwerking voor de belasting op de Section 6 - Traitement de données aux fins de la taxe sur spelen en weddenschappen en de belasting op de             les jeux et paris et de la taxe sur les appareils automatische ontspanningstoestellen                        automatiques de divertissement
 
-## Art. 3.23.6.0.1
+###### Art. 3.23.6.0.1
 
-Art. 3.23.6.0.1.
+###### Art. 3.23.6.0.1.
 Behoudens de toepassing van afdeling 1 zijn de              Sans préjudice de l'application de la section 1re, les bepalingen van deze afdeling van toepassing op de           dispositions de la présente section régissent le gegevensverwerking die noodzakelijk is voor de juiste       traitement des données nécessaires au prélèvement et à heffing en inning van de belastingen, vermeld in titel 2,   la perception corrects des taxes visées au titre 2, hoofdstuk 12 en 13.                                         chapitres 12 et 13.
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 32 van het decreet van 19.04.2024     - Inséré par l’art. 32 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.6.0.2
+###### Art. 3.23.6.0.2
 
-Art. 3.23.6.0.2.
+###### Art. 3.23.6.0.2.
 In het kader van de gegevensverwerking, vermeld in          Dans le cadre du traitement des données visé à l'article artikel 3.23.6.0.1, kunnen naast de categorieën van         3.23.6.0.1, outre les catégories de données à caractère persoonsgegevens, vermeld in artikel 3.23.1.0.2,            personnel visées à l'article 3.23.1.0.2, les beeldopnamen          van        de         automatische    enregistrements visuels des appareils automatiques de ontspanningstoestellen, de toestellen voor de aanneming     divertissement, des appareils d'engagement de paris, des van weddenschappen, de kansspelen en de                     jeux de hasard et des permis accordés par la vergunningen, toegekend door de Kansspelcommissie,          Commission des jeux de hasard peuvent être traités. worden verwerkt.
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 33 van het decreet van 19.04.2024     - Inséré par l’art. 33 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-## Art. 3.23.6.0.3
+###### Art. 3.23.6.0.3
 
-Art. 3.23.6.0.3.
+###### Art. 3.23.6.0.3.
 Met behoud van de toepassing van de noodzakelijke           Sans préjudice de l'application de la conservation bewaring ervan voor de latere verwerking met het oog        nécessaire des données personnelles en vue du op archivering in het algemeen belang, wetenschappelijk     traitement ultérieur, à des fins archivistiques dans of historisch onderzoek of statistische doeleinden,         l'intérêt public, à des fins de recherche scientifique ou vermeld in artikel 89 van verordening (EU) 2016/679         historique ou à des fins statistiques, visées à l'article 89 van het Europees Parlement en de Raad van 27 april          du règlement (UE) 2016/679 du Parlement européen et 2016 betreffende de bescherming van natuurlijke             du Conseil du 27 avril 2016 relatif à la protection des personen in verband met de verwerking van                   personnes physiques à l'égard du traitement des données persoonsgegevens en betreffende het vrije verkeer van       à caractère personnel et à la libre circulation de ces die gegevens en tot intrekking van Richtlijn 95/46/EG       données, et abrogeant la directive 95/46/CE (règlement (algemene verordening gegevensbescherming), worden          général sur la protection des données), les données à de persoonsgegevens, vermeld in artikel 3.23.6.0.2,         caractère personnel visées à l'article 3.23.6.0.2, sont bewaard gedurende tien jaar na de betaling of de            conservées pendant dix ans après le paiement ou la verjaring van de belastingen, vermeld in artikel            prescription des taxes, visées à l'article 3.23.6.0.1, ou, le 3.23.6.0.1, of, in voorkomend geval, tien jaar na de        cas échéant, pendant dix ans après la fin définitive de la definitieve beëindiging van de administratieve              procédure administrative et le paiement intégral de tous procedure en de integrale betaling van alle bedragen die    les montants y afférents. daaraan verbonden zijn.
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 34 van het decreet van 19.04.2024     - Inséré par l’art. 34 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-### TITEL 4 - Wijzigingsbepalingen                            TITRE 4 - Dispositions modificatives
-#### Hoofdstuk 1 - Wijzigingen van het wetboek van 23            Chapitre 1er - Modifications du code du 23 novembre november 1965 van de met inkomstenbelastingen                1965 des taxes assimilées aux impôts sur les revenus gelijkgestelde belastingen
+## TITEL 4 - Wijzigingsbepalingen                            TITRE 4 - Dispositions modificatives
+### Hoofdstuk 1 - Wijzigingen van het wetboek van 23            Chapitre 1er - Modifications du code du 23 novembre november 1965 van de met inkomstenbelastingen                1965 des taxes assimilées aux impôts sur les revenus gelijkgestelde belastingen
 
-## Art. 4.1.0.0.1
+###### Art. 4.1.0.0.1
 
-Art. 4.1.0.0.1.
+###### Art. 4.1.0.0.1.
 
-## Art. 95
+###### Art. 95
 
 van het wetboek van 23 november 1965 van         L'article 95 du code du 23 novembre 1965 des taxes de met inkomstenbelastingen gelijkgestelde belastingen,     assimilées aux impôts sur les revenus, inséré par la loi ingevoegd bij de wet van 1 juni 1992 en het laatst          du 1er juin 1992 et modifié en dernier lieu par le décret gewijzigd bij het decreet van 23 december 2010, wordt       du 23 décembre 2010, est remplacé par les dispositions vervangen door wat volgt:                                   suivantes :
 
 "Art. 95. Artikel 35 is van toepassing op de belasting op   « Art. 95. L'article 35 s'applique à la taxe de mise en de inverkeerstelling.".                                     circulation. ».
 
-#### Hoofdstuk 2 - Wijzigingen van het decreet van 22  Chapitre 2 - Modifications au décret du 22 décembre december 1995 houdende bepalingen tot begeleiding 1995 contenant diverses mesures d'accompagnement du van de begroting 1996                                    budget 1996
+### Hoofdstuk 2 - Wijzigingen van het decreet van 22  Chapitre 2 - Modifications au décret du 22 décembre december 1995 houdende bepalingen tot begeleiding 1995 contenant diverses mesures d'accompagnement du van de begroting 1996                                    budget 1996
 
-## Art. 4.2.0.0.1
+###### Art. 4.2.0.0.1
 
-Art. 4.2.0.0.1.
+###### Art. 4.2.0.0.1.
 
 Aan artikel 24 van het decreet van 22 december 1995         L'article 24 du décret du 22 décembre 1995 contenant houdende bepalingen tot begeleiding van de begroting        diverses mesures d'accompagnement du budget 1996, 1996, gewijzigd bij de decreten van 8 juli 1997, 7 juli     modifié par les décrets des 8 juillet 1997, 7 juillet 1998, 1998, 24 maart 2006 en 29 april 2011, worden 9° en 10°      24 mars 2006 et 29 avril 2011, est complété par 9° et toegevoegd, die luiden als volgt:                           10°, rédigés comme suit :
 
 "9° inventaris: de inventaris, vermeld in artikel 28;       « 9° inventaire : l'inventaire visé à l'article 28;
 10° houder van een zakelijk recht: de persoon, vermeld      10° détenteur d'un droit réel : la personne, citée dans in artikel 2.5.2.0.1 van de Vlaamse Codex Fiscaliteit van   l'article 2.5.2.0.1 du Code flamand de la Fiscalité du 13 13 december 2013.".                                         décembre 2013. ».
 
-## Art. 4.2.0.0.2
+###### Art. 4.2.0.0.2
 
-Art. 4.2.0.0.2.
+###### Art. 4.2.0.0.2.
 
 In hoofdstuk VIII, afdeling 2, van hetzelfde decreet, het   Dans le chapitre VIII, section 2, du même décret, laatst gewijzigd bij het decreet van 9 november 2012,       modifié en dernier lieu par le décret du 9 novembre wordt onderafdeling 1, die bestaat uit artikel 25 en 26,    2012, la sous-section 1re, comprenant les articles 25 et opgeheven.                                                  26, est abrogée.
 
-## Art. 4.2.0.0.3
+###### Art. 4.2.0.0.3
 
-Art. 4.2.0.0.3.
+###### Art. 4.2.0.0.3.
 
 In artikel 27 van hetzelfde decreet, gewijzigd bij de       A l'article 27 du même décret, modifié par les décrets decreten van 7 mei 2004, 24 december 2004, 23               des 7 mai 2004, 24 décembre 2004, 23 décembre 2005, december 2005, 24 maart 2006, 16 juni 2006 en 27 maart      24 mars 2006, 16 juin 2006 et 27 mars 2009, les 2009, worden de volgende wijzigingen aangebracht:           modifications suivantes sont apportées :
 
@@ -11935,82 +11939,82 @@ In artikel 27 van hetzelfde decreet, gewijzigd bij de       A l'article 27 du m�
 " § 3. De instrumenterende ambtenaar, belast met de          « § 3. Le fonctionnaire instrumentant, chargé du overdracht van het zakelijk recht, vermeld in artikel        transfert du droit réel, cité dans l'article 2.5.2.0.1, § 1er, 2.5.2.0.1, § 1, van de Vlaamse Codex Fiscaliteit van 13      du Code flamand de la Fiscalité du 13 décembre 2013, december 2013, moet de verkrijger van het zakelijk recht     doit informer l'attributaire du droit réel, au plus tard au uiterlijk op het ogenblik van de overdracht van het          moment du transfert du droit réel, de la notification de zakelijk recht op de hoogte brengen van de kennisgeving      la constatation d'inaptitude ou de négligence ou de la van de vaststelling tot ongeschiktheid of verwaarlozing      reprise du bâtiment et/ou de l'habitation dans ervan of van de opname van het gebouw en/of de woning        l'inventaire, cité dans les articles 28 à 35 inclus. Un in de inventaris, vermeld in artikel 28 tot en met 35. Een   formulaire rempli et signé par les deux parties est door beide partijen ingevuld en ondertekend formulier        envoyé par le notaire ou par une partie, au plus tard sept wordt door de notaris of een partij uiterlijk zeven dagen    jours après le transfert du droit réel, au gestionnaire de na de overdracht van het zakelijk recht aan de               l'inventaire et aux membres du personnel compétents, inventarisbeheerder       en      aan     de     bevoegde    cités dans l'article 1.1.0.0.2, alinéa premier, 4° du Code personeelsleden, vermeld in artikel 1.1.0.0.2, eerste lid,   flamand de la Fiscalité du 13 décembre 2013. A défaut
 4°, van de Vlaamse Codex Fiscaliteit van 13 december         de cette notification au gestionnaire de l'inventaire et 2013, gezonden. Bij ontstentenis van die kennisgeving        aux fonctionnaires visés à l'article 38, alinéa premier, le aan de inventarisbeheerder en aan de ambtenaren,             cédant du droit réel est considéré, par dérogation au § vermeld in artikel 38, eerste lid, wordt de overdrager van   1er, comme étant le redevable pour la première het zakelijk recht, in afwijking van paragraaf 1, als        redevance naissant après le transfert du droit réel. ». belastingplichtige beschouwd voor de eerstvolgende heffing die na de overdracht van het zakelijk recht ontstaat.".
 
-## Art. 4.2.0.0.4
+###### Art. 4.2.0.0.4
 
-Art. 4.2.0.0.4.
+###### Art. 4.2.0.0.4.
 
 In artikel 35 van hetzelfde decreet, gewijzigd bij de        Dans l'article du même décret, modifié par les décrets decreten van 8 juli 1997, 7 mei 2004, 24 december 2004,      des 8 juillet 1997, 7 mai 2004, 24 décembre 2004, 24 24 maart 2006, 27 maart 2009 en 29 april 2011, wordt         mars 2006, 27 mars 2009 et 29 avril 2011, la partie de de zinsnede "artikel 39, § 2," telkens vervangen door de     phrase « l'article 39, § 2, » est chaque fois remplacée par zinsnede "titel 3, hoofdstuk 5, van de Vlaamse Codex         la partie de phrase « titre 3, chapitre 5, du Code flamand Fiscaliteit van 13 december 2013,".                          de la Fiscalité du 13 décembre 2013. ».
 
-## Art. 4.2.0.0.5
+###### Art. 4.2.0.0.5
 
-Art. 4.2.0.0.5.
+###### Art. 4.2.0.0.5.
 
 In hoofdstuk VIII, afdeling 2, van hetzelfde decreet, het    Dans le chapitre VIII, section 2, du même décret, laatst gewijzigd bij het decreet van 9 november 2012,        modifié en dernier lieu par le décret du 9 novembre wordt onderafdeling 4, die bestaat uit artikel 36 en 37,     2012, la sous-section 4, comprenant les articles 36 et 37, opgeheven.                                                   est abrogée.
 
-## Art. 4.2.0.0.6
+###### Art. 4.2.0.0.6
 
-Art. 4.2.0.0.6.
+###### Art. 4.2.0.0.6.
 
-## Art. 38
+###### Art. 38
 
 van hetzelfde decreet, gewijzigd bij de           L'article 38 du même décret, modifié par les décrets des decreten van 24 december 2004 en 24 maart 2006, wordt        24 décembre 2004 et 24 mars 2006, est abrogé. opgeheven.
 
-## Art. 4.2.0.0.7
+###### Art. 4.2.0.0.7
 
-Art. 4.2.0.0.7.
+###### Art. 4.2.0.0.7.
 
-## Art. 39
+###### Art. 39
 
 van hetzelfde decreet, gewijzigd bij de           L'article 39 du même décret, modifié par les décrets des decreten van 8 juli 1996, 7 juli 1998, 30 juni 2000, 7 mei   8 juillet 1996, 7 juillet 1998, 30 juin 2000, 7 mai 2004, 2004, 24 december 2004, 24 juni 2005, 21 november            24 décembre 2004, 24 juin 2005, 21 novembre 2008, 18 2008, 18 december 2009, 29 april 2011 en 8 juli 2011,        décembre 2009, 29 avril 2011 et 8 juillet 2011, est wordt opgeheven.                                             abrogé.
 
-## Art. 4.2.0.0.8
+###### Art. 4.2.0.0.8
 
-Art. 4.2.0.0.8.
+###### Art. 4.2.0.0.8.
 
 In artikel 40 van hetzelfde decreet worden paragraaf 1       A l'article 40 du même décret les paragraphes 1er à 3 tot en met 3 en paragraaf 5 en 6 opgeheven.                  inclus et les paragraphes 5 et 6 sont abrogés.
 
-## Art. 4.2.0.0.9
+###### Art. 4.2.0.0.9
 
-Art. 4.2.0.0.9.
+###### Art. 4.2.0.0.9.
 
-## Art. 40bis
+###### Art. 40bis
 
 van hetzelfde decreet, ingevoegd bij het       L'article 48bis du même décret, inséré par le décret du decreet van 21 november 2008, wordt opgeheven.               21 novembre 2008, est abrogé.
 
-## Art. 4.2.0.0.10
+###### Art. 4.2.0.0.10
 
-Art. 4.2.0.0.10.
+###### Art. 4.2.0.0.10.
 
 In hoofdstuk VIII, afdeling 2, van hetzelfde decreet, het    Dans le chapitre VIII, section 2, du même décret, laatst gewijzigd bij het decreet van 9 november 2012,        modifié en dernier lieu par le décret du 9 novembre worden onderafdeling 6, die bestaat uit artikel 41 tot en    2012, la sous-section 6, comprenant les articles 41 à met 42bis, onderafdeling 7, die bestaat uit artikel 43 tot   42bis inclus, la sous-section 7, comprenant les articles en met 44, en onderafdeling 8, die bestaat uit artikel 44,   43 à 44 inclus et la sous-section, comprenant l'article 44, opgeheven.                                                   est abrogée.
 
-#### Hoofdstuk 3 - Wijzigingen van het decreet van 19 april Chapitre 3 - Modifications du décret du 19 avril 1995 1995 houdende maatregelen ter bestrijding en        contenant des mesures visant à lutter contre l'abandon voorkoming van leegstand en verwaarlozing van                et le délabrement de sites industriels bedrijfsruimten
+### Hoofdstuk 3 - Wijzigingen van het decreet van 19 april Chapitre 3 - Modifications du décret du 19 avril 1995 1995 houdende maatregelen ter bestrijding en        contenant des mesures visant à lutter contre l'abandon voorkoming van leegstand en verwaarlozing van                et le délabrement de sites industriels bedrijfsruimten
 
-## Art. 4.3.0.0.1
+###### Art. 4.3.0.0.1
 
-Art. 4.3.0.0.1.
+###### Art. 4.3.0.0.1.
 
 In artikel 2 van het decreet van 19 april 1995 houdende      A l'article 2 du décret du 19 avril 1995 contenant des maatregelen ter bestrijding en voorkoming van                mesures visant à lutter contre l'abandon et le leegstand en verwaarlozing van bedrijfsruimten,              délabrement de sites industriels, modifié par les décrets gewijzigd bij de decreten van 19 december 2003, 10           des 19 décembre 2003, 10 mars 2006, 23 juin 2006 et maart 2006, 23 juni 2006 en 11 mei 2012, worden 13°,         11 mai 2012, les points 13°, 14° et 16° sont appréciés.
 14° en 16° opgeheven.
 
-## Art. 4.3.0.0.2
+###### Art. 4.3.0.0.2
 
-Art. 4.3.0.0.2.
+###### Art. 4.3.0.0.2.
 
-## Art. 15
+###### Art. 15
 
 van hetzelfde decreet, vervangen bij het          L'article 15 du même décret, remplacé par le décret du decreet van 23 juni 2006, wordt opgeheven.                   23 juin 2006, est abrogé.
 
-## Art. 4.3.0.0.3
+###### Art. 4.3.0.0.3
 
-Art. 4.3.0.0.3.
+###### Art. 4.3.0.0.3.
 
-## Art. 16
+###### Art. 16
 
 van hetzelfde decreet, gewijzigd bij de           L'article 16 du même décret, modifié par les décrets des decreten van 6 juli 2001 en 23 juni 2006, wordt              6 juillet 2001 et 23 juin 2006, est abrogé. opgeheven.
 
-## Art. 4.3.0.0.4
+###### Art. 4.3.0.0.4
 
-Art. 4.3.0.0.4.
+###### Art. 4.3.0.0.4.
 
 In artikel 17 van hetzelfde decreet, gewijzigd bij de        A l'article 17 du même décret, modifié par les décrets decreten van 20 december 1996, 8 juli 1997, 5 juli 2002,     des 20 décembre 1996, 8 juillet 1997, 5 juillet 2002, 27 27 juni 2003, 10 maart 2006, 21 november 2008 en 27          juin 2003, 10 mars 2006, 21 novembre 2008 et 27 mars maart 2009, worden de volgende wijzigingen                   2009, les modifications suivantes sont apportées : aangebracht:
 
@@ -12022,75 +12026,75 @@ In artikel 17 van hetzelfde decreet, gewijzigd bij de        A l'article 17 du m
 
 4° in paragraaf 3, 4°, wordt de zinsnede "Hoofdstuk          4° au paragraphe 3°, 4°, la partie de phrase « Chapitre VIII, Afdeling 2, van het decreet van 22 december 1995       VIII, Section 2, du décret du 22 décembre 1995 houdende bepalingen tot begeleiding van de begroting         contenant diverses mesures d'accompagnement du 1996, zoals later gewijzigd" vervangen door de zinsnede      budget 1996, tel que modifié ultérieurement » est "titel 2, hoofdstuk 5, van de Vlaamse Codex Fiscaliteit      remplacé par la phrase « titre 2, chapitre 5, du Code van 13 december 2013".                                       flamand de la Fiscalité du 13 décembre 2013 ».
 
-## Art. 4.3.0.0.5
+###### Art. 4.3.0.0.5
 
-Art. 4.3.0.0.5.
+###### Art. 4.3.0.0.5.
 
-## Art. 19
+###### Art. 19
 
 van hetzelfde decreet wordt opgeheven.            L'article 19 du même décret est abrogé.
 
-## Art. 4.3.0.0.6
+###### Art. 4.3.0.0.6
 
-Art. 4.3.0.0.6.
+###### Art. 4.3.0.0.6.
 
-## Art. 20
+###### Art. 20
 
 tot en met 23 van hetzelfde decreet, gewijzigd    Les articles 20 à 23 inclus du même décret, modifiés par bij het decreet van 10 maart 2006, worden opgeheven.         le décret du 10 mars 2006, sont abrogés.
 
-## Art. 4.3.0.0.7
+###### Art. 4.3.0.0.7
 
-Art. 4.3.0.0.7.
+###### Art. 4.3.0.0.7.
 
 In hoofdstuk III van hetzelfde decreet, het laatst           Dans le chapitre VIII, section 2, du même décret, gewijzigd bij het decreet van 22 juni 2012, worden           modifié en dernier lieu par le décret du 22 juin 2012, la afdeling 2, die bestaat uit artikel 24 tot en met 33, en     section 2, comprenant les articles 24 à 3 inclus et la afdeling 3, die bestaat uit artikel 34 tot en met 41,        section 3, comprenant les article 34 à 41 inclus, sont opgeheven.                                                   abrogées.
 
-#### Hoofdstuk 4 - Wijzigingen van de Vlaamse Codex                Chapitre 4 - Modifications du Code flamand de Ruimtelijke Ordening van 15 mei 2009                       l'Aménagement du Territoire du 15 mai 2009
+### Hoofdstuk 4 - Wijzigingen van de Vlaamse Codex                Chapitre 4 - Modifications du Code flamand de Ruimtelijke Ordening van 15 mei 2009                       l'Aménagement du Territoire du 15 mai 2009
 
-## Art. 4.4.0.0.1
+###### Art. 4.4.0.0.1
 
-Art. 4.4.0.0.1.
+###### Art. 4.4.0.0.1.
 
 In artikel 2.6.17 van de Vlaamse Codex Ruimtelijke           Dans l'article 2.6.17, du Code flamand de Ordening van 15 mei 2009, wordt in paragraaf 1 de            l'Aménagement du Territoire du 15 mai 2009, au zinsnede "artikel 45 van de wetten op de                     paragraphe 1er, la partie de phrase « l'article 45 des lois rijkscomptabiliteit, gecoördineerd bij het koninklijk        coordonnées sur la Comptabilité de l'Etat » est besluit van 17 juli 1991" vervangen door de zinsnede         remplacée par la partie de phrase « l'article 12 du décret "artikel 12 van het decreet van 8 juli 2011 houdende         du 8 juillet 2011 réglant le budget, la comptabilité, regeling van de begroting, de boekhouding, de                l'attribution de subventions et le contrôle de leur toekenning van subsidies en de controle op de                utilisation, et le contrôle par la Cour des Comptes ». aanwending ervan, en de controle door het Rekenhof".
 
-## Art. 4.4.0.0.2
+###### Art. 4.4.0.0.2
 
-Art. 4.4.0.0.2.
+###### Art. 4.4.0.0.2.
 
 In titel II, hoofdstuk VI, afdeling 2, onderafdeling 7 van   Au titre II, chapitre VI, sous-section 7, du même code, dezelfde codex wordt sectie 1, dat bestaat uit artikel       la section 1re, comprenant l'article 2.6.18, est remplacé 2.6.18, vervangen door wat volgt:                            par la disposition suivante :
 
 "Sectie 1 Suppletieve toepassing van de Vlaamse Codex         « Section 1re. Application supplétive du Code flamand Fiscaliteit van 13 december 2013                              de la Fiscalité du 13 décembre 2013.
 
-## Art. 2.6.18
+###### Art. 2.6.18
 
 Onverminderd de bepalingen van of                Article 2.6.18. Sans préjudice des disposition de ou en krachtens deze afdeling, zijn de bepalingen van titel 3       vertu de la présente section, les dispositions du titre 3 du van de Vlaamse Codex Fiscaliteit van 13 december 2013         Code flamand de la Fiscalité du 13 décembre 2013 van toepassing op de planbatenheffing.".                      s'appliquent à la taxe sur les bénéfices résultant de la planification spatiale. ».
 
-#### Hoofdstuk 5 - Wijzigingen van andere decreten                    Chapitre 5 - Modifications d'autres décrets
+### Hoofdstuk 5 - Wijzigingen van andere decreten                    Chapitre 5 - Modifications d'autres décrets
 
-## Art. 4.5.0.0.1
+###### Art. 4.5.0.0.1
 
-Art. 4.5.0.0.1.
+###### Art. 4.5.0.0.1.
 
 In artikel 31 van het decreet van 5 juli 2013 tot wijziging   Dans l'article 31 du décret du 5 juillet 2013 modifiant van diverse bepalingen van het decreet van 19 april 1995      diverses dispositions du décret du 19 avril 1995 houdende maatregelen ter bestrijding en voorkoming            contenant des mesures visant à lutter contre l'abandon et van leegstand en verwaarlozing van bedrijfsruimten            le délabrement de sites industriels, la partie de phrase « wordt de zinsnede "artikel 36, § 1, van het voormelde         l'article 36, § 1er, du décret précité » est remplacée par decreet" vervangen door de zinsnede "artikel 2.6.7.4.1,       la partie de phrase « l'article 2.6.7.4.1, alinéa premier, eerste lid, van de Vlaamse Codex Fiscaliteit van 13           du Code flamand de la Fiscalité du 13 décembre 2013 december 2013.".                                              ».
 
-#### Hoofdstuk 6 - Kruisverwijzingen                               Chapitre 6 - Références mutuelles
+### Hoofdstuk 6 - Kruisverwijzingen                               Chapitre 6 - Références mutuelles
 
-## Art. 4.6.0.0.1
+###### Art. 4.6.0.0.1
 
-Art. 4.6.0.0.1.
+###### Art. 4.6.0.0.1.
 
 Kruisverwijzingen naar bepalingen, opgeheven naar             Les références mutuelles aux dispositions abrogées suite aanleiding van deze codificatie, moeten worden gelezen        à la présente codification, doivent être lues overeenkomstig de concordantietabel 1 uit bijlage 1, die      conformément au tableau de concordance 1er, de integraal deel uitmaakt van deze codex.                       l'annexe 1re, qui intégralement partie du présent code.
 
-## Art. 4.6.0.0.2
+###### Art. 4.6.0.0.2
 
-Art. 4.6.0.0.2.
+###### Art. 4.6.0.0.2.
 
 De Vlaamse Regering wordt ertoe gemachtigd om                 Le Gouvernement flamand est autorisé d'adapter là où verwijzingen in andere decreten naar bepalingen die in        nécessaire des références dans d'autres décrets aux deze codex zijn onder gebracht waar nodig aan te passen.      dispositions reprises dans le présent code.
 
-### TITEL 5 - Opheffingsbepalingen en                           TITRE 5 - Dispositions abrogatoires et overgangsmaatregelen                                          mesures transitoires
+## TITEL 5 - Opheffingsbepalingen en                           TITRE 5 - Dispositions abrogatoires et overgangsmaatregelen                                          mesures transitoires
 
-## Art. 5.0.0.0.1
+###### Art. 5.0.0.0.1
 
-Art. 5.0.0.0.1.
+###### Art. 5.0.0.0.1.
 
 De volgende regelingen worden opgeheven :                     Les règlements suivants sont abrogés :
 
@@ -12133,55 +12137,55 @@ Successierechten;
 
 - punt 5 gewijzigd door art. 38 van het decreet van 17      - point 5° est modifié par art. 38 du décret du 17 juillet juli 2015 (B.S., 14.08.2015). De tekst is in werking        2015 (M.B., 14.08.2015). Texte est entré en vigueur le 14 getreden op 14 augustus 2015 (art. 41)                      août 2015 (art. 41)
 
-## Art. 5.0.0.0.2
+###### Art. 5.0.0.0.2
 
-Art. 5.0.0.0.2.
+###### Art. 5.0.0.0.2.
 
-## Art. 29
+###### Art. 29
 
 van het decreet van 6 juli 2001 houdende         L'article 29 du décret du 6 juillet 2001 contenant bepalingen tot begeleiding van de aanpassing van de         diverses mesures d'accompagnement de l'ajustement du begroting 2001, gewijzigd bij het decreet van 9             budget 2001, modifié par le décret du 9 novembre 2012, november 2012, wordt opgeheven.                             est abrogé.
 
-## Art. 5.0.0.0.3
+###### Art. 5.0.0.0.3
 
-Art. 5.0.0.0.3.
+###### Art. 5.0.0.0.3.
 
-## Art. 52
+###### Art. 52
 
 van het decreet van 23 december 2010             L'article 52 du décret du 23 décembre 2010 contenant houdende bepalingen tot begeleiding van de begroting        diverses mesures d'accompagnement du budget 2011 est 2011 wordt opgeheven.                                       abrogé.
 
-## Art. 5.0.0.0.4
+###### Art. 5.0.0.0.4
 
-Art. 5.0.0.0.4.
+###### Art. 5.0.0.0.4.
 
 In artikel 7 van het decreet van 23 mei 2008 houdende       A l'article 7 du décret du 23 mai 2008 contenant diverses bepalingen tot begeleiding van de aanpassing van de         mesures d'accompagnement de l'ajustement du budget begroting 2008, gewijzigd bij het decreet van 21            2008, modifié par le décret du 21 décembre 2012, le december 2012, wordt paragraaf 1 opgeheven.                 paragraphe 1er est abrogé.
 
-## Art. 5.0.0.0.5
+###### Art. 5.0.0.0.5
 
-Art. 5.0.0.0.5.
+###### Art. 5.0.0.0.5.
 
-## Art. 6
+###### Art. 6
 
 van het decreet van 21 december 2012 tot          L'article 6 du décret du 21 décembre 2012 modifiant les wijziging van artikel 257, 258 en 376 van het wetboek       articles 257, 258 et 376 du code des impôts sur les van de inkomstenbelastingen 1992 en artikel 7 van het       revenus 1992 et l'article 7 du décret du 23 mai 2008 decreet van 23 mei 2008 houdende bepalingen tot             contenant diverses mesures d'accompagnement de begeleiding van de aanpassing van de begroting 2008,        l'ajustement du budget 2008, en ce qui concerne la wat de vermindering van de onroerende voorheffing           diminution du précompte immobilier pour des bâtiments voor energiezuinige gebouwen betreft, worden                peu énergivores, est abrogé. opgeheven.
 
-## Art. 5.0.0.0.6
+###### Art. 5.0.0.0.6
 
-Art. 5.0.0.0.6.
+###### Art. 5.0.0.0.6.
 
-## Art. 433
+###### Art. 433
 
 tot en met 440 van het WIB 92, zoals ze van     Les articles 433 à 440 inclus du CIR 92, tel qu'ils toepassing waren op de onroerende voorheffing wat           s'appliquaient au précompte immobilier en ce qui betreft het Vlaamse Gewest, vóór de inwerkingtreding        concerne la Région flamande, avant l'entrée en vigueur van deze codex, blijven van toepassing voor berichten       du présent code, restent d'application aux avis qui ont die met toepassing van artikel 433 van het WIB 92, zoals    été envoyés avant l'entrée en vigueur des articles het van toepassing was op de onroerende voorheffing         3.12.1.0.1 à 3.12.1.0.8, en application de l'article 433 du wat betreft het Vlaamse Gewest vóór de                      CIR 92, tel qu'il était d'application au précompte inwerkingtreding van deze codex, zijn verzonden vóór        immobilier en ce qui concerne la Région flamande avant de datum van inwerkingtreding van artikel 3.12.1.0.1 tot    l'entrée en vigueur du présent code. en met 3.12.1.0.8.
 
-## Art. 5.0.0.0.7
+###### Art. 5.0.0.0.7
 
-Art. 5.0.0.0.7.
+###### Art. 5.0.0.0.7.
 
-## Art. 3.3.1.0.4
+###### Art. 3.3.1.0.4
 
 is alleen van toepassing op elke           L'article 3.3.1.0.4 ne s'applique qu'à toutes radiations ou schrapping of wissing van een voertuig die plaatsvindt       effacement d'un véhicule qui a lieu après l'entrée en na de inwerkingtreding van deze codex.                       vigueur du présent code.
 
-## Art. 5.0.0.0.8
+###### Art. 5.0.0.0.8
 
-Art. 5.0.0.0.8.
+###### Art. 5.0.0.0.8.
 
 De bevoegde entiteit van de Vlaamse administratie is         L'entité compétente de l'administration flamande est bevoegd om de overeenkomstig de toepassing van               compétente pour percevoir et continuer à recouvrer les artikel 5, § 3, van de bijzondere wet van 16 januari 1989    dossiers transférés et pas encore entièrement traités, betreffende de financiering van de Gemeenschappen en         conformément à l'application de l'article 5, § 3, de la loi de Gewesten overgedragen en nog niet afgehandelde            spéciale du 16 janvier 1989 relative au financement des dossiers, ongeacht of daarvoor al een dwangschrift door      communautés et des régions, qu’une contrainte ait oui de federale ontvanger is uitgevaardigd, te innen en          ou non été établie par le receveur fédéral. verder in te vorderen.
 
@@ -12190,21 +12194,21 @@ De bevoegde entiteit van de Vlaamse administratie is         L'entité compéten
 - gewijzigd door art. 60 van het decreet van 07.12.2018      - modifié par l'art. 60 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst treedt in werking op 01.01.2019     20.12.2018). Texte entre en vigueur le 01.01.2019
 
-## Art. 5.0.0.0.9
+###### Art. 5.0.0.0.9
 
-Art. 5.0.0.0.9.
+###### Art. 5.0.0.0.9.
 
 Voor de aanslagen die de rechter vóór de                     En ce qui concerne les impositions que le juge a inwerkingtreding van artikel 3.7.0.0.2 geheel of ten dele    annulées, entièrement ou en partie, avant l'entrée en nietig heeft verklaard om een andere reden dan               vigueur de l'article 3.7.0.0.2 pour une raison autre que verjaring, worden de subsidiaire aanslagen die               la prescription, les impositions subsidiaires qui sont voorgelegd worden na de sluiting van de debatten door        présentées après la fermeture des débats par une requête een aan de belastingschuldige betekend verzoekschrift        notifiée au redevable en application de l'article 356 du met toepassing van artikel 356 van het WIB 92, zoals het     CIR 92, tel qu'il était d'application au précompte van toepassing was op de onroerende voorheffing wat          immobilier en ce qui concerne la Région flamande avant betreft het Vlaamse Gewest vóór de inwerkingtreding          l'entrée en vigueur de l'article 3.7.0.0.2, sont van artikel 3.7.0.0.2, geldig aan het oordeel van de         valablement soumises au jugement du juge à condition rechter onderworpen op voorwaarde dat de procedures          que les procédures ont été introduite dans les six mois zijn ingeleid binnen zes maanden na de rechterlijke          suivant la décision judiciaire coulée en force de chose uitspraak die in kracht van gewijsde is gegaan.              jugée.
 
-## Art. 5.0.0.0.10
+###### Art. 5.0.0.0.10
 
-Art. 5.0.0.0.10.
+###### Art. 5.0.0.0.10.
 
 De reeds begonnen verjaringen worden geregeld                Les prescriptions déjà commencées sont réglées overeenkomstig titel 3, hoofdstuk 14, van deze codex.        conformément au titre 3, chapitre 14, du présent code.
 
-## Art. 5.0.0.0.11
+###### Art. 5.0.0.0.11
 
-Art. 5.0.0.0.11.
+###### Art. 5.0.0.0.11.
 
 De belastingen, vermeld in artikel 3, eerste lid, 4° en 6°   Les impôts visés à l'article 3, premier alinéa, 4° et 6° à tot en met 8°, van de bijzondere wet van 16 januari 1989     8°, de la loi spéciale du 16 janvier 1989 relative au betreffende de financiering van de gemeenschappen en         financement des communautés et des régions, ainsi que de gewesten, alsook de nalatigheidsinteresten en de          les intérêts de retard et les amendes fiscales forfaitaires forfaitaire en proportionele fiscale boeten op die           et proportionnelles sur ces impôts, qui ne sont pas belastingen, die nog niet zijn voldaan op 31 december        encore satisfaites au 31 décembre 2014, et pour 2014, en waarvoor de termijnen voor invordering die op       lesquelles les délais d'encaissement d'application à cette die datum van toepassing zijn, nog niet verstreken zijn,     date ne sont pas encore échus, peuvent, en dérogation au kunnen in afwijking van de termijn, vermeld in artikel       délai visé à l'article 3.3.3.0.1, § 4/1 et § 4/2, être perçus 3.3.3.0.1, § 4/1 en § 4/2, worden geheven tot en met 31      jusqu'au 31 décembre 2019. december 2019.
 
@@ -12219,9 +12223,9 @@ In afwijking van artikel 5.0.0.0.1, 4°, worden voor de       En dérogation de 
 
 - toegevoegd door art. 323 van het decreet van 19 dec.       - inséré par art. 323 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking      29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                        janvier 2015 (art. 325)
 
-## Art. 5.0.0.0.12
+###### Art. 5.0.0.0.12
 
-Art. 5.0.0.0.12.
+###### Art. 5.0.0.0.12.
 
 (…)                                                          (…)
 
@@ -12231,17 +12235,17 @@ Art. 5.0.0.0.12.
 
 - toegevoegd door art. 104 van het decreet van 18 dec.       - ajouté par art. 104 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst is in werking getreden     29.12.2015). Texte est entré en vigueur le 1er janvier vanaf 1 januari 2016 (art. 135))                             2016 (art. 135)
 
-## Art. 5.0.0.0.13
+###### Art. 5.0.0.0.13
 
-Art. 5.0.0.0.13.
+###### Art. 5.0.0.0.13.
 
 (…)                                                          (…)
 
 ---- historiek ----                                          ---- historique ---- - opgeheven door art. 56, 2° van het decreet van             - supprimé par l'art. 56, 2° du décret du 21.12.2018 21.12.2018 (B.S. 28.12.2018). Tekst treedt in werking op     (M.B. 28.12.2018). Texte entre en vigueur le 07.01.2019 07.01.2019 - toegevoegd door art. 2 van het decreet van 16 oktober      - ajouté par art. 2 du décret du 16 octobre 2015 (M.B., 2015 (B.S., 23.10.2015 (Ed. 2)). De tekst is in werking      23.10.2015 (Ed. 2)). Texte est entré en vigueur le 1er getreden op 1 november 2015 (Art. 3)                         novembre 2015 (art. 3)
 
-## Art. 5.0.0.0.14
+###### Art. 5.0.0.0.14
 
-Art. 5.0.0.0.14.
+###### Art. 5.0.0.0.14.
 
 De termijn van drie jaar, vermeld in artikel 2.9.4.2.11, §   Le délai de trois ans, visé à l'article 2.9.4.2.11, § 2, 2, eerste lid, 2°, en de termijn van vijf jaar, vermeld in   alinéa 1er, 2°, et le délai de cinq ans, visé à l'article artikel 2.9.4.2.14, § 2, tweede lid, 1°, geldt van           2.9.4.2.14, § 2, alinéa 2, 1°, s'applique de plein droit rechtswege ook voor de verkoopovereenkomsten die             également aux contrats de vente conclus à partir du 1er zijn gesloten vanaf 1 juni 2018 en voor 1 juni 2020 met      juin 2018 et avant le 1er juin 2020 en application du tarif, toepassing van het tarief, vermeld in respectievelijk        visés respectivement aux articles 2.9.4.2.11 et artikel 2.9.4.2.11 en 2.9.4.2.14.                            2.9.4.2.14.
 
@@ -12249,18 +12253,18 @@ De termijn van drie jaar, vermeld in artikel 2.9.4.2.11, §   Le délai de trois
 
 Ingevoegd door art. 6 van het decreet van 26 juni 2020       Inséré par l’art. 6 du décret du 26 juin 2020 (M.B., (B.S., 29.06.2020). Tekst in werking getreden op 1 juni      29.06.2020). Texte en vigueur le 1er juin 2020
 
-## Art. 5.0.0.0.15
+###### Art. 5.0.0.0.15
 
-Art. 5.0.0.0.15.
+###### Art. 5.0.0.0.15.
 
 De zekerheden die werden gesteld ter uitvoering van          Les sûretés constituées en exécution de l'article artikel 3.10.5.1.3, zoals het van toepassing was voor de     3.10.5.1.3, tel qu'il était d'application avant l'abrogation opheffing van dat artikel, worden vrijgegeven. Kosten        de cet article, sont libérées. Les frais liés à cette die aan deze vrijgave zouden verbonden zijn, zijn ten        libération sont à la charge du donneur de caution. laste van de borgsteller.
 ---- historiek ----                                          ---- historique ----
 
 - ingevoegd door art. 79 van het decreet van 02.04.2021      - modifié par l'art. 79 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021             15.04.2021). En vigueur le 25.04.2021
 
-## Art. 5.0.0.0.16
+###### Art. 5.0.0.0.16
 
-Art. 5.0.0.0.16.
+###### Art. 5.0.0.0.16.
 
 In afwijking van artikel 3.3.1.0.16, eerste lid, kan de      Par dérogation à l'article 3.3.1.0.16, alinéa 1er, le belastingplichtige     voor       een      automatisch       contribuable peut introduire, au plus tard le 15 janvier ontspanningstoestel dat in de eerste helft van januari       2023, une déclaration auprès de l'entité compétente de 2023 wordt opgesteld, een aangifte indienen bij de           l'administration flamande pour un appareil automatique bevoegde entiteit van de Vlaamse administratie uiterlijk     de divertissement qui sera installé pendant la première op 15 januari 2023.                                          moitié de janvier 2023.
 
@@ -12269,18 +12273,18 @@ In afwijking van artikel 3.3.1.0.16, vierde lid, wordt een        Par dérogatio
 
 - Ingevoegd door art. 7 van het decreet van 25.11.2022            - Inséré par l’art. 7 du décret du 25.11.2022 (M.B., (B.S., 01.12.2022). Inwerkingtreding: 01.01.2023                  01.12.2022). En vigueur le 01.01.2023
 
-## Art. 5.0.0.0.17
+###### Art. 5.0.0.0.17
 
-Art. 5.0.0.0.17.
+###### Art. 5.0.0.0.17.
 
 Artikel 3.6.0.0.1, zoals gewijzigd bij het decreet van 9          L'article 3.6.0.0.1, tel que modifié par le décret du 9 december 2022, is van toepassing op de aanslagen,                 décembre 2022, s'applique aux impositions dont le délai waarvoor de termijn, vermeld in artikel 3.6.0.0.1, eerste         visé à l'article 3.6.0.0.1, alinéa 1er, 1°, n'a pas encore lid, 1°, nog niet is verstreken.                                  expiré.
 ---- historiek ----                                               ---- historique ----
 
 - Ingevoegd door art. 37 van het decreet van 09.12.2022           - Inséré par l’art. 37 du décret du 09.12.2022 (M.B., (B.S., 20.12.2022). Inwerkingtreding: 30.12.2022                  20.12.2022). Entrée en vigueur le 30.12.2022
 
-## Art. 5.0.0.0.18
+###### Art. 5.0.0.0.18
 
-Art. 5.0.0.0.18.
+###### Art. 5.0.0.0.18.
 De termijn van drie jaar, vermeld in artikel 2.9.4.2.12, § 2,
 Le délai de trois ans, visé à l'article 2.9.4.2.12, § 2, eerste lid, 1°, en artikel 2.9.4.2.14, § 5, eerste lid, 1°, geldt alinéa 1er, 1°, et à l'article 2.9.4.2.14, § 5, alinéa 1er, 1°, van rechtswege ook voor overeenkomsten houdende s'applique de plein droit également aux contrats d'achat zuivere aankoop die gesloten zijn vanaf 1 januari 2022, of, pur, conclus à partir du 1er janvier 2022 ou, par in afwijking daarvan, op authentieke akten verleden vanaf 1 dérogation, aux actes authentiques passés à partir du 1er januari 2022, wanneer de overeenkomsten houdende janvier 2022, lorsque les contrats d'achat pur auxquels zuivere aankoop waarop de akten betrekking hebben, ces actes se rapportent ont été conclus avant le 1er gesloten zijn voor 1 januari 2022 en waarvoor het tarief, janvier 2022 et pour lesquels le tarif visé à l'article vermeld in respectievelijk artikel 2.9.4.2.12 en 2.9.4.2.14, 2.9.4.2.12, respectivement 2.9.4.2.14, a été appliqué. werd toegepast.
 
@@ -12288,9 +12292,9 @@ Le délai de trois ans, visé à l'article 2.9.4.2.12, § 2, eerste lid, 1°, en
 
 - Ingevoegd door art. 38 van het decreet van 09.12.2022           - Inséré par l’art. 38 du décret du 09.12.2022 (M.B., (B.S., 20.12.2022). Inwerkingtreding: 30.12.2022                  20.12.2022). Entrée en vigueur le 30.12.2022
 
-## Art. 5.0.0.0.19
+###### Art. 5.0.0.0.19
 
-Art. 5.0.0.0.19.
+###### Art. 5.0.0.0.19.
 De definitie van lichte vrachtauto, vermeld in artikel         La définition de camionnette, visée à l'article 1.1.0.0.2, 1.1.0.0.2, derde lid, 2°, a) en b), wordt op de voertuigen die alinéa 3, 2°, a) et b), est appliquée aux véhicules qui sont na 31 december 2022 voor de eerste keer ingeschreven           inscrits après le 31 décembre 2022 au répertoire de la worden in het repertorium van het Directoraat-generaal         Direction générale Mobilité et Sécurité routière ou auprès Mobiliteit en Verkeersveiligheid of bij een vergelijkbare d'une institution comparable au sein de l'Espace instelling binnen de Europese Economische Ruimte of een économique européen ou d'un autre Etat et par la suite au andere staat en nadien in het repertorium van het              répertoire de la Direction générale Mobilité et Sécurité Directoraat-generaal Mobiliteit en Verkeersveiligheid          routière telle que la définition précitée était d'application toegepast zoals de voormelde definitie van toepassing was avant le 1er janvier 2023, si les conditions suivantes sont vóór 1 januari 2023, als voldaan is aan de volgende            remplies : voorwaarden:
 1° het voertuig is voor 1 januari 2023 besteld;                1° le véhicule a été commandé avant le 1er janvier 2023 ;
 
@@ -12304,18 +12308,18 @@ b) de voornamen, de achternaam en het domicilieadres van b) les prénom, nom et 
 
 - Ingevoegd door art. 14 van het decreet van 16.12.2022        - Inséré par l’art. 14 du décret du 16.12.2022 (M.B., (B.S., 29.12.2022). Inwerkingtreding: 01.01.2023               29.12.2022). Entrée en vigueur le 01.01.2023
 
-## Art. 5.0.0.0.20
+###### Art. 5.0.0.0.20
 
-Art. 5.0.0.0.20.
+###### Art. 5.0.0.0.20.
 Artikel 2.9.4.2.11, § 1, eerste lid, en artikel 2.9.5.0.5, § 1, Les articles 2.9.4.2.11, § 1er, alinéa 1er, et 2.9.5.0.5, § 1er zijn van toepassing op overeenkomsten houdende zuivere s'appliquent aux contrats d'acquisition pure conclus à partir aankoop gesloten vanaf 1 januari 2025, of, in afwijking         du 1er janvier 2025 ou, par dérogation, aux actes daarvan, op authentieke akten verleden vanaf 1 januari          authentiques passés à partir du 1er janvier 2025, lorsque 2025, wanneer de overeenkomsten houdende zuivere                les contrats d'acquisition pure auxquels ces actes se aankoop waarop de akten betrekking hebben, gesloten zijn rapportent ont été conclus avant le 1er janvier 2025. voor 1 januari 2025.
 
 ---- historiek ----                                            ---- historique ----
 
 - Ingevoegd door art. 37 van het decreet van 20.12.2024        - Inséré par l’art. 37 du décret du 20.12.2024 (M.B., (B.S. 30.12.2024). Inwerkingtreding op 01.01.2025              30.12.2024). Entrée en vigueur le 01.01.2025
 
-## Art. 5.1.0.0.14
+###### Art. 5.1.0.0.14
 
-Art. 5.1.0.0.14.
+###### Art. 5.1.0.0.14.
 
 (…)                                                            (…)
 
@@ -12326,9 +12330,9 @@ Art. 5.1.0.0.14.
 - ingevoegd door art. 61 van het decreet van 07.12.2018        - inséré par l’art. 61 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                            20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-## Art. 5.1.0.0.15
+###### Art. 5.1.0.0.15
 
-Art. 5.1.0.0.15.
+###### Art. 5.1.0.0.15.
 
 (…)                                                            (…)
 
@@ -12339,19 +12343,19 @@ Art. 5.1.0.0.15.
 - ingevoegd door art. 62 van het decreet van 07.12.2018   - inséré par l’art. 62 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                       20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-### TITEL 6 - Citeertitel                                     TITRE 6 - Titre de citation
+## TITEL 6 - Citeertitel                                     TITRE 6 - Titre de citation
 
-## Art. 6.0.0.0.1
+###### Art. 6.0.0.0.1
 
-Art. 6.0.0.0.1.
+###### Art. 6.0.0.0.1.
 
 Deze codex wordt aangehaald als: Vlaamse Codex               Le présent code est cité comme : Code flamand de la Fiscaliteit van 13 december 2013.                            Fiscalité du 13 décembre 2013.
 
-### TITEL 7 - Inwerkingtredingsbepalingen                      TITRE 7 - Dispositions d'entrée en vigueur
+## TITEL 7 - Inwerkingtredingsbepalingen                      TITRE 7 - Dispositions d'entrée en vigueur
 
-## Art. 7.0.0.0.1
+###### Art. 7.0.0.0.1
 
-Art. 7.0.0.0.1.
+###### Art. 7.0.0.0.1.
 
 Titel 1, 3, 4, 5, 6 en 7 van dit decreet treden in werking   Les Titres 1er, 3, 4, 5, 6 et 7, du présent décret entrent op 1 januari 2014, met uitzondering van artikel 5.0.0.0.1,   en vigueur le 1er janvier 2014, à l'exception de l'article
 2° en 3°, dat in werking treedt vanaf aanslagjaar 2014       5.0.0.0.1, 2° en 3°, qui entre en vigueur à partir de voor wat betreft de bepalingen van de verkeersbelasting      l'année d'imposition en ce qui concerne les dispositions op de autovoertuigen, de belasting op de                     de la taxe de circulation des véhicules, de la taxe de mise inverkeerstelling en het eurovignet die overeenkomstig       en circulation et de l'Eurovignette qui, conformément au de concordantietabel 1 uit bijlage 1 een                     tableau de concordance 1, de l'annexe 1re, ont une corresponderende bepaling hebben in titel 2 van deze         disposition correspondante dans le titre 2 du présent codex.                                                       code.

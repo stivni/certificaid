@@ -6,6 +6,10 @@ status: "beschikbaar"
 bijgewerkt: "21.11.2017"
 bron: "OECD (2019), Model Tax Convention on Income and on Capital 2017 (Full Version), OECD Publishing — Art. 1–32, artikeltekst only"
 taal: "EN"
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy: null
 ---
 
 # OECD Model Tax Convention on Income and on Capital (2017)
@@ -35,7 +39,7 @@ HISTORY
 
 ## Chapter I — SCOPE OF THE CONVENTION
 
-### Art. 1 — Persons Covered
+## Art. 1 — Persons Covered
 
 1.
 This Convention shall apply to persons who are residents of one or both
@@ -54,7 +58,7 @@ Article 7, paragraph 2 of Article 9 and Articles 19, 20, 23 [A] [B], 24, 25 and 
 
 HISTORY
 
-### Art. 2 — Taxes Covered
+## Art. 2 — Taxes Covered
 
 1.
 This Convention shall apply to taxes on income and on capital imposed
@@ -88,7 +92,7 @@ b) In the case of (State B): ..........................................”
 
 ## Chapter II — DEFINITIONS
 
-### Art. 3 — General Definitions
+## Art. 3 — General Definitions
 
 1.
 For the purposes of this Convention, unless the context otherwise
@@ -147,7 +151,7 @@ a) all individuals possessing the nationality of a Contracting State;
 b) all legal persons, partnerships and associations deriving their status as such
 from the law in force in a Contracting State.”
 
-### Art. 4 — Resident
+## Art. 4 — Resident
 
 1.
 For the purposes of this Convention, the term “resident of a Contracting
@@ -219,7 +223,7 @@ d) If he is a national of both Contracting States or of neither of them, the
 competent authorities of the Contracting States shall settle the question by
 mutual agreement.”
 
-### Art. 5 — Permanent Establishment
+## Art. 5 — Permanent Establishment
 
 1.
 For the purposes of this Convention, the term “permanent
@@ -376,7 +380,7 @@ enterprise.”
 
 ## Chapter III — TAXATION OF INCOME
 
-### Art. 6 — Income From Immovable Property
+## Art. 6 — Income From Immovable Property
 
 1.
 Income derived by a resident of a Contracting State from immovable
@@ -402,7 +406,7 @@ immovable property of an enterprise.
 HISTORY
 Paragraph 1: Amended when the 1977 Model Convention was adopted by the OECD
 
-### Art. 7 — Business Profits
+## Art. 7 — Business Profits
 
 1.
 Profits of an enterprise of a Contracting State shall be taxable only in that
@@ -436,7 +440,7 @@ not be affected by the provisions of this Article.
 
 HISTORY
 
-### Art. 8 — International Shipping And Air Transport
+## Art. 8 — International Shipping And Air Transport
 
 1.
 Profits of an enterprise of a Contracting State from the operation of ships
@@ -447,7 +451,7 @@ participation in a pool, a joint business or an international operating agency.
 
 HISTORY
 
-### Art. 9 — Associated Enterprises
+## Art. 9 — Associated Enterprises
 
 1.
 
@@ -481,7 +485,7 @@ HISTORY
 Paragraph 1: Corresponds to Article 9 of the 1963 Draft Convention (adopted by the
 OECD Council on 30 July 1963). Article 9 was designated as paragraph 1 in the 1977
 
-### Art. 10 — Dividends
+## Art. 10 — Dividends
 
 1.
 Dividends paid by a company which is a resident of a Contracting State
@@ -571,7 +575,7 @@ Paragraph 3: Amended when the 1977 Model Convention was adopted by the OECD
 Council on 11 April 1977, by substituting the words “which is subjected to the same
 taxation treatment as income from shares by the laws of the State” for “assimilated to
 
-### Art. 11 — Interest
+## Art. 11 — Interest
 
 1.
 Interest arising in a Contracting State and paid to a resident of the other
@@ -619,7 +623,7 @@ HISTORY
 Paragraph 1: Unchanged since the adoption of the 1963 Draft Convention by the OECD
 Council on 30 July 1963.
 
-### Art. 12 — Royalties
+## Art. 12 — Royalties
 
 1.
 Royalties arising in a Contracting State and beneficially owned by a
@@ -650,7 +654,7 @@ provisions of this Convention.
 
 HISTORY
 
-### Art. 13 — Capital Gains
+## Art. 13 — Capital Gains
 
 1.
 Gains derived by a resident of a Contracting State from the alienation of
@@ -682,7 +686,7 @@ the alienator is a resident.
 HISTORY
 Paragraph 1: Amended when the 1977 Model Convention was adopted by the OECD
 
-### Art. 15 — Income From Employment
+## Art. 15 — Income From Employment
 
 1.
 Subject to the provisions of Articles 16, 18 and 19, salaries, wages and
@@ -726,7 +730,7 @@ resident of the other State, and
 c) the remuneration is not borne by a permanent establishment or a fixed base
 which the employer has in the other State.”
 
-### Art. 16 — Directors’ Fees
+## Art. 16 — Directors’ Fees
 
 Directors’ fees and other similar payments derived by a resident of a
 Contracting State in his capacity as a member of the board of directors of a
@@ -735,7 +739,7 @@ that other State.
 
 HISTORY
 
-### Art. 17 — Entertainers And Sportspersons
+## Art. 17 — Entertainers And Sportspersons
 
 1.
 Notwithstanding the provisions of Article 15, income derived by a
@@ -752,7 +756,7 @@ activities of the entertainer or sportsperson are exercised.
 
 HISTORY
 
-### Art. 18 — Pensions
+## Art. 18 — Pensions
 
 Subject to the provisions of paragraph 2 of Article 19, pensions and other
 similar remuneration paid to a resident of a Contracting State in consideration
@@ -760,7 +764,7 @@ of past employment shall be taxable only in that State.
 
 HISTORY
 
-### Art. 19 — Government Service
+## Art. 19 — Government Service
 
 1. a) Salaries, wages and other similar remuneration paid by a Contracting
 State or a political subdivision or a local authority thereof to an
@@ -804,7 +808,7 @@ b) However, such pension shall be taxable only in the other Contracting State if
 the individual is a resident of, and a national of, that State.”
 Paragraph 2 of the 1963 Draft Convention was replaced when the 1977 Model
 
-### Art. 20 — Students
+## Art. 20 — Students
 
 Payments which a student or business apprentice who is or was immediately
 before visiting a Contracting State a resident of the other Contracting State
@@ -815,7 +819,7 @@ from sources outside that State.
 
 HISTORY
 
-### Art. 21 — Other Income
+## Art. 21 — Other Income
 
 1.
 Items of income of a resident of a Contracting State, wherever arising,
@@ -834,7 +838,7 @@ HISTORY
 
 ## Chapter IV — TAXATION OF CAPITAL
 
-### Art. 22 — Capital
+## Art. 22 — Capital
 
 1.
 Capital represented by immovable property referred to in Article 6,
@@ -858,7 +862,7 @@ Paragraph 1: Amended when the 1977 Model Convention was adopted by the OECD
 
 ## Chapter V — METHODS FOR ELIMINATION OF DOUBLE
 
-### Art. 23 A — Exemption Method
+## Art. 23 A — Exemption Method
 
 1.
 Where a resident of a Contracting State derives income or owns capital
@@ -893,7 +897,7 @@ such income.
 
 HISTORY
 
-### Art. 23 B — Credit Method
+## Art. 23 B — Credit Method
 
 1.
 Where a resident of a Contracting State derives income or owns capital
@@ -940,7 +944,7 @@ Paragraph 2: Replaced paragraph 2 of the 1963 Draft Convention when the 1977 Mod
 
 ## Chapter VI — SPECIAL PROVISIONS
 
-### Art. 24 — Non-Discrimination
+## Art. 24 — Non-Discrimination
 
 1.
 Nationals of a Contracting State shall not be subjected in the other
@@ -998,7 +1002,7 @@ from the laws in force in a Contracting State.”
 
 Paragraph 3 of the 1963 Draft Convention was amended when the 1977 Model
 
-### Art. 25 — Mutual Agreement Procedure
+## Art. 25 — Mutual Agreement Procedure
 
 1.
 Where a person considers that the actions of one or both of the
@@ -1081,7 +1085,7 @@ paragraph the condition that issues may not be submitted to arbitration if a dec
 these issues has already been rendered by one of their courts or administrative
 tribunals.”
 
-### Art. 26 — Exchange Of Information
+## Art. 26 — Exchange Of Information
 
 1.
 The competent authorities of the Contracting States shall exchange such
@@ -1154,7 +1158,7 @@ c) to supply information which would disclose any trade, business, industrial,
 commercial or professional secret or trade process, or information, the
 disclosure of which would be contrary to public policy (ordre public).”
 
-### Art. 27 — Assistance In The Collection Of Taxes
+## Art. 27 — Assistance In The Collection Of Taxes
 
 1.
 The Contracting States shall lend assistance to each other in the
@@ -1241,7 +1245,7 @@ other Contracting State.
 
 HISTORY
 
-### Art. 28 — Members Of Diplomatic Missions And Consular Posts
+## Art. 28 — Members Of Diplomatic Missions And Consular Posts
 
 Nothing in this Convention shall affect the fiscal privileges of members of
 diplomatic missions or consular posts under the general rules of international
@@ -1250,7 +1254,7 @@ law or under the provisions of special agreements.
 HISTORY
 Article 28 corresponds to Article 27 as it read before 28 January 2003. The previous
 
-### Art. 29 — Entitlement To Benefits
+## Art. 29 — Entitlement To Benefits
 
 1.
 [Provision that, subject to paragraphs 3 to 5, restricts treaty benefits to a
@@ -1348,7 +1352,7 @@ relevant provisions of this Convention.
 
 HISTORY
 
-### Art. 30 — Territorial Extension
+## Art. 30 — Territorial Extension
 
 1.
 This Convention may be extended, either in its entirety or with any
@@ -1376,7 +1380,7 @@ Article 30 corresponds to Article 29 as it read before 21 November 2017. On that
 
 ## Chapter VII — FINAL PROVISIONS
 
-### Art. 31 — Entry Into Force
+## Art. 31 — Entry Into Force
 
 1.
 This Convention shall be ratified and the instruments of ratification
@@ -1390,7 +1394,7 @@ b) (in State B): .......................................
 HISTORY
 Article 31 corresponds to Article 30 as it read before 21 November 2017. On that date,
 
-### Art. 32 — Termination
+## Art. 32 — Termination
 
 This Convention shall remain in force until terminated by a Contracting State.
 Either Contracting State may terminate the Convention, through diplomatic
