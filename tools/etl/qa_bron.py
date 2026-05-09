@@ -542,14 +542,64 @@ def check_no_long_blank_runs(body: str) -> CheckResult:
 
 
 def check_no_column_bleed(body: str) -> CheckResult:
-    # Sla Markdown-tabelrijen over (regels die beginnen met `|`):
-    # brede tabelcellen als "| Activa     Passiva |" zijn geen PDF-kolom-bleed
-    # maar visuele balansopstellingen die volledig leesbaar zijn.
-    non_table_body = "\n".join(
-        line for line in body.split("\n")
-        if not line.lstrip().startswith("|")
+    # Skip regels die deel zijn van een tabel-context:
+    # 1. Markdown-tabelrijen (regels die beginnen met `|`).
+    # 2. Plain-text tabulair blok: een regel met een spatie-run van ≥10 die
+    #    in een blok zit met ≥1 andere "tabulaire" regel binnen ±2 regels.
+    #    Dit vangt 2-koloms TOC-headers ("Bijwerking ... Te vervangen pagina's")
+    #    en pseudo-tabellen zonder pipes op, zonder echte krantenkolom-bleed
+    #    (NL/FR door elkaar in lopende tekst) te missen.
+    lines = body.split("\n")
+    wide_gap = re.compile(r"\S\s{10,}\S")
+    multi_gap = re.compile(r"\S\s{4,}\S.*?\S\s{4,}\S")
+    # TOC-kop "Bijwerking ... Te vervangen pagina's" / "Vervangen pagina's"
+    # uit WBTW-KB-bijwerkingsoverzichten — geen kolom-bleed.
+    toc_bijwerking = re.compile(
+        r"^\s*Bijwerking\b.*\b(Te\s+)?[Vv]ervangen\s+pagina"
     )
-    samples = _samples_from_pattern(_RE_COLUMN_BLEED, non_table_body)
+
+    def is_table_pipe(line: str) -> bool:
+        return line.lstrip().startswith("|")
+
+    def is_strong_tabular(line: str) -> bool:
+        # Regel met spatie-run ≥10 = duidelijk twee-koloms layout.
+        return bool(wide_gap.search(line))
+
+    def is_weak_tabular(line: str) -> bool:
+        # Regel met ≥2 spatie-runs van ≥4 spaties = tabulaire datarij
+        # (bv. "Bijw. 01 / 01.01.2012     30.12.2011      Volledige uitgave").
+        return bool(multi_gap.search(line))
+
+    # Een regel is "in tabel-context" als:
+    #   - het een markdown-pipe-regel is, OF
+    #   - hijzelf "strong tabular" is (spatie-run ≥10) EN minstens één buur
+    #     (±3 regels) ook tabulair is (pipe, strong of weak).
+    # Weak-tabular alleen telt als buur, niet als trigger — voorkomt dat
+    # gewone genummerde lijst-items (één enkele inspring + dubbele spatie)
+    # als tabel doorgaan.
+    in_table_context = [False] * len(lines)
+    for i, line in enumerate(lines):
+        if is_table_pipe(line) or toc_bijwerking.match(line):
+            in_table_context[i] = True
+            continue
+        if not is_strong_tabular(line):
+            continue
+        for j in range(max(0, i - 3), min(len(lines), i + 4)):
+            if j == i:
+                continue
+            neighbour = lines[j]
+            if (
+                is_table_pipe(neighbour)
+                or is_strong_tabular(neighbour)
+                or is_weak_tabular(neighbour)
+            ):
+                in_table_context[i] = True
+                break
+
+    filtered_body = "\n".join(
+        line for i, line in enumerate(lines) if not in_table_context[i]
+    )
+    samples = _samples_from_pattern(_RE_COLUMN_BLEED, filtered_body)
     if samples:
         return CheckResult(
             name="no_column_bleed",

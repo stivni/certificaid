@@ -35,7 +35,9 @@ from lib.cleanup import (  # noqa: E402
 # ─── PDF-extractie ────────────────────────────────────────────────────────────
 
 def _extract_nl_text(pdf: str, mode: str, start_page: int | None = None,
-                     col_x: int = 300) -> str:
+                     col_x: int | None = None,
+                     col_w: int | None = None,
+                     page_w: int = 595, page_h: int = 842) -> str:
     info = subprocess.run(["pdfinfo", pdf], capture_output=True, text=True).stdout
     pages_match = re.search(r"Pages:\s+(\d+)", info)
     total_pages = int(pages_match.group(1)) if pages_match else 300
@@ -49,13 +51,25 @@ def _extract_nl_text(pdf: str, mode: str, start_page: int | None = None,
         )
         return r.stdout
 
-    # Bilingual: extraheer rechterkolom per pagina
+    # Bilingual: extraheer NL-kolom per pagina.
+    # NB: in de Fisconet/JUSTEL-PDFs voor BE-wetboeken staat NL standaard *links*
+    # (col_x=0..297). De vorige default (col_x=300) sloeg de FR-kolom uit;
+    # daarom is de default nu 0. Belangrijk: gebruik `is None`-checks i.p.v.
+    # truthy-fallbacks, anders valt `col_x: 0` per ongeluk terug op de default.
+    if col_x is None:
+        col_x = 0
+    if col_w is None:
+        # Net iets breder dan halve A4-breedte: pakt het laatste woord van de
+        # NL-zin mee zonder FR-fragmenten binnen te halen (empirisch ~305 op
+        # de Fisconet-PDFs). Wanneer col_x>0 (NL rechts) gebruiken we de rest
+        # van de pagina-breedte.
+        col_w = 310 if col_x == 0 else max(1, page_w - col_x)
     parts: list[str] = []
     sp = start_page or 1
     for p in range(sp, total_pages + 1):
         r = subprocess.run(
             ["pdftotext", "-layout", "-f", str(p), "-l", str(p),
-             "-x", str(col_x), "-y", "0", "-W", str(595 - col_x), "-H", "842",
+             "-x", str(col_x), "-y", "0", "-W", str(col_w), "-H", str(page_h),
              pdf, "-"],
             capture_output=True, text=True,
         )
@@ -318,11 +332,23 @@ def extract(cfg: dict, source_name: str) -> str:
     if not pdf_path.exists():
         raise FileNotFoundError(f"Raw PDF niet gevonden: {pdf_path}")
 
-    mode = cfg.get("mode") or "nl"
-    start_page = cfg.get("start_page")
-    col_x = cfg.get("col_x") or 300
+    # Parameters mogen zowel top-level (legacy) als onder `extract.params` staan.
+    # `extract.params` heeft voorrang wanneer beide gezet zijn.
+    def _pick(key: str):
+        if key in params:
+            return params[key]
+        return cfg.get(key)
 
-    raw_text = _extract_nl_text(str(pdf_path), mode, start_page, col_x)
+    mode = _pick("mode") or "nl"
+    start_page = _pick("start_page")
+    # Belangrijk: `0` is een geldige col_x-waarde (NL-kolom links). Gebruik dus
+    # geen `or`-fallback (truthy-bug); test expliciet op None.
+    col_x = _pick("col_x")
+    col_w = _pick("col_w")
+
+    raw_text = _extract_nl_text(
+        str(pdf_path), mode, start_page=start_page, col_x=col_x, col_w=col_w,
+    )
 
     if mode == "eu_richtlijn":
         return _clean_and_structure_eu(raw_text)

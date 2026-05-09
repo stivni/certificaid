@@ -17,6 +17,7 @@ from tools.etl.qa_bron import (
     _parse_chunk_config,
     check_chunk_config,
     check_max_section,
+    check_no_column_bleed,
     iter_staging_targets,
     qa_one_bron,
 )
@@ -105,6 +106,38 @@ def test_check_chunk_config_fail_ongeldig_level() -> None:
     fm = "chunk:\n  level: 9\n  type: \"Art.\"\n  sub_strategy:\n"
     res = check_chunk_config(fm)
     assert res.status == "fail"
+
+
+def test_check_no_column_bleed_skipt_md_tabel_en_toc_bijwerking() -> None:
+    """False-positives skippen:
+    - markdown-tabelrijen (regels die met `|` beginnen)
+    - plain-text tabel-context (Bijwerking-TOC + tabulaire datarijen)
+    Een echte krantenkolom-bleed-regel in lopende tekst wordt nog wel gewarnd.
+    """
+    # 1. Markdown-tabelrij — geen warn.
+    md_table = "| Activa                       Passiva |\n| 100                          200    |\n"
+    assert check_no_column_bleed(md_table).status == "pass"
+
+    # 2. WBTW-stijl Bijwerking-TOC met datarijen — geen warn.
+    toc_bijwerking = (
+        "KB nr. 6 - Lijst van de bijwerkingen\n"
+        "\n"
+        "       Bijwerking       t.e.m. B.S. van                       Te vervangen pagina's\n"
+        "\n"
+        " Bijw. 01 / 01.01.2012   - Volledige uitgave\n"
+    )
+    assert check_no_column_bleed(toc_bijwerking).status == "pass"
+
+    # 3. Echte twee-kolom-bleed: één geïsoleerde regel met grote spatie-run
+    #    midden in lopende tekst (geen tabulaire neighbours) — moet warn geven.
+    real_bleed = (
+        "Dit is een normale paragraaf zonder tabulaire structuur die\n"
+        "loopt over meerdere regels en geen brede spatie-runs bevat.\n"
+        "Wordt voor de toepassing van dit wetboek, met een aan een                        Po schorsende voorwaarde onderworpen handeling.\n"
+        "Daarna gaat de gewone lopende tekst rustig verder zonder\n"
+        "kolommen of brede spatie-uitlijningen in zicht.\n"
+    )
+    assert check_no_column_bleed(real_bleed).status == "warn"
 
 
 def test_check_max_section_respecteert_forced_level() -> None:

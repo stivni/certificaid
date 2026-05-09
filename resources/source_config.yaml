@@ -173,7 +173,6 @@ sources:
   Successierechten-federaal:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/successie-federaal.pdf
-    mode: bilingual
     output: resources/bronnen/wetteksten/Successierechten-federaal.md
     content: content/bronnen/wetteksten/IX-successierechten-federaal.md
     itaa_sectie: "IX"
@@ -181,12 +180,14 @@ sources:
     bijgewerkt: "01.04.2026"
     wet: Wetboek der Successierechten — federaal
     titel: Successierechten — federaal
-    col_x: 0
-    start_page: 8
     status: volledig
     extract:
       method: custom_wetboek
       params:
+        # Tweetalige Fisconet-PDF: NL staat in de linkerkolom (x=0..297).
+        mode: bilingual
+        col_x: 0
+        start_page: 8
         # ADR-006 §4.2: lange artikelen met §-paragrafen en definitiepunten;
         # sub-split houdt langste sectie onder de 24K cap.
         sub_strategy: per_definitieblok
