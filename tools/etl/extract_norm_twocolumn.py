@@ -75,6 +75,22 @@ _RE_COPYRIGHT_IFAC = re.compile(r"Copyright\s+IFAC", re.IGNORECASE)
 _RE_COPYRIGHT_ITAA = re.compile(r"©\s*ITAA", re.IGNORECASE)
 _RE_BLANK_EXCESS = re.compile(r"\n{4,}")
 
+# Soft-wrap samenvoegen: regels die geen structurele opener zijn
+_RE_SOFT_WRAP_KEEP_SEPARATE = re.compile(
+    r"^(?:"
+    r"#{1,6}\s"                        # markdown heading
+    r"|§\s*\d"                         # § N
+    r"|\d+°"                           # 1°
+    r"|\d+\.\s"                        # 1. (paragraaf)
+    r"|[a-z]\)\s"                      # a) lijst
+    r"|\([a-z]+\)\s"                   # (a) of (i) lijst
+    r"|\([ivxlcdmIVXLCDM]+\)\s"        # (i), (ii), (iii) Romeinse lijst
+    r"|-\s"                            # - bullet
+    r"|•\s"                            # • bullet
+    r"|HOOFDSTUK\b|TITEL\b|BOEK\b"
+    r")"
+)
+
 # ─── Frontmatter helpers ───────────────────────────────────────────────────────
 
 _FRONTMATTER_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
@@ -97,6 +113,57 @@ def clean_block_text(text: str) -> str:
     # Normaliseer interne regeleindes: meerdere \n binnen blok → één \n
     text = re.sub(r"\n{2,}", "\n", text)
     return text.strip()
+
+
+def merge_intra_block_soft_wraps(text: str) -> str:
+    """
+    Voeg zachte PDF-regeleindes samen binnen een blok-tekst.
+
+    PDF-layout produceert soms woordenlijsten waarbij elk woord op een
+    aparte regel staat (bijv. 'opdrachten\\ndie\\nhij\\nuitvoert.'). Dit
+    zijn intra-blok soft-wraps die niet als alinea-scheidingen bedoeld zijn.
+
+    Strategie: een regel wordt samengevoed met de vorige als:
+      - de vorige regel NIET eindigt op een zinterminator (. ; : ! ?)
+        of een lijstmarker (-);
+      - de huidige regel NIET begint met een structurele opener
+        (heading-prefix, opsommingsnummer, bullet, §…);
+      - de huidige of vorige regel is korter dan de _WRAP_THRESHOLD
+        (= de normale kolombreedte in chars; korte regels zijn bijna
+        altijd soft-wraps, geen nieuwe zinnen).
+
+    Opmerking: werkt op de tekst vóór paragraaf-samenvoegen. Paragaaf-
+    grenzen (dubbele \\n) worden als hard reset behandeld en altijd bewaard.
+    """
+    _WRAP_THRESHOLD = 60  # beexcellent-kolommen zijn ~360pt breed ≈ 60-70 chars
+    _SENTENCE_END = re.compile(r"[.;:!?]\s*$")
+
+    parts = text.split("\n")
+    out: list[str] = []
+    for raw in parts:
+        stripped = raw.strip()
+        if not stripped or not out:
+            out.append(stripped)
+            continue
+        if _RE_SOFT_WRAP_KEEP_SEPARATE.match(stripped):
+            out.append(stripped)
+            continue
+        prev = out[-1]
+        if not prev:
+            out.append(stripped)
+            continue
+        prev_is_short = len(prev) < _WRAP_THRESHOLD
+        cur_is_short = len(stripped) < _WRAP_THRESHOLD
+        prev_ends_sentence = bool(_SENTENCE_END.search(prev))
+        starts_lower = stripped[0].islower() if stripped else False
+        # Voeg samen als:
+        # - vorige regel eindigt niet op zinterminator, OF huidige begint lower-case
+        # - minstens één van de twee is korter dan de drempel (= soft-wrap signaal)
+        if (prev_is_short or cur_is_short) and (starts_lower or not prev_ends_sentence):
+            out[-1] = prev + " " + stripped
+        else:
+            out.append(stripped)
+    return "\n".join(out)
 
 
 def is_page_noise(text: str) -> bool:
@@ -215,9 +282,60 @@ def _looks_like_section_title(text: str) -> bool:
 
 _RE_FRENCH_MARKER = re.compile(
     r"\b(le |la |les |du |des |de |un |une |et |ou |avec |pour |dans |sur |"
-    r"est |sont |être |avoir |cette |qui |que |par |aux )",
+    r"est |sont |être |avoir |cette |qui |que |par |aux |il |ils |elle |elles |"
+    r"ce |cet |cette |ces |mon |son |leur |leurs |dont |afin |ainsi |aussi )",
     re.IGNORECASE,
 )
+
+# FR-accenten: accenten die typisch FR maar niet NL zijn.
+# NL gebruikt ë, ï, ü als trema (bv. "financiële", "reïntegratie") — die NIET opnemen.
+# Typisch FR maar niet NL: é, è, ê, à, â, î, ô, ù, û, œ, æ, ç.
+_RE_FRENCH_ACCENTS = re.compile(r"[àâéèêîôùûœæçÉÈÊÀÙÔÎÂÛŒ]")
+
+# FR-starters: regels die typisch met een FR lidwoord of voornaamwoord beginnen
+_RE_FRENCH_START = re.compile(r"^(Le |La |Les |Du |Des |Un |Une |Et |Ou |Il |Ce |Au |Aux )")
+
+
+_RE_NL_ACCENTED_WORDS = re.compile(
+    r"\b(één|vóór|nóg|nóoit|wél|dé|hé|ó|ú)\b", re.IGNORECASE
+)
+_RE_NL_ONLY_WORDS = re.compile(
+    r"\b(wordt|worden|dient|dienen|kantoor|beroepsbeoefenaar|wetboek|"
+    r"uitvoering|opdracht|overeenkomstig|tenzij|hieromtrent|derhalve|"
+    r"aldus|krachtens|immers|bedoeld|mits|behoudens|teneinde|"
+    r"juncto|weliswaar|respectievelijk|bovendien|nochtans)\b",
+    re.IGNORECASE,
+)
+
+
+def _is_likely_french_line(line: str) -> bool:
+    """
+    Bepaal of een regel waarschijnlijk Frans is.
+
+    Drie signalen die worden gecheckt:
+    1. FR-accenten (é, è, ê, à, â, ô, etc.) die NIET in bekende NL-woorden
+       voorkomen (zoals 'één', 'vóór'). NL-trema's (ë, ï, ü) worden niet
+       als FR-signaal gezien.
+    2. Begint met een FR-lidwoord of voornaamwoord (Le, La, Les, Du, Il, …).
+    3. Twee of meer FR-stopwoorden én geen typisch NL-woord.
+    """
+    # Signaal 1: FR-accenten — filter eerst bekende NL-geaccentueerde woorden
+    if _RE_FRENCH_ACCENTS.search(line):
+        line_without_nl_accented = _RE_NL_ACCENTED_WORDS.sub("", line)
+        if _RE_FRENCH_ACCENTS.search(line_without_nl_accented):
+            return True
+
+    # Signaal 2: begint met FR-lidwoord/voornaamwoord
+    if _RE_FRENCH_START.match(line):
+        return True
+
+    # Signaal 3: twee of meer FR-stopwoorden + geen duidelijk NL-woord
+    fr_matches = _RE_FRENCH_MARKER.findall(line)
+    if len(fr_matches) >= 2 and not (line[0].isdigit() if line else False):
+        if not _RE_NL_ONLY_WORDS.search(line):
+            return True
+
+    return False
 
 
 def _extract_nl_from_bilingual_block(text: str) -> str:
@@ -225,8 +343,11 @@ def _extract_nl_from_bilingual_block(text: str) -> str:
     Haal de NL-tekst op uit een blok dat zowel NL als FR bevat
     (bijv. de koptekst-blokken die beide kolommen overspannen).
 
-    Strategie: neem alleen de eerste regel die geen duidelijk FR-patroon bevat,
-    of als het een NL+FR-sectietitel is, neem de eerste NL-zin.
+    Strategie: verwerk regel voor regel. Stop zodra een duidelijk FR-patroon
+    gevonden wordt. Regels die na FR-regels komen maar zelf NL zijn (bv. een
+    NL-sectietitel na een FR-slot-zin) worden NIET meer opgenomen — de functie
+    levert enkel het NL-voorste deel.
+
     Retourneert lege string als het blok puur FR lijkt.
     """
     lines = [l.strip() for l in text.strip().split("\n") if l.strip()]
@@ -235,17 +356,69 @@ def _extract_nl_from_bilingual_block(text: str) -> str:
 
     nl_lines: list[str] = []
     for line in lines:
-        # Stop zodra we een duidelijk Franstalige regel treffen
-        if _RE_FRENCH_MARKER.search(line) and not line[0].isdigit():
-            # Controleer of het echt FR is: bevat accenten typisch voor FR maar niet NL
-            if re.search(r"[àâêôûœæçÉÈÀÙÔÎÏÊÂÛŒ]", line):
-                break
-            # Of bevat FR-stopwoorden aan het begin
-            if re.match(r"^(Le |La |Les |Du |Des |Un |Une |Et |Ou )", line):
-                break
+        if _is_likely_french_line(line):
+            break  # eerste FR-regel = einde NL-deel
         nl_lines.append(line)
 
     return " ".join(nl_lines).strip()
+
+
+def _extract_nl_sections_from_mixed_block(text: str) -> list[str]:
+    """
+    Extraheer NL-secties uit een breed blok met afgewisselde NL- en FR-tekst.
+
+    Sommige brede blokken in de kwaliteitsmanagement-norm bevatten een FR-slot
+    (bv. 'objectifs en matière de qualité...') gevolgd door een NL-sectietitel
+    en NL-tekst. Deze functie levert alle aaneengesloten NL-stukken als
+    afzonderlijke strings.
+
+    Retourneert een lijst van NL-segmenten (elk segment = één logisch blok).
+    Lege segmenten worden weggefilterd.
+    """
+    lines = [l.strip() for l in text.strip().split("\n") if l.strip()]
+    if not lines:
+        return []
+
+    segments: list[str] = []
+    current_nl: list[str] = []
+
+    for line in lines:
+        if _is_likely_french_line(line):
+            # FR-regel: flush eventuele NL-buffer
+            if current_nl:
+                # Bewaar interne structuur met newlines (niet samenvoegen met spatie)
+                segments.append("\n".join(current_nl))
+                current_nl = []
+        else:
+            current_nl.append(line)
+
+    if current_nl:
+        segments.append("\n".join(current_nl))
+
+    return [s for s in segments if s]
+
+
+def _strip_fr_lines_from_nl_block(text: str) -> str:
+    """
+    Verwijder duidelijk FR-regels uit een blok dat als NL-blok is geclassificeerd
+    maar toch FR-tekst bevat (bv. een vertaling op de volgende regel).
+
+    Strategie: verwerk regel voor regel. FR-regels worden overgeslagen; NL-regels
+    worden behouden. Behoudt de tekststructuur (paragraaf-scheidingen, lijstitems).
+
+    Werkt CONSERVATIEF: alleen regels waarvan we zeker zijn dat ze FR zijn worden
+    verwijderd. Twijfelgevallen blijven staan.
+    """
+    lines = [l.strip() for l in text.split("\n")]
+    kept: list[str] = []
+    for line in lines:
+        if line and _is_likely_french_line(line):
+            continue  # FR-regel: overslaan
+        kept.append(line)
+    # Verwijder overbodige blanco-regels na verwijdering
+    result = "\n".join(kept)
+    result = re.sub(r"\n{3,}", "\n\n", result)
+    return result.strip()
 
 
 def extract_bilingual(pdf_path: Path, column_split: float) -> str:
@@ -306,28 +479,40 @@ def extract_bilingual(pdf_path: Path, column_split: float) -> str:
                 continue
 
             if kind == "wide":
-                # Wide blok: kijk of er een NL-sectietitel in zit
-                nl_part = _extract_nl_from_bilingual_block(cleaned)
-                if nl_part and not is_page_noise(nl_part) and _looks_like_section_title(nl_part):
-                    # Laat pending heading accumuleren — niet flushen:
-                    # de wide blok kan tussen twee NL heading-fragmenten zitten
-                    # (bv. KANTOORNIVEAU staat naast de wide blok op zelfde y)
-                    # We voegen de wide-heading toe aan een aparte pending-candidate;
-                    # als er al pending fragmenten zijn op nabije y, samenvoegen.
-                    if pending_heading_parts and abs(y0 - pending_y0) < 30:
-                        pending_heading_parts.append(nl_part)
-                    else:
-                        _flush_pending()
-                        pending_heading_parts.append(nl_part)
-                    pending_y0 = y0
-                else:
-                    # Overige wide blokken (FR-overflow, paginanummers): negeer
-                    # maar flush wel eventuele pending heading die niet op deze y zit
+                # Wide blok: kan puur FR zijn, puur NL, of gemengd NL+FR.
+                # Strategie: extraheer alle NL-segmenten (ook als FR voorkomt tussenin).
+                nl_segments = _extract_nl_sections_from_mixed_block(cleaned)
+                if not nl_segments:
+                    # Puur FR-blok: negeer, maar flush eventuele pending heading
                     if abs(y0 - pending_y0) >= 30:
                         _flush_pending()
+                    continue
+
+                # Verwerk elk NL-segment afzonderlijk
+                for segment in nl_segments:
+                    if not segment or is_page_noise(segment):
+                        continue
+                    # Zachte wraps in het segment samenvoegen
+                    segment = merge_intra_block_soft_wraps(segment)
+                    if _looks_like_section_title(segment):
+                        if pending_heading_parts and abs(y0 - pending_y0) < 30:
+                            pending_heading_parts.append(segment)
+                        else:
+                            _flush_pending()
+                            pending_heading_parts.append(segment)
+                        pending_y0 = y0
+                    else:
+                        _flush_pending()
+                        paragraphs.append(segment)
+                        pending_y0 = y0
                 continue
 
-            # NL-blok verwerken
+            # NL-blok verwerken: verwijder eerst FR-regels (gemengde blokken),
+            # dan zachte wraps samenvoegen.
+            cleaned = _strip_fr_lines_from_nl_block(cleaned)
+            if not cleaned or is_page_noise(cleaned):
+                continue
+            cleaned = merge_intra_block_soft_wraps(cleaned)
             is_same_y_band = abs(y0 - pending_y0) < 30
             is_title_candidate = _looks_like_section_title(cleaned)
 

@@ -216,7 +216,8 @@ A2. De verrichtingen waarvan sprake in paragraaf 1 kunnen alleenstaand
 A. gebeuren of in combinatie met andere verrichtingen (bijvoorbeeld: een 
 inbreng in natura met uitgifte van nieuwe aandelen). (par. A14-A15).
 
-Datum van inwerkingtreding en wijzigingsbepaling
+
+## Datum van inwerkingtreding en wijzigingsbepaling
 
 2. Deze norm treedt in werking een maand na de datum van publicatie in het
 
@@ -788,8 +789,7 @@ A. In voorkomend geval, dient de bedrijfsrevisor tevens de norm van het
 Instituut van de Bedrijfsrevisoren inzake de opdracht van de bedrijfsrevisor 
 in het kader van een inbreng in natura en quasi-inbreng toe te passen.
 
-
-## II.3. Opdrachtbrief
+II.3. Opdrachtbrief
 
 17. De beroepsbeoefenaar dient van het bestuursorgaan, of een persoon die
 
@@ -1845,8 +1845,7 @@ beïnvloeden, zodat hij geen conclusie kan vormen betreffende het
 getrouw en voldoende zijn van de financiële en boekhoudkundige 
 gegevens (par. A51).
 
-
-## V.2. Verslag
+V.2. Verslag
 
 51. De beroepsbeoefenaar dient een schriftelijk verslag op te stellen naar
 
@@ -2029,13 +2028,11 @@ proportionele uitgifte
 aandelen 
 5:120 en 5:121
 
-
-## Bijkomende
+Bijkomende
 
 inbrengen
 
-
-## Uitgifte van 
+Uitgifte van 
 converteerbare
 
 5:122
@@ -2053,16 +2050,14 @@ aandelen
 
 ## Kapitaalverhoging
 
-
-## Uitgifte van 
+Uitgifte van 
 converteerbare
 
 7:180
 
 obligaties
 
-
-## Ten gunste van
+Ten gunste van
 
 onbepaalde
 
@@ -2072,8 +2067,7 @@ onbepaalde
 
 personen
 
-
-## Beperking of 
+Beperking of 
 opheffing van het
 
 
@@ -2120,8 +2114,7 @@ afwijking
 
 A. Verslag van het BO + verslag
 
-
-## In natura 
+In natura 
 (7:197;5:133;
 
 A. van de commissaris OF
@@ -2154,8 +2147,7 @@ A. van de beroepsbeoefenaar
 
 A. (geïnformeerde
 
-
-## Afwijking 
+A. Afwijking 
 mogelijk (in
 
 A. toestemming)
@@ -2177,8 +2169,7 @@ voorkeurrechten (7:191;5:130)
 
 Uitgifte van converteerbare
 
-
-## Geen 
+Geen 
 afwijking
 
 A. INDIEN
@@ -2186,8 +2177,7 @@ A. INDIEN
 obligaties of 
 inschrijvingsrechten
 
-
-## Expert voegt verklaring toe 
+A. Expert voegt verklaring toe 
 (geïnformeerde toestemming)
 
 mogelijk
@@ -2200,8 +2190,7 @@ A. Ten gunste van bepaalde
 personen die niet tot het 
 personeel behoren (7:193;5:131)
 
-
-## Beroepsbeoefenaar voegt
+A. Beroepsbeoefenaar voegt
 
 A. verklaring toe
 (beoordeling van de 

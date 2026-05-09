@@ -527,22 +527,42 @@ FIX_PIPELINE_PER_FILE: dict[str, list[tuple[Callable, dict]]] = {
     ],
 
     # Pas geëxtraheerd via extract_norm_twocolumn.py (bilingual → NL-only):
-    # FR-fragmenten verwijderen + heading corrigeren + extra headings toevoegen.
+    # FR-fragmenten verwijderen + headings corrigeren + extra headings toevoegen.
     "ITAA-norm-intern-kwaliteitsmanagement.md": [
-        # Correctie heading: "OP\n\nCABINET" → "OP KANTOORNIVEAU"
+        # Correctie heading OP KANTOORNIVEAU:
+        # Patroon: het brede blok (p4) bevat FR-vertaling "CABINET" voor "KANTOORNIVEAU".
+        # "CABINET Doelstelling" → verwijder CABINET, voeg KANTOORNIVEAU toe aan heading.
         (fix_specific_ocr, {
             "pairs": [
                 (
-                    "## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP\n\nCABINET ",
-                    "## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP KANTOORNIVEAU",
+                    "## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP\n\nCABINET Doelstelling",
+                    "## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP KANTOORNIVEAU\n\nDoelstelling",
+                ),
+                # Heading met gemixte NL+FR tekst (brede blokken p6, p7, p8):
+                (
+                    "## Aanvaarding van opdrachten Acceptation de missions",
+                    "## Aanvaarding van opdrachten",
+                ),
+                (
+                    "## Fin des relations clients",
+                    "## Beëindigen van cliëntenrelaties",
+                ),
+                (
+                    "## Documentatie Documentation",
+                    "## Documentatie",
                 ),
             ],
         }),
-        # Verwijder achtergebleven FR-regels
+        # Verwijder achtergebleven FR-regels en PDF-layout-artefacten
         (remove_orphan_lines, {
             "lines_to_remove": [
                 "Acceptation de missions",
                 "Documentation",
+                # "KANTOORNIVEAU" staat nu soms nog eens apart als losse tekst
+                # (het blok op pagina 4, x0=184, dat door de column_split als NL-blok werd gezien)
+                "KANTOORNIVEAU",
+                # FR-slotwoorden uit wide blokken die na sectietitel-extractie overblijven
+                "demande.",
             ],
         }),
         (inject_plain_headings, {
@@ -555,6 +575,10 @@ FIX_PIPELINE_PER_FILE: dict[str, list[tuple[Callable, dict]]] = {
                 "Governance en leiderschap",
                 "Relevante ethische voorschriften",
                 "Aanvaarding van opdrachten",
+                "Doelstelling",
+                # "Beëindigen van cliëntenrelaties" wordt al geïnjecteerd via fix_specific_ocr
+                # (Fin des relations clients → ## Beëindigen van cliëntenrelaties)
+                # Niet ook via inject_plain_headings of we krijgen een dubbele heading.
                 "Inwerkingtreding",
             ],
         }),

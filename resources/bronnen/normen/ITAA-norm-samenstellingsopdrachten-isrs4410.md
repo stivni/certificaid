@@ -196,8 +196,7 @@ Related Services Pronouncements, 2018 Edition - ISBN number: 978-1-60815-389-3.
 
 ## Disclaimer (Reproduction rights)
 
-
-## Inleiding
+Inleiding
 
 
 ## Toepassing van ISRS 4410 (herzien) Samenstellingsopdrachten in België
@@ -846,8 +845,7 @@ e. de vakbekwaamheid en zorgvuldigheid;
 f. de vertrouwelijkheid en het beroepsgeheim; en 
 g. de professionaliteit.
 
-
-## Onafhankelijkheid (Zie Par. 18 (n) en 22)
+Onafhankelijkheid (Zie Par. 18 (n) en 22)
 
 A15. De regels inzake onafhankelijkheid betreffende de controleopdrachten voor 
 de 
@@ -864,8 +862,7 @@ samenstellingsopdracht.
 A16.De beroepsbeoefenaar – niet stagiair mag de gewoonlijke raadgever zijn van 
 de vennootschap waarvoor deze opdracht moet worden uitgevoerd.
 
-
-## De vertrouwelijkheid en het beroepsgeheim (Zie Par. 18 (n) en 22)
+De vertrouwelijkheid en het beroepsgeheim (Zie Par. 18 (n) en 22)
 
 A17. De bepalingen betreffende het beroepsgeheim voor de beroepsbeoefenaar 
 – niet stagiair staan in artikel 458 van het Strafwetboek.
