@@ -1036,17 +1036,28 @@ sources:
     bijgewerkt: ""
     status: nieuw
     note: >
-      Officieel Reglement van plichtenleer waarschijnlijk achter het gesloten ITAA-portaal
-      (BeExcellent of ledengedeelte itaa.be). Art. 36 §2 WIW machtigt KB voor specifieke
-      deontologische maatregelen. Te zoeken via ITAA-portaal of Belgisch Staatsblad.
-      NIET invullen met een zelf geconstrueerde samenvatting — wacht op de echte bron.
+      ITAA heeft GEEN één-document deontologische code. De plichtenleer voor
+      ITAA-leden bestaat uit losse flarden:
+        - Wet-ITAA-2019 (gehad) — art. 120 (beroepsgeheim) + algemene beroepsregels
+        - Sw. art. 458 (beroepsgeheim, strafrechtelijke onderbouwing)
+        - ITAA-deontologie-beroepsgeheim.md (gehad, BeExcellent Q&A-formaat)
+        - KB 1 maart 1998 — "Reglement plichtenleer der accountants" (oude IAB)
+          Status BeExcellent (article/1063): STUB met alleen titel, geen body.
+          Status Justel/ejustice: niet vrij beschikbaar in machine-leesbare
+          vorm via standaard URLs (numac/cn-zoek geeft geen resultaat).
+          Bron-PDF zou via Belgisch Staatsblad-archief van 17.03.1998 moeten,
+          of via een collega's privé-archief.
+        - KB 14 januari 2021 — "Plichtenleer BIBF" (oude BIBF-versie, op BeExcellent)
+      Aanbevolen: NIET invullen met geconstrueerde samenvatting. Voor de RAG
+      volstaat de combinatie Wet-ITAA-2019 + Beroepsgeheim-norm voor de
+      essentiële deontologische principes.
     extract:
       method: handcrafted
       params:
-        reden: Officieel Reglement van plichtenleer waarschijnlijk achter het gesloten ITAA-portaal (BeExcellent of 
-          ledengedeelte itaa.be). Art. 36 §2 WIW machtigt KB voor specifieke deontologische maatregelen. Te zoeken via 
-          ITAA-portaal of Belgisch Staatsblad. NIET invullen met een zelf geconstrueerde samenvatting — wacht op de 
-          echte bron.
+        reden: Geen één-document deontologische code beschikbaar; ITAA-plichtenleer
+          is gefragmenteerd over Wet-ITAA-2019, Sw. art. 458, Beroepsgeheim-norm
+          en oude KBs (1998 IAB / 2021 BIBF). Laatste twee zijn deels niet vrij
+          toegankelijk; voor RAG-doel volstaan de andere bronnen.
   Wetboek-Invordering:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/Wetboek-Invordering.pdf
