@@ -327,7 +327,12 @@ def normalize_whitespace(text: str) -> str:
     """
     Normaliseer meerdere spaties tot één (artefact van kolom-extractie).
     Behoudt maximaal 4 spaties inspring.
+
+    Vervangt ook non-breaking spaces (U+00A0) door gewone spaties — sommige
+    bronnen (CBN-HTML, DOCX-export) gebruiken &nbsp; als woord-scheidingsteken,
+    wat tokenization en search verstoort. Doe dit vóór de meerdere-spaties-collapse.
     """
+    text = text.replace("\xa0", " ")
     lines = []
     for line in text.split("\n"):
         stripped = line.lstrip()

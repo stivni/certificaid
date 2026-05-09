@@ -38,12 +38,12 @@ provenance:
 
 ## Overwegingen
 
-Gelet op de wet van 22 juli 1953 houdende oprichting van een Instituut van de Bedrijfsrevisoren en organisatie van het publiek toezicht op het beroep van bedrijfsrevisor, zoals gewijzigd bij de wet van  
+Gelet op de wet van 22 juli 1953 houdende oprichting van een Instituut van de Bedrijfsrevisoren en organisatie van het publiek toezicht op het beroep van bedrijfsrevisor, zoals gewijzigd bij de wet van 
  21 februari 1985 en bij het koninklijk besluit van 21 april 2007, en in het bijzonder de artikelen 3, 4 en 30;
 
 Gelet op de wet van 22 april 1999 betreffende de boekhoudkundige en fiscale beroepen, en in het bijzonder de artikelen 3, 27, 34 en 37;
 
-Overwegende dat onderhavige norm het gevolg is van een samenwerking tussen het Instituut van de  
+Overwegende dat onderhavige norm het gevolg is van een samenwerking tussen het Instituut van de 
  Bedrijfsrevisoren en het Instituut van de Accountants en de Belastingconsulenten;
 
 Overwegende dat bij wet van 8 januari 2012 het Wetboek van vennootschappen werd gewijzigd ingevolge Richtlijn 200/09/EG wat verslaggevings- en documentatieverplichtingen in geval van fusies en splitsingen betreft;
@@ -52,9 +52,9 @@ Overwegende dat tevens de aspecten van de grensoverschrijdende fusie en de opric
 
 Overwegende dat de beroepsbeoefenaar overeenkomstig artikel 695 van het Wetboek van vennootschappen in een schriftelijk verslag over het fusievoorstel inzonderheid moet verklaren of de ruilverhouding naar zijn mening al dan niet redelijk is; dat de beroepsbeoefenaar in staat moet zijn om zich hierover een oordeel te vormen; dat de methoden volgens dewelke de ruilverhouding is vastgesteld kunnen ontbreken in het fusie- of splitsingsvoorstel dan wel in de verslagen van de bestuursorganen van elk van de bij de verrichting betrokken vennootschappen; dat het bestuursorgaan conform artikel 694 van het Wetboek van vennootschappen kan verzaken aan het verslag dat hij moet opstellen; dat de beroepsbeoefenaar gerechtigd is te verlangen dat hem alle ophelderingen en inlichtingen worden verstrekt; dat, indien de methoden volgens dewelke de ruilverhouding niet worden vermeld, of indien het bestuursorgaan conform voormeld artikel 694 heeft verzaakt aan het verslag en de nodige ophelderingen en inlichtingen niet op afdoende wijze heeft verstrekt, de beroepsbeoefenaar om een schriftelijke bevestiging moet verzoeken omtrent de methoden volgens dewelke de voorgestelde ruilverhouding is vastgesteld; dat de beroepsbeoefenaar bij gebreke aan een schriftelijke bevestiging niet beschikt over voldoende en geschikte informatie om zich een oordeel te vormen en zich niet kan uitspreken over de redelijkheid van de ruilverhouding;
 
-Dat, indien de beroepsbeoefenaar in staat is zich een oordeel te vormen over de redelijkheid van de ruilverhouding, de wet enkel een verklaring zonder voorbehoud of een afkeurende verklaring toelaat; dat hieruit voortvloeit dat, in het geval dat de beroepsbeoefenaar een van materieel belang zijnde onzekerheid identificeert die hem niet in staat stelt een oordeel zonder voorbehoud tot uitdrukking te brengen, of die leidt tot een voorbehoud zodanig dat afbreuk zou gedaan worden aan de draagwijdte van de verklaring zonder voorbehoud, de beroepsbeoefenaar enkel een afkeurende verklaring kan tot uitdrukking brengen;  
- Dat de twee voorgaande overwegingen eveneens gelden in het kader van splitsing van vennootschappen; Heeft de Raad van het IBR de ontwerpnorm inzake de controle van fusie- en splitsingsverrichtingen van  
- vennootschappen aangenomen op zijn zitting van 13 december 2013, die de normen van 6 december 2002  
+Dat, indien de beroepsbeoefenaar in staat is zich een oordeel te vormen over de redelijkheid van de ruilverhouding, de wet enkel een verklaring zonder voorbehoud of een afkeurende verklaring toelaat; dat hieruit voortvloeit dat, in het geval dat de beroepsbeoefenaar een van materieel belang zijnde onzekerheid identificeert die hem niet in staat stelt een oordeel zonder voorbehoud tot uitdrukking te brengen, of die leidt tot een voorbehoud zodanig dat afbreuk zou gedaan worden aan de draagwijdte van de verklaring zonder voorbehoud, de beroepsbeoefenaar enkel een afkeurende verklaring kan tot uitdrukking brengen; 
+ Dat de twee voorgaande overwegingen eveneens gelden in het kader van splitsing van vennootschappen; Heeft de Raad van het IBR de ontwerpnorm inzake de controle van fusie- en splitsingsverrichtingen van 
+ vennootschappen aangenomen op zijn zitting van 13 december 2013, die de normen van 6 december 2002 
  vervangt;
 
 Heeft de Raad van het IAB de ontwerpnorm inzake de controle van fusie- en splitsingsverrichtingen van vennootschappen goedgekeurd op zijn zitting van 10 december 2013, die de normen van 2 december 2002 vervangt.
@@ -73,7 +73,7 @@ In onderhavige norm wordt onder beroepsbeoefenaar verstaan hetzij de commissaris
 
 Indien alle vennoten en houders van andere effecten waaraan stemrecht is verbonden van alle vennootschappen die aan de fusie of splitsing deelnemen hiermee hebben ingestemd, is geen schriftelijk verslag over het fusievoorstel of het splitsingsvoorstel door de beroepsbeoefenaar vereist (art. 695, § 1 laatste lid, 708, laatste lid, 731, § 1, laatste lid en 746, zesde lid W. Venn.).
 
-Indien alle vennoten in elk bij de grensoverschrijdende fusie betrokken vennootschap hiermee hebben ingestemd, is noch het onderzoek van het gemeenschappelijk voorstel voor een grensoverschrijdende fusie door de beroepsbeoefenaar, noch het verslag over het fusievoorstel door de beroepsbeoefenaar vereist (art.  
+Indien alle vennoten in elk bij de grensoverschrijdende fusie betrokken vennootschap hiermee hebben ingestemd, is noch het onderzoek van het gemeenschappelijk voorstel voor een grensoverschrijdende fusie door de beroepsbeoefenaar, noch het verslag over het fusievoorstel door de beroepsbeoefenaar vereist (art. 
  772/9, § 3 W. Venn.).
 
 1.3. De fusie en de splitsing kunnen betrekking hebben op vennootschappen met een verschillende rechtsvorm, zonder dat voorafgaandelijk wordt overgegaan tot een wijziging van de rechtsvorm van één van de vennootschappen teneinde de rechtsvorm in overeenstemming te brengen. Volgens de mening van de Raden van de Instituten is het opstellen van een tussentijdse staat en de controleopdracht naar aanleiding van de wijziging van de rechtsvorm (art. 776 en 777 W. Venn.) in dit specifieke geval niet toepasselijk.
@@ -96,7 +96,7 @@ In elk geval zijn de normen van het IBR inzake de controle van inbreng en quasi-
 
 Wanneer dezelfde persoon belast wordt om verslag uit te brengen aan de algemene vergaderingen van verscheidene van de vennootschappen, dan zal hij er normalerwijze de voorkeur aan geven om zijn standpunt in één coherent oordeel, opgenomen in de onderscheiden verslagen, en gericht aan de algemene vergaderingen, op een gedetailleerde manier naar voren te brengen en ervoor te zorgen dat de voor- of nadelen toegekend aan de ene of de andere partij eruit blijken.
 
-2.3. In toepassing van de artikelen 700, derde lid, 713, derde lid, 737, derde lid, 752, derde lid en 772/12  
+2.3. In toepassing van de artikelen 700, derde lid, 713, derde lid, 737, derde lid, 752, derde lid en 772/12 
  W. Venn., is de notaris ermee belast na onderzoek het bestaan en zowel de interne als de externe wettigheid te bevestigen van de rechtshandelingen en formaliteiten waartoe de vennootschap waarbij hij optreedt, gehouden is. Het is van belang dat de beroepsbeoefenaar, zodra het mogelijk is, contact opneemt met de notaris die optreedt voor dezelfde vennootschap. Wanneer de beroepsbeoefenaar, in het kader van de uitvoering van zijn normale werkzaamheden, kennis krijgt van vaststellingen die van belang zouden zijn voor het correcte verloop van de rechtshandelingen en formaliteiten, is het aangewezen dat hij deze vaststellingen onder de aandacht brengt van de notaris.
 
 Wanneer hij wordt verzocht om advies te geven over het fusie- of splitsingsvoorstel, zal de beroepsbeoefenaar de partijen aanraden om dit voorstel door de notaris te laten opstellen of te laten nazien en neerleggen.
@@ -132,17 +132,17 @@ De inzagemogelijkheid doet niets af aan het recht van elke beroepsbeoefenaar om 
 
 Wanneer de vennootschappen schriftelijk in de samenwerking hebben toegestemd (zie supra 1.3.4.), moeten de beroepsbeoefenaars de redelijke vragen die zij aan elkaar richten, beantwoorden.
 
-3.6. De commissaris zal de algemene vergadering bijwonen die moet beraadslagen op grond van een door hem opgesteld verslag, tenzij hij om een wettige reden verhinderd zou zijn (art. 5384 en 540, tweede lid5  
+3.6. De commissaris zal de algemene vergadering bijwonen die moet beraadslagen op grond van een door hem opgesteld verslag, tenzij hij om een wettige reden verhinderd zou zijn (art. 5384 en 540, tweede lid5 
  W. Venn.).
 
 Het verdient aanbeveling dat de bedrijfsrevisor of de externe accountant die een verslag over een fusie- of een splitsingsvoorstel opstelt, op dezelfde manier handelt, met toelating van de algemene vergadering, wanneer de kenmerken van de verrichting van aard zijn om in de algemene vergadering te leiden tot discussies over de financiële aspecten van de verrichting.
 
 ---
 
-1 Voor de NV; artikel 287 W. Venn. (BVBA); artikel 413 W. Venn. (CVBA).  
- 2 Er dient te worden opgemerkt dat de verkrijging binnen de wettelijke termijn van het fiscaal certificaat bedoeld in art. 442*bis* W.I.B. zoals vermeld in de normen inzake controle van inbreng in natura en quasi-inbreng van het IBR, evenals de verkrijging binnen de wettelijke termijn van het attest vereist door art. 93*undecies* B W. BTW en het certificaat bij overdracht van een handelsfonds inzake RSZ, hier niet van toepassing zijn (cf. art. 442bis, § 4 W.I.B., art. 93*undecies* B, § 4 W. BTW en art. 41*quinquies* wet 27 juni 1969).  
- 3 Als voorbeeld hiervan kan verwezen worden naar de situatie waarbij de beroepsbeoefenaar een betekenisvolle invloed heeft uitgeoefend, als werknemer of onafhankelijke medewerker, op de informatie die het voorwerp uitmaakt van de opdracht. Dit is met name het geval indien zijn kantoor heeft bijgedragen aan het bijhouden van de boekhouding of aan het opstellen van de jaarrekening.  
- 4 Voor de NV; artikel 272 W. Venn. (BVBA); artikel 412 W. Venn. (CVBA).  
+1 Voor de NV; artikel 287 W. Venn. (BVBA); artikel 413 W. Venn. (CVBA). 
+ 2 Er dient te worden opgemerkt dat de verkrijging binnen de wettelijke termijn van het fiscaal certificaat bedoeld in art. 442*bis* W.I.B. zoals vermeld in de normen inzake controle van inbreng in natura en quasi-inbreng van het IBR, evenals de verkrijging binnen de wettelijke termijn van het attest vereist door art. 93*undecies* B W. BTW en het certificaat bij overdracht van een handelsfonds inzake RSZ, hier niet van toepassing zijn (cf. art. 442bis, § 4 W.I.B., art. 93*undecies* B, § 4 W. BTW en art. 41*quinquies* wet 27 juni 1969). 
+ 3 Als voorbeeld hiervan kan verwezen worden naar de situatie waarbij de beroepsbeoefenaar een betekenisvolle invloed heeft uitgeoefend, als werknemer of onafhankelijke medewerker, op de informatie die het voorwerp uitmaakt van de opdracht. Dit is met name het geval indien zijn kantoor heeft bijgedragen aan het bijhouden van de boekhouding of aan het opstellen van de jaarrekening. 
+ 4 Voor de NV; artikel 272 W. Venn. (BVBA); artikel 412 W. Venn. (CVBA). 
  5Voor de NV; artikel 274, tweede lid W. Venn. (BVBA); artikel 412, tweede lid W. Venn. (CVBA).
 
 ## Controlewerkzaamheden
@@ -265,7 +265,7 @@ Afhankelijk van de bijzondere situatie van elke vennootschap, kan de keuze van d
 
 Wanneer zich een belangrijke wijziging in de activa en de passiva van het vermogen van één van de bij de verrichting betrokken vennootschappen voordoet tussen de datum van opstelling van het fusievoorstel en de datum van de algemene vergadering, dan moet het bestuursorgaan de aandeelhouders hiervan op de hoogte stellen overeenkomstig de artikelen 696, 709, 732 en 747 W. Venn. Vooraleer de beroepsbeoefenaar zijn verslag neerlegt, dient hij zich ervan te vergewissen dat het bestuursorgaan zich, in voorkomend geval, bewust is van de noodzaak om bepaalde gekende feiten mee te delen. Is dit niet het geval, dan brengt hij het bestuursorgaan schriftelijk op de hoogte. Bovendien gaat hij na in welke mate dit feit de relevantie van de ruilverhouding ernstig in het gedrang zou kunnen brengen; hij houdt rekening met de noodzaak om in zijn verslag een afkeurende verklaring tot uitdrukking te brengen.
 
-4.8. Wanneer overeenkomstig de artikelen 697, § 2, 5°, 710, § 2, 5°, 733, § 2, 5°, 748, § 2, 5° en 772/10,  
+4.8. Wanneer overeenkomstig de artikelen 697, § 2, 5°, 710, § 2, 5°, 733, § 2, 5°, 748, § 2, 5° en 772/10, 
  § 2, 5° W. Venn. een tussentijdse staat wordt opgesteld, moet de beroepsbeoefenaar die staat nazien teneinde in zijn verslag een uitvoerige toelichting op te nemen, in het geval:
 
 1. a) uit die staat zou blijken dat de relevantie van de ruilverhouding na de datum van het fusievoorstel ernstig in het gedrang komt;
@@ -279,7 +279,7 @@ Wanneer zich een belangrijke wijziging in de activa en de passiva van het vermog
 
 5.2. In functie van de economische waardering van de vennootschap, van het aantal bestaande aandelen en van de eraan verbonden rechten, moet aan elk aandeel een waarde worden toegekend met het oog op de vaststelling van de ruilverhouding.
 
-5.3. Wanneer de beroepsbeoefenaar vaststelt dat er eigen aandelen in het vermogen van een overgenomen vennootschap of aandelen van een gefuseerde vennootschap in het vermogen van de andere vennootschap aanwezig zijn, moet hij nagaan of daarmee rekening werd gehouden bij het berekenen van de ruilverhouding. Inzonderheid kan er geen omwisseling plaatsvinden van de aandelen van de overnemende vennootschap tegen aandelen van de overgenomen vennootschap onder de voorwaarden bedoeld in de artikelen 703, § 2,  
+5.3. Wanneer de beroepsbeoefenaar vaststelt dat er eigen aandelen in het vermogen van een overgenomen vennootschap of aandelen van een gefuseerde vennootschap in het vermogen van de andere vennootschap aanwezig zijn, moet hij nagaan of daarmee rekening werd gehouden bij het berekenen van de ruilverhouding. Inzonderheid kan er geen omwisseling plaatsvinden van de aandelen van de overnemende vennootschap tegen aandelen van de overgenomen vennootschap onder de voorwaarden bedoeld in de artikelen 703, § 2, 
  717, § 2, 740, § 2 en 756, § 2 W. Venn.
 
 5.4. De beroepsbeoefenaar gaat na of het aantal door de overnemende of door de nieuwe vennootschap uit te geven aandelen precies overeenstemt met wat ten behoeve van de ruilverhouding is vereist. Hij vergewist zich ervan dat de beweging van de rekening kapitaal juist is berekend, door, in voorkomend geval, het onderscheid te maken tussen de soort aandelen en de specifieke rechten die eraan verbonden zijn.
@@ -304,7 +304,7 @@ Wanneer het splitsingsvoorstel geen residuaire clausule (zodat elk element van h
 
 ---
 
-1 Namelijk indien alle vennoten en houders van andere effecten waaraan stemrecht is verbonden in elke bij de fusie of de splitsing betrokken vennootschap daarvan hebben afgezien.  
+1 Namelijk indien alle vennoten en houders van andere effecten waaraan stemrecht is verbonden in elke bij de fusie of de splitsing betrokken vennootschap daarvan hebben afgezien. 
  2 In het geval dat de methoden volgens dewelke de ruilverhouding is vastgesteld worden vermeld noch in het fusie- of splitsingsvoorstel, noch desgevallend in de verslagen – eventueel de ontwerpverslagen – die de bestuursorganen van elk van de bij de verrichting betrokken vennootschappen opstellen.
 
 ## Inhoud van het verslag
@@ -394,32 +394,32 @@ Een exemplaar van het verslag wordt eveneens tegelijkertijd aan de bij de verric
 
 ---
 
-1 Zie overweging 5 van huidige norm.  
+1 Zie overweging 5 van huidige norm. 
  2 Bijvoorbeeld in het geval van een hangend fiscaal geschil tegen de vennootschap ten belope van een aanzienlijk bedrag, waarvan de uitkomst uitermate aleatoir is.
 
 ## Bijlage: Overzicht na de wet van 8 januari 2012 [1]
 
-|  |  |  |  |
+| | | | |
 | --- | --- | --- | --- |
 | **T****y****pe van herstructurering** | **Controleverslag** **ov****er de ruilverhouding** | **Verslag over de inbrengen in natura** | **Wettelijke basis** |
 | Fusie door overneming | Ja | Neen | Art. 695 W. Venn. |
 | Fusie door overneming | Neen | Ja | Art 695 W. Venn. |
-| Fusie door oprichting nieuwe vennootschap | Ja | Neen | Art. 705 en  708 W. Venn. |
-| Fusie door oprichting nieuwe vennootschap | Neen | Ja | Art. 705 en  708 W. Venn. |
-| Splitsing door overneming | Ja | Neen | Art. 731 en  734 W. Venn. |
-| Splitsing door overneming | Neen | Ja | Art. 731 en  734 W. Venn. |
-| Splitsing door oprichting nieuwe vennootschappen | Ja | Neen | Art. 742, 746 en  749 W. Venn. |
-| Splitsing door oprichting nieuwe vennootschappen | Neen | Ja | Art. 742, 746 en  749 W. Venn. |
+| Fusie door oprichting nieuwe vennootschap | Ja | Neen | Art. 705 en 708 W. Venn. |
+| Fusie door oprichting nieuwe vennootschap | Neen | Ja | Art. 705 en 708 W. Venn. |
+| Splitsing door overneming | Ja | Neen | Art. 731 en 734 W. Venn. |
+| Splitsing door overneming | Neen | Ja | Art. 731 en 734 W. Venn. |
+| Splitsing door oprichting nieuwe vennootschappen | Ja | Neen | Art. 742, 746 en 749 W. Venn. |
+| Splitsing door oprichting nieuwe vennootschappen | Neen | Ja | Art. 742, 746 en 749 W. Venn. |
 
-|  |  |  |  |
+| | | | |
 | --- | --- | --- | --- |
-| Gemengde splitsing | Ja | Neen | - Door overneming: Art. 758 *juncto* 731 en 734 W. Venn.    - Door oprichting nieuwe vennootschappen: Art. 758 *juncto* 742,  746 en 749 W. Venn. |
-| Gemengde splitsing | Neen | Ja | - Door overneming: Art. 758 *juncto* 731 en 734 W. Venn.    - Door oprichting nieuwe vennootschappen: Art. 758 *juncto* 742,  746 en 749 W. Venn. |
-| Partiële splitsing | Ja | Neen | - Door overneming: Art. 677 *juncto* 731 en 734 W. Venn.    - Door oprichting nieuwe vennootschappen: Art. 677 *juncto* 742,  746 en 749 W. Venn. |
-| Partiële splitsing | Neen | Ja | - Door overneming: Art. 677 *juncto* 731 en 734 W. Venn.    - Door oprichting nieuwe vennootschappen: Art. 677 *juncto* 742,  746 en 749 W. Venn. |
-| Inbreng van  Algemeenheid | Niet van toepassing | Ja 2 |  |
-| Inbreng van een bedrijfstak | Niet van toepassing | Ja 3 |  |
+| Gemengde splitsing | Ja | Neen | - Door overneming: Art. 758 *juncto* 731 en 734 W. Venn. - Door oprichting nieuwe vennootschappen: Art. 758 *juncto* 742, 746 en 749 W. Venn. |
+| Gemengde splitsing | Neen | Ja | - Door overneming: Art. 758 *juncto* 731 en 734 W. Venn. - Door oprichting nieuwe vennootschappen: Art. 758 *juncto* 742, 746 en 749 W. Venn. |
+| Partiële splitsing | Ja | Neen | - Door overneming: Art. 677 *juncto* 731 en 734 W. Venn. - Door oprichting nieuwe vennootschappen: Art. 677 *juncto* 742, 746 en 749 W. Venn. |
+| Partiële splitsing | Neen | Ja | - Door overneming: Art. 677 *juncto* 731 en 734 W. Venn. - Door oprichting nieuwe vennootschappen: Art. 677 *juncto* 742, 746 en 749 W. Venn. |
+| Inbreng van Algemeenheid | Niet van toepassing | Ja 2 | |
+| Inbreng van een bedrijfstak | Niet van toepassing | Ja 3 | |
 
-1 Wet van 8 januari 2012 tot wijziging van het Wetboek van vennootschappen ingevolge richtlijn 2009/109/EG wat verslaggevings- en documentatieverplichtingen in geval van fusies en splitsingen betreft (*BS* 18 januari 2012).  
- 2 Volgens de bepalingen betreffende de kapitaalsverhoging of de oprichting van de vennootschappen van toepassing.  
+1 Wet van 8 januari 2012 tot wijziging van het Wetboek van vennootschappen ingevolge richtlijn 2009/109/EG wat verslaggevings- en documentatieverplichtingen in geval van fusies en splitsingen betreft (*BS* 18 januari 2012). 
+ 2 Volgens de bepalingen betreffende de kapitaalsverhoging of de oprichting van de vennootschappen van toepassing. 
  3 Bijvoorbeeld in het geval van een hangend fiscaal geschil tegen de vennootschap ten belope van een aanzienlijk bedrag, waarvan de uitkomst uitermate aleatoir is.
