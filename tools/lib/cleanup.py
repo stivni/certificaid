@@ -129,7 +129,24 @@ def remove_toc(text: str) -> str:
         r"|^§\s*\d"                 # paragraaf
         r"|^TITEL\s+I\.\s*[-–]"     # structuurkop
         # ejustice inline art. met inhoud — dekt "Art. 47.", "Art. I.20.", "Art. IV.85."
-        r"|^\s{0,4}Art\.\s+(?:[IVX]+\.)?[\d][\w./:]*\.\s+\S.{10,}",
+        # Accepteert ook 'Artikel' voluit (bv. WVV Art. 1:1).
+        r"|^\s{0,4}Art(?:\.|ikel)\s+(?:[IVX]+\.)?[\d][\w./:]*\.\s+\S.{10,}",
+        re.IGNORECASE,
+    )
+
+    # Structurele headings die vlak vóór het eerste artikel mogen blijven staan.
+    # Zonder deze backward-walk strippen we DEEL/BOEK/TITEL bovenaan een wetboek
+    # waarvan de TOC eindigt vlak voor 'Art. 1:1' (bv. WVV).
+    structural_heading = re.compile(
+        r"^\s*(?:DEEL|BOEK|TITEL|HOOFDSTUK|Hoofdstuk|Afdeling|Onderafdeling|"
+        r"PARTIE|LIVRE|TITRE|CHAPITRE)\b",
+        re.IGNORECASE,
+    )
+    # TOC-style Art-referentie (geen body, eindigt na het nummer): 'Art. 1:1-1:7',
+    # 'Art. 18:8', 'Art. 47'. Deze markeert het einde van de TOC; walk-back stopt.
+    toc_art_ref = re.compile(
+        r"^\s*Art(?:\.|ikel)\s+(?:[IVX]+\.)?[\d][\w./:]*"
+        r"(?:[-–,/]\s*(?:[IVX]+\.)?[\d][\w./:]*)?\s*$",
         re.IGNORECASE,
     )
 
@@ -138,8 +155,23 @@ def remove_toc(text: str) -> str:
             in_toc = True
             toc_end_idx = i
         elif in_toc and first_art_marker.search(line):
-            # Eerste echte artikel gevonden — TOC eindigt hier
+            # Eerste echte artikel gevonden — TOC eindigt hier.
+            # Walk terug max 8 niet-lege regels om DEEL/BOEK/TITEL/HOOFDSTUK
+            # vlak boven het artikel te bewaren. Stop bij een TOC-art-referentie
+            # (Art. X-Y of Art. X zonder body) — alles boven dat is nog TOC.
             toc_end_idx = i
+            seen_non_blank = 0
+            for j in range(i - 1, max(i - 25, -1), -1):
+                stripped = lines[j].strip()
+                if not stripped:
+                    continue
+                if toc_art_ref.match(stripped):
+                    break
+                seen_non_blank += 1
+                if structural_heading.match(stripped):
+                    toc_end_idx = j
+                if seen_non_blank >= 8:
+                    break
             break
 
     if in_toc and toc_end_idx > 0:
@@ -337,12 +369,14 @@ def ensure_article_headings(text: str) -> str:
     )
     # Patroon 3: ejustice inline met inspringing (ook WER: "  Art. IV.85. tekst")
     # \s* i.p.v. \s+ na de punt — dekt "Art. 4.Voor" (geen spatie na punt)
+    # Accepteert ook 'Artikel' voluit — sommige wetboeken (WVV) gebruiken dat
+    # voor het eerste artikel en 'Art.' voor de rest.
     inline_indented = re.compile(
-        rf"^\s{{1,4}}(Art\.)\s+({_num})\.\s*(.*\S)", re.IGNORECASE
+        rf"^\s{{1,4}}(Art(?:\.|ikel))\s+({_num})\.\s*(.*\S)", re.IGNORECASE
     )
     # Patroon 4: inline zonder inspringing — MIGB/WVV-stijl
     inline_noindent = re.compile(
-        rf"^(Art\.)\s+({_num})\.\s*(\S.*)", re.IGNORECASE
+        rf"^(Art(?:\.|ikel))\s+({_num})\.\s*(\S.*)", re.IGNORECASE
     )
     # Patroon 5: EU-richtlijn "Artikel X" inline met tekst
     artikel_inline = re.compile(
@@ -736,32 +770,63 @@ def remove_toc_ejustice(text: str) -> str:
     Verwijder de ejustice inhoudsopgave.
 
     TOC-entries: 'Art. X-Y' of 'Art. X:Y-Z' (bereiken, geen punt na nummer + inhoud)
-    Echte artikels: 'Art. X.' of 'Art. X:Y.' gevolgd door substantiële tekst (>20 chars)
+    Echte artikels: 'Art. X.' / 'Artikel X.' / 'Art. X:Y.' gevolgd door
+    substantiële tekst (>15 chars). Dekt ook 'Artikel' (voluit) — sommige
+    wetboeken (bv. WVV) gebruiken 'Artikel' voor het eerste artikel en 'Art.'
+    voor de rest.
     """
     lines = text.split("\n")
 
     # Nummer-patroon: dekt "47", "6:18", "I.20/1", "IV.85", "III.82"
     _art_num = r"(?:[IVX]+\.)?[\d][\w./:]*"
 
-    # Echte artikel: Art. + nummer + punt + substantiële tekst (>15 chars)
+    # Echte artikel: Art./Artikel + nummer + punt + substantiële tekst (>15 chars)
     first_real_art = re.compile(
-        rf"^\s{{0,4}}Art\.\s+{_art_num}\.\s{{1,3}}\S.{{15,}}"
+        rf"^\s{{0,4}}Art(?:\.|ikel)\s+{_art_num}\.\s{{1,3}}\S.{{15,}}"
     )
     # TOC-range: meerdere artikels op één lijn (komma of koppelstreep)
     art_range = re.compile(
-        rf"^\s*Art\.\s+{_art_num}(?:[-–,/]\s*(?:[IVX]+\.)?[\d])"
+        rf"^\s*Art(?:\.|ikel)\s+{_art_num}(?:[-–,/]\s*(?:[IVX]+\.)?[\d])"
+    )
+
+    # Structurele headings die we vlak voor het eerste artikel willen bewaren.
+    structural_heading = re.compile(
+        r"^\s*(?:DEEL|BOEK|TITEL|HOOFDSTUK|Hoofdstuk|Afdeling|Onderafdeling|"
+        r"PARTIE|LIVRE|TITRE|CHAPITRE)\b",
+        re.IGNORECASE,
+    )
+    # TOC-style Art-referentie zonder body (Art. X-Y of Art. X) — stopt walkback.
+    toc_art_ref = re.compile(
+        rf"^\s*Art(?:\.|ikel)\s+{_art_num}"
+        rf"(?:[-–,/]\s*(?:[IVX]+\.)?[\d][\w./:]*)?\s*$",
+        re.IGNORECASE,
     )
 
     start_idx = 0
     for i, line in enumerate(lines):
         if first_real_art.match(line):
-            # Ga iets terug voor eventuele structurele heading
             start_idx = i
-            for j in range(i - 1, max(i - 8, 0), -1):
+            # Walk terug max 8 niet-lege regels en bewaar het hoogste
+            # structurele niveau dat we tegenkomen (DEEL > BOEK > TITEL).
+            # Niet-structurele inhoud (Justel-metadata, paragraafnummers, ...)
+            # tussen het artikel en de structurele headings stoppen ons niet.
+            # Een TOC-art-referentie (Art. X-Y of Art. X zonder body) wel —
+            # dat betekent we zijn terug in de TOC.
+            seen = 0
+            last_structural = None
+            for j in range(i - 1, max(i - 25, -1), -1):
                 stripped = lines[j].strip()
-                if stripped and not art_range.match(lines[j]) and len(stripped) > 5:
-                    start_idx = j
+                if not stripped:
+                    continue
+                if toc_art_ref.match(stripped):
                     break
+                seen += 1
+                if structural_heading.match(stripped):
+                    last_structural = j
+                if seen >= 8:
+                    break
+            if last_structural is not None:
+                start_idx = last_structural
             break
 
     return "\n".join(lines[start_idx:])
