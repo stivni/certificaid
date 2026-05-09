@@ -22,6 +22,7 @@ worden — zo werken bestaande items zonder cfg-aanpassing.
 """
 from __future__ import annotations
 
+import subprocess
 from pathlib import Path
 
 from tools.lib.normen_extractie import (
@@ -72,6 +73,31 @@ def _resolve_column_split(cfg: dict, source_name: str) -> int | None:
     return None
 
 
+_KNOWN_LAYOUT_TYPES = {"nl-singlecol", "bilingual", "vereisten"}
+
+
+def _resolve_type(cfg: dict, source_name: str) -> str | None:
+    """Lees layout-type-hint uit cfg of KNOWN_PDFS.
+
+    Het document-eigen ``type:`` veld in de frontmatter (bv. ``type: norm``)
+    is een domeinvlag, geen layout-routing — daarom matchen we eerst tegen
+    ``KNOWN_PDFS`` en accepteren we cfg["type"] alleen als het een bekend
+    layout-type is.
+    """
+    from tools.etl.extract_norm_twocolumn import KNOWN_PDFS
+
+    md_name = f"{source_name}.md"
+    entry = KNOWN_PDFS.get(md_name)
+    if entry and "type" in entry:
+        return str(entry["type"])
+
+    cfg_type = cfg.get("type")
+    if cfg_type and str(cfg_type) in _KNOWN_LAYOUT_TYPES:
+        return str(cfg_type)
+
+    return None
+
+
 def extract(cfg: dict, source_name: str) -> str:
     """Re-extract een ITAA-norm-PDF naar markdown-body.
 
@@ -95,10 +121,21 @@ def extract(cfg: dict, source_name: str) -> str:
     if not pdf_path.exists():
         raise FileNotFoundError(f"{source_name}: PDF bestaat niet op {pdf_path}")
 
-    column_split = _resolve_column_split(cfg, source_name)
+    type_hint = _resolve_type(cfg, source_name)
 
-    # 1. NL-kolom uit twee-kolom PDF
-    body = extract_nl_column(pdf_path, column_x_split=column_split)
+    if type_hint == "nl-singlecol":
+        # NL-only enkelkolom-PDF: gebruik pdftotext -layout direct, omzeil
+        # de bilingual-blok-decompositie (die FR-false-positives genereert).
+        body = subprocess.run(
+            ["pdftotext", "-layout", str(pdf_path), "-"],
+            capture_output=True,
+            text=True,
+            check=True,
+        ).stdout
+    else:
+        column_split = _resolve_column_split(cfg, source_name)
+        # 1. NL-kolom uit twee-kolom PDF
+        body = extract_nl_column(pdf_path, column_x_split=column_split)
 
     # 2. Fix-artefacten (form-feed, page-numbers, OCR-fixes, TOC-stippen)
     body, _fixes = fix_norm_artefacts(body)
