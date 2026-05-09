@@ -1,0 +1,195 @@
+{
+  "programmaonderdeel": "2.3",
+  "programmaonderdeel_letter": "Q",
+  "titel": "Vennootschapsbelasting",
+  "niveau": "integratie",
+  "source": {
+    "type": "itaa-programma",
+    "version": "04/2022",
+    "pages": "43-44"
+  },
+  "scope": {
+    "kern_taakblokken": [
+      "2.3.D1.1"
+    ],
+    "kern_kenniselementen": [
+      "2.3.I"
+    ],
+    "voorbehoud": null
+  },
+  "intro_tekst": "I. Elementen van boekhouding, boekhoudrecht en -wetgeving essentieel voor de toepassing van de vennootschapsbelasting",
+  "taakblokken": [
+    {
+      "deel": 1,
+      "code": "2.3.D1.1",
+      "taken": [
+        {
+          "tekst": "Begeleiding bij de oprichting van een onderneming"
+        },
+        {
+          "tekst": "Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming"
+        },
+        {
+          "tekst": "De belastingplichtige in alle fiscale aangelegenheden advies verlenen"
+        },
+        {
+          "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen"
+        },
+        {
+          "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden"
+        }
+      ],
+      "doelstellingen": [
+        {
+          "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren"
+        },
+        {
+          "tekst": "Geavanceerde concepten op het gebied van vennootschapsbelasting toepassen op complexe gevallen, de belastingaangifte optimaal invullen, het belastbaar resultaat en de belasting berekenen"
+        },
+        {
+          "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen."
+        },
+        {
+          "tekst": "Fiscale risico’s kunnen analyseren en beheren."
+        },
+        {
+          "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de genomen beslissing."
+        }
+      ]
+    }
+  ],
+  "kenniselementen": [
+    {
+      "deel": 1,
+      "code": "2.3.I",
+      "tekst": "Elementen van boekhouding, boekhoudrecht en -wetgeving essentieel voor de toepassing van de vennootschapsbelasting"
+    },
+    {
+      "deel": 2,
+      "code": "2.3.II.A",
+      "tekst": "Toepassingsgebied van de vennootschapsbelasting",
+      "subitems": [
+        {
+          "code": "2.3.II.A.1",
+          "tekst": "omvorming van een eenmanszaak in een vennootschap"
+        },
+        {
+          "code": "2.3.II.A.2",
+          "tekst": "bezoldiging van werknemers en bedrijfsleiders in een nationale of internationale context en vereiste formaliteiten"
+        },
+        {
+          "code": "2.3.II.A.3",
+          "tekst": "verwerving, eigendom, beheer en realisatie van onroerend goed, financiering bij verwerving en onderhoud van onroerend goed, zowel in België als in het buitenland"
+        },
+        {
+          "code": "2.3.II.A.4",
+          "tekst": "Internationale mobiliteit van vennootschappen, buitenlandse vennootschap actief in België en vice versa: toepasselijke wetgeving"
+        },
+        {
+          "code": "2.3.II.A.5",
+          "tekst": "Baten en verliezen in het buitenland, (Belgische) VI-verplichtingen op het vlak van de BNI/VEN"
+        }
+      ]
+    },
+    {
+      "deel": 2,
+      "code": "2.3.II.B",
+      "tekst": "Beginselen inzake de vaststelling van de belastbare grondslag van de vennootschapsbelasting"
+    },
+    {
+      "deel": 2,
+      "code": "2.3.II.C",
+      "tekst": "Beginselen met betrekking tot specifieke winstbestanddelen",
+      "subitems": [
+        {
+          "code": "2.3.II.C.1",
+          "tekst": "werkelijke bedrijfswinst van de onderneming"
+        },
+        {
+          "code": "2.3.II.C.2",
+          "tekst": "uitgedrukte maar niet-verwezenlijkte meerwaarden"
+        },
+        {
+          "code": "2.3.II.C.3",
+          "tekst": "uitgedrukte meerwaarden (bedrag, vrijstellingen en gespreide belasting)"
+        },
+        {
+          "code": "2.3.II.C.4",
+          "tekst": "onderwaardering van activa en overwaardering van passiva"
+        },
+        {
+          "code": "2.3.II.C.5",
+          "tekst": "toekenning van abnormale of goedgunstige voordelen"
+        }
+      ]
+    },
+    {
+      "deel": 2,
+      "code": "2.3.II.D",
+      "tekst": "Voorwaarden voor de aftrekbaarheid van beroepskosten"
+    },
+    {
+      "deel": 2,
+      "code": "2.3.II.E",
+      "tekst": "Verworpen uitgaven in de vennootschapsbelasting"
+    },
+    {
+      "deel": 2,
+      "code": "2.3.II.F",
+      "tekst": "Uitgekeerde dividenden"
+    },
+    {
+      "deel": 2,
+      "code": "2.3.II.G",
+      "tekst": "Verdeling van de winst naar herkomst",
+      "subitems": [
+        {
+          "code": "2.3.II.G.1",
+          "tekst": "aftrekbare verrichtingen en de beperkingen ervan op het vlak van aftrek en overdraagbaarheid"
+        },
+        {
+          "code": "2.3.II.G.2",
+          "tekst": "minimale belastbare grondslag"
+        }
+      ]
+    },
+    {
+      "deel": 2,
+      "code": "2.3.II.H",
+      "tekst": "Berekening van de gewone aanslagregeling in de vennootschapsbelasting"
+    },
+    {
+      "deel": 2,
+      "code": "2.3.II.I",
+      "tekst": "Berekening van de bijzondere aanslagregelingen in de vennootschapsbelasting"
+    },
+    {
+      "deel": 2,
+      "code": "2.3.II.J",
+      "tekst": "Bepalingen betreffende aftrekbare en terugbetaalbare voorheffingen"
+    },
+    {
+      "deel": 2,
+      "code": "2.3.II.III",
+      "tekst": "WIB: gevorderd niveau + rechtspraak"
+    }
+  ],
+  "_provenance": {
+    "inputs": [
+      {
+        "id": "resources/raw/andere/programma.pdf",
+        "sha256": "6a532dd301c094afd086c08358589dfe6109c1f7789c93eb84e2e140adf9f18d",
+        "version": "04/2022"
+      }
+    ],
+    "tooling": {
+      "pipeline": "auto",
+      "pipeline_version": "extract_programma-v1",
+      "model": null,
+      "prompt_version": null
+    },
+    "generated_at": "2026-05-09T10:58:47.889877+00:00",
+    "stale": false,
+    "stale_reason": null
+  }
+}

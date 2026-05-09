@@ -1,0 +1,333 @@
+{
+  "po": "2.4",
+  "generated_at": "2026-05-09T00:00:00Z",
+  "model": "claude-opus-4-7",
+  "prompt_version": "anchor-verrijking-v1",
+  "anchors": [
+    {
+      "anchor_id": "2.4.D1.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "2.4.D1.1",
+      "tekst": "Begeleiding bij de oprichting van een onderneming",
+      "verbose": "Bij de start van een onderneming moet de accountant inschatten of er btw-plicht ontstaat, welke regeling van toepassing is en welke aanvangsformaliteiten vervuld moeten worden. Daarbij hoort de keuze tussen normale, vrijgestelde of forfaitaire regeling, de aanvraag van een btw-identificatienummer en de inrichting van een correcte btw-boekhouding en facturatie vanaf de eerste handeling.",
+      "synoniemen": [
+        "btw-identificatie bij opstart",
+        "aanvang van btw-plicht",
+        "btw-registratie nieuwe onderneming",
+        "keuze btw-regeling bij start",
+        "opstartformaliteiten btw",
+        "begeleiding starter btw"
+      ]
+    },
+    {
+      "anchor_id": "2.4.D1.1.taak.2",
+      "anchor_type": "taak",
+      "taakblok": "2.4.D1.1",
+      "tekst": "Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming",
+      "verbose": "Bij overdracht of stopzetting van een onderneming moet de btw-impact beoordeeld worden: gaat het om een overdracht van een algemeenheid of bedrijfsafdeling die buiten de btw-werkingssfeer valt, of om afzonderlijke leveringen die wel belastbaar zijn? Bovendien moeten herzieningen van eerder afgetrokken btw, uitschrijving van de btw-identificatie en de afrekening van bedrijfsmiddelen correct worden afgehandeld.",
+      "synoniemen": [
+        "overdracht van algemeenheid",
+        "stopzetting btw-plicht",
+        "ontbinding en btw",
+        "bedrijfsoverdracht btw-gevolgen",
+        "afsluitende btw-formaliteiten",
+        "btw-herziening bij stopzetting"
+      ]
+    },
+    {
+      "anchor_id": "2.4.D1.1.taak.3",
+      "anchor_type": "taak",
+      "taakblok": "2.4.D1.1",
+      "tekst": "De belastingplichtige in alle fiscale aangelegenheden advies verlenen",
+      "verbose": "De accountant fungeert als fiscaal adviseur die btw-vraagstukken vertaalt naar de operationele en financiële realiteit van de onderneming. Dat betekent het inschatten van de btw-behandeling van geplande verrichtingen, het signaleren van risico's en opportuniteiten en het formuleren van geïntegreerd advies dat rekening houdt met andere fiscale takken zoals directe belastingen en registratierechten.",
+      "synoniemen": [
+        "fiscaal advies btw",
+        "btw-consultancy",
+        "fiscale begeleiding ondernemer",
+        "geïntegreerd fiscaal advies",
+        "btw-strategie",
+        "advies over fiscale impact"
+      ]
+    },
+    {
+      "anchor_id": "2.4.D1.1.taak.4",
+      "anchor_type": "taak",
+      "taakblok": "2.4.D1.1",
+      "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen",
+      "verbose": "Praktische compliance-ondersteuning vormt de kern van het btw-werk: periodieke aangiften, intracommunautaire opgaven, klantenlisting, OSS-aangiften en correcte facturatie. De accountant zorgt ervoor dat tijdlijnen, formele vereisten en betalingstermijnen gerespecteerd worden en dat de boekhouding voldoende sluitend is om de cijfers in de aangifte te onderbouwen.",
+      "synoniemen": [
+        "btw-aangifte indienen",
+        "btw-compliance",
+        "intracommunautaire opgave",
+        "klantenlisting jaarlijkse opgave",
+        "naleving btw-verplichtingen",
+        "periodieke btw-formaliteiten",
+        "fiscale formaliteiten begeleiden"
+      ]
+    },
+    {
+      "anchor_id": "2.4.D1.1.taak.5",
+      "anchor_type": "taak",
+      "taakblok": "2.4.D1.1",
+      "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden",
+      "verbose": "Bij controles, vraagstellingen of geschillen treedt de accountant op als gemachtigde tegenover de btw-administratie en aanverwante overheden. Dit omvat het beantwoorden van vragen om inlichtingen, het begeleiden van controles ter plaatse, het indienen van bezwaarschriften en het onderhandelen over regularisaties of minnelijke schikkingen op basis van een degelijk dossier.",
+      "synoniemen": [
+        "vertegenwoordiging bij btw-controle",
+        "bijstand bij fiscale administratie",
+        "bezwaar tegen btw-aanslag",
+        "geschillenbehandeling btw",
+        "mandaathouder fiscus",
+        "regularisatie btw-administratie"
+      ]
+    },
+    {
+      "anchor_id": "2.4.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.4.D1.1",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "De gecertificeerd accountant moet zelfstandig dossiers in de hand kunnen nemen waarbij de btw-behandeling afhangt van meerdere variabelen tegelijk: aard van de prestatie, hoedanigheid van de partijen, plaats van de handeling en bestemming van het goed. Werken in een complexe fiscale context vraagt een methodische aanpak waarbij feiten worden gestructureerd, juridische kwalificaties worden onderbouwd en het advies blijft staan onder kritische bevraging.",
+      "synoniemen": [
+        "autonoom fiscaal redeneren",
+        "methodische dossierbehandeling",
+        "geïntegreerd btw-advies",
+        "proactief fiscaal werken",
+        "complexe btw-cases beheersen",
+        "onderbouwde fiscale conclusie"
+      ]
+    },
+    {
+      "anchor_id": "2.4.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.4.D1.1",
+      "tekst": "Geavanceerde concepten op het gebied van btw toepassen op complexe gevallen, de aangifte invullen, de maatstaf van heffing en de btw berekenen.",
+      "verbose": "Op gevorderd niveau betekent dit dat de accountant de juiste maatstaf van heffing bepaalt, het toepasselijke tarief kiest, eventuele vrijstellingen of verleggingen identificeert en het resultaat correct in de overeenstemmende roosters van de aangifte plaatst. Dit vraagt beheersing van begrippen als levering, dienst, plaats van handeling, opeisbaarheid en aftrekbaarheid in samenhang.",
+      "synoniemen": [
+        "maatstaf van heffing bepalen",
+        "btw berekenen op handeling",
+        "roosters btw-aangifte",
+        "tarief en vrijstelling toepassen",
+        "btw-aangifte invullen",
+        "complexe btw-berekening",
+        "verschuldigde btw vaststellen"
+      ]
+    },
+    {
+      "anchor_id": "2.4.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.4.D1.1",
+      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen.",
+      "verbose": "Een correcte btw-behandeling staat of valt met de feiten: wie zijn de partijen, waar bevinden zich de goederen of diensten, wat is de aard van de prestatie en welke contractuele afspraken gelden? De accountant moet weten welke documenten en gegevens hij nodig heeft, welke gerichte vragen hij aan de klant of tegenpartij moet stellen en wanneer een bewijsstuk onvoldoende is om een btw-positie te onderbouwen.",
+      "synoniemen": [
+        "feitenrelaas opbouwen",
+        "due diligence btw",
+        "informatie verzamelen klantdossier",
+        "kritische vragen aan belastingplichtige",
+        "documentatieplicht onderbouwen",
+        "feitenanalyse fiscaal dossier"
+      ]
+    },
+    {
+      "anchor_id": "2.4.D1.1.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.4.D1.1",
+      "tekst": "Fiscale risico’s kunnen analyseren en beheren.",
+      "verbose": "Risicobeheer in btw houdt in dat de accountant herkent waar onzekerheden zitten — bijvoorbeeld bij gemengde belastingplicht, internationale handelingen, kwalificatie van vastgoedoperaties of toepassing van een vrijstelling — en dat hij die onzekerheid vertaalt in concrete maatregelen: voorzichtige facturatie, ruling, voorlegging aan de administratie of het aanleggen van een fiscale provisie.",
+      "synoniemen": [
+        "btw-risicoanalyse",
+        "fiscaal risicobeheer",
+        "kwalificatierisico btw",
+        "voorzieningen voor btw-geschil",
+        "ruling aanvragen",
+        "risicomatrix fiscaal dossier"
+      ]
+    },
+    {
+      "anchor_id": "2.4.D1.1.doel.5",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.4.D1.1",
+      "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de genomen beslissing.",
+      "verbose": "De fiscale procedure btw verloopt via opeenvolgende fasen: vraag om inlichtingen, controle, regularisatieopgave, dwangbevel, bezwaar en eventueel rechtbank. De accountant moet de klant op elk moment kunnen uitleggen wat de termijnen zijn, welke verweermiddelen beschikbaar zijn en welke gevolgen — boetes, nalatigheidsinteresten, hoofdelijke aansprakelijkheid — een bepaalde keuze met zich meebrengt.",
+      "synoniemen": [
+        "btw-procedure begeleiden",
+        "bezwaarprocedure btw",
+        "verloop fiscale procedure",
+        "boetes en interesten btw",
+        "regularisatieopgave btw",
+        "termijnen en rechtsmiddelen",
+        "procedurele btw-strategie"
+      ]
+    },
+    {
+      "anchor_id": "2.4.I",
+      "anchor_type": "kenniselement",
+      "tekst": "Btw - Wetboek - KB - MB - Circulaires - gevorderd niveau + rechtspraak",
+      "verbose": "Op gevorderd niveau moet de accountant de hiërarchie en samenhang van de btw-bronnen kunnen hanteren: het wetboek dat de basisregels bevat, de uitvoeringsbesluiten die deze concretiseren, ministeriële richtlijnen voor specifieke sectoren en de administratieve commentaar die de praktijk stuurt. Daarnaast moet hij relevante nationale en Europese rechtspraak kunnen positioneren bij twijfelgevallen.",
+      "synoniemen": [
+        "btw-wetgeving gevorderd",
+        "uitvoeringsbesluiten btw",
+        "administratieve commentaar btw",
+        "rechtspraak Hof van Justitie btw",
+        "ministeriële beslissingen btw",
+        "fiscale doctrine btw",
+        "circulaires btw"
+      ]
+    },
+    {
+      "anchor_id": "2.4.II",
+      "anchor_type": "kenniselement",
+      "tekst": "Opstart van de formaliteiten",
+      "verbose": "De aanvang van een economische activiteit triggert een reeks btw-handelingen: aanvraag van een identificatienummer, keuze van de aangifteperiodiciteit, eventueel toetreden tot een bijzondere regeling zoals de vrijstellingsregeling voor kleine ondernemingen, en de inrichting van het verplichte btw-boekhoudsysteem. De juiste timing en volledigheid van deze formaliteiten bepalen het recht op aftrek van de eerste investeringen.",
+      "synoniemen": [
+        "aanvraag btw-nummer",
+        "aanvangsaangifte",
+        "btw-identificatie aanvragen",
+        "keuze aangifteperiodiciteit",
+        "vrijstellingsregeling kleine onderneming",
+        "registratie als btw-plichtige",
+        "opstartformaliteiten"
+      ]
+    },
+    {
+      "anchor_id": "2.4.III",
+      "anchor_type": "kenniselement",
+      "tekst": "Statuut van de btw-plichtige, categorieën van btw-plichtigen",
+      "verbose": "Het btw-statuut bepaalt welke verplichtingen en welk recht op aftrek de onderneming heeft. Er bestaan onder meer gewone belastingplichtigen, vrijgestelde belastingplichtigen, gemengde belastingplichtigen, gedeeltelijke belastingplichtigen, niet-belastingplichtige rechtspersonen en de occasionele belastingplichtige bij vastgoed of nieuwe vervoermiddelen. Elke categorie heeft eigen formaliteiten en gevolgen voor facturatie, aftrek en aangifte.",
+      "synoniemen": [
+        "categorieën belastingplichtigen",
+        "gemengde belastingplicht",
+        "gedeeltelijke belastingplicht",
+        "occasionele btw-plichtige",
+        "vrijgestelde belastingplichtige",
+        "niet-belastingplichtige rechtspersoon",
+        "btw-eenheid statuut"
+      ]
+    },
+    {
+      "anchor_id": "2.4.IV",
+      "anchor_type": "kenniselement",
+      "tekst": "Gemengd gebruik BM, nieuwe vervoermiddelen, doorverkoop van voertuigen; margeregeling, bonnen, voordelen van alle aard",
+      "verbose": "Deze cluster bundelt bedrijfsmiddelen die zowel privé als beroepsmatig worden gebruikt — wat een aftrekbeperking en herzieningen meebrengt — en bijzondere regimes zoals de margeregeling voor tweedehandsgoederen, de regels voor bonnen met enkelvoudig of meervoudig gebruik en de behandeling van voordelen van alle aard. Voor voertuigen gelden bovendien specifieke regels rond doorverkoop en intracommunautair verkeer van nieuwe vervoermiddelen.",
+      "synoniemen": [
+        "aftrekbeperking gemengd gebruik",
+        "bedrijfswagen btw",
+        "tweedehandsregeling btw",
+        "margeregeling tweedehandsgoederen",
+        "voordeel alle aard btw",
+        "vouchers single-use multi-use",
+        "doorverkoop tweedehandse voertuigen",
+        "nieuwe vervoermiddelen intracommunautair"
+      ]
+    },
+    {
+      "anchor_id": "2.4.V",
+      "anchor_type": "kenniselement",
+      "tekst": "Verwerving van onroerend goed door occasionele en gewone btw-plichtigen, tarieven, \"nieuwe\" gebouwen, btw-eenheid en onroerend goed, ingebruikneming, verhuur en terbeschikkingstelling van onroerend goed, aanpassingen wegens",
+      "verbose": "Vastgoed is een van de moeilijkste btw-domeinen omdat de fiscale behandeling afhangt van het type goed (grond, gebouw, nieuw of oud), de hoedanigheid van koper en verkoper, het beoogde gebruik en de duur. Optionele btw-heffing op verhuur, vrijstellingen, herzieningstermijnen op investeringen en specifieke tarieven voor bijvoorbeeld renovatie of afbraak-en-heropbouw maken dat elk dossier feitenanalyse vraagt.",
+      "synoniemen": [
+        "btw onroerend goed",
+        "nieuw gebouw btw",
+        "verhuur met btw-optie",
+        "professionele verhuur onroerend goed",
+        "afbraak en heropbouw verlaagd tarief",
+        "renovatie verlaagd tarief",
+        "herziening op gebouw",
+        "occasionele btw-plichtige vastgoed",
+        "btw-eenheid en vastgoed"
+      ]
+    },
+    {
+      "anchor_id": "2.4.VI",
+      "anchor_type": "kenniselement",
+      "tekst": "Btw-aspecten (webshops, verkopen op afstand, plaats van levering van diensten, IC-handelingen en -diensten, OSS, buitenlandse belastingplichtige, driehoeksverkeer)",
+      "verbose": "Internationale en grensoverschrijdende handel kent eigen plaatsbepalingsregels: voor goederenleveringen telt de fysieke verzending, voor diensten gelden B2B- en B2C-regels met talrijke uitzonderingen. Webshops gebruiken verkopen op afstand met drempelregels en het OSS-loket; bij ketenverkopen tussen drie partijen kan de vereenvoudiging voor driehoeksverkeer dubbele registratie vermijden. Buitenlandse belastingplichtigen kunnen verleggingen of een fiscaal vertegenwoordiger nodig hebben.",
+      "synoniemen": [
+        "intracommunautaire levering",
+        "intracommunautaire dienst",
+        "B2B B2C plaatsbepaling",
+        "verkopen op afstand drempel",
+        "one stop shop",
+        "OSS-aangifte",
+        "driehoeksverkeer vereenvoudiging",
+        "fiscaal vertegenwoordiger btw",
+        "verlegging van heffing buitenland",
+        "e-commerce btw-pakket"
+      ]
+    },
+    {
+      "anchor_id": "2.4.VII",
+      "anchor_type": "kenniselement",
+      "tekst": "Btw-herzieningen, overdracht van algemeenheid, intrekking/indienststelling, btwformaliteiten in geval van stopzetting van activiteit",
+      "verbose": "Wanneer het gebruik of de bestemming van bedrijfsmiddelen wijzigt, moet de eerder afgetrokken btw worden herzien — positief of negatief — over een herzieningstijdvak dat verschilt voor roerend en onroerend goed. Daarnaast vraagt een overdracht van een volledige bedrijfstak een specifieke beoordeling, en bij stopzetting moeten activa, voorraad en bedrijfsmiddelen correct worden afgewikkeld met onttrekkings- of herzieningsregels.",
+      "synoniemen": [
+        "herzieningstijdvak bedrijfsmiddel",
+        "btw-herziening op investering",
+        "overdracht bedrijfstak buiten btw",
+        "onttrekking bij stopzetting",
+        "indienststelling bedrijfsmiddel",
+        "intrekking uit beroepssfeer",
+        "afsluitende btw-aangifte stopzetting"
+      ]
+    },
+    {
+      "anchor_id": "2.4.VIII",
+      "anchor_type": "kenniselement",
+      "tekst": "Douane en accijnzen - verband met btw",
+      "verbose": "Bij invoer en uitvoer lopen douaneformaliteiten en btw-heffing parallel. De btw bij invoer wordt berekend op een basis die de douanewaarde, rechten en bijkomende kosten omvat, en kan onder voorwaarden worden verlegd naar de aangifte. Voor accijnsproducten zoals brandstoffen, alcohol en tabak komt de accijns boven op de btw-maatstaf, wat de prijszetting en boekhouding beïnvloedt.",
+      "synoniemen": [
+        "btw bij invoer",
+        "verlegging invoer btw",
+        "accijnsproducten btw-impact",
+        "douanewaarde als maatstaf",
+        "uitvoer en btw-vrijstelling",
+        "samenloop douane en btw"
+      ]
+    },
+    {
+      "anchor_id": "2.4.IX",
+      "anchor_type": "kenniselement",
+      "tekst": "Betrokken partijen. Douanewaarde en douanerechten. Douanereglementering Enig document Basisbegrippen accijnzen",
+      "verbose": "In een douanedossier zijn meerdere actoren betrokken: aangever, importeur, douane-expediteur en eventueel een fiscaal vertegenwoordiger. De douanewaarde wordt vastgesteld volgens hiërarchische methodes met de transactiewaarde als hoofdregel, en bepaalt samen met de goederencode het tarief van de invoerrechten. Het Enig Document is het standaardformulier voor in- en uitvoeraangifte; accijnsbasisbegrippen omvatten verschuldigdheid, schorsing en uitslag tot verbruik.",
+      "synoniemen": [
+        "transactiewaarde douane",
+        "tariefindeling goederencode",
+        "douane-expediteur",
+        "Single Administrative Document",
+        "uitslag tot verbruik accijns",
+        "accijnsschorsingsregeling",
+        "invoerrechten berekening"
+      ]
+    },
+    {
+      "anchor_id": "2.4.X",
+      "anchor_type": "kenniselement",
+      "tekst": "Accijnzen: Registratieformaliteiten en andere verplichtingen",
+      "verbose": "Wie accijnsproducten produceert, opslaat of verhandelt, moet zich registreren in de overeenkomstige hoedanigheid — bijvoorbeeld als erkend entrepothouder, geregistreerde geadresseerde of geregistreerde afzender — en moet vergunningen, zekerheden en bewegingscontroles respecteren. De aangifte gebeurt elektronisch en het verkeer van producten onder schorsing wordt opgevolgd via een digitaal volgsysteem.",
+      "synoniemen": [
+        "erkend entrepothouder",
+        "geregistreerde geadresseerde",
+        "geregistreerde afzender",
+        "accijnsvergunning",
+        "EMCS volgsysteem",
+        "zekerheid accijnzen",
+        "registratie accijnsplichtige"
+      ]
+    },
+    {
+      "anchor_id": "2.4.XI",
+      "anchor_type": "kenniselement",
+      "tekst": "Basisverschillen tussen douane-unie en vrijhandelszone, Enig document, Goederencode, Douanewaarde, Maatstaf van heffing voor de btw, Statistische waarde, Oorsprong, Douanereglementeringen en tijdelijke opslag, Douaneprocedures, Douanerechten + rol van de AEO ( _Authorised Economic Operator_ ), Invoer van goederen",
+      "verbose": "Een douane-unie kent een gemeenschappelijk buitentarief en vrij verkeer binnen de zone, terwijl een vrijhandelszone enkel rechten afschaft tussen de leden zonder gemeenschappelijk buitentarief. Bij invoer komen verschillende waardeconcepten samen: de douanewaarde voor de rechten, de statistische waarde voor handelsstatistiek en de maatstaf van heffing voor btw. De preferentiële of niet-preferentiële oorsprong bepaalt of verlaagde tarieven gelden, en de AEO-status biedt vereenvoudigingen aan betrouwbare operatoren.",
+      "synoniemen": [
+        "douane-unie versus vrijhandelszone",
+        "preferentiële oorsprong",
+        "niet-preferentiële oorsprong",
+        "AEO-status vereenvoudigingen",
+        "tijdelijke opslag douane",
+        "douaneprocedures bijzondere regelingen",
+        "statistische waarde Intrastat",
+        "maatstaf heffing invoer btw",
+        "Authorised Economic Operator"
+      ]
+    }
+  ]
+}

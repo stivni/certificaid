@@ -1,0 +1,1032 @@
+{
+  "po": "1.8",
+  "generated_at": "2026-05-09T20:43:43Z",
+  "model": "claude-opus-4-7",
+  "prompt_version": "anchor-verrijking-v1",
+  "anchors": [
+    {
+      "anchor_id": "1.8.D1.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "1.8.D1.1",
+      "tekst": "Analyseren van de financiële situatie van een onderneming",
+      "verbose": "De accountant onderzoekt op basis van de boekhoudkundige cijfers de winstgevendheid, kostenstructuur, marges en liquiditeit van een onderneming. Hij identificeert sterktes en zwaktes in de financiële prestaties en formuleert vaststellingen die het management ondersteunen bij sturing en besluitvorming.",
+      "synoniemen": [
+        "financiële diagnose",
+        "doorlichting van de bedrijfsresultaten",
+        "rentabiliteitsanalyse",
+        "evaluatie van de bedrijfseconomische prestaties",
+        "financiële beoordeling",
+        "kosten- en margeanalyse"
+      ]
+    },
+    {
+      "anchor_id": "1.8.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.8.D1.1",
+      "tekst": "Naast de competenties die de kandidaat met het oog op het toelatingsexamen heeft verworven, moet hij in staat zijn om in een situatie die verband houdt met kostenberekening, rekening houdend met de grondbeginselen ervan, dankzij zijn ervaring door middel van talrijke casestudy's, en zo nauw mogelijk aansluitend bij de werkelijkheid:",
+      "verbose": "Deze inleidende doelstelling stelt de basisverwachting voor de kandidaat: vertrekkende van de fundamentele principes van cost accounting moet hij realistische bedrijfssituaties kunnen analyseren via casestudy's. Het accent ligt op toegepaste competentie in herkenbare praktijksituaties, niet op theoretische kennis alleen.",
+      "synoniemen": [
+        "praktische toepassing van kostenberekening",
+        "casusgebaseerde competenties",
+        "toegepaste analytische boekhouding",
+        "realistische cost accounting cases",
+        "praktijkgericht kostenmanagement"
+      ]
+    },
+    {
+      "anchor_id": "1.8.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.8.D1.1",
+      "tekst": "De informatie over de verschillende arbeidskosten en de verschillende beloningssystemen, met inbegrip van de waarneming en de vaststelling van de arbeidstijd, grondig te verwerken",
+      "verbose": "De kandidaat moet personeelskosten correct kunnen analyseren, opsplitsen tussen direct en indirect en koppelen aan kostenplaatsen of producten. Hij begrijpt verschillende beloningsvormen — uurloon, stukloon, premiestelsels, prestatiebonussen — en de meet- en registratiemethodes voor arbeidstijd zoals tijdregistratie en prikklok.",
+      "synoniemen": [
+        "personeelskostenanalyse",
+        "loonkostverwerking",
+        "verloningsmodellen",
+        "tijdregistratie",
+        "arbeidstijdenmeting",
+        "premiestelsels en stukloon",
+        "labor costing"
+      ]
+    },
+    {
+      "anchor_id": "1.8.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.8.D1.1",
+      "tekst": "Kostenberekeningen uit te voeren voor alle soorten ondernemingen, inclusief dienstverlenende bedrijven",
+      "verbose": "De kandidaat past kostprijsberekening toe in industriële, handels- én dienstenondernemingen. In dienstverlenende contexten — vrije beroepen, IT-bureaus, transport — vraagt dat aangepaste kostendragers zoals dossiers, uren of klanten in plaats van fysieke producten.",
+      "synoniemen": [
+        "kostprijsberekening",
+        "cost calculation",
+        "kostenberekening dienstensector",
+        "kostprijs in dienstenbedrijven",
+        "kostprijs per dossier",
+        "service costing"
+      ]
+    },
+    {
+      "anchor_id": "1.8.D1.1.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.8.D1.1",
+      "tekst": "Een gedetailleerde analyse uit te voeren van de gemiddelde kosten en de marginale kosten",
+      "verbose": "De kandidaat onderscheidt de gemiddelde kost per eenheid van de bijkomende kost om één extra eenheid te produceren. Deze analyse is cruciaal voor prijszetting, beslissingen over bijkomende orders, capaciteitsuitbreiding en het bepalen van het optimale productievolume.",
+      "synoniemen": [
+        "gemiddelde kostprijs",
+        "marginale kostprijs",
+        "incrementele kost",
+        "extra eenheidskost",
+        "average cost",
+        "marginal cost",
+        "kost per bijkomende eenheid"
+      ]
+    },
+    {
+      "anchor_id": "1.8.D1.1.doel.5",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.8.D1.1",
+      "tekst": "Informatie met betrekking tot kostprijsberekening te organiseren en boekhoudkundig te verwerken, waarbij hij gebruik kan maken van gelijk welke gangbare IT-tool",
+      "verbose": "De kandidaat structureert kostengegevens in een werkbaar systeem met kostenplaatsen, kostendragers en verdeelsleutels. Hij kan dit verwerken in standaardpakketten zoals ERP- of boekhoudsoftware en spreadsheets, en de output afstemmen op de informatiebehoefte van het management.",
+      "synoniemen": [
+        "kostenadministratie",
+        "kostprijsmodel opzetten",
+        "kostencodificatie",
+        "ERP-kostenmodule",
+        "spreadsheetmodellering kostprijs",
+        "boekhoudsoftware kostprijsberekening"
+      ]
+    },
+    {
+      "anchor_id": "1.8.D1.1.doel.6",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.8.D1.1",
+      "tekst": "Het boekhoudplan en de boekingen te gebruiken die specifiek zijn voor managementboekhouding",
+      "verbose": "Naast het algemene rekeningenstelsel hanteert de management accountant specifieke rekeningen voor kostenplaatsen, kostendragers en verschillen. De kandidaat moet de typische boekingen kennen die kostenstromen van inkoop, productie en verkoop registreren binnen een geïntegreerd of nevengeschikt analytisch boekhoudsysteem.",
+      "synoniemen": [
+        "analytisch rekeningenstelsel",
+        "klasse 9 boekingen",
+        "managementboekhouding journaalposten",
+        "analytische boekingen",
+        "rekeningenstelsel cost accounting",
+        "boekingsschema kostenboekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.8.D1.1.doel.7",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.8.D1.1",
+      "tekst": "Uiteindelijk de verschillen te berekenen en te analyseren",
+      "verbose": "De kandidaat vergelijkt voorafbepaalde of gebudgetteerde kosten met de werkelijke kosten en splitst de afwijkingen op naar oorzaken zoals prijs, hoeveelheid, rendement of bezetting. Deze variantie-analyse helpt het management bijsturen waar nodig.",
+      "synoniemen": [
+        "variantieanalyse",
+        "verschillenanalyse",
+        "afwijkingenanalyse",
+        "variance analysis",
+        "prijs- en hoeveelheidsverschillen",
+        "rendementsafwijkingen",
+        "bezettingsverschil"
+      ]
+    },
+    {
+      "anchor_id": "1.8.D1.1.doel.8",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.8.D1.1",
+      "tekst": "Het budget te herzien",
+      "verbose": "Wanneer omstandigheden of resultaten significant afwijken van de oorspronkelijke planning, herziet de management accountant het budget. Dit kan via een rolling forecast, een herzien jaarbudget of scenario-aanpassingen op basis van actuele inzichten.",
+      "synoniemen": [
+        "budgetbijstelling",
+        "budgetherziening",
+        "rolling forecast",
+        "geactualiseerd budget",
+        "forecast update",
+        "tussentijdse budgetaanpassing",
+        "budget revision"
+      ]
+    },
+    {
+      "anchor_id": "1.8.D1.1.doel.9",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.8.D1.1",
+      "tekst": "Op basis van de opgestelde analyses de rendabele of onrendabele bedrijfstakken of sectoren, de ontwikkelingsmogelijkheden en de buitensporige kosten te identificeren en voorstellen te doen om deze te verminderen",
+      "verbose": "De accountant evalueert per segment, productlijn of activiteit welke marges aantrekkelijk zijn en welke verlieslatend. Hij signaleert kostenposten die uit verhouding lopen, ontdekt groeikansen en formuleert concrete optimalisatievoorstellen voor de directie.",
+      "synoniemen": [
+        "rentabiliteitsanalyse per segment",
+        "kostenoptimalisatie",
+        "performance per business unit",
+        "marge-analyse",
+        "kostenreductievoorstellen",
+        "segmentrapportering",
+        "verlieslatende activiteiten identificeren"
+      ]
+    },
+    {
+      "anchor_id": "1.8.D1.1.doel.10",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.8.D1.1",
+      "tekst": "Een of meer managementsbeslissingen aan te bevelen",
+      "verbose": "Op basis van de financiële en analytische informatie formuleert de accountant onderbouwde aanbevelingen voor strategische of operationele beslissingen, zoals make-or-buy, schrappen van een productlijn, prijsaanpassing of capaciteitsuitbreiding. De aanbeveling combineert kwantitatieve onderbouwing met aandacht voor kwalitatieve gevolgen.",
+      "synoniemen": [
+        "managementadvies",
+        "bedrijfseconomisch advies",
+        "beslissingsondersteuning",
+        "make-or-buy beslissing",
+        "strategisch advies aan directie",
+        "decision support",
+        "investeringsadvies"
+      ]
+    },
+    {
+      "anchor_id": "1.8.I.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Doelstellingen en belang van analytische boekhouding",
+      "verbose": "Analytische boekhouding levert interne informatie waarmee het management kostprijzen bepaalt, marges en rentabiliteit per product of activiteit beoordeelt en operationele beslissingen onderbouwt. Anders dan de algemene boekhouding richt zij zich niet op externe rapportering maar op interne sturing en performantiemeting.",
+      "synoniemen": [
+        "doel van cost accounting",
+        "rol van management accounting",
+        "interne kostenrapportering",
+        "stuurinformatie voor het management",
+        "doel van bedrijfseconomische boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.8.I.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Typologie van de kosten",
+      "verbose": "Kosten worden geklasseerd langs verschillende dimensies: naar functie zoals aankoop of productie, naar gedrag zoals vast of variabel, naar traceerbaarheid zoals direct of indirect, en naar tijd zoals werkelijk of voorafbepaald. Deze classificaties bepalen welke berekeningsmethode geschikt is voor welke beslissingscontext.",
+      "synoniemen": [
+        "kostenclassificatie",
+        "indeling van kosten",
+        "soorten kosten",
+        "cost typology",
+        "kostenstructuurcategorieën"
+      ]
+    },
+    {
+      "anchor_id": "1.8.I.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Volgens het toepassingsgebied van de berekening: aankoopkosten, productiekosten, distributiekosten",
+      "verbose": "Kosten worden gegroepeerd volgens de fase in de waardeketen waarin ze ontstaan: aankoopkosten omvatten het verwerven van grondstoffen en goederen, productiekosten dekken de fabricage, distributiekosten betreffen verkoop, levering en marketing. Deze opdeling ondersteunt margeberekening per fase.",
+      "synoniemen": [
+        "kosten per functie",
+        "functionele kostenindeling",
+        "aankoop- productie- en distributiekosten",
+        "value chain costs",
+        "kosten per bedrijfsproces"
+      ]
+    },
+    {
+      "anchor_id": "1.8.I.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Volgens de inhoud: volledige kosten, gedeeltelijke kosten",
+      "verbose": "Bij de full costing methode worden alle kosten — vaste en variabele, directe en indirecte — toegerekend aan de kostendrager. Bij partial costing worden bewust slechts bepaalde categorieën meegenomen, bijvoorbeeld alleen variabele of alleen directe kosten, om beter zicht te krijgen op contributiemarges.",
+      "synoniemen": [
+        "full costing",
+        "absorption costing",
+        "partial costing",
+        "integrale kostprijs",
+        "deelkostencalculatie",
+        "marginalisme versus integralisme"
+      ]
+    },
+    {
+      "anchor_id": "1.8.I.B.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Volgens het tijdstip van berekening: werkelijke kosten, standaardkosten",
+      "verbose": "Werkelijke kosten worden achteraf berekend op basis van geregistreerde transacties; standaardkosten worden vooraf bepaald op basis van normen voor verbruik en prijzen. Het verschil tussen beide vormt de basis voor variantie-analyse en operationele bijsturing.",
+      "synoniemen": [
+        "actual costs",
+        "standard costs",
+        "voorafbepaalde kosten",
+        "historische kosten",
+        "normkosten",
+        "ex-postberekening",
+        "ex-anteberekening"
+      ]
+    },
+    {
+      "anchor_id": "1.8.I.B.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Verschillen tussen algemene boekhouding en analytische boekhouding",
+      "verbose": "De algemene boekhouding richt zich op externe rapportering, klasseert per aard van de kost en volgt wettelijke formats. De analytische boekhouding herklasseert dezelfde stromen per bestemming — kostenplaats, product, activiteit — voor interne sturing en is in opzet en frequentie vrij.",
+      "synoniemen": [
+        "verschil financial vs management accounting",
+        "externe versus interne boekhouding",
+        "algemene versus bedrijfseconomische boekhouding",
+        "indeling per aard versus per bestemming",
+        "general ledger vs cost ledger"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Soorten kosten",
+      "verbose": "Op basis van het kostenverloop in functie van de activiteitsgraad onderscheiden we kosten die niet meebewegen, kosten die proportioneel meebewegen en mengvormen. Dit gedrag bepaalt hoe kosten zich gedragen bij volumewijzigingen en is essentieel voor break-evenanalyses en beslissingscalculaties.",
+      "synoniemen": [
+        "kostenverloop",
+        "cost behavior",
+        "kostengedrag in functie van volume",
+        "fixed and variable costs",
+        "kostencategorieën naar gedrag"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.A.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Vaste kosten",
+      "verbose": "Vaste kosten blijven binnen een relevante range constant ongeacht het productie- of activiteitsvolume, zoals huur, afschrijvingen, basisverloning. Per eenheid dalen ze naarmate het volume toeneemt en ze creëren operationele hefboomwerking.",
+      "synoniemen": [
+        "fixed costs",
+        "structurele kosten",
+        "vaste lasten",
+        "constante kosten",
+        "capaciteitskosten",
+        "fixed overhead"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Variabele kosten",
+      "verbose": "Variabele kosten bewegen rechtevenredig mee met de activiteitsgraad: meer productie betekent meer grondstoffenverbruik, meer energie, meer commissielonen. Per eenheid blijven ze in beginsel constant, totaal nemen ze toe met het volume.",
+      "synoniemen": [
+        "variable costs",
+        "veranderlijke kosten",
+        "proportionele kosten",
+        "volume-afhankelijke kosten",
+        "directe materiaalkosten",
+        "kosten per geproduceerde eenheid"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.A.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Gemengde kosten",
+      "verbose": "Gemengde kosten combineren een vaste en een variabele component, zoals een telefoonabonnement met vaste maandhuur plus verbruik. Bij analyse worden ze opgesplitst via methodes zoals het hoog-laag punt of regressieanalyse.",
+      "synoniemen": [
+        "semi-variabele kosten",
+        "mixed costs",
+        "semi-fixed costs",
+        "deels vaste deels variabele kosten",
+        "stepvariabele kosten",
+        "trapsgewijze kosten"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Materialen",
+      "verbose": "De materiaalkosten omvatten grondstoffen, hulpstoffen en handelsgoederen. Het beheer van inkomende, opgeslagen en uitgaande voorraden — zowel fysiek als in waarde — vormt een kernonderdeel van de kostprijsberekening, naast inkoopvoorwaarden en aanvoerkosten.",
+      "synoniemen": [
+        "materiaalbeheer",
+        "grondstoffenkosten",
+        "voorraadbeheer",
+        "materials management",
+        "raw materials",
+        "magazijnadministratie"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Administratieve organisatie van magazijnen en materiaalstromen in fysieke hoeveelheden",
+      "verbose": "Magazijnen worden ondersteund door een administratie die elke ontvangst, opslag en uitgifte registreert in eenheden, gewicht of volume. Documenten zoals leveringsbonnen, uitgiftebonnen en voorraadkaarten zorgen voor traceerbaarheid en interne controle van de fysieke flow.",
+      "synoniemen": [
+        "voorraadadministratie",
+        "warehouse management",
+        "magazijnregistratie",
+        "fysieke voorraadcontrole",
+        "stock keeping",
+        "inkomende en uitgaande bonnen"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Waardering van inkomende en uitgaande voorraden",
+      "verbose": "Inkomende voorraden worden gewaardeerd aan aanschaffingswaarde inclusief bijkomende inkoopkosten. Voor uitgaande bewegingen wordt een waarderingsmethode gekozen — first-in-first-out, gewogen gemiddelde of een andere techniek — die de kostprijs van het verbruik en de eindvoorraad bepaalt.",
+      "synoniemen": [
+        "voorraadwaardering",
+        "FIFO",
+        "gewogen gemiddelde prijs",
+        "inventory valuation",
+        "kostprijs van verbruikte materialen",
+        "stock valuation methods"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Arbeid",
+      "verbose": "Arbeid omvat alle vormen van menselijke inbreng in het productie- of dienstverleningsproces, met daaraan gekoppeld de loonkosten en sociale lasten. Een correcte registratie en toerekening van arbeidsuren aan kostenplaatsen is essentieel voor accurate kostprijsberekening.",
+      "synoniemen": [
+        "labor",
+        "personeelsinzet",
+        "arbeidsfactor",
+        "manuren",
+        "human resources kost",
+        "werkkracht"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.C.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Verschillende soorten arbeid:",
+      "verbose": "Arbeid kan worden onderverdeeld in directe arbeid die rechtstreeks tot een product of dienst herleidbaar is en indirecte arbeid zoals toezicht of onderhoud. Verder onderscheidt men productieve, niet-productieve, geschoolde en ongeschoolde arbeid.",
+      "synoniemen": [
+        "directe arbeid",
+        "indirecte arbeid",
+        "productieve uren",
+        "niet-productieve uren",
+        "geschoolde arbeid",
+        "ongeschoolde arbeid",
+        "direct labor"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.C.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Beloningssystemen:",
+      "verbose": "Verloning kan plaatsvinden via een vast uurloon, stukloon afhankelijk van geproduceerde eenheden, premiestelsels die een gegarandeerd basisloon combineren met prestatiebonus, of mengvormen zoals het Halsey- of Rowan-systeem. De keuze beïnvloedt motivatie, kwaliteit en kostenstructuur.",
+      "synoniemen": [
+        "wage systems",
+        "loonvormen",
+        "prestatiebeloning",
+        "stukloon",
+        "uurloon",
+        "premiesystemen",
+        "Halsey-systeem",
+        "incentive pay"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.C.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Observatie en vaststelling van arbeidstijden",
+      "verbose": "Arbeidstijd wordt geregistreerd via tijdregistratiesystemen, prikklokken, werkbonnen of urenstaten per project. Tijd- en bewegingsstudies helpen standaardtijden vaststellen die nodig zijn voor zowel kostprijsberekening als productieplanning.",
+      "synoniemen": [
+        "tijdregistratie",
+        "prikklok",
+        "tijdsmeting",
+        "time and motion study",
+        "urenstaten",
+        "werkbonnen",
+        "arbeidstijdmeting"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.C.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Personeelskosten en hun toewijzing aan kostenplaatsen.",
+      "verbose": "Brutoloon, sociale werkgeversbijdragen, vakantiegeld, eindejaarspremie en andere personeelsgebonden lasten samen vormen de totale loonkost. Deze worden toegerekend aan kostenplaatsen of producten op basis van geregistreerde uren of verdeelsleutels.",
+      "synoniemen": [
+        "loonkostentoewijzing",
+        "personeelskostenverdeling",
+        "labor cost allocation",
+        "patronale lasten",
+        "sociale werkgeversbijdragen",
+        "totale werkgeverskost",
+        "loonkost per kostenplaats"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Overige kosten",
+      "verbose": "Naast materialen en arbeid zijn er andere bedrijfskosten zoals diensten en diverse goederen, afschrijvingen, financiële lasten en specifieke kostenposten. Sommige hiervan worden wel of niet opgenomen in de analytische kostprijs naargelang hun karakter en relevantie.",
+      "synoniemen": [
+        "indirecte kosten",
+        "overhead",
+        "diversen",
+        "andere bedrijfskosten",
+        "ondersteunende kosten",
+        "non-material non-labor costs"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.D.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Incorporeerbare en niet-incorporeerbare kosten",
+      "verbose": "Niet alle kosten uit de algemene boekhouding mogen in de analytische kostprijs worden opgenomen. Uitzonderlijke posten of louter financiële verliezen blijven buiten de kostprijs, terwijl bedrijfsmatige kosten wel worden opgenomen — het onderscheid bepaalt de zuiverheid van de cost accounting cijfers.",
+      "synoniemen": [
+        "incorporeerbare lasten",
+        "niet-toerekenbare kosten",
+        "uitsluitingen kostprijs",
+        "buitengewone kosten uitsluiten",
+        "incorporable costs",
+        "niet-bedrijfsmatige lasten"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.D.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Bijkomende kosten",
+      "verbose": "Bijkomende of aanvullende kosten zijn elementen die in de analytische boekhouding worden meegenomen maar niet als zodanig in de algemene boekhouding voorkomen, bijvoorbeeld een fictieve ondernemersloon of een interne intrest op eigen vermogen. Ze geven een meer economische voorstelling van de werkelijke kostprijs.",
+      "synoniemen": [
+        "supplementaire kosten",
+        "additieve elementen",
+        "fictieve kosten",
+        "calculatorische kosten",
+        "ondernemersloon",
+        "berekende intrest",
+        "imputed costs"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.D.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Abonnementskosten",
+      "verbose": "Sommige kosten worden niet in een keer geboekt maar gespreid op periodieke basis ten laste genomen, zoals jaarlijkse verzekeringspremies of onderhoudscontracten. In de analytische boekhouding worden ze maandelijks of per periode geabonneerd om kostprijsschommelingen te vermijden.",
+      "synoniemen": [
+        "geabonneerde kosten",
+        "periodieke kosten",
+        "subscribed costs",
+        "kostenspreiding",
+        "kostentransitorisering",
+        "gepro-rateerde kosten"
+      ]
+    },
+    {
+      "anchor_id": "1.8.II.D.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Incorporatieverschillen",
+      "verbose": "Wanneer de analytische boekhouding bijkomende kosten opneemt of bepaalde algemene-boekhoudkosten weglaat, ontstaat er een verschil tussen de twee systemen. Deze incorporatieverschillen moeten zichtbaar gemaakt worden bij de afstemming tussen analytisch en algemeen resultaat.",
+      "synoniemen": [
+        "verschil tussen algemene en analytische boekhouding",
+        "incorporatiedifferentie",
+        "reconciliatieverschil",
+        "incorporation differences",
+        "afstemverschillen kostprijs"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Volledige kosten (= vastgestelde kosten)",
+      "verbose": "Bij de volledige-kostprijsmethode worden alle kosten — direct én indirect, vast én variabel — toegerekend aan de kostendrager. Indirecte kosten lopen via kostenplaatsen of homogene afdelingen voordat ze op producten landen. Het resultaat is een integrale kostprijs per eenheid.",
+      "synoniemen": [
+        "full cost",
+        "absorption costing",
+        "integrale kostprijs",
+        "totale kostprijs",
+        "geabsorbeerde kostprijs",
+        "volledige kostencalculatie"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.A.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Begrip boekhoudkundig netwerk: stromen: toerekening van directe kosten, verwerking van indirecte kosten",
+      "verbose": "Het kostenboekhoudkundig netwerk visualiseert de stromen van kosten doorheen de organisatie: directe kosten gaan rechtstreeks naar de kostendrager, indirecte kosten passeren via kostenplaatsen waar ze worden verzameld en verdeeld via verdeelsleutels. Dit netwerk vormt het skelet van een full-costingmodel.",
+      "synoniemen": [
+        "kostenstromen schema",
+        "kostentraject",
+        "directe versus indirecte toerekening",
+        "cost flow diagram",
+        "kostentoewijzingsschema",
+        "cost accounting network"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "(verdeling, homogene afdelingen, wederzijdse diensten)",
+      "verbose": "Indirecte kosten worden eerst toegewezen aan homogene kostenplaatsen — afdelingen waarvoor één meeteenheid representatief is voor de output. Wanneer afdelingen elkaar onderling diensten leveren, moeten deze wederzijdse prestaties worden afgerekend via methodes zoals de step-down of de simultane vergelijkingen.",
+      "synoniemen": [
+        "homogene afdelingen",
+        "kostenplaatsen",
+        "wederzijdse diensten",
+        "reciprocal services",
+        "verdeelsleutels",
+        "step-down methode",
+        "simultane verdeling"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.A.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Toepassing op verschillende soorten productie- en fabricageprocessen: productie op bestelling, in continu proces met tussenopslag(en) (fasen, divisies), enkelvoudige productie, multiproductie (verschillende keuzes, verschillende groottes, talrijke en gevarieerde producten)",
+      "verbose": "De full-costingmethode wordt aangepast aan het productietype: bij job-orderproductie wordt per bestelling gerekend, bij procesproductie per fase of divisie, en bij multiproductie moet men met productvarianten en koppelproducten rekening houden. De gekozen methode bepaalt hoe kosten verzameld en doorberekend worden.",
+      "synoniemen": [
+        "job costing",
+        "process costing",
+        "operation costing",
+        "stuksproductie",
+        "massaproductie",
+        "fase-calculatie",
+        "multiproduct kostprijsberekening",
+        "batch costing"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.A.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Bijzondere gevallen die zich bij verschillende productietypen kunnen voordoen: goederen in bewerking, gezamenlijke productie, afval, schroot, bijproducten, nevenproducten",
+      "verbose": "Bij productie ontstaan situaties met onderhanden werk dat nog niet voltooid is, met afval of schroot dat al dan niet verwerkbaar is, en met bijproducten of nevenproducten die uit een gezamenlijk proces komen. Deze gevallen vragen specifieke behandelingen zoals equivalente eenheden of verdeling van gezamenlijke kosten via verkoopwaarde.",
+      "synoniemen": [
+        "onderhanden werk",
+        "work in progress",
+        "joint products",
+        "bijproducten",
+        "nevenproducten",
+        "afval en schroot",
+        "equivalente eenheden",
+        "gezamenlijke kosten"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.A.5",
+      "anchor_type": "kenniselement",
+      "tekst": "Dienstverlenende ondernemingen”",
+      "verbose": "In dienstenondernemingen vervangen prestaties zoals dossiers, uren of klantcontacten de fysieke producten als kostendrager. Kostprijsberekening focust er sterk op personeelskosten en bezetting, met specifieke uitdagingen zoals immateriële output en moeilijk meetbare kwaliteit.",
+      "synoniemen": [
+        "dienstenkostprijs",
+        "service costing",
+        "kost per dossier",
+        "kost per uur",
+        "kostprijs in vrije beroepen",
+        "kostprijs immateriële output"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Gedeeltelijke kosten (= vastgestelde kosten)",
+      "verbose": "Bij gedeeltelijke kostprijsmethodes wordt slechts een deel van de kosten toegerekend aan de kostendrager, doorgaans de variabele of de directe kosten. Vaste of indirecte kosten blijven dan op het niveau van de hele organisatie en worden afgedekt door contributiemarges.",
+      "synoniemen": [
+        "partial costing",
+        "deelkostencalculatie",
+        "marginal costing",
+        "direct costing",
+        "variable costing",
+        "contributiemargemodel"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Rationele toerekening van vaste kosten",
+      "verbose": "De rationele toerekening corrigeert de toerekening van vaste kosten in functie van de werkelijke versus de normale bezettingsgraad. Onderbezetting zorgt ervoor dat een deel van de vaste kosten als bezettingsverschil apart wordt geboekt en de eenheidskostprijs niet kunstmatig oploopt.",
+      "synoniemen": [
+        "rational allocation",
+        "imputation rationnelle",
+        "bezettingsgraadcorrectie",
+        "rationele kostenverdeling",
+        "normalebezettingsmethode",
+        "absorptie correctie"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Directe kosten",
+      "verbose": "Directe kosten zijn kosten die ondubbelzinnig en zonder verdeelsleutel kunnen worden toegewezen aan een specifieke kostendrager, zoals de grondstof in een product of het loon van een medewerker die exclusief aan een opdracht werkt. In direct costing dienen ze als basis voor de marge.",
+      "synoniemen": [
+        "direct costs",
+        "rechtstreeks toewijsbare kosten",
+        "traceerbare kosten",
+        "single-traceable costs",
+        "direct toerekenbare lasten"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.B.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Variabele kosten (\"direct costing\" en varianten)",
+      "verbose": "Direct costing berekent een kostprijs op basis van enkel de variabele kosten en gebruikt de contributiemarge om vaste kosten te dekken. Varianten zijn evolved direct costing dat ook directe vaste kosten meeneemt, en throughput accounting dat zelfs de directe materiaalkost als enige variabele beschouwt.",
+      "synoniemen": [
+        "direct costing",
+        "variable costing",
+        "contributiemarge methode",
+        "evolved direct costing",
+        "throughput accounting",
+        "marginalisme",
+        "kostprijs op basis van variabele kosten"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.B.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Marginale kosten",
+      "verbose": "De marginale kost is de bijkomende kost om één extra eenheid te produceren. Marginale analyse is centraal bij beslissingen rond bijkomende orders, maximale capaciteit, prijsdifferentiatie en make-or-buy: zolang de extra opbrengst de marginale kost overstijgt, draagt de extra eenheid bij tot de winst.",
+      "synoniemen": [
+        "marginale kostprijs",
+        "marginal cost",
+        "incrementele kost",
+        "bijkomende eenheidskost",
+        "extra cost per unit",
+        "kost van laatste eenheid"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.B.1.bis",
+      "anchor_type": "kenniselement",
+      "tekst": "Analyse van het effect van de kostenberekeningsmethode op de voorraadwaardering",
+      "verbose": "Bij volledige kostprijsmethode worden vaste productiekosten geactiveerd in de voorraad en pas in de resultatenrekening genomen bij verkoop, terwijl bij direct costing deze onmiddellijk als periodelast worden geboekt. Het verschil leidt tot afwijkende periodewinsten en voorraadwaarden naargelang de gekozen methode.",
+      "synoniemen": [
+        "effect van costingmethode op voorraad",
+        "absorption versus variable costing winst",
+        "voorraadeffect cost accounting",
+        "GAAP versus interne voorraadwaardering",
+        "deferred fixed cost in inventory"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.B.2.bis",
+      "anchor_type": "kenniselement",
+      "tekst": "Afstemming van de resultaten van de analytische boekhouding en de algemene boekhouding",
+      "verbose": "Het resultaat berekend in de analytische boekhouding kan afwijken van het resultaat in de algemene boekhouding door incorporatieverschillen, voorraadwaarderingsverschillen, afronding en niet-toerekenbare elementen. Een reconciliatieoefening verklaart het verschil expliciet en bouwt vertrouwen in beide stelsels.",
+      "synoniemen": [
+        "reconciliatie analytisch en algemeen resultaat",
+        "afstemming kostenboekhouding en general ledger",
+        "resultatenreconciliatie",
+        "verschillenverklaring",
+        "cost ledger reconciliation"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Voorafbepaalde kosten",
+      "verbose": "Voorafbepaalde of standaardkosten zijn vooraf vastgelegde normen voor verbruik en prijs per eenheid output. Ze vormen de norm waartegen werkelijke kosten worden vergeleken, en ze laten toe sneller boekhoudkundig te werken en duidelijke verantwoordelijkheid te geven aan kostenplaatsverantwoordelijken.",
+      "synoniemen": [
+        "standard costing",
+        "standaardkosten",
+        "voorgecalculeerde kosten",
+        "predetermined costs",
+        "normkosten",
+        "budgetkosten per eenheid"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.C.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Gebruik: gedeeltelijk, veralgemeend",
+      "verbose": "Standaardkosten kunnen gedeeltelijk worden ingezet — bijvoorbeeld enkel voor materialen of enkel voor de waardering van bewegingen — of veralgemeend toegepast op het volledige kostenmodel. Bij veralgemeend gebruik worden alle voorraadbewegingen en kostprijsberekeningen in standaarden uitgedrukt en lopen verschillen langs aparte rekeningen.",
+      "synoniemen": [
+        "partieel standaardkostensysteem",
+        "veralgemeend standaardkostenstelsel",
+        "full standard costing",
+        "gedeeltelijke standaarden",
+        "standaardenintensiteit"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.C.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Verschillen: berekening, analyse en toewijzing",
+      "verbose": "Verschillen tussen werkelijke en voorafbepaalde kosten worden opgesplitst naar oorzaak: prijs- en hoeveelheidsverschillen op materialen, tarief- en efficiëntieverschillen op arbeid, bezettings- en bestedingsverschillen op vaste kosten. Daarna worden ze toegerekend aan voorraad, kostprijs van verkochte goederen of resultaat naargelang materiële omvang en oorzaak.",
+      "synoniemen": [
+        "variantieanalyse",
+        "verschillenberekening",
+        "prijsverschil",
+        "hoeveelheidverschil",
+        "efficiëntieverschil",
+        "tariefverschil",
+        "bezettingsverschil",
+        "bestedingsverschil",
+        "variance disposition"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.C.3",
+      "anchor_type": "kenniselement",
+      "tekst": "boordtabel",
+      "verbose": "De boordtabel of dashboard is een beknopte rapportering met de belangrijkste financiële en operationele indicatoren — kritieke prestatie-indicatoren — die het management helpen om snel de gezondheid van de organisatie te beoordelen en bij te sturen waar nodig.",
+      "synoniemen": [
+        "tableau de bord",
+        "dashboard",
+        "managementdashboard",
+        "KPI-rapport",
+        "scorecard",
+        "stuurtabel",
+        "balanced scorecard"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.C.1.bis",
+      "anchor_type": "kenniselement",
+      "tekst": "Analyse van het break-evenpunt",
+      "verbose": "Het break-evenpunt is het activiteitsniveau waarbij totale opbrengsten gelijk zijn aan totale kosten en het bedrijfsresultaat dus nul is. Het wordt berekend als vaste kosten gedeeld door de contributiemarge per eenheid en geeft inzicht in het minimale verkoopvolume dat nodig is om verlies te vermijden.",
+      "synoniemen": [
+        "break-even analyse",
+        "rentabiliteitsdrempel",
+        "kritisch verkoopvolume",
+        "punt van kostendekking",
+        "cost-volume-profit",
+        "CVP-analyse",
+        "dood punt"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.C.2.bis",
+      "anchor_type": "kenniselement",
+      "tekst": "Rentabiliteit van een project",
+      "verbose": "Bij projectrentabiliteit beoordeelt de accountant of een investering of opdracht voldoende opbrengst genereert om de inzet van middelen te rechtvaardigen. Hierbij worden technieken gebruikt zoals netto contante waarde, interne rendementsvoet en terugverdientijd, gecombineerd met gevoeligheidsanalyse.",
+      "synoniemen": [
+        "projectrendement",
+        "investeringsrentabiliteit",
+        "NPV",
+        "netto contante waarde",
+        "internal rate of return",
+        "terugverdientijd",
+        "payback period",
+        "ROI van een project"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.C.1.ter",
+      "anchor_type": "kenniselement",
+      "tekst": "Exploitatietabellen buiten de boekhouding",
+      "verbose": "Exploitatietabellen of nevengeschikte verdeeltabellen worden buiten het centrale boekhoudpakket opgesteld in spreadsheets of aparte modules. Ze maken het verdelen van indirecte kosten over kostenplaatsen en kostendragers transparant zonder de algemene boekhouding zwaar te belasten.",
+      "synoniemen": [
+        "verdeelstaten",
+        "exploitatietabellen",
+        "off-ledger costing",
+        "nevengeschikte boekhouding",
+        "spreadsheet kostenmodel",
+        "memorandum costing"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.C.2.ter",
+      "anchor_type": "kenniselement",
+      "tekst": "analytische boekhouding geïntegreerd met algemene boekhouding",
+      "verbose": "Bij geïntegreerde systemen lopen analytische en algemene boekhouding via één gemeenschappelijke databank, waarbij elke registratie zowel naar aard als naar bestemming wordt verdeeld. Dat garandeert directe afstemming en vermijdt dubbele invoer of reconciliatieverschillen.",
+      "synoniemen": [
+        "integrated cost accounting",
+        "geïntegreerde boekhouding",
+        "single ledger system",
+        "uniform boekhoudsysteem",
+        "geïntegreerd ERP-kostenmodel",
+        "interlocking versus integral accounts"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.C.3.bis",
+      "anchor_type": "kenniselement",
+      "tekst": "‘Drievoudige’ boekhouding (geïntegreerde systemen in KMO)",
+      "verbose": "De drievoudige boekhouding combineert algemene boekhouding, kostenboekhouding en budgetboekhouding in één geïntegreerd systeem, vaak gerealiseerd in moderne ERP-pakketten voor KMO's. Dit geeft management én externe stakeholders informatie vanuit één bron.",
+      "synoniemen": [
+        "triple-entry bookkeeping",
+        "drievoudige boekhouding",
+        "comptabilité à trois dimensions",
+        "geïntegreerd boekhoudsysteem KMO",
+        "ERP voor management accounting",
+        "alles-in-één boekhoudsysteem"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.C.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Exploitatietabellen buiten de boekhouding",
+      "verbose": "Wanneer kostenboekhouding niet rechtstreeks in het boekhoudpakket gebeurt, worden alle kostenverdelingen verzameld in afzonderlijke exploitatietabellen. Dat is typisch voor kleinere structuren waar een volledig analytisch luik in het boekhoudsysteem te complex zou zijn.",
+      "synoniemen": [
+        "verdeeltabellen buiten ledger",
+        "spreadsheetcostings",
+        "off-system kostenverdeling",
+        "manuele kostenmodellen",
+        "kostenanalyse in Excel",
+        "memorandum kostenboeken"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Analyse door de gemiddelde en de marginale kosten",
+      "verbose": "Door de evolutie van gemiddelde en marginale kosten in functie van het volume te volgen krijgt het management inzicht in schaalvoordelen, optimale productieniveaus en gevolgen van capaciteitswijzigingen. Op het optimale punt zijn marginale kost en marginale opbrengst aan elkaar gelijk.",
+      "synoniemen": [
+        "kostencurve-analyse",
+        "marginale versus gemiddelde kost",
+        "schaalvoordelen",
+        "economies of scale",
+        "marginale productiviteitstheorie",
+        "optimale schaal"
+      ]
+    },
+    {
+      "anchor_id": "1.8.III.F",
+      "anchor_type": "kenniselement",
+      "tekst": "de ABC-methode en de gestandaardiseerde productiekosten",
+      "verbose": "Activity-based costing wijst indirecte kosten toe via activiteiten en cost drivers in plaats van via brede afdelingsverdeelsleutels, waardoor de werkelijke oorzaken van kosten zichtbaar worden. Deze methode geeft accurater inzicht bij complexe productmixen en wordt vaak gecombineerd met gestandaardiseerde normen voor productiekosten.",
+      "synoniemen": [
+        "activity-based costing",
+        "ABC-methode",
+        "kostentoewijzing per activiteit",
+        "cost drivers",
+        "activiteitengericht kostenbeheer",
+        "ABM",
+        "geïntegreerde standaard productiekost"
+      ]
+    },
+    {
+      "anchor_id": "1.8.VI.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Definitie van budgetbeheer",
+      "verbose": "Budgetbeheer is het proces waarbij doelstellingen vertaald worden in kwantitatieve actieplannen en deze plannen worden opgevolgd via vergelijking met werkelijke realisaties. Het integreert planning, coördinatie, communicatie, motivatie en controle in één managementsproces.",
+      "synoniemen": [
+        "budgetbeheersing",
+        "budgettair beheer",
+        "budgetary control",
+        "budgetting",
+        "planning en controle via budgetten",
+        "budgetmanagement"
+      ]
+    },
+    {
+      "anchor_id": "1.8.VI.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Belangrijkste begrippen van budgetbeheer",
+      "verbose": "Centrale begrippen omvatten het masterbudget, deelbudgetten per functie, vaste versus flexibele budgetten, rolling forecasts, beyond budgeting en zero-based budgeting. Daarnaast spelen begrippen zoals budgetcyclus, verantwoordelijkheidscentra en gap-analyse een belangrijke rol.",
+      "synoniemen": [
+        "budgetterminologie",
+        "kerntermen budgetting",
+        "masterbudget",
+        "vast versus flexibel budget",
+        "rolling forecast",
+        "zero-based budgeting",
+        "beyond budgeting",
+        "budgetcyclus"
+      ]
+    },
+    {
+      "anchor_id": "1.8.VI.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Budgetprocedure",
+      "verbose": "De budgetprocedure beschrijft hoe een organisatie haar jaarlijkse budget opmaakt: vanuit strategische assumpties via topdown-doelen of bottom-up-input van afdelingen, naar consolidatie, onderhandeling, goedkeuring en finale uitrol. Een duidelijke kalender en rolverdeling zijn essentieel.",
+      "synoniemen": [
+        "budgetproces",
+        "budgetcyclus",
+        "topdown versus bottom-up budgettering",
+        "budgetkalender",
+        "budgeting workflow",
+        "budgettair planningsproces"
+      ]
+    },
+    {
+      "anchor_id": "1.8.VI.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Opstellen van budgetten",
+      "verbose": "Bij het opstellen van budgetten worden voor elke functionele dimensie kwantitatieve doelstellingen geformuleerd, gekoppeld aan acties en middelen. De deelbudgetten worden uiteindelijk samengevoegd tot een geïntegreerde resultaten- en kasprognose, ook wel masterbudget genoemd.",
+      "synoniemen": [
+        "budgetopmaak",
+        "budgetconstructie",
+        "budgetting exercise",
+        "deelbudgetten consolideren",
+        "masterbudget bouwen",
+        "geïntegreerde budgetraming"
+      ]
+    },
+    {
+      "anchor_id": "1.8.VI.D.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Commercieel budget",
+      "verbose": "Het commerciële of verkoopbudget vertaalt de verwachte verkoopvolumes en -prijzen per product, klantgroep of regio in inkomsten. Het vormt het vertrekpunt van het ganse budgetproces omdat productie, voorraad en kasstromen ervan afhangen.",
+      "synoniemen": [
+        "verkoopbudget",
+        "sales budget",
+        "omzetbudget",
+        "verkoopplan",
+        "commerciële prognose",
+        "afzetbudget"
+      ]
+    },
+    {
+      "anchor_id": "1.8.VI.D.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Investeringsbudget",
+      "verbose": "Het investeringsbudget plant de verwerving van duurzame activa zoals machines, gebouwen of immateriële activa over de planningsperiode. Het bevat een onderbouwing per project, financieringsplan en de impact op afschrijvingen en cashflow.",
+      "synoniemen": [
+        "investeringsplan",
+        "capital expenditure budget",
+        "capex-budget",
+        "investeringsraming",
+        "duurzame activa-budget",
+        "investment plan"
+      ]
+    },
+    {
+      "anchor_id": "1.8.VI.D.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Productiebudget",
+      "verbose": "Het productiebudget bepaalt — uitgaande van het verkoopbudget en de gewenste eindvoorraad — hoeveel eenheden van elk product moeten worden geproduceerd. Het vormt de basis voor de afgeleide budgetten van grondstoffen, arbeid en productiecapaciteit.",
+      "synoniemen": [
+        "production budget",
+        "productieplan",
+        "fabricagebudget",
+        "operationsbudget",
+        "manufacturing plan",
+        "outputbudget"
+      ]
+    },
+    {
+      "anchor_id": "1.8.VI.D.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Bevoorradingsbudget",
+      "verbose": "Het bevoorradingsbudget plant de aankopen van grondstoffen, hulpgoederen en handelsgoederen op basis van het productie- of verkoopplan en het beleid inzake voorraadniveaus. Doel is voldoende stock garanderen tegen optimale aankoopvoorwaarden.",
+      "synoniemen": [
+        "aankoopbudget",
+        "purchasing budget",
+        "procurement budget",
+        "bevoorradingsplanning",
+        "inkoopplan",
+        "materiaalverwervingsbudget"
+      ]
+    },
+    {
+      "anchor_id": "1.8.VI.D.5",
+      "anchor_type": "kenniselement",
+      "tekst": "Administratiebudget",
+      "verbose": "Het administratiebudget verzamelt alle kosten van overhead-functies zoals algemeen beheer, financiën, IT en HR. Het bestaat overwegend uit vaste kosten en wordt vaak op basis van vorige jaren plus indexeringen geraamd, eventueel uitgedaagd via zero-based reviews.",
+      "synoniemen": [
+        "overheadbudget",
+        "general administration budget",
+        "administratiekostenbudget",
+        "algemeen beheerbudget",
+        "back-office budget",
+        "support functions budget"
+      ]
+    },
+    {
+      "anchor_id": "1.8.VI.D.6",
+      "anchor_type": "kenniselement",
+      "tekst": "Kasbudget",
+      "verbose": "Het kasbudget projecteert per periode de verwachte ontvangsten en uitgaven om liquiditeitsproblemen vroegtijdig te detecteren en de financieringsbehoefte of beleggingscapaciteit te plannen. Het vertrekt van de andere deelbudgetten gecorrigeerd voor betalingstermijnen en cashtimingverschillen.",
+      "synoniemen": [
+        "cash budget",
+        "liquiditeitsplanning",
+        "kasstroombudget",
+        "treasurybudget",
+        "cashflow forecast",
+        "kasprognose"
+      ]
+    },
+    {
+      "anchor_id": "1.8.VI.D.7",
+      "anchor_type": "kenniselement",
+      "tekst": "Budgetsynthese",
+      "verbose": "De budgetsynthese consolideert alle deelbudgetten in een geïntegreerd masterbudget met een verwachte resultatenrekening, balans en kasstroom. Deze synthese maakt zichtbaar of de afzonderlijke plannen samen leiden tot de gewenste financiële prestaties.",
+      "synoniemen": [
+        "masterbudget",
+        "geconsolideerd budget",
+        "budgetconsolidatie",
+        "geïntegreerd budget",
+        "geprojecteerde jaarrekening",
+        "pro forma financial statements"
+      ]
+    },
+    {
+      "anchor_id": "1.8.VI.D.8",
+      "anchor_type": "kenniselement",
+      "tekst": "Berekening en analyse van de verschillen 9. Budgetherziening",
+      "verbose": "Werkelijke realisaties worden periodiek vergeleken met het budget en de verschillen worden ontleed naar oorzaak en verantwoordelijkheid. Op basis van deze analyse en gewijzigde omstandigheden kan een herzien budget of forecast worden opgesteld om de stuurinformatie actueel te houden.",
+      "synoniemen": [
+        "budgetafwijkingen analyse",
+        "budget variance analysis",
+        "realisatie versus budget",
+        "rolling forecast update",
+        "budgetherziening",
+        "performance reporting",
+        "tussentijdse herraming"
+      ]
+    }
+  ]
+}

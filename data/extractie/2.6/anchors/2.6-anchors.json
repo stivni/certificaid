@@ -1,0 +1,299 @@
+{
+  "po": "2.6",
+  "generated_at": "2026-05-09T20:44:34Z",
+  "model": "claude-opus-4-7",
+  "prompt_version": "anchor-verrijking-v1",
+  "anchors": [
+    {
+      "anchor_id": "2.6.D1.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "2.6.D1.1",
+      "tekst": "Begeleiding bij de oprichting van een onderneming",
+      "verbose": "Bij de oprichting van een vennootschap of onderneming komen verschillende heffingen op kapitaal- en inbrengverrichtingen kijken: de inbreng van onroerend goed, de oprichtingsakte zelf en eventuele schenkingen door aandeelhouders. De accountant beoordeelt vooraf welke verrichtingen registratiebelasting opwekken, of er gunsttarieven of vrijstellingen spelen, en hoe de structuur fiscaal optimaal opgezet wordt.",
+      "synoniemen": [
+        "vennootschapsoprichting fiscaal begeleiden",
+        "inbreng in vennootschap registratiebelasting",
+        "oprichtingsakte registreren",
+        "kapitaalinbreng heffingen",
+        "fiscale structurering bij start onderneming",
+        "advies bij inbreng van onroerend goed in vennootschap"
+      ]
+    },
+    {
+      "anchor_id": "2.6.D1.1.taak.2",
+      "anchor_type": "taak",
+      "taakblok": "2.6.D1.1",
+      "tekst": "Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming",
+      "verbose": "Bij overdracht, herstructurering of vereffening van een onderneming spelen registratierechten op aandelenoverdrachten, vastgoedoverdrachten en de uitkering van het liquidatiesaldo, naast eventuele schenk- of erfbelasting bij familiale opvolging. De accountant rekent verschillende scenario's door (verkoop, schenking, fusie, splitsing, vereffening) en wijst op de fiscale gevolgen voor verkoper, koper en vennootschap.",
+      "synoniemen": [
+        "overdracht onderneming fiscaal advies",
+        "familiale opvolging vennootschap",
+        "vereffening vennootschap fiscaal",
+        "aandelenoverdracht registratiebelasting",
+        "herstructurering registratierechten",
+        "exit-planning ondernemer",
+        "schenking of verkoop familiebedrijf"
+      ]
+    },
+    {
+      "anchor_id": "2.6.D1.1.taak.3",
+      "anchor_type": "taak",
+      "taakblok": "2.6.D1.1",
+      "tekst": "De belastingplichtige in alle fiscale aangelegenheden advies verlenen",
+      "verbose": "De accountant geeft een gestructureerd advies over registratie- en successierechten bij vastgoedtransacties, schenkingen, erfopvolgingen en samenlevingsvormen. Het advies houdt rekening met regionale tarieven, vrijstellingen en abattementen, en met de wisselwerking tussen registratiebelasting, schenkbelasting, erfbelasting en directe belastingen.",
+      "synoniemen": [
+        "fiscaal totaaladvies",
+        "advies registratie- en successierechten",
+        "vermogensplanning",
+        "successieplanning",
+        "fiscale optimalisatie particulier",
+        "estate planning",
+        "advies erf- en schenkbelasting"
+      ]
+    },
+    {
+      "anchor_id": "2.6.D1.1.taak.4",
+      "anchor_type": "taak",
+      "taakblok": "2.6.D1.1",
+      "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen",
+      "verbose": "De accountant ondersteunt de cliënt bij het correct en tijdig indienen van de aangifte van nalatenschap, het laten registreren van akten en geschriften, en de betaling van de verschuldigde rechten. Daarbij let hij op de aangifte- en betalingstermijnen, de juiste waardering van goederen en de vermijding van fiscale boetes wegens laattijdigheid of onvolledigheid.",
+      "synoniemen": [
+        "aangifte van nalatenschap indienen",
+        "registratie van akten",
+        "fiscale formaliteiten begeleiden",
+        "indienen aangifte successie",
+        "naleving fiscale verplichtingen",
+        "compliance erf- en registratiebelasting",
+        "termijnbewaking nalatenschap"
+      ]
+    },
+    {
+      "anchor_id": "2.6.D1.1.taak.5",
+      "anchor_type": "taak",
+      "taakblok": "2.6.D1.1",
+      "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden",
+      "verbose": "De accountant treedt op als gemandateerde tegenover de federale en regionale belastingadministraties, behandelt vragen om inlichtingen, dient bezwaarschriften in en bespreekt waarderingsdiscussies of geschillen over de toepassing van een gunstregime. Hij voert ook minnelijk overleg over rulings of attesten die de fiscale behandeling van een verrichting bevestigen.",
+      "synoniemen": [
+        "vertegenwoordiging bij Vlabel",
+        "vertegenwoordiging bij FOD Financiën",
+        "bezwaarschrift indienen",
+        "ruling aanvragen",
+        "fiscale geschillenbehandeling",
+        "minnelijk overleg met de fiscus",
+        "mandaat tegenover belastingadministratie"
+      ]
+    },
+    {
+      "anchor_id": "2.6.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.6.D1.1",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "De stagiair leert zelfstandig een complex dossier ontwarren waarin registratierechten, schenk- en erfbelasting samenkomen met vennootschapsstructuren, huwelijksvermogen en vastgoed. Hij plant zijn werk methodisch, signaleert proactief fiscale risico's en bouwt een advies op dat juridische, fiscale en patrimoniale aspecten geïntegreerd behandelt.",
+      "synoniemen": [
+        "autonoom dossierbeheer",
+        "geïntegreerd fiscaal advies",
+        "proactief adviseren",
+        "complexe vermogenscasus",
+        "methodisch dossieronderzoek",
+        "zelfstandig werken in fiscaal advies",
+        "multidisciplinair advies"
+      ]
+    },
+    {
+      "anchor_id": "2.6.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.6.D1.1",
+      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen.",
+      "verbose": "Een correct advies over registratie- en successierechten vereist dat de accountant het volledige feitenkader in kaart brengt: huwelijksstelsel, samenstelling van het vermogen, eerdere schenkingen, het aandelenbezit, de fiscale woonplaats van betrokkenen en bestaande beschikkingen. Door gerichte vragen te stellen onderscheidt hij relevante van irrelevante elementen voordat hij conclusies trekt.",
+      "synoniemen": [
+        "feitenonderzoek dossier",
+        "intakegesprek cliënt",
+        "informatie verzamelen vermogen",
+        "huwelijksvermogen in kaart brengen",
+        "due diligence patrimonium",
+        "vraagstelling fiscaal dossier",
+        "dossiervorming"
+      ]
+    },
+    {
+      "anchor_id": "2.6.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.6.D1.1",
+      "tekst": "Fiscale risico’s kunnen analyseren en beheren.",
+      "verbose": "Bij vermogens- en successieplanning moet de accountant inschatten welke risico's verbonden zijn aan een gekozen techniek: herkwalificatie als simulatie, toepassing van de antimisbruikbepaling, fictiebepalingen die schenkingen alsnog in de nalatenschap brengen, of latere herzieningen door de administratie. Hij weegt het verwachte fiscale voordeel af tegen deze risico's en documenteert zijn redenering.",
+      "synoniemen": [
+        "fiscaal misbruik beoordelen",
+        "antimisbruikbepaling analyseren",
+        "fictiebepaling herkennen",
+        "risicoanalyse vermogensplanning",
+        "herkwalificatierisico",
+        "fiscale exposure",
+        "risicobeheer successieplanning"
+      ]
+    },
+    {
+      "anchor_id": "2.6.D1.1.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.6.D1.1",
+      "tekst": "Geavanceerde concepten op het gebied van registratie- en successierechten toepassen op complexe gevallen.",
+      "verbose": "De stagiair moet gevorderde technieken correct toepassen in samengestelde casussen: gesplitste aankoop met voorbehoud van vruchtgebruik, sterfhuisclausules, verblijvingsbedingen, inbreng en verdeling van onverdeeldheden, gefaseerde schenkingen en regelingen rond familiebedrijven. Dat vraagt inzicht in de werking van fictiebepalingen, regionale tarieven en gunstregimes en hun onderlinge samenhang.",
+      "synoniemen": [
+        "gesplitste aankoop vruchtgebruik-blote eigendom",
+        "sterfhuisclausule",
+        "verblijvingsbeding",
+        "gunstregime familiebedrijf",
+        "schenking met voorbehoud",
+        "complexe vermogensplanning",
+        "geavanceerde successieplanning"
+      ]
+    },
+    {
+      "anchor_id": "2.6.D1.1.doel.5",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.6.D1.1",
+      "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de genomen beslissing.",
+      "verbose": "De accountant licht de cliënt in over hoe een dossier verloopt: aangifte, controle, eventuele rechtzetting, bezwaar en gerechtelijke fase. Hij vertaalt elke fase naar concrete gevolgen voor de cliënt zoals termijnen, bewijslast, belastingverhogingen, nalatigheidsinteresten en de doorwerking van een keuze op latere transacties of erfopvolgingen.",
+      "synoniemen": [
+        "fiscale procedure successie",
+        "bezwaarprocedure registratie",
+        "controle door Vlabel",
+        "fiscale rechtzetting",
+        "termijnen aangifte en bezwaar",
+        "gevolgen fiscale keuze",
+        "verloop fiscaal geschil"
+      ]
+    },
+    {
+      "anchor_id": "2.6.I",
+      "anchor_type": "kenniselement",
+      "tekst": "Registratierechten/registratiebelasting:",
+      "verbose": "De registratiebelasting is een heffing die verschuldigd is bij de registratie van bepaalde akten en geschriften, vooral bij overdracht van onroerend goed, vestiging van zakelijke rechten, hypotheken en sommige verhuringen. Sinds de regionalisering wordt het regime in Vlaanderen, Wallonië en Brussel deels apart georganiseerd, met eigen tarieven en gunstregimes.",
+      "synoniemen": [
+        "registratierechten",
+        "registratiebelasting",
+        "heffing op akten",
+        "verkooprecht onroerend goed",
+        "registratieheffing",
+        "Vlaamse registratiebelasting",
+        "Brusselse en Waalse registratierechten"
+      ]
+    },
+    {
+      "anchor_id": "2.6.I.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Definitie",
+      "verbose": "Registratierechten zijn indirecte belastingen die verschuldigd zijn bij de formaliteit van registratie van een akte of geschrift. Het gaat om een heffing die zowel een fiscaal doel (overheidsinkomsten) als een juridisch doel (vaste datum en bewijskracht) dient.",
+      "synoniemen": [
+        "definitie registratierechten",
+        "begrip registratiebelasting",
+        "indirecte belasting op akten",
+        "aard van registratierechten",
+        "wat zijn registratierechten",
+        "rechtshandeling onderworpen aan registratie"
+      ]
+    },
+    {
+      "anchor_id": "2.6.I.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Kenmerken",
+      "verbose": "Registratierechten zijn indirect, eenmalig per verrichting verschuldigd en gekoppeld aan een formaliteit. Ze worden geheven op de werkelijke economische waarde van het goed of de verrichting, kunnen vast, evenredig of specifiek zijn, en zijn deels regionaal en deels federaal georganiseerd.",
+      "synoniemen": [
+        "kenmerken registratiebelasting",
+        "eigenschappen registratierechten",
+        "indirecte heffing",
+        "evenredige versus vaste rechten",
+        "regionaal versus federaal",
+        "aard van de heffing"
+      ]
+    },
+    {
+      "anchor_id": "2.6.I.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Belang",
+      "verbose": "Registratierechten zijn een belangrijke inkomstenbron voor de gewesten en wegen zwaar door bij vastgoedtransacties, vermogensplanning en familiale overdracht. Voor de cliënt zijn ze vaak een doorslaggevende kostenfactor bij de keuze van de juiste juridische techniek.",
+      "synoniemen": [
+        "belang registratierechten",
+        "economische impact registratiebelasting",
+        "fiscale opbrengst gewesten",
+        "kostenfactor vastgoed",
+        "waarom registratiebelasting belangrijk is",
+        "gewestelijke fiscaliteit"
+      ]
+    },
+    {
+      "anchor_id": "2.6.I.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Bronnen",
+      "verbose": "De regelgeving rond registratie- en successierechten ligt verspreid over federale en gewestelijke regels en wordt aangevuld met administratieve commentaren, rechtspraak en standpunten van Vlabel. De accountant moet weten in welke laag hij moet zoeken en hoe federale en regionale regels samenwerken.",
+      "synoniemen": [
+        "bronnen registratiebelasting",
+        "rechtsbronnen successierechten",
+        "Vlabel-standpunten",
+        "administratieve commentaar",
+        "regionale en federale regels",
+        "rechtspraak registratie- en erfbelasting"
+      ]
+    },
+    {
+      "anchor_id": "2.6.II",
+      "anchor_type": "kenniselement",
+      "tekst": "Registratieverplichting",
+      "verbose": "Bepaalde akten moeten verplicht ter registratie worden aangeboden, andere zijn vrijwillig registreerbaar. De registratieverplichting bepaalt wie aansprakelijk is voor de heffing, binnen welke termijn de akte aangeboden moet worden en welke gevolgen verbonden zijn aan laattijdige of niet-registratie, zoals boetes en verlies van bewijskracht.",
+      "synoniemen": [
+        "verplichte registratie",
+        "vrijwillige registratie",
+        "termijn voor registratie",
+        "wie moet registreren",
+        "gevolgen niet-registratie",
+        "registratieformaliteit"
+      ]
+    },
+    {
+      "anchor_id": "2.6.III",
+      "anchor_type": "kenniselement",
+      "tekst": "Soorten registratierechten",
+      "verbose": "Registratierechten worden traditioneel ingedeeld in algemene en specifieke rechten en in vaste, evenredige en specifieke heffingen. De grondslag, het tarief en de eventuele gunstregimes verschillen sterk per categorie, bijvoorbeeld bij verkoop van een gezinswoning, een hypotheekvestiging of een verdeling van onverdeeldheid.",
+      "synoniemen": [
+        "vaste registratierechten",
+        "evenredige registratierechten",
+        "specifieke registratierechten",
+        "algemeen vast recht",
+        "verdeelrecht",
+        "hypotheekrecht",
+        "verkooprecht en schenkrecht"
+      ]
+    },
+    {
+      "anchor_id": "2.6.IV",
+      "anchor_type": "kenniselement",
+      "tekst": "Evenredige registratierechten/registratiebelasting",
+      "verbose": "Evenredige rechten worden berekend als een percentage van een belastbare grondslag, meestal de overeengekomen prijs of de werkelijke waarde van het goed. Belangrijke voorbeelden zijn het verkooprecht op onroerend goed, het schenkrecht, het verdeelrecht bij uittreding uit een onverdeeldheid en het hypotheekrecht; voor elk gelden specifieke tarieven, abattementen en gunstregimes.",
+      "synoniemen": [
+        "verkooprecht",
+        "schenkrecht",
+        "verdeelrecht",
+        "hypotheekrecht",
+        "evenredige heffing",
+        "tarief registratiebelasting",
+        "abattement gezinswoning",
+        "gunsttarief"
+      ]
+    },
+    {
+      "anchor_id": "2.6.V",
+      "anchor_type": "kenniselement",
+      "tekst": "Vestiging en invordering",
+      "verbose": "De vestiging van de heffing bepaalt op welk moment, op welke grondslag en ten laste van welke schuldenaar de belasting wordt vastgesteld. De invordering omvat de betaaltermijn, de aansprakelijkheid (vaak hoofdelijk tussen partijen), nalatigheidsinteresten, belastingverhogingen en de waarborgen waarover de administratie beschikt zoals het wettelijk voorrecht en de mogelijkheid tot dwanginvordering.",
+      "synoniemen": [
+        "vestiging belasting",
+        "invordering registratierechten",
+        "hoofdelijke aansprakelijkheid",
+        "betaaltermijn registratie",
+        "dwangbevel",
+        "nalatigheidsinteresten",
+        "belastingverhoging",
+        "waarborgen van de schatkist"
+      ]
+    }
+  ]
+}

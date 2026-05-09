@@ -1,0 +1,242 @@
+{
+  "po": "2.8",
+  "generated_at": "2026-05-09T00:00:00Z",
+  "model": "claude-opus-4-7",
+  "prompt_version": "anchor-verrijking-v1",
+  "anchors": [
+    {
+      "anchor_id": "2.8.D1.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "2.8.D1.1",
+      "tekst": "Begeleiding bij de oprichting van een onderneming",
+      "verbose": "De accountant adviseert bij de keuze van rechtsvorm, vestigingsplaats en aandeelhoudersstructuur met aandacht voor de internationale fiscale gevolgen. Daarbij komen vraagstukken aan bod zoals fiscale residentie, grensoverschrijdende structurering, toepassing van moeder-dochterregimes en het opzetten van een holding- of patrimoniumstructuur.",
+      "synoniemen": [
+        "oprichtingsbegeleiding onderneming",
+        "structureringsadvies",
+        "vennootschapsoprichting",
+        "begeleiding bij start van een vennootschap",
+        "rechtsvormkeuze met internationale dimensie",
+        "opzetten van een groepsstructuur",
+        "fiscale begeleiding bij ondernemingscreatie"
+      ]
+    },
+    {
+      "anchor_id": "2.8.D1.1.taak.2",
+      "anchor_type": "taak",
+      "taakblok": "2.8.D1.1",
+      "tekst": "Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming",
+      "verbose": "Bij verkoop, herstructurering of liquidatie van een onderneming met grensoverschrijdende elementen analyseert de accountant de fiscale impact zoals exit-heffingen, zetelverplaatsing, fusieneutraliteit en de behandeling van repatrieerbare reserves. Het advies omvat ook de gevolgen voor de aandeelhouders en de doorwerking in successieplanning.",
+      "synoniemen": [
+        "overdracht van onderneming",
+        "ontbinding en vereffening",
+        "herstructureringsadvies",
+        "exitstrategie",
+        "verkoop van vennootschap",
+        "liquidatieadvies",
+        "fusie en splitsing",
+        "zetelverplaatsing"
+      ]
+    },
+    {
+      "anchor_id": "2.8.D1.1.taak.3",
+      "anchor_type": "taak",
+      "taakblok": "2.8.D1.1",
+      "tekst": "De belastingplichtige in alle fiscale aangelegenheden advies verlenen",
+      "verbose": "De accountant treedt op als allround fiscaal raadgever in dossiers met een internationale of Europese dimensie, gaande van inkomstentoewijzing onder een dubbelbelastingverdrag tot bronheffingen op dividenden, intresten en royalty's. Het advies is steeds gestoeld op een grondige feitenanalyse, kwalificatie van inkomsten en afweging van toepasselijke bilaterale of multilaterale instrumenten.",
+      "synoniemen": [
+        "fiscaal advies",
+        "tax advisory",
+        "belastingadvies aan ondernemingen en particulieren",
+        "internationale fiscale consultancy",
+        "advies inzake grensoverschrijdende belastingheffing",
+        "fiscaal raadgever"
+      ]
+    },
+    {
+      "anchor_id": "2.8.D1.1.taak.4",
+      "anchor_type": "taak",
+      "taakblok": "2.8.D1.1",
+      "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen",
+      "verbose": "De accountant verzorgt de aangifteplichten en informatieverplichtingen die voortvloeien uit een internationale context, zoals aangifte belasting niet-inwoners, formulieren voor verminderde bronheffing onder verdrag, en land-per-land-rapportering. Compliance staat centraal: tijdig indienen, juist kwalificeren en de bewijslast onderbouwen.",
+      "synoniemen": [
+        "tax compliance",
+        "fiscale aangifte",
+        "compliance-bijstand",
+        "naleving van fiscale verplichtingen",
+        "aangiftewerk grensoverschrijdend",
+        "rapporteringsverplichtingen",
+        "informatieverplichtingen tegenover de fiscus"
+      ]
+    },
+    {
+      "anchor_id": "2.8.D1.1.taak.5",
+      "anchor_type": "taak",
+      "taakblok": "2.8.D1.1",
+      "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden",
+      "verbose": "Bij vragen om inlichtingen, controles, bezwaarschriften en geschillen treedt de accountant op als gemandateerd vertegenwoordiger tegenover de Belgische en buitenlandse fiscale administraties. In een internationale context omvat dit ook de begeleiding van rulingaanvragen, MAP-procedures en uitwisseling van inlichtingen tussen staten.",
+      "synoniemen": [
+        "fiscale vertegenwoordiging",
+        "begeleiding bij belastingcontrole",
+        "bijstand in fiscaal geschil",
+        "bezwaarprocedure",
+        "rulingbegeleiding",
+        "onderling overlegprocedure",
+        "Mutual Agreement Procedure",
+        "vertegenwoordiging tegenover de administratie"
+      ]
+    },
+    {
+      "anchor_id": "2.8.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.8.D1.1",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "In dossiers met meerdere jurisdicties, verschillende inkomstencategorieën en samenlopende verdragen moet de accountant zelfstandig prioriteiten stellen en een werkmethodiek hanteren die feiten, kwalificatie en gevolgen integreert. Een goed onderbouwd advies weegt fiscale, juridische en bedrijfseconomische aspecten tegen elkaar af en wordt schriftelijk gemotiveerd.",
+      "synoniemen": [
+        "autonome dossierbehandeling",
+        "geïntegreerd fiscaal advies",
+        "methodische aanpak",
+        "proactief adviseren",
+        "complexe casusbehandeling",
+        "professionele oordeelsvorming",
+        "zelfstandig werken in fiscale dossiers"
+      ]
+    },
+    {
+      "anchor_id": "2.8.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.8.D1.1",
+      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen.",
+      "verbose": "Een correct internationaal-fiscaal advies start bij feitenonderzoek: residentie van personen en vennootschappen, aard en bron van inkomsten, contractuele afspraken en onderliggende substance. De accountant identificeert systematisch welke gegevens nodig zijn en stelt gerichte vragen om grijze zones zoals vaste inrichting of begunstigde rechthebbende te ontmijnen.",
+      "synoniemen": [
+        "feitenonderzoek",
+        "informatieverzameling",
+        "intakegesprek",
+        "due diligence op feitenniveau",
+        "dossiervorming",
+        "inwinnen van relevante gegevens",
+        "kritisch bevragen van de cliënt"
+      ]
+    },
+    {
+      "anchor_id": "2.8.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.8.D1.1",
+      "tekst": "Fiscale risico’s kunnen analyseren en beheren.",
+      "verbose": "De accountant identificeert risico's zoals herkwalificatie van inkomsten, niet-erkenning van een buitenlandse structuur, antimisbruikbepalingen, controleverstrenging via gegevensuitwisseling en het verlies van verdragsvoordelen. Risicobeheer omvat het kwantificeren van blootstelling, het documenteren van keuzes en het voorzien van mitigerende maatregelen.",
+      "synoniemen": [
+        "tax risk management",
+        "fiscaal risicobeheer",
+        "risicoanalyse fiscaliteit",
+        "antimisbruikrisico",
+        "herkwalificatierisico",
+        "fiscale exposure",
+        "risicomatrix grensoverschrijdend"
+      ]
+    },
+    {
+      "anchor_id": "2.8.D1.1.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.8.D1.1",
+      "tekst": "Geavanceerde concepten op het gebied van internationaal belastingrecht toepassen op complexe gevallen.",
+      "verbose": "Concepten zoals fiscale woonplaats, vaste inrichting, transferpricingmethoden, hybride mismatches, BEPS-actiepunten en verdragsmisbruik moeten beheerst worden om gevallen met meerdere landen, meerdere entiteiten en gemengde inkomstenstromen op te lossen. Deze toepassing vereist inzicht in zowel het verdragsmodel als de interne anti-ontwijkingsregels.",
+      "synoniemen": [
+        "internationaal belastingrecht",
+        "international tax",
+        "BEPS-toepassing",
+        "verdragsinterpretatie",
+        "transfer pricing",
+        "hybride structuren",
+        "vaste inrichting",
+        "fiscale woonplaats"
+      ]
+    },
+    {
+      "anchor_id": "2.8.D1.1.doel.5",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.8.D1.1",
+      "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de",
+      "verbose": "De accountant begeleidt de cliënt door de opeenvolgende stappen van een fiscaal geschil: vraag om inlichtingen, bericht van wijziging, aanslag, bezwaar en eventueel gerechtelijke procedure of overlegprocedure tussen staten. Aandacht gaat naar termijnen, bewijslast en de procedurele gevolgen van elke processtap.",
+      "synoniemen": [
+        "fiscale procedure",
+        "geschilbeslechting",
+        "bezwaarprocedure",
+        "fasen van een belastingcontrole",
+        "tax dispute resolution",
+        "rechtsmiddelen in fiscale zaken",
+        "procedurele begeleiding"
+      ]
+    },
+    {
+      "anchor_id": "2.8.D1.1.doel.6",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.8.D1.1",
+      "tekst": "~~b~~ ~~li~~ ~~i~~",
+      "verbose": "De ankertekst is onleesbaar in het bronbestand en kan niet betrouwbaar geïnterpreteerd worden. Geen inhoudelijke verrijking mogelijk zonder speculatie.",
+      "synoniemen": [
+        "onleesbaar anker",
+        "corrupte ankertekst",
+        "niet te interpreteren"
+      ]
+    },
+    {
+      "anchor_id": "2.8.I",
+      "anchor_type": "kenniselement",
+      "tekst": "Oorzaken van dubbele belasting II. Vormen van dubbele belasting III. Methoden ter voorkoming van dubbele belasting IV. Verschil tussen een bilateraal en een multilateraal verdrag V. Doelstellingen van een verdrag ter voorkoming van dubbele belasting VI. Basisbeginselen van de werking van een verdrag ter voorkoming van dubbele belasting VII. De techniek van het voorkomen van dubbele belasting in een DBV VIII. Categorieën van niet-inwoners PB IX. Belastbare inkomsten in de belasting niet-inwoners X. Internationale tewerkstelling. Bijzondere regeling voor buitenlandse kaderleden XI. Verwerving, eigendom, beheer en realisatie van onroerend goed, financiering bij verwerving en onderhoud van onroerend goed, zowel in België als in het buitenland",
+      "verbose": "Dit kenniselement omvat de fundamenten van het internationaal belastingrecht: hoe juridische en economische dubbele belasting ontstaat door overlappende heffingsbevoegdheden, en welke unilaterale, bilaterale en multilaterale technieken bestaan om die te neutraliseren via vrijstelling of verrekening. Het bestrijkt ook de Belgische belasting niet-inwoners, het impatriaatregime voor buitenlandse kaderleden en de fiscale behandeling van internationaal vastgoed in al zijn levensfasen.",
+      "synoniemen": [
+        "dubbele belasting",
+        "double taxation",
+        "dubbelbelastingverdrag",
+        "DBV",
+        "tax treaty",
+        "voorkomingsmethoden",
+        "vrijstellingsmethode en verrekeningsmethode",
+        "belasting niet-inwoners",
+        "impatriaatregime",
+        "internationaal onroerend goed"
+      ]
+    },
+    {
+      "anchor_id": "2.8.XII",
+      "anchor_type": "kenniselement",
+      "tekst": "Internationale mobiliteit van ondernemingen, buitenlandse vennootschap actief in België en vice versa: toepasselijke wetgeving XIII. Buitenlandse winsten en verliezen, (Belgische) VI, belastingverplichtingen van niet-ingezeten vennootschappen XIV. Studie van de roerende inkomsten (binnen- en buitenland) XV. RV en mogelijke vrijstellingen, EU-richtlijn over moedermaatschappijen en dochterondernemingen, EU-richtlijn over interest en royalty's, interne wettelijke methoden om dubbele belasting te voorkomen: FBB/DBI XVI. Exit-belasting, verplaatsing maatschappelijke zetel, fusierichtlijn Herstructurering, omvorming van een vzw in een cv dreigende insolventie: aandachtspunten",
+      "verbose": "Dit kenniselement behandelt de grensoverschrijdende mobiliteit van vennootschappen, met onder meer vaste inrichting, inbound- en outboundactiviteit, en de fiscale gevolgen bij verplaatsing van de werkelijke zetel of bij Europese herstructureringen. Het omvat ook de behandeling van roerende inkomsten zoals dividenden, intresten en royalty's, met de Europese moeder-dochterrichtlijn en interest-en-royaltyrichtlijn als sleutelinstrumenten, en de Belgische technieken van forfaitair gedeelte buitenlandse belasting en definitief belaste inkomsten.",
+      "synoniemen": [
+        "vaste inrichting",
+        "permanent establishment",
+        "inbound investering",
+        "outbound investering",
+        "exitbelasting",
+        "zetelverplaatsing",
+        "fusierichtlijn",
+        "moeder-dochterrichtlijn",
+        "interest-royaltyrichtlijn",
+        "FBB",
+        "DBI-aftrek",
+        "roerende voorheffing",
+        "buitenlandse winsten en verliezen"
+      ]
+    },
+    {
+      "anchor_id": "2.8.XVII",
+      "anchor_type": "kenniselement",
+      "tekst": "Transfer pricing en BEPS Studie van overdraagbare inkomsten (binnenlands en buitenlands), repatriëring van buitenlandse vermogens en fiscale regularisatie van een vennootschap in het kader van successieplanning, RV en mogelijke vrijstellingen, Europese \"moederdochter\"-richtlijn, EU-richtlijn betreffende interest-royalty's, binnenlandse methoden om dubbele belasting te vermijden: forfaitair gedeelte van een buitenlandse belasting/DBI, managementvennootschap, holding, patrimoniumvennootschap (controle, waarborg van inkomsten en beschikkingsrecht), gemeenrechtelijke vennootschap en trust",
+      "verbose": "Dit kenniselement focust op verrekenprijzen tussen verbonden ondernemingen volgens het arm's-lengthbeginsel en op de OESO-BEPS-actiepunten die belastingontwijking en winstverschuiving aanpakken. Daarnaast komen vermogensplanningsstructuren aan bod zoals holdings, management- en patrimoniumvennootschappen en trusts, met de bijhorende repatriërings- en regularisatievraagstukken in een grensoverschrijdende successie- of estateplanning.",
+      "synoniemen": [
+        "transfer pricing",
+        "verrekenprijzen",
+        "arm's-lengthbeginsel",
+        "BEPS",
+        "winstverschuiving",
+        "fiscale regularisatie",
+        "vermogensrepatriëring",
+        "holdingvennootschap",
+        "managementvennootschap",
+        "patrimoniumvennootschap",
+        "trust",
+        "internationale successieplanning",
+        "estate planning grensoverschrijdend"
+      ]
+    }
+  ]
+}

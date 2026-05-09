@@ -1,0 +1,409 @@
+{
+  "po": "1.3",
+  "generated_at": "2026-05-09T20:43:13Z",
+  "model": "claude-opus-4-7",
+  "prompt_version": "anchor-verrijking-v1",
+  "anchors": [
+    {
+      "anchor_id": "1.3.D1.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "1.3.D1.1",
+      "tekst": "Analyse en beoordeling van de financiële situatie van een vennootschap of vereniging aan de hand van de jaarrekeningen, ratio’s en kengetallen",
+      "verbose": "Een gestructureerde doorlichting van de financiële gezondheid van een onderneming of vereniging, vertrekkend vanuit de gepubliceerde jaarrekening. De accountant berekent en interpreteert kengetallen rond liquiditeit, solvabiliteit, rendabiliteit en kasstroom, en plaatst die in historische evolutie en sectorvergelijking om sterktes, zwaktes en risico's bloot te leggen.",
+      "synoniemen": [
+        "financiële diagnose",
+        "balansanalyse",
+        "ratioanalyse",
+        "doorlichting van de jaarrekening",
+        "financial statement analysis",
+        "kerncijferanalyse",
+        "beoordeling van de financiële toestand",
+        "kritische lezing van de jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.3.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.3.D1.1",
+      "tekst": "In staat zijn om, na informatie te hebben verzameld, geselecteerd, geanalyseerd en samengevat, de jaarrekeningen van een vennootschap of een vereniging kritisch te bekijken.",
+      "verbose": "De stagiair leert relevante financiële en niet-financiële informatie verzamelen rond een entiteit (jaarrekening, toelichting, beheersverslag, sectordata) en hieruit gericht selecteren wat materieel is. Op basis daarvan formuleert hij een onderbouwd oordeel over de getrouwheid en plausibiliteit van de cijfers, met aandacht voor inconsistenties, ongebruikelijke posten en aandachtspunten in de waarderingsregels.",
+      "synoniemen": [
+        "kritische lezing van de jaarrekening",
+        "financiële review",
+        "informatieverzameling en -synthese",
+        "plausibiliteitstoets",
+        "onafhankelijke beoordeling jaarrekening",
+        "due diligence van financiële staten",
+        "kritisch professioneel oordeel"
+      ]
+    },
+    {
+      "anchor_id": "1.3.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.3.D1.1",
+      "tekst": "Na de analyse ook voorstellen kunnen doen om de situatie van de onderneming/vereniging te verbeteren, waakzamer te zijn of te controleren.",
+      "verbose": "De accountant blijft niet bij vaststellen, maar formuleert concrete adviezen aan het bestuur of de vennoten: bijsturen van werkkapitaal, herfinanciering, kostenbeheersing, herstructurering of verhoogde monitoring van risicoposten. Wanneer de analyse signalen van financiële stress of going-concern-twijfel oplevert, vertaalt hij dit in aanbevelingen rond opvolging, interne controle of escalatie naar de geëigende organen.",
+      "synoniemen": [
+        "adviesverlening op basis van financiële analyse",
+        "remediërende voorstellen",
+        "managementaanbevelingen",
+        "actieplan financieel herstel",
+        "financial advisory",
+        "knipperlichten en aandachtspunten",
+        "verbeterscenario's",
+        "vroegtijdige signalering"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Doelstellingen : basisdoelstellingen, specifieke doelstellingen, getrouw beeld, informatie",
+      "verbose": "De jaarrekening dient meerdere gebruikers (vennoten, schuldeisers, fiscus, werknemers, externe analisten) en moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat. Naast die algemene doelstelling bestaan specifiekere informatieve doelen zoals het verschaffen van beslisrelevante data over solvabiliteit, rendabiliteit en bedrijfsrisico's.",
+      "synoniemen": [
+        "true and fair view",
+        "getrouwe weergave",
+        "doelstellingen jaarrekening",
+        "informatiefunctie van de jaarrekening",
+        "rapporteringsdoelstellingen",
+        "stakeholdersinformatie",
+        "primaire en secundaire doelstellingen"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.A.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Boekhoudprincipes",
+      "verbose": "De fundamentele aannames waarop de boekhouding rust: continuïteit, voorzichtigheid, overeenstemming van kosten en opbrengsten, niet-compensatie, bestendigheid van de waarderingsregels en realisatie. Deze principes sturen hoe transacties worden geboekt en gewaardeerd en bepalen mee of de jaarrekening een getrouw beeld kan geven.",
+      "synoniemen": [
+        "boekhoudkundige principes",
+        "accounting principles",
+        "GAAP-principes",
+        "continuïteitsbeginsel",
+        "voorzichtigheidsbeginsel",
+        "matching principle",
+        "bestendigheid",
+        "fundamentele boekhoudkundige uitgangspunten"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Waarderingsregels",
+      "verbose": "De interne, door het bestuursorgaan vastgelegde keuzes over hoe activa, passiva, kosten en opbrengsten worden gewaardeerd: aanschaffingswaarde, herwaardering, afschrijvingsplan, voorzieningen, voorraadwaardering en wisselkoersen. Bestendige toepassing en duidelijke vermelding in de toelichting zijn essentieel voor de vergelijkbaarheid en betrouwbaarheid van de jaarrekening.",
+      "synoniemen": [
+        "waarderingsmethoden",
+        "valuation rules",
+        "accounting policies",
+        "boekhoudkundige verwerkingsregels",
+        "waarderingsbeleid",
+        "afschrijvings- en voorzieningenbeleid",
+        "interne waarderingsgrondslagen"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Betrokken partijen",
+      "verbose": "De jaarrekening wordt opgesteld voor en gebruikt door verschillende belanghebbenden met uiteenlopende informatiebehoeften: aandeelhouders en vennoten, kredietverleners, leveranciers, klanten, werknemers, fiscale en sociale overheden en het brede publiek. Elk van die gebruikers leest dezelfde cijfers met een andere bril, wat ook bepaalt welke ratio's en kengetallen voor hen relevant zijn.",
+      "synoniemen": [
+        "stakeholders",
+        "gebruikers van de jaarrekening",
+        "belanghebbende partijen",
+        "informatiebehoeften",
+        "doelpubliek financiële rapportering",
+        "users of financial statements"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Activa : vaste activa, vlottende activa",
+      "verbose": "De activazijde van de balans toont de aanwendingen van het ondernemingsvermogen, opgesplitst naar duurzaamheid: vaste activa (oprichtingskosten, immateriële, materiële en financiële vaste activa) die langer dan één jaar in de onderneming blijven, en vlottende activa (vorderingen, voorraden, geldbeleggingen, liquide middelen, overlopende rekeningen) met een kortere omloopsnelheid. De verhouding tussen beide is een eerste indicator voor de financiële structuur.",
+      "synoniemen": [
+        "actiefzijde balans",
+        "fixed assets en current assets",
+        "investeringsactiva en bedrijfsactiva",
+        "duurzame en vlottende middelen",
+        "balansactiva",
+        "aanwending van middelen",
+        "asset-structuur"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Passiva : eigen kapitaal, vreemd kapitaal op lange termijn, permanent kapitaal, vreemd kapitaal op korte termijn, inbreng buiten kapitaal",
+      "verbose": "De passivazijde toont de financieringsbronnen van de onderneming: eigen vermogen (kapitaal, reserves, overgedragen resultaat, herwaarderingsmeerwaarden), schulden op meer dan één jaar, schulden op ten hoogste één jaar en specifieke posten zoals inbreng buiten kapitaal. De som van eigen vermogen en lange-termijnschulden vormt het permanent kapitaal, een sleutelbegrip om te beoordelen of de duurzame investeringen ook duurzaam gefinancierd zijn.",
+      "synoniemen": [
+        "passiefzijde balans",
+        "financieringsstructuur",
+        "eigen vermogen en vreemd vermogen",
+        "kort en lang vreemd vermogen",
+        "permanent kapitaal",
+        "kapitaalstructuur",
+        "schulden op meer en op minder dan één jaar",
+        "agio en kapitaalsubsidies"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.B.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Resultatenrekening : verrichtingen met als doel analysegegevens te doen blijken zoals toegevoegde waarde, voorraden, bedrijfsresultaten, financiële en uitzonderlijke resultaten vóór en na afschrijvingen",
+      "verbose": "De resultatenrekening rangschikt opbrengsten en kosten zodanig dat tussenresultaten zichtbaar worden: brutomarge, toegevoegde waarde, EBITDA, bedrijfsresultaat (EBIT), financieel resultaat en uitzonderlijke of niet-recurrente posten. Door deze gelaagde opbouw kan de analist het structurele verdienvermogen onderscheiden van eenmalige gebeurtenissen en niet-kaskosten zoals afschrijvingen.",
+      "synoniemen": [
+        "winst- en verliesrekening",
+        "income statement",
+        "P&L",
+        "tussenresultaten",
+        "toegevoegde waarde",
+        "EBITDA en EBIT",
+        "bedrijfs-, financieel en uitzonderlijk resultaat",
+        "gestaffelde resultatenrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.B.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Toelichting bij de jaarrekening: waarderingsregels, vervallen schulden, verstrekte waarborgen, …",
+      "verbose": "De toelichting verschaft kwalitatieve en kwantitatieve duiding bij de cijfers: gebruikte waarderingsregels, niet in de balans opgenomen rechten en verplichtingen, persoonlijke en zakelijke zekerheden, vervallen of betwiste schulden, verbonden partijen en belangrijke gebeurtenissen na balansdatum. Voor de analist is dit vaak waar de echte risico's zichtbaar worden, voorbij de samengevatte balansposten.",
+      "synoniemen": [
+        "notes to the financial statements",
+        "bijlagen bij de jaarrekening",
+        "off-balance verplichtingen",
+        "niet in de balans opgenomen rechten en verplichtingen",
+        "verbonden partijen",
+        "gebeurtenissen na balansdatum",
+        "toelichtingsstaten"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Instrumenten en schema’s:",
+      "verbose": "Verzamelnaam voor de wettelijke en analytische documenten waarmee de financiële situatie wordt gerapporteerd en beoordeeld: jaarrekeningschema's, beheersverslag, ratio's, financieringstabellen en kasstroomoverzichten. Samen vormen ze de toolbox waarmee de accountant van ruwe boekhoudgegevens naar een leesbaar, vergelijkbaar en analytisch bruikbaar geheel komt.",
+      "synoniemen": [
+        "rapporteringsschema's",
+        "analytische instrumenten",
+        "financiële rapporteringsdocumenten",
+        "jaarrekeningmodellen",
+        "boordinstrumenten",
+        "analytische tools"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.C.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Wettelijke documenten : jaarrekening, beheersverslagen, verslag van de commissaris, geconsolideerde rekeningen",
+      "verbose": "De verplicht op te stellen en, naargelang de groottecriteria, neer te leggen documenten: enkelvoudige jaarrekening (volledig, verkort of micro-schema), het beheersverslag van het bestuursorgaan, het commissarisverslag voor entiteiten met wettelijke controleplicht en, voor groepen, de geconsolideerde jaarrekening. Samen vormen ze het officiële financiële beeld van een entiteit.",
+      "synoniemen": [
+        "officiële financiële rapportering",
+        "neerleggingsdocumenten",
+        "statutory accounts",
+        "jaarverslag",
+        "beheersverslag",
+        "auditrapport van de commissaris",
+        "geconsolideerde rekeningen",
+        "consolidated financial statements"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.C.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Andere documenten : ratio’s, financieringstabel, boordtabel",
+      "verbose": "Niet-verplichte maar in de praktijk onmisbare analyseinstrumenten: financiële ratio's (liquiditeit, solvabiliteit, rendabiliteit, rotatie), de financieringstabel die mutaties in werkkapitaal verklaart, en boordtabellen of dashboards met operationele en financiële kerncijfers. Ze brengen de jaarrekening tot leven en maken trends, afwijkingen en knelpunten zichtbaar.",
+      "synoniemen": [
+        "managementinformatie",
+        "financiële ratio's",
+        "ratio-analyse",
+        "financieringstabel",
+        "kasstroomoverzicht",
+        "boordtabel",
+        "dashboard",
+        "KPI's en kengetallen"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.C.1__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Jaarrekening (herwerking)",
+      "verbose": "Het herwerken of herclassificeren van de gepubliceerde jaarrekening tot een analytisch bruikbaar schema: posten herordenen naar liquiditeit en exigibiliteit, niet-recurrente elementen isoleren, off-balance verplichtingen integreren en eventuele leasing of factoring herkwalificeren. Pas na deze herwerking leveren ratio's en kengetallen een betrouwbaar economisch beeld op.",
+      "synoniemen": [
+        "analytische balans",
+        "herclassificatie van de jaarrekening",
+        "restructured financial statements",
+        "financiële herwerking",
+        "balansherwerking",
+        "analytische resultatenrekening",
+        "normalisatie van de jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.C.2__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Netto-bedrijfskapitaal",
+      "verbose": "Het verschil tussen het permanent kapitaal en de vaste activa, of equivalent tussen vlottende activa en schulden op korte termijn. Een positief netto-bedrijfskapitaal betekent dat duurzame financieringsbronnen de duurzame investeringen meer dan dekken en als veiligheidsmarge dienen voor de exploitatiecyclus; een negatief saldo wijst op financiële kwetsbaarheid of een afwijkend bedrijfsmodel.",
+      "synoniemen": [
+        "working capital",
+        "bedrijfskapitaal",
+        "fonds de roulement",
+        "NBK",
+        "permanent vermogen min vaste activa",
+        "veiligheidsmarge financiering",
+        "operationeel werkkapitaal"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.C.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Vermogensstroomtabel",
+      "verbose": "Een overzicht van de bewegingen in financieringsbronnen en aanwendingen tussen twee balansdata, opgesplitst naar operationele, investerings- en financieringsactiviteiten. Het toont waar het geld vandaan kwam en waaraan het besteed werd, en is daarmee complementair aan balans en resultatenrekening om de werkelijke kasdynamiek te begrijpen.",
+      "synoniemen": [
+        "kasstroomoverzicht",
+        "cash flow statement",
+        "financieringstabel",
+        "tableau de financement",
+        "mutatieoverzicht financieringsbronnen",
+        "vermogensmutatieoverzicht",
+        "statement of cash flows"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.C.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Operationele en financiële hefbomen",
+      "verbose": "De operationele hefboom meet hoe sterk het bedrijfsresultaat reageert op een wijziging in omzet, gedreven door de verhouding tussen vaste en variabele kosten. De financiële hefboom meet het rendementseffect van schuldfinanciering op het eigen vermogen: zolang het rendement op het totaal actief boven de gemiddelde kostprijs van het vreemd vermogen ligt, verhoogt schuld het rendement op eigen vermogen, maar omgekeerd vergroot ze het verlies.",
+      "synoniemen": [
+        "operating leverage",
+        "financial leverage",
+        "operationele hefboomwerking",
+        "financiële hefboomwerking",
+        "leverage-effect",
+        "DOL en DFL",
+        "schuldhefboom",
+        "kostenstructuurgevoeligheid"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.C.5",
+      "anchor_type": "kenniselement",
+      "tekst": "Falingspredictie/going concern",
+      "verbose": "Het inschatten van de continuïteit van de onderneming op basis van financiële knipperlichten zoals aanhoudend negatief bedrijfsresultaat, erosie van het eigen vermogen, vervallen schulden, dalende liquiditeit en negatieve kasstroom. Voorspellingsmodellen zoals Altman Z-score of Ooghe-Joos-De Vos vatten dit in een score, terwijl de going-concern-beoordeling een kwalitatief oordeel toevoegt over de levensvatbaarheid op korte en middellange termijn.",
+      "synoniemen": [
+        "continuïteitsbeoordeling",
+        "going concern assessment",
+        "faillissementsvoorspelling",
+        "Altman Z-score",
+        "Ooghe-Joos-De Vos-model",
+        "knipperlichten van discontinuïteit",
+        "financial distress prediction",
+        "alarmsignalen onderneming in moeilijkheden"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Toezichtsorganen",
+      "verbose": "De interne en externe organen die toezicht houden op de financiële verslaggeving en de bedrijfsvoering: de algemene vergadering van vennoten of aandeelhouders, de commissaris voor entiteiten met wettelijke controleplicht, de ondernemingsraad voor sociale-economische informatie, gespecialiseerde gerechtelijke kamers voor ondernemingen in moeilijkheden en financiële tegenpartijen die ratiocovenanten opvolgen. Samen vormen ze het ecosysteem dat de jaarrekening valideert en gebruikt.",
+      "synoniemen": [
+        "toezichthoudende organen",
+        "controle-instanties",
+        "corporate governance organen",
+        "intern en extern toezicht",
+        "stakeholders met controlefunctie",
+        "monitoring bodies"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.D.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Toezicht door de vennoten/aandeelhouders",
+      "verbose": "De individuele en collectieve controlerechten van vennoten en aandeelhouders, voornamelijk uitgeoefend op de algemene vergadering: goedkeuring van de jaarrekening, kwijting aan bestuurders, recht op vragen, recht op individueel onderzoek bij entiteiten zonder commissaris en bijzondere onderzoeksprocedures bij vermoeden van onregelmatigheden. Het is de eerste laag van eigenaarsmonitoring op het bestuur.",
+      "synoniemen": [
+        "controle door aandeelhouders",
+        "vennootschappelijk toezicht",
+        "individueel onderzoeksrecht",
+        "kwijting bestuursorgaan",
+        "shareholder oversight",
+        "algemene vergadering als controle-orgaan",
+        "vraagrecht aandeelhouders"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.D.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Commissaris",
+      "verbose": "De externe revisor die door de algemene vergadering wordt benoemd om een onafhankelijke wettelijke controle uit te voeren op de jaarrekening en om verslag uit te brengen over de getrouwheid ervan. Hij speelt een centrale rol in het vertrouwen van derden in de financiële rapportering en heeft daarnaast specifieke verplichtingen rond meldingen aan het bestuur, de ondernemingsraad en in alarmsituaties.",
+      "synoniemen": [
+        "wettelijke controleur",
+        "bedrijfsrevisor",
+        "statutory auditor",
+        "externe controleur jaarrekening",
+        "réviseur d'entreprises",
+        "auditcommissaris",
+        "onafhankelijke jaarrekeningcontroleur"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.D.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Ondernemingsraad",
+      "verbose": "Het overlegorgaan in grotere ondernemingen waarin werknemersvertegenwoordigers periodiek economische en financiële informatie ontvangen over de onderneming. De raad krijgt basisinformatie, jaarinformatie en occasionele informatie en kan bij twijfel de commissaris om toelichting vragen, waardoor hij een rol speelt in de transparantie van de jaarrekening richting werknemers.",
+      "synoniemen": [
+        "OR",
+        "works council",
+        "EFI-procedure",
+        "economische en financiële informatie aan werknemers",
+        "sociaal overlegorgaan",
+        "comité d'entreprise",
+        "werknemersvertegenwoordiging"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.D.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Ondernemingsrechtbank – Kamers voor ondernemingen in moeilijkheden",
+      "verbose": "Een gespecialiseerde detectie- en preventiekamer die signalen van financiële moeilijkheden capteert en ondernemers uitnodigt voor een vertrouwelijk gesprek over de oorzaken en mogelijke oplossingen. Doel is vroegtijdige bewustwording en, waar mogelijk, gerechtelijke reorganisatie of stopzetting voor faillissement; voor de accountant betekent dit kennen van de signalen die deze kamer mobiliseren.",
+      "synoniemen": [
+        "kamer voor ondernemingen in moeilijkheden",
+        "KOM",
+        "tribunal de l'entreprise – chambres des entreprises en difficulté",
+        "preventieve kamer ondernemingsrechtbank",
+        "vroegdetectie financiële moeilijkheden",
+        "depistageprocedure",
+        "vroegtijdige opsporing"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.D.5",
+      "anchor_type": "kenniselement",
+      "tekst": "Financiële instanties – opvolging van de ratios",
+      "verbose": "Banken en andere kredietverleners volgen via convenanten en periodieke rapportering de financiële ratio's van hun cliënten op: solvabiliteit, schuldgraad, dekkingsgraad van de financiële lasten, EBITDA-multiples. Een schending van die covenanten kan leiden tot vervroegde opeisbaarheid van kredieten of gewijzigde voorwaarden, wat de accountant mee moet wegen in zijn financiële diagnose.",
+      "synoniemen": [
+        "bankconvenanten",
+        "covenants",
+        "kredietratio's",
+        "monitoring door kredietverleners",
+        "financial covenants",
+        "lender ratio monitoring",
+        "schuldgraad- en dekkingsratio's",
+        "ratio-opvolging door banken"
+      ]
+    },
+    {
+      "anchor_id": "1.3.I.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Verslag van het bestuursorgaan",
+      "verbose": "Het narratieve verslag waarin het bestuursorgaan de jaarrekening duidt: getrouw overzicht van de ontwikkeling, de resultaten en de positie van de onderneming, belangrijkste risico's en onzekerheden, gebruik van financiële instrumenten, gebeurtenissen na balansdatum, onderzoek en ontwikkeling, en informatie over corporate governance. Het is de kwalitatieve tegenhanger van de cijfers en vaak waar de analist context en strategische inzichten haalt.",
+      "synoniemen": [
+        "jaarverslag",
+        "beheersverslag",
+        "management report",
+        "directors' report",
+        "rapport de gestion",
+        "verslag van de raad van bestuur",
+        "bestuursverslag",
+        "narratief jaarverslag"
+      ]
+    }
+  ]
+}

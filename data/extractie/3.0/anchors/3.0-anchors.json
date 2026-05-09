@@ -1,0 +1,407 @@
+{
+  "po": "3.0",
+  "generated_at": "2026-05-09T20:44:55Z",
+  "model": "claude-opus-4-7",
+  "prompt_version": "anchor-verrijking-v1",
+  "anchors": [
+    {
+      "anchor_id": "3.0.D1.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "3.0.D1.1",
+      "tekst": "Begeleiding bij de oprichting van een onderneming",
+      "verbose": "De accountant adviseert de aspirant-ondernemer over de juridische vormgeving van de nieuwe entiteit, beoordeelt de fiscale en sociale gevolgen van de keuzes en bereidt de inbreng en het financieel plan voor. Dit omvat het beoordelen van de inbreng in geld of in natura, de bepaling van het minimum-eigen vermogen, de keuze tussen eenmanszaak en vennootschap en de praktische stappen tot inschrijving in de Kruispuntbank van Ondernemingen.",
+      "synoniemen": [
+        "start van een onderneming",
+        "vennootschap oprichten",
+        "begeleiding bij de start",
+        "opstart begeleiden",
+        "onderneming opstarten",
+        "advies bij oprichting",
+        "incorporation begeleiden"
+      ]
+    },
+    {
+      "anchor_id": "3.0.D1.1.taak.2",
+      "anchor_type": "taak",
+      "taakblok": "3.0.D1.1",
+      "tekst": "Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming",
+      "verbose": "De accountant begeleidt de cliënt bij het verkopen, overlaten of stopzetten van zijn onderneming, met aandacht voor de waardering, de fiscale optimalisatie en de juridische structurering van de transactie. Bij ontbinding bewaakt hij de correcte vereffening, de afhandeling van schulden en de uitkering van het saldo aan de aandeelhouders.",
+      "synoniemen": [
+        "overname begeleiden",
+        "verkoop van een onderneming",
+        "stopzetting onderneming",
+        "vereffening begeleiden",
+        "exit advies",
+        "overdracht van aandelen",
+        "ondernemingsoverdracht",
+        "M&A-advies"
+      ]
+    },
+    {
+      "anchor_id": "3.0.D1.1.taak.3",
+      "anchor_type": "taak",
+      "taakblok": "3.0.D1.1",
+      "tekst": "Uitvoeren van bijzondere mandaten in vennootschappen waar geen commissaris is aangesteld en waar men niet de gebruikelijke beroepsbeoefenaar is",
+      "verbose": "Bij belangrijke kapitaalverrichtingen die de positie van aandeelhouders of derden raken, treedt een onafhankelijke accountant op om een verslag op te stellen — bijvoorbeeld bij inbreng in natura, quasi-inbreng, omzetting van vennootschapsvorm of uitkering van interim-dividenden. Het mandaat veronderstelt onafhankelijkheid ten opzichte van het bestuur en respect voor de geldende controle- en attesteringsstandaarden.",
+      "synoniemen": [
+        "bijzonder verslag",
+        "controleopdracht zonder commissaris",
+        "ad hoc opdracht accountant",
+        "verslag inbreng in natura",
+        "quasi-inbrengverslag",
+        "verslag bij omzetting vennootschap",
+        "wettelijke opdracht accountant",
+        "specifieke wettelijke opdracht"
+      ]
+    },
+    {
+      "anchor_id": "3.0.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "3.0.D1.1",
+      "tekst": "Samen met de toekomstige ondernemer de meest geschikte vennootschapsvorm bepalen en bijstand verlenen aan de oprichter bij het opstellen van het financieel plan",
+      "verbose": "De accountant weegt de kenmerken van de verschillende vennootschapsvormen tegen het project van de cliënt af: aansprakelijkheid, aandeelhouderschap, fiscale behandeling, beheerstructuur en flexibiliteit. Voor het financieel plan onderbouwt hij de verwachte cashflow, investeringen en financieringsbehoefte over de eerste twee boekjaren, zodat de oprichters hun toereikendheid van het eigen vermogen kunnen aantonen.",
+      "synoniemen": [
+        "vennootschapsvorm kiezen",
+        "rechtsvorm bepalen",
+        "financieel plan opstellen",
+        "businessplan oprichting",
+        "begeleiding oprichter",
+        "keuze rechtsvorm",
+        "startbalansprognose",
+        "oprichtersaansprakelijkheid voorbereiden"
+      ]
+    },
+    {
+      "anchor_id": "3.0.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "3.0.D1.1",
+      "tekst": "Opmaken van tussentijdse financiële toestand (balans, resultatenrekening).",
+      "verbose": "De accountant stelt op een gekozen referentiedatum een tussentijdse balans en resultatenrekening op die als foto van het vermogen dient — typisch ter ondersteuning van een kapitaalverhoging, fusie, splitsing of overdracht. Hij beoordeelt de waarderingsregels, de afsluitingsverrichtingen en de eventuele bijzondere posten zoals voorzieningen en herwaarderingen.",
+      "synoniemen": [
+        "tussentijdse balans",
+        "interim-balans",
+        "tussentijdse afsluiting",
+        "tussentijdse staat",
+        "interim financial statements",
+        "tussentijdse jaarrekening",
+        "afsluitstaat tussentijds"
+      ]
+    },
+    {
+      "anchor_id": "3.0.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "3.0.D1.1",
+      "tekst": "Bepalen van de waarden van de onderneming. Adviseren en begeleiden van de ondernemer zowel overlater als overnemer bij de gesprekken en onderhandelingen",
+      "verbose": "De accountant berekent de waarde van een onderneming via meerdere methoden — substantiële waarde, rendementswaarde, gediscontteerde kasstromen en multiples — en kadert het resultaat als een onderhandelingsrange, niet als een absoluut bedrag. Hij ondersteunt verkoper en koper bij due diligence, deal-structurering en het uitwerken van garanties, prijsherzieningsclausules en betalingsmodaliteiten.",
+      "synoniemen": [
+        "ondernemingswaardering",
+        "bedrijfswaardering",
+        "waarderingsmethodes",
+        "due diligence",
+        "overnameonderhandeling",
+        "koop-verkooponderhandeling",
+        "valuation",
+        "prijsbepaling onderneming"
+      ]
+    },
+    {
+      "anchor_id": "3.0.D1.1.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "3.0.D1.1",
+      "tekst": "Stelt privé expertise op met betrekking tot de boekhouding van ondernemingen",
+      "verbose": "Op verzoek van een partij — een aandeelhouder, koper, schuldeiser of bestuurder — onderzoekt de accountant boekhoudkundige vraagstukken en levert een onderbouwd verslag dat als professionele opinie kan dienen in onderhandelingen of buitengerechtelijke geschillen. Hij respecteert daarbij de regels van onafhankelijkheid, vakbekwaamheid en vertrouwelijkheid eigen aan zijn beroep.",
+      "synoniemen": [
+        "private expertise",
+        "minnelijke expertise",
+        "buitengerechtelijke expertise",
+        "boekhoudkundig onderzoek op aanvraag",
+        "deskundigenverslag op vraag van partijen",
+        "partij-expertise",
+        "private accounting expertise"
+      ]
+    },
+    {
+      "anchor_id": "3.0.D1.1.doel.5",
+      "anchor_type": "doelstelling",
+      "taakblok": "3.0.D1.1",
+      "tekst": "Voert een gerechtelijke expertise uit met betrekking tot de boekhouding van ondernemingen",
+      "verbose": "Aangesteld door een rechter onderzoekt de accountant boekhoudkundige feiten in een geschil — bijvoorbeeld de afrekening tussen vennoten, een aansprakelijkheidsvordering of een betwiste rekening-courant. Hij werkt op tegenspraak, hoort de partijen en levert een verslag dat de rechter feitelijke onderbouwing biedt om uitspraak te doen.",
+      "synoniemen": [
+        "gerechtsexpertise",
+        "gerechtelijk deskundigenonderzoek",
+        "expertise op tegenspraak",
+        "deskundigenonderzoek voor de rechtbank",
+        "court-appointed expertise",
+        "forensische boekhoudexpertise",
+        "rechterlijk deskundigenverslag"
+      ]
+    },
+    {
+      "anchor_id": "3.0.D1.1.doel.6",
+      "anchor_type": "doelstelling",
+      "taakblok": "3.0.D1.1",
+      "tekst": "Stelt verslagen op die leiden tot een attestering of expertiseverslag bestemd om aan derden te worden afgegeven",
+      "verbose": "De accountant levert verslagen die door derden — banken, overheden, kopers, rechtbanken — als bewijsstuk worden gebruikt en daarom een hoog niveau van zorgvuldigheid en onafhankelijkheid vereisen. Het verslag beschrijft duidelijk de opdracht, de verrichte werkzaamheden, de bekomen elementen en de besluiten, zodat de gebruiker de reikwijdte en het zekerheidsniveau correct kan inschatten.",
+      "synoniemen": [
+        "attesteringsverslag",
+        "expertiseverslag voor derden",
+        "verklaring met zekerheid",
+        "professioneel verslag aan derden",
+        "third-party assurance verslag",
+        "attest van de accountant",
+        "verslag voor externe gebruikers"
+      ]
+    },
+    {
+      "anchor_id": "3.0.I",
+      "anchor_type": "kenniselement",
+      "tekst": "De verschillende soorten vennootschappen",
+      "verbose": "Dit kenniselement betreft het overzicht van de Belgische vennootschapsvormen en hun onderlinge typering, zowel maatschappen zonder rechtspersoonlijkheid als kapitaalvennootschappen met beperkte aansprakelijkheid. Het gaat om begrip van de logica achter elke vorm — wie is aansprakelijk, hoe wordt eigendom verdeeld, hoe wordt bestuurd — en niet om memoriseren van een lijst.",
+      "synoniemen": [
+        "vennootschapsvormen",
+        "rechtsvormen onderneming",
+        "types vennootschappen",
+        "ondernemingsvormen",
+        "soorten vennootschappen",
+        "company forms",
+        "categorieën vennootschappen"
+      ]
+    },
+    {
+      "anchor_id": "3.0.I.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Overzicht van de belangrijkste kenmerken, voor- en nadelen van de verschillende vennootschapsvormen.",
+      "verbose": "Per vennootschapsvorm worden de definiërende kenmerken vergeleken: minimum-eigen vermogen, aansprakelijkheid van vennoten, overdraagbaarheid van aandelen, stemverhoudingen, bestuursorganen en fiscale behandeling. De afweging vraagt nuance: wat een voordeel is voor één type cliënt — bijvoorbeeld flexibiliteit van een besloten vennootschap — kan voor een andere context juist een nadeel zijn.",
+      "synoniemen": [
+        "kenmerken vennootschapsvormen",
+        "voor- en nadelen rechtsvormen",
+        "vergelijking vennootschapsvormen",
+        "matrix vennootschapsvormen",
+        "criteria voor vennootschapskeuze",
+        "comparison company forms"
+      ]
+    },
+    {
+      "anchor_id": "3.0.I.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Minder gebruikelijke alternatieve vennootschapsvormen, zoals de maatschap, de coöperatieve vennootschap",
+      "verbose": "Naast de klassieke besloten of naamloze vennootschap bestaan vormen die op specifieke noden inspelen: de maatschap als fiscaal-transparante samenwerking zonder rechtspersoonlijkheid, de coöperatieve vennootschap voor wie samenwerking en variabel ledental centraal stelt, en de vennootschap onder firma of commanditaire vennootschap voor familiale of professionele samenwerkingen. Elke alternatieve vorm heeft een eigen logica voor inbreng, bestuur en uitstap.",
+      "synoniemen": [
+        "maatschap",
+        "coöperatieve vennootschap",
+        "alternatieve rechtsvormen",
+        "minder gangbare vennootschapsvormen",
+        "VOF",
+        "commanditaire vennootschap",
+        "personenvennootschap",
+        "samenwerkingsvormen zonder rechtspersoonlijkheid"
+      ]
+    },
+    {
+      "anchor_id": "3.0.I.C",
+      "anchor_type": "kenniselement",
+      "tekst": "In welke gevallen is een dergelijke alternatieve vorm raadzaam?",
+      "verbose": "De keuze voor een minder gangbare vorm is doorgaans gedreven door specifieke doelen: vermogensplanning binnen een familie via een maatschap, gezamenlijk eigendom met variabel ledental via een coöperatieve, of fiscale transparantie en eenvoudige structuur voor een tijdelijke samenwerking. De accountant beoordeelt of de voordelen opwegen tegen de complexere uitstap of beperktere herkenbaarheid bij externe partijen.",
+      "synoniemen": [
+        "wanneer alternatieve vennootschapsvorm",
+        "use case maatschap",
+        "geschikte toepassing coöperatieve",
+        "wanneer kiezen voor maatschap",
+        "indicaties alternatieve rechtsvorm",
+        "scenario's voor maatschap"
+      ]
+    },
+    {
+      "anchor_id": "3.0.II",
+      "anchor_type": "kenniselement",
+      "tekst": "Beheer van de vennootschap",
+      "verbose": "Het bestuur van een vennootschap wordt georganiseerd via één of meerdere organen — een enige bestuurder, een raad van bestuur of een dualistisch model met directieraad en raad van toezicht — die binnen hun mandaat beslissen over de dagelijkse gang van zaken en de strategische keuzes. Het beheer kent grenzen: bevoegdheden die wettelijk aan de algemene vergadering toekomen, belangenconflicten die procedurele waarborgen vragen, en aansprakelijkheden bij kennelijk onbehoorlijk bestuur.",
+      "synoniemen": [
+        "bestuur vennootschap",
+        "ondernemingsbestuur",
+        "corporate governance",
+        "raad van bestuur",
+        "dagelijks bestuur",
+        "bestuursorganen",
+        "dualistisch bestuursmodel",
+        "directiecomité"
+      ]
+    },
+    {
+      "anchor_id": "3.0.III",
+      "anchor_type": "kenniselement",
+      "tekst": "De algemene vergadering",
+      "verbose": "De algemene vergadering is het orgaan waarin de aandeelhouders beslissingen nemen die de vennootschapsstructuur en haar bestuur bepalen, zoals goedkeuring van de jaarrekening, kwijting van bestuurders, statutenwijzigingen en bestemming van het resultaat. Bijeenroeping, agenda, oproepingstermijnen, quorum en meerderheidsvereisten zijn formeel geregeld zodat minderheidsaandeelhouders een redelijke positie behouden.",
+      "synoniemen": [
+        "AV",
+        "aandeelhoudersvergadering",
+        "jaarvergadering",
+        "buitengewone algemene vergadering",
+        "BAV",
+        "general meeting",
+        "shareholders meeting",
+        "vergadering aandeelhouders"
+      ]
+    },
+    {
+      "anchor_id": "3.0.IV",
+      "anchor_type": "kenniselement",
+      "tekst": "Kapitaalbescherming en winstverdeling",
+      "verbose": "Bij vennootschappen met beperkte aansprakelijkheid zijn er regels die voorkomen dat het eigen vermogen wordt uitgehold ten nadele van schuldeisers — denk aan de netto-actieftest en de liquiditeitstest die elke uitkering moet doorstaan. De winstbestemming verloopt via een formele beslissing van de algemene vergadering en respecteert de hiërarchie tussen wettelijke reserves, statutaire reserves en uitkeerbaar dividend.",
+      "synoniemen": [
+        "netto-actieftest",
+        "liquiditeitstest",
+        "dubbele uitkeringstest",
+        "kapitaalbescherming",
+        "dividenduitkering",
+        "winstbestemming",
+        "uitkeerbare reserves",
+        "creditor protection"
+      ]
+    },
+    {
+      "anchor_id": "3.0.I.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Welke procedure moet worden gevolgd in het kader van de alarmbelprocedure en wat is de rol van de beroepsbeoefenaar?",
+      "verbose": "De alarmbelprocedure is een waarschuwingsmechanisme dat in werking treedt wanneer het netto-actief van de vennootschap onder een kritieke drempel zakt of de continuïteit ernstig in gevaar is. Het bestuur moet binnen een korte termijn een algemene vergadering bijeenroepen en een herstelplan voorleggen; de accountant ondersteunt door de financiële situatie te analyseren, scenario's uit te werken en de bestuurders bewust te maken van hun verzwaarde aansprakelijkheid.",
+      "synoniemen": [
+        "alarmbelprocedure",
+        "noodprocedure netto-actief",
+        "procedure bij continuïteitsproblemen",
+        "alarmbel",
+        "knipperlichtprocedure",
+        "vermogensalarm",
+        "continuïteitswaarschuwing"
+      ]
+    },
+    {
+      "anchor_id": "3.0.V",
+      "anchor_type": "kenniselement",
+      "tekst": "Aandachtspunten in overnameovereenkomsten",
+      "verbose": "Een overnameovereenkomst regelt veel meer dan de prijs alleen: de exacte omschrijving van het overgedragen object, de verklaringen en garanties van de verkoper, eventuele earn-outs of escrow-regelingen, de niet-concurrentieafspraak en de schadevergoedingsmechanismen vormen samen het beschermingsbouwwerk van de koper. De accountant scherpt zijn lezing op risico's die uit de boeken niet onmiddellijk blijken, zoals contingente verplichtingen, fiscale latenties en lopende geschillen.",
+      "synoniemen": [
+        "share purchase agreement",
+        "SPA",
+        "overnamecontract",
+        "koopovereenkomst aandelen",
+        "asset deal",
+        "share deal",
+        "M&A overeenkomst",
+        "transactiestructuur"
+      ]
+    },
+    {
+      "anchor_id": "3.0.I.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Welke minimumgaranties moeten in de overnameovereenkomst worden opgenomen?",
+      "verbose": "Een koper moet typisch beschermd zijn tegen onbekende passiva, fiscale en sociale schulden, gebreken in de eigendom van de aandelen en onjuiste financiële cijfers — vandaar een set minimumgaranties die een vergoedingsplicht inhouden bij ontdekking nadien. Cruciaal zijn de looptijd van de garanties, de drempels en plafonds, de procedure voor schadeclaims en de eventuele zekerheden zoals een geblokkeerde rekening.",
+      "synoniemen": [
+        "verklaringen en garanties",
+        "representations and warranties",
+        "R&W",
+        "balansgaranties",
+        "fiscale garantie",
+        "sociale garantie",
+        "minimumgaranties overname",
+        "warranties in SPA"
+      ]
+    },
+    {
+      "anchor_id": "3.0.I.F",
+      "anchor_type": "kenniselement",
+      "tekst": "Hoe moet een schadeloosstellingsbeding worden opgesteld?",
+      "verbose": "Een schadeloosstellingsbeding bepaalt op welke wijze de koper wordt vergoed wanneer een verklaring of garantie achteraf onjuist blijkt: welke schade telt mee, welke uitsluitingen gelden, hoe lang de vordering kan worden ingesteld, en welke drempel of plafond van toepassing is. Een goede formulering balanceert tussen ruime bescherming voor de koper en aanvaardbaarheid voor de verkoper, en is voldoende concreet om bewijsproblemen te vermijden.",
+      "synoniemen": [
+        "indemnification clause",
+        "vrijwaringsbeding",
+        "vergoedingsclausule",
+        "schadebeding",
+        "indemnity clause",
+        "schadevergoedingsmechanisme",
+        "claim-procedure overname"
+      ]
+    },
+    {
+      "anchor_id": "3.0.I.G",
+      "anchor_type": "kenniselement",
+      "tekst": "Wat zijn de voorwaarden voor de geldigheid van een concurrentiebeding?",
+      "verbose": "Een concurrentiebeding bij een overdracht van onderneming is afdwingbaar voor zover het beperkt is in voorwerp, tijd en geografische zone, en blijft binnen wat redelijkerwijs nodig is om de overgedragen waarde te beschermen. Te ruime bedingen worden door de rechter gematigd of nietig verklaard; de accountant moet de cliënt waarschuwen voor te ambitieuze formuleringen die in de praktijk geen bescherming bieden.",
+      "synoniemen": [
+        "non-compete",
+        "niet-concurrentiebeding",
+        "concurrentieverbod",
+        "non-concurrence",
+        "non-compete clause",
+        "afwervingsverbod",
+        "geldigheid concurrentiebeding"
+      ]
+    },
+    {
+      "anchor_id": "3.0.VI",
+      "anchor_type": "kenniselement",
+      "tekst": "Aandeelhoudersovereenkomsten en methodes om de controle te verwerven",
+      "verbose": "Een aandeelhoudersovereenkomst regelt de verhouding tussen aandeelhouders buiten de statuten om: stemafspraken, voorkeurrechten bij overdracht, drag-along, tag-along, en mechanismen om patstellingen te doorbreken. Controleverwerving kan via meerdere kanalen lopen — opbouw van een meerderheidsbelang, getrapte structuren met holding, certificering, of stemovereenkomsten — elk met eigen fiscale en juridische gevolgen.",
+      "synoniemen": [
+        "shareholders agreement",
+        "SHA",
+        "aandeelhoudersafspraak",
+        "drag-along",
+        "tag-along",
+        "stemafspraak",
+        "controleverwerving",
+        "holdingstructuur",
+        "certificering van aandelen"
+      ]
+    },
+    {
+      "anchor_id": "3.0.VII",
+      "anchor_type": "kenniselement",
+      "tekst": "Aansprakelijkheid van oprichters, aandeelhouders en bestuurders",
+      "verbose": "Oprichters kunnen persoonlijk aansprakelijk worden gesteld als de vennootschap binnen drie jaar failliet gaat met een kennelijk ontoereikend financieel plan; bestuurders kunnen aangesproken worden voor bestuursfouten, kennelijk onbehoorlijk bestuur, fiscale en sociale schulden, en in welbepaalde gevallen voor wrongful trading. Aandeelhouders zijn in principe slechts beperkt aansprakelijk, maar kunnen in uitzonderingsgevallen worden aangesproken via doorbraak of bij misbruik van vennootschapsgoederen.",
+      "synoniemen": [
+        "bestuurdersaansprakelijkheid",
+        "oprichtersaansprakelijkheid",
+        "wrongful trading",
+        "kennelijk onbehoorlijk bestuur",
+        "doorbraak van aansprakelijkheid",
+        "directors liability",
+        "persoonlijke aansprakelijkheid bestuurder",
+        "aansprakelijkheidsplafond"
+      ]
+    },
+    {
+      "anchor_id": "3.0.IX",
+      "anchor_type": "kenniselement",
+      "tekst": "Ontbinding en vereffening",
+      "verbose": "Bij ontbinding houdt de vennootschap op normaal te functioneren en gaat ze de vereffeningsfase in, waarin alle activa worden te gelde gemaakt, schuldeisers worden betaald en het saldo onder de aandeelhouders wordt verdeeld. De vereffenaar — vaak een accountant — voert dat proces uit onder gerechtelijke bevestiging of via een vereenvoudigde procedure, en is verantwoordelijk voor het correct opmaken van de staat van activa en passiva en het slotverslag.",
+      "synoniemen": [
+        "vereffening vennootschap",
+        "ontbinding",
+        "liquidatie",
+        "vereffenaar",
+        "winding up",
+        "vereenvoudigde ontbinding",
+        "stopzetting vennootschap",
+        "afsluiting van de vereffening"
+      ]
+    },
+    {
+      "anchor_id": "3.0.X",
+      "anchor_type": "kenniselement",
+      "tekst": "Insolventiewetgeving (boek XX van het Wetboek Economisch recht)",
+      "verbose": "Insolventiewetgeving regelt wat gebeurt wanneer een onderneming haar schulden niet meer kan betalen: van vroege waarschuwingsknipperlichten en buitengerechtelijke akkoorden, over de gerechtelijke reorganisatie met opschorting van betaling, tot het faillissement met afwikkeling door een curator. De accountant herkent insolventiesignalen vroeg, kent de procedurele drempels en begeleidt het bestuur bij keuzes die de continuïteit kunnen redden of de schade kunnen beperken.",
+      "synoniemen": [
+        "faillissement",
+        "gerechtelijke reorganisatie",
+        "WCO",
+        "WCO-procedure",
+        "insolventieprocedure",
+        "curator",
+        "insolventierecht",
+        "minnelijk akkoord",
+        "opschorting van betaling",
+        "ondernemingen in moeilijkheden"
+      ]
+    }
+  ]
+}

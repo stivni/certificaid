@@ -1,684 +1,1064 @@
 {
   "po": "4.0",
-  "generated_at": "2026-05-08T17:07:19.018580+00:00",
-  "source": "4.0-anchors-enriched.json",
-  "cleaning": "wetsartikel-vermeldingen mechanisch verwijderd",
+  "generated_at": "2026-05-09T20:45:08Z",
+  "model": "claude-opus-4-7",
+  "prompt_version": "anchor-verrijking-v1",
   "anchors": [
     {
       "anchor_id": "4.0.D1.1.taak.1",
       "anchor_type": "taak",
       "taakblok": "4.0.D1.1",
       "tekst": "Een passend beleid voor de aanvaarding van klanten vaststellen",
-      "verbose": "Het opstellen van een formeel cliëntacceptatiebeleid waarin de gecertificeerd accountant de risico's van een nieuwe of bestaande cliëntrelatie systematisch beoordeelt vooraleer hij de opdracht aanvaardt of voortzet. Dit beleid omvat de identificatie en verificatie van de cliënt en zijn uiteindelijke begunstigden (UBO), de beoordeling van het witwasrisico via een risicogebaseerde benadering conform de, en de schriftelijke vastlegging in een opdrachtbrief overeenkomstig de ITAA-deontologische normen. Bij verhoogd risico geldt verscherpte waakzaamheid; bij onmogelijkheid tot cliëntenonderzoek wordt de relatie geweigerd of beëindigd.",
+      "verbose": "De accountant beoordeelt vooraleer hij een nieuwe klant aanneemt of de opdracht professioneel verantwoord is: integriteit van de cliënt, herkomst van de middelen, eigen competentie en onafhankelijkheid, en de afwezigheid van onverenigbaarheden. Dit cliëntenaanvaardingsbeleid bestaat uit gedocumenteerde procedures, identificatie- en risicoclassificatie, en een formeel aanvaardingsbesluit dat ook periodiek wordt herzien.",
       "synoniemen": [
-        "clientacceptatiebeleid",
-        "client onboarding",
-        "aanvaarding van cliënten",
-        "cliëntenonderzoek",
-        "due diligence cliënt",
-        "KYC-procedure",
-        "acceptatieprocedure"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 0
-      }
+        "cliëntenaanvaarding",
+        "client acceptance",
+        "klantenacceptatiebeleid",
+        "opdrachtaanvaarding",
+        "intake-procedure",
+        "acceptatieprocedure nieuwe cliënten",
+        "screening van nieuwe klanten"
+      ]
     },
     {
       "anchor_id": "4.0.D1.1.doel.1",
       "anchor_type": "doelstelling",
       "taakblok": "4.0.D1.1",
       "tekst": "Een risicoanalyse uitvoeren",
-      "verbose": "Het uitvoeren van een algemene risicobeoordeling op kantoorniveau en een individuele risicobeoordeling per cliëntrelatie, zoals opgelegd door de en het ITAA-procedurereglement. De risicoanalyse weegt cliënt-, geografische, product- en transactierisico's af om de mate van waakzaamheid te bepalen en past de risicogebaseerde benadering toe op witwassen, financiering van terrorisme en proliferatie. De resultaten worden gedocumenteerd, periodiek geactualiseerd en gebruikt om interne procedures, controles en opleidingen te kalibreren.",
+      "verbose": "Bij elke (nieuwe) cliëntrelatie en opdracht maakt de accountant een individuele risico-inschatting waarbij hij de aard van de cliënt, de bedrijfssector, de geografische ligging, de complexiteit van de structuur en het type opdracht in rekening brengt. Op basis van die inschatting bepaalt hij de intensiteit van zijn waakzaamheidsmaatregelen, dossierdocumentatie en monitoring.",
       "synoniemen": [
-        "algemene risicobeoordeling",
-        "risk assessment",
-        "individuele risicobeoordeling",
+        "risicobeoordeling cliënt",
         "risicogebaseerde benadering",
-        "witwasrisicoanalyse",
-        "klantrisicoprofiel"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 0
-      }
+        "risk-based approach",
+        "individuele risico-inschatting",
+        "klantenrisicoprofiel",
+        "risico-classificatie",
+        "client risk assessment"
+      ]
     },
     {
       "anchor_id": "4.0.D1.1.doel.2",
       "anchor_type": "doelstelling",
       "taakblok": "4.0.D1.1",
       "tekst": "Interne procedures uitwerken",
-      "verbose": "Het uitwerken en onderhouden van schriftelijke interne organisatie- en controleprocedures die de naleving van de, de en de ITAA-deontologische normen waarborgen. De procedures regelen onder meer cliëntenonderzoek, meldingsplicht aan de Cel voor Financiële Informatieverwerking (CFI), bewaarplicht, opleiding van medewerkers en de aanstelling van een antiwitwasverantwoordelijke (AMLCO). Ze worden afgestemd op de aard en omvang van het kantoor en zijn onderworpen aan de kwaliteitstoetsing van het ITAA.",
+      "verbose": "De accountant of zijn kantoor stelt geschreven beleidslijnen en werkinstructies op die de cliëntenaanvaarding, dossierdocumentatie, waakzaamheidsmaatregelen, klachtenbehandeling en kwaliteitscontrole regelen. Deze interne organisatie zorgt voor consistente uitvoering door alle medewerkers en is opvraagbaar bij toezichtsacties.",
       "synoniemen": [
-        "interne organisatieprocedures",
-        "internal controls",
-        "compliance-procedures",
-        "interne controleprocedures",
-        "kantoorprocedures",
+        "interne organisatie kantoor",
+        "interne richtlijnen",
+        "kwaliteitshandboek",
+        "praktijkprocedures",
         "AML-procedures",
-        "deontologische procedures"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 0
-      }
+        "policies and procedures",
+        "schriftelijke procedures"
+      ]
     },
     {
       "anchor_id": "4.0.D1.1.doel.3",
       "anchor_type": "doelstelling",
       "taakblok": "4.0.D1.1",
       "tekst": "Discreet en duidelijk communiceren met de autoriteiten",
-      "verbose": "Het correct, tijdig en discreet informeren van toezichthoudende en gerechtelijke autoriteiten, in het bijzonder de Cel voor Financiële Informatieverwerking (CFI) bij vermoedens van witwassen of financiering van terrorisme. De accountant respecteert daarbij het tipping-off-verbod (verbod de cliënt of derden in te lichten over de melding) en de uitzonderingen op het beroepsgeheim die de wet voorziet voor meldingen aan de CFI, het ITAA en de gerechtelijke overheden.",
+      "verbose": "Wanneer de accountant verplicht of gerechtigd is om informatie te verstrekken aan een toezichthouder, een gerechtelijke instantie of de cel voor financiële informatieverwerking, doet hij dat schriftelijk, ondubbelzinnig en zonder de cliënt of derden te tippen. Hij respecteert daarbij zowel de meldingsplicht als zijn discretieplicht over de inhoud van de melding.",
       "synoniemen": [
-        "melding aan CFI",
-        "meldingsplicht witwassen",
-        "informatieverstrekking aan toezichthouder",
-        "communicatie met autoriteiten",
-        "tipping-off-verbod",
-        "vertrouwelijke melding"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "communicatie met CFI",
+        "melding aan toezichthouder",
+        "rapportering aan autoriteiten",
+        "tippingverbod",
+        "vertrouwelijke melding",
+        "informatieverstrekking aan overheid"
+      ]
     },
     {
       "anchor_id": "4.0.D1.1.doel.4",
       "anchor_type": "doelstelling",
       "taakblok": "4.0.D1.1",
       "tekst": "De beroepsdeontologie naleven",
-      "verbose": "Het naleven van de fundamentele beroepsbeginselen die door de en het deontologisch reglement aan de gecertificeerd accountant en gecertificeerd belastingadviseur worden opgelegd: integriteit, objectiviteit, professionele bekwaamheid en zorgvuldigheid, vertrouwelijkheid en professioneel gedrag. De naleving wordt afgedwongen via de tuchtprocedure van het ITAA en de kwaliteitstoetsing.",
+      "verbose": "De accountant gedraagt zich in elke opdracht volgens de fundamentele beginselen van het beroep: integriteit, objectiviteit, professionele bekwaamheid en zorgvuldigheid, vertrouwelijkheid en professioneel gedrag. Naleving betekent dat hij die beginselen actief toetst tegen elke concrete situatie en bedreigingen ervoor identificeert en wegneemt.",
       "synoniemen": [
-        "deontologische beginselen naleven",
-        "ethische gedragsregels",
-        "fundamentele beroepsbeginselen",
-        "professional ethics",
-        "ITAA-deontologie",
-        "code of ethics accountant"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 0
-      }
+        "naleving deontologische code",
+        "ethisch handelen",
+        "fundamentele beginselen",
+        "beroepsethiek",
+        "professional conduct",
+        "ethische plichten accountant",
+        "code of ethics"
+      ]
     },
     {
       "anchor_id": "4.0.D1.1.doel.5",
       "anchor_type": "doelstelling",
       "taakblok": "4.0.D1.1",
       "tekst": "De antiwitwaswetgeving naleven",
-      "verbose": "Het naleven van de en haar uitvoeringsbesluiten, inclusief de EU-richtlijnen 2015/849 en 2018/843. Voor de gecertificeerd accountant als onderworpen entiteit betekent dit: identificatie en verificatie van cliënten en uiteindelijke begunstigden (UBO), doorlopende waakzaamheid op verrichtingen, melding van vermoedens aan de CFI, naleving van de bewaarplicht en van de beperking van het gebruik van contanten.",
+      "verbose": "De accountant past het preventieve luik toe met klantidentificatie, identificatie van de uiteindelijke begunstigde, doorlopende waakzaamheid op verrichtingen, schriftelijke risicobeoordeling en melding van verdachte transacties. Hij houdt een schriftelijk AML-beleid bij en bewaart de bewijsstukken gedurende de wettelijke termijn.",
       "synoniemen": [
-        "AML compliance",
-        "wet 18 september 2017",
-        "voorkoming witwassen",
+        "AML-compliance",
+        "antiwitwasverplichtingen",
+        "preventie witwassen en financiering terrorisme",
         "anti-money laundering",
-        "AWW-naleving",
-        "preventie financiering terrorisme"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 1
-      }
+        "klantenonderzoek (CDD)",
+        "due diligence cliënt",
+        "AML/CFT"
+      ]
     },
     {
       "anchor_id": "4.0.D1.2.taak.1",
       "anchor_type": "taak",
       "taakblok": "4.0.D1.2",
       "tekst": "Zorgen voor een passende communicatie met de verschillende actoren in het kader van zijn opdracht",
-      "verbose": "Het organiseren van professionele, schriftelijk gedocumenteerde communicatie met alle stakeholders rond een opdracht: de cliënt, confraters bij opdrachtovername, banken, fiscale en sociale administraties, de CFI, rechtbanken en het ITAA. De communicatie respecteert het beroepsgeheim, de vertrouwelijkheid en de deontologische confraterniteitsregels (onder meer kennisgeving aan de voorganger bij opdrachtovername).",
+      "verbose": "De accountant stemt vorm, frequentie en inhoud van zijn communicatie af op het doelpubliek: cliënten, voorganger of opvolger, banken, fiscus, sociale zekerheid, rechtbanken of toezichthouder. Hij bewaakt daarbij de scheiding tussen wat publiek mag, wat onder beroepsgeheim valt, en wat verplicht moet worden gemeld.",
       "synoniemen": [
-        "professionele communicatie",
-        "stakeholdercommunicatie",
-        "communicatie met cliënt en derden",
-        "informatieverstrekking opdracht",
-        "confraternele kennisgeving"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "stakeholder-communicatie",
+        "professionele correspondentie",
+        "rapportering aan belanghebbenden",
+        "communicatie in de opdracht",
+        "informatieverstrekking aan derden",
+        "afgestemde communicatie"
+      ]
     },
     {
       "anchor_id": "4.0.D1.2.doel.1",
       "anchor_type": "doelstelling",
       "taakblok": "4.0.D1.2",
       "tekst": "Duidelijk en gepast communiceren met de klant (confraters, enz.)",
-      "verbose": "Het helder en passend communiceren met de cliënt en met confraters via opdrachtbrieven, voortgangsverslagen en eindverslagen. Bij opdrachtovername geldt de verplichte voorafgaande schriftelijke kennisgeving aan de voorganger conform de ITAA-norm inzake confraterniteit; bij beëindiging van de opdracht worden de werkdocumenten overgemaakt overeenkomstig de deontologische regels.",
+      "verbose": "Naar de cliënt toe gebruikt de accountant heldere taal in opdrachtbrieven, adviezen en rapporten zodat de cliënt de draagwijdte van zijn aanbevelingen begrijpt. Bij overname of beëindiging informeert hij de confrater met de gepaste hoffelijkheid en bezorgt hij de stukken die de continuïteit van het dossier verzekeren.",
       "synoniemen": [
-        "communicatie met cliënt",
-        "confraternele kennisgeving",
-        "opdrachtovername-procedure",
-        "client communication",
+        "cliëntencommunicatie",
+        "confraternele communicatie",
         "opdrachtbrief",
-        "letter of engagement"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "engagement letter",
+        "overdracht dossier confrater",
+        "overlegplicht met collega"
+      ]
     },
     {
       "anchor_id": "4.0.D1.2.doel.2",
       "anchor_type": "doelstelling",
       "taakblok": "4.0.D1.2",
       "tekst": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals banken, belastingdiensten, de cel voor financiële informatieverwerking (antiwitwasbeleid), rechtbanken, enz.",
-      "verbose": "Het correct communiceren met externe belanghebbenden binnen de wettelijke en deontologische krijtlijnen: bankiers (in het kader van financieringsdossiers), de belastingadministratie (binnen de fiscale procedure en het beroepsgeheim), de Cel voor Financiële Informatieverwerking (meldingsplicht witwassen) en de rechterlijke macht (uitzonderingen op het beroepsgeheim, getuigenis, gerechtelijke opdrachten). Steeds met inachtneming van het beroepsgeheim van en de specifieke uitzonderingen die de en de voorzien.",
+      "verbose": "De accountant past zijn communicatie aan elke gesprekspartner aan: financiers willen cijferonderbouwing, de fiscus formele verantwoording, de antiwitwas-meldingsinstantie een gestructureerd verdacht-transactiedossier, en rechters een feitelijke neutrale weergave. In elk register bewaakt hij de grens van zijn beroepsgeheim en de verplichtingen die hem dwingen of toelaten te spreken.",
       "synoniemen": [
-        "communicatie met derden",
-        "informatieverstrekking aan banken",
-        "communicatie met belastingadministratie",
-        "melding aan CFI",
+        "communicatie met financiële instellingen",
+        "rapportering aan fiscus",
+        "verdachte-transactie-melding",
+        "STR melding",
         "communicatie met rechtbank",
-        "external communication"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 0
-      }
+        "interactie met derden",
+        "stakeholder reporting"
+      ]
     },
     {
       "anchor_id": "4.0.D1.2.doel.3",
       "anchor_type": "doelstelling",
       "taakblok": "4.0.D1.2",
       "tekst": "Vertrouwelijke informatie discreet behandelen",
-      "verbose": "Het zorgvuldig behandelen van vertrouwelijke cliëntinformatie overeenkomstig het beroepsgeheim van en de professionele discretieplicht uit de. Discretie omvat zowel de bescherming tegen externe openbaarmaking (geen gebruik in eigen voordeel of voordeel van derden) als interne maatregelen op kantoor (toegangscontrole, clean desk, IT-beveiliging) en het tipping-off-verbod bij meldingen aan de CFI.",
+      "verbose": "Cliëntgegevens, opdrachtbevindingen en interne werkdocumenten worden niet besproken met onbevoegden, niet onbeveiligd verzonden en niet gebruikt voor andere doeleinden dan de opdracht. De accountant past organisatorische maatregelen toe (toegangsbeheer, clean desk, versleuteling) zodat zijn medewerkers en eventuele onderaannemers dezelfde discretie aanhouden.",
       "synoniemen": [
-        "beroepsgeheim",
         "discretieplicht",
-        "vertrouwelijkheidsverplichting",
-        "professional secrecy",
-        "confidentiality",
-        "geheimhoudingsplicht"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 1
-      }
+        "vertrouwelijkheid",
+        "professional confidentiality",
+        "geheimhoudingsplicht",
+        "informatiebeveiliging dossier",
+        "need-to-know",
+        "data confidentiality"
+      ]
     },
     {
       "anchor_id": "4.0.D1.2.doel.4",
       "anchor_type": "doelstelling",
       "taakblok": "4.0.D1.2",
       "tekst": "Termijnen in acht nemen",
-      "verbose": "Het tijdig naleven van wettelijke en contractuele termijnen die op de gecertificeerd accountant rusten: indieningstermijnen voor jaarrekeningen en aangiften, de termijnen van de meldingsplicht aan de CFI, deadlines in het tuchtprocedure-reglement van het ITAA en termijnen voor opdrachtovername en beëindiging van de opdracht. Het overschrijden van termijnen kan leiden tot beroepsaansprakelijkheid en tuchtsancties.",
+      "verbose": "Voor zowel fiscale aangiftes, neerleggingen, beroepsmeldingen als interne kantoordeadlines werkt de accountant met een planning die rekening houdt met buffertijd en ontvangst van cliëntinformatie. Tijdige levering is niet alleen een commerciële verplichting maar ook een element van zijn zorgvuldigheidsplicht.",
       "synoniemen": [
-        "wettelijke termijnen",
+        "deadlinebeheer",
+        "tijdige uitvoering opdracht",
+        "naleving wettelijke termijnen",
         "indieningstermijnen",
-        "naleving deadlines",
-        "termijnenbeheer",
-        "verjaringstermijnen",
-        "deadline compliance"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "planningsdiscipline",
+        "tijdigheidsplicht"
+      ]
     },
     {
       "anchor_id": "4.0.D1.3.taak.1",
       "anchor_type": "taak",
       "taakblok": "4.0.D1.3",
       "tekst": "Zijn deskundigheid voortdurend ontwikkelen",
-      "verbose": "Het permanent onderhouden en uitbreiden van de professionele bekwaamheid via de permanente vorming, een verplichting verankerd in de en in de ITAA-norm inzake permanente vorming. De gecertificeerd accountant moet jaarlijks een minimumaantal vormingsuren volgen, gespreid over kerndomeinen (boekhouden, fiscaliteit, recht, audit, deontologie, antiwitwas) en dit kunnen aantonen bij kwaliteitstoetsing.",
+      "verbose": "De accountant houdt zijn vaktechnische kennis op peil door structureel opleidingen te volgen, vakliteratuur te lezen en zijn praktijkervaring te reflecteren. Permanente vorming is geen administratieve formaliteit maar een voorwaarde om de fundamentele beginselen van bekwaamheid en zorgvuldigheid waar te maken.",
       "synoniemen": [
-        "permanente vorming",
-        "continuous professional development",
+        "continue professionele ontwikkeling",
         "CPD",
-        "bijscholing",
-        "permanente beroepsopleiding",
+        "lifelong learning accountant",
         "professionele bekwaamheid onderhouden",
-        "vormingsuren"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 0
-      }
+        "permanente bijscholing",
+        "vakbekwaamheid op peil houden"
+      ]
     },
     {
       "anchor_id": "4.0.D1.3.doel.1",
       "anchor_type": "doelstelling",
       "taakblok": "4.0.D1.3",
       "tekst": "Voortdurend bijscholen volgens de norm van permanente vorming",
-      "verbose": "Het volgen van vormingen en opleidingen overeenkomstig de ITAA-norm inzake permanente vorming, met een minimum aantal verplichte uren per kalenderjaar verdeeld over de kerngebieden van het beroep. De vormingen worden geregistreerd in het persoonlijk vormingsdossier en gestaafd met aanwezigheidsattesten; de naleving wordt door het ITAA gecontroleerd in het kader van de kwaliteitstoetsing.",
+      "verbose": "Het beroep legt elk lid een minimumaantal opleidingsuren per jaar op, gespreid over relevante vakgebieden. De accountant registreert die uren, bewaart bewijsstukken en stemt zijn opleidingskeuzes af op de evolutie van zijn cliëntenportefeuille en op nieuwe verplichtingen.",
       "synoniemen": [
         "permanente vorming",
-        "norm permanente vorming",
+        "CPD-uren",
         "vormingsverplichting",
-        "bijscholing accountants",
-        "ITAA-vormingsuren",
-        "verplichte opleiding"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "minimum opleidingsuren",
+        "continuing education",
+        "ITAA-vorming",
+        "verplichte bijscholing"
+      ]
     },
     {
       "anchor_id": "4.0.D1.3.doel.2",
       "anchor_type": "doelstelling",
       "taakblok": "4.0.D1.3",
       "tekst": "Op de hoogte blijven van de ontwikkelingen ter zake",
-      "verbose": "Het actief opvolgen van wijzigingen in wetgeving, normen en jurisprudentie die het beroep raken: het Wetboek van Vennootschappen en Verenigingen, fiscale wetgeving, de, ITAA-normen en CBN-adviezen, alsook EU-richtlijnen en internationale standaarden (ISA, IFRS). Deze monitoring vormt een onderdeel van de zorgvuldigheidsplicht en de professionele bekwaamheidseis.",
+      "verbose": "De accountant volgt actief vaktechnische publicaties, beroepscirculaires, rechtspraak en evolutie in standaarden zodat zijn advies up-to-date blijft. Hij integreert die kennis in zijn werkmethodes en wijst zijn medewerkers en cliënten op relevante wijzigingen.",
       "synoniemen": [
+        "vakliteratuur volgen",
         "actualiteitsmonitoring",
-        "wetgevingsupdates volgen",
-        "professional awareness",
-        "kennis up-to-date houden",
-        "normupdates",
-        "regulatory watch"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 0
-      }
+        "kennisactualisatie",
+        "current awareness",
+        "doctrineopvolging",
+        "professionele alertheid"
+      ]
     },
     {
       "anchor_id": "4.0.D1.3.doel.3",
       "anchor_type": "doelstelling",
       "taakblok": "4.0.D1.3",
       "tekst": "Volgen van de fiscale actualiteit en andere relevante wetgeving en toepassen van wijzigingen in de wetgeving",
-      "verbose": "Het opvolgen van fiscale wijzigingen (WIB 92, BTW-wetboek, programmawetten, circulaires, rulings) en van overige relevante wetgeving (vennootschapsrecht, sociaal recht, antiwitwas) en het tijdig vertalen van die wijzigingen naar de praktijk in cliëntdossiers. Onderdeel van de professionele zorgvuldigheid en bekwaamheidsplicht uit de ITAA-deontologie.",
+      "verbose": "Wijzigingen aan tarieven, regimes, drempels of formaliteiten worden door de accountant tijdig in zijn aangifteprocedures, modellen en cliëntadviezen verwerkt. Hij vertaalt die actualiteit naar concrete impact-analyses voor elke betrokken cliënt en documenteert zijn keuzes in het dossier.",
       "synoniemen": [
-        "fiscale actualiteit",
-        "wetgevingsmonitoring",
+        "fiscale updates",
+        "wetswijzigingen volgen",
+        "fiscal newsletter monitoring",
         "tax updates",
-        "implementatie wetswijzigingen",
-        "fiscale watch",
-        "WIB-wijzigingen volgen"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "implementatie nieuwe wetgeving",
+        "regelgevingsmonitoring",
+        "tax law changes"
+      ]
     },
     {
       "anchor_id": "4.0.D1.3.doel.4",
       "anchor_type": "doelstelling",
       "taakblok": "4.0.D1.3",
       "tekst": "Kennis delen met collega's en (medewerkers) van de klant",
-      "verbose": "Het overdragen van kennis aan kantoormedewerkers en aan de cliëntorganisatie via interne opleidingen, vakliteratuur, casebespreking en mentoring. Deze kennisoverdracht is een vereiste voor een degelijke interne organisatie en kwaliteitsbeheersing van het kantoor en is opgenomen in de ITAA-norm inzake intern kwaliteitsmanagement.",
+      "verbose": "Door interne kennissessies, schriftelijke memo's en mentoring zorgt de accountant ervoor dat zijn team uniform werkt en dat cliëntmedewerkers de gevolgen van fiscale of administratieve keuzes begrijpen. Kennisdeling is ook een instrument om continuïteit en kwaliteit van het kantoor te bewaken.",
       "synoniemen": [
-        "kennisoverdracht",
-        "interne opleidingen",
         "knowledge sharing",
+        "interne kennisoverdracht",
         "mentoring medewerkers",
-        "kantooropleiding",
-        "kwaliteitsbeheersing"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "vakopleiding kantoorpersoneel",
+        "best practices delen",
+        "kennistransfer cliënt"
+      ]
+    },
+    {
+      "anchor_id": "4.0.D2.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "4.0.D2.1",
+      "tekst": "De activiteiten van een team coördineren",
+      "verbose": "De accountant verdeelt opdrachten over zijn team in functie van competentie en ervaring, bewaakt voortgang en kwaliteit, en stuurt bij waar nodig. Coördinatie omvat planning, supervisie, review en feedback zodat elke opdracht binnen tijd en budget afgerond wordt met behoud van de vereiste kwaliteit.",
+      "synoniemen": [
+        "teamcoördinatie",
+        "engagement leadership",
+        "supervisieopdracht",
+        "people management",
+        "operationele aansturing",
+        "kantoor-coördinatie"
+      ]
+    },
+    {
+      "anchor_id": "4.0.D2.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D2.1",
+      "tekst": "Een planning opstellen en naargelang van de omstandigheden aanpassen",
+      "verbose": "Op basis van wettelijke deadlines, beschikbaarheid van medewerkers en complexiteit per dossier maakt de accountant een rolling planning. Wanneer cliëntinformatie laattijdig binnenkomt of nieuwe prioriteiten ontstaan, herschikt hij capaciteit zonder dat kwaliteit of deadlines in het gedrang komen.",
+      "synoniemen": [
+        "capaciteitsplanning",
+        "workload planning",
+        "dossierplanning",
+        "rolling forecast team",
+        "tijdsplanning kantoor",
+        "scheduling opdrachten"
+      ]
+    },
+    {
+      "anchor_id": "4.0.D2.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D2.1",
+      "tekst": "Taken en verantwoordelijkheden verdelen",
+      "verbose": "De accountant wijst per dossier rollen toe (preparer, reviewer, dossierhouder, eindverantwoordelijke) zodat duidelijk is wie wat doet en aftekent. Een heldere RACI vermindert dubbel werk, voorkomt blinde vlekken en is essentieel voor een audittrail in het dossier.",
+      "synoniemen": [
+        "taakverdeling team",
+        "verantwoordelijkheidstoewijzing",
+        "rolverdeling dossier",
+        "RACI-matrix",
+        "delegeren opdrachten",
+        "ownership dossier"
+      ]
+    },
+    {
+      "anchor_id": "4.0.D2.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D2.1",
+      "tekst": "Informeren, begeleiden, leiden en motiveren van (nieuwe) medewerkers",
+      "verbose": "Stagiairs en juniors hebben naast technische instructie ook coaching nodig over deontologische reflexen, dossiervoering en cliëntencommunicatie. De accountant zorgt voor een gestructureerd onthaal, regelmatig overleg en feedbackmomenten, en bewaakt het welzijn en de groei van zijn medewerkers.",
+      "synoniemen": [
+        "onboarding nieuwe medewerker",
+        "coaching juniors",
+        "begeleiding stagiair",
+        "people development",
+        "talent ontwikkeling",
+        "mentorrol"
+      ]
+    },
+    {
+      "anchor_id": "4.0.D2.1.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D2.1",
+      "tekst": "Controleren van de uitvoering van de opdrachten en de naleving van de procedures",
+      "verbose": "Door tweede-paar-ogen-review, kwaliteitschecks en steekproeven verifieert de accountant of de opdrachten effectief volgens de interne procedures en de toepasselijke standaarden zijn uitgevoerd. Afwijkingen worden gedocumenteerd, besproken en gecorrigeerd vóór externe oplevering.",
+      "synoniemen": [
+        "interne kwaliteitsreview",
+        "supervisie en review",
+        "engagement quality control",
+        "compliance monitoring",
+        "tweedelijnscontrole",
+        "naleving van interne procedures"
+      ]
+    },
+    {
+      "anchor_id": "4.0.D2.1.doel.5",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D2.1",
+      "tekst": "Organiseren en leiden van teamvergaderingen",
+      "verbose": "Periodieke teamvergaderingen brengen voortgang van dossiers, kwaliteitsbevindingen, planning en kennisdeling samen. De accountant leidt het overleg met een agenda, bewaakt actiepunten en zorgt dat beslissingen schriftelijk gedocumenteerd worden.",
+      "synoniemen": [
+        "teamoverleg",
+        "kantoorvergadering",
+        "stand-up meeting",
+        "weekoverleg",
+        "operationeel overleg",
+        "engagement meeting"
+      ]
+    },
+    {
+      "anchor_id": "4.0.D2.1.doel.6",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D2.1",
+      "tekst": "Opvolgen van de competenties van de medewerkers",
+      "verbose": "Per medewerker wordt bijgehouden welke vaktechnische, deontologische en digitale vaardigheden aanwezig zijn en welke nog ontwikkeld moeten worden. Op basis daarvan stuurt de accountant opleiding en taakverdeling, en plant hij groeitrajecten naar senior- of partnerrol.",
+      "synoniemen": [
+        "competentiematrix",
+        "skills mapping",
+        "ontwikkelplan medewerker",
+        "talentbeheer",
+        "loopbaanopvolging",
+        "competentiebeheer"
+      ]
+    },
+    {
+      "anchor_id": "4.0.D2.1.doel.7",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D2.1",
+      "tekst": "Voeren van plannings-, functionerings- en evaluatiegesprekken",
+      "verbose": "In gestructureerde gesprekken bespreekt de accountant met elke medewerker doelstellingen, geleverd werk, sterkten en groeipunten. Goede gespreksvoering combineert duidelijke verwachtingen, concrete feedback en gedeelde actie-afspraken die in een persoonlijk dossier worden vastgelegd.",
+      "synoniemen": [
+        "performance review",
+        "evaluatiegesprek",
+        "functioneringsgesprek",
+        "appraisal",
+        "doelstellingengesprek",
+        "feedbackgesprek"
+      ]
+    },
+    {
+      "anchor_id": "4.0.D2.2.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "4.0.D2.2",
+      "tekst": "Zich in zijn kantoor, bij zijn klant of in zijn onderneming ontwikkelen en dit in een digitale wereld",
+      "verbose": "De accountant verwerft inzicht in digitale werkomgevingen, gegevensstromen tussen cliënt en kantoor, samenwerkingsplatformen en cybersecurity. Hij past zijn werkmethodes aan zodat hij in een gedigitaliseerde keten meerwaarde blijft leveren als analist en adviseur.",
+      "synoniemen": [
+        "digitale transformatie kantoor",
+        "digitalisering accountancy",
+        "tech-savviness accountant",
+        "digital workplace",
+        "digitale werkmethodes",
+        "cloud-gebaseerd kantoor"
+      ]
+    },
+    {
+      "anchor_id": "4.0.D2.2.taak.2",
+      "anchor_type": "taak",
+      "taakblok": "4.0.D2.2",
+      "tekst": "Zich in zijn kantoor, bij zijn klant of in zijn onderneming ontwikkelen door geleidelijk kennis te verwerven over bedrijfsstrategie",
+      "verbose": "Naast cijferwerk bouwt de accountant inzicht op in businessmodellen, waardeketens, strategische keuzes en marktdynamiek van zijn cliënten. Die strategische lens versterkt zijn rol als gesprekspartner van de zaakvoerder en helpt hem risico's en opportuniteiten in een breder kader te plaatsen.",
+      "synoniemen": [
+        "bedrijfsstrategie begrijpen",
+        "business acumen",
+        "strategisch inzicht",
+        "klant als business partner",
+        "strategy advisory",
+        "ondernemerschap aanvoelen"
+      ]
+    },
+    {
+      "anchor_id": "4.0.D2.2.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D2.2",
+      "tekst": "Vaardigheden verwerven in gegevensanalyse en informatiesystemen. Naast de basisvaardigheden, waaronder het verzamelen en verifiëren van relevante informatie en het gebruik van passende middelen om relevante informatie te verzamelen of te ontwikkelen, beschikken over specifieke technische vaardigheden. In het kader van de voorgestelde wijzigingen wordt onder meer voorgesteld om het volgende verder uit te werken:",
+      "verbose": "De accountant moet bedrijfsdata kunnen extraheren, opschonen, structureren en interpreteren met courante tools en spreadsheets, en de output vertalen naar zinvolle conclusies voor de cliënt. Naast technische vaardigheid hoort daar kritisch denken bij over gegevenskwaliteit, herkomst en betrouwbaarheid.",
+      "synoniemen": [
+        "data analytics",
+        "gegevensanalyse",
+        "informatiesystemen",
+        "data literacy",
+        "spreadsheetvaardigheid",
+        "ETL-vaardigheden",
+        "auditing data skills"
+      ]
     },
     {
       "anchor_id": "4.0.I.A",
       "anchor_type": "kenniselement",
       "tekst": "Gereglementeerde economische beroepen",
-      "verbose": "De gereglementeerde economische beroepen zijn beroepen waarvoor de toegang en uitoefening wettelijk worden geregeld omwille van het algemeen belang. In België omvat dit de gecertificeerd accountant, gecertificeerd belastingadviseur, bedrijfsrevisor (IBR) en, vóór de fusie van 2019, ook de erkende boekhouder en boekhouder-fiscalist. Toegang vereist een diploma, stage en bekwaamheidsexamen; de uitoefening is onderworpen aan deontologie, tuchtrecht en wettelijk monopolie op bepaalde opdrachten.",
+      "verbose": "In België worden bepaalde beroepen die financieel-economische dienstverlening verstrekken aan derden onderworpen aan toelatingsvereisten, beroepstucht en controle door een instituut. Voor de accountant gaat het om accountants, belastingadviseurs, bedrijfsrevisoren en in zekere mate notarissen en advocaten in hun cijfermatige rol.",
       "synoniemen": [
-        "gereglementeerd beroep",
+        "gereglementeerde cijferberoepen",
         "regulated profession",
-        "wettelijk gereglementeerd beroep",
-        "economische beroepen",
-        "vrij beroep met monopolie",
-        "titelbescherming"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "vrije beroepen accountancy",
+        "professional regulation",
+        "beroepsorganisatie",
+        "monopolieberoepen"
+      ]
     },
     {
       "anchor_id": "4.0.I.B",
       "anchor_type": "kenniselement",
       "tekst": "Bronnen van juridische en beroepsnormen met betrekking tot de gereglementeerde economische beroepen",
-      "verbose": "De rechtsbronnen die de gecertificeerd accountant en belastingadviseur beheersen omvatten: Belgische wetgeving (, ), uitvoeringsbesluiten, EU-richtlijnen (onder meer 2015/849 en 2018/843 inzake antiwitwas), ITAA-normen en deontologisch reglement, CBN-adviezen, internationale standaarden (ISA, ISAE, ISRS) en de tuchtrechtspraak. Samen vormen zij het normatief kader waaraan de beroepsuitoefening getoetst wordt.",
+      "verbose": "De plichten van de accountant komen uit een gelaagde rechtsbron: parlementaire wetten, koninklijke besluiten, deontologische reglementen, beroepsnormen, internationale standaarden en de bindende rechtspraak van tuchtorganen. Het correct rangschikken van die bronnen helpt om bij conflicten te bepalen welke bepaling voorrang heeft.",
       "synoniemen": [
-        "rechtsbronnen accountantsberoep",
-        "normhiërarchie",
-        "ITAA-normen",
-        "deontologisch reglement",
-        "wettelijk kader beroep",
-        "regelgevingskader"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 1
-      }
+        "rechtsbronnen accountancy",
+        "hiërarchie van normen",
+        "regelgevende kaders",
+        "deontologische bronnen",
+        "soft law en hard law beroep",
+        "professionele standaarden"
+      ]
     },
     {
       "anchor_id": "4.0.I.C",
       "anchor_type": "kenniselement",
       "tekst": "Organisatie van de uitoefening van de activiteiten van gecertificeerd belastingadviseur en van gecertificeerd accountant op basis van de wet van 17 maart 2019",
-      "verbose": "De betreffende de beroepen van accountant en belastingadviseur regelt de organisatie van het beroep: titels, monopolie-opdrachten, vormen van uitoefening (natuurlijke persoon, vennootschap), onverenigbaarheden, toegang, stage en permanente vorming. Zij vervangt de oude wetten van 1953 en 1999 en heeft het IAB en BIBF gefuseerd tot het ITAA.",
+      "verbose": "Het wettelijk kader dat in 2019 het beroep hervormde, bracht de accountants en belastingadviseurs onder in één instituut en harmoniseerde toegang, opdrachtenpalet, onverenigbaarheden en tucht. Het onderscheidt 'gecertificeerde' titels (volledige bevoegdheid) van fiscale adviseurs zonder cijferopdrachten.",
       "synoniemen": [
-        "wet 17 maart 2019",
-        "organisatie accountantsberoep",
-        "wettelijke organisatie ITAA",
-        "fusie IAB-BIBF",
-        "beroepsorganisatie accountants"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 1
-      }
+        "ITAA-statuut",
+        "organisatie beroep accountant",
+        "wettelijk kader cijferberoep",
+        "fusie IBR-BIBF context",
+        "beroepsorganisatie ITAA",
+        "professional framework"
+      ]
     },
     {
       "anchor_id": "4.0.I.C.1",
       "anchor_type": "kenniselement",
       "tekst": "Specifieke wettelijke en reglementaire bepalingen",
-      "verbose": "De specifieke wetgeving voor het ITAA-beroep omvat de met haar uitvoeringsbesluiten (KB's inzake stage, examen, deontologie, kwaliteitstoetsing) alsook de door de Raad van het ITAA vastgestelde normen en het deontologisch reglement. Deze bepalingen vormen samen het lex specialis dat de algemene regels van het ondernemingsrecht aanvult.",
+      "verbose": "Naast het hoofdkader van de beroepsregelgeving gelden uitvoeringsbesluiten en interne reglementen die concrete plichten invullen rond stage, vorming, verzekering en kwaliteitscontrole. Die laag van detailregels bepaalt vaak de praktische aanpak in een kantoor.",
       "synoniemen": [
-        "wettelijke bepalingen ITAA",
-        "ITAA-reglementen",
-        "specifieke regelgeving accountant",
-        "lex specialis"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 1
-      }
+        "uitvoeringsbesluiten",
+        "interne reglementen ITAA",
+        "specifieke beroepsregels",
+        "regulatory provisions",
+        "praktijkrichtlijnen",
+        "secundaire wetgeving"
+      ]
     },
     {
       "anchor_id": "4.0.I.C.2",
       "anchor_type": "kenniselement",
       "tekst": "Het Instituut van de Belastingadviseurs en de Accountants (IBA)",
-      "verbose": "Het Instituut van de Belastingadviseurs en de Accountants — beter bekend als het ITAA (Institute for Tax Advisors and Accountants) — is een publiekrechtelijke beroepsorganisatie opgericht door de door fusie van het IAB en het BIBF. Het ITAA staat in voor het bijhouden van het ledenregister, de stage, de bekwaamheidsexamens, de permanente vorming, de kwaliteitstoetsing, de tuchtprocedure en de uitvaardiging van normen en deontologische regels.",
+      "verbose": "Het instituut is de publieke instelling die het beroep vertegenwoordigt, het tableau van de leden bijhoudt, kwaliteitscontroles organiseert, vorming superviseert en tuchtuitspraken faciliteert. Het is tegelijk belangenbehartiger en toezichthouder, met daarbij behorende governance-organen.",
       "synoniemen": [
-        "ITAA",
-        "Institute for Tax Advisors and Accountants",
-        "IBA",
+        "ITAA-instituut",
         "beroepsinstituut accountants",
-        "IAB-BIBF-fusie",
-        "publiekrechtelijke beroepsorganisatie"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 0
-      }
+        "Institut des conseils fiscaux et des experts-comptables",
+        "Raad van het Instituut",
+        "Stagecommissie",
+        "self-regulatory body"
+      ]
     },
     {
       "anchor_id": "4.0.I.C.3",
       "anchor_type": "kenniselement",
       "tekst": "Opdrachten en activiteiten",
-      "verbose": "De gecertificeerd accountant heeft een wettelijk monopolie op een aantal opdrachten zoals omschreven oekhoudingen voor derden, het opstellen en analyseren van jaarrekeningen, fiscale aangiften en bijstand bij fiscale procedures (gedeelde bevoegdheid met de gecertificeerd belastingadviseur). Daarnaast verricht hij niet-monopolie-opdrachten zoals advies, due diligence en interne controle.",
+      "verbose": "De wet bepaalt welke opdrachten exclusief, gemonopoliseerd of gewoon gereglementeerd zijn, gaande van het houden van boekhouding voor derden, het opmaken van jaarrekeningen, fiscale advisering, tot bijzondere opdrachten in het ondernemingsrecht. Sommige opdrachten zijn voorbehouden aan de gecertificeerde accountant of bedrijfsrevisor.",
       "synoniemen": [
-        "wettelijk monopolie accountant",
+        "opdrachtenpalet",
+        "gemonopoliseerde opdrachten",
+        "exclusieve activiteiten",
+        "scope of practice",
         "voorbehouden opdrachten",
-        "monopolie-opdrachten ITAA",
-        "boekhoudkundige opdrachten",
-        "fiscale opdrachten"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 1
-      }
+        "professionele opdrachten"
+      ]
     },
     {
       "anchor_id": "4.0.I.C.4",
       "anchor_type": "kenniselement",
       "tekst": "Vormen van uitoefening van activiteiten",
-      "verbose": "De gecertificeerd accountant kan zijn beroep uitoefenen als natuurlijk persoon of via een door het ITAA erkende vennootschap. De en het uitvoeringsbesluit leggen voorwaarden op aan de erkende vennootschap: meerderheid van stemrechten en kapitaal in handen van ITAA-leden of confraters uit gelijkaardige beroepen, beperkingen op nevenactiviteiten, verplichte beroepsaansprakelijkheidsverzekering en respect voor onverenigbaarheden.",
+      "verbose": "De accountant kan zelfstandig in eigen naam, in een vennootschap (eenpersoons of meerpersoons) of in dienstverband bij een ander kantoor of in de privésector werken. Elke vorm heeft eigen regels rond aansprakelijkheid, vermelding op het tableau en compatibiliteit met andere activiteiten.",
       "synoniemen": [
-        "uitoefening als vennootschap",
-        "erkende beroepsvennootschap",
-        "professionele vennootschap",
-        "vorm van beroepsuitoefening",
-        "rechtsvorm uitoefening",
-        "samenwerkingsverband accountants"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 0
-      }
+        "uitoefeningsvormen",
+        "professionele vennootschap accountant",
+        "zelfstandig versus loondienst",
+        "bedrijfsaccountant",
+        "kantoorvennootschap",
+        "praktijkstructuren"
+      ]
     },
     {
       "anchor_id": "4.0.I.C.5",
       "anchor_type": "kenniselement",
       "tekst": "Onverenigbaarheden",
-      "verbose": "De en het deontologisch reglement bepalen welke activiteiten onverenigbaar zijn met de hoedanigheid van gecertificeerd accountant of belastingadviseur, om de onafhankelijkheid en waardigheid van het beroep te vrijwaren. Onverenigbaar zijn onder meer: handelsactiviteiten, mandaten als bestuurder van een handelsvennootschap waar de accountant ook de boekhouding voert, en activiteiten die strijdig zijn met de objectiviteit. Bepaalde onverenigbaarheden zijn absoluut, andere relatief (mits voorafgaande toelating van het ITAA).",
+      "verbose": "Bepaalde activiteiten of functies kunnen niet worden gecombineerd met de uitoefening van het beroep omdat ze de onafhankelijkheid, objectiviteit of waardigheid in gevaar brengen, zoals handelsactiviteiten, bezoldigde mandaten of bestuursfuncties bij cliënten. Een toelating door het instituut kan in sommige gevallen uitkomst bieden.",
       "synoniemen": [
-        "onverenigbaarheden accountant",
-        "incompatibilities",
-        "verboden nevenactiviteiten",
-        "absolute onverenigbaarheid",
-        "relatieve onverenigbaarheid",
-        "toelating ITAA nevenactiviteit"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 0
-      }
+        "incompatibilités",
+        "onverenigbare beroepen",
+        "incompatibility rules",
+        "verbod cumulatie functies",
+        "restricted activities",
+        "professionele incompatibiliteit"
+      ]
     },
     {
       "anchor_id": "4.0.I.C.6",
       "anchor_type": "kenniselement",
       "tekst": "Toegang tot de hoedanigheid van gecertificeerd belastingadviseur en van gecertificeerd accountant",
-      "verbose": "De toegang tot de titels van gecertificeerd accountant en gecertificeerd belastingadviseur vereist een masterdiploma of gelijkgesteld, het volgen van een driejarige stage onder een stagemeester-ITAA-lid, het slagen voor het toelatingsexamen, het bekwaamheidsexamen en de eedaflegging. De voorwaarden zijn vastgelegd in de en het Stage-uitvoeringsbesluit; de procedure wordt beheerd door de Stagecommissie van het ITAA.",
+      "verbose": "Wie de titel wil dragen, doorloopt een diplomavereiste, een toegangsexamen, een professionele stage en een bekwaamheidsexamen. Daarna volgt inschrijving op het tableau en het opnemen van permanente verplichtingen rond verzekering, vorming en tucht.",
       "synoniemen": [
-        "toegang tot het beroep",
-        "stage ITAA",
+        "toelating tot het beroep",
+        "stagereglement",
         "bekwaamheidsexamen",
-        "toelatingsexamen",
-        "diplomavereisten accountant",
-        "eedaflegging accountant",
-        "stagiair-accountant"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 0
-      }
+        "toegangsvoorwaarden ITAA",
+        "professional admission",
+        "tableau-inschrijving"
+      ]
     },
     {
       "anchor_id": "4.0.I.C.7",
       "anchor_type": "kenniselement",
       "tekst": "Permanente beroepsopleiding",
-      "verbose": "De permanente beroepsopleiding is een wettelijke verplichting voor elk ITAA-lid, geregeld door de norm inzake permanente vorming. Leden moeten jaarlijks een minimumaantal uren effectieve vorming volgen, evenwichtig verspreid over de kerndomeinen van het beroep (boekhouding, fiscaliteit, recht, deontologie, antiwitwas, audit). De vormingsuren worden geregistreerd in een persoonlijk vormingsdossier; niet-naleving leidt tot tuchtsancties.",
+      "verbose": "Eens lid blijft de accountant verplicht om jaarlijks vorming te volgen die door het instituut wordt erkend, met een minimum aantal uren over relevante materies. De gevolgde uren worden gerapporteerd en kunnen het voorwerp uitmaken van controle.",
       "synoniemen": [
-        "permanente vorming",
-        "norm permanente vorming ITAA",
-        "CPD",
-        "vormingsverplichting",
-        "continue professionele ontwikkeling",
-        "vormingsuren accountant"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "verplichte permanente vorming",
+        "CPD-vereisten",
+        "continuing professional development",
+        "vormingscredits",
+        "opleidingsverplichting accountant",
+        "ITAA-vorming"
+      ]
     },
     {
       "anchor_id": "4.0.I.D",
       "anchor_type": "kenniselement",
       "tekst": "Juridische en beroepsnormen",
-      "verbose": "De juridische en beroepsnormen omvatten het geheel van regels die het gedrag van de gecertificeerd accountant en belastingadviseur sturen: de fundamentele beroepsbeginselen (integriteit, objectiviteit, onafhankelijkheid, vertrouwelijkheid, professioneel gedrag, bekwaamheid en zorgvuldigheid), de specifieke regels rond cliëntrelaties, confraternele betrekkingen, antiwitwas, beroepsgeheim, aansprakelijkheid en tuchtrecht. De handhaving gebeurt via tuchtprocedure en kwaliteitstoetsing van het ITAA.",
+      "verbose": "Het normatieve kader voor de accountant bestaat uit een geheel van fundamentele beginselen, gedragsregels en specifieke standaarden voor opdrachtuitvoering. Samen vormen zij het 'normatief raamwerk' dat zijn dagelijks handelen toetst.",
       "synoniemen": [
-        "beroepsnormen ITAA",
-        "deontologisch reglement",
+        "normatief kader accountant",
+        "beroepsnormen",
+        "ethische standaarden",
         "professional standards",
-        "ethische normen accountant",
-        "ITAA-deontologie",
-        "code of ethics"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "deontologische code",
+        "regelkader"
+      ]
     },
     {
       "anchor_id": "4.0.I.D.1",
       "anchor_type": "kenniselement",
       "tekst": "Basisprincipes",
-      "verbose": "De fundamentele beroepsbeginselen, onder de juridische en beroepsnormen die op de gecertificeerd accountant rusten, zijn afgeleid van de IFAC Code of Ethics en omvatten: integriteit (eerlijk en oprecht handelen), objectiviteit (geen vooringenomenheid of ongepaste invloed), professionele bekwaamheid en zorgvuldigheid, vertrouwelijkheid (beroepsgeheim) en professioneel gedrag (naleving van wet en reglementering). Deze beginselen zijn verankerd in de en het deontologisch reglement.",
+      "verbose": "De vijf fundamentele beginselen van het beroep zijn integriteit, objectiviteit, professionele bekwaamheid en zorgvuldigheid, vertrouwelijkheid en professioneel gedrag. Elk concreet probleem in de praktijk wordt eerst getoetst aan deze beginselen via de identificatie van bedreigingen en het nemen van waarborgen.",
       "synoniemen": [
-        "fundamentele beroepsbeginselen",
-        "deontologische basisprincipes",
-        "integriteit",
-        "objectiviteit",
-        "vertrouwelijkheid",
-        "professioneel gedrag",
-        "IFAC-beginselen"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 0
-      }
+        "fundamentele beginselen",
+        "fundamental principles",
+        "vijf ethische beginselen",
+        "integriteit objectiviteit vertrouwelijkheid",
+        "ethisch raamwerk",
+        "core ethics principles"
+      ]
     },
     {
       "anchor_id": "4.0.I.D.2",
       "anchor_type": "kenniselement",
       "tekst": "Onafhankelijkheid",
-      "verbose": "Het onafhankelijkheidsbeginsel, een onderdeel van de juridische en beroepsnormen, vereist dat de gecertificeerd accountant zijn opdracht uitvoert zonder belangenconflict of ongepaste beïnvloeding, zowel in feite (onafhankelijkheid in mind) als in schijn (onafhankelijkheid in appearance). Bedreigingen omvatten zelftoetsings-, eigenbelang-, vertrouwdheids-, belangenbehartigings- en intimidatie-bedreigingen. De accountant moet voorzorgsmaatregelen treffen of de opdracht weigeren wanneer de bedreigingen niet kunnen worden weggenomen.",
+      "verbose": "Onafhankelijkheid betekent dat de accountant in zijn oordeelsvorming niet gestuurd wordt door een eigen belang, een familiale band, intimidatie of zelftoetsing. Naast feitelijke onafhankelijkheid telt ook hoe een geïnformeerde derde de situatie zou inschatten ('schijn van onafhankelijkheid').",
       "synoniemen": [
-        "onafhankelijkheid accountant",
-        "independence",
-        "belangenconflict",
-        "conflict of interest",
-        "objectiviteit",
+        "onafhankelijkheid in feiten en in schijn",
+        "independence in fact and appearance",
+        "professional independence",
+        "bedreigingen voor onafhankelijkheid",
         "self-review threat",
-        "voorzorgsmaatregelen onafhankelijkheid"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "vrijheid van oordeel"
+      ]
     },
     {
       "anchor_id": "4.0.I.D.3",
       "anchor_type": "kenniselement",
       "tekst": "Relaties met cliënten",
-      "verbose": "De relaties met cliënten, een onderdeel van de juridische en beroepsnormen, worden geregeld door de regels inzake cliëntacceptatie, opdrachtbrief, ereloon, beëindiging van de opdracht en beheer van belangenconflicten. Elke nieuwe opdracht vereist een schriftelijke opdrachtbrief die de draagwijdte, de aansprakelijkheid en de financiële voorwaarden vastlegt. Beëindiging gebeurt overeenkomstig de deontologische regels (vooropzeg, overdracht van werkdocumenten).",
+      "verbose": "De relatie met een cliënt vereist heldere afspraken over opdracht, honoraria, eigendom van werkdocumenten, retentie en beëindiging. Daarnaast bewaakt de accountant zijn eigen objectiviteit door geschenken, financiële belangen en familiebanden te beoordelen op hun bedreigend karakter.",
       "synoniemen": [
-        "cliëntrelatie",
-        "opdrachtbrief",
-        "letter of engagement",
-        "cliëntacceptatie",
-        "beëindiging opdracht",
-        "ereloonregeling",
-        "belangenconflict cliënt"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "client relationship",
+        "opdrachtbrief en honoraria",
+        "afspraken met cliënt",
+        "engagement terms",
+        "geschillen met cliënt",
+        "retentierecht"
+      ]
     },
     {
       "anchor_id": "4.0.I.D.4",
       "anchor_type": "kenniselement",
       "tekst": "Relaties met confraters",
-      "verbose": "De confraternele betrekkingen, een onderdeel van de juridische en beroepsnormen, vereisen wederzijds respect, loyaliteit en collegialiteit tussen ITAA-leden. Bij opdrachtovername is de overnemer verplicht voorafgaand de voorganger schriftelijk te verwittigen en kennis te nemen van eventuele bezwaren; openstaande erelonen worden ter sprake gebracht. Reclame en cliëntwerving moeten waardig en niet-misleidend zijn.",
+      "verbose": "Bij overname van een dossier neemt de accountant contact met de voorganger om eventuele beletselen te kennen. In de ruimere collegialiteit getuigt hij van loyale concurrentie, eerlijke vermelding van afkomst van werk en respect voor de waardigheid van het beroep.",
       "synoniemen": [
-        "confraterniteit",
-        "relaties met confraters",
-        "opdrachtovername",
-        "kennisgeving voorganger",
-        "collegialiteit accountants",
+        "confraternele plichten",
+        "overname dossier",
         "professional courtesy",
-        "afwerving cliënten"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "collegialiteit",
+        "predecessor accountant",
+        "interconfraternele communicatie"
+      ]
     },
     {
       "anchor_id": "4.0.I.D.5",
       "anchor_type": "kenniselement",
       "tekst": "Relaties met het ITAA",
-      "verbose": "De relaties met het ITAA, een onderdeel van de juridische en beroepsnormen, omvatten de rapporterings- en samenwerkingsverplichtingen van het lid tegenover zijn beroepsorganisatie: betaling van bijdragen, registratie van vormingsuren, medewerking aan de kwaliteitstoetsing, beantwoording van vragen van de Raad of de Tuchtcommissie. Niet-naleving leidt tot tuchtsancties gaande van waarschuwing tot schrapping.",
+      "verbose": "Tegenover zijn instituut heeft de accountant verplichtingen rond bijdragen, registratie van wijzigingen, medewerking aan kwaliteitscontrole en tuchtonderzoek, en het verstrekken van rapporteringen. Het instituut biedt op zijn beurt ondersteuning, vorming en bemiddeling.",
       "synoniemen": [
-        "relatie met ITAA",
-        "kwaliteitstoetsing",
-        "quality review",
-        "medewerking ITAA",
-        "tuchtprocedure ITAA",
-        "rapporteringsverplichtingen lid"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "verplichtingen tegenover ITAA",
+        "kwaliteitscontrole ITAA",
+        "rapporteringsplicht aan instituut",
+        "samenwerking met toezichthouder",
+        "bijdragen aan instituut",
+        "medewerking aan controle"
+      ]
     },
     {
       "anchor_id": "4.0.I.D.6",
       "anchor_type": "kenniselement",
       "tekst": "Relaties met derden (met inbegrip van de verplichtingen die voortvloeien uit het preventieve luik van de wetgeving inzake de voorkoming van het witwassen van geld en de financiering van terrorisme en inzake de beperking van het gebruik van contanten)",
-      "verbose": "De relaties met derden, een onderdeel van de juridische en beroepsnormen, omvatten de verplichtingen uit de die de gecertificeerd accountant als onderworpen entiteit aanwijst. Concrete verplichtingen: cliëntenonderzoek (identificatie en verificatie van cliënt en uiteindelijke begunstigde — UBO), risicogebaseerde benadering, verscherpte waakzaamheid bij politiek prominente personen (PEP), aanstelling van een antiwitwasverantwoordelijke (AMLCO), interne organisatie- en controleprocedures, algemene risicobeoordeling op kantoorniveau, meldingsplicht aan de Cel voor Financiële Informatieverwerking (CFI), tipping-off-verbod, bewaarplicht van zeven of tien jaar en respect voor de beperking van het gebruik van contanten (drempel 3.000 EUR conform de wet).",
+      "verbose": "Tegenover banken, fiscus, sociale zekerheid, justitie en de antiwitwas-meldingsinstantie geldt een gedifferentieerd regime van zwijgen, mogen spreken en moeten melden. Specifiek voor witwaspreventie en het gebruik van contanten bestaan striktere verplichtingen rond identificatie, monitoring en melding van verdachte verrichtingen.",
       "synoniemen": [
+        "third party relationships",
         "antiwitwasverplichtingen",
-        "AML obligations",
-        "cliëntenonderzoek KYC",
-        "UBO-identificatie",
-        "meldingsplicht CFI",
-        "tipping-off",
-        "risicogebaseerde benadering",
-        "AMLCO",
-        "beperking contanten",
-        "verscherpte waakzaamheid PEP",
-        "bewaarplicht antiwitwas"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 0
-      }
+        "AML/CFT verplichtingen",
+        "contantenbeperking",
+        "meldingsplicht witwassen",
+        "preventief AML-luik",
+        "cash limit"
+      ]
     },
     {
       "anchor_id": "4.0.I.D.7",
       "anchor_type": "kenniselement",
       "tekst": "Beroepsgeheim en professionele discretieplicht",
-      "verbose": "Het beroepsgeheim, een onderdeel van de juridische en beroepsnormen, is voor de gecertificeerd accountant; schending is strafrechtelijk gesanctioneerd. Het beslaat alle vertrouwelijke informatie verkregen in het kader van de opdracht. De wet voorziet uitdrukkelijke uitzonderingen: meldingen aan de CFI in het kader van de antiwitwaswetgeving, getuigenis voor de rechter, mededeling aan tuchtorganen van het ITAA, fiscale aangifteplicht in eigen naam en wettelijk verplichte mededeling aan de gerechtelijke overheden. Naast het beroepsgeheim sensu stricto geldt een ruimere discretieplicht voor niet-geheime maar vertrouwelijke gegevens.",
+      "verbose": "De accountant is in bepaalde wettelijk omschreven hoedanigheden gehouden tot een strafrechtelijk gesanctioneerd beroepsgeheim, terwijl hij in andere opdrachten enkel een burgerlijke discretieplicht heeft. Het onderscheid bepaalt aan wie hij wat mag of moet zeggen, ook bij gerechtelijke onderzoeken en fiscale vragen.",
       "synoniemen": [
         "beroepsgeheim accountant",
+        "secret professionnel",
         "professional secrecy",
-        "discretieplicht",
-        "uitzonderingen beroepsgeheim",
-        "tipping-off-verbod",
-        "geheimhoudingsplicht ITAA"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 2
-      }
+        "discretieplicht versus beroepsgeheim",
+        "vertrouwelijkheidsplicht",
+        "professional confidentiality",
+        "geheimhouding"
+      ]
     },
     {
       "anchor_id": "4.0.I.D.8",
       "anchor_type": "kenniselement",
       "tekst": "Aansprakelijkheid",
-      "verbose": "De beroepsaansprakelijkheid, een onderdeel van de juridische en beroepsnormen, omvat de contractuele aansprakelijkheid jegens de cliënt en de buitencontractuele aansprakelijkheid jegens derden. De draagwijdte wordt afgebakend in de opdrachtbrief; een beroepsaansprakelijkheidsverzekering is wettelijk verplicht voor erkende beroepsvennootschappen onder de. Strafrechtelijke en tuchtrechtelijke aansprakelijkheid vormen aparte sporen.",
+      "verbose": "De accountant kan burgerlijk aansprakelijk zijn voor schade door fouten in opdrachtuitvoering, strafrechtelijk voor specifieke misdrijven (waaronder schending van het beroepsgeheim) en tuchtrechtelijk voor inbreuken op de deontologie. Een verplichte beroepsaansprakelijkheidsverzekering dekt het burgerrechtelijke luik.",
       "synoniemen": [
-        "beroepsaansprakelijkheid",
+        "burgerlijke aansprakelijkheid",
+        "tuchtrechtelijke aansprakelijkheid",
+        "strafrechtelijke aansprakelijkheid",
         "professional liability",
-        "contractuele aansprakelijkheid",
-        "buitencontractuele aansprakelijkheid",
         "BA-verzekering accountant",
-        "beroepsaansprakelijkheidsverzekering",
-        "schadevergoeding cliënt"
-      ],
-      "_clean_meta": {
-        "verbose_changed": true,
-        "syns_dropped": 0
-      }
+        "beroepsaansprakelijkheid",
+        "civil liability"
+      ]
     },
     {
       "anchor_id": "4.0.I.D.9",
       "anchor_type": "kenniselement",
       "tekst": "Toezicht en beroepstucht",
-      "verbose": "Het toezicht en de beroepstucht, een onderdeel van de juridische en beroepsnormen, worden uitgeoefend door het ITAA via twee sporen: de kwaliteitstoetsing (peer review op de naleving van normen door het kantoor) en de tuchtprocedure (Tuchtcommissie en Commissie van Beroep). Tuchtsancties variëren van waarschuwing en berisping tot schorsing en schrapping; tegen tuchtbeslissingen staat cassatieberoep open bij het Hof van Cassatie. Inbreuken kunnen ook strafrechtelijk worden vervolgd.",
+      "verbose": "Naleving van de beroepsregels wordt afgedwongen door kwaliteitscontroles op kantoorniveau en tuchtcommissies die individuele klachten behandelen. De tuchtprocedure kent eigen rechten van verdediging, sanctiegamma's gaande van waarschuwing tot schrapping, en hoger beroep.",
       "synoniemen": [
         "beroepstucht",
-        "tuchtprocedure ITAA",
-        "kwaliteitstoetsing",
-        "quality review",
-        "tuchtsancties",
-        "Tuchtcommissie",
-        "Commissie van Beroep",
-        "schrapping ledenregister",
-        "peer review"
-      ],
-      "_clean_meta": {
-        "verbose_changed": false,
-        "syns_dropped": 0
-      }
+        "tuchtprocedure",
+        "disciplinary action",
+        "kwaliteitstoezicht",
+        "tuchtcommissie",
+        "professional oversight",
+        "tuchtsancties"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.A",
+      "anchor_type": "kenniselement",
+      "tekst": "FINANCIËLE INFORMATIE: Behoeften en systemen",
+      "verbose": "Cliënten en stakeholders hebben uiteenlopende behoeften aan financiële informatie: jaarrekening voor publicatie, fiscale aangifte voor de overheid, managementrapportering voor sturing, kasplanning voor liquiditeit. De accountant beoordeelt of de bestaande systemen die behoeften betrouwbaar en tijdig invullen.",
+      "synoniemen": [
+        "informatiebehoeften financieel",
+        "financial information systems",
+        "financial reporting needs",
+        "rapporteringsbehoeften",
+        "boekhoudsystemen",
+        "financiële informatiestromen"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.A.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Evalueren van informatiesystemen, gegevensvereisten en bedrijfsprocessen voor het produceren van betrouwbare financiële informatie",
+      "verbose": "Door de keten van bron-document tot rapport te volgen identificeert de accountant zwakke punten in invoer, verwerking, autorisatie en rapportering. Hij beoordeelt of interne controles, gegevenskwaliteit en systeemfunctionaliteiten voldoen voor betrouwbare financiële cijfers.",
+      "synoniemen": [
+        "systeemevaluatie",
+        "process walkthrough",
+        "data quality assessment",
+        "information system assessment",
+        "betrouwbaarheid boekhoudsysteem",
+        "controle van gegevensstromen"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Uitleggen van de implicaties van huidige trends, nieuwe problemen en opkomende technologieën in de financiële verslaglegging",
+      "verbose": "Trends zoals duurzaamheidsrapportering, cloudboekhouding, e-invoicing, real-time rapportering en artificiële intelligentie hertekenen de manier waarop financiële cijfers tot stand komen en gecommuniceerd worden. De accountant kan die evoluties duiden voor zijn cliënt en de impact op processen en compliance vertalen.",
+      "synoniemen": [
+        "ESG-rapportering",
+        "duurzaamheidsverslaggeving",
+        "e-invoicing impact",
+        "AI in financial reporting",
+        "real-time accounting",
+        "emerging technologies finance"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.B",
+      "anchor_type": "kenniselement",
+      "tekst": "STRATEGIE EN BESTUUR",
+      "verbose": "Het strategie- en bestuursdomein gaat over hoe een onderneming haar doelen formuleert, risico's beheerst en zich organiseert om verantwoording af te leggen aan haar belanghebbenden. De accountant levert daarbij financiële inzichten en bewaakt de governance van de cijferketen.",
+      "synoniemen": [
+        "corporate governance",
+        "strategie en bestuur",
+        "ondernemingsbestuur",
+        "strategy and governance",
+        "deugdelijk bestuur",
+        "leiderschap en strategie"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Uitvoeren van de strategie — Analyseren van belangrijke bedrijfsuitdagingen, waaronder het gebruik van informatieactiva, en de afstemming daarvan op de strategie",
+      "verbose": "Bij strategie-uitvoering kijkt de accountant naar hoe data, informatiesystemen en financiële architecturen de strategische ambities ondersteunen of afremmen. Hij identificeert bottlenecks en pleit voor investeringen die strategische doelstellingen vertalen in operationele KPI's.",
+      "synoniemen": [
+        "strategy execution",
+        "strategische uitvoering",
+        "informatieactiva als strategisch middel",
+        "strategy-data alignment",
+        "uitvoering bedrijfsstrategie",
+        "operationaliseren van strategie"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Beheer van ondernemingsrisico's — Evalueren van de impact van risico's op het gebied van informatietechnologie en informatiesystemen op het ondernemingsrisico en passende risicobeheersingsstrategieën aanbevelen",
+      "verbose": "IT-risico's zoals cyberaanvallen, dataverlies, foutieve data-integratie of falen van leveranciers hebben directe impact op de continuïteit en de financiële betrouwbaarheid van een onderneming. De accountant evalueert die risico's, plaatst ze in een risicomatrix en beveelt beheersmaatregelen aan zoals back-up, segregatie van taken en verzekeringen.",
+      "synoniemen": [
+        "enterprise risk management",
+        "IT-risicobeheer",
+        "cyberrisico",
+        "operationeel risico",
+        "ERM",
+        "risicobeheersingsstrategie",
+        "IT risk assessment"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.C",
+      "anchor_type": "kenniselement",
+      "tekst": "MANAGEMENT ACCOUNTING",
+      "verbose": "Management accounting verschaft de leiding van een onderneming relevante interne cijferinformatie voor planning, beslissing en bijsturing. Het overstijgt de externe verslaggeving en focust op kostprijscalculatie, budgettering, prestatie-indicatoren en investeringsbeslissingen.",
+      "synoniemen": [
+        "controlling",
+        "managementboekhouding",
+        "interne rapportering",
+        "kostprijsanalyse",
+        "managerial accounting",
+        "managementinformatie"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.C.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Behoeften aan managementinformatie en managementinformatiesystemen",
+      "verbose": "De leiding heeft tijdige, relevante en gestructureerde informatie nodig om operationele en strategische beslissingen te onderbouwen. De accountant analyseert welke indicatoren ertoe doen, welke systemen ze aanleveren en hoe rapporten gepresenteerd worden.",
+      "synoniemen": [
+        "MIS",
+        "management information system",
+        "stuurinformatie",
+        "managementdashboards",
+        "rapporteringsbehoeften management",
+        "decision support systems"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.C.1.a",
+      "anchor_type": "kenniselement",
+      "tekst": "Documenteren en beoordelen van bedrijfsproces-, systeem- en gegevensvereisten",
+      "verbose": "Door processen in flowdiagrammen vast te leggen en de bijbehorende systemen en datavelden te beschrijven, ontstaat een dossier waarin de accountant kan beoordelen waar controles ontbreken of overlappen. Die documentatie is de basis voor proces- en systeemverbetering.",
+      "synoniemen": [
+        "procesdocumentatie",
+        "process mapping",
+        "data requirements analysis",
+        "business process documentation",
+        "vereisten analyse",
+        "system requirements"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.C.1.b",
+      "anchor_type": "kenniselement",
+      "tekst": "Aanbevelingen doen voor verbeteringen van analyse- en informatiesystemen om aan de informatiebehoeften te voldoen",
+      "verbose": "Op basis van de gap-analyse tussen huidige output en gewenste managementinformatie formuleert de accountant verbetervoorstellen, gaande van extra dimensies in de boekhouding tot integratie van data uit externe bronnen of vervanging van het ERP. Hij houdt rekening met kosten, risico en haalbaarheid.",
+      "synoniemen": [
+        "system improvement recommendations",
+        "verbetervoorstellen rapportering",
+        "ERP-advies",
+        "BI-aanbevelingen",
+        "systems advisory",
+        "gap-analyse rapportering"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.C.1.c",
+      "anchor_type": "kenniselement",
+      "tekst": "Vaststellen van de ethische kwesties en privacykwesties in verband met informatietechnologie en het gebruik ervan",
+      "verbose": "Bij elk informatica-project rijzen vragen over wie welke gegevens mag inzien, hoe lang ze bewaard worden, of personeelsmonitoring proportioneel is en of artificiële intelligentie tot discriminatie kan leiden. De accountant signaleert die ethische en privacy-aspecten vroeg in het traject zodat ze deel uitmaken van de beslissing.",
+      "synoniemen": [
+        "data privacy",
+        "GDPR-aspecten",
+        "AVG-conformiteit",
+        "IT-ethiek",
+        "ethische kwesties IT",
+        "privacy by design",
+        "verwerking persoonsgegevens"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.C.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Planning, budgettering en prognoses",
+      "verbose": "Een budget vertaalt strategie in cijfers per kwartaal en per kostenplaats; een prognose actualiseert die cijfers naargelang de werkelijkheid evolueert. De accountant ondersteunt het opmaakproces, daagt aannames uit en levert variantieanalyses tegen actuals.",
+      "synoniemen": [
+        "budgettering",
+        "forecasting",
+        "rolling forecast",
+        "begrotingsproces",
+        "financial planning",
+        "prognose-opmaak",
+        "variantieanalyse"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.C.2.a",
+      "anchor_type": "kenniselement",
+      "tekst": "Ontwikkelen of evalueren van gegevens en informatie-elementen voor de voorbereiding van bedrijfsplannen, budgetten en prognoses",
+      "verbose": "Voor een geloofwaardig businessplan worden historische cijfers gecombineerd met markt- en sectorgegevens, kostenfactoren en aannames over volume en prijs. De accountant verzamelt en valideert die input en bouwt een rekenmodel waarmee scenario's getest kunnen worden.",
+      "synoniemen": [
+        "businessplan financieel",
+        "budgetinput",
+        "scenario-analyse",
+        "data voor financiële planning",
+        "modelvalidatie budget",
+        "financial modelling"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.D",
+      "anchor_type": "kenniselement",
+      "tekst": "AUDIT EN CERTIFICERING",
+      "verbose": "Audit en certificering verschaffen een onafhankelijke beoordeling van financiële informatie of van interne controles, met als doel het vertrouwen van gebruikers te verhogen. Voor de accountant gaat het zowel om interne audit-opdrachten als om begrip van de externe auditor en zijn verklaring.",
+      "synoniemen": [
+        "audit",
+        "assurance opdrachten",
+        "certificering",
+        "controle van rekeningen",
+        "external audit context",
+        "interne audit"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.D.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Interne controle",
+      "verbose": "Interne controle is het geheel van procedures en mechanismen waarmee een onderneming redelijke zekerheid biedt over de betrouwbaarheid van de cijfers, de doeltreffendheid van de operaties en de naleving van regels. Klassieke bouwstenen zijn segregatie van functies, autorisaties, fysieke beveiliging en reconciliaties.",
+      "synoniemen": [
+        "internal control",
+        "interne beheersing",
+        "controleomgeving",
+        "COSO",
+        "ICOFR",
+        "controlemaatregelen",
+        "internal control system"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.D.1.a",
+      "anchor_type": "kenniselement",
+      "tekst": "Evalueren van het informatiesysteem, met inbegrip van de bijbehorende processen, op basis van kennis van de gegevensvereisten en de risico's",
+      "verbose": "De accountant koppelt zijn risico-analyse aan een review van hoe data tot stand komt, gevalideerd wordt en doorstroomt in de IT-systemen. Op basis daarvan kan hij beoordelen of de geautomatiseerde controles in het systeem volstaan of dat aanvullende manuele controles nodig zijn.",
+      "synoniemen": [
+        "IT general controls",
+        "ITGC",
+        "applicatiecontroles",
+        "system risk assessment",
+        "evaluatie informatiesysteem",
+        "controle data flow"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.D.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Vereisten op het vlak van interne en externe audit",
+      "verbose": "Interne audit werkt voor het management en het auditcomité en richt zich op risicobeheersing en procesverbetering, terwijl de externe auditor onafhankelijk een oordeel geeft over de jaarrekening voor derden. De accountant kent de werkdomeinen, onafhankelijkheidsregels en deliverables van beide.",
+      "synoniemen": [
+        "internal audit requirements",
+        "external audit requirements",
+        "auditstandaarden",
+        "auditcomité",
+        "ISA-standaarden context",
+        "internal audit charter"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.D.2.a",
+      "anchor_type": "kenniselement",
+      "tekst": "Uitleggen van de implicaties van huidige trends, nieuwe problemen en opkomende technologieën op het gebied van de certificeringsnormen",
+      "verbose": "De auditpraktijk integreert steeds meer data-analyse, continue audit, AI-ondersteunde sampling en assurance op niet-financiële informatie zoals duurzaamheid. De accountant kan die trends situeren en de impact op de aanpak en de verklaring van de auditor toelichten.",
+      "synoniemen": [
+        "audit data analytics",
+        "continuous auditing",
+        "ESG-assurance",
+        "AI in audit",
+        "trends in assurance",
+        "evolution audit standards"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.D.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Projecten van interne audit en opdrachten van externe certificering",
+      "verbose": "Een interne-auditproject volgt een cyclus van scoping, risicoanalyse, fieldwork, rapportering en follow-up van actiepunten. Een externe certificering bestaat uit een opdrachtacceptatie, planning, uitvoering van werkzaamheden, evaluatie en uitbrengen van een verklaring met passende formulering.",
+      "synoniemen": [
+        "interne audit-opdracht",
+        "auditcyclus",
+        "assurance engagement",
+        "auditplanning en uitvoering",
+        "audit project management",
+        "certificeringsverklaring"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.D.3.a",
+      "anchor_type": "kenniselement",
+      "tekst": "Ontwikkelen van passende procedures, met inbegrip van een analyse van auditgegevens, naargelang van het geïdentificeerde risico van afwijkingen van materieel belang",
+      "verbose": "Op basis van risicobeoordeling kiest de auditor of accountant tussen detailtests, gegevensgerichte analyses of toetsing van interne controles. Bij hoog risico worden steekproefgrootte, aard en timing van procedures opgevoerd, en wordt eventueel data-analyse op de volledige populatie ingezet.",
+      "synoniemen": [
+        "audit procedures",
+        "risico van afwijkingen van materieel belang",
+        "RAMM",
+        "audit testing strategy",
+        "substantive procedures",
+        "data analytics in audit",
+        "samplingstrategie"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.D.3.b",
+      "anchor_type": "kenniselement",
+      "tekst": "Voorbereiden of interpreteren van informatie en verslagen voor belanghebbenden waar nodig met gebruikmaking van technieken voor gegevensvisualisatie",
+      "verbose": "Resultaten worden helderder als ze niet enkel in tabellen maar ook in grafieken, dashboards of heatmaps worden gepresenteerd. De accountant kiest visualisaties die de boodschap accuraat weergeven zonder vertekening en die geschikt zijn voor de kennisgraad van de lezer.",
+      "synoniemen": [
+        "data visualization",
+        "dashboarding",
+        "rapportering met visuals",
+        "datavisualisatie",
+        "heatmaps audit",
+        "stakeholder reporting visualisatie"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.E",
+      "anchor_type": "kenniselement",
+      "tekst": "FINANCIËN",
+      "verbose": "Het financiën-domein behandelt hoe een onderneming kapitaal aantrekt, investeringen evalueert en haar kasstromen beheert. De accountant ondersteunt directie en zaakvoerder met financiële analyses, kasplanning en advies over financieringskeuzes.",
+      "synoniemen": [
+        "corporate finance",
+        "financieel beheer",
+        "treasury",
+        "financiële analyse",
+        "kapitaalstructuur",
+        "bedrijfsfinanciering"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.E.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Financiële analyse en planning: evalueren van informatiesystemen, gegevenskwaliteit en analytische modellen die worden gebruikt ter ondersteuning van financiële analyse en besluitvorming",
+      "verbose": "Voor financiële analyses (ratio-analyse, NPV-berekeningen, kasplanning) is de kwaliteit van de input bepalend. De accountant beoordeelt of de gebruikte modellen valide aannames hanteren, of de databron volledig en consistent is, en of formules correct geïmplementeerd zijn.",
+      "synoniemen": [
+        "financial planning and analysis",
+        "FP&A",
+        "ratio-analyse",
+        "discounted cash flow",
+        "financiële modellering",
+        "analytical model validation",
+        "kwaliteit van financiële data"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.F",
+      "anchor_type": "kenniselement",
+      "tekst": "FISCALITEIT",
+      "verbose": "Het fiscale domein omvat directe belastingen (vennootschap, personen), indirecte belastingen (BTW), bijzondere taksen en internationale aspecten. De accountant zorgt voor correcte aangifte, fiscale optimalisatie binnen de wettelijke grenzen en vroege detectie van risico's bij controles.",
+      "synoniemen": [
+        "fiscaliteit",
+        "tax",
+        "belastingen",
+        "fiscale aangifte",
+        "fiscale planning",
+        "tax compliance",
+        "fiscaal advies"
+      ]
+    },
+    {
+      "anchor_id": "4.0.II.F.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Evalueren van informatiesystemen, gegevenskwaliteit, gegevensvereisten en bedrijfsprocessen die een betrouwbare naleving van de belastingwetgeving mogelijk maken",
+      "verbose": "Tax compliance staat of valt met juiste basisgegevens: BTW-tarieven per artikel, correcte boekingsschema's, tijdige verwerking van inkomende facturen en gestructureerde rapportering naar de fiscus. De accountant beoordeelt of het ERP, de boekhoudpakketten en de processen in staat zijn om systematisch correcte aangiftes te genereren.",
+      "synoniemen": [
+        "tax compliance systems",
+        "fiscale gegevenskwaliteit",
+        "BTW-systeem",
+        "tax data management",
+        "compliance fiscaal proces",
+        "tax accounting systems"
+      ]
     }
   ]
 }

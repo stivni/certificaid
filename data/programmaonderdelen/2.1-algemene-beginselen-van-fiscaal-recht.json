@@ -1,0 +1,146 @@
+{
+  "programmaonderdeel": "2.1",
+  "programmaonderdeel_letter": "L",
+  "titel": "Algemene beginselen van fiscaal recht",
+  "niveau": "integratie",
+  "source": {
+    "type": "itaa-programma",
+    "version": "04/2022",
+    "pages": "34"
+  },
+  "scope": {
+    "kern_taakblokken": [
+      "2.1.D1.1"
+    ],
+    "kern_kenniselementen": [
+      "2.1.I",
+      "2.1.II",
+      "2.1.III",
+      "2.1.IV",
+      "2.1.V",
+      "2.1.VI",
+      "2.1.VII",
+      "2.1.I.A",
+      "2.1.I.B",
+      "2.1.VIII",
+      "2.1.I.C",
+      "2.1.IX"
+    ],
+    "voorbehoud": null
+  },
+  "intro_tekst": "I. Definitie van belastingen en situering",
+  "taakblokken": [
+    {
+      "deel": 1,
+      "code": "2.1.D1.1",
+      "taken": [
+        {
+          "tekst": "De belastingplichtige in alle fiscale aangelegenheden advies verlenen"
+        },
+        {
+          "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen"
+        },
+        {
+          "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden"
+        }
+      ],
+      "doelstellingen": [
+        {
+          "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen"
+        },
+        {
+          "tekst": "Geavanceerde concepten van de algemene beginselen van fiscaal recht toepassen op complexe gevallen."
+        },
+        {
+          "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen."
+        },
+        {
+          "tekst": "Fiscale risico’s kunnen analyseren en beheren."
+        },
+        {
+          "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de genomen beslissing."
+        }
+      ]
+    }
+  ],
+  "kenniselementen": [
+    {
+      "deel": 1,
+      "code": "2.1.I",
+      "tekst": "Definitie van belastingen en situering"
+    },
+    {
+      "deel": 1,
+      "code": "2.1.II",
+      "tekst": "Doel/functies van belastingen"
+    },
+    {
+      "deel": 1,
+      "code": "2.1.III",
+      "tekst": "Bronnen van fiscaal recht"
+    },
+    {
+      "deel": 1,
+      "code": "2.1.IV",
+      "tekst": "Actoren/partijen betrokken bij de belasting"
+    },
+    {
+      "deel": 1,
+      "code": "2.1.V",
+      "tekst": "Indeling van belastingen"
+    },
+    {
+      "deel": 1,
+      "code": "2.1.VI",
+      "tekst": "Basisbeginselen van het belastingrecht"
+    },
+    {
+      "deel": 1,
+      "code": "2.1.VII",
+      "tekst": "De invoering van belastingen"
+    },
+    {
+      "deel": 1,
+      "code": "2.1.I.A",
+      "tekst": "Het legaliteitsbeginsel en de gevolgen ervan"
+    },
+    {
+      "deel": 1,
+      "code": "2.1.I.B",
+      "tekst": "Het annualiteitsbeginsel"
+    },
+    {
+      "deel": 1,
+      "code": "2.1.VIII",
+      "tekst": "Toepassingsgebied van de belastingen"
+    },
+    {
+      "deel": 1,
+      "code": "2.1.I.C",
+      "tekst": "Het territorialiteitsbeginsel"
+    },
+    {
+      "deel": 1,
+      "code": "2.1.IX",
+      "tekst": "Fiscale algemene beginselen"
+    }
+  ],
+  "_provenance": {
+    "inputs": [
+      {
+        "id": "resources/raw/andere/programma.pdf",
+        "sha256": "6a532dd301c094afd086c08358589dfe6109c1f7789c93eb84e2e140adf9f18d",
+        "version": "04/2022"
+      }
+    ],
+    "tooling": {
+      "pipeline": "auto",
+      "pipeline_version": "extract_programma-v1",
+      "model": null,
+      "prompt_version": null
+    },
+    "generated_at": "2026-05-09T10:58:47.887957+00:00",
+    "stale": false,
+    "stale_reason": null
+  }
+}

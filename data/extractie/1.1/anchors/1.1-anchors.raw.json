@@ -1,0 +1,644 @@
+{
+  "po": "1.1",
+  "titel": "Algemene boekhouding",
+  "po_file": "1.1-algemene-boekhouding.json",
+  "n_anchors": 74,
+  "anchors": [
+    {
+      "anchor_id": "1.1.D1.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "1.1.D1.1",
+      "taakblok_titel": "",
+      "tekst": "De boekhouding voeren"
+    },
+    {
+      "anchor_id": "1.1.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.1.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Rekeningen openen"
+    },
+    {
+      "anchor_id": "1.1.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.1.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Opstellen van de journalen met inachtneming van de fiscale en analytische gevolgen"
+    },
+    {
+      "anchor_id": "1.1.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.1.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Centraliseren van de rekeningen"
+    },
+    {
+      "anchor_id": "1.1.D1.1.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.1.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Opsporen en corrigeren van anomalieën"
+    },
+    {
+      "anchor_id": "1.1.D1.1.doel.5",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.1.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Verifiëren en corrigeren van de boekhouding en boekhoudkundige documenten"
+    },
+    {
+      "anchor_id": "1.1.D1.1.doel.6",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.1.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Het rekeningstelsel aanpassen aan de behoeften van de onderneming"
+    },
+    {
+      "anchor_id": "1.1.D1.1.doel.7",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.1.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Voorstellen van waarderingsregels"
+    },
+    {
+      "anchor_id": "1.1.D1.1.doel.8",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.1.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Optimaliseren van de boekhoudkundige organisatie van de onderneming"
+    },
+    {
+      "anchor_id": "1.1.D1.1.doel.9",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.1.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Opstellen van de boekhoudkundige bijlagen bij de jaarrekeningen"
+    },
+    {
+      "anchor_id": "1.1.D1.1.doel.10",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.1.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Afronden en afsluiten van de jaarrekeningen"
+    },
+    {
+      "anchor_id": "1.1.I.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Boekhoudkundige structuur en problematiek",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Evolutie van de rol van de algemene boekhouding",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.1.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Evolutie van een enkelvoudige boekhouding naar een dubbele boekhouding",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Evolutie van de rol van de algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.1.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Vermogens- en resultatenrekeningen",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Evolutie van de rol van de algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.1.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Rekeningen bijhouden",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Evolutie van de rol van de algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.1.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Inventaris",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Evolutie van de rol van de algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.1.5",
+      "anchor_type": "kenniselement",
+      "tekst": "Verband met analytische boekhouding",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Evolutie van de rol van de algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Boekhoudkundige basisstructuren",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.2.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Aanwendingen = vaste - vlottende activa",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Boekhoudkundige basisstructuren"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.2.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Middelen = passiva - eigen vermogen - geleend vermogen",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Boekhoudkundige basisstructuren"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.2.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Balans = gelijkheid van aanwendingen/middelen",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Boekhoudkundige basisstructuren"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.2.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Verhouding tussen balans en resultatenrekening",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Boekhoudkundige basisstructuren"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.2.5",
+      "anchor_type": "kenniselement",
+      "tekst": "Procedures voor dubbele boeking",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Boekhoudkundige basisstructuren"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.2.6",
+      "anchor_type": "kenniselement",
+      "tekst": "Werking van actief-, passief-, kosten-, opbrengstenrekeningen",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Boekhoudkundige basisstructuren"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.2.7",
+      "anchor_type": "kenniselement",
+      "tekst": "Controle door de balans",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Boekhoudkundige basisstructuren"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.2.8",
+      "anchor_type": "kenniselement",
+      "tekst": "Dagboek en centraliserend grootboek",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Boekhoudkundige basisstructuren"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.2.9",
+      "anchor_type": "kenniselement",
+      "tekst": "Computerverwerking",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Boekhoudkundige basisstructuren"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Problematiek van boekhoudkundige informatie",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.3.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Betrouwbaarheid van de informatie",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Problematiek van boekhoudkundige informatie"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.3.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Vergelijkbaarheid van de informatie",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Problematiek van boekhoudkundige informatie"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.3.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Kwaliteit van de informatie",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Problematiek van boekhoudkundige informatie"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.A.3.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Beoordeling van de winstcapaciteit",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige structuur en problematiek",
+        "Problematiek van boekhoudkundige informatie"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Boekhoudkundige beginselen",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Continuïteitsbeginsel",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige beginselen"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Specialisatiebeginsel",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige beginselen"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.B.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Nominalismebeginsel (historische kosten)",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige beginselen"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.B.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Voorzichtigheidsbeginsel",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige beginselen"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.B.5",
+      "anchor_type": "kenniselement",
+      "tekst": "Permanentiebeginsel",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige beginselen"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.B.6",
+      "anchor_type": "kenniselement",
+      "tekst": "Relativiteitsbeginsel",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige beginselen"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.B.7",
+      "anchor_type": "kenniselement",
+      "tekst": "Beginsel van niet-compensatie",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige beginselen"
+      ]
+    },
+    {
+      "anchor_id": "1.1.I.B.8",
+      "anchor_type": "kenniselement",
+      "tekst": "Beginsel van onaantastbaarheid van de openingsbalans",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Boekhoudkundige beginselen"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Oprichtingskosten - Aankoop en afschrijvingen",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Immateriële en materiële vaste activa - Afschrijvingen en waardeverminderingen - Vooruitbetalingen",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Financiële vaste activa en effectenportefeuille",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Vorderingen op lange termijn",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Voorraden - Goederen in bewerking en bestellingen in uitvoering - Waardecorrecties - Vooruitbetalingen op aankopen voor voorraden",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.F",
+      "anchor_type": "kenniselement",
+      "tekst": "Bedrijfsvorderingen - Waardecorrecties",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.G",
+      "anchor_type": "kenniselement",
+      "tekst": "Geldbeleggingen en liquide middelen",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.H",
+      "anchor_type": "kenniselement",
+      "tekst": "Eigen middelen",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.H.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Inbreng in kapitaalloze vennootschappen en in kapitaalvennootschappen",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Eigen middelen"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.H.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Herwaarderingsmeerwaarden",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Eigen middelen"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.H.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Reserves en overgedragen winst (verlies)",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Eigen middelen"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.H.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Kapitaalsubsidies",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Eigen middelen"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.I",
+      "anchor_type": "kenniselement",
+      "tekst": "Voorzieningen en uitgestelde belastingen",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.J",
+      "anchor_type": "kenniselement",
+      "tekst": "Schulden op meer dan een jaar",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.K",
+      "anchor_type": "kenniselement",
+      "tekst": "Schulden op korte termijn",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.L",
+      "anchor_type": "kenniselement",
+      "tekst": "Overlopende rekeningen van het actief en van het passief",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.M",
+      "anchor_type": "kenniselement",
+      "tekst": "Bedrijfskosten inclusief de bezoldigingen van het personeel",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.N",
+      "anchor_type": "kenniselement",
+      "tekst": "Bedrijfsopbrengsten",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.O",
+      "anchor_type": "kenniselement",
+      "tekst": "Financiële verrichtingen",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.P",
+      "anchor_type": "kenniselement",
+      "tekst": "Niet-recurrente verrichtingen",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.Q",
+      "anchor_type": "kenniselement",
+      "tekst": "Van winst (verlies) van het boekjaar vóór belasting naar te bestemmen winst (of verlies) en resultaatverwerking",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.Q.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Overboeking naar de uitgestelde belastingen of onttrekking aan de reserves",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Van winst (verlies) van het boekjaar vóór belasting naar te bestemmen winst (of verlies) en resultaatverwerking"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.Q.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Belasting op het resultaat",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Van winst (verlies) van het boekjaar vóór belasting naar te bestemmen winst (of verlies) en resultaatverwerking"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.Q.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Overboeking naar de belastingvrije reserves of onttrekking aan de belastingvrije reserves",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Van winst (verlies) van het boekjaar vóór belasting naar te bestemmen winst (of verlies) en resultaatverwerking"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.Q.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Toevoegingen en onttrekkingen",
+      "parent_path": [
+        "Algemene boekhouding",
+        "Van winst (verlies) van het boekjaar vóór belasting naar te bestemmen winst (of verlies) en resultaatverwerking"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.R",
+      "anchor_type": "kenniselement",
+      "tekst": "Rechten en verplichtingen (grondige kennis)",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.S",
+      "anchor_type": "kenniselement",
+      "tekst": "Hoofdstuk 19: Synthesedocumenten (interne en externe jaarrekening)",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.T",
+      "anchor_type": "kenniselement",
+      "tekst": "Kapitaalwijzigingen, fusies, splitsingen, overnames en vereffeningen",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.U",
+      "anchor_type": "kenniselement",
+      "tekst": "Beheer van eigen aandelen",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.V",
+      "anchor_type": "kenniselement",
+      "tekst": "Beheer van obligatieleningen",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.W",
+      "anchor_type": "kenniselement",
+      "tekst": "Leasing",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.1.II.X",
+      "anchor_type": "kenniselement",
+      "tekst": "Verrichtingen van opsplitsing van eigendom",
+      "parent_path": [
+        "Algemene boekhouding"
+      ]
+    }
+  ]
+}

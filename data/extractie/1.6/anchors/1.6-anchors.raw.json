@@ -1,0 +1,266 @@
+{
+  "po": "1.6",
+  "titel": "Externe controle",
+  "po_file": "1.6-externe-controle.json",
+  "n_anchors": 31,
+  "anchors": [
+    {
+      "anchor_id": "1.6.D1.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "1.6.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en contractuele opdrachten:"
+    },
+    {
+      "anchor_id": "1.6.D1.1.taak.2",
+      "anchor_type": "taak",
+      "taakblok": "1.6.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ privé-expertise op het gebied van bedrijfsboekhouding"
+    },
+    {
+      "anchor_id": "1.6.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.6.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van het uitvoeren van wettelijke en contractuele opdrachten:"
+    },
+    {
+      "anchor_id": "1.6.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.6.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ gerechtelijke expertise op het gebied van bedrijfsboekhouding"
+    },
+    {
+      "anchor_id": "1.6.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.6.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ opstellen van verslagen die leiden tot een attestering of een expertiseverslag bestemd om aan derden te worden afgegeven"
+    },
+    {
+      "anchor_id": "1.6.I.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Reikwijdte van hun opdrachten",
+      "parent_path": [
+        "Externe controle"
+      ]
+    },
+    {
+      "anchor_id": "1.6.I.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Rechtstatuut en aansprakelijkheid van de gecertificeerd accountant",
+      "parent_path": [
+        "Externe controle"
+      ]
+    },
+    {
+      "anchor_id": "1.6.I.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Toepasselijke normen",
+      "parent_path": [
+        "Externe controle"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Verwerving van een algemene kennis van de onderneming en haar omgeving 1. Externe documentatie",
+      "parent_path": [
+        "Externe controle"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Interne documentatie: administratieve en boekhoudkundige organisatie",
+      "parent_path": [
+        "Externe controle",
+        "Verwerving van een algemene kennis van de onderneming en haar omgeving 1. Externe documentatie"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Risicoanalyse",
+      "parent_path": [
+        "Externe controle"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Evaluatie van de interne controle",
+      "parent_path": [
+        "Externe controle",
+        "Risicoanalyse"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Vragenlijsten interne controle",
+      "parent_path": [
+        "Externe controle",
+        "Risicoanalyse"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.B.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Diagrammen van de omloop van documenten",
+      "parent_path": [
+        "Externe controle",
+        "Risicoanalyse"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.B.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Schema van functiescheiding",
+      "parent_path": [
+        "Externe controle",
+        "Risicoanalyse"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.B.5",
+      "anchor_type": "kenniselement",
+      "tekst": "Identificatie van significante risico's",
+      "parent_path": [
+        "Externe controle",
+        "Risicoanalyse"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Controle-instrumenten",
+      "parent_path": [
+        "Externe controle"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.C.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Analytisch onderzoek",
+      "parent_path": [
+        "Externe controle",
+        "Controle-instrumenten"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.C.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Fysieke controles",
+      "parent_path": [
+        "Externe controle",
+        "Controle-instrumenten"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.C.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Interne en externe kruiscontroles",
+      "parent_path": [
+        "Externe controle",
+        "Controle-instrumenten"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.C.1__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Werkdocumenten",
+      "parent_path": [
+        "Externe controle",
+        "Controle-instrumenten"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.C.2__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Permanent dossier en dossier van het boekjaar",
+      "parent_path": [
+        "Externe controle",
+        "Controle-instrumenten"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Delegatie en supervisie",
+      "parent_path": [
+        "Externe controle"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Relaties met de actoren van de gecontroleerde onderneming",
+      "parent_path": [
+        "Externe controle"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.E.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Boekhouddiensten",
+      "parent_path": [
+        "Externe controle",
+        "Relaties met de actoren van de gecontroleerde onderneming"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.E.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Interne controle",
+      "parent_path": [
+        "Externe controle",
+        "Relaties met de actoren van de gecontroleerde onderneming"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.E.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Ondernemingsorganen: algemene vergadering, raad van bestuur, ondernemingsraad",
+      "parent_path": [
+        "Externe controle",
+        "Relaties met de actoren van de gecontroleerde onderneming"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.E.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Externe instanties",
+      "parent_path": [
+        "Externe controle",
+        "Relaties met de actoren van de gecontroleerde onderneming"
+      ]
+    },
+    {
+      "anchor_id": "1.6.IV.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Algemene beoordeling van de regelmatigheid, de waarachtigheid en het getrouw beeld",
+      "parent_path": [
+        "Externe controle"
+      ]
+    },
+    {
+      "anchor_id": "1.6.IV.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Certificering van de bedrijfsrevisor en wettelijke verklaring van de gecertificeerd accountant",
+      "parent_path": [
+        "Externe controle"
+      ]
+    },
+    {
+      "anchor_id": "1.6.IV.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Revisieverslagen",
+      "parent_path": [
+        "Externe controle"
+      ]
+    }
+  ]
+}

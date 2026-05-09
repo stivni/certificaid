@@ -1,0 +1,280 @@
+{
+  "po": "2.5",
+  "generated_at": "2026-05-09T20:44:29Z",
+  "model": "claude-opus-4-7",
+  "prompt_version": "anchor-verrijking-v1",
+  "anchors": [
+    {
+      "anchor_id": "2.5.D1.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "2.5.D1.1",
+      "tekst": "Begeleiding bij de oprichting van een onderneming",
+      "verbose": "De accountant ondersteunt de ondernemer bij de keuze van de juiste rechtsvorm en de fiscale gevolgen daarvan, zowel op het vlak van inkomstenbelasting als op het vlak van btw. Daarbij hoort ook de fiscale registratie, de keuze van het btw-stelsel, de optie voor de gewone of forfaitaire regeling en het inschatten van fiscale optimalisaties bij de start zoals investeringsaftrek, verlaagd tarief vennootschapsbelasting of de regeling voor kleine ondernemingen.",
+      "synoniemen": [
+        "fiscale begeleiding bij start onderneming",
+        "rechtsvormkeuze fiscaal advies",
+        "oprichtingsfase fiscale optimalisatie",
+        "fiscale opstart begeleiden",
+        "starterspak fiscaliteit",
+        "fiscale aspecten oprichting vennootschap",
+        "begeleiding nieuwe onderneming"
+      ]
+    },
+    {
+      "anchor_id": "2.5.D1.1.taak.2",
+      "anchor_type": "taak",
+      "taakblok": "2.5.D1.1",
+      "tekst": "De belastingplichtige in alle fiscale aangelegenheden advies verlenen",
+      "verbose": "De accountant adviseert zijn cliënt doorlopend over de fiscale gevolgen van zijn handelingen en keuzes, zowel preventief als curatief. Dit betekent meedenken over fiscaal voordelige structuren, risico-inschattingen maken bij geplande verrichtingen, en de cliënt waarschuwen voor uitzonderingen, antimisbruikbepalingen en de fiscale interpretatie van rechtspraak en administratieve commentaren.",
+      "synoniemen": [
+        "fiscaal adviseur",
+        "tax advisory",
+        "fiscale consultancy",
+        "belastingadvies verstrekken",
+        "fiscale begeleiding cliënt",
+        "fiscaal raadgever optreden",
+        "tax advice"
+      ]
+    },
+    {
+      "anchor_id": "2.5.D1.1.taak.3",
+      "anchor_type": "taak",
+      "taakblok": "2.5.D1.1",
+      "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen",
+      "verbose": "De accountant zorgt ervoor dat zijn cliënt tijdig en correct alle aangiften, listings en overige fiscale verplichtingen indient en de verschuldigde voorafbetalingen of betalingen verricht. Dat omvat de jaarlijkse aangifte personen- of vennootschapsbelasting, de periodieke btw-aangiften, de bedrijfsvoorheffing en patrimoniumtaksen, en het bewaken van vervaltermijnen en formele vereisten zodat boetes en belastingverhogingen worden vermeden.",
+      "synoniemen": [
+        "compliance fiscaliteit",
+        "tax compliance",
+        "aangifteverplichtingen vervullen",
+        "fiscale verplichtingen nakomen",
+        "tijdige indiening fiscale stukken",
+        "fiscale aangiften begeleiden",
+        "fiscale formaliteiten verzorgen"
+      ]
+    },
+    {
+      "anchor_id": "2.5.D1.1.taak.4",
+      "anchor_type": "taak",
+      "taakblok": "2.5.D1.1",
+      "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden",
+      "verbose": "De accountant treedt op als gevolmachtigde van zijn cliënt in het contact met de fiscale administratie, in het bijzonder tijdens onderzoekshandelingen, controlebezoeken, vraagstellingen en het beantwoorden van vragen om inlichtingen. Hij voert ook het bezwaarschrift in en kan optreden in de bemiddelingsprocedure of bij de gewestelijke directeur, waarbij hij de belangen van zijn cliënt verdedigt binnen de grenzen van de beroepsplichten.",
+      "synoniemen": [
+        "fiscale vertegenwoordiging",
+        "lasthebber bij fiscus",
+        "optreden als gevolmachtigde fiscaal",
+        "begeleiding bij fiscale controle",
+        "vertegenwoordiging tegenover belastingadministratie",
+        "fiscale belangenbehartiging",
+        "cliënt vertegenwoordigen voor fiscus"
+      ]
+    },
+    {
+      "anchor_id": "2.5.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.5.D1.1",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "De accountant moet een fiscaal dossier zelfstandig kunnen analyseren, de relevante feiten vaststellen, de toepasselijke regels identificeren en een gemotiveerd advies opstellen dat verschillende belastingsoorten en de bedrijfseconomische realiteit met elkaar verbindt. Hij anticipeert op fiscale gevolgen in plaats van louter te reageren, en bouwt zijn redenering systematisch op zodat ze controleerbaar en verdedigbaar blijft.",
+      "synoniemen": [
+        "zelfstandig fiscaal redeneren",
+        "geïntegreerd fiscaal advies",
+        "proactieve fiscale analyse",
+        "methodische dossierbehandeling",
+        "autonoom fiscaal werk",
+        "complex fiscaal dossier behandelen",
+        "fiscaal advies onderbouwen"
+      ]
+    },
+    {
+      "anchor_id": "2.5.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.5.D1.1",
+      "tekst": "Zelfstandig en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "Naast het uitvoeren van opdrachten in opdracht van een collega of cliënt moet de accountant ook spontaan initiatief nemen wanneer hij fiscale risico's of opportuniteiten identificeert. Hij coördineert het verzamelen van bewijsstukken, raadpleegt de juiste bronnen en levert een advies dat de verschillende fiscale dimensies samenbrengt tot één coherente aanbeveling.",
+      "synoniemen": [
+        "zelfstandig optreden in fiscaal dossier",
+        "initiatiefname fiscale praktijk",
+        "fiscale dossierregie",
+        "proactief fiscaal handelen",
+        "geïntegreerde fiscale aanpak",
+        "fiscaal advies in complexe context",
+        "zelfsturend fiscaal werken"
+      ]
+    },
+    {
+      "anchor_id": "2.5.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.5.D1.1",
+      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen.",
+      "verbose": "Een correct fiscaal advies vertrekt van een volledig feitencomplex: de accountant ontleedt contracten, jaarrekeningen, facturen en correspondentie en stelt gerichte vragen aan de cliënt over economische realiteit, intentie en chronologie. Hij weet welke documenten cruciaal zijn voor de fiscale kwalificatie van een verrichting en herkent welke informatie ontbreekt om een sluitende beoordeling te maken.",
+      "synoniemen": [
+        "fiscale feitenverzameling",
+        "fact finding fiscaal dossier",
+        "due diligence fiscaal",
+        "informatie-inwinning bij cliënt",
+        "fiscale vraagstelling",
+        "feitencomplex analyseren",
+        "relevante documentatie opvragen"
+      ]
+    },
+    {
+      "anchor_id": "2.5.D1.1.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.5.D1.1",
+      "tekst": "Analyseren en beheren van de fiscale risico's.",
+      "verbose": "Fiscaal risicobeheer betekent dat de accountant de waarschijnlijkheid en impact inschat dat een ingenomen standpunt bij controle wordt verworpen, en dat hij dat afweegt tegen de mogelijke boetes, belastingverhogingen, nalatigheidsinteresten en reputatieschade. Hij vertaalt die afweging in keuzes rond standpuntinname, vermelding in de aangifte, voorafgaand akkoord of verzekering, en documenteert het advies zodat de positie achteraf verdedigbaar blijft.",
+      "synoniemen": [
+        "tax risk management",
+        "fiscaal risicobeheer",
+        "risico-inschatting fiscaal standpunt",
+        "fiscale exposure beoordelen",
+        "controlerisico inschatten",
+        "fiscaal verdedigingsrisico",
+        "uncertain tax position"
+      ]
+    },
+    {
+      "anchor_id": "2.5.D1.1.doel.5",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.5.D1.1",
+      "tekst": "Geavanceerde concepten op het gebied van fiscale procedure toepassen op complexe gevallen.",
+      "verbose": "De accountant moet niet enkel de standaardstappen van een aangifte en aanslag kennen, maar ook geavanceerde proceduretechnieken zoals stuiting van termijnen, ambtshalve ontheffing, schorsing van de invordering, gebruik van bewijsmiddelen door tegenbewijs, en de samenloop tussen administratieve en gerechtelijke fasen. In complexe dossiers combineert hij deze technieken om de procespositie van de cliënt te versterken.",
+      "synoniemen": [
+        "geavanceerde fiscaalprocedurele techniek",
+        "complexe fiscale procedure beheersen",
+        "procedurale strategie fiscaal",
+        "fiscale procesvoering",
+        "tactische procesvoering belastingen",
+        "fiscaal procesrecht in praktijk",
+        "advanced tax procedure"
+      ]
+    },
+    {
+      "anchor_id": "2.5.D1.1.doel.6",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.5.D1.1",
+      "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de genomen beslissing.",
+      "verbose": "De accountant begeleidt zijn cliënt doorheen de opeenvolgende stappen: aangifte, vraag om inlichtingen, bericht van wijziging of kennisgeving van aanslag van ambtswege, gevestigde aanslag, bezwaar, eventueel bemiddeling en uiteindelijk gerechtelijke fase of invordering. Bij elke stap weegt hij af welke beslissing welke gevolgen heeft voor de bewijslast, de termijnen en de financiële uitkomst, en bespreekt hij die afwegingen met de cliënt.",
+      "synoniemen": [
+        "fasering belastingprocedure",
+        "begeleiding doorheen fiscale procedure",
+        "procesverloop belasting",
+        "fiscaal procesadvies",
+        "stappen aangifte tot invordering",
+        "gevolgen van fiscale beslissingen",
+        "procedurele begeleiding belastingplichtige"
+      ]
+    },
+    {
+      "anchor_id": "2.5.I",
+      "anchor_type": "kenniselement",
+      "tekst": "Taxatieprocedure",
+      "verbose": "De taxatieprocedure omvat het geheel van handelingen waarbij de fiscus de verschuldigde belasting vaststelt op basis van de aangifte of, bij gebrek of betwisting, op basis van eigen onderzoek. Ze regelt de wisselwerking tussen aangifte, eventuele wijziging van de aangegeven gegevens, aanslag van ambtswege en de daaraan gekoppelde termijnen en formaliteiten waarbinnen elke partij moet handelen.",
+      "synoniemen": [
+        "vestiging van de aanslag",
+        "taxatie",
+        "belastingvestiging",
+        "procedure tot vaststelling van de belasting",
+        "tax assessment",
+        "aanslagprocedure inkomstenbelasting",
+        "vestigingsprocedure"
+      ]
+    },
+    {
+      "anchor_id": "2.5.II",
+      "anchor_type": "kenniselement",
+      "tekst": "Algemene beginselen van goed bestuur",
+      "verbose": "De beginselen van goed bestuur, ook wel beginselen van behoorlijk bestuur genoemd, vormen ongeschreven of grondwettelijk verankerde gedragsregels die de fiscale administratie bij haar handelen moet respecteren. Ze omvatten onder meer het zorgvuldigheidsbeginsel, het redelijkheidsbeginsel, het vertrouwensbeginsel, het rechtszekerheidsbeginsel, het gelijkheidsbeginsel en de motiveringsplicht, en bieden de belastingplichtige aanknopingspunten om administratief willekeurig optreden aan te vechten.",
+      "synoniemen": [
+        "beginselen van behoorlijk bestuur",
+        "vertrouwensbeginsel",
+        "rechtszekerheidsbeginsel",
+        "zorgvuldigheidsbeginsel",
+        "redelijkheidsbeginsel",
+        "gelijkheidsbeginsel",
+        "motiveringsplicht administratie",
+        "good governance fiscaal"
+      ]
+    },
+    {
+      "anchor_id": "2.5.III",
+      "anchor_type": "kenniselement",
+      "tekst": "Aangifte",
+      "verbose": "De aangifte is de formele verklaring waarmee de belastingplichtige zijn belastbare grondslag spontaan meedeelt aan de administratie, en vormt het uitgangspunt voor de berekening van de verschuldigde belasting. Centrale aandachtspunten zijn de tijdige en correcte indiening, de aangifteplicht en haar uitzonderingen, het vermoeden van juistheid van de aangegeven gegevens, en de gevolgen van een laattijdige, onvolledige of niet ingediende aangifte.",
+      "synoniemen": [
+        "fiscale aangifte",
+        "belastingaangifte",
+        "aangifteplicht",
+        "aangifteformulier",
+        "indiening aangifte",
+        "tax return",
+        "aangifte personenbelasting",
+        "aangifte vennootschapsbelasting"
+      ]
+    },
+    {
+      "anchor_id": "2.5.IV",
+      "anchor_type": "kenniselement",
+      "tekst": "Onderzoeksbevoegdheden",
+      "verbose": "De onderzoeksbevoegdheden zijn de wettelijke instrumenten waarmee de fiscus de juistheid van de aangifte kan verifiëren, zoals het opvragen van inlichtingen, het inzage nemen van boeken en stukken, visitatie ter plaatse, vragen aan derden en banken, en het inschakelen van internationale uitwisseling van fiscale gegevens. De grenzen van deze bevoegdheden, de termijnen waarbinnen ze kunnen worden uitgeoefend en de gevolgen van onrechtmatig verkregen bewijs zijn cruciaal voor de bescherming van de belastingplichtige.",
+      "synoniemen": [
+        "controlebevoegdheden fiscus",
+        "fiscale onderzoeksbevoegdheden",
+        "inzagerecht administratie",
+        "fiscale visitatie",
+        "vraag om inlichtingen",
+        "bankonderzoek",
+        "internationale gegevensuitwisseling fiscaal",
+        "onderzoekstermijn"
+      ]
+    },
+    {
+      "anchor_id": "2.5.V",
+      "anchor_type": "kenniselement",
+      "tekst": "Bewijsmiddelen",
+      "verbose": "In fiscale procedure draagt de administratie in beginsel de bewijslast van de belastbare grondslag, maar kan ze daarvoor een waaier aan bewijsmiddelen gebruiken zoals geschriften, getuigen, vermoedens, bekentenis en aanwijzingen van gegoedheid. De belastingplichtige beschikt op zijn beurt over tegenbewijs, en de bewijswaarde van een regelmatig gevoerde boekhouding speelt een sleutelrol in het al dan niet aanvaarden van zijn standpunt.",
+      "synoniemen": [
+        "bewijslast fiscaal",
+        "tegenbewijs leveren",
+        "feitelijk vermoeden",
+        "wettelijk vermoeden",
+        "tekenen en indiciën",
+        "bewijswaarde boekhouding",
+        "fiscaal bewijsrecht",
+        "bewijsmiddelen administratie"
+      ]
+    },
+    {
+      "anchor_id": "2.5.VI",
+      "anchor_type": "kenniselement",
+      "tekst": "Aanslagprocedure",
+      "verbose": "De aanslagprocedure beschrijft hoe de fiscus de uiteindelijke belasting inkohiert nadat de taxatie is afgerond, en welke rechtsmiddelen de belastingplichtige heeft om die aanslag te betwisten. Kerntechnieken zijn het bericht van wijziging, de kennisgeving van aanslag van ambtswege, het bezwaarschrift bij de bevoegde adviseur-generaal, en de daaropvolgende administratieve beslissing die de toegang tot de fiscale rechter opent.",
+      "synoniemen": [
+        "inkohiering",
+        "bezwaarprocedure",
+        "bezwaarschrift indienen",
+        "administratief beroep belastingen",
+        "aanslag betwisten",
+        "kennisgeving aanslag van ambtswege",
+        "bericht van wijziging aangifte",
+        "fiscaal administratief beroep"
+      ]
+    },
+    {
+      "anchor_id": "2.5.VII",
+      "anchor_type": "kenniselement",
+      "tekst": "Bemiddelingsprocedure VIII. Invorderingsprocedure",
+      "verbose": "De fiscale bemiddelingsdienst biedt een neutrale tussenkomst om geschillen tussen belastingplichtige en administratie minnelijk te beslechten zonder dat de bezwaarprocedure of het rechtsproces wordt onderbroken. De invorderingsprocedure regelt vervolgens hoe de uiteindelijk verschuldigde belasting wordt geïnd, met instrumenten zoals dwangbevel, beslag, fiscaal voorrecht, hoofdelijke aansprakelijkheid en de mogelijkheid van afbetalingsplannen of onbeperkt uitstel.",
+      "synoniemen": [
+        "fiscale bemiddelingsdienst",
+        "minnelijke schikking belasting",
+        "bemiddeling belastinggeschil",
+        "invordering belasting",
+        "dwangbevel fiscus",
+        "fiscaal beslag",
+        "afbetalingsplan belasting",
+        "onbeperkt uitstel invordering",
+        "hoofdelijke fiscale aansprakelijkheid"
+      ]
+    }
+  ]
+}

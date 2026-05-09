@@ -1,0 +1,342 @@
+{
+  "po": "1.5",
+  "titel": "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+  "po_file": "1.5-beginselen-van-de-europese-wetgeving.json",
+  "n_anchors": 40,
+  "anchors": [
+    {
+      "anchor_id": "1.5.D1.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "1.5.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Opstellen van de individuele en geconsolideerde jaarrekening"
+    },
+    {
+      "anchor_id": "1.5.D1.1.taak.2",
+      "anchor_type": "taak",
+      "taakblok": "1.5.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ Herstructureren van de balans en de resultatenrekening;"
+    },
+    {
+      "anchor_id": "1.5.D1.1.taak.3",
+      "anchor_type": "taak",
+      "taakblok": "1.5.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ Identificeren en interpreteren van de balansaggregaten;"
+    },
+    {
+      "anchor_id": "1.5.D1.1.taak.4",
+      "anchor_type": "taak",
+      "taakblok": "1.5.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ Berekenen van de elementen die nodig zijn voor een interpretatie van de kasstromen en die interpreteren;"
+    },
+    {
+      "anchor_id": "1.5.D1.1.taak.5",
+      "anchor_type": "taak",
+      "taakblok": "1.5.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ Berekenen van de ratio’s en ze interpreteren;"
+    },
+    {
+      "anchor_id": "1.5.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.5.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ Een beginsel van boekhoudrecht of een wettelijke bepaling uit Belgische of Europese bron opzoeken, grondig analyseren en toepassen, met inachtneming van internationale normen."
+    },
+    {
+      "anchor_id": "1.5.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.5.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ Verifiëren en waarborgen van de conformiteit van de boekhouding en de documenten met de wettelijke en reglementaire vereisten."
+    },
+    {
+      "anchor_id": "1.5.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.5.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ Contextualiseren van de interpretaties naargelang van het bedrijfsdomein en de nationale en internationale context"
+    },
+    {
+      "anchor_id": "1.5.I",
+      "anchor_type": "kenniselement",
+      "tekst": "Richtlijn 2013/34/EU van het Europees Parlement en van de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen"
+      ]
+    },
+    {
+      "anchor_id": "1.5.II",
+      "anchor_type": "kenniselement",
+      "tekst": "Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen"
+      ]
+    },
+    {
+      "anchor_id": "1.5.III",
+      "anchor_type": "kenniselement",
+      "tekst": "Toepassingsgebied van de IFRS in België",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen"
+      ]
+    },
+    {
+      "anchor_id": "1.5.IV",
+      "anchor_type": "kenniselement",
+      "tekst": "Algemeen kader",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Eerste toepassing van IFRS",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.A.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Gemeenschappelijke bepalingen voor immateriële en materiële activa",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "Eerste toepassing van IFRS"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Specifieke elementen in verband met immateriële activa",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "Eerste toepassing van IFRS"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.B",
+      "anchor_type": "kenniselement",
+      "tekst": "IAS 1 De jaarrekening",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "De bestanddelen van de jaarrekening",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 1 De jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Identificatie van de jaarrekening",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 1 De jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.B.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Verslagperiode",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 1 De jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.B.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Kwalitatieve kenmerken waaraan de jaarrekening moet voldoen",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 1 De jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.B.5",
+      "anchor_type": "kenniselement",
+      "tekst": "De balans",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 1 De jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.B.6",
+      "anchor_type": "kenniselement",
+      "tekst": "De resultatenrekening",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 1 De jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.B.7",
+      "anchor_type": "kenniselement",
+      "tekst": "Wijzigingen in het eigen vermogen",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 1 De jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.B.9",
+      "anchor_type": "kenniselement",
+      "tekst": "In de toelichting te verstrekken informatie",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 1 De jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.B.1__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Gebruiksduur",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 1 De jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.B.2__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Afschrijvingswijze",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 1 De jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.B.3__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Restwaarde",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 1 De jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.B.4__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Herziening van de afschrijvingsperiode en -methode",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 1 De jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Afwijkingen ten opzichte van de Belgische wetgeving",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.C.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Verschillen tussen ‘financiële leasing’ en ‘operationele leasing’",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "Afwijkingen ten opzichte van de Belgische wetgeving"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.C.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Boekhouding door lessee en lessor",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "Afwijkingen ten opzichte van de Belgische wetgeving"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.C.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Overdracht van de eigendom van het goed aan het einde van de leaseperiode",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "Afwijkingen ten opzichte van de Belgische wetgeving"
+      ]
+    },
+    {
+      "anchor_id": "1.5.V",
+      "anchor_type": "kenniselement",
+      "tekst": "Selectie van internationale boekhoudkundige normen",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.D",
+      "anchor_type": "kenniselement",
+      "tekst": "IAS 18: Opbrengsten uit gewone activiteiten",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.D.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Definities van opbrengsten en opbrengsten uit gewone activiteiten",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 18: Opbrengsten uit gewone activiteiten"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.D.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Boeking van opbrengsten",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 18: Opbrengsten uit gewone activiteiten"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.D.3",
+      "anchor_type": "kenniselement",
+      "tekst": "In de toelichting te verstrekken informatie",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 18: Opbrengsten uit gewone activiteiten"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.E",
+      "anchor_type": "kenniselement",
+      "tekst": "IAS 2 en IAS 11: voorraden en onderhanden projecten in opdracht van derden",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.E.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Waardering en boeking van voorraden",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 2 en IAS 11: voorraden en onderhanden projecten in opdracht van derden"
+      ]
+    },
+    {
+      "anchor_id": "1.5.I.E.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Waardering en erkenning van onderhanden projecten in opdracht van derden",
+      "parent_path": [
+        "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+        "IAS 2 en IAS 11: voorraden en onderhanden projecten in opdracht van derden"
+      ]
+    }
+  ]
+}

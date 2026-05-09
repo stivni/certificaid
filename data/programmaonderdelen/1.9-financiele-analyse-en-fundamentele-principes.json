@@ -1,0 +1,292 @@
+{
+  "programmaonderdeel": "1.9",
+  "programmaonderdeel_letter": "F",
+  "titel": "Financiële analyse en fundamentele principes van het financieel bedrijfsbeheer",
+  "niveau": "integratie",
+  "source": {
+    "type": "itaa-programma",
+    "version": "04/2022",
+    "pages": "17-19"
+  },
+  "scope": {
+    "kern_taakblokken": [
+      "1.9.D1.1"
+    ],
+    "kern_kenniselementen": [
+      "1.9.I",
+      "1.9.II",
+      "1.9.III",
+      "1.9.I.A",
+      "1.9.I.B",
+      "1.9.I.C",
+      "1.9.I.D",
+      "1.9.I.E",
+      "1.9.IV",
+      "1.9.I.F",
+      "1.9.I.G",
+      "1.9.I.H",
+      "1.9.V",
+      "1.9.VI",
+      "1.9.VII"
+    ],
+    "voorbehoud": null
+  },
+  "intro_tekst": "I. Inleiding tot financiële analyse (toelating)",
+  "taakblokken": [
+    {
+      "deel": 1,
+      "code": "1.9.D1.1",
+      "taken": [
+        {
+          "tekst": "Opstellen van de individuele en geconsolideerde jaarrekening"
+        }
+      ],
+      "doelstellingen": [
+        {
+          "tekst": "Het doel van financiële analyse is het verstrekken van de informatie die de onderneming nodig heeft om beslissingen te nemen om te voldoen aan de behoeften van aandeelhouders, beleggers, schuldeisers, de ondernemingsrechtbank en de werknemers. Het gaat dus om het begrijpen en interpreteren van de jaarrekening, het verzamelen van relevante informatie om een financiële diagnose op te stellen, het verschaffen van de noodzakelijke basis voor financieel beheer, het vaststellen van financiële risico's en financiële soliditeit, en het uitwerken van scenario's en prognoses om te voldoen aan de toekomstige strategieën van het bestudeerde bedrijf. Leerdoelen:"
+        },
+        {
+          "tekst": "Lezen en begrijpen van relevante jaarrekeningen;"
+        },
+        {
+          "tekst": "De consistentie en relevantie van de gegevens waarborgen;"
+        },
+        {
+          "tekst": "Contextualiseren van de omgeving van de onderneming;"
+        },
+        {
+          "tekst": "Een grondige financiële diagnose van een onderneming stellen;"
+        },
+        {
+          "tekst": "De problematiek vaststellen en aanbevelingen formuleren;"
+        },
+        {
+          "tekst": "De passende ratio’s gebruiken naargelang van de problematiek van de onderneming;"
+        },
+        {
+          "tekst": "Relevante informatie verzamelen om de financiële analyse uit te voeren en de databanken kunnen gebruiken;"
+        },
+        {
+          "tekst": "Gebruiken van tools voor financiële analyse en beheer;"
+        },
+        {
+          "tekst": "Financiële prognoses maken voor ondernemingen;"
+        },
+        {
+          "tekst": "De onderneming bijstaan in de verschillende fasen van haar"
+        }
+      ]
+    }
+  ],
+  "kenniselementen": [
+    {
+      "deel": 1,
+      "code": "1.9.I",
+      "tekst": "Inleiding tot financiële analyse (toelating)"
+    },
+    {
+      "deel": 1,
+      "code": "1.9.II",
+      "tekst": "Individuele jaarrekeningen volgens de vennootschapswetgeving en balansaggregaten (toelating)"
+    },
+    {
+      "deel": 1,
+      "code": "1.9.III",
+      "tekst": "Herstructurering, horizontale en verticale analyse van de individuele balans en resultatenrekening (toelating);"
+    },
+    {
+      "deel": 1,
+      "code": "1.9.I.A",
+      "tekst": "Herstructurering van de balans",
+      "subitems": [
+        {
+          "code": "1.9.I.A.1",
+          "tekst": "Begrip toegevoegde waarde"
+        },
+        {
+          "code": "1.9.I.A.2",
+          "tekst": "Berekening van de toegevoegde waarde op basis van de jaarrekening van de onderneming"
+        },
+        {
+          "code": "1.9.I.A.3",
+          "tekst": "Analyse van de toegevoegde waarde"
+        },
+        {
+          "code": "1.9.I.A.4",
+          "tekst": "Interpretatie van de toegevoegde waarde"
+        }
+      ]
+    },
+    {
+      "deel": 1,
+      "code": "1.9.I.B",
+      "tekst": "Herstructurering van het volledig schema van de resultatenrekening en van de tabel van toevoegingen en onttrekkingen;",
+      "subitems": [
+        {
+          "code": "1.9.I.B.1",
+          "tekst": "Rentabiliteit van de verkoop (break-evenpunt en hefboomwerking in de bedrijfsuitoefening)"
+        },
+        {
+          "code": "1.9.I.B.2",
+          "tekst": "Rentabiliteit van de activa"
+        },
+        {
+          "code": "1.9.I.B.3",
+          "tekst": "Rentabiliteit van het eigen vermogen (financiële hefboom)"
+        },
+        {
+          "code": "1.9.I.B.4",
+          "tekst": "Marktrentabiliteit van de onderneming (externe rentabiliteit van de onderneming)"
+        },
+        {
+          "code": "1.9.I.B.1",
+          "tekst": "Mate van schuldenlast en financiële onafhankelijkheid"
+        },
+        {
+          "code": "1.9.I.B.2",
+          "tekst": "Dekking van de financiële kosten van het kapitaal van derden door het resultaat vóór financiële kosten en belastingen (EBIT)"
+        },
+        {
+          "code": "1.9.I.B.3",
+          "tekst": "Dekking van derdenkapitaal door de kasstroom"
+        },
+        {
+          "code": "1.9.I.B.4",
+          "tekst": "Niet in de balans opgenomen rechten en verplichtingen"
+        },
+        {
+          "code": "1.9.I.B.5",
+          "tekst": "Interpretatie van solvabiliteit"
+        },
+        {
+          "code": "1.9.I.B.1",
+          "tekst": "Nettobedrijfskapitaal, behoefte aan nettobedrijfskapitaal en nettokasmiddelen;"
+        },
+        {
+          "code": "1.9.I.B.2",
+          "tekst": "Liquiditeitsratio's afgeleid van nettowerkkapitaal"
+        },
+        {
+          "code": "1.9.I.B.3",
+          "tekst": "Liquiditeitsratio's afgeleid van behoefte aan bedrijfskapitaal"
+        },
+        {
+          "code": "1.9.I.B.4",
+          "tekst": "Liquiditeitsratio's afgeleid van nettokasmiddelen"
+        },
+        {
+          "code": "1.9.I.B.1",
+          "tekst": "Modellen van de eerste generatie"
+        },
+        {
+          "code": "1.9.I.B.2",
+          "tekst": "Modellen van de tweede generatie"
+        },
+        {
+          "code": "1.9.I.B.3",
+          "tekst": "Gebruik en interpretatie van de modellen"
+        },
+        {
+          "code": "1.9.I.B.4",
+          "tekst": "Stabiliteit van de modellen en gebruiksperspectieven"
+        },
+        {
+          "code": "1.9.I.B.1",
+          "tekst": "Gebruik van de passende IT-tools"
+        },
+        {
+          "code": "1.9.I.B.2",
+          "tekst": "Stellen en interpreteren van de financiële diagnose van de onderneming en vaststellen van de tekortkomingen"
+        }
+      ]
+    },
+    {
+      "deel": 1,
+      "code": "1.9.I.C",
+      "tekst": "Herstructurering van het verkort en microschema van de resultatenrekening en van de tabel van toevoegingen en onttrekkingen;",
+      "subitems": [
+        {
+          "code": "1.9.I.C.1",
+          "tekst": "Formuleren van voorstellen tot oplossingen en adviezen verlenen"
+        }
+      ]
+    },
+    {
+      "deel": 1,
+      "code": "1.9.I.D",
+      "tekst": "Horizontale analyse of chronologische analyse;"
+    },
+    {
+      "deel": 1,
+      "code": "1.9.I.E",
+      "tekst": "Verticale of structuuranalyse;",
+      "subitems": [
+        {
+          "code": "1.9.I.E.1",
+          "tekst": "Chronologische analyse"
+        },
+        {
+          "code": "1.9.I.E.2",
+          "tekst": "Vergelijking tussen ondernemingen"
+        },
+        {
+          "code": "1.9.I.E.3",
+          "tekst": "Door de Balanscentrale van de NBB opgestelde statistieken opgesteld op basis van de jaarrekeningen"
+        }
+      ]
+    },
+    {
+      "deel": 1,
+      "code": "1.9.IV",
+      "tekst": "Kasstroomanalyse (toelating);"
+    },
+    {
+      "deel": 1,
+      "code": "1.9.I.F",
+      "tekst": "Financiering met eigen vermogen"
+    },
+    {
+      "deel": 1,
+      "code": "1.9.I.G",
+      "tekst": "Kasstroom uit bedrijfsvoering, investeringen en financiering"
+    },
+    {
+      "deel": 1,
+      "code": "1.9.I.H",
+      "tekst": "Toepassing van kasstroomanalyse"
+    },
+    {
+      "deel": 1,
+      "code": "1.9.V",
+      "tekst": "Analyse door ratiomethode (toelating)"
+    },
+    {
+      "deel": 1,
+      "code": "1.9.VI",
+      "tekst": "Kwantitatieve modellen voor financiële diagnose en faillissement van de onderneming (bekwaamheid)"
+    },
+    {
+      "deel": 1,
+      "code": "1.9.VII",
+      "tekst": "Gebruik van IT-tools in het kader van de financiële analyse (bekwaamheid)"
+    }
+  ],
+  "_provenance": {
+    "inputs": [
+      {
+        "id": "resources/raw/andere/programma.pdf",
+        "sha256": "6a532dd301c094afd086c08358589dfe6109c1f7789c93eb84e2e140adf9f18d",
+        "version": "04/2022"
+      }
+    ],
+    "tooling": {
+      "pipeline": "auto",
+      "pipeline_version": "extract_programma-v1",
+      "model": null,
+      "prompt_version": null
+    },
+    "generated_at": "2026-05-09T10:58:47.886968+00:00",
+    "stale": false,
+    "stale_reason": null
+  }
+}

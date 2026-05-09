@@ -1,0 +1,166 @@
+{
+  "po": "2.4",
+  "titel": "Belasting over de toegevoegde waarde",
+  "po_file": "2.4-belasting-over-de-toegevoegde-waarde.json",
+  "n_anchors": 21,
+  "anchors": [
+    {
+      "anchor_id": "2.4.D1.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "2.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Begeleiding bij de oprichting van een onderneming"
+    },
+    {
+      "anchor_id": "2.4.D1.1.taak.2",
+      "anchor_type": "taak",
+      "taakblok": "2.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming"
+    },
+    {
+      "anchor_id": "2.4.D1.1.taak.3",
+      "anchor_type": "taak",
+      "taakblok": "2.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "De belastingplichtige in alle fiscale aangelegenheden advies verlenen"
+    },
+    {
+      "anchor_id": "2.4.D1.1.taak.4",
+      "anchor_type": "taak",
+      "taakblok": "2.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen"
+    },
+    {
+      "anchor_id": "2.4.D1.1.taak.5",
+      "anchor_type": "taak",
+      "taakblok": "2.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden"
+    },
+    {
+      "anchor_id": "2.4.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren"
+    },
+    {
+      "anchor_id": "2.4.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Geavanceerde concepten op het gebied van btw toepassen op complexe gevallen, de aangifte invullen, de maatstaf van heffing en de btw berekenen."
+    },
+    {
+      "anchor_id": "2.4.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen."
+    },
+    {
+      "anchor_id": "2.4.D1.1.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Fiscale risico’s kunnen analyseren en beheren."
+    },
+    {
+      "anchor_id": "2.4.D1.1.doel.5",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de genomen beslissing."
+    },
+    {
+      "anchor_id": "2.4.I",
+      "anchor_type": "kenniselement",
+      "tekst": "Btw - Wetboek - KB - MB - Circulaires - gevorderd niveau + rechtspraak",
+      "parent_path": [
+        "Belasting over de toegevoegde waarde"
+      ]
+    },
+    {
+      "anchor_id": "2.4.II",
+      "anchor_type": "kenniselement",
+      "tekst": "Opstart van de formaliteiten",
+      "parent_path": [
+        "Belasting over de toegevoegde waarde"
+      ]
+    },
+    {
+      "anchor_id": "2.4.III",
+      "anchor_type": "kenniselement",
+      "tekst": "Statuut van de btw-plichtige, categorieën van btw-plichtigen",
+      "parent_path": [
+        "Belasting over de toegevoegde waarde"
+      ]
+    },
+    {
+      "anchor_id": "2.4.IV",
+      "anchor_type": "kenniselement",
+      "tekst": "Gemengd gebruik BM, nieuwe vervoermiddelen, doorverkoop van voertuigen; margeregeling, bonnen, voordelen van alle aard",
+      "parent_path": [
+        "Belasting over de toegevoegde waarde"
+      ]
+    },
+    {
+      "anchor_id": "2.4.V",
+      "anchor_type": "kenniselement",
+      "tekst": "Verwerving van onroerend goed door occasionele en gewone btw-plichtigen, tarieven, \"nieuwe\" gebouwen, btw-eenheid en onroerend goed, ingebruikneming, verhuur en terbeschikkingstelling van onroerend goed, aanpassingen wegens",
+      "parent_path": [
+        "Belasting over de toegevoegde waarde"
+      ]
+    },
+    {
+      "anchor_id": "2.4.VI",
+      "anchor_type": "kenniselement",
+      "tekst": "Btw-aspecten (webshops, verkopen op afstand, plaats van levering van diensten, IC-handelingen en -diensten, OSS, buitenlandse belastingplichtige, driehoeksverkeer)",
+      "parent_path": [
+        "Belasting over de toegevoegde waarde"
+      ]
+    },
+    {
+      "anchor_id": "2.4.VII",
+      "anchor_type": "kenniselement",
+      "tekst": "Btw-herzieningen, overdracht van algemeenheid, intrekking/indienststelling, btwformaliteiten in geval van stopzetting van activiteit",
+      "parent_path": [
+        "Belasting over de toegevoegde waarde"
+      ]
+    },
+    {
+      "anchor_id": "2.4.VIII",
+      "anchor_type": "kenniselement",
+      "tekst": "Douane en accijnzen - verband met btw",
+      "parent_path": [
+        "Belasting over de toegevoegde waarde"
+      ]
+    },
+    {
+      "anchor_id": "2.4.IX",
+      "anchor_type": "kenniselement",
+      "tekst": "Betrokken partijen. Douanewaarde en douanerechten. Douanereglementering Enig document Basisbegrippen accijnzen",
+      "parent_path": [
+        "Belasting over de toegevoegde waarde"
+      ]
+    },
+    {
+      "anchor_id": "2.4.X",
+      "anchor_type": "kenniselement",
+      "tekst": "Accijnzen: Registratieformaliteiten en andere verplichtingen",
+      "parent_path": [
+        "Belasting over de toegevoegde waarde"
+      ]
+    },
+    {
+      "anchor_id": "2.4.XI",
+      "anchor_type": "kenniselement",
+      "tekst": "Basisverschillen tussen douane-unie en vrijhandelszone, Enig document, Goederencode, Douanewaarde, Maatstaf van heffing voor de btw, Statistische waarde, Oorsprong, Douanereglementeringen en tijdelijke opslag, Douaneprocedures, Douanerechten + rol van de AEO ( _Authorised Economic Operator_ ), Invoer van goederen",
+      "parent_path": [
+        "Belasting over de toegevoegde waarde"
+      ]
+    }
+  ]
+}

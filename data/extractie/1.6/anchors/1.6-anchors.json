@@ -1,0 +1,478 @@
+{
+  "po": "1.6",
+  "generated_at": "2026-05-09T00:00:00Z",
+  "model": "claude-opus-4-7",
+  "prompt_version": "anchor-verrijking-v1",
+  "anchors": [
+    {
+      "anchor_id": "1.6.D1.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "1.6.D1.1",
+      "tekst": "Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en contractuele opdrachten:",
+      "verbose": "De accountant levert geschreven rapporten op vraag van bestuursorganen, derden of een rechter, gaande van een controleverslag bij een fusie of inbreng tot een toelichtende analyse bij de jaarrekening. Het rapport vertrekt van een welomschreven opdrachtbrief, beschrijft de uitgevoerde werkzaamheden en eindigt met een onderbouwd oordeel of besluit. De diepgang en het gebruikte zekerheidsniveau hangen af van de aard van de opdracht en de bestemmeling.",
+      "synoniemen": [
+        "rapporteringsopdrachten",
+        "bijzondere opdrachten",
+        "attestopdrachten",
+        "verslagen aan derden",
+        "schriftelijke verslaglegging",
+        "rapportage door de accountant",
+        "expertiseverslag opstellen"
+      ]
+    },
+    {
+      "anchor_id": "1.6.D1.1.taak.2",
+      "anchor_type": "taak",
+      "taakblok": "1.6.D1.1",
+      "tekst": "➢ privé-expertise op het gebied van bedrijfsboekhouding",
+      "verbose": "Een privé-expertise is een onderzoeksopdracht waarbij de accountant in opdracht van een private partij — bijvoorbeeld een aandeelhouder, koper, verkoper of bestuurder — boekhoudkundige feiten of cijfers analyseert en daarover een onafhankelijk technisch oordeel geeft. Typische toepassingen zijn waardering van een onderneming bij verkoop, onderzoek bij een geschil tussen vennoten, of due-diligence bij een overname. De accountant blijft hierbij gebonden aan onafhankelijkheid en deontologie, ook al treedt hij niet op in een gerechtelijk kader.",
+      "synoniemen": [
+        "buitengerechtelijke expertise",
+        "minnelijke expertise",
+        "private expertise",
+        "boekhoudkundige expertise op verzoek",
+        "onafhankelijk boekenonderzoek",
+        "due diligence accountancy",
+        "expertise in opdracht van een partij"
+      ]
+    },
+    {
+      "anchor_id": "1.6.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.6.D1.1",
+      "tekst": "Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van het uitvoeren van wettelijke en contractuele opdrachten:",
+      "verbose": "De stagiair moet zelfstandig een rapport kunnen samenstellen dat aan een welbepaalde gebruiker — interne directie of externe partij zoals een notaris of rechtbank — antwoord geeft op een specifieke vraag over de financiële situatie of de boekhouding. Dit veronderstelt het correct afbakenen van de opdracht, het kiezen van een passend zekerheidsniveau (van compilatie tot redelijke zekerheid) en het strikt scheiden van vaststellingen, conclusies en aanbevelingen. Vorm en inhoud volgen het toepasselijke verslagmodel zodat de lezer de reikwijdte van de werkzaamheden meteen kan inschatten.",
+      "synoniemen": [
+        "specifieke rapportering",
+        "wettelijke opdrachten uitvoeren",
+        "contractuele opdrachten",
+        "rapport opstellen voor derden",
+        "verslag bij bijzondere opdracht",
+        "geattesteerde rapportering",
+        "opmaak van een attestatieverslag"
+      ]
+    },
+    {
+      "anchor_id": "1.6.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.6.D1.1",
+      "tekst": "➢ gerechtelijke expertise op het gebied van bedrijfsboekhouding",
+      "verbose": "Bij een gerechtelijke expertise wordt de accountant aangesteld door een rechtbank om als onpartijdige technicus boekhoudkundige feiten te onderzoeken en daarover verslag uit te brengen aan de rechter. De expert werkt op tegenspraak: alle partijen krijgen toegang tot de stukken, kunnen opmerkingen formuleren en een voorverslag becommentariëren vóór het eindverslag. Typische vragen zijn de begroting van schade, het reconstrueren van de boekhouding bij faillissement of het objectiveren van een geschil over de jaarrekening.",
+      "synoniemen": [
+        "gerechtsexpertise",
+        "expertise in opdracht van de rechtbank",
+        "deskundigenonderzoek",
+        "onderzoek door een gerechtsdeskundige",
+        "aanstelling als deskundige",
+        "forensische boekhoudexpertise",
+        "expert-judiciair op boekhoudkundig vlak"
+      ]
+    },
+    {
+      "anchor_id": "1.6.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.6.D1.1",
+      "tekst": "➢ opstellen van verslagen die leiden tot een attestering of een expertiseverslag bestemd om aan derden te worden afgegeven",
+      "verbose": "Bepaalde opdrachten eindigen met een attest waarin de accountant een uitdrukkelijke uitspraak doet over de juistheid of het getrouw beeld van financiële informatie, bestemd voor een derde gebruiker zoals een aandeelhouder, koper of overheid. Het zekerheidsniveau wordt vooraf vastgelegd en bepaalt of het om een redelijke of een beperkte zekerheid gaat. De accountant moet zijn werkzaamheden zo documenteren dat een latere lezer kan reconstrueren hoe het besluit tot stand is gekomen.",
+      "synoniemen": [
+        "attestering",
+        "attest aan derden",
+        "verslag met zekerheidsverstrekking",
+        "assurance-verslag",
+        "rapport aan derden",
+        "expertiseverslag aan derden",
+        "verklaring met conclusie aan een gebruiker"
+      ]
+    },
+    {
+      "anchor_id": "1.6.I.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Reikwijdte van hun opdrachten",
+      "verbose": "De reikwijdte beschrijft welke werkzaamheden binnen een opdracht vallen, welke buiten beschouwing blijven en met welk zekerheidsniveau de accountant zich uitspreekt. Een controleopdracht heeft een ander toepassingsgebied dan een beoordelingsopdracht, een compilatie of een opdracht tot het verrichten van overeengekomen specifieke werkzaamheden. Een correct afgebakende reikwijdte is essentieel om verkeerde verwachtingen bij de cliënt of derden te vermijden.",
+      "synoniemen": [
+        "draagwijdte van de opdracht",
+        "scope van de opdracht",
+        "opdrachtafbakening",
+        "toepassingsgebied van de werkzaamheden",
+        "opdrachtomvang",
+        "aard en omvang van de opdracht",
+        "engagement scope"
+      ]
+    },
+    {
+      "anchor_id": "1.6.I.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Rechtstatuut en aansprakelijkheid van de gecertificeerd accountant",
+      "verbose": "De gecertificeerd accountant oefent een gereglementeerd beroep uit met een eigen statuut dat onverenigbaarheden, monopolieopdrachten en deontologische plichten vastlegt. Bij een tekortkoming kan hij zowel burgerlijk (schadevergoeding aan cliënt of derden), strafrechtelijk (bv. medeplichtigheid aan fraude) als tuchtrechtelijk (sancties van het instituut) worden aangesproken. Een verzekering burgerlijke aansprakelijkheid en een zorgvuldige opdrachtbrief zijn de eerste lijnen van risicobeheersing.",
+      "synoniemen": [
+        "juridisch statuut van de accountant",
+        "beroepsstatuut",
+        "burgerlijke aansprakelijkheid",
+        "tuchtaansprakelijkheid",
+        "strafrechtelijke aansprakelijkheid",
+        "verantwoordelijkheid van de beroepsbeoefenaar",
+        "professionele aansprakelijkheid"
+      ]
+    },
+    {
+      "anchor_id": "1.6.I.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Toepasselijke normen",
+      "verbose": "Voor controle- en aanverwante opdrachten gelden internationale standaarden — voor controles ISA, voor beoordelingen ISRE, voor assurance ISAE en voor verwante diensten ISRS — die in België door het instituut van toepassing worden verklaard, naast eigen ITAA-normen voor specifieke opdrachten. Deze normen leggen vast hoe een opdracht wordt aangenomen, gepland, uitgevoerd, gedocumenteerd en gerapporteerd. Daarnaast gelden gedragsregels rond onafhankelijkheid, vertrouwelijkheid en kwaliteitsbeheersing.",
+      "synoniemen": [
+        "beroepsnormen",
+        "controlestandaarden",
+        "ISA-standaarden",
+        "ISAE en ISRE standaarden",
+        "ISRS verwante diensten",
+        "internationale auditstandaarden",
+        "ITAA-normen"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Verwerving van een algemene kennis van de onderneming en haar omgeving 1. Externe documentatie",
+      "verbose": "Vooraleer hij specifieke controlewerkzaamheden plant, vormt de accountant zich een beeld van de sector, de markt, de regelgeving en de belangrijke externe stakeholders van de cliënt. Externe documentatie omvat sectorrapporten, statistieken, analyses van concurrenten, publicaties van toezichthouders en gegevens uit handelsregisters of databanken zoals de Nationale Bank. Die context helpt om afwijkende cijfers, ongewone transacties en sectorrisico's te herkennen tijdens de controle.",
+      "synoniemen": [
+        "kennis van de entiteit en haar omgeving",
+        "sectorkennis",
+        "externe informatiebronnen",
+        "marktanalyse voor controle",
+        "begrip van de business",
+        "understanding the entity and its environment",
+        "macro-economische context van de cliënt"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Interne documentatie: administratieve en boekhoudkundige organisatie",
+      "verbose": "De accountant brengt in kaart hoe de onderneming haar transacties registreert, autoriseert en controleert: van bestelproces tot boekingsslag, van magazijnbeheer tot facturatie. Hij steunt op interne stukken zoals procedurehandboeken, organogrammen, rekeningenstelsel, ABC-codes en beschrijvingen van de softwareomgeving. Een goed begrip van die organisatie is de basis om risico's en zwakke schakels in de informatiestroom te identificeren.",
+      "synoniemen": [
+        "AO/IB",
+        "administratieve organisatie en interne beheersing",
+        "boekhoudorganisatie",
+        "interne beheersingssystemen",
+        "procedurehandboek",
+        "beschrijving van de boekhoudprocessen",
+        "interne organisatie van de cliënt"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Risicoanalyse",
+      "verbose": "De risicoanalyse is de kern van een moderne controle-aanpak: de accountant identificeert waar in de jaarrekening materiële afwijkingen kunnen ontstaan en waarom. Hij combineert daarvoor het inherente risico (de aard van de transactie of post) met het interne-controlerisico (de mate waarin procedures fouten zouden detecteren). De uitkomst stuurt de planning: meer risico betekent meer en gerichtere werkzaamheden.",
+      "synoniemen": [
+        "risk assessment",
+        "risico-inschatting",
+        "risk-based audit approach",
+        "risicogebaseerde controle",
+        "inschatten van materiële afwijkingen",
+        "audit risk model",
+        "identificatie van controlerisico's"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Evaluatie van de interne controle",
+      "verbose": "Om te beslissen hoeveel detailcontroles nodig zijn, beoordeelt de accountant de opzet, het bestaan en de werking van de interne controlemaatregelen rond de processen die de jaarrekening voeden. Hij toetst sleutelmaatregelen door waarneming, navraag, herrekening en walkthroughs. Werken de controles betrouwbaar, dan kan hij meer steunen op de interne beheersing en zijn substantieve werkzaamheden inperken.",
+      "synoniemen": [
+        "beoordeling interne beheersing",
+        "test of controls",
+        "evaluatie internecontrolesysteem",
+        "ICS-evaluatie",
+        "internal control assessment",
+        "control reliance approach",
+        "betrouwbaarheid van interne controle"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Vragenlijsten interne controle",
+      "verbose": "Een gestandaardiseerde vragenlijst helpt de accountant om systematisch na te gaan of essentiële controles (autorisatie, functiescheiding, afsluitingen, reconciliaties) aanwezig zijn binnen elk proces. De vragenlijst werkt als checklist en als documentatiemiddel: de antwoorden, met verwijzing naar de bron, vormen mee het werkpapier. Tekortkomingen die uit de vragenlijst blijken, voeden de risicoanalyse en het verdere controleplan.",
+      "synoniemen": [
+        "internal control questionnaire",
+        "ICQ",
+        "checklist interne controle",
+        "ICS-vragenlijst",
+        "control questionnaire",
+        "evaluatievragenlijst",
+        "vragenformulier interne beheersing"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.B.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Diagrammen van de omloop van documenten",
+      "verbose": "Een stroomschema visualiseert hoe een document — een bestelbon, factuur of betalingsopdracht — door de organisatie circuleert: wie maakt het op, wie keurt het goed, wie boekt het en waar wordt het bewaard. Dergelijke diagrammen maken zwakke schakels (ontbrekende controles, te ruime bevoegdheden) snel zichtbaar. Ze worden vaak gecombineerd met een walkthrough waarbij één transactie van begin tot eind wordt gevolgd.",
+      "synoniemen": [
+        "flowchart",
+        "documentstroomschema",
+        "procesflow",
+        "documentenstroom",
+        "stroomdiagram van transacties",
+        "process flow diagram",
+        "walkthrough-diagram"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.B.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Schema van functiescheiding",
+      "verbose": "Functiescheiding spreidt onverenigbare taken — beschikken, bewaren, registreren, controleren — over verschillende personen om fraude en fouten af te dwingen via wederzijdse controle. Een schema brengt per proces in kaart wie welke rol vervult en signaleert combinaties die te veel macht in één hand leggen, zoals dezelfde persoon die facturen goedkeurt én betalingen uitvoert. In kleine ondernemingen waar volledige functiescheiding niet haalbaar is, identificeert de accountant compenserende controles.",
+      "synoniemen": [
+        "segregation of duties",
+        "SoD-matrix",
+        "scheiding van functies",
+        "verdeling van taken en bevoegdheden",
+        "incompatibele functies",
+        "rolverdelingsschema",
+        "scheiding beschikken-registreren-bewaren"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.B.5",
+      "anchor_type": "kenniselement",
+      "tekst": "Identificatie van significante risico's",
+      "verbose": "Significante risico's zijn de risico's op materiële afwijkingen die bijzondere aandacht vereisen, bijvoorbeeld omdat ze inherent complex zijn, frauderelevant zijn of betrekking hebben op niet-routinematige transacties zoals waardeschattingen en verbonden partijen. Voor elk dergelijk risico bepaalt de accountant specifiek welke werkzaamheden hij zal uitvoeren en welke documentatie hij verwacht. De rest van het controleplan wordt rond die risico's opgehangen.",
+      "synoniemen": [
+        "significant risks",
+        "risico's op materiële afwijking",
+        "RoMM",
+        "verhoogde controlerisico's",
+        "kernrisico's voor de audit",
+        "frauderisico's",
+        "key audit risks"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Controle-instrumenten",
+      "verbose": "Controle-instrumenten zijn de technieken die de accountant inzet om voldoende geschikte controle-informatie te verzamelen: inspectie van documenten, waarneming, navraag, externe bevestiging, herrekening, herhaling van controles en analytische werkzaamheden. De keuze hangt af van het beweerde controledoel — bestaan, volledigheid, waardering, presentatie — en van het niveau van risico. Een goed dossier combineert verschillende technieken zodat conclusies op meerdere bewijslijnen steunen.",
+      "synoniemen": [
+        "auditprocedures",
+        "controletechnieken",
+        "audit procedures",
+        "audit evidence gathering techniques",
+        "controlewerkzaamheden",
+        "verzamelen van controle-informatie",
+        "audit tools"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.C.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Analytisch onderzoek",
+      "verbose": "Bij analytisch onderzoek toetst de accountant cijfers door ze te vergelijken met verwachtingen die hij zelf vooraf opbouwt, bijvoorbeeld op basis van vorige boekjaren, sectorratio's of niet-financiële indicatoren. Onverwachte afwijkingen worden onderzocht tot ze verklaard zijn. Die werkzaamheden helpen om risicogebieden te identificeren bij de planning, om substantieve zekerheid te verkrijgen tijdens de uitvoering en om de jaarrekening op consistentie te toetsen bij afsluiting.",
+      "synoniemen": [
+        "analytical procedures",
+        "analytische procedures",
+        "trendanalyse",
+        "ratio-analyse voor de controle",
+        "cijferanalyse",
+        "plausibiliteitscontrole",
+        "vergelijkende analyse"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.C.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Fysieke controles",
+      "verbose": "Bij een fysieke controle stelt de accountant zelf het bestaan en de toestand van een actief vast, klassiek door bijwoning van een voorraadopname of door te tellen wat in kas of in de magazijnen aanwezig is. Hij toetst niet enkel de aanwezigheid maar ook de telprocedures van de cliënt en de aansluiting met de boekhouding. Voor materiële vaste activa kan een steekproefsgewijze inspectie ter plaatse hetzelfde doel dienen.",
+      "synoniemen": [
+        "physical inspection",
+        "inventarisatie bijwonen",
+        "voorraadopname",
+        "stockcount",
+        "inspectie ter plaatse",
+        "telling van fysieke activa",
+        "kasopname"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.C.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Interne en externe kruiscontroles",
+      "verbose": "Een kruiscontrole vergelijkt twee onafhankelijke informatiebronnen die hetzelfde gegeven zouden moeten weergeven, bijvoorbeeld bankuittreksel tegenover boekhouding, of het saldo bij een leverancier tegenover dat in de aankoopboekhouding. Externe varianten zoals saldobevestigingen bij banken, klanten of advocaten leveren bewijs van buiten de organisatie. Wanneer de twee bronnen consistent zijn, vormt dat sterk bewijs; afwijkingen vragen verder onderzoek.",
+      "synoniemen": [
+        "saldobevestigingen",
+        "external confirmation",
+        "circularisaties",
+        "kruisverificatie",
+        "afstemming met derden",
+        "reconciliatie tussen bronnen",
+        "third-party confirmation"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.C.1__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Werkdocumenten",
+      "verbose": "Werkdocumenten leggen vast welke werkzaamheden de accountant heeft uitgevoerd, welke informatie hij heeft verzameld en welke conclusies hij daaruit heeft getrokken. Ze moeten zo opgesteld zijn dat een ervaren collega die niet bij de opdracht betrokken was, de uitgevoerde werkzaamheden en de basis voor de conclusies kan begrijpen. Naast inhoud zijn ook ondertekening, datum en review-evidentie cruciaal voor de bewijskracht van het dossier.",
+      "synoniemen": [
+        "audit working papers",
+        "werkpapieren",
+        "controledocumentatie",
+        "auditdocumentatie",
+        "papier de travail",
+        "engagement file documentation",
+        "controleverslagen in het dossier"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.C.2__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Permanent dossier en dossier van het boekjaar",
+      "verbose": "Het permanent dossier bundelt informatie die over meerdere boekjaren relevant blijft, zoals statuten, organogrammen, beschrijvingen van de interne organisatie en grote contracten. Het jaardossier bevat alle stukken die specifiek betrekking hebben op de controle van het lopende boekjaar: planning, risicoanalyse, werkpapieren, conclusies en het verslag. Beide dossiers samen vormen het integrale bewijsstuk van de uitgevoerde opdracht.",
+      "synoniemen": [
+        "permanent file",
+        "jaardossier",
+        "current audit file",
+        "vast dossier",
+        "klantdossier",
+        "engagement archive",
+        "blijvend en lopend dossier"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Delegatie en supervisie",
+      "verbose": "De verantwoordelijke partner blijft eindverantwoordelijk maar laat onderdelen van de werkzaamheden uitvoeren door medewerkers met een aangepast ervaringsniveau. Delegatie veronderstelt duidelijke instructies, geschikte werkprogramma's en planning; supervisie betekent dat het uitgevoerde werk wordt opgevolgd, gereviseerd en bijgestuurd. De omvang van de supervisie hangt af van de complexiteit van het werk en de competentie van het teamlid.",
+      "synoniemen": [
+        "supervision and review",
+        "team-supervisie",
+        "teamleiding bij de audit",
+        "delegatie van auditwerk",
+        "engagement partner review",
+        "review door de opdrachtverantwoordelijke",
+        "begeleiding van medewerkers"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Relaties met de actoren van de gecontroleerde onderneming",
+      "verbose": "Tijdens de opdracht communiceert de accountant met verschillende interne en externe actoren: directie, raad van bestuur, intern controleur, ondernemingsraad en eventueel commissaris of toezichthouders. Elke actor heeft eigen informatiebehoeften en een eigen rol in de governance, wat de toon en de inhoud van de communicatie bepaalt. Een professionele, gedocumenteerde dialoog beschermt zowel de kwaliteit van de controle als de positie van de accountant.",
+      "synoniemen": [
+        "communicatie met governance",
+        "stakeholders binnen de cliënt",
+        "interactie met directie en bestuur",
+        "communication with those charged with governance",
+        "betrokken partijen rond de controle",
+        "auditcommunicatie",
+        "interlocutoren van de auditor"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.E.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Boekhouddiensten",
+      "verbose": "De interne boekhouddienst is voor de accountant zowel informatiebron als gesprekspartner: zij levert de cijfers, geeft toelichting bij ongebruikelijke posten en voert correcties door die uit de controle voortvloeien. Een professionele werkrelatie veronderstelt duidelijke afspraken over deadlines, werkpapieren en de wijze waarop opmerkingen worden behandeld. Tegelijk waakt de accountant over zijn onafhankelijkheid: hij voert zelf geen boekhoudbeslissingen uit voor de cliënt die hij later zou moeten controleren.",
+      "synoniemen": [
+        "interne boekhouding",
+        "boekhoudafdeling",
+        "financial accounting department",
+        "accounting team van de cliënt",
+        "interne boekhoudkundige dienst",
+        "comptabiliteitsdienst",
+        "financiële administratie"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.E.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Interne controle",
+      "verbose": "De interne controle of internal audit binnen grotere ondernemingen evalueert zelf de werking van de interne beheersing en rapporteert daarover aan het auditcomité of de directie. De externe accountant kan, na beoordeling van hun objectiviteit en deskundigheid, gebruikmaken van hun werk om delen van de controle in te perken. Hij blijft echter zelf eindverantwoordelijk voor zijn oordeel en documenteert hoe en waarom hij op het werk van de interne controle steunt.",
+      "synoniemen": [
+        "internal audit",
+        "interne auditfunctie",
+        "interne audit",
+        "afdeling interne controle",
+        "internal audit department",
+        "use of internal auditors' work",
+        "auditcomité-rapportering"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.E.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Ondernemingsorganen: algemene vergadering, raad van bestuur, ondernemingsraad",
+      "verbose": "De algemene vergadering keurt de jaarrekening goed en geeft kwijting aan de bestuurders; de raad van bestuur stelt de jaarrekening op en bestuurt de vennootschap; de ondernemingsraad ontvangt economische en financiële informatie ten behoeve van het personeel. Elk orgaan heeft een eigen mandaat, vergadercyclus en informatie-aanspraak op de accountant. Verslagen, bevestigingsbrieven en mondelinge toelichtingen worden afgestemd op de specifieke rol van het orgaan.",
+      "synoniemen": [
+        "vennootschapsorganen",
+        "bestuursorganen",
+        "AV en RvB",
+        "ondernemingsraad",
+        "organes sociaux",
+        "governance bodies",
+        "raad van toezicht en aandeelhouders"
+      ]
+    },
+    {
+      "anchor_id": "1.6.II.E.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Externe instanties",
+      "verbose": "Naast de cliëntorganisatie communiceert de accountant met externe partijen die belang hebben bij of toezicht houden op de financiële verslaggeving: fiscale administratie, sociale inspectie, sectortoezichthouders, banken, advocaten en de cel voor financiële informatieverwerking. Communicatie met die actoren is gebonden aan beroepsgeheim en aan formele kanalen, en moet zorgvuldig gedocumenteerd worden in het dossier. Bevestigingsbrieven aan banken en advocaten zijn een typisch voorbeeld van zulke gestructureerde uitwisseling.",
+      "synoniemen": [
+        "externe toezichthouders",
+        "third parties",
+        "externe stakeholders",
+        "bevestigingen door derden",
+        "regulators en toezichthoudende overheden",
+        "external authorities",
+        "publieke en private toezichtsinstanties"
+      ]
+    },
+    {
+      "anchor_id": "1.6.IV.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Algemene beoordeling van de regelmatigheid, de waarachtigheid en het getrouw beeld",
+      "verbose": "In de eindfase beoordeelt de accountant of de jaarrekening over de hele lijn een getrouw beeld geeft van het vermogen, de financiële toestand en het resultaat. Regelmatigheid betreft de overeenstemming met het toepasselijke verslaggevingskader; waarachtigheid betreft de juistheid van de onderliggende cijfers; getrouw beeld vraagt dat de gebruiker een eerlijk en niet-misleidend beeld krijgt. De drie criteria worden samen gewogen en kunnen individueel aanleiding geven tot een aangepast oordeel.",
+      "synoniemen": [
+        "true and fair view",
+        "getrouwe weergave",
+        "regelmatigheid en getrouwheid",
+        "image fidèle",
+        "overall financial statement assertions",
+        "kwaliteitsoordeel jaarrekening",
+        "globale beoordeling van de jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.6.IV.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Certificering van de bedrijfsrevisor en wettelijke verklaring van de gecertificeerd accountant",
+      "verbose": "Bij grote vennootschappen geeft de bedrijfsrevisor een controleverklaring die de jaarrekening certificeert met een welomschreven oordeel — goedkeurend, met voorbehoud, afkeurend of met onthouding. De gecertificeerd accountant kan in andere gevallen een wettelijke verklaring afleggen, bijvoorbeeld bij specifieke verrichtingen zoals een inbreng in natura of een omzetting. Beide verklaringen volgen een strikt format en koppelen het uitgevoerde werk aan een uitspraak voor de gebruiker.",
+      "synoniemen": [
+        "controleverklaring",
+        "auditor's report",
+        "verklaring zonder voorbehoud",
+        "verklaring met voorbehoud",
+        "wettelijke verklaring",
+        "certification du commissaire",
+        "auditopinie"
+      ]
+    },
+    {
+      "anchor_id": "1.6.IV.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Revisieverslagen",
+      "verbose": "Het revisieverslag is het schriftelijk eindproduct van een controleopdracht en bevat een vast aantal componenten: opdracht, verantwoordelijkheid van het bestuur, verantwoordelijkheid van de auditor, basis voor het oordeel, het oordeel zelf en eventuele bijkomende verklaringen of paragrafen ter benadrukking. De inhoud is genormeerd zodat de lezer verschillende verslagen onderling kan vergelijken. Verslagen voor specifieke verrichtingen — fusies, inbrengen, omzettingen — volgen telkens een eigen, verwant model.",
+      "synoniemen": [
+        "auditverslag",
+        "controleverslag",
+        "revisorale rapportering",
+        "audit report",
+        "rapport du réviseur",
+        "verslag van de commissaris",
+        "verslagmodellen voor specifieke verrichtingen"
+      ]
+    }
+  ]
+}

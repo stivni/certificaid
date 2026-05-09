@@ -1,0 +1,121 @@
+{
+  "po": "1.4",
+  "titel": "Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening",
+  "po_file": "1.4-geconsolideerde-jaarrekening-en-wetgeving-betreffende.json",
+  "n_anchors": 15,
+  "anchors": [
+    {
+      "anchor_id": "1.4.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ Uitvoeren van eindejaarsverrichtingen"
+    },
+    {
+      "anchor_id": "1.4.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ Bepalen van het boekhoudkundig resultaat en verwerking van de bestemming van het resultaat"
+    },
+    {
+      "anchor_id": "1.4.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ Opstellen van de proefbalans en de saldibalans"
+    },
+    {
+      "anchor_id": "1.4.D1.1.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ Opstellen van de jaarrekening (balans, resultatenrekening, toelichting)"
+    },
+    {
+      "anchor_id": "1.4.D1.1.doel.5",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ Verwerken van de sociale balans"
+    },
+    {
+      "anchor_id": "1.4.D1.1.doel.6",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ Toepassen van de waarderingsregels (voorraden, afschrijving van vaste activa)"
+    },
+    {
+      "anchor_id": "1.4.D1.1.doel.7",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.4.D1.1",
+      "taakblok_titel": "",
+      "tekst": "➢ Executeren van vorderingen en schulden, op korte en lange termijn"
+    },
+    {
+      "anchor_id": "1.4.I",
+      "anchor_type": "kenniselement",
+      "tekst": "Belgische wetgeving:",
+      "parent_path": [
+        "Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.4.I.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Wettelijk kader van de consolidatie (bepalingen over consolidatie in het Wetboek van vennootschappen en verenigingen en in het KB van 29 april 2019)",
+      "parent_path": [
+        "Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.4.I.B",
+      "anchor_type": "kenniselement",
+      "tekst": "CBN-adviezen over consolidatie",
+      "parent_path": [
+        "Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.4.I.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Begrippen, consolidatieverplichting (moedermaatschappij, consortium), vrijstellingen, weglatingen",
+      "parent_path": [
+        "Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.4.I.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Consolidatietechnieken (integrale en evenredige consolidatie)",
+      "parent_path": [
+        "Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.4.I.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Vermogensmutatiemethode",
+      "parent_path": [
+        "Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.4.I.F",
+      "anchor_type": "kenniselement",
+      "tekst": "Geconsolideerde jaarrekening en jaarverslag",
+      "parent_path": [
+        "Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening"
+      ]
+    },
+    {
+      "anchor_id": "1.4.I.G",
+      "anchor_type": "kenniselement",
+      "tekst": "Wijziging van de consolidatiekring",
+      "parent_path": [
+        "Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening"
+      ]
+    }
+  ]
+}

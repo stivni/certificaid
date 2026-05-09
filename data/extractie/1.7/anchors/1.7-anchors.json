@@ -1,0 +1,873 @@
+{
+  "po": "1.7",
+  "generated_at": "2026-05-09T20:43:37Z",
+  "model": "claude-opus-4-7",
+  "prompt_version": "anchor-verrijking-v1",
+  "anchors": [
+    {
+      "anchor_id": "1.7.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.7.D1.1",
+      "tekst": "analyses voor de externe en interne verslaglegging, met inbegrip van juridische en contractuele opdrachten:",
+      "verbose": "Het uitvoeren van financieel-administratieve analyses die zowel de externe rapportering aan derden voeden als interne stuurinformatie opleveren voor het management. Daarbij horen ook opdrachten met een juridische of contractuele grondslag, zoals expertises, attesteringen of opdrachten voortvloeiend uit een aandeelhoudersovereenkomst.",
+      "synoniemen": [
+        "financiële analyse voor rapportering",
+        "managementrapportering",
+        "externe verslaggeving",
+        "interne verslaglegging",
+        "contractuele opdrachten accountant",
+        "juridische opdrachten van de accountant",
+        "rapporteringsopdrachten"
+      ]
+    },
+    {
+      "anchor_id": "1.7.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.7.D1.1",
+      "tekst": "Begrijpen van het beginsel van redelijke zekerheid en naleving/compliance -",
+      "verbose": "Het inzicht dat een interne controle nooit absolute zekerheid kan bieden maar enkel een redelijk niveau van betrouwbaarheid, gegeven kostprijs, oordeelsfouten en de mogelijkheid van collusie. Tegelijk moet het systeem aantoonbaar zorgen dat regels, procedures en externe verplichtingen worden nageleefd, wat de compliance-dimensie vormt.",
+      "synoniemen": [
+        "reasonable assurance",
+        "redelijke mate van zekerheid",
+        "inherente beperkingen interne controle",
+        "compliance-beginsel",
+        "naleving van regels",
+        "regelconformiteit",
+        "redelijk zekerheidsniveau"
+      ]
+    },
+    {
+      "anchor_id": "1.7.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.7.D1.1",
+      "tekst": "Zoeken van referentiepunten ten opzichte van de verwachtingen van belanghebbenden (bv. bedrijfsleiders en auditors) -",
+      "verbose": "Het identificeren van benchmarks, normen en best practices die als ijkpunten dienen tegenover wat bestuurders, aandeelhouders en auditors van het interne controlesysteem verwachten. Het gaat om het expliciteren van impliciete verwachtingen zodat de inrichting van de controle daarop kan worden afgestemd.",
+      "synoniemen": [
+        "stakeholderverwachtingen",
+        "benchmarking interne controle",
+        "referentiekader",
+        "verwachtingenpatroon van het management",
+        "auditverwachtingen",
+        "ijkpunten voor interne beheersing",
+        "best practices"
+      ]
+    },
+    {
+      "anchor_id": "1.7.D1.1.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.7.D1.1",
+      "tekst": "privé-expertise op het gebied van bedrijfsboekhouding -",
+      "verbose": "Een onderzoeksopdracht in opdracht van een private partij — bijvoorbeeld een aandeelhouder, koper of verkoper — waarbij de boekhouding en financiële cijfers van een onderneming worden onderzocht. De accountant brengt een onafhankelijk feitelijk verslag uit dat als bewijsstuk of beslissingsinstrument dient buiten een gerechtelijke context.",
+      "synoniemen": [
+        "minnelijke expertise boekhouding",
+        "private boekhoudkundige expertise",
+        "onafhankelijk financieel onderzoek",
+        "due diligence boekhouding",
+        "feitenexpertise",
+        "boekenonderzoek in opdracht van partijen",
+        "buitengerechtelijke expertise"
+      ]
+    },
+    {
+      "anchor_id": "1.7.D1.1.doel.5",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.7.D1.1",
+      "tekst": "gerechtelijke expertise op het gebied van bedrijfsboekhouding -",
+      "verbose": "Een door een rechter aangestelde opdracht waarbij de accountant als gerechtsexpert de boekhouding en financiële verrichtingen van een partij analyseert. Het verslag dient als technisch bewijsstuk in een rechtszaak en moet voldoen aan tegenspraak, onafhankelijkheid en strikte verslagvereisten.",
+      "synoniemen": [
+        "gerechtsdeskundige boekhouding",
+        "forensische accountancy",
+        "gerechtelijke boekhoudexpertise",
+        "expertise in opdracht van de rechtbank",
+        "court-appointed expertise",
+        "rechterlijk deskundigenonderzoek",
+        "forensisch boekenonderzoek"
+      ]
+    },
+    {
+      "anchor_id": "1.7.D1.1.doel.6",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.7.D1.1",
+      "tekst": "Opsporen van risico’s -",
+      "verbose": "Het systematisch in kaart brengen van gebeurtenissen en omstandigheden die de doelstellingen van de onderneming kunnen bedreigen, zoals fraude, fouten in de verslaggeving, verlies van activa of niet-naleving. Risico-identificatie is de eerste stap in elke beheersingscyclus en stuurt de keuze van controlemaatregelen.",
+      "synoniemen": [
+        "risico-identificatie",
+        "risk assessment",
+        "risicodetectie",
+        "frauderisicoanalyse",
+        "vaststellen van bedreigingen",
+        "inventariseren van risico's",
+        "risicoprofilering"
+      ]
+    },
+    {
+      "anchor_id": "1.7.D1.1.doel.7",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.7.D1.1",
+      "tekst": "opstellen van verslagen die leiden tot een attestering of een expertiseverslag bestemd om aan derden te worden afgegeven -",
+      "verbose": "Het schriftelijk vastleggen van de bevindingen van een controle- of onderzoeksopdracht in een verslag dat extern wordt gebruikt, bijvoorbeeld door een bank, fiscus, koper of rechter. De verslagvorm vereist nauwkeurige beschrijving van werkzaamheden, scope, beperkingen en conclusies zodat een derde lezer er rechtsgeldig op kan steunen.",
+      "synoniemen": [
+        "attesteringsverslag",
+        "expertiseverslag",
+        "rapport voor derden",
+        "verklarende rapportering",
+        "formeel auditverslag",
+        "schriftelijke conclusies van de accountant",
+        "rapportage met externe bestemming"
+      ]
+    },
+    {
+      "anchor_id": "1.7.D1.1.doel.8",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.7.D1.1",
+      "tekst": "Beheren van het evenwicht tussen de begrippen redelijke zekerheid en naleving/compliance -",
+      "verbose": "Het bewust afwegen tussen de inspanning die nodig is om een redelijk niveau van zekerheid te bereiken en de soms strenger geformuleerde compliance-verplichtingen die geen graduatie toelaten. In de praktijk leidt dat tot keuzes over diepgang van procedures, omvang van de steekproef en intensiteit van toezicht.",
+      "synoniemen": [
+        "afweging zekerheid versus compliance",
+        "kosten-batenanalyse interne controle",
+        "proportionaliteit van controles",
+        "balans tussen rigueur en haalbaarheid",
+        "controle-intensiteit afstemmen",
+        "trade-off in beheersingsmaatregelen"
+      ]
+    },
+    {
+      "anchor_id": "1.7.D1.1.doel.9",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.7.D1.1",
+      "tekst": "Interpreteren van de aanbevelingen van de revisoren/accountants die verantwoordelijk zijn voor de beoordeling van de doeltreffendheid van de interne controle van de onderneming -",
+      "verbose": "Het correct lezen en plaatsen van de tekortkomingen en verbeterpunten die externe controleurs vaststellen in hun managementletter of intern controleverslag. De accountant moet de ernst inschatten, de oorzaak begrijpen en de aanbeveling vertalen naar concrete actiepunten voor de organisatie.",
+      "synoniemen": [
+        "managementletter lezen",
+        "interpretatie van auditbevindingen",
+        "opvolgen van auditaanbevelingen",
+        "interpreteren controleverslag",
+        "remediëren van tekortkomingen",
+        "interne-controleaanbevelingen",
+        "follow-up van auditpunten"
+      ]
+    },
+    {
+      "anchor_id": "1.7.D1.1.doel.10",
+      "anchor_type": "doelstelling",
+      "taakblok": "1.7.D1.1",
+      "tekst": "Formuleren van aanbevelingen naar aanleiding van vastgestelde risico's",
+      "verbose": "Het omzetten van geïdentificeerde risico's in concrete, haalbare en gemotiveerde voorstellen om de interne beheersing te versterken, met aandacht voor prioriteit, kostprijs en verantwoordelijke. Goede aanbevelingen zijn specifiek, meetbaar en geven aan welk risico ze mitigeren.",
+      "synoniemen": [
+        "risico-aanbevelingen",
+        "controleaanbevelingen formuleren",
+        "verbetervoorstellen interne controle",
+        "remediation actions",
+        "actieplan na risicoanalyse",
+        "mitigerende maatregelen voorstellen",
+        "advies tot bijsturing"
+      ]
+    },
+    {
+      "anchor_id": "1.7.I.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Definitie van interne controle",
+      "verbose": "Interne controle is het geheel van procedures, gedragsregels en organisatorische maatregelen dat een onderneming opzet om redelijke zekerheid te krijgen over de betrouwbaarheid van haar informatie, de bescherming van haar middelen, de doeltreffendheid van haar werking en de naleving van regels. Het is geen kostenpost maar een sturingsinstrument verweven in alle bedrijfsprocessen.",
+      "synoniemen": [
+        "internal control",
+        "interne beheersing",
+        "interne controleomgeving",
+        "beheersingssysteem",
+        "controleorganisatie",
+        "interne beheersmaatregelen"
+      ]
+    },
+    {
+      "anchor_id": "1.7.I.A.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Betrouwbaarheid en integriteit van de financiële en bedrijfsinformatie",
+      "verbose": "Een hoofddoelstelling van interne controle is dat zowel de cijfers in de jaarrekening als de operationele stuurgegevens correct, volledig en tijdig zijn, zonder manipulatie of toevallige fouten. Dat veronderstelt invoercontroles, validaties, autorisaties en periodieke afstemmingen doorheen het informatiesysteem.",
+      "synoniemen": [
+        "betrouwbare financiële rapportering",
+        "data-integriteit",
+        "juistheid van rapportering",
+        "informatiekwaliteit",
+        "accurate financial reporting",
+        "betrouwbare bedrijfsinformatie",
+        "integriteit van gegevens"
+      ]
+    },
+    {
+      "anchor_id": "1.7.I.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Doeltreffendheid en efficiëntie van de bedrijfsvoering",
+      "verbose": "Interne controle dient niet alleen tegen fouten en fraude maar ook ter ondersteuning van een goed draaiende organisatie waar middelen efficiënt worden ingezet en doelstellingen effectief worden bereikt. Goede procedures voorkomen verspilling, dubbele werkzaamheden en ad-hocbeslissingen.",
+      "synoniemen": [
+        "operational excellence",
+        "doelmatige bedrijfsvoering",
+        "efficiëntie van processen",
+        "operationele effectiviteit",
+        "performante bedrijfsvoering",
+        "operational effectiveness"
+      ]
+    },
+    {
+      "anchor_id": "1.7.I.A.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Bescherming van het vermogen",
+      "verbose": "Het beveiligen van de activa van de onderneming tegen verlies, diefstal, beschadiging of ongeoorloofd gebruik, zowel fysiek als digitaal. Dit vraagt fysieke maatregelen zoals toegangscontrole en kluizen én administratieve maatregelen zoals registers, inventarissen en gebruiksrechten op systemen.",
+      "synoniemen": [
+        "asset protection",
+        "vermogensbescherming",
+        "beveiliging van activa",
+        "safeguarding of assets",
+        "fraudepreventie",
+        "bewaking van bedrijfsmiddelen",
+        "voorkoming van ontvreemding"
+      ]
+    },
+    {
+      "anchor_id": "1.7.I.A.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Naleving van wetten, reglementen en contracten",
+      "verbose": "De onderneming moet aantoonbaar handelen binnen het juridische en contractuele kader dat op haar van toepassing is, gaande van vennootschapsrechtelijke en fiscale verplichtingen tot sectorale regelgeving en commerciële verbintenissen. De interne controle organiseert het systematisch detecteren en opvolgen van die verplichtingen.",
+      "synoniemen": [
+        "compliance",
+        "wettelijke conformiteit",
+        "regelnaleving",
+        "regulatory compliance",
+        "naleving van contracten",
+        "contractuele opvolging",
+        "wets- en reglementsconformiteit"
+      ]
+    },
+    {
+      "anchor_id": "1.7.I.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Externe controle",
+      "verbose": "Externe controle is de beoordeling van de onderneming door een onafhankelijke derde, doorgaans een commissaris of bedrijfsrevisor, die een oordeel geeft over de getrouwheid van de jaarrekening of over specifieke verrichtingen. Ze biedt zekerheid aan stakeholders die geen toegang hebben tot de interne werking.",
+      "synoniemen": [
+        "external audit",
+        "wettelijke controle",
+        "commissaristoezicht",
+        "extern toezicht",
+        "onafhankelijke audit",
+        "controle door bedrijfsrevisor",
+        "externe verificatie"
+      ]
+    },
+    {
+      "anchor_id": "1.7.I.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Managementcontrole",
+      "verbose": "Managementcontrole is het geheel van technieken waarmee de directie de uitvoering van de strategie opvolgt en bijstuurt, zoals budgettering, kostprijsanalyse, kpi-rapportering en variantieanalyse. Het is sturingsgericht en kijkt naar prestaties, terwijl interne controle gericht is op betrouwbaarheid en beheersing.",
+      "synoniemen": [
+        "management control",
+        "controlling",
+        "management accounting",
+        "budgetcontrole",
+        "prestatiebeheersing",
+        "managementrapportering",
+        "stuuropvolging"
+      ]
+    },
+    {
+      "anchor_id": "1.7.I.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Interne audit",
+      "verbose": "Interne audit is een onafhankelijke en objectieve beoordelingsfunctie binnen de organisatie die toetst of de interne controle, de risicobeheersing en de governance behoorlijk werken. Ze rapporteert aan het auditcomité of het hoogste leidinggevende orgaan en formuleert verbetervoorstellen.",
+      "synoniemen": [
+        "internal audit",
+        "interne auditfunctie",
+        "third line of defense",
+        "interne controleurs",
+        "interne toetsing",
+        "objectieve interne beoordeling",
+        "auditafdeling"
+      ]
+    },
+    {
+      "anchor_id": "1.7.II.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Begrip onderneming",
+      "verbose": "Een onderneming is een georganiseerde eenheid van mensen, middelen en processen die een economische activiteit uitoefent met het oog op het creëren van waarde. Haar kenmerken — sector, omvang, structuur, eigendomsverhoudingen — bepalen welke interne controle gepast is.",
+      "synoniemen": [
+        "bedrijf",
+        "vennootschap",
+        "organisatie",
+        "economische entiteit",
+        "ondernemingsentiteit",
+        "rechtspersoon met economische activiteit",
+        "bedrijfsorganisatie"
+      ]
+    },
+    {
+      "anchor_id": "1.7.II.A.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Algemene beginselen van interne controle",
+      "verbose": "De terugkerende grondprincipes die elke interne controle moet eerbiedigen, zoals functiescheiding, autorisatie, registratie, fysieke beveiliging, opvolging en controle-toezicht. Ze vormen samen een coherent geheel dat fouten voorkomt, opspoort en corrigeert.",
+      "synoniemen": [
+        "principes van interne controle",
+        "general principles of internal control",
+        "basisbeginselen van interne beheersing",
+        "fundamenten van interne controle",
+        "sleutelprincipes van controle",
+        "controleprincipes"
+      ]
+    },
+    {
+      "anchor_id": "1.7.II.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Aanpassing van de interne controle aan de context van de onderneming",
+      "verbose": "Een goed beheersingssysteem is geen sjabloon maar wordt afgestemd op de aard van de activiteiten, de omvang, de risico's en de cultuur van de organisatie. In een kleine onderneming compenseert nauwere betrokkenheid van de zaakvoerder soms een gebrekkige functiescheiding, terwijl een grote groep gelaagde controles nodig heeft.",
+      "synoniemen": [
+        "tailoring of internal control",
+        "proportionele interne controle",
+        "context-specifiek beheersingsraamwerk",
+        "schaalgebonden controle",
+        "afstemming op bedrijfsomvang",
+        "maatgesneden interne controle"
+      ]
+    },
+    {
+      "anchor_id": "1.7.II.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Informatiesysteem",
+      "verbose": "Het geheel van procedures, gegevens en applicaties waarmee de onderneming transacties registreert, verwerkt en rapporteert. De kwaliteit van de interne controle hangt rechtstreeks af van de betrouwbaarheid van dit systeem en de toegang die er toe is.",
+      "synoniemen": [
+        "information system",
+        "boekhoudkundig informatiesysteem",
+        "ERP-systeem",
+        "datasysteem",
+        "informatiebeheer",
+        "managementinformatiesysteem",
+        "verwerkingssysteem"
+      ]
+    },
+    {
+      "anchor_id": "1.7.II.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Doelstellingen van interne controle",
+      "verbose": "De vier klassieke einddoelen die elk beheersingssysteem nastreeft: betrouwbare informatie, doeltreffende werking, bescherming van het vermogen en naleving van regels. Elke procedure moet aantoonbaar bijdragen aan minstens één van deze doelen.",
+      "synoniemen": [
+        "objectives of internal control",
+        "controle-doelstellingen",
+        "control objectives",
+        "einddoelen interne beheersing",
+        "doelhiërarchie van controle",
+        "vier doelen van interne controle"
+      ]
+    },
+    {
+      "anchor_id": "1.7.II.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Afstemming tussen de doelstellingen van de interne controle en de organisatie van de onderneming",
+      "verbose": "De interne controle moet zo zijn opgezet dat haar doelen sporen met de strategie, de structuur en de processen van de onderneming. Een mismatch leidt tot bureaucratische lasten zonder reëel risicovermindering of, omgekeerd, tot blinde vlekken waar geen controle is voorzien.",
+      "synoniemen": [
+        "alignment of internal control",
+        "afstemming controle en organisatie",
+        "integratie van controles in processen",
+        "organisatorische inbedding van interne controle",
+        "structurele inpassing van controles",
+        "samenhang controlekader en organisatie"
+      ]
+    },
+    {
+      "anchor_id": "1.7.II.B.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Redelijke zekerheid",
+      "verbose": "Het concept dat een controlesysteem nooit volledige zekerheid kan bieden door de inherente beperkingen zoals menselijke fouten, collusie, kosten en de noodzaak van management override. Een redelijk niveau van zekerheid is wat van een zorgvuldige onderneming verwacht mag worden, niet absolute garantie.",
+      "synoniemen": [
+        "reasonable assurance",
+        "redelijke mate van zekerheid",
+        "redelijke garantie",
+        "begrenzing van controlezekerheid",
+        "inherente limieten van controle",
+        "geen absolute zekerheid"
+      ]
+    },
+    {
+      "anchor_id": "1.7.II.B.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Verscheidenheid aan actoren en procedures die bij de controle betrokken zijn",
+      "verbose": "Interne controle is geen taak van één afdeling: directie, lijnmanagement, medewerkers, interne audit, externe controleurs en het auditcomité spelen elk hun rol via uiteenlopende procedures. Het samenspel — vaak voorgesteld als drie verdedigingslinies — bepaalt of het systeem coherent werkt.",
+      "synoniemen": [
+        "three lines of defense",
+        "drie verdedigingslinies",
+        "actoren in het controlemodel",
+        "controleverantwoordelijkheden",
+        "rolverdeling in interne beheersing",
+        "stakeholders interne controle"
+      ]
+    },
+    {
+      "anchor_id": "1.7.II.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Stromen",
+      "verbose": "De fysieke, financiële en informatiestromen die door de onderneming lopen — goederen, geld, documenten en data — vormen het object van interne controle. Voor elke stroom moet bepaald zijn waar ze ontstaat, langs welke posten ze passeert en waar registratie en validatie plaatsvinden.",
+      "synoniemen": [
+        "flows in de organisatie",
+        "goederenstromen",
+        "geldstromen",
+        "informatiestromen",
+        "documentenstromen",
+        "transactiestromen",
+        "process flows"
+      ]
+    },
+    {
+      "anchor_id": "1.7.II.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Informatie",
+      "verbose": "Informatie binnen de onderneming is zowel input als output van het controlesysteem: ze moet relevant, tijdig, juist en toegankelijk zijn voor wie beslissingen neemt of toezicht houdt. De kwaliteit van rapportering en communicatie bepaalt of de controle effectief kan werken.",
+      "synoniemen": [
+        "information & communication",
+        "bedrijfsinformatie",
+        "rapporteringsinformatie",
+        "stuurinformatie",
+        "informatiekwaliteit",
+        "interne en externe communicatie",
+        "managementinformatie"
+      ]
+    },
+    {
+      "anchor_id": "1.7.II.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Begrip controle",
+      "verbose": "Controle is de bewuste handeling waarbij een persoon of systeem nagaat of een verrichting overeenstemt met wat verwacht of voorgeschreven is, en zo nodig corrigeert. Ze kan preventief zijn (vooraf voorkomen), detectief (achteraf vaststellen) of correctief (herstellen).",
+      "synoniemen": [
+        "controlehandeling",
+        "verificatie",
+        "control activity",
+        "preventieve controle",
+        "detectieve controle",
+        "correctieve controle",
+        "toetsing"
+      ]
+    },
+    {
+      "anchor_id": "1.7.II.F",
+      "anchor_type": "kenniselement",
+      "tekst": "Controleproces",
+      "verbose": "Het controleproces is de keten van stappen waarmee een onderneming risico's identificeert, controlemaatregelen ontwerpt, ze uitvoert, opvolgt en bijstuurt. Het loopt cyclisch en is verweven met de plan-do-check-act-logica van de bedrijfsvoering.",
+      "synoniemen": [
+        "control process",
+        "controlecyclus",
+        "PDCA-cyclus",
+        "beheersingsproces",
+        "control loop",
+        "monitoringproces",
+        "controlecirkel"
+      ]
+    },
+    {
+      "anchor_id": "1.7.II.G",
+      "anchor_type": "kenniselement",
+      "tekst": "Ethiek",
+      "verbose": "De toon aan de top en de gedragscode bepalen of de interne controle in de praktijk wordt nageleefd dan wel omzeild. Ethisch leiderschap, integriteitsbeleid en sancties bij overtreding zijn onmisbare zachte controles die het hele systeem dragen.",
+      "synoniemen": [
+        "tone at the top",
+        "bedrijfsethiek",
+        "integriteitsbeleid",
+        "gedragscode",
+        "ethical culture",
+        "soft controls",
+        "integriteitscultuur"
+      ]
+    },
+    {
+      "anchor_id": "1.7.V.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Interne audit",
+      "verbose": "De interne auditfunctie evalueert onafhankelijk of het beheersingssysteem zijn doelen bereikt en geeft de leiding zekerheid en advies. Ze is functioneel onafhankelijk van de operationele lijn en rapporteert idealiter aan het auditcomité.",
+      "synoniemen": [
+        "internal audit function",
+        "interne auditdienst",
+        "onafhankelijke interne controle",
+        "third line of defense",
+        "interne assurance-functie",
+        "intern toezicht"
+      ]
+    },
+    {
+      "anchor_id": "1.7.V.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Functie van de interne auditor",
+      "verbose": "De interne auditor plant audits op risicobasis, voert ze uit volgens vakinhoudelijke standaarden, rapporteert bevindingen en volgt de remediëring op. Hij of zij geeft aanbevelingen, vermijdt operationele beslissingen en bewaakt zo zijn objectiviteit.",
+      "synoniemen": [
+        "rol van interne auditor",
+        "internal auditor responsibilities",
+        "auditmandaat",
+        "auditplanning op risicobasis",
+        "interne auditmissie",
+        "auditcharter"
+      ]
+    },
+    {
+      "anchor_id": "1.7.V.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Externe audit",
+      "verbose": "Externe audit wordt uitgevoerd door een onafhankelijke beroepsbeoefenaar — typisch de commissaris — met als opdracht een redelijke zekerheid te geven over de getrouwheid van de financiële overzichten. De aanpak is gestandaardiseerd en sterk genormeerd, met focus op het risico van materiële fouten.",
+      "synoniemen": [
+        "external audit",
+        "wettelijke audit",
+        "statutory audit",
+        "controle van de jaarrekening",
+        "commissarismandaat",
+        "externe controle door revisor",
+        "onafhankelijke externe audit"
+      ]
+    },
+    {
+      "anchor_id": "1.7.V.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Auditcomité",
+      "verbose": "Een gespecialiseerd comité binnen het bestuursorgaan dat toezicht houdt op de financiële verslaggeving, de interne controle, de risicobeheersing en de externe audit. Het auditcomité is de schakel tussen het bestuur, de interne auditor en de commissaris.",
+      "synoniemen": [
+        "audit committee",
+        "auditcommissie",
+        "comité voor audit",
+        "raadcomité financiële verslaggeving",
+        "toezichtscomité audit",
+        "commissie van audit en risico"
+      ]
+    },
+    {
+      "anchor_id": "1.7.V.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Auditrisico’s",
+      "verbose": "Het auditrisico is het risico dat de auditor een onjuist oordeel uitspreekt en bestaat uit drie samenstellende delen: het inherente risico van de post, het controlerisico dat de interne controle de fout niet voorkomt of detecteert, en het ontdekkingsrisico dat eigen procedures ze missen. Deze drie delen worden gecombineerd om de aanpak en de omvang van werkzaamheden te bepalen.",
+      "synoniemen": [
+        "audit risk",
+        "auditrisicomodel",
+        "inherent risk",
+        "control risk",
+        "detection risk",
+        "inherent, controle- en ontdekkingsrisico",
+        "risico op onjuist oordeel"
+      ]
+    },
+    {
+      "anchor_id": "1.7.VII.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Aanpak voor de uitwerking van interne controle",
+      "verbose": "Een gestructureerde methode om interne controle te ontwerpen, beginnend met het in kaart brengen van processen en risico's, gevolgd door het selecteren van geschikte controlemaatregelen en het documenteren ervan in procedures en rolbeschrijvingen. De aanpak eindigt bij implementatie, opleiding en periodieke evaluatie.",
+      "synoniemen": [
+        "implementatiemethodologie interne controle",
+        "uitrol van interne beheersing",
+        "controleontwerp",
+        "design van internal controls",
+        "stappenplan interne controle",
+        "uitwerkingsproces controlesysteem"
+      ]
+    },
+    {
+      "anchor_id": "1.7.VII.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Taakverdeling",
+      "verbose": "Het verdelen van onverenigbare taken — autoriseren, uitvoeren, registreren en bewaren — over verschillende personen zodat één individu een verrichting niet alleen kan uitvoeren én verbergen. Functiescheiding is een van de krachtigste preventieve controlemaatregelen tegen fraude en fouten.",
+      "synoniemen": [
+        "functiescheiding",
+        "segregation of duties",
+        "scheiding van taken",
+        "incompatibele functies",
+        "rolscheiding",
+        "verdeling van bevoegdheden",
+        "vier-ogen-principe"
+      ]
+    },
+    {
+      "anchor_id": "1.7.VII.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Opvolging van de verrichtingen",
+      "verbose": "Het systematisch volgen van transacties van begin tot einde zodat afwijkingen snel zichtbaar worden, bijvoorbeeld door rapportering, openstaande-postenlijsten en uitzonderingsoverzichten. Goede opvolging zorgt dat fouten en frauduleuze verrichtingen niet onopgemerkt blijven liggen.",
+      "synoniemen": [
+        "transactie-opvolging",
+        "monitoring van verrichtingen",
+        "follow-up van boekhoudkundige stromen",
+        "openstaande posten beheer",
+        "exception reporting",
+        "transactiebewaking",
+        "opvolging van bewerkingen"
+      ]
+    },
+    {
+      "anchor_id": "1.7.VII.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Controlemiddelen",
+      "verbose": "Het arsenaal aan instrumenten dat de organisatie inzet om controle uit te voeren: handtekeningenbeleid, autorisatiematrix, paswoorden, checklists, fysieke beveiligingen, geautomatiseerde validaties en interne rapporten. De juiste mix hangt af van het risico en de aard van het proces.",
+      "synoniemen": [
+        "control means",
+        "controle-instrumenten",
+        "beheersmaatregelen",
+        "control techniques",
+        "controlemechanismen",
+        "controle-middelenmix",
+        "operationele controles"
+      ]
+    },
+    {
+      "anchor_id": "1.7.VII.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Geïnformatiseerde omgeving",
+      "verbose": "In een ICT-gedragen omgeving verschuiven veel controles van mens naar systeem: toegangsbeheer, geautomatiseerde validaties, audit trails en logbestanden worden centraal. Specifieke aandacht gaat naar general IT controls, applicatiecontroles en het scheiden van ontwikkelings-, test- en productie-omgevingen.",
+      "synoniemen": [
+        "IT-omgeving",
+        "geautomatiseerde verwerking",
+        "ITGC",
+        "general IT controls",
+        "application controls",
+        "ICT-controle-omgeving",
+        "computerised information environment"
+      ]
+    },
+    {
+      "anchor_id": "1.7.VII.F",
+      "anchor_type": "kenniselement",
+      "tekst": "Evaluatie van de interne controle",
+      "verbose": "De periodieke beoordeling van de opzet, het bestaan en de werking van de interne beheersing, doorgaans via walkthroughs, tests of self-assessments. De evaluatie levert input voor de auditor en voor het bestuur over waar bijsturing nodig is.",
+      "synoniemen": [
+        "control assessment",
+        "internal control evaluation",
+        "doeltreffendheidstoets",
+        "control self-assessment",
+        "beoordeling van controles",
+        "operating effectiveness testing",
+        "test of controls"
+      ]
+    },
+    {
+      "anchor_id": "1.7.IX.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Aankoopcyclus",
+      "verbose": "De keten van behoefte-aanvraag, bestelling, ontvangst, factuurontvangst en betaling waarbij elk stadium wordt gedragen door functiescheiding, autorisatiegrenzen en three-way matching tussen bestelbon, leveringsbon en factuur. Risicopunten zijn ongeoorloofde aankopen, dubbele betalingen en fictieve leveranciers.",
+      "synoniemen": [
+        "purchase-to-pay",
+        "P2P",
+        "inkoopcyclus",
+        "leveranciersfactuurproces",
+        "procure-to-pay",
+        "aankoopproces",
+        "inkoopstroom"
+      ]
+    },
+    {
+      "anchor_id": "1.7.IX.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Productiecyclus",
+      "verbose": "Het productieproces transformeert grondstoffen via arbeid en machine-uren naar afgewerkte producten en stelt eisen aan voorraadregistratie, kostprijsberekening en kwaliteitscontrole. Risico's zijn rendementsverlies, voorraadverschillen, foute kostenverdeling en schroot dat niet wordt geboekt.",
+      "synoniemen": [
+        "production cycle",
+        "fabricagecyclus",
+        "manufacturing cycle",
+        "productieproces",
+        "kostprijscyclus",
+        "make-cyclus",
+        "transformatieproces"
+      ]
+    },
+    {
+      "anchor_id": "1.7.IX.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Verkoopcyclus",
+      "verbose": "De cyclus van order, levering, facturatie, ontvangst van betaling en opvolging van openstaande klantvorderingen, met aandacht voor kredietgrenzen, prijslijsten en cut-off rond balansdatum. Frauderisico's omvatten fictieve verkopen, niet-gefactureerde leveringen en oneigenlijke kortingen.",
+      "synoniemen": [
+        "order-to-cash",
+        "O2C",
+        "verkoopproces",
+        "klantencyclus",
+        "facturatieproces",
+        "sales cycle",
+        "vorderingencyclus"
+      ]
+    },
+    {
+      "anchor_id": "1.7.IX.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Human resources",
+      "verbose": "De personeelscyclus omvat aanwerving, contractbeheer, loonberekening, uitbetaling en uitdiensttreding, telkens met aandacht voor functiescheiding tussen wie aanwerft, wie loonbedragen invoert en wie betaalt. Typische risico's zijn fictieve werknemers, foute parameters in het loonpakket en niet-aangegeven voordelen.",
+      "synoniemen": [
+        "personeelscyclus",
+        "loonadministratie",
+        "payroll",
+        "HR-processen",
+        "personeelsbeheer",
+        "hire-to-retire",
+        "loon- en personeelsbeheer"
+      ]
+    },
+    {
+      "anchor_id": "1.7.IX.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Voorraden (veiligheid en fysieke controle)",
+      "verbose": "Voorraadbeheer combineert administratieve controles zoals bin cards en perpetuele voorraadregistraties met fysieke controles zoals afgesloten magazijnen, toegangsbeheer en periodieke tellingen. Verschillen tussen administratieve en fysieke voorraad moeten onderzocht en geboekt worden.",
+      "synoniemen": [
+        "voorraadcontrole",
+        "stockbeheer",
+        "inventory control",
+        "fysieke voorraadtelling",
+        "magazijnbeveiliging",
+        "perpetual inventory",
+        "stocktaking"
+      ]
+    },
+    {
+      "anchor_id": "1.7.X.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Risico’s",
+      "verbose": "Risico's zijn gebeurtenissen die de doelstellingen kunnen bedreigen en worden gekarakteriseerd door hun waarschijnlijkheid en hun mogelijke impact. Een goede beheersing onderscheidt strategische, operationele, rapporterings- en compliancerisico's, en weegt ze af tegen de risk appetite van het bestuur.",
+      "synoniemen": [
+        "risks",
+        "bedrijfsrisico's",
+        "ondernemingsrisico's",
+        "risicofactoren",
+        "potentiële bedreigingen",
+        "risk universe",
+        "strategische, operationele, rapporterings- en compliancerisico's"
+      ]
+    },
+    {
+      "anchor_id": "1.7.X.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Fysieke beveiliging C. Functiescheiding",
+      "verbose": "Fysieke beveiliging beschermt activa en informatie via tastbare maatregelen zoals sloten, badges, kluizen, camerabewaking en serverruimtes met toegangscontrole. Functiescheiding scheidt onverenigbare taken zodat geen enkele persoon een verrichting alleen kan beheersen, en vormt samen met fysieke beveiliging de ruggengraat van preventieve controle.",
+      "synoniemen": [
+        "physical security",
+        "fysieke toegangscontrole",
+        "asset security",
+        "segregation of duties",
+        "scheiding van onverenigbare functies",
+        "vier-ogen-principe",
+        "tastbare beveiligingsmaatregelen"
+      ]
+    },
+    {
+      "anchor_id": "1.7.X.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Controlemaatregelen",
+      "verbose": "De concrete handelingen of mechanismen die ingebouwd worden om risico's te mitigeren, gaande van autorisaties en goedkeuringen tot reconciliaties, geprogrammeerde validaties en periodieke reviews. Ze worden gekozen in functie van het bewaakte risico en zijn bij voorkeur preventief eerder dan detectief.",
+      "synoniemen": [
+        "control activities",
+        "beheersmaatregelen",
+        "mitigerende controles",
+        "controleactiviteiten",
+        "preventieve en detectieve maatregelen",
+        "key controls",
+        "interne controlemaatregelen"
+      ]
+    },
+    {
+      "anchor_id": "1.7.XII.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Wettelijk kader",
+      "verbose": "Het geheel van Belgische en Europese verplichtingen die direct of indirect eisen stellen aan de inrichting van interne controle, governance en verslaggeving. Het kader varieert naar omvang van de onderneming en naar sector — beursgenoteerde, financiële en zorginstellingen kennen strengere regimes.",
+      "synoniemen": [
+        "regulatory framework",
+        "juridisch kader interne controle",
+        "wets- en reglementair kader",
+        "Belgisch en Europees kader",
+        "governance-regelgeving",
+        "wettelijk vereiste interne controle"
+      ]
+    },
+    {
+      "anchor_id": "1.7.XII.B",
+      "anchor_type": "kenniselement",
+      "tekst": "EU (ISA)",
+      "verbose": "De International Standards on Auditing zijn de internationale auditstandaarden die binnen de Europese Unie de basis vormen voor de wettelijke controle van financiële overzichten. Ze leggen onder meer vast hoe een auditor risico's beoordeelt, controlewerkzaamheden plant en zijn oordeel formuleert.",
+      "synoniemen": [
+        "International Standards on Auditing",
+        "ISA-standaarden",
+        "internationale controlestandaarden",
+        "auditstandaarden",
+        "Europese auditkader",
+        "ISA-framework",
+        "controlestandaarden IAASB"
+      ]
+    },
+    {
+      "anchor_id": "1.7.XII.C",
+      "anchor_type": "kenniselement",
+      "tekst": "ITAA-normen",
+      "verbose": "De beroepsnormen die het Instituut van de Belastingadviseurs en de Accountants oplegt aan zijn leden, met regels voor onafhankelijkheid, kwaliteitsbeheersing, beroepsgeheim en de uitvoering van specifieke opdrachten zoals inbreng in natura of quasi-inbreng. Ze concretiseren de algemene wetgeving naar de praktijk van de gecertificeerd accountant.",
+      "synoniemen": [
+        "beroepsnormen ITAA",
+        "ITAA-beroepsnormen",
+        "Institute of Tax Advisors and Accountants standards",
+        "deontologische normen accountants",
+        "kwaliteitsnormen ITAA",
+        "praktijknormen accountancy"
+      ]
+    },
+    {
+      "anchor_id": "1.7.XII.D",
+      "anchor_type": "kenniselement",
+      "tekst": "COSO I",
+      "verbose": "Het oorspronkelijke COSO-raamwerk beschrijft interne controle als een geïntegreerd systeem met vijf samenhangende componenten: controle-omgeving, risicobeoordeling, controleactiviteiten, informatie en communicatie, en monitoring. Het is wereldwijd het referentiemodel voor het ontwerp en de evaluatie van interne controle.",
+      "synoniemen": [
+        "COSO Internal Control Integrated Framework",
+        "COSO IC-IF",
+        "COSO 2013",
+        "Internal Control-Integrated Framework",
+        "vijf componenten van interne controle",
+        "COSO-kubus",
+        "COSO IC"
+      ]
+    },
+    {
+      "anchor_id": "1.7.XII.E",
+      "anchor_type": "kenniselement",
+      "tekst": "COSO II",
+      "verbose": "COSO ERM verbreedt het oorspronkelijke kader naar enterprise risk management door risicobeheersing te koppelen aan strategie en prestaties. Het benadrukt risk appetite, portefeuille-aanpak en de integratie van risicodenken in besluitvorming op alle niveaus.",
+      "synoniemen": [
+        "COSO ERM",
+        "Enterprise Risk Management",
+        "COSO ERM-Integrated Framework",
+        "risicomanagementkader",
+        "COSO 2017",
+        "ondernemingsrisicobeheer",
+        "ERM-framework"
+      ]
+    },
+    {
+      "anchor_id": "1.7.XII.F",
+      "anchor_type": "kenniselement",
+      "tekst": "Risicobeoordeling en -beheer",
+      "verbose": "Het cyclisch proces van risico's identificeren, analyseren naar waarschijnlijkheid en impact, prioriteren en beantwoorden via vermijden, verminderen, overdragen of accepteren. Goede risicobeoordeling werkt risk-based en stuurt waar de schaarse controlemiddelen worden ingezet.",
+      "synoniemen": [
+        "risk assessment",
+        "risk management",
+        "risicoanalyse",
+        "risicobeheersing",
+        "risicoresponsen",
+        "risk-based approach",
+        "ERM-proces"
+      ]
+    },
+    {
+      "anchor_id": "1.7.XII.G",
+      "anchor_type": "kenniselement",
+      "tekst": "Gereglementeerde beroepen (gecertificeerd accountant en revisor)",
+      "verbose": "De gecertificeerd accountant en de bedrijfsrevisor zijn beroepen met toegangsvoorwaarden, een verplichte stage, een examen en een tuchtkader. Hun monopolie of voorbehouden taken — zoals attesteringsopdrachten of de wettelijke controle — gaan gepaard met deontologische verplichtingen rond onafhankelijkheid en beroepsgeheim.",
+      "synoniemen": [
+        "gereglementeerde beroepen accountancy",
+        "gecertificeerd accountant",
+        "bedrijfsrevisor",
+        "regulated professions",
+        "beschermde beroepen",
+        "voorbehouden beroepsuitoefening",
+        "deontologisch gebonden beroep"
+      ]
+    },
+    {
+      "anchor_id": "1.7.XII.H",
+      "anchor_type": "kenniselement",
+      "tekst": "Wets- en reglementsteksten",
+      "verbose": "De geschreven bronnen die het beheersingskader van een onderneming inhoudelijk bepalen, gaande van vennootschapsrechtelijke en boekhoudkundige bronteksten over fiscale en sociaalrechtelijke regelingen tot sectorale en deontologische voorschriften. De interne controle moet zorgen dat deze teksten gekend, opgevolgd en geactualiseerd zijn.",
+      "synoniemen": [
+        "regelgevende bronnen",
+        "wetteksten en uitvoeringsbesluiten",
+        "reglementaire teksten",
+        "juridische brondocumenten",
+        "regulatory texts",
+        "compliance-bronnen",
+        "geschreven regelgeving"
+      ]
+    }
+  ]
+}

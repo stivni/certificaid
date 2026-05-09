@@ -1,0 +1,222 @@
+{
+  "po": "2.7",
+  "titel": "Regionale en lokale belastingen",
+  "po_file": "2.7-regionale-en-lokale-belastingen.json",
+  "n_anchors": 26,
+  "anchors": [
+    {
+      "anchor_id": "2.7.D1.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "2.7.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Begeleiding bij de oprichting van een onderneming"
+    },
+    {
+      "anchor_id": "2.7.D1.1.taak.2",
+      "anchor_type": "taak",
+      "taakblok": "2.7.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen"
+    },
+    {
+      "anchor_id": "2.7.D1.1.taak.3",
+      "anchor_type": "taak",
+      "taakblok": "2.7.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden"
+    },
+    {
+      "anchor_id": "2.7.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.7.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren"
+    },
+    {
+      "anchor_id": "2.7.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.7.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Geavanceerde concepten op het gebied van regionale en lokale belastingen toepassen op complexe gevallen."
+    },
+    {
+      "anchor_id": "2.7.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.7.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen."
+    },
+    {
+      "anchor_id": "2.7.D1.1.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.7.D1.1",
+      "taakblok_titel": "",
+      "tekst": "Fiscale risico’s kunnen analyseren en beheren."
+    },
+    {
+      "anchor_id": "2.7.D1.1.doel.5",
+      "anchor_type": "doelstelling",
+      "taakblok": "2.7.D1.1",
+      "taakblok_titel": "",
+      "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de genomen beslissing."
+    },
+    {
+      "anchor_id": "2.7.I",
+      "anchor_type": "kenniselement",
+      "tekst": "GEWESTELIJKE FISCALITEIT: gevorderd niveau + rechtspraak",
+      "parent_path": [
+        "Regionale en lokale belastingen"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Voor elk type, de algemene principes kennen betreffende:",
+      "parent_path": [
+        "Regionale en lokale belastingen"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.A.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Overgedragen belastingen",
+      "parent_path": [
+        "Regionale en lokale belastingen",
+        "Voor elk type, de algemene principes kennen betreffende:"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Fiscale bevoegdheid van gemeenschappen en gewesten",
+      "parent_path": [
+        "Regionale en lokale belastingen",
+        "Voor elk type, de algemene principes kennen betreffende:"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.A.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Autonome belastingen",
+      "parent_path": [
+        "Regionale en lokale belastingen",
+        "Voor elk type, de algemene principes kennen betreffende:"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.A.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Vestiging en invordering van belastingen",
+      "parent_path": [
+        "Regionale en lokale belastingen",
+        "Voor elk type, de algemene principes kennen betreffende:"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.A.1__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Bevoegdheid om de belasting te heffen",
+      "parent_path": [
+        "Regionale en lokale belastingen",
+        "Voor elk type, de algemene principes kennen betreffende:"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.A.2__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Belastingreglementering",
+      "parent_path": [
+        "Regionale en lokale belastingen",
+        "Voor elk type, de algemene principes kennen betreffende:"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.A.3__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Vestiging en invordering, en vervolging",
+      "parent_path": [
+        "Regionale en lokale belastingen",
+        "Voor elk type, de algemene principes kennen betreffende:"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.A.4__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Regeling van geschillen",
+      "parent_path": [
+        "Regionale en lokale belastingen",
+        "Voor elk type, de algemene principes kennen betreffende:"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Types:",
+      "parent_path": [
+        "Regionale en lokale belastingen"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Belastingregeling van het Brussels Hoofdstedelijk Gewest",
+      "parent_path": [
+        "Regionale en lokale belastingen",
+        "Types:"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Belastingregeling van het Vlaams Gewest",
+      "parent_path": [
+        "Regionale en lokale belastingen",
+        "Types:"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.B.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Belastingregeling van het Waals Gewest",
+      "parent_path": [
+        "Regionale en lokale belastingen",
+        "Types:"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.B.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Belastingen van de Gemeenschappen",
+      "parent_path": [
+        "Regionale en lokale belastingen",
+        "Types:"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.B.1__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Gemeentebelastingen",
+      "parent_path": [
+        "Regionale en lokale belastingen",
+        "Types:"
+      ]
+    },
+    {
+      "anchor_id": "2.7.I.B.2__2",
+      "anchor_type": "kenniselement",
+      "tekst": "Provinciebelastingen",
+      "parent_path": [
+        "Regionale en lokale belastingen",
+        "Types:"
+      ]
+    },
+    {
+      "anchor_id": "2.7.II",
+      "anchor_type": "kenniselement",
+      "tekst": "LOKALE BELASTINGEN: gevorderd niveau + rechtspraak",
+      "parent_path": [
+        "Regionale en lokale belastingen"
+      ]
+    }
+  ]
+}
