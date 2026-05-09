@@ -153,15 +153,6 @@ def test_inject_headings_artikel_omzetting():
     assert new_body.startswith("# Wet X")
 
 
-@pytest.mark.xfail(
-    reason=(
-        "Bekende bug: bij absorbing label (BOEK) flusht inject_headings de pending "
-        "absorbed (DEEL) ipv te combineren. Treedt ook in productie op (WVV: "
-        "'## DEEL 2.' en '## BOEK 4.' staan apart ipv 'DEEL 2 - BOEK 4'). "
-        "Fix gepland in fase B (convert.py refactor) — buiten scope van A1 (lib-verhuizing)."
-    ),
-    strict=True,
-)
 def test_inject_headings_merge_combineert_deel_en_boek():
     body = (
         "# Wet X\n\n"

@@ -324,14 +324,22 @@ def inject_headings(
                 continue
 
             # Geen absorbed label: flush alle pending die dit label "overtroeft"
-            # (d.w.z. het pending absorbed level >= huidig level)
+            # (d.w.z. het pending absorbed level >= huidig level).
+            #
+            # Belangrijk: als dit label een absorbing-label is met pending absorbed
+            # (bv. BOEK terwijl pending_merge[BOEK] = "DEEL I"), dan moeten we die
+            # specifieke pending NIET flushen — die wordt direct hierna gecombineerd
+            # tot één heading "## DEEL I - BOEK 2. Titel". Anders mist de merge.
+            exclude_from_flush = label if (label in merge_parent and label in pending_merge) else None
             current_level = level_map.get(label, 99)
             for absorbing_label in list(pending_merge.keys()):
+                if absorbing_label == exclude_from_flush:
+                    continue
                 if level_map.get(absorbing_label, 99) >= current_level:
-                    flush_pending(exclude_absorbing=None)
+                    flush_pending(exclude_absorbing=exclude_from_flush)
                     break
             else:
-                flush_pending(exclude_absorbing=label if label in pending_merge else None)
+                flush_pending(exclude_absorbing=exclude_from_flush)
 
             if label in level_map:
                 level = level_map[label]
