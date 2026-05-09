@@ -37,6 +37,11 @@ provenance:
     confirmed_at: null           # ISO-datum van laatste status-wijziging
     confirmed_by: null           # "human" | "subagent-sonnet-4-6" | "default" | …
     rationale: null              # 1-3 zinnen optionele toelichting
+    # Auto-trust workflow (ADR-005 §5 v2 — 2026-05-09)
+    agent_verdict_at: null       # ISO-datum: wanneer agent op trusted zette
+    sample_pick: false           # true = mens moet steekproef-review doen
+    sample_reviewed_at: null     # ISO-datum: wanneer mens beoordeelde
+    sample_reviewed_by: null     # "human" of identifier
 ```
 
 **Per artefact-type plek**:
@@ -47,9 +52,11 @@ provenance:
 
 **Stale-marking**: input-hash verandert → `tools/lib/provenance.py` cascadeert `stale: true` + reden naar alle downstream artefacten. Geen automatische regeneratie (zie ADR-003).
 
-**Trust-marking**: `trust.status` is de operationele output van de kwaliteits-gate (ADR-005 §5). Default `unreviewed` voor alle nieuwe of bestaande bronnen zonder expliciete beoordeling. Wordt door `tools/etl/mark_trusted.py` op `trusted | needs-rework | rejected` gezet, eventueel vanuit een subagent-verdict-bestand. `tools/rag/rag_index.py` filtert default op `trust.status == "trusted"`.
+**Trust-marking**: `trust.status` is de operationele output van de kwaliteits-gate (ADR-005 §5). Default `unreviewed` voor alle nieuwe of bestaande bronnen zonder expliciete beoordeling. In de v2-flow (auto-trust) wordt `trust.status` door `tools/etl/promote_staging.py` gezet op basis van Laag 1 + Laag 1.5 (diff-review) + Laag 2 (subagent-judgment) verdicts. `confirmed_by` is dan een subagent-identifier (bv. `subagent-sonnet-4-6`); `mark_trusted.py` blijft beschikbaar voor handmatige overrides. `tools/rag/rag_index.py` filtert default op `trust.status == "trusted"`.
 
-Verband met stale: een ETL-update die een bron hercreëert kan beschouwd worden als reden om de vorige trust-confirmatie te laten vervallen (terug naar `unreviewed`). Die cascade is nog niet geïmplementeerd; voorlopig blijft trust expliciet door de mens beheerd via `mark_trusted.py`.
+**Steekproef-tracking**: `sample_pick: true` markeert bronnen die door `sample_review.py` random getrokken zijn voor menselijke review. Detectie of de mens daadwerkelijk gekeken heeft: vergelijk `mtime(bestand)` met `agent_verdict_at`. De tool toont een lijst van uitstaande, OK-bevonden, en problematische steekproef-picks. Bij `--mark-not-ok` op één pick gaan alle auto-trusted bronnen in dezelfde batch terug naar `unreviewed`.
+
+Verband met stale: een ETL-update die een bron hercreëert kan beschouwd worden als reden om de vorige trust-confirmatie te laten vervallen (terug naar `unreviewed`). Die cascade is nog niet geïmplementeerd; voorlopig blijft trust expliciet door `convert.py` of `mark_trusted.py` beheerd.
 
 **Chunk-id-stabiliteit als requirement**: voor incremental rebuild (alleen veranderde chunks her-embedden, alleen stale concept-velden her-extraheren) moeten chunk-ids stabiel zijn over runs zolang de chunk-strategie ongewijzigd is.
 
