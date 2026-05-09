@@ -110,7 +110,7 @@ Artikel 3:172, I.A. van het uitvoeringsbesluit bij het WVV omschrijft *omzet[^13
 
 De M.A.R.[^14] voorziet binnen de rubriek 70 *Omzet *de volgende onderverdeling:
 
-700 *Verkopen en dienstprestaties*  
+700 *Verkopen en dienstprestaties* 
 
 708 *Toegekende kortingen, ristorno’s en rabatten (-)*
 
@@ -118,13 +118,13 @@ De M.A.R.[^14] voorziet binnen de rubriek 70 *Omzet *de volgende onderverdeling:
 
 De resultatenrekening bevat de volgende gegevens:
 
--    omzet: 3.300.000 euro;  
+- omzet: 3.300.000 euro; 
 
--    andere bedrijfsopbrengsten: 200.000 euro;  
+- andere bedrijfsopbrengsten: 200.000 euro; 
 
--    financiële opbrengsten: 700.000 euro; en  
+- financiële opbrengsten: 700.000 euro; en 
 
--    niet-recurrente financiële opbrengsten: 550.000 euro.
+- niet-recurrente financiële opbrengsten: 550.000 euro.
 
 Volgens de algemene regel, vervat in artikel 3:172, I.A. KB WVV, bedraagt de omzet 3.300.000 euro.
 
@@ -140,13 +140,13 @@ Wat de financiële opbrengsten, met uitzondering van de niet-recurrente financi�
 
 Uit de resultatenrekening blijken de volgende cijfers:
 
--    omzet: 300.000 euro;  
+- omzet: 300.000 euro; 
 
--    andere bedrijfsopbrengsten (met uitzondering van de niet-recurrente): 850.000 euro;  
+- andere bedrijfsopbrengsten (met uitzondering van de niet-recurrente): 850.000 euro; 
 
--    financiële opbrengsten (met uitzondering van de niet-recurrente): 270.000 euro; en  
+- financiële opbrengsten (met uitzondering van de niet-recurrente): 270.000 euro; en 
 
--    niet-recurrente financiële en bedrijfsopbrengsten: 550.000 euro.
+- niet-recurrente financiële en bedrijfsopbrengsten: 550.000 euro.
 
 De eerste drie posten komen voort uit het gewoon bedrijf van de vzw. Samen vormen zij een totaal van 1.420.000 euro, waarvan meer dan de helft is samengesteld door opbrengsten buiten “Omzet” (omzet in de zin van artikel 3:172, I.A. KB WVV). In dit geval wordt voor de toepassing van de artikelen 1:28 en 1:29 WVV het cijfer van 1.420.000[^16] euro als omzet beschouwd.
 
@@ -200,7 +200,7 @@ De neerlegging vindt rechtstreeks plaats bij de griffie[^29] van de ondernemings
 1. Jaargemiddelde van 5 werknemers; 
 2. In totaal 334.500 euro aan andere dan niet-recurrente ontvangsten, exclusief btw; 
 3. In totaal 1.337.000 euro aan bezittingen; 
-4. In totaal 1.337.000 euro aan schulden.   
+4. In totaal 1.337.000 euro aan schulden. 
 
 Indien een vzw ervoor kiest om een dubbele boekhouding te voeren hoewel deze de criteria niet overschrijdt om een vereenvoudigde boekhouding te voeren, moet deze ook de bijhorende jaarrekening opstellen volgens het verkort schema of het microschema. Niettemin kan deze vzw nog steeds de jaarrekening gratis neerleggen bij de bevoegde griffie.
 
@@ -213,17 +213,17 @@ De jaarrekening moet bij de Nationale Bank van België worden neergelegd indien 
 1. Jaargemiddelde van 5 werknemers; 
 2. In totaal 334.500 euro aan andere dan niet-recurrente ontvangsten, exclusief btw; 
 3. In totaal 1.337.000 euro aan bezittingen; 
-4. In totaal 1.337.000 euro aan schulden.   
+4. In totaal 1.337.000 euro aan schulden. 
 
 De Nationale Bank van België stelt voor deze neerlegging standaardschema’s ter beschikking op haar website.
 
-De bestuursorganen van de vzw’s die geen kleine vzw zijn zoals gedefinieerd in artikel 1:28 WVV zijn verplicht[^31] om een jaarverslag op te stellen dat gelijktijdig wordt neergelegd[^32] met de jaarrekening.
+De bestuursorganen van de vzw’s die geen kleine vzw zijn zoals gedefinieerd in artikel 1:28 WVV zijn verplicht[^31] om een jaarverslag op te stellen dat gelijktijdig wordt neergelegd[^32] met de jaarrekening.
 
 ## Financieel plan - begroting
 
-De oprichters van een besloten vennootschap, een coöperatieve vennootschap of een naamloze vennootschap moeten vóór de oprichting een financieel plan overhandigen aan de bij de oprichting optredende notaris  waarin zij het bedrag van het aanvangsvermogen verantwoorden in het licht van de voorgenomen bedrijvigheid van de vennootschap over een periode van ten minste twee jaar.[^33] Er bestaat geen equivalente verplichting voor de oprichting van een vzw.
+De oprichters van een besloten vennootschap, een coöperatieve vennootschap of een naamloze vennootschap moeten vóór de oprichting een financieel plan overhandigen aan de bij de oprichting optredende notaris waarin zij het bedrag van het aanvangsvermogen verantwoorden in het licht van de voorgenomen bedrijvigheid van de vennootschap over een periode van ten minste twee jaar.[^33] Er bestaat geen equivalente verplichting voor de oprichting van een vzw.
 
-Niettemin moet iedere vzw jaarlijks een begroting opmaken. Deze begroting moet binnen de zes maanden te rekenen vanaf de balansdatum van het laatst afgesloten boekjaar ter goedkeuring worden voorgelegd aan de algemene vergadering.[^34] Er gelden geen vormvoorschriften voor de opmaak van deze begroting. De Commissie merkt op dat het bestuursorgaan van iedere vzw, ongeacht haar grootte, tijdens de gewone algemene vergadering de financiële toestand en de uitvoering van de begroting moet toelichten.[^35] Het kan hiervoor nuttig zijn dat de begroting in dezelfde vorm opgemaakt wordt als de jaarrekening van de vzw.  
+Niettemin moet iedere vzw jaarlijks een begroting opmaken. Deze begroting moet binnen de zes maanden te rekenen vanaf de balansdatum van het laatst afgesloten boekjaar ter goedkeuring worden voorgelegd aan de algemene vergadering.[^34] Er gelden geen vormvoorschriften voor de opmaak van deze begroting. De Commissie merkt op dat het bestuursorgaan van iedere vzw, ongeacht haar grootte, tijdens de gewone algemene vergadering de financiële toestand en de uitvoering van de begroting moet toelichten.[^35] Het kan hiervoor nuttig zijn dat de begroting in dezelfde vorm opgemaakt wordt als de jaarrekening van de vzw. 
 
 ## Voorbeelden
 
@@ -235,9 +235,9 @@ Het voorgaande geldt *mutatis mutandis* voor de ivzw’s en de stichtingen. De C
 
 ## Schematische voorstelling
 
-Volledig schema van de jaarrekening: Bijlage 6 bij het KB WVV  
+Volledig schema van de jaarrekening: Bijlage 6 bij het KB WVV 
 
-Verkort en microschema van de jaarrekening: Bijlage 7 bij het KB WVV  
+Verkort en microschema van de jaarrekening: Bijlage 7 bij het KB WVV 
 
 Vereenvoudigde schema van de jaarrekening: Bijlage 8 bij het KB WVV
 

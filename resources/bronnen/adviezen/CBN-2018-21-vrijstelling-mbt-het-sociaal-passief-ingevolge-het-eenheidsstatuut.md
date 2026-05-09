@@ -36,36 +36,36 @@ gerelateerde_adviezen:
 
 ## Inleiding
 
-De Commissie voor Boekhoudkundige Normen werd gevraagd hoe de vrijstelling m.b.t. het sociaal passief ingevolge het eenheidsstatuut, voorzien door artikel 67*quater* van het Wetboek van de inkomstenbelastingen 1992 (hierna: WIB 92)[^2], zich zal vertalen in de boekhouding en de jaarrekening. 
+De Commissie voor Boekhoudkundige Normen werd gevraagd hoe de vrijstelling m.b.t. het sociaal passief ingevolge het eenheidsstatuut, voorzien door artikel 67*quater* van het Wetboek van de inkomstenbelastingen 1992 (hierna: WIB 92)[^2], zich zal vertalen in de boekhouding en de jaarrekening. 
 
-Artikel 67*quater* WIB 92 werd ingevoegd door artikel 102 van de wet van 26 december 2013 betreffende de invoering van een eenheidsstatuut tussen arbeiders en bedienden[^3], zoals gewijzigd door artikel 39 van de wet van 18 december 2015 houdende fiscale en diverse bepalingen. 
+Artikel 67*quater* WIB 92 werd ingevoegd door artikel 102 van de wet van 26 december 2013 betreffende de invoering van een eenheidsstatuut tussen arbeiders en bedienden[^3], zoals gewijzigd door artikel 39 van de wet van 18 december 2015 houdende fiscale en diverse bepalingen. 
 
 Met deze nieuwe fiscale vrijstelling moeten de bijkomende kosten die voortvloeien uit het eenheidsstatuut tussen arbeider en bediende gedeeltelijk gecompenseerd worden. Deze vrijstelling is echter van algemene aard in die zin dat ze “*niet enkel de werknemers betreft waarvoor de ontslagkost ingevolge het eenheidsstatuut hoger is dan voorheen*”[^4].
 
 ## Korte voorstelling van de vrijstelling
 
-Artikel 67*quater* WIB 92 stelt de winsten vrij “*tot beloop van een bepaald bedrag aan bezoldigingen toegekend aan werknemers die bij de betrokken belastingplichtige minimaal 5 dienstjaren hebben na 1 januari 2014*”[^5]. 
+Artikel 67*quater* WIB 92 stelt de winsten vrij “*tot beloop van een bepaald bedrag aan bezoldigingen toegekend aan werknemers die bij de betrokken belastingplichtige minimaal 5 dienstjaren hebben na 1 januari 2014*”[^5]. 
 
-Deze maatregel heeft bijgevolg pas fiscale gevolgen vanaf 1 januari 2019. 
+Deze maatregel heeft bijgevolg pas fiscale gevolgen vanaf 1 januari 2019. 
 
 Het vrij te stellen bedrag van de winsten is degressief in de tijd. Het bedraagt drie weken bezoldiging per begonnen dienstjaar vanaf het 6de dienstjaar na 1 januari 2014. Vanaf het 21ste dienstjaar na 1 januari 2014 bedraagt de belastingvrijstelling niet meer dan één week bezoldiging per bijkomend begonnen dienstjaar.[^6] 
 
 Het bedrag van de bezoldigingen dat in aanmerking genomen moet worden voor de berekening van de vrijstelling is beperkt tot de maxima vastgelegd door artikel 46*ter* van het koninklijk besluit tot uitvoering van het WIB 92 (hierna: KB/WIB 92).[^7]
- Artikel 46*quater* KB/WIB 92 bepaalt de toepassingsmodaliteiten van deze vrijstelling.[^8] 
+ Artikel 46*quater* KB/WIB 92 bepaalt de toepassingsmodaliteiten van deze vrijstelling.[^8] 
 
 Artikel 67*quater* WIB 92 verduidelijkt dat “wanneer de betrokken werknemer de onderneming verlaat, [...] het totale voor deze werknemer reeds vrijgestelde bedrag [moet] worden opgenomen in de winsten [...] van het belastbaar tijdperk waarin de tewerkstelling een einde neemt[^9]
 ”. De voorbereidende werken bevestigen dat de vrijstelling moet worden teruggenomen wanneer de werknemer de onderneming om gelijk welke reden verlaat[^10].
 
 ## Boekhoudkundige voorstelling
 
-Boekhoudkundig zal de vrijstelling inzake het sociaal passief enkel het bedrag van de verschuldigde belastingen op het resultaat van het boekjaar verminderen, conform de maxima en de modaliteiten voorzien door de artikelen 46*ter* en 46*quater* KB/WIB 92. 
+Boekhoudkundig zal de vrijstelling inzake het sociaal passief enkel het bedrag van de verschuldigde belastingen op het resultaat van het boekjaar verminderen, conform de maxima en de modaliteiten voorzien door de artikelen 46*ter* en 46*quater* KB/WIB 92. 
 
 Er is geen boeking nodig. Volgens de Commissie kan de vennootschap de vrijstelling niet boeken onder de belastingvrije reserves, aangezien er fiscaal geen voorwaarde geldt dat het bedrag in het vermogen van de vennootschap behouden blijft (zogenaamde “ontastbaarheidsvoorwaarde”).[^11] 
 
-De terugname van deze vrijstelling wanneer de werknemer de onderneming verlaat, zal een verhoging van de belastbare winst van de vennootschap tot gevolg hebben. Ook op dat ogenblik is geen boeking vereist. Deze verhoging zal verminderd worden met “*de kosten die met het ontslag gepaard gaan (verbrekingsvergoeding, loon tijdens de opzegtermijn, …)*”[^12]. 
+De terugname van deze vrijstelling wanneer de werknemer de onderneming verlaat, zal een verhoging van de belastbare winst van de vennootschap tot gevolg hebben. Ook op dat ogenblik is geen boeking vereist. Deze verhoging zal verminderd worden met “*de kosten die met het ontslag gepaard gaan (verbrekingsvergoeding, loon tijdens de opzegtermijn, …)*”[^12]. 
 
 Het bestuursorgaan moet oordelen of het bedrag van de vrijstelling een passieve belastinglatentie van materieel belang[^13]
- vormt die in de toelichting van het volledig schema moet worden vermeld, tussen de passieve belastinglatenties.[^14] 
+ vormt die in de toelichting van het volledig schema moet worden vermeld, tussen de passieve belastinglatenties.[^14] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 18 juni 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

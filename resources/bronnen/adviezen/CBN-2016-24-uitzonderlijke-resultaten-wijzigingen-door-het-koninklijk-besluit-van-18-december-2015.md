@@ -57,30 +57,30 @@ Herstructureringskosten kunnen van verschillende aard zijn: uitzonderlijke afsch
 | *7601* | | *Terugneming van afschrijvingen op materiële vaste activa* | 
 | *7620* | | *Terugneming van voorzieningen voor niet-recurrente bedrijfsrisico’s en kosten* | 
 | *7630* | | *Meerwaarde op de realisatie van immateriële en materiële vaste activa* | 
-| *764 > 768* | | *Andere niet-recurrente bedrijfsopbrengsten * | 
+| *764 > 768* | | *Andere niet-recurrente bedrijfsopbrengsten * | 
 | **Niet-recurrente bedrijfskosten ** | 
 | *6600* | | *Niet-recurrente afschrijvingen en waardeverminderingen op oprichtingskosten* | 
 | *6601* | | *Niet-recurrente afschrijvingen en waardeverminderingen op immateriële vaste activa* | 
 | *6602* | | *Niet-recurrente afschrijvingen en waardeverminderingen op materiële vaste activa* | 
 | *6620* | | *Voorzieningen voor niet-recurrente bedrijfsrisico’s en kosten* | 
-|   | | *66200 Toevoeging* | 
-|   | | *66201 Besteding (-)* | 
+| | | *66200 Toevoeging* | 
+| | | *66201 Besteding (-)* | 
 | *6630* | | *Minderwaarde op de realisatie van immateriële en materiële vaste activa* | 
 | *664 > 667* | | *Andere niet-recurrente bedrijfskosten* | 
 | *6690* | | *Als herstructureringskosten geactiveerde niet-recurrente bedrijfskosten (-)* | 
 | **Niet-recurrente financiële opbrengsten** | 
 | *761* | | *Terugneming van waardeverminderingen op financiële vaste activa* | 
-| *7621* | | * Terugneming van voorzieningen voor niet-recurrente financiële risico’s en kosten* | 
+| *7621* | | * Terugneming van voorzieningen voor niet-recurrente financiële risico’s en kosten* | 
 | *7631* | | *Meerwaarde op de realisatie van financiële vaste activa* | 
 | *769* | | *Andere niet-recurrente financiële opbrengsten* | 
-| **Niet-recurrente financiële kosten  ** | 
+| **Niet-recurrente financiële kosten ** | 
 | *661* | | *Waardeverminderingen op financiële vaste activa (toevoeging)* | 
 | *6621* | | *Voorzieningen voor niet-recurrente financiële risico’s en kosten* | 
-|   | | *66210 Toevoeging* | 
-|   | | *66211 Besteding (-)* | 
+| | | *66210 Toevoeging* | 
+| | | *66211 Besteding (-)* | 
 | *6631* | | *Minderwaarde op de realisatie van financiële vaste activa* | 
 | *668* | | *Andere niet-recurrente financiële kosten* | 
-| *6691* | | *Als herstructureringskosten geactiveerde niet-recurrente financiële kosten (-) * | 
+| *6691* | | *Als herstructureringskosten geactiveerde niet-recurrente financiële kosten (-) * | 
 
 ## Vermelding in de toelichting
 
@@ -90,7 +90,7 @@ De Commissie wenst tot slot in herinnering te brengen dat bij de eerste toepassi
 
 ***Voorbeeld***
 
-Een onderneming die een boekhouding voert per kalenderjaar en een VKT schema opmaakt en publiceert, en in boekjaar 2015 een meerwaarde van 200.000 heeft geboekt onder de uitzonderlijke opbrengsten, zal in de jaarrekening over het boekjaar 2016 de vergelijkende cijfers met betrekking tot het voorafgaande boekjaar (2015) moeten aanpassen, *i.e.* deze meerwaarde van 200.000 in de kolom met cijfers van het vorige boekjaar opnemen onder de brutomarge, en een passende vermelding maken in de toelichting. De aanpassing van de vergelijkende cijfers dringt zich op omwille van de wijziging van voorstellingswijze, die inhoudt dat voor boekjaren die aanvangen na 31 december 2015 dezelfde resultaten in de resultatenrekening op een andere plaats worden weergegeven dan in de resultatenrekening van het voorgaande boekjaar, hetgeen in dit voorbeeld een impact heeft op de presentatie van de brutomarge van het vorige boekjaar (2015). Het bedrag van de brutomarge dat in de jaarrekening van 2016 is opgenomen met betrekking tot het vorige boekjaar (2015), zal in dit voorbeeld immers 200.000 hoger zijn dan het bedrag dat als brutomarge in de jaarrekening van het boekjaar 2015 gepresenteerd wordt.  
+Een onderneming die een boekhouding voert per kalenderjaar en een VKT schema opmaakt en publiceert, en in boekjaar 2015 een meerwaarde van 200.000 heeft geboekt onder de uitzonderlijke opbrengsten, zal in de jaarrekening over het boekjaar 2016 de vergelijkende cijfers met betrekking tot het voorafgaande boekjaar (2015) moeten aanpassen, *i.e.* deze meerwaarde van 200.000 in de kolom met cijfers van het vorige boekjaar opnemen onder de brutomarge, en een passende vermelding maken in de toelichting. De aanpassing van de vergelijkende cijfers dringt zich op omwille van de wijziging van voorstellingswijze, die inhoudt dat voor boekjaren die aanvangen na 31 december 2015 dezelfde resultaten in de resultatenrekening op een andere plaats worden weergegeven dan in de resultatenrekening van het voorgaande boekjaar, hetgeen in dit voorbeeld een impact heeft op de presentatie van de brutomarge van het vorige boekjaar (2015). Het bedrag van de brutomarge dat in de jaarrekening van 2016 is opgenomen met betrekking tot het vorige boekjaar (2015), zal in dit voorbeeld immers 200.000 hoger zijn dan het bedrag dat als brutomarge in de jaarrekening van het boekjaar 2015 gepresenteerd wordt. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 20 juli 2016 ter consultatie werd gepubliceerd op de website van de CBN.
 

@@ -32,7 +32,7 @@ provenance:
     confirmed_by: human
     rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
 gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van de door  de Waalse regering gecreëerde opleidingscheques
+  - titel: De boekhoudkundige verwerking van de door de Waalse regering gecreëerde opleidingscheques
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
     datum: '2013-04-24'
   - titel: De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992
@@ -42,32 +42,32 @@ gerelateerde_adviezen:
 
 # CBN-advies 2010/11 – Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde van de werkgever (update)
 
-CBN-advies 2010/11 – Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde van de werkgever (update)
+CBN-advies 2010/11 – Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde van de werkgever (update)
 
 De Commissie werd gevraagd naar de boekhoudkundige verwerking van loontussenkomsten door de overheid in het kader van het “win-win aanwervingsplan”[^2].
 
 Het win-win aanwervingsplan houdt in dat de overheid gedurende een aantal maanden een “werkuitkering” betaalt aan een werknemer die op het ogenblik van de indienstneming uitkeringsgerechtigde volledige werkloze was, voor zover werknemer en werkgever voldoen aan alle voorwaarden omschreven in het koninklijk besluit van 19 december 2001.
 
-Deze werkuitkering wordt in mindering gebracht van het door de werkgever te betalen nettoloon[^3]. De loontussenkomst betekent dus voor de werkgever een vrijstelling van betaling van een deel van het nettoloon aan de werknemer. 
+Deze werkuitkering wordt in mindering gebracht van het door de werkgever te betalen nettoloon[^3]. De loontussenkomst betekent dus voor de werkgever een vrijstelling van betaling van een deel van het nettoloon aan de werknemer. 
 
 Van zodra het ontstaan van de loonlast enerzijds en de eventueel gedeeltelijke vrijstelling van betaling anderzijds hun oorsprong vinden in verschillende juridische kaders, kan er, volgens de Commissie, niet worden overgegaan tot de boeking van deze vrijstelling op de creditzijde van de rekening 620 “Bezoldigingen en rechtstreekse sociale voordelen”, aangezien compensatie verboden is (artikel 3:2, § 2 van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen)[^4].
 
-De loonlast resulteert uit het arbeidscontract dat gesloten werd tussen werknemer en werkgever. De werkuitkering, die in mindering wordt gebracht van het te betalen nettoloon, vindt daarentegen haar oorsprong in het koninklijk besluit van 19 december 2001. Aangezien er dus sprake is van twee verschillende juridische verhoudingen, is de Commissie van mening dat de loonlast van de desbetreffende werknemers bruto geregistreerd moet worden. 
+De loonlast resulteert uit het arbeidscontract dat gesloten werd tussen werknemer en werkgever. De werkuitkering, die in mindering wordt gebracht van het te betalen nettoloon, vindt daarentegen haar oorsprong in het koninklijk besluit van 19 december 2001. Aangezien er dus sprake is van twee verschillende juridische verhoudingen, is de Commissie van mening dat de loonlast van de desbetreffende werknemers bruto geregistreerd moet worden. 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 620 | Bezoldigingen en rechtstreekse sociale voordelen | x |  |
-|  | 621 | Werkgeversbijdragen voor sociale verzekeringen | x |  |
-| aan | 453 | Ingehouden voorheffingen |  | x |
-|  | 454 | Rijksdienst voor sociale zekerheid | x |  |
-|  | 455 | Bezoldigingen | x |  |
+| | 620 | Bezoldigingen en rechtstreekse sociale voordelen | x | |
+| | 621 | Werkgeversbijdragen voor sociale verzekeringen | x | |
+| aan | 453 | Ingehouden voorheffingen | | x |
+| | 454 | Rijksdienst voor sociale zekerheid | x | |
+| | 455 | Bezoldigingen | x | |
 
 Het wegvallen van een deel van de schuld met betrekking tot bezoldigingen dient als een exploitatiesubsidie beschouwd te worden, aangezien dit rechtstreeks het exploitatieresultaat beïnvloedt. Dit moet geboekt worden onder de bedrijfsopbrengsten, in de rubriek I.D. *Andere bedrijfsopbrengsten*.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 455 | Bezoldigingen | x |  |
-| aan | 740 | Bedrijfssubsidies en compenserende bedragen |  | x |
+| | 455 | Bezoldigingen | x | |
+| aan | 740 | Bedrijfssubsidies en compenserende bedragen | | x |
 
 [^1]: Onderhavig geactualiseerd advies is tot stand gekomen nadat het ontwerpadvies op 30 april 2025 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

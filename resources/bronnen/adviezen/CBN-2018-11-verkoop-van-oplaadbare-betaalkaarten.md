@@ -31,33 +31,33 @@ provenance:
 
 # CBN-advies 2018/11 – Verkoop van (oplaadbare) betaalkaarten
 
-1.   Algemeen  
-2.  Kleine
- vereniging of stichting  
-3.  Ondernemingen en niet-kleine verenigingen en stichtingen  
+1. Algemeen 
+2. Kleine
+ vereniging of stichting 
+3. Ondernemingen en niet-kleine verenigingen en stichtingen 
 
- vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen  
+ vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen 
 
-##  Algemeen
+## Algemeen
 
-In onderhavig advies verduidelijkt de Commissie de boekhoudkundige verwerking van de verkoop van betaalkaarten of de heroplading van dergelijke kaarten. Dergelijke kaarten kunnen al dan niet op naam zijn. Onderhavig advies verduidelijkt zowel de boekhoudkundige verwerking in hoofde van verenigingen en stichtingen als voor ondernemingen. 
+In onderhavig advies verduidelijkt de Commissie de boekhoudkundige verwerking van de verkoop van betaalkaarten of de heroplading van dergelijke kaarten. Dergelijke kaarten kunnen al dan niet op naam zijn. Onderhavig advies verduidelijkt zowel de boekhoudkundige verwerking in hoofde van verenigingen en stichtingen als voor ondernemingen. 
 
-De betaalkaarten bedoeld in onderhavig advies betreffen uitsluitend de tegoedkaarten of tegoedbonnen (cadeaubonnen) die worden uitgereikt of opgeladen als tegenprestatie voor de ontvangst van een som geld. Onderhavig advies gaat dus niet verder in op de boekhoudkundige verwerking van bijvoorbeeld tegoed- of kortingbonnen die worden uitgereikt naar aanleiding van een lancering van een nieuw product of ter promotie van de aankoop van producten. Onderhavig advies gaat evenmin nader in op de boekhoudkundige verwerking van uitgereikte *vouchers voor enkelvoudig gebruik[^2] *. 
+De betaalkaarten bedoeld in onderhavig advies betreffen uitsluitend de tegoedkaarten of tegoedbonnen (cadeaubonnen) die worden uitgereikt of opgeladen als tegenprestatie voor de ontvangst van een som geld. Onderhavig advies gaat dus niet verder in op de boekhoudkundige verwerking van bijvoorbeeld tegoed- of kortingbonnen die worden uitgereikt naar aanleiding van een lancering van een nieuw product of ter promotie van de aankoop van producten. Onderhavig advies gaat evenmin nader in op de boekhoudkundige verwerking van uitgereikte *vouchers voor enkelvoudig gebruik[^2] *. 
 
 ## Kleine[^3]
- vereniging of stichting
+ vereniging of stichting
 
 De vereniging of stichting die een vereenvoudigde boekhouding voert zoals bedoeld in de artikelen 17, § 2, 37, § 2, of 53, § 2 van de wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de stichtingen en de Europese politieke partijen en stichtingen (hierna: de vzw-wet) moet de mutaties in contanten of op rekeningen inschrijven in een ongesplitst dagboek volgens een genormaliseerd model[^4].
 
 De sommen die door een kleine vereniging of stichting worden ontvangen om geplaatst te worden op een betaalkaart, worden aldus onmiddellijk ingeschreven onder de ontvangsten zonder de door de vereniging of stichting te leveren tegenprestatie af te wachten en maken deel uit van de totaliteit van de Ontvangsten op te nemen in het *Genormaliseerd minimaal schema van de Staat van de ontvangsten en uitgaven[^5] *.
 
-In een heel aantal gevallen zijn de bedragen gestort op een betaalkaart terugbetaalbaar wanneer deze bedragen niet worden verbruikt. Wanneer in dergelijk geval de betaalkaart op inventarisdatum nog niet verbruikte sommen bevat, moeten deze sommen opgenomen worden onder de *Andere schulden *in het* Genormaliseerd minimaal schema van de staat van het vermogen* [^6] ,[^7]. 
+In een heel aantal gevallen zijn de bedragen gestort op een betaalkaart terugbetaalbaar wanneer deze bedragen niet worden verbruikt. Wanneer in dergelijk geval de betaalkaart op inventarisdatum nog niet verbruikte sommen bevat, moeten deze sommen opgenomen worden onder de *Andere schulden *in het* Genormaliseerd minimaal schema van de staat van het vermogen* [^6] ,[^7]. 
 
 ## Ondernemingen en niet-kleine verenigingen en stichtingen
 
 Ondernemingen en verenigingen en stichtingen die hun boekhouding voeren met inachtneming van de regels van het dubbel boekhouden registreren de bedragen die worden ontvangen om een betaalkaart op te laden onmiddellijk als een schuld. Wanneer deze betaalkaart vervolgens wordt gebruikt ter betaling van de aankoop van een goed of een geleverde dienst wordt deze schuldenrekening gedebiteerd en wordt een opbrengst geregistreerd.
 
-|  
+| 
 
 *Voorbeeld*
 
@@ -67,8 +67,8 @@ Een onderneming ontvangt van een klant 100 euro om deze op te laden op een betaa
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 570 | Kassen-contanten | 100,00 |  |
-| aan | 489 | Diverse schulden |  | 100,00 |
+| | 570 | Kassen-contanten | 100,00 | |
+| aan | 489 | Diverse schulden | | 100,00 |
 
 **Boeking bij verkoop en betaling product**
 
@@ -76,15 +76,15 @@ Een onderneming ontvangt van een klant 100 euro om deze op te laden op een betaa
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 489 | Diverse schulden | 1,06 |  |
-| aan | 451 | Te betalen btw |  | 0,06 |
-|  | 70 | Omzet | 1,00 |  |
+| | 489 | Diverse schulden | 1,06 | |
+| aan | 451 | Te betalen btw | | 0,06 |
+| | 70 | Omzet | 1,00 | |
 
  | 
 
 Indien de betaalkaart niet terugbetaalbaar is en op de vervaldatum het opgeladen krediet niet volledig werd verbruikt, wordt het niet verbruikte gedeelte van de betaalkaart als opbrengst geboekt.
 
-|  
+| 
 
 *Voorbeeld*
 
@@ -94,12 +94,12 @@ Op de vervaldatum van (het saldo op) een uitgegeven betaalkaart komt een bedrag 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 489 | Diverse schulden | 13,00 |  |
-| aan | 743 | Diverse bedrijfsopbrengsten |  | 13,00 |
+| | 489 | Diverse schulden | 13,00 | |
+| aan | 743 | Diverse bedrijfsopbrengsten | | 13,00 |
 
  | 
 
-  De natuurlijke personen die koopman zijn, de vennootschappen onder firma en de gewone commanditaire vennootschappen mogen evenwel een vereenvoudigde boekhouding voeren als hun omzet exclusief btw over het laatste boekjaar het bedrag van 500.000 euro niet overschrijdt.[^9] Net zoals de kleine verenigingen en stichtingen kunnen zij zich er toe beperken om de ontvangsten en de uitgaven te registreren en jaarlijks een inventaris op te maken. In deze inventaris worden in voorkomend geval de op de betaalkaarten nog aanwezige terugbetaalbare tegoeden vermeld onder de schulden en/of verplichtingen.
+ De natuurlijke personen die koopman zijn, de vennootschappen onder firma en de gewone commanditaire vennootschappen mogen evenwel een vereenvoudigde boekhouding voeren als hun omzet exclusief btw over het laatste boekjaar het bedrag van 500.000 euro niet overschrijdt.[^9] Net zoals de kleine verenigingen en stichtingen kunnen zij zich er toe beperken om de ontvangsten en de uitgaven te registreren en jaarlijks een inventaris op te maken. In deze inventaris worden in voorkomend geval de op de betaalkaarten nog aanwezige terugbetaalbare tegoeden vermeld onder de schulden en/of verplichtingen.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 10 april 2018 ter publieke consultatie werdgepubliceerd op de website van de CBN.
 

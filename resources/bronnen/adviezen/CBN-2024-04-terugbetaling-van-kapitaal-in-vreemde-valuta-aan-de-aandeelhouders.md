@@ -51,10 +51,10 @@ gerelateerde_adviezen:
 ## Inleiding
 
 Wanneer een Belgische vennootschap (die haar boekhouding in euro voert) een deelneming verkrijgt in een vennootschap met een andere functionele valuta dan de euro, wordt het bedrag van de inbreng in geld in vreemde valuta omgezet in euro tegen in principe de wisselkoers van de dag van de verrichting[^2]
- (historische wisselkoers). Deze deelneming blijft steeds geboekt in de boekhouding en jaarrekening van de Belgische vennootschap tegen de historische wisselkoers.
+ (historische wisselkoers). Deze deelneming blijft steeds geboekt in de boekhouding en jaarrekening van de Belgische vennootschap tegen de historische wisselkoers.
 
 In onderhavig advies bespreekt de Commissie de boekhoudkundige verwerking in hoofde van een Belgische vennootschap-aandeelhouder van een (gedeeltelijke) terugbetaling van kapitaal[^3]
- door een buitenlandse vennootschap met een andere functionele valuta dan de euro die leidt tot een wisselverlies (of -winst) ingeval de historische wisselkoers van de vreemde munt t.o.v. de euro hoger (of lager) is dan de actuele koers.
+ door een buitenlandse vennootschap met een andere functionele valuta dan de euro die leidt tot een wisselverlies (of -winst) ingeval de historische wisselkoers van de vreemde munt t.o.v. de euro hoger (of lager) is dan de actuele koers.
 
 Onderhavig advies behandelt uitsluitend stabiele, internationaal erkende, vreemde valuta, zoals bijvoorbeeld de valuta van de OESO-landen.[^4] 
 
@@ -65,12 +65,12 @@ Er moet worden opgemerkt dat de Commissie in het verleden een advies heeft uitge
 In artikel 3:13 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) wordt volgend beginsel opgenomen: elk actiefbestanddeel [wordt] gewaardeerd tegen aanschaffingswaarde en voor dat bedrag in de balans opgenomen.
 
 In CBN-advies 152/4 verduidelijkt de Commissie dat de aanschaffingswaarde waartegen niet-monetaire activa (waaronder deelnemingen en aandelen) worden en blijven opgenomen in de jaarrekening, de aanschaffingswaarde in euro is die bekomen wordt door op de prijs in vreemde valuta de gekozen omrekeningskoers toe te passen.[^6]
- De aanschaffingswaarde van deze activa wordt - in principe - niet beïnvloed door het latere koersverloop van de munt waarin de aankoopschuld is uitgedrukt noch door de werkelijke koers waartegen de schuld op de vervaldag wordt voldaan. Het is inderdaad zo dat het koersverloop van de valuta waarin de aankoopschuld is uitgedrukt, volledig los staat van de bepaling van de aanschaffingswaarde van deze niet-monetaire activa.[^7] 
+ De aanschaffingswaarde van deze activa wordt - in principe - niet beïnvloed door het latere koersverloop van de munt waarin de aankoopschuld is uitgedrukt noch door de werkelijke koers waartegen de schuld op de vervaldag wordt voldaan. Het is inderdaad zo dat het koersverloop van de valuta waarin de aankoopschuld is uitgedrukt, volledig los staat van de bepaling van de aanschaffingswaarde van deze niet-monetaire activa.[^7] 
 
 Zodra de aanschaffingswaarde in euro wordt bepaald, moet - en mag - er geen rekening meer gehouden worden met het gegeven dat deze aanschaffingswaarde oorspronkelijk in een andere valuta werd uitgedrukt. Bijgevolg moet de aanschaffingswaarde niet meer aangepast worden aan de latere evolutie van de wisselkoers van de vreemde munt.
 
 Door het principe zoals opgenomen in artikel 3:13 KB WVV (beginsel van boeking tegen aanschaffingswaarde) in verband te brengen met het gegeven dat de deelnemingen niet-monetaire activa zijn (waardoor de aanschaffingswaarde in principe niet kan worden aangepast aan latere wisselkoersschommelingen), moet een terugbetaling van kapitaal in vreemde valuta door een buitenlandse vennootschap (die leidt tot een vermindering[^8] van de boekwaarde van de deelneming van de vennootschap-aandeelhouder), in hoofde van de vennootschap-aandeelhouder, in euro worden omgezet tegen de *historische *wisselkoers[^9]
- en niet tegen de *actuele* wisselkoers[^10]. Zodoende zal het bedrag waarmee de boekwaarde van de deelneming zal worden gecrediteerd niet worden beïnvloed door het latere koersverloop van de valuta. De actuele wisselkoers zal wel bepalend zijn voor de boeking van de vordering die ontstaat als gevolg van de beslissing tot terugbetaling.  
+ en niet tegen de *actuele* wisselkoers[^10]. Zodoende zal het bedrag waarmee de boekwaarde van de deelneming zal worden gecrediteerd niet worden beïnvloed door het latere koersverloop van de valuta. De actuele wisselkoers zal wel bepalend zijn voor de boeking van de vordering die ontstaat als gevolg van de beslissing tot terugbetaling. 
 
 In geval van waardedaling van de vreemde munt t.o.v. de euro[^11], is de aanrekening (credit) op de deelneming (tegen de historische wisselkoers) groter dan de boekwaarde van de vordering die ontstaat naar aanleiding van de kapitaalvermindering (tegen de actuele wisselkoers[^12]). Aldus moet een kost (wisselverlies) geboekt worden (ten belope van het verschil tussen, enerzijds, het credit van de deelneming en, anderzijds, het debet van de vordering) op rekening 654 *Wisselresultaten*.
 
@@ -86,13 +86,13 @@ Boekingen in boekjaar 20X0
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 28 | Financiële vaste activa | 130.000 |  |
-| aan | 55 | Kredietinstellingen: rekening-courant |  | 130.000 |
+| | 28 | Financiële vaste activa | 130.000 | |
+| aan | 55 | Kredietinstellingen: rekening-courant | | 130.000 |
 
 Hypothese 1: in de loop van X+3 voert vennootschap B een kapitaalvermindering door van 50 % via een terugbetaling van 50.000 USD aan vennootschap A. De wisselkoers EUR/USD bedraagt op dat moment 1,20 EUR voor 1 USD.[^15]
- De 50.000 USD bedraagt hierdoor nog slechts 60.000 EUR.
+ De 50.000 USD bedraagt hierdoor nog slechts 60.000 EUR.
 
-Vennootschap A dient op de actiefzijde van de balans weer te geven dat de investering in vennootschap B met de helft werd verminderd. Vennootschap A dient aldus de aanschaffingswaarde van de B-aandelen te verminderen ten belope van 65.000 EUR (d.i. 50.000 USD tegen de historische wisselkoers) teneinde de werkelijke historische aanschaffingswaarde van de investering van vennootschap A in B weer te geven. 
+Vennootschap A dient op de actiefzijde van de balans weer te geven dat de investering in vennootschap B met de helft werd verminderd. Vennootschap A dient aldus de aanschaffingswaarde van de B-aandelen te verminderen ten belope van 65.000 EUR (d.i. 50.000 USD tegen de historische wisselkoers) teneinde de werkelijke historische aanschaffingswaarde van de investering van vennootschap A in B weer te geven. 
 
 Vennootschap A moet vervolgens (1) het bedrag boeken van de terugbetaling van kapitaal, d.i. 50.000 USD of 60.000 EUR, alsook (2) een (wissel)verlies van 5.000 EUR.
 
@@ -100,14 +100,14 @@ Boekingen in boekjaar 20X3 bij de effectieve terugbetaling van kapitaal
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 55 | Kredietinstellingen: rekening-courant | 60.000 |  |
-|  | 654 | Wisselresultaten | 5.000 |  |
-| aan | 28 | Financiële vaste activa |  | 65.000 |
+| | 55 | Kredietinstellingen: rekening-courant | 60.000 | |
+| | 654 | Wisselresultaten | 5.000 | |
+| aan | 28 | Financiële vaste activa | | 65.000 |
 
 Hypothese 2: in de loop van X+3 voert vennootschap B een kapitaalvermindering door van 50 % d.m.v. een terugbetaling van 50.000 USD aan vennootschap A. De wisselkoers[^16]
- EUR/USD bedraagt op dat moment 1,40 EUR voor 1 USD. De 50.000 USD bedraagt op dat moment 70.000 EUR.
+ EUR/USD bedraagt op dat moment 1,40 EUR voor 1 USD. De 50.000 USD bedraagt op dat moment 70.000 EUR.
 
-Vennootschap A dient op de actiefzijde van de balans weer te geven dat de investering in vennootschap B met de helft werd verminderd. Vennootschap A dient aldus de aanschaffingswaarde van de B-aandelen te verminderen ten belope van 65.000 EUR (d.i. 50.000 USD tegen de historische wisselkoers) teneinde de werkelijke historische aanschaffingswaarde van de investering van vennootschap A in B weer te geven. 
+Vennootschap A dient op de actiefzijde van de balans weer te geven dat de investering in vennootschap B met de helft werd verminderd. Vennootschap A dient aldus de aanschaffingswaarde van de B-aandelen te verminderen ten belope van 65.000 EUR (d.i. 50.000 USD tegen de historische wisselkoers) teneinde de werkelijke historische aanschaffingswaarde van de investering van vennootschap A in B weer te geven. 
 
 Vennootschap A moet vervolgens (1) het bedrag boeken van de terugbetaling van kapitaal, d.i. 50.000 USD of 70.000 EUR, alsook (2) een winst (wisselwinst) van 5.000 EUR.
 
@@ -115,9 +115,9 @@ Boekingen in boekjaar 20X3 bij de effectieve terugbetaling van kapitaal
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 55 | Kredietinstellingen : rekening-courant | 70.000 |  |
-| aan | 28 | Financiële vaste activa |  | 65.000 |
-|  | 754 | Wisselresultaten | 5.000 |  |
+| | 55 | Kredietinstellingen : rekening-courant | 70.000 | |
+| aan | 28 | Financiële vaste activa | | 65.000 |
+| | 754 | Wisselresultaten | 5.000 | |
 
 ## Voorbeeld 2
 
@@ -129,14 +129,14 @@ Boekingen in boekjaar 20X0 in hoofde van vennootschap A
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 28 | Financiële vaste activa | 130.000 |  |
-| aan | 55 | Kredietinstellingen: rekening-courant |  | 130.000 |
+| | 28 | Financiële vaste activa | 130.000 | |
+| aan | 55 | Kredietinstellingen: rekening-courant | | 130.000 |
 
-Veronderstel dat een Belgische vennootschap C in 20X1 de deelneming van vennootschap A in vennootschap B verwerft voor een bedrag van 80.000 USD (op het moment van de overname had de Amerikaanse vennootschap B een kapitaal van 100.000 USD en overdraagbare verliezen van 20.000 USD). 
+Veronderstel dat een Belgische vennootschap C in 20X1 de deelneming van vennootschap A in vennootschap B verwerft voor een bedrag van 80.000 USD (op het moment van de overname had de Amerikaanse vennootschap B een kapitaal van 100.000 USD en overdraagbare verliezen van 20.000 USD). 
 
-Omgerekend aan de historische wisselkoers (deze die gold bij oprichting van vennootschap B, zijnde 1,3 EUR voor 1 USD) komt het bedrag van 80.000 USD overeen met 104.000 EUR. 
+Omgerekend aan de historische wisselkoers (deze die gold bij oprichting van vennootschap B, zijnde 1,3 EUR voor 1 USD) komt het bedrag van 80.000 USD overeen met 104.000 EUR. 
 
-Hierdoor ontstaat in hoofde van vennootschap A naar aanleiding van de verkoop van de participatie een minderwaarde bij de realisatie van deze financiële vaste activa van 26.000 EUR (oorspronkelijke aanschaffingswaarde 130.000 EUR – 104.000 EUR). 
+Hierdoor ontstaat in hoofde van vennootschap A naar aanleiding van de verkoop van de participatie een minderwaarde bij de realisatie van deze financiële vaste activa van 26.000 EUR (oorspronkelijke aanschaffingswaarde 130.000 EUR – 104.000 EUR). 
 
 Aangezien de wisselkoers op moment van overdracht van de deelneming aan vennootschap C in 20X1 evenwel 1,4 EUR voor 1 USD bedraagt, ontstaat als gevolg van de overdracht van de participatie een vordering van 112.000 EUR (verkoopprijs 80.000 USD x 1,4).
 
@@ -146,17 +146,17 @@ Boeking bij verkoop van de participatie in hoofde van vennootschap A
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 416 | Diverse vorderingen | 112.000 |  |
-|  | 663 | Minderwaarde bij realisatie van vaste activa | 26.000 |  |
-| aan | 28 | Financiële vaste activa |  | 130.000 |
-|  | 754 | Wisselresultaten | 8.000 |  |
+| | 416 | Diverse vorderingen | 112.000 | |
+| | 663 | Minderwaarde bij realisatie van vaste activa | 26.000 | |
+| aan | 28 | Financiële vaste activa | | 130.000 |
+| | 754 | Wisselresultaten | 8.000 | |
 
 Boeking in hoofde van vennootschap C van de verwerving van de participatie aan 80.000 USD, omgerekend aan de wisselkoers op transactiedatum (80.000 USD x 1,4 EUR/USD)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 28 | Financiële vaste activa | 112.000 |  |
-| aan | 55 | Kredietinstellingen: rekening-courant |  | 112.000 |
+| | 28 | Financiële vaste activa | 112.000 | |
+| aan | 55 | Kredietinstellingen: rekening-courant | | 112.000 |
 
 In het jaar 20X2 realiseert vennootschap B voldoende winst die de eerder geleden verliezen overschrijden. Het eigen vermogen van vennootschap B bedraagt opnieuw 100.000 USD.
 
@@ -172,10 +172,10 @@ Boeking in hoofde van vennootschap C van de terugbetaling van het kapitaal
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 416 | Diverse vorderingen | 60.000 |  |
-|  | 654 | Wisselresultaat | 10.000 |  |
-| aan | 28 | Financiële vaste activa |  | 56.000 |
-|  | 769 | Andere niet-recurrente financiële opbrengsten | 14.000 |  |
+| | 416 | Diverse vorderingen | 60.000 | |
+| | 654 | Wisselresultaat | 10.000 | |
+| aan | 28 | Financiële vaste activa | | 56.000 |
+| | 769 | Andere niet-recurrente financiële opbrengsten | 14.000 | |
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 18 augustus 2023 ter openbare raadpleging werd gepubliceerd op de website van de CBN.
 

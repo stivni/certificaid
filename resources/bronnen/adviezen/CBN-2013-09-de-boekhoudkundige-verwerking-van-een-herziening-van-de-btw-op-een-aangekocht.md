@@ -31,22 +31,22 @@ gerelateerde_adviezen:
   - titel: Dividenduitkering en kapitaalvermindering in natura
     url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
     datum: '2019-03-12'
-  - titel: Boekhoudkundige verwerking  van de vergoeding voor een borg in het kader van de financiering  van een voor verkoop bestemd onroerend goed
+  - titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van de financiering van een voor verkoop bestemd onroerend goed
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
     datum: '2017-05-31'
-  - titel: De boekhoudkundige verwerking van  immateriële vaste activa
+  - titel: De boekhoudkundige verwerking van immateriële vaste activa
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
     datum: '2012-10-10'
 ---
 
 # CBN-advies 2013/9 – De boekhoudkundige verwerking van een herziening van de btw op een aangekocht bedrijfsmiddel
 
-Aan de Commissie werd de vraag gesteld op welke wijze een herziening van de belasting over de toegevoegde waarde (hierna: btw) op een aangekocht materieel vast actief boekhoudkundig moet worden verwerkt.  
+Aan de Commissie werd de vraag gesteld op welke wijze een herziening van de belasting over de toegevoegde waarde (hierna: btw) op een aangekocht materieel vast actief boekhoudkundig moet worden verwerkt. 
 
-In toepassing van artikel 36 van het koninklijk besluit ter uitvoering van het Wetboek van Vennootschappen omvat de aanschaffingsprijs van een aangekocht materieel vast actief naast de aankoopprijs de bijkomende kosten zoals niet terugbetaalbare belastingen en vervoerskosten.   
+In toepassing van artikel 36 van het koninklijk besluit ter uitvoering van het Wetboek van Vennootschappen omvat de aanschaffingsprijs van een aangekocht materieel vast actief naast de aankoopprijs de bijkomende kosten zoals niet terugbetaalbare belastingen en vervoerskosten. 
 
-Wanneer de btw geheven op bedrijfsmiddelen die eerder door een belastingplichtige werd afgetrokken wordt herzien, zal deze herziening geen aanleiding geven tot een aanpassing van de aanschaffingswaarde van het bedrijfsmiddel.   
+Wanneer de btw geheven op bedrijfsmiddelen die eerder door een belastingplichtige werd afgetrokken wordt herzien, zal deze herziening geen aanleiding geven tot een aanpassing van de aanschaffingswaarde van het bedrijfsmiddel. 
 
-De herziening van de btw moet worden geboekt op de rekening 64 *Bedrijfsbelastingen* of op een rekening 743 tot 749 *Diverse bedrijfsopbrengsten* afhankelijk van het geval of de herziening respectievelijk resulteert in een negatieve dan wel een positieve herziening.   
+De herziening van de btw moet worden geboekt op de rekening 64 *Bedrijfsbelastingen* of op een rekening 743 tot 749 *Diverse bedrijfsopbrengsten* afhankelijk van het geval of de herziening respectievelijk resulteert in een negatieve dan wel een positieve herziening. 
 
 De Commissie wenst hier nog aan toe te voegen dat, wanneer de herziening het gevolg is van uitzonderlijke omstandigheden, de herziening boekhoudkundig wordt verwerkt als een uitzonderlijk resultaat.

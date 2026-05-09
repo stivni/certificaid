@@ -41,7 +41,7 @@ Met onderhavig advies neemt de Commissie geen standpunt in over de toepasselijke
 
 ## Beknopte beschrijving van de modaliteiten van het belastingkrediet voor onderzoek en ontwikkeling
 
-Het belastingkrediet voor kosten van onderzoek en ontwikkeling houdt grosso modo in dat een vennootschap in haar aangifte in de vennootschapsbelasting[^2] een bedrag in functie van de gedane kosten voor onderzoek en ontwikkeling kan verrekenen met de te betalen belasting. Indien de te betalen belasting lager is dan het verrekenbaar bedrag kan de vennootschap het niet verrekende gedeelte van dit bedrag overdragen naar het volgend belastbaar tijdperk. Het saldo van het overgedragen belastingkrediet van het oudste aanslagjaar wordt het eerst verrekend.[^3] Indien het belastingkrediet na verrekening met de belasting van vijf achtereenvolgende aanslagjaren niet volledig kan worden verrekend, wordt het gedeelte dat niet kon worden verrekend, terugbetaald middels de inkohiering van de belasting met betrekking tot dat vijfde aanslagjaar.
+Het belastingkrediet voor kosten van onderzoek en ontwikkeling houdt grosso modo in dat een vennootschap in haar aangifte in de vennootschapsbelasting[^2] een bedrag in functie van de gedane kosten voor onderzoek en ontwikkeling kan verrekenen met de te betalen belasting. Indien de te betalen belasting lager is dan het verrekenbaar bedrag kan de vennootschap het niet verrekende gedeelte van dit bedrag overdragen naar het volgend belastbaar tijdperk. Het saldo van het overgedragen belastingkrediet van het oudste aanslagjaar wordt het eerst verrekend.[^3] Indien het belastingkrediet na verrekening met de belasting van vijf achtereenvolgende aanslagjaren niet volledig kan worden verrekend, wordt het gedeelte dat niet kon worden verrekend, terugbetaald middels de inkohiering van de belasting met betrekking tot dat vijfde aanslagjaar.
 
 Om van het belastingkrediet te kunnen genieten moet de belastingplichtige hiervoor opteren vanaf een bepaald belastbaar tijdperk. Hiertoe moet een formulier 275W worden toegevoegd aan de aangifte.
 
@@ -61,9 +61,9 @@ De Commissie leidt uit voormelde verantwoording tot instelling van een systeem v
 
 De boekhoudkundige verwerking van het belastingkrediet voor kosten van onderzoek en ontwikkeling wordt geïllustreerd aan de hand van de volgende cijfervoorbeelden.
 
-### Eenmalig belastingkrediet voor onderzoek en ontwikkeling
+### Eenmalig belastingkrediet voor onderzoek en ontwikkeling
 
-Het belastingkrediet voor het boekjaar N bedraagt 6.000 euro. Op het einde van dat boekjaar is het slechts verrekenbaar voor een bedrag van 2.500 euro.
+Het belastingkrediet voor het boekjaar N bedraagt 6.000 euro. Op het einde van dat boekjaar is het slechts verrekenbaar voor een bedrag van 2.500 euro.
 
 **Boeking in jaar N, het jaar van de investering die recht geeft op het belastingkrediet**
 
@@ -71,20 +71,20 @@ Het belastingkrediet voor het boekjaar N bedraagt 6.000 euro. Op het einde va
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 412 | Terug te vorderen belastingen en voorheffingen | 6.000 |  |
-| aan | 67/77 | Belastingen op het resultaat/Regularisering van belastingen en terugneming van fiscale voorzieningen |  | 6.000 |
+| | 412 | Terug te vorderen belastingen en voorheffingen | 6.000 | |
+| aan | 67/77 | Belastingen op het resultaat/Regularisering van belastingen en terugneming van fiscale voorzieningen | | 6.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 670 | Belgische belastingen op het resultaat van het boekjaar | 2.500 |  |
-| aan | 412 | Terug te vorderen belastingen en voorheffingen |  | 2.500 |
+| | 670 | Belgische belastingen op het resultaat van het boekjaar | 2.500 | |
+| aan | 412 | Terug te vorderen belastingen en voorheffingen | | 2.500 |
 
 **Boeking in jaar N+1: het overgedragen belastingkrediet is verrekenbaar voor een bedrag van 1.500 euro**
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 670 | Belgische belastingen op het resultaat van het boekjaar | 1.500 |  |
-| aan | 412 | Terug te vorderen belastingen en voorheffingen |  | 1.500 |
+| | 670 | Belgische belastingen op het resultaat van het boekjaar | 1.500 | |
+| aan | 412 | Terug te vorderen belastingen en voorheffingen | | 1.500 |
 
 **Boeking in jaren N+2 en N+3**
 
@@ -96,10 +96,10 @@ Ook voor het jaar N+4 is er geen vennootschapsbelasting verschuldigd. Op het ein
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen: Rekening-courant | 2.000 |  |
-| aan | 412 | Terug te vorderen belastingen en voorheffingen |  | 2.000 |
+| | 5500 | Kredietinstellingen: Rekening-courant | 2.000 | |
+| aan | 412 | Terug te vorderen belastingen en voorheffingen | | 2.000 |
 
-### Gespreid belastingkrediet voor onderzoek en ontwikkeling
+### Gespreid belastingkrediet voor onderzoek en ontwikkeling
 
 Een vennootschap opteert voor een gespreid belastingkrediet in functie van de fiscaal aanvaarde afschrijvingen van het actiefbestanddeel waarvoor het belastingkrediet wordt verkregen. Het belastingkrediet heeft betrekking op een investering die boekhoudkundig en fiscaal wordt afgeschreven over tien jaren met vaste annuïteiten. Het totale bedrag van het gespreid belastingkrediet bedraagt, voor de eenvoud afgerond, 7.600 euro. Indien de vennootschap zou opteren voor een éénmalig belastingkrediet zou dit, afgerond, 5.000 euro bedragen.[^10] 
 
@@ -113,23 +113,23 @@ Op het ogenblik van de investering die recht geeft op het belastingkrediet wordt
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 412 | Terug te vorderen belastingen en voorheffingen | 5.000 |  |
+| | 412 | Terug te vorderen belastingen en voorheffingen | 5.000 | |
 | aan | 67/77 | Belastingen op het resultaat/Regularisering van
-			belastingen en terugneming van fiscale voorzieningen |  | 5.000 |
+			belastingen en terugneming van fiscale voorzieningen | | 5.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 670 | Belgische belastingen op het resultaat van het boekjaar | 450 |  |
-| aan | 412 | Terug te vorderen belastingen en voorheffingen |  | 450 |
+| | 670 | Belgische belastingen op het resultaat van het boekjaar | 450 | |
+| aan | 412 | Terug te vorderen belastingen en voorheffingen | | 450 |
 
 **Boekingen in het jaar N+1**
 
-Het verrekenbaar bedrag ontstaan in het jaar N+1 bedraagt 760 euro. Er is een overgedragen belastingkrediet van het voorgaande jaar voor een bedrag van 310 euro. Het bedrag van het verrekenbaar belastingkrediet tijdens het jaar N+1 bedraagt bijvoorbeeld 850 euro. Het saldo van het overgedragen belastingkrediet van het oudste aanslagjaar (310 euro van het jaar N) wordt het eerst verrekend. Het effectief verrekend bedrag[^12] is dus samengesteld uit het nog niet verrekend gedeelte van het jaar N (310 euro) en een gedeelte (540 euro, zijnde 850 euro – 310 euro) van het belastingkrediet ontstaan in het jaar N+1. De overdracht naar het jaar N+2 bedraagt aldus 220[^13] euro.
+Het verrekenbaar bedrag ontstaan in het jaar N+1 bedraagt 760 euro. Er is een overgedragen belastingkrediet van het voorgaande jaar voor een bedrag van 310 euro. Het bedrag van het verrekenbaar belastingkrediet tijdens het jaar N+1 bedraagt bijvoorbeeld 850 euro. Het saldo van het overgedragen belastingkrediet van het oudste aanslagjaar (310 euro van het jaar N) wordt het eerst verrekend. Het effectief verrekend bedrag[^12] is dus samengesteld uit het nog niet verrekend gedeelte van het jaar N (310 euro) en een gedeelte (540 euro, zijnde 850 euro – 310 euro) van het belastingkrediet ontstaan in het jaar N+1. De overdracht naar het jaar N+2 bedraagt aldus 220[^13] euro.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 670 | Belgische belastingen op het resultaat van het boekjaar | 850 |  |
-| aan | 412 | Terug te vorderen belastingen en voorheffingen |  | 850 |
+| | 670 | Belgische belastingen op het resultaat van het boekjaar | 850 | |
+| aan | 412 | Terug te vorderen belastingen en voorheffingen | | 850 |
 
 **Boekingen in de jaren N+2, N+3, N+4 en N+5**
 
@@ -143,7 +143,7 @@ Op het einde van het jaar N+6 wordt een nieuw belastingkrediet verworven voor ee
 
 Voor de jaren N+7, N+8 en N+9 wordt voor elk van die jaren een nieuw belastingkrediet verworven ten belope van een bedrag van 760 euro. Voor ieder van die jaren wordt bij het ontstaan van het belastingkrediet een vordering geboekt ten bedrage van 760 euro.
 
-### Verlies van het belastingkrediet voor onderzoek en ontwikkeling
+### Verlies van het belastingkrediet voor onderzoek en ontwikkeling
 
 Wanneer het belastingkrediet verloren gaat wordt het verlies van de vordering op de overheid onmiddellijk geboekt op de rekening 67 *Belastingen op het resultaat[^14] *.
 

@@ -42,17 +42,17 @@ gerelateerde_adviezen:
 
 # CBN-advies 2012/12 - Vrijstelling van subconsolidatie
 
-CBN-advies 2012/12 - Vrijstelling van subconsolidatie  
+CBN-advies 2012/12 - Vrijstelling van subconsolidatie 
 
 ## Inleiding
 
-Op basis van artikel 113, § 1 van het Wetboek van vennootschappen (hierna: W.Venn.) wordt een vennootschap, voor zover is voldaan aan een aantal voorwaarden[^1], vrijgesteld van de verplichting om een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen indien zij zelf de dochtervennootschap is van een moedervennootschap die een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening opstelt, laat controleren en openbaar maakt.  
+Op basis van artikel 113, § 1 van het Wetboek van vennootschappen (hierna: W.Venn.) wordt een vennootschap, voor zover is voldaan aan een aantal voorwaarden[^1], vrijgesteld van de verplichting om een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen indien zij zelf de dochtervennootschap is van een moedervennootschap die een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening opstelt, laat controleren en openbaar maakt. 
 
 Artikel 114 W.Venn. voegt hier evenwel aan toe dat deze vrijstelling niet van toepassing is wanneer alle of een deel van de aandelen die zijn uitgegeven door één van de vennootschappen die moeten worden geconsolideerd, zijn genoteerd in de zin van artikel 4 W.Venn.[^2] 
 
 Aan de Commissie voor Boekhoudkundige Normen werd de vraag gesteld wat moet worden begrepen onder de zinsnede “één van de vennootschappen die moeten worden geconsolideerd” uit artikel 114 W.Venn.
 
- Een voorbeeld ter verduidelijking. We veronderstellen een moedervennootschap X die een aantal dochterondernemingen controleert zoals bepaald onder artikel 5 W.Venn. Op basis van de consolidatieverplichting zoals vastgelegd in artikel 110, § 1 W.Venn. moet zij bijgevolg een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening opstellen[^3].  
+ Een voorbeeld ter verduidelijking. We veronderstellen een moedervennootschap X die een aantal dochterondernemingen controleert zoals bepaald onder artikel 5 W.Venn. Op basis van de consolidatieverplichting zoals vastgelegd in artikel 110, § 1 W.Venn. moet zij bijgevolg een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening opstellen[^3]. 
 
 Deze moedervennootschap X is op haar beurt zelf een dochteronderneming van een genoteerde vennootschap Y. De vraag stelt zich of de moedervennootschap X in dat geval de vrijstelling van subconsolidatie kan inroepen. Behoort m.a.w. de vennootschap Y onder “één van de vennootschappen die moeten worden geconsolideerd”?
 
@@ -62,9 +62,9 @@ Uit de samenlezing van de artikelen 113, § 1 en 114 W.Venn. begrijpt de Commiss
 
 ## Analyse van de Zevende richtlijn
 
-De Commissie merkt bovendien op dat het W.Venn. hier afwijkt van de betrokken bepalingen uit de Zevende richtlijn[^4]. Artikel 7 die de vrijstelling van subconsolidatie regelt stelt in lid 1: “[...] verlenen de Lid-Staten vrijstelling van de in artikel 1, lid 1, bedoelde verplichting, aan een onder hun recht vallende moederonderneming die tevens dochteronderneming is, indien [...]”. Lid 3 voegt hieraan toe: “Dit artikel is niet van toepassing op vennootschappen waarvan de effecten in een lidstaat zijn toegelaten tot de handel op een gereglementeerde markt in de zin van artikel 1, punt 13, van Richtlijn  93/22/EEG.”  
+De Commissie merkt bovendien op dat het W.Venn. hier afwijkt van de betrokken bepalingen uit de Zevende richtlijn[^4]. Artikel 7 die de vrijstelling van subconsolidatie regelt stelt in lid 1: “[...] verlenen de Lid-Staten vrijstelling van de in artikel 1, lid 1, bedoelde verplichting, aan een onder hun recht vallende moederonderneming die tevens dochteronderneming is, indien [...]”. Lid 3 voegt hieraan toe: “Dit artikel is niet van toepassing op vennootschappen waarvan de effecten in een lidstaat zijn toegelaten tot de handel op een gereglementeerde markt in de zin van artikel 1, punt 13, van Richtlijn 93/22/EEG.” 
 
-Hieruit kan worden besloten dat het volgens de Zevende richtlijn enkel de moedervennootschap die zich op de vrijstelling wil beroepen is, die niet genoteerd mag zijn en dus niet haar dochterondernemingen.  
+Hieruit kan worden besloten dat het volgens de Zevende richtlijn enkel de moedervennootschap die zich op de vrijstelling wil beroepen is, die niet genoteerd mag zijn en dus niet haar dochterondernemingen. 
 
 [^1]: Deze voorwaarden worden opgelijst in artikel 113, § 2, tweede lid W.Venn.
 

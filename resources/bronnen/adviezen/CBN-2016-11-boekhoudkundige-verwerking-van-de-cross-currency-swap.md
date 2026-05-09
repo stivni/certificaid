@@ -48,24 +48,24 @@ gerelateerde_adviezen:
 
 # CBN-advies 2016/11 - Boekhoudkundige verwerking van de cross currency swap
 
-1.  Inleiding 
-  1.  Situering van de cross currency swap  
-  2.  Types van cross currency swaps
+1. Inleiding 
+  1. Situering van de cross currency swap 
+  2. Types van cross currency swaps
 
-    1.  Fixed-to-fixed cross currency swap  
-    2.  Fixed-to-floating cross currency swap  
-    3.  De floating-to-floating cross currency swap  
+    1. Fixed-to-fixed cross currency swap 
+    2. Fixed-to-floating cross currency swap 
+    3. De floating-to-floating cross currency swap 
 
-2.  Uitgewerkt voorbeeld  
-3.  Boekhoudkundige behandeling van de cross currency swap 
-  1.  Cross currency swap voor specifieke indekkingsverrichting van monetaire activa en passiva  
-  2.  Cross currency swap voor niet-specifieke indekkingsverrichting van monetaire activa en passiva 
-    1.  Voorbeeld  
-    2.  Boekhoudkundige verwerking  
+2. Uitgewerkt voorbeeld 
+3. Boekhoudkundige behandeling van de cross currency swap 
+  1. Cross currency swap voor specifieke indekkingsverrichting van monetaire activa en passiva 
+  2. Cross currency swap voor niet-specifieke indekkingsverrichting van monetaire activa en passiva 
+    1. Voorbeeld 
+    2. Boekhoudkundige verwerking 
 
-  3.  Cross currency swap voor indekkingsverrichting van toekomstige verrichtingen  
+  3. Cross currency swap voor indekkingsverrichting van toekomstige verrichtingen 
 
----- Fixed-to-fixed cross currency swap---- Fixed-to-floating cross currency swap---- De floating-to-floating cross currency swapUitgewerkt voorbeeldBoekhoudkundige behandeling van de cross currency swap-- Cross currency swap voor specifieke indekkingsverrichting van monetaire activa en passiva-- Cross currency swap voor niet-specifieke indekkingsverrichting van monetaire activa en passiva---- Voorbeeld---- Boekhoudkundige verwerking-- Cross currency swap voor indekkingsverrichting van toekomstige verrichtingen  
+---- Fixed-to-fixed cross currency swap---- Fixed-to-floating cross currency swap---- De floating-to-floating cross currency swapUitgewerkt voorbeeldBoekhoudkundige behandeling van de cross currency swap-- Cross currency swap voor specifieke indekkingsverrichting van monetaire activa en passiva-- Cross currency swap voor niet-specifieke indekkingsverrichting van monetaire activa en passiva---- Voorbeeld---- Boekhoudkundige verwerking-- Cross currency swap voor indekkingsverrichting van toekomstige verrichtingen 
 
 ## Inleiding
 
@@ -149,13 +149,13 @@ De ingedekte balanspost zal op basis van CBN-advies 152/1 worden gewaardeerd aan
 
 ### Cross currency swap voor niet-specifieke indekkingsverrichting van monetaire activa en passiva
 
-Indien een onderneming veel vorderingen en schulden in deviezen bezit, dan kan het voorkomen dat haar wisselrisicobeheer niet meer bedoeld is om welbepaalde verrichtingen te dekken, maar wel om via één der voornoemde technieken de “positie” resulterend uit een geheel van vorderingen en/of schulden in deviezen te dekken. In CBN-advies 152/1 - Boekingen van deviezenverrichtingen en verwerking van tegoeden en verplichtingen in deviezen in de jaarrekening omschrijft de Commissie dit als een niet-specifieke indekkingsverrichting, ofwel een macro-indekking.  
+Indien een onderneming veel vorderingen en schulden in deviezen bezit, dan kan het voorkomen dat haar wisselrisicobeheer niet meer bedoeld is om welbepaalde verrichtingen te dekken, maar wel om via één der voornoemde technieken de “positie” resulterend uit een geheel van vorderingen en/of schulden in deviezen te dekken. In CBN-advies 152/1 - Boekingen van deviezenverrichtingen en verwerking van tegoeden en verplichtingen in deviezen in de jaarrekening omschrijft de Commissie dit als een niet-specifieke indekkingsverrichting, ofwel een macro-indekking. 
 
 De boekhoudkundige verwerking bestaat er dan in om op afsluitdatum de te ontvangen of te leveren (betalen) deviezen te herwaarderen aan contantkoers.
 
 De omrekeningsverschillen die hieruit voortvloeien worden op de balans geboekt op de rekening 416 *Diverse vorderingen* of de rekening 486 *Diverse schulden*, naargelang het een positief of negatief omrekeningsverschil betreft, tegenover een overlopende rekening van het actief of passief (496 of 497).
 
-De omrekeningsverschillen die in de overlopende rekeningen werden geboekt, worden analoog behandeld met de omrekeningsverschillen die werden geboekt op de ingedekte activa en passiva. Alle omrekeningsverschillen worden immers gecompenseerd per munt, en de netto-omrekeningsverschillen worden overeenkomstig CBN-advies 152/1 behandeld in overeenstemming met de waarderingsregels van de vennootschap:  
+De omrekeningsverschillen die in de overlopende rekeningen werden geboekt, worden analoog behandeld met de omrekeningsverschillen die werden geboekt op de ingedekte activa en passiva. Alle omrekeningsverschillen worden immers gecompenseerd per munt, en de netto-omrekeningsverschillen worden overeenkomstig CBN-advies 152/1 behandeld in overeenstemming met de waarderingsregels van de vennootschap: 
 
 - ofwel worden alleen de negatieve netto-omrekeningsverschillen per munt in resultaat genomen en blijven de positieve netto-omrekeningsverschillen opgenomen in de overlopende rekeningen; 
 - ofwel worden zowel de positieve als de negatieve netto-omrekeningsverschillen in resultaat genomen. 
@@ -168,14 +168,14 @@ Op 1 december 2013 krijgt een Belgische vennootschap van haar moedermaatschappij
 
 Op het USD-bedrag ontvangt de vennootschap USD-LIBOR op 6 maanden en betaalt zij een vaste rentevoet van 7 % op het EUR-bedrag.
 
-De USD/EUR-koers evolueert als volgt:  
+De USD/EUR-koers evolueert als volgt: 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 1 december 2013 | 0,750 |  |  |
-|  | 31 december 2013 | 0,700 |  |  |
-|  | 31 december 2014 | 0,850 |  |  |
-|  | 31 december 2015 | 0,875 |  |  |
+| | 1 december 2013 | 0,750 | | |
+| | 31 december 2013 | 0,700 | | |
+| | 31 december 2014 | 0,850 | | |
+| | 31 december 2015 | 0,875 | | |
 
 Bij afsluiting van de overeenkomst bedraagt de USD-LIBOR op 6 maanden 6%. De vennootschap neemt zowel de positieve als negatieve omrekeningsverschillen in resultaat en maakt geen gebruik van de overlopende rekeningen.
 
@@ -187,25 +187,25 @@ Op 1 december 2013 wordt de verkregen lening geboekt.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 551 | Bank USD | 750.000 |  |
-| aan | 174 | Andere leningen op meer dan één jaar |  | 750.000 |
+| | 551 | Bank USD | 750.000 | |
+| aan | 174 | Andere leningen op meer dan één jaar | | 750.000 |
 
 Het afsluiten van de cross currency swap wordt geboekt door de verplichtingen op te nemen in de orderrekeningen van de vennootschap en door de gewisselde kapitalen te registreren.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 550 | Bank EUR | 750.000 |  |
-| aan | 551 | Bank USD |  | 750.000 |
+| | 550 | Bank EUR | 750.000 | |
+| aan | 551 | Bank USD | | 750.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 064 | Op termijn gekochte deviezen – te ontvangen USD | 750.000 |  |
-| aan | 065 | Crediteur wegens op termijn gekochte deviezen |  | 750.000 |
+| | 064 | Op termijn gekochte deviezen – te ontvangen USD | 750.000 | |
+| aan | 065 | Crediteur wegens op termijn gekochte deviezen | | 750.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 066 | Debiteur wegens op termijn verkochte deviezen | 750.000 |  |
-| aan | 067 | Op termijn verkochte deviezen – te leveren EUR |  | 750.000 |
+| | 066 | Debiteur wegens op termijn verkochte deviezen | 750.000 | |
+| aan | 067 | Op termijn verkochte deviezen – te leveren EUR | | 750.000 |
 
 *Op 31 december 2013*
 
@@ -215,13 +215,13 @@ Op 31 december 2013 worden de lening en de cross currency swap geherwaardeerd aa
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 174 | Andere leningen op meer dan één jaar | 50.000 |  |
-| aan | 755 | Omrekeningsverschillen |  | 50.000 |
+| | 174 | Andere leningen op meer dan één jaar | 50.000 | |
+| aan | 755 | Omrekeningsverschillen | | 50.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 655 | Omrekeningsverschillen | 50.000 |  |
-| aan | 486 | Herberekening tegen slotomrekeningskoers USD |  | 50.000 |
+| | 655 | Omrekeningsverschillen | 50.000 | |
+| aan | 486 | Herberekening tegen slotomrekeningskoers USD | | 50.000 |
 
 De ontvangen en betaalde interesten op de cross currency swap en de lening worden geprorateerd als onderdeel van de afsluiting per 31 december 2013.
 
@@ -229,34 +229,34 @@ De ontvangen en betaalde interesten op de cross currency swap en de lening worde
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 650 | Kosten van schulden | 3.791,67 |  |
-| aan | 492 | Toe te rekenen kosten |  | 3.791,67 |
+| | 650 | Kosten van schulden | 3.791,67 | |
+| aan | 492 | Toe te rekenen kosten | | 3.791,67 |
 
 [^16]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 491 | Verkregen opbrengsten | 3.500 |  |
+| | 491 | Verkregen opbrengsten | 3.500 | |
 | aan | 756 | Diverse financiële opbrengsten
-			(Cross currency swap – vlottend) |  | 3.500 |
+			(Cross currency swap – vlottend) | | 3.500 |
 
 [^17]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 657 | Diverse financiële kosten (Cross currency swap – vast) | 4.375 |  |
-| aan | 492 | Toe te rekenen kosten |  | 4.375 |
+| | 657 | Diverse financiële kosten (Cross currency swap – vast) | 4.375 | |
+| aan | 492 | Toe te rekenen kosten | | 4.375 |
 
-Op 31 december 2013 is de verrichting als volgt weergegeven in de balans van de vennootschap:  
+Op 31 december 2013 is de verrichting als volgt weergegeven in de balans van de vennootschap: 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 174 | Overige leningen op meer dan één jaar | (700.000) |  |
-|  | 486 | Herberekening tegen slotomrekeningskoers | (50.000) |  |
-|  | 492 | Toe te rekenen kosten uit cross currency swap | (3.791,67) |  |
-|  | 492 | Toe te rekenen kosten uit cross currency swap | (4.375) |  |
-|  | 491 | Verkregen opbrengsten uit cross currency swap | 3.500 |  |
-|  | Totaal | (754.666,67) |  |  |
+| | 174 | Overige leningen op meer dan één jaar | (700.000) | |
+| | 486 | Herberekening tegen slotomrekeningskoers | (50.000) | |
+| | 492 | Toe te rekenen kosten uit cross currency swap | (3.791,67) | |
+| | 492 | Toe te rekenen kosten uit cross currency swap | (4.375) | |
+| | 491 | Verkregen opbrengsten uit cross currency swap | 3.500 | |
+| | Totaal | (754.666,67) | | |
 
 *Op 1 januari 2014*
 
@@ -264,28 +264,28 @@ Op 1 januari 2014 worden de journaalposten met betrekking tot de interestprorate
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 492 | Toe te rekenen kosten | 3.791,67 |  |
-| aan | 650 | Kosten van schulden |  | 3.791,67 |
+| | 492 | Toe te rekenen kosten | 3.791,67 | |
+| aan | 650 | Kosten van schulden | | 3.791,67 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 756 | Diverse financiële opbrengsten | 3.500 |  |
-| aan | 491 | Verkregen opbrengsten |  | 3.500 |
+| | 756 | Diverse financiële opbrengsten | 3.500 | |
+| aan | 491 | Verkregen opbrengsten | | 3.500 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 492 | Toe te rekenen kosten | 4.375 |  |
-| aan | 657 | Diverse financiële kosten) |  | 4.375 |
+| | 492 | Toe te rekenen kosten | 4.375 | |
+| aan | 657 | Diverse financiële kosten) | | 4.375 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 755 | Omrekeningsverschillen | 50.000 |  |
-| aan | 174 | Andere leningen op meer dan één jaar |  | 50.000 |
+| | 755 | Omrekeningsverschillen | 50.000 | |
+| aan | 174 | Andere leningen op meer dan één jaar | | 50.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 486 | Herberekening tegen slotomrekeningskoers USD | 50.000 |  |
-| aan | 655 | Omrekeningsverschillen |  | 50.000 |
+| | 486 | Herberekening tegen slotomrekeningskoers USD | 50.000 | |
+| aan | 655 | Omrekeningsverschillen | | 50.000 |
 
 *Op 31 december 2014*
 
@@ -295,20 +295,20 @@ Op 31 december 2014 worden de lening en de cross currency swap geherwaardeerd aa
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 655 | Omrekeningsverschillen | 100.000 |  |
-| aan | 174 | Andere leningen op meer dan één jaar |  | 100.000 |
+| | 655 | Omrekeningsverschillen | 100.000 | |
+| aan | 174 | Andere leningen op meer dan één jaar | | 100.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 416 | Herberekening tegen slotomrekeningskoers USD | 100.000 |  |
-| aan | 755 | Omrekeningsverschillen |  | 100.000 |
+| | 416 | Herberekening tegen slotomrekeningskoers USD | 100.000 | |
+| aan | 755 | Omrekeningsverschillen | | 100.000 |
 
 Uiteindelijk wordt de lange termijn schuld ook naar de korte termijn overgeboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 174 | Andere leningen op meer dan één jaar | 850.000 |  |
-| aan | 424 | Schulden op meer dan 1 jaar die binnen het jaar vervallen |  | 850.000 |
+| | 174 | Andere leningen op meer dan één jaar | 850.000 | |
+| aan | 424 | Schulden op meer dan 1 jaar die binnen het jaar vervallen | | 850.000 |
 
 *Op 1 januari 2015*
 
@@ -318,41 +318,41 @@ Op 1 januari 2015 worden de journaalposten met betrekking tot de omrekeningsvers
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 424 | Schulden op meer dan 1 jaar die binnen het jaar vervallen | 100.000 |  |
-| aan | 655 | Omrekeningsverschillen |  | 100.000 |
+| | 424 | Schulden op meer dan 1 jaar die binnen het jaar vervallen | 100.000 | |
+| aan | 655 | Omrekeningsverschillen | | 100.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 755 | Omrekeningsverschillen | 100.000 |  |
-| aan | 416 | Herberekening tegen slotomrekeningskoers USD |  | 100.000 |
+| | 755 | Omrekeningsverschillen | 100.000 | |
+| aan | 416 | Herberekening tegen slotomrekeningskoers USD | | 100.000 |
 
-*Op vervaldag 31 december 2015    *
+*Op vervaldag 31 december 2015 *
 
 De volgende boeking betreft de terugbetaling op vervaldag van de lening, die inmiddels als korte termijnlening geboekt staat, evenals de vereffening van de cross currency swap:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 551 | Bank USD | 875.000 |  |
-| aan | 550 | Bank EUR |  | 750.000 |
-|  | 754 | Wisselresultaat | 125.000 |  |
+| | 551 | Bank USD | 875.000 | |
+| aan | 550 | Bank EUR | | 750.000 |
+| | 754 | Wisselresultaat | 125.000 | |
 
 [^20][^21]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 424 | Schulden op meer dan 1 jaar die binnen het jaar vervallen | 750.000 |  |
-|  | 654 | Wisselresultaat | 125.000 |  |
-| aan | 551 | Bank USD |  | 875.000 |
+| | 424 | Schulden op meer dan 1 jaar die binnen het jaar vervallen | 750.000 | |
+| | 654 | Wisselresultaat | 125.000 | |
+| aan | 551 | Bank USD | | 875.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 065 | Crediteur wegens op korte termijn gekochte deviezen | 750.000 |  |
-| aan | 064 | Op termijn gekochte deviezen – te ontvangen USD |  | 750.000 |
+| | 065 | Crediteur wegens op korte termijn gekochte deviezen | 750.000 | |
+| aan | 064 | Op termijn gekochte deviezen – te ontvangen USD | | 750.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 067 | Op termijn verkochte deviezen – te leveren EUR | 750.000 |  |
-| aan | 066 | Debiteur wegens op termijn verkochte deviezen |  | 750.000 |
+| | 067 | Op termijn verkochte deviezen – te leveren EUR | 750.000 | |
+| aan | 066 | Debiteur wegens op termijn verkochte deviezen | | 750.000 |
 
 Als gevolg van de cross currency swap heeft de vennootschap haar wisselresultaat volledig ingedekt.
 

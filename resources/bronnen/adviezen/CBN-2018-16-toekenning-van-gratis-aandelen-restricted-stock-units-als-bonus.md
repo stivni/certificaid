@@ -34,7 +34,7 @@ provenance:
 
 ## Inleiding
 
-De Commissie werd gevraagd om advies te geven betreffende de boekhoudkundige verwerking bij een vennootschap die zich ertoe verbindt kosteloos *Restricted Stock Units* (hierna: RSU) aan zijn werknemers te verstrekken als bonus. 
+De Commissie werd gevraagd om advies te geven betreffende de boekhoudkundige verwerking bij een vennootschap die zich ertoe verbindt kosteloos *Restricted Stock Units* (hierna: RSU) aan zijn werknemers te verstrekken als bonus. 
 
 RSU zijn het recht om, aan het einde van een welbepaalde periode, gratis een gewoon aandeel te ontvangen, indien bepaalde voorwaarden zijn vervuld op dat ogenblik[^2]. Het gaat met andere woorden om een belofte van de werkgever om een bepaald aantal aandelen aan de werknemer toe te kennen binnen een bepaalde periode. Deze RSU worden rechtstreeks aan de werknemer toegekend op de datum van de toekenning (*Grant Date*), maar worden pas effectief aan hem ter beschikking gesteld (*Vesting Date*) na afloop van de periode waarin rechten worden verworven (*Vesting Period*).
 
@@ -58,11 +58,11 @@ De onderneming zal dus een provisie moeten boeken waarvan het bedrag gelijk is a
 
 Het voorzichtigheidsbeginsel indachtig, moet elke onderneming (genoteerd of niet-genoteerd) op de datum van toekenning van de RSU een inschatting maken van de beurskoers of de reële waarde van de onderliggende aandelen bij hun terbeschikkingstelling.
 
-Een evenredige verdeling wordt toegepast om de evolutie van de verwachte koers (of van de verwachte reële waarde) bij uitoefening aan elk jaar tussen het moment van toekenning en het moment van terbeschikkingstelling van de aandelen, toe te wijzen. 
+Een evenredige verdeling wordt toegepast om de evolutie van de verwachte koers (of van de verwachte reële waarde) bij uitoefening aan elk jaar tussen het moment van toekenning en het moment van terbeschikkingstelling van de aandelen, toe te wijzen. 
 
 Op iedere balansdatum zal de toekennende onderneming de aangelegde voorziening toetsen aan de verwachte beurskoers (of verwachte reële waarde) van het onderliggend aandeel bij de terbeschikkingstelling van de aandelen, in relatie tot de wijziging in de populatie van de genieters (bijvoorbeeld naar aanleiding van vertrek van een aantal personeelsleden wiens rechten dan ophouden te bestaan).
 
-De toepassing van deze benadering (rekening houdend met de aard van de activiteiten van de toekennende onderneming) zal ondernemingen noodzaken om deze verwachte koers periodiek, en minimaal op elke balansdatum, te herzien met de op dat ogenblik geldende assumpties qua koersinschatting. De Commissie is dan ook de mening toegedaan dat deze benadering slechts praktisch kan worden toegepast indien de verwachte koers op de datum van terbeschikkingstelling van de aandelen betrouwbaar kan worden bepaald. 
+De toepassing van deze benadering (rekening houdend met de aard van de activiteiten van de toekennende onderneming) zal ondernemingen noodzaken om deze verwachte koers periodiek, en minimaal op elke balansdatum, te herzien met de op dat ogenblik geldende assumpties qua koersinschatting. De Commissie is dan ook de mening toegedaan dat deze benadering slechts praktisch kan worden toegepast indien de verwachte koers op de datum van terbeschikkingstelling van de aandelen betrouwbaar kan worden bepaald. 
 
 Het gehanteerde waarderingsmodel dient dan ook haar effectiviteit te hebben aangetoond op basis van historische analyses tussen de verwachte koers of verwachte reële waarde en de werkelijke koers of werkelijke reële waarde.
 
@@ -72,7 +72,7 @@ De Commissie vestigt tevens de aandacht op het feit dat het voorspellen van een 
 
 ### Erkenning van de kost op basis van de effectieve beurskoers of reële waarde per balansdatum (methode B)
 
-De toepassing van deze methode bestaat erin de toekenningsprijs te berekenen door middel van de werkelijke beurskoers (voor genoteerde ondernemingen op gereglementeerde of niet-gereglementeerde markten) of de reële waarde (voor niet-genoteerde ondernemingen) van het onderliggend aandeel op balansdatum. Daar deze tweede benadering een vaststaande beurskoers of reële waarde als uitgangspunt heeft, dient elk jaar een aanpassing te worden doorgevoerd naar de actueel geldende koers of reële waarde per balansdatum. 
+De toepassing van deze methode bestaat erin de toekenningsprijs te berekenen door middel van de werkelijke beurskoers (voor genoteerde ondernemingen op gereglementeerde of niet-gereglementeerde markten) of de reële waarde (voor niet-genoteerde ondernemingen) van het onderliggend aandeel op balansdatum. Daar deze tweede benadering een vaststaande beurskoers of reële waarde als uitgangspunt heeft, dient elk jaar een aanpassing te worden doorgevoerd naar de actueel geldende koers of reële waarde per balansdatum. 
 
 ## Voorbeeld (methode A)
 
@@ -80,119 +80,119 @@ Op 1 maart 20X1 kent de beursgenoteerde NV XYZ 100 RSU (die overeenstemmen met 1
 
 De verwachte beurskoers van het onderliggende aandeel op 1 maart 20x6 en de verwachte retentiegraad worden als volgt geraamd per respectievelijke balansdatum:
 
-|  
+| 
 
-  | |  
+  | | 
 
 Beurskoers
 
-  | |  
+  | | 
 
 Verwachte beurskoers op 1 maart 20x6
 
-  | |  
+  | | 
 
 Verwachte retentiegraad
 
   | 
-|  
+| 
 
 31 december 20X1
 
-  | |  
+  | | 
 
 14
 
-  | |  
+  | | 
 
 18
 
-  | |  
+  | | 
 
 70%
 
   | 
-|  
+| 
 
 31 december 20X2
 
-  | |  
+  | | 
 
 17
 
-  | |  
+  | | 
 
 20
 
-  | |  
+  | | 
 
 75%
 
   | 
-|  
+| 
 
 31 december 20X3
 
-  | |  
+  | | 
 
 18
 
-  | |  
+  | | 
 
 20
 
-  | |  
+  | | 
 
 80%
 
   | 
-|  
+| 
 
 31 december 20X4
 
-  | |  
+  | | 
 
 16
 
-  | |  
+  | | 
 
 19
 
-  | |  
+  | | 
 
 70%
 
   | 
-|  
+| 
 
 31 december 20X5
 
-  | |  
+  | | 
 
 17
 
-  | |  
+  | | 
 
 18
 
-  | |  
+  | | 
 
 90%
 
   | 
-|  
+| 
 
 1 maart 20X6
 
-  | |  
+  | | 
 
 20
 
-  | |  
+  | | 
 
 -
 
-  | |  
+  | | 
 
 -
 
@@ -203,42 +203,42 @@ In de loop van 20X2 en 20X4 heeft telkens één kaderlid de onderneming verlaten
 ***Boekhoudkundige verwerking op 31 december 20X1***
 
 De verwachte beurskoers van het onderliggende aandeel bedraagt 18 EUR. Vijf kaderleden verkregen 100 RSU. De ondernemingsleiding verwacht echter dat slechts 70% effectief ter beschikking zal worden gesteld. Bijgevolg zal er een voorziening voor 252 EUR moeten worden aangelegd per 31 december 20X1 (100 aandelen x 70% x (18/5)[^7]
- EUR).
+ EUR).
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6370 | Voorzieningen voor andere risico's en kosten - toevoeging | 252 |  |
-| aan | 163 - 165 | Voorzieningen voor overige risico's |  | 252 |
+| | 6370 | Voorzieningen voor andere risico's en kosten - toevoeging | 252 | |
+| aan | 163 - 165 | Voorzieningen voor overige risico's | | 252 |
 
 ***Boekhoudkundige verwerking op 31 december 20X2***
 
 De verwachte beurskoers van het onderliggende aandeel bedraagt 20 EUR. Gezien er tijdens het boekjaar één van de kaderleden de onderneming heeft verlaten, wordt de voorziening op balansdatum voor de resterende vier toekomstige aandeelhouders dan ook als volgt berekend: 80 aandelen x 75% x [(20/5)*2][^8]
- EUR = 480 EUR. Op 31 december 20X1 werd er reeds een voorziening aangelegd ten belope van 252 EUR. Per 31 december 20X2 dient er dus 228 EUR additioneel te worden voorzien.
+ EUR = 480 EUR. Op 31 december 20X1 werd er reeds een voorziening aangelegd ten belope van 252 EUR. Per 31 december 20X2 dient er dus 228 EUR additioneel te worden voorzien.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6370 | Voorzieningen voor andere risico's en kosten - toevoeging | 228 |  |
-| aan | 163 - 165 | Voorzieningen voor overige risico's en kosten |  | 228 |
+| | 6370 | Voorzieningen voor andere risico's en kosten - toevoeging | 228 | |
+| aan | 163 - 165 | Voorzieningen voor overige risico's en kosten | | 228 |
 
 ***Boekhoudkundige verwerking op 31 december 20X3***
 
 De verwachte beurskoers van het onderliggende aandeel bedraagt 20 EUR. De voorziening op balansdatum wordt dan ook als volgt berekend: 80 aandelen x 80% x [(20/5)*3][^9]
- EUR = 768 EUR. Op 31 december 20X2 werd er reeds een voorziening aangelegd ten belope van 480 EUR. Per 31 december 20X3 dient er dus 288 EUR additioneel te worden voorzien.
+ EUR = 768 EUR. Op 31 december 20X2 werd er reeds een voorziening aangelegd ten belope van 480 EUR. Per 31 december 20X3 dient er dus 288 EUR additioneel te worden voorzien.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6370 | Voorzieningen voor andere risico's en kosten - toevoeging | 288 |  |
-| aan | 163 - 165 | Voorzieningen voor overige risico's en kosten |  | 288 |
+| | 6370 | Voorzieningen voor andere risico's en kosten - toevoeging | 288 | |
+| aan | 163 - 165 | Voorzieningen voor overige risico's en kosten | | 288 |
 
 ***Boekhoudkundige verwerking op 31 december 20X4***
 
 De verwachte beurskoers van het onderliggende aandeel bedraagt 19 EUR. Gezien er tijdens het boekjaar een tweede kaderlid de onderneming heeft verlaten, wordt de voorziening op balansdatum voor de resterende drie toekomstige aandeelhouders dan ook als volgt berekend: 60 aandelen x 70% x [(19/5]*4][^10]
- EUR = 638,4 EUR. Op 31 december 20X3 werd er reeds een voorziening aangelegd ten belope van 768 EUR. Per 31 december 20X4  dient deze voorziening dus te worden teruggenomen ten belope van 129,6 EUR.
+ EUR = 638,4 EUR. Op 31 december 20X3 werd er reeds een voorziening aangelegd ten belope van 768 EUR. Per 31 december 20X4 dient deze voorziening dus te worden teruggenomen ten belope van 129,6 EUR.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 163 - 165 | Voorzieningen voor risico's en kosten | 129,6 |  |
-| aan | 6371 | Voorziening voor risico's en kosten - Terugneming |  | 129,6 |
+| | 163 - 165 | Voorzieningen voor risico's en kosten | 129,6 | |
+| aan | 6371 | Voorziening voor risico's en kosten - Terugneming | | 129,6 |
 
 ***Boekhoudkundige verwerking op 31 december 20X5***
 
@@ -246,8 +246,8 @@ De beurskoers van het onderliggende aandeel bedraagt 18 EUR. De voorziening op b
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6370 | Voorzieningen voor andere risico’s en kosten - toevoeging | 333,6 |  |
-| aan | 163 - 165 | Voorzieningen voor overige risico's en kosten |  | 333,6 |
+| | 6370 | Voorzieningen voor andere risico’s en kosten - toevoeging | 333,6 | |
+| aan | 163 - 165 | Voorzieningen voor overige risico's en kosten | | 333,6 |
 
 ***Effectieve verwerving van de aandelen door de aandeelhouder in 20X6***
 
@@ -257,22 +257,22 @@ Aankoop van de 60 onderliggende aandelen
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 50 | Eigen aandelen | 1.200 |  |
-| aan | 550 | Kredietinstellingen: Rekening-courant |  | 1.200 |
+| | 50 | Eigen aandelen | 1.200 | |
+| aan | 550 | Kredietinstellingen: Rekening-courant | | 1.200 |
 
 Effectieve ter beschikking stelling van de aandelen aan de aandeelhouders n.a.v. het lichten van de optie
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 652 | Minderwaarden op de realisatie van vlottende activa | 1.200 |  |
-| aan | 50 | Eigen aandelen |  | 1.200 |
+| | 652 | Minderwaarden op de realisatie van vlottende activa | 1.200 | |
+| aan | 50 | Eigen aandelen | | 1.200 |
 
 Besteding daartoe aangelegde voorziening
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 163 - 165 | Voorzieningen voor risico’s en kosten | 972 |  |
-| aan | 6371 | Voorziening voor risico’s en kosten – Besteding |  | 972 |
+| | 163 - 165 | Voorzieningen voor risico’s en kosten | 972 | |
+| aan | 6371 | Voorziening voor risico’s en kosten – Besteding | | 972 |
 
 Bij de effectieve ter beschikking stelling van de aandelen bestaat er bijgevolg een netto-kost voor de onderneming van 228 EUR. Deze ontstaat uit het verschil tussen de aangelegde voorziening met betrekking tot de aandelen (de aangelegde voorziening bedraagt op dat moment 972 voor 60 aandelen) en de minderwaarde bij verkoop van de door de onderneming ingekochte aandelen.
 
@@ -282,91 +282,91 @@ Op 1 maart 20X1 kent de beursgenoteerde NV XYZ 100 RSU (die overeenstemmen met 1
 
 De beurskoers van het onderliggende aandeel en de verwachte retentiegraad worden als volgt geraamd per respectievelijke balansdatum:
 
-|  
+| 
 
-  | |  
+  | | 
 
 Beurskoers
 
-  | |  
+  | | 
 
 Verwachte retentiegraad
 
   | 
-|  
+| 
 
 31 december 20X1
 
-  | |  
+  | | 
 
 14 EUR
 
-  | |  
+  | | 
 
 70%
 
   | 
-|  
+| 
 
 31 december 20X2
 
-  | |  
+  | | 
 
 17 EUR
 
-  | |  
+  | | 
 
 75%
 
   | 
-|  
+| 
 
 31 december 20X3
 
-  | |  
+  | | 
 
 18 EUR
 
-  | |  
+  | | 
 
 80%
 
   | 
-|  
+| 
 
 31 december 20X4
 
-  | |  
+  | | 
 
 16 EUR
 
-  | |  
+  | | 
 
 70%
 
   | 
-|  
+| 
 
 31 december 20X5
 
-  | |  
+  | | 
 
 17 EUR
 
-  | |  
+  | | 
 
 90%
 
   | 
-|  
+| 
 
 1 maart 20X6
 
-  | |  
+  | | 
 
 18 EUR
 
-  | |  
+  | | 
 
 -
 
@@ -380,8 +380,8 @@ De beurskoers van het onderliggende aandeel bedraagt 14 EUR. Vijf kaderleden ver
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6370 | Voorzieningen voor andere risico’s en kosten - toevoeging | 980 |  |
-| aan | 163 - 165 | Voorzieningen voor overige risico's en kosten |  | 980 |
+| | 6370 | Voorzieningen voor andere risico’s en kosten - toevoeging | 980 | |
+| aan | 163 - 165 | Voorzieningen voor overige risico's en kosten | | 980 |
 
 ***Boekhoudkundige verwerking op 31 december 20X2***
 
@@ -389,8 +389,8 @@ De beurskoers van het onderliggende aandeel bedraagt 17 EUR. De voorziening op b
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6370 | Voorzieningen voor andere risico’s en kosten - toevoeging | 295 |  |
-| aan | 163 - 165 | Voorzieningen voor overige risico's en kosten |  | 295 |
+| | 6370 | Voorzieningen voor andere risico’s en kosten - toevoeging | 295 | |
+| aan | 163 - 165 | Voorzieningen voor overige risico's en kosten | | 295 |
 
 ***Boekhoudkundige verwerking op 31 december 20X3***
 
@@ -398,8 +398,8 @@ De beurskoers van het onderliggende aandeel bedraagt 18 EUR. Gezien er tijdens h
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 163 - 165 | Voorzieningen voor risico’s en kosten | 123 |  |
-| aan | 6371 | Voorziening voor risico’s en kosten – Terugneming |  | 123 |
+| | 163 - 165 | Voorzieningen voor risico’s en kosten | 123 | |
+| aan | 6371 | Voorziening voor risico’s en kosten – Terugneming | | 123 |
 
 ***Boekhoudkundige verwerking op 31 december 20X4***
 
@@ -407,8 +407,8 @@ De beurskoers van het onderliggend aandeel bedraagt 16 EUR. Gezien er tijdens he
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 163 - 165 | Voorzieningen voor risico’s en kosten | 480 |  |
-| aan | 6371 | Voorziening voor risico’s en kosten – Terugneming |  | 480 |
+| | 163 - 165 | Voorzieningen voor risico’s en kosten | 480 | |
+| aan | 6371 | Voorziening voor risico’s en kosten – Terugneming | | 480 |
 
 ***Boekhoudkundige verwerking op 31 december 20X5***
 
@@ -416,8 +416,8 @@ De beurskoers van het onderliggende aandeel bedraagt 17 EUR. De voorziening op b
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6370 | Voorzieningen voor andere risico’s en kosten - toevoeging | 246 |  |
-| aan | 163 - 165 | Voorzieningen voor overige risico's en kosten |  | 246 |
+| | 6370 | Voorzieningen voor andere risico’s en kosten - toevoeging | 246 | |
+| aan | 163 - 165 | Voorzieningen voor overige risico's en kosten | | 246 |
 
 ***Effectieve verwerving van de aandelen door de aandeelhouder in 20X6***
 
@@ -427,26 +427,26 @@ Aankoop van de 60 onderliggende aandelen
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 50 | Eigen aandelen | 1.080 |  |
-| aan | 550 | Kredietinstellingen: Rekeningen-courant |  | 1.080 |
+| | 50 | Eigen aandelen | 1.080 | |
+| aan | 550 | Kredietinstellingen: Rekeningen-courant | | 1.080 |
 
 Effectieve ter beschikking stelling van de aandelen aan de aandeelhouders n.a.v. het lichten van de optie
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 652 | Minderwaarden op de realisatie van vlottende activa | 1.080 |  |
-| aan | 50 | Eigen aandelen |  | 1.080 |
+| | 652 | Minderwaarden op de realisatie van vlottende activa | 1.080 | |
+| aan | 50 | Eigen aandelen | | 1.080 |
 
 Besteding daartoe aangelegde voorziening
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 163 - 165 | Voorzieningen voor risico’s en kosten | 918 |  |
-| aan | 6371 | Voorziening voor risico’s en kosten – Besteding |  | 918 |
+| | 163 - 165 | Voorzieningen voor risico’s en kosten | 918 | |
+| aan | 6371 | Voorziening voor risico’s en kosten – Besteding | | 918 |
 
 Bij de effectieve ter beschikking stelling van de aandelen bestaat er bijgevolg een netto-kost voor de onderneming van 162 EUR. Deze ontstaat uit het verschil tussen de aangelegde voorziening met betrekking tot de aandelen (de aangelegde voorziening bedraagt op dat moment 918 voor 60 aandelen) en de minderwaarde bij verkoop van de door de onderneming ingekochte aandelen.
 
-In beide uitgewerkte voorbeelden zou de NV XYZ ervoor kunnen opteren zich in te dekken door bijvoorbeeld eigen aandelen voorafgaandelijk in te kopen of een financieel instrument aan te kopen dat een effectieve dekking beoogt.  
+In beide uitgewerkte voorbeelden zou de NV XYZ ervoor kunnen opteren zich in te dekken door bijvoorbeeld eigen aandelen voorafgaandelijk in te kopen of een financieel instrument aan te kopen dat een effectieve dekking beoogt. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 20 april 2018 ter consultatie werd gepubliceerd op de website van de CBN.
 

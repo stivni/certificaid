@@ -37,7 +37,7 @@ Reverse factoring is een overeenkomst tussen een onderneming (i.e. de debiteur) 
 
 In tegenstelling tot klassieke factoring wordt de transactie niet geïnitieerd door de leverancier van de goederen, doch wel door de debiteur. De debiteur dient een goede kredietwaardigheid te bezitten aangezien het risico van de financiering bij hem geconcentreerd is.
 
-Schematisch kan dit als volgt voorgesteld worden:  
+Schematisch kan dit als volgt voorgesteld worden: 
 
 ## Verwerking van reverse factoring
 
@@ -49,9 +49,9 @@ Voor wat betreft de classificatie van de schuld is de Commissie van oordeel dat 
 
 “Onder de schulden ten aanzien van kredietinstellingen worden alle schulden ondergebracht tegenover kredietinstellingen op ten hoogste een jaar, daarin begrepen de orderbriefjes (promessen) die door de onderneming werden onderschreven op naam of aan toonder van een kredietinstelling, alsmede de schulden aan kredietinstellingen uit hoofde van bankaccepten, ook al vinden zij hun oorsprong in de aankoop van goederen en diensten.”.
 
-Dit heeft tot gevolg dat ten laatste op moment van de inventaris de openstaande schuld, dewelke het voorwerp uitmaakt van een reverse factoring,  van een rekening 44 *Handelsschulden* naar rekening 439 *Financiële schulden – Overige leningen moet worden gereclasseerd.*
+Dit heeft tot gevolg dat ten laatste op moment van de inventaris de openstaande schuld, dewelke het voorwerp uitmaakt van een reverse factoring, van een rekening 44 *Handelsschulden* naar rekening 439 *Financiële schulden – Overige leningen moet worden gereclasseerd.*
 
-Daarnaast wenst de Commissie er tevens op te wijzen dat het bestuursorgaan de toelichting omtrent de Niet in de balans opgenomen rechten en verplichtingen met de nodige zorg dient te evalueren in het kader van een reverse factoring programma[^3].  
+Daarnaast wenst de Commissie er tevens op te wijzen dat het bestuursorgaan de toelichting omtrent de Niet in de balans opgenomen rechten en verplichtingen met de nodige zorg dient te evalueren in het kader van een reverse factoring programma[^3]. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 15 juni 2017 ter consultatie werd gepubliceerd op de website van de CBN.
 

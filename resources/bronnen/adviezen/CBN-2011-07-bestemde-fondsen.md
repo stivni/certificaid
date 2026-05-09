@@ -36,7 +36,7 @@ gerelateerde_adviezen:
 
 # CBN-advies 2011/7 - Bestemde fondsen
 
-De bestemde fondsen van een grote of zeer grote vereniging of stichting vertegenwoordigen eigen middelen van de vereniging of stichting. Bestemde fondsen worden gevormd vanuit het positief te bestemmen resultaat dat een vereniging of stichting behaalt, en waaraan zij een specifieke bestemming wenst te geven[^1]. 
+De bestemde fondsen van een grote of zeer grote vereniging of stichting vertegenwoordigen eigen middelen van de vereniging of stichting. Bestemde fondsen worden gevormd vanuit het positief te bestemmen resultaat dat een vereniging of stichting behaalt, en waaraan zij een specifieke bestemming wenst te geven[^1]. 
 
 De balans van een grote of zeer grote vereniging of stichting wordt opgesteld na toewijzing. Dit wil zeggen rekening houdend met de beslissingen tot besteding van het saldo van de resultatenrekening en van het overgedragen resultaat[^2].
 
@@ -46,10 +46,10 @@ Indien de vereniging of stichting op het einde van het boekjaar een positief res
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 691 | Overboeking op de bestemde fondsen |  |  |
-| aan | 13 | Bestemde fondsen |  |  |
+| | 691 | Overboeking op de bestemde fondsen | | |
+| aan | 13 | Bestemde fondsen | | |
 
-De vereniging of stichting kan ook beslissen om het positief overgedragen resultaat van vorige jaren (gedeeltelijk) aan te wenden voor de aanleg van een bestemd fonds. 
+De vereniging of stichting kan ook beslissen om het positief overgedragen resultaat van vorige jaren (gedeeltelijk) aan te wenden voor de aanleg van een bestemd fonds. 
 
 ## Voorbeeld 1
 
@@ -59,18 +59,18 @@ Stel dat de vereniging op het einde van het vorige boekjaar een positief resulta
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 14 | Overgedragen resultaat | 5.000 |  |
-| aan | 790 | Onttrekking aan het overgedragen resultaat |  | 5.000 |
+| | 14 | Overgedragen resultaat | 5.000 | |
+| aan | 790 | Onttrekking aan het overgedragen resultaat | | 5.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 691 | Overboeking op de bestemde fondsen | 19.000 |  |
-| aan | 130 | Fondsen bestemd voor investeringen |  | 19.000 |
+| | 691 | Overboeking op de bestemde fondsen | 19.000 | |
+| aan | 130 | Fondsen bestemd voor investeringen | | 19.000 |
 
 Het is belangrijk om duidelijk het verschil te maken tussen de aanleg van een bestemd fonds en de aanleg van een voorziening.
 
 Voorzieningen voor risico’s en kosten beogen naar hun aard duidelijk omschreven verliezen of kosten te dekken die op balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat[^5]. Voorzieningen moeten stelselmatig worden gevormd[^6]
- en moeten worden teruggenomen ingeval deze worden aangewend[^7].
+ en moeten worden teruggenomen ingeval deze worden aangewend[^7].
 
 Een bestemd fonds wordt daarentegen gevormd vanuit de ‘resultatenbestemming’ van de vereniging of stichting en kan aangelegd worden om algemeen omschreven risico’s of projecten te dekken. Bestemde fondsen behoren tot het eigen vermogen van de vereniging of stichting.
 
@@ -78,7 +78,7 @@ De aanleg van bestemde fondsen is niet verplicht, maar de Commissie raadt aan de
 
 Het rekeningenstelsel voorziet de aanleg van *Fondsen bestemd voor investeringen* (rekening 130), *Fondsen bestemd voor sociaal passief* (rekening 131) en *Andere bestemde fondsen* (rekening 132).
 
-De Commissie beveelt sterk aan om de bestemde fondsen terug te nemen bij aanwending. Bij heel specifiek omschreven fondsen is de Commissie van oordeel dat dit een verplichting is. 
+De Commissie beveelt sterk aan om de bestemde fondsen terug te nemen bij aanwending. Bij heel specifiek omschreven fondsen is de Commissie van oordeel dat dit een verplichting is. 
 
 ## Voorbeeld 2
 
@@ -88,20 +88,20 @@ Stel dat een fonds bestemd voor investeringen ten belope van 25.000 euro wordt a
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 241 | Meubilair & rollend materieel die volle eigendom zijn van de vereniging | 24.000 |  |
-| aan | 440 | Leveranciers |  | 24.000 |
+| | 241 | Meubilair & rollend materieel die volle eigendom zijn van de vereniging | 24.000 | |
+| aan | 440 | Leveranciers | | 24.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 440 | Leveranciers | 24.000 |  |
-| aan | 550 | Kredietinstellingen: Rekeningen-courant |  | 24.000 |
+| | 440 | Leveranciers | 24.000 | |
+| aan | 550 | Kredietinstellingen: Rekeningen-courant | | 24.000 |
 
 - *Terugname van het daarvoor aangelegde bestemde fonds*:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 130 | Fondsen bestemd voor investeringen | 25.000 |  |
-| aan | 791 | Onttrekking aan de bestemde fondsen |  | 25.000 |
+| | 130 | Fondsen bestemd voor investeringen | 25.000 | |
+| aan | 791 | Onttrekking aan de bestemde fondsen | | 25.000 |
 
 Het aangewend bestemd fonds mag eventueel ook rechtstreeks overgeboekt worden naar een ander bestemd fonds overeenkomstig advies 121/3 *Mutaties binnen het eigen vermogen*[^8].
 
@@ -109,12 +109,12 @@ Indien de vereniging of stichting op het einde van het boekjaar een negatief res
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 13 | Bestemde fondsen |  |  |
-| aan | 791 | Onttrekking aan de bestemde fondsen |  |  |
+| | 13 | Bestemde fondsen | | |
+| aan | 791 | Onttrekking aan de bestemde fondsen | | |
 
-Wanneer een vereniging of stichting een bestemd fonds aanlegt, dan dient zij in de toelichting een staat van de bestemde fondsen op te nemen die de waarderingsregels vermeldt die werden gekozen om het bestemde bedrag te bepalen[^10]. 
+Wanneer een vereniging of stichting een bestemd fonds aanlegt, dan dient zij in de toelichting een staat van de bestemde fondsen op te nemen die de waarderingsregels vermeldt die werden gekozen om het bestemde bedrag te bepalen[^10]. 
 
-Deze waarderingsregels dienen nauwkeurig  te bepalen waarvoor het bestemd fonds wordt aangelegd. Zij dienen ook aan te geven op welke manier dit fonds zal aangelegd worden. Zo kan de jaarlijkse toekenning aan het fonds bijvoorbeeld gebeuren voor een percentage van het positieve resultaat of voor een vast bedrag (uiteraard onder voorbehoud van voldoende postitief resultaat), en dit tot een bepaald bedrag bereikt wordt. 
+Deze waarderingsregels dienen nauwkeurig te bepalen waarvoor het bestemd fonds wordt aangelegd. Zij dienen ook aan te geven op welke manier dit fonds zal aangelegd worden. Zo kan de jaarlijkse toekenning aan het fonds bijvoorbeeld gebeuren voor een percentage van het positieve resultaat of voor een vast bedrag (uiteraard onder voorbehoud van voldoende postitief resultaat), en dit tot een bepaald bedrag bereikt wordt. 
 
 ## Voorbeeld 3
 
@@ -124,8 +124,8 @@ Stel dat de vereniging in dat boekjaar een positief resultaat behaalt van 50.000
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 691 | Overboeking op de bestemde fondsen | 45.000 |  |
-| aan | 131 | Fondsen bestemd voor sociaal passief |  | 45.000 |
+| | 691 | Overboeking op de bestemde fondsen | 45.000 | |
+| aan | 131 | Fondsen bestemd voor sociaal passief | | 45.000 |
 
 [^1]: Bestemde fondsen zijn vergelijkbaar met “reserves” bij ondernemingen. De creatie van de rubriek Bestemde fondsen bij verenigingen en stichtingen kan worden verklaard vanuit de bekommernis de boekhoudverplichtingen volgend uit de wet van 17 juli 1975 aan te passen aan de bijzondere aard en het wettelijk statuut van de verenigingen (Verslag aan de Koning bij het koninklijk besluit van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking ven de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen, BS 30 december 2003).
 

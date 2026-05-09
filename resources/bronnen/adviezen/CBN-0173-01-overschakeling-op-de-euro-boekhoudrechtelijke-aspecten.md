@@ -49,14 +49,14 @@ provenance:
 
 ## Vanaf 1 januari 1999 wordt de euro de munt van de Lid-Staten van de Europese Unie die deel uitmaken van de Europese Monetaire Unie.Gelet op de beslissingen van de Europese top van Madrid, Firenze en Dublin, de beraadslagingen van de (Belgische) Ministerraad van 2 augustus 1996 en het «Legal framework for the use of the Euro», vastgesteld door de Top van Dublin in december 1996, ziet de situatie er als volgt uit.**Inleiding**
 
-1.   
-2. De nationale munten van deze Lid-Staten zijn van dan af en voor de duur van een overgangsperiode vooraleer ze verdwijnen, een verschillende uitdrukking van de euro; zolang zijn zij elk aan de Euro evenals onderling gekoppeld, in een vaste, definitieve en onveranderlijke verhouding die vóór eind 1998 van overheidswege zal worden vastgesteld.  
+1. 
+2. De nationale munten van deze Lid-Staten zijn van dan af en voor de duur van een overgangsperiode vooraleer ze verdwijnen, een verschillende uitdrukking van de euro; zolang zijn zij elk aan de Euro evenals onderling gekoppeld, in een vaste, definitieve en onveranderlijke verhouding die vóór eind 1998 van overheidswege zal worden vastgesteld. 
 
-3. De Euro bestaat vanaf 1 januari 1999 als betaalmunt voor girale verrichtingen en vanaf 1 januari 2002 ook in de vorm van briefjes en munten. Tot die laatste datum mogen alle girale betalingen, hetzij in Euro, hetzij in nationale munt gebeuren, liquide betalingen enkel in nationale munt. Vanaf 1 juli 2002 zijn briefjes en munten in de nationale munt geen wettelijk betaalmiddel meer en blijft enkel de Euro over als reken- en betaalmunt.  
+3. De Euro bestaat vanaf 1 januari 1999 als betaalmunt voor girale verrichtingen en vanaf 1 januari 2002 ook in de vorm van briefjes en munten. Tot die laatste datum mogen alle girale betalingen, hetzij in Euro, hetzij in nationale munt gebeuren, liquide betalingen enkel in nationale munt. Vanaf 1 juli 2002 zijn briefjes en munten in de nationale munt geen wettelijk betaalmiddel meer en blijft enkel de Euro over als reken- en betaalmunt. 
 
-4. Vanaf 1 januari 1999 komt er een vaste ruilverhouding tussen de nationale munten van de landen die deelnemen aan de Muntunie, verdwijnt de wisselmarkt voor die munten, alsook elk wisselrisico. Die munten zullen onderling en met de Euro materieel worden omgewisseld zonder koersschommelingen, tegen de omrekeningskoers die eens en voorgoed door de politieke overheid zal zijn vastgesteld, onder voorbehoud van de aanrekening van een eventuele provisie bij omwisseling van briefjes.  
+4. Vanaf 1 januari 1999 komt er een vaste ruilverhouding tussen de nationale munten van de landen die deelnemen aan de Muntunie, verdwijnt de wisselmarkt voor die munten, alsook elk wisselrisico. Die munten zullen onderling en met de Euro materieel worden omgewisseld zonder koersschommelingen, tegen de omrekeningskoers die eens en voorgoed door de politieke overheid zal zijn vastgesteld, onder voorbehoud van de aanrekening van een eventuele provisie bij omwisseling van briefjes. 
 
-5. De invoering van de Euro wijzigt niets aan bestaande contractuele voorschriften en vormt geen beletsel voor de contractvrijheid.  
+5. De invoering van de Euro wijzigt niets aan bestaande contractuele voorschriften en vormt geen beletsel voor de contractvrijheid. 
 
 6. Tijdens de overgangsperiode mogen de Lid-Staten het gebruik van de Euro of van de nationale munt, niet verbieden noch opleggen of beperken. Tenzij anderszins overeengekomen, hebben de deelnemers aan het economisch bestel tijdens deze periode de keuze tussen de Euro en de nationale munt voor de opmaak van hun stukken en hun betalingsverrichtingen. De overheden van de deelnemende landen moeten tijdens die periode toestaan dat de deelnemers aan het economisch bestel in hun verrichtingen met hen zowel in administratief (officiële stukken) en juridisch opzicht (vorderingen of schuldbewijzen) alsook voor financiële verrichtingen (betaalmunt) naar eigen keuze de nationale munt of de Euro gebruiken. 
 
@@ -70,22 +70,22 @@ Daarover is op Europees niveau overleg gepleegd in het Contactcomité voor de bo
 
 ### I.v.m. de opstelling van de statutaire en de geconsolideerde jaarrekening in Euro
 
-1. 1. De Lid-Staten moeten de ondernemingen die naar hun recht zijn opgericht, toestaan hun statutaire en hun geconsolideerde jaarrekening hetzij in nationale munt, hetzij in Euro op te stellen.  
+1. 1. De Lid-Staten moeten de ondernemingen die naar hun recht zijn opgericht, toestaan hun statutaire en hun geconsolideerde jaarrekening hetzij in nationale munt, hetzij in Euro op te stellen. 
 
 	In België impliceert dit een aanpassing van de besluiten van 8 oktober 1976 en 6 maart 1990, omdat die thans voorschrijven dat zowel de statutaire als de geconsolideerde jaarrekening in Belgische franken worden opgesteld. 
 2. De ondernemingen mogen vrij kiezen op welk tijdstip zij voor de voorstelling van hun financiële staten overschakelen op de Euro. Om redenen van coherentie moet dergelijke overschakeling op de Euro evenwel onomkeerbaar zijn. 
 3. Kunnen de ondernemingen het tijdstip waarop zij voor hun geconsolideerde jaarrekening overschakelen op de Euro, niet doen samenvallen met het tijdstip waarop zij hun statutaire jaarrekening in Euro gaan opstellen ? Volgens het meerderheidsadvies van het Contactcomité voor de boekhoudrichtlijnen is zo'n loskoppeling niet raadzaam. Als argument werd toen gewezen op het gevaar voor verwarring, wanneer beide jaarrekeningsets in dezelfde bundel worden gepubliceerd en in gezamelijke verslagen toegelicht. De Commissie is evenwel van oordeel dat er geldige redenen kunnen zijn om snel over te schakelen op de Euro voor de geconsolideerde jaarrekening maar dat pas later te doen voor de statutaire jaarrekening. Om verwarring te vermijden impliceert dit evenwel dat de geconsolideerde jaarrekening en de desbetreffende verslagen duidelijk worden onderscheiden van de statutaire jaarrekening en de desbetreffende verslagen. 
-4. De invoering van de Euro op 1 januari 1999, betekent voor de ondernemingen dat zij op de Euro mogen overschakelen voor hun statutaire jaarrekening en geconsolideerde jaarrekening, afgesloten na 1 januari 1999.  
+4. De invoering van de Euro op 1 januari 1999, betekent voor de ondernemingen dat zij op de Euro mogen overschakelen voor hun statutaire jaarrekening en geconsolideerde jaarrekening, afgesloten na 1 januari 1999. 
 
-	De vraag rijst evenwel of voor jaarrekeningen die op een vroegere datum dan 1 januari 1999 zijn afgesloten maar nadien zijn goedgekeurd (meer bepaald voor de jaarrekeningen op 31 december 1998), de ondernemingen reeds de Euro mogen hanteren voor hun opstelling.  
+	De vraag rijst evenwel of voor jaarrekeningen die op een vroegere datum dan 1 januari 1999 zijn afgesloten maar nadien zijn goedgekeurd (meer bepaald voor de jaarrekeningen op 31 december 1998), de ondernemingen reeds de Euro mogen hanteren voor hun opstelling. 
 
-	Volgens een strikt juridische interpretatie is het antwoord blijkbaar negatief; op 31 december 1998 bestaat de Euro immers niet : dat is pas vanaf 1 januari 1999. Het lijkt moeilijk een jaarrekening op te stellen in een munt die wettelijk niet bestaat.  
+	Volgens een strikt juridische interpretatie is het antwoord blijkbaar negatief; op 31 december 1998 bestaat de Euro immers niet : dat is pas vanaf 1 januari 1999. Het lijkt moeilijk een jaarrekening op te stellen in een munt die wettelijk niet bestaat. 
 
-	Bij nader inzien blijkt die stelling evenwel niet zo onoverkomelijk. Aangezien, enerzijds, de muntpariteiten op dat ogenblik reeds definitief zullen zijn vastgesteld, zal de Euro economisch en financieel gezien reeds bestaan. Anderzijds zal de Euro juridisch wel bestaan op het ogenblik dat jaarrekeningen worden opgesteld, gecontroleerd, goedgekeurd door de ondernemingsorganen, medegedeeld aan de diverse gebruikers, goedgekeurd door de algemene vergadering en openbaar gemaakt, dus, op het ogenblik dat alle aan die jaarrekeningen verbonden juridische gevolgen uitwerking zullen hebben.  
+	Bij nader inzien blijkt die stelling evenwel niet zo onoverkomelijk. Aangezien, enerzijds, de muntpariteiten op dat ogenblik reeds definitief zullen zijn vastgesteld, zal de Euro economisch en financieel gezien reeds bestaan. Anderzijds zal de Euro juridisch wel bestaan op het ogenblik dat jaarrekeningen worden opgesteld, gecontroleerd, goedgekeurd door de ondernemingsorganen, medegedeeld aan de diverse gebruikers, goedgekeurd door de algemene vergadering en openbaar gemaakt, dus, op het ogenblik dat alle aan die jaarrekeningen verbonden juridische gevolgen uitwerking zullen hebben. 
 
-	Met betrekking tot de gestelde vraag wordt voorgesteld een onderscheid te maken tussen de statutaire jaarrekening en de geconsolideerde jaarrekening.  
+	Met betrekking tot de gestelde vraag wordt voorgesteld een onderscheid te maken tussen de statutaire jaarrekening en de geconsolideerde jaarrekening. 
 
-	Voor de statutaire jaarrekening lijkt een dergelijke anticipatie niet wenselijk. Als men de ondernemingen zou toestaan hun jaarrekening in Euro op te stellen, dan zou men diverse overheidsbesturen (Balanscentrale, belastingbesturen, sociale besturen, enz.) en de overige gebruikers van de jaarrekening, ipso facto moeten verplichten dergelijke jaarrekening in Euro te aanvaarden. Die besturen en andere gebruikers moeten weliswaar, krachtens de Europese beslissingen, de nodige organisatorische schikkingen treffen voor de ontvangst van documenten, boekhoudstaten en financiële staten in Euro, die zijn afgesloten op een datum of betrekking hebben op een periode na de officiële invoering van de Euro, dat is op 1 januari 1999. Om evidente administratieve redenen kunnen ze daartoe echter niet verplicht worden voor documenten en boekhoudstaten in Euro die zijn afgesloten op een datum of betrekking hebben op een periode vóór 1 januari 1999.  
+	Voor de statutaire jaarrekening lijkt een dergelijke anticipatie niet wenselijk. Als men de ondernemingen zou toestaan hun jaarrekening in Euro op te stellen, dan zou men diverse overheidsbesturen (Balanscentrale, belastingbesturen, sociale besturen, enz.) en de overige gebruikers van de jaarrekening, ipso facto moeten verplichten dergelijke jaarrekening in Euro te aanvaarden. Die besturen en andere gebruikers moeten weliswaar, krachtens de Europese beslissingen, de nodige organisatorische schikkingen treffen voor de ontvangst van documenten, boekhoudstaten en financiële staten in Euro, die zijn afgesloten op een datum of betrekking hebben op een periode na de officiële invoering van de Euro, dat is op 1 januari 1999. Om evidente administratieve redenen kunnen ze daartoe echter niet verplicht worden voor documenten en boekhoudstaten in Euro die zijn afgesloten op een datum of betrekking hebben op een periode vóór 1 januari 1999. 
 
 	Voor de geconsolideerde jaarrekening speelt die factor niet - of nauwelijks. Er lijkt dan ook geen bezwaar te bestaan om de ondernemingen toe te staan hun geconsolideerde jaarrekening afgesloten vanaf 31 december 1998, in Euro op te stellen en openbaar te maken. Aangezien de datum voor de vaststelling van de muntpariteiten echter nog niet bekend is, lijkt het op dit ogenblik niet raadzaam hierop te anticiperen voor de geconsolideerde jaarrekeningen afgesloten vóór 31 december 1998. 
 5. Op parallelle wijze lijkt het vanzelfsprekend dat ondernemingen verder de nationale munt mogen blijven hanteren voor het opstellen van hun jaarrekening, tot en met de jaarrekening over het boekjaar dat afsluit op 31 december 2001, zelfs al wordt die jaarrekening goedgekeurd en openbaar gemaakt na die datum. Zonder de beslissingsautonomie van de ondernemingen in verband hiermee ook maar enigszins te willen beperken, meent de Commissie als aanbeveling te moeten formuleren, niet te wachten op die uiterste datum om over te schakelen op de Euro. 
@@ -120,7 +120,7 @@ Om dezelfde redenen lijkt er geen bezwaar dat ondernemingen waarvan de verkopen 
 
 ### I.v.m. wisselverschillen ingevolge het verschil tussen de gehanteerde wisselkoersen bij verrichtingen voor 1 januari 1999 in een munt van een van de andere lid-staten van de Muntunie, en de koers voor de omrekening van de nationale munt in Euro van deze munt
 
-####  Voorafgaande opmerking
+#### Voorafgaande opmerking
 
 Vooraf zij erop gewezen dat wisselverschillen, althans voor statutaire jaarrekeningen, enkel het gevolg kunnen zijn van het feit dat bepaalde monetaire posten in een andere munt luiden dan de referentiemunt van de betrokken onderneming. De omrekening in Euro van oorspronkelijk in Belgische frank uitgedrukte monetaire posten, kan geen wisselverschillen opleveren. Niet-monetaire posten kunnen, althans voor statutaire jaarrekeningen, evenmin wisselverschillen opleveren.
 
@@ -152,7 +152,7 @@ Die verschillen en hun verwerking in de jaarrekening doen een aantal vragen rijz
 
 ##### *Op welke datum moeten dergelijke verschillen worden geboekt ?*
 
-Moeten zij worden geboekt op 1 januari 1999 of op 31 december 1998 ?  
+Moeten zij worden geboekt op 1 januari 1999 of op 31 december 1998 ? 
 
 Na grondig onderzoek is het Europees Contactcomité tot de conclusie gekomen dat de wisselkoers zoals die door de Europese autoriteiten zal zijn vastgesteld tegen uiterlijk 31 december 1998, moet gelden als «slotkoers» op 31 december 1998; bijgevolg moeten alle monetaire posten in de boekhouding eind 1998 (of in de boekhouding van het eind 1998 lopende boekjaar) op basis van die koers worden gewaardeerd, ongeacht het boekjaar vanaf wanneer de jaarrekening in Euro wordt opgesteld.
 
@@ -234,16 +234,16 @@ Een onderneming die op 1 april 1998 een termijnwisselverrichting aangaat DEM teg
 
 In verband met deze termijnwisselverrichtingen rijzen er twee vragen :
 
-- Blijft dit contract wat de hoofdsom betreft, in burgerrechtelijk opzicht bestaan ? Heeft dit nog een bestaansreden ?  
+- Blijft dit contract wat de hoofdsom betreft, in burgerrechtelijk opzicht bestaan ? Heeft dit nog een bestaansreden ? 
 
 	Rekening houdend met de algemene benadering van het «Legal framework for the use of the Euro», goedgekeurd voor de Top van Dublin, namelijk dat de invoering van de Euro niets wijzigt aan de contractuele relaties, mag men stellen dat in burgerrechtelijk opzicht alle rechten en verplichtingen tot hun vervaldag blijven bestaan en derhalve in de boekhouding moeten gehandhaafd worden. Op vervaldag verdwijnen zij gewoon door verrekening, ten belope van het kleinste van beide betrokken bedragen. 
-- Qua resultaat kunnen zich verschillende gevallen voordoen :  
+- Qua resultaat kunnen zich verschillende gevallen voordoen : 
 
-	In het geval van een verrichting ter dekking van een andere monetaire post (op de balans dan wel in de vorm van een recht of een verplichting buiten balanstelling), verliest de termijnverrichting, ingevolge de invoering van de Euro, haar kenmerk van dekkingsverrichting, aangezien zij niet langer meer een beperking (opheffing) van het wisselrisico tot gevolg heeft. Het wisselverschil op de termijnovereenkomst zal op hetzelfde ogenblik als het wisselresultaat op de gedekte monetaire post in resultaat moeten worden genomen, dus in beginsel, zoals gezegd, op 31 december 1998.  
+	In het geval van een verrichting ter dekking van een andere monetaire post (op de balans dan wel in de vorm van een recht of een verplichting buiten balanstelling), verliest de termijnverrichting, ingevolge de invoering van de Euro, haar kenmerk van dekkingsverrichting, aangezien zij niet langer meer een beperking (opheffing) van het wisselrisico tot gevolg heeft. Het wisselverschil op de termijnovereenkomst zal op hetzelfde ogenblik als het wisselresultaat op de gedekte monetaire post in resultaat moeten worden genomen, dus in beginsel, zoals gezegd, op 31 december 1998. 
 
-	In het geval van een verrichting waardoor een open positie ontstaat, heeft het verdwijnen van het wisselrisico tot gevolg dat het wisselverschil op de termijnovereenkomst een gerealiseerd resultaat vertegenwoordigt dat op 31 december 1998 onder de opbrengsten of de kosten moet worden geboekt.  
+	In het geval van een verrichting waardoor een open positie ontstaat, heeft het verdwijnen van het wisselrisico tot gevolg dat het wisselverschil op de termijnovereenkomst een gerealiseerd resultaat vertegenwoordigt dat op 31 december 1998 onder de opbrengsten of de kosten moet worden geboekt. 
 
-	Voorts werd ook de vraag gesteld of de inresultaatneming niet, zoals bij elk report en deport, prorata temporis zou kunnen (moeten) worden gespreid over de resterende looptijd van de termijnwisselovereenkomst.  
+	Voorts werd ook de vraag gesteld of de inresultaatneming niet, zoals bij elk report en deport, prorata temporis zou kunnen (moeten) worden gespreid over de resterende looptijd van de termijnwisselovereenkomst. 
 
 	Voor zover het report/deport overeenstemt met een renteverschil op financiële instrumenten in verschillende munten, verliest het wisselverschil op 31 december 1998 zijn kenmerk van report/deport, aangezien men niet langer met twee verschillende munten met twee verschillende rentevoeten te maken heeft. Een gespreide inresultaatneming is dan ook niet meer verantwoord. 
 
@@ -259,9 +259,9 @@ Bij de invoering van de Euro verdwijnt de Ecu. Tenzij anders overeengekomen komt
 
 Voor tegoeden en verplichtingen in dergelijke munten spelen bij de invoering van de Euro twee factoren :
 
-enerzijds, de evolutie van de wisselkoers van deze munten ten opzichte van de nationale munt vóór de invoering van de Euro,  
+enerzijds, de evolutie van de wisselkoers van deze munten ten opzichte van de nationale munt vóór de invoering van de Euro, 
 
-anderzijds, de vaststelling van de koers voor de omrekening van de nationale munt in Euro.  
+anderzijds, de vaststelling van de koers voor de omrekening van de nationale munt in Euro. 
 
 Vermits deze tweede factor geen aanleiding geeft tot wisselkoersverschillen, heeft alleen de eerste bij de invoering van de Euro, een invloed op de resultaten. Achteraf zullen die munten blijven evolueren in verhouding tot de Euro.
 
@@ -282,13 +282,13 @@ De betrokken beginselen van het gemeen boekhoudrecht kunnen als volgt worden sam
 - zij verband houden met een latere boekhoudperiode (systeem van de overlopende rekeningen), of 
 - zij betrekking hebben op productieve investeringen. 
 
-Bij productieve investeringen wordt de aanschaffingswaarde ten laste genomen via gespreide afschrijvingen over de vermoedelijke economische gebruiksduur of gebruikswaarde van de investering (K.B. 8 oktober 1976, artikel 28, § 2, eerste lid).  
+Bij productieve investeringen wordt de aanschaffingswaarde ten laste genomen via gespreide afschrijvingen over de vermoedelijke economische gebruiksduur of gebruikswaarde van de investering (K.B. 8 oktober 1976, artikel 28, § 2, eerste lid). 
 
 Het komt de onderneming toe op haar verantwoordelijkheid na te gaan in hoever de betrokken uitgaven een productieve investering vormen, m.a.w., die toekomstige, identificeerbare voordelen kan genereren.
 
 2. Voor de vaste activa worden aanvullende of uitzonderlijke afschrijvingen geboekt, wanneer hun boekwaarde, ten gevolge van technische ontaarding of wijziging in de economische of technologische omstandigheden, hoger is dan hun gebruikswaarde voor de onderneming (K.B. 8 oktober 1976, artikel 28, § 2, tweede lid). Die aanvullende of uitzonderlijke afschrijvingen komen dan in beginsel hierop neer, dat een vroeger vastgesteld afschrijvingsplan sneller wordt uitgevoerd naarmate de toekomstige vermoedelijke economische gebruiksduur of gebruikswaarde van dat betrokken actief vermindert. Zo'n versneld afschrijvingsplan moet worden uitgevoerd vanaf het tijdstip waarop vastgesteld wordt dat de toekomstige vermoedelijke economische gebruiksduur of gebruikswaarde van het betrokken actief vermindert.
 
-3. Een andere vraag is, of voorzieningen mogen worden gevormd om toekomstige kosten (buiten de kosten bedoeld sub 1 en 2 hierboven) op te vangen.  
+3. Een andere vraag is, of voorzieningen mogen worden gevormd om toekomstige kosten (buiten de kosten bedoeld sub 1 en 2 hierboven) op te vangen. 
 
 Artikel 19, vierde lid van het besluit van 8 oktober 1976 bepaalt dat rekening moet worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd (...).
 
@@ -301,7 +301,7 @@ Op grond van datzelfde beginsel stelt het derde lid van artikel 19 dat er rekeni
 
 Artikel 13 van hetzelfde besluit stelt dat de voorzieningen voor risico's en kosten naar hun aard duidelijk omschreven verliezen of kosten beogen te dekken, die op de balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat.
 
-Bijgevolg moet een opbrengst of een kost in de regel weliswaar worden verbonden aan de periode waarin voor de onderneming een overeenstemmende vordering of schuld is ontstaan, maar moeten kosten die later ontstaan, aan een voorgaand boekjaar worden toegerekend via de vorming van voorzieningen, voor zover :  
+Bijgevolg moet een opbrengst of een kost in de regel weliswaar worden verbonden aan de periode waarin voor de onderneming een overeenstemmende vordering of schuld is ontstaan, maar moeten kosten die later ontstaan, aan een voorgaand boekjaar worden toegerekend via de vorming van voorzieningen, voor zover : 
 
 a) die kosten met dit voorgaand boekjaar moeten worden verbonden, m.a.w. :
 
@@ -310,7 +310,7 @@ a) die kosten met dit voorgaand boekjaar moeten worden verbonden, m.a.w. :
 
 b) het te provisioneren bedrag op redelijke en verantwoorde wijze kan worden gekwantificeerd.
 
-Het besluit schrijft ook voor dat stelselmatig voorzieningen moeten worden gevormd volgens de door de onderneming overeenkomstig artikel 15 vastgelegde methoden en dat het vormen van voorzieningen niet mag afhangen van het resultaat van het boekjaar.  
+Het besluit schrijft ook voor dat stelselmatig voorzieningen moeten worden gevormd volgens de door de onderneming overeenkomstig artikel 15 vastgelegde methoden en dat het vormen van voorzieningen niet mag afhangen van het resultaat van het boekjaar. 
 
 De methodes voor de vorming van voorzieningen en de spreiding daarvan in de tijd, moeten nauwkeurig zijn afgestemd op de aard van de te dekken risico's en de factoren die deze risico's doen ontstaan of het bedrag ervan bepalen. Bij gebrek aan criteria die een tenlasteneming op een andere systematische basis kunnen verantwoorden, lijkt een spreiding in de tijd op lineaire basis aangewezen. Zo bijvoorbeeld in het geval van de voornoemde kosten ingevolge de overschakeling op de Euro.
 

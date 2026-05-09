@@ -29,7 +29,7 @@ provenance:
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
 gerelateerde_adviezen:
-  - titel: 'Omzetting van een vennootschap:  gevolgen voor de jaarrekening'
+  - titel: 'Omzetting van een vennootschap: gevolgen voor de jaarrekening'
     url: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
     datum: '2022-12-21'
   - titel: Gebeurtenissen na afsluitingsdatum van het boekjaar
@@ -53,26 +53,26 @@ De beoordeling van de groottecriteria vindt plaats op de balansdatum van de venn
 
 Wanneer de balansdata van de verbonden vennootschappen van elkaar verschillen, vindt de beoordeling van de groottecriteria plaats op basis van de laatst opgemaakte jaarrekeningen van de verbonden vennootschappen.[^6] Met de* laatst opgemaakte jaarrekening* kan uitsluitend worden bedoeld de *jaarrekening met betrekking tot het laatst afgesloten boekjaar*.
 
-***Voorbeeld***  
+***Voorbeeld*** 
 
-TOPCO: Afsluitingsdatum boekjaar 31/03  
+TOPCO: Afsluitingsdatum boekjaar 31/03 
 
-MIDCO: Dochtervennootschap van TOPCO; afsluitingsdatum boekjaar 31/12  
+MIDCO: Dochtervennootschap van TOPCO; afsluitingsdatum boekjaar 31/12 
 
-SUBCO1: Dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 31/12  
+SUBCO1: Dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 31/12 
 
-SUBCO2: Dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 30/11  
+SUBCO2: Dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 30/11 
 
 SUBCO3: Dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 31/01
 
-**TOPCO**  
+**TOPCO** 
 
 De beoordeling van de grootte van TOPCO op 31/03/N vindt plaats op basis van:
 
 1. de geconsolideerde cijfers van TOPCO op 31/03/N (consolidatie TOPCO, MIDCO, SUBCO1, SUBCO2, SUBCO3, rekening houdend met de gegevens op 31/03/N voor elke vennootschap); of 
 2. de geaggregeerde cijfers (+20%-methode) van TOPCO 31/03/N; MIDCO 31/12/N-1; SUBCO1 31/12/N-1; SUBCO2 30/11/N-1; SUBCO3 31/01/N. 
 
-**MIDCO**  
+**MIDCO** 
 
 De beoordeling van de grootte van MIDCO op 31/12/N vindt plaats op basis van:
 
@@ -89,11 +89,11 @@ Hierna volgen een aantal voorbeelden ter verduidelijking.
 
 Legende:
 
-<<     Op de balansdatum van het huidige boekjaar wordt maximaal één van de criteria van artikel 15/1 W.Venn. overschreden;
+<< Op de balansdatum van het huidige boekjaar wordt maximaal één van de criteria van artikel 15/1 W.Venn. overschreden;
 
-<     Op de balansdatum van het huidige boekjaar wordt maximaal één van de criteria van artikel 15 W.Venn. overschreden;
+< Op de balansdatum van het huidige boekjaar wordt maximaal één van de criteria van artikel 15 W.Venn. overschreden;
 
->    Op de balansdatum van het huidige boekjaar wordt meer dan één van de criteria van artikel 15 W.Venn. overschreden;
+> Op de balansdatum van het huidige boekjaar wordt meer dan één van de criteria van artikel 15 W.Venn. overschreden;
 
 **Voorbeeld 1: microvennootschap A verwerft kleine vennootschap B in N. Op geconsolideerde basis overschrijden (A + B) in jaar N de groottecriteria van artikel 15 W.Venn.**
 
@@ -109,7 +109,7 @@ Op 31/12/N is de vennootschap A geen moedervennootschap. Bijgevolg worden de gro
 
 **Voorbeeld 3: een dochtervennootschap A wordt een moedervennootschap in N. Op geconsolideerde basis overschrijden (A + X) op 31/12/N de groottecriteria van artikel 15 W.Venn. niet. Op 31/12/N-2 en 31/12/N-1 overschrijden (B + A) op geconsolideerde basis de groottecriteria van artikel 15 W.Venn. wel.**
 
-De vennootschap A is een verbonden vennootschap doch is geen moedervennootschap in N-2 en N-1. Tijdens het boekjaar N wordt de vennootschap A een moedervennootschap. De groottecriteria voor de vennootschap A moeten aldus op geconsolideerde basis worden beoordeeld. Op 31/12/N-1 en 31/12/N-2 is de vennootschap A verbonden met de vennootschap B[^12] en op geconsolideerde basis overschrijden de vennootschappen A en B meer dan één van de criteria vermeld in artikel 15, § 1 W.Venn. Bijgevolg is de vennootschap A een *grote[^13] * vennootschap tijdens het boekjaar N. Wanneer alle gegevens hetzelfde blijven, wordt vennootschap A voor het eerst een kleine vennootschap in boekjaar N+2.  
+De vennootschap A is een verbonden vennootschap doch is geen moedervennootschap in N-2 en N-1. Tijdens het boekjaar N wordt de vennootschap A een moedervennootschap. De groottecriteria voor de vennootschap A moeten aldus op geconsolideerde basis worden beoordeeld. Op 31/12/N-1 en 31/12/N-2 is de vennootschap A verbonden met de vennootschap B[^12] en op geconsolideerde basis overschrijden de vennootschappen A en B meer dan één van de criteria vermeld in artikel 15, § 1 W.Venn. Bijgevolg is de vennootschap A een *grote[^13] * vennootschap tijdens het boekjaar N. Wanneer alle gegevens hetzelfde blijven, wordt vennootschap A voor het eerst een kleine vennootschap in boekjaar N+2. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 28 februari 2017 ter consultatie werd gepubliceerd op de website van de CBN.
 

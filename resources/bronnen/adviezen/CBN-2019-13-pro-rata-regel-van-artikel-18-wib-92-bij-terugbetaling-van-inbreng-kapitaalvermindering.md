@@ -30,19 +30,19 @@ provenance:
 
 # CBN-advies 2019/13 - Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
 
-1.  Inleiding  
-2.  Nieuwe regels inzake kapitaalvermindering 
-  1.  Artikel 18, lid 2 tot 6, WIB 92  
-  2.  Voorbeeld 
-    1.  Vermindering van het kapitaal met 400 tijdens boekjaar 2018  
-    2.  Dividenduitkering van 700 in 2019  
+1. Inleiding 
+2. Nieuwe regels inzake kapitaalvermindering 
+  1. Artikel 18, lid 2 tot 6, WIB 92 
+  2. Voorbeeld 
+    1. Vermindering van het kapitaal met 400 tijdens boekjaar 2018 
+    2. Dividenduitkering van 700 in 2019 
 
-3.  Vrijwillige toepassing van de bepalingen van artikel 18, lid 2 tot 6 (artikel 18, lid 7 WIB 92) 
-  1.  Toepassing van de beslissing tot aanrekening van de vennootschap
+3. Vrijwillige toepassing van de bepalingen van artikel 18, lid 2 tot 6 (artikel 18, lid 7 WIB 92) 
+  1. Toepassing van de beslissing tot aanrekening van de vennootschap
 
-  2.  Voorbeeld  
+  2. Voorbeeld 
 
--- Voorbeeld  
+-- Voorbeeld 
 
 ## Inleiding
 
@@ -58,8 +58,8 @@ Zo wordt in het WIB 92 een geëigende fiscale definitie van het begrip "kapitaal
 
 Er wordt verstaan onder ‘kapitaal’, in hoofde van een vennootschap:
 
-- het kapitaal van een naamloze vennootschap zoals bedoeld in het Wetboek van vennootschappen en verenigingen, of, in geval van een vennootschap met een andere rechtsvorm waarvoor het Belgisch of buitenlands recht dat haar beheerst in een gelijkaardig begrip voorziet, het begrip zoals bedoeld in dat recht;[^6]  
-- voor vennootschapsvormen waarvoor het Belgisch of buitenlands recht dat de vennootschap beheerst niet in een gelijkaardig begrip voorziet, het eigen vermogen van de vennootschap als bedoeld in het Belgisch recht of het buitenlands recht dat de vennootschap beheerst, in zoverre het gevormd wordt door inbrengen in geld of in natura, andere dan inbrengen in nijverheid.[^7]  
+- het kapitaal van een naamloze vennootschap zoals bedoeld in het Wetboek van vennootschappen en verenigingen, of, in geval van een vennootschap met een andere rechtsvorm waarvoor het Belgisch of buitenlands recht dat haar beheerst in een gelijkaardig begrip voorziet, het begrip zoals bedoeld in dat recht;[^6] 
+- voor vennootschapsvormen waarvoor het Belgisch of buitenlands recht dat de vennootschap beheerst niet in een gelijkaardig begrip voorziet, het eigen vermogen van de vennootschap als bedoeld in het Belgisch recht of het buitenlands recht dat de vennootschap beheerst, in zoverre het gevormd wordt door inbrengen in geld of in natura, andere dan inbrengen in nijverheid.[^7] 
 
 Onderhavig advies beoogt dan ook het verduidelijken van de door de wet aangereikte mogelijkheid om de nieuwe regels bedoeld in artikel 18, lid 2 tot 6 WIB 92 op vrijwillige basis toe te passen.
 
@@ -78,7 +78,7 @@ Onverminderd de toepassing van artikel 537 WIB 92 en van het zevende lid van art
 
 - uit het gestort kapitaal en uit de met gestort kapitaal gelijkgestelde bedragen vermeld in artikel 18, lid 1, 2° bis WIB 92, ten belope van een percentage dat de verhouding uitdrukt tussen, in de teller, de som van het gestort kapitaal en van de voormelde bedragen die met gestort kapitaal worden gelijkgesteld, en, in de noemer, de som van de belaste reserves, de in het kapitaal geïncorporeerde vrijgestelde reserves en het bedrag bepaald in de teller; 
 
-                         Gestort kapitaal + ‘gelijkgestelde bedragen’ **(T)     **    
+          Gestort kapitaal + ‘gelijkgestelde bedragen’ **(T) ** 
 
 Belaste reserves + in het kapitaal geïncorporeerde vrijgestelde reserves + **(T)**
 
@@ -93,7 +93,7 @@ Onverminderd de toepassing van het zevende lid van artikel 18 WIB 92, worden de 
   - in het geval van een terugbetaling van uitgiftepremies bedoeld in artikel 18, lid 1, 2° bis WIB 92, eerst op de uitgiftepremies die met gestort kapitaal worden gelijkgesteld, en, indien dat bedrag ontoereikend is, achtereenvolgens op het gestort kapitaal en op de andere bedragen waarop ter gelegenheid van de uitgifte van aandelen of winstbewijzen is ingeschreven en die met gestort kapitaal worden gelijkgesteld; 
   - in het geval van een terugbetaling van andere bedragen waarop ter gelegenheid van de uitgifte van aandelen of winstbewijzen is ingeschreven, bedoeld in artikel 18, lid 1, 2° bis WIB 92, eerst op de voormelde bedragen die met gestort kapitaal worden gelijkgesteld, en, indien dat bedrag ontoereikend is, achtereenvolgens op het gestort kapitaal en op de uitgiftepremies die met gestort kapitaal worden gelijkgesteld. 
 
-   Voor de toepassing van artikel 18, lid 2 WIB 92 wordt het bedrag van de reserves bepaald op het einde van het belastbare tijdperk dat voorafgaat aan datgene waarin de terugbetaling van de in artikel 18, lid 1, 2° en 2° bis WIB 92 bedoelde bedragen is verricht, verminderd met het bedrag van de tijdens het belastbare tijdperk en ten laatste op de datum waarop deze terugbetaling is verricht, uitgekeerde tussentijdse dividenden.
+  Voor de toepassing van artikel 18, lid 2 WIB 92 wordt het bedrag van de reserves bepaald op het einde van het belastbare tijdperk dat voorafgaat aan datgene waarin de terugbetaling van de in artikel 18, lid 1, 2° en 2° bis WIB 92 bedoelde bedragen is verricht, verminderd met het bedrag van de tijdens het belastbare tijdperk en ten laatste op de datum waarop deze terugbetaling is verricht, uitgekeerde tussentijdse dividenden.
 
 Om de pro rata bedoeld in artikel 18, lid 2 en 3 WIB 92 te bepalen, wordt geen rekening gehouden met:
 
@@ -120,255 +120,255 @@ De in 2018 uitgevoerde kapitaalvermindering wordt boekhoudkundig behandeld als e
 Op fiscaal vlak wordt er gehandeld op basis van ‘het gedeelte dat wordt aangerekend’, namelijk:
 
 1.000[^8]
- + 400  
-**1.400** + 800[^9]   
+ + 400 
+**1.400** + 800[^9] 
 
 = 63,6 %
 
 Het gevolg hiervan is een verhoudingsgewijze aanrekening van 255 (400 * 63,6 %) op het gestort kapitaal en de hiermee gelijkgestelde bedragen en van 145 (400 * 36,4 %) op de belaste reserves.
 
-|  
+| 
 
-  | |  
+  | | 
 
 Samenstelling van het eigen vermogen op boekhoudkundig vlak
 
-  | |  
+  | | 
 
 Samenstelling van het eigen vermogen op fiscaal vlak
 
   | 
-|  
+| 
 
-  | |  
+  | | 
 
 Begin-toestand
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 Eind-toestand
 
-  | |  
+  | | 
 
 Begin-toestand
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 Eind-toestand
 
   | 
-|  
+| 
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 Fiscaal gestort kapitaal
 
   | 
-|  
+| 
 
 Kapitaal
 
-  | |  
+  | | 
 
 1.000
 
-  | |  
+  | | 
 
 -400
 
-  | |  
+  | | 
 
 600
 
-  | |  
+  | | 
 
 1.000
 
-  | |  
+  | | 
 
 -255
 
-  | |  
+  | | 
 
 745
 
   | 
-|  
+| 
 
 Uitgiftepremies
 
-  | |  
+  | | 
 
 400
 
-  | |  
+  | | 
 
-  | |  
-
-400
-
-  | |  
+  | | 
 
 400
 
-  | |  
+  | | 
 
-  | |  
+400
+
+  | | 
+
+  | | 
 
 400
 
   | 
-|  
+| 
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 Belaste reserves
 
   | 
-|  
+| 
 
 Wettelijke reserve
 
-  | |  
+  | | 
 
 50
 
-  | |  
+  | | 
 
-  | |  
-
-50
-
-  | |  
+  | | 
 
 50
 
-  | |  
+  | | 
 
-  | |  
+50
+
+  | | 
+
+  | | 
 
 50
 
   | 
-|  
+| 
 
 Beschikbare reserves
 
-  | |  
+  | | 
 
 800
 
-  | |  
+  | | 
 
-  | |  
-
-800
-
-  | |  
+  | | 
 
 800
 
-  | |  
+  | | 
 
-  | |  
+800
+
+  | | 
+
+  | | 
 
 800
 
   | 
-|  
+| 
 
 Negatieve reserves
 
-  | |  
+  | | 
 
 -
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 -
 
-  | |  
+  | | 
 
 0
 
-  | |  
+  | | 
 
 -145
 
-  | |  
+  | | 
 
 -145
 
   | 
-|  
+| 
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 Vrijgestelde reserves
 
   | 
-|  
+| 
 
 Belastingvrije reserves
 
-  | |  
+  | | 
 
 150
 
-  | |  
+  | | 
 
-  | |  
-
-150
-
-  | |  
+  | | 
 
 150
 
-  | |  
+  | | 
 
-  | |  
+150
+
+  | | 
+
+  | | 
 
 150
 
   | 
-|  
+| 
 
 Totaal
 
-  | |  
+  | | 
 
 2.400
 
-  | |  
+  | | 
 
 -400
 
-  | |  
+  | | 
 
 2.000
 
-  | |  
+  | | 
 
 2.400
 
-  | |  
+  | | 
 
 -400
 
-  | |  
+  | | 
 
 2.000
 
@@ -380,8 +380,8 @@ De boekingen worden als volgt verricht:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 10 | Kapitaal | 400 |  |
-| aan | 489 | Andere diverse schulden |  | 400 |
+| | 10 | Kapitaal | 400 | |
+| aan | 489 | Andere diverse schulden | | 400 |
 
 #### Dividenduitkering van 700 in 2019
 
@@ -389,274 +389,274 @@ Boekhoudkundig wordt deze verrichting behandeld als de uitkering van beschikbare
 
 De ‘fiscaal’ beschikbare reserves* (655, namelijk 800 van beschikbare reserves verminderd met 145 van negatieve reserves) volstaan niet voor de integrale aanrekening van de dividenduitkering. Het saldo van de uitkering (45) wordt bijgevolg aangerekend op de reserves die al behandeld zijn als dividend in het kader van een eerdere kapitaalvermindering.
 
-|  
+| 
 
-  | |  
+  | | 
 
 Samenstelling van het eigen vermogen op boekhoudkundig vlak
 
-  | |  
+  | | 
 
 Samenstelling van het eigen vermogen op fiscaal vlak
 
   | 
-|  
+| 
 
-  | |  
+  | | 
 
 Begin-toestand
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 Eind-toestand
 
-  | |  
+  | | 
 
 Begin-toestand
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 Eind-toestand
 
   | 
-|  
+| 
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 Fiscaal gestort kapitaal
 
   | 
-|  
+| 
 
 Kapitaal
 
-  | |  
+  | | 
 
 600
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 600
 
-  | |  
+  | | 
 
 745
 
-  | |  
+  | | 
 
 -45
 
-  | |  
+  | | 
 
 700
 
   | 
-|  
+| 
 
 Uitgiftepremies
 
-  | |  
+  | | 
 
 400
 
-  | |  
+  | | 
 
-  | |  
-
-400
-
-  | |  
+  | | 
 
 400
 
-  | |  
+  | | 
 
-  | |  
+400
+
+  | | 
+
+  | | 
 
 400
 
   | 
-|  
+| 
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 Belaste reserves
 
   | 
-|  
+| 
 
 Wettelijke reserve
 
-  | |  
+  | | 
 
 50
 
-  | |  
+  | | 
 
-  | |  
-
-50
-
-  | |  
+  | | 
 
 50
 
-  | |  
+  | | 
 
-  | |  
+50
+
+  | | 
+
+  | | 
 
 50
 
   | 
-|  
+| 
 
 Beschikbare reserves
 
-  | |  
+  | | 
 
 800
 
-  | |  
+  | | 
 
 -700
 
-  | |  
+  | | 
 
 100
 
-  | |  
+  | | 
 
 800
 
-  | |  
+  | | 
 
 -700
 
-  | |  
+  | | 
 
 100
 
   | 
-|  
+| 
 
 Negatieve reserves
 
-  | |  
+  | | 
 
 -
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 -
 
-  | |  
+  | | 
 
 -145
 
-  | |  
+  | | 
 
 +45
 
-  | |  
+  | | 
 
 -100
 
   | 
-|  
+| 
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 Vrijgestelde reserves
 
   | 
-|  
+| 
 
 Belastingvrije reserves
 
-  | |  
+  | | 
 
 150
 
-  | |  
+  | | 
 
-  | |  
-
-150
-
-  | |  
+  | | 
 
 150
 
-  | |  
+  | | 
 
-  | |  
+150
+
+  | | 
+
+  | | 
 
 150
 
   | 
-|  
+| 
 
 Totaal
 
-  | |  
+  | | 
 
 2.000
 
-  | |  
+  | | 
 
 -700
 
-  | |  
+  | | 
 
 1.300
 
-  | |  
+  | | 
 
 2.000
 
-  | |  
+  | | 
 
 -700
 
-  | |  
+  | | 
 
 1.300
 
   | 
 
-|  
+| 
 
 Verhoging van de begintoestand van de reserves[^10] 
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 45
 
-  | |  
+  | | 
 
 -45
 
-  | |  
+  | | 
 
 0
 
@@ -670,8 +670,8 @@ De boekingen worden als volgt verricht:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 694 | Vergoeding van de inbreng | 700 |  |
-| aan | 471 | Dividenden over het boekjaar |  | 700 |
+| | 694 | Vergoeding van de inbreng | 700 | |
+| aan | 471 | Dividenden over het boekjaar | | 700 |
 
 *Bij de toekenning of betaalbaarstelling van het tussentijds dividend:*
 
@@ -679,16 +679,16 @@ De boekingen worden als volgt verricht:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 471 | Dividenden over het boekjaar | 196,5 |  |
-| aan | 453 | Ingehouden voorheffingen |  | 196,5 |
+| | 471 | Dividenden over het boekjaar | 196,5 | |
+| aan | 453 | Ingehouden voorheffingen | | 196,5 |
 
 *Bij de betaling van het tussentijds dividend en van de roerende voorheffing:*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 471 | Dividenden over het boekjaar | 503,5 |  |
-|  | 453 | Ingehouden voorheffingen | 196,5 |  |
-| aan | 5500 | Kredietinstellingen: Rekening-courant |  | 700 |
+| | 471 | Dividenden over het boekjaar | 503,5 | |
+| | 453 | Ingehouden voorheffingen | 196,5 | |
+| aan | 5500 | Kredietinstellingen: Rekening-courant | | 700 |
 
 ## Vrijwillige toepassing van de bepalingen van artikel 18, lid 2 tot 6 (artikel 18, lid 7 WIB 92)
 
@@ -714,8 +714,8 @@ Voor de verrichting is het boekhoudkundig eigen vermogen van de vennootschap het
 
 De vennootschap handelt op basis van het ‘gedeelte dat wordt aangerekend’, zijnde
 
-        5.000          
-**5.000 +** 20.000  
+      5.000 
+**5.000 +** 20.000 
 
 = 20%
 
@@ -725,166 +725,166 @@ De vennootschap boekt en rekent daadwerkelijk de vermindering van het eigen verm
 
 Bijgevolg zal het bedrag van het dividend ten belope van 800 als dusdanig aanvaard worden en zal het niet nodig zijn het afgezonderde bedrag van vermindering van gestort kapitaal ten belope van 200 verder op te delen.
 
-|  
+| 
 
-  | |  
+  | | 
 
 Samenstelling van het eigen vermogen op boekhoudkundig vlak
 
-  | |  
+  | | 
 
 Samenstelling van het eigen vermogen op fiscaal vlak
 
   | 
-|  
+| 
 
-  | |  
+  | | 
 
 Begin-toestand
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 Eind-toestand
 
-  | |  
+  | | 
 
 Begin-toestand
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 Eind-toestand
 
   | 
-|  
+| 
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 Fiscaal gestort kapitaal
 
   | 
-|  
+| 
 
 Kapitaal
 
-  | |  
+  | | 
 
 5.000
 
-  | |  
+  | | 
 
 -200
 
-  | |  
+  | | 
 
 4.800
 
-  | |  
+  | | 
 
 5.000
 
-  | |  
+  | | 
 
 -200
 
-  | |  
+  | | 
 
 4.800
 
   | 
-|  
+| 
 
-  | |  
+  | | 
 
-  | |  
+  | | 
 
 Belaste reserves
 
   | 
-|  
+| 
 
 Wettelijke reserve
 
-  | |  
+  | | 
 
 500
 
-  | |  
+  | | 
 
-  | |  
-
-500
-
-  | |  
+  | | 
 
 500
 
-  | |  
+  | | 
 
-  | |  
+500
+
+  | | 
+
+  | | 
 
 500
 
   | 
-|  
+| 
 
 Beschikbare reserves
 
-  | |  
+  | | 
 
 20.000
 
-  | |  
+  | | 
 
 -800
 
-  | |  
+  | | 
 
 19.200
 
-  | |  
+  | | 
 
 20.000
 
-  | |  
+  | | 
 
 -800
 
-  | |  
+  | | 
 
 19.200
 
   | 
-|  
+| 
 
 Totaal
 
-  | |  
+  | | 
 
 25.500
 
-  | |  
+  | | 
 
 -1.000
 
-  | |  
+  | | 
 
 24.500
 
-  | |  
+  | | 
 
 25.500
 
-  | |  
+  | | 
 
 -1.000
 
-  | |  
+  | | 
 
 24.500
 
@@ -896,30 +896,30 @@ De boekingen zijn als volgt:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 694 | Vergoeding van de inbreng | 800 |  |
-| aan | 471 | Dividenden over het boekjaar |  | 800 |
+| | 694 | Vergoeding van de inbreng | 800 | |
+| aan | 471 | Dividenden over het boekjaar | | 800 |
 
 [^15]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 100 | Kapitaal | 200 |  |
-| aan | 489 | Diverse schulden |  | 200 |
+| | 100 | Kapitaal | 200 | |
+| aan | 489 | Diverse schulden | | 200 |
 
 *Bij de toekenning of betaalbaarstelling van het tussentijds dividend:*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 471 | Dividenden over het boekjaar | 240 |  |
-| aan | 453 | Ingehouden voorheffingen |  | 240 |
+| | 471 | Dividenden over het boekjaar | 240 | |
+| aan | 453 | Ingehouden voorheffingen | | 240 |
 
 *Bij de betaling van het tussentijds dividend en de roerende voorheffing:*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 471 | Dividenden over het boekjaar | 560 |  |
-|  | 453 | Ingehouden voorheffingen | 240 |  |
-| aan | 55 | Kredietinstellingen: Rekening-courant |  | 800 |
+| | 471 | Dividenden over het boekjaar | 560 | |
+| | 453 | Ingehouden voorheffingen | 240 | |
+| aan | 55 | Kredietinstellingen: Rekening-courant | | 800 |
 
 In het geval dat de vennootschap het bedrag van de door de algemene vergadering besliste vermindering van het eigen vermogen niet correct heeft aangerekend, wordt de vermindering van het kapitaal (of van de ermee gelijkgestelde bedragen) afzonderlijk aan art. 18, tweede tot zesde lid, WIB 92, onderworpen. In dat geval worden de door de algemene vergadering besliste en op de reserves aangerekende uitgekeerde dividenden als tussentijdse dividenden beschouwd voor de toepassing van die bepalingen[^16].
 

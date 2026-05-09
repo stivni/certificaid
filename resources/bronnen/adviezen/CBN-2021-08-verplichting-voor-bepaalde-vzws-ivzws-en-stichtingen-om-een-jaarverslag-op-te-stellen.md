@@ -29,13 +29,13 @@ gerelateerde_adviezen:
   - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
     datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen:  eigen boekhoudkundige verplichtingen (update)'
+  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
     datum: '2022-11-08'
   - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
     datum: '2022-11-08'
-  - titel: Gevolgen op gebied van financiële rapportering  als gevolg van de brexit
+  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
     datum: '2019-04-12'
 ---
@@ -48,30 +48,30 @@ De Commissie voor boekhoudkundige normen is om advies gevraagd in verband met de
 
 Sinds de inwerkingtreding van het Wetboek van vennootschappen en verenigingen (hierna: WVV) moeten de bestuursorganen van de andere dan de kleine VZW’s, IVZW’s of stichtingen een jaarverslag opstellen[^2]. Dit jaarverslag wordt gelijktijdig met de jaarrekening neergelegd en openbaar gemaakt. Deze verplichting wordt bepaald in de artikelen 3:47, § 7, tweede lid; 3:48 (VZW’s en IVZW’s); 3:51, § 7, tweede lid en 3:52 (stichtingen) WVV.
 
- In dit advies licht de Commissie toe welke VZW’s, IVZW’s en stichtingen een jaarverslag dienen op te stellen en vanaf wanneer deze verplichting van toepassing is.
+ In dit advies licht de Commissie toe welke VZW’s, IVZW’s en stichtingen een jaarverslag dienen op te stellen en vanaf wanneer deze verplichting van toepassing is.
 
 Voor wat betreft het jaarverslag, verwijst de Commissie naar de artikelen 3:48 (VZW’s & IVZW’s) en 3:52 (stichtingen) WVV. De Commissie wenst het belang te benadrukken van deze twee dwingende bepalingen waarvan de VZW’s, IVZW’s en stichtingen niet kunnen afwijken. Worden de bepalingen niet correct toegepast, kan het bestuursorgaan aansprakelijk worden gesteld. Alle in deze twee artikelen opgenomen informatie moet verplicht in het jaarverslag kunnen worden teruggevonden[^3].
 
-## Verplichting om een jaarverslag op te stellen 
+## Verplichting om een jaarverslag op te stellen 
 
-### Toepassingsgebied ratione personae 
+### Toepassingsgebied ratione personae 
 
-De verplichting om een jaarverslag op te stellen, heeft betrekking op de andere dan de kleine VZW’s. IVZW’s of stichtingen. De verplichting geldt dus voor VZW’s, IVZW’s of stichtingen die op balansdatum van het laatst afgesloten boekjaar meer dan één van de volgende criteria overschrijden[^4]: 
+De verplichting om een jaarverslag op te stellen, heeft betrekking op de andere dan de kleine VZW’s. IVZW’s of stichtingen. De verplichting geldt dus voor VZW’s, IVZW’s of stichtingen die op balansdatum van het laatst afgesloten boekjaar meer dan één van de volgende criteria overschrijden[^4]: 
 
 - jaargemiddelde van het aantal werknemers: 50; 
 - jaaromzet, exclusief de belasting over de toegevoegde waarde: 9.000.000 euro; 
-- balanstotaal: 4.500.000 euro.  
+- balanstotaal: 4.500.000 euro. 
 
-Het al dan niet overschrijden van meer dan één van de hierboven vermelde criteria heeft slechts gevolgen indien dit zich gedurende twee opeenvolgende boekjaren voordoet (consistentiebeginsel). De gevolgen hiervan gaan in dat geval in vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk meer dan één van de criteria voor de tweede keer werden overschreden of niet meer werden overschreden[^5]. 
+Het al dan niet overschrijden van meer dan één van de hierboven vermelde criteria heeft slechts gevolgen indien dit zich gedurende twee opeenvolgende boekjaren voordoet (consistentiebeginsel). De gevolgen hiervan gaan in dat geval in vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk meer dan één van de criteria voor de tweede keer werden overschreden of niet meer werden overschreden[^5]. 
 
-### Toepassingsgebied *ratione temporis *
+### Toepassingsgebied *ratione temporis *
 
 Het WVV is in werking getreden op 1 mei 2019. Bestaande VZW’s, IVZW’s en stichtingen kunnen echter overgangsbepalingen toepassen.[^6]
- Er moet dan ook een onderscheid worden gemaakt naargelang de VZW, IVZW of stichting vóór of vanaf 1 mei 2019 werd opgericht.
+ Er moet dan ook een onderscheid worden gemaakt naargelang de VZW, IVZW of stichting vóór of vanaf 1 mei 2019 werd opgericht.
 
-#### VZW’s, IVZW’s en stichtingen opgericht vanaf 1 mei 2019 
+#### VZW’s, IVZW’s en stichtingen opgericht vanaf 1 mei 2019 
 
-Het WVV is op 1 mei 2019 in werking getreden voor de VZW’s, IVZW’s en stichtingen die zijn opgericht vanaf 1 mei 2019. 
+Het WVV is op 1 mei 2019 in werking getreden voor de VZW’s, IVZW’s en stichtingen die zijn opgericht vanaf 1 mei 2019. 
 
 Indien de VZW, IVZW of stichting op balansdatum meer dan één van de in artikelen 1:28, § 1 (VZW’s en IVZW’s) en 1:30, § 1 (stichtingen) WVV opgenomen criteria overschrijdt, dienen deze VZW’s, IVZW’s en stichtingen bijkomend bij de jaarrekening een jaarverslag op te stellen overeenkomstig artikelen 3:48 (VZW’s en IVZW’s) en 3:52 (stichtingen) WVV. Dit jaarverslag moet gelijktijdig met de jaarrekening worden neergelegd.
 
@@ -81,116 +81,116 @@ De duur van het boekjaar van een VZW, IVZW of stichting die is opgericht vanaf 1
 
 ## Voorbeeld 1
 
-Een VZW wordt opgericht op 1 juni 2019 met een boekjaar gelijk aan het kalenderjaar. Op het ogenblik waarop de jaarrekening wordt vastgesteld, moet deze VZW een jaarverslag opstellen in geval zij op basis van de cijfers op balansdatum van haar eerste boekjaar (31 december 2019) een andere dan een kleine VZW is[^10]. 
+Een VZW wordt opgericht op 1 juni 2019 met een boekjaar gelijk aan het kalenderjaar. Op het ogenblik waarop de jaarrekening wordt vastgesteld, moet deze VZW een jaarverslag opstellen in geval zij op basis van de cijfers op balansdatum van haar eerste boekjaar (31 december 2019) een andere dan een kleine VZW is[^10]. 
 
-#### VZW’s, IVZW’s en stichtingen die reeds bestonden vóór 1 mei 2019 
+#### VZW’s, IVZW’s en stichtingen die reeds bestonden vóór 1 mei 2019 
 
-##### « Opt-in » 
+##### « Opt-in » 
 
- Krachtens artikel 39, § 1, eerste lid van de wet van 23 maart 2019[^11], trad het WVV voor bestaande VZW’s, IVZW’s en stichtingen in principe in werking vanaf 1 januari 2020. Er werd evenwel de mogelijkheid geboden om de bepalingen van het WVV voortijdig toe te passen (“opt-in”), mits een statutenwijziging. Het WVV werd dan van toepassing vanaf de dag van de bekendmaking van deze statutenwijziging in de *Bijlagen bij het Belgisch Staatsblad*.
+ Krachtens artikel 39, § 1, eerste lid van de wet van 23 maart 2019[^11], trad het WVV voor bestaande VZW’s, IVZW’s en stichtingen in principe in werking vanaf 1 januari 2020. Er werd evenwel de mogelijkheid geboden om de bepalingen van het WVV voortijdig toe te passen (“opt-in”), mits een statutenwijziging. Het WVV werd dan van toepassing vanaf de dag van de bekendmaking van deze statutenwijziging in de *Bijlagen bij het Belgisch Staatsblad*.
 
-Indien een andere dan een kleine VZW, IVZW of stichting tot een “*opt-in*” heeft besloten, dan maakt het bestuursorgaan overeenkomstig artikel 3:48 (VZW’s en IVZW’s) of artikel 3:52 (stichtingen) WVV een jaarverslag op dat gelijktijdig met de jaarrekening wordt neergelegd bij de Nationale Bank van België. De toetsing van de groottecriteria vindt, rekening houdend met het consistentiebeginsel, plaats op balansdatum van het laatst afgesloten boekjaar. 
+Indien een andere dan een kleine VZW, IVZW of stichting tot een “*opt-in*” heeft besloten, dan maakt het bestuursorgaan overeenkomstig artikel 3:48 (VZW’s en IVZW’s) of artikel 3:52 (stichtingen) WVV een jaarverslag op dat gelijktijdig met de jaarrekening wordt neergelegd bij de Nationale Bank van België. De toetsing van de groottecriteria vindt, rekening houdend met het consistentiebeginsel, plaats op balansdatum van het laatst afgesloten boekjaar. 
 
 ## Voorbeeld 2
 
 Een VZW[^12]
- die op 6 januari 2006 werd opgericht met een boekjaar gelijk aan het kalenderjaar, beslist op 1 juni 2019 de bepalingen van het WVV voortijdig toe te passen.
+ die op 6 januari 2006 werd opgericht met een boekjaar gelijk aan het kalenderjaar, beslist op 1 juni 2019 de bepalingen van het WVV voortijdig toe te passen.
 
-Naar aanleiding van die “*opt-in*” zijn de bepalingen van het WVV van toepassing vanaf de dag van de bekendmaking van de statutenwijziging in de *Bijlagen bij het Belgisch Staatsblad*. Op balansdatum van het laatst afgesloten boekjaar (31 december 2019) zag de VZW er als volgt uit:   
+Naar aanleiding van die “*opt-in*” zijn de bepalingen van het WVV van toepassing vanaf de dag van de bekendmaking van de statutenwijziging in de *Bijlagen bij het Belgisch Staatsblad*. Op balansdatum van het laatst afgesloten boekjaar (31 december 2019) zag de VZW er als volgt uit: 
 
--    jaargemiddelde van het aantal werknemers: 55;  
+- jaargemiddelde van het aantal werknemers: 55; 
 
--    jaaromzet, exclusief belasting over de toegevoegde waarde: 5.500.000 euro;  
+- jaaromzet, exclusief belasting over de toegevoegde waarde: 5.500.000 euro; 
 
--    balanstotaal: 1.850.000 euro. 
+- balanstotaal: 1.850.000 euro. 
 
 Bovendien moeten de cijfers van de twee voorgaande boekjaren (2017 en 2018) in rekening worden genomen om te bepalen of de VZW verplicht is een jaarverslag op te stellen. De gevolgen van de overschrijding hebben immers pas uitwerking vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk meer dan één van de criteria voor de tweede keer op rij werden overschreden of niet werden overschreden[^13]. De cijfers waren op afsluitdatum van de boekjaren 2017 en 2018 de volgende:
 
 | Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | 
-| Personeelsbestand      | | 54     | | 55 | 
-| Jaaromzet     | | 5.600.000     | | 5.500.000 | 
-| Balans     | | 1.850.000 | | 1.850.000 | 
+| Personeelsbestand | | 54 | | 55 | 
+| Jaaromzet | | 5.600.000 | | 5.500.000 | 
+| Balans | | 1.850.000 | | 1.850.000 | 
 
 Aangezien de VZW een kleine VZW is overeenkomstig artikel 1:28, § 1 WVV, moet het bestuursorgaan geen jaarverslag opstellen en gelijktijdig neerleggen met de jaarrekening over het boekjaar 2019.
 
 ## Voorbeeld 3
 
 Een VZW[^14]
- die op 1 september 2005 is opgericht, beslist op 5 mei 2019 tot een “*opt-in*”. Deze VZW voert een boekhouding anders dan per kalenderjaar, namelijk van 1 september N tot 31 augustus N+1.
+ die op 1 september 2005 is opgericht, beslist op 5 mei 2019 tot een “*opt-in*”. Deze VZW voert een boekhouding anders dan per kalenderjaar, namelijk van 1 september N tot 31 augustus N+1.
 
-Naar aanleiding van die “*opt-in*” zijn de bepalingen van het WVV van toepassing vanaf de dag van de bekendmaking van de statutenwijziging in de *Bijlagen bij het Belgisch Staatsblad*. Op balansdatum van het laatst afgesloten boekjaar[^15], zijnde op 31 augustus 2019, zag de VZW er als volgt uit:   
+Naar aanleiding van die “*opt-in*” zijn de bepalingen van het WVV van toepassing vanaf de dag van de bekendmaking van de statutenwijziging in de *Bijlagen bij het Belgisch Staatsblad*. Op balansdatum van het laatst afgesloten boekjaar[^15], zijnde op 31 augustus 2019, zag de VZW er als volgt uit: 
 
--    jaargemiddelde van het aantal werknemers: 50;  
+- jaargemiddelde van het aantal werknemers: 50; 
 
--    jaaromzet, exclusief belasting over de toegevoegde waarde: 10.000.000 euro;  
+- jaaromzet, exclusief belasting over de toegevoegde waarde: 10.000.000 euro; 
 
--    balanstotaal: 5.000.000 euro. 
+- balanstotaal: 5.000.000 euro. 
 
 Bovendien moeten de cijfers van de twee voorgaande boekjaren (2017 en 2018) in rekening worden genomen om te bepalen of de VZW verplicht is een jaarverslag op te stellen. De gevolgen van de overschrijding hebben immers pas uitwerking vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk meer dan één van de criteria voor de tweede keer op rij werden overschreden of niet werden overschreden[^16]. De cijfers waren op afsluitdatum van boekjaren 2017 en 2018 de volgende:
 
-| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/08/2017 | |  31/08/2018 | 
-| Personeelsbestand      | | 49 | | 50 | 
-| Jaaromzet     | | 11.000.000     | | 5.500.000 | 
-| Balans     | | 5.250.000 | | 5.000.000 | 
+| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/08/2017 | | 31/08/2018 | 
+| Personeelsbestand | | 49 | | 50 | 
+| Jaaromzet | | 11.000.000 | | 5.500.000 | 
+| Balans | | 5.250.000 | | 5.000.000 | 
 
 Aangezien de VZW een andere dan een kleine VZW is, zal het bestuursorgaan gelijktijdig met de jaarrekening over het boekjaar dat start op 1 september 2018 en eindigt op 31 augustus 2019 een jaarverslag opstellen en neerleggen.
 
 ##### VZW’s, IVZW’s en stichtingen die reeds bestonden vóór 1 mei 2019 en die niet hebben besloten tot een “opt-in”
 
 Het WVV is van toepassing vanaf 1 januari 2020 voor de VZW’s, IVZW’s en stichtingen die reeds bestonden vóór 1 mei 2019 en die hebben besloten het WVV niet voortijdig toe te passen. Vanaf 1 januari 2020 zijn de dwingende bepalingen van het WVV van toepassing en worden statutaire bepalingen die in strijd zijn met de dwingende bepalingen vanaf die dag voor niet geschreven gehouden.[^17]
- De aanvullende bepalingen worden slechts van toepassing in zoverre zij niet door statutaire clausules worden uitgesloten.[^18] 
+ De aanvullende bepalingen worden slechts van toepassing in zoverre zij niet door statutaire clausules worden uitgesloten.[^18] 
 
-Aangezien artikelen 3:47, § 7, tweede lid; 3:48; 3:51, § 7, tweede lid en 3:52 WVV dwingende bepalingen zijn, zijn deze van toepassing vanaf 1 januari 2020 voor de VZW’s, IVZW’s en stichtingen. 
+Aangezien artikelen 3:47, § 7, tweede lid; 3:48; 3:51, § 7, tweede lid en 3:52 WVV dwingende bepalingen zijn, zijn deze van toepassing vanaf 1 januari 2020 voor de VZW’s, IVZW’s en stichtingen. 
 
 Om te bepalen of de VZW, IVZW of stichting al dan niet een jaarverslag moet opstellen, dient het bestuursorgaan bij vaststelling van de jaarrekening[^19]
- te bepalen of de VZW, IVZW of stichting op balansdatum van het laatst afgesloten boekjaar meer dan één van de in artikelen 1:28, § 1 (VZW’s en IVZW’s) en 1:30, § 1 (stichtingen) WVV bepaalde criteria overschreed.
+ te bepalen of de VZW, IVZW of stichting op balansdatum van het laatst afgesloten boekjaar meer dan één van de in artikelen 1:28, § 1 (VZW’s en IVZW’s) en 1:30, § 1 (stichtingen) WVV bepaalde criteria overschreed.
 
 ## Voorbeeld 4
 
 Een VZW[^20]
- die op 10 januari 2010 is opgericht met een boekjaar dat samenvalt met het kalenderjaar, kiest er voor het WVV niet voortijdig toe te passen. De dwingende bepalingen van het WVV zijn aldus vanaf 1 januari 2020 op haar van toepassing. 
+ die op 10 januari 2010 is opgericht met een boekjaar dat samenvalt met het kalenderjaar, kiest er voor het WVV niet voortijdig toe te passen. De dwingende bepalingen van het WVV zijn aldus vanaf 1 januari 2020 op haar van toepassing. 
 
 Vanaf 1 januari 2020 moet er door het bestuursorgaan een jaarverslag worden opgesteld indien het een andere dan een kleine VZW betreft zoals bepaald in artikel 1:28, § 1 WVV. Bij vaststelling van de jaarrekening moet het bestuursorgaan een jaarverslag opstellen indien de VZW op balansdatum van het laatst afgesloten boekjaar (31 december 2019) meer dan één van de in artikel 1:28, § 1 WVV bepaalde criteria overschreed.
 
-De VZW zag er op balansdatum van het laatst afgesloten boekjaar als volgt uit:   
+De VZW zag er op balansdatum van het laatst afgesloten boekjaar als volgt uit: 
 
--    jaargemiddelde van het aantal werknemers: 50;  
+- jaargemiddelde van het aantal werknemers: 50; 
 
--    jaaromzet, exclusief belasting over de toegevoegde waarde: 9.500.000 euro;  
+- jaaromzet, exclusief belasting over de toegevoegde waarde: 9.500.000 euro; 
 
--    balanstotaal: 4.500.000 euro. 
+- balanstotaal: 4.500.000 euro. 
 
 Bovendien moeten de cijfers van de twee voorgaande boekjaren (2017 en 2018) in rekening worden genomen om te bepalen of de VZW verplicht is een jaarverslag op te stellen. De gevolgen van de overschrijding hebben immers pas uitwerking vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk meer dan één van de criteria voor de tweede keer op rij werden overschreden of niet werden overschreden[^21]. De cijfers waren op afsluitdatum van boekjaren 2017 en 2018 de volgende:
 
 | Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | 
-| Personeelsbestand      | | 45 | | 45 | 
-| Jaaromzet     | |  8.500.000    | | 8.300.000 | 
-| Balans     | | 3.750.000 | | 3.200.000 | 
+| Personeelsbestand | | 45 | | 45 | 
+| Jaaromzet | | 8.500.000 | | 8.300.000 | 
+| Balans | | 3.750.000 | | 3.200.000 | 
 
-Het feit dat er op balansdatum van het laatst afgesloten boekjaar (2019) meer dan één van de criteria werden overschreden, blijft zonder gevolgen. Dit zal echter wel gevolgen hebben indien deze toestand zich twee opeenvolgende boekjaren voordoet. Aangezien de VZW een kleine VZW is, moet zij geen jaarverslag opstellen. 
+Het feit dat er op balansdatum van het laatst afgesloten boekjaar (2019) meer dan één van de criteria werden overschreden, blijft zonder gevolgen. Dit zal echter wel gevolgen hebben indien deze toestand zich twee opeenvolgende boekjaren voordoet. Aangezien de VZW een kleine VZW is, moet zij geen jaarverslag opstellen. 
 
 ## Voorbeeld 5
 
-We hernemen de gegevens van voorbeeld 4. Hier zag de VZW er op balansdatum van het laatst afgesloten boekjaar (31/12/2019) echter als volgt uit:   
+We hernemen de gegevens van voorbeeld 4. Hier zag de VZW er op balansdatum van het laatst afgesloten boekjaar (31/12/2019) echter als volgt uit: 
 
--    jaargemiddelde van het aantal werknemers: 55;   
+- jaargemiddelde van het aantal werknemers: 55; 
 
--    jaaromzet, exclusief belasting over de toegevoegde waarde: 10.000.000 euro;   
+- jaaromzet, exclusief belasting over de toegevoegde waarde: 10.000.000 euro; 
 
--    balanstotaal: 5.000.000 euro. 
+- balanstotaal: 5.000.000 euro. 
 
 Bovendien moeten de cijfers van de twee voorgaande boekjaren (2017 en 2018) in rekening worden genomen om te bepalen of de VZW verplicht is een jaarverslag op te stellen. De gevolgen van de overschrijding hebben immers pas uitwerking vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk meer dan één van de criteria voor de tweede keer op rij werden overschreden of niet werden overschreden[^22]. De cijfers waren op afsluitdatum van boekjaren 2017 en 2018 de volgende:
 
 | Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | 
-| Personeelsbestand      | | 55 | | 55 | 
-| Jaaromzet     | |  9.500.000    | | 9.500.000 | 
-| Balans     | | 5.250.000 | | 5.000.000 | 
+| Personeelsbestand | | 55 | | 55 | 
+| Jaaromzet | | 9.500.000 | | 9.500.000 | 
+| Balans | | 5.250.000 | | 5.000.000 | 
 
-Aangezien het hier een andere dan een kleine VZW betreft, moet het bestuursorgaan een jaarverslag opstellen overeenkomstig artikel 3:48 WVV. Dit jaarverslag moet gelijktijdig worden neergelegd met de jaarrekening bij de Nationale Bank van België. 
+Aangezien het hier een andere dan een kleine VZW betreft, moet het bestuursorgaan een jaarverslag opstellen overeenkomstig artikel 3:48 WVV. Dit jaarverslag moet gelijktijdig worden neergelegd met de jaarrekening bij de Nationale Bank van België. 
 
 ## Vrijwillig opstellen van een jaarverslag: neerlegging?
 
-Het bestuursorgaan van een kleine VZW, IVZW en stichting zoals bedoeld in artikel 1:28, § 1 (VZW’s & IVZW’s) en 1:30, § 1 (stichtingen) WVV kan vrijwillig een jaarverslag opstellen. In dit geval moet dit jaarverslag niet gelijktijdig met de jaarrekening neergelegd worden.  
+Het bestuursorgaan van een kleine VZW, IVZW en stichting zoals bedoeld in artikel 1:28, § 1 (VZW’s & IVZW’s) en 1:30, § 1 (stichtingen) WVV kan vrijwillig een jaarverslag opstellen. In dit geval moet dit jaarverslag niet gelijktijdig met de jaarrekening neergelegd worden. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 31 juli 2020 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

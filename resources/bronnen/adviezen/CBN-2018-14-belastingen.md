@@ -55,7 +55,7 @@ De rekening 67 *Belastingen op het resultaat* wordt gebruikt voor alle uitgaven 
 
 Op de rekening 77 *Regularisering van belastingen en terugneming van fiscale voorzieningen* worden de verkregen, vastgestelde of geraamde regulariseringen geboekt van belastingen die tijdens een voorgaand boekjaar ten laste werden genomen.[^3] 
 
-In principe worden de verschillende bestanddelen die met de inkomstenbelastingen verrekenbaar zijn maar niet effectief door de onderneming worden gedragen (bijvoorbeeld de fictieve roerende voorheffing[^4], belastingkrediet[^5], forfaitair gedeelte van buitenlandse belasting[^6]) niet als dusdanig in de boekhouding verwerkt, zowel wanneer het gaat om *terugbetaalbare *als om *niet-terugbetaalbare* bestanddelen. Die bestanddelen kunnen wel het bedrag beïnvloeden van de *Geraamde belastingen* of van de *Geactiveerde overschotten van betaalde belastingen en voorheffingen*. Op dit principe bestaat een uitzondering met name wat de verrekenbare bestanddelen betreft die, indien ze de verschuldigde inkomstenbelastingen overtreffen, aan de onderneming worden terugbetaald. In dat geval wordt een vordering geboekt met als tegenpost een opbrengstenrekening[^7].  
+In principe worden de verschillende bestanddelen die met de inkomstenbelastingen verrekenbaar zijn maar niet effectief door de onderneming worden gedragen (bijvoorbeeld de fictieve roerende voorheffing[^4], belastingkrediet[^5], forfaitair gedeelte van buitenlandse belasting[^6]) niet als dusdanig in de boekhouding verwerkt, zowel wanneer het gaat om *terugbetaalbare *als om *niet-terugbetaalbare* bestanddelen. Die bestanddelen kunnen wel het bedrag beïnvloeden van de *Geraamde belastingen* of van de *Geactiveerde overschotten van betaalde belastingen en voorheffingen*. Op dit principe bestaat een uitzondering met name wat de verrekenbare bestanddelen betreft die, indien ze de verschuldigde inkomstenbelastingen overtreffen, aan de onderneming worden terugbetaald. In dat geval wordt een vordering geboekt met als tegenpost een opbrengstenrekening[^7]. 
 
 De Commissie merkt op dat op de rekening 67 *Belastingen op het resultaat* niet alleen de inkomstenbelastingen worden geboekt die betrekking hebben op de eigenlijke boekhoudkundige winst van de onderneming, maar ook op alle andere[^8] bestanddelen die samen de belastbare bestanddelen van de onderneming vormen waarop de inkomstenbelastingen worden geheven.
 
@@ -143,7 +143,7 @@ Indien ingevolge een controle van de fiscale btw-administratie of ingevolge een 
 
 Hoewel een herziening van de btw in principe geen wijziging van de aanschaffingswaarde tot gevolg heeft, is de Commissie van mening dat bepaalde omstandigheden toch een aanpassing van de aanschaffingswaarde vereisen om te voldoen aan de vereiste van het getrouwe beeld. Dergelijke herziening kan zowel een vermindering als een vermeerdering van de aanschaffingswaarde tot gevolg hebben. Dit zou bijvoorbeeld het geval kunnen zijn wanneer een onderneming in eerste instantie een volledige aftrek van de btw heeft verricht en ingevolge een wijziging van haar activiteiten, een belangrijke herziening van deze initieel afgetrokken btw plaatsvindt.
 
-|  
+| 
 
 *Voorbeelden*
 
@@ -222,7 +222,7 @@ Een voorbeeld van een passieve belastinglatentie die, indien belangrijk, wel moe
 
 #### Voor alle schema’s van de jaarrekening
 
-De Commissie wijst expliciet op het algemene beginsel dat stelt dat de jaarrekening een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de vennootschap.  Wanneer de toepassing van de bepalingen van titel I van het KB W.Venn. niet volstaat om te voldoen aan dit voorschrift moeten aanvullende inlichtingen worden verstrekt in de toelichting.[^41] Deze toelichtingen worden opgenomen in het volledig model, het verkort model en het micromodel op de respectievelijke pagina’s VOL 6.20, VKT 6.9, MIC 6.6.
+De Commissie wijst expliciet op het algemene beginsel dat stelt dat de jaarrekening een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de vennootschap. Wanneer de toepassing van de bepalingen van titel I van het KB W.Venn. niet volstaat om te voldoen aan dit voorschrift moeten aanvullende inlichtingen worden verstrekt in de toelichting.[^41] Deze toelichtingen worden opgenomen in het volledig model, het verkort model en het micromodel op de respectievelijke pagina’s VOL 6.20, VKT 6.9, MIC 6.6.
 
 ## Voorbeelden
 
@@ -242,9 +242,9 @@ Boeking
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen: Rekening-courant | 70.000 |  |
-|  | 6700 | Verschuldigde of gestorte belastingen en voorheffingen | 30.000 |  |
-| aan | 751 | Opbrengsten uit vlottende activa |  | 100.000 |
+| | 5500 | Kredietinstellingen: Rekening-courant | 70.000 | |
+| | 6700 | Verschuldigde of gestorte belastingen en voorheffingen | 30.000 | |
+| aan | 751 | Opbrengsten uit vlottende activa | | 100.000 |
 
 ##### Boeking van gelopen interest
 
@@ -256,9 +256,9 @@ Boeking
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 491 | Verkregen opbrengsten | 7.000 |  |
-|  | 6700 | Verschuldigde of gestorte belastingen en voorheffingen | 3.000 |  |
-| aan | 751 | Opbrengsten uit vlottende activa |  | 10.000 |
+| | 491 | Verkregen opbrengsten | 7.000 | |
+| | 6700 | Verschuldigde of gestorte belastingen en voorheffingen | 3.000 | |
+| aan | 751 | Opbrengsten uit vlottende activa | | 10.000 |
 
 #### Voorafbetalingen
 
@@ -268,8 +268,8 @@ Boeking
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6700 | Verschuldigde of gestorte belastingen en voorheffingen | 200.000 |  |
-| aan | 5500 | Kredietinstellingen: Rekening-courant |  | 200.000 |
+| | 6700 | Verschuldigde of gestorte belastingen en voorheffingen | 200.000 | |
+| aan | 5500 | Kredietinstellingen: Rekening-courant | | 200.000 |
 
 #### Afsluiting van het boekjaar
 
@@ -281,8 +281,8 @@ Boeking
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6702 | Geraamde belastingen | 50.000 |  |
-| aan | 4500 | Belgische winstbelastingen |  | 50.000 |
+| | 6702 | Geraamde belastingen | 50.000 | |
+| aan | 4500 | Belgische winstbelastingen | | 50.000 |
 
 ***Te veel voorheffingen en voorafbetalingen***
 
@@ -292,8 +292,8 @@ Boeking
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 412 | Terug te vorderen voorheffingen en belastingen | 40.000 |  |
-| aan | 6701 | Geactiveerde overschotten van betaalde belastingen en voorheffingen |  | 40.000 |
+| | 412 | Terug te vorderen voorheffingen en belastingen | 40.000 | |
+| aan | 6701 | Geactiveerde overschotten van betaalde belastingen en voorheffingen | | 40.000 |
 
 #### De onderneming verzoekt de belastingadministratie de door haar verrichte voorafbetalingen naar het volgende boekjaar over te dragen
 
@@ -303,15 +303,15 @@ Boeking tijdens het boekjaar
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 412 | Terug te vorderen voorheffingen en belastingen | 40.000 |  |
-| aan | 6701 | Geactiveerde overschotten van betaalde belastingen en voorheffingen |  | 40.000 |
+| | 412 | Terug te vorderen voorheffingen en belastingen | 40.000 | |
+| aan | 6701 | Geactiveerde overschotten van betaalde belastingen en voorheffingen | | 40.000 |
 
 Boeking tijdens het volgende boekjaar
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6700 | Verschuldigde of gestorte belastingen en voorheffingen | 40.000 |  |
-| aan | 412 | Terug te vorderen voorheffingen en belastingen |  | 40.000 |
+| | 6700 | Verschuldigde of gestorte belastingen en voorheffingen | 40.000 | |
+| aan | 412 | Terug te vorderen voorheffingen en belastingen | | 40.000 |
 
 ### Belastingen op het resultaat van vorige boekjaren
 
@@ -323,9 +323,9 @@ Boeking
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 450 | Geraamd bedrag van de belastingschulden | 50.000 |  |
-|  | 6710 | Verschuldigde of gestorte belastingsupplementen | 5.000 |  |
-| aan | 452 | Te betalen belastingen en taksen |  | 55.000 |
+| | 450 | Geraamd bedrag van de belastingschulden | 50.000 | |
+| | 6710 | Verschuldigde of gestorte belastingsupplementen | 5.000 | |
+| aan | 452 | Te betalen belastingen en taksen | | 55.000 |
 
 #### Terug te vorderen belastingen waren te hoog
 
@@ -335,15 +335,15 @@ Boeking bij ontvangst van het aanslagbiljet
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6710 | Verschuldigde of gestorte belastingsupplementen | 7.000 |  |
-| aan | 412 | Terug te vorderen voorheffingen en belastingen |  | 7.000 |
+| | 6710 | Verschuldigde of gestorte belastingsupplementen | 7.000 | |
+| aan | 412 | Terug te vorderen voorheffingen en belastingen | | 7.000 |
 
 Boeking bij ontvangst van de terugbetaling
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen: Rekeningen-courant | 33.000 |  |
-| aan | 412 | Terug te vorderen voorheffingen en belastingen |  | 33.000 |
+| | 5500 | Kredietinstellingen: Rekeningen-courant | 33.000 | |
+| aan | 412 | Terug te vorderen voorheffingen en belastingen | | 33.000 |
 
 #### Geraamde belastingen waren te hoog
 
@@ -353,9 +353,9 @@ Boeking
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 450 | Geraamd bedrag van de belastingschulden | 50.000 |  |
-| aan | 7711 | Regularisering van geraamde belastingen |  | 10.000 |
-|  | 452 | Te betalen belastingen en taksen | 40.000 |  |
+| | 450 | Geraamd bedrag van de belastingschulden | 50.000 | |
+| aan | 7711 | Regularisering van geraamde belastingen | | 10.000 |
+| | 452 | Te betalen belastingen en taksen | 40.000 | |
 
 #### Terug te vorderen belastingen waren te laag
 
@@ -365,15 +365,15 @@ Boeking bij ontvangst van het aanslagbiljet
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 412 | Terug te vorderen voorheffingen en belastingen | 4.000 |  |
-| aan | 7710 | Regularisering van verschuldigde of betaalde belastingen |  | 4.000 |
+| | 412 | Terug te vorderen voorheffingen en belastingen | 4.000 | |
+| aan | 7710 | Regularisering van verschuldigde of betaalde belastingen | | 4.000 |
 
 Boeking bij ontvangst van de terugbetaling
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen: Rekeningen-courant | 44.000 |  |
-| aan | 412 | Terug te vorderen voorheffingen en belastingen |  | 44.000 |
+| | 5500 | Kredietinstellingen: Rekeningen-courant | 44.000 | |
+| aan | 412 | Terug te vorderen voorheffingen en belastingen | | 44.000 |
 
 ### Betwiste aanslagen
 
@@ -383,8 +383,8 @@ Boeking bij de ontvangst van het aanslagbiljet
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6710 | Verschuldigde of gestorte belastingsupplementen | 130.000 |  |
-| aan | 452 | Te betalen belastingen en taksen |  | 130.000 |
+| | 6710 | Verschuldigde of gestorte belastingsupplementen | 130.000 | |
+| aan | 452 | Te betalen belastingen en taksen | | 130.000 |
 
 Boeking bij de indiening van het bezwaar of de aanvraag tot ambtshalve ontheffing
 
@@ -392,8 +392,8 @@ Boeking bij de indiening van het bezwaar of de aanvraag tot ambtshalve ontheffin
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 412 | Terug te vorderen voorheffingen en belastingen | 95.000 |  |
-| aan | 6710 | Verschuldigde of gestorte belastingsupplementen |  | 95.000 |
+| | 412 | Terug te vorderen voorheffingen en belastingen | 95.000 | |
+| aan | 6710 | Verschuldigde of gestorte belastingsupplementen | | 95.000 |
 
 Boekingen naar aanleiding van de bevestiging van een ontheffing ten belope van 94.000 waar de onderneming zich bij neerlegt
 
@@ -401,8 +401,8 @@ Boekingen naar aanleiding van de bevestiging van een ontheffing ten belope van 9
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6710 | Verschuldigde of gestorte belastingsupplementen | 1.000 |  |
-| aan | 412 | Terug te vorderen voorheffingen en belastingen |  | 1.000 |
+| | 6710 | Verschuldigde of gestorte belastingsupplementen | 1.000 | |
+| aan | 412 | Terug te vorderen voorheffingen en belastingen | | 1.000 |
 
 ### Voorziening voor belastingen
 
@@ -414,8 +414,8 @@ Boeking
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6712 | Gevormde fiscale voorziening | 80.000 |  |
-| aan | 161 | Voorzieningen voor belastingen |  | 80.000 |
+| | 6712 | Gevormde fiscale voorziening | 80.000 | |
+| aan | 161 | Voorzieningen voor belastingen | | 80.000 |
 
 #### Aanwending van de voorziening
 
@@ -425,9 +425,9 @@ Boeking
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 161 | Voorzieningen voor belastingen | 80.000 |  |
-|  | 6710 | Verschuldigde of gestorte belastingsupplementen | 3.000 |  |
-| aan | 452 | Te betalen belastingen en taksen |  | 83.000 |
+| | 161 | Voorzieningen voor belastingen | 80.000 | |
+| | 6710 | Verschuldigde of gestorte belastingsupplementen | 3.000 | |
+| aan | 452 | Te betalen belastingen en taksen | | 83.000 |
 
 Uiteindelijk is een belastingsupplement van 78.000 verschuldigd.
 
@@ -435,9 +435,9 @@ Boeking
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 161 | Voorzieningen voor belastingen | 80.000 |  |
-| aan | 452 | Te betalen belastingen en taksen |  | 78.000 |
-|  | 7712 | Terugneming van fiscale voorzieningen | 2.000 |  |
+| | 161 | Voorzieningen voor belastingen | 80.000 | |
+| aan | 452 | Te betalen belastingen en taksen | | 78.000 |
+| | 7712 | Terugneming van fiscale voorzieningen | 2.000 | |
 
 **Onderhavig advies vervangt de volgende adviezen:**
 

@@ -45,9 +45,9 @@ gerelateerde_adviezen:
 
 # CBN-advies 114/4 - Verwerking in de jaarrekening van een onderneming van verrichtingen met verbonden ondernemingen
 
-Een onderneming, opgericht in de rechtsvorm van een naamloze vennootschap, baat verschillende hotels uit. In elk hotel is de barexploitatie toevertrouwd aan een afzonderlijke, speciaal daartoe opgerichte vzw. Zowel materieel als bedrijfseconomisch maken de bars deel uit van de hotelonderneming. 
+Een onderneming, opgericht in de rechtsvorm van een naamloze vennootschap, baat verschillende hotels uit. In elk hotel is de barexploitatie toevertrouwd aan een afzonderlijke, speciaal daartoe opgerichte vzw. Zowel materieel als bedrijfseconomisch maken de bars deel uit van de hotelonderneming. 
 
-Aan de Commissie werd de vraag gesteld of het niet logisch zou zijn de resultaten van de vzw's op te nemen in de jaarrekening van de nv en deze ondernemingen bijgevolg boekhoudkundig als één entiteit te beschouwen. Dit zou overigens overeenstemmen met de bedrijfseconomische realiteit. 
+Aan de Commissie werd de vraag gesteld of het niet logisch zou zijn de resultaten van de vzw's op te nemen in de jaarrekening van de nv en deze ondernemingen bijgevolg boekhoudkundig als één entiteit te beschouwen. Dit zou overigens overeenstemmen met de bedrijfseconomische realiteit. 
 
 De Commissie is van oordeel dat de juridische zelfstandigheid van de betrokken rechtspersonen (de nv enerzijds en de vzw's anderzijds) niet mag worden genegeerd, zelfs zo het gaat om *de jure* of *de facto* volledig gedomineerde ondernemingen[^1]. Derhalve mogen de resultaten van de vzw's, die in juridisch opzicht worden gerealiseerd door afzonderlijke rechtspersonen, niet zonder meer worden geïntegreerd in de niet geconsolideerde jaarrekening die de betrokken nv krachtens de wet moet opmaken en openbaar maken. Wanneer evenwel, wegens de onderlinge vervlechting van de werkzaamheid van de verschillende ondernemingen, de jaarrekening van de nv een onvolledig of zelfs misleidend beeld zou geven van het resultaat en van de samenstellende delen daarvan, dan lijkt het aangewezen in de toelichting bij de balans en de resultatenrekening een passende commentaar te verstrekken over de resultaten gerealiseerd door de andere verbonden ondernemingen of zelfs cijfers berekend op geconsolideerde basis erin op te nemen.
 

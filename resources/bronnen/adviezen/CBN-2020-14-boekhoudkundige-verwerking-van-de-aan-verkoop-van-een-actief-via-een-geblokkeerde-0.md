@@ -37,7 +37,7 @@ provenance:
 ## Inleiding
 
 Aan de Commissie werd gevraagd naar de behandeling van een geblokkeerde bankrekening die als waarborg moet dienen bij transacties tussen twee of meer partijen. Het staat partijen immers vrij om de aan-/verkoop van een actiefbestanddeel afhankelijk te maken van de vervulling van bepaalde – opschortende[^2], dan wel ontbindende[^3]
- – voorwaarde(n). Het gebeurt geregeld dat de partijen, in afwachting van de vervulling van dergelijke voorwaarde(n), contractueel bedingen dat de afgesproken verkoopprijs door de koper reeds wordt gestort op een geblokkeerde bankrekening[^4]. 
+ – voorwaarde(n). Het gebeurt geregeld dat de partijen, in afwachting van de vervulling van dergelijke voorwaarde(n), contractueel bedingen dat de afgesproken verkoopprijs door de koper reeds wordt gestort op een geblokkeerde bankrekening[^4]. 
 
 Voor de boekhoudkundige verwerking van deze storting moet naar de mening van de Commissie aandacht worden geschonken aan wie burgerrechtelijk als eigenaar van een geblokkeerde rekening wordt aanzien. Onderhavig advies bespreekt uitsluitend de boekhoudkundige verwerking van de liquiditeiten die zich, bij de aan-/verkoop van een actief, op een geblokkeerde rekening van één van de partijen bevinden[^5].
 
@@ -46,7 +46,7 @@ Specifiek aan de voornoemde werkwijze is dat:
 - de koper, na de overschrijving van de gelden op een geblokkeerde rekening, geen zeggenschap meer heeft over de gestorte bedragen, en 
 - de verkoper, tot aan de vrijgave van de middelen van de geblokkeerde rekening, evenmin over de overgeschreven verkoopprijs kan beschikken. 
 
-Tot aan de vervulling van contractueel omschreven voorwaarde(n) blijven de gelden met andere woorden op de geblokkeerde rekening “geparkeerd” staan. 
+Tot aan de vervulling van contractueel omschreven voorwaarde(n) blijven de gelden met andere woorden op de geblokkeerde rekening “geparkeerd” staan. 
 
 Bij de vervulling van de tussen de partijen bepaalde voorwaarde(n) worden de gelden van de geblokkeerde rekening vrijgegeven – doorgaans met de handtekening van beide partijen – en doorgestort aan de verkoper en verkrijgt de koper anderzijds het aangekocht actiefbestanddeel.
 
@@ -55,57 +55,57 @@ Bij de vervulling van de tussen de partijen bepaalde voorwaarde(n) worden de gel
 De transacties die via een geblokkeerde rekening verlopen, kunnen in de praktijk zowel betrekking hebben op de levering van goederen, als diensten. Het gebruik van een geblokkeerde rekening kan door de partijen aldus worden aangewend voor uiteenlopende handelingen die tot de activiteiten van de partijen behoren.
 
 Met onderhavig advies buigt de Commissie zich bij wijze van voorbeeld over de vraag naar de boekhoudkundige verwerking van de betaling op een geblokkeerde rekening bij een verkoop van een materieel vast actief (bv. een machine). Zoals hierboven reeds aangestipt, is het hierbij van belang een onderscheid te maken tussen wie burgerrechtelijk als eigenaar[^6]
- van een geblokkeerde rekening wordt aangemerkt.  
+ van een geblokkeerde rekening wordt aangemerkt. 
 
-Stel dat er een verkoop wordt afgesproken van een vast actief (machine). De betaling gebeurt op een geblokkeerde rekening in afwachting van het verkrijgen van een vergunning door de koper. Aangezien de verkrijging van een vergunning als een toekomstige en onzekere gebeurtenis moet worden beschouwd, wordt deze verkoop aldus gekoppeld aan de vervulling van een opschortende voorwaarde. 
+Stel dat er een verkoop wordt afgesproken van een vast actief (machine). De betaling gebeurt op een geblokkeerde rekening in afwachting van het verkrijgen van een vergunning door de koper. Aangezien de verkrijging van een vergunning als een toekomstige en onzekere gebeurtenis moet worden beschouwd, wordt deze verkoop aldus gekoppeld aan de vervulling van een opschortende voorwaarde. 
 
 Van zodra de vooropgestelde voorwaarde wordt vervuld en de vergunning aldus wordt verkregen, worden de gelden van een geblokkeerde rekening doorgestort naar de verkoper die, tot op dat ogenblik, geen enkele levering van goederen/diensten is verschuldigd. Evenwel verbindt de verkoper zich om, van zodra de storting op een geblokkeerde rekening heeft plaatsgevonden, het desbetreffend vast actief niet meer aan te wenden voor zijn eigen economische activiteiten.
 
 Gelet op het belang van de geplande transactie beslissen de partijen om, binnen de grenzen van dit voorbeeld, de verkoopakte authentiek[^7]
- te laten verlijden door een notaris.
+ te laten verlijden door een notaris.
 
 ### Situatie 1: storting door de koper op een geblokkeerde rekening van de koper
 
 De eerste situatie doet zich voor ingeval de koper het contractueel afgesproken aankoopbedrag van het vast actief op zijn eigen geblokkeerde rekening stort en dit in afwachting van de verkrijging van de vergunning. In deze situatie wordt door de betrokken partijen aldus geen beroep gedaan op de diensten van een onafhankelijke derde partij die over een geblokkeerde rekening beschikt.
 
 In voorkomend geval blijft het aankoopbedrag weliswaar op de balans van de koper staan, doch kan hij niet meer vrij over desbetreffende liquide middelen[^8]
- beschikken. De Commissie is van oordeel dat de volgende boeking in hoofde van de koper dient te geschieden: 
+ beschikken. De Commissie is van oordeel dat de volgende boeking in hoofde van de koper dient te geschieden: 
 
  [^9]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 416 | Diverse vorderingen |  |  |
-| aan | 5500 | Kredietinstellingen: Rekening-courant |  |  |
+| | 416 | Diverse vorderingen | | |
+| aan | 5500 | Kredietinstellingen: Rekening-courant | | |
 
 Niettegenstaande het feit dat het aankoopbedrag op de geblokkeerde rekening van de koper blijft staan, moet hierbij worden benadrukt dat de koper zelf[^10]
- geen zeggenschap meer heeft over deze gestorte bedragen, wat een zekere impact heeft op zijn solvabiliteits- en de liquiditeitspositie[^11]. De Commissie is bijgevolg van oordeel dat van de verrichtingen van de koper die via zijn eigen geblokkeerde rekening verlopen, ook nog bijkomend melding moet worden gemaakt in de toelichting, bij de “*Niet in de balans opgenomen rechten en verplichtingen*”[^12]
-  onder de volgende journaalposten[^13]:
+ geen zeggenschap meer heeft over deze gestorte bedragen, wat een zekere impact heeft op zijn solvabiliteits- en de liquiditeitspositie[^11]. De Commissie is bijgevolg van oordeel dat van de verrichtingen van de koper die via zijn eigen geblokkeerde rekening verlopen, ook nog bijkomend melding moet worden gemaakt in de toelichting, bij de “*Niet in de balans opgenomen rechten en verplichtingen*”[^12]
+  onder de volgende journaalposten[^13]:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 01200 | Debiteuren wegens andere persoonlijke zekerheden |  |  |
-| aan | 01300 | Crediteuren wegens andere persoonlijke zekerheden |  |  |
+| | 01200 | Debiteuren wegens andere persoonlijke zekerheden | | |
+| aan | 01300 | Crediteuren wegens andere persoonlijke zekerheden | | |
 
 Aangezien de verkoper, tot aan de vervulling van de voorwaarde[^14], geen enkele levering van goederen/diensten is verschuldigd, zal de betaling van de koper op eigen geblokkeerde rekening in principe geen gevolgen teweegbrengen voor de balans van de verkoper. De Commissie is evenwel van oordeel dat, teneinde enige vorm van transparantie en controle te verzekeren, deze verrichting moet voorkomen in de toelichting van de verkoper, onder de “*Niet in de balans opgenomen rechten en verplichtingen*”. Hiervoor kunnen de volgende journaalposten worden gebruikt[^15]:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 09XX0 | Debiteuren wegens storting op geblokkeerde rekening |  |  |
-| aan | 09XX1 | Verplichtingen tot verkoop |  |  |
+| | 09XX0 | Debiteuren wegens storting op geblokkeerde rekening | | |
+| aan | 09XX1 | Verplichtingen tot verkoop | | |
 
 Het betreft immers de informatie die ook voor de verkoper van materieel belang is[^16].
 
 Gelet op het gegeven dat de verkoper zich er bovendien toe verbindt om het desbetreffend vast actief (machine) – van zodra de storting op een geblokkeerde rekening heeft plaatsgevonden – niet meer duurzaam te laten bijdragen[^17]
- tot zijn economische activiteiten en bijgevolg “buiten de exploitatie” te stellen, zal de verkoper dit vast actief overboeken naar “Overige materiële vaste activa[^18]
+ tot zijn economische activiteiten en bijgevolg “buiten de exploitatie” te stellen, zal de verkoper dit vast actief overboeken naar “Overige materiële vaste activa[^18]
 ”:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 26X0 | Overige materiële vast activa: aanschaffingswaarde |  |  |
-|  | 23X9 | Installaties, machines en uitrusting: geboekte afschrijvingen |  |  |
-| aan | 26X9 | Overige materiële vaste activa: geboekte afschrijvingen |  |  |
-|  | 23X0 | Installaties, machines en uitrusting: aanschaffingswaarde |  |  |
+| | 26X0 | Overige materiële vast activa: aanschaffingswaarde | | |
+| | 23X9 | Installaties, machines en uitrusting: geboekte afschrijvingen | | |
+| aan | 26X9 | Overige materiële vaste activa: geboekte afschrijvingen | | |
+| | 23X0 | Installaties, machines en uitrusting: aanschaffingswaarde | | |
 
 ### Situatie 2: storting door de koper op een geblokkeerde rekening van de verkoper
 
@@ -113,12 +113,12 @@ De tweede situatie doet zich voor ingeval de koper het contractueel afgesproken 
 
 In tegenstelling tot de eerste situatie zijn de doorgestorte liquiditeiten niet meer terug te vinden op de balans van de koper.
 
-In voorkomend geval dient de koper over te gaan tot de volgende boeking: 
+In voorkomend geval dient de koper over te gaan tot de volgende boeking: 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 416 | Diverse vorderingen |  |  |
-| aan | 5500 | Kredietinstellingen: Rekening-courant |  |  |
+| | 416 | Diverse vorderingen | | |
+| aan | 5500 | Kredietinstellingen: Rekening-courant | | |
 
 Gelet op het bijzonder karakter van deze verrichting is de Commissie bovendien van oordeel dat de koper tevens melding moet maken van desbetreffende vordering in de toelichting, bij de “*Niet in de balans opgenomen rechten en verplichtingen*”[^19].
 
@@ -126,8 +126,8 @@ De storting van het aankoopbedrag op een geblokkeerde rekening van de verkoper[^
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 416 | Diverse vorderingen |  |  |
-| aan | 489 | Andere diverse schulden |  |  |
+| | 416 | Diverse vorderingen | | |
+| aan | 489 | Andere diverse schulden | | |
 
 De Commissie wijst erop dat het ontvangen tegoed op de geblokkeerde rekening van de verkoper als “onbeschikbaar” moet worden beschouwd. Aangezien de verkoper niet vrij mag beschikken over de ontvangen verkoopprijs, is het gebruik van rekening 5500 (*Kredietinstellingen: Rekening-courant*) niet aangewezen[^21].
 
@@ -135,43 +135,43 @@ Ook in deze situatie zal de verkoper het desbetreffend vast actief (machine) moe
 
 ### Situatie 3: storting door de koper op een geblokkeerde rekening van een onafhankelijke derde partij (notaris)
 
-De Commissie merkt op dat de bovenstaande boekhoudkundige analyse van toepassing is ingeval een transactie tussen twee partijen tot stand wordt gebracht middels het gebruik van een geblokkeerde rekening op naam van één van deze twee partijen. 
+De Commissie merkt op dat de bovenstaande boekhoudkundige analyse van toepassing is ingeval een transactie tussen twee partijen tot stand wordt gebracht middels het gebruik van een geblokkeerde rekening op naam van één van deze twee partijen. 
 
 In de praktijk komt het echter voor dat (een deel van) de afgesproken aankoopprijs, in afwachting van de vervulling van de contractuele voorwaarde(n), gestort wordt op een geblokkeerde rekening van een derde – van de koper en de verkoper doorgaans onafhankelijke – partij. De Commissie herneemt het hierboven gegeven voorbeeld[^23]
- om de boekhoudkundige verwerking van de transactie, deze keer met de tussenkomst van een notaris als een derde partij, nader toe te lichten.
+ om de boekhoudkundige verwerking van de transactie, deze keer met de tussenkomst van een notaris als een derde partij, nader toe te lichten.
 
 De derde situatie doet zich aldus voor ingeval de koper en de verkoper afspreken om de transactie via een geblokkeerde rekening van een derde partij[^24]
- – bv. de notaris bij wie de partijen tevens de verkoopakte authentiek zullen verlijden – te laten plaatsvinden. In voorkomend geval stort de koper het contractueel aankoopbedrag, wederom vóór de verwerving van het vast actief, op een geblokkeerde rekening van de notaris. Het gestort aankoopbedrag blijft uiterlijk tot de vervulling van de bedongen voorwaarde (*in casu* het verkrijgen van een vergunning), als waarborg, op een geblokkeerde rekening van de notaris staan. 
+ – bv. de notaris bij wie de partijen tevens de verkoopakte authentiek zullen verlijden – te laten plaatsvinden. In voorkomend geval stort de koper het contractueel aankoopbedrag, wederom vóór de verwerving van het vast actief, op een geblokkeerde rekening van de notaris. Het gestort aankoopbedrag blijft uiterlijk tot de vervulling van de bedongen voorwaarde (*in casu* het verkrijgen van een vergunning), als waarborg, op een geblokkeerde rekening van de notaris staan. 
 
-Aangezien de doorgestorte liquiditeiten niet meer op de balans van de koper terug te vinden zijn[^25], zal de koper overgaan tot de volgende boeking: 
+Aangezien de doorgestorte liquiditeiten niet meer op de balans van de koper terug te vinden zijn[^25], zal de koper overgaan tot de volgende boeking: 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 416 | Diverse vorderingen |  |  |
-| aan | 5500 | Kredietinstellingen: Rekening-courant |  |  |
+| | 416 | Diverse vorderingen | | |
+| aan | 5500 | Kredietinstellingen: Rekening-courant | | |
 
 Gelet op het bijzonder karakter van deze verrichting is de Commissie bovendien van oordeel dat de koper tevens melding moet maken van desbetreffende vordering in de toelichting, bij de “*Niet in de balans opgenomen rechten en verplichtingen*”[^26].
 
 In hoofde van de verkoper brengt de storting door de koper op een geblokkeerde rekening van de notaris geen gevolgen mee voor de balans van de verkoper en is hij, tot aan de vervulling van de voorwaarde, in beginsel geen levering van goederen/diensten verschuldigd[^27]. De Commissie is evenwel van oordeel dat, teneinde enige vorm van transparantie en controle te verzekeren, deze verrichting moet voorkomen in de toelichting[^28]
- van de verkoper, onder de “*Niet in de balans opgenomen rechten en verplichtingen*”. Hiervoor kunnen de volgende journaalposten worden gebruikt[^29]:
+ van de verkoper, onder de “*Niet in de balans opgenomen rechten en verplichtingen*”. Hiervoor kunnen de volgende journaalposten worden gebruikt[^29]:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 09XX0 | Debiteuren wegens storting op geblokkeerde rekening |  |  |
-| aan | 09XX1 | Verplichtingen tot verkoop |  |  |
+| | 09XX0 | Debiteuren wegens storting op geblokkeerde rekening | | |
+| aan | 09XX1 | Verplichtingen tot verkoop | | |
 
 Ook in deze situatie[^30]
- zal de verkoper het desbetreffend vast actief (machine) moeten overboeken naar “Overige materiële vaste activa” aangezien deze machine niet meer duurzaam tot de activiteiten van de verkoper bijdraagt door de verkoop ervan onder de opschortende voorwaarde.
+ zal de verkoper het desbetreffend vast actief (machine) moeten overboeken naar “Overige materiële vaste activa” aangezien deze machine niet meer duurzaam tot de activiteiten van de verkoper bijdraagt door de verkoop ervan onder de opschortende voorwaarde.
 
 Gelet op het gegeven dat de koper en de verkoper besluiten dat de aankoopprijs, in afwachting van de verkrijging van de vergunning, op een geblokkeerde rekening van de notaris wordt gestort, is het van belang te wijzen op de wet van 16 maart 1803 – wet van 25 ventôse jaar XI op het notarisambt. Overeenkomstig deze wet wordt algemeen aanvaard dat de gelden die worden overgemaakt op een geblokkeerde rekening van een notaris, juridisch gesproken, afgescheiden moeten worden van het vermogen van de notaris zelf[^31]. De kwalificatie van een geblokkeerde rekening van de notaris is dan ook verschillend van de situaties waarin de aankoopprijs op een geblokkeerde rekening van de koper of de verkoper werd gestort.
 
-Rekening houdend met hetgeen voorafgaat, is de Commissie de mening toegedaan dat door de notaris ontvangen gelden op de geblokkeerde bankrekening, niet[^32]
- opgenomen dienen te worden op de balans (van de vennootschap) van de notaris, maar, teneinde enige vorm van transparantie en controle te verzekeren, moeten voorkomen in de toelichting, onder de “*Niet in de balans opgenomen rechten en verplichtingen[^33] *” en dit onder de hiernavolgende journaalposten[^34]:
+Rekening houdend met hetgeen voorafgaat, is de Commissie de mening toegedaan dat door de notaris ontvangen gelden op de geblokkeerde bankrekening, niet[^32]
+ opgenomen dienen te worden op de balans (van de vennootschap) van de notaris, maar, teneinde enige vorm van transparantie en controle te verzekeren, moeten voorkomen in de toelichting, onder de “*Niet in de balans opgenomen rechten en verplichtingen[^33] *” en dit onder de hiernavolgende journaalposten[^34]:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 074 | Goederen en waarden gehouden voor rekening of ten bate en voor risico van derden |  |  |
-| aan | 075 | Crediteuren wegens goederen en waarden gehouden voor rekening of ten bate en voor risico van derden |  |  |
+| | 074 | Goederen en waarden gehouden voor rekening of ten bate en voor risico van derden | | |
+| aan | 075 | Crediteuren wegens goederen en waarden gehouden voor rekening of ten bate en voor risico van derden | | |
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 13 maart 2020 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

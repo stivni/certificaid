@@ -40,45 +40,45 @@ de Waalse regering gecreëerde opleidingscheques
 ## Inleiding
 
 Het decreet van 10 april 2003[^1]
- en het besluit van de Waalse regering van 1 april 2004[^2]
- creëren in Wallonië het systeem van *opleidingscheques*. Kleine of middelgrote ondernemingen die op basis van de voorwaarden in het decreet voor opleidingscheques in aanmerking komen, kunnen, afhankelijk van het aantal werknemers dat de onderneming heeft ingeschreven bij de R.S.Z., een maximumaantal opleidingscheques met een zichtwaarde van 30 euro per cheque aankopen. Deze cheques worden aangekocht bij de emittent, aangewezen door de Regering op voordracht van de “Office wallon de la Formation professionnelle et de l’Emploi” tegen de prijs van 15 euro per cheque. 
+ en het besluit van de Waalse regering van 1 april 2004[^2]
+ creëren in Wallonië het systeem van *opleidingscheques*. Kleine of middelgrote ondernemingen die op basis van de voorwaarden in het decreet voor opleidingscheques in aanmerking komen, kunnen, afhankelijk van het aantal werknemers dat de onderneming heeft ingeschreven bij de R.S.Z., een maximumaantal opleidingscheques met een zichtwaarde van 30 euro per cheque aankopen. Deze cheques worden aangekocht bij de emittent, aangewezen door de Regering op voordracht van de “Office wallon de la Formation professionnelle et de l’Emploi” tegen de prijs van 15 euro per cheque. 
 
 ## Boekhoudkundige verwerking
 
-Naar het oordeel van de Commissie voor Boekhoudkundige Normen dienen deze opleidingscheques als volgt verwerkt te worden in de boekhouding van de onderneming die ze aankoopt. 
+Naar het oordeel van de Commissie voor Boekhoudkundige Normen dienen deze opleidingscheques als volgt verwerkt te worden in de boekhouding van de onderneming die ze aankoopt. 
 
 Bij aankoop boekt de onderneming de opleidingscheques als een actief in post IX *Liquide middelen* van de activa. De tussenkomst van de Waalse overheid in de aankoopprijs ervan (15 euro) wordt beschouwd als een subsidie, nl. een bedrag dat door een overheid aan een entiteit wordt toegekend om bepaalde exploitatiekosten te compenseren. Deze subsidie wordt als bedrijfsopbrengst geboekt op het ogenblik dat het recht van de onderneming op deze subsidie komt vast te staan, en men het bedrag van de subsidie kent.[^3] 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 57 | Kassen: opleidingscheques |  |  |
-| aan | 440 | Leveranciers |  |  |
-|  | 740 | Bedrijfssubsidies en compenserende bedragen |  |  |
+| | 57 | Kassen: opleidingscheques | | |
+| aan | 440 | Leveranciers | | |
+| | 740 | Bedrijfssubsidies en compenserende bedragen | | |
 
-Wanneer de opleiding pas plaatsvindt in een boekjaar dat volgt op het jaar van aanschaffing van de opleidingscheques, wordt het aandeel van de Waalse overheid in de opleidingscheques bij aanschaf op een overlopende rekening geboekt (493 *Over te dragen opbrengsten*) en in opbrengst genomen op het moment waarop de opleiding plaatsvindt. 
+Wanneer de opleiding pas plaatsvindt in een boekjaar dat volgt op het jaar van aanschaffing van de opleidingscheques, wordt het aandeel van de Waalse overheid in de opleidingscheques bij aanschaf op een overlopende rekening geboekt (493 *Over te dragen opbrengsten*) en in opbrengst genomen op het moment waarop de opleiding plaatsvindt. 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 740 | Bedrijfssubsidies en compenserende bedragen |  |  |
-| aan | 493 | Over te dragen opbrengsten |  |  |
+| | 740 | Bedrijfssubsidies en compenserende bedragen | | |
+| aan | 493 | Over te dragen opbrengsten | | |
 
 Bij ontvangst van de factuur van de opleidingsverstrekker, wordt de door de opleidingsverstrekker aangerekende prijs door de onderneming ten laste genomen.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen |  |  |
-|  | of 623    Andere personeelskosten |  |  |  |
-|  | 411 | Terug te vorderen btw bij aankopen |  |  |
-| aan | 440 | Leveranciers |  |  |
+| | 61 | Diensten en diverse goederen | | |
+| | of 623 Andere personeelskosten | | | |
+| | 411 | Terug te vorderen btw bij aankopen | | |
+| aan | 440 | Leveranciers | | |
 
 De geactiveerde opleidingscheque wordt afgeboekt wanneer hij als betaalmiddel wordt gebruikt.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 440 | Leveranciers |  |  |
-| aan | 57 | Kassen: opleidingscheques |  |  |
+| | 440 | Leveranciers | | |
+| aan | 57 | Kassen: opleidingscheques | | |
 
-De Commissie brengt tot slot in herinnering dat het totaal bedrag van de subsidies (andere dan investeringssubsidies) in de toelichting bij de jaarrekening dient vermeld te worden.[^4]   
+De Commissie brengt tot slot in herinnering dat het totaal bedrag van de subsidies (andere dan investeringssubsidies) in de toelichting bij de jaarrekening dient vermeld te worden.[^4] 
 
 [^1]: Decreet betreffende de financiële incentives voor de opleiding van werknemers die bij een onderneming in dienst zijn, BS 29 april 2003.
 

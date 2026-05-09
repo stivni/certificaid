@@ -35,23 +35,23 @@ provenance:
 
 # CBN-advies 2010/18 - Subsidies en schenkingen vanuit het oogpunt van de verstrekkende vereniging of stichting
 
-1.  Subsidies  
-  1.  Subsidies in contanten  
-  2.  Subsidies in natura  
+1. Subsidies 
+  1. Subsidies in contanten 
+  2. Subsidies in natura 
 
-2.  Schenkingen zonder terugnemingsrecht 
-  1.  Schenkingen in contanten  
-  2.  Schenkingen in natura  
+2. Schenkingen zonder terugnemingsrecht 
+  1. Schenkingen in contanten 
+  2. Schenkingen in natura 
 
-3.  Schenkingen met terugnemingsrecht  
+3. Schenkingen met terugnemingsrecht 
 
-Verenigingen en stichtingen verkrijgen dikwijls geldmiddelen en goederen om niet met het oog op het realiseren van bepaalde vormen van dienstverlening of het uitvoeren van bepaalde programma’s. Dergelijke subsidies en schenkingen worden vaak toegekend door andere verenigingen en stichtingen[^1]. 
+Verenigingen en stichtingen verkrijgen dikwijls geldmiddelen en goederen om niet met het oog op het realiseren van bepaalde vormen van dienstverlening of het uitvoeren van bepaalde programma’s. Dergelijke subsidies en schenkingen worden vaak toegekend door andere verenigingen en stichtingen[^1]. 
 
-Dit advies behandelt de boekhoudkundige verwerking van subsidies en schenkingen in hoofde van de toekennende vereniging of stichting. 
+Dit advies behandelt de boekhoudkundige verwerking van subsidies en schenkingen in hoofde van de toekennende vereniging of stichting. 
 
 De Commissie spreekt zich niet uit over de mogelijke verschuldigdheid van btw die uit deze subsidies of schenkingen kan voortvloeien.
 
-## Subsidies 
+## Subsidies 
 
 ### Subsidies in contanten
 
@@ -63,8 +63,8 @@ Een stichting kent aan een andere stichting een subsidie van 30.000 euro toe ond
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6431 | Schenkingen met terugnemingsrecht | 30.000 |  |
-| aan | 550 | Kredietinstellingen: rekeningen-courant |  | 30.000 |
+| | 6431 | Schenkingen met terugnemingsrecht | 30.000 | |
+| aan | 550 | Kredietinstellingen: rekeningen-courant | | 30.000 |
 
 ### Subsidies in natura
 
@@ -76,7 +76,7 @@ Een vereniging behartigt, naast haar eigen secretariaat, kosteloos het secretari
 
 Stel dat in het secretariaat enkel vrijwilligers aan het werk zijn. Deze terbeschikkingstelling dient niet geboekt te worden, aangezien de prestaties van de vrijwilligers niet in de balans van de verstrekkende vereniging of stichting voorkomen.
 
-Indien in het secretariaat van de vereniging bedienden aan het werk zijn, dan wordt dit loon volledig ten laste genomen door de vereniging wie ze in dienst heeft. Deze vereniging dient geen bijkomende boeking te doen, indien haar bedienden eveneneens het secretariaat van een andere vereniging behartigen. 
+Indien in het secretariaat van de vereniging bedienden aan het werk zijn, dan wordt dit loon volledig ten laste genomen door de vereniging wie ze in dienst heeft. Deze vereniging dient geen bijkomende boeking te doen, indien haar bedienden eveneneens het secretariaat van een andere vereniging behartigen. 
 
 Deze gratis verstrekte dienst dient wel in de toelichting vermeld te worden.
 
@@ -92,12 +92,12 @@ Een vereniging schenkt aan een andere vereniging 500 euro.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6432 | Schenkingen zonder terugnemingsrecht | 500 |  |
-| aan | 550 | Kredietinstellingen: rekeningen-courant |  | 500 |
+| | 6432 | Schenkingen zonder terugnemingsrecht | 500 | |
+| aan | 550 | Kredietinstellingen: rekeningen-courant | | 500 |
 
 ### Schenkingen in natura
 
-Deze schenkingen dienen als een bedrijfskost geboekt te worden bij de verstrekkende vereniging of stichting wanneer het activa betreft die voorheen waren opgenomen in hun balans. In de andere gevallen, dient desgevallend een passende vermelding in de toelichting te worden opgenomen.  
+Deze schenkingen dienen als een bedrijfskost geboekt te worden bij de verstrekkende vereniging of stichting wanneer het activa betreft die voorheen waren opgenomen in hun balans. In de andere gevallen, dient desgevallend een passende vermelding in de toelichting te worden opgenomen. 
 
 ## Voorbeeld 4
 
@@ -107,12 +107,12 @@ Op het moment dat de vereniging de nog niet-verbruikte voedingsmiddelen wegschen
 
 ## Voorbeeld 5
 
-Een vereniging schenkt haar computers aan een andere vereniging, aangezien zij nieuwe computers gekocht heeft. De weggeschonken computers hadden nog een boekwaarde van 500 euro. 
+Een vereniging schenkt haar computers aan een andere vereniging, aangezien zij nieuwe computers gekocht heeft. De weggeschonken computers hadden nog een boekwaarde van 500 euro. 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6432 | Schenkingen zonder terugnemingsrecht | 500 |  |
-| aan | 231 | Installaties, machines en uitrusting die volle eigendom zijn van de vereniging |  | 500 |
+| | 6432 | Schenkingen zonder terugnemingsrecht | 500 | |
+| aan | 231 | Installaties, machines en uitrusting die volle eigendom zijn van de vereniging | | 500 |
 
 Indien de werkelijke waarde van de weggeschonken computers hoger zou liggen, dan kan deze schenking voor ten hoogste de boekwaarde in rekening 6432 geboekt worden.
 
@@ -120,9 +120,9 @@ Stel dat de werkelijke waarde van de computers daarentegen slechts 300 euro zou 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6432 | Schenkingen zonder terugnemingsrecht | 300 |  |
-|  | 663 | Minderwaarden op de realisatie van vaste activa | 200 |  |
-| aan | 231 | Installaties, machines en uitrusting die volle eigendom zijn van de vereniging |  | 500 |
+| | 6432 | Schenkingen zonder terugnemingsrecht | 300 | |
+| | 663 | Minderwaarden op de realisatie van vaste activa | 200 | |
+| aan | 231 | Installaties, machines en uitrusting die volle eigendom zijn van de vereniging | | 500 |
 
 ## Schenkingen met terugnemingsrecht
 
@@ -130,27 +130,27 @@ Verenigingen kunnen aan hun schenking een “terugnemingsrecht” koppelen. Indi
 
 ## Voorbeeld 6
 
-Een vereniging schenkt aan een andere vereniging 300.000 euro met als voorwaarde dat zij met deze som een stuk grond moet aankopen. 
+Een vereniging schenkt aan een andere vereniging 300.000 euro met als voorwaarde dat zij met deze som een stuk grond moet aankopen. 
 
 Op het ogenblik van de schenking dient de volgende boeking te gebeuren:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6431 | Schenkingen met terugnemingsrecht | 300.000 |  |
-| aan | 550 | Kredietinstellingen: rekeningen-courant |  | 300.000 |
+| | 6431 | Schenkingen met terugnemingsrecht | 300.000 | |
+| aan | 550 | Kredietinstellingen: rekeningen-courant | | 300.000 |
 
-Stel dat de begunstigde vereniging de ontvangen som niet aanwendt voor de aankoop van een stuk grond, dan zal de verstrekkende vereniging de schenking terugvorderen: 
+Stel dat de begunstigde vereniging de ontvangen som niet aanwendt voor de aankoop van een stuk grond, dan zal de verstrekkende vereniging de schenking terugvorderen: 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 416 | Diverse vorderingen | 300.000 |  |
-| aan | 764 | Overige uitzonderlijke opbrengsten |  | 300.000 |
+| | 416 | Diverse vorderingen | 300.000 | |
+| aan | 764 | Overige uitzonderlijke opbrengsten | | 300.000 |
 
 Op het moment dat de vereniging deze som terugkrijgt, dient zij de volgende boeking te verrichten:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 550 | Kredietinstellingen: rekeningen-courant | 300.000 |  |
-| aan | 416 | Diverse vorderingen |  | 300.000 |
+| | 550 | Kredietinstellingen: rekeningen-courant | 300.000 | |
+| aan | 416 | Diverse vorderingen | | 300.000 |
 
 [^1]: Zie CBN-advies 2010/16 “Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen” en CBN-advies 2010/17 “Boekhoudkundige verwerking van subsidies, schenkingen en legaten in natura in de jaarrekening van begunstige grote en zeer grote verenigingen en stichtingen”.

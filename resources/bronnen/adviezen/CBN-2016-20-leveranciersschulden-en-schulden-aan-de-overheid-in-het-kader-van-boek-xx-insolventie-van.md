@@ -34,7 +34,7 @@ gerelateerde_adviezen:
 ## Inleiding
 
 In het kader van boek XX “Insolventie van ondernemingen” van het Wetboek van economisch recht[^2]
- kan worden besloten dat de leveranciersschulden over meerdere jaren zullen terugbetaald worden. Daarnaast bestaat de mogelijkheid dat tevens de schulden aan de overheid (o.a. btw, bedrijfsvoorheffing, sociale bijdragen, vennootschapsbelasting, …) over meerdere jaren terugbetaald worden.
+ kan worden besloten dat de leveranciersschulden over meerdere jaren zullen terugbetaald worden. Daarnaast bestaat de mogelijkheid dat tevens de schulden aan de overheid (o.a. btw, bedrijfsvoorheffing, sociale bijdragen, vennootschapsbelasting, …) over meerdere jaren terugbetaald worden.
 
 CBN-advies 2011/9 - *Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen[^3] * is duidelijk omtrent de classificatie van de handelsschulden tot renteloze schulden die al dan niet terugbetaalbaar zijn over meerdere jaren. Voor wat betreft de schulden met betrekking tot belastingen en sociale lasten werd aan de Commissie gevraagd of deze ook op de lange-termijn dienen te worden gepresenteerd indien deze over verschillende jaren zullen worden terugbetaald ten gevolge een WCO procedure[^4].
 
@@ -48,7 +48,7 @@ Op basis hiervan zou het bestuursorgaan van een vennootschap zich kunnen beroepe
 
 Daar het minimum aanvaard rekeningstelsel niet voorziet in lange-termijn schulden met betrekking tot belastingen en sociale lasten dient hiervoor op heden rekening *179 Overige schulden* te worden aangewend.
 
-Ongeacht de presentatiewijze, wenst de Commissie de aandacht te vestigen op  de toelichting in het kader van artikel 3:12, § 1, 5°, b) WVV, waarbij een overzicht moet worden gegeven van de opeisbare schulden bij de belastingbesturen en de sociale lasten ongeacht of uitstel van betaling werd verkregen. Dit impliceert dat deze toelichting zowel het bedrag op de respectievelijke 45-rekeningen en 179-rekening zal omvatten.
+Ongeacht de presentatiewijze, wenst de Commissie de aandacht te vestigen op de toelichting in het kader van artikel 3:12, § 1, 5°, b) WVV, waarbij een overzicht moet worden gegeven van de opeisbare schulden bij de belastingbesturen en de sociale lasten ongeacht of uitstel van betaling werd verkregen. Dit impliceert dat deze toelichting zowel het bedrag op de respectievelijke 45-rekeningen en 179-rekening zal omvatten.
 
 De Commissie is van oordeel dat de beschreven presentatiewijze tevens van toepassing is voor een eventuele minnelijke schikking met de betrokken administraties waarbij de terugbetaling van de schulden met betrekking tot belastingen en sociale lasten over verschillende jaren kan worden gespreid.
 

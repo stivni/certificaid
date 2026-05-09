@@ -56,8 +56,8 @@ Toen het marktsegment waarop de vennootschap bedrijvig was, door een recessie we
 
 De Commissie is van oordeel dat in casu elke verliesrisicofactor afzonderlijk moet worden beschouwd en derhalve ook op passende wijze verwerkt.
 
-1. Indien, door een wijziging in de economische omstandigheden die bij de bestelling van de vaste activa een rol speelden, de aanschaffingswaarde (in Belgische frank) van de activa op duurzame wijze uitstijgt boven hun gebruikswaarde voor de onderneming, moet een voorziening worden gevormd die overeenstemt met de uitzonderlijke afschrijving die zou zijn geboekt indien de activa effectief waren geleverd.   
+1. Indien, door een wijziging in de economische omstandigheden die bij de bestelling van de vaste activa een rol speelden, de aanschaffingswaarde (in Belgische frank) van de activa op duurzame wijze uitstijgt boven hun gebruikswaarde voor de onderneming, moet een voorziening worden gevormd die overeenstemt met de uitzonderlijke afschrijving die zou zijn geboekt indien de activa effectief waren geleverd. 
 
-2. Wanneer de onderneming bovendien besluit om bepaalde bestellingen af te zeggen, vloeien uit deze opzegging specifieke kosten voort.  
+2. Wanneer de onderneming bovendien besluit om bepaalde bestellingen af te zeggen, vloeien uit deze opzegging specifieke kosten voort. 
 
 In dit geval heeft de risicofactor enerzijds betrekking op de vergoeding die voor de opzegging moet betaald worden en anderzijds op de kosten voor de dekking van de wisselpositie dit ontstaat door het verdwijnen van de schuld in deviezen maar het blijven bestaan van de termijnaankoop van deviezen.

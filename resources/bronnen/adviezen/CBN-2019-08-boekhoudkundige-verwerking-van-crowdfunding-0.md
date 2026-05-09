@@ -35,34 +35,34 @@ provenance:
 
 # CBN-advies 2019/08 –Boekhoudkundige verwerking van crowdfunding
 
-1.  Inleiding  
-2.  De verschillende types crowdfunding en de boekhoudkundige verwerking ervan
+1. Inleiding 
+2. De verschillende types crowdfunding en de boekhoudkundige verwerking ervan
 
-  1.  Donatie  
-    1.  Donatie zonder tegenprestatie – Donation-based crowdfunding  
-    2.  Donatie met tegenprestatie – Reward-based/Pre-sales crowdfunding  
+  1. Donatie 
+    1. Donatie zonder tegenprestatie – Donation-based crowdfunding 
+    2. Donatie met tegenprestatie – Reward-based/Pre-sales crowdfunding 
 
-  2.  Financiële lening – Lending-based crowdfunding  
-  3.  Financiële belegging 
-    1.  Invoice trading  
-    2.  Profit-sharing-based crowdfunding / Royalty crowdfunding  
-    3.  Investment crowdfunding (Equity-based / Security-based crowdfunding) 
-      1.  Uitgifte van aandelen a pari  
-      2.  Uitgifte van aandelen boven pari
+  2. Financiële lening – Lending-based crowdfunding 
+  3. Financiële belegging 
+    1. Invoice trading 
+    2. Profit-sharing-based crowdfunding / Royalty crowdfunding 
+    3. Investment crowdfunding (Equity-based / Security-based crowdfunding) 
+      1. Uitgifte van aandelen a pari 
+      2. Uitgifte van aandelen boven pari
 
-      3.  Uitgifte van obligaties  
+      3. Uitgifte van obligaties 
 
-    4.  Participatory notes  
+    4. Participatory notes 
 
--- Donatie ---- Donatie zonder tegenprestatie – Donation-based crowdfunding---- Donatie met tegenprestatie – Reward-based/Pre-sales crowdfunding-- Financiële lening – Lending-based crowdfunding-- Financiële belegging---- Invoice trading---- Profit-sharing-based crowdfunding / Royalty crowdfunding---- Investment crowdfunding (Equity-based / Security-based crowdfunding)------ Uitgifte van aandelen a pari------ Uitgifte van aandelen boven pari
------- Uitgifte van obligaties---- Participatory notes  
+-- Donatie ---- Donatie zonder tegenprestatie – Donation-based crowdfunding---- Donatie met tegenprestatie – Reward-based/Pre-sales crowdfunding-- Financiële lening – Lending-based crowdfunding-- Financiële belegging---- Invoice trading---- Profit-sharing-based crowdfunding / Royalty crowdfunding---- Investment crowdfunding (Equity-based / Security-based crowdfunding)------ Uitgifte van aandelen a pari------ Uitgifte van aandelen boven pari
+------ Uitgifte van obligaties---- Participatory notes 
 
 ## Inleiding
 
 Crowdfunding[^2]
- (ook wel “publieksfinanciering” of “participatieve financiering” genoemd) bestaat erin een beroep te doen op het grote publiek (een investeerdersgemeenschap), via een interactieve website (een platform)[^3]
- en het gebruik van sociale media, teneinde (1) gelden in te zamelen voor de financiering van specifieke projecten rond filantropie, kunst of cultuur, in het kader van een vereniging[^4]
- of een onderneming[^5], (2) startende ondernemingen te financieren of (3) bij te dragen tot het ontwikkelen van innovaties of groeiende ondernemingen[^6].
+ (ook wel “publieksfinanciering” of “participatieve financiering” genoemd) bestaat erin een beroep te doen op het grote publiek (een investeerdersgemeenschap), via een interactieve website (een platform)[^3]
+ en het gebruik van sociale media, teneinde (1) gelden in te zamelen voor de financiering van specifieke projecten rond filantropie, kunst of cultuur, in het kader van een vereniging[^4]
+ of een onderneming[^5], (2) startende ondernemingen te financieren of (3) bij te dragen tot het ontwikkelen van innovaties of groeiende ondernemingen[^6].
 
 Er kunnen verschillende soorten crowdfunding worden onderscheiden: donatie, lening en investering.
 
@@ -70,7 +70,7 @@ Het publiek kan een gift doen aan een project of een rechtspersoon (zonder tegen
 
 Het publiek kan ook beslissen om in een onderneming te beleggen, hetzij via een lening, hetzij via een inbreng in kapitaal met het oog op het ontvangen van een eventuele winst[^8]. Deze twee laatste categorieën maken deel uit van de “financiële crowdfunding” (“crowdinvesting”), waarbij een financiële tegenprestatie wordt aangeboden. Een verder onderscheid kan worden gemaakt naargelang de aard van de investering en tegenprestatie.
 
-De Commissie vestigt de aandacht op het feit dat financiering via crowdfunding een risico vormt voor de investeerders. Deze campagnes zijn immers niet altijd een succes te noemen.  
+De Commissie vestigt de aandacht op het feit dat financiering via crowdfunding een risico vormt voor de investeerders. Deze campagnes zijn immers niet altijd een succes te noemen. 
 
 Indien het streefdoel van de financiering niet wordt bereikt (dit is het minimumbedrag dat bij het publiek moet worden opgehaald), wordt het geld dat tijdens de campagne opgehaald is, teruggegeven aan de investeerders.
 
@@ -78,9 +78,9 @@ Bovendien is de onderneming het platform in dat geval geen commissie (gelijk aan
 
 ## De verschillende types crowdfunding en de boekhoudkundige verwerking ervan[^9] 
 
-### Donatie 
+### Donatie 
 
-Historisch gezien vertegenwoordigt donatie de eerste vorm van crowdfunding. Het kan gaan om een zuivere gift, zonder tegenprestatie. De meest voorkomende vorm is echter de donatie met een niet-financiële tegenprestatie. 
+Historisch gezien vertegenwoordigt donatie de eerste vorm van crowdfunding. Het kan gaan om een zuivere gift, zonder tegenprestatie. De meest voorkomende vorm is echter de donatie met een niet-financiële tegenprestatie. 
 
 #### Donatie zonder tegenprestatie – Donation-based crowdfunding
 
@@ -90,21 +90,21 @@ In hoofde van de begunstigde
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 10.000 |  |
-| aan | 764 | Andere niet-recurrente bedrijfsopbrengsten |  | 10.000 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 10.000 | |
+| aan | 764 | Andere niet-recurrente bedrijfsopbrengsten | | 10.000 |
 
 In hoofde van de investeerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | 10.000 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 10.000 |
+| | 61 | Diensten en diverse goederen | 10.000 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 10.000 |
 
 #### Donatie met tegenprestatie – Reward-based/Pre-sales crowdfunding
 
-Bij dit type financiering bestaat de tegenprestatie dikwijls uit een product of dienst die werd of zal worden ontwikkeld dankzij de opgehaalde gelden. Ondernemers hebben op die manier de mogelijkheid om hun product te voorfinancieren door het te verkopen vooraleer het op de markt wordt gebracht. 
+Bij dit type financiering bestaat de tegenprestatie dikwijls uit een product of dienst die werd of zal worden ontwikkeld dankzij de opgehaalde gelden. Ondernemers hebben op die manier de mogelijkheid om hun product te voorfinancieren door het te verkopen vooraleer het op de markt wordt gebracht. 
 
-Hetzelfde principe kan worden toegepast in de artistieke en culturele sector, waar de investeerder als tegenprestatie plaatsen voor voorstellingen ontvangt, of een exemplaar van het gerealiseerde kunstwerk[^10]. 
+Hetzelfde principe kan worden toegepast in de artistieke en culturele sector, waar de investeerder als tegenprestatie plaatsen voor voorstellingen ontvangt, of een exemplaar van het gerealiseerde kunstwerk[^10]. 
 
 Deze financieringswijze kan worden vergeleken met een gewone verkoop, en dient derhalve als volgt te worden geboekt:
 
@@ -112,111 +112,111 @@ In hoofde van de begunstigde
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 10.000 |  |
-| aan | 70 | Omzet |  | 10.000 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 10.000 | |
+| aan | 70 | Omzet | | 10.000 |
 
 In hoofde van de investeerder/koper
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | 10.000 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 10.000 |
+| | 61 | Diensten en diverse goederen | 10.000 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 10.000 |
 
 Indien het product of de dienst niet vóór het einde van het boekjaar is ontwikkeld, dan dient gebruik gemaakt te worden van de overlopende rekeningen.
 
-In hoofde van de begunstigde  
+In hoofde van de begunstigde 
 *Jaar 1*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 10.000 |  |
-| aan | 70 | Omzet |  | 10.000 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 10.000 | |
+| aan | 70 | Omzet | | 10.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 70 | Omzet | 10.000 |  |
-| aan | 493 | Over te dragen opbrengsten |  | 10.000 |
+| | 70 | Omzet | 10.000 | |
+| aan | 493 | Over te dragen opbrengsten | | 10.000 |
 
 *Jaar 2*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 493 | Over te dragen opbrengsten | 10.000 |  |
-| aan | 70 | Omzet |  | 10.000 |
+| | 493 | Over te dragen opbrengsten | 10.000 | |
+| aan | 70 | Omzet | | 10.000 |
 
-In hoofde van de investeerder/koper  
+In hoofde van de investeerder/koper 
 *Jaar 1*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | 10.000 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 10.000 |
+| | 61 | Diensten en diverse goederen | 10.000 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 10.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 490 | Over te dragen kosten | 10.000 |  |
-| aan | 64/61 | Andere bedrijfskosten / Diensten en diverse goederen |  | 10.000 |
+| | 490 | Over te dragen kosten | 10.000 | |
+| aan | 64/61 | Andere bedrijfskosten / Diensten en diverse goederen | | 10.000 |
 
 *Jaar 2*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | 10.000 |  |
-| aan | 490 | Over te dragen kosten |  | 10.000 |
+| | 61 | Diensten en diverse goederen | 10.000 | |
+| aan | 490 | Over te dragen kosten | | 10.000 |
 
 ### Financiële lening – Lending-based crowdfunding
 
-Crowd lending is een alternatief voor bankfinanciering. Met deze vorm van crowdfunding worden investeerders uitgenodigd om een geldsom uit te lenen aan een onderneming of een particulier. Hierbij wordt een leningsovereenkomst opgesteld (al dan niet vergoed door interest), meestal volgens hetzelfde model voor alle investeerders[^11]. 
+Crowd lending is een alternatief voor bankfinanciering. Met deze vorm van crowdfunding worden investeerders uitgenodigd om een geldsom uit te lenen aan een onderneming of een particulier. Hierbij wordt een leningsovereenkomst opgesteld (al dan niet vergoed door interest), meestal volgens hetzelfde model voor alle investeerders[^11]. 
 
-Over het algemeen wordt een crowdfundingcampagne gecoördineerd door een platform: van de inzameling van geld tot de (eventuele) betaling van de interesten en de terugbetaling van het geleende kapitaal (door tussenkomst van een financiële instelling)[^12]. 
+Over het algemeen wordt een crowdfundingcampagne gecoördineerd door een platform: van de inzameling van geld tot de (eventuele) betaling van de interesten en de terugbetaling van het geleende kapitaal (door tussenkomst van een financiële instelling)[^12]. 
 
 De verrichting wordt op dezelfde manier als een gewone lening geboekt. Het terug te betalen bedrag wordt opgenomen aan de passiefzijde van de balans, op rekening 17 Schulden op meer dan één jaar, en de interesten moeten worden geboekt op rekening 65 Financiële kosten, en meer bepaald op rekening 650 Kosten van schulden.
 
-In hoofde van de begunstigde  
+In hoofde van de begunstigde 
 *Ontvangst van het bedrag*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 10.000 |  |
-| aan | 174 | Schulden op meer dan 1 jaar - Overige leningen |  | 10.000 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 10.000 | |
+| aan | 174 | Schulden op meer dan 1 jaar - Overige leningen | | 10.000 |
 
 *Jaarlijkse herclassificatie in functie van de looptijd*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 174 | Schulden op meer dan 1 jaar - Overige leningen | 1.000 |  |
-| aan | 424 | Overige leningen |  | 1.000 |
+| | 174 | Schulden op meer dan 1 jaar - Overige leningen | 1.000 | |
+| aan | 424 | Overige leningen | | 1.000 |
 
 *Jaarlijkse terugbetaling (en eventuele betaling van de interesten)*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 424 | Overige leningen | 1.000 |  |
-|  | 6500 | Interesten | 100 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 1.100 |
+| | 424 | Overige leningen | 1.000 | |
+| | 6500 | Interesten | 100 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 1.100 |
 
-In hoofde van de investeerder  
+In hoofde van de investeerder 
 *Betaling van het bedrag*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 291 | Vorderingen op meer dan 1 jaar - Overige vorderingen | 10.000 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 10.000 |
+| | 291 | Vorderingen op meer dan 1 jaar - Overige vorderingen | 10.000 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 10.000 |
 
 *Jaarlijkse herclassificatie in functie van de looptijd*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 416 | Overige vorderingen – Diverse vorderingen | 1.000 |  |
-| aan | 291 | Vorderingen op meer dan 1 jaar – Overige vorderingen |  | 1.000 |
+| | 416 | Overige vorderingen – Diverse vorderingen | 1.000 | |
+| aan | 291 | Vorderingen op meer dan 1 jaar – Overige vorderingen | | 1.000 |
 
 *Jaarlijkse terugbetaling (en eventuele betaling van de interesten)*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 1.100 |  |
-| aan | 416 | Overige leningen |  | 1.000 |
-|  | 759 | Andere financiële opbrengsten | 100 |  |
+| | 5500 | Kredietinstellingen – Rekening-courant | 1.100 | |
+| aan | 416 | Overige leningen | | 1.000 |
+| | 759 | Andere financiële opbrengsten | 100 | |
 
 ### Financiële belegging
 
@@ -230,21 +230,21 @@ De factor ontvangt een fee van de begunstigde onderneming als vergoeding voor zi
 
 De overdracht van de handelsvorderingen aan de factor wordt als volgt geboekt:
 
-In hoofde van de begunstigde  
+In hoofde van de begunstigde 
 *Afsluiting van verkopen waarbij de vorderingen op de klanten ontstaan*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 400 | Klanten | 10.000 |  |
-| aan | 700 tot 707 | Verkopen en dienstprestaties |  | 10.000 |
+| | 400 | Klanten | 10.000 | |
+| aan | 700 tot 707 | Verkopen en dienstprestaties | | 10.000 |
 
 *Betaling van de vordering door de factor*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 9.300 |  |
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 700 |  |
-| aan | 400 | Klanten |  | 10.000 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 9.300 | |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 700 | |
+| aan | 400 | Klanten | | 10.000 |
 
 Voor het overige wordt er verwezen naar CBN-advies 2011/23 betreffende de boekhoudkundige verwerking van factoringovereenkomsten[^13].
 
@@ -254,8 +254,8 @@ De Commissie is van oordeel dat via dit type financiering de investeerder tegen 
 
 De Commissie wenst te benadrukken dat de boekhoudkundige verwerking in hoofde van de investeerder afhankelijk is van de specifieke aard van het project (of het nu gaat om een artistiek- of een bedrijfsproject). De betaalde bedragen zullen voor artistieke werken op rekening 21 *Immateriële vaste activa* worden geboekt en voor bedrijfsprojecten op rekening 28 *Financiële vaste activa*.
 
-Er valt op te merken dat de *Immateriële vaste activa[^14] *  het voorwerp uitmaken van passende afschrijvingen (voor de immateriële vaste activa met een bepaalde levensduur) of waardeverminderingen (voor immateriële vaste activa met een onbepaalde levensduur) (zie advies 2012/13 – De boekhoudkundige verwerking van immateriële vaste activa). De *financiële vaste activa*[^15]
- maken op hun beurt het voorwerp uit van waardeverminderingen.
+Er valt op te merken dat de *Immateriële vaste activa[^14] * het voorwerp uitmaken van passende afschrijvingen (voor de immateriële vaste activa met een bepaalde levensduur) of waardeverminderingen (voor immateriële vaste activa met een onbepaalde levensduur) (zie advies 2012/13 – De boekhoudkundige verwerking van immateriële vaste activa). De *financiële vaste activa*[^15]
+ maken op hun beurt het voorwerp uit van waardeverminderingen.
 
 De ontvangen bedragen worden in hoofde van de begunstigde aan de passiefzijde geboekt op rekening *11 Inbreng buiten kapitaal*[^16], ongeacht de aard van het project.
 
@@ -263,7 +263,7 @@ De ontvangen bedragen worden in hoofde van de begunstigde aan de passiefzijde ge
 
 **2019-2023**
 
-1.    Betaling van de prijs
+1. Betaling van de prijs
 
 In hoofde van de begunstigde (artiest)
 
@@ -271,166 +271,166 @@ In hoofde van de begunstigde (artiest)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 10.000 |  |
-| aan | 1109 | Beschikbare inbreng buiten kapitaal - Andere |  | 10.000 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 10.000 | |
+| aan | 1109 | Beschikbare inbreng buiten kapitaal - Andere | | 10.000 |
 
 In hoofde van de investeerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2100 | Immateriële vaste activa – Aanschaffingswaarde | 10.000 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 10.000 |
+| | 2100 | Immateriële vaste activa – Aanschaffingswaarde | 10.000 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 10.000 |
 
-2.    Betaling van de opbrengst gecreëerd door het werk[^18] 
+2. Betaling van de opbrengst gecreëerd door het werk[^18] 
 
 In hoofde van de begunstigde (artiest)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | 1.500 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 1.500 |
+| | 61 | Diensten en diverse goederen | 1.500 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 1.500 |
 
 In hoofde van de investeerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 1.500 |  |
-| aan | 74 | Andere bedrijfsopbrengsten |  | 1.500 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 1.500 | |
+| aan | 74 | Andere bedrijfsopbrengsten | | 1.500 |
 
-3.    Regularisering einde boekjaar
+3. Regularisering einde boekjaar
 
 In hoofde van de investeerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6301 | Afschrijvingen op immateriële vaste activa | 2.000 |  |
-| aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen |  | 2.000 |
+| | 6301 | Afschrijvingen op immateriële vaste activa | 2.000 | |
+| aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen | | 2.000 |
 
 ## Voorbeeld 2 (contract waarin de overdracht van vermogensrechten geregeld wordt voor onbepaalde duur)
 
 **2019**
 
-1.    Betaling van de prijs
+1. Betaling van de prijs
 
 In hoofde van de begunstigde (artiest)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 10.000 |  |
-| aan | 1109 | Beschikbare inbreng buiten kapitaal - Andere |  | 10.000 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 10.000 | |
+| aan | 1109 | Beschikbare inbreng buiten kapitaal - Andere | | 10.000 |
 
 In hoofde van de investeerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2100 | Immateriële vaste activa – Aanschaffingswaarde | 10.000 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 10.000 |
+| | 2100 | Immateriële vaste activa – Aanschaffingswaarde | 10.000 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 10.000 |
 
-2.    Betaling van de opbrengst gecreëerd door het werk
+2. Betaling van de opbrengst gecreëerd door het werk
 
 In hoofde van de begunstigde (artiest)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | 500 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 500 |
+| | 61 | Diensten en diverse goederen | 500 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 500 |
 
 In hoofde van de investeerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 500 |  |
-| aan | 74 | Andere bedrijfsopbrengsten |  | 500 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 500 | |
+| aan | 74 | Andere bedrijfsopbrengsten | | 500 |
 
-3.    Regularisering einde boekjaar
+3. Regularisering einde boekjaar
 
 In hoofde van de investeerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6301 | Afschrijvingen op immateriële vaste activa | 2.000 |  |
-| aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen |  | 2.000 |
+| | 6301 | Afschrijvingen op immateriële vaste activa | 2.000 | |
+| aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen | | 2.000 |
 
 **2020**
 
-1.    Betaling van de opbrengst gecreëerd door het werk
+1. Betaling van de opbrengst gecreëerd door het werk
 
 In hoofde van de begunstigde (artiest)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | 50 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 50 |
+| | 61 | Diensten en diverse goederen | 50 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 50 |
 
 In hoofde van de investeerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 50 |  |
-| aan | 74 | Andere bedrijfsopbrengsten |  | 50 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 50 | |
+| aan | 74 | Andere bedrijfsopbrengsten | | 50 |
 
-2.    Regularisering einde boekjaar
+2. Regularisering einde boekjaar
 
 In hoofde van de investeerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6301 | Afschrijvingen op immateriële vaste activa | 2.000 |  |
-| aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen |  | 2.000 |
+| | 6301 | Afschrijvingen op immateriële vaste activa | 2.000 | |
+| aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen | | 2.000 |
 
 **2021**
 
-1.    Betaling van de opbrengst gecreëerd door het werk
+1. Betaling van de opbrengst gecreëerd door het werk
 
 In hoofde van de begunstigde (artiest)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | 500 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 500 |
+| | 61 | Diensten en diverse goederen | 500 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 500 |
 
 In hoofde van de investeerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 500 |  |
-| aan | 74 | Andere bedrijfsopbrengsten |  | 500 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 500 | |
+| aan | 74 | Andere bedrijfsopbrengsten | | 500 |
 
-2.    Regularisering einde boekjaar
+2. Regularisering einde boekjaar
 
 In hoofde van de investeerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6301 | Afschrijvingen op immateriële vaste activa | 2.000 |  |
-| aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen |  | 2.000 |
+| | 6301 | Afschrijvingen op immateriële vaste activa | 2.000 | |
+| aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen | | 2.000 |
 
 **2022**
 
-1.    Betaling van de opbrengst gecreëerd door het werk
+1. Betaling van de opbrengst gecreëerd door het werk
 
 **In hoofde van de begunstigde (artiest)**
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | 1.500 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 1.500 |
+| | 61 | Diensten en diverse goederen | 1.500 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 1.500 |
 
 In hoofde van de investeerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 1.500 |  |
-| aan | 74 | Andere bedrijfsopbrengsten |  | 1.500 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 1.500 | |
+| aan | 74 | Andere bedrijfsopbrengsten | | 1.500 |
 
-2.    Regularisering einde boekjaar
+2. Regularisering einde boekjaar
 
 In hoofde van de investeerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6301 | Afschrijvingen op immateriële vaste activa | 2.000 |  |
-| aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen |  | 2.000 |
+| | 6301 | Afschrijvingen op immateriële vaste activa | 2.000 | |
+| aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen | | 2.000 |
 
 #### Investment crowdfunding (Equity-based / Security-based crowdfunding)
 
@@ -444,73 +444,73 @@ Het onderstaande voorbeeld betreft een kapitaalvennootschap. In het geval van ee
 
 ##### Uitgifte van aandelen a pari
 
-*Volstorting*  
+*Volstorting* 
 In hoofde van de begunstigde
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 10.000 |  |
-| aan | 100 | Geplaatst kapitaal |  | 10.000 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 10.000 | |
+| aan | 100 | Geplaatst kapitaal | | 10.000 |
 
-In hoofde van de investeerder 
+In hoofde van de investeerder 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 510 | Aandelen – Aanschaffingswaarde | 10.000 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 10.000 |
+| | 510 | Aandelen – Aanschaffingswaarde | 10.000 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 10.000 |
 
-*Gedeeltelijke volstorting*  
+*Gedeeltelijke volstorting* 
 In hoofde van de begunstigde
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 101 | Niet opgevraagd kapitaal (-) | 4.000 |  |
-|  | 5500 | Kredietinstellingen – Rekening-courant | 6.000 |  |
-| aan | 100 | Geplaatst kapitaal |  | 10.000 |
+| | 101 | Niet opgevraagd kapitaal (-) | 4.000 | |
+| | 5500 | Kredietinstellingen – Rekening-courant | 6.000 | |
+| aan | 100 | Geplaatst kapitaal | | 10.000 |
 
-In hoofde van de investeerder 
+In hoofde van de investeerder 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 510 | Aandelen – Aanschaffingswaarde | 10.000 |  |
-| aan | 511 | Aandelen – Niet-opgevraagde bedragen |  | 4.000 |
-|  | 5500 | Kredietinstellingen – Rekening-courant | 6.000 |  |
+| | 510 | Aandelen – Aanschaffingswaarde | 10.000 | |
+| aan | 511 | Aandelen – Niet-opgevraagde bedragen | | 4.000 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 6.000 | |
 
 ##### Uitgifte van aandelen boven pari[^21] 
 
-*Volstorting*  
+*Volstorting* 
 In hoofde van de begunstigde
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 11.000 |  |
-| aan | 100 | Geplaatst kapitaal |  | 10.000 |
-|  | 1100 | Uitgiftepremies | 1.000 |  |
+| | 5500 | Kredietinstellingen – Rekening-courant | 11.000 | |
+| aan | 100 | Geplaatst kapitaal | | 10.000 |
+| | 1100 | Uitgiftepremies | 1.000 | |
 
-In hoofde van de investeerder 
+In hoofde van de investeerder 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 510 | Aandelen – Aanschaffingswaarde | 11.000 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 11.000 |
+| | 510 | Aandelen – Aanschaffingswaarde | 11.000 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 11.000 |
 
-*Gedeeltelijke volstorting*  
+*Gedeeltelijke volstorting* 
 In hoofde van de begunstigde
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 101 | Niet opgevraagd kapitaal (-) | 4.000 |  |
-|  | 5500 | Kredietinstellingen – Rekening-couran | 7.000 |  |
-| aan | 100 | Geplaatst kapitaal |  | 10.000 |
-|  | 1100 | Uitgiftepremies | 1.000 |  |
+| | 101 | Niet opgevraagd kapitaal (-) | 4.000 | |
+| | 5500 | Kredietinstellingen – Rekening-couran | 7.000 | |
+| aan | 100 | Geplaatst kapitaal | | 10.000 |
+| | 1100 | Uitgiftepremies | 1.000 | |
 
-In hoofde van de investeerder 
+In hoofde van de investeerder 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 510 | Aandelen – Aanschaffingswaarde | 11.000 |  |
-| aan | 511 | Aandelen – Niet-opgevraagde kapitalen |  | 4.000 |
-|  | 5500 | Kredietinstellingen – Rekening-courant | 7.000 |  |
+| | 510 | Aandelen – Aanschaffingswaarde | 11.000 | |
+| aan | 511 | Aandelen – Niet-opgevraagde kapitalen | | 4.000 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 7.000 | |
 
 ##### Uitgifte van obligaties
 
@@ -518,53 +518,53 @@ In hoofde van de begunstigde
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 10.000 |  |
-| aan | 171 | Obligatieleningen |  | 10.000 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 10.000 | |
+| aan | 171 | Obligatieleningen | | 10.000 |
 
-In hoofde van de investeerder 
+In hoofde van de investeerder 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 52 | Vastrentende effecten | 10.000 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 10.000 |
+| | 52 | Vastrentende effecten | 10.000 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 10.000 |
 
 #### Participatory notes
 
 Met dit type financiering investeert het publiek in een onderneming door middel van kapitaal[^22]
- (in ruil voor aandelen) of door op onrechtstreekse wijze op obligaties in te schrijven, via een crowdfundingplatform. Het platform biedt een dienst aan waarbij investeerders in contact worden gebracht met ondernemingen die op zoek zijn naar middelen.
+ (in ruil voor aandelen) of door op onrechtstreekse wijze op obligaties in te schrijven, via een crowdfundingplatform. Het platform biedt een dienst aan waarbij investeerders in contact worden gebracht met ondernemingen die op zoek zijn naar middelen.
 
 Participatory notes zijn schuldbewijzen die door het platform worden uitgegeven. Deze financiële instrumenten sui generis leveren een rendement op dat in de buurt ligt van het rendement van onderliggende aandelen.
 
-Het rendement van de participatory notes wordt bepaald door het rendement van de lening of van de participatie in de onderliggende onderneming. Hun duur hangt af van het moment waarop de onderliggende aandelen opnieuw zullen worden verkocht door het crowdfundingplatform (of van het moment van de terugbetaling van de onderliggende lening). 
+Het rendement van de participatory notes wordt bepaald door het rendement van de lening of van de participatie in de onderliggende onderneming. Hun duur hangt af van het moment waarop de onderliggende aandelen opnieuw zullen worden verkocht door het crowdfundingplatform (of van het moment van de terugbetaling van de onderliggende lening). 
 
 ## Voorbeeld 1 (aandelen)
-In hoofde van het platform  
+In hoofde van het platform 
 *Werving van middelen bij investeerders*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 10.000 |  |
-| aan | 489 | Andere diverse schulden |  | 10.000 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 10.000 | |
+| aan | 489 | Andere diverse schulden | | 10.000 |
 
 *Inbreng van middelen bij de onderliggende onderneming*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 489 | Andere diverse schulden | 10.000 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 9.700 |
-|  | 70 | Omzet | 300 |  |
+| | 489 | Andere diverse schulden | 10.000 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 9.700 |
+| | 70 | Omzet | 300 | |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 072 | Goederen en waarden van derden in bewaring gekregen | 9.700 |  |
-| aan | 073 | Committenten en deponenten van goederen en waarden |  | 9.700 |
+| | 072 | Goederen en waarden van derden in bewaring gekregen | 9.700 | |
+| aan | 073 | Committenten en deponenten van goederen en waarden | | 9.700 |
 
 In hoofde van de onderliggende onderneming
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 9.700 |  |
-| aan | 100 | Geplaatst kapitaal |  | 9.700 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 9.700 | |
+| aan | 100 | Geplaatst kapitaal | | 9.700 |
 
 In hoofde van de investeerder
 
@@ -572,8 +572,8 @@ In hoofde van de investeerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2840 | Andere aandelen – Participatory notes | 10.000 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 10.000 |
+| | 2840 | Andere aandelen – Participatory notes | 10.000 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 10.000 |
 
 ## Voorbeeld 2 (obligaties)
 
@@ -588,36 +588,36 @@ Om haar activiteiten te kunnen opstarten heeft een onderneming 200.000 EUR nodig
 
 De onderneming haalt via het platform een bedrag van € 275.000 op.
 
-In hoofde van het platform  
+In hoofde van het platform 
 *Werving van middelen bij investeerders*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 275.000 |  |
-| aan | 489 | Andere diverse schulden |  | 275.000 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 275.000 | |
+| aan | 489 | Andere diverse schulden | | 275.000 |
 
 *Overdracht van fondsen aan de onderneming*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 520 | Andere diverse schulden | 275.000 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 261.250 |
-|  | 70 | Omzet | 13.750 |  |
+| | 520 | Andere diverse schulden | 275.000 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 261.250 |
+| | 70 | Omzet | 13.750 | |
 
 In hoofde van de onderneming
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen – Rekening-courant | 261.250 |  |
-|  | 200/65 | Kosten van oprichting/Financiële kosten | 13.750 |  |
-| aan | 171 | Obligatielening |  | 275.000 |
+| | 5500 | Kredietinstellingen – Rekening-courant | 261.250 | |
+| | 200/65 | Kosten van oprichting/Financiële kosten | 13.750 | |
+| aan | 171 | Obligatielening | | 275.000 |
 
 In hoofde van de investeerders
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 291 | Overige vorderingen | 275.000 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 275.000 |
+| | 291 | Overige vorderingen | 275.000 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 275.000 |
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 25 april 2019 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

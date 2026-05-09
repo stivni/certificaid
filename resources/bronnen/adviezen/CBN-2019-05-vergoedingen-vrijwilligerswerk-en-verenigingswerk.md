@@ -44,7 +44,7 @@ Verenigingswerkers worden niet gelijkgesteld met werknemers omwille van de omsta
 
 ## Vrijwilligersvergoeding
 
-Overeenkomstig de wet van 3 juli 2005 betreffende de rechten van vrijwilligers heeft vrijwilligerswerk betrekking op elke activiteit die onbezoldigd en onverplicht wordt verricht ten behoeve van één of meer personen, andere dan degene die de activiteit verricht, van een groep of organisatie of van de samenleving als geheel. De activiteit moet voorts worden ingericht door een organisatie anders dan het familie- of privéverband van degene die de activiteit verricht. Zij mag niet door dezelfde persoon en voor dezelfde organisatie worden verricht in het kader van een arbeidsovereenkomst, een dienstencontract of een statutaire aanstelling. 
+Overeenkomstig de wet van 3 juli 2005 betreffende de rechten van vrijwilligers heeft vrijwilligerswerk betrekking op elke activiteit die onbezoldigd en onverplicht wordt verricht ten behoeve van één of meer personen, andere dan degene die de activiteit verricht, van een groep of organisatie of van de samenleving als geheel. De activiteit moet voorts worden ingericht door een organisatie anders dan het familie- of privéverband van degene die de activiteit verricht. Zij mag niet door dezelfde persoon en voor dezelfde organisatie worden verricht in het kader van een arbeidsovereenkomst, een dienstencontract of een statutaire aanstelling. 
 
 De vergoeding van de vrijwilliger is beperkt tot een forfaitaire kostenvergoeding.[^7] 
 

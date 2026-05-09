@@ -83,7 +83,7 @@ Wanneer een belastbaar tijdperk onvoldoende (fiscale) winst oplevert voor de int
 
 ### Tijdstip van het ontstaan van het recht op aftrek innovatie-inkomsten
 
-####  Het intellectueel eigendomsrecht is reeds ontstaan
+#### Het intellectueel eigendomsrecht is reeds ontstaan
 
 Op het ogenblik dat het intellectueel eigendomsrecht is ontstaan[^16], kunnen de netto-inkomsten die hieruit ontstaan in mindering worden gebracht van de (fiscale) winst. Deze aftrek voor innovatie-inkomsten wordt toegepast door een aftrek in de fiscale aangifte.[^17] Wat betreft de boeking van een intellectueel eigendomsrecht als actiefbestanddeel verwijst de Commissie naar het CBN-advies 2012/13 – *De boekhoudkundige verwerking van immateriële vaste activa *en het CBN-advies 2016/16 - *Kosten van onderzoek en ontwikkeling: wijzigingen door het koninklijk besluit van 18 december 2015.* Dit zal het geval zijn indien bijvoorbeeld het octrooi reeds is toegekend of indien het gaat om software.
 
@@ -99,7 +99,7 @@ De voorheen vrijgestelde innovatie-inkomsten worden aangemerkt als (fiscale) win
 
 ## Boekhoudkundige verwerking
 
-###  Het intellectueel eigendomsrecht is reeds ontstaan
+### Het intellectueel eigendomsrecht is reeds ontstaan
 
 De aftrek voor innovatie-inkomsten die voortvloeien uit een toegekend intellectueel eigendomsrecht is definitief en vindt plaats via een aftrek in de fiscale aangifte. Een dergelijke aftrek geeft geen aanleiding tot specifieke boekingen. Deze vrijstelling verloopt volledig extra-comptabel.
 
@@ -117,7 +117,7 @@ Wanneer de aanvraag voor het bekomen van het intellectueel eigendomsrecht is be�
 
 De Commissie merkt op dat met betrekking tot de aftrek voor innovatie-inkomsten in voorkomend geval passende vermeldingen in de toelichting moeten worden opgenomen. De vennootschappen die hun jaarrekening opstellen volgens het volledig schema moeten met betrekking tot de aftrek innovatie-inkomsten de invloed vermelden op de verschuldigde belastingen op het resultaat[^27] en de aanwezigheid van belastinglatenties.[^28] Deze latenties kunnen zowel actieve belastinglatenties zijn, bijvoorbeeld ingeval van een overgedragen aftrek indien er onvoldoende (fiscale) winst is in een bepaald belastbaar tijdperk, als passieve belastinglatenties, bijvoorbeeld wanneer kosten uit het verleden met betrekking tot innovatie-inkomsten fiscaal slechts tijdens latere jaren worden verrekend in de formule tot vaststelling van de aftrek innovatie-inkomsten.[^29] 
 
-Voor de vennootschappen die hun jaarrekening opstellen volgens het microschema of het verkorte schema geldt deze specifieke verplichting tot vermelding in de toelichting niet. De Commissie wijst evenwel op het algemene beginsel dat stelt dat de jaarrekening een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de vennootschap. Wanneer de toepassing van de bepalingen van Boek II, titel I van het KB W.Venn. aldus niet volstaat om te voldoen aan dit voorschrift moeten aanvullende inlichtingen worden verstrekt in de toelichting.[^30] Dergelijke toelichtingen worden opgenomen in het volledig model, het verkort model en het micromodel op de respectievelijke pagina’s VOL 6.20, VKT 6.9, MIC 6.6.
+Voor de vennootschappen die hun jaarrekening opstellen volgens het microschema of het verkorte schema geldt deze specifieke verplichting tot vermelding in de toelichting niet. De Commissie wijst evenwel op het algemene beginsel dat stelt dat de jaarrekening een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de vennootschap. Wanneer de toepassing van de bepalingen van Boek II, titel I van het KB W.Venn. aldus niet volstaat om te voldoen aan dit voorschrift moeten aanvullende inlichtingen worden verstrekt in de toelichting.[^30] Dergelijke toelichtingen worden opgenomen in het volledig model, het verkort model en het micromodel op de respectievelijke pagina’s VOL 6.20, VKT 6.9, MIC 6.6.
 
 ## Fiscale documentatieverplichting
 

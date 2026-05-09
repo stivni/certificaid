@@ -45,7 +45,7 @@ De Commissie wenst eraan te herinneren dat de procedure inzake grensoverschrijde
 
 “De zich omzettende vennootschap legt door toedoen van haar bestuursorgaan een staat van activa en passiva neer bij de Nationale Bank van België die haar vermogenstoestand weergeeft op het ogenblik van de omzetting.
 
-Deze neerlegging gebeurt binnen dertig dagen nadat de authentieke omzettingsakte is verleden. 
+Deze neerlegging gebeurt binnen dertig dagen nadat de authentieke omzettingsakte is verleden. 
 
 Indien de staat van actief en passief niet werd neergelegd zoals bepaald in het tweede lid, wordt de door derden geleden schade, behoudens tegenbewijs, geacht voort te vloeien uit dit verzuim.
 
@@ -56,7 +56,7 @@ Momenteel is er nog geen gebruik gemaakt van de in het vierde lid van voornoemd 
 ## Standpunt van de Commissie
 
 Aangezien de Koning geen gebruik heeft gemaakt van de in artikel 14:30 WVV aan hem verleende machtiging, kan een verplicht gebruik van de standaardmodellen niet afgedwongen worden. De Commissie wenst er desalniettemin op te wijzen dat het gebruik van de door de NBB daartoe ter beschikking gestelde modellen[^2]
- van de staat van activa en passiva, opgesteld naargelang het een kapitaalhoudende of kapitaalloze vennootschap betreft, kan worden aangemoedigd om de leesbaarheid en de vergelijkbaarheid van de jaarrekening te bewaren zonder dat ondernemingen buitensporige kosten hoeven te dragen. 
+ van de staat van activa en passiva, opgesteld naargelang het een kapitaalhoudende of kapitaalloze vennootschap betreft, kan worden aangemoedigd om de leesbaarheid en de vergelijkbaarheid van de jaarrekening te bewaren zonder dat ondernemingen buitensporige kosten hoeven te dragen. 
 
 De Commissie is bijgevolg van oordeel dat het de voorkeur wegdraagt de immigrerende vennootschappen aan te raden om, voor zover mogelijk, de minimumindeling van het algemeen rekeningenstelsel te gebruiken zolang er bij koninklijk besluit geen model wordt voorzien.
 

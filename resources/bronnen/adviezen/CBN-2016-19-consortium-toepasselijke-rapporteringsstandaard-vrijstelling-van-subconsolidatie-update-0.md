@@ -36,7 +36,7 @@ gerelateerde_adviezen:
   - titel: Consolidatie bij de horizontale groep (consortium)
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
     datum: '2022-07-27'
-  - titel: Transacties onder gemeenschappelijke leiding  (Common control transactions) (update)
+  - titel: Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
     url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
     datum: '2017-09-13'
   - titel: Consolidatie bij de horizontale groep (consortium)
@@ -46,7 +46,7 @@ gerelateerde_adviezen:
 
 # CBN-advies 2016/19 – Consortium: toepasselijke rapporteringsstandaard – vrijstelling van subconsolidatie (update)
 
-, bijgewerkt op 10 september 2025 [^2]
+, bijgewerkt op 10 september 2025 [^2]
 
 ## Inleiding
 
@@ -61,7 +61,7 @@ Daarnaast wordt de vraag gesteld of de opmaak van een geconsolideerde jaarrekeni
 ## Toepasselijke rapporteringsstandaard
 
 Artikel 3:104, § 1 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) stelt dat de geconsolideerde jaarrekening moet worden opgesteld overeenkomstig de Belgische consolidatiebeginselen. Het bestuursorgaan kan echter de beslissing nemen om de geconsolideerde jaarrekening op te stellen met toepassing van de IFRS-normen.[^4]
- Indien de geconsolideerde jaarrekening wordt opgesteld overeenkomstig de IFRS-normen is dergelijke keuze onherroepbaar. Dit impliceert dat een vennootschap die bij de opmaak van een geconsolideerde jaarrekening kiest voor de IFRS-normen niet kan terugkeren naar de Belgische consolidatiebeginselen.[^5] 
+ Indien de geconsolideerde jaarrekening wordt opgesteld overeenkomstig de IFRS-normen is dergelijke keuze onherroepbaar. Dit impliceert dat een vennootschap die bij de opmaak van een geconsolideerde jaarrekening kiest voor de IFRS-normen niet kan terugkeren naar de Belgische consolidatiebeginselen.[^5] 
 
 Voor wat betreft de eerste opmaak van de geconsolideerde jaarrekening van het consortium zal het bestuursorgaan van de consoliderende vennootschap op basis van artikel 3:104, § 1 KB WVV deze geconsolideerde jaarrekening dus in principe overeenkomstig de Belgische consolidatiebeginselen opstellen, tenzij het bestuursorgaan beslist om de IFRS-normen te gebruiken. Het feit dat een van de vennootschappen die het consortium vormen rapporteert onder een andere rapporteringsstandaard doet daar volgens de Commissie geen afbreuk aan.
 
@@ -74,7 +74,7 @@ In het geval dat NV ABC een genoteerde vennootschap zou zijn op een gereglemente
 De vrijstelling van subconsolidatie is voorzien in artikel 3:24 WVV.
 
 Overeenkomstig artikel 3:24 WVV[^7]
- wordt elk lid van het consortium aanzien als een consoliderende vennootschap. Van zodra het consortium een geconsolideerde jaarrekening opstelt, is de Commissie van oordeel dat ieder lid van het consortium de vrijstelling van subconsolidatie kan inroepen op voorwaarde dat artikel 3:26, § 2 WVV wordt nageleefd.
+ wordt elk lid van het consortium aanzien als een consoliderende vennootschap. Van zodra het consortium een geconsolideerde jaarrekening opstelt, is de Commissie van oordeel dat ieder lid van het consortium de vrijstelling van subconsolidatie kan inroepen op voorwaarde dat artikel 3:26, § 2 WVV wordt nageleefd.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 20 mei 2016 ter consultatie werd gepubliceerd op de website van de CBN.
 

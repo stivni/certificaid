@@ -51,7 +51,7 @@ Een onderneming heeft de Commissie gevraagd hoe het bedrag moet worden vastgeste
 De Commissie heeft er in de eerste plaats op gewezen dat artikel 27*bis*, § 2 enkel slaat op vorderingen en schulden en derhalve niet van toepassing is op pensioenverplichtingen die op het passief van de balans in de post *Voorzieningen voor risico's en kosten* moeten worden geboekt.
 
 Het bedrag van de nodige voorziening moet in elk geval rekening houden met het sterfterisico, enerzijds, en met de factor rente, anderzijds. Wat deze laatste factor betreft, zullen de datum waarop de kost moet worden betaald en de spreiding ervan uiteraard een weerslag hebben, via actualisatie, bij de rechtstreekse waardering van de te vormen voorziening, indien deze datum meer dan een jaar verwijderd is. Voor de berekeningsmodaliteiten van deze voorziening wordt in het Verslag aan de Koning bij het koninklijk besluit van 6 november 1987[^1]
- tot wijziging van het jaarrekeningbesluit van 8 oktober 1976, verwezen naar het koninklijk besluit van 15 mei 1985 betreffende de activiteiten van de private voorzorgsinstellingen.
+ tot wijziging van het jaarrekeningbesluit van 8 oktober 1976, verwezen naar het koninklijk besluit van 15 mei 1985 betreffende de activiteiten van de private voorzorgsinstellingen.
 
 De omstandigheid dat de ondernemingsafdeling waarmee deze pensioenen en brugpensioenen verband houden, verdwijnt of wordt overgedragen, heeft geen invloed op het bedrag van de voorziening.
 

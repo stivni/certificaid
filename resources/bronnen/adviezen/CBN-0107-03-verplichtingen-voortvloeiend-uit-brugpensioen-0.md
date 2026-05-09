@@ -45,7 +45,7 @@ gerelateerde_adviezen:
 # CBN-advies 107/3bis - Verplichtingen voortvloeiend uit brugpensioen
 
 In een vorig advies[^1]
- onderstreepte de Commissie dat, wanneer een onderneming, in het kader van de conventionele brugpensioenregeling ingevoerd krachtens de collectieve arbeidsovereenkomst nr. 17 van 19 november 1974, bepaalde werknemers op pensioen stelt, zij krachtens artikel 19 van het besluit van 8 oktober 1976 een passende voorziening moet vormen voor de verbintenissen die zij aangaat ten opzichte van haar werknemers.
+ onderstreepte de Commissie dat, wanneer een onderneming, in het kader van de conventionele brugpensioenregeling ingevoerd krachtens de collectieve arbeidsovereenkomst nr. 17 van 19 november 1974, bepaalde werknemers op pensioen stelt, zij krachtens artikel 19 van het besluit van 8 oktober 1976 een passende voorziening moet vormen voor de verbintenissen die zij aangaat ten opzichte van haar werknemers.
 
 De stelling van dit advies werd overgenomen door het koninklijk besluit van 12 september 1983 dat, in voornoemd artikel 19, bij de verplichtingen waarvoor een voorziening moet worden gevormd, de verplichtingen heeft ingevoegd die op een onderneming rusten inzake brugpensioenen.
 

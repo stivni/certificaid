@@ -32,13 +32,13 @@ gerelateerde_adviezen:
   - titel: Dividenduitkering en kapitaalvermindering in natura
     url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
     datum: '2019-03-12'
-  - titel: Boekhoudkundige verwerking  van de vergoeding voor een borg in het kader van de financiering  van een voor verkoop bestemd onroerend goed
+  - titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van de financiering van een voor verkoop bestemd onroerend goed
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
     datum: '2017-05-31'
   - titel: De boekhoudkundige verwerking van een herziening van de btw op een aangekocht bedrijfsmiddel
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
     datum: '2013-05-08'
-  - titel: De boekhoudkundige verwerking van  immateriële vaste activa
+  - titel: De boekhoudkundige verwerking van immateriële vaste activa
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
     datum: '2012-10-10'
 ---
@@ -49,19 +49,19 @@ gerelateerde_adviezen:
 
 Onderhavig advies behandelt de boekhoudkundige verwerking van de aankoop van een goed waarbij *ab initio* wordt overeengekomen dat de prijs over een periode van meer dan één jaar wordt betaald zonder dat expliciet voorzien is in een rente of slechts een abnormaal lage rente verschuldigd is. Dergelijke aankoop moet worden beschouwd als een verrichting die in werkelijkheid uit twee elementen bestaat, namelijk de eigenlijke aankoop van het goed en een impliciete lening.
 
-Dit advies heeft uitsluitend betrekking op verrichtingen die plaatsvinden binnen normale marktomstandigheden. 
+Dit advies heeft uitsluitend betrekking op verrichtingen die plaatsvinden binnen normale marktomstandigheden. 
 
-Dit advies geldt zowel voor vennootschappen als voor verenigingen en stichtingen die een dubbele boekhouding voeren. 
+Dit advies geldt zowel voor vennootschappen als voor verenigingen en stichtingen die een dubbele boekhouding voeren. 
 
 ## Wettelijk kader
 
 Artikel 3:45, § 2 van het koninklijk besluit van 29 april 2019[^2]
- (hierna: KB WVV) luidt als volgt: 
+ (hierna: KB WVV) luidt als volgt: 
 
 “Bij de boeking van een vordering in de balans voor haar nominale waarde worden in voorkomend geval in de overlopende rekeningen van het passief geboekt en *pro rata temporis* in resultaat genomen op grond van de samengestelde interesten: [...] het disconto[^3]
- op renteloze of abnormaal laag rentende vorderingen, wanneer deze vorderingen: 
+ op renteloze of abnormaal laag rentende vorderingen, wanneer deze vorderingen: 
 
-1° terugbetaalbaar zijn na meer dan één jaar te rekenen vanaf het ogenblik waarop zij in het vermogen van de vennootschap, VZW, IVZW of stichting zijn opgenomen, en 
+1° terugbetaalbaar zijn na meer dan één jaar te rekenen vanaf het ogenblik waarop zij in het vermogen van de vennootschap, VZW, IVZW of stichting zijn opgenomen, en 
 
 2° betrekking hebben hetzij op als opbrengst geboekte bedragen in de resultatenrekening, hetzij op de prijs van de overdracht van vaste activa of van een activiteitsbranche. […] ”
 
@@ -71,12 +71,12 @@ Krachtens artikel 3:55 KB WVV is “*artikel 3:45 [...] van overeenkomstige toep
 
 Artikelen 3:45 en 3:55 KB WVV hebben tot doel en tot gevolg de werkelijke aanschaffingswaarde, i.e. de door de partijen werkelijk overeengekomen waarde, als criterium aan te wenden op basis waarvan de actiefbestanddelen in kwestie effectief worden gewaardeerd.
 
-Deze bepalingen vertrekken van een boekhoudkundige opsplitsing tussen, enerzijds, de aanschaffingsprijs als dusdanig en, anderzijds, de financieringskost van de aankoop. Deze boekhoudkundige opsplitsing is niets anders dan de boekhoudkundige registratie van de realiteit van de verrichting (ofwel het “realiteitsbeginsel”). 
+Deze bepalingen vertrekken van een boekhoudkundige opsplitsing tussen, enerzijds, de aanschaffingsprijs als dusdanig en, anderzijds, de financieringskost van de aankoop. Deze boekhoudkundige opsplitsing is niets anders dan de boekhoudkundige registratie van de realiteit van de verrichting (ofwel het “realiteitsbeginsel”). 
 
 Dit betekent echter niet dat de actiefbestanddelen zouden moeten worden geboekt tegen werkelijke waarde (of “*fair value*”) – het Belgisch boekhoudrecht stelt immers een boeking tegen historische kostprijs voorop –, maar houdt in dat de verrichting moet worden geboekt op een zodanige wijze dat zij overeenstemt met de realiteit van de verrichting.
 
 De financiële component[^4]
- van de verrichting wordt gespreid in resultaat genomen middels de overlopende rekeningen in functie van de looptijd van de betalingstermijn. 
+ van de verrichting wordt gespreid in resultaat genomen middels de overlopende rekeningen in functie van de looptijd van de betalingstermijn. 
 
 ## Voorbeeld
 
@@ -85,7 +85,7 @@ Stel dat een materieel vast actief op 1 september 20N0 werd verworven voor 100.0
 **Bepaling van de actuele waarde en het disconto**
 
 - actuele waarde op 01/09/20N0: 100.000 EUR x 0,8728768[^5]
- = 87.287,69 EUR 
+ = 87.287,69 EUR 
 - disconto op 01/09/20N0: 100.000 EUR (nominale waarde) – 87.287,69 EUR (actuele waarde) = 12.712,31 EUR 
 
 ## Boekhoudkundige verwerking
@@ -94,9 +94,9 @@ Stel dat een materieel vast actief op 1 september 20N0 werd verworven voor 100.0
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 230 | Installaties, machines en uitrusting – aanschaffingswaarde | 87.287,69 |  |
-|  | 490 | Over te dragen kosten | 12.712,31 |  |
-| aan | 175 | Handelsschulden |  | 100.000 |
+| | 230 | Installaties, machines en uitrusting – aanschaffingswaarde | 87.287,69 | |
+| | 490 | Over te dragen kosten | 12.712,31 | |
+| aan | 175 | Handelsschulden | | 100.000 |
 
 *Op 31/12/20N0*
 
@@ -104,15 +104,15 @@ Stel dat een materieel vast actief op 1 september 20N0 werd verworven voor 100.0
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 1.711,96 |  |
-| aan | 490 | Over te dragen kosten |  | 1.711,96 |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 1.711,96 | |
+| aan | 490 | Over te dragen kosten | | 1.711,96 |
 
 [^7]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6302 | Afschrijvingen op materiële vaste activa | 2.909,59 |  |
-| aan | 239 | Installaties, machines en uitrusting |  | 2.909,59 |
+| | 6302 | Afschrijvingen op materiële vaste activa | 2.909,59 | |
+| aan | 239 | Installaties, machines en uitrusting | | 2.909,59 |
 
 *Op 31/12/20N1*
 
@@ -120,20 +120,20 @@ Stel dat een materieel vast actief op 1 september 20N0 werd verworven voor 100.0
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 5.339,98 |  |
-| aan | 490 | Over te dragen kosten |  | 5.339,98 |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 5.339,98 | |
+| aan | 490 | Over te dragen kosten | | 5.339,98 |
 
 [^9]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6302 | Afschrijvingen op materiële vaste activa | 8.728,77 |  |
-| aan | 239 | Installaties, machines en uitrusting |  | 8.728,77 |
+| | 6302 | Afschrijvingen op materiële vaste activa | 8.728,77 | |
+| aan | 239 | Installaties, machines en uitrusting | | 8.728,77 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 175 | Handelsschulden | 100.000 |  |
-| aan | 42 | Schulden op meer dan één jaar die binnen het jaar vervallen |  | 100.000 |
+| | 175 | Handelsschulden | 100.000 | |
+| aan | 42 | Schulden op meer dan één jaar die binnen het jaar vervallen | | 100.000 |
 
 *Op 31/12/20N2*
 
@@ -141,35 +141,35 @@ Stel dat een materieel vast actief op 1 september 20N0 werd verworven voor 100.0
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 5.660,38 |  |
-| aan | 490 | Over te dragen kosten |  | 5.660,38 |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 5.660,38 | |
+| aan | 490 | Over te dragen kosten | | 5.660,38 |
 
 [^11]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6302 | Afschrijvingen op materiële vaste activa | 8.728,77 |  |
-| aan | 239 | Installaties, machines en uitrusting |  | 8.728,77 |
+| | 6302 | Afschrijvingen op materiële vaste activa | 8.728,77 | |
+| aan | 239 | Installaties, machines en uitrusting | | 8.728,77 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 42 | Schulden op meer dan één jaar die binnen het jaar vervallen | 100.000 |  |
-| aan | 55 | Kredietinstellingen: rekening-courant |  | 100.000 |
+| | 42 | Schulden op meer dan één jaar die binnen het jaar vervallen | 100.000 | |
+| aan | 55 | Kredietinstellingen: rekening-courant | | 100.000 |
 
 De Commissie benadrukt dat de bepalingen van artikelen 3:45, § 2 & 3:55 KB WVV slechts gelden wanneer de aankoopverrichting *ab initio* een impliciete rente bevat. In CBN-advies 137/8[^12], werd inderdaad aan de Commissie de vraag gesteld of oud artikel 27bis, § 2, littera c van het koninklijk besluit van 8 oktober 1976[^13]
- dat tot de actualisering van langlopende renteloze vorderingen verplicht, moet worden toegepast op een vordering wegens levering van goederen en diensten (i.e. wegens een verrichting die geleid heeft tot de boeking van een resultaat), die bij wijze van tegemoetkoming aan de schuldenaar die in financiële moeilijkheden verkeert, wordt omgevormd tot een renteloze vordering, terugbetaalbaar over verschillende jaren. De Commissie bevestigt met onderhavig advies haar standpunt ingenomen in CBN-advies 137/8, dat artikel 27bis, § 2, littera c *in casu* niet van toepassing is. Er is immers geen sprake van een impliciete financieringskost bij het ontstaan *ab initio* van de vordering. 
+ dat tot de actualisering van langlopende renteloze vorderingen verplicht, moet worden toegepast op een vordering wegens levering van goederen en diensten (i.e. wegens een verrichting die geleid heeft tot de boeking van een resultaat), die bij wijze van tegemoetkoming aan de schuldenaar die in financiële moeilijkheden verkeert, wordt omgevormd tot een renteloze vordering, terugbetaalbaar over verschillende jaren. De Commissie bevestigt met onderhavig advies haar standpunt ingenomen in CBN-advies 137/8, dat artikel 27bis, § 2, littera c *in casu* niet van toepassing is. Er is immers geen sprake van een impliciete financieringskost bij het ontstaan *ab initio* van de vordering. 
 
 Een voorbeeld hiervan is de aankoop van een goed in december 2019 waarvan de factuur ten laatste op 30 april 2020 moet worden betaald. Door de COVID-19-epidemie aanvaardt de verkoper op 20 april 2020 een betalingsuitstel van twee jaar. De schuld op ten hoogste één jaar wordt hier omgezet in een schuld op meer dan één jaar. De aanschaffingswaarde van het goed wordt hierdoor niet aangepast.
 
-## Arrest van het Hof van Justitie van de Europese Unie van 23 april 2020 
+## Arrest van het Hof van Justitie van de Europese Unie van 23 april 2020 
 
-Het Hof van Justitie van de Europese Unie heeft in haar arrest van 23 april 2020 in de zaak C-640/18 Wagram Invest NV/Belgische Staat bevestigd dat de wettelijke bepaling in het Belgisch jaarrekeningenrecht die stelt dat de aankoop van een financieel vast actief waarbij de prijs over een langere periode wordt betaald zonder dat rente verschuldigd is, in omstandigheden die gelijken op een lening, geboekt moet worden op de actiefzijde van de balans tegen de aanschaffingswaarde rekening houdend met de aftrek van een disconto. 
+Het Hof van Justitie van de Europese Unie heeft in haar arrest van 23 april 2020 in de zaak C-640/18 Wagram Invest NV/Belgische Staat bevestigd dat de wettelijke bepaling in het Belgisch jaarrekeningenrecht die stelt dat de aankoop van een financieel vast actief waarbij de prijs over een langere periode wordt betaald zonder dat rente verschuldigd is, in omstandigheden die gelijken op een lening, geboekt moet worden op de actiefzijde van de balans tegen de aanschaffingswaarde rekening houdend met de aftrek van een disconto. 
 
-Het Hof haalt hierbij de volgende overwegingen aan: 
+Het Hof haalt hierbij de volgende overwegingen aan: 
 
 De boekingsmethode die enerzijds inhoudt dat de geactualiseerde waarde van de voor het financiële vaste actief betaalde prijs, te weten de nominale waarde minus de impliciete rente, op de actiefzijde wordt geboekt en anderzijds dat in de overlopende rekening een disconto wordt geboekt dat de impliciete rente vertegenwoordigt, waarvan het bedrag overeenkomt met het verschil tussen de nominale waarde van de schuld die is aangegaan voor de aankoop van het vaste actief en de geactualiseerde waarde van die schuld, geeft dan ook een getrouw beeld van beide elementen van die verrichting.
 
-In die omstandigheden omvat de nominale waarde van de voor de aankoop van het financiële vaste actief betaalde prijs, die overeenkomt met de historische kostprijs van dat vaste actief, in werkelijkheid twee elementen, namelijk, ten eerste, de geactualiseerde waarde van de aankoopprijs van het vaste actief, die overeenkomt met de inkoopprijs minus de impliciete rente op de lening, en, ten tweede, een bedrag dat overeenkomt met die impliciete rente. 
+In die omstandigheden omvat de nominale waarde van de voor de aankoop van het financiële vaste actief betaalde prijs, die overeenkomt met de historische kostprijs van dat vaste actief, in werkelijkheid twee elementen, namelijk, ten eerste, de geactualiseerde waarde van de aankoopprijs van het vaste actief, die overeenkomt met de inkoopprijs minus de impliciete rente op de lening, en, ten tweede, een bedrag dat overeenkomt met die impliciete rente. 
 
 Deze boekingsmethode geeft, wanneer zij in normale marktomstandigheden wordt toegepast, voorrang aan de inhoud van de verrichting boven de vorm ervan, door de waarde van het vaste actief in aanmerking te nemen met inachtneming van het beginsel van het getrouwe beeld, op basis van een waardering waarbij alle relevante factoren in aanmerking worden genomen, in het bijzonder, in het onderhavige geval, de financiële kosten, ook indien die kosten impliciet zijn en dus niet formeel uit de nominale waarde van de aanschaffingskosten van het betrokken actief blijken.
 

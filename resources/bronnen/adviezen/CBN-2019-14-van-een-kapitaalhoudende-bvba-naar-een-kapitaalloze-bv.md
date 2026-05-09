@@ -43,44 +43,44 @@ provenance:
 Met de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen wordt het concept ‘maatschappelijk kapitaal’ afgeschaft voor de besloten vennootschap.[^2] 
 
 Met onderhavig advies verduidelijkt de Commissie de wijze waarop een inbreng buiten kapitaal[^3]
- boekhoudkundig moet worden verwerkt. Hierbij wordt in het bijzonder aandacht besteed aan de overgang van een BVBA mét een kapitaal naar een kapitaalloze BV. Onderhavig advies heeft geen betrekking op de boekhoudkundige verwerking van de inbreng in een (I)VZW of een stichting.
+ boekhoudkundig moet worden verwerkt. Hierbij wordt in het bijzonder aandacht besteed aan de overgang van een BVBA mét een kapitaal naar een kapitaalloze BV. Onderhavig advies heeft geen betrekking op de boekhoudkundige verwerking van de inbreng in een (I)VZW of een stichting.
 
 ## Nieuwe benaming en onderverdeling van de rekening 11 *Inbreng buiten kapitaal*
 
 De minimumindeling van het algemeen rekeningenstelsel (hierna: MAR) werd aangepast[^4]
- opdat passende rekeningen voorhanden zouden zijn voor de inbrengen in kapitaalloze vennootschappen zonder het gebruik van de rekening 100 *Kapitaal*. Voor kapitaalhoudende[^5]
- vennootschappen blijft het gebruik van de rekening 100 *Kapitaal *en de rekening 101 *Niet-opgevraagd kapitaal* ongewijzigd.
+ opdat passende rekeningen voorhanden zouden zijn voor de inbrengen in kapitaalloze vennootschappen zonder het gebruik van de rekening 100 *Kapitaal*. Voor kapitaalhoudende[^5]
+ vennootschappen blijft het gebruik van de rekening 100 *Kapitaal *en de rekening 101 *Niet-opgevraagd kapitaal* ongewijzigd.
 
 Voor de kapitaalloze boekhoudplichtige ondernemingen, andere dan de (I)VZW’s en de stichtingen, wordt voortaan de rekening 11 van het MAR gebruikt voor de ontvangen of toegekende inbrengen. De rekening 11 heeft een nieuwe benaming gekregen - *Inbreng buiten kapitaal* - en wordt verder onderverdeeld als volgt:
 
-**11 Inbreng buiten kapitaal**  
+**11 Inbreng buiten kapitaal** 
 
-     110    Beschikbare inbreng buiten kapitaal  
+     110 Beschikbare inbreng buiten kapitaal 
 
-               1100    Uitgiftepremies  
+               1100 Uitgiftepremies 
 
-               1109    Andere   
+               1109 Andere 
 
-     111    Onbeschikbare inbreng buiten kapitaal  
+     111 Onbeschikbare inbreng buiten kapitaal 
 
-               1110[^6]
-  Uitgiftepremies  
+               1110[^6]
+  Uitgiftepremies 
 
-               1119    Andere    
+               1119 Andere 
 
-In de jaarrekening van een kapitaalloze vennootschap worden de bedragen geboekt op de rekening 110 *Beschikbare inbreng buiten kapitaal* vermeld onder I. Inbreng – A. Beschikbaar. De bedragen geboekt op de rekening 111 *Onbeschikbare inbreng buiten kapitaal* worden vermeld onder I. Inbreng – B. Onbeschikbaar.  
+In de jaarrekening van een kapitaalloze vennootschap worden de bedragen geboekt op de rekening 110 *Beschikbare inbreng buiten kapitaal* vermeld onder I. Inbreng – A. Beschikbaar. De bedragen geboekt op de rekening 111 *Onbeschikbare inbreng buiten kapitaal* worden vermeld onder I. Inbreng – B. Onbeschikbaar. 
 
 ## Inbreng in een vanaf 1 mei 2019 opgerichte BV of in een vennootschap overgegaan in een BV
 
 Een BV opgericht na 1 mei 2019 heeft geen kapitaal. De rubriek I. *Inbreng *bevat het ingebrachte vermogen, dat bestaat uit de bedongen waarde van alle door de aandeelhouders toegezegde inbrengen in geld of in natura[^7], voor zover niet terug uitgekeerd. Iedere nieuwe uitgifte van aandelen vereist een statutenwijziging.[^8]
- Een verhoging van de inbreng kan echter ook plaatsvinden zonder uitgifte van bijkomende aandelen. In dergelijk geval heeft de verhoging van de inbreng niet noodzakelijk een statutenwijziging tot gevolg.[^9]
- In dat geval aanvaardt de algemene vergadering de verhoging van de inbreng zonder uitgifte van nieuwe aandelen bij een gewoon meerderheidsbesluit. Dit besluit wordt vastgesteld bij authentieke akte[^10], doch zonder dat daaraan bijzondere bekendmakingsverplichtingen zijn verbonden aangezien dergelijke verrichting geen nadeel aan derden kan toebrengen en in de jaarrekening van de vennootschap moet worden weergegeven.[^11] 
+ Een verhoging van de inbreng kan echter ook plaatsvinden zonder uitgifte van bijkomende aandelen. In dergelijk geval heeft de verhoging van de inbreng niet noodzakelijk een statutenwijziging tot gevolg.[^9]
+ In dat geval aanvaardt de algemene vergadering de verhoging van de inbreng zonder uitgifte van nieuwe aandelen bij een gewoon meerderheidsbesluit. Dit besluit wordt vastgesteld bij authentieke akte[^10], doch zonder dat daaraan bijzondere bekendmakingsverplichtingen zijn verbonden aangezien dergelijke verrichting geen nadeel aan derden kan toebrengen en in de jaarrekening van de vennootschap moet worden weergegeven.[^11] 
 
 Het ingebrachte eigen vermogen, bij oprichting of bij een latere verhoging van de inbreng, wordt in principe geboekt onder 110 *Beschikbare inbreng buiten kapitaal* en meer in het bijzonder op de rekening 1109 *Andere*. Wanneer het ingebrachte eigen vermogen krachtens de statuten onbeschikbaar is, wordt het ingebrachte vermogen evenwel geboekt op de passende subrekening van de rekening 111 *Onbeschikbare inbreng buiten kapitaal*.
 
 Behoudens andersluidende statutaire bepalingen wordt het ingebrachte vermogen onmiddellijk volledig volstort.[^12]
- In voorkomend geval wordt het niet-opgevraagde gedeelte geboekt op het debet van een overeenstemmende subrekening van de rekening waarop het ingebrachte vermogen wordt geboekt. Op deze wijze wordt het in de jaarrekening uitgedrukte eigen vermogen gecorrigeerd met de bedragen die nog niet werden opgevraagd. De vordering op de aandeelhouder die slechts opeisbaar wordt vanaf de opvraging door het bestuursorgaan wordt aldus op een correcte wijze in de boekhouding opgenomen. Deze boekings- en voorstellingswijze is volledig in overeenstemming met het reeds gekende gebruik van de rekening 101 *Niet-opgevraagd kapitaal* bij een kapitaalhoudende vennootschap.[^13]
- Op het ogenblik van het opvragen van de nog niet gestorte inbreng wordt vervolgens voormelde subrekening gecrediteerd en wordt de vordering op de aandeelhouder geboekt aan debetzijde op de rekening 410 *Opgevraagd, niet gestort kapitaal of inbreng[^14] *. De Commissie merkt op dat met de jaarrekening een lijst moet worden neergelegd bij de Nationale Bank van België met opgave van het aantal geplaatste aandelen, de gedane stortingen en de lijst van de aandeelhouders die hun aandelen niet hebben volgestort, met vermelding van het bedrag dat zij nog verschuldigd zijn.[^15] 
+ In voorkomend geval wordt het niet-opgevraagde gedeelte geboekt op het debet van een overeenstemmende subrekening van de rekening waarop het ingebrachte vermogen wordt geboekt. Op deze wijze wordt het in de jaarrekening uitgedrukte eigen vermogen gecorrigeerd met de bedragen die nog niet werden opgevraagd. De vordering op de aandeelhouder die slechts opeisbaar wordt vanaf de opvraging door het bestuursorgaan wordt aldus op een correcte wijze in de boekhouding opgenomen. Deze boekings- en voorstellingswijze is volledig in overeenstemming met het reeds gekende gebruik van de rekening 101 *Niet-opgevraagd kapitaal* bij een kapitaalhoudende vennootschap.[^13]
+ Op het ogenblik van het opvragen van de nog niet gestorte inbreng wordt vervolgens voormelde subrekening gecrediteerd en wordt de vordering op de aandeelhouder geboekt aan debetzijde op de rekening 410 *Opgevraagd, niet gestort kapitaal of inbreng[^14] *. De Commissie merkt op dat met de jaarrekening een lijst moet worden neergelegd bij de Nationale Bank van België met opgave van het aantal geplaatste aandelen, de gedane stortingen en de lijst van de aandeelhouders die hun aandelen niet hebben volgestort, met vermelding van het bedrag dat zij nog verschuldigd zijn.[^15] 
 
 ## Inbreng bij een bestaande BVBA die een BV wordt
 
@@ -96,42 +96,42 @@ Omvorming kapitaal
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 100 | Geplaatst kapitaal | XXX |  |
-|  | 111901 | Niet-opgevraagde andere onbeschikbare inbreng buiten kapitaal | XXX |  |
-| aan | 1119 | Andere onbeschikbare inbreng buiten kapitaal |  | XXX |
-|  | 101 | Niet-opgevraagd kapitaal | XXX |  |
+| | 100 | Geplaatst kapitaal | XXX | |
+| | 111901 | Niet-opgevraagde andere onbeschikbare inbreng buiten kapitaal | XXX | |
+| aan | 1119 | Andere onbeschikbare inbreng buiten kapitaal | | XXX |
+| | 101 | Niet-opgevraagd kapitaal | XXX | |
 
 Omvorming wettelijke reserve
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 130 | Wettelijke reserves | XXX |  |
-| aan | 1311 | Statutair onbeschikbare reserves |  | XXX |
+| | 130 | Wettelijke reserves | XXX | |
+| aan | 1311 | Statutair onbeschikbare reserves | | XXX |
 
 Opvraging niet-gestorte inbreng
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 410 | Opgevraagd, niet gestort kapitaal of inbreng | XXX |  |
-| aan | 11901 | Niet-opgevraagde andere onbeschikbare inbreng buiten kapitaal |  | XXX |
+| | 410 | Opgevraagd, niet gestort kapitaal of inbreng | XXX | |
+| aan | 11901 | Niet-opgevraagde andere onbeschikbare inbreng buiten kapitaal | | XXX |
 
 Storting van de opgevraagde inbreng
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen: rekening-courant | XXX |  |
-| aan | 410 | Opgevraagd, niet gestort kapitaal of inbreng |  | XXX |
+| | 5500 | Kredietinstellingen: rekening-courant | XXX | |
+| aan | 410 | Opgevraagd, niet gestort kapitaal of inbreng | | XXX |
 
 ### Opt-in
 
 Een BVBA kan zich evenwel vrijwillig vroeger onderwerpen aan de bepalingen van het WVV vóór 1 januari 2020. Die beslissing vereist een statutenwijziging. In dat geval wordt het WVV op haar van toepassing vanaf de dag van de bekendmaking van deze statutenwijziging.[^18] 
 
-### Aanpassing van de statuten 
+### Aanpassing van de statuten 
 
 De formele aanpassing van de statuten[^19]
- van een BVBA die een BV wordt, vindt plaats op een datum die bepaald wordt in functie van de toestand waarin de vennootschap zich bevindt:
+ van een BVBA die een BV wordt, vindt plaats op een datum die bepaald wordt in functie van de toestand waarin de vennootschap zich bevindt:
 
-- indien de BVBA zich vrijwillig vóór 1 januari 2020 aan de bepalingen van het WVV wil onderwerpen, moet zij verplicht haar statuten aanpassen aan het WVV en zijn deze bepalingen van toepassing vanaf de bekendmaking van deze statutenwijziging, maar ten vroegste op 1 mei 2019;  
+- indien de BVBA zich vrijwillig vóór 1 januari 2020 aan de bepalingen van het WVV wil onderwerpen, moet zij verplicht haar statuten aanpassen aan het WVV en zijn deze bepalingen van toepassing vanaf de bekendmaking van deze statutenwijziging, maar ten vroegste op 1 mei 2019; 
 
 - indien de BVBA zich niet vrijwillig vóór 1 januari 2020 aan de bepalingen van het WVV wil onderwerpen, moet zij niettemin ten laatste op 1 januari 2024 haar statuten in overeenstemming brengen met de bepalingen van het WVV. 
 

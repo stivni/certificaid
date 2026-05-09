@@ -35,7 +35,7 @@ gerelateerde_adviezen:
   - titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
     url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
     datum: '2016-09-07'
-  - titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van  artikel 107, 4° KB W.Venn.'
+  - titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107, 4° KB W.Venn.'
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
     datum: '2011-02-25'
 ---
@@ -109,15 +109,15 @@ Bij uitoefening[^4] van een recht ontstaat er geen resultaat dat als zodanig mag
 
 De hierboven beschreven beginselen kunnen als volgt worden geïllustreerd:
 
-| Boekwaarde van het oude effect | |   | | XX EUR | 
-| Verkoopprijs van het recht | |   | | 7,50 EUR | 
-| Waarde van het recht bij uitoefening | |   | | 7,50 EUR | 
-| Beurskoers van het effect ex-recht | |   | | 95 EUR | 
+| Boekwaarde van het oude effect | | | | XX EUR | 
+| Verkoopprijs van het recht | | | | 7,50 EUR | 
+| Waarde van het recht bij uitoefening | | | | 7,50 EUR | 
+| Beurskoers van het effect ex-recht | | | | 95 EUR | 
 
 Naar gelang de boekwaarde van het oude effect 30, 40 of 110 EUR bedraagt[^5], gebeurt de verrekening als volgt:
 
 | **Boekwaarde van het oud effect** | | **Bedrag** | 
-|  
+| 
 
 - waarmee de boekwaarde van het oud effect moet worden verminderd
 
@@ -132,9 +132,9 @@ In het geval dat de onderneming zelf geen gebruik maakt van het inschrijvingsrec
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 550 | Kredietinstellingen: rekening courant | 7,5 |  |
-| aan | 280 | Deelnemingen in verbonden ondernemingen: aanschaffingswaarde |  | 2,20 |
-|  | 763 | Meerwaarden op de realisatie van vaste activa | 5,30 |  |
+| | 550 | Kredietinstellingen: rekening courant | 7,5 | |
+| aan | 280 | Deelnemingen in verbonden ondernemingen: aanschaffingswaarde | | 2,20 |
+| | 763 | Meerwaarden op de realisatie van vaste activa | 5,30 | |
 
 Wanneer het aandeel waarmee het inschrijvingsrecht verbonden is of het inschrijvingsrecht zelf niet is genoteerd of niet geregeld op een markt wordt verhandeld - in het bijzonder bij besloten vennootschappen - dan kan voor de bepaling van de waarde in kapitaal die van het oude effect wordt overgedragen op het inschrijvingsrecht niet worden aangeleund bij externe marktgegevens. In dat geval moet de onderneming hiervoor op beredeneerde wijze een andere waardering toepassen.
 

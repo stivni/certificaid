@@ -45,110 +45,110 @@ gerelateerde_adviezen:
 # CBN-advies 139/8 - Uitgifte van obligaties met inschrijvingsrechten die in aandelen converteerbaar of terugbetaalbaar zijn, en van aandelen waaraan het recht is gekoppeld om in te schrijven op later uit te geven aandelen
 
 In haar advies 139/7[^1]
- heeft de Commissie onderzocht hoe warrants (inschrijvingsrechten) door hun emittent moeten worden geboekt[^2]
- als ze kosteloos worden uitgegeven dan wel, onder bezwarende titel, tegen betaling van een prijs. In laatstgenoemd geval bepaalde zij dat de uitgifteprijs in de eigen vermogenspost "Uitgiftepremies" moet worden geboekt. 
+ heeft de Commissie onderzocht hoe warrants (inschrijvingsrechten) door hun emittent moeten worden geboekt[^2]
+ als ze kosteloos worden uitgegeven dan wel, onder bezwarende titel, tegen betaling van een prijs. In laatstgenoemd geval bepaalde zij dat de uitgifteprijs in de eigen vermogenspost "Uitgiftepremies" moet worden geboekt. 
 
-De Commissie heeft beslist een bijkomend onderzoek te wijden aan, enerzijds, de uitgifte van warrants gekoppeld aan de uitgifte van een obligatielening of een aanbod tot inschrijving op nieuwe aandelen, en, anderzijds, de uitgifte van in aandelen converteerbare obligaties. Alle voornoemde gevallen alsook de in aandelen terugbetaalbare obligaties komen in dit advies aan bod. 
+De Commissie heeft beslist een bijkomend onderzoek te wijden aan, enerzijds, de uitgifte van warrants gekoppeld aan de uitgifte van een obligatielening of een aanbod tot inschrijving op nieuwe aandelen, en, anderzijds, de uitgifte van in aandelen converteerbare obligaties. Alle voornoemde gevallen alsook de in aandelen terugbetaalbare obligaties komen in dit advies aan bod. 
 
 #### Uitgifte van obligaties met het recht tot inschrijving op aandelen
 
 Het feit dat, bij een uitgifte van obligaties, een inschrijvingsrecht wordt gekoppeld aan aandelen, weerspiegelt over het algemeen de bezorgdheid om de aan de obligaties te koppelen rente te beperken. Over het algemeen zal aan die obligaties immers een lagere rente kunnen worden gekoppeld dan de op de uitgiftedatum geldende marktrente voor niet-converteerbare leningsbewijzen of leningsbewijzen zonder inschrijvingsrecht met soortgelijke kenmerken. De inschrijvers zijn doorgaans immers bereid een lagere rente te aanvaarden in ruil voor de mogelijkheid om later op de aandelen van de vennootschap te kunnen inschrijven tegen een lagere prijs dan de koers van de betrokken aandelen (op de datum waarop het inschrijvingsrecht wordt uitgeoefend) en zo een speculatieve winst te realiseren op de koersstijging van het aandeel, zonder echter het risico op verlies te lopen bij een koersdaling.
 
-Het voordeel voor de uitgevende vennootschap is dus dat zij zich goedkoper kan financieren (lagere rente dan de marktrente voor gewone obligaties), wat, onder overigens gelijke omstandigheden, zal blijken uit een verbeterd resultaat dat tijdens de hele looptijd van de lening ten goede zal komen aan haar aandeelhouders. 
+Het voordeel voor de uitgevende vennootschap is dus dat zij zich goedkoper kan financieren (lagere rente dan de marktrente voor gewone obligaties), wat, onder overigens gelijke omstandigheden, zal blijken uit een verbeterd resultaat dat tijdens de hele looptijd van de lening ten goede zal komen aan haar aandeelhouders. 
 
-Als het inschrijvingsrecht betrekking heeft op de aandelen van de vennootschap die de lening uitschrijft, staat -als de houders hun inschrijvingsrecht uitoefenen, wat ze normaliter zullen doen als, op de datum waarop het inschrijvingsrecht wordt uitgeoefend, de koers van het aandeel boven de uitoefenprijs ligt - tegenover het voordeel voor de vennootschap echter een relatieve verarming van de overige aandeelhouders. Zij zien immers nieuwe aandeelhouders tegen een gunstige prijs tot de vennootschap toetreden en moeten in de toekomst met hen de winst en de batige vereffeningssaldo's delen. Daarom kent het vennootschapsrecht, bij de uitgifte van inschrijvingsrechten, een voorkeurrecht toe aan de bestaande aandeelhouders van de vennootschap[^3]
- die, reeds voor de uitgifte van de betrokken inschrijvingsrechten, tot het kapitaal van de vennootschap waren toegetreden. 
+Als het inschrijvingsrecht betrekking heeft op de aandelen van de vennootschap die de lening uitschrijft, staat -als de houders hun inschrijvingsrecht uitoefenen, wat ze normaliter zullen doen als, op de datum waarop het inschrijvingsrecht wordt uitgeoefend, de koers van het aandeel boven de uitoefenprijs ligt - tegenover het voordeel voor de vennootschap echter een relatieve verarming van de overige aandeelhouders. Zij zien immers nieuwe aandeelhouders tegen een gunstige prijs tot de vennootschap toetreden en moeten in de toekomst met hen de winst en de batige vereffeningssaldo's delen. Daarom kent het vennootschapsrecht, bij de uitgifte van inschrijvingsrechten, een voorkeurrecht toe aan de bestaande aandeelhouders van de vennootschap[^3]
+ die, reeds voor de uitgifte van de betrokken inschrijvingsrechten, tot het kapitaal van de vennootschap waren toegetreden. 
 
 Als het inschrijvingsrecht betrekking heeft op aandelen die door een andere vennootschap (de moeder) worden uitgegeven, is er sprake van een relatieve verarming van de aandeelhouders van die vennootschap.
 
 Wat de boekhoudkundige verwerking betreft, zijn - uitgaande van voornoemde analyse - twee benaderingen mogelijk.
 
-- De eerste benadering gaat ervan uit dat, voor de vennootschap zelf, de koppeling van een warrant aan de uitgegeven obligaties uitsluitend resulteert in een daling van de kostprijs van de financiering en dat het financiële voordeel voor de vennootschap tot uiting komt in haar resultatenrekening. Het nadeel voor de aandeelhouders heeft daarentegen geen invloed op het vermogen of op de resultaten van de onderneming. Het beïnvloedt enkel de latere uitkering van de winst en de batige vereffeningssaldo's aan de aandeelhouders. Het betrokken nadeel komt dan ook niet tot uiting in haar jaarrekening.   
+- De eerste benadering gaat ervan uit dat, voor de vennootschap zelf, de koppeling van een warrant aan de uitgegeven obligaties uitsluitend resulteert in een daling van de kostprijs van de financiering en dat het financiële voordeel voor de vennootschap tot uiting komt in haar resultatenrekening. Het nadeel voor de aandeelhouders heeft daarentegen geen invloed op het vermogen of op de resultaten van de onderneming. Het beïnvloedt enkel de latere uitkering van de winst en de batige vereffeningssaldo's aan de aandeelhouders. Het betrokken nadeel komt dan ook niet tot uiting in haar jaarrekening. 
 
-	Bijgevolg moet het aan een obligatielening verbonden inschrijvingsrecht wel worden vermeld in de toelichting bij de jaarrekening met een opgave van de eraan verbonden rechten, maar moet het niet worden geboekt of gewaardeerd in de balans.  
+	Bijgevolg moet het aan een obligatielening verbonden inschrijvingsrecht wel worden vermeld in de toelichting bij de jaarrekening met een opgave van de eraan verbonden rechten, maar moet het niet worden geboekt of gewaardeerd in de balans. 
 
-- Een tweede benadering vloeit rechtstreeks voort uit het voornoemde standpunt inzake de uitgifte van warrants, onder bezwarende titel, tegen betaling van een prijs. Zoals reeds vermeld, moet, volgens de Commissie, in dat geval de verkregen prijs worden geboekt in de eigen vermogenspost «Uitgiftepremies».   
+- Een tweede benadering vloeit rechtstreeks voort uit het voornoemde standpunt inzake de uitgifte van warrants, onder bezwarende titel, tegen betaling van een prijs. Zoals reeds vermeld, moet, volgens de Commissie, in dat geval de verkregen prijs worden geboekt in de eigen vermogenspost «Uitgiftepremies». 
 
 	Deze benadering gaat ervan uit dat er geen principieel verschil bestaat en dat bijgevolg ook geen onderscheid moet worden gemaakt naargelang het inschrijvingsrecht door de houder is verworven tegen betaling van een prijs of omwille van de lagere rente gekoppeld aan de obligaties waarop hij inschrijft, en het aan de aandeelhouders is toegekend in combinatie met een onmiddellijk voordeel (storting van een uitgiftepremie) of een gespreid voordeel in de vorm van een winststijging van de vennootschap ten belope van de daling van haar financiële kosten. 
 
 Volgens deze - door het IASC[^4]
- gehuldigde - benadering moet de uitgifteprijs van de obligatielening, bij de uitgifte, op het passief van de balans worden uitgesplitst in : 
+ gehuldigde - benadering moet de uitgifteprijs van de obligatielening, bij de uitgifte, op het passief van de balans worden uitgesplitst in : 
 
-- enerzijds, het deel dat de geactualiseerde waarde, op het ogenblik van de uitgifte, vertegenwoordigt van het renteverschil tussen de effectieve rente van de lening en de marktrente van een niet-converteerbare lening of een lening zonder inschrijvingsrecht met dezelfde kenmerken, en;  
-- anderzijds, de op het ogenblik van de uitgifte tegen marktrente geactualiseerde waarde van het bedrag van de lening dat terugbetaalbaar is bij het verstrijken ervan.  
+- enerzijds, het deel dat de geactualiseerde waarde, op het ogenblik van de uitgifte, vertegenwoordigt van het renteverschil tussen de effectieve rente van de lening en de marktrente van een niet-converteerbare lening of een lening zonder inschrijvingsrecht met dezelfde kenmerken, en; 
+- anderzijds, de op het ogenblik van de uitgifte tegen marktrente geactualiseerde waarde van het bedrag van de lening dat terugbetaalbaar is bij het verstrijken ervan. 
 
-Later wordt niet alleen de interest tegen nominale rente in de resultatenrekening geboekt, maar ook de gespreide wedersamenstelling van de lening ten belope van het over de volledige looptijd terug te betalen bedrag. 
+Later wordt niet alleen de interest tegen nominale rente in de resultatenrekening geboekt, maar ook de gespreide wedersamenstelling van de lening ten belope van het over de volledige looptijd terug te betalen bedrag. 
 
 Voorbeeld :
 
-Er wordt een obligatielening ten belope van 1 000 000 uitgegeven met een looptijd van 5 jaar en een rente van 4 %. Voor een gewone lening met dezelfde kenmerken bedraagt de marktrente op dat ogenblik 6 %. De lening wordt uitgegeven en is terugbetaalbaar a pari. 
+Er wordt een obligatielening ten belope van 1 000 000 uitgegeven met een looptijd van 5 jaar en een rente van 4 %. Voor een gewone lening met dezelfde kenmerken bedraagt de marktrente op dat ogenblik 6 %. De lening wordt uitgegeven en is terugbetaalbaar a pari. 
 
-- Conform de (hierboven toegelichte) tweede benadering moet eerst de geactualiseerde waarde worden bepaald -tegen marktrente, op het ogenblik van de uitgifte - van de hoofdsom van de lening die terugbetaalbaar is op vervaldatum.   
+- Conform de (hierboven toegelichte) tweede benadering moet eerst de geactualiseerde waarde worden bepaald -tegen marktrente, op het ogenblik van de uitgifte - van de hoofdsom van de lening die terugbetaalbaar is op vervaldatum. 
 
-	Met andere woorden :  
+	Met andere woorden : 
 
-1.000.000 = 747.258  
+1.000.000 = 747.258 
 
-   (1,06)5
+   (1,06)5
 
-- Het deel dat, op het ogenblik van de uitgifte, de geactualiseerde waarde vertegenwoordigt van het renteverschil tussen de effectieve rente van de lening en de marktrente, kan op diverse manieren opnieuw worden samengesteld, waarbij steeds wordt uitgegaan van de actualisering van de «rente»-component van de lening tegen marktrente :  
+- Het deel dat, op het ogenblik van de uitgifte, de geactualiseerde waarde vertegenwoordigt van het renteverschil tussen de effectieve rente van de lening en de marktrente, kan op diverse manieren opnieuw worden samengesteld, waarbij steeds wordt uitgegaan van de actualisering van de «rente»-component van de lening tegen marktrente : 
 
-40.000 + 40.000 + 40.000 + 40.000 + 40.000 = 168.494  
+40.000 + 40.000 + 40.000 + 40.000 + 40.000 = 168.494 
 
-(1,06)      (1,06)2    (1,06)3    (1,06)4     (1,06)5 
+(1,06) (1,06)2 (1,06)3 (1,06)4 (1,06)5 
 
-•  Als dit bedrag wordt vergeleken met de geactualiseerde waarde van de effectieve rente van de lening, namelijk : 
+• Als dit bedrag wordt vergeleken met de geactualiseerde waarde van de effectieve rente van de lening, namelijk : 
 
-60.000 + 60.000 + 60.000 + 60.000 + 60.000 = 252.742  
+60.000 + 60.000 + 60.000 + 60.000 + 60.000 = 252.742 
 
- (1,06)     (1,06)2    (1,06)3    (1,06)4    (1,06)5 
+ (1,06) (1,06)2 (1,06)3 (1,06)4 (1,06)5 
 
-bedraagt het verschil tussen beide bedragen 84.248 (252.742 - 168.494) en stemt het (in geactualiseerde vorm) overeen met het renteverschil. 
+bedraagt het verschil tussen beide bedragen 84.248 (252.742 - 168.494) en stemt het (in geactualiseerde vorm) overeen met het renteverschil. 
 
-• Dat bedrag kan ook worden verkregen : 
+• Dat bedrag kan ook worden verkregen : 
 
-1. door de geactualiseerde waarde, tegen marktrente, van de «hoofdsom»- en de «rente»-component van de lening bij elkaar op te tellen : 747 258 + 168 494 = 915 752;  
-2. en dat bedrag af te trekken van de nominale waarde van de lening : 1.000.000 - 915.752 = 84.248  
+1. door de geactualiseerde waarde, tegen marktrente, van de «hoofdsom»- en de «rente»-component van de lening bij elkaar op te tellen : 747 258 + 168 494 = 915 752; 
+2. en dat bedrag af te trekken van de nominale waarde van de lening : 1.000.000 - 915.752 = 84.248 
 
-• De geactualiseerde waarde - tegen marktrente, op het ogenblik van de uitgifte - bedraagt dus 915 752 en moet, naar gelang van het geval, worden geboekt in post 1710 van het genormaliseerd rekeningenstelsel «Converteerbare [obligatie]lening» of 1711 «Niet-converteerbare [obligatie]lening». Het saldo van het bedrag waarop de schuldeisers-obligatiehouders hebben ingeschreven, namelijk 84 248, wordt op zijn beurt geboekt in post 11 «Uitgiftepremie». 
+• De geactualiseerde waarde - tegen marktrente, op het ogenblik van de uitgifte - bedraagt dus 915 752 en moet, naar gelang van het geval, worden geboekt in post 1710 van het genormaliseerd rekeningenstelsel «Converteerbare [obligatie]lening» of 1711 «Niet-converteerbare [obligatie]lening». Het saldo van het bedrag waarop de schuldeisers-obligatiehouders hebben ingeschreven, namelijk 84 248, wordt op zijn beurt geboekt in post 11 «Uitgiftepremie». 
 
-• De tabel over het actuarieel rendement ziet er als volgt uit : 
+• De tabel over het actuarieel rendement ziet er als volgt uit : 
 
 | **Jaar** | | **Hoofdsom** | | **Coupon (rentelast van 4%)** | | **Afschrijving van het renteverschil** | | **Totale rentlast** | 
 | **Jaar x+1** | | 915.752 | | 40.000 | | 14.945 | | 54.945 | 
-| **Jaar x+2** | | 930.697 | | 40.000     | | 15.842 | | 55.842 | 
-| **Jaar x+3** | | 946.539 | | 40.000     | | 16.792 | | 56.792 | 
-| **Jaar x+4** | | 963.331 | | 40.000     | | 17.800 | | 57.800 | 
-| **Jaar x+5** | | 981.131 | | 40.000     | | 18.869 | | 58.869 | 
-|   | | **1.000.000** | |   | | **84.248** | |   | 
-|   | | M.a.w. de wedersamenstelling van het na 5 jaar aan de schuldeisers-obligatiehouders terug te betalen kapitaal | |   | | M.a.w. het bedrag van het renteverschil | |   | 
+| **Jaar x+2** | | 930.697 | | 40.000 | | 15.842 | | 55.842 | 
+| **Jaar x+3** | | 946.539 | | 40.000 | | 16.792 | | 56.792 | 
+| **Jaar x+4** | | 963.331 | | 40.000 | | 17.800 | | 57.800 | 
+| **Jaar x+5** | | 981.131 | | 40.000 | | 18.869 | | 58.869 | 
+| | | **1.000.000** | | | | **84.248** | | | 
+| | | M.a.w. de wedersamenstelling van het na 5 jaar aan de schuldeisers-obligatiehouders terug te betalen kapitaal | | | | M.a.w. het bedrag van het renteverschil | | | 
 
-• Tot slot kan het boekingsschema met betrekking tot de uitgifte van die obligatielening met inschrijvingsrechten als volgt worden samengevat :  
+• Tot slot kan het boekingsschema met betrekking tot de uitgifte van die obligatielening met inschrijvingsrechten als volgt worden samengevat : 
 
 a) Bij de uitgifte van de lening :
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 416... | Schuldeisers-obligatiehouders | 1.000.000 |  |
-| aan | 11 | Uitgiftepremie |  | 84.248 |
-|  | 1711 | [Niet-converteerbare] obligatielening | 915.752 |  |
+| | 416... | Schuldeisers-obligatiehouders | 1.000.000 | |
+| aan | 11 | Uitgiftepremie | | 84.248 |
+| | 1711 | [Niet-converteerbare] obligatielening | 915.752 | |
 
 b) Boekingen die elk jaar moeten worden verricht :
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente (...) verbonden aan schulden | 40.000 |  |
-| aan | 55 | Kredietinstellingen |  | 40.000 |
-|  | 6500 | Rente (...) verbonden aan schulden | 14.945 |  |
-|  | (gelopen pro rata) |  |  |  |
-| aan | 1711 | [Niet-converteerbare] obligatielening |  | 14.945 |
+| | 6500 | Rente (...) verbonden aan schulden | 40.000 | |
+| aan | 55 | Kredietinstellingen | | 40.000 |
+| | 6500 | Rente (...) verbonden aan schulden | 14.945 | |
+| | (gelopen pro rata) | | | |
+| aan | 1711 | [Niet-converteerbare] obligatielening | | 14.945 |
 
 c) Bij de terugbetaling van de lening
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 1711 | [Niet-converteerbare] obligatielening | 1.000.000 |  |
-| aan | 480 | Vervallen obligaties en coupons |  | 1.000.000 |
+| | 1711 | [Niet-converteerbare] obligatielening | 1.000.000 | |
+| aan | 480 | Vervallen obligaties en coupons | | 1.000.000 |
 
 Er moet worden onderstreept dat de voornoemde 84.248 verder in post 11 «Uitgiftepremie» van het genormaliseerd rekeningenstelsel geboekt zullen worden, ongeacht of de schuldeisers- obligatiehouders -op de terugbetalingsdatum van de lening - hun recht uitoefenen om op nieuwe aandelen in te schrijven. Dat bedrag stemt immers overeen met het renteverschil dat voor de uitgevende vennootschap voortvloeit uit de financiering tegen een lager lastenpercentage dan de op de uitgiftedatum van de lening geldende marktrente voor leningsbewijzen met soortgelijke kenmerken maar waaraan geen inschrijvingsrecht is gekoppeld.
 
@@ -156,11 +156,11 @@ Onverminderd de fiscale verwerking die voortvloeit uit de door de betrokken onde
 
 #### In aandelen converteerbare obligaties
 
-#####  Aandelen die uitsluitend op de vervaldatum van de lening kunnen worden geconverteerd
+##### Aandelen die uitsluitend op de vervaldatum van de lening kunnen worden geconverteerd
 
-Dezelfde redenering en dezelfde conclusies zijn - mutatis mutandis - van toepassing op de uitgiften van in aandelen converteerbare leningen. Zoals bij de uitgifte van leningen met inschrijvingsrechten blijft het in de post *Uitgiftepremie *geboekte bedrag in die post behouden ongeacht of de obligatie, op terugbetalingsdatum, in aandelen wordt geconverteerd. Die stijging van het eigen vermogen is eigenlijk de "kristallisatie" van de winst die de uitgevende vennootschap boekt door zich te financieren tegen een lager lastenpercentage dan de marktrente voor soortgelijke, niet-converteerbare instrumenten.
+Dezelfde redenering en dezelfde conclusies zijn - mutatis mutandis - van toepassing op de uitgiften van in aandelen converteerbare leningen. Zoals bij de uitgifte van leningen met inschrijvingsrechten blijft het in de post *Uitgiftepremie *geboekte bedrag in die post behouden ongeacht of de obligatie, op terugbetalingsdatum, in aandelen wordt geconverteerd. Die stijging van het eigen vermogen is eigenlijk de "kristallisatie" van de winst die de uitgevende vennootschap boekt door zich te financieren tegen een lager lastenpercentage dan de marktrente voor soortgelijke, niet-converteerbare instrumenten.
 
-##### Obligaties die, naar keuze van de houder, op om het even welk ogenblik tussen de uitgifte en de vervaldatum van de lening kunnen worden geconverteerd 
+##### Obligaties die, naar keuze van de houder, op om het even welk ogenblik tussen de uitgifte en de vervaldatum van de lening kunnen worden geconverteerd 
 
 De in het vorige punt van dit advies ontwikkelde redenering kan niet mutatis mutandis worden toegepast op het (op dit moment weinig frequente) geval van obligaties die, naar keuze van de houder, op om het even welk ogenblik tussen de uitgifte- en de vervaldatum van de lening kunnen worden geconverteerd[^5].
 
@@ -175,16 +175,16 @@ Bijgevolg moet het bedrag van de uitgifteprijs van een dergelijk effect worden g
 De in aandelen terugbetaalbare obligaties zijn effecten die verplicht en uitsluitend in aandelen worden terugbetaald conform de in de uitgiftevoorwaarden vastgelegde verhouding. Ze verschillen in die zin van converteerbare obligaties dat hun houders, wanneer zij beslissen om geen gebruik te maken van hun recht op conversie, hun obligaties op vervaldatum niet in contanten kunnen doen terugbetalen.
 
 Over hun juridische kwalificatie bestaat - binnen de Franse doctrine toch - een zekere controverse. Bepaalde auteurs[^7]
- zijn immers van oordeel dat er hier geen sprake is van een obligatielening, hoewel het zo lijkt, omdat de obligaties noodzakelijkerwijs in aandelen worden terugbetaald, en dat de houder van dergelijke obligaties geen aanspraak maakt op een som geld, maar op aandelen. De door de obligatiehouders voorgeschoten middelen worden dus ook niet verstrekt in het kader van een lening, maar als een inschrijving op een uitgestelde kapitaalverhoging. Conform die benadering gaat het hier om een formule waarbij de in aandelen terugbetaalbare obligaties effecten zouden zijn die een vervroegde volstorting van nog uit te geven aandelen vertegenwoordigen, ofwel effecten die toekomstige aandelen vertegenwoordigen die, voor hun uitgifte, vervroegd worden volgestort. 
+ zijn immers van oordeel dat er hier geen sprake is van een obligatielening, hoewel het zo lijkt, omdat de obligaties noodzakelijkerwijs in aandelen worden terugbetaald, en dat de houder van dergelijke obligaties geen aanspraak maakt op een som geld, maar op aandelen. De door de obligatiehouders voorgeschoten middelen worden dus ook niet verstrekt in het kader van een lening, maar als een inschrijving op een uitgestelde kapitaalverhoging. Conform die benadering gaat het hier om een formule waarbij de in aandelen terugbetaalbare obligaties effecten zouden zijn die een vervroegde volstorting van nog uit te geven aandelen vertegenwoordigen, ofwel effecten die toekomstige aandelen vertegenwoordigen die, voor hun uitgifte, vervroegd worden volgestort. 
 
 Deze stroming binnen de doctrine wordt echter niet bijgetreden door de rechtspraak, met name de Franse, die de analyse onderschrijft dat de primaire hoedanigheid («titre primaire») van de uitgifte van in aandelen terugbetaalbare obligaties die van een obligatie is. De Franse rechtspraak is immers van oordeel dat een in aandelen terugbetaalbare obligatie - die een complex effect is (met een primaire en een secundaire hoedanigheid («titre primaire et titre secondaire»))[^8]
- - de houder onmiddellijk de hoedanigheid van obligatiehouder verleent en pas op termijn de hoedanigheid van aandeelhouder. Bijgevolg is de obligatiehouder slechts op termijn een aandeelhouder, aangezien de betrokken effecten de belangrijkste kenmerken van obligaties hebben en ze die hoedanigheid behouden tot wanneer ze worden terugbetaald[^9]. De rechtspraak benadrukt met andere woorden eerder het feit dat de terugbetalingswijze (die de aard van het complexe effect weerspiegelt die twee hoedanigheden bezit -een primaire en een secundaire - zonder dat de eerste hoedanigheid verdwijnt omdat aanspraak wordt gemaakt op de tweede) geen enkele invloed heeft op de juridische aard van de eerste hoedanigheid[^10].
+ - de houder onmiddellijk de hoedanigheid van obligatiehouder verleent en pas op termijn de hoedanigheid van aandeelhouder. Bijgevolg is de obligatiehouder slechts op termijn een aandeelhouder, aangezien de betrokken effecten de belangrijkste kenmerken van obligaties hebben en ze die hoedanigheid behouden tot wanneer ze worden terugbetaald[^9]. De rechtspraak benadrukt met andere woorden eerder het feit dat de terugbetalingswijze (die de aard van het complexe effect weerspiegelt die twee hoedanigheden bezit -een primaire en een secundaire - zonder dat de eerste hoedanigheid verdwijnt omdat aanspraak wordt gemaakt op de tweede) geen enkele invloed heeft op de juridische aard van de eerste hoedanigheid[^10].
 
-Bijgevolg is de Commissie van oordeel dat de huidige conclusies van de Franse rechtspraak en doctrine over het feit dat in aandelen terugbetaalbare obligaties, bij uitgifte, de hoedanigheid van een obligatie hebben, niet in twijfel moeten worden getrokken door het Belgische burgerlijk en handelsrecht [^11].
+Bijgevolg is de Commissie van oordeel dat de huidige conclusies van de Franse rechtspraak en doctrine over het feit dat in aandelen terugbetaalbare obligaties, bij uitgifte, de hoedanigheid van een obligatie hebben, niet in twijfel moeten worden getrokken door het Belgische burgerlijk en handelsrecht [^11].
 
 Bijgevolg moeten de in aandelen terugbetaalbare obligaties, op basis van hun aldus gedefinieerde juridische en technische kenmerken, bij uitgifte worden geboekt in de post van de financiële schulden op lange termijn. Dit is trouwens zo gebeurd in de - bij de publicatie van dit advies - zeldzame bekende gevallen van openbare of particuliere uitgiften van dergelijke obligaties.
 
-Rekening houdend met de specifieke kenmerken van dat soort obligaties dat uitsluitend in aandelen kan worden terugbetaald, moet bijgevolg, bij uitgifte, het bedrag van zo'n obligatie worden geboekt in een bijkomende specifieke post die moet worden gecreëerd onder de «Schulden op meer dan één jaar -financiële schulden»[^12].
+Rekening houdend met de specifieke kenmerken van dat soort obligaties dat uitsluitend in aandelen kan worden terugbetaald, moet bijgevolg, bij uitgifte, het bedrag van zo'n obligatie worden geboekt in een bijkomende specifieke post die moet worden gecreëerd onder de «Schulden op meer dan één jaar -financiële schulden»[^12].
 
 Bij de terugbetaling in aandelen wordt het bedrag dat is geboekt aan de creditzijde van de ad hoc rekening van de financiële schulden op lange termijn, vereffend en rechtstreeks geboekt in de betrokken rekeningen van het eigen vermogen. Die rechtstreekse boeking sluit aan bij het[^13] advies 121/4, waarin de Commissie heeft gesteld dat kapitaalverhogingen of verhogingen van de uitgiftepremie via inbreng door de vennoten of via omzetting van schuldvorderingen worden tegengeboekt in een balanspost, zonder te worden opgenomen in de resultatenrekening of de resultaatverwerking.
 
@@ -194,9 +194,9 @@ Het gebeurt ook dat, op het ogenblik waarop nieuwe aandelen worden uitgegeven, w
 
 Deze techniek heeft tot gevolg dat een bijkomend speculatief voordeel wordt gekoppeld aan de inschrijving op de uitgegeven aandelen, wat de plaatsing bevordert of een verhoging van de uitgifteprijs mogelijk maakt.
 
-Hieruit vloeit voor de onderneming geen enkel rechtstreeks voordeel voort dat tot uiting komt in de resultatenrekening. Bovendien ontbreekt hier, naast de beursnotering als de warrant is genoteerd, een objectief criterium om de waarde van de warrant te bepalen. Tot slot zou de boeking van de waarde van de warrant als uitgiftepremie enkel resulteren in een daling van het als uitgiftepremie geboekte bedrag voor de uitgegeven aandelen. Dergelijke boeking van de warrant is dus niet verantwoord.   
+Hieruit vloeit voor de onderneming geen enkel rechtstreeks voordeel voort dat tot uiting komt in de resultatenrekening. Bovendien ontbreekt hier, naast de beursnotering als de warrant is genoteerd, een objectief criterium om de waarde van de warrant te bepalen. Tot slot zou de boeking van de waarde van de warrant als uitgiftepremie enkel resulteren in een daling van het als uitgiftepremie geboekte bedrag voor de uitgegeven aandelen. Dergelijke boeking van de warrant is dus niet verantwoord. 
 
-Bijgevolg is de Commissie van oordeel dat de uitgegeven warrants wel in de toelichting moeten worden vermeld met opgave van de eraan verbonden rechten, maar dat zij niet moeten worden opgenomen of gewaardeerd in de balans.   
+Bijgevolg is de Commissie van oordeel dat de uitgegeven warrants wel in de toelichting moeten worden vermeld met opgave van de eraan verbonden rechten, maar dat zij niet moeten worden opgenomen of gewaardeerd in de balans. 
 
 [^1]: Gepubliceerd in Bull. CBN nr. 34, maart 1995.
 

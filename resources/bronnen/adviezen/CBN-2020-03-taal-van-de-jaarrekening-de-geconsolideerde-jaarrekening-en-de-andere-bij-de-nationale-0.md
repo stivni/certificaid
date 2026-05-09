@@ -44,10 +44,10 @@ gerelateerde_adviezen:
 ## Inleiding
 
 Onderhavig advies behandelt het taalgebruik van de door vennootschappen bij de Nationale Bank van België (hierna: NBB) neer te leggen jaarrekening[^2]
- alsook van de andere documenten die tegelijk met de jaarrekening[^3]
- moeten worden neergelegd krachtens het Wetboek van vennootschappen en verenigingen (hierna: WVV). Vennootschappen zijn, conform de toepasselijke taalregelgeving[^4], gehouden om hun jaarrekening (alsook de andere tegelijk hiermee neer te leggen documenten) neer te leggen in de taal of in één van de officiële talen van het taalgebied waar de zetel van de rechtspersoon is gevestigd[^5].
+ alsook van de andere documenten die tegelijk met de jaarrekening[^3]
+ moeten worden neergelegd krachtens het Wetboek van vennootschappen en verenigingen (hierna: WVV). Vennootschappen zijn, conform de toepasselijke taalregelgeving[^4], gehouden om hun jaarrekening (alsook de andere tegelijk hiermee neer te leggen documenten) neer te leggen in de taal of in één van de officiële talen van het taalgebied waar de zetel van de rechtspersoon is gevestigd[^5].
 
-Artikel 3:67, § 3 van het uitvoeringsbesluit bij het Wetboek van vennootschappen en verenigingen bepaalt bovendien dat de jaarrekening of de geconsolideerde jaarrekening en de andere stukken die het voorwerp van een neerlegging vormen, in éénzelfde taal moeten worden opgemaakt. Zo kan voor een vennootschap gevestigd in het tweetalig gebied Brussel-Hoofdstad een jaarverslag opgesteld in het Frans niet samen met een jaarrekening opgesteld in het Nederlands worden neergelegd bij de NBB. 
+Artikel 3:67, § 3 van het uitvoeringsbesluit bij het Wetboek van vennootschappen en verenigingen bepaalt bovendien dat de jaarrekening of de geconsolideerde jaarrekening en de andere stukken die het voorwerp van een neerlegging vormen, in éénzelfde taal moeten worden opgemaakt. Zo kan voor een vennootschap gevestigd in het tweetalig gebied Brussel-Hoofdstad een jaarverslag opgesteld in het Frans niet samen met een jaarrekening opgesteld in het Nederlands worden neergelegd bij de NBB. 
 
 ## Mogelijkheid tot bijkomende neerlegging
 

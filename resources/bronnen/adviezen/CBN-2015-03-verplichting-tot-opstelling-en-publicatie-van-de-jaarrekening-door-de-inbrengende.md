@@ -38,12 +38,12 @@ gerelateerde_adviezen:
 
 # COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN
 
-1.  Periode tot de datum van boekhoudkundige retroactiviteit
+1. Periode tot de datum van boekhoudkundige retroactiviteit
 
-2.  Periode na de datum van boekhoudkundige retroactiviteit  
-3.  Openbaarmakingsformaliteiten  
+2. Periode na de datum van boekhoudkundige retroactiviteit 
+3. Openbaarmakingsformaliteiten 
 
-Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten  
+Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten 
 
 In het kader van een pseudo-fusie door overneming, werd met betrekking tot grote en zeer grote verenigingen aan de Commissie gevraagd welke verplichtingen inzake de opmaak en publicatie van de jaarrekening gelden voor de inbrengende vereniging die naar aanleiding van de pseudo-fusie ophoudt te bestaan.
 
@@ -58,13 +58,13 @@ In het CBN-advies 2013/1 - De boekhoudkundige verwerking van (pseudo-)fusies van
 In het Wetboek van vennootschappen wordt de “inbreng van een algemeenheid” omschreven als een rechtshandeling waarbij een vennootschap haar gehele vermogen, zowel de activa als de passiva, zonder ontbinding overdraagt aan één of meer bestaande of nieuwe vennootschappen tegen een vergoeding die uitsluitend bestaat in aandelen van de verkrijgende vennootschap of vennootschappen.[^4] 
 
 Bij een pseudo-fusie tussen verenigingen wordt de algemeenheid overgedragen om niet. De inbrengende vereniging ontvangt m.a.w. geen enkele vergoeding.[^5]
- De vereniging die in het kader van de pseudo-fusie haar volledige vermogen heeft overgedragen, heeft bijgevolg geen middelen meer om haar maatschappelijk doel te verwezenlijken; de algemene vergadering[^6]
- van de inbrengende vereniging kan zich uitspreken over de ontbinding van deze vereniging.
+ De vereniging die in het kader van de pseudo-fusie haar volledige vermogen heeft overgedragen, heeft bijgevolg geen middelen meer om haar maatschappelijk doel te verwezenlijken; de algemene vergadering[^6]
+ van de inbrengende vereniging kan zich uitspreken over de ontbinding van deze vereniging.
 
 ## Periode tot de datum van boekhoudkundige retroactiviteit[^7] 
 
 Ook al bestaat hiertoe geen wettelijke verplichting, omwille van het belang van continuïteit van informatie beveelt de Commissie aan dat de inbrengende vereniging desgevallend[^8]
- een jaarrekening opstelt en openbaar maakt voor de periode tussen de afsluitingsdatum van het laatste boekjaar waarvan de jaarrekening werd goedgekeurd en de datum vanaf dewelke de verrichtingen boekhoudkundig worden beschouwd als zijnde verricht voor rekening van de verkrijgende vereniging.
+ een jaarrekening opstelt en openbaar maakt voor de periode tussen de afsluitingsdatum van het laatste boekjaar waarvan de jaarrekening werd goedgekeurd en de datum vanaf dewelke de verrichtingen boekhoudkundig worden beschouwd als zijnde verricht voor rekening van de verkrijgende vereniging.
 
 **Voorbeeld 1**
 
@@ -97,7 +97,7 @@ Ook indien de datum van ontbinding en vereffening van de vereniging zou vallen n
 De enige openbaarmakingsformaliteit die wordt voorgeschreven in artikel 26novies van de wet van 27 juni 1921 met betrekking tot de ontbinding van een vereniging heeft betrekking op de neerlegging ter griffie van de rechtbank van koophandel en de bekendmaking bij uittreksel in de bijlagen bij het Belgisch Staatsblad van de beslissing betreffende de ontbinding en vereffening van de vereniging en de benoeming en ambtsbeëindiging van de vereffenaars zoals bedoeld in artikel 23, eerste lid van de wet.
 
 Indien de inbreng van een algemeenheid wordt verricht terwijl de algemene vergadering[^14]
- de jaarrekening van het vorige boekjaar nog niet heeft goedgekeurd, volstaat het dat het bestuursorgaan deze jaarrekening ter goedkeuring voorlegt aan de algemene vergadering[^15] die beslist tot de ontbinding, dat er wordt gestemd over de kwijting van de bestuurders en dat de jaarrekening wordt neergelegd bij de Nationale Bank van België of bij de griffie van de rechtbank van Koophandel, waarbij de naam van de vereniging wordt voorafgegaan of gevolgd door de woorden “in vereffening”.[^16] 
+ de jaarrekening van het vorige boekjaar nog niet heeft goedgekeurd, volstaat het dat het bestuursorgaan deze jaarrekening ter goedkeuring voorlegt aan de algemene vergadering[^15] die beslist tot de ontbinding, dat er wordt gestemd over de kwijting van de bestuurders en dat de jaarrekening wordt neergelegd bij de Nationale Bank van België of bij de griffie van de rechtbank van Koophandel, waarbij de naam van de vereniging wordt voorafgegaan of gevolgd door de woorden “in vereffening”.[^16] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 7 mei 2015 ter consultatie werd gepubliceerd op de website van de CBN.
 

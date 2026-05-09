@@ -59,23 +59,23 @@ De Commissie neemt geen standpunt in over de fiscale gevolgen van de beschreven 
 
 Bij de verwerving van de tréfonds kunnen grosso modo de volgende situaties voorkomen.
 
-5.1  De verwerving van de tréfonds vindt plaats tegen een marktconforme vergoeding waarbij:  
+5.1 De verwerving van de tréfonds vindt plaats tegen een marktconforme vergoeding waarbij: 
 
-a. de symbolische erfpachtvergoeding integraal werd vooruitbetaald;  
+a. de symbolische erfpachtvergoeding integraal werd vooruitbetaald; 
 
-b. de symbolische erfpachtvergoeding periodiek wordt betaald;  
+b. de symbolische erfpachtvergoeding periodiek wordt betaald; 
 
-c. een marktconforme erfpachtvergoeding integraal werd vooruitbetaald;  
+c. een marktconforme erfpachtvergoeding integraal werd vooruitbetaald; 
 
 d. een marktconforme erfpachtvergoeding periodiek wordt betaald.
 
-5.2  De verwerving van de tréfonds vindt plaats tegen een symbolische vergoeding waarbij:  
+5.2 De verwerving van de tréfonds vindt plaats tegen een symbolische vergoeding waarbij: 
 
-a. de symbolische erfpachtvergoeding integraal werd vooruitbetaald;  
+a. de symbolische erfpachtvergoeding integraal werd vooruitbetaald; 
 
-b. de symbolische erfpachtvergoeding periodiek wordt betaald;  
+b. de symbolische erfpachtvergoeding periodiek wordt betaald; 
 
-c. een marktconforme erfpachtvergoeding integraal werd vooruitbetaald;  
+c. een marktconforme erfpachtvergoeding integraal werd vooruitbetaald; 
 
 d. een marktconforme erfpachtvergoeding periodiek wordt betaald.
 
@@ -145,10 +145,10 @@ Een vzw heeft destijds een erfpacht op een terrein verworven tegen een symbolisc
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2201 | Terreinen die volle eigendom
- zijn van de vereniging | 100 |  |
-| aan | 5500 | Kredietinstellingen: rekening-courant |  | 5 |
-|  | 1012 | Permanente financiering ontvangen in natura | 95 |  |
+| | 2201 | Terreinen die volle eigendom
+ zijn van de vereniging | 100 | |
+| aan | 5500 | Kredietinstellingen: rekening-courant | | 5 |
+| | 1012 | Permanente financiering ontvangen in natura | 95 | |
 
 De rekening 1012 is een subrekening van de rekening 10 *Fondsen van de vereniging* en wordt als volgt omschreven in artikel 19, § 2 van het KB van 19 december 2003:
 
@@ -164,36 +164,36 @@ Een vzw heeft destijds een erfpachtrecht op een terrein verworven tegen een éé
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2230 | Overige zakelijke rechten op onroerende goederen: Aanschaffingswaarde | 100 |  |
-| aan | 5500 | Kredietinstellingen: rekening-courant |  | 100 |
+| | 2230 | Overige zakelijke rechten op onroerende goederen: Aanschaffingswaarde | 100 | |
+| aan | 5500 | Kredietinstellingen: rekening-courant | | 100 |
 
 **Boeking van de jaarlijkse afschrijving**
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6302 | Afschrijvingen op materiële vaste activa | x |  |
-| aan | 2239 | Overige zakelijke rechten op onroerende goederen: Geb. afschr. |  | x |
+| | 6302 | Afschrijvingen op materiële vaste activa | x | |
+| aan | 2239 | Overige zakelijke rechten op onroerende goederen: Geb. afschr. | | x |
 
 **Boekingen bij de verwerving van de tréfonds**
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 22010 | Terreinen die volle eigendom zijn van de vereniging | 100 |  |
-| aan | 2230 | Overige zakelijke rechten op onroerende goederen |  | 100 |
+| | 22010 | Terreinen die volle eigendom zijn van de vereniging | 100 | |
+| aan | 2230 | Overige zakelijke rechten op onroerende goederen | | 100 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 22010 | Terreinen die volle eigendom zijn van de vereniging | 150 |  |
-| aan | 1012 | Permanente financiering ontvangen in natura |  | 140 |
-|  | 5500 | Kredietinstellingen: rekening-courant | 10 |  |
+| | 22010 | Terreinen die volle eigendom zijn van de vereniging | 150 | |
+| aan | 1012 | Permanente financiering ontvangen in natura | | 140 |
+| | 5500 | Kredietinstellingen: rekening-courant | 10 | |
 
 De Commissie is van mening dat na de hereniging de voorheen geboekte afschrijvingen op het erfpachtrecht moeten worden teruggenomen, hetzij als uitzonderlijke opbrengst[^20], hetzij als herwaarderingsmeerwaarde[^21].
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2239 | Overige zakelijke rechten op onroerende goederen: Geb. afschr. | xxx |  |
-| aan | 7601 | Terugneming van afschrijvingen en waardeverminderingen op materiële vaste activa |  | xxx |
-|  | of | 121 | Herwaarderingsmeerwaarden op materiële vaste activa | xxx |
+| | 2239 | Overige zakelijke rechten op onroerende goederen: Geb. afschr. | xxx | |
+| aan | 7601 | Terugneming van afschrijvingen en waardeverminderingen op materiële vaste activa | | xxx |
+| | of | 121 | Herwaarderingsmeerwaarden op materiële vaste activa | xxx |
 
 Bij de verwerving van de tréfonds dooft het erfpachtrecht uit. Wat betreft de uit te voeren boekingen bij deze uitdoving van het erfpachtrecht wordt verwezen naar de aanbevelingen vermeld in punt 4.3 van het voormelde CBN-advies NFP/2 - Boekhoudkundige verwerking van erfpachtcontracten in not-for-profit organisaties.
 
@@ -207,21 +207,21 @@ Deze vzw heeft gebouwen opgericht voor een aanschaffingswaarde van 200. Deze geb
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 22110 | Gebouwen die volle eigendom zijn van de vereniging | 200 |  |
-| aan | 22120 | Overige gebouwen |  | 200 |
+| | 22110 | Gebouwen die volle eigendom zijn van de vereniging | 200 | |
+| aan | 22120 | Overige gebouwen | | 200 |
 
 [^22]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 22129 | Overige gebouwen: geboekte afschrijvingen | 50 |  |
-| aan | 22119 | Gebouwen die volle eigendom zijn van de vereniging: geboekte afschrijvingen |  | 50 |
+| | 22129 | Overige gebouwen: geboekte afschrijvingen | 50 | |
+| aan | 22119 | Gebouwen die volle eigendom zijn van de vereniging: geboekte afschrijvingen | | 50 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 22010 | Terreinen die volle eigendom zijn van de vereniging | 100 |  |
-| aan | 5500 | Kredietinstellingen: rekening-courant |  | 5 |
-|  | 1012 | Permanente financiering ontvangen in natura | 95 |  |
+| | 22010 | Terreinen die volle eigendom zijn van de vereniging | 100 | |
+| aan | 5500 | Kredietinstellingen: rekening-courant | | 5 |
+| | 1012 | Permanente financiering ontvangen in natura | 95 | |
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 21 april 2017 ter consultatie werd gepubliceerd op de website van de CBN.
 

@@ -50,10 +50,10 @@ Indien de emittent niet de nodige regelingen had getroffen voor de dematerialise
 
 In deze beide gevallen van omzetting van rechtswege (in gedematerialiseerde effecten of in effecten op naam), zijn de effecten dus ingeschreven op naam van de emittent en wordt de uitoefening van de rechten belichaamd in een effect aan toonder opgeschort totdat de rechthebbende van de effecten de inschrijving aanvraagt van de effecten op zijn naam op een effectenrekening (voor gedematerialiseerde effecten) of in het register van effecten op naam.[^3] 
 
-Naast de inschrijving op zijn naam, zal de rechthebbende op dat ogenblik ook aan de emittent de betaling kunnen vragen van interesten of dividenden die betrekking hebben op de periode tijdens dewelke zijn rechten op de effecten werden opgeschort. 
+Naast de inschrijving op zijn naam, zal de rechthebbende op dat ogenblik ook aan de emittent de betaling kunnen vragen van interesten of dividenden die betrekking hebben op de periode tijdens dewelke zijn rechten op de effecten werden opgeschort. 
 
-De wet regelt tot slot een gedwongen verkoopsregeling vanaf 1 januari 2015 van de effecten die op die datum nog ingeschreven zijn op naam van de emittent, met overdracht van de gelden en onverkochte effecten aan de Deposito- en Consignatiekas. Zo kan de rechthebbende van de effecten de gedeponeerde  gelden of de effecten terugkrijgen van deze kas.[^4]
- De emittent kan ook zelf zijn te koop aangeboden effecten kopen.[^5] 
+De wet regelt tot slot een gedwongen verkoopsregeling vanaf 1 januari 2015 van de effecten die op die datum nog ingeschreven zijn op naam van de emittent, met overdracht van de gelden en onverkochte effecten aan de Deposito- en Consignatiekas. Zo kan de rechthebbende van de effecten de gedeponeerde gelden of de effecten terugkrijgen van deze kas.[^4]
+ De emittent kan ook zelf zijn te koop aangeboden effecten kopen.[^5] 
 
 ## Boekhoudkundige verwerking van effecten van rechtswege omgezet op naam van de emittent
 
@@ -74,7 +74,7 @@ De wet van 14 december 2005 verduidelijkt uitdrukkelijk dat deze inschrijving de
 Bovendien, zoals hierboven werd gesteld, wordt de uitoefening van alle rechten die worden belichaamd door deze op naam van de emittent ingeschreven effecten, opgeschort totdat de rechthebbende de inschrijving van de effecten op zijn naam verkrijgt.[^7] 
 
 Ten slotte beschermt de wet van 14 december 2005, zoals gewijzigd door de wet van 21 december 2013,[^8]
- de effecten die van rechtswege zijn ingeschreven op naam van de emittent tegen de schuldeisers van de emittent of tegen derden: “De inbeslagneming, sekwestratie of blokkering van een op naam van de emittent geopende effectenrekening of van een inschrijving op naam van de emittent overeenkomstig dit artikel, is niet toegelaten.”[^9] 
+ de effecten die van rechtswege zijn ingeschreven op naam van de emittent tegen de schuldeisers van de emittent of tegen derden: “De inbeslagneming, sekwestratie of blokkering van een op naam van de emittent geopende effectenrekening of van een inschrijving op naam van de emittent overeenkomstig dit artikel, is niet toegelaten.”[^9] 
 
 Vanaf 1 januari 2015 zal voor de effecten waarvan de rechthebbende zich nog niet heeft bekendgemaakt, de inschrijving op naam van de emittent aflopen ten gevolge van de gedwongen verkoop van de effecten (behalve indien de emittent zelf zijn eigen effecten koopt, zie *supra*) of ten gevolge van de overdracht van de onverkochte effecten aan de Deposito- en Consignatiekas.
 

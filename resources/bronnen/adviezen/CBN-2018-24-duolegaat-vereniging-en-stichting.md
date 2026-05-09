@@ -32,17 +32,17 @@ provenance:
 
 # CBN-advies 2018/24 – Duolegaat – Vereniging en stichting
 
-1.  Algemeen  
-2.  Boekhoudkundige verwerking in hoofde van een kleine
+1. Algemeen 
+2. Boekhoudkundige verwerking in hoofde van een kleine
  vereniging of stichting 
-  1.  Duolegaat in geld  
-  2.  Duolegaat in natura  
+  1. Duolegaat in geld 
+  2. Duolegaat in natura 
 
-3.  Boekhoudkundige verwerking in hoofde van een grote of zeer grote vereniging of stichting 
-  1.  Duolegaat in geld  
-  2.  Duolegaat in natura  
+3. Boekhoudkundige verwerking in hoofde van een grote of zeer grote vereniging of stichting 
+  1. Duolegaat in geld 
+  2. Duolegaat in natura 
 
- vereniging of stichting-- Duolegaat in geld-- Duolegaat in naturaBoekhoudkundige verwerking in hoofde van een grote of zeer grote vereniging of stichting-- Duolegaat in geld-- Duolegaat in natura  
+ vereniging of stichting-- Duolegaat in geld-- Duolegaat in naturaBoekhoudkundige verwerking in hoofde van een grote of zeer grote vereniging of stichting-- Duolegaat in geld-- Duolegaat in natura 
 
 ## Algemeen
 
@@ -66,7 +66,7 @@ De verenigingen en stichtingen die een vereenvoudigde boekhouding voeren zoals b
 De door een kleine vereniging of stichting als *duolegaat *ontvangen sommen worden ingeschreven onder de *Ontvangsten *en maken deel uit van de totaliteit van de *Schenkingen en legaten in het Genormaliseerd minimaal schema van de staat van de ontvangsten en uitgaven*[^4].
 
 De kosten en lasten die een *duolegaat *met zich meebrengt en een uitgave inhouden voor de vereniging of stichting worden ingeschreven onder de *Uitgaven *en maken deel uit van de totaliteit van de *Andere uitgaven in het Genormaliseerd minimaal schema van de staat van de ontvangsten en uitgaven*[^5]. Tot deze kosten en lasten behoren onder meer de successierechten en de andere lasten[^6]
- die de vereniging of stichting betaalt als legataris. Indien deze kosten en lasten geen uitgave met zich meebrengen voor de vereniging of stichting, omdat deze bijvoorbeeld door de notaris werden betaald, vindt geen dergelijke inschrijving plaats. Wanneer in het kader van een *duolegaat *lasten werden opgelegd aan de vereniging of de stichting en deze lasten op inventarisdatum nog niet zijn ingelost, moeten deze lasten worden opgenomen in de inventaris onder de verplichtingen.
+ die de vereniging of stichting betaalt als legataris. Indien deze kosten en lasten geen uitgave met zich meebrengen voor de vereniging of stichting, omdat deze bijvoorbeeld door de notaris werden betaald, vindt geen dergelijke inschrijving plaats. Wanneer in het kader van een *duolegaat *lasten werden opgelegd aan de vereniging of de stichting en deze lasten op inventarisdatum nog niet zijn ingelost, moeten deze lasten worden opgenomen in de inventaris onder de verplichtingen.
 
 ### Duolegaat in natura
 
@@ -81,10 +81,10 @@ Wanneer in het kader van een *duolegaat *lasten werden opgelegd aan de verenigin
 In het KB van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen (hierna: KB van 19 december 2003) wordt uitvoerig verwezen naar de bepalingen van het KB van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen (hierna: KB W.Venn.) voor wat betreft de waarderingscriteria en de inventaris die verenigingen en stichtingen moeten toepassen en dit volgens de specifieke aanpassingen en voorwaarden die door het KB worden bepaald.[^8] 
 
 Een ontvangen legaat moeten worden geboekt respectievelijk onder permanente financiering of op de resultatenrekening naargelang dit legaat ertoe leidt de fondsen van de vereniging of stichting permanent te vergroten dan wel deel uitmaakt van de courante activiteiten van de vereniging of stichting[^9]
- en dit in het jaar waarin het legaat in het vermogen valt van de vereniging of de stichting.
+ en dit in het jaar waarin het legaat in het vermogen valt van de vereniging of de stichting.
 
 Gelet op het compensatieverbod[^10]
- is de vereniging of stichting er strikt genomen toe gehouden om de haar toegekende legaten te boeken voor het verkregen brutobedrag. De lasten die aan de vereniging of stichting worden opgelegd, onder meer de betaling van de successierechten van de andere begiftigden en het overmaken van de legaten aan de bijzondere legatarissen, worden dan geboekt als kost van het jaar waarin het legaat in het vermogen van de vereniging of stichting toekomt.
+ is de vereniging of stichting er strikt genomen toe gehouden om de haar toegekende legaten te boeken voor het verkregen brutobedrag. De lasten die aan de vereniging of stichting worden opgelegd, onder meer de betaling van de successierechten van de andere begiftigden en het overmaken van de legaten aan de bijzondere legatarissen, worden dan geboekt als kost van het jaar waarin het legaat in het vermogen van de vereniging of stichting toekomt.
 
 ### Duolegaat in geld
 
@@ -105,14 +105,14 @@ Boekingen
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen: Rekeningen-courant | 500.000 |  |
-| aan | 1011 | Permanente financiering ontvangen in contanten |  | 366.375 |
-|  | 734 | Legaten zonder terugnemingsrecht | 133.625 |  |
+| | 5500 | Kredietinstellingen: Rekeningen-courant | 500.000 | |
+| aan | 1011 | Permanente financiering ontvangen in contanten | | 366.375 |
+| | 734 | Legaten zonder terugnemingsrecht | 133.625 | |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 644 | Diverse bedrijfskosten | 133.625 |  |
-| aan | 5500 | Kredietinstellingen: Rekeningen-courant |  | 133.625 |
+| | 644 | Diverse bedrijfskosten | 133.625 | |
+| aan | 5500 | Kredietinstellingen: Rekeningen-courant | | 133.625 |
 
 ### Duolegaat in natura
 
@@ -134,14 +134,14 @@ Boekingen
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 22010 | Terreinen die volle eigendom zijn van de vereniging | 500.000 |  |
-| aan | 1012 | Permanente financiering ontvangen in natura |  | 366.375 |
-|  | 734 | Legaten zonder terugnemingsrecht | 133.625 |  |
+| | 22010 | Terreinen die volle eigendom zijn van de vereniging | 500.000 | |
+| aan | 1012 | Permanente financiering ontvangen in natura | | 366.375 |
+| | 734 | Legaten zonder terugnemingsrecht | 133.625 | |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 644 | Diverse bedrijfskosten | 133.625 |  |
-| aan | 5500 | Kredietinstellingen: Rekeningen-courant |  | 133.625 |
+| | 644 | Diverse bedrijfskosten | 133.625 | |
+| aan | 5500 | Kredietinstellingen: Rekeningen-courant | | 133.625 |
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 20 juni 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

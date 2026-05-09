@@ -33,7 +33,7 @@ gerelateerde_adviezen:
   - titel: Consolidatie bij de horizontale groep (consortium)
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
     datum: '2017-03-15'
-  - titel: Definiëring van EBIT / EBITDA  na omzetting van de accountingrichtlijn 2013/34/EU
+  - titel: Definiëring van EBIT / EBITDA na omzetting van de accountingrichtlijn 2013/34/EU
     url: https://www.cbn-cnc.be/nl/adviezen/definiering-van-ebit-ebitda-na-omzetting-van-de-accountingrichtlijn-201334eu
     datum: '2017-05-31'
   - titel: Advies horizontale consolidatie in combinatie met administratiekantoren
@@ -53,33 +53,33 @@ Er is sprake van een horizontale groep, naar Belgisch recht een *consortium*, wa
 
 De wetgever heeft een aantal wettelijke vermoedens ingevoerd waarbij het bestaan van een centrale leiding wordt vermoed aanwezig te zijn. De Commissie wenst te benadrukken dat er ook sprake kan zijn van een centrale leiding zonder dat deze wettelijke vermoedens aanwezig zijn.
 
-Er geldt een *onweerlegbaar* vermoeden dat vennootschappen onder centrale leiding staan wanneer de centrale leiding voortvloeit uit tussen deze vennootschappen gesloten overeenkomsten of uit statutaire bepalingen of wanneer hun bestuursorganen voor het merendeel bestaan uit dezelfde personen. Wanneer een bestuurder of zaakvoerder van een vennootschap een rechtspersoon is, zal deze laatste, gelet op de bepalingen van artikel 61, § 2 W.Venn. een vaste vertegenwoordiger benoemen die belast wordt met de uitvoering van de bestuursopdracht in naam en voor rekening van de rechtspersoon. Deze vaste vertegenwoordiger zal uitsluitend de rechtspersoon vertegenwoordigen zonder dat er sprake is van een indeplaatsstelling.[^6] ,[^7],  
+Er geldt een *onweerlegbaar* vermoeden dat vennootschappen onder centrale leiding staan wanneer de centrale leiding voortvloeit uit tussen deze vennootschappen gesloten overeenkomsten of uit statutaire bepalingen of wanneer hun bestuursorganen voor het merendeel bestaan uit dezelfde personen. Wanneer een bestuurder of zaakvoerder van een vennootschap een rechtspersoon is, zal deze laatste, gelet op de bepalingen van artikel 61, § 2 W.Venn. een vaste vertegenwoordiger benoemen die belast wordt met de uitvoering van de bestuursopdracht in naam en voor rekening van de rechtspersoon. Deze vaste vertegenwoordiger zal uitsluitend de rechtspersoon vertegenwoordigen zonder dat er sprake is van een indeplaatsstelling.[^6] ,[^7], 
 
 Er geldt een *weerlegbaar* vermoeden[^8] dat vennootschappen onder centrale leiding staan wanneer de meerderheid van de aandelen wordt gehouden door dezelfde personen (behoudens wanneer de aandelen worden gehouden door overheden). Dit *weerlegbaar *vermoeden vloeit met andere woorden uitsluitend voort uit het houden van de aandelen, ongeacht wie de stemrechten met betrekking tot deze aandelen bezit. Aangezien echter voor de beoordeling van het vennootschapsrechtelijk controlebegrip de klemtoon wordt gelegd op controle via zeggenschap en niet via het eigendomsrecht[^9], spreekt het voor zich dat voor de beoordeling van de controlebevoegdheid, het bezit van de stemrechten meer van belang is dan het houden van de aandelen zelf. Vandaar dat voormeld vermoeden van controle een weerlegbaar vermoeden is.
 
 Voorbeeld
 
-Natuurlijke persoon A is gehuwd met natuurlijke persoon B volgens het wettelijke stelsel (scheiding van goederen met gemeenschap van aanwinsten).  
+Natuurlijke persoon A is gehuwd met natuurlijke persoon B volgens het wettelijke stelsel (scheiding van goederen met gemeenschap van aanwinsten). 
 
-*Aandeelhoudersstructuur bvba X*  
+*Aandeelhoudersstructuur bvba X* 
 
-40 procent van de aandelen is eigendom van A alleen;  
+40 procent van de aandelen is eigendom van A alleen; 
 
-35 procent van de aandelen behoort tot het gemeenschappelijk vermogen van A en B;  
+35 procent van de aandelen behoort tot het gemeenschappelijk vermogen van A en B; 
 
 25 procent van de aandelen is eigendom van de natuurlijke persoon C.
 
-*Aandeelhoudersstructuur bvba Y*  
+*Aandeelhoudersstructuur bvba Y* 
 
-100    procent van de aandelen is eigendom van A alleen.
+100 procent van de aandelen is eigendom van A alleen.
 
-**Wettelijk vermoeden van centrale leiding**  
+**Wettelijk vermoeden van centrale leiding** 
 
 Natuurlijke persoon A bezit 75 procent (40 + 35[^10]) van de aandelen van bvba X en 100 procent van de aandelen van bvba Y. Ingevolge de toepassing van artikel 10, § 3 W.Venn. geldt bijgevolg het *weerlegbaar *vermoeden dat de bvba X en de bvba Y onder de centrale leiding staan van A. Aangezien dit vermoeden een *weerlegbaar* vermoeden is, blijft het voor de betrokkenen evenwel mogelijk aan te tonen dat uit de beschreven situatie geen centrale leiding voortvloeit.
 
-**Weerlegging wettelijk vermoeden**  
+**Weerlegging wettelijk vermoeden** 
 
-Behoudens rechtsmisbruik, kan bijvoorbeeld aan de hand van de *inschrijving* van de lidmaatschapsrechten van aandelen die behoren tot het gemeenschappelijk vermogen, op naam van natuurlijke persoon B, het tegenbewijs worden geleverd dat de bvba X en de bvba Y onder de centrale leiding van natuurlijke persoon A staan.  
+Behoudens rechtsmisbruik, kan bijvoorbeeld aan de hand van de *inschrijving* van de lidmaatschapsrechten van aandelen die behoren tot het gemeenschappelijk vermogen, op naam van natuurlijke persoon B, het tegenbewijs worden geleverd dat de bvba X en de bvba Y onder de centrale leiding van natuurlijke persoon A staan. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 7 september 2016 ter consultatie werd gepubliceerd op de website van de CBN.
 

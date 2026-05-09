@@ -32,7 +32,7 @@ gerelateerde_adviezen:
   - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
     datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen:  eigen boekhoudkundige verplichtingen (update)'
+  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
     datum: '2022-11-08'
   - titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
@@ -48,7 +48,7 @@ gerelateerde_adviezen:
 Deze bijdrage behandelt - na de aanpassing van de Belgische wetgeving aan de vereisten van de Vierde EEG-Richtlijn - het adviesbeleid dat de Commissie toepast ten aanzien van individuele afwijkingsverzoeken van ondernemingen die gemotiveerd zijn door ontwrichting of scheeftrekking in de mededingingsvoorwaarden. In de meeste gevallen komt dergelijke vraag om afwijking neer op een verzoek tot vrijstelling van publikatie van het omzetcijfer of op een verzoek tot vrijstelling van uitsplitsing van het omzetcijfer naar geografische markten en categorieën bedrijfsactiviteit[^1]. Vermits kleine en middelgrote ondernemingen - die beantwoorden aan de omvangcriteria opgenomen in artikel 12, § 2 van de boekhoudwet - er niet toe verplicht zijn hun omzetcijfer openbaar te maken, zijn dergelijke verzoeken in hun geval niet dienstig.
 
 Vragen om afwijking gemotiveerd door andere gronden[^2]
- blijven hier buiten beschouwing.
+ blijven hier buiten beschouwing.
 
 Het relatieve belang van deze vragen om afwijking wordt duidelijk wanneer bedacht wordt dat in de loop van 1985 op 34 ingediende vragen om afwijking er 12 betrekking hadden op de omzetpublikatie of de uitsplitsing van het omzetcijfer. Daarvan werden er 9 op gunstig advies van de Commissie door de Minister van Economische Zaken toegestaan. Deze cijfers moeten worden gerelateerd aan de zowat 15 000 grote ondernemingen die, gemeten naar de vroegere omvangcriteria bedoeld in artikel 12, § 2 van de boekhoudwet (40-80-50), als «groot» moesten worden aangemerkt.
 
@@ -57,14 +57,14 @@ De rechtsgrond voor het verlenen van individuele afwijkingen is artikel 15 van d
 Hieruit vloeit voort dat:
 
 1. voor «grote» ondernemingen de Minister van Economische Zaken bevoegd is tot het verlenen van afwijkingen; voor kleine en middelgrote ondernemingen[^3]
- de Minister van Middenstand daartoe bevoegd is; 
+ de Minister van Middenstand daartoe bevoegd is; 
 2. slechts vrijstelling kan worden verleend van de toepassing van de bepalingen opgenomen in de uitvoeringsbesluiten van de wet en niet van bepalingen opgenomen in de wet zelf; 
 3. in alle gevallen het gemotiveerd (niet bindend) advies van de Commissie voor Boekhoudkundige Normen moet worden ingewonnen. Zulks is een substantieel vormvereiste. Dit advies is echter niet bindend voor de Minister. 
 
 #### INVLOED VAN DE VIERDE EEG-RICHTLIJN
 
 Als gevolg van de aanpassing van het boekhoud- en jaarrekeningenrecht aan de Vierde EEG-Richtlijn[^4]
- zijn de mogelijkheden tot het verlenen van individuele afwijkingen ingeperkt geworden. De Minister van Economische Zaken respectievelijk Minister van Middenstand zouden supranationale regels schenden, mochten afwijkingen worden toegestaan die strijdig zijn met de bepalingen van de richtlijn[^5].
+ zijn de mogelijkheden tot het verlenen van individuele afwijkingen ingeperkt geworden. De Minister van Economische Zaken respectievelijk Minister van Middenstand zouden supranationale regels schenden, mochten afwijkingen worden toegestaan die strijdig zijn met de bepalingen van de richtlijn[^5].
 
 De gebruikte uitdrukking «strijdigheid met de vierde richtlijn» vergt evenwel nader onderzoek. Vooreerst is het evident dat de betrokken Ministers hun volle bevoegdheid behouden om vrijstelling te verlenen van de toepassing van normen die geen weergave zijn in het Belgisch recht van een Europeesrechtelijke verplichting. De verplichte naleving in België van een algemeen rekeningenstelsel bijvoorbeeld is géén Europeesrechtelijk vereiste. Het onderzoek van vragen om afwijking daaromtrent wordt dus in geen enkel opzicht beïnvloed door de inwerkingtreding van de vierde E.E.G.-richtlijn.
 
@@ -80,17 +80,17 @@ De richtlijn staat de Lid-Staten toe te bepalen dat deze ondernemingen een resul
 
 De Commissie is derhalve van oordeel dat aan Belgische ondernemingen die de criteria van artikel 27 van de richtlijn niet overschrijden (volgens het systeem van de richtlijn) de individuele toestemming kan worden gegeven, om de jaaromzet niet openbaar te maken. Haar advies terzake zal evenwel slechts gunstig zijn zo een dergelijke vraag om afwijking passend verantwoord is, in het biezonder door motieven die verband houden met concrete aspecten van internationale mededinging, en voor zover het aangevoerde nadeel effectief kan worden gestaafd aan de hand van feitelijke gegevens.
 
-Anderzijds zou het uiteraard strijdig zijn met de richtlijn aan ondernemingen waarop ze van toepassing is (N.V., B.V.B.A., C.V.A.) en die de criteria van artikel 27 overschrijden, buiten de twee gevallen waarin de richtlijn zélf voorziet dat aan grote vennootschappen toestemming kan worden gegeven om van haar bepalingen af te wijken, nog langer afwijkingen te verlenen. De twee in de richtlijn bedoelde gevallen van mogelijke afwijkingen betreffen enerzijds de vermelding van deelnemingen en aandelen gehouden in andere vennootschappen[^7], anderzijds de uitsplitsing van de netto-omzet naar categorieën bedrijfsactiviteiten en geografische markten[^8].
+Anderzijds zou het uiteraard strijdig zijn met de richtlijn aan ondernemingen waarop ze van toepassing is (N.V., B.V.B.A., C.V.A.) en die de criteria van artikel 27 overschrijden, buiten de twee gevallen waarin de richtlijn zélf voorziet dat aan grote vennootschappen toestemming kan worden gegeven om van haar bepalingen af te wijken, nog langer afwijkingen te verlenen. De twee in de richtlijn bedoelde gevallen van mogelijke afwijkingen betreffen enerzijds de vermelding van deelnemingen en aandelen gehouden in andere vennootschappen[^7], anderzijds de uitsplitsing van de netto-omzet naar categorieën bedrijfsactiviteiten en geografische markten[^8].
 
 #### ALGEMENE BENADERINGSWIJZE INDIVIDUELE AFWIJKINGEN
 
 In zijn advies bij het wetsontwerp met betrekking tot de boekhouding en de jaarrekeningen van de ondernemingen[^9]
- heeft de Raad van State erop gewezen dat het grondwettelijk beginsel dat de Belgen gelijk zijn voor de wet kan worden geschonden als de toegestane afwijking de betrokken onderneming een stellig voordeel mocht opleveren op het gebied van de handelsconcurrentie en dat op beslissingen tot individuele afwijking praktisch geen rechterlijke controle zal kunnen worden uitgeoefend, want deze worden niet gepubliceerd en kunnen dus niet worden aangevochten door hen die zich benadeeld achten als zij er kennis van hadden.
+ heeft de Raad van State erop gewezen dat het grondwettelijk beginsel dat de Belgen gelijk zijn voor de wet kan worden geschonden als de toegestane afwijking de betrokken onderneming een stellig voordeel mocht opleveren op het gebied van de handelsconcurrentie en dat op beslissingen tot individuele afwijking praktisch geen rechterlijke controle zal kunnen worden uitgeoefend, want deze worden niet gepubliceerd en kunnen dus niet worden aangevochten door hen die zich benadeeld achten als zij er kennis van hadden.
 
 Deze en andere overwegingen hebben de Commissie aangespoord tot grote voorzichtigheid bij het uitoefenen van haar adviesbevoegdheid inzake vragen om afwijking. Zij heeft als gevolg daarvan bepaalde beleidslijnen vastgesteld die het mogelijk moeten maken elke (positieve of negatieve) beslissing op passende wijze te motiveren. Hogervernoemde cijfers over de concrete toepassingsgevallen bevestigen dat deze restrictieve benadering met de werkelijkheid strookt.
 
 In adviezen 108/1 en 108/2[^10]
- werd de adviespraktijk van de Commissie beschreven.
+ werd de adviespraktijk van de Commissie beschreven.
 
 #### PROCEDURE
 

@@ -45,22 +45,22 @@ provenance:
 
 # CBN-advies 2010/15 - Afschrijvingsmethoden Advies van 6 oktober 2010
 
-1.  Waarderingsregels 
-  1.  Algemeen  
-  2.  Oprichtingskosten  
-  3.  Immateriële en materiële vaste activa met beperkte gebruiksduur  
-  4.  Geherwaardeerde activa  
+1. Waarderingsregels 
+  1. Algemeen 
+  2. Oprichtingskosten 
+  3. Immateriële en materiële vaste activa met beperkte gebruiksduur 
+  4. Geherwaardeerde activa 
 
-2.  Af te schrijven waarde  
-3.  Afschrijvingsperiode  
-4.  Afschrijvingsmethoden
+2. Af te schrijven waarde 
+3. Afschrijvingsperiode 
+4. Afschrijvingsmethoden
 
-  1.  Lineaire afschrijvingsmethoden  
-  2.  Boekhoudkundige degressieve afschrijvingsmethoden  
-  3.  Progressieve afschrijvingsmethoden  
-  4.  Versnelde (fiscaal aanvaarde) afschrijvingsmethoden  
+  1. Lineaire afschrijvingsmethoden 
+  2. Boekhoudkundige degressieve afschrijvingsmethoden 
+  3. Progressieve afschrijvingsmethoden 
+  4. Versnelde (fiscaal aanvaarde) afschrijvingsmethoden 
 
--- Lineaire afschrijvingsmethoden-- Boekhoudkundige degressieve afschrijvingsmethoden-- Progressieve afschrijvingsmethoden-- Versnelde (fiscaal aanvaarde) afschrijvingsmethoden  
+-- Lineaire afschrijvingsmethoden-- Boekhoudkundige degressieve afschrijvingsmethoden-- Progressieve afschrijvingsmethoden-- Versnelde (fiscaal aanvaarde) afschrijvingsmethoden 
 
 ## Inleiding
 
@@ -70,17 +70,17 @@ Bij de vaste activa worden die vermogensbestanddelen ingedeeld die bestemd zijn 
 
 ### Algemeen
 
-Voor de berekening van de afschrijvingskost moeten eerst de waarderingsregels bepaald worden[^2].  
+Voor de berekening van de afschrijvingskost moeten eerst de waarderingsregels bepaald worden[^2]. 
 
 Artikel 28, § 1, eerste lid van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna KB W.Venn.) vereist dat elke vennootschap de regels bepaalt die gelden voor de waardering van de inventaris en, onder meer, voor de vorming en de aanpassing van afschrijvingen. Deze waarderingsregels worden samengevat in de toelichting en zijn voldoende nauwkeurig zodat door de lezer van de jaarrekening inzicht wordt verkregen in de toegepaste waarderingsmethoden[^3].
 
-Overeenkomstig artikel 45, eerste lid KB W.Venn. verstaat men onder “afschrijvingen” de bedragen ten laste van de resultatenrekening genomen, met betrekking tot oprichtingskosten en tot materiële en immateriële activa met een beperkte gebruiksduur, teneinde het bedrag van deze oprichtingskosten en van de (eventueel geherwaardeerde) aanschaffingskosten van deze vaste activa te spreiden over hun waarschijnlijke nuttigheids- of gebruiksduur. 
+Overeenkomstig artikel 45, eerste lid KB W.Venn. verstaat men onder “afschrijvingen” de bedragen ten laste van de resultatenrekening genomen, met betrekking tot oprichtingskosten en tot materiële en immateriële activa met een beperkte gebruiksduur, teneinde het bedrag van deze oprichtingskosten en van de (eventueel geherwaardeerde) aanschaffingskosten van deze vaste activa te spreiden over hun waarschijnlijke nuttigheids- of gebruiksduur. 
 
 Op dit regime van bedrijfseconomisch verantwoorde afschrijvingen wordt echter door het KB W.Venn. zelf een uitzondering voorzien. Overeenkomstig de artikelen 61 en 64 KB W.Venn. mag voor de immateriële en materiële vaste activa immers een versneld afschrijvingsplan, overeenkomstig de fiscale bepalingen ter zake, toegepast worden[^4].
 
 De afschrijvingen moeten voldoen aan de eisen van voorzichtigheid, oprechtheid en goede trouw en specifiek zijn voor de actiefbestanddelen waarop ze betrekking hebben[^5]. Voor actiefbestanddelen met volkomen identieke technische of juridische kenmerken mogen echter globale afschrijvingen of waardeverminderingen geacteerd worden[^6].
 
-Belangrijk is ook dat de afschrijvingen overeenkomstig artikel 48 KB W.Venn. stelselmatig moeten worden gevormd. Ze mogen niet afhangen van het resultaat van het boekjaar[^7]. 
+Belangrijk is ook dat de afschrijvingen overeenkomstig artikel 48 KB W.Venn. stelselmatig moeten worden gevormd. Ze mogen niet afhangen van het resultaat van het boekjaar[^7]. 
 
 ### Oprichtingskosten
 
@@ -94,7 +94,7 @@ Voor de oprichtingskosten worden passende afschrijvingen geboekt, per jaarlijkse
 
 Immateriële vaste activa zijn ondernemingsmiddelen van onlichamelijke aard die voor de activiteit worden gebruikt en waaruit naar verwachting toekomstige economische voordelen naar de onderneming zullen vloeien.
 
-Materiële vaste activa zijn activa die worden aangehouden voor gebruik in de productie of levering van goederen of diensten, voor verhuur aan derden of voor bestuurlijke doeleinden. Materiële vasta activa met een beperkte levensduur vertegenwoordigen als het ware een voorraad potentiële productieprestaties die over de tijd (meerdere boekjaren) langzaam opgebruikt wordt.  
+Materiële vaste activa zijn activa die worden aangehouden voor gebruik in de productie of levering van goederen of diensten, voor verhuur aan derden of voor bestuurlijke doeleinden. Materiële vasta activa met een beperkte levensduur vertegenwoordigen als het ware een voorraad potentiële productieprestaties die over de tijd (meerdere boekjaren) langzaam opgebruikt wordt. 
 
 De waardedalingen van materiële en immateriële vaste activa met een beperkte levensduur worden uitgedrukt via afschrijvingen. Het KB W.Venn. bepaalt geen minimumafschrijvingsperiode, maar het schrijft wel voor dat indien de afschrijving van kosten voor onderzoek en ontwikkeling of van goodwill over meer dan vijf jaar gespreid wordt, dit moet verantwoord worden in de toelichting[^10].
 
@@ -106,13 +106,13 @@ Het bepalen van de afschrijvingskost vergt een aantal gegevens:
 - de geschatte beperkte economische levensduur van het actief; 
 - het ritme van verbruik van de prestatievoorraad: gelijkmatig, degressief, progressief of *pro rata* (naargelang verbruik van prestatie-eenheden)[^12]. 
 
-Wanneer echter blijkt dat het toegepaste afschrijvingsplan, wegens gewijzigde economische of technologische omstandigheden, een te snelle afschrijving tot gevolg heeft gehad, mogen de gewone afschrijvingen worden teruggenomen[^13]. Deze terugneming dient in resultaat genomen te worden via de uitzonderlijke opbrengsten.  
+Wanneer echter blijkt dat het toegepaste afschrijvingsplan, wegens gewijzigde economische of technologische omstandigheden, een te snelle afschrijving tot gevolg heeft gehad, mogen de gewone afschrijvingen worden teruggenomen[^13]. Deze terugneming dient in resultaat genomen te worden via de uitzonderlijke opbrengsten. 
 
 - Aanvullende of uitzonderlijke afschrijvingen 
 
 Indien per inventarisdatum blijkt dat de boekwaarde van het vast actief hoger is dan de gebruikswaarde voor de vennootschap, dan moeten aanvullende of uitzonderlijke afschrijvingen geboekt worden[^14]. Deze afschrijvingen worden geboekt onder de uitzonderlijke kosten.
 
-Indien men evenwel merkt dat deze aanvullende afschrijvingen systematisch moeten gebeuren, moet men overwegen om het afschrijvingsplan in die mate te wijzigen dat de geboekte afschrijvingen beter aansluiten bij de economische levensduur van het goed. 
+Indien men evenwel merkt dat deze aanvullende afschrijvingen systematisch moeten gebeuren, moet men overwegen om het afschrijvingsplan in die mate te wijzigen dat de geboekte afschrijvingen beter aansluiten bij de economische levensduur van het goed. 
 
 Bij het doorbreken van de continuïteit van de vennootschap, of voor de buiten gebruik gestelde of niet meer duurzaam tot de activiteit van de vennootschap bijdragende materiële vaste activa, wordt in voorkomend geval tot een uitzonderlijke afschrijving overgegaan om rekening te houden met de waarschijnlijke realisatiewaarde ervan[^15].
 
@@ -126,39 +126,39 @@ De herwaarderingsmeerwaarde wordt bij de herwaardering rechtstreeks geboekt op d
 
 ## Af te schrijven waarde
 
-De af te schrijven waarde is overeenkomstig artikel 45 KB W.Venn. gelijk aan de (eventueel geherwaardeerde) aanschaffingswaarde[^19]. Hoewel in het KB W.Venn. niet specifiek naar een restwaarde wordt verwezen, is het gebruik van een restwaarde voor de berekening van de af te schrijven waarde niet in strijd met het KB W.Venn., noch met de Vierde Richtlijn[^20].  
+De af te schrijven waarde is overeenkomstig artikel 45 KB W.Venn. gelijk aan de (eventueel geherwaardeerde) aanschaffingswaarde[^19]. Hoewel in het KB W.Venn. niet specifiek naar een restwaarde wordt verwezen, is het gebruik van een restwaarde voor de berekening van de af te schrijven waarde niet in strijd met het KB W.Venn., noch met de Vierde Richtlijn[^20]. 
 
-De vraag werd gesteld of het afschrijvingsplan met betrekking tot een vast actief met beperkte gebruiksduur mag of moet toegepast blijven indien de “reële” waarde van het goed in kwestie, omwille van de muntontwaarding (inflatie) of van de evolutie van de marktomstandigheden, zijn boekhoudkundige waarde overtreft.   
+De vraag werd gesteld of het afschrijvingsplan met betrekking tot een vast actief met beperkte gebruiksduur mag of moet toegepast blijven indien de “reële” waarde van het goed in kwestie, omwille van de muntontwaarding (inflatie) of van de evolutie van de marktomstandigheden, zijn boekhoudkundige waarde overtreft. 
 
-Dit probleem rijst in hoofdzaak voor wat gebouwen betreft. De gebruiksduur van deze goederen is meestal erg lang, zodat het jaarlijks afschrijvingsbedrag procentueel uitgedrukt ten opzichte van de aanschaffingswaarde, relatief beperkt is. Tegelijkertijd is het mogelijk dat de muntontwaarding (inflatie), de toename van de bouwkosten en de evolutie van de immobiliënmarkt een sterkere groei van de waarde van het onroerend goed kunnen teweegbrengen, om het even of deze waarde beoordeeld wordt als een verkoop- of vervangingswaarde. Deze waarde kan bijgevolg niet alleen de boekhoudkundige waarde van het goed in kwestie overtreffen, maar eveneens zijn aanschaffingswaarde.   
+Dit probleem rijst in hoofdzaak voor wat gebouwen betreft. De gebruiksduur van deze goederen is meestal erg lang, zodat het jaarlijks afschrijvingsbedrag procentueel uitgedrukt ten opzichte van de aanschaffingswaarde, relatief beperkt is. Tegelijkertijd is het mogelijk dat de muntontwaarding (inflatie), de toename van de bouwkosten en de evolutie van de immobiliënmarkt een sterkere groei van de waarde van het onroerend goed kunnen teweegbrengen, om het even of deze waarde beoordeeld wordt als een verkoop- of vervangingswaarde. Deze waarde kan bijgevolg niet alleen de boekhoudkundige waarde van het goed in kwestie overtreffen, maar eveneens zijn aanschaffingswaarde. 
 
-Is het in dergelijke omstandigheden en waar het om activa gaat die op blijvende wijze tot de exploitatie van de onderneming bestemd werden, nog wel verplicht, of zelfs geoorloofd, om de geplande afschrijvingspolitiek te blijven volgen?   
+Is het in dergelijke omstandigheden en waar het om activa gaat die op blijvende wijze tot de exploitatie van de onderneming bestemd werden, nog wel verplicht, of zelfs geoorloofd, om de geplande afschrijvingspolitiek te blijven volgen? 
 
-Ter staving van een negatief antwoord op de hier gestelde vraag kan men inbrengen dat de voortzetting van de afschrijvingen zou leiden tot een onderwaardering, op de balans, van het goed in kwestie.  
+Ter staving van een negatief antwoord op de hier gestelde vraag kan men inbrengen dat de voortzetting van de afschrijvingen zou leiden tot een onderwaardering, op de balans, van het goed in kwestie. 
 
-De Commissie is echter van oordeel dat het louter feit dat de verkoop- of vervangingswaarde van een vast actief met beperkte gebruiksduur zijn boekhoudkundige waarde zou overschrijden, de stopzetting van de afschrijvingspolitiek noch rechtvaardigt, noch mogelijk maakt.   
+De Commissie is echter van oordeel dat het louter feit dat de verkoop- of vervangingswaarde van een vast actief met beperkte gebruiksduur zijn boekhoudkundige waarde zou overschrijden, de stopzetting van de afschrijvingspolitiek noch rechtvaardigt, noch mogelijk maakt. 
 
-Met betrekking tot materiële vaste activa verwijst artikel 64 KB W.Venn. immers niet naar het begrip “waardevermindering”, doch wel naar het begrip “afschrijving”. Dit laatste is niet gebonden aan een idee van ontwaarding van de verkoopwaarde maar wel, volgens de bewoordingen zelf van artikel 45 KB W.Venn., aan een optiek van spreiding van de eventueel geherwaardeerde aanschaffingskosten van het goed over de waarschijnlijke nuttigheids- of gebruiksduur ervan. Artikel 64, § 1, tweede lid KB W.Venn. verwijst eveneens, met betrekking tot aanvullende of uitzonderlijke afschrijvingen, naar de gebruikswaarde van het goed voor de onderneming en niet naar de verkoopwaarde ervan. Met andere woorden, voor deze activa is de toename van de verkoopwaarde in principe vreemd aan de toepassing van de afschrijvingspolitiek. De afschrijvingspolitiek wordt beheerst door de waarschijnlijke economische levensduur van het actief voor de onderneming. Het is over deze duur dat de aanschaffingskosten gespreid moeten worden.   
+Met betrekking tot materiële vaste activa verwijst artikel 64 KB W.Venn. immers niet naar het begrip “waardevermindering”, doch wel naar het begrip “afschrijving”. Dit laatste is niet gebonden aan een idee van ontwaarding van de verkoopwaarde maar wel, volgens de bewoordingen zelf van artikel 45 KB W.Venn., aan een optiek van spreiding van de eventueel geherwaardeerde aanschaffingskosten van het goed over de waarschijnlijke nuttigheids- of gebruiksduur ervan. Artikel 64, § 1, tweede lid KB W.Venn. verwijst eveneens, met betrekking tot aanvullende of uitzonderlijke afschrijvingen, naar de gebruikswaarde van het goed voor de onderneming en niet naar de verkoopwaarde ervan. Met andere woorden, voor deze activa is de toename van de verkoopwaarde in principe vreemd aan de toepassing van de afschrijvingspolitiek. De afschrijvingspolitiek wordt beheerst door de waarschijnlijke economische levensduur van het actief voor de onderneming. Het is over deze duur dat de aanschaffingskosten gespreid moeten worden. 
 
-De evolutie van de “waarde” van het goed in kwestie zou de afschrijvingspolitiek op basis van aanschaffingskosten slechts mogen beïnvloeden na een nieuwe bepaling van deze politiek, gericht op een herschatting van de waarschijnlijke economische gebruiksduur van het goed of van zijn restwaarde op het einde van die periode.   
+De evolutie van de “waarde” van het goed in kwestie zou de afschrijvingspolitiek op basis van aanschaffingskosten slechts mogen beïnvloeden na een nieuwe bepaling van deze politiek, gericht op een herschatting van de waarschijnlijke economische gebruiksduur van het goed of van zijn restwaarde op het einde van die periode. 
 
-Ten slotte, als de gebruikswaarde van het goed op blijvende wijze de waarde waarvoor het opgenomen is in de balans overtreft, zal de bezorgdheid om in de jaarrekening de werkelijke inhoud van het patrimonium van de onderneming tot uiting te brengen, uiteraard blijken uit een herwaardering hogergenoemd besluit verricht overeenkomstig artikel 57 KB W.Venn. 
+Ten slotte, als de gebruikswaarde van het goed op blijvende wijze de waarde waarvoor het opgenomen is in de balans overtreft, zal de bezorgdheid om in de jaarrekening de werkelijke inhoud van het patrimonium van de onderneming tot uiting te brengen, uiteraard blijken uit een herwaardering hogergenoemd besluit verricht overeenkomstig artikel 57 KB W.Venn. 
 
 ## Afschrijvingsperiode
 
 Afschrijvingen verdelen de kosten van verwerving van het vast actief over hun waarschijnlijke nuttigheids- of gebruiksduur, of nog de economische levensduur van het actief. Deze levensduur moet geschat worden. De nuttigheids- of gebruiksduur wordt beïnvloed door technische[^21]
- en economische[^22]
- slijtage.
+ en economische[^22]
+ slijtage.
 
 Deze economische levensduur kan uitgedrukt worden in tijdseenheden, verbruikseenheden of een combinatie van beide:
 
 - de zuivere duurtijd: als basis voor de afschrijving geldt de gebruiksduur, uitgedrukt in een aantal jaren. De onderneming verwacht dat ze haar totale prestatievoorraad zal opgebruiken over een aantal jaren. 
 - het zuiver kwantitatief gebruik: de prestatievoorraad van het actief wordt in kwantitatief meetbare eenheden weergegeven. 
-- een combinatie van de tijd en het gebruik: enerzijds wordt de levensduur uitgedrukt in tijdseenheden, anderzijds in verbruikseenheden[^23].  
+- een combinatie van de tijd en het gebruik: enerzijds wordt de levensduur uitgedrukt in tijdseenheden, anderzijds in verbruikseenheden[^23]. 
 
 ## Afschrijvingsmethoden[^24] 
 
-Het KB W.Venn. beperkt zich tot het terrein van de algemene beginselen[^25]. Het bevat geen eigenlijke regels met betrekking tot het ritme van de jaarlijkse afschrijvingen. 
+Het KB W.Venn. beperkt zich tot het terrein van de algemene beginselen[^25]. Het bevat geen eigenlijke regels met betrekking tot het ritme van de jaarlijkse afschrijvingen. 
 
 Het afschrijvingsregime mag lineair zijn, degressief, of gebonden aan objectieve criteria zoals de gebruiksintensiteit van het goed of het volume van de productie. Al deze regimes zijn ten aanzien van het KB W.Venn. aanvaardbaar voor zover ze overeenstemmen met, ofwel de spreiding van de aanschaffingsprijs over de vermoedelijke economische levensduur van het vast actief, ofwel een fiscaal aanvaard systeem van versnelde afschrijvingen[^26].
 
@@ -168,13 +168,13 @@ De onderneming dient in de toelichting bij de jaarrekening een beschrijving te g
 
 ### Lineaire afschrijvingsmethoden
 
-Bij de lineaire afschrijvingsmethode schrijft men gelijkmatig naar tijd en/of gebruik af tijdens de afschrijvingsperiode. 
+Bij de lineaire afschrijvingsmethode schrijft men gelijkmatig naar tijd en/of gebruik af tijdens de afschrijvingsperiode. 
 
 Volgens tijdseenheden 
 
 Er wordt gelijkmatig naar de tijd afgeschreven. De afschrijvingsannuïteit is gelijk aan de af te schrijven waarde gedeeld door het aantal jaren dat het actief vermoedelijk zal gebruikt worden.
 
-*Voorbeeld  
+*Voorbeeld 
 
 Een drukkerij koopt een drukpers voor 100.000 euro (aankoopprijs, inclusief alle bijkomende kosten). De economische levensduur van de drukpers wordt geraamd op 5 jaar. Het afschrijvingspercentage is bijgevolg gelijk aan 100/5=20. De lineaire afschrijvingsannuïteit bedraagt 20.000 euro.*
 
@@ -186,23 +186,23 @@ Bij afschrijvingen volgens zuivere bedrijfsdrukte wordt de levensduur van het ac
 
 *Voorbeeld*
 
-*Een drukkerij koopt een drukpers voor 100.000 euro (aankoopprijs, inclusief alle bijkomende kosten). Men schat dat met deze drukpers 10.000.000 kranten kunnen gedrukt worden. De afschrijvingskost per krant bedraagt dan 100.000 / 10.000.000 = 0,01 euro. In jaar X worden 2.300.000 kranten gedrukt, bijgevolg moet er een afschrijving van 23.000 euro geboekt worden.*  
+*Een drukkerij koopt een drukpers voor 100.000 euro (aankoopprijs, inclusief alle bijkomende kosten). Men schat dat met deze drukpers 10.000.000 kranten kunnen gedrukt worden. De afschrijvingskost per krant bedraagt dan 100.000 / 10.000.000 = 0,01 euro. In jaar X worden 2.300.000 kranten gedrukt, bijgevolg moet er een afschrijving van 23.000 euro geboekt worden.* 
 
-- *Gemengde bedrijfsdrukte * 
+- *Gemengde bedrijfsdrukte * 
 
-De basis voor de afschrijvingen is dubbel bij deze afschrijvingsmethode. Het actief wordt gelijkmatig naar gebruik afgeschreven, voor zover dit gebruik leidt tot een afschrijving die hoger is dan het* pro rata* van het gebruik over de maximale duurtijd. Is het kwantitatief gebruik over een tijdsperiode lager dan dat pro rata, dan zal men de tijd als basis voor de afschrijving nemen. 
+De basis voor de afschrijvingen is dubbel bij deze afschrijvingsmethode. Het actief wordt gelijkmatig naar gebruik afgeschreven, voor zover dit gebruik leidt tot een afschrijving die hoger is dan het* pro rata* van het gebruik over de maximale duurtijd. Is het kwantitatief gebruik over een tijdsperiode lager dan dat pro rata, dan zal men de tijd als basis voor de afschrijving nemen. 
 
 De afschrijvingsannuïteit is met andere woorden minstens gelijk aan de lineaire afschrijvingsannuïteit naar tijd.
 
 *Voorbeeld*
 
-*Een drukkerij koopt een drukpers voor 100.000 euro (aankoopprijs, inclusief alle bijkomende kosten). De economische levensduur van de drukpers wordt geraamd op 5 jaar en men  schat dat met deze drukpers 10.000.000 kranten kunnen gedrukt worden. In jaar X worden 1.800.000 kranten gedrukt. Aangezien de afschrijving naar gebruik (18.000) kleiner is dan deze naar tijd (20.000), zal men de tijd als basis voor de afschrijving nemen en een afschrijving van 20.000 euro in resultaat nemen.*
+*Een drukkerij koopt een drukpers voor 100.000 euro (aankoopprijs, inclusief alle bijkomende kosten). De economische levensduur van de drukpers wordt geraamd op 5 jaar en men schat dat met deze drukpers 10.000.000 kranten kunnen gedrukt worden. In jaar X worden 1.800.000 kranten gedrukt. Aangezien de afschrijving naar gebruik (18.000) kleiner is dan deze naar tijd (20.000), zal men de tijd als basis voor de afschrijving nemen en een afschrijving van 20.000 euro in resultaat nemen.*
 
 ### Boekhoudkundige degressieve afschrijvingsmethoden
 
-Bij de degressieve afschrijvingsmethode dalen de afschrijvingskosten tijdens de afschrijvingsperiode. Het eerste gebruik veroorzaakt als het ware een grotere veroudering dan het latere gebruik. 
+Bij de degressieve afschrijvingsmethode dalen de afschrijvingskosten tijdens de afschrijvingsperiode. Het eerste gebruik veroorzaakt als het ware een grotere veroudering dan het latere gebruik. 
 
-De degressieve afschrijvingsmethoden zijn boekhoudrechtelijk aanvaardbaar voor zover ze met de spreiding van de aanschaffingsprijs over de vermoedelijke levensduur van het actief overeenstemmen (of met een fiscaal aanvaard systeem van versnelde afschrijvingen[^28]).  
+De degressieve afschrijvingsmethoden zijn boekhoudrechtelijk aanvaardbaar voor zover ze met de spreiding van de aanschaffingsprijs over de vermoedelijke levensduur van het actief overeenstemmen (of met een fiscaal aanvaard systeem van versnelde afschrijvingen[^28]). 
 
 *Voorbeeld*
 
@@ -221,15 +221,15 @@ De Commissie is van oordeel dat het uitwerken van een progressief afschrijvingsp
 ### Versnelde (fiscaal aanvaarde) afschrijvingsmethoden
 
 Ten tijde van de uitvaardiging van het koninklijk besluit van 8 oktober 1976[^29], waren er twee gekende fiscale stelsels van versnelde afschrijvingen, meer bepaald de degressieve afschrijving[^30]
- en de dubbele lineaire afschrijving[^31]. De tekst van artikel 28 van het KB van 8 oktober 1976 verwees echter niet uitdrukkelijk naar deze twee regimes. De tekst werd zeer algemeen opgesteld om de diverse technieken te kunnen omvatten van fiscaal aanvaarde versnelde afschrijvingen die in de fiscale reglementering opgenomen zouden kunnen worden[^32]. Bijgevolg zijn alle fiscaal aanvaarde versnelde afschrijvingssystemen toegelaten op grond van de artikelen 61, § 1, eerste lid en 64, §1, eerste lid KB W.Venn[^33].
+ en de dubbele lineaire afschrijving[^31]. De tekst van artikel 28 van het KB van 8 oktober 1976 verwees echter niet uitdrukkelijk naar deze twee regimes. De tekst werd zeer algemeen opgesteld om de diverse technieken te kunnen omvatten van fiscaal aanvaarde versnelde afschrijvingen die in de fiscale reglementering opgenomen zouden kunnen worden[^32]. Bijgevolg zijn alle fiscaal aanvaarde versnelde afschrijvingssystemen toegelaten op grond van de artikelen 61, § 1, eerste lid en 64, §1, eerste lid KB W.Venn[^33].
 
 Wanneer de toepassing van een plan voor versnelde afschrijving met zich zou brengen dat aanzienlijk vlugger wordt afgeschreven dan economisch verantwoord, moet er in de toelichting melding gemaakt worden van het verschil tussen het gecumuleerd bedrag van de geboekte afschrijvingen en dat van de economisch verantwoorde afschrijvingen. Tevens moet de invloed worden aangegeven van de tijdens het boekjaar of tijdens vorige boekjaren geboekte versnelde afschrijvingen op het bedrag van de afschrijvingen in de resultatenrekening van het boekjaar[^34], in vergelijking met de economisch verantwoorde afschrijvingen.
 
 *Voorbeeld*
 
-*Een drukkerij koopt een drukpers voor 100.000 euro (aankoopprijs, inclusief alle bijkomende kosten). De economische levensduur van de drukpers wordt geraamd op 5 jaar. De onderneming beslist de drukpers af te schrijven op basis van de fiscaal degressieve afschrijvingsmethode.  
+*Een drukkerij koopt een drukpers voor 100.000 euro (aankoopprijs, inclusief alle bijkomende kosten). De economische levensduur van de drukpers wordt geraamd op 5 jaar. De onderneming beslist de drukpers af te schrijven op basis van de fiscaal degressieve afschrijvingsmethode. 
 
-Het eerste jaar wordt 40 % van 100.000 afgeschreven; het tweede jaar wordt 40% van 60.000 (residuwaarde) afgeschreven; vanaf het derde jaar overtreft de degressieve afschrijving niet langer de lineaire afschrijvingsannuïteit en schakelt de drukkerij over op de lineaire afschrijvingsmethode (20.000); het vierde jaar wordt het saldo afgeschreven (16.000).*  
+Het eerste jaar wordt 40 % van 100.000 afgeschreven; het tweede jaar wordt 40% van 60.000 (residuwaarde) afgeschreven; vanaf het derde jaar overtreft de degressieve afschrijving niet langer de lineaire afschrijvingsannuïteit en schakelt de drukkerij over op de lineaire afschrijvingsmethode (20.000); het vierde jaar wordt het saldo afgeschreven (16.000).* 
 
 [^1]: Cf. artikel 15.2 van de Vierde Richtlijn
 

@@ -75,17 +75,17 @@ De balans van de overlater, NV ABC wordt op overnamedatum als volgt voorgesteld:
 | Immat. vaste activa | | 20 | | Kapitaal | | 140 | 
 | Materiële vaste activa | | 10 | | Verliezen | | -80 | 
 | Voorraden | | 50 | | Schulden | | 40 | 
-| Liquide middelen | | 20 | |   | |   | 
-|   | | 100 | |   | | 100 | 
+| Liquide middelen | | 20 | | | | | 
+| | | 100 | | | | 100 | 
 
 In het eerste voorbeeld zal de NV ABC zich terugtrekken uit een bepaalde markt aangezien deze markt voor de NV ABC structureel verlieslatend is. NV XYZ, de overnemer, heeft besloten om een geïntegreerde activiteit van de NV ABC over te nemen. Deze activiteit bestaat uit de volgende activa en passiva:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Materiële vaste activa | 10 |  |  |
-|  | Voorraden | 50 |  |  |
-|  | Schulden | (40) |  |  |
-|  | Boekwaarde netto-actief | 20 |  |  |
+| | Materiële vaste activa | 10 | | |
+| | Voorraden | 50 | | |
+| | Schulden | (40) | | |
+| | Boekwaarde netto-actief | 20 | | |
 
 Als gevolg van de beslissing om de activiteit af te stoten, worden de betrokken activa afgewaardeerd, wordt de schuld overgelaten en boekt de NV ABC een vordering van 1 EUR ten opzichte van NV XYZ. De balans van de NV ABC kan dan ook als volgt worden voorgesteld:
 
@@ -93,9 +93,9 @@ Als gevolg van de beslissing om de activiteit af te stoten, worden de betrokken 
 | Immat. vaste activa | | 20 | | Kapitaal | | 140 | 
 | Materiële vaste activa | | 0 | | Verliezen | | -99 | 
 | Voorraden | | 0 | | Schulden | | 0 | 
-| Vordering | | 1 | |   | |   | 
-| Liquide middelen | | 20 | |   | |   | 
-|   | | 41 | |   | | 41 | 
+| Vordering | | 1 | | | | | 
+| Liquide middelen | | 20 | | | | | 
+| | | 41 | | | | 41 | 
 
 #### Balans van de overnemer
 
@@ -103,19 +103,19 @@ De balans van de overnemer, NV XYZ, wordt vóór de overname als volgt voorgeste
 
 | *NV XYZ* | 
 | Immat. vaste activa | | 20 | | Kapitaal | | 40 | 
-| Liquide middelen | | 20 | |   | |   | 
-|   | | 40 | |   | | 40 | 
+| Liquide middelen | | 20 | | | | | 
+| | | 40 | | | | 40 | 
 
 Het voorzichtigheidsbeginsel indachtig, zal de NV XYZ in een dergelijke verwerving in eerste instantie de waardering van de overgenomen schulden grondig analyseren. In het geval dat de schulden bijvoorbeeld bestaan uit handelsschulden lijkt het de Commissie evident dat dezelfde waarde kan worden toegekend aan deze schulden, namelijk 40. Aangezien er slechts een overnameprijs van 1 EUR werd overeengekomen tussen NV ABC en NV XYZ is de Commissie van mening dat het overgenomen netto-actief ook moet worden herleid naar de totale overnameprijs, ofwel:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Overnameprijs | 1 |  |  |
-|  | Schulden | 40 |  |  |
-|  | Aan activa toe te wijzen aanschaffingswaarde | 41 |  |  |
-|  | Toegewezen aan: |  |  |  |
-|  | Voorraad | 20 |  |  |
-|  | Materiële vaste activa | 21 |  |  |
+| | Overnameprijs | 1 | | |
+| | Schulden | 40 | | |
+| | Aan activa toe te wijzen aanschaffingswaarde | 41 | | |
+| | Toegewezen aan: | | | |
+| | Voorraad | 20 | | |
+| | Materiële vaste activa | 21 | | |
 
 De toewijzing van de aanschaffingswaarde aan de voorraad en de materiële vaste activa zal gebaseerd zijn op de inschattingen van de raad van bestuur van de NV XYZ. Het bestuursorgaan is van oordeel dat de boekhoudkundige beginselen inzake fusies en splitsingen niet van toepassing zijn.
 
@@ -126,9 +126,9 @@ De balans na verwerving door de NV XYZ kan als volgt worden voorgesteld na de op
 | *NV XYZ* | 
 | Immat. vaste activa | | 20 | | Kapitaal | | 40 | 
 | Materiële vaste activa | | 21 | | Schulden | | 40 | 
-| Voorraad | | 20 | |   | |   | 
-| Liquide middelen | | 19 | |   | |   | 
-|   | | 80 | |   | | 80 | 
+| Voorraad | | 20 | | | | | 
+| Liquide middelen | | 19 | | | | | 
+| | | 80 | | | | 80 | 
 
 ### Voorbeeld 2: overname van activa en passiva met bijkomende voorziening
 
@@ -140,17 +140,17 @@ De balans van de overlater, NV ABC wordt op overnamedatum als volgt voorgesteld:
 | Immat. vaste activa | | 20 | | Kapitaal | | 140 | 
 | Materiële vaste activa | | 10 | | Verliezen | | -80 | 
 | Voorraden | | 50 | | Schulden | | 40 | 
-| Liquide middelen | | 20 | |   | |   | 
-|   | | 100 | |   | | 100 | 
+| Liquide middelen | | 20 | | | | | 
+| | | 100 | | | | 100 | 
 
 In het tweede voorbeeld zal de NV ABC zich terugtrekken uit een bepaalde markt aangezien deze markt voor de NV ABC structureel verlieslatend is. NV XYZ, de overnemer, heeft besloten om een geïntegreerde activiteit van de NV ABC over te nemen. Deze activiteit bestaat uit de volgende activa en passiva:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Materiële vaste activa | 10 |  |  |
-|  | Voorraden | 50 |  |  |
-|  | Schulden | (40) |  |  |
-|  | Boekwaarde netto-actief | 20 |  |  |
+| | Materiële vaste activa | 10 | | |
+| | Voorraden | 50 | | |
+| | Schulden | (40) | | |
+| | Boekwaarde netto-actief | 20 | | |
 
 Als gevolg van de beslissing om de activiteit af te stoten, worden de betrokken activa afgewaardeerd, wordt de schuld overgelaten en boekt de NV ABC een vordering van 1 EUR ten opzichte van NV XYZ. De balans van de NV ABC kan dan ook als volgt worden voorgesteld:
 
@@ -158,9 +158,9 @@ Als gevolg van de beslissing om de activiteit af te stoten, worden de betrokken 
 | Immat. vaste activa | | 20 | | Kapitaal | | 140 | 
 | Materiële vaste activa | | 0 | | Verliezen | | -99 | 
 | Voorraden | | 0 | | Schulden | | 0 | 
-| Vordering | | 1 | |   | |   | 
-| Liquide middelen | | 20 | |   | |   | 
-|   | | 41 | |   | | 41 | 
+| Vordering | | 1 | | | | | 
+| Liquide middelen | | 20 | | | | | 
+| | | 41 | | | | 41 | 
 
 #### Balans van de overnemer
 
@@ -168,8 +168,8 @@ De balans van de overnemer, NV XYZ wordt vóór de overname als volgt voorgestel
 
 | *NV XYZ* | 
 | Immat. vaste activa | | 20 | | Kapitaal | | 40 | 
-| Liquide middelen | | 20 | |   | |   | 
-|   | | 40 | |   | | 40 | 
+| Liquide middelen | | 20 | | | | | 
+| | | 40 | | | | 40 | 
 
 Het voorzichtigheidsbeginsel indachtig, zal de NV XYZ in een dergelijke verwerving in eerste instantie de waardering van de overgenomen schulden grondig analyseren. In het geval dat de schulden bijvoorbeeld bestaan uit handelsschulden lijkt het de Commissie evident dat dezelfde waarde kan worden toegekend aan deze schulden, namelijk 40.
 
@@ -181,12 +181,12 @@ Aangezien NV ABC en NV XYZ slechts een overnameprijs van 1 EUR hebben overeengek
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Overnameprijs | 1 |  |  |
-|  | Schulden | 40 |  |  |
-|  | Aan activa toe te wijzen aanschaffingswaarde | 41 |  |  |
-|  | Toegewezen aan: |  |  |  |
-|  | Voorraad | 20 |  |  |
-|  | Materiële vaste activa | 21 |  |  |
+| | Overnameprijs | 1 | | |
+| | Schulden | 40 | | |
+| | Aan activa toe te wijzen aanschaffingswaarde | 41 | | |
+| | Toegewezen aan: | | | |
+| | Voorraad | 20 | | |
+| | Materiële vaste activa | 21 | | |
 
 De toewijzing van de aanschaffingswaarde aan de voorraad en de materiële vaste activa zal gebaseerd zijn op de inschattingen van de raad van bestuur van de NV XYZ. Het bestuursorgaan is van oordeel dat de boekhoudkundige beginselen inzake fusies en splitsingen niet van toepassing zijn.
 
@@ -201,7 +201,7 @@ De balans na verwerving door de NV XYZ en na het aanleggen van de voorziening, k
 | Materiële vaste activa | | 21 | | Verliezen | | -60 | 
 | Voorraad | | 20 | | Schulden | | 40 | 
 | Liquide middelen | | 19 | | Voorziening | | 60 | 
-|   | | 80 | |   | | 80 | 
+| | | 80 | | | | 80 | 
 
 ### Voorbeeld 3: overname van niet erkende activa (kosten van ontwikkeling) en passiva zonder bijkomende voorziening – al dan niet activeerbaar bij de overnemer
 
@@ -211,9 +211,9 @@ De balans van de overlater, NV ABC, wordt op overnamedatum als volgt voorgesteld
 
 | *NV ABC* | 
 | Liquide middelen | | 80 | | Kapitaal | | 180 | 
-|   | |   | | Verliezen | | -120 | 
-|   | |   | | Schulden | | 20 | 
-|   | | 80 | |   | | 80 | 
+| | | | | Verliezen | | -120 | 
+| | | | | Schulden | | 20 | 
+| | | 80 | | | | 80 | 
 
 De NV ABC is actief als biotech-onderneming en heeft voornamelijk opgebouwde verliezen door de investeringen in onderzoeksactiviteiten. De criteria voor de activering als ontwikkelingskost zijn niet voldaan.
 
@@ -224,8 +224,8 @@ Als gevolg van de beslissing om de activiteit af te stoten, wordt de schuld naar
 | *NV ABC* | 
 | Vordering | | 1 | | Kapitaal | | 180 | 
 | Liquide middelen | | 80 | | Verliezen | | -99 | 
-|   | |   | | Schulden | | 0 | 
-|   | | 81 | |   | | 81 | 
+| | | | | Schulden | | 0 | 
+| | | 81 | | | | 81 | 
 
 #### Balans van de overnemer
 
@@ -233,8 +233,8 @@ De balans van de overnemer, NV XYZ, wordt vóór de overname als volgt voorgeste
 
 | *NV XYZ* | 
 | Materiële vaste activa | | 20 | | Kapitaal | | 40 | 
-| Liquide middelen | | 20 | |   | |   | 
-|   | | 40 | |   | | 40 | 
+| Liquide middelen | | 20 | | | | | 
+| | | 40 | | | | 40 | 
 
 De overgenomen ontwikkelingsinspanningen van de NV ABC voldoen aan de voorwaarden tot activering als ontwikkelingskost, ten gevolge de overname, in hoofde van de NV XYZ[^5].
 
@@ -242,21 +242,21 @@ De NV XYZ zal in eerste instantie de overgenomen schulden waarderen. Aangezien d
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Overnameprijs | 1 |  |  |
-|  | Schulden | 15 |  |  |
-|  | Aan activa toe te wijzen aanschaffingswaarde | 16 |  |  |
-|  | Toegewezen aan: |  |  |  |
-|  | Immateriële vaste activa | 16 |  |  |
+| | Overnameprijs | 1 | | |
+| | Schulden | 15 | | |
+| | Aan activa toe te wijzen aanschaffingswaarde | 16 | | |
+| | Toegewezen aan: | | | |
+| | Immateriële vaste activa | 16 | | |
 
-Bij de keuze van de bedragen voor activering dient het bestuursorgaan zorg te dragen dat geen enkel actiefbestanddeel een waardering krijgt boven de marktwaarde.    
+Bij de keuze van de bedragen voor activering dient het bestuursorgaan zorg te dragen dat geen enkel actiefbestanddeel een waardering krijgt boven de marktwaarde. 
 
 De balans na verwerving door de NV XYZ kan als volgt worden voorgesteld na de opname van de geïntegreerde activiteit van de NV ABC:
 
 | *NV XYZ* | 
 | Immat. vaste activa | | 16 | | Kapitaal | | 40 | 
 | Materiële vaste activa | | 20 | | Schulden | | 15 | 
-| Liquide middelen | | 19 | |   | |   | 
-|   | | 55 | |   | | 55 | 
+| Liquide middelen | | 19 | | | | | 
+| | | 55 | | | | 55 | 
 
 ### Voorbeeld 4: overname van activa zonder passiva
 
@@ -268,16 +268,16 @@ De balans van de overlater, NV ABC, wordt op overnamedatum als volgt voorgesteld
 | Immat. vaste activa | | 20 | | Kapitaal | | 140 | 
 | Materiële vaste activa | | 10 | | Verliezen | | -80 | 
 | Voorraden | | 50 | | Schulden | | 40 | 
-| Liquide middelen | | 20 | |   | |   | 
-|   | | 100 | |   | | 100 | 
+| Liquide middelen | | 20 | | | | | 
+| | | 100 | | | | 100 | 
 
-In het vierde voorbeeld, zal de NV ABC zich terugtrekken uit een bepaalde markt aangezien deze markt voor de NV ABC structureel verlieslatend is. NV XYZ, de overnemer, heeft besloten om een geïntegreerde activiteit van de NV ABC over te nemen. Deze activiteit bestaat uit de volgende activa en passiva:  
+In het vierde voorbeeld, zal de NV ABC zich terugtrekken uit een bepaalde markt aangezien deze markt voor de NV ABC structureel verlieslatend is. NV XYZ, de overnemer, heeft besloten om een geïntegreerde activiteit van de NV ABC over te nemen. Deze activiteit bestaat uit de volgende activa en passiva: 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Materiële vaste activa | 10 |  |  |
-|  | Voorraden | 50 |  |  |
-|  | Boekwaarde netto-actief | 60 |  |  |
+| | Materiële vaste activa | 10 | | |
+| | Voorraden | 50 | | |
+| | Boekwaarde netto-actief | 60 | | |
 
 Als gevolg van de beslissing om de activiteit af te stoten, worden de betrokken activa afgewaardeerd en boekt de NV ABC een vordering van 1 EUR ten opzichte van NV XYZ.
 
@@ -287,9 +287,9 @@ De balans van de NV ABC kan dan ook als volgt worden voorgesteld:
 | Immat. vaste activa | | 20 | | Kapitaal | | 140 | 
 | Materiële vaste avtiva | | 0 | | Verliezen | | -139 | 
 | Voorraden | | 0 | | Schulden | | 40 | 
-| Vordering | | 1 | |   | |   | 
-| Liquide middelen | | 20 | |   | |   | 
-|   | | 41 | |   | | 41 | 
+| Vordering | | 1 | | | | | 
+| Liquide middelen | | 20 | | | | | 
+| | | 41 | | | | 41 | 
 
 #### Balans van de overnemer
 
@@ -297,8 +297,8 @@ De balans van de overnemer, NV XYZ wordt vóór de overname als volgt voorgestel
 
 | *NV XYZ* | 
 | Immat. vaste activa | | 20 | | Kapitaal | | 40 | 
-| Liquide middelen | | 20 | |   | |   | 
-|   | | 40 | |   | | 40 | 
+| Liquide middelen | | 20 | | | | | 
+| | | 40 | | | | 40 | 
 
 Het voorzichtigheidsbeginsel indachtig, zal de NV XYZ in een dergelijke verwerving in eerste instantie de waardering van de overgenomen schulden grondig analyseren.
 
@@ -306,14 +306,14 @@ Aangezien NV ABC en NV XYZ slechts een overnameprijs van 1 EUR hebben overeengek
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Overnameprijs | 1 |  |  |
-|  | Schulden | 0 |  |  |
-|  | Aan activa toe te wijzen aanschaffingswaarde | 1 |  |  |
-|  | Toegewezen aan: |  |  |  |
-|  | Voorraad | 1 |  |  |
-|  | Materiële vaste activa | 0 |  |  |
+| | Overnameprijs | 1 | | |
+| | Schulden | 0 | | |
+| | Aan activa toe te wijzen aanschaffingswaarde | 1 | | |
+| | Toegewezen aan: | | | |
+| | Voorraad | 1 | | |
+| | Materiële vaste activa | 0 | | |
 
-De toewijzing van de aanschaffingswaarde aan de voorraad en de materiële vaste activa zal gebaseerd zijn op de inschattingen van de raad van bestuur van de NV XYZ. Het bestuursorgaan is van oordeel dat de boekhoudkundige beginselen inzake fusies en splitsingen niet van toepassing zijn.  
+De toewijzing van de aanschaffingswaarde aan de voorraad en de materiële vaste activa zal gebaseerd zijn op de inschattingen van de raad van bestuur van de NV XYZ. Het bestuursorgaan is van oordeel dat de boekhoudkundige beginselen inzake fusies en splitsingen niet van toepassing zijn. 
 
 De NV XYZ mag slechts een bedrag van 1 EUR activeren aangezien dit overeenstemt met de historische aanschaffingswaarde van de respectievelijke activa. Bij de keuze van de bedragen voor activering dient het bestuursorgaan zorg te dragen dat geen enkel actiefbestanddeel een waardering krijgt boven de marktwaarde.
 
@@ -321,10 +321,10 @@ De balans na verwerving door de NV XYZ kan als volgt worden voorgesteld na de op
 
 | *NV XYZ* | 
 | Immat. vaste activa | | 20 | | Kapitaal | | 40 | 
-| Materiële vaste activa | | 0 | |   | |   | 
-| Voorraad | | 1 | |   | |   | 
-| Liquide middelen | | 19 | |   | |   | 
-|   | | 40 | |   | | 40 | 
+| Materiële vaste activa | | 0 | | | | | 
+| Voorraad | | 1 | | | | | 
+| Liquide middelen | | 19 | | | | | 
+| | | 40 | | | | 40 | 
 
 De NV ABC kan nadien eventueel beslissen om de overgenomen materiële vaste activa te herwaarderen indien de voorwaarden zoals opgenomen in CBN-advies 2011/14 – Herwaarderingsmeerwaarden[^6] vervuld zijn.
 
@@ -342,21 +342,21 @@ De balans van de overlater, NV ABC wordt op overnamedatum als volgt voorgesteld:
 | Immat. vaste activa | | 20 | | Kapitaal | | 140 | 
 | Materiële vaste activa | | 10 | | Verliezen | | -80 | 
 | Voorraden | | 50 | | Schulden | | 70 | 
-| Liquide middelen | | 50 | |   | |   | 
-|   | | 130 | |   | | 130 | 
+| Liquide middelen | | 50 | | | | | 
+| | | 130 | | | | 130 | 
 
-In dit voorbeeld zal de NV ABC zich terugtrekken uit een bepaalde markt aangezien deze markt voor de NV ABC structureel verlieslatend is. NV XYZ, de overnemer, heeft besloten om een geïntegreerde activiteit van de NV ABC over te nemen. Deze activiteit bestaat uit de volgende activa en passiva:  
+In dit voorbeeld zal de NV ABC zich terugtrekken uit een bepaalde markt aangezien deze markt voor de NV ABC structureel verlieslatend is. NV XYZ, de overnemer, heeft besloten om een geïntegreerde activiteit van de NV ABC over te nemen. Deze activiteit bestaat uit de volgende activa en passiva: 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Materiële vaste activa | 10 |  |  |
-|  | Voorraden | 50 |  |  |
-|  | Schulden | (70) |  |  |
-|  | Boekwaarde netto-passief | (10) |  |  |
-|  | Overnameprijs | 1 |  |  |
+| | Materiële vaste activa | 10 | | |
+| | Voorraden | 50 | | |
+| | Schulden | (70) | | |
+| | Boekwaarde netto-passief | (10) | | |
+| | Overnameprijs | 1 | | |
 
 Als gevolg van de beslissing om de activiteit af te stoten, worden de betrokken activa afgewaardeerd, wordt de schuld overgelaten[^7]
-  en boekt de NV ABC een vordering van 1 EUR ten opzichte van NV XYZ.
+  en boekt de NV ABC een vordering van 1 EUR ten opzichte van NV XYZ.
 
 De balans van de NV ABC kan dan ook als volgt worden voorgesteld:
 
@@ -364,9 +364,9 @@ De balans van de NV ABC kan dan ook als volgt worden voorgesteld:
 | Immat. vaste activa | | 20 | | Kapitaal | | 140 | 
 | Materiële vaste activa | | 0 | | Verliezen | | -69 | 
 | Voorraden | | 0 | | Schulden | | 0 | 
-| Vordering | | 1 | |   | |   | 
-| Liquide middelen | | 50 | |   | |   | 
-|   | | 71 | |   | | 71 | 
+| Vordering | | 1 | | | | | 
+| Liquide middelen | | 50 | | | | | 
+| | | 71 | | | | 71 | 
 
 #### Balans van de overnemer
 
@@ -374,8 +374,8 @@ De balans van de overnemer, NV XYZ, wordt vóór de overname als volgt voorgeste
 
 | *NV XYZ* | 
 | Immat. vaste activa | | 20 | | Kapitaal | | 40 | 
-| Liquide middelen | | 20 | |   | |   | 
-|   | | 40 | |   | | 40 | 
+| Liquide middelen | | 20 | | | | | 
+| | | 40 | | | | 40 | 
 
 In het geval van een goodwill dient als uitgangspunt het netto-passief te worden vergeleken met de overnameprijs. Het netto-passief kan als volgt worden weergegeven:
 
@@ -383,12 +383,12 @@ In het geval van een goodwill dient als uitgangspunt het netto-passief te worden
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Materiële vaste activa | 20 |  |  |
-|  | Voorraad | 30 |  |  |
-|  | Schulden | (70) |  |  |
-|  | Netto-passief | (20) |  |  |
-|  | Overnameprijs | 1 |  |  |
-|  | Goodwill | 21 |  |  |
+| | Materiële vaste activa | 20 | | |
+| | Voorraad | 30 | | |
+| | Schulden | (70) | | |
+| | Netto-passief | (20) | | |
+| | Overnameprijs | 1 | | |
+| | Goodwill | 21 | | |
 
 Het bestuursorgaan is van oordeel dat de boekhoudkundige beginselen inzake fusies en splitsingen niet van toepassing zijn.
 
@@ -403,10 +403,10 @@ De balans na verwerving door de NV XYZ kan als volgt worden voorgesteld na de op
 | *NV XYZ* | 
 | Goodwill | | 11 | | Kapitaal | | 40 | 
 | Immat. vaste activa | | 30 | | Schulden | | 70 | 
-| Materiële vaste activa | | 20 | |   | |   | 
-| Voorraad | | 30 | |   | |   | 
-| Liquide middelen | | 19 | |   | |   | 
-|   | | 110 | |   | | 110 | 
+| Materiële vaste activa | | 20 | | | | | 
+| Voorraad | | 30 | | | | | 
+| Liquide middelen | | 19 | | | | | 
+| | | 110 | | | | 110 | 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 22 februari 2016 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

@@ -39,7 +39,7 @@ Op deze regel werden een drietal uitzonderingen vastgesteld.
 Een eerste uitzondering slaat op de voorzieningen met een financieel karakter. Inderdaad, daar waar inzake bedrijfsresultaten de nodige rekeningen inzake voorzieningen zijn opgenomen, ontbreken die rekeningen (toevoeging, besteding, terugneming) wat de financiële resultaten betreft.
 
 De Commissie is van oordeel dat deze uitzondering een vrij beperkte draagwijdte heeft, daar de voorzieningen met een financieel karakter uitzonderlijk zijn. Met de definitieve goedkeuring van het advies inzake verrichtingen, tegoeden en verplichtingen in deviezen[^1]
- zijn de hypotheses waarin voorzieningen met een financieel karakter kunnen of moeten worden gevormd nog beperkter dan voorheen[^2].
+ zijn de hypotheses waarin voorzieningen met een financieel karakter kunnen of moeten worden gevormd nog beperkter dan voorheen[^2].
 
 In het algemeen rekeningenstelsel komt een bijzondere rekening voor met betrekking tot de tenlasteneming van fiscale voorzieningen (rekening 6712 *Gevormde fiscale voorzieningen*) en een bijzondere rekening voor de terugnemingen van fiscale voorzieningen (rekening 7712). In de jaarrekening worden de gevormde fiscale voorzieningen evenwel samengevoegd met de andere bestanddelen van belastingen op het resultaat (post X, A) en de terugnemingen van fiscale voorzieningen met de regulariseringen van belastingen op het resultaat. Ook deze uitzondering heeft een beperkte draagwijdte daar de fiscale voorzieningen afzonderlijk op het passief verschijnen en daar sinds de wijziging in september 1983 van het jaarrekeningbesluit, de vorming van dergelijke voorzieningen bovendien slechts in een vrij beperkt aantal gevallen voorkomt[^3].
 

@@ -76,7 +76,7 @@ Na de vrijmaking van de elektriciteitsmarkt werd de distributie van elektricitei
 
 #### Het systeem van groenestroomcertificaten
 
-*a)    Toekenning van groenestroomcertificaten*  
+*a) Toekenning van groenestroomcertificaten* 
 
 Het beleid ter bevordering van hernieuwbare energie en rationeel energiegebruik hebben de alternatieve energieopwekking aantrekkelijker gemaakt. Een van de belangrijkste beleidsondersteunende maatregelen ter bevordering van de milieuvriendelijke elektriciteitsopwekking werd door de artikelen 21 e.v. van het Elektriciteitsdecreet ingevoerd: het systeem van groenestroomcertificaten.
 
@@ -84,11 +84,11 @@ Met ‘groene stroom’ wordt elektriciteit bedoeld, opgewekt door gebruik te ma
 
 Een groenestroomcertificaat is een overdraagbaar immaterieel goed dat aantoont dat een producent in een daarin aangegeven jaar een daarin aangegeven hoeveelheid groene stroom, uitgedrukt in kWh (kilowattuur), heeft opgewekt[^27].
 
-Voor de groene stroom waarvan de producent (de certificaatgerechtigde) aantoont dat deze in het Vlaamse Gewest is geproduceerd, verleent de VREG, op aanvraag van de producent[^28], kosteloos een groenestroomcertificaat per schijf van 1.000 kWh[^29]. De VREG registreert de gegevens van de toegekende groenestroomcertificaten in een centrale databank[^30]. De certificaten worden maandelijks toegekend. Het resterende aantal kWh wordt overgedragen naar de volgende maand. Voor installaties die per jaar meer dan  10.000 kWh elektriciteit opwekken uit een hernieuwbare energiebron, meet de netbeheerder van het net waarop de productie-installatie is aangesloten maandelijks de opgewekte elektriciteit. De netbeheerder brengt de VREG maandelijks op de hoogte van deze meetgegevens. De certificaten worden toegekend op basis van de productiemetingen van de betrokken installatie. Voor installaties die per jaar minder dan 10.000 kWh elektriciteit opwekken, meet de certificaatgerechtigde de in de productie-installatie opgewekte elektriciteit zelf[^31].
+Voor de groene stroom waarvan de producent (de certificaatgerechtigde) aantoont dat deze in het Vlaamse Gewest is geproduceerd, verleent de VREG, op aanvraag van de producent[^28], kosteloos een groenestroomcertificaat per schijf van 1.000 kWh[^29]. De VREG registreert de gegevens van de toegekende groenestroomcertificaten in een centrale databank[^30]. De certificaten worden maandelijks toegekend. Het resterende aantal kWh wordt overgedragen naar de volgende maand. Voor installaties die per jaar meer dan 10.000 kWh elektriciteit opwekken uit een hernieuwbare energiebron, meet de netbeheerder van het net waarop de productie-installatie is aangesloten maandelijks de opgewekte elektriciteit. De netbeheerder brengt de VREG maandelijks op de hoogte van deze meetgegevens. De certificaten worden toegekend op basis van de productiemetingen van de betrokken installatie. Voor installaties die per jaar minder dan 10.000 kWh elektriciteit opwekken, meet de certificaatgerechtigde de in de productie-installatie opgewekte elektriciteit zelf[^31].
 
 Het is de aanvrager van de aansluiting van productie-installaties van elektriciteit uit hernieuwbare energiebronnen die de noodzakelijke kosten draagt voor de aansluiting op het distributienet[^32]. De netbeheerder draagt alle overige kosten voor de uitbouw van het distributienet voor de opname en het transport van de geleverde energie.
 
-*b)    Het gebruik van de groenestroomcertificaten in het kader van de certificatenverplichting[^33] *
+*b) Het gebruik van de groenestroomcertificaten in het kader van de certificatenverplichting[^33] *
 
 Elektriciteitsleveranciers zijn verplicht om een minimumaandeel van hun, aan de eindverbruikers aangesloten op het distributienet, geleverde elektriciteit te halen uit hernieuwbare energiebronnen. Beschikken zij enkel over *grijze stroom* (elektriciteit die niet werd opgewekt uit hernieuwbare energiebronnen), dan zullen zij bijgevolg een minimumaandeel van de door hen geleverde elektriciteit *groen kleuren* door een daarmee overeenstemmende hoeveelheid groenestroomcertificaten aan te kopen[^34]. Iedere leverancier (de certificaatplichtige) die elektriciteit levert aan eindafnemers in het Vlaamse Gewest aangesloten op het distributienet legt, om aan deze quotumplicht te voldoen, jaarlijks, vóór 31 maart van het daaropvolgende jaar, een overeenstemmend aantal groenestroomcertificaten voor aan de VREG[^35]. In die zin is het aantal in te leveren groenestroomcertificaten afhankelijk van het marktaandeel van de leverancier tijdens het jaar voorafgaand aan het jaar waarop de leverancier de certificaten moet overmaken aan de regulator.
 
@@ -96,7 +96,7 @@ Leveranciers die niet zelf elektriciteit produceren moeten aan groenestroomcerti
 
 Het aantal groenestroomcertificaten dat in een bepaald jaar moet worden voorgelegd, wordt vastgesteld met een welbepaalde formule, uiteengezet in art. 23 §2 van het Elektriciteitsdecreet. De groenstroomcertificaten kunnen daartoe worden gebruikt in het jaar waarin ze werden toegekend en in de vijf daaropvolgende boekjaren[^37]. Eens een groenestroomcertificaat werd ingeleverd, is het certificaat niet meer verhandelbaar en kan het niet meer worden gebruikt[^38].
 
-*c)    Het gebruik van groenestroomcertificaten als garantie van oorsprong[^39] *
+*c) Het gebruik van groenestroomcertificaten als garantie van oorsprong[^39] *
 
 Het systeem van de labels van garantie van oorsprong werd geïmplementeerd op Europees niveau door de Richtlijn 2001/77/EG en maakt de *naspeurbaarheid* van elektriciteit afkomstig uit hernieuwbare energiebronnen mogelijk. Een garantie van oorsprong kan worden beschouwd als een soort etiket dat aan een bepaalde hoeveelheid elektriciteit, afkomstig uit een hernieuwbare energiebron, is verbonden.
 
@@ -104,7 +104,7 @@ Eens de opgewekte elektriciteit beschikbaar is op het distributienet, kan immers
 
 Elektriciteit mag bijgevolg in Vlaanderen niet worden verkocht als zijnde elektriciteit uit hernieuwbare energiebronnen zonder dat er een passend etiket 'garantie van oorsprong' aan werd verbonden. Opdat het systeem betrouwbaar zou werken, is het cruciaal dat iedere garantie van oorsprong slechts één keer wordt gebruikt als bewijsstuk van de levering van elektriciteit uit hernieuwbare energiebronnen.
 
-*d)    Minimumsteun van de netbeheerder*
+*d) Minimumsteun van de netbeheerder*
 
 Om de afzet van een minimaal volume groene stroom tegen een minimale prijs op de markt te verzekeren, wordt in een systeem van minimumaankoopprijzen voorzien. In het kader van zijn taak als openbare dienstverlener is de netbeheerder verplicht, van de groenestroomproducent die daarom verzoekt, de groenestroomcertificaten aan te kopen die hem krachtens de wetgeving zijn afgeleverd, tegen een minimumprijs bepaald in functie van de gebruikte productietechnologie[^40].
 
@@ -112,7 +112,7 @@ Op deze manier kennen de netbeheerders een minimumsteun toe voor de productie va
 
 De netbeheerders brengen op regelmatige tijdstippen de aan hen overgedragen certificaten op de markt om de kosten verbonden aan de toekenning van de minimumsteun te recupereren. De VREG staat in voor de transparantie en de regulariteit van de verkoop van deze certificaten door de netbeheerder. De groenestroomcertificaten hebben dus een marktwaarde. De certificaten kunnen maximaal voor 5 jaar aangehouden worden, nadien hebben ze geen waarde meer. Lijsten van de overgedragen certificaten en van de certificaten die door de netbeheerders op de markt werden gebracht, worden maandelijks door de netbeheerders aan de VREG meegedeeld[^43].
 
-*e)    De handel in groenestroomcertificaten*
+*e) De handel in groenestroomcertificaten*
 
 Groenestroomcertificaten zijn vrij verhandelbaar[^44]. De producent heeft de keuze om zijn groenestroomcertificaten te koop aan te bieden op de markt – al dan niet via het veilingplatform van Belpex Green Certificate Exchange - of om een beroep te doen op het hiervoor geschetste systeem van de wettelijke aankoopverplichting door de netbeheerders aan een wettelijk vastgestelde minimumprijs.
 
@@ -122,7 +122,7 @@ Binnen de vijf werkdagen na verkoop deelt de verkoper aan de VREG de gegevens me
 
 Een producent kan ook elektriciteit opwekken uit warmtekoppelingsinstallaties. Daarbij wordt niet alleen elektriciteit geproduceerd, maar wordt ook de vrijgekomen warmte gebruikt.
 
-In het Vlaams Gewest bestaat een afzonderlijk certificatensysteem[^46] ter ondersteuning van kwalitatieve warmtekrachtkoppeling[^47]. Een warmtekrachtcertificaat is een overdraagbaar immaterieel goed dat aantoont dat een daarin genoemde warmtekrachtinstallatie, in een daarin aangegeven jaar, een warmtekrachtbesparing[^48] van 1.000 kWh heeft gerealiseerd[^49]. De toekenning, het gebruik van de warmtekrachtcertificaten in het kader van de certificatenverplichting, het eraan gekoppeld gebruik als garantie van oorsprong, de minimumsteun van de netbeheerders evenals de handel in de warmtekrachtcertificaten verloopt op gelijkaardige wijze als bij de eerder omschreven groenestroomcertificaten.  
+In het Vlaams Gewest bestaat een afzonderlijk certificatensysteem[^46] ter ondersteuning van kwalitatieve warmtekrachtkoppeling[^47]. Een warmtekrachtcertificaat is een overdraagbaar immaterieel goed dat aantoont dat een daarin genoemde warmtekrachtinstallatie, in een daarin aangegeven jaar, een warmtekrachtbesparing[^48] van 1.000 kWh heeft gerealiseerd[^49]. De toekenning, het gebruik van de warmtekrachtcertificaten in het kader van de certificatenverplichting, het eraan gekoppeld gebruik als garantie van oorsprong, de minimumsteun van de netbeheerders evenals de handel in de warmtekrachtcertificaten verloopt op gelijkaardige wijze als bij de eerder omschreven groenestroomcertificaten. 
 
 ### Het Waals Gewest
 
@@ -136,7 +136,7 @@ In het Waalse Gewest kunnen vanaf 1 januari 2007 alle afnemers[^60] vrij een ele
 
 #### Het systeem van groene certificaten
 
-*a)    Label van garantie van oorsprong[^63] *
+*a) Label van garantie van oorsprong[^63] *
 
 Om de identificatie van de elektriciteit uit hernieuwbare energiebronnen[^64] en/of hoogrenderende warmtekrachtkoppeling[^65] te vergemakkelijken, wordt door de Waalse regering een systeem van labels van garantie van oorsprong[^66] opgezet.
 
@@ -148,25 +148,25 @@ Bij afsluiting van een leveringscontract met een afnemer is de leverancier verpl
 
 De leveranciers leggen de labels van garantie van oorsprong voor telkens ze elektriciteit uit hernieuwbare energiebronnen en/of warmtekrachtkoppeling leveren[^73] aan eindafnemers. Ze bezorgen de netbeheerder maandelijks de lijst van hun eindafnemers die op hun net aangesloten zijn, waarbij per eindafnemer de hoeveelheid van de elektriciteit opgewekt uit hernieuwbare energiebronnen en/of warmtekrachtkoppeling wordt vermeld in verhouding tot de totale hoeveelheid elektriciteit die ze hem leveren. De netbeheerders geven op hun beurt de CWaPE en de betrokken leverancier maandelijks kennis van de verbruiksgegevens van de eindafnemers. Ook hier wordt het aandeel elektriciteit uit hernieuwbare energieën en/of warmtekrachtkoppeling in de totale elektriciteitslevering aan die eindafnemers berekend. Op basis van deze gegevens controleert de CWaPE maandelijks of de leveranciers een voldoende aantal labels van garantie van oorsprong teruggeven. Enkel op die manier hebben hun eindafnemers de garantie dat de aan hen geleverde elektriciteit hernieuwbaar is en/of uit warmtekrachtkoppeling is opgewekt.
 
-*b)    Toekenning groene certificaten*
+*b) Toekenning groene certificaten*
 
 Om de ontwikkeling van de elektriciteitsproductie uit hernieuwbare energiebronnen en/of warmtekrachtkoppeling te bevorderen, zet de Waalse regering een systeem van groene certificaten[^74] op, bestemd voor producenten van *groene elektriciteit*. Het betreft elektriciteit voortgebracht door hernieuwbare energiebronnen of door kwaliteitswarmtekrachtkoppeling waarvan de productiebron minstens 10% minder koolstofdioxide genereert ten opzichte van de uitstoting van koolstofdioxide, die jaarlijks bepaald en bekend gemaakt worden door de CWaPE, door een conventionele productie in moderne referentie-installaties[^75].
 
 Driemaandelijks geeft de producent daartoe de energiemeterstanden door aan CWaPE. Er wordt door de CWaPE een groen certificaat toegekend voor een aantal geproduceerde kWh overeenstemmend met 1 Mwu gedeeld door het percentage koolstofdioxidebesparing[^76]. De groene certificaten hebben een geldigheidsduur van vijf jaar[^77]. De geldigheidsdatum begint te lopen vanaf het einde van de maand waarin de certificaten zijn toegekend.
 
-*c)    Gebruik van de groene certificaten*
+*c) Gebruik van de groene certificaten*
 
 Elk kwartaal worden de elektriciteitsleveringen in Wallonië die door de leveranciers worden aangegeven en door de netbeheerders worden gemeten, aan de CWaPE overgemaakt. Op basis van deze informatie moeten de leveranciers en de netbeheerders aan de CWaPE een quotum[^78] aan groene certifcaten inleveren. De leveranciers en de netbeheerders bezorgen vervolgens aan de CWaPE om de drie maanden het aantal groene certificaten dat overeenstemt met het quotum dat hen werd opgelegd[^79]. Worden de quota niet in acht genomen, dan moet de leverancier of de netbeheerder een administratieve boete betalen[^80].
 
-*d)    Markt van labels van garantie van oorsprong en van de groene certificaten*
+*d) Markt van labels van garantie van oorsprong en van de groene certificaten*
 
-De authenticiteit van de labels van garantie van oorsprong en van de groene certificaten wordt gewaarborgd door de registratie ervan in een gecentraliseerde gegevensbank die door de CWaPE wordt beheerd. De gegevensbank bevat de gegevens van de producenten, leveranciers, tussenpersonen en netbeheerders die tussenkomen op de markt van de labels van garantie van oorsprong en op de markt van de groene certificaten die worden afgeleverd, uitgewisseld en teruggegeven aan de CWaPE[^81].  
+De authenticiteit van de labels van garantie van oorsprong en van de groene certificaten wordt gewaarborgd door de registratie ervan in een gecentraliseerde gegevensbank die door de CWaPE wordt beheerd. De gegevensbank bevat de gegevens van de producenten, leveranciers, tussenpersonen en netbeheerders die tussenkomen op de markt van de labels van garantie van oorsprong en op de markt van de groene certificaten die worden afgeleverd, uitgewisseld en teruggegeven aan de CWaPE[^81]. 
 
 Van zodra de producent in het bezit is van labels van garantie van oorsprong en/of groene certificaten, kan hij deze verhandelen, los van de verkoop van de door hem effectief geproduceerde elektriciteit.
 
 De groene certificaten zijn niet langer overdraagbaar van zodra ze werden gebruikt door de leverancier of de netbeheerder om te voldoen aan de quotaverplichting. Ook de labels van garantie van oorsprong zijn niet langer overdraagbaar eens ze werden gebruikt om te voldoen aan de eerder vermelde verplichtingen (cfr. supra).
 
-*e)    Minimumsteun*
+*e) Minimumsteun*
 
 De netbeheerder is verplicht de overtollige productie van de op zijn net aangesloten producenten van groene elektriciteit tegen marktprijzen te kopen. Is de overtollige productie groter dan de verbruikscapaciteit van de netbeheerder, dan licht de netbeheerder de leveranciers daarvan in. De leveranciers kopen de overtollige productie op naar rato van de elektriciteitshoeveelheden die ze leveren op het grondgebied van de netbeheerder waar de installaties van de betrokken producenten van groene elektriciteit gevestigd zijn[^82].
 
@@ -182,7 +182,7 @@ In het Waalse Gewest komen kwalitatieve wermtekrachtkoppelingsinstallaties in aa
 
 De ordonnantie van 19 juli 2001[^85] betreffende de organisatie van de elektriciteitsmarkt in het Brussels Hoofdstedelijk Gewest regelt het beheer van het gewestelijk transmissienet[^86], van het distributienet[^87] alsook de toegang tot beide netten[^88].
 
-De regering van het Brussels Hoofdstedelijk Gewest wijst de intercommunale, die over het eigendoms- of gebruiksrecht van de zich op het grondgebied van het Brussels Hoofdstedelijk Gewest bevindende distributienetten beschikt, aan als de distributienetbeheerder[^89]. Deze aanwijziging gebeurt voor een termijn van twintig jaar. De  distributienetbeheerder is verantwoordelijk voor de uitbating, het onderhoud en de ontwikkeling van het distributienet, met de bedoeling de regelmaat en de kwaliteit van de energievoorziening te verzekeren. Hiertoe wordt de distributienetbeheerder belast met onder andere de volgende taken: verbetering, vernieuwing en uitbreiding van het net, installatie en het ter beschikking stellen van de aansluitingen, onderhoud en bestuur van het net. Gelijkaardige bepalingen zijn van toepassing voor de transmissienetbeheerder[^90].
+De regering van het Brussels Hoofdstedelijk Gewest wijst de intercommunale, die over het eigendoms- of gebruiksrecht van de zich op het grondgebied van het Brussels Hoofdstedelijk Gewest bevindende distributienetten beschikt, aan als de distributienetbeheerder[^89]. Deze aanwijziging gebeurt voor een termijn van twintig jaar. De distributienetbeheerder is verantwoordelijk voor de uitbating, het onderhoud en de ontwikkeling van het distributienet, met de bedoeling de regelmaat en de kwaliteit van de energievoorziening te verzekeren. Hiertoe wordt de distributienetbeheerder belast met onder andere de volgende taken: verbetering, vernieuwing en uitbreiding van het net, installatie en het ter beschikking stellen van de aansluitingen, onderhoud en bestuur van het net. Gelijkaardige bepalingen zijn van toepassing voor de transmissienetbeheerder[^90].
 
 De distributienetbeheerder verleent, onder bepaalde voorwaarden vastgesteld in het technisch reglement[^91], toegang tot het net[^92] aan:
 
@@ -200,21 +200,21 @@ De liberalisering laat afnemers toe een leverancier te kiezen die een aanzienlij
 
 Een groenestroomcertificaat wordt in de bepalingen van toepassing op het Brussels Hoofdstedelijk Gewest omschreven[^101] als zijnde een overdraagbare en verhandelbare titel toegekend voor opgewekte groene elektriciteit of elektriciteit geproduceerd op basis van warmtekrachtkoppeling, volgens de voorwaarden bepaald krachtens art. 28 van de Elektriciteitsordonnantie. Om groenestroomcertificaten te kunnen verkrijgen, moet een installatie voor de productie van groene elektriciteit of van warmtekracht, gelegen op het grondgebied van het Brussels Hoofdstedelijk Gewest, het voorwerp uitmaken van een voorafgaandelijke certifiëring[^102]. Deze certificering verklaart dat de betrokken installatie daadwerkelijk een installatie voor de productie van groene elektriciteit of van warmtekracht is. Deze certificering gebeurt door BRUGEL[^103], de reguleringscommissie voor gas en elektriciteit in het Brussels Hoofdstedelijk Gewest.
 
-*a)    Toekenning groenestroomcertificaten*
+*a) Toekenning groenestroomcertificaten*
 
-Aan de hand van de gegevens die door de meetinstrumenten van de gecertificeerde installaties worden opgenomen, kent BRUGEL trimesterieel groenestroomcertificaten toe aan welbepaalde installaties. De installatie moet hiervoor voldoen aan een aantal voorwaarden[^104]. Een van de voorwaarden is dat de installatie een relatieve CO2-besparing heeft van minimaal 5%.  
+Aan de hand van de gegevens die door de meetinstrumenten van de gecertificeerde installaties worden opgenomen, kent BRUGEL trimesterieel groenestroomcertificaten toe aan welbepaalde installaties. De installatie moet hiervoor voldoen aan een aantal voorwaarden[^104]. Een van de voorwaarden is dat de installatie een relatieve CO2-besparing heeft van minimaal 5%. 
 
 De toekenning van groenestroomcertificaten geschiedt geïnformatiseerd en bijgevolg onder immateriële vorm, door inschrijving van een titel voor groenestroomcertificaten op het krediet van de rekening die overeenkomt met de installatie in een gegevensbank die door BRUGEL wordt beheerd. Elk groenestroomcertificaat heeft een geldigheidsduur van vijf jaar vanaf de dag waarop het werd toegekend[^105].
 
-*b)    Het gebruik van de groenestroomcertificaten in het kader van de certificatenverplichting[^106] *
+*b) Het gebruik van de groenestroomcertificaten in het kader van de certificatenverplichting[^106] *
 
 Iedere leverancier levert aan BRUGEL een aantal groenestroomcertificaten af, dat afhankelijk is van het geheel van leveringen in de loop van het jaar aan in aanmerking komende afnemers gevestigd op het grondgebied van het Brussels Hoofdstedelijk Gewest[^107]. Elke leverancier deelt hiertoe ten laatste op 31 januari van elk jaar aan BRUGEL de cijfers mee betreffende de leveringen die hij tijdens het voorgaande jaar heeft verricht. De leveranciers duiden daarbij aan welke eindafnemers werden bevoorraad met groene electriciteit (aan de hand van de labels van garantie van oorsprong (cfr. infra) die in dit kader door de leverancier moeten worden voorgelegd). Op basis van deze gegevens berekent en deelt BRUGEL aan iedere leverancier ten laatste op 28 februari mee hoeveel certificaten deze moet afgeven. De leverancier duidt vervolgens aan welke van de groenestroomcertificaten die op zijn rekening staan in rekening moeten worden gebracht tot naleving van deze verplichting. Elk in rekening gebracht certificaat wordt vervolgens in de gegevensbank geannuleerd. In geval van niet naleving van deze verplichting, legt BRUGEL aan de leverancier een administratieve boete[^108] op. Leveranciers die zelf geen producent zijn van groene elektriciteit, zullen de groenestroomcertificaten moeten aankopen.
 
-*c)    De handel in groenestroomcertificaten*
+*c) De handel in groenestroomcertificaten*
 
 De groenestroomcertificaten zijn vrij overdraagbaar en verhandelbaar[^109]. BRUGEL maakt elk jaar de gemiddelde prijs bekend van de groenestroomcertificaten die tijdens het voorafgaande jaar werden verhandeld. De markt van groenestroomcertificaten bestaat sinds mei 2004[^110].
 
-*d)    Label van garantie van oorsprong*
+*d) Label van garantie van oorsprong*
 
 De Europese landen voerden een mechanisme in waarmee groene stroom op Europese schaal kan worden opgespoord. Een label van garantie van oorsprong wordt door BRUGEL toegekend aan de titularis van een gecertificeerde installatie[^111] voor de opwekking van een bepaalde hoeveelheid elektriciteit uit hernieuwbare energiebronnen[^112] of aan de titularis van een hoogrenderende warmtekrachtinstallatie.
 
@@ -224,17 +224,17 @@ De driemaandelijkse toekenning van de labels van garantie van oorsprong geschied
 
 De leveranciers moeten deze labels van garantie van oorsprong voorleggen[^114] telkens ze elektriciteit uit hernieuwbare energiebronnen leveren. Daartoe moeten ze zelf bij de producenten van deze energie garanties van oorsprong verwerven of zelf stroom uit hernieuwbare energiebronnen opwekken. Leveranciers zijn verplicht een lijst te bezorgen van de klanten aan wie zij deze groene stroom leveren. Samen met de gegevens omtrent het verbruik van deze afnemers kan worden berekend hoeveel garanties van oorsprong de leverancier moet voorleggen. Dit systeem biedt de authoriteiten de zekerheid dat er evenveel groene stroom wordt opgewekt als er wordt verkocht. Bovendien kan op die manier dezelfde eenheid elektriciteit uit hernieuwbare energiebronnen nooit door verschillende leveranciers tegelijkertijd als ‘groen' worden bestempeld. Doelstelling is om door middel van dit systeem de aangroei van de productie van groene stroom te garanderen wanneer ook de vraag van de leveranciers groot is.
 
-Elk label van garantie van oorsprong is vrij overdraagbaar en verhandelbaar, op dezelfde wijze als de groenestroomcertificaten[^115] (cfr. infra). Elke natuurlijke of rechtspersoon die labels van garantie van oorsprong wenst te kopen of verkopen, moet zich evenwel vooraf een rekening hebben laten toekennen in de gegevensbank waarvan eerder sprake.  
+Elk label van garantie van oorsprong is vrij overdraagbaar en verhandelbaar, op dezelfde wijze als de groenestroomcertificaten[^115] (cfr. infra). Elke natuurlijke of rechtspersoon die labels van garantie van oorsprong wenst te kopen of verkopen, moet zich evenwel vooraf een rekening hebben laten toekennen in de gegevensbank waarvan eerder sprake. 
 
 BRUGEL maakt, op basis van de voorgelegde labels van garantie van oorsprong, op haar website het percentage groene elektriciteit bekend dat door elke leveranciers in de loop van het betrokken jaar wordt geleverd aan klanten gesitueerd in het Brussels Hoofdstedelijk Gewest.
 
-*e)    Minimumsteun aan de producenten*
+*e) Minimumsteun aan de producenten*
 
 Slaagt een producent[^116] uit het Brussels Hoofdstedelijk Gewest er niet volledig in zijn geproduceerde energie te verkopen, dan zijn de leveranciers die instaan voor de levering aan de afnemers verplicht tot aankoop van deze elektriciteitsoverschotten, en dit tegen de marktprijs en binnen de grenzen van de behoeften van hun afnemers. Bovenop die behoeften wordt de verplichting overgedragen op de andere leveranciers[^117].
 
 #### Het systeem van warmtekrachtcertificaten
 
-In het Brussels Hoofdstedelijk Gewest komen kwalitatieve warmtekrachtkoppelingsinstallaties in aanmerking voor de toekenning van groenestroomcertificaten.  
+In het Brussels Hoofdstedelijk Gewest komen kwalitatieve warmtekrachtkoppelingsinstallaties in aanmerking voor de toekenning van groenestroomcertificaten. 
 
 De distributienetbeheerder is op zijn beurt verplicht tot overname van de door kwalitatief warmtekrachtkoppeling geproduceerde elektriciteit die noch zelf verbruikt, noch aan derden geleverd wordt, en dit binnen de grenzen van zijn behoeften[^118].
 
@@ -250,7 +250,7 @@ Alhoewel er grote gelijkenissen zijn met advies 179/1 *Boekhoudkundige verwerkin
 
 De toekenning van de groenestroomcertificaten[^122] betreft een soort van tegemoetkoming van de overheid voor de aanzienlijke investering verricht door de producent ter productie van energie uit hernieuwbare energiebronnen[^123].
 
-De certificaten vormen, zoals tevens in het eerder verschenen advies 179/1[^124] werd gesteld, een soort van betaalmiddel en kunnen worden beschouwd als onlichamelijk roerende zakelijke rechten[^125] of roerende rechten van immateriële aard[^126]. Gezien de omschrijving die art. 95 K.B. W.Venn. geeft aan  de inhoud van de post *Immateriële vaste activa*, lijkt het de Commissie aangewezen de aan de producent toegekende certificaten onder de *Immateriële vaste activa* op te nemen. Hiertoe kan de in advies 179/1 voorgestelde rekening ‘2140[^127]
+De certificaten vormen, zoals tevens in het eerder verschenen advies 179/1[^124] werd gesteld, een soort van betaalmiddel en kunnen worden beschouwd als onlichamelijk roerende zakelijke rechten[^125] of roerende rechten van immateriële aard[^126]. Gezien de omschrijving die art. 95 K.B. W.Venn. geeft aan de inhoud van de post *Immateriële vaste activa*, lijkt het de Commissie aangewezen de aan de producent toegekende certificaten onder de *Immateriële vaste activa* op te nemen. Hiertoe kan de in advies 179/1 voorgestelde rekening ‘2140[^127]
 ’ eventueel verder worden onderverdeeld.
 
 Op moment van toekenning van de certificaten (maandelijks) door de gewestelijke regulator aan de producent, worden deze certificaten in de boekhouding van de producent opgenomen aan aanschaffingswaarde[^128]. Het voorzichtigheidsprincipe[^129] in acht nemende, kan de minimumsteun die de netbeheerder zou betalen in het kader van zijn verplichte overname worden beschouwd als de aanschaffingswaarde, aangezien dit de waarde betreft waartegen de producent de certificaten steeds kan realiseren. Op hetzelfde moment wordt dit bedrag opgenomen onder de *Overige Opbrengsten*. Op deze manier worden de opbrengsten in resultaat genomen in de periode waarin ook de productiekosten worden gedragen (overeenstemmingsprincipe).
@@ -261,8 +261,8 @@ Boeking bij toekenning van de groenestroomcertificaten
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2140 | Groenestroomcertificaten | ... |  |
-| aan | 743 - 749 | Diverse bedrijfsopbrengsten |  | ... |
+| | 2140 | Groenestroomcertificaten | ... | |
+| aan | 743 - 749 | Diverse bedrijfsopbrengsten | | ... |
 
 De opbrengsten voortvloeiende uit de toegekende certificaten voor de laatste maand van het boekjaar worden op balansdatum nog aan de boekingsperiode toegerekend.
 
@@ -270,41 +270,41 @@ Boeking toerekening groenestroomcertificaten op balansdatum
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 404 | Te innen opbrengsten | ... |  |
-| aan | 743 - 749 | Diverse bedrijfsopbrengsten |  | ... |
+| | 404 | Te innen opbrengsten | ... | |
+| aan | 743 - 749 | Diverse bedrijfsopbrengsten | | ... |
 
-In het geval dat de producent de door hem opgewekte energie niet verkoopt, maar zelf verbruikt, is de certificatieplicht niet van toepassing en en kan de producent de hem toegekende certificaten naar keuze te koop aanbieden op de markt of een beroep  doen op het eerder geschetste systeem van de wettelijke aankoopverplichting door de netbeheerders. De overdracht van de certificaten aan de netbeheerder zal plaatsvinden aan de wettelijk vastgestelde minimumprijs. Deze prijs stemt overeen met de prijs gehanteerd ter vaststelling van de bij toekenning geboekte aanschaffingsprijs.
+In het geval dat de producent de door hem opgewekte energie niet verkoopt, maar zelf verbruikt, is de certificatieplicht niet van toepassing en en kan de producent de hem toegekende certificaten naar keuze te koop aanbieden op de markt of een beroep doen op het eerder geschetste systeem van de wettelijke aankoopverplichting door de netbeheerders. De overdracht van de certificaten aan de netbeheerder zal plaatsvinden aan de wettelijk vastgestelde minimumprijs. Deze prijs stemt overeen met de prijs gehanteerd ter vaststelling van de bij toekenning geboekte aanschaffingsprijs.
 
 Boeking op moment van overdracht van de certificaten aan de netbeheerder
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 55..0 | Kredietinstellingen: rekening-courant | ... |  |
-| aan | 2140 | Groenestroomcertificaten |  | ... |
-|  | 451 | Te betalen btw | ... |  |
+| | 55..0 | Kredietinstellingen: rekening-courant | ... | |
+| aan | 2140 | Groenestroomcertificaten | | ... |
+| | 451 | Te betalen btw | ... | |
 
 De verkoopprijs van de certificaten op de markt kan eventueel hoger zijn dan deze vastgestelde minimumprijs: de meerwaarde wordt in opbrengst genomen.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 55..0 | Kredietinstellingen: rekening-courant | ... |  |
-| aan | 2140 | Groenestroomcertificaten |  | ... |
-|  | 741 | Meerwaarden op de courante realisatie van vaste activa | ... |  |
-|  | 451 | Te betalen btw | ... |  |
+| | 55..0 | Kredietinstellingen: rekening-courant | ... | |
+| aan | 2140 | Groenestroomcertificaten | | ... |
+| | 741 | Meerwaarden op de courante realisatie van vaste activa | ... | |
+| | 451 | Te betalen btw | ... | |
 
 #### Boekhoudkundige verwerking bij de leverancier
 
-Energieleveranciers zijn verplicht om  jaarlijks een aantal certificaten voor te leggen aan de gewestelijke regulator. Het aantal in te leveren certificaten is afhankelijk van het marktaandeel van de leverancier tijdens het jaar voorafgaand aan het jaar waarop de leverancier de certificaten moet overmaken aan de regulator.  
+Energieleveranciers zijn verplicht om jaarlijks een aantal certificaten voor te leggen aan de gewestelijke regulator. Het aantal in te leveren certificaten is afhankelijk van het marktaandeel van de leverancier tijdens het jaar voorafgaand aan het jaar waarop de leverancier de certificaten moet overmaken aan de regulator. 
 
-De leverancier zal, in het kader van deze certificatenplicht, een voldoende aantal certificaten moeten aankopen. De Commissie is van oordeel dat de nettomethode, zoals ook uiteengezet in CBN-advies 179/1, voor de leverancier meer aangewezen is. Volgens deze methode wordt de aankoop van de certificaten als aankoopkost in de resultatenrekening geboekt.  
+De leverancier zal, in het kader van deze certificatenplicht, een voldoende aantal certificaten moeten aankopen. De Commissie is van oordeel dat de nettomethode, zoals ook uiteengezet in CBN-advies 179/1, voor de leverancier meer aangewezen is. Volgens deze methode wordt de aankoop van de certificaten als aankoopkost in de resultatenrekening geboekt. 
 
 Boeking bij aankoop van de certificaten door de leverancier aan aanschaffingswaarde, in dit geval de aanschaffingsprijs.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 643 - 648 | Diverse bedrijfskosten | ... |  |
-|  | 411 | Terug te vorderen btw | ... |  |
-| aan | 55...0 | Kredietinstellingen: rekening-courant |  | ... |
+| | 643 - 648 | Diverse bedrijfskosten | ... | |
+| | 411 | Terug te vorderen btw | ... | |
+| aan | 55...0 | Kredietinstellingen: rekening-courant | | ... |
 
 Op inventarisdatum zal, voor het verschil tussen het aantal certificaten in het bezit van de leverancier en het aantal benodigde certificaten dat het komende jaar zal moeten worden ingeleverd, een voorziening worden aangelegd[^131]. Deze voorziening wordt gewaardeerd tegen de reële waarde van de certificaten op balansdatum. In de toelichting bij de jaarrekening wordt in dit verband een passende vermelding opgenomen.
 
@@ -312,26 +312,26 @@ Boeking aanleggen voorziening op balansdatum
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6370 | Voorzieningen voor andere risico’s en kosten: toevoeging | ... |  |
-| aan | 163 - 165 | Voorzieningen voor overige risico’s en kosten |  | ... |
+| | 6370 | Voorzieningen voor andere risico’s en kosten: toevoeging | ... | |
+| aan | 163 - 165 | Voorzieningen voor overige risico’s en kosten | | ... |
 
 Deze voorziening wordt besteed bij aankoop van de ontbrekende certificaten door de leverancier.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 163 | Voorzieningen voor overige risico’s en kosten | ... |  |
-| aan | 6371 | Voorzieningen voor andere risico’s en kosten: besteding en terugneming |  | ... |
+| | 163 | Voorzieningen voor overige risico’s en kosten | ... | |
+| aan | 6371 | Voorzieningen voor andere risico’s en kosten: besteding en terugneming | | ... |
 
 Heeft de leverancier op invenstarisdatum meer certificaten in zijn bezit dan het aantal in te leveren certificaten in het kader van zijn certificatenplicht, dan worden de *Diverse bedrijfskosten* gecrediteerd voor dit saldo. Gebruik makend van de overlopende rekeningen, worden de aankoopkosten van deze certificaten overgedragen naar de volgende periode.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 490 | Over te dragen kosten | ... |  |
-| aan | 643 - 648 | Diverse bedrijfskosten |  | ... |
+| | 490 | Over te dragen kosten | ... | |
+| aan | 643 - 648 | Diverse bedrijfskosten | | ... |
 
 De eventuele administratieve boete wegens het niet inleveren van een voldoende aantal certificaten zal pas worden opgenomen onder de kosten op het ogenblik waarop de inleveringstermijn verstrijkt waarin de certificaten moeten worden ingeleverd.
 
-Het inleveren van de certificaten bij de gewestelijke regulator heeft geen boeking tot gevolg.  
+Het inleveren van de certificaten bij de gewestelijke regulator heeft geen boeking tot gevolg. 
 
 [^1]: Art. 2, a), Richtlijn 2001/77/EG: hernieuwbare, niet-fossiele energiebronnen (wind, zonne-energie, aardwarmte, golfenergie, getijdenenergie, waterkracht, biomassa, stortgas, rioolwaterzuiveringsgas en biogas).
 

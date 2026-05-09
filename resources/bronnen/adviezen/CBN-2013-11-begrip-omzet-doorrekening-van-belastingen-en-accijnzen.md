@@ -39,24 +39,24 @@ gerelateerde_adviezen:
 ## Inleiding
 
 Artikel 96, I.A. van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen[^1]
- (hierna KB W.Venn.) bepaalt dat onder omzet moet worden verstaan “het bedrag van de verkoop van goederen en de levering van diensten aan derden, in het kader van de gewone bedrijfsuitoefening van de vennootschap, onder aftrek van de op de verkoopprijs in de handel toegestane kortingen (afslag, ristorno, rabat); dit bedrag omvat niet de belasting over de toegevoegde waarde, noch enige andere rechtstreeks met de omzet verbonden belasting.”
+ (hierna KB W.Venn.) bepaalt dat onder omzet moet worden verstaan “het bedrag van de verkoop van goederen en de levering van diensten aan derden, in het kader van de gewone bedrijfsuitoefening van de vennootschap, onder aftrek van de op de verkoopprijs in de handel toegestane kortingen (afslag, ristorno, rabat); dit bedrag omvat niet de belasting over de toegevoegde waarde, noch enige andere rechtstreeks met de omzet verbonden belasting.”
 
-Aan de Commissie werd de vraag gesteld wat precies moet worden begrepen onder de “rechtstreeks met de omzet verbonden belastingen”. 
+Aan de Commissie werd de vraag gesteld wat precies moet worden begrepen onder de “rechtstreeks met de omzet verbonden belastingen”. 
 
 ## Definitie van de “rechtstreeks met de omzet verbonden belastingen”
 
-De Commissie is van oordeel dat onder de “rechtstreeks met de omzet verbonden belastingen” de belastingen moeten worden verstaan waarbij het bedrag van de belasting rechtstreeks wordt berekend op de bruto-ontvangsten die de vennootschappen hebben verworven ten gevolge van een deel of het geheel van hun activiteiten. 
+De Commissie is van oordeel dat onder de “rechtstreeks met de omzet verbonden belastingen” de belastingen moeten worden verstaan waarbij het bedrag van de belasting rechtstreeks wordt berekend op de bruto-ontvangsten die de vennootschappen hebben verworven ten gevolge van een deel of het geheel van hun activiteiten. 
 
-Een voorbeeld van een belasting die “rechtstreeks met de omzet is verbonden” in de zin van artikel 96, A.I. KB W.Venn. is een lokale belasting op vertoningen en vermakelijkheden waarbij de belasting wordt berekend op de bruto-ontvangsten van deze vertoningen of vermakelijkheden voor de organiserende vennootschap[^2]. 
+Een voorbeeld van een belasting die “rechtstreeks met de omzet is verbonden” in de zin van artikel 96, A.I. KB W.Venn. is een lokale belasting op vertoningen en vermakelijkheden waarbij de belasting wordt berekend op de bruto-ontvangsten van deze vertoningen of vermakelijkheden voor de organiserende vennootschap[^2]. 
 
-## Toepassingen 
+## Toepassingen 
 
-Aan de Commissie werd in het verleden de vraag gesteld of de accijns op bepaalde producten moet worden beschouwd als een “rechtstreeks met de omzet verbonden belasting” in de zin van artikel 96, I.A. KB W.Venn. De Commissie meent dat de accijns op bepaalde producten (minerale oliën, tabak, alcoholische dranken, suiker, enz.) niet rechtstreeks met de omzet is verbonden en bijgevolg niet van het bedrag van de omzet kan worden afgetrokken, noch in de voorstelling van de jaarrekeningen, noch voor het bepalen van het toepassingsveld van de hierboven vermelde bepalingen van de wet op de boekhouding en van het KB W.Venn. 
+Aan de Commissie werd in het verleden de vraag gesteld of de accijns op bepaalde producten moet worden beschouwd als een “rechtstreeks met de omzet verbonden belasting” in de zin van artikel 96, I.A. KB W.Venn. De Commissie meent dat de accijns op bepaalde producten (minerale oliën, tabak, alcoholische dranken, suiker, enz.) niet rechtstreeks met de omzet is verbonden en bijgevolg niet van het bedrag van de omzet kan worden afgetrokken, noch in de voorstelling van de jaarrekeningen, noch voor het bepalen van het toepassingsveld van de hierboven vermelde bepalingen van de wet op de boekhouding en van het KB W.Venn. 
 
 Aan de Commissie werd tevens de vraag gesteld of de Vlaamse afvalstoffenheffing[^3]
- moet worden beschouwd als een “rechtstreeks met de omzet verbonden belasting” in de zin van artikel 96, I.A. KB W.Venn. De Commissie merkt hierbij op dat uit artikel 46 van het materialendecreet volgt dat de afvalstoffenheffing ten aanzien van de afvalverwerkende of – overbrengende ondernemingen steeds geheven wordt per ton verwerkte of overgebrachte afvalstoffen. Bijgevolg kan deze afvalstoffenheffing naar mening van de Commissie niet worden beschouwd als een “rechtstreeks met de omzet verbonden belasting”. Deze belasting wordt immers niet geheven op de bruto-ontvangsten (of omzet) van de afvalverwerkende of – overbrengende ondernemingen. 
+ moet worden beschouwd als een “rechtstreeks met de omzet verbonden belasting” in de zin van artikel 96, I.A. KB W.Venn. De Commissie merkt hierbij op dat uit artikel 46 van het materialendecreet volgt dat de afvalstoffenheffing ten aanzien van de afvalverwerkende of – overbrengende ondernemingen steeds geheven wordt per ton verwerkte of overgebrachte afvalstoffen. Bijgevolg kan deze afvalstoffenheffing naar mening van de Commissie niet worden beschouwd als een “rechtstreeks met de omzet verbonden belasting”. Deze belasting wordt immers niet geheven op de bruto-ontvangsten (of omzet) van de afvalverwerkende of – overbrengende ondernemingen. 
 
-**Dit advies vervangt het advies 101.**  
+**Dit advies vervangt het advies 101.** 
 
 [^1]: BS 6 februari 2001.
 

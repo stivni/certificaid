@@ -35,16 +35,16 @@ provenance:
 
 ## Levering van handelsgoederen om niet
 
-Een onderneming die aan een derde handelsgoederen om niet levert, dient in zijn boekhouding weer te geven dat deze goederen zijn voorraad hebben verlaten. 
+Een onderneming die aan een derde handelsgoederen om niet levert, dient in zijn boekhouding weer te geven dat deze goederen zijn voorraad hebben verlaten. 
 
 ***Voorbeeld***
 
 Een onderneming levert handelsgoederen ter waarde van 500 euro[^2]
- gratis aan haar klant. Op inventarisdatum zal de rekening 340 *Handelsgoederen*, via het boeken van de voorraadwijzigingen, voor 500 euro worden beïnvloed. 
+ gratis aan haar klant. Op inventarisdatum zal de rekening 340 *Handelsgoederen*, via het boeken van de voorraadwijzigingen, voor 500 euro worden beïnvloed. 
 
 De Commissie spreekt zich niet uit over de BTW-implicaties van de levering van goederen om niet.
 
-## Ontvangst van handelsgoederen om niet 
+## Ontvangst van handelsgoederen om niet 
 
 De Commissie stelt vast dat er in de praktijk aan de ontvangst van handelsgoederen om niet meestal een aankoopverplichting is verbonden.
 
@@ -56,10 +56,10 @@ Een onderneming ontvangt bij de aankoop van 100 handelsgoederen, 10 stuks ‘gra
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 604 | Aankopen van handelsgoederen | 11.000 |  |
-| aan | 440 | Leveranciers |  | 11.000 |
+| | 604 | Aankopen van handelsgoederen | 11.000 | |
+| aan | 440 | Leveranciers | | 11.000 |
 
-Bij ontvangst van de 10 ‘gratis’ stuks, dient de onderneming geen bijkomende boeking te verrichten. 
+Bij ontvangst van de 10 ‘gratis’ stuks, dient de onderneming geen bijkomende boeking te verrichten. 
 
 Er dient hierbij wel opgemerkt te worden dat de prijs per stuk bij voorraadwaardering 100 euro (11.000 euro/110 stuks) zal bedragen in plaats van 110 euro.
 

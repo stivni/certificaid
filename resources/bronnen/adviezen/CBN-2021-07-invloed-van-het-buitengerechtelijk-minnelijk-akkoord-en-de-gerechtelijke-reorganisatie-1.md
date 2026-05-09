@@ -57,7 +57,7 @@ gerelateerde_adviezen:
 ## Inleiding
 
 De wet van 11 augustus 2017 heeft Boek XX “Insolventie van ondernemingen” toegevoegd aan het Wetboek van economisch recht. De bedoeling hiervan is om de wetten inzake insolventie[^2]
- samenhangender te maken en ze als een rationeel geheel in het Wetboek van economisch recht te voegen[^3]. 
+ samenhangender te maken en ze als een rationeel geheel in het Wetboek van economisch recht te voegen[^3]. 
 
 De wetgever heeft overigens in de wet van 15 april 2018 het begrip “onderneming” bepaald. Er bestonden immers uiteenlopende definities van een onderneming in verschillende wetteksten[^4]. Het begrip “onderneming” is nu te vinden in artikel I.1 van het Wetboek van economisch recht. De bedoeling is dat met deze definitie alle actoren die economisch actief zijn, worden gedekt[^5].
 
@@ -71,11 +71,11 @@ De procedure van de gerechtelijke reorganisatie strekt ertoe, onder toezicht van
 
 Het vermijden van een faillissement staat centraal in alle akkoorden. Daartoe wordt dikwijls aan de schuldenaar, in het raam van een buitengerechtelijk minnelijk akkoord of een gerechtelijke reorganisatie, uitstel van betaling verleend en/of kwijtschelding toegestaan ten belope van maximaal 80 % van de schuld. Deze kwijtschelding kan gebonden worden aan de ontbindende voorwaarde van terugkeer van de schuldenaar naar betere toestand[^10]. Er kan ook afgesproken worden dat de schuldenaar zijn lening renteloos mag aflossen. Of er kan aan de schuldeisers voorgesteld worden om (een deel van) hun schuldvordering om te zetten in kapitaal voor kapitaalhoudende vennootschappen, in inbreng voor kapitaalloze vennootschappen en in fondsen voor VZW’s, IVZW’s en stichtingen.
 
-Wegens de verscheidenheid van de mogelijke akkoorden moet in elk afzonderlijk geval de werkelijke draagwijdte van het akkoord onderzocht worden en in de boekhouding en de jaarrekening worden vertaald. Met toepassing van artikel 3:2 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) moet de draagwijdte van het akkoord in de toelichting worden uitgelegd. 
+Wegens de verscheidenheid van de mogelijke akkoorden moet in elk afzonderlijk geval de werkelijke draagwijdte van het akkoord onderzocht worden en in de boekhouding en de jaarrekening worden vertaald. Met toepassing van artikel 3:2 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) moet de draagwijdte van het akkoord in de toelichting worden uitgelegd. 
 
 In onderhavig advies beperkt de Commissie zich tot het analyseren van de invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen bij vennootschappen (met of zonder kapitaal), VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voeren[^11].
 
-Onderhavig advies vervangt *CBN-advies 2011/9 - Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen*. 
+Onderhavig advies vervangt *CBN-advies 2011/9 - Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen*. 
 
 ## Boekhoudkundige verwerking van de kwijtschelding van schulden
 
@@ -89,23 +89,23 @@ Wanneer het buitengerechtelijk minnelijk akkoord of de gerechtelijk reorganisati
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 44 of 175 | Handelsschulden |  |  |
-| aan | 764-768 | Andere niet-recurrente bedrijfsopbrengsten |  |  |
+| | 44 of 175 | Handelsschulden | | |
+| aan | 764-768 | Andere niet-recurrente bedrijfsopbrengsten | | |
 
 Deze boeking dient bij een buitengerechtelijk minnelijk akkoord te gebeuren op het ogenblik dat het akkoord tussen de partijen gesloten wordt, bij gerechtelijke reorganisatie door minnelijk akkoord op het ogenblik dat de rechtbank dit akkoord vaststelt en bij een gerechtelijke reorganisatie door een collectief akkoord op de datum van de homologatie van het reorganisatieplan door de rechtbank.
 
 Artikel 48/1 van het Wetboek van de inkomstenbelastingen 1992 (hierna: WIB 92) stelt dat de winst die voortvloeit uit de minderwaarden die door de schuldenaar zijn opgetekend op bestanddelen van het passief ten gevolge van de homologatie van een reorganisatieplan door de rechtbank of ten gevolge van de vaststelling door de rechtbank van een minnelijk akkoord krachtens boek XX, titel V van het Wetboek van economisch recht, wordt vrijgesteld volgens de nadere toepassingsregels die de Koning vaststelt[^14]. Deze vrijstelling is evenwel enkel van toepassing voor de gerechtelijke reorganisaties (minnelijk en collectief akkoord). Deze vrijstelling wordt niet verleend binnen het kader van een buitengerechtelijk minnelijk akkoord.
 
 De in artikel 48/1 WIB 92 bedoelde vrijstelling wordt pas definitief verleend in het aanslagjaar dat verbonden is aan het belastbare tijdperk tijdens hetwelk het door de rechtbank gehomologeerd reorganisatieplan of het door de rechtbank vastgesteld minnelijk akkoord[^15]
- volledig is uitgevoerd[^16]. Vóór de volledige tenuitvoerlegging van het plan of akkoord kan evenwel onder bepaalde voorwaarden reeds een tijdelijke, voorwaardelijke vrijstelling van de opbrengst uit de vermindering van de schuld worden genoten. Eén van de voorwaarden is dat de vrijgestelde winst op een afzonderlijke rekening van het passief moet worden geboekt tot op de datum waarop het reorganisatieplan of minnelijk akkoord[^17]
- volledig is uitgevoerd[^18].
+ volledig is uitgevoerd[^16]. Vóór de volledige tenuitvoerlegging van het plan of akkoord kan evenwel onder bepaalde voorwaarden reeds een tijdelijke, voorwaardelijke vrijstelling van de opbrengst uit de vermindering van de schuld worden genoten. Eén van de voorwaarden is dat de vrijgestelde winst op een afzonderlijke rekening van het passief moet worden geboekt tot op de datum waarop het reorganisatieplan of minnelijk akkoord[^17]
+ volledig is uitgevoerd[^18].
 
 Indien de schuldenaar van deze tijdelijke vrijstelling wil genieten, zal hij naar het oordeel van de Commissie een belastingvrije reserve moeten aanleggen ten belope van het bedrag van de niet-recurrente opbrengst.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 689 | Overboeking naar de belastingvrije reserves |  |  |
-| aan | 132 | Belastingvrije reserves |  |  |
+| | 689 | Overboeking naar de belastingvrije reserves | | |
+| aan | 132 | Belastingvrije reserves | | |
 
 Als gevolg van de definitieve fiscale vrijstelling kan de schuldenaar in principe het bedrag van de belastingvrije reserves rechtstreeks overboeken naar de beschikbare reserves[^19]. De Commissie is echter van mening dat het meer aangewezen is om eerst een onttrekking aan de belastingvrije reserves te boeken en vervolgens een bestemming te geven aan het resultaat, bijvoorbeeld via een toevoeging aan de beschikbare reserves. Een rechtstreekse overboeking van de belastingvrije reserves naar de beschikbare reserves zou er immers voor zorgen dat het bedrag dat overeenstemt met de definitieve vrijstelling nooit wordt opgenomen in het te bestemmen resultaat. Tevens zou dit indruisen tegen de werking van de 68 en 78 rekeningen die opgenomen zijn in het minimum algemeen rekeningenstelsel.
 
@@ -113,43 +113,43 @@ Indien de vermindering van de schuld gebonden is aan een ontbindende voorwaarde,
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 664-668 | Andere niet-recurrente bedrijfskosten |  |  |
-| aan | 44 of 175 | Handelsschulden |  |  |
+| | 664-668 | Andere niet-recurrente bedrijfskosten | | |
+| aan | 44 of 175 | Handelsschulden | | |
 
 De belastingvrije reserve wordt vervolgens teruggenomen gebruik makende van een 78- rekening.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 132 | Belastingvrije reserves |  |  |
-| aan | 789 | Onttrekking aan de belastingvrije reserves |  |  |
+| | 132 | Belastingvrije reserves | | |
+| aan | 789 | Onttrekking aan de belastingvrije reserves | | |
 
 Wordt het buitengerechtelijk minnelijk of gerechtelijk minnelijk/collectief akkoord voortijdig beëindigd[^21]
- of ingetrokken, dan moeten desgevallend de hiermee verband houdende eerder verrichte boekingen ook worden tegengeboekt. 
+ of ingetrokken, dan moeten desgevallend de hiermee verband houdende eerder verrichte boekingen ook worden tegengeboekt. 
 
 Deze tegenboekingen dienen te gebeuren op het ogenblik waarop de voorwaarde is vervuld of het akkoord voortijdig wordt beëindigd of ingetrokken.
 
-#### In hoofde van de schuldeiser 
+#### In hoofde van de schuldeiser 
 
 De totstandkoming van een akkoord zal doorgaans bij de schuldeiser, behoudens indien zijn schuldvordering voldoende gewaarborgd is, aanleiding geven tot het overboeken van zijn schuldvordering naar de rekening dubieuze debiteuren[^22].
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2907 of 407 | Handelsvorderingen: Dubieuze debiteuren |  |  |
-| aan | 290 of 40 | Handelsvorderingen |  |  |
+| | 2907 of 407 | Handelsvorderingen: Dubieuze debiteuren | | |
+| aan | 290 of 40 | Handelsvorderingen | | |
 
 Wanneer de schuldeiser een vermindering van zijn schuldvordering heeft verleend onder de ontbindende voorwaarde van terugkeer naar betere toestand, dan moet hij ten belope van dat bedrag een waardevermindering boeken[^23], voor zover die waardevermindering op dat ogenblik nog niet werd geboekt.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6330 | Waardeverminderingen op handelsvorderingen op meer dan een jaar: toevoeging |  |  |
-| aan | 2909 | Handelsvorderingen: geboekte waardeverminderingen (-) |  |  |
+| | 6330 | Waardeverminderingen op handelsvorderingen op meer dan een jaar: toevoeging | | |
+| aan | 2909 | Handelsvorderingen: geboekte waardeverminderingen (-) | | |
 
 of
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6340 | Waardeverminderingen op handelsvorderingen op ten hoogste een jaar: toevoeging |  |  |
-| aan | 409 | Handelsvorderingen: geboekte waardeverminderingen (-) |  |  |
+| | 6340 | Waardeverminderingen op handelsvorderingen op ten hoogste een jaar: toevoeging | | |
+| aan | 409 | Handelsvorderingen: geboekte waardeverminderingen (-) | | |
 
 Is de kwijtschelding van de schuld definitief en dus niet gekoppeld aan de ontbindende voorwaarde van terugkeer naar betere toestand, dan wordt een gerealiseerde minderwaarde geboekt (rekening 642 *Minderwaarden op de realisatie van handelsvorderingen*).
 
@@ -159,37 +159,37 @@ Op het moment van de definitieve afwikkeling van de vordering[^25], moeten de vo
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | [550 | Kredietinstellingen: Rekening-courant] |  |  |
-|  | [642 | Minderwaarden op de realisatie van handelsvorderingen] |  |  |
-|  | 409 | Handelsvorderingen: geboekte waardeverminderingen (-) |  |  |
-| aan | 407 | Handelsvorderingen: Dubieuze debiteuren |  |  |
+| | [550 | Kredietinstellingen: Rekening-courant] | | |
+| | [642 | Minderwaarden op de realisatie van handelsvorderingen] | | |
+| | 409 | Handelsvorderingen: geboekte waardeverminderingen (-) | | |
+| aan | 407 | Handelsvorderingen: Dubieuze debiteuren | | |
 
 of
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | [550 | Kredietinstellingen: Rekening-courant] |  |  |
-|  | 409 | Handelsvorderingen: geboekte waardeverminderingen (-) |  |  |
-| aan | 407 | Handelsvorderingen: Dubieuze debiteuren |  |  |
-|  | [6331 | Waardeverminderingen op handelsvorderingen op meer dan één jaar: Terugneming (-)] |  |  |
-|  | of |  |  |  |
-|  | [6341 | Waardeverminderingen op handelsvorderingen op ten hoogste één jaar: Terugneming (-)] |  |  |
+| | [550 | Kredietinstellingen: Rekening-courant] | | |
+| | 409 | Handelsvorderingen: geboekte waardeverminderingen (-) | | |
+| aan | 407 | Handelsvorderingen: Dubieuze debiteuren | | |
+| | [6331 | Waardeverminderingen op handelsvorderingen op meer dan één jaar: Terugneming (-)] | | |
+| | of | | | |
+| | [6341 | Waardeverminderingen op handelsvorderingen op ten hoogste één jaar: Terugneming (-)] | | |
 
-Indien de kwijtschelding van schuld gebonden is aan een ontbindende voorwaarde, dient het recht van de schuldeiser om volledige betaling te eisen van zijn latente vordering zodra bij de schuldenaar de ontbindende voorwaarde is vervuld, in de toelichting te worden opgenomen en in de boekhouding in de klasse 0 te worden vermeld. Bij vervulling van de voorwaarde neemt de kwijtschelding een einde en wordt de geboekte waardevermindering teruggenomen. 
+Indien de kwijtschelding van schuld gebonden is aan een ontbindende voorwaarde, dient het recht van de schuldeiser om volledige betaling te eisen van zijn latente vordering zodra bij de schuldenaar de ontbindende voorwaarde is vervuld, in de toelichting te worden opgenomen en in de boekhouding in de klasse 0 te worden vermeld. Bij vervulling van de voorwaarde neemt de kwijtschelding een einde en wordt de geboekte waardevermindering teruggenomen. 
 
 Indien het akkoord voortijdig wordt beëindigd of ingetrokken, dan zal de geboekte waardevermindering geheel of gedeeltelijk behouden kunnen blijven voor zover er voor het geheel of een gedeelte van de vordering onzekerheid bestaat over de betaling hiervan op de vervaldag[^27].
 
-De onder II.A.1. en II.A.2. beschreven beginselen vinden, behoudens de fiscale vrijstellingen, ook toepassing wanneer de afstand van schuldvordering (al dan niet onder ontbindende voorwaarde), buiten het raam van Boek XX van het Wetboek van economisch recht, uit een bilaterale overeenkomst tussen een schuldenaar in financiële moeilijkheden en een schuldeiser voortvloeit[^28]. 
+De onder II.A.1. en II.A.2. beschreven beginselen vinden, behoudens de fiscale vrijstellingen, ook toepassing wanneer de afstand van schuldvordering (al dan niet onder ontbindende voorwaarde), buiten het raam van Boek XX van het Wetboek van economisch recht, uit een bilaterale overeenkomst tussen een schuldenaar in financiële moeilijkheden en een schuldeiser voortvloeit[^28]. 
 
-### VZW’s, IVZW’s en stichtingen 
+### VZW’s, IVZW’s en stichtingen 
 
-De boekhoudkundige verwerking van de kwijtschelding van schulden bij een VZW, IVZW of stichting is vergelijkbaar met die bij vennootschappen. 
+De boekhoudkundige verwerking van de kwijtschelding van schulden bij een VZW, IVZW of stichting is vergelijkbaar met die bij vennootschappen. 
 
-De artikelen 48 en 48/1 WIB 92 worden enkel toegepast indien de VZW, IVZW of stichting onderworpen is aan de vennootschapsbelasting. 
+De artikelen 48 en 48/1 WIB 92 worden enkel toegepast indien de VZW, IVZW of stichting onderworpen is aan de vennootschapsbelasting. 
 
-De Commissie verwijst naar punt II.A betreffende de vennootschappen (met of zonder kapitaal) voor de boekhoudkundige verwerking van de kwijtschelding van schulden. 
+De Commissie verwijst naar punt II.A betreffende de vennootschappen (met of zonder kapitaal) voor de boekhoudkundige verwerking van de kwijtschelding van schulden. 
 
-## Boekhoudkundige verwerking van renteloze schulden 
+## Boekhoudkundige verwerking van renteloze schulden 
 
 ### Vennootschappen (met of zonder kapitaal)
 
@@ -203,7 +203,7 @@ De schuldenaar zal niet langer te betalen interesten noch kosten dienen te boeke
 
 De schuldenaar dient de terug te betalen som als schuld in zijn boekhouding op te nemen. Deze schuld dient evenmin verdisconteerd te worden, aangezien artikel 3:55 *juncto* artikel 3:45, § 2, c KB WVV niet van toepassing is in dit geval. Aangezien geen intresten verschuldigd zijn, dienen deze uiteraard niet in resultaat te worden genomen.
 
-#### Bij de schuldeiser 
+#### Bij de schuldeiser 
 
 ##### Omvorming van een vordering wegens levering van goederen en diensten of een rentegevende vordering tot een renteloze vordering, al dan niet terugvorderbaar over meer dan één jaar
 
@@ -213,20 +213,20 @@ De vordering die bij wijze van tegemoetkoming aan de schuldenaar die in financi�
 
 Indien een schuldeiser in het kader van een akkoord afziet van het vorderen van een intrestvergoeding, dan is artikel 3:45, § 2, c KB WVV evenmin van toepassing, maar kan het boeken van een waardevermindering op deze vordering verantwoord zijn[^31].
 
-### VZW’s, IVZW’s en stichtingen 
+### VZW’s, IVZW’s en stichtingen 
 
-De boekhoudkundige verwerking van renteloze schulden bij een VZW, IVZW of stichting is vergelijkbaar met die bij vennootschappen. 
+De boekhoudkundige verwerking van renteloze schulden bij een VZW, IVZW of stichting is vergelijkbaar met die bij vennootschappen. 
 
-De Commissie verwijst naar punt III.A. 
+De Commissie verwijst naar punt III.A. 
 
 ## Boekhoudkundige verwerking van de omzetting van (een deel van) de schuldvordering in kapitaal, in inbreng of in eigen vermogen
 
 De schuldeiser kan ook met een schuldenaar overeenkomen dat (een gedeelte van) zijn vordering zal worden omgezet in kapitaal voor kapitaalhoudende vennootschappen, in inbreng voor kapitaalloze vennootschappen of in eigen vermogen voor VZW’s, IVZW’s en stichtingen. Indien een deel van de schuld kwijtgescholden wordt, dan moet dat deel van het passief van de schuldenaar worden afgeboekt[^32]
- en dient de schuldeiser een waardevermindering op zijn schuldvordering te boeken[^33]. 
+ en dient de schuldeiser een waardevermindering op zijn schuldvordering te boeken[^33]. 
 
 ### Kapitaalhoudende vennootschappen
 
-#### Bij de schuldenaar 
+#### Bij de schuldenaar 
 
 De Commissie stelt vast dat er in de rechtsleer geen eensgezindheid bestaat over de waarde waartegen een schuldvordering dient te worden ingebracht[^34].
 
@@ -242,61 +242,61 @@ De operatie heeft voor de vennootschap in ieder geval tot gevolg dat haar netto-
 
 Een kapitaalhoudende vennootschap verkeert in financiële problemen en een van de schuldeisers gaat akkoord om een schuld met nominale waarde van 100.000 euro om te zetten in kapitaal.
 
-De balans van de vennootschap in moeilijkheden (vóór de inbreng van de schuldvordering) is de volgende: 
+De balans van de vennootschap in moeilijkheden (vóór de inbreng van de schuldvordering) is de volgende: 
 
 | Balans | 
 | Activa | | 200.000 | | Kapitaal | | 100.000 | 
-|   | |   | | Verliezen | | -150.000 | 
-|   | |   | | Schulden | | 250.000 | 
+| | | | | Verliezen | | -150.000 | 
+| | | | | Schulden | | 250.000 | 
 
 *Hypothese 1: de schuldvordering wordt ingebracht voor haar nominale waarde*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 44 of 175 | Handelsschulden | 100.000 |  |
-| aan | 100 | Geplaatst kapitaal |  | 100.000 |
+| | 44 of 175 | Handelsschulden | 100.000 | |
+| aan | 100 | Geplaatst kapitaal | | 100.000 |
 
 De balans van de vennootschap ziet er, na de inbreng van de schuldvordering, als volgt uit:
 
 | Balans | 
 | Activa | | 200.000 | | Kapitaal | | 200.000 | 
-|   | |   | | Verliezen | | -150.000 | 
-|   | |   | | Schulden | | 150.000 | 
+| | | | | Verliezen | | -150.000 | 
+| | | | | Schulden | | 150.000 | 
 
 *Hypothese 2: de schuldvordering wordt ingebracht aan haar economische waarde*
 
-De economische waarde van deze vordering wordt geschat op 80.000 euro. De schuldenaar zal een kapitaalverhoging doorvoeren ten belope van 80.000 euro en zal ten belope van de andere 20.000 euro een opbrengst dienen te boeken. 
+De economische waarde van deze vordering wordt geschat op 80.000 euro. De schuldenaar zal een kapitaalverhoging doorvoeren ten belope van 80.000 euro en zal ten belope van de andere 20.000 euro een opbrengst dienen te boeken. 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 44 of 175 | Handelsschulden | 80.000 |  |
-| aan | 100 | Geplaatst kapitaal |  | 80.000 |
+| | 44 of 175 | Handelsschulden | 80.000 | |
+| aan | 100 | Geplaatst kapitaal | | 80.000 |
 
 [^39]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 44 of 175 | Handelsschulden | 20.000 |  |
-| aan | 764-768 | Andere niet-recurrente bedrijfsopbrengsten |  | 20.000 |
+| | 44 of 175 | Handelsschulden | 20.000 | |
+| aan | 764-768 | Andere niet-recurrente bedrijfsopbrengsten | | 20.000 |
 
 [^40]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 689 | Overboeking naar belastingvrije reserves | 20.000 |  |
-| aan | 132 | Belastingvrije reserves |  | 20.000 |
+| | 689 | Overboeking naar belastingvrije reserves | 20.000 | |
+| aan | 132 | Belastingvrije reserves | | 20.000 |
 
 De balans van de vennootschap ziet er, na de inbreng van de schuldvordering, als volgt uit (in het geval de vennootschap voldoet aan de onaantastbaarheidvoorwaarde van artikel 27/1, § 2 KB WIB 92):
 
 | Balans | 
 | Activa | | 200.000 | | Kapitaal | | 180.000 | 
-|   | |   | | Belastingvrije reserves | | 20.000 | 
-|   | |   | | Verliezen | | -150.000 | 
-|   | |   | | Schulden | | 150.000 | 
+| | | | | Belastingvrije reserves | | 20.000 | 
+| | | | | Verliezen | | -150.000 | 
+| | | | | Schulden | | 150.000 | 
 
-#### Bij de schuldeiser 
+#### Bij de schuldeiser 
 
-Artikel 3:19, § 1 KB WVV bepaalt dat de aanschaffingswaarde van deelnemingen of aandelen ontvangen als vergoeding voor inbrengen die niet bestaan in contanten of die voortkomen uit de omzetting van vorderingen, overeenstemt met de conventionele waarde van de ingebrachte goederen en waarden of van de omgezette vorderingen. 
+Artikel 3:19, § 1 KB WVV bepaalt dat de aanschaffingswaarde van deelnemingen of aandelen ontvangen als vergoeding voor inbrengen die niet bestaan in contanten of die voortkomen uit de omzetting van vorderingen, overeenstemt met de conventionele waarde van de ingebrachte goederen en waarden of van de omgezette vorderingen. 
 
 ## Voorbeeld 2
 
@@ -304,11 +304,11 @@ Stel dat de schuldeiser reeds een waardevermindering van 10.000 euro boekte op z
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 28 | Financiële vaste activa | 80.000 |  |
-|  | of 510 | Geldbeleggingen (Aandelen aanschaffingswaarde) |  |  |
-|  | 409 | Handelsvorderingen: geboekte waardeverminderingen (-) | 10.000 |  |
-|  | 642 | Minderwaarden op de realisatie van handelsvorderingen | 10.000 |  |
-| aan | 407 of 2907 | Handelsvorderingen: Dubieuze debiteuren |  | 100.000 |
+| | 28 | Financiële vaste activa | 80.000 | |
+| | of 510 | Geldbeleggingen (Aandelen aanschaffingswaarde) | | |
+| | 409 | Handelsvorderingen: geboekte waardeverminderingen (-) | 10.000 | |
+| | 642 | Minderwaarden op de realisatie van handelsvorderingen | 10.000 | |
+| aan | 407 of 2907 | Handelsvorderingen: Dubieuze debiteuren | | 100.000 |
 
 ### Kapitaalloze vennootschappen
 
@@ -316,7 +316,7 @@ Stel dat de schuldeiser reeds een waardevermindering van 10.000 euro boekte op z
 
 De boekhoudkundige verwerking is vergelijkbaar met die van de omzetting van een schuldvordering in kapitaal[^41] bij de schuldenaar (zoals uitgelegd in punt IV.A.1). Er worden wel andere rekeningen gebruikt.
 
-Gezien de verschillende strekkingen in de rechtsleer over de waarde waartegen een schuldvordering moet worden ingebracht, dient er tevens een onderscheid te worden gemaakt tussen het waarderen van de schuldvordering tegen de nominale waarde en tegen de economische waarde. 
+Gezien de verschillende strekkingen in de rechtsleer over de waarde waartegen een schuldvordering moet worden ingebracht, dient er tevens een onderscheid te worden gemaakt tussen het waarderen van de schuldvordering tegen de nominale waarde en tegen de economische waarde. 
 
 ## Voorbeeld 3
 
@@ -326,67 +326,67 @@ De balans van de vennootschap in moeilijkheden (vóór de inbreng van de schuldv
 
 | Balans | 
 | Activa | | 200.000 | | Inbreng | | 200.000 | 
-|   | |   | | Verliezen | | -150.000 | 
-|   | |   | | Schulden | | 150.000 | 
+| | | | | Verliezen | | -150.000 | 
+| | | | | Schulden | | 150.000 | 
 
 *Hypothese 1: de schuldvordering wordt ingebracht voor haar nominale waarde*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 44 of 175 | Handelsschulden | 100.000 |  |
-| aan | 1109 | Andere beschikbare inbreng buiten kapitaal |  | 100.000 |
+| | 44 of 175 | Handelsschulden | 100.000 | |
+| aan | 1109 | Andere beschikbare inbreng buiten kapitaal | | 100.000 |
 
 De balans van de vennootschap ziet er, na de inbreng van de schuldvordering, als volgt uit:
 
 | Balans | 
 | Activa | | 200.000 | | Inbreng | | 200.000 | 
-|   | |   | | Verliezen | | -150.000 | 
-|   | |   | | Schulden | | 150.000 | 
+| | | | | Verliezen | | -150.000 | 
+| | | | | Schulden | | 150.000 | 
 
 *Hypothese 2: de schuldvordering wordt ingebracht aan haar economische waarde*
 
-De economische waarde van deze vordering wordt geschat op 80.000 euro. De schuldenaar zal een verhoging van de inbreng doorvoeren ten belope van 80.000 euro en zal ten belope van de andere 20.000 euro een opbrengst dienen te boeken. 
+De economische waarde van deze vordering wordt geschat op 80.000 euro. De schuldenaar zal een verhoging van de inbreng doorvoeren ten belope van 80.000 euro en zal ten belope van de andere 20.000 euro een opbrengst dienen te boeken. 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 44 of 175 | Handelsschulden | 80.000 |  |
-| aan | 1109 | Andere beschikbare inbreng buiten kapitaal |  | 80.000 |
+| | 44 of 175 | Handelsschulden | 80.000 | |
+| aan | 1109 | Andere beschikbare inbreng buiten kapitaal | | 80.000 |
 
 [^42]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 44 of 175 | Handelsschulden | 20.000 |  |
-| aan | 764-768 | Andere niet-recurrente bedrijfsopbrengsten |  | 20.000 |
+| | 44 of 175 | Handelsschulden | 20.000 | |
+| aan | 764-768 | Andere niet-recurrente bedrijfsopbrengsten | | 20.000 |
 
 [^43]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 689 | Overboeking naar de belastingvrije reserves | 20.000 |  |
-| aan | 132 | Belastingvrije reserves |  | 20.000 |
+| | 689 | Overboeking naar de belastingvrije reserves | 20.000 | |
+| aan | 132 | Belastingvrije reserves | | 20.000 |
 
 De balans van de vennootschap ziet er, na de inbreng van de schuldvordering, als volgt uit (in het geval de onderneming voldoet aan de onaantastbaarheidvoorwaarde van artikel 27/1, § 2 KB WIB 92):
 
 | Balans | 
 | Activa | | 200.000 | | Inbreng | | 180.000 | 
-|   | |   | | Belastingvrije reserves | | 20.000 | 
-|   | |   | | Verliezen | | -150.000 | 
-|   | |   | | Schulden | | 150.000 | 
+| | | | | Belastingvrije reserves | | 20.000 | 
+| | | | | Verliezen | | -150.000 | 
+| | | | | Schulden | | 150.000 | 
 
-#### Bij de schuldeiser 
+#### Bij de schuldeiser 
 
 De boekhoudkundige verwerking is vergelijkbaar met die van de omzetting van een schuldvordering in kapitaal bij de schuldeiser. De Commissie verwijst naar punt IV.A.2.
 
 ### VZW’s, IVZW’s en stichtingen
 
-#### Bij de schuldenaar 
+#### Bij de schuldenaar 
 
 De boekhoudkundige verwerking is vergelijkbaar met die van de omzetting van een schuldvordering in kapitaal[^44]
- bij de schuldenaar (zoals uitgelegd in punt IV.A.1.). Er worden wel andere rekeningen gebruikt.
+ bij de schuldenaar (zoals uitgelegd in punt IV.A.1.). Er worden wel andere rekeningen gebruikt.
 
 Gezien de verschillende strekkingen in de rechtsleer over de waarde waartegen een schuldvordering[^45]
- moet worden ingebracht, dient er tevens een onderscheid te worden gemaakt tussen het waarderen van de schuldvordering tegen de nominale waarde en tegen de economische waarde. 
+ moet worden ingebracht, dient er tevens een onderscheid te worden gemaakt tussen het waarderen van de schuldvordering tegen de nominale waarde en tegen de economische waarde. 
 
 ## Voorbeeld 4
 
@@ -396,40 +396,40 @@ De balans van de vereniging in moeilijkheden (voor de inbreng van de schuldvorde
 
 | Balans | 
 | Activa | | 200.000 | | Fondsen | | 100.000 | 
-|   | |   | | Verliezen | | -150.000 | 
-|   | |   | | Schulden | | 250.000 | 
-|   | |   | |   | |   | 
-|   | | 40 | |   | | 40 | 
+| | | | | Verliezen | | -150.000 | 
+| | | | | Schulden | | 250.000 | 
+| | | | | | | | 
+| | | 40 | | | | 40 | 
 
 *Hypothese 1: schuldvordering wordt ingebracht voor haar nominale waarde*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | XX | Schulden | 100.000 |  |
-| aan | 10 | Fondsen van de vereniging of stichting |  | 100.000 |
+| | XX | Schulden | 100.000 | |
+| aan | 10 | Fondsen van de vereniging of stichting | | 100.000 |
 
 De balans van de vereniging ziet er, na de inbreng van de schuldvordering, als volgt uit:
 
 | Balans | 
 | Activa | | 200.000 | | Fondsen | | 200.000 | 
-|   | |   | | Verliezen | | -150.000 | 
-|   | |   | | Schulden | | 150.000 | 
+| | | | | Verliezen | | -150.000 | 
+| | | | | Schulden | | 150.000 | 
 
 *Hypothese 2: schuldvordering wordt ingebracht aan haar economische waarde*
 
-De economische waarde van deze vordering wordt geschat op 80.000 euro. De schuldenaar zal een fondsverhoging doorvoeren ten belope van 80.000 euro en zal ten belope van de andere 20.000 euro een opbrengst dienen te boeken. 
+De economische waarde van deze vordering wordt geschat op 80.000 euro. De schuldenaar zal een fondsverhoging doorvoeren ten belope van 80.000 euro en zal ten belope van de andere 20.000 euro een opbrengst dienen te boeken. 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | XX | Schulden | 80.000 |  |
-| aan | 10 | Fondsen van de vereniging of stichting |  | 80.000 |
+| | XX | Schulden | 80.000 | |
+| aan | 10 | Fondsen van de vereniging of stichting | | 80.000 |
 
 [^46]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | XX | Schulden | 20.000 |  |
-| aan | 764-768 | Andere niet-recurrente bedrijfsopbrengsten |  | 20.000 |
+| | XX | Schulden | 20.000 | |
+| aan | 764-768 | Andere niet-recurrente bedrijfsopbrengsten | | 20.000 |
 
 En voor zover de vereniging geen rechtspersoon is die onderworpen is aan de rechtspersonenbelasting maar aan de vennootschapsbelasting:
 
@@ -437,25 +437,25 @@ En voor zover de vereniging geen rechtspersoon is die onderworpen is aan de rech
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 689 | Overboeking naar de belastingvrije reserves | 20.000 |  |
-| aan | 132 | Belastingvrije reserves |  | 20.000 |
+| | 689 | Overboeking naar de belastingvrije reserves | 20.000 | |
+| aan | 132 | Belastingvrije reserves | | 20.000 |
 
 De balans van de vereniging ziet er, na de inbreng van de schuldvordering, als volgt uit (in het geval de onderneming voldoet aan de onaantastbaarheidvoorwaarde van artikel 27/1, § 2 KB WIB 92):
 
 | Balans | 
 | Activa | | 200.000 | | Fondsen | | 180.000 | 
-|   | |   | | Belastingvrije reserves | | 20.000 | 
-|   | |   | | Verliezen | | -150.000 | 
-|   | |   | | Schulden | | 150.000 | 
+| | | | | Belastingvrije reserves | | 20.000 | 
+| | | | | Verliezen | | -150.000 | 
+| | | | | Schulden | | 150.000 | 
 
 En voor zover de vereniging een rechtspersoon is die onderworpen is aan de rechtspersonenbelasting, ziet de balans van de vereniging er, na de inbreng van de schuldvordering, als volgt uit:
 
 | Balans | 
 | Activa | | 200.000 | | Fondsen | | 180.000 | 
-|   | |   | | Verliezen | | -130.000 | 
-|   | |   | | Schulden | | 150.000 | 
+| | | | | Verliezen | | -130.000 | 
+| | | | | Schulden | | 150.000 | 
 
-#### Bij de schuldeiser 
+#### Bij de schuldeiser 
 
 In hoofde van de schuldeiser zal de omzetting van de schuldvordering in de fondsen van de vereniging aanleiding geven tot het boeken van een niet-recurrente bedrijfskost.
 

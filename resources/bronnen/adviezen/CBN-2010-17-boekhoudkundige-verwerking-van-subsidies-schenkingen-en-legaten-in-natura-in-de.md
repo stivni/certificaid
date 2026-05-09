@@ -53,18 +53,18 @@ gerelateerde_adviezen:
 
 # CBN-advies 2010/17 - Boekhoudkundige verwerking van subsidies, schenkingen en legaten in natura in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
 
-1.  Goederen  
-  1.  Subsidies, schenkingen en legaten bestemd om duurzaam bij te dragen tot de activiteit van de vereniging of stichting  
-  2.  Subsidies in natura bestaande uit het schenken van een vast actief of het ter beschikking stellen van vaste activa  
-  3.  Subsidies, schenkingen en legaten in natura bestemd voor de eenvoudige, dagelijkse ondersteuning van de werking van de vereniging  
+1. Goederen 
+  1. Subsidies, schenkingen en legaten bestemd om duurzaam bij te dragen tot de activiteit van de vereniging of stichting 
+  2. Subsidies in natura bestaande uit het schenken van een vast actief of het ter beschikking stellen van vaste activa 
+  3. Subsidies, schenkingen en legaten in natura bestemd voor de eenvoudige, dagelijkse ondersteuning van de werking van de vereniging 
 
-2.  Diensten  
+2. Diensten 
 
 ## Inleiding
 
 Verenigingen en stichtingen verwerven dikwijls subsidies, schenkingen en legaten met het oog op het realiseren van bepaalde vormen van dienstverlening of het uitvoeren van bepaalde programma’s. Deze subsidies, schenkingen en legaten kunnen zowel in geld, als in natura verleend worden.
 
-Wat de algemene principes met betrekking tot ontvangen subsidies, schenkingen en legaten betreft, wordt verwezen naar advies 2010/16 *Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen*. 
+Wat de algemene principes met betrekking tot ontvangen subsidies, schenkingen en legaten betreft, wordt verwezen naar advies 2010/16 *Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen*. 
 
 Het Verslag aan de Koning bij het koninklijk besluit van 19 december 2003 stelt dat schenkingen, legaten en subsidies in natura, zoals schenkingen, legaten en subsidies in contanten, respectievelijk onder permanente financiering, kapitaalsubsidies of op de resultatenrekening moeten worden geboekt, naargelang zij ertoe leiden de fondsen van de vereniging permanent te vergroten, tot doel hebben een vast actief te vormen dat op duurzame wijze wordt bestemd voor de activiteit van de vereniging, dan wel een courante activiteit van de vereniging vormen[^1].
 
@@ -72,14 +72,14 @@ Het komt in het bijzonder toe aan het bestuursorgaan om de regels vast te leggen
 
 In dit advies wordt de boekhoudkundige verwerking, en in het bijzonder de waardering, van de verschillende soorten subsidies, schenkingen en legaten in natura toegelicht bij grote en zeer grote verenigingen en stichtingen. Daarbij wordt een onderscheid gemaakt tussen verworven goederen enerzijds en verworven diensten anderzijds. Tevens worden een aantal voorbeelden gegeven.
 
-## Goederen 
+## Goederen 
 
-De goederen die aan de vereniging worden geschonken of nagelaten en die ze voor haar activiteit bestemt, worden op het ogenblik van hun verkrijging geboekt en gewaardeerd tegen hun marktwaarde of, bij ontstentenis, tegen hun gebruikswaarde[^2].  
+De goederen die aan de vereniging worden geschonken of nagelaten en die ze voor haar activiteit bestemt, worden op het ogenblik van hun verkrijging geboekt en gewaardeerd tegen hun marktwaarde of, bij ontstentenis, tegen hun gebruikswaarde[^2]. 
 
-De goederen die kosteloos ter beschikking worden gesteld van de vereniging, worden enkel geboekt indien de vereniging ze tegen betaling mag uitbaten[^3]. In dat geval worden deze goederen eveneens geboekt tegen hun marktwaarde of, bij ontstentenis, tegen hun gebruikswaarde[^4].  
+De goederen die kosteloos ter beschikking worden gesteld van de vereniging, worden enkel geboekt indien de vereniging ze tegen betaling mag uitbaten[^3]. In dat geval worden deze goederen eveneens geboekt tegen hun marktwaarde of, bij ontstentenis, tegen hun gebruikswaarde[^4]. 
 
-De andere goederen (met andere woorden de goederen die de vereniging niet voor haar activiteit bestemt) die aan de vereniging worden geschonken of nagelaten, worden enkel geboekt als ze bestemd zijn om te worden gerealiseerd. In dat geval worden ze geregistreerd op het ogenblik  van het opmaken van de inventaris of op het ogenblik van hun realisatie indien deze aan de inventaris voorafgaat[^5]. De vereniging of stichting waardeert deze goederen tegen hun waarschijnlijke realisatiewaarde op het ogenblik van het opmaken van de inventaris of tegen hun realisatiewaarde indien de realisatie plaatsvindt vóór het opmaken van de inventaris[^6]. Indien de vermoedelijke realisatiewaarde nihil is, worden deze goederen pro memoria[^7]
- vermeld om zodoende derden correct te informeren over de toestand van de vereniging op het ogenblik dat de inventaris is opgemaakt[^8].
+De andere goederen (met andere woorden de goederen die de vereniging niet voor haar activiteit bestemt) die aan de vereniging worden geschonken of nagelaten, worden enkel geboekt als ze bestemd zijn om te worden gerealiseerd. In dat geval worden ze geregistreerd op het ogenblik van het opmaken van de inventaris of op het ogenblik van hun realisatie indien deze aan de inventaris voorafgaat[^5]. De vereniging of stichting waardeert deze goederen tegen hun waarschijnlijke realisatiewaarde op het ogenblik van het opmaken van de inventaris of tegen hun realisatiewaarde indien de realisatie plaatsvindt vóór het opmaken van de inventaris[^6]. Indien de vermoedelijke realisatiewaarde nihil is, worden deze goederen pro memoria[^7]
+ vermeld om zodoende derden correct te informeren over de toestand van de vereniging op het ogenblik dat de inventaris is opgemaakt[^8].
 
 Op grond van artikel 23 van het KB van 19 december 2003 zijn deze boekings- en waarderingsregels ook van toepassing op stichtingen en internationale verenigingen zonder winstoogmerk.
 
@@ -87,15 +87,15 @@ Zich baserend op het Verslag aan de Koning bij het KB van 19 december 2003 gelde
 
 ### Subsidies, schenkingen en legaten bestemd om duurzaam bij te dragen tot de activiteit van de vereniging of stichting
 
-Artikel 19, § 2, 1° van het koninklijk besluit van 19 december 2003 voorziet volgende definitie van de post *Fondsen van de vereniging* (dit ter vervanging van de post *Geplaatst kapitaal* van toepassing bij de boekhoudwetgeving voor vennootschappen): 
+Artikel 19, § 2, 1° van het koninklijk besluit van 19 december 2003 voorziet volgende definitie van de post *Fondsen van de vereniging* (dit ter vervanging van de post *Geplaatst kapitaal* van toepassing bij de boekhoudwetgeving voor vennootschappen): 
 
 *“Onder fondsen van de vereniging moet het totaal worden verstaan van, enerzijds, het beginvermogen, met name het vermogen van de vereniging op de eerste dag van het boekjaar waarop de bepalingen van het besluit gelden, en, anderzijds, de permanente financiering, met name de schenkingen, de legaten en subsidies die uitsluitend bestemd zijn om duurzaam bij te dragen tot de activiteit van de vereniging”[^9].*
 
-In de minimumindeling van het algemeen rekeningenstelsel (MAR) zoals opgenomen bij het KB van 19 december 2003 wordt rekening 101 *Permanente financiering* voorzien waarbij een opsplitsing wordt gemaakt voor *Permanente financiering ontvangen in contanten* (rekening 1011) en *Permanente financiering ontvangen in natura* (rekening 1012). 
+In de minimumindeling van het algemeen rekeningenstelsel (MAR) zoals opgenomen bij het KB van 19 december 2003 wordt rekening 101 *Permanente financiering* voorzien waarbij een opsplitsing wordt gemaakt voor *Permanente financiering ontvangen in contanten* (rekening 1011) en *Permanente financiering ontvangen in natura* (rekening 1012). 
 
 Voor wat onder “de schenkingen, de legaten en subsidies die uitsluitend bestemd zijn om duurzaam bij te dragen tot de activiteit van de vereniging” moet verstaan worden, wordt verwezen naar advies 2010/16, punt II.A.
 
-De post *Fondsen van de vereniging* moet voorbehouden blijven voor subsidies, schenkingen en legaten die niet beantwoorden aan het begrip kapitaalsubsidie, noch aan het begrip exploitatiesubsidie, en die ondubbelzinnig tot doel hebben de fondsen van de vereniging of stichting permanent te vergroten[^10]. 
+De post *Fondsen van de vereniging* moet voorbehouden blijven voor subsidies, schenkingen en legaten die niet beantwoorden aan het begrip kapitaalsubsidie, noch aan het begrip exploitatiesubsidie, en die ondubbelzinnig tot doel hebben de fondsen van de vereniging of stichting permanent te vergroten[^10]. 
 
 ## Voorbeeld 1: Goederen verkregen in natura bestemd voor schaalvergroting
 
@@ -103,22 +103,22 @@ Een vereniging verkrijgt van een onderneming aandelen (met een marktwaarde van 5
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 51 | Aandelen | 50.000 |  |
-| aan | 1012 | Permanente financiering ontvangen in natura |  | 50.000 |
+| | 51 | Aandelen | 50.000 | |
+| aan | 1012 | Permanente financiering ontvangen in natura | | 50.000 |
 
 ### Subsidies in natura bestaande uit het schenken van een vast actief of het ter beschikking stellen van vaste activa
 
-Artikel 19, § 2, 3° van het KB van 19 december 2003 voorziet in een aanpassing van de omschrijving van een kapitaalsubsidie zoals opgenomen in artikel 95, § 2 van het KB van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen. 
+Artikel 19, § 2, 3° van het KB van 19 december 2003 voorziet in een aanpassing van de omschrijving van een kapitaalsubsidie zoals opgenomen in artikel 95, § 2 van het KB van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen. 
 
-Het aangepast artikel 95 KB W.Venn. luidt als volgt: 
+Het aangepast artikel 95 KB W.Venn. luidt als volgt: 
 
 *Post VI Kapitaalsubsidies*
 
-*Deze post omvat de kapitaalsubsidies die werden verkregen voor investeringen in vaste activa  
+*Deze post omvat de kapitaalsubsidies die werden verkregen voor investeringen in vaste activa 
 
-Deze subsidies worden geleidelijk afgeboekt via overboeking naar post I.D ‘Lidgeld, schenkingen, legaten en subsidies’, volgens hetzelfde ritme als de afschrijvingen op de vaste activa voor de verwerving waarvan ze werden verkregen of, in voorkomend geval, ten belope van het saldo, bij realisatie of buitengebruikstelling van de betrokken vaste activa. *
+Deze subsidies worden geleidelijk afgeboekt via overboeking naar post I.D ‘Lidgeld, schenkingen, legaten en subsidies’, volgens hetzelfde ritme als de afschrijvingen op de vaste activa voor de verwerving waarvan ze werden verkregen of, in voorkomend geval, ten belope van het saldo, bij realisatie of buitengebruikstelling van de betrokken vaste activa. *
 
-De kapitaalsubsidies ontvangen in natura dienen bij toezegging of ontvangst te worden opgenomen onder de rekening 152 *Kapitaalsubsidies ontvangen in natura*. 
+De kapitaalsubsidies ontvangen in natura dienen bij toezegging of ontvangst te worden opgenomen onder de rekening 152 *Kapitaalsubsidies ontvangen in natura*. 
 
 Ontvangt de vereniging of stichting vaste activa waarvan de gebruiksduur niet beperkt is (zoals terreinen) of waarvan de functionaliteit constant is[^11], dan is de Commissie van oordeel dat, omwille van het duurzame karakter ervan, de subsidie kan worden opgenomen onder de permanente fondsen van de vereniging of stichting. Aangezien deze vaste activa niet worden afgeschreven, is, naar de mening van de Commissie, ook de in opbrengstname van minder belang. Bijgevolg zal de Commissie voorstellen om de omschrijving van de post *Kapitaalsubsidies* in artikel 19, § 2, 3° van het KB van 19 december 2003 aan te passen als volgt: “Deze post omvat de kapitaalsubsidies die werden verkregen voor investeringen in vaste activa waarvan de gebruiksduur beperkt is”.
 
@@ -130,8 +130,8 @@ De bestelwagen van duikclub “De snorkels” is aan vervanging toe. Ze ontvangt
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 241 | Meubilair en rollend materieel die volle eigendom zijn van de vereniging | 30.000 |  |
-| aan | 152 | Kapitaalsubsidies ontvangen in natura |  | 30.000 |
+| | 241 | Meubilair en rollend materieel die volle eigendom zijn van de vereniging | 30.000 | |
+| aan | 152 | Kapitaalsubsidies ontvangen in natura | | 30.000 |
 
 - Eindejaarsverrichtingen:
 
@@ -139,19 +139,19 @@ De bestelwagen van duikclub “De snorkels” is aan vervanging toe. Ze ontvangt
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6302 | Afschrijvingen op materiële vaste activa | 6.000 |  |
-| aan | 2419 | Meubilair en rollend materieel die volle eigendom zijn van de vereniging - Geboekte afschrijvingen |  | 6.000 |
+| | 6302 | Afschrijvingen op materiële vaste activa | 6.000 | |
+| aan | 2419 | Meubilair en rollend materieel die volle eigendom zijn van de vereniging - Geboekte afschrijvingen | | 6.000 |
 
 2. In resultaatname kapitaalsubsidies
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 152 | Kapitaalsubsidies ontvangen in natura | 6.000 |  |
-| aan | 736 | Kapitaal-en interestsubsidie |  | 6.000 |
+| | 152 | Kapitaalsubsidies ontvangen in natura | 6.000 | |
+| aan | 736 | Kapitaal-en interestsubsidie | | 6.000 |
 
 ## Voorbeeld 3: Kosteloze terbeschikkingstelling van vaste activa
 
-Aan een natuurvereniging wordt ter ondersteuning van haar activiteiten een bos voor 20 jaar ter beschikking gesteld. Er wordt hierbij overeengekomen dat de vereniging het bos tegen betaling mag uitbaten. Dit materieel vast actief dient bijgevolg te worden verwerkt in de boekhouding van de vereniging. 
+Aan een natuurvereniging wordt ter ondersteuning van haar activiteiten een bos voor 20 jaar ter beschikking gesteld. Er wordt hierbij overeengekomen dat de vereniging het bos tegen betaling mag uitbaten. Dit materieel vast actief dient bijgevolg te worden verwerkt in de boekhouding van de vereniging. 
 
 Indien de marktwaarde van het bos niet beschikbaar is, dan dient men de gebruikswaarde te bepalen. Deze gebruikswaarde bedraagt 200.000 euro.
 
@@ -161,8 +161,8 @@ Indien de marktwaarde van het bos niet beschikbaar is, dan dient men de gebruiks
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2202 | Overige terreinen | 200.000 |  |
-| aan | 152 | Kapitaalsubsidies ontvangen in natura |  | 200.000 |
+| | 2202 | Overige terreinen | 200.000 | |
+| aan | 152 | Kapitaalsubsidies ontvangen in natura | | 200.000 |
 
 - Eindejaarsverrichtingen:
 
@@ -170,15 +170,15 @@ Indien de marktwaarde van het bos niet beschikbaar is, dan dient men de gebruiks
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6302 | Afschrijvingen op materiële vaste activa | 10.000 |  |
-| aan | 22029 | Overige terreinen – Geboekte afschrijvingen |  | 10.000 |
+| | 6302 | Afschrijvingen op materiële vaste activa | 10.000 | |
+| aan | 22029 | Overige terreinen – Geboekte afschrijvingen | | 10.000 |
 
 2. Inresultaatname kapitaalsubsidies
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 152 | Kapitaalsubsidies ontvangen in natura | 10.000 |  |
-| aan | 736 | Kapitaal-en interestsubsidie |  | 10.000 |
+| | 152 | Kapitaalsubsidies ontvangen in natura | 10.000 | |
+| aan | 736 | Kapitaal-en interestsubsidie | | 10.000 |
 
 ### Subsidies, schenkingen en legaten in natura bestemd voor de eenvoudige, dagelijkse ondersteuning van de werking van de vereniging
 
@@ -186,24 +186,24 @@ Subsidies, schenkingen en legaten in natura, in de vorm van activa die niet op d
 
 Indien de ontvangen goederen van geringe waarde zijn, dient er, naar het oordeel van de Commissie, geen boekhoudkundige registratie te gebeuren.
 
-## Voorbeeld 4:  Schenking in natura aangewend voor eigen werking
+## Voorbeeld 4: Schenking in natura aangewend voor eigen werking
 
-Het kinderopvangcentrum “De troetelbeertjes” ontvangt briefomslagen en briefpapier voor haar administratie Aangezien het om gebruiksgoederen van geringe waarde gaat, moeten deze niet geboekt worden.  
+Het kinderopvangcentrum “De troetelbeertjes” ontvangt briefomslagen en briefpapier voor haar administratie Aangezien het om gebruiksgoederen van geringe waarde gaat, moeten deze niet geboekt worden. 
 
-Indien deze goederen een substantiële waarde zouden hebben, dan zouden deze wel dienen geboekt te worden.  
+Indien deze goederen een substantiële waarde zouden hebben, dan zouden deze wel dienen geboekt te worden. 
 
-## Voorbeeld 5:  Subsidies in natura niet bestemd voor de eigen werking, maar om te worden gerealiseerd
+## Voorbeeld 5: Subsidies in natura niet bestemd voor de eigen werking, maar om te worden gerealiseerd
 
 Het kinderopvangcentrum ontvangt, met het oog op de ondersteuning van haar dagelijkse werking, van een drukkerij uit de streek 100 gratis notitieboekjes die zij zal verkopen aan de ouders van de kinderen. Deze zullen verkocht worden aan 3 euro per stuk.
 
 De subsidies in natura die bestemd zijn om te worden gerealiseerd, worden geregistreerd op het ogenblik van het opmaken van de inventaris tegen hun waarschijnlijke realisatiewaarde of op het ogenblik van hun realisatie tegen hun realisatiewaarde indien deze aan de inventaris voorafgaat[^14].
 
-- Boeking bij verkoop van 80 notitieboekjes: 
+- Boeking bij verkoop van 80 notitieboekjes: 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 550 | Kredietinstellingen: rekeningen-courant | 240 |  |
-| aan | 737 | Exploitatiesubsidies |  | 240 |
+| | 550 | Kredietinstellingen: rekeningen-courant | 240 | |
+| aan | 737 | Exploitatiesubsidies | | 240 |
 
 - Inventarisverrichtingen
 
@@ -211,17 +211,17 @@ Opname van de voorraad aan de vermoedelijke realisatiewaarde:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 34 | Handelsgoederen | 60 |  |
-| aan | 737 | Exploitatiesubsidies |  | 60 |
+| | 34 | Handelsgoederen | 60 | |
+| aan | 737 | Exploitatiesubsidies | | 60 |
 
 - Boeking bij opening van het volgende boekjaar:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 737 | Exploitatiesubsidies | 60 |  |
-| aan | 34 | Handelsgoederen |  | 60 |
+| | 737 | Exploitatiesubsidies | 60 | |
+| aan | 34 | Handelsgoederen | | 60 |
 
-## Voorbeeld 6:  Schenkingen in natura om gratis te worden verdeeld
+## Voorbeeld 6: Schenkingen in natura om gratis te worden verdeeld
 
 De VZW “Natuur-lijk!” ontvangt 100 vogelkastjes om op te hangen in bossen en natuurparken. Dit dient niet geboekt te worden. Indien dit echter een belangrijk aspect is van de werking van de vereniging, dan dient dit in de toelichting vermeld te worden.
 
@@ -229,71 +229,71 @@ Het Verslag aan de Koning bij het KB van 19 december 2003 bepaalt immers dat een
 
 ## Diensten
 
-De diensten die vrijwillig voor de vereniging of stichting  worden gepresteerd, worden enkel geboekt als ze bestemd zijn om te worden gerealiseerd. In dat geval worden ze geregistreerd op het ogenblik  van het opmaken van de inventaris of op het ogenblik van hun realisatie indien deze aan de inventaris voorafgaat[^15]. 
+De diensten die vrijwillig voor de vereniging of stichting worden gepresteerd, worden enkel geboekt als ze bestemd zijn om te worden gerealiseerd. In dat geval worden ze geregistreerd op het ogenblik van het opmaken van de inventaris of op het ogenblik van hun realisatie indien deze aan de inventaris voorafgaat[^15]. 
 
 De vereniging of stichting waardeert deze diensten die vrijwillig worden gepresteerd en bestemd zijn om te worden gerealiseerd tegen hun waarschijnlijke realisatiewaarde op het ogenblik van het opmaken van de inventaris of tegen hun realisatiewaarde indien de realisatie plaatsvindt vóór het opmaken van de inventaris[^16]. Indien de vermoedelijke realisatiewaarde nihil is, worden deze diensten vermeld pro memoria[^17]
- om zodoende derden correct te informeren over de toestand van de vereniging of stichting op het ogenblik dat de inventaris is opgemaakt[^18].
+ om zodoende derden correct te informeren over de toestand van de vereniging of stichting op het ogenblik dat de inventaris is opgemaakt[^18].
 
 De Commissie is van oordeel dat vrijwilligersprestaties nooit als kapitaalsubsidies kunnen geboekt worden.
 
 ## Voorbeeld 7
 
-Een gemeente schenkt op 1 februari van het jaar x aan een vereniging een terrein, ter waarde van 80.000 euro en bouwmaterialen ter waarde van 50.000 euro. Op dit terrein wordt door vrijwilligers een gebouw opgetrokken, dat voor de vereniging of stichting zal dienst doen als kantoor. Op 1 november van het jaar x is het kantoor gebruiksklaar. Het gebouw wordt afgeschreven over 33 jaar. 
+Een gemeente schenkt op 1 februari van het jaar x aan een vereniging een terrein, ter waarde van 80.000 euro en bouwmaterialen ter waarde van 50.000 euro. Op dit terrein wordt door vrijwilligers een gebouw opgetrokken, dat voor de vereniging of stichting zal dienst doen als kantoor. Op 1 november van het jaar x is het kantoor gebruiksklaar. Het gebouw wordt afgeschreven over 33 jaar. 
 
 De geleverde arbeidsprestaties worden niet afzonderlijk boekhoudkundig verwerkt omdat het gebouw niet bestemd is om te worden gerealiseerd. Het dient wel in de toelichting vermeld te worden. Het is evenwel mogelijk, maar niet verplicht, om de gebouwen die op deze manier tot stand kwamen te herwaarderen om rekening te houden met de inspanningen van de vrijwilligers. Herwaardering is uiteraard enkel mogelijk indien de voorwaarden van artikel 57 KB W.Venn, zoals van toepassing op verenigingen en stichtingen, vervuld zijn.
 
 - Boeking bij schenking terrein op 1 februari jaar x:
 
-De volle eigendom van het terrein wordt geschonken aan de vereniging en zal voor haar activiteit worden gebruikt. Rekening 2201 *Terreinen in volle eigendom* dient te worden gebruikt. 
+De volle eigendom van het terrein wordt geschonken aan de vereniging en zal voor haar activiteit worden gebruikt. Rekening 2201 *Terreinen in volle eigendom* dient te worden gebruikt. 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2201 | Terreinen die volle eigendom zijn van de vereniging | 80.000 |  |
-| aan | 1012 | Permanente financiering ontvangen in natura |  | 80.000 |
+| | 2201 | Terreinen die volle eigendom zijn van de vereniging | 80.000 | |
+| aan | 1012 | Permanente financiering ontvangen in natura | | 80.000 |
 
 - Boeking bij schenking bouwmaterialen op 1 februari jaar x:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 27 | Materiële vaste activa in aanbouw en vooruitbetalingen | 50.000 |  |
-| aan | 152 | Kapitaalsubsidies ontvangen in natura |  | 50.000 |
+| | 27 | Materiële vaste activa in aanbouw en vooruitbetalingen | 50.000 | |
+| aan | 152 | Kapitaalsubsidies ontvangen in natura | | 50.000 |
 
 - Boeking bij ingebruikname van gebouw op 1 november jaar x:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2211 | Gebouwen die volle eigendom zijn van de vereniging | 50.000 |  |
-| aan | 27 | Materiële vaste activa in aanbouw en vooruitbetalingen |  | 50.000 |
+| | 2211 | Gebouwen die volle eigendom zijn van de vereniging | 50.000 | |
+| aan | 27 | Materiële vaste activa in aanbouw en vooruitbetalingen | | 50.000 |
 
 - Eindejaarsverrichtingen:
 
- 1. Het gebouw wordt afgeschreven over 33 jaar.
+ 1. Het gebouw wordt afgeschreven over 33 jaar.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6302 | Afschrijvingen op materiële vaste activa | 1.515,15 |  |
-|  | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -
+| | 6302 | Afschrijvingen op materiële vaste activa | 1.515,15 | |
+| | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -
 			Geboekte afschrijvingen | 1.515,15 |
 
 2. Inresultaatname kapitaalsubsidies
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 152 | Kapitaalsubsidies ontvangen in natura | 1.515,15 |  |
-| aan | 736 | Kapitaal-en interestsubsidie |  | 1.515,15 |
+| | 152 | Kapitaalsubsidies ontvangen in natura | 1.515,15 | |
+| aan | 736 | Kapitaal-en interestsubsidie | | 1.515,15 |
 
 ## Voorbeeld 8
 
-Een acteur houdt een gratis voordracht (in de lokalen van de vereniging) ten voordele van de dagelijkse werking van de vereniging. De vereniging verkoopt 100 toegangskaartjes voor deze voorstelling aan 5 euro/stuk. De vereniging dient deze vrijwilligersprestatie te registeren voor 500 euro (realisatiewaarde). 
+Een acteur houdt een gratis voordracht (in de lokalen van de vereniging) ten voordele van de dagelijkse werking van de vereniging. De vereniging verkoopt 100 toegangskaartjes voor deze voorstelling aan 5 euro/stuk. De vereniging dient deze vrijwilligersprestatie te registeren voor 500 euro (realisatiewaarde). 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 550 | Kredietinstellingen: rekeningen-courant | 500 |  |
-| aan | 737 | Exploitatiesubsidies |  | 500 |
+| | 550 | Kredietinstellingen: rekeningen-courant | 500 | |
+| aan | 737 | Exploitatiesubsidies | | 500 |
 
 ## Voorbeeld 9
 
-De vzw “De Wijzen” krijgt 100 leesboeken ter beschikking gesteld. Voor het uitlenen van deze boeken wordt aan haar leden geen ledenbijdrage gevraagd. Dit vormt aldus niet het voorwerp van een boekhoudkundige registratie[^19]. 
+De vzw “De Wijzen” krijgt 100 leesboeken ter beschikking gesteld. Voor het uitlenen van deze boeken wordt aan haar leden geen ledenbijdrage gevraagd. Dit vormt aldus niet het voorwerp van een boekhoudkundige registratie[^19]. 
 
 Er kan echter beroep gedaan worden op een leveringsdienst om de leesboeken aan huis te brengen. De leveringsdienst wordt per fiets verzorgd door vrijwilligers. Per levering van 5 boeken wordt hiervoor 5 euro aangerekend. Bijgevolg dient het vrijwilligerswerk het voorwerp uit te maken van een boekhoudkundige registratie[^20].
 
@@ -301,12 +301,12 @@ Deze levering van boeken wordt als volgt verwerkt:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 550 | Kredietinstellingen: rekeningen-courant | 5 |  |
-| aan | 737 | Exploitatiesubsidies |  | 5 |
+| | 550 | Kredietinstellingen: rekeningen-courant | 5 | |
+| aan | 737 | Exploitatiesubsidies | | 5 |
 
 **Voorbeeld 10**
 
-Het secretariaat van een vereniging wordt kosteloos behartigd door vrijwilligers. Indien dit een belangrijk aspect is van de werking van de vereniging, dient dit in de toelichting vermeld te worden.  
+Het secretariaat van een vereniging wordt kosteloos behartigd door vrijwilligers. Indien dit een belangrijk aspect is van de werking van de vereniging, dient dit in de toelichting vermeld te worden. 
 
 [^1]: BS 30 december 2003.
 

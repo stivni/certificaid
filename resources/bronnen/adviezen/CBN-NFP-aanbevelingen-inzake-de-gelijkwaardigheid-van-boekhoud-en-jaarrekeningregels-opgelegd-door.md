@@ -98,7 +98,7 @@ Eens de jaarrekening is opgesteld, dienen niettemin de voorschriften van de wet 
 Als bijgevolg de raad van bestuur van een kleine VZW, gelet op de criteria van artikel 17 van de wet, van oordeel is dat de sectorale boekhoudregels die hij toepast, gelijkwaardig zijn aan de regels die het koninklijk besluit van 26 juni 2003 oplegt, zal de jaarrekening zoals opgesteld volgens die gelijkwaardig bevonden regels, ter griffie van de rechtbank van koophandel worden neergelegd, ook al leggen die sectorale boekhoudregels een dergelijke openbaarmaking niet op.
 
 Hetzelfde geldt wanneer de raad van bestuur van een zeer grote VZW, gelet op de criteria van artikel 17 van de wet, van oordeel is dat de sectorale boekhoudregels die hij toepast, gelijkwaardig zijn aan de regels die het koninklijk besluit van 19 december 2003 oplegt. In dat geval zal de jaarrekening zoals opgesteld volgens die gelijkwaardig bevonden regels, bij de Balanscentrale van de Nationale Bank van België worden neergelegd.[^6]
-  en zal die jaarrekening worden gecontroleerd door de commissaris-revisor, overeenkomstig artikel 17, § 5, ook al leggen die boekhoudregels geen verplichting op tot openbaarmaking en controle van de jaarrekening.
+ en zal die jaarrekening worden gecontroleerd door de commissaris-revisor, overeenkomstig artikel 17, § 5, ook al leggen die boekhoudregels geen verplichting op tot openbaarmaking en controle van de jaarrekening.
 
 Mocht géén gelijkwaardigheid worden vastgesteld, dan zal de vereniging geconfronteerd worden met conflicterende boekhoudregelgevingen - sectorale en gemeenrechtelijke - met als belangrijke juridische consequentie dat de vereniging zowel het gemeen recht als de betrokken sectorale regeling zal moeten toepassen[^7]. Het is evenwel duidelijk dat een dergelijke situatie niet wenselijk is en dat het derhalve aan de bevoegde overheid toekomt om in zo’n geval oplossingen te onderzoeken die het zouden mogelijk maken om het conflict tussen sectorale en gemeenrechtelijke regels op te heffen.
 
@@ -125,44 +125,44 @@ De Commissie is van oordeel dat boekhoudkundige verplichtingen die worden opgele
 
 - hetzij uitdrukkelijk en zonder voorbehoud verwijst naar de wet van 27 juni 1921 en haar uitvoeringsbesluit van 19 december 2003 inzake het houden van de boekhouding en het opstellen van de jaarrekening 
 - hetzij ten minste vereist dat de volgende beginselen worden nageleefd: 
-1.  
+1. 
 
 Een patrimoniale boekhouding voeren volgens een stelsel van boeken en rekeningen met inachtneming van de gebruikelijke regels van het dubbel boekhouden, waarin alle verrichtingen en alle bezittingen en rechten, schulden, verplichtingen en verbintenissen, kosten en opbrengsten, zonder uitstel, getrouw, volledig en naar tijdsorde worden ingeschreven.
 
-2.  
+2. 
 
 Het verbod op compensatie tussen tegoeden en schulden, tussen rechten en verplichtingen en tussen kosten en opbrengsten, tenzij in de bij wet of door een sectorale reglementering bepaalde gevallen.
 
-3.  
+3. 
 
 Elke boeking geschiedt aan de hand van een gedagtekend verantwoordingsstuk, waarnaar zij moet verwijzen.
 
-4.  
+4. 
 
 De rekeningen die de vereniging opent om haar boekhouding te voeren, worden vastgelegd in een voor de aard van het bedrijf van de vereniging of stichting passend rekeningenstelsel.
 
-5.  
+5. 
 
 De balans en de resultatenrekening vloeien zonder toevoeging of weglating voort uit de balans van de desbetreffende rekeningen, opgemaakt na het in overeenstemming brengen met de gegevens van de inventaris.
 
-6.  
+6. 
 
 De toegepaste waarderingsregels stemmen overeen met de waarderingsregels voorgeschreven door het koninklijk besluit van 19 december 2003, of, gelet op het beginsel van het getrouwe beeld, zijn hiermee verenigbaar. Aldus verhinderen naar het oordeel van de Commissie het ontbreken van de mogelijkheid om herstructureringskosten op het actief van de balans te boeken of de bepaling van een afschrijvingspercentage a priori niet dat tot gelijkwaardigheid zou worden besloten. Daarentegen zouden de mogelijkheid om immateriële vaste activa te herwaarderen, het verbod om vaste activa af te schrijven naar het advies van de Commissie moeten leiden tot de vaststelling dat er géén gelijkwaardigheid is.
 
-7.  
+7. 
 
 De jaarrekening omvat de balans, de resultatenrekening en de toelichting. Deze stukken vormen een geheel. De waarderingsregels worden samengevat in de toelichting ; deze samenvatting moet voldoende nauwkeurig zijn zodat inzicht wordt verkregen in de toegepaste waarderingsmethoden. Wanneer de sectorale reglementering geen keuze toestaat, moet worden verwezen naar de toegepaste waarderingsregels.
 
-8.  
+8. 
 
 De voorstelling en structuur van de jaarrekening zoals vastgelegd door de sectorale reglementering, stemt overeen met de voorstelling en structuur opgelegd door het koninklijk besluit van 19 december 2003. Wanneer dit niet het geval is, zouden de boekhoudkundige verplichtingen opgelegd door de sectorale reglementering niettemin als gelijkwaardig kunnen worden beschouwd indien, gelet op het vereiste van het getrouwe beeld, de toepassing van de sectorale reglementering dezelfde of gelijkaardige gegevens verstrekt als zouden voortkomen uit een jaarrekening voorgesteld en gestructureerd overeenkomstig het gemeen boekhoudrecht voor grote en zeer grote verenigingen en stichtingen (koninklijk besluit van 19 december 2003). De Commissie is aldus van oordeel dat uitvoeriger vereisten qua voorstelling en structuur, het gebruik van een terminologie eigen aan de sector of van synoniemen, of het schrappen van voor de sector niet dienstige posten, de gelijkwaardigheid niet in de weg hoeven te staan.
 
-9.  
+9. 
 
 Eventuele bepalingen uit de sectorale wetgeving die de overgang van een kasboekhouding naar een patrimoniale boekhouding regelen, zijn gelijkwaardig aan de desbetreffende bepalingen uit het koninklijk besluit van 19 december 2003.
 
 In een aantal gevallen verwijst de sectorale reglementering uitdrukkelijk en zonder voorbehoud hetzij naar de wet van 17 juli 1975 op de boekhouding van de ondernemingen (en dus naar haar uitvoeringsbesluiten van 1983) en tevens hetzij naar het (inmiddels opgeheven) koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen, hetzij naar de bepalingen van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen[^9]
- voor het voeren van de boekhouding en het opstellen van de jaarrekening.
+ voor het voeren van de boekhouding en het opstellen van de jaarrekening.
 
 Met betrekking tot deze categorie merkt de Commissie op dat het gemeen boekhoudrecht voor ondernemingen verschilt van het gemeen boekhoudrecht voor verenigingen en stichtingen als gevolg van het feit dat het gemeen boekhoud- en jaarrekeningrecht inzake verenigingen, zoals gewild door de wetgever, voor een relatief beperkt aantal aspecten, aangepast werd aan de specifieke aard en het wettelijk statuut van de betrokken verenigingen (supra), hoewel het gemeen recht voor verenigingen voor het overige grotendeels werd afgeleid van het gemeen recht inzake ondernemingen.
 

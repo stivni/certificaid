@@ -32,8 +32,8 @@ provenance:
 
 # CBN-advies 2009/10 - Bepaling van de functionele valuta bij financieringsvennootschappen
 
-1.  Definitie treasury vennootschappen of financieringsvennootschappen  
-2.  Bepaling van de functionele valuta bij financieringsvennootschappen  
+1. Definitie treasury vennootschappen of financieringsvennootschappen 
+2. Bepaling van de functionele valuta bij financieringsvennootschappen 
 
 De Commissie heeft op vraag van de Minister van Economie onderzocht in welke mate advies CBN-advies 117/3 - Voeren van de boekhouding en opstellen van de jaarrekening in een andere munt dan de euro[^1]
 – dient toegepast te worden in hoofde van financieringsvennootschappen.
@@ -47,20 +47,20 @@ De Commissie denkt in hoofdzaak aan volgende activiteiten:
 1. Verstrekken van korte en lange termijnfinanciering aan groepsvennootschappen. 
 2. Bemiddeling en adviesverlening bij het verkrijgen van externe financiering ten behoeve van groepsvennootschappen. 
 3. Dagelijks cash-beheer van de verschillende groepsvennootschappen alsmede advisering en ondersteuning van de locale cash-managers. 
-4. Verlenen van garantiestelling.    
+4. Verlenen van garantiestelling. 
 5. Dekken van risico’s voortspruitend uit de schommelingen van wisselkoersen. 
 6. Het adviseren en ondersteunen van de groepsvennootschappen in hun relaties met banken in de meest ruime zin. 
 7. Het onderhouden van contacten met functionarissen binnen de groep ten behoeve van de financiële besturing van de groep. 
 
 Dergelijke entiteit zal met andere woorden de beschikbare middelen van de groep centraliseren en de financiering van [een deel van] de groep regelen. Deze vennootschap zal het werkkapitaal van de groep opvolgen, de externe en interne financieringsbehoefte van de groep bepalen en regelen en de financiële risico’s die de groep heeft, in het bijzonder wat betreft interestvoeten en wisselkoersrisico’s, bewaken.
 
-De balans van dergelijke entiteiten wordt gekenmerkt - zowel op actief als passief - door belangrijke financiële vorderingen en schulden samen met vaak aanzienlijk ingenomen posities in verschillende valuta.  
+De balans van dergelijke entiteiten wordt gekenmerkt - zowel op actief als passief - door belangrijke financiële vorderingen en schulden samen met vaak aanzienlijk ingenomen posities in verschillende valuta. 
 
 Dergelijke entiteit zal vaak aan cash-pooling doen wat inhoudt dat de overtollige middelen die in sommige groepsvennootschappen aanwezig zijn aan de financieringsvennootschap worden overgemaakt die deze dan toewijst aan andere groepsleden die financiering nodig hebben. Het zal ook deze vennootschap zijn die indekkingoperaties opzet om de groep te behoeden voor interest- en wisselkoersrisico’s. In voorkomend geval zal de financieringsvennootschap zich inlaten met de organisatie van de beleggingen van de groep.
 
 #### Bepaling van de functionele valuta bij financieringsvennootschappen
 
-Het eerder verschenen CBN-advies 117/3 is onverwijld van toepassing bij de vaststelling van de functionele valuta, ook van financieringsvennootschappen.  Doch, omwille van de specifieke karakteristieken van financieringsvennootschappen werd, zoals reeds gesteld, door de Minister van Economie aan de Commissie gevraagd het bestaand advies 117/3 aan te vullen.
+Het eerder verschenen CBN-advies 117/3 is onverwijld van toepassing bij de vaststelling van de functionele valuta, ook van financieringsvennootschappen. Doch, omwille van de specifieke karakteristieken van financieringsvennootschappen werd, zoals reeds gesteld, door de Minister van Economie aan de Commissie gevraagd het bestaand advies 117/3 aan te vullen.
 
 Uit de eerder in dit advies opgenomen definitie van een financieringsvennootschap kan worden afgeleid dat de activiteiten van een financieringsvennootschap in belangrijke mate bestaan uit financiële intragroepsverrichtingen. Dergelijke financieringsvennootschappen worden vaak louter voor dit doel door de moederonderneming opgericht, en verrichten vaak uitsluitend activiteiten die de moederonderneming in het tegenovergestelde geval zelf voor haar rekening zou nemen. Ze zijn in alle opzichten zo goed als steeds een “Special Purpose Entity”.
 
@@ -76,7 +76,7 @@ In dat geval als functionele valuta de euro gebruiken, zou een vertekend beeld g
 
 In de keuze van de functionele valuta zal in deze de derde primaire voorwaarde uit advies 117/3 een belangrijke beslissingsfactor uitmaken. De valuta waarin middelen uit (inzonderheid intragroeps‐) financieringsactiviteiten (dat wil zeggen bij uitgifte van schuldbewijzen en eigen‐vermogensinstrumenten) worden gegenereerd, is in deze context vaak een bepalende factor om uit te maken welke valuta gehanteerd dient te worden.
 
-Daarbij moet het geheel en dus de samenhang van de ingenomen posities bekeken worden.  
+Daarbij moet het geheel en dus de samenhang van de ingenomen posities bekeken worden. 
 
 Voor zover posities zouden uitgedrukt zijn in een andere valuta dan deze die de groep in hoofdzaak hanteert zoals de euro, maar die via hedging zijn afgedekt in de functionele valuta van de groep, kan er alleen maar op wijzen dat de functionele valuta van de Belgische financieringsvennootschap niet de euro is maar deze van de groep. In dat geval is het economisch risico een risico in de functionele munt van de groep.
 

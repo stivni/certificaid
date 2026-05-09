@@ -51,16 +51,16 @@ gerelateerde_adviezen:
 
 # CBN-advies 2018/23 - Begin van het boekjaar
 
-1.  Inleiding  
-2.  Het principe: het boekjaar start op de datum waarop de vennootschap rechtspersoonlijkheid verwerft  
-3.  Impact van de overname van de verbintenissen aangegaan namens een vennootschap in oprichting 
-  1.  In hoofde van de promotor  
-  2.  In hoofde van de nieuwe vennootschap  
+1. Inleiding 
+2. Het principe: het boekjaar start op de datum waarop de vennootschap rechtspersoonlijkheid verwerft 
+3. Impact van de overname van de verbintenissen aangegaan namens een vennootschap in oprichting 
+  1. In hoofde van de promotor 
+  2. In hoofde van de nieuwe vennootschap 
 
-4.  Uitzondering: de boekhoudkundige retroactiviteit van bepaalde herstructurerings-verrichtingen van vennootschappen 
-  1.  Fusie en splitsing door oprichting van nieuwe vennootschap(pen)
+4. Uitzondering: de boekhoudkundige retroactiviteit van bepaalde herstructurerings-verrichtingen van vennootschappen 
+  1. Fusie en splitsing door oprichting van nieuwe vennootschap(pen)
 
-  2.  Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap
+  2. Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap
 
 -- Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap
 
@@ -76,12 +76,12 @@ Naar mening van de Commissie start het boekjaar van een vennootschap op de datum
 
 Vennootschappen verkrijgen hun rechtspersoonlijkheid vanaf de dag dat ze het uittreksel van hun oprichtingsakte neerleggen ter griffie van de rechtbank van koophandel van het rechtsgebied waarbinnen de vennootschap haar zetel heeft.[^2] ,[^3] 
 
-Hoewel de vennootschap bestaat vanaf haar oprichting[^4], verwerft ze pas een eigen juridische individualiteit, onafhankelijk van die van de oprichters, vanaf de voornoemde neerlegging ter griffie. 
+Hoewel de vennootschap bestaat vanaf haar oprichting[^4], verwerft ze pas een eigen juridische individualiteit, onafhankelijk van die van de oprichters, vanaf de voornoemde neerlegging ter griffie. 
 
 De Commissie wijst er echter op dat een bepaalde praktijk als aanvang van het boekjaar de datum van de oprichting van de vennootschap neemt, m.a.w. de datum van het verlijden van de authentieke akte voor de vennootschappen met beperkte aansprakelijkheid en de datum van het verlijden van de authentieke akte of de ondertekening van de onderhandse akte voor de vennootschappen met onbeperkte aansprakelijkheid.[^5] 
 
 De Commissie is van oordeel dat dit geen geschikte praktijk is. Voor zover het uittreksel uit de oprichtingsakte moet worden neergelegd binnen vijftien dagen na de dagtekening van de definitieve akte[^6]
- en binnen deze termijn wordt neergelegd, aanvaardt de Commissie als een tolerantie dat het begin van het boekjaar kan worden vastgelegd op de datum waarop de vennootschap wordt opgericht. De Commissie benadrukt hierbij dat deze termijn van vijftien dagen in de praktijk stilaan verdwijnt, omdat de notarissen gebruik maken van de elektronische neerlegging van het uittreksel uit de oprichtingsakte.
+ en binnen deze termijn wordt neergelegd, aanvaardt de Commissie als een tolerantie dat het begin van het boekjaar kan worden vastgelegd op de datum waarop de vennootschap wordt opgericht. De Commissie benadrukt hierbij dat deze termijn van vijftien dagen in de praktijk stilaan verdwijnt, omdat de notarissen gebruik maken van de elektronische neerlegging van het uittreksel uit de oprichtingsakte.
 
 De Commissie herinnert eraan dat de nieuwe vennootschap, die haar jaarrekening voor de eerste keer neerlegt[^7], de datum van neerlegging van het uittreksel uit haar oprichtingsakte ter griffie moet aanduiden op de eerste pagina van de neer te leggen jaarrekening bij de Balanscentrale en niet de datum van het verlijden of de ondertekening van haar oprichtingsakte noch de datum van publicatie in de Bijlagen bij het Belgisch Staatsblad.
 
@@ -95,7 +95,7 @@ In dat opzicht, heeft het Hof van Cassatie voor recht verklaard dat “*de overn
 
 Naar mening van de Commissie, heeft de terugwerkende kracht inherent aan de ontbindende voorwaarde voorzien door artikel 60 van het W.Venn. geen weerslag op het begin van het boekjaar, dat behouden blijft op de datum waarop de rechtspersoonlijkheid wordt verworven. Ze heeft daarentegen tot gevolg dat alle opgenomen actief- en passiefbestanddelen, met inbegrip van de afschrijvingen, waardeverminderingen en door de promotor gevormde voorzieningen, zijn rechten en verplichtingen alsook zijn desbetreffende opbrengsten en kosten worden opgenomen in de boekhouding van de vennootschap tegen de waarde waarvoor ze in de boekhouding van de promotor voorkwamen op het tijdstip dat de verbintenis wordt overgenomen. De jaarrekening over het eerste boekjaar van de vennootschap zal dus alle activa, passiva, kosten, opbrengsten, rechten en verplichtingen omtrent de overgenomen verbintenissen opnemen.
 
-Het aangaan van verbintenissen onder ontbindende voorwaarde in naam van een vennootschap in oprichting moet volgens de Commissie door de promotor geboekt worden alsof hij ze in zijn naam en voor zijn eigen rekening was aangegaan. Het gebruik van de rekeningen 074 *Goederen en waarden gehouden voor rekening of ten bate en voor risico van derden* en 075 *Crediteuren wegens goederen en waarden gehouden voor rekening of ten bate en voor risico van derden* is niet geschikt, aangezien deze verbintenissen niet worden aangeduid als “de goederen en waarden die de vennootschap […] voor rekening of ten bate en op risico van derden onder zich houdt, [en evenmin als] de daartegenoverstaande verplichtingen”[^11]. 
+Het aangaan van verbintenissen onder ontbindende voorwaarde in naam van een vennootschap in oprichting moet volgens de Commissie door de promotor geboekt worden alsof hij ze in zijn naam en voor zijn eigen rekening was aangegaan. Het gebruik van de rekeningen 074 *Goederen en waarden gehouden voor rekening of ten bate en voor risico van derden* en 075 *Crediteuren wegens goederen en waarden gehouden voor rekening of ten bate en voor risico van derden* is niet geschikt, aangezien deze verbintenissen niet worden aangeduid als “de goederen en waarden die de vennootschap […] voor rekening of ten bate en op risico van derden onder zich houdt, [en evenmin als] de daartegenoverstaande verplichtingen”[^11]. 
 
 De Commissie is van mening dat op deze manier de beginselen van een regelmatige boekhouding worden nageleefd, en dat zo in het bijzonder wordt gegarandeerd dat de boekingen overeenkomen met de realiteit van de uitgedrukte verrichtingen, dat de verrichtingen van begin tot einde worden opgevolgd en de onveranderlijkheid van de boekingen wordt verzekerd[^12].[^13] 
 
@@ -120,11 +120,11 @@ Het bestuursorgaan van de nieuwe vennootschap kan, indien het dit relevant acht,
 Een promotor die zijn boekjaar afsluit per kalenderjaar verwerft op 1 september 20X0 een onroerend goed voor 100.000 EUR namens een vennootschap in oprichting en neemt dit onmiddellijk in gebruik voor de vennootschap in oprichting. Het onroerend goed wordt afgeschreven over een periode van 33 jaar. Deze verwerving wordt gefinancierd door middel van een banklening, gecontracteerd op 31 augustus 20X0, van 100.000 EUR met een looptijd van 15 jaar en een maandelijkse rente van 100 EUR. Vanaf 1 november 20X0 verhuurt de promotor een deel van het onroerend goed aan een derde tegen een maandelijkse huur van 300 EUR. Op 1 december 20X0 neemt de promotor onderhoudskosten voor het onroerend goed van 500 EUR ten laste.
 
 De kosten van het boekjaar 20X0 voor het onroerend goed[^19]
- bedragen meer dan de ontvangen huurprijs voor datzelfde boekjaar[^20]. Het overschot van de kosten ten opzichte van de opbrengsten van boekjaar 20X0 bedraagt 1.310,10 EUR[^21].
+ bedragen meer dan de ontvangen huurprijs voor datzelfde boekjaar[^20]. Het overschot van de kosten ten opzichte van de opbrengsten van boekjaar 20X0 bedraagt 1.310,10 EUR[^21].
 
 De jaarrekening over het boekjaar 20X0 wordt goedgekeurd door de algemene vergadering van de promotor op 15 mei 20X1.
 
-Op 1 september 20X1 wordt de vennootschap opgericht en op dezelfde dag wordt het uittreksel van haar oprichtingsakte neergelegd ter griffie van de rechtbank van koophandel. Dezelfde dag neemt de vennootschap het onroerend goed en de daartegenoverstaande verplichtingen over. 
+Op 1 september 20X1 wordt de vennootschap opgericht en op dezelfde dag wordt het uittreksel van haar oprichtingsakte neergelegd ter griffie van de rechtbank van koophandel. Dezelfde dag neemt de vennootschap het onroerend goed en de daartegenoverstaande verplichtingen over. 
 
 Bij de promotor, vertaalt de overname zich als volgt:
 
@@ -146,44 +146,44 @@ Afsluiting van de banklening
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Bank – Rekening-courant | 100.000 |  |
-| aan | 1730 | Kredietinstellingen – Schulden in rekening |  | 100.000 |
+| | 5500 | Bank – Rekening-courant | 100.000 | |
+| aan | 1730 | Kredietinstellingen – Schulden in rekening | | 100.000 |
 
 Aankoop van het onroerend goed
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2220/260 | Bebouwde terreinen/Overige materiële vaste activa | 100.000 |  |
-| aan | 5500 | Bank – Rekening-courant |  | 100.000 |
+| | 2220/260 | Bebouwde terreinen/Overige materiële vaste activa | 100.000 | |
+| aan | 5500 | Bank – Rekening-courant | | 100.000 |
 
 Maandelijkse termijnen van de lening, betaald tijdens vier maanden
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 1730 | Kredietinstellingen – Schulden in rekening | 2.222,22 |  |
-|  | 6500/668 | Rente verbonden aan schulden/niet-recurrente | 400 |  |
-| aan | 5500 | Bank – Rekening-courant |  | 2.622,22 |
+| | 1730 | Kredietinstellingen – Schulden in rekening | 2.222,22 | |
+| | 6500/668 | Rente verbonden aan schulden/niet-recurrente | 400 | |
+| aan | 5500 | Bank – Rekening-courant | | 2.622,22 |
 
 Huurgelden ontvangen tijdens twee maanden
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Bank – Rekening-courant | 600 |  |
-| aan | 744/765 | Diverse bedrijfsopbrengsten/Niet-recurrente: huurgelden |  | 600 |
+| | 5500 | Bank – Rekening-courant | 600 | |
+| aan | 744/765 | Diverse bedrijfsopbrengsten/Niet-recurrente: huurgelden | | 600 |
 
 Onderhoudskosten
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 644/665 | Diverse bedrijfskosten/niet-recurrente: onderhoud | 500 |  |
-| aan | 5500 | Bank – Rekening-courant |  | 500 |
+| | 644/665 | Diverse bedrijfskosten/niet-recurrente: onderhoud | 500 | |
+| aan | 5500 | Bank – Rekening-courant | | 500 |
 
 Afschrijving van het onroerend goed tijdens vier maanden
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6302/666 | Toevoegingen aan afschrijvingen/niet-recurrente | 1.010,10 |  |
-| aan | 2229/269 | Bebouwde terreinen/Overige mat. vaste activa |  | 1.010,10 |
+| | 6302/666 | Toevoegingen aan afschrijvingen/niet-recurrente | 1.010,10 | |
+| aan | 2229/269 | Bebouwde terreinen/Overige mat. vaste activa | | 1.010,10 |
 
 **20X1**
 
@@ -191,23 +191,23 @@ Maandelijkse termijnen van de lening, betaald tijdens acht maanden
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 1730 | Kredietinstellingen – Schulden in rekening | 4.444,44 |  |
-|  | 6500/668 | Rente verbonden aan schulden/niet-recurrente | 800 |  |
-| aan | 5500 | Bank – Rekening-courant |  | 5.244,44 |
+| | 1730 | Kredietinstellingen – Schulden in rekening | 4.444,44 | |
+| | 6500/668 | Rente verbonden aan schulden/niet-recurrente | 800 | |
+| aan | 5500 | Bank – Rekening-courant | | 5.244,44 |
 
 Huurgelden ontvangen tijdens acht maanden
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Bank – Rekening-courant | 2.400 |  |
-| aan | 744/765 | Diverse bedrijfsopbrengsten/Niet-recurrente: huurgelden |  | 2.400 |
+| | 5500 | Bank – Rekening-courant | 2.400 | |
+| aan | 744/765 | Diverse bedrijfsopbrengsten/Niet-recurrente: huurgelden | | 2.400 |
 
 Afschrijving van het onroerend goed tijdens acht maanden
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6302/666 | Toevoegingen aan afschrijvingen/niet-recurrente | 2.020,20 |  |
-| aan | 2229/269 | Bebouwde terreinen/Overige mat. vaste activa |  | 2.020,20 |
+| | 6302/666 | Toevoegingen aan afschrijvingen/niet-recurrente | 2.020,20 | |
+| aan | 2229/269 | Bebouwde terreinen/Overige mat. vaste activa | | 2.020,20 |
 
 **Overname**
 
@@ -215,53 +215,53 @@ Afschrijving van het onroerend goed tijdens acht maanden
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 1730 | Kredietinstellingen – Schulden in rekening | 93.333,33 |  |
-|  | 2229/269 | Afschr. op bebouwde terreinen/Overige mat. vaste activa | 3.030,30 |  |
-|  | 2810 | Vordering op de nieuwe vennootschap | 5.366,67 |  |
-|  | 744/765 | Diverse bedrijfsopbrengsten/Niet-recurrente: huurgelden | 2.400 |  |
-| aan | 2220/260 | Bebouwde terreinen/Overige mat. vaste activa |  | 100.000 |
-|  | 6500/668 | Rente verbonden aan schulden/niet-recurrente | 800 |  |
-|  | 6302/666 | Toevoegingen aan afschrijvingen/niet-recurrente | 2.020,20 |  |
-|  | 743/764 | Diverse bedrijfsopbrengsten/Niet-recurrente | 1.310,10 |  |
+| | 1730 | Kredietinstellingen – Schulden in rekening | 93.333,33 | |
+| | 2229/269 | Afschr. op bebouwde terreinen/Overige mat. vaste activa | 3.030,30 | |
+| | 2810 | Vordering op de nieuwe vennootschap | 5.366,67 | |
+| | 744/765 | Diverse bedrijfsopbrengsten/Niet-recurrente: huurgelden | 2.400 | |
+| aan | 2220/260 | Bebouwde terreinen/Overige mat. vaste activa | | 100.000 |
+| | 6500/668 | Rente verbonden aan schulden/niet-recurrente | 800 | |
+| | 6302/666 | Toevoegingen aan afschrijvingen/niet-recurrente | 2.020,20 | |
+| | 743/764 | Diverse bedrijfsopbrengsten/Niet-recurrente | 1.310,10 | |
 
 ### In hoofde van de nieuwe vennootschap
 
-**20X1 – Overname**
+**20X1 – Overname**
 
  [^24]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2220/260 | Bebouwde terreinen/Overige mat. vaste activa | 100.000 |  |
-|  | 6302/666 | Toevoegingen aan afschrijvingen/niet-recurrente | 2.020,20 |  |
-|  | 643/664 | Diverse bedrijfskosten/niet-recurrente | 1.310,10 |  |
-|  | 6500/668 | Rente verbonden aan schulden/niet-recurrente | 800 |  |
-| aan | 1730 | Kredietinstellingen – Schulden in rekening |  | 93.333,33 |
-|  | 2229/269 | Afschrijvingen op bebouwde terreinen | 3.030,30 |  |
-|  | 489 | Schuld t.o.v. de promotor | 5.366,67 |  |
-|  | 744/765 | Diverse bedrijfsopbrengsten/Niet-rec.: huurgelden | 2.400 |  |
+| | 2220/260 | Bebouwde terreinen/Overige mat. vaste activa | 100.000 | |
+| | 6302/666 | Toevoegingen aan afschrijvingen/niet-recurrente | 2.020,20 | |
+| | 643/664 | Diverse bedrijfskosten/niet-recurrente | 1.310,10 | |
+| | 6500/668 | Rente verbonden aan schulden/niet-recurrente | 800 | |
+| aan | 1730 | Kredietinstellingen – Schulden in rekening | | 93.333,33 |
+| | 2229/269 | Afschrijvingen op bebouwde terreinen | 3.030,30 | |
+| | 489 | Schuld t.o.v. de promotor | 5.366,67 | |
+| | 744/765 | Diverse bedrijfsopbrengsten/Niet-rec.: huurgelden | 2.400 | |
 
 ## Uitzondering: de boekhoudkundige retroactiviteit van bepaalde herstructurerings-verrichtingen van vennootschappen
 
 ### Fusie en splitsing door oprichting van nieuwe vennootschap(pen)[^25] 
 
 De fusie door oprichting van een nieuwe vennootschap en de splitsing door oprichting van nieuwe vennootschappen zijn respectievelijk voltrokken zodra de nieuwe vennootschap is opgericht[^26]
- en zodra de nieuwe vennootschappen zijn opgericht[^27].
+ en zodra de nieuwe vennootschappen zijn opgericht[^27].
 
 Boekhoudkundig worden de fusie en splitsing echter van kracht op de datum, respectievelijk vermeld in het fusievoorstel “*vanaf welke de handelingen van de te ontbinden vennootschappen boekhoudkundig geacht worden te zijn verricht voor rekening van de nieuwe vennootschap*”[^28]
- en in het splitsingsvoorstel “*vanaf welke de handelingen van de te splitsen vennootschap boekhoudkundig geacht worden te zijn verricht voor rekening van een van de nieuwe vennootschappen*”[^29].
+ en in het splitsingsvoorstel “*vanaf welke de handelingen van de te splitsen vennootschap boekhoudkundig geacht worden te zijn verricht voor rekening van een van de nieuwe vennootschappen*”[^29].
 
 Zoals het Hof van Cassatie er heeft aan herinnerd in zijn arrest van 12 juni 2014, “de krachtens deze wetsbepalingen te vermelden datum beoogt enkel een boekhoudkundige en niet een verbintenisrechtelijke retroactiviteit van de fusie of splitsing”[^30].
 
 Volgens de Commissie heeft deze boekhoudkundige retroactiviteit tot gevolg dat het boekjaar van de vennootschap(pen) opgericht naar aanleiding van een fusie/splitsing aanvangt op de datum dat de fusie/splitsing boekhoudkundig van kracht wordt en niet, in afwijking van het bovenvermelde principe, randnr. 3, op de datum waarop de rechtspersoonlijkheid wordt verworven.
 
 Naar het oordeel van de Commissie kan dergelijke retroactiviteit niet verder reiken dan de laatste balansdatum waarop de jaarrekening van de overgenomen vennootschappen of van de gesplitste vennootschap is afgesloten, ongeacht of deze werd neergelegd of niet.[^31]
- Bovendien mag de duur van het boekjaar, krachtens het periodiciteitsbeginsel, nooit langer zijn dan vierentwintig maanden min één kalenderdag.[^32] 
+ Bovendien mag de duur van het boekjaar, krachtens het periodiciteitsbeginsel, nooit langer zijn dan vierentwintig maanden min één kalenderdag.[^32] 
 
 De Commissie meent dat deze boekhoudkundige retroactiviteit zorgt voor een beter begrip van de fusie/splitsing in de jaarrekening. De jaarrekening van de nieuwe vennootschap(pen) start immers op de datum dat de fusie/splitsing boekhoudkundig van kracht wordt en de jaarrekening van de overgenomen vennootschappen of van de gesplitste vennootschap wordt de dag hiervoor afgesloten. Bovendien kan de boekhoudkundige neutraliteit van de fusie/splitsing het best gerespecteerd worden door de retroactieve start van het boekjaar.[^33]
- De Commissie verwijst in dit verband naar haar adviezen 2009/6[^34]
- en 2009/8[^35]
- m.b.t. de boekhoudkundige verwerking van respectievelijk fusies en splitsingen.
+ De Commissie verwijst in dit verband naar haar adviezen 2009/6[^34]
+ en 2009/8[^35]
+ m.b.t. de boekhoudkundige verwerking van respectievelijk fusies en splitsingen.
 
 ### Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap[^36] 
 
@@ -270,7 +270,7 @@ In navolging van de fusies en splitsingen, vermeldt het voorstel van inbreng van
 De Commissie is van mening dat hieruit volgt dat het boekjaar van de vennootschap(pen) opgericht naar aanleiding van de inbreng van een algemeenheid of een bedrijfstak van start gaat op de datum dat de inbreng boekhoudkundig van kracht wordt en niet, in afwijking van het bovenvermelde principe, randnr. 3, op de datum waarop de rechtspersoonlijkheid wordt verworven. Bovendien mag de duur van het boekjaar, krachtens het periodiciteitsbeginsel, nooit langer zijn dan vierentwintig maanden min één kalenderdag.[^38] 
 
 De boekhoudkundige neutraliteit van de inbreng van een algemeenheid of van een bedrijfstak kan het best gerespecteerd worden door de retroactieve start van het boekjaar.[^39]
- De Commissie verwijst hiervoor naar haar advies 2009/15 betreffende de boekhoudkundige verwerking van de inbreng van een algemeenheid en van een bedrijfstak.[^40] 
+ De Commissie verwijst hiervoor naar haar advies 2009/15 betreffende de boekhoudkundige verwerking van de inbreng van een algemeenheid en van een bedrijfstak.[^40] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 19 april 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

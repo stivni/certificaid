@@ -37,29 +37,29 @@ gerelateerde_adviezen:
 # CBN-advies 2013/6 – De boekhoudkundige verwerking van de afzonderlijke aanslag op interne pensioenvoorzieningen
 
 De Programmawet van 22 juni 2012[^1]
- onderwerpt interne pensioenvoorzieningen aan een éénmalige belastingheffing middels een afzonderlijke aanslag. De bedoelde voorzieningen zijn de voorzieningen die gevormd zijn ter uitvoering van aanvullende individuele pensioentoezeggingen bestaand op het einde van het laatste boekjaar met afsluitdatum vóór 1 januari 2012. De heffing bedraagt 1,75 procent van deze voorzieningen. De afzonderlijke aanslag wordt samen met de vennootschapsbelasting, de rechtspersonenbelasting of de belasting van niet-inwoners voor het aanslagjaar 2013 ingekohierd.
+ onderwerpt interne pensioenvoorzieningen aan een éénmalige belastingheffing middels een afzonderlijke aanslag. De bedoelde voorzieningen zijn de voorzieningen die gevormd zijn ter uitvoering van aanvullende individuele pensioentoezeggingen bestaand op het einde van het laatste boekjaar met afsluitdatum vóór 1 januari 2012. De heffing bedraagt 1,75 procent van deze voorzieningen. De afzonderlijke aanslag wordt samen met de vennootschapsbelasting, de rechtspersonenbelasting of de belasting van niet-inwoners voor het aanslagjaar 2013 ingekohierd.
 
-Onder bepaalde voorwaarden kan de belastingplichtige opteren om deze aanslag te spreiden over drie belastbare tijdperken. Het tarief van de aanslag wordt dan bepaald op 0,60 procent en is van toepassing op elk van de drie belastbare tijdperken. Zo zal de vennootschap die er voor opteert om de aanslag te spreiden uiteindelijk 1,80 procent van het totaal bedrag van de betreffende voorzieningen betalen. 
+Onder bepaalde voorwaarden kan de belastingplichtige opteren om deze aanslag te spreiden over drie belastbare tijdperken. Het tarief van de aanslag wordt dan bepaald op 0,60 procent en is van toepassing op elk van de drie belastbare tijdperken. Zo zal de vennootschap die er voor opteert om de aanslag te spreiden uiteindelijk 1,80 procent van het totaal bedrag van de betreffende voorzieningen betalen. 
 
-De afzonderlijke aanslag van 1,75 procent op de bestaande pensioentoezeggingen is een vaststaande schuld waarmee rekening moet worden gehouden overeenkomstig artikel 33 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen, zelfs wanneer deze belasting nog niet werd ingekohierd. Deze schuld wordt uitgedrukt op de rekening 452 *Te betalen belastingen en taksen*. Deze belasting is een kost van de periode waarin deze belasting werd ingevoerd[^2] ongeacht wanneer deze belasting effectief zal worden betaald. 
+De afzonderlijke aanslag van 1,75 procent op de bestaande pensioentoezeggingen is een vaststaande schuld waarmee rekening moet worden gehouden overeenkomstig artikel 33 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen, zelfs wanneer deze belasting nog niet werd ingekohierd. Deze schuld wordt uitgedrukt op de rekening 452 *Te betalen belastingen en taksen*. Deze belasting is een kost van de periode waarin deze belasting werd ingevoerd[^2] ongeacht wanneer deze belasting effectief zal worden betaald. 
 
-Wanneer de onderneming ervoor opteert deze belasting niet in één keer te betalen maar te spreiden overeenkomstig de voorziene modaliteiten, zal de onderneming een bijkomende kost moeten boeken van 0,05 procent in het jaar waarin ze heeft uitgedrukt om de afzonderlijke aanslag te spreiden over drie aanslagjaren[^3]. 
+Wanneer de onderneming ervoor opteert deze belasting niet in één keer te betalen maar te spreiden overeenkomstig de voorziene modaliteiten, zal de onderneming een bijkomende kost moeten boeken van 0,05 procent in het jaar waarin ze heeft uitgedrukt om de afzonderlijke aanslag te spreiden over drie aanslagjaren[^3]. 
 
-In het Belgische boekhoudrecht wordt het schema van de resultatenrekening opgesteld in functie van de aard van de kosten. De afzonderlijke aanslag op de interne pensioenvoorzieningen is een niet-verrekenbare bedrijfsbelasting. De Commissie is van mening dat dergelijke kosten in de boekhouding moeten worden geregistreerd op de rekening 640 *Bedrijfsbelastingen*.   
+In het Belgische boekhoudrecht wordt het schema van de resultatenrekening opgesteld in functie van de aard van de kosten. De afzonderlijke aanslag op de interne pensioenvoorzieningen is een niet-verrekenbare bedrijfsbelasting. De Commissie is van mening dat dergelijke kosten in de boekhouding moeten worden geregistreerd op de rekening 640 *Bedrijfsbelastingen*. 
 
 **Boeking eerste jaar**
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 640 | Bedrijfsbelastingen | 1,75 |  |
-| aan | 452 | Te betalen belastingen en taksen |  | 1,75 |
+| | 640 | Bedrijfsbelastingen | 1,75 | |
+| aan | 452 | Te betalen belastingen en taksen | | 1,75 |
 
 **Boeking in het jaar waarin wordt uitgedrukt om de afzonderlijke aanslag te spreiden over drie aanslagjaren**
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 640 | Bedrijfsbelastingen | 0,05 |  |
-| aan | 452 | Te betalen belastingen en taksen |  | 0,05 |
+| | 640 | Bedrijfsbelastingen | 0,05 | |
+| aan | 452 | Te betalen belastingen en taksen | | 0,05 |
 
 [^1]: Artikel 66 van de Programmawet van 22 juni 2012 (BS 28 juni 2012).
 

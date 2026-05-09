@@ -45,11 +45,11 @@ gerelateerde_adviezen:
 Onder de naam belasting over de toegevoegde waarde (hierna: btw) werd een omzetbelasting ingevoerd, die geheven wordt onder de voorwaarden en met inachtneming van de regelen bepaald in het Wetboek van de belasting over de toegevoegde waarde (hierna: Wbtw)[^1].
 
 De belastingplichtigen moeten periodiek aangifte doen van het bedrag van de opeisbare belasting, van de te verrichten aftrek en van de te verrichten herzieningen[^2]
- en een aan de omvang van hun activiteiten aangepaste boekhouding voeren om de btw te kunnen toepassen en controleren[^3].
+ en een aan de omvang van hun activiteiten aangepaste boekhouding voeren om de btw te kunnen toepassen en controleren[^3].
 
 ## Btw-eenheid
 
-Met ingang van 1 april 2007 voerde België de btw-eenheid in[^4]. 
+Met ingang van 1 april 2007 voerde België de btw-eenheid in[^4]. 
 
 Het stelsel van de btw-eenheid laat toe in België gevestigde personen die in juridisch opzicht onafhankelijk zijn, maar op financieel, economisch en organisatorisch vlak nauw met elkaar verbonden zijn, voor de toepassing van het Wbtw als één belastingplichtige te beschouwen[^5].
 
@@ -75,18 +75,18 @@ De leveringen van goederen en diensten tussen de leden van een btw-eenheid valle
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 400 | Handelsdebiteuren | 1.000 |  |
-| aan | 700 | Verkopen en dienstprestaties |  | 1.000 |
+| | 400 | Handelsdebiteuren | 1.000 | |
+| aan | 700 | Verkopen en dienstprestaties | | 1.000 |
 
 *- Boekhoudkundige verwerking bij lid B:*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 604 | Handelsgoederen | 1.000 |  |
-| aan | 440 | Leveranciers |  | 1.000 |
+| | 604 | Handelsgoederen | 1.000 | |
+| aan | 440 | Leveranciers | | 1.000 |
 
 De leveringen door derden van goederen en diensten aan een lid van de btw-eenheid, gebeuren, voor de toepassing van de btw, aan de btw-eenheid. In hoofde van het lid ontstaat op het moment van de btw-aangifte een vordering op de vertegenwoordiger van de btw-eenheid (qualitate qua). Totdat de aangifte wordt ingediend, dient deze vordering op een wachtrekening[^13]
- geboekt te worden.
+ geboekt te worden.
 
 *Voorbeeld*
 
@@ -94,9 +94,9 @@ De leveringen door derden van goederen en diensten aan een lid van de btw-eenhei
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 604 | Aankopen van handelsgoederen | 1.000 |  |
-|  | 499 | Wachtrekeningen | 210 |  |
-| aan | 440 | Leveranciers |  | 1.210 |
+| | 604 | Aankopen van handelsgoederen | 1.000 | |
+| | 499 | Wachtrekeningen | 210 | |
+| aan | 440 | Leveranciers | | 1.210 |
 
 De levering van goederen en diensten gedaan door elk lid, worden geacht door de btw-eenheid te zijn verwezenlijkt. In hoofde van het lid ontstaat op het moment van de btw-aangifte een schuld ten aanzien van de vertegenwoordiger van de btw-eenheid. Totdat de aangifte wordt ingediend, dient deze schuld op een wachtrekening geboekt te worden.
 
@@ -106,11 +106,11 @@ De levering van goederen en diensten gedaan door elk lid, worden geacht door de 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 400 | Handelsdebiteuren | 2.420 |  |
-| aan | 700 | Verkopen en dienstprestaties |  | 2.000 |
-|  | 499 | Wachtrekeningen | 420 |  |
+| | 400 | Handelsdebiteuren | 2.420 | |
+| aan | 700 | Verkopen en dienstprestaties | | 2.000 |
+| | 499 | Wachtrekeningen | 420 | |
 
-Op het moment van het indienen van de btw-aangifte door de vertegenwoordiger van de btw-eenheid, ontstaat in hoofde van de vertegenwoordiger van de btw-eenheid een definitieve vordering of schuld ten opzichte van de Staat. Op datzelfde moment ontstaat bij elk lid een vordering of schuld ten opzichte van de vertegenwoordiger van de btw-eenheid. 
+Op het moment van het indienen van de btw-aangifte door de vertegenwoordiger van de btw-eenheid, ontstaat in hoofde van de vertegenwoordiger van de btw-eenheid een definitieve vordering of schuld ten opzichte van de Staat. Op datzelfde moment ontstaat bij elk lid een vordering of schuld ten opzichte van de vertegenwoordiger van de btw-eenheid. 
 
 *Voorbeeld*
 
@@ -120,8 +120,8 @@ Op het moment van het indienen van de btw-aangifte door de vertegenwoordiger van
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 411 | Terug te vorderen btw | 210 |  |
-| aan | 499 | Wachtrekeningen |  | 210 |
+| | 411 | Terug te vorderen btw | 210 | |
+| aan | 499 | Wachtrekeningen | | 210 |
 
 *Lid B heeft, na saldering van de wachtrekeningen, een schuld van 210 ten aanzien van de vertegenwoordiger van de btw-eenheid, aangezien deze de btw dient te storten aan de Staat.*
 
@@ -129,8 +129,8 @@ Op het moment van het indienen van de btw-aangifte door de vertegenwoordiger van
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 499 | Wachtrekeningen | 420 |  |
-| aan | 451 | Te betalen btw |  | 420 |
+| | 499 | Wachtrekeningen | 420 | |
+| aan | 451 | Te betalen btw | | 420 |
 
 *Lid C, in de hoedanigheid van vertegenwoordiger van de btw-eenheid, heeft een schuld van 210 ten opzichte van de Staat.*
 
@@ -138,19 +138,19 @@ Op het moment van het indienen van de btw-aangifte door de vertegenwoordiger van
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 41 | Overige vorderingen: btw-eenheid | 420 |  |
-| aan | 451 | Te betalen btw |  | 210 |
-|  | 48 | Diverse schulden: btw-eenheid | 210 |  |
+| | 41 | Overige vorderingen: btw-eenheid | 420 | |
+| aan | 451 | Te betalen btw | | 210 |
+| | 48 | Diverse schulden: btw-eenheid | 210 | |
 
 ## Hoofdelijke aansprakelijkheid voor schulden van de btw-eenheid
 
 De leden van de btw-eenheid zijn ten opzichte van de Staat hoofdelijk gehouden tot de voldoening van de btw, de intresten, de geldboeten en de kosten die opeisbaar zijn ingevolge de handelingen van de leden van de btw-eenheid[^18].
 
-Overeenkomstig artikel 25, § 3 K.B. W.Venn. dienen de verplichtingen die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden, in de toelichting te worden vermeld. Elk lid van de btw-eenheid dient bijgevolg, gelet op de hoofdelijke aansprakelijkheid voor de schulden van de btw-eenheid, in zijn toelichting te vermelden dat hij lid is van een btw-eenheid. 
+Overeenkomstig artikel 25, § 3 K.B. W.Venn. dienen de verplichtingen die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden, in de toelichting te worden vermeld. Elk lid van de btw-eenheid dient bijgevolg, gelet op de hoofdelijke aansprakelijkheid voor de schulden van de btw-eenheid, in zijn toelichting te vermelden dat hij lid is van een btw-eenheid. 
 
-Indien het bestuursorgaan van een lid van de btw-eenheid het risico reëel acht dat het lid zal aangesproken worden voor het totale bedrag van de btw-schuld van de btw-eenheid dient dit lid deze totale schuld in klasse 0 van het rekeningenstelsel te boeken en in de toelichting van de jaarrekening bij de *Niet in de balans opgenomen rechten en verplichtingen* te vermelden.
+Indien het bestuursorgaan van een lid van de btw-eenheid het risico reëel acht dat het lid zal aangesproken worden voor het totale bedrag van de btw-schuld van de btw-eenheid dient dit lid deze totale schuld in klasse 0 van het rekeningenstelsel te boeken en in de toelichting van de jaarrekening bij de *Niet in de balans opgenomen rechten en verplichtingen* te vermelden.
 
-Indien een lid van de btw-eenheid betrokken raakt in een geschil met de Staat, dienen de andere leden van de btw-eenheid dit in hun toelichting te vermelden indien hun bestuursorgaan van oordeel is dat er een reële kans bestaat zij zullen aangesproken wordenvoor de eventuele navordering die hieruit zou kunnen voortvloeien.  
+Indien een lid van de btw-eenheid betrokken raakt in een geschil met de Staat, dienen de andere leden van de btw-eenheid dit in hun toelichting te vermelden indien hun bestuursorgaan van oordeel is dat er een reële kans bestaat zij zullen aangesproken wordenvoor de eventuele navordering die hieruit zou kunnen voortvloeien. 
 
 [^1]: Artikel 1, § 1 Wbtw.
 

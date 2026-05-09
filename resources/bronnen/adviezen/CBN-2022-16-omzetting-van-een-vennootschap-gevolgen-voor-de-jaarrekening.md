@@ -44,24 +44,24 @@ gerelateerde_adviezen:
 ## Inleiding
 
 De omzetting van een vennootschap[^2]
- kan worden gedefinieerd als de aanname van een nieuwe rechtsvorm met behoud van de rechtspersoonlijkheid van de vennootschap.[^3] 
+ kan worden gedefinieerd als de aanname van een nieuwe rechtsvorm met behoud van de rechtspersoonlijkheid van de vennootschap.[^3] 
 
 ## Toestand op de afsluitingsdatum
 
-Indien de omzetting plaatsvindt in de loop van het boekjaar, moet dit boekjaar niet worden afgesloten op de dag van de omzetting, behoudens andersluidend besluit van het bestuursorgaan. Naar het oordeel van de Commissie is de rechtsvorm van de vennootschap op de laatste dag van het betrokken boekjaar, zijnde de afsluitingsdatum van het boekjaar, bepalend. 
+Indien de omzetting plaatsvindt in de loop van het boekjaar, moet dit boekjaar niet worden afgesloten op de dag van de omzetting, behoudens andersluidend besluit van het bestuursorgaan. Naar het oordeel van de Commissie is de rechtsvorm van de vennootschap op de laatste dag van het betrokken boekjaar, zijnde de afsluitingsdatum van het boekjaar, bepalend. 
 
 De jaarrekening van het boekjaar wordt aldus afgesloten en goedgekeurd onder de voorwaarden van de regeling die op de afsluitingsdatum van toepassing is op de vennootschap in haar nieuwe vorm. De jaarrekening wordt vervolgens (indien noodzakelijk) door toedoen van het bestuursorgaan neergelegd bij de Nationale Bank van België. Deze neerlegging gebeurt binnen dertig dagen nadat de jaarrekening is goedgekeurd, en ten laatste zeven maanden na de datum van afsluiting van het boekjaar.[^4]
- De jaarrekening vermeldt de begindatum en de afsluitingsdatum van het boekjaar waarop de jaarrekening betrekking heeft.[^5] 
+ De jaarrekening vermeldt de begindatum en de afsluitingsdatum van het boekjaar waarop de jaarrekening betrekking heeft.[^5] 
 
 De omzetting wordt bij authentieke akte vastgesteld.[^6] ,[^7]
- De akte van omzetting en de gewijzigde statuten worden tegelijk neergelegd en bekendgemaakt. De akte van omzetting wordt bekendgemaakt in haar geheel; de statuten worden bij uittreksel bekendgemaakt.[^8] 
+ De akte van omzetting en de gewijzigde statuten worden tegelijk neergelegd en bekendgemaakt. De akte van omzetting wordt bekendgemaakt in haar geheel; de statuten worden bij uittreksel bekendgemaakt.[^8] 
 
 ## Voorbeelden
 
 ### Omzetting van een vennootschap onder firma (VOF) in een besloten vennootschap (BV)
 
 Een kleine VOF, waarvan het boekjaar loopt van 1 januari 20X1 tot 31 december 20X1, beslist zich om te vormen in een BV.[^9]
- De omzetting vindt plaats op 5 januari 20X2. De (oude) VOF moest een jaarrekening opstellen maar was overeenkomstig artikel 3:9 WVV niet onderworpen aan de neerleggingsplicht. Kleine Belgische vennootschappen die de vorm van een VOF hebben aangenomen, moeten de jaarrekening immers niet neerleggen.[^10] 
+ De omzetting vindt plaats op 5 januari 20X2. De (oude) VOF moest een jaarrekening opstellen maar was overeenkomstig artikel 3:9 WVV niet onderworpen aan de neerleggingsplicht. Kleine Belgische vennootschappen die de vorm van een VOF hebben aangenomen, moeten de jaarrekening immers niet neerleggen.[^10] 
 
 De datum die in rekening moet worden genomen om te bepalen welke jaarrekeningrechtelijke verplichtingen van toepassing zijn, is de afsluitingsdatum van het boekjaar, d.i. 31 december 20X1. Op deze datum is de rechtsvorm van de vennootschap nog steeds die van een VOF. Voor boekjaar 20X1 moet de vennootschap dus geen jaarrekening neerleggen. De neerleggingsverplichting is pas van toepassing vanaf het boekjaar waarin de omzetting in een BV plaatsvindt (boekjaar 20X2). De eerste verplichte neerlegging zal aldus de jaarrekening betreffen van het boekjaar van de BV dat eindigt op 31 december 20X2.
 
@@ -72,7 +72,7 @@ Indien de omzetting van een VOF in een BV zou hebben plaatsgevonden op 15 decemb
 Een BV[^11], waarvan het boekjaar loopt van 1 januari 20X1 tot 31 december 20X1, beslist zich om te vormen in een CommV nog vóór de afsluitingsdatum van het boekjaar. De omzetting vindt plaats op 1 december 20X1. De (oude) BV moest een jaarrekening opstellen en neerleggen bij de Nationale Bank van België (NBB).
 
 De datum die in rekening moet worden genomen om te bepalen welke jaarrekeningrechtelijke verplichtingen van toepassing zijn, is de afsluitingsdatum van het boekjaar, d.i. 31 december 20X1. Op deze datum is de rechtsvorm van de vennootschap reeds die van een CommV. De vennootschap is niet meer verplicht de jaarrekening van boekjaar 20X1 neer te leggen ingeval het een kleine CommV betreft.[^12]
- De neerleggingsplicht is dus niet meer van toepassing op het boekjaar waarin de omzetting in een CommV plaatsvindt (boekjaar 20X1).
+ De neerleggingsplicht is dus niet meer van toepassing op het boekjaar waarin de omzetting in een CommV plaatsvindt (boekjaar 20X1).
 
 ### Omzetting van een naamloze vennootschap (NV) in een besloten vennootschap (BV)
 

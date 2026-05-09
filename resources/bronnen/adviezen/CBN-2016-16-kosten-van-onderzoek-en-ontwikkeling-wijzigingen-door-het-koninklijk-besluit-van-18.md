@@ -49,7 +49,7 @@ De Commissie beoogt in dit advies de wijzigingen te verduidelijken met betrekkin
 
 In zowel het volledige als het verkorte schema van de jaarrekening wordt op het actief van de balans een post *II. Immateriële vaste activa* voorzien. Onder de immateriële vaste activa moet worden verstaan, de ondernemingsmiddelen van onlichamelijke aard die bestemd zijn om duurzaam voor de bedrijfsactiviteit te worden gebruikt, en waaruit naar verwachting toekomstige economische voordelen naar de onderneming zullen vloeien. De algemene beginselen inzake de immateriële vaste activa en de boekhoudkundige verwerking daarvan worden uitvoerig uiteengezet in CBN-advies 2012/13 – De boekhoudkundige verwerking van immateriële vaste activa.
 
-Het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad[^2], heeft een aantal wijzigingen aangebracht aan het schema van de balans en de indeling van de post *Immateriële vaste activa*. Meer bepaald mogen ingevolge de nieuwe wettelijke bepalingen en bijgevolg de nieuwe schema’s van de balans die als bijlage bij de richtlijn zijn opgenomen, de kosten van onderzoek niet meer op de balans komen.[^3] Voortaan[^4] kunnen dus enkel nog de kosten van ontwikkeling op de balans geactiveerd worden.  
+Het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad[^2], heeft een aantal wijzigingen aangebracht aan het schema van de balans en de indeling van de post *Immateriële vaste activa*. Meer bepaald mogen ingevolge de nieuwe wettelijke bepalingen en bijgevolg de nieuwe schema’s van de balans die als bijlage bij de richtlijn zijn opgenomen, de kosten van onderzoek niet meer op de balans komen.[^3] Voortaan[^4] kunnen dus enkel nog de kosten van ontwikkeling op de balans geactiveerd worden. 
 
 De Commissie stelt vast dat het Verslag aan de Koning bij het koninklijk besluit van 18 december 2015 een boekingswijze voorstelt voor wat betreft de kosten van onderzoek gemaakt tijdens een boekjaar dat ten vroegste aanvangt op 1 januari 2016 en die vóór de omzetting van de Richtlijn wel zouden voldaan hebben aan de voorwaarden om te worden opgenomen onder de immateriële vaste activa.[^5] De Commissie benadrukt hierbij dat het niet de bedoeling is dat uitgaven die voorheen niet in aanmerking kwamen voor activering op grond van onderstaande definitie van immaterieel vast actief (zie *infra*, randnummer 5)[^6], nu zouden worden geactiveerd als kosten van onderzoek.
 
@@ -83,7 +83,7 @@ Naast het naleven van de algemene vereisten voor de opname en waardering van een
 
 Om te beoordelen of een intern gegenereerd immaterieel actief voldoet aan de hierboven geformuleerde criteria voor opname, classificeert een onderneming het genereren van het actief in:
 
-(a) een onderzoeksfase;  
+(a) een onderzoeksfase; 
 
 (b) een ontwikkelingsfase.
 
@@ -93,11 +93,11 @@ Als een onderneming bij een intern project dat gericht is op het genereren van e
 
 Voorbeelden van activiteiten in de onderzoeksfase zijn:
 
-(a) activiteiten gericht op de verwerving van nieuwe kennis;  
+(a) activiteiten gericht op de verwerving van nieuwe kennis; 
 
-(b) het zoeken naar en evalueren, definitief kiezen en toepassen van onderzoeksresultaten of andere kennis;  
+(b) het zoeken naar en evalueren, definitief kiezen en toepassen van onderzoeksresultaten of andere kennis; 
 
-(c) het zoeken naar alternatieven voor materialen, apparaten, producten, processen, systemen of diensten;  
+(c) het zoeken naar alternatieven voor materialen, apparaten, producten, processen, systemen of diensten; 
 
 (d) het formuleren, ontwerpen, evalueren en het maken van een definitieve keuze uit mogelijke alternatieven voor nieuwe of verbeterde materialen, apparaten, producten, processen, systemen of diensten.
 
@@ -105,15 +105,15 @@ Voorbeelden van activiteiten in de onderzoeksfase zijn:
 
 Een immaterieel actief kan slechts worden geacht zich in de ontwikkelingsfase te bevinden als en slechts als een onderneming alle navolgende punten kan aantonen:
 
-(a) de technische uitvoerbaarheid om het immaterieel actief te voltooien, zodat het beschikbaar zal zijn voor gebruik of verkoop;  
+(a) de technische uitvoerbaarheid om het immaterieel actief te voltooien, zodat het beschikbaar zal zijn voor gebruik of verkoop; 
 
-(b) haar intentie om het immaterieel actief te voltooien en te gebruiken of te verkopen;  
+(b) haar intentie om het immaterieel actief te voltooien en te gebruiken of te verkopen; 
 
-(c) haar vermogen om het immaterieel actief te gebruiken of te verkopen;  
+(c) haar vermogen om het immaterieel actief te gebruiken of te verkopen; 
 
-(d) hoe het immaterieel actief waarschijnlijke toekomstige economische voordelen zal genereren. Onder andere kan de onderneming aantonen dat er een markt bestaat voor de goederen of diensten die met het immaterieel actief worden voortgebracht dan wel voor het immaterieel actief zelf of, als het intern wordt gebruikt, de bruikbaarheid van het immaterieel actief;  
+(d) hoe het immaterieel actief waarschijnlijke toekomstige economische voordelen zal genereren. Onder andere kan de onderneming aantonen dat er een markt bestaat voor de goederen of diensten die met het immaterieel actief worden voortgebracht dan wel voor het immaterieel actief zelf of, als het intern wordt gebruikt, de bruikbaarheid van het immaterieel actief; 
 
-(e) de beschikbaarheid van adequate technische, financiële en andere middelen om de ontwikkeling te voltooien en het immaterieel actief te gebruiken of te verkopen;  
+(e) de beschikbaarheid van adequate technische, financiële en andere middelen om de ontwikkeling te voltooien en het immaterieel actief te gebruiken of te verkopen; 
 
 (f) het vermogen om de uitgaven die aan het immaterieel actief kunnen worden toegerekend tijdens zijn ontwikkeling betrouwbaar te waarderen.
 
@@ -121,11 +121,11 @@ De ontwikkelingsfase van een project is een latere, verder gevorderde fase dan d
 
 Voorbeelden van activiteiten in de ontwikkelingsfase zijn:
 
-(a) het ontwerpen, bouwen en testen van prototypes en modellen, voorafgaand aan de productie of het gebruik;  
+(a) het ontwerpen, bouwen en testen van prototypes en modellen, voorafgaand aan de productie of het gebruik; 
 
-(b) het ontwerpen van gereedschap, mallen en matrijzen met betrekking tot nieuwe technologie;  
+(b) het ontwerpen van gereedschap, mallen en matrijzen met betrekking tot nieuwe technologie; 
 
-(c) het ontwerpen, bouwen en in gebruik nemen van een proeffabriek die nog niet geschikt is voor commerciële productie; en  
+(c) het ontwerpen, bouwen en in gebruik nemen van een proeffabriek die nog niet geschikt is voor commerciële productie; en 
 
 (d) het ontwerpen, bouwen en testen van een gekozen alternatief voor nieuwe of verbeterde materialen, apparaten, producten, processen, systemen of diensten.
 

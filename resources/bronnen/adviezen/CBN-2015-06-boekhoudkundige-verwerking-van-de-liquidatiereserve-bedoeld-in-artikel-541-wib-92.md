@@ -47,18 +47,18 @@ gerelateerde_adviezen:
 ## Algemeen
 
 De Commissie heeft op 13 mei 2015 een advies uitgebracht over de boekhoudkundige verwerking van de liquidatiereserve ingevoerd door de Programmawet van 19 december 2014 en de afzonderlijke aanslag op deze liquidatiereserve.[^2]
- Met de Programmawet van 10 augustus 2015 werd de mogelijkheid tot het aanleggen van een liquidatiereserve uitgebreid tot de boekhoudkundige winst na belasting die werd verwezenlijkt in het boekjaar verbonden met het aanslagjaar 2013 en met het boekjaar verbonden met het aanslagjaar 2014 (hierna: de bijzondere liquidatiereserve). De voorwaarden voor het aanleggen van een bijzondere liquidatiereserve zijn opgenomen in artikel 541 WIB 92.[^3]
- In onderhavig advies wordt de boekhoudkundige verwerking verduidelijkt van de bijzondere liquidatiereserve en de bijzondere aanslag op deze liquidatiereserve.
+ Met de Programmawet van 10 augustus 2015 werd de mogelijkheid tot het aanleggen van een liquidatiereserve uitgebreid tot de boekhoudkundige winst na belasting die werd verwezenlijkt in het boekjaar verbonden met het aanslagjaar 2013 en met het boekjaar verbonden met het aanslagjaar 2014 (hierna: de bijzondere liquidatiereserve). De voorwaarden voor het aanleggen van een bijzondere liquidatiereserve zijn opgenomen in artikel 541 WIB 92.[^3]
+ In onderhavig advies wordt de boekhoudkundige verwerking verduidelijkt van de bijzondere liquidatiereserve en de bijzondere aanslag op deze liquidatiereserve.
 
 De mogelijkheid om deze bijzondere liquidatiereserve aan te leggen is voorbehouden voor vennootschappen die op grond van artikel 15 van het Wetboek van vennootschappen (hierna: W.Venn.) als een kleine vennootschap werden aangemerkt voor het boekjaar dat verbonden is met het aanslagjaar 2013 respectievelijk 2014.[^4]
- Een vennootschap kan de bijzondere liquidatiereserve slechts aanleggen indien de jaarrekening met betrekking tot het boekjaar verbonden aan het aanslagjaar 2013 respectievelijk 2014 neergelegd is ten laatste op 31 maart 2015.[^5]
- Voor de in artikel 97 W.Venn. bedoelde vennootschappen[^6]
- geldt geen neerleggingsverplichting. Voor deze vennootschappen geldt als voorwaarde voor het aanleggen van de bijzondere liquidatiereserve dat de jaarrekening werd goedgekeurd door de algemene vergadering overeenkomstig artikel 92 W.Venn. en samen met de aangifte in de vennootschapsbelasting werd ingediend voor het betrokken aanslagjaar.[^7] 
+ Een vennootschap kan de bijzondere liquidatiereserve slechts aanleggen indien de jaarrekening met betrekking tot het boekjaar verbonden aan het aanslagjaar 2013 respectievelijk 2014 neergelegd is ten laatste op 31 maart 2015.[^5]
+ Voor de in artikel 97 W.Venn. bedoelde vennootschappen[^6]
+ geldt geen neerleggingsverplichting. Voor deze vennootschappen geldt als voorwaarde voor het aanleggen van de bijzondere liquidatiereserve dat de jaarrekening werd goedgekeurd door de algemene vergadering overeenkomstig artikel 92 W.Venn. en samen met de aangifte in de vennootschapsbelasting werd ingediend voor het betrokken aanslagjaar.[^7] 
 
 Deze bijzondere liquidatiereserve wordt gevormd door een gedeelte of het geheel van de boekhoudkundige winst na belasting van het boekjaar verbonden aan het aanslagjaar 2013 respectievelijk 2014 over te boeken naar één of meerdere afzonderlijke rekeningen van het passief. De aanleg van de bijzondere liquidatiereserve is het gevolg van de invoering van een systeem van facultatieve anticipatieve heffing van 10 procent op de boekhoudkundige winst na belastingen die is verwezenlijkt in de loop van het boekjaar verbonden aan het aanslagjaar 2013 en op de boekhoudkundige winst na belastingen die is verwezenlijkt in de loop van het boekjaar verbonden aan het aanslagjaar 2014.[^8]
- Onder “boekhoudkundige winst na belasting” dient te worden verstaan: de te bestemmen winst van het boekjaar zoals vermeld bij code 9905 in de modellen van de jaarrekening van de Nationale Bank.[^9]
- De liquidatiereserve moet op één of meer afzonderlijke rekeningen van het passief worden geboekt en blijven en mag niet tot grondslag dienen voor enige beloning of toekenning. De anticipatieve heffing vindt plaats door de indiening van een bijzondere aangifte[^10]
- en een betaling van een bijzondere aanslag van 10 procent.
+ Onder “boekhoudkundige winst na belasting” dient te worden verstaan: de te bestemmen winst van het boekjaar zoals vermeld bij code 9905 in de modellen van de jaarrekening van de Nationale Bank.[^9]
+ De liquidatiereserve moet op één of meer afzonderlijke rekeningen van het passief worden geboekt en blijven en mag niet tot grondslag dienen voor enige beloning of toekenning. De anticipatieve heffing vindt plaats door de indiening van een bijzondere aangifte[^10]
+ en een betaling van een bijzondere aanslag van 10 procent.
 
 De bijzondere aanslag moet worden betaald ten laatste op 30 november 2015 voor de liquidatiereserve die wordt aangelegd uit de boekhoudkundige winst na belastingen van het boekjaar dat verbonden is aan het aanslagjaar 2013. De liquidatiereserve die wordt aangelegd uit de boekhoudkundige winst na belastingen van het boekjaar dat verbonden is aan het aanslagjaar 2014 moet ten laatste op 30 november 2016 worden betaald. De overeenstemmende bijzondere liquidatiereserve moet vervolgens worden geboekt ten laatste op de datum van afsluiten van het boekjaar waarin voormelde bijzondere aanslag is betaald. De betaalde bijzondere aanslagen zijn definitief verworven door de Staat: ze worden niet verrekend met de vennootschapsbelasting en de eventuele overschotten zijn niet terugbetaalbaar.[^11] 
 
@@ -75,18 +75,18 @@ Naar analogie met de boeking van de afzonderlijke aanslag op de liquidatiereserv
 ### Vorming van de bijzondere liquidatiereserve
 
 De jaarrekening (waaronder de balans) wordt opgemaakt door en onder de verantwoordelijkheid van het bestuursorgaan dat de jaarrekening ter goedkeuring moet voorleggen aan de algemene vergadering.[^13]
- De algemene vergadering kan de jaarrekening goed- of afkeuren, maar kan ze zelf niet wijzigen, tenzij dan de resultaatverwerking.
+ De algemene vergadering kan de jaarrekening goed- of afkeuren, maar kan ze zelf niet wijzigen, tenzij dan de resultaatverwerking.
 
 Indien wordt beslist[^14] om de in artikel 541 WIB 92 vermelde regeling toe te passen, moet eerst het bedrag worden bepaald dat zal worden bestemd als bijzondere liquidatiereserve. Voor de bepaling van dit bedrag gelden de volgende grenzen:
 
 1. Het bedrag van de bijzondere liquidatiereserve die tijdens het boekjaar wordt aangelegd overschrijdt het bedrag van de boekhoudkundige winst na belastingen voor het belastbaar tijdperk verbonden met het aanslagjaar 2013 respectievelijk 2014 niet. 
 2. Het bedrag van de bijzondere liquidatiereserve die tijdens het boekjaar wordt aangelegd, is beperkt tot het in a) vermelde bedrag dat nog steeds in de reserves is geboekt bij het begin van het boekjaar waarin de respectieve bijzondere aanslagen werden betaald. 
 3. Bij de bestemming van het resultaat moet uiteraard ook rekening worden gehouden met de wettelijke[^15]
- en de eventuele statutaire verplichtingen. 
+ en de eventuele statutaire verplichtingen. 
 
 Terwijl de liquidatiereserve zoals bedoeld in artikel 184*quater* WIB 92 wordt opgebouwd door een gedeelte of het geheel van de boekhoudkundige winst na belasting te boeken naar één of meerdere afzonderlijke rekeningen van het passief, vindt de vorming van de bijzondere liquidatiereserve haar oorsprong in de boekhoudkundige winst van een voorgaand boekjaar. Voor het aanleggen van een bijzondere liquidatiereserve geldt eveneens de voorwaarde dat deze liquidatiereserve op één of meerdere afzonderlijke rekeningen van het passief wordt geboekt.[^16]
- Dit impliceert dat voor de vorming van de bijzondere liquidatiereserve steeds[^17]
- een boeking nodig zal zijn om te voldoen aan deze voorwaarde, als is het maar om deze liquidatiereserve op een afzonderlijke subrekening te boeken van de rekening waarop de winst van het betreffende boekjaar werd geboekt.
+ Dit impliceert dat voor de vorming van de bijzondere liquidatiereserve steeds[^17]
+ een boeking nodig zal zijn om te voldoen aan deze voorwaarde, als is het maar om deze liquidatiereserve op een afzonderlijke subrekening te boeken van de rekening waarop de winst van het betreffende boekjaar werd geboekt.
 
 De Commissie is van oordeel dat interne mutaties binnen het eigen vermogen die het totaal eigen vermogen niet beïnvloeden, over het algemeen rechtstreeks moeten worden overgeboekt van de ene post naar de andere. Dit beginsel is echter niet van toepassing indien een specifieke regel daarvan afwijkt, bijvoorbeeld bij de verwerking van het overgedragen resultaat. Uit de voorstelling van de resultaatverwerking blijkt immers duidelijk dat het overgedragen resultaat van het vorige boekjaar hier samen met het overgedragen resultaat van het boekjaar, het over te dragen resultaat (winst of verlies) vormt.[^18] 
 
@@ -110,8 +110,8 @@ Het bedrag van 1.000 is bijgevolg nog steeds in de reserves geboekt op de eerste
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6710X | Verschuldigde of gestorte belastingsupplementen | 100 |  |
-| aan | 5500 | Kredietinstellingen: rekening-courant |  | 100 |
+| | 6710X | Verschuldigde of gestorte belastingsupplementen | 100 | |
+| aan | 5500 | Kredietinstellingen: rekening-courant | | 100 |
 
 *Boeking van de vorming van de bijzondere liquidatiereserve ten laatste op de inventarisdatum en boeking van de resultaatverwerking*
 
@@ -119,39 +119,39 @@ Het bedrag van 1.000 is bijgevolg nog steeds in de reserves geboekt op de eerste
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 133 | Beschikbare reserves | 1.000 |  |
-| aan | 133X | Beschikbare reserves – artikel 541 WIB 92 (31/12/2015) |  | 1.000 |
+| | 133 | Beschikbare reserves | 1.000 | |
+| aan | 133X | Beschikbare reserves – artikel 541 WIB 92 (31/12/2015) | | 1.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 693 | Over te dragen winst | 3.300 |  |
-| aan | 14 | Overgedragen winst |  | 3.300 |
+| | 693 | Over te dragen winst | 3.300 | |
+| aan | 14 | Overgedragen winst | | 3.300 |
 
 **Tweede variant: Er wordt beslist om de bijzondere liquidatiereserve aan te leggen met het resultaat van het boekjaar 2015. Uit de gegevens hierboven blijkt immers dat het bedrag van 1.000 bij het begin van het boekjaar nog steeds in reserves is geboekt. Er wordt voorgesteld om de liquidatiereserve te boeken op een beschikbare reserverekening. Het saldo wordt overgedragen naar het volgende boekjaar.**
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 693 | Over te dragen winst | 2.300 |  |
-|  | 6921 | Toevoeging aan de overige reserves | 1.000 |  |
-| aan | 14 | Overgedragen winst |  | 2.300 |
-|  | 133X | Beschikbare reserves – artikel 541 WIB 92 (31/12/2015) | 1.000 |  |
+| | 693 | Over te dragen winst | 2.300 | |
+| | 6921 | Toevoeging aan de overige reserves | 1.000 | |
+| aan | 14 | Overgedragen winst | | 2.300 |
+| | 133X | Beschikbare reserves – artikel 541 WIB 92 (31/12/2015) | 1.000 | |
 
 **Derde variant: Er wordt beslist om naast de aanleg van een bijzondere liquidatiereserve ook de volledige winst van het boekjaar 2015 (na belasting) aan te wenden voor de aanleg van een liquidatiereserve (artikel 184*quater *WIB 92)[^21] **
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 133 | Beschikbare reserves | 1.000 |  |
-| aan | 133X | Beschikbare reserves – artikel 541 WIB 92 (31/12/2015) |  | 1.000 |
+| | 133 | Beschikbare reserves | 1.000 | |
+| aan | 133X | Beschikbare reserves – artikel 541 WIB 92 (31/12/2015) | | 1.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6702X | Geraamde belastingen | 300 |  |
-| aan | 450 | Geraamd bedrag der belastingschulden |  | 300 |
+| | 6702X | Geraamde belastingen | 300 | |
+| aan | 450 | Geraamd bedrag der belastingschulden | | 300 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6921 | Toevoeging aan de overige reserves | 3.000 |  |
-| aan | 133X | Beschikbare reserves – artikel 184quater WIB 92 (31/12/2015) |  | 3.000 |
+| | 6921 | Toevoeging aan de overige reserves | 3.000 | |
+| aan | 133X | Beschikbare reserves – artikel 184quater WIB 92 (31/12/2015) | | 3.000 |
 
 ***Voorbeeld 2***
 
@@ -163,7 +163,7 @@ De winst na belastingen tijdens het boekjaar dat afsluit op 31 december 2012 bed
 - 150 werd toegevoegd aan de beschikbare reserves (de beschikbare reserves nemen toe van 600 tot 750); 
 - 50 werd toegevoegd aan de wettelijke reserves (de wettelijke reserves nemen toe van 400 tot 450); en 
 - 300[^22]
- werd, samen met het overgedragen resultaat van het voorgaande jaar, overgedragen naar het volgend boekjaar (het overgedragen resultaat neemt toe van 250 tot 550). 
+ werd, samen met het overgedragen resultaat van het voorgaande jaar, overgedragen naar het volgend boekjaar (het overgedragen resultaat neemt toe van 250 tot 550). 
 
 In het boekjaar dat afsluit op 31 december 2013 heeft de vennootschap een boekhoudkundige winst gemaakt van 3.000 (code 9905 in de modellen van jaarrekening van de Nationale Bank). De winstbestemming van dat jaar was als volgt:
 
@@ -179,8 +179,8 @@ De bijzondere aanslag van 10 procent wordt betaald op 28 november 2015. De venno
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6710X | Verschuldigde of gestorte belastingsupplementen | 50 |  |
-| aan | 5500 | Kredietinstellingen: rekening-courant |  | 50 |
+| | 6710X | Verschuldigde of gestorte belastingsupplementen | 50 | |
+| aan | 5500 | Kredietinstellingen: rekening-courant | | 50 |
 
 *Boeking van de vorming van de bijzondere liquidatiereserve ten laatste op de inventarisdatum en boeking van de resultaatverwerking*
 
@@ -188,10 +188,10 @@ De bijzondere aanslag van 10 procent wordt betaald op 28 november 2015. De venno
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 693 | Over te dragen winst | 2.500 |  |
-|  | 6921 | Toevoeging aan de overige reserves | 500 |  |
-| aan | 14 | Overgedragen winst |  | 2.500 |
-|  | 133X | Beschikbare reserves – artikel 541 WIB 92 (31/12/2015) | 500 |  |
+| | 693 | Over te dragen winst | 2.500 | |
+| | 6921 | Toevoeging aan de overige reserves | 500 | |
+| aan | 14 | Overgedragen winst | | 2.500 |
+| | 133X | Beschikbare reserves – artikel 541 WIB 92 (31/12/2015) | 500 | |
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 11 september 2015 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

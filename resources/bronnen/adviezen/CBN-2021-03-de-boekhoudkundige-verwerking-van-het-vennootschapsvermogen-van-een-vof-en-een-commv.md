@@ -33,17 +33,17 @@ provenance:
 
 # CBN-advies 2021/03 – Boekhoudkundige verwerking van het vennootschapsvermogen van een VOF en een CommV ingevolge de inwerkingtreding van het WVV
 
-De Commissie heeft meermaals de vraag ontvangen op welke wijze de bestanddelen van het vennootschapsvermogen van een op 1 mei 2019 bestaande vennootschap onder firma en een (gewone) commanditaire vennootschap boekhoudkundig moeten worden verwerkt naar aanleiding van hun onderwerping aan het Wetboek van vennootschappen en verenigingen (WVV).  
+De Commissie heeft meermaals de vraag ontvangen op welke wijze de bestanddelen van het vennootschapsvermogen van een op 1 mei 2019 bestaande vennootschap onder firma en een (gewone) commanditaire vennootschap boekhoudkundig moeten worden verwerkt naar aanleiding van hun onderwerping aan het Wetboek van vennootschappen en verenigingen (WVV). 
 
 Het WVV wordt op een dergelijke vennootschap van toepassing vanaf 1 januari 2020, tenzij ze zelf kiest voor een snellere onderwerping aan het WVV. In dat laatste geval wordt het WVV op haar van toepassing vanaf de dag van de bekendmaking van deze statutenwijziging maar ten laatste op 1 januari 2020.[^2] 
 
 De wetgever heeft niet voorzien in expliciete bepalingen die gelden voor de bestanddelen van het vennootschapsvermogen van een op datum van inwerkingtreding van het WVV bestaande vennootschap onder firma of gewone commanditaire vennootschap. De boekhoudkundige verwerking van deze bestanddelen wordt aldus uitsluitend bepaald in functie van wat de statuten[^3]
- daarover vermelden. De Commissie merkt op dat voor deze vennootschappen onder het W.Venn evenwel geen minimale vereisten golden voor wat betreft het vennootschapsvermogen wat ongewijzigd is in het nieuwe WVV. 
+ daarover vermelden. De Commissie merkt op dat voor deze vennootschappen onder het W.Venn evenwel geen minimale vereisten golden voor wat betreft het vennootschapsvermogen wat ongewijzigd is in het nieuwe WVV. 
 
-- Indien ingevolge statutaire bepalingen de inbrengen onbeschikbaar zijn, worden deze geboekt op de rekening 111 *Onbeschikbare inbreng buiten kapitaal*;  
-- Indien uit de statuten geen onbeschikbaarheid blijkt, worden deze geboekt op de rekening 110 *Beschikbare inbreng buiten kapitaal*.[^4]  
+- Indien ingevolge statutaire bepalingen de inbrengen onbeschikbaar zijn, worden deze geboekt op de rekening 111 *Onbeschikbare inbreng buiten kapitaal*; 
+- Indien uit de statuten geen onbeschikbaarheid blijkt, worden deze geboekt op de rekening 110 *Beschikbare inbreng buiten kapitaal*.[^4] 
 
-Het niet-gestorte gedeelte van het vennootschapsvermogen wordt eveneens op overeenkomstige wijze geboekt. Op het ogenblik dat nadien deze bedragen worden opgevraagd, wordt voormelde vermogensrekening “niet-opgevraagde inbrengen” gecrediteerd en wordt een vordering op de vennoot geboekt. Dit heeft dan tot gevolg dat ook deze bedragen geboekt staan op dezelfde beschikbare of onbeschikbare eigen vermogensrekening.  
+Het niet-gestorte gedeelte van het vennootschapsvermogen wordt eveneens op overeenkomstige wijze geboekt. Op het ogenblik dat nadien deze bedragen worden opgevraagd, wordt voormelde vermogensrekening “niet-opgevraagde inbrengen” gecrediteerd en wordt een vordering op de vennoot geboekt. Dit heeft dan tot gevolg dat ook deze bedragen geboekt staan op dezelfde beschikbare of onbeschikbare eigen vermogensrekening. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 7 december 2020 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

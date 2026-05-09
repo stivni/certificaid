@@ -49,7 +49,7 @@ gerelateerde_adviezen:
 ## Vraag
 
 Aan de Commissie werd de vraag gesteld op welke wijze de groottecriteria moeten worden beoordeeld wanneer het boekjaar een duur heeft van minder of meer dan twaalf maanden. Het Wetboek van vennootschappen en verenigingen[^3]
- (hierna: WVV) vermeldt hierover het volgende:
+ (hierna: WVV) vermeldt hierover het volgende:
 
 “Heeft het boekjaar uitzonderlijk een duur van minder of meer dan twaalf maanden, waarbij deze duur niet langer kan zijn dan vierentwintig maanden min één kalenderdag, dan wordt het bedrag van de netto-omzet exclusief de belasting over de toegevoegde waarde bedoeld in paragraaf 1, vermenigvuldigd met een breuk waarvan de noemer twaalf is en de teller het aantal maanden van het betrokken boekjaar, waarbij elke begonnen maand voor een volle maand wordt geteld.”
 

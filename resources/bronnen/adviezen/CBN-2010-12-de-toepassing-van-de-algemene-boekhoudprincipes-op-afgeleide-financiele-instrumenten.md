@@ -34,7 +34,7 @@ gerelateerde_adviezen:
   - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
     url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
     datum: '2017-05-31'
-  - titel: Boekhoudkundige verwerking van de  cross currency swap
+  - titel: Boekhoudkundige verwerking van de cross currency swap
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
     datum: '2016-07-06'
   - titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten
@@ -46,17 +46,17 @@ gerelateerde_adviezen:
 
 ## Inleiding
 
-### ***Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking van afgeleide financiële instrumenten ***
+### ***Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking van afgeleide financiële instrumenten ***
 
-Het dynamisch karakter van de internationale financiële markten heeft tot gevolg dat vandaag de dag niet enkel gebruik wordt gemaakt van de klassieke primaire financiële instrumenten zoals aandelen en obligaties, maar ook van verschillende soorten afgeleide financiële instrumenten, zoals gestandaardiseerde en niet-gestandaardiseerde termijncontracten (futures), opties en swaps. 
+Het dynamisch karakter van de internationale financiële markten heeft tot gevolg dat vandaag de dag niet enkel gebruik wordt gemaakt van de klassieke primaire financiële instrumenten zoals aandelen en obligaties, maar ook van verschillende soorten afgeleide financiële instrumenten, zoals gestandaardiseerde en niet-gestandaardiseerde termijncontracten (futures), opties en swaps. 
 
 De tijd dat deze producten enkel door professionals werden gebruikt, ligt ver achter ons. Hun toepassing heeft zich geleidelijk aan verspreid over de hele economische sector om zo beter te kunnen inspelen op de meest uiteenlopende dekkings- of investeringsbehoeften. Tegelijkertijd dient er gewezen te worden op de vaststelling dat het Belgische boekhoudrecht, met uitzondering van de referentiesystemen van toepassing op de financiële sector (bankwezen/verzekeringen), zich niet heeft aangepast aan deze evoluties.
 
 De Richtlijnen 2001/65/EG[^2], 2003/51/EG[^3]
- en 2006/46/EG[^4]
- hebben in de Vierde Richtlijn[^5]
- de mogelijkheid geïntroduceerd om financiële instrumenten, met inbegrip van derivaten (artikels 42*bis* tot 42*septies*), op basis van de reële waarde te waarderen. Deze machtiging (of verplichting naargelang de keuze van de lidstaten) kan volgens de Zevende Richtlijn[^6]
- beperkt worden tot de geconsolideerde jaarrekening.
+ en 2006/46/EG[^4]
+ hebben in de Vierde Richtlijn[^5]
+ de mogelijkheid geïntroduceerd om financiële instrumenten, met inbegrip van derivaten (artikels 42*bis* tot 42*septies*), op basis van de reële waarde te waarderen. Deze machtiging (of verplichting naargelang de keuze van de lidstaten) kan volgens de Zevende Richtlijn[^6]
+ beperkt worden tot de geconsolideerde jaarrekening.
 
 Zoals echter wordt uiteengezet in het Verslag aan de Koning bij het koninklijk besluit van 10 augustus 2009[^7], dat de voornoemde Richtlijn 2006/46/EG omzet in Belgisch recht,* “heeft de regering geen gebruik gemaakt van de mogelijkheid geboden door de geciteerde richtlijn om een waardering van financiële instrumenten toe te staan of voor te schrijven samen met de daarmee verband houdende openbaarmakingverplichtingen conform de internationale standaarden voor jaarrekeningen zoals vastgelegd bij Verordening (EG) nr. 1725/2003 van de Commissie van 29 september 2003 (…)”*. De regering is immers van mening dat het op dit moment nog steeds niet opportuun zou zijn om deze mogelijkheid te introduceren in ons nationaal recht.
 
@@ -72,27 +72,27 @@ Bijgevolg heeft de Commissie beslist, teneinde de situatie te verduidelijken, om
 
 Dit advies heeft tot doel om, door verwijzing naar bepaalde voorafgaande adviezen, de meest relevante boekhoudprincipes te ordenen, waaruit dan de boekhoudkundige verwerking van afgeleide financiële instrumenten kan worden afgeleid, zonder afbreuk te doen aan de fiscale verwerking die specifiek van toepassing kan zijn op deze financiële instrumenten.[^8] 
 
-De Commissie is van plan om dit advies later aan te vullen met concrete voorbeelden.   
+De Commissie is van plan om dit advies later aan te vullen met concrete voorbeelden. 
 
 Het spreekt voor zich dat vroegere adviezen met betrekking tot de boekhoudkundige verwerking van bepaalde afgeleide financiële instrumenten in een later stadium aangepast zullen worden aan de algemene principes opgenomen in dit advies.
 
 ### ***Toepassingsgebied***
 
-Het Belgisch boekhoudrecht voorziet niet in een conceptuele definitie van afgeleide financiële instrumenten. Artikel 97, C K.B. W.Venn. bepaalt hoogstens dat de grondstoffencontracten die ieder van de contractsluitende partijen het recht geven tot afwikkeling in contanten of enig ander financieel instrument, als afgeleide financiële instrumenten worden beschouwd, behalve wanneer (a) de contracten gesloten werden en duurzaam dienen voor de verwachte inkoop-, verkoop-, of gebruiksbehoeften van de vennootschap, (b) zij bij de totstandkoming voor dat doeleinde werden bestemd, en  
+Het Belgisch boekhoudrecht voorziet niet in een conceptuele definitie van afgeleide financiële instrumenten. Artikel 97, C K.B. W.Venn. bepaalt hoogstens dat de grondstoffencontracten die ieder van de contractsluitende partijen het recht geven tot afwikkeling in contanten of enig ander financieel instrument, als afgeleide financiële instrumenten worden beschouwd, behalve wanneer (a) de contracten gesloten werden en duurzaam dienen voor de verwachte inkoop-, verkoop-, of gebruiksbehoeften van de vennootschap, (b) zij bij de totstandkoming voor dat doeleinde werden bestemd, en 
 
 (c) de afwikkeling naar verwachting zal geschieden door levering van de grondstof.
 
 In de ruime zin kan een derivaat omschreven worden als een financieel contract waarvan de waarde afhangt van de waarde van één of meer onderliggende activa of indexen. Verrichtingen inzake deze instrumenten omvatten een brede waaier aan financiële instrumenten, gaande van termijnovereenkomsten (forwards en futures), opties en financiële wissels (swaps).[^9] 
 
-Aangezien het Belgische boekhoudrecht geen conceptuele definitie bevat van afgeleide financiële instrumenten, heeft dit advies dus, voor wat contracten zonder optiekenmerk betreft, betrekking op termijnwisselcontracten, op renteswaps (IRS) of valuta renteswaps (CIRS), en op forward rate agreements (FRA of *rentefutures*). In geval van opties heeft dit advies betrekking  op aan- of verkoopcontracten van deviezen, van rente (*caps, floors* en *collars*,), van effecten (vastrentende of niet-vastrentende) of op een renteswap (*swaptions*). Zoals voorzien in het K.B. W.Venn., gaat het hier ook over bepaalde contracten die betrekking hebben op grondstoffen (*commodities*)[^10].
+Aangezien het Belgische boekhoudrecht geen conceptuele definitie bevat van afgeleide financiële instrumenten, heeft dit advies dus, voor wat contracten zonder optiekenmerk betreft, betrekking op termijnwisselcontracten, op renteswaps (IRS) of valuta renteswaps (CIRS), en op forward rate agreements (FRA of *rentefutures*). In geval van opties heeft dit advies betrekking op aan- of verkoopcontracten van deviezen, van rente (*caps, floors* en *collars*,), van effecten (vastrentende of niet-vastrentende) of op een renteswap (*swaptions*). Zoals voorzien in het K.B. W.Venn., gaat het hier ook over bepaalde contracten die betrekking hebben op grondstoffen (*commodities*)[^10].
 
 Vallen echter niet binnen het toepassingsveld van dit advies: de instrumenten uitgegeven of verworven ten voordele van het personeel van de vennootschap, alsook derivaten vervat in andere financiële instrumenten of commerciële verrichtingen waarvan de juridische kwalificatie primeert voor de bepaling van de boekhoudkundige regels die erop van toepassing zijn.
 
 ## Hiërarchische rangschikking van de waarderingsprincipes
 
-### ***Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe ***
+### ***Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe ***
 
-De gelijktijdige toepassing van het voorzichtigheidsbeginsel (historische kostprijs en realisatie) en het overeenstemmingsprincipe kan voor zekere spanningen zorgen, voornamelijk indien de toepassing van deze beginselen de boeking van een opbrengst betreft.  
+De gelijktijdige toepassing van het voorzichtigheidsbeginsel (historische kostprijs en realisatie) en het overeenstemmingsprincipe kan voor zekere spanningen zorgen, voornamelijk indien de toepassing van deze beginselen de boeking van een opbrengst betreft. 
 
 In feite gaat de toepassing van het realisatiebeginsel in tegen een simultane en ongedifferentieerde vergelijking van kosten en opbrengsten gegenereerd door een afgeleid financieel instrument, vanaf het ogenblik dat de boeking van de opbrengsten vereist dat deze zeker zijn, ook al volstaat het dat de kosten slechts waarschijnlijk zijn.
 
@@ -100,9 +100,9 @@ Zoals reeds aangehaald in de inleiding, reikt de Belgische boekhoudkundige regle
 
 Naar de mening van de Commissie is de toepassing van het overeenstemmingsprincipe op kosten en opbrengsten ondergeschikt aan het boekhoudkundig realisatiebeginsel. Het overeenstemmingsprincipe bepaalt immers dat geen opbrengsten mogen worden geboekt zonder tevens de kosten op te nemen die daaraan beantwoorden. Het realisatiebeginsel daarentegen wil dat opbrengsten pas worden geboekt wanneer ze zeker zijn, terwijl het voor de kosten volstaat dat ze slechts waarschijnlijk zijn. Het ontbreken van onzekerheid bij de boeking van een opbrengst verwijst naar het begrip realisatie.
 
-In de zoektocht naar een boekhoudkundige verwerking die toepasbaar is op afgeleide financiële instrumenten zal, bijgevolg, de toepassing van het boekhoudkundig realisatiebeginsel algemeen genomen primeren op de toepassing van het boekhoudkundig principe van overeenstemming. 
+In de zoektocht naar een boekhoudkundige verwerking die toepasbaar is op afgeleide financiële instrumenten zal, bijgevolg, de toepassing van het boekhoudkundig realisatiebeginsel algemeen genomen primeren op de toepassing van het boekhoudkundig principe van overeenstemming. 
 
-### ***Het bijzonder geval van effectieve dekking (of  gesloten positie)***
+### ***Het bijzonder geval van effectieve dekking (of gesloten positie)***
 
 De Commissie is van mening dat de aard van de dekkingsverrichting, die de neutralisatie beoogt van de prijsschommelingen en/of de financiële stromen van het gedekte financiële instrument, een afwijkende boekhoudkundige verwerking rechtvaardigt voor het effectieve gedeelte van deze dekking.
 
@@ -121,7 +121,7 @@ De toetsing van de naleving van de voorwaarde van voldoende correlatie valt onde
 
 Verrichtingen in tegengestelde zin die elkaar neutraliseren, steunend op eenzelfde onderliggende waarde, kunnen eveneens genieten van een dergelijk regime. Zoals reeds werd aangehaald door de Commissie in het CBN-advies 167/2[^12], kan een dergelijke situatie voortvloeien uit hetzij de afsluiting van verrichtingen zonder onderling verband op het tijdstip dat zij worden afgesloten, hetzij uit ingewikkelde combinaties van verrichtingen die niet beantwoorden aan de voorwaarden om te kunnen worden beschouwd als dekkingsverrichtingen.
 
-In hetzelfde advies worden als voorbeeld van dit soort verrichtingen in groter aantal op een zelfde onderliggend actief, vermeld: 
+In hetzelfde advies worden als voorbeeld van dit soort verrichtingen in groter aantal op een zelfde onderliggend actief, vermeld: 
 
 - een reeks verrichtingen, zoals het bezit van 100 aandelen X in portefeuille, de aankoop van een call-optie op 50 andere aandelen alsook het achteraf schrijven van een call-optie op 125 aandelen X die uitoefenbaar is op een andere datum dan de uitoefendatum van de eerste optie; 
 - de positie die is gevormd door het schrijven van een call-optie en van een put-optie met dezelfde vervaldag en dezelfde uitoefenprijs. Deze combinatie (short straddle) kan verantwoord zijn indien de onderneming verwacht dat de markt van het onderliggende actief nauwelijks gaat evolueren en voordeel wil halen uit de ontvangen premies. 
@@ -136,10 +136,10 @@ De Commissie is bijgevolg de mening toegedaan dat voor de bepaling van het laten
 
 De waarderingsregels moeten de boekhoudkundige verwerking vermelden van afgeleide financiële instrumenten, evenals van de resultaten van de verrichtingen met betrekking tot deze instrumenten.
 
-De toelichting moet tevens (onder de “Niet in balans opgenomen rechten en verplichtingen”) een juist beeld geven van de lopende derivaatcontracten, voor zover deze steunen op significante bedragen. 
+De toelichting moet tevens (onder de “Niet in balans opgenomen rechten en verplichtingen”) een juist beeld geven van de lopende derivaatcontracten, voor zover deze steunen op significante bedragen. 
 
 Tot slot dient er, voor zover bepaalde afgeleide financiële instrumenten in de balans niet gewaardeerd worden op basis van de reële waarde, voor elke categorie van afgeleide financiële instrumenten, in de staat “Afgeleide financiële instrumenten die niet gewaardeerd zijn op basis van de reële waarde”, een melding te worden gemaakt van de reële waarde van de instrumenten indien deze waarde bepaald kan worden dankzij één van de door artikel 97, C K.B. W.Venn.[^13]
- beschreven methodes, met opgave van hun omvang en hun aard. Indien nodig, kunnen de vennootschappen, omwille van de transparantie, tevens het verschil tussen de boekhoudkundige en de reële waarde van de betrokken afgeleide financiële instrumenten weergeven.  
+ beschreven methodes, met opgave van hun omvang en hun aard. Indien nodig, kunnen de vennootschappen, omwille van de transparantie, tevens het verschil tussen de boekhoudkundige en de reële waarde van de betrokken afgeleide financiële instrumenten weergeven. 
 
 [^1]: De Commissie wenst te beklemtonen dat, gezien haar bevoegdheid, dit advies niet geldt voor de boekhoudkundige verwerking van afgeleide financiële instrumenten door ondernemingen uit de financiële sector zoals banken, kredietinstellingen en verzekeringsondernemingen.
 

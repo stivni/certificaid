@@ -69,9 +69,9 @@ Het continuïteitsprincipe bij de boekhoudkundige verwerking van de inbreng van 
 
 #### Enkele bijzonderheden
 
-Enkele in de praktijk veelvuldig voorkomende bijzonderheden bij inbrengen verdienen een bijzondere aandacht.  
+Enkele in de praktijk veelvuldig voorkomende bijzonderheden bij inbrengen verdienen een bijzondere aandacht. 
 
-***a.    Geherwaardeerde activa worden mee ingebracht***
+***a. Geherwaardeerde activa worden mee ingebracht***
 
 Wanneer de inbrengende vennootschap op een activum voorheen een herwaarderingsmeerwaarde had uitgedrukt en dit activum wordt naar aanleiding van een inbreng (er wordt uitgegaan van de hypothese dat de verrichting belastingneutraal verloopt) mee ingebracht (wat natuurlijk steeds het geval zal zijn indien de algemeenheid wordt ingebracht) dan zal – als bij alle andere ingebrachte bestanddelen de fiscale waarde overeenstemt met hun boekwaarde – de nettoboekwaarde van de inbreng groter zijn dan de fiscale nettowaarde van de inbreng.
 
@@ -84,21 +84,21 @@ Vennootschap A brengt haar algemeenheid van goederen in, in een bestaande vennoo
 | A | 
 | Activa | | 9.000 | | Kapitaal | | 3.000 | 
 | Activum 1 | | 1.000 | | Herwaarderingsmeerwaarden | | 1.000 | 
-|   | |   | | Beschikbare reserves  | | 4.000 | 
-|   | |   | | Schulden | | 2.000 | 
-|   | | 10.000 | |   | | 10.000 | 
+| | | | | Beschikbare reserves | | 4.000 | 
+| | | | | Schulden | | 2.000 | 
+| | | 10.000 | | | | 10.000 | 
 
 Activum 1 was volledig afgeschreven en werd met 1.000 geherwaardeerd (er wordt uitgegaan van de hypothese dat deze 1.000 nog niet werd belast).
 
 | B | 
 | Activa | | 3.000 | | Kapitaal | | 3.000 | 
-|   | | 3.000 | |   | | 3.000 | 
+| | | 3.000 | | | | 3.000 | 
 
-De verwerking van deze verrichting volgens het boekhoudkundig continuïteitsprincipe kan op twee manieren gebeuren.  
+De verwerking van deze verrichting volgens het boekhoudkundig continuïteitsprincipe kan op twee manieren gebeuren. 
 
 - *Eerste benadering : de herwaarderingsmeerwaarde wordt uitgeboekt* 
 
-In deze eerste benadering wordt het vermogensbestanddeel *Herwaarderingsmeerwaarde* als het ware beschouwd een integrerend deel uit te maken van de ingebrachte algemeenheid (resp. bedrijfstak). De debitering van deze vermogenspost die zulks tot gevolg heeft, wordt niet in resultaat genomen maar tegengeboekt door creditering van een belastingvrije reserve (op fiscaal vlak gaat het immers bij voortduur om een vrijgestelde reserve die aan de onaantastbaarheidsvoorwaarde is onderworpen).
+In deze eerste benadering wordt het vermogensbestanddeel *Herwaarderingsmeerwaarde* als het ware beschouwd een integrerend deel uit te maken van de ingebrachte algemeenheid (resp. bedrijfstak). De debitering van deze vermogenspost die zulks tot gevolg heeft, wordt niet in resultaat genomen maar tegengeboekt door creditering van een belastingvrije reserve (op fiscaal vlak gaat het immers bij voortduur om een vrijgestelde reserve die aan de onaantastbaarheidsvoorwaarde is onderworpen).
 
 Deze benadering vindt ook steun in artikel 57, KB/W.Venn. luidens hetwelk de geboekte herwaarderingsmeerwaarde wordt behouden zolang de goederen waarop zij betrekking heeft, niet worden gerealiseerd.
 
@@ -106,37 +106,37 @@ Bij A wordt geboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Participatie B | 8.000 |  |  |
-|  | Herwaarderingsmeerwaarde | 1.000 |  |  |
-|  | Schulden | 2.000 |  |  |
-| aan |  | Activa |  | 9.000 |
-|  | Activum 1 | 1.000 |  |  |
-|  | Belastingvrije reserves | 1.000 |  |  |
+| | Participatie B | 8.000 | | |
+| | Herwaarderingsmeerwaarde | 1.000 | | |
+| | Schulden | 2.000 | | |
+| aan | | Activa | | 9.000 |
+| | Activum 1 | 1.000 | | |
+| | Belastingvrije reserves | 1.000 | | |
 
 en bij B:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Activa | 9.000 |  |  |
-|  | Activum 1 | 1.000 |  |  |
-| aan |  | Kapitaal |  | 7.000 |
-|  | Herwaarderingsmeerwaarde | 1.000 |  |  |
-|  | Schulden | 2.000 |  |  |
+| | Activa | 9.000 | | |
+| | Activum 1 | 1.000 | | |
+| aan | | Kapitaal | | 7.000 |
+| | Herwaarderingsmeerwaarde | 1.000 | | |
+| | Schulden | 2.000 | | |
 
 Na de inbreng zien A en B er dan als volgt uit :
 
-| A[^2]  | 
+| A[^2] | 
 | Participatie B | | 8.000 | | Kapitaal | | 3.000 | 
-|   | |   | | Belastingvrije reserves | | 1.000 | 
-|   | |   | | Beschikbare reserves | | 4.000 | 
-|   | |   | |   | |   | 
-|   | | 8.000 | |   | | 8.000 | 
+| | | | | Belastingvrije reserves | | 1.000 | 
+| | | | | Beschikbare reserves | | 4.000 | 
+| | | | | | | | 
+| | | 8.000 | | | | 8.000 | 
 
-| B[^3]  | 
+| B[^3] | 
 | Activa (3.000 + 9.000) | | 12.000 | | Kapitaal (3.000 + 7.000) | | 10.000 | 
 | Activum 1 (0 + 1.000) | | 1.000 | | Herwaarderingsmeerwaarde (0 + 1.000) | | 1.000 | 
-|   | |   | | Schulden (0 + 2.000) | | 2.000 | 
-|   | | 13.000 | |   | | 13.000 | 
+| | | | | Schulden (0 + 2.000) | | 2.000 | 
+| | | 13.000 | | | | 13.000 | 
 - *Tweede benadering: de herwaarderingsmeerwaarde wordt niet uitgeboekt* 
 
 In deze benadering blijft de herwaarderingsmeerwaarde behouden bij de inbrengende vennootschap niettegenstaande het geherwaardeerde activum zich niet langer in het vermogen van de inbrengende vennootschap bevindt. Deze herwaarderingsmeerwaarde wordt nu als het ware geacht een herwaarderingsmeerwaarde te zijn op de in ruil voor de inbreng ontvangen participatie. Bij vennootschap B die het geherwaardeerde activum naar aanleiding van de inbreng verkrijgt, wordt op het passief van de balans geen herwaarderingsmeerwaarde tot uitdrukking gebracht.
@@ -145,36 +145,36 @@ Bij A wordt geboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Participatie B | 8.000 |  |  |
-|  | Schulden | 2.000 |  |  |
-| aan |  | Activa |  | 9.000 |
-|  | Activum 1 | 1.000 |  |  |
+| | Participatie B | 8.000 | | |
+| | Schulden | 2.000 | | |
+| aan | | Activa | | 9.000 |
+| | Activum 1 | 1.000 | | |
 
 en bij B:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Activa | 9.000 |  |  |
-|  | Activum 1 | 1.000 |  |  |
-| aan |  | Kapitaal |  | 8.000 |
-|  | Schulden | 2.000 |  |  |
+| | Activa | 9.000 | | |
+| | Activum 1 | 1.000 | | |
+| aan | | Kapitaal | | 8.000 |
+| | Schulden | 2.000 | | |
 
 Na de inbreng zien A en B er dan als volgt uit:
 
-| A[^4]  | 
+| A[^4] | 
 | Participatie B | | 8.000 | | Kapitaal | | 3.000 | 
-|   | |   | | Herwaarderingsmeerwaarde | | 1.000 | 
-|   | |   | | Beschikbare reserves | | 4.000 | 
-|   | | 8.000 | |   | | 8.000 | 
+| | | | | Herwaarderingsmeerwaarde | | 1.000 | 
+| | | | | Beschikbare reserves | | 4.000 | 
+| | | 8.000 | | | | 8.000 | 
 
-| B[^5]  | 
+| B[^5] | 
 | Activa (3.000 + 9.000) | | 12.000 | | Kapitaal (3.000 + 8.000) | | 11.000 | 
 | Activum 1 (0 + 1.000) | | 1.000 | | Schulden (0 + 2.000) | | 2.000 | 
-|   | | 13.000 | |   | | 13.000 | 
+| | | 13.000 | | | | 13.000 | 
 
 De Commissie voor Boekhoudkundige Normen is van mening dat de eerste benadering de voorkeur geniet aangezien de tweede benadering minder transparant is inzonderheid ten aanzien van de verkrijgende vennootschap.
 
-***b.    Gespreid te belasten meerwaarden of kapitaalsubsidies***
+***b. Gespreid te belasten meerwaarden of kapitaalsubsidies***
 
 Wanneer vennootschap A een gespreid te belasten meerwaarde (artikel 47, WIB 92) realiseerde (of een kapitaalsubsidie bekwam - artikel 362 WIB 92) en het wederbeleggingsactivum (of gesubsidieerde activum) behoorde tot een belastingneutrale inbreng van een bedrijfstak (of uiteraard tot een belastingneutrale inbreng van de algemeenheid) gold voor verrichtingen vóór 15 januari 1999 het volgende : aangezien naar aanleiding van een inbreng van een bedrijfstak of een algemeenheid normalerwijze de belastingvrije reserves van de inbrengende vennootschap niet mee werden ingebracht, bleef de gerealiseerde gespreid te belasten meerwaarde (of kapitaalsubsidie) belast bij de inbrengende vennootschap en dit pro rata de afschrijvingen die de verkrijgende vennootschap op de betrokken activa uitvoerde.
 
@@ -196,52 +196,52 @@ Teneinde te voldoen aan de fiscale onaantastbaarheidsvoorwaarde werd de gerealis
 | A | 
 | Activa | | 9.000 | | Kapitaal | | 4.000 | 
 | Activum 1 | | 1.000 | | Belastingvrije reserves | | 660 | 
-|   | |   | | Beschikbare reserves | | 5.000 | 
-|   | |   | | Uitgestelde belastingen | | 340 | 
-|   | | 10.000 | |   | | 10.000 | 
+| | | | | Beschikbare reserves | | 5.000 | 
+| | | | | Uitgestelde belastingen | | 340 | 
+| | | 10.000 | | | | 10.000 | 
 
 Vennootschap A brengt haar algemeenheid van goederen in, in een bestaande vennootschap B. Er wordt uitgegaan van de hypothese dat de verrichting belastingneutraal verloopt
 
 | B (vóór inbreng) | 
 | Activa | | 3.000 | | Kapitaal | | 3.000 | 
-|   | | 3.000 | |   | | 3.000 | 
+| | | 3.000 | | | | 3.000 | 
 
 Bij A wordt geboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Participatie B | 9.660 |  |  |
-|  | Belastingvrije reserve | 660 |  |  |
-|  | Uitgestelde belastingen | 340 |  |  |
-| aan |  | Activa |  | 9.000 |
-|  | Activum 1 | 1.000 |  |  |
-|  | Uitzonderlijke opbrengsten | 660 |  |  |
+| | Participatie B | 9.660 | | |
+| | Belastingvrije reserve | 660 | | |
+| | Uitgestelde belastingen | 340 | | |
+| aan | | Activa | | 9.000 |
+| | Activum 1 | 1.000 | | |
+| | Uitzonderlijke opbrengsten | 660 | | |
 
 en bij B:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Activa | 9.000 |  |  |
-|  | Activum 1 | 1.000 |  |  |
-| aan |  | Kapitaal |  | 9.000 |
-|  | Belastingvrije reserves | 660 |  |  |
-|  | Uitgestelde belastingen | 340 |  |  |
+| | Activa | 9.000 | | |
+| | Activum 1 | 1.000 | | |
+| aan | | Kapitaal | | 9.000 |
+| | Belastingvrije reserves | 660 | | |
+| | Uitgestelde belastingen | 340 | | |
 
 Na de inbreng zien A en B er dan als volgt uit:
 
-| A[^6]  | 
+| A[^6] | 
 | Participatie B | | 9.660 | | Kapitaal | | 4.000 | 
-|   | |   | | Beschikbare reserves | | 5.000 | 
-|   | |   | | Overgedragen resultaat | | 660 | 
-|   | |   | |   | |   | 
-|   | | 9.660 | |   | | 9.660 | 
+| | | | | Beschikbare reserves | | 5.000 | 
+| | | | | Overgedragen resultaat | | 660 | 
+| | | | | | | | 
+| | | 9.660 | | | | 9.660 | 
 
-| B[^7]  | 
+| B[^7] | 
 | Activa (3.000 + 9 .000) | | 12.000 | | Kapitaal (3.000 + 9.000) | | 12.000 | 
 | Activum 1 (0 + 1.000) | | 1.000 | | Belastingvrije reserves (0 + 660) | | 660 | 
-|   | |   | | Uitgestelde belastingen (0 + 340) | | 340 | 
-|   | |   | |   | |   | 
-|   | | 13.000 | |   | | 13.000 |
+| | | | | Uitgestelde belastingen (0 + 340) | | 340 | 
+| | | | | | | | 
+| | | 13.000 | | | | 13.000 |
 
 [^1]: De termen bedrijfstak (artikel 680 W.Venn.) en bedrijfsafdeling (artikelen 81 en 41, §1, tweede lid, in fine KB/W.Venn.) moeten als synoniem worden beschouwd.
 

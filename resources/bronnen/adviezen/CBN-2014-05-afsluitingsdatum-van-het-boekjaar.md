@@ -49,9 +49,9 @@ In België bestaat er echter een “algemeen aanvaard gebruik” om elk jaar het
 - de vennootschap kan specifieke redenen aanvoeren waarom zij een dergelijke methode wenst toe te passen; 
 - de datum van afsluiting (en opening) van het boekjaar moet worden bepaald volgens de vooraf in de statuten vastgestelde methode die objectief is en niet kan worden gemanipuleerd; 
 - de gebruikte methode kan er slechts toe leiden dat de duur van het boekjaar maximaal één week verschilt; 
-- de vergelijkbaarheid tussen de jaarcijfers wordt niet in het gedrang gebracht.[^2]  
+- de vergelijkbaarheid tussen de jaarcijfers wordt niet in het gedrang gebracht.[^2] 
 
-Een specifieke reden om te kiezen voor deze methode voor de bepaling van de afsluitingsdatum kan zijn dat de Belgische vennootschap een dochteronderneming is van een buitenlandse vennootschap (een Amerikaanse vennootschap, bijvoorbeeld) die deze methode toepast en dat de groep de boekjaren van de groepsvennootschappen wil afsluiten op dezelfde datum. 
+Een specifieke reden om te kiezen voor deze methode voor de bepaling van de afsluitingsdatum kan zijn dat de Belgische vennootschap een dochteronderneming is van een buitenlandse vennootschap (een Amerikaanse vennootschap, bijvoorbeeld) die deze methode toepast en dat de groep de boekjaren van de groepsvennootschappen wil afsluiten op dezelfde datum. 
 
 Overigens vestigt de Commissie de aandacht op de technische problemen met administratieve formaliteiten die zullen voortvloeien uit het gebruik van deze methode, zoals namelijk bij de KBO waarbij enkel een vaste afsluitingsdatum kan worden geregistreerd.
 

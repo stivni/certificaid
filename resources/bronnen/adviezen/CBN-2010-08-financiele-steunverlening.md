@@ -34,11 +34,11 @@ provenance:
 # CBN-advies 2010/8 - Financiële steunverlening Advies van 16 juni 2010
 
 In overeenstemming met artikel 23 van de gewijzigde Tweede Vennootschapsrichtlijn[^1]
- bepaalt het Wetboek van Vennootschappen dat het vanaf 1 januari 2009 een vennootschap is toegestaan om middelen voor te schieten, leningen toe te staan of zekerheden te stellen met het oog op de verkrijging van haar effecten door een derde[^2]. 
+ bepaalt het Wetboek van Vennootschappen dat het vanaf 1 januari 2009 een vennootschap is toegestaan om middelen voor te schieten, leningen toe te staan of zekerheden te stellen met het oog op de verkrijging van haar effecten door een derde[^2]. 
 
 Deze financiële steunverlening moet evenwel voldoen aan een aantal voorwaarden[^3]. Zo moet het voor die verrichting uitgetrokken bedrag overeenkomstig artikel 617 W.Venn.[^4]
- voor uitkering vatbaar zijn en moet de vennootschap aan de passiefzijde van haar balans een niet voor uitkering beschikbare reserve[^5]
- opnemen ten bedrage van de totale financiële bijstand[^6].
+ voor uitkering vatbaar zijn en moet de vennootschap aan de passiefzijde van haar balans een niet voor uitkering beschikbare reserve[^5]
+ opnemen ten bedrage van de totale financiële bijstand[^6].
 
 Wat betreft de waardering van deze “totale financiële bijstand” dient een onderscheid gemaakt te worden tussen de situatie waarin de onderneming middelen ter beschikking stelt van een derde, en de situatie waarin de onderneming een zekerheid stelt ten voordele van een derde.
 
@@ -52,15 +52,15 @@ De vorming van de onbeschikbare reserve dient slechts via de resultaatverwerking
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 291 | Overige vorderingen | X |  |
-|  | of 41 | Overige vorderingen |  |  |
-| aan | 550 | Kredietinstellingen |  | X |
+| | 291 | Overige vorderingen | X | |
+| | of 41 | Overige vorderingen | | |
+| aan | 550 | Kredietinstellingen | | X |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6921 | Toevoeging aan de overige reserves | X |  |
-|  | of 133 | Beschikbare reserves |  |  |
-| aan | 1311 | Andere onbeschikbare reserves |  | X |
+| | 6921 | Toevoeging aan de overige reserves | X | |
+| | of 133 | Beschikbare reserves | | |
+| aan | 1311 | Andere onbeschikbare reserves | | X |
 
 Naarmate het kapitaalbestanddeel van de lening wordt terugbetaald, mag een overboeking van de onbeschikbare reserves naar de beschikbare reserves gebeuren.
 
@@ -72,7 +72,7 @@ De vraag stelt zich hoe deze totale financiële bijstand bij zekerheidstellingen
 
 De Commissie is van oordeel dat uitgegaan dient te worden van de waarde van de verstrekte zekerheden of, indien dit lager ligt, van het bedrag van de gewaarborgde lening, aangezien de vennootschap zich boekhoudkundig maximaal ten belope van dit bedrag kan verarmen. Met de waarde van de verstrekte zekerheden wordt de waarde bedoeld waarvoor een actief voorkomt op de balans van de vennootschap die de zekerheid verstrekt. Het risico van aantasting van kapitaal bestaat immers slechts ten belope van het bedrag waarvoor de in zekerheid gegeven activa voorkomen op de balans.
 
-De werkelijke waarde van de verstrekte zekerheden dient wel in klasse 0 van het rekeningenstelsel geboekt te worden en in de toelichting van de jaarrekening bij de *niet in de balans opgenomen rechten en verplichtingen* vermeld te worden.  
+De werkelijke waarde van de verstrekte zekerheden dient wel in klasse 0 van het rekeningenstelsel geboekt te worden en in de toelichting van de jaarrekening bij de *niet in de balans opgenomen rechten en verplichtingen* vermeld te worden. 
 
 *Voorbeeld*
 
@@ -80,14 +80,14 @@ Een vennootschap stelt een hypotheek op één van haar gebouwen voor een door ee
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6921 | Toevoeging aan de overige reserves | 400.000 |  |
-|  | of 133 | Beschikbare reserves |  |  |
-| aan | 1311 | Andere onbeschikbare reserves |  | 400.000 |
+| | 6921 | Toevoeging aan de overige reserves | 400.000 | |
+| | of 133 | Beschikbare reserves | | |
+| aan | 1311 | Andere onbeschikbare reserves | | 400.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 022 | Crediteuren van derden, houders van zakelijke zekerheden | 600.000 |  |
-| aan | 023 | Zakelijke zekerheden, gesteld voor rekening van derden |  | 600.000 |
+| | 022 | Crediteuren van derden, houders van zakelijke zekerheden | 600.000 | |
+| aan | 023 | Zakelijke zekerheden, gesteld voor rekening van derden | | 600.000 |
 
 Naarmate het actief wordt afgeschreven, mag de onbeschikbare reserve teruggenomen worden[^9].
 
@@ -95,15 +95,15 @@ Naarmate het actief wordt afgeschreven, mag de onbeschikbare reserve teruggenome
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6302 | Afschrijvingen op materiële vaste activa | 25.000 |  |
-| aan | 22109 | Geboekte afschrijvingen op MVA (-) |  | 25.000 |
+| | 6302 | Afschrijvingen op materiële vaste activa | 25.000 | |
+| aan | 22109 | Geboekte afschrijvingen op MVA (-) | | 25.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 1311 | Andere onbeschikbare reserves | 25.000 |  |
-| aan | 133 | Beschikbare reserves |  | 25.000 |
+| | 1311 | Andere onbeschikbare reserves | 25.000 | |
+| aan | 133 | Beschikbare reserves | | 25.000 |
 
-Indien de tot zekerheid verstrekte activa in de toekomst geherwaardeerd zouden worden, is het volgens de Commissie niet noodzakelijk de onbeschikbare reserve te verhogen ten belope van het bedrag van de herwaarderingsmeerwaarde. De herwaarderingsmeerwaarde moet immers op het passief geboekt worden onder post III *Herwaarderingsmeerwaarden*, welke tot het onbeschikbaar eigen vermogen  behoort[^10]. Indien men voor ditzelfde bedrag ook een onbeschikbare reserve zou moeten aanleggen, zou dit bedrag tweemaal onder het onbeschikbaar eigen vermogen ressorteren, wat niet de bedoeling van de wetgever kan zijn geweest.  
+Indien de tot zekerheid verstrekte activa in de toekomst geherwaardeerd zouden worden, is het volgens de Commissie niet noodzakelijk de onbeschikbare reserve te verhogen ten belope van het bedrag van de herwaarderingsmeerwaarde. De herwaarderingsmeerwaarde moet immers op het passief geboekt worden onder post III *Herwaarderingsmeerwaarden*, welke tot het onbeschikbaar eigen vermogen behoort[^10]. Indien men voor ditzelfde bedrag ook een onbeschikbare reserve zou moeten aanleggen, zou dit bedrag tweemaal onder het onbeschikbaar eigen vermogen ressorteren, wat niet de bedoeling van de wetgever kan zijn geweest. 
 
 [^1]: Richtlijn 77/91/EEG van de Raad met betrekking tot de oprichting van de naamloze vennootschap, alsook de instandhouding en wijziging van haar kapitaal (Tweede Vennootschapsrichtlijn). De wijzigingen aan de Tweede Vennootschapsrichtlijn ingevolge Richtlijn 2006/68/EG van het Europees Parlement en de Raad van 6 september 2006 werden omgezet in ons nationaal recht door het Koninklijk Besluit van 8 oktober 2008 (B.S. 30 oktober 2008).
 

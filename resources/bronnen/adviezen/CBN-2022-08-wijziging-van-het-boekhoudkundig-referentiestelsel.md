@@ -39,7 +39,7 @@ gerelateerde_adviezen:
   - titel: Verenigingen en stichtingen – Vereenvoudigde boekhouding - Waarderingsregels
     url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
     datum: '2020-04-30'
-  - titel: Gevolgen op gebied van financiële rapportering  als gevolg van de brexit
+  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
     datum: '2019-04-12'
 ---
@@ -51,7 +51,7 @@ gerelateerde_adviezen:
 De Commissie voor boekhoudkundige normen werd om advies gevraagd inzake de gevolgen van een wijziging van het boekhoudkundig referentiestelsel voor de waardering van bepaalde activa (en passiva) bij een vennootschap die, voor de eerste keer, haar statutaire jaarrekening opstelt overeenkomstig het Belgisch boekhoudkundig referentiestelsel.
 
 Onderhavig advies behandelt meer bepaald de boekhoudkundige verwerking van eventuele verschillen in de waarderingsregels van materiële vaste activa tussen de referentiestelsels IFRS[^2]
- en BE GAAP[^3]. Dit advies kan evenwel ook dienstig zijn bij de overgang van een ander referentiestelsel dan IFRS naar BE GAAP.
+ en BE GAAP[^3]. Dit advies kan evenwel ook dienstig zijn bij de overgang van een ander referentiestelsel dan IFRS naar BE GAAP.
 
 Onderhavig advies gaat enkel over de toepassing van het Belgisch boekhoudrecht op de belichte verrichtingen, met uitsluiting van specifieke fiscaalrechtelijke aspecten. Dit advies is zowel van toepassing op vennootschappen als op VZW’s, IVZW’s en stichtingen.
 
@@ -62,10 +62,10 @@ Onderhavig advies behandelt enkel de opstelling van de statutaire jaarrekening, 
 Volgens het Belgisch boekhoudrecht moet de beginbalans van een boekjaar, onverminderd de toepassing van artikel 3:59, tweede lid van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV), overeenstemmen met de eindbalans van het voorafgaande boekjaar.[^4] 
 
 Bij de vaststelling en toepassing van de waarderingsregels wordt ervan uitgegaan dat de vennootschap, VZW, IVZW of stichting haar bedrijf zal voortzetten.[^5]
- Deze waarderingsregels moeten van het ene boekjaar op het andere identiek blijven en stelselmatig worden toegepast behalve voor wat betreft de jaarrekening over het eerste boekjaar waarop voor een vennootschap de bepalingen van boek 3, titels 1 tot 3 KB WVV van toepassing zijn[^6].
+ Deze waarderingsregels moeten van het ene boekjaar op het andere identiek blijven en stelselmatig worden toegepast behalve voor wat betreft de jaarrekening over het eerste boekjaar waarop voor een vennootschap de bepalingen van boek 3, titels 1 tot 3 KB WVV van toepassing zijn[^6].
 
 Elk actiefbestanddeel wordt gewaardeerd tegen aanschaffingswaarde en voor dat bedrag in de balans opgenomen, onder aftrek van de desbetreffende afschrijvingen en waardeverminderingen. Onder aanschaffingswaarde[^7]
- wordt verstaan: of de aanschaffingsprijs, of de vervaardigingsprijs, of de inbrengwaarde.[^8] 
+ wordt verstaan: of de aanschaffingsprijs, of de vervaardigingsprijs, of de inbrengwaarde.[^8] 
 
 Indien, bij het begin van het eerste boekjaar waarop voor een vennootschap, VZW, IVZW of stichting de bepalingen van boek 3, titel 1 KB WVV toepasselijk worden, de aanschaffingswaarde van bepaalde actiefbestanddelen niet kan worden wedersamengesteld, is de aanschaffingswaarde van elk van die bestanddelen gelijk aan de waarde waarvoor ze, vóór toepassing van de desbetreffende afschrijvingen en waardeverminderingen, in de inventaris van het voorafgaande boekjaar voorkwamen.[^9] 
 
@@ -74,15 +74,15 @@ De aldus vastgestelde aanschaffingswaarde maakt, in voorkomend geval, het voorwe
 ## Voorbeeld 1
 
 De omzet (exclusief de belasting over de toegevoegde waarde) van een vennootschap onder firma (VOF) overschrijdt gedurende het voorgaande boekjaar (20X0) 500.000 euro. De VOF moet voortaan een dubbele boekhouding voeren (voorheen voerde zij een vereenvoudigde boekhouding).[^11]
- Onder de activa van de vennootschap werd een oude machine opgenomen waarvan de aanschaffingswaarde niet kan worden wedersamengesteld. De waarde van de machine zoals opgenomen in de openingsbalans bij aanvang van het boekjaar 20X1 moet gelijk zijn aan de waarde waartegen de machine, vóór afschrijvingen en waardeverminderingen, werd opgenomen in de inventaris zoals opgemaakt aan het einde van het voorgaande boekjaar (20X0). De aldus vastgestelde aanschaffingswaarde maakt vervolgens het voorwerp uit van afschrijvingen.
+ Onder de activa van de vennootschap werd een oude machine opgenomen waarvan de aanschaffingswaarde niet kan worden wedersamengesteld. De waarde van de machine zoals opgenomen in de openingsbalans bij aanvang van het boekjaar 20X1 moet gelijk zijn aan de waarde waartegen de machine, vóór afschrijvingen en waardeverminderingen, werd opgenomen in de inventaris zoals opgemaakt aan het einde van het voorgaande boekjaar (20X0). De aldus vastgestelde aanschaffingswaarde maakt vervolgens het voorwerp uit van afschrijvingen.
 
 Voor de VZW’s, IVZW’s en stichtingen die voor de eerste keer de bepalingen van boek 3, titel 1 en titel 3 KB WVV (hierna: titels 1 & 3) toepassen, geeft artikel 3:175 KB WVV twee alternatieve methodes voor de opstelling en de waardering van de openingsbalans en de jaarrekening.
 
-- Als de VZW, IVZW of stichting, naar de mening van haar bestuursorgaan dat wordt vermeld in de toelichting bij de jaarrekening, reeds een boekhouding voert die ten minste overeenstemt met deze die titels 1 & 3 vereisen, stemt de openingsbalans van het eerste boekjaar waarvoor de bepalingen van titels 1 & 3 gelden, overeen met de afsluitingsbalans van het vorige boekjaar.  
+- Als de VZW, IVZW of stichting, naar de mening van haar bestuursorgaan dat wordt vermeld in de toelichting bij de jaarrekening, reeds een boekhouding voert die ten minste overeenstemt met deze die titels 1 & 3 vereisen, stemt de openingsbalans van het eerste boekjaar waarvoor de bepalingen van titels 1 & 3 gelden, overeen met de afsluitingsbalans van het vorige boekjaar. 
 
-	Indien een VZW, IVZW of stichting waarderingsregels toepast die niet overeenstemmen met de regels die titels 1 & 3 opleggen, moet ze deze regels aanpassen.  
+	Indien een VZW, IVZW of stichting waarderingsregels toepast die niet overeenstemmen met de regels die titels 1 & 3 opleggen, moet ze deze regels aanpassen. 
 
-	De vermelding van deze aanpassing in de toelichting wordt vervolledigd met een inschatting van de gevolgen ervan.[^12]   
+	De vermelding van deze aanpassing in de toelichting wordt vervolledigd met een inschatting van de gevolgen ervan.[^12] 
 
 - Als de VZW, IVZW of stichting, naar de mening van haar bestuursorgaan, geen boekhouding voert die ten minste overeenstemt met deze die titels 1 & 3 vereisen, worden de bestanddelen van de activa voor de opstelling van de openingsbalans van het eerste boekjaar waarvoor de bepalingen van titels 1 & 3 gelden, gewaardeerd tegen de aanschaffingswaarde, verminderd met de afschrijvingen die zouden zijn geboekt alsof de bepalingen van titels 1 & 3 van bij het begin zouden zijn toegepast of aan de waarde nul indien de aanschaffingswaarde niet wordt teruggevonden. 
 
@@ -97,7 +97,7 @@ Bij ontstentenis van betrouwbare werkelijke waarde, marktwaarde of gebruikswaard
 Het boekhoudkundig continuïteitsbeginsel is toepasbaar in het geval van een wijziging van boekhoudkundig referentiestelsel zelfs indien er zich waarderingsverschillen voordoen die voortvloeien uit een verschil in waarderingsregels tussen het buitenlandse en het Belgische referentiestelsel. Als de toestand bij de aanvang en de toestand bij de afsluiting van het boekjaar hierdoor moeilijk vergelijkbaar zijn, moet hiervan melding worden gemaakt in de toelichting bij de jaarrekening.
 
 De Commissie benadrukt dat een uitzondering op het boekhoudkundig continuïteitsbeginsel mogelijk is wanneer dit geen materiële of substantiële[^14]
- gevolgen heeft voor het getrouw beeld van de jaarrekening[^15].
+ gevolgen heeft voor het getrouw beeld van de jaarrekening[^15].
 
 ### Aanpassing van de bedragen van het voorafgaande boekjaar
 
@@ -111,7 +111,7 @@ Met het oog op het verschaffen van betekenisvolle informatie aan de lezer, is he
 
 ### Uitzondering op het boekhoudkundig continuïteitsbeginsel
 
-De Commissie meent dat een uitzondering op het boekhoudkundig continuïteitsbeginsel slechts kan worden verantwoord onder de volgende twee cumulatieve voorwaarden: 
+De Commissie meent dat een uitzondering op het boekhoudkundig continuïteitsbeginsel slechts kan worden verantwoord onder de volgende twee cumulatieve voorwaarden: 
 
 - de afwijkende waarderingsregels hebben betrekking op verrichtingen die volgens het Belgisch boekhoudrecht de balans gedurende meerdere boekjaren kunnen beïnvloeden en die dus moeten worden uitgedrukt in de boekhouding overeenkomstig de Belgische regelgeving, zelfs al werden zij gerealiseerd vóór de wijziging van het boekhoudkundig referentiestelsel; en 
 - de toepassing van het boekhoudkundig continuïteitsbeginsel op deze verrichtingen zou ertoe leiden dat de waardering die wordt opgenomen in de openingsbalans in strijd is met de waarderingsregels van het Belgisch boekhoudrecht. 
@@ -128,8 +128,8 @@ Deze herwerking kan eveneens een invloed hebben op de uitkeerbare winst.
 Neem hierbij het voorbeeld van een actiefbestanddeel dat in overeenstemming met het IFRS referentiestelsel gewaardeerd wordt tegen *fair value through profit or loss*: bij elke jaarafsluiting wordt het actief (of passief) geherwaardeerd tegen de reële waarde ervan en wordt elke wijziging van deze reële waarde rechtstreeks geboekt in de resultatenrekening.
 
 Indien het waarderingsverschil te wijten is aan een herwaarderingsmeerwaarde (bijvoorbeeld als gevolg van waardering tegen reële waarde [*fair value*] zoals in sommige gevallen binnen het IFRS referentiestelsel is toegestaan) geboekt overeenkomstig een ander boekhoudkundige referentiestelsel, en die herwaardering niet mag worden gehandhaafd binnen het Belgisch boekhoudrecht (door niet-naleving van de voorwaarden zoals bepaald in artikel 3:35, § 1 KB WVV), zal de vennootschap de boekhoudkundige herwerking evenwel uitvoeren door de rekening 12 *Herwaarderingsmeerwaarden*[^20]
- te debiteren ten belope van het nog niet afgeschreven gedeelte en/of indien de herwaarderingsmeerwaarde in het kapitaal werd geïncorporeerd, door rekening 10 *Kapitaal*[^21]
- te debiteren ten belope van het nog niet afgeschreven gedeelte.
+ te debiteren ten belope van het nog niet afgeschreven gedeelte en/of indien de herwaarderingsmeerwaarde in het kapitaal werd geïncorporeerd, door rekening 10 *Kapitaal*[^21]
+ te debiteren ten belope van het nog niet afgeschreven gedeelte.
 
 Voorbeeld 2
 
@@ -137,28 +137,28 @@ Neem bijvoorbeeld het geval van een deelneming die wordt geboekt onder de financ
 
 Stel dat de werkelijke waarde van het financieel vast actief hoger ligt dan de aanschaffingswaarde en dat de boeking van het actief tegen werkelijke waarde plaatsvindt zonder dat er onder IFRS een herwaarderingsreserve werd geboekt[^22].
 
-Volgens het Belgisch boekhoudrecht moet het financieel vast actief in beginsel geboekt worden tegen aanschaffingswaarde[^23]. De vennootschap kan, indien er wordt voldaan aan de voorwaarden, een herwaarderingsmeerwaarde boeken overeenkomstig artikel 3:35, § 1 KB WVV. In de veronderstelling dat er in onderhavig geval niet wordt voldaan aan de voorwaarden van artikel 3:35, § 1 KB WVV is het behoud van het financieel vast actief in de openingsbalans tegen werkelijke waarde in strijd met het Belgisch boekhoudrecht. 
+Volgens het Belgisch boekhoudrecht moet het financieel vast actief in beginsel geboekt worden tegen aanschaffingswaarde[^23]. De vennootschap kan, indien er wordt voldaan aan de voorwaarden, een herwaarderingsmeerwaarde boeken overeenkomstig artikel 3:35, § 1 KB WVV. In de veronderstelling dat er in onderhavig geval niet wordt voldaan aan de voorwaarden van artikel 3:35, § 1 KB WVV is het behoud van het financieel vast actief in de openingsbalans tegen werkelijke waarde in strijd met het Belgisch boekhoudrecht. 
 
 Bijgevolg moet de vennootschap de boekwaarde van het financieel vast actief herwerken zodat dit geboekt wordt tegen de initiële aanschaffingswaarde. Deze herwerking kan plaatsvinden door:
 
-- het bedrag dat overeenstemt met het verschil tussen de werkelijke waarde van het financieel vast actief en de aanschaffingswaarde ervan te crediteren op de passende rekening van rubriek 28 *Financiële vaste activa*; en  
+- het bedrag dat overeenstemt met het verschil tussen de werkelijke waarde van het financieel vast actief en de aanschaffingswaarde ervan te crediteren op de passende rekening van rubriek 28 *Financiële vaste activa*; en 
 - één of meerdere van de volgende rekeningen naar keuze[^24]
- en ten belope van hetzelfde bedrag te debiteren: 10 *Kapitaal*[^25], 11 *Uitgiftepremies*, 132 *Belastingvrije reserves*, 133 *Beschikbare reserves* en/of 14 *Overgedragen winst* of *Overgedragen verlies*. 
+ en ten belope van hetzelfde bedrag te debiteren: 10 *Kapitaal*[^25], 11 *Uitgiftepremies*, 132 *Belastingvrije reserves*, 133 *Beschikbare reserves* en/of 14 *Overgedragen winst* of *Overgedragen verlies*. 
 
 In het geval waarin het zou gaan om een geldbelegging geboekt tegen werkelijke waarde die uitstijgt boven de aanschaffingswaarde, zal dit verschil sowieso moeten worden afgeboekt vermits naar Belgisch boekhoudrecht[^26]
- geldbeleggingen moeten worden geboekt volgens het principe ‘*lower of cost or market*’ en in geen geval geherwaardeerd kunnen worden.
+ geldbeleggingen moeten worden geboekt volgens het principe ‘*lower of cost or market*’ en in geen geval geherwaardeerd kunnen worden.
 
 ## Boekhoudkundige verwerking van materiële vaste activa in de openingsbalans
 
 Om te kunnen voldoen aan de vereiste van het getrouw beeld en in toepassing van de continuïteitsoptiek, meent de Commissie dat de materiële vaste activa overeenkomstig het Belgisch boekhoudrecht moeten worden opgenomen in de eerste openingsbalans tegen aanschaffingswaarde verminderd met de afschrijvingen en waardeverminderingen. Deze aanschaffingswaarde kan evenwel geherwaardeerd worden om die zo gewenst beter te laten aansluiten bij de waardering binnen de laatst opgestelde jaarrekening conform een buitenlands referentiestelsel (IFRS of andere), voor zover een dergelijke herwaardering in lijn is met de Belgische wettelijke bepalingen.
 
 Artikel 3:35 KB WVV bepaalt immers dat een stijging van de waarde van een materieel vast actief[^27]
- (al dan niet met een beperkte gebruiksduur) slechts geboekt kan worden via een herwaardering, met tegenboeking in rubriek *Herwaarderingsmeerwaarden* van het passief, voor zover er voldaan is aan de voorwaarden van het KB WVV inzake herwaarderingsmeerwaarden[^28]. De Commissie herinnert hierbij ook aan de regel dat, indien de herwaardering betrekking heeft op materiële vaste activa met een beperkte gebruiksduur, deze op basis van de geherwaardeerde waarde wordt afgeschreven volgens een overeenkomstig artikel 3:6, § 1 KB WVV opgemaakt plan dat ertoe strekt de toerekening van de geherwaardeerde waarde te spreiden over de vermoedelijke residuele gebruiksduur van de betrokken activa[^29]. Tevens wil de Commissie benadrukken dat naar Belgisch boekhoudrecht het boeken van een herwaardering geenszins een verplichting uitmaakt.
+ (al dan niet met een beperkte gebruiksduur) slechts geboekt kan worden via een herwaardering, met tegenboeking in rubriek *Herwaarderingsmeerwaarden* van het passief, voor zover er voldaan is aan de voorwaarden van het KB WVV inzake herwaarderingsmeerwaarden[^28]. De Commissie herinnert hierbij ook aan de regel dat, indien de herwaardering betrekking heeft op materiële vaste activa met een beperkte gebruiksduur, deze op basis van de geherwaardeerde waarde wordt afgeschreven volgens een overeenkomstig artikel 3:6, § 1 KB WVV opgemaakt plan dat ertoe strekt de toerekening van de geherwaardeerde waarde te spreiden over de vermoedelijke residuele gebruiksduur van de betrokken activa[^29]. Tevens wil de Commissie benadrukken dat naar Belgisch boekhoudrecht het boeken van een herwaardering geenszins een verplichting uitmaakt.
 
 De Commissie meent dat er bij de bepaling van de boekwaarde van de materiële vaste activa[^30]
- een onderscheid moet worden gemaakt tussen, enerzijds, de initiële aanschaffingswaarde en, anderzijds, de bestanddelen van de herwaardering indien de boekwaarde in de openingsbalans hoger is dan de som van de historische aanschaffingswaarde en de aanschaffingswaarde van de daarop volgende investeringen.
+ een onderscheid moet worden gemaakt tussen, enerzijds, de initiële aanschaffingswaarde en, anderzijds, de bestanddelen van de herwaardering indien de boekwaarde in de openingsbalans hoger is dan de som van de historische aanschaffingswaarde en de aanschaffingswaarde van de daarop volgende investeringen.
 
-De geherwaardeerde waarde die voor deze vaste activa in aanmerking wordt genomen, wordt verantwoord in de toelichting bij de jaarrekening waarin de herwaardering voor het eerst werd toegepast[^31]. 
+De geherwaardeerde waarde die voor deze vaste activa in aanmerking wordt genomen, wordt verantwoord in de toelichting bij de jaarrekening waarin de herwaardering voor het eerst werd toegepast[^31]. 
 
 Er moet worden opgemerkt dat een herwaarderingsmeerwaarde nooit rechtstreeks of onrechtstreeks mag worden aangewend om overgedragen verliezen geheel of gedeeltelijk aan te zuiveren voor het nog niet afgeschreven gedeelte van de herwaarderingsmeerwaarde[^32].
 

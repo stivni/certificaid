@@ -71,13 +71,13 @@ De belastbare waarde van de bezittingen is in beginsel de door het bestuursorgaa
 
 ## Boekhoudkundige verwerking
 
-De hervorming van de patrimoniumtaks treedt in werking op 1 januari 2024.[^7] De taks zal dus een impact hebben op de aangifte die per 31 maart 2024 moet worden ingediend. 
+De hervorming van de patrimoniumtaks treedt in werking op 1 januari 2024.[^7] De taks zal dus een impact hebben op de aangifte die per 31 maart 2024 moet worden ingediend. 
 
-Art. 151, eerste lid W. Succ. stelt dat de belastingplichtigen uiterlijk op 31 maart van het aanslagjaar, bij het bevoegde kantoor een aangifte indienen waarin de samenstelling en de waarde van hun bezittingen op de eerste januari van hetzelfde jaar worden opgegeven. 
+Art. 151, eerste lid W. Succ. stelt dat de belastingplichtigen uiterlijk op 31 maart van het aanslagjaar, bij het bevoegde kantoor een aangifte indienen waarin de samenstelling en de waarde van hun bezittingen op de eerste januari van hetzelfde jaar worden opgegeven. 
 
 De Commissie gaat er bijgevolg van uit dat de taks verschuldigd is op basis van de bezittingen telkens op de eerste januari. Dus moet het boekjaar dat deze datum bevat, deze daarmee overeenstemmende kost rapporteren, ook al moet conform art. 151, eerste lid W. Succ. de aangifte maar gebeuren uiterlijk op 31 maart van hetzelfde kalenderjaar en moet conform art. 153, eerste lid W. Succ. de taks maar gekweten worden uiterlijk bij het verstrijken van de termijn voorzien voor de neerlegging der aangifte. Dit in toepassing van art. 3:11, eerste lid KB WVV dat stelt dat rekening moet worden gehouden met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen, ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft.
 
-Stel dat een boekjaar 2024 samenvalt met het kalenderjaar, dan zal de kost voortspruitende uit de taks geboekt worden in boekjaar 2024 op basis van de bezittingen op 01.01.2024. 
+Stel dat een boekjaar 2024 samenvalt met het kalenderjaar, dan zal de kost voortspruitende uit de taks geboekt worden in boekjaar 2024 op basis van de bezittingen op 01.01.2024. 
 
 Stel dat een boekjaar loopt van 01.02.2023 tot 31.01.2024 dan zal de kost geboekt worden in dat boekjaar (2023 – 2024) op basis van de bezittingen op 01.01.2024 ook al moet de aangifte maar volgen uiterlijk op 31.03.2024. Voor het daaropvolgende boekjaar dat loopt van 01.02.2024 tot 31.01.2025, dan zal de kost geboekt worden in dat boekjaar (2024 – 2025) op basis van de bezittingen op 01.01.2025.
 

@@ -33,25 +33,25 @@ provenance:
 
 # CBN-advies 2017/07 - Niet in de balans opgenomen rechten en verplichtingen
 
-1.  Hypothese en vraag  
-2.  Wetgevend en reglementair kader 
-  1.  Vermelding van rechten en verplichtingen in de toelichting  
-  2.  Rekeningen van de klasse 0  
+1. Hypothese en vraag 
+2. Wetgevend en reglementair kader 
+  1. Vermelding van rechten en verplichtingen in de toelichting 
+  2. Rekeningen van de klasse 0 
 
-3.  Beschouwingen 
-  1.  Vermelding van rechten en verplichtingen in de toelichting 
-    1.  Materialiteitsbeginsel (materiality principle)  
-    2.  Niet-limitativiteit van de bestaande lijsten  
-    3.  Subsidiariteit  
-    4.  Vermelding van bepaalde wijzigingen van het KB W.Venn. door het KB van 18 december 2015 
-, 15
+3. Beschouwingen 
+  1. Vermelding van rechten en verplichtingen in de toelichting 
+    1. Materialiteitsbeginsel (materiality principle) 
+    2. Niet-limitativiteit van de bestaande lijsten 
+    3. Subsidiariteit 
+    4. Vermelding van bepaalde wijzigingen van het KB W.Venn. door het KB van 18 december 2015 
+, 15
 
-  2.  Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0 
-    1.  Boeking door de onderneming van door een derde gewaarborgde verplichtingen  
-    2.  Welk bedrag moet er worden geboekt?  
+  2. Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0 
+    1. Boeking door de onderneming van door een derde gewaarborgde verplichtingen 
+    2. Welk bedrag moet er worden geboekt? 
 
-, 15
-  -- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door de onderneming van door een derde gewaarborgde verplichtingen---- Welk bedrag moet er worden geboekt?  
+, 15
+  -- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door de onderneming van door een derde gewaarborgde verplichtingen---- Welk bedrag moet er worden geboekt? 
 
 ## Hypothese en vraag
 
@@ -93,21 +93,21 @@ Na de omschrijving van de rechten en verplichtingen die moeten worden opgenomen 
 
 In artikel 97 is een beknopte omschrijving opgenomen van de hierna opgesomde rekeningen 00 tot 07:
 
- 00. Zekerheden door derden gesteld voor rekening van de vennootschap  
+ 00. Zekerheden door derden gesteld voor rekening van de vennootschap 
 
- 01. Persoonlijke zekerheden gesteld voor rekening van derden  
+ 01. Persoonlijke zekerheden gesteld voor rekening van derden 
 
- 02. Zakelijke zekerheden gesteld op eigen activa  
+ 02. Zakelijke zekerheden gesteld op eigen activa 
 
- 03. Ontvangen zekerheden  
+ 03. Ontvangen zekerheden 
 
- 04. Goederen en waarden gehouden door derden in hun naam, maar ten bate en op risico van de vennootschap  
+ 04. Goederen en waarden gehouden door derden in hun naam, maar ten bate en op risico van de vennootschap 
 
- 05. Verplichtingen tot aan- en verkoop van vaste activa  
+ 05. Verplichtingen tot aan- en verkoop van vaste activa 
 
- 06. Termijnovereenkomsten  
+ 06. Termijnovereenkomsten 
 
- 07. Goederen en waarden van derden gehouden door de vennootschap
+ 07. Goederen en waarden van derden gehouden door de vennootschap
 
 De volledige lijst van de rekeningen van klasse 0 is vastgesteld door het koninklijk besluit van 12 september 1983[^5] en bevat eveneens een rekening 09 Diverse rechten en verplichtingen alsook een groot aantal subrekeningen waarvan sommige op hun beurt onderverdeeld zijn in een reeks subrekeningen.
 
@@ -147,14 +147,14 @@ Ten slotte is de Commissie van oordeel dat de duur van de rechten en verplichtin
 
 Enkel de rechten en verplichtingen die nog niet zijn opgenomen in de balans moeten worden vermeld in de toelichting.[^13] 
 
-#### Vermelding van bepaalde wijzigingen van het KB W.Venn. door het KB van 18 december 2015 [^14] , [^15] 
+#### Vermelding van bepaalde wijzigingen van het KB W.Venn. door het KB van 18 december 2015 [^14] , [^15] 
 
 De artikelen 91 en 94 van het KB W.Venn. starten met een verwijzing naar het materialiteitsbeginsel dat hierna wordt omschreven als het beslissende criterium om te beoordelen of rechten en verplichtingen effectief worden opgenomen in de toelichting.
 
 In artikel 91 KB W.Venn. waarin de inhoud van de toelichting bij het volledig schema van de jaarrekening wordt behandeld, brengt het KB van 18 december 2015 de volgende aanpassingen in staat XVII. aan:
 
 - onder punt C. wordt verduidelijkt dat met *inlichtingen *betreffende belangrijke hangende geschillen en andere belangrijke verplichtingen het bedrag, de aard en de vorm van deze belangrijke hangende geschillen en andere belangrijke verplichtingen wordt bedoeld; en 
-- voortaan moeten ook de aard en de financiële gevolgen van materiële gebeurtenissen die zich na balansdatum hebben voorgedaan en die niet in de balans of resultatenrekening worden weergegeven, worden opgenomen (punt E.) , alsook de verplichtingen betreffende de aan- of verkoopverbintenissen die de vennootschap als optieschrijver van call- en putopties heeft (punt F).[^16]  
+- voortaan moeten ook de aard en de financiële gevolgen van materiële gebeurtenissen die zich na balansdatum hebben voorgedaan en die niet in de balans of resultatenrekening worden weergegeven, worden opgenomen (punt E.) , alsook de verplichtingen betreffende de aan- of verkoopverbintenissen die de vennootschap als optieschrijver van call- en putopties heeft (punt F).[^16] 
 
 In de staat bevattende de aard en het zakelijk doel van de buitenbalans regelingen[^17] moeten voortaan ook de financiële gevolgen van deze regelingen voor de vennootschap worden vermeld (staat XVII*bis*).[^18] 
 
@@ -178,7 +178,7 @@ De andere rechten en verplichtingen moeten worden opgenomen in de toelichting me
 De rekeningen van klasse 0 werken per twee volgens het beginsel van een dubbele boekhouding:
 
 - de gedebiteerde rekening stemt overeen met een potentieel en toekomstig actief, het derde cijfer van deze rekening is een even getal; 
-- de gecrediteerde rekening duidt een potentiële en toekomstige schuld aan, het derde cijfer van deze rekening is een oneven getal en volgt op het cijfer van de gedebiteerde rekening.[^22]  
+- de gecrediteerde rekening duidt een potentiële en toekomstige schuld aan, het derde cijfer van deze rekening is een oneven getal en volgt op het cijfer van de gedebiteerde rekening.[^22] 
 
 De boeking onder de rekeningen van de klasse 0 is aanvullend en verschillend van een voorziening voor risico's en kosten die wordt geboekt om verliezen of kosten te dekken die naar hun aard duidelijk omschreven zijn, maar die op de balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat.[^23] 
 
@@ -206,7 +206,7 @@ De rechten en verplichtingen kunnen ook uitsluitend worden overeengekomen tussen
 
 Zoals hierboven aangegeven, moeten de eventuele rechten en verplichtingen tussen verbonden ondernemingen, geassocieerde ondernemingen en ondernemingen waarmee een deelnemingsverhouding bestaat, worden opgenomen in de toelichting.
 
-Indien de niet in de balans opgenomen rechten en de verplichtingen die voortvloeien uit verrichtingen binnen de groep in principe worden verwijderd naar aanleiding van de consolidatie gelet op de wederkerigheid van deze rechten en verplichtingen, moeten, volgens de Commissie, deze wederzijdse rechten en verplichtingen worden opgenomen in de enkelvoudige jaarrekening van elke entiteit ten belope van het totaalbedrag, zonder dat een compensatie, omwille van de veronderstelde wederkerigheid van de rechten en verplichtingen, plaatsvindt.  
+Indien de niet in de balans opgenomen rechten en de verplichtingen die voortvloeien uit verrichtingen binnen de groep in principe worden verwijderd naar aanleiding van de consolidatie gelet op de wederkerigheid van deze rechten en verplichtingen, moeten, volgens de Commissie, deze wederzijdse rechten en verplichtingen worden opgenomen in de enkelvoudige jaarrekening van elke entiteit ten belope van het totaalbedrag, zonder dat een compensatie, omwille van de veronderstelde wederkerigheid van de rechten en verplichtingen, plaatsvindt. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 11 januari 2017 ter consultatie werd gepubliceerd op de website van de CBN.
 

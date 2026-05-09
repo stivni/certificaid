@@ -41,15 +41,15 @@ gerelateerde_adviezen:
 
 # CBN-advies 2012/5 – Betaling van vorderingen in natura
 
-CBN-advies 2012/5 – Betaling van vorderingen in natura   
+CBN-advies 2012/5 – Betaling van vorderingen in natura 
 
-1.  Inbetalinggeving door levering van een goed 
-  1.  Het in betaling gegeven goed is een materieel vast actief  
-  2.     Het in betaling gegeven goed is een vlottend actief  
+1. Inbetalinggeving door levering van een goed 
+  1. Het in betaling gegeven goed is een materieel vast actief 
+  2. Het in betaling gegeven goed is een vlottend actief 
 
-2.  Inbetalinggeving door levering van een dienst  
+2. Inbetalinggeving door levering van een dienst 
 
-###   
+### 
 Inleiding
 
 De Commissie wenst in dit advies de betaling van een vordering in natura te behandelen. De betaling kan omschreven worden als de rechtshandeling waardoor de schuldenaar zijn verbintenis uitvoert. Een bijzondere vorm van betaling is de zogenaamde *inbetalinggeving*: de schuldenaar kan er bijvoorbeeld voor opteren om een goed te leveren of een dienst te verstrekken ter betaling[^1].
@@ -72,7 +72,7 @@ De Commissie is de mening toegedaan dat de boekhoudkundige verwerking in hoofde 
 
 *Voorbeeld*
 
-Een onderneming levert onderhoudsdiensten aan een afnemer voor een bedrag van 1.000 EUR, exclusief BTW. Initieel werd er voorzien in een monetaire betaling. Na overleg tussen de schuldenaar en schuldeiser wordt er besloten dat de schuldenaar een schoonmaakmachine van 1.000 EUR exclusief BTW in betaling geeft voor de openstaande schuld.  
+Een onderneming levert onderhoudsdiensten aan een afnemer voor een bedrag van 1.000 EUR, exclusief BTW. Initieel werd er voorzien in een monetaire betaling. Na overleg tussen de schuldenaar en schuldeiser wordt er besloten dat de schuldenaar een schoonmaakmachine van 1.000 EUR exclusief BTW in betaling geeft voor de openstaande schuld. 
 
 Gezien de aard van het onderliggende goed, wordt deze inbetalinggeving als volgt boekhoudkundig verwerkt in hoofde van de schuldeiser:
 
@@ -80,15 +80,15 @@ Gezien de aard van het onderliggende goed, wordt deze inbetalinggeving als volgt
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 23 | Installaties, machines en uitrusting | 1.000 |  |
-|  | 411 | Terug te vorderen BTW | 210 |  |
-| aan | 400 | Handelsdebiteuren |  | 1.210 |
+| | 23 | Installaties, machines en uitrusting | 1.000 | |
+| | 411 | Terug te vorderen BTW | 210 | |
+| aan | 400 | Handelsdebiteuren | | 1.210 |
 
-###    Het in betaling gegeven goed is een vlottend actief
+### Het in betaling gegeven goed is een vlottend actief
 
 *Voorbeeld*
 
-Een onderneming levert onderhoudsdiensten aan een afnemer voor een bedrag van 100 EUR, exclusief BTW. Initieel werd er voorzien in een monetaire betaling. Na overleg tussen de schuldenaar en schuldeiser wordt er besloten dat de schuldenaar schoonmaakproducten voor 100 EUR exclusief BTW in betaling geeft voor de openstaande schuld.  
+Een onderneming levert onderhoudsdiensten aan een afnemer voor een bedrag van 100 EUR, exclusief BTW. Initieel werd er voorzien in een monetaire betaling. Na overleg tussen de schuldenaar en schuldeiser wordt er besloten dat de schuldenaar schoonmaakproducten voor 100 EUR exclusief BTW in betaling geeft voor de openstaande schuld. 
 
 Gezien de aard van het onderliggende goed, wordt deze inbetalinggeving als volgt boekhoudkundig verwerkt in hoofde van de schuldeiser:
 
@@ -96,24 +96,24 @@ Gezien de aard van het onderliggende goed, wordt deze inbetalinggeving als volgt
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 601 | Aankopen van hulpstoffen | 100 |  |
-|  | 411 | Terug te vorderen BTW | 21 |  |
-| aan | 400 | Handelsdebiteuren |  | 121 |
+| | 601 | Aankopen van hulpstoffen | 100 | |
+| | 411 | Terug te vorderen BTW | 21 | |
+| aan | 400 | Handelsdebiteuren | | 121 |
 
 Op het einde van het boekjaar wordt er vastgesteld dat er nog 4 liter schoonmaakproduct met een monetaire waarde van 10 EUR aanwezig is in de voorraad:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 310 | Voorraad hulpstoffen | 10 |  |
-| aan | 6091 | Voorraadwijzigingen van hulpstoffen |  | 10 |
+| | 310 | Voorraad hulpstoffen | 10 | |
+| aan | 6091 | Voorraadwijzigingen van hulpstoffen | | 10 |
 
 ## Inbetalinggeving door levering van een dienst
 
 Voor wat betreft de inbetalinggeving door levering van een dienst is de Commissie de mening toegedaan dat deze dienst in hoofde van de schuldeiser dient te worden verwerkt als periodekost binnen de *Diensten en diverse goederen* *(rekening 61).* Mocht de dienst door de schuldenaar over verschillende boekjaren worden verstrekt, dan dient de schuldeiser rekening te houden met een passende afgrenzing.
 
-*Voorbeeld*  
+*Voorbeeld* 
 
-Een onderneming levert in 20X1 een machine aan een afnemer voor een bedrag van 1.000 EUR, exclusief BTW. Initieel werd er voorzien in een monetaire betaling. Eind 20X1 wordt er, na overleg tussen de schuldenaar en schuldeiser, besloten dat de schuldenaar beveiligingsdiensten voor één jaar in betaling zal geven voor een waarde van 1.000 EUR exclusief BTW. Gezien het overleg pas in oktober 20X1 plaatsvond, worden er in 20X1 slechts 2 maanden diensten geleverd.  
+Een onderneming levert in 20X1 een machine aan een afnemer voor een bedrag van 1.000 EUR, exclusief BTW. Initieel werd er voorzien in een monetaire betaling. Eind 20X1 wordt er, na overleg tussen de schuldenaar en schuldeiser, besloten dat de schuldenaar beveiligingsdiensten voor één jaar in betaling zal geven voor een waarde van 1.000 EUR exclusief BTW. Gezien het overleg pas in oktober 20X1 plaatsvond, worden er in 20X1 slechts 2 maanden diensten geleverd. 
 
 *Boekingen per 31 december 20X1*
 
@@ -121,21 +121,21 @@ Een onderneming levert in 20X1 een machine aan een afnemer voor een bedrag van 1
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | 1.000 |  |
-|  | 411 | Terug te vorderen BTW | 210 |  |
-| aan | 400 | Handelsdebiteuren |  | 1.210 |
+| | 61 | Diensten en diverse goederen | 1.000 | |
+| | 411 | Terug te vorderen BTW | 210 | |
+| aan | 400 | Handelsdebiteuren | | 1.210 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 490 | Over te dragen kosten | 833,33 (1.000 x 10/12) |  |
-| aan | 61 | Diensten en diverse goederen |  | 833,33 |
+| | 490 | Over te dragen kosten | 833,33 (1.000 x 10/12) | |
+| aan | 61 | Diensten en diverse goederen | | 833,33 |
 
 *Boekingen in 20X2*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | 833,33 |  |
-| aan | 490 | Over te dragen kosten |  | 833,33 |
+| | 61 | Diensten en diverse goederen | 833,33 | |
+| aan | 490 | Over te dragen kosten | | 833,33 |
 
 [^1]: R. KRUITHOF, H. MOONS en C. PAULUS, “Overzicht van rechtspraak verbintenissenrecht (1965-1963)”, TPR 1975, 771 en de verwijzingen aldaar.
 

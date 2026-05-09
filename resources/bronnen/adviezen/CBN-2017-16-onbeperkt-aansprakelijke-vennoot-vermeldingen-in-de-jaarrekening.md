@@ -31,28 +31,28 @@ provenance:
 
 vermeldingen in de jaarrekening
 
-1.  Inleiding  
-2.  Onbeperkte aansprakelijkheid: overzicht  
-3.  Neerleggingsplicht: relevante bepalingen  
-4.  Overzicht van de te verstrekken gegevens 
-  1.  Lijst van ondernemingen waarvoor onbeperkte aansprakelijkheid geldt  
-  2.  Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt  
-  3.  Uitsluitingen waarbij de opname van de jaarrekening niet van toepassing is 
-    1.  Algemeen  
-    2.  Openbaarmaking van de jaarrekening van de onderneming met onbeperkte aansprakelijkheid  
-    3.  Jaarrekening opgenomen in consolidatie  
+1. Inleiding 
+2. Onbeperkte aansprakelijkheid: overzicht 
+3. Neerleggingsplicht: relevante bepalingen 
+4. Overzicht van de te verstrekken gegevens 
+  1. Lijst van ondernemingen waarvoor onbeperkte aansprakelijkheid geldt 
+  2. Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt 
+  3. Uitsluitingen waarbij de opname van de jaarrekening niet van toepassing is 
+    1. Algemeen 
+    2. Openbaarmaking van de jaarrekening van de onderneming met onbeperkte aansprakelijkheid 
+    3. Jaarrekening opgenomen in consolidatie 
 
-  4.  Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd 
-    1.  Algemene principes  
-    2.  Belgische ondernemingen
+  4. Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd 
+    1. Algemene principes 
+    2. Belgische ondernemingen
 
-      1.  Inventaris  
-      2.  Waarderingsregels  
+      1. Inventaris 
+      2. Waarderingsregels 
 
-    3.  Buitenlandse ondernemingen  
-    4.  Voorbeeld  
+    3. Buitenlandse ondernemingen 
+    4. Voorbeeld 
 
-  ------ Inventaris------ Waarderingsregels---- Buitenlandse ondernemingen---- Voorbeeld  
+  ------ Inventaris------ Waarderingsregels---- Buitenlandse ondernemingen---- Voorbeeld 
 
 ## Inleiding
 
@@ -72,7 +72,7 @@ De Commissie spreekt zich in dit advies niet uit over de verplichtingen in hoofd
 
 Artikel 100 W.Venn. bevat de algemene verplichting voor alle Belgische vennootschappen[^8] om bepaalde gegevens met betrekking tot de ondernemingen waarvoor zij onbeperkt aansprakelijk zijn neer te leggen bij de Nationale Bank. Artikel 103 W.Venn. regelt de openbaarmaking van deze gegevens.
 
-Artikel 100, § 2 W.Venn. stelt evenwel de vennootschappen die deze informatie reeds afzonderlijk vermelden in de jaarrekening vrij van deze verplichting: deze informatie hoeft m.a.w. niet te worden herhaald in een bij de Nationale Bank van België apart document neer te leggen in toepassing van artikel 100 W.Venn. Dit zal het geval zijn voor de vennootschappen die:  
+Artikel 100, § 2 W.Venn. stelt evenwel de vennootschappen die deze informatie reeds afzonderlijk vermelden in de jaarrekening vrij van deze verplichting: deze informatie hoeft m.a.w. niet te worden herhaald in een bij de Nationale Bank van België apart document neer te leggen in toepassing van artikel 100 W.Venn. Dit zal het geval zijn voor de vennootschappen die: 
 
 - hun jaarrekening opmaken en publiceren volgens het volledig schema en diezelfde informatie dus op grond van artikel 91 KB W.Venn. reeds dienen te vermelden in hun toelichting; of 
 - gebruik maken van het verkort schema of het microschema en deze informatie vrijwillig opnemen in de toelichting bij hun jaarrekening. 
@@ -97,11 +97,11 @@ Deze informatie, die bestaat uit de jaarrekening van de onderneming(en) waarvoor
 
 #### Algemeen
 
-De verplichting tot toevoeging van de jaarrekening van de ondernemingen waarvoor de vennootschap onbeperkt hoofdelijk aansprakelijk is en die opgenomen zijn in de lijst van ondernemingen waarvoor onbeperkt aansprakelijk, geldt niet in de volgende gevallen:  
+De verplichting tot toevoeging van de jaarrekening van de ondernemingen waarvoor de vennootschap onbeperkt hoofdelijk aansprakelijk is en die opgenomen zijn in de lijst van ondernemingen waarvoor onbeperkt aansprakelijk, geldt niet in de volgende gevallen: 
 
 - de jaarrekening van de onderneming wordt reeds openbaar gemaakt conform bepaalde vereisten; 
 - de jaarrekening van de onderneming is reeds opgenomen in geconsolideerde jaarrekening volgens bepaalde vereisten; 
-- wanneer het een maatschap, een tijdelijke handelsvennootschap of een stille handelsvennootschap betreft.[^11]  
+- wanneer het een maatschap, een tijdelijke handelsvennootschap of een stille handelsvennootschap betreft.[^11] 
 
 De reden waarom de jaarrekening van een in de lijst opgenomen onderneming in dergelijk geval niet wordt opgenomen, moet worden vermeld in het document met de gegevens dat op grond van artikel 100 W.Venn. wordt neergelegd of desgevallend in de toelichting bij de jaarrekening indien de gegevens daar worden verstrekt.
 
@@ -125,7 +125,7 @@ De verplichting tot toevoeging van de jaarrekening van de onderneming waarvoor d
 
 De Commissie brengt in herinnering dat de jaarrekening van de onbeperkt aansprakelijke vennoot enerzijds een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de vennootschap[^15] en anderzijds duidelijk moet worden opgesteld en stelselmatig de aard en het bedrag van de bezittingen en de rechten van de vennootschap, van haar schulden en verplichtingen evenals van haar eigen middelen, en de aard en het bedrag van haar kosten en haar opbrengsten moet weergeven.[^16] Artikel 25 KB W.Venn. schrijft bovendien voor dat in de toelichting per soort worden vermeld de rechten en verplichtingen die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden.
 
-Deze principes indachtig, is de Commissie van mening dat:  
+Deze principes indachtig, is de Commissie van mening dat: 
 
 - als algemene regel geldt dat in de gevallen waarin geen publicatie heeft plaatsgevonden van de jaarrekening van de onderneming met onbeperkte aansprakelijkheid conform artikel 98 W.Venn. of geen openbaarmaking in het buitenland, op passende wijze een stuk[^17] moet worden toegevoegd aan de jaarrekening van de onbeperkt aansprakelijke vennoot waardoor aan bovenstaande principes is voldaan; 
 - desgevallend, bijkomend, passende vermeldingen worden gemaakt onder de niet in de balans opgenomen rechten en verplichtingen van de onbeperkt aansprakelijke vennoot; 
@@ -148,7 +148,7 @@ Voor buitenlandse ondernemingen dienen de inventarisverplichtingen te worden toe
 
 #### Voorbeeld
 
-BVBA X is samen met een natuurlijke persoon vennoot in VOF Y.  
+BVBA X is samen met een natuurlijke persoon vennoot in VOF Y. 
 
 BVBA X heeft een initiële inleg gedaan in VOF Y ten belope van 200.
 
@@ -176,7 +176,7 @@ Aangezien op die manier door BVBA X, in haar hoedanigheid van onbeperkt aansprak
 
 In voorliggend geval zal VOF Y zelf over voldoende activa beschikken om de schadeclaim ten belope van 80 te voldoen.
 
-Stel dat de schadeclaim tegen VOF Y 800 bedraagt. In het geval waarin BVBA X op grond van haar inschatting op dit moment van oordeel is dat VOF Y niet over voldoende activa zal beschikken om de schadeclaim te voldoen, moet BVBA X desgevallend een passende voorziening boeken[^22], aangezien BVBA X zal kunnen aangesproken worden met betrekking tot deze schadeclaim tegen VOF Y. Hierbij moet onder meer rekening worden gehouden met de uitwerking van de regels inzake hoofdelijke aansprakelijkheid (van belang in het geval waarin er meerdere onbeperkt aansprakelijke vennoten zijn – dan staat elke vennoot in voor het totaalbedrag; bij aanleggen van de voorziening inschatting maken van de uiteindelijke kost).  
+Stel dat de schadeclaim tegen VOF Y 800 bedraagt. In het geval waarin BVBA X op grond van haar inschatting op dit moment van oordeel is dat VOF Y niet over voldoende activa zal beschikken om de schadeclaim te voldoen, moet BVBA X desgevallend een passende voorziening boeken[^22], aangezien BVBA X zal kunnen aangesproken worden met betrekking tot deze schadeclaim tegen VOF Y. Hierbij moet onder meer rekening worden gehouden met de uitwerking van de regels inzake hoofdelijke aansprakelijkheid (van belang in het geval waarin er meerdere onbeperkt aansprakelijke vennoten zijn – dan staat elke vennoot in voor het totaalbedrag; bij aanleggen van de voorziening inschatting maken van de uiteindelijke kost). 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 19 juni 2017 ter consultatie werd gepubliceerd op de website van de CBN.
 

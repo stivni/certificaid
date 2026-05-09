@@ -34,16 +34,16 @@ provenance:
 
 # CBN-advies 2016/15 – Vergoedingen aan bestuurders en werkende vennoten
 
-## Algemeen 
+## Algemeen 
 
-In onderhavig advies wordt de boekhoudkundige verwerking behandeld van de vergoedingen ontvangen door een bestuurder, zaakvoerder of werkend vennoot. 
+In onderhavig advies wordt de boekhoudkundige verwerking behandeld van de vergoedingen ontvangen door een bestuurder, zaakvoerder of werkend vennoot. 
 
 Hoewel de functie van vennootschapsbestuurder niet in het kader van een arbeidsovereenkomst kan worden uitgeoefend staat het de bestuurder niettemin vrij[^2]
- een arbeidsovereenkomst met de vennootschap aan te gaan mits twee cumulatieve voorwaarden zijn voldaan. Ten eerste is vereist dat hij naast zijn functie als bestuurder nog een andere functie in de vennootschap uitoefent die activiteiten behelst die duidelijk onderscheiden zijn van de bestuursfunctie. De arbeidsovereenkomst wordt dan voor die activiteiten aangegaan en dus niet voor de bestuursactiviteiten. Ten tweede dient hij onder gezag te staan voor de taken waarvoor de arbeidsovereenkomst is aangegaan.[^3]
- Bijgevolg kan een bestuurder een vergoeding krijgen als bestuurder en daarnaast nog een vergoeding krijgen uit hoofde van zijn arbeidsovereenkomst. 
+ een arbeidsovereenkomst met de vennootschap aan te gaan mits twee cumulatieve voorwaarden zijn voldaan. Ten eerste is vereist dat hij naast zijn functie als bestuurder nog een andere functie in de vennootschap uitoefent die activiteiten behelst die duidelijk onderscheiden zijn van de bestuursfunctie. De arbeidsovereenkomst wordt dan voor die activiteiten aangegaan en dus niet voor de bestuursactiviteiten. Ten tweede dient hij onder gezag te staan voor de taken waarvoor de arbeidsovereenkomst is aangegaan.[^3]
+ Bijgevolg kan een bestuurder een vergoeding krijgen als bestuurder en daarnaast nog een vergoeding krijgen uit hoofde van zijn arbeidsovereenkomst. 
 
 In het Wetboek van vennootschappen (hierna: W.Venn.) wordt expliciet de mogelijkheid voorzien om een rechtspersoon aan te duiden als bestuurder of zaakvoerder van een vennootschap. In voorkomend geval moet deze rechtspersoon een vaste vertegenwoordiger benoemen die belast wordt met de uitvoering van de opdracht in naam en voor rekening van de rechtspersoon.[^4]
- Dit neemt echter niet weg dat bepaalde wettelijke bepalingen kunnen verhinderen dat een bestuurdersmandaat wordt uitgeoefend door een rechtspersoon of dat bezoldigingen worden uitbetaald via zogenaamde managementvennootschappen.[^5] 
+ Dit neemt echter niet weg dat bepaalde wettelijke bepalingen kunnen verhinderen dat een bestuurdersmandaat wordt uitgeoefend door een rechtspersoon of dat bezoldigingen worden uitbetaald via zogenaamde managementvennootschappen.[^5] 
 
 ## Boekhoudkundige verwerking
 
@@ -61,7 +61,7 @@ Voormelde regels zijn op overeenkomstige wijze van toepassing op grote verenigin
 
 ### 6201 Directiepersoneel
 
-De vergoedingen die een bestuurder, zaakvoerder of werkend vennoot ontvangt ingevolge de arbeidsovereenkomst die werd afgesloten met de vennootschap, worden in principe geboekt op de rekening 6201[^8] *Directiepersoneel*. 
+De vergoedingen die een bestuurder, zaakvoerder of werkend vennoot ontvangt ingevolge de arbeidsovereenkomst die werd afgesloten met de vennootschap, worden in principe geboekt op de rekening 6201[^8] *Directiepersoneel*. 
 
 Op de rekening 6201 *Directiepersoneel *worden de bezoldigingen geboekt van de werknemers met een arbeidsovereenkomst die voldoen aan de beschrijving van leidinggevende zoals bedoeld in artikel 4, 4° van de wet van 4 december 2007 betreffende de sociale verkiezingen. Deze wet definieert leidinggevenden als “de personen belast met het dagelijks bestuur van de onderneming, die gemachtigd zijn om de werkgever te vertegenwoordigen en te verbinden, alsmede de personeelsleden, onmiddellijk ondergeschikt aan die personen, wanneer zij eveneens opdrachten van dagelijks bestuur vervullen”. Deze verwijzing naar de wet van 4 december 2007 betreffende de sociale verkiezingen strekt er uitsluitend toe te verduidelijken welke kosten op de rekening 6201 *Directiepersoneel* worden geboekt. De Commissie merkt op dat het gebruik van de rekening 6201 *Directiepersoneel *geldt ongeacht de vennootschap sociale verkiezingen organiseert of moet organiseren ingevolge deze wet.
 
@@ -72,12 +72,12 @@ Voormelde regels zijn op overeenkomstige wijze van toepassing op grote verenigin
 ### 695 Bestuurders of zaakvoerders
 
 De rekening 695 *Bestuurders of zaakvoerders* wordt gebruikt voor vergoedingen toegekend aan bestuurders of zaakvoerders bij wijze van verdeling van de winst. Dergelijke toekenningen worden door het W.Venn. in het kader van het behoud van het kapitaal begrensd tot de uitkeerbare winsten.[^9]
- Vergoedingen die aan de leden van het bestuursorgaan worden uitgekeerd in functie van de nettowinst worden ook tantièmes genoemd.[^10] ,[^11] 
+ Vergoedingen die aan de leden van het bestuursorgaan worden uitgekeerd in functie van de nettowinst worden ook tantièmes genoemd.[^10] ,[^11] 
 
 In de rechtsleer wordt aangehaald dat gewone bestuurdersbezoldigingen onder de vorm van een vast (maandelijks) bedrag, geen uitkeringen zijn in de zin van artikel 617[^12]
- W.Venn. In sommige gevallen kan weliswaar het onderscheid met loutere winstuitkeringen louter formeel zijn, bijvoorbeeld in kleine vennootschappen waarbij aandeelhouders en bestuurders dezelfde personen zijn. De bestuurders zouden in dat geval gemakkelijk de beperkingen inzake winstuitkering kunnen omzeilen. Wanneer zou blijken dat de toegekende “bezoldigingen” niet in redelijk verband staan tot de geleverde prestaties, zouden deze “bezoldigingen” dan ook kunnen worden geherkwalificeerd als verkapte winstuitkeringen en op die grond nietig worden verklaard wegens overtreding van artikel 617 W.Venn. zodat de bestuurders deze “bezoldigingen” eventueel dienen terug te betalen.[^13] 
+ W.Venn. In sommige gevallen kan weliswaar het onderscheid met loutere winstuitkeringen louter formeel zijn, bijvoorbeeld in kleine vennootschappen waarbij aandeelhouders en bestuurders dezelfde personen zijn. De bestuurders zouden in dat geval gemakkelijk de beperkingen inzake winstuitkering kunnen omzeilen. Wanneer zou blijken dat de toegekende “bezoldigingen” niet in redelijk verband staan tot de geleverde prestaties, zouden deze “bezoldigingen” dan ook kunnen worden geherkwalificeerd als verkapte winstuitkeringen en op die grond nietig worden verklaard wegens overtreding van artikel 617 W.Venn. zodat de bestuurders deze “bezoldigingen” eventueel dienen terug te betalen.[^13] 
 
-De rekening 695 *Bestuurders of zaakvoerders* wordt gebruikt ongeacht of de vergoeding wordt toegekend aan een natuurlijke persoon of aan een rechtspersoon. 
+De rekening 695 *Bestuurders of zaakvoerders* wordt gebruikt ongeacht of de vergoeding wordt toegekend aan een natuurlijke persoon of aan een rechtspersoon. 
 
 In het KB van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen is de rekening 695 *Bestuurders of zaakvoerders* niet opgenomen. Het toekennen van een aandeel in de winst aan een bestuurder van een vereniging zonder winstoogmerk of een stichting strookt immers niet met de eigenheid van een dergelijke entiteit.
 
@@ -92,9 +92,9 @@ Voormelde regels zijn op overeenkomstige wijze van toepassing voor wat betreft d
 Een naamloze vennootschap wordt bestuurd door twee natuurlijke personen en een rechtspersoon.
 
 Aan een bestuurdersmandaat is een jaarlijkse vergoeding verbonden van 2.000 euro exclusief btw.[^16]
- Natuurlijke persoon A heeft naast zijn bestuurdersmandaat ook een arbeidsovereenkomst afgesloten met de vennootschap en ontvangt hieruit een jaarbezoldiging van 60.000 euro. De natuurlijke persoon B en de bestuurder-rechtspersoon ontvangen uitsluitend de bestuurdersvergoeding van 2.000 euro.
+ Natuurlijke persoon A heeft naast zijn bestuurdersmandaat ook een arbeidsovereenkomst afgesloten met de vennootschap en ontvangt hieruit een jaarbezoldiging van 60.000 euro. De natuurlijke persoon B en de bestuurder-rechtspersoon ontvangen uitsluitend de bestuurdersvergoeding van 2.000 euro.
 
-Bij de resultaatsbestemming wordt aan ieder van de bestuurders nog een tantième toegekend van 2.500 euro exclusief btw. 
+Bij de resultaatsbestemming wordt aan ieder van de bestuurders nog een tantième toegekend van 2.500 euro exclusief btw. 
 
 ### Boekingen bij de toekennende vennootschap
 
@@ -104,27 +104,27 @@ Bij de resultaatsbestemming wordt aan ieder van de bestuurders nog een tantième
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 618 | Bezoldigingen, premies voor buitenwettelijke 
-			verzekeringen, ouderdoms- en overlevingspensioenen 
-			van bestuurders, zaakvoerders en werkende vennoten | 6.000 |  |
-|  | 411 | Terug te vorderen BTW | 420 |  |
-| aan | 453 | Ingehouden voorheffingen |  | 1.032 |
-|  | 455 | Bezoldigingen | 5.388 |  |
+| | 618 | Bezoldigingen, premies voor buitenwettelijke 
+			verzekeringen, ouderdoms- en overlevingspensioenen 
+			van bestuurders, zaakvoerders en werkende vennoten | 6.000 | |
+| | 411 | Terug te vorderen BTW | 420 | |
+| aan | 453 | Ingehouden voorheffingen | | 1.032 |
+| | 455 | Bezoldigingen | 5.388 | |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6201 | Directiepersoneel | 60.000 |  |
-|  | 621 | Werkgeversbijdragen voor sociale verzekeringen | 19.458 |  |
-| aan | 453 | Ingehouden voorheffingen |  | 19.791 |
-|  | 454 | Rijksdienst voor Sociale Zekerheid | 27.300 |  |
-|  | 455 | Bezoldigingen | 32.367 |  |
+| | 6201 | Directiepersoneel | 60.000 | |
+| | 621 | Werkgeversbijdragen voor sociale verzekeringen | 19.458 | |
+| aan | 453 | Ingehouden voorheffingen | | 19.791 |
+| | 454 | Rijksdienst voor Sociale Zekerheid | 27.300 | |
+| | 455 | Bezoldigingen | 32.367 | |
 
 **Boekingen bij de resultaatververwerking**
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 695 | Bestuurders of zaakvoerders | 7.500 |  |
-| aan | 472 | Tantièmes over het boekjaar |  | 7.500 |
+| | 695 | Bestuurders of zaakvoerders | 7.500 | |
+| aan | 472 | Tantièmes over het boekjaar | | 7.500 |
 
 **Boekingen bij de algemene vergadering – ontvangst factuur - Uitbetaling tantième (volgend boekjaar)**
 
@@ -132,10 +132,10 @@ Bij de resultaatsbestemming wordt aan ieder van de bestuurders nog een tantième
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 472 | Tantièmes over het boekjaar | 7.500 |  |
-|  | 411 | Terug te vorderen BTW | 525 |  |
-| aan | 453 | Ingehouden voorheffingen |  | 1.308 |
-|  | 5500 | Bank: rekening-courant | 6.717 |  |
+| | 472 | Tantièmes over het boekjaar | 7.500 | |
+| | 411 | Terug te vorderen BTW | 525 | |
+| aan | 453 | Ingehouden voorheffingen | | 1.308 |
+| | 5500 | Bank: rekening-courant | 6.717 | |
 
 ### Boeking van de tantième bij de ontvangende bestuurder-rechtspersoon indien deze een dubbele boekhouding voert
 
@@ -145,11 +145,11 @@ Bij de resultaatsbestemming wordt aan ieder van de bestuurders nog een tantième
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 416 | Diverse vorderingen | 3.025 |  |
-| aan | 451 | Te betalen BTW |  | 525 |
-|  | 743 | Diverse bedrijfsopbrengsten | 2.500 |  |
+| | 416 | Diverse vorderingen | 3.025 | |
+| aan | 451 | Te betalen BTW | | 525 |
+| | 743 | Diverse bedrijfsopbrengsten | 2.500 | |
 
-**Onderhavig advies vervangt het advies 153/1 Werkende vennoten.**  
+**Onderhavig advies vervangt het advies 153/1 Werkende vennoten.** 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 31 mei 2016 ter consultatie werd gepubliceerd op de website van de CBN.
 

@@ -42,32 +42,32 @@ gerelateerde_adviezen:
 
 # CBN-advies 2020/02 – Afronding van betalingen in euro
 
-1.  Inleiding 
-  1.  Afronding van het te betalen bedrag tot 30 november 2019   
-  2.  Afronding van het te betalen bedrag vanaf 1 december 2019  
+1. Inleiding 
+  1. Afronding van het te betalen bedrag tot 30 november 2019 
+  2. Afronding van het te betalen bedrag vanaf 1 december 2019 
 
-2.  Boekhoudkundige verwerking 
-  1.  Eerste methode
+2. Boekhoudkundige verwerking 
+  1. Eerste methode
 
-  2.  Tweede methode
+  2. Tweede methode
 
 -- Tweede methode
 
 ## Inleiding
 
 Sedert 1 oktober 2014 biedt het Wetboek van economisch recht aan ondernemers de mogelijkheid om voor consumenten die het te betalen totaalbedrag in speciën betalen, vrijwillig een regeling in te voeren waarmee betalingen worden afgerond naar een bedrag dat een veelvoud is van vijf eurocent[^2]. Dit systeem werd echter tot tweemaal toe gewijzigd, namelijk door de wet van 18 december 2015[^3]
- en door die van 2 mei 2019[^4].
+ en door die van 2 mei 2019[^4].
 
 Ingevolge voornoemde wet van 18 december 2015[^5]
- werd het onderscheid tussen betalingen in speciën en andere betalingen dan in speciën afgeschaft.[^6]
- De afrondingsregeling werd tot 7 januari 2016 enkel op de betalingen in speciën[^7]
- toegepast en bijgevolg niet op andere betalingen dan in speciën. Vanaf 8 januari 2016 werd de afronding van toepassing op elke betaalwijze.[^8] De afrondingsregeling bleef echter altijd facultatief.
+ werd het onderscheid tussen betalingen in speciën en andere betalingen dan in speciën afgeschaft.[^6]
+ De afrondingsregeling werd tot 7 januari 2016 enkel op de betalingen in speciën[^7]
+ toegepast en bijgevolg niet op andere betalingen dan in speciën. Vanaf 8 januari 2016 werd de afronding van toepassing op elke betaalwijze.[^8] De afrondingsregeling bleef echter altijd facultatief.
 
 De wet van 2 mei 2019, die op 1 december 2019 in werking trad, bepaalt dat de voorheen nog facultatieve afrondingsregeling voor betalingen in speciën, verplicht gemaakt wordt. De ondernemingen hebben echter nog steeds de mogelijkheid om de afronding ook toe te passen op andere betalingen dan in speciën[^9], zoals bepaald in de wet van 18 december 2015[^10]. Indien de onderneming kiest om de afrondingsregeling ook toe te passen op andere betalingen dan in speciën, moet zij de regeling ook toepassen op alle andere betaalmethoden[^11].
 
 Het bedrag dat wordt afgerond is altijd het te betalen totaalbedrag en niet de samenstellende bestanddelen van dit bedrag[^12].
 
-### Afronding van het te betalen bedrag tot 30 november 2019 
+### Afronding van het te betalen bedrag tot 30 november 2019 
 
 Ingevolge de inwerkingtreding op 8 januari 2016 van de wet van 18 december 2015, kan elk bedrag worden afgerond, ongeacht het betaalmiddel dat werd gebruikt. De afronding gebeurt op het te betalen totaalbedrag.
 
@@ -79,9 +79,9 @@ Een klant koopt vier artikelen. Deze artikelen kosten respectievelijk 3,98 euro,
 
 Vanaf 1 december 2019 is elke onderneming verplicht de afrondingsregeling toe te passen op betalingen in speciën.
 
-*Voorbeeld 2*: Betaling in speciën 
+*Voorbeeld 2*: Betaling in speciën 
 
-Een klant koopt vier artikelen en betaalt in speciën. Deze artikelen kosten respectievelijk 4,27 euro, 3,06 euro, 10,56 euro en 2,67 euro. Het totaalbedrag bedraagt 20,56 euro. De onderneming moet het bedrag verplicht afronden. Het totaalbedrag na afronding bedraagt 20,55 euro. 
+Een klant koopt vier artikelen en betaalt in speciën. Deze artikelen kosten respectievelijk 4,27 euro, 3,06 euro, 10,56 euro en 2,67 euro. Het totaalbedrag bedraagt 20,56 euro. De onderneming moet het bedrag verplicht afronden. Het totaalbedrag na afronding bedraagt 20,55 euro. 
 
 Indien de klant opteert voor een andere betaling dan in speciën, kiest de onderneming zelf of ze de afrondingsregeling wel of niet toepast.
 
@@ -101,13 +101,13 @@ De Commissie is van mening dat het totale verschil tussen het totaalbedrag van d
 
 ### Eerste methode[^16] 
 
-Het bedrag dat de onderneming die een vereenvoudigde boekhouding voert, inschrijft in het verkoopdagboek is het bedrag dat de consument heeft betaald. De samenstellende bestanddelen die zijn vermeld op het uitgereikte document worden niet verder uitgesplitst in het verkoopdagboek. Indien er een afronding heeft plaatsgevonden zoals hiervoor wordt beschreven, zal de onderneming dit afrondingsverschil niet afzonderlijk boeken.
+Het bedrag dat de onderneming die een vereenvoudigde boekhouding voert, inschrijft in het verkoopdagboek is het bedrag dat de consument heeft betaald. De samenstellende bestanddelen die zijn vermeld op het uitgereikte document worden niet verder uitgesplitst in het verkoopdagboek. Indien er een afronding heeft plaatsgevonden zoals hiervoor wordt beschreven, zal de onderneming dit afrondingsverschil niet afzonderlijk boeken.
 
 *Voorbeeld 4*: Betaling in speciën
 
 Een klant koopt twee artikelen. Het eerste artikel kost 10,04[^17]
- euro. De prijs van het tweede artikel bedraagt 12,03[^18]
- euro. Het te betalen bedrag na afronding bedraagt 22,05 euro. De onderneming schrijft in het verkoopdagboek een opbrengst in van 22,05 euro.
+ euro. De prijs van het tweede artikel bedraagt 12,03[^18]
+ euro. Het te betalen bedrag na afronding bedraagt 22,05 euro. De onderneming schrijft in het verkoopdagboek een opbrengst in van 22,05 euro.
 
 ### Tweede methode[^19] 
 
@@ -121,10 +121,10 @@ Ondernemingen die deze methode hanteren, dienen deze verrichting als volgt te bo
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 570 | Kassen-contanten | 22,05 |  |
-|  | 700 | Verkopen en dienstprestaties | 0,02 |  |
-| aan | 700 | Verkopen en dienstprestaties |  | 19,41 |
-|  | 451 | Te betalen btw | 2,66 |  |
+| | 570 | Kassen-contanten | 22,05 | |
+| | 700 | Verkopen en dienstprestaties | 0,02 | |
+| aan | 700 | Verkopen en dienstprestaties | | 19,41 |
+| | 451 | Te betalen btw | 2,66 | |
 
 CBN-advies 2014/9 inzake de afronding van betalingen in euro wordt door de Commissie opgeheven bij het uitbrengen van onderhavig advies.
 

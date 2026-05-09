@@ -36,70 +36,70 @@ provenance:
 
 # CBN-advies 2009/9 - Boekhoudkundige gevolgen van de aanvaardingsplicht inzake afgedankte elektrische en elektronische apparaten
 
-CBN-advies 2009/9 - Boekhoudkundige gevolgen van de aanvaardingsplicht inzake afgedankte elektrische en elektronische apparaten  
+CBN-advies 2009/9 - Boekhoudkundige gevolgen van de aanvaardingsplicht inzake afgedankte elektrische en elektronische apparaten 
 
-1.  OVERZICHT RELEVANTE WETGEVING 
-  1.  De Europese richtlijn  
-  2.  De Belgische regionale wetgeving 
-    1.  Het Vlaamse Gewest  
-    2.  Het Waalse Gewest  
-    3.  Het Brussels Hoofdstedelijk Gewest  
+1. OVERZICHT RELEVANTE WETGEVING 
+  1. De Europese richtlijn 
+  2. De Belgische regionale wetgeving 
+    1. Het Vlaamse Gewest 
+    2. Het Waalse Gewest 
+    3. Het Brussels Hoofdstedelijk Gewest 
 
-  3.  De ‘milieubeleidsovereenkomsten’ in het Vlaamse Gewest en de ‘milieuovereenkomsten’ in het Waalse en Brussels Hoofdstedelijk Gewest 
-    1.  Wetgeving  
-    2.  Doelstellingen  
-    3.  Beheersorganisme(n)  
+  3. De ‘milieubeleidsovereenkomsten’ in het Vlaamse Gewest en de ‘milieuovereenkomsten’ in het Waalse en Brussels Hoofdstedelijk Gewest 
+    1. Wetgeving 
+    2. Doelstellingen 
+    3. Beheersorganisme(n) 
 
-2.  HET VERVULLEN VAN DE AANVAARDINGSPLICHT DOOR INVOERDERS/PRODUCENTEN VAN AFGEDANKTE ELEKTRISCHE EN ELEKTRONISCHE APPARATUUR (AEEA): ANALYSE SYSTEEM 
-  1.  Collectief of individueel  
-  2.  Recupelbijdrage 
-    1.  Bepaling bedrag van de Recupelbijdrage in het Vlaamse Gewest  
-    2.  Bepaling bedrag van de Recupelbijdrage in het Waalse Gewest  
-    3.  Bepaling bedrag van de Recupelbijdrage in het Brussels Hoofdstedelijk Gewest  
+2. HET VERVULLEN VAN DE AANVAARDINGSPLICHT DOOR INVOERDERS/PRODUCENTEN VAN AFGEDANKTE ELEKTRISCHE EN ELEKTRONISCHE APPARATUUR (AEEA): ANALYSE SYSTEEM 
+  1. Collectief of individueel 
+  2. Recupelbijdrage 
+    1. Bepaling bedrag van de Recupelbijdrage in het Vlaamse Gewest 
+    2. Bepaling bedrag van de Recupelbijdrage in het Waalse Gewest 
+    3. Bepaling bedrag van de Recupelbijdrage in het Brussels Hoofdstedelijk Gewest 
 
-  3.  Vermelding van de Recupelbijdrage bij het op de markt brengen     van huishoudelijke en professionele EEA
+  3. Vermelding van de Recupelbijdrage bij het op de markt brengen van huishoudelijke en professionele EEA
 
-    1.  Het Vlaamse Gewest  
-    2.  Het Waalse Gewest  
-    3.  Het Brussels Hoofdstedelijk Gewest  
+    1. Het Vlaamse Gewest 
+    2. Het Waalse Gewest 
+    3. Het Brussels Hoofdstedelijk Gewest 
 
-  4.  Onderscheid tussen 2 types Recupelbijdragen 
-    1.  De all-in bijdrage (voor huishoudelijke EEA)  
-    2.  De administratieve bijdrage (voor niet-huishoudelijke EEA)  
+  4. Onderscheid tussen 2 types Recupelbijdragen 
+    1. De all-in bijdrage (voor huishoudelijke EEA) 
+    2. De administratieve bijdrage (voor niet-huishoudelijke EEA) 
 
-  5.  Aangifte  
-  6.  Facturatie op basis van de aangifte  
-  7.  Mogelijkheid tot navordering  
-  8.  Controle 
-    1.  Het Vlaamse Gewest  
-    2.  Het Waalse Gewest  
-    3.  Het Brussels Hoofdstedelijk Gewest  
+  5. Aangifte 
+  6. Facturatie op basis van de aangifte 
+  7. Mogelijkheid tot navordering 
+  8. Controle 
+    1. Het Vlaamse Gewest 
+    2. Het Waalse Gewest 
+    3. Het Brussels Hoofdstedelijk Gewest 
 
-3.  BOEKHOUDKUNDIGE GEVOLGEN VAN DE AANVAARDINGSPLICHT 
-  1.  Inleiding  
-  2.  Relevante wetgeving 
-    1.  K.B. 30 januari 2001 (Uitvoeringsbesluit W.Venn., hierna K.B. W.Venn.
-genoemd)  
-    2.  Relevante adviezen Commissie voor Boekhoudkundige Normen  
-    3.  IFRS/IAS  
-    4.  Interpretatieve mededeling van de Europese Commissie, 98/C 16/04
+3. BOEKHOUDKUNDIGE GEVOLGEN VAN DE AANVAARDINGSPLICHT 
+  1. Inleiding 
+  2. Relevante wetgeving 
+    1. K.B. 30 januari 2001 (Uitvoeringsbesluit W.Venn., hierna K.B. W.Venn.
+genoemd) 
+    2. Relevante adviezen Commissie voor Boekhoudkundige Normen 
+    3. IFRS/IAS 
+    4. Interpretatieve mededeling van de Europese Commissie, 98/C 16/04
 
-    5.  Relevante rechtspraak  
+    5. Relevante rechtspraak 
 
-  3.  Boekhoudkundige verwerking bij de producent/invoerder 
-    1.  Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van huishoudelijke EEA.    
-    2.  Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht uiterlijk op 13 augustus 2005  
-    3.  Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht na 13 augustus 2005  
+  3. Boekhoudkundige verwerking bij de producent/invoerder 
+    1. Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van huishoudelijke EEA. 
+    2. Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht uiterlijk op 13 augustus 2005 
+    3. Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht na 13 augustus 2005 
 
-  4.  Boekhoudkundige verwerking bij de sectorbeheersorganismen 
-    1.  Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor huishoudelijke AEEA  
-    2.  Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor professionele AEEA op de markt gebracht uiterlijk op en na 13 augustus 2005  
+  4. Boekhoudkundige verwerking bij de sectorbeheersorganismen 
+    1. Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor huishoudelijke AEEA 
+    2. Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor professionele AEEA op de markt gebracht uiterlijk op en na 13 augustus 2005 
 
-  5.  Boekhoudkundige verwerking in hoofde van de distributieondernemingen  
+  5. Boekhoudkundige verwerking in hoofde van de distributieondernemingen 
 
 ---- Het Vlaamse Gewest---- Het Waalse Gewest---- Het Brussels Hoofdstedelijk Gewest-- Onderscheid tussen 2 types Recupelbijdragen---- De all-in bijdrage (voor huishoudelijke EEA)---- De administratieve bijdrage (voor niet-huishoudelijke EEA)-- Aangifte-- Facturatie op basis van de aangifte-- Mogelijkheid tot navordering-- Controle---- Het Vlaamse Gewest---- Het Waalse Gewest---- Het Brussels Hoofdstedelijk GewestBOEKHOUDKUNDIGE GEVOLGEN VAN DE AANVAARDINGSPLICHT-- Inleiding-- Relevante wetgeving---- K.B. 30 januari 2001 (Uitvoeringsbesluit W.Venn., hierna K.B. W.Venn.
 genoemd)---- Relevante adviezen Commissie voor Boekhoudkundige Normen---- IFRS/IAS---- Interpretatieve mededeling van de Europese Commissie, 98/C 16/04
----- Relevante rechtspraak-- Boekhoudkundige verwerking bij de producent/invoerder---- Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van huishoudelijke EEA.  ---- Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht uiterlijk op 13 augustus 2005---- Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht na 13 augustus 2005-- Boekhoudkundige verwerking bij de sectorbeheersorganismen---- Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor huishoudelijke AEEA---- Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor professionele AEEA op de markt gebracht uiterlijk op en na 13 augustus 2005-- Boekhoudkundige verwerking in hoofde van de distributieondernemingen
+---- Relevante rechtspraak-- Boekhoudkundige verwerking bij de producent/invoerder---- Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van huishoudelijke EEA. ---- Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht uiterlijk op 13 augustus 2005---- Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht na 13 augustus 2005-- Boekhoudkundige verwerking bij de sectorbeheersorganismen---- Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor huishoudelijke AEEA---- Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor professionele AEEA op de markt gebracht uiterlijk op en na 13 augustus 2005-- Boekhoudkundige verwerking in hoofde van de distributieondernemingen
 
 ## OVERZICHT RELEVANTE WETGEVING
 
@@ -107,7 +107,7 @@ genoemd)---- Relevante adviezen Commissie voor Boekhoudkundige Normen---- IFRS/I
 
 De Richtlijn 2002/96/EG van het Europees Parlement en de Raad betreffende afgedankte elektrische en elektronische apparaten (AEEA[^1]), zijnde de “WEEE[^2] Richtlijn”, werd aangenomen op 27 januari 2003[^3], tevens de dag van de inwerkingtreding. De WEEE Richtlijn werd kort nadien gewijzigd door de Richtlijn 2003/108/EG[^4] voor wat de financiering van AEEA van andere dan particuliere huishoudens[^5] betreft.
 
-De richtlijn is van toepassing op de elektrische en elektronische apparatuur die onder de in bijlage bij de richtlijn opgenomen categorieën vallen. De categorieën betreffen:  
+De richtlijn is van toepassing op de elektrische en elektronische apparatuur die onder de in bijlage bij de richtlijn opgenomen categorieën vallen. De categorieën betreffen: 
 
 1. Grote huishoudelijke apparaten; 
 2. Kleine huishoudelijke apparaten; 
@@ -129,13 +129,13 @@ De WEEE Richtlijn maakt het onderscheid tussen:
 
 Samenvattend wordt in volgende tabel weergegeven wie de kosten verbonden met de verwerking van AEEA van particuliere huishoudens en AEEA van andere gebruikers dan particuliere huishoudens draagt.
 
-|   | | **AEEA van particuliere huishoudens** | | **AEEA van andere dan particuliere huishoudens** | 
-| Op de markt gebracht uiterlijk op 13.08.2005 | | De verantwoordelijkheid voor de financiering van de kosten voor het beheer van AEEA berust bij een of meer systemen waaraan alle producenten die op de markt aanwezig zijn op het tijdstip waarop de betrokken kosten ontstaan, naar evenredigheid bijdragen, bijvoorbeeld naar evenredigheid van hun marktaandeel voor de betrokken apparatuur (art. 8, WEEE Richtlijn). | | Indien de AEEA worden vervangen door nieuwe gelijkwaardige producten of door nieuwe producten met dezelfde functie worden de kosten gedragen door de producenten van deze producten (art. 9, WEEE Richtlijn).  
+| | | **AEEA van particuliere huishoudens** | | **AEEA van andere dan particuliere huishoudens** | 
+| Op de markt gebracht uiterlijk op 13.08.2005 | | De verantwoordelijkheid voor de financiering van de kosten voor het beheer van AEEA berust bij een of meer systemen waaraan alle producenten die op de markt aanwezig zijn op het tijdstip waarop de betrokken kosten ontstaan, naar evenredigheid bijdragen, bijvoorbeeld naar evenredigheid van hun marktaandeel voor de betrokken apparatuur (art. 8, WEEE Richtlijn). | | Indien de AEEA worden vervangen door nieuwe gelijkwaardige producten of door nieuwe producten met dezelfde functie worden de kosten gedragen door de producenten van deze producten (art. 9, WEEE Richtlijn). 
 
-			Worden de AEEA niet vervangen, dan worden de kosten gedragen door de gebruikers[^6] (art. 9, 1, WEEE Richtlijn).  
+			Worden de AEEA niet vervangen, dan worden de kosten gedragen door de gebruikers[^6] (art. 9, 1, WEEE Richtlijn). 
 
 			Producenten en andere gebruikers dan particuliere huishoudens kunnen onverminderd de bepalingen van deze richtlijn andere financieringsregelingen overeenkomen (art. 9, 2, WEEE Richtlijn). | 
-| Op de markt gebracht na 13.08.2005 | | De producenten voorzien in de financiering van de inzameling, verwerking, nuttige toepassing en milieuhygiënisch verantwoorde verwijdering van hun eigen AEEA. Hij kan kiezen tussen collectieve en individuele regelingen (art. 8, WEEE Richtlijn).     | | De producenten voorzien in de financiering van de inzameling, verwerking, nuttige toepassing en milieuhygiënisch verantwoorde verwijdering van de AEEA (art. 9, 1, WEEE Richtlijn).  
+| Op de markt gebracht na 13.08.2005 | | De producenten voorzien in de financiering van de inzameling, verwerking, nuttige toepassing en milieuhygiënisch verantwoorde verwijdering van hun eigen AEEA. Hij kan kiezen tussen collectieve en individuele regelingen (art. 8, WEEE Richtlijn). | | De producenten voorzien in de financiering van de inzameling, verwerking, nuttige toepassing en milieuhygiënisch verantwoorde verwijdering van de AEEA (art. 9, 1, WEEE Richtlijn). 
 
 			Producenten en andere gebruikers dan particuliere huishoudens kunnen onverminderd de bepalingen van deze richtlijn andere financieringsregelingen overeenkomen (art. 9, 2, WEEE Richtlijn). | 
 
@@ -152,7 +152,7 @@ In artikel 3 van het afvalstoffendecreet worden de termen huishoudelijke afvalst
 Het uitvoeringsbesluit bij dit decreet, “Vlarea[^10]
 ", maakt de invoerders/producenten, de tussenhandelaars en de eindverkopers gezamenlijk verantwoordelijk voor de aanvaarding, de ontmanteling en de verwerking van o.a. AEEA (Vlarea I, Besluit Vlaamse Regering 17 december 1997[^11]). Dit uitvoeringsbesluit werd intussen opgeheven en vervangen door Vlarea II (Besluit van de Vlaamse Regering 5 december 2003[^12]), dat van kracht werd op 1 juni 2004[^13].
 
-In Vlarea II wordt de aanvaardingsplicht met betrekking tot AEEA specifiek behandeld in Hoofdstuk III, Afdeling V van het besluit. Er worden net zoals in de Europese richtlijn verschillende categorieën van EEA[^14] onderscheiden[^15]:  
+In Vlarea II wordt de aanvaardingsplicht met betrekking tot AEEA specifiek behandeld in Hoofdstuk III, Afdeling V van het besluit. Er worden net zoals in de Europese richtlijn verschillende categorieën van EEA[^14] onderscheiden[^15]: 
 
 1° Huishoudelijke en vergelijkbare apparaten:
 
@@ -204,15 +204,15 @@ De wijze waarop aan de aanvaardingsplicht wordt voldaan wordt overeenkomstig art
 
 Hierna wordt weergegeven wie de financieringskost draagt van de aanvaardingsplicht voor huishoudelijke AEEA en professionele AEEA.
 
-Voor wat de huishoudelijke EEA betreft die vanaf 1 juli 2001[^25] werden op de markt gebracht is elke producent verantwoordelijk voor de financiering van zijn aanvaardingsplicht. De producent kan voor de organisatie van die financiering kiezen tussen de eerder beschreven collectieve regeling en een individuele regeling. De producenten, wanneer zij een product op de markt brengen, stellen een waarborg waaruit blijkt dat het beheer van de AEEA zal worden gefinancierd. De waarborg heeft betrekking op de financiering van de inzameling en verwerking voor dit product. Het kan de vorm hebben van een recyclingverzekering, geblokkeerde bankrekening of deelneming van de producent aan passende financiële regelingen voor de financiering van het beheer van afgedankte elektrische en elektronische apparatuur (art. 3.5.1*bis*,  § 1, 1°, a) en c), Vlarea II).  
+Voor wat de huishoudelijke EEA betreft die vanaf 1 juli 2001[^25] werden op de markt gebracht is elke producent verantwoordelijk voor de financiering van zijn aanvaardingsplicht. De producent kan voor de organisatie van die financiering kiezen tussen de eerder beschreven collectieve regeling en een individuele regeling. De producenten, wanneer zij een product op de markt brengen, stellen een waarborg waaruit blijkt dat het beheer van de AEEA zal worden gefinancierd. De waarborg heeft betrekking op de financiering van de inzameling en verwerking voor dit product. Het kan de vorm hebben van een recyclingverzekering, geblokkeerde bankrekening of deelneming van de producent aan passende financiële regelingen voor de financiering van het beheer van afgedankte elektrische en elektronische apparatuur (art. 3.5.1*bis*, § 1, 1°, a) en c), Vlarea II). 
 
 De verantwoordelijkheid voor de financiering van de kosten voor het beheer[^26] van huishoudelijke AEEA afkomstig van apparatuur vóór 1 juli 2001 op de markt gebracht, berust bij een of meer systemen waaraan alle producenten die op de markt aanwezig zijn op het tijdstip waarop de betrokken kosten ontstaan, naar evenredigheid van hun marktaandeel voor de betrokken apparatuur bijdragen (art. 3.5.1*bis*, § 1, 1°, b), Vlarea II)[^27].
 
 Voor wat de professionele AEEA betreft kan hetzelfde onderscheid worden gemaakt zoals in de WEEE Richtlijn (historical waste versus new waste).
 
-|   | | **Professionele AEEA** | 
+| | | **Professionele AEEA** | 
 | Op de markt gebracht uiterlijk op 13.08.2005 | | Voor de historische voorraad die wordt vervangen door nieuwe, gelijkaardige producten met dezelfde functie worden de kosten gedragen door de producenten van die nieuwe professionele EEA op het moment dat ze worden geleverd. Voor andere historische voorraad worden de kosten gedragen door de andere gebruikers dan particuliere huishoudens[^28] (art. 3.5.1*bis*, § 1, 2°, b), Vlarea II). | 
-| Op de markt gebracht na 13.08.2005 | | Elke producent is verantwoordelijk voor de financiering van de inzameling en de verwerking van de professionele AEEA (art. 3.5.1*bis,*  § 1, 2°, a), Vlarea II). | 
+| Op de markt gebracht na 13.08.2005 | | Elke producent is verantwoordelijk voor de financiering van de inzameling en de verwerking van de professionele AEEA (art. 3.5.1*bis,* § 1, 2°, a), Vlarea II). | 
 
 #### Het Waalse Gewest
 
@@ -220,7 +220,7 @@ In het Waalse Gewest is de aanvaardingsplicht voor AEEA gebaseerd op het Decreet
 
 Luidens art. 8bis, § 1 tot en met § 6 van het Decreet van 27 juni 1996, kan de regering de producenten een terugnameplicht opleggen voor goederen of afvalstoffen uit commercialisering of uit het gebruik voor eigen behoefte van goederen, grondstoffen of producten met het oog op de preventie, het hergebruik, de recycling, de nuttige toepassing en/of een aangepast beheer van die goederen of afvalstoffen en op de internalisering van het geheel of van een deel van de beheerskosten.
 
-Onder terugnameplicht wordt verstaan de verplichting afvalpreventiemaatregelen te nemen en de onder de terugnameplicht vallende goederen of afvalstoffen terug te nemen, in te zamelen, te hergebruiken, te valoriseren, weg te werken of al deze handelingen te laten uitvoeren. Ze houdt de dekking van de desbetreffende kosten in, met inbegrip van de financiering van de kost van de audits en van de financiële controles opgelegd door de regering.  
+Onder terugnameplicht wordt verstaan de verplichting afvalpreventiemaatregelen te nemen en de onder de terugnameplicht vallende goederen of afvalstoffen terug te nemen, in te zamelen, te hergebruiken, te valoriseren, weg te werken of al deze handelingen te laten uitvoeren. Ze houdt de dekking van de desbetreffende kosten in, met inbegrip van de financiering van de kost van de audits en van de financiële controles opgelegd door de regering. 
 
 De regering bepaalt welke goederen of afvalstoffen onder de terugnameplicht vallen.
 
@@ -232,30 +232,30 @@ Artikel 4 van het uitvoeringsbesluit zegt dat, om de terugnameplicht na te komen
 - ofwel een beroep doen op een erkende instelling om aan de terugname plicht te voldoen[^33]; 
 - ofwel met het Waalse Gewest een milieuovereenkomst sluiten waarin bijzondere modaliteiten voor de uitvoering en ten uitvoer leggen van hun verplichtingen vastliggen[^34]. Door het afsluiten van een milieuovereenkomst drukken de producenten/invoerders de wens uit om hun terugnameplicht na te komen volgens de modaliteiten die ze het meest geschikt achten gezien de specificiteit van de afvalstoffen, zoals het geval is bij AEEA. 
 
-Art. 65 van het uitvoeringsbesluit stelt in § 1 dat de *detailhandelaar* al het door de consument ingeleverde afval van huishoudelijke AEEA gratis moet terugnemen indien de consument een gelijkaardig toestel (d.i. een toestel met dezelfde functies) aankoopt.    
+Art. 65 van het uitvoeringsbesluit stelt in § 1 dat de *detailhandelaar* al het door de consument ingeleverde afval van huishoudelijke AEEA gratis moet terugnemen indien de consument een gelijkaardig toestel (d.i. een toestel met dezelfde functies) aankoopt. 
 
-De *verdeler* moet alle in ontvangst genomen huishoudelijke AEEA op eigen kosten, en op regelmatige basis terugnemen bij de detailhandelaars en inleveren bij de producent of invoerder.  
+De *verdeler* moet alle in ontvangst genomen huishoudelijke AEEA op eigen kosten, en op regelmatige basis terugnemen bij de detailhandelaars en inleveren bij de producent of invoerder. 
 
 De *producent* of *invoerder* (of de derde die in hun naam handelt) moet al het aangenomen huishoudelijke AEEA op eigen kosten en regelmatig inzamelen bij de verdelers of detailhandelaars en laten verwerken[^35] in een daartoe vergunde inrichting.
 
 De omzetting van de Europese richtlijn inzake de financiering van AEEA is terug te vinden in art. 65bis, § 1 en 2, Besluit van de Waalse Regering 25 april 2002.
 
-Samenvattend wordt in volgende tabel weergegeven wie de kosten verbonden met de verwerking van huishoudelijke en professionele AEEA draagt (tabel opgesteld op basis van het Decreet 27 juni 1996 en het Uitvoeringsbesluit 25 april 2002).  
+Samenvattend wordt in volgende tabel weergegeven wie de kosten verbonden met de verwerking van huishoudelijke en professionele AEEA draagt (tabel opgesteld op basis van het Decreet 27 juni 1996 en het Uitvoeringsbesluit 25 april 2002). 
 
-|   | | **Afval[^36] van huishoudelijke EEA** | | **Professionele AEEA** | 
-| *Op de markt gebracht uiterlijk op 13.08.2005* | | Indien de producent kan worden geïdentificeerd draagt hij de kosten van verwerking van de AEEA (art. 65, § 1).  
+| | | **Afval[^36] van huishoudelijke EEA** | | **Professionele AEEA** | 
+| *Op de markt gebracht uiterlijk op 13.08.2005* | | Indien de producent kan worden geïdentificeerd draagt hij de kosten van verwerking van de AEEA (art. 65, § 1). 
 
-			Indien de producent van het AEEA niet kan worden geïdentificeerd, dragen de producenten gezamenlijk de kosten naar rata van de hoeveelheden die ze op de markt brengen[^37] (art. 65, § 2).     | | De producenten voorzien in de financiering van de inzameling, verwerking, valorisatie en milieuhygiënisch verantwoorde verwijdering (art 65*bis*, § 1). | 
-| *Op de markt gebracht na 13.08.2005* | | De producenten voorzien in de financiering van de inzameling, verwerking, valorisatie en milieuhygiënisch verantwoorde verwijdering (art 65*bis*, § 1).  
+			Indien de producent van het AEEA niet kan worden geïdentificeerd, dragen de producenten gezamenlijk de kosten naar rata van de hoeveelheden die ze op de markt brengen[^37] (art. 65, § 2). | | De producenten voorzien in de financiering van de inzameling, verwerking, valorisatie en milieuhygiënisch verantwoorde verwijdering (art 65*bis*, § 1). | 
+| *Op de markt gebracht na 13.08.2005* | | De producenten voorzien in de financiering van de inzameling, verwerking, valorisatie en milieuhygiënisch verantwoorde verwijdering (art 65*bis*, § 1). 
 
-			De kosten voor het beheer[^38] van de afval van EEA worden gedragen door:  
+			De kosten voor het beheer[^38] van de afval van EEA worden gedragen door: 
 
 - de producent/invoerder of een derde als zij wordt vervangen door een gelijkaardig product of door een product met dezelfde functies; 
 - de gebruiker in de andere gevallen. 
 
- | | De producenten voorzien in de financiering van de inzameling, verwerking, valorisatie en milieuhygiënisch verantwoorde verwijdering (art. 65*bis*, § 1).  
+ | | De producenten voorzien in de financiering van de inzameling, verwerking, valorisatie en milieuhygiënisch verantwoorde verwijdering (art. 65*bis*, § 1). 
 
-			De kosten voor het beheer[^39] van de afval van EEA worden gedragen door:  
+			De kosten voor het beheer[^39] van de afval van EEA worden gedragen door: 
 
 - de producent/invoerder of een derde als zij wordt vervangen door een gelijkaardig product of door een product met dezelfde functies; 
 - de gebruiker in de andere gevallen. 
@@ -268,14 +268,14 @@ Producenten, invoerders of derden die in hun naam handelen en andere gebruikers 
 
 In het Brussels Hoofdstedelijke Gewest berust de juridische basis op de Ordonnantie van de Brusselse Hoofdstedelijke Raad van 7 maart 1991 betreffende de preventie en het beheer van afvalstoffen (*B.S.* 23 april 1991) en uitgewerkt in het Besluit van de Brusselse Hoofdstedelijke Regering van 18 juli 2002 tot invoering van een terugnameplicht voor sommige afvalstoffen met het oog op hun nuttige toepassing of hun verwijdering (*B.S.* 27 september 2002), zoals laatst gewijzigd door het Besluit van de Brusselse Hoofdstedelijke Regering van 23 oktober 2008 (*B.S.* 28 november 2008).
 
-Artikel 3 van eerder vermeld uitvoeringsbesluit stelt dat met het oog op de terugnameplicht:  
+Artikel 3 van eerder vermeld uitvoeringsbesluit stelt dat met het oog op de terugnameplicht: 
 
 - de *kleinhandelaar* van de consument elk AEEA[^40]
- kosteloos moet terugnemen, op voorwaarde dat deze consument zich een vervangproduct aanschaft of zich aangeschaft had binnen maximum dertig kalenderdagen daarvoor bij die kleinhandelaar)[^41]; 
+ kosteloos moet terugnemen, op voorwaarde dat deze consument zich een vervangproduct aanschaft of zich aangeschaft had binnen maximum dertig kalenderdagen daarvoor bij die kleinhandelaar)[^41]; 
 - de *verdeler* op eigen kosten, regelmatig en ter plaatse, bij de kleinhandelaars alle in ontvangst genomen afvalstoffen moet terugnemen en ze bij de producent/invoerder moet inleveren; 
 - de *producent/invoerder[^42] * regelmatig en op eigen kosten bij de verdelers of bij ontstentenis, bij de kleinhandelaars, alle aanvaarde afvalstoffen moet inzamelen en ze in een hiertoe vergunde inrichting moet laten verwerken. 
 
-Teneinde hun terugnameplicht na te komen, kunnen de producenten of de invoerders:  
+Teneinde hun terugnameplicht na te komen, kunnen de producenten of de invoerders: 
 
 - ofwel de terugnameplicht persoonlijk uitvoeren[^43]; 
 - of een beroep doen op een erkende organisatie om aan de terugnameplicht te voldoen[^44]; 
@@ -283,16 +283,16 @@ Teneinde hun terugnameplicht na te komen, kunnen de producenten of de invoerders
 
 De omzetting van de Europese richtlijn inzake de financiering van AEEA is terug te vinden in art. 35, § 1, Besluit van de Brusselse Hoofdstedelijke Regering 18 juli 2002.
 
-Samenvattend wordt in volgende tabel weergegeven wie de kosten verbonden met de verwerking van huishoudelijke en professionele AEEA draagt (tabel opgesteld op basis van het Ordonnantie van de Brusselse Hoofdstedelijke Raad van 7 maart 1991 en het Uitvoeringsbesluit 18 juli 2002).  
+Samenvattend wordt in volgende tabel weergegeven wie de kosten verbonden met de verwerking van huishoudelijke en professionele AEEA draagt (tabel opgesteld op basis van het Ordonnantie van de Brusselse Hoofdstedelijke Raad van 7 maart 1991 en het Uitvoeringsbesluit 18 juli 2002). 
 
-|   | | **Huishoudelijke EEA** | | **Professionele AEEA** | 
-| Op de markt gebracht uiterlijk op 13.08.2005 | | Het beheer berust bij één of meer systemen waaraan alle producenten die op de markt aanwezig zijn op het tijdstip waarop de betrokken kosten ontstaat, naar evenredigheid van hun marktaandeel voor de betrokken apparatuur bijdragen (art. 35, Besluit 18 juli 2002). | | De beheerskosten worden verzekerd:  
+| | | **Huishoudelijke EEA** | | **Professionele AEEA** | 
+| Op de markt gebracht uiterlijk op 13.08.2005 | | Het beheer berust bij één of meer systemen waaraan alle producenten die op de markt aanwezig zijn op het tijdstip waarop de betrokken kosten ontstaat, naar evenredigheid van hun marktaandeel voor de betrokken apparatuur bijdragen (art. 35, Besluit 18 juli 2002). | | De beheerskosten worden verzekerd: 
 
 - door de producent/invoerder of derde wanneer de AEEA door een gelijkwaardig product of een product met dezelfde functies vervangen wordt[^47]; 
 - door de gebruiker in de andere gevallen (art. 35*ter*, Besluit 18 juli 2002). 
 
  | 
-| Op de markt gebracht na 13.08.2005 | | De producent is verantwoordelijk voor de financiering van de inzameling vanaf de containerparken, de verdelers of de kleinhandelaars en voor de financiering van de verwerking van het afval van zijn eigen producten. Hij  kan voor de organisatie van de financiering kiezen tussen collectieve en individuele regelingen (art. 35, Besluit 18 juli 2002). | | De producent is verantwoordelijk voor de beheerskosten (art. 35*ter*, Besluit 18 juli 2002). | 
+| Op de markt gebracht na 13.08.2005 | | De producent is verantwoordelijk voor de financiering van de inzameling vanaf de containerparken, de verdelers of de kleinhandelaars en voor de financiering van de verwerking van het afval van zijn eigen producten. Hij kan voor de organisatie van de financiering kiezen tussen collectieve en individuele regelingen (art. 35, Besluit 18 juli 2002). | | De producent is verantwoordelijk voor de beheerskosten (art. 35*ter*, Besluit 18 juli 2002). | 
 
 Producenten, invoerders of derden die in hun naam handelen en andere gebruikers dan particuliere huishoudens kunnen andere financieringsregelingen overeenkomen.
 
@@ -306,7 +306,7 @@ De definitie alsook de wijze waarop dergelijke overeenkomsten worden opgemaakt e
 
 Het Afvalstoffendecreet van het *Waalse Gewest* van 27 juni 1996 vermeldt in art. 8bis, § 3 dat om de terugnameplicht na te komen een milieuovereenkomsten kan worden uitgevoerd. De definitie en de wijze waarop deze overeenkomsten worden opgemaakt en bekendgemaakt worden behandeld in art. D82 e.v. van Boek I van het Milieuwetboek[^48]..
 
-Wat het *Brussels Hoofdstedelijk Gewest* betreft voorziet art. 10,  § 3 van de Ordonnantie van 7 maart 1991 betreffende de preventie en het beheer van afvalstoffen (*B.S.* 23 april 1991) in het gebruik van milieuovereenkomsten. De bepalingen inzake de milieuovereenkomsten zelf worden geregeld door de Ordonnantie van 29 april 2004.
+Wat het *Brussels Hoofdstedelijk Gewest* betreft voorziet art. 10, § 3 van de Ordonnantie van 7 maart 1991 betreffende de preventie en het beheer van afvalstoffen (*B.S.* 23 april 1991) in het gebruik van milieuovereenkomsten. De bepalingen inzake de milieuovereenkomsten zelf worden geregeld door de Ordonnantie van 29 april 2004.
 
 #### Doelstellingen
 
@@ -314,7 +314,7 @@ Een milieubeleidsovereenkomst (MBO) is een overeenkomst tussen een regionale ove
 
 De milieuovereenkomst is een rechtsinstrument om de algemene basisregels alsook de beoogde doelstellingen inzake de aanvaardingsplicht vast te stellen in meer specifieke, aanvullende regels. Het betreft met andere woorden een beleidsinstrument waarmee de overheid in samenwerking met de beroepsorganisaties en hun leden bepaalde milieudoelstellingen trachten te bereiken.
 
-Vooral inzake afvalstoffen werden reeds heel wat milieuovereenkomsten afgesloten. Begin 2001 hebben de drie regionale overheden en de federaties, vertegenwoordigers van invoerders en producenten, milieuovereenkomsten afgesloten voor de implementatie van éénzelfde terugnamesysteem voor AEEA van huishoudelijke oorsprong:  
+Vooral inzake afvalstoffen werden reeds heel wat milieuovereenkomsten afgesloten. Begin 2001 hebben de drie regionale overheden en de federaties, vertegenwoordigers van invoerders en producenten, milieuovereenkomsten afgesloten voor de implementatie van éénzelfde terugnamesysteem voor AEEA van huishoudelijke oorsprong: 
 
 - het Vlaamse Gewest (MBO, 26 januari 2001), 
 - het Waalse Gewest (CE, 19 februari 2001), en 
@@ -324,7 +324,7 @@ Deze overeenkomsten hebben een geldigheidstermijn van 5 jaar.
 
 De eerste Vlaamse MBO trad in werking op 10 juni 2001 en eindigde op 10 juni 2006. Pas twee jaar later, op 4 juli 2008 werd voor AEEA het ontwerp van een nieuwe milieubeleidsovereenkomst principieel goedgekeurd door de Vlaamse regering, doch deze nieuwe overeenkomst werd nog niet gepubliceerd in het Belgisch Staatsblad. De onderhandelingen daartoe verliepen moeizaam waardoor er op 8 juni 2006 een overgangsperiode door OVAM (*cf.* infra) werd goedgekeurd, om de rechtsonzekerheid in de overgangsperiode tussen de oude MBO en de nieuwe maximaal te beperken. De nieuwe MBO bouwt voort op de afspraken uit het verleden, maar bevat evenwel aangepaste afspraken voor de inzameling en verwerking alsook de financiering van huishoudelijke AEEA enerzijds en professionele AEEA anderzijds.
 
-De Openbare Afvalstoffenmaatschappij voor het Vlaamse Gewest (OVAM) werd opgericht bij Decreet van 2 juli 1981 (inzonderheid hoofdstuk IV). Bij decreet van 7 mei 2004 werd de OVAM omgevormd tot een intern verzelfstandigd agentschap met rechtspersoonlijkheid (IVA[^49]): de *Openbare Vlaamse Afvalstoffenmaatschappij* (OVAM). Dit decreet is in werking getreden op 1 april 2006. Het Vlaamse afvalbeleid wordt gedragen door de Vlaamse minister van Leefmilieu. De OVAM staat in voor de voorbereiding en de uitvoering van dit beleid.  
+De Openbare Afvalstoffenmaatschappij voor het Vlaamse Gewest (OVAM) werd opgericht bij Decreet van 2 juli 1981 (inzonderheid hoofdstuk IV). Bij decreet van 7 mei 2004 werd de OVAM omgevormd tot een intern verzelfstandigd agentschap met rechtspersoonlijkheid (IVA[^49]): de *Openbare Vlaamse Afvalstoffenmaatschappij* (OVAM). Dit decreet is in werking getreden op 1 april 2006. Het Vlaamse afvalbeleid wordt gedragen door de Vlaamse minister van Leefmilieu. De OVAM staat in voor de voorbereiding en de uitvoering van dit beleid. 
 
 De Waalse tegenhanger van de OVAM is het OWD (l’Office Wallon des Déchets). Voor het Brussels Hoofdstedelijk Gewest is dit het BIM (Brussels Instituut voor Milieubeheer).
 
@@ -332,26 +332,26 @@ De Waalse tegenhanger van de OVAM is het OWD (l’Office Wallon des Déchets). V
 
 De MBO laat toe dat de terugnameplicht *collectief* als sector wordt georganiseerd. Er wordt hiervoor minstens één beheersorganisme opgericht dat instaat voor de uitvoering van de verplichtingen die worden opgelegd aan de individuele bedrijven in het kader van de aanvaardingsplicht en de milieubeleidsovereenkomsten.
 
-Voor het Vlaamse Gewest vermeldt art. 7, § 1 e.v. van de Milieubeleidsovereenkomst in die zin: de organisaties die de fabrikanten en invoerders vertegenwoordigen, nemen het initiatief om één of meerdere beheersorganismen op te richten onder de vorm van een VZW. Het (de) beheersorganisme(n) zal (zullen) onder meer voorzien in:  
+Voor het Vlaamse Gewest vermeldt art. 7, § 1 e.v. van de Milieubeleidsovereenkomst in die zin: de organisaties die de fabrikanten en invoerders vertegenwoordigen, nemen het initiatief om één of meerdere beheersorganismen op te richten onder de vorm van een VZW. Het (de) beheersorganisme(n) zal (zullen) onder meer voorzien in: 
 
 - de organisatie van de ophaling van afgedankte elektrische en elektronische apparatuur overeenkomstig de bepalingen van de milieubeleidsovereenkomst; 
 - de organisatie van de verwerking van de ingezamelde afgedankte elektrische en elektronische apparatuur; 
 - de informatievoorziening naar alle actoren betrokken bij de uitvoering van deze overeenkomst. 
 
-Het (de) beheersorganisme(n) streeft (streven) naar een zo groot mogelijke uniformiteit inzake administratie en logistiek. Over modaliteiten van de werking van de beheersorganismen wordt overleg gepleegd met alle betrokken partijen. Het beheersorganisme mag de toetreding van geen enkele onderneming of federatie weigeren waarop de in deze overeenkomst bedoelde aanvaardingsplicht van toepassing zou kunnen zijn, tenzij om ernstige redenen die naar behoren bij de OVAM worden verantwoord. De Raad van Beheer bestaat uit minstens 1 afgevaardigde van de distributie.  
+Het (de) beheersorganisme(n) streeft (streven) naar een zo groot mogelijke uniformiteit inzake administratie en logistiek. Over modaliteiten van de werking van de beheersorganismen wordt overleg gepleegd met alle betrokken partijen. Het beheersorganisme mag de toetreding van geen enkele onderneming of federatie weigeren waarop de in deze overeenkomst bedoelde aanvaardingsplicht van toepassing zou kunnen zijn, tenzij om ernstige redenen die naar behoren bij de OVAM worden verantwoord. De Raad van Beheer bestaat uit minstens 1 afgevaardigde van de distributie. 
 
 Het beheersorganisme verbindt er zich toe zijn doelstellingen in transparantie te bereiken. Hiertoe worden alle notulen van het (de) beheersorganisme(n) verstuurd naar de OVAM.
 
 Voor de praktische uitvoering van het collectieve systeem voor aanvaarding van AEEA werden in België zeven sectorbeheersorganismen opgericht[^50]. Deze VZW’s werden in het kielzog van de MBO’s opgericht om namens hun medecontracten in te staan voor de praktische uitvoering van die aanvaardingsplicht voor AEEA (de producenten treden in dat geval toe tot een collectief systeem). De producent sluit hiertoe een toetredingsovereenkomst af bij het beheersorganisme, naargelang het type van apparaten dat wordt verhandeld. De producenten/invoerders die geen Recupel toetredingsovereenkomst hebben ondertekend, moeten zelf een individueel afvalpreventie- en afvalbeheerplan opstellen en indienen bij de overheden van de drie regio’s[^51].
 
-De zeven[^52] sectorbeheersorganismen, afhankelijk van de aard van EEA, zijn:  
+De zeven[^52] sectorbeheersorganismen, afhankelijk van de aard van EEA, zijn: 
 
 - VZW BW-Rec (grote huishoudtoestellen): voor grote huishoudelijke apparaten, professioneel groot en klein witgoed en automaten; 
 - VZW Recupel AV (audiovisuele toestellen): voor huishoudelijke en professionele audio-video apparaten; 
 - VZW Recupel SDA (Small Domestic Appliances – kleine huishoudtoestellen): voor kleine huishoudelijke toestellen; 
 - VZW Recupel ICT (informatie- en communicatiematerieel): voor Informatica-, telecommunicatie- en kantoorapparaten, professionele ICT-apparaten en automaten; 
 - VZW Recupel ET&Garden (elektrisch tuingereedschap en ander elektrisch gereedschap: voor huishoudelijke en professionele elektrische en elektronische (tuin)gereedschappen; 
-- VZW LightRec (verlichtingsapparatuur en gasontladingslampen opgericht door Havells Sylvania Belgium samen met de andere fabrikanten en importeurs van lichtbronnen en verlichtingsarmaturen): voor   Verlichtingsapparatuur en gasontladingslampen; 
+- VZW LightRec (verlichtingsapparatuur en gasontladingslampen opgericht door Havells Sylvania Belgium samen met de andere fabrikanten en importeurs van lichtbronnen en verlichtingsarmaturen): voor Verlichtingsapparatuur en gasontladingslampen; 
 - VZW MeLaRec (elektrische en elektronische medische hulpmiddelen en labapparatuur): voor huishoudelijke en professionele medische hulpmiddelen, laboratoriumapparatuur, sporttoestellen, thermostaten, test en meetapparatuur, bloedglucosemeters en rookmelders. 
 
 Deze 7 VZW’s samen met de overkoepelende representatieve organisaties van ondernemingen actief in de sector van EEA, zijn de grondleggers van de uitvoerende VZW Recupel. Producenten van EEA zijn lid van één of meerdere van deze sectorbeheersorganismen, naargelang de sectoren waarin ze actief zijn[^53].
@@ -364,7 +364,7 @@ De sectorbeheersorganismen bouwden de voorbije jaren grote reserves op uit de in
 
 Producenten die in België elektrische en elektronische apparaten op de markt brengen zijn in het kader van de Europese[^54] c.q. regionale[^55] aanvaardingsplicht (*cf.* *supra*) verantwoordelijk voor de inzameling en verwerking van AEEA.
 
-Voor de producenten/invoerders van EEA betekent dit dat ze verantwoordelijk zijn voor de terugname van AEEA en dat ze moeten toezien op de verwerking ervan.  
+Voor de producenten/invoerders van EEA betekent dit dat ze verantwoordelijk zijn voor de terugname van AEEA en dat ze moeten toezien op de verwerking ervan. 
 
 Zij moeten de terugname en de milieuvriendelijke verwerking van deze apparaten organiseren en financieren. Dit kan zoals eerder vermeld *individueel* (in dat geval stelt de producent zelf een afvalpreventie- en afvalbeheerplan op) of door toe te treden tot een *collectief *systeem[^56].
 
@@ -382,13 +382,13 @@ De Recupelbijdragen kunnen worden geraadpleegd in de door Recupel VZW ter beschi
 
 ***De nieuwe milieubeleidsovereenkomst (voor zowel huishoudelijke als professionele AEEA)***
 
-De nieuwe milieubeleidsovereenkomst biedt meer informatie ten einde meer transparantie te verkrijgen in de berekening en de aanwending van de Recupelbijdragen.  
+De nieuwe milieubeleidsovereenkomst biedt meer informatie ten einde meer transparantie te verkrijgen in de berekening en de aanwending van de Recupelbijdragen. 
 
 - *Financiering huishoudelijke AEEA* 
 
 Artikel 15 van de nieuwe milieubeleidsovereenkomst behandelt de milieubijdragen voor huishoudelijke AEEA. De producenten betalen ter financiering van de activiteiten van de beheersorganismen, aan de beheersorganismen een milieubijdrage per apparaat bij het op de markt brengen van dit apparaat. Deze milieubijdrage kan verschillen per soort en per type van apparaat en per productcategorie. Op deze wijze kiezen de producenten voor een collectieve regeling voor de organisatie van de financiering overeenkomstig de bepalingen van artikel 3.1.1.4, § 1, Vlarea II[^60].
 
-Het bedrag van de milieubijdrage voor een bepaald referentiejaar zal bepaald worden door de beheersorganismen, rekening houdend met de kosten voor het beheer van de AEEA die ingezameld worden tijdens datzelfde referentiejaar, of een andere referentieperiode omschreven in een financieel plan. Het bedrag van de milieubijdrage en de constitutieve elementen ervan worden dan voor advies aan de OVAM voorgelegd.  
+Het bedrag van de milieubijdrage voor een bepaald referentiejaar zal bepaald worden door de beheersorganismen, rekening houdend met de kosten voor het beheer van de AEEA die ingezameld worden tijdens datzelfde referentiejaar, of een andere referentieperiode omschreven in een financieel plan. Het bedrag van de milieubijdrage en de constitutieve elementen ervan worden dan voor advies aan de OVAM voorgelegd. 
 
 Het jaarlijks financieel plan is een onderdeel van het beheersplan en omvat conform art. 15, § 2 (van de nieuwe milieubeleidsovereenkomst) volgende informatie:
 
@@ -402,13 +402,13 @@ Het jaarlijks financieel plan is een onderdeel van het beheersplan en omvat conf
 
 De beheersorganismen zorgen ervoor dat de milieubijdragen voor apparaten bestemd voor huishoudelijk gebruik enerzijds en apparaten bestemd voor professioneel gebruik anderzijds, alleen gebruikt wordt voor het beheer van de respectievelijke categorieën van apparaten.
 
-Het bedrag van de milieubijdrage is, zoals ook werd bepaald in de MBO 26 januari 2001, jaarlijks herzienbaar. Voor huishoudelijke EEA worden de herziene bijdragen bij voorkeur op 1 juli en bij uitzondering op 3 januari van kracht. De herziene bijdragen worden zes maanden vóór inwerkingtreding bekendgemaakt aan de distributie. Rekening houdend met de motivaties opgesteld naar aanleiding van tariefwijzigingen, wordt in elk geval elke twee jaar een, door een bedrijfsrevisor goedgekeurde motivatie opgesteld over de financieringsbehoeften van de beheersorganismen. De bedrijfsrevisor moet eveneens controleren dat de aangelegde provisies voor de huishoudelijke apparaten niet oneigenlijk gebruikt worden voor professionele apparaten (art. 15, § 3).  
+Het bedrag van de milieubijdrage is, zoals ook werd bepaald in de MBO 26 januari 2001, jaarlijks herzienbaar. Voor huishoudelijke EEA worden de herziene bijdragen bij voorkeur op 1 juli en bij uitzondering op 3 januari van kracht. De herziene bijdragen worden zes maanden vóór inwerkingtreding bekendgemaakt aan de distributie. Rekening houdend met de motivaties opgesteld naar aanleiding van tariefwijzigingen, wordt in elk geval elke twee jaar een, door een bedrijfsrevisor goedgekeurde motivatie opgesteld over de financieringsbehoeften van de beheersorganismen. De bedrijfsrevisor moet eveneens controleren dat de aangelegde provisies voor de huishoudelijke apparaten niet oneigenlijk gebruikt worden voor professionele apparaten (art. 15, § 3). 
 
 Jaarlijks communiceren de beheersorganismen aan de overheid over de effectieve aanwending van de geïnde bedragen.
 
 De Recupelbijdrage is bijgevolg geen taks of een andere bijzondere belasting, maar een bijdrage in de dienstverlening door het beheersorganisme in het kader van de aanvaardingsplicht voor AEEA. Het bedrag van de Recupelbijdrage is, zoals eerder vermeld, per apparaat terug te vinden in de productenlijst zoals ter beschikking gesteld door Recupel VZW.
 
-De invoerders/producenten rekenen deze Recupelbijdrage meestal door aan hun klanten, de distributieondernemingen, waardoor de producenten/invoerders uiteindelijk niet zelf de last van de Recupelbijdrage dragen. Distributieondernemingen rekenen op hun beurt deze bijdrage door aan de eindconsument. Het is op die manier dus de eindgebruiker die de last draagt.  
+De invoerders/producenten rekenen deze Recupelbijdrage meestal door aan hun klanten, de distributieondernemingen, waardoor de producenten/invoerders uiteindelijk niet zelf de last van de Recupelbijdrage dragen. Distributieondernemingen rekenen op hun beurt deze bijdrage door aan de eindconsument. Het is op die manier dus de eindgebruiker die de last draagt. 
 
 - *Financiering professionele AEEA* 
 
@@ -426,13 +426,13 @@ De artikelen opgenomen in de Milieuovereenkomst van het Brussels Hoofdstedelijk 
 
 De hoogte van de milieubijdrage alsook het financieel plan moet voor het Brussels Hoofdstedelijk Gewest worden voorgelegd aan het BIM.
 
-### Vermelding van de Recupelbijdrage bij het op de markt brengen     van huishoudelijke en professionele EEA[^61] 
+### Vermelding van de Recupelbijdrage bij het op de markt brengen van huishoudelijke en professionele EEA[^61] 
 
 #### Het Vlaamse Gewest
 
-Art. 3.1.1.3[^62], Vlarea II duidt aan dat het gedeelte van de kostprijs van een product dat wordt doorgerekend om de kosten te dekken die verbonden zijn aan de uitvoering van de aanvaardingsplicht, zichtbaar moet worden vermeld op de factuur, tenzij anders is bepaald in de milieubeleidsovereenkomst of het individueel afvalpreventie- en afvalbeheerplan.  In de milieubeleidsovereenkomst wordt vermeld dat de milieubijdrage bij verkoop van huishoudelijke EEA tussen handelaars in EEA steeds per apparaat of per groep van apparaten op de factuur wordt vermeld[^63].
+Art. 3.1.1.3[^62], Vlarea II duidt aan dat het gedeelte van de kostprijs van een product dat wordt doorgerekend om de kosten te dekken die verbonden zijn aan de uitvoering van de aanvaardingsplicht, zichtbaar moet worden vermeld op de factuur, tenzij anders is bepaald in de milieubeleidsovereenkomst of het individueel afvalpreventie- en afvalbeheerplan. In de milieubeleidsovereenkomst wordt vermeld dat de milieubijdrage bij verkoop van huishoudelijke EEA tussen handelaars in EEA steeds per apparaat of per groep van apparaten op de factuur wordt vermeld[^63].
 
-In afwijking van hoger vermeld art. 3.1.1.3 wordt luidens art. 3.5.1*bis*, § 2 van het Vlarea II worden m.b.t. de huishoudelijke EEA bij verkoop van nieuwe producten de kosten van inzameling, milieuhygiënisch verantwoorde verwerking ten aanzien van de consumenten niet afzonderlijk aangetoond[^64]. Producenten mogen gedurende een overgangsperiode  tot 13 februari 2013 voor grote huishoudelijke EEA en tot 13 februari 2011 voor alle andere EEA[^65] bij de verkoop van nieuwe producten de kosten van inzameling en milieuvriendelijke verwerking ten aanzien van de consument aantonen. De aangegeven kosten mogen in geen geval hoger zijn dan de reële kosten.
+In afwijking van hoger vermeld art. 3.1.1.3 wordt luidens art. 3.5.1*bis*, § 2 van het Vlarea II worden m.b.t. de huishoudelijke EEA bij verkoop van nieuwe producten de kosten van inzameling, milieuhygiënisch verantwoorde verwerking ten aanzien van de consumenten niet afzonderlijk aangetoond[^64]. Producenten mogen gedurende een overgangsperiode tot 13 februari 2013 voor grote huishoudelijke EEA en tot 13 februari 2011 voor alle andere EEA[^65] bij de verkoop van nieuwe producten de kosten van inzameling en milieuvriendelijke verwerking ten aanzien van de consument aantonen. De aangegeven kosten mogen in geen geval hoger zijn dan de reële kosten.
 
 Voor professionele EEA mogen de producenten tijdens de overgangsperiode bij verkoop van nieuwe producten, op vrijwillige basis, ten aanzien van de consumenten de kosten van inzameling, verwerking en milieuvriendelijke verwijdering van de historische voorraad aantonen. Ook in dit geval mogen de aangegeven kosten niet hoger liggen dan de reële kosten.
 
@@ -442,7 +442,7 @@ Ook in zijn publicaties (folders, prijsetiketten, …) kan hij “Recupelbijdrag
 
 #### Het Waalse Gewest
 
-Art. 66, § 2, Besluit Waalse Regering 25 april 2002 noteert de verplichting van de detailhandelaar tot vermelding van het totaalbedrag van de kosten inzake inzameling, beheer, verwerking en milieuvriendelijke verwijdering.  
+Art. 66, § 2, Besluit Waalse Regering 25 april 2002 noteert de verplichting van de detailhandelaar tot vermelding van het totaalbedrag van de kosten inzake inzameling, beheer, verwerking en milieuvriendelijke verwijdering. 
 
 Ook hier mogen de vermelde kosten niet hoger liggen dan de reële kosten.
 
@@ -460,7 +460,7 @@ Sinds januari 2007 maakt Recupel VZW het onderscheid tussen twee types bijdragen
 
 Een EEA is "huishoudelijk" zowel wanneer het bestemd is voor particuliere huishoudens als wanneer het bestemd is voor commercieel, industrieel, institutioneel en ander gebruik maar naar aard met een product bestemd voor particuliere huishoudens vergelijkbaar is[^66]. Een computer gebruikt in de bureelruimten van een bedrijf is m.a.w. huishoudelijk EEA, maar bedrijfsafval. Huishoudelijke afvalstoffen ontstaan ten gevolge van de activiteiten van de normale werking van een particuliere huishouding.
 
-De toetredingsovereenkomst die de producenten/invoerders afsluiten met de sectorbeheersorganismen bij toetreding tot het collectief systeem, vermeldt dat de all-in bijdragen enerzijds worden aangewend ter financiering van de inzameling, sortering, het transport en de verwerking van de huishoudelijke EEA die worden teruggebracht naar het containerpark, de winkel, de  kringloopcentra of de regionale overslagstations en anderzijds worden gebruikt ter financiering van de algemene werkingskosten van de sectorbeheersorganismen.
+De toetredingsovereenkomst die de producenten/invoerders afsluiten met de sectorbeheersorganismen bij toetreding tot het collectief systeem, vermeldt dat de all-in bijdragen enerzijds worden aangewend ter financiering van de inzameling, sortering, het transport en de verwerking van de huishoudelijke EEA die worden teruggebracht naar het containerpark, de winkel, de kringloopcentra of de regionale overslagstations en anderzijds worden gebruikt ter financiering van de algemene werkingskosten van de sectorbeheersorganismen.
 
 De all-in Recupelbijdragen kunnen worden geraadpleegd op de productenlijsten (*cf.* *supra*), opvraagbaar bij Recupel VZW. Om in overeenstemming te zijn met de technische evoluties, zowel op vlak van nieuwe producten als op vlak van verbeterde recyclageprocessen, worden deze Recupel productenlijsten periodiek geëvalueerd. De recentste lijsten dateren van 1 juli 2008. Voor het eerst sinds de opstart van Recupel VZW heeft dit evaluatieproces ook impact gehad op de structuur van de productenlijst. In het kader van de uniformisering binnen Europa werd ervoor geopteerd de bestaande indeling van de productenlijst per sector te vervangen door een indeling op basis van de categorieën vermeld in de WEEE Richtlijn.
 
@@ -545,7 +545,7 @@ Luidens art. 25, § 1, K.B. W.Venn. moet “*de jaarrekening duidelijk worden op
 
 **Advies 107/7 *Risico's en verliezen waarvan de waardering aleatoir is* (Bulletin nr. 21 van C.B.N., januari 1988, p. 18-20)**
 
-De Commissie bepaalt in haar advies 107/7 dat de termen *onvermijdelijk aleatoire waardering* erop duiden dat de omvang van een wel omschreven, voorzienbaar risico of verlies niet alleen onzeker is, maar dat deze onzekere omvang bovendien volstrekt “onbepaalbaar” is bij gebreke aan objectieve beoordelingscriteria. Aangezien geen voorzieningen kunnen worden aangelegd voor voorzienbare of waarschijnlijke risico's of verliezen waarvan de grootte volstrekt onbepaalbaar is, is in dergelijke hypothese de onderneming ervan vrijgesteld een voorziening ten laste van de resultatenrekening te vormen, wat haar uiteraard niet ontslaat van een passende vermelding in de toelichting.
+De Commissie bepaalt in haar advies 107/7 dat de termen *onvermijdelijk aleatoire waardering* erop duiden dat de omvang van een wel omschreven, voorzienbaar risico of verlies niet alleen onzeker is, maar dat deze onzekere omvang bovendien volstrekt “onbepaalbaar” is bij gebreke aan objectieve beoordelingscriteria. Aangezien geen voorzieningen kunnen worden aangelegd voor voorzienbare of waarschijnlijke risico's of verliezen waarvan de grootte volstrekt onbepaalbaar is, is in dergelijke hypothese de onderneming ervan vrijgesteld een voorziening ten laste van de resultatenrekening te vormen, wat haar uiteraard niet ontslaat van een passende vermelding in de toelichting.
 
 Toch wijst de Commissie erop dat, indien op balansdatum naar het oordeel van de bedrijfsleiding (met inachtneming van de eisen van voorzichtigheid, oprechtheid en goede trouw), de waarschijnlijkheid van een bepaald risico vaststaat, doch tevens blijkt dat de waardering ervan een reeks bedragen oplevert, allen even aanvaardbaar, dit niet tot gevolg heeft dat de waardering van het voorzienbaar risico of verlies in dat geval “onvermijdelijk aleatoir” is zodat de onderneming ervan vrijgesteld zou zijn ook maar de minste voorziening te vormen en zich te mogen beperken tot een mededeling in de toelichting.
 
@@ -582,13 +582,13 @@ IFRC 6 concludeert dat *deelname aan de markt tijdens de metingsperiode* de volg
 
 Dit heeft tot gevolg dat er geen verplichting voor kosten van het afvalbeheer met betrekking tot huishoudapparatuur verkocht vóór 13 augustus 2005 ontstaat wanneer de producten worden vervaardigd of verkocht. Doordat de verplichting voor huishoudapparatuur verkocht vóór 13 augustus 2005 samenhangt met deelneming aan de markt tijdens de metingsperiode, in plaats van met de vervaardiging of verkoop van de te verwijderen producten, bestaat er geen verplichting tenzij en totdat er tijdens de metingsperiode sprake is van een marktaandeel. Het tijdstip waarop de tot een verplichting leidende gebeurtenis plaatsvindt, kan ook los staan van de specifieke periode waarin de afvalbeheeractiviteiten worden uitgevoerd en de daarmee verband houdende kosten worden gemaakt.
 
-IFRIC 6 stoelt op de vaststelling dat de verplichting in het kader van de aanvaardingsplicht voor historisch huishoudelijke AEEA duidelijk niet ontstaat bij het op de markt brengen van EEA, maar enkel indien men op het ogenblik van afdanking van de EEA nog deelneemt aan/speler is in de referentiemarkt en dit  in verhouding tot deze deelname.  
+IFRIC 6 stoelt op de vaststelling dat de verplichting in het kader van de aanvaardingsplicht voor historisch huishoudelijke AEEA duidelijk niet ontstaat bij het op de markt brengen van EEA, maar enkel indien men op het ogenblik van afdanking van de EEA nog deelneemt aan/speler is in de referentiemarkt en dit in verhouding tot deze deelname. 
 
 ## IAS 10 Gebeurtenissen na balansdatum
 
 Volgens IAS 10 moet een entiteit de in haar jaarrekening opgenomen bedragen aanpassen om gebeurtenissen na de verslagperiode die leiden tot een aanpassing van de jaarrekening, weer te geven (IAS 10, 8).
 
-Onder “gebeurtenissen na de verslagperiode” worden begrepen: zowel gunstige als ongunstige gebeurtenissen die plaatsvinden tussen het einde van de verslagperiode en de datum waarop de jaarrekening wordt goedgekeurd voor publicatie. Er kan een onderscheid worden gemaakt tussen twee soorten gebeurtenissen.  
+Onder “gebeurtenissen na de verslagperiode” worden begrepen: zowel gunstige als ongunstige gebeurtenissen die plaatsvinden tussen het einde van de verslagperiode en de datum waarop de jaarrekening wordt goedgekeurd voor publicatie. Er kan een onderscheid worden gemaakt tussen twee soorten gebeurtenissen. 
 
 - gebeurtenissen die wijzen op omstandigheden die bestonden aan het eind van de verslagperiode (en die bijgevolg leiden tot een aanpassing van de jaarrekening); en 
 - gebeurtenissen die wijzen op omstandigheden die zijn ontstaan na de verslagperiode (en die bijgevolg niet leiden tot een aanpassing van de jaarrekening) (IAS 10, 3) 
@@ -603,13 +603,13 @@ In een interpretatieve mededeling over de bepaalde artikelen van de Vierde en de
 
 § 20. *“De algemene voorwaarden van artikel 20, lid 1, van de richtlijn zijn eveneens van toepassing op voorzieningen voor milieuverplichtingen en –risico’s. Als de lidstaten gebruik hebben gemaakt van de in artikel 20, lid 2, opgenomen keuzemogelijkheid, geldt deze ook voor milieulasten.”*
 
-§ 21. *“Milieuverplichtingen en –risico’s die het gevolg zijn van transacties of gebeurtenissen in het verleden, mogen via een voorziening in de balans worden verantwoord, als:*  
+§ 21. *“Milieuverplichtingen en –risico’s die het gevolg zijn van transacties of gebeurtenissen in het verleden, mogen via een voorziening in de balans worden verantwoord, als:* 
 
-1. *de onderneming wettelijk of contractueel verplicht is milieuschade te voorkomen, te beperken of ongedaan te maken;  
+1. *de onderneming wettelijk of contractueel verplicht is milieuschade te voorkomen, te beperken of ongedaan te maken; 
 
-	of*  
+	of* 
 
-2. *het bestuur van de onderneming zich ertoe verbonden heeft milieuschade te voorkomen, te beperken of ongedaan te maken. Van een dergelijke verbintenis is bijvoorbeeld sprake als, op basis van verklaringen over zijn beleid of voorgenomen handelswijze, de praktijk in de bedrijfstak of verwachtingen bij het publiek, het bestuur van de onderneming weinig ruimte heeft om af te zien van maatregelen, of wanneer het bestuur heeft besloten milieuschade te voorkomen, te beperken of ongedaan te maken en dit besluit intern, aan een ander orgaan van de onderneming, of extern bekend heeft gemaakt.”* 
+2. *het bestuur van de onderneming zich ertoe verbonden heeft milieuschade te voorkomen, te beperken of ongedaan te maken. Van een dergelijke verbintenis is bijvoorbeeld sprake als, op basis van verklaringen over zijn beleid of voorgenomen handelswijze, de praktijk in de bedrijfstak of verwachtingen bij het publiek, het bestuur van de onderneming weinig ruimte heeft om af te zien van maatregelen, of wanneer het bestuur heeft besloten milieuschade te voorkomen, te beperken of ongedaan te maken en dit besluit intern, aan een ander orgaan van de onderneming, of extern bekend heeft gemaakt.”* 
 
 #### Relevante rechtspraak
 
@@ -639,14 +639,14 @@ In omstandigheden zoals die van het hoofdbeding, noopt de aflossing van een kred
 
 ### Boekhoudkundige verwerking bij de producent/invoerder
 
-Wat de boekhoudkundige verwerking betreft kan het onderscheid worden gemaakt tussen:  
+Wat de boekhoudkundige verwerking betreft kan het onderscheid worden gemaakt tussen: 
 
 - Enerzijds de aanvaardingsplicht inzake de afdanking van huishoudelijke EEA versus de aanvaardingsplicht met betrekking tot de afdanking van professionele EEA; en 
 - Anderzijds de aanvaardingsplicht van professionele EEA uiterlijk op 13 augustus 2005 op de markt gebracht (historical waste) en professionele EEA na 13 augustus 2005 op de markt gebracht (new waste). 
 
 Onderstaande tekst behandelt de mogelijke boekhoudkundige gevolgen in elk van de geschetste situaties.
 
-#### Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van huishoudelijke EEA.  
+#### Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van huishoudelijke EEA. 
 
 Strikt genomen is de regeling de volgende. De kosten van terugname en verwerking van huishoudelijke EEA op de markt gebracht vóór 1 juli 2001 worden door de producenten/invoerders gezamenlijk gedragen. De verantwoordelijkheid voor de financiering van deze kosten ligt dus bij de producenten/invoerders die op de markt aanwezig zijn op het tijdstip waarop de betrokken kosten ontstaan (m.a.w. op moment dat de consument het huishoudelijk AEEA inlevert). De producent/invoerder dient dan ook naar evenredigheid van zijn marktaandeel voor de betrokken apparatuur bij te dragen. De kosten van terugname en verwerking van na 1 juli 2001 op de markt gebrachte, huishoudelijke EEA worden door de producent/invoerder van het betrokken geproduceerde, ingevoerde apparaat zelf gedragen.
 
@@ -660,10 +660,10 @@ Boeking van het op de markt brengen van huishoudelijke EEA en doorrekening van d
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 400 | Handelsdebiteuren | ... |  |
-| aan | 700 | Verkopen en dienstprestaties |  | ... |
-|  | 70.. | Bijdragen aanvaardingsplicht AEEA | ... |  |
-|  | 451 | Te betalen btw | ... |  |
+| | 400 | Handelsdebiteuren | ... | |
+| aan | 700 | Verkopen en dienstprestaties | | ... |
+| | 70.. | Bijdragen aanvaardingsplicht AEEA | ... | |
+| | 451 | Te betalen btw | ... | |
 
 Na het indienen van de kwartaalaangifte ontvangt de producent/invoerder de factuur van het sectorbeheersorganisme.
 
@@ -671,26 +671,26 @@ Na het indienen van de kwartaalaangifte ontvangt de producent/invoerder de factu
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | ... |  |
-|  | 411 | Terug te vorderen btw | ... |  |
-| aan | 440 | Leveranciers |  | ... |
+| | 61 | Diensten en diverse goederen | ... | |
+| | 411 | Terug te vorderen btw | ... | |
+| aan | 440 | Leveranciers | | ... |
 
 Boeking van de doorstorting van de Recupelbijdrage na ontvangst van de factuur van het beheersorganisme:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 440 | Leveranciers | ... |  |
-| aan | 55..0 | Kredietinstellingen: rekening-courant |  | ... |
+| | 440 | Leveranciers | ... | |
+| aan | 55..0 | Kredietinstellingen: rekening-courant | | ... |
 
 Het lijkt de Commissie aangewezen dat de invoerders/producenten in de toelichting bij de jaarrekening melding maken van het feit dat ze bij het collectieve Recupelsysteem zijn aangesloten.
 
-Bovendien dient opgemerkt dat  door het sectorbeheersorganisme een navordering kan gebeuren indien blijkt dat de door het sectorbeheersorganisme ontvangen bijdragen, eventuele reserves en  vergoedingen ontvangen voor de dienstverlening niet volstaan om de kosten gemaakt in het kader van de aanvaardingsplicht voor huishoudelijke AEEA van een nader bepaalde productcategorie te dekken. Het bedrag dat aan de producent zal worden aangerekend wordt desgevallend berekend op basis van zijn marktaandeel in het voorbije kalenderjaar.
+Bovendien dient opgemerkt dat door het sectorbeheersorganisme een navordering kan gebeuren indien blijkt dat de door het sectorbeheersorganisme ontvangen bijdragen, eventuele reserves en vergoedingen ontvangen voor de dienstverlening niet volstaan om de kosten gemaakt in het kader van de aanvaardingsplicht voor huishoudelijke AEEA van een nader bepaalde productcategorie te dekken. Het bedrag dat aan de producent zal worden aangerekend wordt desgevallend berekend op basis van zijn marktaandeel in het voorbije kalenderjaar.
 
 Krachtens artikel 33, K.B. W.Venn. wordt bij het opstellen van de jaarrekening *“rekening gehouden met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen, ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft of tijdens voorgaande boekjaren, zelfs indien deze risico's, verliezen of ontwaardingen slechts gekend zijn tussen de balansdatum en het ogenblik waarop de jaarrekening door het bestuursorgaan van de vennootschap wordt opgesteld. In de gevallen waarin, bij gebreke aan objectieve beoordelingscriteria, de waardering van de voorzienbare risico's, de mogelijke verliezen en de ontwaardingen onvermijdelijk aleatoir is, wordt hiervan melding gemaakt in de toelichting, wanneer de betrokken bedragen rekening houdend met de doelstelling van artikel 24, eerste lid[^82], belangrijk zijn.*
 
 In die zin zal de raad van bestuur van de producent /invoerder moeten oordelen of er op balansdatum is voldaan aan de voorwaarden voor het aanleggen van voorzieningen zoals bepaald in art. 50, K.B. W.Venn.
 
-Aangezien de eventuele navordering door het sectorbeheersorganisme plaatsvindt na afloop van het betrokken kalenderjaar en vóór 30 juni van het daarop volgende kalenderjaar, kunnen twee situaties worden onderscheiden:  
+Aangezien de eventuele navordering door het sectorbeheersorganisme plaatsvindt na afloop van het betrokken kalenderjaar en vóór 30 juni van het daarop volgende kalenderjaar, kunnen twee situaties worden onderscheiden: 
 
 - *De navordering gebeurt na balansdatum maar vóór het ogenblik waarop de jaarrekening door het bestuursorgaan van de producent/invoerder wordt vastgesteld.* 
 
@@ -700,8 +700,8 @@ Boeking in geval van navordering door het beheersorganisme na balansdatum:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | ... |  |
-| aan | 444 | Te ontvangen facturen |  | ... |
+| | 61 | Diensten en diverse goederen | ... | |
+| aan | 444 | Te ontvangen facturen | | ... |
 
 - *De navordering gebeurt na balansdatum en na het ogenblik waarop de jaarrekening door het bestuursorgaan van de producent/invoerder wordt vastgesteld.* 
 
@@ -715,8 +715,8 @@ Boeking van het aanleggen van de voorziening:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6370 | Voorzieningen voor andere risico’s en kosten: toevoeging | ... |  |
-| aan | 163-165 | Voorzieningen voor overige risico’s en kosten |  | ... |
+| | 6370 | Voorzieningen voor andere risico’s en kosten: toevoeging | ... | |
+| aan | 163-165 | Voorzieningen voor overige risico’s en kosten | | ... |
 
 In geval daadwerkelijk een navordering plaatsvindt zullen de kosten hiervan worden geboekt ten laste van het volgende boekjaar. De daartoe aangelegde voorziening wordt besteed.
 
@@ -726,16 +726,16 @@ Boeking van de facturatie van de navordering:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | ... |  |
-|  | 411 | Terug te vorderen btw | ... |  |
-| aan | 440 | Leveranciers |  | ... |
+| | 61 | Diensten en diverse goederen | ... | |
+| | 411 | Terug te vorderen btw | ... | |
+| aan | 440 | Leveranciers | | ... |
 
 Boeking van de besteding van de voorziening:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 163-165 | Voorzieningen voor overige risico’s en kosten | ... |  |
-| aan | 6371 | Voorzieningen voor andere risico’s en kosten: besteding en terugneming (-) |  | ... |
+| | 163-165 | Voorzieningen voor overige risico’s en kosten | ... | |
+| aan | 6371 | Voorzieningen voor andere risico’s en kosten: besteding en terugneming (-) | | ... |
 
 Vindt de navordering plaats na de vaststelling van de jaarrekening door de raad van bestuur maar vóór de goedkeuring ervan door de algemene vergadering, dan had, voor zover de raad van bestuur dit had ingecalculeerd bij de vaststelling van de jaarrekening, hiervoor reeds een voorziening moeten worden aangelegd.
 
@@ -753,8 +753,8 @@ Boeking van het aanleggen van de voorziening:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6370 | Voorzieningen voor andere risico’s en kosten: toevoeging | ... |  |
-| aan | 163-165 | Voorzieningen voor overige risico’s en kosten |  | ... |
+| | 6370 | Voorzieningen voor andere risico’s en kosten: toevoeging | ... | |
+| aan | 163-165 | Voorzieningen voor overige risico’s en kosten | | ... |
 
 Het bedrag waarvoor de voorzieningen worden aangelegd zal worden geraamd op basis van statistische gegevens uit het verleden. Deze voorzieningen mogen niet worden gehandhaafd in de mate waarin ze op het einde van het boekjaar hoger zijn dan wat vereist is volgens de actuele beoordeling, de eisen van voorzichtigheid, oprechtheid en goede trouw, en van de risico’s en kosten waarvoor ze werden gevormd (art. 55, K.B. W.Venn. ).
 
@@ -764,16 +764,16 @@ Boeking van de kosten van terugname en ontmanteling:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | ... |  |
-|  | 411 | Terug te vorderen btw | ... |  |
-| aan | 440 | Leveranciers |  | ... |
+| | 61 | Diensten en diverse goederen | ... | |
+| | 411 | Terug te vorderen btw | ... | |
+| aan | 440 | Leveranciers | | ... |
 
 Boeking van de besteding van de voorziening:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 163-165 | Voorzieningen voor overige risico’s en kosten | ... |  |
-| aan | 6371 | Voorzieningen voor andere risico’s en kosten: besteding en terugneming (-) |  | ... |
+| | 163-165 | Voorzieningen voor overige risico’s en kosten | ... | |
+| aan | 6371 | Voorzieningen voor andere risico’s en kosten: besteding en terugneming (-) | | ... |
 
 #### Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht na 13 augustus 2005
 
@@ -783,9 +783,9 @@ Boeking van de betaling van de administratieve bijdrage bij het op de markt bren
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | ... |  |
-|  | 411 | Terug te vorderen btw | ... |  |
-| aan | 440 | Leveranciers |  | ... |
+| | 61 | Diensten en diverse goederen | ... | |
+| | 411 | Terug te vorderen btw | ... | |
+| aan | 440 | Leveranciers | | ... |
 
 De producent/invoerder zal dan bij het op de markt brengen van de professionele EEA een voorziening aanleggen ter dekking van de geschatte kosten bij latere terugname en recyclage.
 
@@ -793,8 +793,8 @@ Boeking van het aanleggen van de voorziening:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6370 | Voorzieningen voor andere risico’s en kosten: toevoeging | ... |  |
-| aan | 163-165 | Voorzieningen voor overige risico’s en kosten |  | ... |
+| | 6370 | Voorzieningen voor andere risico’s en kosten: toevoeging | ... | |
+| aan | 163-165 | Voorzieningen voor overige risico’s en kosten | | ... |
 
 Op moment van terugname en verwerking van de AEEA van niet-huishoudelijke oorsprong worden de kosten verbonden aan de terugnameplicht ten laste genomen en de voorziening besteed.
 
@@ -802,16 +802,16 @@ Boeking van de kosten van terugname en verwerking:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 61 | Diensten en diverse goederen | ... |  |
-|  | 411 | Terug te vorderen btw | ... |  |
-| aan | 440 | Leveranciers |  | ... |
+| | 61 | Diensten en diverse goederen | ... | |
+| | 411 | Terug te vorderen btw | ... | |
+| aan | 440 | Leveranciers | | ... |
 
 Boeking van de besteding van de voorziening:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 163-165 | Voorzieningen voor overige risico’s en kosten | ... |  |
-| aan | 6371 | Voorzieningen voor andere risico’s en kosten: besteding en terugneming (-) |  | ... |
+| | 163-165 | Voorzieningen voor overige risico’s en kosten | ... | |
+| aan | 6371 | Voorzieningen voor andere risico’s en kosten: besteding en terugneming (-) | | ... |
 
 ### Boekhoudkundige verwerking bij de sectorbeheersorganismen
 
@@ -832,16 +832,16 @@ Boeking van de facturatie van de all-in bijdragen aan de producent/invoerder:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 400 | Handelsdebiteuren | ... |  |
-| aan | 700 | Verkopen en dienstprestaties |  | ... |
-|  | 451 | Te betalen btw | ... |  |
+| | 400 | Handelsdebiteuren | ... | |
+| aan | 700 | Verkopen en dienstprestaties | | ... |
+| | 451 | Te betalen btw | ... | |
 
 Boeking van de ontvangst van de all-in bijdragen:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 550 | Kredietinstellingen: rekening-courant | ... |  |
-| aan | 400 | Handelsdebiteuren |  | ... |
+| | 550 | Kredietinstellingen: rekening-courant | ... | |
+| aan | 400 | Handelsdebiteuren | | ... |
 
 De kosten van terugname en ontmanteling worden gedragen wanneer zij zich voordoen.
 
@@ -849,11 +849,11 @@ Boeking van de kosten van terugname en verwerking:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 603 | Algemene onderaannemingen | ... |  |
-|  | 411 | Terug te vorderen btw | ... |  |
-| aan | 440 | Leveranciers |  | ... |
+| | 603 | Algemene onderaannemingen | ... | |
+| | 411 | Terug te vorderen btw | ... | |
+| aan | 440 | Leveranciers | | ... |
 
-Indien blijkt dat de door de sectorbeheersorganismen ontvangen bijdragen, de reserves en  vergoedingen ontvangen voor de dienstverlening niet volstaan om de kosten gemaakt in het kader van de aanvaardingsplicht voor AEEA van een nader bepaalde productcategorie te dekken kan door het sectorbeheersorganisme een navordering plaatsvinden. Om deze reden kan Recupel VZW geen voorziening aanleggen voor dit tekort aan middelen.
+Indien blijkt dat de door de sectorbeheersorganismen ontvangen bijdragen, de reserves en vergoedingen ontvangen voor de dienstverlening niet volstaan om de kosten gemaakt in het kader van de aanvaardingsplicht voor AEEA van een nader bepaalde productcategorie te dekken kan door het sectorbeheersorganisme een navordering plaatsvinden. Om deze reden kan Recupel VZW geen voorziening aanleggen voor dit tekort aan middelen.
 
 Deze navordering gebeurt na afsluitdatum[^88], doch voor 30 juni van het erop volgende kalenderjaar. Het bedrag van de navordering zal worden toegerekend aan de opbrengsten van de afgelopen boekjaar.
 
@@ -861,27 +861,27 @@ Boeking van de navordering door het sectorbeheersorganisme:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 404 | Te innen opbrengsten | ... |  |
-| aan | 700 | Verkopen en dienstprestaties |  | ... |
+| | 404 | Te innen opbrengsten | ... | |
+| aan | 700 | Verkopen en dienstprestaties | | ... |
 
 #### Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor professionele AEEA op de markt gebracht uiterlijk op en na 13 augustus 2005
 
-De lasten van terugname en milieuvriendelijke verwerking van professionele AEEA worden niet gedragen door de sectorbeheersorganismen. Het beheersorganisme staat in voor het in contact brengen van de producent/invoerder met de meest geschikte operator die de recyclage voor zijn rekening kan nemen. De producent/invoerder betaalt hiervoor (evenals voor diverse rapporteringsverplichtingen waaraan in het kader van de aanvaardingsplicht moet zijn voldaan en die het beheersorganisme voor zijn  rekening neemt), een administratieve bijdrage aan het sectorbeheersorganisme.
+De lasten van terugname en milieuvriendelijke verwerking van professionele AEEA worden niet gedragen door de sectorbeheersorganismen. Het beheersorganisme staat in voor het in contact brengen van de producent/invoerder met de meest geschikte operator die de recyclage voor zijn rekening kan nemen. De producent/invoerder betaalt hiervoor (evenals voor diverse rapporteringsverplichtingen waaraan in het kader van de aanvaardingsplicht moet zijn voldaan en die het beheersorganisme voor zijn rekening neemt), een administratieve bijdrage aan het sectorbeheersorganisme.
 
 Boeking van de facturatie van de administratieve bijdragen aan de producent/invoerder:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 400 | Handelsdebiteuren | ... |  |
-| aan | 700 | Verkopen en dienstprestaties |  | ... |
-|  | 451 | Te betalen btw | ... |  |
+| | 400 | Handelsdebiteuren | ... | |
+| aan | 700 | Verkopen en dienstprestaties | | ... |
+| | 451 | Te betalen btw | ... | |
 
 Boeking van de ontvangst van de administratieve bijdragen:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 550 | Kredietinstellingen: rekening-courant | ... |  |
-| aan | 400 | Handelsdebiteuren |  | ... |
+| | 550 | Kredietinstellingen: rekening-courant | ... | |
+| aan | 400 | Handelsdebiteuren | | ... |
 
 ### Boekhoudkundige verwerking in hoofde van de distributieondernemingen
 
@@ -893,9 +893,9 @@ Boeking bij het verwerven van de EEA door de distributeur:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 604 | Aankopen van handelsgoederen | ... |  |
-|  | 411 | Terug te vorderen btw | ... |  |
-| aan | 440 | Leveranciers |  | ... |
+| | 604 | Aankopen van handelsgoederen | ... | |
+| | 411 | Terug te vorderen btw | ... | |
+| aan | 440 | Leveranciers | | ... |
 
 Bij verkoop zal de distributeur de kost van deze bijdrage doorrekenen aan de eindgebruiker, de consument in geval van huishoudelijke EEA, de onderneming in geval van professionele EEA. De distributeur moet de koper informeren over de hoogte van de bijdrage die hij betaalt. Dit hoeft niet langer via een vermelding op de factuur (*cf.* supra). De Recupelbijdrage zal bijgevolg deel uitmaken van de verkoopprijs.
 
@@ -903,9 +903,9 @@ Boeking bij de verkoop van de EEA door de distributeur:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 400 | Handelsdebiteuren | ... |  |
-| aan | 700 | Verkopen en dienstprestaties |  | ... |
-|  | 451 | Te betalen btw | ... |  |
+| | 400 | Handelsdebiteuren | ... | |
+| aan | 700 | Verkopen en dienstprestaties | | ... |
+| | 451 | Te betalen btw | ... | |
 
 [^1]: Afgedankte elektrische en elektronische apparaten worden verder in de tekst als ‘AEEA’ afgekort, elektrische en elektronische apparaten als ‘EEA’.
 

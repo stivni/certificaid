@@ -29,18 +29,18 @@ provenance:
 
 # CBN-advies 2016/25 – Kapitaalvermindering voor vorming van een reserve voor een voorzienbaar verlies
 
-1.  Inleiding  
-2.  Analyse 
-  1.  Wettelijk en reglementair kader  
-  2.  Boekhoudkundige principes 
-    1.  Kapitaalvermindering door aanzuivering van het overgedragen verlies: principes  
-    2.  Toepassing in geval van vorming en aanwending van een reserve voor het voorzienbaar verlies van het boekjaar 
-      1.  Bepaling van het waarschijnlijke verlies van het boekjaar  
-      2.  Beperking tot 10 % van het geplaatst kapitaal na kapitaalvermindering (binnen de grenzen van het minimumkapitaal)
+1. Inleiding 
+2. Analyse 
+  1. Wettelijk en reglementair kader 
+  2. Boekhoudkundige principes 
+    1. Kapitaalvermindering door aanzuivering van het overgedragen verlies: principes 
+    2. Toepassing in geval van vorming en aanwending van een reserve voor het voorzienbaar verlies van het boekjaar 
+      1. Bepaling van het waarschijnlijke verlies van het boekjaar 
+      2. Beperking tot 10 % van het geplaatst kapitaal na kapitaalvermindering (binnen de grenzen van het minimumkapitaal)
 
-      3.      Opvolging van de reserve voor voorzienbaar verlies  
+      3. Opvolging van de reserve voor voorzienbaar verlies 
 
-------     Opvolging van de reserve voor voorzienbaar verlies  
+------ Opvolging van de reserve voor voorzienbaar verlies 
 
 ## Inleiding
 
@@ -52,11 +52,11 @@ In dit advies worden uitsluitend de Belgische boekhoudkundige aspecten onderzoch
 
 ### Wettelijk en reglementair kader
 
-Het Wetboek van vennootschappen (hierna: W.Venn.) regelt de vorming van een reserve om een voorzienbaar verlies te dekken voor bepaalde vormen van handelsvennootschappen.[^2]   
+Het Wetboek van vennootschappen (hierna: W.Venn.) regelt de vorming van een reserve om een voorzienbaar verlies te dekken voor bepaalde vormen van handelsvennootschappen.[^2] 
 
-Het betreft een onbeschikbare reserve[^3],  die niet mag worden uitgekeerd aan de aandeelhouders en die slechts mag worden aangewend om geleden verliezen aan te zuiveren of om het kapitaal te verhogen door omzetting van reserves.[^4] 
+Het betreft een onbeschikbare reserve[^3], die niet mag worden uitgekeerd aan de aandeelhouders en die slechts mag worden aangewend om geleden verliezen aan te zuiveren of om het kapitaal te verhogen door omzetting van reserves.[^4] 
 
-De Commissie beveelt aan om deze reserve op te nemen onder een subrekening van de onbeschikbare reserves met als omschrijving *Reserve voor voorzienbaar verlies[^5] * om na te gaan of de wettelijke voorwaarden voor de vorming en de aanwending van deze reserve worden nageleefd.  
+De Commissie beveelt aan om deze reserve op te nemen onder een subrekening van de onbeschikbare reserves met als omschrijving *Reserve voor voorzienbaar verlies[^5] * om na te gaan of de wettelijke voorwaarden voor de vorming en de aanwending van deze reserve worden nageleefd. 
 
 Voor het bedrag van deze reserve gelden twee beperkingen: het bedrag van de reserve mag niet hoger zijn dan 10 % van het geplaatst kapitaal *na *kapitaalvermindering *én *de reserve moet worden gevormd binnen de grenzen van het minimale kapitaal naargelang de rechtsvorm van de betrokken vennootschap.[^6] 
 
@@ -70,8 +70,8 @@ In dit advies heeft de Commissie gesteld om de interne mutaties binnen het eigen
 
 De Commissie heeft in het voormelde advies echter verduidelijkt dat het gebruik van de resultaatverwerking verplicht is in de twee volgende gevallen:
 
--     de verwerking van het resultaat dat is samengesteld uit het saldo van het overgedragen resultaat en het resultaat van het boekjaar; 
--     de onttrekking aan de eigen-vermogensbestanddelen die zijn bestemd voor uitkering of voor de totale of gedeeltelijke (boekhoudkundige) aanzuivering van de verliezen. 
+- de verwerking van het resultaat dat is samengesteld uit het saldo van het overgedragen resultaat en het resultaat van het boekjaar; 
+- de onttrekking aan de eigen-vermogensbestanddelen die zijn bestemd voor uitkering of voor de totale of gedeeltelijke (boekhoudkundige) aanzuivering van de verliezen. 
 
 #### Toepassing in geval van vorming en aanwending van een reserve voor het voorzienbaar verlies van het boekjaar
 
@@ -87,7 +87,7 @@ De reserve moet ook, in voorkomend geval, worden beperkt tot 10 % van het geplaa
 
 Aan de hand van de volgende formules kan het maximale bedrag worden berekend dat als reserve mag worden gevormd om een voorzienbaar verlies te dekken (bovendien moet dit bedrag binnen de grenzen blijven van het minimumkapitaal na afloop van de verrichting).[^9] 
 
-x = maximaal bedrag onbeschikbare reserve om een voorzienbaar verlies te dekken  
+x = maximaal bedrag onbeschikbare reserve om een voorzienbaar verlies te dekken 
 
 K = geplaatst kapitaal na kapitaalvermindering zoals volgt uit de authentieke akte tot wijziging van de statuten
 
@@ -99,18 +99,18 @@ Een vennootschap (NV) met 500.000 EUR kapitaal en 250.000 EUR overgedragen verli
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 690 | Overgedragen verlies van het vorige boekjaar | 250.000 |  |
-| aan | 141 | Overgedragen verlies |  | 250.000 |
+| | 690 | Overgedragen verlies van het vorige boekjaar | 250.000 | |
+| aan | 141 | Overgedragen verlies | | 250.000 |
 
 *Kapitaalvermindering en vorming van een reserve voor voorzienbaar verlies*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 100 | Geplaatst kapitaal | 270.000 |  |
-| aan | 791 | Onttrekking aan het kapitaal en aan de uitgiftepremies |  | 250.000 |
-|  | 1311X | Onbeschikbare reserve voor voorzienbaar verlies | 20.000 |  |
+| | 100 | Geplaatst kapitaal | 270.000 | |
+| aan | 791 | Onttrekking aan het kapitaal en aan de uitgiftepremies | | 250.000 |
+| | 1311X | Onbeschikbare reserve voor voorzienbaar verlies | 20.000 | |
 
-#####     Opvolging van de reserve voor voorzienbaar verlies
+##### Opvolging van de reserve voor voorzienbaar verlies
 
 De reserve voor voorzienbare verliezen kan enkel worden gebruikt om verliezen te compenseren of om het kapitaal terug te verhogen door omzetting van reserves in kapitaal wanneer blijkt dat de verliezen zich toch niet voordoen of minder omvangrijk blijken dan verwacht.[^11] 
 
@@ -118,14 +118,14 @@ De toewijzing van het werkelijke verlies aan de onbeschikbare reserve die hiervo
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 1311X | Onbeschikbare reserve voor voorzienbaar verlies | 20.000 |  |
-| aan | 792 | Onttrekking aan de reserve |  | 20.000 |
+| | 1311X | Onbeschikbare reserve voor voorzienbaar verlies | 20.000 | |
+| aan | 792 | Onttrekking aan de reserve | | 20.000 |
 
 Indien het verlies waarvoor deze reserve werd gevormd echter minder groot blijkt dan voorzien of indien er geen verlies is, kan het saldo van deze reserve opnieuw worden omgezet in kapitaal.
 
 De reserve kan, in voorkomend geval, op de balans van de vennootschap worden gehouden gedurende meerdere boekjaren indien het voorzienbaar karakter van de verliezen ongewijzigd blijft.
 
-Een dergelijk situatie kan zich bijvoorbeeld voordoen in het geval van een herstructurering die wordt gespreid over meerdere boekjaren.  
+Een dergelijk situatie kan zich bijvoorbeeld voordoen in het geval van een herstructurering die wordt gespreid over meerdere boekjaren. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 5 september 2016 ter consultatie werd gepubliceerd op de website van de CBN.
 

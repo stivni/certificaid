@@ -36,7 +36,7 @@ provenance:
 Aan de Commissie werd een vraag voorgelegd met betrekking tot de nieuwe regeling voor winstpremies in de programmawet van 25 december 2017, die werd gepubliceerd in het *Belgisch Staatsblad* van 29 december 2017 en opgenomen in de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers.[^2] 
 
 Deze nieuwe maatregel heeft tot doel het vennootschappen[^3]
- mogelijk te maken een deel of het geheel van hun winst toe te kennen aan hun werknemers in de vorm van een winstpremie. Dit om hen aan te moedigen en hen te belonen op een eenvoudige manier die zowel op sociaal als op fiscaal vlak interessant is.
+ mogelijk te maken een deel of het geheel van hun winst toe te kennen aan hun werknemers in de vorm van een winstpremie. Dit om hen aan te moedigen en hen te belonen op een eenvoudige manier die zowel op sociaal als op fiscaal vlak interessant is.
 
 ## De nieuwe winstpremie
 
@@ -51,22 +51,22 @@ Er bestaan twee types winstpremies. De identieke winstpremie is een “*premie w
 Op het vlak van de sociale zekerheid, is deze premie interessant voor zover er geen gewone sociale zekerheidsbijdragen verschuldigd zijn, maar enkel een solidariteitsbijdrage van 13,07 % van de premie ten laste van de werknemer.
 
 Op fiscaal vlak is deze premie onderworpen aan een aanslagvoet van 7 %[^13]
- (een met de inkomstenbelastingen gelijkgestelde belasting) voor de werknemer (en zal ze bovendien vermeld worden op het aanslagbiljet) en zal ze, voor de werkgever, niet aftrekbaar zijn in de vennootschapsbelasting, aangezien ze wordt beschouwd als een verworpen uitgave in de vennootschapsbelasting.
+ (een met de inkomstenbelastingen gelijkgestelde belasting) voor de werknemer (en zal ze bovendien vermeld worden op het aanslagbiljet) en zal ze, voor de werkgever, niet aftrekbaar zijn in de vennootschapsbelasting, aangezien ze wordt beschouwd als een verworpen uitgave in de vennootschapsbelasting.
 
 ## Boekhoudkundige aspecten
 
 De winstpremie komt neer op een resultaatverwerking (net zoals de regeling van dividenden en tantièmes). Het gaat om een loonbestanddeel waarmee geen rekening wordt gehouden voor de berekening van de loonnorm[^14]
- (bestanddeel dat is uitgesloten uit het begrip loonkost).
+ (bestanddeel dat is uitgesloten uit het begrip loonkost).
 
 In de boekhouding zal dit als volgt worden geboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 696 | Resultaatverwerking |  |  |
-| aan | 473 | Andere rechthebbenden |  |  |
+| | 696 | Resultaatverwerking | | |
+| aan | 473 | Andere rechthebbenden | | |
 
 De nieuwe maatregelen zijn op 1 januari 2018 in werking getreden, met dien verstande dat de premies die door deze wet werden ingevoerd, slechts kunnen worden toegekend op basis van de winst van het boekjaar dat ten vroegste op 30 september 2017[^15]
- werd afgesloten.
+ werd afgesloten.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 19 juni 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

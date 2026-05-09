@@ -50,77 +50,77 @@ gerelateerde_adviezen:
   - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
     datum: '2022-11-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen:  eigen boekhoudkundige verplichtingen (update)'
+  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
     datum: '2022-11-08'
   - titel: Boekhoudplichtige onderneming
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
     datum: '2019-09-26'
-  - titel: Gevolgen op gebied van financiële rapportering  als gevolg van de brexit
+  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
     datum: '2019-04-12'
 ---
 
 # CBN-advies 2024/02 – Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen
 
-1.  Inleiding  
-2.  Toepassing van het Belgisch boekhoudrecht op bijkantoren van buitenlandse verenigingen en stichtingen 
-  1.  Het principe: dubbele boekhouding  
-  2.  Vereenvoudigde boekhouding
+1. Inleiding 
+2. Toepassing van het Belgisch boekhoudrecht op bijkantoren van buitenlandse verenigingen en stichtingen 
+  1. Het principe: dubbele boekhouding 
+  2. Vereenvoudigde boekhouding
 
-  3.  Verplichtingen eigen aan buitenlandse verenigingen en stichtingen  
+  3. Verplichtingen eigen aan buitenlandse verenigingen en stichtingen 
 
-3.  Het begrip ‘bijkantoor’  
-4.  Publicatieverplichtingen van buitenlandse verenigingen en stichtingen 
-  1.  Voorafgaand aan de opening van het Belgisch bijkantoor  
-  2.  Jaarlijkse neerlegging van de jaarrekening  
-  3.  Geen neerleggingsverplichting in het land van herkomst  
+3. Het begrip ‘bijkantoor’ 
+4. Publicatieverplichtingen van buitenlandse verenigingen en stichtingen 
+  1. Voorafgaand aan de opening van het Belgisch bijkantoor 
+  2. Jaarlijkse neerlegging van de jaarrekening 
+  3. Geen neerleggingsverplichting in het land van herkomst 
 
-5.  Boekhoudplan van het bijkantoor  
-6.  Interne jaarrekening van het bijkantoor 
-  1.  Vorm en inhoud van de interne jaarrekening van het bijkantoor  
-  2.  Waarderingsregels gebruikt bij de opstelling van de interne jaarrekening 
-    1.  Bestemming van activa en passiva aan het bijkantoor  
-    2.  Waarderingscriteria van de aan het bijkantoor bestemde activa en passiva  
+5. Boekhoudplan van het bijkantoor 
+6. Interne jaarrekening van het bijkantoor 
+  1. Vorm en inhoud van de interne jaarrekening van het bijkantoor 
+  2. Waarderingsregels gebruikt bij de opstelling van de interne jaarrekening 
+    1. Bestemming van activa en passiva aan het bijkantoor 
+    2. Waarderingscriteria van de aan het bijkantoor bestemde activa en passiva 
 
-7.  Functionele valuta van het bijkantoor 
-  1.  De norm: de euro  
-  2.  De uitzondering: een andere munt dan de euro
+7. Functionele valuta van het bijkantoor 
+  1. De norm: de euro 
+  2. De uitzondering: een andere munt dan de euro
 
-    1.  Bepaling van de functionele valuta van het bijkantoor  
-    2.  Aanvraag tot afwijking 
-      1.  Bevoegde minister   
-      2.  Motivering van de aanvraag  
-      3.  Termijn voor het indienen van de aanvraag   
+    1. Bepaling van de functionele valuta van het bijkantoor 
+    2. Aanvraag tot afwijking 
+      1. Bevoegde minister 
+      2. Motivering van de aanvraag 
+      3. Termijn voor het indienen van de aanvraag 
 
-    3.  Gevolgen van de afwijking 
-      1.  Omrekening van de elementen van de balans en de resultatenrekening  
-      2.  Geldigheidsduur van de afwijking   
-      3.  Vermelding van de afwijking in de toelichting   
-      4.  Verlenging van de afwijking   
-      5.  Verandering van functionele valuta in de door de afwijking bestreken periode  
-      6.  Impact van de afwijking op de belastingaangifte van het bijkantoor  
+    3. Gevolgen van de afwijking 
+      1. Omrekening van de elementen van de balans en de resultatenrekening 
+      2. Geldigheidsduur van de afwijking 
+      3. Vermelding van de afwijking in de toelichting 
+      4. Verlenging van de afwijking 
+      5. Verandering van functionele valuta in de door de afwijking bestreken periode 
+      6. Impact van de afwijking op de belastingaangifte van het bijkantoor 
 
-8.  Verhouding tussen het moederbedrijf en het bijkantoor 
-  1.  Gebruik van de relatierekening of rekening-courant door een Belgisch bijkantoor  
-  2.  Resultaatbestemming van het bijkantoor  
+8. Verhouding tussen het moederbedrijf en het bijkantoor 
+  1. Gebruik van de relatierekening of rekening-courant door een Belgisch bijkantoor 
+  2. Resultaatbestemming van het bijkantoor 
 
-9.  Jaarverslag, controleverslag en sociale balans 
-  1.  Ontbreken van een jaarverslag specifiek van het bijkantoor  
-  2.  Ontbreken van een verslag van de commissaris specifiek van het bijkantoor  
-  3.  Verplichting tot opmaken en neerleggen van een sociale balans specifiek van het bijkantoor  
+9. Jaarverslag, controleverslag en sociale balans 
+  1. Ontbreken van een jaarverslag specifiek van het bijkantoor 
+  2. Ontbreken van een verslag van de commissaris specifiek van het bijkantoor 
+  3. Verplichting tot opmaken en neerleggen van een sociale balans specifiek van het bijkantoor 
 
-10.  Bewaarplicht voor boeken, rekeningen en verantwoordingsstukken eigen aan de activiteiten van het bijkantoor
+10. Bewaarplicht voor boeken, rekeningen en verantwoordingsstukken eigen aan de activiteiten van het bijkantoor
 
-11.  Sluiting van het bijkantoor  
+11. Sluiting van het bijkantoor 
 
 -- Verplichtingen eigen aan buitenlandse verenigingen en stichtingenHet begrip ‘bijkantoor’Publicatieverplichtingen van buitenlandse verenigingen en stichtingen-- Voorafgaand aan de opening van het Belgisch bijkantoor-- Jaarlijkse neerlegging van de jaarrekening-- Geen neerleggingsverplichting in het land van herkomstBoekhoudplan van het bijkantoorInterne jaarrekening van het bijkantoor-- Vorm en inhoud van de interne jaarrekening van het bijkantoor-- Waarderingsregels gebruikt bij de opstelling van de interne jaarrekening---- Bestemming van activa en passiva aan het bijkantoor---- Waarderingscriteria van de aan het bijkantoor bestemde activa en passivaFunctionele valuta van het bijkantoor-- De norm: de euro-- De uitzondering: een andere munt dan de euro
----- Bepaling van de functionele valuta van het bijkantoor---- Aanvraag tot afwijking------ Bevoegde minister ------ Motivering van de aanvraag------ Termijn voor het indienen van de aanvraag ---- Gevolgen van de afwijking------ Omrekening van de elementen van de balans en de resultatenrekening------ Geldigheidsduur van de afwijking ------ Vermelding van de afwijking in de toelichting ------ Verlenging van de afwijking ------ Verandering van functionele valuta in de door de afwijking bestreken periode------ Impact van de afwijking op de belastingaangifte van het bijkantoorVerhouding tussen het moederbedrijf en het bijkantoor-- Gebruik van de relatierekening of rekening-courant door een Belgisch bijkantoor-- Resultaatbestemming van het bijkantoorJaarverslag, controleverslag en sociale balans-- Ontbreken van een jaarverslag specifiek van het bijkantoor-- Ontbreken van een verslag van de commissaris specifiek van het bijkantoor-- Verplichting tot opmaken en neerleggen van een sociale balans specifiek van het bijkantoorBewaarplicht voor boeken, rekeningen en verantwoordingsstukken eigen aan de activiteiten van het bijkantoor
-Sluiting van het bijkantoor  
+---- Bepaling van de functionele valuta van het bijkantoor---- Aanvraag tot afwijking------ Bevoegde minister ------ Motivering van de aanvraag------ Termijn voor het indienen van de aanvraag ---- Gevolgen van de afwijking------ Omrekening van de elementen van de balans en de resultatenrekening------ Geldigheidsduur van de afwijking ------ Vermelding van de afwijking in de toelichting ------ Verlenging van de afwijking ------ Verandering van functionele valuta in de door de afwijking bestreken periode------ Impact van de afwijking op de belastingaangifte van het bijkantoorVerhouding tussen het moederbedrijf en het bijkantoor-- Gebruik van de relatierekening of rekening-courant door een Belgisch bijkantoor-- Resultaatbestemming van het bijkantoorJaarverslag, controleverslag en sociale balans-- Ontbreken van een jaarverslag specifiek van het bijkantoor-- Ontbreken van een verslag van de commissaris specifiek van het bijkantoor-- Verplichting tot opmaken en neerleggen van een sociale balans specifiek van het bijkantoorBewaarplicht voor boeken, rekeningen en verantwoordingsstukken eigen aan de activiteiten van het bijkantoor
+Sluiting van het bijkantoor 
 
 ## Inleiding
 
-Onderhavig advies beoogt het toepassingsgebied te verduidelijken van het Belgisch boekhoudrecht op buitenlandse verenigingen en stichtingen met een Belgisch bijkantoor. Naast de bespreking van het begrip “bijkantoor”, wordt voor deze verenigingen en stichtingen de publicatieverplichting met betrekking tot de jaarrekening in België toegelicht en wordt er verder ingegaan op de boekhoudkundige verplichtingen voor de Belgische bijkantoren in kwestie. 
+Onderhavig advies beoogt het toepassingsgebied te verduidelijken van het Belgisch boekhoudrecht op buitenlandse verenigingen en stichtingen met een Belgisch bijkantoor. Naast de bespreking van het begrip “bijkantoor”, wordt voor deze verenigingen en stichtingen de publicatieverplichting met betrekking tot de jaarrekening in België toegelicht en wordt er verder ingegaan op de boekhoudkundige verplichtingen voor de Belgische bijkantoren in kwestie. 
 
 Dit advies werd opgesteld naar analogie met de CBN-adviezen over de boekhoudkundige en jaarrekeningrechtelijke verplichtingen voor Belgische bijkantoren van buitenlandse vennootschappen.[^2] 
 
@@ -128,7 +128,7 @@ Onderhavig advies behandelt slechts de toepassing van het Belgisch boekhoud- en 
 
 ## Toepassing van het Belgisch boekhoudrecht op bijkantoren van buitenlandse verenigingen en stichtingen
 
-Voor buitenlandse verenigingen en stichtingen is het Belgisch boekhoudrecht alleen van toepassing “op hun in België gevestigde bijkantoren en centra van werkzaamheden”[^3]. Hun gezamenlijke bijkantoren en centra van werkzaamheden in België worden in boekhoudrechtelijke zin als één boekhoudplichtige onderneming beschouwd.[^4] Deze bijkantoren vormen boekhoudkundig (maar niet juridisch[^5]) een afzonderlijke entiteit die moet worden onderscheiden van de boekhoudkundige (en niet juridische) entiteit van de buitenlandse vereniging of stichting (het “moederbedrijf”). 
+Voor buitenlandse verenigingen en stichtingen is het Belgisch boekhoudrecht alleen van toepassing “op hun in België gevestigde bijkantoren en centra van werkzaamheden”[^3]. Hun gezamenlijke bijkantoren en centra van werkzaamheden in België worden in boekhoudrechtelijke zin als één boekhoudplichtige onderneming beschouwd.[^4] Deze bijkantoren vormen boekhoudkundig (maar niet juridisch[^5]) een afzonderlijke entiteit die moet worden onderscheiden van de boekhoudkundige (en niet juridische) entiteit van de buitenlandse vereniging of stichting (het “moederbedrijf”). 
 
 ### Het principe: dubbele boekhouding
 
@@ -140,7 +140,7 @@ Belgische bijkantoren van buitenlandse verenigingen en stichtingen die niet meer
 
 ### Verplichtingen eigen aan buitenlandse verenigingen en stichtingen
 
-Los van de verplichtingen eigen aan hun bijkantoren en centra van werkzaamheden in België, moeten de buitenlandse verenigingen en stichtingen, in toepassing van artikelen 2:23, 2:25, 2:26, 2:27, 2:28, 2:29, 3:50 en 3:54 WVV, sommige van hun akten, en hun jaarrekening openbaar maken in de vorm waarin deze rekeningen werden opgesteld, gecontroleerd en openbaar gemaakt volgens het recht van de Staat waaronder de vereniging of stichting valt[^16]. 
+Los van de verplichtingen eigen aan hun bijkantoren en centra van werkzaamheden in België, moeten de buitenlandse verenigingen en stichtingen, in toepassing van artikelen 2:23, 2:25, 2:26, 2:27, 2:28, 2:29, 3:50 en 3:54 WVV, sommige van hun akten, en hun jaarrekening openbaar maken in de vorm waarin deze rekeningen werden opgesteld, gecontroleerd en openbaar gemaakt volgens het recht van de Staat waaronder de vereniging of stichting valt[^16]. 
 
 In tegenstelling tot de jaarrekening van hun bijkantoren en centra van werkzaamheden in België, moet de jaarrekening van de buitenlandse verenigingen en stichtingen bijgevolg niet voldoen aan de bepalingen van het KB WVV.
 
@@ -151,13 +151,13 @@ Bij gebrek aan een definitie in de wetgeving (noch het WER, noch zijn uitvoering
 Volgens het Hof[^18] vereist het begrip ‘bijkantoor’ de vier volgende cumulatieve voorwaarden:
 
 1. “het bestaan van een centrum van werkzaamheid dat zich naar buiten toe duurzaam manifesteert als het verlengstuk van een moederbedrijf. 
-2. Dat centrum moet beschikken over een eigen directie [onderworpen aan het toezicht en de leiding van het moederbedrijf]   
-3. en materiële uitrusting, zodat het zaken kan doen met derden,  
+2. Dat centrum moet beschikken over een eigen directie [onderworpen aan het toezicht en de leiding van het moederbedrijf] 
+3. en materiële uitrusting, zodat het zaken kan doen met derden, 
 4. [ofschoon wetend dat eventueel een rechtsband met het in het buitenland gevestigde moederbedrijf zal ontstaan] zonder dat die zich rechtstreeks tot het moederbedrijf hoeven te wenden [en zaken kunnen doen in bedoeld centrum, dat het verlengstuk ervan vormt]”. 
 
 Het Hof heeft beslist dat er geen sprake is van onderworpenheid aan de leiding en het toezicht van het moederbedrijf
 
-“wanneer de vertegenwoordiger ‘zijn werkzaamheid en zijn arbeidstijd in wezen vrij kan organiseren’ [...] zonder daarbij aan de instructies van het moederbedrijf te zijn gebonden; wanneer het hem vrij staat verscheidene firma's te vertegenwoordigen die bij de [productie] en verkoop van gelijke of soortgelijke [producten] met elkaar in concurrentie staan, en wanneer hij niet daadwerkelijk betrokken is bij de afwikkeling en uitvoering van de overeenkomsten, doch zich in wezen ertoe beperkt bestellingen door te geven aan de door hem vertegenwoordigde ondernemer”[^19].  
+“wanneer de vertegenwoordiger ‘zijn werkzaamheid en zijn arbeidstijd in wezen vrij kan organiseren’ [...] zonder daarbij aan de instructies van het moederbedrijf te zijn gebonden; wanneer het hem vrij staat verscheidene firma's te vertegenwoordigen die bij de [productie] en verkoop van gelijke of soortgelijke [producten] met elkaar in concurrentie staan, en wanneer hij niet daadwerkelijk betrokken is bij de afwikkeling en uitvoering van de overeenkomsten, doch zich in wezen ertoe beperkt bestellingen door te geven aan de door hem vertegenwoordigde ondernemer”[^19]. 
 
 ## Publicatieverplichtingen van buitenlandse verenigingen en stichtingen
 
@@ -187,7 +187,7 @@ De Commissie verduidelijkt dat wanneer de buitenlandse vereniging (of stichting)
 
 Het opnemen van de rekeningen van het bijkantoor in de boekhouding van het buitenlands moederbedrijf kan in de praktijk verschillende problemen met zich meebrengen omwille van verschillen tussen het boekhoudplan van het buitenlandse moederbedrijf en het boekhoudplan van het Belgische bijkantoor dat moet overeenstemmen met het MAR[^28].
 
-De Commissie verwijst hierbij naar CBN-advies 2010/20[^29]: 
+De Commissie verwijst hierbij naar CBN-advies 2010/20[^29]: 
 
 “[Een Belgisch bijkantoor] mag een van het MAR verschillend rekeningenplan gebruiken, op voorwaarde dat zij op ieder ogenblik d.m.v. een concordantietabel een proef- en saldibalans kan voorleggen, opgesteld conform de voorschriften van het koninklijk besluit van 12 september 1983 m.b.t. het MAR[^30], en dit zonder verplichte “één-op-één relatie”.[^31] 
 
@@ -199,7 +199,7 @@ Wat betreft de taal waarin de boekhouding wordt gevoerd, wenst de Commissie te b
 
 ### Vorm en inhoud van de interne jaarrekening van het bijkantoor
 
-Een Belgisch bijkantoor kan[^35] de interne jaarrekening opmaken overeenkomstig de Belgische wettelijke schema’s. Wat de inhoud en de vorm van de jaarrekening betreft, beveelt de Commissie aan dat deze worden bepaald op basis van de criteria inzake personeelsbestand, jaaromzet en balanstotaal van de buitenlandse vereniging (of stichting) in haar geheel, en niet enkel van het Belgische bijkantoor. 
+Een Belgisch bijkantoor kan[^35] de interne jaarrekening opmaken overeenkomstig de Belgische wettelijke schema’s. Wat de inhoud en de vorm van de jaarrekening betreft, beveelt de Commissie aan dat deze worden bepaald op basis van de criteria inzake personeelsbestand, jaaromzet en balanstotaal van de buitenlandse vereniging (of stichting) in haar geheel, en niet enkel van het Belgische bijkantoor. 
 
 ### Waarderingsregels gebruikt bij de opstelling van de interne jaarrekening
 
@@ -211,7 +211,7 @@ Het bestuursorgaan van de buitenlandse vereniging (of stichting) dient in princi
 
 De activa en passiva die een buitenlandse vereniging (of stichting) bestemt aan haar Belgisch bijkantoor, maken geen deel uit van een overeenkomst in juridische zin, bij gebrek aan rechtspersoonlijkheid specifiek voor het Belgische bijkantoor, verschillend van die van het moederbedrijf.
 
-Het Belgisch boekhoudrecht definieert of bepaalt geen enkel bestemmingscriterium voor de activa en passiva. Bij gebrek aan wettelijke of reglementaire bepalingen dient het bestuursorgaan van de buitenlandse vereniging (of stichting) te bepalen welke activa en passiva bestemd worden aan het Belgisch bijkantoor. 
+Het Belgisch boekhoudrecht definieert of bepaalt geen enkel bestemmingscriterium voor de activa en passiva. Bij gebrek aan wettelijke of reglementaire bepalingen dient het bestuursorgaan van de buitenlandse vereniging (of stichting) te bepalen welke activa en passiva bestemd worden aan het Belgisch bijkantoor. 
 
 De Commissie brengt in herinnering dat de boekhoudprincipes volgens dewelke elke boeking gestaafd wordt door een verantwoordingsstuk[^38] en elk verantwoordingsstuk moet beantwoorden aan de realiteit[^39], van toepassing zijn op de boekingen betreffende de interne verrichtingen tussen het moederbedrijf en haar bijkantoor.[^40] 
 
@@ -219,7 +219,7 @@ Dit impliceert dat als de buitenlandse vereniging (of stichting) (het moederbedr
 
 #### Waarderingscriteria van de aan het bijkantoor bestemde activa en passiva
 
-De bestemde activa worden door het bijkantoor opgenomen in de balans tegen hun “inbrengwaarde”, d.i. “de waarde van de goederen bij de inbreng of de bestemming”[^42]. 
+De bestemde activa worden door het bijkantoor opgenomen in de balans tegen hun “inbrengwaarde”, d.i. “de waarde van de goederen bij de inbreng of de bestemming”[^42]. 
 
 De inbrengwaarde mag echter niet hoger zijn dan “de prijs die op het ogenblik van de inbreng of de bestemming voor de aankoop van de betrokken goederen op de markt zou moeten worden betaald”.[^43] Deze beperking is bedoeld om “overwaarderingen te vermijden”.[^44] 
 
@@ -229,7 +229,7 @@ De inbrengwaarde mag echter niet hoger zijn dan “de prijs die op het ogenblik 
 
 De Belgische bijkantoren dienen hun boekhouding[^45] te voeren en hun interne jaarrekening op te maken in euro.[^46] ,[^47] 
 
-Artikel 3:5 KB WVV bepaalt immers het volgende: “in de jaarrekening worden de bedragen in euro uitgedrukt”. Daarentegen bepaalt geen enkele wettelijke of reglementaire bepaling expliciet dat de boekhouding in euro gevoerd moet worden. Na lectuur van artikelen III.89, § 2 en III.90, § 1 WER in samenhang met artikelen 3:4 en 3:5 KB WVV, blijkt evenwel dat de balans en de resultatenrekening rechtstreeks in verband staan met de boekhouding en de boekhoudkundige synthesestaten die de boekingen samenvatten. De conclusie is dan ook steeds geweest dat de opstelling van een jaarrekening in euro impliceerde dat ook de boekhouding in die munt zou worden gevoerd. 
+Artikel 3:5 KB WVV bepaalt immers het volgende: “in de jaarrekening worden de bedragen in euro uitgedrukt”. Daarentegen bepaalt geen enkele wettelijke of reglementaire bepaling expliciet dat de boekhouding in euro gevoerd moet worden. Na lectuur van artikelen III.89, § 2 en III.90, § 1 WER in samenhang met artikelen 3:4 en 3:5 KB WVV, blijkt evenwel dat de balans en de resultatenrekening rechtstreeks in verband staan met de boekhouding en de boekhoudkundige synthesestaten die de boekingen samenvatten. De conclusie is dan ook steeds geweest dat de opstelling van een jaarrekening in euro impliceerde dat ook de boekhouding in die munt zou worden gevoerd. 
 
 Geen enkele wettelijke of reglementaire bepaling verbiedt het Belgische bijkantoor echter om zijn dagelijkse boekhouding te voeren in een vreemde munt zolang de boekhoudkundige synthesestaten opgemaakt worden in euro.[^48] 
 
@@ -239,7 +239,7 @@ Indien de personen belast met het beheer van het Belgische bijkantoor menen dat 
 
 #### Bepaling van de functionele valuta van het bijkantoor
 
-De functionele valuta is de munt van de meest prominente economische omgeving waar het Belgische bijkantoor actief is. Deze munt weerspiegelt de onderliggende en relevante transacties, gebeurtenissen en voorwaarden voor het bijkantoor. De functionele valuta wordt door het bijkantoor bepaald bij het opmaken van haar interne jaarrekening. 
+De functionele valuta is de munt van de meest prominente economische omgeving waar het Belgische bijkantoor actief is. Deze munt weerspiegelt de onderliggende en relevante transacties, gebeurtenissen en voorwaarden voor het bijkantoor. De functionele valuta wordt door het bijkantoor bepaald bij het opmaken van haar interne jaarrekening. 
 
 De Commissie heeft de bepalende elementen voor de functionele valuta opgelijst in CBN-advies 117/3[^51].
 
@@ -249,7 +249,7 @@ Het gaat bijvoorbeeld om een Belgisch bijkantoor dat effectief de hoofdzaak van 
 
 #### Aanvraag tot afwijking
 
-##### Bevoegde minister 
+##### Bevoegde minister 
 
 De aanvraag tot afwijking moet worden ingediend bij de minister bevoegd voor Justitie of zijn afgevaardigde.[^53] 
 
@@ -259,11 +259,11 @@ De minister bevoegd voor Justitie (of zijn afgevaardigde) kent de afwijking toe 
 
 De personen belast met het beheer van het bijkantoor dienen in de aanvraag tot afwijking oordeelkundig te verantwoorden dat de functionele valuta deze is die het meest getrouwe beeld geeft van de economische gevolgen van onderliggende verrichtingen, gebeurtenissen en omstandigheden. Het gebruik van de functionele valuta zal in eerste instantie gemotiveerd moeten worden door primaire aanwijzingen, die werden uiteengezet in CBN-advies 117/3, en in tweede instantie door andere in dat advies aangereikte elementen.[^55] 
 
-Bij de aanvraag tot afwijking dient een kopie van de interne jaarrekening van het laatst afgesloten boekjaar van het bijkantoor te worden gevoegd, behalve wanneer de aanvraag het eerste boekjaar van het bijkantoor betreft. 
+Bij de aanvraag tot afwijking dient een kopie van de interne jaarrekening van het laatst afgesloten boekjaar van het bijkantoor te worden gevoegd, behalve wanneer de aanvraag het eerste boekjaar van het bijkantoor betreft. 
 
-##### Termijn voor het indienen van de aanvraag 
+##### Termijn voor het indienen van de aanvraag 
 
-De aanvraag tot afwijking dient te worden ingediend vóór afsluiting van het boekjaar waarvoor de afwijking wordt gevraagd. Als de aanvraag te laat wordt ingediend, zal de Commissie de minister bevoegd voor Justitie of zijn afgevaardigde adviseren deze te verwerpen. 
+De aanvraag tot afwijking dient te worden ingediend vóór afsluiting van het boekjaar waarvoor de afwijking wordt gevraagd. Als de aanvraag te laat wordt ingediend, zal de Commissie de minister bevoegd voor Justitie of zijn afgevaardigde adviseren deze te verwerpen. 
 
 #### Gevolgen van de afwijking
 
@@ -277,21 +277,21 @@ De Commissie staat toe dat de omzetting gebeurt op datum van de openingsbalans e
 
 De verrichtingen van het lopende boekjaar die reeds uitgevoerd werden in de nieuwe functionele valuta nog voor het verkrijgen van de afwijking, moeten niet omgerekend worden; ze worden geboekt op hun oorspronkelijke waarde. Verrichtingen die uitgevoerd zijn in euro gedurende het boekjaar moeten daarentegen omgerekend worden volgens de toepasselijke regels voor deviezenverrichtingen.[^59] 
 
-##### Geldigheidsduur van de afwijking 
+##### Geldigheidsduur van de afwijking 
 
-Elke afwijking voor het voeren van de boekhouding en het opstellen van de jaarrekening in een andere munt dan de euro, zal slechts voor drie opeenvolgende boekjaren toegekend worden. 
+Elke afwijking voor het voeren van de boekhouding en het opstellen van de jaarrekening in een andere munt dan de euro, zal slechts voor drie opeenvolgende boekjaren toegekend worden. 
 
-Indien de aanvraag het eerste boekjaar van het bijkantoor betreft, zal de afwijking bij wijze van uitzondering slechts geldig zijn voor dat enkele boekjaar. 
+Indien de aanvraag het eerste boekjaar van het bijkantoor betreft, zal de afwijking bij wijze van uitzondering slechts geldig zijn voor dat enkele boekjaar. 
 
-##### Vermelding van de afwijking in de toelichting 
+##### Vermelding van de afwijking in de toelichting 
 
 Wanneer het bijkantoor geniet van een afwijking, moet zij deze vermelden bij de waarderingsregels in de toelichting bij de interne jaarrekening.[^60] 
 
 De Commissie is van oordeel dat deze vermelding ook een bevestiging moet bevatten van de personen belast met het beheer van het bijkantoor dat de redenen waarom de afwijking werd verleend onverkort van toepassing zijn op de jaarrekening in kwestie.[^61] 
 
-##### Verlenging van de afwijking 
+##### Verlenging van de afwijking 
 
-Het bijkantoor dat een verlenging van de toegekende afwijking wenst te verkrijgen, dient een aanvraag in te dienen voor afsluitdatum van het boekjaar waarvoor de verlening wordt aangevraagd. 
+Het bijkantoor dat een verlenging van de toegekende afwijking wenst te verkrijgen, dient een aanvraag in te dienen voor afsluitdatum van het boekjaar waarvoor de verlening wordt aangevraagd. 
 
 In de aanvraag dient het bijkantoor gegevens te verschaffen die toestaan om te beoordelen of nog steeds voldaan is aan de voorwaarden die aan de basis liggen van de toegestane afwijking. Zoals voor elke aanvraag tot afwijking dient het bijkantoor een kopie bij te voegen van de interne jaarrekening van het laatste afgesloten boekjaar.
 
@@ -307,49 +307,49 @@ Indien het bijkantoor geniet van een afwijking wat betreft de functionele valuta
 
 ## Verhouding tussen het moederbedrijf en het bijkantoor
 
-De verhouding tussen het moederbedrijf en zijn bijkantoor maakt het voorwerp uit van een zogenaamde “relatierekening” die voor het moederbedrijf echter een andere werking heeft dan voor zijn bijkantoor. Op niveau van het moederbedrijf, heeft de relatierekening de eigenschappen van een wachtrekening, terwijl ze voor het bijkantoor dienst doet als rekening-courant.   
+De verhouding tussen het moederbedrijf en zijn bijkantoor maakt het voorwerp uit van een zogenaamde “relatierekening” die voor het moederbedrijf echter een andere werking heeft dan voor zijn bijkantoor. Op niveau van het moederbedrijf, heeft de relatierekening de eigenschappen van een wachtrekening, terwijl ze voor het bijkantoor dienst doet als rekening-courant. 
 
-De Commissie ontleedt hieronder de boekhoudkundige gevolgen van de bestaande verhoudingen tussen het moederbedrijf en zijn bijkantoor. 
+De Commissie ontleedt hieronder de boekhoudkundige gevolgen van de bestaande verhoudingen tussen het moederbedrijf en zijn bijkantoor. 
 
 ### Gebruik van de relatierekening of rekening-courant door een Belgisch bijkantoor
 
 Alle geboekte verrichtingen tussen het Belgisch bijkantoor en zijn (buitenlands) moederbedrijf zullen worden weergegeven in de interne jaarrekening van het bijkantoor. De boekhouding van het bijkantoor zal dan ook niet moeten worden aangepast wat betreft de uitgevoerde verrichtingen tussen het bijkantoor en zijn (buitenlands) moederbedrijf. Binnen de rekeningen van het bijkantoor fungeert de relatierekening over het algemeen als een rekening-courant en geeft ze de middelen weer die het moederbedrijf ter beschikking stelt van het bijkantoor, hetzij voor de duurzame financiering van de infrastructuur, hetzij voor de courante kasbehoeften. In de boekhouding van het bijkantoor kan de relatierekening zowel een debet- als een creditsaldo vertonen.
 
-Als de rekening-courant een creditsaldo vertoont op de inventarisdatum, wordt dit saldo opgenomen in de interne jaarrekening van het bijkantoor, bij rekeningen 489 *Interne schulden ten aanzien van het moederbedrijf*[^64] en/of 179 *Interne schulden ten aanzien van het moederbedrijf[^65] * afhankelijk of het een schuld is op respectievelijk minder of meer dan één jaar.
+Als de rekening-courant een creditsaldo vertoont op de inventarisdatum, wordt dit saldo opgenomen in de interne jaarrekening van het bijkantoor, bij rekeningen 489 *Interne schulden ten aanzien van het moederbedrijf*[^64] en/of 179 *Interne schulden ten aanzien van het moederbedrijf[^65] * afhankelijk of het een schuld is op respectievelijk minder of meer dan één jaar.
 
-Als de rekening-courant een debetsaldo vertoont, met name wanneer het bijkantoor een vordering heeft uitstaan op zijn moederbedrijf, wordt dat debetsaldo een actiefbestanddeel van het bijkantoor. 
+Als de rekening-courant een debetsaldo vertoont, met name wanneer het bijkantoor een vordering heeft uitstaan op zijn moederbedrijf, wordt dat debetsaldo een actiefbestanddeel van het bijkantoor. 
 
 De Commissie is van oordeel dat, als de vordering bedoeld is om de activiteit van het moederbedrijf duurzaam te steunen, zij wordt opgenomen bij rekening 2810 *Interne vorderingen ten aanzien van het moederbedrijf*.[^66] 
 
-In het tegenovergestelde geval, worden rekeningen 416 *Interne vorderingen ten aanzien van het moederbedrijf[^67] * en/of 2910 *Interne vorderingen ten aanzien van het moederbedrijf[^68] * gebruikt afhankelijk of het een vordering is van respectievelijk minder of meer dan één jaar.
+In het tegenovergestelde geval, worden rekeningen 416 *Interne vorderingen ten aanzien van het moederbedrijf[^67] * en/of 2910 *Interne vorderingen ten aanzien van het moederbedrijf[^68] * gebruikt afhankelijk of het een vordering is van respectievelijk minder of meer dan één jaar.
 
-Als op de inventarisdatum blijkt dat er in de boekhouding zowel een debiteurs- als crediteurspositie is opgenomen tussen het bijkantoor en het moederbedrijf, dienen deze verrekend te worden ten belope van het kleinste bedrag. Bijgevolg bestaat er na afloop van deze verrekening nog één vorderings- of schuldpositie ten belope van het saldo. 
+Als op de inventarisdatum blijkt dat er in de boekhouding zowel een debiteurs- als crediteurspositie is opgenomen tussen het bijkantoor en het moederbedrijf, dienen deze verrekend te worden ten belope van het kleinste bedrag. Bijgevolg bestaat er na afloop van deze verrekening nog één vorderings- of schuldpositie ten belope van het saldo. 
 
 ### Resultaatbestemming van het bijkantoor
 
-Het bijkantoor behaalt zijn resultaat op naam en voor rekening van de buitenlandse vereniging of stichting. 
+Het bijkantoor behaalt zijn resultaat op naam en voor rekening van de buitenlandse vereniging of stichting. 
 
-De bestemming van dit resultaat wat het bijkantoor betreft is dus beperkt voor zover de bestemming enkel kan uitgevoerd worden voor rekening van het moederbedrijf. 
+De bestemming van dit resultaat wat het bijkantoor betreft is dus beperkt voor zover de bestemming enkel kan uitgevoerd worden voor rekening van het moederbedrijf. 
 
-Als het bijkantoor winst behaalt, beveelt de Commissie, boekhoudkundig gezien, het gebruik aan van daartoe gecreëerde rekening 697 *Over te dragen winst aan het moederbedrijf*, en rekening 489 *Interne schuld ten aanzien van het moederbedrijf*; als het bijkantoor verlies maakt, beveelt de Commissie het gebruik aan van daartoe gecreëerde rekening 797 *Over te dragen verlies aan het moederbedrijf* en rekening 2810 *Interne vorderingen ten aanzien van het moederbedrijf*. 
+Als het bijkantoor winst behaalt, beveelt de Commissie, boekhoudkundig gezien, het gebruik aan van daartoe gecreëerde rekening 697 *Over te dragen winst aan het moederbedrijf*, en rekening 489 *Interne schuld ten aanzien van het moederbedrijf*; als het bijkantoor verlies maakt, beveelt de Commissie het gebruik aan van daartoe gecreëerde rekening 797 *Over te dragen verlies aan het moederbedrijf* en rekening 2810 *Interne vorderingen ten aanzien van het moederbedrijf*. 
 
 De Commissie is van oordeel dat het gebruik van rekeningen 489 en 2810 moet primeren op het gebruik van rekening 14 *Overgedragen winst (verlies)*. In het geval van overgedragen winst wordt op die manier een interne schuld ten aanzien van het moederbedrijf uitgedrukt, terwijl in het geval van overgedragen verlies een interne vordering ten aanzien van het moederbedrijf wordt geboekt.
 
-De Commissie is evenwel van oordeel dat het gebruik van rekening 14 *Overgedragen winst (verlies)* de voorkeur geniet in het geval waarin het bijkantoor het door haar gerealiseerde resultaat niet overdraagt aan het moederbedrijf of indien het verlies niet rechtstreeks wordt gedragen door het moederbedrijf. Voormeld gebruik biedt aldus de mogelijkheid het door het bijkantoor gerealiseerde resultaat te volgen. 
+De Commissie is evenwel van oordeel dat het gebruik van rekening 14 *Overgedragen winst (verlies)* de voorkeur geniet in het geval waarin het bijkantoor het door haar gerealiseerde resultaat niet overdraagt aan het moederbedrijf of indien het verlies niet rechtstreeks wordt gedragen door het moederbedrijf. Voormeld gebruik biedt aldus de mogelijkheid het door het bijkantoor gerealiseerde resultaat te volgen. 
 
 ## Jaarverslag, controleverslag en sociale balans
 
 ### Ontbreken van een jaarverslag specifiek van het bijkantoor
 
-Noch het bestuursorgaan van de vennootschap naar buitenlands recht, noch de personen belast met het beheer van het Belgische bijkantoor moeten een jaarverslag opmaken specifiek voor de activiteiten van het Belgische bijkantoor. 
+Noch het bestuursorgaan van de vennootschap naar buitenlands recht, noch de personen belast met het beheer van het Belgische bijkantoor moeten een jaarverslag opmaken specifiek voor de activiteiten van het Belgische bijkantoor. 
 
-Het WVV voorziet geen verplichting dat Belgische bijkantoren van buitenlandse verenigingen (of stichtingen) een jaarverslag dienen op te maken. 
+Het WVV voorziet geen verplichting dat Belgische bijkantoren van buitenlandse verenigingen (of stichtingen) een jaarverslag dienen op te maken. 
 
 ### Ontbreken van een verslag van de commissaris specifiek van het bijkantoor
 
 De buitenlandse vereniging (of stichting) moet geen commissaris benoemen enkel en alleen om de rekeningen van het Belgische bijkantoor te controleren. In geen enkele bepaling van het WVV worden Belgische bijkantoren namelijk verplicht een commissaris te benoemen.[^69] 
 
-De Commissie benadrukt dat het aan de buitenlandse vereniging (of stichting) toebehoort in orde te zijn met de nationale wetgeving betreffende de controle van de eigen rekeningen, waartoe onvermijdelijk ook die van het Belgische bijkantoor behoren. 
+De Commissie benadrukt dat het aan de buitenlandse vereniging (of stichting) toebehoort in orde te zijn met de nationale wetgeving betreffende de controle van de eigen rekeningen, waartoe onvermijdelijk ook die van het Belgische bijkantoor behoren. 
 
 ### Verplichting tot opmaken en neerleggen van een sociale balans specifiek van het bijkantoor
 
@@ -363,9 +363,9 @@ De buitenlandse vereniging of stichting dient de boeken, rekeningen en verantwoo
 
 Het Belgisch boekhoudrecht schrijft echter niet voor dat de materiële verrichtingen voor het inschrijven en verwerken van de gegevens van de bijkantoren in België moeten geschieden.[^75] 
 
-Bijgevolg wijst niets erop dat de buitenlandse vereniging (of stichting) de boekhouding van het moederbedrijf, van haar Belgische bijkantoor en van haar andere bijkantoren verspreid over verschillende staten niet zou mogen centraliseren op één gegevensdrager die zich in het buitenland bevindt. Dit alles op voorwaarde dat de boeken, rekeningen en verantwoordingsstukken van het Belgische bijkantoor (ook) meteen toegankelijk zijn in België en dat ze er bewaard worden hetzij in origineel, hetzij in afschrift, overeenkomstig de wettelijke en reglementaire bepalingen hierboven uiteengezet. 
+Bijgevolg wijst niets erop dat de buitenlandse vereniging (of stichting) de boekhouding van het moederbedrijf, van haar Belgische bijkantoor en van haar andere bijkantoren verspreid over verschillende staten niet zou mogen centraliseren op één gegevensdrager die zich in het buitenland bevindt. Dit alles op voorwaarde dat de boeken, rekeningen en verantwoordingsstukken van het Belgische bijkantoor (ook) meteen toegankelijk zijn in België en dat ze er bewaard worden hetzij in origineel, hetzij in afschrift, overeenkomstig de wettelijke en reglementaire bepalingen hierboven uiteengezet. 
 
-Artikel III.86, vierde lid WER bepaalt dat de verantwoordingsstukken gedurende zeven jaar bewaard dienen te worden. De Commissie is van oordeel deze termijn van toepassing is voor de verantwoordingsstukken m.b.t. interne verrichtingen tussen het moederbedrijf en het Belgische bijkantoor. 
+Artikel III.86, vierde lid WER bepaalt dat de verantwoordingsstukken gedurende zeven jaar bewaard dienen te worden. De Commissie is van oordeel deze termijn van toepassing is voor de verantwoordingsstukken m.b.t. interne verrichtingen tussen het moederbedrijf en het Belgische bijkantoor. 
 
 De Commissie benadrukt echter dat de wettelijke bewaringstermijnen minimumtermijnen zijn. Zo is het de taak van het bestuursorgaan van de buitenlandse vereniging (of stichting) en van de personen belast met het bestuur van het Belgische bijkantoor om een passend archiveringsbeleid uit te werken en, in voorkomend geval, deze stukken langer te bewaren in functie van hun specifieke belang (met name in geval van geschillen).
 
@@ -373,7 +373,7 @@ De Commissie benadrukt echter dat de wettelijke bewaringstermijnen minimumtermij
 
 Wanneer de buitenlandse vereniging (of stichting) haar Belgische bijkantoor sluit, moet zij deze sluiting binnen de dertig dagen openbaar maken door middel van neerlegging ter griffie van de ondernemingsrechtbank.[^76] 
 
-Het WVV schrijft in dit geval niets anders meer voor. 
+Het WVV schrijft in dit geval niets anders meer voor. 
 
 De buitenlandse vereniging (of stichting) dient daarom haar statutaire jaarrekening betreffende de periode die loopt vanaf het begin van het boekjaar waarin de sluiting plaatsvindt tot de sluitingsdatum van het bijkantoor, niet neer te leggen bij de Balanscentrale.
 

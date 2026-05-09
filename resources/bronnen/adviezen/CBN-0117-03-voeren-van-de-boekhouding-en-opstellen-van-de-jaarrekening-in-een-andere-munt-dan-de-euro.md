@@ -37,7 +37,7 @@ gerelateerde_adviezen:
   - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
     datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen:  eigen boekhoudkundige verplichtingen (update)'
+  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
     datum: '2022-11-08'
   - titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
@@ -69,14 +69,14 @@ In navolging van de op 04.07.2008 door Minister Van Quickenborne gegeven sectora
 #### Definitie van de functionele valuta
 
 De boekhouding van een vennootschap alsook de jaarrekening dienen opgesteld te worden in de functionele valuta. De functionele valuta is de valuta in de voornaamste economische omgeving waarin de entiteit actief is.[^5]
- Bij de opstelling van de jaarrekening bepaalt iedere entiteit de functionele valuta. De functionele valuta van een entiteit weerspiegelt de voor haar relevante onderliggende transacties, gebeurtenissen en omstandigheden.[^6] 
+ Bij de opstelling van de jaarrekening bepaalt iedere entiteit de functionele valuta. De functionele valuta van een entiteit weerspiegelt de voor haar relevante onderliggende transacties, gebeurtenissen en omstandigheden.[^6] 
 
 #### Bepaling van de functionele valuta
 
 De bepaling van de functionele valuta moet gebeuren op basis van volgende factoren.[^7] 
 
 1. De valuta die hoofdzakelijk bepalend is voor de verkoopprijs van goederen en diensten (dit zal vaak de valuta zijn waarin de verkoopprijs van de goederen en diensten wordt uitgedrukt en afgewikkeld). 
-2. De valuta van het land waarvan de  concurrentiekrachten en de regelgeving hoofdzakelijk de verkoopprijs van haar goederen en diensten bepalen. 
+2. De valuta van het land waarvan de concurrentiekrachten en de regelgeving hoofdzakelijk de verkoopprijs van haar goederen en diensten bepalen. 
 3. De valuta waarin middelen uit (inzonderheid intragroeps-) financieringsactiviteiten (dat wil zeggen bij uitgifte van schuldbewijzen en eigen-vermogensinstrumenten) worden gegenereerd. 
 4. De valuta die hoofdzakelijk bepalend is voor de arbeids- en materiaalkosten, en andere kosten voor de levering van goederen en de verlening van diensten (dit zal vaak de valuta zijn waarin dergelijke kosten zijn uitgedrukt en worden afgewikkeld). 
 5. De valuta waarin ontvangsten uit operationele activiteiten gewoonlijk worden aangehouden. 
@@ -87,12 +87,12 @@ Wanneer bovengenoemde aanwijzingen een gemengd beeld geven en er onduidelijkheid
 
 Hierbij kan tevens gesteld worden dat niet noodzakelijk alle primaire voorwaarden tegelijkertijd moeten vervuld zijn.
 
-De Commissie herinnert tevens aan haar vorige adviezen: 
+De Commissie herinnert tevens aan haar vorige adviezen: 
 
 - de Commissie was in het verleden reeds van oordeel dat het feit dat een in ons land gevestigde industriële onderneming haar aankopen en haar omzet grotendeels met het buitenland verwezenlijkt, als dusdanig niet volstaat om de toekenning te rechtvaardigen van een afwijking die de onderneming zou toelaten haar jaarrekening op te stellen in een vreemde munt.[^9]
- Tenzij de transacties steevast in een andere munt dan de euro zouden afgewikkeld worden. 
-- er werd tevens reeds onderstreept dat de regel dat de jaarrekening dient opgesteld te worden in euro niet de mogelijkheid uitsloot hierop een afwijking toe te staan wanneer het bedrijf van een onderneming in hoofdzaak wordt uitgeoefend buiten de euro muntzone en dat het grootste deel van haar tegoeden en verplichtingen en van haar resultaten in deze muntzone moeten worden gesitueerd. In deze gevallen speelt de gewenste coherentie met de euro context niet of nauwelijks.[^10]  
-- tevens verduidelijkte de Commissie reeds dat de aanvragende onderneming de meeste van de werkzaamheden in een andere muntzone dan de euro muntzone moet verrichten en dat de meeste van haar tegoeden, verbintenissen en resultaten op die muntzone betrekking moeten hebben. De Commissie is immers van oordeel dat een vennootschap die om een afwijking verzoekt, moet kunnen aantonen dat zij daadwerkelijk de meeste van haar activiteiten in die andere muntzone dan de euro muntzone verricht.[^11]  
+ Tenzij de transacties steevast in een andere munt dan de euro zouden afgewikkeld worden. 
+- er werd tevens reeds onderstreept dat de regel dat de jaarrekening dient opgesteld te worden in euro niet de mogelijkheid uitsloot hierop een afwijking toe te staan wanneer het bedrijf van een onderneming in hoofdzaak wordt uitgeoefend buiten de euro muntzone en dat het grootste deel van haar tegoeden en verplichtingen en van haar resultaten in deze muntzone moeten worden gesitueerd. In deze gevallen speelt de gewenste coherentie met de euro context niet of nauwelijks.[^10] 
+- tevens verduidelijkte de Commissie reeds dat de aanvragende onderneming de meeste van de werkzaamheden in een andere muntzone dan de euro muntzone moet verrichten en dat de meeste van haar tegoeden, verbintenissen en resultaten op die muntzone betrekking moeten hebben. De Commissie is immers van oordeel dat een vennootschap die om een afwijking verzoekt, moet kunnen aantonen dat zij daadwerkelijk de meeste van haar activiteiten in die andere muntzone dan de euro muntzone verricht.[^11] 
 
 De functionele valuta wordt, eenmaal vastgesteld, niet gewijzigd, tenzij deze onderliggende transacties, gebeurtenissen en omstandigheden wijzigingen hebben ondergaan.[^12] 
 
@@ -112,7 +112,7 @@ De toelating voor het voeren van de boekhouding en het opstellen van de jaarreke
 
 De Commissie zal de toepassing van dit advies op een gepast ogenblik evalueren.
 
-De Commissie zal op een later tijdstip omrekeningsregels formuleren indien de jaarrekening initieel opgemaakt in de functionele valuta, om welke reden ook, wordt gepresenteerd in euro.  
+De Commissie zal op een later tijdstip omrekeningsregels formuleren indien de jaarrekening initieel opgemaakt in de functionele valuta, om welke reden ook, wordt gepresenteerd in euro. 
 
 [^1]: Advies 117/2, Bulletin CBN, nr. 7, juni 1980, p. 2-4.
 

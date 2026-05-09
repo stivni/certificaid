@@ -40,12 +40,12 @@ gerelateerde_adviezen:
 
 ## Inleiding
 
-De Commissie beoogt met onderhavig advies een uniforme boekhoudkundige verwerking uit te werken voor de overgangsregeling vermeld in artikel 537 WIB 92. Met betrekking tot deze overgangsregeling werd door de Federale overheidsdienst Financiën een circulaire Ci.RH.233/629.295 van 01.10.2013 en een addendum van 13.11.2013 bij deze circulaire van Ci.RH.233/629.295 uitgebracht. 
+De Commissie beoogt met onderhavig advies een uniforme boekhoudkundige verwerking uit te werken voor de overgangsregeling vermeld in artikel 537 WIB 92. Met betrekking tot deze overgangsregeling werd door de Federale overheidsdienst Financiën een circulaire Ci.RH.233/629.295 van 01.10.2013 en een addendum van 13.11.2013 bij deze circulaire van Ci.RH.233/629.295 uitgebracht. 
 
 Deze in artikel 537 WIB 92 vermelde regeling bestaat uit een dividenduitkering die overeenkomt met de vermindering van de belaste reserves[^2]
- zoals die ten laatste op 31 maart 2013 zijn goedgekeurd door de algemene vergadering op voorwaarde en in de mate dat minstens het verkregen bedrag (i) onmiddellijk wordt opgenomen in het kapitaal, en (ii) dat deze opneming plaatsvindt tijdens het belastbaar tijdperk dat afsluit vóór 1 oktober 2014 (hierna Verrichting). 
+ zoals die ten laatste op 31 maart 2013 zijn goedgekeurd door de algemene vergadering op voorwaarde en in de mate dat minstens het verkregen bedrag (i) onmiddellijk wordt opgenomen in het kapitaal, en (ii) dat deze opneming plaatsvindt tijdens het belastbaar tijdperk dat afsluit vóór 1 oktober 2014 (hierna Verrichting). 
 
-De Commissie wenst te benadrukken dat onderhavig advies strikt beperkt is tot de boekhoudkundige aspecten van de Verrichting en geenszins betrekking heeft op de fiscale aspecten. 
+De Commissie wenst te benadrukken dat onderhavig advies strikt beperkt is tot de boekhoudkundige aspecten van de Verrichting en geenszins betrekking heeft op de fiscale aspecten. 
 
 ## Dividenduitkering
 
@@ -59,21 +59,21 @@ Volgend op deze dividenduitkering, zullen de aandeelhouders, binnen een gepaste 
 
 De tweede stap van de Verrichting bestaat uit de inbreng van (een deel van) de dividenden in het kapitaal van de uitkerende vennootschap. In de circulaire wordt expliciet vermeld dat de inbreng kan gebeuren in natura (inbreng van het vorderingsrecht op het dividend) of in geld. De circulaire vermeldt dat niet wordt vereist dat de toekenning van het dividend enerzijds en de kapitaalverhoging anderzijds in de loop van hetzelfde boekjaar plaatsvinden. De dividenden moeten echter onmiddellijk worden aangewend voor de volstorting van een inbreng in het kapitaal van de uitkerende vennootschap.
 
-De eis tot onmiddellijke volstorting moet worden voldaan rekening houdend met de geldende vennootschapsrechtelijke voorschriften die dwingend van aard zijn. Afhankelijk van de door de vennootschap gekozen vennootschapsrechtelijke procedure om de Verrichting uit te voeren, kan met name enige tijd verlopen tussen de dividendtoekenning enerzijds en de formele kapitaalverhoging anderzijds (eventuele aanwezigheid van een voorkeurrecht, tijdsverloop tot de ontvangst van de gelden op een geblokkeerde bankrekening, opstelling verslag van bedrijfsrevisor ingeval van een inbreng in natura, afspraak bij notaris, enz.). Bovendien staat op het moment van de dividendtoekenning, ondanks het feit dat de aandeelhouder reeds zijn keuze heeft kenbaar gemaakt (supra, nr. 6) niet vast dat een aandeelhouder effectief zal deelnemen aan de kapitaalverhoging. 
+De eis tot onmiddellijke volstorting moet worden voldaan rekening houdend met de geldende vennootschapsrechtelijke voorschriften die dwingend van aard zijn. Afhankelijk van de door de vennootschap gekozen vennootschapsrechtelijke procedure om de Verrichting uit te voeren, kan met name enige tijd verlopen tussen de dividendtoekenning enerzijds en de formele kapitaalverhoging anderzijds (eventuele aanwezigheid van een voorkeurrecht, tijdsverloop tot de ontvangst van de gelden op een geblokkeerde bankrekening, opstelling verslag van bedrijfsrevisor ingeval van een inbreng in natura, afspraak bij notaris, enz.). Bovendien staat op het moment van de dividendtoekenning, ondanks het feit dat de aandeelhouder reeds zijn keuze heeft kenbaar gemaakt (supra, nr. 6) niet vast dat een aandeelhouder effectief zal deelnemen aan de kapitaalverhoging. 
 
 ### Onmiddellijke inbreng in natura
 
 De Commissie meent dat de aanwezigheid van bovenvermeld bewijskrachtig element (zie supra, randnummer 6) rechtvaardigt dat de rekening 471 *Dividenden over het boekjaar* wordt gedebiteerd en een subrekening van 489 *Andere diverse schulden* voor hetzelfde bedrag worden gecrediteerd. Aan deze laatste subrekening wordt dan een gepaste benaming gegeven, bijvoorbeeld 489X *Ontvangen voorschotten op kapitaal*.
 
-Bij de latere formele kapitaalverhoging zal vervolgens de rekening 489X *Ontvangen voorschotten op kapitaal* worden gedebiteerd en zal de rekening 100 *Geplaatst kapitaal[^3] * gecrediteerd worden.
+Bij de latere formele kapitaalverhoging zal vervolgens de rekening 489X *Ontvangen voorschotten op kapitaal* worden gedebiteerd en zal de rekening 100 *Geplaatst kapitaal[^3] * gecrediteerd worden.
 
 De onmiddellijke creditering van de rekening 489X *Ontvangen voorschotten op kapitaal* is de boekhoudkundige uitdrukking van de onvoorwaardelijke en onherroepelijke beslissing van de aandeelhouder om het verkregen bedrag aan te wenden voor de volstorting van een inbreng in kapitaal[^4].
 
 ### Onmiddellijke inbreng in geld
 
-De vennootschap kan, op vraag van en mits de onvoorwaardelijke en onherroepelijke beslissing van de aandeelhouder, het netto uit te betalen bedrag rechtstreeks storten op een geblokkeerde rekening van de vennootschap in naam en voor rekening van die aandeelhouder. Indien een uitbetaling heeft plaatsgevonden door storting op deze geblokkeerde bankrekening van de vennootschap, dan wordt de rekening 471 *Dividenden over het boekjaar* gedebiteerd ten opzichte van de creditering van de rekening 5500 *Kredietinstellingen: Rekening-courant*. Vervolgens wordt een rekening 5500X *Kredietinstellingen: geblokkeerde bankrekening* gedebiteerd ten opzichte van een rekening 489X *Ontvangen voorschotten op kapitaal*. 
+De vennootschap kan, op vraag van en mits de onvoorwaardelijke en onherroepelijke beslissing van de aandeelhouder, het netto uit te betalen bedrag rechtstreeks storten op een geblokkeerde rekening van de vennootschap in naam en voor rekening van die aandeelhouder. Indien een uitbetaling heeft plaatsgevonden door storting op deze geblokkeerde bankrekening van de vennootschap, dan wordt de rekening 471 *Dividenden over het boekjaar* gedebiteerd ten opzichte van de creditering van de rekening 5500 *Kredietinstellingen: Rekening-courant*. Vervolgens wordt een rekening 5500X *Kredietinstellingen: geblokkeerde bankrekening* gedebiteerd ten opzichte van een rekening 489X *Ontvangen voorschotten op kapitaal*. 
 
-Bij de latere formele kapitaalverhoging zal vervolgens de rekening 489X O*ntvangen voorschotten op kapitaal* worden gedebiteerd en zal de rekening 100* Geplaatst kapitaal[^5] * gecrediteerd worden.
+Bij de latere formele kapitaalverhoging zal vervolgens de rekening 489X O*ntvangen voorschotten op kapitaal* worden gedebiteerd en zal de rekening 100* Geplaatst kapitaal[^5] * gecrediteerd worden.
 
 Ook hier is de creditering van de rekening 489X *Ontvangen voorschotten op kapitaal* de boekhoudkundige uitdrukking van de onherroepelijke en onvoorwaardelijke beslissing van de aandeelhouder om het verkregen bedrag aan te wenden voor de volstorting van een inbreng in kapitaal.
 
@@ -93,9 +93,9 @@ Hierna volgen een aantal voorbeelden waarbij wordt uitgegaan van verschillende g
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 132
-/133/14 | Belastingvrije reserves/Beschikbare reserves/Overgedragen winst |  |  |
-| aan | 790/792 | Overgedragen winst/Onttrekking aan de reserves |  |  |
+| | 132
+/133/14 | Belastingvrije reserves/Beschikbare reserves/Overgedragen winst | | |
+| aan | 790/792 | Overgedragen winst/Onttrekking aan de reserves | | |
 
 ### Eerste voorbeeld
 
@@ -107,23 +107,23 @@ De vennootschap beslist tot een uitkering in contanten. De vennootschap stort he
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 694 | Vergoeding van het kapitaal |  |  |
-| aan | 471 | Dividenden over het boekjaar |  |  |
+| | 694 | Vergoeding van het kapitaal | | |
+| aan | 471 | Dividenden over het boekjaar | | |
 
 *Boeking bij de betaalbaarstelling[^8] *
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 471 | Dividenden over het boekjaar |  |  |
-| aan | 453 | Ingehouden voorheffingen |  |  |
+| | 471 | Dividenden over het boekjaar | | |
+| aan | 453 | Ingehouden voorheffingen | | |
 
 *Boeking bij de effectieve betalingen*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 471 | Dividenden over het boekjaar |  |  |
-|  | 453 | Ingehouden voorheffingen |  |  |
-| aan | 5500 | Kredietinstellingen: Rekening-courant |  |  |
+| | 471 | Dividenden over het boekjaar | | |
+| | 453 | Ingehouden voorheffingen | | |
+| aan | 5500 | Kredietinstellingen: Rekening-courant | | |
 
 #### Dividendtoekenning voor het gedeelte waarbij het ‘bewijskrachtig element’ aanwezig is
 
@@ -131,92 +131,92 @@ De vennootschap beslist tot een uitkering in contanten. De vennootschap stort he
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 694 | Vergoeding van het kapitaal |  |  |
-| aan | 471 | Dividenden over het boekjaar |  |  |
+| | 694 | Vergoeding van het kapitaal | | |
+| aan | 471 | Dividenden over het boekjaar | | |
 
 *Boeking bij de betaalbaarstelling*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 471 | Dividenden over het boekjaar |  |  |
-| aan | 453 | Ingehouden voorheffingen |  |  |
-|  | 471X | Dividenden over het boekjaar, bestemd om in te brengen in het kapitaal |  |  |
+| | 471 | Dividenden over het boekjaar | | |
+| aan | 453 | Ingehouden voorheffingen | | |
+| | 471X | Dividenden over het boekjaar, bestemd om in te brengen in het kapitaal | | |
 
 *Effectieve uitbetaling (ontvangst rekeninguittreksel debitering bankrekening)*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 471X | Dividenden over het boekjaar, bestemd om in te brengen in het kapitaal |  |  |
-| aan | 5500 | Kredietinstellingen: Rekening-courant |  |  |
+| | 471X | Dividenden over het boekjaar, bestemd om in te brengen in het kapitaal | | |
+| aan | 5500 | Kredietinstellingen: Rekening-courant | | |
 
 *Ontvangst rekeninguittreksel storting op geblokkeerde rekening*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500X | Bank: geblokkeerde rekening |  |  |
-| aan | 489X | Ontvangen voorschotten op kapitaal |  |  |
+| | 5500X | Bank: geblokkeerde rekening | | |
+| aan | 489X | Ontvangen voorschotten op kapitaal | | |
 
 *Boeking bij de formele kapitaalverhoging*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 489X | Ontvangen voorschotten op kapitaal |  |  |
-| aan | 100 | Geplaatst kapitaal |  |  |
+| | 489X | Ontvangen voorschotten op kapitaal | | |
+| aan | 100 | Geplaatst kapitaal | | |
 
 ### Tweede voorbeeld
 
-De vennootschap beslist tot de toekenning van een keuzedividend. 
+De vennootschap beslist tot de toekenning van een keuzedividend. 
 
-Voor de boekhoudkundige verwerking van de dividenden waarvoor door de aandeelhouder is gekozen voor een uitkering in contanten, wordt verwezen naar het eerste voorbeeld.  
+Voor de boekhoudkundige verwerking van de dividenden waarvoor door de aandeelhouder is gekozen voor een uitkering in contanten, wordt verwezen naar het eerste voorbeeld. 
 
-Indien het dividendrecht door de aandeelhouder wordt ingebracht in het kapitaal is sprake van een inbreng in natura.   
+Indien het dividendrecht door de aandeelhouder wordt ingebracht in het kapitaal is sprake van een inbreng in natura. 
 
 *Boeking bij de beslissing van de algemene vergadering*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 694 | Vergoeding van het kapitaal |  |  |
-| aan | 471 | Dividenden over het boekjaar |  |  |
+| | 694 | Vergoeding van het kapitaal | | |
+| aan | 471 | Dividenden over het boekjaar | | |
 
 *Boeking bij de betaalbaarstelling*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 471 | Dividenden over het boekjaar |  |  |
-| aan | 453 | Ingehouden voorheffingen |  |  |
+| | 471 | Dividenden over het boekjaar | | |
+| aan | 453 | Ingehouden voorheffingen | | |
 
 *Boeking bij de aanlevering van het bewijskrachtig element dat de aandeelhouder zal deelnemen aan de Verrichting*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 471 | Dividenden over het boekjaar |  |  |
-| aan | 489X | Ontvangen voorschotten op kapitaal |  |  |
+| | 471 | Dividenden over het boekjaar | | |
+| aan | 489X | Ontvangen voorschotten op kapitaal | | |
 
 *Effectieve kapitaalverhoging*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 489X | Ontvangen voorschotten op kapitaal |  |  |
-| aan | 100 | Geplaatst kapitaal |  |  |
+| | 489X | Ontvangen voorschotten op kapitaal | | |
+| aan | 100 | Geplaatst kapitaal | | |
 
 ### Derde voorbeeld
 
-In de circulaire wordt vermeld dat het begrip “belaste reserves” zoals aangehaald in artikel 537, eerste lid, WIB 92 verwijst naar een fiscaal en niet naar een boekhoudkundig begrip. Bijgevolg kunnen deze reserves bestaan uit belaste reserves die werden opgenomen in het maatschappelijk kapitaal. Zonder  zich uit te spreken over de opportuniteit en de vennootschapsrechtelijke aspecten acht de Commissie het nuttig de boekhoudkundige verwerking van de Verrichting toe te lichten in het geval de vennootschap beslist de Verrichting toe te passen op belaste reserves die begrepen zijn in het maatschappelijk kapitaal.
+In de circulaire wordt vermeld dat het begrip “belaste reserves” zoals aangehaald in artikel 537, eerste lid, WIB 92 verwijst naar een fiscaal en niet naar een boekhoudkundig begrip. Bijgevolg kunnen deze reserves bestaan uit belaste reserves die werden opgenomen in het maatschappelijk kapitaal. Zonder zich uit te spreken over de opportuniteit en de vennootschapsrechtelijke aspecten acht de Commissie het nuttig de boekhoudkundige verwerking van de Verrichting toe te lichten in het geval de vennootschap beslist de Verrichting toe te passen op belaste reserves die begrepen zijn in het maatschappelijk kapitaal.
 
 Aangezien de bedoelde belaste reserves vervat zitten in het maatschappelijk kapitaal zal in principe, voorafgaand aan de winstbestemming, een kapitaalvermindering moeten plaatsvinden, uiteraard rekening houdend met de vennootschapsrechtelijke verplichtingen en beperkingen dienaangaande. Verwijzend naar het CBN-advies 121/3 *Mutaties binnen het eigen vermogen* is de Commissie van mening dat in eerste instantie een mutatie binnen het eigen vermogen van het kapitaal naar een reserve plaatsvindt om vervolgens een onttrekking aan deze reserve te boeken.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 100 | Geplaatst kapitaal |  |  |
-| aan | 133 | Beschikbare reserves |  |  |
+| | 100 | Geplaatst kapitaal | | |
+| aan | 133 | Beschikbare reserves | | |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 133 | Beschikbare reserves |  |  |
-| aan | 792 | Onttrekking aan de reserves |  |  |
+| | 133 | Beschikbare reserves | | |
+| aan | 792 | Onttrekking aan de reserves | | |
 
 Evenwel, aangezien er enige tijd zal zijn verlopen tussen enerzijds de datum van de balans die ten laatste op 31 maart 2013 is goedgekeurd door de algemene vergadering en anderzijds de datum waarop de Verrichting wordt uitgevoerd, bestaat de mogelijkheid dat de vennootschap op het moment van de Verrichting beschikt over voldoende beschikbare eigenvermogensbestanddelen[^9]
- om de Verrichting uit te voeren zonder eerst te moeten overgaan tot een kapitaalvermindering. Voor het boeken van de Verrichting wordt verwezen naar de voorgaande titels II. en III.  
+ om de Verrichting uit te voeren zonder eerst te moeten overgaan tot een kapitaalvermindering. Voor het boeken van de Verrichting wordt verwezen naar de voorgaande titels II. en III. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 14 november 2013 ter consultatie werd gepubliceerd op de website van de CBN.
 

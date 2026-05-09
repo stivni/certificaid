@@ -40,7 +40,7 @@ gerelateerde_adviezen:
 ## Inleiding
 
 Naar aanleiding van de publicatie van Koninklijk besluit nr. 4 van 9 april 2020 houdende diverse bepalingen inzake mede-eigendom en het vennootschaps- en verenigingsrecht in het kader van de strijd tegen de COVID-19 pandemie[^1]
- (hierna: KB nr. 4), wenst de Commissie in te gaan op bepaalde bepalingen die hierin zijn opgenomen.
+ (hierna: KB nr. 4), wenst de Commissie in te gaan op bepaalde bepalingen die hierin zijn opgenomen.
 
 Hoewel het toepassingsgebied *ratione materiae* en *ratione personae* van KB nr. 4 relatief uitgebreid is, beperkt de Commissie onderhavig advies tot de maatregelen inzake de goedkeuring en de neerlegging van de jaarrekening en geconsolideerde jaarrekening van vennootschappen. Hiermee worden enkel de vennootschappen bedoeld die onderworpen zijn aan de neerleggings- en publicatieplicht van de jaarrekening, waardoor de maatschap hier wordt uitgesloten[^2].
 
@@ -48,19 +48,19 @@ Hoewel het toepassingsgebied *ratione materiae* en *ratione personae* van KB nr.
 
 Krachtens KB nr. 4 kan het bestuursorgaan van vennootschappen overgaan tot uitstel naar een later tijdstip van de gewone algemene vergadering die, met het oog op de goedkeuring van de jaarrekening, moet of had moeten worden gehouden tussen 1 maart en 30 juni 2020 maar die niet kan of kon worden gehouden[^3].
 
-Dit uitstel is eveneens toegestaan indien de vergadering reeds werd of reeds had moeten worden bijeengeroepen binnen bovenvermeld tijdsbestek. In dit geval is het van geen belang dat de vergadering wordt of zou worden gehouden na 30 juni 2020[^4]. 
+Dit uitstel is eveneens toegestaan indien de vergadering reeds werd of reeds had moeten worden bijeengeroepen binnen bovenvermeld tijdsbestek. In dit geval is het van geen belang dat de vergadering wordt of zou worden gehouden na 30 juni 2020[^4]. 
 
 Indien het bestuursorgaan van de betrokken vennootschap gebruik maakt van deze mogelijkheid, wordt de termijn van zes maanden, te tellen vanaf de datum van afsluiting van het boekjaar waarbinnen de jaarrekening moet worden goedgekeurd door de algemene vergadering van aandeelhouders[^5], met tien weken verlengd[^6]. Bijgevolg is 8 september 2020 de uiterste datum voor het houden van deze vergadering, d.i. tien weken na 30 juni 2020.
 
 Hetzelfde geldt voor de geconsolideerde jaarrekening[^7]. De Commissie wenst eraan te herinneren dat de geconsolideerde jaarrekening immers ter beschikking moet worden gesteld van de aandeelhouders van de consoliderende vennootschap onder dezelfde voorwaarden en binnen dezelfde termijnen als de jaarrekening[^8].
 
-De Commissie stelt vast dat de door KB nr. 4 verleende verlengingen in overeenstemming zijn met de Boekhoudrichtlijn[^9], dat bepaalt dat de jaarrekening binnen de 12 maanden na balansdatum openbaar moet worden gemaakt.  
+De Commissie stelt vast dat de door KB nr. 4 verleende verlengingen in overeenstemming zijn met de Boekhoudrichtlijn[^9], dat bepaalt dat de jaarrekening binnen de 12 maanden na balansdatum openbaar moet worden gemaakt. 
 
 Conform artikel 7, § 3 KB nr. 4, kunnen de volgende algemene vergaderingen niet worden uitgesteld:
 
 - de vergaderingen bijeengeroepen wanneer het nettoactief negatief dreigt te worden of is[^10]; 
 - de vergaderingen bijeengeroepen door of op verzoek van de commissaris; 
-- de vergaderingen bijeengeroepen op verzoek van aandeelhouders of leden overeenkomstig het Wetboek van vennootschappen en verenigingen.   
+- de vergaderingen bijeengeroepen op verzoek van aandeelhouders of leden overeenkomstig het Wetboek van vennootschappen en verenigingen. 
 
 Deze vergaderingen kunnen wel worden gehouden overeenkomstig de modaliteiten die artikel 6 van het KB nr. 4 voorschrijft.
 
@@ -71,15 +71,15 @@ De Commissie acht het in dit verband opportuun om artikel 2:52 WVV in herinnerin
 Het uitstel van de algemene vergadering heeft tot gevolg dat ook de termijn van 30 dagen volgend op de datum van goedkeuring waarbinnen de jaarrekening moet worden neergelegd bij de Nationale Bank van België (hierna: NBB) mee zal verschuiven[^11].
 
 Bovendien wordt de maximale termijn van zeven maanden, te tellen vanaf de datum van afsluiting van het boekjaar, waarbinnen de neerlegging van de jaarrekening moet gebeuren bij de NBB, alsook de neerlegging van alle andere documenten die tegelijk met deze jaarrekening moeten worden neergelegd[^12] ,[^13] ,[^14], bij gebrek aan een algemene vergadering eveneens verlengd met tien weken. Hierdoor wordt de uiterste datum van neerlegging vastgesteld op 9 oktober 2020[^15]
- voor de vennootschappen waarvan het boekjaar eindigt op 31 december 2019.
+ voor de vennootschappen waarvan het boekjaar eindigt op 31 december 2019.
 
 ## Laattijdige neerlegging
 
 De Commissie wenst overigens te benadrukken dat deze uitstelmaatregelen gevolgen hebben voor de aansprakelijkheid van het bestuursorgaan van de vennootschap indien de jaarrekening niet tijdig aan de algemene vergadering is voorgelegd[^16]
- of indien deze jaarrekening niet tijdig werd neergelegd[^17], alsook de stukken die eraan moeten worden toegevoegd[^18]. Aangezien er een vergelijkbare aansprakelijkheid verbonden is aan het overschrijden van de termijn van zes maanden zoals bepaald in artikel 3:1, § 1, tweede lid WVV of van zeven maanden na afsluiting van het boekjaar zoals bepaald in artikelen 3:10, tweede lid en 3:12, § 1 WVV, kan het bestuursorgaan enkel aansprakelijk worden gesteld na het verstrijken van de rechtsgeldig verlengde termijnen.
+ of indien deze jaarrekening niet tijdig werd neergelegd[^17], alsook de stukken die eraan moeten worden toegevoegd[^18]. Aangezien er een vergelijkbare aansprakelijkheid verbonden is aan het overschrijden van de termijn van zes maanden zoals bepaald in artikel 3:1, § 1, tweede lid WVV of van zeven maanden na afsluiting van het boekjaar zoals bepaald in artikelen 3:10, tweede lid en 3:12, § 1 WVV, kan het bestuursorgaan enkel aansprakelijk worden gesteld na het verstrijken van de rechtsgeldig verlengde termijnen.
 
 Op grond van het uitstel dat is verleend voor de neerlegging van de jaarrekening, is de bijdrage zoals bepaald in artikel 3:13, derde tot zesde lid WVV die bedoeld is om laattijdige neerleggingen te bestraffen, slechts verschuldigd, behalve in geval van overmacht, vanaf 10 november 2020[^19]
- voor de jaarrekeningen afgesloten op 31 december 2019.
+ voor de jaarrekeningen afgesloten op 31 december 2019.
 
 ## Voorbeeld
 

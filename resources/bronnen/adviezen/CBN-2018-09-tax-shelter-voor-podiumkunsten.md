@@ -51,26 +51,26 @@ gerelateerde_adviezen:
 ## Inleiding
 
 De tax shelter voor de productie van podiumwerken[^2]
- is een uitbreiding van de tax shelterregeling voor audiovisuele werken[^3]. Deze uitbreiding is van toepassing op de raamovereenkomsten ondertekend vanaf 1 februari 2017.[^4] 
+ is een uitbreiding van de tax shelterregeling voor audiovisuele werken[^3]. Deze uitbreiding is van toepassing op de raamovereenkomsten ondertekend vanaf 1 februari 2017.[^4] 
 
 De regeling bestaat erin dat een fiscale vrijstelling wordt toegekend aan investeerders die financieel bijdragen aan de productie van een podiumwerk. In artikel 194*ter* en 19*4ter/*1 van het Wetboek van de Inkomstenbelastingen 1992 (hierna: WIB 92) worden de voorwaarden, beperkingen en voorschriften van deze vrijstelling bepaald.
 
-Met betrekking tot de boekhoudkundige verwerking van de tax shelter voor audiovisuele werken heeft de Commissie reeds meerdere adviezen[^5] uitgebracht. Aangezien de tax shelterregeling voor podiumwerk een uitbreiding vormt op de tax shelterregeling voor audiovisuele werken verwijst de Commissie in eerste instantie naar voormelde adviezen. Met onderhavig advies geeft de Commissie verduidelijking over een aantal punten die specifiek zijn voor de tax shelter voor podiumwerk. 
+Met betrekking tot de boekhoudkundige verwerking van de tax shelter voor audiovisuele werken heeft de Commissie reeds meerdere adviezen[^5] uitgebracht. Aangezien de tax shelterregeling voor podiumwerk een uitbreiding vormt op de tax shelterregeling voor audiovisuele werken verwijst de Commissie in eerste instantie naar voormelde adviezen. Met onderhavig advies geeft de Commissie verduidelijking over een aantal punten die specifiek zijn voor de tax shelter voor podiumwerk. 
 
-##  Boekhoudkundige verwerking in hoofde van de investeerder
+## Boekhoudkundige verwerking in hoofde van de investeerder
 
-De boekhoudkundige verwerking van de tax shelterregeling voor podiumwerk in hoofde van de investeerder verschilt niet van deze voor audiovisuele werken. Bijgevolg wordt integraal verwezen naar titel ‘III. Boekhoudkundige verwerking in hoofde van de investerende vennootschap’ van het voormelde CBN-advies 2015/1. 
+De boekhoudkundige verwerking van de tax shelterregeling voor podiumwerk in hoofde van de investeerder verschilt niet van deze voor audiovisuele werken. Bijgevolg wordt integraal verwezen naar titel ‘III. Boekhoudkundige verwerking in hoofde van de investerende vennootschap’ van het voormelde CBN-advies 2015/1. 
 
 ## Boekhoudkundige verwerking in hoofde van de producent (vzw versus vennootschap)
 
-De boekhoudkundige verwerking in hoofde van de producent van een podiumwerk loopt gelijk met de boekhoudkundige verwerking bij de producent van een audiovisueel werk zoals toegelicht in het voormelde CBN-advies 2015/7. 
+De boekhoudkundige verwerking in hoofde van de producent van een podiumwerk loopt gelijk met de boekhoudkundige verwerking bij de producent van een audiovisueel werk zoals toegelicht in het voormelde CBN-advies 2015/7. 
 
 Net zoals bij de productie van een audiovisueel werk moet de producent bij de evaluatie van een zelf geproduceerd werk rekening houden met artikel 60 KB W.Venn. dat verbiedt dat een immaterieel vast actief op het actief wordt geboekt voor een waarde, bepaald op basis van de vervaardigingsprijs, die hoger is dan een voorzichtige raming van de gebruikswaarde of het toekomstig rendement voor de vennootschap van dit vast actief.[^6] 
 
 Wanneer de uitgaven die werden gemaakt voor de productie van het podiumwerk in aanmerking komen voor activering zal, net zoals voor een audiovisueel werk, het actief worden geboekt op de rekening 211 *Immateriële vaste activa *en dient een passende afschrijving[^7]
- te worden toegepast.
+ te worden toegepast.
 
-Afhankelijk van de wijze waarop de onderneming de uitgaven voor het podiumwerk boekhoudkundig zal verwerken, zullen de door de investeerders ingetekende bedragen, net zoals bij de tax shelterregeling voor audiovisuele werken, worden geboekt met als tegenpost de rekening 15 Kapitaalsubsidies (en 1680* Uitgestelde belastingen*) of de rekening 499 *Wachtrekening*.[^8]   
+Afhankelijk van de wijze waarop de onderneming de uitgaven voor het podiumwerk boekhoudkundig zal verwerken, zullen de door de investeerders ingetekende bedragen, net zoals bij de tax shelterregeling voor audiovisuele werken, worden geboekt met als tegenpost de rekening 15 Kapitaalsubsidies (en 1680* Uitgestelde belastingen*) of de rekening 499 *Wachtrekening*.[^8] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 11 januari 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN
 

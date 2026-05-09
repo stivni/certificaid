@@ -37,7 +37,7 @@ gerelateerde_adviezen:
 ## Onderwerp van het advies
 
 In het artikel 31, § 1 van de Vierde Europese Richtlijn betreffende de jaarrekening van bepaalde vennootschapsvormen[^1]
- wordt het volgende bepaald: “c ) het voorzichtigheidsbeginsel moet steeds in acht worden genomen en in het bijzonder geldt het volgende: aa ) winsten mogen slechts worden opgenomen voor zover zij op de balansdatum gerealiseerd zijn” en “d ) lasten en baten betreffende het boekjaar waarop de jaarrekening betrekking heeft, moeten in aanmerking worden genomen, ongeacht het tijdstip van betaling van deze lasten of ontvangst van deze baten”.
+ wordt het volgende bepaald: “c ) het voorzichtigheidsbeginsel moet steeds in acht worden genomen en in het bijzonder geldt het volgende: aa ) winsten mogen slechts worden opgenomen voor zover zij op de balansdatum gerealiseerd zijn” en “d ) lasten en baten betreffende het boekjaar waarop de jaarrekening betrekking heeft, moeten in aanmerking worden genomen, ongeacht het tijdstip van betaling van deze lasten of ontvangst van deze baten”.
 
 In het artikel 33, tweede lid, van het Koninklijk besluit tot uitvoering van het wetboek van vennootschappen (KB W. Venn.) wordt het volgende bepaald: “Er moet rekening worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, behalve indien de effectieve inning van deze opbrengsten onzeker is.”
 
@@ -49,7 +49,7 @@ In dit advies worden enkel de opbrengsten en kosten behandeld die voortvloeien u
 
 ## Analyse
 
-### Gerealiseerde winsten en lasten en baten betreffende het boekjaar 
+### Gerealiseerde winsten en lasten en baten betreffende het boekjaar 
 
 Het begrip “gerealiseerde winsten” volgt uit het algemene voorzichtigheidsbeginsel (zie voornoemde art. 31, § 1, c, aa, Vierde richtlijn en art. 32, KB W.Venn.). Bijgevolg dient de boeking van een opbrengst steeds in het kader te passen van een voorzichtigheidslogica[^2].
 
@@ -63,7 +63,7 @@ Bij vervreemding van een actief dient te worden opgemerkt dat de boekhoudkundige
 
 Wat de levering van diensten betreft, zullen de opbrengsten en kosten die voortvloeien uit de prestatie, in overeenstemming met dezelfde beginselen, worden toegerekend aan het boekjaar waarin de voornaamste prestatie van de dienst wordt uitgevoerd, waarbij rekening moet worden gehouden met de aard van het contract en de dienst in kwestie.
 
-Het ogenblik waarop de prestatie vrijwel volledig wordt vervuld zal een feitenkwestie zijn die geval per geval moet worden beoordeeld. 
+Het ogenblik waarop de prestatie vrijwel volledig wordt vervuld zal een feitenkwestie zijn die geval per geval moet worden beoordeeld. 
 
 De effectieve toerekening van de kosten en opbrengsten aan het boekjaar waarop ze betrekking hebben, kan in voorkomend geval gebeuren via de overlopende rekeningen.
 
@@ -111,7 +111,7 @@ In het jaar X+1 wordt de opbrengst uit de verkoop van de plaatsen daadwerkelijk 
 
 Laten we ook het geval beschouwen waarin een onderneming in het jaar X voor 5 jaar het uitsluitend gebruik overdraagt van een merk waarvan zij eigenaar is. Merk op dat dit merk niet wordt opgenomen in de activa van de balans van de onderneming.
 
-Overeenkomstig de contractuele bepalingen tussen de partijen moet de onderneming die het gebruiksrecht van haar merk overdraagt zich er gedurende die 5 jaar enkel van onthouden het merk zelf nog te gebruiken. In ons geval, zal de onderneming geen kosten moeten maken voor het merk gedurende deze 5 jaar. 
+Overeenkomstig de contractuele bepalingen tussen de partijen moet de onderneming die het gebruiksrecht van haar merk overdraagt zich er gedurende die 5 jaar enkel van onthouden het merk zelf nog te gebruiken. In ons geval, zal de onderneming geen kosten moeten maken voor het merk gedurende deze 5 jaar. 
 
 In het jaar X factureert de onderneming alle vergoedingen voor dit exclusieve gebruik gedurende 5 jaar.
 

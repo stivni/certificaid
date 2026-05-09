@@ -36,13 +36,13 @@ gerelateerde_adviezen:
 
 ## INLEIDING
 
-Met een partiële splitsing wordt bedoeld “de verrichting waarbij een deel van het maatschappelijk vermogen van een vennootschap A op een andere vennootschap B overgaat, en waarbij de aandeelhouders van vennootschap A, benevens het behoud van hun aandelen A, ook nieuwe aandelen B ontvangen. De vennootschap A die aldus slechts een deel van haar maatschappelijk vermogen heeft overgedragen blijft dus voortbestaan: zij ondergaat evenwel een vermogensvermindering die gelijk is aan het deel van haar maatschappelijk vermogen dat werd overgedragen aan vennootschap B”[^1].  Deze verrichting wordt in artikel 677 van het Wetboek van Vennootschappen (W.Venn.) omschreven als een met splitsing gelijkgestelde verrichting.
+Met een partiële splitsing wordt bedoeld “de verrichting waarbij een deel van het maatschappelijk vermogen van een vennootschap A op een andere vennootschap B overgaat, en waarbij de aandeelhouders van vennootschap A, benevens het behoud van hun aandelen A, ook nieuwe aandelen B ontvangen. De vennootschap A die aldus slechts een deel van haar maatschappelijk vermogen heeft overgedragen blijft dus voortbestaan: zij ondergaat evenwel een vermogensvermindering die gelijk is aan het deel van haar maatschappelijk vermogen dat werd overgedragen aan vennootschap B”[^1]. Deze verrichting wordt in artikel 677 van het Wetboek van Vennootschappen (W.Venn.) omschreven als een met splitsing gelijkgestelde verrichting.
 
 In het CBN-advies 166/2 stelt de Commissie voor Boekhoudkundige Normen[^2] het volgende : *“Met artikel 677 van het Wetboek van Vennootschappen heeft de wetgever dergelijke verrichtingen immers duidelijk een specifiek karakter, sui generis, willen geven en de ter zake geldende wettelijke regeling willen afstemmen op die voor splitsingen.”* Hiermee geeft de Commissie aan dat dergelijke verrichting bij voorkeur moet worden beschouwd als een splitsing met specifieke kenmerken.
 
 Deze zienswijze is daarenboven gestoeld op het feit dat de wetgever expliciet de bedoeling had om de fiscale behandeling van een partiële splitsing volledig af te stemmen op een gewone splitsing. Om dit te kunnen verwezenlijken, werden bij de invoering van een belastingneutraal regime voor partiële splitsingen door de wet van 16 juli 2001 (B.S. 20 juli 2001) twee wettelijke ficties ingevoerd :
 
-1. de wettelijke fictie van omruiling in artikel 45, §1, derde lid in fine WIB 92 waarbij  ten name van een aandeelhouder van de partieel gesplitste vennootschap A, de aandelen A (vóór afsplitsing) als het ware worden geacht te zijn omgeruild tegen diezelfde aandelen A (na afsplitsing) en nieuwe aandelen in de verkrijgende vennootschap B.[^3]  
+1. de wettelijke fictie van omruiling in artikel 45, §1, derde lid in fine WIB 92 waarbij ten name van een aandeelhouder van de partieel gesplitste vennootschap A, de aandelen A (vóór afsplitsing) als het ware worden geacht te zijn omgeruild tegen diezelfde aandelen A (na afsplitsing) en nieuwe aandelen in de verkrijgende vennootschap B.[^3] 
 2. de wettelijke fictie in artikel 213, derde lid WIB 92 dat ertoe strekt voor diverse bepalingen in het WIB 92 een partiële splitsing gelijk te stellen met een gewone splitsing, nl. *“Wanneer aldus een vennootschap A, ingevolge belastingneutrale afsplitsing, een deel van haar maatschappelijk vermogen overdraagt aan een vennootschap B, wordt, al naargelang de van toepassing zijnde bepaling, de vennootschap A aangemerkt als overgenomen/gesplitste vennootschap of als overnemende/verkrijgende vennootschap, wordt de vennootschap B uiteraard aangemerkt als overnemende/verkrijgende vennootschap en wordt de verrichting zelve aangemerkt als een splitsing.”[^4] * 
 
 In voornoemd advies werd eveneens opgemerkt dat de regering in de parlementaire voorbereiding van de wet van 16 juli 2001 verklaarde dat zij de nodige initiatieven zou nemen opdat de partiële splitsing op boekhoudkundig vlak volgens het continuïteitsbeginsel zou kunnen worden verwerkt.[^5] 
@@ -70,11 +70,11 @@ De algemene principes die hierboven werden beschreven, kunnen worden geïllustre
 Veronderstel dat onderstaande vennootschap A (belastingneutraal) partieel wordt gesplitst waarbij 8.500 activa en 2.500 schulden aan een nieuw op te richten vennootschap B worden overgedragen; A behoudt 5.500 activa en 1.500 schulden.
 
 | A | 
-| Activa | | 14.000 | | Kapitaal[^6]  | | 3.000 | 
-|   | |   | | Belastingvrije reserves[^7]  | | 2.000 | 
-|   | |   | | Beschikbare reserves | | 5.000 | 
-|   | |   | | Schulden | | 4.000 | 
-|   | | 14.000 | |   | | 14.000 | 
+| Activa | | 14.000 | | Kapitaal[^6] | | 3.000 | 
+| | | | | Belastingvrije reserves[^7] | | 2.000 | 
+| | | | | Beschikbare reserves | | 5.000 | 
+| | | | | Schulden | | 4.000 | 
+| | | 14.000 | | | | 14.000 | 
 
 De reële waarde van A op het ogenblik van de splitsing bedraagt 20.000. De reële waarde van het aan B overgedragen netto actief bedraagt 11.000 en de reële waarde van het door A behouden netto actief bedraagt 9.000.
 
@@ -86,13 +86,13 @@ Op basis van bovenstaande gegevens en de samenstelling van de eigen vermogens va
 
 | A (na afsplitsing) | 
 | Activa | | 5.500 | | Eigen vermogen | | 4.000 | 
-|   | |   | | Schulden | | 1.500 | 
-|   | | 5.500 | |   | | 5.500 | 
+| | | | | Schulden | | 1.500 | 
+| | | 5.500 | | | | 5.500 | 
 
 | B | 
 | Activa | | 8.500 | | Eigen vermogen | | 6.000 | 
-|   | |   | | Schulden | | 2.500 | 
-|   | | 8.500 | |   | | 8.500 | 
+| | | | | Schulden | | 2.500 | 
+| | | 8.500 | | | | 8.500 | 
 
 Om de bestanddelen van de eigen vermogens te bepalen, wordt bij hypothese rekening gehouden met de fiscale toewijzing van het fiscaal eigen vermogen van A (vóór afsplitsing) aan de verkrijgende vennootschap B en A (na afsplitsing).
 
@@ -102,12 +102,12 @@ De fiscale eigen vermogens van A (na afsplitsing) en B zijn dus als volgt sameng
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | A (na afsplitsing) | B |  |  |
-|  | Fiscaal gestort kapitaal | 1.200 | 1.800 |  |
-|  | Vrijgestelde reserves | 800 | 1.200 |  |
-|  | Belaste reserves | 2.000 | 3.000 |  |
-|  | _____ | _____ |  |  |
-|  | 4.000 | 6.000 |  |  |
+| | A (na afsplitsing) | B | | |
+| | Fiscaal gestort kapitaal | 1.200 | 1.800 | |
+| | Vrijgestelde reserves | 800 | 1.200 | |
+| | Belaste reserves | 2.000 | 3.000 | |
+| | _____ | _____ | | |
+| | 4.000 | 6.000 | | |
 
 De boekhoudkundige eigen vermogens van A (na afsplitsing) (4.000) en B (6.000) kunnen dus zo worden “opgevuld” dat er een volledige overeenstemming is met de fiscale samenstelling ervan.
 
@@ -115,17 +115,17 @@ Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 
 | A (na afsplitsing) | 
 | Activa | | 5.500 | | Kapitaal | | 1.200 | 
-|   | |   | | Belastingvrije res. | | 800 | 
-|   | |   | | Beschikbare res. | | 2.000 | 
-|   | |   | | Schulden | | 1.500 | 
-|   | | 5.500 | |   | | 5.500 | 
+| | | | | Belastingvrije res. | | 800 | 
+| | | | | Beschikbare res. | | 2.000 | 
+| | | | | Schulden | | 1.500 | 
+| | | 5.500 | | | | 5.500 | 
 
 | B | 
 | Activa | | 8.500 | | Kapitaal | | 1.800 | 
-|   | |   | | Belastingvrije res. | | 1.200 | 
-|   | |   | | Beschikbare res. | | 3.000 | 
-|   | |   | | Schulden | | 2.500 | 
-|   | | 8.500 | |   | | 8.500 | 
+| | | | | Belastingvrije res. | | 1.200 | 
+| | | | | Beschikbare res. | | 3.000 | 
+| | | | | Schulden | | 2.500 | 
+| | | 8.500 | | | | 8.500 | 
 
 In hoofde van aandeelhouder D wordt als volgt gehandeld
 
@@ -139,8 +139,8 @@ Naar aanleiding van de partiële splitsing wordt bij D het volgende geboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | Participatie B | 4.125 |  |  |
-| aan | Participatie A |  |  | 4.125 |
+| | Participatie B | 4.125 | | |
+| aan | Participatie A | | | 4.125 |
 
 In hoofde van D bedraagt de boekwaarde van de participatie A na de partiële splitsing 3.375.
 
@@ -149,12 +149,12 @@ In hoofde van D bedraagt de boekwaarde van de participatie A na de partiële spl
 Veronderstel dat onderstaande vennootschap A (belastingneutraal) partieel wordt gesplitst waarbij een gedeelte van haar vermogen wordt overgedragen aan een nieuw op te richten vennootschap B.
 
 | A | 
-| Activa | | 12.000 | | Kapitaal[^8]  | | 3.000 | 
+| Activa | | 12.000 | | Kapitaal[^8] | | 3.000 | 
 | Activum 1 | | 2.000 | | Belastingvrije reserves | | 1.320 | 
-|   | |   | | Beschikbare reserves | | 5.000 | 
-|   | |   | | Uitgestelde belastingen | | 680 | 
-|   | |   | | Schulden | | 4.000 | 
-|   | | 14.000 | |   | | 14.000 | 
+| | | | | Beschikbare reserves | | 5.000 | 
+| | | | | Uitgestelde belastingen | | 680 | 
+| | | | | Schulden | | 4.000 | 
+| | | 14.000 | | | | 14.000 | 
 
 Nadat een actiefbestanddeel volledig was afgeschreven, werd het verkocht voor 2.000. A besloot de meerwaarde gespreid te laten belasten en wederbelegde de verkoopprijs in activum 1.
 
@@ -164,62 +164,62 @@ Vermits de gespreid te belasten meerwaarde vanuit fiscaal oogpunt volledig zal w
 
 | A (na afsplitsing) | 
 | Activa | | 5.500 | | Eigen vermogen | | 4.000 | 
-|   | |   | | Schulden | | 1.500 | 
-|   | | 5.500 | |   | | 5.500 | 
+| | | | | Schulden | | 1.500 | 
+| | | 5.500 | | | | 5.500 | 
 
 | B | 
 | Activa | | 6.500 | | Eigen vermogen | | 5.320 | 
 | Activum 1 | | 2.000 | | Uitgestelde belast. | | 680 | 
-|   | |   | | Schulden | | 2.500 | 
-|   | | 8.500 | |   | | 8.500 | 
+| | | | | Schulden | | 2.500 | 
+| | | 8.500 | | | | 8.500 | 
 
 Om de bestanddelen van de eigen vermogens te bepalen, wordt rekening gehouden met de fiscale toewijzing van het fiscaal eigen vermogen van A (vóór afsplitsing) aan de verkrijgende vennootschappen B en A (na afsplitsing).
 
-De fiscale nettowaarde van A (vóór afsplitsing) bedraagt 10.000, waarvan 6.000 aan B wordt overgedragen en 4.000 door A wordt behouden. Bijgevolg worden A’s fiscaal gestort kapitaal (3.000), belaste reserves (5.000) en fiscaal vrijgestelde reserves (2.000) in dezelfde verhouding aan B en A (na afsplitsing) toegewezen[^9].  
+De fiscale nettowaarde van A (vóór afsplitsing) bedraagt 10.000, waarvan 6.000 aan B wordt overgedragen en 4.000 door A wordt behouden. Bijgevolg worden A’s fiscaal gestort kapitaal (3.000), belaste reserves (5.000) en fiscaal vrijgestelde reserves (2.000) in dezelfde verhouding aan B en A (na afsplitsing) toegewezen[^9]. 
 
 De fiscale eigen vermogens van B en A (na afsplitsing) zijn dus als volgt samengesteld:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | A (na afsplitsing) | B |  |  |
-|  | Fiscaal gestort kapitaal | 1.200 | 1.800 |  |
-|  | Vrijgestelde reserves | 800 | 1.200 |  |
-|  | Belaste reserves | 2.000 | 3.000 |  |
-|  | _____ | _____ |  |  |
-|  | 4.000 | 6.000 |  |  |
+| | A (na afsplitsing) | B | | |
+| | Fiscaal gestort kapitaal | 1.200 | 1.800 | |
+| | Vrijgestelde reserves | 800 | 1.200 | |
+| | Belaste reserves | 2.000 | 3.000 | |
+| | _____ | _____ | | |
+| | 4.000 | 6.000 | | |
 
 Het boekhoudkundig eigen vermogen van A (na afsplitsing) kan dus zo worden “opgevuld” dat er een volledige overeenstemming is met de fiscale samenstelling ervan.
 
-Bij B bevinden de fiscaal vrijgestelde reserves zich reeds voor een bedrag gelijk aan 680 onder de post *Uitgestelde belastingen*. Het overige gedeelte van het aan B toegewezen fiscaal eigen vermogen, zijnde 5.320 (6.000 – 680), kan dan volledig in het boekhoudkundig eigen vermogen van B worden opgenomen.
+Bij B bevinden de fiscaal vrijgestelde reserves zich reeds voor een bedrag gelijk aan 680 onder de post *Uitgestelde belastingen*. Het overige gedeelte van het aan B toegewezen fiscaal eigen vermogen, zijnde 5.320 (6.000 – 680), kan dan volledig in het boekhoudkundig eigen vermogen van B worden opgenomen.
 
 Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 
 | A (na afsplitsing) | 
 | Activa | | 5.500 | | Kapitaal | | 1.200 | 
-|   | |   | | Belastingvrije res. | | 800 | 
-|   | |   | | Beschikbare res. | | 2.000 | 
-|   | |   | | Schulden | | 1.500 | 
-|   | | 5.500 | |   | | 5.500 | 
+| | | | | Belastingvrije res. | | 800 | 
+| | | | | Beschikbare res. | | 2.000 | 
+| | | | | Schulden | | 1.500 | 
+| | | 5.500 | | | | 5.500 | 
 
 | B | 
 | Activa | | 6.500 | | Kapitaal | | 1.800 | 
 | Activum 1 | | 2.000 | | Belastingvrije res. | | 520 | 
-|   | |   | | Beschikbare res. | | 3.000 | 
-|   | |   | | Uitgestelde belast. | | 680 | 
-|   | |   | | Schulden | | 2.500 | 
-|   | | 8.500 | |   | | 8.500 | 
+| | | | | Beschikbare res. | | 3.000 | 
+| | | | | Uitgestelde belast. | | 680 | 
+| | | | | Schulden | | 2.500 | 
+| | | 8.500 | | | | 8.500 | 
 
 **Voorbeeld 3 - Herwaarderingsmeerwaarde**
 
 Veronderstel dat onderstaande vennootschap A (belastingneutraal) partieel wordt gesplitst waarbij een gedeelte van haar vermogen wordt overgedragen aan een nieuw op te richten vennootschap B.
 
 | A | 
-| Activa | | 14.000 | | Kapitaal[^10]  | | 3.000 | 
+| Activa | | 14.000 | | Kapitaal[^10] | | 3.000 | 
 | Activum 1 | | 1.000 | | Herwaarderingsmeerwaarde | | 1.000 | 
-|   | |   | | Belastingvrije reserves[^11]  | | 2.000 | 
-|   | |   | | Beschikbare reserves | | 5.000 | 
-|   | |   | | Schulden | | 4.000 | 
-|   | | 15.000 | |   | | 15.000 | 
+| | | | | Belastingvrije reserves[^11] | | 2.000 | 
+| | | | | Beschikbare reserves | | 5.000 | 
+| | | | | Schulden | | 4.000 | 
+| | | 15.000 | | | | 15.000 | 
 
 Nadat activum 1 volledig was afgeschreven, werd het voor een bedrag gelijk aan 1.000 geherwaardeerd.
 
@@ -229,13 +229,13 @@ Op basis van bovenstaande gegevens, en de samenstelling van de eigen vermogens v
 
 | A (na afsplitsing) | 
 | Activa | | 5.500 | | Eigen vermogen | | 4.000 | 
-|   | |   | | Schulden | | 1.500 | 
-|   | | 5.500 | |   | | 5.500 | 
+| | | | | Schulden | | 1.500 | 
+| | | 5.500 | | | | 5.500 | 
 
 | B | 
 | Activa | | 8.500 | | Eigen vermogen | | 7.000 | 
 | Activum 1 | | 1.000 | | Schulden | | 2.500 | 
-|   | | 9.500 | |   | | 9.500 | 
+| | | 9.500 | | | | 9.500 | 
 
 Om de bestanddelen van de eigen vermogens te bepalen, wordt rekening gehouden met de fiscale toewijzing van het fiscaal eigen vermogen van A (vóór afsplitsing) aan de verkrijgende vennootschap B en aan vennootschap A (na afsplitsing).
 
@@ -245,15 +245,15 @@ De fiscale eigen vermogens van A (na afsplitsing) en B zijn dus als volgt sameng
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | A (na afsplitsing) | B |  |  |
-|  | Fiscaal gestort kapitaal | 1.200 | 1.800 |  |
-|  | Vrijgestelde reserves begrepenin de fiscale nettowaarde | 800 | 1.200 |  |
-|  | Belaste reserves | 2.000 | 3.000 |  |
-|  | _____ | _____ |  |  |
-|  | 4.000 | 6.000 |  |  |
-|  | Herwaarderingsmeerwaarde | 0 | 1.000 |  |
-|  | _____ | _____ |  |  |
-|  | 4.000 | 7.000 |  |  |
+| | A (na afsplitsing) | B | | |
+| | Fiscaal gestort kapitaal | 1.200 | 1.800 | |
+| | Vrijgestelde reserves begrepenin de fiscale nettowaarde | 800 | 1.200 | |
+| | Belaste reserves | 2.000 | 3.000 | |
+| | _____ | _____ | | |
+| | 4.000 | 6.000 | | |
+| | Herwaarderingsmeerwaarde | 0 | 1.000 | |
+| | _____ | _____ | | |
+| | 4.000 | 7.000 | | |
 
 De boekhoudkundige eigen vermogens van A (na afsplitsing) (4.000) en B (7.000) kunnen dus zo worden “opgevuld” zodat er volledige overeenstemming is met de fiscale samenstelling ervan.
 
@@ -261,33 +261,33 @@ Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 
 | A (na afsplitsing) | 
 | Activa | | 5.500 | | Kapitaal | | 1.200 | 
-|   | |   | | Belastingvrije res. | | 800 | 
-|   | |   | | Beschikbare res. | | 2.000 | 
-|   | |   | | Schulden | | 1.500 | 
-|   | | 5.500 | |   | | 5.500 | 
+| | | | | Belastingvrije res. | | 800 | 
+| | | | | Beschikbare res. | | 2.000 | 
+| | | | | Schulden | | 1.500 | 
+| | | 5.500 | | | | 5.500 | 
 
 | B | 
 | Activa | | 8.500 | | Kapitaal | | 1.800 | 
-| Activum 1 | | 1.000 | | Herwaarderingsmw.     | | 1.000 | 
-|   | |   | | Belastingvrije res. | | 1.200 | 
-|   | |   | | Beschikbare res. | | 3.000 | 
-|   | |   | | Schulden | | 2.500 | 
-|   | |  
+| Activum 1 | | 1.000 | | Herwaarderingsmw. | | 1.000 | 
+| | | | | Belastingvrije res. | | 1.200 | 
+| | | | | Beschikbare res. | | 3.000 | 
+| | | | | Schulden | | 2.500 | 
+| | | 
 
 9.500
 
-  | |   | | 9.500 | 
+  | | | | 9.500 | 
 
 **Voorbeeld 4 – Partiële splitsing waarbij de verkrijgende vennootschap aandeelhouder is van de partieel te splitsen vennootschap**
 
 Onderstaande vennootschap A wordt (belastingneutraal) partieel gesplitst, waarbij het afgesplitst vermogen wordt overgedragen aan een bestaande vennootschap B, welke 80% van de aandelen van A bezit.
 
 | A | 
-| Activa | | 14.000 | | Kapitaal[^12]  | | 3.000 | 
-|   | |   | | Belastingvrije reserves[^13]  | | 2.000 | 
-|   | |   | | Beschikbare reserves | | 5.000 | 
-|   | |   | | Schulden | | 4.000 | 
-|   | | 14.000 | |   | | 14.000 | 
+| Activa | | 14.000 | | Kapitaal[^12] | | 3.000 | 
+| | | | | Belastingvrije reserves[^13] | | 2.000 | 
+| | | | | Beschikbare reserves | | 5.000 | 
+| | | | | Schulden | | 4.000 | 
+| | | 14.000 | | | | 14.000 | 
 
 De verkrijgende aandeelhouder-vennootschap B heeft 80% van de aandelen A aangeschaft voor 7.500 en ziet er uit als volgt:
 
@@ -302,33 +302,33 @@ Het aan B overgedragen vermogen en A (na afsplitsing) zien er dan, de samenstell
 
 | A (na afsplitsing) | 
 | Activa | | 5.500 | | Eigen vermogen | | 4.000 | 
-|   | |   | | Schulden | | 1.500 | 
-|   | | 5.500 | |   | | 5.500 | 
+| | | | | Schulden | | 1.500 | 
+| | | 5.500 | | | | 5.500 | 
 
 | Aan B overgedragen vermogen | 
 | Activa | | 8.500 | | Eigen vermogen | | 6.000 | 
-|   | |   | | Schulden | | 2.500 | 
-|   | | 8.500 | |   | | 8.500 | 
+| | | | | Schulden | | 2.500 | 
+| | | 8.500 | | | | 8.500 | 
 
 Om de bestanddelen van de eigen vermogens te bepalen, wordt rekening gehouden met de fiscale toewijzing van het fiscaal eigen vermogen van A (vóór afsplitsing) aan het aan B overgedragen vermogen en aan A (na afsplitsing).
 
-Dit is analoog met wat in voorbeeld 1 werd uiteengezet.  
+Dit is analoog met wat in voorbeeld 1 werd uiteengezet. 
 
 Het aan B overgedragen vermogen en vennootschap A (na afsplitsing) zien er dan ook als volgt uit:
 
 | A (na afsplitsing) | 
 | Activa | | 5.500 | | Kapitaal | | 1.200 | 
-|   | |   | | Belastingvrije res. | | 800 | 
-|   | |   | | Beschikbare res. | | 2.000 | 
-|   | |   | | Schulden | | 1.500 | 
-|   | | 5.500 | |   | | 5.500 | 
+| | | | | Belastingvrije res. | | 800 | 
+| | | | | Beschikbare res. | | 2.000 | 
+| | | | | Schulden | | 1.500 | 
+| | | 5.500 | | | | 5.500 | 
 
 | Aan B overgedragen vermogen | 
 | Activa | | 8.500 | | Kapitaal | | 1.800 | 
-|   | |   | | Belastingvrije res. | | 1.200 | 
-|   | |   | | Beschikbare res. | | 3.000 | 
-|   | |   | | Schulden | | 2.500 | 
-|   | | 8.500 | |   | | 8.500 | 
+| | | | | Belastingvrije res. | | 1.200 | 
+| | | | | Beschikbare res. | | 3.000 | 
+| | | | | Schulden | | 2.500 | 
+| | | 8.500 | | | | 8.500 | 
 
 In hoofde van B dient de boekwaarde van de A-participatie (7.500) te worden opgedeeld in het gedeelte dat overeenstemt met het aan B overgedragen vermogen en in het gedeelte dat overeenstemt met het door A behouden vermogen. Deze opdeling gebeurt pro rata de reële waarde van dit overgedragen en behouden vermogen.
 
@@ -347,34 +347,34 @@ Rekening houdend met al het bovenstaande, zal de balans van B na de splitsing er
 | B | 
 | Activa (ex A) | | 8.500 | | Kapitaal (7.500 + 1.800 x 20%) | | 7.860 | 
 | Participatie A | | 3.375 | | Belastingvrije reserves ( 1.200 x 20% + 600) | | 840 | 
-|   | |   | | Beschikbare reserves (3.000 x 20% - 600) | | 0 | 
-|   | |   | | Overgedragen resultaat[^14]  | | 675 | 
-|   | |   | | Schulden | | 2.500 | 
-|   | | 11.875 | |   | | 11.875 | 
+| | | | | Beschikbare reserves (3.000 x 20% - 600) | | 0 | 
+| | | | | Overgedragen resultaat[^14] | | 675 | 
+| | | | | Schulden | | 2.500 | 
+| | | 11.875 | | | | 11.875 | 
 
 Aangezien in dit voorbeeld de andere dan de belastingvrije reserves ontoereikend zijn om de vermindering van de belastingvrije reserves volledig op te vangen, kan het gedeelte van deze belastingvrije reserves dat, na de toerekening aan die andere reserves nog steeds niet is weder samengesteld, na de partiële splitsing worden heraangelegd via het debet van de resultatenrekening aan de hand van de volgende correctieboeking :
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 689 | Overboeking naar de belastingvrije reserves | 360 |  |
-| aan | 132 | Belastingvrije reserves |  | 360 |
+| | 689 | Overboeking naar de belastingvrije reserves | 360 | |
+| aan | 132 | Belastingvrije reserves | | 360 |
 
 Naar analogie van het gestelde in het CBN-advies 2009/6 (zie voorbeeld 6) is de Commissie om redenen van praktische aard ook hier van mening dat de volledige wedersamenstelling van de belastingvrije reserves bij B ook lastens het resultaat mag gebeuren zonder artikel 78, § 6, *in fine*, K.B. W.Venn. toe te passen. De openingsbalans na de partiële splitsing is dan als volgt :
 
 | B | 
 | Activa (ex A) | | 8.500 | | Kapitaal (7.500 + 1.800 x 20%) | | 7.860 | 
 | Participatie A | | 3.375 | | Belastingvrije reserves ( 1.200 x 20%) | | 240 | 
-|   | |   | | Beschikbare reserves (3.000 x 20%) | | 600 | 
-|   | |   | | Overgedragen resultaat14 | | 675 | 
-|   | |   | | Schulden | | 2.500 | 
-|   | | 11.875 | |   | | 11.875 | 
+| | | | | Beschikbare reserves (3.000 x 20%) | | 600 | 
+| | | | | Overgedragen resultaat14 | | 675 | 
+| | | | | Schulden | | 2.500 | 
+| | | 11.875 | | | | 11.875 | 
 
 De verkrijgende vennootschap B zal evenwel de aan haar toegewezen belastingvrije reserves van de partieel gesplitste vennootschap A (fiscaal vrijgestelde reserves) volledig overnemen (zodat deze reserves in fiscaal opzicht niet zullen worden verminderd). Hiertoe kan de belastingvrije reserve na de partiële splitsing bij B worden heraangelegd via de volgende correctieboeking :
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 689 | Overboeking naar de belastingvrije reserves | 960 |  |
-| aan | 132 | Belastingvrije reserves |  | 960 |
+| | 689 | Overboeking naar de belastingvrije reserves | 960 | |
+| aan | 132 | Belastingvrije reserves | | 960 |
 
 [^1]: Zie de verantwoording van de amendementen bij het wetsontwerp dat aanleiding heeft gegeven tot de wet van 16 juli 2001 (B.S. 20 juli 2001) (Parl.St. Kamer 2000-2001, nr. 50-1052/3, 6).
 

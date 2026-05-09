@@ -73,8 +73,8 @@ Vennootschap B boekt geen geraamde belastingen op rekening 6702.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6710 | Verschuldigde of gestorte belastingsupplementen | 20.000 |  |
-| aan | 489 | Overige schulden |  | 20.000 |
+| | 6710 | Verschuldigde of gestorte belastingsupplementen | 20.000 | |
+| aan | 489 | Overige schulden | | 20.000 |
 
 In hoofde van vennootschap A
 
@@ -86,8 +86,8 @@ Er vindt geen boeking plaats.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2810 | Vorderingen op rekening | 20.000 |  |
-| aan | 764 | Andere niet-recurrente bedrijfsopbrengsten |  | 20.000 |
+| | 2810 | Vorderingen op rekening | 20.000 | |
+| aan | 764 | Andere niet-recurrente bedrijfsopbrengsten | | 20.000 |
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerpadvies op 9 augustus 2021 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

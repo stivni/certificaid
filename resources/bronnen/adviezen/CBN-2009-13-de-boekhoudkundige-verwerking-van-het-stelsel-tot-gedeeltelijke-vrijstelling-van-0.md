@@ -29,7 +29,7 @@ provenance:
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
 gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van de door  de Waalse regering gecreëerde opleidingscheques
+  - titel: De boekhoudkundige verwerking van de door de Waalse regering gecreëerde opleidingscheques
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
     datum: '2013-04-24'
   - titel: Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde van de werkgever (update)
@@ -53,18 +53,18 @@ Artikel 275/3 werd ingevoerd in het WIB 92 door artikel 106 van de wet van 23 de
 
 Het 1ste, 2de en 3de lid van §1 van artikel 275/3, WIB 92, luiden als volgt:
 
-« *§ 1 De universiteiten en hogescholen die bezoldigingen uitbetalen of toekennen aan assistent-onderzoekers, het Federaal Fonds voor Wetenschappelijk Onderzoek - het  “Fonds fédéral de la Recherche Scientifique – FFWO/FNRS” alsmede het Fonds voor Wetenschappelijk Onderzoek-Vlaanderen – FWO, het “Fonds de la Recherche scientifique – FNRS – FRS – FNRS” die bezoldigingen uitbetalen of toekennen aan postdoctorale onderzoekers en die krachtens artikel 270, 1°, bedrijfsvoorheffing op die bezoldigingen verschuldigd zijn, worden vrijgesteld van het storten aan de Schatkist, van 75 pct. van die bedrijfsvoorheffing, op voorwaarde dat ze op die bezoldigingen 100 pct. van die bedrijfsvoorheffing inhouden.*
+« *§ 1 De universiteiten en hogescholen die bezoldigingen uitbetalen of toekennen aan assistent-onderzoekers, het Federaal Fonds voor Wetenschappelijk Onderzoek - het “Fonds fédéral de la Recherche Scientifique – FFWO/FNRS” alsmede het Fonds voor Wetenschappelijk Onderzoek-Vlaanderen – FWO, het “Fonds de la Recherche scientifique – FNRS – FRS – FNRS” die bezoldigingen uitbetalen of toekennen aan postdoctorale onderzoekers en die krachtens artikel 270, 1°, bedrijfsvoorheffing op die bezoldigingen verschuldigd zijn, worden vrijgesteld van het storten aan de Schatkist, van 75 pct. van die bedrijfsvoorheffing, op voorwaarde dat ze op die bezoldigingen 100 pct. van die bedrijfsvoorheffing inhouden.*
 
 *De in het eerste lid bedoelde vrijstelling van storting van 75 pct. van de bedrijfsvoorheffing wordt ook toegekend aan de wetenschappelijke instellingen die daartoe worden erkend bij een besluit vastgesteld na overleg in de Ministerraad en die bezoldigingen uitbetalen of toekennen ofwel aan assistent-onderzoekers ofwel aan postdoctorale onderzoekers.*
 
-*De in het tweede  lid bedoelde vrijstelling van storting wordt ook toegekend:*
+*De in het tweede lid bedoelde vrijstelling van storting wordt ook toegekend:*
 
 *1° aan ondernemingen die bezoldigingen uitbetalen of toekennen aan onderzoekers die aan onderzoeksprojecten werken ter uitvoering van samenwerkingsovereenkomsten afgesloten met in het eerste en tweede lid bedoelde universiteiten of hogescholen, gevestigd in de Europese Economische Ruimte, of erkende wetenschappelijke instellingen. Die vrijstelling geldt enkel voor de bedrijfsvoorheffing op de bezoldigingen die in het kader van het onderzoeksproject uitbetaald zijn tijdens de duurtijd van dat project, voor zover die betrekking hebben op een effectieve tewerkstelling in het onderzoeksproject;*
 
 *2° aan vennootschappen die onder de definitie van « Young Innovative Company » vallen en die bezoldigingen uitbetalen of toekennen aan wetenschappelijk personeel dat als werknemer door deze vennootschap wordt tewerkgesteld. Onder Young Innovative Company wordt verstaan een vennootschap die onderzoeksprojecten uitvoert en, aan het einde van het belastbare tijdperk, aan de volgende voorwaarden voldoet:*
 
-1. *het gaat om een kleine vennootschap, zoals bedoeld in artikel 15, §1, van het Wetboek van Vennootschappen;      * 
-2. *ze bestaat sinds minder dan 10 jaar vóór 1 januari van het jaar waarin de vrijstelling van storting van de bedrijfsvoorheffing wordt toegekend;    * 
+1. *het gaat om een kleine vennootschap, zoals bedoeld in artikel 15, §1, van het Wetboek van Vennootschappen; * 
+2. *ze bestaat sinds minder dan 10 jaar vóór 1 januari van het jaar waarin de vrijstelling van storting van de bedrijfsvoorheffing wordt toegekend; * 
 3. *ze is niet opgericht in het kader van een concentratie, een herstructurering, een uitbreiding van een vroegere activiteit of een overname van dergelijke activiteiten;* 
 4. *ze heeft uitgaven gedaan op het vlak van onderzoek en ontwikkeling die minstens 15 pct. van de totale kosten van het voorgaande belastbaar tijdperk vertegenwoordigen.* 
 
@@ -114,24 +114,24 @@ Bijgevolg is de Commissie van mening dat de loonlast van de desbetreffende onder
 
 Wat verenigingen betreft, zal het wegvallen van een schuldvordering gebeuren door het crediteren van de opbrengstrekening 73 *Lidgeld, schenkingen, legaten en subsidies*[^15] en door het debiteren van de bovenvernoemde rekening 453.
 
-De minimumindeling van een algemeen rekeningstelsel, bijgevoegd bij het koninklijk besluit van 19 december 2003 betreffende boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen, voorziet niet in een specifieke rekening voor deze vorm van subsidie voor het wegvallen van schuldvorderingen.  
+De minimumindeling van een algemeen rekeningstelsel, bijgevoegd bij het koninklijk besluit van 19 december 2003 betreffende boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen, voorziet niet in een specifieke rekening voor deze vorm van subsidie voor het wegvallen van schuldvorderingen. 
 
-De Commissie stelt de verenigingen van nu af aan voor om de rekening 73 uit te breiden door creatie van de rekening 738 *Compenserende bedragen ter vermindering van de loonkost* (CBN-advies R100/1[^16]).
+De Commissie stelt de verenigingen van nu af aan voor om de rekening 73 uit te breiden door creatie van de rekening 738 *Compenserende bedragen ter vermindering van de loonkost* (CBN-advies R100/1[^16]).
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 453 | Ingehouden voorheffingen | ... |  |
-| aan | 738 | Compenserende bedragen ter vermindering van de loonkost |  | ... |
+| | 453 | Ingehouden voorheffingen | ... | |
+| aan | 738 | Compenserende bedragen ter vermindering van de loonkost | | ... |
 
 Wat de vennootschappen betreft, zal dit wegvallen van de schuldvordering geregistreerd moeten worden onder de bedrijfsopbrengsten, in de rubriek I.D *Andere bedrijfsopbrengsten*, door de boeking op de creditzijde van de rekening 740 *Bedrijfssubsidies en compenserende bedragen*[^17].
 
-Er dient opgemerkt te worden dat, indien alle of een deel van de bezoldigingen in kwestie geactiveerd moeten worden, het deel van de subsidies toegewezen aan de financiering van de bovengenoemde bezoldigingen zou beschouwd moeten worden als een kapitaalsubsidie en bijgevolg geboekt zou moeten worden op de creditzijde van rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap (CBN-advies 125/8[^18]).
+Er dient opgemerkt te worden dat, indien alle of een deel van de bezoldigingen in kwestie geactiveerd moeten worden, het deel van de subsidies toegewezen aan de financiering van de bovengenoemde bezoldigingen zou beschouwd moeten worden als een kapitaalsubsidie en bijgevolg geboekt zou moeten worden op de creditzijde van rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap (CBN-advies 125/8[^18]).
 
 In dat geval zal deze subsidie bijgevolg op het ritme van de afschrijving van de door de subsidie gefinancierde vaste activa geheel of gedeeltelijk in resultaat moeten genomen worden.
 
 ### Informatieverschaffing in de toelichting van de jaarrekening
 
-Het spreekt voor zich dat de toelichting een passende vermelding moet bevatten van de aard van de vrijstelling van betaling waar de vereniging of vennootschap van geniet, evenals van de boekhoudkundige verwerking ervan.  
+Het spreekt voor zich dat de toelichting een passende vermelding moet bevatten van de aard van de vrijstelling van betaling waar de vereniging of vennootschap van geniet, evenals van de boekhoudkundige verwerking ervan. 
 
 [^1]: B.S. van 30 december 2005.
 

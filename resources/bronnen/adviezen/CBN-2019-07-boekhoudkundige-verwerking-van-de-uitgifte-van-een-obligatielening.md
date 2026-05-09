@@ -37,62 +37,62 @@ provenance:
 
 # CBN-advies 2019/07 – Boekhoudkundige verwerking van de uitgifte van een obligatielening
 
-1.  Inleiding  
-2.  Boekhoudkundige verwerking in hoofde van de uitgevende vennootschap 
-  1.  Obligatielening
+1. Inleiding 
+2. Boekhoudkundige verwerking in hoofde van de uitgevende vennootschap 
+  1. Obligatielening
 
-  2.  Kosten bij uitgifte van leningen  
-  3.  Agio en disagio 
-    1.  Lening zonder verschil tussen de uitgifteprijs en terugbetalingswaarde  
-    2.  Uitgifte onder pari en terugbetaling tegen pari-waarde  
-    3.  Uitgifte tegen pari-waarde en terugbetaling boven pari   
-    4.  Uitgifte onder pari en terugbetaling boven pari  
+  2. Kosten bij uitgifte van leningen 
+  3. Agio en disagio 
+    1. Lening zonder verschil tussen de uitgifteprijs en terugbetalingswaarde 
+    2. Uitgifte onder pari en terugbetaling tegen pari-waarde 
+    3. Uitgifte tegen pari-waarde en terugbetaling boven pari 
+    4. Uitgifte onder pari en terugbetaling boven pari 
 
-3.  Voorbeeld 
-  1.  Boekhoudkundige verwerking in 2019 
-    1.  Uitgifte van de obligatielening per 1 april 2019  
-    2.  Regularisering einde boekjaar 2019  
+3. Voorbeeld 
+  1. Boekhoudkundige verwerking in 2019 
+    1. Uitgifte van de obligatielening per 1 april 2019 
+    2. Regularisering einde boekjaar 2019 
 
-  2.  Boekhoudkundige verwerking in 2020 
-    1.  Begin van het boekjaar 2020 (tegenboeking)
+  2. Boekhoudkundige verwerking in 2020 
+    1. Begin van het boekjaar 2020 (tegenboeking)
 
-    2.  Vervaldag van de rente (1 april 2020)
+    2. Vervaldag van de rente (1 april 2020)
 
-    3.  Regularisering einde boekjaar 2020  
+    3. Regularisering einde boekjaar 2020 
 
-  3.  Boekhoudkundige verwerking in 2021 
-    1.  Begin van het boekjaar 2021 (tegenboeking)  
-    2.  Vervaldag van de rente (1 april 2021)  
-    3.  Regularisering einde boekjaar 2021  
+  3. Boekhoudkundige verwerking in 2021 
+    1. Begin van het boekjaar 2021 (tegenboeking) 
+    2. Vervaldag van de rente (1 april 2021) 
+    3. Regularisering einde boekjaar 2021 
 
-  4.  Boekhoudkundige verwerking in 2022 
-    1.  Begin van het boekjaar 2022 (tegenboeking)  
-    2.  Vervaldag van de rente (1 april 2022)  
-    3.  Regularisering einde boekjaar 2022  
+  4. Boekhoudkundige verwerking in 2022 
+    1. Begin van het boekjaar 2022 (tegenboeking) 
+    2. Vervaldag van de rente (1 april 2022) 
+    3. Regularisering einde boekjaar 2022 
 
-  5.  Boekhoudkundige verwerking in 2023 
-    1.  Begin van het boekjaar 2023 (tegenboeking)  
-    2.  Vervaldag van de rente (1 april 2023)  
-    3.  Regularisering einde boekjaar 2023  
+  5. Boekhoudkundige verwerking in 2023 
+    1. Begin van het boekjaar 2023 (tegenboeking) 
+    2. Vervaldag van de rente (1 april 2023) 
+    3. Regularisering einde boekjaar 2023 
 
-  6.  Boekhoudkundige verwerking in 2024 
-    1.  Begin van het boekjaar 2024 (tegenboeking)  
-    2.  Vervaldatum van de rente (1 april 2024)  
-    3.  Regularisering einde boekjaar 2024 (waaronder herclassificatie van de schuld)  
+  6. Boekhoudkundige verwerking in 2024 
+    1. Begin van het boekjaar 2024 (tegenboeking) 
+    2. Vervaldatum van de rente (1 april 2024) 
+    3. Regularisering einde boekjaar 2024 (waaronder herclassificatie van de schuld) 
 
-  7.  Boekhoudkundige verwerking in 2025 
-    1.  Begin van het boekjaar 2025 (tegenboeking)  
-    2.  Vervaldag van de lening en terugbetaling van de obligaties (1 april 2025)  
+  7. Boekhoudkundige verwerking in 2025 
+    1. Begin van het boekjaar 2025 (tegenboeking) 
+    2. Vervaldag van de lening en terugbetaling van de obligaties (1 april 2025) 
 
--- Kosten bij uitgifte van leningen-- Agio en disagio---- Lening zonder verschil tussen de uitgifteprijs en terugbetalingswaarde---- Uitgifte onder pari en terugbetaling tegen pari-waarde---- Uitgifte tegen pari-waarde en terugbetaling boven pari ---- Uitgifte onder pari en terugbetaling boven pariVoorbeeld-- Boekhoudkundige verwerking in 2019---- Uitgifte van de obligatielening per 1 april 2019---- Regularisering einde boekjaar 2019-- Boekhoudkundige verwerking in 2020---- Begin van het boekjaar 2020 (tegenboeking)
+-- Kosten bij uitgifte van leningen-- Agio en disagio---- Lening zonder verschil tussen de uitgifteprijs en terugbetalingswaarde---- Uitgifte onder pari en terugbetaling tegen pari-waarde---- Uitgifte tegen pari-waarde en terugbetaling boven pari ---- Uitgifte onder pari en terugbetaling boven pariVoorbeeld-- Boekhoudkundige verwerking in 2019---- Uitgifte van de obligatielening per 1 april 2019---- Regularisering einde boekjaar 2019-- Boekhoudkundige verwerking in 2020---- Begin van het boekjaar 2020 (tegenboeking)
 ---- Vervaldag van de rente (1 april 2020)
----- Regularisering einde boekjaar 2020-- Boekhoudkundige verwerking in 2021---- Begin van het boekjaar 2021 (tegenboeking)---- Vervaldag van de rente (1 april 2021)---- Regularisering einde boekjaar 2021-- Boekhoudkundige verwerking in 2022---- Begin van het boekjaar 2022 (tegenboeking)---- Vervaldag van de rente (1 april 2022)---- Regularisering einde boekjaar 2022-- Boekhoudkundige verwerking in 2023---- Begin van het boekjaar 2023 (tegenboeking)---- Vervaldag van de rente (1 april 2023)---- Regularisering einde boekjaar 2023-- Boekhoudkundige verwerking in 2024---- Begin van het boekjaar 2024 (tegenboeking)---- Vervaldatum van de rente (1 april 2024)---- Regularisering einde boekjaar 2024 (waaronder herclassificatie van de schuld)-- Boekhoudkundige verwerking in 2025---- Begin van het boekjaar 2025 (tegenboeking)---- Vervaldag van de lening en terugbetaling van de obligaties (1 april 2025)  
+---- Regularisering einde boekjaar 2020-- Boekhoudkundige verwerking in 2021---- Begin van het boekjaar 2021 (tegenboeking)---- Vervaldag van de rente (1 april 2021)---- Regularisering einde boekjaar 2021-- Boekhoudkundige verwerking in 2022---- Begin van het boekjaar 2022 (tegenboeking)---- Vervaldag van de rente (1 april 2022)---- Regularisering einde boekjaar 2022-- Boekhoudkundige verwerking in 2023---- Begin van het boekjaar 2023 (tegenboeking)---- Vervaldag van de rente (1 april 2023)---- Regularisering einde boekjaar 2023-- Boekhoudkundige verwerking in 2024---- Begin van het boekjaar 2024 (tegenboeking)---- Vervaldatum van de rente (1 april 2024)---- Regularisering einde boekjaar 2024 (waaronder herclassificatie van de schuld)-- Boekhoudkundige verwerking in 2025---- Begin van het boekjaar 2025 (tegenboeking)---- Vervaldag van de lening en terugbetaling van de obligaties (1 april 2025) 
 
 ## Inleiding
 
 De Commissie werd gevraagd om advies te geven betreffende de interpretatie van de wettelijke bepalingen verbonden aan de boekhoudkundige verwerking van kosten, premies en verliezen bij de uitgifte van een obligatielening.
 
-Obligatieleningen kunnen worden gedefinieerd als een bijzondere vorm van lening die bestaat uit meerdere verhandelbare effecten (“obligaties” genaamd) die elk eenzelfde schuldvordering vertegenwoordigen tegen eenzelfde nominale waarde[^2]. 
+Obligatieleningen kunnen worden gedefinieerd als een bijzondere vorm van lening die bestaat uit meerdere verhandelbare effecten (“obligaties” genaamd) die elk eenzelfde schuldvordering vertegenwoordigen tegen eenzelfde nominale waarde[^2]. 
 
 Een obligatie is het equivalent van een lening toegekend door een investeerder aan een uitgever. In ruil daarvoor verbindt de uitgever zich ertoe om het kapitaal (of de nominale waarde) van de obligatie terug te betalen op een vastgelegde vervaldag alsook om op regelmatige tijdstippen intresten te storten.
 
@@ -108,9 +108,9 @@ De inresultaatname van dit verschil geschiedt op geactualiseerde basis, uitgaand
 
 De vennootschappen hebben echter de mogelijkheid om:
 
-1°    het verschil tussen de uitgifteprijs en de terugbetalingswaarde, op lineaire basis pro rata temporis in resultaat te nemen;
+1° het verschil tussen de uitgifteprijs en de terugbetalingswaarde, op lineaire basis pro rata temporis in resultaat te nemen;
 
-2°    de obligatieleningen voor hun uitgifteprijs in de balans te behouden wanneer de weerslag van de inresultaatname van het actuariële rendement van de lening ten opzichte van de inresultaatname van het louter nominale rendement, te verwaarlozen zou zijn.
+2° de obligatieleningen voor hun uitgifteprijs in de balans te behouden wanneer de weerslag van de inresultaatname van het actuariële rendement van de lening ten opzichte van de inresultaatname van het louter nominale rendement, te verwaarlozen zou zijn.
 
 Het eerste en het tweede lid zijn van toepassing op obligatieleningen met een rendement dat, volgens de uitgiftevoorwaarden, uitsluitend voortkomt uit het verschil tussen de uitgifteprijs en de terugbetalingswaarde.
 
@@ -120,33 +120,33 @@ De kosten bij uitgifte van leningen betreffen de uitgaven die verricht zijn naar
 
 Onder de oprichtingskosten worden opgenomen “voor zover zij niet op een andere wijze ten laste van de resultatenrekening van het lopende boekjaar worden gebracht, de kosten verbonden met de oprichting, de verdere ontwikkeling of de herstructurering van de vennootschap, in het bijzonder de kosten van oprichting of kapitaalverhoging, de kosten bij uitgifte van leningen, en de herstructureringskosten”[^4].
 
-Artikel 3:37 KB WVV verduidelijkt dat “voor de oprichtingskosten [...] passende afschrijvingen [worden] geboekt, per jaarlijkse tranches van ten minste twintig percent van de werkelijk uitgegeven bedragen.  De afschrijving van de kosten bij uitgifte van leningen mag echter gespreid worden over de looptijd van de leningen”.
+Artikel 3:37 KB WVV verduidelijkt dat “voor de oprichtingskosten [...] passende afschrijvingen [worden] geboekt, per jaarlijkse tranches van ten minste twintig percent van de werkelijk uitgegeven bedragen. De afschrijving van de kosten bij uitgifte van leningen mag echter gespreid worden over de looptijd van de leningen”.
 
 De vennootschap kan ook beslissen om de kosten niet te activeren[^5].
 
 ### Agio en disagio
 
 De Commissie is van oordeel dat uitgifte- en terugbetalingspremies in hoofde van de vennootschap een kost[^6]
- of een opbrengst[^7]
- uitmaken.
+ of een opbrengst[^7]
+ uitmaken.
 
 Voor leningen die zijn aangegaan vóór 31 december 1991 werd deze kost beschouwd als “disagio” en werd het opgenomen bij rekening 201 *Kosten bij uitgifte van leningen en disagio*.
 
 Het koninklijk besluit van 30 december 1991[^8] schrapte in de titel van rekening 201 de woorden “en disagio”.
 
 Dit betekent dat voor contracten die afgesloten zijn na 31 december 1991, de uitgifte- en terugbetalingspremies niet meer geactiveerd worden op de balans[^9]
- en dus niet meer beschouwd worden als Oprichtingskosten, maar geleidelijk aan op de rekening van de lening moeten worden gecrediteerd.
+ en dus niet meer beschouwd worden als Oprichtingskosten, maar geleidelijk aan op de rekening van de lening moeten worden gecrediteerd.
 
 Het behoort het bestuursorgaan toe de uitgiftevoorwaarden voor een obligatielening te bepalen. De leningen kunnen als volgt worden uitgegeven:
 
-|   | | Uitgifte onder pari | | Uitgifte tegen pari-waarde | | Uitgifte boven pari | 
-| Terugbetaling onder pari | |   | | Negatieve terugbetalingspremie | | Negatieve dubbele premie | 
+| | | Uitgifte onder pari | | Uitgifte tegen pari-waarde | | Uitgifte boven pari | 
+| Terugbetaling onder pari | | | | Negatieve terugbetalingspremie | | Negatieve dubbele premie | 
 | Terugbetaling tegen pari-waarde | | Uitgiftepremie | | Lening zonder premie | | Negatieve uitgiftepremie | 
-| Terugbetaling boven pari | | Dubbele premie | | Terugbetalingspremie | |   | 
+| Terugbetaling boven pari | | Dubbele premie | | Terugbetalingspremie | | | 
 
 #### Lening zonder verschil tussen de uitgifteprijs en terugbetalingswaarde
 
-De vennootschap-emittent kent de inschrijver een vordering toe waarvan de uitgifteprijs en terugbetalingswaarde gelijk zijn aan de nominale waarde; in dit geval gaat het om een lening uitgegeven a pari of *uitgifte tegen pari-waarde*. 
+De vennootschap-emittent kent de inschrijver een vordering toe waarvan de uitgifteprijs en terugbetalingswaarde gelijk zijn aan de nominale waarde; in dit geval gaat het om een lening uitgegeven a pari of *uitgifte tegen pari-waarde*. 
 
 #### Uitgifte onder pari en terugbetaling tegen pari-waarde
 
@@ -154,7 +154,7 @@ Het bedrag (of uitgifteprijs) dat gestort is door de inschrijver is kleiner dan 
 
 *Voorbeeld*: uitgifte tegen 97,50 %. Voor een nominale waarde van 10.000.000 EUR, moeten de inschrijvers slechts 9.750.000 EUR betalen. Zo ontstaat er een *uitgiftepremie *van 2,50 %.
 
-#### Uitgifte tegen pari-waarde en terugbetaling boven pari 
+#### Uitgifte tegen pari-waarde en terugbetaling boven pari 
 
 De terugbetalingswaarde (op de vervaldag) van de a pari uitgegeven obligatie ligt hoger dan de nominale waarde.
 
@@ -170,11 +170,11 @@ De terugbetalingswaarde van de uitgegeven obligatie ligt hoger dan de nominale w
 
 1 april 2019: uitgifte van een niet-achtergestelde en niet-converteerbare obligatielening voor een bedrag van 5.000.000 EUR, onderverdeeld in 5.000 obligaties met elk een nominale waarde van 1.000 EUR.
 
-De uitgifteprijs bedraagt 102 % van de nominale waarde en de obligatielening is in één keer terugbetaalbaar tegen pari-waarde op 1 juli 2025. 
+De uitgifteprijs bedraagt 102 % van de nominale waarde en de obligatielening is in één keer terugbetaalbaar tegen pari-waarde op 1 juli 2025. 
 
 De rentevoet bedraagt 2,875 %: de intresten worden jaarlijks betaald (op 1 april).
 
-De bankkosten bedragen:     
+De bankkosten bedragen: 
 
 - 85.000,00 EUR excl. btw (bij uitgifte) 
 - 15.000,00 EUR excl. btw (terugbetaling) 
@@ -191,16 +191,16 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 201 | Kosten bij uitgifte van leningen | 85.000,00 |  |
-|  | 4110 | BTW op aankopen | 17.850,00 |  |
-|  | 5500 | Kredietinstellingen – Rekening-courant | 4.997.150,00 |  |
-| aan | 1711 | Niet-achtergestelde en niet-converteerbare obligatieleningen |  | 5.100.000,00 |
+| | 201 | Kosten bij uitgifte van leningen | 85.000,00 | |
+| | 4110 | BTW op aankopen | 17.850,00 | |
+| | 5500 | Kredietinstellingen – Rekening-courant | 4.997.150,00 | |
+| aan | 1711 | Niet-achtergestelde en niet-converteerbare obligatieleningen | | 5.100.000,00 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 201 | Kosten bij uitgifte van leningen | 125.000,00 |  |
-|  | 4110 | BTW op aankopen | 26.250,00 |  |
-| aan | 440 | Leveranciers |  | 151.250,00 |
+| | 201 | Kosten bij uitgifte van leningen | 125.000,00 | |
+| | 4110 | BTW op aankopen | 26.250,00 | |
+| aan | 440 | Leveranciers | | 151.250,00 |
 
 #### Regularisering einde boekjaar 2019
 
@@ -208,22 +208,22 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6501 | Afschrijving van de kosten bij uitgifte van leningen | 26.250,00 |  |
-| aan | 201 | Kosten bij uitgifte van leningen |  | 26.250,00 |
+| | 6501 | Afschrijving van de kosten bij uitgifte van leningen | 26.250,00 | |
+| aan | 201 | Kosten bij uitgifte van leningen | | 26.250,00 |
 
 [^11]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 107.812,50 |  |
-| aan | 492 | Toe te rekenen kosten |  | 107.812,50 |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 107.812,50 | |
+| aan | 492 | Toe te rekenen kosten | | 107.812,50 |
 
 [^12]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 1711 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 12.500,00 |  |
-| aan | 6500 | Rente, commissies en kosten verbonden aan schulden |  | 12.500,00 |
+| | 1711 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 12.500,00 | |
+| aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 12.500,00 |
 
 ### Boekhoudkundige verwerking in 2020
 
@@ -231,69 +231,69 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 492 | Toe te rekenen kosten | 107.812,50 |  |
-| aan | 6500 | Rente, commissies en kosten verbonden aan schulden |  | 107.812,50 |
+| | 492 | Toe te rekenen kosten | 107.812,50 | |
+| aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 107.812,50 |
 
 #### Vervaldag van de rente (1 april 2020)[^14] 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 |  |
-| aan | 453 | Ingehouden voorheffingen |  | 43.125,00 |
-|  | 480 | Vervallen obligaties en coupons | 100.625,00 |  |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 | |
+| aan | 453 | Ingehouden voorheffingen | | 43.125,00 |
+| | 480 | Vervallen obligaties en coupons | 100.625,00 | |
 
 #### Regularisering einde boekjaar 2020
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 |  |
-| aan | 201 | Kosten bij uitgifte van leningen |  | 35.000,00 |
+| | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 | |
+| aan | 201 | Kosten bij uitgifte van leningen | | 35.000,00 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 107.812,50 |  |
-| aan | 492 | Toe te rekenen kosten |  | 107.812,50 |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 107.812,50 | |
+| aan | 492 | Toe te rekenen kosten | | 107.812,50 |
 
 [^15]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 1711 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 16.666,67 |  |
-| aan | 6500 | Rente, commissies en kosten verbonden aan schulden |  | 16.666,67 |
+| | 1711 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 16.666,67 | |
+| aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 16.666,67 |
 
 ### Boekhoudkundige verwerking in 2021
 
-#### Begin van het boekjaar 2021 (tegenboeking)
+#### Begin van het boekjaar 2021 (tegenboeking)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 492 | Toe te rekenen kosten | 107.812,50 |  |
-| aan | 6500 | Rente, commissies en kosten verbonden aan schulden |  | 107.812,50 |
+| | 492 | Toe te rekenen kosten | 107.812,50 | |
+| aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 107.812,50 |
 
 #### Vervaldag van de rente (1 april 2021)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 |  |
-| aan | 453 | Ingehouden voorheffingen |  | 43.125,00 |
-|  | 480 | Vervallen obligaties en coupons | 100.625,00 |  |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 | |
+| aan | 453 | Ingehouden voorheffingen | | 43.125,00 |
+| | 480 | Vervallen obligaties en coupons | 100.625,00 | |
 
 #### Regularisering einde boekjaar 2021
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 |  |
-| aan | 201 | Kosten bij uitgifte van leningen |  | 35.000,00 |
+| | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 | |
+| aan | 201 | Kosten bij uitgifte van leningen | | 35.000,00 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 107.812,50 |  |
-| aan | 492 | Toe te rekenen kosten |  | 107.812,50 |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 107.812,50 | |
+| aan | 492 | Toe te rekenen kosten | | 107.812,50 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 1711 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 16.666,67 |  |
-| aan | 6500 | Rente, commissies en kosten verbonden aan schulden |  | 16.666,67 |
+| | 1711 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 16.666,67 | |
+| aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 16.666,67 |
 
 ### Boekhoudkundige verwerking in 2022
 
@@ -301,33 +301,33 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 492 | Toe te rekenen kosten | 107.812,50 |  |
-| aan | 6500 | Rente, commissies en kosten verbonden aan schulden |  | 107.812,50 |
+| | 492 | Toe te rekenen kosten | 107.812,50 | |
+| aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 107.812,50 |
 
 #### Vervaldag van de rente (1 april 2022)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 |  |
-| aan | 453 | Ingehouden voorheffingen |  | 43.125,00 |
-|  | 480 | Vervallen obligaties en coupons | 100.625,00 |  |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 | |
+| aan | 453 | Ingehouden voorheffingen | | 43.125,00 |
+| | 480 | Vervallen obligaties en coupons | 100.625,00 | |
 
 #### Regularisering einde boekjaar 2022
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 |  |
-| aan | 201 | Kosten bij uitgifte van leningen |  | 35.000,00 |
+| | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 | |
+| aan | 201 | Kosten bij uitgifte van leningen | | 35.000,00 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 107.812,50 |  |
-| aan | 492 | Toe te rekenen kosten |  | 107.812,50 |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 107.812,50 | |
+| aan | 492 | Toe te rekenen kosten | | 107.812,50 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 1711 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 16.666,67 |  |
-| aan | 6500 | Rente, commissies en kosten verbonden aan schulden |  | 16.666,67 |
+| | 1711 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 16.666,67 | |
+| aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 16.666,67 |
 
 ### Boekhoudkundige verwerking in 2023
 
@@ -335,33 +335,33 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 492 | Toe te rekenen kosten | 107.812,50 |  |
-| aan | 6500 | Rente, commissies en kosten verbonden aan schulden |  | 107.812,50 |
+| | 492 | Toe te rekenen kosten | 107.812,50 | |
+| aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 107.812,50 |
 
 #### Vervaldag van de rente (1 april 2023)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 |  |
-| aan | 453 | Ingehouden voorheffingen |  | 43.125,00 |
-|  | 480 | Vervallen obligaties en coupons | 100.625,00 |  |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 | |
+| aan | 453 | Ingehouden voorheffingen | | 43.125,00 |
+| | 480 | Vervallen obligaties en coupons | 100.625,00 | |
 
 #### Regularisering einde boekjaar 2023
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 |  |
-| aan | 201 | Kosten bij uitgifte van leningen |  | 35.000,00 |
+| | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 | |
+| aan | 201 | Kosten bij uitgifte van leningen | | 35.000,00 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 107.812,50 |  |
-| aan | 492 | Toe te rekenen kosten |  | 107.812,50 |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 107.812,50 | |
+| aan | 492 | Toe te rekenen kosten | | 107.812,50 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 1711 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 16.666,67 |  |
-| aan | 6500 | Rente, commissies en kosten verbonden aan schulden |  | 16.666,67 |
+| | 1711 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 16.666,67 | |
+| aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 16.666,67 |
 
 ### Boekhoudkundige verwerking in 2024
 
@@ -369,38 +369,38 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 492 | Toe te rekenen kosten | 107.812,50 |  |
-| aan | 6500 | Rente, commissies en kosten verbonden aan schulden |  | 107.812,50 |
+| | 492 | Toe te rekenen kosten | 107.812,50 | |
+| aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 107.812,50 |
 
 #### Vervaldatum van de rente (1 april 2024)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 |  |
-| aan | 453 | Ingehouden voorheffingen |  | 43.125,00 |
-|  | 480 | Vervallen obligaties en coupons | 100.625,00 |  |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 | |
+| aan | 453 | Ingehouden voorheffingen | | 43.125,00 |
+| | 480 | Vervallen obligaties en coupons | 100.625,00 | |
 
 #### Regularisering einde boekjaar 2024 (waaronder herclassificatie van de schuld)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 |  |
-| aan | 201 | Kosten bij uitgifte van leningen |  | 35.000,00 |
+| | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 | |
+| aan | 201 | Kosten bij uitgifte van leningen | | 35.000,00 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6500 | Rente, commissies en kosten verbonden aan schulden | 107.812,50 |  |
-| aan | 492 | Toe te rekenen kosten |  | 107.812,50 |
+| | 6500 | Rente, commissies en kosten verbonden aan schulden | 107.812,50 | |
+| aan | 492 | Toe te rekenen kosten | | 107.812,50 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 1711 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 16.666,67 |  |
-| aan | 6500 | Rente, commissies en kosten verbonden aan schulden |  | 16.666,67 |
+| | 1711 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 16.666,67 | |
+| aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 16.666,67 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 171 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 5.004.166,67 |  |
-| aan | 4211 | Niet-achtergestelde en niet-converteerbare obligatieleningen |  | 5.004.166,67 |
+| | 171 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 5.004.166,67 | |
+| aan | 4211 | Niet-achtergestelde en niet-converteerbare obligatieleningen | | 5.004.166,67 |
 
 ### Boekhoudkundige verwerking in 2025
 
@@ -408,8 +408,8 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 492 | Toe te rekenen kosten | 107.812,50 |  |
-| aan | 6500 | Rente, commissies en kosten verbonden aan schulden |  | 107.812,50 |
+| | 492 | Toe te rekenen kosten | 107.812,50 | |
+| aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 107.812,50 |
 
 #### Vervaldag van de lening en terugbetaling van de obligaties (1 april 2025)
 
@@ -417,27 +417,27 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 4211 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 4.166,67 |  |
-| aan | 6500 | Rente, commissies en kosten verbonden aan schulden |  | 4.166,67 |
+| | 4211 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 4.166,67 | |
+| aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 4.166,67 |
 
 [^17]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6501 | Afschrijving van kosten bij uitgifte van leningen | 8.750,00 |  |
-| aan | 201 | Kosten bij uitgifte van leningen |  | 8.750,00 |
+| | 6501 | Afschrijving van kosten bij uitgifte van leningen | 8.750,00 | |
+| aan | 201 | Kosten bij uitgifte van leningen | | 8.750,00 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 4211 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 5.000.000,00 |  |
-| aan | 480 | Vervallen obligaties en coupons |  | 5.000.000,00 |
+| | 4211 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 5.000.000,00 | |
+| aan | 480 | Vervallen obligaties en coupons | | 5.000.000,00 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 658 | Bank- en afwikkelingskosten | 15.000,00 |  |
-|  | 4110 | BTW op aankopen | 3.150,00 |  |
-|  | 480 | Vervallen obligaties en coupons | 5.000.000,00 |  |
-| aan | 5500 | Kredietinstellingen – Rekening-courant |  | 5.018.150,00 |
+| | 658 | Bank- en afwikkelingskosten | 15.000,00 | |
+| | 4110 | BTW op aankopen | 3.150,00 | |
+| | 480 | Vervallen obligaties en coupons | 5.000.000,00 | |
+| aan | 5500 | Kredietinstellingen – Rekening-courant | | 5.018.150,00 |
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 18 april 2019 ter publieke consultatie werd gepubliceerd op de website van de CBN. Onderhavig advies is van toepassing op BV’s, coöperatieve vennootschappen en NV’s die obligaties uitgeven voor een bepaalde termijn. Het nieuwe WVV voorziet voor deze vennootschappen in de mogelijkheid om eveneens obligaties eeuwigdurend uit te geven: de CBN zal hierover in de toekomst nog een specifiek advies publiceren.
 

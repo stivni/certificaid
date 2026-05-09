@@ -54,7 +54,7 @@ In het Verslag aan de Koning bij het Koninklijk Besluit tot uitvoering van het W
 
 Vermits de begripsomschrijving van een grensoverschrijdende fusie zoals die wordt geformuleerd in de Richtlijn van 26 oktober 2005[^1] volledig overeenstemt met het fusiebegrip zoals geformuleerd in het W.Venn., impliceert dit dat in de Belgische boeken van de bij dergelijke grensoverschrijdende fusie betrokken vennootschappen de verrichting eveneens volgens de regels van het boekhoudkundig continuïteitsprincipe moet worden verwerkt, d.w.z. met in achtneming van de artikelen 41, §1, tweede lid, 78 en 79 van het KB W.Venn.
 
-Verder wordt uitgegaan van de hypothese dat de in België gevestigde bijkantoren en centra van werkzaamheden als bedoeld in artikel 1 van de Wet van 17 juli 1975 (hierna genoemd de Belgische inrichtingen) die n.a.v. grensoverschrijdende fusies ontstaan of bij grensoverschrijdende fusies betrokken zijn – op basis van voormelde wet en artikel 92, § 2 van het W.Venn. – gehouden zijn hun boekhouding te voeren en hun jaarrekening op te stellen overeenkomstig het Belgisch boekhoudrecht. Het begrip “Belgische inrichting” stemt niet noodzakelijk overeen met de gelijkaardige fiscale begrippen, t.t.z. “Belgische inrichting” als bedoeld in artikel 229 van het Wetboek van de inkomstenbelastingen 1992 (hierna WIB92) of “vaste inrichting” in de zin van de door België gesloten dubbelbelastingverdragen.  
+Verder wordt uitgegaan van de hypothese dat de in België gevestigde bijkantoren en centra van werkzaamheden als bedoeld in artikel 1 van de Wet van 17 juli 1975 (hierna genoemd de Belgische inrichtingen) die n.a.v. grensoverschrijdende fusies ontstaan of bij grensoverschrijdende fusies betrokken zijn – op basis van voormelde wet en artikel 92, § 2 van het W.Venn. – gehouden zijn hun boekhouding te voeren en hun jaarrekening op te stellen overeenkomstig het Belgisch boekhoudrecht. Het begrip “Belgische inrichting” stemt niet noodzakelijk overeen met de gelijkaardige fiscale begrippen, t.t.z. “Belgische inrichting” als bedoeld in artikel 229 van het Wetboek van de inkomstenbelastingen 1992 (hierna WIB92) of “vaste inrichting” in de zin van de door België gesloten dubbelbelastingverdragen. 
 
 Niettemin wordt in de hierna vermelde voorbeelden steeds uitgegaan van de hypothese dat deze “Belgische inrichtingen“ tevens aan te merken zijn als vaste inrichtingen in fiscaal opzicht.
 
@@ -68,7 +68,7 @@ In een eerste afdeling wordt de situatie behandeld waarbij een Belgische vennoot
 
 ### Overname van een Belgische vennootschap, zonder buitenlandse inrichting, door een vennootschap gevestigd in een andere EU-lidstaat
 
-*1.     Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt overgenomen door een vennootschap B gevestigd in een andere EU-Lidstaat. Vennootschap B bezit geen A-aandelen en bezit geen Belgische inrichting; vennootschap A bezit geen eigen aandelen.*
+*1. Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt overgenomen door een vennootschap B gevestigd in een andere EU-Lidstaat. Vennootschap B bezit geen A-aandelen en bezit geen Belgische inrichting; vennootschap A bezit geen eigen aandelen.*
 
 Naar aanleiding van de fusie ontstaat normalerwijze een Belgische inrichting van de overnemende vennootschap B. Het boekhoudkundig continuïteitsprincipe houdt dan in dat in de rekeningen van deze Belgische inrichting de actiefbestanddelen, de voorzieningen en de schulden worden opgenomen tegen de boekwaarde die deze elementen hadden in de rekeningen van de overgenomen vennootschap. De eigen vermogensrekeningen van de overgenomen Belgische vennootschap worden in principe ook als dusdanig aan dezelfde boekwaarde als eigen vermogensrekeningen van de Belgische inrichting van de overnemende vennootschap opgenomen, met dien verstande dat het verschil tussen het boekhoudkundig eigen vermogen en het bedrag aan reserves, herwaarderingsmeerwaarden en kapitaalsubsidies in de balans van de Belgische inrichting wordt ingeschreven als dotatie, zijnde het maatschappelijk kapitaal en, in voorkomend geval, de uitgiftepremies van de overgenomen Belgische vennootschap A.
 
@@ -77,9 +77,9 @@ Voorbeeld 1
 | A (Belgische overgenomen vennootschap) | 
 | Vaste activa | | 5.500 | | Kapitaal | | 3.000 | 
 | Vlottende activa | | 9.500 | | Reserves | | 7.000 | 
-|   | |   | | Voorzieningen | | 1.000 | 
-|   | |   | | Schulden | | 4.000 | 
-|   | | 15.000 | |   | | 15.000 | 
+| | | | | Voorzieningen | | 1.000 | 
+| | | | | Schulden | | 4.000 | 
+| | | 15.000 | | | | 15.000 | 
 
 De Belgische vennootschap A, zonder buitenlandse inrichting, wordt overgenomen door een vennootschap B gevestigd in een andere EU-Lidstaat waarbij B geen A-aandelen bezit en geen Belgische inrichting heeft; A bezit geen eigen aandelen.
 
@@ -88,15 +88,15 @@ De balans van de Belgische inrichting van de overnemende vennootschap B zal er n
 | Belgische inrichting van B (na de fusie) | 
 | Vaste activa | | 5.500 | | Dotatie | | 3.000 | 
 | Vlottende activa | | 9.500 | | Reserves | | 7.000 | 
-|   | |   | | Voorzieningen | | 1.000 | 
-|   | |   | | Schulden | | 4.000 | 
-|   | | 15.000 | |   | | 15.000 | 
+| | | | | Voorzieningen | | 1.000 | 
+| | | | | Schulden | | 4.000 | 
+| | | 15.000 | | | | 15.000 | 
 
-*2.     Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt overgenomen door een vennootschap B gevestigd in een andere EU-Lidstaat. De vennootschap B bezit A-aandelen en deze A-participatie is belegd in een Belgische inrichting van de vennootschap B; vennootschap A bezit geen eigen aandelen.*
+*2. Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt overgenomen door een vennootschap B gevestigd in een andere EU-Lidstaat. De vennootschap B bezit A-aandelen en deze A-participatie is belegd in een Belgische inrichting van de vennootschap B; vennootschap A bezit geen eigen aandelen.*
 
 De boekhoudkundige verwerking van de fusie waarbij A wordt overgenomen door B en B aandelen in A bezit welke belegd zijn in een Belgische inrichting, geschiedt op het Belgisch niveau op een identieke manier als in geval het een fusie betreft waarbij A wordt overgenomen door een Belgische vennootschap welke aandelen in de overgenomen vennootschap bezit.
 
-Hierbij is artikel 78, § 6 van het KB W.Venn. onverkort van toepassing. Dit wil zeggen dat op het niveau van de Belgische inrichting van de overnemende vennootschap B, de A-aandelen worden ingetrokken en de verschillende bestanddelen van het eigen vermogen van de overgenomen vennootschap in de boekhouding van de Belgische inrichting van de overnemende vennootschap B slechts worden opgenomen ten belope van de fractie die overeenstemt met de aandelen in de overgenomen vennootschap die worden omgewisseld tegen de nieuw uitgegeven aandelen door de overnemende vennootschap.
+Hierbij is artikel 78, § 6 van het KB W.Venn. onverkort van toepassing. Dit wil zeggen dat op het niveau van de Belgische inrichting van de overnemende vennootschap B, de A-aandelen worden ingetrokken en de verschillende bestanddelen van het eigen vermogen van de overgenomen vennootschap in de boekhouding van de Belgische inrichting van de overnemende vennootschap B slechts worden opgenomen ten belope van de fractie die overeenstemt met de aandelen in de overgenomen vennootschap die worden omgewisseld tegen de nieuw uitgegeven aandelen door de overnemende vennootschap.
 
 Zoals in de laatste zin van artikel 78, §6 KB W.Venn. wordt bepaald, dient in voorkomend geval rekening te worden gehouden met de ten gevolge van de fusie gewijzigde fiscale kwalificatie van de reserves bij de overgenomen vennootschap[^2]. Dit kan leiden tot bijkomende boekhoudkundige correcties.
 
@@ -105,16 +105,16 @@ Voorbeeld 2
 | A (Belgische overgenomen vennootschap) | 
 | Vaste activa | | 5.500 | | Kapitaal | | 3.000 | 
 | Vlottende activa | | 9.500 | | Beschikbare reserves | | 7.000 | 
-|   | |   | | Voorzieningen | | 1.000 | 
-|   | |   | | Schulden | | 4.000 | 
-|   | | 15.000 | |   | | 15.000 | 
+| | | | | Voorzieningen | | 1.000 | 
+| | | | | Schulden | | 4.000 | 
+| | | 15.000 | | | | 15.000 | 
 
 | Belgische inrichting van B (vóór de fusie) | 
 | Materiële vaste activa | | 200 | | Dotatie | | 2.500 | 
-| Financiële vaste activa[^3]  | | 10.800 | | Beschikbare reserves | | 3.500 | 
-| (Participatie A 90%) | |   | | Schulden | | 5.000 | 
-|   | |   | |   | |   | 
-|   | | 11.000 | |   | | 11.000 | 
+| Financiële vaste activa[^3] | | 10.800 | | Beschikbare reserves | | 3.500 | 
+| (Participatie A 90%) | | | | Schulden | | 5.000 | 
+| | | | | | | | 
+| | | 11.000 | | | | 11.000 | 
 
 Bij de fusie zal – met toepassing van artikel 78, §7, a), KB W.Venn. – in hoofde van de Belgische inrichting van de overnemende vennootschap, een boekhoudkundig fusieverlies worden toegewezen als “goodwill”[^4].
 
@@ -124,65 +124,65 @@ Na de fusie zal de balans van de Belgische inrichting van de overnemende vennoot
 | Goodwill | | 1.800 | | Dotatie (2.500 + 3.000 x 10%[^5]) | | 2.800 | 
 | Vaste activa (200 + 5.500) | | 5.700 | | Beschikbare reserves (3.500 + 7.000 x 10%) | | 4.200 | 
 | Vlottende activa | | 9.500 | | Voorzieningen | | 1.000 | 
-|   | |   | | Schulden (4.000 + 5.000) | | 9.000 | 
-|   | | 17.000 | |   | | 17.000 | 
+| | | | | Schulden (4.000 + 5.000) | | 9.000 | 
+| | | 17.000 | | | | 17.000 | 
 
 In de hypothese dat de 7.000 reserves van A vóór de fusie zouden bestaan uit belastingvrije reserves kunnen zij na de (belastingneutrale) fusie slechts ten belope van 700 worden teruggevonden binnen het eigen vermogen van de Belgische inrichting van de overnemende vennootschap B. Indien men de belastingvrije reserves van A volledig wenst weder samen te stellen zal de inrichting van de overnemende vennootschap B nog een correctieboeking dienen door te voeren (cf. CBN advies 2009/6).
 
-*3.     Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt overgenomen door een vennootschap B gevestigd in een andere EU-Lidstaat. De vennootschap B bezit A-aandelen maar heeft geen Belgische inrichting voor de fusie; vennootschap A bezit geen eigen aandelen.*
+*3. Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt overgenomen door een vennootschap B gevestigd in een andere EU-Lidstaat. De vennootschap B bezit A-aandelen maar heeft geen Belgische inrichting voor de fusie; vennootschap A bezit geen eigen aandelen.*
 
 Voorbeeld 3
 
 | A (Belgische overgenomen vennootschap) | 
 | Vaste activa | | 5.500 | | Kapitaal | | 3.000 | 
 | Vlottende activa | | 9.500 | | Beschikbare Reserves | | 7.000 | 
-|   | |   | | Voorzieningen | | 1.000 | 
-|   | |   | | Schulden | | 4.000 | 
-|   | | 15.000 | |   | | 15.000 | 
+| | | | | Voorzieningen | | 1.000 | 
+| | | | | Schulden | | 4.000 | 
+| | | 15.000 | | | | 15.000 | 
 
 De Belgische vennootschap A, zonder buitenlandse inrichting, wordt overgenomen door een vennootschap B gevestigd in een andere EU-Lidstaat waarbij deze overnemende vennootschap 90% van de A-aandelen bezit. De vennootschap B bezit voor de fusie niet over een Belgische inrichting.
 
 Tengevolge van de fusie ontstaat in principe een Belgische inrichting van de overnemende vennootschap B. De balans van deze Belgische inrichting van B na de fusie zal er als volgt uitzien:
 
 | Belgische inrichting van B (na de fusie) | 
-| Vaste activa | | 5.500 | | Dotatie[^6]  | | 3.000 | 
+| Vaste activa | | 5.500 | | Dotatie[^6] | | 3.000 | 
 | Vlottende activa | | 9.500 | | Beschikbare reserves6 | | 7.000 | 
-|   | |   | | Voorzieningen | | 1.000 | 
-|   | |   | | Schulden | | 4.000 | 
-|   | | 15.000 | |   | | 15.000 | 
+| | | | | Voorzieningen | | 1.000 | 
+| | | | | Schulden | | 4.000 | 
+| | | 15.000 | | | | 15.000 | 
 
 ### Overname van een vennootschap gevestigd in een andere EU-lidstaat door een Belgische vennootschap
 
-*1.     Een Belgische vennootschap A neemt een vennootschap B gevestigd in een andere EU-Lidstaat over; de overnemende Belgische vennootschap A bezit geen aandelen in de overgenomen vennootschap B en de overgenomen vennootschap B heeft geen Belgische inrichting.*
+*1. Een Belgische vennootschap A neemt een vennootschap B gevestigd in een andere EU-Lidstaat over; de overnemende Belgische vennootschap A bezit geen aandelen in de overgenomen vennootschap B en de overgenomen vennootschap B heeft geen Belgische inrichting.*
 
 Voorbeeld 4
 
 | A (Belgische overnemende vennootschap) | 
 | Vaste activa | | 3.200 | | Kapitaal | | 2.000 | 
 | Vlottende activa | | 6.800 | | Belastingvrije reserves | | 1.500 | 
-|   | |   | | Beschikbare reserves | | 4.500 | 
-|   | |   | | Voorzieningen | | 900 | 
-|   | |   | | Schulden | | 1.100 | 
-|   | | 10.000 | |   | | 10.000 | 
+| | | | | Beschikbare reserves | | 4.500 | 
+| | | | | Voorzieningen | | 900 | 
+| | | | | Schulden | | 1.100 | 
+| | | 10.000 | | | | 10.000 | 
 
 | B (overgenomen vennootschap) | 
 | Vaste activa | | 5.500 | | Kapitaal | | 3.000 | 
 | Vlottende activa | | 9.500 | | Reserves7 | | 7.000 | 
-|   | |   | | Voorzieningen | | 1.000 | 
-|   | |   | | Schulden | | 4.000 | 
-|   | | 15.000 | |   | | 15.000 | 
+| | | | | Voorzieningen | | 1.000 | 
+| | | | | Schulden | | 4.000 | 
+| | | 15.000 | | | | 15.000 | 
 
 Na de fusie door overneming van B door A, ziet de balans van A er als volgt uit
 
 | A (na de fusie) | 
 | Vaste activa (3.200 + 5.500) | | 8.700 | | Kapitaal (2.000 + 3.000) | | 5.000 | 
 | Vlottende activa (6.800 + 9.500) | | 16.300 | | Belastingvrije reserves (1.500 + 07) | | 1.500 | 
-|   | |   | | Beschikbare reserves (4.500 + 7.000[^7]) | | 11.500 | 
-|   | |   | | Voorzieningen (900 + 1.000) | | 1.900 | 
-|   | |   | | Schulden (1.100 + 4.000) | | 5.100 | 
-|   | | 25.000 | |   | | 25.000 | 
+| | | | | Beschikbare reserves (4.500 + 7.000[^7]) | | 11.500 | 
+| | | | | Voorzieningen (900 + 1.000) | | 1.900 | 
+| | | | | Schulden (1.100 + 4.000) | | 5.100 | 
+| | | 25.000 | | | | 25.000 | 
 
-*2.     Een Belgische vennootschap A neemt een vennootschap B, gevestigd in een andere EU-Lidstaat over; de overnemende Belgische vennootschap A bezit aandelen in de overgenomen vennootschap B en de overgenomen vennootschap B heeft geen inrichting in België.*
+*2. Een Belgische vennootschap A neemt een vennootschap B, gevestigd in een andere EU-Lidstaat over; de overnemende Belgische vennootschap A bezit aandelen in de overgenomen vennootschap B en de overgenomen vennootschap B heeft geen inrichting in België.*
 
 In toepassing van artikel 78, §6 KB W.Venn. worden ten name van de overnemende Belgische vennootschap de verschillende bestanddelen van het eigen vermogen van de overgenomen vennootschap slechts opgenomen ten belope van de fractie die overeenstemt met de aandelen van de overgenomen vennootschap die worden omgewisseld tegen aandelen van de overnemende vennootschap waarbij tevens rekening moet worden gehouden met de fiscale kwalificatie van de reserves van de overgenomen vennootschap.
 
@@ -190,37 +190,37 @@ Voorbeeld 5
 
 | A (Belgische overnemende vennootschap) | 
 | Materiële vaste activa | | 230 | | Kapitaal | | 2.000 | 
-| Financiële vaste activa (B-aandelen 90%)[^8]  | | 2.970 | | Belastingvrije reserves | | 1.500 | 
+| Financiële vaste activa (B-aandelen 90%)[^8] | | 2.970 | | Belastingvrije reserves | | 1.500 | 
 | Vlottende activa | | 6.800 | | Beschikbare reserves | | 4.500 | 
-|   | |   | | Voorzieningen | | 900 | 
-|   | |   | | Schulden | | 1.100 | 
-|   | | 10.000 | |   | | 10.000 | 
+| | | | | Voorzieningen | | 900 | 
+| | | | | Schulden | | 1.100 | 
+| | | 10.000 | | | | 10.000 | 
 
 | B (overgenomen vennootschap) | 
 | Vaste activa | | 5.500 | | Kapitaal | | 3.000 | 
 | Vlottende activa | | 9.500 | | Reserves | | 7.000 | 
-|   | |   | | Voorzieningen | | 1.000 | 
-|   | |   | | Schulden | | 4.000 | 
-|   | | 15.000 | |   | | 15.000 | 
+| | | | | Voorzieningen | | 1.000 | 
+| | | | | Schulden | | 4.000 | 
+| | | 15.000 | | | | 15.000 | 
 
 Na de fusie door overneming van B door A zal de balans van A er als volgt uitzien:
 
 | A (na de fusie) | 
 | Vaste activa (230 + 5.500) | | 5.730 | | Kapitaal (2.000 + 3.000 x 10%) | | 2.300 | 
 | Vlottende activa (6.800 + 9.500) | | 16.300 | | Belastingvrije reserves (1.500 + 0) | | 1.500 | 
-|   | |   | | Beschikbare reserves (4.500 + 7.000 x 10%)  | | 5.200 | 
-|   | |   | | Overgedragen winst[^9]  | | 6.030 | 
-|   | |   | | Voorzieningen (900 + 1.000) | | 1.900 | 
-|   | |   | | Schulden (1.100 + 4.000) | | 5.100 | 
-|   | | 22.030 | |   | | 22.030 | 
+| | | | | Beschikbare reserves (4.500 + 7.000 x 10%) | | 5.200 | 
+| | | | | Overgedragen winst[^9] | | 6.030 | 
+| | | | | Voorzieningen (900 + 1.000) | | 1.900 | 
+| | | | | Schulden (1.100 + 4.000) | | 5.100 | 
+| | | 22.030 | | | | 22.030 | 
 
-*3.     Een Belgische vennootschap A neemt een vennootschap B, gevestigd in een andere EU-Lidstaat over; de overnemende Belgische vennootschap A bezit geen aandelen in de overgenomen vennootschap B en de overgenomen vennootschap B heeft een Belgische inrichting.*
+*3. Een Belgische vennootschap A neemt een vennootschap B, gevestigd in een andere EU-Lidstaat over; de overnemende Belgische vennootschap A bezit geen aandelen in de overgenomen vennootschap B en de overgenomen vennootschap B heeft een Belgische inrichting.*
 
 De boekhoudkundige verwerking van de fusie door overneming van B door A gebeurt in de boeken van A op een analoge manier als aangegeven in voorbeeld 4, maar met dit verschil dat de belastingvrije reserves van de overgenomen vennootschap B welke verbonden zijn met haar Belgische inrichting na de fusie gelet op de fiscale bepalingen terzake in beginsel het karakter van belastingvrije reserves ten name van de overnemende vennootschap A behouden.
 
-*4.     Een Belgische vennootschap A neemt een vennootschap B, gevestigd in een andere EU-Lidstaat over; de overnemende Belgische vennootschap A bezit aandelen in de overgenomen vennootschap B en de overgenomen vennootschap B heeft een Belgische inrichting.*
+*4. Een Belgische vennootschap A neemt een vennootschap B, gevestigd in een andere EU-Lidstaat over; de overnemende Belgische vennootschap A bezit aandelen in de overgenomen vennootschap B en de overgenomen vennootschap B heeft een Belgische inrichting.*
 
-Deze situatie is een combinatie van de gevallen behandeld onder de punten 2.2. en 2.3.  
+Deze situatie is een combinatie van de gevallen behandeld onder de punten 2.2. en 2.3. 
 
 Voorbeeld 6
 
@@ -228,26 +228,26 @@ Voorbeeld 6
 | Materiële vaste activa | | 230 | | Kapitaal | | 2.000 | 
 | Financiële vaste activa (B-aandelen 90%) | | 2.970 | | Belastingvrije reserves | | 1.500 | 
 | Vlottende activa | | 6.800 | | Beschikbare reserves | | 4.500 | 
-|   | |   | | Voorzieningen | | 900 | 
-|   | |   | | Schulden | | 1.100 | 
-|   | | 10.000 | |   | | 10.000 | 
+| | | | | Voorzieningen | | 900 | 
+| | | | | Schulden | | 1.100 | 
+| | | 10.000 | | | | 10.000 | 
 
 | B (overgenomen vennootschap) | 
 | Vaste activa | | 5.500 | | Kapitaal | | 3.000 | 
 | Vlottende activa | | 9.500 | | Reserves | | 7.000 | 
-|   | |   | | Voorzieningen | | 1.000 | 
-|   | |   | | Schulden | | 4.000 | 
-|   | | 15.000 | |   | | 15.000 | 
+| | | | | Voorzieningen | | 1.000 | 
+| | | | | Schulden | | 4.000 | 
+| | | 15.000 | | | | 15.000 | 
 
 | Belgische inrichting van B (vóór de fusie) | 
 | Vaste activa | | 1.300 | | Dotatie | | 2.600 | 
 | Vlottende activa | | 7.200 | | Belastingvrije reserves | | 1.650 | 
-|   | |   | | Beschikbare reserves  | | 1.850 | 
-|   | |   | | Voorzieningen | | 450 | 
-|   | |   | | Schulden | | 1.950 | 
-|   | | 8.500 | |   | | 8.500 | 
+| | | | | Beschikbare reserves | | 1.850 | 
+| | | | | Voorzieningen | | 450 | 
+| | | | | Schulden | | 1.950 | 
+| | | 8.500 | | | | 8.500 | 
 
-Wanneer vennootschap A de buitenlandse vennootschap B overneemt, zou elk eigen-vermogensbestanddeel van B slechts overgenomen worden ten belope van 10  %, inclusief de belastingvrije reserves van de Belgische inrichting van vennootschap B.
+Wanneer vennootschap A de buitenlandse vennootschap B overneemt, zou elk eigen-vermogensbestanddeel van B slechts overgenomen worden ten belope van 10 %, inclusief de belastingvrije reserves van de Belgische inrichting van vennootschap B.
 
 In toepassing van artikel 78, § 6, *in fine*, KB W.Venn. kan boekhoudkundig afgeweken worden van een proportionele overname van de verschillende bestanddelen van de reserves om aldus de belastingvrije reserves van de Belgische inrichting van de overgenomen vennootschap B bij de overnemende vennootschap te kunnen wedersamenstellen.
 
@@ -259,18 +259,18 @@ Na de fusie zal de balans van A er als volgt uitzien:
 | Vaste activa (230 + 5.500) | | 5.730 | | Kapitaal (2.000 + 3.000 x 10%) | | 2.300 | 
 | Vlottende activa (6.800 + 9.500) | | 16.300 | | Belastingvrije reserves (1.500 + 1.650 x 10%[^10]
  + **535[^11] **) | | 2.200 | 
-|   | |   | | Beschikbare reserves 4.500 + (7.000 – 1.650) x 10% - **535**12 | | 4.500 | 
-|   | |   | | Overgedragen winst[^12]  | | 6.030 | 
-|   | |   | | Voorzieningen (900 + 1.000) | | 1.900 | 
-|   | |   | | Schulden (1.100 + 4.000) | | 5.100 | 
-|   | | 22.030 | |   | | 22.030 | 
+| | | | | Beschikbare reserves 4.500 + (7.000 – 1.650) x 10% - **535**12 | | 4.500 | 
+| | | | | Overgedragen winst[^12] | | 6.030 | 
+| | | | | Voorzieningen (900 + 1.000) | | 1.900 | 
+| | | | | Schulden (1.100 + 4.000) | | 5.100 | 
+| | | 22.030 | | | | 22.030 | 
 
 Aangezien in dit voorbeeld de andere dan de belastingvrije reserves van de Belgische inrichting van de overgenomen buitenlandse vennootschap ontoereikend zijn om de vermindering van de belastingvrije reserves van haar Belgische inrichting volledig op te vangen, kan het gedeelte van deze belastingvrije reserves dat, na de toerekening aan die andere reserves nog steeds niet is weder samengesteld, na de fusie worden heraangelegd via het debet van de resultatenrekening aan de hand van de volgende correctieboeking :
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 689 | Overboeking naar de belastingvrije reserves | 950 |  |
-| aan | 132 | Belastingvrije reserves |  | 950 |
+| | 689 | Overboeking naar de belastingvrije reserves | 950 | |
+| aan | 132 | Belastingvrije reserves | | 950 |
 
 Naar analogie van het gestelde in het CBN advies 2009/6 (zie voorbeeld 6) is de Commissie om redenen van praktische aard van mening dat de volledige wedersamenstelling van de belastingvrije reserves van de Belgische inrichting van de buitenlandse vennootschap ook lastens het resultaat mag gebeuren zonder artikel 78, § 6,* in fine*, KB W.Venn. toe te passen.
 
@@ -279,18 +279,18 @@ De openingsbalans na de fusie is dan als volgt :
 | A (na de fusie) | 
 | Vaste activa (230 + 5.500) | | 5.730 | | Kapitaal (2.000 + 3.000 x 10%) | | 2.300 | 
 | Vlottende activa (6.800 + 9.500) | | 16.300 | | Belastingvrije reserves (1.500 + 1.650 x 10%[^13]) | | 1.665 | 
-|   | |   | | Beschikbare reserves 4.500 + (7.000 – 1.650) x 10% | | 5.035 | 
-|   | |   | | Overgedragen winst[^14]  | | 6.030 | 
-|   | |   | | Voorzieningen (900 + 1.000) | | 1.900 | 
-|   | |   | | Schulden (1.100 + 4.000) | | 5.100 | 
-|   | | 22.030 | |   | | 22.030 | 
+| | | | | Beschikbare reserves 4.500 + (7.000 – 1.650) x 10% | | 5.035 | 
+| | | | | Overgedragen winst[^14] | | 6.030 | 
+| | | | | Voorzieningen (900 + 1.000) | | 1.900 | 
+| | | | | Schulden (1.100 + 4.000) | | 5.100 | 
+| | | 22.030 | | | | 22.030 | 
 
 De overnemende vennootschap A zal evenwel de belastingvrije reserves van de Belgische inrichting van de buitenlandse vennootschap B (fiscaal vrijgestelde reserves) volledig overnemen (zodat deze reserves in fiscaal opzicht niet zullen worden verminderd). Hiertoe kan de belastingvrije reserve na de fusie worden heraangelegd via de volgende correctieboeking :
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 689 | Overboeking naar de belastingvrije reserves | 1.485 |  |
-| aan | 132 | Belastingvrije reserves |  | 1.485 |
+| | 689 | Overboeking naar de belastingvrije reserves | 1.485 | |
+| aan | 132 | Belastingvrije reserves | | 1.485 |
 
 [^1]: Richtlijn 2005/56/EG van het Europees Parlement en de Raad betreffende grensoverschrijdende fusies van kapitaalvennootschappen, PB L 310 van 25 november 2005.
 

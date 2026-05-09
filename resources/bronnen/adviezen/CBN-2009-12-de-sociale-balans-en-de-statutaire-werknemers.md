@@ -32,12 +32,12 @@ provenance:
 
 ## Inleiding
 
-Aan de Commissie werd gevraagd of statutaire werknemers dienen opgenomen te worden in de sociale balans van de jaarrekening.  
+Aan de Commissie werd gevraagd of statutaire werknemers dienen opgenomen te worden in de sociale balans van de jaarrekening. 
 
 Deze vraag werd reeds behandeld in het CBN advies S100[^1]. Gezien de evoluties die zich sinds het eind van de jaren ’90 hebben voorgedaan op vlak van wetgeving en reglementering, leek het de Commissie desalniettemin nuttig om op deze vraag terug te komen en zich vooral toe te spitsen op de werknemers waarop de sociale balans betrekking heeft.
 
 Artikelen 91[^2], 94[^3] en 97[^4]
-  KB W.Venn. verwijzen ter zake naar:
+  KB W.Venn. verwijzen ter zake naar:
 
 - de werknemers ingeschreven in het personeelsregister dat gehouden wordt krachtens het koninklijk besluit nr. 5 van 23 oktober 1978 betreffende het bijhouden van sociale documenten (***KB nr. 5***); en 
 - de werknemers verbonden met de vennootschap door een arbeids- of stageovereenkomst zoals bedoeld door het koninklijk besluit nr. 230 van 21 december 1983 (***KB nr. 230***). 
@@ -52,8 +52,8 @@ Dit advies heeft tot doel de desbetreffende evoluties inzake wetgeving en reglem
 
 De wet van 24 januari 2003[^6] heeft het KB nr. 5 als volgt gewijzigd:
 
-- vooreerst werd het personeelsregister afgeschaft en vervangen door het algemeen personeelsregister en het speciaal personeelsregister;[^7]  
--  voorts werd de Koning de mogelijkheid toegekend om werkgevers vrij te stellen van de verplichting een algemeen personeelsregister bij te houden voor de werknemers van wie gegevens doorgegeven zijn aan de Rijksdienst voor Sociale Zekerheid (***RSZ***).[^8]  
+- vooreerst werd het personeelsregister afgeschaft en vervangen door het algemeen personeelsregister en het speciaal personeelsregister;[^7] 
+- voorts werd de Koning de mogelijkheid toegekend om werkgevers vrij te stellen van de verplichting een algemeen personeelsregister bij te houden voor de werknemers van wie gegevens doorgegeven zijn aan de Rijksdienst voor Sociale Zekerheid (***RSZ***).[^8] 
 
 Het is binnen deze context dat het KB van 5 november 2002[^9] op 1 januari 2003 van kracht is geworden. Deze heeft de onmiddellijke aangifte van tewerkstelling geïntroduceerd: de *“**D**éclaration **im**médiate/**on**middellijke **a**angifte”* (***DIMONA***), een elektronisch bericht waarin de werkgever iedere aanwerving en iedere uitdiensttreding van een werknemer onmiddellijk meldt aan de RSZ.
 
@@ -71,7 +71,7 @@ Uit de aangebrachte wijzigingen in de sociale wetgeving en regelgeving sinds de 
 
 Wat de statutaire werknemers betreft, bevestigt de Commissie de positie die ze had ingenomen in het voornoemde CBN-advies S100. In feite is ze van mening dat de statutaire werknemers in principe niet hernomen moeten worden in de sociale balans. Indien echter een onderneming in de praktijk de statutaire werknemers inschrijft in het algemeen personeelsregister of indien deze het voorwerp uitmaken van een DIMONA-verklaring, moeten ze worden hernomen in de sociale balans in de hoedanigheid van werknemers verbonden door een contract van onbepaalde duur. Van zodra een onderneming zowel statutaire en contractuele werknemers in dienst heeft, moet de onderneming de contractuele werknemers vermelden in de sociale balans.
 
-De Commissie zal op een gepast moment aan de regering een voorstel doen tot wijziging van het KB W.Venn., teneinde expliciet de in dit advies ontwikkelde interpretatie op te nemen en zodoende de problematiek inzake het achterhaald gebruik van het begrip “personeelsregister” uiteen te zetten, evenals de inadequate verwijzing naar de “stageovereenkomst” zoals bedoeld door het KB nr. 230 van 21 december 1983.  
+De Commissie zal op een gepast moment aan de regering een voorstel doen tot wijziging van het KB W.Venn., teneinde expliciet de in dit advies ontwikkelde interpretatie op te nemen en zodoende de problematiek inzake het achterhaald gebruik van het begrip “personeelsregister” uiteen te zetten, evenals de inadequate verwijzing naar de “stageovereenkomst” zoals bedoeld door het KB nr. 230 van 21 december 1983. 
 
 [^1]: Bulletin CBN, nr. 39, april 1997, p. 5-59.
 

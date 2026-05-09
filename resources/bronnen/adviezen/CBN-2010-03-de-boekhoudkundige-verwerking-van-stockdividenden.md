@@ -35,9 +35,9 @@ gerelateerde_adviezen:
 
 # CBN-advies 2010/3 -De boekhoudkundige verwerking van stockdividenden Advies van 25 maart 2010
 
-1.  Stockdividenden versus bonusaandelen  
-2.  Vorderingsrecht in hoofde van de aandeelhouder  
-3.  Boekhoudkundige verwerking  
+1. Stockdividenden versus bonusaandelen 
+2. Vorderingsrecht in hoofde van de aandeelhouder 
+3. Boekhoudkundige verwerking 
 
 Aan de Commissie werd de vraag gesteld hoe een stockdividend dient verwerkt te worden in de boekhouding van de vennootschap[^1].
 
@@ -54,7 +54,7 @@ Wat betreft de toekenning van nieuwe aandelen aan de aandeelhouders moet een ond
 
 Juridisch gezien is de toekenning van een bonusaandeel verschillend van de toekenning van een stockdividend.
 
-Een bonusaandeel wordt niet uitgereikt bij wijze van uitkering van dividenden en doet geen enkel vorderingsrecht ontstaan in hoofde van de aandeelhouder. Het gaat om een loutere herschikking van het eigen vermogen van de vennootschap. Het eigen vermogen  van de vennootschap wordt, met andere woorden, niet beïnvloed[^3].
+Een bonusaandeel wordt niet uitgereikt bij wijze van uitkering van dividenden en doet geen enkel vorderingsrecht ontstaan in hoofde van de aandeelhouder. Het gaat om een loutere herschikking van het eigen vermogen van de vennootschap. Het eigen vermogen van de vennootschap wordt, met andere woorden, niet beïnvloed[^3].
 
 Bij de toekenning van een stockdividend is er daarentegen sprake van een reële toekenning van inkomsten. Een dividend is een inkomen voortvloeiend uit een kapitaal geïnvesteerd in een vennootschap. Gelet op het feit dat de dividendgerechtigdheid reeds potentieel bestaat door het enkele feit van aandeelhouder te zijn, en dat het dividend zelf in principe op regelmatige tijdstippen aan de rechthebbende wordt uitgekeerd, gaat het om een burgerlijke vrucht in de zin van artikel 547 B.W.[^4] 
 
@@ -62,43 +62,43 @@ Indien de algemene vergadering het voorstel tot uitkering van een dividend goedk
 
 ## Vorderingsrecht in hoofde van de aandeelhouder
 
-Het vorderingsrecht dat de aandeelhouder verkrijgt, is te onderscheiden van de rechten die de aandeelhouder reeds bezat en vormt een vermogensverrijking in zijn hoofde. De schuldvordering betreffende de uitbetaling van dividenden ontstaat in het vermogen van de aandeelhouder op het ogenblik dat de algemene vergadering besluit om het dividend toe te kennen[^6]. Op dat ogenblik wordt het een afdwingbaar individueel recht[^7]. 
+Het vorderingsrecht dat de aandeelhouder verkrijgt, is te onderscheiden van de rechten die de aandeelhouder reeds bezat en vormt een vermogensverrijking in zijn hoofde. De schuldvordering betreffende de uitbetaling van dividenden ontstaat in het vermogen van de aandeelhouder op het ogenblik dat de algemene vergadering besluit om het dividend toe te kennen[^6]. Op dat ogenblik wordt het een afdwingbaar individueel recht[^7]. 
 
-Bij een stockdividend doen de aandeelhouders vervolgens een inbreng van dit vorderingsrecht  in het kapitaal van de emitterende vennootschap tegen de uitgifte van nieuwe aandelen. Het gaat dan om een kapitaalverhoging door inbreng in natura[^8]. Overeenkomstig CBN-advies 121/3 gebeurt deze mutatie met tegenboeking in een balanspost (omzetting van de schuld wegens uit te keren dividenden in het kapitaal) en beïnvloedt zodoende het totaal eigen vermogen van de emitterende vennootschap[^9].
+Bij een stockdividend doen de aandeelhouders vervolgens een inbreng van dit vorderingsrecht in het kapitaal van de emitterende vennootschap tegen de uitgifte van nieuwe aandelen. Het gaat dan om een kapitaalverhoging door inbreng in natura[^8]. Overeenkomstig CBN-advies 121/3 gebeurt deze mutatie met tegenboeking in een balanspost (omzetting van de schuld wegens uit te keren dividenden in het kapitaal) en beïnvloedt zodoende het totaal eigen vermogen van de emitterende vennootschap[^9].
 
 ## Boekhoudkundige verwerking
 
-Aangezien met de uitreiking van een stockdividend een nieuw vermogensbestanddeel aan de aandeelhouder wordt toegekend dat in eerste instantie uit het maatschappelijk vermogen van de vennootschap verdwijnt, is er sprake van een opbrengst in hoofde van de aandeelhouder. 
+Aangezien met de uitreiking van een stockdividend een nieuw vermogensbestanddeel aan de aandeelhouder wordt toegekend dat in eerste instantie uit het maatschappelijk vermogen van de vennootschap verdwijnt, is er sprake van een opbrengst in hoofde van de aandeelhouder. 
 
 De latere aanwending van het vorderingsrecht door de aandeelhouder (al dan niet inbreng van zijn vorderingsrecht in het kapitaal van de dividenddecreterende vennootschap) is irrelevant voor de boekhoudkundige verwerking van het stockdividend. De waarde van dit vorderingsrecht moet in de resultatenrekening van de aandeelhouder worden geboekt als financiële opbrengst.
 
-*a)    Boeking bij aandeelhouders*
+*a) Boeking bij aandeelhouders*
 
  [^10]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 416 | Diverse vorderingen | ... |  |
-|  | 6700 | Verschuldigde of gestorte belastingen en voorheffingen | ... |  |
-| aan | 750 |  | Opbrengsten uit financiële vaste activa | ... |
-|  | of | 751 | Opbrengsten uit vlottende activa | ... |
+| | 416 | Diverse vorderingen | ... | |
+| | 6700 | Verschuldigde of gestorte belastingen en voorheffingen | ... | |
+| aan | 750 | | Opbrengsten uit financiële vaste activa | ... |
+| | of | 751 | Opbrengsten uit vlottende activa | ... |
 
 De omzetting van het dividendrecht in nieuwe aandelen ter gelegenheid van de inbreng van deze vordering in het kapitaal van de dividenddecreterende vennootschap, vormt een loutere omzetting van de vermogensverrijking (vorderingsrecht op dividend versus vorderingsrecht op kapitaal)[^11].
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 510 | Geldbeleggingen (Aandelen aanschaffingswaarde) | ... |  |
-|  | of | 28 | Financiële vaste activa | ... |
-| aan | 416 | Diverse vorderingen |  | ... |
+| | 510 | Geldbeleggingen (Aandelen aanschaffingswaarde) | ... | |
+| | of | 28 | Financiële vaste activa | ... |
+| aan | 416 | Diverse vorderingen | | ... |
 
-*b)    Boeking bij dividenddecreterende vennootschap*
+*b) Boeking bij dividenddecreterende vennootschap*
 
 - Bij resultaatsbestemming
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 694 | Vergoeding van het kapitaal | ... |  |
-| aan | 471 | Dividenden over het boekjaar |  | ... |
+| | 694 | Vergoeding van het kapitaal | ... | |
+| aan | 471 | Dividenden over het boekjaar | | ... |
 
 - Bij betaalbaarstelling van de dividenden
 
@@ -106,25 +106,25 @@ De omzetting van het dividendrecht in nieuwe aandelen ter gelegenheid van de inb
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 471 | Dividenden over het boekjaar | ... |  |
-| aan | 453 | Ingehouden voorheffingen |  | ... |
+| | 471 | Dividenden over het boekjaar | ... | |
+| aan | 453 | Ingehouden voorheffingen | | ... |
 
 - Bij kapitaalverhoging door inbreng in natura
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 101 | Niet-opgevraagd kapitaal | ... |  |
-| aan | 100 | Geplaatst kapitaal |  | ... |
+| | 101 | Niet-opgevraagd kapitaal | ... | |
+| aan | 100 | Geplaatst kapitaal | | ... |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 410 | Opgevraagd, niet-gestort kapitaal | ... |  |
-| aan | 101 | Niet-opgevraagd kapitaal |  | ... |
+| | 410 | Opgevraagd, niet-gestort kapitaal | ... | |
+| aan | 101 | Niet-opgevraagd kapitaal | | ... |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 471 | Dividenden over boekjaar | ... |  |
-| aan | 410 | Opgevraagd, niet-gestort kapitaal |  | ... |
+| | 471 | Dividenden over boekjaar | ... | |
+| aan | 410 | Opgevraagd, niet-gestort kapitaal | | ... |
 
 [^1]: De Commissie is enkel bevoegd om zich uit spreken over het boekhoudrechtelijke aspect en neemt bijgevolg geen standpunt in over de andere dan boekhoudrechtelijke vennootschapsrechtelijke en fiscale implicaties van de toekenning van een stockdividend
 

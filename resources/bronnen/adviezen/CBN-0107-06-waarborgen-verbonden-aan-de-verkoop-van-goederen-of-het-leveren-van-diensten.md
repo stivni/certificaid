@@ -28,7 +28,7 @@ gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
     datum: '2021-07-05'
-  - titel: Gevolgen op gebied van financiële rapportering  als gevolg van de brexit
+  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
     datum: '2019-04-12'
   - titel: Voorzieningen
@@ -53,6 +53,6 @@ Met andere woorden, voornoemd besluit verbiedt de opbrengst van de verkoop als r
 
 Meestal kunnen waarborgkosten alleen maar geraamd worden. Daarom wil het besluit dat een voorziening wordt gevormd. Dat gebeurt dan ten laste van de resultatenrekening en zij wordt ingeschreven onder de overeenstemmende passiefrekening.
 
-De kost van de prestaties gedekt door de waarborg wordt volgens hun aard in de overeenstemmende rubriek van de resultatenrekening ingeschreven. De weerslag van dergelijke prestaties op de resultatenrekening wordt evenwel geneutraliseerd - in elk geval op het einde van het boekjaar - via aanpassing van de rekening *Voorzieningen* (aan passiefzijde) door de rekening  *Besteding van voorzieningen* in de resultatenrekening (rekening 6371 (-)).
+De kost van de prestaties gedekt door de waarborg wordt volgens hun aard in de overeenstemmende rubriek van de resultatenrekening ingeschreven. De weerslag van dergelijke prestaties op de resultatenrekening wordt evenwel geneutraliseerd - in elk geval op het einde van het boekjaar - via aanpassing van de rekening *Voorzieningen* (aan passiefzijde) door de rekening *Besteding van voorzieningen* in de resultatenrekening (rekening 6371 (-)).
 
 Bovendien moet het bedrag van de voorzieningen worden aangepast aan wat is vereist. Krachtens artikel 19, 6de lid, van voornoemd besluit mogen voorzieningen niet worden gehandhaafd in die mate waarin ze op het einde van het boekjaar hoger zijn dan wat vereist is volgens een actuele beoordeling van de risico's en kosten waarvoor ze werden gevormd.

@@ -69,13 +69,13 @@ De Commissie wil vooreerst benadrukken dat CBN-advies 2012/2 de situatie schetst
 
 ## Boekhoudkundige verwerking van de kwijtschelding van huur
 
-De Commissie is op basis van de bovenstaande argumenten de mening toegedaan dat noch de verhuurder, noch de huurder de mindere huur dienen te spreiden als respectievelijk een kost of een opbrengst in de tijd. De kwijtschelding kadert niet in een commerciële onderhandeling maar is gemotiveerd door het bestaan van overmacht als gevolg van de COVID-19-pandemie. 
+De Commissie is op basis van de bovenstaande argumenten de mening toegedaan dat noch de verhuurder, noch de huurder de mindere huur dienen te spreiden als respectievelijk een kost of een opbrengst in de tijd. De kwijtschelding kadert niet in een commerciële onderhandeling maar is gemotiveerd door het bestaan van overmacht als gevolg van de COVID-19-pandemie. 
 
 De boekhoudkundige verwerking van de kwijtschelding van huur zal logischerwijs afhangen van de voorwaarden die werden opgenomen in de overeenkomst tussen de verhuurder en de huurder[^3].
 
-Indien het addendum van het huurcontract bepaalt dat de huurder tijdens één van de periodes van verplichte sluiting geen huur dient te betalen, maakt de kwijtschelding de eenvoudige toepassing uit van het addendum en wordt de kwijtschelding simpelweg niet geboekt. 
+Indien het addendum van het huurcontract bepaalt dat de huurder tijdens één van de periodes van verplichte sluiting geen huur dient te betalen, maakt de kwijtschelding de eenvoudige toepassing uit van het addendum en wordt de kwijtschelding simpelweg niet geboekt. 
 
-Neem bijvoorbeeld een overeenkomst waarin drie maand huur wordt kwijtgescholden. De verhuurder zal voor dat boekjaar slechts een huur als opbrengst erkennen voor negen maand. Dienovereenkomstig zal de huurder maar een kost erkennen voor negen maand. 
+Neem bijvoorbeeld een overeenkomst waarin drie maand huur wordt kwijtgescholden. De verhuurder zal voor dat boekjaar slechts een huur als opbrengst erkennen voor negen maand. Dienovereenkomstig zal de huurder maar een kost erkennen voor negen maand. 
 
 In geval van huurvermindering zal enkel de verminderde huur worden geboekt in hoofde van de partijen.
 
@@ -83,7 +83,7 @@ In bepaalde gevallen kan de verhuurder het toekennen van een kwijtschelding aan 
 
 ## Boekhoudkundige verwerking van de tijdelijke niet-betaling van leasevergoedingen
 
-Naar de mening van de Commissie moet er een onderscheid gemaakt worden tussen operationele en financiële leasing. 
+Naar de mening van de Commissie moet er een onderscheid gemaakt worden tussen operationele en financiële leasing. 
 
 Bij operationele leasing blijft het in leasing gegeven actief op de balans staan van de leasinggever, die de door de leasingnemer betaalde vergoedingen in opbrengsten boekt. De leasingnemer boekt de vergoedingen op een kostenrekening. Het contract heeft enkel gevolgen voor de resultatenrekening en heeft daardoor veel weg van een eenvoudig huurcontract. Bijgevolg is de boekhoudkundige verwerking zoals opgenomen in vorig punt eveneens van toepassing bij operationele leasing. Ook ingeval de opschorting van betaling gedurende een aantal maanden werd gekoppeld aan een verlenging van het contract met eenzelfde periode (bv. drie maanden), zal tijdens de periode van opschorting door respectievelijk de leasinggever of de leasingnemer geen huuropbrengst of huurkost worden geboekt.
 

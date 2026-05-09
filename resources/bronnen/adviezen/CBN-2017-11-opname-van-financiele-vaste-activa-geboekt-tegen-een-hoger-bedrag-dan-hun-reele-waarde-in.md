@@ -30,7 +30,7 @@ provenance:
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de  cross currency swap
+  - titel: Boekhoudkundige verwerking van de cross currency swap
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
     datum: '2016-07-06'
   - titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten
@@ -47,7 +47,7 @@ gerelateerde_adviezen:
 
 Aan de Commissie voor boekhoudkundige normen werd de vraag gesteld welke specifieke informatie onder de toelichting VOL 6.17 dient te worden verstrekt. In eerste instantie dient de vergelijking te worden gegeven tussen de boekwaarde en reële waarde van afgeleide financiële instrumenten die niet gewaardeerd zijn op basis van hun reële waarde. Daarnaast wordt tevens de boekwaarde van de financiële vaste activa gevraagd waarvan de reële waarde lager is dan de respectievelijke boekwaarde, de redenen waarom de boekwaarde niet werd verminderd en uiteindelijk een opsomming van de elementen die toelaten te veronderstellen dat de boekwaarde zal kunnen worden gerealiseerd.
 
-Voor wat betreft de eerste toelichting van VOL 6.17 verwijst de Commissie naar CBN-advies 2013/16 - *Toelichting omtrent het niet-gebruik van de waarderingsregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten.[^2] * In hetgeen volgt, worden enkel de bijkomende toelichtingsvereisten omtrent financiële vaste activa besproken.  
+Voor wat betreft de eerste toelichting van VOL 6.17 verwijst de Commissie naar CBN-advies 2013/16 - *Toelichting omtrent het niet-gebruik van de waarderingsregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten.[^2] * In hetgeen volgt, worden enkel de bijkomende toelichtingsvereisten omtrent financiële vaste activa besproken. 
 
 ## Waarderingsbeginselen van financiële vaste activa binnen het Belgisch boekhoudrecht
 
@@ -75,7 +75,7 @@ Artikel 97, B, KB W.Venn. maakt een onderscheid tussen afgeleide financiële ins
 
 De samenlezing van artikel 97, B, KB W.Venn. en de beginselen van CBN-advies 2010/12 doen besluiten dat een financieel vast activum niet valt onder de definitie van een financieel instrument conform het Belgische boekhoudrecht.[^11] Dit leidt er vervolgens toe dat de beginselen van artikel 97, B, KB W. Venn. omtrent de invulling van het begrip reële waarde geen toepassing kennen voor de toelichtingsvereisten uit artikel 91, XX, tweede lid KB W.Venn. Als gevolg hiervan bestaat er geen conceptuele definitie voor de invulling van het begrip reële waarde specifiek voor de toelichtingsvereisten onder artikel 91, XX, tweede lid KB W.Venn.
 
-11.    Bij gebrek aan deze invulling, is de Commissie van oordeel dat de reëlewaardehiërarchie van artikel 97, B, KB W.Venn. tevens een leidraad kan zijn voor de toelichtingsvereisten onder artikel 91, XX, tweede lid KB W.Venn.; ook al voldoet een financieel vast actief niet aan de omschrijving van een financieel instrument overeenkomstig CBN-advies 2010/12[^12].  
+11. Bij gebrek aan deze invulling, is de Commissie van oordeel dat de reëlewaardehiërarchie van artikel 97, B, KB W.Venn. tevens een leidraad kan zijn voor de toelichtingsvereisten onder artikel 91, XX, tweede lid KB W.Venn.; ook al voldoet een financieel vast actief niet aan de omschrijving van een financieel instrument overeenkomstig CBN-advies 2010/12[^12]. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 28 maart 2017 ter consultatie werd gepubliceerd op de website van de CBN.
 

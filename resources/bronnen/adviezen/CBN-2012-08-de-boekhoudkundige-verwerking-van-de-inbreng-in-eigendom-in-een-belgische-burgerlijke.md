@@ -30,94 +30,94 @@ provenance:
 
 # CBN-advies 2012/8 – De boekhoudkundige verwerking van de inbreng in eigendom in een Belgische burgerlijke maatschap die niet de rechtsvorm heeft aangenomen van een handelsvennootschap
 
-1.  Inbreng in een Belgische burgerlijke maatschap die niet de rechtsvorm heeft aangenomen van een handelsvennootschap  
-2.  Boekhoudkundige verwerking: proportionele integratie conform het CBN-advies 3/3 inzake tijdelijke handelsvennootschappen  
+1. Inbreng in een Belgische burgerlijke maatschap die niet de rechtsvorm heeft aangenomen van een handelsvennootschap 
+2. Boekhoudkundige verwerking: proportionele integratie conform het CBN-advies 3/3 inzake tijdelijke handelsvennootschappen 
 
 ## Inleiding
 
-Aan de Commissie werd gevraagd hoe een onderneming die een inbreng verricht in een burgerlijke maatschap dit in haar boekhouding en jaarrekening tot uitdrukking dient te brengen.  
+Aan de Commissie werd gevraagd hoe een onderneming die een inbreng verricht in een burgerlijke maatschap dit in haar boekhouding en jaarrekening tot uitdrukking dient te brengen. 
 
 Dit advies behandelt de inbrengen die de vorm aannemen van een inbreng in eigendom in een Belgische[^1] burgerlijke maatschap die niet de rechtsvorm heeft aangenomen van een handelsvennootschap. Nadat de vraag is beantwoord of in dit specifieke geval sprake is van realisatie, komt de boekhoudkundige verwerking aan bod.
 
 ## Inbreng in een Belgische burgerlijke maatschap die niet de rechtsvorm heeft aangenomen van een handelsvennootschap
 
-De burgerlijke maatschap wordt beheerst door de bepalingen van het Wetboek van Vennootschappen (hierna: W.Venn.) en door haar statuten. 
+De burgerlijke maatschap wordt beheerst door de bepalingen van het Wetboek van Vennootschappen (hierna: W.Venn.) en door haar statuten. 
 
 Gelet op het feit dat een burgerlijke maatschap geen rechtspersoonlijkheid heeft en dus niet over een afgescheiden vermogen beschikt[^2], worden de ingebrachte goederen[^3]
- geen eigendom van de maatschap, maar komen deze daarentegen in mede-eigendom tussen de verschillende vennoten.[^4]
- Een rechtspersoon die een goed (in eigendom) inbrengt in een burgerlijke maatschap, blijft dus eigenaar voor zijn onverdeeld aandeel, voor zover in de maatschapsovereenkomst niet anders is bepaald.[^5] 
+ geen eigendom van de maatschap, maar komen deze daarentegen in mede-eigendom tussen de verschillende vennoten.[^4]
+ Een rechtspersoon die een goed (in eigendom) inbrengt in een burgerlijke maatschap, blijft dus eigenaar voor zijn onverdeeld aandeel, voor zover in de maatschapsovereenkomst niet anders is bepaald.[^5] 
 
 De Commissie voor Boekhoudkundige Normen omschrijft in advies 157/2 – Realisatiebeginsel (behalve bij fusie) het realisatiebeginsel ingeval van inbreng in een vennootschap *met rechtspersoonlijkheid*. Volgens de Commissie wordt niet betwist dat een goed dat ingebracht wordt, gerealiseerd is. Dit goed wordt immers uit het vermogen van de inbrenger gehaald en toegevoegd aan het vermogen van de vennootschap waarin het wordt ingebracht, terwijl de inbrenger meestal een actiefbestanddeel krijgt van een volledig andere aard dan het ingebrachte goed.[^6] 
 
-De rechtsleer is van mening dat de vraag of realisatie plaatsvindt moeilijker te beantwoorden is in het kader van een inbreng in een onverdeeldheid, aangezien elk van de deelnemers onverdeelde eigendomsrechten verwerft op alle goederen van de onverdeeldheid. Het is bovendien zo dat indien één deelnemer roerende goederen inbrengt en een andere deelnemer onroerende goederen inbrengt, elk van hen na de inbreng onverdeelde rechten bezit zowel in de onroerende als de roerende goederen. [^7] 
+De rechtsleer is van mening dat de vraag of realisatie plaatsvindt moeilijker te beantwoorden is in het kader van een inbreng in een onverdeeldheid, aangezien elk van de deelnemers onverdeelde eigendomsrechten verwerft op alle goederen van de onverdeeldheid. Het is bovendien zo dat indien één deelnemer roerende goederen inbrengt en een andere deelnemer onroerende goederen inbrengt, elk van hen na de inbreng onverdeelde rechten bezit zowel in de onroerende als de roerende goederen. [^7] 
 
 Dit wijst er volgens de Commissie op dat wel degelijk een eigendomsoverdracht, en bijgevolg realisatie, plaatsvindt: de deelnemer die enkel een onroerend goed inbracht in een onverdeelheid met bijvoorbeeld twee andere deelnemers zal, ingeval elke partij een gelijkwaardig goed inbrengt:
 
 - zijn proportioneel aandeel (1/3) in het eigendomsrecht over het door hem ingebrachte goed behouden; 
-- in ruil voor de afstand van 2/3 van zijn eigendomsrecht op het onroerend goed, onverdeelde eigendom in de door de andere deelnemers ingebrachte (on)roerende goederen verwerven, en in voorkomend geval een meerwaarde realiseren op deze 2/3 waarvan de eigendom wordt afgestaan.[^8]  
+- in ruil voor de afstand van 2/3 van zijn eigendomsrecht op het onroerend goed, onverdeelde eigendom in de door de andere deelnemers ingebrachte (on)roerende goederen verwerven, en in voorkomend geval een meerwaarde realiseren op deze 2/3 waarvan de eigendom wordt afgestaan.[^8] 
 
 ## Boekhoudkundige verwerking: proportionele integratie conform het CBN-advies 3/3 inzake tijdelijke handelsvennootschappen
 
 Aangezien de burgerlijke maatschap, net zoals de tijdelijke handelsvennootschap en de stille handelsvennootschap, niet over rechtspersoonlijkheid en dus ook niet over een afgescheiden vermogen beschikt, is de Commissie van mening dat het aandeel in de burgerlijke maatschap niet geboekt kan worden als financieel vast actief[^9]
- op de balans van de inbrengende rechtspersoon.
+ op de balans van de inbrengende rechtspersoon.
 
 Ook de boekhoudkundige verwerkingsmethode van de inbreng in de burgerlijke maatschap dient volgens de Commissie gebaseerd te worden op de principes die werden uiteengezet in het advies omtrent de boekhoudkundige verwerking van de verrichtingen van tijdelijke handelsvennootschappen.[^10] Verrichtingen van geïntegreerde tijdelijke handelsvennootschappen worden bij voorkeur verwerkt volgens de proportionele integratiemethode. Bij deze methode wordt elke rubriek van de balans en van de resultatenrekening geïntegreerd in verhouding tot het aandeel dat de partner in kwestie heeft in de desbetreffende tijdelijke handelsvennootschap, waarna de nodige correcties en eliminaties worden verricht.[^11] Volgens de Commissie dient men ingeval van inbreng in een burgerlijke maatschap op analoge wijze tewerk te gaan. Op die manier zal in de balans van de inbrengende rechtspersoon, de inbrenger als eigenaar van zijn aandeel in de activa en passiva van de burgerlijke maatschap (en dus niet als onverdeeld eigenaar in de totaliteit) komen.[^12] 
 
-Aangezien de zeggenschap over activa in onverdeeldheid niet dezelfde is als de zeggenschap over activa in volle eigendom, beveelt de Commissie aan dat de inbrengende vennootschap in de toelichting bij haar jaarrekening, meer bepaald onder de algemene waarderingsregels, een opsplitsing maakt tussen de activa in volle eigendom en de activa in onverdeeldheid.  
+Aangezien de zeggenschap over activa in onverdeeldheid niet dezelfde is als de zeggenschap over activa in volle eigendom, beveelt de Commissie aan dat de inbrengende vennootschap in de toelichting bij haar jaarrekening, meer bepaald onder de algemene waarderingsregels, een opsplitsing maakt tussen de activa in volle eigendom en de activa in onverdeeldheid. 
 
 ***Voorbeeld***
 
-In totaal worden door drie deelgenoten (vennootschappen A, B en C) voor 700.000 euro aan activa ingebracht in een burgerlijke maatschap. Deze goederen komen naar aanleiding van de inbreng in onverdeeldheid tussen de 3 vennoten. 
+In totaal worden door drie deelgenoten (vennootschappen A, B en C) voor 700.000 euro aan activa ingebracht in een burgerlijke maatschap. Deze goederen komen naar aanleiding van de inbreng in onverdeeldheid tussen de 3 vennoten. 
 
 Artikel 39 KB W.Venn. bepaalt het volgende:
 
-*“ De inbrengwaarde stemt overeen met de bedongen waarde van de inbreng.  
+*“ De inbrengwaarde stemt overeen met de bedongen waarde van de inbreng. 
 
 In geval van bestemming voor of inbreng in een onderneming die geen vennootschap met eigen rechtspersoonlijkheid is, moet onder inbrengwaarde worden verstaan de waarde van de goederen bij de inbreng of de bestemming. De inbrengwaarde mag niet hoger zijn dan de prijs die op het ogenblik van de inbreng of de bestemming voor de aankoop van de betrokken goederen op de markt zou moeten worden betaald."*
 
-Vennootschap A brengt een gebouw in met boekwaarde 300.000 euro. Er wordt overeengekomen dat de inbreng gebeurt tegen 400.000 euro.   
+Vennootschap A brengt een gebouw in met boekwaarde 300.000 euro. Er wordt overeengekomen dat de inbreng gebeurt tegen 400.000 euro. 
 
-Vennootschap B brengt rollend materieel in met boekwaarde 100.000 euro. De boekwaarde stemt overeen met de waarde van de goederen bij de inbreng.  
+Vennootschap B brengt rollend materieel in met boekwaarde 100.000 euro. De boekwaarde stemt overeen met de waarde van de goederen bij de inbreng. 
 
-Vennootschap C brengt een pakket aandelen in met een boekwaarde van 200.000 euro. De boekwaarde stemt overeen met de waarde van de goederen bij de inbreng. 
+Vennootschap C brengt een pakket aandelen in met een boekwaarde van 200.000 euro. De boekwaarde stemt overeen met de waarde van de goederen bij de inbreng. 
 
-De statuten van de maatschap  bepalen het volgende :
+De statuten van de maatschap bepalen het volgende :
 
-*“Het aandeel van vennootschap A in de maatschap bedraagt 4/7.  
+*“Het aandeel van vennootschap A in de maatschap bedraagt 4/7. 
 
-Het aandeel van vennootschap B in de maatschap bedraagt 1/7.  
+Het aandeel van vennootschap B in de maatschap bedraagt 1/7. 
 
-Het aandeel van vennootschap C in de maatschap bedraagt 2/7." *
+Het aandeel van vennootschap C in de maatschap bedraagt 2/7." *
 
-De totale activa van de burgerlijke maatschap bedragen dan 700.000 euro : 
+De totale activa van de burgerlijke maatschap bedragen dan 700.000 euro : 
 
-- gebouw met inbrengwaarde 400.000 euro  
-- rollend materieel met inbrengwaarde 100.000 euro   
+- gebouw met inbrengwaarde 400.000 euro 
+- rollend materieel met inbrengwaarde 100.000 euro 
 - pakket aandelen met inbrengwaarde 200.000 euro. 
 
-Na de inbreng in de burgerlijke maatschap zullen volgende bedragen op de balans van vennootschap A voorkomen. 
+Na de inbreng in de burgerlijke maatschap zullen volgende bedragen op de balans van vennootschap A voorkomen. 
 
 | Balans vennootschap A (aandeel in de maatschap : 4/7) | 
-| Terreinen en gebouwen  | | 228.571,43 | |   | |   | 
-| Meubilair en rollend materieel | | 57.142,86  | | Herwaarderingsmeerwaarde[^13]  | | 57.142,86 | 
-|   | |   | | Gerealiseerde meerwaarde     | | 42.857,14 | 
-| Financiële vaste activa  | | 114.285,71 | |   | |   | 
+| Terreinen en gebouwen | | 228.571,43 | | | | | 
+| Meubilair en rollend materieel | | 57.142,86 | | Herwaarderingsmeerwaarde[^13] | | 57.142,86 | 
+| | | | | Gerealiseerde meerwaarde | | 42.857,14 | 
+| Financiële vaste activa | | 114.285,71 | | | | | 
 
-**Terreinen en gebouwen**  
+**Terreinen en gebouwen** 
 
-Vennootschap A blijft eigenaar van haar onverdeeld aandeel, nl. 4/7 van 400.000 (de werkelijke waarde van de eigen inbreng).  
+Vennootschap A blijft eigenaar van haar onverdeeld aandeel, nl. 4/7 van 400.000 (de werkelijke waarde van de eigen inbreng). 
 
 4/7 * 400.000 = 228.571,43
 
-**Meubilair en rollend materieel**  
+**Meubilair en rollend materieel** 
 
-N.a.v. haar eigen inbreng verkrijgt vennootschap A 4/7 van de inbreng door vennootschap B.   
+N.a.v. haar eigen inbreng verkrijgt vennootschap A 4/7 van de inbreng door vennootschap B. 
 
 4/7 * 100.000 = 57.142,86
 
-**Financiële vaste activa**  
+**Financiële vaste activa** 
 
-N.a.v. haar eigen inbreng verkrijgt vennootschap A tevens 4/7 van de inbreng door vennootschap C.  
+N.a.v. haar eigen inbreng verkrijgt vennootschap A tevens 4/7 van de inbreng door vennootschap C. 
 
 4/7 * 200.000 = 114.285,71
 

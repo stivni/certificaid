@@ -52,14 +52,14 @@ De *tax shelter* is een fiscale stimulans die in 2002 werd ingevoerd om de produ
 De regeling bestaat er in dat een fiscale vrijstelling wordt toegekend aan vennootschappen die financieel bijdragen aan de productie van een audiovisueel werk. In artikel 194ter van het Wetboek van de Inkomstenbelastingen 1992 (hierna: WIB 92) worden de voorwaarden, beperkingen en voorschriften van deze fiscale vrijstelling bepaald.
 
 Sinds de invoering van de tax shelter-regeling door de programmawet van 2 augustus 2002 werd deze regeling al verscheidene keren aangepast. Door de wet van 12 mei 2014 tot wijziging van artikel 194ter van het Wetboek van de inkomstenbelastingen 1992 betreffende het tax shelter-stelsel ten gunste van audiovisueel werk[^3]
- werden de voorschriften van het stelsel grondig hervormd om een einde te stellen aan een aantal vastgestelde excessen.[^4] 
+ werden de voorschriften van het stelsel grondig hervormd om een einde te stellen aan een aantal vastgestelde excessen.[^4] 
 
 Volgens de vorige regeling werd de deelname van de investerende vennootschap in de financiering van het werk voorzien in de vorm van een verwerving van rechten die verbonden zijn aan de productie en de exploitatie van het audiovisuele werk en eventueel in de vorm van leningen die werden toegekend aan de productievennootschap. Met het stelsel dat werd ingevoerd door de wet van 12 mei 2014 verwerft de investerende vennootschap een belastingvoordeel zonder daarvoor rechten te verwerven met betrekking tot de eigenlijke productie.
 
 De wet van 12 mei 2014 heeft eveneens:
 
 - een verplichte erkenning ingevoerd voor de productievennootschappen en voor de tussenpersonen (dit laatste begrip wordt voortaan omschreven in de wet);[^5]
- en 
+ en 
 - de definities aangepast van de kwalificerende uitgaven. 
 
 Voor een volledig overzicht van de wijzigingen die door deze wet werden aangebracht in de fiscale regeling met betrekking tot de tax shelter wordt er verwezen naar de Memorie van toelichting bij de wet van 12 mei 2014.[^6] 
@@ -67,25 +67,25 @@ Voor een volledig overzicht van de wijzigingen die door deze wet werden aangebra
 ## Kort overzicht van het tax shelter-stelsel
 
 De *investerende vennootschap*[^7]
- (hierna: de investeerder) en de *productievennootschap*[^8]
- (hierna: de producent) sluiten een raamovereenkomst waarin de investeerder zich verbindt een bepaalde som te storten met het oog op het verkrijgen van een tax shelter-attest dat de producent belooft te verstrekken aan de investeerder. De producent meldt deze overeenkomst aan de FOD Financiën binnen de maand na de ondertekening ervan.
+ (hierna: de investeerder) en de *productievennootschap*[^8]
+ (hierna: de producent) sluiten een raamovereenkomst waarin de investeerder zich verbindt een bepaalde som te storten met het oog op het verkrijgen van een tax shelter-attest dat de producent belooft te verstrekken aan de investeerder. De producent meldt deze overeenkomst aan de FOD Financiën binnen de maand na de ondertekening ervan.
 
 De investeerder verkrijgt een voorlopige fiscale vrijstelling vanaf het belastbaar tijdperk waarin de raamovereenkomst wordt ondertekend, ten belope van 310 % van de sommen waartoe hij zich heeft verbonden.[^9]
- Het bedrag dat kan worden vrijgesteld is, voor de investeerder, echter per belastbaar tijdperk beperkt tot:
+ Het bedrag dat kan worden vrijgesteld is, voor de investeerder, echter per belastbaar tijdperk beperkt tot:
 
 - de helft van de belastbare gereserveerde winst van de investeerder voor het betrokken boekjaar, vastgesteld voor de samenstelling van de vrijgestelde reserve voor de tax shelter; en 
-- maximum 750.000 EUR.[^10]  
+- maximum 750.000 EUR.[^10] 
 
 Het eventuele overschot van de vrijstelling kan achtereenvolgens worden overgedragen naar een volgend jaar tot het aanslagjaar verbonden aan het derde belastbare tijdperk dat volgt op het kalenderjaar waarin het tax shelter-attest is afgeleverd door de FOD Financiën aan de producent.[^11] 
 
 De producent kan de investeerder vergoeden door een bedrag te betalen dat berekend is op basis van de effectief uitgevoerde betalingen die worden verricht ter verkrijging van het tax shelter-attest pro rata van de verlopen dagen voor de periode vanaf de datum van de eerste betaling tot de datum van de aflevering van het tax shelter-attest, maar met een maximum van 18 maanden na de datum van de eerste betaling. Dit bedrag wordt berekend op basis van de maximumrente die gelijk is aan het gemiddelde van EURIBOR 12 maanden van de laatste dag van elke maand van het kalenderhalfjaar dat voorafgaat aan de betaling, verhoogd met 450 basispunten (hierna: vergoeding voor prefinanciering).[^12]
- De producent kan geen ander economisch of financieel voordeel[^13]
- toekennen dan een vermelding in de aftiteling van het in aanmerking komend werk.
+ De producent kan geen ander economisch of financieel voordeel[^13]
+ toekennen dan een vermelding in de aftiteling van het in aanmerking komend werk.
 
 De waarborg tot voltooiing van het in aanmerking komend werk en de waarborg tot aflevering van het tax shelter-attest worden niet beschouwd als een economisch of financieel voordeel, voor zover de in aanmerking komende investeerder, in het geval dat hij zich beroept op deze waarborg, niet meer ontvangt dan het bedrag van de belastingen en de moratoire interesten die de investeerder verschuldigd is indien niet is voldaan aan de voorwaarden voor een definitieve vrijstelling.[^14] 
 
 Wanneer het audiovisuele werk[^15]
- is beëindigd, vraagt de producent aan de FOD Financiën om een tax shelter-attest af te leveren op basis van de kwalificerende productiekosten. Dit attest wordt slechts afgeleverd indien en in de mate dat de voorwaarden en beperkingen van het artikel 194*ter*, § 7 WIB 92 zijn nageleefd. De producent bezorgt vervolgens dit attest aan de investeerder.[^16] 
+ is beëindigd, vraagt de producent aan de FOD Financiën om een tax shelter-attest af te leveren op basis van de kwalificerende productiekosten. Dit attest wordt slechts afgeleverd indien en in de mate dat de voorwaarden en beperkingen van het artikel 194*ter*, § 7 WIB 92 zijn nageleefd. De producent bezorgt vervolgens dit attest aan de investeerder.[^16] 
 
 De vrijstelling wordt definitief wanneer de investeerder een exemplaar van het verkregen tax shelter-attest voegt bij de aangifte van de vennootschapsbelasting of van de belasting niet-inwoners/vennootschappen. Het eventuele overschot wordt fiscaal beschouwd als een winst van het belastbaar tijdperk waarin het tax shelter-attest wordt afgeleverd.
 
@@ -113,12 +113,12 @@ Indien de raamovereenkomst ten gunste van de investeerder een waarborg tot volto
 Op het ogenblik dat de investeerder er zich onherroepelijk heeft toe verbonden het bedrag te storten, staat echter nog niet definitief vast in welk boekjaar de belastingbesparing (of de waarborgvergoeding) zal worden verkregen. Volgens de Commissie kan de tax shelter-investering niet als een geldbelegging worden beschouwd. De producent heeft het beloofde bedrag immers definitief verworven en de investeerder kan de voordelen verbonden aan de tax shelter-regeling niet overdragen. Evenmin is sprake van een zekere en vaststaande vordering op de overheid, want de investeerder is niet zeker dat het belastingvoordeel effectief zal worden verkregen. Bijgevolg kan geen vordering op de overheid worden geboekt.
 
 Op grond van het matchingprincipe moet er overeenstemming zijn tussen de kosten en de opbrengsten die op het boekjaar betrekking hebben.[^18]
- Om die reden is de Commissie van mening dat de tax shelter-investering initieel op een wachtrekening moet worden geboekt totdat duidelijk is welke voordelen de tax shelter-investering effectief met zich meebrengt.
+ Om die reden is de Commissie van mening dat de tax shelter-investering initieel op een wachtrekening moet worden geboekt totdat duidelijk is welke voordelen de tax shelter-investering effectief met zich meebrengt.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 499 | Wachtrekening | 100 |  |
-| aan | 489 | Overige diverse schulden |  | 100 |
+| | 499 | Wachtrekening | 100 | |
+| aan | 489 | Overige diverse schulden | | 100 |
 
 Op inventarisdatum zal het bestuursorgaan moeten oordelen in welk van onderstaande scenario’s de vennootschap zicht bevindt.
 
@@ -132,8 +132,8 @@ De boeking is dan als volgt:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6702X | Geraamde belastingen | 100 |  |
-| aan | 499 | Wachtrekening |  | 100 |
+| | 6702X | Geraamde belastingen | 100 | |
+| aan | 499 | Wachtrekening | | 100 |
 
 Het gebruik van een gepaste subrekening van de rekening 6702 *Geraamde belastingen *wordt door de Commissie verantwoord als volgt:
 
@@ -158,9 +158,9 @@ Indien een tax shelter-investering van bijvoorbeeld 100 ingevolge een te lage wi
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6702X | Geraamde belastingen | 80 |  |
-|  | 49X | Investering in tax shelter | 20 |  |
-| aan | 499 | Wachtrekening |  | 100 |
+| | 6702X | Geraamde belastingen | 80 | |
+| | 49X | Investering in tax shelter | 20 | |
+| aan | 499 | Wachtrekening | | 100 |
 
 Scenario 3 – Onvoldoende winst in huidig boekjaar en waarschijnlijk ook de volgende jaren
 
@@ -170,17 +170,17 @@ Als de investeerder verwacht dat het resterende saldo van het belastingvoordeel 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 664 | Andere uitzonderlijke kosten | X |  |
-| aan | 499 | Wachtrekening |  | X |
+| | 664 | Andere uitzonderlijke kosten | X | |
+| aan | 499 | Wachtrekening | | X |
 
-####  Betaling van het bedrag
+#### Betaling van het bedrag
 
 Op het moment van de storting van het bedrag wordt het volgende geboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 489 | Overige diverse schulden | 100 |  |
-| aan | 5500 | Kredietinstellingen: rekening-courant |  | 100 |
+| | 489 | Overige diverse schulden | 100 | |
+| aan | 5500 | Kredietinstellingen: rekening-courant | | 100 |
 
 #### Voorlopige en voorwaardelijke vrijstelling van de winst
 
@@ -198,8 +198,8 @@ In dit geval wordt in het jaar X het volgende geboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 689 | Toevoeging aan de belastingvrije reserves | 310 |  |
-| aan | 132 | Belastingvrije reserves |  | 310 |
+| | 689 | Toevoeging aan de belastingvrije reserves | 310 | |
+| aan | 132 | Belastingvrije reserves | | 310 |
 
 Deze boeking vindt plaats ongeacht of er uiteindelijk geen of onvoldoende winst is tijdens het belastbare tijdperk waarin de raamovereenkomst werd ondertekend.
 
@@ -213,8 +213,8 @@ Indien de investeerder een vergoeding ontvangt voor de prefinanciering, wordt he
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen: rekening-courant | 5 |  |
-| aan | 75 | Financiële opbrengsten |  | 5 |
+| | 5500 | Kredietinstellingen: rekening-courant | 5 | |
+| aan | 75 | Financiële opbrengsten | | 5 |
 
 De vergoeding die op inventarisdatum reeds is verworven maar nog niet werd ontvangen, moet worden geboekt als opbrengst zonder de ontvangst van de vergoeding af te wachten. In dat geval zal de overlopende rekening van de actiefzijde 491 *Verkregen opbrengsten* worden gedebiteerd voor het bedrag van de reeds verworven vergoeding[^26].
 
@@ -226,16 +226,16 @@ De investeerder kan in principe de belastingvrije reserves rechtstreeks overboek
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 132 | Belastingvrije reserves | 310 |  |
-| aan | 789 | Onttrekkingen aan de belastingvrije reserves |  | 310 |
+| | 132 | Belastingvrije reserves | 310 | |
+| aan | 789 | Onttrekkingen aan de belastingvrije reserves | | 310 |
 
 Vervolgens wordt de resultaatbestemming geboekt, bijvoorbeeld[^29]
- een toevoeging aan de beschikbare reserves.
+ een toevoeging aan de beschikbare reserves.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6921 | Toevoeging aan de overige reserves | 310 |  |
-| aan | 133 | Beschikbare reserves |  | 310 |
+| | 6921 | Toevoeging aan de overige reserves | 310 | |
+| aan | 133 | Beschikbare reserves | | 310 |
 
 #### Geen tax shelter-attest binnen de termijn
 
@@ -245,8 +245,8 @@ Op het moment van het verlies van de vrijstelling, wordt het volgende geboekt[^3
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 132 | Belastingvrije reserves | 310 |  |
-| aan | 789 | Onttrekkingen aan de belastingvrije reserves |  | 310 |
+| | 132 | Belastingvrije reserves | 310 | |
+| aan | 789 | Onttrekkingen aan de belastingvrije reserves | | 310 |
 
 #### Ontvangst van de (eventueel) door de producent gewaarborgde bedragen
 
@@ -256,8 +256,8 @@ Indien de producent aan de investeerder de voltooiing van het werk en de aflever
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen: rekening-courant | X |  |
-| aan | 764 | Andere uitzonderlijke opbrengsten |  | X |
+| | 5500 | Kredietinstellingen: rekening-courant | X | |
+| aan | 764 | Andere uitzonderlijke opbrengsten | | X |
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 18 maart 2015 ter consultatie werd gepubliceerd op de website van de CBN.
 

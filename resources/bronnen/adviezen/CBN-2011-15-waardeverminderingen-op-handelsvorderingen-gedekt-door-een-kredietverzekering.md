@@ -39,32 +39,32 @@ gerelateerde_adviezen:
   - titel: Ledenbijdrage in een coöperatieve vennootschap
     url: https://www.cbn-cnc.be/nl/adviezen/ledenbijdrage-in-een-cooperatieve-vennootschap
     datum: '1978-12-01'
-  - titel: Beginsel  van  het  dubbel  boekhouden
+  - titel: Beginsel van het dubbel boekhouden
     url: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
     datum: '1993-02-01'
 ---
 
 # CBN-advies 2011/15 - Waardeverminderingen op handelsvorderingen, gedekt door een kredietverzekering
 
-1.  Waardeverminderingen op verzekerde handelsvorderingen  
-2.  Tussenkomst kredietverzekeringsmaatschappij 
-  1.  Overdracht ter incasso   
-  2.  Betaling van de schadevergoeding   
+1. Waardeverminderingen op verzekerde handelsvorderingen 
+2. Tussenkomst kredietverzekeringsmaatschappij 
+  1. Overdracht ter incasso 
+  2. Betaling van de schadevergoeding 
 
-3.  Voorbeeld 
-  1.  Boeking van de verkoopfactuur  
-  2.  Overboeking naar dubieuze debiteuren   
-  3.  Boeking van de waardevermindering   
-  4.  Afwikkeling van de vordering 
-    1.   De klant betaalt daadwerkelijk niets  
-    2.  De klant betaalt 605 euro (incl. btw), de onderneming vermoedt van de klant verder niets meer te zullen ontvangen  
+3. Voorbeeld 
+  1. Boeking van de verkoopfactuur 
+  2. Overboeking naar dubieuze debiteuren 
+  3. Boeking van de waardevermindering 
+  4. Afwikkeling van de vordering 
+    1. De klant betaalt daadwerkelijk niets 
+    2. De klant betaalt 605 euro (incl. btw), de onderneming vermoedt van de klant verder niets meer te zullen ontvangen 
 
 ## Inleiding
 
-Handelsvorderingen ontstaan uit de verkoop van goederen en diensten aan klanten, die niet meteen betaald worden. De leverancier loopt hierbij een kredietrisico, dit is het risico op niet-betaling door de klant. Sommige leveranciers kiezen ervoor om zich in te dekken tegen een risico van niet-betaling door hun klanten op de afgesproken termijn, omwille van een toestand van onvermogen. Dit gebeurt doorgaans door het afsluiten van een kredietverzekering. 
+Handelsvorderingen ontstaan uit de verkoop van goederen en diensten aan klanten, die niet meteen betaald worden. De leverancier loopt hierbij een kredietrisico, dit is het risico op niet-betaling door de klant. Sommige leveranciers kiezen ervoor om zich in te dekken tegen een risico van niet-betaling door hun klanten op de afgesproken termijn, omwille van een toestand van onvermogen. Dit gebeurt doorgaans door het afsluiten van een kredietverzekering. 
 
 Een kredietverzekeringspolis voorziet in een schadevergoeding ten belope van een bepaald percentage van het bedrag van een handelsvordering, die automatisch wordt uitgekeerd bij insolventie van de klant of als de klant een aantal maanden na vervaldag nog niet betaald heeft (vermoedelijke insolventie).[^1]
- Doorgaans zal de kredietverzekeraar eisen dat de verzekeringnemer zijn gehele klantenbestand ter verzekering aanbiedt. Op basis van deze portefeuille wordt dan door de verzekeraar overgegaan tot analyse van de financiële situatie van elk van deze klanten met het oog op het vastleggen van een maximum toegelaten risico. Het resultaat van dit solvabiliteitsonderzoek mondt uit in het vaststellen per klant van een kredietlimiet, dit is het maximum bedrag dat de verzekeraar bereid is te nemen op een geïdentificeerde klant van de verzekeringnemer. De verzekeraar kan periodiek limietwijzigingen bepalen. In de verzekeringspolis zijn doorgaans nog andere voorwaarden opgenomen.  
+ Doorgaans zal de kredietverzekeraar eisen dat de verzekeringnemer zijn gehele klantenbestand ter verzekering aanbiedt. Op basis van deze portefeuille wordt dan door de verzekeraar overgegaan tot analyse van de financiële situatie van elk van deze klanten met het oog op het vastleggen van een maximum toegelaten risico. Het resultaat van dit solvabiliteitsonderzoek mondt uit in het vaststellen per klant van een kredietlimiet, dit is het maximum bedrag dat de verzekeraar bereid is te nemen op een geïdentificeerde klant van de verzekeringnemer. De verzekeraar kan periodiek limietwijzigingen bepalen. In de verzekeringspolis zijn doorgaans nog andere voorwaarden opgenomen. 
 
 Dit advies behandelt de mate waarin op verzekerde handelsvorderingen waardeverminderingen kunnen worden geboekt alsook de boekhoudkundige gevolgen van de tussenkomst van de kredietverzekeraar.
 
@@ -72,9 +72,9 @@ Dit advies behandelt de mate waarin op verzekerde handelsvorderingen waardevermi
 
 Het koninklijk besluit tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.) bepaalt dat vorderingen in de balans worden opgenomen voor hun nominale waarde, onverminderd de verplichting om op de betrokken vorderingen waardeverminderingen toe te passen zo er voor het geheel of een gedeelte ervan onzekerheid bestaat over de betaling ervan op de vervaldag.[^2] 
 
-In de praktijk zal de onderneming, minstens ter gelegenheid van de inventaris (maar dit kan ook gebeuren in de loop van het boekjaar; in dit geval dient de waardevermindering opnieuw onderzocht te worden op inventarisdatum), de handelsvorderingen op hun inbaarheid onderzoeken. Wanneer de klant in een problematische toestand verkeert, waardoor de inning twijfelachtig wordt, moet de onderneming de vordering op deze handelsdebiteur afzonderen naar de rekening 407 *Dubieuze debiteuren*. 
+In de praktijk zal de onderneming, minstens ter gelegenheid van de inventaris (maar dit kan ook gebeuren in de loop van het boekjaar; in dit geval dient de waardevermindering opnieuw onderzocht te worden op inventarisdatum), de handelsvorderingen op hun inbaarheid onderzoeken. Wanneer de klant in een problematische toestand verkeert, waardoor de inning twijfelachtig wordt, moet de onderneming de vordering op deze handelsdebiteur afzonderen naar de rekening 407 *Dubieuze debiteuren*. 
 
-Vervolgens dient de onderneming een waardevermindering te boeken op deze dubieuze vordering. Waardeverminderingen worden in artikel 45 KB W.Venn. omschreven als correcties op de aanschaffingswaarde van actiefbestanddelen, om rekening te houden met al dan niet als definitief aan te merken ontwaardingen bij het afsluiten van het boekjaar. Deze waardeverminderingen worden afgetrokken van de actiefposten waarop ze betrekking hebben. 
+Vervolgens dient de onderneming een waardevermindering te boeken op deze dubieuze vordering. Waardeverminderingen worden in artikel 45 KB W.Venn. omschreven als correcties op de aanschaffingswaarde van actiefbestanddelen, om rekening te houden met al dan niet als definitief aan te merken ontwaardingen bij het afsluiten van het boekjaar. Deze waardeverminderingen worden afgetrokken van de actiefposten waarop ze betrekking hebben. 
 
 Ingeval de handelsvordering gedekt is door een kredietverzekering, zal de onderneming deze waardevermindering boeken ten laatste op het moment waarop zij het dossier ter incasso overmaakt aan de kredietverzekeraar[^3], tenzij reeds vroeger ernstige indicaties van betalingsonzekerheid voorkwamen. In de regel mag er worden van uitgegaan dat als het dossier ter incasso wordt aangeboden, dit een (verdere) indicatie is van mogelijke insolventie van de klant.
 
@@ -82,73 +82,73 @@ Met het oog op de bepaling van het bedrag van de waardevermindering, maakt de on
 
 ## Tussenkomst kredietverzekeringsmaatschappij
 
-### Overdracht ter incasso 
+### Overdracht ter incasso 
 
 Indien de facturen onbetaald blijven en de oorzaak te wijten is aan onvermogen in hoofde van de debiteur zal de verzekeringnemer binnen de contractueel vastgelegde termijn en binnen de voorwaarden van de polis aanspraak kunnen maken op schadeloosstelling. Deze termijn neemt in de regel een aanvang op het moment waarop het dossier aan de kredietverzekeraar wordt overgedragen ter incasso.
 
-### Betaling van de schadevergoeding 
+### Betaling van de schadevergoeding 
 
-Naar aanleiding van de ontvangst van de schadeloosstelling boekt de onderneming een opbrengst onder de rubriek I.D *Andere bedrijfsopbrengsten* (de rekeningen 743 tot 749 van het MAR) van de resultatenrekening. De schade voortvloeiend uit de niet-betaling van handelsvorderingen behoort immers tot de normale bedrijfsrisico’s. 
+Naar aanleiding van de ontvangst van de schadeloosstelling boekt de onderneming een opbrengst onder de rubriek I.D *Andere bedrijfsopbrengsten* (de rekeningen 743 tot 749 van het MAR) van de resultatenrekening. De schade voortvloeiend uit de niet-betaling van handelsvorderingen behoort immers tot de normale bedrijfsrisico’s. 
 
 Door het betalen van de schadevergoeding wordt de verzekeringsmaatschappij van rechtswege in de plaats gesteld van alle rechten die de verzekerde bezit met betrekking tot de schuldvordering die het voorwerp van de schade uitmaakt.[^5]
- Specifiek voor kredietverzekeringen bepaalt artikel 75 van de Wet op de landverzekeringsovereenkomst dat dit principe van wettelijke subrogatie ook geldt bij gedeeltelijke schadeloosstelling door de verzekeraar. De subrogatie in het voordeel van de kredietverzekeraar heeft als gevolg dat de vordering verdwijnt uit de boekhouding van de onderneming. Hierbij zal tevens een minderwaarde op de realisatie van de handelsvordering tot uitdrukking gebracht worden. 
+ Specifiek voor kredietverzekeringen bepaalt artikel 75 van de Wet op de landverzekeringsovereenkomst dat dit principe van wettelijke subrogatie ook geldt bij gedeeltelijke schadeloosstelling door de verzekeraar. De subrogatie in het voordeel van de kredietverzekeraar heeft als gevolg dat de vordering verdwijnt uit de boekhouding van de onderneming. Hierbij zal tevens een minderwaarde op de realisatie van de handelsvordering tot uitdrukking gebracht worden. 
 
 De Commissie is van mening dat de kosten die de verzekeringnemer heeft geleden door het boeken van de minderwaarde op de handelsvorderingen enerzijds, en de opbrengst n.a.v. het ontvangen van de schadevergoeding vanwege de verzekeraar anderzijds, boekhoudkundig niet mogen gecompenseerd worden, ook al ontstaan zij op hetzelfde ogenblik. De Commissie verwijst hiervoor naar het boekhoudrechtelijk compensatieverbod, zoals vastgelegd in artikel 25, § 2 van het KB W.Venn., volgens hetwelk een compensatie tussen tegoeden en schulden, tussen rechten en verplichtingen en tussen kosten en opbrengsten verboden is, behalve in de gevallen door het besluit bepaald. Het KB W.Venn. voorziet geen uitzondering ingeval de kosten vooraf waren ingedekt.[^6]
- Bovendien betaalt de kredietverzekeraar niet de schuld van de klant, maar een eigen, zelfstandige schuld.[^7]
- Deze schulden zijn weliswaar zeer nauw verwant met elkaar, aangezien hun voorwerp identiek is, nl. de vergoeding van de schade.[^8]
- De oorzaak van de verbintenis van de verzekeraar bevindt zich echter uitsluitend in zijn verhouding tot de schuldeiser zelf (i.e. de onderneming), en is dus niet te vinden in de interne verhouding tussen de onderneming en de klant.[^9] 
+ Bovendien betaalt de kredietverzekeraar niet de schuld van de klant, maar een eigen, zelfstandige schuld.[^7]
+ Deze schulden zijn weliswaar zeer nauw verwant met elkaar, aangezien hun voorwerp identiek is, nl. de vergoeding van de schade.[^8]
+ De oorzaak van de verbintenis van de verzekeraar bevindt zich echter uitsluitend in zijn verhouding tot de schuldeiser zelf (i.e. de onderneming), en is dus niet te vinden in de interne verhouding tussen de onderneming en de klant.[^9] 
 
 ## Voorbeeld
 
-Een onderneming heeft een vordering van 1.210 euro (incl. btw) op een klant. Deze vordering wordt voor 70 % van het totale bedrag excl. btw (d.i. 700 euro) verzekerd door een kredietverzekering. De vervaldatum werd reeds ruim overschreden. Uit onderzoek blijkt dat voor het volledige bedrag van de vordering onzekerheid bestaat over de inning ervan. 
+Een onderneming heeft een vordering van 1.210 euro (incl. btw) op een klant. Deze vordering wordt voor 70 % van het totale bedrag excl. btw (d.i. 700 euro) verzekerd door een kredietverzekering. De vervaldatum werd reeds ruim overschreden. Uit onderzoek blijkt dat voor het volledige bedrag van de vordering onzekerheid bestaat over de inning ervan. 
 
 ### ***Boeking van de verkoopfactuur***
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 400 | Handelsdebiteuren | 1.210 |  |
-| aan | 700-707 | Verkopen en dienstprestaties |  | 1.000 |
-|  | 451 | Te betalen btw | 210 |  |
+| | 400 | Handelsdebiteuren | 1.210 | |
+| aan | 700-707 | Verkopen en dienstprestaties | | 1.000 |
+| | 451 | Te betalen btw | 210 | |
 
-### ***Overboeking naar dubieuze debiteuren ***
+### ***Overboeking naar dubieuze debiteuren ***
 
 De volledige vordering (inclusief btw) wordt overgeboekt naar de dubieuze debiteuren.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 407 | Dubieuze debiteuren | 1.210 |  |
-| aan | 400 | Handelsdebiteuren |  | 1.210 |
+| | 407 | Dubieuze debiteuren | 1.210 | |
+| aan | 400 | Handelsdebiteuren | | 1.210 |
 
-### ***Boeking van de waardevermindering ***
+### ***Boeking van de waardevermindering ***
 
-Ten laatste op het moment waarop de onderneming de vordering ter incasso afstaat aan de kredietverzekeraar, boekt zij een waardevermindering ten belope van het niet-gedekte gedeelte van de vordering excl. btw.  
+Ten laatste op het moment waarop de onderneming de vordering ter incasso afstaat aan de kredietverzekeraar, boekt zij een waardevermindering ten belope van het niet-gedekte gedeelte van de vordering excl. btw. 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6340 | Waardeverminderingen op handelsvorderingen op ten hoogste één jaar: toevoeging | 300 |  |
-| aan | 409 | Handelsvorderingen: geboekte waardeverminderingen (-) |  | 300 |
+| | 6340 | Waardeverminderingen op handelsvorderingen op ten hoogste één jaar: toevoeging | 300 | |
+| aan | 409 | Handelsvorderingen: geboekte waardeverminderingen (-) | | 300 |
 
-Naar aanleiding van de overdracht ter incasso worden verder geen boekingen verricht. 
+Naar aanleiding van de overdracht ter incasso worden verder geen boekingen verricht. 
 
 ### ***Afwikkeling van de vordering***
 
-#### ** De klant betaalt daadwerkelijk niets**
+#### ** De klant betaalt daadwerkelijk niets**
 
-Werd het dossier reeds ter incasso overgedragen aan de kredietverzekeraar, dan betaalt deze binnen de contractueel vastgelegde termijn de contractueel voorziene schadevergoeding uit aan de onderneming. 
-
-| | Rekening | Omschrijving | Debet | Credit |
-|---|----------|--------------|-------|--------|
-|  | 550 | Kredietinstellingen: rekeningen-courant | 700 |  |
-| aan | 743 tot 749 | Diverse bedrijfsopbrengsten |  | 700 |
-
-Door de subrogatie, die plaatsvindt doordat de kredietverzekeraar de verzekerde schadeloos heeft gesteld, verdwijnt de vordering definitief uit de boeken van de onderneming. De afwikkeling van de dubieuze handelsvordering wordt op onderstaande wijze verwerkt, waarbij de niet ontvangen btw wordt geregulariseerd op voorwaarde dat is komen vast te staan dat de klant daadwerkelijk niets zal betalen. 
+Werd het dossier reeds ter incasso overgedragen aan de kredietverzekeraar, dan betaalt deze binnen de contractueel vastgelegde termijn de contractueel voorziene schadevergoeding uit aan de onderneming. 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 411 | Regularisatie te betalen btw | 210 |  |
-|  | 409 | Handelsvorderingen: geboekte waardeverminderingen (-) | 300 |  |
-|  | 642 | Minderwaarden op de realisatie van handelsvorderingen | 700 |  |
-| aan | 407 | Dubieuze debiteuren |  | 1.210 |
+| | 550 | Kredietinstellingen: rekeningen-courant | 700 | |
+| aan | 743 tot 749 | Diverse bedrijfsopbrengsten | | 700 |
+
+Door de subrogatie, die plaatsvindt doordat de kredietverzekeraar de verzekerde schadeloos heeft gesteld, verdwijnt de vordering definitief uit de boeken van de onderneming. De afwikkeling van de dubieuze handelsvordering wordt op onderstaande wijze verwerkt, waarbij de niet ontvangen btw wordt geregulariseerd op voorwaarde dat is komen vast te staan dat de klant daadwerkelijk niets zal betalen. 
+
+| | Rekening | Omschrijving | Debet | Credit |
+|---|----------|--------------|-------|--------|
+| | 411 | Regularisatie te betalen btw | 210 | |
+| | 409 | Handelsvorderingen: geboekte waardeverminderingen (-) | 300 | |
+| | 642 | Minderwaarden op de realisatie van handelsvorderingen | 700 | |
+| aan | 407 | Dubieuze debiteuren | | 1.210 |
 
 #### **De klant betaalt 605 euro (incl. btw), de onderneming vermoedt van de klant verder niets meer te zullen ontvangen**
 
@@ -156,26 +156,26 @@ Werd het dossier nog niet ter incasso overgedragen aan de kredietverzekeraar, da
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 550 | Kredietinstellingen: rekeningen-courant | 605 |  |
-| aan | 407 | Dubieuze debiteuren |  | 605 |
+| | 550 | Kredietinstellingen: rekeningen-courant | 605 | |
+| aan | 407 | Dubieuze debiteuren | | 605 |
 
-Bij de overdracht van het dossier aan de kredietverzekering ter incasso is nog steeds een waardevermindering geboekt ten belope van het niet-gedekte gedeelte (300 euro) van de resterende vordering (500 euro).        
+Bij de overdracht van het dossier aan de kredietverzekering ter incasso is nog steeds een waardevermindering geboekt ten belope van het niet-gedekte gedeelte (300 euro) van de resterende vordering (500 euro). 
 
-Bij ontvangst van de schadeloosstelling, binnen de contractueel voorziene termijn: 
-
-| | Rekening | Omschrijving | Debet | Credit |
-|---|----------|--------------|-------|--------|
-|  | 550 | Kredietinstellingen: rekeningen-courant | 200 |  |
-| aan | 743 tot 749 | Diverse bedrijfsopbrengsten |  | 200 |
-
-Door de subrogatie, die plaatsvindt doordat de kredietverzekeraar de verzekerde schadeloos heeft gesteld, verdwijnt het resterende gedeelte van de vordering definitief uit de boeken van de onderneming. 
+Bij ontvangst van de schadeloosstelling, binnen de contractueel voorziene termijn: 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 411 | Regularisatie te betalen btw | 105 |  |
-|  | 642 | Minderwaarde op de realisatie van handelsvorderingen | 200 |  |
-|  | 409 | Handelsvorderingen: geboekte waardeverminderingen (-) | 300 |  |
-| aan | 407 | Dubieuze debiteuren |  | 605 |
+| | 550 | Kredietinstellingen: rekeningen-courant | 200 | |
+| aan | 743 tot 749 | Diverse bedrijfsopbrengsten | | 200 |
+
+Door de subrogatie, die plaatsvindt doordat de kredietverzekeraar de verzekerde schadeloos heeft gesteld, verdwijnt het resterende gedeelte van de vordering definitief uit de boeken van de onderneming. 
+
+| | Rekening | Omschrijving | Debet | Credit |
+|---|----------|--------------|-------|--------|
+| | 411 | Regularisatie te betalen btw | 105 | |
+| | 642 | Minderwaarde op de realisatie van handelsvorderingen | 200 | |
+| | 409 | Handelsvorderingen: geboekte waardeverminderingen (-) | 300 | |
+| aan | 407 | Dubieuze debiteuren | | 605 |
 
 [^1]: De kredietverzekering maakt deel uit van de schadeverzekeringen. De juridische basis hiervoor is terug te vinden in de artikelen 70 t.e.m. 76 van de Wet op de landverzekeringsovereenkomst.
 

@@ -50,9 +50,9 @@ gerelateerde_adviezen:
 
 ## Inleiding
 
-Aan de Commissie werd een vraag gesteld over de in de jaarrekening te verstrekken informatie (d.i. de naam, voornaam, beroep en woonplaats[^2]) over de bestuurders[^3]. Concreet werd er gevraagd welke bestuurders moeten worden vermeld in de jaarrekening wanneer de samenstelling van het bestuursorgaan gewijzigd wordt (1) tussen de aanvangsdatum en de afsluitdatum van het boekjaar, (2) tussen de afsluitdatum van het boekjaar en de datum van de vaststelling van de jaarrekening en (3) na de datum van de vaststelling van de jaarrekening. 
+Aan de Commissie werd een vraag gesteld over de in de jaarrekening te verstrekken informatie (d.i. de naam, voornaam, beroep en woonplaats[^2]) over de bestuurders[^3]. Concreet werd er gevraagd welke bestuurders moeten worden vermeld in de jaarrekening wanneer de samenstelling van het bestuursorgaan gewijzigd wordt (1) tussen de aanvangsdatum en de afsluitdatum van het boekjaar, (2) tussen de afsluitdatum van het boekjaar en de datum van de vaststelling van de jaarrekening en (3) na de datum van de vaststelling van de jaarrekening. 
 
-De Commissie beperkt deze analyse tot vennootschappen, verenigingen en stichtingen die een dubbele boekhouding voeren. In dit advies behandelt de Commissie eveneens de wijziging van commissaris tussen de aanvangsdatum van het boekjaar of de datum van afsluiting van het boekjaar en de goedkeuring van de jaarrekening door de algemene vergadering. 
+De Commissie beperkt deze analyse tot vennootschappen, verenigingen en stichtingen die een dubbele boekhouding voeren. In dit advies behandelt de Commissie eveneens de wijziging van commissaris tussen de aanvangsdatum van het boekjaar of de datum van afsluiting van het boekjaar en de goedkeuring van de jaarrekening door de algemene vergadering. 
 
 ## Gegevens van de leden van het bestuursorgaan en de commissaris in de jaarrekening van vennootschappen die een dubbele boekhouding voeren
 
@@ -62,29 +62,29 @@ De wetgever heeft een definitie gegeven van het begrip “lid van het bestuursor
 
 Deze definitie kan verder verduidelijkt worden. Na de vaststelling van de jaarrekening leggen de bestuurders de jaarrekening immers ongewijzigd ter goedkeuring voor aan de algemene vergadering. Bijgevolg meent de Commissie dat de bestuurders die in functie zijn op het moment van de vaststelling van de jaarrekening moeten worden opgenomen in de jaarrekening. De commissaris die moet worden vermeld in de jaarrekening is degene die het controleverslag opgesteld en getekend heeft. Dit verslag wordt bij de jaarrekening gevoegd die ter goedkeuring wordt voorgelegd aan de algemene vergadering.
 
-In onderhavig advies maakt de Commissie een onderscheid tussen de verschillende periodes waarbinnen de samenstelling van het bestuursorgaan kan worden gewijzigd. De Commissie behandelt deze kwestie op dezelfde manier voor de commissaris. 
+In onderhavig advies maakt de Commissie een onderscheid tussen de verschillende periodes waarbinnen de samenstelling van het bestuursorgaan kan worden gewijzigd. De Commissie behandelt deze kwestie op dezelfde manier voor de commissaris. 
 
-### Gegevens van de leden van het bestuursorgaan 
+### Gegevens van de leden van het bestuursorgaan 
 
 De Commissie is van oordeel dat de bestuursvorm (klassiek (monistisch)[^8]
- of duaal[^9]) bepaalt welke bestuurders van vennootschappen in de jaarrekening moeten worden vermeld.
+ of duaal[^9]) bepaalt welke bestuurders van vennootschappen in de jaarrekening moeten worden vermeld.
 
 #### Klassiek of monistisch bestuur
 
 ##### Wijziging van de samenstelling van het bestuursorgaan tussen de aanvangsdatum van het boekjaar en de datum van afsluiting van het boekjaar
 
-Volgens de definitie van ‘bestuurders in functie’, moeten de bestuurders die ontslag namen tussen de aanvangsdatum en de datum van afsluiting van het boekjaar niet worden vermeld in de jaarrekening, vermits zij niet meer in functie zijn op het moment van de vaststelling van de jaarrekening. 
+Volgens de definitie van ‘bestuurders in functie’, moeten de bestuurders die ontslag namen tussen de aanvangsdatum en de datum van afsluiting van het boekjaar niet worden vermeld in de jaarrekening, vermits zij niet meer in functie zijn op het moment van de vaststelling van de jaarrekening. 
 
 Sedert een aantal jaren is het een courante praktijk geworden om de gegevens van ontslagnemende bestuurders op te nemen in de jaarrekening (met vermelding van de aanvangs- en einddatum van hun mandaat), ook al droegen zij niet bij aan de vaststelling van de jaarrekening. Deze praktijk vergemakkelijkt het bepalen van hun aansprakelijkheid voor de fouten begaan in de uitoefening van hun opdracht. Maar dit is geen wettelijke verplichting[^10].
 
 ## Voorbeeld 1
 
-De heer A is bestuurder van een vennootschap. Deze bestuurder heeft tijdens boekjaar dat samenvalt met het kalenderjaar 2020 ontslag genomen (op 20 december 2020). Het boekjaar wordt afgesloten op 31 december 2020. Op het moment van de vaststelling van de jaarrekening (25 januari 2021) is deze bestuurder niet meer in functie en moet hij daarom niet worden vermeld aangezien hij niet de auteur is van de jaarrekening van de vennootschap. 
+De heer A is bestuurder van een vennootschap. Deze bestuurder heeft tijdens boekjaar dat samenvalt met het kalenderjaar 2020 ontslag genomen (op 20 december 2020). Het boekjaar wordt afgesloten op 31 december 2020. Op het moment van de vaststelling van de jaarrekening (25 januari 2021) is deze bestuurder niet meer in functie en moet hij daarom niet worden vermeld aangezien hij niet de auteur is van de jaarrekening van de vennootschap. 
 
 ##### Wijziging van de samenstelling van het bestuursorgaan tussen de datum van afsluiting van het boekjaar en vóór de datum van de vaststelling van de jaarrekening
 
 Een bestuurder die benoemd is tussen de afsluiting van het boekjaar en vóór de datum van de vaststelling van de jaarrekening, moet worden vermeld in de jaarrekening. Deze is immers bestuurder[^11]
- op de datum waarop de jaarrekening wordt vastgesteld en ter goedkeuring wordt voorgelegd aan de algemene vergadering.
+ op de datum waarop de jaarrekening wordt vastgesteld en ter goedkeuring wordt voorgelegd aan de algemene vergadering.
 
 De Commissie is van oordeel dat de bestuurders die in functie zijn op het moment van de vaststelling van de jaarrekening moeten worden opgenomen in de jaarrekening.
 
@@ -92,7 +92,7 @@ De Commissie is van oordeel dat de bestuurders die in functie zijn op het moment
 
 Mevrouw X werd op 5 januari 2020 benoemd tot bestuurder. Het boekjaar werd afgesloten op 31 december 2019. De jaarrekening werd door het bestuursorgaan vastgesteld op 25 januari 2020. Mevrouw X dient vermeld te worden in de jaarrekening aangezien ze in functie was op het moment van de vaststelling van de jaarrekening.
 
-Hoewel ze nog geen bestuurder was in boekjaar 2019, is ze wel aansprakelijk voor de aan de algemene vergadering voorgelegde jaarrekening. Ze kan echter niet aansprakelijk worden gesteld voor fouten begaan door het bestuursorgaan tijdens het boekjaar 2019 aangezien ze tijdens boekjaar 2019 nog geen bestuurder was. 
+Hoewel ze nog geen bestuurder was in boekjaar 2019, is ze wel aansprakelijk voor de aan de algemene vergadering voorgelegde jaarrekening. Ze kan echter niet aansprakelijk worden gesteld voor fouten begaan door het bestuursorgaan tijdens het boekjaar 2019 aangezien ze tijdens boekjaar 2019 nog geen bestuurder was. 
 
 In dit voorbeeld was mevrouw X bestuurder gedurende slechts een deel van de periode tussen de afsluitdatum van het boekjaar en de datum van vaststelling van de jaarrekening. Voor deze bestuurders kan het nuttig zijn de begindatum te vermelden van de uitoefening van hun mandaat. Volgens de Minister van Justitie is dit slechts een mogelijkheid en geen verplichting[^12].
 
@@ -102,7 +102,7 @@ Overleden bestuurders of bestuurders die reeds ontslag namen vóór de vaststell
 
 ## Voorbeeld 3
 
-De heer Y nam op 12 april 2020 ontslag als bestuurder. De jaarrekening werd vastgesteld op 20 mei 2020. De heer Y moet niet in de jaarrekening worden vermeld aangezien hij niet heeft bijgedragen aan de vaststelling van de jaarrekening. 
+De heer Y nam op 12 april 2020 ontslag als bestuurder. De jaarrekening werd vastgesteld op 20 mei 2020. De heer Y moet niet in de jaarrekening worden vermeld aangezien hij niet heeft bijgedragen aan de vaststelling van de jaarrekening. 
 
 ##### Wijziging van de samenstelling van het bestuursorgaan na de vaststelling van de jaarrekening
 
@@ -110,12 +110,12 @@ De bestuurders die door de algemene vergadering nieuw aangesteld zijn na de vast
 
 ## Voorbeeld 4
 
-Mevrouw Z werd op 2 juni 2020 als bestuurder aangesteld. De jaarrekening werd vastgesteld op 20 mei 2020. Mevrouw Z moet bijgevolg niet worden vermeld in de jaarrekening. 
+Mevrouw Z werd op 2 juni 2020 als bestuurder aangesteld. De jaarrekening werd vastgesteld op 20 mei 2020. Mevrouw Z moet bijgevolg niet worden vermeld in de jaarrekening. 
 
 #### Duaal bestuur
 
 Het WVV maakt het voor naamloze vennootschappen mogelijk een duaal bestuur[^14]
- te vormen. Het bestuursorgaan wordt hierbij gesplitst in een raad van toezicht en een directieraad. De bevoegdheden die in een monistisch systeem door het WVV specifiek worden voorbehouden aan het bestuursorgaan worden bij een duaal bestuur toegewezen aan de raad van toezicht[^15].
+ te vormen. Het bestuursorgaan wordt hierbij gesplitst in een raad van toezicht en een directieraad. De bevoegdheden die in een monistisch systeem door het WVV specifiek worden voorbehouden aan het bestuursorgaan worden bij een duaal bestuur toegewezen aan de raad van toezicht[^15].
 
 De vaststelling van de jaarrekening behoort tot één van de opdrachten die exclusief aan de raad van toezicht worden voorbehouden. Deze raad van toezicht kan echter wel de voorbereiding en de uitvoering van de vaststelling van de jaarrekening aan de directieraad delegeren, maar blijft aansprakelijk voor de vaststelling van de jaarrekening[^16].
 
@@ -140,8 +140,8 @@ Hetgeen is uiteengezet onder punt II.A geldt, *mutatis mutandis*, ook voor de co
 ## Gegevens van de bestuurders en de commissaris in de jaarrekening van VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voeren
 
 De artikelen die van toepassing zijn op VZW’s[^19], IVZW’s[^20]
- en stichtingen[^21]
- bepalen eveneens dat het de bestuurders en commissaris in functie zijn die moeten worden vermeld in de jaarrekening.
+ en stichtingen[^21]
+ bepalen eveneens dat het de bestuurders en commissaris in functie zijn die moeten worden vermeld in de jaarrekening.
 
 Bijgevolg verwijst de Commissie naar wat hierboven in punt II.A.1 werd uiteengezet[^22].
 

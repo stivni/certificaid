@@ -612,6 +612,15 @@ def _promote_implicit_headings(md: str) -> str:
 
 
 def _cleanup_markdown(md: str) -> str:
+    # Vervang non-breaking spaces (U+00A0) door gewone spaties.
+    # CBN-HTML gebruikt &nbsp; vaak als woord-scheidingsteken; voor markdown/RAG
+    # is dat schadelijk (verstoort tokenization en search). Eén opeenvolgende
+    # NBSP → één spatie (collapse meerdere NBSPs).
+    md = re.sub(r'\xa0+', ' ', md)
+    # Eventuele dubbele spaties die ontstaan door collapse weer normaliseren,
+    # behalve aan begin van regel (markdown indent kan betekenisvol zijn).
+    md = re.sub(r'(?<=\S)  +', ' ', md)
+
     lines = [(l if l.strip() else '') for l in md.split('\n')]
     md = '\n'.join(lines)
 

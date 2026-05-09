@@ -38,7 +38,7 @@ provenance:
 Aan de Commissie werd de vraag gesteld op welke rekening van het algemeen rekeningstelsel een borgverstrekker een gegeven borgtocht in effecten boekhoudkundig dient te registreren.
 
 Daarnaast werd tevens de zienswijze van de Commissie gevraagd omtrent de boekhoudkundige verwerking van interesten[^3]
- met betrekking tot een geboekte borg op rekening 288 *Borgtochten betaald in contanten* en 418 *Borgtochten betaald in contanten*.
+ met betrekking tot een geboekte borg op rekening 288 *Borgtochten betaald in contanten* en 418 *Borgtochten betaald in contanten*.
 
 ## Conclusie
 

@@ -37,11 +37,11 @@ In dit advies wordt onderzocht hoe de omzet van een franchisenemer moet worden b
 
 In artikel 96 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het wetboek van vennootschappen (hierna: KB W.Venn.) wordt het begrip “omzet” als volgt omschreven:[^2] 
 
-*  Onder omzet wordt verstaan het bedrag van de verkoop van goederen en de levering van diensten aan derden, in het kader van de gewone bedrijfsuitoefening van de vennootschap, onder aftrek van de op de verkoopprijs in de handel toegestane kortingen (afslag, ristorno, rabat); dit bedrag omvat niet de belasting over de toegevoegde waarde, noch enige andere rechtstreeks met de omzet verbonden belasting.  
+* Onder omzet wordt verstaan het bedrag van de verkoop van goederen en de levering van diensten aan derden, in het kader van de gewone bedrijfsuitoefening van de vennootschap, onder aftrek van de op de verkoopprijs in de handel toegestane kortingen (afslag, ristorno, rabat); dit bedrag omvat niet de belasting over de toegevoegde waarde, noch enige andere rechtstreeks met de omzet verbonden belasting. 
 
-  Onder die post moeten eveneens worden opgenomen de tegemoetkomingen van de overheid in het kader van een tariferingspolitiek als compensatie voor lagere ontvangsten.  
+  Onder die post moeten eveneens worden opgenomen de tegemoetkomingen van de overheid in het kader van een tariferingspolitiek als compensatie voor lagere ontvangsten. 
 
-  Voor de natuurlijke personen die koopman zijn, omvat de omzet ook de onttrekkingen in natura anders dan ten behoeve van hun bedrijf.*
+  Voor de natuurlijke personen die koopman zijn, omvat de omzet ook de onttrekkingen in natura anders dan ten behoeve van hun bedrijf.*
 
 In CBN-advies 103 – Omzet: Tussenpersonen behandelde de Commissie reeds de manier waarop de omzet moet worden bepaald van een onderneming die optreedt als makelaar, mandataris of commissionair.[^3] 
 

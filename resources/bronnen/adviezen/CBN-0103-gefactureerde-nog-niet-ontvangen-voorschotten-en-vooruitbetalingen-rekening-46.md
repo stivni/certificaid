@@ -36,9 +36,9 @@ Naar aanleiding van een vraag daaromtrent heeft de Commissie geadviseerd dat op 
 
 De Commissie meent dan ook dat de huidige omschrijving van rekening 46, namelijk *Ontvangen voorschotten en vooruitbetalingen*, misleidend is. Zij zal de Regering voorstellen bij een volgende wijziging van het koninklijk besluit van 7 maart 1978 de omschrijving van rekening 46 te corrigeren door het woord "ontvangen" eruit te schrappen.
 
-Verder beveelt de Commissie aan, ten einde het bedrag der gefactureerde nog niet vereffende voorschotten in de boekhouding tot uiting te doen komen, rekening 46 *Voorschotten en vooruitbetalingen* uit te splitsen in subrekeningen:
+Verder beveelt de Commissie aan, ten einde het bedrag der gefactureerde nog niet vereffende voorschotten in de boekhouding tot uiting te doen komen, rekening 46 *Voorschotten en vooruitbetalingen* uit te splitsen in subrekeningen:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 460 | Te ontvangen |  |  |
-|  | 461 | Ontvangen. |  |  |
+| | 460 | Te ontvangen | | |
+| | 461 | Ontvangen. | | |

@@ -69,13 +69,13 @@ De drempelwaarden in verband met het jaargemiddelde van het aantal werknemers wo
 
 De Gedelegeerde Richtlijn 2023/2775 draagt de lidstaten op om de wetsbepalingen die de richtlijn omzetten uiterlijk van toepassing te maken op boekjaren die beginnen op of na 1 januari 2024, opdat ondernemingen of groepen zo spoedig mogelijk kunnen gebruik maken van de bijgestelde drempelwaarden.[^11] De richtlijn laat de lidstaten bovendien de ruimte om de verhoogde criteria toe te passen op boekjaren die beginnen op of na 1 januari 2023.[^12] 
 
-De Wet van 28 maart 2024 stelt dat de verhoogde groottecriteria bij de vennootschappen “*van toepassing [zijn] op de boekjaren die een aanvang nemen na 31 december 2023*”.[^13] Het zijn dus de nieuwe, verhoogde drempelwaarden die gebruikt moeten worden om de grootte te bepalen van een vennootschap met betrekking tot diens eerste boekjaar dat aanvang heeft genomen na 31 december 2023. 
+De Wet van 28 maart 2024 stelt dat de verhoogde groottecriteria bij de vennootschappen “*van toepassing [zijn] op de boekjaren die een aanvang nemen na 31 december 2023*”.[^13] Het zijn dus de nieuwe, verhoogde drempelwaarden die gebruikt moeten worden om de grootte te bepalen van een vennootschap met betrekking tot diens eerste boekjaar dat aanvang heeft genomen na 31 december 2023. 
 
 De Wet van 15 mei 2024 voegde hier de volgende overgangsbepaling aan toe:
 
 “De regels die zijn opgenomen in de artikelen 1:24, § 2, 1:25, § 2, en 1:26, § 2, van het Wetboek van vennootschappen en verenigingen, zijn voor één keer niet van toepassing op de opstelling en de openbaarmaking van de jaarrekeningen die de ondernemingen afsluiten na 31 december 2023. Voor die afsluiting wordt enkel rekening gehouden met de in de artikelen 147, 148 en 149 bedoelde verhoogde bedragen voor de jaaromzet en het balanstotaal van het betrokken boekjaar.”[^14] 
 
-Om te bepalen of een vennootschap[^15] in een boekjaar dat is aangevangen na 31 december 2023 klein dan wel ‘groot’[^16] is, moet men enkel de cijfers van het boekjaar met betrekking tot de eerst op te stellen jaarrekening die een eindeboekjaardatum heeft na 31 december 2023 toetsen aan de (thans verhoogde) groottecriteria.[^17] De uitgestelde werking wordt bij deze afsluiting eenmalig uitgesloten, waardoor de cijfers van de twee voorgaande boekjaren uitzonderlijk niet aan de groottecriteria moeten worden getoetst. 
+Om te bepalen of een vennootschap[^15] in een boekjaar dat is aangevangen na 31 december 2023 klein dan wel ‘groot’[^16] is, moet men enkel de cijfers van het boekjaar met betrekking tot de eerst op te stellen jaarrekening die een eindeboekjaardatum heeft na 31 december 2023 toetsen aan de (thans verhoogde) groottecriteria.[^17] De uitgestelde werking wordt bij deze afsluiting eenmalig uitgesloten, waardoor de cijfers van de twee voorgaande boekjaren uitzonderlijk niet aan de groottecriteria moeten worden getoetst. 
 
 De precieze bewoordingen van de overgangsbepaling uit artikel 170 van de Wet van 28 maart 2024 zorgen ervoor dat er een verschil in werking is tussen een vennootschap die een boekjaar hanteert die gelijkloopt met een kalenderjaar, en een vennootschap die een gebroken boekjaar hanteert.
 
@@ -91,14 +91,14 @@ In de hierna uitgewerkte voorbeelden[^19] wordt er van uitgegaan dat de betrokke
 
 Een vennootschap voert een boekhouding per kalenderjaar. Voor de boekjaren 2021, 2022 en 2023 werd de vennootschap aangemerkt als een “grote” vennootschap. De vennootschap heeft de volgende kencijfers[^20]:
 
-|   | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | 
+| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | 
 | Jaargemiddelde personeelsbestand | | 60 | | 60 | | 60 | 
-| Omzet[^21]  | | 10.000.000 | | 11.000.000 | | 12.000.000 | 
+| Omzet[^21] | | 10.000.000 | | 11.000.000 | | 12.000.000 | 
 | Balanstotaal | | 4.800.000 | | 5.000.000 | | 5.200.000 | 
 
-Voor de beoordeling of de vennootschap voor het boekjaar 2024, dit is het eerste boekjaar dat aanvangt na 31 december 2023, wordt aangemerkt als een kleine of een “grote” vennootschap, moet uitsluitend worden nagegaan of zij op 31 december 2024, zijnde de balansdatum van het boekjaar met betrekking tot de eerste op te stellen jaarrekening na 31 december 2023, meer dan één van de verhoogde criteria van het aangepaste artikel 1:24 WVV overschrijdt. 
+Voor de beoordeling of de vennootschap voor het boekjaar 2024, dit is het eerste boekjaar dat aanvangt na 31 december 2023, wordt aangemerkt als een kleine of een “grote” vennootschap, moet uitsluitend worden nagegaan of zij op 31 december 2024, zijnde de balansdatum van het boekjaar met betrekking tot de eerste op te stellen jaarrekening na 31 december 2023, meer dan één van de verhoogde criteria van het aangepaste artikel 1:24 WVV overschrijdt. 
 
-Op balansdatum 31 december 2024 overschreed de vennootschap slechts één van de criteria vermeld in artikel 1:24 WVV: 
+Op balansdatum 31 december 2024 overschreed de vennootschap slechts één van de criteria vermeld in artikel 1:24 WVV: 
 
 - jaargemiddelde van het personeelsbestand: 60 > 50; 
 - omzet: 11.000.000 < 11.250.000; 
@@ -106,9 +106,9 @@ Op balansdatum 31 december 2024 overschreed de vennootschap slechts één van de
 
 Bijgevolg wordt de vennootschap voor het boekjaar 2024 meteen aangemerkt als een kleine vennootschap.
 
-Vanaf het daaropvolgende boekjaar, met name het boekjaar dat aanvangt op 1 januari 2025, geldt opnieuw de gewone regeling, met name dat wanneer meer dan één van de criteria vermeld in artikel 1:24 WVV worden overschreden of niet meer worden overschreden, dit slechts gevolgen heeft wanneer dit zich gedurende twee opeenvolgende boekjaren voordoet. De gevolgen hiervan gaan in dat geval in vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk, op balansdatum, meer dan één van de criteria voor de tweede keer werden overschreden of niet meer werden overschreden. 
+Vanaf het daaropvolgende boekjaar, met name het boekjaar dat aanvangt op 1 januari 2025, geldt opnieuw de gewone regeling, met name dat wanneer meer dan één van de criteria vermeld in artikel 1:24 WVV worden overschreden of niet meer worden overschreden, dit slechts gevolgen heeft wanneer dit zich gedurende twee opeenvolgende boekjaren voordoet. De gevolgen hiervan gaan in dat geval in vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk, op balansdatum, meer dan één van de criteria voor de tweede keer werden overschreden of niet meer werden overschreden. 
 
-Op balansdatum 31 december 2024 heeft de vennootschap maar één van de criteria overschreden. Ook op balansdatum 31 december 2023 werd er maar één van de (verhoogde) drempelwaarden overschreden.[^22] De vennootschap blijft klein in boekjaar 2025. 
+Op balansdatum 31 december 2024 heeft de vennootschap maar één van de criteria overschreden. Ook op balansdatum 31 december 2023 werd er maar één van de (verhoogde) drempelwaarden overschreden.[^22] De vennootschap blijft klein in boekjaar 2025. 
 
 Op balansdatum 31 december 2025 heeft de vennootschap meer dan één van de criteria overschreden:
 
@@ -122,14 +122,14 @@ Door de uitgestelde werking blijft de vennootschap ook in boekjaar 2026 klein, a
 
 Een vennootschap hanteert gebroken boekjaren waarbij het boekjaar eindigt op 31 maart. Voor de boekjaren die werden aangevat op 1 april 2022 en 1 april 2023 werd de vennootschap aangemerkt als een kleine vennootschap. De vennootschap heeft de volgende kencijfers[^23]:
 
-|   | | 31/03/2024 | | 31/03/2025 | | 31/03/2026 | 
+| | | 31/03/2024 | | 31/03/2025 | | 31/03/2026 | 
 | Jaargemiddelde personeelsbestand | | 60 | | 60 | | 60 | 
 | Omzet | | 11.350.000 | | 11.000.000 | | 11.450.000 | 
 | Balanstotaal | | 5.500.000 | | 5.650.000 | | 5.800.000 | 
 
-Voor de beoordeling of de vennootschap voor het boekjaar dat loopt van 1 april 2024 tot 31 maart 2025 - dit is het eerste boekjaar dat aanvangt na 31 december 2023 - wordt aangemerkt als een kleine of een “grote” vennootschap, moet uitsluitend worden nagegaan of zij op 31 maart 2024, zijnde de balansdatum van het boekjaar met betrekking tot de eerste op te stellen jaarrekening na 31 december 2023, meer dan één van de verhoogde criteria van het aangepaste artikel 1:24 WVV overschrijdt. 
+Voor de beoordeling of de vennootschap voor het boekjaar dat loopt van 1 april 2024 tot 31 maart 2025 - dit is het eerste boekjaar dat aanvangt na 31 december 2023 - wordt aangemerkt als een kleine of een “grote” vennootschap, moet uitsluitend worden nagegaan of zij op 31 maart 2024, zijnde de balansdatum van het boekjaar met betrekking tot de eerste op te stellen jaarrekening na 31 december 2023, meer dan één van de verhoogde criteria van het aangepaste artikel 1:24 WVV overschrijdt. 
 
-Op balansdatum 31 maart 2024 overschreed de vennootschap meer dan één van de criteria vermeld in artikel 1:24 WVV: 
+Op balansdatum 31 maart 2024 overschreed de vennootschap meer dan één van de criteria vermeld in artikel 1:24 WVV: 
 
 - jaargemiddelde van het personeelsbestand: 60 > 50; 
 - omzet: 11.350.000 > 11.250.000; 
@@ -137,7 +137,7 @@ Op balansdatum 31 maart 2024 overschreed de vennootschap meer dan één van de c
 
 Bijgevolg wordt de vennootschap voor het boekjaar dat aanvangt op 1 april 2024 aangemerkt als een “grote” vennootschap.
 
-Vanaf het daaropvolgende boekjaar, met name het boekjaar dat aanvangt op 1 april 2025, geldt opnieuw de gewone regeling. Dit wil zeggen dat wanneer meer dan één van de criteria vermeld in 1:24 WVV worden overschreden of niet meer worden overschreden, dit slechts gevolgen heeft wanneer dit zich gedurende twee opeenvolgende boekjaren voordoet. De gevolgen hiervan gaan in dat geval in vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk, op balansdatum, meer dan één van de criteria voor de tweede keer werden overschreden of niet meer werden overschreden. 
+Vanaf het daaropvolgende boekjaar, met name het boekjaar dat aanvangt op 1 april 2025, geldt opnieuw de gewone regeling. Dit wil zeggen dat wanneer meer dan één van de criteria vermeld in 1:24 WVV worden overschreden of niet meer worden overschreden, dit slechts gevolgen heeft wanneer dit zich gedurende twee opeenvolgende boekjaren voordoet. De gevolgen hiervan gaan in dat geval in vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk, op balansdatum, meer dan één van de criteria voor de tweede keer werden overschreden of niet meer werden overschreden. 
 
 Op balansdatum 31 maart 2025 heeft de vennootschap niet meer dan één van de criteria overschreden:
 
@@ -153,19 +153,19 @@ Op balansdatum 31 maart 2026 heeft de vennootschap meer dan één van de criteri
 - omzet: 11.450.000 > 11.250.000; 
 - balanstotaal: 5.800.000 < 6.000.000. 
 
-Op balansdatum 31 maart 2026 werd opnieuw meer dan één van de criteria overschreden. Bijgevolg wordt de vennootschap nog steeds als een “grote” vennootschap aangemerkt voor het boekjaar dat aanvangt op 1 april 2026. 
+Op balansdatum 31 maart 2026 werd opnieuw meer dan één van de criteria overschreden. Bijgevolg wordt de vennootschap nog steeds als een “grote” vennootschap aangemerkt voor het boekjaar dat aanvangt op 1 april 2026. 
 
-### Voorbeeld 3:  impact van de verhoging van de criteria op langere termijn waarbij het boekjaar gelijk loopt met het kalenderjaar
+### Voorbeeld 3: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar gelijk loopt met het kalenderjaar
 
-Veronderstel een vennootschap met een einde boekjaardatum van 31 december. De cijfers in het rood geven aan wanneer de criteria[^25] werden overschreden.[^26] Om de grootte van de vennootschap te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken. 
+Veronderstel een vennootschap met een einde boekjaardatum van 31 december. De cijfers in het rood geven aan wanneer de criteria[^25] werden overschreden.[^26] Om de grootte van de vennootschap te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken. 
 
-| **Einde 31.12** | |   | | **31.12.2021** | |   | |   | | **31.12.2022** | |   | | **31.12.2023** | |   | |   | | **31.12.2024** | |   | |   | | **31.12.2025** | |   | |   | | **31.12.2026** | |   | 
+| **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | | | | **31.12.2023** | | | | | | **31.12.2024** | | | | | | **31.12.2025** | | | | | | **31.12.2026** | | | 
 | Personeel | | 60 | | 60 | | 60 | | 60 | | 60 | | 60 | 
 | Omzet | | 10 | | 10 | | 10 | | 11 | | 12 | | 12 | 
 | Balanstotaal | | 4,8 | | 4,8 | | 4,8 | | 5,2 | | 5,2 | | 5,2 | 
 | Criteria | | oud | | oud | | nieuw | | nieuw | | nieuw | | nieuw | 
 
-De vennootschap zal in boekjaar 2023 worden gekwalificeerd als zijnde een ‘grote’ vennootschap (wegens het overschrijden van meer dan één van de ‘oude’ drempelwaarden in 2021 en 2022). 
+De vennootschap zal in boekjaar 2023 worden gekwalificeerd als zijnde een ‘grote’ vennootschap (wegens het overschrijden van meer dan één van de ‘oude’ drempelwaarden in 2021 en 2022). 
 
 De vennootschap zal in boekjaar 2024 worden gekwalificeerd als zijnde een kleine vennootschap (wegens het niet overschrijden van meer dan één van de verhoogde drempelwaarden op balansdatum 31 december 2024).
 
@@ -175,36 +175,36 @@ De vennootschap zal in boekjaar 2026 worden gekwalificeerd als zijnde een kleine
 
 De vennootschap zal in boekjaar 2027 worden gekwalificeerd als zijnde een ‘grote’ vennootschap (wegens het overschrijden van meer dan één van de verhoogde drempelwaarden op balansdata 31 december 2025 en 31 december 2026).
 
-### Voorbeeld 4:  impact van de verhoging van de criteria op langere termijn waarbij het boekjaar niet gelijk loopt met het kalenderjaar
+### Voorbeeld 4: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar niet gelijk loopt met het kalenderjaar
 
 Veronderstel een vennootschap met een einde boekjaardatum van 31 maart. De cijfers in het rood geven aan wanneer de criteria werden overschreden.[^29]
- Om de grootte van de vennootschap te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken.
+ Om de grootte van de vennootschap te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken.
 
-| **Einde 31.03** | |   | | **31.03.2021** | |   | |   | | **31.03.2022** | |   | | **31.03.2023** | |   | |   | | **31.03.2024** | |   | |   | | **31.03.2025** | |   | |   | | **31.03.2026** | |   | 
+| **Einde 31.03** | | | | **31.03.2021** | | | | | | **31.03.2022** | | | | **31.03.2023** | | | | | | **31.03.2024** | | | | | | **31.03.2025** | | | | | | **31.03.2026** | | | 
 | Personeel | | 60 | | 60 | | 60 | | 60 | | 60 | | 60 | 
 | Omzet | | 10 | | 10 | | 10 | | 11 | | 12 | | 12 | 
 | Balanstotaal | | 4,8 | | 4,8 | | 4,8 | | 5,2 | | 5,2 | | 5,2 | 
 | Criteria | | oud | | oud | | oud | | nieuw | | nieuw | | nieuw | 
 
-De vennootschap zal in boekjaar dat start op 1 april 2022 worden gekwalificeerd als zijnde een ‘grote’ vennootschap (wegens het overschrijden van meer dan één van de ‘oude’ drempelwaarden op 31 maart 2021 en 31 maart 2022). 
+De vennootschap zal in boekjaar dat start op 1 april 2022 worden gekwalificeerd als zijnde een ‘grote’ vennootschap (wegens het overschrijden van meer dan één van de ‘oude’ drempelwaarden op 31 maart 2021 en 31 maart 2022). 
 
-De vennootschap zal in boekjaar dat start op 1 april 2023 worden gekwalificeerd als zijnde een ‘grote’ vennootschap (wegens het overschrijden van meer dan één van de ‘oude’ drempelwaarden op 31 maart 2022 en 31 maart 2023). 
+De vennootschap zal in boekjaar dat start op 1 april 2023 worden gekwalificeerd als zijnde een ‘grote’ vennootschap (wegens het overschrijden van meer dan één van de ‘oude’ drempelwaarden op 31 maart 2022 en 31 maart 2023). 
 
-De vennootschap zal in boekjaar dat start op 1 april 2024 worden gekwalificeerd als zijnde een kleine  vennootschap (wegens het niet overschrijden van meer dan één van de verhoogde drempelwaarden op 31 maart 2024). 
+De vennootschap zal in boekjaar dat start op 1 april 2024 worden gekwalificeerd als zijnde een kleine vennootschap (wegens het niet overschrijden van meer dan één van de verhoogde drempelwaarden op 31 maart 2024). 
 
-De vennootschap zal in boekjaar dat start op 1 april 2025 worden gekwalificeerd als zijnde een kleine  vennootschap (wegens het niet overschrijden van meer dan één van de verhoogde drempelwaarden op 31 maart 2024 en het voor het eerst wel overschrijden van meer dan één van de verhoogde drempelwaarden op 31 maart 2025). 
+De vennootschap zal in boekjaar dat start op 1 april 2025 worden gekwalificeerd als zijnde een kleine vennootschap (wegens het niet overschrijden van meer dan één van de verhoogde drempelwaarden op 31 maart 2024 en het voor het eerst wel overschrijden van meer dan één van de verhoogde drempelwaarden op 31 maart 2025). 
 
-De vennootschap zal in boekjaar dat start op 1 april 2026 worden gekwalificeerd als zijnde een ‘grote’  vennootschap (wegens het overschrijden van meer dan één van de verhoogde drempelwaarden op zowel 31 maart 2025 als 31 maart 2026). 
+De vennootschap zal in boekjaar dat start op 1 april 2026 worden gekwalificeerd als zijnde een ‘grote’ vennootschap (wegens het overschrijden van meer dan één van de verhoogde drempelwaarden op zowel 31 maart 2025 als 31 maart 2026). 
 
 ### Voorbeeld 5: beoordeling op geconsolideerde of geaggregeerde basis
 
 Veronderstel een groep die bestaat uit de volgende vennootschappen:
 
-TOPCO: afsluitingsdatum boekjaar 30/06  
+TOPCO: afsluitingsdatum boekjaar 30/06 
 
-MIDCO: dochtervennootschap van TOPCO; afsluitingsdatum boekjaar 31/12  
+MIDCO: dochtervennootschap van TOPCO; afsluitingsdatum boekjaar 31/12 
 
-SUBCO1: dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 31/12  
+SUBCO1: dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 31/12 
 
 SUBCO2: dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 31/03
 
@@ -213,8 +213,8 @@ Bij moedervennootschappen[^30], zoals in dit voorbeeld TOPCO en MIDCO, gebeurt d
 De beoordeling van de grootte van TOPCO voor het boekjaar dat start op 01/07/2024[^32] gebeurt aldus op basis van:
 
 1. de geconsolideerde cijfers van TOPCO op 30/06/2024[^33]
- (consolidatie TOPCO, MIDCO, SUBCO1 en SUBCO2, rekening houdend met de gegevens op 30/06/2024[^34]
- voor elke vennootschap); of 
+ (consolidatie TOPCO, MIDCO, SUBCO1 en SUBCO2, rekening houdend met de gegevens op 30/06/2024[^34]
+ voor elke vennootschap); of 
 2. de geaggregeerde cijfers (+ 20%-methode) van TOPCO 30/06/2024; MIDCO 31/12/2023; SUBCO1 31/12/2023; SUBCO2 31/03/2024. 
 
 De beoordeling van de grootte van MIDCO voor het boekjaar dat start op 01/01/2024[^35] gebeurt op basis van:

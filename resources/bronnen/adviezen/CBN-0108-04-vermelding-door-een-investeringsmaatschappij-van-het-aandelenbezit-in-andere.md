@@ -29,7 +29,7 @@ gerelateerde_adviezen:
   - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
     datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen:  eigen boekhoudkundige verplichtingen (update)'
+  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
     datum: '2022-11-08'
   - titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
@@ -43,8 +43,8 @@ gerelateerde_adviezen:
 # CBN-advies 108/4 - Vermelding door een investeringsmaatschappij van het aandelenbezit in andere vennootschappen
 
 Met toepassing van de Vierde EEG-Richtlijn[^1]
- vereist het koninklijk besluit van 8 oktober 1976 de vermelding in de toelichting van de vennootschappen waarin de onderneming een aandeel in het kapitaal bezit dat ten minste 10 %[^2]
- van het geplaatste kapitaal beloopt. De richtlijn bepaalt echter dat de Lid-Staten kunnen toestaan - gebeurlijk mits toestemming van overheid of rechter - dat deze gegevens achterwege worden gelaten indien het vermelden ervan aan een van de betrokken ondernemingen ernstig nadeel kan berokkenen[^3].
+ vereist het koninklijk besluit van 8 oktober 1976 de vermelding in de toelichting van de vennootschappen waarin de onderneming een aandeel in het kapitaal bezit dat ten minste 10 %[^2]
+ van het geplaatste kapitaal beloopt. De richtlijn bepaalt echter dat de Lid-Staten kunnen toestaan - gebeurlijk mits toestemming van overheid of rechter - dat deze gegevens achterwege worden gelaten indien het vermelden ervan aan een van de betrokken ondernemingen ernstig nadeel kan berokkenen[^3].
 
 Op basis van deze bepaling werd bij de Minister van Economische Zaken een verzoek tot afwijking ingediend door een investeringsmaatschappij waarvan de hoofdactiviteit bestaat in het financieren van ondernemingen via het opnemen van een tijdelijk minderheidsbelang in hun kapitaal, dit:
 

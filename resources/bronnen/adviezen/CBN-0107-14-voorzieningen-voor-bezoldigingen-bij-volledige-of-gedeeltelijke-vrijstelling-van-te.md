@@ -60,23 +60,23 @@ Bij haar onderzoek heeft de Commissie zich uitsluitend gebogen over het boekhoud
 
 Dergelijke overeenkomsten kunnen - juridisch gezien - niet als rust- en overlevingspensioen worden gekwalificeerd en zij vallen evenmin onder een wettelijke of conventionele regeling inzake brugpensioen. Het gaat om specifieke contracten die allerlei vormen kunnen aannemen, meer bepaald wat de vraag betreft of nog andere beroepsactiviteiten mogen worden uitgevoerd, en waarvan de draagwijdte dan ook telkens weer in concreto moet worden onderzocht.
 
-Toch hebben zij een kenmerk gemeen met de regelingen inzake bovenwettelijk pensioen of conventioneel brugpensioen: de onderneming ging gaat tegenover bepaalde werknemers van een zekere leeftijd de vaste verbintenis aan om hen gedurende een bepaalde periode hun bezoldiging volledig of gedeeltelijk te blijven uitbetalen, terwijl zij geen overeenstemmende arbeidsprestaties meer  hoeven te leveren.
+Toch hebben zij een kenmerk gemeen met de regelingen inzake bovenwettelijk pensioen of conventioneel brugpensioen: de onderneming ging gaat tegenover bepaalde werknemers van een zekere leeftijd de vaste verbintenis aan om hen gedurende een bepaalde periode hun bezoldiging volledig of gedeeltelijk te blijven uitbetalen, terwijl zij geen overeenstemmende arbeidsprestaties meer hoeven te leveren.
 
 Krachtens artikel 19, derde lid van het koninklijk besluit van 8 oktober 1976 "moet rekening worden gehouden met alle voorzienbare risico’s, mogelijke verliezen en ontwaardingen, ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft of tijdens voorgaande boekjaren, (...)".
 
 Het vierde lid van datzelfde artikel bepaalt dat "er rekening moet worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd".
 
-Het vijfde lid van artikel 19 bepaalt trouwens dat "onder meer voorzieningen moeten worden gevormd met het oog op:  
+Het vijfde lid van artikel 19 bepaalt trouwens dat "onder meer voorzieningen moeten worden gevormd met het oog op: 
 
-a. de verplichtingen die op de onderneming rusten inzake rust- en overlevingspensioenen, brugpensioenen en andere gelijkaardige pensioenen of renten;  
+a. de verplichtingen die op de onderneming rusten inzake rust- en overlevingspensioenen, brugpensioenen en andere gelijkaardige pensioenen of renten; 
 
-b. (...);  
+b. (...); 
 
 c. (...)".
 
 Krachtens de desbetreffende definitie in hoofdstuk III van de bijlage bij het koninklijk besluit van 8 oktober 1976 "worden onder de passiefpost *Voorzieningen voor pensioenen en soortgelijke verplichtingen* de voorzieningen opgenomen die door de onderneming worden gevormd om te voldoen aan de verplichtingen inzake rust- en overlevingspensioenen, brugpensioenen en andere pensioenen en renten die zij ten opzichte van haar actuele of gewezen personeels- of directieleden heeft aangegaan".
 
-In haar advies 107/3[^1] over "Verplichtingen voortvloeiend uit brugpensioen" stelt de Commissie dat "de verplichting aangegaan door de onderneming om haar werknemers met brugpensioen bovenvermelde vergoeding uit te betalen, ook al leveren zij geen arbeidsprestaties meer, voor haar een vaste verbintenis betekent en een kost die onbetwistbaar tijdens het boekjaar is ontstaan. Krachtens artikel 19 van het koninklijk besluit van 8 oktober 1976 moet hiermee rekening worden gehouden in de inventaris ; voor deze verbintenis moet een passende voorziening worden gevormd, ten laste van de resultatenrekening".
+In haar advies 107/3[^1] over "Verplichtingen voortvloeiend uit brugpensioen" stelt de Commissie dat "de verplichting aangegaan door de onderneming om haar werknemers met brugpensioen bovenvermelde vergoeding uit te betalen, ook al leveren zij geen arbeidsprestaties meer, voor haar een vaste verbintenis betekent en een kost die onbetwistbaar tijdens het boekjaar is ontstaan. Krachtens artikel 19 van het koninklijk besluit van 8 oktober 1976 moet hiermee rekening worden gehouden in de inventaris ; voor deze verbintenis moet een passende voorziening worden gevormd, ten laste van de resultatenrekening".
 
 Volgens de Commissie vloeit uit die reglementaire bepalingen voort dat, wanneer een onderneming effectief, via een individuele overeenkomst, de vaste verbintenis aangaat om een deel van de bezoldiging van een werknemer verder te blijven storten, hoewel die in de toekomst geen arbeidsprestaties meer zal leveren (of een deel ervan niet meer zal leveren zonder dat zijn bezoldiging proportioneel daalt), zij ten laste van het boekjaar waarin zij die vaste verbintenis aangaat, een voorziening moet vormen om de betaling te dekken van de bezoldiging die zij, krachtens de aangegane verbintenis, zal betalen.
 

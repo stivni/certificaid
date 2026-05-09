@@ -47,17 +47,17 @@ gerelateerde_adviezen:
 
 # CBN-advies 2010/20 - Gebruik van uniforme boekhoudsoftware door internationale ondernemingen
 
-1.  Belgische dochterondernemingen en bijkantoren of centra van werkzaamheden  van buitenlandse ondernemingen 
-  1.  De Belgische boekhoudwet  
-  2.  De minimumindeling van het algemeen rekeningenstelsel (MAR)  
+1. Belgische dochterondernemingen en bijkantoren of centra van werkzaamheden van buitenlandse ondernemingen 
+  1. De Belgische boekhoudwet 
+  2. De minimumindeling van het algemeen rekeningenstelsel (MAR) 
 
-2.  Buitenlandse bijkantoren van Belgische ondernemingen  
+2. Buitenlandse bijkantoren van Belgische ondernemingen 
 
 ## Inleiding
 
 Belgische dochterondernemingen en bijkantoren of centra van werkzaamheden van internationale ondernemingen zijn er vandaag vaak toe gehouden bepaalde genormaliseerde boekingsprocedures, uitgewerkt door de moederonderneming of de maatschappelijke zetel in het buitenland, na te leven. Hierbij stelt zich de vraag of de eisen die de buitenlandse moedermaatschappij wenst op te leggen, te verzoenen zijn met de Belgische boekhoudkundige verplichtingen.
 
-## Belgische dochterondernemingen en bijkantoren of centra van werkzaamheden  van buitenlandse ondernemingen
+## Belgische dochterondernemingen en bijkantoren of centra van werkzaamheden van buitenlandse ondernemingen
 
 ### De Belgische boekhoudwet
 
@@ -66,37 +66,37 @@ Krachtens artikel 1, tweede lid van de wet van 17 juli 1975 (hierna: Boekhoudwet
 ### De minimumindeling van het algemeen rekeningenstelsel (MAR)
 
 Overeenkomstig artikel 4, vijfde lid van de Boekhoudwet moeten ondernemingen de rekeningen onderbrengen in een voor het bedrijf van de onderneming passend rekeningenstelsel. Dit rekeningenstelsel dient te beantwoorden aan de minimumindeling van het algemeen rekeningenstelsel (hierna: MAR).[^2]
- Deze minimum normalisering werd doorgevoerd teneinde de rekeningstelsels af te stemmen op het schema van de balans en van de jaarrekening.[^3]   
+ Deze minimum normalisering werd doorgevoerd teneinde de rekeningstelsels af te stemmen op het schema van de balans en van de jaarrekening.[^3] 
 
 Zodoende zal elk boekhoudpakket van een in ons land gevestigde onderneming minimaal de in het koninklijk besluit voorgeschreven rekeningen moeten bevatten, met de opgegeven nummers.[^4]
- Dit rekeningenplan kan uitgebreid worden volgens de behoeften en werkzaamheden van de onderneming, namelijk door een aanpassing van de benaming van de rekeningen, door het aanleggen van subrekeningen of door de toevoeging van bijkomende rekeningen.[^5] 
+ Dit rekeningenplan kan uitgebreid worden volgens de behoeften en werkzaamheden van de onderneming, namelijk door een aanpassing van de benaming van de rekeningen, door het aanleggen van subrekeningen of door de toevoeging van bijkomende rekeningen.[^5] 
 
 Artikel 14 van de Boekhoudwet bepaalt dat de minister van Economische Zaken of de minister van Middenstand (voor vennootschappen en andere ondernemingen die als klein kunnen worden beschouwd in de zin van het W.Venn.), evenwel in bijzondere gevallen, na een met redenen omkleed advies van de CBN, kan toestaan dat wordt afgeweken van de regels vastgesteld op grond van artikel 4, zesde lid van de Boekhoudwet.[^6]
- Hieruit blijkt dat de regering duidelijk oog had voor de moeilijkheden die bij het invoeren van een verplicht rekeningenstelsel kunnen ontstaan. De activiteiten van ondernemingen of vennootschapsgroepen kunnen immers worden uitgeoefend in verscheidene landen die elk zoniet een genormaliseerd stelsel, dan toch uiteenlopende bijzondere wetgevingen inzake boekhouding hebben.[^7] 
+ Hieruit blijkt dat de regering duidelijk oog had voor de moeilijkheden die bij het invoeren van een verplicht rekeningenstelsel kunnen ontstaan. De activiteiten van ondernemingen of vennootschapsgroepen kunnen immers worden uitgeoefend in verscheidene landen die elk zoniet een genormaliseerd stelsel, dan toch uiteenlopende bijzondere wetgevingen inzake boekhouding hebben.[^7] 
 
 De Commissie is echter van oordeel dat artikel 14 van de Boekhoudwet geen algehele afwijkingsmogelijkheid bevat.[^8]
- Er kan dus geen volledige vrijstelling op het verplichte gebruik van het genormaliseerd rekeningenstelsel toegekend worden aan internationale ondernemingen. 
+ Er kan dus geen volledige vrijstelling op het verplichte gebruik van het genormaliseerd rekeningenstelsel toegekend worden aan internationale ondernemingen. 
 
 De Commissie meent dat een gedeeltelijke oplossing voor het boekhoudkundig probleem van de internationale ondernemingen kan gevonden worden in het houden van een dubbel rekeningstelsel.
 
 Alhoewel de voorkeur van de Commissie oorspronkelijk uitging naar het werken met één enkel rekeningenstelsel en zij het houden van een dubbel rekeningenstelsel (met name het MAR en het door de moederonderneming opgelegde groepsrekeningenstelsel) niet als de gelukkigste oplossing beschouwde, uitte zij in advies R100/3 geen principiële bezwaren tegen deze methode. De minimumvereiste was wel dat eenmaal per maand de totale debet- en creditbewegingen per rekening van het algemeen rekeningenstelsel werden overgeboekt en dat zowel de basisverrichtingen als de verantwoordingsstukken via een rechtstreekse of onrechtstreekse, maar structurele binding tussen beide stelsels konden worden teruggevonden.[^9] 
 
-Aangezien potentiële investeerders die actief zijn op internationale of buitenlandse kapitaalmarkten al te vaak afgeschrikt worden door deze zware additionele administratieve verplichting, is de Commissie van mening dat advies R100/3 niet langer weerhouden kan worden. 
+Aangezien potentiële investeerders die actief zijn op internationale of buitenlandse kapitaalmarkten al te vaak afgeschrikt worden door deze zware additionele administratieve verplichting, is de Commissie van mening dat advies R100/3 niet langer weerhouden kan worden. 
 
-Een onderneming mag een van het MAR verschillend rekeningenplan gebruiken, op  voorwaarde dat zij op ieder ogenblik d.m.v. een concordantietabel een proef- en saldibalans kan voorleggen, opgesteld conform de voorschriften van het koninklijk besluit van 12 september 1983 m.b.t. het MAR, en dit zonder verplichte “één-op-één relatie”.[^10] 
+Een onderneming mag een van het MAR verschillend rekeningenplan gebruiken, op voorwaarde dat zij op ieder ogenblik d.m.v. een concordantietabel een proef- en saldibalans kan voorleggen, opgesteld conform de voorschriften van het koninklijk besluit van 12 september 1983 m.b.t. het MAR, en dit zonder verplichte “één-op-één relatie”.[^10] 
 
 Dit betekent dat met behulp van deze concordantietabel telkens een bestaande MAR-rekening moet kunnen worden aangeduid die tegenover een of meerdere rekeningen uit een ander rekeningenstelsel staat. Bovendien moet voor elke MAR-grootboekrekening een historiek kunnen worden opgevraagd, met directe verwijzing naar de betrokken verantwoordingsstukken.[^11]
- De concordantietabel wordt zowel in de zetel als in de belangrijke boekhoudingsafdelingen van de onderneming voortdurend ter beschikking gehouden van belanghebbenden. 
+ De concordantietabel wordt zowel in de zetel als in de belangrijke boekhoudingsafdelingen van de onderneming voortdurend ter beschikking gehouden van belanghebbenden. 
 
 Wat betreft de taal waarin de boekhouding wordt gevoerd, wenst de Commissie te benadrukken dat ondernemingen zich dienen te houden aan de wettelijke bepalingen inzake het taalgebruik.[^12] 
 
 ## Buitenlandse bijkantoren van Belgische ondernemingen
 
 De CBN stelt in advies 172/1 dat een buitenlands bijkantoor van een Belgische onderneming in burgerrechtelijk en handelsrechtelijk opzicht integrerend deel uitmaakt van deze onderneming.[^13]
- In tegenstelling tot wat het geval is voor bijkantoren en centra van werkzaamheden in België van buitenlandse ondernemingen, kunnen we hier dus niet spreken van een boekhoudkundige personificatie of zelfstandigheidsfictie.[^14] 
+ In tegenstelling tot wat het geval is voor bijkantoren en centra van werkzaamheden in België van buitenlandse ondernemingen, kunnen we hier dus niet spreken van een boekhoudkundige personificatie of zelfstandigheidsfictie.[^14] 
 
 In de gevallen waarin het bijkantoor of centrum van werkzaamheden is gevestigd in een ander land dan de zetel, moet het bijkantoor, overeenkomstig de wetgeving van het land van vestiging, niet alleen een afzonderlijke boekhouding voeren over zijn werkzaamheden aldaar, maar bovendien moet die boekhouding gevoerd worden volgens de in dat land geldende regels. De opname van de rekeningen van dat buitenlands bijkantoor in de boekhouding van de betrokken Belgische onderneming kan dan ook soms voor problemen zorgen bij de herwerking en de omrekening. Een herwerking kan immers noodzakelijk zijn omdat het bijkantoor onder meer de in het land van vestiging geldende benamingen van rekeningen gebruikt, die vaak afwijken van de regels en de beginselen in het land van de zetel.[^15]
- Ook hier is de Commissie de mening toegedaan dat de rekeningen van de buitenlandse bijkantoren van op Belgische grondgebied gevestigde moederondernemingen d.m.v. een concordantietabel te allen tijde moeten kunnen worden omgezet in een rekeningenstelsel zoals voorzien in het koninklijk besluit van 12 september 1983.   
+ Ook hier is de Commissie de mening toegedaan dat de rekeningen van de buitenlandse bijkantoren van op Belgische grondgebied gevestigde moederondernemingen d.m.v. een concordantietabel te allen tijde moeten kunnen worden omgezet in een rekeningenstelsel zoals voorzien in het koninklijk besluit van 12 september 1983. 
 
 [^1]: Cf. CBN-advies 1/1 “Ondernemingen naar buitenlands recht – Toepasselijkheid van de wet en de uitvoeringsbesluiten”, Bulletin CBN, nr. 1, augustus 1997, 7. Voor de begripsomschrijving van “bijkantoren en centra van werkzaamheden in België van ondernemingen naar buitenlands recht”, zie CBN-advies 1/5 “Ondernemingen naar buitenlands recht : bijkantoren en centra van werkzaamheden in België - Begrip”, Bulletin CBN, nr. 3, juli 1978, 12 en CBN-advies 1/5bis “Bijkantoren en centra van werkzaamheden in België van ondernemingen naar buitenlands recht – Begrip”, Bulletin CBN, nr. 10, april 1983, 4-5.
 

@@ -44,13 +44,13 @@ gerelateerde_adviezen:
 # CBN-advies 146/2 - Vooruitbetalingen van sociale zekerheidsbijdragen
 
 Aan de Commissie werd gevraagd of de verplichte vermelding in de toelichting bij de jaarrekening[^1]
- van het bedrag per einde boekjaar van de vervallen maar niet betaalde schulden tegenover de Rijksdienst voor Sociale Zekerheid[^2]
- ook geldt voor het bedrag per einde boekjaar van de vooruitbetalingen van sociale zekerheidsbijdragen die hadden moeten worden gestort[^3]
- maar niet werden gestort.
+ van het bedrag per einde boekjaar van de vervallen maar niet betaalde schulden tegenover de Rijksdienst voor Sociale Zekerheid[^2]
+ ook geldt voor het bedrag per einde boekjaar van de vooruitbetalingen van sociale zekerheidsbijdragen die hadden moeten worden gestort[^3]
+ maar niet werden gestort.
 
 De Commissie meent hierop bevestigend te kunnen antwoorden. Uit de sociale zekerheidsregeling blijkt inderdaad dat bepaalde ondernemingen sommige bijdragen moeten vooruitbetalen, op straffe van burgerrechtelijke sancties (verhogingen en verwijlintresten). Daaruit volgt dat de datum voor storting van deze vooruitbetalingen effectief geldt als vervaldatum voor een schuld t.a.v. de Rijksdienst voor Sociale Zekerheid.
 
-Dit bevestigend antwoord vindt ook steun in de bedoeling van de wetgever met de verplichting om vervallen schulden tegenover de belastingbesturen en de Rijksdienst voor Sociale Zekerheid in de toelichting te vermelden, ook al werd uitstel van betaling verleend.   
+Dit bevestigend antwoord vindt ook steun in de bedoeling van de wetgever met de verplichting om vervallen schulden tegenover de belastingbesturen en de Rijksdienst voor Sociale Zekerheid in de toelichting te vermelden, ook al werd uitstel van betaling verleend. 
 
 De wetgever wilde inderdaad omtrent dergelijke schulden - via informatie-verstrekking - een specifieke bescherming inbouwen voor de niet-bevoorrechte schuldeisers. In feite komen deze schulden immers neer op een vorm van kredietverlening die de onderneming aan deze overheden opdringt, door voordeel te halen uit een wettelijk voorrecht dat de goede afloop ervan waarborgt.
 

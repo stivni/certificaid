@@ -47,41 +47,41 @@ gerelateerde_adviezen:
 
 # CBN-advies 166/2 - Verwerking in de jaarrekening van bepaalde verrichtingen als bedoeld in artikel 677 van het Wetboek van vennootschappen1
 
-Woord vooraf 
+Woord vooraf 
 
-Conform artikel 677 van het Wetboek van vennootschappen, worden de verrichtingen omschreven in de artikelen 671 tot 675 met fusie of splitsing gelijkgesteld, zonder dat alle overdragende vennootschappen ophouden te bestaan. 
+Conform artikel 677 van het Wetboek van vennootschappen, worden de verrichtingen omschreven in de artikelen 671 tot 675 met fusie of splitsing gelijkgesteld, zonder dat alle overdragende vennootschappen ophouden te bestaan. 
 
-De Commissie werd gevraagd naar de boekhoudkundige verwerking van dergelijke verrichtingen, inzonderheid de verrichtingen die als " afsplitsing " worden gekwalificeerd. Daarbij draagt een vennootschap, zonder te worden ontbonden, een deel van haar vermogen over aan één of meer andere (bestaande of nog op te richten) vennootschappen, waarbij als tegenprestatie aandelen worden uitgegeven die rechtstreeks aan haar aandeelhouders worden toegekend, en eventueel een toeslag wordt betaald die niet meer mag bedragen dan 10% van de nominale waarde of, bij het ontbreken daarvan, van de fractiewaarde van de toegekende aandelen[^2]. 
+De Commissie werd gevraagd naar de boekhoudkundige verwerking van dergelijke verrichtingen, inzonderheid de verrichtingen die als " afsplitsing " worden gekwalificeerd. Daarbij draagt een vennootschap, zonder te worden ontbonden, een deel van haar vermogen over aan één of meer andere (bestaande of nog op te richten) vennootschappen, waarbij als tegenprestatie aandelen worden uitgegeven die rechtstreeks aan haar aandeelhouders worden toegekend, en eventueel een toeslag wordt betaald die niet meer mag bedragen dan 10% van de nominale waarde of, bij het ontbreken daarvan, van de fractiewaarde van de toegekende aandelen[^2]. 
 
-Tot nu toe handelt immers geen enkele bepaling van het koninklijk besluit van 30 januari 2001 tot uitvoering van het wetboek van vennootschappen, over verrichtingen die met een fusie of een splitsing worden gelijkgesteld. In de artikelen 78 tot 80 van het voornoemd besluit over respectievelijk fusies en splitsingen wordt nergens verwezen naar de in artikel 677 van het Wetboek van vennootschappen bedoelde verrichtingen. 
+Tot nu toe handelt immers geen enkele bepaling van het koninklijk besluit van 30 januari 2001 tot uitvoering van het wetboek van vennootschappen, over verrichtingen die met een fusie of een splitsing worden gelijkgesteld. In de artikelen 78 tot 80 van het voornoemd besluit over respectievelijk fusies en splitsingen wordt nergens verwezen naar de in artikel 677 van het Wetboek van vennootschappen bedoelde verrichtingen. 
 
-De Commissie is van oordeel dat een afsplitsing - conceptueel - op twee manieren kan worden geïnterpreteerd : 
+De Commissie is van oordeel dat een afsplitsing - conceptueel - op twee manieren kan worden geïnterpreteerd : 
 
-•    als een inbreng gevolgd door een uitkering in natura aan de aandeelhouders van de aandelen ontvangen als vergoeding voor de inbreng, of   
+• als een inbreng gevolgd door een uitkering in natura aan de aandeelhouders van de aandelen ontvangen als vergoeding voor de inbreng, of 
 
-•    als een splitsing met specifieke kenmerken 
+• als een splitsing met specifieke kenmerken 
 
-De tweede benadering geniet de voorkeur. Met artikel 677 van het Wetboek van vennootschappen heeft de wetgever dergelijke verrichtingen immers duidelijk een specifiek karakter, sui generis, willen geven en de terzake geldende wettelijke regeling willen afstemmen op die voor splitsingen. 
+De tweede benadering geniet de voorkeur. Met artikel 677 van het Wetboek van vennootschappen heeft de wetgever dergelijke verrichtingen immers duidelijk een specifiek karakter, sui generis, willen geven en de terzake geldende wettelijke regeling willen afstemmen op die voor splitsingen. 
 
-Artikel 677 maakt deel uit van een specifieke afdeling van het Wetboek van vennootschappen met als opschrift " Gelijkgestelde verrichtingen ", terwijl de voorloper ervan - artikel 174/65 van de gecoördineerde wetten op de handelsvennootschappen - deel uitmaakte van de afdeling " Inbreng van een algemeenheid of van een bedrijfstak ". 
+Artikel 677 maakt deel uit van een specifieke afdeling van het Wetboek van vennootschappen met als opschrift " Gelijkgestelde verrichtingen ", terwijl de voorloper ervan - artikel 174/65 van de gecoördineerde wetten op de handelsvennootschappen - deel uitmaakte van de afdeling " Inbreng van een algemeenheid of van een bedrijfstak ". 
 
 Er moet trouwens worden opgemerkt dat, krachtens de wet van 16 juli 2001 houdende wijziging van de wet van 29 april 1999 betreffende de organisatie van de elektriciteitsmarkt, van de wet van 12 april 1965 betreffende het vervoer van gasachtige producten en andere door middel van leidingen en van het Wetboek van de inkomstenbelastingen 1992, de afsplitsing - zoals andere fusies en splitsingen -wordt opgenomen onder de in beginsel belastbare verrichtingen, waarbij vervolgens, naar het voorbeeld van de gewone splitsing, een belastingneutraal regime wordt uitgewerkt[^3] ,[^4].
 
-Naar aanleiding daarvan is een wettelijke fictie van omruiling in het leven geroepen zodat, naar aanleiding van de belastingneutrale afsplitsing van vennootschap A in vennootschap B, voor de aandeelhouder de A-aandelen (vóór afsplitsing) als het ware worden geacht te zijn omgeruild tegen A-aandelen (nà afsplitsing) en nieuwe B-aandelen[^5].
+Naar aanleiding daarvan is een wettelijke fictie van omruiling in het leven geroepen zodat, naar aanleiding van de belastingneutrale afsplitsing van vennootschap A in vennootschap B, voor de aandeelhouder de A-aandelen (vóór afsplitsing) als het ware worden geacht te zijn omgeruild tegen A-aandelen (nà afsplitsing) en nieuwe B-aandelen[^5].
 
-In artikel 213 van het WIB 92 werd een tweede wettelijke fictie gecreëerd voor de uitkering van het kapitaal en de reserves, op grond waarvan een vennootschap A die, ingevolge belastingneutrale afsplitsing, een deel van haar maatschappelijk vermogen overdraagt aan een vennootschap B, wordt aangemerkt als een overgenomen/gesplitste vennootschap of als overnemende/verkrijgende vennootschap, waarbij vennootschap B volgens de geldende bepalingen[^6]
- uiteraard wordt aangemerkt als overnemende/verkrijgende vennootschap en de verrichting zelf wordt aangemerkt als een splitsing.
+In artikel 213 van het WIB 92 werd een tweede wettelijke fictie gecreëerd voor de uitkering van het kapitaal en de reserves, op grond waarvan een vennootschap A die, ingevolge belastingneutrale afsplitsing, een deel van haar maatschappelijk vermogen overdraagt aan een vennootschap B, wordt aangemerkt als een overgenomen/gesplitste vennootschap of als overnemende/verkrijgende vennootschap, waarbij vennootschap B volgens de geldende bepalingen[^6]
+ uiteraard wordt aangemerkt als overnemende/verkrijgende vennootschap en de verrichting zelf wordt aangemerkt als een splitsing.
 
 Tot slot moet worden opgemerkt dat de Regering in de parlementaire voorbereiding van de voornoemde wet van 16 juli 2001 verklaart dat "zij de nodige initiatieven zal nemen opdat de afsplitsing ook op boekhoudkundig vlak neutraal (t.t.z. volgens het continuïteitsbeginsel) zou kunnen worden verwerkt[^7]
 ".
 
-Gelet op wat voorafgaat en omwille van de coherentie met de totnogtoe in België courante boekhoudkundige verwerking van herstructureringsverrichtingen, is de Commissie van mening dat op de afsplitsing, mutatis mutandis, de voor gewone splitsingen geldende boekhoudkundige regels moeten worden toegepast waarvan sprake in artikel 80 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het wetboek van vennootschappen. 
+Gelet op wat voorafgaat en omwille van de coherentie met de totnogtoe in België courante boekhoudkundige verwerking van herstructureringsverrichtingen, is de Commissie van mening dat op de afsplitsing, mutatis mutandis, de voor gewone splitsingen geldende boekhoudkundige regels moeten worden toegepast waarvan sprake in artikel 80 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het wetboek van vennootschappen. 
 
-De Commissie is voornemens deze benadering later nader toe te lichten aan de hand van voorbeelden met de boekhoudkundige verwerking van gewone splitsingen als uitgangspunt. 
+De Commissie is voornemens deze benadering later nader toe te lichten aan de hand van voorbeelden met de boekhoudkundige verwerking van gewone splitsingen als uitgangspunt. 
 
 Volgens de Commissie zou het ook nuttig zijn in het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen een specifieke bepaling in te voegen over de boekhoudkundige verwerking - onder verwijzing naar het continuïteitsbeginsel - van alle verrichtingen als bedoeld in artikel 677 van het Wetboek van vennootschappen. Deze bepaling zou van toepassing zijn vanaf 6 februari 2001 (datum van inwerkingtreding van het Wetboek van vennootschappen)[^8].
 
-De Commissie zal aan de Regering voorstellen het koninklijk besluit van 30 januari 2001 tot uitvoering van het wetboek van vennootschappen in die zin aan te passen bij een volgende wijziging ervan. 
+De Commissie zal aan de Regering voorstellen het koninklijk besluit van 30 januari 2001 tot uitvoering van het wetboek van vennootschappen in die zin aan te passen bij een volgende wijziging ervan. 
 
 Gelet op de belangrijke evolutie van de internationale en buitenlandse boekhouddoctrine inzake de herstructurering van ondernemingen, is de Commissie ook van oordeel dat later dient te worden onderzocht of het nog wel opportuun is om een fusie, een splitsing, een daarmee gelijkgestelde verrichting, de inbreng van een bedrijfsonderdeel of een algemeenheid van goederen vanuit een continuïteitsperspectief te behandelen en bijgevolg hun verwerking in de jaarrekening af te stemmen op de boekwaarde en niet op de aanschaffingswaarde.
 

@@ -54,7 +54,7 @@ Om de gezondheidscrisis te boven te komen, kunnen ondernemingen mits naleving va
 Het hervatten van de activiteiten na een verplichte periode van sluiting of het verder werken tijdens een periode van “lockdown” gaat dikwijls gepaard met bepaalde kosten (aankoop van mondmaskers, alcoholgel, plexiglas, herinrichting van vergaderzalen via de aankoop van een camera om vergaderingen vanop afstand te kunnen houden, herinrichting van de werkvloer, enz.) om zo de hygiënemaatregelen te respecteren en de verspreiding van het virus in te perken.
 
 In dit advies behandelt de Commissie voor boekhoudkundige normen de boekhoudkundige verwerking van de in het kader van COVID-19 verkregen tegemoetkomingen enerzijds en van de als gevolg van deze gezondheidscrisis gemaakte kosten anderzijds. De Commissie wijst erop dat de algemene Belgische boekhoudbeginselen[^3]
- te allen tijde van toepassing blijven en herinnert in die zin aan artikel 3:10 van het *koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen*: “*De waarderingen moeten voldoen aan de eisen van voorzichtigheid, oprechtheid en goede trouw*”. Onderhavig advies beoogt dan ook uitsluitend de toepassing van deze beginselen in de huidige omstandigheden, zonder hiervan af te wijken.
+ te allen tijde van toepassing blijven en herinnert in die zin aan artikel 3:10 van het *koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen*: “*De waarderingen moeten voldoen aan de eisen van voorzichtigheid, oprechtheid en goede trouw*”. Onderhavig advies beoogt dan ook uitsluitend de toepassing van deze beginselen in de huidige omstandigheden, zonder hiervan af te wijken.
 
 ## Boekhoudkundige verwerking van COVID-19-tegemoetkomingen
 
@@ -66,11 +66,11 @@ Een onderneming krijgt van een deelstaat (Vlaams, Brussels of Waals Gewest) een 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 416 | Diverse vorderingen | 2.000 |  |
-| aan | 743 tot 749 | Diverse bedrijfsopbrengsten |  | 2.000 |
-|  | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 |  |
+| | 416 | Diverse vorderingen | 2.000 | |
+| aan | 743 tot 749 | Diverse bedrijfsopbrengsten | | 2.000 |
+| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |
 
-## Boekhoudkundige verwerking van kosten gemaakt ten gevolge van de gezondheidscrisis 
+## Boekhoudkundige verwerking van kosten gemaakt ten gevolge van de gezondheidscrisis 
 
 Om de hygiënematregelen te respecteren en de verspreiding van het coronavirus in te dijken, hebben ondernemingen materiaal aangekocht zoals mondmaskers, alcoholgel, plexiglas, enz.
 
@@ -87,15 +87,15 @@ Het bestuursorgaan zal voor de installatie van deze activa vervolgens een afschr
 ## Voorbeeld 2[^8]
 
 Een onderneming installeert een camera in haar vergaderzalen om de vergaderingen met klanten en medewerkers vanop afstand te kunnen houden en zo de hygiëne- en veiligheidsmaatregelen te respecteren. Deze investeringen worden gedaan vanuit duurzaamheidsoogpunt. De installatie[^9]
- kost 6.250 euro en wordt als volgt geboekt:
+ kost 6.250 euro en wordt als volgt geboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2300 | Installaties, machines en uitrusting | 6.250 |  |
-| aan | 440 | Leveranciers |  | 6.250 |
+| | 2300 | Installaties, machines en uitrusting | 6.250 | |
+| aan | 440 | Leveranciers | | 6.250 |
 
 Bovendien kunnen ondernemingen mogelijks te maken krijgen met aangerekende boetes of schadevergoedingen zoals bijvoorbeeld het betalen van een vertragingsvergoeding als gevolg van het niet naleven van de overeengekomen levertermijn. Deze boetes of schadevergoedingen worden ten laste van het resultaat geboekt via de rekening 643 tot 648 *Diverse bedrijfskoste*n of 664 tot 667 *Andere niet-recurrente bedrijfskosten* in het boekjaar waarin de schuldvordering ontstaat.[^10]
- Ze moeten gebeurlijk worden voorzien.[^11] 
+ Ze moeten gebeurlijk worden voorzien.[^11] 
 
 De verplichte sluiting heeft mogelijks tot gevolg dat ondernemingen een deel van hun voorraden niet langer kunnen gebruiken (bv. als gevolg van het overschrijden van de houdbaarheidsdatum op voedingsproducten). Dit vertaalt zich in de boekhouding via de volgende boekingen:
 
@@ -103,17 +103,17 @@ De verplichte sluiting heeft mogelijks tot gevolg dat ondernemingen een deel van
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 609/71 | Voorraadwijzigingen |  |  |
-| aan | 30/31/33/34 | Grondstoffen, hulpstoffen, gereed product, handelsgoederen: aanschaffingswaarde |  |  |
+| | 609/71 | Voorraadwijzigingen | | |
+| aan | 30/31/33/34 | Grondstoffen, hulpstoffen, gereed product, handelsgoederen: aanschaffingswaarde | | |
 
 - voor wat betreft de goederen in bewerking en de bestellingen in uitvoering: waardeverminderingen indien hun vervaardigingsprijs, vermeerderd met het geraamde bedrag van de nog te maken kosten, hoger is dan respectievelijk de nettoverkoopprijs of de in de overeenkomst bedongen prijs op de balansdatum: 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6310 | Waardeverminderingen op voorraden: toevoeging |  |  |
-|  | 632 | Waardeverminderingen op bestellingen in uitvoering |  |  |
-| aan | 329 | Goederen in bewerking: geboekte waardeverminderingen (-) |  |  |
-|  | 379 | Bestellingen in uitvoering: geboekte waardeverminderingen (-) |  |  |
+| | 6310 | Waardeverminderingen op voorraden: toevoeging | | |
+| | 632 | Waardeverminderingen op bestellingen in uitvoering | | |
+| aan | 329 | Goederen in bewerking: geboekte waardeverminderingen (-) | | |
+| | 379 | Bestellingen in uitvoering: geboekte waardeverminderingen (-) | | |
 
 Indien het bestuursorgaan van de onderneming oordeelt dat dit niet-recurrente kosten zijn, kunnen deze kosten zo nodig geboekt worden op een 664 tot 667 rekening.
 
@@ -121,18 +121,18 @@ Er worden tevens aanvullende waardeverminderingen geboekt op grond- en hulpstoff
 
 Voor de risico's en kosten verbonden aan de verdere uitvoering van de bestellingen in uitvoering worden voorzieningen gevormd voor zover deze risico's niet zijn gedekt door waardeverminderingen hiervoor vermeld.[^14] 
 
-De verplichte tijdelijke stopzetting van de activiteiten heeft voor bepaalde ondernemingen tot gevolg dat heel wat vaste activa (gebouwen, machines en materialen noodzakelijk voor het voeren van hun activiteit) gedurende een bepaalde periode niet worden gebruikt. Het getrouw beeld indachtig dringt mogelijks een aanpassing van de waarderingsregels van toepassing op dergelijke activa zich op. In die zin kunnen afschrijvingsplannen moeten worden aangepast[^15]. 
+De verplichte tijdelijke stopzetting van de activiteiten heeft voor bepaalde ondernemingen tot gevolg dat heel wat vaste activa (gebouwen, machines en materialen noodzakelijk voor het voeren van hun activiteit) gedurende een bepaalde periode niet worden gebruikt. Het getrouw beeld indachtig dringt mogelijks een aanpassing van de waarderingsregels van toepassing op dergelijke activa zich op. In die zin kunnen afschrijvingsplannen moeten worden aangepast[^15]. 
 
 Voorts wijst de Commissie erop dat kosten gemaakt in het kader van herstructurering onder de activa mogen worden opgenomen wanneer het gaat om welbepaalde kosten die verband houden met een ingrijpende wijziging in de structuur of de organisatie van een onderneming en die kosten ertoe strekken een gunstige en duurzame invloed te hebben op de rentabiliteit van de onderneming.[^16] 
 
-## Gevolgen voor indekkingsverrichtingen naar aanleiding van het wegvallen van onderliggende transacties die in vreemde valuta dienden te worden voldaan 
+## Gevolgen voor indekkingsverrichtingen naar aanleiding van het wegvallen van onderliggende transacties die in vreemde valuta dienden te worden voldaan 
 
 Tevens werd aan de Commissie de vraag gesteld naar de boekhoudkundige gevolgen wanneer, naar aanleiding van de huidige gezondheidscrisis, een onderliggende (reële) transactie niet plaatsvindt, waardoor de indekkingsverrichting een speculatieve verrichting wordt (wegens het wegvallen van de onderliggende (reële) verplichting tot betaling in vreemde valuta).
 
 De Commissie verwijst in dergelijk geval naar CBN-advies 2010/12 - *De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten*. Op grond van dit CBN-advies[^17]
- wordt gesteld dat het boekhoudkundig realisatiebeginsel (voorzichtigheidsbeginsel) *in beginsel* voorrang krijgt op het overeenstemmingsprincipe (matching), behalve in het bijzonder geval van een effectieve dekkingsverrichting (of gesloten positie) die de neutralisatie beoogt van prijsschommelingen en/of financiële stromen.
+ wordt gesteld dat het boekhoudkundig realisatiebeginsel (voorzichtigheidsbeginsel) *in beginsel* voorrang krijgt op het overeenstemmingsprincipe (matching), behalve in het bijzonder geval van een effectieve dekkingsverrichting (of gesloten positie) die de neutralisatie beoogt van prijsschommelingen en/of financiële stromen.
 
-Wanneer naar aanleiding van de huidige gezondheidscrisis een onderliggende (reële) transactie niet plaatsvindt, waardoor een indekkingsverrichting een speculatieve verrichting wordt, zal bij de boekhoudkundige verwerking het realisatiebeginsel opnieuw voorrang moeten krijgen op het overeenstemmingsprincipe. Zo nodig zal er voorzichtigheidshalve ook een kost moeten worden erkend indien de speculatieve verrichting een kost zal impliceren voor de onderneming. 
+Wanneer naar aanleiding van de huidige gezondheidscrisis een onderliggende (reële) transactie niet plaatsvindt, waardoor een indekkingsverrichting een speculatieve verrichting wordt, zal bij de boekhoudkundige verwerking het realisatiebeginsel opnieuw voorrang moeten krijgen op het overeenstemmingsprincipe. Zo nodig zal er voorzichtigheidshalve ook een kost moeten worden erkend indien de speculatieve verrichting een kost zal impliceren voor de onderneming. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 5 mei 2021 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

@@ -32,36 +32,36 @@ provenance:
 ## Algemeen
 
 In onderhavig advies wordt beoogd te verduidelijken op welke wijze een vennootschap de liquidatiereserve zoals bedoeld in artikel 184*quater* WIB 92[^2]
- (hierna: liquidatiereserve) en de daarbij horende, in artikel 219*quater* WIB 92, afzonderlijke aanslag moet boeken. De mogelijkheid om een liquidatiereserve aan te leggen, is voorbehouden voor vennootschappen die op grond van artikel 15 van het Wetboek van Vennootschappen als kleine vennootschap worden aangemerkt.[^3] 
+ (hierna: liquidatiereserve) en de daarbij horende, in artikel 219*quater* WIB 92, afzonderlijke aanslag moet boeken. De mogelijkheid om een liquidatiereserve aan te leggen, is voorbehouden voor vennootschappen die op grond van artikel 15 van het Wetboek van Vennootschappen als kleine vennootschap worden aangemerkt.[^3] 
 
 De liquidatiereserve wordt gevormd door een gedeelte of het geheel van de boekhoudkundige winst na belasting over te boeken naar één of meer afzonderlijke rekeningen van het passief. De Minister van Financiën heeft verduidelijkt dat met de boekhoudkundige winst na belasting wordt bedoeld: de te bestemmen winst van het boekjaar zoals vermeld bij code 9905 in de modellen van de jaarrekening van de Nationale Bank.[^4]
- In artikel 184*quater* wordt bepaald dat “[d]e liquidatiereserve moet op één of meer afzonderlijke rekeningen van het passief worden geboekt en blijven en mag niet tot grondslag dienen voor enige beloning of toekenning. Indien een gedeelte van de liquidatiereserve wordt aangetast, worden de oudst gevormde reserves geacht eerst te zijn aangetast.”[^5] 
+ In artikel 184*quater* wordt bepaald dat “[d]e liquidatiereserve moet op één of meer afzonderlijke rekeningen van het passief worden geboekt en blijven en mag niet tot grondslag dienen voor enige beloning of toekenning. Indien een gedeelte van de liquidatiereserve wordt aangetast, worden de oudst gevormde reserves geacht eerst te zijn aangetast.”[^5] 
 
 Voor het belastbaar tijdperk waarin een liquidatiereserve wordt aangelegd, wordt een afzonderlijke aanslag gevestigd van tien procent op de tijdens het belastbaar tijdperk aangelegde liquidatiereserve (hierna: afzonderlijke aanslag). De afzonderlijke aanslag staat los van, en komt in voorkomend geval bovenop andere aanslagen die overeenkomstig andere bepalingen van het WIB 92 of in uitvoering van bijzondere wetsbepalingen verschuldigd zijn.[^6]
- De afzonderlijke aanslag wordt ingekohierd samen met de vennootschapsbelasting.
+ De afzonderlijke aanslag wordt ingekohierd samen met de vennootschapsbelasting.
 
 ## Boekhoudkundige verwerking
 
 ### Boeking van de afzonderlijke aanslag
 
 De balans wordt opgesteld na toewijzing, dit wil zeggen rekening houdend met de beslissingen tot besteding van de resultatenrekening en van het overgedragen resultaat.[^7]
- Bijgevolg is de Commissie van mening dat de afzonderlijke aanslag moet worden geboekt bij de eindejaarsverrichtingen op inventarisdatum en deze boeking niet mag worden uitgesteld tot het volgende boekjaar. De Commissie adviseert om deze afzonderlijke aanslag te boeken op een afzonderlijke subrekening van de rekening 6702 *Geraamde belastingen*.[^8] 
+ Bijgevolg is de Commissie van mening dat de afzonderlijke aanslag moet worden geboekt bij de eindejaarsverrichtingen op inventarisdatum en deze boeking niet mag worden uitgesteld tot het volgende boekjaar. De Commissie adviseert om deze afzonderlijke aanslag te boeken op een afzonderlijke subrekening van de rekening 6702 *Geraamde belastingen*.[^8] 
 
 ### Vorming van de liquidatiereserve
 
 De liquidatiereserve wordt opgebouwd door een gedeelte of het geheel van de boekhoudkundige winst na belasting te boeken naar één of meerdere afzonderlijke rekeningen van het passief.
 
 De jaarrekening (waaronder de balans) wordt opgemaakt door en onder de verantwoordelijkheid van het bestuursorgaan, dat de jaarrekening ter goedkeuring moet voorleggen aan de algemene vergadering.[^9]
- De algemene vergadering kan de jaarrekening goed- of afkeuren, maar kan ze zelf niet wijzigen, tenzij dan de resultaatverwerking.
+ De algemene vergadering kan de jaarrekening goed- of afkeuren, maar kan ze zelf niet wijzigen, tenzij dan de resultaatverwerking.
 
 Wanneer wordt beslist om de in artikel 184*quater* WIB 92 vermelde regeling toe te passen, moet eerst worden bepaald welk bedrag zal worden bestemd als liquidatiereserve.
 
 Boekhoudkundig zal bij de resultaatverwerking eerst de aanleg van de liquidatiereserve worden geboekt. Deze voorafgaande bestemming en boeking zijn noodzakelijk, gelet op de mogelijkheid die op fiscaal vlak wordt geboden om de volledige winst van het boekjaar na belasting aan te merken als liquidatiereserve, zelfs in het geval er sprake is van een overgedragen verlies uit voorgaande boekjaren.[^10]
- Bij de bestemming van het resultaat moet uiteraard ook rekening worden gehouden met de wettelijke[^11]
- en de eventuele statutaire verplichtingen.
+ Bij de bestemming van het resultaat moet uiteraard ook rekening worden gehouden met de wettelijke[^11]
+ en de eventuele statutaire verplichtingen.
 
 De Commissie beveelt aan om de liquidatiereserve op afzonderlijke subrekeningen te boeken per jaar van aanleg van de liquidatiereserve. Indien een gedeelte van de liquidatiereserve immers wordt aangetast, worden de oudst gevormde reserves geacht eerst te zijn aangetast.[^12]
- Het tarief van de te hanteren roerende voorheffing bij een eventuele uitkering is verschillend naargelang de aangetaste liquidatiereserve al dan niet ouder is dan 5 jaar.[^13] 
+ Het tarief van de te hanteren roerende voorheffing bij een eventuele uitkering is verschillend naargelang de aangetaste liquidatiereserve al dan niet ouder is dan 5 jaar.[^13] 
 
 De Commissie beveelt aan dat de onderneming in haar jaarrekening toelichting geeft over de toestand van de liquidatiereserves en over de ouderdom van de deze reserves.
 
@@ -91,31 +91,31 @@ Het resterende saldo van (1.610 – 1.200 – 65,5) = 344,5 wordt overgedragen n
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6702X | Geraamde belastingen | 120 |  |
-| aan | 450 | Geraamd bedrag der belastingschulden |  | 120 |
+| | 6702X | Geraamde belastingen | 120 | |
+| aan | 450 | Geraamd bedrag der belastingschulden | | 120 |
 
 **Boeking van de liquidatiereserve**
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6921 | Toevoeging aan de overige reserves | 1.200 |  |
-| aan | 133X | Beschikbare reserves – artikel 184quater WIB 92 (31/12/N) |  | 1.200 |
+| | 6921 | Toevoeging aan de overige reserves | 1.200 | |
+| aan | 133X | Beschikbare reserves – artikel 184quater WIB 92 (31/12/N) | | 1.200 |
 
 **Boeking van de overgedragen winst uit het voorgaande boekjaar**
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 14 | Overgedragen winst | 300 |  |
-| aan | 790 | Overgedragen winst van het vorige boekjaar |  | 300 |
+| | 14 | Overgedragen winst | 300 | |
+| aan | 790 | Overgedragen winst van het vorige boekjaar | | 300 |
 
 **Boeking van het te bestemmen resultaat na voorafgaande toewijzing aan de liquidatiereserve**
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6920 | Toevoeging aan de wettelijke reserve | 65,5 |  |
-|  | 693 | Over te dragen winst | 344,5 |  |
-| aan | 130 | Wettelijke reserves |  | 65,5 |
-|  | 14 | Overgedragen winst | 344,5 |  |
+| | 6920 | Toevoeging aan de wettelijke reserve | 65,5 | |
+| | 693 | Over te dragen winst | 344,5 | |
+| aan | 130 | Wettelijke reserves | | 65,5 |
+| | 14 | Overgedragen winst | 344,5 | |
 
 *Latere uitkering van de liquidatiereserve*
 
@@ -125,8 +125,8 @@ Wanneer de vennootschap in een later boekjaar beslist om de liquidatiereserve vo
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 133X | Beschikbare reserves – artikel 184quater WIB 92 (31/12/N) | 1.200 |  |
-| aan | 792 | Onttrekking aan de reserves |  | 1200 |
+| | 133X | Beschikbare reserves – artikel 184quater WIB 92 (31/12/N) | 1.200 | |
+| aan | 792 | Onttrekking aan de reserves | | 1200 |
 
 **Boeking bij toekenning of betaalbaarstelling**
 
@@ -134,9 +134,9 @@ Wanneer de vennootschap in een later boekjaar beslist om de liquidatiereserve vo
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 694 | Vergoeding van het kapitaal | 1.200 |  |
-| aan | 470 | Dividenden en tantièmes over vorige boekjaren |  | 1.140 |
-|  | 453 | Ingehouden voorheffingen | 60 |  |
+| | 694 | Vergoeding van het kapitaal | 1.200 | |
+| aan | 470 | Dividenden en tantièmes over vorige boekjaren | | 1.140 |
+| | 453 | Ingehouden voorheffingen | 60 | |
 
 Wanneer de liquidatiereserve wordt verdeeld ten gevolge van de ontbinding van de vennootschap moet geen roerende voorheffing worden ingehouden.[^15] 
 
@@ -151,8 +151,8 @@ Tijdens het boekjaar (balansdatum 31/12/N) behaalde de vennootschap een winst va
 De belastingen op winst van het boekjaar, exclusief de afzonderlijke aanslag, worden geraamd op 570.
 
 Er wordt beslist om het volledige bedrag van de te bestemmen winst[^16]
- van het boekjaar[^17]
- over te boeken als liquidatiereserve naar één of meerdere rekeningen van het passief.
+ van het boekjaar[^17]
+ over te boeken als liquidatiereserve naar één of meerdere rekeningen van het passief.
 
 De afzonderlijke aanslag bedraagt 10/110 x (2.000 – 570) = 130.
 
@@ -166,8 +166,8 @@ Het bedrag van de liquidatiereserve bedraagt: 2.000 - 570 - 130 = 1.300.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6702X | Geraamde belastingen | 130 |  |
-| aan | 450 | Geraamd bedrag der belastingschulden |  | 130 |
+| | 6702X | Geraamde belastingen | 130 | |
+| aan | 450 | Geraamd bedrag der belastingschulden | | 130 |
 
 **Boeking van de liquidatiereserve**
 
@@ -175,28 +175,28 @@ Het bedrag van de liquidatiereserve bedraagt: 2.000 - 570 - 130 = 1.300.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6920 | Toevoeging aan de wettelijke reserve | 40 |  |
-|  | 6921 | Toevoeging aan de overige reserves | 1.260 |  |
+| | 6920 | Toevoeging aan de wettelijke reserve | 40 | |
+| | 6921 | Toevoeging aan de overige reserves | 1.260 | |
 | aan | 130X | Wettelijke reserve – artikel 184quater WIB 92
- (31/12/N) |  | 40 |
-|  | 133X | Beschikbare reserves – artikel 184quater WIB 92 (31/12/N) | 1.260 |  |
+ (31/12/N) | | 40 |
+| | 133X | Beschikbare reserves – artikel 184quater WIB 92 (31/12/N) | 1.260 | |
 
 **Boeking van het overgedragen verlies uit het voorgaande boekjaar**
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 690 | Overgedragen verlies van het vorige boekjaar | 500 |  |
-| aan | 14 | Overgedragen verlies |  | 500 |
+| | 690 | Overgedragen verlies van het vorige boekjaar | 500 | |
+| aan | 14 | Overgedragen verlies | | 500 |
 
 **Boeking van het te bestemmen resultaat na voorafgaande toewijzing aan de liquidatiereserve**
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 14 | Overgedragen verlies | 500 |  |
-| aan | 793 | Over te dragen verlies |  | 500 |
+| | 14 | Overgedragen verlies | 500 | |
+| aan | 793 | Over te dragen verlies | | 500 |
 
 De Commissie wenst te benadrukken dat bij een eventuele latere uitkering van deze liquidatiereserve rekening moet worden gehouden met de wettelijke beperkingen[^20]
- die gelden met betrekking tot de uitkeerbaarheid van winsten.
+ die gelden met betrekking tot de uitkeerbaarheid van winsten.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 5 maart 2015 ter consultatie werd gepubliceerd op de website van de CBN.
 

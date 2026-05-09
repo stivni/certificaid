@@ -39,24 +39,24 @@ gerelateerde_adviezen:
 
 # CBN-advies 2019/09 – Boekhoudplichtige onderneming
 
-1.  Algemeen  
-2.  Wettelijke definities 
-  1.  Onderneming – algemene definitie  
-  2.  Boekhoudplichtige onderneming  
+1. Algemeen 
+2. Wettelijke definities 
+  1. Onderneming – algemene definitie 
+  2. Boekhoudplichtige onderneming 
 
-3.  Verduidelijking van het begrip boekhoudplichtige onderneming 
-  1.  Natuurlijke persoon die zelfstandig een beroepsactiviteit uitoefent  
-  2.  Rechtspersonen naar Belgisch recht  
-  3.  Organisaties zonder rechtspersoonlijkheid  
-  4.  Bijkantoren   
+3. Verduidelijking van het begrip boekhoudplichtige onderneming 
+  1. Natuurlijke persoon die zelfstandig een beroepsactiviteit uitoefent 
+  2. Rechtspersonen naar Belgisch recht 
+  3. Organisaties zonder rechtspersoonlijkheid 
+  4. Bijkantoren 
 
-4.  Inwerkingtreding – overgangsbepalingen
+4. Inwerkingtreding – overgangsbepalingen
 
-  1.  Nieuwe onderneming   
-  2.  Bestaande onderneming – voorheen niet onderworpen  
-  3.  Bestaande onderneming – voorheen onderworpen  
+  1. Nieuwe onderneming 
+  2. Bestaande onderneming – voorheen niet onderworpen 
+  3. Bestaande onderneming – voorheen onderworpen 
 
--- Nieuwe onderneming -- Bestaande onderneming – voorheen niet onderworpen-- Bestaande onderneming – voorheen onderworpen  
+-- Nieuwe onderneming -- Bestaande onderneming – voorheen niet onderworpen-- Bestaande onderneming – voorheen onderworpen 
 
 ## Algemeen
 
@@ -65,17 +65,17 @@ Met de Wet van 15 april 2018 houdende hervorming van het ondernemingsrecht werd 
 De Commissie wenst in het bijzonder onder de aandacht te brengen dat de houders van een vrij beroep voortaan ook worden aangemerkt als boekhoudplichtige ondernemingen en aldus onderworpen worden aan de boekhoudkundige verplichtingen van het WER.
 
 In onderhavig advies verduidelijkt de Commissie wie aangemerkt wordt als een *boekhoudplichtige onderneming* zoals gedefinieerd[^2]
- in het WER en vanaf wanneer deze worden onderworpen aan de boekhoudkundige verplichtingen van het WER. Voormelde wet van 15 april 2018 voorziet immers in een ruime overgangsperiode voor bestaande organisaties die vanaf 1 november 2018 worden aangemerkt als boekhoudplichtige ondernemingen en tot op dat ogenblik niet onderworpen waren aan de boekhoudkundige verplichtingen vermeld in Hoofdstuk 2, Titel 3 van Boek III WER.[^3] 
+ in het WER en vanaf wanneer deze worden onderworpen aan de boekhoudkundige verplichtingen van het WER. Voormelde wet van 15 april 2018 voorziet immers in een ruime overgangsperiode voor bestaande organisaties die vanaf 1 november 2018 worden aangemerkt als boekhoudplichtige ondernemingen en tot op dat ogenblik niet onderworpen waren aan de boekhoudkundige verplichtingen vermeld in Hoofdstuk 2, Titel 3 van Boek III WER.[^3] 
 
 Iedere *boekhoudplichtige onderneming* onderworpen aan de boekhoudkundige verplichtingen vermeld in Hoofdstuk 2, Titel 3 van Boek III WER moet een voor de aard en de omvang van haar bedrijf passende boekhouding voeren waarbij deze de bijzondere wetsvoorschriften betreffende dat bedrijf in acht neemt.[^4]
- Een verduidelijking van de wijze waarop de respectievelijke boekhoudplichtige ondernemingen hun boekhouding moeten voeren, zal het voorwerp uitmaken van afzonderlijke adviezen.
+ Een verduidelijking van de wijze waarop de respectievelijke boekhoudplichtige ondernemingen hun boekhouding moeten voeren, zal het voorwerp uitmaken van afzonderlijke adviezen.
 
 ## Wettelijke definities
 
 ### Onderneming – algemene definitie
 
 Voor de toepassing van het WER[^5]
- wordt elk van volgende organisaties, behoudens andersluidende bepaling, aangemerkt als onderneming:
+ wordt elk van volgende organisaties, behoudens andersluidende bepaling, aangemerkt als onderneming:
 
 - (a) iedere natuurlijke persoon die zelfstandig een beroepsactiviteit uitoefent; 
 - (b) iedere rechtspersoon; 
@@ -90,7 +90,7 @@ Niettegenstaande het voorgaande zijn geen ondernemingen, behoudens voor zover an
 ### Boekhoudplichtige onderneming
 
 Het WER definieert[^6]
- een boekhoudplichtige onderneming als “*een onderneming in de zin van artikel III.82 WER*”.
+ een boekhoudplichtige onderneming als “*een onderneming in de zin van artikel III.82 WER*”.
 
 Luidens artikel III.82, § 1 WER zijn de volgende ondernemingen boekhoudplichtig:
 
@@ -128,22 +128,22 @@ Hierna volgt een verduidelijking van de frequentst voorkomende boekhoudplichtige
 
 ### Natuurlijke persoon die zelfstandig een beroepsactiviteit uitoefent
 
-Iedere natuurlijke persoon die zelfstandig een beroepsactiviteit uitoefent in België is een boekhoudplichtige onderneming. 
+Iedere natuurlijke persoon die zelfstandig een beroepsactiviteit uitoefent in België is een boekhoudplichtige onderneming. 
 
-Het begrip “zelfstandig” is de tegenpool van “in dienstverband” (het onderscheid tussen een zelfstandige en een werknemer) en behoeft geen verdere verduidelijking. Het begrip ‘beroepsactiviteit’ zal in een aantal gevallen niet zo eenduidig afgebakend zijn. Het begrip beroepsactiviteit houdt inherent in dat er sprake is van enige duurzaamheid in de uitgeoefende activiteiten. 
+Het begrip “zelfstandig” is de tegenpool van “in dienstverband” (het onderscheid tussen een zelfstandige en een werknemer) en behoeft geen verdere verduidelijking. Het begrip ‘beroepsactiviteit’ zal in een aantal gevallen niet zo eenduidig afgebakend zijn. Het begrip beroepsactiviteit houdt inherent in dat er sprake is van enige duurzaamheid in de uitgeoefende activiteiten. 
 
 Voortaan worden dus ook de artsen, advocaten, accountants, verplegers, kinesisten, notarissen en alle andere beoefenaars van een vrij beroep die werken buiten een vennootschap, aangemerkt als boekhoudplichtige ondernemingen.
 
 Niet elke activiteit van een natuurlijke persoon valt echter onder het ondernemingsbegrip. De wetgever[^11]
- geeft als voorbeeld de activiteit die louter kadert in het normale beheer van het persoonlijk vermogen van een natuurlijke persoon. De loutere inschrijving op, verwerving van of aanhouden van aandelen, effecten of deelbewijzen in een vennootschap met rechtspersoonlijkheid door een natuurlijke persoon wordt vermoed te kaderen in het normale beheer van zijn persoonlijk vermogen. Ook duurzame activiteiten in het kader van de deeleconomie worden door de algemene definitie van het ondernemingsbegrip gevat in de mate dat ze een beroepsactiviteit uitmaken. In de mate een activiteit in de deeleconomie bestaat uit een netwerk dat vraag en aanbod bij elkaar brengt om onderbenutte goederen en diensten te ontsluiten en dat hieruit geen inkomen wordt nagestreefd, zal er geen sprake zijn van een beroepsactiviteit, en dus ook niet van een onderneming.[^12] 
+ geeft als voorbeeld de activiteit die louter kadert in het normale beheer van het persoonlijk vermogen van een natuurlijke persoon. De loutere inschrijving op, verwerving van of aanhouden van aandelen, effecten of deelbewijzen in een vennootschap met rechtspersoonlijkheid door een natuurlijke persoon wordt vermoed te kaderen in het normale beheer van zijn persoonlijk vermogen. Ook duurzame activiteiten in het kader van de deeleconomie worden door de algemene definitie van het ondernemingsbegrip gevat in de mate dat ze een beroepsactiviteit uitmaken. In de mate een activiteit in de deeleconomie bestaat uit een netwerk dat vraag en aanbod bij elkaar brengt om onderbenutte goederen en diensten te ontsluiten en dat hieruit geen inkomen wordt nagestreefd, zal er geen sprake zijn van een beroepsactiviteit, en dus ook niet van een onderneming.[^12] 
 
-Een natuurlijke persoon die uitsluitend in het buitenland zelfstandige beroepsactiviteiten uitoefent is geen boekhoudplichtige onderneming. Dit volgt uit de expliciete vermelding van de woorden ‘in België’ in artikel III. 82, § 1, eerste lid WER. Voorbeeld: een natuurlijke persoon die in België woont en als bediende werkt bij een Belgische onderneming en daarnaast een zelfstandige beroepsactiviteit uitoefent in het buitenland maar geen zelfstandige beroepsactiviteit uitoefent in België, is geen  boekhoudplichtige onderneming naar Belgisch recht.
+Een natuurlijke persoon die uitsluitend in het buitenland zelfstandige beroepsactiviteiten uitoefent is geen boekhoudplichtige onderneming. Dit volgt uit de expliciete vermelding van de woorden ‘in België’ in artikel III. 82, § 1, eerste lid WER. Voorbeeld: een natuurlijke persoon die in België woont en als bediende werkt bij een Belgische onderneming en daarnaast een zelfstandige beroepsactiviteit uitoefent in het buitenland maar geen zelfstandige beroepsactiviteit uitoefent in België, is geen boekhoudplichtige onderneming naar Belgisch recht.
 
-Natuurlijke personen van wie de zelfstandige beroepsactiviteit bestaat uit de volgende activiteiten worden evenwel expliciet niet aangemerkt als boekhoudplichtige onderneming: 
+Natuurlijke personen van wie de zelfstandige beroepsactiviteit bestaat uit de volgende activiteiten worden evenwel expliciet niet aangemerkt als boekhoudplichtige onderneming: 
 
 - het uitoefenen van één of meerdere bestuursmandaten; Onder bestuursmandaten worden de bestuursmandaten in de ruime zin beoogd. Bijvoorbeeld: de bestuurders en mandatarissen met een gelijkaardige functie zoals zaakvoerders, vaste vertegenwoordigers van een rechtspersoon-bestuurder, leden van een directiecomité of een dagelijks bestuur[^13]. 
 - de exploitatie van een land- of tuinbouwbedrijf; 
-- het leveren van diensten aan particulieren via een erkend elektronisch platform voor zover deze inkomsten fiscaal niet worden aangemerkt als een beroepsinkomen (de zogenaamde deeleconomie[^14]).  
+- het leveren van diensten aan particulieren via een erkend elektronisch platform voor zover deze inkomsten fiscaal niet worden aangemerkt als een beroepsinkomen (de zogenaamde deeleconomie[^14]). 
 
 ### Rechtspersonen naar Belgisch recht
 
@@ -159,7 +159,7 @@ Wat betreft de hiervoor vermelde gelijkwaardigheid van de boekhoudverplichtingen
 ### Organisaties zonder rechtspersoonlijkheid
 
 Zoals reeds hoger vermeld zijn niet alle organisaties zonder rechtspersoonlijkheid aan te merken als een onderneming in de zin van de algemene ondernemingsdefinitie. Indien een organisatie zonder rechtspersoonlijkheid bijvoorbeeld geen uitkeringsoogmerk heeft, en ook in de feiten geen uitkeringen verricht aan haar leden of aan personen die een beslissende invloed uitoefenen op het beleid van de organisatie, is zij niet aan te merken als een onderneming in de zin van de algemene ondernemingsdefinitie. Bijgevolg is zij evenmin is aan te merken als een boekhoudplichtige onderneming. De Commissie merkt hierbij op dat iedere vennootschap naar Belgisch recht geacht wordt een uitkeringsoogmerk te hebben[^16]. Dit geldt niet alleen voor de vennootschappen met rechtspersoonlijkheid maar ook voor deze zonder rechtspersoonlijkheid. De meest gekende vennootschappen zonder rechtspersoonlijkheid zijn de maatschappen met inbegrip van de stille maatschappen[^17]
- en de tijdelijke maatschappen[^18].
+ en de tijdelijke maatschappen[^18].
 
 Volgende organisaties zonder rechtspersoonlijkheid zijn niet boekhoudplichtig:
 
@@ -169,18 +169,18 @@ Volgende organisaties zonder rechtspersoonlijkheid zijn niet boekhoudplichtig:
 Wat betreft de organisaties zonder rechtspersoonlijkheid wordt een onderscheid gemaakt tussen de organisaties zonder rechtspersoonlijkheid die opgericht zijn naar Belgisch recht en de organisaties zonder rechtspersoonlijkheid die opgericht zijn naar buitenlands recht. De organisaties zonder rechtspersoonlijkheid opgericht naar een buitenlands recht zijn uitsluitend boekhoudplichtig voor wat betreft de Belgische bijkantoren. De organisaties zonder rechtspersoonlijkheid opgericht naar Belgisch recht zijn, in principe, aan te merken als boekhoudplichtige ondernemingen.
 
 De maten van een organisatie zonder rechtspersoonlijkheid kunnen[^19]
- zelf ook een boekhoudplichtige onderneming zijn. De boekhoudkundige verwerking van de verrichtingen van een organisatie zonder rechtspersoonlijkheid zal het voorwerp uitmaken van een afzonderlijk advies.
+ zelf ook een boekhoudplichtige onderneming zijn. De boekhoudkundige verwerking van de verrichtingen van een organisatie zonder rechtspersoonlijkheid zal het voorwerp uitmaken van een afzonderlijk advies.
 
-### Bijkantoren 
+### Bijkantoren 
 
 Een onderneming opgericht naar buitenlands recht met één of meer bijkantoren in België, wordt aangemerkt als een boekhoudplichtige onderneming met dien verstande dat de boekhoudkundige verplichtingen van het WER alleen van toepassing zijn op hun in België gevestigde bijkantoren. Hun gezamenlijke bijkantoren in België worden als één boekhoudplichtige onderneming aangemerkt.
 
 ## Inwerkingtreding – overgangsbepalingen[^20] 
 
 De Wet van 15 april 2018 houdende hervorming van het ondernemingsrecht introduceert een definitie van het begrip boekhoudplichtige onderneming. Deze nieuwe definitie geldt vanaf 1 november 2018.[^21]
- De herdefiniëring van het algemene ondernemingsbegrip en de introductie van het nieuwe begrip boekhoudplichtige onderneming, heeft een belangrijke verruiming tot gevolg van de personen, lichamen en organisaties die onderworpen zijn aan de boekhoudverplichtingen vermeld in het WER. Hoewel de meeste personen, lichamen en organisaties die onder de verruimde definitie van een boekhoudplichtige onderneming vallen en voorheen niet onderworpen waren aan de boekhoudverplichtingen vermeld in het WER, reeds op één of andere wijze hun verrichtingen registreerden of moesten registreren (met name hoofdzakelijk ter naleving van diverse fiscale regelgeving), heeft de wetgever voorzien in een ruime overgangsbepaling om de voorheen toegepaste boekhoudkundige registratiemethode te aligneren met de boekhoudkundige verplichtingen opgenomen in het WER en de bijhorende uitvoeringsbesluiten. Het tijdstip vanaf wanneer een boekhoudplichtige onderneming onderworpen wordt aan de boekhoudkundige verplichtingen bepaald in Boek III, Titel 3, Hoofstuk 2 van het WER, wordt hieronder verduidelijkt.
+ De herdefiniëring van het algemene ondernemingsbegrip en de introductie van het nieuwe begrip boekhoudplichtige onderneming, heeft een belangrijke verruiming tot gevolg van de personen, lichamen en organisaties die onderworpen zijn aan de boekhoudverplichtingen vermeld in het WER. Hoewel de meeste personen, lichamen en organisaties die onder de verruimde definitie van een boekhoudplichtige onderneming vallen en voorheen niet onderworpen waren aan de boekhoudverplichtingen vermeld in het WER, reeds op één of andere wijze hun verrichtingen registreerden of moesten registreren (met name hoofdzakelijk ter naleving van diverse fiscale regelgeving), heeft de wetgever voorzien in een ruime overgangsbepaling om de voorheen toegepaste boekhoudkundige registratiemethode te aligneren met de boekhoudkundige verplichtingen opgenomen in het WER en de bijhorende uitvoeringsbesluiten. Het tijdstip vanaf wanneer een boekhoudplichtige onderneming onderworpen wordt aan de boekhoudkundige verplichtingen bepaald in Boek III, Titel 3, Hoofstuk 2 van het WER, wordt hieronder verduidelijkt.
 
-### Nieuwe onderneming 
+### Nieuwe onderneming 
 
 Een boekhoudplichtige onderneming die start op 1 november 2018 of op een latere datum is vanaf haar aanvang onderworpen aan de boekhoudkundige verplichtingen vermeld in het WER.[^22] 
 

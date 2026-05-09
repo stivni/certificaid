@@ -60,17 +60,17 @@ De omzettingsprocedure houdt onder meer in dat het bestuursorgaan een staat van 
 
 - mag maximaal drie maanden oud zijn[^5]; 
 - waardeert de bezittingen en schulden[^6]
- tegen werkelijke waarde[^7]; 
+ tegen werkelijke waarde[^7]; 
 - moet vergezeld zijn van een verslag van de commissaris van de VZW of, als er geen commissaris is, een door het bestuursorgaan aangewezen bedrijfsrevisor of gecertificeerd accountant waarin wordt aangegeven of er een overwaardering van het nettoactief heeft plaatsgehad. 
 
 Het nettoactief van de VZW zoals dat blijkt uit voormelde staat van activa en passiva moet in de jaarrekening van de CV worden uitgedrukt en moet op een onbeschikbare reserverekening worden geboekt[^8]. Bij een latere vereffening moet aan het eventuele batige saldo een bestemming worden gegeven die zo nauw mogelijk aansluit bij het voorwerp van de CV als erkende sociale onderneming.[^9]
-  Deze onbeschikbare reserve kan, gelet op haar oorsprong, niet bij beslissing tot statutenwijziging beschikbaar worden gemaakt.[^10] De onbeschikbaarheid van het nettoactief op de datum van de omzetting is als het ware een klem die op het vermogen wordt geplaatst. De wetgever wil hiermee beletten dat eenmaal de VZW vennootschap is geworden dit vermogen, opgebouwd binnen de VZW, zou worden uitgekeerd.
+  Deze onbeschikbare reserve kan, gelet op haar oorsprong, niet bij beslissing tot statutenwijziging beschikbaar worden gemaakt.[^10] De onbeschikbaarheid van het nettoactief op de datum van de omzetting is als het ware een klem die op het vermogen wordt geplaatst. De wetgever wil hiermee beletten dat eenmaal de VZW vennootschap is geworden dit vermogen, opgebouwd binnen de VZW, zou worden uitgekeerd.
 
 ## Boekhoudkundige verwerking
 
-Zoals hiervoor beschreven, worden de actief- en passiefbestanddelen van de rechtspersoon in de staat van activa en passiva gewaardeerd tegen hun werkelijke waarde. Het identificeren van het nettoactief van de VZW vereist de boeking van het geheel van activa en passiva tegen deze werkelijke waarde naar aanleiding van de omzetting in een coöperatieve vennootschap. De naleving van de door artikel 3:35, § 1, eerste lid  van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) opgelegde vereisten is, gelet op de duidelijke bewoordingen van artikel 14:42 WVV, hier niet aan de orde. Er is aldus geen reden om de rentabiliteitsvoorwaarde toe te passen, noch om deze herwaarderingsmeerwaarden te beperken tot herwaardeerbare activa zoals gedefinieerd door het KB WVV. Dit impliceert dat ook activa die in beginsel niet kunnen worden geherwaardeerd (bijvoorbeeld geldbeleggingen), naar aanleiding van de omzetting eveneens moeten worden gewaardeerd tegen werkelijke waarde.[^11] 
+Zoals hiervoor beschreven, worden de actief- en passiefbestanddelen van de rechtspersoon in de staat van activa en passiva gewaardeerd tegen hun werkelijke waarde. Het identificeren van het nettoactief van de VZW vereist de boeking van het geheel van activa en passiva tegen deze werkelijke waarde naar aanleiding van de omzetting in een coöperatieve vennootschap. De naleving van de door artikel 3:35, § 1, eerste lid van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) opgelegde vereisten is, gelet op de duidelijke bewoordingen van artikel 14:42 WVV, hier niet aan de orde. Er is aldus geen reden om de rentabiliteitsvoorwaarde toe te passen, noch om deze herwaarderingsmeerwaarden te beperken tot herwaardeerbare activa zoals gedefinieerd door het KB WVV. Dit impliceert dat ook activa die in beginsel niet kunnen worden geherwaardeerd (bijvoorbeeld geldbeleggingen), naar aanleiding van de omzetting eveneens moeten worden gewaardeerd tegen werkelijke waarde.[^11] 
 
-Dit heeft een dubbel gevolg. Enerzijds, doordat de omzetting plaatsvindt in juridische continuïteit, wijzigt de aanschaffingswaarde van de bezittingen/actiefbestanddelen niet en dient deze aanschaffingswaarde[^12] dan ook tot uiting te komen in de boekhouding van de rechtspersoon. De eventuele latente meerwaarde die tot uitdrukking wordt gebracht, wordt op een afzonderlijke subrekening van het betrokken actiefbestanddeel geboekt[^13]. Anderzijds bevat artikel 3:79 KB WVV de verplichting om deze latente meerwaarden die betrekking hebben op vaste activa met beperkte gebruiksduur, af te schrijven volgens een overeenkomstig artikel 3:6, § 1 KB WVV opgemaakt plan dat ertoe strekt de vastgestelde waarde af te schrijven over de vermoedelijke residuele gebruiksduur van de betrokken activa. 
+Dit heeft een dubbel gevolg. Enerzijds, doordat de omzetting plaatsvindt in juridische continuïteit, wijzigt de aanschaffingswaarde van de bezittingen/actiefbestanddelen niet en dient deze aanschaffingswaarde[^12] dan ook tot uiting te komen in de boekhouding van de rechtspersoon. De eventuele latente meerwaarde die tot uitdrukking wordt gebracht, wordt op een afzonderlijke subrekening van het betrokken actiefbestanddeel geboekt[^13]. Anderzijds bevat artikel 3:79 KB WVV de verplichting om deze latente meerwaarden die betrekking hebben op vaste activa met beperkte gebruiksduur, af te schrijven volgens een overeenkomstig artikel 3:6, § 1 KB WVV opgemaakt plan dat ertoe strekt de vastgestelde waarde af te schrijven over de vermoedelijke residuele gebruiksduur van de betrokken activa. 
 
 Omwille van de uitdrukkelijke verwoording in het WVV dat de werkelijke waarde van het nettoactief van de VZW op het ogenblik van haar omzetting niet aan de aandeelhouders mag worden terugbetaald of uitgekeerd, in welke vorm dan ook[^14], is de Commissie van mening dat deze onbeschikbare reserve niet kan worden aangewend om verliezen boekhoudkundig aan te zuiveren.[^15] 
 
@@ -80,25 +80,25 @@ De Commissie vestigt er tevens de aandacht op dat alle activa dienen gewaardeerd
 
 ## Voorbeelden
 
-### Materiële vaste activa   
+### Materiële vaste activa 
 
 Een gebouw is reeds tien jaar in het bezit van een VZW[^16] op het ogenblik van de omzetting van deze VZW in een erkende CVSO. De aanschaffingswaarde van dit gebouw in hoofde van de VZW bedraagt 990.000 euro. De VZW heeft tot aan de omzetting 300.000 euro afschrijvingen geboekt op dit gebouw. De (netto) boekwaarde van het gebouw bedraagt aldus bij de omzetting 690.000 euro. De werkelijke waarde van het gebouw bedraagt op dat moment 1.200.000 euro. Naast dit gebouw bezit de VZW liquide middelen op een bankrekening voor een bedrag van 100.000 euro. De VZW is eveneens handelsschulden verschuldigd ter waarde van 200.000 euro. In het voorbeeld wordt er eenvoudigheidshalve van uitgegaan dat de VZW haar vermogen volledig zelf heeft opgebouwd zonder een beginvermogen.
 
-| Balans vóór omzetting[^17]  | 
-| 2210.0 Gebouwen: aanschaffingswaarde | | 990.000 | | 14 Overgedragen resultaat  | | 590.000 | 
+| Balans vóór omzetting[^17] | 
+| 2210.0 Gebouwen: aanschaffingswaarde | | 990.000 | | 14 Overgedragen resultaat | | 590.000 | 
 | 2210.9 Gebouwen: geboekte afschrijvingen | | (300.000) | | 44 Handelsschulden | | 200.000 | 
-| 5500 Kredietinstellingen: rekening-courant | | 100.000 | |   | |   | 
-|   | |  790.000 | |   | | 790.000 | 
+| 5500 Kredietinstellingen: rekening-courant | | 100.000 | | | | | 
+| | | 790.000 | | | | 790.000 | 
 
 Op het ogenblik van de omzetting is het gebouw 510.000 euro meer waard dan de uitgedrukte boekwaarde. Dit bedrag van 510.000 euro wordt op een afzonderlijke subrekening van het betreffende actief tot uitdrukking gebracht. Naar aanleiding van de omzetting van de VZW in een erkende CVSO wordt in toepassing van artikel 14:42 WVV een bedrag van 1.100.000[^18]
- euro op een onbeschikbare reserverekening geboekt.[^19] 
+ euro op een onbeschikbare reserverekening geboekt.[^19] 
 
 | Balans na omzetting | 
-| 2210.0 Gebouwen: aanschaffingswaarde | |  990.000 | | 1319 Overige onbeschikbare reserves | | 1.100.000 | 
+| 2210.0 Gebouwen: aanschaffingswaarde | | 990.000 | | 1319 Overige onbeschikbare reserves | | 1.100.000 | 
 | 2210.8 Gebouwen: latente meerwaarden | | 510.000 | | *1319.0 Overige onbeschikbare reserves* | | *590.000* | 
-| 2210.9 Gebouwen: geboekte afschrijvingen | | (300.000)  | | *1319.1 Latente meerwaarden in onbeschikbare reserves* | | *510.000* | 
-| 5500 Kredietinstellingen: rekening-courant | |  100.000  | | 44 Handelsschulden | | 200.000 | 
-|   | |  1.300.000 | |   | |  1.300.000 | 
+| 2210.9 Gebouwen: geboekte afschrijvingen | | (300.000) | | *1319.1 Latente meerwaarden in onbeschikbare reserves* | | *510.000* | 
+| 5500 Kredietinstellingen: rekening-courant | | 100.000 | | 44 Handelsschulden | | 200.000 | 
+| | | 1.300.000 | | | | 1.300.000 | 
 
 De geherwaardeerde nettowaarde van deze vaste activa wordt vervolgens jaarlijks verder afgeschreven volgens een passend afschrijvingsplan voor het deel van de herwaardering dat betrekking heeft op het actief met beperkte gebruiksduur.
 
@@ -106,66 +106,66 @@ De geherwaardeerde nettowaarde van deze vaste activa wordt vervolgens jaarlijks 
 
 Veronderstel dat de VZW (bovenop haar liquide middelen van 100.000 euro en de handelsschulden van 200.000 euro) twee geldbeleggingen bezit. De aanschaffingswaarde ervan bedraagt respectievelijk 600.000 euro (geldbelegging 1) en 250.000 euro (geldbelegging 2). Geldbelegging 1 maakte in de laatste jaarrekening het voorwerp uit van een waardevermindering van 100.000 euro, waardoor deze geldbelegging een netto-boekwaarde had van 500.000 euro.
 
-| Balans vóór omzetting[^20]  | 
+| Balans vóór omzetting[^20] | 
 | 510x.0 Geldbeleggingen: aanschaffingswaarde | | 850.000 | | 14 Overgedragen resultaat | | 650.000 | 
-| 519x Geldbeleggingen: geboekte waardeverminderingen | |  (100.000) | |  44 Handelsschulden | | 200.000 | 
-| 5500 Kredietinstellingen: rekening-courant | | 100.000 | |   | |   | 
-|   | |   | |   | |   | 
-|   | | 850.000 | |   | | 850.000 | 
+| 519x Geldbeleggingen: geboekte waardeverminderingen | | (100.000) | | 44 Handelsschulden | | 200.000 | 
+| 5500 Kredietinstellingen: rekening-courant | | 100.000 | | | | | 
+| | | | | | | | 
+| | | 850.000 | | | | 850.000 | 
 
 Op het ogenblik van de omzetting van de VZW in een erkende CVSO bedraagt de werkelijke waarde van de geldbeleggingen respectievelijk 550.000 euro (geldbelegging 1) en 400.000 euro (geldbelegging 2). Daar de waardevermindering op geldbelegging 1 slechts verantwoord wordt ten bedrage van 50.000 euro, zal de overige 50.000 euro het voorwerp uitmaken van een terugneming van waardeverminderingen. Aangezien de werkelijke waarde van geldbelegging 2 de aanschaffingswaarde ervan overstijgt, wordt het verschil tussen deze twee bedragen (d.i. 150.000 euro) geboekt als latente meerwaarde. Een bedrag van 850.000[^21] wordt geboekt op een rekening van de onbeschikbare reserves in toepassing van artikel 14:42 WVV. In die zin voegt artikel 14.42, tweede lid WVV een suppletieve waarderingsregel toe aan het KB WVV vermits artikel 3:35 KB WVV de herwaardering van Geldbeleggingen niet toelaat. Dit geldt mutatis mutandis eveneens voor andere activa waarvoor volgens de gemene regel geen herwaardering mogelijk is.
 
 | Balans na omzetting | 
-| 510x.0 Geldbeleggingen: aanschaffingswaarde | |  850.000  | | 1319 Overige onbeschikbare reserves | | 850.000 | 
+| 510x.0 Geldbeleggingen: aanschaffingswaarde | | 850.000 | | 1319 Overige onbeschikbare reserves | | 850.000 | 
 | 510x.8 Geldbeleggingen: latente meerwaarden | | 150.000 | | *1319.0 Overige onbeschikbare reserves* | | *700.000* | 
-| 519x Geldbeleggingen: waardeverminderingen | | (50.000)  | | *1319.1 Latente meerwaarden in onbeschikbare reserves* | | *150.000* | 
-| 5500 Kredietinstellingen: rekening-courant | |  100.000  | | 44 Handelsschulden | | 200.000 | 
-|   | |  1.050.000 | |   | |  1.050.000 | 
+| 519x Geldbeleggingen: waardeverminderingen | | (50.000) | | *1319.1 Latente meerwaarden in onbeschikbare reserves* | | *150.000* | 
+| 5500 Kredietinstellingen: rekening-courant | | 100.000 | | 44 Handelsschulden | | 200.000 | 
+| | | 1.050.000 | | | | 1.050.000 | 
 
-De geherwaardeerde nettowaarde van deze geldbeleggingen maakt vervolgens, in voorkomend geval, het voorwerp uit van waardeverminderingen (indien de waarde ervan, naar aanleiding van de vermindering van de waarde van deze activa[^22], lager ligt dan de aanschaffingswaarde) en van terugnemingen van deze waardeverminderingen wanneer deze niet langer verantwoord zijn.[^23] Indien een herwaardering niet langer verantwoord is, maakt deze het voorwerp uit van een terugneming.[^24] Deze mogelijke  waardevermindering wordt niet ten laste gelegd van de onbeschikbare reserve. 
+De geherwaardeerde nettowaarde van deze geldbeleggingen maakt vervolgens, in voorkomend geval, het voorwerp uit van waardeverminderingen (indien de waarde ervan, naar aanleiding van de vermindering van de waarde van deze activa[^22], lager ligt dan de aanschaffingswaarde) en van terugnemingen van deze waardeverminderingen wanneer deze niet langer verantwoord zijn.[^23] Indien een herwaardering niet langer verantwoord is, maakt deze het voorwerp uit van een terugneming.[^24] Deze mogelijke waardevermindering wordt niet ten laste gelegd van de onbeschikbare reserve. 
 
 ### Onbeschikbare reserve kan niet worden aangewend om verliezen boekhoudkundig aan te zuiveren
 
-Een VZW wordt in boekjaar N omgezet in een CV erkend als SO. Het nettoactief dat blijkt uit de staat van activa en passiva (gewaardeerd tegen werkelijke waarde) van die VZW bedraagt 100. Dit bedrag wordt geboekt op een onbeschikbare reserve in toepassing van artikel 14:42 WVV. 
+Een VZW wordt in boekjaar N omgezet in een CV erkend als SO. Het nettoactief dat blijkt uit de staat van activa en passiva (gewaardeerd tegen werkelijke waarde) van die VZW bedraagt 100. Dit bedrag wordt geboekt op een onbeschikbare reserve in toepassing van artikel 14:42 WVV. 
 
 *Eerste situatie*
 
 Een aantal jaar later (aan het einde van boekjaar N+X) beslist deze CV erkend als SO tot ontbinding (en invereffeningstelling). Op dat moment heeft deze CV erkend als SO een overgedragen verlies van -40. Het geheel van haar activa werd gerealiseerd, er blijven slechts liquide middelen (60) over op het actief van de balans. De vereffening wordt gesloten in N+(X+1).
 
 | Balans van de CV erkend als SO vóór vereffening | 
-| 55 Kredietinstellingen | | 60 | | 1319 Overige onbeschikbare reserves | | 100 | 
-|   | |   | | 14 Overgedragen verlies | | (40) | 
-|   | | 60 | |   | | 60 | 
+| 55 Kredietinstellingen | | 60 | | 1319 Overige onbeschikbare reserves | | 100 | 
+| | | | | 14 Overgedragen verlies | | (40) | 
+| | | 60 | | | | 60 | 
 
-Het bedrag waaraan een bestemming moet worden gegeven betreft het bedrag van 60 aan liquide middelen. Op het bedrag van de onbeschikbare reserves van 100 rust een vermogensklem waardoor dit niet kan worden terugbetaald of uitgekeerd aan de aandeelhouders. Het te bestemmen bedrag van 60 moet bijgevolg een bestemming krijgen zoals voorzien door het WVV (artikelen 14:43, tweede lid WVV en 8:5, § 1, eerste lid, 3° WVV).  Aangezien in dit voorbeeld de overige onbeschikbare reserves (100) zelfs na aanzuivering van de verliezen (-40) eveneens 60 zouden bedragen, heeft een mogelijke compensatie tussen de onbeschikbare reserve en het overgedragen verlies in dit voorbeeld geen impact op het te bestemmen bedrag.
+Het bedrag waaraan een bestemming moet worden gegeven betreft het bedrag van 60 aan liquide middelen. Op het bedrag van de onbeschikbare reserves van 100 rust een vermogensklem waardoor dit niet kan worden terugbetaald of uitgekeerd aan de aandeelhouders. Het te bestemmen bedrag van 60 moet bijgevolg een bestemming krijgen zoals voorzien door het WVV (artikelen 14:43, tweede lid WVV en 8:5, § 1, eerste lid, 3° WVV). Aangezien in dit voorbeeld de overige onbeschikbare reserves (100) zelfs na aanzuivering van de verliezen (-40) eveneens 60 zouden bedragen, heeft een mogelijke compensatie tussen de onbeschikbare reserve en het overgedragen verlies in dit voorbeeld geen impact op het te bestemmen bedrag.
 
 *Tweede situatie*
 
-Dit zou anders zijn wanneer de CV erkend als SO daarnaast ook een eigen inbreng zou hebben van 50. 
+Dit zou anders zijn wanneer de CV erkend als SO daarnaast ook een eigen inbreng zou hebben van 50. 
 
 | Balans van de CV erkend als SO vóór vereffening | 
-| 55 Kredietinstellingen | | 110 | | 11 Inbreng | | 50 | 
-|   | |   | | 1311 Andere onbeschikbare reserves | | 100 | 
-|   | |   | | 14 Overgedragen verlies | | (40) | 
-|   | | 110 | |   | | 110 | 
+| 55 Kredietinstellingen | | 110 | | 11 Inbreng | | 50 | 
+| | | | | 1311 Andere onbeschikbare reserves | | 100 | 
+| | | | | 14 Overgedragen verlies | | (40) | 
+| | | 110 | | | | 110 | 
 
-Het bedrag waaraan een bestemming kan worden gegeven betreft het bedrag van 110 aan liquide middelen. Dit bedrag overschrijdt het bedrag van de onbeschikbare reserve (100) waarop een vermogensklem rust met 10. Van het te bestemmen bedrag van 110 dient dus 100 een bestemming tot krijgen zoals voorzien door het WVV (artikelen 14:43, tweede lid WVV en 8:5, § 1, eerste lid, 3° WVV). Het resterende bedrag van 10[^25] (dat dus de onbeschikbare reserves overschrijdt) kan bijgevolg worden uitgekeerd aan de aandeelhouders. 
+Het bedrag waaraan een bestemming kan worden gegeven betreft het bedrag van 110 aan liquide middelen. Dit bedrag overschrijdt het bedrag van de onbeschikbare reserve (100) waarop een vermogensklem rust met 10. Van het te bestemmen bedrag van 110 dient dus 100 een bestemming tot krijgen zoals voorzien door het WVV (artikelen 14:43, tweede lid WVV en 8:5, § 1, eerste lid, 3° WVV). Het resterende bedrag van 10[^25] (dat dus de onbeschikbare reserves overschrijdt) kan bijgevolg worden uitgekeerd aan de aandeelhouders. 
 
-Een voorafgaande compensatie van de onbeschikbare reserves (100) met het overgedragen verlies (-40) zou het bedrag waarop een vermogensklem rust verminderen tot 60, waardoor plots een bedrag van 50[^26] zou kunnen worden terugbetaald of uitgekeerd aan de aandeelhouders.  
+Een voorafgaande compensatie van de onbeschikbare reserves (100) met het overgedragen verlies (-40) zou het bedrag waarop een vermogensklem rust verminderen tot 60, waardoor plots een bedrag van 50[^26] zou kunnen worden terugbetaald of uitgekeerd aan de aandeelhouders. 
 
 Derde situatie
 
 Loopt het overgedragen verlies op tot 70, dan ziet de balans van de CV erkend als SO er als volgt uit.
 
 | Balans van de CV erkend als SO vóór vereffening | 
-| 55 Kredietinstellingen | | 80 | | 11 Inbreng | | 50 | 
-|   | |   | | 1311 Andere onbeschikbare reserves | | 100 | 
-|   | |   | | 14 Overgedragen verlies | | (70) | 
-|   | | 80 | |   | | 80 | 
+| 55 Kredietinstellingen | | 80 | | 11 Inbreng | | 50 | 
+| | | | | 1311 Andere onbeschikbare reserves | | 100 | 
+| | | | | 14 Overgedragen verlies | | (70) | 
+| | | 80 | | | | 80 | 
 
-Het bedrag waaraan een bestemming kan worden gegeven betreft het bedrag van 80 aan liquide middelen. Dit bedrag is lager dan het bedrag van de onbeschikbare reserve (100) waarop een vermogensklem rust. waardoor die 80 niet kan worden terugbetaald of uitgekeerd aan de aandeelhouders. Het te bestemmen bedrag van 80 moet bijgevolg een bestemming krijgen zoals voorzien door het WVV (artikelen 14:43, tweede lid WVV en 8:5, § 1, eerste lid, 3° WVV).  
+Het bedrag waaraan een bestemming kan worden gegeven betreft het bedrag van 80 aan liquide middelen. Dit bedrag is lager dan het bedrag van de onbeschikbare reserve (100) waarop een vermogensklem rust. waardoor die 80 niet kan worden terugbetaald of uitgekeerd aan de aandeelhouders. Het te bestemmen bedrag van 80 moet bijgevolg een bestemming krijgen zoals voorzien door het WVV (artikelen 14:43, tweede lid WVV en 8:5, § 1, eerste lid, 3° WVV). 
 
-Een voorafgaande compensatie van de onbeschikbare reserves (100) met het overgedragen verlies (-70) zou het bedrag waarop een vermogensklem rust verminderen tot 30, waardoor plots een bedrag van 50[^27] zou kunnen worden terugbetaald of uitgekeerd aan de aandeelhouders.   
+Een voorafgaande compensatie van de onbeschikbare reserves (100) met het overgedragen verlies (-70) zou het bedrag waarop een vermogensklem rust verminderen tot 30, waardoor plots een bedrag van 50[^27] zou kunnen worden terugbetaald of uitgekeerd aan de aandeelhouders. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 2 augustus 2023 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

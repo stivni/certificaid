@@ -85,14 +85,14 @@ Ook de verhoogde drempelwaarden in art. 3:47, § 2 WVV en art. 3:51, § 2 WVV zi
 
 Een VZW voert een boekhouding per kalenderjaar. Voor de boekjaren 2021, 2022 en 2023 werd de VZW aangemerkt als een kleine vereniging. De vereniging heeft de volgende kencijfers[^14]:
 
-|   | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | 
+| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | 
 | Jaargemiddelde personeelsbestand | | 12 | | 11 | | 8 | 
 | Omzet | | 750.000 | | 600.000 | | 400.000 | 
 | Balanstotaal | | 400.000 | | 475.000 | | 425.000 | 
 
-Voor de beoordeling of de vereniging voor het boekjaar 2024, dit is het eerste boekjaar dat aanvangt na 31 december 2023, wordt aangemerkt als een kleine of een micro-VZW, moet uitsluitend worden nagegaan of zij op 31 december 2023, zijnde de balansdatum “van het laatst afgesloten boekjaar”, meer dan één van de verhoogde criteria van het aangepaste artikel 1:29 WVV overschrijdt. 
+Voor de beoordeling of de vereniging voor het boekjaar 2024, dit is het eerste boekjaar dat aanvangt na 31 december 2023, wordt aangemerkt als een kleine of een micro-VZW, moet uitsluitend worden nagegaan of zij op 31 december 2023, zijnde de balansdatum “van het laatst afgesloten boekjaar”, meer dan één van de verhoogde criteria van het aangepaste artikel 1:29 WVV overschrijdt. 
 
-Op balansdatum 31 december 2023 overschreed de vereniging slechts één van de criteria vermeld in artikel 1:29 WVV: 
+Op balansdatum 31 december 2023 overschreed de vereniging slechts één van de criteria vermeld in artikel 1:29 WVV: 
 
 - jaargemiddelde van het personeelsbestand: 12 > 10; 
 - omzet: 750.000 < 900.000; 
@@ -100,7 +100,7 @@ Op balansdatum 31 december 2023 overschreed de vereniging slechts één van de c
 
 Geen enkele drempelwaarde van artikel 1:28 WVV wordt overschreden. Bijgevolg wordt de vereniging voor het boekjaar 2024 aangemerkt als een micro-VZW.
 
-Vanaf het daaropvolgende boekjaar, met name het boekjaar dat aanvangt op 1 januari 2025, geldt opnieuw de gewone regeling, met name dat wanneer meer dan één van de criteria vermeld in artikel 1:29 WVV worden overschreden of niet meer worden overschreden, dit slechts gevolgen heeft wanneer dit zich gedurende twee opeenvolgende boekjaren voordoet. De gevolgen hiervan gaan in dat geval in vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk, op balansdatum, meer dan één van de criteria voor de tweede keer werden overschreden of niet meer werden overschreden. 
+Vanaf het daaropvolgende boekjaar, met name het boekjaar dat aanvangt op 1 januari 2025, geldt opnieuw de gewone regeling, met name dat wanneer meer dan één van de criteria vermeld in artikel 1:29 WVV worden overschreden of niet meer worden overschreden, dit slechts gevolgen heeft wanneer dit zich gedurende twee opeenvolgende boekjaren voordoet. De gevolgen hiervan gaan in dat geval in vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk, op balansdatum, meer dan één van de criteria voor de tweede keer werden overschreden of niet meer werden overschreden. 
 
 Op balansdatum 31 december 2024 heeft de VZW meer dan één van de criteria overschreden:
 
@@ -142,14 +142,14 @@ Aangezien bij de toetsing aan deze drempelwaarden geen consistentiebeginsel staa
 
 Een VZW hanteert gebroken boekjaren waarbij het boekjaar eindigt op 30 juni. Voor de boekjaren die werden aangevat in 2022 en 2023 werd de VZW aangemerkt als een “grote” VZW. De VZW heeft de volgende kencijfers[^16]:
 
-|   | | 30/06/2024 | | 30/06/2025 | | 30/06/2026 | 
+| | | 30/06/2024 | | 30/06/2025 | | 30/06/2026 | 
 | Jaargemiddelde personeelsbestand | | 45 | | 55 | | 60 | 
 | Omzet | | 10.000.000 | | 11.000.000 | | 12.000.000 | 
 | Balanstotaal | | 7.500.000 | | 8.000.000 | | 8.500.000 | 
 
-Voor de beoordeling of de VZW voor het boekjaar dat loopt van 1 juli 2024 tot 30 juni 2025 - dit is het eerste boekjaar dat aanvangt na 31 december 2023 - wordt aangemerkt als een kleine of een “grote” VZW, moet uitsluitend worden nagegaan of zij op 30 juni 2024, zijnde de balansdatum van het laatst afgesloten boekjaar, meer dan één van de verhoogde criteria van het aangepaste artikel 1:28 WVV overschrijdt. 
+Voor de beoordeling of de VZW voor het boekjaar dat loopt van 1 juli 2024 tot 30 juni 2025 - dit is het eerste boekjaar dat aanvangt na 31 december 2023 - wordt aangemerkt als een kleine of een “grote” VZW, moet uitsluitend worden nagegaan of zij op 30 juni 2024, zijnde de balansdatum van het laatst afgesloten boekjaar, meer dan één van de verhoogde criteria van het aangepaste artikel 1:28 WVV overschrijdt. 
 
-Op balansdatum 30 juni 2024 overschreed de VZW maar één van de criteria vermeld in artikel 1:28 WVV: 
+Op balansdatum 30 juni 2024 overschreed de VZW maar één van de criteria vermeld in artikel 1:28 WVV: 
 
 - jaargemiddelde van het personeelsbestand: 45 < 50; 
 - omzet: 10.000.000 < 11.250.000; 
@@ -157,7 +157,7 @@ Op balansdatum 30 juni 2024 overschreed de VZW maar één van de criteria vermel
 
 Bijgevolg wordt de VZW voor het boekjaar dat aanvangt op 1 juli 2024 aangemerkt als een kleine VZW.
 
-Vanaf het daaropvolgende boekjaar, met name het boekjaar dat aanvangt op 1 juli 2025, geldt opnieuw de gewone regeling. Dit wil zeggen dat wanneer meer dan één van de criteria vermeld in 1:28 WVV worden overschreden of niet meer worden overschreden, dit slechts gevolgen heeft wanneer dit zich gedurende twee opeenvolgende boekjaren voordoet. De gevolgen hiervan gaan in dat geval in vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk, op balansdatum, meer dan één van de criteria voor de tweede keer werden overschreden of niet meer werden overschreden. 
+Vanaf het daaropvolgende boekjaar, met name het boekjaar dat aanvangt op 1 juli 2025, geldt opnieuw de gewone regeling. Dit wil zeggen dat wanneer meer dan één van de criteria vermeld in 1:28 WVV worden overschreden of niet meer worden overschreden, dit slechts gevolgen heeft wanneer dit zich gedurende twee opeenvolgende boekjaren voordoet. De gevolgen hiervan gaan in dat geval in vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk, op balansdatum, meer dan één van de criteria voor de tweede keer werden overschreden of niet meer werden overschreden. 
 
 Op balansdatum 30 juni 2025 heeft de VZW meer dan één van de criteria overschreden:
 
@@ -173,13 +173,13 @@ Op balansdatum 30 juni 2026 heeft de VZW alle criteria overschreden:
 - omzet: 12.000.000 > 11.250.000; 
 - balanstotaal: 8.500.000 > 6.000.000. 
 
-Op balansdatum 30 juni 2026 werd opnieuw meer dan één van de criteria overschreden. Bijgevolg wordt de VZW terug een “grote” VZW voor het boekjaar dat aanvangt op 1 juli 2026. 
+Op balansdatum 30 juni 2026 werd opnieuw meer dan één van de criteria overschreden. Bijgevolg wordt de VZW terug een “grote” VZW voor het boekjaar dat aanvangt op 1 juli 2026. 
 
-### Voorbeeld 4:  impact van de verhoging van de criteria op langere termijn 
+### Voorbeeld 4: impact van de verhoging van de criteria op langere termijn 
 
-22.    Veronderstel een stichting met een einde boekjaardatum van 31 december. De cijfers in het rood geven aan wanneer de criteria[^17] werden overschreden.[^18] Om de grootte van de stichting te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken. 
+22. Veronderstel een stichting met een einde boekjaardatum van 31 december. De cijfers in het rood geven aan wanneer de criteria[^17] werden overschreden.[^18] Om de grootte van de stichting te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken. 
 
-| **Einde 31.12** | |   | | **31.12.2021** | |   | |   | | **31.12.2022** | |   | | **31.12.2023** | |   | |   | | **31.12.2024** | |   | |   | | **31.12.2025** | |   | |   | | **31.12.2026** | |   | 
+| **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | | | | **31.12.2023** | | | | | | **31.12.2024** | | | | | | **31.12.2025** | | | | | | **31.12.2026** | | | 
 | Personeel | | 60 | | 60 | | 60 | | 60 | | 60 | | 60 | 
 | Omzet | | 10 | | 10 | | 10 | | 11 | | 12 | | 12 | 
 | Balanstotaal | | 4,8 | | 4,8 | | 4,8 | | 5,2 | | 5,2 | | 5,2 | 

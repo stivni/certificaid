@@ -43,21 +43,21 @@ Als op de wederzijdse vorderingen en schulden het Belgische recht van toepassing
 
 Aangezien de wettelijke schuldvergelijking niet van openbare orde is, kunnen de wederzijdse schuldeisers en schuldenaars op rechtsgeldige wijze afspreken hun wederzijdse schulden en vorderingen niet te compenseren, zelfs al is aan de voorwaarden voor wettelijke schuldvergelijking voldaan. In dat geval moeten die schulden en vorderingen tot hun vervaldag behouden blijven in de boekhouding en de jaarrekening van de betrokken ondernemingen.
 
-Men kan volledigheidshalve hier nog aan toevoegen dat de partijen contractueel kunnen overeenkomen hun wederzijdse vorderingen en schulden te compenseren, zelfs als zij niet voldoen aan de voorwaarden voor wettelijke schuldvergelijking. 
+Men kan volledigheidshalve hier nog aan toevoegen dat de partijen contractueel kunnen overeenkomen hun wederzijdse vorderingen en schulden te compenseren, zelfs als zij niet voldoen aan de voorwaarden voor wettelijke schuldvergelijking. 
 
 ## Boekhoudkundig niet-compensatiebeginsel
 
-Artikel 25 KB W.Venn. stelt dat “de jaarrekening [duidelijk] moet worden opgesteld en stelselmatig [moet] weergeven, enerzijds, de aard en het bedrag, op de dag waarop het boekjaar wordt afgesloten, van de bezittingen en rechten van de vennootschap, van haar schulden en verplichtingen evenals van haar eigen middelen, en anderzijds, [...] de aard en het bedrag van haar kosten en haar opbrengsten.  Compensatie tussen tegoeden en schulden, tussen rechten en verplichtingen en tussen kosten en opbrengsten is verboden”[^5].
+Artikel 25 KB W.Venn. stelt dat “de jaarrekening [duidelijk] moet worden opgesteld en stelselmatig [moet] weergeven, enerzijds, de aard en het bedrag, op de dag waarop het boekjaar wordt afgesloten, van de bezittingen en rechten van de vennootschap, van haar schulden en verplichtingen evenals van haar eigen middelen, en anderzijds, [...] de aard en het bedrag van haar kosten en haar opbrengsten. Compensatie tussen tegoeden en schulden, tussen rechten en verplichtingen en tussen kosten en opbrengsten is verboden”[^5].
 
 Dit niet-compensatiebeginsel is afkomstig van de richtlijn 2013/34/EU van het Europees Parlement en van de Raad [met name] betreffende de jaarlijkse financiële overzichten die voorziet dat “verrekening tussen actief- en passiefposten en tussen baten- en lastenposten niet is toegestaan. [...] Niettegenstaande [dit], kunnen de lidstaten in specifieke gevallen toestaan of voorschrijven dat ondernemingen verrekeningen tussen actief- en passiefposten en tussen baten- en lastenposten toepassen, op voorwaarde dat de te verrekenen bedragen als brutobedragen in de toelichting bij de financiële overzichten worden vermeld”[^6].
 
 De Commissie heeft in het verleden verschillende vragen over het niet-compensatiebeginsel ontvangen en beantwoord.
 
 In haar advies 105/1[^7]
- heeft de Commissie te kennen gegeven dat een compensatie tussen debet- en creditsaldi bij eenzelfde bankinstelling slechts in overeenstemming kan zijn met artikel 25, § 2 KB W.Venn. indien in de betrekkingen tussen de onderneming en de bankinstelling overeengekomen zou zijn dat het gaat om ondergeschikte rekeningen van eenzelfde rekening, wat impliceert dat de interesten worden berekend op de algebraïsche som van de debet- en creditsaldi.
+ heeft de Commissie te kennen gegeven dat een compensatie tussen debet- en creditsaldi bij eenzelfde bankinstelling slechts in overeenstemming kan zijn met artikel 25, § 2 KB W.Venn. indien in de betrekkingen tussen de onderneming en de bankinstelling overeengekomen zou zijn dat het gaat om ondergeschikte rekeningen van eenzelfde rekening, wat impliceert dat de interesten worden berekend op de algebraïsche som van de debet- en creditsaldi.
 
 Verder antwoordt de Commissie in CBN-advies 105/6[^8]
- op de vraag of de van een verzekeringsmaatschappij ontvangen vergoeding voor geleden schade door een onderneming in mindering mag worden gebracht van de verliezen of van de kosten die voor haar uit dit schadegeval zijn voortgevloeid. De Commissie oordeelde toen dat het hier gaat om een compensatie verboden door artikel 25 § 2 KB W.Venn.
+ op de vraag of de van een verzekeringsmaatschappij ontvangen vergoeding voor geleden schade door een onderneming in mindering mag worden gebracht van de verliezen of van de kosten die voor haar uit dit schadegeval zijn voortgevloeid. De Commissie oordeelde toen dat het hier gaat om een compensatie verboden door artikel 25 § 2 KB W.Venn.
 
 Tot slot moet opgemerkt worden dat, voor wat betreft bestellingen in uitvoering, artikel 71 KB W.Venn. bepaalt dat deze rechtstreeks mogen worden gecompenseerd met de ontvangen vooruitbetalingen per overeenkomst, waarbij ofwel het debetsaldo wordt gepresenteerd als bestelling in uitvoering ofwel het creditsaldo wordt gepresenteerd als ontvangen vooruitbetaling. Bij het begin van elk boekjaar wordt de saldering tegengeboekt. In geval gebruik wordt gemaakt van deze mogelijkheid tot compensatie worden de bedragen vóór saldering in de toelichting vermeld.[^9] 
 

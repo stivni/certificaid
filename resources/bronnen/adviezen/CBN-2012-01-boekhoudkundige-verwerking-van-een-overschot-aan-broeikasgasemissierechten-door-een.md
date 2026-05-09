@@ -36,17 +36,17 @@ gerelateerde_adviezen:
 
 # CBN-advies 2012/1 - Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten door een onderneming die de nettomethode toepast
 
-1.  Toepassingsgebied  
-2.  Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten bij toepassing van de nettomethode 
-  1.  De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie om deze emissierechten te verkopen op een actieve markt   
-  2.  De onderneming heeft de intentie om het overschot van emissierechten te verkopen op een actieve markt  
+1. Toepassingsgebied 
+2. Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten bij toepassing van de nettomethode 
+  1. De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie om deze emissierechten te verkopen op een actieve markt 
+  2. De onderneming heeft de intentie om het overschot van emissierechten te verkopen op een actieve markt 
 
 ## Inleiding
 
-In het kader van het bestaande CBN-advies 179/1 inzake de boekhoudkundige verwerking van broeikasgasemissierechten[^1] werd de Commissie gevraagd naar de mogelijkheid voor ondernemingen om een overschot aan broeikasgasemissierechten uit te drukken in het actief van de onderneming wanneer deze onderneming overeenkomstig het CBN-advies 179/1 haar emissierechten boekhoudkundig verwerkt volgens de nettomethode. 
+In het kader van het bestaande CBN-advies 179/1 inzake de boekhoudkundige verwerking van broeikasgasemissierechten[^1] werd de Commissie gevraagd naar de mogelijkheid voor ondernemingen om een overschot aan broeikasgasemissierechten uit te drukken in het actief van de onderneming wanneer deze onderneming overeenkomstig het CBN-advies 179/1 haar emissierechten boekhoudkundig verwerkt volgens de nettomethode. 
 
 In het advies 179/1 formuleerde de Commissie als aanbeveling aan de industriële ondernemingen[^2]
- om voor de boekhoudkundige verwerking van broeikasgasemissierechten ofwel de brutomethode, ofwel de nettomethode toe te passen. Voor een uitgebreide bespreking van deze methoden verwijst de Commissie naar de tekst van het advies 179/1. Kort samengevat kan worden gesteld dat bij de brutomethode de door de ondernemingen toegewezen of verkregen emissierechten op het ogenblik van toewijzing of verkrijging als immateriële vaste activa worden geboekt. Bij toepassing van de nettomethode daarentegen werd als uitgangspunt door de Commissie aangenomen dat het emissierechtensysteem niet leidt tot een vergroting of verkleining van het vermogen van de ondernemingen, omdat de toegewezen of verkregen emissierechten enkel dienen om de ondernemingen in staat te stellen hun bedrijf voort te zetten. Op grond daarvan werd ervan uitgegaan dat de door de overheid kosteloos toegewezen emissierechten meestal overeenstemmen met de in te leveren rechten en dat het beroep op de markt voor de aan- of verkoop van emissierechten, marginaal zal zijn. Bijgevolg wordt de toewijzing of verkrijging van emissierechten in de nettomethode niet opgenomen aan de actiefzijde van de balans van de onderneming, en wordt hiervan enkel melding gemaakt in de toelichting bij haar jaarrekening. Enkel de aan- en verkopen van emissierechten worden geboekt als kost of opbrengst in de resultatenrekening. 
+ om voor de boekhoudkundige verwerking van broeikasgasemissierechten ofwel de brutomethode, ofwel de nettomethode toe te passen. Voor een uitgebreide bespreking van deze methoden verwijst de Commissie naar de tekst van het advies 179/1. Kort samengevat kan worden gesteld dat bij de brutomethode de door de ondernemingen toegewezen of verkregen emissierechten op het ogenblik van toewijzing of verkrijging als immateriële vaste activa worden geboekt. Bij toepassing van de nettomethode daarentegen werd als uitgangspunt door de Commissie aangenomen dat het emissierechtensysteem niet leidt tot een vergroting of verkleining van het vermogen van de ondernemingen, omdat de toegewezen of verkregen emissierechten enkel dienen om de ondernemingen in staat te stellen hun bedrijf voort te zetten. Op grond daarvan werd ervan uitgegaan dat de door de overheid kosteloos toegewezen emissierechten meestal overeenstemmen met de in te leveren rechten en dat het beroep op de markt voor de aan- of verkoop van emissierechten, marginaal zal zijn. Bijgevolg wordt de toewijzing of verkrijging van emissierechten in de nettomethode niet opgenomen aan de actiefzijde van de balans van de onderneming, en wordt hiervan enkel melding gemaakt in de toelichting bij haar jaarrekening. Enkel de aan- en verkopen van emissierechten worden geboekt als kost of opbrengst in de resultatenrekening. 
 
 De Commissie stelt echter vast dat een belangrijk aantal ondernemingen die de nettomethode toepassen op heden aanzienlijke overschotten aan emissierechten bezitten. Aan de Commissie werd dan ook gevraagd of deze overschotten aan emissierechten bij toepassing van de nettomethode alsnog op het actief van de balans kunnen worden uitgedrukt.
 
@@ -60,11 +60,11 @@ De Commissie wenst evenwel te benadrukken dat ze aanbeveelt de toepassing van de
 
 ## Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten bij toepassing van de nettomethode
 
- De Commissie is van oordeel dat de boekhoudkundige verwerking van het overschot aan emissierechten bij ondernemingen die de nettomethode toepassen, afhangt van de economische bestemming van de emissierechten op balansdatum. Hierbij dient een onderscheid te worden gemaakt tussen de situatie waarbij de onderneming de intentie heeft om het overschot aan emissierechten in eigen bezit aan te houden, dan wel of de onderneming de intentie heeft om het overschot aan emissierechten in het volgende boekjaar op een actieve markt te verkopen.
+ De Commissie is van oordeel dat de boekhoudkundige verwerking van het overschot aan emissierechten bij ondernemingen die de nettomethode toepassen, afhangt van de economische bestemming van de emissierechten op balansdatum. Hierbij dient een onderscheid te worden gemaakt tussen de situatie waarbij de onderneming de intentie heeft om het overschot aan emissierechten in eigen bezit aan te houden, dan wel of de onderneming de intentie heeft om het overschot aan emissierechten in het volgende boekjaar op een actieve markt te verkopen.
 
-### De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie om deze emissierechten te verkopen op een actieve markt 
+### De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie om deze emissierechten te verkopen op een actieve markt 
 
-Wanneer de onderneming het overschot aan emissierechten binnen de onderneming aanhoudt en niet de intentie heeft om dit overschot te verkopen op een actieve markt voor de handel van emissierechten, dan dient de nettomethode overeenkomstig het bestendigheidsbeginsel onverminderd te worden toegepast. De onderneming kan het overschot aan emissierechten in dit geval niet alsnog gaan boeken onder de immateriële vaste activa van de onderneming[^5]. 
+Wanneer de onderneming het overschot aan emissierechten binnen de onderneming aanhoudt en niet de intentie heeft om dit overschot te verkopen op een actieve markt voor de handel van emissierechten, dan dient de nettomethode overeenkomstig het bestendigheidsbeginsel onverminderd te worden toegepast. De onderneming kan het overschot aan emissierechten in dit geval niet alsnog gaan boeken onder de immateriële vaste activa van de onderneming[^5]. 
 
 Overeenkomstig het CBN-advies 179/1 zal een eventuele latere verkoop van het overschot aan emissierechten in dit geval als opbrengst in de resultatenrekening moeten worden geboekt op het ogenblik van verkoop.
 
@@ -74,34 +74,34 @@ Wanneer de onderneming daarentegen op balansdatum een overschot heeft aan emissi
 
 Onder “actieve markt” meent de Commissie te moeten verstaan, de markt in dewelke volgende voorwaarden zijn vervuld:
 
--   de verhandelde goederen op de markt zijn homogeen; 
--   er kunnen steeds op normale wijze kopers en verkopers worden gevonden; en 
--   de prijzen zijn beschikbaar voor het publiek. 
+- de verhandelde goederen op de markt zijn homogeen; 
+- er kunnen steeds op normale wijze kopers en verkopers worden gevonden; en 
+- de prijzen zijn beschikbaar voor het publiek. 
 
-Wanneer bijgevolg een onderneming op balansdatum van het jaar N heeft beslist het overschot aan emissierechten te verhandelen op een markt die aan bovenstaande voorwaarden voldoet, dan moet zij de opbrengst van die toekomstige verkoop toerekenen aan het resultaat van het jaar N via activering onder de overlopende rekening 491 *Verkregen Opbrengsten*.  
+Wanneer bijgevolg een onderneming op balansdatum van het jaar N heeft beslist het overschot aan emissierechten te verhandelen op een markt die aan bovenstaande voorwaarden voldoet, dan moet zij de opbrengst van die toekomstige verkoop toerekenen aan het resultaat van het jaar N via activering onder de overlopende rekening 491 *Verkregen Opbrengsten*. 
 
 *Boekingen*
 
-- Op inventarisdatum van boekjaar N (jaar van verkrijging van de emissierechten)         
+- Op inventarisdatum van boekjaar N (jaar van verkrijging van de emissierechten) 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 491 | Verkregen opbrengsten | X |  |
-| aan | 743 tot 749 | Diverse bedrijfsopbrengsten |  | X |
+| | 491 | Verkregen opbrengsten | X | |
+| aan | 743 tot 749 | Diverse bedrijfsopbrengsten | | X |
 
 - Bij opening van het boekjaar N+1 (jaar van verkoop van de emissierechten) 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 743 tot 749 | Diverse bedrijfsopbrengsten | X |  |
-| aan | 491 | Verkregen opbrengsten |  | X |
+| | 743 tot 749 | Diverse bedrijfsopbrengsten | X | |
+| aan | 491 | Verkregen opbrengsten | | X |
 
 - Bij verkoop van de emissierechten in het boekjaar N+1 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 550 | Kredietinstellingen: Rekening-courant | X |  |
-| aan | 743-749 | Diverse bedrijfsopbrengsten |  | X |
+| | 550 | Kredietinstellingen: Rekening-courant | X | |
+| aan | 743-749 | Diverse bedrijfsopbrengsten | | X |
 
 [^1]: Bull. CBN nr. 49, juni 2009, 33-46.
 

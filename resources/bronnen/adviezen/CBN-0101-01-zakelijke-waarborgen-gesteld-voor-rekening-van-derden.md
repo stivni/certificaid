@@ -50,17 +50,17 @@ gerelateerde_adviezen:
 
 Indien een onderneming haar eigen bezittingen bezwaart met een zakelijke zekerheid voor rekening van een derde dan wordt dit in het minimum genormaliseerd rekeningstelsel uitgedrukt in een dubbel stel rekeningen:
 
-| 01 | | Waarborgen gesteld voor rekening van derden  | 
-|   | | 014 | | Debiteuren wegens zakelijke zekerheden  | 
-|   | | 015 | | Crediteuren wegens zakelijke zekerheden  | 
+| 01 | | Waarborgen gesteld voor rekening van derden | 
+| | | 014 | | Debiteuren wegens zakelijke zekerheden | 
+| | | 015 | | Crediteuren wegens zakelijke zekerheden | 
 
-| 02 | | Zakelijke waarborgen gesteld op eigen tegoeden  | 
-|   | | 022 | | Crediteuren van derden, houders van zakelijke waarborgen[^1]  | 
-|   | | 023 | | Zakelijke waarborgen gesteld voor rekening van derden[^2]  | 
+| 02 | | Zakelijke waarborgen gesteld op eigen tegoeden | 
+| | | 022 | | Crediteuren van derden, houders van zakelijke waarborgen[^1] | 
+| | | 023 | | Zakelijke waarborgen gesteld voor rekening van derden[^2] | 
 
 Verschillende vragen werden gesteld over de juiste werking van deze rekeningen en meer bepaald over het verband tussen rekening 015 en de rekening 022.
 
-De boekingen waarin het rekeningstelsel voorziet voor het geval waarin door de onderneming zakelijke zekerheden werden gesteld voor rekening van derden drukken in feite twee afzonderlijke aspecten uit van één en dezelfde rechtshandeling : enerzijds de band tussen de potentiële schulden en vorderingen (014 en 015), anderzijds de toestand van gebondenheid waarin de goederen, die eigendom zijn van de onderneming, zich bevinden als gevolg van het feit dat ze met een zakelijke zekerheid werden bezwaard (022 en 023). In het eerste stel rekeningen (014 en 015) wordt de nadruk gelegd op de door de onderneming aangegane verplichting (uitgedrukt door de rekening 015). Het verhaalrecht tegen de derde voor wiens rekening de zekerheid werd gesteld (uitgedrukt door de rekening 014) hangt rechtstreeks af van deze verplichting. In het tweede stel rekeningen (022 en 023) valt de nadruk op de bezwaarde activa zelf (023). De begunstigde van de waarborg wordt aangeduid door de rekening 022[^3]. Deze boekingen geven aan wat er zou gebeuren indien als gevolg van het ingebreke blijven van de derde voor wiens rekening de waarborg werd gesteld de onderneming die de waarborg heeft gesteld de tegeldemaking van de activa waarop de waarborg betrekking heeft zou moeten ondergaan ten voordele van de schuldeiser van de derde, die nu zelf schuldeiser is geworden van de onderneming. 
+De boekingen waarin het rekeningstelsel voorziet voor het geval waarin door de onderneming zakelijke zekerheden werden gesteld voor rekening van derden drukken in feite twee afzonderlijke aspecten uit van één en dezelfde rechtshandeling : enerzijds de band tussen de potentiële schulden en vorderingen (014 en 015), anderzijds de toestand van gebondenheid waarin de goederen, die eigendom zijn van de onderneming, zich bevinden als gevolg van het feit dat ze met een zakelijke zekerheid werden bezwaard (022 en 023). In het eerste stel rekeningen (014 en 015) wordt de nadruk gelegd op de door de onderneming aangegane verplichting (uitgedrukt door de rekening 015). Het verhaalrecht tegen de derde voor wiens rekening de zekerheid werd gesteld (uitgedrukt door de rekening 014) hangt rechtstreeks af van deze verplichting. In het tweede stel rekeningen (022 en 023) valt de nadruk op de bezwaarde activa zelf (023). De begunstigde van de waarborg wordt aangeduid door de rekening 022[^3]. Deze boekingen geven aan wat er zou gebeuren indien als gevolg van het ingebreke blijven van de derde voor wiens rekening de waarborg werd gesteld de onderneming die de waarborg heeft gesteld de tegeldemaking van de activa waarop de waarborg betrekking heeft zou moeten ondergaan ten voordele van de schuldeiser van de derde, die nu zelf schuldeiser is geworden van de onderneming. 
 
 Deze dubbele benadering maakt het ook mogelijk een onderscheid te maken tussen twee bedragen die in de meeste gevallen verschillend zijn : enerzijds, het bedrag van de gewaarborgde schuld of het maximumbedrag waarvoor de schuld is gewaarborgd en anderzijds, de boekwaarde van de activa die met een zakelijke zekerheid werden bezwaard.
 
