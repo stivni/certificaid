@@ -344,7 +344,13 @@ geforceerd — zie ADR-006 §4.2 (toekomstige opt-in via `chunk.sub_strategy`).
 
 **Open punten** (uit migratie en nieuw):
 
-- `justel_html`-handler implementeren (Oud-BW, mogelijk ook WVV-fallback)
-- WVV-conversie-bug oplossen via betere `pdftotext`-flags of `justel_html`
+- WVV-conversie-bug oplossen via betere `pdftotext`-flags of `justel_html` (DEEL 1 / BOEK 1 / Art. 1:1 ontbreken)
 - ChromaDB-rebuild draait pas na groene gates + trust-confirmatie op de POC-bronnen
 - `resources/eval/golden/` — kleine handmatig-OK-bevonden set voor end-to-end regressie (lange termijn)
+
+**Inmiddels opgelost** (sinds vorige draft, 9 mei 2026):
+
+- `justel_html`-handler: ✓ Wet-verzekeringen-2014 (147 artikelen) en KB-voorafgaande-beslissingen-art22-2003 herconverteerd via `c28d063`
+- Oud-BW: ✓ herconverteerd via `convert-oud-bw.py` met `custom_wetboek` (3186 artikelen, 0 plain-text labels)
+- 118 legacy `type:`-bronnen: ✓ allemaal gemigreerd naar `extract:`-schema in `eabdfb0`
+- Tweetalige norm-extractie: ✓ NL-only kolom + soft-wrap merge in `5863ff9`
