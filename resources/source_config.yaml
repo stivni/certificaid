@@ -1047,13 +1047,22 @@ sources:
       method: pdftotext_ejustice
   Oud-BW:
     bron_rol: normatief
+    raw: resources/raw/wetteksten/Oud-BW.pdf
     output: resources/bronnen/wetteksten/Oud-BW.md
+    itaa_sectie: "XI"
+    tags: ["XI", "3.1"]
+    bijgewerkt: "27.01.2026"
+    wet: "Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019)"
     status: volledig
-    note: "Groot bestand, al correct geconverteerd, enkel opkuisen via cleanup --in-place"
+    note: "JUSTEL/ejustice-formaat PDF. Converter: tools/etl/convert-oud-bw.py (custom wetboek-converter)."
     extract:
-      method: handcrafted
+      method: custom_wetboek
       params:
-        reden: Groot bestand, al correct geconverteerd, enkel opkuisen via cleanup --in-place
+        script: tools/etl/convert-oud-bw.py
+        reden: >-
+          Speciaal conversiescript voor JUSTEL ejustice-formaat met BOEK/TITEL/HOOFDSTUK/AFDELING
+          heading-extractie en Art. heading-normalisatie. Herconverteerd 2026-05-09 vanuit
+          handcrafted-status.
   EU-Richtlijn-moeder-dochter-2011-96:
     bron_rol: itaa_lex
     simple_mode: true
