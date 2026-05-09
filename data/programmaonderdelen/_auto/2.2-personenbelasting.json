@@ -1,0 +1,182 @@
+{
+  "programmaonderdeel": "2.2",
+  "programmaonderdeel_letter": "P",
+  "titel": "Personenbelasting",
+  "niveau": "integratie",
+  "source": {
+    "type": "itaa-programma",
+    "version": "04/2022",
+    "pages": "41-42"
+  },
+  "scope": {
+    "kern_taakblokken": [
+      "2.2.D1.1"
+    ],
+    "kern_kenniselementen": [
+      "2.2.I",
+      "2.2.II",
+      "2.2.III",
+      "2.2.V",
+      "2.2.I.A",
+      "2.2.I.B",
+      "2.2.VI",
+      "2.2.VII",
+      "2.2.VIII",
+      "2.2.IX",
+      "2.2.X",
+      "2.2.XI",
+      "2.2.XII",
+      "2.2.XIII",
+      "2.2.XIV",
+      "2.2.XVI",
+      "2.2.XVII"
+    ],
+    "voorbehoud": null
+  },
+  "intro_tekst": "I. WIB: gevorderd niveau + rechtspraak",
+  "taakblokken": [
+    {
+      "deel": 1,
+      "code": "2.2.D1.1",
+      "taken": [
+        {
+          "tekst": "Begeleiding bij de oprichting van een onderneming"
+        },
+        {
+          "tekst": "Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming"
+        },
+        {
+          "tekst": "De belastingplichtige in alle fiscale aangelegenheden advies verlenen"
+        },
+        {
+          "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen"
+        },
+        {
+          "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden"
+        }
+      ],
+      "doelstellingen": [
+        {
+          "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren"
+        },
+        {
+          "tekst": "Geavanceerde concepten op het gebied van personenbelasting toepassen op complexe gevallen."
+        },
+        {
+          "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen."
+        },
+        {
+          "tekst": "Fiscale risico’s kunnen analyseren en beheren."
+        },
+        {
+          "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de genomen beslissing."
+        }
+      ]
+    }
+  ],
+  "kenniselementen": [
+    {
+      "deel": 1,
+      "code": "2.2.I",
+      "tekst": "WIB: gevorderd niveau + rechtspraak"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.II",
+      "tekst": "Kenmerken en basisbegrippen"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.III",
+      "tekst": "Belastingplichtigen IV. Persoonlijke gegevens en gezinslast"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.V",
+      "tekst": "Inkomsten van onroerende goederen:"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.I.A",
+      "tekst": "Aangifte"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.I.B",
+      "tekst": "Berekening van het belastbaar onroerend inkomen"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.VI",
+      "tekst": "Beroepsinkomsten en beroepskosten"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.VII",
+      "tekst": "Roerende inkomsten:"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.VIII",
+      "tekst": "Diverse inkomsten:"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.IX",
+      "tekst": "Ontvangen onderhoudsuitkeringen:"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.X",
+      "tekst": "Belastbaar inkomen van deel II van de aangifte"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.XI",
+      "tekst": "Aftrekbare uitgaven: onderhoudsuitkeringen"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.XII",
+      "tekst": "Uitgaven die recht geven op een gewestelijke belastingvermindering"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.XIII",
+      "tekst": "Uitgaven die recht geven op een federale belastingvermindering"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.XIV",
+      "tekst": "Inhoudingen aan de bron: aftrekbaarheid en terugbetaalbaarheid XV. Voorafbetalingen"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.XVI",
+      "tekst": "Vaststelling van het belastbaar inkomen en van de verschuldigde belasting"
+    },
+    {
+      "deel": 1,
+      "code": "2.2.XVII",
+      "tekst": "Berekening van de belasting"
+    }
+  ],
+  "_provenance": {
+    "inputs": [
+      {
+        "id": "resources/raw/andere/programma.pdf",
+        "sha256": "6a532dd301c094afd086c08358589dfe6109c1f7789c93eb84e2e140adf9f18d",
+        "version": "04/2022"
+      }
+    ],
+    "tooling": {
+      "pipeline": "auto",
+      "pipeline_version": "extract_programma-v1",
+      "model": null,
+      "prompt_version": null
+    },
+    "generated_at": "2026-05-09T10:58:47.888836+00:00",
+    "stale": false,
+    "stale_reason": null
+  }
+}

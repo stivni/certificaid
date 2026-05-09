@@ -1,0 +1,292 @@
+{
+  "programmaonderdeel": "4.0",
+  "programmaonderdeel_letter": "T",
+  "titel": "Deontologische beginselen in verband met het beroep en beginselen op het vlak van antiwitwaswetgeving",
+  "niveau": "integratie",
+  "source": {
+    "type": "itaa-programma",
+    "version": "04/2022",
+    "pages": "48-51"
+  },
+  "scope": {
+    "kern_taakblokken": [
+      "4.0.D1.1"
+    ],
+    "kern_kenniselementen": [
+      "4.0.I.A",
+      "4.0.I.B",
+      "4.0.I.C",
+      "4.0.I.D"
+    ],
+    "voorbehoud": null
+  },
+  "intro_tekst": "I. Voor de taken onder deel 1 - A. Gereglementeerde economische beroepen - B. Bronnen van juridische en beroepsnormen met betrekking tot de gereglementeerde economische beroepen. - C. Organisatie van de uitoefening van de activiteiten van gecertificeerd belastingadviseur en van gecertificeerd accountant op basis van de wet van 17 maart 2019: 1. Specifieke wettelijke en reglementaire bepalingen. 2. Het Instituut van de Belastingadviseurs en de Accountants (IBA) 3. Opdrachten en activiteiten. 4. Vormen van uitoefening van activiteiten. 5. Onverenigbaarheden. 6. Toegang tot de hoedanigheid van gecertificeerd belastingadviseur en van gecertificeerd accountant 7. Permanente beroepsopleiding - D. Juridische en beroepsnormen 1. Basisprincipes. 2. Onafhankelijkheid 3. Relaties met cliënten. 4. Relaties met confraters. 5. Relaties met het ITAA. 6. Relaties met derden (met inbegrip van de verplichtingen die voortvloeien uit het preventieve luik van de wetgeving inzake de voorkoming van het witwassen van geld en de financiering van terrorisme en inzake de beperking van het gebruik van contanten). 7. Beroepsgeheim en professionele discretieplicht 8. Aansprakelijkheid 9. Toezicht en beroepstucht.",
+  "taakblokken": [
+    {
+      "deel": 1,
+      "code": "4.0.D1.1",
+      "taken": [
+        {
+          "tekst": "Een passend beleid voor de aanvaarding van klanten vaststellen"
+        },
+        {
+          "tekst": "Zorgen voor een passende communicatie met de verschillende actoren in het kader van zijn opdracht"
+        },
+        {
+          "tekst": "Zijn deskundigheid voortdurend ontwikkelen"
+        }
+      ],
+      "doelstellingen": [
+        {
+          "tekst": "Een risicoanalyse uitvoeren"
+        },
+        {
+          "tekst": "Interne procedures uitwerken"
+        },
+        {
+          "tekst": "Discreet en duidelijk communiceren met de autoriteiten"
+        },
+        {
+          "tekst": "De beroepsdeontologie naleven"
+        },
+        {
+          "tekst": "De antiwitwaswetgeving naleven"
+        },
+        {
+          "tekst": "Duidelijk en gepast communiceren met de klant (confraters, enz.)"
+        },
+        {
+          "tekst": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals banken, belastingdiensten, de cel voor financiële informatieverwerking (antiwitwasbeleid), rechtbanken, enz."
+        },
+        {
+          "tekst": "Vertrouwelijke informatie discreet behandelen"
+        },
+        {
+          "tekst": "Termijnen in acht nemen"
+        },
+        {
+          "tekst": "Voortdurend bijscholen volgens de norm van permanente vorming"
+        },
+        {
+          "tekst": "Op de hoogte blijven van de ontwikkelingen ter zake"
+        },
+        {
+          "tekst": "Volgen van de fiscale actualiteit en andere relevante wetgeving en toepassen van wijzigingen in de wetgeving"
+        },
+        {
+          "tekst": "Kennis delen met collega's en (medewerkers) van de klant"
+        }
+      ]
+    },
+    {
+      "deel": 2,
+      "code": "4.0.D2.1",
+      "taken": [
+        {
+          "tekst": "De activiteiten van een team coördineren"
+        },
+        {
+          "tekst": "Zich in zijn kantoor, bij zijn klant of in zijn onderneming ontwikkelen en dit in een digitale wereld"
+        },
+        {
+          "tekst": "Zich in zijn kantoor, bij zijn klant of in zijn onderneming ontwikkelen door geleidelijk kennis te verwerven over bedrijfsstrategie"
+        }
+      ],
+      "doelstellingen": [
+        {
+          "tekst": "Een planning opstellen en naargelang van de omstandigheden aanpassen"
+        },
+        {
+          "tekst": "Taken en verantwoordelijkheden verdelen"
+        },
+        {
+          "tekst": "Informeren, begeleiden, leiden en motiveren van (nieuwe) medewerkers"
+        },
+        {
+          "tekst": "Controleren van de uitvoering van de opdrachten en de naleving van de procedures"
+        },
+        {
+          "tekst": "Organiseren en leiden van teamvergaderingen"
+        },
+        {
+          "tekst": "Opvolgen van de competenties van de medewerkers"
+        },
+        {
+          "tekst": "Voeren van plannings-, functionerings- en evaluatiegesprekken"
+        },
+        {
+          "tekst": "Vaardigheden verwerven in gegevensanalyse en informatiesystemen."
+        },
+        {
+          "tekst": "Naast de basisvaardigheden, waaronder het verzamelen en verifiëren van relevante informatie en het gebruik van passende middelen om relevante informatie te verzamelen of te ontwikkelen, beschikken over specifieke technische vaardigheden. In het kader van de voorgestelde wijzigingen wordt onder meer voorgesteld om het volgende verder uit te werken: • de competenties; • de leerresultaten op de verschillende niveaus van het professioneel ontwikkelingsplan of het equivalent ervan; • kennis."
+        }
+      ]
+    }
+  ],
+  "kenniselementen": [
+    {
+      "deel": 1,
+      "code": "4.0.I.A",
+      "tekst": "Gereglementeerde economische beroepen"
+    },
+    {
+      "deel": 1,
+      "code": "4.0.I.B",
+      "tekst": "Bronnen van juridische en beroepsnormen met betrekking tot de gereglementeerde economische beroepen."
+    },
+    {
+      "deel": 1,
+      "code": "4.0.I.C",
+      "tekst": "Organisatie van de uitoefening van de activiteiten van gecertificeerd belastingadviseur en van gecertificeerd accountant op basis van de wet van 17 maart 2019:",
+      "subitems": [
+        {
+          "code": "4.0.I.C.1",
+          "tekst": "Specifieke wettelijke en reglementaire bepalingen."
+        },
+        {
+          "code": "4.0.I.C.2",
+          "tekst": "Het Instituut van de Belastingadviseurs en de Accountants (IBA)"
+        },
+        {
+          "code": "4.0.I.C.3",
+          "tekst": "Opdrachten en activiteiten."
+        },
+        {
+          "code": "4.0.I.C.4",
+          "tekst": "Vormen van uitoefening van activiteiten."
+        },
+        {
+          "code": "4.0.I.C.5",
+          "tekst": "Onverenigbaarheden."
+        },
+        {
+          "code": "4.0.I.C.6",
+          "tekst": "Toegang tot de hoedanigheid van gecertificeerd belastingadviseur en van gecertificeerd accountant"
+        },
+        {
+          "code": "4.0.I.C.7",
+          "tekst": "Permanente beroepsopleiding"
+        }
+      ]
+    },
+    {
+      "deel": 1,
+      "code": "4.0.I.D",
+      "tekst": "Juridische en beroepsnormen",
+      "subitems": [
+        {
+          "code": "4.0.I.D.1",
+          "tekst": "Basisprincipes."
+        },
+        {
+          "code": "4.0.I.D.2",
+          "tekst": "Onafhankelijkheid"
+        },
+        {
+          "code": "4.0.I.D.3",
+          "tekst": "Relaties met cliënten."
+        },
+        {
+          "code": "4.0.I.D.4",
+          "tekst": "Relaties met confraters."
+        },
+        {
+          "code": "4.0.I.D.5",
+          "tekst": "Relaties met het ITAA."
+        },
+        {
+          "code": "4.0.I.D.6",
+          "tekst": "Relaties met derden (met inbegrip van de verplichtingen die voortvloeien uit het preventieve luik van de wetgeving inzake de voorkoming van het witwassen van geld en de financiering van terrorisme en inzake de beperking van het gebruik van contanten)."
+        },
+        {
+          "code": "4.0.I.D.7",
+          "tekst": "Beroepsgeheim en professionele discretieplicht"
+        },
+        {
+          "code": "4.0.I.D.8",
+          "tekst": "Aansprakelijkheid"
+        },
+        {
+          "code": "4.0.I.D.9",
+          "tekst": "Toezicht en beroepstucht."
+        }
+      ]
+    },
+    {
+      "deel": 2,
+      "code": "4.0.II.A",
+      "tekst": "FINANCIËLE INFORMATIE: Behoeften en systemen",
+      "subitems": [
+        {
+          "code": "4.0.II.A.1",
+          "tekst": "Evalueren van informatiesystemen, gegevensvereisten en bedrijfsprocessen voor het produceren van betrouwbare financiële informatie"
+        },
+        {
+          "code": "4.0.II.A.2",
+          "tekst": "Uitleggen van de implicaties van huidige trends, nieuwe problemen en opkomende technologieën in de financiële verslaglegging"
+        },
+        {
+          "code": "4.0.II.A.1",
+          "tekst": "Uitvoeren van de strategie Analyseren van belangrijke bedrijfsuitdagingen, waaronder het gebruik van informatieactiva, en de afstemming daarvan op de strategie"
+        },
+        {
+          "code": "4.0.II.A.2",
+          "tekst": "Beheer van ondernemingsrisico's"
+        },
+        {
+          "code": "4.0.II.A.1",
+          "tekst": "Behoeften aan managementinformatie en managementinformatiesystemen a) Documenteren en beoordelen van bedrijfsproces-, systeem- en gegevensvereisten"
+        },
+        {
+          "code": "4.0.II.A.2",
+          "tekst": "Planning, budgettering en prognoses"
+        },
+        {
+          "code": "4.0.II.A.1",
+          "tekst": "Interne controle"
+        },
+        {
+          "code": "4.0.II.A.2",
+          "tekst": "Vereisten op het vlak van interne en externe audit: a) Uitleggen van de implicaties van huidige trends, nieuwe problemen en opkomende technologieën op het gebied van de certificeringsnormen"
+        },
+        {
+          "code": "4.0.II.A.3",
+          "tekst": "Projecten van interne audit en opdrachten van externe certificering a) Ontwikkelen van passende procedures, met inbegrip van een analyse van auditgegevens, naargelang van het geïdentificeerde risico van afwijkingen van materieel belang"
+        }
+      ]
+    },
+    {
+      "deel": 2,
+      "code": "4.0.II.E",
+      "tekst": "FINANCIËN",
+      "subitems": [
+        {
+          "code": "4.0.II.E.1",
+          "tekst": "Financiële analyse en planning: evalueren van informatiesystemen, gegevenskwaliteit en analytische modellen die worden gebruikt ter ondersteuning van financiële analyse en besluitvorming"
+        },
+        {
+          "code": "4.0.II.E.1",
+          "tekst": "Evalueren van informatiesystemen, gegevenskwaliteit, gegevensvereisten en bedrijfsprocessen die een betrouwbare naleving van de belastingwetgeving mogelijk maken"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "inputs": [
+      {
+        "id": "resources/raw/andere/programma.pdf",
+        "sha256": "6a532dd301c094afd086c08358589dfe6109c1f7789c93eb84e2e140adf9f18d",
+        "version": "04/2022"
+      }
+    ],
+    "tooling": {
+      "pipeline": "auto",
+      "pipeline_version": "extract_programma-v1",
+      "model": null,
+      "prompt_version": null
+    },
+    "generated_at": "2026-05-09T10:58:47.897227+00:00",
+    "stale": false,
+    "stale_reason": null
+  }
+}

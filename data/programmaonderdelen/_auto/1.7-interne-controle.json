@@ -1,0 +1,319 @@
+{
+  "programmaonderdeel": "1.7",
+  "programmaonderdeel_letter": "I",
+  "titel": "Interne controle",
+  "niveau": "integratie",
+  "source": {
+    "type": "itaa-programma",
+    "version": "04/2022",
+    "pages": "26-28"
+  },
+  "scope": {
+    "kern_taakblokken": [
+      "1.7.D1.1"
+    ],
+    "kern_kenniselementen": [
+      "1.7.I.A",
+      "1.7.I.B",
+      "1.7.I.C",
+      "1.7.I.D"
+    ],
+    "voorbehoud": null
+  },
+  "intro_tekst": "I. BEGRIPPEN VAN INTERNE CONTROLE - A. Definitie van interne controle 1. Betrouwbaarheid en integriteit van de financiële en bedrijfsinformatie 2. Doeltreffendheid en efficiëntie van de bedrijfsvoering 3. Bescherming van het vermogen 4. Naleving van wetten, reglementen en contracten - B. Externe controle - C. Managementcontrole - D. Interne audit",
+  "taakblokken": [
+    {
+      "deel": 1,
+      "code": "1.7.D1.1",
+      "taken": [],
+      "doelstellingen": [
+        {
+          "tekst": "analyses voor de externe en interne verslaglegging, met inbegrip van juridische en contractuele opdrachten:"
+        },
+        {
+          "tekst": "Begrijpen van het beginsel van redelijke zekerheid en naleving/compliance -"
+        },
+        {
+          "tekst": "Zoeken van referentiepunten ten opzichte van de verwachtingen van belanghebbenden (bv. bedrijfsleiders en auditors) -"
+        },
+        {
+          "tekst": "privé-expertise op het gebied van bedrijfsboekhouding -"
+        },
+        {
+          "tekst": "gerechtelijke expertise op het gebied van bedrijfsboekhouding -"
+        },
+        {
+          "tekst": "Opsporen van risico’s -"
+        },
+        {
+          "tekst": "opstellen van verslagen die leiden tot een attestering of een expertiseverslag bestemd om aan derden te worden afgegeven -"
+        },
+        {
+          "tekst": "Beheren van het evenwicht tussen de begrippen redelijke zekerheid en naleving/compliance -"
+        },
+        {
+          "tekst": "Interpreteren van de aanbevelingen van de revisoren/accountants die verantwoordelijk zijn voor de beoordeling van de doeltreffendheid van de interne controle van de onderneming -"
+        },
+        {
+          "tekst": "Formuleren van aanbevelingen naar aanleiding van vastgestelde risico's"
+        }
+      ]
+    }
+  ],
+  "kenniselementen": [
+    {
+      "deel": 1,
+      "code": "1.7.I.A",
+      "tekst": "Definitie van interne controle",
+      "subitems": [
+        {
+          "code": "1.7.I.A.1",
+          "tekst": "Betrouwbaarheid en integriteit van de financiële en bedrijfsinformatie"
+        },
+        {
+          "code": "1.7.I.A.2",
+          "tekst": "Doeltreffendheid en efficiëntie van de bedrijfsvoering"
+        },
+        {
+          "code": "1.7.I.A.3",
+          "tekst": "Bescherming van het vermogen"
+        },
+        {
+          "code": "1.7.I.A.4",
+          "tekst": "Naleving van wetten, reglementen en contracten"
+        }
+      ]
+    },
+    {
+      "deel": 1,
+      "code": "1.7.I.B",
+      "tekst": "Externe controle"
+    },
+    {
+      "deel": 1,
+      "code": "1.7.I.C",
+      "tekst": "Managementcontrole"
+    },
+    {
+      "deel": 1,
+      "code": "1.7.I.D",
+      "tekst": "Interne audit"
+    },
+    {
+      "deel": 2,
+      "code": "1.7.II.A",
+      "tekst": "Begrip onderneming",
+      "subitems": [
+        {
+          "code": "1.7.II.A.1",
+          "tekst": "Algemene beginselen van interne controle"
+        },
+        {
+          "code": "1.7.II.A.2",
+          "tekst": "Aanpassing van de interne controle aan de context van de onderneming"
+        }
+      ]
+    },
+    {
+      "deel": 2,
+      "code": "1.7.II.B",
+      "tekst": "Informatiesysteem",
+      "subitems": [
+        {
+          "code": "1.7.II.B.1",
+          "tekst": "Doelstellingen van interne controle"
+        },
+        {
+          "code": "1.7.II.B.2",
+          "tekst": "Afstemming tussen de doelstellingen van de interne controle en de organisatie van de onderneming"
+        },
+        {
+          "code": "1.7.II.B.3",
+          "tekst": "Redelijke zekerheid"
+        },
+        {
+          "code": "1.7.II.B.4",
+          "tekst": "Verscheidenheid aan actoren en procedures die bij de controle betrokken zijn"
+        }
+      ]
+    },
+    {
+      "deel": 2,
+      "code": "1.7.II.C",
+      "tekst": "Stromen"
+    },
+    {
+      "deel": 2,
+      "code": "1.7.II.D",
+      "tekst": "Informatie"
+    },
+    {
+      "deel": 2,
+      "code": "1.7.II.E",
+      "tekst": "Begrip controle"
+    },
+    {
+      "deel": 2,
+      "code": "1.7.II.F",
+      "tekst": "Controleproces"
+    },
+    {
+      "deel": 2,
+      "code": "1.7.II.G",
+      "tekst": "Ethiek"
+    },
+    {
+      "deel": 5,
+      "code": "1.7.V.A",
+      "tekst": "Interne audit"
+    },
+    {
+      "deel": 5,
+      "code": "1.7.V.B",
+      "tekst": "Functie van de interne auditor"
+    },
+    {
+      "deel": 5,
+      "code": "1.7.V.C",
+      "tekst": "Externe audit"
+    },
+    {
+      "deel": 5,
+      "code": "1.7.V.D",
+      "tekst": "Auditcomité"
+    },
+    {
+      "deel": 5,
+      "code": "1.7.V.E",
+      "tekst": "Auditrisico’s"
+    },
+    {
+      "deel": 7,
+      "code": "1.7.VII.A",
+      "tekst": "Aanpak voor de uitwerking van interne controle"
+    },
+    {
+      "deel": 7,
+      "code": "1.7.VII.B",
+      "tekst": "Taakverdeling"
+    },
+    {
+      "deel": 7,
+      "code": "1.7.VII.C",
+      "tekst": "Opvolging van de verrichtingen"
+    },
+    {
+      "deel": 7,
+      "code": "1.7.VII.D",
+      "tekst": "Controlemiddelen"
+    },
+    {
+      "deel": 7,
+      "code": "1.7.VII.E",
+      "tekst": "Geïnformatiseerde omgeving"
+    },
+    {
+      "deel": 7,
+      "code": "1.7.VII.F",
+      "tekst": "Evaluatie van de interne controle"
+    },
+    {
+      "deel": 9,
+      "code": "1.7.IX.A",
+      "tekst": "Aankoopcyclus"
+    },
+    {
+      "deel": 9,
+      "code": "1.7.IX.B",
+      "tekst": "Productiecyclus"
+    },
+    {
+      "deel": 9,
+      "code": "1.7.IX.C",
+      "tekst": "Verkoopcyclus"
+    },
+    {
+      "deel": 9,
+      "code": "1.7.IX.D",
+      "tekst": "Human resources"
+    },
+    {
+      "deel": 9,
+      "code": "1.7.IX.E",
+      "tekst": "Voorraden (veiligheid en fysieke controle)"
+    },
+    {
+      "deel": 10,
+      "code": "1.7.X.A",
+      "tekst": "Risico’s"
+    },
+    {
+      "deel": 10,
+      "code": "1.7.X.B",
+      "tekst": "Fysieke beveiliging C. Functiescheiding"
+    },
+    {
+      "deel": 10,
+      "code": "1.7.X.D",
+      "tekst": "Controlemaatregelen"
+    },
+    {
+      "deel": 12,
+      "code": "1.7.XII.A",
+      "tekst": "Wettelijk kader"
+    },
+    {
+      "deel": 12,
+      "code": "1.7.XII.B",
+      "tekst": "EU (ISA)"
+    },
+    {
+      "deel": 12,
+      "code": "1.7.XII.C",
+      "tekst": "ITAA-normen"
+    },
+    {
+      "deel": 12,
+      "code": "1.7.XII.D",
+      "tekst": "COSO I"
+    },
+    {
+      "deel": 12,
+      "code": "1.7.XII.E",
+      "tekst": "COSO II"
+    },
+    {
+      "deel": 12,
+      "code": "1.7.XII.F",
+      "tekst": "Risicobeoordeling en -beheer"
+    },
+    {
+      "deel": 12,
+      "code": "1.7.XII.G",
+      "tekst": "Gereglementeerde beroepen (gecertificeerd accountant en revisor)"
+    },
+    {
+      "deel": 12,
+      "code": "1.7.XII.H",
+      "tekst": "Wets- en reglementsteksten"
+    }
+  ],
+  "_provenance": {
+    "inputs": [
+      {
+        "id": "resources/raw/andere/programma.pdf",
+        "sha256": "6a532dd301c094afd086c08358589dfe6109c1f7789c93eb84e2e140adf9f18d",
+        "version": "04/2022"
+      }
+    ],
+    "tooling": {
+      "pipeline": "auto",
+      "pipeline_version": "extract_programma-v1",
+      "model": null,
+      "prompt_version": null
+    },
+    "generated_at": "2026-05-09T10:58:47.884180+00:00",
+    "stale": false,
+    "stale_reason": null
+  }
+}

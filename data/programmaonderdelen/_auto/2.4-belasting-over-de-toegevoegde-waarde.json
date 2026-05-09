@@ -1,0 +1,146 @@
+{
+  "programmaonderdeel": "2.4",
+  "programmaonderdeel_letter": "S",
+  "titel": "Belasting over de toegevoegde waarde",
+  "niveau": "integratie",
+  "source": {
+    "type": "itaa-programma",
+    "version": "04/2022",
+    "pages": "46-47"
+  },
+  "scope": {
+    "kern_taakblokken": [
+      "2.4.D1.1"
+    ],
+    "kern_kenniselementen": [
+      "2.4.I",
+      "2.4.II",
+      "2.4.III",
+      "2.4.IV",
+      "2.4.V",
+      "2.4.VI",
+      "2.4.VII",
+      "2.4.VIII",
+      "2.4.IX",
+      "2.4.X",
+      "2.4.XI"
+    ],
+    "voorbehoud": null
+  },
+  "intro_tekst": "I. Btw - Wetboek - KB - MB - Circulaires - gevorderd niveau + rechtspraak",
+  "taakblokken": [
+    {
+      "deel": 1,
+      "code": "2.4.D1.1",
+      "taken": [
+        {
+          "tekst": "Begeleiding bij de oprichting van een onderneming"
+        },
+        {
+          "tekst": "Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming"
+        },
+        {
+          "tekst": "De belastingplichtige in alle fiscale aangelegenheden advies verlenen"
+        },
+        {
+          "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen"
+        },
+        {
+          "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden"
+        }
+      ],
+      "doelstellingen": [
+        {
+          "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren"
+        },
+        {
+          "tekst": "Geavanceerde concepten op het gebied van btw toepassen op complexe gevallen, de aangifte invullen, de maatstaf van heffing en de btw berekenen."
+        },
+        {
+          "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen."
+        },
+        {
+          "tekst": "Fiscale risico’s kunnen analyseren en beheren."
+        },
+        {
+          "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de genomen beslissing."
+        }
+      ]
+    }
+  ],
+  "kenniselementen": [
+    {
+      "deel": 1,
+      "code": "2.4.I",
+      "tekst": "Btw - Wetboek - KB - MB - Circulaires - gevorderd niveau + rechtspraak"
+    },
+    {
+      "deel": 1,
+      "code": "2.4.II",
+      "tekst": "Opstart van de formaliteiten"
+    },
+    {
+      "deel": 1,
+      "code": "2.4.III",
+      "tekst": "Statuut van de btw-plichtige, categorieën van btw-plichtigen"
+    },
+    {
+      "deel": 1,
+      "code": "2.4.IV",
+      "tekst": "Gemengd gebruik BM, nieuwe vervoermiddelen, doorverkoop van voertuigen; margeregeling, bonnen, voordelen van alle aard"
+    },
+    {
+      "deel": 1,
+      "code": "2.4.V",
+      "tekst": "Verwerving van onroerend goed door occasionele en gewone btw-plichtigen, tarieven, \"nieuwe\" gebouwen, btw-eenheid en onroerend goed, ingebruikneming, verhuur en terbeschikkingstelling van onroerend goed, aanpassingen wegens"
+    },
+    {
+      "deel": 1,
+      "code": "2.4.VI",
+      "tekst": "Btw-aspecten (webshops, verkopen op afstand, plaats van levering van diensten, IC-handelingen en -diensten, OSS, buitenlandse belastingplichtige, driehoeksverkeer)"
+    },
+    {
+      "deel": 1,
+      "code": "2.4.VII",
+      "tekst": "Btw-herzieningen, overdracht van algemeenheid, intrekking/indienststelling, btwformaliteiten in geval van stopzetting van activiteit"
+    },
+    {
+      "deel": 1,
+      "code": "2.4.VIII",
+      "tekst": "Douane en accijnzen - verband met btw"
+    },
+    {
+      "deel": 1,
+      "code": "2.4.IX",
+      "tekst": "Betrokken partijen. Douanewaarde en douanerechten. Douanereglementering Enig document Basisbegrippen accijnzen"
+    },
+    {
+      "deel": 1,
+      "code": "2.4.X",
+      "tekst": "Accijnzen: Registratieformaliteiten en andere verplichtingen"
+    },
+    {
+      "deel": 1,
+      "code": "2.4.XI",
+      "tekst": "Basisverschillen tussen douane-unie en vrijhandelszone, Enig document, Goederencode, Douanewaarde, Maatstaf van heffing voor de btw, Statistische waarde, Oorsprong, Douanereglementeringen en tijdelijke opslag, Douaneprocedures, Douanerechten + rol van de AEO ( _Authorised Economic Operator_ ), Invoer van goederen"
+    }
+  ],
+  "_provenance": {
+    "inputs": [
+      {
+        "id": "resources/raw/andere/programma.pdf",
+        "sha256": "6a532dd301c094afd086c08358589dfe6109c1f7789c93eb84e2e140adf9f18d",
+        "version": "04/2022"
+      }
+    ],
+    "tooling": {
+      "pipeline": "auto",
+      "pipeline_version": "extract_programma-v1",
+      "model": null,
+      "prompt_version": null
+    },
+    "generated_at": "2026-05-09T10:58:47.890781+00:00",
+    "stale": false,
+    "stale_reason": null
+  }
+}
