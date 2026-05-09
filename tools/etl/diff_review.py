@@ -187,8 +187,11 @@ def build_prompt_bundle(
     n_with_diff = 0
 
     for staging_path in staging_files:
-        rel_staging = staging_path.relative_to(ROOT)
-        head_path = staging_to_head_path(staging_path, config)
+        # staging_path kan relatief óf absoluut zijn — normaliseer naar absoluut
+        # vóór de relative_to-call.
+        abs_staging = staging_path if staging_path.is_absolute() else (ROOT / staging_path).resolve()
+        rel_staging = abs_staging.relative_to(ROOT)
+        head_path = staging_to_head_path(abs_staging, config)
 
         if head_path is None or not head_path.exists():
             auto_verdicts.append({
@@ -200,7 +203,7 @@ def build_prompt_bundle(
             })
             continue
 
-        diff_text = git_diff(head_path, staging_path)
+        diff_text = git_diff(head_path, abs_staging)
         if not diff_text.strip():
             auto_verdicts.append({
                 "bestand": str(rel_staging),
