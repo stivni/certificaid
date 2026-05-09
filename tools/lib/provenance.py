@@ -8,6 +8,29 @@ YAML writes use ruamel.yaml round-trip mode so existing frontmatter formatting
 
 JSON writes (concept-records) use string-append for initial inserts to preserve
 existing formatting; replacements fall back to json.dumps reformat.
+
+Concept-record per-veld provenance (ADR-007 schema 1.1 + ADR-008 §10):
+----------------------------------------------------------------------
+  Elk block-veld (main_rule, definitie, verplichting, stappen[], …) heeft
+  een inline `_provenance`-sub-object met de chunk-ids die de LLM-extractor
+  voor dit specifieke veld heeft gebruikt.
+
+  Schema per veld:
+    {
+      "inputs": [{"id": "<chunk_id>", "sha256": "<chunk_sha>", "version": "rag-v1"}],
+      "extracted_at": "<ISO-tijdstip>",
+      "extractor": "<versie-label>",
+      "stale": false,           # pas aanwezig na mark_stale.py
+      "stale_reason": null      # pas aanwezig na mark_stale.py
+    }
+
+  Top-level `_provenance` op het record: alleen record-metadata
+    (extractor_run, model, reviewed_by) — géén chunk-inputs.
+
+  walk_concept_provenance(record) → iterator van (veldpad, provenance-dict)
+    zodat mark_stale.py per veld kan beslissen.
+  mark_field_stale(record, veldpad, reden) → werkt record in-place bij.
+  sha_voor_chunk(chunk_id, chroma_collection) → haalt chunk_sha op uit ChromaDB.
 """
 from __future__ import annotations
 
@@ -19,7 +42,7 @@ import subprocess
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Optional
+from typing import Iterator, Optional
 
 from ruamel.yaml import YAML
 
@@ -348,3 +371,136 @@ def detect_stale(recorded: Provenance, current_inputs: list[Input]) -> tuple[boo
         if rec[k] != cur_hash:
             return True, f"input changed: {k}"
     return False, None
+
+
+# ─── Concept-record per-veld provenance (ADR-007 schema 1.1 + ADR-008 §10) ──
+
+def walk_concept_provenance(
+    record: dict,
+    *,
+    _path: str = "",
+    _is_top_level: bool = True,
+) -> Iterator[tuple[str, dict]]:
+    """Genereer (veldpad, provenance-dict) voor elk block-veld met inline _provenance.
+
+    Slaat de top-level `_provenance` over — dat is record-metadata, geen veld-provenance.
+    Walkt recursief door geneste dicts (uitzondering, bouwstenen, stappen, …) en lists.
+
+    Geeft alleen velden terug waarvan `_provenance` een dict is met een `inputs`-sleutel.
+    Velden zonder provenance worden stilzwijgend overgeslagen (ADR-008 §11: niet alles is
+    bron-gestuurd).
+
+    Voorbeeld gebruik:
+        for veldpad, prov_blok in walk_concept_provenance(record):
+            for inp in prov_blok.get("inputs", []):
+                print(veldpad, inp["id"])
+    """
+    if not isinstance(record, dict):
+        return
+
+    prov = record.get("_provenance")
+    if not _is_top_level and isinstance(prov, dict) and "inputs" in prov:
+        yield _path, prov
+
+    for sleutel, waarde in record.items():
+        if sleutel == "_provenance":
+            continue
+        nieuw_pad = f"{_path}.{sleutel}" if _path else sleutel
+        if isinstance(waarde, dict):
+            yield from walk_concept_provenance(waarde, _path=nieuw_pad, _is_top_level=False)
+        elif isinstance(waarde, list):
+            for index, item in enumerate(waarde):
+                if isinstance(item, dict):
+                    yield from walk_concept_provenance(
+                        item, _path=f"{nieuw_pad}[{index}]", _is_top_level=False
+                    )
+
+
+def _zet_veld_via_pad(record: dict, veldpad: str, sleutel: str, waarde: object) -> bool:
+    """Navigeer naar het object op veldpad en zet `sleutel = waarde`.
+
+    Veldpad-syntaxis: "main_rule", "stappen[0]", "uitzonderingen[1].tekst", …
+    Returnt True als de navigatie slaagde; False als het pad niet gevonden werd.
+    """
+    # Splits pad in segmenten. Elk segment is ofwel een sleutelnaam of een sleutelnaam
+    # gevolgd door een lijstindex tussen vierkante haken.
+    _SEGMENT_RE = re.compile(r"([^\[.]+)(?:\[(\d+)\])?")
+    segmenten = _SEGMENT_RE.findall(veldpad)
+    huidige = record
+    for naam, index in segmenten:
+        if naam not in huidige:
+            return False
+        huidige = huidige[naam]
+        if index != "":
+            i = int(index)
+            if not isinstance(huidige, list) or i >= len(huidige):
+                return False
+            huidige = huidige[i]
+    if not isinstance(huidige, dict):
+        return False
+    huidige[sleutel] = waarde
+    return True
+
+
+def mark_field_stale(record: dict, veldpad: str, reden: str) -> bool:
+    """Markeer één veld van een concept-record als stale in-place.
+
+    Navigeert naar `record[veldpad]["_provenance"]` en zet:
+      - `stale = True`
+      - `stale_reason = reden`
+      - `stale_at = <ISO-tijdstip>`
+
+    Returnt True als het veld gevonden en bijgewerkt werd; False als het pad
+    niet bestond of geen `_provenance`-sub-object had.
+
+    De aanroeper is verantwoordelijk voor het terugschrijven van `record` naar
+    schijf (zodat write-beslissing bij mark_stale.py blijft).
+    """
+    # Navigeer naar het veld
+    _SEGMENT_RE = re.compile(r"([^\[.]+)(?:\[(\d+)\])?")
+    segmenten = _SEGMENT_RE.findall(veldpad)
+    huidige = record
+    for naam, index in segmenten:
+        if naam not in huidige:
+            return False
+        huidige = huidige[naam]
+        if index != "":
+            i = int(index)
+            if not isinstance(huidige, list) or i >= len(huidige):
+                return False
+            huidige = huidige[i]
+    if not isinstance(huidige, dict):
+        return False
+    prov = huidige.get("_provenance")
+    if not isinstance(prov, dict):
+        return False
+    prov["stale"] = True
+    prov["stale_reason"] = reden
+    prov["stale_at"] = now_iso()
+    return True
+
+
+def sha_voor_chunk(chunk_id: str, chroma_collectie) -> Optional[str]:
+    """Haal de huidige `chunk_sha` op uit ChromaDB-metadata voor een gegeven chunk-id.
+
+    Parameters
+    ----------
+    chunk_id:
+        De stabiele chunk-id (bv. "Antiwitwaswet-2017__art_5").
+    chroma_collectie:
+        Een reeds geopend ChromaDB-collection-object (de aanroeper beheert de
+        verbinding zodat dit een pure query-functie blijft zonder ChromaDB-import
+        op module-niveau).
+
+    Returnt de `chunk_sha`-string als die aanwezig is in de metadata, anders None.
+    Geeft ook None terug als de chunk helemaal niet bestaat in de collectie.
+    """
+    try:
+        resultaat = chroma_collectie.get(ids=[chunk_id], include=["metadatas"])
+        ids = resultaat.get("ids", [])
+        metas = resultaat.get("metadatas", [])
+        if not ids or not metas:
+            return None
+        return metas[0].get("chunk_sha")
+    except Exception:
+        return None

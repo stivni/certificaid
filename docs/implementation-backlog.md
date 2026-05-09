@@ -60,7 +60,13 @@ Zie ADR-008 §2 voor argumentatie. Helper-scripts en code-onderhoud: Sonnet is f
 - [x] `tools/extractie/match_bronnen.py` — `chunk_sha` uit ChromaDB-metadata toegevoegd aan
   bundle-items. `tools/extractie/export_bundle.py` geeft `chunk_sha` door (uit matches of
   rechtstreeks uit ChromaDB-metadata). Subagent kan sha invullen in concept-record provenance.
-- [ ] `tools/etl/mark_stale.py` voor concepten bouwen (ADR-008 §10).
+- [x] `tools/etl/mark_stale.py` voor concepten bouwen (ADR-008 §10).
+  Nieuwe modus `--concepts`: walkt `data/concept_records/**/*.json`, vergelijkt
+  opgeslagen `sha256` per veld-input met live `chunk_sha` uit ChromaDB.
+  Default = dry-run; `--apply` schrijft `stale: true` + `stale_reason` + `stale_at`
+  op het `_provenance`-sub-object van het getroffen veld. Edge-cases gedekt:
+  `chunk_missing`, `sha_unknown` (null-sha), `al_stale`. Modus 1 (bron-MD's)
+  blijft backwards-compatible.
 - [x] `tools/etl/remove_bron.py` Laag 2 omgezet naar concept-records: scant
   `data/concept_records/**/*.json` op inline `_provenance.inputs[].id` die starten
   met de bron-stem. Toont getroffen records + velden; past niets automatisch aan.
@@ -79,10 +85,14 @@ Zie ADR-008 §2 voor argumentatie. Helper-scripts en code-onderhoud: Sonnet is f
 
 Driver: ADR-004 herzien.
 
-- [ ] `tools/lib/provenance.py`
-  - Per-veld provenance voor concept-records (sub-blokken per veld)
-  - `mark_stale.py`: walk per-veld bij chunk-update; markeer alleen velden waarvan input-chunk veranderd is
-  - Chunk-sha-store: bij re-index, vergelijk nieuwe chunk-sha tegen opgeslagen waarde
+- [x] `tools/lib/provenance.py`
+  - `walk_concept_provenance(record)`: iterator over (veldpad, prov-blok) voor alle
+    block-velden met inline `_provenance`. Walkt recursief door geneste dicts/lijsten.
+    Slaat top-level `_provenance` (record-metadata) over.
+  - `mark_field_stale(record, veldpad, reden)`: zet `stale`, `stale_reason`, `stale_at`
+    op `_provenance` van het veld — in-place; aanroeper schrijft naar schijf.
+  - `sha_voor_chunk(chunk_id, chroma_collectie)`: haalt live `chunk_sha` op uit ChromaDB.
+  - Modus 1 (bron-MD's via `check_one`) ongewijzigd; volledige backwards-compatibiliteit.
 
 ## Stage 5 (later) — examen-driven extractie
 
