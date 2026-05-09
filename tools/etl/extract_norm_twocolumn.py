@@ -87,6 +87,10 @@ KNOWN_PDFS: dict[str, dict] = {
         "pdf": ROOT / "resources" / "raw" / "normen" / "itaa-norm-kmo-controlenorm.docx",
         "type": "nl-docx",
     },
+    "ITAA-deontologie-beroepsgeheim.md": {
+        "pdf": ROOT / "resources" / "raw" / "normen" / "itaa-deontologie-beroepsgeheim.docx",
+        "type": "nl-docx",
+    },
     # Nieuwe NL-only PDFs uit BeExcellent.
     "ITAA-norm-domiciliering.md": {
         "pdf": ROOT / "resources" / "raw" / "normen" / "itaa-norm-domiciliering.pdf",
