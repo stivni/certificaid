@@ -12,9 +12,9 @@ Algoritme (ADR-005 §7, ADR-006 §4.1):
 
 Voor pipeline-gebruik (convert.py): één-stap helper process_wettekst(text).
 
-Deze module bevat enkel de logica — geen CLI of bestands-IO. Het CLI-script
-`tools/etl/inject_wettekst_headings.py` blijft het entry-point voor reprocessing
-van bestaande wetteksten in `resources/bronnen/wetteksten/`.
+Deze module bevat enkel de logica — geen CLI of bestands-IO. Heading-injectie
+gebeurt nu binnen de unified `convert.py`-pipeline via `process_wettekst()`;
+de oude `tools/etl/inject_wettekst_headings.py` is geschrapt in fase D1.
 """
 from __future__ import annotations
 
