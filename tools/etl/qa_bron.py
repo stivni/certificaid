@@ -17,6 +17,8 @@ Gecontroleerde criteria (zie ADR-005 §5 — Laag 1):
     - aantal `##`-headings
     - heading-drempel: minstens 1 `##` voor bestand >5K chars
     - langste sectie tussen `##` < 24K chars (RAG-bovengrens, ADR-006)
+    - chunk-config valid (bij --staging): chunk.level int 2-6, chunk.type string,
+      chunk.sub_strategy null of string
 
   Extractie-artefacten:
     - geen `\\x0c` form feed (PDF-paginascheiding niet opgekuist)
@@ -32,11 +34,13 @@ Verdict per bron: `pass | warn | fail`
   - pass   = alle checks groen
 
 Gebruik:
-  python tools/etl/qa_bron.py --all                       # alle bronnen
+  python tools/etl/qa_bron.py --all                       # alle bronnen (resources/)
   python tools/etl/qa_bron.py --bron-rol norm
   python tools/etl/qa_bron.py --collection cbn-adviezen
   python tools/etl/qa_bron.py --file resources/bronnen/normen/X.md
-  python tools/etl/qa_bron.py --all --report-only        # alleen samenvatting
+  python tools/etl/qa_bron.py --all --report-only         # alleen samenvatting
+  python tools/etl/qa_bron.py --staging                   # alle staging-MDs
+  python tools/etl/qa_bron.py --staging --bron WIB92      # één staging-MD
 
 Output: `data/qa/<run-id>.json` + samenvatting op stdout.
 """
@@ -61,6 +65,8 @@ BRON_DIRS = {
     "norm":     ROOT / "resources" / "bronnen" / "normen",
     "advies":   ROOT / "resources" / "bronnen" / "adviezen",
 }
+
+STAGING_DIR = ROOT / "data" / "etl-staging"
 
 COLLECTION_TO_DIR = {
     "wetteksten":   BRON_DIRS["wettekst"],
@@ -129,6 +135,30 @@ def _bron_rol_from_path(path: Path) -> str:
         "normen":     "norm",
         "adviezen":   "advies",
     }.get(parent, "unknown")
+
+
+def _bron_rol_from_staging(frontmatter: Optional[str]) -> str:
+    """Leid bron-rol af uit staging-frontmatter.
+
+    Staging-MDs dragen meestal `bron_rol: itaa_lex` (wetteksten). Voor de QA-checks
+    mappen we dat naar `wettekst`. Andere expliciete waarden worden 1:1 doorgegeven.
+    Fallback: `wettekst` (staging-folder bevat momenteel alleen wetteksten).
+    """
+    if frontmatter is None:
+        return "wettekst"
+    m = re.search(r"(?m)^bron_rol\s*:\s*['\"]?([A-Za-z_]+)['\"]?\s*$", frontmatter)
+    if not m:
+        return "wettekst"
+    raw = m.group(1)
+    return {
+        "itaa_lex":  "wettekst",
+        "wetteksten": "wettekst",
+        "wettekst":  "wettekst",
+        "norm":      "norm",
+        "normen":    "norm",
+        "advies":    "advies",
+        "adviezen":  "advies",
+    }.get(raw, raw)
 
 
 def _split_frontmatter(text: str) -> tuple[Optional[str], str]:
@@ -228,6 +258,96 @@ def check_frontmatter(bron_rol: str, frontmatter: Optional[str], body: str) -> C
     return CheckResult(name="frontmatter_complete", status="pass")
 
 
+def _parse_chunk_config(frontmatter: str) -> Optional[dict]:
+    """Parse minimale `chunk:`-blok uit frontmatter zonder PyYAML-dependency.
+
+    Verwacht structuur:
+      chunk:
+        level: <int>
+        type: "<string>"
+        sub_strategy: <null|string>
+
+    Returnt dict met keys {level, type, sub_strategy} of None bij ontbreken.
+    Onbekende of niet-parsebare waarden worden als raw string teruggegeven; de
+    validator beoordeelt of ze geldig zijn.
+    """
+    m = re.search(r"(?m)^chunk\s*:\s*$", frontmatter)
+    if not m:
+        return None
+    # Vang de geïndenteerde regels die volgen (begin met whitespace).
+    tail = frontmatter[m.end():]
+    block_lines = []
+    for line in tail.split("\n"):
+        if line.startswith((" ", "\t")):
+            block_lines.append(line)
+        elif line.strip() == "":
+            block_lines.append(line)
+        else:
+            break
+    cfg: dict = {}
+    for line in block_lines:
+        kv = re.match(r"^\s+([a-zA-Z_][a-zA-Z0-9_]*)\s*:\s*(.*)$", line)
+        if not kv:
+            continue
+        key, raw = kv.group(1), kv.group(2).strip()
+        # Strip inline comments en quotes
+        if raw.startswith('"') and raw.endswith('"') and len(raw) >= 2:
+            value: object = raw[1:-1]
+        elif raw.startswith("'") and raw.endswith("'") and len(raw) >= 2:
+            value = raw[1:-1]
+        elif raw == "" or raw.lower() in {"null", "~"}:
+            value = None
+        else:
+            try:
+                value = int(raw)
+            except ValueError:
+                value = raw
+        cfg[key] = value
+    return cfg
+
+
+def check_chunk_config(frontmatter: Optional[str]) -> CheckResult:
+    """Valideer `chunk:`-frontmatter (alleen actief in staging-mode)."""
+    if frontmatter is None:
+        return CheckResult(
+            name="chunk_config_valid",
+            status="fail",
+            detail="chunk-config ontbreekt of incompleet (geen frontmatter)",
+        )
+    cfg = _parse_chunk_config(frontmatter)
+    if cfg is None:
+        return CheckResult(
+            name="chunk_config_valid",
+            status="fail",
+            detail="chunk-config ontbreekt of incompleet (geen `chunk:`-blok)",
+        )
+    problems: list[str] = []
+    level = cfg.get("level")
+    if not isinstance(level, int) or not (2 <= level <= 6):
+        problems.append(f"level moet int 2-6 zijn (kreeg: {level!r})")
+    ctype = cfg.get("type")
+    if not isinstance(ctype, str) or not ctype:
+        problems.append(f"type moet niet-lege string zijn (kreeg: {ctype!r})")
+    if "sub_strategy" not in cfg:
+        problems.append("sub_strategy ontbreekt (mag null of string zijn)")
+    else:
+        sub = cfg["sub_strategy"]
+        if sub is not None and not isinstance(sub, str):
+            problems.append(f"sub_strategy moet null of string zijn (kreeg: {sub!r})")
+    if problems:
+        return CheckResult(
+            name="chunk_config_valid",
+            status="fail",
+            detail="chunk-config ontbreekt of incompleet",
+            samples=problems[:MAX_SAMPLES_PER_CHECK],
+        )
+    return CheckResult(
+        name="chunk_config_valid",
+        status="pass",
+        detail=f"level={level}, type={ctype!r}, sub_strategy={cfg.get('sub_strategy')!r}",
+    )
+
+
 def check_provenance(path: Path) -> CheckResult:
     prov = read_provenance(path)
     if prov is None:
@@ -281,7 +401,7 @@ def check_heading_structure(body: str, file_size: int) -> tuple[CheckResult, int
     )
 
 
-def check_max_section(body: str, heading_count: int) -> tuple[CheckResult, int]:
+def check_max_section(body: str, heading_count: int, forced_level: Optional[int] = None) -> tuple[CheckResult, int]:
     """Beoordeel maximale sectiegrootte op het meest geschikte chunk-niveau.
 
     Gebruikt `_best_chunk_level_and_max()` om het diepste heading-niveau te vinden
@@ -289,11 +409,22 @@ def check_max_section(body: str, heading_count: int) -> tuple[CheckResult, int]:
     adviezen die op ## groot zijn maar op ### / #### / ##### prima gesplitst kunnen
     worden.
 
+    Wanneer `forced_level` is gegeven (uit chunk-config frontmatter), wordt de
+    langste sectie op precies dat heading-niveau gemeten — geen auto-keuze. Dit is
+    de staging-modus waar ETL de chunk-strategie expliciet vastlegt.
+
     - FAIL: geen enkel niveau haalt ≤ 24K EN geen headings (één megachunk)
     - WARN: geen enkel niveau haalt ≤ 24K mét headings (structuur aanwezig maar te grof)
     - PASS: er is een niveau waarop de langste sectie ≤ 24K
     """
-    level, max_len = _best_chunk_level_and_max(body)
+    if forced_level is not None and 2 <= forced_level <= 6:
+        pattern = re.compile(rf"(?m)^#{{{forced_level}}}\s+.*$")
+        parts = pattern.split(body)
+        nonempty = [len(p) for p in parts if p.strip()]
+        max_len_forced = max(nonempty) if nonempty else len(body)
+        level, max_len = forced_level, max_len_forced
+    else:
+        level, max_len = _best_chunk_level_and_max(body)
     hdr = "#" * level
     if max_len > MAX_SECTION_CHARS:
         if heading_count == 0:
@@ -404,20 +535,31 @@ def check_no_ocr_flags(body: str) -> CheckResult:
 
 # ─── Pipeline ────────────────────────────────────────────────────────────────
 
-def qa_one_bron(path: Path) -> BronReport:
+def qa_one_bron(path: Path, staging: bool = False) -> BronReport:
     path = path.resolve()
     text = path.read_text(encoding="utf-8")
     frontmatter, body = _split_frontmatter(text)
-    bron_rol = _bron_rol_from_path(path)
+    if staging:
+        bron_rol = _bron_rol_from_staging(frontmatter)
+    else:
+        bron_rol = _bron_rol_from_path(path)
 
     checks: list[CheckResult] = []
     checks.append(check_frontmatter(bron_rol, frontmatter, body))
     checks.append(check_provenance(path))
 
+    forced_level: Optional[int] = None
+    if staging:
+        chunk_check = check_chunk_config(frontmatter)
+        checks.append(chunk_check)
+        cfg = _parse_chunk_config(frontmatter or "")
+        if cfg and isinstance(cfg.get("level"), int):
+            forced_level = cfg["level"]
+
     heading_check, heading_count = check_heading_structure(body, len(body))
     checks.append(heading_check)
 
-    section_check, max_section = check_max_section(body, heading_count)
+    section_check, max_section = check_max_section(body, heading_count, forced_level)
     checks.append(section_check)
 
     checks.append(check_no_form_feed(body))
@@ -436,8 +578,12 @@ def qa_one_bron(path: Path) -> BronReport:
     else:
         verdict = "pass"
 
+    try:
+        bestand_rel = str(path.relative_to(ROOT))
+    except ValueError:
+        bestand_rel = str(path)
     return BronReport(
-        bestand=str(path.relative_to(ROOT)),
+        bestand=bestand_rel,
         bron_rol=bron_rol,
         file_size_chars=len(body),
         heading_count=heading_count,
@@ -472,6 +618,27 @@ def iter_targets(file: Optional[Path], bron_rol: Optional[str], collection: Opti
     return files
 
 
+def iter_staging_targets(bron: Optional[str]) -> list[Path]:
+    """Verzamel staging-MD's uit `data/etl-staging/`.
+
+    Met `--bron NAAM` wordt op stem (filename zonder .md) gefilterd, hoofdletter-
+    ongevoelig. Geen match → SystemExit.
+    """
+    if not STAGING_DIR.exists():
+        raise SystemExit(f"Staging-map ontbreekt: {STAGING_DIR}")
+    all_files = sorted(f for f in STAGING_DIR.glob("*.md") if f.name not in SKIP_FILES)
+    if bron is None:
+        return all_files
+    needle = bron.lower()
+    matches = [f for f in all_files if f.stem.lower() == needle]
+    if not matches:
+        # fallback: substring-match voor flexibiliteit
+        matches = [f for f in all_files if needle in f.stem.lower()]
+    if not matches:
+        raise SystemExit(f"Geen staging-bestand gevonden voor --bron {bron!r}")
+    return matches
+
+
 def run_id() -> str:
     return datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
 
@@ -482,24 +649,36 @@ def main() -> None:
     p.add_argument("--bron-rol", choices=sorted(BRON_DIRS), help="beperk tot één bron-rol")
     p.add_argument("--collection", choices=sorted(COLLECTION_TO_DIR), help="beperk tot één collection")
     p.add_argument("--file", type=Path, help="één specifiek bestand")
+    p.add_argument("--staging", action="store_true",
+                   help="draai op data/etl-staging/ ipv resources/bronnen/")
+    p.add_argument("--bron", type=str,
+                   help="(met --staging) beperk tot één staging-bestand op filename-stem")
     p.add_argument("--report-only", action="store_true", help="alleen samenvatting; geen JSON-rapport schrijven")
     p.add_argument("--output-dir", type=Path, default=ROOT / "data" / "qa",
                    help="map voor JSON-rapport (default: data/qa/)")
     args = p.parse_args()
 
-    if not (args.all or args.bron_rol or args.collection or args.file):
-        p.error("Specificeer --all, --bron-rol, --collection of --file")
+    if args.staging:
+        if args.all or args.bron_rol or args.collection or args.file:
+            p.error("--staging is niet combineerbaar met --all/--bron-rol/--collection/--file")
+        targets = iter_staging_targets(args.bron)
+    else:
+        if args.bron:
+            p.error("--bron werkt enkel met --staging")
+        if not (args.all or args.bron_rol or args.collection or args.file):
+            p.error("Specificeer --all, --bron-rol, --collection, --file of --staging")
+        targets = iter_targets(args.file, args.bron_rol, args.collection)
 
-    targets = iter_targets(args.file, args.bron_rol, args.collection)
     if not targets:
         print("Geen bestanden gevonden.")
         return
 
-    print(f"=== qa_bron — {len(targets)} bron(nen) ===")
+    mode_label = "staging" if args.staging else "resources"
+    print(f"=== qa_bron [{mode_label}] — {len(targets)} bron(nen) ===")
     reports: list[BronReport] = []
     counters = {"pass": 0, "warn": 0, "fail": 0}
     for path in targets:
-        report = qa_one_bron(path)
+        report = qa_one_bron(path, staging=args.staging)
         reports.append(report)
         counters[report.verdict] += 1
 
@@ -526,6 +705,8 @@ def main() -> None:
                 "bron_rol": args.bron_rol,
                 "collection": args.collection,
                 "file": str(args.file) if args.file else None,
+                "staging": args.staging,
+                "bron": args.bron,
             },
             "totals": counters,
             "bronnen": [asdict(r) for r in reports],
