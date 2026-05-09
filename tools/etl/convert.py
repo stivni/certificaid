@@ -41,7 +41,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 
 from tools.lib.cleanup import run_pipeline, DEFAULT_STEPS  # noqa: E402
 from tools.lib.headings import process_wettekst  # noqa: E402
-from tools.lib.extractors import get_handler, COMPILATIE_METHODS  # noqa: E402
+from tools.lib.extractors import get_handler, COMPILATIE_METHODS, METHOD_HANDLERS  # noqa: E402
 from tools.lib.provenance import (  # noqa: E402
     Input,
     make_input,
@@ -57,6 +57,16 @@ from tools.lib.provenance import (  # noqa: E402
 def load_config() -> dict:
     with CONFIG_PATH.open() as f:
         return yaml.safe_load(f)["sources"]
+
+
+def load_collections() -> dict:
+    """Lees de `collections:`-sectie uit source_config.yaml.
+
+    Geeft een lege dict terug als de sectie ontbreekt.
+    """
+    with CONFIG_PATH.open() as f:
+        data = yaml.safe_load(f) or {}
+    return data.get("collections") or {}
 
 
 def get_source(name: str, config: dict) -> dict:
@@ -361,6 +371,254 @@ def convert_one(source_name: str, *, dry_run: bool = False,
     return staging_path
 
 
+# ─── Collection-pipeline (CBN-adviezen, ITAA-normen) ─────────────────────────
+
+# Mapping van collection-naam naar de extract-method-key in METHOD_HANDLERS.
+_COLLECTION_METHOD = {
+    "cbn-adviezen": "cbn_advies",
+    "itaa-normen": "extract_norm",
+}
+
+# Per-collection cleanup en chunk-config. Beide collections chunken op H2.
+# De CBN-scraper levert al schone markdown — alleen collapse_blank_lines.
+# Norm-extractie levert ook schone markdown (na fix_norm_artefacts) — idem.
+_COLLECTION_CLEANUP = {
+    "cbn-adviezen": ["collapse_blank_lines"],
+    "itaa-normen": ["collapse_blank_lines"],
+}
+
+_COLLECTION_CHUNK = {
+    "cbn-adviezen": {"level": 2, "type": "##", "sub_strategy": None},
+    "itaa-normen": {"level": 2, "type": "##", "sub_strategy": None},
+}
+
+
+def _read_frontmatter_md(md_path: Path) -> tuple[dict, str]:
+    """Lees frontmatter (als plain dict) + body uit een bestaande MD.
+
+    Geeft ``({}, full_text)`` terug als geen frontmatter aanwezig is.
+    """
+    from ruamel.yaml import YAML
+    text = md_path.read_text(encoding="utf-8")
+    import re
+    m = re.match(r"\A---\r?\n(.*?)\r?\n---\r?\n", text, re.DOTALL)
+    if not m:
+        return {}, text
+    yaml_loader = YAML()
+    yaml_loader.preserve_quotes = True
+    data = yaml_loader.load(m.group(1)) or {}
+    # Convert ruamel CommentedMap → plain dict
+    from tools.lib.provenance import _to_plain  # noqa: PLC0415
+    return _to_plain(data), text[m.end():]
+
+
+def _build_collection_frontmatter(
+    existing_fm: dict,
+    *,
+    chunk_cfg: dict,
+    bron_rol: str | None,
+    titel: str | None,
+) -> str:
+    """Bouw nieuwe frontmatter voor een collection-item.
+
+    Behoudt alle bestaande frontmatter-velden (bron, datum, themas, …),
+    voegt of overschrijft `chunk:` en `bron_rol`. De `provenance:` sleutel
+    wordt verwijderd zodat de orchestrator hem nadien opnieuw kan toevoegen
+    via `_attach_provenance` (anders dubbele blokken).
+    """
+    import io
+    from ruamel.yaml import YAML
+    yaml_dumper = YAML()
+    yaml_dumper.preserve_quotes = True
+    yaml_dumper.indent(mapping=2, sequence=4, offset=2)
+    yaml_dumper.width = 4096
+
+    # Werk op een kopie zodat we niet de origineel wijzigen.
+    fm = dict(existing_fm)
+
+    # Verwijder provenance — wordt door _attach_provenance opnieuw geschreven.
+    fm.pop("provenance", None)
+
+    # bron_rol toevoegen indien nog niet aanwezig (collection-default).
+    if bron_rol and "bron_rol" not in fm:
+        fm["bron_rol"] = bron_rol
+
+    # Chunk-config — overschrijven, dit wordt door de pipeline bepaald.
+    fm["chunk"] = dict(chunk_cfg)
+
+    buf = io.StringIO()
+    yaml_dumper.dump(fm, buf)
+    return f"---\n{buf.getvalue()}---\n"
+
+
+def _resolve_collection_inputs(item_cfg: dict, item_inputs_spec: list[dict]) -> list[Input]:
+    """Bouw provenance.inputs voor één collection-item op basis van item_inputs-spec."""
+    from tools.lib.provenance import make_url_input
+    inputs: list[Input] = []
+    for spec in item_inputs_spec or []:
+        field = spec.get("field")
+        kind = spec.get("kind")
+        value = item_cfg.get(field)
+        if not value:
+            continue
+        if kind == "local":
+            p = Path(value)
+            if not p.is_absolute():
+                p = ROOT / value
+            if p.exists():
+                inputs.append(make_input(p, repo_root=ROOT))
+        elif kind == "url":
+            inputs.append(make_url_input(str(value)))
+    return inputs
+
+
+def _attach_collection_provenance(
+    staging_path: Path, item_cfg: dict, item_inputs_spec: list[dict],
+) -> None:
+    """Schrijf provenance-blok voor een collection-item."""
+    inputs = _resolve_collection_inputs(item_cfg, item_inputs_spec)
+    prov = make_provenance(
+        inputs=inputs,
+        pipeline="tools/etl/convert.py",
+        repo_root=ROOT,
+    )
+    prov.trust = Trust(status="unreviewed", confirmed_by="default")
+    write_provenance(staging_path, prov)
+
+
+def convert_collection_item(
+    md_path: Path, collection_name: str, collection_cfg: dict,
+    *, dry_run: bool = False,
+) -> Path | None:
+    """Verwerk één item uit een collection.
+
+    Leest de bestaande MD-frontmatter, dispatcht naar de juiste extractor,
+    cleant de body, bouwt een nieuwe frontmatter en schrijft naar
+    `data/etl-staging/<source_name>.md`. Skipt (returnt None) bij een
+    item-failure i.p.v. te falen — de orchestrator-loop blijft draaien.
+    """
+    source_name = md_path.stem
+    method_key = _COLLECTION_METHOD.get(collection_name)
+    if method_key is None:
+        print(f"  ⚠️  Onbekende collection: {collection_name}")
+        return None
+
+    # 1. Lees bestaande frontmatter (= item-cfg)
+    try:
+        existing_fm, _existing_body = _read_frontmatter_md(md_path)
+    except Exception as e:  # noqa: BLE001
+        print(f"  ⚠️  {source_name}: kon frontmatter niet lezen ({e}) — skip")
+        return None
+
+    # INDEX.md en andere niet-item bestanden: skip
+    if not existing_fm:
+        print(f"  · {source_name}: geen frontmatter — skip")
+        return None
+
+    # 2. Extract via handler
+    handler = METHOD_HANDLERS.get(method_key)
+    if handler is None:
+        print(f"  ⚠️  Geen handler voor method={method_key!r}")
+        return None
+
+    try:
+        body = handler(existing_fm, source_name)
+    except NotImplementedError as e:
+        print(f"  · {source_name}: {e}")
+        return None
+    except FileNotFoundError as e:
+        print(f"  · {source_name}: {e}")
+        return None
+    except Exception as e:  # noqa: BLE001
+        print(f"  ⚠️  {source_name}: extractie mislukt ({type(e).__name__}: {e}) — skip")
+        return None
+
+    if not isinstance(body, str) or not body.strip():
+        print(f"  ⚠️  {source_name}: lege body — skip")
+        return None
+
+    # 3. Cleanup
+    cleanup_steps = _COLLECTION_CLEANUP.get(collection_name, [])
+    if cleanup_steps:
+        body = run_pipeline(body, steps=cleanup_steps, preserve_frontmatter=False)
+
+    # 4. Bouw nieuwe frontmatter (KEEP bestaande velden, ADD chunk + bron_rol)
+    chunk_cfg = _COLLECTION_CHUNK.get(collection_name, {"level": 2, "type": "##"})
+    new_fm = _build_collection_frontmatter(
+        existing_fm,
+        chunk_cfg=chunk_cfg,
+        bron_rol=collection_cfg.get("bron_rol"),
+        titel=None,
+    )
+
+    text = new_fm + body.lstrip("\n")
+    if not text.endswith("\n"):
+        text += "\n"
+
+    # 5. Schrijf naar staging
+    staging_path = STAGING_DIR / f"{source_name}.md"
+    if dry_run:
+        print(f"  (dry-run) {source_name} — {len(text):,} tekens")
+        return staging_path
+
+    STAGING_DIR.mkdir(parents=True, exist_ok=True)
+    staging_path.write_text(text, encoding="utf-8")
+
+    # 6. Provenance toevoegen
+    item_inputs_spec = collection_cfg.get("item_inputs") or []
+    try:
+        _attach_collection_provenance(staging_path, existing_fm, item_inputs_spec)
+    except Exception as e:  # noqa: BLE001
+        print(f"  ⚠️  {source_name}: provenance-blok niet toegevoegd ({e})")
+
+    print(f"  ✓ {source_name}")
+    return staging_path
+
+
+def convert_collection(
+    name: str,
+    *,
+    dry_run: bool = False,
+    limit: int | None = None,
+) -> int:
+    """Verwerk alle items uit een collection.
+
+    Returnt het aantal succesvol geschreven items. `limit` beperkt de batch
+    voor smoketests.
+    """
+    collections = load_collections()
+    if name not in collections:
+        print(f"Collection '{name}' niet gevonden in source_config.yaml")
+        print(f"  Beschikbaar: {', '.join(sorted(collections))}")
+        return 0
+
+    cfg = collections[name]
+    output_dir = ROOT / cfg["output_dir"]
+    if not output_dir.exists():
+        print(f"Output-dir bestaat niet: {output_dir}")
+        return 0
+
+    md_paths = sorted(output_dir.glob("*.md"))
+    # Skip INDEX.md
+    md_paths = [p for p in md_paths if p.name != "INDEX.md"]
+
+    if limit is not None:
+        md_paths = md_paths[:limit]
+
+    print(f"\n{'='*60}")
+    print(f"Collection: {name}  |  items: {len(md_paths)}  |  staging: data/etl-staging/")
+    print("=" * 60)
+
+    done = 0
+    for md_path in md_paths:
+        out = convert_collection_item(md_path, name, cfg, dry_run=dry_run)
+        if out is not None:
+            done += 1
+
+    print(f"\n✓ Klaar: {done}/{len(md_paths)} items verwerkt.")
+    return done
+
+
 # ─── CLI ──────────────────────────────────────────────────────────────────────
 
 def cmd_list(config: dict, filter_method: str | None = None,
@@ -383,6 +641,10 @@ def main() -> None:
         description="Certificaid bronnen-ETL — in-process orchestrator (ADR-005 §2)"
     )
     parser.add_argument("--source", help="Naam van de bron uit source_config.yaml")
+    parser.add_argument("--collection",
+                        help="Naam van een collection (bv. cbn-adviezen, itaa-normen)")
+    parser.add_argument("--limit", type=int, default=None,
+                        help="Beperk --collection tot de eerste N items (smoketest)")
     parser.add_argument("--all", action="store_true",
                         help="Alle bronnen behalve handcrafted/derived")
     parser.add_argument("--list", action="store_true", help="Toon overzicht")
@@ -398,6 +660,12 @@ def main() -> None:
 
     if args.list:
         cmd_list(config, filter_method=args.method, filter_status=args.status)
+        return
+
+    if args.collection:
+        convert_collection(
+            args.collection, dry_run=args.dry_run, limit=args.limit,
+        )
         return
 
     if args.source:

@@ -22,8 +22,10 @@ from __future__ import annotations
 from typing import Callable
 
 from . import (
+    cbn_advies,
     custom_wetboek,
     custom_wib92,
+    itaa_norm,
     justel_bs_bilingual,
     justel_html,
     pdftotext_compilatie_btw,
@@ -42,6 +44,8 @@ METHOD_HANDLERS: dict[str, ExtractFn] = {
     "justel_html": justel_html.extract,
     "justel_bs_bilingual": justel_bs_bilingual.extract,
     "pdftotext_compilatie_btw": pdftotext_compilatie_btw.extract,
+    "cbn_advies": cbn_advies.extract,
+    "extract_norm": itaa_norm.extract,
 }
 
 # Methodes die een dict retourneren (1-op-N output). De orchestrator gebruikt
