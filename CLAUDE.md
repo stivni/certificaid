@@ -41,7 +41,13 @@ Deze regels gelden bij elke sessie en elke agent:
    - **Design/sparring-modus**: we bespreken een beslissing samen. Het resultaat *moet* landen in een nieuw of bijgewerkt ADR vóór de uitvoering start.
    - **Werk-modus**: zelfstandige uitvoering (indexeren, fiches schrijven, bronnen verwerken, ...). Werkt altijd binnen de spelregels van de bestaande ADRs — geen nieuwe ontwerpkeuzes maken zonder terug te schakelen naar design-modus.
 
-7. **Geen afkortingen in code, docs en schema's.** Volledige namen overal: `programmaonderdeel` (niet `PO`), `kenniselement` (niet `TDK`), enzovoort. Geldt voor bestandsnamen, veldnamen, mapnamen, ADR-titels en commit-messages. In een gesprek met de gebruiker zijn afkortingen wél OK — daar gaat snelheid boven volledigheid.
+7. **Werkverdeling Opus ↔ Sonnet**:
+   - **Opus** is de design-autoriteit: ADR-werk, sparring, plan-validatie, eindreview op grote diffs.
+   - **Sonnet** voert de uitvoering uit binnen de spelregels van het ADR. Concreet werk (scripts schrijven, refactoren, conversie draaien, tests uitvoeren) wordt door Opus **gedelegeerd via de Agent-tool** zodra het plan duidelijk is. Opus blijft de gespreksmodus; Sonnet-agenten zijn werkpaarden.
+   - Sonnet pingt terug naar Opus bij design-onduidelijkheid (bv. een edge-case die niet in het ADR staat). Sonnet maakt geen nieuwe ontwerpkeuzes zelfstandig.
+   - In een Sonnet-sessie zonder design-werk geldt deze regel niet — daar werkt Sonnet rechtstreeks binnen het bestaande ADR.
+
+8. **Geen afkortingen in code, docs en schema's.** Volledige namen overal: `programmaonderdeel` (niet `PO`), `kenniselement` (niet `TDK`), enzovoort. Geldt voor bestandsnamen, veldnamen, mapnamen, ADR-titels en commit-messages. In een gesprek met de gebruiker zijn afkortingen wél OK — daar gaat snelheid boven volledigheid.
 
 ---
 
