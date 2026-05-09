@@ -1607,5 +1607,53 @@ sources:
     extract:
       method: handcrafted
       params:
-        reden: Educatief overzicht alle Belgische belastingen — geen circulaire, maar gezaghebbend overzichtswerk van 
+        reden: Educatief overzicht alle Belgische belastingen — geen circulaire, maar gezaghebbend overzichtswerk van
           FOD Financiën zelf
+  Belastingalmanak-2026:
+    bron_rol: praktijkgids
+    raw: resources/raw/wetteksten/Belastingalmanak-2026.pdf
+    output: resources/bronnen/wetteksten/Belastingalmanak-2026.md
+    tags: ["2.2", "2.3"]
+    itaa_sectie: "2.2"
+    bijgewerkt: "05.2026"
+    wet: "Belastingalmanak 2026 — ITAA / Larcier-Intersentia"
+    status: nieuw
+    note: "Praktische PB-gids; toegankelijk overzicht naast officiële toelichtingen. Gedownload van ITAA BeExcellent."
+    extract:
+      method: pdftotext_ejustice
+  Almanak-VenB-2026:
+    bron_rol: praktijkgids
+    raw: resources/raw/wetteksten/Almanak-VenB-2026.pdf
+    output: resources/bronnen/wetteksten/Almanak-VenB-2026.md
+    tags: ["2.4"]
+    itaa_sectie: "2.4"
+    bijgewerkt: "05.2026"
+    wet: "Almanak Vennootschapsbelasting 2026 — ITAA / Larcier-Intersentia"
+    status: nieuw
+    note: "Praktische VenB-gids voor het beroep. Gedownload van ITAA BeExcellent."
+    extract:
+      method: pdftotext_ejustice
+  Almanak-BTW-2026:
+    bron_rol: praktijkgids
+    raw: resources/raw/wetteksten/Almanak-BTW-2026.pdf
+    output: resources/bronnen/wetteksten/Almanak-BTW-2026.md
+    tags: ["2.4"]
+    itaa_sectie: "2.4"
+    bijgewerkt: "05.2026"
+    wet: "Almanak BTW 2026 — ITAA / Larcier-Intersentia"
+    status: nieuw
+    note: "Praktische BTW-gids voor het beroep. Gedownload van ITAA BeExcellent."
+    extract:
+      method: pdftotext_ejustice
+  Cijfers-Tarieven-2026:
+    bron_rol: praktijkgids
+    raw: resources/raw/wetteksten/Cijfers-Tarieven-2026.pdf
+    output: resources/bronnen/wetteksten/Cijfers-Tarieven-2026.md
+    tags: ["2.1", "2.2", "2.3", "2.4", "2.5"]
+    itaa_sectie: "2"
+    bijgewerkt: "05.2026"
+    wet: "Cijfers & tarieven 2026 — ITAA"
+    status: nieuw
+    note: "Quick reference: tarieven, drempels, percentages. Gedownload van ITAA BeExcellent."
+    extract:
+      method: pdftotext_ejustice
