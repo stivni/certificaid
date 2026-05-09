@@ -1058,6 +1058,18 @@ sources:
           is gefragmenteerd over Wet-ITAA-2019, Sw. art. 458, Beroepsgeheim-norm
           en oude KBs (1998 IAB / 2021 BIBF). Laatste twee zijn deels niet vrij
           toegankelijk; voor RAG-doel volstaan de andere bronnen.
+  KB-1998-plichtenleer:
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/KB-1998-plichtenleer.html
+    output: resources/bronnen/wetteksten/KB-1998-plichtenleer.md
+    itaa_sectie: "XXI"
+    tags: ["XXI", "4.0", "ethiek", "deontologie", "plichtenleer"]
+    bijgewerkt: "01.03.1998"
+    wet: "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants"
+    status: nieuw
+    note: "Oude IAB-plichtenleer; gedeeltelijk vervangen door Wet-ITAA-2019. Geconsolideerde Justel-tekst (cn=1998030133, numac=1998016071)."
+    extract:
+      method: justel_change_lg
   Wetboek-Invordering:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/Wetboek-Invordering.pdf

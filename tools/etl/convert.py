@@ -104,6 +104,7 @@ _BRON_LABEL_PER_METHOD = {
     "custom_wetboek": "Fisconetplus.be (officieuze gecoördineerde versie)",
     "custom_wib92": "Fisconet (officieuze gecoördineerde versie)",
     "justel_html": "www.ejustice.just.fgov.be (Justel, gecoördineerde versie)",
+    "justel_change_lg": "www.ejustice.just.fgov.be (Justel change_lg.pl, legacy HTML — gecoördineerde versie)",
     "justel_bs_bilingual": "ejustice.just.fgov.be (B.S. originele publicatie — NL-kolom)",
     "pdftotext_compilatie_btw": "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)",
 }
@@ -239,7 +240,7 @@ def _cleanup_steps_for(cfg: dict, method: str) -> list[str]:
         # Body is al grotendeels schoon; geen toc-removal of artefact-stripping
         # die het reeds geconverteerde markdown zou kunnen breken.
         return ["collapse_blank_lines"] + list(cfg.get("cleanup", []))
-    if method in ("justel_html", "justel_bs_bilingual"):
+    if method in ("justel_html", "justel_change_lg", "justel_bs_bilingual"):
         return ["collapse_blank_lines"]
     return list(DEFAULT_STEPS)
 
