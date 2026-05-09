@@ -98,6 +98,7 @@ def main() -> None:
             doc, meta = by_id[cid]
             bundle_with_text.append({
                 "chunk_id": cid,
+                "chunk_sha": c.get("chunk_sha") or meta.get("chunk_sha"),
                 "bron": meta.get("bron", ""),
                 "bron_rol": meta.get("bron_rol", ""),
                 "sectie": meta.get("sectie") or meta.get("artikel_ref", ""),

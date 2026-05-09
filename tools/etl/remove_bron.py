@@ -11,12 +11,12 @@ vóór de volgende:
     c. Raw-bronbestand  → rm van raw PDF/HTML (alleen met --ook-raw, alleen als uniek)
     d. source_config    → verwijdert de entry als die bron expliciet vermeld staat
 
-  Laag 2 — Vermoedens (NIET automatisch — vereist agent-review):
-    De retrieval-bestanden in data/extractie/*/retrieval/*.json bevatten
-    vermoedens die gegrond zijn op chunks van deze bron. Dit script toont
-    welke vermoedens getroffen worden, maar past ze NIET aan.
-    → Review met: Claude Code Task + qa_subagent_prompt.md
-    → Daarna: vermoedens herschrijven of alternatieve bron aanwijzen
+  Laag 2 — Concept-records (NIET automatisch — vereist agent-review):
+    De concept-records in data/concept_records/**/*.json bevatten inline
+    provenance-blokken per veld die verwijzen naar chunk-ids van deze bron.
+    Dit script toont welke records getroffen worden, maar past ze NIET aan.
+    → Review met een Opus-subagent: welke velden kunnen herschreven worden
+      op basis van alternatieve bronnen, welke velden moeten leeg/stale blijven?
 
   Laag 3 — Content-fiches (NIET automatisch — na Laag 2):
     Materie-/competentie-fiches die leunen op de getroffen vermoedens moeten
@@ -67,7 +67,7 @@ BRON_DIRS = {
 }
 CHROMA_PATH = ROOT / "data" / "chroma_db"
 SOURCE_CONFIG = ROOT / "resources" / "source_config.yaml"
-EXTRACTIE_DIR = ROOT / "data" / "extractie"
+CONCEPT_RECORDS_DIR = ROOT / "data" / "concept_records"
 CONTENT_DIR = ROOT / "content"
 
 
@@ -181,40 +181,61 @@ def _git_rm(path: Path) -> str:
     return "FOUT: bestand niet gevonden"
 
 
-# ─── Laag 2: Vermoedens-impact ───────────────────────────────────────────────
+# ─── Laag 2: Concept-records impact ─────────────────────────────────────────
 
-def _find_affected_vermoedens(bron_stem: str) -> list[dict]:
+def _collect_inline_provenance_chunks(obj: object, path: str = "") -> list[tuple[str, str]]:
     """
-    Doorzoek alle retrieval-JSON's op verwijzingen naar deze bron.
-    Geeft een lijst van {taakblok, vermoeden_naam, n_chunks, chunk_ids}.
+    Recursief: zoek (veld_pad, chunk_id) uit alle inline _provenance.inputs[].id
+    in een concept-record. Slaat top-level _provenance over (dat is record-metadata,
+    geen veld-provenance).
+    """
+    results: list[tuple[str, str]] = []
+    if isinstance(obj, dict):
+        prov = obj.get("_provenance")
+        if path and isinstance(prov, dict):
+            for inp in prov.get("inputs", []):
+                if isinstance(inp, dict) and "id" in inp:
+                    results.append((path, inp["id"]))
+        for k, v in obj.items():
+            if k == "_provenance":
+                continue
+            results.extend(_collect_inline_provenance_chunks(v, path=f"{path}.{k}" if path else k))
+    elif isinstance(obj, list):
+        for i, item in enumerate(obj):
+            results.extend(_collect_inline_provenance_chunks(item, path=f"{path}[{i}]"))
+    return results
+
+
+def _find_affected_concept_records(bron_stem: str) -> list[dict]:
+    """
+    Doorzoek alle concept-records op inline provenance-verwijzingen naar deze bron.
+    Geeft een lijst van {record, naam, n_chunks, fields, chunk_ids}.
     """
     affected: list[dict] = []
-    if not EXTRACTIE_DIR.exists():
+    if not CONCEPT_RECORDS_DIR.exists():
         return affected
 
-    for retrieval_file in sorted(EXTRACTIE_DIR.rglob("retrieval/*.json")):
+    for record_file in sorted(CONCEPT_RECORDS_DIR.rglob("*.json")):
         try:
-            data = json.loads(retrieval_file.read_text(encoding="utf-8"))
+            data = json.loads(record_file.read_text(encoding="utf-8"))
         except Exception:
             continue
+        if "naam" not in data or "node_type" not in data:
+            continue  # geen concept-record (bv. _voorgestelde_types.yaml)
 
-        taakblok = data.get("taakblok", retrieval_file.stem)
-        for v in data.get("vermoedens", []):
-            naam = v.get("naam", "?")
-            hits = [
-                c["chunk_id"]
-                for c in v.get("chunks", [])
-                if c.get("bron", "") == bron_stem
-                or c.get("chunk_id", "").startswith(bron_stem + "__")
-            ]
-            if hits:
-                affected.append({
-                    "taakblok": taakblok,
-                    "vermoeden": naam,
-                    "n_chunks": len(hits),
-                    "chunk_ids": hits,
-                    "retrieval_file": str(retrieval_file.relative_to(ROOT)),
-                })
+        field_chunks = _collect_inline_provenance_chunks(data)
+        hits = [
+            (field, cid) for field, cid in field_chunks
+            if cid.startswith(bron_stem + "__") or cid == bron_stem
+        ]
+        if hits:
+            affected.append({
+                "record": str(record_file.relative_to(ROOT)),
+                "naam": data.get("naam", "?"),
+                "n_chunks": len(hits),
+                "fields": list(dict.fromkeys(f for f, _ in hits)),
+                "chunk_ids": [cid for _, cid in hits],
+            })
     return affected
 
 
@@ -252,7 +273,7 @@ def analyse_one(path: Path) -> dict:
 
     chunk_ids = _chroma_chunk_ids(bestandsnaam)
     raw_paths = _raw_paths_for_bron(fm)
-    vermoedens = _find_affected_vermoedens(bron_stem)
+    concept_records = _find_affected_concept_records(bron_stem)
     content_pages = _find_content_pages(path)
 
     return {
@@ -265,7 +286,7 @@ def analyse_one(path: Path) -> dict:
         "raw_paths": raw_paths,
         "source_config_entry": _source_config_entry(bestandsnaam),
         # Laag 2
-        "affected_vermoedens": vermoedens,
+        "affected_concept_records": concept_records,
         # Laag 3
         "content_pages": content_pages,
     }
@@ -329,18 +350,17 @@ def print_rapport(analyse: dict, *, actielog: list[str], dry_run: bool) -> None:
     for actie in actielog:
         print(f"{prefix} {actie}")
 
-    # Laag 2 — vermoedens (NOOIT automatisch)
-    vermoedens = analyse["affected_vermoedens"]
-    if vermoedens:
-        print(f"\n  LAAG 2 — ⚠️  {len(vermoedens)} vermoeden(s) vereisen review:")
-        print("    (NIET automatisch — run een agent-review vóór content aan te passen)")
-        for v in vermoedens:
-            print(f"    • [{v['taakblok']}] {v['vermoeden']}")
-            print(f"        {v['n_chunks']} chunk(s): {', '.join(v['chunk_ids'][:2])}"
-                  + ("..." if len(v['chunk_ids']) > 2 else ""))
-            print(f"        in: {v['retrieval_file']}")
+    # Laag 2 — concept-records (NOOIT automatisch)
+    concept_records = analyse["affected_concept_records"]
+    if concept_records:
+        print(f"\n  LAAG 2 — ⚠️  {len(concept_records)} concept-record(s) vereisen review:")
+        print("    (NIET automatisch — run een Opus-subagent-review vóór records aan te passen)")
+        for cr in concept_records:
+            print(f"    • {cr['naam']}  ({cr['record']})")
+            print(f"        {cr['n_chunks']} chunk(s) in veld(en): {', '.join(cr['fields'][:3])}"
+                  + ("..." if len(cr['fields']) > 3 else ""))
     else:
-        print("\n  LAAG 2 — vermoedens: geen getroffen (0 retrieval-verwijzingen)")
+        print("\n  LAAG 2 — concept-records: geen getroffen (0 provenance-verwijzingen)")
 
     # Laag 3 — content-pagina's
     pages = analyse["content_pages"]
@@ -409,9 +429,9 @@ def main() -> None:
 
     if not dry_run:
         print("\nVolgende stap — Laag 2:")
-        print("  Als er vermoedens getroffen zijn: run een agent-review op de")
-        print("  betrokken retrieval-bestanden vóór content aan te passen.")
-        print("  Zie tools/etl/qa_subagent_prompt.md voor de review-instructies.")
+        print("  Als er concept-records getroffen zijn: run een Opus-subagent-review.")
+        print("  Vraag per getroffen veld: is er een alternatieve bron beschikbaar,")
+        print("  of moet het veld leeggemaakt/als stale gemarkeerd worden?")
 
 
 if __name__ == "__main__":

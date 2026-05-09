@@ -270,6 +270,7 @@ def main() -> None:
             "bundle": [
                 {
                     "chunk_id": chunk_ids[j],
+                    "chunk_sha": chunk_metas[j].get("chunk_sha"),
                     "bron": chunk_metas[j].get("bron", ""),
                     "bron_rol": chunk_metas[j].get("bron_rol", ""),
                     "sectie": chunk_metas[j].get("sectie") or chunk_metas[j].get("artikel_ref", ""),
