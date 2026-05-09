@@ -60,6 +60,29 @@ KNOWN_PDFS: dict[str, dict] = {
         "column_split": 300,
         "full_width_threshold": 400,
     },
+    # NL-only enkelkolom-PDFs (geen FR-kolom): we hergebruiken het "bilingual"-pad
+    # met een hoge column_split zodat alle NL-blokken in de NL-kolom vallen en de
+    # FR-detectie geen tekst weggooit (er is geen FR aanwezig).
+    "ITAA-norm-aww-richtlijn-bibf.md": {
+        "pdf": ROOT / "resources" / "raw" / "normen" / "beexcellent-4-bibf-aww.pdf",
+        "type": "bilingual",
+        "column_split": 400,
+    },
+    "ITAA-norm-gedragslijnen-relaties-IBR.md": {
+        "pdf": ROOT / "resources" / "raw" / "normen" / "gedragslijnen-relaties-IBR.pdf",
+        "type": "bilingual",
+        "column_split": 400,
+    },
+    "ITAA-norm-opdrachtbrief.md": {
+        "pdf": ROOT / "resources" / "raw" / "normen" / "nota-opdrachtbrief.pdf",
+        "type": "bilingual",
+        "column_split": 400,
+    },
+    "ITAA-norm-aww-procedurereglement.md": {
+        "pdf": ROOT / "resources" / "raw" / "normen" / "procedurereglement-AWW-art118.pdf",
+        "type": "bilingual",
+        "column_split": 400,
+    },
 }  # Uitbreiding mogelijk: voeg hier andere twee-kolom PDFs toe met hun type-config
 
 NORMEN_DIR = ROOT / "resources" / "bronnen" / "normen"
