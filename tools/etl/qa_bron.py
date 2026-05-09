@@ -401,7 +401,15 @@ def check_heading_structure(body: str, file_size: int) -> tuple[CheckResult, int
     )
 
 
-def check_max_section(body: str, heading_count: int, forced_level: Optional[int] = None) -> tuple[CheckResult, int]:
+_SUB_BOUNDARY_QA_RE = re.compile(r"(?m)^\s*(?:\d+°|§\s*\d+)")
+
+
+def check_max_section(
+    body: str,
+    heading_count: int,
+    forced_level: Optional[int] = None,
+    sub_strategy: Optional[str] = None,
+) -> tuple[CheckResult, int]:
     """Beoordeel maximale sectiegrootte op het meest geschikte chunk-niveau.
 
     Gebruikt `_best_chunk_level_and_max()` om het diepste heading-niveau te vinden
@@ -413,18 +421,49 @@ def check_max_section(body: str, heading_count: int, forced_level: Optional[int]
     langste sectie op precies dat heading-niveau gemeten — geen auto-keuze. Dit is
     de staging-modus waar ETL de chunk-strategie expliciet vastlegt.
 
+    Wanneer `sub_strategy == "per_definitieblok"` (ADR-006 §4.2): sub-grenzen
+    (`1°`, `§ N`) worden meegenomen als virtuele extra grenzen na de
+    heading-split. De RAG-chunker doet dat ook — qa_bron moet dezelfde lens
+    gebruiken om geen valse FAILs te rapporteren.
+
     - FAIL: geen enkel niveau haalt ≤ 24K EN geen headings (één megachunk)
     - WARN: geen enkel niveau haalt ≤ 24K mét headings (structuur aanwezig maar te grof)
     - PASS: er is een niveau waarop de langste sectie ≤ 24K
     """
+    def _max_with_sub_split(text: str) -> int:
+        """Pas sub-boundary split toe en retourneer langste segment."""
+        boundaries = [m.start() for m in _SUB_BOUNDARY_QA_RE.finditer(text)]
+        if len(boundaries) < 3:
+            return len(text)
+        boundaries.append(len(text))
+        last = 0
+        # intro
+        intro_len = boundaries[0] - last
+        max_seg = intro_len
+        for i in range(len(boundaries) - 1):
+            seg_len = boundaries[i + 1] - boundaries[i]
+            if seg_len > max_seg:
+                max_seg = seg_len
+        return max_seg
+
     if forced_level is not None and 2 <= forced_level <= 6:
         pattern = re.compile(rf"(?m)^#{{{forced_level}}}\s+.*$")
         parts = pattern.split(body)
-        nonempty = [len(p) for p in parts if p.strip()]
-        max_len_forced = max(nonempty) if nonempty else len(body)
+        nonempty = [p for p in parts if p.strip()]
+        if sub_strategy == "per_definitieblok" and nonempty:
+            max_len_forced = max(_max_with_sub_split(p) for p in nonempty)
+        else:
+            max_len_forced = max((len(p) for p in nonempty), default=len(body))
         level, max_len = forced_level, max_len_forced
     else:
         level, max_len = _best_chunk_level_and_max(body)
+        if sub_strategy == "per_definitieblok":
+            # Pas sub-split ook toe op auto-detected level: meet niveau-X
+            # secties opnieuw met sub-grens-splits.
+            pattern = re.compile(rf"(?m)^#{{{level}}}\s+.*$")
+            parts = [p for p in pattern.split(body) if p.strip()]
+            if parts:
+                max_len = max(_max_with_sub_split(p) for p in parts)
     hdr = "#" * level
     if max_len > MAX_SECTION_CHARS:
         if heading_count == 0:
@@ -549,17 +588,24 @@ def qa_one_bron(path: Path, staging: bool = False) -> BronReport:
     checks.append(check_provenance(path))
 
     forced_level: Optional[int] = None
+    sub_strategy: Optional[str] = None
     if staging:
         chunk_check = check_chunk_config(frontmatter)
         checks.append(chunk_check)
         cfg = _parse_chunk_config(frontmatter or "")
         if cfg and isinstance(cfg.get("level"), int):
             forced_level = cfg["level"]
+        if cfg:
+            sub = cfg.get("sub_strategy")
+            if isinstance(sub, str) and sub:
+                sub_strategy = sub
 
     heading_check, heading_count = check_heading_structure(body, len(body))
     checks.append(heading_check)
 
-    section_check, max_section = check_max_section(body, heading_count, forced_level)
+    section_check, max_section = check_max_section(
+        body, heading_count, forced_level, sub_strategy=sub_strategy,
+    )
     checks.append(section_check)
 
     checks.append(check_no_form_feed(body))

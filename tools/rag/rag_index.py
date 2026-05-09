@@ -360,6 +360,110 @@ def split_long_chunk(chunk: dict, max_chars: int) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# Sub-artikel chunking (ADR-006 §4.2) — opt-in via chunk.sub_strategy
+# ---------------------------------------------------------------------------
+
+# Sub-grens-regex: definitieblokken (1°, 2°, ...) en paragrafen (§ 1, § 2, ...).
+# We accepteren leading whitespace zodat ingesprongen items ("   1°") matchen.
+# Het label kan optioneel een suffix `/N` of ` /N` hebben (bv. "5° /1") voor
+# Belgische ingelaste definities — die krijgen elk een eigen deelchunk.
+_SUB_DEFBLOK_RE = re.compile(r"^\s*(\d+°(?:\s*/\d+)?)\s")
+_SUB_PARAGRAAF_RE = re.compile(r"^\s*(§\s*\d+(?:bis|ter|quater)?)")
+# Minimum aantal sub-headers om sub-splitting toe te passen — onder die drempel
+# levert het geen retrieval-winst op en zou het de chunk-set onnodig versnipperen.
+_SUB_SPLIT_MIN_HEADERS = 3
+
+
+def _detect_sub_boundaries(text_lines: list[str]) -> list[tuple[int, str, str]]:
+    """Vind sub-grenzen in een lijst regels.
+
+    Returns: lijst van (line_idx, kind, label), bv. (12, "definitieblok", "1°").
+    Eerste-match wins per regel: "1°" overrulet "§" (ze komen niet samen voor in
+    Belgische wetstructuur).
+    """
+    boundaries: list[tuple[int, str, str]] = []
+    for i, line in enumerate(text_lines):
+        m = _SUB_DEFBLOK_RE.match(line)
+        if m:
+            boundaries.append((i, "definitieblok", m.group(1)))
+            continue
+        m = _SUB_PARAGRAAF_RE.match(line)
+        if m:
+            boundaries.append((i, "paragraaf", m.group(1).replace(" ", "")))
+    return boundaries
+
+
+def _split_chunk_by_sub(chunk: dict) -> list[dict]:
+    """Splits één artikel-chunk in deelchunks op definitieblok-/paragraaf-grenzen.
+
+    Behoudt artikel-context: de breadcrumb wordt verlengd met de sub-positie en
+    aan de path-array wordt één extra niveau ``{"type": "sub", "nr": "1°"}``
+    toegevoegd. Eerste deel (intro vóór eerste sub-grens) behoudt de basis-id en
+    breadcrumb — dat blijft ankerpunt voor retrieval op het artikel zelf.
+
+    Sub-chunk-ID: ``<basis>__sub_<N>`` met N=1..k (deterministisch).
+
+    Werkt op het bestaande chunk-formaat dat ``flush()`` produceert. Het
+    chunk-tekstveld bevat al de breadcrumb + heading + body — sub-split snijdt
+    in de body en herbouwt voor elk deel: ``<sub-breadcrumb>\\n\\n<heading> — <sub-label>\\n\\n<body-deel>``.
+    """
+    text = chunk["text"]
+    basis_breadcrumb = chunk.get("breadcrumb", "")
+    heading = chunk.get("heading", "")
+    base_path = chunk.get("path", [])
+
+    # Splits text in (breadcrumb-prefix-blok, heading-blok, body)
+    # Format vanuit flush() is: "<breadcrumb>\n\n<heading>\n\n<body>"
+    parts = text.split("\n\n", 2)
+    if len(parts) < 3:
+        return [chunk]
+    prefix_block, heading_block, body = parts[0], parts[1], parts[2]
+
+    body_lines = body.split("\n")
+    boundaries = _detect_sub_boundaries(body_lines)
+    if len(boundaries) < _SUB_SPLIT_MIN_HEADERS:
+        return [chunk]
+
+    # Body opdelen: intro = vóór eerste boundary; daarna één segment per boundary.
+    first_idx = boundaries[0][0]
+    intro_lines = body_lines[:first_idx]
+    intro_text = "\n".join(intro_lines).strip()
+
+    segments: list[dict] = []
+    # Intro-chunk: behoud basis-id + originele breadcrumb (anker voor artikel zelf).
+    if intro_text:
+        intro_full = f"{prefix_block}\n\n{heading_block}\n\n{intro_text}"
+        intro_chunk = dict(chunk)
+        intro_chunk["text"] = intro_full
+        segments.append(intro_chunk)
+
+    # Per-sub deelchunks
+    for i, (line_idx, kind, label) in enumerate(boundaries, start=1):
+        end_idx = boundaries[i][0] if i < len(boundaries) else len(body_lines)
+        sub_body = "\n".join(body_lines[line_idx:end_idx]).strip()
+        if not sub_body:
+            continue
+        # Verleng breadcrumb met sub-positie. Basis-breadcrumb eindigt op "]".
+        if basis_breadcrumb.endswith("]"):
+            sub_breadcrumb = f"{basis_breadcrumb[:-1]} → {heading} → {label}]"
+        else:
+            sub_breadcrumb = f"{basis_breadcrumb} → {heading} → {label}"
+        sub_text = f"{sub_breadcrumb}\n\n{heading_block} — {label}\n\n{sub_body}"
+        sub_path = list(base_path) + [
+            {"type": "sub", "nr": label, "naam": ""},
+        ]
+        sub_chunk = dict(chunk)
+        sub_chunk["id"] = f"{chunk['id']}__sub_{i}"
+        sub_chunk["text"] = sub_text
+        sub_chunk["heading"] = f"{heading} — {label}"
+        sub_chunk["path"] = sub_path
+        sub_chunk["breadcrumb"] = sub_breadcrumb
+        segments.append(sub_chunk)
+
+    return segments if segments else [chunk]
+
+
+# ---------------------------------------------------------------------------
 # Chunking — wetteksten (per artikel, stabiele id op art-nr)
 # ---------------------------------------------------------------------------
 
@@ -455,6 +559,7 @@ def split_wettekst(text: str, source_id: str, fm: dict) -> list[dict]:
     # Frontmatter-driven chunk-configuratie (ADR-006 §4)
     chunk_config = fm.get("chunk") or {}
     chunk_type = str(chunk_config.get("type", "Art."))   # bv. "Art." of "Par."
+    sub_strategy = chunk_config.get("sub_strategy")      # ADR-006 §4.2
     # chunk_level is informatief; de type-gebaseerde detectie bepaalt de grens
 
     lines = text.split("\n")
@@ -497,24 +602,17 @@ def split_wettekst(text: str, source_id: str, fm: dict) -> list[dict]:
         chunk_id = f"{source_id}__{art_key}{suffix}"
 
         full_text = f"{breadcrumb}\n\n{article_heading}\n\n{body}".strip()
-        provisional = {
-            "id": chunk_id,
-            "text": full_text,
-            "heading": article_heading,
-            "path": path,
-            "breadcrumb": breadcrumb,
-        }
-        for i, fragment in enumerate(split_long_chunk(provisional, MAX_CHUNK_CHARS), 1):
-            fid = f"{chunk_id}_part{i}" if fragment.get("_split_part") else chunk_id
-            chunks.append({
-                "id":          fid,
-                "text":        fragment["text"],
-                "heading":     fragment["heading"],
-                "path":        fragment["path"],
-                "breadcrumb":  fragment["breadcrumb"],
-                "_split_part": fragment.get("_split_part", ""),
-                "_art_nr":     nr,   # voor bis/ter-merge
-            })
+        # Bouw één provisional chunk per artikel; long-split én sub-split
+        # worden na _merge_bis_ter toegepast (anders breekt sub-split op
+        # `__partN` segmenten die geen heading meer bevatten).
+        chunks.append({
+            "id":          chunk_id,
+            "text":        full_text,
+            "heading":     article_heading,
+            "path":        path,
+            "breadcrumb":  breadcrumb,
+            "_art_nr":     nr,   # voor bis/ter-merge
+        })
 
     for line in lines:
         parsed = parse_heading(line)
@@ -530,7 +628,33 @@ def split_wettekst(text: str, source_id: str, fm: dict) -> list[dict]:
             structural_stack.append(parsed)
 
     flush()
-    return _merge_bis_ter(chunks, MAX_CHUNK_CHARS)
+    merged = _merge_bis_ter(chunks, MAX_CHUNK_CHARS)
+
+    # ADR-006 §4.2: opt-in sub-artikel-chunking (per_definitieblok).
+    # Wordt na bis/ter-merge toegepast, zodat een merged 458/458bis/458ter-chunk
+    # in één keer in deelchunks gaat indien het echt iets oplevert. Daarna
+    # past split_long_chunk eventuele restjes >MAX_CHUNK_CHARS aan.
+    pre_long: list[dict] = []
+    if sub_strategy == "per_definitieblok":
+        for c in merged:
+            pre_long.extend(_split_chunk_by_sub(c))
+    else:
+        pre_long = merged
+
+    final: list[dict] = []
+    for c in pre_long:
+        for i, fragment in enumerate(split_long_chunk(c, MAX_CHUNK_CHARS), 1):
+            fid = f"{c['id']}_part{i}" if fragment.get("_split_part") else c["id"]
+            final.append({
+                "id":          fid,
+                "text":        fragment["text"],
+                "heading":     fragment["heading"],
+                "path":        fragment["path"],
+                "breadcrumb":  fragment["breadcrumb"],
+                "_split_part": fragment.get("_split_part", ""),
+                "_art_nr":     c.get("_art_nr", ""),
+            })
+    return final
 
 
 # ---------------------------------------------------------------------------

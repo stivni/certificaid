@@ -92,6 +92,10 @@ sources:
     status: volledig
     extract:
       method: custom_wib92
+      params:
+        # ADR-006 §4.2: art. 2 WIB92 bevat ~30 fiscale definities (1°, 2°, ...)
+        # die als deelchunks beter retrievable zijn dan als één megachunk.
+        sub_strategy: per_definitieblok
   WBTW:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/WBTW-2026.pdf
@@ -182,6 +186,10 @@ sources:
     status: volledig
     extract:
       method: custom_wetboek
+      params:
+        # ADR-006 §4.2: lange artikelen met §-paragrafen en definitiepunten;
+        # sub-split houdt langste sectie onder de 24K cap.
+        sub_strategy: per_definitieblok
   Successierechten-Brussel:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/successie-brussel.pdf
@@ -529,6 +537,8 @@ sources:
         tags: ["VI.B", "2.4"]
         itaa_sectie: "VI.B"
         bijgewerkt: "29.12.1969"
+        # ADR-006 §4.2: lange definitie-/voorwaardelijst per art. — sub-split.
+        sub_strategy: per_definitieblok
       - kb_id: "6"
         output: resources/bronnen/wetteksten/WBTW-KB6-internationaal-vervoer.md
         wet: K.B. nr. 6 van 27 december 1977, met betrekking tot de vrijstellingen ten aanzien van internationaal vervoer,
@@ -621,6 +631,8 @@ sources:
         tags: ["VI.B", "2.4"]
         itaa_sectie: "VI.B"
         bijgewerkt: "15.09.1970"
+        # ADR-006 §4.2: lange definitie-/voorwaardelijst per art. — sub-split.
+        sub_strategy: per_definitieblok
       - kb_id: "23"
         output: resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md
         wet: K.B. nr. 23 van 9 december 2009, met betrekking tot de jaarlijkse lijst van de BTW-belastingplichtige afnemers
@@ -789,22 +801,119 @@ sources:
         tags: ["VI.B", "2.4"]
         itaa_sectie: "VI.B"
         bijgewerkt: "29.08.2019"
-  # TODO: WBTW-MB-compilatie wacht op een eigen split-handler (analoog aan
-  # WBTW-KBs / pdftotext_compilatie_btw). MBs hebben andere page-headers dan
-  # KBs en een eigen ID-conventie; voor nu blijft dit één-op-één.
-  WBTW-MB-compilatie:
+  WBTW-MBs:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
-    output: resources/bronnen/wetteksten/WBTW-MB-compilatie.md
-    content: content/bronnen/wetteksten/VIC-wbtw-mb-compilatie.md
     itaa_sectie: "VI.C"
     tags: ["VI.C", "2.4"]
     bijgewerkt: "29.04.2024"
     wet: "Ministeriële besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 29.04.2024)"
-    cleanup: [remove_toc, remove_page_artifacts, ensure_article_headings]
     status: nieuw
     extract:
-      method: pdftotext_ejustice
+      method: pdftotext_compilatie_btw
+      params:
+        kind: mb
+    # 1-op-N splits — één MB per split. kb_id-veld matcht de FOD-page-header
+    # in de compilatie-PDF (numeriek of dd.mm.yyyy). MB 17.03.2023 is bewust
+    # niet gesplitst hier: dat MB heeft een eigen entry
+    # `WBTW-MB-dagboek-ontvangsten-2023` op basis van een aparte PDF.
+    splits:
+      - kb_id: "1"
+        output: resources/bronnen/wetteksten/WBTW-MB1-aftrekregeling.md
+        wet: M.B. nr. 1 van 2 september 1980, met betrekking tot de aftrekregeling voor de toepassing van de belasting
+          over de toegevoegde waarde
+        tags: ["VI.C", "2.4"]
+        itaa_sectie: "VI.C"
+        bijgewerkt: "02.09.1980"
+      - kb_id: "2"
+        output: resources/bronnen/wetteksten/WBTW-MB2-teruggaven.md
+        wet: M.B. nr. 2 van 21 december 2010, met betrekking tot de teruggaven inzake belasting over de toegevoegde
+          waarde
+        tags: ["VI.C", "2.4"]
+        itaa_sectie: "VI.C"
+        bijgewerkt: "21.12.2010"
+      - kb_id: "6"
+        output: resources/bronnen/wetteksten/WBTW-MB6-uitstel-invoer.md
+        wet: M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de ter zake van de invoer
+          van goederen verschuldigde belasting over de toegevoegde waarde
+        tags: ["VI.C", "2.4"]
+        itaa_sectie: "VI.C"
+        bijgewerkt: "04.03.1993"
+      - kb_id: "11"
+        output: resources/bronnen/wetteksten/WBTW-MB11-facturen-oprichting-gebouwen.md
+        wet: M.B. nr. 11 van 3 november 1972, met betrekking tot de controle op de toepassing van de belasting over de
+          toegevoegde waarde ten aanzien van de facturen betreffende oprichting van gebouwen
+        tags: ["VI.C", "2.4"]
+        itaa_sectie: "VI.C"
+        bijgewerkt: "03.11.1972"
+      - kb_id: "12"
+        output: resources/bronnen/wetteksten/WBTW-MB12-weegtoestellen-slachthuizen.md
+        wet: M.B. nr. 12 van 28 augustus 1973, met betrekking tot de automatische weegtoestellen te gebruiken in
+          slachthuizen voor de toepassing van de belasting over de toegevoegde waarde
+        tags: ["VI.C", "2.4"]
+        itaa_sectie: "VI.C"
+        bijgewerkt: "28.08.1973"
+      - kb_id: "13"
+        output: resources/bronnen/wetteksten/WBTW-MB13-hypotheek-verplichtingen.md
+        wet: M.B. nr. 13 van 4 maart 1993, met betrekking tot de verplichtingen waartoe een belastingplichtige of een lid
+          van een btw-eenheid eigenaar of houder van een zakelijk recht op een voor hypotheek vatbaar goed gehouden is
+        tags: ["VI.C", "2.4"]
+        itaa_sectie: "VI.C"
+        bijgewerkt: "04.03.1993"
+      - kb_id: "20.12.2001"
+        output: resources/bronnen/wetteksten/WBTW-MB20dec2001-diensten-indiening-documenten.md
+        wet: M.B. van 20 december 2001, met betrekking tot de diensten waar de documenten bedoeld in de artikelen 53,
+          § 1, eerste lid, 2°, 53ter, 1°, 53quinquies en 53sexies van het Wetboek van de belasting over de toegevoegde
+          waarde moeten worden ingediend
+        tags: ["VI.C", "2.4"]
+        itaa_sectie: "VI.C"
+        bijgewerkt: "20.12.2001"
+      - kb_id: "23.06.2005"
+        output: resources/bronnen/wetteksten/WBTW-MB23jun2005-delegatie-samenwerking.md
+        wet: M.B. van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit inzake de administratieve
+          samenwerking op het gebied van de belasting over de toegevoegde waarde
+        tags: ["VI.C", "2.4"]
+        itaa_sectie: "VI.C"
+        bijgewerkt: "23.06.2005"
+      - kb_id: "29.08.2006"
+        output: resources/bronnen/wetteksten/WBTW-MB29aug2006-ambtenaar-62bis.md
+        wet: M.B. van 29 augustus 2006, tot aanduiding van de ambtenaar bedoeld in artikel 62bis van het Wetboek van de
+          belasting over de toegevoegde waarde en in artikel 318 van het Wetboek van de inkomstenbelastingen 1992
+        tags: ["VI.C", "2.4"]
+        itaa_sectie: "VI.C"
+        bijgewerkt: "29.08.2006"
+      - kb_id: "26.02.2007"
+        output: resources/bronnen/wetteksten/WBTW-MB26feb2007-elektronische-notificaties.md
+        wet: M.B. van 26 februari 2007, met betrekking tot de aanduiding van de dienst bevoegd voor het ontvangen van de
+          berichten en het afleveren van de ontvangstmeldingen in het kader van het systeem van elektronische
+          notificaties tussen de FOD Financiën en bepaalde ministeriële officieren, openbare ambtenaren en andere
+          personen
+        tags: ["VI.C", "2.4"]
+        itaa_sectie: "VI.C"
+        bijgewerkt: "26.02.2007"
+      - kb_id: "28.10.2009"
+        output: resources/bronnen/wetteksten/WBTW-MB28okt2009-model-berichten-93ter.md
+        wet: M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de
+          artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen
+          433 en 435 van het Wetboek van de inkomstenbelastingen 1992
+        tags: ["VI.C", "2.4"]
+        itaa_sectie: "VI.C"
+        bijgewerkt: "28.10.2009"
+      - kb_id: "16.07.2019"
+        output: resources/bronnen/wetteksten/WBTW-MB16jul2019-beroepscommissie.md
+        wet: M.B. van 16 juli 2019, tot aanduiding van de ambtenaren die in de functie van adviseur-generaal zitting
+          hebben in de beroepscommissie zoals bedoeld in artikel 66, § 2 van het wetboek van de minnelijke en gedwongen
+          invordering van fiscale en niet-fiscale schuldvorderingen
+        tags: ["VI.C", "2.4"]
+        itaa_sectie: "VI.C"
+        bijgewerkt: "16.07.2019"
+      - kb_id: "29.04.2024"
+        output: resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md
+        wet: M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een
+          geregistreerd kassasysteem
+        tags: ["VI.C", "2.4"]
+        itaa_sectie: "VI.C"
+        bijgewerkt: "29.04.2024"
   WBTW-MB-dagboek-ontvangsten-2023:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/btw-kbs/WBTW-MB-dagboek-ontvangsten-2023.pdf
@@ -837,6 +946,8 @@ sources:
       params:
         bilingual: true
         nl_col_x: 0
+        # ADR-006 §4.2: WVV art. 1:35 (UBO-definities) en andere definitie-art.
+        sub_strategy: per_definitieblok
   Antiwitwaswet-2017:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/Antiwitwaswet-2017.pdf
@@ -850,6 +961,10 @@ sources:
     status: toc_only
     extract:
       method: pdftotext_ejustice
+      params:
+        # ADR-006 §4.2: art. 4 bevat ~50 AML-definities (1°, 2°, ...).
+        # Sub-splitting houdt elk concept retrievable als zelfstandige chunk.
+        sub_strategy: per_definitieblok
   WER:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/WER.pdf

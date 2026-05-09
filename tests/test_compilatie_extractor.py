@@ -93,3 +93,70 @@ def test_extract_compilatie_requires_splits(tmp_path, monkeypatch):
     monkeypatch.setattr(ext, "_pdftotext_layout", lambda _p: "x")
     with pytest.raises(ValueError, match="splits"):
         ext.extract_compilatie(cfg, "WBTW-KBs")
+
+
+# ─── MB-mode (params.kind=mb) ────────────────────────────────────────────────
+
+
+def test_clean_body_strips_mb_page_footer():
+    raw = (
+        "FOD Financiën — Btw MB nr. 1\n"
+        "echte mb-inhoud\n"
+        "- MB nr. 1 / 1 -\n"
+        "nog meer inhoud\n"
+        "- MB 28.10.2009 / 3 -\n"
+        "laatste\n"
+    )
+    cleaned = ext._clean_body(raw)
+    assert "echte mb-inhoud" in cleaned
+    assert "nog meer inhoud" in cleaned
+    assert "laatste" in cleaned
+    assert "FOD Financiën" not in cleaned
+    assert "MB nr. 1 / 1" not in cleaned
+    assert "MB 28.10.2009 / 3" not in cleaned
+
+
+def test_extract_compilatie_routes_mb_splits(tmp_path, monkeypatch):
+    """params.kind=mb routeert naar MB-detectie i.p.v. KB."""
+    fake_pdf = tmp_path / "fake.pdf"
+    fake_pdf.write_bytes(b"%PDF-1.4 fake")
+
+    fake_text = (
+        "FOD Financiën — Btw MB nr. 1\n"
+        "mb1-inhoud\n"
+        "FOD Financiën — Btw MB 20.12.2001\n"
+        "mbdatum-inhoud\n"
+    )
+    cfg = {
+        "raw": str(fake_pdf.relative_to(tmp_path)),
+        "extract": {
+            "method": "pdftotext_compilatie_btw",
+            "params": {"kind": "mb"},
+        },
+        "splits": [
+            {"kb_id": "1", "output": "out/mb1.md", "wet": "MB 1"},
+            {"kb_id": "20.12.2001", "output": "out/mbdatum.md", "wet": "MB 20.12.2001"},
+        ],
+    }
+    monkeypatch.setattr(ext, "ROOT", tmp_path)
+    monkeypatch.setattr(ext, "_pdftotext_layout", lambda _p: fake_text)
+
+    result = ext.extract_compilatie(cfg, "WBTW-MBs")
+    assert set(result.keys()) == {"out/mb1.md", "out/mbdatum.md"}
+    assert "mb1-inhoud" in result["out/mb1.md"]
+    assert "mbdatum-inhoud" in result["out/mbdatum.md"]
+    assert "FOD Financiën" not in result["out/mb1.md"]
+
+
+def test_extract_compilatie_invalid_kind_raises(tmp_path, monkeypatch):
+    fake_pdf = tmp_path / "fake.pdf"
+    fake_pdf.write_bytes(b"%PDF-1.4")
+    cfg = {
+        "raw": "fake.pdf",
+        "extract": {"params": {"kind": "zz"}},
+        "splits": [{"kb_id": "1", "output": "x.md", "wet": "x"}],
+    }
+    monkeypatch.setattr(ext, "ROOT", tmp_path)
+    monkeypatch.setattr(ext, "_pdftotext_layout", lambda _p: "x")
+    with pytest.raises(ValueError, match="kind"):
+        ext.extract_compilatie(cfg, "WBTW-MBs")

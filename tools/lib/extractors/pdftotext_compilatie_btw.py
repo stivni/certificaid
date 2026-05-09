@@ -1,8 +1,12 @@
 """Extractor voor `pdftotext_compilatie_btw` — 1-op-N split-extractie.
 
-Een compilatie-PDF (bv. WBTW-KB-compilatie.pdf) bevat meerdere KBs. Deze
-extractor levert per gevraagde split de body-tekst, geïndexeerd op het
-gewenste output-pad.
+Een compilatie-PDF (bv. WBTW-KB-compilatie.pdf of WBTW-MB-compilatie.pdf)
+bevat meerdere KBs of MBs. Deze extractor levert per gevraagde split de
+body-tekst, geïndexeerd op het gewenste output-pad.
+
+De ``params.kind`` parameter (``"kb"`` of ``"mb"``, default ``"kb"``)
+bepaalt welk type besluit-headers wordt herkend. Beide types delen
+dezelfde extractie- en cleanup-pipeline.
 
 Pipeline:
   1. PDF → tekst via pdftotext (zelfde aanpak als pdftotext_ejustice).
@@ -29,17 +33,27 @@ ROOT = Path(__file__).resolve().parents[3]
 
 
 # Cleanup-patronen voor body — uit split-kb-compilatie.py overgenomen.
+# Patronen dekken zowel KB- als MB-compilaties: "Btw KB", "Btw MB",
+# bijwerkings-marginalia en page-footers in beide stijlen.
 _BODY_NOISE = [
-    re.compile(r'^FOD Financi.n.+?(?:Btw|BTW)\s+KB.+', re.I),
-    re.compile(r'^Btw KB nr\.\s+\d+\s+-\s+bijw.+', re.I),
+    re.compile(r'^FOD Financi.n.+?(?:Btw|BTW)\s+(?:KB|MB).+', re.I),
+    re.compile(r'^Btw\s+(?:KB|MB)\s+nr\.\s+\d+\s+-\s+bijw.+', re.I),
     re.compile(r'^\s*-\s*\d+\s*-\s*$'),
-    re.compile(r'^KB\d+\w*\s+pg\..+', re.I),
-    re.compile(r'^-\s*KB\d+\w*\s+pg\..+', re.I),
+    re.compile(r'^(?:KB|MB)\d+\w*\s+pg\..+', re.I),
+    re.compile(r'^-\s*(?:KB|MB)\d+\w*\s+pg\..+', re.I),
+    # Page-footer in MB-compilatie: "- MB nr. 1 / 1 -" of "- MB 28.10.2009 / 3 -".
+    re.compile(
+        r'^-\s*MB\s+(?:nr\.\s+\d+\w*|\d{2}[\.\-/]\d{2}[\.\-/]\d{4})'
+        r'\s*/\s*\d+\s*-$',
+        re.I,
+    ),
     re.compile(r'^-\s*Recente wijzigingen\s*/\s*\d+\s*-\s*$'),
     re.compile(r'^-\s*Bijlage\s*/\s*\d+\s*-\s*$'),
     re.compile(r'^Recente wijzigingen\s+www\.fisconetplus.+', re.I),
     re.compile(r'^Lijst van de bijwerkingen\b.+', re.I),
     re.compile(r'^www\.fisconetplus\.be\b'),
+    # Lijst-van-MB's pagina (TOC-footer in MB-compilatie).
+    re.compile(r'^-\s*Lijst van de MB.s\s*/\s*\d+\s*-\s*$'),
 ]
 
 
@@ -98,6 +112,8 @@ def extract_compilatie(cfg: dict, source_name: str) -> dict[str, str]:
     cfg moet bevatten:
         raw     : pad naar de compilatie-PDF (relatief aan repo-root)
         splits  : list van split-dicts met velden kb_id, output, wet, ...
+        extract.params.kind : optioneel, ``"kb"`` (default) of ``"mb"`` —
+            bepaalt welk type besluit-headers de splitter herkent.
 
     Returnt een mapping output-pad → body-tekst (zonder frontmatter,
     zonder heading-injectie). De orchestrator zorgt voor frontmatter,
@@ -110,6 +126,15 @@ def extract_compilatie(cfg: dict, source_name: str) -> dict[str, str]:
     if not raw_path.exists():
         raise FileNotFoundError(f"Raw PDF niet gevonden: {raw_path}")
 
+    extract_cfg = cfg.get("extract") or {}
+    params = extract_cfg.get("params") or {}
+    kind = str(params.get("kind", "kb")).lower()
+    if kind not in ("kb", "mb"):
+        raise ValueError(
+            f"{source_name}: extract.params.kind moet 'kb' of 'mb' zijn, "
+            f"kreeg {kind!r}"
+        )
+
     splits = _build_splits(cfg)
     if not splits:
         raise ValueError(
@@ -121,7 +146,7 @@ def extract_compilatie(cfg: dict, source_name: str) -> dict[str, str]:
     # boundary-markers — die moeten dus zichtbaar zijn voor split_btw_compilatie.
     # `_clean_body` schrapt ze achteraf per split.
     text = _pdftotext_layout(str(raw_path))
-    raw_splits = split_btw_compilatie(text, splits)
+    raw_splits = split_btw_compilatie(text, splits, kind=kind)
     return {out: _clean_body(body) if body else "" for out, body in raw_splits.items()}
 
 

@@ -405,17 +405,27 @@ def update_frontmatter_chunk(
     frontmatter_raw: str,
     chunk_level: int,
     chunk_type: str = "Art.",
+    sub_strategy: str | None = None,
 ) -> str:
     """
     Voeg het chunk:-blok toe aan de YAML frontmatter, of vervang het bestaande.
 
     frontmatter_raw bevat het volledige blok incl. "---" delimiters.
+
+    `sub_strategy` (ADR-006 §4.2): opt-in chunker-uitbreiding. Wordt als
+    YAML-string of `null` weggeschreven. Geldige waarden:
+      - None  → ``sub_strategy: null``
+      - "per_definitieblok" → ``sub_strategy: "per_definitieblok"``
     """
+    if sub_strategy is None:
+        sub_line = "  sub_strategy: null"
+    else:
+        sub_line = f'  sub_strategy: "{sub_strategy}"'
     chunk_block = (
         f"chunk:\n"
         f"  level: {chunk_level}\n"
         f'  type: "{chunk_type}"\n'
-        f"  sub_strategy: null"
+        f"{sub_line}"
     )
 
     closing = "\n---\n"
@@ -438,7 +448,7 @@ def update_frontmatter_chunk(
 
 # ─── High-level helper voor pipeline-gebruik ─────────────────────────────────
 
-def process_wettekst(text: str) -> tuple[str, dict]:
+def process_wettekst(text: str, *, sub_strategy: str | None = None) -> tuple[str, dict]:
     """
     Volledige één-stap conversie: MD-tekst (frontmatter+body) → (nieuwe_tekst, info).
 
@@ -454,6 +464,9 @@ def process_wettekst(text: str) -> tuple[str, dict]:
 
     Args:
         text: volledige MD-tekst inclusief eventuele YAML-frontmatter.
+        sub_strategy: opt-in voor sub-artikel-chunking (ADR-006 §4.2). Wordt
+            doorgegeven aan ``update_frontmatter_chunk``. Geldige waarden:
+            ``None`` (default) of ``"per_definitieblok"``.
 
     Returns:
         - nieuwe_tekst: volledige MD-tekst na conversie
@@ -479,7 +492,9 @@ def process_wettekst(text: str) -> tuple[str, dict]:
     chunk_level = level_map.get("Art.", 2)
 
     nieuwe_body, n_conversies = inject_headings(body, level_map, merge_parent)
-    nieuwe_frontmatter = update_frontmatter_chunk(frontmatter_raw, chunk_level)
+    nieuwe_frontmatter = update_frontmatter_chunk(
+        frontmatter_raw, chunk_level, sub_strategy=sub_strategy,
+    )
 
     nieuwe_tekst = nieuwe_frontmatter + nieuwe_body
 

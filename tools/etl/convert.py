@@ -85,6 +85,18 @@ def resolve_method(cfg: dict) -> str:
     return cfg.get("type", "")
 
 
+def _get_sub_strategy(cfg: dict) -> str | None:
+    """Lees `extract.params.sub_strategy` (ADR-006 §4.2) of None.
+
+    Wordt doorgegeven aan `process_wettekst` zodat het chunk-blok in de
+    staging-frontmatter correct geschreven wordt.
+    """
+    extract = cfg.get("extract") or {}
+    params = extract.get("params") or {}
+    val = params.get("sub_strategy")
+    return val if isinstance(val, str) and val else None
+
+
 # ─── Frontmatter ──────────────────────────────────────────────────────────────
 
 _BRON_LABEL_PER_METHOD = {
@@ -311,7 +323,11 @@ def convert_one(source_name: str, *, dry_run: bool = False,
             text = build_initial_frontmatter(
                 cfg, source_name, method, overrides=overrides,
             ) + body.lstrip("\n")
-            text, info = process_wettekst(text)
+            # ADR-006 §4.2: split-niveau sub_strategy override (bv. WBTW-KB22
+            # binnen WBTW-KBs) of bron-niveau extract.params.sub_strategy
+            split_sub = (split_meta or {}).get("sub_strategy")
+            sub_strategy = split_sub or _get_sub_strategy(cfg)
+            text, info = process_wettekst(text, sub_strategy=sub_strategy)
 
             if not dry_run:
                 STAGING_DIR.mkdir(parents=True, exist_ok=True)
@@ -344,7 +360,8 @@ def convert_one(source_name: str, *, dry_run: bool = False,
     text = build_initial_frontmatter(cfg, source_name, method) + raw_text.lstrip("\n")
 
     # 4. Heading-injection + chunk-blok in frontmatter
-    text, info = process_wettekst(text)
+    sub_strategy = _get_sub_strategy(cfg)
+    text, info = process_wettekst(text, sub_strategy=sub_strategy)
     print(
         f"  → Headings: ranks={info['ranks']} reduced={info['reduced_ranks']} "
         f"chunk.level={info['chunk_level']} conversies={info['n_conversies']}"
