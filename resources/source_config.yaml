@@ -1249,7 +1249,7 @@ sources:
     tags: ["VI.A", "2.4"]
     bijgewerkt: "11.12.2006"
     wet: "Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde"
-    cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
+    cleanup: [remove_inhoudstafel, remove_eu_oj_artifacts, remove_inline_metadata, ensure_article_headings]
     status: nieuw
     extract:
       method: pdftotext_ejustice
@@ -1265,7 +1265,7 @@ sources:
     tags: ["VI.A", "2.4"]
     bijgewerkt: "23.03.2011"
     wet: "Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG"
-    cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
+    cleanup: [remove_inhoudstafel, remove_eu_oj_artifacts, remove_inline_metadata, ensure_article_headings]
     status: nieuw
     extract:
       method: pdftotext_ejustice
@@ -1312,7 +1312,7 @@ sources:
     tags: ["III", "2.2", "2.3"]
     bijgewerkt: "12.05.2024"
     wet: "Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest"
-    cleanup: [remove_toc, remove_page_artifacts, ensure_article_headings]
+    cleanup: [remove_inhoudstafel, remove_page_artifacts, ensure_article_headings]
     status: nieuw
     extract:
       method: pdftotext_ejustice
@@ -1325,7 +1325,7 @@ sources:
     tags: ["III", "2.2", "2.3"]
     bijgewerkt: "30.05.2025"
     wet: "Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest"
-    cleanup: [remove_toc, remove_page_artifacts, ensure_article_headings]
+    cleanup: [remove_inhoudstafel, remove_page_artifacts, ensure_article_headings]
     status: nieuw
     extract:
       method: pdftotext_ejustice
@@ -1457,7 +1457,7 @@ sources:
     bijgewerkt: "28.05.2024"
     wet: "Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële
       overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen"
-    cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
+    cleanup: [remove_inhoudstafel, remove_eu_oj_artifacts, remove_inline_metadata, ensure_article_headings]
     status: volledig
     extract:
       method: pdftotext_ejustice

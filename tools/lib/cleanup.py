@@ -129,8 +129,13 @@ def remove_toc(text: str) -> str:
         r"|^§\s*\d"                 # paragraaf
         r"|^TITEL\s+I\.\s*[-–]"     # structuurkop
         # ejustice inline art. met inhoud — dekt "Art. 47.", "Art. I.20.", "Art. IV.85."
-        # Accepteert ook 'Artikel' voluit (bv. WVV Art. 1:1).
-        r"|^\s{0,4}Art(?:\.|ikel)\s+(?:[IVX]+\.)?[\d][\w./:]*\.\s+\S.{10,}",
+        # Accepteert ook 'Artikel' voluit (bv. WVV Art. 1:1) en
+        # `Artikel 1.<W 2006-...>`-pattern (Justel-marker direct na punt).
+        # Body-start MOET niet-digit zijn: vermijdt regex-backtracking-match op
+        # TOC-ranges als "Art. 173.1-175, 175/1, ..." waar `_num="173"` met
+        # body="1-175, ..." per ongeluk fits. Echte bodies starten met `<`, `[`,
+        # `§`, `D`, etc. — nooit met een cijfer direct na de punt.
+        r"|^\s{0,4}Art(?:\.|ikel)\s+(?:[IVX]+\.)?[\d][\w./:]*\.\s{0,3}[^\d\s].{10,}",
         re.IGNORECASE,
     )
 
@@ -150,7 +155,16 @@ def remove_toc(text: str) -> str:
         re.IGNORECASE,
     )
 
+    # Justel/ejustice gebruikt een "Tekst"-regel als expliciete TOC→body-grens.
+    # Daarna komt het Boek/Titel/HOOFDSTUK/Artikel 1 van de echte body. Detecteer
+    # die marker eerst — die is veel betrouwbaarder dan de `first_art_marker`-
+    # walk-back.
+    tekst_marker = re.compile(r"^\s*Tekst\s*$")
+
     for i, line in enumerate(lines):
+        if in_toc and tekst_marker.match(line):
+            # `Tekst` regel gevonden → strip alles tot en met deze regel.
+            return "\n".join(lines[i + 1:])
         if toc_markers.search(line):
             in_toc = True
             toc_end_idx = i
@@ -379,6 +393,15 @@ def ensure_article_headings(text: str) -> str:
     inline_indented = re.compile(
         rf"^\s{{1,4}}(Art(?:\.|ikel))\s+({_num})\.\s*(.*\S)", re.IGNORECASE
     )
+    # TOC-range-detector: "Art. 173.1-175, 175/1, ..." matcht inline_indented per
+    # ongeluk omdat regex `_num` op "173" stopt en de rest als body capt. Filter
+    # zulke valse-body's: regel-tail met ENKEL artikel-nummers, komma's, koppel-
+    # tekens en slashes (mogelijk eindigend op "_TOEKOMSTIG_RECHT" / "_VLAAMS_GEWEST").
+    _toc_range_tail = re.compile(
+        r"^[\d][\w./_]*"                  # eerste fragment (kan letters bevatten via \w)
+        r"(?:[\s,\-–/]+[\d][\w./_]*)*"    # extra fragmenten — separator kan ", " etc. zijn
+        r"\s*$"
+    )
     # Patroon 4: inline zonder inspringing — MIGB/WVV-stijl
     inline_noindent = re.compile(
         rf"^(Art(?:\.|ikel))\s+({_num})\.\s*(\S.*)", re.IGNORECASE
@@ -404,9 +427,15 @@ def ensure_article_headings(text: str) -> str:
         elif m_indented:
             art_num = m_indented.group(2).rstrip(".")
             body = m_indented.group(3).strip()
-            result.append(f"## Art. {art_num}")
-            result.append("")
-            result.append(body)
+            # Filter TOC-ranges: als body uit enkel nummers/separators bestaat,
+            # is dit een TOC-range-regel (bv. "Art. 173.1-175, 175/1, ..."),
+            # geen echte artikel-body. Behoud de regel als normale tekst.
+            if _toc_range_tail.match(body):
+                result.append(line)
+            else:
+                result.append(f"## Art. {art_num}")
+                result.append("")
+                result.append(body)
         elif m_noindent:
             art_num = m_noindent.group(2).rstrip(".")
             body = m_noindent.group(3).strip()
@@ -785,9 +814,12 @@ def remove_toc_ejustice(text: str) -> str:
     # Nummer-patroon: dekt "47", "6:18", "I.20/1", "IV.85", "III.82"
     _art_num = r"(?:[IVX]+\.)?[\d][\w./:]*"
 
-    # Echte artikel: Art./Artikel + nummer + punt + substantiële tekst (>15 chars)
+    # Echte artikel: Art./Artikel + nummer + punt + substantiële tekst (>15 chars).
+    # Whitespace tussen punt en body is OPTIONEEL — sommige Justel-extractes
+    # plakken de Justel-marker direct tegen de punt: `Artikel 1.<W 2006-...`.
+    # Body-start MOET niet-digit zijn (zie remove_toc.first_art_marker rationale).
     first_real_art = re.compile(
-        rf"^\s{{0,4}}Art(?:\.|ikel)\s+{_art_num}\.\s{{1,3}}\S.{{15,}}"
+        rf"^\s{{0,4}}Art(?:\.|ikel)\s+{_art_num}\.\s{{0,3}}[^\d\s].{{15,}}"
     )
     # TOC-range: meerdere artikels op één lijn (komma of koppelstreep)
     art_range = re.compile(
@@ -852,12 +884,56 @@ DEFAULT_STEPS = [
     "mark_appendices",         # 'Bijlage A' / 'BIJLAGE I' → '## Bijlage A — <subtitel>'
 ]
 
+def remove_inhoudstafel(text: str) -> str:
+    """Verwijder Inhoudstafel-blok aan begin van text (zonder frontmatter).
+
+    Ondersteunt twee detectie-modi:
+      1. Expliciete `Inhoudstafel`/`INHOUDSTAFEL`-marker → strip vanaf daar.
+      2. Cluster-heuristiek (geen marker, ≥3 dotted-leader-regels in eerste
+         60 regels) → strip vanaf de eerste TOC-regel.
+
+    Robuuster dan ``remove_toc_ejustice`` voor wettekst-PDFs zonder duidelijke
+    "Art. N. <text>"-pattern (EU-richtlijnen die alleen "Artikel N" gebruiken).
+    Logica gedeeld met ``tools/lib/inhoudstafel.strip_inhoudstafel``.
+    """
+    from tools.lib.inhoudstafel import strip_inhoudstafel
+    return strip_inhoudstafel(text)
+
+
+def remove_eu_oj_artifacts(text: str) -> str:
+    """Verwijder EU Official Journal page-footers + lonely language markers.
+
+    Patronen:
+      * `L 347/6`, `L 347/X` — EU-OJ pagina-referentie
+      * `C 200/12` — EU-OJ "Communicaties" sectie
+      * lonely `NL`-regel — taal-marker
+      * `Publicatieblad van de Europese Unie`
+      * `Publication Office of the European Union`
+
+    Werkt op heel de body; idempotent.
+    """
+    patterns = [
+        re.compile(r"^[ \t]*[LC]\s+\d+/\d+\s*$"),
+        re.compile(r"^[ \t]*NL\s*$"),
+        re.compile(r"^[ \t]*Publicatieblad van de Europese Unie\s*$", re.I),
+        re.compile(r"^[ \t]*Publication Office.+European Union\s*$", re.I),
+    ]
+    out = []
+    for line in text.split("\n"):
+        if any(p.match(line) for p in patterns):
+            continue
+        out.append(line)
+    return "\n".join(out)
+
+
 OPTIONAL_STEPS = {
     "remove_french_lines": remove_french_lines,
     "remove_french_blocks": remove_french_blocks,
     "remove_inline_metadata": remove_inline_metadata,
     "ensure_article_headings": ensure_article_headings,
     "remove_toc_ejustice": remove_toc_ejustice,
+    "remove_inhoudstafel": remove_inhoudstafel,
+    "remove_eu_oj_artifacts": remove_eu_oj_artifacts,
     "merge_heading_continuations": merge_heading_continuations,
     "mark_appendices": mark_appendices,
 }

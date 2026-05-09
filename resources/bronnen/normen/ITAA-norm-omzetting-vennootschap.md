@@ -68,601 +68,3366 @@ provenance:
       run_id: qa-batch-normen
 ---
 
-# Norm inzake het verslag op te stellen bij de omzetting van een vennootschap
+Ontwerp
+
+Norm inzake de opdracht van de 
+beroepsbeoefenaar bij de omzetting 
+van een entiteit
+
+DE RAAD VAN HET INSTITUUT VAN DE BEDRIJFSREVISOREN EN DE RAAD VAN HET INSTITUUT VAN DE 
+BELASTINGADVISEURS EN DE ACCOUNTANTS, 
+ 
+Gezien artikel 31, § 1 van de wet van 7 december 2016 tot organisatie van het beroep van en het publiek 
+toezicht op de bedrijfsrevisoren; 
+ 
+Gelet op de wet van 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur, en in 
+het bijzonder de artikelen 3, 5, 62 en 72 voor wat het Instituut van de Belastingadviseurs en de Accountants 
+betreft; 
+ 
+Gezien het ontwerp van norm van het Instituut van de Bedrijfsrevisoren voorgelegd aan openbare 
+raadpleging die plaatsvond van 3 juli 2025 tot 3 augustus 2025; 
+ 
+Gezien de commentaren ontvangen op deze openbare raadpleging; 
+ 
+Overwegende hetgeen volgt:
+
+(1) Op 4 april 2019 werd de wet van 23 maart 2019 tot invoering van het Wetboek van 
+vennootschappen en verenigingen en houdende diverse bepalingen bekendgemaakt in het 
+Belgisch Staatsblad (p. 33239). Het Koninklijk Besluit van 29 april 2019 tot uitvoering van het 
+Wetboek van vennootschappen en verenigingen werd op 30 april 2019 bekendgemaakt in het 
+Belgisch Staatsblad (p. 42246). Hiermee werd het vennootschaps- en verenigingsrecht grondig 
+hervormd. Met de wet van 28 april 2020 tot omzetting van Richtlijn (EU) 2017/828 van het 
+Europees Parlement en de Raad van 17 mei 2017 tot wijziging van Richtlijn 2007/36/EG wat het 
+bevorderen van de langetermijnbetrokkenheid van aandeelhouders betreft, en houdende 
+vennootschaps- en verenigingsbepalingen (de zogenaamde “reparatiewet”) werd een aantal 
+wijzigingen aan het Wetboek van vennootschappen en verenigingen (WVV) ingevoerd. 
+(2) Ingevolge het WVV zijn volgende omzettingen mogelijk:
+
+- 
+een vennootschap, opgericht in één van de rechtsvormen genoemd in artikel 1:5, § 2 WVV, in 
+een vennootschap met een andere rechtsvorm, onverminderd de specifieke bepalingen voor 
+de SE en SCE (artikel14:4 WVV); 
+- 
+de door het WVV geregelde vennootschappen met rechtspersoonlijkheid, wanneer zij hun zetel 
+willen verplaatsen naar het buitenland1, met uitzondering van de SE en de SCE (artikel 14:21, 
+tweede lid WVV); 
+- 
+de vennootschap met rechtspersoonlijkheid in een (I)VZW (artikel 14:32, tweede lid, 3° WVV); 
+- 
+een VZW in een IVZW en een IVZW in een VZW (artikel 14:47, tweede lid, 3° WVV);
+
+1 Zetelverplaatsing / overbrenging van de (maatschappelijke) zetel.
+
+- 
+een door het WVV geregelde vereniging met rechtspersoonlijkheid die hun zetel verplaatsen 
+naar het buitenland, met uitzondering van de Europese politieke partij en de Europese private 
+stichting (artikel 14:57, tweede lid WVV); 
+- 
+een private stichting in een stichting van openbaar nut (artikel 14:67, tweede lid, 3° WVV); 
+alle door het WVV geregelde stichtingen die hun zetel naar het buitenland willen verplaatsen, 
+met uitzondering van de Europese politieke partij en de Europese private stichting (artikel 
+14:74, tweede lid WVV). 
+Deze norm is niet van toepassing op 
+- 
+ de omzetting van een onderlinge verzekeringsvereniging in een vennootschap met 
+handelsvorm (Art. 248-260 van de wet van 13 maart 2016 op het statuut van en het toezicht 
+op de verzekerings- of herverzekeringsondernemingen); 
+- 
+de buitenlandse zetelverplaatsing van Europese politieke partijen en Europese private 
+stichtingen omdat het WVV hierin geen specifieke opdracht voor de beroepsbeoefenaar 
+voorziet; 
+- 
+de door de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en 
+verenigingen en houdende diverse bepalingen verplichte wijziging van een vennootschap naar 
+haar nieuwe vorm die voorzien is in het WVV (vb. de omzetting in BV van een BVBA of een 
+CVBA die niet aan de definitie van CV in artikel 6:1 WVV beantwoordt). 
+Bijzonder geval:
+
+de procedures en verslagen beschreven in deze norm zijn naar analogie van toepassing op de 
+omzetting van een VZW in een erkende CVSO of een CV erkend als SO (artikel 14:38, tweede 
+lid, 3° WVV), en dit minstens totdat de rechtspraak of wetgeving hieromtrent meer duidelijkheid 
+schept.  
+(3) Het WVV heeft voorzien in omzettingen van kapitaalhoudende en kapitaalloze entiteiten. Alvorens 
+tot de omzetting wordt besloten, maakt het bestuursorgaan een staat van activa en passiva op. 
+De staat van activa en passiva stelt de aandeelhouders/leden en vennoten in staat zich een oordeel 
+te vormen over de vraag of de financiële structuur voldoende aangepast is voor de rechtsvorm 
+waarnaar zal worden omgezet.  
+(4) Onderhavige norm is van toepassing op de opdracht die door de beroepsbeoefenaar wordt 
+uitgevoerd in het kader van de verrichtingen vermeld in overweging (2). Deze opdracht bestaat erin 
+de staat van activa en passiva opgesteld door en onder verantwoordelijkheid van het 
+bestuursorgaan te beoordelen en verslag uit te brengen over de staat van activa en passiva waarin 
+hij inzonderheid vermeldt of het nettoactief is overgewaardeerd.  
+(5) De toepassing van deze norm is evenredig met de complexiteit van de activiteiten van de entiteiten 
+waarvoor de opdracht wordt uitgevoerd en van de verrichting. Naargelang van de omstandigheden, 
+kan een bepaalde vereiste niet relevant zijn. Er bestaan voorwaardelijke vereisten die enkel relevant 
+zijn in de door de vereiste beoogde omstandigheden. 
+(6) Onderhavige norm bevat algemene bepalingen, vereisten en toepassingsmodaliteiten. De 
+beroepsbeoefenaar dient de gehele tekst van deze norm, met inbegrip van de 
+toepassingsmodaliteiten, na te leven, teneinde de doelstellingen te begrijpen en de vereisten naar 
+behoren toe te passen. De beroepsbeoefenaar dient in alle gevallen zijn professionele 
+oordeelsvorming toe te passen en een professioneel-kritische instelling te handhaven.
+
+De toepassingsmodaliteiten vormen leidraden die relevant zijn voor de behoorlijke toepassing van 
+de vereisten van deze norm. De toepassingsmodaliteiten bevatten onder meer verdere uitleg over 
+de vereisten en kunnen:
 
-## Overwegingen
+– 
+nadere uitleg bevatten van wat een vereiste inhoudt of wat het is bedoeld te omvatten; 
+dit kan onder meer door verwijzing naar wet- of regelgeving;
 
-Gelet op de wet van 22 april 1999 betreffende de boekhoudkundige en fiscale beroepen;
+– 
+voorbeelden bevatten die in de gegeven omstandigheden van toepassing kunnen zijn.
 
-Overwegende dat onderhavige normen zijn uitgewerkt in samenwerking met het Instituut der Bedrijfsrevisoren;
+HEBBEN OP HUN ZITTING VAN 5 SEPTEMBER 2025 (IBR) EN 7 OKTOBER (IBA) DE HIERNAVOLGENDE 
+NORM AANGENOMEN.  
+ 
+Goedkeuring van onderhavige norm
 
-Gelet op het advies van de Hoge Raad voor de Economische Beroepen d.d. 9 september 2002;
+De Raad van het Instituut van de Bedrijfsrevisoren (IBR) heeft op XX het ontwerp van onderhavige norm 
+aangenomen en ter goedkeuring voorgelegd aan de Hoge Raad voor de Economische Beroepen en de 
+minister bevoegd voor Economie.
 
-Overwegende dat de normen, die door de Raad van het IAB op 5 juni 2000 zijn goedgekeurd
- en op 6 februari 2001 in werking zijn getreden, dienden te worden aangepast aan de gewijzigde vennootschapsrechtelijke bepalingen, meer in het bijzonder ingevolge de zogenaamde reparatiewet van 23 januari 2001;
+Overeenkomstig artikel 31, §1, 5de en 6de lid van de wet van 7 december 2016 tot organisatie van het 
+beroep van en het publiek toezicht op de bedrijfsrevisoren, werd het Instituut gehoord en heeft deze laatste 
+de aangepaste ontwerpnorm op XX aangenomen om rekening te houden met de vraag van de Hoge Raad 
+voor de Economische Beroepen tot herformulering van deze norm op basis van zijn eigen opmerkingen, de 
+hoorzitting of de opmerkingen van het College, de FSMA en/of de Nationale Bank van België.
 
-Heeft de Raad van het IAB op zijn zitting van 7 oktober 2002 een nieuwe versie van de normen inzake het verslag op de stellen bij de omzetting van een vennootschap goedgekeurd.
+De Raad van het Instituut van de belastingadviseurs en de accountants (IBA) heeft op 7 oktober het ontwerp 
+van onderhavige norm aangenomen. Overeenkomstig artikel 80 van de wet van 17 maart 2019 betreffende 
+de beroepen van accountant en belastingadviseur heeft de Hoge Raad voor de Economische Beroepen op 
+het verzoek van het Instituut van de Belastingadviseurs en de Accountants een positief advies uitgebracht.
 
-Deze aanpassingen, die eveneens medegedeeld zijn aan de Hoge Raad voor de Economische
- Beroepen, treden onmiddellijk in werking.
+Overeenkomstig artikel 31, § 2 van de wet van 7 december 2016 tot organisatie van het beroep van en het 
+publiek toezicht op de bedrijfsrevisoren, werd deze norm op XXX door de Hoge Raad voor de Economische 
+Beroepen en op XXX door de minister die bevoegd is voor Economie goedgekeurd. Deze goedkeuring heeft 
+het voorwerp uitgemaakt van een bericht door de minister die bevoegd is voor Economie, gepubliceerd in 
+het Belgisch Staatsblad van XXX, p. XXX.
 
----
+INHOUDSTAFEL
 
-## Hoofdstuk 1: Inleiding
+Toepassingsgebied .............................................................................................................................. 6
 
-## 1. Begripsbepalingen
-### De boekhoudreglementering
+Datum van inwerkingtreding en opheffingsbepaling ....................................................................... 8
 
-	- Inzake het voeren van de boekhouding :
+Definities ................................................................................................................................................ 8
 
-			de wet van 17 juli 1975 op de boekhouding van de ondernemingen (Boekhoudwet) en haar uitvoeringsbesluiten van 12 september 1983;
-			- het Wetboek van vennootschappen.
+Vereisten en toepassingsmodaliteiten ............................................................................................ 11
 
+I. 
+Doelstellingen .......................................................................................................................... 11
 
-	- - Inzake het opstellen van de jaarrekening:
+II. 
+Algemene bepalingen ............................................................................................................. 12
 
-			het Wetboek van vennootschappen (artikel 92) en uitvoeringsbesluit van 30 januari 2001.
+II.1. Deontologische beginselen................................................................................................ 12
 
+II.2. Aard van de opdracht .......................................................................................................... 15
 
-De betrokken vennootschap kan ook onderworpen zijn aan de toepassing van een specifieke boekhoudreglementering.
+II.3. Opdrachtbrief ....................................................................................................................... 16
 
-### De beroepsbeoefenaar
-Onder de beroepsbeoefenaar wordt in deze normen verstaan, de bedrijfsrevisor of de extern accountant.
+II.4. Documentatie ....................................................................................................................... 18
 
-## 2. Toepassingsgebied
-**Deze normen zijn van toepassing op de opdracht door de beroepsbeoefenaar verricht in het kader van artikel 777 of artikel 436, § 2 van het Wetboek van vennootschappen (W. Venn.).**
+III. Uit te voeren werkzaamheden teneinde het verslag bij de omzetting op te stellen ...... 19
 
-2.1. Deze normen zijn van toepassing op de omzetting van een vennootschap, opgericht in één van de rechtsvormen genoemd in artikel 2, § 2 W. Venn., in een vennootschap met een andere rechtsvorm (artikelen 774 en 436 W. Venn.).
+III.1. Uit te voeren werkzaamheden betreffende de staat van activa en passiva .............. 20
 
-2.2. Deze normen zijn niet van toepassing op :
+IV. Uit te voeren werkzaamheden teneinde de verslaggeving bij de grensoverschrijdende 
+omzetting te doen ........................................................................................................................... 25
 
-	- de omzetting van een onderlinge verzekeringsvereniging in een vennootschap met handelsvorm (Hfdst. V*quinquies* van de Wet van 9 juli 1975 betreffende de controle der verzekeringsondernemingen);
-	- de omzetting van een vereniging zonder winstoogmerk in een vennootschap met sociaal oogmerk (art. 26*ter* Wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de stichtingen) ;
-	- de omzetting van een private stichting in een stichting van openbaar nut (art. 44 Wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de stichtingen) ;
-	- de wijziging van rechtsvorm van een landbouwvennootschap, een economisch samenwerkingsverband, een Europees economisch samenwerkingsverband, in een vennootschap of vereniging met een andere rechtsvorm (art. 774 W. Venn.).
+IV.1. Nazicht van het omzettingsvoorstel ............................................................................... 28
 
-2.3. Is geen wijziging van rechtsvorm, de wijziging van een handelsvennootschap naar een burgerlijke vennootschap die dezelfde vorm van handelsvennootschap aanneemt en omgekeerd, en het aannemen of opgeven van een sociaal oogmerk door een vennootschap.
+IV.2. Specifieke uit te voeren werkzaamheden betreffende de geldelijke vergoeding ..... 30
 
-2.4. De algemene controlenormen van het IAB zijn niet van toepassing op onderhavige opdracht.
+IV. 3. Specifieke uit te voeren werkzaamheden wanneer er toekomstgerichte financiële 
+informatie is gehanteerd ............................................................................................................ 32
 
-## 3. Boekhoudkundige aspecten
-**De staat van activa en passiva is de staat die bestaat uit de balans of een gelijkaardige tussentijdse situatie en in beide gevallen een verklarende bijlage, die onder meer een samenvatting van rechten en verplichtingen kan bevatten. De staat van activa en passiva moet zonder toevoeging, noch weglating voortvloeien uit de balans van de rekeningen.**
+V. 
+Schriftelijke bevestigingen .................................................................................................... 37
 
-**De staat van activa en passiva moet worden afgesloten op een datum die niet meer dan drie maanden teruggaat voor de datum van de algemene vergadering, bijeengeroepen om zich uit te spreken over de omzetting van de vennootschap.**
+VI. Conclusie en beoordelingsverslag ....................................................................................... 38
 
-3.1. Onder een gelijkaardige tussentijdse situatie wordt verstaan, een staat van activa en passiva, opgesteld volgens de principes en omvattende tenminste de rubrieken zoals weergegeven in de boekhoudreglementering inzake het opstellen van de jaarrekening. De staat van activa en passiva moet zonder toevoeging, noch weglating voortvloeien uit de balans van de rekeningen.
+VI.1. Het vormen van de conclusie over de staat van activa en passiva ............................ 38
 
-De tussentijdse staat moet worden opgemaakt, rekening houdend met de waardecorrecties, de pro rata van de kosten (met inbegrip van de vergoeding van de bedrijfsleiders, de afschrijving, de voorraadwijzigingen, de te betalen vakantiegelden, eindejaarspremies en andere premies, de belastingen, enz.) overeenkomstig de waarderingsregels.
+VI.2. Het vormen van de conclusie met beperkte mate van zekerheid met betrekking tot 
+de geldelijke vergoeding, in het kader van en overschrijdende omzetting ......................... 40
 
- 3.2. Het *netto-actief* omvat het kapitaal, de uitgiftepremies, de herwaarderingsmeerwaarden, de reserves, de overgedragen winst of het overgedragen verlies en de kapitaalsubsidies.
+VI.3. Verslag................................................................................................................................. 41
 
-Onder het *kapitaal* moet worden begrepen, de som van het gestorte kapitaal en van het opgevraagde, niet gestorte gedeelte van het geplaatste kapitaal. Het maatschappelijk kapitaal dat in aanmerking moet genomen worden voor de vergelijking met NV’s, BVBA’s, en Comm. VA’s is het kapitaal, zoals dit bepaald wordt in de statuten van de vennootschap op de datum van het opstellen van de staat van activa en passiva; de uitgiftepremies en andere bestanddelen van het eigen vermogen komen niet in aanmerking. Wat de vennootschappen onder firma betreft, dient verwezen te worden naar het kapitaal dat in de statuten van de vennootschap zal zijn vastgesteld na de omzetting (artikel 776, 3de lid W. Venn.). Voor het kapitaal van coöperatieve vennootschappen (bestaande uit het vaste en veranderlijke gedeelte), zal de beroepsbeoefenaar het register van de coöperanten op de datum van het afsluiten van de staat van activa en passiva raadplegen.
+Bijlage 1 – Tabel met de verschillende bepalingen van het WVV inzake de omzetting van 
+een rechtsvorm beoogd door onderhavige norm ....................................................................... 46
 
-Het bedrag van de winst over het lopende boekjaar kan niet in aanmerking komen voor een eventuele kapitaalverhoging, tenzij de hierna vermelde procedure (4.2.4.) wordt toegepast. Het resultaat van het lopende boekjaar tot op de datum van de afsluiting van de staat van activa en passiva zal vermeld worden onder een afzonderlijke rubriek van het overgedragen resultaat in het eigen vermogen.
+Bijlage 2 – Voorbeeld van opdrachtbrief ..................................................................................... 47
 
-Er kan in herinnering worden gebracht dat op gerealiseerde, fiscaal tijdelijk vrijgestelde meerwaarden en op kapitaalsubsidies uitgestelde belastingen worden berekend.
+Bijlage 3 - Modelverslagen van de commissaris / bedrijfsrevisor / gecertificeerd accountant 
+bij de omzetting van een rechtsvorm ............................................................................................... 49
 
-3.3. De termijn van drie maanden moet worden gerekend vanaf de datum van de staat van activa en passiva tot op de datum van de algemene vergadering die zich uitspreekt over de omzetting.
+3.1. Verslag aan de buitengewone algemene vergadering () van [rechtsvorm] [X] 
+betreffende de beoordeling van de staat van activa en passiva in het kader van de 
+nationale omzetting van een [rechtsvorm kapitaalhoudende entiteit ()] naar een [rechtsvorm 
+kapitaalloze vennootschap] .......................................................................................................... 49
 
-Wanneer het vennootschapsrecht in de mogelijkheid voorziet om een tweede algemene vergadering bijeen te roepen (artikel 781, § 3 W. Venn. betreffende de omzetting van een Comm. VA of een CV in een NV), wordt de termijn van drie maanden hierdoor niet gewijzigd; dit betekent dat deze termijn wordt berekend enkel ten aanzien van de eerste algemene vergadering.
+3.2. Verslag aan de buitengewone algemene vergadering van [rechtsvorm] [X] betreffende 
+de beoordeling van de staat van activa en passiva in het kader van de nationale omzetting 
+van [rechtsvorm kapitaalloze vennootschap] [X] naar [rechtsvorm kapitaalhoudende 
+entiteit ()] [Y] ..................................................................................................................................... 52
+
+3.3. Verslag aan de buitengewone algemene vergadering () van [rechtsvorm] [X] 
+betreffende de beoordeling van de staat van activa en passiva in het kader van de 
+nationale omzetting van een [rechtsvorm kapitaalhoudende entiteit ()] naar een [rechtsvorm 
+kapitaalhoudende entiteit] ............................................................................................................. 55
 
-3.4. In de NV, BVBA, CV en Comm. VA moet de beroepsbeoefenaar zijn verslag overmaken aan de vennootschap, ten minste 15 dagen voor de algemene vergadering die moet beslissen over de omzetting. Als de beroepsbeoefenaar de documenten niet tijdig heeft ontvangen, en hij niet in de mogelijkheid is om deze wettelijke termijn te eerbiedigen, zal hij dat verantwoorden in zijn verslag aan de algemene vergadering, met melding, in voorkomend geval, van de wijze waarop zijn controles daardoor zijn beïnvloed.
-
-## 4. Voorwerp van de opdracht
-**De opdracht van de beroepsbeoefenaar bestaat erin de staat van activa en passiva opgesteld door het bestuur na te gaan en verslag uit te brengen over deze staat, en inzonderheid te vermelden of er enige overwaardering van het netto-actief heeft plaatsgehad.**
-
-**De procedure beoogt dat de vennoten zich met kennis van zaken kunnen uitspreken over de omzetting van de vennootschap en beoogt in het belang van derden de bescherming van het kapitaal.**
-
-4.1. Het verslag over de staat van activa en passiva moet worden opgesteld door de commissaris van de vennootschap indien er één is.
-
-In de vennootschappen waar geen commissaris is benoemd, wordt het verslag opgesteld door een beroepsbeoefenaar die daartoe speciaal wordt aangesteld door het bestuur.
-
-4.2. De opdracht van de beroepsbeoefenaar beoogt na te gaan of :
-
-	- het netto-actief van de vennootschap na omzetting hoger is dan het minimum maatschappelijk kapitaal voorgeschreven door het Wetboek van vennootschappen;
-	- er enige overwaardering van het netto-actief heeft plaatsgehad.
-
-Dit doel is te onderscheiden van wat wordt beoogd door de controle van de jaarrekening, die een financiële staat is die aan de vennoten en derden periodiek informatie verschaft over het vermogen, de financiële positie en het resultaat van de onderneming.
-
-4.3. De beroepsbeoefenaar zal zijn werkzaamheden aanpassen aan het specifieke doel van zijn opdracht, met name het opsporen van elke overwaardering van het netto-actief. Dienovereenkomstig zal het werkprogramma gericht zijn op de opsporing van eventuele overwaarderingen van rubrieken van het actief, evenals op de onderwaardering van de voorzieningen voor risico’s en kosten en de schulden. Hij moet niet alle aspecten in acht nemen die nodig zijn in het kader van de certifiëring van het getrouw beeld van de jaarrekening (structuur van het resultaat, financiële situatie, enz…).
-
-Het materialiteitsprincipe is van toepassing bij het verrichten van de verificaties en eventuele aanpassingen aan de rubrieken van het actief, de voorzieningen en de schulden. Voor wat betreft het besluit met betrekking tot het netto-actief daarentegen, dient elke overwaardering, ongeacht het belang ervan, te worden vermeld.
-
-4.4. De doelstelling van deze opdracht kadert in het toepassingsgebied van het artikel 16 van de wet van 17 juli 1975 op de boekhouding van ondernemingen (voorheen artikel 17). Deze bepaling is van toepassing, met dien verstande dat de normale controlewerkzaamheden minder uitgebreid zijn dan deze die vereist zijn voor de certificering van de jaarrekening. De beroepsbeoefenaar die het bestaan vaststelt van een inbreuk op de bepalingen van de boekhoudwet, is ertoe gehouden om hiervan melding te maken in zijn verslag, behoudens wanneer die inbreuk het voorwerp zou uitmaken van een gepaste correctie.
-
-## 5. Deontologische aspecten
-5.1. Het verdient aanbeveling een opdrachtbrief te laten ondertekenen en daarin de volgende vermeldingen op te nemen :
-
-	- een omschrijving van de opdracht;
-	- dat er geen beroepsbeoefenaar belast werd met dezelfde opdracht in de voorafgaande twaalf maanden ;
-	- de verantwoordelijkheid van het bestuursorgaan voor het opstellen van een staat van activa en passiva die beantwoordt aan de wettelijke bepalingen en voor de eventuele verklarende bijlage;
-	- de verantwoordelijkheid van het bestuur voor het te gepasten tijde ter beschikking stellen van alle nodige documenten en gegevens, inbegrepen het verslag van het bestuur;
-	- de termijn voor de afgifte van het verslag;
-	- de berekeningswijze en de betalingsvoorwaarden van de honoraria.
-
-5.2. Indien de partijen in verband met deze opdracht reeds voorafgaandelijk een extern accountant of bedrijfsrevisor hebben geraadpleegd, zal de beroepsbeoefenaar, overeenkomstig de algemene deontologische principes, met hem contact moeten opnemen, teneinde:
-
-	- de informatie te bekomen, uiteraard met inachtname van het beroepsgeheim, omtrent de omstandigheden die de cliënt ertoe zouden kunnen aangezet hebben om een andere beroepsbeoefenaar te raadplegen;
-	- zich te vergewissen van de betaling van de verschuldigde en niet-betwiste honoraria.
-
-5.3. De beroepsbeoefenaar voert de hem toevertrouwde opdracht uit in volledige onafhankelijkheid, overeenkomstig de algemene deontologische principes1. In de vennootschappen zonder commissaris mag de beroepsbeoefenaar niet de gewoonlijke raadgever zijn van de vennootschap waarvoor het verslag moet worden opgesteld.
-
-De beroepsbeoefenaar mag geen geregelde opdrachten, andere dan controle-opdrachten, hebben uitgevoerd in de vennootschap tijdens de twee voorgaande jaren. Hij mag geen geregelde opdrachten, andere dan controle-opdrachten, uitvoeren in de vennootschap tijdens de twee daarop volgende jaren.
-
-5.4. De commissaris zal de algemene vergadering bijwonen die te beraadslagen heeft op grond van een verslag door hem opgemaakt, tenzij hij om een wettige reden verhinderd zou zijn (art. 272/274, 412, 538/540 W. Venn.).
-
-Op uitdrukkelijke vraag van het bestuur en met de toelating van de algemene vergadering, zal de beroepsbeoefenaar, die geen commissaris is, de beraadslagingen van de algemene vergadering bijwonen.
-
-1 Er dient rekening te worden gehouden met de deontologische aanbeveling van 5 december 1997 inzake de relaties tussen de leden van het IBR en het IAB in het kader van de beroepsuitoefening, (zie Jaarverslag IAB,
- 1997, p. 19).
-
----
-
-## Hoofdstuk 2: Verificatiewerkzaamheden
-
-## 1 De beroepsbeoefenaar voert zijn opdracht uit volgens een gepast werkprogramma. Zijn verschillende werkzaamheden en het bewijskrachtig materiaal ter ondersteuning ervan worden opgenomen in een werkdossier.
-1.1. Het werkprogramma met betrekking tot de verificatie van de staat van activa en passiva opgesteld bij de omzetting van de vennootschap omvat in principe de volgende stappen :
-
-	- de identificatie van de voorgenomen verrichting;
-	- de beoordeling van de administratieve en boekhoudkundige organisatie en de bijzondere risico’s waaraan zij is blootgesteld;
-	- verificatie van de staat van activa en passiva;
-	- het nazicht van de naleving van de wettelijke en statutaire bepalingen in verband met de voorgenomen verrichting;
-	- het nazicht van het bijzonder verslag van het bestuursorgaan;
-	- de opstelling van het verslag.
-
-1.2. Bij de uitvoering van zijn opdracht brengt de beroepsbeoefenaar alle stukken en gegevens samen, die kunnen dienen om de verificaties die hij heeft verricht te verantwoorden. Deze stukken zullen worden bewaard gedurende minstens vijf jaar na de algemene vergadering die heeft beslist tot de wijziging van de rechtsvorm van de vennootschap.
-
-1.3. Het dossier moet minstens de volgende gegevens bevatten:
-
-	- een stuk dat de toekenning van de opdracht bevestigt;
-	- een memorandum dat de vaststellingen met betrekking tot de administratieve en boekhoudkundige organisatie samenvat;
-	- de laatste jaarrekening en de staat van activa en passiva waarover de beroepsbeoefenaar verslag uitbrengt;
-	- het verificatieprogramma bedoeld hierboven in paragraaf 2.1.1.;
-	- het bewijskrachtig materiaal dat de rubrieken van de staat van activa en passiva valideert;
-	- het bijzonder verslag van het bestuursorgaan met betrekking tot de omzetting.
-
-1.4. De beroepsbeoefenaar zal contact opnemen met de notaris die zal optreden, teneinde de ontwerpakte inzake de omzetting, alsook het ontwerp van nieuwe statuten te bekomen.
-
-## 2. Wanneer hij de verificatie doet van de staat van activa en passiva van de vennootschap bij het aannemen door deze van een andere rechtsvorm, identificeert de beroepsbeoefenaar in de eerste fase van zijn werkzaamheden de voorgenomen verrichting.
-2.1. De beroepsbeoefenaar verzamelt eerst alle nodige informatie met betrekking tot de vennootschap, haar waarderingsregels, de structuur van haar kapitaal, de vennoten en de belangrijkste risico’s eigen aan de onderneming of aan haar activiteit die van aard zijn de staat van activa en passiva op betekenisvolle wijze te beïnvloeden.
-
-2.2. De beroepsbeoefenaar bestudeert de modaliteiten voorzien voor het aannemen van een nieuwe juridische vorm en meer bepaald het bijzonder verslag van het bestuursorgaan dat de uiteenzetting bevat van het belang van de verrichting voor de vennootschap. De beroepsbeoefenaar moet een bijzondere aandacht besteden aan de motivatie van de partijen en de eventuele risico’s van een inbreuk op de gelijkheid van de vennoten ter gelegenheid van de verrichting van de omzetting.
-
-Als het verslag van het bestuursorgaan niet beschikbaar is op het ogenblik waarop de beroepsbeoefenaar zijn werkzaamheden begint, dan zal hij de leiding van de onderneming vragen stellen teneinde een duidelijk beeld te verkrijgen van het nagestreefde doel en de omstandigheden van de omzetting.
-
-2.3. Wanneer de beroepsbeoefenaar de voorgenomen verrichting identificeert, is het aangewezen dat hij aandacht besteedt aan de mogelijke toepassing van andere bepalingen van het Wetboek van vennootschappen (bv. toepassing van de artikelen 332, 431 en 633 W. Venn., kapitaalverhoging door inbreng in natura).
-
-## 3. In de tweede fase van zijn werkzaamheden voert de beroepsbeoefenaar een analyse uit van de administratieve organisatie, hoofdzakelijk met betrekking tot de maatregelen die de betrouwbaarheid verzekeren van de boekhouding.
-3.1. De beroepsbeoefenaar moet bestuderen in welke omstandigheden de boekhoudkundige informatie wordt opgesteld. Als hij de commissaris is van de vennootschap moet hij zich alleen vergewissen van de continuïteit van het systeem van interne controle. Zo niet, dan moet hij de nodige werkzaamheden verrichten om zich te vergewissen van het bestaan van interne procedures, aangepast aan de aard en de omvang van de onderneming, die hem de betrouwbaarheid van de gegevens garanderen.
-
-3.2. Als de beroepsbeoefenaar vaststelt dat de administratieve en boekhoudkundige organisatie aangepast is voor zijn verificatie van de staat van activa en passiva, dan kan hij zijn werkzaamheden gewoon verder zetten.
-
-Als hij ernstige leemten vaststelt in de administratieve organisatie, dan moet hij, in functie van deze leemten, de substantieve testen uitbreiden teneinde de saldi opgenomen in de boekhoudkundige staat te kunnen attesteren. Als de zwakten van de administratieve en boekhoudkundige organisatie de uitwerking van een aangepast programma voor substantieve testen van de boekhoudposten onmogelijk maken, dan zal hij in zijn verslag de conclusies daaruit trekken, overeenkomstig hetgeen vermeld is in hoofdstuk 3 van deze normen.
-
-## 4. In de derde fase van zijn opdracht zal de beroepsbeoefenaar het bewijskrachtig materiaal verzamelen dat hem toelaat de saldi te bekrachtigen van de rekeningen opgenomen in de staat van activa en passiva die bij het verslag van het bestuursorgaan is gevoegd.
-4.1. De verzameling van het bewijskrachtig materiaal wordt beperkt tot de doelstelling van de opdracht, zoals bepaald in het Wetboek van vennootschappen en becommentarieerd in paragraaf 1.4. van deze normen.
-
-4.2. De beroepsbeoefenaar bepaalt de aard en de omvang van het bewijskrachtig materiaal, nodig om zich een oordeel te vormen in functie van :
-
-	- de specifieke risico’s verbonden aan de toestand van de onderneming;
-	- de besluiten van zijn beoordeling van de administratieve en boekhoudkundige organisatie;
-	- het algemeen materialiteitsbeginsel.
-
-Hij moet altijd in staat zijn om zijn beslissingen te motiveren.
-
- 4.3. De beroepsbeoefenaar zal een dusdanig werkprogramma opstellen dat het risico op het formuleren van een foutief besluit met betrekking tot de boekhoudkundige staat wordt teruggebracht tot een aanvaardbaar niveau; bij het bepalen van de te verrichten verificaties zal hij rekening houden met het algemene materialiteitsprincipe.
-
-De toepassing van het algemeen materialiteitsprincipe moet aangepast zijn aan het doel van het opsporen van de overwaarderingen in de rubrieken van het actief en onderwaarderingen in de rubrieken van het passief, met uitzondering van eigen vermogen. Aldus kan de beroepsbeoefenaar zijn werkzaamheden beperken indien hij overeenkomstig punt 2.4.2. kan besluiten dat het risico op onjuistheden die leiden tot de overwaardering van het eigen vermogen van gering belang is.
-
-Indien de beroepsbeoefenaar redenen heeft om aan te nemen dat er zich wellicht enige overwaardering van het netto-actief heeft voorgedaan, dient hij in zodanige mate aanvullende of meer uitgebreide werkzaamheden te verrichten dat hij in staat is te concluderen of er al dan niet enige overwaardering van het netto-actief heeft plaatsgehad.
-
-4.4. De beroepsbeoefenaar besteedt aandacht aan de waarderingsmethoden en de eventuele wijzigingen ervan ter gelegenheid van de omzetting.
-
-4.5. Als de beroepsbeoefenaar het bestaan vaststelt van schuldvorderingen op vennoten, zal hij in het bijzonder de solvabiliteit van deze onderzoeken.
-
-## 5. De werkzaamheden van de beroepsbeoefenaar moeten voldoende zijn om hem toe te laten te besluiten dat de staat die de activa- en passivatoestand weergeeft, een redelijke basis vormt voor de berekening van het netto-actief.
-5.1. De staat van activa en passiva voorzien in artikel 776 en artikel 436, § 2 W. Venn. zal minstens bestaan uit een balans of een gelijkaardige tussentijdse toestand, opgemaakt volgens de beginselen hierboven uiteengezet in de paragraaf 1.3.1. en, in beide gevallen, een verklarende bijlage, die een samenvatting bevat van de rechten en verplichtingen.
-
-5.2. Als uit de verrichte verificaties blijkt dat correcties moeten worden aangebracht aan de voorgelegde staat van activa en passiva, dan zal de beroepsbeoefenaar nagaan of deze correcties inderdaad zijn geboekt, zodat de staat van activa en passiva zonder toevoeging, noch weglating voortvloeit uit de balans van de rekeningen.
-
-De beroepsbeoefenaar moet nagaan in welke mate rekening wordt gehouden met alle elementen die van aard zijn om het vermogen van de vennootschap negatief te beïnvloeden.
-
-Het maatschappelijk kapitaal vermeld in de boekhoudkundige staat moet het kapitaal zijn dat bestaat op de datum dat de boekhoudkundige staat wordt opgesteld. Een wijziging van het kapitaal die na die datum doorgevoerd zou worden, kan niet
-
- opgenomen worden in de staat. De beroepsbeoefenaar zal het voorstel tot wijziging van het kapitaal in zijn verslag vermelden, zonder dat deze vermelding zijn besluit mag beïnvloeden (zie ook 2.8.1.).
-
-## 6. De beroepsbeoefenaar berekent het netto-actief van de vennootschap met aandacht voor de naleving van de wettelijke en reglementaire bepalingen, in hoofdzaak met betrekking tot de samenstelling van het maatschappelijk kapitaal van de vennootschap.
-6.1. De beroepsbeoefenaar zal bijzonder voorzichtig zijn als blijkt dat het bedrag van het netto-actief het bedrag van het kapitaal benadert. Hij zal zijn aandacht moeten verscherpen en zijn controles moeten uitbreiden als het netto-actief lager is of slechts weinig hoger is dan het minimumkapitaal vereist voor de vorm van de vennootschap waarnaar wordt omgezet. Overeenkomstig artikel 785 W. Venn. zijn de vennoten onder firma, de beherende vennoten, de zaakvoerders of bestuurders van een vennootschap die wordt omgezet hoofdelijk gehouden tot betaling van het eventuele verschil tussen het netto-actief van de vennootschap na omzetting en het minimumkapitaal. Ingeval van een omzetting van een CVOA in een CVBA bepaalt artikel 436, § 5 W. Venn. dat de bestuurders hoofdelijk gehouden zijn voor het verschil tussen het eigen vermogen en het wettelijk voorgeschreven minimumbedrag van het vaste kapitaal.
-
-Wanneer een verplichting die niet in de balans voorkomt, op betekenisvolle wijze een invloed zou kunnen hebben op het bedrag van het netto-actief, dan zal de beroepsbeoefenaar oordelen of hij zijn besluit dient te vervolledigen in functie van het risico op verlies dat deze verplichting kan teweegbrengen. Dit is in het bijzonder van belang wanneer het bedrag van het minimumkapitaal niet meer zou gehaald worden.
-
-## 7. In de uitoefening van zijn opdracht moet de beroepsbeoefenaar aandacht besteden aan elke schending van de boekhoudwetgeving, van de vennootschapswetgeving of van de statuten die een invloed zouden kunnen hebben op de staat van activa en passiva en meer in het algemeen op de goede afloop van de verrichting van wijziging van de juridische vorm van de vennootschap.
-7.1. De beroepsbeoefenaar zal de formele regels voor het houden van de rekeningen nagaan, alsook de elementen met betrekking tot de externe informatie voor zover zij betrekking hebben op de wettelijke opdracht van de omzetting. Hij zal in het bijzonder nagaan of :
-
-	- de wettelijke boeken regelmatig worden gehouden;
-	- de waarderingsregels goedgekeurd zijn door het bestuursorgaan.
-
-7.2. Als de beroepsbeoefenaar kennis neemt van een feit of een beslissing die de schending zou kunnen uitmaken van een wettelijke of reglementaire bepaling, die een betekenisvolle invloed heeft op de rekeningen onderworpen aan zijn onderzoek, dan moet hij in de eerste plaats alle nodige informatie verzamelen over de draagwijdte van het feit of de betrokken beslissing en over het werkelijk onregelmatig karakter ervan. Hij zal zijn vaststellingen documenteren, contact opnemen met de beroepsbeoefenaar die de gewoonlijke raadgever1 is van de onderneming en de kwestie bespreken met de leiding van de onderneming.
-
-Als de gevolgen van de onregelmatige toestand op de rekeningen, gelet op de omstandigheden, niet gecorrigeerd kunnen worden, dan zal de beroepsbeoefenaar kunnen kiezen voor één van de volgende gedragslijnen :
-
-	- ofwel de vastgestelde zaken schriftelijk meedelen aan het bestuursorgaan en weigeren zijn opdracht verder te zetten;
-	- ofwel de vastgestelde zaken schriftelijk meedelen aan het bestuursorgaan en een uitdrukkelijk voorbehoud maken in zijn verslag met betrekking tot de gevolgen van de onregelmatigheden op de staat van activa en passiva.
-
-7.3. De beroepsbeoefenaar onderzoekt de rechten verbonden aan de verschillende categorieën van aandelen, daarin begrepen de aandelen die het maatschappelijk kapitaal niet vertegenwoordigen. Als hij vaststelt dat de gelijkheid tussen de verschillende vennoten op betekenisvolle wijze in gevaar dreigt te komen door de realisatie van de verrichting, dan meldt hij dat in zijn verslag.
-
-## 8. Als de beroepsbeoefenaar in de loop van zijn werkzaamheden gebeurtenissen vaststelt na de afsluitingsdatum van de staat van activa en passiva die een betekenisvol effect kunnen hebben op de voorstelling van de staat van activa en passiva of het bedrag van het netto-actief, dan moet hij dat melden in zijn verslag.
-8.1. De beroepsbeoefenaar zal aandachtig zijn voor de evolutie van het maatschappelijk kapitaal na de datum van de boekhoudstaat en tot de ondertekening van zijn verslag. In het bijzonder voor de coöperatieve vennootschappen, dient hij specifieke aandacht te besteden aan de evolutie van het veranderlijk gedeelte van het kapitaal; desgevallend zal de beroepsbeoefenaar melding maken van het risico van de wijziging van het veranderlijk gedeelte van het kapitaal ná de ondertekening van zijn verslag.
-
-1 Zie deontologische aanbeveling d.d. 5 december 1997 inzake de relaties tussen de leden van het IBR en het IAB in het kader van de beroepsuitoefening (zie Jaarverslag IAB, 1997, p. 19 ).
-
----
-
-## Hoofdstuk 3: Het verslag
-
-## 1. De beroepsbeoefenaar vermeldt in zijn verslag, in algemene bewoordingen, de opdracht die hem is toevertrouwd, de referentie naar het aanstellingsdocument en de wijze waarop hij zijn controle heeft uitgeoefend op de staat van activa en passiva voorgelegd aan de algemene vergadering.
-1.1. In de identificatie van de opdracht die hem wordt toevertrouwd, zal de beroepsbeoefenaar moeten opnemen:
-
-	- de identificatie van de vennootschap (de maatschappelijke benaming en zetel, in voorkomend geval het handelsregister, enz.);
-	- de datum waarop de boekhoudkundige staat werd vastgesteld door het bestuursorgaan van de onderneming, met duidelijke vermelding dat deze staat is opgesteld onder de verantwoordelijkheid van dit orgaan;
-	- een samenvatting van het kader waarin de verrichting van omzetting plaatsvindt en van de verantwoording van het bestuursorgaan.
-
-## 2. De beroepsbeoefenaar zet de wijze uiteen waarop hij zijn verificaties heeft uitgevoerd. Hij geeft aan in welke mate hij zijn werkzaamheden heeft kunnen steunen op een administratieve en boekhoudkundige organisatie die volstaat in het kader van de verrichting.
-2.1. De beroepsbeoefenaar moet in zijn verslag vermelden dat het doel van zijn opdracht bestaat in het opsporen van elke overwaardering van het netto-actief zoals dat blijkt uit de door het bestuursorgaan opgestelde staat van activa en passiva. Zijn werkprogramma is bijgevolg gericht op de opsporing van eventuele overwaarderingen van rubrieken van het actief, evenals op de onderwaardering van de voorzieningen voor risico’s en kosten en de schulden. Niet alle aspecten zijn in acht genomen die nodig zijn in het kader van de certifiëring van het getrouw beeld van de jaarrekening (structuur van het resultaat, financiële situatie, enz.).
-
-2.2. Het verslag van de beroepsbeoefenaar zal uiteenzetten of de administratieve en boekhoudkundige organisatie van de vennootschap het hem mogelijk heeft gemaakt zich een oordeel te vormen over de beschrijving en de waardering van de bestanddelen van de boekhoudkundige staat.
-
-Als de administratieve en boekhoudkundige administratie grote leemten vertoont, dan zal de beroepsbeoefenaar trachten voldoende alternatieve controles uit te werken. Als dat niet mogelijk is, zal hij geen verklaring zonder voorbehoud kunnen afgeven.
-
-## 3. De beroepsbeoefenaar neemt de boekhoudkundige staat van activa en passiva op in zijn verslag, of voegt hem erbij. Er moet duidelijk vermeld worden dat deze staat van activa en passiva opgesteld is onder de verantwoordelijkheid van het bestuursorgaan van de vennootschap.
-3.1. De wet schrijft voor dat de beroepsbeoefenaar verslag uitbrengt over de boekhoudkundige staat. Dit verslag zal volgende elementen betreffen:
-
-	- de boekhoudkundige staat vloeit voort zonder toevoegingen, noch weglatingen uit de balansrekeningen;
-	- de voorstelling van de boekhoudkundige staat is in overeenstemming met de structuur van de jaarrekeningen, opgesteld in overeenstemming met de reglementering;
-	- de toegepaste waarderingsregels stemmen overeen met de boekhoud- reglementering en alle waardecorrecties (afschrijvingen, waardeverminderingen en voorzieningen) zijn aangebracht op de afsluitdatum van de staat van activa en passiva, zodanig dat de boekhoudkundige staat een redelijke basis vormt voor de berekening van het netto-actief.
-
-Indien de beroepsbeoefenaar het noodzakelijk acht, kan hij commentaar geven bij punt c) hierboven; hij kan hiervoor de betekenisvolle rubrieken van de boekhoudkundige staat overlopen. Hij zal zijn verslag moeten vervolledigen in de hypotheses, zoals bedoeld in de paragrafen 3.3.2., 3.3.3. en 3.3.4. hierna.
-
-3.2. Als de beroepsbeoefenaar van oordeel is dat wijzigingen aangebracht moeten worden aan de boekhoudkundige staat, dan zal hij in zijn verslag een voorbehoud opnemen met een vermelding van de betekenisvolle correcties die hij nodig acht, overeenkomstig hetgeen hierna onder paragraaf 3.5. wordt gesteld.
-
-3.3. Als de beroepsbeoefenaar van mening is dat de verklarende bijlage, zoals bedoeld in paragraaf 1.3., bij de rubrieken van de staat van activa en passiva van belang is voor het begrip ervan, dan zal hij dit vermelden in zijn verslag. Dit betreft in het bijzonder de wijziging van de waarderingsregels die zouden zijn doorgevoerd voor de opstelling van de boekhoudkundige staat. Andere inlichtingen die de beroepsbeoefenaar zou moeten opnemen in zijn verslag zijn in het bijzonder :
-
-	- betekenisvolle verbintenissen (lopende betwistingen, belangrijke waarborg- verplichtingen, enz.);
-	- zware financiële moeilijkheden die het voortbestaan van de vennootschap, zelfs na omzetting, onzeker maken; volgens het gebruik op het vlak van certifiëring van jaarrekeningen beloopt het continuïteitsvooruitzicht normaal één jaar.
-	- wijzigingen van het kapitaal na de datum van de boekhoudkundige staat.
-
-3.4. De beroepsbeoefenaar vermeldt elk feit dat hem ter kennis werd gebracht na de datum van de boekhoudkundige staat en dat een betekenisvolle wijziging van deze staat tot gevolg zou hebben gehad, als dat feit voor die datum bekend was geweest.
-
-## 4. De beroepsbeoefenaar vermeldt dat hij kennis heeft genomen van het verslag van het bestuursorgaan voorzien door artikel 778 W. Venn. Hij geeft in zijn verslag alle inlichtingen die hij nodig acht ter informatie van de algemene vergadering in verband met de omzetting van de rechtsvorm van de vennootschap en die niet voorkomen in het verslag van het bestuursorgaan.
-4.1. De beroepsbeoefenaar vermeldt de betekenisvolle feiten die hem ter kennis werden gebracht na de datum van de boekhoudkundige staat en die van aard zijn een aanzienlijke invloed te hebben op de beslissing van de algemene vergadering, zelfs als ze niet noodzakelijk een invloed hebben op de presentatie van de boekhoudkundige staat.
-
-## 5. Als de beroepsbeoefenaar in de onmogelijkheid verkeert een verklaring zonder voorbehoud af te geven, dan zal hij de redenen daarvoor in duidelijke bewoordingen uiteenzetten.
-5.1. De beroepsbeoefenaar moet in zijn verslag melding maken van alle betekenisvolle correcties, die aanleiding geven tot de overwaardering van het netto-actief, die aangebracht moeten worden aan de staat van activa en passiva, gevoegd bij het verslag van het bestuursorgaan van de vennootschap.
-
-In het geval de correcties voor gevolg zouden hebben dat het netto-actief kleiner wordt dan het maatschappelijk kapitaal, dan zal de beroepsbeoefenaar de door hemzelf gecorrigeerde cijfers gebruiken om het netto-actief te berekenen vermeld in het besluit van zijn verslag.
-
-5.2. De beroepsbeoefenaar, die in de loop van zijn werkzaamheden een inbreuk vaststelt op de boekhoudwet en haar uitvoeringsbesluiten in verband met de opstelling van de boekhoudkundige staat, zal, onverminderd formele aspecten van ondergeschikt belang, daarvan melding moeten maken in zijn verslag, overeenkomstig het artikel 16 van de wet van 17 juli 1975 op de boekhouding van de ondernemingen.
-
- 5.3. De beroepsbeoefenaar, die in de loop van zijn werkzaamheden een betekenisvolle inbreuk vaststelt op het Wetboek van vennootschappen en de statuten, zal dit vermelden in zijn verslag, in de mate waarin deze inbreuk invloed kan hebben op :
-
-	- de beslissing van de algemene vergadering;
-	- of de presentatie van de staat van activa en passiva en/of de berekening van het netto-actief.
-
-## 6. Het verslag van de beroepsbeoefenaar zal gedateerd en getekend worden op de dag waarop de werkzaamheden werden beëindigd.
-6.1. Als de beroepsbeoefenaar het schriftelijk verslag van het bestuursorgaan ter verantwoording van de omzetting van de vennootschap niet heeft kunnen bekomen vóór hij zelf zijn verslag heeft opgesteld, dan kan hij zijn getekend verslag niet afleveren.
-
-In zulk geval zou de commissaris een verslag van niet-bevinding moeten afleveren.
-
----
-
-## Hoofdstuk 4: Besluit van het verslag
-
-## 1. Het besluit van het verslag van de beroepsbeoefenaar moet zijn oordeel bevatten over de afwezigheid van enige overwaardering van het netto-actief.
-1.1. Naast de vermelding bepaald in 4.2. moet de beroepsbeoefenaar in zijn verklaring aangeven :
-
-	- dat de verrichting werd nagezien overeenkomstig deze normen;
-	- dat uit zijn werkzaamheden niet is gebleken dat enige overwaardering van het netto-actief heeft plaatsgehad;
-	- elke andere inlichting die hij nuttig oordeelt voor de informatie van de aandeelhouders en derden in het kader van de omzettingsverrichting.
-
-1.2. Als de beroepsbeoefenaar van oordeel is dat correcties hadden moeten aangebracht worden aan de staat van activa en passiva die hem wordt voorgelegd voor de berekening van het netto-actief, dan moet hij zijn voorbehoud in duidelijke bewoordingen opnemen in het besluit. Hij kan gebruik maken van de voorbeeld- besluiten in bijlage.
-
-## 2. De beroepsbeoefenaar moet zich in zijn besluit expliciet uitspreken over de verhouding van het netto-actief tot het kapitaal.
-2.1. Als het netto-actief groter is dan het kapitaal, dan moet hij dat vermelden, maar moet hij niet het bedrag van het netto-actief, noch het verschil opnemen in zijn verklaring.
-
-2.2. Als het netto-actief (of netto-passief) kleiner is dan het kapitaal, dan moet hij het bedrag van het netto-actief (of netto-passief) en het verschil vermelden in zijn besluit.
-
-2.2.1. De beroepsbeoefenaar zal het netto-actief berekenen en vergelijken met het maatschappelijk kapitaal, zelfs als dat netto-actief gelijk is of groter is dan het minimumkapitaal, geplaatst en/of volgestort, bepaald in het Wetboek van vennootschappen.
-
-2.2.2. Zelfs als de vennootschap die zich omzet een netto-actief heeft dat kleiner is dan het geplaatst en/of volgestort minimumkapitaal voorzien door het Wetboek van vennootschappen, dan kan de omzetting plaatsvinden.
-
-De beroepsbeoefenaar zal echter in zijn verslag en eventueel in het besluit van zijn verslag uitdrukkelijk het specifieke risico dat eruit voortvloeit in herinnering brengen, met name onder meer de eventuele aansprakelijkheid van de personen bedoeld in het artikel 785 W. Venn. en het feit dat elke belanghebbende in rechte de ontbinding van de vennootschap kan vragen (artikelen 333 en 634 W. Venn.). Deze vermelding kan in de conclusie worden weggelaten in het geval voldoende externe inbrengen worden vooropgesteld.
-
-2.2.3. Als het netto-actief kleiner is dan het kapitaal, enkel omwille van het feit dat er niet- opgevraagd kapitaal is, kan de beroepsbeoefenaar zijn oordeel nuanceren. Hij zal rekening kunnen houden met aanwijzigingen die te kennen geven dat bepaalde vennoten niet in staat zullen zijn om het saldo te volstorten.
-
-2.3. Als het netto-actief tenminste overeenstemt met het bedrag van het maatschappelijk kapitaal, maar kleiner is dan het minimumkapitaal vereist door het Wetboek van vennootschappen, dan moet de beroepsbeoefenaar daar melding van maken in zijn verslag. Het tweede lid van paragraaf 4.2.2.2. is eveneens toepasselijk.
-
-2.4. Het niet voldoen aan de vereiste van het minimumkapitaal van de vennootschapsvorm waarnaar wordt omgezet, bepaald in het Wetboek van vennootschappen moet ook worden gemeld, zelfs als het netto-actief groter is dan dit wettelijk minimum.
-
- In zulke gevallen is het gebruikelijk dat de vennootschap beslist haar kapitaal te verhogen voorafgaand aan de verrichting van omzetting, om het minimumkapitaal te bereiken vereist voor de vorm van de vennootschap waarin zij zich omzet. De beroepsbeoefenaar zal dan nagaan dat ofwel voldoende bestanddelen van het eigen vermogen voorhanden zijn (in de mate dat deze de overgedragen verliezen overtreffen) behoorlijk goedgekeurd door de algemene vergadering, ofwel dat voorafgaandelijk de statutaire afsluitdatum van het boekjaar is gewijzigd om toe te laten de door de algemene vergadering goedgekeurde winst van het boekjaar te incorporeren in het kapitaal.
-
-2.5. De omzetting van een vennootschap met onbeperkte aansprakelijkheid in een besloten vennootschap met beperkte aansprakelijkheid of een coöperatieve vennootschap met beperkte aansprakelijkheid kan gebeuren voor zover het netto- actief tenminste overeenstemt met het minimum te volstorten kapitaal (6.200 EUR). Indien dit niet het geval is, dient de ontoereikendheid van het geplaatste kapitaal te worden vermeld, alsook het risico dat hieruit voortvloeit op het vlak van de aansprakelijkheid van de partijen.
-
-2.6. Wanneer de vennootschap zich ná de omzetting bevindt in een situatie zoals omschreven in de artikelen 332 of 633 W. Venn., zal de beroepsbeoefenaar hiervan melding maken in zijn verslag en, in voorkomend geval, in zijn besluit.
-
-## 3. Als de beroepsbeoefenaar niet in de mogelijkheid is geweest om de nodige informatie te verzamelen voor zijn controles, ofwel omdat de gegevens verstrekt door de partijen onvoldoende zijn, ofwel omdat de beroepsbeoefenaar geconfronteerd wordt met een belangrijke onzekerheid voor de waardering van de actief- en passiefbestanddelen, dan is hij gerechtigd zich te onthouden van het geven van een oordeel.
-3.1. In het besluit van zijn verslag zal hij de partijen aanbevelen de verrichting uit te stellen totdat bijkomende inlichtingen verkregen zijn, die de preciseringen kunnen geven die noodzakelijk geacht worden om de beslissing te kunnen nemen met kennis van zaken.
-
-## 4. In de authentieke akte die de beslissing tot omzetting vaststelt, worden de conclusies overgenomen van het verslag van de beroepsbeoefenaar. Het uittreksel uit deze authentieke akte, dat dient neergelegd te worden ter griffie van de rechtbank van koophandel en te worden bekendgemaakt in de Bijlagen van het Belgisch Staatsblad, moet deze conclusies bevatten.
-
----
-
-## Bijlage 1
-
-## 1. Voorbeeld van een besluit van een verslag zonder voorbehoud
-**BESLUIT**
-
-Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er enige overwaardering van het netto-actief, zoals dat blijkt uit de staat van activa en passiva per … (datum) die het bestuursorgaan van de vennootschap heeft opgesteld, heeft plaatsgehad. Uit onze werkzaamheden, uitgevoerd overeenkomstig de normen inzake het verslag op te stellen bij de omzetting van een vennootschap, is niet gebleken dat er enige overwaardering van het netto-actief heeft plaatsgehad. Het netto-actief volgens deze staat van … euro is niet kleiner dan het maatschappelijk kapitaal van … euro.
-
-## 2. Voorbeeld van een besluit van een verslag zonder voorbehoud wanneer aan de kapitaalvoorwaarde niet is voldaan
-### 2.1. Het netto-actief is lager dan het kapitaal vermeld in de boekhoudstaat
-Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er enige overwaardering van het netto-actief, zoals dat blijkt uit de staat van activa en passiva per … (datum) die het bestuursorgaan van de vennootschap heeft opgesteld, heeft plaatsgehad. Uit onze werkzaamheden, uitgevoerd overeenkomstig de normen inzake het verslag op te stellen bij de omzetting van een vennootschap, is niet gebleken dat er enige overwaardering van het netto-actief heeft plaatsgehad. Het netto-actief volgens deze staat van … euro is .. euro kleiner dan het maatschappelijk kapitaal van
- … euro.
-
-### 2.2. Het netto-actief is lager dan het minimumkapitaal van de vennootschap waarin de vennootschap wordt omgezet
-Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er enige overwaardering van het netto-actief, zoals dat blijkt uit de staat van activa en passiva per … (datum) die het bestuursorgaan van de vennootschap heeft opgesteld, heeft plaatsgehad. Uit onze werkzaamheden, uitgevoerd overeenkomstig de normen inzake het verslag op te stellen bij de omzetting van een vennootschap, is niet gebleken dat er enige overwaardering van het netto-actief heeft plaatsgehad. Het netto-actief volgens deze staat van … euro is … euro kleiner dan het minimumkapitaal vereist voor de oprichting van een ... (naamloze vennootschap). Op straffe van aansprakelijkheid van de bestuurders (zaakvoerders of vennoten naargelang het geval), kan de verrichting slechts plaatsvinden mits bijkomende inbrengen van buiten uit.
-
-## 3. Voorbeeld van een besluit van een verslag met voorbehoud en met een netto- actief hoger dan het kapitaal
-**BESLUIT**
-
-Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er enige overwaardering van het netto-actief, zoals dat blijkt uit de staat van activa en passiva per … (datum) die het bestuursorgaan van de vennootschap heeft opgesteld, heeft plaatsgehad. Bij onze werkzaamheden, uitgevoerd overeenkomstig de normen inzake het verslag op te stellen bij de omzetting van een vennootschap, werden overwaarderingen van het netto-actief vastgesteld, waarvan het nettobedrag ... euro bedraagt. Het netto-actief volgens deze staat, na aftrek van bovenvermelde overwaarderingen, bedraagt … euro en is niet kleiner dan het maatschappelijk kapitaal van … euro.
-
-## 4. Voorbeeld van een besluit van een verslag met voorbehoud en met een netto- actief lager dan het kapitaal
-**BESLUIT**
-
-Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er enige overwaardering van het netto-actief, zoals dat blijkt uit de staat van activa en passiva per … (datum) die het bestuursorgaan van de vennootschap heeft opgesteld, heeft plaatsgehad. Bij onze werkzaamheden, uitgevoerd overeenkomstig de normen inzake het verslag op te stellen bij de omzetting van een vennootschap, werden overwaarderingen van het netto-actief vastgesteld, waarvan het nettobedrag … euro bedraagt. Het netto-actief volgens deze staat, na aftrek van bovenvermelde overwaarderingen, bedraagt … euro. Het verschil met het maatschappelijk kapitaal van … euro, vermeld in de staat van activa en passiva, bedraagt … euro.
-
----
-
-## Bijlage 2 : Cijfervoorbeeld in duizenden EURO van de hypotheses vermeld in paragraaf 2.6. en 4.2. van de normen
-
-## 1. Omzetting van een BVBA in NV
-
-
-			| 
-				Norm
-
-
-			| 
-				Eigen vermogen
-
-
-			| 
-				Kapitaal vóór de verrichting
-
-
-			| 
-				Kapitaal ná de verrichting
-
-
-			| 
-
-
-			| 
-
-
-			| 
-				Geplaatst
-
-				Volgestort
-
-
-			| 
-				Geplaatst
-
-				Volgestort
-
-
-			| 
-
-
-				2.6.1.
-
-				4.2.2.1.
-
-				4.2.2.2.
-
-				4.2.2.2.
-
-				4.2.3.
-
-				4.2.4.
-
-
-			| 
-
-
-				2.600
-
-				9.000
-
-				1.500
-
-
-				1.000
-
-				3.000
-
-
-			| 
-
-
-				2.500           2.500
-
-				10.000         10.000
-
-				2.500           2.500
-
-				750              750
-
-				750              750
-
-				1.500           1.500
-
-
-			| 
-
-
-				2.500         2.500
-
-				10.000       10.000
-
-				2.500         2.500
-
-				2.500         2.500
-
-				2.500         2.500
-
-				2.500         2.500
-
-
-## 2. Omzetting van een NV in BVBA
-
-
-			| 
-				Norm
-
-
-			| 
-				Eigen vermogen
-
-
-			| 
-				Kapitaal vóór de verrichting
-
-
-			| 
-				Kapitaal ná de verrichting
-
-
-			| 
-
-
-			| 
-
-
-			| 
-				Geplaatst
-
-				Volgestort
-
-
-			| 
-				Geplaatst
-
-				Volgestort
-
-
-			| 
-
-
-				4.2.2.1.
-
-				4.2.2.1.
-
-				4.2.2.1.
-
-				4.2.2.1.
-
-				4.2.2.2.
-
-
-			| 
-
-
-				1.200
-
-				1.200
-
-
-			| 
-
-
-				1.250           1.250
-
-				1.500           1.250
-
-				2.500           2.500
-
-				1.500           1.250
-
-				2.500           2.500
-
-
-			| 
-
-
-				750            750
-
-				750            500
-
-				750            750
-
-				750            500
-
-				750            750
-
-
-## 3. Omzetting van een vennootschap met onbeperkte aansprakelijkheid in een coöperatieve vennootschap met beperkte aansprakelijkheid
-
-
-			| 
-				Norm
-
-
-			| 
-				Eigen vermogen
-
-
-			| 
-				Kapitaal vóór de verrichting
-
-
-			| 
-				Kapitaal ná de verrichting
-
-
-			| 
-
-
-			| 
-				Geplaatst* Volgestort
-
-
-			| 
-				Geplaatst
-
-				Volgestort
-
-
-			| 
-
-
-				4.2.5.
-
-
-			| 
-
-
-			| 
-
-
-				750                 250
-
-
-			| 
-
-
-				750            250
-
-
-* bij onderhandse akte gebracht op 750.
+3.4. Verslag aan de buitengewone algemene vergadering van [rechtsvorm ] [X] betreffende 
+de beoordeling van de staat van activa en passiva in het kader van de nationale omzetting 
+van een [rechtsvorm kapitaalloze vennootschap] naar een [rechtsvorm kapitaalloze 
+vennootschap] [Y] ........................................................................................................................... 58
+
+3.5. Verslag aan de buitengewone algemene vergadering () van [rechtsvorm] [X] 
+betreffende de beoordeling van de staat van activa en passiva in het kader van de 
+grensoverschrijdende omzetting van een [rechtsvorm entiteit A ()] naar een [rechtsvorm 
+entiteit B] .......................................................................................................................................... 61
+
+
+## Toepassingsgebied
+
+1. Onderhavige norm is van toepassing op de opdracht die door de
+
+A1. Ingevolge het Wetboek van vennootschappen en verenigingen zijn volgende
+
+beroepsbeoefenaar wordt uitgevoerd in het kader van de verrichtingen die 
+bepaald zijn in het Wetboek van vennootschappen en verenigingen in de 
+artikelen 14:4 (vennootschappen), 14:21 (grensoverschrijdende omzetting 
+(emigratie) van een vennootschap), 14:32 (vennootschap in (I)VZW) en 14:47 
+(omzetting tussen vormen van verenigingen), 14:57 (grensoverschrijdende 
+omzetting (emigratie) van een (I)VZW), 14:67 (stichtingen), 14:74 
+(grensoverschrijdende omzetting (emigratie) van een stichting). (par. A1-A3)
+
+A. omzettingen mogelijk:
+
+A. – 
+een vennootschap, opgericht in één van de rechtsvormen genoemd in 
+artikel 1:5, § 2 WVV., in een vennootschap met een andere rechtsvorm, 
+onverminderd de specifieke bepalingen voor de SE en SCE (artikel14:4 
+WVV); 
+– 
+de door het WVV geregelde vennootschappen met rechtspersoonlijkheid, 
+wanneer zij hun zetel willen verplaatsen naar het buitenland, met 
+uitzondering van de SE en de SCE (artikel 14:21, tweede lid WVV); 
+de vennootschap met rechtspersoonlijkheid in een (I)VZW (artikel 14:32, 
+tweede lid, 3° WVV); 
+– 
+een VZW in een iVZW en een IVZW in een VZW (artikel 14:47, tweede lid, 
+3° WVV); 
+– 
+een door het WVV geregelde vereniging met rechtspersoonlijkheid die hun 
+zetel verplaatsen naar het buitenland, met uitzondering van de Europese 
+politieke partij en de Europese private stichting (artikel 14:57, tweede lid 
+WVV); 
+– 
+een PS in een SON (artikel 14:67, tweede lid, 3° WVV); 
+– 
+alle door het WVV geregelde stichtingen die hun zetel naar het buitenland 
+willen verplaatsen, met uitzondering van de Europese politieke partij en 
+de Europese private stichting (artikel 14:74, tweede lid WVV).
+
+2. Onderhavige norm is niet van toepassing op:
+
+- 
+de omzetting van een onderlinge verzekeringsvereniging in een 
+vennootschap met handelsvorm (Art. 248-260 van de wet van 13 maart 
+2016 op het statuut van en het toezicht op de verzekerings- of 
+herverzekeringsondernemingen); 
+- 
+de buitenlandse zetelverplaatsing van Europese politieke partijen en 
+Europese private stichtingen; 
+- 
+de door de wet van 23 maart 2019 tot invoering van het Wetboek van 
+vennootschappen en verenigingen en houdende diverse bepalingen 
+verplichte wijziging van een vennootschap naar haar nieuwe vorm die 
+voorzien is in het WVV (vb. de omzetting in BV van een BVBA of een 
+CVBA die niet aan de definitie van CV in artikel 6:1 WVV beantwoordt). 
+ 
+3. Bijzonder geval:
+
+A2. De verrichtingen die onderhevig zijn aan deze norm, kunnen gebeuren in 
+combinatie met andere verrichtingen. De beroepsbeoefenaar waakt er in dat 
+geval over dat hij de rapporteringsverplichtingen naleeft die op die andere 
+verrichting van toepassing zijn. Zo zal hij bijvoorbeeld de norm inzake de 
+opdracht van de beroepsbeoefenaar in het kader van de beoordeling van het
+
+- 
+de procedures en verslagen beschreven in deze norm zijn naar analogie 
+van toepassing op de omzetting van een VZW in een erkende CVSO of 
+een CV erkend als SO (artikel 14:38, tweede lid, 3° WVV), en dit
+
+minstens totdat de rechtspraak of wetgeving hieromtrent meer 
+duidelijkheid schept.
+
+A. getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens 
+opgenomen in het verslag van het bestuursorgaan (Wetboek van 
+vennootschappen 
+en 
+verenigingen) 
+dienen 
+toe 
+te 
+passen.
+
+A3. De procedure voorafgaand aan het besluit tot omzetting kan als volgt
+
+A. worden samengevat, met name het opmaken van:
+
+A. – 
+een staat van activa en passiva door het bestuursorgaan van de 
+rechtspersoon (art. 14:3; 14:21, eerste lid; 14:32, tweede lid, 2°; 14:47, 
+tweede lid, 2°; 14:57, eerste lid; 14:67, §2, 2° en 14:74, eerste lid WVV); 
+– 
+een verslag door het bestuursorgaan van de rechtspersoon (art. 14:5; 
+14:20; 14:32, eerste lid; 14:47, eerste lid; 14:56; 14:67, §2, 1° en 14:73 
+WVV), met vermelding, wanneer de verrichting een grensoverschrijdende 
+verrichting betreft, van een geldelijke vergoeding; en 
+– 
+een beoordelingsverslag door de beroepsbeoefenaar (art. 14:4; 14:21, 
+tweede lid; 14:32, tweede lid, 3°; 14:47, tweede lid, 3°; 14:57, tweede lid; 
+14:67, §2, 3° en 14:74, tweede lid WVV). 
+ 
+Deze procedure beoogt dat de aandeelhouders, vennoten of leden zich met 
+kennis van zaken kunnen uitspreken over de omzetting van de entiteit.
+
+A. De omzetting wijzigt de rechtsvorm van een rechtspersoon, die blijft bestaan 
+in de nieuw aangenomen rechtsvorm. De rechtspersoon die werd omgezet, 
+wordt dus niet ontbonden en er wordt geen nieuwe rechtspersoon opgericht. 
+Het besluit tot omzetting wordt door de algemene vergadering genomen, 
+behalve voor de stichting waar er enkel een bestuursorgaan is. Wanneer de 
+door het WVV vereiste verslagen ontbreken, is het besluit van de algemene 
+vergadering of, ingeval van een stichting, van het bestuursorgaan, nietig.
+
+A. In bijlage 1 wordt een tabel opgenomen van de bepalingen in het WVV en de 
+uit te brengen verslagen.
+
+
+## Datum van inwerkingtreding en opheffingsbepaling
+
+4. Deze norm treedt in werking voor de verslagen die drie maanden na de datum
+
+van publicatie in het Belgisch Staatsblad van het bericht tot goedkeuring van 
+de minister die bevoegd is voor Economie zijn uitgebracht.
+
+5. Vanaf deze datum van inwerkingtreding worden de normen van 4 oktober 
+2002 inzake het verslag op te stellen bij de omzetting van een entiteit 
+opgeheven.
+
+A. Definities
+
+6. Voor de toepassing van deze norm wordt verstaan onder:
+
+(i) 
+“WVV”: Wetboek van vennootschappen en verenigingen; 
+(ii) 
+“KB/WVV”: het koninklijk besluit van 29 april 2019 tot uitvoering van het 
+Wetboek van vennootschappen en verenigingen; 
+(iii) 
+“wet van 7 december 2016”: de wet van 7 december 2016 tot 
+organisatie van het beroep van en het publiek toezicht op de 
+bedrijfsrevisoren; 
+(iv) 
+“wet van 17 maart 2019”: de wet van 17 maart 2019 betreffende de 
+beroepen van accountant en belastingadviseur; 
+(v) 
+“bedrijfsrevisor”: de bedrijfsrevisor in de zin van artikel 3, 3° van de wet 
+van 7 december 2016;  
+(vi) 
+“gecertificeerd accountant”: de hoedanigheid verleend aan de persoon 
+die aan de voorwaarden van hoofdstuk 4 van de wet van 17 maart 2019 
+beantwoordt om, als zelfstandige in hoofdberoep of bijberoep, voor
+
+rekening van derden, de beroepsactiviteiten bedoeld in artikel 3, 1° tot 
+en met 12°, van diezelfde wet, uit te oefenen; 
+(vii) “beroepsbeoefenaar”: deze term betreft de commissaris, of als er geen 
+commissaris is, een door het bestuursorgaan, in voorkomend geval 
+door de algemene vergadering (VOF en CommV), aangewezen 
+bedrijfsrevisor of een gecertificeerd accountant;  
+(viii) “IBR”: het Instituut van de Bedrijfsrevisoren, bedoeld door artikel 64 van 
+het wet van 7 december 2016 tot organisatie van het beroep van en het 
+publiek toezicht op de bedrijfsrevisoren; 
+(ix) 
+“IBA”: het Instituut van de Belastingadviseurs en de Accountants, 
+bedoeld door artikel 61 van de wet van 17 maart 2019 betreffende de 
+beroepen van accountant en belastingadviseur; 
+(x) 
+“entiteit”: beoogt volgende rechtsvormen:
+
+a. “BV”: de besloten vennootschap (art. 1:5, §2 WVV); 
+b. “CV”: de coöperatieve vennootschap (art. 1:5, §2 WVV); 
+c. “VOF”: de vennootschap onder firma (art. 1:5, §2 WVV); 
+d. “CommV”: de commanditaire vennootschap (art. 1:5, §2
+
+WVV); 
+e. “NV”: de naamloze vennootschap (art. 1:5, §2 WVV); 
+f. 
+“SE”: de Europese vennootschap (art. 1:5, §2 WVV); 
+g. “SCE”: de Europese coöperatieve vennootschap (art. 1:5, §2 
+WVV); 
+h. “VZW”: de vereniging zonder winstoogmerk (art. 1:6, §2 WVV); 
+i. 
+“IVZW”: de internationale vereniging zonder winstoogmerk 
+(art. 1:6, §2 WVV); 
+j. 
+“PS”: de private stichting (art. 1:7 WVV); 
+k. “SON”: de stichting van openbaar nut (art. 1:7 WVV); 
+l. 
+“CV erkend als SO”: de CV erkend als sociale onderneming 
+(art. 8:5, §1, 4de lid, WVV) 
+(xi) 
+“aandeelhouder”: met deze term worden tevens de leden of de vennoten 
+beoogd; 
+(xii) “boekhoudkundig referentiestelsel”:
+
+- 
+Inzake het voeren van de boekhouding betreft dit :
+
+o 
+het wetboek van Economisch recht, artikel III.83 e.v. 
+o 
+het KB/WVV; 
+o 
+het WVV. 
+- 
+Inzake het opstellen van de jaarrekening betreft dit het WVV (art. 
+3:1) en het uitvoeringsbesluit op het WVV van 29 april 2019. 
+De betrokken entiteit kan ook onderworpen zijn aan de toepassing van 
+een specifiek boekhoudkundig referentiestelsel. 
+(xiii) “afwijking(en) van materieel belang”: afwijkingen, met inbegrip van
+
+weglatingen, worden geacht van materieel belang te zijn indien van hen, 
+afzonderlijk of gezamenlijk, redelijkerwijs kan worden verwacht dat zij 
+de 
+beslissing 
+beïnvloeden omtrent de goedkeuring van het 
+omzettingsvoorstel door de aandeelhouders die is genomen op basis 
+van de financiële informatie. De vaststelling van de materialiteit door de 
+beroepsbeoefenaar is een kwestie van professionele oordeelsvorming 
+en wordt beïnvloed door de perceptie van de beroepsbeoefenaar 
+betreffende de behoeften van de aandeelhouders. 
+(xiv) “met een diepgaande invloed”: een term die binnen de context van 
+afwijkingen wordt gebruikt om de gevolgen te beschrijven van 
+afwijkingen of de mogelijke gevolgen van afwijkingen voor de staat van 
+activa en passiva, indien aanwezig, die niet geïdentificeerd zijn als 
+gevolg van het niet in staat zijn om voldoende en geschikte 
+onderbouwende informatie te verkrijgen. Onder gevolgen met een 
+diepgaande invloed vallen die gevolgen die, naar het oordeel van de 
+beroepsbeoefenaar:
+
+a. zich niet beperken tot specifieke onderdelen, rekeningen of
+
+elementen van de staat van activa en passiva; 
+b. indien ze zich daartoe wel beperken, een deel van materieel belang 
+van de staat van activa en passiva vertegenwoordigen of zouden 
+kunnen vertegenwoordigen; of 
+c. met betrekking tot toelichtingen, van fundamenteel belang zijn
+
+voor het begrip van gebruikers van de staat van activa en passiva ;
+
+(xv) “beoordeling”: de opdracht beoogd door onderhavige norm is een
+
+assurance-opdracht die als doel heeft een beperkte mate van zekerheid 
+te verschaffen. Deze term beoogt de beoordelingsopdracht in de zin van 
+ISRE 2410 of de gemeenschappelijke KMO-norm; 
+(xvi) “ISRE 2410”: de Internationale standaard voor beoordelingsopdracht 
+2410 – Beoordeling van tussentijdse financiële informatie, uitgevoerd 
+door de onafhankelijke auditor van de entiteit, zoals beoogd door de 
+norm van 21 juni 2018 inzake de toepassing in België van de 
+Internationale controlestandaarden (ISA’s), zoals geformuleerd door 
+het Instituut van de Bedrijfsrevisoren, goedgekeurd door de Hoge Raad 
+voor de Economische Beroepen en de federale minister van Economie 
+en waarvoor een bericht in het Belgisch Staatsblad werd gepubliceerd; 
+(xvii) “Gemeenschappelijke KMO-norm”: de norm van 18 december 2018
+
+met betrekking tot de contractuele controle van KMO’s en kleine 
+(I)VZW’s en stichtingen en de gedeelde wettelijk voorbehouden 
+opdrachten bij KMO’s en kleine (I)VZW’s en stichtingen, zoals 
+geformuleerd door het voormalig Instituut van de Accountants en de 
+Belastingconsulenten, en het Instituut van de Bedrijfsrevisoren, 
+goedgekeurd door de Hoge Raad voor de Economische Beroepen en de 
+federale minister van Economie en waarvoor een bericht in het Belgisch 
+Staatsblad werd gepubliceerd.
+
+
+## Vereisten en toepassingsmodaliteiten
+
+I. Doelstellingen
+
+7. De doelstellingen van de beroepsbeoefenaar zijn:
+
+A4. De opdracht beoogd door onderhavige norm is een assurance-opdracht die
+
+A. als doel heeft een beperkte mate van zekerheid te verschaffen. Voor wat de 
+historische financiële en boekhoudkundige gegevens betreft, beoogt deze
+
+(a) om de staat van activa en passiva te beoordelen; 
+(b) om te beoordelen of het nettoactief  is overgewaardeerd;
+
+(c) wanneer de verrichting een grensoverschrijdende verrichting (emigratie)
+
+A. term de beoordelingsopdracht in de zin van ISRE 2410 of de 
+gemeenschappelijke KMO-norm.
+
+betreft, om te verklaren of, naar zijn mening, de geldelijke vergoeding al dan 
+niet relevant en redelijk is; en 
+(d) om overeenkomstig onderhavige norm te rapporteren.
+
+
+## II. Algemene bepalingen
+
+
+## II.1. Deontologische beginselen
+
+8. De bedrijfsrevisor dient de deontologische beginselen na te leven zoals
+
+vastgesteld door de wet van 7 december 2016.
+
+De gecertificeerd accountant dient de deontologische beginselen na te leven 
+zoals vastgesteld door de wet van 17 maart 2019 en het Koninklijk Besluit van 
+9 december 2019 zoals bedoeld in artikel 49 van Hoofdstuk 6 van deze wet.
+
+9. De beroepsbeoefenaar dient de in België van kracht zijnde wetgeving en
+
+A5. De beroepsbeoefenaar dient in volledige onafhankelijkheid te handelen bij
+
+regelgeving na te leven die van toepassing is in het kader van zijn opdracht. 
+(Par. A5)
+
+A. het uitvoeren van de opdracht, met respect van de beginselen van de 
+beroepsethiek.
+
+A. Hij mag niet betrokken zijn bij de besluitvorming van de entiteit waarvoor hij 
+de opdracht uitvoert. Zo zou zijn onafhankelijkheid in het gedrang komen 
+indien hij, zijn kantoor of, voor zover van toepassing, personen die deel 
+uitmaken van het netwerk zoals gedefinieerd in respectievelijk de wet van 7 
+december 2016 of de wet van 17 maart 2019, betrokken zou(den) zijn bij het 
+opstellen van de staat van activa en passiva.
+
+A. In de entiteiten zonder commissaris zal de beroepsbeoefenaar die andere 
+opdrachten voor de entiteit uitvoert, er bijzonder aandachtig voor zijn dat hij 
+niet in de situatie van zelfcontrole komt of dat hij in een situatie komt dat de 
+perceptie ontstaat dat zijn onafhankelijkheid in het gedrang komt. Hij
+
+A. documenteert de eventuele bedreigingen voor zijn onafhankelijkheid en de 
+veiligheidsmaatregelen die zijn genomen om de bedreigingen te beperken.
+
+A6. De algemene norm van het IBR van toepassing op alle opdrachten
+
+A. toevertrouwd door een onderneming aan de bedrijfsrevisor bevat onder meer 
+de vereisten met betrekking tot de opdrachtaanvaarding (met inbegrip van 
+de opdrachtbrief), de opdrachtdocumentatie en de inhoud van het verslag 
+van de bedrijfsrevisor.
+
+A. Voor de gecertificeerd accountant is artikel 41 van de wet van 17 maart 2019 
+van toepassing op de opdrachtbrief en betreffen de artikelen 55 tot en met 
+60 de kwaliteitstoetsing.
+
+A. Daarnaast bevat ook de gemeenschappelijke KMO-norm bepalingen met 
+betrekking tot de opdrachtaanvaarding, opdrachtdocumentatie en verslag, 
+die van toepassing zijn op de beroepsbeoefenaar.
+
+10. De beroepsbeoefenaar dient over een intern kwaliteitsbeheersingssysteem te
+
+beschikken zodat wordt verzekerd dat de opdracht uitgevoerd wordt 
+overeenkomstig de wettelijke en regelgevende bepalingen en de vereisten 
+inzake verslaggeving.
+
+Dit kwaliteitsbeheersingssysteem wordt opgezet in overeenstemming met de 
+respectieve normen die van toepassing zijn binnen elk instituut en die zijn 
+goedgekeurd volgens de wettelijk voorziene procedure.
+
+11. In de entiteiten waar een commissaris werd aangesteld, wordt hij van
+
+A7. Artikel 3:62, §2 WVV bepaalt dat de commissarissen in de entiteit die aan
+
+rechtswege met deze beoordelingsopdracht belast. (par. A7)
+
+A. hun wettelijke controle is onderworpen, noch in een daarmee verbonden 
+entiteit of persoon zoals bedoeld in artikel 1:20 WVV, een andere taak, 
+mandaat of opdracht mogen aanvaarden, die zal worden vervuld tijdens de 
+duur van hun mandaat of erna, en die de onafhankelijke uitoefening van hun 
+taak als commissaris in het gedrang zou kunnen brengen.
+
+12. Alvorens deze opdracht te aanvaarden en in het kader van de cliëntidentificatie
+
+dient de beroepsbeoefenaar, die niet de commissaris is, zich ervan te 
+vergewissen of deze entiteit voldaan heeft aan de wettelijke verplichting om 
+een commissaris aan te stellen krachtens de artikelen 3:47,  3:51 of 3:73 juncto 
+1:24 en 3:72 WVV.
+
+A8. Het naleven van de wettelijke vereisten inzake het aanstellen van een
+
+A. commissaris is de verantwoordelijkheid van het bestuursorgaan van de 
+entiteit. De beroepsbeoefenaar vergewist zich van de procedures die binnen
+
+In voorkomend geval, dient hij de entiteit te laten bevestigen dat deze er 
+wettelijk niet toe gehouden is een commissaris aan te stellen. (par. A8)
+
+A. de entiteit werden gevolgd om na te gaan of de entiteit ertoe gehouden is 
+een commissaris aan te stellen.
+
+Gelet op het risico op strafbare deelneming aan het misdrijf, vermeld in artikel 
+3:97, §2 WVV dient de gecertificeerd accountant of bedrijfsrevisor zich te 
+onthouden van het aanvaarden of voortzetten van deze opdracht bij elke 
+entiteit die weigert een commissaris aan te stellen terwijl zij hiertoe wettelijk 
+verplicht is.
+
+13. Alvorens deze opdracht te aanvaarden, gaat de beroepsbeoefenaar bij de
+
+A9. Artikel 13, § 4, eerste lid en § 5, eerste lid van de wet van 7 december 2016
+
+entiteit na of een andere beroepsbeoefenaar in de loop van de voorafgaande 
+twaalf maanden, belast is of werd met deze opdracht bij dezelfde entiteit. (par. 
+A9)
+
+A. bepaalt voor de bedrijfsrevisoren: “Alvorens een opdracht te aanvaarden, gaat 
+de bedrijfsrevisor bij de onderneming of het organisme na of een andere 
+bedrijfsrevisor in de loop van de voorafgaande twaalf maanden, belast is of 
+werd met een revisorale opdracht bij dezelfde entiteit.(…)
+
+De op elke beroepsgroep van toepassing zijnde wettelijke en regelgevende 
+bepalingen regelen de opvolging tussen leden van eenzelfde Instituut.
+
+A. § 5. Elke bedrijfsrevisor die tot de opvolging van een confrater geroepen wordt, 
+heeft de plicht om voorafgaandelijk en schriftelijk met hem contact op te 
+nemen. De bedrijfsrevisor die dezelfde opdracht uitvoerde, verleent zijn 
+confrater inzage in zijn werkdocumenten en alle relevante informatie.”.
+
+A. Artikel 25 van het koninklijk besluit van 1 maart 1998 tot vaststelling van het 
+reglement van plichtenleer der accountants bepaalt: “Vóór hij een mandaat 
+of een opdracht aanvaardt, moet de gecertificeerd accountant bij de 
+onderneming of de betrokken instelling nagaan of een andere externe 
+accountant in de loop van de voorafgaande twaalf maanden belast is of werd 
+met een opdracht bij dezelfde onderneming. Telkens een gecertificeerd 
+accountant werkzaamheden verricht in een vennootschap of een organisme 
+waar een andere gecertificeerd accountant een opdracht uitoefent, kan hij zijn 
+werkzaamheden ter plaatste slechts verrichten na deze laatste, bij voorkeur 
+schriftelijk, op de hoogte te hebben gebracht van zijn tussenkomst ”.  
+Wanneer een beroepsbeoefenaar vaststelt dat een beroepsbeoefenaar van 
+een ander Instituut reeds met de opdracht is belast, waakt hij erover om het 
+beroepsgeheim te respecteren.
+
+14. Op uitdrukkelijke vraag van het bestuursorgaan en met de toelating van de
+
+algemene vergadering, dient de beroepsbeoefenaar, die niet de commissaris 
+is, de beraadslagingen van de algemene vergadering, of in het geval van een 
+stichting het bestuursorgaan, bij te wonen.
+
+
+## II.2. Aard van de opdracht
+
+15. De opdracht van de beroepsbeoefenaar bestaat erin de staat van activa en
+
+A10. Bij een assurance-opdracht met een beperkte mate van zekerheid is de kans
+
+passiva, opgesteld door en onder verantwoordelijkheid van het bestuursorgaan, 
+in alle van materieel belang zijnde opzichten, te beoordelen en verslag uit te 
+brengen over de staat van activa en passiva waarin hij inzonderheid vermeldt of 
+het 
+nettoactief, 
+in 
+alle 
+van 
+materieel 
+belang 
+zijnde 
+opzichten, 
+is 
+overgewaardeerd.
+
+A. dat de beroepsbeoefenaar een verkeerde uitspraak doet over
+
+A. (a) de staat van activa en passiva; en
+
+A. (b) wanneer de verrichting een grensoverschrijdende verrichting (emigratie) 
+betreft, de redelijkheid en relevantie van de geldelijke vergoeding,
+
+16. De opdracht van de beroepsbeoefenaar beoogd door onderhavige norm is een 
+beoordelingsopdracht, zijnde een assurance-opdracht die als doel heeft een 
+beperkte mate van zekerheid te verschaffen over de betrouwbaarheid van de 
+staat van activa en passiva. (par. A10)
+
+A. tot een vaktechnisch aanvaardbaar niveau teruggebracht. De kans op het 
+uitbrengen van een verkeerde conclusie is groter dan bij een opdracht met 
+een redelijke mate van zekerheid. De beroepsbeoefenaar formuleert een 
+conclusie over de betrouwbaarheid van de staat. Dat doet hij in negatieve 
+vorm.
+
+17. Wanneer de verrichting een grensoverschrijdende verrichting (emigratie)
+
+A. Het betreft aldus onder geen beding een controle dat de staat een getrouw 
+beeld geeft van de financiële toestand van de entiteit, hetgeen slechts 
+mogelijk is na een assurance-opdracht met een redelijke mate van zekerheid.
+
+betreft, is de opdracht van de beroepsbeoefenaar met betrekking tot de 
+geldelijke vergoeding, zoals bedoeld in deze norm een beoordelingsopdracht, 
+namelijk een opdracht met een beperkte mate van zekerheid die bestaat uit het 
+beoordelen of hij geen feiten heeft vastgesteld die hem ertoe brengen te denken 
+dat de geldelijke vergoeding, in alle van materieel belang zijnde opzichten, al dan 
+niet relevant en redelijk is.
+
+A. De opdracht van de beroepsbeoefenaar met betrekking tot de geldelijke 
+vergoeding betreft een opdracht met een beperkte mate van zekerheid, 
+aangezien artikel 12:114, § 1, tweede lid en artikel 12:128, § 1, tweede lid van 
+het WVV bepalen dat voor de beoordeling van deze geldelijke vergoeding 
+rekening dient te worden gehouden met de eventuele marktprijs van de 
+aandelen in de entiteit vóór de aankondiging van het omzettingsvoorstel of 
+met de waarde van de entiteit, exclusief de gevolgen van de voorgestelde
+
+18. Opdat hij kan overgaan tot het verzoeken om inlichtingen en het uitvoeren van 
+cijferanalyses en andere beoordelingswerkzaamheden teneinde het risico van 
+het formuleren van een onjuiste conclusie, wanneer de staat van activa en 
+passiva  een afwijking van materieel belang bevat, tot een beperkt niveau terug
+
+te brengen, dient de beroepsbeoefenaar de bepalingen van onderhavige norm 
+aan te vullen met:
+
+A. omzetting 
+zoals 
+bepaald 
+volgens 
+algemeen 
+aanvaarde 
+waarderingsmethoden.
+
+- 
+ISRE 2410, indien de opdracht wordt uitgevoerd door de commissaris (zie 
+par. 11 van deze norm) behoudens in het geval hij de betrokken staat reeds 
+overeenkomstig de ISA’s gecontroleerd heeft in het kader van zijn mandaat 
+als commissaris;
+
+A11. De beroepsbeoefenaar, die niet de commissaris is, kan de methodologie 
+uitgewerkt op basis van de internationale standaarden met betrekking tot de 
+beoordelingsopdrachten toepassen in alle gevallen, zonder dat het evenwel 
+noodzakelijk is om naar  de internationale standaard met betrekking tot de 
+beoordelingsopdrachten te verwijzen in het verslag. Immers, de toepassing 
+van 
+de 
+internationale 
+standaard 
+met 
+betrekking 
+tot 
+de 
+beoordelingsopdrachten 
+houdt 
+minstens 
+de 
+naleving 
+van 
+de 
+gemeenschappelijke KMO-norm in, het omgekeerde evenwel niet geldt.
+
+- 
+de gemeenschappelijke KMO-norm,  wat de aspecten van toepassing op de 
+beoordelingsopdrachten betreft, indien de opdracht wordt toevertrouwd 
+aan een bedrijfsrevisor of een gecertificeerd accountant en uitgevoerd 
+wordt bij een entiteit die valt onder de definitie van KMO.
+
+II.3. Opdrachtbrief
+
+19. Voorafgaand aan de uitvoering van de opdracht dient de beroepsbeoefenaar
+
+A12. De beroepsbeoefenaar moet erover waken dat deze opdracht het voorwerp
+
+van het bestuursorgaan een opdrachtbrief te verkrijgen. (par. A12)
+
+A. uitmaakt van een opdrachtbrief ondertekend door beide partijen. In de 
+opdrachtbrief 
+zal 
+onder 
+meer 
+gewezen 
+worden 
+op 
+de 
+verantwoordelijkheden van enerzijds het bestuursorgaan en anderzijds de 
+beroepsbeoefenaar.
+
+De opdrachtbrief moet, ten minste, de volgende elementen bevatten:
+
+• 
+de identificatie van de beroepsbeoefenaar en van zijn hoedanigheid 
+(commissaris, bedrijfsrevisor, gecertificeerd accountant); 
+• 
+de identificatie van de cliënt; 
+• 
+de beschrijving van de opdracht, rekening houdend met de volgende 
+aspecten:
+
+A13. Voor de bedrijfsrevisoren, bepaalt artikel 21 van de wet van 7 december 
+2016:  “De bedrijfsrevisor en zijn cliënt stellen een opdrachtbrief op 
+voorafgaand aan de uitvoering van elke opdracht. Naast de omschrijving van 
+de opdracht bepaalt de opdrachtbrief op een evenwichtige wijze de 
+wederzijdse rechten en plichten van de cliënt en van de bedrijfsrevisor.”.
+
+o 
+de doelstelling, de reikwijdte en de uitvoeringsmodaliteiten van de 
+opdracht; 
+o 
+een vermelding van de opstelling van een schriftelijk verslag 
+houdende de resultaten van de opdracht; 
+o 
+een verwijzing naar onderhavige norm;
+
+A. Voor de gecertificeerde accountants bepaalt artikel 41, eerste lid van de 
+wet van 17 maart 2019 het volgende: “De beroepsbeoefenaar maakt, in 
+overleg met zijn cliënt, een opdrachtbrief op, die de uitvoering van iedere 
+opdracht voorafgaat. Deze opdrachtbrief omschrijft op een evenwichtige
+
+o 
+het feit dat het verslag uitsluitend zal worden opgesteld ingevolge 
+artikel(en) 14:4 of 14:21 van het WVV, dat de verspreiding ervan 
+beperkt is tot het beoogd gebruik. 
+• 
+de verantwoordelijkheden van de beroepsbeoefenaar, met inbegrip van, 
+onder andere:
+
+A. wijze de wederzijdse rechten en plichten van de cliënt en de 
+beroepsbeoefenaar”. Het Koninklijk besluit van 9 december 2019 tot 
+vastlegging van een reglement inzake de kwaliteitstoetsing van de externe 
+leden van het Instituut van de accountants en de belastingconsulenten en 
+tot nadere regeling van het gebruik van de opdrachtbrief bepaalt in artikel 
+54 de minimale elementen die opgenomen moeten worden in de 
+opdrachtbrief.  
+Bijlage 2 bij onderhavige norm bevat een voorbeeld van opdrachtbrief dat 
+door de beroepsoefenaar kan gebruikt worden.
+
+o 
+het nazicht van het omzettingsvoorstel; 
+o 
+verslag uitbrengen over de staat van activa en passiva opgesteld 
+door het bestuursorgaan;  
+o 
+aanduiden of het netto-actief is overgewaardeerd; 
+o 
+wanneer de verrichting een grensoverschrijdende verrichting 
+(emigratie) betreft:
+
+ 
+de beoordeling van de redelijkheid en relevantie van de 
+geldelijke vergoeding; 
+ 
+de beoordeling van de gebruikte methoden om de 
+geldelijke vergoeding vast te stellen. 
+• 
+de verantwoordelijkheden van het bestuursorgaan, met inbegrip van, 
+onder andere:
+
+o 
+een verwijzing naar de verplichting om  toegang te verschaffen tot 
+alle informatie en personen die voor de uitvoering van de opdracht 
+relevant is of zijn;  
+o 
+opstellen van een staat van de activa en passiva van de entiteit; 
+In voorkomend geval, wanneer de verrichting een grensoverschrijdende 
+verrichting (emigratie) betreft,, de vaststelling van de geldelijke vergoeding, 
+waaronder:
+
+o 
+de gebruikte methoden om de geldelijke vergoeding vast te stellen; 
+o 
+het betrekkelijk gewicht dat aan deze methoden wordt gehecht; 
+o 
+de in aanmerking genomen waarde die volgens deze methoden 
+wordt gehanteerd; 
+o 
+indien er werd gebruikgemaakt van toekomstgerichte financiële 
+informatie bij het vaststellen van de geldelijke vergoeding, de 
+veronderstellingen die aan de grondslag liggen van het vaststellen 
+van de geldelijke vergoeding;
+
+• 
+de bepaling en de betalingsvoorwaarden van de honoraria.
+
+Zoals bepaald in paragraaf A6 van onderhavige norm is de algemene norm van 
+toepassing op alle opdrachten toevertrouwd door een onderneming aan de 
+bedrijfsrevisor van toepassing voor bedrijfsrevisoren, die onder meer vereisten 
+met betrekking tot de opdrachtaanvaarding (met inbegrip van de opdrachtbrief) 
+bevat.
+
+II.4. Documentatie
+
+20. Bij de uitvoering van zijn opdracht dient de beroepsbeoefenaar van het
+
+A14. De beoordeling van de redelijkheid en relevantie van de geldelijke
+
+bestuursorgaan de nodige gegevens te verkrijgen en te documenteren, die 
+kunnen dienen om de werkzaamheden die hij heeft verricht te onderbouwen.
+
+A. vergoeding vastgesteld door het bestuursorgaan bestaat uit het verzoeken 
+om inlichtingen, in hoofdzaak bij de voor financiën en administratieve 
+verantwoordelijke personen, alsmede uit het uitvoeren van cijferanalyses 
+en andere beoordelingswerkzaamheden. De reikwijdte van een beoordeling 
+is aanzienlijk geringer dan die van een controle met het oog op een redelijke 
+mate 
+van 
+zekerheid. 
+Om 
+die 
+reden 
+stelt 
+de 
+beoordeling 
+de 
+beroepsbeoefenaar niet in staat zekerheid te verkrijgen dat hij kennis zal 
+krijgen van alle aangelegenheden van materieel belang die naar aanleiding 
+van een controle mogelijk worden onderkend.
+
+21. Het dossier dient onder andere documentatie te bevatten omtrent:
+
+1. de statuten;  
+2. de identificatie van het bestuursorgaan; 
+3. de aard, timing en omvang van de werkzaamheden die zijn uitgevoerd om 
+onderhavige norm en de van toepassing zijnde door wet- en regelgeving 
+gestelde eisen na te leven; 
+4. de staat van activa en passiva zoals opgesteld door het bestuursorgaan; 
+5. de berekening van het nettoactief door het bestuursorgaan; 
+6. de resultaten die uit de werkzaamheden zijn verkregen, alsmede de
+
+A15. Het bewijskrachtig materiaal bevat onder andere de verantwoording van 
+het bestuursorgaan met betrekking tot het vaststellen van de geldelijke 
+vergoeding.
+
+conclusies van de beroepsbeoefenaar die zijn gevormd op basis van die 
+resultaten; 
+7. de significante aangelegenheden voortgekomen uit de opdracht, de daaruit
+
+door de beroepsbeoefenaar getrokken conclusies en significante 
+professionele oordelen die zijn gevormd om tot die conclusies te komen; 
+8. het ondertekende verslag van het bestuursorgaan met betrekking tot de 
+omzetting of het ontwerpverslag; 
+9. de notariële ontwerpakte;
+
+Wanneer de verrichting een grensoverschrijdende verrichting (emigratie) 
+betreft, dient de beroepsbeoefenaar, naast hetgeen hoger is vermeld, de 
+volgende elementen te verkrijgen:
+
+1. De informatie die toelaat om de relevante maatregelen van interne 
+controle en risicobeheer te begrijpen die als basis dienen voor het 
+bepalen van de geldelijke vergoeding; 
+2. het bewijskrachtig materiaal ter onderbouwing van de gegevens die als 
+grondslag voor de berekening van de geldelijke vergoeding werden 
+gebruik (par. A14-A15)t; 
+3. de nodige inlichtingen betreffende de onderlinge afstemming van de 
+waarderingsmethoden die door de entiteit met het oog op de 
+vaststelling van de geldelijke vergoeding werden gebruikt; 
+4. in 
+voorkomend 
+geval, 
+de 
+schriftelijke 
+bevestiging 
+van 
+het 
+bestuursorgaan aangaande de veronderstellingen en de methoden 
+volgens welke de geldelijke vergoeding is vastgesteld (zie ook par. 51)
+
+III. Uit te voeren werkzaamheden teneinde het verslag bij de omzetting op te stellen
+
+22.  De beroepsbeoefenaar dient vooraf kennis te nemen van de essentiële
+
+A16. De artikelen 25 en 26 van het Koninklijk Besluit van 27 november 1973
+
+kenmerken 
+van 
+de 
+voorgenomen 
+verrichting. 
+De 
+voorafgaande 
+werkzaamheden omvatten de aspecten van algemene kennis van de  entiteit 
+en de identificering van de doelstellingen van de verrichting, alsook van de 
+omstandigheden waarin de verrichting plaatsvindt (par. A16-A17).
+
+A. houdende reglementering van de economische en financiële inlichtingen te 
+verstrekken aan de ondernemingsraden zijn van toepassing op deze 
+verrichtingen. In voorkomend geval, past de bedrijfsrevisor de vereisten toe 
+zoals voorzien in sectie V.2.2.3. met betrekking tot de periodieke en de 
+occasionele informatie van de norm inzake de opdrachten van de 
+bedrijfsrevisor bij de ondernemingsraad, voordat de verrichting wordt 
+uitgevoerd.
+
+23. De beroepsbeoefenaar dient inzicht te verkrijgen in de entiteit en haar
+
+omgeving, evenals in het toepasselijke boekhoudkundig referentiestelsel, om 
+de aspecten van de financiële informatie te bepalen die afwijkingen van 
+materieel belang zouden kunnen bevatten, en die dus een basis vormen om 
+procedures te definiëren die moeten worden uitgevoerd met betrekking tot 
+deze aspecten. In de entiteiten waar er geen commissaris is dient de
+
+A17. De procedure voorafgaand aan het besluit tot omzetting kan als volgt
+
+A. worden samengevat:
+
+beroepsbeoefenaar rekening te houden met deze situatie om de uit te voeren 
+werkzaamheden te bepalen, onder andere zijn inzicht in het proces van 
+financiële verslaggeving.
+
+A. - 
+Voorafgaand 
+aan 
+het 
+besluit 
+van 
+omzetting 
+maakt 
+het 
+bestuursorgaan een staat van activa en passiva van de entiteit op, 
+afgesloten op een datum die niet meer dan drie maanden teruggaat 
+voor de datum van de algemene vergadering die over het 
+omzettingsvoorstel moet besluiten.
+
+24. De beroepsbeoefenaar dient onder meer inzicht te verwerven over de volgende 
+elementen van de entiteit of verrichting:
+
+A. - 
+De minimale inhoud van dit ontwerp is gespecifieerd in het Wetboek 
+van vennootschappen en verenigingen (art. 14:3 et 14:20 WVV).
+
+– 
+de identificatie van de voorgenomen verrichting;  
+– 
+de relevante informatie met betrekking tot de entiteit,  
+– 
+haar waarderingsregels,  
+– 
+de structuur van haar kapitaal en als de entiteit geen kapitaal heeft, de 
+structuur van het eigen vermogen;  
+– 
+de aandeelhouders; en 
+– 
+de 
+administratieve 
+en 
+boekhoudkundige 
+organisatie 
+en 
+de 
+belangrijkste risico’s eigen aan de entiteit of aan haar activiteit die van 
+aard zijn de staat van activa en passiva op betekenisvolle wijze te 
+beïnvloeden.
+
+A. Wanneer de verrichting een grensoverschrijdende verrichting (emigratie) 
+betreft: zie sectie IV van onderhavige norm betreffende de uit te voeren 
+werkzaamheden teneinde de verslaggeving bij de grensoverschrijdende 
+omzetting te doen.
+
+A. Bijlage 1 bevat een tabel met de bepalingen van het WVV en de uit te 
+brengen verslagen..
+
+25. Indien de beroepsbeoefenaar de commissaris is en deze naar aanleiding van
+
+zijn kennisname van het verslag van het bestuursorgaan, feiten of 
+vermeldingen zou vaststellen die een inbreuk betekenen op het WVV, dient hij 
+in het kader van zijn commissarismandaat ook de paragrafen 99 tot en met 
+101 van de bijkomende norm bij de in België van toepassing zijnde ISA’s toe 
+te passen.
+
+
+## III.1. Uit te voeren werkzaamheden betreffende de staat van activa en passiva
+
+26. De beroepsbeoefenaar dient na te gaan of het bestuursorgaan een staat van
+
+A18. De staat van activa en passiva betreft financiële informatie die wordt
+
+activa en passiva heeft opgesteld overeenkomstig het van toepassing zijnde
+
+A. opgemaakt in overeenstemming met het van toepassing zijnde wettelijk en 
+boekhoudkundig 
+referentiestelsel 
+zoals 
+schriftelijk 
+vastgesteld 
+en 
+genotuleerd door het bestuursorgaan en die, in casu, wordt opgemaakt
+
+boekhoudkundig referentiestelsel. De staat van activa en passiva dient om het 
+nettoactief te bepalen. (par A18-A24)
+
+A. volgens dezelfde methoden en dezelfde opstelling als de laatste 
+jaarrekening, doorgaans met betrekking tot een tussentijdse staat over een 
+periode die korter is dan het boekjaar van de entiteit.
+
+27. De beroepsbeoefenaar dient in het kader van zijn beoordelingsopdracht
+
+A. Onverminderd paragraaf 34 van onderhavige norm, wordt de staat van activa 
+en passiva opgemaakt volgens de laatst goedgekeurde waarderingsregels.
+
+bijzondere aandacht te besteden aan het feit dat, om de staat van activa en 
+passiva op te stellen en het nettoactief te bepalen, het bestuursorgaan dient 
+te 
+beschikken 
+over 
+de 
+nodige 
+procedures 
+inzake 
+het 
+financieel 
+rapporteringsproces met inbegrip van de processen betreffende de 
+afsluitingsboekingen opdat, eveneens in het geval van een tussentijdse staat 
+van activa en passiva, er een getrouwe afgrenzing van de afsluitingsperiode 
+met erkenning van alle aan de periode gerelateerde kosten en opbrengsten 
+kan gebeuren. Hierbij dient de beroepsbeoefenaar rekening te houden met het 
+materieel belang.
+
+A. In de staat van activa en passiva worden gebeurlijke significante 
+gebeurtenissen na balansdatum verwerkt indien zij betrekking hebben op de 
+afgesloten 
+periode 
+dan 
+wel 
+toegelicht. 
+Zo 
+worden 
+buitenbalansverplichtingen geactualiseerd voor zover dit relevant is in het 
+kader van de geplande omzetting.
+
+A. In de staat van activa en passiva worden gewoonlijk toelichtingen verstrekt 
+wanneer dit van belang is voor een gepaste interpretatie van deze staat.
+
+A. De staat van activa en passiva moet worden opgemaakt, rekening houdend 
+met de waardecorrecties, de pro rata van de kosten (met inbegrip van de 
+vergoeding 
+van 
+de 
+bedrijfsleiders, 
+de 
+afschrijvingen, 
+de 
+waardeverminderingen, de voorzieningen, de voorraadwijzigingen, de te 
+betalen vakantiegelden, eindejaarspremies en andere premies, de 
+belastingen, enz.) overeenkomstig de waarderingsregels.
+
+A. De berekening van het nettoactief wordt bij voorkeur opgenomen in of 
+toegevoegd aan het verslag van het bestuursorgaan en door de 
+beroepsbeoefenaar op juistheid beoordeeld.
+
+A. De beroepsbeoefenaar waakt erover dat het bestuursorgaan het begrip 
+“nettoactief” consistent toepast.
+
+A. Onder nettoactief moet in het WVV worden verstaan: ”het totaalbedrag van 
+de activa, verminderd met de voorzieningen, de schulden en, behoudens in 
+uitzonderlijke gevallen te vermelden en te motiveren in de toelichting bij de 
+jaarrekening, de nog niet afgeschreven bedragen van de oprichtings- en
+
+A. uitbreidingskosten en de kosten voor onderzoek en ontwikkeling.” (art. 5:142, 
+derde lid (BV), art. 6:115, derde lid (CV) en art. 7:212, tweede lid (NV) WVV).
+
+A19. De staat van activa en passiva moet worden afgesloten op een datum die
+
+A. niet meer dan drie maanden teruggaat voor de datum van de algemene 
+vergadering, bijeen te roepen om zich uit te spreken over de omzetting van 
+de entiteit.
+
+A. De datum van drie maanden betreft het afsluiten en niet het vaststellen van 
+de staat. De termijn van drie maanden moet worden gerekend vanaf de 
+datum van de afsluiting van de staat van activa en passiva tot op de datum 
+van de algemene vergadering die zich uitspreekt over de omzetting. Wanneer 
+het WVV in de mogelijkheid voorziet om een tweede algemene vergadering 
+bijeen te roepen (artikel 14:8, § 3 WVV betreffende de omzetting van een CV 
+in een NV), wordt deze termijn berekend ten aanzien van deze tweede 
+algemene vergadering.
+
+A. Met de datum waarop deze staat is “afgesloten” wordt de datum bedoeld 
+van de tussentijdse cijfers, wat niet noodzakelijk overeenkomt met de datum 
+waarop de staat zelf (d.i. het document dat deze tussentijdse cijfers bevat) 
+is opgesteld door het bestuursorgaan.
+
+A. Wanneer de verrichting een grensoverschrijdende verrichting (emigratie) 
+betreft:de staat van activa en passiva niet meer dan vier maanden (art. 14:21, 
+eerste lid, 14:57, eerste lid en 14:74, eerste lid WVV) vóór de algemene 
+vergadering die over het voorstel tot grensoverschrijdende omzetting moet 
+besluiten, is afgesloten (zie sectie IV van onderhavige norm betreffende de 
+uit te voeren werkzaamheden teneinde de verslaggeving bij de 
+grensoverschrijdende omzetting te doen).
+
+A20. Wanneer er “niet in de balans opgenomen rechten en verplichtingen” zijn, 
+moet het bestuursorgaan daar eveneens melding van maken in de staat van 
+activa en passiva. Indien er geen significante “niet in de balans opgenomen
+
+A. rechten en verplichtingen” zijn is het aangewezen dat ook dit uitdrukkelijk 
+wordt vermeld.
+
+A21. De staat van activa en passiva, bevat eveneens de vermelding van de
+
+A. significante gebeurtenissen na afsluitingsdatum die geen aanleiding geven 
+tot aanpassing van het resultaat van de periode en de balans maar waarvan 
+in gevolge van hun materialiteit, de financiële gevolgen dienen te worden 
+toegelicht.
+
+A22. Zowel betreffende de vermelding inzake de niet in de balans opgenomen 
+rechten en verplichtingen als de toelichting inzake de gehanteerde 
+waarderingsregels kan deze vermelding bestaan in een verwijzing naar de 
+meest recent neergelegde en bekendgemaakte jaarrekening, indien er zich 
+geen van belang zijnde wijzigingen hebben voorgedaan.
+
+A23. Krachtens artikel 14:3, tweede lid WVV: “Wanneer in de naamloze
+
+A. vennootschap, de Europese vennootschap en de Europese coöperatieve 
+vennootschap het nettoactief kleiner is dan het in de voormelde staat 
+opgenomen kapitaal, vermeerderd met alle reserves die krachtens de wet of de 
+statuten niet mogen worden uitgekeerd dan besluit de staat met de vermelding 
+van het verschil.”.
+
+A. Bij de omzetting van een vennootschap onder firma of een commanditaire 
+vennootschap in een naamloze vennootschap, een Europese vennootschap 
+of een Europese coöperatieve vennootschap mag het in deze staat 
+aangegeven kapitaal na de omzetting niet hoger zijn dan het uit de staat 
+blijkend nettoactief (art. 14:3, derde lid WVV).
+
+A. Artikel 14:4, tweede lid WVV bepaalt het volgende: “Indien, in het geval 
+bedoeld in artikel 14:3, tweede lid, het nettoactief van de vennootschap kleiner 
+is dan het in de staat van activa en passiva opgenomen kapitaal, dan besluit 
+het verslag met de vermelding van het verschil.”.
+
+A. Het in de staat van activa en passiva opgenomen kapitaal wordt 
+vermeerderd met alle reserves die krachtens de wet of de statuten niet 
+mogen worden uitgekeerd.
+
+A. De zinsnede “de staat besluit met het verschil” (artikel 14:3, tweede lid, in fine 
+WVV) betekent in de praktijk enerzijds dat het bestuursorgaan voor de 
+kapitaalvennootschappen, waarbij het nettoactief kleiner is dan het kapitaal, 
+een staat van activa en passiva moet opmaken, waarbij in fine duidelijk het 
+verschil tussen het nettoactief en het kapitaal wordt vermeld en anderzijds 
+dat dit verschil onder de verantwoordelijkheid van het bestuursorgaan valt 
+en dient te worden toegelicht in het verslag van het bestuursorgaan.
+
+A. Het resultaat van het lopende boekjaar tot op de datum van de afsluiting van 
+de staat van activa en passiva zal vermeld worden onder een afzonderlijke 
+rubriek van het overgedragen resultaat in het eigen vermogen.
+
+A. In het geval van een kapitaalvennootschap dient het kapitaal dat in de staat 
+van activa en passiva wordt weergegeven, overeen te komen met het 
+kapitaal op de afsluitingsdatum van deze staat. Een wijziging van het 
+kapitaal die zou plaatsvinden tussen de afsluitingsdatum en de 
+opstellingsdatum, kan niet in de staat worden opgenomen
+
+A24. Zelfs als de om te zetten entiteit naar een kapitaalvennootschap een
+
+A. nettoactief heeft dat kleiner is dan het geplaatst en/of volgestort 
+minimumkapitaal voorzien door het WVV, dan kan de omzetting 
+plaatsvinden.
+
+A. De beroepsbeoefenaar zal echter in de conclusie van zijn verslag 
+uitdrukkelijk de aandacht vestigen op de hiermee gepaard gaande risico’s, 
+met name de eventuele aansprakelijkheid van de personen bedoeld in het 
+artikel 14:12 WVV (vennoten VOF en CommV en leden van het 
+bestuursorgaan van de andere vennootschappen) en het feit dat elke 
+belanghebbende in rechte de ontbinding van de vennootschap kan vragen
+
+A. wanneer voor een NV het nettoactief lager is dan 61.500,00 EUR (artikel 
+7:229 WVV). Deze vermelding kan in de conclusie worden weggelaten in het 
+geval voldoende externe inbrengen worden vooropgesteld, zoals blijkt uit de 
+authentieke ontwerpakte De beroepsbeoefenaar moet nagaan welke invloed 
+de voldoende externe inbrengen hebben op de inhoud van zijn verslag.
+
+IV. Uit te voeren werkzaamheden teneinde de verslaggeving bij de grensoverschrijdende omzetting te doen
+
+28. Teneinde verslag uit te brengen over het grensoverschrijdende omzetting dient
+
+A25. De beroepsbeoefenaar dient in deze specifieke verrichting rekening
+
+de beroepsbeoefenaar de werkzaamheden uit te voeren zoals voorzien voor de 
+opdracht bij omzetting (zie sectie III van onderhavige norm met betrekking tot 
+de uit te voeren werkzaamheden teneinde het verslag bij de omzetting) (par. 
+A25-A26).
+
+A. houden met de bijzondere context, waarbij de bescherming van de 
+minderheidsaandeelhouder voorop staat.
+
+A. De procedure voorafgaand aan het besluit tot grensoverschrijdende 
+omzetting kan als volgt worden samengevat.
+
+A. Het bestuursorgaan dient vooreerst een omzettingsvoorstel op te stellen, 
+dat bepaalde wettelijk voorgeschreven gegevens bevat. Het wordt, naar 
+keuze, onderhands dan wel bij authentieke akte opgesteld. (art. 14:18 
+WVV)
+
+A. Het omzettingsvoorstel wordt op de griffie van de ondernemingsrechtbank 
+van de zetel van de entiteit neergelegd uiterlijk drie maanden voor het 
+besluit tot grensoverschrijdende omzetting.
+
+A. Uiterlijk 
+binnen 
+ drie maanden 
+na 
+de 
+bekendmaking 
+van 
+het 
+omzettingsvoorstel in de Bijlagen bij het Belgisch Staatsblad, kunnen de 
+schuldeisers 
+die 
+geen 
+genoegen 
+nemen 
+met 
+de 
+geboden 
+waarborgen jegens de entiteit, niettegenstaande andersluidende bepaling, 
+een  bijkomende zekerheid of enige andere waarborg eisen voor hun 
+schuldvorderingen die op het tijdstip van de bekendmaking vaststaand 
+maar nog niet opeisbaar zijn evenals voor hun schuldvorderingen waarvoor
+
+A. in rechte of via arbitrage een vordering tegen de entiteit werd ingesteld vóór 
+de bekendmaking van het omzettingsvoorstel.
+
+A. Daartoe richt de schuldeiser tegelijkertijd een schriftelijk verzoek aan de 
+entiteit en de notaris vermeld in het omzettingsvoorstel, op straffe van niet-
+ontvankelijkheid van zijn verzoek.
+
+A. De entiteit kan deze vordering afweren door de schuldvordering te betalen 
+tegen haar waarde, na aftrek van het disconto.
+
+A. Indien geen overeenstemming wordt bereikt of indien de schuldeiser geen 
+voldoening heeft gekregen, legt de meest gerede partij het geschil voor aan 
+de voorzitter van de ondernemingsrechtbank van de zetel van de 
+schuldplichtige entiteit, zitting houdend in kort geding.
+
+A. Zonder afbreuk te doen aan de grond van de zaak, bepaalt de voorzitter de 
+zekerheid die de entiteit moet stellen en de termijn waarbinnen dit moet 
+gebeuren, tenzij hij beslist dat geen zekerheid is vereist gelet op de 
+waarborgen en voorrechten waarover de schuldeiser beschikt of zal 
+beschikken of op de solvabiliteit van de entiteit.
+
+A. Indien de door de voorzitter opgelegde zekerheid niet binnen de door hem 
+bepaalde termijn is gesteld, wordt de schuldvordering onverwijld 
+opeisbaar.
+
+A. De hierboven bedoelde zekerheid of enige andere waarborg is afhankelijk 
+van het van kracht worden van de grensoverschrijdende omzetting 
+overeenkomstig de jurisdictie waarheen de entiteit haar zetel verplaatst.
+
+A. Naast een omzettingsvoorstel, dient het bestuursorgaan van de om te 
+zetten entiteit ook een omzettingsverslag op te stellen. De inhoud hiervan 
+wordt in artikel 14:20 WVV beschreven. Het bestuursorgaan kan kiezen om 
+één verslag op te maken, dan wel kiezen om twee verslagen op te maken: 
+één voor de houders van aandelen en winstbewijzen en één voor de 
+werknemers.
+
+A. Het gedeelte van het verslag dat bestemd is voor houders van aandelen 
+winstbewijzen is niet vereist indien alle houders van aandelen en 
+winstbewijzen hiermee instemmen. Het is ook niet vereist in entiteiten 
+waarvan alle aandelen in één hand verenigd zijn.
+
+A. Het gedeelte van het verslag dat de informatie voor de werknemers bevat, 
+is niet vereist indien alle werknemers van de entiteit en, in voorkomend 
+geval, haar dochtervennootschappen, tot het bestuursorgaan behoren.
+
+A. In elke entiteit wordt een schriftelijk verslag over het omzettingsvoorstel 
+opgesteld hetzij door de commissaris hetzij, wanneer er geen commissaris 
+is aangesteld, door de beroepsbeoefenaar. Indien alle houders van 
+aandelen en winstbewijzen hiermee hebben ingestemd, is het verslag niet 
+vereist. Entiteiten waarvan alle aandelen in één hand zijn verenigd moeten 
+dit evenmin toepassen. (art. 14:21 WVV).
+
+A26. Conform artikel 14:22, § 1, eerste lid WVV wordt het schriftelijk verslag dat 
+werd opgesteld door de commissaris, of indien er geen commissaris werd 
+benoemd, een beroepsbeoefenaar, meegedeeld aan de houders van 
+aandelen en winstbewijzen op naam en dit uiterlijk zes weken vóór de 
+algemene vergadering die zich over de omzetting uitspreekt.
+
+De om te zetten entiteit heeft echter de mogelijkheid om het 
+omzettingsvoorstel op haar website beschikbaar te stellen (art. 14:18/1, § 
+2 WVV). Als de entiteit voor deze optie kiest, dient zij de documenten 
+vermeld in artikel 14:18/1, § 2 WVV, inclusief het verslag dat werd 
+opgesteld door de commissaris, of indien er geen commissaris werd 
+benoemd, een beroepsbeoefenaar (cf. art. 14:18/1, § 2, tweede lid, 4° 
+WVV), kosteloos beschikbaar te stellen op haar website gedurende een 
+ononderbroken periode van ten minste drie maanden vóór de datum van 
+de algemene vergadering die over het omzettingsvoorstel moet besluiten.
+
+
+## IV.1. Nazicht van het omzettingsvoorstel
+
+A27. Het verslag van het bestuursorgaan dient het ontwerp van omzetting uiteen
+
+29. De beroepsbeoefenaar dient na te gaan of in het omzettingsvoorstel alle door 
+het toepasselijke wetsartikel vereiste informatie is vermeld. Hij dient tevens na 
+te gaan of de erin vermelde informatie overeenstemt met de inlichtingen die hij 
+bij het bestuursorgaan heeft kunnen verkrijgen.  (par. A27).
+
+A. te zetten en dient onder andere de redenen te vermelden waarom het 
+bestuursorgaan voorstelt de rechtsvorm te wijzigen. Het is niet de taak van 
+de beroepsbeoefenaar om de verantwoording en de uiteenzetting van de 
+omzetting te onderzoeken.
+
+30. De beroepsbeoefenaar dient een materialiteitsdrempel te bepalen en zich op 
+deze drempel te baseren om de procedures op te zetten die dienen te worden 
+geïmplementeerd en de resultaten van deze implementatie te evalueren. Indien 
+nodig dient de beroepsbeoefenaar de materialiteitsdrempel te herzien als hij 
+tijdens de uitvoering van de opdracht kennis neemt van informatie die hem 
+ertoe zou hebben gebracht aanvankelijk een andere materialiteitsdrempel te 
+bepalen.
+
+A28. Een afwijking in het omzettingsvoorstel impliceert dat de informatie onjuist
+
+31. De beroepsbeoefenaar dient, in het licht van de informatie waarvan hij kennis 
+heeft, te beoordelen of er een afwijking van materieel belang bestaat in het 
+omzettingsvoorstel. (par. A28-A29).
+
+A. is vermeld of anderszins misleidend is (inclusief omdat het informatie 
+weglaat of verhult die nodig is voor een goed begrip van een aangelegenheid 
+die is toegelicht in het omzettingsvoorstel). 
+ 
+A29. De volgende kenmerken verschaffen een referentiekader voor de
+
+A. beroepsbeoefenaar bij het bepalen of er een afwijking van materieel belang 
+in het omzettingsvoorstel bestaat:
+
+A. - 
+Materialiteit wordt beschouwd in de context van de algemene 
+informatiebehoeften van gebruikers als een groep. De gebruikers 
+van het omzettingsvoorstel worden verondersteld dezelfde te zijn 
+als de gebruikers van de financiële overzichten aangezien dergelijke 
+gebruikers worden verondersteld het omzettingsvoorstel te lezen 
+om de financiële overzichten van context te voorzien;
+
+A. - 
+Oordeelsvormingen over materialiteit houden rekening met de 
+specifieke omstandigheden van de afwijking, overwegend of
+
+A. gebruikers beïnvloed zouden worden door het effect van de niet- 
+gecorrigeerde afwijking. Niet alle afwijkingen zullen de economische 
+beslissingen van gebruikers beïnvloeden; 
+- 
+Oordeelsvormingen over materialiteit omvatten zowel kwalitatieve 
+als kwantitatieve overwegingen. Dienovereenkomstig kunnen 
+dergelijke oordeelsvormingen rekening houden met de aard of 
+omvang van de elementen die het omzettingsvoorstel behandelt.
+
+32. De beroepsbeoefenaar dient het ontwerp van de akte met betrekking tot de 
+omzetting te verkrijgen, evenals het ontwerp van de nieuwe statuten.
+
+A30. De verkregen bewijskrachtig materiaal dient te worden geëvalueerd op basis
+
+33. De werkzaamheden van de beroepsbeoefenaar dient voldoende te zijn om hem 
+in staat te stellen te concluderen of de staat van activa en passiva een redelijke 
+basis vormt voor de berekening van het nettoactief (zie sectie III.2 van 
+onderhavige norm).
+
+A. van de doelstelling van de opdracht, zoals gedefinieerd door het WVV en 
+uiteengezet in paragraaf 7 van onderhavige norm
+
+A31. De staat van activa en passiva dient de aandeelhouder in staat te stellen een 
+oordeel te vormen over de geschiktheid van de financiële structuur voor de 
+beoogde rechtsvorm.
+
+A32. Voor de opzet en de implementatie van de procedures dient de commissaris 
+de paragrafen 12 tot 33 van ISRE 2410 toe te passen.
+
+A. De beroepsbeoefenaar die geen commissaris is, dient de paragrafen 130 tot 
+132 van de gemeenschappelijke KMO-norm toe te passen.
+
+A33. Indien de waarderingsregels werden gewijzigd ten opzichte van deze die
+
+34. De beroepsbeoefenaar dient na te gaan of de waarderingsregels en eventuele 
+wijzigingen ervan in overeenstemming zijn met het boekhoudkundig 
+referentiestelsel. (par. A33)
+
+A. gehanteerd werden bij de laatst goedgekeurde jaarrekening, dient het 
+bestuursorgaan de wijzigingen duidelijk toe te lichten, met inbegrip van de 
+impact op het nettoactief.
+
+35. Als de beroepsbeoefenaar van mening is dat er van materieel belang zijnde 
+correcties dienen te worden aangebracht aan de hem voorgelegde staat van 
+activa en passiva, dan verzoekt hij het bestuursorgaan om deze correcties te 
+laten boeken en hem een nieuwe staat te bezorgen. Wordt er geen nieuwe staat
+
+activa en passiva voorgelegd, dan houdt de beroepsbeoefenaar hiermee 
+rekening bij het vormen van zijn conclusie..
+
+IV.2. Specifieke uit te voeren werkzaamheden betreffende de geldelijke vergoeding
+
+A34. Een relevante en redelijke geldelijke vergoeding doelt op een geldelijke
+
+36. In het geval van een grensoverschrijdende omzetting, naast de beoordeling van 
+de staat van activa en passiva van de entiteit door het bestuursorgaan (zie 
+sectie III van onderhavige norm met betrekking tot de uit te voeren 
+werkzaamheden teneinde het verslag bij de omzetting op te stellen), dient de 
+beroepsbeoefenaar bovendien te verklaren of de geldelijke vergoeding voor de 
+uittredende aandeelhouders (de uitbetaling van het scheidingsaandeel) 
+relevant en redelijk is (par A34).
+
+A. vergoeding 
+opgesteld 
+volgens 
+economisch 
+aanvaarde 
+waarderingsmethoden, dus aangepast aan het voorwerp en aan de 
+situatie.
+
+A35. Bij het in aanmerking nemen van de eventuele marktprijs van de aandelen 
+kan een beroepsbeoefenaar terugvallen op waarderingsstandaarden zoals 
+‘International Valuation Standards’ of IVS en tevens op  de door de 
+rechtsleer ontwikkelde inzichten betreffende de waarderingsmethoden in 
+het kader van de geschillenregeling.
+
+37. Bij deze beoordeling dient de beroepsbeoefenaar rekening te houden met de 
+eventuele marktprijs van de aandelen in de omgezette entiteit vóór de 
+aankondiging van het omzettingsvoorstel, of met de waarde van de entiteit, 
+exclusief de gevolgen van de voorgestelde omzetting, zoals bepaald volgens 
+algemeen aanvaarde waarderingsmethoden. (par. A35-A36)
+
+A36. Opdat de geldelijke vergoeding, in alle van materieel belang zijnde
+
+A. opzichten, relevant en redelijk zou zijn:
+
+A. a. stoelt de geldelijke vergoeding op aandelenwaarden. De 
+beroepsbeoefenaar gaat na of de door het bestuursorgaan 
+gehanteerde methoden gepast en verantwoord zijn. Indien, naar 
+de mening van de beroepsbeoefenaar, die verantwoording niet 
+aanvaardbaar is, drukt hij een afkeurende conclusie uit over de 
+geldelijke vergoeding; 
+b. eerbiedigt de geldelijke vergoeding op rechtvaardige wijze de
+
+A. rechtmatige belangen van de meerderheids- én van de 
+minderheidsaandeelhouders; dit veronderstelt met name dat de 
+aandeelhouders geen gevaar lopen om in belangrijke mate te 
+worden benadeeld door de geldelijke vergoeding.
+
+A. In het kader van de redelijkheid van de geldelijke vergoeding worden de 
+onzekerheden die een van materieel belang zijnde impact hebben op de 
+geldelijke vergoeding mee in overweging genomen.
+
+38. De omvang van de werkzaamheden is afhankelijk van de activiteiten, de
+
+complexiteit en de omvang van de entiteit evenals van de componenten van de 
+onderliggende waarderingen. Die componenten kunnen betrekking hebben op 
+het eigen vermogen of op andere historische financiële informatie en/of op 
+toekomstgerichte financiële informatie.
+
+39. De beroepsbeoefenaar dient de waarderingsmethoden te identificeren die
+
+A37. Het bestuursorgaan moet de waarderingsmethoden van de geldelijke
+
+vergoeding bepalen.  
+A38. Een waarderingsmethode zal in principe aanvaardbaar zijn, wanneer zij 
+door de wetenschappelijke of beroepsliteratuur algemeen wordt aanvaard, 
+of wanneer zij voor het voorliggend geval in het bijzonder is geschikt en 
+naar behoren is gerechtvaardigd in het licht van de economische situatie 
+van de entiteit. De waarderingsmethoden dienen geschikt te zijn, met het 
+oog op het bereiken van de meest relevante geldelijke en redelijke 
+vergoeding. 
+40. Bij het beoordelen van de relevantie van  historische boekhoudgegevens, dient
+
+werden weerhouden. De beroepsbeoefenaar dient na te gaan of elke 
+waarderingsmethode of de tussen partijen overeengekomen waardering in het 
+gegeven geval passend is (par. A37 -A38).
+
+A39. De commissaris kan zich baseren op de informatie waarvan hij kennis
+
+de beroepsbeoefenaar, op grond van zijn professionele oordeelsvorming, de 
+aard van de uit te voeren werkzaamheden te bepalen teneinde te bepalen of de 
+gebruikte historische financiële informatie als basis kan dienen voor de 
+berekening van de geldelijke vergoeding (par. A39-A40).
+
+A. heeft verkregen in het kader van zijn commissarismandaat. 
+A40. Indien er een ander oordeel dan een oordeel zonder voorbehoud tot
+
+A. uitdrukking werd gebracht in het commissarisverslag over de voorgaande 
+jaarrekening of in het beoordelingsverslag verstrekt bij de voorgaande 
+historische financiële informatie, of indien de entiteit zich in een 
+aanloopfase bevindt, houdt de beroepsbeoefenaar rekening met deze 
+factoren en het effect daarvan op de beoordeling van de toegepaste 
+waarderingsmethoden.
+
+A41. De bedoeling van deze beoordeling is te komen tot redelijke geldelijke
+
+41. De beroepsbeoefenaar dient het betrekkelijk gewicht dat bij de vaststelling van
+
+A. vergoedingen, zodat geen enkele vennoot of aandeelhouder op
+
+de in aanmerking genomen waarde aan elke methode is gehecht te beoordelen
+
+met als doel te concluderen dat de geldelijke vergoeding relevant en redelijk is 
+(par. A41).
+
+A. aanzienlijke wijze wordt benadeeld door deze geldelijke vergoeding of 
+anderzijds hiervan voldoende geïnformeerd is.
+
+IV. 3. Specifieke uit te voeren werkzaamheden wanneer er toekomstgerichte financiële informatie is gehanteerd
+
+42. In bepaalde gevallen kan het bestuursorgaan gebruikgemaakt hebben van
+
+A42. Het bestuursorgaan is verantwoordelijk voor de veronderstellingen die aan
+
+toekomstgerichte financiële informatie bij het vaststellen van de geldelijke 
+vergoeding. Een van de eigenschappen van toekomstgerichte financiële 
+informatie is dat ze verwijzen naar acties en gebeurtenissen die nog niet 
+hebben plaatsgevonden en die misschien niet zullen plaatsvinden. (par. A42)
+
+A. de grondslag liggen van het vaststellen van de geldelijke vergoeding.
+
+De beroepsbeoefenaar dient zich niet uit te spreken over de toekomstgerichte 
+financiële informatie maar dient deze te beoordelen in functie van de 
+doelstelling van de opdracht, teneinde te bepalen of de gebruikte 
+toekomstgerichte financiële informatie als basis kan dienen voor de 
+berekening van de geldelijke vergoeding die relevant en redelijk is.
+
+43. De beroepsbeoefenaar dient voldoende kennis van de bedrijfsactiviteiten van
+
+A43. De beroepsbeoefenaar zal ook inzicht verkrijgen in het proces van
+
+de entiteit te hebben teneinde te kunnen beoordelen of rekening is gehouden 
+met alle relevante veronderstellingen die voor het opstellen van de 
+toekomstgerichte financiële informatie van belang zijn. (par. A43)
+
+A. opstelling van de toekomstgerichte financiële informatie bij de entiteit, 
+bijvoorbeeld door:
+
+A. - 
+de interne controle- en risicobeheersingsmaatregelen over de 
+processen voor de opstelling van toekomstgerichte financiële 
+informatie en de deskundigheid en ervaring van de personen die 
+belast zijn met de opstelling daarvan in overweging te nemen;
+
+A. - 
+de aard van de documentatie die door de entiteit is vervaardigd ter 
+onderbouwing van de veronderstellingen te beoordelen;
+
+A. - 
+de methoden die zijn gebruikt voor de opstelling en toepassing van 
+de veronderstellingen te beoordelen;
+
+A. - 
+de nauwkeurigheid te beoordelen waarmee in voorgaande perioden 
+toekomstgerichte financiële informatie is opgesteld en de redenen 
+van belangrijke afwijkingen die daarna zijn gebleken.
+
+44. In het kader van deze opdracht en wanneer de geldelijke vergoeding is
+
+A44. Met “passend” wordt bedoeld dat de informatie niet misleidend is en/of de
+
+gebaseerd op prognoses, dient de beroepsbeoefenaar de toekomstgerichte 
+informatie te onderzoeken teneinde vast te stellen dat:
+
+A. algemene vergadering toelaat om een beslissing met kennis van zaken te 
+nemen.
+
+a. de aan de toekomstgerichte financiële informatie ten grondslag 
+liggende best mogelijke schattingen (“best estimate assumptions”) 
+in het verslag van het bestuursorgaan niet onredelijk zijn en, in 
+geval van “theoretische assumpties” (“hypothetical assumptions”), 
+deze 
+veronderstellingen 
+passend 
+zijn 
+in 
+de 
+gegeven 
+omstandigheden (par. A44); 
+b. de toekomstgerichte financiële informatie op passende wijze (par. 
+A44) is opgesteld overeenkomstig de in het verslag van het 
+bestuursorgaan weerhouden veronderstellingen; 
+c. de toekomstgerichte financiële informatie op passende wijze (par. 
+A44) is gepresenteerd en alle veronderstellingen van materieel 
+belang op passende wijze zijn toegelicht in het verslag van het 
+bestuursorgaan met inbegrip van een duidelijke vermelding of het 
+best mogelijke schattingen (“best estimate assumptions”) en/of 
+“theoretische assumpties” (“hypothetical assumptions”) betreft; 
+d. in voorkomend geval, de toekomstgerichte financiële informatie
+
+opgesteld is op dezelfde basis als de historische financiële 
+informatie, met toepassing van adequate grondslagen voor 
+financiële verslaggeving. Deze grondslagen zullen in principe 
+dezelfde zijn als deze die worden gehanteerd voor het opstellen 
+van de jaarrekening, behoudens in het geval van een adequate 
+verantwoording in het verslag van het bestuursorgaan. In dit
+
+laatste geval zal aldus elke wijziging in de gehanteerde 
+grondslagen voor financiële verslaggeving sedert de laatst 
+uitgebrachte jaarrekening worden toegelicht, alsook de redenen 
+voor de wijziging en het effect daarvan op de toekomstgerichte 
+financiële informatie.
+
+45. De beroepsbeoefenaar dient te beoordelen in welke mate het steunen op de
+
+A45. De commissaris kan zich baseren op de informatie waarvan hij kennis heeft
+
+historische financiële informatie van de entiteit gerechtvaardigd is en dient, op 
+grond van zijn professionele oordeelsvorming, de aard van de uit te voeren 
+werkzaamheden te bepalen, in voorkomend geval, met de aard van een audit, 
+teneinde te bepalen of de gebruikte historische financiële informatie als basis 
+kan dienen voor de toekomstgerichte financiële informatie.  (par. A45-A47)
+
+A. verkregen in het kader van zijn commissarismandaat.
+
+A46. De kennis van de historische financiële informatie van de entiteit is
+
+A. noodzakelijk om te beoordelen of de toekomstgerichte financiële 
+informatie is opgesteld conform de grondslagen die bij de historische 
+financiële informatie worden gebruikt en om als maatstaf te dienen bij de 
+beoordeling van de in het verslag van het bestuursorgaan gemaakte 
+veronderstellingen. De beroepsbeoefenaar zal bijvoorbeeld nagaan of de 
+historische financiële informatie is gecontroleerd of beoordeeld en of deze 
+zijn 
+opgesteld 
+in 
+overeenstemming 
+met 
+het 
+boekhoudkundig 
+referentiestelsel.
+
+A47. Indien er een ander oordeel dan een oordeel zonder voorbehoud tot 
+uitdrukking werd gebracht in het commissarisverslag over de voorgaande 
+jaarrekening of in het beoordelingsverslag verstrekt bij de voorgaande 
+historische financiële informatie, of indien de entiteit zich in een 
+aanloopfase bevindt, houdt de beroepsbeoefenaar rekening met deze 
+factoren en het effect daarvan op de beoordeling van de toekomstgerichte 
+financiële informatie.
+
+46. In de mate dat er wordt gesteund op toekomstgerichte financiële informatie,
+
+A48. De redelijkheid van de gehanteerde veronderstellingen kan afhankelijk zijn
+
+dient de beroepsbeoefenaar bij het bepalen van de aard, de timing en de omvang 
+van de uit te voeren werkzaamheden, de volgende factoren in zijn overwegingen 
+te betrekken:
+
+A. van het voornemen en mogelijkheid van het bestuursorgaan om bepaalde 
+handelingen uit te voeren. Het bestuursorgaan documenteren vaak 
+plannen en intenties met betrekking tot bepaalde activa of verplichtingen, 
+en het is mogelijk dat het stelsel inzake financiële verslaggeving dit van het 
+bestuursorgaan vereist.
+
+(a) de kans op afwijkingen van materieel belang;  
+(b) de opgedane kennis bij eerdere opdrachten;
+
+A49. Schattingen van de reële waarde kunnen zowel waarneembare als niet-
+
+(c) de mate waarin de toekomstgerichte financiële informatie beïnvloed is
+
+door subjectieve factoren van de kant van het bestuursorgaan; en 
+(d) het adequaat zijn en betrouwbaarheid van de onderliggende gegevens.
+
+A. waarneembare inputs omvatten. Als schattingen van de reële waarde op 
+niet-waarneembare inputs zijn gebaseerd, kan de beroepsbeoefenaar 
+bijvoorbeeld overwegen hoe het bestuursorgaan de volgende zaken 
+onderbouwen:
+
+47. De beroepsbeoefenaar dient de herkomst en de betrouwbaarheid van de
+
+informatie te beoordelen die ten grondslag ligt aan de best mogelijke 
+schattingen in het verslag van het bestuursorgaan. Voldoende en geschikte 
+informatie over de onderbouwing van dergelijke veronderstellingen kan worden 
+ontleend aan interne en/of externe bronnen, met inbegrip van een beoordeling 
+van de veronderstellingen in het licht van historische informatie. Tevens dient 
+de beroepsbeoefenaar te beoordelen of de veronderstellingen zijn gebaseerd op 
+plannen die passen binnen de mogelijkheden van de entiteit.
+
+A. • 
+de vaststelling van de kenmerken van voor de schatting relevante 
+marktpartijen;  
+• 
+aanpassingen die het bestuursorgaan in zijn eigen veronderstellingen 
+hebben aangebracht om zijn visie weer te geven op veronderstellingen 
+die marktpartijen zouden hanteren;  
+• 
+of het bestuursorgaan de beste informatie die in de gegeven 
+omstandigheden beschikbaar is, heeft verwerkt;  
+• 
+indien van toepassing, de wijze waarop de veronderstellingen van de 
+bestuursorgaan rekening houden met vergelijkbare transacties, activa 
+of verplichtingen.  
+Als er niet-waarneembare inputs zijn, is het waarschijnlijker dat de 
+evaluatie door de beroepsbeoefenaar van de veronderstellingen wordt 
+gecombineerd met andere manieren van inspelen op de ingeschatte 
+risico’s teneinde voldoende en geschikte controle-informatie te verkrijgen. 
+In dergelijke gevallen kan het noodzakelijk zijn dat de beroepsbeoefenaar 
+andere werkzaamheden uitvoert, zoals het onderzoeken van documentatie 
+ter onderbouwing van de beoordeling en goedkeuring van de schatting 
+door het bestuursorgaan.
+
+48. Hoewel de omvang van de te verkrijgen onderbouwende informatie over het 
+voornemen 
+van 
+het 
+bestuursorgaan een 
+kwestie 
+van professionele 
+oordeelsvorming is, dient de beroepsbeoefenaar volgende werkzaamheden uit 
+te voeren, voor zover van toepassing:
+
+• 
+een beoordeling van de uitvoering door het bestuursorgaan van zijn in het 
+verleden uitgesproken intenties;  
+• 
+een beoordeling van schriftelijke plannen en andere documentatie, met 
+inbegrip van, indien van toepassing, formeel goedgekeurde budgetten, 
+autorisaties of notulen;  
+• 
+een verzoek om inlichtingen bij het bestuursorgaan omtrent zijn redenen 
+voor een bepaalde handeling;  
+• 
+een evaluatie van gebeurtenissen die zich hebben voorgedaan tussen de 
+datum van de financiële overzichten en de datum van het verslag;  
+• 
+een evaluatie van de mogelijkheid van de entiteit om een bepaalde 
+handeling uit te voeren gegeven de economische omstandigheden van de 
+entiteit, met inbegrip van de implicaties van haar bestaande verbintenissen. 
+49. De beroepsbeoefenaar dient bij het evalueren van de redelijkheid van de in het 
+verslag van het bestuursorgaan gehanteerde veronderstellingen die ten
+
+A50. Bij het evalueren van de redelijkheid van de door het bestuursorgaan
+
+A. gehanteerde veronderstellingen kan de beroepsbeoefenaar bijvoorbeeld 
+overwegen:
+
+A. • 
+of afzonderlijke veronderstellingen redelijk lijken;  
+• 
+of de veronderstellingen onderling afhankelijk en intern consistent 
+zijn;
+
+grondslag liggen aan schattingen van de reële waarde onder meer rekening te 
+houden met de volgende punten:
+
+A. • 
+of de veronderstellingen redelijk lijken als ze collectief of in 
+samenhang met andere veronderstellingen worden beschouwd, 
+hetzij voor de betreffende schatting hetzij voor andere schattingen;  
+• 
+of, in het geval van schattingen van de reële waarde, de 
+veronderstellingen de waarneembare veronderstellingen in de markt 
+op passende wijze weerspiegelen.
+
+• 
+indien relevant, of en, zo ja, hoe het bestuursorgaan marktspecifieke inputs 
+heeft opgenomen in de ontwikkeling van veronderstellingen;  
+• 
+of 
+de 
+veronderstellingen 
+consistent 
+zijn 
+met 
+waarneembare 
+marktomstandigheden en met de kenmerken van het actief dat of de 
+verplichting die tegen reële waarde wordt gewaardeerd;  
+• 
+of de bronnen van veronderstellingen van marktpartijen relevant en 
+betrouwbaar zijn, alsmede hoe het bestuursorgaan de te hanteren 
+veronderstellingen heeft gekozen als er verschillende veronderstellingen 
+van marktpartijen bestaan;  
+• 
+indien passend, of en, zo ja, op welke wijze het bestuursorgaan rekening 
+heeft gehouden met gehanteerde veronderstellingen in, of informatie over, 
+vergelijkbare transacties, activa of verplichtingen.
+
+A51. De veronderstellingen waarop schattingen worden gebaseerd, kunnen het 
+door het bestuursorgaan verwachte resultaat van specifieke doelstellingen 
+en 
+strategieën 
+weerspiegelen. 
+In 
+dergelijke 
+gevallen 
+kan 
+de 
+beroepsbeoefenaar 
+assurancewerkzaamheden 
+uitvoeren 
+om 
+de 
+redelijkheid 
+van 
+dergelijke 
+veronderstellingen 
+te 
+evalueren 
+door 
+bijvoorbeeld te overwegen of de veronderstellingen consistent zijn met:
+
+A. • 
+de algemene economische omgeving en de economische 
+omstandigheden van de entiteit;  
+• 
+de intenties van de entiteit;  
+• 
+veronderstellingen die in voorgaande verslagperioden zijn gemaakt, 
+indien relevant;  
+• 
+de ervaring van de entiteit of eerdere situaties waarmee de entiteit is 
+geconfronteerd, voor zover deze informatie uit het verleden 
+representatief kan worden geacht voor toekomstige situaties of 
+gebeurtenissen;  
+• 
+andere door het bestuursorgaan gehanteerde veronderstellingen in 
+het kader van de geplande transactie.
+
+(par. A49-A51)
+
+50. De beroepsbeoefenaar dient de periode waarop de toekomstgerichte
+
+A52. De beroepsbeoefenaar richt zijn aandacht op de vraag in welke mate
+
+financiële informatie betrekking heeft te beoordelen. De beroepsbeoefenaar 
+dient zich ervan te vergewissen dat de datum vermeld is waarop de 
+toekomstgerichte financiële informatie werd opgesteld. Het bestuursorgaan 
+moet bevestigen dat de veronderstellingen tot op die datum aanvaardbaar zijn,
+
+A. onderdelen die bijzonder gevoelig zijn voor variaties, een effect van 
+materieel belang hebben op de uitkomsten van de toekomstgerichte 
+financiële informatie. Dit zal de omvang van de door de beroepsbeoefenaar 
+te verrichten werkzaamheden beïnvloeden en heeft eveneens effect op de
+
+zelfs al zouden de onderliggende gegevens in een eerdere tijdsperiode zijn 
+verzameld. (par. A52)
+
+A. beoordeling door de beroepsbeoefenaar van de geschiktheid en het 
+adequaat zijn van de toekomstgerichte financiële informatie.
+
+
+## V. Schriftelijke bevestigingen
+
+51. De beroepsbeoefenaar dient de nodige schriftelijke bevestigingen van het
+
+A53. In uitzonderlijke omstandigheden kan worden overwogen om de
+
+bestuursorgaan te verkrijgen. De te verkrijgen bevestigingen zijn afhankelijk 
+van de omstandigheden en worden aangepast aan de aard van de opdracht. 
+(par. A53, zie ook par. 21)
+
+A. opdrachtbrief en de bevestigingsbrief te combineren.
+
+A54. Twijfels over de integriteit van het bestuursorgaan kunnen de commissaris
+
+A. in het kader van zijn wettelijke controle van de jaarrekening, 
+overeenkomstig ISA 580, paragrafen 16 en A24, doen besluiten dat het 
+risico op het geven van een verkeerde voorstelling in de jaarrekening door 
+het bestuursorgaan zodanig is dat de controle niet kan worden uitgevoerd. 
+In een dergelijk geval kan hij overwegen om ontslag te nemen als 
+commissaris.
+
+52. Indien het bestuursorgaan één of meer van de gevraagde schriftelijke
+
+bevestigingen niet verschaft, dient de beroepsbeoefenaar:
+
+(a) In voorkomend geval de aangelegenheid met het bestuursorgaan te
+
+bespreken; 
+(b) De integriteit van het bestuursorgaan te herevalueren, en dient hij het effect
+
+dat dit kan hebben op de betrouwbaarheid van de (mondelinge of 
+schriftelijke) bevestigingen in het algemeen te evalueren; en    
+(c) De passende actie te ondernemen, met inbegrip van het bepalen van het 
+mogelijke effect op de conclusie in zijn verslag.
+
+53. De beroepsbeoefenaar dient een onthouding te formuleren indien:
+
+(a) de beroepsbeoefenaar concludeert dat er voldoende twijfel bestaat over de 
+integriteit van het bestuursorgaan omdat en in zover dat de verkregen 
+schriftelijke bevestigingen niet betrouwbaar zijn (par. A54); of 
+(b) het bestuursorgaan geen enkele van de gevraagde bevestiging heeft
+
+verschaft.
+
+
+## VI. Conclusie en beoordelingsverslag
+
+
+## VI.1. Het vormen van de conclusie over de staat van activa en passiva
+
+54. Bij het vormen van de conclusie over de staat van activa en passiva dient de
+
+beroepsbeoefenaar, naar aanleiding van zijn werkzaamheden, een beperkte 
+mate van zekerheid te verkrijgen over de vraag of:
+
+(i) 
+de staat van activa en passiva, in alle van materieel belang zijnde 
+opzichten, 
+is 
+opgesteld 
+conform 
+het 
+boekhoudkundig 
+referentiestelsel; en 
+(ii) 
+het nettoactief in alle van materieel belang zijnde opzichten is 
+overgewaardeerd.
+
+55. De conclusie van de beroepsbeoefenaar dient de vorm aan te nemen van een
+
+conclusie zonder voorbehoud of een aangepaste conclusie, zijnde:
+
+- 
+een conclusie met voorbehoud;  
+- 
+een afkeurende conclusie; of  
+- 
+een onthouding van conclusie.
+
+56. Als de beroepsbeoefenaar verwacht zijn conclusie aan te passen, dient hij de
+
+voorgenomen aanpassing en de omstandigheden die tot de verwachte 
+aanpassing hebben geleid aan het bestuursorgaan mee te delen.
+
+57. Wanneer het nettoactief kleiner is dan het in de staat van activa en passiva
+
+A55. Artikel 14:4, tweede lid WVV bepaalt het volgende: “Indien, in het geval
+
+opgenomen kapitaal, dan dient het verschil tussen het nettoactief en het in de 
+staat van activa en passiva opgenomen kapitaal, vermeerderd met alle 
+reserves die krachtens de wet of de statuten niet mogen worden uitgekeerd 
+(art. 14:3, tweede lid juncto art. 14:4, tweede lid WVV), vermeld te worden in de 
+sectie “conclusie” van het beoordelingsverslag. Indien de staat van activa en 
+passiva niet besluit met het verschil dan dient de beroepsbeoefenaar in zijn
+
+A. bedoeld in artikel 14:3, tweede lid, het nettoactief van de vennootschap 
+kleiner is dan het in de staat van activa en passiva opgenomen kapitaal, dan 
+besluit het verslag met de vermelding van het verschil.”
+
+A. Het betreft enkel de om te vormen vennootschapsvormen beoogd door 
+artikel 14:3, tweede lid, WVV, zijnde de naamloze vennootschap, de 
+Europese vennootschap en de Europese coöperatieve vennootschap.
+
+conclusie te vermelden dat de staat van activa en passiva niet besluit met het 
+verschil zoals vereist door artikel 14:4 WVV. (par. A55)
+
+A. Het betreft het nettoactief zoals blijkt uit de staat van activa en passiva 
+opgesteld door het bestuursorgaan of het nettoactief rekening houdend 
+met eventuele correcties van afwijkingen van materieel belang of het effect 
+van het voorbehoud.
+
+A. Als dit nettoactief kleiner is dan het in de staat van activa en passiva 
+opgenomen kapitaal, vermeerderd met alle reserves die krachtens de wet 
+of de statuten niet mogen worden uitgekeerd, dan besluit de staat met de 
+vermelding van het verschil (art. 14:3, tweede lid WVV).
+
+58. De beroepsbeoefenaar dient een conclusie zonder voorbehoud over de staat
+
+van activa en passiva te formuleren wanneer hij, op grond van de uitgevoerde 
+werkzaamheden, een beperkte mate van zekerheid heeft verkregen teneinde 
+te kunnen concluderen dat er niets onder zijn aandacht is gekomen dat hem 
+ertoe leidt te veronderstellen dat de staat van activa en passiva niet, in alle van 
+materieel 
+belang 
+zijnde 
+opzichten, 
+in 
+overeenstemming 
+met 
+de 
+boekhoudreglementering is opgesteld en dat het nettoactief, in alle van 
+materieel belang zijnde opzichten,  is overgewaardeerd .
+
+59. De beroepsbeoefenaar dient een conclusie met voorbehoud of een afkeurende
+
+conclusie te formuleren wanneer hij, op basis van de uitgevoerde 
+werkzaamheden en de verkregen onderbouwende informatie, vaststelt dat de 
+staat van activa en passiva een afwijking van materieel belang (zie par. A23) 
+bevat.
+
+60. De beroepsbeoefenaar dient een conclusie met voorbehoud te formuleren 
+wanneer hij concludeert dat de (mogelijke) effecten van de aangelegenheid (-
+heden), die aanleiding geven tot de conclusie met voorbehoud, van materieel 
+belang, maar niet van diepgaande invloed zijn op de staat van activa en 
+passiva.
+
+61. De beroepsbeoefenaar dient een afkeurende conclusie te formuleren wanneer
+
+hij concludeert dat de effecten van de aangelegenheid (-heden), die aanleiding 
+geeft (geven) tot de afkeurende conclusie, zowel van materieel belang als van
+
+diepgaande invloed zijn op de staat van activa en passiva en het nettoactief, 
+in alle van materieel belang zijnde opzichten, overgewaardeerd is.
+
+62. De beroepsbeoefenaar dient een onthouding van conclusie te formuleren
+
+indien:
+
+- 
+hij niet in staat is geweest om voldoende onderbouwende 
+informatie te verkrijgen om zijn beoordeling uit te voeren; of 
+- 
+de onzekerheden een te groot deel van deze informatie 
+beïnvloeden, zodat hij geen conclusie kan vormen betreffende het 
+nettoactief.
+
+VI.2. Het vormen van de conclusie met beperkte mate van zekerheid met betrekking tot de geldelijke vergoeding, in het kader van en 
+overschrijdende omzetting
+
+63. Wanneer de beroepsbeoefenaar op grond van zijn werkzaamheden een
+
+conclusie zonder voorbehoud formuleert, dient hij aan te geven dat niets 
+onder zijn aandacht is gekomen dat hem ertoe aanzet van mening te zijn dat: 
+• 
+de geldelijke vergoeding, in alle van materieel belang zijnde opzichten, niet 
+relevant en redelijk is; en dat 
+• 
+de gebruikte waarderingsmethoden door het bestuursorgaan, in alle van 
+materieel belang zijnde opzichten, niet passend zijn.
+
+64. De conclusie van de beroepsbeoefenaar over de relevantie en het redelijk
+
+karakter van de geldelijke vergoeding dient de vorm aan te nemen van een 
+conclusie zonder voorbehoud of, een aangepaste conclusie, zijnde :
+
+- 
+een afkeurende conclusie; of 
+- 
+een onthouding van conclusie.
+
+65. Als de beroepsbeoefenaar verwacht zijn conclusie aan te passen, dient hij de
+
+voorgenomen aanpassing en de omstandigheden die tot de verwachte 
+aanpassing hebben geleid aan het bestuursorgaan mee te delen.
+
+66. De beroepsbeoefenaar dient een afkeurende conclusie tot uitdrukking te
+
+brengen ten aanzien van de geldelijke vergoeding wanneer hij, op grond van 
+de uitgevoerde werkzaamheden, concludeert dat één of meerdere van de 
+methoden als niet redelijk en niet passend moeten worden beschouwd, of 
+wanneer zij op niet correcte wijze werd(en) toegepast.
+
+67. Een afkeurende conclusie wordt ook tot uitdrukking gebracht in het geval dat
+
+de beroepsbeoefenaar een van materieel belang zijnde onzekerheid 
+identificeert waarmee geen rekening werd gehouden bij het vaststellen van de 
+geldelijke vergoeding, voor zover deze onzekerheid tevens van materieel 
+belang is voor de geldelijke vergoeding.
+
+68. De beroepsbeoefenaar dient een onthouding van conclusie te formuleren
+
+A56. Het bestuursorgaan kan bij het vaststellen van de geldelijke vergoeding
+
+indien: 
+- 
+hij niet in staat is geweest om voldoende onderbouwende informatie te 
+verkrijgen met betrekking tot de geldelijke vergoeding en de weerhouden 
+waarderingsmethoden; of 
+- 
+de onzekerheden een te groot deel van deze informatie beïnvloeden of 
+waarmee wegens het aleatoir karakter ervan geen rekening kon worden 
+gehouden, zodat hij geen conclusie kan vormen. (par. A56).
+
+A. hebben gebruikgemaakt van toekomstgerichte financiële informatie. Één 
+van de kenmerken van toekomstgerichte financiële informatie is dat deze 
+verwijst naar handelingen en gebeurtenissen die nog niet hebben 
+plaatsgevonden en mogelijk niet zullen plaatsvinden. Het louter bestaan 
+van deze onzekerheden kan evenwel niet leiden tot het systematisch 
+formuleren van een onthouding van conclusie.
+
+VI.3. Verslag
+
+69. De beroepsbeoefenaar dient een schriftelijk verslag op te stellen naar
+
+aanleiding van zijn werkzaamheden door gebruik te maken van de 
+modelverslagen gehecht aan onderhavige norm (bijlage 3).
+
+70. Het verslag dient te worden gericht aan de algemene vergadering, of in het 
+geval van een stichting aan het bestuursorgaan.
+
+71. Het verslag dient, in onderscheiden secties met passende titel, volgende
+
+A57. De beschrijving van de context van de tussenkomst van de
+
+elementen te vermelden:
+
+A. beroepsbeoefenaar gebeurt in algemene bewoordingen, waarbij hij de
+
+(a) een titel die duidelijk aangeeft dat het een beoordelingsverslag betreft; 
+(b) de bestemmeling van het verslag; 
+(c) een inleiding die de beschrijving van de context bevat waarin de verrichting 
+van omzetting plaatsvindt en van de verantwoording van het 
+bestuursorgaan, met vermelding van volgende aspecten (par. A58):
+
+A. opdracht die hem is toevertrouwd vermeldt en verwijst naar de datum 
+waarop hij voor de opdracht werd aangesteld. 
+A58. De beroepsbeoefenaar kan het nodig achten in zijn verslag de aandacht te 
+vestigen op een aangelegenheid die is weergegeven of toegelicht in de 
+staat van activa en passiva die op grond van oordeelsvorming van de 
+beroepsbeoefenaar van zodanig belang is dat deze van fundamenteel 
+belang is voor het begrip van gebruikers van de staat van activa en passiva. 
+In dergelijke gevallen neemt de beroepsbeoefenaar een paragraaf ter 
+benadrukking van bepaalde aangelegenheden in het beoordelingsverslag 
+op. Dit op voorwaarde dat de beroepsbeoefenaar voldoende en geschikte 
+onderbouwende informatie heeft verkregen om te concluderen dat de 
+aangelegenheid waarschijnlijk niet leidt tot een afwijking van materieel 
+belang in de staat van activa en passiva. Een dergelijke paragraaf mag 
+alleen refereren aan informatie die in de staat van activa en passiva is 
+weergegeven of toegelicht. 
+A59. De beroepsbeoefenaar kan het noodzakelijk achten een andere
+
+a. de identificatie van de opdracht en van de entiteit (de benaming, 
+de zetel, het KBO, enz.);  
+b. de datum waarop de staat van activa en passiva werd afgesloten 
+door het bestuursorgaan van de entiteit ;  
+(d) een beschrijving van de verantwoordelijkheden van het bestuursorgaan 
+voor het opstellen van de staat van activa en passiva en het berekenen 
+van het nettoactief;  
+(e) wanneer de verrichting een grensoverschrijdende verrichting (emigratie) 
+betreft,: een beschrijving van de verantwoordelijkheden van het 
+bestuursorgaan betreffende de berekening van de geldelijke vergoeding; 
+(f) een 
+beschrijving 
+van 
+de 
+verantwoordelijkheden 
+van 
+de 
+beroepsbeoefenaar, waarbij wordt verwezen naar onderhavige norm en de 
+inherente beperkingen van de reikwijdte van de beoordeling worden 
+aangegeven; 
+(g) de conclusie van de beroepsbeoefenaar, waarbij een beperkte mate van 
+zekerheid wordt verstrekt;  
+(h) de basis voor de conclusie van de beroepsbeoefenaar, waarbij wordt 
+verwezen naar onderhavige norm; 
+(i) in voorkomend geval, een paragraaf ter benadrukking van bepaalde
+
+A. aangelegenheid te communiceren dan degene die in de staat van activa en 
+passiva weergegeven of toegelicht zijn die, op grond van de professionele 
+oordeelsvorming van de beroepsbeoefenaar, relevant zijn voor het begrip 
+van 
+gebruikers 
+van 
+de 
+beoordelingsopdracht, 
+van 
+de 
+verantwoordelijkheden 
+van 
+de 
+beroepsbeoefenaar 
+of 
+van 
+het 
+beoordelingsverslag. Hij doet dit in dat geval in een paragraaf inzake 
+overige aangelegenheden.  
+A60. Om misverstanden te voorkomen is het belangrijk dat de gebruiker van het 
+verslag erop wordt gewezen dat het verslag werd opgesteld in het kader 
+van het van toepassing zijnde wetsartikel en het doel dat door dat 
+wetsartikel wordt vooropgesteld. Derhalve kan het verslag niet gebruikt 
+worden in een andere context.  
+De bestemmeling van het verslag en de verspreiding ervan worden 
+geregeld door de wet.
+
+aangelegenheden of een paragraaf inzake overige aangelegenheden; (par. 
+A59) 
+(j) een vermelding dat het verslag werd opgesteld in uitvoering van het
+
+toepasselijk wetsartikel en niet mag gebruikt worden voor andere 
+doeleinden (par. A60).
+
+Het verslag dient te worden gedagtekend en ondertekend door de 
+beroepsbeoefenaar.
+
+72. De beroepsbeoefenaar dient de staat van activa en passiva, zoals toegevoegd
+
+bij het omzettingsvoorstel en die hij beoordeeld heeft, te voegen bij zijn verslag 
+of op te nemen in zijn verslag.
+
+73. In de sectie “verantwoordelijkheden van de beroepsbeoefenaar” dient de
+
+beroepsbeoefenaar aan te geven dat zijn werkzaamheden zijn uitgevoerd 
+overeenkomstig onderhavige norm en er inzonderheid op gericht zijn na te 
+gaan of er geen elementen zijn waaruit blijkt dat het nettoactief, zoals dat blijkt 
+uit de staat van activa en passiva, opgemaakt door het bestuursorgaan van de 
+entiteit, in alle van materieel belang zijnde opzichten, overgewaardeerd is.
+
+74. Wanneer de verrichting een grensoverschrijdende verrichting (emigratie)
+
+betreft:  in de sectie “verantwoordelijkheden van de beroepsbeoefenaar” dient 
+de beroepsbeoefenaar ook aan te geven dat de werkzaamheden zijn 
+uitgevoerd in overeenstemming met deze norm en erop gericht zijn na te zien 
+dat hij geen feiten heeft vastgesteld die hem doen denken dat de geldelijke 
+vergoeding, in alle van materieel belang zijnde opzichten, niet relevant en 
+redelijk is.
+
+75. De beroepsbeoefenaar dient in zijn verslag melding te maken van de netto-
+
+A61.  Per saldo betekent rekening houdend met de over- en onderwaarderingen
+
+impact van de niet-gecorrigeerde afwijkingen van materieel belang die per 
+saldo aanleiding geven tot de overwaardering van het nettoactief. (par. A61)
+
+A. van de activa- en passivabestanddelen opgenomen in de staat van activa 
+en passiva, na aftrek van het belastingeffect.
+
+76. Bij de omzetting van een entiteit, opgericht in één van de rechtsvormen
+
+genoemd in artikel 1:5, § 2 WVV, met uitzondering van de SE en de SCE, in een 
+vennootschap met een andere rechtsvorm of in een (I)VZW, de omzetting van 
+een VZW in een erkende CVSO of een CV erkend als SO, de omzetting van een 
+VZW in een (I)VZW en omgekeerd, de omzetting van een stichting en de 
+emigratie 
+van 
+een 
+in 
+dit 
+wetboek 
+geregelde 
+vennootschap 
+met 
+rechtspersoonlijkheid, met uitzondering van de SE en de SCE, van een 
+vereniging of stichting dient de beroepsbeoefenaar zijn verslag over te maken 
+aan de vennootschap of de vereniging, ten minste 15 dagen voor de algemene 
+vergadering die moet beslissen over de omzetting. Als de beroepsbeoefenaar 
+de documenten niet tijdig heeft ontvangen, en hij niet in de mogelijkheid is om
+
+deze wettelijke termijn te eerbiedigen, dient hij dat te vermelden in zijn verslag 
+aan de algemene vergadering of, ingeval van een stichting, het 
+bestuursorgaan, met melding, in voorkomend geval, van de wijze waarop zijn 
+werkzaamheden daardoor zijn beïnvloed.
+
+77. De beroepsbeoefenaar die het bestaan vaststelt van een inbreuk op de
+
+bepalingen van het Wetboek van economisch recht, artikel III.83 e.v., de 
+statuten, het WVV of het uitvoeringsbesluit op het WVV van 29 april 2019, 
+dient, onverminderd formele aspecten van ondergeschikt belang en indien 
+deze een directe invloed heeft op de verrichting, hiervan melding te maken in 
+zijn verslag, behoudens wanneer die inbreuk het voorwerp zou uitmaken van 
+een gepaste correctie.
+
+Indien de beroepsbeoefenaar de commissaris is, dient hij in het kader van zijn 
+commissarismandaat ook de paragrafen 99 tot en met 101 van de bijkomende 
+norm bij de in België van toepassing zijnde ISA’s inzake de naleving door de 
+entiteit van de bepalingen van de statuten en van het WVV, toe te passen.
+
+78. De beroepsbeoefenaar dient in de sectie “basis voor de conclusie” de waarde
+
+die aan het nettoactief werd weerhouden te vermelden. Hij dient ook de wijze 
+van berekening van het nettoactief te vermelden, teneinde te bepalen of deze 
+niet is overgewaardeerd.
+
+79. Wanneer de verrichting een grensoverschrijdende verrichting (emigratie)
+
+betreft, dient de beroepsbeoefenaar in de sectie “basis voor de conclusie” de 
+waarde die aan de aandelen van de entiteit werd weerhouden te vermelden. 
+Hij dient ook de wijze van berekening van de geldelijke vergoeding te 
+vermelden, teneinde te bepalen of deze relevant en redelijk is.
+
+80. Indien de beroepsbeoefenaar overeenkomstig paragraaf 53 van onderhavige
+
+norm een onthouding van conclusie formuleert, dient hij de sectie betreffende 
+zijn verantwoordelijkheden aan te passen door aan te geven dat hij niet in staat 
+is geweest om voldoende onderbouwende informatie te verkrijgen nodig voor
+
+het formuleren van een conclusie over de opdracht of dat de onzekerheden 
+een te groot deel van deze informatie beïnvloeden.
+
+81. Wanneer de verrichting een grensoverschrijdende verrichting (emigratie)
+
+betreften de beroepsbeoefenaar een onthouding van conclusie formuleert, 
+overeenkomstig paragraaf 53 van onderhavige norm, dient hij de sectie met 
+betrekking tot zijn verantwoordelijkheden aan te passen door aan te geven dat 
+hij niet in staat is geweest om voldoende onderbouwde informatie te verkrijgen 
+voor het formuleren van een conclusie over de geldelijke vergoeding of dat de 
+onzekerheden een te groot deel van deze informatie beïnvloeden.
+
+82. Wanneer de beroepsbeoefenaar op grond van zijn werkzaamheden een
+
+afkeurende conclusie of een onthouding van conclusie formuleert, dient hij in 
+de sectie “basis voor de conclusie” een beschrijving te geven van de 
+aangelegenheden die hebben geleid tot een aanpassing van zijn conclusie.
+
+83. Wanneer de verrichting een grensoverschrijdende verrichting (emigratie)
+
+betreft en de beroepsbeoefenaar op grond van zijn werkzaamheden een 
+afkeurende conclusie of een onthouding van conclusie formuleert, dient hij in 
+de sectie “basis voor de conclusie” een beschrijving te geven van de 
+aangelegenheden die hebben geleid tot een aanpassing van zijn conclusie..
+
+84. Als de beroepsbeoefenaar in de loop van zijn werkzaamheden kennis krijgt
+
+van gebeurtenissen na de afsluitingsdatum van de staat van activa en passiva 
+die een betekenisvol effect kunnen hebben op de staat van activa en passiva 
+of het bedrag van het nettoactief, dan dient hij de impact ervan op zijn conclusie 
+over de staat van activa en passiva te beoordelen.
+
+Bijlage 1 – Tabel met de verschillende bepalingen van het WVV inzake de 
+omzetting van een rechtsvorm beoogd door onderhavige norm
+
+
+## Nationale omzetting vennootschap (art. 
+14:2-14:14)
+
+Verslag beroepsbeoefenaar (art. 14:4); verslag 
+bestuursorgaan (art. 14:5) 
+Grensoverschrijdende omzetting 
+vennootschap (art. 14:15-14:30)
+
+Verslag beroepsbeoefenaar (art. 14:21, tweede 
+lid); verslag bestuursorgaan (art. 14:20)  
+Nationale omzetting vennootschap in 
+(I)VZW (art. 14:31-14:36)
+
+Verslag beroepsbeoefenaar (art. 14:32, tweede 
+lid, 3°); verslag bestuursorgaan (art. 14:32, 
+eerste lid)  
+Nationale omzetting (I)VZW (art. 14:46-
+14:50)
+
+Verslag beroepsbeoefenaar (art. 14:47, tweede 
+lid, 3°); verslag bestuursorgaan (art. 14:47, 
+eerste lid)  
+Grensoverschrijdende omzetting (I)VZW 
+(art. 14:51-14:66)
+
+Verslag beroepsbeoefenaar (art. 14:57, tweede 
+lid); verslag bestuursorgaan (art. 14:56)  
+Nationale omzetting stichtingen 
+(art.14:67)
+
+Verslag beroepsbeoefenaar (art. 14:67, §2,3°); 
+verslag bestuursorgaan (art. 14:67, §2, 1°)  
+Grensoverschrijdende omzetting 
+stichtingen (art. 14:68-14:83)
+
+Verslag beroepsbeoefenaar (art. 14:74, tweede 
+lid); verslag bestuursorgaan (art. 14:73)
+
+
+## Bijlage 2 – Voorbeeld van opdrachtbrief2
+
+
+## Aan [het bestuursorgaan van de vennootschap X]
+
+Geachte mevrouw, Geachte heer,
+
+[Bedrijfsrevisor/Gecertificeerd 
+accountant: 
+U 
+hebt 
+ons 
+in 
+onze 
+hoedanigheid 
+van 
+bedrijfsrevisor/gecertificeerd accountant aangesteld om, overeenkomstig [artikelen [14:4, 14:21, 14:32, 
+14:47, 14:57 ; 14:67, 14:74] van het Wetboek van vennootschappen en verenigingen, het verslag over de 
+staat van activa en passiva opgesteld door het bestuursorgaan [en van de relevantie en de redelijkheid 
+van de geldelijke vergoeding], zoals opgenomen in het [omzettingsvoorstel] en over het passend zijn 
+van de toegepaste waarderingsmethoden op te stellen.
+
+Commissaris: De algemene vergadering van aandeelhouders van de vennootschap [X] heeft ons op 
+[xx/xx/202x] als commissaris van de vennootschap benoemd. In die hoedanigheid zijn wij ook 
+verantwoordelijk voor het opstellen van het verslag over de staat van activa en passiva opgesteld door 
+het bestuursorgaan en de relevantie en de redelijkheid van de geldelijke vergoeding], zoals opgenomen 
+in het [omzettingsvoorstel] en over het passend zijn van de toegepaste waarderingsmethoden
+
+Wij verstrekken u deze brief ter bevestiging van ons begrip van de voorwaarden en doelstellingen van 
+de ons toevertrouwde opdracht.
+
+Doelstellingen en reikwijdte van de opdracht:
+
+[De beroepsbeoefenaar beschrijft hier:
+
+o 
+de doelstelling, de reikwijdte en de uitvoeringsmodaliteiten van de opdracht; 
+o 
+een vermelding van de opstelling van een schriftelijk verslag houdende de resultaten van de 
+opdracht; 
+o 
+een verwijzing naar onderhavige norm.]
+
+
+## Verantwoordelijkheden van het bestuursorgaan
+
+[De beroepsbeoefenaar beschrijft hier de verantwoordelijkheden van het bestuursorgaan, met inbegrip 
+van, onder andere:
+
+o 
+een verwijzing naar de verplichting om  toegang te verschaffen tot alle informatie en 
+personen die voor de uitvoering van de opdracht relevant is of zijn;  
+o 
+opstellen van een staat van de activa en passiva van de entiteit; 
+o 
+In voorkomend geval, wanneer de verrichting een grensoverschrijdende verrichting 
+(emigratie) betreft, de vaststelling van de geldelijke vergoeding, waaronder:
+
+ 
+de gebruikte methoden om de geldelijke vergoeding vast te stellen; 
+ 
+het betrekkelijk gewicht dat aan deze methoden wordt gehecht; 
+ 
+de in aanmerking genomen waarde die volgens deze methoden wordt 
+gehanteerd;
+
+2 Dit voorbeeld bevat alleen de minimale inhoud zoals voorzien in paragraaf 19 van deze norm. Het 
+wordt aanbevolen om rekening te houden met de specifieke elementen van elk beroep en dit voorbeeld 
+aan te vullen met bijzonderheden eigen aan de opdracht. Het gebruik van dit voorbeeld is niet verplicht.
+
+ 
+indien er werd gebruikgemaakt van toekomstgerichte financiële informatie bij 
+het vaststellen van de geldelijke vergoeding, de veronderstellingen die aan de 
+grondslag liggen van het vaststellen van de geldelijke vergoeding;
+
+Verantwoordelijkheden van de [commissaris/bedrijfsrevisor/gecertificeerd accountant]:
+
+[De beroepsbeoefenaar beschrijft zijn verantwoordelijkheden , met inbegrip van, onder andere:
+
+o 
+het nazicht van het omzettingsvoorstel; 
+o 
+verslag uitbrengen over de staat van activa en passiva opgesteld door het 
+bestuursorgaan;  
+o 
+aanduiden of het netto-actief is overgewaardeerd; 
+o 
+wanneer de verrichting een grensoverschrijdende verrichting (emigratie) betreft:
+
+ 
+de beoordeling van de redelijkheid en relevantie van de geldelijke vergoeding; 
+ 
+de beoordeling van de gebruikte methoden om de geldelijke vergoeding vast 
+te stellen.
+
+Verslag van de [commissaris/bedrijfsrevisor/gecertificeerd accountant]:
+
+[De beroepsbeoefenaar vermeldt hier de beperking van de verspreiding van de verslag opgesteld 
+ingevolge artikel(en) 14:4, 14:21, 14:32, 14:47, 14:57 ; 14:67, 14:74 van het WVV, dat de verspreiding 
+ervan beperkt is tot het beoogd gebruik.]
+
+Honoraria:
+
+[De beroepsbeoefenaar beschrijft hier de bepaling en de betalingsvoorwaarden van de honoraria]
+
+Bevestiging en aanvaarding:
+
+Gelieve ons te bevestigen dat u de voorwaarden van deze opdrachtbrief aanvaardt door één van de 
+exemplaren naar behoren ter goedkeuring medeondertekend aan ons terug te zenden. Indien u vooraf 
+aanvullende informatie wenst over bepaalde onderdelen van deze opdrachtbrief, dan zouden wij het op 
+prijs stellen als u ons dat zo spoedig mogelijk laat weten.
+
+Met de meeste hoogachting,
+
+[Plaats], [Datum]                                              [Handtekening van de bestuurder(s) van de vennootschap [x]] 
+Benaming van het kantoor van de beroepsbeoefenaar XYZ 
+[Commissaris] 
+Vertegenwoordigd door: 
+Naam 
+Bedrijfsrevisor/ Gecertificeerd accountant
+
+Bijlage 3 - Modelverslagen van de commissaris / bedrijfsrevisor / 
+gecertificeerd accountant bij de omzetting van een rechtsvorm
+
+3.1. Verslag aan de buitengewone algemene vergadering (3) van [rechtsvorm] [X] betreffende 
+de beoordeling van de staat van activa en passiva in het kader van de nationale omzetting van 
+een [rechtsvorm kapitaalhoudende entiteit (4)] naar een [rechtsvorm kapitaalloze 
+vennootschap]
+
+Overeenkomstig artikel [XX] van het Wetboek van vennootschappen en verenigingen brengen wij in onze 
+hoedanigheid van [commissaris] [bedrijfsrevisor / gecertificeerd accountant] het verslag uit gericht aan 
+de (buitengewone) algemene vergadering (3) van de [om te zetten entiteit [X]] over de staat van activa en 
+passiva in het kader van de nationale omzetting van [rechtsvorm kapitaalhoudende entiteit] [X] naar 
+[rechtsvorm kapitaalloze vennootschap] [Y]. 
+ 
+Wij werden voor deze opdracht door het bestuursorgaan aangesteld op datum van XX en hebben de 
+beoordeling uitgevoerd van de hierbij gevoegde staat van activa en passiva per xx/xx/xx van de 
+[rechtsvorm kapitaalhoudende entiteit [4], [X (5)] (hierna: “de Vennootschap/de VZW/de IVZW/de 
+Stichting”] opgesteld in overeenstemming met het van toepassing zijnde boekhoudkundig 
+referentiestelsel.  
+ 
+[Beschrijving van de context van de tussenkomst in algemene bewoordingen]
+
+Conclusie
+
+Op grond van de beoordeling is niets onder onze aandacht gekomen dat ons ertoe aanzet van 
+mening te zijn dat de staat van activa en passiva, in alle van materieel belang zijnde opzichten, niet 
+is opgesteld in overeenstemming met het boekhoudkundige referentiestelsel en dat het nettoactief, 
+vastgesteld in de door het bestuursorgaan opgestelde staat van activa en passiva, in alle van 
+materieel belang zijnde opzichten, overgewaardeerd is.
+
+Indien van toepassing: Het nettoactief van de Vennootschap is kleiner dan het in de staat van activa 
+en passiva opgenomen kapitaal, vermeerderd met alle reserves die krachtens de wet of de statuten 
+niet mogen worden uitgekeerd. Het verschil bedraagt [BEDRAG] EUR.
+
+
+## Basis voor de conclusie
+
+Wij hebben onze opdracht uitgevoerd overeenkomstig de norm d.d. XX inzake de opdracht van de 
+beroepsbeoefenaar bij de omzetting van een entiteit.
+
+Onze verantwoordelijkheden op grond van deze norm staan beschreven in de sectie 
+“Verantwoordelijkheden van de [commissaris] [bedrijfsrevisor / gecertificeerd accountant]”.
+
+De staat van activa en passiva is opgesteld door het bestuursorgaan. Deze is afgesloten op een 
+datum die niet meer dan drie maanden voorafgaat aan de algemene vergadering die zich moet 
+uitspreken over het omzettingsvoorstel.
+
+De waarde die door het bestuursorgaan aan het nettoactief werd weerhouden is de volgende: […]. 
+Deze is [niet] overgewaardeerd..
+
+3 Het bestuursorgaan in geval van een stichting. 
+4 In geval van een (I)VZW of een stichting gaat het om fondsen (art. 3:171, §2, I. KB 29 april 2019). 
+5 Vermelden van de benaming, de zetel, het KBO, enz. (zie par. 71(c)(a) van de norm).
+
+Wij hebben de relevante deontologische vereisten die van toepassing zijn op de opdracht nageleefd.
+
+Wij zijn van mening dat de door ons verkregen onderbouwende informatie voldoende en geschikt is 
+als basis voor onze conclusie.
+
+
+## Benadrukking van een bepaalde aangelegenheid [van bepaalde aangelegenheden]
+
+[Indien van toepassing]
+
+
+## Overige aangelegenheid
+
+[Mogelijke situatie waarin een paragraaf inzake overige aangelegenheden als nuttig kan worden 
+geacht (zie par. A60): De wettelijke termijnen inzake het voorleggen van het verslag van het 
+bestuursorgaan en van ons verslag konden niet gerespecteerd worden. Wij zijn evenwel in staat 
+geweest om de nodige werkzaamheden uit te voeren.]
+
+
+## Verantwoordelijkheden van het bestuursorgaan
+
+Het bestuursorgaan is verantwoordelijk voor het opstellen van de staat van activa en passiva per 
+xx/xx/xx in overeenstemming met het in België van toepassing zijnde boekhoudkundig 
+referentiestelsel volgens de principes van artikel 3:1, § 1, eerste lid WVV, voor het berekenen van 
+het nettoactief alsook voor de naleving van de door het WVV vereiste voorwaarden die op de 
+omzetting van toepassing zijn.
+
+[Indien van toepassing: Overeenkomstig artikel 14:12 (6) van het Wetboek van vennootschappen en 
+verenigingen inzake de eventuele aansprakelijkheid bij omzetting, is het bestuursorgaan van de om 
+te zetten vennootschap, niettegenstaande enig andersluidend beding, jegens de betrokkenen 
+hoofdelijk gehouden (i) voor de overwaardering van het nettoactief zoals blijkt uit de staat van 
+activa en passiva en (ii) tot vergoeding van de schade die het onmiddellijke en rechtstreekse gevolg 
+is, hetzij van de nietigheid van de omzettingsverrichting wegens de niet-naleving van de regels 
+bepaald in de artikelen 7:15, 2° tot 4° (7) of artikel 14:10, eerste lid, van het Wetboek van 
+vennootschappen en verenigingen, hetzij wegens het ontbreken of de onjuistheid van de 
+vermeldingen voorgeschreven in de artikelen 7:14, met uitzondering van het 7° en de punten 10° 
+tot 12° (8) en 14:10, tweede lid, van het Wetboek van vennootschappen en verenigingen.]
+
+De 
+beoordeling 
+van 
+de 
+staat 
+van 
+activa 
+en 
+passiva 
+door 
+[de 
+commissaris/de 
+bedrijfsrevisor/gecertificeerd accountant] ontslaat noch het bestuursorgaan, noch de voor 
+financiën en administratie verantwoordelijke personen van hun verantwoordelijkheden.
+
+Verantwoordelijkheden van de [commissaris] [bedrijfsrevisor / gecertificeerd accountant]
+
+Onze verantwoordelijkheid bestaat erin een conclusie met beperkte mate van zekerheid tot 
+uitdrukking te brengen over de aan ons voorgelegde staat van activa en passiva van [de 
+Vennootschap/de VZW/de IVZW/de Stichting], afgesloten op [DATUM] met een balanstotaal van 
+[BEDRAG] EUR en een nettoactief van [BEDRAG] EUR, in het kader van de omzetting van [de 
+Vennootschap/de VZW/de IVZW/de Stichting].
+
+Wij hebben onze beoordeling uitgevoerd overeenkomstig de norm inzake de opdracht van de 
+beroepsbeoefenaar bij de omzetting van een rechtsvorm.
+
+Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er geen elementen zijn waaruit 
+blijkt dat het nettoactief, zoals dat blijkt uit de staat van activa en passiva, opgemaakt door het
+
+6 Aan te passen naargelang van het geval (cf. artikelen 14:45 en 14:50 WVV). 
+7 Aan te passen naargelang van het geval. 
+8 Aan te passen naar gelang het geval.
+
+bestuursorgaan van [de Vennootschap/de VZW/de IVZW/de Stichting], in alle van materieel belang 
+zijnde opzichten, overgewaardeerd is.
+
+Onder nettoactief wordt verstaan: het totaalbedrag van de activa, verminderd met de voorzieningen, 
+de schulden en, behoudens in uitzonderlijke gevallen te vermelden en te motiveren in de toelichting 
+bij de jaarrekening, de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten 
+en de kosten voor onderzoek en ontwikkeling.
+
+Een dergelijke beoordeling bestaat uit het verzoeken om inlichtingen, in hoofdzaak bij de financiële 
+en administratieve verantwoordelijke personen, alsmede uit het uitvoeren van cijferanalyses en 
+andere beoordelingswerkzaamheden. De reikwijdte van een beoordeling is aanzienlijk geringer dan 
+die van een overeenkomstig de internationale controlestandaarden (ISA’s, International Standards 
+on Auditing) uitgevoerde controle. Om die reden stelt de beoordeling ons niet in staat de zekerheid 
+te verkrijgen dat wij kennis zullen krijgen van alle aangelegenheden van materieel belang die naar 
+aanleiding van een controle mogelijk worden onderkend.Wij zijn van mening dat de door ons 
+verkregen onderbouwende informatie voldoende en geschikt is als basis voor onze conclusie.
+
+
+## Beperking van het gebruik van ons verslag
+
+Dit verslag werd enkel opgesteld in uitvoering van artikel [XX] van het Wetboek van 
+vennootschappen en verenigingen in het kader van de omzetting van een [rechtsvorm] naar een 
+[rechtsvorm] zoals hierboven beschreven, en mag niet worden gebruikt voor andere doeleinden.
+
+[plaats en datum]
+
+[Benaming van het kantoor van de beroepsbeoefenaar XYZ] 
+[Commissaris] 
+Vertegenwoordigd door 
+[Naam] 
+[Bedrijfsrevisor/ Gecertificeerd accountant]
+
+Handtekening
+
+Bijlagen bij het verslag 
+ 
+[Ondertekende staat van activa en passiva, met inbegrip van de waarderingsregels en het verslag van het 
+bestuursorgaan]
+
+3.2. Verslag aan de buitengewone algemene vergadering van [rechtsvorm] [X] betreffende de 
+beoordeling van de staat van activa en passiva in het kader van de nationale omzetting van 
+[rechtsvorm kapitaalloze vennootschap] [X] naar [rechtsvorm kapitaalhoudende entiteit (9)] [Y]
+
+Overeenkomstig artikel [XX] van het Wetboek van vennootschappen en verenigingen brengen wij in onze 
+hoedanigheid van [commissaris] [bedrijfsrevisor / gecertificeerd accountant] het verslag uit gericht aan 
+de (buitengewone) algemene vergadering van de [om te zetten vennootschap X] over de staat van activa 
+en passiva in het kader van de nationale omzetting van [rechtsvorm kapitaalloze vennootschap] [X] naar 
+[rechtsvorm kapitaalhoudende entiteit [7]] [Y]. 
+ 
+Wij werden voor deze opdracht door het bestuursorgaan [of ingeval van een vennootschap onder firma 
+en een commanditaire vennootschap door de algemene vergadering (art. 14:4 WW) ] aangesteld op 
+datum van XX en hebben de beoordeling uitgevoerd van de hierbij gevoegde staat van activa en passiva 
+per xx/xx/xx van de [rechtsvorm kapitaalloze vennootschap, [X (10)] (hierna: “de Vennootschap”) 
+opgesteld in overeenstemming met het van toepassing zijnde boekhoudkundig referentiestelsel.  
+ 
+[Beschrijving van de context van de tussenkomst in algemene bewoordingen]
+
+Conclusie
+
+Op grond van de beoordeling is niets onder onze aandacht gekomen dat ons ertoe aanzet van 
+mening te zijn dat de staat van activa en passiva, in alle van materieel belang zijnde opzichten, niet 
+is opgesteld in overeenstemming met het boekhoudkundige referentiestelsel en dat het nettoactief, 
+vastgesteld in de door het bestuursorgaan opgestelde staat van activa en passiva, in alle van 
+materieel belang zijnde opzichten, overgewaardeerd is.
+
+Indien van toepassing: Het nettoactief van de Vennootschap is kleiner dan het in de staat van activa 
+en passiva opgenomen onbeschikbaar eigen vermogen.
+
+
+## Basis voor de conclusie
+
+Wij hebben onze opdracht uitgevoerd overeenkomstig de norm d.d. XX inzake de opdracht van de 
+beroepsbeoefenaar bij de omzetting van een entiteit.
+
+Onze verantwoordelijkheden op grond van deze norm staan beschreven in de sectie 
+“Verantwoordelijkheden van de [commissaris] [bedrijfsrevisor / gecertificeerd accountant]”. 
+De staat van activa en passiva is opgesteld door het bestuursorgaan. Deze is afgesloten op een 
+datum die niet meer dan drie maanden voorafgaat aan de algemene vergadering die zich moet 
+uitspreken over het omzettingsvoorstel.
+
+De waarde die door het bestuursorgaan aan het nettoactief werd weerhouden is de volgende: […]. 
+Deze is [niet] overgewaardeerd.Wij hebben de relevante deontologische vereisten die van 
+toepassing zijn op de opdracht nageleefd.
+
+Wij zijn van mening dat de door ons verkregen onderbouwende informatie voldoende en geschikt is 
+als basis voor onze conclusie.
+
+
+## Benadrukking van een bepaalde aangelegenheid [van bepaalde aangelegenheden]
+
+[Indien van toepassing]
+
+9 In geval van een (I)VZW of een stichting gaat het om fondsen (art. 3:171, §2, I. KB 29 april 2019). 
+10 Vermelden van de benaming, de zetel, het KBO, enz. (zie par. 71 (c)(a) van de norm).
+
+
+## Overige aangelegenheid
+
+[Mogelijke situatie waarin een paragraaf inzake overige aangelegenheden als nuttig kan worden 
+geacht (zie par. A60): De wettelijke termijnen inzake het voorleggen van het verslag van het 
+bestuursorgaan en van ons verslag konden niet gerespecteerd worden. Wij zijn evenwel in staat 
+geweest om de nodige werkzaamheden uit te voeren.]
+
+
+## Verantwoordelijkheden van het bestuursorgaan
+
+Van Het bestuursorgaan is verantwoordelijk voor het opstellen van de staat van activa en passiva 
+per xx/xx/xx in overeenstemming met het in België van toepassing zijnde boekhoudkundig 
+referentiestelsel volgens de principes van artikel 3:1, § 1, eerste lid WVV, voor het berekenen van 
+het nettoactief, alsook voor de naleving van de door het WVV vereiste voorwaarden die op de 
+omzetting van toepassing zijn.
+
+[Indien van toepassing: Overeenkomstig artikel 14:12 van het Wetboek van vennootschappen en 
+verenigingen inzake de eventuele aansprakelijkheid bij omzetting, is het bestuursorgaan [zijn de 
+vennoten van een vennootschap onder firma, de gecommanditeerde vennoten van een 
+commanditaire vennootschap en de leden van het bestuursorgaan] van de om te zetten 
+vennootschap, niettegenstaande enig andersluidend beding, jegens de betrokkenen hoofdelijk 
+gehouden (i) tot betaling van het eventuele verschil tussen het nettoactief van de vennootschap ná 
+omzetting en het bij het Wetboek van vennootschappen voorgeschreven minimumbedrag van het 
+kapitaal, (ii) voor de overwaardering van het netto-actief zoals blijkt uit de staat van activa en 
+passiva en (iii) tot vergoeding van de schade die het onmiddellijke en rechtstreekse gevolg is, hetzij 
+van de nietigheid van de omzettingsverrichting wegens de niet-naleving van de regels bepaald in 
+de artikelen 5:13, 2° tot 4° (11) of artikel 14:10, eerste lid, van het Wetboek van vennootschappen en 
+verenigingen, hetzij wegens het ontbreken of de onjuistheid van de vermeldingen voorgeschreven 
+in de artikelen 5:12, eerste lid, met uitzondering van het 5° en het 8° (12) en 14:10, tweede lid, van 
+het Wetboek van vennootschappen en verenigingen.]
+
+De 
+beoordeling 
+van 
+de 
+staat 
+van 
+activa 
+en 
+passiva 
+door 
+[de 
+commissaris/de 
+bedrijfsrevisor/gecertificeerd accountant] ontslaat noch het bestuursorgaan, noch de voor 
+financiën en administratie verantwoordelijke personen van hun verantwoordelijkheden.
+
+Verantwoordelijkheden van de [commissaris] [bedrijfsrevisor / gecertificeerd accountant]
+
+Onze verantwoordelijkheid bestaat erin een conclusie met beperkte mate van zekerheid tot 
+uitdrukking te brengen over de aan ons voorgelegde staat van activa en passiva van de 
+Vennootschap, afgesloten op [DATUM] met een balanstotaal van [BEDRAG] EUR en een nettoactief 
+van [BEDRAG] EUR, in het kader van de omzetting van de Vennootschap.
+
+Wij hebben onze beoordeling uitgevoerd overeenkomstig de norm inzake de opdracht van de 
+beroepsbeoefenaar bij de omzetting van een rechtsvorm.
+
+Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er geen elementen zijn waaruit 
+blijkt dat het nettoactief, zoals dat blijkt uit de staat van activa en passiva, opgemaakt door het 
+bestuursorgaan van de Vennootschap, in alle van materieel belang zijnde opzichten, 
+overgewaardeerd is.
+
+Onder nettoactief wordt verstaan: het totaalbedrag van de activa, verminderd met de voorzieningen, 
+de schulden en, behoudens in uitzonderlijke gevallen te vermelden en te motiveren in de toelichting 
+bij de jaarrekening, de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten 
+en de kosten voor onderzoek en ontwikkeling.
+
+11 Aan te passen naar gelang het geval (BV: artikel 5:13, 2° tot 4° ; CV: 6:14, 2° tot 4). 
+12 Aan te passen naar gelang het geval (BV: artikel 5:12, eerste lid, met uitzondering van het 5° en het 8° ; CV: 6:13, 
+eerste lid, met uitzondering van het 5° en het 8°).
+
+Een dergelijke beoordeling bestaat uit het verzoeken om inlichtingen, in hoofdzaak bij de financiële 
+en administratieve verantwoordelijke personen, alsmede uit het uitvoeren van cijferanalyses en 
+andere beoordelingswerkzaamheden. De reikwijdte van een beoordeling is aanzienlijk geringer dan 
+die van een overeenkomstig de internationale controlestandaarden (ISA’s, International Standards 
+on Auditing) uitgevoerde controle. Om die reden stelt de beoordeling ons niet in staat de zekerheid 
+te verkrijgen dat wij kennis zullen krijgen van alle aangelegenheden van materieel belang die naar 
+aanleiding van een controle mogelijk worden onderkend.Wij zijn van mening dat de door ons 
+verkregen onderbouwende informatie voldoende en geschikt is als basis voor onze conclusie.
+
+
+## Beperking van het gebruik van ons verslag
+
+Dit verslag werd enkel opgesteld in uitvoering van artikel [XX] van het Wetboek van 
+vennootschappen en verenigingen in het kader van de omzetting van een [rechtsvorm] naar een 
+[rechtsvorm] zoals hierboven beschreven, en mag niet worden gebruikt voor andere doeleinden.
+
+[plaats en datum]
+
+[Benaming van het kantoor van de beroepsbeoefenaar XYZ] 
+[Commissaris] 
+Vertegenwoordigd door 
+[Naam] 
+[Bedrijfsrevisor/ Gecertificeerd accountant]
+
+Handtekening
+
+Bijlagen bij het verslag 
+ 
+[Ondertekende staat van activa en passiva, met inbegrip van de waarderingsregels en het verslag van het 
+bestuursorgaan]
+
+3.3. Verslag aan de buitengewone algemene vergadering (13) van [rechtsvorm] [X] betreffende 
+de beoordeling van de staat van activa en passiva in het kader van de nationale omzetting van 
+een [rechtsvorm kapitaalhoudende entiteit (14)] naar een [rechtsvorm kapitaalhoudende 
+entiteit]
+
+Overeenkomstig artikel [XX] van het Wetboek van vennootschappen en verenigingen brengen wij in onze 
+hoedanigheid van [commissaris] [bedrijfsrevisor / gecertificeerd accountant] het verslag uit gericht aan 
+de (buitengewone) algemene vergadering  van de [om te zetten entiteit [X]] over de staat van activa en 
+passiva in het kader van de nationale omzetting van [rechtsvorm kapitaalhoudende entiteit] [X] naar 
+[rechtsvorm kapitaalhoudende entiteit] [Y]. 
+ 
+Wij werden voor deze opdracht door het bestuursorgaan aangesteld op datum van XX en hebben de 
+beoordeling uitgevoerd van de hierbij gevoegde staat van activa en passiva per xx/xx/xx van de 
+[rechtsvorm kapitaalhoudende entiteit , [X (15)] (hierna: “de Vennootschap/de VZW/de IVZW/de 
+Stichting”] opgesteld in overeenstemming met het van toepassing zijnde boekhoudkundig 
+referentiestelsel.  
+ 
+[Beschrijving van de context van de tussenkomst in algemene bewoordingen]
+
+Conclusie
+
+Op grond van de beoordeling is niets onder onze aandacht gekomen dat ons ertoe aanzet van 
+mening te zijn dat de staat van activa en passiva, in alle van materieel belang zijnde aspecten, niet 
+is opgesteld in overeenstemming met het boekhoudkundige referentiestelsel en dat het nettoactief, 
+vastgesteld in de door het bestuursorgaan opgestelde staat van activa en passiva, in alle van 
+materieel belang zijnde opzichten, overgewaardeerd is.
+
+Indien van toepassing: Het nettoactief van de Vennootschap is kleiner dan het in de staat van activa 
+en passiva opgenomen kapitaal, vermeerderd met alle reserves die krachtens de wet of de statuten 
+niet mogen worden uitgekeerd. Het verschil bedraagt [BEDRAG] EUR.
+
+
+## Basis voor de conclusie
+
+Wij hebben onze opdracht uitgevoerd overeenkomstig de norm d.d. XX inzake de opdracht van de 
+beroepsbeoefenaar bij de omzetting van een entiteit.
+
+Onze verantwoordelijkheden op grond van deze norm staan beschreven in de sectie 
+“Verantwoordelijkheden van de [commissaris] [bedrijfsrevisor / gecertificeerd accountant]”. 
+ 
+De staat van activa en passiva is opgesteld door het bestuursorgaan. Deze is afgesloten op een 
+datum die niet meer dan drie maanden voorafgaat aan de algemene vergadering die zich moet 
+uitspreken over het omzettingsvoorstel.
+
+De waarde die door het bestuursorgaan aan het nettoactief werd weerhouden is de volgende: […]. 
+Deze is [niet] overgewaardeerd..
+
+Wij hebben de relevante deontologische vereisten die van toepassing zijn op de opdracht nageleefd.
+
+13 Het bestuursorgaan in geval van een stichting. 
+14 In geval van een (I)VZW of een stichting gaat het om fondsen (art. 3:171, §2, I. KB 29 april 2019). 
+15 Vermelden van de benaming, de zetel, het KBO, enz. (zie par. 71 (c)(a) van de norm).
+
+Wij zijn van mening dat de door ons verkregen onderbouwende informatie voldoende en geschikt is 
+als basis voor onze conclusie.
+
+
+## Benadrukking van een bepaalde aangelegenheid [van bepaalde aangelegenheden]
+
+[Indien van toepassing]
+
+
+## Overige aangelegenheid
+
+[Mogelijke situatie waarin een paragraaf inzake overige aangelegenheden als nuttig kan worden 
+geacht (zie par. A60): De wettelijke termijnen inzake het voorleggen van het verslag van het 
+bestuursorgaan en van ons verslag konden niet gerespecteerd worden. Wij zijn evenwel in staat 
+geweest om de nodige werkzaamheden uit te voeren.]
+
+
+## Verantwoordelijkheden van het bestuursorgaan
+
+Het bestuursorgaan is verantwoordelijk voor het opstellen van de staat van activa en passiva per 
+xx/xx/xx in overeenstemming met het in België van toepassing zijnde boekhoudkundig 
+referentiestelsel volgens de principes van artikel 3:1, § 1, eerste lid WVV, voor het berekenen van 
+het nettoactief,  alsookvoor de naleving van de door het WVV vereiste voorwaarden die op de 
+omzetting van toepassing zijn.
+
+[Indien van toepassing: Overeenkomstig artikel 14:12 (16) van het Wetboek van vennootschappen en 
+verenigingen inzake de eventuele aansprakelijkheid bij omzetting, is het bestuursorgaan van de om 
+te zetten vennootschap, niettegenstaande enig andersluidend beding, jegens de betrokkenen 
+hoofdelijk gehouden (i) tot betaling van het eventuele verschil tussen het nettoactief van de 
+vennootschap ná omzetting en het bij het Wetboek van vennootschappen voorgeschreven 
+minimumbedrag van het maatschappelijk kapitaal, (ii) voor de overwaardering van het netto-actief 
+zoals blijkt uit de staat van activa en passiva en (iii) tot vergoeding van de schade die het 
+onmiddellijke en rechtstreekse gevolg is, hetzij van de nietigheid van de omzettingsverrichting 
+wegens de niet-naleving van de regels bepaald in de artikelen 7:15, 2° tot 4° (17) of artikel 14:10, 
+eerste lid, van het Wetboek van vennootschappen en verenigingen, hetzij wegens het ontbreken of 
+de onjuistheid van de vermeldingen voorgeschreven in de artikelen 7:14, met uitzondering van het 
+7° en de punten 10° tot 12° (18) en 14:10, tweede lid, van het Wetboek van vennootschappen en 
+verenigingen.]De beoordeling van de staat van activa en passiva door [de commissaris/de 
+bedrijfsrevisor/gecertificeerd accountant] ontslaat noch het bestuursorgaan, noch de voor 
+financiën en administratie verantwoordelijke personen van hun verantwoordelijkheden.
+
+Verantwoordelijkheden van de [commissaris] [bedrijfsrevisor / gecertificeerd accountant]
+
+Onze verantwoordelijkheid bestaat erin een conclusie met beperkte mate van zekerheid tot 
+uitdrukking te brengen over de aan ons voorgelegde staat van activa en passiva van [de 
+Vennootschap/de VZW/de IVZW/de Stichting], afgesloten op [DATUM] met een balanstotaal van 
+[BEDRAG] EUR en een nettoactief van [BEDRAG] EUR, in het kader van de omzetting van [de 
+Vennootschap/de VZW/de IVZW/de Stichting].
+
+Wij hebben onze beoordeling uitgevoerd overeenkomstig de norm inzake de opdracht van de 
+beroepsbeoefenaar bij de omzetting van een rechtsvorm.
+
+Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er geen elementen zijn waaruit 
+blijkt dat het nettoactief, zoals dat blijkt uit de staat van activa en passiva, opgemaakt door het
+
+16 Aan te passen naargelang van het geval (cf. artikelen 14:45 en 14:50 WVV). 
+17 Aan te passen naargelang van het geval. 
+18 Aan te passen naar gelang het geval.
+
+bestuursorgaan van [de Vennootschap/de VZW/de IVZW/de Stichting], in alle van materieel belang 
+zijnde opzichten, overgewaardeerd is.
+
+Onder nettoactief wordt verstaan: het totaalbedrag van de activa, verminderd met de voorzieningen, 
+de schulden en, behoudens in uitzonderlijke gevallen te vermelden en te motiveren in de toelichting 
+bij de jaarrekening, de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten 
+en de kosten voor onderzoek en ontwikkeling.
+
+Een dergelijke beoordeling bestaat uit het verzoeken om inlichtingen, in hoofdzaak bij de financiële 
+en administratieve verantwoordelijke personen, alsmede uit het uitvoeren van cijferanalyses en 
+andere beoordelingswerkzaamheden. De reikwijdte van een beoordeling is aanzienlijk geringer dan 
+die van een overeenkomstig de internationale controlestandaarden (ISA’s, International Standards 
+on Auditing) uitgevoerde controle. Om die reden stelt de beoordeling ons niet in staat de zekerheid 
+te verkrijgen dat wij kennis zullen krijgen van alle aangelegenheden van materieel belang die naar 
+aanleiding van een controle mogelijk worden onderkend.Wij zijn van mening dat de door ons 
+verkregen onderbouwende informatie voldoende en geschikt is als basis voor onze conclusie.
+
+
+## Beperking van het gebruik van ons verslag
+
+Dit verslag werd enkel opgesteld in uitvoering van artikel [XX] van het Wetboek van 
+vennootschappen en verenigingen in het kader van de omzetting van een [rechtsvorm] naar een 
+[rechtsvorm] zoals hierboven beschreven, en mag niet worden gebruikt voor andere doeleinden.
+
+[plaats en datum]
+
+[Benaming van het kantoor van de beroepsbeoefenaar XYZ] 
+[Commissaris] 
+Vertegenwoordigd door 
+[Naam] 
+[Bedrijfsrevisor/ Gecertificeerd accountant]
+
+Handtekening
+
+Bijlagen bij het verslag 
+ 
+[Ondertekende staat van activa en passiva, met inbegrip van de waarderingsregels en het verslag van het 
+bestuursorgaan]
+
+3.4. Verslag aan de buitengewone algemene vergadering van [rechtsvorm ] [X] betreffende de 
+beoordeling van de staat van activa en passiva in het kader van de nationale omzetting van 
+een [rechtsvorm kapitaalloze vennootschap] naar een [rechtsvorm kapitaalloze vennootschap] 
+[Y]
+
+Overeenkomstig artikel [XX] van het Wetboek van vennootschappen en verenigingen brengen wij in onze 
+hoedanigheid van [commissaris] [bedrijfsrevisor / gecertificeerd accountant] het verslag uit gericht aan 
+de (buitengewone) algemene vergadering van de [om te zetten vennootschap [X]] over de staat van 
+activa en passiva in het kader van de nationale omzetting van [rechtsvorm kapitaalloze vennootschap] 
+[X] naar [rechtsvorm kapitaalloze vennootschap] [Y]. 
+ 
+Wij werden voor deze opdracht door het bestuursorgaan [of ingeval van een vennootschap onder firma 
+en een commanditaire vennootschap door de algemene vergadering (art. 14:4 WW)] aangesteld op 
+datum van XX en hebben de beoordeling uitgevoerd van de hierbij gevoegde staat van activa en passiva 
+per xx/xx/xx van de [rechtsvorm kapitaalloze vennootschap, [X (19)] (hierna: “de Vennootschap”] 
+opgesteld in overeenstemming met het van toepassing zijnde boekhoudkundig referentiestelsel.  
+ 
+[Beschrijving van de context van de tussenkomst in algemene bewoordingen]
+
+Conclusie
+
+Op grond van de beoordeling is niets onder onze aandacht gekomen dat ons ertoe aanzet van 
+mening te zijn dat de staat van activa en passiva, in alle van materieel belang zijnde aspecten, niet 
+is opgesteld in overeenstemming met het boekhoudkundige referentiestelsel en dat het nettoactief, 
+vastgesteld in de door het bestuursorgaan opgestelde staat van activa en passiva, in alle van 
+materieel belang zijnde opzichten, overgewaardeerd is.
+
+
+## Basis voor de conclusie
+
+Wij hebben onze opdracht uitgevoerd overeenkomstig de norm d.d. XX inzake de opdracht van de 
+beroepsbeoefenaar bij de omzetting van een entiteit.
+
+Onze verantwoordelijkheden op grond van deze norm staan beschreven in de sectie 
+“Verantwoordelijkheden van de [commissaris] [bedrijfsrevisor / gecertificeerd accountant]”. 
+ 
+De staat van activa en passiva is opgesteld door het bestuursorgaan. Deze is afgesloten op een 
+datum die niet meer dan drie maanden voorafgaat aan de algemene vergadering die zich moet 
+uitspreken over het omzettingsvoorstel.
+
+De waarde die door het bestuursorgaan aan het nettoactief werd weerhouden is de volgende: […]. 
+Deze is [niet] overgewaardeerd.
+
+Wij hebben de relevante deontologische vereisten die van toepassing zijn op de opdracht nageleefd.
+
+Wij zijn van mening dat de door ons verkregen onderbouwende informatie voldoende en geschikt is 
+als basis voor onze conclusie.
+
+
+## Benadrukking van een bepaalde aangelegenheid [van bepaalde aangelegenheden]
+
+[Indien van toepassing]
+
+19 Vermelden van de benaming, de zetel, het KBO, enz. (zie par. 71 (c)(a) van de norm).
+
+
+## Overige aangelegenheid
+
+[Mogelijke situatie waarin een paragraaf inzake overige aangelegenheden als nuttig kan worden 
+geacht (zie par. A60): De wettelijke termijnen inzake het voorleggen van het verslag van het 
+bestuursorgaan en van ons verslag konden niet gerespecteerd worden. Wij zijn evenwel in staat 
+geweest om de nodige werkzaamheden uit te voeren.]
+
+
+## Verantwoordelijkheden van het bestuursorgaan
+
+Het bestuursorgaan is verantwoordelijk voor het opstellen van de staat van activa en passiva per 
+xx/xx/xx in overeenstemming met het in België van toepassing zijnde boekhoudkundig 
+referentiestelsel volgens de principes van artikel 3:1, § 1, eerste lid WVV, voor het berekenen van 
+het nettoactief, alsook voor de naleving van de door het WVV vereiste voorwaarden die op de 
+omzetting van toepassing zijn.
+
+[Indien van toepassing: Overeenkomstig artikel 14:12 van het Wetboek van vennootschappen en 
+verenigingen inzake de eventuele aansprakelijkheid bij omzetting, is het bestuursorgaan [zijn de 
+vennoten van een vennootschap onder firma, de gecommanditeerde vennoten van een 
+commanditaire vennootschop en de leden van het bestuursorgaan] van de om te zetten 
+vennootschap, niettegenstaande enig andersluidend beding, jegens de betrokkenen hoofdelijk 
+gehouden (i)  voor de overwaardering van het netto-actief zoals blijkt uit de staat van activa en 
+passiva en (ii) tot vergoeding van de schade die het onmiddellijke en rechtstreekse gevolg is, hetzij 
+van de nietigheid van de omzettingsverrichting wegens de niet-naleving van de regels bepaald in 
+de artikelen 5:13, 2° tot 4° (20) of artikel 14:10, eerste lid, van het Wetboek van vennootschappen en 
+verenigingen, hetzij wegens het ontbreken of de onjuistheid van de vermeldingen voorgeschreven 
+in de artikelen 5:12, eerste lid, met uitzondering van het 5° en het 8° (21) en 14:10, tweede lid, van 
+het Wetboek van vennootschappen en verenigingen.]
+
+De 
+beoordeling 
+van 
+de 
+staat 
+van 
+activa 
+en 
+passiva 
+door 
+[de 
+commissaris/de 
+bedrijfsrevisor/gecertificeerd accountant] ontslaat noch het bestuursorgaan, noch de voor 
+financiën en administratie verantwoordelijke personen van hun verantwoordelijkheden.
+
+Verantwoordelijkheden van de [commissaris] [bedrijfsrevisor / gecertificeerd accountant]
+
+Onze verantwoordelijkheid bestaat erin een conclusie met beperkte mate van zekerheid tot 
+uitdrukking te brengen over de aan ons voorgelegde staat van activa en passiva van de 
+Vennootschap, afgesloten op [DATUM] met een balanstotaal van [BEDRAG] EUR en een nettoactief 
+van [BEDRAG] EUR, in het kader van de omzetting van de Vennootschap.
+
+Wij hebben onze beoordeling uitgevoerd overeenkomstig de norm inzake de opdracht van de 
+beroepsbeoefenaar bij de omzetting van een rechtsvorm.
+
+Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er geen elementen zijn waaruit 
+blijkt dat het nettoactief, zoals dat blijkt uit de staat van activa en passiva, opgemaakt door het 
+bestuursorgaan van de Vennootschap, in alle van materieel belang zijnde opzichten, 
+overgewaardeerd is.
+
+Onder nettoactief wordt verstaan: het totaalbedrag van de activa, verminderd met de voorzieningen, 
+de schulden en, behoudens in uitzonderlijke gevallen te vermelden en te motiveren in de toelichting 
+bij de jaarrekening, de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten 
+en de kosten voor onderzoek en ontwikkeling.
+
+Onze opdracht bestaat uit het verzoeken om inlichtingen, in hoofdzaak bij de voor financiën en 
+administratie verantwoordelijke personen, alsmede uit het uitvoeren van cijferanalyses en andere
+
+20 Aan te passen naar gelang het geval (BV: artikel 5:13, 2° tot 4° ; CV: 6:14, 2° tot 4). 
+21 Aan te passen naar gelang het geval (BV: artikel 5:12, eerste lid, met uitzondering van het 5° en het 8° ; CV: 6:13, 
+eerste lid, met uitzondering van het 5° en het 8°).
+
+beoordelingswerkzaamheden. De reikwijdte van onze opdracht is aanzienlijk geringer dan die van 
+een controle met het oog op het bekomen van een redelijke mate zekerheid. Om die reden stelt de 
+beoordeling ons niet in staat de zekerheid te verkrijgen dat wij kennis zullen krijgen van alle 
+aangelegenheden van materieel belang die naar aanleiding van een controleopdracht mogelijk 
+worden onderkend. Bijgevolg brengen wij geen controleoordeel tot uitdrukking.
+
+Wij zijn van mening dat de door ons verkregen onderbouwende informatie voldoende en geschikt 
+is als basis voor onze conclusie.
+
+
+## Beperking van het gebruik van ons verslag
+
+Dit verslag werd enkel opgesteld in uitvoering van artikel [XX] van het Wetboek van 
+vennootschappen en verenigingen in het kader van de omzetting van een [rechtsvorm] naar een 
+[rechtsvorm] zoals hierboven beschreven, en mag niet worden gebruikt voor andere doeleinden.
+
+[plaats en datum]
+
+[Benaming van het kantoor van de beroepsbeoefenaar XYZ] 
+[Commissaris] 
+Vertegenwoordigd door 
+[Naam] 
+[Bedrijfsrevisor/ Gecertificeerd accountant]
+
+Handtekening
+
+Bijlagen bij het verslag 
+ 
+[Ondertekende staat van activa en passiva, met inbegrip van de waarderingsregels en het verslag van het 
+bestuursorgaan]
+
+3.5. Verslag aan de buitengewone algemene vergadering (22) van [rechtsvorm] [X] betreffende 
+de beoordeling van de staat van activa en passiva in het kader van de grensoverschrijdende 
+omzetting van een [rechtsvorm entiteit A (23)] naar een [rechtsvorm entiteit B]24
+
+Overeenkomstig artikel 14:21 van het Wetboek van vennootschappen en verenigingen brengen wij in 
+onze hoedanigheid van [commissaris] [bedrijfsrevisor / gecertificeerd accountant] het verslag uit gericht 
+aan de (buitengewone) algemene vergadering van de [om te zetten entiteit [X]] over de staat van activa 
+en passiva en over de geldelijke vergoeding in het kader van de grensoverschrijdende omzetting van 
+[rechtsvorm entiteit A] [X] naar [rechtsvorm entiteit B] [Y]. 
+ 
+Wij werden voor deze opdracht door het bestuursorgaan aangesteld op datum van XX en hebben de 
+beoordeling uitgevoerd van de hierbij gevoegde staat van activa en passiva per xx/xx/xx van de 
+[rechtsvorm kapitaalhoudende entiteit, [X (25)] (hierna: “de Vennootschap/de VZW/de IVZW/de 
+Stichting”] opgesteld in overeenstemming met het van toepassing zijnde boekhoudkundig 
+referentiestelsel.  
+ 
+[Beschrijving van de context van de tussenkomst in algemene bewoordingen]
+
+Conclusie met beperkte mate van zekerheid betreffende de staat van activa en passiva
+
+Op grond van de beoordeling is niets onder onze aandacht gekomen dat ons ertoe aanzet van 
+mening te zijn dat de staat van activa en passiva, in alle van materieel belang zijnde aspecten, niet 
+is opgesteld in overeenstemming met het boekhoudkundige referentiestelsel en dat het nettoactief, 
+vastgesteld in de door het bestuursorgaan opgestelde staat van activa en passiva, in alle van 
+materieel belang zijnde opzichten, overgewaardeerd is.
+
+Indien van toepassing: Het nettoactief van de entiteit is kleiner dan het in de staat van activa en 
+passiva opgenomen kapitaal, vermeerderd met alle reserves die krachtens de wet of de statuten 
+niet mogen worden uitgekeerd. Het verschil bedraagt [BEDRAG] EUR.
+
+Conclusie met beperkte mate van zekerheid betreffende de geldelijke vergoeding 
+ 
+Op basis van onze werkzaamheden, is niets onder onze aandacht gekomen dat ons ertoe aanzet van 
+mening te zijn dat:
+
+• 
+de gebruikte waarderingsmethoden door het bestuursorgaan, zoals aangenomen in het 
+omzettingsvoorstel, in alle van materieel belang zijnde opzichten, niet passend zijn;  
+• 
+het betrekkelijke gewicht dat bij de vaststelling van de in aanmerking genomen waarde aan deze 
+methoden is gehecht, in alle van materieel belang zijnde opzichten, niet relevant en redelijk is. 
+• 
+de geldelijke vergoeding voor houders van aandelen [en/of winstbewijzen], in alle van materieel 
+belang zijnde opzichten, niet relevant en redelijk is; 
+ 
+Basis voor de conclusie betreffende de staat van activa en passiva en betreffende de geldelijke 
+vergoeding
+
+Wij hebben onze opdracht uitgevoerd overeenkomstig de norm d.d. XX inzake de opdracht van de 
+beroepsbeoefenaar bij de omzetting van een entiteit.
+
+22 Het bestuursorgaan in geval van een stichting. 
+23 In geval van een (I)VZW of een stichting gaat het om fondsen (art. 3:171, § 2, I. KB 29 april 2019). 
+24 Het modelverslag dient te worden aangepast op basis van de betrokken entiteiten.  
+25 Vermelden van de benaming, de zetel, het KBO, enz. (zie par. 71(c)(a) van de norm).
+
+Onze verantwoordelijkheden op grond van deze norm staan beschreven in de sectie 
+“Verantwoordelijkheden van de [commissaris] [bedrijfsrevisor / gecertificeerd accountant]”.
+
+De staat van activa en passiva is opgesteld door het bestuursorgaan. Deze is afgesloten op een 
+datum die niet meer dan vier maanden voorafgaat aan de algemene vergadering die zich moet 
+uitspreken over het omzettingsvoorstel.
+
+De waarde die door het bestuursorgaan aan het nettoactief werd weerhouden is de volgende: […]. 
+Deze is [niet] overgewaardeerd.
+
+De waarde die bepaald is door het bestuursorgaan ter vergoeding van de houders van aandelen [of 
+van winstbewijzen] bedraagt [..] per aandeel [of per winstbewijs] en de waarderingsmethoden 
+volgens dewelke deze waarde is vastgesteld zijn: […]. 
+ 
+Wij hebben de relevante deontologische vereisten die van toepassing zijn op de opdracht nageleefd.
+
+Wij zijn van mening dat de door ons verkregen onderbouwende informatie voldoende en geschikt is 
+als basis voor onze conclusie.
+
+
+## Benadrukking van een bepaalde aangelegenheid [van bepaalde aangelegenheden]
+
+[Indien van toepassing]
+
+
+## Overige aangelegenheid
+
+[Mogelijke situatie waarin een paragraaf inzake overige aangelegenheden als nuttig kan worden 
+geacht (zie par. A60): De wettelijke termijnen inzake het voorleggen van het verslag van het 
+bestuursorgaan en van ons verslag konden niet gerespecteerd worden. Wij zijn evenwel in staat 
+geweest om de nodige werkzaamheden uit te voeren.]
+
+
+## Verantwoordelijkheden van het bestuursorgaan
+
+Het bestuursorgaan is verantwoordelijk voor het opstellen van de staat van activa en passiva per 
+xx/xx/xx in overeenstemming met het in België van toepassing zijnde boekhoudkundig 
+referentiestelsel volgens de principes van artikel 3:1, § 1, eerste lid WVV, voor het berekenen van 
+het nettoactief, alsook voor de naleving van de door het WVV vereiste voorwaarden die op de 
+omzetting van toepassing zijn.
+
+Bovendien dient het bestuursorgaan de methoden uiteen te zetten volgens dewelke de geldelijke 
+vergoeding is vastgesteld, het betrekkelijke gewicht dat aan deze methoden wordt gehecht, 
+alsmede de waardering waartoe elke methode leidt. Het is ook verantwoordelijk voor het ervoor 
+zorgen dat de voorgestelde geldelijke vergoeding relevant en redelijk is voor de houders van 
+aandelen [en/of winstbewijzen] die voldoen aan de wettelijke voorwaarden, met het oog op de 
+betaling van hun scheidingsaandeel.
+
+De 
+beoordeling 
+van 
+de 
+staat 
+van 
+activa 
+en 
+passiva 
+door 
+[de 
+commissaris/de 
+bedrijfsrevisor/gecertificeerd accountant] ontslaat noch het bestuursorgaan, noch de voor 
+financiën en administratie verantwoordelijke personen van hun verantwoordelijkheden.
+
+Verantwoordelijkheden van de [commissaris] [bedrijfsrevisor / gecertificeerd accountant]
+
+Onze verantwoordelijkheid bestaat erin een conclusie met beperkte mate van zekerheid tot 
+uitdrukking te brengen over  de aan ons voorgelegde staat van activa en passiva van [de
+
+Vennootschap/de VZW/de IVZW/de Stichting], afgesloten op [DATUM] met een balanstotaal van 
+[BEDRAG] EUR en een nettoactief van [BEDRAG] EUR, in het kader van de grensoverschrijdende 
+omzetting van [de Vennootschap/de VZW/de IVZW/de Stichting]
+
+Wij hebben onze beoordeling uitgevoerd overeenkomstig de norm inzake de opdracht van de 
+beroepsbeoefenaar bij de omzetting van een rechtsvorm.
+
+Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er geen elementen zijn waaruit 
+blijkt dat het nettoactief, zoals dat blijkt uit de staat van activa en passiva, opgemaakt door het 
+bestuursorgaan van [de Vennootschap/de VZW/de IVZW/de Stichting], in alle van materieel belang 
+zijnde opzichten, overgewaardeerd is.
+
+Onder nettoactief wordt verstaan: het totaalbedrag van de activa, verminderd met de voorzieningen, 
+de schulden en, behoudens in uitzonderlijke gevallen te vermelden en te motiveren in de toelichting 
+bij de jaarrekening, de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten 
+en de kosten voor onderzoek en ontwikkeling.
+
+Het is bovendien onze verantwoordelijkheid om een beperkte mate van zekerheid te verschaffen 
+over de geldelijke vergoeding voor de houders van aandelen [en/of winstbewijzen] als betaling van 
+hun scheidingsaandeel, zoals opgenomen in het omzettingsvoorstel, evenals over de geschiktheid 
+van de waarderingsmethoden. Een relevante en redelijke geldelijke vergoeding doelt op een 
+geldelijke vergoeding opgesteld volgens economisch aanvaarde waarderingsmethoden, dus 
+aangepast aan het voorwerp en aan de situatie. Een dergelijke beoordeling bestaat uit het 
+verzoeken om inlichtingen, in hoofdzaak bij de financiële en administratieve verantwoordelijke 
+personen, alsmede uit het uitvoeren van cijferanalyses en andere beoordelingswerkzaamheden. De 
+reikwijdte van een beoordeling is aanzienlijk geringer dan die van een overeenkomstig de 
+internationale controlestandaarden (ISA’s, International Standards on Auditing) uitgevoerde 
+controle. Om die reden stelt de beoordeling ons niet in staat de zekerheid te verkrijgen dat wij 
+kennis zullen krijgen van alle aangelegenheden van materieel belang die naar aanleiding van een 
+controle mogelijk worden onderkend.
+
+[Toe te voegen in geval van toekomstgerichte informatie: Aangezien de toekomstgerichte 
+financiële gegevens en de veronderstellingen waarop deze zijn gebaseerd betrekking hebben op 
+de toekomst en daarom beïnvloed kunnen worden door onvoorziene gebeurtenissen, kunnen wij 
+geen conclusie tot uitdrukking brengen over de vraag of de werkelijke resultaten die gerapporteerd 
+zullen worden, zullen overeenkomen met de resultaten die zullen worden opgenomen in de 
+toekomstige financiële informatie, en de afwijkingen zou van materieel belang kunnen zijn.
+
+Zelfs als de voorziene gebeurtenissen zich conform de vooropgestelde veronderstellingen 
+voordoen, zullen de werkelijke resultaten waarschijnlijk afwijken van de [prognose / projectie], 
+aangezien de veronderstelde gebeurtenissen zich veelal niet zullen voordoen zoals verwacht, en 
+de afwijking zou van materieel belang kunnen zijn.]
+
+Wij zijn van mening dat de door ons verkregen onderbouwende informatie voldoende en geschikt 
+is als basis voor onze conclusie.
+
+
+## Beperking van het gebruik van ons verslag
+
+Dit verslag werd enkel opgesteld in uitvoering van artikel 14:21 van het Wetboek van 
+vennootschappen en verenigingen in het kader van de grensoverschrijdende omzetting van een 
+[rechtsvorm] naar een [rechtsvorm] zoals hierboven beschreven, en mag niet worden gebruikt voor 
+andere doeleinden.
+
+[plaats en datum]
+
+[Benaming van het kantoor van de beroepsbeoefenaar XYZ] 
+[Commissaris] 
+Vertegenwoordigd door 
+[Naam]
+
+[Bedrijfsrevisor/ Gecertificeerd accountant]
+
+Handtekening
+
+Bijlagen bij het verslag 
+ 
+[Ondertekende staat van activa en passiva, met inbegrip van de waarderingsregels en het verslag van het 
+bestuursorgaan]

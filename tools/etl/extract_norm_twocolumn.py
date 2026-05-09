@@ -102,7 +102,12 @@ KNOWN_PDFS: dict[str, dict] = {
     },
     "ITAA-norm-omzetting-vennootschap.md": {
         "pdf": ROOT / "resources" / "raw" / "normen" / "itaa-norm-omzetting-vennootschap.pdf",
-        "type": "nl-singlecol",
+        # PDF heeft "VEREISTEN | TOEPASSINGSMODALITEITEN" twee-kolom structuur,
+        # niet single-column. Vorige `nl-singlecol`-config gaf 18 column-bleed-
+        # patronen door pdftotext-merge over kolommen heen.
+        "type": "vereisten",
+        "column_split": 400,
+        "full_width_threshold": 400,
     },
     "ITAA-norm-aww-reglement.md": {
         "pdf": ROOT / "resources" / "raw" / "normen" / "itaa-norm-aww-reglement.pdf",

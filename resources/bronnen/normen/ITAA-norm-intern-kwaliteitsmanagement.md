@@ -79,6 +79,7 @@ provenance:
       auto: false
       run_id: qa-batch-normen
 ---
+
 ## NORM ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT
 
 Inleiding RAAD VAN HET INSTITUUT VAN DE BELASTINGADVISEURS EN DE ACCOUNTANTS,
@@ -172,6 +173,7 @@ implementeren en in werking te stellen. Het kantoor dient daarbij rekening te
 
 van de opdrachten die hij uitvoert.
 
+
 ## Eindverantwoordelijke(n) voor het kwaliteitsmanagementsysteem
 
 2. Indien het kantoor bestaat uit een zelfstandige beroepsbeoefenaar, dan heeft
@@ -179,6 +181,7 @@ deze beroepsbeoefenaar deontologisch de eindverantwoordelijkheid en de verantwoo
 
 3. Indien het kantoor een erkende rechtspersoon is, dan dragen alle bestuurders
 – beroepsbeoefenaars – deontologisch de eindverantwoordelijkheid en de verantwoordingsplicht voor het vaststellen en onderhouden van het kwaliteitsmanagementsysteem.
+
 
 ## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP
 
@@ -267,6 +270,7 @@ mate van zekerheid geeft dat de beroepsbeoefenaars aan wie activiteiten of opdra
 
 voortzetten om hun beroepskennis en -bekwaamheid en hun beroepsethiek op voldoende peil te houden, in overeenstemming met de Wet en met de Norm Permanente Vorming.
 
+
 ## Aanvaarding van opdrachten Acceptation de missions
 
 11. Het kantoor richt zijn kwaliteitsmanagementsysteem zo in dat dit een redelijke mate van zekerheid geeft dat:
@@ -289,6 +293,7 @@ Beëindigen van cliëntenrelaties
 12. Het kantoor richt zijn kwaliteitsmanagementsysteem zo in dat dit een redelijke
 mate van zekerheid geeft dat alle boeken, documenten en elektronische of andere
 gegevens die toebehoren aan de cliënt onverwijld uit handen worden gegeven, wanneer deze erom verzoekt.
+
 
 ## Fin des relations clients
 
@@ -327,6 +332,7 @@ opzet, implementatie en werking van het kwaliteitsmanagementsysteem;
 (b) passende maatregelen te nemen om te reageren op geïdentificeerde
 
 tekortkomingen, zodat tekortkomingen tijdig worden geremedieerd en
+
 
 ## Documentatie Documentation
 

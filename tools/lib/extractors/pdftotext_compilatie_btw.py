@@ -43,6 +43,7 @@ import subprocess
 from pathlib import Path
 
 from tools.lib.compilatie_split import SplitConfig, split_btw_compilatie
+from tools.lib.inhoudstafel import strip_inhoudstafel
 
 ROOT = Path(__file__).resolve().parents[3]
 
@@ -72,7 +73,7 @@ _BODY_NOISE = [
 ]
 
 
-# ─── TOC + heading-normalisatie patronen (per-split body-cleanup) ──────────
+# ─── Heading-normalisatie patronen (per-split body-cleanup) ────────────────
 
 _AFDELING_WORDS = {
     "EERSTE": "I", "TWEEDE": "II", "DERDE": "III", "VIERDE": "IV",
@@ -92,9 +93,8 @@ _EERSTE_AFD_RE = re.compile(
 _AFDELING_RE = re.compile(
     r"^(?:#{1,4}\s+)?AFDELING\.?\s+([IVXLCDM]+)\b\.?\s*(.*)$"
 )
-_INHOUDSTAFEL_RE = re.compile(r"^[ \t]*Inhoudstafel\s*$", re.I)
 
-# TOC-suffix-detectoren (regel ziet er TOC-achtig uit).
+# TOC-suffix-detectoren (voor `_is_toc_line`-fallback in `_normalize_afdeling_and_artikel`).
 _TOC_LINE_HINTS = (
     re.compile(r"\(art\.\s+\d+\w*\s*[\-–]\s*art\.\s+\d+\w*\)"),
     re.compile(r"\(art\.\s+\d+[^)]{0,40}\)"),
@@ -113,55 +113,6 @@ def _is_toc_line(ln: str) -> bool:
     if not ln.strip():
         return False
     return any(p.search(ln) for p in _TOC_LINE_HINTS)
-
-
-def _strip_inhoudstafel(body: str) -> str:
-    """Verwijder Inhoudstafel-blok aan begin van body.
-
-    Wrapt over meerdere regels (TOC-entries kunnen split-zijn met paginanummer
-    op de volgende regel). Stopt bij "EERSTE AFDELING", "Artikel N" of een
-    heading zonder TOC-suffix-omgeving — dat is body-start.
-    """
-    lines = body.splitlines()
-    toc_start = None
-    for i, ln in enumerate(lines):
-        if _INHOUDSTAFEL_RE.match(ln):
-            toc_start = i
-            break
-    if toc_start is None:
-        # Geen Inhoudstafel-marker: cluster-heuristiek (≥ 3 TOC-suffix-regels in
-        # eerste 60 regels = orphan TOC).
-        hits = [i for i, ln in enumerate(lines[:60]) if _is_toc_line(ln)]
-        if len(hits) < 3:
-            return body
-        toc_start = hits[0]
-
-    def _toc_continuation(idx: int) -> bool:
-        for k in range(idx + 1, min(idx + 4, len(lines))):
-            if not lines[k].strip():
-                continue
-            return _is_toc_line(lines[k])
-        return False
-
-    body_start = None
-    for j in range(toc_start + 1, len(lines)):
-        ln = lines[j]
-        if not ln.strip():
-            continue
-        if _is_toc_line(ln) or _toc_continuation(j):
-            continue
-        if (re.match(r"^#{1,6}\s+\S", ln)
-                or _EERSTE_AFD_RE.match(ln)
-                or _ARTIKEL_PLAIN_RE.match(ln)):
-            body_start = j
-            break
-        if not ln.startswith((" ", "\t")) and len(ln.strip()) >= 40:
-            body_start = j
-            break
-
-    if body_start is None:
-        return body
-    return "\n".join(lines[:toc_start] + lines[body_start:])
 
 
 def _normalize_afdeling_and_artikel(body: str) -> str:
@@ -247,7 +198,7 @@ def _clean_body(body: str) -> str:
     body = "\n".join(out_lines)
 
     # Stap 2-5: structuur-cleanup
-    body = _strip_inhoudstafel(body)
+    body = strip_inhoudstafel(body)
     body = _normalize_afdeling_and_artikel(body)
     body = _strip_bijwerking_marginalia(body)
     body = _collapse_blanks(body)
