@@ -1,0 +1,739 @@
+"""
+CBN-advies HTML → Markdown library.
+
+Verhuist uit ``tools/etl/scrape_cbn_advies.py`` (HTMLParser-subclass + helpers
++ regex-constanten). Geen filesystem-IO, geen frontmatter-bouw, geen CLI.
+
+Publieke API:
+
+    scrape_advies(url) -> dict          # URL → fetch → parse_html
+    parse_html(html)   -> dict          # HTML → titel/body/footnotes/attachments
+    select_title(text) -> str           # strip COMMISSIE-prefix + Advies-suffix
+    render_markdown(parse_result) -> str  # parse-dict → markdown body
+
+De ``parse_html``-dict bevat:
+
+    {
+        "title":       str,
+        "body":        str,         # markdown body (geen frontmatter, geen H1)
+        "footnotes":   list[dict],  # [{"number": str, "text": str}, ...]
+        "attachments": list[dict],  # gerelateerde adviezen
+                                    #   [{"titel": ..., "url": ..., "datum": ...}, ...]
+        "raw_html":    str,         # ruwe HTML (voor sha256/provenance)
+    }
+"""
+from __future__ import annotations
+
+import re
+import urllib.error
+import urllib.request
+from dataclasses import dataclass, field
+from html.parser import HTMLParser
+
+
+# ─── Datatypes (intern) ──────────────────────────────────────────────────────
+
+@dataclass
+class _JournaalpostRij:
+    """Eén regel uit een boekhoudkundige journaalpost."""
+    dc_marker: str = ""        # "" voor eerste debet-regel, "aan" voor credit
+    rekening: str = ""
+    omschrijving: str = ""
+    debet: str = ""
+    credit: str = ""
+
+
+@dataclass
+class _Journaalpost:
+    titel: str = "Boeking"
+    rijen: list[_JournaalpostRij] = field(default_factory=list)
+
+
+@dataclass
+class _GerelateerdAdvies:
+    titel: str
+    url: str
+    datum: str = ""
+
+
+# ─── HTML → Markdown parser (intern) ────────────────────────────────────────
+
+class _CBNAdviceParser(HTMLParser):
+    """Parser voor CBN-advies pagina's met behoud van semantiek."""
+
+    BLOCK_TAGS = frozenset(['script', 'style', 'noscript'])
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.result: list[str] = []
+        self.list_stack: list[tuple[str, int]] = []
+        self.skip_stack: list[str] = []
+        self._pending_nl = 0
+
+        # Voetnoten
+        self.footnote_refs: list[tuple[str, str]] = []
+        self.footnote_defs: dict[str, list[str]] = {}
+        self._current_footnote_def: str | None = None
+
+        # Journaalposten
+        self.journaalposten: list[_Journaalpost] = []
+        self._jp_current: _Journaalpost | None = None
+        self._jp_current_row: list[str] | None = None
+        self._jp_current_cell: list[str] | None = None
+        self._jp_current_cell_colspan: int = 1
+
+        self._in_indented_p: bool = False
+        self._pending_link_href: str | None = None
+
+    # ── helpers ──────────────────────────────────────────────────────────────
+
+    def _skipping(self):
+        return len(self.skip_stack) > 0
+
+    def _ensure_nl(self, n):
+        if n > self._pending_nl:
+            self._pending_nl = n
+
+    def _flush(self, text=''):
+        if self._pending_nl and (self.result or text.strip()):
+            self.result.append('\n' * self._pending_nl)
+            self._pending_nl = 0
+        if text:
+            self.result.append(text)
+
+    def _emit(self, s: str):
+        if self._jp_current_cell is not None:
+            self._jp_current_cell.append(s)
+        else:
+            self.result.append(s)
+
+    # ── tag handlers ─────────────────────────────────────────────────────────
+
+    def handle_starttag(self, tag, attrs):
+        attr_dict = dict(attrs)
+
+        if tag in self.BLOCK_TAGS:
+            self.skip_stack.append(tag)
+            return
+        if self._skipping():
+            return
+
+        cls = attr_dict.get('class', '')
+
+        if tag == 'a' and 'see-footnote' in cls:
+            href = attr_dict.get('href', '')
+            title = attr_dict.get('title', '')
+            m = re.search(r'#footnote(\d+)_', href)
+            if m:
+                num = m.group(1)
+                self.footnote_refs.append((num, title))
+                self._flush(f'[^{num}]')
+                self.skip_stack.append(tag)
+                return
+
+        if tag == 'li' and 'footnote' in cls:
+            fn_id = attr_dict.get('id', '')
+            m = re.search(r'footnote(\d+)_', fn_id)
+            if m:
+                self._current_footnote_def = m.group(1)
+                self.footnote_defs[m.group(1)] = []
+                return
+
+        if tag == 'a' and 'footnote-label' in cls:
+            self.skip_stack.append(tag)
+            return
+
+        if tag == 'table' and ('table-no-padding' in cls or 'booking-table-top' in cls):
+            self._jp_current = _Journaalpost()
+            self._jp_current_row = None
+            return
+
+        if self._jp_current is not None:
+            if tag == 'tr':
+                self._jp_current_row = []
+                return
+            if tag in ('td', 'th'):
+                self._jp_current_cell = []
+                colspan = attr_dict.get('colspan', '1')
+                try:
+                    self._jp_current_cell_colspan = int(colspan)
+                except ValueError:
+                    self._jp_current_cell_colspan = 1
+                return
+            return
+
+        if tag in ('h1', 'h2', 'h3', 'h4', 'h5', 'h6'):
+            level = int(tag[1])
+            self._ensure_nl(2)
+            self._flush('#' * level + ' ')
+
+        elif tag == 'p':
+            if 'indented' in cls:
+                self._in_indented_p = True
+                self._ensure_nl(2)
+                self._flush('### ')
+            else:
+                self._ensure_nl(2)
+
+        elif tag in ('strong', 'b'):
+            if not self._in_indented_p:
+                self._flush('**')
+
+        elif tag in ('em', 'i'):
+            self._flush('*')
+
+        elif tag == 'br':
+            self._flush('  \n')
+
+        elif tag == 'hr':
+            self._ensure_nl(2)
+            self._flush('---')
+            self._ensure_nl(2)
+
+        elif tag == 'ul':
+            self.list_stack.append(('ul', 0))
+            self._ensure_nl(1)
+
+        elif tag == 'ol':
+            self.list_stack.append(('ol', 0))
+            self._ensure_nl(1)
+
+        elif tag == 'li':
+            if self.list_stack:
+                kind, counter = self.list_stack[-1]
+                indent = '  ' * (len(self.list_stack) - 1)
+                if kind == 'ol':
+                    counter += 1
+                    self.list_stack[-1] = ('ol', counter)
+                    self._pending_nl = 0
+                    self.result.append(f'\n{indent}{counter}. ')
+                else:
+                    self._pending_nl = 0
+                    self.result.append(f'\n{indent}- ')
+
+        elif tag == 'a':
+            href = attr_dict.get('href', '')
+            if href and not href.startswith('#') and '/adviezen/' not in href:
+                if href.startswith('/'):
+                    href = f'https://www.cbn-cnc.be{href}'
+                self._pending_link_href = href
+                self._flush('[')
+
+        elif tag == 'table':
+            self._ensure_nl(2)
+
+        elif tag == 'tr':
+            if self._pending_nl == 0 and self.result:
+                self.result.append('\n')
+
+        elif tag in ('th', 'td'):
+            self._flush('| ')
+
+    def handle_endtag(self, tag):
+        if tag in self.BLOCK_TAGS:
+            if self.skip_stack and self.skip_stack[-1] == tag:
+                self.skip_stack.pop()
+            return
+
+        if self.skip_stack and self.skip_stack[-1] == tag:
+            self.skip_stack.pop()
+            return
+        if self._skipping():
+            return
+
+        if tag == 'li' and self._current_footnote_def is not None:
+            self._current_footnote_def = None
+            return
+
+        if self._jp_current is not None:
+            if tag in ('td', 'th'):
+                cell_text = ''.join(self._jp_current_cell or []).strip()
+                if self._jp_current_row is not None:
+                    self._jp_current_row.append(cell_text)
+                    for _ in range(self._jp_current_cell_colspan - 1):
+                        self._jp_current_row.append('')
+                self._jp_current_cell = None
+                self._jp_current_cell_colspan = 1
+                return
+            if tag == 'tr':
+                if self._jp_current_row:
+                    rij = self._build_jp_rij(self._jp_current_row)
+                    if rij:
+                        self._jp_current.rijen.append(rij)
+                self._jp_current_row = None
+                return
+            if tag == 'table':
+                self._render_journaalpost(self._jp_current)
+                self.journaalposten.append(self._jp_current)
+                self._jp_current = None
+                return
+            return
+
+        if tag in ('h1', 'h2', 'h3', 'h4', 'h5', 'h6'):
+            self._ensure_nl(2)
+        elif tag == 'p':
+            self._in_indented_p = False
+            self._ensure_nl(2)
+        elif tag in ('strong', 'b'):
+            if not self._in_indented_p:
+                self._flush('**')
+        elif tag == 'a':
+            if self._pending_link_href:
+                self._flush(f']({self._pending_link_href})')
+                self._pending_link_href = None
+        elif tag in ('em', 'i'):
+            self._flush('*')
+        elif tag in ('ul', 'ol'):
+            if self.list_stack:
+                self.list_stack.pop()
+            self._ensure_nl(2)
+        elif tag in ('th', 'td'):
+            self._flush(' |')
+        elif tag == 'table':
+            self._ensure_nl(2)
+
+    def handle_data(self, data):
+        if self._skipping():
+            return
+
+        if self._current_footnote_def is not None:
+            self.footnote_defs[self._current_footnote_def].append(data)
+            return
+
+        if self._jp_current_cell is not None:
+            self._jp_current_cell.append(data)
+            return
+        if self._jp_current is not None:
+            return
+
+        text = data
+        if text.strip():
+            self._flush(text)
+        elif self.result and not self.result[-1].endswith('\n'):
+            self._flush(' ')
+
+    # ── Journaalpost rendering ──────────────────────────────────────────────
+
+    @staticmethod
+    def _build_jp_rij(raw_cells: list[str]) -> _JournaalpostRij | None:
+        cells = [c.strip() for c in raw_cells]
+        if not any(cells):
+            return None
+
+        aan_idx = None
+        for i, c in enumerate(cells):
+            if c.lower() == 'aan':
+                aan_idx = i
+                break
+
+        rij = _JournaalpostRij()
+
+        if aan_idx is not None:
+            rij.dc_marker = "aan"
+            if aan_idx + 1 < len(cells):
+                rij.rekening = cells[aan_idx + 1]
+            if aan_idx + 2 < len(cells):
+                rij.omschrijving = cells[aan_idx + 2]
+            tail = [c for c in cells[aan_idx + 3:] if c]
+            if len(tail) >= 1:
+                rij.credit = tail[-1] if len(tail) == 1 else (tail[-1] or tail[-2])
+            if len(tail) >= 2:
+                rij.debet = tail[-2]
+        else:
+            non_empty = [(i, c) for i, c in enumerate(cells) if c]
+            if non_empty:
+                rij.rekening = non_empty[0][1]
+                if len(non_empty) >= 2:
+                    rij.omschrijving = non_empty[1][1]
+                if len(non_empty) >= 3:
+                    rij.debet = non_empty[-2][1] if len(non_empty) >= 4 else non_empty[2][1]
+                if len(non_empty) >= 4:
+                    rij.credit = non_empty[-1][1]
+
+        return rij
+
+    def _render_journaalpost(self, jp: _Journaalpost):
+        self._ensure_nl(2)
+        self._flush('| | Rekening | Omschrijving | Debet | Credit |\n')
+        self._flush('|---|----------|--------------|-------|--------|\n')
+        for r in jp.rijen:
+            line = f'| {r.dc_marker} | {r.rekening} | {r.omschrijving} | {r.debet} | {r.credit} |'
+            self._flush(line + '\n')
+        self._ensure_nl(2)
+
+    def get_markdown(self) -> str:
+        return ''.join(self.result)
+
+
+# ─── HTML extractie helpers ───────────────────────────────────────────────────
+
+def _extract_advice_content(html: str) -> str:
+    """Extraheer het echte adviesblok uit de pagina."""
+    patterns = [
+        r'<div[^>]+field--name-field-advice-text[^>]*>(.*?)</div\s*>\s*</div\s*>',
+        r'<div[^>]+class="[^"]*group-content[^"]*"[^>]*>(.*?)</div\s*>\s*</div\s*>',
+        r'<main[^>]*>(.*?)</main>',
+    ]
+    for pat in patterns:
+        m = re.search(pat, html, re.DOTALL | re.IGNORECASE)
+        if m and len(m.group(1).strip()) > 200:
+            return m.group(1)
+    return html
+
+
+def select_title(text: str) -> str:
+    """Strip 'COMMISSIE VOOR ... NORMEN' prefix en 'Advies van DD ...' suffix.
+
+    Werkt op een platte tekst (bv. een H1-string die in oudere CBN-pagina's
+    de org-naam, de titel en de datum samenpropt op één regel).
+    """
+    if text is None:
+        return ""
+    cleaned = re.sub(r'\s+', ' ', text).strip()
+    # Strip "COMMISSIE VOOR ... NORMEN" of "COMMISSION DES NORMES ..." prefix
+    cleaned = re.sub(
+        r'^(?:COMMISSIE\s+VOOR\b.*?NORMEN|COMMISSION\s+DES\s+NORMES[^\n]*?)\s+',
+        '', cleaned, flags=re.IGNORECASE
+    )
+    # Strip "Advies van DATUM" of "Avis du DATUM" suffix
+    cleaned = re.sub(
+        r'\s+(?:Advies|Avis)\s+(?:van|du)\s+\d.*$', '', cleaned, flags=re.IGNORECASE
+    )
+    return cleaned.strip()
+
+
+def _select_title_html(html: str) -> str | None:
+    """Robuuste titelselectie uit een volledige HTML-pagina (interne helper).
+
+    Sommige oudere CBN-pagina's combineren org-naam + titel in één <h1>:
+      "COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN CBN-advies 106/4 - Titel ..."
+    In dat geval strippen we via ``select_title`` de prefix/suffix en houden
+    enkel de eigenlijke titel.
+    """
+    candidates = []
+    for m in re.finditer(r'<h1[^>]*>(.*?)</h1>', html, re.DOTALL):
+        text = re.sub(r'<[^>]+>', '', m.group(1)).strip()
+        text = re.sub(r'\s+', ' ', text)
+        if not text:
+            continue
+        if 'COMMISSIE' in text.upper() or 'COMMISSION DES' in text.upper():
+            cleaned = select_title(text)
+            if cleaned and len(cleaned) > 5 and not re.match(
+                r'^(?:Advies|Avis)\s+(?:van|du)\s+\d', cleaned, re.IGNORECASE
+            ):
+                candidates.append(cleaned)
+            continue
+        if re.match(r'^Advies van\s+\d', text, re.IGNORECASE):
+            continue
+        if re.match(r'^Avis du\s+\d', text, re.IGNORECASE):
+            continue
+        candidates.append(text)
+    if not candidates:
+        return None
+    return max(candidates, key=len)
+
+
+def _extract_gerelateerde_adviezen(html: str) -> list[_GerelateerdAdvies]:
+    """Extraheer 'Gerelateerde adviezen' blok als gestructureerde lijst."""
+    refs: list[_GerelateerdAdvies] = []
+    m = re.search(r'<h2[^>]*>Gerelateerde adviezen</h2>(.*?)(?=<aside|<footer|</main|</article)',
+                  html, re.DOTALL | re.IGNORECASE)
+    if not m:
+        return refs
+    block = m.group(1)
+    for row_m in re.finditer(
+        r'<div[^>]+class="views-row"[^>]*>(.*?)(?=<div[^>]+class="views-row"|</div\s*>\s*</div\s*>\s*</div)',
+        block, re.DOTALL,
+    ):
+        row_html = row_m.group(1)
+        date_m = re.search(r'datetime="([^"]+)"', row_html)
+        datum = date_m.group(1)[:10] if date_m else ""
+        link_m = re.search(r'<a[^>]+href="(/nl/adviezen/[^"]+)"[^>]*>([^<]+)</a>', row_html)
+        if link_m:
+            href = link_m.group(1)
+            titel = link_m.group(2).strip()
+            url = f"https://www.cbn-cnc.be{href}"
+            refs.append(_GerelateerdAdvies(titel=titel, url=url, datum=datum))
+    return refs
+
+
+def _extract_advice_date(html: str) -> str | None:
+    """Extract advies-datum uit 'Advies van DATUM' H1 of <time> tag."""
+    for m in re.finditer(r'<h1[^>]*>(?:Advies van|Avis du)\s+([^<]+)</h1>', html, re.IGNORECASE):
+        return m.group(1).strip()
+    m = re.search(r'<time\s+datetime="(\d{4}-\d{2}-\d{2})', html)
+    if m:
+        return m.group(1)
+    return None
+
+
+# ─── Markdown post-processing ────────────────────────────────────────────────
+
+_TOC_NUMBERED_LINE = re.compile(r'^\s*\d+\.\s+\S')
+_SELECT_DROPDOWN = re.compile(r'^\s*-\s*Select\s*-')
+
+_BODY_NOISE_LINE_PATTERNS = [
+    re.compile(r'^[ \t]*#?\s*COMMISSIE\s+VOOR\b.*NORMEN\s*$', re.IGNORECASE),
+    re.compile(r'^[ \t]*#?\s*COMMISSION\s+DES\s+NORMES\b.*$', re.IGNORECASE),
+    re.compile(r'^[ \t]*#?\s*Advies\s+van\s+\d.*$', re.IGNORECASE),
+    re.compile(r'^[ \t]*#?\s*Avis\s+du\s+\d.*$', re.IGNORECASE),
+    re.compile(r'^[ \t]*#\s+CBN-advies\s.*$', re.IGNORECASE),
+    re.compile(r'^[ \t]*#\s+Avis\s+CNC\s.*$', re.IGNORECASE),
+    re.compile(r'^[ \t]*#[ \t]*[\xa0\s]*$'),
+]
+
+
+def _is_body_noise(line: str) -> bool:
+    return any(p.match(line) for p in _BODY_NOISE_LINE_PATTERNS)
+
+
+def _strip_body_noise(md: str) -> str:
+    out = []
+    for line in md.split('\n'):
+        if _is_body_noise(line):
+            continue
+        out.append(line)
+    return '\n'.join(out)
+
+
+def _strip_toc_block(md: str) -> str:
+    lines = md.split('\n')
+    result = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if _SELECT_DROPDOWN.match(line):
+            i += 1
+            continue
+        result.append(line)
+        i += 1
+
+    md = '\n'.join(result)
+
+    hh = re.search(r'^##\s+', md, re.MULTILINE)
+    if not hh:
+        return md
+    head_pos = hh.start()
+    head_section = md[:head_pos]
+    rest = md[head_pos:]
+
+    head_lines = head_section.split('\n')
+    drop_count = 0
+    for j in range(len(head_lines) - 1, -1, -1):
+        line = head_lines[j]
+        if line.strip() == '':
+            drop_count += 1
+            continue
+        if _TOC_NUMBERED_LINE.match(line):
+            drop_count += 1
+            continue
+        break
+
+    if drop_count > 2:
+        head_lines = head_lines[:len(head_lines) - drop_count]
+        head_section = '\n'.join(head_lines).rstrip() + '\n\n'
+        return head_section + rest
+
+    return md
+
+
+def _append_footnotes(md: str, footnote_defs: dict[str, list[str]],
+                      footnote_refs: list[tuple[str, str]]) -> str:
+    if not footnote_defs and not footnote_refs:
+        return md
+
+    seen = set()
+    blocks = []
+
+    for num, parts in footnote_defs.items():
+        text = ''.join(parts).strip()
+        text = re.sub(r'\s+', ' ', text)
+        if text:
+            blocks.append(f'[^{num}]: {text}')
+            seen.add(num)
+
+    for num, title in footnote_refs:
+        if num in seen:
+            continue
+        title = re.sub(r'\s+', ' ', title.strip())
+        if title:
+            blocks.append(f'[^{num}]: {title}')
+            seen.add(num)
+
+    if not blocks:
+        return md
+
+    blocks.sort(key=lambda b: int(re.match(r'\[\^(\d+)\]', b).group(1)))
+    return md.rstrip() + '\n\n' + '\n\n'.join(blocks) + '\n'
+
+
+_IMPLICIT_HEADING_PATTERNS = [
+    re.compile(r'^\s*\*\s*(Voorbeeld\s+\d+[^*\n]*?)\s*\*\s*$'),
+    re.compile(r'^\s*\*\s*(Casus\s+\d+[^*\n]*?|Geval\s+\d+[^*\n]*?)\s*\*\s*$'),
+    re.compile(
+        r'^\s*\*\*\s*(Inleiding|Algemeen|Conclusie|Onderwerp van het advies|'
+        r'Toepassingsgebied|Boekhoudkundige verwerking|Voorbeelden?|Samenvatting|Besluit)\s*\*\*\s*$',
+        re.IGNORECASE,
+    ),
+    re.compile(r'^\s*\*\*(\d+(?:\.\d+)*\.?\s+[^\*\n]{4,80}?)\*\*\s*$'),
+]
+
+_BOLD_TITLE_STANDALONE = re.compile(r'^\s*\*\*([^\*\n]{20,}?)\*\*\s*$')
+
+
+def _promote_implicit_headings(md: str) -> str:
+    lines = md.split('\n')
+    out_lines = []
+    for i, line in enumerate(lines):
+        replaced = False
+
+        for pat in _IMPLICIT_HEADING_PATTERNS:
+            m = pat.match(line)
+            if m:
+                title = m.group(1).strip()
+                out_lines.append(f'## {title}')
+                replaced = True
+                break
+
+        if not replaced:
+            m = _BOLD_TITLE_STANDALONE.match(line)
+            if m:
+                prev_blank = (i == 0 or not lines[i - 1].strip())
+                next_blank = (i >= len(lines) - 1 or not lines[i + 1].strip())
+                if prev_blank and next_blank:
+                    title = m.group(1).strip()
+                    if not re.search(r'[\.\?\!]$', title):
+                        out_lines.append(f'## {title}')
+                        replaced = True
+
+        if not replaced:
+            out_lines.append(line)
+    return '\n'.join(out_lines)
+
+
+def _cleanup_markdown(md: str) -> str:
+    lines = [(l if l.strip() else '') for l in md.split('\n')]
+    md = '\n'.join(lines)
+
+    md = re.sub(r'(\[\^\d+\])\s*\n\s*([\.\,\;\:\)\]])', r'\1\2', md)
+    md = re.sub(
+        r'(\[\^\d+\])[ \t]*\n[ \t]+(?=[A-Za-zéèêëàâîïôûüçñ"“”\(\[])',
+        r'\1 ', md
+    )
+
+    md = re.sub(r'^\s*\*+(\s*\*+)*\s*$', '', md, flags=re.MULTILINE)
+
+    md = re.sub(r'\n{3,}', '\n\n', md)
+    return md.strip() + '\n'
+
+
+# ─── Fetch ──────────────────────────────────────────────────────────────────
+
+def _fetch_html(url: str) -> tuple[int, str]:
+    req = urllib.request.Request(
+        url,
+        headers={
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)',
+            'Accept': 'text/html,application/xhtml+xml',
+            'Accept-Language': 'nl,en;q=0.8',
+        }
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=25) as resp:
+            return resp.status, resp.read().decode('utf-8', errors='replace')
+    except urllib.error.HTTPError as e:
+        return e.code, ''
+    except Exception as e:
+        return 0, str(e)
+
+
+# ─── Publieke API ───────────────────────────────────────────────────────────
+
+def parse_html(html: str) -> dict:
+    """Parse een CBN-advies HTML-string naar een gestructureerde dict.
+
+    De ``body`` is een markdown-string (geen frontmatter, geen H1-regel).
+    De H1 met de advies-titel wordt apart in ``title`` teruggegeven.
+
+    Returns:
+        {
+            "title":       str,
+            "body":        str,
+            "footnotes":   list[dict],   # [{"number": "1", "text": "..."}, ...]
+            "attachments": list[dict],   # gerelateerde adviezen
+            "raw_html":    str,
+        }
+    """
+    title = _select_title_html(html) or ""
+    datum = _extract_advice_date(html) or ""
+    gerelateerde = _extract_gerelateerde_adviezen(html)
+
+    content_html = _extract_advice_content(html)
+    parser = _CBNAdviceParser()
+    parser.feed(content_html)
+    raw_md = parser.get_markdown()
+
+    raw_md = _strip_body_noise(raw_md)
+    body = _strip_toc_block(raw_md)
+    body = _promote_implicit_headings(body)
+    body = _append_footnotes(body, parser.footnote_defs, parser.footnote_refs)
+    body = _cleanup_markdown(body)
+
+    # Footnotes als gestructureerde lijst (op nummer, oplopend)
+    footnotes: list[dict] = []
+    seen: set[str] = set()
+    for num, parts in parser.footnote_defs.items():
+        text = re.sub(r'\s+', ' ', ''.join(parts).strip())
+        if text:
+            footnotes.append({"number": num, "text": text})
+            seen.add(num)
+    for num, ftitle in parser.footnote_refs:
+        if num in seen:
+            continue
+        text = re.sub(r'\s+', ' ', ftitle.strip())
+        if text:
+            footnotes.append({"number": num, "text": text})
+            seen.add(num)
+    try:
+        footnotes.sort(key=lambda f: int(f["number"]))
+    except (ValueError, KeyError):
+        pass
+
+    attachments: list[dict] = []
+    for r in gerelateerde:
+        item = {"titel": r.titel, "url": r.url}
+        if r.datum:
+            item["datum"] = r.datum
+        attachments.append(item)
+
+    return {
+        "title": title,
+        "body": body,
+        "footnotes": footnotes,
+        "attachments": attachments,
+        "raw_html": html,
+        "datum": datum,
+    }
+
+
+def scrape_advies(url: str) -> dict:
+    """URL → fetched HTML → parse_html(html) → result.
+
+    Voegt ``url`` toe aan de result-dict zodat callers de bron meekrijgen.
+    Raised RuntimeError bij niet-200 response.
+    """
+    status, html = _fetch_html(url)
+    if status != 200:
+        raise RuntimeError(f"HTTP {status} voor {url}")
+    result = parse_html(html)
+    result["url"] = url
+    return result
+
+
+def render_markdown(parse_result: dict) -> str:
+    """parse_result-dict → markdown-body (geen frontmatter).
+
+    Geeft alleen de body terug zoals geproduceerd door ``parse_html``.
+    De caller (CLI) kan zelf frontmatter en H1 toevoegen.
+    """
+    return parse_result.get("body", "")
