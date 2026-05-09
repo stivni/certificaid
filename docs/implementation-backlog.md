@@ -6,25 +6,26 @@ Werkdocument — geen ADR. Lijst van implementatie-werk dat volgt uit de design-
 
 Driver: ADR-006 §3 herzien — twee collections (`bronnen` + `concepten`) ipv vier.
 
-- [ ] `tools/rag/rag_index.py`
-  - Schrijf alle wetteksten/normen/adviezen naar collection `bronnen` met `bron_rol`-metadata (`wettekst` / `norm` / `advies`)
-  - Chunk-strategie blijft per brontype (artikel / sectie / heel-advies)
-  - `index_*`-functies bouwen ids/texts/metadatas, één gedeelde upsert naar `bronnen`
-  - Chunk-id-stabiliteit (ADR-006 §3.1, ADR-004): wettekst `<bron-stem>__art_<nr>`, norm `<bron-stem>__sec_<slug>`, advies (één-chunk) `<bron-stem>`
-  - Per chunk: `chunk_sha` opslaan in metadata voor incremental rebuild (sha-vergelijking → skip/upsert/delete)
-  - `--scope` blijft als POC-versnelling (file-filter + aparte chroma_db_<onderdeel>/)
-  - Drop `--add-concepts` van deze tool; concept-indexering hoort in `tools/extractie/`
+- [x] `tools/rag/rag_index.py`
+  - Schrijft wetteksten/normen/adviezen naar collection `bronnen` met `bron_rol`-metadata ✓
+  - Chunk-strategie per brontype (artikel / sectie / heel-advies) ✓
+  - `index_*`-functies bouwen ids/texts/metadatas, één gedeelde upsert via `_batch_upsert` ✓
+  - Chunk-id-stabiliteit (ADR-006 §3.1, ADR-004): `<bron-stem>__art_<nr>`, `__sec_<slug>`, `__volledig` ✓
+  - `chunk_sha` in metadata; SHA-skip in `_batch_upsert` ✓
+  - `--scope` blijft + aparte `chroma_db_<onderdeel>/` ✓
+  - `--add-concepten` (concepten-collection apart via `index_concepten`); geen `--add-concepts` ✓
+  - `detect_device()` MPS → CUDA → error; `--device`-override ✓
 
-- [ ] `tools/lib/retrieval.py`
-  - `ALL_COLLECTIONS = ["bronnen", "concepten"]` (was 6)
-  - `_retrieve_candidates()`: één query op `bronnen` + optionele `where={"bron_rol": ...}` filter
-  - `multi_query_retrieve()` blijft, alleen op één collection
-  - Verwijder `tdks` en `bestaande_fiches` referenties (legacy)
-  - Context-uitbreiding voor wetteksten blijft, op chunk_index of artikel-nr based
+- [x] `tools/lib/retrieval.py`
+  - `ALL_COLLECTIONS = ["bronnen", "concepten"]` ✓
+  - `_retrieve_candidates()`: één query op `bronnen` + optionele `where={"bron_rol": ...}` filter ✓
+  - `multi_query_retrieve()` op één collection ✓
+  - Geen `tdks`/`bestaande_fiches` referenties ✓
+  - Context-uitbreiding wetteksten via `__art_<nr>` chunk-id schema ✓
 
-- [ ] `tools/rag/rag_query.py`
-  - CLI-flag `--bron-rol wettekst,norm` ipv `--collections wetteksten,normen`
-  - Default = alle bron-rollen
+- [x] `tools/rag/rag_query.py`
+  - `--bron-rol wettekst,norm` ipv `--collections wetteksten,normen` ✓
+  - Default = alle bron-rollen ✓
 
 - [x] `tutor/app.py`
   - Sidebar-filter: bron-rol checkboxes ipv collection-checkboxes ✓
@@ -34,7 +35,7 @@ Driver: ADR-006 §3 herzien — twee collections (`bronnen` + `concepten`) ipv v
   - Dubbele PO-query-prefix gecorrigeerd ✓
   - Citatie-rendering blijft via `label()` (`bron` + `artikel`/`sectie`/`veld`-metadata)
 
-- [ ] **Eerst implementeren tegen huidige (3-collection) 4.0-POC-index**, dan testen of unified retrieval-API werkt door alle drie de bestaande collections te queryen alsof ze één waren. Pas daarna full rebuild naar één `bronnen`-collection.
+- [x] **Unified bronnen-collection geïmplementeerd** — rag_index.py + retrieval.py + rag_query.py klaar. Full rebuild naar één `bronnen`-collection kan via `python tools/rag/rag_index.py --reset`.
 
 ## Fase 3 (Concept-extractie) — bron-first matching
 
@@ -56,12 +57,16 @@ Zie ADR-008 §2 voor argumentatie. Helper-scripts en code-onderhoud: Sonnet is f
 - [ ] Fase D: Verdieping per concept (status `partieel` → `gevuld`). Niet gestart.
 
 **Open implementatie-eisen** (zie ADR-008 §"Open implementatie-eisen"):
-- [ ] `tools/extractie/match_bronnen.py` moet `chunk_sha` uit ChromaDB-metadata
-  kopiëren naar concept-record `_provenance.<veld>.inputs[].sha256` (nu `null`).
+- [x] `tools/extractie/match_bronnen.py` — `chunk_sha` uit ChromaDB-metadata toegevoegd aan
+  bundle-items. `tools/extractie/export_bundle.py` geeft `chunk_sha` door (uit matches of
+  rechtstreeks uit ChromaDB-metadata). Subagent kan sha invullen in concept-record provenance.
 - [ ] `tools/etl/mark_stale.py` voor concepten bouwen (ADR-008 §10).
-- [ ] `tools/etl/remove_bron.py` Laag 2 omzetten naar `data/concept_records/**/_provenance.*.inputs[].id`.
-- [ ] Prompt-templates in `prompts/` voor concept-extractie (anchor-verrijking + per-anchor extractie).
-  Huidige extractie liep met ad-hoc subagent-prompts; productie-prompts moeten nog vastgelegd worden.
+- [x] `tools/etl/remove_bron.py` Laag 2 omgezet naar concept-records: scant
+  `data/concept_records/**/*.json` op inline `_provenance.inputs[].id` die starten
+  met de bron-stem. Toont getroffen records + velden; past niets automatisch aan.
+- [x] Prompt-templates in `prompts/` voor concept-extractie — `prompts/anchor-verrijking-v1.md`
+  (Fase A) en `prompts/concept-extractie-v1.md` (Fase C). Versioned, anti-hallucinatie-regels
+  en output-formaat volledig beschreven.
 - [ ] Programmaonderdeel-JSON tooling: nu handmatig geschreven (4.0, 1.1).
   Mechanische extractie uit `programma.pdf` zou helpen voor de overige PO's.
 
@@ -110,15 +115,13 @@ Driver: bilingual ITAA-normen chunken slecht → grote gemengde NL+FR blobs → 
   - Prioriteit: `ITAA-norm-intern-kwaliteitsmanagement.md` (onafhankelijkheid,
     beroepsgeheim uitwerking), daarna overige bilingual normen
 
+## ADR-018 (eerder open)
+
+- [x] **ADR-018 prose bijgewerkt** — verwijzingen naar verwijderd `retrieve_batch.py` verwijderd;
+  context bijgewerkt van "vermoedens" naar "anchors/bron-first" (ADR-008 fase C).
+
 ## Open vragen / onderzoek
 
-- **Device auto-detect** (MPS / CUDA / CPU): benchmark gaf 1.78× speedup op MPS. Geen blockers bij gebruik. Voeg toe aan `rag_index.py` + `retrieval.py`:
-  ```python
-  def detect_device():
-      if torch.backends.mps.is_available(): return "mps"
-      if torch.cuda.is_available(): return "cuda"
-      return "cpu"
-  ```
-  Gebruik in `SentenceTransformer(model, device=detect_device())`. Override-flag `--device` voor CI / benchmarking. Klein werk (~10 regels totaal).
+- [x] **Device auto-detect** (MPS → CUDA → error; `--device cpu` als opt-out) geïmplementeerd in `rag_index.py`. `retrieval.py` gebruikt bewust CPU als default voor query-time (MPS-geheugen vrij houden voor tutor; zie `_detect_device()` in retrieval.py).
 - **Online build-pipeline**: Modal / HF-IE / RunPod als cost-effective re-index-target bij bron-update. Pas onderzoeken na Fase 1 stabiel + chunk-id-stabiliteit gevalideerd.
 - **Update-only herindexering**: vereist chunk-id-stabiliteit (ADR-004) + per-chunk sha-store. Validatie: kunnen we een gewijzigde Antiwitwaswet snel re-indexen zonder de volledige corpus te herbouwen?
