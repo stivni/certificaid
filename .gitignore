@@ -30,6 +30,10 @@ resources/raw/normen/
 data/chroma_db/
 data/chroma_db_*/
 
+# ETL staging output (ADR-005 §2 fase B1: nieuwe pipeline schrijft hierheen
+# vóór goedkeuring/promotie naar resources/bronnen/wetteksten/)
+data/etl-staging/
+
 # QA-rapporten (gegenereerd door tools/etl/qa_bron.py — per-run, niet getracked)
 data/qa/
 

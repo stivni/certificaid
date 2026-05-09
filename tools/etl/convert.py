@@ -1,15 +1,28 @@
 """
-Unified conversie-pipeline voor Certificaid-bronnen.
+In-process orchestrator voor de Certificaid bronnen-ETL (ADR-005 §2).
+
+Pipeline per bron:
+    extract → cleanup → headings → frontmatter → staging-output
+
+De extract-stap delegeert naar `tools/lib/extractors/<method>.py` op basis van
+`extract.method` in `resources/source_config.yaml`. Cleanup en
+heading-injection zijn gedeeld (`tools/lib/cleanup.py`, `tools/lib/headings.py`).
+
+Output landt in `data/etl-staging/<source_name>.md` — NIET in
+`resources/bronnen/wetteksten/`. Dat blijft de huidige goedgekeurde set; staging
+wordt door een latere fase (D) gepromoveerd.
 
 Gebruik:
-  python tools/etl/convert.py --list                          # overzicht alle bronnen
-  python tools/etl/convert.py --source WIB92                 # converteer één bron
-  python tools/etl/convert.py --source Antiwitwaswet-2017 --reindex
-  python tools/etl/convert.py --type ejustice_nl              # alle bronnen van dit type
-  python tools/etl/convert.py --type toc_only                 # alle bronnen die conversie nodig hebben
-  python tools/etl/convert.py --cleanup-only --source WIB92  # alleen cleanup, geen herconversie
-  python tools/etl/convert.py --diff --source WIB92          # toon diff na cleanup
+    python3 tools/etl/convert.py --list
+    python3 tools/etl/convert.py --source WIB92
+    python3 tools/etl/convert.py --source Wet-ITAA-2019 --diff
+    python3 tools/etl/convert.py --all
+    python3 tools/etl/convert.py --dry-run --source WIB92
+
+Skipped methods: `handcrafted` (geen conversie nodig) en `derived` (compilatie
+afgeleide MDs — fase B2 maakt deze obsolete).
 """
+from __future__ import annotations
 
 import argparse
 import subprocess
@@ -21,409 +34,330 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 CONFIG_PATH = ROOT / "resources" / "source_config.yaml"
+STAGING_DIR = ROOT / "data" / "etl-staging"
 
+sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "tools"))
-from lib.cleanup import run_pipeline, ALL_STEPS
-from etl.convert_justel import convert_justel_html, convert_justel_bs_bilingual
+
+from tools.lib.cleanup import run_pipeline, DEFAULT_STEPS  # noqa: E402
+from tools.lib.headings import process_wettekst  # noqa: E402
+from tools.lib.extractors import get_handler  # noqa: E402
+from tools.lib.provenance import (  # noqa: E402
+    Input,
+    make_input,
+    make_provenance,
+    write_provenance,
+    Trust,
+    read_provenance,
+)
 
 
-# ---------------------------------------------------------------------------
-# Config laden
-# ---------------------------------------------------------------------------
+# ─── Config laden ─────────────────────────────────────────────────────────────
 
 def load_config() -> dict:
-    with open(CONFIG_PATH) as f:
+    with CONFIG_PATH.open() as f:
         return yaml.safe_load(f)["sources"]
 
 
 def get_source(name: str, config: dict) -> dict:
     if name not in config:
-        print(f"❌ Bron '{name}' niet gevonden in source_config.yaml")
-        print(f"   Beschikbaar: {', '.join(config)}")
+        print(f"Bron '{name}' niet gevonden in source_config.yaml")
+        print(f"  Beschikbaar: {', '.join(sorted(config))}")
         sys.exit(1)
     return config[name]
 
 
-# ---------------------------------------------------------------------------
-# PDF → tekst extractie
-# ---------------------------------------------------------------------------
-
-def pdftotext_nl(pdf_path: str, start_page: int = 1, end_page: int | None = None) -> str:
-    """Extraheer NL-tekst uit een NL-only PDF met pdftotext -layout."""
-    cmd = ["pdftotext", "-layout"]
-    if start_page > 1:
-        cmd += ["-f", str(start_page)]
-    if end_page:
-        cmd += ["-l", str(end_page)]
-    cmd += [pdf_path, "-"]
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    if result.returncode != 0:
-        raise RuntimeError(f"pdftotext mislukt: {result.stderr}")
-    return result.stdout
-
-
-def pdftotext_bilingual(pdf_path: str, nl_col_x: int, start_page: int = 1,
-                         end_page: int | None = None) -> str:
-    """Extraheer enkel de NL-kolom uit een tweetalige PDF."""
-    # Detect paginabreedte (standaard 595pt voor A4)
-    col_w = 595 - nl_col_x - 10
-    page_h = 842
-
-    cmd = ["pdftotext", "-layout",
-           "-x", str(nl_col_x), "-y", "0",
-           "-W", str(col_w), "-H", str(page_h)]
-    if start_page > 1:
-        cmd += ["-f", str(start_page)]
-    if end_page:
-        cmd += ["-l", str(end_page)]
-    cmd += [pdf_path, "-"]
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    if result.returncode != 0:
-        raise RuntimeError(f"pdftotext bilingual mislukt: {result.stderr}")
-    return result.stdout
-
-
-# ---------------------------------------------------------------------------
-# Frontmatter genereren
-# ---------------------------------------------------------------------------
-
-def make_frontmatter(cfg: dict, source_name: str) -> str:
-    tags = cfg.get("tags", [])
-    tags_str = str(tags).replace("'", '"')
-    itaa = cfg.get("itaa_sectie", "")
-    wet = cfg.get("wet", source_name)
-    bijgewerkt = cfg.get("bijgewerkt", "")
-    return textwrap.dedent(f"""\
-        ---
-        tags: {tags_str}
-        itaa-lex-sectie: "{itaa}"
-        wet: "{wet}"
-        status: "beschikbaar"
-        bijgewerkt: "{bijgewerkt}"
-        bron: "ejustice.just.fgov.be (gecoördineerde versie)"
-        ---
-
-        # {wet}
-
-        *Bijgewerkt tot en met {bijgewerkt} — gecoördineerde versie.*
-
-    """)
-
-
-# ---------------------------------------------------------------------------
-# Conversiemethoden
-# ---------------------------------------------------------------------------
-
-def convert_wib92(cfg: dict, source_name: str, dry_run: bool = False) -> str:
-    """Delegeer naar het bestaande convert-wib92.py script."""
-    script = ROOT / "tools" / "etl" / "convert-wib92.py"
-    if not script.exists():
-        raise FileNotFoundError(f"convert-wib92.py niet gevonden")
-    print(f"  → Delegeer naar {script.name}")
-    if not dry_run:
-        result = subprocess.run(["python3", str(script)], capture_output=True, text=True, cwd=ROOT)
-        if result.returncode != 0:
-            print(f"  ⚠️  Waarschuwing: {result.stderr[:200]}")
-    return cfg["output"]
-
-
-def convert_wetboek(cfg: dict, source_name: str, dry_run: bool = False) -> str:
-    """Delegeer naar convert-wetboek.py — die leest de YAML-entry zelf."""
-    script = ROOT / "tools" / "etl" / "convert-wetboek.py"
-    print(f"  → Delegeer naar {script.name} {source_name}")
-    if not dry_run:
-        result = subprocess.run(
-            ["python3", str(script), source_name],
-            capture_output=True, text=True, cwd=ROOT
-        )
-        if result.returncode != 0:
-            print(f"  ⚠️  Waarschuwing: {result.stderr[:200]}")
-    return cfg["output"]
-
-
-def pdftotext_simple(pdf_path: str, start_page: int = 1,
-                      end_page: int | None = None) -> str:
-    """pdftotext zonder -layout: lineaire tekst, beter voor meerkolomsdocs."""
-    cmd = ["pdftotext"]
-    if start_page > 1:
-        cmd += ["-f", str(start_page)]
-    if end_page:
-        cmd += ["-l", str(end_page)]
-    cmd += [pdf_path, "-"]
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    if result.returncode != 0:
-        raise RuntimeError(f"pdftotext mislukt: {result.stderr}")
-    return result.stdout
-
-
-def convert_ejustice(cfg: dict, source_name: str, bilingual: bool = False,
-                     dry_run: bool = False) -> str:
-    """Converteer een ejustice PDF naar gestructureerde NL markdown."""
-    raw = cfg.get("raw")
-    if not raw:
-        raise ValueError(f"raw-pad ontbreekt voor {source_name}")
-    raw_path = ROOT / raw
-    if not raw_path.exists():
-        raise FileNotFoundError(f"Raw PDF niet gevonden: {raw_path}")
-
-    output_path = ROOT / cfg["output"]
-    start_page = cfg.get("start_page", 1)
-    end_page = cfg.get("end_page")
-    # EU-publicatieblad docs: gebruik simple mode voor betere kolomverwerking
-    simple_mode = cfg.get("simple_mode", False)
-
-    print(f"  → Extraheer tekst uit {raw_path.name}")
-    if simple_mode:
-        text = pdftotext_simple(str(raw_path), start_page, end_page)
-    elif bilingual:
-        nl_col_x = cfg.get("nl_col_x", 0)
-        text = pdftotext_bilingual(str(raw_path), nl_col_x, start_page, end_page)
-    else:
-        text = pdftotext_nl(str(raw_path), start_page, end_page)
-
-    # Cleanup-pipeline
-    cleanup_steps = cfg.get("cleanup", [])
-    print(f"  → Cleanup: standaard + {cleanup_steps}")
-    text = run_pipeline(text, steps=None)          # standaard stappen
-    text = run_pipeline(text, steps=cleanup_steps)  # bron-specifieke extra stappen
-
-    # Frontmatter + artikel-headings
-    text = make_frontmatter(cfg, source_name) + text
-
-    if not dry_run:
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        output_path.write_text(text)
-        print(f"  ✓ Geschreven: {output_path.relative_to(ROOT)}")
-
-    return str(output_path)
-
-
-def cleanup_in_place(cfg: dict, source_name: str, dry_run: bool = False,
-                     show_diff: bool = False) -> str:
-    """Pas cleanup toe op een bestaand markdown-bestand (geen herconversie)."""
-    output_path = ROOT / cfg["output"]
-    if not output_path.exists():
-        raise FileNotFoundError(f"Bestand niet gevonden: {output_path}")
-
-    original = output_path.read_text()
-    cleanup_steps = cfg.get("cleanup", [])
-    # Standaard cleanup — zonder remove_toc (die verwijdert YAML frontmatter)
-    safe_steps = ["remove_page_artifacts", "fix_broken_words",
-                  "normalize_whitespace", "collapse_blank_lines",
-                  "merge_wrapped_lines", "merge_heading_continuations",
-                  "mark_appendices"]
-    cleaned = run_pipeline(original, steps=safe_steps + cleanup_steps)
-
-    if show_diff:
-        _show_diff(original, cleaned, output_path.name)
-
-    if not dry_run and cleaned != original:
-        output_path.write_text(cleaned)
-        lines_before = original.count("\n")
-        lines_after = cleaned.count("\n")
-        print(f"  ✓ Opgeschoond: {output_path.name} ({lines_before}L → {lines_after}L)")
-    elif cleaned == original:
-        print(f"  ✓ Geen wijzigingen: {output_path.name}")
-
-    return str(output_path)
-
-
-def _show_diff(original: str, cleaned: str, name: str):
-    import difflib
-    diff = list(difflib.unified_diff(
-        original.splitlines(keepends=True),
-        cleaned.splitlines(keepends=True),
-        fromfile=f"voor/{name}",
-        tofile=f"na/{name}",
-        n=3,
-    ))
-    if diff:
-        print(f"\n{'─'*60}")
-        print(f"DIFF: {name}")
-        print(''.join(diff[:100]))  # max 100 diff-regels
-        if len(diff) > 100:
-            print(f"  ... ({len(diff) - 100} regels meer)")
-    else:
-        print(f"  Geen diff voor {name}")
-
-
-# ---------------------------------------------------------------------------
-# Re-index
-# ---------------------------------------------------------------------------
-
-def reindex(source_name: str, cfg: dict):
-    """Voeg de geconverteerde bron toe aan de ChromaDB index."""
-    script = ROOT / "tools" / "rag" / "rag_index.py"
-    collection = _collection_for(cfg)
-    print(f"  → Re-index in collection '{collection}'")
-    result = subprocess.run(
-        ["python3", str(script), "--collection", collection, "--source-file", cfg["output"]],
-        capture_output=True, text=True, cwd=ROOT
-    )
-    if result.returncode != 0:
-        print(f"  ⚠️  Re-index waarschuwing: {result.stderr[:200]}")
-    else:
-        print(f"  ✓ Re-indexed")
-
-
-def _collection_for(cfg: dict) -> str:
-    tags = cfg.get("tags", [])
-    if any(t in tags for t in ["II", "VI.A", "VI.B", "VI.C", "IV.A", "VII", "VIII", "IX", "XV", "XIII", "XXI"]):
-        return "wetteksten"
-    return "wetteksten"
-
-
-# ---------------------------------------------------------------------------
-# Dispatcher
-# ---------------------------------------------------------------------------
-
-def _resolve_methode(cfg: dict) -> str:
-    """
-    Geeft de conversiemethode terug.
-    Leest eerst uit het nieuwe extract.method (ADR-017); valt terug op legacy type:.
-    """
+def resolve_method(cfg: dict) -> str:
+    """Geef de extract-methode terug; valt terug op legacy `type:`."""
     extract = cfg.get("extract")
     if extract and "method" in extract:
         return extract["method"]
-    # Legacy fallback — type: is afgeschaft maar kan nog voorkomen in niet-gemigreerde
-    # entries of bij handmatig toegevoegde bronnen vóór migratie.
-    legacy = cfg.get("type", "")
-    if legacy:
-        return legacy
-    return ""
+    return cfg.get("type", "")
 
 
-def process_source(name: str, cfg: dict, cleanup_only: bool = False,
-                   dry_run: bool = False, show_diff: bool = False,
-                   do_reindex: bool = False):
-    methode = _resolve_methode(cfg)
+# ─── Frontmatter ──────────────────────────────────────────────────────────────
+
+_BRON_LABEL_PER_METHOD = {
+    "pdftotext_ejustice": "ejustice.just.fgov.be (gecoördineerde versie)",
+    "custom_wetboek": "Fisconetplus.be (officieuze gecoördineerde versie)",
+    "custom_wib92": "Fisconet (officieuze gecoördineerde versie)",
+    "justel_html": "www.ejustice.just.fgov.be (Justel, gecoördineerde versie)",
+    "justel_bs_bilingual": "ejustice.just.fgov.be (B.S. originele publicatie — NL-kolom)",
+}
+
+
+def _format_tags(tags) -> str:
+    """Render tags-lijst als geldige YAML flow-list met dubbele quotes."""
+    if isinstance(tags, list):
+        return "[" + ", ".join(f'"{t}"' for t in tags) + "]"
+    return str(tags)
+
+
+def _safe(value: str) -> str:
+    """Escape dubbele quotes binnen YAML-strings."""
+    if value is None:
+        return ""
+    return str(value).replace('"', '\\"')
+
+
+def build_initial_frontmatter(cfg: dict, source_name: str, method: str) -> str:
+    """Bouw de YAML-frontmatter + intro-paragraaf (vóór heading-injection).
+
+    Het `chunk:`-blok wordt later bijgevoegd door `process_wettekst` op basis
+    van de gedetecteerde structuurhiërarchie.
+    """
+    tags = cfg.get("tags", [])
+    tags_str = _format_tags(tags)
+    itaa = _safe(cfg.get("itaa_sectie", ""))
+    wet_full = cfg.get("wet", source_name)
+    titel = cfg.get("titel") or wet_full
+    bijgewerkt = _safe(cfg.get("bijgewerkt", ""))
+    bron_rol = cfg.get("bron_rol")
+    bron_label = _BRON_LABEL_PER_METHOD.get(method, "onbekend")
+
+    fm_lines = [
+        "---",
+        f"tags: {tags_str}",
+        f'itaa-lex-sectie: "{itaa}"',
+        f'wet: "{_safe(wet_full)}"',
+    ]
+    if bron_rol:
+        fm_lines.append(f'bron_rol: "{_safe(bron_rol)}"')
+    fm_lines.extend([
+        'status: "beschikbaar"',
+        f'bijgewerkt: "{bijgewerkt}"',
+        f'bron: "{bron_label}"',
+        "---",
+        "",
+        f"# {titel}",
+        "",
+        f"*Bijgewerkt tot en met {bijgewerkt} — gecoördineerde versie.*",
+        "",
+        "",
+    ])
+    return "\n".join(fm_lines)
+
+
+# ─── Provenance ───────────────────────────────────────────────────────────────
+
+def _resolve_inputs(cfg: dict, source_name: str, method: str) -> list[Input]:
+    """Bouw de provenance.inputs-lijst voor deze bron.
+
+    Voor PDF-gebaseerde methods: hash de raw PDF('s).
+    Voor `justel_html`: gebruik de URL als id (geen sha).
+    """
+    inputs: list[Input] = []
+
+    extract_cfg = cfg.get("extract") or {}
+    params = extract_cfg.get("params") or {}
+    raw = cfg.get("raw")
+    raw_files = params.get("raw_files") or []
+
+    if raw_files:
+        for rf in raw_files:
+            p = ROOT / rf
+            if p.exists():
+                inputs.append(make_input(p, version=cfg.get("bijgewerkt"), repo_root=ROOT))
+    elif raw:
+        p = ROOT / raw
+        if p.exists():
+            inputs.append(make_input(p, version=cfg.get("bijgewerkt"), repo_root=ROOT))
+
+    if method == "justel_html":
+        url = params.get("start_url") or cfg.get("source_url")
+        if url:
+            from tools.lib.provenance import make_url_input
+            inputs.append(make_url_input(url, version=cfg.get("bijgewerkt")))
+
+    return inputs
+
+
+def _attach_provenance(staging_path: Path, cfg: dict, source_name: str,
+                       method: str) -> None:
+    """Schrijf het provenance-blok (incl. trust=unreviewed) in de staging-MD."""
+    inputs = _resolve_inputs(cfg, source_name, method)
+    prov = make_provenance(
+        inputs=inputs,
+        pipeline="tools/etl/convert.py",
+        repo_root=ROOT,
+    )
+    prov.trust = Trust(status="unreviewed", confirmed_by="default")
+    write_provenance(staging_path, prov)
+
+
+# ─── Cleanup-stappenkeuze ─────────────────────────────────────────────────────
+
+def _cleanup_steps_for(cfg: dict, method: str) -> list[str]:
+    """Bepaal de cleanup-stappen voor deze bron.
+
+    - pdftotext_ejustice: DEFAULT_STEPS + `cfg.cleanup` (bron-specifiek).
+    - custom_wetboek/custom_wib92: extractor heeft al fix_broken_words +
+      merge_wrapped_lines + merge_heading_continuations toegepast; we draaien
+      enkel de niet-overlappende stappen plus eventuele bron-specifieke.
+    - justel_html / justel_bs_bilingual: extractor levert al schone tekst;
+      we beperken cleanup tot collapse_blank_lines.
+    """
+    if method == "pdftotext_ejustice":
+        steps = list(DEFAULT_STEPS) + list(cfg.get("cleanup", []))
+        return steps
+    if method in ("custom_wetboek", "custom_wib92"):
+        # Body is al grotendeels schoon; geen toc-removal of artefact-stripping
+        # die het reeds geconverteerde markdown zou kunnen breken.
+        return ["collapse_blank_lines"] + list(cfg.get("cleanup", []))
+    if method in ("justel_html", "justel_bs_bilingual"):
+        return ["collapse_blank_lines"]
+    return list(DEFAULT_STEPS)
+
+
+# ─── Diff-helper ──────────────────────────────────────────────────────────────
+
+def _show_diff(left: Path, right: Path) -> None:
+    if not left.exists() or not right.exists():
+        print(f"  Diff niet mogelijk: ontbrekend bestand ({left.name} of {right.name})")
+        return
+    result = subprocess.run(
+        ["git", "--no-pager", "diff", "--no-index", "--color=never",
+         str(left), str(right)],
+        cwd=ROOT,
+    )
+    if result.returncode == 0:
+        print("  Geen verschillen.")
+
+
+# ─── Kern-pipeline ────────────────────────────────────────────────────────────
+
+def convert_one(source_name: str, *, dry_run: bool = False,
+                show_diff: bool = False) -> Path | None:
+    """Converteer één bron naar `data/etl-staging/<source_name>.md`."""
+    config = load_config()
+    cfg = get_source(source_name, config)
+    method = resolve_method(cfg)
     status = cfg.get("status", "onbekend")
 
     print(f"\n{'='*60}")
-    print(f"Bron: {name}  |  methode: {methode}  |  status: {status}")
+    print(f"Bron: {source_name}  |  methode: {method}  |  status: {status}")
 
-    # handcrafted / skip: geen conversie via convert.py
-    if methode in ("handcrafted", "skip"):
-        print(f"  → Geen conversie (methode={methode})")
-        if cleanup_only and cfg.get("output"):
-            cleanup_in_place(cfg, name, dry_run, show_diff)
-        return
+    if method in ("handcrafted", "skip"):
+        print(f"  Skip — methode={method} (geen conversie nodig)")
+        return None
+    if method in ("derived", "split"):
+        print(f"  Skip — methode={method} (afgeleide bron; fase B2 herziet dit)")
+        return None
 
-    # derived / split: afgeleid uit een andere bron via een splits-tool
-    if methode in ("derived", "split"):
-        extract = cfg.get("extract", {})
-        params = extract.get("params", {}) if isinstance(extract, dict) else {}
-        afgeleid_uit = params.get("afgeleid_uit") or cfg.get("derived_from", "?")
-        print(f"  → Afgeleid uit '{afgeleid_uit}' (methode={methode}). "
-              f"Re-genereer via de bijbehorende splits-tool, niet via convert.py.")
-        return
+    handler = get_handler(method)
+    if handler is None:
+        print(f"  Geen handler voor extract.method={method!r}")
+        return None
 
-    try:
-        if cleanup_only:
-            cleanup_in_place(cfg, name, dry_run, show_diff)
-        elif methode in ("custom_wib92", "wib92"):
-            convert_wib92(cfg, name, dry_run)
-        elif methode in ("custom_wetboek", "wetboek"):
-            convert_wetboek(cfg, name, dry_run)
-        elif methode == "pdftotext_ejustice":
-            # Bepaal of tweetalig uit extract.params of legacy nl_col_x-veld
-            extract = cfg.get("extract", {})
-            params = extract.get("params", {}) if isinstance(extract, dict) else {}
-            bilingual = params.get("bilingual", False)
-            convert_ejustice(cfg, name, bilingual=bilingual, dry_run=dry_run)
-        elif methode in ("ejustice_nl", "ejustice_bilingual", "raw_md"):
-            # Legacy methode-namen als fallback
-            bilingual = methode == "ejustice_bilingual"
-            convert_ejustice(cfg, name, bilingual=bilingual, dry_run=dry_run)
-        elif methode == "justel_html":
-            convert_justel_html(cfg, name, dry_run=dry_run)
-        elif methode == "justel_bs_bilingual":
-            convert_justel_bs_bilingual(cfg, name, dry_run=dry_run)
-        else:
-            print(f"  ⚠️  Onbekende methode: {methode}")
-            return
+    # 1. Extract
+    print(f"  → Extractie via lib.extractors.{method}")
+    raw_text = handler(cfg, source_name)
 
-        if do_reindex and not dry_run:
-            reindex(name, cfg)
+    # 2. Cleanup op de body (frontmatter komt erna; preserve_frontmatter=False
+    #    omdat we nog geen frontmatter hebben).
+    steps = _cleanup_steps_for(cfg, method)
+    if steps:
+        print(f"  → Cleanup: {steps}")
+        raw_text = run_pipeline(raw_text, steps=steps, preserve_frontmatter=False)
 
-    except FileNotFoundError as e:
-        print(f"  ❌ Bestand niet gevonden: {e}")
-    except Exception as e:
-        print(f"  ❌ Fout: {e}")
+    # 3. Bouw frontmatter + intro-paragraaf + body. De intro (`# wet`-H1 en
+    #    *Bijgewerkt tot* regel) staat nadrukkelijk NA cleanup, omdat ejustice-
+    #    cleanup-stappen (bv. remove_toc_ejustice) de H1 anders zouden strippen.
+    text = build_initial_frontmatter(cfg, source_name, method) + raw_text.lstrip("\n")
+
+    # 4. Heading-injection + chunk-blok in frontmatter
+    text, info = process_wettekst(text)
+    print(
+        f"  → Headings: ranks={info['ranks']} reduced={info['reduced_ranks']} "
+        f"chunk.level={info['chunk_level']} conversies={info['n_conversies']}"
+    )
+
+    # 5. Schrijven naar staging
+    staging_path = STAGING_DIR / f"{source_name}.md"
+    def _display(p: Path) -> str:
+        try:
+            return str(p.relative_to(ROOT))
+        except ValueError:
+            return str(p)
+
+    if not dry_run:
+        STAGING_DIR.mkdir(parents=True, exist_ok=True)
+        staging_path.write_text(text, encoding="utf-8")
+        # Provenance-blok toevoegen
+        _attach_provenance(staging_path, cfg, source_name, method)
+        print(f"  ✓ Geschreven: {_display(staging_path)}")
+    else:
+        print(f"  (dry-run) {_display(staging_path)} — {len(text):,} tekens")
+
+    if show_diff:
+        original = ROOT / cfg.get("output", "")
+        if cfg.get("output") and original.exists() and staging_path.exists():
+            print(f"  Diff: {original.relative_to(ROOT)} ↔ staging")
+            _show_diff(original, staging_path)
+
+    return staging_path
 
 
-# ---------------------------------------------------------------------------
-# CLI
-# ---------------------------------------------------------------------------
+# ─── CLI ──────────────────────────────────────────────────────────────────────
 
-def cmd_list(config: dict, filter_type: str | None = None,
-             filter_status: str | None = None):
-    """Toon overzicht van alle bronnen."""
+def cmd_list(config: dict, filter_method: str | None = None,
+             filter_status: str | None = None) -> None:
     header = f"{'Naam':<45} {'Methode':<28} {'Status':<12}"
     print(header)
     print("─" * len(header))
     for name, cfg in config.items():
-        methode = _resolve_methode(cfg)
+        method = resolve_method(cfg)
         s = cfg.get("status", "?")
-        if filter_type and methode != filter_type:
+        if filter_method and method != filter_method:
             continue
         if filter_status and s != filter_status:
             continue
-        icon = "✅" if s == "volledig" else ("⚠️ " if s == "toc_only" else "❓")
-        print(f"{name:<45} {methode:<28} {icon} {s}")
-
-    toc = sum(1 for c in config.values() if c.get("status") == "toc_only")
-    volledig = sum(1 for c in config.values() if c.get("status") == "volledig")
-    print(f"\n  Totaal: {len(config)} bronnen — {volledig} volledig, {toc} toc_only")
+        print(f"{name:<45} {method:<28} {s}")
 
 
-def main():
-    parser = argparse.ArgumentParser(description="Certificaid bronnen conversie-pipeline")
-    parser.add_argument("--source", help="Naam van de bron (uit source_config.yaml)")
-    parser.add_argument("--type", help="Verwerk alle bronnen van dit type")
-    parser.add_argument("--status", help="Filter op status (volledig|toc_only)")
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Certificaid bronnen-ETL — in-process orchestrator (ADR-005 §2)"
+    )
+    parser.add_argument("--source", help="Naam van de bron uit source_config.yaml")
+    parser.add_argument("--all", action="store_true",
+                        help="Alle bronnen behalve handcrafted/derived")
     parser.add_argument("--list", action="store_true", help="Toon overzicht")
-    parser.add_argument("--cleanup-only", action="store_true",
-                        help="Alleen cleanup toepassen, niet herconverteren")
-    parser.add_argument("--diff", action="store_true", help="Toon diff na cleanup")
+    parser.add_argument("--diff", action="store_true",
+                        help="Toon git-diff tussen huidige resources/bronnen en staging")
     parser.add_argument("--dry-run", action="store_true",
-                        help="Simuleer — schrijf niets naar schijf")
-    parser.add_argument("--reindex", action="store_true",
-                        help="Re-index in ChromaDB na conversie")
+                        help="Pipeline draaien zonder naar staging te schrijven")
+    parser.add_argument("--method", help="Filter --list op extract.method")
+    parser.add_argument("--status", help="Filter --list op status")
     args = parser.parse_args()
 
     config = load_config()
 
     if args.list:
-        cmd_list(config, filter_type=args.type, filter_status=args.status)
+        cmd_list(config, filter_method=args.method, filter_status=args.status)
         return
 
-    # Selecteer bronnen
     if args.source:
-        sources = {args.source: get_source(args.source, config)}
-    elif args.type:
-        # "toc_only" als type-alias voor status-filter
-        if args.type == "toc_only":
-            sources = {n: c for n, c in config.items() if c.get("status") == "toc_only"}
-        else:
-            sources = {n: c for n, c in config.items() if _resolve_methode(c) == args.type}
-        if not sources:
-            print(f"Geen bronnen gevonden voor type='{args.type}'")
-            return
-    else:
-        parser.print_help()
+        convert_one(args.source, dry_run=args.dry_run, show_diff=args.diff)
         return
 
-    for name, cfg in sources.items():
-        process_source(
-            name, cfg,
-            cleanup_only=args.cleanup_only,
-            dry_run=args.dry_run,
-            show_diff=args.diff,
-            do_reindex=args.reindex,
-        )
+    if args.all:
+        skipped = 0
+        done = 0
+        for name, cfg in config.items():
+            method = resolve_method(cfg)
+            if method in ("handcrafted", "skip", "derived", "split"):
+                skipped += 1
+                continue
+            try:
+                convert_one(name, dry_run=args.dry_run, show_diff=False)
+                done += 1
+            except Exception as e:
+                print(f"  ERR: {name}: {e}")
+        print(f"\n✓ Klaar: {done} verwerkt, {skipped} overgeslagen.")
+        return
 
-    print(f"\n✓ Klaar ({len(sources)} bron(nen) verwerkt).")
+    parser.print_help()
 
 
 if __name__ == "__main__":
