@@ -2,9 +2,14 @@
 tags: ["X", "2.8"]
 itaa-lex-sectie: "X"
 wet: "Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "26.06.2003"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/EU-Richtlijn-interest-royalties-2003-49.pdf
@@ -12,28 +17,49 @@ provenance:
       version: 26.06.2003
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
+  generated_at: '2026-05-09T16:15:48Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 2
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 11
+      max_section_chars: 8152
+      file_size_chars: 24372
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: Richtlijn 2003/49/EG met 11 Art.-vermeldingen op H2. Body leesbaar, soft hyphens maar woorden intact.
+      problemen: []
+      sterkte:
+        - 11 artikelen herkenbaar
+        - Compleet
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten
 
 *Bijgewerkt tot en met 26.06.2003 — gecoördineerde versie.*
-
 
 NL
 

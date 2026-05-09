@@ -24,10 +24,42 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+    layer1:
+      verdict: warn
+      heading_count: 888
+      max_section_chars: 28649
+      file_size_chars: 390117
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 28649 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: needs-rework
+      rationale: "Lange TOC vooraan (regel 38-260+) met dotted leaders waarvan veel hoofdstuk-headings als ## zijn opgenomen, dat verdubbelt de TOC met de echte body-headings die later komen — RAG-hits op TOC zijn ruis. Body zelf is leesbaar NL, met page-footers (L 347/x) en losstaande 'NL' regels. Warn op max_section_size suggereert grote secties, maar de echte structuur (TITEL/HOOFDSTUK/Art.) is grotendeels intact in de body. Wegwerken van TOC zou dit naar trusted brengen."
+      problemen:
+        - regel: 39
+          type: other
+          voorbeeld: '### TITEL I - VOORWERP EN TOEPASSINGSGEBIED . . . . . . . . . . . — TOC-heading dupliceert body-heading'
+        - regel: 76
+          type: other
+          voorbeeld: L 347/6 / NL als losse paginafooter-regels in body
+      sterkte:
+        - 616 Art.-vermeldingen in body
+        - Hoofdstuk- en titel-niveau intact
+      auto: false
+      run_id: qa-batch-W1
 chunk:
   level: 6
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
 ---
 
 # Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde

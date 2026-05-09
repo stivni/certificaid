@@ -1,5 +1,7 @@
 ---
-tags: [norm, itaa]
+tags:
+  - norm
+  - itaa
 naam: "Gedragslijnen inzake de betrekkingen tussen IBR en IAB/ITAA"
 type: norm
 itaa-lex-sectie: "XXI"
@@ -10,53 +12,111 @@ themas:
   - bedrijfsrevisor
   - gedeelde opdrachten
 bron: itaa.be
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
 provenance:
   inputs:
     - id: itaa.be
       sha256:
       version:
   tooling:
-    pipeline: tools/etl/process_normen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:52Z'
+  generated_at: '2026-05-09T19:12:06Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    qa_version: qa-20260508-rerun2
-    confirmed_at: '2026-05-08T08:29:24Z'
-    confirmed_by: subagent-sonnet-general-purpose-batch3
-    rationale: 'Alle 6 principes met correcte ## headings. Drie kleine OCR-restanten (enlof, confratemele, dentologische) zijn cosmetisch en tasten de semantische kwaliteit niet aan.'
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 7570
+      file_size_chars: 7570
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: needs-rework
+      rationale: "Korte norm met 0 ## headings (chunk.level=2 expects ##) — alle 'principes' staan als plain text-titels. Veel OCR-fouten: 'fmanciële' (financiële), 'WIe' (wie), 'enlof' (en/of), 'dentologische' (deontologische), 'confratemele' (confraternele), 'Fisalisten' (Fiscalisten). Komma's vervangen door komma + dubbele aanhalingstekens (',\"' i.p.v. ';' aan einde van considerans-clausules)."
+      problemen:
+        - regel: 60
+          type: ocr-confusion
+          voorbeeld: "'Fisalisten' moet 'Fiscalisten' zijn (l→l ontbreekt)"
+        - regel: 97
+          type: ocr-confusion
+          voorbeeld: "'fmanciële' moet 'financiële' zijn (m i.p.v. in)"
+        - regel: 108
+          type: ocr-confusion
+          voorbeeld: "'voor WIe een opdracht wordt' — 'WIe' moet 'wie' zijn"
+        - regel: 144
+          type: ocr-confusion
+          voorbeeld: "'specifieke dentologische bepalingen' — moet 'deontologische' zijn"
+        - regel: 170
+          type: ocr-confusion
+          voorbeeld: "'confratemele bijstand' — moet 'confraternele' zijn (rn→m)"
+        - regel: 111
+          type: missing-section
+          voorbeeld: "0 ## headings; 'Eerste principe', 'Tweede principe' enz. staan als plain text — niet als ## zoals chunk-config (level=2) verwacht"
+        - regel: 49
+          type: ocr-confusion
+          voorbeeld: Considerans eindigt op ',"' i.p.v. ';' — herhaald in 8+ regels
+      sterkte:
+        - Tekst van 6 principes en 7 definities is wel volledig
+        - Goedkeuringsdatum en inwerkingtredingsdatum (1 juni 2008) bewaard
+      auto: false
+      run_id: qa-batch-normen
 ---
-
-# Gedragslijnen Relaties Ibr
-
-GEDRAGSLIJNEN INZAKE DE BEROEPSRELATIES TUSSEN DE LEDEN VAN
+GEDRAGSLIJNEN INZAKE DE BEROEPSRELATlES TUSSEN DE LEDEN VAN
 HET IBR, HET IAB EN HET BIBF
 
 Overwegende:
+
 Dat de drie Instituten duidelijk hun wil hebben uitgedrukt om de evenwichtige
 interprofessionele relaties tussen hun leden te promoten ,"
+
 Dat deze wil zal worden gerealiseerd door middel van een coherente en systematische
 toepassing van de confraterniteitsprincipes ,"
+
 Dat deze principes toegepast moeten worden op de relaties tussen de leden van de drie
 Instituten op het vlak van de boekhoudkundige expertise (intern enlof extern), van de
 boekhouding en van de fiscaliteit, alsook, voor zover de wet zich hier niet tegen verzet, van
 de wettelijke controleopdrachten ,"
+
 Dat deze principes evenwel als zodanig niet van toepassing zijn op de relaties tussen de leden
 van eenzelfde Instituut, in de mate waarin meer specifieke aanvullende regels zijn voorzien ,"
+
 Dat de drie Instituten hebben beslist een ontwerp van gedragslijnen voor advies over te
 maken aan de Hoge Raad voor de Economische Beroepen ,"
+
 Dat deze beslissing respectievelijk werd genomen door:
-de Nationale Raad van het Beroepsinstituut van erkende Boekhouders en Fisalisten op
-24 september 2004 ,"
-de Raad van het Instituut der Bedrijfsrevisoren op 29 oktober 2004 ,"
-de Raad van het Instituut van de Accountants en de Belastingconsulenten op 6 december
-2004,"
+
+    de Nationale Raad van het Beroepsinstituut van erkende Boekhouders en Fisalisten op
+    24 september 2004 ,"
+    de Raad van het Instituut der Bedrijfsrevisoren op 29 oktober 2004 ,"
+    de Raad van het Instituut van de Accountants en de Belastingconsulenten op 6 december
+    2004,"
+
 Dat rekening werd gehouden met het advies van 19 juli 2005 van de Hoge Raad voor de
 Economische Beroepen betreffende deze gedragslijnen ,"
+
 Dat deze gedragslijnen de plichtenleer van de respectievelijke Instituten, vastgesteld bij de
 koninklijke besluiten van 10 januari 1994 (IBR), 23 december 1997 (BIB - thans BIBF) en 1
 maart 1998 (IDAC - thans IAB), nader invullen en derhalve steeds dienen gelezen te worden
@@ -65,38 +125,44 @@ Dat deze gedragslijnen de bestaande deontologische aanbevelingen betreffende de
 wederzijdse relaties in het kader van de beroepsuitoefening die van kracht waren tussen
 enerzijds het IDAC (nu het IAB) en het BIB (thans BIBF), alsook deze die van kracht waren
 tussen het IDAC (thans IAB) en het IBR, vervangen;
+
 Dat deze gedragslijnen werden goedgekeurd door:
-de Nationale Raad van het Beroepsinstituut van Erkende Boekhouders en Fiscalisten op
-21 maart 2008
-de Raad van het Instituut van de Bedrijfsrevisoren op 11 april 2008
-de Raad van het Instituut van de Accountants en de Belastingconsulenten op 5 mei 2008
+
+     de Nationale Raad van het Beroepsinstituut van Erkende Boekhouders en Fiscalisten op
+     21 maart 2008
+     de Raad van het Instituut van de Bedrijfsrevisoren op 11 april 2008
+     de Raad van het Instituut van de Accountants en de Belastingconsulenten op 5 mei 2008
 
 Dat deze gedragslijnen van kracht worden op 1 juni 2008;
 
-## Definities
+Definities
 
 De woorden "leden van een ander Instituut" verwijzen naar de leden van het IBR, het IAB en
 het BIBF.
+
 Een "niet-permanente controleopdracht" is een opdracht, voorzien door of krachtens de wet,
-die geen commissarismandaat is, die erin bestaat financiële informatie te controleren en die
+die geen commissarismandaat is, die erin bestaat fmanciële informatie te controleren en die
 resulteert in een verslag waarvan derden, volledig of gedeeltelijk, kennis kunnen nemen.
+
 De "gewoonlijke raadgever" is degene die op recurrente wijze dienstverleningen verricht
 zoals vermeld in artikel 183ter van het K.B. van 30 januari 2001 tot uitvoering van het
 Wetboek van vennootschappen.
+
 Een "recurrente opdracht" is de assisterende of raadgevende opdracht die voortvloeit uit een
 overeenkomst van onbepaalde duur, of uit herhaalde overeenkomsten van bepaalde duur
 waarvan de totale looptijd één jaar overschrijdt.
-De "entiteit" is de rechtspersoon of natuurlijke persoon voor wie een opdracht wordt
+
+De "entiteit" is de rechtspersoon of natuurlijke persoon voor WIe een opdracht wordt
 uitgevoerd.
 
-## Eerste principe - Aanvaarding van een controleopdracht
+Eerste principe - Aanvaarding van een controleopdracht
 
 Alvorens een niet-permanente controleopdracht te aanvaarden, mag de bedrijfsrevisor of de
 externe accountant - noch hijzelf, noch een persoon met wie hij beroepshalve in
 samenwerkingsverband staat -, zich in een situatie bevinden of hebben bevonden in de loop
 van de twee jaren voorafgaand aan de opdracht die zijn onafhankelijkheid in vraag stelt in de
 entiteit die het voorwerp uitmaakt van de controleopdracht.
-## Tweede principe - Aanvaarding van een raadgevende opdracht
+Tweede principe - Aanvaarding van een raadgevende opdracht
 
 Na het uitvoeren van een niet-permanente controleopdracht in een entiteit waarvan een lid
 van een ander Instituut de gewoonlijke raadgever is, dient de bedrijfsrevisor of externe
@@ -106,7 +172,7 @@ Instituut op te volgen in zijn functie van gewoonlijke raadgever in deze entitei
 verzaking loopt twee jaar na de datum van de ondertekening van het verslag. Deze verzaking
 betreft geen aanvaarding van een nieuwe controleopdracht.
 
-## Derde principe - Meningsverschil
+Derde principe - Meningsverschil
 
 Wanneer het lid van een Instituut, dat geen commissarismandaat bekleedt, op aanzienlijke
 wijze de werkzaamheden of de attestering van een lid van een ander Instituut in vraag stelt,
@@ -119,13 +185,14 @@ onmiddellijk de geformuleerde opmerkingen te onderzoeken en een met zorg en
 voorzichtigheid opgesteld antwoord te verschaffen. De ene enlof andere beroepsbeoefenaar
 zullen, indien nodig, het advies van een confrater of raadsman inwinnen.
 
-## Vierde principe - Contacten met de voorganger
+Vierde principe - Contacten met de voorganger
 
 Zonder afbreuk te doen aan de aan de commissaris voorbehouden wettelijke opdrachten en
 aan de specifieke dentologische bepalingen eigen aan elk Instituut, dient het lid van een
 Instituut, vooraleer een opdracht te aanvaarden, de entiteit te ondervragen over het feit dat
 een lid van een ander Instituut deze opdracht vervult of vervuld heeft in de loop van de 12
 vorige maanden.
+
 Zonder afbreuk te doen aan de aan de commissaris voorbehouden wettelijke opdrachten,
 dient het lid van een Instituut dat wordt gevraagd om binnen een termijn van 12 maanden een
 lid van een ander Instituut op te volgen binnen dezelfde opdracht, voorafgaand contact op te
@@ -133,21 +200,23 @@ nemen met zijn voorganger, zelfs indien de opvolging niet onmiddellijk plaatsvin
 van het ander Instituut dient, in de mate waarin het beroepsgeheim zich hiertegen niet verzet,
 zijn opvolger in kennis te stellen van alle elementen die, indien de betrokken opvolger
 hiervan op de hoogte was, hem ertoe zouden kunnen leiden de opdracht te weigeren.
+
 De contacten tussen voorganger en opvolger zullen van die aard zijn dat een bewijs kan
 worden geleverd van de naleving van voornoemde gedragslijnen.
-## Vijfde principe - Onbetaalde erelonen
+Vijfde principe - Onbetaalde erelonen
 
 Onverminderd de striktere deontologische bepalingen eigen aan elk beroep, is de opvolger
 gehouden te informeren naar de betaling van de verschuldigde en onbetwiste erelonen van
 zijn voorganger. Desgevallend dient de opvolger er bij de entiteit op aan te dringen deze
 erelonen te betalen.
 
-## Zesde principe - Overdracht van het dossier
+Zesde principe - Overdracht van het dossier
 
 Onverminderd de bepalingen inzake het beroepsgeheim, dient de voorganger, onverwijld en
 losstaand van de betaling van zijn erelonen, alle documenten, ongeacht de drager, eigendom
 van de cliënt, alsook deze die vallen onder de wederzijdse confratemele bijstand en
 hoffelijkheid, ter beschikking te stellen van de entiteit of van het lid van een ander Instituut
 dat hem opvolgt.
+
 De voorganger dient een inventaris op te maken in tweevoud, die door hem en zijn geldig
 gevolmachtigde opvolger of door de entiteit zullen worden gedateerd en getekend.

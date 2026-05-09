@@ -29,6 +29,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 12 headings en behandelt grensoverschrijdende splitsingen met correct juridisch kader en voorbeelden. Geen tabelcorruptie vastgesteld.'
+    layer1:
+      verdict: warn
+      heading_count: 12
+      max_section_chars: 26134
+      file_size_chars: 52017
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 26134 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
   - titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve

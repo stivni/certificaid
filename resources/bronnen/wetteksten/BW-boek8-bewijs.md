@@ -2,9 +2,14 @@
 tags: ["XI", "3.1"]
 itaa-lex-sectie: "XI"
 wet: "Burgerlijk Wetboek — Boek 8 — Bewijs"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/BW-boek8-bewijs.pdf
@@ -12,31 +17,79 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
+  generated_at: '2026-05-09T16:15:41Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 4
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 101
+      max_section_chars: 953
+      file_size_chars: 21268
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: BW-boek 8 (Bewijs), 77 artikelen, structuur correct. Schoon NL.
+      problemen: []
+      sterkte:
+        - Compleet
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # Burgerlijk Wetboek — Boek 8 — Bewijs
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
 
+## HOOFDSTUK 1. - Algemene bepaling
+
+#### Art. 1
+
+Deze wet regelt een aangelegenheid als bedoeld in artikel 74 van de Grondwet.
+
+## HOOFDSTUK 2. - Nieuw Burgerlijk Wetboek
+
+#### Art. 2
+
+[1 Er wordt een Burgerlijk Wetboek ingevoerd, bestaande uit de volgende boeken:
+   1° Boek 1. Algemene bepalingen;
+   2° Boek 2. Personen, familie en relatievermogensrecht;
+   3° Boek 3. Goederen;
+   4° Boek 4. Nalatenschappen, schenkingen en testamenten;
+   5° Boek 5. Verbintenissen;
+   6° Boek 6. Buitencontractuele aansprakelijkheid;
+   7° Boek 7. Bijzondere overeenkomsten;
+   8° Boek 8. Bewijs;
+   9° Boek 9. Zekerheden;
+   10° Boek 10. Verjaring.]1
+  Te rekenen van de inwerkingtreding van de onderhavige wet, zal het Burgerlijk Wetboek van 21 maart 1804 het opschrift "oud Burgerlijk Wetboek" dragen.
+  ----------
+  (1)<W 2022-04-28/25, art. 1, 002; Inwerkingtreding : 01-01-2023>
+
+## HOOFDSTUK 3. - Inhoud van boek 8 "Bewijs" in het nieuw Burgerlijk Wetboek
+
 #### Art. 3
 
-## Boek 8 van het bij artikel 2 ingevoerde Burgerlijk Wetboek, bevat de volgende bepalingen: (NOTA : Voor het boek 8, zie : 2019-04-13/29)
+Boek 8 van het bij artikel 2 ingevoerde Burgerlijk Wetboek, bevat de volgende bepalingen: (NOTA : Voor het boek 8, zie : 2019-04-13/29)
 
 ## HOOFDSTUK 4. - Wijzigingsbepalingen
 
@@ -391,7 +444,11 @@ De wet van 29 april 2013 betreffende de door de advocaten van de partijen medeon
 #### Art. 75
 
 Deze wet treedt in werking op de eerste dag van de achttiende maand na die waarin ze is bekendgemaakt in het Belgisch Staatsblad.
-  Artikel 8.15, tweede lid, van boek 8, ingevoegd bij artikel 3 van deze wet, treedt evenwel maar in werking op de datum bepaald in artikel 26, eerste lid, 2°, van de wet van 6 mei 2009 houdende diverse bepalingen en artikel 8.26, § 1, 1°, tweede lid, van hetzelfde boek treedt maar in werking op de datum bepaald in artikel 26, eerste lid,
+#### Art. 8
+
+15, tweede lid, van boek 8, ingevoegd bij artikel 3 van deze wet, treedt evenwel maar in werking op de datum bepaald in artikel 26, eerste lid, 2°, van de wet van 6 mei 2009 houdende diverse bepalingen en artikel 8.26, § 1, 1°, tweede lid, van hetzelfde boek treedt maar in werking op de datum bepaald in artikel 26, eerste lid,
  3°, van voormelde wet.
-  Artikel 8.22, 3°, van boek 8, ingevoegd bij artikel 3 van deze wet, is slechts van toepassing op de feiten die zich voordoen na de datum van inwerkingtreding van deze wet, zoals bepaald in het eerste lid van dit artikel.
+#### Art. 8
+
+22, 3°, van boek 8, ingevoegd bij artikel 3 van deze wet, is slechts van toepassing op de feiten die zich voordoen na de datum van inwerkingtreding van deze wet, zoals bepaald in het eerste lid van dit artikel.
 

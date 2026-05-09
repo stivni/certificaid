@@ -47,6 +47,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: '[Laag-2-R2 2026-05-08] 33 headings, 12 praktische toepassingen elk met eigen subheading. Inhoud volledig coherent.'
+    layer1:
+      verdict: warn
+      heading_count: 44
+      max_section_chars: 26531
+      file_size_chars: 82395
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 26531 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge

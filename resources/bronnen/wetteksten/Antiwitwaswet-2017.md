@@ -2,9 +2,14 @@
 tags: ["XVII", "4.0"]
 itaa-lex-sectie: "XVII"
 wet: "Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy: "per_definitieblok"
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Antiwitwaswet-2017.pdf
@@ -12,22 +17,45 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:31Z'
+  generated_at: '2026-05-09T16:15:23Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 6
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 305
+      max_section_chars: 6412
+      file_size_chars: 379952
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: Frontmatter compleet, Art.-headings op chunk.level=6, alle definities en wijzigingsbrackets [1...]1 intact. Body is consistent NL, geen kolom-bleed. 221 Art.-vermeldingen in body lopen door tot het einde van de wet.
+      problemen: []
+      sterkte:
+        - Definities-blok intact
+        - Wijzigingsbrackets correct getypeset
+        - Geen FR-leak
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme
@@ -437,8 +465,7 @@ De toezichtautoriteiten die bevoegd zijn op grond van artikel 85 kunnen beslisse
   (2)<W 2024-02-09/19, art. 165, 022; Inwerkingtreding : 31-03-2024>
 
 
-##### Afdeling 2. - Verplichtingen tot identificatie en identiteitsverificatie
-##### Onderafdeling 1. - Te identificeren personen
+##### Afdeling 2. - Verplichtingen tot identificatie en identiteitsverificatie - Onderafdeling 1. - Te identificeren personen
 
 ###### Art. 21
 
@@ -498,7 +525,7 @@ De onderworpen entiteiten die elektronisch geld uitgeven, kunnen op basis van ee
    (1)<W 2020-07-20/12, art. 42, 008; Inwerkingtreding : 15-08-2020>
    (2)<W 2020-07-20/12, art. 42,d, 008; Inwerkingtreding : 10-07-2020>
 
-##### Onderafdeling 2. - Voorwerp van de identificatie en de identiteitsverificatie
+##### Afdeling 2. - Verplichtingen tot identificatie en identiteitsverificatie - Onderafdeling 2. - Voorwerp van de identificatie en de identiteitsverificatie
 
 ###### Art. 26
 
@@ -550,7 +577,7 @@ De onderworpen entiteiten die elektronisch geld uitgeven, kunnen op basis van ee
    ----------
    (1)<W 2020-07-20/12, art. 44, 008; Inwerkingtreding : 15-08-2020>
 
-##### Onderafdeling 3. - Tijdstip van de identificatie en de identiteitsverificatie
+##### Afdeling 2. - Verplichtingen tot identificatie en identiteitsverificatie - Onderafdeling 3. - Tijdstip van de identificatie en de identiteitsverificatie
 
 ###### Art. 30
 
@@ -569,7 +596,7 @@ In afwijking van artikel 30, eerste en tweede lid, mogen de onderworpen entiteit
 
 De onderworpen entiteiten die elektronisch geld uitgeven, kunnen op basis van een passende beoordeling van het WG/FT-risico overeenkomstig artikel 16, die aantoont dat dit risico laag is, afwijken van artikel 30, eerste en tweede lid, ten aanzien van cliënten in het kader van de uitgifte van elektronisch geld, indien alle risicobeperkende voorwaarden van artikel 25 vervuld zijn.
 
-##### Onderafdeling 4. - Niet-nakoming van de verplichting tot identificatie en identiteitsverificatie
+##### Afdeling 2. - Verplichtingen tot identificatie en identiteitsverificatie - Onderafdeling 4. - Niet-nakoming van de verplichting tot identificatie en identiteitsverificatie
 
 ###### Art. 33
 
@@ -2344,13 +2371,17 @@ De koninklijke besluiten, de reglementen en alle andere handelingen van reglemen
   BIJLAGEN.
 
 ###### Art. N1. Bijlage 1.
-   Artikel 1. De variabelen die de onderworpen entiteiten ten minste in overweging nemen in hun integrale risicobeoordeling bedoeld in artikel 16, tweede lid, zijn de volgende :
+###### Art. 1
+
+De variabelen die de onderworpen entiteiten ten minste in overweging nemen in hun integrale risicobeoordeling bedoeld in artikel 16, tweede lid, zijn de volgende :
    1° het doel van een rekening of een relatie;
    2° de omvang van de activa die door een cliënt worden gedeponeerd of de omvang van de gesloten verrichtingen;
    3° de regelmaat of de duur van de zakelijke relatie.
 
 ###### Art. N2. Bijlage 2.
-   Artikel 1. De indicatieve factoren van een potentieel lager risico bedoeld in de artikelen 16, tweede lid, en 19, § 2, zijn de volgende :
+###### Art. 1
+
+De indicatieve factoren van een potentieel lager risico bedoeld in de artikelen 16, tweede lid, en 19, § 2, zijn de volgende :
    1° cliëntgebonden risicofactoren :
    a) beursgenoteerde vennootschappen die onderworpen zijn aan informatievereisten (op grond van het beursreglement of krachtens wettelijke of afdwingbare middelen) welke voorschriften omvatten om toereikende transparantie betreffende de uiteindelijke begunstigden te garanderen;
    b) overheden of overheidsbedrijven;
@@ -2370,7 +2401,9 @@ De koninklijke besluiten, de reglementen en alle andere handelingen van reglemen
    (1)<W 2020-07-20/12, art. 143, 008; Inwerkingtreding : 15-08-2020>
 
 ###### Art. N3. Bijlage 3.
-  Artikel 1. De indicatieve factoren van een potentieel hoger risico bedoeld in de artikelen 16, tweede lid, en 19, § 2, zijn de volgende :
+###### Art. 1
+
+De indicatieve factoren van een potentieel hoger risico bedoeld in de artikelen 16, tweede lid, en 19, § 2, zijn de volgende :
   1° cliëntgebonden risicofactoren :
   a) de zakelijke relatie vindt plaats in ongebruikelijke omstandigheden;
   b) de cliënten die inwoner zijn van geografische gebieden met een hoog risico bedoeld onder 3° ;
@@ -2395,7 +2428,9 @@ De koninklijke besluiten, de reglementen en alle andere handelingen van reglemen
    (1)<W 2020-07-20/12, art. 144, 008; Inwerkingtreding : 15-08-2020>
 
 ###### Art. N4.[1 Lijst van functies die als prominente publieke functie worden aangeduid overeenkomstig artikel 41, § 4, eerste lid
-    Artikel 1. De volgende functies zijn prominent publieke functies als bedoeld in artikel 4, 28° :
+###### Art. 1
+
+De volgende functies zijn prominent publieke functies als bedoeld in artikel 4, 28° :
     1° staatshoofden, regeringsleiders, ministers en staatssecretarissen :
     a) de Koning;
     b) de Eerste minister, Minister-president, Vice-Eerste ministers, Viceministers-President, ministers en staatssecretarissen;

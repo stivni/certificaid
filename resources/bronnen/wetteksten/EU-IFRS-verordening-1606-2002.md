@@ -2,9 +2,14 @@
 tags: ["1.2", "1.5"]
 itaa-lex-sectie: ""
 wet: "Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen"
+bron_rol: "normatief"
 status: "beschikbaar"
 bijgewerkt: "11.09.2002"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/EU-IFRS-verordening-1606-2002.pdf
@@ -12,28 +17,49 @@ provenance:
       version: 11.09.2002
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
+  generated_at: '2026-05-09T16:15:49Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 2
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 11
+      max_section_chars: 12539
+      file_size_chars: 18624
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: Verordening 1606/2002 met 11 artikelen op H2 (chunk.level=2). Body leesbaar, soft hyphens uit PDF maar woorden intact. Geen kolom-bleed.
+      problemen: []
+      sterkte:
+        - 11 artikelen herkenbaar
+        - Volledige overwegingen
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen
 
 *Bijgewerkt tot en met 11.09.2002 — gecoördineerde versie.*
-
 
 Publicatieblad van de Europese Gemeenschappen
 

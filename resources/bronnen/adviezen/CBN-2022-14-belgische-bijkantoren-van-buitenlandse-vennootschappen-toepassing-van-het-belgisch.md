@@ -34,6 +34,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 27 headings en 73 voetnoten. De langste sectie bevat drie samenvattende tabellen (België, EU, buiten EU) met complexe cel-inhoud als Markdown pipe-tabellen. Informatie volledig aanwezig.'
+    layer1:
+      verdict: warn
+      heading_count: 27
+      max_section_chars: 44141
+      file_size_chars: 56475
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 44141 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
   - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0

@@ -38,6 +38,17 @@ provenance:
     confirmed_at:
     confirmed_by:
     rationale:
+    layer1:
+      verdict: warn
+      heading_count: 68
+      max_section_chars: 86893
+      file_size_chars: 588878
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 86893 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-172914
 ---
 
 

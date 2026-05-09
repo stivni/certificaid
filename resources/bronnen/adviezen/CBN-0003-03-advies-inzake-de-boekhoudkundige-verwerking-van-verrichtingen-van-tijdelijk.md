@@ -33,6 +33,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: '[Laag-2-R2 2026-05-08] 51 headings met duidelijke hiërarchie per integratiemethode. De grote sectie bevat geneste voorbeelden maar alle methoden zijn volledig uitgewerkt.'
+    layer1:
+      verdict: warn
+      heading_count: 54
+      max_section_chars: 26578
+      file_size_chars: 82581
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 26578 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 ---
 
 # ADVIES 3-3 - INZAKE DE BOEKHOUDKUNDIGE VERWERKING VAN VERRICHTINGEN VAN TIJDELIJKE HANDELSVENNOOTSCHAPPEN

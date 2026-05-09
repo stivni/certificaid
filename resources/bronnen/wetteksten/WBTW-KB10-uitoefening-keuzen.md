@@ -2,37 +2,65 @@
 tags: ["VI.B", "2.4"]
 itaa-lex-sectie: "VI.B"
 wet: "K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodaliteiten van de keuzen, bedoeld in de artikelen 15, § 2, derde lid, 21bis, § 2, 9°, vierde lid, 25ter, § 1, tweede lid, 2°, tweede lid en 44, § 3, 2°, d), van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van aanvang, wijziging, stopzetting van activiteit en de voorafgaande kennisgevingen inzake de belasting over de toegevoegde waarde"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "29.12.1992"
-bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
-provenance:
-  inputs:
-    - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
-      sha256: 63ccf3d1b29dd477e24c41deee6a1febe0c3449e4d69013291697d1aa7a0a4d1
-      version: 29.12.1992
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:34Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
 chunk:
   level: 2
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
+provenance:
+  inputs:
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    model:
+    prompt_version:
+  generated_at: '2026-05-09T16:15:18Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 13
+      max_section_chars: 3409
+      file_size_chars: 20636
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: needs-rework
+      rationale: "Heading_count=0 — inhoud staat als 'Artikel N' platte tekst i.p.v. ## Art.-headings. Niet chunkbaar onder huidige chunk-config."
+      problemen:
+        - geen markdown-headings voor artikelen
+      sterkte:
+        - frontmatter correct
+        - volledige tekst
+      auto: false
+      run_id: qa-batch-W2
 ---
 
 # K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodaliteiten van de keuzen, bedoeld in de artikelen 15, § 2, derde lid, 21bis, § 2, 9°, vierde lid, 25ter, § 1, tweede lid, 2°, tweede lid en 44, § 3, 2°, d), van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van aanvang, wijziging, stopzetting van activiteit en de voorafgaande kennisgevingen inzake de belasting over de toegevoegde waarde
 
-*Bijgewerkt tot en met 29.12.1992 — afgesplitst uit de Fisconet-compilatie van 06.03.2020.*
+*Bijgewerkt tot en met 29.12.1992 — gecoördineerde versie.*
 
 Koninklijk besluit nr. 10, van 29 december 1992, met betrekking tot
 de uitoefeningsmodaliteiten van de keuzen, bedoeld in de artikelen
@@ -170,7 +198,7 @@ elke belastingplichtige bedoeld in artikel 53 bis, § 2 van het Wetboek daarvan 
 de bevoegde dienst van de administratie waaronder hij ressorteert.
 
 ## Art. 6
-(De tekst van KB nr. 10, artikel 6, werd vervangen met ingang van 01.01.2020
+(De tekst van KB nr. 10, artikel 6, werd                 vervangen    met    ingang     van    01.01.2020
 (KB 28.06.2019, B.S. 12.07.2019, pg. 70370))
 
 § 1. De belastingplichtigen gehouden tot de indiening van de aangiften bedoeld in de artikelen
@@ -205,20 +233,20 @@ bij ter post aangetekende brief.
 
 Deze brief moet vermelden:
 
-1° de naam of de maatschappelijke benaming van de belastingplichtige en het adres van
-    diens administratieve of maatschappelijke hoofdzetel, alsmede het identificatienummer
-    dat hem krachtens artikel 50 van het Wetboek werd toegekend voor de toepassing van de
-    belasting over de toegevoegde waarde;
+1°    de naam of de maatschappelijke benaming van de belastingplichtige en het adres van
+      diens administratieve of maatschappelijke hoofdzetel, alsmede het identificatienummer
+      dat hem krachtens artikel 50 van het Wetboek werd toegekend voor de toepassing van de
+      belasting over de toegevoegde waarde;
 
-2° de Lid-Staat van aankomst van de verzonden of vervoerde goederen voor dewelke
-    gekozen wordt;
+2°    de Lid-Staat van aankomst van de verzonden of vervoerde goederen voor dewelke
+      gekozen wordt;
 
-3° het identificatienummer dat aan de belastingplichtige in deze Lid-Staat werd toegekend
-    voor de toepassing van de belasting over de toegevoegde waarde;
+3°    het identificatienummer dat aan de belastingplichtige in deze Lid-Staat werd toegekend
+      voor de toepassing van de belasting over de toegevoegde waarde;
 
-4° de datum vanaf wanneer de keuze ingaat;
+4°    de datum vanaf wanneer de keuze ingaat;
 
-5° de datum, alsook de naam en de hoedanigheid van de ondertekenaar van de brief.
+5°    de datum, alsook de naam en de hoedanigheid van de ondertekenaar van de brief.
 
 De overeenkomstig het eerste lid gemaakte keuze gaat in op de datum van de aangifte ter post
 van de brief en geldt tot 31 december van het tweede jaar dat op die datum volgt.
@@ -265,20 +293,20 @@ brengen.
 
 Die brief moet vermelden:
 
-1° de naam of de maatschappelijke benaming van de belastingplichtige en het adres van
-    diens administratieve of maatschappelijke hoofdzetel, alsmede het identificatienummer
-    dat hem krachtens artikel 50 van het Wetboek werd toegekend voor de toepassing van de
-    belasting over de toegevoegde waarde;
+1°    de naam of de maatschappelijke benaming van de belastingplichtige en het adres van
+      diens administratieve of maatschappelijke hoofdzetel, alsmede het identificatienummer
+      dat hem krachtens artikel 50 van het Wetboek werd toegekend voor de toepassing van de
+      belasting over de toegevoegde waarde;
 
-2° de lidstaat of de lidstaten waar de diensten overeenkomstig artikel 21bis, § 2, 9°, eerste
-    lid, van het Wetboek plaatsvinden en waarvoor de keuze wordt gemaakt;
+2°    de lidstaat of de lidstaten waar de diensten overeenkomstig artikel 21bis, § 2, 9°, eerste
+      lid, van het Wetboek plaatsvinden en waarvoor de keuze wordt gemaakt;
 
-3° het identificatienummer dat aan de belastingplichtige in die lidstaat of lidstaten werd
-    toegekend voor de toepassing van de belasting over de toegevoegde waarde;
+3°    het identificatienummer dat aan de belastingplichtige in die lidstaat of lidstaten werd
+      toegekend voor de toepassing van de belasting over de toegevoegde waarde;
 
-4° de datum vanaf wanneer de keuze ingaat;
+4°    de datum vanaf wanneer de keuze ingaat;
 
-5° de datum, alsook de naam en de hoedanigheid van de ondertekenaar.
+5°    de datum, alsook de naam en de hoedanigheid van de ondertekenaar.
 
 De overeenkomstig het eerste lid gemaakte keuze gaat in op datum van de aangetekende
 zending bedoeld in het eerste lid en geldt tot 31 december van het tweede jaar volgend op die
@@ -298,7 +326,7 @@ De minister van Financiën of zijn gemachtigde bepaalt de vorm en de manier waar
 verklaring wordt gedaan.
 
 ## Art. 7quater
-(De tekst van KB nr. 10, artikel 7quater, werd ingevoegd met ingang van 01.01.2019
+(De tekst van KB nr. 10, artikel 7quater, werd ingevoegd             met   ingang    van    01.01.2019
 (Art. 12, KB 07.11.2019, B.S. 25.11.2019, pg. 108072))
 
 § 1. De optie voor de belastingheffing bedoeld in artikel 44, § 3, 2°, d), van het Wetboek
@@ -308,15 +336,15 @@ de partijen.
 
 Deze verklaring bevat de volgende vermeldingen:
 
-1° de naam of de maatschappelijke benaming, het adres en het btw-identificatienummer
-    bedoeld in artikel 50 van het Wetboek, van de verhuurder en de huurder;
+1°    de naam of de maatschappelijke benaming, het adres en het btw-identificatienummer
+      bedoeld in artikel 50 van het Wetboek, van de verhuurder en de huurder;
 
-2° de identificatie van het gebouw of het gedeelte van het gebouw, desgevallend met
-    inbegrip van het bijhorend terrein, waarvan de verhuur belast wordt;
+2°    de identificatie van het gebouw of het gedeelte van het gebouw, desgevallend met
+      inbegrip van het bijhorend terrein, waarvan de verhuur belast wordt;
 
-3° de wilsverklaring van de partijen om de verhuur te belasten;
+3°    de wilsverklaring van de partijen om de verhuur te belasten;
 
-4° de datum waarop de optie uitwerking heeft.
+4°    de datum waarop de optie uitwerking heeft.
 
 § 2. Het opnemen van de vermeldingen bedoeld in paragraaf 1, tweede lid, in de akte die
 tussen de partijen titel vormt van het contract van verhuur, wordt gelijkgesteld met een
@@ -326,7 +354,7 @@ verklaring bedoeld in paragraaf 1.
 optie, moet geen bijkomende verklaring worden opgesteld tussen de partijen.
 
 ## Art. 8
-(De tekst van KB nr. 10, artikel 8 is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   10,   artikel    8    is   van   toepassing     met   ingang     van    01.01.1993
 (KB 29.12.1992))
 
 Dit besluit vervangt het koninklijk besluit nr. 10 van 12 maart 1970 met betrekking tot de
@@ -334,13 +362,13 @@ aangiften van aanvang, wijziging of stopzetting van werkzaamheid op het stuk van
 over de toegevoegde waarde.
 
 ## Art. 9
-(De tekst van KB nr. 10, artikel 9 is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   10,   artikel    9    is   van   toepassing     met   ingang     van    01.01.1993
 (KB 29.12.1992))
 
 Dit besluit treedt in werking op 1 januari 1993.
 
 ## Art. 10
-(De tekst van KB nr. 10, artikel 10 is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   10,   artikel    10   is   van   toepassing     met   ingang     van    01.01.1993
 (KB 29.12.1992))
 
 Onze Minister van Financiën is belast met de uitvoering van dit besluit.
@@ -349,20 +377,20 @@ Bijlage
 Recente wijzigingen
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
-* KB van 07.11.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 7,
+*   KB van 07.11.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 7,
     10, 24, 31, 35, 46 en 56 met betrekking tot de belasting over de toegevoegde waarde
     (B.S. 25.11.2019, pg. 108072)
 
-    Wijzigt met ingang van 05.12.2019 :
-    - het opschrift van het KB (gewijzigd)
-    - art. 1 (vijfde lid, vervangen en zesde lid, ingevoegd)
-    - art. 2 (tussen eerste en tweede lid, nieuw lid ingevoegd)
-    - art. 7ter (nieuw artikel ingevoegd)
+          Wijzigt met ingang van 05.12.2019 :
+               -     het opschrift van het KB (gewijzigd)
+               -     art. 1 (vijfde lid, vervangen en zesde lid, ingevoegd)
+               -     art. 2 (tussen eerste en tweede lid, nieuw lid ingevoegd)
+               -     art. 7ter (nieuw artikel ingevoegd)
 
-    en wijzigt met ingang van 01.01.2019 :
-    - art. 7quater (nieuw artikel ingevoegd)
+          en wijzigt met ingang van 01.01.2019 :
+               -     art. 7quater (nieuw artikel ingevoegd)
 
-* KB van 28.06.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 4, 10,
+*   KB van 28.06.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 4, 10,
     19, 51 en 54 met betrekking tot de belasting over de toegevoegde waarde wat betreft de
     indiening langs elektronische weg van de aangiften van aanvang, wijziging en stopzetting
     van activiteit, de vrijstellingsregeling van belasting, houdende technische aanpassingen
@@ -372,31 +400,31 @@ De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
     intracommunautaire verwerving en invoer van vervoermiddelen, in de zin van artikel 8bis, §
     2, 1°, van het wetboek (B.S. 12.07.2019, pg. 70370)
 
-    Wijzigt met ingang van 22.07.2019 :
-    - art. 1 (eerste en vierde lid, gewijzigd)
-    - art. 2 (eerste lid, gewijzigd)
-    - art. 3 (artikel gewijzigd)
-    - art. 4 (§§ 1 en 2, gewijzigd)
-    - art. 5 (artikel gewijzigd)
-    - art. 7 (eerste lid, werd gewijzigd)
-    - art. 7bis (artikel gewijzigd)
+          Wijzigt met ingang van 22.07.2019 :
+               -     art. 1 (eerste en vierde lid, gewijzigd)
+               -     art. 2 (eerste lid, gewijzigd)
+               -     art. 3 (artikel gewijzigd)
+               -     art. 4 (§§ 1 en 2, gewijzigd)
+               -     art. 5 (artikel gewijzigd)
+               -     art. 7 (eerste lid, werd gewijzigd)
+               -     art. 7bis (artikel gewijzigd)
 
-    en wijzigt met ingang van 01.01.2020 :
-    - art. 6 (artikel vervangen)
+          en wijzigt met ingang van 01.01.2020 :
+               -     art. 6 (artikel vervangen)
 
-* KB van 24.01.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
+*   KB van 24.01.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
     4, 7, 9, 10, 11, 15, 19, 23, 24, 27, 31, 46, 47, 48, 50, 54 en 56 met betrekking tot de
     belasting over de toegevoegde waarde en het koninklijk besluit van 7 juni 2007 tot
     uitvoering van de artikelen 84quinquies tot 84decies van het wetboek van de belasting over
     de toegevoegde waarde (B.S. 20.02.2015 - Ed. 2, pg. 13872, erratum B.S. 17.04.2015, pg. 22342)
 
-    Wijzigt met ingang van 16.05.2014 :
-    - art. 1 (vierde lid, gewijzigd)
+          Wijzigt met ingang van 16.05.2014 :
+               -     art. 1 (vierde lid, gewijzigd)
 
-* KB van 30.04.2013 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
+*   KB van 30.04.2013 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
     4, 7, 10, 13, 14, 18, 19, 20, 22, 23, 24, 31, 39, 46, 48, 51, 53, 54 en 56 met betrekking tot
     de belasting over de toegevoegde waarde (B.S. 08.05.2013)
 
-    Wijzigt met ingang van 01.01.2013 :
-    - het opschrift van het KB (gewijzigd)
-    - art. 7 (eerste lid, vervangen)
+          Wijzigt met ingang van 01.01.2013 :
+               -     het opschrift van het KB (gewijzigd)
+               -     art. 7 (eerste lid, vervangen)

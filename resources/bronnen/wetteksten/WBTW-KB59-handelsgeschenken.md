@@ -2,9 +2,14 @@
 tags: ["VI.B", "2.4"]
 itaa-lex-sectie: "VI.B"
 wet: "K.B. nr. 59, 18 mei 2020, met betrekking tot de onttrekking van handelsgeschenken van geringe waarde"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "2020"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB59-handelsgeschenken.pdf
@@ -12,27 +17,50 @@ provenance:
       version: '2020'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:31Z'
+  generated_at: '2026-05-09T16:15:17Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 4
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 23
+      max_section_chars: 3529
+      file_size_chars: 21053
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: trusted
+      rationale: "Modern PDF-extract met 23 headings (17× #### Art.). Frontmatter consistent, body compleet tot slot '#### Art. 17 — De minister ... belast met de uitvoering'."
+      problemen: []
+      sterkte:
+        - '17 #### Art-headings → goede chunking'
+        - Frontmatter en body coherent
+        - Compleet tot uitvoeringsbepaling
+      auto: false
+      run_id: qa-batch-W3
 ---
 
 # BTW KB nr. 59 — Handelsgeschenken
 
-*Bijgewerkt tot en met 2020 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
+*Bijgewerkt tot en met 2020 — gecoördineerde versie.*
 
 Titel
 
@@ -227,7 +255,7 @@ Het koninklijk besluit nr. 59 van 28 mei 2019 met betrekking tot de onttrekkinge
 
 #### Art. 15
 
-#### Hoofdstuk 2 is van toepassing op goederen die vanaf de datum van inwerkingtreding van dit besluit het voorwerp uitmaken van een onttrekking om ze te verstrekken voor liefdadigheidsdoeleinden.
+Hoofdstuk 2 is van toepassing op goederen die vanaf de datum van inwerkingtreding van dit besluit het voorwerp uitmaken van een onttrekking om ze te verstrekken voor liefdadigheidsdoeleinden.
 
 #### Art. 16
 

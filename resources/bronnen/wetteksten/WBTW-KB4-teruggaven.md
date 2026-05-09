@@ -2,37 +2,67 @@
 tags: ["VI.B", "2.4"]
 itaa-lex-sectie: "VI.B"
 wet: "K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "29.12.1969"
-bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
-provenance:
-  inputs:
-    - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
-      sha256: 63ccf3d1b29dd477e24c41deee6a1febe0c3449e4d69013291697d1aa7a0a4d1
-      version: 29.12.1969
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:33Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
 chunk:
   level: 2
   type: "Art."
-  sub_strategy: null
+  sub_strategy: "per_definitieblok"
+provenance:
+  inputs:
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    model:
+    prompt_version:
+  generated_at: '2026-05-09T16:15:18Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 18
+      max_section_chars: 5352
+      file_size_chars: 47217
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: needs-rework
+      rationale: '48k chars met 0 ##-headings; body intact maar per-Artikel-chunking ontbreekt volledig. Degraded retrieval voor groot bestand.'
+      problemen:
+        - regel: 0
+          type: missing-section
+          voorbeeld: '0 ##-headings bij 47986 chars'
+      sterkte:
+        - Frontmatter consistent
+        - Body inhoudelijk intact tot bijwerkingen
+      auto: false
+      run_id: qa-batch-W3
 ---
 
 # K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde
 
-*Bijgewerkt tot en met 29.12.1969 — afgesplitst uit de Fisconet-compilatie van 06.03.2020.*
+*Bijgewerkt tot en met 29.12.1969 — gecoördineerde versie.*
 
 Koninklijk Besluit nr. 4, van 29 december 1969, met betrekking tot de
 teruggaven inzake belasting over de toegevoegde waarde.
@@ -91,19 +121,19 @@ ingang van 09.08.2009 (Art. 81, W 31.01.2009, B.S. 09.02.2009))
 De vordering tot teruggaaf ontstaat op het tijdstip waarop de oorzaak van teruggaaf zich
 voordoet. De vordering tot teruggaaf bedoeld in artikel 77, § 1, 7°, van het Wetboek ontstaat :
 
-- in geval van faillissement, op de datum van het vonnis van faillietverklaring;
+-     in geval van faillissement, op de datum van het vonnis van faillietverklaring;
 
-- in geval van gerechtelijke reorganisatie door een collectief akkoord, op de datum van de
-    homologatie door de rechtbank, wat betreft de schuldvorderingen waarvan de
-    vermindering werd opgetekend in het reorganisatieplan;
+-     in geval van gerechtelijke reorganisatie door een collectief akkoord, op de datum van de
+      homologatie door de rechtbank, wat betreft de schuldvorderingen waarvan de
+      vermindering werd opgetekend in het reorganisatieplan;
 
-- in geval van gerechtelijke reorganisatie door een minnelijk akkoord, op de datum van het
-    vonnis dat het minnelijk akkoord vaststelt, wat betreft de schuldvorderingen waarvan de
-    vermindering werd opgetekend in het akkoord;
+-     in geval van gerechtelijke reorganisatie door een minnelijk akkoord, op de datum van het
+      vonnis dat het minnelijk akkoord vaststelt, wat betreft de schuldvorderingen waarvan de
+      vermindering werd opgetekend in het akkoord;
 
-- op de datum van de uitspraak tot sluiting van de procedure van gerechtelijke
-    reorganisatie door overdracht onder gerechtelijk gezag, wat betreft de schuldvorderingen
-    die ten gevolge van de overdracht niet konden worden aangezuiverd.
+-     op de datum van de uitspraak tot sluiting van de procedure van gerechtelijke
+      reorganisatie door overdracht onder gerechtelijk gezag, wat betreft de schuldvorderingen
+      die ten gevolge van de overdracht niet konden worden aangezuiverd.
 
 ## Art. 4
 (De tekst van KB nr. 4, artikel 4, § 1, werd gewijzigd met ingang van 01.01.2004 (Art. 5,
@@ -113,21 +143,21 @@ KB 20.02.2004, B.S. 27.02.2004))
 niet-belastingplichtige rechtspersoon die, naargelang van het geval, gehouden is de in artikel
 53, § 1, eerste lid, 2°, of artikel 53ter, 1°, van het Wetboek bedoelde aangifte in te dienen:
 
-1° een verbeterend stuk opmaken met vermelding van het voor teruggaaf vatbare bedrag;
+1°    een verbeterend stuk opmaken met vermelding van het voor teruggaaf vatbare bedrag;
 
-2° dat stuk inschrijven in een daartoe bestemd register;
+2°    dat stuk inschrijven in een daartoe bestemd register;
 
-3° in de gevallen bedoeld in artikel 79 van het Wetboek, aan de medecontractant een dubbel
-    van dat stuk uitreiken voorzien van de vermelding: "BTW terug te storten aan de Staat in
-    de mate waarin ze oorspronkelijk in aftrek werd gebracht";
+3°    in de gevallen bedoeld in artikel 79 van het Wetboek, aan de medecontractant een dubbel
+      van dat stuk uitreiken voorzien van de vermelding: "BTW terug te storten aan de Staat in
+      de mate waarin ze oorspronkelijk in aftrek werd gebracht";
 
-4° in geval van teruggaaf van de belasting betaald ter zake van een intracommunautaire
-    verwerving van goederen of ter zake van een dienst of een levering van goederen
-    waarvoor de belasting door de medecontractant is verschuldigd, de belasting aan de Staat
-    terugstorten in de mate waarin hij ze oorspronkelijk in aftrek heeft gebracht. Die
-    terugstorting vindt plaats door het bedrag ervan te begrijpen in het bedrag van de
-    belasting dat is verschuldigd over het aangiftetijdvak waarin de teruggaaf wordt
-    bekomen.
+4°    in geval van teruggaaf van de belasting betaald ter zake van een intracommunautaire
+      verwerving van goederen of ter zake van een dienst of een levering van goederen
+      waarvoor de belasting door de medecontractant is verschuldigd, de belasting aan de Staat
+      terugstorten in de mate waarin hij ze oorspronkelijk in aftrek heeft gebracht. Die
+      terugstorting vindt plaats door het bedrag ervan te begrijpen in het bedrag van de
+      belasting dat is verschuldigd over het aangiftetijdvak waarin de teruggaaf wordt
+      bekomen.
 
 Door of vanwege de Minister van Financiën wordt geregeld hoe het verbeterend stuk moet
 worden opgemaakt en het register moet worden gehouden. Door of vanwege de Minister van
@@ -146,7 +176,7 @@ Het niet-overleggen van het register wordt vastgesteld bij proces-verbaal opgema
 artikel 59 van het Wetboek.
 
 ## Art. 5
-(De tekst van KB nr. 4, artikel 5, § 1, eerste lid, werd gewijzigd met ingang van
+(De tekst van KB nr. 4, artikel 5, § 1, eerste lid,             werd gewijzigd met ingang van
 01.01.2004 (Art. 6, KB 20.02.2004, B.S. 27.02.2004))
 
 § 1. Ten aanzien van de belastingplichtige of de niet-belastingplichtige rechtspersoon die,
@@ -219,58 +249,59 @@ pg. 113850))
 bedoelde aangifte, het eindresultaat een door de Staat verschuldigd bedrag is, wordt dat bedrag
 naar het volgende aangiftetijdvak overgebracht.
 
-§ 2. Op uitdrukkelijk verzoek van de belastingplichtige zijn evenwel vatbaar voor teruggaaf:
+§ 2.   Op uitdrukkelijk verzoek van de belastingplichtige zijn evenwel vatbaar voor teruggaaf:
 
-1° het bedrag verschuldigd door de Staat na het indienen van de in artikel 53, § 1, eerste
-    lid, 2°, van het Wetboek bedoelde aangifte met betrekking tot het laatste aangiftetijdvak
-    van het kalenderjaar, wanneer het 245 EUR bereikt;
+1°     het bedrag verschuldigd door de Staat na het indienen van de in artikel 53, § 1, eerste
+       lid, 2°, van het Wetboek bedoelde aangifte met betrekking tot het laatste aangiftetijdvak
+       van het kalenderjaar, wanneer het 245 EUR bereikt;
 
-2° het bedrag verschuldigd door de Staat na het indienen van de in artikel 53, § 1, eerste
-    lid, 2°, van het Wetboek bedoelde aangifte met betrekking tot elk van de eerste drie
-    kalenderkwartalen of de laatste maand van elk van die kwartalen, wanneer het 615 EUR
-    of 1.485 EUR bereikt respectievelijk voor belastingplichtigen die driemaandelijks en zij die
-    maandelijks aangifte doen, overeenkomstig artikel 18 van het koninklijk besluit nr. 1 met
-    betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde
-    waarde;
+2°     het bedrag verschuldigd door de Staat na het indienen van de in artikel 53, § 1, eerste
+       lid, 2°, van het Wetboek bedoelde aangifte met betrekking tot elk van de eerste drie
+       kalenderkwartalen of de laatste maand van elk van die kwartalen, wanneer het 615 EUR
+       of 1.485 EUR bereikt respectievelijk voor belastingplichtigen die driemaandelijks en zij die
+       maandelijks aangifte doen, overeenkomstig artikel 18 van het koninklijk besluit nr. 1 met
+       betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde
+       waarde;
 
-3° het bedrag verschuldigd door de Staat na het indienen van de in artikel 53, § 1, eerste
-    lid, 2°, van het Wetboek bedoelde maandaangifte wanneer het 245 euro bereikt, indien
-    de andere belastingplichtige dan de in artikel 55, § 3, tweede lid, van het Wetboek
-    bedoelde belastingplichtige tijdens het verstreken kalenderjaar een overschot in zijn
-    voordeel had van ten minste 12.000 euro en tijdens dezelfde periode voor ten minste
-    dertig percent van zijn omzet :
+3°     het bedrag verschuldigd door de Staat na het indienen van de in artikel 53, § 1, eerste
+       lid, 2°, van het Wetboek bedoelde maandaangifte wanneer het 245 euro bereikt, indien
+       de andere belastingplichtige dan de in artikel 55, § 3, tweede lid, van het Wetboek
+       bedoelde belastingplichtige tijdens het verstreken kalenderjaar een overschot in zijn
+       voordeel had van ten minste 12.000 euro en tijdens dezelfde periode voor ten minste
+       dertig percent van zijn omzet :
 
-    a) leveringen van goederen en diensten heeft verricht welke van de belasting zijn
-    vrijgesteld bij toepassing van de artikelen 39, 39bis en 39quater van het Wetboek;
+       a)    leveringen van goederen en diensten heeft verricht welke van de belasting zijn
+             vrijgesteld bij toepassing van de artikelen 39, 39bis en 39quater van het Wetboek;
 
-    b) leveringen van goederen en diensten heeft verricht welke van de belasting zijn
-    vrijgesteld bij toepassing van de artikelen 40, § 2, 1° en 2°, 41, § 1, eerste lid, 2°
-    tot 6° en 42 van het Wetboek;
+       b)    leveringen van goederen en diensten heeft verricht welke van de belasting zijn
+             vrijgesteld bij toepassing van de artikelen 40, § 2, 1° en 2°, 41, § 1, eerste lid, 2°
+             tot 6° en 42 van het Wetboek;
 
-    c) leveringen van goederen en diensten heeft verricht waarvoor de belasting
-    verschuldigd is door de medecontractant overeenkomstig de artikelen 51, § 2,
-    eerste lid, 5° en 51, § 4, van het Wetboek;
+       c)    leveringen van goederen en diensten heeft verricht waarvoor de belasting
+             verschuldigd is door de medecontractant overeenkomstig de artikelen 51, § 2,
+             eerste lid, 5° en 51, § 4, van het Wetboek;
 
-    d) leveringen van goederen en diensten heeft verricht waarvoor het verlaagd btwtarief van toepassing is overeenkomstig de rubrieken XXXI, XXXII, XXXIII, XXXVI,
-    XXXVII, XXXVIII en XL van tabel A van de bijlage bij het koninklijk besluit nr. 20
-    van 20 juli 1970 tot vaststelling van de tarieven van de belasting over de
+       d)    leveringen van goederen en diensten heeft verricht waarvoor het verlaagd btw-
+             tarief van toepassing is overeenkomstig de rubrieken XXXI, XXXII, XXXIII, XXXVI,
+             XXXVII, XXXVIII en XL van tabel A van de bijlage bij het koninklijk besluit nr. 20
+             van 20 juli 1970 tot vaststelling van de tarieven van de belasting over de
 
-    toegevoegde waarde en tot indeling van de goederen en de diensten bij die
-    tarieven;
+             toegevoegde waarde en tot indeling van de goederen en de diensten bij die
+             tarieven;
 
-    e) leveringen van goederen en diensten heeft verricht die in het buitenland
-    plaatsvinden voor zover het overschot voortvloeit uit de voorfinanciering van de
-    belasting geheven op deze goederen en diensten.
+      e)     leveringen van goederen en diensten heeft verricht die in het buitenland
+             plaatsvinden voor zover het overschot voortvloeit uit de voorfinanciering van de
+             belasting geheven op deze goederen en diensten.
 
-4° het bedrag dat verschuldigd is door de Staat na het indienen van de in artikel 53, § 1,
-    eerste lid, 2°, van het Wetboek bedoelde maandaangifte en dat betrekking heeft op een
-    tijdvak dat valt binnen de vierentwintig maanden die volgen op de datum van aanvang
-    van de economische activiteit bedoeld in artikel 1, tweede lid, van het koninklijk besluit
-    nr. 10 van 29 december 1992 met betrekking tot de uitoefeningsmodaliteiten van de
-    keuzen, bedoeld in de artikelen 15, § 2, derde lid en 25ter, § 1, tweede lid, 2°, tweede
-    lid, van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van
-    aanvang, wijziging, stopzetting van activiteit en de voorafgaande kennisgevingen inzake
-    de belasting over de toegevoegde waarde, wanneer dat bedrag 245 euro bereikt.
+4°    het bedrag dat verschuldigd is door de Staat na het indienen van de in artikel 53, § 1,
+      eerste lid, 2°, van het Wetboek bedoelde maandaangifte en dat betrekking heeft op een
+      tijdvak dat valt binnen de vierentwintig maanden die volgen op de datum van aanvang
+      van de economische activiteit bedoeld in artikel 1, tweede lid, van het koninklijk besluit
+      nr. 10 van 29 december 1992 met betrekking tot de uitoefeningsmodaliteiten van de
+      keuzen, bedoeld in de artikelen 15, § 2, derde lid en 25ter, § 1, tweede lid, 2°, tweede
+      lid, van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van
+      aanvang, wijziging, stopzetting van activiteit en de voorafgaande kennisgevingen inzake
+      de belasting over de toegevoegde waarde, wanneer dat bedrag 245 euro bereikt.
 
 De teruggaaf bedoeld in het eerste lid, 1°, is afhankelijk van de voorwaarde dat alle aangiften
 met betrekking tot de handelingen van het kalenderjaar uiterlijk op 20 januari van het volgende
@@ -666,14 +697,14 @@ om teruggaaf wordt verworpen ofwel dit van de betaling van de belasting, van de 
 van de fiscale geldboeten, die werden voldaan op verzoek van de administratie.
 
 ## Art. 15
-(De tekst van KB nr. 4, artikel 15, is van toepassing met ingang van 01.01.1971
+(De tekst van KB        nr.   4,   artikel   15,   is   van   toepassing    met   ingang     van    01.01.1971
 (KB 29.12.1969))
 
 Dit besluit treedt in werking op dezelfde datum als de wet van 3 juli 1969 tot invoering van het
 Wetboek van de belasting over de toegevoegde waarde.
 
 ## Art. 16
-(De tekst van KB nr. 4, artikel 16, is van toepassing met ingang van 01.01.1971
+(De tekst van KB        nr.   4,   artikel   16,   is   van   toepassing    met   ingang     van    01.01.1971
 (KB 29.12.1969))
 
 Onze Minister van Financiën is belast met de uitvoering van dit besluit.
@@ -682,27 +713,27 @@ Bijlage
 Recente wijzigingen – KB nr. 4
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
-* KB van 09.12.2019 - Koninklijk besluit tot wijziging of opheffing van diverse uitvoeringsbesluiten
+*   KB van 09.12.2019 - Koninklijk besluit tot wijziging of opheffing van diverse uitvoeringsbesluiten
     als gevolg van de invoering van het wetboek van de minnelijke en gedwongen invordering van
     fiscale en niet-fiscale schuldvorderingen (B.S. 16.12.2019 – Ed. 2, pg. 113850)
 
-    Wijzigt met ingang van 01.01.2020 :
+          Wijzigt met ingang van 01.01.2020 :
 
-    - art. 81 (§ 3, tweede en vierde lid, gewijzigd)
-    - art. 83 (derde en vijfde lid, gewijzigd)
+                 -   art. 81 (§ 3, tweede en vierde lid, gewijzigd)
+                 -   art. 83 (derde en vijfde lid, gewijzigd)
 
-* KB van 29.08.2019. - Koninklijk besluit tot wijziging van het koninklijk besluit nr. 4 van
+*   KB van 29.08.2019. - Koninklijk besluit tot wijziging van het koninklijk besluit nr. 4 van
     29 december 1969 met betrekking tot de teruggaven inzake belasting over de toegevoegde
     waarde, wat betreft belastingplichtigen die hun economische activiteit aanvangen (B.S. 05.09.2019,
     pg. 84336)
 
-    Wijzigt met ingang van 01.01.2020 :
+          Wijzigt met ingang van 01.01.2020 :
 
-    - art. 81 (§ 2, eerste lid, 4°, hersteld; tweede lid, vervangen; § 3, derde lid,
-    gewijzigd; § 5, zesde lid, gewijzigd; § 5, achtste lid, vervangen en §
-    5 aangevuld met een lid)
+                 -   art. 81   (§ 2, eerste lid, 4°, hersteld; tweede lid, vervangen; § 3, derde lid,
+                               gewijzigd; § 5, zesde lid, gewijzigd; § 5, achtste lid, vervangen en §
+                               5 aangevuld met een lid)
 
-* KB van 28.06.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 4, 10, 19,
+*   KB van 28.06.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 4, 10, 19,
     51 en 54 met betrekking tot de belasting over de toegevoegde waarde wat betreft de indiening
     langs elektronische weg van de aangiften van aanvang, wijziging en stopzetting van activiteit, de
     vrijstellingsregeling van belasting, houdende technische aanpassingen betreffende de
@@ -712,67 +743,67 @@ De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
     invoer van vervoermiddelen, in de zin van artikel 8bis, § 2, 1°, van het wetboek (B.S. 12.07.2019,
     pg. 70370)
 
-    Wijzigt met ingang van 22.07.2019 :
+          Wijzigt met ingang van 22.07.2019 :
 
-    - art. 81 (§ 2, eerste lid, 3°, d), vervangen)
+                 -   art. 81 (§ 2, eerste lid, 3°, d), vervangen)
 
-* KB van 17.03.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 4, 15, 24,
+*   KB van 17.03.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 4, 15, 24,
     31, 41 en 56 met betrekking tot de belasting over de toegevoegde waarde, met het oog op de
     automatisering van de uitvoerbare titel inzake de belasting over de toegevoegde waarde
     (B.S. 08.04.2019, pg. 35699)
 
-    Wijzigt met ingang van 01.04.2019 :
+          Wijzigt met ingang van 01.04.2019 :
 
-    - art. 6 (artikel gewijzigd)
-    - art. 81 (§ 3, eerste, tweede en vierde lid, gewijzigd)
-    - art. 82 (eerste lid, werd gewijzigd)
-    - art. 83 (tweede, derde en vijfde lid, gewijzigd)
-    - art. 12 (§ 2, gewijzigd)
-    - art. 13 (eerste lid, gewijzigd)
-    - art. 14 (artikel gewijzigd)
+                 -   art. 6 (artikel gewijzigd)
+                 -   art. 81 (§ 3, eerste, tweede en vierde lid, gewijzigd)
+                 -   art. 82 (eerste lid, werd gewijzigd)
+                 -   art. 83 (tweede, derde en vijfde lid, gewijzigd)
+                 -   art. 12 (§ 2, gewijzigd)
+                 -   art. 13 (eerste lid, gewijzigd)
+                 -   art. 14 (artikel gewijzigd)
 
-* KB van 15.02.2016 - Koninklijk besluit tot wijziging van het koninklijk besluit nr. 4 van 29
+*   KB van 15.02.2016 - Koninklijk besluit tot wijziging van het koninklijk besluit nr. 4 van 29
     december 1969 met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde
     (B.S. 22.02.2016, pg. 13184)
 
-    Wijzigt met ingang van 03.03.2016 :
+          Wijzigt met ingang van 03.03.2016 :
 
-    - art. 81 (§ 2, eerste lid, 4°, opgeheven; § 3, derde lid en § 5, eerste lid,
-    gewijzigd)
+              -   art. 81   (§ 2, eerste lid, 4°, opgeheven; § 3, derde lid en § 5, eerste lid,
+                            gewijzigd)
 
-* KB van 05.07.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 4, 24, 41
+*   KB van 05.07.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 4, 24, 41
     en 44 met betrekking tot de belasting over de toegevoegde waarde (B.S. 10.07.2015, pg. 45614)
 
-    Wijzigt met ingang van 01.01.2015 :
+          Wijzigt met ingang van 01.01.2015 :
 
-    - art. 9 (§ 3, vervangen)
+              -   art. 9 (§ 3, vervangen)
 
-* KB van 24.01.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3, 4, 7,
+*   KB van 24.01.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3, 4, 7,
     9, 10, 11, 15, 19, 23, 24, 27, 31, 46, 47, 48, 50, 54 en 56 met betrekking tot de belasting over
     de toegevoegde waarde en het koninklijk besluit van 7 juni 2007 tot uitvoering van de artikelen
     84quinquies tot 84decies van het wetboek van de belasting over de toegevoegde waarde
     (B.S. 20.02.2015 – Ed. 2, pg. 13872, erratum B.S. 17.04.2015, pg. 22342)
 
-    Wijzigt met ingang van 16.05.2014 :
+          Wijzigt met ingang van 16.05.2014 :
 
-    - art. 6 (eerste lid, gewijzigd)
-    - art. 81 (§ 3, tweede lid, gewijzigd)
-    - art. 83 (derde lid, gewijzigd)
+              -   art. 6 (eerste lid, gewijzigd)
+              -   art. 81 (§ 3, tweede lid, gewijzigd)
+              -   art. 83 (derde lid, gewijzigd)
 
-* KB van 21.03.2014 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 4 en 20 met
+*   KB van 21.03.2014 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 4 en 20 met
     betrekking tot de belasting over de toegevoegde waarde (B.S. 27.03.2014, Ed. 2)
 
-    Wijzigt met ingang van 01.04.2014 :
+          Wijzigt met ingang van 01.04.2014 :
 
-    - art. 81 (§ 2, 1° lid, aangevuld met 4°; § 3, 3° lid en § 5, 1° lid gewijzigd)
+              -   art. 81 (§ 2, 1° lid, aangevuld met 4°; § 3, 3° lid en § 5, 1° lid gewijzigd)
 
-* KB van 30.04.2013 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3, 4, 7,
+*   KB van 30.04.2013 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3, 4, 7,
     10, 13, 14, 18, 19, 20, 22, 23, 24, 31, 39, 46, 48, 51, 53, 54 en 56 met betrekking tot de
     belasting over de toegevoegde waarde (B.S. 08.05.2013)
 
-    Wijzigt met ingang van 01.01.2013 :
+          Wijzigt met ingang van 01.01.2013 :
 
-    - art. 6 (eerste lid, gewijzigd) [enkel de Nederlandse tekst]
-    - art. 12 (§ 1, gewijzigd)
-    - art. 13 (eerste lid, gewijzigd) [enkel de Nederlandse tekst]
-    - art. 14 (gewijzigd) [enkel de Nederlandse tekst]
+              -   art. 6 (eerste lid, gewijzigd) [enkel de Nederlandse tekst]
+              -   art. 12 (§ 1, gewijzigd)
+              -   art. 13 (eerste lid, gewijzigd) [enkel de Nederlandse tekst]
+              -   art. 14 (gewijzigd) [enkel de Nederlandse tekst]

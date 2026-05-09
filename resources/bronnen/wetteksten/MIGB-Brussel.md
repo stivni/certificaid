@@ -2,9 +2,14 @@
 tags: ["III", "2.2", "2.3"]
 itaa-lex-sectie: "III"
 wet: "Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "12.05.2024"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/MIGB-Brussel.pdf
@@ -12,22 +17,47 @@ provenance:
       version: 12.05.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
+  generated_at: '2026-05-09T16:15:43Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 4
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 174
+      max_section_chars: 9206
+      file_size_chars: 118961
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: needs-rework
+      rationale: Body opent meteen met '§ 1.' zonder eerste Art.-heading — Art. 1 ontbreekt als heading; voorbij Art. 1 zijn er 125 Art.-headings. Hoofdstuk-tabellen met meerkolomstarieven samengeperst tot één regel (zware kolom-bleed in cijferlijsten).
+      problemen:
+        - 'body start zonder #### Art. 1'
+        - tariefstabellen plat als één paragraaf (kolom-bleed)
+      sterkte:
+        - frontmatter correct
+        - headings consistent
+        - tekst volledig t/m Art. 119
+      auto: false
+      run_id: qa-batch-W2
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest

@@ -2,37 +2,70 @@
 tags: ["VI.B", "2.4"]
 itaa-lex-sectie: "VI.B"
 wet: "K.B. nr. 46 van 29 december 1992, tot regeling van de aangifte van de intracommunautaire verwerving van vervoermiddelen en van de betaling van de ter zake verschuldigde BTW"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "29.12.1992"
-bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
-provenance:
-  inputs:
-    - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
-      sha256: 63ccf3d1b29dd477e24c41deee6a1febe0c3449e4d69013291697d1aa7a0a4d1
-      version: 29.12.1992
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:33Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
 chunk:
   level: 2
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
+provenance:
+  inputs:
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    model:
+    prompt_version:
+  generated_at: '2026-05-09T16:15:19Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 10
+      max_section_chars: 1545
+      file_size_chars: 9431
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: needs-rework
+      rationale: "11k chars zonder ##-headings; Artikel-markers plain text. Body intact. Eén regel toont rare spaced-out tekst ('De tekst van KB         nr.   46') — vermoedelijk PDF-extractie van getabbede regel."
+      problemen:
+        - regel: 0
+          type: missing-section
+          voorbeeld: '0 ##-headings bij 9906 chars'
+        - regel: 45
+          type: other
+          voorbeeld: (De tekst van KB         nr.   46,   artikel    1,   is   van   toepassing
+      sterkte:
+        - Frontmatter consistent
+        - Body intact
+      auto: false
+      run_id: qa-batch-W3
 ---
 
 # K.B. nr. 46 van 29 december 1992, tot regeling van de aangifte van de intracommunautaire verwerving van vervoermiddelen en van de betaling van de ter zake verschuldigde BTW
 
-*Bijgewerkt tot en met 29.12.1992 — afgesplitst uit de Fisconet-compilatie van 06.03.2020.*
+*Bijgewerkt tot en met 29.12.1992 — gecoördineerde versie.*
 
 Koninklijk besluit nr. 46, van 29 december 1992, tot regeling van de aangifte
 van de intracommunautaire verwerving van vervoermiddelen en van de
@@ -43,7 +76,7 @@ Laatstelijk gewijzigd, met ingang van 04.02.2019 (KB 07.11.2019, B.S. 25.11.2019
 pg. 108072)
 
 ## Art. 1
-(De tekst van KB nr. 46, artikel 1, is van toepassing met ingang van 01.01.1993
+(De tekst van KB         nr.   46,   artikel    1,   is   van   toepassing     met   ingang     van    01.01.1993
 (KB 29.12.1992))
 
 Ieder persoon die op grond van artikel 51, § 1, 2°, van het Wetboek gehouden is tot voldoening
@@ -159,13 +192,13 @@ op een andere wijze bepaald door of vanwege de Minister van Financiën in de doo
 hem te bepalen gevallen.
 
 ## Art. 9
-(De tekst van KB nr. 46, artikel 9, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   46,   artikel    9,   is   van   toepassing     met   ingang     van    01.01.1993
 (KB 29.12.1992))
 
 Dit besluit treedt in werking op 1 januari 1993.
 
 ## Art. 10
-(De tekst van KB nr. 46, artikel 10, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   46,   artikel   10,   is   van   toepassing     met    ingang    van    01.01.1993
 (KB 29.12.1992))
 
 Onze Minister van Financiën is belast met de uitvoering van dit besluit.
@@ -174,25 +207,25 @@ Bijlage
 Recente wijzigingen
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
-* KB van 07.11.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 7,
+*   KB van 07.11.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 7,
     10, 24, 31, 35, 46 en 56 met betrekking tot de belasting over de toegevoegde waarde (B.S.
     25.11.2019, pg. 108072)
-    Wijzigt met ingang van 04.02.2019 :
+          Wijzigt met ingang van 04.02.2019 :
 
-    - art. 5 (§ 2, vervangen)
+               -    art. 5 (§ 2, vervangen)
 
-* KB van 24.01.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
+*   KB van 24.01.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
     4, 7, 9, 10, 11, 15, 19, 23, 24, 27, 31, 46, 47, 48, 50, 54 en 56 met betrekking tot de
     belasting over de toegevoegde waarde en het koninklijk besluit van 7 juni 2007 tot
     uitvoering van de artikelen 84quinquies tot 84decies van het wetboek van de belasting over
     de toegevoegde waarde (B.S. 20.02.2015, Ed. 2, pg. 13872, erratum B.S. 17.04.2015, pg. 22342)
-    Wijzigt met ingang van 16.05.2014 :
+          Wijzigt met ingang van 16.05.2014 :
 
-    - art. 3 (artikel, gewijzigd)
+               -    art. 3 (artikel, gewijzigd)
 
-* KB van 30.04.2013 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
+*   KB van 30.04.2013 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
     4, 7, 10, 13, 14, 18, 19, 20, 22, 23, 24, 31, 39, 46, 48, 51, 53, 54 en 56 met betrekking tot
     de belasting over de toegevoegde waarde (B.S. 08.05.2013)
-    Wijzigt met ingang van 01.01.2013 :
+          Wijzigt met ingang van 01.01.2013 :
 
-    - art. 4 (eerste lid, gewijzigd)
+               -    art. 4 (eerste lid, gewijzigd)

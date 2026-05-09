@@ -24,10 +24,47 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+    layer1:
+      verdict: warn
+      heading_count: 381
+      max_section_chars: 57698
+      file_size_chars: 428997
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op #####-niveau: 57698 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+        - name: no_toc_dots
+          status: warn
+          detail: 24 TOC-stippen-regel(s) gevonden
+          samples:
+            - "....................................................... 69\n"
+            - '................................................................................'
+            - '................................................................................'
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: needs-rework
+      rationale: Driedubbele 'WETBOEK DER SUCCESSIERECHTEN'-titel aan het begin (kop herhaald 3x). TOC-blokken in body met dotted-lines (24 regels). 76 '(…)'-placeholders (waarschijnlijk opgeheven artikels) maar dat herhaalt zich problematisch dicht bij Art. 16/17 met dubbele Art. 17-blokken voor verschillende inwerkingtredingsdata — verwarrend voor RAG zonder duidelijke versie-tag.
+      problemen:
+        - 3x herhaalde titel aan begin
+        - 24 TOC-stippen-regels in body
+        - max_section_size 57698 chars
+        - dubbele Art. 17-blokken voor verschillende ingangsdata zonder discriminator-heading
+      sterkte:
+        - '304 ##### Art.-headings'
+        - frontmatter correct
+      auto: false
+      run_id: qa-batch-W2
 chunk:
   level: 5
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
 ---
 
 # Successierechten — Brussels Hoofdstedelijk Gewest

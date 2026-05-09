@@ -2,9 +2,14 @@
 tags: ["XV", "1.5", "3.1", "3.2"]
 itaa-lex-sectie: "XV"
 wet: "Wetboek van vennootschappen en verenigingen 23/03/2019"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy: "per_definitieblok"
 provenance:
   inputs:
     - id: resources/raw/wetteksten/WVV.pdf
@@ -12,27 +17,59 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:31Z'
+  generated_at: '2026-05-09T16:15:22Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 6
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 1866
+      max_section_chars: 4305
+      file_size_chars: 1571172
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: 'Strakke wettekst-extractie: 1866 headings, max sectie 4305 chars. DEEL/BOEK/TITEL-hierarchie + Art. X:Y-vorm correct.'
+      problemen: []
+      sterkte:
+        - Boek-Titel-Art. structuur volledig intact
+        - Geen scrambling, geen FR-leak
+        - Definitieblok (Art. 1:1, 1:2, ...) aanwezig
+      auto: false
+      run_id: qa-batch-W4
 ---
 
 # Wetboek van vennootschappen en verenigingen 23/03/2019
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
+
+
+## DEEL 1. Algemene bepalingen. - BOEK 1. Inleidende bepalingen.
+
+### TITEL 1. Vennootschap, vereniging en stichting.
+
+###### Art. 1:1
+
+Een vennootschap wordt opgericht bij een rechtshandeling door één of meer personen, vennoten genaamd, die een inbreng doen. Zij heeft een vermogen en stelt zich de uitoefening van één of meer welbepaalde activiteiten tot voorwerp. Een van haar doelen is aan haar vennoten een rechtstreeks of onrechtstreeks vermogensvoordeel uit te keren of te bezorgen.
 
 ###### Art. 1:2
 
@@ -418,9 +455,9 @@ Worden gestraft met een geldboete van 50 euro tot 5 000 euro, de leden van het b
 
 ###### Art. 1:37
 
-## Boek I van het Strafwetboek, Hoofdstuk VII en artikel 85 niet uitgezonderd, is mede van toepassing op de misdrijven in dit wetboek omschreven.
+Boek I van het Strafwetboek, Hoofdstuk VII en artikel 85 niet uitgezonderd, is mede van toepassing op de misdrijven in dit wetboek omschreven.
 
-## BOEK 2. Bepalingen gemeenschappelijk aan de rechtspersonen geregeld in dit wetboek.
+## DEEL 1. Algemene bepalingen. - BOEK 2. Bepalingen gemeenschappelijk aan de rechtspersonen geregeld in dit wetboek.
 
 ### TITEL 1. Algemene bepaling.
 
@@ -491,8 +528,7 @@ De statuten moeten het Gewest bepalen waarin de zetel van de rechtspersoon is ge
 #### HOOFDSTUK 3. Openbaarmakingsformaliteiten.
 
 
-##### Afdeling 1. Belgische rechtspersonen.
-##### Onderafdeling 1. Het dossier van de rechtspersoon.
+##### Afdeling 1. Belgische rechtspersonen. - Onderafdeling 1. Het dossier van de rechtspersoon.
 
 ###### Art. 2:7
 
@@ -695,7 +731,7 @@ De statuten moeten het Gewest bepalen waarin de zetel van de rechtspersoon is ge
   ----------
   (1)<W 2023-12-19/08, art. 20, 015; Inwerkingtreding : 08-01-2024>
 
-##### Onderafdeling 2. Bekendmakingsverplichtingen.
+##### Afdeling 1. Belgische rechtspersonen. - Onderafdeling 2. Bekendmakingsverplichtingen.
 
 ###### Art. 2:13
 
@@ -723,7 +759,7 @@ Voor IVZW's worden de stukken bedoeld in artikel 2:10, § 1, 3°, 4°, 6°, 7° 
 
 Voor stichtingen worden de stukken bedoeld in artikel 2:11, § 1, 3°, 4°, 6°, 7° en 9°, en de wijzigingen ervan bekendgemaakt.
 
-##### Onderafdeling 3. Tegenwerpelijkheid.
+##### Afdeling 1. Belgische rechtspersonen. - Onderafdeling 3. Tegenwerpelijkheid.
 
 ###### Art. 2:18
 
@@ -734,7 +770,7 @@ De stukken die krachtens dit hoofdstuk moeten worden openbaar gemaakt, kunnen aa
 
 Na de vervulling van de formaliteiten van de openbaarmaking betreffende de personen die als orgaan van de rechtspersoon bevoegd zijn om deze te vertegenwoordigen, kan een onregelmatigheid in hun benoeming niet meer aan derden worden tegengeworpen, tenzij de rechtspersoon aantoont dat die derden daarvan kennis hadden.
 
-##### Onderafdeling 4. Enige in de stukken op te nemen vermeldingen.
+##### Afdeling 1. Belgische rechtspersonen. - Onderafdeling 4. Enige in de stukken op te nemen vermeldingen.
 
 ###### Art. 2:20
 
@@ -756,7 +792,7 @@ Indien bij een naamloze vennootschap, een Europese vennootschap of een Europese 
 
 Hij die namens een rechtspersoon meewerkt aan een akte of website die niet voldoet aan de in artikel 2:20 bedoelde voorschriften kan, naar gelang van de omstandigheden, aansprakelijk worden gesteld voor de daarin door de rechtspersoon aangegane verbintenissen.
 
-##### Onderafdeling 5. [1 Bijzondere bepalingen in geval van online oprichting.]1
+##### Afdeling 1. Belgische rechtspersonen. - Onderafdeling 5. [1 Bijzondere bepalingen in geval van online oprichting.]1
   ----------
   (1)<Ingevoegd bij W 2021-07-12/01, art. 8, 007; Inwerkingtreding : 01-08-2021>
 
@@ -775,8 +811,7 @@ Hij die namens een rechtspersoon meewerkt aan een akte of website die niet voldo
   (1)<Ingevoegd bij W 2021-07-12/01, art. 10, 007; Inwerkingtreding : 01-08-2021>
 
 
-##### Afdeling 2. Buitenlandse rechtspersonen met een bijkantoor in België.
-##### Onderafdeling 1. Dossier van de buitenlandse rechtspersoon met een bijkantoor in België.
+##### Afdeling 2. Buitenlandse rechtspersonen met een bijkantoor in België. - Onderafdeling 1. Dossier van de buitenlandse rechtspersoon met een bijkantoor in België.
 
 ###### Art. 2:23
 
@@ -884,20 +919,20 @@ Hij die namens een rechtspersoon meewerkt aan een akte of website die niet voldo
    In afwijking van artikel 2:23, legt een buitenlandse stichting die in België een bijkantoor heeft dat op de balansdatum van het laatst afgesloten boekjaar meer dan één van de in artikel 3:51, § 2, bedoelde criteria overschrijdt, de in het eerste lid, 2°, bedoelde jaarrekening neer bij de Nationale Bank van België.
    De in het eerste lid, 1°, a) en b), bedoelde akten bevatten hun naam, voornaam, woonplaats of, ingeval het een rechtspersoon betreft, hun naam, rechtsvorm, ondernemingsnummer en zetel.
 
-##### Onderafdeling 2. Bekendmakingsverplichting.
+##### Afdeling 2. Buitenlandse rechtspersonen met een bijkantoor in België. - Onderafdeling 2. Bekendmakingsverplichting.
 
 ###### Art. 2:27
 
 Overeenkomstig artikel 2:13 wordt het onderwerp van de stukken bedoeld in de artikelen 2:24, 2:25,
  § 2 en 2:26, bekendgemaakt in de vorm van een mededeling in de Bijlagen bij het Belgisch Staatsblad.
 
-##### Onderafdeling 3. Tegenwerpelijkheid.
+##### Afdeling 2. Buitenlandse rechtspersonen met een bijkantoor in België. - Onderafdeling 3. Tegenwerpelijkheid.
 
 ###### Art. 2:28
 
 De neergelegde stukken kunnen aan derden worden tegengeworpen overeenkomstig artikel 2:18.
 
-##### Onderafdeling 4. Enige in de stukken uitgaande van bijkantoren op te nemen vermeldingen.
+##### Afdeling 2. Buitenlandse rechtspersonen met een bijkantoor in België. - Onderafdeling 4. Enige in de stukken uitgaande van bijkantoren op te nemen vermeldingen.
 
 ###### Art. 2:29
 
@@ -1146,7 +1181,7 @@ Het bestuursorgaan kan een intern reglement uitvaardigen mits statutaire machtig
 
 ###### Art. 2:60
 
-### Titel 7 is enkel van toepassing op besloten vennootschappen en naamloze vennootschappen, met uitsluiting van genoteerde vennootschappen.
+Titel 7 is enkel van toepassing op besloten vennootschappen en naamloze vennootschappen, met uitsluiting van genoteerde vennootschappen.
 
 ###### Art. 2:61
 
@@ -1229,8 +1264,7 @@ De rechter veroordeelt de gedaagde om, binnen de door hem gestelde termijn te re
 #### HOOFDSTUK 1. Ontbinding en vereffening van vennootschappen.
 
 
-##### Afdeling 1. Ontbinding van vennootschappen.
-##### Onderafdeling 1. Algemene bepaling.
+##### Afdeling 1. Ontbinding van vennootschappen. - Onderafdeling 1. Algemene bepaling.
 
 ###### Art. 2:70
 
@@ -1240,7 +1274,7 @@ De vennootschap wordt ontbonden:
   3° door een gerechtelijke beslissing.
   De ontbinding heeft de afsluiting van het boekjaar tot gevolg.
 
-##### Onderafdeling 2. Vrijwillige ontbinding.
+##### Afdeling 1. Ontbinding van vennootschappen. - Onderafdeling 2. Vrijwillige ontbinding.
 
 ###### Art. 2:71
 
@@ -1258,13 +1292,13 @@ De vennootschap wordt ontbonden:
    (2)<W 2021-07-12/01, art. 11, 007; Inwerkingtreding : 25-07-2021>
    (3)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
-##### Onderafdeling 3. Ontbinding van rechtswege.
+##### Afdeling 1. Ontbinding van vennootschappen. - Onderafdeling 3. Ontbinding van rechtswege.
 
 ###### Art. 2:72
 
 Onverminderd de bijzondere bepalingen waarin dit wetboek voorziet, worden de vennootschappen van rechtswege ontbonden door het verstrijken van de duur waarvoor zij zijn aangegaan of door een uitdrukkelijke ontbindende voorwaarde waaraan de vennoten of aandeelhouders de vennootschap in de statuten hebben onderworpen.
 
-##### Onderafdeling 4. Gerechtelijke ontbinding.
+##### Afdeling 1. Ontbinding van vennootschappen. - Onderafdeling 4. Gerechtelijke ontbinding.
 
 ###### Art. 2:73
 
@@ -1304,8 +1338,7 @@ De voorzitter van de ondernemingsrechtbank van de zetel van de vennootschap kan 
   Op verzoek van de meest gerede partij wordt de zaak vastgesteld om gepleit te worden binnen een maand volgend op het verzoek tot bepaling van de rechtsdag.
 
 
-##### Afdeling 2. Vereffening van vennootschappen.
-##### Onderafdeling 1. Algemene bepalingen.
+##### Afdeling 2. Vereffening van vennootschappen. - Onderafdeling 1. Algemene bepalingen.
 
 ###### Art. 2:76
 
@@ -1329,7 +1362,7 @@ Worden geen vereffenaars benoemd of aangewezen, dan worden de vennoten-zaakvoerd
    ----------
    (1)<W 2020-04-28/06, art. 63, 002; Inwerkingtreding : 06-05-2020>
 
-##### Onderafdeling 2. Onmiddellijke sluiting van de vereffening.
+##### Afdeling 2. Vereffening van vennootschappen. - Onderafdeling 2. Onmiddellijke sluiting van de vereffening.
 
 ###### Art. 2:80
 
@@ -1347,7 +1380,7 @@ Onverminderd artikel 2:71, zijn een ontbinding en de sluiting van de vereffening
 
 In het geval van een gerechtelijke ontbinding de rechtbank geen vereffenaar aanwijst, spreekt zij de ontbinding en de onmiddellijke sluiting van de vereffening uit.
 
-##### Onderafdeling 3. Vereffening door één of meerdere vereffenaars.
+##### Afdeling 2. Vereffening van vennootschappen. - Onderafdeling 3. Vereffening door één of meerdere vereffenaars.
 
 ###### Art. 2:82
 
@@ -1382,7 +1415,7 @@ In afwijking van de artikelen 2:83 en 2:84 kunnen bij een gerechtelijke ontbindi
 
 De voorzitter van de bevoegde rechtbank kan op verzoek van het openbaar ministerie of van iedere belanghebbende derde één of meer vereffenaars vervangen wegens wettige reden, na hen te hebben gehoord.
 
-##### Onderafdeling 4. Bevoegdheden van de vereffenaar.
+##### Afdeling 2. Vereffening van vennootschappen. - Onderafdeling 4. Bevoegdheden van de vereffenaar.
 
 ###### Art. 2:87
 
@@ -1434,7 +1467,7 @@ De vereffenaar ontbiedt de leden van het bestuursorgaan van de ontbonden vennoot
 
 De vereffenaar kan de leden van het bestuursorgaan, hun werknemers en wie dan ook horen, zowel aangaande het onderzoek van de boeken en de boekhoudkundige bescheiden als aangaande de oorzaken en de omstandigheden die aanleiding hebben gegeven tot de ontbinding.
 
-##### Onderafdeling 5. College van vereffenaars.
+##### Afdeling 2. Vereffening van vennootschappen. - Onderafdeling 5. College van vereffenaars.
 
 ###### Art. 2:93
 
@@ -1446,7 +1479,7 @@ De vereffenaar kan de leden van het bestuursorgaan, hun werknemers en wie dan oo
   § 3. Indien de benoeming van de vereffenaars moet worden bevestigd dan wel gehomologeerd overeenkomstig artikel 2:84 kan de akte houdende benoeming van een vereffenaar of, in voorkomend geval, diens vaste vertegenwoordiger of de wijziging daarvan, slechts worden neergelegd en bekendgemaakt overeenkomstig de artikelen 2:8 en 2:14, 1°, wanneer er een kopie wordt bijgevoegd van de uitspraak van de voorzitter van de rechtbank. Op verzoek van de vennootschap reikt de griffier een attest uit waarin hij verklaart dat de voorzitter geen uitspraak heeft gedaan binnen de in artikel 2:84, zevende lid, voorziene termijn.
   Voor deze akten begint de termijn van dertig dagen zoals bedoeld in artikel 2:8 pas te lopen vanaf de uitspraak van de voorzitter van de rechtbank of vanaf het verstrijken van de termijn van vijf werkdagen zoals bedoeld in artikel 2:84, zevende lid.
 
-##### Onderafdeling 6. Verrichtingen van de vereffening.
+##### Afdeling 2. Vereffening van vennootschappen. - Onderafdeling 6. Verrichtingen van de vereffening.
 
 ###### Art. 2:94
 
@@ -1487,7 +1520,7 @@ De vereffenaar zendt in de zevende en de dertiende maand na de invereffeningstel
 Elk boekjaar legt de vereffenaar aan de algemene vergadering de jaarrekening voor met vermelding van de redenen waarom de vereffening niet kon worden voltooid.
   Betreft het een besloten vennootschap, een coöperatieve vennootschap, een naamloze vennootschap, een Europese vennootschap of een Europese coöperatieve vennootschap, dan moet hij een jaarrekening opstellen overeenkomstig artikel 3:1, die voorleggen aan de algemene vergadering of, in geval van een gerechtelijke ontbinding, aan de rechtbank en, binnen dertig dagen na de datum van de vergadering, en ten laatste zeven maanden na de datum van afsluiting van het boekjaar, neerleggen bij de Nationale Bank van België, samen met de andere bij dit artikel voorgeschreven stukken; de artikelen 2:33, 3:13 en 3:14 zijn van toepassing op deze neerlegging.
 
-##### Onderafdeling 7. Sluiting van de vereffening.
+##### Afdeling 2. Vereffening van vennootschappen. - Onderafdeling 7. Sluiting van de vereffening.
 
 ###### Art. 2:100
 
@@ -1533,7 +1566,7 @@ Voor elke vereffening worden ter griffie in het in artikel 2:7 bedoelde dossier,
    § 2. De aandeelhouders van een besloten vennootschap, een coöperatieve vennootschap en een naamloze vennootschap zijn, zonder hoofdelijkheid tussen hen, aansprakelijk voor de schulden van de ontbonden vennootschap die niet uiterlijk bij de sluiting van de vereffening werden betaald en waarvoor niet uiterlijk op dat tijdstip een bedrag werd geconsigneerd dat volstaat om deze schulden te betalen in hoofdsom en toebehoren, indien zij op de hoogte waren van het bestaan van deze schulden of daarvan, gezien de omstandigheden, niet onkundig konden zijn. Deze aansprakelijkheid is voor iedere aandeelhouder beperkt tot het bedrag gelijk aan de som van de hem terugbetaalde inbreng en zijn aandeel in het vereffeningssaldo zoals ontvangen voor of bij de sluiting van de vereffening van de vennootschap. Dit geldt ook voor aandeelhouders die hun aandelen hebben overgedragen vóór de sluiting van de vereffening, ten belope van de voorschotten die zij hebben ontvangen.
    § 3. In geval van toepassing van de artikelen 2:80 en 2:81 zijn, in afwijking van paragraaf 2 de aandeelhouders van een besloten vennootschap, een coöperatieve vennootschap en een naamloze vennootschap, steeds, zonder hoofdelijkheid tussen hen, aansprakelijk voor de in paragraaf 2 bedoelde schulden, ongeacht of zij al dan niet van deze schulden op de hoogte waren of gezien de omstandigheden behoorden te zijn. Zijn zij te goeder trouw, kunnen zij verhaal uitoefenen op de leden van het bestuursorgaan die het laatst in functie waren. De aansprakelijkheid ten aanzien van de aandeelhouders is voor iedere aandeelhouder beperkt tot het bedrag gelijk aan de som van de hem terugbetaalde inbreng en zijn aandeel in het vereffeningssaldo zoals ontvangen voor of bij de sluiting van de vereffening van de vennootschap.
 
-##### Onderafdeling 8. Heropening van de vereffening.
+##### Afdeling 2. Vereffening van vennootschappen. - Onderafdeling 8. Heropening van de vereffening.
 ###### Art. 2:105
 
 § 1. Indien na de sluiting van de vereffening blijkt dat één of meerdere actieve vermogensbestanddelen van de vennootschap werden vergeten, kan elke schuldeiser wiens schuldvordering niet integraal werd voldaan de heropening van de vereffening vorderen.
@@ -1550,7 +1583,7 @@ Voor elke vereffening worden ter griffie in het in artikel 2:7 bedoelde dossier,
    ----------
    (1)<W 2021-07-12/01, art. 12, 007; Inwerkingtreding : 25-07-2021>
 
-##### Onderafdeling 9. Aansprakelijkheid van de vereffenaars.
+##### Afdeling 2. Vereffening van vennootschappen. - Onderafdeling 9. Aansprakelijkheid van de vereffenaars.
 
 ###### Art. 2:106
 
@@ -1579,8 +1612,7 @@ Worden gestraft met geldboete van vijftig euro tot tienduizend euro:
 #### HOOFDSTUK 2. Ontbinding van verenigingen en stichtingen.
 
 
-##### Afdeling 1. Ontbinding van VZW's en van IVZW's.
-##### Onderafdeling 1. Algemene bepaling.
+##### Afdeling 1. Ontbinding van VZW's en van IVZW's. - Onderafdeling 1. Algemene bepaling.
 
 ###### Art. 2:109
 
@@ -1592,7 +1624,7 @@ De VZW en de IVZW worden ontbonden:
   ----------
   (1)<W 2020-04-28/06, art. 66, 002; Inwerkingtreding : 06-05-2020>
 
-##### Onderafdeling 2. Vrijwillige ontbinding.
+##### Afdeling 1. Ontbinding van VZW's en van IVZW's. - Onderafdeling 2. Vrijwillige ontbinding.
 
 ###### Art. 2:110
 
@@ -1605,7 +1637,7 @@ De VZW en de IVZW worden ontbonden:
   § 4. Wanneer de in dit artikel bedoelde verslagen ontbreken is het besluit van de algemene vergadering nietig.
   § 5. In de notulen van de algemene vergadering die tot ontbinding beslist, worden de conclusies overgenomen van het verslag dat de commissaris overeenkomstig paragraaf 2 heeft opgemaakt.
 
-##### Onderafdeling 3. Ontbinding van rechtswege.
+##### Afdeling 1. Ontbinding van VZW's en van IVZW's. - Onderafdeling 3. Ontbinding van rechtswege.
 
 ###### Art. 2:111
 
@@ -1617,7 +1649,7 @@ De VZW en de IVZW worden van rechtswege ontbonden:
 
 De verlenging van de duur van een VZW of van een IVZW die voor een bepaalde duur is aangegaan, kan slechts worden bewezen door een geschrift opgemaakt in de vorm vereist voor de oprichtingsakte.
 
-##### Onderafdeling 4. Gerechtelijke ontbinding.
+##### Afdeling 1. Ontbinding van VZW's en van IVZW's. - Onderafdeling 4. Gerechtelijke ontbinding.
 
 ###### Art. 2:113
 
@@ -1686,8 +1718,7 @@ Een besluit tot verplaatsing van de zetel van een VZW in vereffening, een IVZW i
   Een akte houdende verplaatsing van de zetel van een VZW, IVZW of stichting in vereffening kan slechts geldig worden neergelegd en bekendgemaakt overeenkomstig de artikelen 2:9, 2:10 of 2:11 en 2:15, 2:16 of 2:17 wanneer er een kopie wordt bijgevoegd van de beslissing tot homologatie door de rechtbank.
 
 
-##### Afdeling 2. Vereffening van VZW's en van IVZW's.
-##### Onderafdeling 1. Aanstelling van de vereffenaar.
+##### Afdeling 2. Vereffening van VZW's en van IVZW's. - Onderafdeling 1. Aanstelling van de vereffenaar.
 
 ###### Art. 2:118
 
@@ -1715,7 +1746,7 @@ Indien uit de staat van actief en passief opgemaakt overeenkomstig artikel 2:110
 
 De voorzitter van de bevoegde rechtbank kan op verzoek van het openbaar ministerie of van iedere belanghebbende derde één of meer vereffenaars vervangen wegens wettige reden, na hen te hebben gehoord.
 
-##### Onderafdeling 2. Bevoegdheden van de vereffenaar.
+##### Afdeling 2. Vereffening van VZW's en van IVZW's. - Onderafdeling 2. Bevoegdheden van de vereffenaar.
 
 ###### Art. 2:121
 
@@ -1738,7 +1769,7 @@ De voorzitter van de bevoegde rechtbank kan op verzoek van het openbaar minister
   De machtiging bedoeld in het eerste lid kan zowel in het benoemingsbesluit van de vereffenaars als bij later afzonderlijk besluit worden verleend.
   § 2. In geval van toepassing van artikel 2:118, § 4, kan de in paragraaf 1 bedoelde machtiging worden verleend door de rechtbank.
 
-##### Onderafdeling 3. College van vereffenaars.
+##### Afdeling 2. Vereffening van VZW's en van IVZW's. - Onderafdeling 3. College van vereffenaars.
 
 ###### Art. 2:123
 
@@ -1746,7 +1777,7 @@ Indien meerdere vereffenaars worden benoemd, vormen zij een college dat beraadsl
   De statuten kunnen evenwel bepalen dat elke vereffenaar individueel handelend bevoegd is om alle handelingen te stellen die nodig of dienstig zijn voor de vereffening van de VZW of van de IVZW. In dat geval bepalen de statuten tevens of de vereffenaars de vereniging individueel, gezamenlijk dan wel collegiaal handelend vertegenwoordigen ten aanzien van derden en in rechte als eiser of als verweerder, bij gebrek waaraan de vertegenwoordigingsmacht op collegiale wijze wordt uitgeoefend. Deze regeling kan aan derden worden tegengeworpen mits neerlegging en bekendmaking overeenkomstig naargelang van het geval de artikelen 2:9 en 2:15 of 2:10 en 2:16.
   De statuten of het benoemingsbesluit kunnen deze individuele of gezamenlijke vertegenwoordigingsbevoegdheid kwantitatief en kwalitatief beperken. Zodanige kwantitatieve en kwalitatieve beperkingen kunnen niet aan derden worden tegengeworpen, ook al zijn ze neergelegd en bekendgemaakt overeenkomstig naargelang van het geval de artikelen 2:9 en 2:15 of 2:10 en 2:16.
 
-##### Onderafdeling 4. Verrichtingen van de vereffening.
+##### Afdeling 2. Vereffening van VZW's en van IVZW's. - Onderafdeling 4. Verrichtingen van de vereffening.
 ###### Art. 2:124
 
 De vereffenaars vervullen hun opdracht hetzij overeenkomstig de statuten, hetzij krachtens een besluit van de algemene vergadering, hetzij krachtens een rechterlijke beslissing die door een lid, een belanghebbende derde of door het openbaar ministerie kan worden gevorderd.
@@ -1780,7 +1811,7 @@ Onverminderd de rechten van de bevoorrechte schuldeisers, betalen de vereffenaar
   ----------
   (1)<W 2020-04-28/06, art. 71, 002; Inwerkingtreding : 06-05-2020>
 
-##### Onderafdeling 5. Sluiting en heropening van de vereffening.
+##### Afdeling 2. Vereffening van VZW's en van IVZW's. - Onderafdeling 5. Sluiting en heropening van de vereffening.
 
 ###### Art. 2:130
 
@@ -1855,7 +1886,7 @@ Voor elke vereffening worden ter griffie in het in artikel 2:7 bedoelde dossier,
    ----------
    (1)<W 2020-04-28/06, art. 73, 002; Inwerkingtreding : 06-05-2020>
 
-##### Onderafdeling 6. Aansprakelijkheid van de vereffenaar.
+##### Afdeling 2. Vereffening van VZW's en van IVZW's. - Onderafdeling 6. Aansprakelijkheid van de vereffenaar.
 
 ###### Art. 2:139
 
@@ -1928,7 +1959,7 @@ De rechtspersonen die hun statutaire zetel in het buitenland hebben, kunnen in B
 
 Zij die in België met het bestuur van een bijkantoor van een buitenlandse rechtspersoon zijn belast, dragen jegens derden dezelfde aansprakelijkheid als degenen die een Belgische rechtspersoon besturen.
 
-## BOEK 3. De jaarrekening.
+## DEEL 1. Algemene bepalingen. - BOEK 3. De jaarrekening.
 
 ### TITEL 1. Jaarrekeningen van vennootschappen met rechtspersoonlijkheid.
 
@@ -2235,7 +2266,7 @@ Voor de toepassing van deze afdeling wordt verstaan onder:
   ----------
   (1)<Ingevoegd bij W 2024-01-08/03, art. 5, 017; Inwerkingtreding : 05-02-2024>
 
-##### Onderafdeling 1. [1 Verslag inzake informatie over de inkomstenbelasting van op zichzelf staande vennootschappen.]1
+##### Afdeling 3. Het verslag van betalingen aan overheden. - Onderafdeling 1. [1 Verslag inzake informatie over de inkomstenbelasting van op zichzelf staande vennootschappen.]1
   ----------
   (1)<Ingevoegd bij W 2024-01-08/03, art. 6, 017; Inwerkingtreding : 05-02-2024>
 
@@ -2251,7 +2282,7 @@ Voor de toepassing van deze afdeling wordt verstaan onder:
    ----------
    (1)<Ingevoegd bij W 2024-01-08/03, art. 7, 017; Inwerkingtreding : 05-02-2024>
 
-##### Onderafdeling 2. [1 Verslag inzake informatie over de inkomstenbelasting van Belgische vennootschappen die dochtervennootschappen zijn van niet-Europese uiteindelijke moederondernemingen.]1
+##### Afdeling 3. Het verslag van betalingen aan overheden. - Onderafdeling 2. [1 Verslag inzake informatie over de inkomstenbelasting van Belgische vennootschappen die dochtervennootschappen zijn van niet-Europese uiteindelijke moederondernemingen.]1
   ----------
   (1)<Ingevoegd bij W 2024-01-08/03, art. 8, 017; Inwerkingtreding : 05-02-2024>
 
@@ -2286,8 +2317,7 @@ Voor de toepassing van deze afdeling wordt verstaan onder:
    (1)<Ingevoegd bij W 2024-01-08/03, art. 11, 017; Inwerkingtreding : 05-02-2024>
 
 
-##### Afdeling 4. Openbaarmakingsverplichtingen.
-##### Onderafdeling 1. Belgische vennootschappen.
+##### Afdeling 4. Openbaarmakingsverplichtingen. - Onderafdeling 1. Belgische vennootschappen.
 
 ###### Art. 3:9
 
@@ -2395,7 +2425,7 @@ Onverminderd de openbaarmaking vereist door de artikelen 3:10 en 3:12, kunnen ve
 De Algemene Directie Statistiek - Statistics Belgium van de Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie zendt aan de Nationale Bank van België, op haar verzoek, kosteloos de jaarrekeningen en andere boekhoudkundige stukken waarvan de mededeling aan het Nationaal Instituut voor de Statistiek wordt opgelegd overeenkomstig de wet van 4 juli 1962 waarbij de regering wordt gemachtigd statistische en andere onderzoekingen te houden betreffende de demografische, economische en sociale toestand van het land.
    De Nationale Bank van België is bevoegd om op de wijze die de Koning bepaalt, naamloze globale statistieken op te maken en te publiceren betreffende de gegevens of een gedeelte van de gegevens uit de stukken die haar overeenkomstig het eerste lid en overeenkomstig de artikelen 3:10 en 3:12 zijn toegezonden.
 
-##### Onderafdeling 2. Correctie van de jaarrekening.
+##### Afdeling 4. Openbaarmakingsverplichtingen. - Onderafdeling 2. Correctie van de jaarrekening.
 
 ###### Art. 3:19
 
@@ -2403,7 +2433,7 @@ De Algemene Directie Statistiek - Statistics Belgium van de Federale Overheidsdi
   Zij moet worden gecorrigeerd indien de verrichte boeking een inbreuk op het boekhoudrecht impliceert, waardoor de jaarrekening geen getrouw beeld geeft van het vermogen, de financiële toestand en het resultaat van de vennootschap.
   § 2. Tenzij de correctie resulteert uit de rechtzetting door het bestuursorgaan van loutere materiële fouten, moet zij ter goedkeuring worden voorgelegd aan de vennoten verenigd in vergadering of de algemene vergadering wanneer dat wettelijk is vereist.
 
-##### Onderafdeling 3. Buitenlandse vennootschappen.
+##### Afdeling 4. Openbaarmakingsverplichtingen. - Onderafdeling 3. Buitenlandse vennootschappen.
 
 ###### Art. 3:20
 
@@ -3065,8 +3095,7 @@ Als er geen commissarissen zijn of wanneer alle commissarissen zich in de onmoge
    (1)<W 2024-12-02/07, art. 42, 024; Inwerkingtreding : 30-12-2024>
 
 
-##### Afdeling 4. Verplichtingen.
-##### Onderafdeling 1. Principes van onafhankelijkheid.
+##### Afdeling 4. Verplichtingen. - Onderafdeling 1. Principes van onafhankelijkheid.
 
 ###### Art. 3:62
 
@@ -3082,7 +3111,7 @@ Als er geen commissarissen zijn of wanneer alle commissarissen zich in de onmoge
    [1 § 6. De paragrafen 1 tot 5 zijn ook van toepassing op het mandaat van bedrijfsrevisor voor de opdracht van assurance van duurzaamheidsinformatie.]1
    ----------
    (1)<W 2024-12-02/07, art. 43, 024; Inwerkingtreding : 30-12-2024>
-##### Onderafdeling 2. Niet-controlediensten.
+##### Afdeling 4. Verplichtingen. - Onderafdeling 2. Niet-controlediensten.
 
 ###### Art. 3:63
 
@@ -3143,7 +3172,7 @@ Als er geen commissarissen zijn of wanneer alle commissarissen zich in de onmoge
    ----------
    (1)<Ingevoegd bij W 2024-12-02/07, art. 45, 024; Inwerkingtreding : 30-12-2024>
 
-##### Onderafdeling 3. Verhouding tussen de honoraria voor wettelijke controles en overige honoraria.
+##### Afdeling 4. Verplichtingen. - Onderafdeling 3. Verhouding tussen de honoraria voor wettelijke controles en overige honoraria.
 
 ###### Art. 3:64
 
@@ -3653,8 +3682,7 @@ De vergoeding van de [1 gecertificeerd accountant]1 bedoeld in artikel 3:101 kom
 Wordt geen commissaris benoemd, dan kunnen alle leden op de zetel van de VZW of IVZW alle notulen en besluiten van de algemene vergadering, van het bestuursorgaan en van de personen, al dan niet met een bestuursfunctie, die bij de vereniging of voor rekening ervan een mandaat bekleden, evenals alle boekhoudkundige stukken van de vereniging raadplegen. Daartoe richten zij een schriftelijk verzoek aan het bestuursorgaan met wie zij een datum en het uur van de raadpleging van de documenten en stukken overeenkomen. Deze kunnen niet worden verplaatst. Kopieën voor derden worden ondertekend door één of meer vertegenwoordigingsbevoegde leden van het bestuursorgaan.
 
 
-## DEEL 2. De vennootschappen.
-## BOEK 4. De maatschap, de vennootschap onder firma en de commanditaire vennootschap.
+## DEEL 2. De vennootschappen. - BOEK 4. De maatschap, de vennootschap onder firma en de commanditaire vennootschap.
 
 ### TITEL 1. Inleidende bepalingen.
 
@@ -3834,7 +3862,7 @@ De zaakvoerders van een vennootschap onder firma of van een commanditaire vennoo
 Indien is bedongen dat de vennootschap onder firma of de commanditaire vennootschap bij overlijden, vereffening, onbekwaamheid of elke andere verhindering van haar zaakvoerder zal voortduren, kan de voorzitter van de ondernemingsrechtbank van de zetel van de vennootschap, voor zover de overeenkomst niet anders bepaalt, op verzoek van elke belanghebbende, een voorlopige bewindvoerder aanstellen, die al dan niet een vennoot is, en stelt hij diens bevoegdheden en de duur van diens opdracht vast.
   De voorlopige bewindvoerder - ook al is hij commanditaire vennoot - is niet verder aansprakelijk dan voor de uitvoering van zijn opdracht.
 
-## BOEK 5. De besloten vennootschap.
+## DEEL 2. De vennootschappen. - BOEK 5. De besloten vennootschap.
 
 ### TITEL 1. Aard en kwalificatie.
 
@@ -3903,7 +3931,7 @@ De door de vennootschap uitgegeven aandelen moeten volledig en, niettegenstaande
    a) de waarde in het economisch verkeer werd bepaald op een datum die niet meer dan zes maanden aan de effectieve datum van de inbreng voorafgaat;
    b) de waardering is uitgevoerd met inachtneming van de algemeen aanvaarde normen en beginselen voor de waardering van de categorie vermogensbestanddelen die de inbreng vormen;
    3° in de vorm van andere vermogensbestanddelen dan de in het 1° bedoelde effecten en geldmarktinstrumenten, waarbij de waarde in het economisch verkeer van elk vermogensbestanddeel is afgeleid uit de jaarrekening van het voorgaande boekjaar, mits de jaarrekening door de commissaris of door de met de controle van de jaarrekening belaste persoon werd gecontroleerd en mits het verslag van die persoon een verklaring zonder voorbehoud bevat.
-###### Paragraaf 1 is evenwel van toepassing op de herwaardering waartoe wordt overgegaan op initiatief en onder de verantwoordelijkheid van de oprichters:
+   Paragraaf 1 is evenwel van toepassing op de herwaardering waartoe wordt overgegaan op initiatief en onder de verantwoordelijkheid van de oprichters:
    1° op het in paragraaf 2, eerste lid, 1°, bepaalde geval indien de koers is beïnvloed door uitzonderlijke omstandigheden die zouden leiden tot een aanzienlijke wijziging van de waarde van het vermogensbestanddeel op de effectieve datum van de inbreng ervan, met inbegrip van situaties waarin de markt voor die effecten of geldmarktinstrumenten niet meer liquide is;
    2° op de in paragraaf 2, eerste lid, 2° en 3°, bepaalde gevallen indien nieuwe bijzondere omstandigheden zouden leiden tot een aanzienlijke wijziging van de waarde in het economisch verkeer van het vermogensbestanddeel op de effectieve datum van de inbreng ervan.
    § 3. In de gevallen van paragraaf 2 waarin de inbreng plaatsvindt zonder toepassing van paragraaf 1, legt het bestuursorgaan binnen één maand na de effectieve datum van de inbreng van het vermogensbestanddeel een verklaring neer en maakt deze bekend overeenkomstig de artikelen 2:8 en 2:14, 4°, waarin de volgende inlichtingen worden vermeld:
@@ -4156,8 +4184,7 @@ Behalve voor effecten die worden toegelaten tot de verhandeling op een geregleme
 #### HOOFDSTUK 3. Categorieën van effecten.
 
 
-##### Afdeling 1. Aandelen.
-##### Onderafdeling 1. Algemene bepalingen.
+##### Afdeling 1. Aandelen. - Onderafdeling 1. Algemene bepalingen.
 
 ###### Art. 5:40
 
@@ -4199,7 +4226,7 @@ De statuten kunnen het aantal stemmen waarover iedere aandeelhouder in de vergad
   3° overeenkomsten waarbij een aandeelhouder of een andere effectenhouder zich tegenover diezelfde vennootschappen of diezelfde organen verbindt om de voorstellen van de organen van de vennootschap goed te keuren.
   § 2. Stemmen uitgebracht tijdens een algemene vergadering op grond van overeenkomsten bedoeld in paragraaf 1, derde lid, zijn nietig. Die stemmen brengen de nietigheid mee van de genomen besluiten, tenzij zij geen enkele invloed hebben gehad op de geldigheid van de gehouden stemming.
 
-##### Onderafdeling 2. Aandelen zonder stemrecht.
+##### Afdeling 1. Aandelen. - Onderafdeling 2. Aandelen zonder stemrecht.
 
 ###### Art. 5:47
 
@@ -4238,8 +4265,7 @@ Wanneer aan één of een reeks aandelen andere rechten zijn verbonden dan aan an
    (2)<W 2023-12-20/08, art. 90, 016; Inwerkingtreding : 25-01-2024>
 
 
-##### Afdeling 4. Obligaties.
-##### Onderafdeling 1. Algemene bepalingen.
+##### Afdeling 4. Obligaties. - Onderafdeling 1. Algemene bepalingen.
 
 ###### Art. 5:50
 
@@ -4262,7 +4288,7 @@ In de overeenkomst van lening, aangegaan in de vorm van uitgifte van obligaties,
   In dat geval is de overeenkomst niet van rechtswege ontbonden. De partij jegens wie de verbintenis niet is uitgevoerd, heeft de keus om de andere partij te verplichten de overeenkomst uit te voeren, wanneer de uitvoering mogelijk is, of de ontbinding van de overeenkomst te vorderen met schadevergoeding.
   De ontbinding moet in rechte worden gevorderd, en aan de verweerder kan, naargelang van de omstandigheden, uitstel worden verleend.
 
-##### Onderafdeling 2. Converteerbare obligaties.
+##### Afdeling 4. Obligaties. - Onderafdeling 2. Converteerbare obligaties.
 
 ###### Art. 5:53
 
@@ -4467,14 +4493,13 @@ Het bestuursorgaan kan het dagelijks bestuur van de vennootschap, alsook de vert
 #### HOOFDSTUK 2. Algemene vergadering van aandeelhouders.
 
 
-##### Afdeling 1. Gemeenschappelijke bepalingen.
-##### Onderafdeling 1. Gelijke behandeling.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 1. Gelijke behandeling.
 
 ###### Art. 5:80
 
 Bij de toepassing van dit hoofdstuk draagt de vennootschap zorg voor een gelijke behandeling van alle aandeelhouders die zich in gelijke omstandigheden bevinden.
 
-##### Onderafdeling 2. Bevoegdheden.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 2. Bevoegdheden.
 
 ###### Art. 5:81
 
@@ -4487,7 +4512,7 @@ De algemene vergadering van aandeelhouders oefent de bevoegdheden uit die dit we
 
 Wanneer de vennootschap slechts één aandeelhouder telt, oefent hij de bevoegdheden uit die aan de algemene vergadering zijn toegekend. Hij kan die niet overdragen.
 
-##### Onderafdeling 3. Bijeenroeping van de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 3. Bijeenroeping van de algemene vergadering.
 
 ###### Art. 5:83
 
@@ -4502,7 +4527,7 @@ Het bestuursorgaan en, in voorkomend geval, de commissaris, roepen de algemene v
 Samen met de oproepingsbrief voor de algemene vergadering, bezorgt de vennootschap aan de aandeelhouders de stukken die zij hen krachtens dit wetboek ter beschikking moet stellen, op de wijze bepaald in artikel 2:32.
   De vennootschap bezorgt op aanvraag ook op dezelfde wijze onverwijld en kosteloos deze stukken aan de andere opgeroepen personen.
 
-##### Onderafdeling 4. Schriftelijke algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 4. Schriftelijke algemene vergadering.
 
 ###### Art. 5:85
 
@@ -4510,7 +4535,7 @@ De aandeelhouders kunnen eenparig en schriftelijk alle besluiten nemen die tot d
   ----------
   (1)<W 2020-12-20/02, art. 22, 005; Inwerkingtreding : 24-12-2020>
 
-##### Onderafdeling 5. Deelneming aan de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 5. Deelneming aan de algemene vergadering.
 
 ###### Art. 5:86
 
@@ -4544,7 +4569,7 @@ De statuten bepalen welke formaliteiten moeten worden vervuld om tot de algemene
   (1)<W 2020-12-20/02, art. 23, 005; Inwerkingtreding : 24-12-2020>
   (2)<W 2020-12-20/02, art. 24, 005; Inwerkingtreding : 24-12-2020>
 
-##### Onderafdeling 6. Verloop van de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 6. Verloop van de algemene vergadering.
 
 ###### Art. 5:90
 
@@ -4573,7 +4598,7 @@ De notulen van de algemene vergaderingen worden ondertekend door de leden van he
 
 De beslissingen van de enige aandeelhouder, die handelt in de plaats van de algemene vergadering, worden opgenomen in een register dat op de zetel van de vennootschap wordt bijgehouden.
 
-##### Onderafdeling 7. Wijze van uitoefening van het stemrecht.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 7. Wijze van uitoefening van het stemrecht.
 
 ###### Art. 5:95
 
@@ -4605,8 +4630,7 @@ De algemene vergadering hoort, in voorkomend geval, het jaarverslag, het jaarver
 Het bestuursorgaan heeft het recht, tijdens de zitting, de beslissing over de goedkeuring van de jaarrekening drie weken uit te stellen. Tenzij de algemene vergadering er anders over beslist, doet deze verdaging geen afbreuk aan de andere genomen besluiten. De volgende vergadering heeft het recht de jaarrekening definitief vast te stellen.
 
 
-##### Afdeling 3. Buitengewone algemene vergadering.
-##### Onderafdeling 1. Statutenwijziging: algemeen.
+##### Afdeling 3. Buitengewone algemene vergadering. - Onderafdeling 1. Statutenwijziging: algemeen.
 
 ###### Art. 5:100
 
@@ -4616,7 +4640,7 @@ Het bestuursorgaan heeft het recht, tijdens de zitting, de beslissing over de go
   ----------
   (1)<W 2020-04-28/06, art. 100, 002; Inwerkingtreding : 06-05-2020>
 
-##### Onderafdeling 2. Wijziging van het voorwerp en de doelen.
+##### Afdeling 3. Buitengewone algemene vergadering. - Onderafdeling 2. Wijziging van het voorwerp en de doelen.
 
 ###### Art. 5:101
 
@@ -4626,7 +4650,7 @@ Indien wordt voorgesteld het voorwerp of de doelen van de vennootschap, zoals be
   Is de laatste voorwaarde niet nageleefd, dan is een tweede bijeenroeping nodig en de nieuwe vergadering beraadslaagt en besluit op geldige wijze, ongeacht het door de aanwezige of vertegenwoordigde aandeelhouders vertegenwoordigde aantal aandelen.
   Een wijziging is alleen dan aangenomen wanneer zij ten minste vier vijfde van de uitgebrachte stemmen heeft gekregen, waarbij onthoudingen in de teller noch in de noemer worden meegerekend.
 
-##### Onderafdeling 3. Wijziging van de rechten verbonden aan soorten van aandelen.
+##### Afdeling 3. Buitengewone algemene vergadering. - Onderafdeling 3. Wijziging van de rechten verbonden aan soorten van aandelen.
 
 ###### Art. 5:102
 
@@ -4812,8 +4836,7 @@ Wanneer nieuwe aandelen worden uitgegeven ten gevolge van een conversie van conv
   (1)<W 2020-04-28/06, art. 103, 002; Inwerkingtreding : 06-05-2020>
 
 
-##### Afdeling 2. Inbreng in geld.
-##### Onderafdeling 1. Voorkeurrecht.
+##### Afdeling 2. Inbreng in geld. - Onderafdeling 1. Voorkeurrecht.
 
 ###### Art. 5:128
 
@@ -4827,7 +4850,7 @@ Het voorkeurrecht kan worden uitgeoefend gedurende een termijn van ten minste vi
   De uitgifte met voorkeurrecht en het tijdvak waarin dat kan worden uitgeoefend, worden aan de aandeelhouders meegedeeld overeenkomstig artikel 2:32.
   Op aandelen waarop niet wordt ingeschreven zoals bepaald in artikel 5:128, kan slechts worden ingeschreven met inachtneming van artikel 5:123.
 
-##### Onderafdeling 2. Beperking en opheffing van het voorkeurrecht.
+##### Afdeling 2. Inbreng in geld. - Onderafdeling 2. Beperking en opheffing van het voorkeurrecht.
 
 ###### Art. 5:130
 
@@ -4860,7 +4883,7 @@ Wanneer het voorkeurrecht wordt beperkt of opgeheven ten gunste van een of meer 
   ----------
   (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
-##### Onderafdeling 3. Storting van de inbreng in geld.
+##### Afdeling 2. Inbreng in geld. - Onderafdeling 3. Storting van de inbreng in geld.
 
 ###### Art. 5:132
 
@@ -4886,7 +4909,7 @@ In geval van inbreng in geld, te storten bij het verlijden van de akte die de ui
    a) de waarde in het economisch verkeer werd bepaald op een datum die niet meer dan zes maanden aan de effectieve datum van de inbreng voorafgaat;
    b) de waardering is uitgevoerd met inachtneming van de algemeen aanvaarde normen en beginselen voor de waardering van de categorie vermogensbestanddelen die de inbreng vormen;
    3° in de vorm van andere vermogensbestanddelen dan de in het 1°, bedoelde effecten en geldmarktinstrumenten, waarbij de waarde in het economisch verkeer van elk vermogensbestanddeel is afgeleid uit de jaarrekening van het voorgaande boekjaar, mits de jaarrekening door de commissaris of door de met de controle van de jaarrekening belaste persoon werd gecontroleerd en mits het verslag van die persoon een verklaring zonder voorbehoud bevat.
-###### Paragraaf 1 is evenwel van toepassing op de herwaardering waartoe wordt overgegaan op initiatief en onder de verantwoordelijkheid van het bestuursorgaan:
+   Paragraaf 1 is evenwel van toepassing op de herwaardering waartoe wordt overgegaan op initiatief en onder de verantwoordelijkheid van het bestuursorgaan:
    1° op het in paragraaf 2, eerste lid, 1°, bepaalde geval indien de koers is beïnvloed door uitzonderlijke omstandigheden die zouden leiden tot een aanzienlijke wijziging van de waarde van het vermogensbestanddeel op de effectieve datum van de inbreng ervan, met inbegrip van situaties waarin de markt voor die effecten of geldmarktinstrumenten niet meer liquide is;
    2° op de in paragraaf 2, eerste lid, 2° en 3°, bepaalde gevallen indien nieuwe bijzondere omstandigheden zouden leiden tot een aanzienlijke wijziging van de waarde in het economisch verkeer van het vermogensbestanddeel op de effectieve datum van de inbreng ervan.
    Bij het ontbreken van een herwaardering zoals bedoeld in paragraaf 2, tweede lid, 2°, kunnen één of meer aandeelhouders die op de dag van de inbreng gezamenlijk ten minste 5 % van de aandelen in hun bezit hebben, een waardering volgens paragraaf 1 door een bedrijfsrevisor eisen.
@@ -4900,14 +4923,13 @@ In geval van inbreng in geld, te storten bij het verlijden van de akte die de ui
    5° een attest dat er zich geen nieuwe bijzondere omstandigheden hebben voorgedaan ten opzichte van de oorspronkelijke waardering die deze kunnen beïnvloeden.
 
 
-##### Afdeling 4. Bevoegdheidsdelegatie aan het bestuursorgaan.
-##### Onderafdeling 1. Beginselen.
+##### Afdeling 4. Bevoegdheidsdelegatie aan het bestuursorgaan. - Onderafdeling 1. Beginselen.
 
 ###### Art. 5:134
 
 De statuten kunnen aan het bestuursorgaan de bevoegdheid toekennen om nieuwe aandelen, converteerbare obligaties of inschrijvingsrechten uit te geven. Deze bevoegdheid kan slechts worden uitgeoefend gedurende vijf jaar, te rekenen van de bekendmaking van de oprichtingsakte of van de statutenwijziging. De algemene vergadering kan haar, bij een besluit genomen volgens de regels die voor de statutenwijziging zijn gesteld, in voorkomend geval met toepassing van artikel 5:102, een of meer malen hernieuwen voor een termijn die niet langer mag zijn dan vijf jaar.
   Wanneer de oprichters of de algemene vergadering besluiten de in het eerste lid bedoelde bevoegdheid toe te kennen of te vernieuwen, worden de bijzondere omstandigheden waarin deze kan worden gebruikt en de hierbij nagestreefde doeleinden in een bijzonder verslag uiteengezet. In voorkomend geval wordt dit verslag in de agenda vermeld. Een kopie ervan kan worden verkregen overeenkomstig artikel 5:84. Wanneer dit verslag ontbreekt is de beslissing van de oprichters of van de algemene vergadering nietig.
-##### Onderafdeling 2. Beperkingen.
+##### Afdeling 4. Bevoegdheidsdelegatie aan het bestuursorgaan. - Onderafdeling 2. Beperkingen.
 
 ###### Art. 5:135
 
@@ -4926,7 +4948,7 @@ Het bestuursorgaan mag de bevoegdheid bedoeld in artikel 5:134 niet gebruiken vo
   4° de uitgifte van een nieuwe soort van aandelen.
   Voor de berekening van de drempel van 10 % van de stemrechten bedoeld in het eerste lid, 3°, worden de effecten bedoeld in artikel 5:31, zesde en zevende lid, gevoegd bij de effecten in bezit gehouden door een aandeelhouder.
 
-##### Onderafdeling 3. [1 Uitgifte van aandelen, converteerbare obligaties en van inschrijvingsrechten door het bestuursorgaan.]1
+##### Afdeling 4. Bevoegdheidsdelegatie aan het bestuursorgaan. - Onderafdeling 3. [1 Uitgifte van aandelen, converteerbare obligaties en van inschrijvingsrechten door het bestuursorgaan.]1
   ----------
   (1)<W 2020-04-28/06, art. 106, 002; Inwerkingtreding : 06-05-2020>
 
@@ -4990,8 +5012,7 @@ Indien komt vast te staan dat de leden van het bestuursorgaan bij het nemen van 
   (1)<W 2020-04-28/06, art. 110, 002; Inwerkingtreding : 06-05-2020>
 
 
-##### Afdeling 2. Verkrijging van eigen aandelen of certificaten.
-##### Onderafdeling 1. Voorwaarden van de verkrijging.
+##### Afdeling 2. Verkrijging van eigen aandelen of certificaten. - Onderafdeling 1. Voorwaarden van de verkrijging.
 
 ###### Art. 5:145
 
@@ -5018,7 +5039,7 @@ De artikelen [1 5:145]1 en 5:149, eerste lid, zijn niet van toepassing:
   ----------
   (1)<W 2020-04-28/06, art. 111, 002; Inwerkingtreding : 06-05-2020>
 
-##### Onderafdeling 2. Statuut van de verkregen aandelen en certificaten.
+##### Afdeling 2. Verkrijging van eigen aandelen of certificaten. - Onderafdeling 2. Statuut van de verkregen aandelen en certificaten.
 
 ###### Art. 5:148
 
@@ -5041,7 +5062,7 @@ De vennootschap kan de krachtens [1 artikel 5:145]1 verkregen aandelen of certif
 
 Wanneer een vennootschap om niet eigenaar wordt van eigen aandelen of certificaten, zijn die effecten van rechtswege nietig. Artikel 5:146 is van overeenkomstige toepassing.
 
-##### Onderafdeling 3. Vermeldingen in de vennootschapsakten.
+##### Afdeling 2. Verkrijging van eigen aandelen of certificaten. - Onderafdeling 3. Vermeldingen in de vennootschapsakten.
 ###### Art. 5:151
 
 Wanneer de vennootschap eigen aandelen of certificaten verkrijgt, hetzij zelf, hetzij door een persoon die in eigen naam maar voor rekening van de vennootschap handelt, worden in het jaarverslag ten minste de volgende bijkomende gegevens vermeld:
@@ -5139,7 +5160,7 @@ Met geldboete van vijftig euro tot tienduizend euro worden gestraft en bovendien
   ----------
   (1)<W 2020-04-28/06, art. 116, 002; Inwerkingtreding : 06-05-2020>
 
-## BOEK 6. De coöperatieve vennootschap.
+## DEEL 2. De vennootschappen. - BOEK 6. De coöperatieve vennootschap.
 
 ### TITEL 1. Aard en kwalificatie.
 
@@ -5216,7 +5237,7 @@ De door de vennootschap uitgegeven aandelen moeten volledig en, niettegenstaande
    a) de waarde in het economisch verkeer werd bepaald op een datum die niet meer dan zes maanden aan de effectieve datum van de inbreng voorafgaat;
    b) de waardering is uitgevoerd met inachtneming van de algemeen aanvaarde normen en beginselen voor de waardering van de categorie vermogensbestanddelen die de inbreng vormen;
    3° in de vorm van andere vermogensbestanddelen dan de in het 1° bedoelde effecten en geldmarktinstrumenten, waarbij de waarde in het economisch verkeer van elk vermogensbestanddeel is afgeleid uit de jaarrekening van het voorgaande boekjaar, mits de jaarrekening door de commissaris of door de met de controle van de jaarrekening belaste persoon werd gecontroleerd en mits het verslag van die persoon een verklaring zonder voorbehoud bevat.
-###### Paragraaf 1 is evenwel van toepassing op de herwaardering waartoe wordt overgegaan op initiatief en onder de verantwoordelijkheid van de oprichters:
+   Paragraaf 1 is evenwel van toepassing op de herwaardering waartoe wordt overgegaan op initiatief en onder de verantwoordelijkheid van de oprichters:
    1° op het in paragraaf 2, eerste lid, 1°, bepaalde geval indien de koers is beïnvloed door uitzonderlijke omstandigheden die zouden leiden tot een aanzienlijke wijziging van de waarde van het vermogensbestanddeel op de effectieve datum van de inbreng ervan, met inbegrip van situaties waarin de markt voor die effecten of geldmarktinstrumenten niet meer liquide is;
    2° op de in paragraaf 2, eerste lid, 2° en 3° bepaalde gevallen indien nieuwe bijzondere omstandigheden zouden leiden tot een aanzienlijke wijziging van de waarde in het economisch verkeer van het vermogensbestanddeel op de effectieve datum van de inbreng ervan.
    § 3. In de gevallen van paragraaf 2 waarin de inbreng plaatsvindt zonder toepassing van paragraaf 1, legt het bestuursorgaan binnen één maand na de effectieve datum van de inbreng van het vermogensbestanddeel een verklaring neer en maakt deze bekend overeenkomstig de artikelen 2:8 en 2:14, 4°, waarin de volgende inlichtingen worden vermeld:
@@ -5673,14 +5694,13 @@ Het bestuursorgaan kan het dagelijks bestuur van de vennootschap, alsook de vert
 #### HOOFDSTUK 2. Algemene vergadering van aandeelhouders.
 
 
-##### Afdeling 1. Gemeenschappelijke bepalingen.
-##### Onderafdeling 1. Gelijke behandeling.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 1. Gelijke behandeling.
 
 ###### Art. 6:68
 
 Bij de toepassing van dit hoofdstuk draagt de vennootschap zorg voor een gelijke behandeling van alle aandeelhouders die zich in gelijke omstandigheden bevinden.
 
-##### Onderafdeling 2. Bevoegdheden.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 2. Bevoegdheden.
 
 ###### Art. 6:69
 
@@ -5690,7 +5710,7 @@ Bij de toepassing van dit hoofdstuk draagt de vennootschap zorg voor een gelijke
   ----------
   (1)<W 2020-04-28/06, art. 127, 002; Inwerkingtreding : 06-05-2020>
 
-##### Onderafdeling 3. Bijeenroeping van de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 3. Bijeenroeping van de algemene vergadering.
 
 ###### Art. 6:70
 
@@ -5700,7 +5720,7 @@ Bij de toepassing van dit hoofdstuk draagt de vennootschap zorg voor een gelijke
   § 2. De statuten kunnen bepalen dat de vennootschap, samen met de oproepingsbrief voor de algemene vergadering, aan de aandeelhouders de stukken bezorgt die zij hen krachtens dit wetboek ter beschikking moet stellen, op de wijze bepaald in artikel 2:32.
   De aandeelhouders kunnen ter zetel van de vennootschap een kopie krijgen van deze stukken.
 
-##### Onderafdeling 4. Schriftelijke algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 4. Schriftelijke algemene vergadering.
 
 ###### Art. 6:71
 
@@ -5708,7 +5728,7 @@ De aandeelhouders kunnen eenparig en schriftelijk alle besluiten nemen die tot d
   ----------
   (1)<W 2020-12-20/02, art. 26, 005; Inwerkingtreding : 24-12-2020>
 
-##### Onderafdeling 5. Deelneming aan de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 5. Deelneming aan de algemene vergadering.
 
 ###### Art. 6:72
 
@@ -5739,7 +5759,7 @@ De statuten bepalen welke formaliteiten moeten worden vervuld om tot de algemene
   (1)<W 2020-12-20/02, art. 27, 005; Inwerkingtreding : 24-12-2020>
   (2)<W 2020-12-20/02, art. 28, 005; Inwerkingtreding : 24-12-2020; Opheffing : 30-06-2021>
 
-##### Onderafdeling 6. Verloop van de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 6. Verloop van de algemene vergadering.
 
 ###### Art. 6:76
 
@@ -5762,7 +5782,7 @@ Voor de vaststelling van de voorschriften inzake aanwezigheid en meerderheid die
 
 De notulen van de algemene vergaderingen worden ondertekend door de leden van het bureau en door de aandeelhouders die erom verzoeken; kopieën voor derden worden ondertekend door één of meer vertegenwoordigingsbevoegde leden van het bestuursorgaan.
 
-##### Onderafdeling 7. Wijze van uitoefening van het stemrecht.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 7. Wijze van uitoefening van het stemrecht.
 
 ###### Art. 6:80
 
@@ -5794,8 +5814,7 @@ De algemene vergadering hoort in voorkomend geval, het jaarverslag, het jaarvers
 Het bestuursorgaan heeft het recht, tijdens de zitting, de beslissing over de goedkeuring van de jaarrekening drie weken uit te stellen. Tenzij de algemene vergadering er anders over beslist, doet deze verdaging geen afbreuk aan de andere genomen besluiten. De volgende vergadering heeft het recht de jaarrekening definitief vast te stellen.
 
 
-##### Afdeling 3. Buitengewone algemene vergadering.
-##### Onderafdeling 1. Statutenwijziging: algemeen.
+##### Afdeling 3. Buitengewone algemene vergadering. - Onderafdeling 1. Statutenwijziging: algemeen.
 
 ###### Art. 6:85
 
@@ -5805,7 +5824,7 @@ Het bestuursorgaan heeft het recht, tijdens de zitting, de beslissing over de go
    ----------
    (1)<W 2020-04-28/06, art. 129, 002; Inwerkingtreding : 06-05-2020>
 
-##### Onderafdeling 2. Wijziging van het voorwerp, de doelen, de finaliteit of de waarden.
+##### Afdeling 3. Buitengewone algemene vergadering. - Onderafdeling 2. Wijziging van het voorwerp, de doelen, de finaliteit of de waarden.
 
 ###### Art. 6:86
 
@@ -5815,7 +5834,7 @@ Indien wordt voorgesteld het voorwerp, de doelen, de finaliteit of de waarden va
   Is de laatste voorwaarde niet nageleefd, dan is behoudens een andersluidende statutaire bepaling een tweede bijeenroeping nodig en de nieuwe vergadering beraadslaagt en besluit op geldige wijze, ongeacht het door de aanwezige of vertegenwoordigde aandeelhouders vertegenwoordigde aantal aandelen.
   Behoudens een andersluidende statutaire bepaling, is een wijziging alleen dan aangenomen wanneer zij ten minste vier vijfde van de uitgebrachte stemmen heeft gekregen, waarbij onthoudingen in de teller noch in de noemer worden meegerekend.
 
-##### Onderafdeling 3. Wijziging van de rechten verbonden aan soorten van aandelen.
+##### Afdeling 3. Buitengewone algemene vergadering. - Onderafdeling 3. Wijziging van de rechten verbonden aan soorten van aandelen.
 
 ###### Art. 6:87
 
@@ -5992,7 +6011,7 @@ Tenzij de statuten anders bepalen, moeten aandelen bij hun uitgifte worden volge
    a) de waarde in het economisch verkeer werd bepaald op een datum die niet meer dan zes maanden aan de effectieve datum van de inbreng voorafgaat;
    b) de waardering is uitgevoerd met inachtneming van de algemeen aanvaarde normen en beginselen voor de waardering van de categorie vermogensbestanddelen die de inbreng vormen;
    3° in de vorm van andere vermogensbestanddelen dan de in het 1° bedoelde effecten en geldmarktinstrumenten, waarbij de waarde in het economisch verkeer van elk vermogensbestanddeel is afgeleid uit de jaarrekening van het voorgaande boekjaar, mits de jaarrekening door de commissaris of door de met de controle van de jaarrekening belaste persoon werd gecontroleerd en mits het verslag van die persoon een verklaring zonder voorbehoud bevat.
-###### Paragraaf 1 is evenwel van toepassing op de herwaardering waartoe wordt overgegaan op initiatief en onder de verantwoordelijkheid van het bestuursorgaan:
+   Paragraaf 1 is evenwel van toepassing op de herwaardering waartoe wordt overgegaan op initiatief en onder de verantwoordelijkheid van het bestuursorgaan:
    1° op het in paragraaf 2, eerste lid, 1°, bepaalde geval indien de koers is beïnvloed door uitzonderlijke omstandigheden die zouden leiden tot een aanzienlijke wijziging van de waarde van het vermogensbestanddeel op de effectieve datum van de inbreng ervan, met inbegrip van situaties waarin de markt voor die effecten of geldmarktinstrumenten niet meer liquide is;
    2° op de in paragraaf 2, eerste lid, 2° en 3° bepaalde gevallen indien nieuwe bijzondere omstandigheden zouden leiden tot een aanzienlijke wijziging van de waarde in het economisch verkeer van het vermogensbestanddeel op de effectieve datum van de inbreng ervan.
    Bij het ontbreken van een herwaardering zoals bedoeld in paragraaf 2, tweede lid, 2°, kunnen een of meer aandeelhouders die op de dag van de inbreng gezamenlijk ten minste 5 % van de aandelen in hun bezit hebben, een waardering volgens paragraaf 1 door een bedrijfsrevisor eisen.
@@ -6157,7 +6176,7 @@ Met geldboete van vijftig euro tot tienduizend euro worden gestraft en bovendien
   ----------
   (1)<W 2020-04-28/06, art. 133, 002; Inwerkingtreding : 06-05-2020>
 
-## BOEK 7. De naamloze vennootschap.
+## DEEL 2. De vennootschappen. - BOEK 7. De naamloze vennootschap.
 
 ### TITEL 1. Aard en kwalificatie.
 
@@ -6218,7 +6237,7 @@ Inbreng in natura komt slechts in aanmerking voor vergoeding met aandelen die he
    a) de waarde in het economisch verkeer werd bepaald op een datum die niet meer dan zes maanden aan de effectieve datum van de inbreng voorafgaat;
    b) de waardering is uitgevoerd met inachtneming van de algemeen aanvaarde normen en beginselen voor de waardering van de categorie vermogensbestanddelen die de inbreng vormen;
    3° in de vorm van andere vermogensbestanddelen dan de in het 1° bedoelde effecten en geldmarktinstrumenten, waarbij de waarde in het economisch verkeer van elk vermogensbestanddeel is afgeleid uit de jaarrekening van het voorgaande boekjaar, mits de jaarrekening door de commissaris of door de met de controle van de jaarrekening belaste persoon werd gecontroleerd en mits het verslag van die persoon een verklaring zonder voorbehoud bevat.
-###### Paragraaf 1 is evenwel van toepassing op de herwaardering waartoe wordt overgegaan op initiatief en onder de verantwoordelijkheid van de oprichters:
+   Paragraaf 1 is evenwel van toepassing op de herwaardering waartoe wordt overgegaan op initiatief en onder de verantwoordelijkheid van de oprichters:
    1° op het in paragraaf 2, eerste lid, 1°, bepaalde geval indien de koers is beïnvloed door uitzonderlijke omstandigheden die zouden leiden tot een aanzienlijke wijziging van de waarde van het vermogensbestanddeel op de effectieve datum van de inbreng ervan, met inbegrip van situaties waarin de markt voor die effecten of geldmarktinstrumenten niet meer liquide is;
    2° op de in paragraaf 2, eerste lid, 2° en 3°, bepaalde gevallen indien nieuwe bijzondere omstandigheden zouden leiden tot een aanzienlijke wijziging van de waarde in het economisch verkeer van het vermogensbestanddeel op de effectieve datum van de inbreng ervan.
    § 3. In de gevallen van paragraaf 2 waarin de inbreng plaatsvindt zonder toepassing van paragraaf 1, legt het bestuursorgaan binnen één maand na de effectieve datum van de inbreng van het vermogensbestanddeel een verklaring neer en maakt deze bekend overeenkomstig de artikelen 2:8 en 2:14, 4°, waarin de volgende inlichtingen worden vermeld:
@@ -6538,8 +6557,7 @@ Behalve voor effecten die worden toegelaten tot de verhandeling op een geregleme
 #### HOOFDSTUK 3. Categorieën van effecten.
 
 
-##### Afdeling 1. Aandelen.
-##### Onderafdeling 1. Algemene bepalingen.
+##### Afdeling 1. Aandelen. - Onderafdeling 1. Algemene bepalingen.
 
 ###### Art. 7:45
 
@@ -6614,7 +6632,7 @@ De statuten kunnen het aantal stemmen waarover iedere aandeelhouder in de vergad
   ----------
   (1)<W 2020-04-28/06, art. 139, 002; Inwerkingtreding : 06-05-2020>
 
-##### Onderafdeling 2. Aandelen zonder stemrecht.
+##### Afdeling 1. Aandelen. - Onderafdeling 2. Aandelen zonder stemrecht.
 
 ###### Art. 7:57
 
@@ -6666,8 +6684,7 @@ Wanneer aan één of een reeks aandelen of winstbewijzen andere rechten zijn ver
    (1)<W 2023-12-20/08, art. 93, 016; Inwerkingtreding : 25-01-2024>
 
 
-##### Afdeling 5. Obligaties.
-##### Onderafdeling 1. Algemene bepalingen.
+##### Afdeling 5. Obligaties. - Onderafdeling 1. Algemene bepalingen.
 
 ###### Art. 7:62
 
@@ -6688,7 +6705,7 @@ In de overeenkomst van lening, aangegaan in de vorm van uitgifte van obligaties,
   In dat geval is de overeenkomst niet van rechtswege ontbonden. De partij jegens wie de verbintenis niet is uitgevoerd, heeft de keuze om de andere partij te verplichten de overeenkomst uit te voeren, wanneer de uitvoering mogelijk is, of de ontbinding van de overeenkomst te vorderen met schadevergoeding.
   De ontbinding moet in rechte worden gevorderd, en aan de verweerder kan, naargelang van de omstandigheden, uitstel worden verleend.
 
-##### Onderafdeling 2. Converteerbare obligaties.
+##### Afdeling 5. Obligaties. - Onderafdeling 2. Converteerbare obligaties.
 
 ###### Art. 7:65
 
@@ -6829,8 +6846,7 @@ De statuten en de uitgiftevoorwaarden van obligaties en andere effecten dan deze
 #### HOOFDSTUK 1. Bestuur.
 
 
-##### Afdeling 1. Monistisch bestuur.
-##### Onderafdeling 1. Samenstelling.
+##### Afdeling 1. Monistisch bestuur. - Onderafdeling 1. Samenstelling.
 
 ###### Art. 7:85
 
@@ -6886,7 +6902,7 @@ De statuten en de uitgiftevoorwaarden van obligaties en andere effecten dan deze
   (1)<W 2020-04-28/06, art. 143, 002; Inwerkingtreding : 06-05-2020>
   (2)<W 2024-03-28/60, art. 157, 019; Inwerkingtreding : 08-04-2024>
 
-##### Onderafdeling 2. Remuneratie.
+##### Afdeling 1. Monistisch bestuur. - Onderafdeling 2. Remuneratie.
 
 ###### Art. 7:89
 
@@ -6945,7 +6961,7 @@ Een overeenkomst met een uitvoerend bestuurder of een andere persoon belast met 
   ----------
   (1)<W 2020-04-28/06, art. 33, 002; Inwerkingtreding : 16-05-2020>
 
-##### Onderafdeling 3. Bevoegdheid en werking van de raad van bestuur.
+##### Afdeling 1. Monistisch bestuur. - Onderafdeling 3. Bevoegdheid en werking van de raad van bestuur.
 
 ###### Art. 7:93
 
@@ -7009,7 +7025,7 @@ De notulen van de vergaderingen van de raad van bestuur worden ondertekend door 
   (1)<W 2020-04-28/06, art. 34, 002; Inwerkingtreding : 16-05-2020>
   (2)<W 2024-03-28/60, art. 158, 019; Inwerkingtreding : 08-04-2024>
 
-##### Onderafdeling 4. Comités binnen de raad van bestuur.
+##### Afdeling 1. Monistisch bestuur. - Onderafdeling 4. Comités binnen de raad van bestuur.
 
 ###### Art. 7:98
 
@@ -7117,8 +7133,7 @@ De raad van bestuur kan in zijn midden en onder zijn aansprakelijkheid een of me
    (1)<W 2020-04-28/06, art. 149, 002; Inwerkingtreding : 06-05-2020>
 
 
-##### Afdeling 3. Duaal bestuur.
-##### Onderafdeling 1. Organen en samenstelling.
+##### Afdeling 3. Duaal bestuur. - Onderafdeling 1. Organen en samenstelling.
 
 ###### Art. 7:104
 
@@ -7150,7 +7165,7 @@ De directieraad is een collegiaal orgaan dat minstens drie leden telt, die natuu
   ----------
   (1)<W 2024-03-28/60, art. 160, 019; Inwerkingtreding : 08-04-2024>
 
-##### Onderafdeling 2. Bezoldiging.
+##### Afdeling 3. Duaal bestuur. - Onderafdeling 2. Bezoldiging.
 
 ###### Art. 7:108
 
@@ -7160,7 +7175,7 @@ Tenzij de statuten anders bepalen of de algemene vergadering bij hun benoeming a
   ----------
   (1)<W 2020-04-28/06, art. 35, 002; Inwerkingtreding : 16-05-2020>
 
-##### Onderafdeling 3. Bevoegdheden en werking.
+##### Afdeling 3. Duaal bestuur. - Onderafdeling 3. Bevoegdheden en werking.
 
 ###### Art. 7:109
 
@@ -7250,7 +7265,7 @@ De notulen van de vergaderingen van de directieraad worden ondertekend door al z
    ----------
    (1)<W 2020-04-28/06, art. 37, 002; Inwerkingtreding : 16-05-2020>
 
-##### Onderafdeling 4. Comités binnen de raad van toezicht.
+##### Afdeling 3. Duaal bestuur. - Onderafdeling 4. Comités binnen de raad van toezicht.
 
 ###### Art. 7:118
 
@@ -7345,14 +7360,13 @@ Onverminderd artikel 2:56 zijn, naargelang van het geval, de leden van de raad v
 #### HOOFDSTUK 2. Algemene vergadering van aandeelhouders.
 
 
-##### Afdeling 1. Gemeenschappelijke bepalingen.
-##### Onderafdeling 1. Gelijke behandeling.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 1. Gelijke behandeling.
 
 ###### Art. 7:123
 
 Bij de toepassing van dit hoofdstuk draagt de vennootschap zorg voor een gelijke behandeling van alle houders van aandelen, winstbewijzen, converteerbare obligaties of inschrijvingsrechten, of van certificaten die met medewerking van de vennootschap zijn uitgegeven, die zich in gelijke omstandigheden bevinden.
 
-##### Onderafdeling 2. Bevoegdheden.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 2. Bevoegdheden.
 
 ###### Art. 7:124
 
@@ -7365,7 +7379,7 @@ De algemene vergadering van aandeelhouders oefent de bevoegdheden uit die dit we
 
 Wanneer de vennootschap slechts één aandeelhouder telt, oefent hij de bevoegdheden uit die aan de algemene vergadering zijn toegekend. Hij kan die niet overdragen.
 
-##### Onderafdeling 3. Bijeenroeping van de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 3. Bijeenroeping van de algemene vergadering.
 
 ###### Art. 7:126
 
@@ -7462,7 +7476,7 @@ Samen met de oproepingsbrief en volgens dezelfde modaliteiten, wordt aan de houd
   In niet genoteerde vennootschappen kunnen, vanaf dat ogenblik, de houders van andere aandelen, converteerbare obligaties, inschrijvingsrechten en certificaten die met medewerking van de vennootschap werden uitgegeven, ter zetel van de vennootschap een kopie krijgen van deze stukken.
   In deze vennootschappen wordt ook onverwijld een kopie van deze stukken toegezonden aan degenen die, uiterlijk zeven dagen vóór de algemene vergadering, hebben voldaan aan de statutair voorgeschreven formaliteiten om tot de vergadering te worden toegelaten. De personen die deze formaliteiten na dit tijdstip hebben vervuld, krijgen een kopie van deze stukken op de algemene vergadering.
 
-##### Onderafdeling 4. Schriftelijke algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 4. Schriftelijke algemene vergadering.
 
 ###### Art. 7:133
 
@@ -7470,7 +7484,7 @@ De aandeelhouders kunnen eenparig en schriftelijk alle besluiten nemen die tot d
   ----------
   (1)<W 2020-12-20/02, art. 31, 005; Inwerkingtreding : 24-12-2020>
 
-##### Onderafdeling 5. Deelneming aan de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 5. Deelneming aan de algemene vergadering.
 
 ###### Art. 7:134
 
@@ -7511,7 +7525,7 @@ De commissaris woont de algemene vergadering bij wanneer deze te beraadslagen he
    (1)<W 2020-12-20/02, art. 32, 005; Inwerkingtreding : 24-12-2020>
    (2)<W 2020-12-20/02, art. 33, 005; Inwerkingtreding : 24-12-2020; Opheffing : 30-06-2021>
 
-##### Onderafdeling 6. Verloop van de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 6. Verloop van de algemene vergadering.
 
 ###### Art. 7:138
 
@@ -7540,7 +7554,7 @@ Behalve in de gevallen waarin hun krachtens de wet of de statuten stemrecht is t
    ----------
    (1)<W 2020-04-28/06, art. 165, 002; Inwerkingtreding : 06-05-2020>
 
-##### Onderafdeling 7. Wijze van uitoefening van het stemrecht.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 7. Wijze van uitoefening van het stemrecht.
 
 ###### Art. 7:142
 
@@ -7621,7 +7635,7 @@ Het openbaar verzoek tot verlening van volmachten is aan de volgende voorwaarden
   ----------
   (1)<W 2020-04-28/06, art. 38, 002; Inwerkingtreding : 03-09-2020>
 
-##### Onderafdeling 8. [1 Transparantie van volmachtadviseurs.]1
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 8. [1 Transparantie van volmachtadviseurs.]1
   ----------
   (1)<Ingevoegd bij W 2020-04-28/06, art. 39, 002; Inwerkingtreding : 16-05-2020>
 
@@ -7711,8 +7725,7 @@ Vanaf het tijdstip dat de vennootschap de mededeling van de Autoriteit voor Fina
    De in dit artikel bedoelde beslissingen worden onmiddellijk ter kennis gebracht van de bieder en van de Autoriteit voor Financiële Diensten en Markten door het bestuursorgaan. Zij worden tevens openbaar gemaakt.
 
 
-##### Afdeling 4. Buitengewone algemene vergadering.
-##### Onderafdeling 1. Statutenwijziging: algemeen.
+##### Afdeling 4. Buitengewone algemene vergadering. - Onderafdeling 1. Statutenwijziging: algemeen.
 
 ###### Art. 7:153
 
@@ -7721,7 +7734,7 @@ De algemene vergadering heeft het recht om wijzigingen aan te brengen in de stat
   Is de laatste voorwaarde niet vervuld, dan is een tweede bijeenroeping nodig en de nieuwe vergadering beraadslaagt en besluit op geldige wijze, ongeacht het door de aanwezige of vertegenwoordigde aandeelhouders vertegenwoordigde deel van het kapitaal.
   Een wijziging is alleen dan aangenomen, wanneer zij drie vierden van de uitgebrachte stemmen heeft verkregen, waarbij onthoudingen in de teller noch in de noemer worden meegerekend.
 
-##### Onderafdeling 2. Wijziging van het voorwerp en van de doelen.
+##### Afdeling 4. Buitengewone algemene vergadering. - Onderafdeling 2. Wijziging van het voorwerp en van de doelen.
 
 ###### Art. 7:154
 
@@ -7733,7 +7746,7 @@ Indien wordt voorgesteld het voorwerp of de doelen van de vennootschap, zoals om
    Een wijziging is alleen dan aangenomen, wanneer zij ten minste vier vijfde van de uitgebrachte stemmen heeft verkregen, waarbij onthoudingen in de teller noch in de noemer worden meegerekend.
    De winstbewijzen geven recht op één stem per effect, niettegenstaande andersluidende statutaire bepaling. In het geheel kunnen aan die effecten niet meer stemmen worden toegekend dan de helft van het aantal dat is toegekend aan de gezamenlijke aandelen; bij de stemming kunnen zij niet worden aangerekend voor meer dan twee derde van het aantal stemmen uitgebracht door de aandelen. Worden de aan de beperking onderworpen stemmen in verschillende zin uitgebracht, dan wordt de vermindering evenredig toegepast; gedeelten van stemmen worden verwaarloosd.
 
-##### Onderafdeling 3. Wijziging van de rechten verbonden aan soorten van aandelen of winstbewijzen.
+##### Afdeling 4. Buitengewone algemene vergadering. - Onderafdeling 3. Wijziging van de rechten verbonden aan soorten van aandelen of winstbewijzen.
 
 ###### Art. 7:155
 
@@ -7966,8 +7979,7 @@ Wanneer het kapitaal wordt verhoogd ten gevolge van een conversie van converteer
    (1)<W 2020-04-28/06, art. 167, 002; Inwerkingtreding : 06-05-2020>
 
 
-##### Afdeling 2. Kapitaalverhoging bij wijze van inbreng in geld.
-##### Onderafdeling 1. Voorkeurrecht.
+##### Afdeling 2. Kapitaalverhoging bij wijze van inbreng in geld. - Onderafdeling 1. Voorkeurrecht.
 
 ###### Art. 7:188
 
@@ -7981,7 +7993,7 @@ Het voorkeurrecht kan worden uitgeoefend gedurende een termijn van ten minste vi
    De bekendmaking van dat bericht of de mededeling van de inhoud ervan aan de houders van aandelen op naam houden op zichzelf geen openbare aanbieding in.
    Het voorkeurrecht is verhandelbaar gedurende de gehele inschrijvingstijd, zonder dat aan die verhandelbaarheid andere beperkingen kunnen worden gesteld dan diegene die van toepassing zijn op het effect waaraan het recht is verbonden. Indien het voorkeurrecht is toegelaten tot de verhandeling op een gereglementeerde markt als bedoeld in artikel 3, 7°, van de wet van 21 november 2017 over de infrastructuren voor de markten voor financiële instrumenten en houdende omzetting van richtlijn 2014/65/EU, kan de verhandelbaarheid van de voorkeurrechten evenwel toch worden beperkt voor zover dit nodig is om te vermijden dat, rekening houdend met de internationale marktstandaarden voor de afwikkeling van effectentransacties, personen voorkeurrechten verwerven op een tijdstip waarop zij deze redelijkerwijs niet meer tijdig kunnen uitoefenen.
 
-##### Onderafdeling 2. Beperking van het voorkeurrecht.
+##### Afdeling 2. Kapitaalverhoging bij wijze van inbreng in geld. - Onderafdeling 2. Beperking van het voorkeurrecht.
 
 ###### Art. 7:190
 
@@ -8030,7 +8042,7 @@ Er is geen opheffing of beperking van het voorkeurrecht wanneer de aandelen, ove
 
 Bij beperking of opheffing van het voorkeurrecht kan de algemene vergadering bepalen dat bij de toekenning van nieuwe effecten voorrang wordt gegeven aan de vroegere aandeelhouders. In dat geval moet de inschrijvingstermijn tien dagen bedragen.
 
-##### Onderafdeling 3. Storting van de inbreng in geld.
+##### Afdeling 2. Kapitaalverhoging bij wijze van inbreng in geld. - Onderafdeling 3. Storting van de inbreng in geld.
 
 ###### Art. 7:195
 
@@ -8060,7 +8072,7 @@ Inbreng in natura komt slechts in aanmerking voor vergoeding door aandelen, indi
    a) de waarde in het economisch verkeer werd bepaald op een datum die niet meer dan zes maanden aan de effectieve datum van de inbreng voorafgaat;
    b) de waardering is uitgevoerd met inachtneming van de algemeen aanvaarde normen en beginselen voor de waardering van de categorie vermogensbestanddelen die de inbreng vormen;
    3° in de vorm van andere vermogensbestanddelen dan de in het 1°, bedoelde effecten en geldmarktinstrumenten, waarbij de waarde in het economisch verkeer van elk vermogensbestanddeel is afgeleid uit de jaarrekening van het voorgaande boekjaar, mits de jaarrekening door de commissaris of door de met de controle van de jaarrekening belaste persoon werd gecontroleerd en mits het verslag van die persoon een verklaring zonder voorbehoud bevat.
-###### Paragraaf 1 is evenwel van toepassing op de herwaardering waartoe wordt overgegaan op initiatief en onder de verantwoordelijkheid van het bestuursorgaan:
+   Paragraaf 1 is evenwel van toepassing op de herwaardering waartoe wordt overgegaan op initiatief en onder de verantwoordelijkheid van het bestuursorgaan:
    1° op het in paragraaf 2, eerste lid, 1°, bepaalde geval indien de koers is beïnvloed door uitzonderlijke omstandigheden die zouden leiden tot een aanzienlijke wijziging van de waarde van het vermogensbestanddeel op de effectieve datum van de inbreng ervan, met inbegrip van situaties waarin de markt voor die effecten of geldmarktinstrumenten niet meer liquide is;
    2° op de in paragraaf 2, eerste lid, 2° en 3°, bepaalde gevallen indien nieuwe bijzondere omstandigheden zouden leiden tot een aanzienlijke wijziging van de waarde in het economisch verkeer van het vermogensbestanddeel op de effectieve datum van de inbreng ervan.
    Bij het ontbreken van een herwaardering zoals bedoeld in paragraaf 2, tweede lid, 2°, kunnen één of meer aandeelhouders die op de dag dat het besluit tot kapitaalverhoging wordt genomen gezamenlijk ten minste 5 % van het geplaatste kapitaal in hun bezit hebben, een waardering volgens paragraaf 1 door een bedrijfsrevisor eisen.
@@ -8075,8 +8087,7 @@ Inbreng in natura komt slechts in aanmerking voor vergoeding door aandelen, indi
   6° een attest dat er zich geen nieuwe bijzondere omstandigheden hebben voorgedaan ten opzichte van de oorspronkelijke waardering die deze kunnen beïnvloeden.
 
 
-##### Afdeling 4. Het toegestane kapitaal.
-##### Onderafdeling 1. Beginselen.
+##### Afdeling 4. Het toegestane kapitaal. - Onderafdeling 1. Beginselen.
 
 ###### Art. 7:198
 
@@ -8093,7 +8104,7 @@ De bevoegdheid bedoeld in artikel 7:198 kan slechts worden uitgeoefend gedurende
   Wanneer de oprichters of de algemene vergadering besluiten de in het eerste lid bedoelde bevoegdheid toe te kennen of te vernieuwen, zetten zij de bijzondere omstandigheden waarin van het toegestane kapitaal kan worden gebruik gemaakt en de hierbij nagestreefde doeleinden in een bijzonder verslag uiteen. In voorkomend geval wordt dit verslag in de agenda vermeld. Een kopie ervan kan worden verkregen overeenkomstig artikel 7:132.
   Het ontbreken van het verslag bedoeld in het tweede lid heeft de nietigheid van het besluit van de algemene vergadering tot gevolg.
 
-##### Onderafdeling 2. Beperkingen.
+##### Afdeling 4. Het toegestane kapitaal. - Onderafdeling 2. Beperkingen.
 
 ###### Art. 7:200
 
@@ -8129,7 +8140,7 @@ Vanaf het tijdstip dat de vennootschap de mededeling van de Autoriteit voor Fina
  2°, tweede zin, niet van toepassing.
   De in dit artikel bedoelde besluiten worden onmiddellijk en op omstandige wijze ter kennis gebracht van de bieder en van de Autoriteit voor Financiële Diensten en Markten. Zij worden tevens openbaar gemaakt.
 
-##### Onderafdeling 3. Vermeldingen in het jaarverslag.
+##### Afdeling 4. Het toegestane kapitaal. - Onderafdeling 3. Vermeldingen in het jaarverslag.
 
 ###### Art. 7:203
 
@@ -8200,21 +8211,20 @@ Artikel 7:209 is niet van toepassing op de kapitaalverminderingen ter aanzuiveri
 #### HOOFDSTUK 3. Instandhouding van het kapitaal.
 
 
-##### Afdeling 1. Winstverdeling.
-##### Onderafdeling 1. Vorming van een reservefonds.
+##### Afdeling 1. Winstverdeling. - Onderafdeling 1. Vorming van een reservefonds.
 
 ###### Art. 7:211
 
 Jaarlijks houdt de algemene vergadering een bedrag in van ten minste een twintigste van de reservefonds een tiende van het kapitaal heeft bereikt.
 
-##### Onderafdeling 2. Uitkeerbare winsten.
+##### Afdeling 1. Winstverdeling. - Onderafdeling 2. Uitkeerbare winsten.
 
 ###### Art. 7:212
 
 Geen uitkering mag gebeuren indien het nettoactief, zoals dat blijkt uit de jaarrekening, is gedaald of tengevolge van de uitkering zou dalen beneden het bedrag van het gestorte of, indien dit hoger is, van het opgevraagde kapitaal, vermeerderd met alle reserves die volgens de wet of de statuten niet mogen worden uitgekeerd. Voor de toepassing van deze bepaling wordt het niet afgeschreven gedeelte van de herwaarderingsmeerwaarden gelijkgesteld met een krachtens de wet als onbeschikbaar gestelde reserve.
    Onder nettoactief moet worden verstaan het totaalbedrag van de activa, verminderd met de voorzieningen, de schulden en, behoudens in uitzonderlijke gevallen te vermelden en te motiveren in de toelichting bij de jaarrekening, de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten en de kosten voor onderzoek en ontwikkeling.
 
-##### Onderafdeling 3. Interimdividenden.
+##### Afdeling 1. Winstverdeling. - Onderafdeling 3. Interimdividenden.
 
 ###### Art. 7:213
 
@@ -8225,7 +8235,7 @@ De statuten kunnen aan het bestuursorgaan de bevoegdheid verlenen om uit het res
    Het besluit van het bestuursorgaan om een interimdividend uit te keren, mag niet later worden genomen dan twee maanden na de dag waarop de staat van activa en passiva is afgesloten.
    Indien het interimdividend het bedrag te boven gaat van het later door de algemene vergadering vastgestelde jaardividend, wordt het meerdere beschouwd als een voorschot op het volgende dividend.
 
-##### Onderafdeling 4. Sanctie.
+##### Afdeling 1. Winstverdeling. - Onderafdeling 4. Sanctie.
 
 ###### Art. 7:214
 
@@ -8234,8 +8244,7 @@ De aandeelhouders [1 en alle andere personen]1 moeten elke uitkering die zij in 
   (1)<W 2020-04-28/06, art. 173, 002; Inwerkingtreding : 06-05-2020>
 
 
-##### Afdeling 2. Verkrijging van eigen aandelen, winstbewijzen of certificaten.
-##### Onderafdeling 1. Verkrijging van eigen aandelen, winstbewijzen of certificaten door de vennootschap zelf.
+##### Afdeling 2. Verkrijging van eigen aandelen, winstbewijzen of certificaten. - Onderafdeling 1. Verkrijging van eigen aandelen, winstbewijzen of certificaten door de vennootschap zelf.
 
 ###### Art. 7:215
 
@@ -8310,7 +8319,7 @@ Artikel 7:215 is niet van toepassing:
    3° de identiteit van de verkrijger, voor zover die aan de vennootschap bekend is; voor personeel moeten, onverminderd strengere wettelijke bepalingen, geen individuele details over verkrijgers worden meegegeven;
    4° in het geval bedoeld in artikel 7:218, § 1, 3°, de redenen en de doeleinden van de vervreemdingen.
 
-##### Onderafdeling 2. Verkrijging van aandelen, winstbewijzen of certificaten van de vennootschap door een dochtervennootschap.
+##### Afdeling 2. Verkrijging van eigen aandelen, winstbewijzen of certificaten. - Onderafdeling 2. Verkrijging van aandelen, winstbewijzen of certificaten van de vennootschap door een dochtervennootschap.
 
 ###### Art. 7:221
 
@@ -8336,7 +8345,7 @@ Elke dochtervennootschap geeft haar moedervennootschap kennis van het aantal en 
   Die kennisgevingen gebeuren binnen twee dagen te rekenen, hetzij van de dag waarop de nieuw gecontroleerde vennootschap in kennis is gesteld van de verkrijging van de controle, met betrekking tot de effecten die zij voor die datum in haar bezit had, hetzij van de dag van de verrichting, met betrekking tot latere verkrijgingen of vervreemdingen.
   Iedere vennootschap vermeldt, in de toelichting bij de jaarrekening met betrekking tot de stand van haar kapitaal, de structuur van haar aandeelhouderschap op de dag van de jaarafsluiting, zoals die blijkt uit de kennisgevingen die zij heeft ontvangen.
 
-##### Onderafdeling 3. Inpandneming van eigen aandelen, winstbewijzen of certificaten.
+##### Afdeling 2. Verkrijging van eigen aandelen, winstbewijzen of certificaten. - Onderafdeling 3. Inpandneming van eigen aandelen, winstbewijzen of certificaten.
 
 ###### Art. 7:226
 
@@ -8394,7 +8403,7 @@ Met geldboete van vijftig euro tot tienduizend euro worden gestraft en bovendien
   3° zij die als bestuurder als bedoeld in artikel 2:51 of commissaris door enig middel op kosten van de vennootschap geldstortingen op de aandelen doen of geldstortingen als gedaan erkennen die niet werkelijk gedaan zijn op de voorgeschreven wijze en tijdstippen;
   4° zij die aan de Autoriteit voor Financiële Diensten en Markten in het in artikel 7:193, § 2, bedoelde dossier, gegevens mededelen waarvan zij weten dat ze onjuist of onvolledig zijn.
 
-## BOEK 8. Erkenning van vennootschappen.
+## DEEL 2. De vennootschappen. - BOEK 8. Erkenning van vennootschappen.
 
 ### TITEL 1. De erkenning als bosgroeperingsvennootschap.
 
@@ -8461,8 +8470,7 @@ De ondernemingsrechtbank kan op verzoek van de minister bevoegd voor Economie, h
   In voorkomend geval kan de rechtbank een termijn aan de vennootschap toestaan om haar toestand te regulariseren.
 
 
-## DEEL 3. De verenigingen en stichtingen.
-## BOEK 9. VZW.
+## DEEL 3. De verenigingen en stichtingen. - BOEK 9. VZW.
 
 ### TITEL 1. Algemene bepalingen.
 
@@ -8557,8 +8565,7 @@ De vereniging is verbonden door de handelingen van het bestuursorgaan, van de da
 #### HOOFDSTUK 2. De algemene vergadering van leden.
 
 
-##### Afdeling 1. Gemeenschappelijke bepalingen.
-##### Onderafdeling 1. Bevoegdheden.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 1. Bevoegdheden.
 
 ###### Art. 9:12
 
@@ -8574,7 +8581,7 @@ Een besluit van de algemene vergadering is vereist voor:
    9° om een inbreng om niet van een algemeenheid te doen of te aanvaarden;
    10° alle andere gevallen waarin de wet of de statuten dat vereisen.
 
-##### Onderafdeling 2. Bijeenroeping van de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 2. Bijeenroeping van de algemene vergadering.
 
 ###### Art. 9:13
 
@@ -8597,7 +8604,7 @@ Alle leden, bestuurders en commissarissen worden ten minste vijftien dagen vóó
   ----------
   (1)<Ingevoegd bij W 2020-12-20/02, art. 36, 005; Inwerkingtreding : 24-12-2020>
 
-##### Onderafdeling 3. Deelneming aan de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 3. Deelneming aan de algemene vergadering.
 
 ###### Art. 9:15
 
@@ -8621,7 +8628,7 @@ Wanneer de algemene vergadering beraadslaagt op grond van een door de commissari
    ----------
    (1)<Ingevoegd bij W 2020-12-20/02, art. 37, 005; Inwerkingtreding : 24-12-2020> (2)<W 2020-12-20/02, art. 38, 005; Inwerkingtreding : 24-12-2020; Opheffing : 30-06-2021>
 
-##### Onderafdeling 4. Verloop van de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 4. Verloop van de algemene vergadering.
 
 ###### Art. 9:17
 
@@ -8714,7 +8721,7 @@ De ondernemingsrechtbank kan op verzoek van het openbaar ministerie of van enige
   ----------
   (1)<W 2020-04-28/06, art. 183, 002; Inwerkingtreding : 06-05-2020>
 
-## BOEK 10. IVZW.
+## DEEL 3. De verenigingen en stichtingen. - BOEK 10. IVZW.
 
 ### TITEL 1. Algemene bepalingen.
 
@@ -8745,8 +8752,7 @@ De nietigheid van de vereniging kan alleen in de hiernavolgende gevallen worden 
 #### HOOFDSTUK 1. De algemene vergadering van leden.
 
 
-##### Afdeling 1. Gemeenschappelijke bepalingen.
-##### Onderafdeling 1. Bevoegdheden.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 1. Bevoegdheden.
 
 ###### Art. 10:5
 
@@ -8755,7 +8761,7 @@ Een besluit van de algemene vergadering is vereist voor:
   2° de goedkeuring van de jaarrekening;
   3° alle andere gevallen waarin de wet of de statuten dat vereisen.
 
-##### Onderafdeling 2. Bijeenroeping van de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 2. Bijeenroeping van de algemene vergadering.
 
 ###### Art. 10:6
 
@@ -8771,7 +8777,7 @@ Onverminderd de in de statuten bepaalde wijze van bijeenroeping, kan, in voorkom
   ----------
   (1)<Ingevoegd bij W 2020-12-20/02, art. 40, 005; Inwerkingtreding : 24-12-2020>
 
-##### Onderafdeling 3. Deelneming aan de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 3. Deelneming aan de algemene vergadering.
 
 ###### Art. 10:7
 
@@ -8821,7 +8827,7 @@ Met uitzondering van handgiften, behoeft elke gift onder de levenden aan de vere
   De machtiging kan enkel worden verleend indien de vereniging heeft voldaan aan de bepalingen van artikel 2:10.
   Het bedrag bedoeld in het eerste lid kan worden gewijzigd bij een in Ministerraad overlegd koninklijk besluit.
 
-## BOEK 11. Stichtingen.
+## DEEL 3. De verenigingen en stichtingen. - BOEK 11. Stichtingen.
 
 ### TITEL 1. Algemene bepalingen.
 
@@ -8943,8 +8949,7 @@ De ondernemingsrechtbank kan op verzoek van het openbaar ministerie of van enige
   (1)<W 2020-04-28/06, art. 191, 002; Inwerkingtreding : 06-05-2020>
 
 
-## DEEL 4. Herstructurering en omzetting.
-## BOEK 12. Herstructurering van vennootschappen.
+## DEEL 4. Herstructurering en omzetting. - BOEK 12. Herstructurering van vennootschappen.
 
 ### TITEL 1. Inleidende bepalingen en definities.
 
@@ -10534,7 +10539,7 @@ De instrumenterende notaris moet na onderzoek het bestaan en zowel de interne al
    ----------
    (1)<Ingevoegd bij W 2023-05-25/04, art. 61, 013; Inwerkingtreding : 16-06-2023>
 
-## BOEK 13. Herstructurering van verenigingen en stichtingen.
+## DEEL 4. Herstructurering en omzetting. - BOEK 13. Herstructurering van verenigingen en stichtingen.
 
 ### TITEL 1. De regeling inzake fusies en splitsingen.
 
@@ -10637,7 +10642,7 @@ Ingeval een beroep wordt gedaan op de mogelijkheid vervat in artikel 12:1, § 1,
    "Art. 12:95. De akte tot vaststelling van de inbreng van algemeenheid of van bedrijfstak wordt in authentieke vorm opgesteld.
    De akte wordt neergelegd bij uittreksel overeenkomstig de artikelen 2:9, 2:10 of 2:11. Zij wordt bij uittreksel bekendgemaakt overeenkomstig de artikelen 2:15, 2:16 of 2:17. ".
 
-## BOEK 14. Omzetting van vennootschappen, verenigingen en stichtingen.
+## DEEL 4. Herstructurering en omzetting. - BOEK 14. Omzetting van vennootschappen, verenigingen en stichtingen.
 
 ### TITEL 1. Omzetting van vennootschappen.
 
@@ -10762,15 +10767,14 @@ Wanneer de statuten van een vennootschap onder firma bepalen dat de vennootschap
 
   ----------
   (1)<W 2023-05-25/04, art. 63, 013; Inwerkingtreding : 16-06-2023>
-##### Afdeling 1. [1 Algemene bepalingen.]1
-##### Onderafdeling 1. [1 Inleidende bepalingen.]1
+##### Afdeling 1. [1 Algemene bepalingen.]1 - Onderafdeling 1. [1 Inleidende bepalingen.]1
   ----------
   (1)<Ingevoegd bij W 2023-05-25/04, art. 64, 013; Inwerkingtreding : 16-06-2023>
 
 ###### Art. 14:15
 
-##### Afdeling 2 van dit hoofdstuk is van toepassing op alle door dit wetboek geregelde vennootschappen met rechtspersoonlijkheid, die hun zetel naar het buitenland willen verplaatsen (emigratie), met uitzondering van de SE en de SCE.
-##### Afdeling 3 van dit hoofdstuk is van toepassing op alle door buitenlands recht beheerste vennootschappen met rechtspersoonlijkheid, die hun zetel naar België willen verplaatsen (immigratie), met uitzondering van de SE en de SCE.
+Afdeling 2 van dit hoofdstuk is van toepassing op alle door dit wetboek geregelde vennootschappen met rechtspersoonlijkheid, die hun zetel naar het buitenland willen verplaatsen (emigratie), met uitzondering van de SE en de SCE.
+  Afdeling 3 van dit hoofdstuk is van toepassing op alle door buitenlands recht beheerste vennootschappen met rechtspersoonlijkheid, die hun zetel naar België willen verplaatsen (immigratie), met uitzondering van de SE en de SCE.
 
 ###### Art. 14:16
 
@@ -10788,7 +10792,7 @@ Wanneer een vennootschap haar [1 ...]1 zetel over de grenzen heen verplaatst, ze
   ----------
   (1)<W 2023-05-25/04, art. 66, 013; Inwerkingtreding : 16-06-2023>
 
-##### Onderafdeling 2. [1 Rechtsgevolgen van grensoverschrijdende omzetting.]1
+##### Afdeling 1. [1 Algemene bepalingen.]1 - Onderafdeling 2. [1 Rechtsgevolgen van grensoverschrijdende omzetting.]1
   ----------
   (1)<Ingevoegd bij W 2023-05-25/04, art. 67, 013; Inwerkingtreding : 16-06-2023>
 
@@ -10800,7 +10804,7 @@ Wanneer een vennootschap haar [1 ...]1 zetel over de grenzen heen verplaatst, ze
   ----------
   (1)<Ingevoegd bij W 2023-05-25/04, art. 68, 013; Inwerkingtreding : 16-06-2023>
 
-##### Onderafdeling 3. [1 Nietigheid van de grensoverschrijdende omzetting.]1
+##### Afdeling 1. [1 Algemene bepalingen.]1 - Onderafdeling 3. [1 Nietigheid van de grensoverschrijdende omzetting.]1
   ----------
   (1)<Ingevoegd bij W 2023-05-25/04, art. 69, 013; Inwerkingtreding : 16-06-2023>
 
@@ -10811,8 +10815,7 @@ Wanneer een vennootschap haar [1 ...]1 zetel over de grenzen heen verplaatst, ze
   (1)<Ingevoegd bij W 2023-05-25/04, art. 70, 013; Inwerkingtreding : 16-06-2023>
 
 
-##### Afdeling 2. Emigratie.
-##### Onderafdeling 1. Formaliteiten die het besluit tot grensoverschrijdende omzetting voorafgaan.
+##### Afdeling 2. Emigratie. - Onderafdeling 1. Formaliteiten die het besluit tot grensoverschrijdende omzetting voorafgaan.
 
 ###### Art. 14:18
 
@@ -10913,7 +10916,7 @@ Uiterlijk binnen [1 drie]1 maanden na de bekendmaking van het omzettingsvoorstel
    ----------
    (1)<W 2023-05-25/04, art. 76, 013; Inwerkingtreding : 16-06-2023>
 
-##### Onderafdeling 2. Besluit tot grensoverschrijdende omzetting.
+##### Afdeling 2. Emigratie. - Onderafdeling 2. Besluit tot grensoverschrijdende omzetting.
 
 ###### Art. 14:23
 
@@ -11173,8 +11176,8 @@ Niettegenstaande andersluidende bepaling zijn de leden van het bestuursorgaan va
 ##### Afdeling 1. Inleidende bepalingen.
 ###### Art. 14:51
 
-##### Afdeling 2 van dit hoofdstuk is van toepassing op alle door dit wetboek geregelde verenigingen met rechtspersoonlijkheid, die hun zetel naar het buitenland willen verplaatsen (emigratie), met uitzondering van de EUPP en de EUPS.
-##### Afdeling 3 van dit hoofdstuk is van toepassing op alle door buitenlands recht beheerste rechtspersonen, die hun zetel naar België willen verplaatsen (immigratie), met uitzondering van de EUPP en de EUPS.
+Afdeling 2 van dit hoofdstuk is van toepassing op alle door dit wetboek geregelde verenigingen met rechtspersoonlijkheid, die hun zetel naar het buitenland willen verplaatsen (emigratie), met uitzondering van de EUPP en de EUPS.
+  Afdeling 3 van dit hoofdstuk is van toepassing op alle door buitenlands recht beheerste rechtspersonen, die hun zetel naar België willen verplaatsen (immigratie), met uitzondering van de EUPP en de EUPS.
 
 ###### Art. 14:52
 
@@ -11185,8 +11188,7 @@ Wanneer een rechtspersoon haar statutaire zetel over de grenzen heen verplaatst,
 De grensoverschrijdende omzetting is niet toegelaten zolang de om te zetten rechtspersoon is onderworpen aan een insolventieprocedure.
 
 
-##### Afdeling 2. Emigratie.
-##### Onderafdeling 1. Formaliteiten die het besluit tot grensoverschrijdende omzetting voorafgaan.
+##### Afdeling 2. Emigratie. - Onderafdeling 1. Formaliteiten die het besluit tot grensoverschrijdende omzetting voorafgaan.
 
 ###### Art. 14:54
 
@@ -11219,7 +11221,7 @@ Een kopie van het verslag van het bestuursorgaan en van het verslag van de commi
   ----------
   (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
-##### Onderafdeling 2. Besluit tot grensoverschrijdende omzetting.
+##### Afdeling 2. Emigratie. - Onderafdeling 2. Besluit tot grensoverschrijdende omzetting.
 
 ###### Art. 14:59
 
@@ -11292,8 +11294,8 @@ De zich omzettende rechtspersoon legt door toedoen van haar bestuursorgaan een s
 ##### Afdeling 1. Inleidende bepalingen.
 ###### Art. 14:68
 
-##### Afdeling 2 van dit hoofdstuk is van toepassing op alle door dit wetboek geregelde stichtingen, die hun zetel naar het buitenland willen verplaatsen (emigratie), met uitzondering van de EUPP en de EUPS.
-##### Afdeling 3 van dit hoofdstuk is van toepassing op alle door buitenlands recht beheerste rechtspersonen, die hun zetel naar België willen verplaatsen (immigratie), met uitzondering van de EUPP en de EUPS.
+Afdeling 2 van dit hoofdstuk is van toepassing op alle door dit wetboek geregelde stichtingen, die hun zetel naar het buitenland willen verplaatsen (emigratie), met uitzondering van de EUPP en de EUPS.
+  Afdeling 3 van dit hoofdstuk is van toepassing op alle door buitenlands recht beheerste rechtspersonen, die hun zetel naar België willen verplaatsen (immigratie), met uitzondering van de EUPP en de EUPS.
 
 ###### Art. 14:69
 
@@ -11304,8 +11306,7 @@ Wanneer een rechtspersoon haar statutaire zetel over de grenzen heen verplaatst,
 De grensoverschrijdende omzetting is niet toegelaten zolang de om te zetten rechtspersoon is onderworpen aan een insolventieprocedure.
 
 
-##### Afdeling 2. Emigratie.
-##### Onderafdeling 1. Formaliteiten die het besluit tot grensoverschrijdende omzetting voorafgaan.
+##### Afdeling 2. Emigratie. - Onderafdeling 1. Formaliteiten die het besluit tot grensoverschrijdende omzetting voorafgaan.
 
 ###### Art. 14:71
 
@@ -11334,7 +11335,7 @@ Bij het in artikel 14:73 bedoelde verslag voegt het bestuursorgaan een staat van
 ###### Art. 14:75
 
 Iedere schuldeiser die op grond van artikel 14:72 over een verzetsrecht beschikt kan, vanaf de bekendmaking van het omzettingsvoorstel overeenkomstig artikel 14:71 op de zetel van de stichting kosteloos een kopie van de in het eerste lid bedoelde stukken verkrijgen.
-##### Onderafdeling 2. Besluit tot grensoverschrijdende omzetting.
+##### Afdeling 2. Emigratie. - Onderafdeling 2. Besluit tot grensoverschrijdende omzetting.
 
 ###### Art. 14:76
 
@@ -11385,8 +11386,7 @@ De zich omzettende rechtspersoon legt door toedoen van haar bestuursorgaan een s
   De Koning kan het model van de staat van activa en passiva vaststellen.
 
 
-## DEEL 5. De Europese rechtsvormen.
-## BOEK 15. De Europese vennootschap.
+## DEEL 5. De Europese rechtsvormen. - BOEK 15. De Europese vennootschap.
 
 ### TITEL 1. Algemene bepalingen.
 
@@ -11586,7 +11586,7 @@ De onafhankelijke deskundige(n) bedoeld in artikel 66, lid 5, van verordening (E
 
 De strafbepalingen van dit wetboek betreffende de naamloze vennootschap zijn van overeenkomstige toepassing op de SE.
 
-## BOEK 16. De Europese coöperatieve vennootschap.
+## DEEL 5. De Europese rechtsvormen. - BOEK 16. De Europese coöperatieve vennootschap.
 
 ### TITEL 1. Algemene bepalingen.
 
@@ -11795,7 +11795,7 @@ Met geldboete van vijftig euro tot tienduizend euro en bovendien met gevangeniss
   3° zij die als bestuurder zoals bedoeld in artikel 2:51 of commissaris door enig middel op kosten van de vennootschap geldstortingen op de aandelen doen of geldstortingen als gedaan erkennen die niet werkelijk gedaan zijn op de voorgeschreven wijze en tijdstippen;
   4° zij die de voorschriften van artikel 4, lid 12, van verordening (EG) nr. 1435/2003 hebben overtreden.
 
-## BOEK 17. De Europese politieke partij en de Europese politieke stichting.
+## DEEL 5. De Europese rechtsvormen. - BOEK 17. De Europese politieke partij en de Europese politieke stichting.
 
 ### TITEL 1. De Europese politieke partij.
 
@@ -11857,7 +11857,7 @@ In geval van verlies van de Europese rechtspersoonlijkheid in toepassing van art
    Indien de zekerheid niet binnen de bepaalde termijn is gesteld, wordt de schuldvordering onmiddellijk opeisbaar.
    § 2. De doorhaling in België van de oude inschrijving ten gevolge van de verplaatsing van de statutaire zetel naar het buitenland wordt in de Bijlagen bij het Belgisch Staatsblad bekendgemaakt.
 
-## BOEK 18. Het Europees economisch samenwerkingsverband.
+## DEEL 5. De Europese rechtsvormen. - BOEK 18. Het Europees economisch samenwerkingsverband.
 
 ### TITEL 1. Algemene bepalingen.
 

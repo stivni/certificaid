@@ -2,9 +2,14 @@
 tags: ["XIX", "4.0"]
 itaa-lex-sectie: "XIX"
 wet: "Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "30.07.2018"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+chunk:
+  level: 5
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/AVG-wet-2018.pdf
@@ -12,27 +17,53 @@ provenance:
       version: 30.07.2018
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:30Z'
+  generated_at: '2026-05-09T16:15:13Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 5
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 393
+      max_section_chars: 8307
+      file_size_chars: 294686
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: Frontmatter compleet, heading-hierarchie correct (H1 + 8 H2 + 63 H3 + 36 H4), Art.-headings op level 5 zoals chunk-config voorschrijft. Body is leesbaar Nederlands, geen kolom-bleed. TOC-rest staat compact bij regel 42 maar verstoort geen artikel-content.
+      problemen:
+        - regel: 42
+          type: other
+          voorbeeld: (Art.254)   (Art.255)    (Art.256) — TOC-residu in lopende tekst
+      sterkte:
+        - 'Art.-headings genest op ##### zoals chunk.level=5'
+        - Geen FR-leak
+        - Art. 1 t/m 281 herkenbaar
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # Belgische AVG-uitvoeringswet 2018
 
-*Bijgewerkt tot en met 30.07.2018 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
+*Bijgewerkt tot en met 30.07.2018 — gecoördineerde versie.*
 
 Titel
 
@@ -147,7 +178,8 @@ De verwerkingsverantwoordelijke of de bevoegde overheid deelt niet mee dat hij i
 1° hij neemt de gepaste technische of organisatorische maatregelen om ervoor te zorgen dat de toegang tot de gegevens en de verwerkingsmogelijkheden beperkt zijn tot hetgeen de personen nodig hebben om hun functies uit te oefenen of tot hetgeen nodig is voor de behoeften van de dienst;
 2° hij neemt de gepaste technische of organisatorische maatregelen om de persoonsgegevens te beschermen tegen toevallige of niet-toegestane vernietiging, tegen toevallig verlies en tegen wijziging of elke andere niettoegestane verwerking van die gegevens.
 De leden van het personeel van de verwerkingsverantwoordelijke die de gegevens bedoeld in het eerste lid verwerken, zijn bovendien gebonden door de discretieplicht.
-§ 5. Wanneer een verzoek of een klacht aanhangig wordt gemaakt bij de toezichthoudende autoriteit bedoeld in de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, waarbij de verwerkingsverantwoordelijke melding maakt van de toepassing van dit artikel, wendt de toezichthoudende autoriteit eerste zich tot het Vast Comité I opdat het de nodige verificaties verricht bij de autoriteit bedoeld in titel 3.
+§ 5. Wanneer een verzoek of een klacht aanhangig wordt gemaakt bij de toezichthoudende autoriteit bedoeld in de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, waarbij de verwerkingsverantwoordelijke melding maakt van de toepassing van dit artikel, wendt de toezichthoudende autoriteit eerste zich tot het Vast Comité I opdat het de nodige verificaties verricht bij de autoriteit bedoeld in titel
+3.
 Na ontvangst van het antwoord van het Vast Comité I, brengt de Gegevensbeschermingsautoriteit de betrokkene enkel op de hoogte van de resultaten van de verificatie die betrekking hebben op persoonsgegevens die niet van de autoriteiten bedoeld in titel 3 afkomstig zijn, die de toezichthoudende autoriteit wettelijk gehouden is mee te delen.
 Indien het verzoek of de klacht enkel betrekking heeft op persoonsgegevens afkomstig van een autoriteit bedoeld in titel 3, antwoordt de Gegevensbeschermingsautoriteit, na ontvangst van het antwoord van het Vast Comité I, dat de nodige verificaties werden verricht.
 (1)<W 2024-03-29/15, art. 34, 007; Inwerkingtreding : 01-10-2024>
@@ -356,7 +388,8 @@ De verwerkingsverantwoordelijke maakt in voorkomend geval en voor zover mogelijk
 § 1. Persoonsgegevens die op feiten zijn gebaseerd, worden voor zover mogelijk onderscheiden van persoonsgegevens die op een persoonlijk oordeel zijn gebaseerd.
 § 2. De bevoegde overheden nemen alle redelijke maatregelen om ervoor te zorgen dat persoonsgegevens die onjuist, onvolledig of niet meer actueel zijn, niet worden doorgezonden of beschikbaar worden gesteld. Daartoe controleert iedere bevoegde overheid, voor zover mogelijk, de kwaliteit van de persoonsgegevens voordat de gegevens worden doorgezonden of beschikbaar worden gesteld.
 Voor zover mogelijk wordt bij de doorzending van persoonsgegevens te allen tijde de noodzakelijke aanvullende informatie worden toegevoegd aan de hand waarvan de ontvangende bevoegde overheid de mate van juistheid, volledigheid en betrouwbaarheid van persoonsgegevens kan beoordelen, alsmede de mate waarin ze actueel zijn.
-§ 3. Indien blijkt dat onjuiste persoonsgegevens zijn doorgezonden, of dat de persoonsgegevens op onrechtmatige wijze zijn doorgezonden, wordt de ontvanger daarvan onverwijld in kennis gesteld. In dat geval worden de persoonsgegevens gerectificeerd of gewist, of wordt de verwerking beperkt overeenkomstig artikel 39.
+§ 3. Indien blijkt dat onjuiste persoonsgegevens zijn doorgezonden, of dat de persoonsgegevens op onrechtmatige wijze zijn doorgezonden, wordt de ontvanger daarvan onverwijld in kennis gesteld. In dat geval worden de persoonsgegevens gerectificeerd of gewist, of wordt de verwerking beperkt overeenkomstig artikel
+39.
 
 ##### Art. 33
 
@@ -814,7 +847,8 @@ De inlichtingen- en veiligheidsdiensten verwerken, voor het belang van de uitoef
 
 ##### Art. 77
 
-De persoonsgegevens worden niet langer bewaard dan noodzakelijk voor de doeleinden waarvoor ze opgeslagen worden en volgens de nadere regels bepaald in het kader van artikel 21 van de wet van 30 november 1998.
+De persoonsgegevens worden niet langer bewaard dan noodzakelijk voor de doeleinden waarvoor ze opgeslagen worden en volgens de nadere regels bepaald in het kader van artikel 21 van de wet van 30 november
+1998.
 
 ### HOOFDSTUK VI. - Rechten van de betrokkene
 
@@ -949,7 +983,8 @@ De functionaris voor gegevensbescherming kan worden bijgestaan door één of mee
 ##### Art. 92
 
 In afwijking van de artikelen 20, 22, 23, 58 en 59 van deze wet en van de artikelen 35 en 36 van de Verordening kan noch een protocol, noch een advies van de functionaris voor gegevensbescherming, noch een gegevensbeschermingseffectbeoordeling, noch het advies volgend op de raadpleging van de bevoegde toezichthoudende autoriteit vereist worden als voorafgaande voorwaarde voor de mededeling van persoonsgegevens tussen een inlichtingen- en veiligheidsdienst en enig openbaar of privé orgaan, in het belang van de uitvoering van de opdrachten van de inlichtingen- en veiligheidsdiensten.
-Deze mededeling vindt plaats in overeenstemming met de artikelen 14, 16 en 19 van de wet van 30 november 1998.
+Deze mededeling vindt plaats in overeenstemming met de artikelen 14, 16 en 19 van de wet van 30 november
+1998.
 Wanneer de partijen beslissen een protocol af te sluiten, bevat dit, in afwijking van artikel 20, § 1, tweede lid, het volgende :
 1° de identificatie van de inlichtingen- en veiligheidsdienst en het openbaar of particulier orgaan die de persoonsgegevens uitwisselen;
 2° de identificatie van de verwerkingsverant-woordelijken;
@@ -979,7 +1014,8 @@ In afwijking van artikel 93 mag een doorgifte van persoonsgegevens aan een land 
 
 ##### Art. 95
 
-In afwijking van de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, is het Vast Comité I, in zijn hoedanigheid van onafhankelijke publieke autoriteit, aangewezen als gegevensbeschermingsautoriteit belast met de controle van de verwerking van persoonsgegevens door de inlichtingen- en veiligheidsdiensten en hun verwerkers volgens de nadere regels vastgelegd in de wet van 18 juli 1991.
+In afwijking van de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, is het Vast Comité I, in zijn hoedanigheid van onafhankelijke publieke autoriteit, aangewezen als gegevensbeschermingsautoriteit belast met de controle van de verwerking van persoonsgegevens door de inlichtingen- en veiligheidsdiensten en hun verwerkers volgens de nadere regels vastgelegd in de wet van 18 juli
+1991.
 Het Vast Comité I waakt over de toepassing van deze ondertitel ter bescherming van de fundamentele rechten en vrijheden van de natuurlijke personen met betrekking tot deze verwerking.
 
 ##### Art. 96
@@ -1205,7 +1241,8 @@ Dit register bevat, desgevallend en indien mogelijk, de volgende gegevens voor w
 7° de beoogde termijnen voor het verwijderen van de persoonsgegevens;
 8° het gebruik van profilering;
 9° de rechtsgrondslag;
-10° een algemene beschrijving van de technische en organisatorische beveiligingsmaatregelen bedoeld in artikel 121.
+10° een algemene beschrijving van de technische en organisatorische beveiligingsmaatregelen bedoeld in artikel
+121.
 § 2. De in paragraaf 1 bedoelde registers worden in schriftelijke vorm, met inbegrip van elektronische vorm, opgesteld.
 § 3. De verwerkingsverantwoordelijke stelt het register ter beschikking van de bevoegde toezichthoudende autoriteit op diens vraag.
 De verwerker stelt het register ter beschikking van de verwerkingsverantwoordelijke en stelt het eveneens ter beschikking van de bevoegde toezichthoudende autoriteit op diens vraag.

@@ -35,6 +35,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: "[Laag-2-R2 2026-05-08] 15 headings voor technisch-diep advies over vermogensmutatiemethode. Grote sectie bevat consistente voorbeelden 1-4 met balansschema's als Markdown-tabellen."
+    layer1:
+      verdict: warn
+      heading_count: 23
+      max_section_chars: 37098
+      file_size_chars: 67939
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 37098 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2022/11 – Vermogensmutatiemethode

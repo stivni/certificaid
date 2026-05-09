@@ -2,9 +2,14 @@
 tags: ["XII"]
 itaa-lex-sectie: "XII"
 wet: "Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "29.02.2024"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Strafwetboek2024-boek2.pdf
@@ -12,27 +17,49 @@ provenance:
       version: 29.02.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:30Z'
+  generated_at: '2026-05-09T16:15:15Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 6
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 924
+      max_section_chars: 11480
+      file_size_chars: 466327
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: '732 ###### Art.-headings consistent, structurele Hoofdstuk-blokken aanwezig, slotbepaling Art. 119 inwerkingtreding correct. Geen kolom-bleed of OCR-artefacten gespot.'
+      problemen: []
+      sterkte:
+        - 732 Art.-headings
+        - frontmatter en slotbepaling intact
+      auto: false
+      run_id: qa-batch-W2
 ---
 
 # Strafwetboek 2024 — Boek 2
 
-*Bijgewerkt tot en met 29.02.2024 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
+*Bijgewerkt tot en met 29.02.2024 — gecoördineerde versie.*
 
 Titel
 
@@ -367,7 +394,8 @@ Doodslag gepleegd op een persoon met een maatschappelijke functie wordt bestraft
 
 Uitgelokte doodslag
 De doodslag is uitgelokt indien deze werd gepleegd onder de onmiddellijke invloed van opzettelijk gepleegd, onrechtmatig, ernstig en ogenblikkelijk fysiek of psychisch geweld tegen zijn persoon of tegen een derde.
-Indien de doodslag werd uitgelokt, wordt de op het misdrijf gestelde straf vervangen door een straf van niveau 3.
+Indien de doodslag werd uitgelokt, wordt de op het misdrijf gestelde straf vervangen door een straf van niveau
+3.
 
 ###### Art. 104
 
@@ -4612,7 +4640,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 
 ##### Onderafdeling 5. Het overgooien van voorwerpen over de muren of afsluitingen van een gevangenis, een
 
-##### afdeling of een inrichting tot bescherming van de maatschappij
+afdeling of een inrichting tot bescherming van de maatschappij
 
 ###### Art. 687
 

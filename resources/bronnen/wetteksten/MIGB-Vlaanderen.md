@@ -2,9 +2,14 @@
 tags: ["III", "2.2", "2.3"]
 itaa-lex-sectie: "III"
 wet: "Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "13.04.2019"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 5
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/MIGB-Vlaanderen.pdf
@@ -12,22 +17,46 @@ provenance:
       version: 13.04.2019
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
+  generated_at: '2026-05-09T16:15:44Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 5
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 245
+      max_section_chars: 2605
+      file_size_chars: 67224
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: 'Heldere Hoofdstuk/Afdeling-structuur met ##### Art.-headings; concordantietabellen (Vlaamse Codex Fiscaliteit) zijn correct opgenomen voor opgeheven artikelen. Body start ook zonder eerste Art.-heading (zie §1 boven Art. 2), maar minder uitgesproken dan Brussel/Wallonie.'
+      problemen:
+        - minimale ontbrekende heading bij allereerste paragraaf
+      sterkte:
+        - consistente heading-structuur
+        - concordantieblokken intact
+        - volledig t/m Art. 124
+      auto: false
+      run_id: qa-batch-W2
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest
@@ -441,7 +470,7 @@ Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 ##### Art. 84, § 2 Opgeheven
 ##### Art. 84, § 3 Art. 1.1.0.0.4
 
-#### HOOFDSTUK IVbis (…)
+HOOFDSTUK IVbis (…)
 
 (opgeheven bij art. 42 van het decreet van 27 jun. 2003 (B.S., 12.09.2003). Tekst van toepassing vanaf 1 jul. 2003 (art. 46))
 
@@ -648,7 +677,7 @@ Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 ##### Art. 97decies Art. 2.3.6.0.2
 
-##### Afdeling 2 (…)
+Afdeling 2 (…)
 
 ##### Art. 98
 

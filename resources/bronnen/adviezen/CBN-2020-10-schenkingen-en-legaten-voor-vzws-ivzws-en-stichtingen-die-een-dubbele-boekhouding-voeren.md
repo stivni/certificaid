@@ -30,6 +30,17 @@ provenance:
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: warn
+      heading_count: 50
+      max_section_chars: 29444
+      file_size_chars: 36251
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 29444 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
   - titel: Duolegaat – Vereniging en stichting
     url: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting

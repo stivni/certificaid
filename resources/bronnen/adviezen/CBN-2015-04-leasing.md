@@ -31,6 +31,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: '[Laag-2-R2 2026-05-08] 33 headings over roerende leasing, onroerende leasing, huur en sale-and-lease-back. Samenvatting geeft directe antwoorden.'
+    layer1:
+      verdict: warn
+      heading_count: 49
+      max_section_chars: 34223
+      file_size_chars: 77181
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 34223 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
   - titel: Boeking van het verschuldigd bedrag om de optie te lichten of van de restwaarde aan het einde van de overeenkomst
     url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-verschuldigd-bedrag-om-de-optie-te-lichten-of-van-de-restwaarde-aan-het

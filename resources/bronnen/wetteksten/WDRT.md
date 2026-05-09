@@ -24,10 +24,42 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+    layer1:
+      verdict: warn
+      heading_count: 377
+      max_section_chars: 55659
+      file_size_chars: 313896
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op #####-niveau: 55659 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: needs-rework
+      rationale: 'Hoge heading-count (377) maar visuele inspectie toont lege ##### Art.-headers gevolgd door volgende heading zonder body (bv. Art. 17. → Titel V). Aandacht voor mogelijk ontbrekende body-tekst per artikel.'
+      problemen:
+        - regel: 71
+          type: missing-section
+          voorbeeld: '##### Art. 17. (geen body, direct gevolgd door ### Titel V.)'
+        - regel: 0
+          type: other
+          voorbeeld: 'max_section_size 55659 op #####-niveau wijst op pockets met grote ongesplitste tekst'
+      sterkte:
+        - Heading-hierarchie en titel-structuur aanwezig
+        - Frontmatter en provenance correct
+      auto: false
+      run_id: qa-batch-W4
 chunk:
   level: 5
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
 ---
 
 # Wetboek Diverse Rechten en Taksen

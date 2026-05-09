@@ -2,9 +2,14 @@
 tags: ["I", "2.1"]
 itaa-lex-sectie: "I"
 wet: "Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "24.12.2002"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Wet-voorafgaande-beslissingen-2002.pdf
@@ -12,27 +17,52 @@ provenance:
       version: 24.12.2002
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:30Z'
+  generated_at: '2026-05-09T16:15:14Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 4
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 46
+      max_section_chars: 4243
+      file_size_chars: 29902
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: 46 headings, max 4243 chars, slot Art. 35 (Rekenhof-evaluatie) aanwezig. Inhoud leesbaar.
+      problemen:
+        - regel: 36
+          type: other
+          voorbeeld: Loose 'Titel' regel direct onder titel — cosmetisch, geen blok-impact
+      sterkte:
+        - 'Per-artikel #### Art. headings'
+        - Slot Art. 35 + Rekenhof-evaluatie aanwezig
+      auto: false
+      run_id: qa-batch-W4
 ---
 
 # Wet voorafgaande beslissingen in fiscale zaken
 
-*Bijgewerkt tot en met 24.12.2002 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
+*Bijgewerkt tot en met 24.12.2002 — gecoördineerde versie.*
 
 Titel
 
@@ -80,7 +110,8 @@ In titel III, hoofdstuk II, afdeling III, van hetzelfde Wetboek wordt een "Onder
 - de echtgenoot ervan of hun kinderen, wanneer die personen of hun echtgenoot het wettelijk genot van de inkomsten van die kinderen hebben.
 Het gereserveerde belastbare resultaat welke, na vermindering, in aanmerking wordt genomen voor de berekening van de investeringsreserve overeenkomstig het eerste lid, wordt beperkt tot 37.500 EUR per belastbaar tijdperk.
 De aldus berekende investeringsreserve wordt slechts vrijgesteld indien en in zoverre de belaste reserves, vóór aanleg van de investeringsreserve, op het einde van het belastbaar tijdperk hoger zijn dan de belaste reserves op het einde van het vorig belastbaar tijdperk, waarin laatst het voordeel van het aanleggen van een investeringsreserve werd genoten.
-De investeringsreserve wordt slechts vrijgesteld voorzover voldaan is aan de voorwaarden als vermeld in artikel 190.
+De investeringsreserve wordt slechts vrijgesteld voorzover voldaan is aan de voorwaarden als vermeld in artikel
+190.
 § 3. Een bedrag gelijk aan de investeringsreserve moet door de vennootschap worden geïnvesteerd :
 a) in afschrijfbare materiële of immateriële vaste activa die recht kunnen geven op het voordeel van de investeringsaftrek;
 b) binnen een termijn van drie jaar die aanvangt op de eerste dag van het belastbare tijdperk waarvoor de investeringsreserve is aangelegd, en ten laatste bij de ontbinding van de vennootschap.
@@ -119,7 +150,8 @@ De voorwaarden vermeld in het eerste lid zijn evenwel niet van toepassing op de 
 De voorwaarden vermeld in het eerste lid, 1°, zijn evenwel niet van toepassing op de inkomsten :
 1° die worden verkregen door kredietinstellingen vermeld in artikel 56, § 1;
 2° die worden verkregen door verzekeringsondernemingen vermeld in artikel 56, § 2, 2°, h ;
-3° die worden verkregen door beursvennootschappen vermeld in artikel 47 van de voornoemde wet van 6 april 1995.
+3° die worden verkregen door beursvennootschappen vermeld in artikel 47 van de voornoemde wet van 6 april
+1995.
 Voor de toepassing van het eerste lid wordt een lening van aandelen als vermeld in artikel 18, eerste lid, 3°, niet als een vervreemding aangemerkt. "
 
 #### Art. 10

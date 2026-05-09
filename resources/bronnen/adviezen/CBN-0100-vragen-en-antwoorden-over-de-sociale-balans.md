@@ -32,6 +32,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: '[Laag-2-R2 2026-05-08] 91 geneste Markdown-headings zorgen voor fijnkorrelige chunking buiten de lange sectie. Inhoud volledig coherent; grote sectie is gevolg van rijke Q&A structuur, niet van scraping-fout.'
+    layer1:
+      verdict: warn
+      heading_count: 93
+      max_section_chars: 38693
+      file_size_chars: 127426
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 38693 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies S100 - Vragen en antwoorden over de sociale balans

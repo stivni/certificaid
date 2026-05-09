@@ -39,6 +39,17 @@ provenance:
     confirmed_at:
     confirmed_by:
     rationale:
+    layer1:
+      verdict: warn
+      heading_count: 3
+      max_section_chars: 395
+      file_size_chars: 1149
+      flags:
+        - name: provenance_valid
+          status: warn
+          detail: provenance.inputs is leeg
+          samples: []
+      run_id: 20260509-172914
 ---
 
 ⚠️ **Placeholder — inhoud ontbreekt. Dit bestand mag NIET worden gevuld met een zelf geconstrueerde samenvatting.**

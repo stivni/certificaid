@@ -10,10 +10,25 @@ dezelfde extractie- en cleanup-pipeline.
 
 Pipeline:
   1. PDF → tekst via pdftotext (zelfde aanpak als pdftotext_ejustice).
-  2. Body-cleanup: schrap FOD page-headers, page-numbers en bijwerkings-
-     marginalia (analoog aan tools/etl/split-kb-compilatie.py).
+  2. Body-cleanup per split:
+       a. FOD page-headers, page-numbers, bijwerkings-marginalia
+          (analoog aan tools/etl/split-kb-compilatie.py).
+       b. Inhoudstafel-strip (Inhoudstafel + dotted-leader-pagina-refs)
+          — voorkomt dat TOC-AFDELINGen body-structuur lijken voor
+          tools/lib/headings.detect_hierarchy.
+       c. AFDELING-normalisatie:
+            - "EERSTE AFDELING"  → "AFDELING I"
+            - "TWEEDE AFDELING"  → "AFDELING II"
+            - "AFDELING. III." → "AFDELING III"
+       d. "Artikel N" → "Art. N" zodat tools/lib/headings._ART_RE
+          (`Art\\.|Par\\.`) ze als artikel herkent en process_wettekst
+          ze later naar het juiste markdown-niveau injecteert.
   3. Splits-detectie via tools/lib/compilatie_split.split_btw_compilatie
      met de SplitConfig-list opgebouwd uit cfg["splits"].
+
+Het resultaat is determistisch: dezelfde raw PDF + dezelfde split-config
+levert exact dezelfde staging-bodies. Heading-injectie (markdown-niveau-
+toekenning) gebeurt nadien centraal in tools/lib/headings.process_wettekst.
 
 Returntype: dict[output_path, body_str] — de orchestrator herkent dict
 en schrijft N bestanden i.p.v. één.
@@ -57,6 +72,141 @@ _BODY_NOISE = [
 ]
 
 
+# ─── TOC + heading-normalisatie patronen (per-split body-cleanup) ──────────
+
+_AFDELING_WORDS = {
+    "EERSTE": "I", "TWEEDE": "II", "DERDE": "III", "VIERDE": "IV",
+    "VIJFDE": "V", "ZESDE": "VI", "ZEVENDE": "VII", "ACHTSTE": "VIII",
+    "NEGENDE": "IX", "TIENDE": "X", "ELFDE": "XI", "TWAALFDE": "XII",
+}
+_ART_BIS_SUFFIX = (
+    r"(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies|"
+    r"undecies|duodecies|terdecies|quaterdecies)"
+)
+_ARTIKEL_PLAIN_RE = re.compile(
+    rf"^[ \t]+Artikel\s+(\d+(?:{_ART_BIS_SUFFIX})?(?:/\d+)?)\s*\.?\s*$"
+)
+_EERSTE_AFD_RE = re.compile(
+    r"^[ \t]+(" + "|".join(_AFDELING_WORDS) + r")\s+AFDELING\s*\.?\s*$"
+)
+_AFDELING_RE = re.compile(
+    r"^(?:#{1,4}\s+)?AFDELING\.?\s+([IVXLCDM]+)\b\.?\s*(.*)$"
+)
+_INHOUDSTAFEL_RE = re.compile(r"^[ \t]*Inhoudstafel\s*$", re.I)
+
+# TOC-suffix-detectoren (regel ziet er TOC-achtig uit).
+_TOC_LINE_HINTS = (
+    re.compile(r"\(art\.\s+\d+\w*\s*[\-–]\s*art\.\s+\d+\w*\)"),
+    re.compile(r"\(art\.\s+\d+[^)]{0,40}\)"),
+    re.compile(r"\.{3,}\s*\d+\s*$"),
+    re.compile(r"\s{3,}\d+\s*$"),
+)
+
+_BIJWERKING_RE = re.compile(
+    r"^\([^)]*(?:Inwerkingtreding|gewijzigd|vervangen|ingevoegd|opgeheven)"
+    r"[^)]*\)\s*$",
+    re.I,
+)
+
+
+def _is_toc_line(ln: str) -> bool:
+    if not ln.strip():
+        return False
+    return any(p.search(ln) for p in _TOC_LINE_HINTS)
+
+
+def _strip_inhoudstafel(body: str) -> str:
+    """Verwijder Inhoudstafel-blok aan begin van body.
+
+    Wrapt over meerdere regels (TOC-entries kunnen split-zijn met paginanummer
+    op de volgende regel). Stopt bij "EERSTE AFDELING", "Artikel N" of een
+    heading zonder TOC-suffix-omgeving — dat is body-start.
+    """
+    lines = body.splitlines()
+    toc_start = None
+    for i, ln in enumerate(lines):
+        if _INHOUDSTAFEL_RE.match(ln):
+            toc_start = i
+            break
+    if toc_start is None:
+        # Geen Inhoudstafel-marker: cluster-heuristiek (≥ 3 TOC-suffix-regels in
+        # eerste 60 regels = orphan TOC).
+        hits = [i for i, ln in enumerate(lines[:60]) if _is_toc_line(ln)]
+        if len(hits) < 3:
+            return body
+        toc_start = hits[0]
+
+    def _toc_continuation(idx: int) -> bool:
+        for k in range(idx + 1, min(idx + 4, len(lines))):
+            if not lines[k].strip():
+                continue
+            return _is_toc_line(lines[k])
+        return False
+
+    body_start = None
+    for j in range(toc_start + 1, len(lines)):
+        ln = lines[j]
+        if not ln.strip():
+            continue
+        if _is_toc_line(ln) or _toc_continuation(j):
+            continue
+        if (re.match(r"^#{1,6}\s+\S", ln)
+                or _EERSTE_AFD_RE.match(ln)
+                or _ARTIKEL_PLAIN_RE.match(ln)):
+            body_start = j
+            break
+        if not ln.startswith((" ", "\t")) and len(ln.strip()) >= 40:
+            body_start = j
+            break
+
+    if body_start is None:
+        return body
+    return "\n".join(lines[:toc_start] + lines[body_start:])
+
+
+def _normalize_afdeling_and_artikel(body: str) -> str:
+    """Normaliseer AFDELING- en Artikel-regels naar process_wettekst-vriendelijke vorm.
+
+    Body-niveau-conversies (geen markdown-headings hier; die zet
+    process_wettekst later op basis van detected hierarchy):
+      "EERSTE AFDELING"  → "AFDELING I"
+      "  AFDELING. III." → "AFDELING III"
+      "  Artikel 21bis"  → "Art. 21bis"
+    """
+    out: list[str] = []
+    for ln in body.splitlines():
+        m_word = _EERSTE_AFD_RE.match(ln)
+        if m_word:
+            roman = _AFDELING_WORDS[m_word.group(1).upper()]
+            out.append(f"AFDELING {roman}")
+            continue
+        m_afd = _AFDELING_RE.match(ln)
+        if m_afd and not _is_toc_line(ln):
+            roman = m_afd.group(1)
+            tail = m_afd.group(2).strip().rstrip(".").strip()
+            out.append(f"AFDELING {roman}" + (f" — {tail}" if tail else ""))
+            continue
+        m_art = _ARTIKEL_PLAIN_RE.match(ln)
+        if m_art:
+            out.append(f"Art. {m_art.group(1)}")
+            continue
+        out.append(ln)
+    return "\n".join(out)
+
+
+def _strip_bijwerking_marginalia(body: str) -> str:
+    out: list[str] = []
+    for ln in body.splitlines():
+        if _BIJWERKING_RE.match(ln.strip()):
+            continue
+        out.append(ln)
+    return "\n".join(out)
+
+
+def _collapse_blanks(body: str) -> str:
+    return re.sub(r"\n{3,}", "\n\n", body)
+
+
 def _pdftotext_layout(pdf_path: str) -> str:
     """Run pdftotext -layout op de hele PDF."""
     result = subprocess.run(
@@ -69,7 +219,18 @@ def _pdftotext_layout(pdf_path: str) -> str:
 
 
 def _clean_body(body: str) -> str:
-    """Schrap page-headers/footers en collapseer dubbele blanke regels."""
+    """Schrap page-headers/footers + Inhoudstafel + normaliseer AFDELING/Artikel.
+
+    Pipeline:
+      1. Lijn-voor-lijn: schrap FOD/page-noise (`_BODY_NOISE`).
+      2. Strip Inhoudstafel-blok (TOC met dotted-leaders + paginanummers).
+      3. Normaliseer "EERSTE AFDELING" → "AFDELING I" en
+         "Artikel N" → "Art. N" zodat tools/lib/headings die als
+         structuurlabel resp. artikel detecteert.
+      4. Strip bijwerkings-marginalia (1-line "(... gewijzigd met ...)").
+      5. Collapseer 3+ opeenvolgende blanke regels.
+    """
+    # Stap 1: line-noise-filter
     out_lines: list[str] = []
     prev_blank = False
     for ln in body.splitlines():
@@ -83,7 +244,14 @@ def _clean_body(body: str) -> str:
         else:
             prev_blank = False
         out_lines.append(ln)
-    return "\n".join(out_lines).strip() + "\n"
+    body = "\n".join(out_lines)
+
+    # Stap 2-5: structuur-cleanup
+    body = _strip_inhoudstafel(body)
+    body = _normalize_afdeling_and_artikel(body)
+    body = _strip_bijwerking_marginalia(body)
+    body = _collapse_blanks(body)
+    return body.strip() + "\n"
 
 
 def _build_splits(cfg: dict) -> list[SplitConfig]:

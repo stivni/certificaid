@@ -34,6 +34,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: '[Laag-2-R2 2026-05-08] 14 headings voor 6 factoringvarianten, inhoudelijk volledig. Sectiegrootte inherent aan groot aantal verwerkingsvarianten. Journaalpostentabellen correct als Markdown-tabellen.'
+    layer1:
+      verdict: warn
+      heading_count: 14
+      max_section_chars: 26442
+      file_size_chars: 32368
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 26442 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2011/23 - De boekhoudkundige verwerking van factoringovereenkomsten

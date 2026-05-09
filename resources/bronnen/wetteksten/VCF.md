@@ -24,10 +24,38 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+    layer1:
+      verdict: warn
+      heading_count: 900
+      max_section_chars: 38251
+      file_size_chars: 1181491
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 38251 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: needs-rework
+      rationale: "Ernstige kolom-bleed in Art. 1.1.0.0.2 (definitielijst): de naast de hoofdtekst gedrukte verticale legenda-letters ('L D 1 a c i d i s …') leaken in de body en maken de definities onleesbaar over vele regels. Articulo's verder lijken intact. Substantieel onderdeel (definitie-artikel) is praktisch niet RAG-bruikbaar."
+      problemen:
+        - kolom-bleed van legenda-letters in definities Art. 1.1.0.0.2
+        - max_section_size 38251 chars
+      sterkte:
+        - '663 ###### Art.-headings'
+        - Titel/Hoofdstuk-structuur intact
+      auto: false
+      run_id: qa-batch-W2
 chunk:
   level: 6
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
 ---
 
 # Vlaamse Codex Fiscaliteit (VCF)

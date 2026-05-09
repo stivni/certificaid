@@ -24,10 +24,45 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+    layer1:
+      verdict: warn
+      heading_count: 602
+      max_section_chars: 58083
+      file_size_chars: 543714
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 58083 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+        - name: no_toc_dots
+          status: warn
+          detail: 72 TOC-stippen-regel(s) gevonden
+          samples:
+            - '................................................................................'
+            - '...............................................................................6'
+            - '................................................................................'
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: needs-rework
+      rationale: 'Grote codex met 602 headings, maar Laag-1 meldt 72 TOC-stippen-regels (= TOC niet uit body verwijderd) en max_section_size 58k chars op niveau ######. RAG zal vervuilde TOC-chunks meekrijgen.'
+      problemen:
+        - 72 TOC-stippen-regels (TOC niet ontkoppeld)
+        - max_section_size 58083 chars
+      sterkte:
+        - frontmatter correct
+        - rijke heading-structuur
+      auto: false
+      run_id: qa-batch-W2
 chunk:
   level: 6
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
 ---
 
 # Registratierechten — Brussels Hoofdstedelijk Gewest

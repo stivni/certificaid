@@ -2,9 +2,14 @@
 tags: ["XI", "3.1"]
 itaa-lex-sectie: "XI"
 wet: "Burgerlijk Wetboek — Boek 9 — Zekerheden"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/BW-boek9-zekerheden.pdf
@@ -12,27 +17,56 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
+  generated_at: '2026-05-09T16:15:41Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 4
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 93
+      max_section_chars: 1606
+      file_size_chars: 36435
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: BW-boek 9 (Zekerheden), 74 artikelen op H4, hoofdstukken op H2. Schoon.
+      problemen: []
+      sterkte:
+        - Compleet en consistent
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # Burgerlijk Wetboek — Boek 9 — Zekerheden
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
+
+## HOOFDSTUK 1. - Inleidende bepaling
+
+#### Art. 1
+
+Deze wet regelt een aangelegenheid als bedoeld in artikel 74 van de Grondwet.
+
+## HOOFDSTUK 2. - Inhoud van titel 1 "Persoonlijke zekerheden" van boek 9 "Zekerheden" van het Burgerlijk Wetboek
 
 #### Art. 2
 
@@ -327,7 +361,9 @@ Vervangende zekerheid
 #### Art. 9.1.53
 
 Voorrecht van uitwinning
-   Artikel 9.1.23 is niet van toepassing op de gerechtelijke borg.
+#### Art. 9.1
+
+23 is niet van toepassing op de gerechtelijke borg.
 #### Art. 9.1.54
 
 Achterborg

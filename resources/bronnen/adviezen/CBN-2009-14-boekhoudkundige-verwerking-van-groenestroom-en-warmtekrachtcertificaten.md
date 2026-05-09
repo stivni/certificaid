@@ -26,6 +26,17 @@ provenance:
     confirmed_at: '2026-05-08T21:19:09Z'
     confirmed_by: human
     rationale: "Heading-structuur hersteld: <p class='indented'> → ### headings. 18 headings op H3/H4-niveau over 71K chars. max_section_size warn is benign (meting op ## niveau, chunking op H4 niveau aanbevolen). Inhoud volledig."
+    layer1:
+      verdict: warn
+      heading_count: 18
+      max_section_chars: 71731
+      file_size_chars: 71731
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 71731 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
   - titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
     url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van

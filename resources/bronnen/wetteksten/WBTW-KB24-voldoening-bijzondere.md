@@ -2,37 +2,75 @@
 tags: ["VI.B", "2.4"]
 itaa-lex-sectie: "VI.B"
 wet: "K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "29.12.1992"
-bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
-provenance:
-  inputs:
-    - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
-      sha256: 63ccf3d1b29dd477e24c41deee6a1febe0c3449e4d69013291697d1aa7a0a4d1
-      version: 29.12.1992
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:34Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
 chunk:
   level: 4
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
+provenance:
+  inputs:
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    model:
+    prompt_version:
+  generated_at: '2026-05-09T16:15:18Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=warn; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: true
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: warn
+      heading_count: 44
+      max_section_chars: 5343
+      file_size_chars: 28694
+      flags:
+        - name: no_column_bleed
+          status: warn
+          detail: 1 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
+          samples:
+            - 'regel 27: Disposition temporaire                                       Art. 13ter'
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: needs-rework
+      rationale: "Heeft wel headings (18) maar 1 sectie >24k chars en 1 kolom-bleed-patroon (NL/FR mengt op één regel: 'Disposition temporaire ... Art. 13ter'). Inhoud lijkt compleet maar twee-kolom-extractie heeft NL-FR niet correct gescheiden."
+      problemen:
+        - regel: 29
+          type: column-bleed
+          voorbeeld: Disposition temporaire                                       Art. 13ter
+        - regel: 0
+          type: other
+          voorbeeld: max_section_size 30195 chars (####-niveau) > 24000
+      sterkte:
+        - Heading-structuur deels aanwezig
+        - Frontmatter consistent
+      auto: false
+      run_id: qa-batch-W3
 ---
 
 # K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde
 
-*Bijgewerkt tot en met 29.12.1992 — afgesplitst uit de Fisconet-compilatie van 06.03.2020.*
+*Bijgewerkt tot en met 29.12.1992 — gecoördineerde versie.*
 
 Koninklijk besluit nr. 24, van 29 december 1992, met betrekking tot
 de voldoening van de belasting over de toegevoegde waarde.
@@ -43,68 +81,66 @@ Wetboek. Officieuze coördinatie)
 Laatstelijk gewijzigd met ingang van 01.01.2020 (KB 09.12.2019, B.S. 16.12.2019 – Ed. 2,
 pg. 113850)
 
-    Inhoudstafel
+## AFDELING 1.       Betalingen op de rekeningen van "btw-ontvangsten"
+                  Brussel, "Inning en Invordering", "Mini One Stop Shop -
+                  btw BE" en "btw on E-Services".
 
-## AFDELING 1. Betalingen op de rekeningen van "btw-ontvangsten"
-    Brussel, "Inning en Invordering", "Mini One Stop Shop -
-    btw BE" en "btw on E-Services".
+### Onderafdeling 1.    Betaling op de postrekening van "BTW-Ontvangsten"
+                        Brussel                                                      Art. 1 - 8
 
-### Onderafdeling 1. Betaling op de postrekening van "BTW-Ontvangsten"
-    Brussel Art. 1 - 8
+### Onderafdeling 2.    Betaling op de financiële rekening van "Inning en
+                        Invordering".                                                Art. 9 - 13
 
-### Onderafdeling 2. Betaling op de financiële rekening van "Inning en
-    Invordering". Art. 9 - 13
+### Onderafdeling 3.    Betaling op de postrekening van "Mini One Stop Shop
+                        - VAT BE”                                                    Art. 13bis
 
-### Onderafdeling 3. Betaling op de postrekening van "Mini One Stop Shop
-    - VAT BE” Art. 13bis
+### Onderafdeling 4.    Betaling op de postrekening van "VAT on E-Services”
 
-### Onderafdeling 4. Betaling op de postrekening van "VAT on E-Services”
+                        Disposition temporaire                                       Art. 13ter
 
-    Disposition temporaire Art. 13ter
+## AFDELING 2.       Betaling vastgesteld door middel van het elektronische
+                  systeem PLDA van de Algemene Administratie van de
+                  Douane en Accijnzen.                                               Art. 14 - 15
 
-## AFDELING 2. Betaling vastgesteld door middel van het elektronische
-    systeem PLDA van de Algemene Administratie van de
-    Douane en Accijnzen. Art. 14 - 15
+## AFDELING 3.       Betaling bestemd voor het kantoor van de door of vanwege
+                  de Minister van Financiën met de invordering belaste
+                  ambtenaar.                                                         Art. 16 - 19
 
-## AFDELING 3. Betaling bestemd voor het kantoor van de door of vanwege
-    de Minister van Financiën met de invordering belaste
-    ambtenaar. Art. 16 - 19
+## AFDELING 4.       Betaling op een douane of accijnskantoor voor andere dan
+                  bij invoer verschuldigde belasting over de toegevoegde
+                  waarde.                                                            Art. 20 - 21
 
-## AFDELING 4. Betaling op een douane of accijnskantoor voor andere dan
-    bij invoer verschuldigde belasting over de toegevoegde
-    waarde. Art. 20 - 21
-
-## AFDELING 5. Slotbepalingen. Art. 22 - 24
+## AFDELING 5.       Slotbepalingen.                                                    Art. 22 - 24
 
 ## AFDELING 1
-    Betalingen op de rekeningen van "btw-ontvangsten" Brussel,
-    "Inning en Invordering", "Mini One Stop Shop - btw BE" en
-    "btw on E-Services".
+       Betalingen op de rekeningen van "btw-ontvangsten" Brussel,
+        "Inning en Invordering", "Mini One Stop Shop - btw BE" en
+                                  "btw on E-Services".
 
-(Het opschrift van Afdeling 1, werd vervangen met ingang van 01.12.2019 (Art. 31,
+(Het opschrift van Afdeling 1, werd vervangen           met   ingang   van   01.12.2019      (Art.    31,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
 ### Onderafdeling 1
-    Betaling op de postrekening van "BTW-Ontvangsten" Brussel.
+      Betaling op de postrekening van "BTW-Ontvangsten" Brussel.
 
 #### Art. 1
-(De tekst van KB nr. 24, artikel 1, inleidende zin, werd gewijzigd met ingang van
+(De tekst van KB nr. 24, artikel 1, inleidende zin, werd               gewijzigd     met    ingang    van
 05.12.2019 (Art. 4, KB 07.11.2019, B.S. 25.11.2019, pg 108072))
 
 Onder voorbehoud van de toepassing van de artikelen 8, § 1, en 10, 1°/1 van dit besluit worden
 op de in de artikelen 2 tot 7 aangegeven wijze betaald:
-1° de belasting over de toegevoegde waarde waarvan de opeisbaarheid blijkt uit de
-    periodieke aangifte bedoeld in artikel 53, § 1, eerste lid, 2°, van het Wetboek;
+1°    de belasting over de toegevoegde waarde waarvan de opeisbaarheid blijkt uit de
+      periodieke aangifte bedoeld in artikel 53, § 1, eerste lid, 2°, van het Wetboek;
 
-2° de fiscale geldboeten voor het te laat indienen van die aangifte;
+2°    de fiscale geldboeten voor het te laat indienen van die aangifte;
 
-3° de fiscale geldboeten en de nalatigheidsinteresten verschuldigd overeenkomstig artikel
-    91, § 1 van het Wetboek, voor het te laat betalen van de belasting waarvan de
-    opeisbaarheid uit diezelfde aangifte blijkt;
+3°    de fiscale geldboeten en de nalatigheidsinteresten verschuldigd overeenkomstig artikel
+      91, § 1 van het Wetboek, voor het te laat betalen van de belasting waarvan de
+      opeisbaarheid uit diezelfde aangifte blijkt;
 
-4° het voorschot waarvan de opeisbaarheid blijkt uit artikel 19 van het koninklijk besluit nr.
-    1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de
-    belasting over de toegevoegde waarde.
+4°    het voorschot waarvan de opeisbaarheid blijkt uit artikel 19 van het koninklijk besluit nr.
+      1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de
+      belasting over de toegevoegde waarde.
 
 #### Art. 2
 (De tekst van KB nr. 24, artikel 2, is van toepassing met ingang van 01.01.1999 (Art.1,
@@ -140,14 +176,14 @@ gewijzigd.
 (De tekst van KB nr. 24, artikel 4 is van toepassing met ingang van 01.01.1999 (Art.1,
 KB 12.11.1998))
 
-§ 1. De betaling, verricht op een van de in artikel 2 bepaalde wijzen, heeft uitwerking:
+§ 1.   De betaling, verricht op een van de in artikel 2 bepaalde wijzen, heeft uitwerking:
 
-1° voor een storting op een postkantoor, op de datum van de storting;
+1°     voor een storting op een postkantoor, op de datum van de storting;
 
-2° voor een overschrijving, de laatste werkdag die voorafgaat aan de datum van creditering
-    van de postrekening nr. 679-2003000-47 van "BTW-Ontvangsten" Brussel. Als werkdagen
-    worden aangemerkt alle andere dagen dan de zaterdagen, de zondagen en de wettelijke
-    feestdagen.
+2°     voor een overschrijving, de laatste werkdag die voorafgaat aan de datum van creditering
+       van de postrekening nr. 679-2003000-47 van "BTW-Ontvangsten" Brussel. Als werkdagen
+       worden aangemerkt alle andere dagen dan de zaterdagen, de zondagen en de wettelijke
+       feestdagen.
 
 § 2. Door of vanwege de Minister van Financiën worden, in overleg met de Minister onder wie
 de Post ressorteert of diens afgevaardigde, de voorwaarden, de formaliteiten en de termijnen
@@ -157,28 +193,28 @@ betalingsorders en voor de overmaking van het geld ten bate van de Schatkist.
 
 #### Art. 5
 (De tekst van KB nr. 24, artikel 5, § 1, 2°, a) en § 2, werd gewijzigd met ingang van
-01.04.2019 (Art. 11, KB 17.03.2019, B.S. 08.04.2019, pg. 35699). Dit besluit
+01.04.2019   (Art.  11,   KB  17.03.2019,   B.S.  08.04.2019,   pg.  35699).   Dit  besluit
 (KB 17.03.2019) is niet van toepassing op het dwangbevel dat werd kennisgegeven of betekend
 vóór de datum van zijn inwerkingtreding – 01.04.2019 (Art. 23, KB 17.03.2019))
 
 § 1. De administratie houdt voor iedere belastingplichtige die periodieke aangiften moet
 indienen, een rekening-courant bij waarin worden opgenomen, naarmate van de boeking ervan:
 
-1° op de creditzijde:
+1°     op de creditzijde:
 
-    a) het bedrag van alle betalingen op de postrekening nr. 679-2003000-47, die op
-    naam van de belastingplichtige worden geboekt;
+       a)    het bedrag van alle betalingen op de postrekening nr. 679-2003000-47, die op
+             naam van de belastingplichtige worden geboekt;
 
-    b) het batig maand- of kwartaalsaldo dat blijkt uit de door de belastingplichtige
-    ingediende aangiften;
+       b)    het batig maand- of kwartaalsaldo dat blijkt uit de door de belastingplichtige
+             ingediende aangiften;
 
-2° op de debetzijde:
+2°     op de debetzijde:
 
-    a) het bedrag van de in artikel 1, 1° tot 3° bedoelde belasting, nalatigheidsinteresten
-    en fiscale geldboeten;
+       a)    het bedrag van de in artikel 1, 1° tot 3° bedoelde belasting, nalatigheidsinteresten
+             en fiscale geldboeten;
 
-    b) de bedragen die aan de belastingplichtige werden teruggegeven overeenkomstig
-    artikel 7 van dit besluit.
+       b)    de bedragen die aan de belastingplichtige werden teruggegeven overeenkomstig
+             artikel 7 van dit besluit.
 
 § 2. Door of vanwege de Minister van Financiën kan onder de voorwaarden die zij bepalen,
 worden beslist dat andere dan de onder § 1 van dit artikel vermelde verrichtingen in de
@@ -211,16 +247,16 @@ geldboeten en tenslotte op de nog verschuldigde belasting.
 
 De toerekening gebeurt:
 
-1° voor de betalingen, op de datum waarop ze uitwerking hebben;
+1°    voor de betalingen, op de datum waarop ze uitwerking hebben;
 
-2° voor het in artikel 5, § 1, 1°, b, bedoelde maand- of kwartaalsaldo, op de uiterste datum
-    bepaald voor het indienen van de aangifte waaruit dat saldo blijkt;
+2°    voor het in artikel 5, § 1, 1°, b, bedoelde maand- of kwartaalsaldo, op de uiterste datum
+      bepaald voor het indienen van de aangifte waaruit dat saldo blijkt;
 
-3° voor de in artikel 5, § 2, bedoelde inschrijvingen, op de datum bepaald door of vanwege
-    de Minister van Financiën.
+3°    voor de in artikel 5, § 2, bedoelde inschrijvingen, op de datum bepaald door of vanwege
+      de Minister van Financiën.
 
 #### Art. 7
-(De tekst van KB nr. 24, artikel 7, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   24,   artikel    7,   is   van   toepassing     met   ingang     van    01.01.1993
 (KB 29.12.1992))
 
 Het saldo in het voordeel van de belastingplichtige dat uit de rekening-courant blijkt nadat de
@@ -234,7 +270,7 @@ aangeduid in artikel 8(1), § 4, van het koninklijk besluit nr. 4 met betrekking
 inzake belasting over de toegevoegde waarde.
 
 #### Art. 8
-(De tekst van KB nr. 24, artikel 8, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   24,   artikel    8,   is   van   toepassing     met   ingang     van    01.01.1993
 (KB 29.12.1992))
 
 § 1. Door of vanwege de Minister van Financiën kan worden beslist dat handelingen, die vóór
@@ -270,7 +306,7 @@ die de belastingplichtige verschuldigd is of zal worden voor het tijdvak dat vol
 waarvoor het bijhouden van een bijzondere rekening werd voorgeschreven.
 
 ### Onderafdeling 2
-    Betaling op de financiële rekening van "Inning en Invordering".
+     Betaling op de financiële rekening van "Inning en Invordering".
 
 (Het opschrift van Onderafdeling 2, werd vervangen met ingang van 01.12.2019 (Art. 32,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
@@ -286,24 +322,24 @@ overeenkomstig hetgeen voorzien is in de artikelen 15 tot 17 van het Wetboek van
 minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen.
 
 #### Art. 10
-(De tekst van KB nr. 24, artikel 10, inleidende zin, werd gewijzigd met ingang van
+(De tekst van KB nr. 24, artikel 10, inleidende zin, werd gewijzigd                 met ingang van
 01.01.2020 (Art. 32, KB 09.12.2019, B.S. 16.12.2019, pg. 113850))
 
 Onverminderd de toepassing van artikel 20, wordt de betaling eveneens gedaan
 overeenkomstig hetgeen voorzien is in de artikelen 15 tot 17 van het Wetboek van de
 minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen voor:
-1° de belasting over de toegevoegde waarde waarvan de opeisbaarheid blijkt uit de aangifte
-    bedoeld in artikel 53ter, 1° van het Wetboek;
+1°    de belasting over de toegevoegde waarde waarvan de opeisbaarheid blijkt uit de aangifte
+      bedoeld in artikel 53ter, 1° van het Wetboek;
 
 1°/1 de belasting over de toegevoegde waarde waarvan de opeisbaarheid blijkt uit de aangifte
-    bedoeld in artikel 18, § 8, eerste lid, van het koninklijk besluit nr. 1 van 29 december
-    1992 met betrekking tot de voldoening van de belasting over de toegevoegde waarde;
+     bedoeld in artikel 18, § 8, eerste lid, van het koninklijk besluit nr. 1 van 29 december
+     1992 met betrekking tot de voldoening van de belasting over de toegevoegde waarde;
 
-2° de administratieve geldboeten voor het te laat indienen van die aangiften;
+2°    de administratieve geldboeten voor het te laat indienen van die aangiften;
 
-3° de administratieve geldboeten en de interest verschuldigd overeenkomstig artikel 91, § 1
-    van het Wetboek, voor het laattijdig betalen van de belasting waarvan de opeisbaarheid
-    uit die aangiften blijkt.
+3°    de administratieve geldboeten en de interest verschuldigd overeenkomstig artikel 91, § 1
+      van het Wetboek, voor het laattijdig betalen van de belasting waarvan de opeisbaarheid
+      uit die aangiften blijkt.
 
 #### Art. 11
 (De tekst van KB nr. 24, artikel 11, werd gewijzigd met ingang van 01.01.2020 (Art. 33,
@@ -324,18 +360,14 @@ schuldvorderingen.
 (De tekst van KB nr. 24, artikel 12, werd opgeheven met ingang van 01.12.2019 (Art. 36,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
-    (Opgeheven)
-
 #### Art. 13
 (De tekst van KB nr. 24, artikel 13, werd opgeheven met ingang van 01.12.2019 (Art. 36,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
-    (Opgeheven)
-
 ### Onderafdeling 3
-    Betaling op de postrekening van "Mini One Stop Shop - VAT BE”.
+     Betaling op de postrekening van "Mini One Stop Shop - VAT BE”.
 
-(De tekst van Onderafdeling 3, werd vervangen met ingang van 01.01.2015 (Art. 7,
+(De tekst van Onderafdeling 3, werd vervangen            met   ingang   van   01.01.2015      (Art.     7,
 KB 05.07.2015, B.S. 10.07.2015, pg. 45614))
 
 #### Art. 13bis
@@ -354,7 +386,7 @@ gestructureerde mededeling die hem werd ter kennis gebracht door de administrati
 uitwerking op de datum bepaald overeenkomstig artikel 4, § 1.
 
 ### Onderafdeling 4
-    Betaling op de postrekening van "VAT on E-Services".
+             Betaling op de postrekening van "VAT on E-Services".
 
 (De tekst van Onderafdeling 4, werd ingevoegd met ingang van 01.01.2015. (Art. 8, KB
 05.07.2015, B.S. 10.07.2015, pg. 45614))
@@ -380,17 +412,15 @@ postrekening.
 
 ## AFDELING 2
 Betaling vastgesteld door middel van het elektronische systeem PLDA
-    van
-    de Algemene Administratie van de Douane en Accijnzen.
+                                             van
+           de Algemene Administratie van de Douane en Accijnzen.
 
-(Het opschrift van KB nr. 24, afdeling 2, werd gewijzigd met ingang van 16.05.2014
+(Het opschrift van KB nr. 24, afdeling 2, werd gewijzigd          met    ingang    van    16.05.2014
 (Art. 23, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
 #### Art. 14
 (De tekst van KB nr. 24, artikel 14, is opgeheven met ingang van 01.01.2002 (Art.10, 2°,
 KB 13.07.2001))
-
-    (opgeheven)
 
 #### Art. 15
 (De tekst van KB nr. 24, artikel 15, § 1, inleidende zin, werd gewijzigd met ingang van
@@ -402,52 +432,44 @@ navolgende vermeldingen die op de aangifte voor het verbruik wordt aangebracht d
 van het elektronisch systeem PLDA dat die administratie gebruikt om invoeraangiften te
 aanvaarden:
 
-- de vermelding ″contant betaald″ gevolgd door het totaalbedrag van de betaalde
-    belastingen, wanneer de belasting contant wordt betaald;
+-     de vermelding ″contant betaald″ gevolgd door het totaalbedrag van de betaalde
+      belastingen, wanneer de belasting contant wordt betaald;
 
-- de vermelding ″uitstel van betaling″ gevolgd door het totaalbedrag van de betaalde
-    belastingen, wanneer de betaling van de belasting wordt uitgesteld met toepassing van
-    artikel 5, § 2, van het koninklijk besluit nr. 7 met betrekking tot de invoer van goederen
-    voor de toepassing van de belasting over de toegevoegde waarde.
+-     de vermelding ″uitstel van betaling″ gevolgd door het totaalbedrag van de betaalde
+      belastingen, wanneer de betaling van de belasting wordt uitgesteld met toepassing van
+      artikel 5, § 2, van het koninklijk besluit nr. 7 met betrekking tot de invoer van goederen
+      voor de toepassing van de belasting over de toegevoegde waarde.
 
 § 2. Door of vanwege de Minister van Financiën mag echter, in de bijzondere gevallen en
 onder de voorwaarden door hen te bepalen, worden toegestaan dat de voldoening van de ter
 zake van invoer verschuldigde BTW op een andere wijze wordt vastgesteld.
 
 ## AFDELING 3
-    Betaling bestemd voor het kantoor van de door of vanwege de
-    Minister van Financiën met de invordering belaste ambtenaar.
+      Betaling bestemd voor het kantoor van de door of vanwege de
+      Minister van Financiën met de invordering belaste ambtenaar.
 
 #### Art. 16
 (De tekst van KB nr. 24, artikel 16, wordt opgeheven met ingang van 01.12.2019 (Art. 37,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
-    (Opgeheven)
-
 #### Art. 17
 (De tekst van KB nr. 24, artikel 17, wordt opgeheven met ingang van 01.12.2019 (Art. 37,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
-
-    (Opgeheven)
 
 #### Art. 18
 (De tekst van KB nr. 24, artikel 18, wordt opgeheven met ingang van 01.12.2019 (Art. 37,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
-    (Opgeheven)
-
 #### Art. 19
 (De tekst van KB nr. 24, artikel 19, wordt opgeheven met ingang van 01.12.2019 (Art. 37,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
-    (Opgeheven)
-
 ## AFDELING 4
  Betaling op een douane of accijnskantoor voor andere dan bij invoer
-    verschuldigde belasting over de toegevoegde waarde.
+            verschuldigde belasting over de toegevoegde waarde.
 
 #### Art. 20
-(De tekst van KB nr. 24, artikel 20, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   24,   artikel   20,   is   van   toepassing   met   ingang   van    01.01.1993
 (KB 29.12.1992))
 
 De betaling van de verschuldigde belasting die ter uitvoering van het koninklijk besluit nr. 46 tot
@@ -460,144 +482,145 @@ of op een andere wijze bepaald door of vanwege de Minister van Financiën in de 
 hem te bepalen gevallen.
 
 #### Art. 21
-(De tekst van KB nr. 24, artikel 21, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   24,   artikel   21,   is   van   toepassing   met   ingang   van    01.01.1993
 (KB 29.12.1992))
 
 De in artikel 20 bedoelde betalingen hebben uitwerking:
 
-1° voor een betaling in speciën, op de datum van de betaling;
+1°    voor een betaling in speciën, op de datum van de betaling;
 
-2° voor een overschrijving, de laatste werkdag die voorafgaat aan de datum van creditering
-    van de postrekening van het kantoor volgens de documenten van de Post. Als werkdagen
-    worden aangemerkt, alle andere dagen dan de zaterdagen, de zondagen en de wettelijke
-    feestdagen;
+2°    voor een overschrijving, de laatste werkdag die voorafgaat aan de datum van creditering
+      van de postrekening van het kantoor volgens de documenten van de Post. Als werkdagen
+      worden aangemerkt, alle andere dagen dan de zaterdagen, de zondagen en de wettelijke
+      feestdagen;
 
 Indien door of vanwege de Minister van Financiën overeenkomstig artikel 20 van dit besluit, een
 andere wijze van betalen wordt toegestaan, wordt door of vanwege hem eveneens de datum
 bepaald waarop de betaling uitwerking heeft.
 
 ## AFDELING 5
-    Slotbepalingen.
+                                         Slotbepalingen.
 
 #### Art. 22
-(De tekst van KB nr. 24, artikel 22, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   24,   artikel   22,   is   van   toepassing   met   ingang   van    01.01.1993
 (KB 29.12.1992))
 
 Dit besluit vervangt het koninklijk besluit nr. 24 van 23 oktober 1970 met betrekking tot de
 voldoening van de belasting over de toegevoegde waarde.
 
 #### Art. 23
-(De tekst van KB nr. 24, artikel 23, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   24,   artikel   23,   is   van   toepassing   met   ingang   van    01.01.1993
 (KB 29.12.1992))
 
 Dit besluit treedt in werking op 1 januari 1993.
 
 #### Art. 24
-(De tekst van KB nr. 24, artikel 24, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   24,   artikel   24,    is   van   toepassing   met   ingang   van    01.01.1993
 (KB 29.12.1992))
 
 Onze Minister van Financiën is belast met de uitvoering van dit besluit.
 
-## Bijlage A — Recente wijzigingen – KB nr. 24
+Bijlage A
+Recente wijzigingen – KB nr. 24
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
-* KB 09.12.2019 - Koninklijk besluit tot wijziging of opheffing van diverse uitvoeringsbesluiten
+*   KB 09.12.2019 - Koninklijk besluit tot wijziging of opheffing van diverse uitvoeringsbesluiten
     als gevolg van de invoering van het wetboek van de minnelijke en gedwongen invordering
     van fiscale en niet-fiscale schuldvorderingen (B.S. 16.12.2019 – Ed. 2, pg. 113850)
 
-    Wijzigt met ingang van 01.01.2020:
+          Wijzigt met ingang van 01.01.2020:
 
-    - art. 9 (artikel gewijzigd)
-    - art. 10 (inleidende zin, gewijzigd)
-    - art. 11 (artikel gewijzigd)
+               -     art. 9 (artikel gewijzigd)
+               -     art. 10 (inleidende zin, gewijzigd)
+               -     art. 11 (artikel gewijzigd)
 
-* KB 07.11.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 7, 10,
+*   KB 07.11.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 7, 10,
     24, 31, 35, 46 en 56 met betrekking tot de belasting over de toegevoegde waarde
     (B.S. 25.11.2019, pg. 108072)
 
-    Wijzigt met ingang van 05.12.2019:
-    - art. 1 (inleidende zin, gewijzigd)
-    - art. 10 (1°/1, ingevoegd en 2° en 3°, gewijzigd)
+          Wijzigt met ingang van 05.12.2019:
+               -     art. 1 (inleidende zin, gewijzigd)
+               -     art. 10 (1°/1, ingevoegd en 2° en 3°, gewijzigd)
 
-* KB 17.03.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 4, 15, 24,
+*   KB 17.03.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 4, 15, 24,
     31, 41 en 56 met betrekking tot de belasting over de toegevoegde waarde, met het oog op
     de automatisering van de uitvoerbare titel inzake de belasting over de toegevoegde waarde
     (B.S. 08.04.2019 pg. 35699)
 
-    Wijzigt met ingang van 01.04.2019:
+          Wijzigt met ingang van 01.04.2019:
 
-    - art. 1 (3°, gewijzigd)
-    - art. 5 (§ 1, 2°, a) en § 2, gewijzigd)
-    - art. 6 (eerste lid, gewijzigd)
-    - art. 9 (artikel gewijzigd)
-    - art. 10 (3°, gewijzigd)
-    - art. 19 (eerste lid, gewijzigd)
+               -     art. 1 (3°, gewijzigd)
+               -     art. 5 (§ 1, 2°, a) en § 2, gewijzigd)
+               -     art. 6 (eerste lid, gewijzigd)
+               -     art. 9 (artikel gewijzigd)
+               -     art. 10 (3°, gewijzigd)
+               -     art. 19 (eerste lid, gewijzigd)
 
-* KB van 17.02.2019 - Koninklijk besluit tot uitvoering van diverse wetten en tot aanpassing
+*   KB van 17.02.2019 - Koninklijk besluit tot uitvoering van diverse wetten en tot aanpassing
     van diverse koninklijke besluiten met het oog op onder meer de harmonisatie van de
     betalingsmodaliteiten binnen de administratie van de Federale Overheidsdienst Financiën
     belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen
     (B.S. 08.03.2019, pg. 25174)
 
-    Wijzigt met ingang van 01.12.2019 :
+          Wijzigt met ingang van 01.12.2019 :
 
-    - Het opschrift van Afdeling 1, wordt vervangen
-    - Het opschrift van Onderafdeling 2, wordt vervangen
-    - art. 9 (volledig artikel vervangen)
-    - art. 10 (volledig artikel vervangen)
-    - art. 11 (volledig artikel vervangen)
-    - art. 12 (opgeheven)
-    - art. 13 (opgeheven)
-    - art. 16 (opgeheven)
+               -     Het opschrift van Afdeling 1, wordt vervangen
+               -     Het opschrift van Onderafdeling 2, wordt vervangen
+               -     art. 9 (volledig artikel vervangen)
+               -     art. 10 (volledig artikel vervangen)
+               -     art. 11 (volledig artikel vervangen)
+               -     art. 12 (opgeheven)
+               -     art. 13 (opgeheven)
+               -     art. 16 (opgeheven)
 
-    - art. 17 (opgeheven)
-    - art. 18 (opgeheven)
-    - art. 19 (opgeheven)
+                 -   art. 17 (opgeheven)
+                 -   art. 18 (opgeheven)
+                 -   art. 19 (opgeheven)
 
-* KB van 16.02.2017 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1 en
+*   KB van 16.02.2017 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1 en
     24 met betrekking tot de belasting over de toegevoegde waarde wat betreft de betaling van
     voorschotten door een belastingplichtige die kwartaalaangiften indient (B.S. 23.02.2017 - Ed. 2,
     pg. 29877, erratum B.S. 07.03.2017, pg. 32699)
 
-    Wijzigt met ingang van 01.04.2017:
+          Wijzigt met ingang van 01.04.2017:
 
-    - art. 1 (4°, vervangen)
+                 -   art. 1 (4°, vervangen)
 
-* KB van 05.07.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 4,
+*   KB van 05.07.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 4,
     24, 41 en 44 met betrekking tot de belasting over de toegevoegde waarde (B.S. 10.07.2015,
     pg. 45614)
 
-    Wijzigt met ingang van 01.01.2015:
+          Wijzigt met ingang van 01.01.2015:
 
-    - Het opschrift van Afdeling 1, werd vervangen
-    - Het opschrift van Onderafdeling 3, van Afdeling 1 werd vervangen
-    - art. 13bis (volledig artikel vervangen)
-    - In Afdeling 1, werd een Onderafdeling 4 ingevoegd
-    - art. 13ter (nieuw artikel ingevoegd)
+                 -   Het opschrift van Afdeling 1, werd vervangen
+                 -   Het opschrift van Onderafdeling 3, van Afdeling 1 werd vervangen
+                 -   art. 13bis (volledig artikel vervangen)
+                 -   In Afdeling 1, werd een Onderafdeling 4 ingevoegd
+                 -   art. 13ter (nieuw artikel ingevoegd)
 
-* KB van 24.01.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
+*   KB van 24.01.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
     4, 7, 9, 10, 11, 15, 19, 23, 24, 27, 31, 46, 47, 48, 50, 54 en 56 met betrekking tot de
     belasting over de toegevoegde waarde en het koninklijk besluit van 7 juni 2007 tot
     uitvoering van de artikelen 84quinquies tot 84decies van het wetboek van de belasting over
     de toegevoegde waarde (B.S. 20.02.2015, Ed. 2, pg. 13872, erratum B.S. 17.04.2015, pg. 22342)
 
-    Wijzigt met ingang van 16.05.2014:
+          Wijzigt met ingang van 16.05.2014:
 
-    - art. 3 (§ 1, eerste lid, gewijzigd)
-    - art. 5 (§ 1, inleidende zin, gewijzigd)
-    - Het opschrift van afdeling 2 werd gewijzigd
-    - art. 15 (§ 1, inleidende zin, gewijzigd)
-    - art. 16 (eerste lid, gewijzigd)
+                 -   art. 3 (§ 1, eerste lid, gewijzigd)
+                 -   art. 5 (§ 1, inleidende zin, gewijzigd)
+                 -   Het opschrift van afdeling 2 werd gewijzigd
+                 -   art. 15 (§ 1, inleidende zin, gewijzigd)
+                 -   art. 16 (eerste lid, gewijzigd)
 
-* KB van 30.04.2013 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
+*   KB van 30.04.2013 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
     4, 7, 10, 13, 14, 18, 19, 20, 22, 23, 24, 31, 39, 46, 48, 51, 53, 54 en 56 met betrekking tot
     de belasting over de toegevoegde waarde (B.S. 08.05.2013, pg. 26764, erratum B.S. 05.06.2013)
 
-    Wijzigt met ingang van 01.01.2013:
+          Wijzigt met ingang van 01.01.2013:
 
-    - art. 1 (gewijzigd)
-    - art. 5 (gewijzigd)
-    - art. 6 (eerste lid, gewijzigd)
-    - art. 9 (gewijzigd)
-    - art. 10 (gewijzigd)
-    - art. 19 (eerste lid, gewijzigd) [enkel de Nederlandse tekst]
+                 -   art. 1 (gewijzigd)
+                 -   art. 5 (gewijzigd)
+                 -   art. 6 (eerste lid, gewijzigd)
+                 -   art. 9 (gewijzigd)
+                 -   art. 10 (gewijzigd)
+                 -   art. 19 (eerste lid, gewijzigd) [enkel de Nederlandse tekst]

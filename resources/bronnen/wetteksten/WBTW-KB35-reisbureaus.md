@@ -2,37 +2,69 @@
 tags: ["VI.B", "2.4"]
 itaa-lex-sectie: "VI.B"
 wet: "K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf van heffing van de belasting over de toegevoegde waarde op de winstmarge van reisbureaus"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "28.12.1999"
-bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
-provenance:
-  inputs:
-    - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
-      sha256: 63ccf3d1b29dd477e24c41deee6a1febe0c3449e4d69013291697d1aa7a0a4d1
-      version: 28.12.1999
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:35Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
 chunk:
   level: 2
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
+provenance:
+  inputs:
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    model:
+    prompt_version:
+  generated_at: '2026-05-09T16:15:19Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 4
+      max_section_chars: 1647
+      file_size_chars: 3421
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: needs-rework
+      rationale: "Klein (3.6k); body lijkt mager — eindigt met 'Wijzigt met ingang van 05.12.2019: art. 1 (inleidende zin, gewijzigd)'. Geen ##-structuur. Onduidelijk of alle Artikelen aanwezig zijn."
+      problemen:
+        - regel: 0
+          type: missing-section
+          voorbeeld: '0 ##-headings bij 3613 chars'
+        - regel: 0
+          type: abrupt-cutoff
+          voorbeeld: Mogelijk niet-volledige extractie van Artikelen
+      sterkte:
+        - Frontmatter consistent
+      auto: false
+      run_id: qa-batch-W3
 ---
 
 # K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf van heffing van de belasting over de toegevoegde waarde op de winstmarge van reisbureaus
 
-*Bijgewerkt tot en met 28.12.1999 — afgesplitst uit de Fisconet-compilatie van 06.03.2020.*
+*Bijgewerkt tot en met 28.12.1999 — gecoördineerde versie.*
 
 Koninklijk besluit nr. 35, van 28 december 1999, tot invoering van een
 forfaitaire maatstaf van heffing van de belasting over de toegevoegde
@@ -51,23 +83,23 @@ waarde, die een reisbureau in de zin van artikel 1, § 7, eerste lid, 2°, van h
 geacht wordt te verrichten krachtens artikel 18, § 2, tweede lid, van dit Wetboek, wordt
 vastgesteld, naargelang van het geval, op nagenoemd percentage van de prijs te betalen door de
 afnemer:
-1° 18 pct. ten aanzien van de levering, tegen een globale prijs, van een geheel van
-    samenhangende handelingen van vervoer, logies, spijs en drank om ter plaatse te worden
-    verbruikt, ontspanning of dergelijke, van een verblijf tegen een vaste som welke
-    inzonderheid logies omvat, van een toeristische rondreis, van meerdere prestaties die deel
-    uit maken van een van deze gehelen of die in dezelfde lijn ervan liggen, wanneer deze
-    levering het werk is van een reisbureau dat, hetzij uitsluitend door tussenkomst van
-    tussenpersonen in reizen bedoeld in artikel 1, § 7, tweede lid, 2°, van het Wetboek, hetzij
-    zowel door bemiddeling van zulke tussenpersonen als alleen handelt;
-2° 6 pct. ten aanzien van de gehelen of delen van gehelen beoogd in 1°, wanneer hun levering
-    wordt verricht door bemiddeling van een tussenpersoon bedoeld in artikel 1, § 7, tweede
-    lid, 2°, van het Wetboek, die in het buitenland gevestigd is;
-3° 8 pct. ten aanzien van het bespreken van logies, waarvan de prijs niet begrepen is in een
-    globale prijs;
-4° 13 pct. in alle andere gevallen.
+1°    18 pct. ten aanzien van de levering, tegen een globale prijs, van een geheel van
+      samenhangende handelingen van vervoer, logies, spijs en drank om ter plaatse te worden
+      verbruikt, ontspanning of dergelijke, van een verblijf tegen een vaste som welke
+      inzonderheid logies omvat, van een toeristische rondreis, van meerdere prestaties die deel
+      uit maken van een van deze gehelen of die in dezelfde lijn ervan liggen, wanneer deze
+      levering het werk is van een reisbureau dat, hetzij uitsluitend door tussenkomst van
+      tussenpersonen in reizen bedoeld in artikel 1, § 7, tweede lid, 2°, van het Wetboek, hetzij
+      zowel door bemiddeling van zulke tussenpersonen als alleen handelt;
+2°    6 pct. ten aanzien van de gehelen of delen van gehelen beoogd in 1°, wanneer hun levering
+      wordt verricht door bemiddeling van een tussenpersoon bedoeld in artikel 1, § 7, tweede
+      lid, 2°, van het Wetboek, die in het buitenland gevestigd is;
+3°    8 pct. ten aanzien van het bespreken van logies, waarvan de prijs niet begrepen is in een
+      globale prijs;
+4°    13 pct. in alle andere gevallen.
 
 ## Art. 2
-(De tekst van KB nr. 35, artikel 2, is van toepassing met ingang van 01.01.2000
+(De tekst van KB        nr.   35,   artikel    2,   is   van   toepassing   met   ingang    van    01.01.2000
 (KB 28.12.1999))
 
 Onderhavig besluit vervangt het koninklijk besluit nr. 35 van 12 december 1977 tot invoering van
@@ -75,13 +107,13 @@ een forfaitaire maatstaf van heffing van de belasting over de toegevoegde waarde
 winstmarge van reisbureaus.
 
 ## Art. 3
-(De tekst van KB nr. 35, artikel 3, is van toepassing met ingang van 01.01.2000
+(De tekst van KB        nr.   35,   artikel    3,   is   van   toepassing   met   ingang    van    01.01.2000
 (KB 28.12.1999))
 
 Dit besluit treedt in werking op 1 januari 2000.
 
 ## Art. 4
-(De tekst van KB nr. 35, artikel 4, is van toepassing met ingang van 01.01.2000
+(De tekst van KB        nr.   35,   artikel    4,   is   van   toepassing   met   ingang    van    01.01.2000
 (KB 28.12.1999))
 
 Onze Minister van Financiën is belast met de uitvoering van dit besluit.
@@ -90,10 +122,10 @@ Bijlage
 Recente wijzigingen – KB nr. 35
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
- * KB van 7 november 2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 7,
-    10, 24, 31, 35, 46 en 56 met betrekking tot de belasting over de toegevoegde waarde (B.S. 25.11.2019,
-    pg. 108072)
+ *   KB van 7 november 2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 7,
+     10, 24, 31, 35, 46 en 56 met betrekking tot de belasting over de toegevoegde waarde (B.S. 25.11.2019,
+     pg. 108072)
 
-    Wijzigt met ingang van 05.12.2019 :
+           Wijzigt met ingang van 05.12.2019 :
 
-    - art. 1 (inleidende zin, gewijzigd)
+               -   art. 1 (inleidende zin, gewijzigd)

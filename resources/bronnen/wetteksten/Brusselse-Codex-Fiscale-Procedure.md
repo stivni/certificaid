@@ -2,9 +2,14 @@
 tags: ["IV.B", "2.5"]
 itaa-lex-sectie: "IV.B"
 wet: "Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "04.06.2024"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Brusselse-Codex-Fiscale-Procedure.pdf
@@ -12,27 +17,52 @@ provenance:
       version: 04.06.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:30Z'
+  generated_at: '2026-05-09T16:15:12Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 6
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 200
+      max_section_chars: 6429
+      file_size_chars: 151149
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: Brusselse Codex met 151 Art.-vermeldingen, structuur intact. Heading-injectie heeft enkele Art.-titels als 'Art. 3.De' (gevolgd door body op nieuwe regel) wat cosmetisch is maar leesbaarheid behoudt.
+      problemen:
+        - regel: 52
+          type: other
+          voorbeeld: "###### Art. 3.De / bepalingen die deze Codex inhouden — newline-split tussen 'De' en rest van zin"
+      sterkte:
+        - Volledige titel-structuur
+        - Geen FR-leak
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # Brusselse Codex Fiscale Procedure
 
-*Bijgewerkt tot en met 04.06.2024 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
+*Bijgewerkt tot en met 04.06.2024 — gecoördineerde versie.*
 
 Titel
 
@@ -1000,7 +1030,8 @@ De Regering bepaalt de modaliteiten van de vaststelling en de kennisgeving van d
 § 1. Wanneer een betwisting met betrekking tot de toekenning, de intrekking of de terugbetaling van een gemeentelijke premie waarvan de dienst werd toevertrouwd aan het Gewest voor een rechtbank wordt gebracht, brengt de gewestelijke fiscale administratie de gemeente hiervan op de hoogte. De gewestelijke fiscale administratie geeft de gemeente een kopie door van alle beslissingen van rechtbanken in het kader van de voornoemde premies.
 De gewestelijke fiscale administratie brengt de gemeente ook op de hoogte van de sluiting van eventuele dadingen.
 § 2. De gewestelijke fiscale administratie mag, op vraag van de gemeente of op eigen initiatief, aan een gemeente alle gegevens overdragen die verbonden zijn met de premies waarvan deze gemeente de dienst overdroeg aan de gewestelijke fiscale administratie.
-De modaliteiten van deze overdracht van gegevens worden vastgelegd in het akkoordprotocol bedoeld in artikel 115.
+De modaliteiten van deze overdracht van gegevens worden vastgelegd in het akkoordprotocol bedoeld in artikel
+115.
 
 ###### Art. 117
 

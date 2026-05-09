@@ -216,10 +216,31 @@ def combine_verdicts(
     qa: Optional[str],
     diff: Optional[str],
     content: Optional[str],
+    *,
+    content_auto: bool = False,
+    diff_auto: bool = False,
 ) -> tuple[str, str]:
     """Returnt (resultaat, reden).
 
     resultaat ∈ {"auto-trust", "review-pending", "blocked"}.
+
+    Strikte content-verdict-vereiste (mei 2026 — gebruikersfeedback):
+      * Ontbrekend content-verdict → blocked. Geen "default trusted"-pad meer.
+      * Auto-gesynthetiseerd content-verdict (`content_auto=True`) →
+        review-pending. Zo'n verdict is door een script geschreven, niet door
+        een agent gelezen; daarom altijd menselijke steekproef.
+      * Auto-gesynthetiseerd diff-verdict (`diff_auto=True`) wordt verder
+        normaal verwerkt (diff is structurele check, geen content-judgment).
+
+    Volgorde van blokkers (van strikt naar permissief):
+      1. content ∈ {needs-rework, rejected}  → blocked
+      2. qa == fail                          → blocked
+      3. diff == regression                  → blocked
+      4. content is None                     → blocked (vereist agent-lezing)
+      5. content_auto en content == trusted  → review-pending
+      6. qa == warn                          → review-pending
+      7. qa == pass + diff ∈ {improvement, no_op, None} → auto-trust
+      8. qa == pass + diff == structural_change         → review-pending
     """
     # Eerst content: needs-rework / rejected blokkeren altijd.
     if content in {"needs-rework", "rejected"}:
@@ -233,21 +254,19 @@ def combine_verdicts(
     if diff == "regression":
         return "blocked", "Laag 1.5 verdict=regression"
 
-    # Vereiste content-verdict voor promotie. Als content ontbreekt,
-    # behandel als trusted alleen wanneer Laag 1 = pass én Laag 1.5
-    # ∈ {improvement, no_op, None}.
-    effective_content = content
-    if effective_content is None:
-        if qa == "pass" and diff in {"improvement", "no_op", None}:
-            effective_content = "trusted"
-        else:
-            return "blocked", "content-verdict ontbreekt en niet auto-vervangbaar"
+    # Strikt: content-verdict is verplicht. Geen default-trusted-pad meer.
+    if content is None:
+        return "blocked", "content-verdict ontbreekt (agent-lezing vereist; geen auto-trust)"
 
-    if effective_content != "trusted":
+    if content != "trusted":
         # safety net (mocht een onbekende waarde sluipen)
-        return "blocked", f"content-verdict={effective_content}"
+        return "blocked", f"content-verdict={content}"
 
-    # Hier is content effectief trusted.
+    # Auto-gesynthetiseerd content-verdict: nooit auto-trust.
+    if content_auto:
+        return "review-pending", "content-verdict is auto-gesynthetiseerd (agent moet alsnog lezen)"
+
+    # Hier is content effectief trusted door een agent.
     if qa == "warn":
         return "review-pending", "Laag 1 verdict=warn"
 
@@ -258,7 +277,7 @@ def combine_verdicts(
             return "review-pending", "Laag 1.5 structural_change"
 
     # Onverwacht: blokkeer conservatief.
-    return "blocked", f"onverwachte combinatie qa={qa!r} diff={diff!r} content={effective_content!r}"
+    return "blocked", f"onverwachte combinatie qa={qa!r} diff={diff!r} content={content!r}"
 
 
 # ─── Promotie ────────────────────────────────────────────────────────────────
@@ -275,6 +294,9 @@ def _set_trust(
     rationale: str,
     sample_pick: bool,
     timestamp: str,
+    qa_entry: Optional[dict] = None,
+    diff_entry: Optional[dict] = None,
+    content_entry: Optional[dict] = None,
 ) -> None:
     prov = data.setdefault("provenance", {})
     if not isinstance(prov, dict):
@@ -297,6 +319,42 @@ def _set_trust(
     trust["sample_pick"] = sample_pick
     trust["sample_reviewed_at"] = None
     trust["sample_reviewed_by"] = None
+
+    # Embed de drie laag-detail-blokken (ADR-005 §5). Tot mei 2026 leefden deze
+    # in losse `data/qa/*.json`; nu inline in de bron-MD zodat elke bron zijn
+    # volledige QA-historie meedraagt en aggregatie via grep mogelijk is.
+    if qa_entry:
+        flags = []
+        for c in qa_entry.get("checks", []):
+            st = c.get("status")
+            if st in ("warn", "fail"):
+                flags.append({"name": c.get("name"), "status": st,
+                              "detail": c.get("detail"), "samples": c.get("samples", []) or []})
+        trust["layer1"] = {
+            "verdict": qa_entry.get("verdict"),
+            "heading_count": qa_entry.get("heading_count"),
+            "max_section_chars": qa_entry.get("max_section_chars"),
+            "file_size_chars": qa_entry.get("file_size_chars"),
+            "flags": flags,
+            "run_id": qa_entry.get("run_id") or qa_version,
+        }
+    if diff_entry:
+        trust["layer1_5_diff"] = {
+            "verdict": diff_entry.get("diff_verdict") or diff_entry.get("verdict"),
+            "rationale": diff_entry.get("rationale"),
+            "kritieke_observaties": diff_entry.get("kritieke_observaties") or [],
+            "auto": bool(diff_entry.get("auto", False)),
+            "run_id": qa_version,
+        }
+    if content_entry:
+        trust["layer2_content"] = {
+            "verdict": content_entry.get("aanbevolen_status") or content_entry.get("verdict"),
+            "rationale": content_entry.get("rationale"),
+            "problemen": content_entry.get("concrete_problemen") or content_entry.get("problemen") or [],
+            "sterkte": content_entry.get("concrete_sterke_punten") or content_entry.get("sterkte") or [],
+            "auto": bool(content_entry.get("auto", False)),
+            "run_id": qa_version,
+        }
 
 
 def _build_rationale(
@@ -376,8 +434,13 @@ def promote(
         qa_v = qa_entry.get("verdict") if qa_entry else None
         diff_v = diff_entry.get("diff_verdict") if diff_entry else None
         content_v = content_entry.get("aanbevolen_status") if content_entry else None
+        content_auto = bool(content_entry.get("auto", False)) if content_entry else False
+        diff_auto = bool(diff_entry.get("auto", False)) if diff_entry else False
 
-        result, reden = combine_verdicts(qa_v, diff_v, content_v)
+        result, reden = combine_verdicts(
+            qa_v, diff_v, content_v,
+            content_auto=content_auto, diff_auto=diff_auto,
+        )
 
         if result == "blocked":
             blocked.append({
@@ -417,6 +480,9 @@ def promote(
             rationale=rationale,
             sample_pick=sample_pick,
             timestamp=timestamp,
+            qa_entry=qa_entry,
+            diff_entry=diff_entry,
+            content_entry=content_entry,
         )
 
         if not dry_run:

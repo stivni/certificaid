@@ -2,9 +2,14 @@
 tags: ["X", "2.8"]
 itaa-lex-sectie: "X"
 wet: "Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "25.11.2009"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 3
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/EU-Richtlijn-fusie-2009-133.pdf
@@ -12,22 +17,44 @@ provenance:
       version: 25.11.2009
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
+  generated_at: '2026-05-09T16:15:48Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 3
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 42
+      max_section_chars: 10168
+      file_size_chars: 44138
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: Richtlijn 2009/133/EG met 32 Art.-vermeldingen. Body leesbaar NL met soft hyphens. Frontmatter en structuur kloppen.
+      problemen: []
+      sterkte:
+        - 32 artikelen herkenbaar
+        - Schoon NL
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)
@@ -370,7 +397,7 @@ NL
 Publicatieblad van de Europese Unie
 
 ## BIJLAGE I
-## DEEL A
+DEEL A
 LIJST VAN DE IN ARTIKEL 3, ONDER a), BEDOELDE VENNOOTSCHAPPEN
 a) De vennootschappen (SE) opgericht overeenkomstig Verordening (EG) nr. 2157/2001 en Richtlijn 2001/86/EG van de Raad van 8 oktober 2001 tot aanvulling van het statuut van de Europese vennootschap met betrekking tot de rol van de werknemers (1), alsmede de coöperatieve vennootschappen (SCE) opgericht overeenkomstig Verordening (EG) nr. 1435/2003 en Richtlijn 2003/72/EG van de Raad van 22 juli 2003 tot aanvulling van het statuut van een Europese coöperatieve vennootschap met betrekking tot de rol van de werknemers (2).
 b) De vennootschappen naar Belgisch recht, geheten: „société anonyme”/„naamloze vennootschap”, „société en com­ mandite par actions”/„commanditaire vennootschap op aandelen”, „société privée à responsabilité limitée”/„besloten vennootschap met beperkte aansprakelijkheid”, „société coopérative à responsabilité limitée”/„coöperatieve vennoot­ schap met beperkte aansprakelijkheid”, „société coopérative à responsabilité illimitée”/„coöperatieve vennootschap met onbeperkte aansprakelijkheid”, „société en nom collectif”/„vennootschap onder firma”, „société en commandite sim­ ple”/„gewone commanditaire vennootschap”, de overheidsbedrijven die een van vorengenoemde rechtsvormen hebben aangenomen, alsmede andere vennootschappen die zijn opgericht naar Belgisch recht en die onder de Belgische vennootschapsbelasting vallen.
@@ -436,7 +463,7 @@ w) De vennootschappen naar Roemeens recht, geheten: „societăți pe acțiuni�
 x) De vennootschappen naar Sloveens recht, geheten: „delniška družba”, „komanditna družba” en „družba z omejeno odgovornostjo”.
 y) De vennootschappen naar Slowaaks recht, geheten: „akciová spoločnosť”, „spoločnosť s ručením obmedzeným” en „komanditná spoločnosť”.
 z) De vennootschappen naar Fins recht, geheten: „osakeyhtiö”/„aktiebolag”, „osuuskunta”/„andelslag”, „säästö­ pankki”/„sparbank” en „vakuutusyhtiö”/„försäkringsbolag”. aa) De vennootschappen naar Zweeds recht, geheten: „aktiebolag”, „bankaktiebolag”, „försäkringsaktiebolag”, „ekonomiska föreningar”, „sparbanker” en „ömsesidiga försäkringsbolag”. ab) De vennootschappen naar het recht van het Verenigd Koninkrijk.
-## DEEL B
+DEEL B
 LIJST VAN DE IN ARTIKEL 3, ONDER c), BEDOELDE BELASTINGEN
 — vennootschapsbelasting/impôt des sociétés in België;
 — корпоративен данък in Bulgarije;
@@ -483,12 +510,12 @@ Publicatieblad van de Europese Unie
 
 
 ## BIJLAGE II
-## DEEL A
+DEEL A
 Ingetrokken richtlijn met overzicht van de achtereenvolgende wijzigingen ervan (bedoeld in artikel 17) Richtlijn 90/434/EEG van de Raad (PB L 225 van 20.8.1990, blz. 1) Punt XI.B.I.2 van bijlage I bij de Toetredingsakte van (PB C 241 van 29.8.1994, blz. 196) Punt 9.7 van bijlage II bij de Toetredingsakte van (PB L 236 van 23.9.2003, blz. 559) Richtlijn 2005/19/EG van de Raad (PB L 58 van 4.3.2005, blz. 19) Richtlijn 2006/98/EG van de Raad (PB L 363 van 20.12.2006, blz. 129)
 
 Uitsluitend punt 6 van de bijlage
 
-## DEEL B
+DEEL B
 Termijnen voor omzetting in nationaal recht
 (bedoeld in artikel 17)
 Richtlijn
@@ -712,6 +739,5 @@ Bijlage II
 
 —
 
-Bijlage III
-
+## Bijlage III — 25.11.2009
 

@@ -24,10 +24,43 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+    layer1:
+      verdict: warn
+      heading_count: 3272
+      max_section_chars: 43776
+      file_size_chars: 3475611
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 43776 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: needs-rework
+      rationale: "3.5MB wettekst met 3272 headings en 2456 ###### Art.-headings. 145 (~6%) van de Art.-headings is leeg (mogelijk legitieme opgeheven artikelen, maar niet expliciet gemarkeerd). BOEK XIV-sectie (lijn ~20000+) toont reeks lege heading-stubs zonder body. Tot in detail OK, maar lege stubs zonder 'opgeheven'-tag zijn een retrieval-risico."
+      problemen:
+        - regel: 20007
+          type: missing-section
+          voorbeeld: '###### Art. XIV.1. → ### Titel 2. (lege body); idem Art. XIV.2 t/m XIV.16'
+        - regel: 0
+          type: other
+          voorbeeld: 145/2456 Art.-headings zonder body — niet gemarkeerd als opgeheven
+      sterkte:
+        - 'Per-artikel ###### Art. headings consequent door alle Boeken'
+        - Definitie-blok per Boek aanwezig
+        - Voetnoten met inwerkingtreding-data behouden
+      auto: false
+      run_id: qa-batch-W4
 chunk:
   level: 6
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
 ---
 
 # Wetboek van Economisch Recht

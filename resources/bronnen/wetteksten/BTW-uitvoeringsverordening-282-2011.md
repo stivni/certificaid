@@ -2,9 +2,14 @@
 tags: ["VI.A", "2.4"]
 itaa-lex-sectie: "VI.A"
 wet: "Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "23.03.2011"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 5
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/BTW-uitvoeringsverordening-282-2011.pdf
@@ -12,28 +17,52 @@ provenance:
       version: 23.03.2011
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
+  generated_at: '2026-05-09T16:15:42Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 5
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 168
+      max_section_chars: 17314
+      file_size_chars: 76394
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: EU-verordening met 110 Art.-vermeldingen, hoofdstukken op H2/H3, soft hyphens uit PDF maar woorden intact. Body leesbaar, geen FR-leak. Page-headers (L 77/x, NL) staan als korte regels maar vormen geen storende ruis.
+      problemen:
+        - regel: 38
+          type: other
+          voorbeeld: NL / Publicatieblad / L 77/1 — losstaande paginafooter-fragmenten
+      sterkte:
+        - Frontmatter compleet
+        - Art-structuur correct genest
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG
 
 *Bijgewerkt tot en met 23.03.2011 — gecoördineerde versie.*
-
 
 NL
 
@@ -1041,7 +1070,7 @@ Deze verordening
 
 Hoofdstukken III en IV
 
-##### Afdeling 1 van hoofdstuk II
+Afdeling 1 van hoofdstuk II
 
 ## Hoofdstuk III
 
@@ -1049,7 +1078,7 @@ Hoofdstukken III en IV
 
 ##### Art. 5
 
-##### Afdeling 2 van hoofdstuk II
+Afdeling 2 van hoofdstuk II
 
 ## Hoofdstuk IV
 
@@ -1065,17 +1094,17 @@ Artikel 3, lid 2
 
 ## Hoofdstuk V
 
-##### Afdeling 1 van hoofdstuk III
+Afdeling 1 van hoofdstuk III
 
-##### Afdeling 4 van hoofdstuk V
+Afdeling 4 van hoofdstuk V
 
 ##### Art. 4
 
 ##### Art. 28
 
-##### Afdeling 2 van hoofdstuk III
+Afdeling 2 van hoofdstuk III
 
-##### Afdeling 4 van hoofdstuk V
+Afdeling 4 van hoofdstuk V
 
 ##### Art. 5
 
@@ -1121,9 +1150,9 @@ Artikel 7, lid 3
 
 ## Hoofdstuk VIII
 
-##### Afdeling 1 van hoofdstuk V
+Afdeling 1 van hoofdstuk V
 
-##### Afdeling 1 van hoofdstuk VIII
+Afdeling 1 van hoofdstuk VIII
 
 ##### Art. 14
 
@@ -1133,9 +1162,9 @@ Artikel 7, lid 3
 
 ##### Art. 45
 
-##### Afdeling 2 van hoofdstuk V
+Afdeling 2 van hoofdstuk V
 
-##### Afdeling 4 van hoofdstuk VIII
+Afdeling 4 van hoofdstuk VIII
 
 ##### Art. 16
 
@@ -1202,7 +1231,7 @@ Artikel 20, lid 4
 
 ## Hoofdstuk VIII
 
-##### Afdeling 3 van hoofdstuk V
+Afdeling 3 van hoofdstuk V
 
 ##### Art. 21
 

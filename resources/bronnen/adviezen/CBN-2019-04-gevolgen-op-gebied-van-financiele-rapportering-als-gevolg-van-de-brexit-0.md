@@ -38,6 +38,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 21 headings en 52 voetnoten; beide delen (waarderingsregels + rapporteringsverplichtingen) zijn volledig aanwezig. Geen tabelcorruptie.'
+    layer1:
+      verdict: warn
+      heading_count: 26
+      max_section_chars: 29632
+      file_size_chars: 53119
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 29632 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
   - titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
     url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015

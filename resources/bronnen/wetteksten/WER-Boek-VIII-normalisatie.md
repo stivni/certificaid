@@ -24,10 +24,47 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+    layer1:
+      verdict: warn
+      heading_count: 276
+      max_section_chars: 199327
+      file_size_chars: 863645
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ####-niveau: 199327 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: rejected
+      rationale: Tweetalige FR/NL content op dezelfde regel ('Les dispositions ... Art. 2. De hiernavolgende bepalingen ...') verspreid over het hele bestand; midden-sectie (lijn 5000+) is grote blok zuivere Franse tekst (Moniteur Belge, ISoc-majoration-voorbeelden) die niet relevant is voor Boek VIII normalisatie. Ernstige column-bleed + verkeerde inhoud.
+      problemen:
+        - regel: 36
+          type: column-bleed
+          voorbeeld: CHAPITRE 2. — Le Code de droit économique HOOFDSTUK 2. — Het Wetboek van economisch recht
+        - regel: 39
+          type: column-bleed
+          voorbeeld: Les dispositions suivantes forment le Code de droit écono- Art. 2. De hiernavolgende bepalingen vormen het Wetboek...
+        - regel: 5000
+          type: naam-mismatch
+          voorbeeld: Pure FR-tekst over 'Bénéfices nets / majoration d'impôt / VA 1-4' in een bestand dat Boek VIII normalisatie zou moeten zijn
+        - regel: 0
+          type: other
+          voorbeeld: 'max_section 199327 chars op ####-niveau'
+      sterkte:
+        - Frontmatter en provenance correct
+      auto: false
+      run_id: qa-batch-W4
 chunk:
   level: 4
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
 ---
 
 # WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)

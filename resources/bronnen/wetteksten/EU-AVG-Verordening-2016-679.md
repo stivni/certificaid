@@ -2,9 +2,14 @@
 tags: ["XIX", "4.0"]
 itaa-lex-sectie: "XIX"
 wet: "Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen (AVG/GDPR)"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "27.04.2016"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+chunk:
+  level: 3
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/EU-AVG-Verordening-2016-679.pdf
@@ -12,27 +17,56 @@ provenance:
       version: 27.04.2016
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:30Z'
+  generated_at: '2026-05-09T16:15:13Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 3
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-finalize-1
+    confirmed_at: '2026-05-09T20:31:38Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=warn; L1.5=improvement (Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.); L2=trusted (AVG-verordening (395KB) met 110 H2-headings. Soft hyphens uit PDF (bv. 'persoons­ gegevens') zonder woordbreuk. Body leesbaar, geen kolom-bleed. Warn op max_section_size is verklaarbaar door lange overwegingen-blok bovenaan. Inhoudelijk klaar voor RAG.)"
+    agent_verdict_at: '2026-05-09T20:31:38Z'
+    sample_pick: true
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: warn
+      heading_count: 110
+      max_section_chars: 394723
+      file_size_chars: 394723
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ###-niveau: 394723 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: AVG-verordening (395KB) met 110 H2-headings. Soft hyphens uit PDF (bv. 'persoons­ gegevens') zonder woordbreuk. Body leesbaar, geen kolom-bleed. Warn op max_section_size is verklaarbaar door lange overwegingen-blok bovenaan. Inhoudelijk klaar voor RAG.
+      problemen:
+        - regel: 59
+          type: other
+          voorbeeld: soft hyphen + spatie binnen 'persoons­ gegevens' — leesbaar maar tokenization-aware
+      sterkte:
+        - 110 H2 hoofdstukken/artikelen
+        - Volledige overwegingen + dispositief
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # AVG — Algemene Verordening Gegevensbescherming 2016/679
 
-*Bijgewerkt tot en met 27.04.2016 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
+*Bijgewerkt tot en met 27.04.2016 — gecoördineerde versie.*
 
 I
 (Wetgevingshandelingen)
@@ -569,7 +603,8 @@ Bij de beoordeling van de vraag of de toestemming vrijelijk kan worden gegeven, 
 
 ## Artikel 8
 
-Voorwaarden voor de toestemming van kinderen met betrekking tot diensten van de informatie­ maatschappij 1.
+Voorwaarden voor de toestemming van kinderen met betrekking tot diensten van de informatie­ maatschappij
+1.
 Wanneer artikel 6, lid 1, punt a), van toepassing is in verband met een rechtstreeks aanbod van diensten van de informatiemaatschappij aan een kind, is de verwerking van persoonsgegevens van een kind rechtmatig wanneer het kind ten minste 16 jaar is. Wanneer het kind jonger is dan 16 jaar is zulke verwerking slechts rechtmatig indien en voor zover de toestemming of machtiging tot toestemming in dit verband wordt verleend door de persoon die de ouderlijke verantwoordelijkheid voor het kind draagt.
 De lidstaten kunnen dienaangaande bij wet voorzien in een lagere leeftijd, op voorwaarde dat die leeftijd niet onder 13 jaar ligt.
 
@@ -623,7 +658,8 @@ Tr a n sp a ra nti e e n r e ge ling en
 
 ## Artikel 12
 
-Transparante informatie, communicatie en nadere regels voor de uitoefening van de rechten van de betrokkene 1.
+Transparante informatie, communicatie en nadere regels voor de uitoefening van de rechten van de betrokkene
+1.
 De verwerkingsverantwoordelijke neemt passende maatregelen opdat de betrokkene de in de artikelen 13 en 14 bedoelde informatie en de in de artikelen 15 tot en met 22 en artikel 34 bedoelde communicatie in verband met de verwerking in een beknopte, transparante, begrijpelijke en gemakkelijk toegankelijke vorm en in duidelijke en eenvoudige taal ontvangt, in het bijzonder wanneer de informatie specifiek voor een kind bestemd is. De informatie wordt schriftelijk of met andere middelen, met inbegrip van, indien dit passend is, elektronische middelen, verstrekt.
 Indien de betrokkene daarom verzoekt, kan de informatie mondeling worden meegedeeld, op voorwaarde dat de identiteit van de betrokkene met andere middelen bewezen is.
 
@@ -649,7 +685,8 @@ I n fo r m a t ie e n to eg a ng tot p e rs oo nsge ge ve ns
 
 ## Artikel 13
 
-Te verstrekken informatie wanneer persoonsgegevens bij de betrokkene worden verzameld 1.
+Te verstrekken informatie wanneer persoonsgegevens bij de betrokkene worden verzameld
+1.
 Wanneer persoonsgegevens betreffende een betrokkene bij die persoon worden verzameld, verstrekt de verwer­ kingsverantwoordelijke de betrokkene bij de verkrijging van de persoonsgegevens al de volgende informatie:
 a) de identiteit en de contactgegevens van de verwerkingsverantwoordelijke en, in voorkomend geval, van de vertegen­ woordiger van de verwerkingsverantwoordelijke;
 b) in voorkomend geval, de contactgegevens van de functionaris voor gegevensbescherming;
@@ -673,7 +710,8 @@ De leden 1, 2 en 3 zijn niet van toepassing wanneer en voor zover de betrokkene 
 
 ## Artikel 14
 
-Te verstrekken informatie wanneer de persoonsgegevens niet van de betrokkene zijn verkregen 1.
+Te verstrekken informatie wanneer de persoonsgegevens niet van de betrokkene zijn verkregen
+1.
 Wanneer persoonsgegevens niet van de betrokkene zijn verkregen, verstrekt de verwerkingsverantwoordelijke de betrokkene de volgende informatie:
 a) de identiteit en de contactgegevens van de verwerkingsverantwoordelijke en, in voorkomend geval, van de vertegen­ woordiger van de verwerkingsverantwoordelijke;
 b) in voorkomend geval, de contactgegevens van de functionaris voor gegevensbescherming;
@@ -899,7 +937,8 @@ Ongeacht de voorwaarden van de in lid 1 bedoelde regeling, kan de betrokkene zij
 
 ## Artikel 27
 
-Vertegenwoordigers van niet in de Unie gevestigde verwerkingsverantwoordelijken of verwerkers 1.
+Vertegenwoordigers van niet in de Unie gevestigde verwerkingsverantwoordelijken of verwerkers
+1.
 Wanneer artikel 3, lid 2, van toepassing is, wijst de verwerkingsverantwoordelijke of de verwerker schriftelijk een vertegenwoordiger in de Unie aan.
 2.
 
@@ -1007,7 +1046,8 @@ De verwerkingsverantwoordelijke en de verwerker treffen maatregelen om ervoor te
 
 ## Artikel 33
 
-Melding van een inbreuk in verband met persoonsgegevens aan de toezichthoudende autoriteit 1.
+Melding van een inbreuk in verband met persoonsgegevens aan de toezichthoudende autoriteit
+1.
 Indien een inbreuk in verband met persoonsgegevens heeft plaatsgevonden, meldt de verwerkingsverantwoordelijke deze zonder onredelijke vertraging en, indien mogelijk, uiterlijk 72 uur nadat hij er kennis van heeft genomen, aan de overeenkomstig artikel 55 bevoegde toezichthoudende autoriteit, tenzij het niet waarschijnlijk is dat de inbreuk in verband met persoonsgegevens een risico inhoudt voor de rechten en vrijheden van natuurlijke personen. Indien de melding aan de toezichthoudende autoriteit niet binnen 72 uur plaatsvindt, gaat zij vergezeld van een motivering voor de vertraging.
 2.
 De verwerker informeert de verwerkingsverantwoordelijke zonder onredelijke vertraging zodra hij kennis heeft genomen van een inbreuk in verband met persoonsgegevens.
@@ -1026,7 +1066,8 @@ De verwerkingsverantwoordelijke documenteert alle inbreuken in verband met perso
 
 ## Artikel 34
 
-Mededeling van een inbreuk in verband met persoonsgegevens aan de betrokkene 1.
+Mededeling van een inbreuk in verband met persoonsgegevens aan de betrokkene
+1.
 Wanneer de inbreuk in verband met persoonsgegevens waarschijnlijk een hoog risico inhoudt voor de rechten en vrijheden van natuurlijke personen, deelt de verwerkingsverantwoordelijke de betrokkene de inbreuk in verband met persoonsgegevens onverwijld mee.
 
 2.
@@ -1344,12 +1385,14 @@ a) de structuur en de contactgegevens van het concern of de groepering van onder
 b) de gegevensdoorgiften of reeks van doorgiften, met inbegrip van de categorieën van persoonsgegevens, het soort verwerking en de doeleinden daarvan, het soort betrokkenen in kwestie en de identificatie van het derde land of de derde landen in kwestie;
 c) het intern en extern juridisch bindende karakter;
 d) de toepassing van de algemene beginselen inzake gegevensbescherming, met name doelbinding, minimale gegevens­ verwerking, beperkte opslagtermijnen, kwaliteit van gegevens, gegevensbescherming door standaardinstellingen en door ontwerp, rechtsgrond voor verwerking, verwerking van bijzondere categorieën van persoonsgegevens, maatregelen om gegevensbeveiliging te waarborgen, en de vereisten inzake verdere doorgiften aan organen die niet door bindende bedrijfsvoorschriften zijn gebonden;
-e) de rechten van betrokkenen in verband met verwerking en de middelen om die rechten uit te oefenen, waaronder het recht om niet te worden onderworpen aan louter op geautomatiseerde verwerking gebaseerde besluiten, met inbegrip van profilering overeenkomstig artikel 22, het recht om een klacht in te dienen bij de bevoegde toezicht­ houdende autoriteit, om een vordering in te stellen bij de bevoegde gerechten van de lidstaten overeenkomstig artikel 79, en om schadeloosstelling en, in voorkomend geval, een vergoeding te verkrijgen voor een inbreuk op de bindende bedrijfsvoorschriften; f)
+e) de rechten van betrokkenen in verband met verwerking en de middelen om die rechten uit te oefenen, waaronder het recht om niet te worden onderworpen aan louter op geautomatiseerde verwerking gebaseerde besluiten, met inbegrip van profilering overeenkomstig artikel 22, het recht om een klacht in te dienen bij de bevoegde toezicht­ houdende autoriteit, om een vordering in te stellen bij de bevoegde gerechten van de lidstaten overeenkomstig artikel 79, en om schadeloosstelling en, in voorkomend geval, een vergoeding te verkrijgen voor een inbreuk op de bindende bedrijfsvoorschriften;
+f)
 
 de aanvaarding door de op het grondgebied van een lidstaat gevestigde verwerkingsverantwoordelijke of verwerker van aansprakelijkheid voor alle inbreuken op de bindende bedrijfsvoorschriften door een niet in de Unie gevestigd betrokken lid; de verwerkingsverantwoordelijke of de verwerker wordt alleen geheel of gedeeltelijk van deze aanspra­ kelijkheid ontheven, indien hij bewijst dat dat lid niet verantwoordelijk is voor het schadebrengende feit;
 
 g) de wijze waarop, in aanvulling op de in de artikelen 13 en 14 bedoelde informatie, aan betrokkenen informatie wordt verschaft over de bindende bedrijfsvoorschriften, met name over de bepalingen in de punten d), e) en f);
-h) de taken van elke overeenkomstig artikel 37 aangewezen functionaris voor gegevensbescherming, of elke andere persoon of entiteit die is belast met het toezicht op de naleving van de bindende bedrijfsvoorschriften binnen het concern of de groepering van ondernemingen die gezamenlijk een economische activiteit uitoefenen, op opleiding en op de behandeling van klachten; i)
+h) de taken van elke overeenkomstig artikel 37 aangewezen functionaris voor gegevensbescherming, of elke andere persoon of entiteit die is belast met het toezicht op de naleving van de bindende bedrijfsvoorschriften binnen het concern of de groepering van ondernemingen die gezamenlijk een economische activiteit uitoefenen, op opleiding en op de behandeling van klachten;
+i)
 
 de klachtenprocedures;
 
@@ -1357,7 +1400,8 @@ j)
 
 de binnen het concern of de groepering van ondernemingen die gezamenlijk een economische activiteit uitoefenen bestaande procedures om te controleren of de bindende bedrijfsvoorschriften zijn nageleefd. Dergelijke procedures omvatten gegevensbeschermingsaudits en -methoden om te zorgen voor corrigerende maatregelen ter bescherming van de rechten van de betrokkene. De resultaten van dergelijke controles dienen te worden meegedeeld aan de in punt h) bedoelde persoon of entiteit en aan de raad van bestuur van de onderneming die zeggenschap uitoefent over een concern, of van de groepering van ondernemingen die gezamenlijk een economische activiteit uitoefenen, en dienen op verzoek ter beschikking van de bevoegde toezichthoudende autoriteit te worden gesteld;
 
-k) de procedures om die veranderingen in de regels te melden, te registreren en aan de toezichthoudende autoriteit te melden; l)
+k) de procedures om die veranderingen in de regels te melden, te registreren en aan de toezichthoudende autoriteit te melden;
+l)
 
 de procedure voor samenwerking met de toezichthoudende autoriteit om ervoor te zorgen dat alle leden van het concern of de groepering van ondernemingen die gezamenlijk een economische activiteit uitoefenen de bindende bedrijfsvoorschriften naleven, in het bijzonder door de resultaten van de in punt j) bedoelde controles ter beschikking van de toezichthoudende autoriteit te stellen;
 
@@ -1511,12 +1555,14 @@ a) zij monitort en handhaaft de toepassing van deze verordening;
 b) zij bevordert bij het brede publiek de bekendheid met en het inzicht in de risico's, regels, waarborgen en rechten in verband met de verwerking. Bijzondere aandacht wordt besteed aan specifiek op kinderen gerichte activiteiten;
 c) zij verleent overeenkomstig het recht van de lidstaat, advies aan het nationale parlement, de regering, en andere instellingen en organen over wetgevingsinitiatieven en bestuursmaatregelen in verband met de bescherming van de rechten en vrijheden van natuurlijke personen op het gebied van verwerking;
 d) zij maakt de verwerkingsverantwoordelijken en de verwerkers beter bekend met hun verplichtingen uit hoofde van deze verordening;
-e) zij verstrekt desgevraagd informatie aan iedere betrokkene over de uitoefening van zijn rechten uit hoofde van deze verordening en werkt daartoe in voorkomend geval samen met de toezichthoudende autoriteiten in andere lidstaten; f)
+e) zij verstrekt desgevraagd informatie aan iedere betrokkene over de uitoefening van zijn rechten uit hoofde van deze verordening en werkt daartoe in voorkomend geval samen met de toezichthoudende autoriteiten in andere lidstaten;
+f)
 
 zij behandelt klachten van betrokkenen, of van organen, organisaties of verenigingen overeenkomstig artikel 80, onderzoekt de inhoud van de klacht in de mate waarin dat gepast is en stelt de klager binnen een redelijke termijn in kennis van de vooruitgang en het resultaat van het onderzoek, met name indien verder onderzoek of coördinatie met een andere toezichthoudende autoriteit noodzakelijk is;
 
 g) zij werkt samen met andere toezichthoudende autoriteiten, onder meer door informatie te delen en wederzijdse bijstand te bieden, teneinde de samenhang in de toepassing en de handhaving van deze verordening te waarborgen;
-h) zij verricht onderzoeken naar de toepassing van deze verordening, onder meer op basis van informatie die zij van een andere toezichthoudende autoriteit of een andere overheidsinstantie ontvangt; i)
+h) zij verricht onderzoeken naar de toepassing van deze verordening, onder meer op basis van informatie die zij van een andere toezichthoudende autoriteit of een andere overheidsinstantie ontvangt;
+i)
 
 zij volgt de relevante ontwikkelingen voor zover deze een impact hebben op de bescherming van persoonsgegevens, met name de ontwikkelingen in informatie- en communicatietechnologieën en handelspraktijken;
 
@@ -1524,7 +1570,8 @@ j)
 
 zij stelt de in artikel 28, lid 8, en artikel 46, lid 2, onder d), bedoelde standaardcontractbepalingen vast;
 
-k) zij stelt een lijst op met betrekking tot het vereiste inzake een gegevensbeschermingseffectbeoordeling overeen­ komstig artikel 35, lid 4, en houdt deze lijst bij; l)
+k) zij stelt een lijst op met betrekking tot het vereiste inzake een gegevensbeschermingseffectbeoordeling overeen­ komstig artikel 35, lid 4, en houdt deze lijst bij;
+l)
 
 zij verstrekt advies over de in artikel 36, lid 2, bedoelde verwerkingsactiviteiten;
 
@@ -1535,7 +1582,8 @@ o) waar van toepassing verricht zij een periodieke toetsing van de overeenkomsti
 p) zij zorgt voor het opstellen en het bekendmaken van de criteria voor de accreditatie van een orgaan voor het toezicht op gedragscodes op grond van artikel 41 en van een certificeringsorgaan op grond van artikel 43;
 q) zij zorgt voor de accreditatie van een orgaan voor het toezicht op gedragscodes op grond van artikel 41 en van een certificeringsorgaan op grond van artikel 43;
 r) zij geeft toestemming voor de in artikel 46, lid 3, bedoelde contractuele en andere bepalingen;
-s) zij keurt overeenkomstig artikel 47 bindende bedrijfsvoorschriften goed; t)
+s) zij keurt overeenkomstig artikel 47 bindende bedrijfsvoorschriften goed;
+t)
 
 zij levert een bijdrage aan de activiteiten van het Comité;
 
@@ -1610,7 +1658,8 @@ Sa m enwe rki ng
 
 ## Artikel 60
 
-Samenwerking tussen de leidende toezichthoudende autoriteit en de andere betrokken toezicht­ houdende autoriteiten 1.
+Samenwerking tussen de leidende toezichthoudende autoriteit en de andere betrokken toezicht­ houdende autoriteiten
+1.
 De leidende toezichthoudende autoriteit werkt overeenkomstig dit artikel samen met de andere betrokken toezicht­ houdende autoriteiten teneinde tot een consensus proberen te komen. De leidende toezichthoudende autoriteit en de betrokken toezichthoudende autoriteiten wisselen alle relevante informatie met elkaar uit.
 2.
 De leidende toezichthoudende autoriteit kan te allen tijde andere betrokken toezichthoudende autoriteiten verzoeken wederzijdse bijstand overeenkomstig artikel 61 te verlenen, en kan gezamenlijke werkzaamheden ondernemen overeenkomstig artikel 62, in het bijzonder voor het uitvoeren van onderzoeken of voor het toezicht op de uitvoering van een maatregel betreffende een in een andere lidstaat gevestigde verwerkingsverantwoordelijke of verwerker.
@@ -1793,12 +1842,14 @@ a) toezien op en zorgen voor de juiste toepassing van deze verordening in de in 
 b) adviseren van de Commissie over aangelegenheden in verband met de bescherming van persoonsgegevens in de Unie, waaronder alle voorgestelde wijzigingen van deze verordening;
 c) adviseren van de Commissie over het mechanisme en de procedures voor de uitwisseling van informatie wat betreft bindende bedrijfsvoorschriften tussen verwerkingsverantwoordelijken, verwerkers, en toezichthoudende autoriteiten;
 d) uitvaardigen van richtsnoeren, aanbevelingen en beste praktijken inzake procedures voor het wissen van links, kopieën of reproducties van persoonsgegevens uit algemeen beschikbare communicatiediensten als bedoeld in artikel 17, lid 2;
-e) onderzoeken, op eigen initiatief of op verzoek van een van zijn leden dan wel op verzoek van de Commissie, van kwesties die betrekking hebben op de toepassing van deze verordening, en uitvaardigen van richtsnoeren, aanbeve­ lingen en beste praktijken om te bevorderen dat deze verordening consequent wordt toegepast; f)
+e) onderzoeken, op eigen initiatief of op verzoek van een van zijn leden dan wel op verzoek van de Commissie, van kwesties die betrekking hebben op de toepassing van deze verordening, en uitvaardigen van richtsnoeren, aanbeve­ lingen en beste praktijken om te bevorderen dat deze verordening consequent wordt toegepast;
+f)
 
 uitvaardigen van richtsnoeren, aanbevelingen en beste praktijken in overeenstemming met punt e) van dit lid ter verdere specificatie van de criteria en de voorwaarden voor besluiten op basis van profilering krachtens artikel 22, lid 2;
 
 g) uitvaardigen van richtsnoeren, aanbevelingen en beste praktijken in overeenstemming met punt e) van dit lid ter vaststelling van de in de leden 1 en 2 bedoelde inbreuken in verband met persoonsgegevens alsmede van de in artikel 33, leden 1 en 2, bedoelde onredelijke vertraging, en voor de bijzondere omstandigheden waarin een verwer­ kingsverantwoordelijke of een verwerker verplicht is de inbreuk in verband met persoonsgegevens te melden;
-h) uitvaardigen van richtsnoeren, aanbevelingen en beste praktijken in overeenstemming met punt e) van dit lid ten aanzien van de omstandigheden waarin een inbreuk in verband met persoonsgegevens waarschijnlijk een hoog risico oplevert voor de rechten en vrijheden van natuurlijke personen, als bedoeld in artikel 34, lid 1; i)
+h) uitvaardigen van richtsnoeren, aanbevelingen en beste praktijken in overeenstemming met punt e) van dit lid ten aanzien van de omstandigheden waarin een inbreuk in verband met persoonsgegevens waarschijnlijk een hoog risico oplevert voor de rechten en vrijheden van natuurlijke personen, als bedoeld in artikel 34, lid 1;
+i)
 
 uitvaardigen van richtsnoeren, aanbevelingen en beste praktijken in overeenstemming met punt e) van dit lid ter verdere specificatie van de criteria en de eisen voor doorgiften van persoonsgegevens op basis van bindende bedrijfs­ voorschriften voor verwerkingsverantwoordelijken en bindende bedrijfsvoorschriften voor verwerkers, alsmede op basis van verdere noodzakelijke eisen om de bescherming van persoonsgegevens van de betrokkenen in kwestie te garanderen, als bedoeld in artikel 47;
 
@@ -1806,7 +1857,8 @@ j)
 
 uitvaardigen van richtsnoeren, aanbevelingen en beste praktijken in overeenstemming met punt e) van dit lid ter verdere specificatie van de criteria en de eisen voor de doorgiften van persoonsgegevens op grond van artikel 49, lid 1;
 
-k) opstellen van richtsnoeren voor toezichthoudende autoriteiten betreffende de toepassing van de in artikel 58, leden 1, 2 en 3, bedoelde maatregelen en betreffende de vaststelling van administratieve geldboeten overeenkomstig artikel 83; l)
+k) opstellen van richtsnoeren voor toezichthoudende autoriteiten betreffende de toepassing van de in artikel 58, leden 1, 2 en 3, bedoelde maatregelen en betreffende de vaststelling van administratieve geldboeten overeenkomstig artikel 83;
+l)
 
 evalueren van de praktische toepassing van de in de punten e) en f) bedoelde richtsnoeren, aanbevelingen en beste praktijken;
 
@@ -1927,7 +1979,8 @@ De toezichthoudende autoriteit waarbij de klacht is ingediend, stelt de klager i
 
 ## Artikel 78
 
-Recht om een doeltreffende voorziening in rechte in te stellen tegen een toezichthoudende autoriteit 1.
+Recht om een doeltreffende voorziening in rechte in te stellen tegen een toezichthoudende autoriteit
+1.
 Onverminderd andere mogelijkheden van administratief of buitengerechtelijk beroep, heeft iedere natuurlijke persoon of rechtspersoon het recht om tegen een hem betreffend juridisch bindend besluit van een toezichthoudende autoriteit een doeltreffende voorziening in rechte in te stellen.
 2.
 Onverminderd andere mogelijkheden van administratief of buitengerechtelijk beroep heeft iedere betrokkene het recht om een doeltreffende voorziening in rechte in te stellen indien de overeenkomstig de artikelen 55 en 56 bevoegde toezichthoudende autoriteit een klacht niet behandelt of de betrokkene niet binnen drie maanden in kennis stelt van de voortgang of het resultaat van de uit hoofde van artikel 77 ingediende klacht.
@@ -1938,7 +1991,8 @@ Wanneer een procedure wordt ingesteld tegen een besluit van een toezichthoudende
 
 ## Artikel 79
 
-Recht om een doeltreffende voorziening in rechte in te stellen tegen een verwerkingsverantwoor­ delijke of een verwerker 1.
+Recht om een doeltreffende voorziening in rechte in te stellen tegen een verwerkingsverantwoor­ delijke of een verwerker
+1.
 Onverminderd andere mogelijkheden van administratief of buitengerechtelijk beroep, waaronder het recht uit hoofde van artikel 77 een klacht in te dienen bij een toezichthoudende autoriteit, heeft elke betrokkene het recht een doeltreffende voorziening in rechte in te stellen indien hij van mening is dat zijn rechten uit hoofde van deze verordening geschonden zijn ten gevolge van een verwerking van zijn persoonsgegevens die niet aan deze verordening voldoet.
 2.
 Een procedure tegen een verwerkingsverantwoordelijke of een verwerker wordt ingesteld bij de gerechten van de lidstaat waar de verwerkingsverantwoordelijke of de verwerker een vestiging heeft. Een dergelijke procedure kan ook worden ingesteld bij de gerechten van de lidstaat waar de betrokkene gewoonlijk verblijft, tenzij de verwerkingsverant­ woordelijke of de verwerker een overheidsinstantie van een lidstaat is die optreedt in de uitoefening van het overheidsgezag.
@@ -2065,7 +2119,8 @@ Elke lidstaat deelt de Commissie uiterlijk op 25 mei 2018 de overeenkomstig lid 
 
 ## Artikel 89
 
-Waarborgen en afwijkingen in verband met verwerking met het oog op archivering in het algemeen belang, wetenschappelijk of historisch onderzoek of statistische doeleinden 1.
+Waarborgen en afwijkingen in verband met verwerking met het oog op archivering in het algemeen belang, wetenschappelijk of historisch onderzoek of statistische doeleinden
+1.
 De verwerking met het oog op archivering in het algemeen belang, wetenschappelijk of historisch onderzoek of statistische doeleinden is onderworpen aan passende waarborgen in overeenstemming met deze verordening voor de rechten en vrijheden van de betrokkene. Die waarborgen zorgen ervoor dat er technische en organisatorische
 
 maatregelen zijn getroffen om de inachtneming van het beginsel van minimale gegevensverwerking te garanderen. Deze maatregelen kunnen pseudonimisering omvatten, mits aldus die doeleinden in kwestie kunnen worden verwezenlijkt.
@@ -2087,7 +2142,8 @@ Elke lidstaat deelt de Commissie uiterlijk op 25 mei 2018 de regels mee die hij 
 
 ## Artikel 91
 
-Bestaande gegevensbeschermingsregels van kerken en religieuze verenigingen 1.
+Bestaande gegevensbeschermingsregels van kerken en religieuze verenigingen
+1.
 Wanneer kerken en religieuze verenigingen of gemeenschappen in een lidstaat op het tijdstip van de inwerking­ treding van deze verordening uitgebreide regels betreffende de bescherming van natuurlijke personen in verband met verwerking toepassen, kunnen die regels van toepassing blijven, mits zij in overeenstemming worden gebracht met deze verordening.
 2.
 Kerken en religieuze verenigingen die overeenkomstig lid 1 van dit artikel uitgebreide regels hanteren, zijn onderworpen aan toezicht door een onafhankelijke toezichthoudende autoriteit, die specifiek kan zijn, op voorwaarde dat de autoriteit voldoet aan de voorwaarden die zijn vastgesteld in hoofdstuk VI van deze verordening.

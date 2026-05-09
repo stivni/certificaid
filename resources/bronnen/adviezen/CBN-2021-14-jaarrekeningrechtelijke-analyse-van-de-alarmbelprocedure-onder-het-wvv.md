@@ -27,6 +27,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: '[Laag-2-R2 2026-05-08] 17 headings, 65 voetnoten, twee concrete balanstabellen als Markdown-tabellen. De langste sectie (24.478 chars) valt net boven de drempel maar bevat de volledige kern. RAG-ready.'
+    layer1:
+      verdict: warn
+      heading_count: 17
+      max_section_chars: 24470
+      file_size_chars: 39611
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 24470 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2021/14 – Jaarrekeningrechtelijke analyse van de alarmbelprocedure onder het WVV

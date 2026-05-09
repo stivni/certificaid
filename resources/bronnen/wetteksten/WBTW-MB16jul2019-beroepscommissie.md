@@ -1,0 +1,139 @@
+---
+tags: ["VI.C", "2.4"]
+itaa-lex-sectie: "VI.C"
+wet: "M.B. van 16 juli 2019, tot aanduiding van de ambtenaren die in de functie van adviseur-generaal zitting hebben in de beroepscommissie zoals bedoeld in artikel 66, § 2 van het wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "16.07.2019"
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy:
+provenance:
+  inputs:
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
+      sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
+      version: 29.04.2024
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    model:
+    prompt_version:
+  generated_at: '2026-05-09T16:15:20Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 5
+      max_section_chars: 2175
+      file_size_chars: 4604
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: needs-rework
+      rationale: '0 ##-headings; chunk.level=2 mismatch. Inhoud leesbaar.'
+      problemen:
+        - regel: 0
+          type: missing-section
+          voorbeeld: Artikel 1-5 zonder heading-prefix
+      sterkte:
+        - Tot Art. 5 (inwerkingtreding) volledig
+      auto: false
+      run_id: qa-batch-W4
+---
+
+# M.B. van 16 juli 2019, tot aanduiding van de ambtenaren die in de functie van adviseur-generaal zitting hebben in de beroepscommissie zoals bedoeld in artikel 66, § 2 van het wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen
+
+*Bijgewerkt tot en met 16.07.2019 — gecoördineerde versie.*
+
+Ministerieel besluit, van 16 juli 2019, tot aanduiding van de ambtenaren die in
+de functie van adviseur-generaal zitting hebben in de beroepscommissie zoals
+bedoeld in artikel 66, § 2 van het wetboek van de minnelijke en gedwongen
+invordering van fiscale en niet-fiscale schuldvorderingen en dat aan die
+beroepscommissie de machtiging geeft om op te treden als beroepscommissie
+zoals bedoeld in artikel 84octies, § 2, van het wetboek van de belasting over de
+toegevoegde waarde en als beroepscommissie zoals bedoeld in artikel
+413quinquies, § 2, van het wetboek van de inkomstenbelastingen 1992
+
+Uitvoering van artikel 66, § 2 van het wetboek van de minnelijke en gedwongen invordering van
+fiscale en niet-fiscale schuldvorderingen; artikel 84octies, § 2, van het Btw-Wetboek en
+artikel 413quinquies, § 2, van het WIB92.
+Officieuze coördinatie, nr. 1 - Ingevoerd met ingang van 01.01.2020 (B.S. 02.08.2019, pg. 76217,
+Numac: 2019013677)
+
+## Art. 1
+
+Worden aangewezen om zitting te hebben in de Beroepscommissie zoals bedoeld in artikel 66, § 2, van het
+Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen:
+-     Mevrouw Gillebert, Isabelle M.G.S., adviseur-generaal van het regionaal invorderingscentrum van
+      Brussel 1;
+-     De heer Vermeiren, Pascal A.A., adviseur-generaal van het regionaal invorderingscentrum van
+      Brussel 2;
+-     Mevrouw Rapaille, Lydie F.G., adviseur-generaal ad interim van het bijzonder invorderingscentrum;
+-     Mevrouw Hupperts, Christiane H.A.C.G., adviseur-generaal van het inningscentrum.
+-     Mevrouw Wallez, Anne-Françoise M.M., adviseur-generaal van het regionaal invorderingscentrum van
+      Waals-Brabant;
+-     De heer Exelmans, Steven, adviseur-generaal van het regionaal invorderingscentrum van
+      Antwerpen 1;
+-     De heer Sels, Hans H.T., adviseur-generaal van het regionaal invorderingscentrum van Antwerpen 2;
+-     De heer Bourbon, Erik, adviseur-generaal ad interim van het regionaal invorderingscentrum van
+      Vlaams-Brabant;
+-     Mevrouw Derkoningen Nele T.L., adviseur-generaal van het regionaal invorderingscentrum van
+      Limburg;
+-     Mevrouw Carta Ersilia, adviseur-generaal van het regionaal invorderingscentrum van Luik 1;
+-     Mevrouw Rixhon, Béatrice S.A., adviseur-generaal van het regionaal invorderingscentrum van Luik 2;
+-     De heer Peerboom, Serge J.J., adviseur-generaal ad interim van het regionaal invorderingscentrum van
+      Eupen-Sankt-Vith;
+-     De heer De Groeve, Pol J.-L., adviseur-generaal van het regionaal invorderingscentrum van Namen-
+      Luxemburg;
+-     De heer Veys, Christophe J., adviseur-generaal van het regionaal invorderingscentrum van
+      Henegouwen Noord;
+-     Mevrouw Maucourant, Patricia H., adviseur-generaal van het regionaal invorderingscentrum van
+      Henegouwen Zuid;
+
+-      De heer Dequeker, Dominique H.M., adviseur-generaal ad                  interim   van    het regionaal
+       invorderingscentrum van Oost-Vlaanderen;
+-      Mevrouw Neirynck, Katy M., adviseur-generaal van het regionaal invorderingscentrum van West-
+       Vlaanderen.
+
+## Art. 2
+
+De heer Boelaert, Tom W.S.A., administrateur niet-fiscale invordering/juridische ondersteuning, wordt
+aangesteld om te zetelen in de Beroepscommissie zoals bedoeld in artikel 66, § 2, van het Wetboek van de
+minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen in de hoedanigheid van
+plaatsvervangend voorzitter.
+
+## Art. 3
+
+De Beroepscommissie samengesteld zoals bepaald in de artikelen 1 en 2, treedt op als Beroepscommissie
+zoals bedoeld in artikel 84octies, § 2, van het Wetboek van de belasting over de toegevoegde waarde en als
+Beroepscommissie zoals bedoeld in artikel 413quinquies, § 2, van het Wetboek van de inkomstenbelastingen
+1992.
+
+## Art. 4
+
+Het ministerieel besluit van 21 mei 2019 tot aanduiding van de ambtenaren die in de functie van adviseur-
+generaal zitting hebben in de beroepscommissie zoals bedoeld in artikel 84octies, § 2 van het wetboek van
+de belasting over de toegevoegde waarde en in de beroepscommissie zoals bedoeld in artikel 413quinquies,
+§ 2 van het wetboek van de inkomstenbelastingen 1992, wordt opgeheven.
+
+## Art. 5
+
+Dit besluit treedt in werking op 1 januari 2020.

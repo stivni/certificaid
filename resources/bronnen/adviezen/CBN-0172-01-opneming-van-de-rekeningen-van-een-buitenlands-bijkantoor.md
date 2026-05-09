@@ -39,6 +39,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: "[Laag-2-R2 2026-05-08] Het advies bevat 59 headings en 108 voetnoten met uitgebreide kwantitatieve voorbeeldtabellen (3 scenario's x 3 periodes). Balansen en resultatenrekening-tabellen correct als Markdown pipe-tabellen. Inhoud van alle balansen en journaalposten is retrievable."
+    layer1:
+      verdict: warn
+      heading_count: 59
+      max_section_chars: 31760
+      file_size_chars: 61816
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 31760 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
   - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0

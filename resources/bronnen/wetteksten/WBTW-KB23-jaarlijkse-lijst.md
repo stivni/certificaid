@@ -2,37 +2,67 @@
 tags: ["VI.B", "2.4"]
 itaa-lex-sectie: "VI.B"
 wet: "K.B. nr. 23 van 9 december 2009, met betrekking tot de jaarlijkse lijst van de BTW-belastingplichtige afnemers"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "09.12.2009"
-bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
-provenance:
-  inputs:
-    - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
-      sha256: 63ccf3d1b29dd477e24c41deee6a1febe0c3449e4d69013291697d1aa7a0a4d1
-      version: 09.12.2009
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:33Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
 chunk:
   level: 2
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
+provenance:
+  inputs:
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    model:
+    prompt_version:
+  generated_at: '2026-05-09T16:15:18Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 9
+      max_section_chars: 2972
+      file_size_chars: 11488
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: needs-rework
+      rationale: '12k chars met 0 ##-headings; Artikel-markers staan als plain text. Body intact, maar per-Artikel-chunking ontbreekt.'
+      problemen:
+        - regel: 0
+          type: missing-section
+          voorbeeld: '0 ##-headings bij 11923 chars; Artikel 1..n staan als plain text'
+      sterkte:
+        - Frontmatter consistent
+        - Body inhoudelijk intact
+      auto: false
+      run_id: qa-batch-W3
 ---
 
 # K.B. nr. 23 van 9 december 2009, met betrekking tot de jaarlijkse lijst van de BTW-belastingplichtige afnemers
 
-*Bijgewerkt tot en met 09.12.2009 — afgesplitst uit de Fisconet-compilatie van 06.03.2020.*
+*Bijgewerkt tot en met 09.12.2009 — gecoördineerde versie.*
 
 Koninklijk besluit nr. 23 van 9 december 2009 met betrekking tot de
 jaarlijkse lijst van de BTW-belastingplichtige afnemers
@@ -40,183 +70,187 @@ jaarlijkse lijst van de BTW-belastingplichtige afnemers
 (officieuze coördinatie)
 Laatst gewijzigd met ingang van 16.05.2014 (KB 24.01.2015, B.S. 20.02.2015 – Ed. 2)
 
-    (Dit koninklijk besluit vervangt, met ingang van 01.01.2010, het koninklijk besluit
-    nr. 23 van 29 december 1992 tot regeling van de toepassingsmodaliteiten van artikel
-    53quinquies van het Wetboek van de belasting over de toegevoegde waarde. (KB
-    09.12.2009, B.S. 17.12.2009, Ed. 2))
+       (Dit koninklijk besluit vervangt, met ingang van 01.01.2010, het koninklijk besluit
+       nr. 23 van 29 december 1992 tot regeling van de toepassingsmodaliteiten van artikel
+       53quinquies van het Wetboek van de belasting over de toegevoegde waarde. (KB
+       09.12.2009, B.S. 17.12.2009, Ed. 2))
 
 ## Art. 1
-    (De tekst van KB nr. 23, artikel 1, § 1, eerste lid, werd gewijzigd met ingang van
-    16.05.2014. (Art. 20, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
+       (De tekst van KB nr. 23, artikel 1, § 1, eerste lid, werd gewijzigd met ingang van
+       16.05.2014. (Art. 20, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
-§ 1. De personen bedoeld in artikel 53quinquies van het Wetboek, zijn gehouden ieder jaar vóór 31 maart
+§ 1.    De personen bedoeld in artikel 53quinquies van het Wetboek, zijn gehouden ieder jaar vóór 31 maart
 bij de administratie belast met de belasting over de toegevoegde waarde een lijst in te dienen, waarin voor
 iedere afnemer die krachtens artikel 50 van het Wetboek voor BTW-doeleinden moet geïdentificeerd zijn,
 behalve voor de niet-belastingplichtige rechtspersonen en voor de belastingplichtige afnemers die
 uitsluitend handelingen verrichten die krachtens artikel 44 van het Wetboek zijn vrijgesteld, en aan wie zij
 goederen hebben geleverd of diensten hebben verstrekt in de loop van het vorige jaar, de volgende
 gegevens voorkomen :
-    1° het BTW-identificatienummer van die belastingplichtige afnemer of het sub-BTWidentificatienummer van alle afnemers die lid zijn van een BTW-eenheid in de zin van artikel
-    4, § 2, van het Wetboek;
-    2° het totale bedrag, exclusief belasting, van de goederen die hem werden geleverd en van de
-    hem verstrekte diensten;
-    3° het totale bedrag van de aan hem in rekening gebrachte belasting.
-    Wanneer geen enkele door de lijst beoogde handeling wordt verricht, zijn de in het eerste lid
+       1°     het BTW-identificatienummer van die belastingplichtige afnemer of het sub-BTW-
+              identificatienummer van alle afnemers die lid zijn van een BTW-eenheid in de zin van artikel
+              4, § 2, van het Wetboek;
+       2°     het totale bedrag, exclusief belasting, van de goederen die hem werden geleverd en van de
+              hem verstrekte diensten;
+       3°     het totale bedrag van de aan hem in rekening gebrachte belasting.
+       Wanneer geen enkele door de lijst beoogde handeling wordt verricht, zijn de in het eerste lid
 bedoelde personen gehouden de administratie hiervan in kennis te stellen volgens de door of vanwege de
 Minister van Financiën vastgestelde modaliteiten.
 
-§ 2. Voor de toepassing van paragraaf 1 moet de lijst slechts de handelingen vermelden waarvoor de
+§ 2.    Voor de toepassing van paragraaf 1 moet de lijst slechts de handelingen vermelden waarvoor de
 belastingplichtige of het lid van een BTW-eenheid in de zin van artikel 4, § 2, van het Wetboek, ofwel aan
 zijn afnemer een factuur of het stuk bedoeld in artikel 53, § 3, van het Wetboek moet uitreiken, ofwel van
 die afnemer het stuk moet ontvangen bedoeld in artikel 4 van het koninklijk besluit nr. 22 met betrekking
 tot de bijzondere regeling voor landbouwondernemers inzake belasting over de toegevoegde waarde.
 
-§ 3. Wanneer een in paragraaf 1 bedoelde belastingplichtige enkel nog handelingen verricht die zijn
+§ 3.    Wanneer een in paragraaf 1 bedoelde belastingplichtige enkel nog handelingen verricht die zijn
 vrijgesteld door artikel 44 van het Wetboek die geen recht op aftrek verlenen of wanneer hij deze
 hoedanigheid verliest, moet de lijst van deze belastingplichtige binnen drie maanden na deze wijziging of dit
 verlies worden ingediend.
-    Wanneer een BTW-eenheid in de zin van artikel 4, § 2, van het Wetboek, enkel nog handelingen
+       Wanneer een BTW-eenheid in de zin van artikel 4, § 2, van het Wetboek, enkel nog handelingen
 verricht die zijn vrijgesteld door artikel 44 van het Wetboek die geen recht op aftrek verlenen of wanneer zij
 de hoedanigheid van belastingplichtige verliest, moeten de lijsten van de leden van deze BTW-eenheid
 binnen drie maanden na deze wijziging of dit verlies worden ingediend.
-    Wanneer een lid van een BTW-eenheid in de zin van artikel 4, § 2, van het Wetboek zijn
+      Wanneer een lid van een BTW-eenheid in de zin van artikel 4, § 2, van het Wetboek zijn
 werkzaamheid stopzet, moet de lijst van dat lid binnen drie maanden na de stopzetting worden ingediend.
 
 ## Art. 2
-    (De tekst van KB nr. 23, artikel 2, § 3, 1°, werd gewijzigd met ingang van
-    16.05.2014. (Art. 20, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
+       (De tekst van KB nr. 23, artikel 2, § 3, 1°, werd gewijzigd met                           ingang   van
+       16.05.2014. (Art. 20, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
-§ 1. De personen bedoeld in artikel 53quinquies van het Wetboek die gehouden zijn tot de indiening van
+§ 1.   De personen bedoeld in artikel 53quinquies van het Wetboek die gehouden zijn tot de indiening van
 de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte, alsook de leden van een BTW-
 eenheid bedoeld in artikel 50, § 1, eerste lid, 6°, van het Wetboek, moeten de lijst langs elektronische weg
 indienen.
-    Zij zijn vrijgesteld van de verplichting tot indiening langs elektronische weg zolang zij en in
+       Zij zijn vrijgesteld van de verplichting tot indiening langs elektronische weg zolang zij en in
 voorkomend geval de persoon die gemachtigd is de bedoelde lijst namens hen in te dienen, niet over de
 nodige geïnformatiseerde middelen beschikken om aan deze verplichting te voldoen.
 
-§ 2. De personen bedoeld in artikel 53quinquies van het Wetboek die niet gehouden zijn tot de indiening
+§ 2.   De personen bedoeld in artikel 53quinquies van het Wetboek die niet gehouden zijn tot de indiening
 van de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte, met uitzondering van de leden
 van een BTW-eenheid bedoeld in paragraaf 1, eerste lid, hebben de keuze om de in artikel 1 bedoelde lijst
 langs elektronische weg dan wel op papier in te dienen.
 
-§ 3. De personen bedoeld in artikel 53quinquies van het Wetboek :
-    1° die de lijst niet langs elektronische weg indienen, moeten gebruik maken van het formulier
-    dat hen wordt verstrekt door de administratie belast met de belasting over de toegevoegde
-    waarde en waarvan het model voorkomt op de bijlage bij dit besluit. Zij dienen deze lijst in bij
-    de door de Minister van Financiën aangewezen dienst;
-    2° die deze lijst langs elektronische weg indienen, moeten de in bijlage bij dit besluit bedoelde
-    gegevens overdragen. Zij dienen deze lijst in op het elektronisch adres dat te dien einde
-    gecreëerd werd door of vanwege de Minister van Financiën.
+§ 3.   De personen bedoeld in artikel 53quinquies van het Wetboek :
+       1°     die de lijst niet langs elektronische weg indienen, moeten gebruik maken van het formulier
+              dat hen wordt verstrekt door de administratie belast met de belasting over de toegevoegde
+              waarde en waarvan het model voorkomt op de bijlage bij dit besluit. Zij dienen deze lijst in bij
+              de door de Minister van Financiën aangewezen dienst;
+       2°     die deze lijst langs elektronische weg indienen, moeten de in bijlage bij dit besluit bedoelde
+              gegevens overdragen. Zij dienen deze lijst in op het elektronisch adres dat te dien einde
+              gecreëerd werd door of vanwege de Minister van Financiën.
 
-§ 4. De toepassingsmodaliteiten van onderhavig artikel worden geregeld door of vanwege de Minister van
+§ 4.   De toepassingsmodaliteiten van onderhavig artikel worden geregeld door of vanwege de Minister van
 Financiën.
 
 ## Art. 3
-    (De tekst van KB nr. 23, artikel 3, werd vervangen met ingang van 01.04.2014. (Art.
-    10, KB 27.11.2014, B.S. 08.12.2014 – Ed. 3, pg. 100135))
+       (De tekst van KB nr. 23, artikel 3, werd vervangen met ingang van 01.04.2014. (Art.
+       10, KB 27.11.2014, B.S. 08.12.2014 – Ed. 3, pg. 100135))
 
-    De belastingplichtigen die op 31 december van het jaar waarop de in artikel 1 bedoelde lijst
+       De belastingplichtigen die op 31 december van het jaar waarop de in artikel 1 bedoelde lijst
 betrekking heeft, genieten van de vrijstellingsregeling van belasting bepaald door artikel 56bis van het
 Wetboek in het voordeel van kleine ondernemingen, zijn gehouden die lijst aan te vullen met een verklaring
 die vermeldt :
-    1° het bedrag van de omzet gerealiseerd in de loop van het kalenderjaar waarop deze lijst
-    betrekking heeft, berekend overeenkomstig artikel 56bis, § 4, van het Wetboek;
-    2° indien de werkzaamheid onder de vrijstellingsregeling van belasting werd aangevangen in de
-    loop van het jaar waarop deze lijst betrekking heeft, dient de datum te worden vermeld
-    waarop de belastingplichtige van deze regeling is beginnen te genieten.
+       1°     het bedrag van de omzet gerealiseerd in de loop van het kalenderjaar waarop deze lijst
+              betrekking heeft, berekend overeenkomstig artikel 56bis, § 4, van het Wetboek;
+       2°     indien de werkzaamheid onder de vrijstellingsregeling van belasting werd aangevangen in de
+              loop van het jaar waarop deze lijst betrekking heeft, dient de datum te worden vermeld
+              waarop de belastingplichtige van deze regeling is beginnen te genieten.
 
 ## Art. 4
-    (De tekst van KB nr. 23, artikel 4, werd ingevoerd met ingang van 01.01.2010. (bij KB
-    09.12.2009, B.S. 17.12.2009))
+       (De tekst van KB nr. 23, artikel 4, werd ingevoerd met ingang van 01.01.2010. (bij KB
+       09.12.2009, B.S. 17.12.2009))
 
-    De belastingplichtigen bedoeld in artikel 5, § 2, van het koninklijk besluit nr. 50 met betrekking tot
+       De belastingplichtigen bedoeld in artikel 5, § 2, van het koninklijk besluit nr. 50 met betrekking tot
 de BTW-opgave van de intracommunautaire handelingen, zijn gehouden de in artikel 1 bedoelde lijst aan te
 vullen met een verklaring waarin zij vermelden dat zij gehouden zijn tot het indienen van de jaarlijkse
 intracommunautaire opgave bedoeld in artikel 5, § 2, van het voormeld koninklijk besluit nr. 50 of dat zij
 niet gehouden zijn tot het indienen van die opgave.
 
 ## Art. 5
-    (De tekst van KB nr. 23, artikel 5, werd ingevoerd met ingang van 01.01.2010. (bij KB
-    09.12.2009, B.S. 17.12.2009))
+       (De tekst van KB nr. 23, artikel 5, werd ingevoerd met ingang van 01.01.2010. (bij KB
+       09.12.2009, B.S. 17.12.2009))
 
-    De personen bedoeld in artikel 53quinquies van het Wetboek houden klantenrekeningen of alle
+       De personen bedoeld in artikel 53quinquies van het Wetboek houden klantenrekeningen of alle
 andere stukken om te kunnen voldoen aan de voorschriften van dit besluit en aan het toezicht op de
 naleving ervan.
 
 ## Art. 6
-    (De tekst van KB nr. 23, artikel 6, werd ingevoerd met ingang van 01.01.2010. (bij KB
-    09.12.2009, B.S. 17.12.2009))
+       (De tekst van KB nr. 23, artikel 6, werd ingevoerd met ingang van 01.01.2010. (bij KB
+       09.12.2009, B.S. 17.12.2009))
 
-    De Minister van Financiën mag een lijst van de belastingplichtigen en de leden van een BTW-eenheid
+        De Minister van Financiën mag een lijst van de belastingplichtigen en de leden van een BTW-eenheid
 publiceren of laten publiceren. De lijst vermeldt onder meer het identificatienummer of het sub-
 identificatienummer dat hun werd toegekend voor de toepassing van de belasting over de toegevoegde
 waarde.
 
 ## Art. 7
-    (De tekst van KB nr. 23, artikel 7, werd ingevoerd met ingang van 01.01.2010. (bij KB
-    09.12.2009, B.S. 17.12.2009))
+       (De tekst van KB nr. 23, artikel 7, werd ingevoerd met ingang van 01.01.2010. (bij KB
+       09.12.2009, B.S. 17.12.2009))
 
-    Dit besluit vervangt het koninklijk besluit nr. 23 van 29 december 1992 tot regeling van de
+      Dit besluit vervangt het koninklijk besluit nr. 23 van 29 december 1992 tot regeling van de
 toepassingsmodaliteiten van artikel 53quinquies van het Wetboek van de belasting over de toegevoegde
 waarde.
 
 ## Art. 8
-    (De tekst van KB nr. 23, artikel 8, werd ingevoerd met ingang van 01.01.2010. (bij KB
-    09.12.2009, B.S. 17.12.2009))
+       (De tekst van KB nr. 23, artikel 8, werd ingevoerd met ingang van 01.01.2010. (bij KB
+       09.12.2009, B.S. 17.12.2009))
 
-    Dit besluit treedt in werking op 1 januari 2010.
+       Dit besluit treedt in werking op 1 januari 2010.
 
 ## Art. 9
-    (De tekst van KB nr. 23, artikel 9, werd ingevoerd met ingang van 01.01.2010. (bij KB
-    09.12.2009, B.S. 17.12.2009))
+       (De tekst van KB nr. 23, artikel 9, werd ingevoerd met ingang van 01.01.2010. (bij KB
+       09.12.2009, B.S. 17.12.2009))
 
-    De Minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.
+       De Minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.
 
-    Bijlage
+                                           Bijlage
 
-    jaarlijkse lijst van de BTW-belastingplichtige afnemers
+                    jaarlijkse lijst van de BTW-belastingplichtige afnemers
 
-## Bijlage A — Bijwerking Te vervangen pagina’s
+Bijlage A
 
-Bijw. 01 / 01.01.2012 - Volledige uitgave
+       Bijwerking                                  Te vervangen pagina’s
 
-Bijw. 02 / 08.05.2013 - pg. 1 - Bijw. 02 - pg. 1
-    - pg. Bijw./1 - Bijw. 02 - pg. Bijl.A/1
-    - nihil - Bijw. 02 - pg. Bijl.B/1
+Bijw. 01 / 01.01.2012   - Volledige uitgave
 
-Bijw. 03 / 08.12.2014 - pg. 1 en 2 - Bijw. 03 - pg. 1 en 2
-    - pg. Bijl.A/1 - Bijw. 03 - pg. Bijl.A/1
-    - pg. Bijl.B/1 - Bijw. 03 - pg. Bijl.B/1
+Bijw. 02 / 08.05.2013   - pg. 1                              - Bijw. 02 - pg. 1
+                        - pg. Bijw./1                        - Bijw. 02 - pg. Bijl.A/1
+                        - nihil                              - Bijw. 02 - pg. Bijl.B/1
 
-Bijw. 04 / 20.02.2015 - pg. 1 en 2 - Bijw. 04 - pg. 1 en 2
-    - pg. Bijl.A/1 - Bijw. 04 - pg. Bijl.A/1
-    - pg. Bijl.B/1 - Bijw. 04 - pg. Bijl.B/1
+Bijw. 03 / 08.12.2014   - pg. 1 en 2                         - Bijw. 03 - pg. 1 en 2
+                        - pg. Bijl.A/1                       - Bijw. 03 - pg. Bijl.A/1
+                        - pg. Bijl.B/1                       - Bijw. 03 - pg. Bijl.B/1
 
-## Bijlage B — Recente wijzigingen – KB nr. 23
+Bijw. 04 / 20.02.2015   - pg. 1 en 2                         - Bijw. 04 - pg. 1 en 2
+                        - pg. Bijl.A/1                       - Bijw. 04 - pg. Bijl.A/1
+                        - pg. Bijl.B/1                       - Bijw. 04 - pg. Bijl.B/1
+
+Bijlage B
+Recente wijzigingen – KB nr. 23
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
-* KB van 24.01.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1,
+*   KB van 24.01.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1,
     2, 3, 4, 7, 9, 10, 11, 15, 19, 23, 24, 27, 31, 46, 47, 48, 50, 54 en 56 met betrekking tot
     de belasting over de toegevoegde waarde en het koninklijk besluit van 7 juni 2007 tot
     uitvoering van de artikelen 84quinquies tot 84decies van het wetboek van de belasting
     over de toegevoegde waarde (B.S. 20.02.2015, Ed. 2, pg. 13872, erratum B.S.
     17.04.2015, pg. 22342)
-    Wijzigt met ingang van 16.05.2014 :
+         Wijzigt met ingang van 16.05.2014 :
 
-    - art. 1 (§ 1, eerste lid, gewijzigd)
-    - art. 2 (§ 3, 1°, gewijzigd)
+             -    art. 1 (§ 1, eerste lid, gewijzigd)
+             -    art. 2 (§ 3, 1°, gewijzigd)
 
-* KB van 27.11.2014 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1,
+*   KB van 27.11.2014 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1,
     2, 22, 23 en 56 met betrekking tot de belasting over de toegevoegde waarde (B.S.
     08.12.2014 – Ed. 3, pg. 100135)
-    Wijzigt met ingang van 01.04.2014 :
+         Wijzigt met ingang van 01.04.2014 :
 
-    - art. 3 (volledig artikel vervangen)
+             -    art. 3 (volledig artikel vervangen)
 
-* KB van 30.04.2013 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1,
+*   KB van 30.04.2013 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1,
     2, 3, 4, 7, 10, 13, 14, 18, 19, 20, 22, 23, 24, 31, 39, 46, 48, 51, 53, 54 en 56 met
     betrekking tot de belasting over de toegevoegde waarde (B.S. 08.05.2013, pg. 26764)
-    Wijzigt met ingang van 01.01.2013 :
+         Wijzigt met ingang van 01.01.2013 :
 
-    - art. 1 (gewijzigd) [enkel de Franse tekst]
+             -    art. 1 (gewijzigd) [enkel de Franse tekst]

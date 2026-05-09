@@ -2,9 +2,14 @@
 tags: ["VI.A", "2.4"]
 itaa-lex-sectie: "VI.A"
 wet: "Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoegde waarde (WBTW)"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "19.12.2025"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+chunk:
+  level: 5
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/WBTW-2026.pdf
@@ -12,27 +17,57 @@ provenance:
       version: 19.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:30Z'
+  generated_at: '2026-05-09T16:14:47Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 5
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-finalize-1
+    confirmed_at: '2026-05-09T20:31:38Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1=warn; L1.5=improvement (Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.); L2=trusted (Grote wettekst (620KB) met 283 headings tot ##### Art.-niveau; max sectie 58337 chars (chunker splitst auto). Inhoud leesbaar, geen NL/FR-mengelmoes, slot bijlages aanwezig.)'
+    agent_verdict_at: '2026-05-09T20:31:38Z'
+    sample_pick: true
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: warn
+      heading_count: 283
+      max_section_chars: 58337
+      file_size_chars: 620256
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op #####-niveau: 58337 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: 'Grote wettekst (620KB) met 283 headings tot ##### Art.-niveau; max sectie 58337 chars (chunker splitst auto). Inhoud leesbaar, geen NL/FR-mengelmoes, slot bijlages aanwezig.'
+      problemen:
+        - regel: 0
+          type: other
+          voorbeeld: max_section_size warn (58337 chars) wordt opgevangen door split_long_chunk
+      sterkte:
+        - 'Per-artikel ##### Art. X headings consequent'
+        - Bijlages tot 'Bijlage B. Arresten' aanwezig
+        - Recente artikels (Art. 93duodecies/1-/5) inclusief inwerkingtreding
+      auto: false
+      run_id: qa-batch-W4
 ---
 
 # Wetboek van de Belasting over de Toegevoegde Waarde (WBTW)
 
-*Bijgewerkt tot en met 19.12.2025 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
+*Bijgewerkt tot en met 19.12.2025 — gecoördineerde versie.*
 
 BELASTING OVER DE TOEGEVOEGDE WAARDE
 
@@ -5462,7 +5497,8 @@ blijven de bepalingen die van toepassing waren op het tijdstip dat de goederen o
 
 - Overgangsbepalingen / 9 -
 
-## Bijlage A — Recente wijzigingen, volgens de officiële publicatie
+Bijlage A
+Recente wijzigingen, volgens de officiële publicatie
 
 * Wet van 19.12.2025 - Wet tot wijziging van het Wetboek van de belasting over de toegevoegde waarde betreffende de plaats van sommige diensten en betreffende de winstmargeregeling op de levering van kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten (B.S. 31.12.2025, pg. 99183, Numac: 2025009849)
 
@@ -6420,7 +6456,8 @@ Wijzigen met ingang van 01.01.2012:
 
 - Bijlage A. Recente wijzigingen / 22 -
 
-## Bijlage B — Opmerkingen en arresten bij bepaalde artikelen
+Bijlage B
+Opmerkingen en arresten bij bepaalde artikelen
 
 ##### Art. 1
 

@@ -2,9 +2,14 @@
 tags: ["VII", "2.5"]
 itaa-lex-sectie: "VII"
 wet: "Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Wetboek-Invordering.pdf
@@ -12,27 +17,52 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:31Z'
+  generated_at: '2026-05-09T16:15:30Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 6
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 138
+      max_section_chars: 7576
+      file_size_chars: 143073
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: '138 headings, max 7576 chars; HOOFDSTUK + Afdeling + ###### Art. structuur intact. Inhoud leesbaar tot slotartikel.'
+      problemen: []
+      sterkte:
+        - Coherente HOOFDSTUK/Afdeling/Art. hierarchie
+        - Voetnoten en wijzigingsbronnen behouden
+        - Geen NBSP/scrambling waargenomen
+      auto: false
+      run_id: qa-batch-W4
 ---
 
 # Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
+
+### HOOFDSTUK 3. - De ontvanger en de vertegenwoordiging van de Belgische Staat
 
 ###### Art. 3
 

@@ -32,6 +32,13 @@ provenance:
     confirmed_at: '2026-05-07T23:35:08Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Uitgebreid document (54317 chars, 19 ## headings). Volledige dekking van Overwegingen, Inleiding, Controlewerkzaamheden, Inhoud verslag en Bijlage. Geen OCR-fouten, geen kolom-bleed, geen scrambled words.'
+    layer1:
+      verdict: pass
+      heading_count: 19
+      max_section_chars: 6810
+      file_size_chars: 54317
+      flags: []
+      run_id: 20260509-172914
 ---
 
 # Norm inzake de Controle van Fusie- en Splitsingsverrichtingen van Vennootschappen

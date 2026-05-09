@@ -1,0 +1,99 @@
+---
+tags: ["VI.C", "2.4"]
+itaa-lex-sectie: "VI.C"
+wet: "M.B. van 20 december 2001, met betrekking tot de diensten waar de documenten bedoeld in de artikelen 53, § 1, eerste lid, 2°, 53ter, 1°, 53quinquies en 53sexies van het Wetboek van de belasting over de toegevoegde waarde moeten worden ingediend"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "20.12.2001"
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy:
+provenance:
+  inputs:
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
+      sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
+      version: 29.04.2024
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    model:
+    prompt_version:
+  generated_at: '2026-05-09T16:15:20Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 1490
+      file_size_chars: 2516
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: needs-rework
+      rationale: '0 ##-headings; chunk.level=2 mismatch.'
+      problemen:
+        - regel: 0
+          type: missing-section
+          voorbeeld: Artikel 1-2 zonder heading
+      sterkte:
+        - Volledig MB tot inwerkingtreding
+      auto: false
+      run_id: qa-batch-W4
+---
+
+# M.B. van 20 december 2001, met betrekking tot de diensten waar de documenten bedoeld in de artikelen 53, § 1, eerste lid, 2°, 53ter, 1°, 53quinquies en 53sexies van het Wetboek van de belasting over de toegevoegde waarde moeten worden ingediend
+
+*Bijgewerkt tot en met 20.12.2001 — gecoördineerde versie.*
+
+Ministerieel besluit, van 20 december 2001, met betrekking tot de diensten waar
+de documenten bedoeld in de artikelen 53, § 1, eerste lid, 2°,53ter,1°,
+53quinquies en 53sexies van het Wetboek van de belasting over de toegevoegde
+waarde moeten worden ingediend
+(De tekst van het opschrift van het MB van 20.12.2001, werd vervangen met ingang van 20.06.2008
+(Art. 1, MB 23.06.2008, B.S. 02.07.2008))
+
+Uitvoering van de artikelen 53, eerste lid, 3°, 53ter, 1°, 53quinquies en 53sexies, van het
+Wetboek en koninklijk besluit nr. 1, van 29 december 1992, met betrekking tot de regeling voor
+de voldoening van de belasting over de toegevoegde waarde, artikel 18, § 1; koninklijk besluit
+nr. 23, van 29 december 1992, tot regeling van de toepassingsmodaliteiten van artikel 53quinquies
+van het Wetboek van de belasting over de toegevoegde waarde, artikel 1, derde lid en koninklijk
+besluit nr. 50, van 29 december 1992, tot regeling van de toepassingsmodaliteiten van artikel
+53sexies, § 1, van het Wetboek van de belasting over de toegevoegde waarde, artikel 5 en 6, § 2.
+Officieuze coördinatie, nr. 2 – Laatstelijk gewijzigd met ingang van 16.05.2014 (MB 13.05.2015,
+B.S. 26.05.2015)
+
+## Art. 1
+(De tekst van het MB van 20.12.2001, art. 1, tweede lid, werd gewijzigd met ingang van 16.05.2014
+(Art. 1, MB 13.05.2015, B.S. 26.05.2015))
+
+De dienst bedoeld in artikel 18, § 1, van het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot
+de regeling voor de voldoening van de belasting over de toegevoegde waarde, in artikel 2, § 3, 1°, van het
+koninklijk besluit nr. 23 van 9 december 2009 met betrekking tot de jaarlijkse lijst van de BTW-
+belastingplichtige afnemers alsook in artikel 6, § 4, 2°, van het koninklijk besluit nr. 50 van 9 december 2009
+met betrekking tot de BTW-opgave van de intracommunautaire handelingen, is het controlekantoor van de
+belasting over de toegevoegde waarde waaronder de betrokken persoon ressorteert.
+
+De administratie belast met de belasting over de toegevoegde waarde kan niettemin een ander adres bepalen
+dan dit van de dienst bedoeld in het eerste lid waaraan zij de gegevens mededeelt.
+
+## Art. 2
+
+Dit besluit heeft uitwerking met ingang van 18 september 2001.

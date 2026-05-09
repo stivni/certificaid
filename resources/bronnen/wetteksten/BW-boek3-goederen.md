@@ -2,9 +2,14 @@
 tags: ["XI", "3.1"]
 itaa-lex-sectie: "XI"
 wet: "Burgerlijk Wetboek — Boek 3 — Goederen"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 5
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/BW-boek3-goederen.pdf
@@ -12,28 +17,64 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
+  generated_at: '2026-05-09T16:15:41Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 5
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 283
+      max_section_chars: 9700
+      file_size_chars: 189627
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: BW-boek 3 met genummerde Art. 3.x, 230 artikelen herkenbaar, schoon NL. Bij Art. 2 (regel 48) bevat de body een ingebouwde quote die structuurkop introduceert maar de tekst is correct overgenomen.
+      problemen:
+        - regel: 48
+          type: other
+          voorbeeld: Art. 2-body bevat 'Boek 3. Goederen Titel 1. ...' op één regel — embedded structuur-tekst, geen heading-fout
+      sterkte:
+        - Genummerde Art. 3.x consistent
+        - Geen kolom-bleed
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # Burgerlijk Wetboek — Boek 3 — Goederen
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
 
+### HOOFDSTUK 1. - Inleidende bepaling
+
+##### Art. 1
+
+Deze wet regelt een aangelegenheid als bedoeld in artikel 74 van de Grondwet.
+
+### HOOFDSTUK 2. - Inhoud van boek 3 "Goederen" in het Burgerlijk Wetboek
+
+##### Art. 2
+
+Boek 3 van het Burgerlijk Wetboek, ingevoerd bij artikel 2 van de wet van 13 april 2019 tot invoering van een Burgerlijk Wetboek en tot invoeging van boek 8 "Bewijs", bevat de volgende bepalingen: "Boek 3. Goederen Titel 1. Algemene bepalingen Ondertitel 1. - Statuut van de bepalingen
 ##### Art. 3.1
 
 Aanvullend recht
@@ -486,7 +527,9 @@ Toepasselijke bepalingen
 ##### Art. 3.77
 
 Beëindiging
-  Artikel 3.75 is niet van toepassing op de vrijwillige mede-eigendom.
+##### Art. 3
+
+75 is niet van toepassing op de vrijwillige mede-eigendom.
   Een vrijwillige mede-eigendom voor bepaalde duur is slechts aan derden tegenwerpelijk voor haar resterende duurtijd en ten hoogste voor vijf jaar. Bij onroerende goederen geldt dit slechts na overschrijving van het contract in de registers van het bevoegde kantoor van de Algemene Administratie van de Patrimoniumdocumentatie.
   Indien de vrijwillige mede-eigendom echter voor onbepaalde duur is totstandgekomen, kan elke mede-eigenaar het contract, niettegenstaande andersluidend beding, opzeggen met inachtneming van een redelijke opzeggingstermijn. Een schuldeiser van de deelgenoten kan in rechte vorderen dat de vrijwillige mede-eigendom van onbepaalde duur wordt opgezegd onder dezelfde modaliteiten.
   Bij gebreke van akkoord tussen de mede-eigenaars bepaalt de rechter de duur van de opzeggingstermijn. Hij houdt daarbij met name rekening met de door de partijen reeds gemaakte kosten, het voortbestaan van de doorslaggevende beweegreden die partijen ertoe heeft aangezet om de vrijwillige mede-eigendom tot stand te brengen en het nadeel dat uit de beëindiging voor de andere deelgenoot voortvloeit. De opzeggingstermijn kan niet langer zijn dan vijf jaar.

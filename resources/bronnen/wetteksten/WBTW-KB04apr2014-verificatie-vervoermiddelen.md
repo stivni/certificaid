@@ -2,37 +2,65 @@
 tags: ["VI.B", "2.4"]
 itaa-lex-sectie: "VI.B"
 wet: "K.B. van 4 april 2014, betreffende de verificatie van het regelmatig aanwezig zijn van motorvoertuigen"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "04.04.2014"
-bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
-provenance:
-  inputs:
-    - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
-      sha256: 63ccf3d1b29dd477e24c41deee6a1febe0c3449e4d69013291697d1aa7a0a4d1
-      version: 04.04.2014
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:35Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
 chunk:
   level: 2
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
+provenance:
+  inputs:
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    model:
+    prompt_version:
+  generated_at: '2026-05-09T16:15:19Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 16
+      max_section_chars: 1457
+      file_size_chars: 10689
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: needs-rework
+      rationale: "Zelfde Fisconet-compilatie-issue: heading_count=0, artikelen als 'Artikel N' platte tekst zonder markdown-heading. Niet chunkbaar."
+      problemen:
+        - 'geen ## Art.-headings'
+        - artikelen als plat-tekst-tekens in pagina-layout
+      sterkte:
+        - frontmatter correct
+      auto: false
+      run_id: qa-batch-W2
 ---
 
 # K.B. van 4 april 2014, betreffende de verificatie van het regelmatig aanwezig zijn van motorvoertuigen
 
-*Bijgewerkt tot en met 04.04.2014 — afgesplitst uit de Fisconet-compilatie van 06.03.2020.*
+*Bijgewerkt tot en met 04.04.2014 — gecoördineerde versie.*
 
 Koninklijk besluit, van 4 april 2014, betreffende de verificatie van het
 regelmatig aanwezig zijn van motorvoertuigen
@@ -43,7 +71,7 @@ Officieuze coördinatie
 Laatstelijk gewijzigd met ingang van 04.02.2019 (KB 06.03.2020, B.S., 18.03.2020, pg. 15917) (1)
 
 ## Art. 1
-(De tekst van KB 04.04.2014, artikel 1, werd gewijzigd met ingang van 04.02.2019
+(De tekst van KB 04.04.2014, artikel 1,                  werd   gewijzigd     met   ingang    van    04.02.2019
 (KB 06.03.2020, B.S. 18.03.2020, pg. 15917))
 
 Elk motorvoertuig dat bestemd is om hier te lande te worden ingeschreven, moet het voorwerp uitmaken
@@ -65,48 +93,46 @@ Voor de toepassing van dit besluit worden aanhangwagens en opleggers gelijkgeste
 motorvoertuigen.
 
 ## Art. 3
-(De tekst van KB 04.04.2014, artikel 3, werd gewijzigd met ingang van 04.02.2019
+(De tekst van KB 04.04.2014, artikel 3,                  werd   gewijzigd     met   ingang    van    04.02.2019
 (KB 06.03.2020, B.S. 18.03.2020, pg. 15917))
 
 Het in artikel 1 bedoeld elektronisch signaal legt de in artikel 5, 23°, van Verordening (EU) Nr. 952/2013
 van het Europees Parlement en van de Raad van 9 oktober 2013 tot vaststelling van het douanewetboek
 van de Unie bedoelde douanestatus van Uniegoederen van het voertuig vast en verwijst naar de daartoe
 voorgelegde bewijsstukken:
-1° hetzij de douanedocumenten betreffende de invoer van het motorvoertuig of de invoer van de
-    onderdelen die tot zijn assemblage of tot zijn bouw hebben gediend en die het mogelijk maken om
-    na te gaan of het motorvoertuig wat betreft de rechten bij invoer en de bij invoer toepasselijke
-    verbods-, beperkings- en controlemaatregelen reglementair in het vrije verkeer werd gebracht;
-2° hetzij het door een andere lidstaat van de Europese Unie afgeleverd kentekenbewijs dat het
-    communautair karakter vaststelt;
+1°     hetzij de douanedocumenten betreffende de invoer van het motorvoertuig of de invoer van de
+       onderdelen die tot zijn assemblage of tot zijn bouw hebben gediend en die het mogelijk maken om
+       na te gaan of het motorvoertuig wat betreft de rechten bij invoer en de bij invoer toepasselijke
+       verbods-, beperkings- en controlemaatregelen reglementair in het vrije verkeer werd gebracht;
+2°     hetzij het door een andere lidstaat van de Europese Unie afgeleverd kentekenbewijs dat het
+       communautair karakter vaststelt;
 
-(1) De vóór de bekendmaking van dit besluit (18.03.2020) in papieren vorm afgegeven vignetten 705 zowel als de
-    vergunningen afgeleverd op grond van artikel 7 van het koninklijk besluit van 4 april 2014 blijven geldig
-    (art. 10, KB 06.03.2020)
+(1)   De vóór de bekendmaking van dit besluit (18.03.2020) in papieren vorm afgegeven vignetten 705 zowel als de
+      vergunningen afgeleverd op grond van artikel 7 van het koninklijk besluit van 4 april 2014 blijven geldig
+      (art. 10, KB 06.03.2020)
 
-3° hetzij de factuur met betrekking tot de intracommunautaire verwerving van het motorvoertuig;
-4° hetzij elk commercieel document of ander bewijsstuk.
+3°     hetzij de factuur met betrekking tot de intracommunautaire verwerving van het motorvoertuig;
+4°     hetzij elk commercieel document of ander bewijsstuk.
 
 ## Art. 4
-(De tekst van KB 04.04.2014, artikel 4, werd gewijzigd met ingang van 04.02.2019
+(De tekst van KB 04.04.2014, artikel 4,                   werd   gewijzigd   met   ingang    van    04.02.2019
 (KB 06.03.2020, B.S. 18.03.2020, pg. 15917))
 
 De in artikel 1 voorziene verplichting geldt niet voor:
-1° de gebruikte motorvoertuigen die in België worden doorverkocht of anderszins worden
-    overgedragen en die opnieuw worden ingeschreven op naam van de nieuwe eigenaar of gebruiker,
-    waarvoor wordt aangetoond dat een vorige inschrijving hier te lande, zonder vrijstelling van de
-    belasting over de toegevoegde waarde, reeds het voorwerp was van een in artikel 1 bedoeld
-    elektronisch signaal en voor zover deze motorvoertuigen, sedert die inschrijving, het land niet
-    anders hebben verlaten dan in internationaal verkeer zonder verandering van eigenaar;
-2° de met tijdelijke vrijstelling van rechten bij invoer toegelaten motorvoertuigen.
+1°     de gebruikte motorvoertuigen die in België worden doorverkocht of anderszins worden
+       overgedragen en die opnieuw worden ingeschreven op naam van de nieuwe eigenaar of gebruiker,
+       waarvoor wordt aangetoond dat een vorige inschrijving hier te lande, zonder vrijstelling van de
+       belasting over de toegevoegde waarde, reeds het voorwerp was van een in artikel 1 bedoeld
+       elektronisch signaal en voor zover deze motorvoertuigen, sedert die inschrijving, het land niet
+       anders hebben verlaten dan in internationaal verkeer zonder verandering van eigenaar;
+2°     de met tijdelijke vrijstelling van rechten bij invoer toegelaten motorvoertuigen.
 
 ## Art. 5
-(De tekst van KB 04.04.2014, artikel 5, werd opgeheven met ingang van 04.02.2019
+(De tekst van KB 04.04.2014, artikel 5,                   werd   opgeheven   met   ingang    van    04.02.2019
 (KB 06.03.2020, B.S. 18.03.2020, pg. 15917))
 
-    (Opgeheven)
-
 ## Art. 6
-(De tekst van KB 04.04.2014, artikel 6, werd vervangen met ingang van 04.02.2019
+(De tekst van KB 04.04.2014, artikel 6,                   werd   vervangen   met   ingang    van    04.02.2019
 (KB 06.03.2020, B.S. 18.03.2020, pg. 15917))
 
 In geval van verlies of diefstal van het vignet dat overeenkomstig de oude wetgeving werd uitgereikt,
@@ -115,7 +141,7 @@ gevestigd bij de Directie Inschrijvingen Voertuigen (DIV) van de Federale Overhe
 Vervoer te hebben verkregen.
 
 ## Art. 7
-(De tekst van KB 04.04.2014, artikel 7, werd vervangen met ingang van 04.02.2019
+(De tekst van KB 04.04.2014, artikel 7,                   werd   vervangen   met   ingang    van    04.02.2019
 (KB 06.03.2020, B.S. 18.03.2020, pg. 15917))
 
 De Minister van Financiën of, onder de voorwaarden die hij bepaalt, zijn gemachtigde, kan de importeurs,
@@ -132,10 +158,10 @@ De Minister van Mobiliteit en de Minister van Financiën kunnen gezamenlijk ople
 gegevens aan dit signaal toe te voegen.
 
 ## Art. 8
-(De tekst van KB 04.04.2014, artikel 8, werd opgeheven met ingang van 04.02.2019
+(De tekst van KB 04.04.2014, artikel 8,               werd    opgeheven    met   ingang    van    04.02.2019
 (KB 06.03.2020, B.S. 18.03.2020, pg. 15917))
 
-    (Opgeheven
+                                               (Opgeheven
 
 ## Art. 9
 (De tekst van KB 04.04.2014, artikel 9, is van toepassing met ingang van 07.05.2014
@@ -146,7 +172,7 @@ motorvoertuigen alle documenten voor te leggen die de douane nodig acht of inzag
 geschriften te verlenen.
 
 ## Art. 10
-(De tekst van KB 04.04.2014, artikel 10, werd gewijzigd met ingang van 04.02.2019
+(De tekst van KB 04.04.2014, artikel 10,               werd   gewijzigd    met   ingang     van   04.02.2019
 (KB 06.03.2020, B.S. 18.03.2020, pg. 15917))
 
 Voor de met tijdelijke vrijstelling van rechten bij invoer en/of BTW toegelaten motorvoertuigen waarvoor
@@ -166,7 +192,7 @@ controleren.
 Voor de met tijdelijke vrijstelling van rechten bij invoer en/of BTW toegelaten motorvoertuigen waakt de
 voormelde douanedienst over de afgifte van een tijdelijke kentekenplaat en over het aanbrengen op het
 kentekenbewijs van de melding "Douane - Tijdelijke vrijstelling" en van de gegevens waarvan sprake in
-## Art. 10.
+artikel 10.
 Het kentekenbewijs geldt in dit geval als document van tijdelijke vrijstelling van rechten bij invoer en/of
 BTW.
 Voor andere dan met tijdelijke vrijstelling van rechten bij invoer en/of BTW toegelaten motorvoertuigen
@@ -176,7 +202,7 @@ aanwezigheid van het motorvoertuig in het land niet aantoont, kan de inschrijvin
 bekomen of houdt deze op geldig te zijn.
 
 ## Art. 12
-(De tekst van KB 04.04.2014, artikel 12, werd gewijzigd met ingang van 04.02.2019
+(De tekst van KB 04.04.2014, artikel 12,               werd   gewijzigd    met   ingang     van   04.02.2019
 (KB 06.03.2020, B.S. 18.03.2020, pg. 15917))
 
 Het bepaalde in artikel 11 is niet van toepassing op aanvragen tot het verkrijgen van kentekenbewijzen
@@ -215,4 +241,4 @@ Dit besluit treedt in werking de dag waarop het in het Belgisch Staatsblad wordt
 Onze minister die Financiën onder zijn bevoegdheid heeft en Onze minister die Mobiliteit en Vervoer onder
 zijn bevoegdheid heeft, zijn ieder wat hem betreft, belast met de uitvoering van dit besluit.
 
-    Bijlage
+                           Bijlage

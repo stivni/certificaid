@@ -49,6 +49,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 26 headings en 55 voetnoten; alle negen inhoudelijke secties zijn volledig aanwezig. De langste sectie (~52.732 tekens) is inherent groot door het uitgebreide normatieve karakter van dit advies (1997, fundamenteel boekhoudrechtelijk document). Geen tabelcorruptie.'
+    layer1:
+      verdict: warn
+      heading_count: 32
+      max_section_chars: 52650
+      file_size_chars: 66484
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 52650 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 174/1 - Beginselen van een regelmatige boekhouding

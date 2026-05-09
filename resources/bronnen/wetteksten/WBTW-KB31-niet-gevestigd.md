@@ -2,37 +2,67 @@
 tags: ["VI.B", "2.4"]
 itaa-lex-sectie: "VI.B"
 wet: "K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "02.04.2002"
-bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
-provenance:
-  inputs:
-    - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
-      sha256: 63ccf3d1b29dd477e24c41deee6a1febe0c3449e4d69013291697d1aa7a0a4d1
-      version: 02.04.2002
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
 chunk:
   level: 2
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
+provenance:
+  inputs:
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    model:
+    prompt_version:
+  generated_at: '2026-05-09T16:15:19Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 9
+      max_section_chars: 3669
+      file_size_chars: 20107
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: needs-rework
+      rationale: '20k chars zonder ##-headings; Artikel-markers plain text. Body intact (Artikel 1..n + bijwerkingen). Degraded chunking.'
+      problemen:
+        - regel: 0
+          type: missing-section
+          voorbeeld: '0 ##-headings bij 20495 chars'
+      sterkte:
+        - Frontmatter consistent
+        - Body inhoudelijk intact
+      auto: false
+      run_id: qa-batch-W3
 ---
 
 # K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen
 
-*Bijgewerkt tot en met 02.04.2002 — afgesplitst uit de Fisconet-compilatie van 06.03.2020.*
+*Bijgewerkt tot en met 02.04.2002 — gecoördineerde versie.*
 
 Koninklijk besluit nr. 31 van 2 april 2002 met betrekking tot de toepassings-
 modaliteiten van de belasting over de toegevoegde waarde ten aanzien van
@@ -52,16 +82,16 @@ KB 07.11.2019, B.S. 25.11.2019, pg. 108072))
 vertegenwoordiger erkennen overeenkomstig de bepalingen van dit besluit, tenzij hij daarvan is
 ontslagen krachtens artikel 55, § 1, tweede lid, van het Wetboek, vooraleer in België:
 
-1° goederen te leveren of diensten te verrichten, andere dan die waarvoor overeenkomstig
-    artikel 51, § 2, eerste lid, 1°, 2°, 5° en 6°, van het Wetboek de belasting verschuldigd is
-    door de medecontractant;
+1°    goederen te leveren of diensten te verrichten, andere dan die waarvoor overeenkomstig
+      artikel 51, § 2, eerste lid, 1°, 2°, 5° en 6°, van het Wetboek de belasting verschuldigd is
+      door de medecontractant;
 
-2° goederen in te voeren, een intracommunautaire verwerving van goederen of een
-    handeling te verrichten waarvoor hij schuldenaar is van de belasting krachtens artikel 51,
-    § 2, eerste lid, 3° en 4°, van het Wetboek;
+2°    goederen in te voeren, een intracommunautaire verwerving van goederen of een
+      handeling te verrichten waarvoor hij schuldenaar is van de belasting krachtens artikel 51,
+      § 2, eerste lid, 3° en 4°, van het Wetboek;
 
-3° een handeling te verrichten van plaatsing van goederen onder een andere regeling van
-    entrepot dan douane-entrepot die niet aan de belasting is onderworpen.
+3°    een handeling te verrichten van plaatsing van goederen onder een andere regeling van
+      entrepot dan douane-entrepot die niet aan de belasting is onderworpen.
 
 De niet in België gevestigde belastingplichtige, die gevestigd is in de Gemeenschap, of die wordt
 bedoeld in artikel 55, § 1, tweede lid, van het Wetboek, kan vooraleer een handeling te
@@ -113,28 +143,32 @@ geïdentificeerd overeenkomstig artikel 50, § 1, eerste lid, 3° van het Wetboe
 uitsluitend hier te lande hiernavermelde handelingen verricht en onder de voorwaarden en
 modaliteiten bepaald in het huidig besluit, vertegenwoordigd worden door een persoon die door
 of vanwege de Minister van Financiën vooraf erkend is :
-1° wanneer hij schuldenaar is van de belasting ingevolge invoeren van goederen in België
-    die niet geplaatst zijn onder een andere regeling van entrepot dan douane-entrepot, in de
-    mate waarin de invoer is geschied met het oog op een volgende levering van dezelfde
-    goederen;
+1°    wanneer hij schuldenaar is van de belasting ingevolge invoeren van goederen in België
+      die niet geplaatst zijn onder een andere regeling van entrepot dan douane-entrepot, in de
+      mate waarin de invoer is geschied met het oog op een volgende levering van dezelfde
+      goederen;
 
-2° wanneer hij schuldenaar is van de belasting ingevolge handelingen bedoeld in artikel
-    39quater, § 1, eerste lid, 1° en 3°, van het Wetboek, of wanneer hij een handeling
-    verricht van plaatsing van goederen onder een andere regeling van entrepot dan douaneentrepot die niet aan de belasting is onderworpen;
+2°    wanneer hij schuldenaar is van de belasting ingevolge handelingen bedoeld in artikel
+      39quater, § 1, eerste lid, 1° en 3°, van het Wetboek, of wanneer hij een handeling
+      verricht van plaatsing van goederen onder een andere regeling van entrepot dan douane-
+      entrepot die niet aan de belasting is onderworpen;
 
-3° wanneer hij de goederen onttrekt aan een andere regeling van entrepot dan douaneentrepot, bedoeld in artikel 39quater van het Wetboek;
+3°    wanneer hij de goederen onttrekt aan een andere regeling van entrepot dan douane-
+      entrepot, bedoeld in artikel 39quater van het Wetboek;
 
-4° wanneer hij een intracommunautaire verwerving van goederen of een krachtens artikel
-    25quater, § 1, van het Wetboek daarmee gelijkgestelde handeling verricht en die
-    goederen niet geplaatst zijn onder een andere regeling van entrepot dan douaneentrepot, in de mate waarin de intracommunautaire verwerving van goederen of de
-    daarmee gelijkgestelde handeling is geschied met het oog op een volgende levering van
-    dezelfde goederen vrijgesteld bij artikel 39, § 1, 1° en 2°, van het Wetboek;
+4°    wanneer hij een intracommunautaire verwerving van goederen of een krachtens artikel
+      25quater, § 1, van het Wetboek daarmee gelijkgestelde handeling verricht en die
+      goederen niet geplaatst zijn onder een andere regeling van entrepot dan douane-
+      entrepot, in de mate waarin de intracommunautaire verwerving van goederen of de
+      daarmee gelijkgestelde handeling is geschied met het oog op een volgende levering van
+      dezelfde goederen vrijgesteld bij artikel 39, § 1, 1° en 2°, van het Wetboek;
 
-5° wanneer hij een intracommunautaire verwerving van goederen of een krachtens artikel
-    25quater, § 1, van het Wetboek daarmee gelijkgestelde handeling verricht en die
-    goederen niet geplaatst zijn onder een andere regeling van entrepot dan douaneentrepot, met uitzondering van elke andere handeling onderworpen aan de belasting in
-    België. Door of namens de Minister van Financiën kan worden afgeweken van deze
-    uitzondering in de gevallen en volgens de regels die hij bepaalt.
+5°    wanneer hij een intracommunautaire verwerving van goederen of een krachtens artikel
+      25quater, § 1, van het Wetboek daarmee gelijkgestelde handeling verricht en die
+      goederen niet geplaatst zijn onder een andere regeling van entrepot dan douane-
+      entrepot, met uitzondering van elke andere handeling onderworpen aan de belasting in
+      België. Door of namens de Minister van Financiën kan worden afgeweken van deze
+      uitzondering in de gevallen en volgens de regels die hij bepaalt.
 
 Door of vanwege de Minister van Financiën kan de erkenning beperkt worden tot de categorieën
 van personen die hij bepaalt.
@@ -233,18 +267,18 @@ belasting, of niet voor de BTW geïdentificeerd is, voldoet zijn medecontractant
 verschuldigd is over de aan hem verrichte leveringen van goederen en de aan hem verstrekte
 diensten op de volgende wijze :
 
-1° wanneer hij een belastingplichtige is die gehouden is een in artikel 53, § 1, eerste lid, 2°,
-    van het Wetboek bedoelde aangifte in te dienen, door ze op te nemen in het bedrag van
-    de verschuldigde belasting dat wordt vermeld in de aangifte met betrekking tot het
-    tijdvak waarin de belasting opeisbaar is geworden;
+1°    wanneer hij een belastingplichtige is die gehouden is een in artikel 53, § 1, eerste lid, 2°,
+      van het Wetboek bedoelde aangifte in te dienen, door ze op te nemen in het bedrag van
+      de verschuldigde belasting dat wordt vermeld in de aangifte met betrekking tot het
+      tijdvak waarin de belasting opeisbaar is geworden;
 
-2° wanneer hij een persoon is die gehouden is de in artikel 53ter, 1°, van het Wetboek
-    bedoelde aangifte in te dienen, door ze op te nemen in het bedrag van de verschuldigde
-    belasting dat wordt vermeld in de aangifte met betrekking tot het tijdvak waarin de
-    belasting opeisbaar is;
+2°    wanneer hij een persoon is die gehouden is de in artikel 53ter, 1°, van het Wetboek
+      bedoelde aangifte in te dienen, door ze op te nemen in het bedrag van de verschuldigde
+      belasting dat wordt vermeld in de aangifte met betrekking tot het tijdvak waarin de
+      belasting opeisbaar is;
 
-3° wanneer hij een andere persoon is, door middel van een storting of overschrijving op een
-    postrekening aangeduid door of vanwege de Minister van Financiën.
+3°    wanneer hij een andere persoon is, door middel van een storting of overschrijving op een
+      postrekening aangeduid door of vanwege de Minister van Financiën.
 
 Door of vanwege de Minister van Financiën kunnen, in voorkomend geval, andere wijzen van
 betaling van de belasting worden bepaald.
@@ -310,7 +344,7 @@ De vorm van de aanvraag tot teruggaaf, de over te leggen stukken en de modalitei
 teruggaaf worden door of vanwege de Minister van Financiën bepaald.
 
 § 3. De teruggaaf geschiedt rekening houdend met de bankgegevens vermeld in de in
-###### paragraaf 1 bedoelde aanvraag. De bankkosten voor het verrichten van de teruggaaf worden in
+paragraaf 1 bedoelde aanvraag. De bankkosten voor het verrichten van de teruggaaf worden in
 voorkomend geval in mindering gebracht van het voor teruggaaf vatbare bedrag.
 
 De teruggaaf die niet kan worden uitgevoerd op de in het eerste lid beschreven wijze, geschiedt
@@ -336,37 +370,37 @@ Bijlage
 Recente wijzigingen
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
-* KB van 07.11.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 7,
+*   KB van 07.11.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 7,
     10, 24, 31, 35, 46 en 56 met betrekking tot de belasting over de toegevoegde waarde
     (B.S. 25.11.2019, pg. 108072)
 
-    Wijzigt met ingang van 05.12.2019 :
+          Wijzigt met ingang van 05.12.2019 :
 
-    - art. 1 (§ 1, vervangen)
+               -     art. 1 (§ 1, vervangen)
 
-* KB van 17.03.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 4, 15,
+*   KB van 17.03.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 4, 15,
     24, 31, 41 en 56 met betrekking tot de belasting over de toegevoegde waarde, met het oog
     op de automatisering van de uitvoerbare titel inzake de belasting over de toegevoegde
     waarde (B.S. 08.04.2019, pg. 35699)
 
-    Wijzigt met ingang van 01.04.2019 :
+          Wijzigt met ingang van 01.04.2019 :
 
-    - art. 3 (derde lid, gewijzigd)
+               -     art. 3 (derde lid, gewijzigd)
 
-* KB van 24.01.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
+*   KB van 24.01.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
     4, 7, 9, 10, 11, 15, 19, 23, 24, 27, 31, 46, 47, 48, 50, 54 en 56 met betrekking tot de
     belasting over de toegevoegde waarde en het koninklijk besluit van 7 juni 2007 tot
     uitvoering van de artikelen 84quinquies tot 84decies van het wetboek van de belasting over
     de toegevoegde waarde (B.S. 20.02.2015, Ed. 2, pg. 13872, erratum B.S. 17.04.2015, pg. 22342)
 
-    Wijzigt met ingang van 16.05.2014 :
+          Wijzigt met ingang van 16.05.2014 :
 
-    - art. 1 (§ 2, eerste lid, gewijzigd)
+               -     art. 1 (§ 2, eerste lid, gewijzigd)
 
-* KB van 30.04.2013 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
+*   KB van 30.04.2013 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
     4, 7, 10, 13, 14, 18, 19, 20, 22, 23, 24, 31, 39, 46, 48, 51, 53, 54 en 56 met betrekking tot
     de belasting over de toegevoegde waarde (B.S. 08.05.2013)
 
-    Wijzigt met ingang van 01.01.2013 :
+          Wijzigt met ingang van 01.01.2013 :
 
-    - art. 4 (§ 2, tweede lid, vervangen)
+               -     art. 4 (§ 2, tweede lid, vervangen)

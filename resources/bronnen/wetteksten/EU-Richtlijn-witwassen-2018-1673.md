@@ -2,9 +2,14 @@
 tags: ["1.2", "4.0"]
 itaa-lex-sectie: ""
 wet: "Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld"
+bron_rol: "normatief"
 status: "beschikbaar"
 bijgewerkt: "12.11.2018"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/EU-Richtlijn-witwassen-2018-1673.pdf
@@ -12,22 +17,44 @@ provenance:
       version: 12.11.2018
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
+  generated_at: '2026-05-09T16:15:49Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 2
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 16
+      max_section_chars: 20495
+      file_size_chars: 39734
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: Richtlijn 2018/1673 met 16 Art.-vermeldingen op H2. Body leesbaar, geen artefacten.
+      problemen: []
+      sterkte:
+        - Compleet
+        - Schoon NL
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld

@@ -30,6 +30,42 @@ provenance:
     confirmed_at: '2026-05-08T08:29:24Z'
     confirmed_by: subagent-sonnet-general-purpose-batch3
     rationale: Normatieve inhoud (hoofdstukken 1-4, bijlage 1) volledig en correct. Bijlage 2 tabellen zijn fragmentarisch maar de cijfers zijn traceerbaar en het zijn illustratieve voorbeelden, geen normatief kerngedeelte.
+    layer1:
+      verdict: warn
+      heading_count: 7
+      max_section_chars: 75543
+      file_size_chars: 202195
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 75543 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: needs-rework
+      rationale: "Tweekoloms-PDF met sectie IV ontbrekend als ## heading (alleen sectie I, II, III, V, VI als ##) terwijl IV.1, IV.2, IV.3 wel in body staan (L924, L1002, L1069) — IV. zelf is gedegradeerd. Page-footers ('OPENBARE RAADPLEGING JUNI 2025 X/64') ingebed in body. Tweekoloms-extract met 'VEREISTEN' en 'TOEPASSINGSMODALITEITEN' kolommen die niet altijd schoon ineenlopen."
+      problemen:
+        - regel: 924
+          type: missing-section
+          voorbeeld: 'Sectie IV ontbreekt als ## heading; alleen IV.1, IV.2, IV.3 in body als plain text'
+        - regel: 1237
+          type: other
+          voorbeeld: Page-footer 'OPENBARE RAADPLEGING JUNI 2025  36/64' embedded in body (talrijk)
+        - regel: 1243
+          type: column-bleed
+          voorbeeld: "'VEREISTEN ... TOEPASSINGSMODALITEITEN' kolom-headers als plain regel midden in sectie V"
+      sterkte:
+        - Definities, sectie I, II, III hoofdwerkzaamheden volledig
+        - Sectie V (Schriftelijke bevestigingen), VI (Conclusie en beoordelingsverslag) en bijlagen aanwezig
+        - Frontmatter naar correcte itaa.be-url
+      auto: false
+      run_id: qa-batch-normen
 ---
 
 # Norm inzake het verslag op te stellen bij de omzetting van een vennootschap

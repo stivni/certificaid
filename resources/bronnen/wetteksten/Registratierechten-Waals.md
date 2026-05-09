@@ -24,10 +24,44 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+    layer1:
+      verdict: warn
+      heading_count: 607
+      max_section_chars: 58101
+      file_size_chars: 609340
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 58101 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+        - name: no_toc_dots
+          status: warn
+          detail: 74 TOC-stippen-regel(s) gevonden
+          samples:
+            - '................................................................................'
+            - '................................................................................'
+            - '................................................................................'
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: needs-rework
+      rationale: Zelfde TOC-stippen-issue als Brussel (74 regels) en zelfde max-section >58k chars. Vermoedelijk gedeeld ETL-pad.
+      problemen:
+        - 74 TOC-stippen-regels
+        - max_section_size 58101 chars
+      sterkte:
+        - headings consistent met Brusselse variant
+      auto: false
+      run_id: qa-batch-W2
 chunk:
   level: 6
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
 ---
 
 # Registratierechten — Waals Gewest

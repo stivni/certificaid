@@ -33,6 +33,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: '[Laag-2-R2 2026-05-08] 10 headings, volledige inhoudelijke kern aanwezig: vijf verwerkingspunten volledig, IAS 39-verwijzingen, vier toepassingssituaties. Voetnootnummer in titeltekst is cosmetisch.'
+    layer1:
+      verdict: warn
+      heading_count: 10
+      max_section_chars: 26378
+      file_size_chars: 35761
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 26378 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
   - titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait'
     url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0

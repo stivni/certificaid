@@ -2,9 +2,14 @@
 tags: ["XI", "3.1"]
 itaa-lex-sectie: "XI"
 wet: "Burgerlijk Wetboek — Boek 5 — Verbintenissen"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/BW-boek5-verbintenissen.pdf
@@ -12,27 +17,65 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
+  generated_at: '2026-05-09T16:15:41Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 4
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 97
+      max_section_chars: 2121
+      file_size_chars: 20766
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: BW-boek 5, 65 Art.-vermeldingen, hoofdstukken op H2, Art. op H4. Geen kolom-bleed, schoon NL.
+      problemen: []
+      sterkte:
+        - Volledige hierarchie
+        - Schoon
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # Burgerlijk Wetboek — Boek 5 — Verbintenissen
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
+
+## HOOFDSTUK 1. - Inleidende bepaling
+
+#### Art. 1
+
+Deze wet regelt een aangelegenheid als bedoeld in artikel 74 van de Grondwet.
+
+## HOOFDSTUK 2. - Inhoud van boek 5 "Verbintenissen" van het nieuwe Burgerlijk Wetboek
+
+#### Art. 2
+
+Boek 5 van het Burgerlijk Wetboek, ingevoerd bij artikel 2 van de wet van 13 april 2019 tot invoering van een Burgerlijk Wetboek en tot invoeging van boek 8 "Bewijs" in dat Wetboek, bevat de volgende bepalingen: (voor boek 5, zie 2022-04-28/27)
+
+## HOOFDSTUK 3. - Wijzigingsbepalingen
+
+### Afdeling I. - Wijzigingen van het Gerechtelijk Wetboek
 
 #### Art. 3
 

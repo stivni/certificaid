@@ -2,9 +2,14 @@
 tags: ["XII"]
 itaa-lex-sectie: "XII"
 wet: "Strafwetboek 8 juni 1867 (Oud Strafwetboek)"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "gecoördineerd"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Strafwetboek-1867.pdf
@@ -12,27 +17,60 @@ provenance:
       version: gecoördineerd
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
+  generated_at: '2026-05-09T16:15:46Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 6
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 1045
+      max_section_chars: 14398
+      file_size_chars: 658733
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: 'Heldere structuur met ###### Art. 1 t/m Art. 566, Boek/Hoofdstuk-headings consistent. Frontmatter correct. Geen NBSP/scrambled/kolom-bleed gedetecteerd.'
+      problemen: []
+      sterkte:
+        - 884 Art.-headings
+        - consistente Boek/Hoofdstuk-hiërarchie
+        - correct slotartikel
+      auto: false
+      run_id: qa-batch-W2
 ---
 
 # Strafwetboek 8 juni 1867 (Oud Strafwetboek)
 
 *Bijgewerkt tot en met gecoördineerd — gecoördineerde versie.*
+
+## BOEK 1. - DE MISDRIJVEN EN DE BESTRAFFING IN HET ALGEMEEN.
+
+#### HOOFDSTUK I. - MISDRIJVEN.
+
+###### Art. 1
+
+Het misdrijf, naar de wetten strafbaar met een criminele straf, is een misdaad.
+  Het misdrijf, naar de wetten strafbaar met een correctionele straf, is een wanbedrijf.
+  Het misdrijf, naar de wetten strafbaar met een politiestraf, is een overtreding.
 
 ###### Art. 2
 
@@ -249,8 +287,7 @@ Elke hechtenis, vóór het onherroepelijk worden van de veroordeling ondergaan t
 (Oud artikel 30bis) (Opgeheven) <W 2005-01-12/39, art. 169, 050; Inwerkingtreding : 15-01-2007>
 
 
-##### AFDELING V. - STRAFFEN AAN MISDADEN EN WANBEDRIJVEN GEMEEN.
-##### Onderafdeling I. - (Straffen aan misdaden en wanbedrijven gemeen, toepasselijk op natuurlijke personen).
+##### AFDELING V. - STRAFFEN AAN MISDADEN EN WANBEDRIJVEN GEMEEN. - Onderafdeling I. - (Straffen aan misdaden en wanbedrijven gemeen, toepasselijk op natuurlijke personen).
 
 ###### Art. 31
 
@@ -295,7 +332,7 @@ De tijd van de ontzetting, bij het vonnis of het arrest van veroordeling bepaald
   Bovendien heeft de ontzetting haar gevolgen met ingang van de dag waarop de op tegenspraak of bij verstek gewezen veroordeling onherroepelijk is geworden.
   (De ontzetting die is uitgesproken ten aanzien van een veroordeelde die overeenkomstig de wet van 29 juni 1964 betreffende de opschorting, het uitstel en de probatie voor de tenuitvoerlegging van zijn straf volledig of gedeeltelijk uitstel heeft verkregen, gaat in op de dag waarop het uitstel begint te lopen zolang dat niet wordt herroepen.) <W 2003-12-22/42, art. 380, 047; Inwerkingtreding : 10-01-2004, is vanaf zijn inwerkingtreding van toepassing, ook voor de veroordeelde personen die uitstel genieten of genoten hebben>
 
-##### Onderafdeling Ibis. - De terbeschikkingstelling van de strafuitvoeringsrechtbank <Ingevoegd bij W 2007-04- 26/89, art. 3; Inwerkingtreding : 01-01-2012>
+##### AFDELING V. - STRAFFEN AAN MISDADEN EN WANBEDRIJVEN GEMEEN. - Onderafdeling Ibis. - De terbeschikkingstelling van de strafuitvoeringsrechtbank <Ingevoegd bij W 2007-04- 26/89, art. 3; Inwerkingtreding : 01-01-2012>
 
 ###### Art. 34bis
 
@@ -339,7 +376,7 @@ De tijd van de ontzetting, bij het vonnis of het arrest van veroordeling bepaald
   ----------
   (1)<W 2014-04-25/23, art. 59, 104; Inwerkingtreding : 24-05-2014>
 
-##### Onderafdeling II. - (Staffen aan misdaden en wanbedrijven gemeen, toepasselijk op rechtspersonen).
+##### AFDELING V. - STRAFFEN AAN MISDADEN EN WANBEDRIJVEN GEMEEN. - Onderafdeling II. - (Staffen aan misdaden en wanbedrijven gemeen, toepasselijk op rechtspersonen).
 
 ###### Art. 35
 
@@ -538,8 +575,7 @@ De tijd van de ontzetting, bij het vonnis of het arrest van veroordeling bepaald
   (1)<Ingevoegd bij W 2014-04-10/80, art. 11, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-05-08/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13)> (2)<W 2024-01-18/06, art. 16, 157; Inwerkingtreding : 05-02-2024>
 
 
-##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN.
-##### Onderafdeling I. - (De geldboete op natuurlijke personen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 7;
+##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN. - Onderafdeling I. - (De geldboete op natuurlijke personen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 7;
  Inwerkingtreding : 02-07-1999>
 
 ###### Art. 38
@@ -562,7 +598,7 @@ Bij gebreke van betaling binnen twee maanden te rekenen van het arrest of van he
 
 In alle gevallen kan de veroordeelde zich van die gevangenisstraf bevrijden door de geldboete te betalen; hij kan zich niet onttrekken aan het verhaal op zijn goederen door aan te bieden de gevangenisstraf te ondergaan.
 
-##### Onderafdeling II. - (De geldboete op rechtspersonen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 8;
+##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN. - Onderafdeling II. - (De geldboete op rechtspersonen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 8;
  Inwerkingtreding : 02-07-1999>
 
 ###### Art. 41bis
@@ -570,7 +606,7 @@ In alle gevallen kan de veroordeelde zich van die gevangenisstraf bevrijden door
 <Ingevoegd bij W 1999-05-04/60, art. 8; Inwerkingtreding : 02-07-1999> § 1. De geldboeten toepasselijk op misdrijven gepleegd door rechtspersonen, zijn : in criminele en correctionele zaken : - wanneer de wet op het feit levenslange vrijheidsstraf stelt : geldboete van tweehonderdveertig duizend [euro] tot zevenhonderdtwintigduizend [euro]; <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002> - wanneer de wet op het feit vrijheidsstraf en geldboete stelt, of een van de straffen alleen : geldboete van minimum vijfhonderd [euro] vermenigvuldigd met het getal van de maanden van de minimumvrijheidsstraf, doch niet lager dan de minimumgeldboete op het feit gesteld; met als maximum tweeduizend [euro] vermenigvuldigd met het getal van de maanden van de maximumvrijheidsstraf, doch niet lager dan het dubbele van de maximumgeldboete op het feit gesteld; <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002> - wanneer de wet op het feit enkel geldboete stelt : geldboete met minimum en maximum als door de wet op het feit gesteld; in politiezaken : - geldboete van vijfentwintig [euro] tot tweehonderdvijftig [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
   § 2. Voor het bepalen van de straf bedoeld in § 1 zijn de bepalingen van Boek I van toepassing.
 
-##### Onderafdeling III. - (Bijzondere verbeurdverklaring). <Ingevoegd bij W 1999-05-04/60, art. 9; Inwerkingtreding : 02-07-1999>
+##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN. - Onderafdeling III. - (Bijzondere verbeurdverklaring). <Ingevoegd bij W 1999-05-04/60, art. 9; Inwerkingtreding : 02-07-1999>
 
 ###### Art. 42
 
@@ -3598,8 +3634,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 3, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 1. [1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.]1
-##### Onderafdeling 1. [1 - Toestemming met betrekking tot het seksueel zelfbeschikkingsrecht.]1
+##### Afdeling 1. [1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.]1 - Onderafdeling 1. [1 - Toestemming met betrekking tot het seksueel zelfbeschikkingsrecht.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 4, 148; Inwerkingtreding : 01-06-2022>
 
@@ -3625,7 +3660,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
    ----------
    (1)<Ingevoegd bij W 2022-03-21/01, art. 6, 148; Inwerkingtreding : 01-06-2022>
 
-##### Onderafdeling 2. [1 - Basismisdrijven.]1
+##### Afdeling 1. [1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.]1 - Onderafdeling 2. [1 - Basismisdrijven.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 7, 148; Inwerkingtreding : 01-06-2022>
 
@@ -3674,7 +3709,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 12, 148; Inwerkingtreding : 01-06-2022>
 
-##### Onderafdeling 3. [1 - Verzwaarde misdrijven.]1
+##### Afdeling 1. [1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.]1 - Onderafdeling 3. [1 - Verzwaarde misdrijven.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 13, 148; Inwerkingtreding : 01-06-2022>
 
@@ -3787,7 +3822,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 24, 148; Inwerkingtreding : 01-06-2022>
 
-##### Onderafdeling 4. [1 - Algemene bepaling.]1
+##### Afdeling 1. [1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.]1 - Onderafdeling 4. [1 - Algemene bepaling.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 25, 148; Inwerkingtreding : 01-06-2022>
 
@@ -3807,8 +3842,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 27, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 2. [1 - Seksuele uitbuiting van minderjarigen.]1
-##### Onderafdeling 1. [1 - Benaderen van een minderjarige voor seksuele doeleinden.]1
+##### Afdeling 2. [1 - Seksuele uitbuiting van minderjarigen.]1 - Onderafdeling 1. [1 - Benaderen van een minderjarige voor seksuele doeleinden.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 28, 148; Inwerkingtreding : 01-06-2022>
 
@@ -3819,7 +3853,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 29, 148; Inwerkingtreding : 01-06-2022>
 
-##### Onderafdeling 2. [1 - Seksuele uitbuiting van minderjarigen met het oog op prostitutie.]1
+##### Afdeling 2. [1 - Seksuele uitbuiting van minderjarigen.]1 - Onderafdeling 2. [1 - Seksuele uitbuiting van minderjarigen met het oog op prostitutie.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 30, 148; Inwerkingtreding : 01-06-2022>
 
@@ -3962,7 +3996,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 48, 148; Inwerkingtreding : 01-06-2022> (2)<W 2022-07-30/03, art. 4, 150; Inwerkingtreding : 18-08-2022>
 
-##### Onderafdeling 3. [1 - Beelden van seksueel misbruik van minderjarigen.]1
+##### Afdeling 2. [1 - Seksuele uitbuiting van minderjarigen.]1 - Onderafdeling 3. [1 - Beelden van seksueel misbruik van minderjarigen.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 49, 148; Inwerkingtreding : 01-06-2022>
 
@@ -4026,7 +4060,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 56, 148; Inwerkingtreding : 01-06-2022>
 
-##### Onderafdeling 4. [1 - Algemene bepaling.]1
+##### Afdeling 2. [1 - Seksuele uitbuiting van minderjarigen.]1 - Onderafdeling 4. [1 - Algemene bepaling.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 57, 148; Inwerkingtreding : 01-06-2022>
 
@@ -4373,7 +4407,9 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
 
 #### HOOFDSTUK IIIbis. - Exploitatie van bedelarij <Ingevoegd bij W 2005-08-10/61, art. 9; Inwerkingtreding : 12-09- 2005>
 
-   Artikel 433ter.<Ingevoegd bij W 2005-08-10/61, art. 7; Inwerkingtreding : 12-09-2005> Met gevangenisstraf van zes maanden tot drie jaar en met geldboete van vijfhonderd euro tot vijfentwintigduizend euro wordt gestraft :
+###### Art. 433ter
+
+<Ingevoegd bij W 2005-08-10/61, art. 7; Inwerkingtreding : 12-09-2005> Met gevangenisstraf van zes maanden tot drie jaar en met geldboete van vijfhonderd euro tot vijfentwintigduizend euro wordt gestraft :
    1° hij die een persoon aanwerft, meeneemt, wegbrengt, bij zich houdt teneinde hem over te leveren aan de bedelarij, hem ertoe aanzet te bedelen of door te gaan met bedelen, of hem ter beschikking van een bedelaar stelt opdat deze laatste zich van hem bedient om het openbaar medelijden op te wekken;
    2° hij die, op welke manier ook, eens anders bedelarij exploiteert.
    Poging tot de in het eerste lid bedoelde misdrijven wordt gestraft met een gevangenisstraf van een maand tot twee jaar en met een geldboete van honderd euro tot tweeduizend euro.

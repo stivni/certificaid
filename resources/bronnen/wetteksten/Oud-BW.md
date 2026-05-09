@@ -6,6 +6,37 @@ status: "beschikbaar"
 bijgewerkt: "27.01.2026"
 bron: "ejustice.just.fgov.be (Justel, gecoördineerde versie)"
 raw-bron: "resources/raw/wetteksten/Oud-BW.pdf"
+provenance:
+  trust:
+    layer1:
+      verdict: warn
+      heading_count: 3677
+      max_section_chars: 29650
+      file_size_chars: 1511864
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 29650 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: needs-rework
+      rationale: 'Zeer groot bestand (1.5 MB, 3677 headings). Frontmatter heeft duplicate #-titel direct na de gegenereerde titel. Eindigt mid-citaat in Art. 8.39 zonder duidelijke afsluiting. Sectie >29k chars vraagt om sub-strategy.'
+      problemen:
+        - 'dubbele eerste heading (twee #-titels gestapeld)'
+        - abrupt einde bij Art. 8.39 (geen inwerkingtreding/slotbepaling zichtbaar in tail)
+        - max_section_size 29650 (>24000)
+      sterkte:
+        - zeer rijke heading-structuur
+        - alle Boeken aanwezig
+      auto: false
+      run_id: qa-batch-W2
 ---
 
 # Burgerlijk Wetboek (oud)

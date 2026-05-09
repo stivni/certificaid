@@ -1,5 +1,7 @@
 ---
-tags: [norm, itaa]
+tags:
+  - norm
+  - itaa
 naam: "Norm Domiciliëring"
 datum: 2024-09-02
 type: norm
@@ -11,26 +13,79 @@ themas:
   - cliëntenrelatie
 bron: itaa.be
 url: https://www.itaa.be/nl/norm-domiciliering/
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
 provenance:
   inputs:
     - id: itaa.be
       sha256:
       version:
   tooling:
-    pipeline: tools/etl/process_normen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:52Z'
+  generated_at: '2026-05-09T19:12:06Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    qa_version: qa-20260508-rerun2
-    confirmed_at: '2026-05-08T08:29:24Z'
-    confirmed_by: subagent-sonnet-general-purpose-batch3
-    rationale: Alle vier secties (I–IV) volledig aanwezig. Geen logo-blok, geen copyright in body. Voetnootsuperscripten zijn cosmetisch.
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 4
+      max_section_chars: 7012
+      file_size_chars: 12696
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: Korte norm (4 secties I-IV) uit PDF schoon geconverteerd. Heading-structure correct, definities en voorwaarden volledig. Cover-page tekst (L41-54) heeft cosmetische inspring; copyright-footers (L106, L160, L215) embedded in body, maar verstoort retrieval niet.
+      problemen:
+        - regel: 41
+          type: other
+          voorbeeld: Cover-page header 'ITAA / INSTITUTE FOR TAX / ADVISORS & ACCOUNTANTS' met inspring — cosmetisch
+        - regel: 106
+          type: other
+          voorbeeld: "Page-footer copyright '© ITAA – Norm betreffende...' embedded in body (3x: L106, L160, L215)"
+      sterkte:
+        - 'Alle 4 hoofdsecties (I-IV) als ## headings'
+        - Definities en 7 voorwaarden eigen aan domiciliëringsopdracht volledig
+        - Inwerkingtreding-sectie intact
+      auto: false
+      run_id: qa-batch-normen
 ---
+                   ITAA
+            INSTITUTE FOR TAX
+         ADVISORS & ACCOUNTANTS
+
+      NORM BETREFFENDE
+   DE VERENIGBAARHEID VAN
+DE ACTIVITEIT VAN DOMICILIËRING
+        VAN ENTITEITEN
+    Gelet op het advies van de Hoge Raad voor de Economische Beroepen van 20 juni 2024.
+    HEEFT DE RAAD VAN HET INSTITUUT VAN DE BELASTINGADVISEURS EN DE ACCOUNTANTS OP
+    ZIJN ZITTING VAN 2 JULI 2024 DE HIERNAVOLGENDE NORM AANGENOMEN:
+
+                   NORM BETREFFENDE DE VERENIGBAARHEID VAN DE ACTIVITEIT VAN
+                                 DOMICILIËRING VAN ENTITEITEN
+
 ## I. Voorwoord
     Conform artikel 25 van de Richtlijn 2006/123/EG van het Europees Parlement en van de Raad van
     12 december 2006 betreffende diensten op de interne markt, mogen titularissen van een geregle-
@@ -77,7 +132,12 @@ provenance:
     Conform deze bepaling, is de Raad van het Instituut bevoegd voor het uitvaardigen en openbaar
     maken van technische normen en aanbevelingen, specifiek voor de uitoefening van het beroep.
 
+1
+    Conform de wet van 29 maart 2018 tot registratie van dienstenverleners aan vennootschappen.
 
+2
+© ITAA – Norm betreffende de verenigbaarheid van de activiteit van domiciliëring van entiteiten,
+goedgekeurd door de raad van 2 juli 2024.
     Dergelijke normen zijn bindend en worden in het Nederlands, het Frans en zo mogelijk in het Duits
     openbaar gemaakt op de website van het Instituut.
     Onderhavige norm heeft tot doel om de bijzondere voorwaarden vast te leggen omtrent de uitoefening
@@ -124,7 +184,14 @@ provenance:
     viteiten onder artikelen 3 en 6 van de wet van 17 maart 2019, uit met respect voor de verplichtingen
     voortvloeiende uit de antiwitwaswetgeving en haar uitvoeringsbesluiten.
 
+2
+  Hieronder wordt verstaan het deelnemen aan de effectieve transactie van de aan- of verkoop van de aandelen en niet de
+juridische bijstand in het kader hiervan. 3 Artikel 2,12° van de wet van 17 maart 2019 betreffende de beroepen van accountant
+en belastingadviseur. 4 Artikel 2,3° van de wet van 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur.
 
+3
+© ITAA – Norm betreffende de verenigbaarheid van de activiteit van domiciliëring van entiteiten,
+goedgekeurd door de raad van 2 juli 2024.
     3) Voorwaarden eigen aan de domiciliëringsopdracht zoals omschreven in de definities onder 2°
     b) en c)
     3.1. De beroepsbeoefenaar houdt, op duidelijk afzonderlijke wijze, de goederen en documenten
@@ -174,4 +241,9 @@ provenance:
     adres van een accountant of belastingconsulent wordt opgeheven op de datum van de inwerking-
     treding van deze norm.
 
+5
+    Conform artikel III.16 Wetboek van Economisch Recht.
 
+4
+© ITAA – Norm betreffende de verenigbaarheid van de activiteit van domiciliëring van entiteiten,
+goedgekeurd door de raad van 2 juli 2024.

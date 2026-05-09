@@ -28,6 +28,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 19 headings en behandelt volledig de correctie van jaarrekeningen na invoering van het WVV. TOC-dump op regel 65-68 is cosmetisch.'
+    layer1:
+      verdict: warn
+      heading_count: 22
+      max_section_chars: 30447
+      file_size_chars: 49119
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 30447 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
   - titel: Correctie van de jaarrekening
     url: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening

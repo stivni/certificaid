@@ -1,0 +1,96 @@
+---
+tags: ["VI.C", "2.4"]
+itaa-lex-sectie: "VI.C"
+wet: "M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "04.03.1993"
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy:
+provenance:
+  inputs:
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
+      sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
+      version: 29.04.2024
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    model:
+    prompt_version:
+  generated_at: '2026-05-09T16:15:20Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 4
+      max_section_chars: 671
+      file_size_chars: 1744
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: needs-rework
+      rationale: '0 ##-headings; chunk.level=2 mismatch.'
+      problemen:
+        - regel: 0
+          type: missing-section
+          voorbeeld: Artikel 1-N zonder heading-prefix
+      sterkte:
+        - Inhoud van het MB compleet
+      auto: false
+      run_id: qa-batch-W4
+---
+
+# M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde
+
+*Bijgewerkt tot en met 04.03.1993 — gecoördineerde versie.*
+
+Ministerieel besluit nr. 6, van 4 maart 1993, waarbij uitstel wordt verleend voor
+de voldoening van de ter zake van de invoer van goederen verschuldigde
+belasting over de toegevoegde waarde
+Uitvoering van artikel 52 van het Wetboek en van artikel 5 van het koninklijk besluit nr. 7.
+Officieuze coördinatie
+
+## Art. 1
+
+De voldoening van de ter zake van de invoer van goederen verschuldigde belasting aan de ontvanger der
+douane mag worden uitgesteld tot de donderdag van de week volgend op die waarin de aangifte is geschied.
+
+## Art. 2
+
+Elke persoon die uitstel van betaling wenst te genieten moet :
+a)    een schriftelijke aanvraag richten aan de ontvanger der douane;
+b)    een voldoende borgtocht storten of een andere zekerheid stellen volgens de regelen die inzake
+      invoerrecht gelden;
+c)    in vak B van het document bedoeld in artikel 9 van het koninklijk besluit nr. 7 met betrekking tot de
+      invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde de vermelding
+      "Uitstel" of "Uitstel van betaling" aanbrengen;
+d)    de betalingen verrichten door storting of overschrijving op de postrekening van de ontvanger der
+      douane of met een gekruiste check.
+
+## Art. 3
+
+Dit besluit vervangt het ministerieel besluit nr. 6 van 9 december 1970 waarbij uitstel wordt verleend voor de
+voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde.
+
+## Art. 4
+
+Dit besluit heeft uitwerking met ingang van 1 januari 1993.

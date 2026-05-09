@@ -2,9 +2,14 @@
 tags: ["VI.C", "2.4"]
 itaa-lex-sectie: "VI.C"
 wet: "Ministeriële besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 29.04.2024)"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "29.04.2024"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
@@ -12,365 +17,56 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: ec1f304
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:31Z'
+  generated_at: '2026-05-09T15:22:26Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 6
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 135
+      max_section_chars: 2386
+      file_size_chars: 52317
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: 'Goed gestructureerd: 135 headings tot ###### Art.-niveau, max sectie 2386 chars. Compilatiebestand met TITEL/HOOFDSTUK/AFDELING-hierarchie + per-artikel-headings.'
+      problemen: []
+      sterkte:
+        - 'Per-artikel ###### Art. headings consequent aanwezig'
+        - Hierarchische TITEL/HOOFDSTUK structuur intact
+        - Geen TOC-stippen in body, geen NBSP/scrambling
+      auto: false
+      run_id: qa-batch-W4
 ---
 
 # Ministeriële besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 29.04.2024)
 
 *Bijgewerkt tot en met 29.04.2024 — gecoördineerde versie.*
 
-## TITEL V. - SLOTBEPALINGEN .................................................................................................................................................... 37
-
-    - MB 29.04.2024 / 3 -
-FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
-
-## TITEL I. - ALGEMENE BEPALINGEN EN DEFINITIES
-
-###### Art. 1
-Voor de toepassing van dit besluit gelden de volgende definities:
-1° `Kassasysteem': elk geïnformatiseerd systeem dat gebruikt kan worden om verkooptransacties te registreren in een B2C omgeving, ongeacht zijn benaming of de gebruikte technologie;
-2° `Gecertificeerd kassaysteem': een kassasysteem dat voldoet aan de technische eisen opgenomen in de artikelen 4 tot 57 van dit besluit en waarvoor de bevoegde dienst bij de FOD Financiën een certificaat heeft uitgereikt;
-3° 'Fiscal Data Module': de controlemodule zoals voorzien in artikel 2, punt 7 van het koninklijk besluit van 30 december 2009 en in artikel 2, 3° van de wet van 30 juli 2013 met betrekking tot de certificatie van een geregistreerd kassasysteem, voorzien van een geldig handtekeningcertificaat;
-4° `Gecertificeerde Fiscal Data Module': de Fiscale Data module die voldoet aan de technische eisen opgenomen in de artikelen 58 tot 93 van dit besluit en waarvoor de bevoegde dienst bij de FOD Financiën een certificaat heeft uitgereikt;
-5° `Ingebrachte gegevens': de gegevens vermeld in artikel 2, punten 1 en 2 van het koninklijk besluit van 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen en betrekking hebben op: - de registraties van leveringen van goederen en diensten (incl. toepasselijk btw-tarief);
-- de registratie van aanvang en einde van de arbeidsprestatie;
-- de aanmaak van training events;
-- de aanmaak van pro forma events;
-- wijzigingen van prijzen en toepasselijk btw-tarief;
-- correcties en terugnames;
-- geregistreerde betalingen, inclusief fooien en afrondingen;
-- openingen van de geldlade via de eventueel voorziene kassafunctionaliteit (met inbegrip van het startgeld, in-/output in speciën, geldtellingen);
-- aanmaak van rapporten;
-- programma -en configuratiewijzigingen hieronder begrepen dataclear, dump, elke vorm van terugzetting (reset), wijziging PLU-instellingen en wijzigingen van systeemparameters;
-- elke boeking binnen een functionaliteit die een registratie tijdelijk kan onderbreken, pauzeren en hervatten.
-6° `Event': elke gebeurtenis die plaatsvindt op het kassasysteem en waarbij data wordt aangemaakt en verzonden tussen het kassasysteem en de fiscal data module.
-Een kassasysteem kan de volgende events aanmaken:
-- event Normal (label N);
-- event Financial (label F);
-- event Social (label S);
-- event Report (label R);
-- event Pro Forma (label P);
-- event Invoice (label I);
-
-    - MB 29.04.2024 / 4 -
-FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
-
-- event Training (label T);
-- event Copy (label C).
-7° `Controlegegevens': de data die het kassasysteem zal ontvangen van de fiscal data module en die onderaan het kasticket moeten worden vermeld;
-8° `btw-kasticket': het kasticket bedoeld in artikel 21bis van het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde en dat hetzij op papier hetzij digitaal hetzij zowel op papier als digitaal aan de klant wordt uitgereikt;
-9° `Gebruikers': personen die events in het kassasysteem registreren en worden geïdentificeerd met het rijksregisternummer of het BIS-nummer;
-Een gebruiker van het kassasysteem, vreemd aan de onderneming, wordt in het kassasysteem steeds geïdentificeerd met het nummer "00000000097".
-Voor online- en kioskbestellingen, die onder de volle verantwoordelijkheid van de uitbating vallen, dient het nummer "00000000029" gebruikt te worden.
-10° `Openingsperiode': de tijdspanne waarin een uitbating geopend is. Deze tijdspanne kan over meerdere dagen lopen, maar nooit meer dan 24 uur bevatten. De ontvangsten, gerealiseerd tijdens die tijdspanne, worden steeds toegewezen aan één boekingsdatum. Deze boekingsdatum is de begindatum van de betrokken tijdspanne. De tijdspanne kan opgesplitst zijn in diverse boekingsperiodes (shifts), waardoor een boekingsdatum meerdere boekingsperiodes kan bevatten.
-11° `Producent': iedere natuurlijk of rechtspersoon, die een eindproduct maakt om in België op de markt te brengen, om te worden gebruikt, hetzij als kassasysteem, hetzij als fiscal data module, binnen het geregistreerd kassasysteem;
-12° `Invoerder': iedere natuurlijk of rechtspersoon, die een eindproduct, geproduceerd buiten België, in België op de markt brengt, om te worden gebruikt, hetzij als kassasysteem, hetzij als fiscal data module, binnen het geregistreerd kassasysteem;
-13° `Verdeler': iedere natuurlijk of rechtspersoon, die in België aan een belastingplichtige een gecertificeerd kassasysteem of een gecertificeerde fiscal data module, bestemd om te worden gebruikt in een geregistreerd kassasysteem, verkoopt of verhuurt;
-14° `Belastingplichtige-uitbater': iedere btw-belastingplichtige, natuurlijke of rechtspersoon, die krachtens het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde, gehouden is tot het uitreiken van een kasticket bij middel van een geregistreerd kassasysteem of hiertoe vrijwillig overgaat;
-15° `Bevoegde dienst bij de FOD Financiën': de dienst die op basis van dit besluit alle certificatie- en registratieaanvragen zal behandelen, de certificatieprocedure zal uitvoeren en de attesten van certificatie zal uitreiken of intrekken.
-Op het ogenblijk van verschijnen van dit besluit is dit:
-Administratie van de Fiscaliteit
-Nationaal Centrum Opsporingen - Afdeling GKS - team GKS 1
-E-mail: secr.gksce@minfin.fed.be
-
-###### Art. 2
-Voor de toepassing van dit besluit worden de volgende afkortingen gebruikt: API - Application Programming Interface B2C - Business-to-Consumer
-
-    - MB 29.04.2024 / 5 -
-FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
-
-CE - Conformité Européenne
-CSAM - Control Sequence Access Method
-DBMS - DataBase Management System
-EEPROM - Electrically Erasable Programmable Read-Only Memory
-FDM - Fiscal Data Module
-GDPR - General Data Protection Regulation
-GKS - Geregistreerd KassaSysteem
-GPIO - General Purpose Input/Output
-GPS - Global Positioning System
-GraphQL - Graph Query Language
-HTTP - HyperText Transfer Protocol
-INSZ - IdentificatieNummer Sociale Zekerheid
-JSON - JavaScript Object Notation
-JWT - JSON Web Token
-KBO - KruispuntBank voor Ondernemingen
-LAN - Local Area Network
-LiPo - Lithium-Polymeer
-LTE - Long Time Evolution mTLS - Mutual Transport Layer Securiy
-NOP - No Operation
-PD - Powered Device
-PLU - Price Look-Up code
-PoE - Power over Ethernet
-POS - Point Of Sale
-QR code - Quick Response code
-RTC - Real Time Clock
-SHA - Secure Hash Algorithm
-URL - Uniform Resource Locator
-USB - Universal Serial Bus
-WiFi - Wireless Fidelity
-
-    - MB 29.04.2024 / 6 -
-FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
-
-## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN
-    GEREGISTREERD KASSASYSTEEM
-
-###### Art. 3
-Een geregistreerd kassasysteem zoals bedoeld in artikel 2 van de wet van 30 juli 2013 met betrekking tot de certificatie van een geregistreerd kassasysteem bestaat uit een gecertificeerd kassasysteem en een gecertificeerde Fiscal Data Module (FDM). Beide onderdelen moeten voldoen aan de technische eisen openomen in Titel II van dit besluit.
-
-### HOOFDSTUK 1. - Technische eisen ten aanzien van het gecertificeerd kassasysteem
-
-#### Afdeling 1. - Verplichte functionaliteiten
-
-##### Onderafdeling 1. - Registratie van events
-
-###### Art. 4
-Het kassasysteem dient minimaal in staat te zijn volgende events te genereren: - Normal (N) - Financial (F) - Social (S) - Report (R) Indien het kassasysteem eveneens voorziet in de events: - Pro Forma (P), - Invoice (I), - Training (T) - Copy (C) moeten hiervoor de technische eisen zoals vermeld in dit besluit worden nageleefd.
-
-    Artikel 5. Event Normal
-1° Een event dat wordt aangemaakt bij het beëindigen van de registratie van een verkooptransactie en altijd resulteert in de aanmaak van een btw-kasticket, zoals bedoeld in artikel 2, punt 4 van het koninklijk besluit van 30 december 2009, tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen en artikel 21bis van het koninklijk besluit nr. 1 tot voldoening van de btw.
-2° Een boeking als event Normal bevat enkel de geregistreerde productlijnen waarop ze betrekking heeft in chronologische volgorde en met inbegrip van correcties en prijswijzigingen gekoppeld aan de correcte productlijn.
-3° Wanneer een btw-kasticket enkel negatieve productlijnen bevat wordt de vermelding 'REFUND' aangebracht. Ingeval dit een volledige terugname van een eerder uitgereikt btw-kasticket betreft wordt bijkomend de verwijzing naar het oorspronkelijke btw-kasticket opgenomen.
-
-    - MB 29.04.2024 / 7 -
-FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
-
-    Artikel 6. Event Pro Forma
-Een event Pro Forma wordt in één van de volgende situaties aangemaakt: a. een registratie waarbij het volledige kassasysteem zich in een pro forma modus bevindt; b. elke boeking binnen een functionaliteit die een registratie tijdelijk kan onderbreken, pauzeren en hervatten; c. het aanmaken van een rekeningoverzicht.
-Met Pro Forma Modus wordt bedoeld de loutere illustratieve registraties, waarbij het kassasysteem registraties kan uitvoeren, zonder de verkoopresultaten te beïnvloeden.
-Bij een onderbroken verkoop worden de betreffende deeltransacties (boekingen) geregistreerd als Event Pro Forma. Deze registraties moeten finaal resulteren in een event Normal.
-Een boeking als event Pro Forma gebeurt overeenkomstig de regels van een event Normal, tenzij het event een rekeningoverzicht betreft.
-Het rekeningoverzicht dient een overzicht van de geboekte orders en/of het te betalen bedrag weer te geven vooraleer de betaling wordt geregistreerd en vooraleer het event Normal wordt aangemaakt. Met rekeningoverzicht wordt ook bedoeld: het oproepen en tonen van de toestand van een tafel op een tablet, smartphone of enig ander apparaat dat in verbinding staat met of deel uitmaakt van het kassasysteem.
-Elke onderbroken verkoopregistratie, behalve het doorboeken van een tafel naar een globale hotelrekening, dient finaal te resulteren in een event Normal.
-Afdrukken van onder punt b. hierboven bedoelde boekingen, onder gelijk welke vorm, mogen geen bedragen bevatten.
-
-    Artikel 7. Event Training
-Alle registraties die aangemaakt worden terwijl ofwel het kassasysteem ofwel de gebruiker zich in een trainingmodus bevindt.
-
-    Artikel 8. Event Copy
-Een kopie van een eerder aangemaakt event. Hierbij wordt steeds de referentie naar het oorspronkelijke event opgegeven. Er mag een kopie aangemaakt worden van volgende events: Normal, Pro Forma, Invoice, Social, Financial en Report.
-
-    Artikel 9. Event Social
-De registratie van start- of einduur van de aanwezigheid op de arbeidsplek van een personeelslid.
-
-    Artikel 10. Event Report
-Het aanmaken van fiscale rapporten met betrekking tot de omzet of de gebruikers met gegevens afkomstig van het kassasysteem en de FDM zoals beschreven in de artikelen. 21 tot en met 30.
-
-    Artikel 11. Event Financial
-De registratie van financiële verrichtingen die niet als omzet inzake btw worden beschouwd en betrekking hebben op één van de volgende situaties: - de input in speciën;
-- de output in speciën;
-
-    - MB 29.04.2024 / 8 -
-FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
-
-- de inwisseling van MultiPurpose Vouchers tegen betaling in speciën;
-- de betaling van eerder uitgereikte btw-kasticket;
-- de correcties van foutief geregistreerde betaalwijzen na afsluiting.
-
-    Artikel 12. Event Invoice
-Het event waarbij een factuur, bedoeld in artikel 53, § 2, eerste lid, van het Wetboek van de belasting over de toegevoegde waarde, van één (of meerdere) eerder uitgereikt(e) btw-kasticket(s) wordt aangemaakt.
-
-###### Art. 13
-Het kassasysteem kent aan elk event een nummer toe. Deze nummering moet doorlopend zijn over alle events heen, per event label, per terminal of een combinatie van voorgaande mogelijkheden.
-
-###### Art. 14
-Het kassasysteem mag events enkel kunnen registreren wanneer de FDM aangesloten en volledig operationeel is.
-Een transactie, waarvan de registratie begonnen is, mag niet beëindigd kunnen worden zolang er geen handtekening van de FDM kan ontvangen worden.
-
-###### Art. 15
-Op het kassasysteem mag geen enkel event geregistreerd worden zonder dat een gebruiker is aangemeld.
-
-##### Onderafdeling 2. - Bewaring gegevens
-
-###### Art. 16
-Het kassasysteem dient de zelf aangemaakte data, de verzonden data naar de FDM en de ontvangen data van de FDM in originele vorm kunnen bewaren, conform de fiscale bewaartermijnen.
-Er wordt geen specifiek formaat voorgeschreven. Conform artikel 61, § 1 van het Btw-Wetboek moeten alle door het kassasysteem aangemaakte en bewaarde gegevens kunnen voorgelegd worden in leesbare en verstaanbare vorm. Om kopiename van deze gegevens te vergemakkelijken, dient er tenminste één poort (van een courant type) van het kassasysteem toegankelijk/geactiveerd te zijn voor een externe gegevensdrager.
-
-###### Art. 17
-Een overzicht van alle configuratie-instellingen en de database tabellen moet op eenvoudig verzoek ter beschikking kunnen gesteld worden aan de controlerende ambtenaar.
-
-    - MB 29.04.2024 / 9 -
-FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
-
-##### Onderafdeling 3. - Te gebruiken btw-codes
-
-###### Art. 18
-Het kassasysteem dient volgende btw-codes te voorzien:
-
-BTW- BTW- CODE TAUX DE
-    BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA
-CODE TARIEF TVA TVA
-
-A Hoog 21 % A Haut 21 %
-
-B Midden 12 % B Moyen 12 %
-
-C Laag 6% C Bas 6%
-
-D Nultarief 0% D Taux zéro 0%
-
-    Buiten btw- Hors du champ d'application de la
-X Geen X Néant toepassingsgebied TVA
-
-##### Onderafdeling 4. - Het btw-kasticket
-
-###### Art. 19
-Het btw-kasticket, zoals voorzien in artikel 21bis van het koninklijk besluit nr. 1 van 21 december 1992, wordt fiscaal beschouwd als een controledocument waardoor het btw-kasticket aan de verkrijger moet uitgereikt worden.
-Dit houdt in dat de verkrijger/consument dit document moet uitgereikt krijgen (voor nazicht, als waarborgdocument, als verantwoordingsstuk, enz.). Deze uitreiking kan op papier, digitaal of beide gebeuren.
-Wanneer het btw-kasticket digitaal wordt uitgereikt, dient de exploitant uitbater er over te waken dat de consument ook effectief over dit btw-kasticket kan beschikken.
-
-###### Art. 20
-Het btw-kasticket bevat, in uitvoering van artikel 2, 7° van het koninklijk besluit van 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen, steeds minstens de volgende vermeldingen: a. de volledige benaming "btw-KASTICKET"; b. de identificatie van de uitreiker, door vermelding van zijn naam of maatschappelijke benaming, zijn adres en zijn in artikel 50 van het Btw-Wetboek bedoeld identificatienummer; c. de commerciële benaming van de uitbating; d. het nummer van de vestigingseenheid (zoals geregistreerd bij de KBO); e. de identificatie van het kassasysteem met het in artikel 46 vermelde productienummer, samen met de vermelding van het versienummer van de erop geïnstalleerde kassasoftware; f. de identificatie van de terminal; g. identificatie van het input device; hiermee wordt (in volgorde van beschikbaarheid bedoeld: MAC adres, serienummer, IP-adres, ...);
-
-    - MB 29.04.2024 / 10 -
-FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
-
-h. de identificatie van de gebruiker (op zodanige wijze dat deze binnen de onderneming identificeerbaar is), zoals voorzien in artikel 1, 9° ; i. de datum en het uur van de uitreiking van het btw-kasticket (door het kassasysteem gegenereerd); j. doorlopend ticketnummer uit een ononderbroken reeks (door het kassasysteem gegenereerd conform artikel 13 van dit besluit); k. geregistreerde handelingen of productlijnen; deze bevatten: - aantal, omschrijving, totale lijnprijs, btw-tariefcode;
-- de toegepaste prijswijzigingen en meldingen; l. het totaal verschuldigde ticketbedrag, inclusief btw; m. maatstaf van heffing per toepasselijk btw-tarief, zoals berekend door de FDM; n. het bedrag van de verschuldigde btw, per toepasselijk btw-tarief, zoals berekend door de FDM; niet in de productlijnen vermelde prijsaanpassing; o. de controlegegevens aangemaakt en doorgestuurd door de FDM. Deze worden leesbaar afgedrukt; p. de toepasselijke betaallijnen met inbegrip van eventuele afrondingen, fooien en andere (terug-)betalingen; q. de QR-code, die de URL bevat zoals meegegeven door de FDM.
-
-##### Onderafdeling 5. - De rapporten
-
-###### Art. 21
-Overeenkomstig artikel 2, punt 5, van het hierboven vermelde koninklijk besluit van 30 december 2009, is de belastingplichtige die gebruik maakt van een geregistreerd kassasysteem, verplicht een dagelijks omzet rapport en een dagelijks gebruikersrapport op te maken (Z-rapporten).
-Bovendien moet het mogelijk zijn om, ter uitvoering van artikel 2, punt 3, van het koninklijk besluit van 30 december 2009, zogenaamde tussenrapporten (X-rapporten) te genereren. Deze rapporten zijn een samenvatting van de registraties in het kassasysteem met betrekking tot de omzet en alle andere ingebrachte gegevens voor de huidige openingsperiode, sinds het laatste voorafgaande omzetrapport tot het ogenblik van aanmaak van het tussenrapport.
-Deze rapporten bevatten gegevens afkomstig van zowel het kassasysteem als de FDM.
-
-###### Art. 22
-Het kassasysteem mag, bijkomend, voorzien in andere rapporten, ter ondersteuning van het dagelijks beheer van de onderneming. Deze rapporten moeten volledig in overeenstemming zijn met de inhoud van de verplichte Z-rapporten. Hiermee worden onder meer periodieke omzetrapporten per artikel/artikelgroep/uitbating en periodieke gebruikersrapporten bedoeld.
-Indien voor een openingsperiode geen of slechts één van beide verplichte Z rapporten werd aangemaakt, dient het kassasysteem bij het aanmaken van het eerstvolgende rapport (ongeacht of het een X of een Z rapport betreft) voor de daaropvolgende openingsperiode eerst alle ontbrekende Z rapporten aan te maken, die de data bevatten met betrekking tot de voorgaande openingsperiode(s).
-Het kassasysteem mag voorzien zijn van een functionaliteit voor het automatisch aanmaken van deze rapporten. De Z-rapporten dienen steeds duidelijk te vermelden op welke periode zij betrekking hebben.
-
-    - MB 29.04.2024 / 11 -
-FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
-
-###### Art. 23
-Een Z-rapport `omzet' wordt fiscaal gelijkgesteld met een digitaal gehouden dagboek van ontvangsten.
-
-###### Art. 24
-Indien een kassasysteem omwille van veiligheidsredenen of load balancing gebruik maakt van meerdere FDM's, dan dienen de rapporten de gecumuleerde gegevens van alle eraan gekoppelde FDM's te bevatten.
-
-###### Art. 25
-Indien bij een kassasysteem dat bestaat uit meerdere terminals één of meerdere terminals niet kunnen benaderd worden bij het nemen van het Z-rapport, dan dient zo snel mogelijk een bijkomend rapport aangemaakt te worden dat ENKEL de gegevens bevat die ontbraken op het oorspronkelijke rapport.
-
-###### Art. 26
-Z-rapporten `omzet' en `gebruikers' worden na ondertekening door de FDM en met inbegrip van de handtekening in een JSON-bestand bewaard op het kassasysteem en moeten op eenvoudige wijze onmiddellijk kunnen voorgelegd worden op verzoek van de ambtenaren van de FOD Financiën.
-
-###### Art. 27
-Een Z- en X-rapport hebben exact dezelfde inhoud, met dien verstande dat het Z-rapport bijkomend een doorlopende nummering bevat.
-
-###### Art. 28
-Het event Report resulteert ALTIJD in de aanmaak van een bestand, MAAR moet ook op eenvoudige wijze afgedrukt kunnen worden door de uitbater, hetzij op papier, hetzij op digitale wijze.
-
-###### Art. 29
-Het rapport `omzet' moet, naast haar benaming 'X OMZET' of `Z OMZET' bovenaan in hoofdletters, voor de betrokken openingsperiode minstens de volgende gegevens bevatten: a. de naam of maatschappelijke benaming van de belastingplichtige onderneming; b. het in artikel 50 van het Btw-Wetboek bedoelde identificatienummer van de in a. vermelde onderneming (btw-nummer); c. het vestigingsnummer (KBO) van de uitbating waar het GKS staat opgesteld en waarop dit rapport betrekking heeft; d. de datum en tijdstip van aanmaak; e. de identificatie van de kassa('s) waarop het rapport betrekking heeft; f. het productienummer van de FDM en de referenties van het eerste en het laatste event opgenomen in de FDM's waarvan gegevens in het rapport zijn opgenomen; g. de boekingsdatum waarop het rapport betrekking heeft; h. datum en uur van start en einde van de openingsperiode; i. het totaalbedrag gerealiseerde omzet van het eventlabel N (incl. btw);
-
-    - MB 29.04.2024 / 12 -
-FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
-
-j. het totaalbedrag v gerealiseerde omzet van het eventlabel N (incl. btw) voor de verschillende hoofdgroepen/departementen, indien deze gebruikt worden; k. het totaalbedrag van de maatstaf van heffing, per toepasselijk btw-tarief, voor het eventlabel N; l. het btw-bedrag, per toepasselijk btw-tarief, voor het eventlabel N; m. het totaalbedrag van de gerealiseerde omzet voor het eventlabel N (incl. btw), uitgesplitst per toepasselijk btw-tarief (som van bedragen in k. en l.); n. totaalbedrag van de geregistreerde betalingen, uitgesplitst volgens de gebruikte en geregistreerde betaalmiddelen; o. het totaalbedrag van de afrondingen, zoals geregistreerd bij de betaallijnen; p. het aantal uitgereikte btw-kastickets (eventlabel N); q. het aantal openingen van de geldlade(s) zonder registratie van een handeling; r. het aantal aangemaakte trainingtickets en hun totaalbedrag (incl. btw) (eventlabel T); s. het aantal aangemaakte terugnametickets en hun totaalbedrag (incl. btw); t. het aantal aangemaakte pro forma tickets en hun totaalbedrag (incl. btw) (eventlabel P); u. het aantal toegestane kortingen en toeslagen en hun totaalbedrag (incl. btw), uitgesplitst per soort; v. overzicht van de bedragen (inclusief btw) van functionaliteiten, zoals correcties, terugnames, annuleringen van lijnen, enz., andere dan in punt u, die het totaalbedrag van de omzet hebben doen afnemen, ongeacht het eventlabel waarin ze origineel werden geboekt (eventlabel P of N), uitgesplitst per soort; w. de nummers en bedragen (incl. btw) van de aangemaakte facturen conform artikel 31; x. de vermelding van de referentie van het eerste en laatste erin opgenomen event. y. enkel voor Z-rapport: een doorlopende nummering uit een ononderbroken reeks.
-
-###### Art. 30
-Het rapport 'gebruikers' moet, naast haar benaming 'X GEBRUIKERS' of `Z GEBRUIKERS' bovenaan in hoofdletters, minstens de volgende gegevens bevatten: a. de naam of maatschappelijke benaming van de belastingplichtige onderneming; b. het in artikel 50 van het Btw-Wetboek bedoelde identificatienummer van de in a. vermelde onderneming (btw-nummer); c. het vestigingsnummer (KBO) van de uitbating waar het GKS staat opgesteld en waarop dit rapport betrekking heeft; d. de datum en tijdstip van aanmaak; e. de identificatie van de kassa('s) waarop het rapport betrekking heeft; f. per gebruiker: zijn gebruikersnaam en INSZ-nummer; g. per gebruiker: het totale gerealiseerde omzetbedrag (incl. btw), berekend zoals in i. voor het rapport `omzet'; h. per gebruiker: de toestand van de inhoud van de geldlade op het einde van betrokken periode, indien deze functie wordt gebruikt, uitgesplitst volgens de gebruikte en geregistreerde betaalmiddelen; i. per gebruiker: het tijdstip van aan- en uitloggen op het kassasysteem, zoals via het event Social geregistreerd en doorgegeven aan de FDM, voor zover de uitbater hiervan gebruik wenst te maken; j. per gebruiker: het tijdstip van het eerst aangemaakte event en het tijdstip van het laatst aangemaakte event;
-
-    - MB 29.04.2024 / 13 -
-FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
-
-k. de vermelding van de referentie van het eerste en laatste erin opgenomen event; l. enkel voor Z-rapport: een doorlopende nummering uit een ononderbroken reeks.
-
-##### Onderafdeling 6. - Facturen aangemaakt met het kassasysteem
-
-###### Art. 31
-Het kassasysteem kan bijkomend voorzien in de mogelijkheid om facturen uit te reiken. Deze factuur dient als event Invoice te worden verzonden naar FDM. Een factuur kan pas aangemaakt worden nadat een btwkasticket (event N) is aangemaakt.
-Indien deze modaliteit is voorzien op het kassasysteem, dan maakt deze integraal deel uit van de certificatieprocedure, ongeacht het formaat of de vorm van deze factuur.
-
-###### Art. 32
-Het event Invoice resulteert ALTIJD in de afdruk (op papier, digitaal of beide).
-De uitgereikte factuur moet, naast de vermelding `FACTUUR' in de hoofding, minstens volgende gegevens bevatten: - alle verplichte vermeldingen van artikel 5 van het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde te bevatten (waaronder heel specifiek naam, adres en btw-identificatienummer van de klant);
-- een aparte doorlopende nummering voor alle facturen uitgereikt met het kassasysteem, in combinatie met het doorlopende eventnummer;
-- een verwijzing naar de nummers van de oorspronkelijke btw-kastickets;
-- alle productlijnen van de betrokken btw-kastickets;
-- de controlegegevens van de communicatie met FDM.
-
-###### Art. 33
-Alle gegevens van de aangemaakte facturen moeten als een subboek voor uitgaande facturen uit het geregistreerd kassasysteem kunnen worden geëxporteerd.
-
-##### Onderafdeling 7. - Consolidatieregels
-
-###### Art. 34
-Om de leesbaarheid van de afdrukken die aan de klant worden bezorgd te optimaliseren worden consolidaties toegelaten.
-Bij de afdruk mogen positieve en negatieve productlijnen worden geconsolideerd en zelfs de volgorde ervan mag naar inzicht van de kassasoftware aangepast worden.
-
-###### Art. 35
-Deze consolidaties worden nooit toegepast op de inhoud van de berichten die het kassasysteem naar de FDM stuurt. Deze berichten dienen alle ingebrachte gegevens te bevatten, in chronologische volgorde.
-
-    - MB 29.04.2024 / 14 -
-FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
-
-##### Onderafdeling 8. - Afdrukken
-
-###### Art. 36
-Er dient voor de toepassing van dit besluit steeds een duidelijk onderscheid gemaakt worden tussen de volgende begrippen: EVENT << >> AFDRUK << >> BERICHT naar de FDM.
-ELK event resulteert ALTIJD in een bericht naar de FDM, maar niet noodzakelijk in een afdruk.
-
-###### Art. 37
-Het kassasysteem voorziet verplicht in de afdruk van het btw-kasticket, zoals voorzien in het artikel 21bis van het koninklijk besluit nr. 1 tot voldoening van de belasting over de toegevoegde waarde.
-
-###### Art. 38
-Een event Normal geeft ALTIJD aanleiding tot een afdruk.
-Wanneer een event Normal van het type REFUND (artikel 5, 3° ) plaatsvindt, dan dient dit duidelijk met de vermelding REFUND op het ticket te worden vermeld.
-Wanneer het kassasysteem voorziet in een functie voor het afdrukken of genereren van training- en/of pro forma en/of kopietickets, dan moeten deze tickets duidelijk te onderscheiden zijn van het btw-kasticket.
-Hiervoor dient respectievelijk de benaming TRAINING, PRO FORMA of KOPIE duidelijk op het ticket te worden aangebracht.
-Een rekeningoverzicht draagt bijkomend duidelijk leesbaar de vermelding "VOORLOPIGE REKENING".
-Op alle afdrukken die door het kassasysteem worden geproduceerd, ongeacht hun benaming die geen btwkasticket zijn, zoals voorzien in artikel 1, 8°, dient onderaan de volgende tekst in hoofdletters afgedrukt te worden: "DIT IS GEEN GELDIG btw KASTICKET".
-
-##### Onderafdeling 9. - Afronding van betalingen
-
-###### Art. 39
-Het kassasysteem dient te voorzien dat de afrondingsregels worden toegepast van de artikelen VI.7/1 en VI.7/2 van het Wetboek Economisch Recht.
-
-#### Afdeling 2. - Verboden functionaliteiten
-
-###### Art. 40
-Er mag geen hard- of software worden aangesloten op of geïntegreerd zijn in het kassasysteem, die de normale werking van de functies, vermeld in dit ministerieel besluit, beïnvloedt, wijzigt of verstoort. Hiermee wordt ook bedoeld: niet in de handleidingen of andere aan de FOD Financiën voorgelegde documentatie opgenomen kassasoftware of kassaprogramma, dat is geïnstalleerd of functioneert op een kassasysteem.
-
-###### Art. 41
-Wijzigingen aan een reeds ingegeven productlijn, die gebeuren binnen eenzelfde event, moeten steeds duidelijk apart vermeld worden als een extra negatieve of positieve productlijn in de event boodschap naar de FDM, ongeacht of het een event Pro Forma of Normal betreft.
-
-    - MB 29.04.2024 / 15 -
-FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
-
-###### Art. 42
-Een event mag niet meer gewijzigd of verwijderd kunnen worden éénmaal de registratie ervan naar de FDM doorgestuurd werd.
-Correcties aan een afgesloten event mogen enkel gebeuren mits aanmaak van een nieuw bijkomend event.
-
-###### Art. 43
-Een kassasysteem mag geen mogelijkheid hebben om een btw-kasticket (event Normal) af te drukken vooraleer de handeling gefinaliseerd wordt. Dit betekent dat een afdruk niet mogelijk mag zijn zonder dat het kassasysteem van de FDM een handtekening heeft ontvangen.
-Op afdrukken, andere dan een btw-kasticket, wordt de ontvangen digitale handtekening niet vermeld.
-
-###### Art. 44
-Een kassasysteem mag geen functie hebben die het mogelijk maakt om voorgeprogrammeerde instellingen (omschrijving, eenheid, prijs, btw-tarief, ...) van artikelen en diensten tussen de input van de handeling en de finalisatie ervan in het btw-kasticket zodanig te wijzigen dat ook de oorspronkelijke (reeds door de FDM getekende) registraties worden aangepast.
-
-###### Art. 45
-Een kassasysteem mag geen mogelijkheid bieden om de instellingen (parameters), op welke wijze ook, zo aan te passen dat de verboden functionaliteiten toch mogelijk worden.
-
 #### Afdeling 3. - Identificatie van het kassasysteem
 
-Artikel 46. Elk kassasysteem moet voorzien zijn van een modelaanduiding en een productienummer. Dit productienummer moet een uniek nummer zijn waarmee zowel het kassasysteem als de producent ervan éénduidig wordt geïdentificeerd. Het productienummer wordt als volgt opgebouwd: CXXXNNNPPPPPP waarbij: - CXXX = identificatienummer producent van een kassasysteem (op aanvraag verstrekt door de administratie);
+###### Art. 46
+
+Elk kassasysteem moet voorzien zijn van een modelaanduiding en een productienummer. Dit productienummer moet een uniek nummer zijn waarmee zowel het kassasysteem als de producent ervan éénduidig wordt geïdentificeerd. Het productienummer wordt als volgt opgebouwd: CXXXNNNPPPPPP waarbij: - CXXX = identificatienummer producent van een kassasysteem (op aanvraag verstrekt door de administratie);
 - NNN = volgnummer, door de administratie toegekend aan het model;
 - PPPPPPP = alfanumeriek uniek productienummer (gebaseerd op serienummer of licentiesleutel).
 Dit unieke productienummer moet op elk opgesteld kassasysteem duidelijk zichtbaar zijn of op eenvoudige manier raadpleegbaar zijn (procedure voor te leggen door de producent).
@@ -471,7 +167,9 @@ De FDM moet berichten van het kassasysteem kunnen ontvangen, valideren en beantw
 
 ##### Onderafdeling 1. - Tellers
 
-Artikel 64. De FDM bevat minimaal volgende tellers, die bij ondertekening van de inhoud van de betreffende events worden geüpdatet: - aantal events Normal;
+###### Art. 64
+
+De FDM bevat minimaal volgende tellers, die bij ondertekening van de inhoud van de betreffende events worden geüpdatet: - aantal events Normal;
 - aantal events Pro Forma;
 - aantal events Invoice;
 - aantal events Financial;
@@ -976,6 +674,8 @@ FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 
 
 ## TITEL V. - SLOTBEPALINGEN
 
-Artikel 132. Dit besluit vervangt Circulaire AAFisc Nr. 33/2016 (E.T. 124.747) van 8 november 2016 (Belgisch Staatsblad 16 januari 2017).
+###### Art. 132
+
+Dit besluit vervangt Circulaire AAFisc Nr. 33/2016 (E.T. 124.747) van 8 november 2016 (Belgisch Staatsblad 16 januari 2017).
 
     - MB 29.04.2024 / 37 -

@@ -1,0 +1,114 @@
+---
+tags: ["VI.C", "2.4"]
+itaa-lex-sectie: "VI.C"
+wet: "M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "28.10.2009"
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy:
+provenance:
+  inputs:
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
+      sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
+      version: 29.04.2024
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    model:
+    prompt_version:
+  generated_at: '2026-05-09T16:15:20Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 5
+      max_section_chars: 1371
+      file_size_chars: 2461
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: needs-rework
+      rationale: "0 ##-headings; bovendien staat 'Bijlage 1/2/3' als lege placeholders aan het eind — modellen zelf ontbreken in tekst."
+      problemen:
+        - regel: 0
+          type: missing-section
+          voorbeeld: 'geen ##-Art. headings'
+        - regel: -1
+          type: missing-section
+          voorbeeld: Bijlage 1/2/3 als lege regels — modellen niet geëxtraheerd
+      sterkte:
+        - Lichaam van het MB (tekstuele artikelen) aanwezig
+      auto: false
+      run_id: qa-batch-W4
+---
+
+# M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992
+
+*Bijgewerkt tot en met 28.10.2009 — gecoördineerde versie.*
+
+Ministerieel besluit, van 28 oktober 2009, tot bepaling van het model der
+berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies
+van het Wetboek van de belasting over de toegevoegde waarde en in de
+artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992
+Uitvoering van de artikelen 93ter en 93quinquies van het Btw-Wetboek.
+Officieuze coördinatie
+
+       Dit ministerieel besluit werd opgeheven met ingang van 06.07.2020 bij:
+       22 JUNI 2020 - Koninklijk besluit tot uitvoering van de artikelen 93ter tot 93quinquies van het
+       wetboek van de belasting over de toegevoegde waarde, de artikelen 412bis, 433 tot 435 van het
+       wetboek van de inkomstenbelastingen 1992, de artikelen 35 tot 37, 43 tot 45 en 47 van het
+       wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen
+       en de artikelen 157 tot 159 en 161 van de programmawet (i) van 29 maart 2012, inzake het e-
+       notariaat (B.S. 26.06.2020, pg. 47298, Numac : 2019041722)
+
+## Art. 1
+
+De berichten bedoeld in de artikelen 93ter van het BTW-Wetboek en 433 WIB 92 worden opgemaakt
+overeenkomstig het model dat voorkomt in bijlage 1 bij dit besluit.
+
+## Art. 2
+
+De berichten bedoeld in de artikelen 93ter van het BTW-Wetboek en 433 WIB 92 en die een schip of een
+vaartuig tot voorwerp hebben worden opgemaakt overeenkomstig het model dat voorkomt in bijlage 2 bij dit
+besluit.
+
+## Art. 3
+
+De kennisgevingen bedoeld in de artikelen 93quinquies van het BTW-Wetboek en 435 WIB 92 worden
+opgemaakt overeenkomstig het model dat voorkomt in bijlage 3 bij dit besluit.
+
+## Art. 4
+
+Het ministerieel besluit van 26 februari 2007 tot bepaling van het model der berichten en kennisgevingen als
+bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde
+en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992 wordt opgeheven.
+
+## Art. 5
+
+Dit besluit treedt in werking op 15 november 2009.
+
+                             Bijlage 1
+
+                             Bijlage 2
+
+                             Bijlage 3

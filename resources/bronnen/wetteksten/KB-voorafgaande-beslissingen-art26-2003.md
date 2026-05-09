@@ -2,9 +2,14 @@
 tags: ["I"]
 itaa-lex-sectie: "I"
 wet: "K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "30.01.2003"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art26-2003.pdf
@@ -12,27 +17,52 @@ provenance:
       version: 30.01.2003
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:31Z'
+  generated_at: '2026-05-09T16:15:15Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 2
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 10
+      max_section_chars: 3589
+      file_size_chars: 6384
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: Korte KB (7.3KB), 10 artikelen op H2, schoon NL. Bij Art. 5 een minor heading-injectie quirk ('Art. 5.De / voorafgaande beslissingen...') maar leesbaarheid intact.
+      problemen:
+        - regel: 61
+          type: other
+          voorbeeld: "## Art. 5.De / voorafgaande beslissingen — newline-split na 'De'"
+      sterkte:
+        - Compleet
+        - Wijzigingsbrackets behouden
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # K.B. 30 januari 2003 — Uitvoering artikel 26 (voorafgaande beslissingen)
 
-*Bijgewerkt tot en met 30.01.2003 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
+*Bijgewerkt tot en met 30.01.2003 — gecoördineerde versie.*
 
 Titel
 

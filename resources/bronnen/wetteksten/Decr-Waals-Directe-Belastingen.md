@@ -24,10 +24,45 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+    layer1:
+      verdict: warn
+      heading_count: 183
+      max_section_chars: 31064
+      file_size_chars: 330525
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op #####-niveau: 31064 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: needs-rework
+      rationale: Decreet inhoudelijk compleet (139 artikelen), maar heading-injectie produceert artefacten zoals '##### Art. 2.De' (split tussen art-nummer en eerste woord van body). Eerste 'Artikel 1' staat als plain text i.p.v. heading. Gemixed pattern remains across body. Warn op max_section_size suggereert chunks die te groot worden door deze inconsistentie.
+      problemen:
+        - regel: 49
+          type: other
+          voorbeeld: Artikel 1.[1 Dit decreet ... — 'Artikel 1' staat als plain paragraph, geen heading
+        - regel: 52
+          type: other
+          voorbeeld: "##### Art. 2.De / Regering wijst — newline-split tussen 'De' en 'Regering'"
+        - regel: 45
+          type: other
+          voorbeeld: "'2 de wijzigingen aangebracht bij DWG ... maken deel van een herstructurering van het huidig HOOFDSTUK II' staat in body terwijl '## HOOFDSTUK I' direct daarna komt — TOC-residu"
+      sterkte:
+        - 139 artikelen aanwezig
+        - Wijzigingsbrackets behouden
+      auto: false
+      run_id: qa-batch-W1
 chunk:
   level: 5
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
 ---
 
 # Decreet Waalse gewestelijke belastingen

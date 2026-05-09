@@ -24,10 +24,53 @@ provenance:
     confirmed_at:
     confirmed_by: default
     rationale:
+    layer1:
+      verdict: warn
+      heading_count: 394
+      max_section_chars: 57678
+      file_size_chars: 470801
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op #####-niveau: 57678 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+        - name: no_toc_dots
+          status: warn
+          detail: 24 TOC-stippen-regel(s) gevonden
+          samples:
+            - "....................................................... 81\n"
+            - '................................................................................'
+            - '................................................................................'
+        - name: no_column_bleed
+          status: warn
+          detail: 2 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
+          samples:
+            - 'regel 950: Gedeelte van het netto-aandeel                                         Rechte lijn – tussen echtgenoten tussen wettelijk'
+            - 'regel 1514: Tabel met betrekking tot het preferentiele tarief voor de netto-aandelen in woningen Schijf van het netto-aandeel       '
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: needs-rework
+      rationale: Zelfde driedubbele titel-herhaling als Brussel, 24 TOC-stippen, 2 kolom-bleed-patronen, max-section 57k. 73 '(…)'-placeholders.
+      problemen:
+        - 3x herhaalde titel
+        - 24 TOC-stippen-regels
+        - 2 kolom-bleed buiten tabellen
+        - max_section_size 57678 chars
+      sterkte:
+        - 315 Art.-headings
+        - consistent met Brussel-variant
+      auto: false
+      run_id: qa-batch-W2
 chunk:
   level: 5
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
 ---
 
 # Successierechten — Waals Gewest

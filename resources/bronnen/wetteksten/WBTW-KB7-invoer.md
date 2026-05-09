@@ -2,37 +2,70 @@
 tags: ["VI.B", "2.4"]
 itaa-lex-sectie: "VI.B"
 wet: "K.B. nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "29.12.1992"
-bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
-provenance:
-  inputs:
-    - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
-      sha256: 63ccf3d1b29dd477e24c41deee6a1febe0c3449e4d69013291697d1aa7a0a4d1
-      version: 29.12.1992
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:33Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
 chunk:
   level: 4
   type: "Art."
-  sub_strategy: null
+  sub_strategy:
+provenance:
+  inputs:
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    model:
+    prompt_version:
+  generated_at: '2026-05-09T16:15:18Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 69
+      max_section_chars: 9795
+      file_size_chars: 113124
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: needs-rework
+      rationale: 'Frontmatter zet chunk.level=4 maar het bestand bevat geen ####-headings; alle artikelen staan als plaintext binnen ##/###-secties. Inhoud is leesbaar en compleet, maar zonder per-artikel-anker is een hele sectie van 115725 chars de chunk-eenheid (max_section_chars warn).'
+      problemen:
+        - regel: 50
+          type: missing-section
+          voorbeeld: Per-artikel headings (Art. 1, Art. 2, ...) ontbreken; alleen HOOFDSTUK-niveau.
+        - regel: 0
+          type: other
+          voorbeeld: 'chunk.level=4 mismatch met heading-structuur (geen #### in body)'
+      sterkte:
+        - Hoofdstuk- en afdelingsstructuur netjes ingedeeld
+        - Inhoudelijke tekst leesbaar, geen scrambled words
+      auto: false
+      run_id: qa-batch-W4
 ---
 
 # K.B. nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde
 
-*Bijgewerkt tot en met 29.12.1992 — afgesplitst uit de Fisconet-compilatie van 06.03.2020.*
+*Bijgewerkt tot en met 29.12.1992 — gecoördineerde versie.*
 
 Koninklijk besluit nr. 7, van 29 december 1992, met betrekking tot de invoer
 van goederen voor de toepassing van de belasting over de toegevoegde
@@ -44,48 +77,35 @@ waarde.
 Laatstelijk gewijzigd, met ingang van 05.12.2019 (KB 07.11.2019, B.S. 25.11.2019,
 pg. 108072)
 
-    Inhoudstafel
+### Afdeling 2:      Vrijstelling ingesteld bij artikel 40, § 1, 1°, b, van het Wetboek. (art. 12 –
+                    art. 37)
 
-## HOOFDSTUK I: VOORWAARDEN WAARONDER DE GOEDEREN OP HET GRONDGEBIED VAN
-    HET RIJK MOGEN WORDEN GEBRACHT. (art. 1 – art. 3)
+### Afdeling 3:      Vrijstelling ingesteld bij artikel 40, § 1, 1°, c, § 2, 1°, b, en 2°, b, van het
+                    Wetboek. (art. 38)
 
-## HOOFDSTUK II: PLAATS VAN BESTEMMING.
+### Afdeling 4:      Vrijstelling ingesteld bij artikel 40, § 1, 1°, d, van het Wetboek. (art. 39)
 
-## HOOFDSTUK III: VOLDOENING VAN DE BELASTING TER ZAKE VAN INVOER. (art. 5 – art. 10)
+### Afdeling 5:      Vrijstelling ingesteld bij artikel 40, § 1, 2°, van het Wetboek. (art. 40 –
+                    art. 41)
 
-## HOOFDSTUK IV: VRIJSTELLING BIJ INVOER. (art. 11 – art. 44)
+### Afdeling 6:      Vrijstelling ingesteld bij artikel 40, § 2, van het Wetboek. (art. 42)
 
-### Afdeling 1: Vrijstelling ingesteld bij artikel 40, § 1, 1°, a, van het Wetboek. (art. 11)
+### Afdeling 7:      Vrijstelling ingesteld bij artikel 40, § 4, van het Wetboek. (art. 43 – art. 44)
 
-### Afdeling 2: Vrijstelling ingesteld bij artikel 40, § 1, 1°, b, van het Wetboek. (art. 12 –
-    art. 37)
+## HOOFDSTUK V — VOORZIENING OM DE INVORDERING VAN DE BELASTING TE VERZEKEREN
+                    (art. 45)
 
-### Afdeling 3: Vrijstelling ingesteld bij artikel 40, § 1, 1°, c, § 2, 1°, b, en 2°, b, van het
-    Wetboek. (art. 38)
-
-### Afdeling 4: Vrijstelling ingesteld bij artikel 40, § 1, 1°, d, van het Wetboek. (art. 39)
-
-### Afdeling 5: Vrijstelling ingesteld bij artikel 40, § 1, 2°, van het Wetboek. (art. 40 –
-    art. 41)
-
-### Afdeling 6: Vrijstelling ingesteld bij artikel 40, § 2, van het Wetboek. (art. 42)
-
-### Afdeling 7: Vrijstelling ingesteld bij artikel 40, § 4, van het Wetboek. (art. 43 – art. 44)
-
-## HOOFDSTUK V: VOORZIENING OM DE INVORDERING VAN DE BELASTING TE VERZEKEREN.
-    (art. 45)
-
-## HOOFDSTUK VI: OPHEFFINGSBEPALING EN INWERKINGTREDING. (art. 46 – art. 48)
+## HOOFDSTUK VI:       OPHEFFINGSBEPALING EN INWERKINGTREDING. (art. 46 – art. 48)
 
 Bijlage: Materiaal bedoeld in artikel 36, 21°, van het besluit
 
 ## HOOFDSTUK I
-    Voorwaarden waaronder de goederen op het grondgebied van het
-    Rijk mogen worden gebracht.
+        Voorwaarden waaronder de goederen op het grondgebied van het
+                                   Rijk mogen worden gebracht.
 
 #### Art. 1
 
-(De tekst van KB nr. 7, artikel 1, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   7,    artikel   1,   is   van   toepassing   met    ingang     van    01.01.1993
 (KB 29.12.1992))
 
 Voor de goederen die België binnenkomen en die niet voldoen aan de voorwaarden van de
@@ -131,7 +151,7 @@ De overeenkomstig artikel 23 van het Wetboek in België ingevoerde goederen moet
 verbruik worden aangegeven.
 
 ## HOOFDSTUK II
-    Plaats van bestemming.
+                                 Plaats van bestemming.
 
 #### Art. 4
 (De tekst van KB nr. 7, artikel 4, is van toepassing met ingang van 01.01.1996 (Art.16,
@@ -146,7 +166,7 @@ Bij gebrek aan een dergelijke vermelding wordt de eerste plaats van bestemming g
 plaats te zijn waar de eerste overlading van goederen in België geschiedt.
 
 ## HOOFDSTUK III
-    Voldoening van de belasting ter zake van invoer.
+                    Voldoening van de belasting ter zake van invoer.
 
 #### Art. 5
 
@@ -181,31 +201,31 @@ belasting niet voldoen volgens de wijze als voorzien in de paragrafen 1 en 2.
 § 4. De in paragraaf 3, eerste lid, bedoelde vergunning wordt alleen verleend als voldaan is
 aan alle hiernavolgende voorwaarden:
 
-1° de belastingplichtigen moeten een invoer hebben verricht of moeten kunnen aantonen dat
-    in de toekomst het geval zal zijn;
+1°    de belastingplichtigen moeten een invoer hebben verricht of moeten kunnen aantonen dat
+      in de toekomst het geval zal zijn;
 
-2° zij hebben alle periodieke aangiften bedoeld in artikel 53, § 1, eerste lid, 2°, van het
-    Wetboek ingediend met betrekking tot de handelingen die zij hebben verricht sinds de
-    vier kalenderkwartalen die voorafgaan aan de vergunningaanvraag en hebben de
-    belasting voldaan waarvan de opeisbaarheid blijkt uit die aangiften;
+2°    zij hebben alle periodieke aangiften bedoeld in artikel 53, § 1, eerste lid, 2°, van het
+      Wetboek ingediend met betrekking tot de handelingen die zij hebben verricht sinds de
+      vier kalenderkwartalen die voorafgaan aan de vergunningaanvraag en hebben de
+      belasting voldaan waarvan de opeisbaarheid blijkt uit die aangiften;
 
-3° zij hebben geen belastingschuld voortvloeiend uit overtredingen inzake de belasting over
-    de toegevoegde waarde die een schuldvordering vormt in het voordeel van de
-    administratie belast met de belasting over de toegevoegde waarde die geheel of
-    gedeeltelijk zeker, opeisbaar en vaststaand is.
+3°    zij hebben geen belastingschuld voortvloeiend uit overtredingen inzake de belasting over
+      de toegevoegde waarde die een schuldvordering vormt in het voordeel van de
+      administratie belast met de belasting over de toegevoegde waarde die geheel of
+      gedeeltelijk zeker, opeisbaar en vaststaand is.
 
 De in paragraaf 3, tweede lid, bedoelde vergunning wordt alleen verleend als voldaan is aan alle
 hiernavolgende voorwaarden:
 
-1° de vooraf erkende personen hebben alle periodieke aangiften bedoeld in artikel 53, § 1,
-    eerste lid, 2°, van het Wetboek ingediend met betrekking tot de handelingen die hun
-    lastgevers hebben verricht sinds de vier kalenderkwartalen die voorafgaan aan de
-    vergunningaanvraag en hebben de belasting voldaan waarvan de opeisbaarheid blijkt uit
-    die aangiften;
-2° zij zijn met hun lastgevers, in de zin van artikel 55, § 4, tweede lid, van het Wetboek,
-    niet gehouden tot betaling van een belastingschuld voortvloeiend uit overtredingen inzake
-    de belasting over de toegevoegde waarde die een schuldvordering vormt in het voordeel
-    van de administratie die geheel of gedeeltelijk zeker, opeisbaar en vaststaand is.
+1°    de vooraf erkende personen hebben alle periodieke aangiften bedoeld in artikel 53, § 1,
+      eerste lid, 2°, van het Wetboek ingediend met betrekking tot de handelingen die hun
+      lastgevers hebben verricht sinds de vier kalenderkwartalen die voorafgaan aan de
+      vergunningaanvraag en hebben de belasting voldaan waarvan de opeisbaarheid blijkt uit
+      die aangiften;
+2°    zij zijn met hun lastgevers, in de zin van artikel 55, § 4, tweede lid, van het Wetboek,
+      niet gehouden tot betaling van een belastingschuld voortvloeiend uit overtredingen inzake
+      de belasting over de toegevoegde waarde die een schuldvordering vormt in het voordeel
+      van de administratie die geheel of gedeeltelijk zeker, opeisbaar en vaststaand is.
 
 § 5. De in paragraaf 3 bedoelde vergunning moet schriftelijk worden aangevraagd. Binnen een
 termijn van één maand te rekenen vanaf de datum van de aanvraag wordt de vergunning
@@ -265,12 +285,12 @@ belastingplichtige die de in artikel 53, § 1, eerste lid, 2°, van het Wetboek 
 aangifte indient eveneens als geadresseerde optreden indien de goederen hem worden
 toegezonden, hetzij:
 
-1° op zicht, op proef of in consignatie, op voorwaarde dat hij de ingevoerde goederen
-    achteraf koopt of, zo niet, ze wederuitvoert buiten de Gemeenschap;
+1°    op zicht, op proef of in consignatie, op voorwaarde dat hij de ingevoerde goederen
+      achteraf koopt of, zo niet, ze wederuitvoert buiten de Gemeenschap;
 
-2° om te worden hersteld, bewerkt, verwerkt of aangepast, op voorwaarde dat hij de
-    goederen wederuitvoert buiten de Gemeenschap, hij ze vernietigt of dat ze hem worden
-    overgedragen.
+2°    om te worden hersteld, bewerkt, verwerkt of aangepast, op voorwaarde dat hij de
+      goederen wederuitvoert buiten de Gemeenschap, hij ze vernietigt of dat ze hem worden
+      overgedragen.
 
 Door of vanwege de Minister van Financiën worden de regelen bepaald met betrekking tot de
 regularisatie die moet plaatsvinden wanneer de bij deze paragraaf gestelde voorwaarden niet
@@ -283,14 +303,14 @@ KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 § 1. Onder voorbehoud van het bepaalde in § 2, wordt de bij invoer verschuldigde belasting
 betaald:
 
-- door storting of overschrijving op de postrekening van het enig kantoor der douane en
-    accijnzen;
+-     door storting of overschrijving op de postrekening van het enig kantoor der douane en
+      accijnzen;
 
 of
 
-- door betaling in speciën of met andere daarmee gelijkgestelde betaalmiddelen op het
-    door de Algemene Administratie van de Douane en Accijnzen aangeduide hulpkantoor van
-    dat enig kantoor.
+-     door betaling in speciën of met andere daarmee gelijkgestelde betaalmiddelen op het
+      door de Algemene Administratie van de Douane en Accijnzen aangeduide hulpkantoor van
+      dat enig kantoor.
 
 De voldoening van de belasting wordt vastgesteld door op het bij artikel 9 voorgeschreven
 document een vermelding aan te brengen met het elektronisch systeem PLDA dat de
@@ -307,14 +327,14 @@ KB 13.06.2013, B.S. 24.06.2013, pg. 40184))
 § 1. Zijn hoofdelijk gehouden tot de voldoening van de belasting met de in artikel 6 bedoelde
 geadresseerde:
 
-1° de aangever, met name de persoon die in eigen naam of in naam van een andere persoon
-    goederen aangeeft voor het verbruik of voor één van de regelingen bedoeld in artikel 23,
-    §§ 4 en 5, van het Wetboek;
+1°    de aangever, met name de persoon die in eigen naam of in naam van een andere persoon
+      goederen aangeeft voor het verbruik of voor één van de regelingen bedoeld in artikel 23,
+      §§ 4 en 5, van het Wetboek;
 
-2° de lastgever van de onder 1° bedoelde aangever;
+2°    de lastgever van de onder 1° bedoelde aangever;
 
-3° ieder ander persoon gehouden tot de voldoening van de invoerrechten, ook al zijn de
-    goederen om welke reden dan ook niet aan invoerrechten onderworpen.
+3°    ieder ander persoon gehouden tot de voldoening van de invoerrechten, ook al zijn de
+      goederen om welke reden dan ook niet aan invoerrechten onderworpen.
 
 Wanneer de belasting moet worden voldaan op de wijze aangeduid in artikel 7, § 2, is evenwel
 alleen de persoon die de goederen heeft aangegeven voor het extern douanevervoer of het
@@ -355,7 +375,7 @@ tegen een lager tarief wordt geregeld.
 
 #### Art. 10
 
-(De tekst van KB nr. 7, artikel 10, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   7,   artikel    10,   is   van   toepassing    met   ingang     van    01.01.1993
 (KB 29.12.1992))
 
 Ten einde de formaliteiten te vereenvoudigen, kan door of vanwege de Minister van Financiën
@@ -363,14 +383,14 @@ worden afgeweken van de voorschriften van de artikelen 7 en 9; in dat geval word
 gegeven om de voldoening van de belasting te verzekeren.
 
 ## HOOFDSTUK IV
-    Vrijstelling bij invoer.
+                                      Vrijstelling bij invoer.
 
 ### AFDELING 1
-    Vrijstelling ingesteld bij artikel 40, § 1, 1°, a, van het Wetboek.
+          Vrijstelling ingesteld bij artikel 40, § 1, 1°, a, van het Wetboek.
 
 #### Art. 11
 
-(De tekst van KB nr. 7, artikel 11, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   7,   artikel    11,   is   van   toepassing    met   ingang     van    01.01.1993
 (KB 29.12.1992))
 
 Vrijstelling van de belasting wordt verleend voor de invoer van goederen waarvan de levering
@@ -385,7 +405,7 @@ Door of vanwege de Minister van Financiën worden de toepassingsmodaliteiten van
 bepaald.
 
 ### AFDELING 2
-    Vrijstelling ingesteld bij artikel 40, § 1, 1°, b, van het Wetboek.
+          Vrijstelling ingesteld bij artikel 40, § 1, 1°, b, van het Wetboek.
 
 #### Art. 12
 
@@ -395,53 +415,53 @@ KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 § 1. De invoer van in artikel 40, § 1, 1°, b), van het Wetboek bedoelde goederen is van de
 belasting vrijgesteld in de gevallen en onder de voorwaarden bepaald in deze afdeling.
 
-§ 2. Voor de toepassing van de bepalingen van deze afdeling moet worden verstaan onder:
+§ 2.   Voor de toepassing van de bepalingen van deze afdeling moet worden verstaan onder:
 
-1° "normale verblijfplaats", de plaats waar iemand gewoonlijk verblijft, dat wil zeggen
-    gedurende ten minste 185 dagen per kalenderjaar, wegens persoonlijke en
-    beroepsmatige bindingen, of, voor personen zonder beroepsmatige bindingen, wegens
-    persoonlijke bindingen, waaruit nauwe banden tussen hemzelf en de plaats waar hij
-    woont blijken.
+1°     "normale verblijfplaats", de plaats waar iemand gewoonlijk verblijft, dat wil zeggen
+       gedurende ten minste 185 dagen per kalenderjaar, wegens persoonlijke en
+       beroepsmatige bindingen, of, voor personen zonder beroepsmatige bindingen, wegens
+       persoonlijke bindingen, waaruit nauwe banden tussen hemzelf en de plaats waar hij
+       woont blijken.
 
-    De normale verblijfplaats van iemand die zijn beroepsmatige bindingen op een andere
-    plaats heeft dan zijn persoonlijke bindingen en daardoor afwisselend verblijft op
-    verschillende plaatsen gelegen in twee of meer Staten, wordt evenwel geacht zich op
-    dezelfde plaats te bevinden als zijn persoonlijke bindingen, op voorwaarde dat hij daar op
-    geregelde tijden terugkeert. Deze laatste voorwaarde vervalt wanneer de betrokkene in
-    een Staat verblijft voor een opdracht van een bepaalde duur. Het feit dat college wordt
-    gelopen of een school wordt bezocht, houdt niet in dat de normale verblijfplaats wordt
-    verplaatst.
+       De normale verblijfplaats van iemand die zijn beroepsmatige bindingen op een andere
+       plaats heeft dan zijn persoonlijke bindingen en daardoor afwisselend verblijft op
+       verschillende plaatsen gelegen in twee of meer Staten, wordt evenwel geacht zich op
+       dezelfde plaats te bevinden als zijn persoonlijke bindingen, op voorwaarde dat hij daar op
+       geregelde tijden terugkeert. Deze laatste voorwaarde vervalt wanneer de betrokkene in
+       een Staat verblijft voor een opdracht van een bepaalde duur. Het feit dat college wordt
+       gelopen of een school wordt bezocht, houdt niet in dat de normale verblijfplaats wordt
+       verplaatst.
 
-    Het bewijs van de normale verblijfplaats moet met passende middelen, tot voldoening
-    van de administratie, worden aangetoond;
+       Het bewijs van de normale verblijfplaats moet met passende middelen, tot voldoening
+       van de administratie, worden aangetoond;
 
-2° "persoonlijke goederen", goederen die voor het persoonlijk gebruik van de
-    belanghebbenden of voor de behoeften van hun huishouden dienen.
+2°     "persoonlijke goederen", goederen die voor het persoonlijk                  gebruik     van     de
+       belanghebbenden of voor de behoeften van hun huishouden dienen.
 
-    Persoonlijke goederen zijn met name:
-    a) roerende goederen en voorwerpen zoals de persoonlijke voorwerpen, linnengoed,
-    goederen bestemd voor meubilering of uitrusting voor persoonlijk gebruik van de
-    belanghebbenden of voor de behoeften van hun huishouden;
+       Persoonlijke goederen zijn met name:
+       a)    roerende goederen en voorwerpen zoals de persoonlijke voorwerpen, linnengoed,
+             goederen bestemd voor meubilering of uitrusting voor persoonlijk gebruik van de
+             belanghebbenden of voor de behoeften van hun huishouden;
 
-    b) fietsen en motorfietsen, automobielen voor particulier gebruik en aanhangwagens
-    daarvan, kampeerwagens, pleziervaartuigen en sportvliegtuigen.
+       b)    fietsen en motorfietsen, automobielen voor particulier gebruik en aanhangwagens
+             daarvan, kampeerwagens, pleziervaartuigen en sportvliegtuigen.
 
-    Huishoudelijke voorraden die overeenkomen met een normale gezinsbevoorrading, kleine
-    huisdieren en rijdieren zijn eveneens persoonlijke goederen.
+       Huishoudelijke voorraden die overeenkomen met een normale gezinsbevoorrading, kleine
+       huisdieren en rijdieren zijn eveneens persoonlijke goederen.
 
-    Persoonlijke goederen mogen door hun aard of hoeveelheid geen commerciële bedoeling
-    laten blijken en mogen evenmin bestemd zijn voor de uitoefening van een economische
-    activiteit in de zin van artikel 4, § 1 van het Wetboek.
+       Persoonlijke goederen mogen door hun aard of hoeveelheid geen commerciële bedoeling
+       laten blijken en mogen evenmin bestemd zijn voor de uitoefening van een economische
+       activiteit in de zin van artikel 4, § 1 van het Wetboek.
 
-    Draagbare instrumenten voor kunsten en ambachten die de belanghebbende nodig heeft
-    voor de uitoefening van zijn beroep, zijn evenwel ook persoonlijke goederen;
+       Draagbare instrumenten voor kunsten en ambachten die de belanghebbende nodig heeft
+       voor de uitoefening van zijn beroep, zijn evenwel ook persoonlijke goederen;
 
-3° "alcoholische producten", producten die onder de GN-Codes 2203 tot en met 2208 vallen
-    zoals bier, wijn, aperitieven op basis van wijn of alcohol, gedistilleerde dranken, likeuren
-    en andere alcoholhoudende dranken, enz.;
+3°     "alcoholische producten", producten die onder de GN-Codes 2203 tot en met 2208 vallen
+       zoals bier, wijn, aperitieven op basis van wijn of alcohol, gedistilleerde dranken, likeuren
+       en andere alcoholhoudende dranken, enz.;
 
-4° "Gemeenschap", de gebieden van de lidstaten waar Richtlijn 2006/112/EG van toepassing
-    is, als bedoeld in artikel 1, §§ 2 tot en met 5 van het Wetboek.
+4°     "Gemeenschap", de gebieden van de lidstaten waar Richtlijn 2006/112/EG van toepassing
+       is, als bedoeld in artikel 1, §§ 2 tot en met 5 van het Wetboek.
 
 § 3. Door de Minister van Financiën of zijn gemachtigde worden de formaliteiten bepaald
 waaraan moet worden voldaan om de vrijstelling te genieten bedoeld in deze afdeling.
@@ -456,15 +476,16 @@ van de belasting verleend voor de definitieve invoer van persoonlijke goederen d
 natuurlijk persoon die zijn normale verblijfplaats van buiten de Gemeenschap naar een lidstaat
 overbrengt.
 
-§ 2. De vrijstelling is beperkt tot persoonlijke goederen die:
+§ 2.   De vrijstelling is beperkt tot persoonlijke goederen die:
 
-1° behoudens in de door omstandigheden gerechtvaardigde bijzondere gevallen, ten minste
-    zes maanden vóór de datum waarop de belanghebbende zijn normale verblijfplaats buiten
-    de Gemeenschap heeft opgegeven, in zijn bezit zijn geweest en, wanneer het nietverbruikbare goederen betreft, door hem in zijn vroegere normale verblijfplaats zijn
-    gebruikt;
+1°     behoudens in de door omstandigheden gerechtvaardigde bijzondere gevallen, ten minste
+       zes maanden vóór de datum waarop de belanghebbende zijn normale verblijfplaats buiten
+       de Gemeenschap heeft opgegeven, in zijn bezit zijn geweest en, wanneer het niet-
+       verbruikbare goederen betreft, door hem in zijn vroegere normale verblijfplaats zijn
+       gebruikt;
 
-2° bestemd zijn om voor hetzelfde doel te worden gebruikt in de nieuwe normale
-    verblijfplaats van de belanghebbende.
+2°     bestemd zijn om voor hetzelfde doel te worden gebruikt in de nieuwe normale
+       verblijfplaats van de belanghebbende.
 
 § 3. De vrijstelling wordt slechts verleend indien de belanghebbende zijn normale
 verblijfplaats sedert ten minste twaalf opeenvolgende maanden buiten de Gemeenschap heeft
@@ -474,16 +495,16 @@ Door de Minister van Financiën of zijn gemachtigde kunnen evenwel afwijkingen v
 lid worden toegestaan, mits het in het voornemen van de belanghebbende lag gedurende ten
 minste twaalf maanden buiten de Gemeenschap te verblijven.
 
-§ 4. Van de vrijstelling zijn uitgesloten:
+§ 4.   Van de vrijstelling zijn uitgesloten:
 
-1° alcoholische producten;
+1°     alcoholische producten;
 
-2° tabak en tabaksproducten;
+2°     tabak en tabaksproducten;
 
-3° bedrijfsvoertuigen;
+3°     bedrijfsvoertuigen;
 
-4° materieel voor beroepsdoeleinden, ander dan draagbare instrumenten voor kunsten en
-    ambachten.
+4°     materieel voor beroepsdoeleinden, ander dan draagbare instrumenten voor kunsten en
+       ambachten.
 
 § 5. Behoudens bijzondere omstandigheden, wordt de vrijstelling slechts verleend voor
 persoonlijke goederen die vóór het verstrijken van een termijn van twaalf maanden, te rekenen
@@ -496,7 +517,7 @@ gedeelten plaatsvinden.
 § 6. Tot het verstrijken van een termijn van twaalf maanden, te rekenen vanaf de datum van
 de aangifte voor de definitieve invoer, mogen de met vrijstelling ingevoerde persoonlijke
 goederen niet worden uitgeleend, verpand, verhuurd of overgedragen noch onder bezwarende
-### titel noch om niet, zonder dat de administratie daarvan vooraf in kennis is gesteld.
+titel noch om niet, zonder dat de administratie daarvan vooraf in kennis is gesteld.
 
 Het uitlenen, verpanden, verhuren of overdragen vóór het verstrijken van de termijn bedoeld in
 het eerste lid leidt tot toepassing van de voor de betrokken goederen geldende belasting, tegen
@@ -543,17 +564,17 @@ de belasting verleend voor de definitieve invoer van huwelijksuitzetten en inboe
 nieuw, die toebehoren aan een persoon die zijn normale verblijfplaats naar het grondgebied van
 de Gemeenschap overbrengt ter gelegenheid van zijn huwelijk.
 
-§ 2. De vrijstelling wordt slechts verleend indien de belanghebbende:
+§ 2.   De vrijstelling wordt slechts verleend indien de belanghebbende:
 
-1° sedert ten minste twaalf opeenvolgende maanden zijn normale verblijfplaats buiten de
-    Gemeenschap heeft gehad; door de Minister van Financiën of zijn gemachtigde kan
-    evenwel een afwijking worden toegestaan, mits het in het voornemen van de
-    belanghebbende lag gedurende ten minste twaalf maanden buiten de Gemeenschap te
-    verblijven;
+1°     sedert ten minste twaalf opeenvolgende maanden zijn normale verblijfplaats buiten de
+       Gemeenschap heeft gehad; door de Minister van Financiën of zijn gemachtigde kan
+       evenwel een afwijking worden toegestaan, mits het in het voornemen van de
+       belanghebbende lag gedurende ten minste twaalf maanden buiten de Gemeenschap te
+       verblijven;
 
-2° het bewijs van zijn huwelijkse staat levert.
+2°     het bewijs van zijn huwelijkse staat levert.
 
-§ 3. Alcoholische producten, tabak en tabakproducten zijn van de vrijstelling uitgesloten.
+§ 3.   Alcoholische producten, tabak en tabakproducten zijn van de vrijstelling uitgesloten.
 
 § 4. Behoudens buitengewone omstandigheden moet de invoer plaatsvinden in de periode die
 aanvangt twee maanden vóór de vastgestelde huwelijksdatum en eindigt vier maanden na de
@@ -563,7 +584,7 @@ plaatsvinden in één of meer zendingen.
 § 5. Tot het verstrijken van een termijn van twaalf maanden, te rekenen vanaf de datum van
 de aangifte voor de definitieve invoer, mogen de met vrijstelling ingevoerde persoonlijke
 goederen niet worden uitgeleend, verpand, verhuurd of overgedragen noch onder bezwarende
-### titel noch om niet, zonder dat de administratie daarvan vooraf in kennis is gesteld.
+titel noch om niet, zonder dat de administratie daarvan vooraf in kennis is gesteld.
 
 Het uitlenen, verpanden, verhuren of overdragen ervan vóór het verstrijken van die termijn,
 leidt tot toepassing van de voor de betrokken goederen geldende belasting, tegen het op de
@@ -593,7 +614,7 @@ goederen plaatsvinden in één of meer zendingen.
 § 3. Tot het verstrijken van een termijn van twaalf maanden, te rekenen vanaf de datum van
 de aangifte voor de definitieve invoer, mogen de met vrijstelling ingevoerde persoonlijke
 goederen niet worden uitgeleend, verpand, verhuurd of overgedragen noch onder bezwarende
-### titel noch om niet, zonder dat de administratie daarvan vooraf in kennis is gesteld.
+titel noch om niet, zonder dat de administratie daarvan vooraf in kennis is gesteld.
 
 Het uitlenen, verpanden, verhuren of overdragen vóór het verstrijken van die termijn, leidt tot
 toepassing van de voor de betrokken goederen geldende belasting, tegen het op de datum van
@@ -609,20 +630,20 @@ KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 goederen die door een natuurlijk persoon die zijn normale verblijfplaats in de Gemeenschap
 heeft, door erfopvolging bij versterf, of door erfopvolging bij testament zijn verkregen.
 
-§ 2. Van de vrijstelling zijn uitgesloten:
+§ 2.   Van de vrijstelling zijn uitgesloten:
 
-1° alcoholische producten;
+1°     alcoholische producten;
 
-2° tabak en tabaksproducten;
+2°     tabak en tabaksproducten;
 
-3° bedrijfsvoertuigen;
+3°     bedrijfsvoertuigen;
 
-4° materieel voor beroepsdoeleinden, ander dan draagbare instrumenten voor kunsten en
-    ambachten die nodig waren voor de uitoefening van het beroep van de overledene;
-5° voorraden grondstoffen, eindproducten of halffabricaten;
+4°     materieel voor beroepsdoeleinden, ander dan draagbare instrumenten voor kunsten en
+       ambachten die nodig waren voor de uitoefening van het beroep van de overledene;
+5°     voorraden grondstoffen, eindproducten of halffabricaten;
 
-6° levend vee en voorraden landbouwproducten die de met de normale gezinsbevoorrading
-    overeenkomende hoeveelheden overschrijden.
+6°     levend vee en voorraden landbouwproducten die de met de normale gezinsbevoorrading
+       overeenkomende hoeveelheden overschrijden.
 
 § 3. De vrijstelling wordt slechts verleend voor persoonlijke goederen welke ten laatste twee
 jaar vanaf de datum waarop de goederen in het bezit gesteld zijn definitief zijn ingevoerd
@@ -648,17 +669,17 @@ studentenkamer vormen, toebehorend aan scholieren en studenten die met het oog o
 studie in de Gemeenschap komen wonen, en welke bestemd zijn voor hun persoonlijk gebruik
 gedurende hun studietijd.
 
-§ 2. In de zin van paragraaf 1 wordt verstaan onder:
+§ 2.   In de zin van paragraaf 1 wordt verstaan onder:
 
-1° "scholier of student", elke persoon die op regelmatige wijze is ingeschreven bij een
-    onderwijsinstelling om er het volledige leerplan te volgen;
+1°     "scholier of student", elke persoon die op regelmatige wijze is ingeschreven bij een
+       onderwijsinstelling om er het volledige leerplan te volgen;
 
-2° "uitzet", het linnengoed, alsmede de kleding, zelfs indien nieuw;
+2°     "uitzet", het linnengoed, alsmede de kleding, zelfs indien nieuw;
 
-3° "studiebenodigdheden", voorwerpen en instrumenten, die normaliter door een scholier of
-    student worden gebruikt bij de studie.
+3°     "studiebenodigdheden", voorwerpen en instrumenten, die normaliter door een scholier of
+       student worden gebruikt bij de studie.
 
-§ 3. De vrijstelling wordt ten minste eenmaal per studiejaar verleend.
+§ 3.   De vrijstelling wordt ten minste eenmaal per studiejaar verleend.
 
 #### Art. 18
 
@@ -687,42 +708,42 @@ hebben gedaan van het begin van deze activiteit.
 Wanneer het overgebrachte bedrijf een landbouwbedrijf is, wordt ook voor het levende vee
 vrijstelling verleend.
 
-§ 2. In de zin van paragraaf 1 wordt verstaan onder:
+§ 2.   In de zin van paragraaf 1 wordt verstaan onder:
 
-1° "activiteit", een in artikel 4, § 1, van het Wetboek bedoelde economische activiteit;
+1°     "activiteit", een in artikel 4, § 1, van het Wetboek bedoelde economische activiteit;
 
-2° "bedrijf", een zelfstandige economische productie-eenheid of dienstverlenende eenheid.
+2°     "bedrijf", een zelfstandige economische productie-eenheid of dienstverlenende eenheid.
 
-§ 3. De vrijstelling is beperkt tot kapitaalgoederen en andere uitrusting die:
+§ 3.   De vrijstelling is beperkt tot kapitaalgoederen en andere uitrusting die:
 
-1° behoudens in door de omstandigheden gerechtvaardigde bijzondere gevallen,
-    daadwerkelijk in het bedrijf zijn gebruikt gedurende ten minste twaalf maanden vóór het
-    staken van de activiteiten van het bedrijf in het derde land of derdelands gebied
-    waarvandaan het bedrijf is overgebracht;
+1°     behoudens in door de omstandigheden gerechtvaardigde bijzondere gevallen,
+       daadwerkelijk in het bedrijf zijn gebruikt gedurende ten minste twaalf maanden vóór het
+       staken van de activiteiten van het bedrijf in het derde land of derdelands gebied
+       waarvandaan het bedrijf is overgebracht;
 
-2° bestemd zijn om na deze overbrenging voor dezelfde doeleinden te worden gebruikt;
+2°     bestemd zijn om na deze overbrenging voor dezelfde doeleinden te worden gebruikt;
 
-3° bestemd zijn voor de uitoefening van een activiteit die niet is vrijgesteld op grond van de
-    artikelen 132, 133, 135 en 136 van Richtlijn 2006/112/EG;
+3°     bestemd zijn voor de uitoefening van een activiteit die niet is vrijgesteld op grond van de
+       artikelen 132, 133, 135 en 136 van Richtlijn 2006/112/EG;
 
-4° in overeenstemming zijn met de aard en de omvang van het betrokken bedrijf.
+4°     in overeenstemming zijn met de aard en de omvang van het betrokken bedrijf.
 
 § 4. Van de vrijstelling zijn uitgesloten buiten de Gemeenschap gevestigde bedrijven waarvan
 de overbrenging naar het grondgebied van de Gemeenschap als oorzaak dan wel tot doel heeft
 een fusie met of een overname door een in de Gemeenschap gevestigd bedrijf zonder dat een
 nieuwe activiteit wordt ondernomen.
 
-§ 5. Van de vrijstelling zijn uitgesloten:
+§ 5.   Van de vrijstelling zijn uitgesloten:
 
-1° vervoermiddelen die niet het karakter bezitten van productiemiddelen of middelen in het
-    kader van dienstverrichting;
+1°     vervoermiddelen die niet het karakter bezitten van productiemiddelen of middelen in het
+       kader van dienstverrichting;
 
-2° voorraden van ongeacht welke aard, bestemd voor menselijk verbruik of voor voeding
-    van dieren;
+2°     voorraden van ongeacht welke aard, bestemd voor menselijk verbruik of voor voeding
+       van dieren;
 
-3° brandstoffen en voorraden grondstoffen, eindproducten of halffabricaten;
+3°     brandstoffen en voorraden grondstoffen, eindproducten of halffabricaten;
 
-4° vee dat in het bezit is van veekooplieden.
+4°     vee dat in het bezit is van veekooplieden.
 
 § 6. Behoudens door de omstandigheden gerechtvaardigde bijzondere gevallen, wordt de
 vrijstelling slechts verleend voor kapitaalgoederen en andere uitrusting die zijn ingevoerd vóór
@@ -744,25 +765,25 @@ jongen te werpen.
 (De tekst van KB nr. 7, artikel 21, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
-§ 1. Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
+§ 1.   Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
 
-1° speciaal voor laboratoriumgebruik gefokte dieren die gratis aan laboratoria worden
-    afgestaan;
+1°     speciaal voor laboratoriumgebruik gefokte dieren die gratis aan laboratoria worden
+       afgestaan;
 
-2° biologische of chemische stoffen binnen de grenzen en onder de voorwaarden van artikel
-    53 van Verordening (EG) nr. 1186/2009 van de Raad van 16 november 2009.
+2°     biologische of chemische stoffen binnen de grenzen en onder de voorwaarden van artikel
+       53 van Verordening (EG) nr. 1186/2009 van de Raad van 16 november 2009.
 
 § 2. De in paragraaf 1 bedoelde vrijstelling is beperkt tot dieren en biologische of chemische
 stoffen die bestemd zijn:
 
-1° hetzij voor openbare instellingen of instellingen van openbaar nut wier voornaamste
-    bezigheid het onderwijs of het wetenschappelijk onderzoek is, en voor diensten die onder
-    een openbare instelling of instelling van openbaar nut ressorteren en wier voornaamste
-    bezigheid het onderwijs of het wetenschappelijk onderzoek is;
+1°     hetzij voor openbare instellingen of instellingen van openbaar nut wier voornaamste
+       bezigheid het onderwijs of het wetenschappelijk onderzoek is, en voor diensten die onder
+       een openbare instelling of instelling van openbaar nut ressorteren en wier voornaamste
+       bezigheid het onderwijs of het wetenschappelijk onderzoek is;
 
-2° hetzij voor particuliere instellingen wier voornaamste bezigheid het onderwijs of het
-    wetenschappelijk onderzoek is en die door de Minister van Financiën of zijn gemachtigde
-    toestemming hebben verkregen om deze goederen met vrijstelling in te voeren.
+2°     hetzij voor particuliere instellingen wier voornaamste bezigheid het onderwijs of het
+       wetenschappelijk onderzoek is en die door de Minister van Financiën of zijn gemachtigde
+       toestemming hebben verkregen om deze goederen met vrijstelling in te voeren.
 
 #### Art. 22
 (De tekst van KB nr. 7, artikel 22, werd vervangen met ingang van 24.07.2015 (Art.2,
@@ -773,29 +794,29 @@ vrijstelling van de belasting verleend voor de definitieve invoer van therapeuti
 menselijke oorsprong, testsera voor de vaststelling van bloedgroepen en testsera voor de
 vaststelling van weefselgroepen.
 
-§ 2. In de zin van paragraaf 1 wordt verstaan onder:
+§ 2.   In de zin van paragraaf 1 wordt verstaan onder:
 
-1° "therapeutische stoffen van menselijke oorsprong", menselijk bloed en derivaten daarvan:
-    volledig menselijk bloed, gedroogd menselijk plasma, menselijk albumine en stabiele
-    oplossingen van menselijke plasmaproteïnen, menselijke immoglobuline, menselijk
-    fibrinogeen;
+1°     "therapeutische stoffen van menselijke oorsprong", menselijk bloed en derivaten daarvan:
+       volledig menselijk bloed, gedroogd menselijk plasma, menselijk albumine en stabiele
+       oplossingen van menselijke plasmaproteïnen, menselijke immoglobuline, menselijk
+       fibrinogeen;
 
-2° "testsera voor de vaststelling van bloedgroepen", alle testsera van menselijke, dierlijke,
-    plantaardige of andere oorsprong voor de vaststelling van menselijke bloedgroepen en de
-    opsporing van bloedincompatibiliteit;
-3° "testsera voor de vaststelling van weefselgroepen", alle testsera van menselijke, dierlijke,
-    plantaardige of andere oorsprong voor de vaststelling van menselijke weefselgroepen.
+2°     "testsera voor de vaststelling van bloedgroepen", alle testsera van menselijke, dierlijke,
+       plantaardige of andere oorsprong voor de vaststelling van menselijke bloedgroepen en de
+       opsporing van bloedincompatibiliteit;
+3°     "testsera voor de vaststelling van weefselgroepen", alle testsera van menselijke, dierlijke,
+       plantaardige of andere oorsprong voor de vaststelling van menselijke weefselgroepen.
 
-§ 3. De vrijstelling wordt beperkt tot producten die:
+§ 3.   De vrijstelling wordt beperkt tot producten die:
 
-1° bestemd zijn voor door de Minister van Financiën of zijn gemachtigde erkende instellingen
-    of laboratoria, voor exclusief gebruik voor medische of wetenschappelijke doeleinden, met
-    uitsluiting van commerciële transacties;
+1°     bestemd zijn voor door de Minister van Financiën of zijn gemachtigde erkende instellingen
+       of laboratoria, voor exclusief gebruik voor medische of wetenschappelijke doeleinden, met
+       uitsluiting van commerciële transacties;
 
-2° vergezeld gaan van een certificaat van overeenstemming dat in het land van herkomst
-    door een daartoe bevoegde instantie is afgegeven;
+2°     vergezeld gaan van een certificaat van overeenstemming dat in het land van herkomst
+       door een daartoe bevoegde instantie is afgegeven;
 
-3° vervat zijn in verpakkingsmiddelen die voorzien zijn van een speciaal identificeringsetiket.
+3°     vervat zijn in verpakkingsmiddelen die voorzien zijn van een speciaal identificeringsetiket.
 
 § 4. De vrijstelling strekt zich uit tot de voor het vervoer van therapeutische stoffen van
 menselijke oorsprong of van testsera voor de vaststelling van bloed- of weefselgroepen absoluut
@@ -829,41 +850,41 @@ van hun behoeften gedurende het verblijf in de Gemeenschap.
 (De tekst van KB nr. 7, artikel 25, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
-§ 1. Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
+§ 1.   Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
 
-1° goederen die in primaire levensbehoeften voorzien, die gratis zijn verkregen en die
-    worden ingevoerd door overheids- of andere instellingen met een liefdadig of filantropisch
-    karakter welke door de Minister van Financiën of zijn gemachtigde zijn erkend, ten einde
-    gratis aan behoeftigen te worden uitgereikt;
+1°     goederen die in primaire levensbehoeften voorzien, die gratis zijn verkregen en die
+       worden ingevoerd door overheids- of andere instellingen met een liefdadig of filantropisch
+       karakter welke door de Minister van Financiën of zijn gemachtigde zijn erkend, ten einde
+       gratis aan behoeftigen te worden uitgereikt;
 
-2° goederen van ongeacht welke aard die door een buiten de Gemeenschap gevestigde
-    persoon of organisatie gratis en zonder enige commerciële bijbedoeling van de zijde van
-    de gever, worden toegezonden aan overheids- of door de Minister van Financiën of zijn
-    gemachtigde erkende instellingen met een liefdadig of filantropisch karakter om financiële
-    middelen in te zamelen tijdens incidentele liefdadigheidsevenementen ten bate van
-    behoeftigen;
+2°     goederen van ongeacht welke aard die door een buiten de Gemeenschap gevestigde
+       persoon of organisatie gratis en zonder enige commerciële bijbedoeling van de zijde van
+       de gever, worden toegezonden aan overheids- of door de Minister van Financiën of zijn
+       gemachtigde erkende instellingen met een liefdadig of filantropisch karakter om financiële
+       middelen in te zamelen tijdens incidentele liefdadigheidsevenementen ten bate van
+       behoeftigen;
 
-3° materieel, uitrusting en kantoorartikelen die door een buiten de Gemeenschap gevestigde
-    persoon of organisatie gratis, en zonder enige commerciële bijbedoeling van de zijde van
-    de gever, worden toegezonden aan de door de Minister van Financiën of zijn gemachtigde
-    erkende instellingen met een liefdadig of filantropisch karakter, ten einde uitsluitend te
-    worden gebruikt voor hun eigen werking en voor de verwezenlijking van het door hen
-    nagestreefde liefdadige of filantropische doel.
+3°     materieel, uitrusting en kantoorartikelen die door een buiten de Gemeenschap gevestigde
+       persoon of organisatie gratis, en zonder enige commerciële bijbedoeling van de zijde van
+       de gever, worden toegezonden aan de door de Minister van Financiën of zijn gemachtigde
+       erkende instellingen met een liefdadig of filantropisch karakter, ten einde uitsluitend te
+       worden gebruikt voor hun eigen werking en voor de verwezenlijking van het door hen
+       nagestreefde liefdadige of filantropische doel.
 
 § 2. In de zin van paragraaf 1, 1°, wordt verstaan onder "goederen die in primaire
 levensbehoeften voorzien", goederen die absoluut noodzakelijk zijn om te voorzien in de
 onmiddellijke behoeften van personen, zoals levensmiddelen, geneesmiddelen, kleding en
 dekens.
 
-§ 3. Van de vrijstelling zijn uitgesloten:
+§ 3.   Van de vrijstelling zijn uitgesloten:
 
-1° alcoholische producten;
+1°     alcoholische producten;
 
-2° tabak en tabaksproducten;
+2°     tabak en tabaksproducten;
 
-3° koffie en thee;
+3°     koffie en thee;
 
-4° motorvoertuigen, behalve ziekenwagens.
+4°     motorvoertuigen, behalve ziekenwagens.
 
 § 4. De vrijstelling wordt slechts verleend aan organisaties waarvan de boekhouding het de
 administratie mogelijk maakt de verrichtingen te controleren en die alle noodzakelijk geachte
@@ -966,20 +987,20 @@ worden bestemd en over de op diezelfde datum vastgestelde maatstaf van heffing.
 (De tekst van KB nr. 7, artikel 27, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
-§ 1. Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
+§ 1.   Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
 
-1° goederen die worden ingevoerd door overheids- of andere instellingen met een liefdadig
-    of filantropisch karakter, welke door de Minister van Financiën of zijn gemachtigde zijn
-    erkend, ten einde:
+1°     goederen die worden ingevoerd door overheids- of andere instellingen met een liefdadig
+       of filantropisch karakter, welke door de Minister van Financiën of zijn gemachtigde zijn
+       erkend, ten einde:
 
-    a) hetzij gratis te worden verstrekt aan slachtoffers van rampen waardoor het
-    grondgebied van één of meer lidstaten werd getroffen;
+       a)    hetzij gratis te worden verstrekt aan slachtoffers van rampen waardoor het
+             grondgebied van één of meer lidstaten werd getroffen;
 
-    b) hetzij gratis ter beschikking te worden gesteld van de slachtoffers van dergelijke
-    rampen, doch eigendom van de betrokken instellingen blijven;
+       b)    hetzij gratis ter beschikking te worden gesteld van de slachtoffers van dergelijke
+             rampen, doch eigendom van de betrokken instellingen blijven;
 
-2° goederen die door hulpeenheden onder dezelfde voorwaarden als die gesteld onder 1°
-    worden ingevoerd om voor de duur van hun bijstand in hun behoeften te voorzien.
+2°     goederen die door hulpeenheden onder dezelfde voorwaarden als die gesteld onder 1°
+       worden ingevoerd om voor de duur van hun bijstand in hun behoeften te voorzien.
 
 § 2. De vrijstelling wordt niet verleend voor materiaal en materieel bestemd voor de
 wederopbouw in rampgebieden.
@@ -1051,28 +1072,28 @@ aangewend en over de op diezelfde datum vastgestelde maatstaf van heffing.
 (De tekst van KB nr. 7, artikel 28, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
-§ 1. Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
+§ 1.   Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
 
-1° onderscheidingen die zijn verleend door de regering van een derde land aan personen die
-    hun normale verblijfplaats in de Gemeenschap hebben;
+1°     onderscheidingen die zijn verleend door de regering van een derde land aan personen die
+       hun normale verblijfplaats in de Gemeenschap hebben;
 
-2° bekers, medailles en soortgelijke voorwerpen die voornamelijk een symbolisch karakter
-    bezitten en die, verleend in een derde land of derdelands gebied aan personen die hun
-    normale verblijfplaats in de Gemeenschap hebben, als eerbewijs voor de activiteiten die
-    zij hebben ontplooid op gebieden zoals kunsten, wetenschappen, sport, openbare
-    dienstverleningen, of als bewijs van erkentelijkheid voor hun verdiensten ter gelegenheid
-    van een bijzondere gebeurtenis, door genoemde personen zelf worden ingevoerd;
+2°     bekers, medailles en soortgelijke voorwerpen die voornamelijk een symbolisch karakter
+       bezitten en die, verleend in een derde land of derdelands gebied aan personen die hun
+       normale verblijfplaats in de Gemeenschap hebben, als eerbewijs voor de activiteiten die
+       zij hebben ontplooid op gebieden zoals kunsten, wetenschappen, sport, openbare
+       dienstverleningen, of als bewijs van erkentelijkheid voor hun verdiensten ter gelegenheid
+       van een bijzondere gebeurtenis, door genoemde personen zelf worden ingevoerd;
 
-3° bekers, medailles en soortgelijke voorwerpen die voornamelijk een symbolisch karakter
-    bezitten en gratis door in een derde land of derdelands gebied gevestigde autoriteiten of
-    personen worden aangeboden om op het grondgebied van de Gemeenschap voor dezelfde
-    doeleinden als bedoeld in 2° te worden toegekend;
+3°     bekers, medailles en soortgelijke voorwerpen die voornamelijk een symbolisch karakter
+       bezitten en gratis door in een derde land of derdelands gebied gevestigde autoriteiten of
+       personen worden aangeboden om op het grondgebied van de Gemeenschap voor dezelfde
+       doeleinden als bedoeld in 2° te worden toegekend;
 
-4° prijzen, trofeeën, souvenirs met een symbolisch karakter en van geringe waarde die
-    bestemd zijn voor gratis uitdeling aan personen die hun normale verblijfplaats in een
-    derde land of derdelands gebied hebben, ter gelegenheid van zakencongressen en
-    dergelijke evenementen met een internationaal karakter, en die wegens hun aard, waarde
-    per eenheid en andere kenmerken geenszins op commerciële bijbedoelingen duiden.
+4°     prijzen, trofeeën, souvenirs met een symbolisch karakter en van geringe waarde die
+       bestemd zijn voor gratis uitdeling aan personen die hun normale verblijfplaats in een
+       derde land of derdelands gebied hebben, ter gelegenheid van zakencongressen en
+       dergelijke evenementen met een internationaal karakter, en die wegens hun aard, waarde
+       per eenheid en andere kenmerken geenszins op commerciële bijbedoelingen duiden.
 
 § 2. De vrijstelling wordt verleend mits de belanghebbenden één en ander ten genoegen van
 de administratie kunnen aantonen en voor zover het handelingen betreft waaraan elk
@@ -1086,23 +1107,23 @@ KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 § 1. Onverminderd de vrijstelling bedoeld in artikel 43 wordt vrijstelling van de belasting
 verleend voor de definitieve invoer van:
 
-1° goederen die worden ingevoerd door personen die een officieel bezoek hebben afgelegd in
-    een derde land of derdelands gebied alwaar ze deze goederen ten geschenke hebben
-    gekregen van de autoriteiten die hen hebben ontvangen;
+1°     goederen die worden ingevoerd door personen die een officieel bezoek hebben afgelegd in
+       een derde land of derdelands gebied alwaar ze deze goederen ten geschenke hebben
+       gekregen van de autoriteiten die hen hebben ontvangen;
 
-2° goederen die worden ingevoerd door personen die een officieel bezoek komen afleggen in
-    de Gemeenschap, en die van plan zijn deze goederen bij die gelegenheid ten geschenke
-    te geven aan de autoriteiten die hen ontvangen;
+2°     goederen die worden ingevoerd door personen die een officieel bezoek komen afleggen in
+       de Gemeenschap, en die van plan zijn deze goederen bij die gelegenheid ten geschenke
+       te geven aan de autoriteiten die hen ontvangen;
 
-3° goederen die bij wijze van geschenk, als blijk van vriendschap of van hulde, door een in
-    een derde land of derdelands gebied gevestigde officiële autoriteit, openbare instantie of
-    activiteiten van openbaar belang verrichtende organisatie, worden gericht aan een
-    officiële autoriteit, aan een openbare instantie of aan activiteiten van openbaar belang
-    verrichtende organisatie, gevestigd in België, welke door de Minister van Financiën of zijn
-    gemachtigde toestemming heeft verkregen om dergelijke voorwerpen met vrijstelling in
-    ontvangst te nemen.
+3°     goederen die bij wijze van geschenk, als blijk van vriendschap of van hulde, door een in
+       een derde land of derdelands gebied gevestigde officiële autoriteit, openbare instantie of
+       activiteiten van openbaar belang verrichtende organisatie, worden gericht aan een
+       officiële autoriteit, aan een openbare instantie of aan activiteiten van openbaar belang
+       verrichtende organisatie, gevestigd in België, welke door de Minister van Financiën of zijn
+       gemachtigde toestemming heeft verkregen om dergelijke voorwerpen met vrijstelling in
+       ontvangst te nemen.
 
-§ 2. Alcoholische producten, tabak en tabaksproducten zijn van de vrijstelling uitgesloten.
+§ 2.   Alcoholische producten, tabak en tabaksproducten zijn van de vrijstelling uitgesloten.
 
 § 3. De vrijstelling wordt slechts verleend voor zover de voorwerpen bedoeld zijn als
 incidenteel geschenk, uit de aard, de waarde of de hoeveelheid ervan geen enkele commerciële
@@ -1113,13 +1134,13 @@ bijbedoeling blijkt en zij niet voor commerciële doeleinden worden gebruikt.
 (De tekst van KB nr. 7, artikel 30, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
-§ 1. Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
+§ 1.   Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
 
-1° giften aangeboden aan regerende vorsten en staatshoofden;
+1°     giften aangeboden aan regerende vorsten en staatshoofden;
 
-2° goederen bestemd om te worden gebruikt of verbruikt door regerende vorsten en
-    staatshoofden van een derde land, alsmede door de persoonlijkheden die hen officieel
-    vertegenwoordigen, gedurende hun officieel verblijf in de Gemeenschap.
+2°     goederen bestemd om te worden gebruikt of verbruikt door regerende vorsten en
+       staatshoofden van een derde land, alsmede door de persoonlijkheden die hen officieel
+       vertegenwoordigen, gedurende hun officieel verblijf in de Gemeenschap.
 
 § 2. Paragraaf 1 is tevens van toepassing op personen die op het internationale vlak
 voorrechten genieten die overeenkomen met die van een regerend vorst of van een
@@ -1155,26 +1176,26 @@ KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 reclamedoeleinden, zoals catalogi, prijscouranten, gebruiksaanwijzingen of commerciële
 aankondigingen mits zij betrekking hebben op:
 
-1° door een in een derde land of derdelands gebied gevestigde persoon te koop of te huur
-    aangeboden goederen, of
+1°    door een in een derde land of derdelands gebied gevestigde persoon te koop of te huur
+      aangeboden goederen, of
 
-2° door een in een derde land of derdelands gebied gevestigde persoon aangeboden
-    diensten op het gebied van vervoer, de verzekering van handelsactiviteiten of bankzaken.
+2°    door een in een derde land of derdelands gebied gevestigde persoon aangeboden
+      diensten op het gebied van vervoer, de verzekering van handelsactiviteiten of bankzaken.
 
 § 2. De in paragraaf 1 bedoelde vrijstelling is beperkt tot drukwerk voor reclamedoeleinden
 dat aan de volgende voorwaarden voldoet:
 
-1° op het drukwerk moet duidelijk zichtbaar de naam van het bedrijf zijn aangebracht dat de
-    goederen vervaardigt, verkoopt of verhuurt, of dat de diensten verleent waarop het
-    drukwerk betrekking heeft;
+1°    op het drukwerk moet duidelijk zichtbaar de naam van het bedrijf zijn aangebracht dat de
+      goederen vervaardigt, verkoopt of verhuurt, of dat de diensten verleent waarop het
+      drukwerk betrekking heeft;
 
-2° elke zending mag slechts één bescheid bevatten of, indien zij uit meerdere bescheiden
-    bestaat, slechts één exemplaar van elk bescheid, met dien verstande dat zendingen, die
-    verscheidene exemplaren van een zelfde bescheid bevatten, niettemin voor vrijstelling in
-    aanmerking komen, indien het totale brutogewicht niet meer dan 1 kilogram bedraagt;
+2°    elke zending mag slechts één bescheid bevatten of, indien zij uit meerdere bescheiden
+      bestaat, slechts één exemplaar van elk bescheid, met dien verstande dat zendingen, die
+      verscheidene exemplaren van een zelfde bescheid bevatten, niettemin voor vrijstelling in
+      aanmerking komen, indien het totale brutogewicht niet meer dan 1 kilogram bedraagt;
 
-3° het drukwerk mag niet bij wijze van groepagezending door een zelfde afzender naar een
-    zelfde geadresseerde worden gezonden.
+3°    het drukwerk mag niet bij wijze van groepagezending door een zelfde afzender naar een
+      zelfde geadresseerde worden gezonden.
 
 § 3. Vrijstelling van de belasting wordt eveneens verleend voor de definitieve invoer van
 voorwerpen voor reclamedoeleinden die zelf geen handelswaarde bezitten en die gratis door
@@ -1186,64 +1207,65 @@ kunnen worden gebruikt.
 (De tekst van KB nr. 7, artikel 33, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
-§ 1. Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
+§ 1.   Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
 
-1° kleine monsters die representatief zijn voor goederen en bestemd zijn voor
-    tentoonstellingen en dergelijke;
+1°     kleine monsters die representatief       zijn    voor   goederen   en    bestemd       zijn    voor
+       tentoonstellingen en dergelijke;
 
-2° goederen die uitsluitend worden ingevoerd om te worden gedemonstreerd of om
-    machines en apparaten te demonstreren tijdens tentoonstellingen en dergelijke;
+2°     goederen die uitsluitend worden ingevoerd om te worden gedemonstreerd of om
+       machines en apparaten te demonstreren tijdens tentoonstellingen en dergelijke;
 
-3° diverse materialen van geringe waarde, zoals verf, lak, behangselpapier, enz. die worden
-    gebruikt voor de bouw, de inrichting en de decoratie van tijdelijke stands op tentoonstellingen en dergelijke en die door hun gebruik als zodanig verloren gaan;
+3°     diverse materialen van geringe waarde, zoals verf, lak, behangselpapier, enz. die worden
+       gebruikt voor de bouw, de inrichting en de decoratie van tijdelijke stands op tentoon-
+       stellingen en dergelijke en die door hun gebruik als zodanig verloren gaan;
 
-4° drukwerk, catalogi, prospectussen, prijscouranten, aanplakbiljetten, al dan niet
-    geïllustreerde kalenders, niet-ingelijste foto's en andere voorwerpen die gratis worden
-    verstrekt ten einde te worden gebruikt voor reclamedoeleinden voor goederen, die op
-    tentoonstellingen en dergelijke worden tentoongesteld.
+4°     drukwerk, catalogi, prospectussen, prijscouranten, aanplakbiljetten, al dan niet
+       geïllustreerde kalenders, niet-ingelijste foto's en andere voorwerpen die gratis worden
+       verstrekt ten einde te worden gebruikt voor reclamedoeleinden voor goederen, die op
+       tentoonstellingen en dergelijke worden tentoongesteld.
 
-§ 2. In de zin van paragraaf 1 wordt onder "tentoonstellingen en dergelijke" verstaan:
+§ 2.   In de zin van paragraaf 1 wordt onder "tentoonstellingen en dergelijke" verstaan:
 
-1° tentoonstellingen, jaarbeurzen, beurzen en dergelijke manifestaties op het gebied van
-    handel, industrie, landbouw en ambachtelijke nijverheid;
+1°     tentoonstellingen, jaarbeurzen, beurzen en dergelijke manifestaties op het gebied van
+       handel, industrie, landbouw en ambachtelijke nijverheid;
 
-2° tentoonstellingen of manifestaties die voornamelijk voor liefdadige doeleinden worden
-    georganiseerd;
+2°     tentoonstellingen of manifestaties die voornamelijk voor liefdadige doeleinden worden
+       georganiseerd;
 
-3° tentoonstellingen of manifestaties die voornamelijk worden georganiseerd met een
-    wetenschappelijk, technisch, ambachtelijk, artistiek, opvoedkundig of cultureel, sportief of
-    religieus doel, of voor een cultus, op vakverenigingsgebied, met een toeristisch doel of
-    met het doel de volkeren te helpen elkaar beter te begrijpen;
+3°     tentoonstellingen of manifestaties die voornamelijk worden georganiseerd met een
+       wetenschappelijk, technisch, ambachtelijk, artistiek, opvoedkundig of cultureel, sportief of
+       religieus doel, of voor een cultus, op vakverenigingsgebied, met een toeristisch doel of
+       met het doel de volkeren te helpen elkaar beter te begrijpen;
 
-4° vergaderingen van vertegenwoordigers van internationale organisaties of groeperingen;
+4°     vergaderingen van vertegenwoordigers van internationale organisaties of groeperingen;
 
-5° plechtigheden en manifestaties met een officieel of herdenkingskarakter.
+5°     plechtigheden en manifestaties met een officieel of herdenkingskarakter.
 
 Worden niet als "tentoonstellingen en dergelijke" aangemerkt de particuliere tentoonstellingen
 die in winkels of handelsruimten worden georganiseerd met het oog op de verkoop van
 goederen.
 
-§ 3. De in paragraaf 1, 1°, bedoelde vrijstelling is beperkt tot monsters:
+§ 3.   De in paragraaf 1, 1°, bedoelde vrijstelling is beperkt tot monsters:
 
-1° welke in die vorm gratis worden ingevoerd of tijdens de tentoonstelling uit onverpakt
-    ingevoerde goederen worden verkregen;
+1°     welke in die vorm gratis worden ingevoerd of tijdens de tentoonstelling uit onverpakt
+       ingevoerde goederen worden verkregen;
 
-2° die uitsluitend dienen om tijdens de tentoonstelling gratis aan de bezoekers voor hun
-    persoonlijk gebruik of verbruik te worden uitgereikt;
+2°     die uitsluitend dienen om tijdens de tentoonstelling gratis aan de bezoekers voor hun
+       persoonlijk gebruik of verbruik te worden uitgereikt;
 
-3° die kunnen worden onderkend als reclamemateriaal waarvan de waarde per eenheid
-    gering is;
+3°     die kunnen worden onderkend als reclamemateriaal waarvan de waarde per eenheid
+       gering is;
 
-4° die niet geschikt zijn om te kunnen worden verhandeld en in voorkomend geval in
-    verpakkingen worden aangeboden welke een geringere hoeveelheid bevatten dan de
-    kleinste in de handel verkrijgbare hoeveelheid van dezelfde goederen;
+4°     die niet geschikt zijn om te kunnen worden verhandeld en in voorkomend geval in
+       verpakkingen worden aangeboden welke een geringere hoeveelheid bevatten dan de
+       kleinste in de handel verkrijgbare hoeveelheid van dezelfde goederen;
 
-5° die tijdens de tentoonstelling ter plaatse worden verbruikt indien het levensmiddelen en
-    dranken betreft waarvan de verpakking niet beantwoordt aan het bepaalde onder 4°;
+5°     die tijdens de tentoonstelling ter plaatse worden verbruikt indien het levensmiddelen en
+       dranken betreft waarvan de verpakking niet beantwoordt aan het bepaalde onder 4°;
 
-6° waarvan de totale waarde en hoeveelheid in verhouding staan tot de aard van de
-    tentoonstellingen, het bezoekersaantal en het belang van de deelneming van de
-    exposant.
+6°     waarvan de totale waarde en hoeveelheid in verhouding staan tot de aard van de
+       tentoonstellingen, het bezoekersaantal en het belang van de deelneming van de
+       exposant.
 
 § 4. De in paragraaf 1, 2°, bedoelde vrijstelling is beperkt tot goederen die tijdens de
 tentoonstelling worden verbruikt of tenietgaan, en waarvan de totale waarde en hoeveelheid in
@@ -1253,11 +1275,11 @@ deelneming van de exposant.
 § 5. De in paragraaf 1, 4°, bedoelde vrijstelling geldt slechts voor drukwerk en voorwerpen
 voor reclamedoeleinden:
 
-1° die uitsluitend bestemd zijn om op de plaats van de tentoonstelling gratis aan het publiek
-    te worden uitgereikt;
+1°    die uitsluitend bestemd zijn om op de plaats van de tentoonstelling gratis aan het publiek
+      te worden uitgereikt;
 
-2° waarvan de totale waarde en hoeveelheid in verhouding staan tot de aard van de
-    tentoonstelling, het bezoekersaantal en het belang van de deelneming van de exposant.
+2°    waarvan de totale waarde en hoeveelheid in verhouding staan tot de aard van de
+      tentoonstelling, het bezoekersaantal en het belang van de deelneming van de exposant.
 
 § 6. Alcoholische producten, tabak en tabaksproducten en brandstoffen zijn van de in
 paragraaf 1, 1° en 2°, bedoelde vrijstelling uitgesloten.
@@ -1288,19 +1310,19 @@ geval door de administratie vastgesteld, rekening houdend met genoemd doel.
 proeven niet volledig worden verbruikt of tenietgaan, mits de overblijvende producten met
 toestemming en onder toezicht van de administratie:
 
-1° hetzij, na afloop van het onderzoek, de analyses of de proefnemingen, geheel worden
-    vernietigd of zodanig worden behandeld dat zij geen handelswaarde meer hebben;
+1°    hetzij, na afloop van het onderzoek, de analyses of de proefnemingen, geheel worden
+      vernietigd of zodanig worden behandeld dat zij geen handelswaarde meer hebben;
 
-2° hetzij zonder kosten aan de Schatkist worden afgestaan, met inachtneming van de
-    beperkingen en onder de voorwaarden gesteld voor de toekenning van de vrijstelling
-    inzake invoerrecht;
-3° hetzij, in met redenen omklede gevallen, uit de Gemeenschap worden uitgevoerd.
+2°    hetzij zonder kosten aan de Schatkist worden afgestaan, met inachtneming van de
+      beperkingen en onder de voorwaarden gesteld voor de toekenning van de vrijstelling
+      inzake invoerrecht;
+3°    hetzij, in met redenen omklede gevallen, uit de Gemeenschap worden uitgevoerd.
 
-Onder "overblijvende producten" wordt verstaan, producten die voortkomen uit de
+Onder "overblijvende producten" wordt verstaan, producten die voortkomen uit                           de
 onderzoeken, analyses of proeven, dan wel goederen die niet daadwerkelijk zijn gebruikt.
 
 § 6. Behoudens toepassing van het bepaalde in paragraaf 5, worden de na afloop van de in
-###### paragraaf 1 bedoelde onderzoeken, analyses of proeven overblijvende producten onderworpen
+paragraaf 1 bedoelde onderzoeken, analyses of proeven overblijvende producten onderworpen
 aan de belasting, tegen het op het tijdstip van de beëindiging van deze onderzoeken, analyses
 of proeven van kracht zijnde tarief en over de op datzelfde tijdstip vastgestelde maatstaf van
 heffing.
@@ -1318,49 +1340,49 @@ moeten plaatsvinden.
 (De tekst van KB nr. 7, artikel 35, werd vervangen met ingang van 24.07.2015 (Art.2,
 KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
-§ 1. Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
+§ 1.   Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
 
-1° de brandstof welke zich in de normale reservoirs bevindt van personenauto's,
-    bedrijfsvoertuigen, motorrijwielen en containers voor speciale doeleinden;
+1°     de brandstof welke zich in de normale reservoirs bevindt van personenauto's,
+       bedrijfsvoertuigen, motorrijwielen en containers voor speciale doeleinden;
 
-2° de brandstof welke zich in draagbare reservoirs in personenauto's en motorrijwielen
-    bevindt, tot een maximum van 10 liter per voertuig;
+2°     de brandstof welke zich in draagbare reservoirs in personenauto's en motorrijwielen
+       bevindt, tot een maximum van 10 liter per voertuig;
 
-3° smeermiddelen die zich in motorvoertuigen en in containers voor speciale doeleinden
-    bevinden en die overeenkomen met de normale behoeften voor het functioneren ervan
-    gedurende het betreffende vervoer.
+3°     smeermiddelen die zich in motorvoertuigen en in containers voor speciale doeleinden
+       bevinden en die overeenkomen met de normale behoeften voor het functioneren ervan
+       gedurende het betreffende vervoer.
 
-§ 2. In de zin van paragraaf 1 wordt verstaan onder:
+§ 2.   In de zin van paragraaf 1 wordt verstaan onder:
 
-1° "bedrijfsvoertuig", elk motorvoertuig, trekkers met of zonder aanhangwagens daaronder
-    begrepen, dat op grond van constructietype en uitrusting geschikt en bestemd is voor het
-    vervoer, al dan niet tegen betaling, van meer dan negen personen, met inbegrip van de
-    bestuurder, of van goederen, alsmede ieder wegvoertuig bestemd voor een ander gebruik
-    dan vervoer in de eigenlijke zin;
+1°     "bedrijfsvoertuig", elk motorvoertuig, trekkers met of zonder aanhangwagens daaronder
+       begrepen, dat op grond van constructietype en uitrusting geschikt en bestemd is voor het
+       vervoer, al dan niet tegen betaling, van meer dan negen personen, met inbegrip van de
+       bestuurder, of van goederen, alsmede ieder wegvoertuig bestemd voor een ander gebruik
+       dan vervoer in de eigenlijke zin;
 
-2° "personenauto", ieder motorvoertuig dat niet aan de onder 1° omschreven maatstaven
-    beantwoordt;
+2°     "personenauto", ieder motorvoertuig dat niet aan de onder 1° omschreven maatstaven
+       beantwoordt;
 
-3° "normale reservoirs":
+3°     "normale reservoirs":
 
-    a) de door de fabrikant blijvend in of aan alle motorvoertuigen van hetzelfde type als
-    het betrokken voertuig aangebrachte reservoirs, waarvan de blijvende inrichting
-    het rechtstreekse verbruik van brandstof mogelijk maakt, zowel voor de
-    voortbeweging van de voertuigen als, in voorkomend geval, voor de werking,
-    tijdens het vervoer, van koel- en andere systemen alsmede de gasreservoirs die
-    zijn aangebracht in motorvoertuigen en die het rechtstreekse verbruik van gas als
-    brandstof mogelijk maken, en de op andere systemen aangesloten reservoirs
-    waarmee die voertuigen eventueel zijn uitgerust;
-    b) de door de fabrikant blijvend in of aan alle containers van hetzelfde type als de
-    betrokken container aangebrachte reservoirs, waarvan de blijvende inrichting het
-    rechtstreekse verbruik van de brandstof mogelijk maakt voor de werking,
+       a)    de door de fabrikant blijvend in of aan alle motorvoertuigen van hetzelfde type als
+             het betrokken voertuig aangebrachte reservoirs, waarvan de blijvende inrichting
+             het rechtstreekse verbruik van brandstof mogelijk maakt, zowel voor de
+             voortbeweging van de voertuigen als, in voorkomend geval, voor de werking,
+             tijdens het vervoer, van koel- en andere systemen alsmede de gasreservoirs die
+             zijn aangebracht in motorvoertuigen en die het rechtstreekse verbruik van gas als
+             brandstof mogelijk maken, en de op andere systemen aangesloten reservoirs
+             waarmee die voertuigen eventueel zijn uitgerust;
+       b)    de door de fabrikant blijvend in of aan alle containers van hetzelfde type als de
+             betrokken container aangebrachte reservoirs, waarvan de blijvende inrichting het
+             rechtstreekse verbruik van de brandstof mogelijk maakt voor de werking,
 
-    gedurende het vervoer, van koel- en andere systemen waarmee de containers voor
-    speciale doeleinden zijn uitgerust;
+             gedurende het vervoer, van koel- en andere systemen waarmee de containers voor
+             speciale doeleinden zijn uitgerust;
 
-4° "container voor speciale doeleinden", alle containers die zijn uitgerust met inrichtingen die
-    speciaal zijn aangepast voor koelsystemen, systemen voor zuurstoftoevoer, thermische
-    isolatiesystemen of andere systemen.
+4°    "container voor speciale doeleinden", alle containers die zijn uitgerust met inrichtingen die
+      speciaal zijn aangepast voor koelsystemen, systemen voor zuurstoftoevoer, thermische
+      isolatiesystemen of andere systemen.
 
 § 3. Brandstoffen waarvoor vrijstelling is verleend mogen niet worden gebruikt in een ander
 voertuig dan het voertuig waarin zij werden ingevoerd, noch uit dit voertuig worden verwijderd,
@@ -1378,136 +1400,139 @@ KB 29.06.2015, B.S. 14.07.2015, pg. 45887))
 
 Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
 
-1° merken, modellen of tekeningen en de desbetreffende indieningsdossiers, alsmede de
-    dossiers betreffende aanvragen voor een octrooi en dergelijke, die bestemd zijn voor
-    instellingen die bevoegd zijn ter zake van de bescherming van auteursrechten of de
-    bescherming van industriële en commerciële eigendom;
+1°    merken, modellen of tekeningen en de desbetreffende indieningsdossiers, alsmede de
+      dossiers betreffende aanvragen voor een octrooi en dergelijke, die bestemd zijn voor
+      instellingen die bevoegd zijn ter zake van de bescherming van auteursrechten of de
+      bescherming van industriële en commerciële eigendom;
 
-2° bescheiden zoals folders, brochures, boeken, tijdschriften, gidsen, al dan niet ingelijste
-    aanplakbiljetten, niet-ingelijste foto's en fotografische vergrotingen, al dan niet
-    geïllustreerde landkaarten, vitrofanies en geïllustreerde kalenders, bestemd om gratis te
-    worden uitgereikt en die voornamelijk tot doel hebben het publiek ertoe te brengen
-    vreemde landen te bezoeken met name om daar bijeenkomsten of manifestaties bij te
-    wonen die een cultureel, toeristisch, sportief of godsdienstig karakter bezitten dan wel
-    verband houden met een beroep, mits deze bescheiden niet meer dan 25 pct. particuliere
-    handelsreclame bevatten en mits het oogmerk van propaganda van algemene aard er
-    duidelijk uit blijkt;
+2°    bescheiden zoals folders, brochures, boeken, tijdschriften, gidsen, al dan niet ingelijste
+      aanplakbiljetten, niet-ingelijste foto's en fotografische vergrotingen, al dan niet
+      geïllustreerde landkaarten, vitrofanies en geïllustreerde kalenders, bestemd om gratis te
+      worden uitgereikt en die voornamelijk tot doel hebben het publiek ertoe te brengen
+      vreemde landen te bezoeken met name om daar bijeenkomsten of manifestaties bij te
+      wonen die een cultureel, toeristisch, sportief of godsdienstig karakter bezitten dan wel
+      verband houden met een beroep, mits deze bescheiden niet meer dan 25 pct. particuliere
+      handelsreclame bevatten en mits het oogmerk van propaganda van algemene aard er
+      duidelijk uit blijkt;
 
-3° lijsten en jaarboeken van buitenlandse hotels, gepubliceerd door officiële organisaties
-    voor toerisme of onder auspiciën daarvan, alsmede de dienstregelingen van in het
-    buitenland geëxploiteerde vervoerdiensten, wanneer deze bescheiden bestemd zijn om
-    gratis te worden uitgereikt en niet meer dan 25 pct. particuliere handelsreclame
-    bevatten;
+3°    lijsten en jaarboeken van buitenlandse hotels, gepubliceerd door officiële organisaties
+      voor toerisme of onder auspiciën daarvan, alsmede de dienstregelingen van in het
+      buitenland geëxploiteerde vervoerdiensten, wanneer deze bescheiden bestemd zijn om
+      gratis te worden uitgereikt en niet meer dan 25 pct. particuliere handelsreclame
+      bevatten;
 
-4° technisch materiaal dat wordt toegezonden aan erkende vertegenwoordigers of aan
-    correspondenten die zijn aangesteld door officiële nationale toeristenorganisaties en dat
-    niet bestemd is om te worden uitgereikt, dat wil zeggen jaarboeken, lijsten van telefoonof telexabonnees, hotellijsten, catalogi van beurzen, monsters van ambachtelijke
-    producten met een onbeduidende waarde, documentatiemateriaal over musea,
-    universiteiten, thermale badplaatsen of andere soortgelijke instellingen;
+4°    technisch materiaal dat wordt toegezonden aan erkende vertegenwoordigers of aan
+      correspondenten die zijn aangesteld door officiële nationale toeristenorganisaties en dat
+      niet bestemd is om te worden uitgereikt, dat wil zeggen jaarboeken, lijsten van telefoon-
+      of telexabonnees, hotellijsten, catalogi van beurzen, monsters van ambachtelijke
+      producten met een onbeduidende waarde, documentatiemateriaal over musea,
+      universiteiten, thermale badplaatsen of andere soortgelijke instellingen;
 
-5° bescheiden die gratis aan openbare diensten van de lidstaten worden gezonden;
+5°    bescheiden die gratis aan openbare diensten van de lidstaten worden gezonden;
 
-6° publicaties van buitenlandse regeringen en publicaties van internationale officiële
-    instellingen die bestemd zijn om gratis te worden verspreid;
+6°    publicaties van buitenlandse regeringen en publicaties van internationale officiële
+      instellingen die bestemd zijn om gratis te worden verspreid;
 
-7° stembiljetten die bestemd zijn voor verkiezingen georganiseerd door buiten de
-    Gemeenschap gevestigde instellingen;
+7°    stembiljetten die bestemd zijn voor verkiezingen georganiseerd                door buiten de
+      Gemeenschap gevestigde instellingen;
 
-8° voorwerpen bestemd om te dienen als bewijs of voor soortgelijke doeleinden voor
-    rechtbanken of andere officiële instanties van de lidstaten;
+8°    voorwerpen bestemd om te dienen als bewijs of voor soortgelijke doeleinden voor
+      rechtbanken of andere officiële instanties van de lidstaten;
 
-9° specimens van handtekeningen en gedrukte circulaires betreffende handtekeningen die
-    worden verzonden in het kader van de gebruikelijke uitwisseling van inlichtingen tussen
-    openbare diensten of bankinstellingen;
+9°    specimens van handtekeningen en gedrukte circulaires betreffende handtekeningen die
+      worden verzonden in het kader van de gebruikelijke uitwisseling van inlichtingen tussen
+      openbare diensten of bankinstellingen;
 
-10° drukwerk van officiële aard dat aan de centrale banken van de lidstaten wordt gezonden;
+10°   drukwerk van officiële aard dat aan de centrale banken van de lidstaten wordt gezonden;
 
-11° rapporten, verslagen, inlichtingenbladen, prospectussen, inschrijvingsformulieren en
-    andere documenten die zijn opgesteld door maatschappijen die niet in de Gemeenschap
-    zijn gevestigd en bestemd zijn voor houders van of inschrijvers op door deze
-    maatschappijen uitgegeven effecten;
+11°   rapporten, verslagen, inlichtingenbladen, prospectussen, inschrijvingsformulieren en
+      andere documenten die zijn opgesteld door maatschappijen die niet in de Gemeenschap
+      zijn gevestigd en bestemd zijn voor houders van of inschrijvers op door deze
+      maatschappijen uitgegeven effecten;
 
-12° informatiedragers met opname, onder meer ponskaarten, geluidsopnamen, microfilms,
-    die worden gebruikt voor de kosteloze toezending van informatie aan de geadresseerde,
-    voor zover de vrijstelling geen aanleiding geeft tot misbruiken of belangrijke concurrentieverstoringen;
+12°   informatiedragers met opname, onder meer ponskaarten, geluidsopnamen, microfilms,
+      die worden gebruikt voor de kosteloze toezending van informatie aan de geadresseerde,
+      voor zover de vrijstelling geen aanleiding geeft tot misbruiken of belangrijke concurrentie-
+      verstoringen;
 
-13° dossiers, archieven, formulieren en andere bescheiden, bestemd om te worden gebruikt
-    tijdens internationale vergaderingen, conferenties of congressen, alsmede de notulen van
-    dergelijke bijeenkomsten;
+13°   dossiers, archieven, formulieren en andere bescheiden, bestemd om te worden gebruikt
+      tijdens internationale vergaderingen, conferenties of congressen, alsmede de notulen van
+      dergelijke bijeenkomsten;
 
-14° ontwerpen, technische tekeningen, afbeeldingen, beschrijvingen en andere soortelijke
-    bescheiden die worden ingevoerd met het oog op het verkrijgen of het uitvoeren van
-    bestellingen buiten de Gemeenschap of met het oog op het deelnemen aan een in de
-    Gemeenschap georganiseerde prijsvraag;
+14°   ontwerpen, technische tekeningen, afbeeldingen, beschrijvingen en andere soortelijke
+      bescheiden die worden ingevoerd met het oog op het verkrijgen of het uitvoeren van
+      bestellingen buiten de Gemeenschap of met het oog op het deelnemen aan een in de
+      Gemeenschap georganiseerde prijsvraag;
 
-15° bescheiden bestemd om te worden gebruikt bij examens die in de Gemeenschap worden
-    georganiseerd door buiten de Gemeenschap gevestigde instellingen;
+15°   bescheiden bestemd om te worden gebruikt bij examens die in de Gemeenschap worden
+      georganiseerd door buiten de Gemeenschap gevestigde instellingen;
 
-16° formulieren bestemd om te worden gebruikt als officiële bescheiden voor het
-    internationaal weg- of goederenverkeer, in het kader van internationale overeenkomsten;
+16°   formulieren bestemd om te worden gebruikt als officiële bescheiden voor het
+      internationaal weg- of goederenverkeer, in het kader van internationale overeenkomsten;
 
-17° formulieren, etiketten, vervoerbewijzen en soortelijke bescheiden, die door buiten de
-    Gemeenschap gevestigde vervoer-ondernemingen of ondernemingen in het hotelwezen
-    worden verzonden naar in de Gemeenschap gevestigde reisbureaus;
+17°   formulieren, etiketten, vervoerbewijzen en soortelijke bescheiden, die door buiten de
+      Gemeenschap gevestigde vervoer-ondernemingen of ondernemingen in het hotelwezen
+      worden verzonden naar in de Gemeenschap gevestigde reisbureaus;
 
-18° formulieren en vervoerbewijzen, cognossementen, vrachtbrieven en andere handelsbescheiden en administratieve bescheiden, die gebruikt zijn;
+18°   formulieren en vervoerbewijzen, cognossementen, vrachtbrieven en andere handels-
+      bescheiden en administratieve bescheiden, die gebruikt zijn;
 
-19° officieel drukwerk, uitgegeven door nationale of internationale autoriteiten, drukwerk
-    conform internationale modellen dat door buiten de Gemeenschap gevestigde organisaties
-    aan overeenkomstige organisaties die in de Gemeenschap zijn gevestigd wordt verzonden
-    om te worden verspreid;
+19°   officieel drukwerk, uitgegeven door nationale of internationale autoriteiten, drukwerk
+      conform internationale modellen dat door buiten de Gemeenschap gevestigde organisaties
+      aan overeenkomstige organisaties die in de Gemeenschap zijn gevestigd wordt verzonden
+      om te worden verspreid;
 
-20° foto's, diapositieven en kartonnen matrijzen voor foto's, met of zonder onderschrift,
-    gericht aan persagentschappen of aan uitgevers van dagbladen of tijdschriften;
+20°   foto's, diapositieven en kartonnen matrijzen voor foto's, met of zonder onderschrift,
+      gericht aan persagentschappen of aan uitgevers van dagbladen of tijdschriften;
 
-21° het visueel en auditief materiaal van opvoedkundige, wetenschappelijke of culturele aard,
-    ongeacht het gebruik waarvoor zij bestemd zijn, opgesomd in de bijlage van dit besluit
-    geproduceerd door de Verenigde Naties of één van haar gespecialiseerde organisaties;
+21°   het visueel en auditief materiaal van opvoedkundige, wetenschappelijke of culturele aard,
+      ongeacht het gebruik waarvoor zij bestemd zijn, opgesomd in de bijlage van dit besluit
+      geproduceerd door de Verenigde Naties of één van haar gespecialiseerde organisaties;
 
-22° voorwerpen welke deel uitmaken van verzamelingen en kunstvoorwerpen van
-    opvoedkundige, wetenschappelijke of culturele aard, die niet voor de verkoop zijn
-    bestemd en die worden ingevoerd door musea, kunstgalerijen en andere instellingen die
-    door de Minister van Financiën of zijn gemachtigde toestemming hebben verkregen om
-    deze voorwerpen met vrijstelling in te voeren mits de betrokken voorwerpen om niet
-    worden ingevoerd of, indien invoer geschiedt onder bezwarende titel, dat deze
-    voorwerpen niet door een belastingplichtige worden geleverd;
+22°   voorwerpen welke deel uitmaken van verzamelingen en kunstvoorwerpen van
+      opvoedkundige, wetenschappelijke of culturele aard, die niet voor de verkoop zijn
+      bestemd en die worden ingevoerd door musea, kunstgalerijen en andere instellingen die
+      door de Minister van Financiën of zijn gemachtigde toestemming hebben verkregen om
+      deze voorwerpen met vrijstelling in te voeren mits de betrokken voorwerpen om niet
+      worden ingevoerd of, indien invoer geschiedt onder bezwarende titel, dat deze
+      voorwerpen niet door een belastingplichtige worden geleverd;
 
-23° officiële publicaties die het uitdrukkingsmiddel vormen van de overheid van het land of
-    gebied van uitvoer, internationale organisaties en publiekrechtelijke lichamen en
-    instellingen, gevestigd in het land of gebied van uitvoer, alsmede drukwerk dat wordt
-    verspreid ter gelegenheid van de verkiezingen van het Europees Parlement of ter
+23°   officiële publicaties die het uitdrukkingsmiddel vormen van de overheid van het land of
+      gebied van uitvoer, internationale organisaties en publiekrechtelijke lichamen en
+      instellingen, gevestigd in het land of gebied van uitvoer, alsmede drukwerk dat wordt
+      verspreid ter gelegenheid van de verkiezingen van het Europees Parlement of ter
 
-    gelegenheid van nationale verkiezingen die worden georganiseerd vanuit het land van
-    oorsprong door als zodanig in de lidstaten officieel erkende buitenlandse politieke
-    organisaties, voor zover over die publicaties en dat drukwerk in het land of gebied van
-    uitvoer belasting is geheven en zij niet bij uitvoer ontlast zijn;
+      gelegenheid van nationale verkiezingen die worden georganiseerd vanuit het land van
+      oorsprong door als zodanig in de lidstaten officieel erkende buitenlandse politieke
+      organisaties, voor zover over die publicaties en dat drukwerk in het land of gebied van
+      uitvoer belasting is geheven en zij niet bij uitvoer ontlast zijn;
 
-24° materialen van uiteenlopende aard, zoals kabels, stro, doek, papier, karton, hout en
-    plastic, die worden gebruikt voor het stuwen en de bescherming, met inbegrip van
-    thermische bescherming, van goederen tijdens het vervoer naar het grondgebied van de
-    Gemeenschap mits deze materialen normaliter niet in aanmerking komen om opnieuw te
-    worden gebruikt en de tegenwaarde ervan, overeenkomstig artikel 34 van het Wetboek,
-## deel uitmaakt van de maatstaf van heffing van die goederen;
+24°   materialen van uiteenlopende aard, zoals kabels, stro, doek, papier, karton, hout en
+      plastic, die worden gebruikt voor het stuwen en de bescherming, met inbegrip van
+      thermische bescherming, van goederen tijdens het vervoer naar het grondgebied van de
+      Gemeenschap mits deze materialen normaliter niet in aanmerking komen om opnieuw te
+      worden gebruikt en de tegenwaarde ervan, overeenkomstig artikel 34 van het Wetboek,
+      deel uitmaakt van de maatstaf van heffing van die goederen;
 
-25° strooisel, foerage en al het voer aan boord van vervoermiddelen die worden gebruikt voor
-    het vervoer van dieren naar het grondgebied van de Gemeenschap, bestemd om
-    onderweg aan de dieren te worden verstrekt;
+25°   strooisel, foerage en al het voer aan boord van vervoermiddelen die worden gebruikt voor
+      het vervoer van dieren naar het grondgebied van de Gemeenschap, bestemd om
+      onderweg aan de dieren te worden verstrekt;
 
-26° goederen van ongeacht welke aard die worden ingevoerd door daartoe door de Minister
-    van Financiën of zijn gemachtigde erkende organisaties om te worden gebruikt voor de
-    aanleg, het onderhoud of de verfraaiing van begraafplaatsen, graven en gedenktekens
-    voor oorlogsslachtoffers van een derde land die in de Gemeenschap zijn begraven;
+26°   goederen van ongeacht welke aard die worden ingevoerd door daartoe door de Minister
+      van Financiën of zijn gemachtigde erkende organisaties om te worden gebruikt voor de
+      aanleg, het onderhoud of de verfraaiing van begraafplaatsen, graven en gedenktekens
+      voor oorlogsslachtoffers van een derde land die in de Gemeenschap zijn begraven;
 
-27° lijkkisten die het stoffelijk overschot en urnen die de as van overledenen bevatten,
-    alsmede bloemen, kransen en andere ornamenten die deze gewoonlijk vergezellen;
-28° bloemen, kransen en andere ornamenten die worden meegebracht door personen die
-    buiten de Gemeenschap woonachtig zijn en zich naar een begrafenis begeven of graven
-    op het grondgebied van de Gemeenschap komen verfraaien, voor zover uit de aard of de
-    hoeveelheid van deze invoer geen commerciële overwegingen blijken.
+27°   lijkkisten die het stoffelijk overschot en urnen die de as van overledenen bevatten,
+      alsmede bloemen, kransen en andere ornamenten die deze gewoonlijk vergezellen;
+28°   bloemen, kransen en andere ornamenten die worden meegebracht door personen die
+      buiten de Gemeenschap woonachtig zijn en zich naar een begrafenis begeven of graven
+      op het grondgebied van de Gemeenschap komen verfraaien, voor zover uit de aard of de
+      hoeveelheid van deze invoer geen commerciële overwegingen blijken.
 
 #### Art. 37
 
-(De tekst van KB nr. 7, artikel 37, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   7,   artikel   37,   is   van   toepassing    met   ingang     van    01.01.1993
 (KB 29.12.1992))
 
 § 1. Vrijstelling van de belasting wordt verleend voor de definitieve invoer van provisie en
@@ -1521,18 +1546,16 @@ Wetboek, en enkel voor de hoeveelheden die inzake invoerrecht met vrijstelling k
 toegelaten voor het verbruik in België.
 
 ### AFDELING 3
-    Vrijstelling ingesteld bij artikel 40, § 1, 1°, c, § 2, 1°, b, en 2°, b,
-    van het Wetboek.
+         Vrijstelling ingesteld bij artikel 40, § 1, 1°, c, § 2, 1°, b, en 2°, b,
+                                         van het Wetboek.
 
 #### Art. 38
 
 (De tekst van KB nr. 7, artikel 38, wordt opgeheven met ingang van 01.01.1996 (Art.19,
 KB 25.02.1996)
 
-    (opgeheven)
-
 ### AFDELING 4
-    Vrijstelling ingesteld bij artikel 40, § 1, 1°, d, van het Wetboek.
+          Vrijstelling ingesteld bij artikel 40, § 1, 1°, d, van het Wetboek.
 
 #### Art. 39
 (De tekst van KB nr. 7, artikel 39, werd vervangen met ingang van 01.01.2011 (Art.1,
@@ -1558,7 +1581,7 @@ zijn om vanuit België te worden vervoerd of verzonden naar een andere lidstaat.
 de toepassing van dit artikel.
 
 ### AFDELING 5
-    Vrijstelling ingesteld bij artikel 40, § 1, 2°, van het Wetboek.
+           Vrijstelling ingesteld bij artikel 40, § 1, 2°, van het Wetboek.
 
 #### Art. 40
 
@@ -1593,36 +1616,36 @@ bepaald voor de toepassing van de in dit artikel bedoelde vrijstelling.
 § 1. Gedeeltelijke vrijstelling van de belasting wordt verleend voor de invoer van de hierna
 vermelde goederen:
 
-1° goederen die worden wederingevoerd na buiten de Gemeenschap een herstelling,
-    daaronder begrepen het reviseren en het afstellen, te hebben ondergaan;
+1°     goederen die worden wederingevoerd na buiten de Gemeenschap een herstelling,
+       daaronder begrepen het reviseren en het afstellen, te hebben ondergaan;
 
-2° goederen die worden wederingevoerd na buiten de Gemeenschap een bewerking,
-    daaronder begrepen het monteren en het samenbouwen, te hebben ondergaan;
+2°     goederen die worden wederingevoerd na buiten de Gemeenschap een bewerking,
+       daaronder begrepen het monteren en het samenbouwen, te hebben ondergaan;
 
-3° goederen waarvan delen of onderdelen werden uitgevoerd buiten de Gemeenschap en
-    worden wederingevoerd na aan die goederen te zijn aangebracht;
+3°     goederen waarvan delen of onderdelen werden uitgevoerd buiten de Gemeenschap en
+       worden wederingevoerd na aan die goederen te zijn aangebracht;
 
-4° goederen die zijn vervaardigd door het verwerken van goederen die met dat doel werden
-    uitgevoerd buiten de Gemeenschap.
+4°     goederen die zijn vervaardigd door het verwerken van goederen die met dat doel werden
+       uitgevoerd buiten de Gemeenschap.
 
-§ 2. De vrijstelling wordt verleend onder de volgende voorwaarden:
+§ 2.   De vrijstelling wordt verleend onder de volgende voorwaarden:
 
-1° de goederen moeten van België worden uitgevoerd buiten de Gemeenschap na in België
-    onder de regeling van de vrijstelling te zijn geplaatst;
+1°     de goederen moeten van België worden uitgevoerd buiten de Gemeenschap na in België
+       onder de regeling van de vrijstelling te zijn geplaatst;
 
-2° de goederen moeten onderworpen geweest zijn aan de algemene belastingregels voor de
-    Belgische binnenlandse markt en uit hoofde van uitvoer niet in aanmerking zijn gekomen
-    voor ontheffing van de belasting;
+2°     de goederen moeten onderworpen geweest zijn aan de algemene belastingregels voor de
+       Belgische binnenlandse markt en uit hoofde van uitvoer niet in aanmerking zijn gekomen
+       voor ontheffing van de belasting;
 
-3° de uitvoer buiten de Gemeenschap en de wederinvoer van de goederen die één of meer
-    van de in paragraaf 1 bedoelde behandelingen hebben ondergaan moeten door dezelfde
-    persoon zijn gedaan;
+3°     de uitvoer buiten de Gemeenschap en de wederinvoer van de goederen die één of meer
+       van de in paragraaf 1 bedoelde behandelingen hebben ondergaan moeten door dezelfde
+       persoon zijn gedaan;
 
-4° de dienst die de in artikel 6, § 4, bedoelde maakloonwerker die als geadresseerde
-    optreedt, aan zijn opdrachtgever verleent, moet worden aangemerkt als een werk dat
-    materieel in België wordt verricht voor de toepassing van artikel 21bis, § 2, 6°, c), van
-    het Wetboek wanneer die opdrachtgever een persoon is bedoeld in artikel 21bis, § 1, van
-    het wetboek.
+4°     de dienst die de in artikel 6, § 4, bedoelde maakloonwerker die als geadresseerde
+       optreedt, aan zijn opdrachtgever verleent, moet worden aangemerkt als een werk dat
+       materieel in België wordt verricht voor de toepassing van artikel 21bis, § 2, 6°, c), van
+       het Wetboek wanneer die opdrachtgever een persoon is bedoeld in artikel 21bis, § 1, van
+       het wetboek.
 
 § 3. De verschuldigde belasting wordt berekend over de waarde van de in het buitenland
 geleverde goederen en van de diensten die niet in de Gemeenschap plaatsvinden
@@ -1634,18 +1657,18 @@ voor de in België ingevoerde goederen.
 § 4. Gehele vrijstelling van de belasting wordt verleend voor de goederen die worden
 wederingevoerd na:
 
-1° uitsluitend één of meer dienstverrichtingen te hebben ondergaan en voor zover die
-    handelingen overeenkomstig artikel 21, § 2, van het Wetboek in de Gemeenschap
-    plaatsvinden;
+1°     uitsluitend één of meer dienstverrichtingen te hebben ondergaan en voor zover die
+       handelingen overeenkomstig artikel 21, § 2, van het Wetboek in de Gemeenschap
+       plaatsvinden;
 
-2° één of meer in paragraaf 1 bedoelde handelingen te hebben ondergaan die niet aan de
-    belasting zouden zijn onderworpen indien ze in België hadden plaatsgevonden.
+2°     één of meer in paragraaf 1 bedoelde handelingen te hebben ondergaan die niet aan de
+       belasting zouden zijn onderworpen indien ze in België hadden plaatsgevonden.
 
 § 5. Door of vanwege de Minister van Financiën worden de modaliteiten en de formaliteiten
 bepaald voor de toepassing van de in dit artikel bedoelde vrijstelling.
 
 ### AFDELING 6
-    Vrijstelling ingesteld bij artikel 40, § 2, van het Wetboek.
+              Vrijstelling ingesteld bij artikel 40, § 2, van het Wetboek.
 
 #### Art. 42
 (De tekst van KB nr. 7, artikel 42, is gewijzigd met ingang van 01.01.2010 (Art. 16,
@@ -1682,7 +1705,7 @@ reeds in die waarde begrepen sommen die, overeenkomstig artikel 34, § 2, van he
 de maatstaf van heffing moeten worden opgenomen.
 
 ### AFDELING 7
-    Vrijstelling ingesteld bij artikel 40, § 4, van het Wetboek.
+              Vrijstelling ingesteld bij artikel 40, § 4, van het Wetboek.
 
 #### Art. 43
 (De tekst van KB nr. 7, artikel 43, werd vervangen met ingang van 01.12.2008 (Art. 2,
@@ -1700,124 +1723,126 @@ beschouwd als persoonlijke bagage.
 § 2. De vrijstelling wordt verleend met inachtneming van de hierna genoemde beperkingen en
 onder de hierna gestelde voorwaarden:
 
-1° het moet gaan om een invoer waaraan elk handelskarakter vreemd is. Als invoer waaraan
-    elk handelskarakter vreemd is wordt aangemerkt de invoer die een incidenteel karakter
-    draagt en uitsluitend betrekking heeft op goederen bestemd voor het persoonlijk gebruik
-    van de reiziger dan wel voor het gebruik door leden van zijn gezin of bestemd om ten
-    geschenke te worden aangeboden, mits blijkens de aard en de hoeveelheid van de
-    goederen aan die invoer geen commerciële overwegingen ten grondslag liggen;
+1°    het moet gaan om een invoer waaraan elk handelskarakter vreemd is. Als invoer waaraan
+      elk handelskarakter vreemd is wordt aangemerkt de invoer die een incidenteel karakter
+      draagt en uitsluitend betrekking heeft op goederen bestemd voor het persoonlijk gebruik
+      van de reiziger dan wel voor het gebruik door leden van zijn gezin of bestemd om ten
+      geschenke te worden aangeboden, mits blijkens de aard en de hoeveelheid van de
+      goederen aan die invoer geen commerciële overwegingen ten grondslag liggen;
 
-2° de totale waarde van de goederen mag, per persoon, niet meer bedragen dan:
+2°    de totale waarde van de goederen mag, per persoon, niet meer bedragen dan:
 
-    - 430 EUR voor luchtreizigers en zeereizigers;
+      -        430 EUR voor luchtreizigers en zeereizigers;
 
-    - 300 EUR voor andere reizigers.
+      -        300 EUR voor andere reizigers.
 
-    Deze drempelbedragen worden beperkt tot 175 EUR ten aanzien van:
+      Deze drempelbedragen worden beperkt tot 175 EUR ten aanzien van:
 
-    a) reizigers jonger dan vijftien jaar;
+      a)       reizigers jonger dan vijftien jaar;
 
-    b) het personeel van een vervoermiddel gebruikt voor reizen vanuit een derde land of
-    een derdelands gebied, tenzij dat personeel het bewijs levert dat het zich niet
-    verplaatst in het kader van zijn beroepswerkzaamheid.
+      b)       het personeel van een vervoermiddel gebruikt voor reizen vanuit een derde land of
+               een derdelands gebied, tenzij dat personeel het bewijs levert dat het zich niet
+               verplaatst in het kader van zijn beroepswerkzaamheid.
 
-    Onder ″luchtreizigers″ en ″zeereizigers″ wordt verstaan de personen die reizen
-    door de lucht of over zee, met uitzondering van de particuliere plezierlucht- of -
-    zeevaart.
+               Onder ″luchtreizigers″ en ″zeereizigers″ wordt verstaan de personen die reizen
+               door de lucht of over zee, met uitzondering van de particuliere plezierlucht- of -
+               zeevaart.
 
-    Onder ″particuliere plezierluchtvaart″ en ″particuliere plezierzeevaart″ wordt
-    verstaan het gebruik van een luchtvaartuig of een zeewaardig vaartuig door de
-    eigenaar daarvan of door de natuurlijke persoon of rechtspersoon die het
-    gebruiksrecht daarvan geniet door huur of anderszins, voor andere dan
-    commerciële doeleinden en met name voor andere doeleinden dan voor het vervoer
-    van personen of goederen of voor het verrichten van diensten onder bezwarende
-    titel, dan wel ten behoeve van overheidsinstanties.
+               Onder ″particuliere plezierluchtvaart″ en ″particuliere plezierzeevaart″ wordt
+               verstaan het gebruik van een luchtvaartuig of een zeewaardig vaartuig door de
+               eigenaar daarvan of door de natuurlijke persoon of rechtspersoon die het
+               gebruiksrecht daarvan geniet door huur of anderszins, voor andere dan
+               commerciële doeleinden en met name voor andere doeleinden dan voor het vervoer
+               van personen of goederen of voor het verrichten van diensten onder bezwarende
+               titel, dan wel ten behoeve van overheidsinstanties.
 
-    Voor de berekening van bovenbedoelde drempelbedragen mag de waarde van een
-    afzonderlijk goed niet worden gesplitst.
+      Voor de berekening van bovenbedoelde drempelbedragen mag de waarde van een
+      afzonderlijk goed niet worden gesplitst.
 
-    Worden buiten beschouwing gelaten voor de berekening van deze drempelbedragen:
+      Worden buiten beschouwing gelaten voor de berekening van deze drempelbedragen:
 
-    a) de waarde van de persoonlijke bagage van de reiziger die tijdelijk wordt ingevoerd
-    of na tijdelijke uitvoer wordt wederingevoerd;
+      a)       de waarde van de persoonlijke bagage van de reiziger die tijdelijk wordt ingevoerd
+               of na tijdelijke uitvoer wordt wederingevoerd;
 
-    b) de waarde van de geneesmiddelen die zijn benodigd voor het persoonlijk gebruik
-    van de reiziger;
+      b)       de waarde van de geneesmiddelen die zijn benodigd voor het persoonlijk gebruik
+               van de reiziger;
 
-    c) de waarde van de goederen bedoeld in 3° en 4°;
+      c)       de waarde van de goederen bedoeld in 3° en 4°;
 
-3° ten aanzien van de hierna genoemde goederen wordt de vrijstelling beperkt tot volgende
-    hoeveelheden:
+3°    ten aanzien van de hierna genoemde goederen wordt de vrijstelling beperkt tot volgende
+      hoeveelheden:
 
-    a) tabaksprodukten:
-    - sigaretten 200 stuks
-    of
-    - cigarillo's (sigaren die per stuk niet meer dan 3 gram 100 stuks
-    wegen)
-    of
+      a)   tabaksprodukten:
+           -     sigaretten                                                   200 stuks
+                        of
+           -     cigarillo's (sigaren die per stuk niet meer dan 3 gram       100 stuks
+                 wegen)
+                         of
 
-    - sigaren 50 stuks
-    of
-    - rooktabak 250 gram
-    of
-    - een combinatie van tabaksproducten, mits de som van
-    de percentages die van de afzonderlijke vrijstellingen
-    worden gebruikt, niet meer dan 100 pct. bedraagt
+           -       sigaren                                                       50 stuks
+                         of
+           -       rooktabak                                                     250 gram
+                         of
+           -       een combinatie van tabaksproducten, mits de som van
+                   de percentages die van de afzonderlijke vrijstellingen
+                   worden gebruikt, niet meer dan 100 pct. bedraagt
 
-    b) niet mousserende wijnen in totaal 4 liter
+      b)   niet mousserende wijnen                                               in totaal 4 liter
 
-    c) bier in totaal 16 liter
+      c)   bier                                                                  in totaal 16 liter
 
-    d) alcohol en alcoholhoudende dranken andere dan nietmousserende wijnen en bier:
-    - met een alcoholgehalte van meer dan 22 % vol.; niet in totaal 1 liter
-    gedenatureerde ethylalcohol van 80 % vol. en hoger
-    of
-    met een alcoholgehalte van maximaal 22 % vol.; in totaal 2 liter
-    of
-    - een combinatie van alcohol en alcoholhoudende
-    dranken andere dan niet-mousserende wijn en bier,
-    mits de som van de percentages die van de
-    afzonderlijke vrijstellingen worden gebruikt, niet meer
-    dan 100 pct. bedraagt;
+      d)   alcohol en alcoholhoudende dranken andere dan niet-
+           mousserende wijnen en bier:
+           -    met een alcoholgehalte van meer dan 22 % vol.; niet              in totaal 1 liter
+                gedenatureerde ethylalcohol van 80 % vol. en hoger
+                     of
+                   met een alcoholgehalte van maximaal 22 % vol.;                in totaal 2 liter
+                         of
+           -       een combinatie van alcohol en alcoholhoudende
+                   dranken andere dan niet-mousserende wijn en bier,
+                   mits de som van de percentages die van de
+                   afzonderlijke vrijstellingen worden gebruikt, niet meer
+                   dan 100 pct. bedraagt;
 
-    Voor de in 2°, tweede lid, b) beoogde personen wordt de vrijstelling evenwel beperkt tot
-    volgende hoeveelheden:
+      Voor de in 2°, tweede lid, b) beoogde personen wordt de vrijstelling evenwel beperkt tot
+      volgende hoeveelheden:
 
-    a) tabaksprodukten:
-    - sigaretten 40 stuks
-    of
-    - cigarillo's (sigaren die per stuk niet meer dan 3 gram 20 stuks
-    wegen)
-    of
-    - sigaren 10 stuks
-    of
-    - rooktabak 50 gram
-    of
-    - een combinatie van tabaksproducten, mits de som
-    van de percentages die van de afzonderlijke
-    vrijstellingen worden gebruikt, niet meer dan 100 pct.
-    bedraagt
+      a)    tabaksprodukten:
+            -      sigaretten                                                    40 stuks
+                         of
+            -      cigarillo's (sigaren die per stuk niet meer dan 3 gram        20 stuks
+                   wegen)
+                           of
+            -      sigaren                                                       10 stuks
+                         of
+            -      rooktabak                                                     50 gram
+                         of
+            -      een combinatie van tabaksproducten, mits de som
+                   van de percentages die van de afzonderlijke
+                   vrijstellingen worden gebruikt, niet meer dan 100 pct.
+                   bedraagt
 
-    b) niet mousserende wijnen in totaal 2 liter
+      b)    niet mousserende wijnen                                              in totaal 2 liter
 
-    c) bier in totaal 8 liter
+      c)    bier                                                                 in totaal 8 liter
 
-    d) alcohol en alcoholhoudende dranken andere dan nietmousserende wijnen en bier:
-    - met een alcoholgehalte van meer dan 22 % vol.; niet in totaal 0,25 liter
-    gedenatureerde ethylalcohol van 80 % vol. en hoger
-    of
+      d)    alcohol en alcoholhoudende dranken andere dan niet-
+            mousserende wijnen en bier:
+            -    met een alcoholgehalte van meer dan 22 % vol.; niet             in totaal 0,25 liter
+                 gedenatureerde ethylalcohol van 80 % vol. en hoger
+                      of
 
-    met een alcoholgehalte van maximaal 22 % vol.; in totaal 0,5 liter
-    - of
-    een combinatie van alcohol en alcoholhoudende
-    dranken andere dan niet-mousserende wijn en bier,
-    mits de som van de percentages die van de
-    afzonderlijke vrijstellingen worden gebruikt, niet meer
-    dan 100 pct. bedraagt;
+                 met een alcoholgehalte van maximaal 22 % vol.;                in totaal 0,5 liter
+            -           of
+                 een combinatie van alcohol en alcoholhoudende
+                 dranken andere dan niet-mousserende wijn en bier,
+                 mits de som van de percentages die van de
+                 afzonderlijke vrijstellingen worden gebruikt, niet meer
+                 dan 100 pct. bedraagt;
 
-4° voor elke soort motorvoertuig wordt vrijstelling verleend voor de brandstof die zich in het
-    normale reservoir van dat voertuig bevindt, alsmede voor een maximale hoeveelheid van
-    tien liter brandstof in een draagbaar reservoir.
+4°    voor elke soort motorvoertuig wordt vrijstelling verleend voor de brandstof die zich in het
+      normale reservoir van dat voertuig bevindt, alsmede voor een maximale hoeveelheid van
+      tien liter brandstof in een draagbaar reservoir.
 
 § 3. Aan reizigers jonger dan zeventien jaar wordt geen vrijstelling verleend voor de goederen
 bedoeld in paragraaf 2, 3°.
@@ -1841,66 +1866,66 @@ goederen die zijn vervat in kleine zendingen zonder commercieel karakter die doo
 particulier vanuit een derde land of derdelands gebied worden verzonden naar een andere
 particulier.
 
-§2 In de zin van § 1 wordt verstaan onder "kleine zendingen zonder commercieel karakter",
+§2    In de zin van § 1 wordt verstaan onder "kleine zendingen zonder commercieel karakter",
 zendingen die tegelijkertijd:
 
-- een incidenteel karakter dragen;
+-     een incidenteel karakter dragen;
 
-- uitsluitend goederen bevatten, bestemd voor persoonlijk gebruik van de geadresseerde
-    dan wel voor gebruik door de leden van zijn gezin, mits blijkens de aard en de
-    hoeveelheid der goederen aan die zendingen geen commerciële overwegingen ten
-    grondslag liggen;
+-     uitsluitend goederen bevatten, bestemd voor persoonlijk gebruik van de geadresseerde
+      dan wel voor gebruik door de leden van zijn gezin, mits blijkens de aard en de
+      hoeveelheid der goederen aan die zendingen geen commerciële overwegingen ten
+      grondslag liggen;
 
-- zijn samengesteld uit goederen waarvan de totale waarde, met inbegrip van de goederen
-    bedoeld in § 3, niet meer bedragen dan 45 EUR;
+-     zijn samengesteld uit goederen waarvan de totale waarde, met inbegrip van de goederen
+      bedoeld in § 3, niet meer bedragen dan 45 EUR;
 
-- door de afzender aan de geadresseerde worden gezonden zonder dat hiervoor enigerlei
-    betaling plaatsvindt.
+-     door de afzender aan de geadresseerde worden gezonden zonder dat hiervoor enigerlei
+      betaling plaatsvindt.
 
-§3 Voor de hierna vermelde goederen geldt § 2 slechts met inachtneming van de volgende
+§3   Voor de hierna vermelde goederen geldt § 2 slechts met inachtneming van de volgende
 kwantitatieve beperkingen:
 
-a) tabaksprodukten:
-    sigaretten 50 stuks
-    of
+a)   tabaksprodukten:
+           sigaretten                                                         50 stuks
+                  of
 
-    cigarillo's (sigaren die per stuk niet meer dan 3 gram 25 stuks
-    wegen)
-    of
-    sigaren 10 stuks
-    of
-    rooktabak 50 gram
+            cigarillo's (sigaren die per stuk niet meer dan 3 gram           25 stuks
+            wegen)
+                    of
+            sigaren                                                          10 stuks
+                   of
+            rooktabak                                                        50 gram
 
-b) alcohol en alcoholische dranken:
-    - gedistilleerde en alcoholhoudendel dranken, met een 1 fles van het
-    alcoholgehalte van meer dan 22 % vol.; niet gebruikelijke type
-    gedenatureerde ethylalcohol van 80 % vol. en hoger (tot 1 liter)
-    of
-    gedistilleerde en alcoholhoudende dranken, aperitieven op 1 fles van het
-    basis van wijn of van alcohol, tafia, saké of soortgelijke gebruikelijke type
-    dranken met een alcoholgehalte van ten hoogste 22 % (tot 1 liter)
-    vol.; mousserende wijnen, likeurwijnen
-    of
-    - niet-mousserende wijnen 2 liter
+b)   alcohol en alcoholische dranken:
+     -      gedistilleerde en alcoholhoudendel dranken, met een              1 fles van het
+            alcoholgehalte van meer dan 22 % vol.; niet                      gebruikelijke type
+            gedenatureerde ethylalcohol van 80 % vol. en hoger               (tot 1 liter)
+                  of
+            gedistilleerde en alcoholhoudende dranken, aperitieven op        1 fles van het
+            basis van wijn of van alcohol, tafia, saké of soortgelijke       gebruikelijke type
+            dranken met een alcoholgehalte van ten hoogste 22 %              (tot 1 liter)
+            vol.; mousserende wijnen, likeurwijnen
+                   of
+     -      niet-mousserende wijnen                                          2 liter
 
-c) parfum 50 gram
-    en
-    toiletwater 0,25 liter of 8 ons
+c)   parfum                                                                  50 gram
+              en
+     toiletwater                                                             0,25 liter of 8 ons
 
-d) koffie 500 gram
-    of
-    koffie-extracten en -essences 200 gram
+d)   koffie                                                                  500 gram
+              of
+     koffie-extracten en -essences                                           200 gram
 
-e) thee 100 gram
-    of
-    thee-extracten en -essences 40 gram.
+e)   thee                                                                    100 gram
+              of
+     thee-extracten en -essences                                             40 gram.
 
-§4 De in § 3 genoemde goederen die in een kleine zending zonder commercieel karakter zijn
+§4     De in § 3 genoemde goederen die in een kleine zending zonder commercieel karakter zijn
 vervat, maar de in die paragraaf vastgestelde hoeveelheden overschrijden, worden geheel van
 de vrijstelling uitgesloten.
 
 ## HOOFDSTUK V
-    Voorziening om de invordering van de belasting te verzekeren.
+           Voorziening om de invordering van de belasting te verzekeren.
 
 #### Art. 45
 
@@ -1912,14 +1937,14 @@ de Algemene Administratie van de Douane en Accijnzen en de administratie belast 
 belasting over de toegevoegde waarde, in de hierna vermelde gevallen, een borgtocht in geld
 eisen waarvan zij het bedrag bepalen:
 
-1° wanneer zij oordelen dat de belasting onvoldoende geheven is of dat het recht op
-    vrijstelling niet op afdoende wijze is aangetoond;
+1°       wanneer zij oordelen dat de belasting onvoldoende geheven is of dat het recht op
+         vrijstelling niet op afdoende wijze is aangetoond;
 
-2° wanneer de belasting niet moet worden voldaan op het tijdstip waarop de goederen
-    worden aangegeven;
+2°    wanneer de belasting niet moet worden voldaan op het tijdstip waarop de goederen
+      worden aangegeven;
 
-3° wanneer de belasting wordt voldaan tegen een tarief dat lager is dan het hoogste dat
-    voor het ingevoerde goed verschuldigd kan zijn.
+3°    wanneer de belasting wordt voldaan tegen een tarief dat lager is dan het hoogste dat
+      voor het ingevoerde goed verschuldigd kan zijn.
 
 De borgtocht moet worden gestort op het kantoor dat door één van de genoemde administraties
 is aangewezen. Die administraties mogen een andere zekerheid, gesteld volgens de regelen die
@@ -1929,11 +1954,11 @@ Wanneer de geëiste borgtocht niet wordt gesteld voor goederen die nog onder dou
 staan, mag de douane de goederen ophouden of gebieden dat ze het land moeten verlaten.
 
 ## HOOFDSTUK VI
-    Opheffingsbepaling en inwerkingtreding.
+                         Opheffingsbepaling en inwerkingtreding.
 
 #### Art. 46
 
-(De tekst van KB nr. 7, artikel 46, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   7,   artikel    46,   is   van   toepassing    met   ingang     van    01.01.1993
 (KB 29.12.1992))
 
 Dit besluit vervangt het koninklijk besluit nr. 7, van 27 december 1977, met betrekking tot de
@@ -1941,168 +1966,171 @@ invoer van goederen voor de toepassing van de belasting over de toegevoegde waar
 
 #### Art. 47
 
-(De tekst van KB nr. 7, artikel 47, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   7,   artikel    47,   is   van   toepassing    met   ingang     van    01.01.1993
 (KB 29.12.1992))
 
 Dit besluit treedt in werking op 1 januari 1993.
 
 #### Art. 48
 
-(De tekst van KB nr. 7, artikel 48, is van toepassing met ingang van 01.01.1993
+(De tekst van KB        nr.   7,   artikel    48,   is   van   toepassing    met   ingang     van    01.01.1993
 (KB 29.12.1992))
 
 Onze Minister van Financiën is belast met de uitvoering van dit besluit.
 
-    Bijlage
+                                          Bijlage
 
-    Materiaal bedoeld in artikel 36, 21°, van het besluit
+                  Materiaal bedoeld in artikel 36, 21°, van het besluit
 
-    Code van het Tarief Omschrijving van invoerrechten
-    3704 00 Fotografische platen, film, papier, karton en textiel, belicht
-    doch niet ontwikkeld:
-    ex 3704 00 10 - Platen en film:
-    - cinematografische films, positief, van opvoedkundige,
-    wetenschappelijke of culturele aard
+     Code van het Tarief                       Omschrijving van invoerrechten
+          3704 00              Fotografische platen, film, papier, karton en textiel, belicht
+                               doch niet ontwikkeld:
+        ex 3704 00 10          -      Platen en film:
+                               -      cinematografische films, positief, van opvoedkundige,
+                                      wetenschappelijke of culturele aard
 
-    ex 3705 Fotografische platen en film, belicht en ontwikkeld, andere dan
-    cinematografische film:
-    - van opvoedkundige, wetenschappelijke of culturele aard
+            ex 3705            Fotografische platen en film, belicht en ontwikkeld, andere dan
+                               cinematografische film:
+                               -      van opvoedkundige, wetenschappelijke of culturele aard
 
-    3706 Cinematografische film, belicht en ontwikkeld, waarop al dan
-    niet geluid is vastgelegd of waarop uitsluitend geluid is
-    vastgelegd:
-    3706 10 - met een breedte van 35 mm of meer:
-    -- andere:
-    ex 3706 10 99 --- andere positieve:
-    - filmjournaals (al dan niet met geluid) die
-    gebeurtenissen vertonen welke op het moment
-    van invoer actueel zijn en waarvan ten hoogste
-    twee kopieën per onderwerp voor reproduktiedoeleinden worden ingevoerd
-    - archieffilms (al dan niet met geluid) bestemd om
-    aan nieuwsfilms te worden toegevoegd
-    - ontspanningsfilms die vooral voor kinderen en
-    jongeren geschikt zijn
-    - elders genoemd noch elders onder begrepen, van
-    opvoedkundige, wetenschappelijke of culturele
-    aard
-    3706 90 - andere:
-    -- andere:
-    --- andere positieve:
-    ex 3706 90 51 - filmjournaals (al dan niet met geluid) die
-    ex 3706 90 91 gebeurtenissen vertonen welke op het moment
-    ex 3706 90 99 van invoer actueel zijn en waarvan ten hoogste
-    twee kopieën per onderwerp voor reproduktiedoeleinden worden ingevoerd
-    - archieffilms (al dan niet met geluid) bestemd om
-    aan nieuwsfilms te worden toegevoegd
-    - ontspanningsfilms die vooral voor kinderen en
-    jongeren geschikt zijn
-    - elders genoemd, noch elders onder begrepen, van
-    opvoedkundige, wetenschappelijke of culturele
-    aard
+             3706              Cinematografische film, belicht en ontwikkeld, waarop al dan
+                               niet geluid is vastgelegd of waarop uitsluitend geluid is
+                               vastgelegd:
+            3706 10            -      met een breedte van 35 mm of meer:
+                               --      andere:
+        ex 3706 10 99          ---      andere positieve:
+                                      -     filmjournaals (al dan niet met geluid) die
+                                            gebeurtenissen vertonen welke op het moment
+                                            van invoer actueel zijn en waarvan ten hoogste
+                                            twee kopieën per onderwerp voor reproduktie-
+                                            doeleinden worden ingevoerd
+                                      -     archieffilms (al dan niet met geluid) bestemd om
+                                            aan nieuwsfilms te worden toegevoegd
+                                      -     ontspanningsfilms die vooral voor kinderen en
+                                            jongeren geschikt zijn
+                                      -     elders genoemd noch elders onder begrepen, van
+                                            opvoedkundige, wetenschappelijke of culturele
+                                            aard
+            3706 90            -      andere:
+                               --      andere:
+                               ---      andere positieve:
+        ex 3706 90 51                 -     filmjournaals (al dan niet met geluid) die
+        ex 3706 90 91                       gebeurtenissen vertonen welke op het moment
+        ex 3706 90 99                       van invoer actueel zijn en waarvan ten hoogste
+                                            twee kopieën per onderwerp voor reproduktie-
+                                            doeleinden worden ingevoerd
+                                      -     archieffilms (al dan niet met geluid) bestemd om
+                                            aan nieuwsfilms te worden toegevoegd
+                                      -     ontspanningsfilms die vooral voor kinderen en
+                                            jongeren geschikt zijn
+                                      -     elders genoemd, noch elders onder begrepen, van
+                                            opvoedkundige, wetenschappelijke of culturele
+                                            aard
 
-    4911 Ander drukwerk, prenten, gravures en foto's daaronder
-    begrepen:
-    - andere:
-    -- andere:
-    --- andere:
-    - mikrokaarten of andere dragers die gebruikt
-    worden door voorlichtings- en documentatie
-    diensten die gebruik maken van een computer,
+             4911              Ander drukwerk, prenten, gravures en foto's daaronder
+                               begrepen:
+                               -     andere:
+                               --     andere:
+                               ---     andere:
+                                     -     mikrokaarten of andere dragers die gebruikt
+                                           worden door voorlichtings- en documentatie
+                                           diensten die gebruik maken van een computer,
 
-    van opvoedkundige, wetenschappelijke of
-    culturele aard
-    - wandplaten uitsluitend bestemd voor
-    demonstratie- en onderwijsdoeleinden
+                                     van     opvoedkundige,     wetenschappelijke   of
+                                     culturele aard
+                               -     wandplaten      uitsluitend     bestemd      voor
+                                     demonstratie- en onderwijsdoeleinden
 
-    ex 8524 Grammofoonplaten, banden en andere dragers voor het
-    opnemen van geluid of voor dergelijke doeleinden, waarop is
-    opgenomen, galvanische vormen en matrijzen voor het maken
-    van platen daaronder begrepen, andere dan de goederen
-    bedoeld bij hoofdstuk 37 van het Tarief van invoerrechten:
-    - van opvoedkundige, wetenschappelijke of culturele aard
+            ex 8524     Grammofoonplaten, banden en andere dragers voor het
+                        opnemen van geluid of voor dergelijke doeleinden, waarop is
+                        opgenomen, galvanische vormen en matrijzen voor het maken
+                        van platen daaronder begrepen, andere dan de goederen
+                        bedoeld bij hoofdstuk 37 van het Tarief van invoerrechten:
+                        -      van opvoedkundige, wetenschappelijke of culturele aard
 
-    ex 9023 00 Instrumenten, apparaten, toestellen en modellen, bestemd voor
-    het geven van demonstraties (bijvoorbeeld voor onderwijs of
-    voor (tentoonstellingen), niet bruikbaar voor andere
-    doeleinden:
-    - modellen, maquettes en wandkaarten van opvoedkundige, wetenschappelijke of culturele aard, uitsluitend
-    bestemd voor demonstratie- en onderwijsdoeleinden
-    - verkleinde visuele maquettes of modellen van abstracte
-    vormen zoals molecuulstructuren of wiskunde-formules
+          ex 9023 00    Instrumenten, apparaten, toestellen en modellen, bestemd voor
+                        het geven van demonstraties (bijvoorbeeld voor onderwijs of
+                        voor   (tentoonstellingen),  niet   bruikbaar    voor    andere
+                        doeleinden:
+                        -      modellen, maquettes en wandkaarten van opvoed-
+                               kundige, wetenschappelijke of culturele aard, uitsluitend
+                               bestemd voor demonstratie- en onderwijsdoeleinden
+                        -      verkleinde visuele maquettes of modellen van abstracte
+                               vormen zoals molecuulstructuren of wiskunde-formules
 
-    Diversen Hologrammen voor projectie met laserstraal
-    Multimediaseries
-    Geprogrammeerd onderwijsmateriaal, ook in sets vergezeld van
-    het overeenkomstig gedrukte materiaal.
+           Diversen     Hologrammen voor projectie met laserstraal
+                        Multimediaseries
+                        Geprogrammeerd onderwijsmateriaal, ook in sets vergezeld van
+                        het overeenkomstig gedrukte materiaal.
 
 Bijlage
 Recente wijzigingen – KB nr. 7
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
-* KB van 07.11.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 7,
+*   KB van 07.11.2019 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 7,
     10, 24, 31, 35, 46 en 56 met betrekking tot de belasting over de toegevoegde waarde
     (B.S. 25.11.2019, pg. 108072)
-    Wijzigt met ingang van 05.12.2019:
+          Wijzigt met ingang van 05.12.2019:
 
-    - art. 40 (§ 1, gewijzigd)
-    - art. 41 (§ 3, vervangen en de Nederlandse tekst van § 4, 2°, gewijzigd)
+               -     art. 40 (§ 1, gewijzigd)
+               -     art. 41 (§ 3, vervangen en de Nederlandse tekst van § 4, 2°, gewijzigd)
 
-* KB van 29.06.2015 - Koninklijk besluit tot wijziging van het koninklijk besluit nr. 7 van 29
+*   KB van 29.06.2015 - Koninklijk besluit tot wijziging van het koninklijk besluit nr. 7 van 29
     december 1992 met betrekking tot de invoer van goederen voor de toepassing van de
     belasting over de toegevoegde waarde (B.S. 14.07.2015, pg. 45887)
-    Wijzigt met ingang van 24.07.2015:
+          Wijzigt met ingang van 24.07.2015:
 
-    - art. 6 (§ 5, eerste lid, vervangen)
-    - art. 12 (volledig artikel vervangen)
-    - art. 13 (volledig artikel vervangen)
-    - art. 14 (volledig artikel vervangen)
-    - art. 15 (volledig artikel vervangen)
-    - art. 16 (volledig artikel vervangen)
-    - art. 17 (volledig artikel vervangen)
-    - art. 18 (volledig artikel vervangen)
-    - art. 19 (volledig artikel vervangen)
-    - art. 20 (volledig artikel vervangen)
-    - art. 21 (volledig artikel vervangen)
-    - art. 22 (volledig artikel vervangen)
-    - art. 23 (volledig artikel vervangen)
-    - art. 24 (volledig artikel vervangen)
-    - art. 25 (volledig artikel vervangen)
-    - art. 26 (volledig artikel vervangen)
-    - art. 27 (volledig artikel vervangen)
-    - art. 28 (volledig artikel vervangen)
-    - art. 29 (volledig artikel vervangen)
-    - art. 30 (volledig artikel vervangen)
-    - art. 31 (volledig artikel vervangen)
-    - art. 32 (volledig artikel vervangen)
-    - art. 33 (volledig artikel vervangen)
-    - art. 34 (volledig artikel vervangen)
-    - art. 35 (volledig artikel vervangen)
-    - art. 36 (volledig artikel vervangen)
+               -     art. 6 (§ 5, eerste lid, vervangen)
+               -     art. 12 (volledig artikel vervangen)
+               -     art. 13 (volledig artikel vervangen)
+               -     art. 14 (volledig artikel vervangen)
+               -     art. 15 (volledig artikel vervangen)
+               -     art. 16 (volledig artikel vervangen)
+               -     art. 17 (volledig artikel vervangen)
+               -     art. 18 (volledig artikel vervangen)
+               -     art. 19 (volledig artikel vervangen)
+               -     art. 20 (volledig artikel vervangen)
+               -     art. 21 (volledig artikel vervangen)
+               -     art. 22 (volledig artikel vervangen)
+               -     art. 23 (volledig artikel vervangen)
+               -     art. 24 (volledig artikel vervangen)
+               -     art. 25 (volledig artikel vervangen)
+               -     art. 26 (volledig artikel vervangen)
+               -     art. 27 (volledig artikel vervangen)
+               -     art. 28 (volledig artikel vervangen)
+               -     art. 29 (volledig artikel vervangen)
+               -     art. 30 (volledig artikel vervangen)
+               -     art. 31 (volledig artikel vervangen)
+               -     art. 32 (volledig artikel vervangen)
+               -     art. 33 (volledig artikel vervangen)
+               -     art. 34 (volledig artikel vervangen)
+               -     art. 35 (volledig artikel vervangen)
+               -     art. 36 (volledig artikel vervangen)
 
-* KB van 24.01.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
+*   KB van 24.01.2015 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
     4, 7, 9, 10, 11, 15, 19, 23, 24, 27, 31, 46, 47, 48, 50, 54 en 56 met betrekking tot de
     belasting over de toegevoegde waarde en het koninklijk besluit van 7 juni 2007 tot
     uitvoering van de artikelen 84quinquies tot 84decies van het wetboek van de belasting over
     de toegevoegde waarde (B.S. 20.02.2015 – Ed. 2, pg. 13872, erratum B.S. 17.04.2015, pg. 22342, erratum B.S.
     17.04.2015, pg. 22342)
-    Wijzigt met ingang van 16.05.2014:
-    - art. 5 (§ 4, eerste lid, 3°, gewijzigd)
-    - art. 7 (§ 1, gewijzigd)
-    - art. 45 (eerste lid, inleidende zin, gewijzigd)
+          Wijzigt met ingang van 16.05.2014:
+               -    art. 5 (§ 4, eerste lid, 3°, gewijzigd)
+               -    art. 7 (§ 1, gewijzigd)
+               -    art. 45 (eerste lid, inleidende zin, gewijzigd)
 
-* KB van 13.06.2013 - Koninklijk besluit tot wijziging van het koninklijk besluit nr. 7 van 29
+*   KB van 13.06.2013 - Koninklijk besluit tot wijziging van het koninklijk besluit nr. 7 van 29
     december 1992 met betrekking tot de invoer van goederen voor de toepassing van de
     belasting over de toegevoegde waarde (B.S. 24.06.2013)
-    Wijzigt met ingang van 04.07.2013:
-    - art. 5 (volledig artikel vervangen)
-    - art. 6 (§ 1, vervangen)
-    - art. 7 (§ 2, vervangen)
-    - art. 8 (volledig artikel vervangen)
+          Wijzigt met ingang van 04.07.2013:
+               -    art. 5 (volledig artikel vervangen)
+               -    art. 6 (§ 1, vervangen)
+               -    art. 7 (§ 2, vervangen)
+               -    art. 8 (volledig artikel vervangen)
 
-* KB van 30.04.2013 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
+*   KB van 30.04.2013 - Koninklijk besluit tot wijziging van de koninklijke besluiten nrs. 1, 2, 3,
     4, 7, 10, 13, 14, 18, 19, 20, 22, 23, 24, 31, 39, 46, 48, 51, 53, 54 en 56 met betrekking tot
     de belasting over de toegevoegde waarde (B.S. 08.05.2013)
-    Wijzigt met ingang van 01.01.2013:
+          Wijzigt met ingang van 01.01.2013:
 
-    - art. 5 (gewijzigd) [enkel de Nederlandse tekst]
-    - art. 6 (gewijzigd)
+               -    art. 5 (gewijzigd) [enkel de Nederlandse tekst]
+               -    art. 6 (gewijzigd)

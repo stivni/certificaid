@@ -2,9 +2,14 @@
 tags: ["XXI", "4.0"]
 itaa-lex-sectie: "XXI"
 wet: "Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van beroepskwalificaties"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "12.02.2008"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Wet-beroepskwalificaties-2008.pdf
@@ -12,27 +17,188 @@ provenance:
       version: 12.02.2008
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
+  generated_at: '2026-05-09T16:15:44Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 4
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 89
+      max_section_chars: 17620
+      file_size_chars: 173284
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: 89 headings, max 17620 chars, geen warns. Definities + bijlagen aanwezig. Bijlage V verwijst expliciet naar B.S. (tabel niet ge-extraheerd) — gemarkeerd in body, geen issue.
+      problemen: []
+      sterkte:
+        - 'TITEL- + #### Art.-hierarchie volledig'
+        - Bijlage-placeholders expliciet aangegeven (geen stille truncatie)
+        - Frontmatter/provenance correct
+      auto: false
+      run_id: qa-batch-W4
 ---
 
 # Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van beroepskwalificaties
 
 *Bijgewerkt tot en met 12.02.2008 — gecoördineerde versie.*
+
+## TITEL I. - Algemene bepalingen.
+
+#### Art. 1
+
+Deze wet regelt een aangelegenheid als bedoeld in artikel 78 van de Grondwet.
+
+  Definities.
+
+#### Art. 2
+
+§ 1. In deze wet wordt verstaan onder :
+  a) "gereglementeerd beroep" : een beroepswerkzaamheid of een geheel van beroepswerkzaamheden waartoe de toegang of waarvan de uitoefening of één van de wijzen van uitoefening krachtens wettelijke of bestuursrechtelijke bepalingen direct of indirect afhankelijk wordt gesteld van het bezit van bepaalde beroepskwalificaties; met name het voeren van een beroepstitel die door wettelijke of bestuursrechtelijke bepalingen beperkt is tot personen die een specifieke beroepskwalificatie bezitten, geldt als een wijze van uitoefening. Wanneer de eerste zin niet van toepassing is, wordt het in § 2 bedoelde beroep met een gereglementeerd beroep gelijkgesteld;
+  b) "beroepskwalificaties" : kwalificaties die worden gestaafd door een opleidingstitel, een bekwaamheidsattest zoals bedoeld in artikel 13, a), eerste streepje en/of beroepservaring;
+  c) "opleidingstitel" : een diploma, certificaat of andere titel die door een volgens de wettelijke of bestuursrechtelijke bepalingen van een lidstaat aangewezen autoriteit, is afgegeven ter afsluiting van een overwegend in de Europese [1 Unie]1 gevolgde beroepsopleiding. Wanneer de eerste zin niet van toepassing is, wordt de in § 3 bedoelde opleidingstitel met een opleidingstitel gelijkgesteld;
+  d) "bevoegde autoriteit" : ieder gemachtigde autoriteit of instelling die met name bevoegd is bewijsstukken van opleiding en andere documenten of informatie af te geven, respectievelijk aan te nemen, alsmede aanvragen te ontvangen en besluiten te nemen zoals bedoeld in deze wet;
+   e) "gereglementeerde opleiding" : elke opleiding die specifiek op de uitoefening van een bepaald beroep gericht is en die uit een studiecyclus bestaat die eventueel met een beroepsopleiding, een beroepsstage of praktijkervaring wordt aangevuld;
+   De structuur en het niveau van de beroepsopleiding, de beroepsstage of de praktijkervaring worden in wettelijke of bestuursrechtelijke bepalingen van de betrokken lidstaat vastgesteld of door een daartoe aangewezen autoriteit gecontroleerd of erkend;
+   f) "beroepservaring" : de daadwerkelijke en geoorloofde [1 voltijdse of gelijkwaardige deeltijdse]1 uitoefening van het betrokken beroep in een lidstaat;
+   g) "aanpassingsstage" : de uitoefening van een gereglementeerd beroep in België onder verantwoordelijkheid van een gekwalificeerde beoefenaar van het betrokken beroep, eventueel gekoppeld aan een aanvullende opleiding. De stage wordt beoordeeld. De nadere regels voor de aanpassingsstage en de beoordeling alsmede de status van de migrerende stagiair worden door de bevoegde autoriteit van België vastgesteld.
+   De status van de stagiair in België, met name wat betreft het verblijfsrecht en de sociale plichten, rechten en voordelen, alsmede vergoedingen en bezoldiging, wordt door de bevoegde autoriteiten van België vastgesteld overeenkomstig het toepasselijk Gemeenschapsrecht;
+   h) [1 "proeve van bekwaamheid" : een controle van de beroepskennis, -vaardigheden en -competenties van de aanvrager, die door de bevoegde Belgische autoriteiten wordt verricht of erkend en die tot doel heeft te beoordelen of de aanvrager de bekwaamheid bezit om in België een gereglementeerd beroep uit te oefenen.
+    Ten behoeve van deze controle stellen de bevoegde Belgische autoriteiten op basis van een vergelijking tussen de in België vereiste opleiding en de opleiding die de aanvrager heeft genoten, een lijst op van de vakgebieden die niet afgedekt worden door het diploma of de opleidingstitel(s) waarover de aanvrager beschikt.
+    Bij de proeve van bekwaamheid moet in aanmerking worden genomen dat de aanvrager in de lidstaat van oorsprong of herkomst een gekwalificeerde beroepsbeoefenaar is. De proef heeft betrekking op vakgebieden die moeten worden gekozen uit die op de lijst en waarvan de kennis een wezenlijke voorwaarde is om het beroep in kwestie in België te kunnen uitoefenen.
+    Deze proef kan ook betrekking hebben op de kennis van de deontologie die in België op de betrokken activiteiten van toepassing is.
+    De nadere regelingen voor de proeve van bekwaamheid alsook de status, die de aanvrager die zich op de proeve van bekwaamheid in België wil voorbereiden, in België heeft, worden vastgesteld door de bevoegde Belgische autoriteiten;]1
+   i) "bedrijfsleider" : eenieder die in een onderneming van de bedrijfstak in kwestie werkzaam is geweest : - hetzij als bedrijfsleider of als leider van een filiaal van een onderneming;
+   - hetzij als plaatsvervanger van de ondernemer of van de bedrijfsleider indien deze functie, wat verantwoordelijkheid betreft, met die van de vertegenwoordigde ondernemer of bedrijfsleider overeenstemt, of - hetzij als lid van het leidinggevend personeel, belast met commerciële en/of technische taken en verantwoordelijk voor één of meer afdelingen van de onderneming.
+   j) [1 "bevoegde Belgische autoriteit": autoriteit of instantie die haar bevoegdheid ontleent aan een wet of reglementering genomen krachtens een wet met het oog op het uitoefenen van een controle- of reglementeringsactiviteit van de toegang tot of de uitoefening van een beroep;]1
+   k) "Richtlijn" : de richtlijn 2005/36/EG van het Europees Parlement en de Raad van 7 september 2005 betreffende de erkenning van beroepskwalificaties [1 ...]1;
+   l) [1 "lidstaat": lidstaat van de Europese Unie alsook de andere staten waarop de richtlijn van toepassing is;]1
+   m) "Aanvrager" : onderdaan van een lidstaat;
+   [1 n) "beroepsstage" : een periode van beroepsuitoefening onder toezicht, mits dit een voorwaarde voor de toegang tot een gereglementeerd beroep vormt en die ofwel tijdens of na afloop van een opleiding die leidt tot een diploma kan plaatsvinden;
+    o) "Europese beroepskaart" : een elektronisch certificaat dat wordt afgegeven hetzij ten bewijze dat de beroepsbeoefenaar aan alle noodzakelijke voorwaarden voldoet om tijdelijk en incidenteel diensten te verrichten in een ontvangende lidstaat of dat de beroepskwalificaties met het oog op vestiging in een ontvangende lidstaat erkend zijn;
+    p) "een leven lang leren" : alle vormen van algemeen onderwijs, beroepsonderwijs en beroepsopleidingen, nietformeel onderwijs en informeel leren die gedurende het gehele leven plaatsvinden en die tot meer kennis, vaardigheden en competenties leiden, eventueel ook op het gebied van de beroepsethiek;
+    q) "dwingende redenen van algemeen belang" : redenen zoals in het bijzonder de openbare orde, de openbare veiligheid, de Staatsveiligheid, de volksgezondheid, de handhaving van het financiële evenwicht van het sociale zekerheidsstelsel, de bescherming van consumenten, afnemers van diensten en werknemers, de eerlijkheid van handelstransacties, de fraudebestrijding, de bescherming van het milieu en het stedelijke milieu, het dierenwelzijn, de intellectuele eigendom, het behoud van het nationaal historisch en artistiek erfgoed en doelstellingen van het sociaal beleid en het cultuurbeleid;
+    r) "Europees systeem voor de overdracht van studiepunten" of "ECTS-studiepunten" : het in het Europees hogeronderwijsstelsel gangbare studiepuntenoverdrachtsysteem;
+    s) "IMI" : het informatiesysteem van de interne markt beheerst door reglement 1024/2012/EU van het Europees Parlement en de Raad van 25 oktober 2012.]1
+   § 2. Met een gereglementeerd beroep wordt gelijkgesteld een beroep dat door de leden van een van de in bijlage I genoemde verenigingen of organisaties wordt uitgeoefend.
+   De in het eerste lid bedoelde verenigingen of organisaties hebben met name ten doel een hoog niveau in het betrokken beroepsgebied te bevorderen en te handhaven; daartoe genieten zij een specifieke erkenning door een lidstaat, geven zij aan hun leden een opleidingstitel af, onderwerpen zij hun leden aan beroepsregels die zij uitvaardigen, en geven zij hun het recht op een titel, afkorting of status die met de opleidingstitel overeenstemt.
+   § 3. Met een opleidingstitel wordt gelijkgesteld elke in een derde land afgegeven opleidingstitel, wanneer de houder ervan in het betrokken beroep een beroepservaring van drie jaar heeft op het grondgebied van de lidstaat die de betrokken opleidingstitel heeft erkend en indien die lidstaat deze beroepservaring bevestigt.
+   ----------
+   (1)<W 2016-12-25/44, art. 3, 002; Inwerkingtreding : 10-02-2017>
+
+#### Art. 2_WAALS_GEWEST.
+   § 1. In deze wet wordt verstaan onder :
+  a) "gereglementeerd beroep" : een beroepswerkzaamheid of een geheel van beroepswerkzaamheden waartoe de toegang of waarvan de uitoefening of één van de wijzen van uitoefening krachtens wettelijke of bestuursrechtelijke bepalingen direct of indirect afhankelijk wordt gesteld van het bezit van bepaalde beroepskwalificaties; met name het voeren van een beroepstitel die door wettelijke of bestuursrechtelijke bepalingen beperkt is tot personen die een specifieke beroepskwalificatie bezitten, geldt als een wijze van uitoefening. Wanneer de eerste zin niet van toepassing is, wordt het in § 2 bedoelde beroep met een gereglementeerd beroep gelijkgesteld;
+  b) "beroepskwalificaties" : kwalificaties die worden gestaafd door een opleidingstitel, een bekwaamheidsattest zoals bedoeld in artikel 13, a), eerste streepje en/of beroepservaring;
+  c) "opleidingstitel" : een diploma, certificaat of andere titel die door een volgens de wettelijke of bestuursrechtelijke bepalingen van een lidstaat aangewezen autoriteit, is afgegeven ter afsluiting van een overwegend in de Europese [2 Unie]2 gevolgde beroepsopleiding. Wanneer de eerste zin niet van toepassing is, wordt de in § 3 bedoelde opleidingstitel met een opleidingstitel gelijkgesteld;
+  d) "bevoegde autoriteit" : ieder gemachtigde autoriteit of instelling die met name bevoegd is bewijsstukken van opleiding en andere documenten of informatie af te geven, respectievelijk aan te nemen, alsmede aanvragen te ontvangen en besluiten te nemen zoals bedoeld in deze wet;
+  e) "gereglementeerde opleiding" : elke opleiding die specifiek op de uitoefening van een bepaald beroep gericht is en die uit een studiecyclus bestaat die eventueel met een beroepsopleiding, een beroepsstage of praktijkervaring wordt aangevuld;
+  De structuur en het niveau van de beroepsopleiding, de beroepsstage of de praktijkervaring worden in wettelijke of bestuursrechtelijke bepalingen van de betrokken lidstaat vastgesteld of door een daartoe aangewezen autoriteit gecontroleerd of erkend;
+  f) [2 "Beroepservaring": de daadwerkelijke en geoorloofde voltijdse of gelijkwaardige deeltijdse uitoefening van het betrokken beroep in een lidstaat;]2
+  g) "aanpassingsstage" : de uitoefening van een gereglementeerd beroep in België onder verantwoordelijkheid van een gekwalificeerde beoefenaar van het betrokken beroep, eventueel gekoppeld aan een aanvullende opleiding. De stage wordt beoordeeld. De nadere regels voor de aanpassingsstage en de beoordeling alsmede de status van de migrerende stagiair worden door de bevoegde autoriteit van België vastgesteld.
+  De status van de stagiair in België, met name wat betreft het verblijfsrecht en de sociale plichten, rechten en voordelen, alsmede vergoedingen en bezoldiging, wordt door de bevoegde autoriteiten van België vastgesteld overeenkomstig het toepasselijk Gemeenschapsrecht;
+  h) [2 "proeve van bekwaamheid": een controle van de beroepskennis, -vaardigheden en -competenties van de aanvrager, die door de bevoegde autoriteiten van het Gewest wordt verricht of erkend en die tot doel heeft te beoordelen of de aanvrager de bekwaamheid bezit om in het Waalse Gewest een gereglementeerd beroep uit te oefenen;]2
+  i) "bedrijfsleider" : eenieder die in een onderneming van de bedrijfstak in kwestie werkzaam is geweest : - hetzij als bedrijfsleider of als leider van een filiaal van een onderneming;
+  - hetzij als plaatsvervanger van de ondernemer of van de bedrijfsleider indien deze functie, wat verantwoordelijkheid betreft, met die van de vertegenwoordigde ondernemer of bedrijfsleider overeenstemt, of - hetzij als lid van het leidinggevend personeel, belast met commerciële en/of technische taken en verantwoordelijk voor één of meer afdelingen van de onderneming.
+  j) [3 "bevoegde autoriteit": autoriteit of instantie die haar bevoegdheid ontleent aan een wet of decreet of reglementering genomen krachtens een wet of decreet met het oog op het uitoefenen van een controle- of reglementeringsactiviteit van de toegang tot of de uitoefening van een beroep]3;
+  k) [2 "Richtlijn" : de richtlijn 2005/36/EG van het Europees Parlement en de Raad van 7 september 2005 betreffende de erkenning van beroepskwalificaties;]2
+  l) [2 "lidstaat": lidstaat van de Europese Unie alsook de andere staten waarop de richtlijn van toepassing is;]2
+  m) "Aanvrager" : onderdaan van een lidstaat;
+  [2 n) "beroepsstage" : een periode van beroepsuitoefening onder toezicht, mits dit een voorwaarde voor de toegang tot een gereglementeerd beroep vormt en die ofwel tijdens of na afloop van een opleiding die leidt tot een diploma kan plaatsvinden;
+   o) "Europese beroepskaart": een elektronisch certificaat dat wordt afgegeven hetzij ten bewijze dat de beroepsbeoefenaar aan alle noodzakelijke voorwaarden voldoet om tijdelijk en incidenteel diensten te verrichten in een ontvangende lidstaat of dat de beroepskwalificaties met het oog op vestiging in een ontvangende lidstaat erkend zijn;
+   p) "een leven lang leren" : alle vormen van algemeen onderwijs, beroepsonderwijs en beroepsopleidingen, nietformeel onderwijs en informeel leren die gedurende het gehele leven plaatsvinden en die tot meer kennis, vaardigheden en competenties leiden, eventueel ook op het gebied van de beroepsethiek;
+    q) "dwingende redenen van algemeen belang" : redenen zoals in het bijzonder de openbare orde, de openbare veiligheid, de Staatsveiligheid, de volksgezondheid, de handhaving van het financiële evenwicht van het sociale zekerheidsstelsel, de bescherming van consumenten, afnemers van diensten en werknemers, de eerlijkheid van handelstransacties, de fraudebestrijding, de bescherming van het milieu en het stedelijke milieu, het dierenwelzijn, de intellectuele eigendom, het behoud van het nationaal historisch en artistiek erfgoed en doelstellingen van het sociaal beleid en het cultuurbeleid;
+    r) ""Europees systeem voor de overdracht van studiepunten" of "ECTS-studiepunten" : het in het Europees hogeronderwijsstelsel gangbare studiepuntenoverdrachtsysteem;
+    s) "IMI" : het informatiesysteem van de interne markt beheerst door Reglement 1024/2012/EU van het Europees Parlement en de Raad van 25 oktober 2012.]2 [2 Wat betreft h), ten behoeve van deze controle stellen de bevoegde autoriteiten op basis van een vergelijking tussen de in het Waalse Gewest vereiste opleiding en de opleiding die de aanvrager heeft ontvangen, een lijst op van de vakgebieden die niet bestreken worden door het diploma of de andere opleidingstitel(s) waarover de aanvrager beschikt.
+    Bij de proeve van bekwaamheid moet in aanmerking worden genomen dat de aanvrager in de lidstaat van oorsprong of herkomst een gekwalificeerde beroepsbeoefenaar is. De proef heeft betrekking op de vakgebieden die moeten worden gekozen uit die welke op de lijst staan en waarvan de kennis een wezenlijke voorwaarde is om het beroep in kwestie in het Waalse Gewest te kunnen uitoefenen. Deze proef kan ook betrekking hebben op de kennis van de deontologie die in het Waalse Gewest op de betrokken activiteiten van toepassing is.
+    De nadere regelingen voor de proeve van bekwaamheid alsook de status, in het Waalse Gewest, die de aanvrager die zich op de proeve van bekwaamheid wil voorbereiden heeft, worden vastgesteld door de bevoegde autoriteiten.]2
+   § 2. Met een gereglementeerd beroep wordt gelijkgesteld een beroep dat door de leden van een van de in bijlage I genoemde verenigingen of organisaties wordt uitgeoefend.
+   De in het eerste lid bedoelde verenigingen of organisaties hebben met name ten doel een hoog niveau in het betrokken beroepsgebied te bevorderen en te handhaven; daartoe genieten zij een specifieke erkenning door een lidstaat, geven zij aan hun leden een opleidingstitel af, onderwerpen zij hun leden aan beroepsregels die zij uitvaardigen, en geven zij hun het recht op een titel, afkorting of status die met de opleidingstitel overeenstemt.
+   § 3. Met een opleidingstitel wordt gelijkgesteld elke in een derde land afgegeven opleidingstitel, wanneer de houder ervan in het betrokken beroep een beroepservaring van drie jaar heeft op het grondgebied van de lidstaat die de betrokken opleidingstitel heeft erkend en indien die lidstaat deze beroepservaring bevestigt.
+   ----------
+   (1)<W 2016-12-25/44, art. 3, 002; Inwerkingtreding : 10-02-2017>
+   (2)<DWG 2017-07-12/16, art. 3, 004; Inwerkingtreding : 22-09-2017>
+   (3)<DWG 2020-10-29/21, art. 2, 005; Inwerkingtreding : 03-12-2020>
+
+  Doel.
+
+#### Art. 3
+
+Wanneer de bevoegde Belgische autoriteiten de toegang tot of de uitoefening van een gereglementeerd beroep afhankelijk stellen van het bezit van bepaalde beroepskwalificaties, stelt deze wet, in toepassing van de richtlijn, de regels vast volgens welke zij de in een andere lidstaat of andere lidstaten verworven beroepskwalificaties die de houder van die kwalificaties het recht verlenen er hetzelfde beroep uit te oefenen, erkennen voor de toegang tot en de uitoefening van dit beroep.
+   [1 Deze wet stelt eveneens de regels vast betreffende de aanvraag en aflevering van een Europese beroepskaart, de gedeeltelijke toegang tot een gereglementeerd beroep en de erkenning van beroepsstages volbracht in een andere lidstaat.]1
+   ----------
+   (1)<W 2016-12-25/44, art. 4, 002; Inwerkingtreding : 10-02-2017>
+
+#### Art. 3_WAALS_GEWEST.
+    Wanneer de bevoegde Belgische autoriteiten de toegang tot of de uitoefening van een gereglementeerd beroep afhankelijk stellen van het bezit van bepaalde beroepskwalificaties, stelt deze wet, in toepassing van de richtlijn, de regels vast volgens welke zij de in een andere lidstaat of andere lidstaten verworven beroepskwalificaties die de houder van die kwalificaties het recht verlenen er hetzelfde beroep uit te oefenen, erkennen voor de toegang tot en de uitoefening van dit beroep.
+   [2 Deze wet stelt eveneens de regels vast betreffende de gedeeltelijke toegang tot een gereglementeerd beroep en de erkenning van beroepsstages volbracht in een andere lidstaat.]2
+   ----------
+   (1)<W 2016-12-25/44, art. 4, 002; Inwerkingtreding : 10-02-2017>
+   (2)<DWG 2017-07-12/16, art. 4, 004; Inwerkingtreding : 22-09-2017>
+
+  Toepassingsgebied.
+
+#### Art. 4
+
+§ 1. Onverminderd de bevoegdheid van de gemeenschappen en de gewesten, is deze wet van toepassing op alle onderdanen van een lidstaat, met inbegrip van beoefenaren van de vrije beroepen, die in België, een gereglementeerd beroep willen uitoefenen, hetzij als zelfstandige, hetzij als werknemer [1 en die in een andere lidstaat hun beroepskwalificaties hebben verworven]1.
+   [1 Deze wet is eveneens van toepassing op de onderdanen van een lidstaat die hun beroepskwalificaties overwegend in België hebben verworven en die een beroepsstage buiten België hebben volbracht.]1
+   § 2. Deze wet is van toepassing op de gereglementeerde beroepen [1 onder voorbehoud van wat voorzien is in de §§ 3 en 4]1.
+   § 3. Deze wet is niet van toepassing op de zeven zogenaamde sectorale beroepen, namelijk de beroepen van arts, verantwoordelijk algemeen ziekenverpleger, tandarts, dierenarts, vroedvrouw, apotheker en architect, behalve indien de omzettingsbepalingen betreffende deze beroepen uitdrukkelijk verwijzen naar de bepalingen van deze wet.
+   [1 Deze wet is niet van toepassing op de notarissen benoemd bij Koninklijk Besluit.]1
+   § 4. [1 Indien voor een ander gereglementeerd beroep dan deze bedoeld in § 3, in een afzonderlijk communautair of nationaal rechtsinstrument een andere specifieke regeling die in rechtstreeks verband staat met de erkenning van beroepskwalificaties is vastgesteld, zijn de overeenkomstige bepalingen van deze wet niet van toepassing.]1
+   ----------
+   (1)<W 2016-12-25/44, art. 5, 002; Inwerkingtreding : 10-02-2017>
+
+#### Art. 4_WAALS_GEWEST.
+   § 1. [1 Onverminderd de bevoegdheid van de federale overheid en de gemeenschappen, is deze wet van toepassing op alle onderdanen van een lidstaat, met inbegrip van beoefenaren van de vrije beroepen, die in België, een gereglementeerd beroep willen uitoefenen, hetzij als zelfstandige, hetzij als werknemer en die in een andere lidstaat hun beroepskwalificaties hebben verworven.]1 [1 Deze wet is eveneens van toepassing op de onderdanen van een lidstaat die hun beroepskwalificaties overwegend in het Waalse Gewest hebben verworven en die een beroepsstage buiten het Waalse Gewest hebben volbracht.]1
+   § 2. Deze wet is van toepassing op de gereglementeerde beroepen die niet het voorwerp uitmaken van een verticale omzetting van de richtlijn.
+   § 3. Deze wet is niet van toepassing op de zeven zogenaamde sectorale beroepen, namelijk de beroepen van arts, verantwoordelijk algemeen ziekenverpleger, tandarts, dierenarts, vroedvrouw, apotheker en architect, behalve indien de omzettingsbepalingen betreffende deze beroepen uitdrukkelijk verwijzen naar de bepalingen van deze wet.
+   § 4. Indien voor een bepaald gereglementeerd beroep in een afzonderlijk communautair rechtsinstrument een andere specifieke regeling die in rechtstreeks verband staat met de erkenning van beroepskwalificaties, is vastgesteld, zijn de overeenkomstige bepalingen van deze wet niet van toepassing.
+  ----------
+  (1)<DWG 2017-07-12/16, art. 5, 004; Inwerkingtreding : 22-09-2017>
+
+  Gevolgen van de erkenning.
+
+#### Art. 5
+
+§ 1. [1 Erkenning van de beroepskwalificaties geeft de begunstigden toegang tot hetzelfde beroep als dat waarvoor zij in de lidstaat van oorsprong de kwalificaties bezitten en stelt hen in staat dit beroep uit te oefenen onder dezelfde voorwaarden als die welke voor Belgische onderdanen gelden.]1 [1 In afwijking van lid 1, wordt gedeeltelijke toegang tot een beroep verleend onder de in artikel 5/9 vastgestelde voorwaarden.]1
+  § 2. Voor de toepassing van deze wet is het beroep dat de aanvrager in België wenst uit te oefenen hetzelfde als dat waarvoor hij in de lidstaat van oorsprong de kwalificaties bezit, indien hieronder vergelijkbare werkzaamheden vallen.
+  ----------
+  (1)<W 2016-12-25/44, art. 6, 002; Inwerkingtreding : 10-02-2017>
+
+#### Art. 5_WAALS_GEWEST.
+   § 1. [2 Erkenning van de beroepskwalificaties geeft de begunstigden toegang tot hetzelfde beroep als dat waarvoor zij in de lidstaat van oorsprong de kwalificaties bezitten en stelt hen in staat dit beroep uit te oefenen op het grondgebied van het Waalse Gewest, onder dezelfde voorwaarden als de personen die er zijn gevestigd.]2
+  § 2. Voor de toepassing van deze wet is het beroep dat de aanvrager in België wenst uit te oefenen hetzelfde als dat waarvoor hij in de lidstaat van oorsprong de kwalificaties bezit, indien hieronder vergelijkbare werkzaamheden vallen.
+  [2 § 3. In afwijking van paragraaf 1, wordt gedeeltelijke toegang tot een beroep verleend onder de in artikel 5/7 vastgestelde voorwaarden.]2
+  ----------
+  (1)<W 2016-12-25/44, art. 6, 002; Inwerkingtreding : 10-02-2017>
+  (2)<DWG 2017-07-12/16, art. 6, 004; Inwerkingtreding : 22-09-2017>
+  TITEL I/1. [1 - Europese beroepskaart.]1
+  ----------
+  (1)<Ingevoegd bij W 2016-12-25/44, art. 7, 002; Inwerkingtreding : 10-02-2017> en <DWG 2017-07-12/16, art. 7, 004; Inwerkingtreding : 22-09-2017>
+
+  HOOFDSTUK 1_WAALS_GEWEST. [1 - Aanvraag van Europese beroepskaart voor de uitoefening van een beroepsactiviteit in een andere lidstaat]1
+  ----------
+  (1)<Ingevoegd bij DWG 2017-07-12/16, art. 8, 004; Inwerkingtreding : 22-09-2017>
 
 #### Art. 5/1
 

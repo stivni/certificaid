@@ -2,9 +2,14 @@
 tags: ["II", "2.2", "2.3"]
 itaa-lex-sectie: "II"
 wet: "Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/WIB92)"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+chunk:
+  level: 5
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/KB-WIB92.pdf
@@ -12,27 +17,96 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:31Z'
+  generated_at: '2026-05-09T16:15:32Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 5
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 426
+      max_section_chars: 17112
+      file_size_chars: 427404
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: KB/WIB92 (428KB) met 333 Art.-vermeldingen, hoofdstuk- en afdeling-structuur consistent. Tabellen (revalorisatiecoefficient) overgenomen als ingesprongen tekstregels — leesbaar maar geen markdown-tabel. Geen kolom-bleed, schoon NL.
+      problemen:
+        - regel: 46
+          type: other
+          voorbeeld: Aanslagjaar Revalorisatiecoefficient / 1985 2,25 — tabel als plain text i.p.v. markdown-table
+      sterkte:
+        - 333 artikelen herkenbaar
+        - Wijzigingsbrackets <KB ...> intact
+        - Geen FR-leak
+      auto: false
+      run_id: qa-batch-W1
 ---
 
 # Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/WIB92)
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
+
+## HOOFDSTUK I. - GRONDSLAG EN BEREKENING VAN DE BELASTINGEN.
+
+### Afdeling I. - Kadastraal inkomen. - Revalorisatiecoëfficiënt. (Wetboek van de inkomstenbelastingen 1992, artikel 13)
+
+##### Art. 1
+
+De in artikel 13 van het Wetboek van de inkomstenbelastingen 1992 vermelde revalorisatiecoëfficiënt voor kadastrale inkomens wordt per aanslagjaar vastgesteld zoals in de volgende tabel is aangegeven :
+
+  Aanslagjaar Revalorisatiecoefficient
+  1985 2,25
+  1986 2,40
+  1987 2,50
+  1988 2,50
+  1989 2,55
+  1990 2,60
+  1991 2,70
+  1992 2,80
+  1993 2,88
+  [1994 2,95]
+  <KB 1993-10-22/33, art. 1; Inwerkingtreding : 01-01-1994>
+  [1995 3]
+  <KB 1994-02-18/35, art. 1, 003; Inwerkingtreding : 01-01-19 95>
+  [1996 3]
+  <KB 1995-03-20/36, art. 1, 015; Inwerkingtreding : 01-01-19 96>
+  [1997 3,05]
+  <KB 1996-03-06/34, art. 1, 027; Inwerkingtreding : 01-01-19 97>
+  [1998 3,10]
+  <KB 1997-02-26/30, art. 1, 035; Inwerkingtreding : 01-01-19 98>
+  [1999 3,12]
+  <KB 1998-12-17/63, art. 1, 050; Inwerkingtreding : 01-01-19 99>
+  [2000 3,15]
+  <KB 1999-10-29/33, art. 1, 058; Inwerkingtreding : 01-01-20
+    00>
+
+  [2001 3,19]
+  <KB 2000-11-23/32, art. 1, 070; Inwerkingtreding : 01-01-20 01>
+  [2002 3,26]
+  <KB 2002-02-04/30, art. 1, 085; Inwerkingtreding : 01-01-20 02>
+  [2003 3,35]
+  <KB 2003-01-23/30, art. 1, 090; Inwerkingtreding : 01-01-20 03>
+
+### Afdeling II. - Fiscale voorwaarden inzake spaardeposito's. (Wetboek van de inkomstenbelastingen 1992, artikel 21, 5°)
 
 ##### Art. 2
 

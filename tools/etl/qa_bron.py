@@ -739,6 +739,61 @@ def run_id() -> str:
     return datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
 
 
+def _write_layer1_to_frontmatter(report: BronReport, run_id_str: str) -> bool:
+    """Schrijf layer1-block naar provenance.trust.layer1 van de bron-MD.
+
+    Returns True als de file gewijzigd werd. Idempotent (no-op als identiek).
+    """
+    import io
+    from ruamel.yaml import YAML
+
+    path = ROOT / report.bestand if not Path(report.bestand).is_absolute() else Path(report.bestand)
+    if not path.exists():
+        return False
+    text = path.read_text(encoding="utf-8")
+    m = _FRONTMATTER_RE.match(text)
+    if not m:
+        return False
+
+    yaml = YAML()
+    yaml.preserve_quotes = True
+    yaml.indent(mapping=2, sequence=4, offset=2)
+    yaml.width = 4096
+    fm = yaml.load(m.group(1)) or {}
+    body = text[m.end():]
+
+    flags = []
+    for c in report.checks:
+        if c.status in ("warn", "fail"):
+            flags.append({"name": c.name, "status": c.status,
+                          "detail": c.detail, "samples": c.samples or []})
+
+    layer1 = {
+        "verdict": report.verdict,
+        "heading_count": report.heading_count,
+        "max_section_chars": report.max_section_chars,
+        "file_size_chars": report.file_size_chars,
+        "flags": flags,
+        "run_id": run_id_str,
+    }
+
+    prov = fm.setdefault("provenance", {})
+    if not isinstance(prov, dict):
+        return False
+    trust = prov.get("trust")
+    if not isinstance(trust, dict):
+        trust = {}
+        prov["trust"] = trust
+    if trust.get("layer1") == layer1:
+        return False  # idempotent
+    trust["layer1"] = layer1
+
+    buf = io.StringIO()
+    yaml.dump(fm, buf)
+    path.write_text(f"---\n{buf.getvalue()}---\n{body}", encoding="utf-8")
+    return True
+
+
 def main() -> None:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--all", action="store_true", help="verwerk alle bronnen")
@@ -750,6 +805,10 @@ def main() -> None:
     p.add_argument("--bron", type=str,
                    help="(met --staging) beperk tot één staging-bestand op filename-stem")
     p.add_argument("--report-only", action="store_true", help="alleen samenvatting; geen JSON-rapport schrijven")
+    p.add_argument("--no-frontmatter", action="store_true",
+                   help="schrijf layer1 NIET naar bron-frontmatter (default: wel schrijven)")
+    p.add_argument("--no-json", action="store_true",
+                   help="schrijf NIET naar data/qa/qa-<rid>.json (frontmatter blijft primaire opslag)")
     p.add_argument("--output-dir", type=Path, default=ROOT / "data" / "qa",
                    help="map voor JSON-rapport (default: data/qa/)")
     args = p.parse_args()
@@ -773,13 +832,23 @@ def main() -> None:
     print(f"=== qa_bron [{mode_label}] — {len(targets)} bron(nen) ===")
     reports: list[BronReport] = []
     counters = {"pass": 0, "warn": 0, "fail": 0}
+    rid = run_id()
+    n_frontmatter_written = 0
     for path in targets:
         report = qa_one_bron(path, staging=args.staging)
         reports.append(report)
         counters[report.verdict] += 1
+        if not args.no_frontmatter:
+            try:
+                if _write_layer1_to_frontmatter(report, rid):
+                    n_frontmatter_written += 1
+            except Exception as exc:
+                print(f"  ! frontmatter-write faalde voor {report.bestand}: {exc}", file=sys.stderr)
 
     # Stdout-samenvatting
     print(f"\nVerdict-overzicht: pass={counters['pass']}  warn={counters['warn']}  fail={counters['fail']}")
+    if not args.no_frontmatter:
+        print(f"Layer1 in frontmatter geschreven: {n_frontmatter_written}/{len(targets)}")
     print()
     print("Bestanden met problemen (warn/fail):")
     for r in reports:
@@ -789,10 +858,9 @@ def main() -> None:
         flags = ",".join(f"{c.status[0].upper()}:{c.name}" for c in problems)
         print(f"  [{r.verdict.upper():4s}] {r.bestand}  ({flags})")
 
-    # JSON-rapport
-    if not args.report_only:
+    # JSON-rapport (legacy; frontmatter is nu de primaire opslag)
+    if not args.report_only and not args.no_json:
         args.output_dir.mkdir(parents=True, exist_ok=True)
-        rid = run_id()
         out_path = args.output_dir / f"qa-{rid}.json"
         rapport = {
             "run_id": rid,

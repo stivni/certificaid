@@ -25,6 +25,17 @@ provenance:
     confirmed_at: '2026-05-08T21:19:09Z'
     confirmed_by: human
     rationale: 'Heading-structuur hersteld: 10 genummerde ### subsecties via promote_implicit_headings (bold numbered titles). max_section_size warn benign: langste ## sectie 28K, maar H3 chunks elk ~2-3K. 19 journaalposten correct.'
+    layer1:
+      verdict: warn
+      heading_count: 12
+      max_section_chars: 28249
+      file_size_chars: 34193
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 28249 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
   - titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp

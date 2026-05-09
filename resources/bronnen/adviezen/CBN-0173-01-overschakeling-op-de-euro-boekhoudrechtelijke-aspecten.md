@@ -43,6 +43,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: '[Laag-2-R2 2026-05-08] 22 headings met vierniveaux hiërarchie, volledig coherent advies. Lange sectie is inherent aan dense juridisch-technische inhoud. Één scraping-artefact in H2-tekst maar inhoud volledig.'
+    layer1:
+      verdict: warn
+      heading_count: 22
+      max_section_chars: 43544
+      file_size_chars: 46359
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 43544 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 173/1 - Overschakeling op de euro: boekhoudrechtelijke aspecten

@@ -2,9 +2,14 @@
 tags: ["VI.B", "2.4"]
 itaa-lex-sectie: "VI.B"
 wet: "K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde"
+bron_rol: "itaa_lex"
 status: "beschikbaar"
 bijgewerkt: "2024"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+chunk:
+  level: 4
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB1-voldoening.pdf
@@ -12,27 +17,49 @@ provenance:
       version: '2024'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:31Z'
+  generated_at: '2026-05-09T16:15:16Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-chunk:
-  level: 4
-  type: "Art."
-  sub_strategy: null
+    status: trusted
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 62
+      max_section_chars: 9652
+      file_size_chars: 109659
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-rework-2
+    layer2_content:
+      verdict: trusted
+      rationale: 'Goed gestructureerd: 51 #### Art.-headings, Hoofdstuk/Afdeling-blokken intact. Tail-Art. N4 met opgeheven-marker is correcte juridische notatie. Geen kolom-bleed gespot in samples.'
+      problemen: []
+      sterkte:
+        - frontmatter en Hoofdstukstructuur correct
+        - 51 Art.-headings
+      auto: false
+      run_id: qa-batch-W2
 ---
 
 # BTW KB nr. 1 — Voldoening
 
-*Bijgewerkt tot en met 2024 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
+*Bijgewerkt tot en met 2024 — gecoördineerde versie.*
 
 Titel
 
@@ -582,7 +609,7 @@ inschrijvingen in de registers bedoeld in de artikelen 23, 25 en 28 worden zonde
 #### Art. 30.[1 Voor zover het BTW-identificatienummer krachtens artikel 53quater van het Wetboek dient te worden medegedeeld, moet dit nummer worden vermeld op alle contracten, facturen, bestelbons, verzendingsnota's en andere stukken met betrekking tot de economische activiteit van de betrokken persoon.
 De leden van een BTW-eenheid in de zin van artikel 4, § 2, van het Wetboek, mogen op de in het eerste lid bedoelde stukken die zij uitreiken, enkel het sub-BTW-identificatienummer vermelden dat hen werd toegekend krachtens artikel 50, §§ 1, eerste lid, 6° of 2, tweede lid, van het Wetboek.]1 (1)<KB 2009-12-09/10, art. 8, 027; Inwerkingtreding : 01-01-2010>
 
-## HOOFDSTUK V. [1 - Tijdelijke bepaling]1
+## HOOFDSTUK V — [1 - Tijdelijke bepaling]1
 
 (1)<Ingevoegd bij KB 2012-12-19/03, art. 28, 033; Inwerkingtreding : 01-01-2013>
 

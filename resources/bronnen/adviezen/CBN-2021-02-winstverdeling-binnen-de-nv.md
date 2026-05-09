@@ -29,6 +29,17 @@ provenance:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     rationale: '[Laag-2-R2 2026-05-08] 16 headings, 81 voetnoten. De grote sectie (35.032 chars) bevat rijke voetnotenstructuur die de bestandsgrootte verklaart. Journaalposten voor tussentijds dividend als schone Markdown-tabellen.'
+    layer1:
+      verdict: warn
+      heading_count: 21
+      max_section_chars: 34986
+      file_size_chars: 45489
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 34986 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2021/02 – Winstverdeling binnen de NV

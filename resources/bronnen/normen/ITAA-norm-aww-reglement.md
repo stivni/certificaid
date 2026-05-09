@@ -1,5 +1,7 @@
 ---
-tags: [norm, itaa]
+tags:
+  - norm
+  - itaa
 naam: "AWW-Reglement (IAB/ITAA) — Norm antiwitwas"
 datum: 2020-03-31
 type: norm
@@ -14,30 +16,62 @@ themas:
   - meldingsplicht
 bron: itaa.be
 url: https://www.itaa.be/nl/aww-reglement-iab/
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
 provenance:
   inputs:
     - id: itaa.be
       sha256:
       version:
   tooling:
-    pipeline: tools/etl/process_normen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:52Z'
+  generated_at: '2026-05-09T19:12:06Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    qa_version: qa-20260508-rerun
-    confirmed_at: '2026-05-08T07:36:23Z'
-    confirmed_by: subagent-sonnet-general-purpose
-    rationale: 'Volledig lineair leesbaar: alle 10 secties en 4 bijlagen in correcte volgorde, geen scrambled woorden, geen kolom-bleed. Bijlage-koptitels verdeeld over twee regels maar cosmetisch en correct leesbaar voor RAG.'
+    qa_version: trust-rework-2
+    confirmed_at: '2026-05-09T21:27:46Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: L1=pass
+    agent_verdict_at: '2026-05-09T21:27:46Z'
+    sample_pick: false
+    sample_reviewed_at:
+    sample_reviewed_by:
+    layer1:
+      verdict: pass
+      heading_count: 14
+      max_section_chars: 8503
+      file_size_chars: 42385
+      flags: []
+      run_id: 20260509-212552
+    layer1_5_diff:
+      verdict: improvement
+      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
+      kritieke_observaties: []
+      auto: true
+      run_id: trust-finalize-1
+    layer2_content:
+      verdict: trusted
+      rationale: "AWW-reglement (IAB-norm) volledig met alle 10 hoofdsecties + 4 bijlagen als ## headings. Definities, voorwaarden en bijlagen intact. Eén orphan TOC-regel (L121: 'BIJLAGE I: Variabelen ten minste in overweging te nemen in de integrale') is een minor cosmetisch overblijfsel; verstoort retrieval niet."
+      problemen:
+        - regel: 121
+          type: other
+          voorbeeld: "Orphan TOC-line 'BIJLAGE I: Variabelen ten minste in overweging te nemen in de integrale' tussen preambule en sectie 1"
+      sterkte:
+        - 'Alle 10 hoofdsecties (1-10) plus Bijlagen I-IV als ## headings'
+        - Definitielijst (1°-15°) volledig
+        - Geen kolom-bleed of scrambled text
+      auto: false
+      run_id: qa-batch-normen
 ---
-
-# Norm - 2020 03 31 - IAB - AWW
-
-Norm van het Instituut van de Accountants en de Belastingconsulenten d.d. 31
+  Norm van het Instituut van de Accountants en de Belastingconsulenten d.d. 31
 maart 2020 inzake de toepassing van de wet van 18 september 2017 tot voorkoming
 van het witwassen van geld en de financiering van terrorisme en tot beperking van
                            het gebruik van contanten
@@ -82,8 +116,6 @@ Overwegende wat volgt:
               begunstigden van de cliënten en de lasthebbers, alsook de bewaring van de
               gegevens en de bewijsstukken verzameld bij de identificatie en verificatie
               van de identiteit;
-
-
         -     de (doorlopende) waakzaamheidsverplichtingen ten aanzien van de
               kenmerken van de cliënt, de verrichtingen en de zakelijke relaties en de
               bewaring van de verkregen gegevens en documenten naar aanleiding van dit
@@ -114,7 +146,9 @@ De Raad van het Instituut van de Accountants en de Belastingconsulenten heeft op
 november 2018, 16 juli 2019, 3 december 2019 en 31 maart 2020 de hiernavolgende norm
 aangenomen. Deze werd op 3 april 2020 voor advies aan de Hoge Raad voor de
 Economische Beroepen voorgelegd.
+Inhoudstafel
 
+BIJLAGE I: Variabelen ten minste in overweging te nemen in de integrale
 
 ## 1. Algemene bepalingen
 
@@ -160,8 +194,6 @@ Definities
 
   10° “onafhankelijke auditfunctie”: de functie bedoeld in artikel 8, §2, 2°, a) van de Wet
   om de gedragslijnen, procedures en interne controlemaatregelen te testen;
-
-
 11° “verantwoordelijke persoon op het hoogste niveau”: zijnde een lid van het wettelijk
 bestuursorgaan of, in voorkomend geval, van de effectieve leiding van de onderworpen
 entiteiten die rechtspersonen zijn of indien de onderworpen entiteit een natuurlijke
@@ -199,8 +231,6 @@ uitvoeren in opdracht van de beroepsbeoefenaar;
       c)    voor het reglement van het Instituut van de Accountants en de
             Belastingconsulenten: het Instituut van de Accountants en de
             Belastingconsulenten.
-
-
 18° “kantoor”:
 
      a)    voor de norm van het Instituut van de Bedrijfsrevisoren: een rechtspersoon
@@ -243,8 +273,6 @@ uitvoeren in opdracht van de beroepsbeoefenaar;
 
 20° “CFI”: de Cel voor financiële informatieverwerking bedoeld in artikel 76 van de
 Wet.
-
-
 1.2   Voor het overige hebben de in deze norm gebruikte termen dezelfde betekenis als in
       de Wet.
 
@@ -290,8 +318,6 @@ Organisatie van de beroepsbeoefenaar wat de compliancefuncties betreft
       niveau van het netwerk. De benoeming van een AMLCO op het niveau van het
       netwerk mag op geen enkele manier de bevoegdheden en de rol van de AMLCO
       aangeduid door elk kantoor wijzigen.
-
-
 2.3   Onverminderd hetgeen bepaald is in punten 2.1 en 2.2 van deze norm, zal een stagiair
       in geen geval aangeduid kunnen worden als verantwoordelijke op het hoogste niveau
       noch als AMLCO.
@@ -334,8 +360,6 @@ Organisatie van de beroepsbeoefenaar wat de compliancefuncties betreft
       blootgesteld, en om het passend karakter te waarborgen van de gedragslijnen,
       procedures en interne controlemaatregelen die ten uitvoer zijn gelegd in toepassing
       van artikel 8 van de Wet
-
-
 2.7   Onverminderd de toepassing van artikel 8, §2, 2°, a) van de Wet, moet een kantoor
       of netwerk waarbij minstens honderd beroepsbeoefenaars, zoals bedoeld in artikel 1,
       9° a), b) of c) van deze norm, een activiteit uitoefenen en/of een deelname hebben in
@@ -378,8 +402,6 @@ Een algemene risicobeoordeling uitvoeren
 
 3.1   De algemene risicobeoordeling, op te maken door de beroepsbeoefenaar, zoals
       bedoeld in artikel 16 van de Wet, houdt ten minste rekening met:
-
-
       1° de variabelen vermeld in bijlage I van deze norm en met de in bijlage III van deze
       norm vermelde factoren die wijzen op een potentieel hoger risico, alsook met de
       artikelen 37 tot 41 van de Wet;
@@ -422,10 +444,7 @@ Vaststellen van risiciocategorieën
          3° de Belgische risicoanalyse inzake WG/FT, alsook deze van de Europese
          Commissie.
 
-
 Actualisering
-
-
 3.6   De algemene risicobeoordeling moet worden bijgewerkt telkens er zich een
       gebeurtenis voordoet die een significante invloed kan hebben op een of meerdere
       risico's.
@@ -468,8 +487,6 @@ Hij dient een cliëntacceptatiebeleid uit te stippelen en ten uitvoer te leggen 
 
       3° de cliënten over de verschillende risicocategorieën als bedoeld in punt 3.5 van
       deze norm, verdeelt.
-
-
       Het cliëntacceptatiebeleid maakt het ook mogelijk om bindende bepalingen
       betreffende financiële embargo's zoals bedoeld in artikel 4, 6° van de Wet ten uitvoer
       te leggen.
@@ -513,8 +530,6 @@ Identificatieverplichting en verificatie van de identificatiegegevens
       de beroepsbeoefenaar over tot de identificatie en de verificatie van de identiteit van
       de cliënten, de lasthebbers en/of de uiteindelijke begunstigden en dit overeenkomstig
       de artikelen 21 tot 32 van de Wet.
-
-
 4.5   Als er redenen bestaan om te twijfelen aan de pertinentie of de geloofwaardigheid
       van de door de cliënt meegedeelde informatie, neemt hij alle andere, in functie van
       het risicoprofiel van de cliënt, passende maatregelen om de medegedeelde informatie
@@ -556,10 +571,7 @@ Verhoogde waakzaamheid
            persoon, familielid van een politiek prominent persoon of persoon bekend als
            naaste geassocieerde van een politiek prominent persoon is.
 
-
 Nakoming van de waakzaamheidsverplichtingen door derde zaakaanbrengers
-
-
 4.10 De beroepsbeoefenaar mag beroep doen op een derde zaakaanbrenger - die zelf een
      aan een gelijkwaardige antiwitwasregelgeving onderworpen entiteit is - voor de
      nakoming van zijn verplichtingen betreffende de identiteit van de cliënt, van diens
@@ -601,7 +613,6 @@ Prestaties binnen een netwerk
             het lid van het netwerk meegedeeld;
 
       -     de beroepsbeoefenaar factureert de prestaties aan het lid van zijn netwerk.
-
 
 ## 5. Onderzoek van de verrichtingen
 
@@ -647,8 +658,6 @@ Melding van vermoedens
 
       De aard van deze verwijzingen en de wijze waarop zij worden bewaard, moet de
       beroepsbeoefenaar met zekerheid in staat stellen om die bewijsstukken, op vraag van
-
-
       de bevoegde autoriteiten, onmiddellijk voor te leggen, gedurende de
       bewaringsperiode bepaald in punt 6.4. zonder dat die bewijsstukken ondertussen
       kunnen worden gewijzigd.
@@ -692,8 +701,6 @@ Melding van vermoedens
       zakelijke relatie met de cliënt of vanaf de datum van een occasionele verrichting.
 
 ## 7. Beperkingen van het gebruik van contanten
-
-
 Wanneer de beroepsbeoefenaar weet, vermoedt of redelijke gronden heeft om te
 vermoeden dat feiten of verrichtingen die geleid hebben tot een gift of betaling in contanten
 verband houden met het WG/FT dient hij dit vermoeden onmiddellijk te melden aan de
@@ -701,7 +708,6 @@ CFI.
 
 Voor zover nodig, verwijzen de beroepsbeoefenaars naar de mededelingen van hun
 respectievelijke instituten.
-
 
 ## 8. Toezicht en controle
 
@@ -734,8 +740,6 @@ deze norm te controleren is de beroepsbeoefenaar verplicht:
      Belastingconsulenten d.d. 1 oktober 2011 inzake de toepassing van de wet van 11
      januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het
      WG/FT, die opgeheven wordt.
-
-
 BIJLAGEN
 
 De bijlagen bij de Wet van 18 september 2017 tot voorkoming van het witwassen van geld
@@ -780,8 +784,6 @@ deze norm zijn de volgende:
 
      b)    pensioenverzekeringsovereenkomsten die geen afkoopclausule bevatten en
            niet als zekerheidstelling kunnen dienen;
-
-
      c)    een pensioenstelsel, een pensioenfonds of een soortgelijk stelsel dat pensioenen
            uitkeert aan werknemers, waarbij de bijdragen worden ingehouden op het loon
            en de regels van het stelsel de deelnemers niet toestaan hun rechten uit hoofde
@@ -824,8 +826,6 @@ deze norm zijn de volgende:
 
      c)    rechtspersonen of juridische constructies die vehikels zijn voor het aanhouden
            van persoonlijke activa;
-
-
   d)    vennootschappen met gevolmachtigde aandeelhouders ("shareholders") of met
         aandelen aan toonder;
 
@@ -865,7 +865,6 @@ deze norm zijn de volgende:
   d)    landen die financiering of ondersteuning verschaffen voor terroristische
         activiteiten, of op het grondgebied waarvan als terroristisch aangemerkte
         organisaties actief zijn.
-
 
 ## Bijlage IV. Beslissingsbomen ter illustratie
 

@@ -96,6 +96,18 @@ class Trust:
     confirmed_at: Optional[str] = None
     confirmed_by: Optional[str] = None
     rationale: Optional[str] = None
+    # Agent-trust workflow (ADR-005 §5, promote_staging.py): tracking-velden voor
+    # automatische agent-promoties + optionele sample-review door mens.
+    agent_verdict_at: Optional[str] = None
+    sample_pick: Optional[bool] = None
+    sample_reviewed_at: Optional[str] = None
+    sample_reviewed_by: Optional[str] = None
+    # Per-laag QA-detail (ADR-005 §5). Tot mei 2026 leefden deze in losse
+    # `data/qa/*.json`-bestanden; nu inline in frontmatter zodat elke bron-MD
+    # zijn volledige QA-historie meedraagt en aggregaten via grep ontstaan.
+    layer1: Optional[dict] = None         # qa_bron.py output (deterministisch)
+    layer1_5_diff: Optional[dict] = None  # diff vs vorige resources/-versie
+    layer2_content: Optional[dict] = None # content-judgment subagent
 
     def __post_init__(self) -> None:
         if self.status not in TRUST_VALID_STATUSES:
@@ -103,6 +115,12 @@ class Trust:
                 f"Invalid trust status: {self.status!r}; "
                 f"expected one of {TRUST_VALID_STATUSES}"
             )
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "Trust":
+        """Lees Trust uit dict; onbekende velden worden genegeerd (forward-compat)."""
+        known = {f for f in cls.__dataclass_fields__}
+        return cls(**{k: v for k, v in data.items() if k in known})
 
 
 def default_trust() -> Trust:
@@ -140,7 +158,7 @@ class Provenance:
             generated_at=data["generated_at"],
             stale=data.get("stale", False),
             stale_reason=data.get("stale_reason"),
-            trust=Trust(**trust_data) if trust_data else None,
+            trust=Trust.from_dict(trust_data) if trust_data else None,
         )
 
 
