@@ -1,6 +1,14 @@
 # Programmaonderdelen — werkcontext
 
-Eén JSON per programmaonderdeel uit het ITAA-examenprogramma (versie 04/2022, `resources/raw/andere/programma.pdf`). Schema beschreven in [ADR-002](../../docs/adr/ADR-002-examenprogramma-scoping.md).
+De inhoud van het ITAA-examenprogramma 04/2022 (`resources/raw/andere/programma.pdf`) leeft sinds 2026-05-10 in **één globaal bestand**: [`data/programma.json`](../programma.json).
+
+Per-PO ankerlijsten in [`data/extractie/<po>/anchors/<po>-anchors.json`](../extractie/) zijn afgeleid en regenereerbaar via:
+
+```bash
+python3 -m tools.extractie.flatten_anchors
+```
+
+Deze map bevat alleen nog **per-PO scope-yamls** (legacy, zolang `match_bronnen.py` per-PO matching ondersteunt; verdwijnt zodra de matcher globaal werkt).
 
 ## Mapping examenprogramma-letter ↔ programmaonderdeel-nummer
 
@@ -43,19 +51,16 @@ Het examenprogramma 04/2022 heeft één hoofdstuk K = *"Vennootschaps- en vereni
 - **3.1 Vennootschapsrecht**
 - **3.2 Bijzondere mandaten**
 
-Voor extractie volgen we de programma-structuur (één bestand `3.0-vennootschaps-en-verenigingsrecht.json` per de programma-versie 04/2022). Examenvragen kunnen extra labels krijgen (`onderdeel: "3.1"` / `"3.2"`) wanneer dat duidelijk is uit de vraag.
+Voor extractie volgen we de programma-structuur (één `code: "3.0"` PO in `programma.json`). Examenvragen kunnen extra labels krijgen (`onderdeel: "3.1"` / `"3.2"`) wanneer dat duidelijk is uit de vraag.
 
-### Out-of-scope-vermelding per programmaonderdeel
+## Code-conventie voor ankers (in `programma.json`)
 
-Sommige programmaonderdelen bevatten taken/kenniselementen die generiek of niet-onderscheidend zijn voor dat onderdeel — bijvoorbeeld de generieke "digitale wereld / IT / audit"-secties die in 4.0 onder *deel 2* staan. Concept-extractie kan zich daarop niet zinvol toespitsen tenzij voorbeeldexamens er expliciet naar verwijzen.
+Globaal uniek; hiërarchie afleidbaar uit het pad:
 
-Markeer dat in de JSON met een `scope_voorbehoud` op het taakblok of de kenniselement-groep, met reden. Bij re-evaluatie (nieuwe voorbeeldvragen) kan de scope herzien worden.
-
-## Status
-
-| Programmaonderdeel | Bestand | Status |
-|---|---|---|
-| 4.0 Deontologie | `4.0-deontologie.json` | ✅ ingelezen + verbatim geverifieerd |
-| Andere | — | nog te doen |
-
-Aanvullen wanneer een programmaonderdeel in scope komt.
+- `<po>.taak.<n>` — hoofd-taak (bv. `1.6.taak.1`)
+- `<po>.taak.<n>.<a/b/c/...>` — subtaak
+- `<po>.taak.<n>.doel.<m>` — doelstelling onder een taak
+- `<po>.taak.<n>.doel.<m>.<a/b/...>` — subdoelstelling
+- `<po>.<I/II/...>` — kenniselement-hoofdgroep (Romeins)
+- `<po>.<I>.<A/B/...>` — kenniselement-subgroep (Latijn)
+- Diepere nesting: `<po>.<I>.<A>.<1>.<a>` (max 4-5 levels in praktijk)

@@ -1,13 +1,13 @@
 {
   "po": "2.7",
-  "generated_at": "2026-05-09T20:44:44Z",
-  "model": "claude-opus-4-7",
-  "prompt_version": "anchor-verrijking-v1",
+  "titel": "Regionale en lokale belastingen",
+  "generated_at": "2026-05-09T21:45:38+00:00",
+  "source": "data/programma.json",
+  "n_anchors": 27,
   "anchors": [
     {
-      "anchor_id": "2.7.D1.1.taak.1",
+      "anchor_id": "2.7.taak.1",
       "anchor_type": "taak",
-      "taakblok": "2.7.D1.1",
       "tekst": "Begeleiding bij de oprichting van een onderneming",
       "verbose": "De accountant adviseert de oprichter over de fiscale gevolgen van keuzes bij het opstarten van een vennootschap of eenmanszaak, met aandacht voor regionale en lokale heffingen die meteen of bij latere groei een impact hebben. Concreet gaat het om de keuze van vestigingsplaats, de inschrijving bij de bevoegde fiscale administraties en het inschatten van regionale registratie- en schenkingsrechten, gewestelijke heffingen op vastgoed en gemeentelijke aanvullende belastingen.",
       "synoniemen": [
@@ -21,9 +21,24 @@
       ]
     },
     {
-      "anchor_id": "2.7.D1.1.taak.2",
+      "anchor_id": "2.7.taak.1.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "Van een gevorderd accountant wordt verwacht dat hij zelfstandig dossiers behandelt waarin federale, gewestelijke en lokale fiscaliteit elkaar overlappen, en daarbij eigen analyses uitvoert zonder voortdurende sturing. Hij weegt de fiscale gevolgen van combinaties van heffingen tegen elkaar af en levert een geïntegreerd advies dat economische en juridische logica met elkaar verzoent.",
+      "synoniemen": [
+        "zelfstandig fiscaal advies",
+        "proactieve dossierbehandeling",
+        "methodisch werken in fiscaliteit",
+        "geïntegreerd belastingadvies",
+        "complexe dossiers behandelen",
+        "onderbouwd fiscaal advies",
+        "autonome fiscale analyse"
+      ],
+      "parent": "2.7.taak.1"
+    },
+    {
+      "anchor_id": "2.7.taak.2",
       "anchor_type": "taak",
-      "taakblok": "2.7.D1.1",
       "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen",
       "verbose": "De accountant helpt cliënten bij het tijdig en correct voldoen aan hun gewestelijke en lokale fiscale verplichtingen, zoals het indienen van aangiften voor onroerende voorheffing, registratierechten, verkeersbelasting of gemeentebelastingen op tweede verblijven of leegstand. Hij ziet toe op het naleven van termijnen, formaliteiten en betalingsverplichtingen tegenover gewest, provincie en gemeente.",
       "synoniemen": [
@@ -37,9 +52,40 @@
       ]
     },
     {
-      "anchor_id": "2.7.D1.1.taak.3",
+      "anchor_id": "2.7.taak.2.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Geavanceerde concepten op het gebied van regionale en lokale belastingen toepassen op complexe gevallen.",
+      "verbose": "De accountant beheerst niet alleen de basisbeginselen van gewestelijke en lokale heffingen maar ook hun bijzondere regimes, vrijstellingen en territoriale aanknopingspunten, en kan die inzetten in samengestelde dossiers met meerdere overheden. Hij herkent grensgevallen tussen registratie- en schenkbelasting, onroerende voorheffing en gemeentelijke opcentiemen, of leegstandsheffingen op verschillende beleidsniveaus.",
+      "synoniemen": [
+        "geavanceerde fiscale concepten toepassen",
+        "complexe casussen analyseren",
+        "fiscale techniek op gevorderd niveau",
+        "regionale fiscaliteit toepassen",
+        "lokale belastingtechniek",
+        "samengestelde fiscale dossiers",
+        "advanced tax reasoning"
+      ],
+      "parent": "2.7.taak.2"
+    },
+    {
+      "anchor_id": "2.7.taak.2.doel.2",
+      "anchor_type": "doelstelling",
+      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen. Fiscale risico's kunnen analyseren en beheren.",
+      "verbose": "Een correct gewestelijk of gemeentelijk fiscaal advies vraagt om een gerichte feitenverzameling, waaronder akten, kadastrale gegevens, woonplaatsbewijzen, vergunningen en eerdere aanslagbiljetten. De accountant stelt gerichte vragen aan de cliënt om feitelijke aanknopingspunten zoals zetel, hoofdverblijfplaats, gebruik van het onroerend goed of relatie met de overledene helder te krijgen.",
+      "synoniemen": [
+        "feitenonderzoek",
+        "relevante gegevens verzamelen",
+        "intake-vragen stellen",
+        "dossieropbouw",
+        "informatie inwinnen bij cliënt",
+        "fiscale feitenanalyse",
+        "due-diligence vragen"
+      ],
+      "parent": "2.7.taak.2"
+    },
+    {
+      "anchor_id": "2.7.taak.3",
       "anchor_type": "taak",
-      "taakblok": "2.7.D1.1",
       "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden",
       "verbose": "De accountant treedt op als gemandateerd aanspreekpunt tegenover de gewestelijke belastingdiensten zoals VLABEL en Bruxelles Fiscalité en tegenover gemeentelijke en provinciale ontvangers, zowel tijdens controles als bij bezwaarprocedures. Hij voert correspondentie, dient bezwaarschriften in, neemt deel aan hoorzittingen en bewaakt de procesrechten van de belastingplichtige in elke fase van het geschil.",
       "synoniemen": [
@@ -53,73 +99,8 @@
       ]
     },
     {
-      "anchor_id": "2.7.D1.1.doel.1",
+      "anchor_id": "2.7.taak.3.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "2.7.D1.1",
-      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
-      "verbose": "Van een gevorderd accountant wordt verwacht dat hij zelfstandig dossiers behandelt waarin federale, gewestelijke en lokale fiscaliteit elkaar overlappen, en daarbij eigen analyses uitvoert zonder voortdurende sturing. Hij weegt de fiscale gevolgen van combinaties van heffingen tegen elkaar af en levert een geïntegreerd advies dat economische en juridische logica met elkaar verzoent.",
-      "synoniemen": [
-        "zelfstandig fiscaal advies",
-        "proactieve dossierbehandeling",
-        "methodisch werken in fiscaliteit",
-        "geïntegreerd belastingadvies",
-        "complexe dossiers behandelen",
-        "onderbouwd fiscaal advies",
-        "autonome fiscale analyse"
-      ]
-    },
-    {
-      "anchor_id": "2.7.D1.1.doel.2",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.7.D1.1",
-      "tekst": "Geavanceerde concepten op het gebied van regionale en lokale belastingen toepassen op complexe gevallen.",
-      "verbose": "De accountant beheerst niet alleen de basisbeginselen van gewestelijke en lokale heffingen maar ook hun bijzondere regimes, vrijstellingen en territoriale aanknopingspunten, en kan die inzetten in samengestelde dossiers met meerdere overheden. Hij herkent grensgevallen tussen registratie- en schenkbelasting, onroerende voorheffing en gemeentelijke opcentiemen, of leegstandsheffingen op verschillende beleidsniveaus.",
-      "synoniemen": [
-        "geavanceerde fiscale concepten toepassen",
-        "complexe casussen analyseren",
-        "fiscale techniek op gevorderd niveau",
-        "regionale fiscaliteit toepassen",
-        "lokale belastingtechniek",
-        "samengestelde fiscale dossiers",
-        "advanced tax reasoning"
-      ]
-    },
-    {
-      "anchor_id": "2.7.D1.1.doel.3",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.7.D1.1",
-      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen.",
-      "verbose": "Een correct gewestelijk of gemeentelijk fiscaal advies vraagt om een gerichte feitenverzameling, waaronder akten, kadastrale gegevens, woonplaatsbewijzen, vergunningen en eerdere aanslagbiljetten. De accountant stelt gerichte vragen aan de cliënt om feitelijke aanknopingspunten zoals zetel, hoofdverblijfplaats, gebruik van het onroerend goed of relatie met de overledene helder te krijgen.",
-      "synoniemen": [
-        "feitenonderzoek",
-        "relevante gegevens verzamelen",
-        "intake-vragen stellen",
-        "dossieropbouw",
-        "informatie inwinnen bij cliënt",
-        "fiscale feitenanalyse",
-        "due-diligence vragen"
-      ]
-    },
-    {
-      "anchor_id": "2.7.D1.1.doel.4",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.7.D1.1",
-      "tekst": "Fiscale risico’s kunnen analyseren en beheren.",
-      "verbose": "De accountant identificeert risico's zoals dubbele heffing tussen gewesten, herkwalificatie door VLABEL, vergeten aangiften bij verkeersbelasting of leegstandsheffing en betwistbare gemeentelijke reglementen. Hij weegt de waarschijnlijkheid en impact af, stelt mitigerende stappen voor zoals tijdige rulings, voorzieningen of bezwaarprocedures, en documenteert keuzes om latere aansprakelijkheid te beperken.",
-      "synoniemen": [
-        "risico-analyse fiscaliteit",
-        "fiscaal risicobeheer",
-        "tax risk management",
-        "beheersing belastingrisico's",
-        "dubbele heffing detecteren",
-        "herkwalificatierisico inschatten",
-        "fiscale onzekerheden inschatten"
-      ]
-    },
-    {
-      "anchor_id": "2.7.D1.1.doel.5",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.7.D1.1",
       "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de genomen beslissing.",
       "verbose": "De accountant licht zijn cliënt in over de opeenvolgende stadia in een gewestelijk of lokaal fiscaal geschil: vraag om inlichtingen, taxatie, bezwaar bij de bevoegde administratie, beroep bij de fiscale rechtbank en eventueel hoger beroep. Hij weegt de procesrisico's, kosten en termijnen tegenover de potentiële fiscale winst af zodat de cliënt een geïnformeerde keuze kan maken.",
       "synoniemen": [
@@ -130,7 +111,8 @@
         "strategisch advies bij betwisting",
         "afwegen van proceskansen",
         "geschilbeheer fiscaliteit"
-      ]
+      ],
+      "parent": "2.7.taak.3"
     },
     {
       "anchor_id": "2.7.I",
@@ -150,7 +132,7 @@
     {
       "anchor_id": "2.7.I.A",
       "anchor_type": "kenniselement",
-      "tekst": "Voor elk type, de algemene principes kennen betreffende:",
+      "tekst": "Voor elk type, de algemene principes kennen betreffende",
       "verbose": "Voor elk soort gewestelijke of lokale heffing moet de accountant de structurele bouwstenen kennen die elke belasting opdelen: wie heft, op welke grondslag, hoe wordt de aanslag gevestigd en geïnd, en welke beroepsweg openstaat. Deze gemeenschappelijke kapstok maakt het mogelijk om uiteenlopende heffingen op een vergelijkbare manier te analyseren.",
       "synoniemen": [
         "algemene principes belastingen",
@@ -222,69 +204,9 @@
       ]
     },
     {
-      "anchor_id": "2.7.I.A.1__2",
-      "anchor_type": "kenniselement",
-      "tekst": "Bevoegdheid om de belasting te heffen",
-      "verbose": "Een gemeente of provincie kan slechts heffen op grond van een uitdrukkelijk reglement van haar bevoegde raad en binnen de grenzen van het territorialiteitsbeginsel en de fiscale autonomie. De accountant onderzoekt of de heffingsbevoegdheid voldoende rechtsgrond heeft, of het reglement volgens de regels werd goedgekeurd en bekendgemaakt en of het niet conflicteert met hogere normen.",
-      "synoniemen": [
-        "heffingsbevoegdheid",
-        "fiscale autonomie gemeente",
-        "bevoegdheid tot belasten",
-        "fiscale autonomie lokale overheid",
-        "rechtsgrond gemeentebelasting",
-        "compétence fiscale communale",
-        "lokaal heffingsrecht"
-      ]
-    },
-    {
-      "anchor_id": "2.7.I.A.2__2",
-      "anchor_type": "kenniselement",
-      "tekst": "Belastingreglementering",
-      "verbose": "Een gemeentelijke of provinciale belasting steunt op een belastingreglement dat de heffingsgrondslag, het tarief, de belastingplichtige, de vrijstellingen en de procedure beschrijft, en dat door de bevoegde raad wordt goedgekeurd. De accountant beoordeelt de wettigheid en de duidelijkheid van het reglement en gaat na of het in overeenstemming is met het gelijkheidsbeginsel en het redelijkheidsbeginsel.",
-      "synoniemen": [
-        "belastingreglement gemeente",
-        "fiscaal reglement lokale overheid",
-        "lokale belastingverordening",
-        "règlement-taxe communal",
-        "gemeentelijk belastingbesluit",
-        "reglementaire grondslag heffing",
-        "belastingverordening"
-      ]
-    },
-    {
-      "anchor_id": "2.7.I.A.3__2",
-      "anchor_type": "kenniselement",
-      "tekst": "Vestiging en invordering, en vervolging",
-      "verbose": "De gemeentelijke ontvanger of de daartoe aangestelde financieel beheerder vestigt de aanslag in een kohier, dat uitvoerbaar wordt verklaard door het college, en stuurt het aanslagbiljet naar de belastingplichtige. Bij niet-betaling volgen aanmaningen, nalatigheidsintresten en uiteindelijk vervolging via dwangbevel, met mogelijkheid tot beslag onder derden of op onroerend goed.",
-      "synoniemen": [
-        "kohier vestigen",
-        "lokale belastinginning",
-        "vervolging wanbetaler",
-        "dwangbevel gemeentebelasting",
-        "tenuitvoerlegging gemeentebelasting",
-        "aanslag uitvoerbaar verklaren",
-        "fiscale vervolging lokaal"
-      ]
-    },
-    {
-      "anchor_id": "2.7.I.A.4__2",
-      "anchor_type": "kenniselement",
-      "tekst": "Regeling van geschillen",
-      "verbose": "Een belastingplichtige die het oneens is met een gewestelijke of gemeentelijke aanslag dient eerst een bezwaarschrift in bij de bevoegde administratieve overheid, zoals het college van burgemeester en schepenen of de gewestelijke fiscale administratie. Wordt dit bezwaar geheel of gedeeltelijk afgewezen, dan kan beroep worden ingesteld bij de fiscale rechtbank, gevolgd door eventueel hoger beroep en cassatie.",
-      "synoniemen": [
-        "fiscaal geschil",
-        "bezwaarprocedure",
-        "fiscale rechtsmiddelen",
-        "belastinggeschil oplossen",
-        "contentieux fiscal",
-        "beroepsprocedure belastingen",
-        "betwisting van een aanslag"
-      ]
-    },
-    {
       "anchor_id": "2.7.I.B",
       "anchor_type": "kenniselement",
-      "tekst": "Types:",
+      "tekst": "Types",
       "verbose": "Onder de noemer types worden de concrete heffingsregimes per bevoegd niveau gegroepeerd, met aandacht voor de drie gewesten, de gemeenschappen en de lokale overheden. Elk regime kent een eigen materiële bevoegdheid, eigen procedurele regels en een eigen administratie die instaat voor vestiging en invordering.",
       "synoniemen": [
         "soorten belastingen",
@@ -355,7 +277,109 @@
       ]
     },
     {
-      "anchor_id": "2.7.I.B.1__2",
+      "anchor_id": "2.7.II",
+      "anchor_type": "kenniselement",
+      "tekst": "LOKALE BELASTINGEN: gevorderd niveau + rechtspraak",
+      "verbose": "Lokale belastingen omvatten alle heffingen die door gemeenten en provincies worden ingesteld op grond van hun grondwettelijke fiscale autonomie, met inbegrip van de rechtspraak waarin reglementen worden getoetst aan gelijkheid, redelijkheid en non-discriminatie. Op gevorderd niveau beheerst de accountant zowel de procedurele kant zoals goedkeuring en bekendmaking van reglementen als de materiële toetsing aan hogere rechtsnormen.",
+      "synoniemen": [
+        "gemeentelijke en provinciale belastingen",
+        "lokale heffingen",
+        "lokale fiscaliteit",
+        "fiscaliteit gemeenten en provincies",
+        "fiscalité locale",
+        "lokale belastingen rechtspraak",
+        "lokale belastingjurisprudentie"
+      ]
+    },
+    {
+      "anchor_id": "2.7.II.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Voor elk type, de algemene principes kennen betreffende",
+      "verbose": "Voor elk soort gewestelijke of lokale heffing moet de accountant de structurele bouwstenen kennen die elke belasting opdelen: wie heft, op welke grondslag, hoe wordt de aanslag gevestigd en geïnd, en welke beroepsweg openstaat. Deze gemeenschappelijke kapstok maakt het mogelijk om uiteenlopende heffingen op een vergelijkbare manier te analyseren.",
+      "synoniemen": [
+        "algemene principes belastingen",
+        "structuur van een belasting",
+        "bouwstenen belastingrecht",
+        "kernkenmerken heffingen",
+        "gemeenschappelijke fiscale principes",
+        "basisprincipes per belastingtype"
+      ]
+    },
+    {
+      "anchor_id": "2.7.II.A.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Bevoegdheid om de belasting te heffen",
+      "verbose": "Een gemeente of provincie kan slechts heffen op grond van een uitdrukkelijk reglement van haar bevoegde raad en binnen de grenzen van het territorialiteitsbeginsel en de fiscale autonomie. De accountant onderzoekt of de heffingsbevoegdheid voldoende rechtsgrond heeft, of het reglement volgens de regels werd goedgekeurd en bekendgemaakt en of het niet conflicteert met hogere normen.",
+      "synoniemen": [
+        "heffingsbevoegdheid",
+        "fiscale autonomie gemeente",
+        "bevoegdheid tot belasten",
+        "fiscale autonomie lokale overheid",
+        "rechtsgrond gemeentebelasting",
+        "compétence fiscale communale",
+        "lokaal heffingsrecht"
+      ]
+    },
+    {
+      "anchor_id": "2.7.II.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Belastingreglementering",
+      "verbose": "Een gemeentelijke of provinciale belasting steunt op een belastingreglement dat de heffingsgrondslag, het tarief, de belastingplichtige, de vrijstellingen en de procedure beschrijft, en dat door de bevoegde raad wordt goedgekeurd. De accountant beoordeelt de wettigheid en de duidelijkheid van het reglement en gaat na of het in overeenstemming is met het gelijkheidsbeginsel en het redelijkheidsbeginsel.",
+      "synoniemen": [
+        "belastingreglement gemeente",
+        "fiscaal reglement lokale overheid",
+        "lokale belastingverordening",
+        "règlement-taxe communal",
+        "gemeentelijk belastingbesluit",
+        "reglementaire grondslag heffing",
+        "belastingverordening"
+      ]
+    },
+    {
+      "anchor_id": "2.7.II.A.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Vestiging en invordering, en vervolging",
+      "verbose": "De gemeentelijke ontvanger of de daartoe aangestelde financieel beheerder vestigt de aanslag in een kohier, dat uitvoerbaar wordt verklaard door het college, en stuurt het aanslagbiljet naar de belastingplichtige. Bij niet-betaling volgen aanmaningen, nalatigheidsintresten en uiteindelijk vervolging via dwangbevel, met mogelijkheid tot beslag onder derden of op onroerend goed.",
+      "synoniemen": [
+        "kohier vestigen",
+        "lokale belastinginning",
+        "vervolging wanbetaler",
+        "dwangbevel gemeentebelasting",
+        "tenuitvoerlegging gemeentebelasting",
+        "aanslag uitvoerbaar verklaren",
+        "fiscale vervolging lokaal"
+      ]
+    },
+    {
+      "anchor_id": "2.7.II.A.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Regeling van geschillen",
+      "verbose": "Een belastingplichtige die het oneens is met een gewestelijke of gemeentelijke aanslag dient eerst een bezwaarschrift in bij de bevoegde administratieve overheid, zoals het college van burgemeester en schepenen of de gewestelijke fiscale administratie. Wordt dit bezwaar geheel of gedeeltelijk afgewezen, dan kan beroep worden ingesteld bij de fiscale rechtbank, gevolgd door eventueel hoger beroep en cassatie.",
+      "synoniemen": [
+        "fiscaal geschil",
+        "bezwaarprocedure",
+        "fiscale rechtsmiddelen",
+        "belastinggeschil oplossen",
+        "contentieux fiscal",
+        "beroepsprocedure belastingen",
+        "betwisting van een aanslag"
+      ]
+    },
+    {
+      "anchor_id": "2.7.II.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Types",
+      "verbose": "Onder de noemer types worden de concrete heffingsregimes per bevoegd niveau gegroepeerd, met aandacht voor de drie gewesten, de gemeenschappen en de lokale overheden. Elk regime kent een eigen materiële bevoegdheid, eigen procedurele regels en een eigen administratie die instaat voor vestiging en invordering.",
+      "synoniemen": [
+        "soorten belastingen",
+        "heffingstypes",
+        "categorieën regionale en lokale heffingen",
+        "belastingregimes per overheid",
+        "types of regional taxes"
+      ]
+    },
+    {
+      "anchor_id": "2.7.II.B.1",
       "anchor_type": "kenniselement",
       "tekst": "Gemeentebelastingen",
       "verbose": "Gemeenten heffen zowel aanvullende belastingen op de personenbelasting en op de onroerende voorheffing als eigen belastingen op fenomenen als reclame, leegstand, tweede verblijven, terrassen of nachtwinkels. De accountant moet de structuur van het gemeentelijk reglement, de procedure tot vestiging en de geldigheid ervan kunnen toetsen aan het gelijkheidsbeginsel en het non-bis-in-idem-beginsel.",
@@ -370,7 +394,7 @@
       ]
     },
     {
-      "anchor_id": "2.7.I.B.2__2",
+      "anchor_id": "2.7.II.B.2",
       "anchor_type": "kenniselement",
       "tekst": "Provinciebelastingen",
       "verbose": "Provincies heffen, zij het in afnemende mate, eigen belastingen en aanvullende opcentiemen op de onroerende voorheffing, met als doel hun specifieke taken inzake ruimtelijke ordening, milieu en infrastructuur te financieren. De accountant beoordeelt de geldigheid van het provinciaal reglement en de regels voor vestiging, betaling en bezwaar tegen de provinciebelasting.",
@@ -382,21 +406,6 @@
         "provinciaal belastingreglement",
         "lokale belasting provincieniveau",
         "provinciale fiscaliteit"
-      ]
-    },
-    {
-      "anchor_id": "2.7.II",
-      "anchor_type": "kenniselement",
-      "tekst": "LOKALE BELASTINGEN: gevorderd niveau + rechtspraak",
-      "verbose": "Lokale belastingen omvatten alle heffingen die door gemeenten en provincies worden ingesteld op grond van hun grondwettelijke fiscale autonomie, met inbegrip van de rechtspraak waarin reglementen worden getoetst aan gelijkheid, redelijkheid en non-discriminatie. Op gevorderd niveau beheerst de accountant zowel de procedurele kant zoals goedkeuring en bekendmaking van reglementen als de materiële toetsing aan hogere rechtsnormen.",
-      "synoniemen": [
-        "gemeentelijke en provinciale belastingen",
-        "lokale heffingen",
-        "lokale fiscaliteit",
-        "fiscaliteit gemeenten en provincies",
-        "fiscalité locale",
-        "lokale belastingen rechtspraak",
-        "lokale belastingjurisprudentie"
       ]
     }
   ]

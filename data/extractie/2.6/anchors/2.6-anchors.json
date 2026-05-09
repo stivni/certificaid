@@ -1,13 +1,13 @@
 {
   "po": "2.6",
-  "generated_at": "2026-05-09T20:44:34Z",
-  "model": "claude-opus-4-7",
-  "prompt_version": "anchor-verrijking-v1",
+  "titel": "Registratie- en successierechten",
+  "generated_at": "2026-05-09T21:45:38+00:00",
+  "source": "data/programma.json",
+  "n_anchors": 33,
   "anchors": [
     {
-      "anchor_id": "2.6.D1.1.taak.1",
+      "anchor_id": "2.6.taak.1",
       "anchor_type": "taak",
-      "taakblok": "2.6.D1.1",
       "tekst": "Begeleiding bij de oprichting van een onderneming",
       "verbose": "Bij de oprichting van een vennootschap of onderneming komen verschillende heffingen op kapitaal- en inbrengverrichtingen kijken: de inbreng van onroerend goed, de oprichtingsakte zelf en eventuele schenkingen door aandeelhouders. De accountant beoordeelt vooraf welke verrichtingen registratiebelasting opwekken, of er gunsttarieven of vrijstellingen spelen, en hoe de structuur fiscaal optimaal opgezet wordt.",
       "synoniemen": [
@@ -20,9 +20,24 @@
       ]
     },
     {
-      "anchor_id": "2.6.D1.1.taak.2",
+      "anchor_id": "2.6.taak.1.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "De stagiair leert zelfstandig een complex dossier ontwarren waarin registratierechten, schenk- en erfbelasting samenkomen met vennootschapsstructuren, huwelijksvermogen en vastgoed. Hij plant zijn werk methodisch, signaleert proactief fiscale risico's en bouwt een advies op dat juridische, fiscale en patrimoniale aspecten geïntegreerd behandelt.",
+      "synoniemen": [
+        "autonoom dossierbeheer",
+        "geïntegreerd fiscaal advies",
+        "proactief adviseren",
+        "complexe vermogenscasus",
+        "methodisch dossieronderzoek",
+        "zelfstandig werken in fiscaal advies",
+        "multidisciplinair advies"
+      ],
+      "parent": "2.6.taak.1"
+    },
+    {
+      "anchor_id": "2.6.taak.2",
       "anchor_type": "taak",
-      "taakblok": "2.6.D1.1",
       "tekst": "Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming",
       "verbose": "Bij overdracht, herstructurering of vereffening van een onderneming spelen registratierechten op aandelenoverdrachten, vastgoedoverdrachten en de uitkering van het liquidatiesaldo, naast eventuele schenk- of erfbelasting bij familiale opvolging. De accountant rekent verschillende scenario's door (verkoop, schenking, fusie, splitsing, vereffening) en wijst op de fiscale gevolgen voor verkoper, koper en vennootschap.",
       "synoniemen": [
@@ -36,9 +51,24 @@
       ]
     },
     {
-      "anchor_id": "2.6.D1.1.taak.3",
+      "anchor_id": "2.6.taak.2.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "De stagiair leert zelfstandig een complex dossier ontwarren waarin registratierechten, schenk- en erfbelasting samenkomen met vennootschapsstructuren, huwelijksvermogen en vastgoed. Hij plant zijn werk methodisch, signaleert proactief fiscale risico's en bouwt een advies op dat juridische, fiscale en patrimoniale aspecten geïntegreerd behandelt.",
+      "synoniemen": [
+        "autonoom dossierbeheer",
+        "geïntegreerd fiscaal advies",
+        "proactief adviseren",
+        "complexe vermogenscasus",
+        "methodisch dossieronderzoek",
+        "zelfstandig werken in fiscaal advies",
+        "multidisciplinair advies"
+      ],
+      "parent": "2.6.taak.2"
+    },
+    {
+      "anchor_id": "2.6.taak.3",
       "anchor_type": "taak",
-      "taakblok": "2.6.D1.1",
       "tekst": "De belastingplichtige in alle fiscale aangelegenheden advies verlenen",
       "verbose": "De accountant geeft een gestructureerd advies over registratie- en successierechten bij vastgoedtransacties, schenkingen, erfopvolgingen en samenlevingsvormen. Het advies houdt rekening met regionale tarieven, vrijstellingen en abattementen, en met de wisselwerking tussen registratiebelasting, schenkbelasting, erfbelasting en directe belastingen.",
       "synoniemen": [
@@ -52,9 +82,24 @@
       ]
     },
     {
-      "anchor_id": "2.6.D1.1.taak.4",
+      "anchor_id": "2.6.taak.3.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "De stagiair leert zelfstandig een complex dossier ontwarren waarin registratierechten, schenk- en erfbelasting samenkomen met vennootschapsstructuren, huwelijksvermogen en vastgoed. Hij plant zijn werk methodisch, signaleert proactief fiscale risico's en bouwt een advies op dat juridische, fiscale en patrimoniale aspecten geïntegreerd behandelt.",
+      "synoniemen": [
+        "autonoom dossierbeheer",
+        "geïntegreerd fiscaal advies",
+        "proactief adviseren",
+        "complexe vermogenscasus",
+        "methodisch dossieronderzoek",
+        "zelfstandig werken in fiscaal advies",
+        "multidisciplinair advies"
+      ],
+      "parent": "2.6.taak.3"
+    },
+    {
+      "anchor_id": "2.6.taak.4",
       "anchor_type": "taak",
-      "taakblok": "2.6.D1.1",
       "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen",
       "verbose": "De accountant ondersteunt de cliënt bij het correct en tijdig indienen van de aangifte van nalatenschap, het laten registreren van akten en geschriften, en de betaling van de verschuldigde rechten. Daarbij let hij op de aangifte- en betalingstermijnen, de juiste waardering van goederen en de vermijding van fiscale boetes wegens laattijdigheid of onvolledigheid.",
       "synoniemen": [
@@ -68,9 +113,40 @@
       ]
     },
     {
-      "anchor_id": "2.6.D1.1.taak.5",
+      "anchor_id": "2.6.taak.4.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen. Fiscale risico's kunnen analyseren en beheren.",
+      "verbose": "Een correct advies over registratie- en successierechten vereist dat de accountant het volledige feitenkader in kaart brengt: huwelijksstelsel, samenstelling van het vermogen, eerdere schenkingen, het aandelenbezit, de fiscale woonplaats van betrokkenen en bestaande beschikkingen. Door gerichte vragen te stellen onderscheidt hij relevante van irrelevante elementen voordat hij conclusies trekt.",
+      "synoniemen": [
+        "feitenonderzoek dossier",
+        "intakegesprek cliënt",
+        "informatie verzamelen vermogen",
+        "huwelijksvermogen in kaart brengen",
+        "due diligence patrimonium",
+        "vraagstelling fiscaal dossier",
+        "dossiervorming"
+      ],
+      "parent": "2.6.taak.4"
+    },
+    {
+      "anchor_id": "2.6.taak.4.doel.2",
+      "anchor_type": "doelstelling",
+      "tekst": "Geavanceerde concepten op het gebied van registratie- en successierechten toepassen op complexe gevallen.",
+      "verbose": "De stagiair moet gevorderde technieken correct toepassen in samengestelde casussen: gesplitste aankoop met voorbehoud van vruchtgebruik, sterfhuisclausules, verblijvingsbedingen, inbreng en verdeling van onverdeeldheden, gefaseerde schenkingen en regelingen rond familiebedrijven. Dat vraagt inzicht in de werking van fictiebepalingen, regionale tarieven en gunstregimes en hun onderlinge samenhang.",
+      "synoniemen": [
+        "gesplitste aankoop vruchtgebruik-blote eigendom",
+        "sterfhuisclausule",
+        "verblijvingsbeding",
+        "gunstregime familiebedrijf",
+        "schenking met voorbehoud",
+        "complexe vermogensplanning",
+        "geavanceerde successieplanning"
+      ],
+      "parent": "2.6.taak.4"
+    },
+    {
+      "anchor_id": "2.6.taak.5",
       "anchor_type": "taak",
-      "taakblok": "2.6.D1.1",
       "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden",
       "verbose": "De accountant treedt op als gemandateerde tegenover de federale en regionale belastingadministraties, behandelt vragen om inlichtingen, dient bezwaarschriften in en bespreekt waarderingsdiscussies of geschillen over de toepassing van een gunstregime. Hij voert ook minnelijk overleg over rulings of attesten die de fiscale behandeling van een verrichting bevestigen.",
       "synoniemen": [
@@ -84,73 +160,8 @@
       ]
     },
     {
-      "anchor_id": "2.6.D1.1.doel.1",
+      "anchor_id": "2.6.taak.5.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "2.6.D1.1",
-      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
-      "verbose": "De stagiair leert zelfstandig een complex dossier ontwarren waarin registratierechten, schenk- en erfbelasting samenkomen met vennootschapsstructuren, huwelijksvermogen en vastgoed. Hij plant zijn werk methodisch, signaleert proactief fiscale risico's en bouwt een advies op dat juridische, fiscale en patrimoniale aspecten geïntegreerd behandelt.",
-      "synoniemen": [
-        "autonoom dossierbeheer",
-        "geïntegreerd fiscaal advies",
-        "proactief adviseren",
-        "complexe vermogenscasus",
-        "methodisch dossieronderzoek",
-        "zelfstandig werken in fiscaal advies",
-        "multidisciplinair advies"
-      ]
-    },
-    {
-      "anchor_id": "2.6.D1.1.doel.2",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.6.D1.1",
-      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen.",
-      "verbose": "Een correct advies over registratie- en successierechten vereist dat de accountant het volledige feitenkader in kaart brengt: huwelijksstelsel, samenstelling van het vermogen, eerdere schenkingen, het aandelenbezit, de fiscale woonplaats van betrokkenen en bestaande beschikkingen. Door gerichte vragen te stellen onderscheidt hij relevante van irrelevante elementen voordat hij conclusies trekt.",
-      "synoniemen": [
-        "feitenonderzoek dossier",
-        "intakegesprek cliënt",
-        "informatie verzamelen vermogen",
-        "huwelijksvermogen in kaart brengen",
-        "due diligence patrimonium",
-        "vraagstelling fiscaal dossier",
-        "dossiervorming"
-      ]
-    },
-    {
-      "anchor_id": "2.6.D1.1.doel.3",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.6.D1.1",
-      "tekst": "Fiscale risico’s kunnen analyseren en beheren.",
-      "verbose": "Bij vermogens- en successieplanning moet de accountant inschatten welke risico's verbonden zijn aan een gekozen techniek: herkwalificatie als simulatie, toepassing van de antimisbruikbepaling, fictiebepalingen die schenkingen alsnog in de nalatenschap brengen, of latere herzieningen door de administratie. Hij weegt het verwachte fiscale voordeel af tegen deze risico's en documenteert zijn redenering.",
-      "synoniemen": [
-        "fiscaal misbruik beoordelen",
-        "antimisbruikbepaling analyseren",
-        "fictiebepaling herkennen",
-        "risicoanalyse vermogensplanning",
-        "herkwalificatierisico",
-        "fiscale exposure",
-        "risicobeheer successieplanning"
-      ]
-    },
-    {
-      "anchor_id": "2.6.D1.1.doel.4",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.6.D1.1",
-      "tekst": "Geavanceerde concepten op het gebied van registratie- en successierechten toepassen op complexe gevallen.",
-      "verbose": "De stagiair moet gevorderde technieken correct toepassen in samengestelde casussen: gesplitste aankoop met voorbehoud van vruchtgebruik, sterfhuisclausules, verblijvingsbedingen, inbreng en verdeling van onverdeeldheden, gefaseerde schenkingen en regelingen rond familiebedrijven. Dat vraagt inzicht in de werking van fictiebepalingen, regionale tarieven en gunstregimes en hun onderlinge samenhang.",
-      "synoniemen": [
-        "gesplitste aankoop vruchtgebruik-blote eigendom",
-        "sterfhuisclausule",
-        "verblijvingsbeding",
-        "gunstregime familiebedrijf",
-        "schenking met voorbehoud",
-        "complexe vermogensplanning",
-        "geavanceerde successieplanning"
-      ]
-    },
-    {
-      "anchor_id": "2.6.D1.1.doel.5",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.6.D1.1",
       "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de genomen beslissing.",
       "verbose": "De accountant licht de cliënt in over hoe een dossier verloopt: aangifte, controle, eventuele rechtzetting, bezwaar en gerechtelijke fase. Hij vertaalt elke fase naar concrete gevolgen voor de cliënt zoals termijnen, bewijslast, belastingverhogingen, nalatigheidsinteresten en de doorwerking van een keuze op latere transacties of erfopvolgingen.",
       "synoniemen": [
@@ -161,12 +172,13 @@
         "termijnen aangifte en bezwaar",
         "gevolgen fiscale keuze",
         "verloop fiscaal geschil"
-      ]
+      ],
+      "parent": "2.6.taak.5"
     },
     {
       "anchor_id": "2.6.I",
       "anchor_type": "kenniselement",
-      "tekst": "Registratierechten/registratiebelasting:",
+      "tekst": "Registratierechten/registratiebelasting",
       "verbose": "De registratiebelasting is een heffing die verschuldigd is bij de registratie van bepaalde akten en geschriften, vooral bij overdracht van onroerend goed, vestiging van zakelijke rechten, hypotheken en sommige verhuringen. Sinds de regionalisering wordt het regime in Vlaanderen, Wallonië en Brussel deels apart georganiseerd, met eigen tarieven en gunstregimes.",
       "synoniemen": [
         "registratierechten",
@@ -293,6 +305,181 @@
         "nalatigheidsinteresten",
         "belastingverhoging",
         "waarborgen van de schatkist"
+      ]
+    },
+    {
+      "anchor_id": "2.6.VI",
+      "anchor_type": "kenniselement",
+      "tekst": "Successierechten/erfbelasting",
+      "verbose": "De belasting die verschuldigd is op de overgang van vermogen na het overlijden van een persoon. De rechten worden berekend op de nalatenschap of op de erfdelen, naargelang van het gewest, en houden rekening met de relatie tussen erflater en erfgenamen.",
+      "synoniemen": [
+        "inheritance tax",
+        "successierechten",
+        "erfbelasting",
+        "estate tax",
+        "droits de succession",
+        "nalatenschapsbelasting"
+      ]
+    },
+    {
+      "anchor_id": "2.6.VI.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Beginselen van het huwelijksvermogensrecht, Beginselen van het erfrecht",
+      "verbose": "De grondbeginselen van het huwelijksvermogensrecht (gemeenschap, scheiding, contractuele varianten) en het erfrecht (wettelijke en testamentaire devolutie, reservataire erfgenamen). Beide rechtstakken bepalen welk vermogen vererfd wordt en aan wie.",
+      "synoniemen": [
+        "matrimonial and inheritance principles",
+        "huwelijksvermogensrecht",
+        "erfrecht",
+        "matrimonial regime",
+        "inheritance law",
+        "successierechtelijke beginselen"
+      ]
+    },
+    {
+      "anchor_id": "2.6.VI.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Vaststelling van de rechten",
+      "verbose": "De bepaling van de erfbelastingbedragen op basis van de waarde van de nalatenschap, de relatie tussen erflater en erfgenaam en de gewestelijke tarieven. Vrijstellingen, verminderingen en bijzondere regelingen kunnen het bedrag aanzienlijk wijzigen.",
+      "synoniemen": [
+        "determination of inheritance tax",
+        "vaststelling erfrechten",
+        "tax assessment inheritance",
+        "erfbelasting berekenen",
+        "berekening successierechten"
+      ]
+    },
+    {
+      "anchor_id": "2.6.VI.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Vaststelling van de rechten - details",
+      "verbose": "Een gedetailleerd overzicht van de berekeningsregels van de erfbelasting, inclusief samenstelling van de belastbare massa, waardering van de goederen en bijzondere fictiebepalingen. Deze details bepalen de uiteindelijke fiscale last voor de erfgenamen.",
+      "synoniemen": [
+        "detailed inheritance tax determination",
+        "details vaststelling erfbelasting",
+        "valuation rules inheritance",
+        "fictiebepalingen",
+        "detailed estate tax"
+      ]
+    },
+    {
+      "anchor_id": "2.6.VI.C.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Belastbare grondslag",
+      "verbose": "De som van alle goederen, rechten en geldwaardige posten die in de nalatenschap worden opgenomen om de erfbelasting te bepalen, eventueel verminderd met passiva en aangevuld met fictie-bepalingen voor schenkingen kort vóór overlijden. Vormt de belastbare basis.",
+      "synoniemen": [
+        "taxable base inheritance",
+        "belastbare grondslag erfbelasting",
+        "tax base estate",
+        "belastbare massa",
+        "estate tax base"
+      ]
+    },
+    {
+      "anchor_id": "2.6.VI.C.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Tarief",
+      "verbose": "De progressieve schalen die per gewest worden toegepast op de belastbare basis van de erfenis. De tarieven verschillen sterk tussen rechte lijn en zijlijn, en tussen kleine en grote vermogens, met implicaties voor successieplanning.",
+      "synoniemen": [
+        "inheritance tax rates",
+        "tarieven erfbelasting",
+        "estate tax rates",
+        "tariefschalen erfbelasting",
+        "successietarief"
+      ]
+    },
+    {
+      "anchor_id": "2.6.VI.C.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Vestiging en invordering",
+      "verbose": "De vestiging van de heffing bepaalt op welk moment, op welke grondslag en ten laste van welke schuldenaar de belasting wordt vastgesteld. De invordering omvat de betaaltermijn, de aansprakelijkheid (vaak hoofdelijk tussen partijen), nalatigheidsinteresten, belastingverhogingen en de waarborgen waarover de administratie beschikt zoals het wettelijk voorrecht en de mogelijkheid tot dwanginvordering.",
+      "synoniemen": [
+        "vestiging belasting",
+        "invordering registratierechten",
+        "hoofdelijke aansprakelijkheid",
+        "betaaltermijn registratie",
+        "dwangbevel",
+        "nalatigheidsinteresten",
+        "belastingverhoging",
+        "waarborgen van de schatkist"
+      ]
+    },
+    {
+      "anchor_id": "2.6.VI.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Successieplanning",
+      "verbose": "De geheel van technieken waarmee een persoon tijdens het leven structuur geeft aan de overdracht van zijn vermogen om de erfbelasting te beperken en de overdracht conform zijn wensen te organiseren. Combineert vaak schenkingen, testamenten, contracten en vennootschapsstructuren.",
+      "synoniemen": [
+        "estate planning",
+        "successieplanning",
+        "patrimoniumplanning",
+        "vermogensplanning",
+        "wealth planning",
+        "estate strategy"
+      ]
+    },
+    {
+      "anchor_id": "2.6.VI.D.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Testamenten, schenkingen",
+      "verbose": "Twee klassieke instrumenten van successieplanning: een document waarin iemand zijn laatste wilsbeschikking vastlegt en een handeling tijdens het leven waarmee men eigendom kosteloos overdraagt. Beide instrumenten kennen specifieke vorm- en fiscale regels.",
+      "synoniemen": [
+        "wills and gifts",
+        "testamenten",
+        "schenkingen",
+        "donations and bequests",
+        "schenking en testament"
+      ]
+    },
+    {
+      "anchor_id": "2.6.VI.D.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Huwelijkscontracten",
+      "verbose": "De overeenkomst tussen echtgenoten over hun vermogensregime, met keuzes tussen gemeenschap, scheiding van goederen of varianten daarvan. Dit contract heeft belangrijke gevolgen bij echtscheiding én bij overlijden, en is een hoeksteen van successieplanning.",
+      "synoniemen": [
+        "marriage contract",
+        "huwelijkscontract",
+        "matrimonial contract",
+        "huwelijksovereenkomst",
+        "huwelijksvermogensovereenkomst"
+      ]
+    },
+    {
+      "anchor_id": "2.6.VI.D.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Levensverzekering",
+      "verbose": "Een verzekeringscontract waarbij bij leven of overlijden van de verzekerde een kapitaal of rente wordt uitbetaald aan een begunstigde. Levensverzekeringen kunnen worden ingezet als financieel instrument en als planningstechniek voor vermogensoverdracht.",
+      "synoniemen": [
+        "life insurance",
+        "levensverzekering",
+        "verzekering bij overlijden",
+        "assurance vie",
+        "beleggingsverzekering"
+      ]
+    },
+    {
+      "anchor_id": "2.6.VI.D.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Vennootschap in het kader van de successieplanning",
+      "verbose": "Het inzetten van een vennootschap als instrument om vermogen gestructureerd over te dragen aan de volgende generatie, bijvoorbeeld via een familiale holding of patrimoniumvennootschap. Dit laat continuïteit, controle en gefaseerde overdracht toe.",
+      "synoniemen": [
+        "company in estate planning",
+        "vennootschap als planningstool",
+        "family holding",
+        "patrimoniumvennootschap",
+        "corporate estate planning"
+      ]
+    },
+    {
+      "anchor_id": "2.6.VI.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Testamenten, schenkingen, huwelijkscontracten, levensverzekeringen, repatriëring van buitenlandse goederen en fiscale regularisatie, handelsvennootschap in het kader van successieplanning, managementvennootschap, holding, patrimoniumvennootschap (controle, inkomensgarantie en beschikkingsrecht), gemeenrechtelijke vennootschap en trust",
+      "verbose": "Een breder palet van planningstechnieken dat schenkingen, testamenten, huwelijkscontracten, levensverzekeringen, repatriëring van buitenlandse goederen, fiscale regularisatie, holding-, management- en patrimoniumstructuren, gemeenrechtelijke vennootschap en trust omvat. Elk instrument vraagt afweging van fiscale, juridische en familiale aspecten.",
+      "synoniemen": [
+        "advanced estate planning techniques",
+        "geavanceerde successieplanning",
+        "patrimoniale structurering",
+        "wealth structuring tools",
+        "complex estate planning"
       ]
     }
   ]

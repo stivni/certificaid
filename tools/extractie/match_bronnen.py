@@ -37,65 +37,12 @@ CHROMA_PATH_MAIN = ROOT / "data" / "chroma_db"
 
 
 # ---------------------------------------------------------------------------
-# Anchor-extractie uit programmaonderdeel-JSON (fallback als geen enriched JSON)
+# Anchor-loader — leest geflattend per-PO bestand, gegenereerd door
+# `tools/extractie/flatten_anchors.py` uit `data/programma.json`.
 # ---------------------------------------------------------------------------
 
-def _extract_kenniselementen(items: list, parent_path: list[str]) -> list[dict]:
-    out = []
-    for ke in items:
-        code = ke["code"]
-        text = ke["tekst"]
-        full_text = " — ".join(parent_path + [text]) if parent_path else text
-        out.append({
-            "anchor_id": code,
-            "anchor_type": "kenniselement",
-            "tekst": text,
-            "verbose": full_text,
-            "synoniemen": [],
-        })
-        if "subitems" in ke:
-            out.extend(_extract_kenniselementen(ke["subitems"], parent_path + [text]))
-    return out
-
-
-def build_anchors_from_po(po_data: dict) -> list[dict]:
-    po_titel = po_data["titel"]
-    anchors = []
-    kern_blokken = set(po_data.get("scope", {}).get("kern_taakblokken", []))
-    for tb in po_data.get("taakblokken", []):
-        tb_code = tb["code"]
-        if kern_blokken and tb_code not in kern_blokken:
-            continue
-        for i, taak in enumerate(tb.get("taken", []), 1):
-            anchors.append({
-                "anchor_id": f"{tb_code}.taak.{i}",
-                "anchor_type": "taak",
-                "taakblok": tb_code,
-                "tekst": taak["tekst"],
-                "verbose": f"{po_titel} — {taak['tekst']}",
-                "synoniemen": [],
-            })
-        for i, doel in enumerate(tb.get("doelstellingen", []), 1):
-            tekst = doel["tekst"] if isinstance(doel, dict) else doel
-            anchors.append({
-                "anchor_id": f"{tb_code}.doel.{i}",
-                "anchor_type": "doelstelling",
-                "taakblok": tb_code,
-                "tekst": tekst,
-                "verbose": f"{po_titel} — {tekst}",
-                "synoniemen": [],
-            })
-
-    kern_ke = set(po_data.get("scope", {}).get("kern_kenniselementen", []))
-    for ke in po_data.get("kenniselementen", []):
-        if kern_ke and ke["code"] not in kern_ke:
-            continue
-        anchors.extend(_extract_kenniselementen([ke], parent_path=[po_titel]))
-    return anchors
-
-
 def load_anchors(po: str, override_path: str | None = None) -> tuple[list[dict], str]:
-    """Laad anchors. Override-pad → dat. Anders productie-pad. Anders fallback uit PO-JSON."""
+    """Laad anchors voor een PO uit het geflattende bestand."""
     if override_path:
         path = Path(override_path)
         if not path.is_absolute():
@@ -104,12 +51,14 @@ def load_anchors(po: str, override_path: str | None = None) -> tuple[list[dict],
         return data["anchors"], path.name
 
     enriched_path = ROOT / "data" / "extractie" / po / "anchors" / f"{po}-anchors.json"
-    if enriched_path.exists():
-        data = json.loads(enriched_path.read_text())
-        return data["anchors"], "enriched"
-
-    po_path = next((ROOT / "data" / "programmaonderdelen").glob(f"{po}-*.json"))
-    return build_anchors_from_po(json.loads(po_path.read_text())), "fallback-from-po"
+    if not enriched_path.exists():
+        raise FileNotFoundError(
+            f"Geen anchors-bestand voor PO {po} op {enriched_path}. "
+            f"Run `python3 -m tools.extractie.flatten_anchors` om te regenereren "
+            f"uit data/programma.json."
+        )
+    data = json.loads(enriched_path.read_text())
+    return data["anchors"], "enriched"
 
 
 def anchor_embedding_text(a: dict) -> str:

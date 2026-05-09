@@ -1,14 +1,27 @@
 {
   "po": "1.4",
-  "generated_at": "2026-05-09T20:43:20Z",
-  "model": "claude-opus-4-7",
-  "prompt_version": "anchor-verrijking-v1",
+  "titel": "Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening",
+  "generated_at": "2026-05-09T21:45:38+00:00",
+  "source": "data/programma.json",
+  "n_anchors": 21,
   "anchors": [
     {
-      "anchor_id": "1.4.D1.1.doel.1",
+      "anchor_id": "1.4.taak.1",
+      "anchor_type": "taak",
+      "tekst": "Opstellen van de individuele en geconsolideerde jaarrekening",
+      "verbose": "Het samenstellen van zowel de individuele jaarrekening van een onderneming als de geconsolideerde jaarrekening van een groep waarin moeder- en dochteronderneming worden samengevoegd. Dit omvat afsluitingsverrichtingen, eliminaties van intercompany-posten en presentatie volgens het toepasselijke schema.",
+      "synoniemen": [
+        "jaarrekening opstellen",
+        "preparation of accounts",
+        "afsluiting boekjaar",
+        "consolidatie",
+        "groepsrekeningen samenstellen"
+      ]
+    },
+    {
+      "anchor_id": "1.4.taak.1.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "1.4.D1.1",
-      "tekst": "➢ Uitvoeren van eindejaarsverrichtingen",
+      "tekst": "Uitvoeren van eindejaarsverrichtingen",
       "verbose": "Eindejaarsverrichtingen zijn de boekhoudkundige aanpassingen die op afsluitdatum nodig zijn om een getrouw beeld te geven: overlopende rekeningen, voorzieningen voor risico's en kosten, waardeverminderingen op vorderingen en voorraden, afschrijvingen, herwaarderingen, periodetoerekening van opbrengsten en kosten. Het is het werk dat een proefbalans omzet in een afsluitbalans die klaar is voor consolidatie of jaarrekeningoplevering.",
       "synoniemen": [
         "afsluitverrichtingen",
@@ -18,13 +31,13 @@
         "afsluitboekingen",
         "periodieke afsluitingsverrichtingen",
         "closing entries"
-      ]
+      ],
+      "parent": "1.4.taak.1"
     },
     {
-      "anchor_id": "1.4.D1.1.doel.2",
+      "anchor_id": "1.4.taak.1.doel.2",
       "anchor_type": "doelstelling",
-      "taakblok": "1.4.D1.1",
-      "tekst": "➢ Bepalen van het boekhoudkundig resultaat en verwerking van de bestemming van het resultaat",
+      "tekst": "Bepalen van het boekhoudkundig resultaat en verwerking van de bestemming van het resultaat",
       "verbose": "Het boekhoudkundig resultaat is het saldo van opbrengsten en kosten over het boekjaar, dat als winst of verlies in de resultatenrekening verschijnt. De resultaatbestemming is de beslissing van de algemene vergadering over wat met dat resultaat gebeurt: dotatie aan reserves, overdracht naar volgend boekjaar, dividenduitkering, tantièmes, of aanzuivering van overgedragen verlies.",
       "synoniemen": [
         "winstverdeling",
@@ -35,13 +48,13 @@
         "winst- en verliesrekening",
         "appropriation of profit",
         "dotatie aan reserves"
-      ]
+      ],
+      "parent": "1.4.taak.1"
     },
     {
-      "anchor_id": "1.4.D1.1.doel.3",
+      "anchor_id": "1.4.taak.1.doel.3",
       "anchor_type": "doelstelling",
-      "taakblok": "1.4.D1.1",
-      "tekst": "➢ Opstellen van de proefbalans en de saldibalans",
+      "tekst": "Opstellen van de proefbalans en de saldibalans",
       "verbose": "De proef- en saldibalans is een werkdocument dat per grootboekrekening de totalen van debet en credit én het eindsaldo toont. Ze dient als brug tussen de dagboeken en de jaarrekening: ze maakt het mogelijk de boekhouding rekenkundig te controleren, omissies op te sporen en de eindejaarsverrichtingen voor te bereiden.",
       "synoniemen": [
         "balans van bewegingen en saldi",
@@ -50,13 +63,13 @@
         "controlebalans",
         "tussenbalans",
         "balance de vérification"
-      ]
+      ],
+      "parent": "1.4.taak.1"
     },
     {
-      "anchor_id": "1.4.D1.1.doel.4",
+      "anchor_id": "1.4.taak.1.doel.4",
       "anchor_type": "doelstelling",
-      "taakblok": "1.4.D1.1",
-      "tekst": "➢ Opstellen van de jaarrekening (balans, resultatenrekening, toelichting)",
+      "tekst": "Opstellen van de jaarrekening (balans, resultatenrekening, toelichting)",
       "verbose": "De jaarrekening is het wettelijk verplichte financiële verslag dat de vermogenspositie en de prestaties van een vennootschap weergeeft. Ze bestaat uit de balans (activa en passiva op afsluitdatum), de resultatenrekening (opbrengsten en kosten van het boekjaar) en de toelichting waarin gehanteerde waarderingsregels, bewegingen op vaste activa en andere kerncijfers verder worden uitgelegd.",
       "synoniemen": [
         "financiële staten",
@@ -67,13 +80,13 @@
         "jaarverslag",
         "jaarrekeningstaten",
         "boekhoudkundige staten"
-      ]
+      ],
+      "parent": "1.4.taak.1"
     },
     {
-      "anchor_id": "1.4.D1.1.doel.5",
+      "anchor_id": "1.4.taak.1.doel.5",
       "anchor_type": "doelstelling",
-      "taakblok": "1.4.D1.1",
-      "tekst": "➢ Verwerken van de sociale balans",
+      "tekst": "Verwerken van de sociale balans",
       "verbose": "De sociale balans is een bijlage bij de jaarrekening van vennootschappen met personeel die gegevens bevat over tewerkstelling: aantal werknemers in voltijds equivalent, personeelskosten, opleidingen, in- en uitstroom, en het gebruik van overheidsmaatregelen. Ze laat lezers van de jaarrekening toe een beeld te krijgen van de werkgelegenheidsstructuur van de onderneming.",
       "synoniemen": [
         "personeelsbijlage",
@@ -82,13 +95,13 @@
         "sociaal verslag",
         "personeelsstaat",
         "werkgelegenheidsbijlage"
-      ]
+      ],
+      "parent": "1.4.taak.1"
     },
     {
-      "anchor_id": "1.4.D1.1.doel.6",
+      "anchor_id": "1.4.taak.1.doel.6",
       "anchor_type": "doelstelling",
-      "taakblok": "1.4.D1.1",
-      "tekst": "➢ Toepassen van de waarderingsregels (voorraden, afschrijving van vaste activa)",
+      "tekst": "Toepassen van de waarderingsregels (voorraden, afschrijving van vaste activa)",
       "verbose": "Waarderingsregels zijn de consistente principes die een onderneming volgt om activa en passiva te boeken, zoals FIFO of gewogen gemiddelde voor voorraden en lineaire of degressieve afschrijving voor vaste activa. Ze garanderen vergelijkbaarheid tussen boekjaren en moeten in de toelichting bij de jaarrekening worden bekendgemaakt; wijzigingen vereisen een bijzondere motivering en impactberekening.",
       "synoniemen": [
         "waarderingsmethoden",
@@ -99,13 +112,13 @@
         "FIFO",
         "lineaire afschrijving",
         "waarderingsgrondslagen"
-      ]
+      ],
+      "parent": "1.4.taak.1"
     },
     {
-      "anchor_id": "1.4.D1.1.doel.7",
+      "anchor_id": "1.4.taak.1.doel.7",
       "anchor_type": "doelstelling",
-      "taakblok": "1.4.D1.1",
-      "tekst": "➢ Executeren van vorderingen en schulden, op korte en lange termijn",
+      "tekst": "Executeren van vorderingen en schulden, op korte en lange termijn",
       "verbose": "Vorderingen en schulden worden in de jaarrekening opgesplitst tussen het deel dat binnen het jaar vervalt en het deel met langere looptijd; herclassificatie tussen lang en kort gebeurt op afsluitdatum. Voor vorderingen is een individuele beoordeling van inbaarheid nodig, met eventuele waardeverminderingen voor dubieuze debiteuren; voor schulden hoort de juiste rubricering tussen handels-, financiële en fiscale schulden, inclusief het deel dat opeisbaar wordt binnen het jaar.",
       "synoniemen": [
         "debiteuren en crediteuren",
@@ -116,12 +129,13 @@
         "dubieuze debiteuren",
         "vorderingenbeheer",
         "schuldenbeheer"
-      ]
+      ],
+      "parent": "1.4.taak.1"
     },
     {
       "anchor_id": "1.4.I",
       "anchor_type": "kenniselement",
-      "tekst": "Belgische wetgeving:",
+      "tekst": "Belgische wetgeving",
       "verbose": "Het Belgische wettelijke kader rond de geconsolideerde jaarrekening bepaalt wie moet consolideren, hoe de geconsolideerde rekeningen worden opgesteld en welke bekendmakingsplichten gelden. Het bouwt voort op een combinatie van vennootschapsrecht en jaarrekeningenrecht en vormt de basis voor alle consolidatietechniek die in dit programmaonderdeel aan bod komt.",
       "synoniemen": [
         "Belgisch consolidatierecht",
@@ -235,6 +249,72 @@
         "stapsgewijze acquisitie",
         "wijziging consolidatieperimeter",
         "groepsmutatie"
+      ]
+    },
+    {
+      "anchor_id": "1.4.II",
+      "anchor_type": "kenniselement",
+      "tekst": "IFRS",
+      "verbose": "De internationale standaarden voor financiële verslaggeving die de norm zijn voor beursgenoteerde groepen en steeds meer ook voor andere ondernemingen. IFRS legt de nadruk op fair-value-waardering en op getrouwe weergave van economische realiteit.",
+      "synoniemen": [
+        "International Financial Reporting Standards",
+        "internationale boekhoudnormen",
+        "internationale verslaggevingsstandaarden",
+        "IAS/IFRS",
+        "globale rapportagenormen"
+      ]
+    },
+    {
+      "anchor_id": "1.4.II.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Wettelijk kader van consolidatie (IFRS10, IFRS3, IFRS11, IFRS12)",
+      "verbose": "Het stelsel van internationale standaarden dat bepaalt wanneer en hoe een onderneming een groep moet consolideren, hoe een bedrijfscombinatie wordt verwerkt en hoe gezamenlijke regelingen en deelnemingen in andere entiteiten worden behandeld. Samen vormen deze standaarden de hoekstenen van groepsverslaggeving.",
+      "synoniemen": [
+        "consolidatiestandaarden",
+        "consolidation framework",
+        "IFRS-consolidatieregels",
+        "groepsrapportagenormen",
+        "business combinations standards"
+      ]
+    },
+    {
+      "anchor_id": "1.4.II.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Begrippen, consolidatieverplichting, uitzonderingen, horizontale groepen",
+      "verbose": "De fundamentele begrippen rond consolidatie: wanneer ontstaat verplichting tot consolideren, welke uitzonderingen zijn er voor kleine groepen, en hoe worden horizontale (zusters zonder gemeenschappelijke moeder) groepen behandeld. Dit bepaalt de scope van de geconsolideerde jaarrekening.",
+      "synoniemen": [
+        "consolidatieplicht",
+        "consolidation scope",
+        "consolidatiekring",
+        "groepsdefinitie",
+        "consolidation requirements"
+      ]
+    },
+    {
+      "anchor_id": "1.4.II.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Consolidatietechnieken (integrale consolidatie en vermogensmutatiemethode) - Geconsolideerde jaarrekening en jaarverslag",
+      "verbose": "De rekentechnieken om individuele jaarrekeningen samen te voegen tot één groepsbeeld: integrale consolidatie voor dochters onder controle en vermogensmutatiemethode voor deelnemingen waar enkel invloed uitgaat. Het resultaat is een geconsolideerde jaarrekening met bijhorend jaarverslag.",
+      "synoniemen": [
+        "full consolidation",
+        "equity method",
+        "vermogensmutatiemethode",
+        "consolidatiemethoden",
+        "integrale consolidatie",
+        "groepsconsolidatie"
+      ]
+    },
+    {
+      "anchor_id": "1.4.II.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Wijzigingen van de consolidatiekring",
+      "verbose": "Aanpassingen aan de samenstelling van de groep door overname, verkoop of liquidatie van entiteiten en de boekhoudkundige verwerking daarvan in de geconsolideerde jaarrekening. Dit raakt zowel de openingsbalans als de presentatie van vergelijkbare cijfers.",
+      "synoniemen": [
+        "wijziging consolidatieperimeter",
+        "perimeterwijziging",
+        "scope change",
+        "verandering consolidatiekring",
+        "groepswijzigingen"
       ]
     }
   ]

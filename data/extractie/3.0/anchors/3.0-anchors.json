@@ -1,13 +1,13 @@
 {
   "po": "3.0",
-  "generated_at": "2026-05-09T20:44:55Z",
-  "model": "claude-opus-4-7",
-  "prompt_version": "anchor-verrijking-v1",
+  "titel": "Vennootschaps- en verenigingsrecht en insolventiewetgeving",
+  "generated_at": "2026-05-09T21:45:38+00:00",
+  "source": "data/programma.json",
+  "n_anchors": 56,
   "anchors": [
     {
-      "anchor_id": "3.0.D1.1.taak.1",
+      "anchor_id": "3.0.taak.1",
       "anchor_type": "taak",
-      "taakblok": "3.0.D1.1",
       "tekst": "Begeleiding bij de oprichting van een onderneming",
       "verbose": "De accountant adviseert de aspirant-ondernemer over de juridische vormgeving van de nieuwe entiteit, beoordeelt de fiscale en sociale gevolgen van de keuzes en bereidt de inbreng en het financieel plan voor. Dit omvat het beoordelen van de inbreng in geld of in natura, de bepaling van het minimum-eigen vermogen, de keuze tussen eenmanszaak en vennootschap en de praktische stappen tot inschrijving in de Kruispuntbank van Ondernemingen.",
       "synoniemen": [
@@ -21,9 +21,25 @@
       ]
     },
     {
-      "anchor_id": "3.0.D1.1.taak.2",
+      "anchor_id": "3.0.taak.1.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Samen met de toekomstige ondernemer de meest geschikte vennootschapsvorm bepalen en bijstand verlenen aan de oprichter bij het opstellen van het financieel plan",
+      "verbose": "De accountant weegt de kenmerken van de verschillende vennootschapsvormen tegen het project van de cliënt af: aansprakelijkheid, aandeelhouderschap, fiscale behandeling, beheerstructuur en flexibiliteit. Voor het financieel plan onderbouwt hij de verwachte cashflow, investeringen en financieringsbehoefte over de eerste twee boekjaren, zodat de oprichters hun toereikendheid van het eigen vermogen kunnen aantonen.",
+      "synoniemen": [
+        "vennootschapsvorm kiezen",
+        "rechtsvorm bepalen",
+        "financieel plan opstellen",
+        "businessplan oprichting",
+        "begeleiding oprichter",
+        "keuze rechtsvorm",
+        "startbalansprognose",
+        "oprichtersaansprakelijkheid voorbereiden"
+      ],
+      "parent": "3.0.taak.1"
+    },
+    {
+      "anchor_id": "3.0.taak.2",
       "anchor_type": "taak",
-      "taakblok": "3.0.D1.1",
       "tekst": "Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming",
       "verbose": "De accountant begeleidt de cliënt bij het verkopen, overlaten of stopzetten van zijn onderneming, met aandacht voor de waardering, de fiscale optimalisatie en de juridische structurering van de transactie. Bij ontbinding bewaakt hij de correcte vereffening, de afhandeling van schulden en de uitkering van het saldo aan de aandeelhouders.",
       "synoniemen": [
@@ -38,9 +54,24 @@
       ]
     },
     {
-      "anchor_id": "3.0.D1.1.taak.3",
+      "anchor_id": "3.0.taak.2.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Opmaken van tussentijdse financiële toestand (balans, resultatenrekening). Bepalen van de waarden van de onderneming. Adviseren en begeleiden van de ondernemer zowel overlater als overnemer bij de gesprekken en onderhandelingen",
+      "verbose": "De accountant stelt op een gekozen referentiedatum een tussentijdse balans en resultatenrekening op die als foto van het vermogen dient — typisch ter ondersteuning van een kapitaalverhoging, fusie, splitsing of overdracht. Hij beoordeelt de waarderingsregels, de afsluitingsverrichtingen en de eventuele bijzondere posten zoals voorzieningen en herwaarderingen.",
+      "synoniemen": [
+        "tussentijdse balans",
+        "interim-balans",
+        "tussentijdse afsluiting",
+        "tussentijdse staat",
+        "interim financial statements",
+        "tussentijdse jaarrekening",
+        "afsluitstaat tussentijds"
+      ],
+      "parent": "3.0.taak.2"
+    },
+    {
+      "anchor_id": "3.0.taak.3",
       "anchor_type": "taak",
-      "taakblok": "3.0.D1.1",
       "tekst": "Uitvoeren van bijzondere mandaten in vennootschappen waar geen commissaris is aangesteld en waar men niet de gebruikelijke beroepsbeoefenaar is",
       "verbose": "Bij belangrijke kapitaalverrichtingen die de positie van aandeelhouders of derden raken, treedt een onafhankelijke accountant op om een verslag op te stellen — bijvoorbeeld bij inbreng in natura, quasi-inbreng, omzetting van vennootschapsvorm of uitkering van interim-dividenden. Het mandaat veronderstelt onafhankelijkheid ten opzichte van het bestuur en respect voor de geldende controle- en attesteringsstandaarden.",
       "synoniemen": [
@@ -55,59 +86,8 @@
       ]
     },
     {
-      "anchor_id": "3.0.D1.1.doel.1",
+      "anchor_id": "3.0.taak.3.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "3.0.D1.1",
-      "tekst": "Samen met de toekomstige ondernemer de meest geschikte vennootschapsvorm bepalen en bijstand verlenen aan de oprichter bij het opstellen van het financieel plan",
-      "verbose": "De accountant weegt de kenmerken van de verschillende vennootschapsvormen tegen het project van de cliënt af: aansprakelijkheid, aandeelhouderschap, fiscale behandeling, beheerstructuur en flexibiliteit. Voor het financieel plan onderbouwt hij de verwachte cashflow, investeringen en financieringsbehoefte over de eerste twee boekjaren, zodat de oprichters hun toereikendheid van het eigen vermogen kunnen aantonen.",
-      "synoniemen": [
-        "vennootschapsvorm kiezen",
-        "rechtsvorm bepalen",
-        "financieel plan opstellen",
-        "businessplan oprichting",
-        "begeleiding oprichter",
-        "keuze rechtsvorm",
-        "startbalansprognose",
-        "oprichtersaansprakelijkheid voorbereiden"
-      ]
-    },
-    {
-      "anchor_id": "3.0.D1.1.doel.2",
-      "anchor_type": "doelstelling",
-      "taakblok": "3.0.D1.1",
-      "tekst": "Opmaken van tussentijdse financiële toestand (balans, resultatenrekening).",
-      "verbose": "De accountant stelt op een gekozen referentiedatum een tussentijdse balans en resultatenrekening op die als foto van het vermogen dient — typisch ter ondersteuning van een kapitaalverhoging, fusie, splitsing of overdracht. Hij beoordeelt de waarderingsregels, de afsluitingsverrichtingen en de eventuele bijzondere posten zoals voorzieningen en herwaarderingen.",
-      "synoniemen": [
-        "tussentijdse balans",
-        "interim-balans",
-        "tussentijdse afsluiting",
-        "tussentijdse staat",
-        "interim financial statements",
-        "tussentijdse jaarrekening",
-        "afsluitstaat tussentijds"
-      ]
-    },
-    {
-      "anchor_id": "3.0.D1.1.doel.3",
-      "anchor_type": "doelstelling",
-      "taakblok": "3.0.D1.1",
-      "tekst": "Bepalen van de waarden van de onderneming. Adviseren en begeleiden van de ondernemer zowel overlater als overnemer bij de gesprekken en onderhandelingen",
-      "verbose": "De accountant berekent de waarde van een onderneming via meerdere methoden — substantiële waarde, rendementswaarde, gediscontteerde kasstromen en multiples — en kadert het resultaat als een onderhandelingsrange, niet als een absoluut bedrag. Hij ondersteunt verkoper en koper bij due diligence, deal-structurering en het uitwerken van garanties, prijsherzieningsclausules en betalingsmodaliteiten.",
-      "synoniemen": [
-        "ondernemingswaardering",
-        "bedrijfswaardering",
-        "waarderingsmethodes",
-        "due diligence",
-        "overnameonderhandeling",
-        "koop-verkooponderhandeling",
-        "valuation",
-        "prijsbepaling onderneming"
-      ]
-    },
-    {
-      "anchor_id": "3.0.D1.1.doel.4",
-      "anchor_type": "doelstelling",
-      "taakblok": "3.0.D1.1",
       "tekst": "Stelt privé expertise op met betrekking tot de boekhouding van ondernemingen",
       "verbose": "Op verzoek van een partij — een aandeelhouder, koper, schuldeiser of bestuurder — onderzoekt de accountant boekhoudkundige vraagstukken en levert een onderbouwd verslag dat als professionele opinie kan dienen in onderhandelingen of buitengerechtelijke geschillen. Hij respecteert daarbij de regels van onafhankelijkheid, vakbekwaamheid en vertrouwelijkheid eigen aan zijn beroep.",
       "synoniemen": [
@@ -118,12 +98,12 @@
         "deskundigenverslag op vraag van partijen",
         "partij-expertise",
         "private accounting expertise"
-      ]
+      ],
+      "parent": "3.0.taak.3"
     },
     {
-      "anchor_id": "3.0.D1.1.doel.5",
+      "anchor_id": "3.0.taak.3.doel.2",
       "anchor_type": "doelstelling",
-      "taakblok": "3.0.D1.1",
       "tekst": "Voert een gerechtelijke expertise uit met betrekking tot de boekhouding van ondernemingen",
       "verbose": "Aangesteld door een rechter onderzoekt de accountant boekhoudkundige feiten in een geschil — bijvoorbeeld de afrekening tussen vennoten, een aansprakelijkheidsvordering of een betwiste rekening-courant. Hij werkt op tegenspraak, hoort de partijen en levert een verslag dat de rechter feitelijke onderbouwing biedt om uitspraak te doen.",
       "synoniemen": [
@@ -134,12 +114,12 @@
         "court-appointed expertise",
         "forensische boekhoudexpertise",
         "rechterlijk deskundigenverslag"
-      ]
+      ],
+      "parent": "3.0.taak.3"
     },
     {
-      "anchor_id": "3.0.D1.1.doel.6",
+      "anchor_id": "3.0.taak.3.doel.3",
       "anchor_type": "doelstelling",
-      "taakblok": "3.0.D1.1",
       "tekst": "Stelt verslagen op die leiden tot een attestering of expertiseverslag bestemd om aan derden te worden afgegeven",
       "verbose": "De accountant levert verslagen die door derden — banken, overheden, kopers, rechtbanken — als bewijsstuk worden gebruikt en daarom een hoog niveau van zorgvuldigheid en onafhankelijkheid vereisen. Het verslag beschrijft duidelijk de opdracht, de verrichte werkzaamheden, de bekomen elementen en de besluiten, zodat de gebruiker de reikwijdte en het zekerheidsniveau correct kan inschatten.",
       "synoniemen": [
@@ -150,7 +130,8 @@
         "third-party assurance verslag",
         "attest van de accountant",
         "verslag voor externe gebruikers"
-      ]
+      ],
+      "parent": "3.0.taak.3"
     },
     {
       "anchor_id": "3.0.I",
@@ -228,6 +209,45 @@
       ]
     },
     {
+      "anchor_id": "3.0.II.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Wanneer kan een zaakvoerder/bestuurder alleen beslissingen nemen en wanneer moeten die collectief worden genomen?",
+      "verbose": "De afbakening tussen de individuele bevoegdheid van een bestuurder of zaakvoerder en de beslissingen die enkel collegiaal door de raad van bestuur kunnen worden genomen. Deze grens beschermt tegen ongeoorloofde solo-beslissingen en beïnvloedt de geldigheid van handelingen.",
+      "synoniemen": [
+        "individual vs collective decisions",
+        "individuele versus collegiale beslissingen",
+        "solo decisions",
+        "directorial competence",
+        "bestuurdersbevoegdheid"
+      ]
+    },
+    {
+      "anchor_id": "3.0.II.B",
+      "anchor_type": "kenniselement",
+      "tekst": "In welke gevallen is een vennootschap verbonden indien een zaakvoerder/bestuurder zijn beslissingsbevoegdheid overschrijdt?",
+      "verbose": "De situaties waarin een vennootschap toch verbonden is door een bestuurder die zijn bevoegdheid overschrijdt, met aandacht voor de bescherming van te goeder trouw handelende derden en de interne aansprakelijkheid van de bestuurder. Vormt een klassieke spanning tussen rechtszekerheid en bevoegdheidsregels.",
+      "synoniemen": [
+        "ultra vires acts",
+        "bevoegdheidsoverschrijding",
+        "binding the company",
+        "vertegenwoordigingsbevoegdheid",
+        "external authority"
+      ]
+    },
+    {
+      "anchor_id": "3.0.II.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Welke regels moeten worden gevolgd in geval van belangenconflicten?",
+      "verbose": "De procedure die bestuurders moeten volgen wanneer zij een persoonlijk en strijdig belang hebben bij een te nemen beslissing, met onder meer kennisgeving, onthouding en bijzondere verslaggeving. Doel is transparantie en bescherming van de vennootschap.",
+      "synoniemen": [
+        "conflict of interest procedures",
+        "belangenconflictprocedure",
+        "directors' conflict of interest",
+        "tegenstrijdig belang",
+        "interne governance"
+      ]
+    },
+    {
       "anchor_id": "3.0.III",
       "anchor_type": "kenniselement",
       "tekst": "De algemene vergadering",
@@ -241,6 +261,45 @@
         "general meeting",
         "shareholders meeting",
         "vergadering aandeelhouders"
+      ]
+    },
+    {
+      "anchor_id": "3.0.III.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Bijzondere aandacht voor de procedure voor het bijeenroepen en voor de werking van de algemene vergadering.",
+      "verbose": "De formele stappen om de algemene vergadering bijeen te roepen (oproepingstermijn, agenda, communicatiekanaal) en haar werking (quorum, voorzitterschap, stemming, notulen). Foute toepassing kan leiden tot nietigheid van besluiten.",
+      "synoniemen": [
+        "general meeting procedure",
+        "oproepingsprocedure AV",
+        "convening general meeting",
+        "AV-werking",
+        "shareholders meeting procedure"
+      ]
+    },
+    {
+      "anchor_id": "3.0.III.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Wie mag de algemene vergadering bijwonen (advocaat, gecertificeerd accountant, ...)?",
+      "verbose": "De personen die de algemene vergadering mogen of moeten bijwonen, zoals aandeelhouders, bestuurders, commissaris en eventueel raadgevende derden. De aanwezigheid van een advocaat of gecertificeerd accountant kan zinvol zijn voor advies of notulering.",
+      "synoniemen": [
+        "attendance at general meeting",
+        "wie mag de AV bijwonen",
+        "GA participants",
+        "deelnemers algemene vergadering",
+        "AV-aanwezigheid"
+      ]
+    },
+    {
+      "anchor_id": "3.0.III.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Volmachten?",
+      "verbose": "De wijze waarop een aandeelhouder zich kan laten vertegenwoordigen op de algemene vergadering via een lastgever, met aandacht voor vorm, geldigheid, herroeping en eventuele beperkingen in de statuten. Volmachten faciliteren participatie en kunnen ingezet worden in machtsverhoudingen.",
+      "synoniemen": [
+        "proxies",
+        "volmachten algemene vergadering",
+        "proxy voting",
+        "lastgeving op AV",
+        "vertegenwoordiging AV"
       ]
     },
     {
@@ -260,7 +319,46 @@
       ]
     },
     {
-      "anchor_id": "3.0.I.D",
+      "anchor_id": "3.0.IV.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Wanneer is de regeling van de quasi-inbreng van toepassing?",
+      "verbose": "De gevallen waarin verkrijgingen door de vennootschap van haar oprichters of belangrijke aandeelhouders kort na de oprichting onderworpen zijn aan een bijzondere procedure met onafhankelijke verslaggeving. Doel is misbruik van de vennootschap te vermijden.",
+      "synoniemen": [
+        "quasi-contribution",
+        "quasi-inbreng",
+        "post-formation acquisition",
+        "regeling quasi-inbreng",
+        "deferred contributions"
+      ]
+    },
+    {
+      "anchor_id": "3.0.IV.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Voorwaarden voor de uitkering van tussentijdse dividenden of een voorschot op dividend.",
+      "verbose": "De voorwaarden waaronder de vennootschap dividenden mag uitkeren tijdens het lopende boekjaar of als voorschot op het toekomstige resultaat, met aandacht voor de balans- en liquiditeitstest om kapitaalbescherming te waarborgen. Verkeerde uitkering kan leiden tot terugvordering en bestuurdersaansprakelijkheid.",
+      "synoniemen": [
+        "interim dividends",
+        "tussentijdse dividenden",
+        "interim distributions",
+        "voorschot op dividend",
+        "dividendpolitiek"
+      ]
+    },
+    {
+      "anchor_id": "3.0.IV.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Welke regels zijn van toepassing bij inkoop van eigen aandelen?",
+      "verbose": "De regels die gelden wanneer een vennootschap haar eigen aandelen terugkoopt, met aandacht voor maximumpercentages, financieringsbron en machtiging door de algemene vergadering. Inkoop is een instrument dat vraagt om strikte naleving van procedurele waarborgen.",
+      "synoniemen": [
+        "share buyback",
+        "inkoop eigen aandelen",
+        "treasury shares",
+        "buyback regels",
+        "share repurchase"
+      ]
+    },
+    {
+      "anchor_id": "3.0.IV.D",
       "anchor_type": "kenniselement",
       "tekst": "Welke procedure moet worden gevolgd in het kader van de alarmbelprocedure en wat is de rol van de beroepsbeoefenaar?",
       "verbose": "De alarmbelprocedure is een waarschuwingsmechanisme dat in werking treedt wanneer het netto-actief van de vennootschap onder een kritieke drempel zakt of de continuïteit ernstig in gevaar is. Het bestuur moet binnen een korte termijn een algemene vergadering bijeenroepen en een herstelplan voorleggen; de accountant ondersteunt door de financiële situatie te analyseren, scenario's uit te werken en de bestuurders bewust te maken van hun verzwaarde aansprakelijkheid.",
@@ -291,7 +389,61 @@
       ]
     },
     {
-      "anchor_id": "3.0.I.E",
+      "anchor_id": "3.0.V.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Do's en don'ts bij het opstellen van controleovername-overeenkomsten.",
+      "verbose": "De goede en minder goede praktijken bij het redigeren van overeenkomsten waarbij de controle over een onderneming wordt overgedragen, zoals het uitwerken van garanties, opschortende voorwaarden, escrows en koopprijsmechanismen. Heldere clausules vermijden latere geschillen.",
+      "synoniemen": [
+        "share purchase agreement drafting",
+        "controleovername",
+        "SPA-clausules",
+        "M&A drafting",
+        "do's and don'ts overname"
+      ]
+    },
+    {
+      "anchor_id": "3.0.V.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Verschil tussen een overname van een handelsfonds en de verwerving van aandelen op het vlak van de garanties voor de koper?",
+      "verbose": "Het juridische en operationele verschil tussen het kopen van een handelsfonds (asset deal) en het kopen van aandelen (share deal). De keuze beïnvloedt de overgang van contracten, schulden, personeel en aansprakelijkheden, en bepaalt de garanties die de koper kan eisen.",
+      "synoniemen": [
+        "asset deal vs share deal",
+        "asset deal",
+        "share deal",
+        "handelsfondsoverdracht",
+        "aandelenovername",
+        "M&A structures"
+      ]
+    },
+    {
+      "anchor_id": "3.0.V.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Wat is de juridische draagwijdte van een intentieverklaring?",
+      "verbose": "De juridische waarde en draagwijdte van een document dat de wederzijdse intentie van partijen om te onderhandelen of een overeenkomst te sluiten weergeeft. Afhankelijk van de bewoording kan een intentieverklaring bindend zijn op deelaspecten zoals exclusiviteit en confidentialiteit.",
+      "synoniemen": [
+        "letter of intent",
+        "intentieverklaring",
+        "memorandum of understanding",
+        "term sheet",
+        "preliminary agreement"
+      ]
+    },
+    {
+      "anchor_id": "3.0.V.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Wat zijn de voor- en nadelen van een due diligence-onderzoek en waaraan moet aandacht worden besteed?",
+      "verbose": "Het systematisch onderzoek vóór een overname om de financiële, juridische, fiscale en operationele toestand van de doelvennootschap in kaart te brengen. Het identificeert risico's, ondersteunt prijsbepaling en levert input voor garanties in de overeenkomst.",
+      "synoniemen": [
+        "due diligence",
+        "boekenonderzoek",
+        "vendor due diligence",
+        "DD-onderzoek",
+        "transaction review",
+        "verkoopvoorbereiding"
+      ]
+    },
+    {
+      "anchor_id": "3.0.V.E",
       "anchor_type": "kenniselement",
       "tekst": "Welke minimumgaranties moeten in de overnameovereenkomst worden opgenomen?",
       "verbose": "Een koper moet typisch beschermd zijn tegen onbekende passiva, fiscale en sociale schulden, gebreken in de eigendom van de aandelen en onjuiste financiële cijfers — vandaar een set minimumgaranties die een vergoedingsplicht inhouden bij ontdekking nadien. Cruciaal zijn de looptijd van de garanties, de drempels en plafonds, de procedure voor schadeclaims en de eventuele zekerheden zoals een geblokkeerde rekening.",
@@ -307,7 +459,7 @@
       ]
     },
     {
-      "anchor_id": "3.0.I.F",
+      "anchor_id": "3.0.V.F",
       "anchor_type": "kenniselement",
       "tekst": "Hoe moet een schadeloosstellingsbeding worden opgesteld?",
       "verbose": "Een schadeloosstellingsbeding bepaalt op welke wijze de koper wordt vergoed wanneer een verklaring of garantie achteraf onjuist blijkt: welke schade telt mee, welke uitsluitingen gelden, hoe lang de vordering kan worden ingesteld, en welke drempel of plafond van toepassing is. Een goede formulering balanceert tussen ruime bescherming voor de koper en aanvaardbaarheid voor de verkoper, en is voldoende concreet om bewijsproblemen te vermijden.",
@@ -322,7 +474,7 @@
       ]
     },
     {
-      "anchor_id": "3.0.I.G",
+      "anchor_id": "3.0.V.G",
       "anchor_type": "kenniselement",
       "tekst": "Wat zijn de voorwaarden voor de geldigheid van een concurrentiebeding?",
       "verbose": "Een concurrentiebeding bij een overdracht van onderneming is afdwingbaar voor zover het beperkt is in voorwerp, tijd en geografische zone, en blijft binnen wat redelijkerwijs nodig is om de overgedragen waarde te beschermen. Te ruime bedingen worden door de rechter gematigd of nietig verklaard; de accountant moet de cliënt waarschuwen voor te ambitieuze formuleringen die in de praktijk geen bescherming bieden.",
@@ -354,6 +506,59 @@
       ]
     },
     {
+      "anchor_id": "3.0.VI.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Wat zijn de belangrijke vermeldingen die in een aandeelhoudersovereenkomst moeten worden opgenomen?",
+      "verbose": "De typische clausules die in een aandeelhoudersovereenkomst worden opgenomen, zoals afspraken over besluitvorming, dividendbeleid, financiering, exit en geschillenregeling. Deze afspraken vullen de statuten aan en organiseren de relatie tussen aandeelhouders.",
+      "synoniemen": [
+        "shareholders agreement clauses",
+        "aandeelhoudersovereenkomst",
+        "key clauses SHA",
+        "stakeholder agreement",
+        "SHA-componenten"
+      ]
+    },
+    {
+      "anchor_id": "3.0.VI.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Voorwaarden voor stand-stillclausules, voorkooprechten, opvolgingsrechten, opvolgingsverplichtingen, enz.",
+      "verbose": "Specifieke clausules in aandeelhoudersovereenkomsten die de overdracht of behoud van aandelen reguleren: stand-stillafspraken, voorkooprechten, drag-along en tag-along, met aandacht voor geldigheid en handhaving. Deze clausules sturen de dynamiek bij toetreding of vertrek van aandeelhouders.",
+      "synoniemen": [
+        "stand-still preemptive rights drag-along",
+        "voorkooprecht",
+        "tag-along",
+        "drag-along",
+        "stand-still clausule",
+        "transferclausules"
+      ]
+    },
+    {
+      "anchor_id": "3.0.VI.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Hoe kan een vertegenwoordiging in de raad van bestuur worden gewaarborgd?",
+      "verbose": "Mechanismen waarmee een (minderheids)aandeelhouder zich verzekert van vertegenwoordiging in het bestuursorgaan, zoals voordrachtrechten, statutaire bestuursposten of klasse-aandelen. Deze regelingen zorgen voor evenwicht tussen aandeelhouderscategorieën.",
+      "synoniemen": [
+        "board representation guarantee",
+        "vertegenwoordiging in raad van bestuur",
+        "board seat guarantee",
+        "voordrachtrecht",
+        "minority board rights"
+      ]
+    },
+    {
+      "anchor_id": "3.0.VI.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Hoe een exit organiseren zonder dat het tot een rechtszaak komt?",
+      "verbose": "Regelingen om het uittreden van een aandeelhouder ordelijk te organiseren, zoals putoptie, calloptie, waarderingsmechanismen en rechtbankalternatieven. Goede exit-clausules vermijden kostbare en vertragende rechtszaken.",
+      "synoniemen": [
+        "exit mechanisms",
+        "uittredingsregeling",
+        "exit clauses",
+        "exit zonder rechtszaak",
+        "uittredings- en uitsluitingsclausules"
+      ]
+    },
+    {
       "anchor_id": "3.0.VII",
       "anchor_type": "kenniselement",
       "tekst": "Aansprakelijkheid van oprichters, aandeelhouders en bestuurders",
@@ -367,6 +572,97 @@
         "directors liability",
         "persoonlijke aansprakelijkheid bestuurder",
         "aansprakelijkheidsplafond"
+      ]
+    },
+    {
+      "anchor_id": "3.0.VII.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Basisbeginselen betreffende de aansprakelijkheid van bestuurders en de persoonlijke aansprakelijkheid van vennoten of aandeelhouders.",
+      "verbose": "De fundamenten van bestuurdersaansprakelijkheid (kennelijk grove fout, schending van regels en faillissementsaansprakelijkheid) en van de persoonlijke aansprakelijkheid van vennoten of aandeelhouders, voornamelijk bij vennootschapsvormen zonder beperkte aansprakelijkheid of bij specifieke fouten. Inzicht in deze regimes is essentieel voor risicobeheer.",
+      "synoniemen": [
+        "directors and shareholders liability",
+        "bestuurdersaansprakelijkheid",
+        "aansprakelijkheid vennoten",
+        "personal liability",
+        "liability fundamentals"
+      ]
+    },
+    {
+      "anchor_id": "3.0.VII.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Wat is de reikwijdte van de kwijting? Wat met de aansprakelijkheid van een bestuurder wiens ontslag nog niet is bekendgemaakt?",
+      "verbose": "De juridische gevolgen van de kwijting aan bestuurders door de algemene vergadering en de implicaties voor latere aansprakelijkheidsvorderingen. Voor een ontslagen bestuurder telt vooral de bekendmakingsdatum: tot dan blijft hij in beginsel aansprakelijk tegenover derden.",
+      "synoniemen": [
+        "discharge of directors",
+        "kwijting bestuurders",
+        "directors' release",
+        "ontslag en aansprakelijkheid",
+        "termination of directorship"
+      ]
+    },
+    {
+      "anchor_id": "3.0.VIII",
+      "anchor_type": "kenniselement",
+      "tekst": "Conflicten in vennootschappen",
+      "verbose": "De geschillen die kunnen ontstaan binnen of rond een vennootschap, zoals deadlocks tussen aandeelhouders, conflicten met bestuurders of betwistingen van besluiten. Specifieke instrumenten en procedures bestaan om deze conflicten te ontmijnen of op te lossen.",
+      "synoniemen": [
+        "corporate disputes",
+        "vennootschapsgeschillen",
+        "shareholder conflicts",
+        "interne conflicten",
+        "vennootschapsbetwistingen"
+      ]
+    },
+    {
+      "anchor_id": "3.0.VIII.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Aandachtspunten voor een beroepsbeoefenaar die met een geschil wordt geconfronteerd - Hoe contractueel op geschillen anticiperen?",
+      "verbose": "De aandachtspunten voor een beroepsbeoefenaar die bij een geschil betrokken raakt, zoals beroepsgeheim, conflict of interest en bewijsverzameling, alsook contractuele technieken zoals geschillenbedingen, mediation- en arbitrageclausules om geschillen vooraf te kanaliseren.",
+      "synoniemen": [
+        "dispute prevention clauses",
+        "geschilanticipatie",
+        "anti-litigation drafting",
+        "conflictpreventie",
+        "ADR-clausules"
+      ]
+    },
+    {
+      "anchor_id": "3.0.VIII.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Wat is de juridische waarde van e-mails, vergaderingen op afstand of opgenomen telefoongesprekken?",
+      "verbose": "De bewijswaarde van moderne communicatievormen zoals e-mails, online vergaderingen en opgenomen telefoongesprekken in geschillenbeslechting. Centrale aandachtspunten zijn authenticiteit, integriteit en de manier waarop het bewijs werd verkregen.",
+      "synoniemen": [
+        "legal value of digital evidence",
+        "bewijswaarde digitaal bewijs",
+        "e-mail evidence",
+        "remote meeting evidence",
+        "elektronisch bewijs"
+      ]
+    },
+    {
+      "anchor_id": "3.0.VIII.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Waarop moet u letten als een geschil wordt opgelost door een minnelijke schikking?",
+      "verbose": "De aandachtspunten bij het sluiten van een minnelijke schikking om een geschil te beëindigen, zoals helderheid over de geregelde aanspraken, fiscale gevolgen, vertrouwelijkheid en bevestiging dat alle partijen rechtsgeldig kunnen handelen. Een goed opgestelde schikking voorkomt heropleving van het geschil.",
+      "synoniemen": [
+        "amicable settlement",
+        "minnelijke schikking",
+        "settlement agreement",
+        "dading",
+        "schikkingsovereenkomst"
+      ]
+    },
+    {
+      "anchor_id": "3.0.VIII.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Wanneer kunnen de beslissingen van de algemene vergadering of de raad van bestuur nietig worden verklaard?",
+      "verbose": "De gronden waarop besluiten van de algemene vergadering of de raad van bestuur door een rechter nietig kunnen worden verklaard, zoals procedurefouten, machtsmisbruik of strijd met de statuten of de wet. Nietigheid heeft ingrijpende gevolgen voor reeds uitgevoerde verrichtingen.",
+      "synoniemen": [
+        "nullity of corporate decisions",
+        "nietigheid besluiten",
+        "annulment of decisions",
+        "nietigverklaring AV-besluiten",
+        "voidness"
       ]
     },
     {
@@ -386,6 +682,32 @@
       ]
     },
     {
+      "anchor_id": "3.0.IX.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Procedure in geval van ontbinding of vereffening van een vennootschap?",
+      "verbose": "De stappen die nodig zijn om een vennootschap te ontbinden en te vereffenen, gaande van het vereffeningsbesluit door de algemene vergadering, over de aanstelling van een vereffenaar, tot de afsluiting en doorhaling. Het hele proces is gericht op een ordelijke afwikkeling van activa en schulden.",
+      "synoniemen": [
+        "dissolution and liquidation procedure",
+        "ontbinding en vereffening",
+        "winding-up procedure",
+        "liquidatieproces",
+        "dissolution process"
+      ]
+    },
+    {
+      "anchor_id": "3.0.IX.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Voorwaarden/verplichtingen die de vereffenaar moet nakomen en zijn aansprakelijkheid?",
+      "verbose": "De plichten van de vereffenaar tijdens de afwikkeling van een vennootschap, zoals het opstellen van de staat van actief en passief, betaling van schulden, verdeling onder aandeelhouders en het rapporteren aan de algemene vergadering. Niet-naleving kan leiden tot persoonlijke aansprakelijkheid.",
+      "synoniemen": [
+        "liquidator duties",
+        "vereffenaarsplichten",
+        "responsibilities of liquidator",
+        "verplichtingen vereffenaar",
+        "liquidator liability"
+      ]
+    },
+    {
       "anchor_id": "3.0.X",
       "anchor_type": "kenniselement",
       "tekst": "Insolventiewetgeving (boek XX van het Wetboek Economisch recht)",
@@ -401,6 +723,85 @@
         "minnelijk akkoord",
         "opschorting van betaling",
         "ondernemingen in moeilijkheden"
+      ]
+    },
+    {
+      "anchor_id": "3.0.X.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Werking van rechtbanken, Regsol, insolventiefunctionaris",
+      "verbose": "De inrichting van de ondernemingsrechtbank, het centrale digitale platform voor insolventieprocedures en de rol van de aangestelde insolventiefunctionarissen zoals curator of gerechtelijke bewindvoerder. Samen vormen zij de operationele context van insolventieprocedures.",
+      "synoniemen": [
+        "insolvency courts and Regsol",
+        "ondernemingsrechtbank",
+        "Regsol",
+        "insolventiefunctionaris",
+        "curator en bewindvoerder"
+      ]
+    },
+    {
+      "anchor_id": "3.0.X.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Opsporing ondernemingen in moeilijkheden, kamers van handelsonderzoek, rol en verantwoordelijkheid van de beroepsbeoefenaar",
+      "verbose": "Het systeem waarbij ondernemingen in moeilijkheden vroegtijdig worden opgespoord, onder meer via de kamers voor ondernemingen in moeilijkheden, en de specifieke rol en verantwoordelijkheid die de gecertificeerd accountant of andere beroepsbeoefenaar daarbij heeft. Vroege detectie kan tot herstelmaatregelen leiden.",
+      "synoniemen": [
+        "early detection of distress",
+        "kamers voor ondernemingen in moeilijkheden",
+        "early warning system",
+        "ondernemingsknipperlichten",
+        "tracking distressed firms"
+      ]
+    },
+    {
+      "anchor_id": "3.0.X.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Ondernemingsbemiddelaar",
+      "verbose": "Een neutrale tussenpersoon die door de rechtbank kan worden aangesteld om partijen te helpen een akkoord te vinden buiten een formele insolventieprocedure. Deze figuur biedt soepele begeleiding en vertrouwelijkheid.",
+      "synoniemen": [
+        "company mediator",
+        "ondernemingsbemiddelaar",
+        "business mediator",
+        "bemiddelaar in moeilijkheden",
+        "commercial mediator"
+      ]
+    },
+    {
+      "anchor_id": "3.0.X.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Gerechtelijke reorganisatie, procedure",
+      "verbose": "Een formele procedure die een onderneming in moeilijkheden adempauze biedt om haar activiteit te herstructureren onder gerechtelijke bescherming, via individueel akkoord, collectief akkoord of overdracht onder gerechtelijk gezag. Doel is continuïteit waar mogelijk.",
+      "synoniemen": [
+        "judicial reorganization",
+        "gerechtelijke reorganisatie",
+        "WCO",
+        "court-supervised reorganization",
+        "reorganisatieprocedure"
+      ]
+    },
+    {
+      "anchor_id": "3.0.X.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Faillissement, voorwaarden en procedure",
+      "verbose": "De procedure waarbij een onderneming wegens duurzame staking van betaling en geschokt krediet wordt failliet verklaard, met aanstelling van een curator die de boedel beheert en verdeelt onder de schuldeisers. Voorwaarden, termijnen en gevolgen zijn strikt geregeld.",
+      "synoniemen": [
+        "bankruptcy procedure",
+        "faillissement",
+        "insolvency proceedings",
+        "curatele",
+        "faillissementsverklaring"
+      ]
+    },
+    {
+      "anchor_id": "3.0.X.F",
+      "anchor_type": "kenniselement",
+      "tekst": "Rehabilitatie en verbodsbepalingen",
+      "verbose": "De mogelijkheid voor een gefailleerde of een persoon met beroepsverbod om opnieuw zijn rechten uit te oefenen na een bepaalde periode of na het vervullen van bepaalde voorwaarden, en de tegenovergestelde figuur waarbij een persoon door de rechter het verbod krijgt om bepaalde functies uit te oefenen. Deze regimes balanceren bescherming van het economisch verkeer en kansen op herbegin.",
+      "synoniemen": [
+        "rehabilitation and disqualification",
+        "eerherstel",
+        "beroepsverbod",
+        "rehabilitatie",
+        "disqualifications",
+        "herstelmaatregelen"
       ]
     }
   ]

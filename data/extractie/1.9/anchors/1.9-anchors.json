@@ -1,13 +1,13 @@
 {
   "po": "1.9",
-  "generated_at": "2026-05-09T00:00:00Z",
-  "model": "claude-opus-4-7",
-  "prompt_version": "anchor-verrijking-v1",
+  "titel": "Financiële analyse en fundamentele principes van financieel bedrijfsbeheer",
+  "generated_at": "2026-05-09T21:45:38+00:00",
+  "source": "data/programma.json",
+  "n_anchors": 69,
   "anchors": [
     {
-      "anchor_id": "1.9.D1.1.taak.1",
+      "anchor_id": "1.9.taak.1",
       "anchor_type": "taak",
-      "taakblok": "1.9.D1.1",
       "tekst": "Opstellen van de individuele en geconsolideerde jaarrekening",
       "verbose": "De accountant stelt de financiële staten op van een afzonderlijke vennootschap én — wanneer er moeder-dochterverhoudingen zijn — van de groep als geheel, waarbij intra-groepstransacties geëlimineerd worden. Dit omvat balans, resultatenrekening, toelichting en in voorkomend geval kasstroomoverzicht en mutatieoverzicht eigen vermogen.",
       "synoniemen": [
@@ -21,10 +21,9 @@
       ]
     },
     {
-      "anchor_id": "1.9.D1.1.doel.1",
+      "anchor_id": "1.9.taak.1.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "1.9.D1.1",
-      "tekst": "Het doel van financiële analyse is het verstrekken van de informatie die de onderneming nodig heeft om beslissingen te nemen om te voldoen aan de behoeften van aandeelhouders, beleggers, schuldeisers, de ondernemingsrechtbank en de werknemers. Het gaat dus om het begrijpen en interpreteren van de jaarrekening, het verzamelen van relevante informatie om een financiële diagnose op te stellen, het verschaffen van de noodzakelijke basis voor financieel beheer, het vaststellen van financiële risico's en financiële soliditeit, en het uitwerken van scenario's en prognoses om te voldoen aan de toekomstige strategieën van het bestudeerde bedrijf. Leerdoelen:",
+      "tekst": "Het doel van financiële analyse is het verstrekken van de informatie die de onderneming nodig heeft om beslissingen te nemen om te voldoen aan de behoeften van aandeelhouders, beleggers, schuldeisers, de ondernemingsrechtbank en de werknemers. Het gaat dus om het begrijpen en interpreteren van de jaarrekening, het verzamelen van relevante informatie om een financiële diagnose op te stellen, het verschaffen van de noodzakelijke basis voor financieel beheer, het vaststellen van financiële risico's en financiële soliditeit, en het uitwerken van scenario's en prognoses om te voldoen aan de toekomstige strategieën van het bestudeerde bedrijf.",
       "verbose": "Financiële analyse vertaalt boekhoudkundige cijfers naar bruikbare inzichten voor stakeholders zoals investeerders, kredietverleners en bestuurders. De analist beoordeelt rentabiliteit, liquiditeit en solvabiliteit, identificeert risico's op betalingsmoeilijkheden of discontinuïteit en bouwt scenario's voor toekomstige bedrijfsvoering en strategische keuzes.",
       "synoniemen": [
         "financiële diagnose",
@@ -34,13 +33,13 @@
         "financiële beoordeling",
         "stakeholderinformatie",
         "ondernemingsanalyse"
-      ]
+      ],
+      "parent": "1.9.taak.1"
     },
     {
-      "anchor_id": "1.9.D1.1.doel.2",
+      "anchor_id": "1.9.taak.1.doel.2",
       "anchor_type": "doelstelling",
-      "taakblok": "1.9.D1.1",
-      "tekst": "Lezen en begrijpen van relevante jaarrekeningen;",
+      "tekst": "Lezen en begrijpen van relevante jaarrekeningen",
       "verbose": "De accountant moet de structuur van een Belgische jaarrekening (volledig, verkort of micromodel) zelfstandig kunnen ontleden en de samenhang tussen balans, resultatenrekening en toelichting doorzien. Dit omvat het herkennen van waarderingsregels, bijzondere posten en de impact van bedrijfssector op de leesbaarheid van de cijfers.",
       "synoniemen": [
         "jaarrekening lezen",
@@ -49,13 +48,13 @@
         "doorgronden van de jaarrekening",
         "lezen van de financiële staten",
         "jaarverslag begrijpen"
-      ]
+      ],
+      "parent": "1.9.taak.1"
     },
     {
-      "anchor_id": "1.9.D1.1.doel.3",
+      "anchor_id": "1.9.taak.1.doel.3",
       "anchor_type": "doelstelling",
-      "taakblok": "1.9.D1.1",
-      "tekst": "De consistentie en relevantie van de gegevens waarborgen;",
+      "tekst": "De consistentie en relevantie van de gegevens waarborgen",
       "verbose": "Voor een betrouwbare analyse moeten de cijfers vergelijkbaar zijn over de tijd en bruikbaar voor de gestelde vraag. De analist controleert op stelselwijzigingen, reclassificaties en eenmalige posten en past indien nodig herrekeningen toe zodat trends en ratio's economisch zinvol blijven.",
       "synoniemen": [
         "data-integriteit",
@@ -64,13 +63,13 @@
         "betrouwbaarheid van cijfers",
         "gegevenskwaliteit",
         "comparability"
-      ]
+      ],
+      "parent": "1.9.taak.1"
     },
     {
-      "anchor_id": "1.9.D1.1.doel.4",
+      "anchor_id": "1.9.taak.1.doel.4",
       "anchor_type": "doelstelling",
-      "taakblok": "1.9.D1.1",
-      "tekst": "Contextualiseren van de omgeving van de onderneming;",
+      "tekst": "Contextualiseren van de omgeving van de onderneming",
       "verbose": "Cijfers krijgen pas betekenis tegen de achtergrond van sector, conjunctuur, businessmodel en concurrentiepositie. De analist plaatst de financiële prestaties in deze context om te begrijpen waarom marges, omzetgroei of kapitaalstructuur afwijken van peers of historische trends.",
       "synoniemen": [
         "sectoranalyse",
@@ -80,13 +79,13 @@
         "macro-economische context",
         "marktomgeving",
         "industry benchmarking"
-      ]
+      ],
+      "parent": "1.9.taak.1"
     },
     {
-      "anchor_id": "1.9.D1.1.doel.5",
+      "anchor_id": "1.9.taak.1.doel.5",
       "anchor_type": "doelstelling",
-      "taakblok": "1.9.D1.1",
-      "tekst": "Een grondige financiële diagnose van een onderneming stellen;",
+      "tekst": "Een grondige financiële diagnose van een onderneming stellen",
       "verbose": "Een financiële diagnose is een gestructureerde beoordeling van de sterktes, zwaktes en risico's van een onderneming op basis van haar cijfers. Het resultaat is een onderbouwd oordeel over rentabiliteit, liquiditeit, solvabiliteit en groeipotentieel, met aanduiding van knelpunten die actie vereisen.",
       "synoniemen": [
         "financial health check",
@@ -95,13 +94,13 @@
         "diepgaande analyse",
         "SWOT financieel",
         "bedrijfsdiagnose"
-      ]
+      ],
+      "parent": "1.9.taak.1"
     },
     {
-      "anchor_id": "1.9.D1.1.doel.6",
+      "anchor_id": "1.9.taak.1.doel.6",
       "anchor_type": "doelstelling",
-      "taakblok": "1.9.D1.1",
-      "tekst": "De problematiek vaststellen en aanbevelingen formuleren;",
+      "tekst": "De problematiek vaststellen en aanbevelingen formuleren",
       "verbose": "Na de diagnose identificeert de accountant de kernproblemen — bijvoorbeeld krappe liquiditeit, eroderende marges of overmatige schuldfinanciering — en stelt concrete acties voor zoals herstructurering, herfinanciering of werkkapitaalbeheer. Aanbevelingen zijn prioriteitsgebonden en afgestemd op de strategische context.",
       "synoniemen": [
         "knelpuntenanalyse",
@@ -110,28 +109,27 @@
         "remediëringsvoorstel",
         "verbetertraject",
         "managementadvies"
-      ]
+      ],
+      "parent": "1.9.taak.1"
     },
     {
-      "anchor_id": "1.9.D1.1.doel.7",
+      "anchor_id": "1.9.taak.1.doel.7",
       "anchor_type": "doelstelling",
-      "taakblok": "1.9.D1.1",
-      "tekst": "De passende ratio’s gebruiken naargelang van de problematiek van de onderneming;",
-      "verbose": "Niet elke ratio is in elke situatie zinvol: een vastgoedvennootschap vraagt andere kengetallen dan een productiebedrijf of een dienstenkantoor. De analist kiest doelgericht ratio's die het onderzochte vraagstuk belichten, en weet dat eenzelfde indicator in verschillende sectoren andere normwaarden heeft.",
+      "tekst": "De passende ratio's gebruiken naargelang de problematiek van de onderneming",
+      "verbose": "Het selecteren van de ratio's die het best aansluiten bij de specifieke vraag of pijnpunt van de onderneming, of dat nu liquiditeit, rentabiliteit, solvabiliteit of werkkapitaal is. Een doordachte ratiokeuze maakt de analyse pertinent en handelingsgericht.",
       "synoniemen": [
+        "selection of ratios",
+        "passende ratio's kiezen",
         "ratiokeuze",
-        "kengetallen-selectie",
-        "diagnostische ratio's",
-        "passende kengetallen",
-        "context-afhankelijke ratio's",
-        "ratio analysis"
-      ]
+        "fit-for-purpose ratios",
+        "doelgerichte ratio-analyse"
+      ],
+      "parent": "1.9.taak.1"
     },
     {
-      "anchor_id": "1.9.D1.1.doel.8",
+      "anchor_id": "1.9.taak.1.doel.8",
       "anchor_type": "doelstelling",
-      "taakblok": "1.9.D1.1",
-      "tekst": "Relevante informatie verzamelen om de financiële analyse uit te voeren en de databanken kunnen gebruiken;",
+      "tekst": "Relevante informatie verzamelen om de financiële analyse uit te voeren en de databanken kunnen gebruiken",
       "verbose": "De analist haalt cijfers en kwalitatieve gegevens uit officiële neerleggingen, sectorrapporten en gespecialiseerde databanken zoals de Balanscentrale, Bel-first of Trends Top. Het correct combineren van deze bronnen vergt kennis van zoekfunctionaliteiten, NACE-codes en bedrijfsidentificatoren.",
       "synoniemen": [
         "Balanscentrale",
@@ -141,13 +139,13 @@
         "data sourcing",
         "gegevensverzameling",
         "NBB-databank"
-      ]
+      ],
+      "parent": "1.9.taak.1"
     },
     {
-      "anchor_id": "1.9.D1.1.doel.9",
+      "anchor_id": "1.9.taak.1.doel.9",
       "anchor_type": "doelstelling",
-      "taakblok": "1.9.D1.1",
-      "tekst": "Gebruiken van tools voor financiële analyse en beheer;",
+      "tekst": "Gebruiken van tools voor financiële analyse en beheer",
       "verbose": "Spreadsheettoepassingen, BI-dashboards en gespecialiseerde analysepakketten ondersteunen de analist bij het bewerken, visualiseren en monitoren van financiële gegevens. Effectief gebruik vereist kennis van datamodellen, formules en de beperkingen van geautomatiseerde scoringssystemen.",
       "synoniemen": [
         "Excel voor financiële analyse",
@@ -157,13 +155,13 @@
         "analysepakketten",
         "dashboarding",
         "rapporteringstools"
-      ]
+      ],
+      "parent": "1.9.taak.1"
     },
     {
-      "anchor_id": "1.9.D1.1.doel.10",
+      "anchor_id": "1.9.taak.1.doel.10",
       "anchor_type": "doelstelling",
-      "taakblok": "1.9.D1.1",
-      "tekst": "Financiële prognoses maken voor ondernemingen;",
+      "tekst": "Financiële prognoses maken voor ondernemingen",
       "verbose": "Op basis van historische cijfers, sectortrends en management-aannames bouwt de analist een geprojecteerde balans, resultatenrekening en kasstroom. Goede prognoses koppelen omzetdrivers aan kostenstructuur en investeringsplannen en testen de robuustheid via scenario- en gevoeligheidsanalyse.",
       "synoniemen": [
         "financiële projecties",
@@ -173,13 +171,13 @@
         "scenarioplanning",
         "geprojecteerde kasstromen",
         "financial modelling"
-      ]
+      ],
+      "parent": "1.9.taak.1"
     },
     {
-      "anchor_id": "1.9.D1.1.doel.11",
+      "anchor_id": "1.9.taak.1.doel.11",
       "anchor_type": "doelstelling",
-      "taakblok": "1.9.D1.1",
-      "tekst": "De onderneming bijstaan in de verschillende fasen van haar",
+      "tekst": "De onderneming bijstaan in de verschillende fasen van haar ontwikkeling, van haar oprichting tot haar vereffening",
       "verbose": "Een onderneming doorloopt levensfasen zoals oprichting, groei, maturiteit, herstructurering of overdracht; elke fase stelt eigen financiële vragen rond financieringsmix, werkkapitaal en waardering. De accountant begeleidt het management met diagnose, advies en monitoring afgestemd op de actuele fase.",
       "synoniemen": [
         "levenscyclus van de onderneming",
@@ -188,7 +186,8 @@
         "groei- en herstructureringsadvies",
         "begeleiden bij overname",
         "scale-up coaching"
-      ]
+      ],
+      "parent": "1.9.taak.1"
     },
     {
       "anchor_id": "1.9.I",
@@ -220,7 +219,7 @@
     {
       "anchor_id": "1.9.III",
       "anchor_type": "kenniselement",
-      "tekst": "Herstructurering, horizontale en verticale analyse van de individuele balans en resultatenrekening (toelating);",
+      "tekst": "Herstructurering, horizontale en verticale analyse van de individuele balans en resultatenrekening (toelating)",
       "verbose": "Voor analytische doeleinden worden balans en resultatenrekening hergegroepeerd naar economisch homogene blokken. Horizontale analyse vergelijkt cijfers door de tijd, verticale analyse drukt elke post uit als percentage van een totaal zoals balanstotaal of omzet om structuurverhoudingen zichtbaar te maken.",
       "synoniemen": [
         "common-size analyse",
@@ -233,7 +232,7 @@
       ]
     },
     {
-      "anchor_id": "1.9.I.A",
+      "anchor_id": "1.9.III.A",
       "anchor_type": "kenniselement",
       "tekst": "Herstructurering van de balans",
       "verbose": "De boekhoudkundige balans wordt voor analyse herwerkt tot een functionele of liquiditeitsbalans waarin posten gegroepeerd worden naar economische rol of looptijd. Dit maakt het mogelijk om werkkapitaal, financiering en kasmiddelen op een coherente manier af te leiden.",
@@ -247,61 +246,9 @@
       ]
     },
     {
-      "anchor_id": "1.9.I.A.1",
+      "anchor_id": "1.9.III.B",
       "anchor_type": "kenniselement",
-      "tekst": "Begrip toegevoegde waarde",
-      "verbose": "Toegevoegde waarde is de waarde die de onderneming creëert bovenop de aangekochte goederen en diensten van derden, en wordt verdeeld over personeel, kapitaalverschaffers, overheid en de onderneming zelf. Het is een centrale maatstaf voor de economische bijdrage en arbeidsproductiviteit van een onderneming.",
-      "synoniemen": [
-        "value added",
-        "bruto toegevoegde waarde",
-        "economische waardecreatie",
-        "verdeelpost over stakeholders",
-        "marge boven externe inputs"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.A.2",
-      "anchor_type": "kenniselement",
-      "tekst": "Berekening van de toegevoegde waarde op basis van de jaarrekening van de onderneming",
-      "verbose": "De toegevoegde waarde wordt berekend door uit de bedrijfsopbrengsten de aankopen van handelsgoederen, grond- en hulpstoffen en de diensten en diverse goederen af te trekken. Op een volledig schema gebeurt dit rechtstreeks, op verkorte schema's via reconstructie uit beschikbare aggregaten.",
-      "synoniemen": [
-        "berekening value added",
-        "afleiden toegevoegde waarde",
-        "TW-formule",
-        "berekening op basis van rubrieken 70-61",
-        "calculation of value added"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.A.3",
-      "anchor_type": "kenniselement",
-      "tekst": "Analyse van de toegevoegde waarde",
-      "verbose": "Bij analyse wordt gekeken naar de evolutie van de toegevoegde waarde, naar de verdeling ervan over personeel, kapitaalverschaffers, overheid en zelffinanciering, en naar de toegevoegde waarde per personeelslid of per euro omzet. Dit toont de productiviteit en de keten van waardecreatie.",
-      "synoniemen": [
-        "TW-analyse",
-        "verdeling van de toegevoegde waarde",
-        "TW per personeelslid",
-        "TW-marge",
-        "productiviteitsanalyse"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.A.4",
-      "anchor_type": "kenniselement",
-      "tekst": "Interpretatie van de toegevoegde waarde",
-      "verbose": "De interpretatie plaatst het cijfer in context: hoe verhoudt de toegevoegde waarde zich tot sectorgemiddelden, welke verschuivingen zijn er in de verdeling tussen werknemers en kapitaal, en wat zegt dat over de positionering van de onderneming. Lage of dalende TW kan wijzen op uitbesteding, margedruk of inefficiëntie.",
-      "synoniemen": [
-        "duiding van de TW",
-        "TW-interpretatie",
-        "betekenis van toegevoegde waarde",
-        "value added benchmarking",
-        "evolutie TW"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B",
-      "anchor_type": "kenniselement",
-      "tekst": "Herstructurering van het volledig schema van de resultatenrekening en van de tabel van toevoegingen en onttrekkingen;",
+      "tekst": "Herstructurering van het volledig schema van de resultatenrekening en van de tabel van toevoegingen en onttrekkingen",
       "verbose": "De resultatenrekening volgens het volledig schema wordt voor analyse hergegroepeerd in een trapsgewijze opbouw via toegevoegde waarde, bedrijfsresultaat, financieel resultaat en nettoresultaat. De tabel van toevoegingen en onttrekkingen toont hoe het resultaat verdeeld wordt of welke reserves aangesproken worden.",
       "synoniemen": [
         "analytische resultatenrekening",
@@ -313,288 +260,9 @@
       ]
     },
     {
-      "anchor_id": "1.9.I.B.1",
+      "anchor_id": "1.9.III.C",
       "anchor_type": "kenniselement",
-      "tekst": "Rentabiliteit van de verkoop (break-evenpunt en hefboomwerking in de bedrijfsuitoefening)",
-      "verbose": "De rentabiliteit van de verkoop koppelt de bedrijfsmarge aan het volume waarbij de onderneming break-even draait, dat wil zeggen waarbij de bijdragemarge de vaste kosten precies dekt. De operationele hefboom meet hoe sterk het bedrijfsresultaat reageert op een omzetwijziging en wordt bepaald door het aandeel vaste kosten in de kostenstructuur.",
-      "synoniemen": [
-        "operationele hefboom",
-        "operating leverage",
-        "break-even analyse",
-        "bijdragemarge",
-        "kritisch verkoopvolume",
-        "dood punt",
-        "vaste kosten dekkingspunt"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.2",
-      "anchor_type": "kenniselement",
-      "tekst": "Rentabiliteit van de activa",
-      "verbose": "De rentabiliteit van de activa drukt uit hoeveel resultaat de onderneming genereert per euro geïnvesteerd vermogen, ongeacht de financieringsbron. ROA en ROCE worden vaak ontleed in marge en omloopsnelheid (DuPont) om te zien of rentabiliteit voortkomt uit prijszetting of uit efficiënte activabenutting.",
-      "synoniemen": [
-        "ROA",
-        "Return on Assets",
-        "ROCE",
-        "Return on Capital Employed",
-        "rentabiliteit van het totaal vermogen",
-        "DuPont-analyse",
-        "kapitaalrentabiliteit"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.3",
-      "anchor_type": "kenniselement",
-      "tekst": "Rentabiliteit van het eigen vermogen (financiële hefboom)",
-      "verbose": "De rentabiliteit van het eigen vermogen meet het rendement voor de aandeelhouders. De financiële hefboom toont dat ROE stijgt boven ROA zolang de kost van vreemd vermogen lager is dan de rentabiliteit van de activa, maar omslaat in een neerwaartse hefboom bij dalende activarendementen of stijgende rente.",
-      "synoniemen": [
-        "ROE",
-        "Return on Equity",
-        "financial leverage",
-        "hefboomeffect",
-        "leverage-effect",
-        "rendement op eigen middelen",
-        "aandeelhoudersrendement"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.4",
-      "anchor_type": "kenniselement",
-      "tekst": "Marktrentabiliteit van de onderneming (externe rentabiliteit van de onderneming)",
-      "verbose": "Marktrentabiliteit kijkt naar het rendement zoals investeerders het ervaren via koersontwikkeling, dividendrendement en koers-winstverhouding. Voor niet-genoteerde ondernemingen wordt deze externe blik benaderd via geschatte ondernemingswaarde en multiples.",
-      "synoniemen": [
-        "marktrendement",
-        "koers-winstverhouding",
-        "P/E ratio",
-        "dividendrendement",
-        "EV/EBITDA",
-        "investeerdersrendement",
-        "external profitability"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.1__2",
-      "anchor_type": "kenniselement",
-      "tekst": "Mate van schuldenlast en financiële onafhankelijkheid",
-      "verbose": "De graad van financiële onafhankelijkheid drukt uit welk aandeel van de activa gefinancierd is met eigen vermogen; de schuldgraad is het complement daarvan. Een hoge schuldgraad verhoogt het hefboomrendement maar ook de gevoeligheid voor rentewijzigingen en omzetdalingen.",
-      "synoniemen": [
-        "schuldgraad",
-        "debt ratio",
-        "solvabiliteitsratio",
-        "graad van financiële onafhankelijkheid",
-        "equity ratio",
-        "gearing",
-        "verhouding eigen vermogen / totaal vermogen"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.2__2",
-      "anchor_type": "kenniselement",
-      "tekst": "Dekking van de financiële kosten van het kapitaal van derden door het resultaat vóór financiële kosten en belastingen (EBIT)",
-      "verbose": "De interest coverage ratio toont hoeveel keer de bedrijfswinst vóór rente en belastingen de rentelasten dekt. Een lage dekkingsgraad signaleert dat al een beperkte tegenvaller in de exploitatie de rentebetalingen in gedrang kan brengen.",
-      "synoniemen": [
-        "interest coverage ratio",
-        "rentedekkingsgraad",
-        "EBIT/interest",
-        "TIE ratio",
-        "Times Interest Earned",
-        "rentedekking",
-        "dekking van de financiële kosten"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.3__2",
-      "anchor_type": "kenniselement",
-      "tekst": "Dekking van derdenkapitaal door de kasstroom",
-      "verbose": "Deze maatstaf vergelijkt de operationele kasstroom of cashflow met de uitstaande schuldpositie en geeft aan hoeveel jaar de onderneming nodig zou hebben om al haar schulden af te lossen uit de huidige cashgeneratie. Het is een directere indicator van terugbetalingscapaciteit dan een louter ratio op nettoresultaat.",
-      "synoniemen": [
-        "debt to cashflow",
-        "schuld/cashflow",
-        "terugbetalingscapaciteit",
-        "cashflow coverage",
-        "schulddekking via kasstroom",
-        "debt service capacity"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.4__2",
-      "anchor_type": "kenniselement",
-      "tekst": "Niet in de balans opgenomen rechten en verplichtingen",
-      "verbose": "Bepaalde verbintenissen zoals borgstellingen, leasingverplichtingen, geschillen of garanties verschijnen niet of niet integraal in de balans, maar zijn wel relevant voor de werkelijke schuld- en risicopositie. De analist haalt deze gegevens uit de toelichting en corrigeert ratio's waar nodig.",
-      "synoniemen": [
-        "off-balance sheet items",
-        "buitenbalansposten",
-        "niet-opgenomen verplichtingen",
-        "verbintenissen buiten balans",
-        "borgstellingen en garanties",
-        "voorwaardelijke verplichtingen",
-        "contingent liabilities"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.5",
-      "anchor_type": "kenniselement",
-      "tekst": "Interpretatie van solvabiliteit",
-      "verbose": "Solvabiliteit beoordeelt het vermogen van de onderneming om op lange termijn aan al haar verplichtingen te voldoen, ook in geval van vereffening. De interpretatie houdt rekening met sectorgewoonten, kwaliteit van de activa, bestaan van buitenbalansverplichtingen en de stabiliteit van het eigen vermogen.",
-      "synoniemen": [
-        "lange termijn solvabiliteit",
-        "solvency",
-        "kapitaalstructuur",
-        "duurzaamheid van de financiering",
-        "long-term solvency",
-        "structurele financiële weerbaarheid"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.1__3",
-      "anchor_type": "kenniselement",
-      "tekst": "Nettobedrijfskapitaal, behoefte aan nettobedrijfskapitaal en nettokasmiddelen;",
-      "verbose": "Nettobedrijfskapitaal is het overschot van permanente middelen op vaste activa, en moet de structurele financieringsbehoefte van de exploitatiecyclus dekken. De behoefte aan nettobedrijfskapitaal volgt uit voorraad, klanten en leveranciers; het verschil met het beschikbare nettobedrijfskapitaal vormt de nettokaspositie.",
-      "synoniemen": [
-        "working capital",
-        "operationeel werkkapitaal",
-        "WCR",
-        "Working Capital Requirement",
-        "nettowerkkapitaal",
-        "trésorerie nette",
-        "kasoverschot of -tekort"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.2__3",
-      "anchor_type": "kenniselement",
-      "tekst": "Liquiditeitsratio's afgeleid van nettowerkkapitaal",
-      "verbose": "Klassieke liquiditeitskengetallen zoals current ratio en quick ratio meten of vlottende activa de korte termijn schulden dekken. Ze geven een statisch beeld van de liquiditeitspositie op balansdatum en zijn gevoelig voor de samenstelling van voorraden en handelsvorderingen.",
-      "synoniemen": [
-        "current ratio",
-        "quick ratio",
-        "acid test",
-        "liquiditeit in ruime zin",
-        "liquiditeit in enge zin",
-        "static liquidity ratios",
-        "balansliquiditeit"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.3__3",
-      "anchor_type": "kenniselement",
-      "tekst": "Liquiditeitsratio's afgeleid van behoefte aan bedrijfskapitaal",
-      "verbose": "Deze ratio's leggen het verband tussen omzet en de werkkapitaalcomponenten via rotatieduur en omloopsnelheden van voorraden, klanten en leveranciers. Ze maken zichtbaar of een liquiditeitsprobleem voortkomt uit trage inning, te grote voorraad of korte leverancierskredieten.",
-      "synoniemen": [
-        "DSO",
-        "Days Sales Outstanding",
-        "DPO",
-        "Days Payables Outstanding",
-        "DIO",
-        "voorraadrotatie",
-        "klantenrotatie",
-        "leveranciersrotatie",
-        "cash conversion cycle"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.4__3",
-      "anchor_type": "kenniselement",
-      "tekst": "Liquiditeitsratio's afgeleid van nettokasmiddelen",
-      "verbose": "Hier wordt rechtstreeks gekeken naar de beschikbare kas en kasequivalenten in verhouding tot kortlopende verplichtingen of operationele uitgaven. Dit geeft een strikte maatstaf van directe betalingscapaciteit, los van inning van klanten of liquidatie van voorraden.",
-      "synoniemen": [
-        "cash ratio",
-        "kasratio",
-        "directe liquiditeit",
-        "absolute liquidity ratio",
-        "burn rate dekking",
-        "kasdekking"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.1__4",
-      "anchor_type": "kenniselement",
-      "tekst": "Modellen van de eerste generatie",
-      "verbose": "Eerste-generatie failliet- en kredietmodellen zoals Altman Z-score en Conan-Holder gebruiken een lineaire combinatie van klassieke balans- en resultatenratio's om een score te genereren die wijst op een verhoogd risico op falen. Ze zijn historisch belangrijk maar vaak gevoelig voor sector en land.",
-      "synoniemen": [
-        "Altman Z-score",
-        "Conan-Holder",
-        "discriminantanalyse",
-        "klassieke faillissementspredictie",
-        "linear discriminant model",
-        "scoring eerste generatie"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.2__4",
-      "anchor_type": "kenniselement",
-      "tekst": "Modellen van de tweede generatie",
-      "verbose": "Tweede-generatie modellen gebruiken logistische regressie of moderne statistische technieken op grotere datasets en bevatten doorgaans ook kasstroom- en niet-financiële variabelen. Ze geven een waarschijnlijkheid van falen in plaats van enkel een score en zijn beter ijkbaar op specifieke populaties.",
-      "synoniemen": [
-        "logit-modellen",
-        "Ohlson O-score",
-        "logistische regressie voor faillissementspredictie",
-        "machine learning credit scoring",
-        "moderne faillissementsmodellen",
-        "second generation distress models"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.3__4",
-      "anchor_type": "kenniselement",
-      "tekst": "Gebruik en interpretatie van de modellen",
-      "verbose": "Een score is een signaal, geen verdict: de analist combineert het modeluitkomst met kwalitatieve informatie zoals managementkwaliteit, sectorcontext en evolutie in de tijd. Hij kent ook de waarschuwingsdrempels en fout-positieve en fout-negatieve risico's van het gehanteerde model.",
-      "synoniemen": [
-        "interpretatie van scoringsmodellen",
-        "gebruik van faillissementsmodellen",
-        "modelduiding",
-        "kwalitatieve aanvulling op scores",
-        "type I en type II fouten",
-        "model risk"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.4__4",
-      "anchor_type": "kenniselement",
-      "tekst": "Stabiliteit van de modellen en gebruiksperspectieven",
-      "verbose": "De voorspellende kracht van financiële falingsmodellen verandert bij conjunctuurschokken, sectorverstoringen of veranderende boekhoudregels. De analist beoordeelt de actualiteit van de gebruikte parameters en de geografische en sectoriële geldigheid van het model.",
-      "synoniemen": [
-        "modelstabiliteit",
-        "robuustheid van scoringsmodellen",
-        "out-of-sample performance",
-        "kalibratie van modellen",
-        "geldigheidsdomein",
-        "houdbaarheid van predictiemodellen"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.1__5",
-      "anchor_type": "kenniselement",
-      "tekst": "Gebruik van de passende IT-tools",
-      "verbose": "Voor financiële diagnose gebruikt de analist gespecialiseerde pakketten of zelf gebouwde spreadsheetmodellen waarmee data uit databanken automatisch worden verwerkt tot ratio's, grafieken en peer-vergelijkingen. Geschikte toolkeuze hangt af van datavolume, herhaalfrequentie en gewenste rapportering.",
-      "synoniemen": [
-        "diagnose-software",
-        "Bel-first / BvD",
-        "spreadsheetmodellen",
-        "BI-dashboards",
-        "automatisering van ratio-analyse",
-        "analytische tools",
-        "IT-ondersteuning financiële analyse"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.B.2__5",
-      "anchor_type": "kenniselement",
-      "tekst": "Stellen en interpreteren van de financiële diagnose van de onderneming en vaststellen van de tekortkomingen",
-      "verbose": "De analist synthetiseert ratio's, trends en sectorvergelijkingen tot een coherent oordeel over rentabiliteit, liquiditeit, solvabiliteit en groeiperspectief. Hij benoemt expliciet de zwaktes en risico's en zet die in volgorde van urgentie zodat de gebruiker weet waar prioritair moet worden ingegrepen.",
-      "synoniemen": [
-        "diagnose stellen",
-        "knelpuntenrapport",
-        "synthese van financiële analyse",
-        "tekortkomingen identificeren",
-        "diagnostische rapportage",
-        "financial diagnosis report"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.C",
-      "anchor_type": "kenniselement",
-      "tekst": "Herstructurering van het verkort en microschema van de resultatenrekening en van de tabel van toevoegingen en onttrekkingen;",
+      "tekst": "Herstructurering van het verkort en microschema van de resultatenrekening en van de tabel van toevoegingen en onttrekkingen",
       "verbose": "Verkorte en microschema's bevatten minder rubrieken, waardoor de analist sommige aggregaten zoals toegevoegde waarde of bedrijfsmarge moet reconstrueren via toelichting of inschattingen. Dit vereist methodisch werken om vergelijkbaarheid met grotere ondernemingen te behouden.",
       "synoniemen": [
         "verkort schema",
@@ -606,23 +274,9 @@
       ]
     },
     {
-      "anchor_id": "1.9.I.C.1",
+      "anchor_id": "1.9.III.D",
       "anchor_type": "kenniselement",
-      "tekst": "Formuleren van voorstellen tot oplossingen en adviezen verlenen",
-      "verbose": "Op basis van de diagnose stelt de accountant concrete remedies voor zoals werkkapitaaloptimalisatie, herfinanciering, kostenreductie of margeverbetering en zet hij prioriteiten met een tijdslijn. Goed advies blijft realistisch en houdt rekening met de strategische en operationele context.",
-      "synoniemen": [
-        "actieplan",
-        "remediëringsvoorstel",
-        "adviesnota",
-        "concrete aanbevelingen",
-        "oplossingsgericht advies",
-        "implementation roadmap"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.D",
-      "anchor_type": "kenniselement",
-      "tekst": "Horizontale analyse of chronologische analyse;",
+      "tekst": "Horizontale analyse of chronologische analyse",
       "verbose": "Bij horizontale analyse worden cijfers van opeenvolgende boekjaren naast elkaar gezet om absolute en procentuele veranderingen te tonen. Dit maakt trends zichtbaar in omzet, kostenstructuur, schuld en marge en vormt de basis voor uitspraken over groei en stabiliteit.",
       "synoniemen": [
         "trendanalyse",
@@ -634,9 +288,9 @@
       ]
     },
     {
-      "anchor_id": "1.9.I.E",
+      "anchor_id": "1.9.III.E",
       "anchor_type": "kenniselement",
-      "tekst": "Verticale of structuuranalyse;",
+      "tekst": "Verticale of structuuranalyse",
       "verbose": "Verticale analyse drukt elke balanspost uit als percentage van het balanstotaal en elke post van de resultatenrekening als percentage van de omzet. Daardoor wordt de interne structuur van de onderneming vergelijkbaar met andere ondernemingen, ongeacht de absolute schaal.",
       "synoniemen": [
         "common size analysis",
@@ -648,53 +302,9 @@
       ]
     },
     {
-      "anchor_id": "1.9.I.E.1",
-      "anchor_type": "kenniselement",
-      "tekst": "Chronologische analyse",
-      "verbose": "Een chronologische analyse volgt één onderneming over meerdere jaren en zoekt verklaringen voor groei, krimp of stabilisatie in opeenvolgende cijfers. Het is de tegenhanger van een dwarsdoorsnede-analyse en helpt seizoens-, conjunctuur- en eenmalige effecten te onderscheiden.",
-      "synoniemen": [
-        "longitudinale analyse",
-        "tijdreeksanalyse",
-        "evolutie in de tijd",
-        "historische trend",
-        "year-on-year evolutie",
-        "interne benchmarking over de jaren"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.E.2",
-      "anchor_type": "kenniselement",
-      "tekst": "Vergelijking tussen ondernemingen",
-      "verbose": "Cross-sectionele analyse plaatst de ratio's van de bestudeerde onderneming naast die van vergelijkbare bedrijven of sectorgemiddelden. Goede peer-selectie houdt rekening met sector, omvang, businessmodel en boekhoudpolitiek om appels met appels te vergelijken.",
-      "synoniemen": [
-        "peer comparison",
-        "benchmarking",
-        "cross-sectie analyse",
-        "sectoranalyse",
-        "vergelijking met concurrenten",
-        "peer benchmarking",
-        "competitive analysis"
-      ]
-    },
-    {
-      "anchor_id": "1.9.I.E.3",
-      "anchor_type": "kenniselement",
-      "tekst": "Door de Balanscentrale van de NBB opgestelde statistieken opgesteld op basis van de jaarrekeningen",
-      "verbose": "De Balanscentrale van de Nationale Bank verzamelt de neergelegde jaarrekeningen en publiceert geaggregeerde sectorstatistieken, kwartielen en ratio's per NACE-code. Deze referentiecijfers zijn een primaire bron voor benchmarks in de Belgische context.",
-      "synoniemen": [
-        "Balanscentrale NBB",
-        "Centrale des bilans",
-        "sectorstatistieken NBB",
-        "NACE-statistieken",
-        "geaggregeerde jaarrekeninggegevens",
-        "kwartielen per sector",
-        "BNB referentiestatistieken"
-      ]
-    },
-    {
       "anchor_id": "1.9.IV",
       "anchor_type": "kenniselement",
-      "tekst": "Kasstroomanalyse (toelating);",
+      "tekst": "Kasstroomanalyse (toelating)",
       "verbose": "Kasstroomanalyse onderzoekt waar het geld in een onderneming vandaan komt en waar het naartoe gaat, opgesplitst in operationele, investerings- en financieringsactiviteiten. Ze legt mismatches bloot tussen winst en kas, en is cruciaal voor het beoordelen van financiële continuïteit.",
       "synoniemen": [
         "cashflowanalyse",
@@ -706,7 +316,74 @@
       ]
     },
     {
-      "anchor_id": "1.9.I.F",
+      "anchor_id": "1.9.IV.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Kasstroom en bedrijfscyclus van de onderneming",
+      "verbose": "De geldstromen die voortkomen uit de operationele activiteiten en hun band met de duur van de exploitatiecyclus van inkoop tot verkoop en inning. Een lange cyclus bindt liquide middelen en vraagt om passende financiering van het werkkapitaal.",
+      "synoniemen": [
+        "operating cash flow",
+        "cyclus van uitbating",
+        "kasstromen uit exploitatie",
+        "operating cycle cash flow",
+        "exploitatiekasstroom"
+      ]
+    },
+    {
+      "anchor_id": "1.9.IV.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Tabel van waardemutaties",
+      "verbose": "Een overzicht dat de bewegingen tussen openings- en sluitingsbalans verklaart en daarbij de bronnen en aanwendingen van middelen identificeert. Helpt om begrip te krijgen van strategische beslissingen rond investeringen, financiering en uitkering.",
+      "synoniemen": [
+        "statement of changes in financial position",
+        "tabel van waardemutaties",
+        "funds flow statement",
+        "mutatieoverzicht",
+        "veranderingstabel"
+      ]
+    },
+    {
+      "anchor_id": "1.9.IV.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Cash Flow",
+      "verbose": "Het bedrag aan liquide middelen dat de onderneming genereert of verbruikt in een bepaalde periode. Cash flow is een maatstaf voor de financiële kracht en zelfs voor de waardering van een onderneming, los van boekhoudkundige resultaten.",
+      "synoniemen": [
+        "cash flow",
+        "geldstroom",
+        "liquiditeitsstroom",
+        "kasstroom",
+        "free cash flow",
+        "operationele cashflow"
+      ]
+    },
+    {
+      "anchor_id": "1.9.IV.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Behoeften aan bedrijfskapitaal en veranderingen in behoeften aan bedrijfskapitaal",
+      "verbose": "Het bedrag dat de onderneming nodig heeft om haar operationele cyclus voor te financieren: voorraad en handelsvorderingen min handelsschulden. Stijgingen of dalingen in deze behoefte tonen of de onderneming intern liquiditeit creëert dan wel opslorpt.",
+      "synoniemen": [
+        "working capital requirement",
+        "behoefte aan werkkapitaal",
+        "WCR",
+        "BFR",
+        "besoin en fonds de roulement",
+        "werkkapitaalbehoefte"
+      ]
+    },
+    {
+      "anchor_id": "1.9.IV.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Financiering met derdenkapitaal",
+      "verbose": "Het beroep doen op vreemde middelen om activiteiten of investeringen te financieren, zoals bankleningen, leasing, factoring of obligaties. De kostprijs en het risico van deze financiering hangen af van structuur, looptijd en zekerheden.",
+      "synoniemen": [
+        "external financing",
+        "schuldfinanciering",
+        "debt financing",
+        "vreemd vermogen",
+        "financiering met derdenkapitaal"
+      ]
+    },
+    {
+      "anchor_id": "1.9.IV.F",
       "anchor_type": "kenniselement",
       "tekst": "Financiering met eigen vermogen",
       "verbose": "Eigen vermogen ontstaat door inbreng van aandeelhouders, ingehouden winsten en herwaarderingsreserves en draagt geen verplichting tot terugbetaling. Het versterkt de solvabiliteit maar is duurder dan vreemd vermogen omdat aandeelhouders een hoger risico dragen.",
@@ -721,7 +398,7 @@
       ]
     },
     {
-      "anchor_id": "1.9.I.G",
+      "anchor_id": "1.9.IV.G",
       "anchor_type": "kenniselement",
       "tekst": "Kasstroom uit bedrijfsvoering, investeringen en financiering",
       "verbose": "Operationele kasstroom toont of de kernactiviteit zelfvoorzienend is in cash, investeringskasstroom toont desinvesteringen en kapitaaluitgaven en financieringskasstroom toont mutaties in schuld, eigen vermogen en dividenden. Samen vormen ze het volledige kasplaatje van een boekjaar.",
@@ -736,7 +413,7 @@
       ]
     },
     {
-      "anchor_id": "1.9.I.H",
+      "anchor_id": "1.9.IV.H",
       "anchor_type": "kenniselement",
       "tekst": "Toepassing van kasstroomanalyse",
       "verbose": "In de praktijk wordt kasstroomanalyse gebruikt voor kredietbeoordeling, waardering, opvolging van werkkapitaal en beoordeling van investeringscapaciteit. Ze maakt zichtbaar of winsten ook effectief omgezet worden in beschikbare middelen voor schuldaflossing, investering of dividend.",
@@ -764,6 +441,364 @@
       ]
     },
     {
+      "anchor_id": "1.9.V.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Toegevoegde waarde",
+      "verbose": "Het bedrag dat de onderneming via haar activiteiten toevoegt aan de waarde van ingekochte goederen en diensten. Toegevoegde waarde is een gangbare maatstaf voor de economische bijdrage van de onderneming en wordt verdeeld over personeel, kapitaal, overheid en zelf-financiering.",
+      "synoniemen": [
+        "value added",
+        "valeur ajoutée",
+        "toegevoegde waarde",
+        "added value",
+        "economische toegevoegde waarde"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.A.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Begrip toegevoegde waarde",
+      "verbose": "Toegevoegde waarde is de waarde die de onderneming creëert bovenop de aangekochte goederen en diensten van derden, en wordt verdeeld over personeel, kapitaalverschaffers, overheid en de onderneming zelf. Het is een centrale maatstaf voor de economische bijdrage en arbeidsproductiviteit van een onderneming.",
+      "synoniemen": [
+        "value added",
+        "bruto toegevoegde waarde",
+        "economische waardecreatie",
+        "verdeelpost over stakeholders",
+        "marge boven externe inputs"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Berekening van de toegevoegde waarde op basis van de jaarrekening van de onderneming",
+      "verbose": "De toegevoegde waarde wordt berekend door uit de bedrijfsopbrengsten de aankopen van handelsgoederen, grond- en hulpstoffen en de diensten en diverse goederen af te trekken. Op een volledig schema gebeurt dit rechtstreeks, op verkorte schema's via reconstructie uit beschikbare aggregaten.",
+      "synoniemen": [
+        "berekening value added",
+        "afleiden toegevoegde waarde",
+        "TW-formule",
+        "berekening op basis van rubrieken 70-61",
+        "calculation of value added"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.A.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Analyse van de toegevoegde waarde",
+      "verbose": "Bij analyse wordt gekeken naar de evolutie van de toegevoegde waarde, naar de verdeling ervan over personeel, kapitaalverschaffers, overheid en zelffinanciering, en naar de toegevoegde waarde per personeelslid of per euro omzet. Dit toont de productiviteit en de keten van waardecreatie.",
+      "synoniemen": [
+        "TW-analyse",
+        "verdeling van de toegevoegde waarde",
+        "TW per personeelslid",
+        "TW-marge",
+        "productiviteitsanalyse"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.A.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Interpretatie van de toegevoegde waarde",
+      "verbose": "De interpretatie plaatst het cijfer in context: hoe verhoudt de toegevoegde waarde zich tot sectorgemiddelden, welke verschuivingen zijn er in de verdeling tussen werknemers en kapitaal, en wat zegt dat over de positionering van de onderneming. Lage of dalende TW kan wijzen op uitbesteding, margedruk of inefficiëntie.",
+      "synoniemen": [
+        "duiding van de TW",
+        "TW-interpretatie",
+        "betekenis van toegevoegde waarde",
+        "value added benchmarking",
+        "evolutie TW"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Rentabiliteit",
+      "verbose": "De mate waarin de onderneming winst genereert in verhouding tot de ingezette middelen, zoals omzet, eigen vermogen of totale activa. Rentabiliteitsratio's tonen of de inzet van middelen voldoende rendement oplevert.",
+      "synoniemen": [
+        "profitability",
+        "winstgevendheid",
+        "ROE",
+        "ROA",
+        "marge",
+        "rentabiliteitsratio's"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Rentabiliteit van de verkoop (break-evenpunt en hefboomwerking in de bedrijfsuitoefening)",
+      "verbose": "De rentabiliteit van de verkoop koppelt de bedrijfsmarge aan het volume waarbij de onderneming break-even draait, dat wil zeggen waarbij de bijdragemarge de vaste kosten precies dekt. De operationele hefboom meet hoe sterk het bedrijfsresultaat reageert op een omzetwijziging en wordt bepaald door het aandeel vaste kosten in de kostenstructuur.",
+      "synoniemen": [
+        "operationele hefboom",
+        "operating leverage",
+        "break-even analyse",
+        "bijdragemarge",
+        "kritisch verkoopvolume",
+        "dood punt",
+        "vaste kosten dekkingspunt"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Rentabiliteit van de activa",
+      "verbose": "De rentabiliteit van de activa drukt uit hoeveel resultaat de onderneming genereert per euro geïnvesteerd vermogen, ongeacht de financieringsbron. ROA en ROCE worden vaak ontleed in marge en omloopsnelheid (DuPont) om te zien of rentabiliteit voortkomt uit prijszetting of uit efficiënte activabenutting.",
+      "synoniemen": [
+        "ROA",
+        "Return on Assets",
+        "ROCE",
+        "Return on Capital Employed",
+        "rentabiliteit van het totaal vermogen",
+        "DuPont-analyse",
+        "kapitaalrentabiliteit"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.B.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Rentabiliteit van het eigen vermogen (financiële hefboom)",
+      "verbose": "De rentabiliteit van het eigen vermogen meet het rendement voor de aandeelhouders. De financiële hefboom toont dat ROE stijgt boven ROA zolang de kost van vreemd vermogen lager is dan de rentabiliteit van de activa, maar omslaat in een neerwaartse hefboom bij dalende activarendementen of stijgende rente.",
+      "synoniemen": [
+        "ROE",
+        "Return on Equity",
+        "financial leverage",
+        "hefboomeffect",
+        "leverage-effect",
+        "rendement op eigen middelen",
+        "aandeelhoudersrendement"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.B.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Marktrentabiliteit van de onderneming (externe rentabiliteit van de onderneming)",
+      "verbose": "Marktrentabiliteit kijkt naar het rendement zoals investeerders het ervaren via koersontwikkeling, dividendrendement en koers-winstverhouding. Voor niet-genoteerde ondernemingen wordt deze externe blik benaderd via geschatte ondernemingswaarde en multiples.",
+      "synoniemen": [
+        "marktrendement",
+        "koers-winstverhouding",
+        "P/E ratio",
+        "dividendrendement",
+        "EV/EBITDA",
+        "investeerdersrendement",
+        "external profitability"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Solvabiliteit",
+      "verbose": "Het vermogen van de onderneming om haar lange- en korte-termijnverplichtingen na te komen, gemeten via de verhouding tussen eigen en vreemd vermogen of via dekkingsratio's. Solvabiliteit is een centrale maatstaf voor kredietverleners.",
+      "synoniemen": [
+        "solvency",
+        "solvabiliteit",
+        "kredietwaardigheid",
+        "leverage ratios",
+        "schuldgraad",
+        "financiële stabiliteit"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.C.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Mate van schuldenlast en financiële onafhankelijkheid",
+      "verbose": "De graad van financiële onafhankelijkheid drukt uit welk aandeel van de activa gefinancierd is met eigen vermogen; de schuldgraad is het complement daarvan. Een hoge schuldgraad verhoogt het hefboomrendement maar ook de gevoeligheid voor rentewijzigingen en omzetdalingen.",
+      "synoniemen": [
+        "schuldgraad",
+        "debt ratio",
+        "solvabiliteitsratio",
+        "graad van financiële onafhankelijkheid",
+        "equity ratio",
+        "gearing",
+        "verhouding eigen vermogen / totaal vermogen"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.C.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Dekking van de financiële kosten van het kapitaal van derden door het resultaat vóór financiële kosten en belastingen (EBIT)",
+      "verbose": "De interest coverage ratio toont hoeveel keer de bedrijfswinst vóór rente en belastingen de rentelasten dekt. Een lage dekkingsgraad signaleert dat al een beperkte tegenvaller in de exploitatie de rentebetalingen in gedrang kan brengen.",
+      "synoniemen": [
+        "interest coverage ratio",
+        "rentedekkingsgraad",
+        "EBIT/interest",
+        "TIE ratio",
+        "Times Interest Earned",
+        "rentedekking",
+        "dekking van de financiële kosten"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.C.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Dekking van derdenkapitaal door de kasstroom",
+      "verbose": "Deze maatstaf vergelijkt de operationele kasstroom of cashflow met de uitstaande schuldpositie en geeft aan hoeveel jaar de onderneming nodig zou hebben om al haar schulden af te lossen uit de huidige cashgeneratie. Het is een directere indicator van terugbetalingscapaciteit dan een louter ratio op nettoresultaat.",
+      "synoniemen": [
+        "debt to cashflow",
+        "schuld/cashflow",
+        "terugbetalingscapaciteit",
+        "cashflow coverage",
+        "schulddekking via kasstroom",
+        "debt service capacity"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.C.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Niet in de balans opgenomen rechten en verplichtingen",
+      "verbose": "Bepaalde verbintenissen zoals borgstellingen, leasingverplichtingen, geschillen of garanties verschijnen niet of niet integraal in de balans, maar zijn wel relevant voor de werkelijke schuld- en risicopositie. De analist haalt deze gegevens uit de toelichting en corrigeert ratio's waar nodig.",
+      "synoniemen": [
+        "off-balance sheet items",
+        "buitenbalansposten",
+        "niet-opgenomen verplichtingen",
+        "verbintenissen buiten balans",
+        "borgstellingen en garanties",
+        "voorwaardelijke verplichtingen",
+        "contingent liabilities"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.C.5",
+      "anchor_type": "kenniselement",
+      "tekst": "Interpretatie van solvabiliteit",
+      "verbose": "Solvabiliteit beoordeelt het vermogen van de onderneming om op lange termijn aan al haar verplichtingen te voldoen, ook in geval van vereffening. De interpretatie houdt rekening met sectorgewoonten, kwaliteit van de activa, bestaan van buitenbalansverplichtingen en de stabiliteit van het eigen vermogen.",
+      "synoniemen": [
+        "lange termijn solvabiliteit",
+        "solvency",
+        "kapitaalstructuur",
+        "duurzaamheid van de financiering",
+        "long-term solvency",
+        "structurele financiële weerbaarheid"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Liquiditeit",
+      "verbose": "De capaciteit om op korte termijn aan betalingsverplichtingen te voldoen via beschikbare middelen of snel te realiseren activa. Liquiditeitsratio's zoals current ratio en quick ratio meten dit vermogen.",
+      "synoniemen": [
+        "liquidity",
+        "liquiditeit",
+        "current ratio",
+        "quick ratio",
+        "short-term solvency",
+        "betalingscapaciteit"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.D.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Nettobedrijfskapitaal, behoefte aan nettobedrijfskapitaal en nettokasmiddelen",
+      "verbose": "Nettobedrijfskapitaal is het overschot van permanente middelen op vaste activa, en moet de structurele financieringsbehoefte van de exploitatiecyclus dekken. De behoefte aan nettobedrijfskapitaal volgt uit voorraad, klanten en leveranciers; het verschil met het beschikbare nettobedrijfskapitaal vormt de nettokaspositie.",
+      "synoniemen": [
+        "working capital",
+        "operationeel werkkapitaal",
+        "WCR",
+        "Working Capital Requirement",
+        "nettowerkkapitaal",
+        "trésorerie nette",
+        "kasoverschot of -tekort"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.D.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Liquiditeitsratio's afgeleid van nettowerkkapitaal",
+      "verbose": "Klassieke liquiditeitskengetallen zoals current ratio en quick ratio meten of vlottende activa de korte termijn schulden dekken. Ze geven een statisch beeld van de liquiditeitspositie op balansdatum en zijn gevoelig voor de samenstelling van voorraden en handelsvorderingen.",
+      "synoniemen": [
+        "current ratio",
+        "quick ratio",
+        "acid test",
+        "liquiditeit in ruime zin",
+        "liquiditeit in enge zin",
+        "static liquidity ratios",
+        "balansliquiditeit"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.D.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Liquiditeitsratio's afgeleid van behoefte aan bedrijfskapitaal",
+      "verbose": "Deze ratio's leggen het verband tussen omzet en de werkkapitaalcomponenten via rotatieduur en omloopsnelheden van voorraden, klanten en leveranciers. Ze maken zichtbaar of een liquiditeitsprobleem voortkomt uit trage inning, te grote voorraad of korte leverancierskredieten.",
+      "synoniemen": [
+        "DSO",
+        "Days Sales Outstanding",
+        "DPO",
+        "Days Payables Outstanding",
+        "DIO",
+        "voorraadrotatie",
+        "klantenrotatie",
+        "leveranciersrotatie",
+        "cash conversion cycle"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.D.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Liquiditeitsratio's afgeleid van nettokasmiddelen",
+      "verbose": "Hier wordt rechtstreeks gekeken naar de beschikbare kas en kasequivalenten in verhouding tot kortlopende verplichtingen of operationele uitgaven. Dit geeft een strikte maatstaf van directe betalingscapaciteit, los van inning van klanten of liquidatie van voorraden.",
+      "synoniemen": [
+        "cash ratio",
+        "kasratio",
+        "directe liquiditeit",
+        "absolute liquidity ratio",
+        "burn rate dekking",
+        "kasdekking"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Interpretatie en evaluatie van financiële ratio's (bekwaamheid)",
+      "verbose": "Het kunnen lezen, vergelijken en duiden van financiële verhoudingscijfers in functie van sector, omvang en strategie van de onderneming. Goede interpretatie vereist context en het vermijden van mechanische conclusies op basis van een enkel cijfer.",
+      "synoniemen": [
+        "ratio interpretation",
+        "interpretatie van ratio's",
+        "financiële kengetallen duiden",
+        "financial ratio assessment",
+        "ratio benchmarking"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.E.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Chronologische analyse",
+      "verbose": "Een chronologische analyse volgt één onderneming over meerdere jaren en zoekt verklaringen voor groei, krimp of stabilisatie in opeenvolgende cijfers. Het is de tegenhanger van een dwarsdoorsnede-analyse en helpt seizoens-, conjunctuur- en eenmalige effecten te onderscheiden.",
+      "synoniemen": [
+        "longitudinale analyse",
+        "tijdreeksanalyse",
+        "evolutie in de tijd",
+        "historische trend",
+        "year-on-year evolutie",
+        "interne benchmarking over de jaren"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.E.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Vergelijking tussen ondernemingen",
+      "verbose": "Cross-sectionele analyse plaatst de ratio's van de bestudeerde onderneming naast die van vergelijkbare bedrijven of sectorgemiddelden. Goede peer-selectie houdt rekening met sector, omvang, businessmodel en boekhoudpolitiek om appels met appels te vergelijken.",
+      "synoniemen": [
+        "peer comparison",
+        "benchmarking",
+        "cross-sectie analyse",
+        "sectoranalyse",
+        "vergelijking met concurrenten",
+        "peer benchmarking",
+        "competitive analysis"
+      ]
+    },
+    {
+      "anchor_id": "1.9.V.E.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Door de Balanscentrale van de NBB opgestelde statistieken opgesteld op basis van de jaarrekeningen",
+      "verbose": "De Balanscentrale van de Nationale Bank verzamelt de neergelegde jaarrekeningen en publiceert geaggregeerde sectorstatistieken, kwartielen en ratio's per NACE-code. Deze referentiecijfers zijn een primaire bron voor benchmarks in de Belgische context.",
+      "synoniemen": [
+        "Balanscentrale NBB",
+        "Centrale des bilans",
+        "sectorstatistieken NBB",
+        "NACE-statistieken",
+        "geaggregeerde jaarrekeninggegevens",
+        "kwartielen per sector",
+        "BNB referentiestatistieken"
+      ]
+    },
+    {
       "anchor_id": "1.9.VI",
       "anchor_type": "kenniselement",
       "tekst": "Kwantitatieve modellen voor financiële diagnose en faillissement van de onderneming (bekwaamheid)",
@@ -779,6 +814,89 @@
       ]
     },
     {
+      "anchor_id": "1.9.VI.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Financiële diagnose en falen van de onderneming",
+      "verbose": "Het systematisch detecteren en beoordelen van symptomen die wijzen op financiële zwakte of dreigend faillissement, zoals dalende marges, stijgende schuldgraad en stockproblemen. Vroege diagnose biedt mogelijkheden tot herstel of reorganisatie.",
+      "synoniemen": [
+        "financial distress diagnosis",
+        "diagnose van moeilijkheden",
+        "early warning analysis",
+        "financial distress indicators",
+        "diagnose ondernemingsfalen"
+      ]
+    },
+    {
+      "anchor_id": "1.9.VI.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Kwantitatieve modellen van financiële diagnose",
+      "verbose": "Statistische voorspellingsmodellen die op basis van een combinatie van ratio's de waarschijnlijkheid van faillissement of distress berekenen, zoals Altman Z-score of logistische regressiemodellen. Ze voegen een objectiveerbare laag toe aan de kwalitatieve diagnose.",
+      "synoniemen": [
+        "bankruptcy prediction models",
+        "Z-score",
+        "Altman model",
+        "kwantitatieve faillissementsmodellen",
+        "scoring models",
+        "financial distress models"
+      ]
+    },
+    {
+      "anchor_id": "1.9.VI.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Modellen van de eerste generatie",
+      "verbose": "Eerste-generatie failliet- en kredietmodellen zoals Altman Z-score en Conan-Holder gebruiken een lineaire combinatie van klassieke balans- en resultatenratio's om een score te genereren die wijst op een verhoogd risico op falen. Ze zijn historisch belangrijk maar vaak gevoelig voor sector en land.",
+      "synoniemen": [
+        "Altman Z-score",
+        "Conan-Holder",
+        "discriminantanalyse",
+        "klassieke faillissementspredictie",
+        "linear discriminant model",
+        "scoring eerste generatie"
+      ]
+    },
+    {
+      "anchor_id": "1.9.VI.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Modellen van de tweede generatie",
+      "verbose": "Tweede-generatie modellen gebruiken logistische regressie of moderne statistische technieken op grotere datasets en bevatten doorgaans ook kasstroom- en niet-financiële variabelen. Ze geven een waarschijnlijkheid van falen in plaats van enkel een score en zijn beter ijkbaar op specifieke populaties.",
+      "synoniemen": [
+        "logit-modellen",
+        "Ohlson O-score",
+        "logistische regressie voor faillissementspredictie",
+        "machine learning credit scoring",
+        "moderne faillissementsmodellen",
+        "second generation distress models"
+      ]
+    },
+    {
+      "anchor_id": "1.9.VI.B.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Gebruik en interpretatie van de modellen",
+      "verbose": "Een score is een signaal, geen verdict: de analist combineert het modeluitkomst met kwalitatieve informatie zoals managementkwaliteit, sectorcontext en evolutie in de tijd. Hij kent ook de waarschuwingsdrempels en fout-positieve en fout-negatieve risico's van het gehanteerde model.",
+      "synoniemen": [
+        "interpretatie van scoringsmodellen",
+        "gebruik van faillissementsmodellen",
+        "modelduiding",
+        "kwalitatieve aanvulling op scores",
+        "type I en type II fouten",
+        "model risk"
+      ]
+    },
+    {
+      "anchor_id": "1.9.VI.B.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Stabiliteit van de modellen en gebruiksperspectieven",
+      "verbose": "De voorspellende kracht van financiële falingsmodellen verandert bij conjunctuurschokken, sectorverstoringen of veranderende boekhoudregels. De analist beoordeelt de actualiteit van de gebruikte parameters en de geografische en sectoriële geldigheid van het model.",
+      "synoniemen": [
+        "modelstabiliteit",
+        "robuustheid van scoringsmodellen",
+        "out-of-sample performance",
+        "kalibratie van modellen",
+        "geldigheidsdomein",
+        "houdbaarheid van predictiemodellen"
+      ]
+    },
+    {
       "anchor_id": "1.9.VII",
       "anchor_type": "kenniselement",
       "tekst": "Gebruik van IT-tools in het kader van de financiële analyse (bekwaamheid)",
@@ -791,6 +909,88 @@
         "data analytics in financiële analyse",
         "geavanceerde IT-tools",
         "automated financial analysis"
+      ]
+    },
+    {
+      "anchor_id": "1.9.VII.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Kennismaking met de software en implementatie van de gegevens",
+      "verbose": "Het leren werken met financiële analyse-software door het inladen van jaarrekeningen of boekhoudgegevens, het instellen van parameters en het verifiëren van de geïmporteerde data. Een correcte data-implementatie is voorwaarde voor betrouwbare output.",
+      "synoniemen": [
+        "software onboarding",
+        "data-implementatie",
+        "tool setup",
+        "software introduction",
+        "implementatie analyse-tool"
+      ]
+    },
+    {
+      "anchor_id": "1.9.VII.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Functionaliteit met betrekking tot financiële analyse",
+      "verbose": "De features die financiële-analyse-software typisch aanbiedt: ratiocompositie, sectorbenchmarking, scoremodellen, grafische evolutielezing en wat-als-simulaties. Inzicht in de mogelijkheden helpt de juiste tool te kiezen voor een specifieke vraag.",
+      "synoniemen": [
+        "software functionality",
+        "tool features",
+        "analysefunctionaliteiten",
+        "software-mogelijkheden",
+        "analytical software features"
+      ]
+    },
+    {
+      "anchor_id": "1.9.VII.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Gebruik van de passende IT-tools",
+      "verbose": "Voor financiële diagnose gebruikt de analist gespecialiseerde pakketten of zelf gebouwde spreadsheetmodellen waarmee data uit databanken automatisch worden verwerkt tot ratio's, grafieken en peer-vergelijkingen. Geschikte toolkeuze hangt af van datavolume, herhaalfrequentie en gewenste rapportering.",
+      "synoniemen": [
+        "diagnose-software",
+        "Bel-first / BvD",
+        "spreadsheetmodellen",
+        "BI-dashboards",
+        "automatisering van ratio-analyse",
+        "analytische tools",
+        "IT-ondersteuning financiële analyse"
+      ]
+    },
+    {
+      "anchor_id": "1.9.VII.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Stellen en interpreteren van de financiële diagnose van de onderneming en vaststellen van de tekortkomingen",
+      "verbose": "De analist synthetiseert ratio's, trends en sectorvergelijkingen tot een coherent oordeel over rentabiliteit, liquiditeit, solvabiliteit en groeiperspectief. Hij benoemt expliciet de zwaktes en risico's en zet die in volgorde van urgentie zodat de gebruiker weet waar prioritair moet worden ingegrepen.",
+      "synoniemen": [
+        "diagnose stellen",
+        "knelpuntenrapport",
+        "synthese van financiële analyse",
+        "tekortkomingen identificeren",
+        "diagnostische rapportage",
+        "financial diagnosis report"
+      ]
+    },
+    {
+      "anchor_id": "1.9.VII.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Interpreteren van de gegevens",
+      "verbose": "Het kritisch lezen van de output die financiële-analysesoftware genereert, met aandacht voor onderliggende veronderstellingen, parameterkeuzes en sectorvergelijking. Software vervangt nooit het oordeel van de analyst.",
+      "synoniemen": [
+        "data interpretation",
+        "output-interpretatie",
+        "interpreting software results",
+        "kritische lezing van software-output",
+        "data analysis"
+      ]
+    },
+    {
+      "anchor_id": "1.9.VII.C.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Formuleren van voorstellen tot oplossingen en adviezen verlenen",
+      "verbose": "Op basis van de diagnose stelt de accountant concrete remedies voor zoals werkkapitaaloptimalisatie, herfinanciering, kostenreductie of margeverbetering en zet hij prioriteiten met een tijdslijn. Goed advies blijft realistisch en houdt rekening met de strategische en operationele context.",
+      "synoniemen": [
+        "actieplan",
+        "remediëringsvoorstel",
+        "adviesnota",
+        "concrete aanbevelingen",
+        "oplossingsgericht advies",
+        "implementation roadmap"
       ]
     }
   ]

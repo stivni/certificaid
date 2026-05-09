@@ -1,13 +1,13 @@
 {
   "po": "4.0",
-  "generated_at": "2026-05-09T20:45:08Z",
-  "model": "claude-opus-4-7",
-  "prompt_version": "anchor-verrijking-v1",
+  "titel": "Deontologische beginselen in verband met het beroep en beginselen op het vlak van antiwitwaswetgeving",
+  "generated_at": "2026-05-09T21:45:38+00:00",
+  "source": "data/programma.json",
+  "n_anchors": 75,
   "anchors": [
     {
-      "anchor_id": "4.0.D1.1.taak.1",
+      "anchor_id": "4.0.taak.1",
       "anchor_type": "taak",
-      "taakblok": "4.0.D1.1",
       "tekst": "Een passend beleid voor de aanvaarding van klanten vaststellen",
       "verbose": "De accountant beoordeelt vooraleer hij een nieuwe klant aanneemt of de opdracht professioneel verantwoord is: integriteit van de cliënt, herkomst van de middelen, eigen competentie en onafhankelijkheid, en de afwezigheid van onverenigbaarheden. Dit cliëntenaanvaardingsbeleid bestaat uit gedocumenteerde procedures, identificatie- en risicoclassificatie, en een formeel aanvaardingsbesluit dat ook periodiek wordt herzien.",
       "synoniemen": [
@@ -21,9 +21,8 @@
       ]
     },
     {
-      "anchor_id": "4.0.D1.1.doel.1",
+      "anchor_id": "4.0.taak.1.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D1.1",
       "tekst": "Een risicoanalyse uitvoeren",
       "verbose": "Bij elke (nieuwe) cliëntrelatie en opdracht maakt de accountant een individuele risico-inschatting waarbij hij de aard van de cliënt, de bedrijfssector, de geografische ligging, de complexiteit van de structuur en het type opdracht in rekening brengt. Op basis van die inschatting bepaalt hij de intensiteit van zijn waakzaamheidsmaatregelen, dossierdocumentatie en monitoring.",
       "synoniemen": [
@@ -34,12 +33,12 @@
         "klantenrisicoprofiel",
         "risico-classificatie",
         "client risk assessment"
-      ]
+      ],
+      "parent": "4.0.taak.1"
     },
     {
-      "anchor_id": "4.0.D1.1.doel.2",
+      "anchor_id": "4.0.taak.1.doel.2",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D1.1",
       "tekst": "Interne procedures uitwerken",
       "verbose": "De accountant of zijn kantoor stelt geschreven beleidslijnen en werkinstructies op die de cliëntenaanvaarding, dossierdocumentatie, waakzaamheidsmaatregelen, klachtenbehandeling en kwaliteitscontrole regelen. Deze interne organisatie zorgt voor consistente uitvoering door alle medewerkers en is opvraagbaar bij toezichtsacties.",
       "synoniemen": [
@@ -50,12 +49,12 @@
         "AML-procedures",
         "policies and procedures",
         "schriftelijke procedures"
-      ]
+      ],
+      "parent": "4.0.taak.1"
     },
     {
-      "anchor_id": "4.0.D1.1.doel.3",
+      "anchor_id": "4.0.taak.1.doel.3",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D1.1",
       "tekst": "Discreet en duidelijk communiceren met de autoriteiten",
       "verbose": "Wanneer de accountant verplicht of gerechtigd is om informatie te verstrekken aan een toezichthouder, een gerechtelijke instantie of de cel voor financiële informatieverwerking, doet hij dat schriftelijk, ondubbelzinnig en zonder de cliënt of derden te tippen. Hij respecteert daarbij zowel de meldingsplicht als zijn discretieplicht over de inhoud van de melding.",
       "synoniemen": [
@@ -65,12 +64,12 @@
         "tippingverbod",
         "vertrouwelijke melding",
         "informatieverstrekking aan overheid"
-      ]
+      ],
+      "parent": "4.0.taak.1"
     },
     {
-      "anchor_id": "4.0.D1.1.doel.4",
+      "anchor_id": "4.0.taak.1.doel.4",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D1.1",
       "tekst": "De beroepsdeontologie naleven",
       "verbose": "De accountant gedraagt zich in elke opdracht volgens de fundamentele beginselen van het beroep: integriteit, objectiviteit, professionele bekwaamheid en zorgvuldigheid, vertrouwelijkheid en professioneel gedrag. Naleving betekent dat hij die beginselen actief toetst tegen elke concrete situatie en bedreigingen ervoor identificeert en wegneemt.",
       "synoniemen": [
@@ -81,12 +80,12 @@
         "professional conduct",
         "ethische plichten accountant",
         "code of ethics"
-      ]
+      ],
+      "parent": "4.0.taak.1"
     },
     {
-      "anchor_id": "4.0.D1.1.doel.5",
+      "anchor_id": "4.0.taak.1.doel.5",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D1.1",
       "tekst": "De antiwitwaswetgeving naleven",
       "verbose": "De accountant past het preventieve luik toe met klantidentificatie, identificatie van de uiteindelijke begunstigde, doorlopende waakzaamheid op verrichtingen, schriftelijke risicobeoordeling en melding van verdachte transacties. Hij houdt een schriftelijk AML-beleid bij en bewaart de bewijsstukken gedurende de wettelijke termijn.",
       "synoniemen": [
@@ -97,12 +96,12 @@
         "klantenonderzoek (CDD)",
         "due diligence cliënt",
         "AML/CFT"
-      ]
+      ],
+      "parent": "4.0.taak.1"
     },
     {
-      "anchor_id": "4.0.D1.2.taak.1",
+      "anchor_id": "4.0.taak.2",
       "anchor_type": "taak",
-      "taakblok": "4.0.D1.2",
       "tekst": "Zorgen voor een passende communicatie met de verschillende actoren in het kader van zijn opdracht",
       "verbose": "De accountant stemt vorm, frequentie en inhoud van zijn communicatie af op het doelpubliek: cliënten, voorganger of opvolger, banken, fiscus, sociale zekerheid, rechtbanken of toezichthouder. Hij bewaakt daarbij de scheiding tussen wat publiek mag, wat onder beroepsgeheim valt, en wat verplicht moet worden gemeld.",
       "synoniemen": [
@@ -115,9 +114,8 @@
       ]
     },
     {
-      "anchor_id": "4.0.D1.2.doel.1",
+      "anchor_id": "4.0.taak.2.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D1.2",
       "tekst": "Duidelijk en gepast communiceren met de klant (confraters, enz.)",
       "verbose": "Naar de cliënt toe gebruikt de accountant heldere taal in opdrachtbrieven, adviezen en rapporten zodat de cliënt de draagwijdte van zijn aanbevelingen begrijpt. Bij overname of beëindiging informeert hij de confrater met de gepaste hoffelijkheid en bezorgt hij de stukken die de continuïteit van het dossier verzekeren.",
       "synoniemen": [
@@ -127,12 +125,12 @@
         "engagement letter",
         "overdracht dossier confrater",
         "overlegplicht met collega"
-      ]
+      ],
+      "parent": "4.0.taak.2"
     },
     {
-      "anchor_id": "4.0.D1.2.doel.2",
+      "anchor_id": "4.0.taak.2.doel.2",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D1.2",
       "tekst": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals banken, belastingdiensten, de cel voor financiële informatieverwerking (antiwitwasbeleid), rechtbanken, enz.",
       "verbose": "De accountant past zijn communicatie aan elke gesprekspartner aan: financiers willen cijferonderbouwing, de fiscus formele verantwoording, de antiwitwas-meldingsinstantie een gestructureerd verdacht-transactiedossier, en rechters een feitelijke neutrale weergave. In elk register bewaakt hij de grens van zijn beroepsgeheim en de verplichtingen die hem dwingen of toelaten te spreken.",
       "synoniemen": [
@@ -143,12 +141,12 @@
         "communicatie met rechtbank",
         "interactie met derden",
         "stakeholder reporting"
-      ]
+      ],
+      "parent": "4.0.taak.2"
     },
     {
-      "anchor_id": "4.0.D1.2.doel.3",
+      "anchor_id": "4.0.taak.2.doel.3",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D1.2",
       "tekst": "Vertrouwelijke informatie discreet behandelen",
       "verbose": "Cliëntgegevens, opdrachtbevindingen en interne werkdocumenten worden niet besproken met onbevoegden, niet onbeveiligd verzonden en niet gebruikt voor andere doeleinden dan de opdracht. De accountant past organisatorische maatregelen toe (toegangsbeheer, clean desk, versleuteling) zodat zijn medewerkers en eventuele onderaannemers dezelfde discretie aanhouden.",
       "synoniemen": [
@@ -159,12 +157,12 @@
         "informatiebeveiliging dossier",
         "need-to-know",
         "data confidentiality"
-      ]
+      ],
+      "parent": "4.0.taak.2"
     },
     {
-      "anchor_id": "4.0.D1.2.doel.4",
+      "anchor_id": "4.0.taak.2.doel.4",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D1.2",
       "tekst": "Termijnen in acht nemen",
       "verbose": "Voor zowel fiscale aangiftes, neerleggingen, beroepsmeldingen als interne kantoordeadlines werkt de accountant met een planning die rekening houdt met buffertijd en ontvangst van cliëntinformatie. Tijdige levering is niet alleen een commerciële verplichting maar ook een element van zijn zorgvuldigheidsplicht.",
       "synoniemen": [
@@ -174,12 +172,12 @@
         "indieningstermijnen",
         "planningsdiscipline",
         "tijdigheidsplicht"
-      ]
+      ],
+      "parent": "4.0.taak.2"
     },
     {
-      "anchor_id": "4.0.D1.3.taak.1",
+      "anchor_id": "4.0.taak.3",
       "anchor_type": "taak",
-      "taakblok": "4.0.D1.3",
       "tekst": "Zijn deskundigheid voortdurend ontwikkelen",
       "verbose": "De accountant houdt zijn vaktechnische kennis op peil door structureel opleidingen te volgen, vakliteratuur te lezen en zijn praktijkervaring te reflecteren. Permanente vorming is geen administratieve formaliteit maar een voorwaarde om de fundamentele beginselen van bekwaamheid en zorgvuldigheid waar te maken.",
       "synoniemen": [
@@ -192,9 +190,8 @@
       ]
     },
     {
-      "anchor_id": "4.0.D1.3.doel.1",
+      "anchor_id": "4.0.taak.3.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D1.3",
       "tekst": "Voortdurend bijscholen volgens de norm van permanente vorming",
       "verbose": "Het beroep legt elk lid een minimumaantal opleidingsuren per jaar op, gespreid over relevante vakgebieden. De accountant registreert die uren, bewaart bewijsstukken en stemt zijn opleidingskeuzes af op de evolutie van zijn cliëntenportefeuille en op nieuwe verplichtingen.",
       "synoniemen": [
@@ -205,12 +202,12 @@
         "continuing education",
         "ITAA-vorming",
         "verplichte bijscholing"
-      ]
+      ],
+      "parent": "4.0.taak.3"
     },
     {
-      "anchor_id": "4.0.D1.3.doel.2",
+      "anchor_id": "4.0.taak.3.doel.2",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D1.3",
       "tekst": "Op de hoogte blijven van de ontwikkelingen ter zake",
       "verbose": "De accountant volgt actief vaktechnische publicaties, beroepscirculaires, rechtspraak en evolutie in standaarden zodat zijn advies up-to-date blijft. Hij integreert die kennis in zijn werkmethodes en wijst zijn medewerkers en cliënten op relevante wijzigingen.",
       "synoniemen": [
@@ -220,12 +217,12 @@
         "current awareness",
         "doctrineopvolging",
         "professionele alertheid"
-      ]
+      ],
+      "parent": "4.0.taak.3"
     },
     {
-      "anchor_id": "4.0.D1.3.doel.3",
+      "anchor_id": "4.0.taak.3.doel.3",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D1.3",
       "tekst": "Volgen van de fiscale actualiteit en andere relevante wetgeving en toepassen van wijzigingen in de wetgeving",
       "verbose": "Wijzigingen aan tarieven, regimes, drempels of formaliteiten worden door de accountant tijdig in zijn aangifteprocedures, modellen en cliëntadviezen verwerkt. Hij vertaalt die actualiteit naar concrete impact-analyses voor elke betrokken cliënt en documenteert zijn keuzes in het dossier.",
       "synoniemen": [
@@ -236,12 +233,12 @@
         "implementatie nieuwe wetgeving",
         "regelgevingsmonitoring",
         "tax law changes"
-      ]
+      ],
+      "parent": "4.0.taak.3"
     },
     {
-      "anchor_id": "4.0.D1.3.doel.4",
+      "anchor_id": "4.0.taak.3.doel.4",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D1.3",
       "tekst": "Kennis delen met collega's en (medewerkers) van de klant",
       "verbose": "Door interne kennissessies, schriftelijke memo's en mentoring zorgt de accountant ervoor dat zijn team uniform werkt en dat cliëntmedewerkers de gevolgen van fiscale of administratieve keuzes begrijpen. Kennisdeling is ook een instrument om continuïteit en kwaliteit van het kantoor te bewaken.",
       "synoniemen": [
@@ -251,12 +248,12 @@
         "vakopleiding kantoorpersoneel",
         "best practices delen",
         "kennistransfer cliënt"
-      ]
+      ],
+      "parent": "4.0.taak.3"
     },
     {
-      "anchor_id": "4.0.D2.1.taak.1",
+      "anchor_id": "4.0.taak.4",
       "anchor_type": "taak",
-      "taakblok": "4.0.D2.1",
       "tekst": "De activiteiten van een team coördineren",
       "verbose": "De accountant verdeelt opdrachten over zijn team in functie van competentie en ervaring, bewaakt voortgang en kwaliteit, en stuurt bij waar nodig. Coördinatie omvat planning, supervisie, review en feedback zodat elke opdracht binnen tijd en budget afgerond wordt met behoud van de vereiste kwaliteit.",
       "synoniemen": [
@@ -269,9 +266,8 @@
       ]
     },
     {
-      "anchor_id": "4.0.D2.1.doel.1",
+      "anchor_id": "4.0.taak.4.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D2.1",
       "tekst": "Een planning opstellen en naargelang van de omstandigheden aanpassen",
       "verbose": "Op basis van wettelijke deadlines, beschikbaarheid van medewerkers en complexiteit per dossier maakt de accountant een rolling planning. Wanneer cliëntinformatie laattijdig binnenkomt of nieuwe prioriteiten ontstaan, herschikt hij capaciteit zonder dat kwaliteit of deadlines in het gedrang komen.",
       "synoniemen": [
@@ -281,12 +277,12 @@
         "rolling forecast team",
         "tijdsplanning kantoor",
         "scheduling opdrachten"
-      ]
+      ],
+      "parent": "4.0.taak.4"
     },
     {
-      "anchor_id": "4.0.D2.1.doel.2",
+      "anchor_id": "4.0.taak.4.doel.2",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D2.1",
       "tekst": "Taken en verantwoordelijkheden verdelen",
       "verbose": "De accountant wijst per dossier rollen toe (preparer, reviewer, dossierhouder, eindverantwoordelijke) zodat duidelijk is wie wat doet en aftekent. Een heldere RACI vermindert dubbel werk, voorkomt blinde vlekken en is essentieel voor een audittrail in het dossier.",
       "synoniemen": [
@@ -296,12 +292,12 @@
         "RACI-matrix",
         "delegeren opdrachten",
         "ownership dossier"
-      ]
+      ],
+      "parent": "4.0.taak.4"
     },
     {
-      "anchor_id": "4.0.D2.1.doel.3",
+      "anchor_id": "4.0.taak.4.doel.3",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D2.1",
       "tekst": "Informeren, begeleiden, leiden en motiveren van (nieuwe) medewerkers",
       "verbose": "Stagiairs en juniors hebben naast technische instructie ook coaching nodig over deontologische reflexen, dossiervoering en cliëntencommunicatie. De accountant zorgt voor een gestructureerd onthaal, regelmatig overleg en feedbackmomenten, en bewaakt het welzijn en de groei van zijn medewerkers.",
       "synoniemen": [
@@ -311,12 +307,12 @@
         "people development",
         "talent ontwikkeling",
         "mentorrol"
-      ]
+      ],
+      "parent": "4.0.taak.4"
     },
     {
-      "anchor_id": "4.0.D2.1.doel.4",
+      "anchor_id": "4.0.taak.4.doel.4",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D2.1",
       "tekst": "Controleren van de uitvoering van de opdrachten en de naleving van de procedures",
       "verbose": "Door tweede-paar-ogen-review, kwaliteitschecks en steekproeven verifieert de accountant of de opdrachten effectief volgens de interne procedures en de toepasselijke standaarden zijn uitgevoerd. Afwijkingen worden gedocumenteerd, besproken en gecorrigeerd vóór externe oplevering.",
       "synoniemen": [
@@ -326,12 +322,12 @@
         "compliance monitoring",
         "tweedelijnscontrole",
         "naleving van interne procedures"
-      ]
+      ],
+      "parent": "4.0.taak.4"
     },
     {
-      "anchor_id": "4.0.D2.1.doel.5",
+      "anchor_id": "4.0.taak.4.doel.5",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D2.1",
       "tekst": "Organiseren en leiden van teamvergaderingen",
       "verbose": "Periodieke teamvergaderingen brengen voortgang van dossiers, kwaliteitsbevindingen, planning en kennisdeling samen. De accountant leidt het overleg met een agenda, bewaakt actiepunten en zorgt dat beslissingen schriftelijk gedocumenteerd worden.",
       "synoniemen": [
@@ -341,12 +337,12 @@
         "weekoverleg",
         "operationeel overleg",
         "engagement meeting"
-      ]
+      ],
+      "parent": "4.0.taak.4"
     },
     {
-      "anchor_id": "4.0.D2.1.doel.6",
+      "anchor_id": "4.0.taak.4.doel.6",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D2.1",
       "tekst": "Opvolgen van de competenties van de medewerkers",
       "verbose": "Per medewerker wordt bijgehouden welke vaktechnische, deontologische en digitale vaardigheden aanwezig zijn en welke nog ontwikkeld moeten worden. Op basis daarvan stuurt de accountant opleiding en taakverdeling, en plant hij groeitrajecten naar senior- of partnerrol.",
       "synoniemen": [
@@ -356,12 +352,12 @@
         "talentbeheer",
         "loopbaanopvolging",
         "competentiebeheer"
-      ]
+      ],
+      "parent": "4.0.taak.4"
     },
     {
-      "anchor_id": "4.0.D2.1.doel.7",
+      "anchor_id": "4.0.taak.4.doel.7",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D2.1",
       "tekst": "Voeren van plannings-, functionerings- en evaluatiegesprekken",
       "verbose": "In gestructureerde gesprekken bespreekt de accountant met elke medewerker doelstellingen, geleverd werk, sterkten en groeipunten. Goede gespreksvoering combineert duidelijke verwachtingen, concrete feedback en gedeelde actie-afspraken die in een persoonlijk dossier worden vastgelegd.",
       "synoniemen": [
@@ -371,12 +367,12 @@
         "appraisal",
         "doelstellingengesprek",
         "feedbackgesprek"
-      ]
+      ],
+      "parent": "4.0.taak.4"
     },
     {
-      "anchor_id": "4.0.D2.2.taak.1",
+      "anchor_id": "4.0.taak.5",
       "anchor_type": "taak",
-      "taakblok": "4.0.D2.2",
       "tekst": "Zich in zijn kantoor, bij zijn klant of in zijn onderneming ontwikkelen en dit in een digitale wereld",
       "verbose": "De accountant verwerft inzicht in digitale werkomgevingen, gegevensstromen tussen cliënt en kantoor, samenwerkingsplatformen en cybersecurity. Hij past zijn werkmethodes aan zodat hij in een gedigitaliseerde keten meerwaarde blijft leveren als analist en adviseur.",
       "synoniemen": [
@@ -389,9 +385,24 @@
       ]
     },
     {
-      "anchor_id": "4.0.D2.2.taak.2",
+      "anchor_id": "4.0.taak.5.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Vaardigheden verwerven in gegevensanalyse en informatiesystemen. Naast de basisvaardigheden, waaronder het verzamelen en verifiëren van relevante informatie en het gebruik van passende middelen om relevante informatie te verzamelen of te ontwikkelen, beschikken over specifieke technische vaardigheden. In het kader van de voorgestelde wijzigingen wordt onder meer voorgesteld om het volgende verder uit te werken: de competenties; de leerresultaten op de verschillende niveaus van het professioneel ontwikkelingsplan of het equivalent ervan; kennis.",
+      "verbose": "De accountant moet bedrijfsdata kunnen extraheren, opschonen, structureren en interpreteren met courante tools en spreadsheets, en de output vertalen naar zinvolle conclusies voor de cliënt. Naast technische vaardigheid hoort daar kritisch denken bij over gegevenskwaliteit, herkomst en betrouwbaarheid.",
+      "synoniemen": [
+        "data analytics",
+        "gegevensanalyse",
+        "informatiesystemen",
+        "data literacy",
+        "spreadsheetvaardigheid",
+        "ETL-vaardigheden",
+        "auditing data skills"
+      ],
+      "parent": "4.0.taak.5"
+    },
+    {
+      "anchor_id": "4.0.taak.6",
       "anchor_type": "taak",
-      "taakblok": "4.0.D2.2",
       "tekst": "Zich in zijn kantoor, bij zijn klant of in zijn onderneming ontwikkelen door geleidelijk kennis te verwerven over bedrijfsstrategie",
       "verbose": "Naast cijferwerk bouwt de accountant inzicht op in businessmodellen, waardeketens, strategische keuzes en marktdynamiek van zijn cliënten. Die strategische lens versterkt zijn rol als gesprekspartner van de zaakvoerder en helpt hem risico's en opportuniteiten in een breder kader te plaatsen.",
       "synoniemen": [
@@ -404,10 +415,9 @@
       ]
     },
     {
-      "anchor_id": "4.0.D2.2.doel.1",
+      "anchor_id": "4.0.taak.6.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "4.0.D2.2",
-      "tekst": "Vaardigheden verwerven in gegevensanalyse en informatiesystemen. Naast de basisvaardigheden, waaronder het verzamelen en verifiëren van relevante informatie en het gebruik van passende middelen om relevante informatie te verzamelen of te ontwikkelen, beschikken over specifieke technische vaardigheden. In het kader van de voorgestelde wijzigingen wordt onder meer voorgesteld om het volgende verder uit te werken:",
+      "tekst": "Vaardigheden verwerven in gegevensanalyse en informatiesystemen. Naast de basisvaardigheden, waaronder het verzamelen en verifiëren van relevante informatie en het gebruik van passende middelen om relevante informatie te verzamelen of te ontwikkelen, beschikken over specifieke technische vaardigheden. In het kader van de voorgestelde wijzigingen wordt onder meer voorgesteld om het volgende verder uit te werken: de competenties; de leerresultaten op de verschillende niveaus van het professioneel ontwikkelingsplan of het equivalent ervan; kennis.",
       "verbose": "De accountant moet bedrijfsdata kunnen extraheren, opschonen, structureren en interpreteren met courante tools en spreadsheets, en de output vertalen naar zinvolle conclusies voor de cliënt. Naast technische vaardigheid hoort daar kritisch denken bij over gegevenskwaliteit, herkomst en betrouwbaarheid.",
       "synoniemen": [
         "data analytics",
@@ -417,6 +427,20 @@
         "spreadsheetvaardigheid",
         "ETL-vaardigheden",
         "auditing data skills"
+      ],
+      "parent": "4.0.taak.6"
+    },
+    {
+      "anchor_id": "4.0.I",
+      "anchor_type": "kenniselement",
+      "tekst": "Voor de taken onder deel 1",
+      "verbose": "Het cluster van vereiste kennis en vaardigheden gekoppeld aan de taken van het eerste deel van het ITAA-programma rond boekhouden, jaarrekening en financiële analyse. Vormt de basisbagage waarop andere vakdomeinen verder bouwen.",
+      "synoniemen": [
+        "competencies for part 1",
+        "kennis en vaardigheden deel 1",
+        "skills part 1",
+        "competenties boekhouden en jaarrekening",
+        "competentiecluster deel 1"
       ]
     },
     {
@@ -704,6 +728,19 @@
       ]
     },
     {
+      "anchor_id": "4.0.II",
+      "anchor_type": "kenniselement",
+      "tekst": "Voor de taken onder deel 2",
+      "verbose": "Het cluster van vereiste kennis en vaardigheden gekoppeld aan de taken van het tweede deel van het ITAA-programma, met onder meer fiscaliteit, vennootschapsrecht en transversale opdrachten. Het omvat zowel inhoudelijke kennis als toepassings- en adviesvaardigheden.",
+      "synoniemen": [
+        "competencies for part 2",
+        "kennis en vaardigheden deel 2",
+        "skills part 2",
+        "competenties fiscaliteit en recht",
+        "competentiecluster deel 2"
+      ]
+    },
+    {
       "anchor_id": "4.0.II.A",
       "anchor_type": "kenniselement",
       "tekst": "FINANCIËLE INFORMATIE: Behoeften en systemen",
@@ -762,30 +799,27 @@
     {
       "anchor_id": "4.0.II.B.1",
       "anchor_type": "kenniselement",
-      "tekst": "Uitvoeren van de strategie — Analyseren van belangrijke bedrijfsuitdagingen, waaronder het gebruik van informatieactiva, en de afstemming daarvan op de strategie",
-      "verbose": "Bij strategie-uitvoering kijkt de accountant naar hoe data, informatiesystemen en financiële architecturen de strategische ambities ondersteunen of afremmen. Hij identificeert bottlenecks en pleit voor investeringen die strategische doelstellingen vertalen in operationele KPI's.",
+      "tekst": "Uitvoeren van de strategie: Analyseren van belangrijke bedrijfsuitdagingen, waaronder het gebruik van informatieactiva, en de afstemming daarvan op de strategie",
+      "verbose": "Het analyseren van strategische uitdagingen waarmee een onderneming wordt geconfronteerd, met bijzondere aandacht voor het rendement van haar informatieactiva, en het vertalen van die uitdagingen in concrete strategische acties. Vereist begrip van zowel bedrijfsvoering als IT-architectuur.",
       "synoniemen": [
         "strategy execution",
         "strategische uitvoering",
-        "informatieactiva als strategisch middel",
-        "strategy-data alignment",
-        "uitvoering bedrijfsstrategie",
-        "operationaliseren van strategie"
+        "alignment IT and business",
+        "informatieactiva benutten",
+        "strategische analyse"
       ]
     },
     {
       "anchor_id": "4.0.II.B.2",
       "anchor_type": "kenniselement",
-      "tekst": "Beheer van ondernemingsrisico's — Evalueren van de impact van risico's op het gebied van informatietechnologie en informatiesystemen op het ondernemingsrisico en passende risicobeheersingsstrategieën aanbevelen",
-      "verbose": "IT-risico's zoals cyberaanvallen, dataverlies, foutieve data-integratie of falen van leveranciers hebben directe impact op de continuïteit en de financiële betrouwbaarheid van een onderneming. De accountant evalueert die risico's, plaatst ze in een risicomatrix en beveelt beheersmaatregelen aan zoals back-up, segregatie van taken en verzekeringen.",
+      "tekst": "Beheer van ondernemingsrisico's: Evalueren van de impact van risico's op het gebied van informatietechnologie en informatiesystemen op het ondernemingsrisico en passende risicobeheersingsstrategieën aanbevelen",
+      "verbose": "Het inschatten van de impact die IT- en informatiesysteemrisico's hebben op het algemene risicoprofiel van de onderneming en het formuleren van passende beheersingsstrategieën. Sluit aan bij ERM-frameworks waarin technologie als integrale risicocomponent wordt erkend.",
       "synoniemen": [
-        "enterprise risk management",
-        "IT-risicobeheer",
-        "cyberrisico",
-        "operationeel risico",
-        "ERM",
-        "risicobeheersingsstrategie",
-        "IT risk assessment"
+        "IT risk in ERM",
+        "IT-risico in ondernemingsrisicobeheer",
+        "technology risk management",
+        "ICT-risico's",
+        "informatiesysteemrisico's"
       ]
     },
     {

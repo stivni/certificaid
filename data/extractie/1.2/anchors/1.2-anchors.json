@@ -1,13 +1,13 @@
 {
   "po": "1.2",
-  "generated_at": "2026-05-09T20:43:07Z",
-  "model": "claude-opus-4-7",
-  "prompt_version": "anchor-verrijking-v1",
+  "titel": "Boekhoudrecht en jaarrekeningenrecht",
+  "generated_at": "2026-05-09T21:45:38+00:00",
+  "source": "data/programma.json",
+  "n_anchors": 82,
   "anchors": [
     {
-      "anchor_id": "1.2.D1.1.taak.1",
+      "anchor_id": "1.2.taak.1",
       "anchor_type": "taak",
-      "taakblok": "1.2.D1.1",
       "tekst": "Opstellen van de individuele jaarrekening",
       "verbose": "Het samenstellen van de statutaire jaarrekening van een onderneming op basis van de proef- en saldibalans, met balans, resultatenrekening, toelichting en sociale balans volgens het Belgisch boekhoudkundig kader. Hierbij worden eindejaarsverrichtingen geboekt zoals afschrijvingen, waardeverminderingen, voorzieningen, overlopende rekeningen en herwaarderingen, en wordt het juiste schema (volledig, verkort, micro) toegepast op basis van de groottecriteria.",
       "synoniemen": [
@@ -22,10 +22,9 @@
       ]
     },
     {
-      "anchor_id": "1.2.D1.1.taak.2",
-      "anchor_type": "taak",
-      "taakblok": "1.2.D1.1",
-      "tekst": "a) Herstructureren van de balans en de resultatenrekening",
+      "anchor_id": "1.2.taak.1.a",
+      "anchor_type": "subtaak",
+      "tekst": "Herstructureren van de balans en de resultatenrekening",
       "verbose": "Het hergroeperen van de wettelijke balans- en resultatenrekeningposten naar een analytisch schema dat betere economische interpretatie toelaat, bijvoorbeeld onderscheid tussen vast en circulerend vermogen, eigen versus vreemd vermogen op lange en korte termijn, en operationeel versus financieel resultaat. Het doel is een leesbare voorstelling die de financiële structuur en rentabiliteit van de onderneming inzichtelijk maakt voor analyse.",
       "synoniemen": [
         "analytische balans",
@@ -36,13 +35,13 @@
         "balance sheet restatement",
         "herwerkte resultatenrekening",
         "schema voor financiële analyse"
-      ]
+      ],
+      "parent": "1.2.taak.1"
     },
     {
-      "anchor_id": "1.2.D1.1.taak.3",
-      "anchor_type": "taak",
-      "taakblok": "1.2.D1.1",
-      "tekst": "b) Identificeren en interpreteren van de balansaggregaten",
+      "anchor_id": "1.2.taak.1.b",
+      "anchor_type": "subtaak",
+      "tekst": "Identificeren en interpreteren van de balansaggregaten",
       "verbose": "Het herkennen en duiden van de grote groepen actief- en passiefposten zoals vaste activa, vlottende activa, eigen vermogen, voorzieningen, schulden op lange en korte termijn. De accountant beoordeelt wat elk aggregaat zegt over de investeringspolitiek, financieringsstructuur en liquiditeitspositie van de onderneming.",
       "synoniemen": [
         "balansposten interpreteren",
@@ -52,13 +51,13 @@
         "balance sheet aggregates",
         "rubrieken van de balans",
         "balanslezing"
-      ]
+      ],
+      "parent": "1.2.taak.1"
     },
     {
-      "anchor_id": "1.2.D1.1.taak.4",
-      "anchor_type": "taak",
-      "taakblok": "1.2.D1.1",
-      "tekst": "c) Berekenen van de elementen die nodig zijn voor een interpretatie van de kasstromen en die interpreteren",
+      "anchor_id": "1.2.taak.1.c",
+      "anchor_type": "subtaak",
+      "tekst": "Berekenen van de elementen die nodig zijn voor een interpretatie van de kasstromen en die interpreteren",
       "verbose": "Het opstellen of afleiden van een kasstroomoverzicht uit de balans en resultatenrekening, met onderscheid tussen kasstromen uit operationele, investerings- en financieringsactiviteiten. De interpretatie richt zich op de vraag of de onderneming voldoende cash genereert uit haar kernactiviteit om investeringen en schulden te dragen, en hoe de werkkapitaalbehoefte evolueert.",
       "synoniemen": [
         "kasstroomoverzicht",
@@ -69,30 +68,28 @@
         "kasstromenrapport",
         "liquiditeitsstroom",
         "thesauriestromen"
-      ]
+      ],
+      "parent": "1.2.taak.1"
     },
     {
-      "anchor_id": "1.2.D1.1.taak.5",
-      "anchor_type": "taak",
-      "taakblok": "1.2.D1.1",
-      "tekst": "d) Berekenen van de ratio’s en ze interpreteren",
-      "verbose": "Het berekenen van de klassieke financiële kengetallen rond liquiditeit (current ratio, quick ratio), solvabiliteit (eigen vermogen op totaal vermogen, gearing), rentabiliteit (ROE, ROA, brutomarge) en activiteit (rotatie van voorraden en handelsvorderingen). De accountant beoordeelt evolutie in de tijd, vergelijkt met sectorgemiddelden en signaleert knipperlichten zoals dalende solvabiliteit of negatieve werkkapitaalpositie.",
+      "anchor_id": "1.2.taak.1.d",
+      "anchor_type": "subtaak",
+      "tekst": "Berekenen van de ratio's en ze interpreteren",
+      "verbose": "Het afleiden van financiële kengetallen uit de jaarrekening en deze verklaren in functie van de bedrijfssituatie. Ratio's zoals liquiditeit, solvabiliteit, rentabiliteit en omloopsnelheid worden vergeleken met sectorgemiddelden of historische gegevens om conclusies te trekken over de financiële gezondheid.",
       "synoniemen": [
-        "financiële ratio's",
-        "kengetallen berekenen",
         "ratioanalyse",
-        "liquiditeitsratio's",
-        "solvabiliteitsratio's",
-        "rentabiliteitsratio's",
+        "financiële kengetallen berekenen",
+        "kengetallenanalyse",
+        "ratio-interpretatie",
         "financial ratios",
-        "kerncijfers"
-      ]
+        "verhoudingscijfers analyseren"
+      ],
+      "parent": "1.2.taak.1"
     },
     {
-      "anchor_id": "1.2.D1.1.taak.6",
-      "anchor_type": "taak",
-      "taakblok": "1.2.D1.1",
-      "tekst": "e) Contextualiseren van de interpretaties naargelang van het bedrijfsdomein en de nationale en internationale context",
+      "anchor_id": "1.2.taak.1.e",
+      "anchor_type": "subtaak",
+      "tekst": "Contextualiseren van de interpretaties naargelang van het bedrijfsdomein en de nationale en internationale context",
       "verbose": "Het plaatsen van financiële conclusies in de context van de sector (bijvoorbeeld kapitaalsintensieve industrie versus dienstenbedrijf), de conjunctuur en internationale ontwikkelingen. Een ratio die in één sector slecht oogt, kan in een andere normaal zijn — de accountant past benchmarks en interpretaties aan aan het ondernemingsprofiel.",
       "synoniemen": [
         "sectoranalyse",
@@ -102,13 +99,13 @@
         "branchevergelijking",
         "peer group analysis",
         "industry benchmark"
-      ]
+      ],
+      "parent": "1.2.taak.1"
     },
     {
-      "anchor_id": "1.2.D1.1.doel.1",
+      "anchor_id": "1.2.taak.1.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "1.2.D1.1",
-      "tekst": "➢ Een beginsel van boekhoudrecht of een wettelijke bepaling uit Belgische of Europese bron opzoeken, grondig analyseren en toepassen, in voorkomend geval met inachtneming van internationale normen.",
+      "tekst": "Een beginsel van boekhoudrecht of een wettelijke bepaling uit Belgische of Europese bron opzoeken, grondig analyseren en toepassen, in voorkomend geval met inachtneming van internationale normen.",
       "verbose": "Het zelfstandig opzoeken en correct toepassen van Belgische en Europese boekhoudkundige regels op een concreet dossier, met aandacht voor de hiërarchie tussen bronnen. Wanneer relevant houdt de accountant ook rekening met internationale verslaggevingsstandaarden zoals IFRS, en weet hij waar het Belgisch kader afwijkt of aansluit.",
       "synoniemen": [
         "boekhoudkundige regelgeving toepassen",
@@ -118,13 +115,13 @@
         "rechtsbron raadplegen",
         "accounting framework application",
         "doctrineonderzoek"
-      ]
+      ],
+      "parent": "1.2.taak.1"
     },
     {
-      "anchor_id": "1.2.D1.1.doel.2",
+      "anchor_id": "1.2.taak.1.doel.2",
       "anchor_type": "doelstelling",
-      "taakblok": "1.2.D1.1",
-      "tekst": "➢ Verifiëren en waarborgen van de conformiteit van de boekhouding en de documenten met de wettelijke en reglementaire vereisten.",
+      "tekst": "Verifiëren en waarborgen van de conformiteit van de boekhouding en de documenten met de wettelijke en reglementaire vereisten.",
       "verbose": "Het nagaan of de boekhouding, de boeken, de bewijsstukken en de jaarrekening in overeenstemming zijn met de Belgische boekhoudregels, qua inhoud, vorm, ondertekening, bewaring en openbaarmaking. De accountant detecteert tekortkomingen zoals ontbrekende verantwoordingsstukken, ongedateerde boeken of niet-neergelegde jaarrekeningen en stelt corrigerende maatregelen voor.",
       "synoniemen": [
         "boekhoudcontrole",
@@ -135,7 +132,8 @@
         "regulatoire toetsing",
         "boekhoudkundige integriteit",
         "controle van de boeken"
-      ]
+      ],
+      "parent": "1.2.taak.1"
     },
     {
       "anchor_id": "1.2.I",
@@ -315,7 +313,22 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.III",
+      "anchor_id": "1.2.II",
+      "anchor_type": "kenniselement",
+      "tekst": "Belangrijkste administratieve autoriteiten (FSMA, Griffies, NBB, CRB, ITAA, IBR, CBN)",
+      "verbose": "Overzicht van de Belgische instellingen die toezicht houden op of bijdragen aan de boekhoudkundige en financiële regelgeving. Elk van deze autoriteiten heeft een eigen rol: van markttoezicht (FSMA) over publicatie (NBB, Griffies) tot beroepsregulering (ITAA, IBR) en advies (CBN, CRB).",
+      "synoniemen": [
+        "toezichthouders",
+        "regulatoren",
+        "controleorganen",
+        "beroepsinstituten",
+        "financiële autoriteiten",
+        "boekhoudkundige instellingen",
+        "beleidsorganen"
+      ]
+    },
+    {
+      "anchor_id": "1.2.III",
       "anchor_type": "kenniselement",
       "tekst": "Boekhoudkundige regels van het Wetboek van Economisch Recht van 28 februari 2013 en van het koninklijk besluit van 21 oktober 2018 tot uitvoering van de artikelen III. 82 tot III.95 van het WER",
       "verbose": "De Belgische basiswetgeving over de plicht tot het voeren van een boekhouding, opgenomen in het economisch wetboek en uitgewerkt in een uitvoeringsbesluit. Deze regels bepalen welke ondernemingen een boekhouding moeten voeren, welk type boekhouding (volledig dubbel of vereenvoudigd) van toepassing is, en welke boeken, journalen en bewijsstukken bijgehouden moeten worden.",
@@ -331,7 +344,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.A",
+      "anchor_id": "1.2.III.A",
       "anchor_type": "kenniselement",
       "tekst": "Ondernemingen waarop de boekhoudregels van het Wetboek van economisch recht van toepassing zijn",
       "verbose": "Het toepassingsgebied van de Belgische boekhoudplicht: welke entiteiten als onderneming worden gekwalificeerd en bijgevolg een passende boekhouding moeten voeren. Het ondernemingsbegrip omvat onder meer natuurlijke personen die zelfstandig een beroepsactiviteit uitoefenen, vennootschappen, verenigingen en stichtingen, met enkele specifieke uitzonderingen.",
@@ -346,139 +359,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.A.1",
-      "anchor_type": "kenniselement",
-      "tekst": "Filosofie van het koninklijk besluit",
-      "verbose": "De achterliggende doelstellingen en uitgangspunten van het uitvoeringsbesluit op de boekhouding: het bevorderen van een getrouw beeld, vergelijkbaarheid tussen ondernemingen en periodes, en transparantie tegenover externe gebruikers zoals fiscus, banken en aandeelhouders. Begrip hiervan helpt om concrete regels in de juiste context te plaatsen.",
-      "synoniemen": [
-        "ratio legis",
-        "achtergrond uitvoeringsbesluit",
-        "doelstellingen boekhoudbesluit",
-        "geest van het besluit",
-        "underlying philosophy",
-        "uitgangspunten boekhouden"
-      ]
-    },
-    {
-      "anchor_id": "1.2.II.A.2",
-      "anchor_type": "kenniselement",
-      "tekst": "Relevantiebeginsel en materialiteitsbeginsel",
-      "verbose": "Het uitgangspunt dat boekhoudkundige informatie alleen moet worden opgenomen of gedetailleerd wanneer ze van wezenlijk belang is voor het oordeel van de gebruiker van de jaarrekening. Onbeduidende posten mogen worden samengevoegd of vereenvoudigd, terwijl materiële elementen afzonderlijk en correct gerapporteerd moeten worden.",
-      "synoniemen": [
-        "materialiteit",
-        "wezenlijkheid",
-        "materiality",
-        "relevantie van informatie",
-        "significant belang",
-        "drempel materialiteit",
-        "belangrijkheidsbeginsel"
-      ]
-    },
-    {
-      "anchor_id": "1.2.II.A.3",
-      "anchor_type": "kenniselement",
-      "tekst": "Munteenheidsbeginsel",
-      "verbose": "Het beginsel dat de boekhouding wordt gevoerd en de jaarrekening wordt opgemaakt in één bepaalde munteenheid, in België standaard de euro. Verrichtingen in vreemde valuta worden omgerekend tegen de geldende koersen volgens vastgelegde waarderingsregels, met afzonderlijke behandeling van koersverschillen.",
-      "synoniemen": [
-        "valuta-eenheid",
-        "rapporteringsmunt",
-        "functionele munt",
-        "monetary unit principle",
-        "boekhouden in euro",
-        "valutabeginsel"
-      ]
-    },
-    {
-      "anchor_id": "1.2.II.A.4",
-      "anchor_type": "kenniselement",
-      "tekst": "Stelselmatigheidsbeginsel",
-      "verbose": "Het beginsel dat boekhoudkundige verrichtingen voortdurend, methodisch en chronologisch worden geregistreerd in de boeken, zonder onderbrekingen of selectieve weglatingen. De boekhouding moet een volledig en doorlopend beeld geven van alle financiële bewegingen van de onderneming.",
-      "synoniemen": [
-        "stelselmatigheid",
-        "systematisch registreren",
-        "methodisch boeken",
-        "doorlopende boekhouding",
-        "systematic recording",
-        "ordelijke boekhouding"
-      ]
-    },
-    {
-      "anchor_id": "1.2.II.A.5",
-      "anchor_type": "kenniselement",
-      "tekst": "Continuïteitsbeginsel",
-      "verbose": "Het uitgangspunt dat de jaarrekening wordt opgesteld in de veronderstelling dat de onderneming haar activiteiten zal voortzetten in de afzienbare toekomst. Wanneer continuïteit niet langer plausibel is, moet worden gewaardeerd in discontinuïteit, met aanpassingen aan afschrijvingen, voorzieningen en waarderingen van activa.",
-      "synoniemen": [
-        "going concern",
-        "continuïteit van de onderneming",
-        "veronderstelling van voortzetting",
-        "discontinuïteit",
-        "going-concern-beginsel",
-        "continuïteitsveronderstelling",
-        "bedrijfscontinuïteit"
-      ]
-    },
-    {
-      "anchor_id": "1.2.II.A.6",
-      "anchor_type": "kenniselement",
-      "tekst": "Beginsel van consistentie in waarderingsmethoden",
-      "verbose": "Het beginsel dat de gekozen waarderingsregels van jaar tot jaar identiek worden toegepast, zodat opeenvolgende jaarrekeningen vergelijkbaar zijn. Wijzigingen in waarderingsmethoden zijn slechts mogelijk in uitzonderlijke gevallen en moeten transparant worden toegelicht met de impact op het resultaat en eigen vermogen.",
-      "synoniemen": [
-        "bestendigheid van waarderingsregels",
-        "consistency principle",
-        "permanentie van methoden",
-        "vergelijkbaarheid in de tijd",
-        "stabiliteit waarderingsregels",
-        "wijziging waarderingsregels"
-      ]
-    },
-    {
-      "anchor_id": "1.2.II.A.7",
-      "anchor_type": "kenniselement",
-      "tekst": "Individualiseringsbeginsel",
-      "verbose": "Het beginsel dat elk actief- of passiefbestanddeel afzonderlijk wordt gewaardeerd, zonder dat winsten op het ene element minderwaarden op een ander element compenseren. Compensatie tussen activa en passiva, of tussen kosten en opbrengsten, is in principe niet toegelaten.",
-      "synoniemen": [
-        "afzonderlijke waardering",
-        "non-compensatie",
-        "individuele waardering",
-        "geen compensatie tussen posten",
-        "no offsetting",
-        "element-per-element-waardering"
-      ]
-    },
-    {
-      "anchor_id": "1.2.II.A.8",
-      "anchor_type": "kenniselement",
-      "tekst": "Voorzichtigheid, waarachtigheid en goede trouw",
-      "verbose": "De drie ethisch-technische uitgangspunten van het Belgisch boekhouden: voorzichtigheid bij waardering (verliezen tijdig erkennen, winsten pas bij realisatie), waarachtigheid in de weergave van de werkelijkheid, en goede trouw bij interpretatie en toepassing van regels. Samen ondersteunen ze het getrouw beeld van vermogen, financiële positie en resultaat.",
-      "synoniemen": [
-        "voorzichtigheidsbeginsel",
-        "prudence principle",
-        "true and fair view",
-        "getrouw beeld",
-        "waarachtigheid",
-        "goede trouw boekhouden",
-        "boekhoudkundige eerlijkheid",
-        "getrouwheidsbeginsel"
-      ]
-    },
-    {
-      "anchor_id": "1.2.II.A.9",
-      "anchor_type": "kenniselement",
-      "tekst": "Overeenstemming van kosten en opbrengsten en verwezenlijking van opbrengsten en concordantie",
-      "verbose": "Het beginsel dat opbrengsten worden erkend wanneer ze gerealiseerd zijn, en dat de kosten die met die opbrengsten samenhangen in dezelfde periode worden geboekt. Het concordantiebeginsel zorgt ervoor dat kosten en opbrengsten van eenzelfde transactie of periode tegenover elkaar worden geplaatst voor een correcte resultaatbepaling.",
-      "synoniemen": [
-        "matching principle",
-        "matchingbeginsel",
-        "realisatiebeginsel",
-        "concordantiebeginsel",
-        "toerekening kosten en opbrengsten",
-        "periodematching",
-        "accruals principle",
-        "tegenover-elkaar-plaatsing"
-      ]
-    },
-    {
-      "anchor_id": "1.2.II.B",
+      "anchor_id": "1.2.III.B",
       "anchor_type": "kenniselement",
       "tekst": "Beginsel van volledigheid en volledige openbaarmaking van informatie",
       "verbose": "Het uitgangspunt dat alle verrichtingen, bezittingen, schulden, rechten en verplichtingen volledig in de boekhouding en jaarrekening tot uitdrukking moeten komen. De toelichting bij de jaarrekening moet bovendien alle bijkomende informatie bevatten die nodig is om een getrouw beeld te geven, ook over niet-balansvorderingen of -verplichtingen.",
@@ -493,7 +374,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.C",
+      "anchor_id": "1.2.III.C",
       "anchor_type": "kenniselement",
       "tekst": "Organisatie van dubbele boekhouding",
       "verbose": "De praktische inrichting van een volledige dubbele boekhouding met dagboeken, hulpdagboeken, een centraal boek en een rekeningenstelsel volgens een minimaal algemeen schema. Deze organisatie waarborgt dat elke verrichting via debet en credit wordt geboekt en dat de proef- en saldibalans op elk moment in evenwicht is.",
@@ -508,7 +389,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.C.1",
+      "anchor_id": "1.2.III.C.1",
       "anchor_type": "kenniselement",
       "tekst": "Principe van dubbele boekhouding",
       "verbose": "Het basismechanisme waarbij elke verrichting twee gelijke boekingen genereert, één in debet en één in credit, zodat het totaal van debetbedragen altijd gelijk is aan het totaal van creditbedragen. Dit principe garandeert wiskundige sluitendheid en maakt foutdetectie via de proef- en saldibalans mogelijk.",
@@ -523,7 +404,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.C.2",
+      "anchor_id": "1.2.III.C.2",
       "anchor_type": "kenniselement",
       "tekst": "Gewoon boekhoudsysteem",
       "verbose": "Het volledige dubbele boekhoudsysteem dat in principe geldt voor alle ondernemingen die niet kwalificeren als zeer klein. Het omvat dag-, hulp- en centrale boeken, een minimaal algemeen rekeningenstelsel, periodieke balanscontroles en de opmaak van een volledige jaarrekening met balans, resultatenrekening en toelichting.",
@@ -537,7 +418,102 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.C.3",
+      "anchor_id": "1.2.III.C.2.a",
+      "anchor_type": "kenniselement",
+      "tekst": "Dagelijkse boekingen",
+      "verbose": "De systematische registratie van alle verrichtingen op het moment dat ze plaatsvinden, met vermelding van datum, bedrag, tegenrekening en bewijsstuk. Vormt de eerste stap in de boekhoudcyclus en gebeurt typisch in een dagboek of via geautomatiseerde inboeking.",
+      "synoniemen": [
+        "routineboekingen",
+        "courante boekingen",
+        "verrichtingen registreren",
+        "dagelijkse registratie",
+        "inboeken",
+        "journaalposten",
+        "primaire registratie"
+      ]
+    },
+    {
+      "anchor_id": "1.2.III.C.2.b",
+      "anchor_type": "kenniselement",
+      "tekst": "Eén dagboek",
+      "verbose": "Het centrale dagboek waarin alle verrichtingen chronologisch worden ingeschreven wanneer een onderneming geen splitsing in hulpdagboeken hanteert. Dit model past bij kleinere structuren waar het volume aan verrichtingen beperkt is.",
+      "synoniemen": [
+        "centraal dagboek",
+        "enkelvoudig journaal",
+        "algemeen dagboek",
+        "uniek journaal",
+        "single journal"
+      ]
+    },
+    {
+      "anchor_id": "1.2.III.C.2.c",
+      "anchor_type": "kenniselement",
+      "tekst": "Hulpdagboeken",
+      "verbose": "Gesplitste dagboeken per soort verrichting (aankoop, verkoop, financieel, diversen) die parallel naast het centrale dagboek bestaan. Ze versnellen de verwerking en faciliteren de centralisatie naar het grootboek.",
+      "synoniemen": [
+        "aankoopdagboek",
+        "verkoopdagboek",
+        "financieel dagboek",
+        "subdagboeken",
+        "deelboeken",
+        "auxiliary journals"
+      ]
+    },
+    {
+      "anchor_id": "1.2.III.C.2.d",
+      "anchor_type": "kenniselement",
+      "tekst": "Grootboek",
+      "verbose": "Het overzicht waarin alle boekingen per rekening worden geconsolideerd zodat het saldo per rekening op elk moment kan worden afgelezen. Het grootboek vormt de basis voor de proefbalans en uiteindelijk voor de jaarrekening.",
+      "synoniemen": [
+        "general ledger",
+        "rekeningstaten",
+        "grootboekrekeningen",
+        "boek van rekeningen",
+        "ledger",
+        "rekeningenboek"
+      ]
+    },
+    {
+      "anchor_id": "1.2.III.C.2.e",
+      "anchor_type": "kenniselement",
+      "tekst": "Centralisering van de boekingen",
+      "verbose": "Het periodiek samenbrengen van alle inschrijvingen uit hulpdagboeken in het centrale dagboek en het grootboek. Deze stap garandeert dat de boekhoudkundige informatie in één samenhangend geheel wordt gecontroleerd en gerapporteerd.",
+      "synoniemen": [
+        "consolidatie van boekingen",
+        "samenvoegen van dagboeken",
+        "centralisatieboekingen",
+        "periodieke aansluiting",
+        "totalisatie"
+      ]
+    },
+    {
+      "anchor_id": "1.2.III.C.2.f",
+      "anchor_type": "kenniselement",
+      "tekst": "Naleving van een minimumindeling van een algemeen rekeningstelsel",
+      "verbose": "De verplichting om een gestandaardiseerd rekeningstelsel te gebruiken dat aan een minimum aan rubrieken voldoet. Dit garandeert vergelijkbaarheid tussen ondernemingen en correcte aansluiting bij de wettelijke jaarrekeningmodellen.",
+      "synoniemen": [
+        "standaard rekeningenstelsel",
+        "uniforme rekeningenplan",
+        "gestandaardiseerd boekhoudplan",
+        "boekhoudkundig kader",
+        "minimumindeling"
+      ]
+    },
+    {
+      "anchor_id": "1.2.III.C.2.g",
+      "anchor_type": "kenniselement",
+      "tekst": "Model van MAR van boekhoudplichtige ondernemingen (ondernemingen, verenigingen en stichtingen)",
+      "verbose": "Het modelrekeningenstelsel dat ondernemingen, verenigingen en stichtingen volgen om hun jaarrekening op een uniforme manier te structureren. Het bevat genormeerde codes voor activa, passiva, kosten en opbrengsten.",
+      "synoniemen": [
+        "minimumalgemeen rekeningenstelsel",
+        "standaardrekeningenplan",
+        "model rekeningenplan",
+        "normaal rekeningenstelsel",
+        "MAR-model"
+      ]
+    },
+    {
+      "anchor_id": "1.2.III.C.3",
       "anchor_type": "kenniselement",
       "tekst": "Mogelijkheid om geen systeem van boeken en rekeningen te houden en te vervangen door drie journalen voor zeer kleine ondernemingen (vereenvoudigde boekhouding)",
       "verbose": "Het lichtere boekhoudregime dat zeer kleine ondernemingen toelaat hun boekhouding te beperken tot drie journalen: een financieel dagboek voor banken en kas, een aankoopdagboek en een verkoopdagboek. Dit regime is voorbehouden aan ondernemingen die bepaalde omzetdrempels niet overschrijden en geen vennootschapsvorm met onbeperkte boekhoudplicht hebben.",
@@ -552,7 +528,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.C.4",
+      "anchor_id": "1.2.III.C.4",
       "anchor_type": "kenniselement",
       "tekst": "Verplichting van het geregistreerd kassasysteem",
       "verbose": "De fiscaal-boekhoudkundige verplichting voor bepaalde sectoren, met name de horeca, om een gecertificeerd kassasysteem te gebruiken dat alle ontvangsten onveranderlijk registreert en bewaart. Dit systeem moet manipulatie van omzetcijfers vermijden en levert ticketgegevens die fiscaal en boekhoudkundig als bewijsstuk dienen.",
@@ -567,7 +543,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.C.5",
+      "anchor_id": "1.2.III.C.5",
       "anchor_type": "kenniselement",
       "tekst": "Boekhoudbeginsel van objectiviteit en bewijsstukken",
       "verbose": "Het beginsel dat elke boeking gestaafd moet zijn door een objectief, dateerbaar en gearchiveerd bewijsstuk zoals een factuur, kassaticket, bankuittreksel of contract. Dit garandeert traceerbaarheid en controleerbaarheid van de boekhouding door derden zoals fiscus, accountant of revisor.",
@@ -583,7 +559,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.D",
+      "anchor_id": "1.2.III.D",
       "anchor_type": "kenniselement",
       "tekst": "Periodieke rekeningen en boeken",
       "verbose": "De periodieke verrichtingen rond afsluiting en ordening van de boekhouding, zoals het opmaken van de proef- en saldibalans, het afsluiten van de boekjaren en het ordenen van de boeken volgens chronologie en doorlopende nummering. Deze periodieke handelingen verzekeren de leesbaarheid en de bewijswaarde van de boekhouding.",
@@ -597,7 +573,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.D.1",
+      "anchor_id": "1.2.III.D.1",
       "anchor_type": "kenniselement",
       "tekst": "Nummeren van de boeken",
       "verbose": "De verplichting om de wettelijke boeken vóór ingebruikname doorlopend te nummeren en te ondertekenen, zodat naderhand toevoegen of wegnemen van bladen onmogelijk wordt. Deze formaliteit beschermt de bewijswaarde van de boekhouding tegenover derden en bij geschillen.",
@@ -611,7 +587,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.D.2",
+      "anchor_id": "1.2.III.D.2",
       "anchor_type": "kenniselement",
       "tekst": "Boeken gerangschikt op datum",
       "verbose": "De verplichting om verrichtingen chronologisch in de boeken te noteren, zodat de volgorde van transacties in de tijd reconstrueerbaar blijft. Dit chronologisch principe is essentieel voor de bewijskracht en voor de controle op tijdigheid van inboeking.",
@@ -625,7 +601,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.D.3",
+      "anchor_id": "1.2.III.D.3",
       "anchor_type": "kenniselement",
       "tekst": "Bewaringsduur",
       "verbose": "De wettelijke termijn waarbinnen boekhoudkundige boeken, journalen, jaarrekeningen en bewijsstukken bewaard moeten worden, doorgaans zeven jaar voor stukken die niet rechtstreeks tot de boekhouding behoren. Bij digitale archivering moet de leesbaarheid en integriteit gedurende de hele termijn verzekerd zijn.",
@@ -640,7 +616,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.D.4",
+      "anchor_id": "1.2.III.D.4",
       "anchor_type": "kenniselement",
       "tekst": "Bijzonderheden van het koninklijk besluit tot uitvoering van artikel III, 84 WER",
       "verbose": "De bijzondere uitvoeringsregels rond het voeren van de boekhouding voor bepaalde categorieën ondernemingen, met onder andere specifieke vereisten voor dagboeken, hulpdagboeken en centrale boeken. Deze bijzonderheden detailleren wanneer en hoe afgeweken kan worden van het standaardregime.",
@@ -653,7 +629,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.E",
+      "anchor_id": "1.2.III.E",
       "anchor_type": "kenniselement",
       "tekst": "Jaarlijkse inventaris",
       "verbose": "De verplichting om minstens eenmaal per jaar een volledige inventaris op te maken van alle bezittingen, vorderingen, schulden en verplichtingen van de onderneming. Deze inventaris vormt de basis voor de waardering bij jaarafsluiting en voor de detectie van waardeverminderingen, voorraadtekorten of voorzieningen.",
@@ -668,7 +644,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.F",
+      "anchor_id": "1.2.III.F",
       "anchor_type": "kenniselement",
       "tekst": "Verwijzing naar het WVV voor:",
       "verbose": "De doorverwijzing van het algemeen boekhoudkader naar het Belgisch wetboek inzake vennootschappen en verenigingen voor specifieke materies zoals jaarrekeningopmaak van vennootschappen en verenigingen, jaarverslag en controle van de rekeningen. Het WVV vult het algemeen boekhoudkader aan met regels eigen aan rechtspersonen.",
@@ -682,9 +658,9 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.F.1",
+      "anchor_id": "1.2.III.F.1",
       "anchor_type": "kenniselement",
-      "tekst": "het opstellen van een jaarrekening, een geconsolideerde jaarrekening van vzw’s, ivzw’s en stichtingen die een dubbele boekhouding voeren, vzw’s, ivzw’s en stichtingen die een vereenvoudigde boekhouding voeren",
+      "tekst": "het opstellen van een jaarrekening, een geconsolideerde jaarrekening van vzw's, ivzw's en stichtingen die een dubbele boekhouding voeren, vzw's, ivzw's en stichtingen die een vereenvoudigde boekhouding voeren",
       "verbose": "De specifieke regels voor de jaarrekening en geconsolideerde jaarrekening van verenigingen zonder winstoogmerk, internationale verenigingen en stichtingen, afhankelijk van of ze een volledige dubbele boekhouding dan wel een vereenvoudigde boekhouding voeren. Het schema, de waarderingsregels en de openbaarmakingsverplichtingen verschillen per categorie en grootte.",
       "synoniemen": [
         "jaarrekening vzw",
@@ -698,7 +674,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.F.2",
+      "anchor_id": "1.2.III.F.2",
       "anchor_type": "kenniselement",
       "tekst": "Jaarverslag",
       "verbose": "Het door het bestuur opgestelde verslag dat de jaarrekening becommentarieert en aanvult met een toelichting bij de gang van zaken, de toekomstige ontwikkelingen, de risico's, het onderzoek en ontwikkeling, het gebruik van financiële instrumenten en het bestuur. Voor grote vennootschappen is het verplicht naast en samen met de jaarrekening neergelegd te worden.",
@@ -713,7 +689,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.F.3",
+      "anchor_id": "1.2.III.F.3",
       "anchor_type": "kenniselement",
       "tekst": "Controle van de rekeningen",
       "verbose": "Het wettelijke toezicht op de jaarrekening door een commissaris (bedrijfsrevisor) bij ondernemingen die de drempels voor verplichte controle overschrijden. De commissaris vormt zich een onafhankelijk oordeel over het getrouw beeld van de jaarrekening en rapporteert hierover aan de algemene vergadering.",
@@ -729,7 +705,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.IV",
+      "anchor_id": "1.2.IV",
       "anchor_type": "kenniselement",
       "tekst": "Boekhoudkundige regels van het Wetboek van vennootschappen en verenigingen",
       "verbose": "De boekhoudkundige bepalingen die specifiek gelden voor vennootschappen, verenigingen en stichtingen onder het Belgisch vennootschapswetboek. Ze regelen de opmaak en inhoud van de jaarrekening per rechtsvorm, de openbaarmaking via de Nationale Bank, en de verplichtingen rond consolidatie en jaarverslag.",
@@ -743,7 +719,93 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.V",
+      "anchor_id": "1.2.IV.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Soorten vennootschappen en verenigingen",
+      "verbose": "De typologie van vennootschapsvormen (BV, NV, CV, VOF, ...) en verenigingsvormen (vzw, ivzw, stichting) met hun eigen kenmerken inzake aansprakelijkheid, kapitaal en bestuursstructuur. Deze indeling bepaalt mee de boekhoudkundige verplichtingen.",
+      "synoniemen": [
+        "rechtsvormen",
+        "ondernemingsvormen",
+        "vennootschapstypes",
+        "verenigingstypes",
+        "juridische vormen",
+        "ondernemingsstructuren"
+      ]
+    },
+    {
+      "anchor_id": "1.2.IV.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Grootte van vennootschappen (micro, klein, groot) en verenigingen",
+      "verbose": "De indeling van vennootschappen en verenigingen in microvennootschappen, kleine en grote entiteiten op basis van criteria zoals omzet, balanstotaal en personeelsbezetting. De grootteklasse bepaalt welk jaarrekeningmodel en welke verplichtingen van toepassing zijn.",
+      "synoniemen": [
+        "grootteklasse",
+        "groottecriteria",
+        "vennootschapsgrootte",
+        "microvennootschap",
+        "kleine vennootschap",
+        "grote vennootschap",
+        "size criteria"
+      ]
+    },
+    {
+      "anchor_id": "1.2.IV.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Inhoud, vorm en structuur van de jaarrekeningen (volledig, verkort, microschema) van vennootschappen en verenigingen",
+      "verbose": "De voorgeschreven opbouw en presentatie van de jaarrekening volgens het volledig, verkort of microschema. Elk model heeft een specifieke balansvorm, resultatenrekening en toelichting met verschillende detailniveaus afhankelijk van de grootte van de entiteit.",
+      "synoniemen": [
+        "jaarrekeningmodel",
+        "rapporteringsschema",
+        "balansschema",
+        "verkort schema",
+        "volledig schema",
+        "microschema",
+        "jaarrekeningsstructuur"
+      ]
+    },
+    {
+      "anchor_id": "1.2.IV.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Regels over het jaarverslag",
+      "verbose": "Het beleidsdocument dat het bestuur opstelt naast de jaarrekening met toelichting bij de bedrijfsresultaten, vooruitzichten, risico's en niet-financiële informatie. Dient om externe lezers een volledig beeld te geven van de onderneming.",
+      "synoniemen": [
+        "beheersverslag",
+        "directieverslag",
+        "management report",
+        "annual report narrative",
+        "bestuurdersverslag"
+      ]
+    },
+    {
+      "anchor_id": "1.2.IV.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Controle van de rekeningen",
+      "verbose": "Het wettelijke toezicht op de jaarrekening door een commissaris (bedrijfsrevisor) bij ondernemingen die de drempels voor verplichte controle overschrijden. De commissaris vormt zich een onafhankelijk oordeel over het getrouw beeld van de jaarrekening en rapporteert hierover aan de algemene vergadering.",
+      "synoniemen": [
+        "wettelijke controle",
+        "commissarismandaat",
+        "audit van de jaarrekening",
+        "statutaire audit",
+        "controle door commissaris",
+        "statutory audit",
+        "external audit",
+        "revisorale controle"
+      ]
+    },
+    {
+      "anchor_id": "1.2.IV.F",
+      "anchor_type": "kenniselement",
+      "tekst": "Openbaarmaking van de jaarrekening en de geconsolideerde jaarrekening",
+      "verbose": "Het verplicht openbaar maken van de individuele en geconsolideerde jaarrekening via neerlegging bij de bevoegde instanties. Deze publicatie maakt financiële informatie toegankelijk voor derden zoals leveranciers, kredietverleners en het publiek.",
+      "synoniemen": [
+        "neerlegging jaarrekening",
+        "publicatieplicht",
+        "depot jaarrekening",
+        "publication of accounts",
+        "openbaarmaking"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V",
       "anchor_type": "kenniselement",
       "tekst": "Regels van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
       "verbose": "De gedetailleerde uitvoeringsregels die de jaarrekening van vennootschappen, verenigingen en stichtingen vormgeven, met onder meer de schema's volledig, verkort en micro, de waarderingsregels per balanspost, en de inhoud van de toelichting. Deze regels concretiseren wat het vennootschapsrechtelijk wetboek slechts in algemene termen oplegt.",
@@ -757,7 +819,277 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.G",
+      "anchor_id": "1.2.V.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Andere in het KB/WVV ontwikkelde boekhoudkundige beginselen",
+      "verbose": "De aanvullende boekhoudprincipes die naast de algemene beginselen van toepassing zijn, zoals voorzichtigheid, oprechtheid, continuïteit en consistentie. Ze sturen de waardering en presentatie wanneer specifieke regels niet uitsluitend uitspraak doen.",
+      "synoniemen": [
+        "aanvullende boekhoudbeginselen",
+        "boekhoudprincipes",
+        "accounting principles",
+        "waarderingsbeginselen",
+        "rapportagebeginselen",
+        "GAAP-beginselen"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.A.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Filosofie van het koninklijk besluit",
+      "verbose": "De achterliggende doelstellingen en uitgangspunten van het uitvoeringsbesluit op de boekhouding: het bevorderen van een getrouw beeld, vergelijkbaarheid tussen ondernemingen en periodes, en transparantie tegenover externe gebruikers zoals fiscus, banken en aandeelhouders. Begrip hiervan helpt om concrete regels in de juiste context te plaatsen.",
+      "synoniemen": [
+        "ratio legis",
+        "achtergrond uitvoeringsbesluit",
+        "doelstellingen boekhoudbesluit",
+        "geest van het besluit",
+        "underlying philosophy",
+        "uitgangspunten boekhouden"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.A.1.a",
+      "anchor_type": "kenniselement",
+      "tekst": "Voorrang van het beginsel van het getrouw beeld van de jaarrekening",
+      "verbose": "Het overkoepelende beginsel dat de jaarrekening een waarheidsgetrouw beeld moet geven van het vermogen, de financiële toestand en het resultaat van de onderneming. Dit beginsel kan uitzonderlijk afwijking van specifieke regels rechtvaardigen.",
+      "synoniemen": [
+        "true and fair view",
+        "getrouw beeld",
+        "fair presentation",
+        "waarheidsgetrouw beeld",
+        "image fidèle",
+        "principe van getrouw beeld"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.A.1.b",
+      "anchor_type": "kenniselement",
+      "tekst": "Beginsel van volledige openbaarmaking van informatie in de jaarrekening en beginsel van niet-compensatie",
+      "verbose": "Twee samenhangende beginselen: de jaarrekening moet alle relevante informatie bevatten om een volledig beeld te geven, en posten van actief en passief of van opbrengsten en kosten mogen niet tegen elkaar worden weggestreept tenzij wettelijk toegestaan.",
+      "synoniemen": [
+        "volledigheidsbeginsel",
+        "non-compensatie",
+        "no offsetting",
+        "openbaarmakingsbeginsel",
+        "completeness principle",
+        "salderingsverbod"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Relevantiebeginsel en materialiteitsbeginsel",
+      "verbose": "Het uitgangspunt dat boekhoudkundige informatie alleen moet worden opgenomen of gedetailleerd wanneer ze van wezenlijk belang is voor het oordeel van de gebruiker van de jaarrekening. Onbeduidende posten mogen worden samengevoegd of vereenvoudigd, terwijl materiële elementen afzonderlijk en correct gerapporteerd moeten worden.",
+      "synoniemen": [
+        "materialiteit",
+        "wezenlijkheid",
+        "materiality",
+        "relevantie van informatie",
+        "significant belang",
+        "drempel materialiteit",
+        "belangrijkheidsbeginsel"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.A.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Munteenheidsbeginsel",
+      "verbose": "Het beginsel dat de boekhouding wordt gevoerd en de jaarrekening wordt opgemaakt in één bepaalde munteenheid, in België standaard de euro. Verrichtingen in vreemde valuta worden omgerekend tegen de geldende koersen volgens vastgelegde waarderingsregels, met afzonderlijke behandeling van koersverschillen.",
+      "synoniemen": [
+        "valuta-eenheid",
+        "rapporteringsmunt",
+        "functionele munt",
+        "monetary unit principle",
+        "boekhouden in euro",
+        "valutabeginsel"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.A.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Stelselmatigheidsbeginsel",
+      "verbose": "Het beginsel dat boekhoudkundige verrichtingen voortdurend, methodisch en chronologisch worden geregistreerd in de boeken, zonder onderbrekingen of selectieve weglatingen. De boekhouding moet een volledig en doorlopend beeld geven van alle financiële bewegingen van de onderneming.",
+      "synoniemen": [
+        "stelselmatigheid",
+        "systematisch registreren",
+        "methodisch boeken",
+        "doorlopende boekhouding",
+        "systematic recording",
+        "ordelijke boekhouding"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.A.5",
+      "anchor_type": "kenniselement",
+      "tekst": "Continuïteitsbeginsel",
+      "verbose": "Het uitgangspunt dat de jaarrekening wordt opgesteld in de veronderstelling dat de onderneming haar activiteiten zal voortzetten in de afzienbare toekomst. Wanneer continuïteit niet langer plausibel is, moet worden gewaardeerd in discontinuïteit, met aanpassingen aan afschrijvingen, voorzieningen en waarderingen van activa.",
+      "synoniemen": [
+        "going concern",
+        "continuïteit van de onderneming",
+        "veronderstelling van voortzetting",
+        "discontinuïteit",
+        "going-concern-beginsel",
+        "continuïteitsveronderstelling",
+        "bedrijfscontinuïteit"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.A.6",
+      "anchor_type": "kenniselement",
+      "tekst": "Beginsel van consistentie in waarderingsmethoden",
+      "verbose": "Het beginsel dat de gekozen waarderingsregels van jaar tot jaar identiek worden toegepast, zodat opeenvolgende jaarrekeningen vergelijkbaar zijn. Wijzigingen in waarderingsmethoden zijn slechts mogelijk in uitzonderlijke gevallen en moeten transparant worden toegelicht met de impact op het resultaat en eigen vermogen.",
+      "synoniemen": [
+        "bestendigheid van waarderingsregels",
+        "consistency principle",
+        "permanentie van methoden",
+        "vergelijkbaarheid in de tijd",
+        "stabiliteit waarderingsregels",
+        "wijziging waarderingsregels"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.A.7",
+      "anchor_type": "kenniselement",
+      "tekst": "Individualiseringsbeginsel",
+      "verbose": "Het beginsel dat elk actief- of passiefbestanddeel afzonderlijk wordt gewaardeerd, zonder dat winsten op het ene element minderwaarden op een ander element compenseren. Compensatie tussen activa en passiva, of tussen kosten en opbrengsten, is in principe niet toegelaten.",
+      "synoniemen": [
+        "afzonderlijke waardering",
+        "non-compensatie",
+        "individuele waardering",
+        "geen compensatie tussen posten",
+        "no offsetting",
+        "element-per-element-waardering"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.A.8",
+      "anchor_type": "kenniselement",
+      "tekst": "Voorzichtigheid, waarachtigheid en goede trouw",
+      "verbose": "De drie ethisch-technische uitgangspunten van het Belgisch boekhouden: voorzichtigheid bij waardering (verliezen tijdig erkennen, winsten pas bij realisatie), waarachtigheid in de weergave van de werkelijkheid, en goede trouw bij interpretatie en toepassing van regels. Samen ondersteunen ze het getrouw beeld van vermogen, financiële positie en resultaat.",
+      "synoniemen": [
+        "voorzichtigheidsbeginsel",
+        "prudence principle",
+        "true and fair view",
+        "getrouw beeld",
+        "waarachtigheid",
+        "goede trouw boekhouden",
+        "boekhoudkundige eerlijkheid",
+        "getrouwheidsbeginsel"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.A.9",
+      "anchor_type": "kenniselement",
+      "tekst": "Overeenstemming van kosten en opbrengsten en verwezenlijking van opbrengsten en concordantie",
+      "verbose": "Het beginsel dat opbrengsten worden erkend wanneer ze gerealiseerd zijn, en dat de kosten die met die opbrengsten samenhangen in dezelfde periode worden geboekt. Het concordantiebeginsel zorgt ervoor dat kosten en opbrengsten van eenzelfde transactie of periode tegenover elkaar worden geplaatst voor een correcte resultaatbepaling.",
+      "synoniemen": [
+        "matching principle",
+        "matchingbeginsel",
+        "realisatiebeginsel",
+        "concordantiebeginsel",
+        "toerekening kosten en opbrengsten",
+        "periodematching",
+        "accruals principle",
+        "tegenover-elkaar-plaatsing"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Omschrijving van de rubrieken van de jaarrekening en waarderingsmethoden",
+      "verbose": "De inhoudelijke definitie van elke balans- en resultaatrubriek samen met de regels om de waarde ervan te bepalen. Dit omvat onder meer aanschaffingswaarde, afschrijvingen, herwaarderingen en waardeverminderingen op verschillende soorten activa en passiva.",
+      "synoniemen": [
+        "waarderingsregels",
+        "rubricering jaarrekening",
+        "valuation rules",
+        "balansposten en waardering",
+        "accounting policies",
+        "waarderingsmethodes"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.B.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Aanschaffingswaarde",
+      "verbose": "De waarde waartegen een actief initieel in de boekhouding wordt opgenomen, in beginsel gelijk aan de aankoopprijs vermeerderd met bijkomende kosten of de vervaardigingsprijs bij eigen productie. Vormt de basis voor latere afschrijvingen en waardeverminderingen.",
+      "synoniemen": [
+        "historische kostprijs",
+        "verkrijgingsprijs",
+        "kostprijs",
+        "acquisition cost",
+        "aanschafwaarde",
+        "cost of acquisition"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.B.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Afschrijvingen",
+      "verbose": "De systematische spreiding van de aanschaffingswaarde van een activum met een beperkte gebruiksduur over de jaren waarin het bijdraagt aan de bedrijfsvoering. De afschrijvingsmethode (lineair, degressief) en gebruiksduur worden bepaald in functie van het verbruikspatroon.",
+      "synoniemen": [
+        "depreciatie",
+        "amortisatie",
+        "depreciation",
+        "waardevermindering door gebruik",
+        "afschrijvingsplan",
+        "boekhoudkundige afschrijving"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.B.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Waardeverminderingen",
+      "verbose": "De boekhoudkundige aanpassing wanneer de waarde van een actief duurzaam is gedaald onder de boekwaarde. Het verschil wordt als kost erkend en kan worden teruggenomen indien de oorzaak verdwijnt; dit zorgt voor een voorzichtige waardering.",
+      "synoniemen": [
+        "impairment",
+        "bijzondere waardevermindering",
+        "value impairment",
+        "afwaardering",
+        "impairment loss",
+        "duurzame waardevermindering"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.B.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Herwaarderingsmeerwaarde",
+      "verbose": "Een toename van de boekwaarde van bepaalde vaste activa wanneer hun werkelijke waarde duurzaam hoger ligt dan de boekwaarde. Deze meerwaarde wordt geboekt op een afzonderlijke rekening van het eigen vermogen en mag niet worden uitgekeerd zonder realisatie.",
+      "synoniemen": [
+        "revaluatie",
+        "herwaardering",
+        "revaluation surplus",
+        "waardevermeerdering",
+        "herwaarderingsreserve"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.B.E",
+      "anchor_type": "kenniselement",
+      "tekst": "Oprichtingskosten",
+      "verbose": "De kosten verbonden aan het oprichten of uitbreiden van een onderneming, zoals notariskosten, kapitaalverhogingskosten en uitgiftepremies. Ze kunnen worden geactiveerd en over meerdere boekjaren afgeschreven om de impact te spreiden.",
+      "synoniemen": [
+        "formation expenses",
+        "kosten van oprichting",
+        "start-up costs",
+        "establishment costs",
+        "incorporation costs"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.B.F",
+      "anchor_type": "kenniselement",
+      "tekst": "Immateriële vaste activa",
+      "verbose": "Niet-fysieke vaste activa met economische waarde, zoals concessies, octrooien, licenties, software, goodwill en onderzoeks- en ontwikkelingskosten. Hun activering en afschrijving volgen specifieke voorwaarden inzake identificeerbaarheid en duurzaamheid.",
+      "synoniemen": [
+        "intangible assets",
+        "ontastbare activa",
+        "immateriële activa",
+        "ontastbare vaste activa",
+        "intellectuele activa",
+        "niet-fysieke activa"
+      ]
+    },
+    {
+      "anchor_id": "1.2.V.B.G",
       "anchor_type": "kenniselement",
       "tekst": "Materiële vaste activa",
       "verbose": "De duurzame, fysieke productiemiddelen van de onderneming zoals terreinen, gebouwen, installaties, machines, rollend materieel en meubilair. Ze worden geactiveerd tegen aanschaffingswaarde, systematisch afgeschreven over hun economische gebruiksduur, en eventueel onderhevig aan waardeverminderingen of herwaarderingen.",
@@ -773,7 +1105,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.H",
+      "anchor_id": "1.2.V.B.H",
       "anchor_type": "kenniselement",
       "tekst": "Financiële vaste activa",
       "verbose": "De duurzame financiële beleggingen van de onderneming, zoals deelnemingen in verbonden ondernemingen, vorderingen op deze ondernemingen, en andere effecten en vorderingen die als duurzame belegging worden aangehouden. Ze worden gewaardeerd tegen aanschaffingswaarde met eventuele waardeverminderingen bij duurzame minderwaarde.",
@@ -789,7 +1121,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.I",
+      "anchor_id": "1.2.V.B.I",
       "anchor_type": "kenniselement",
       "tekst": "Vorderingen op meer dan een jaar en op ten hoogste een jaar",
       "verbose": "De handelsvorderingen, leningen en overige vorderingen van de onderneming, ingedeeld op basis van vervaldatum: meer dan één jaar staan onder vaste activa, ten hoogste één jaar onder vlottende activa. Waardering gebeurt tegen nominale waarde met geboekte waardeverminderingen voor dubieuze of oninbare debiteuren.",
@@ -805,7 +1137,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.J",
+      "anchor_id": "1.2.V.B.J",
       "anchor_type": "kenniselement",
       "tekst": "Voorraden",
       "verbose": "De goederen die de onderneming aanhoudt voor verkoop in het normale bedrijfsproces, productie of verbruik: grondstoffen, hulpstoffen, goederen in bewerking, gereed product en handelsgoederen. Waardering gebeurt tegen aanschaffingsprijs of vervaardigingsprijs, met toepassing van methoden als FIFO of gewogen gemiddelde, en waardeverminderingen bij dalende marktwaarde.",
@@ -821,7 +1153,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.K",
+      "anchor_id": "1.2.V.B.K",
       "anchor_type": "kenniselement",
       "tekst": "Bestellingen in uitvoering",
       "verbose": "Lopende opdrachten en projecten waarvan de uitvoering meerdere boekjaren overspant, zoals bouwprojecten of langlopende dienstverleningscontracten. De waardering gebeurt tegen kostprijs van de reeds uitgevoerde prestaties, eventueel verhoogd met een gedeelte van de winstmarge volgens de percentage-of-completion-methode.",
@@ -837,7 +1169,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.L",
+      "anchor_id": "1.2.V.B.L",
       "anchor_type": "kenniselement",
       "tekst": "Geldbeleggingen en liquide middelen",
       "verbose": "De korte-termijnbeleggingen zoals termijnrekeningen, aandelen en obligaties aangehouden als kasreserve, samen met de strikt liquide middelen op zicht-, postcheque- en kasrekeningen. Geldbeleggingen worden gewaardeerd met inachtneming van waardeverminderingen bij koersdaling, liquide middelen tegen nominale waarde.",
@@ -853,7 +1185,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.M",
+      "anchor_id": "1.2.V.B.M",
       "anchor_type": "kenniselement",
       "tekst": "Uitgestelde belastingen",
       "verbose": "Belastinglasten of -baten die voortvloeien uit tijdelijke verschillen tussen boekhoudkundige en fiscale waardering van activa en passiva, of uit overgedragen verliezen. In het Belgisch boekhoudkader worden ze beperkt geboekt, vooral bij kapitaalsubsidies en gerealiseerde meerwaarden waarvoor uitstel van belasting is verkregen.",
@@ -868,7 +1200,7 @@
       ]
     },
     {
-      "anchor_id": "1.2.II.N",
+      "anchor_id": "1.2.V.B.N",
       "anchor_type": "kenniselement",
       "tekst": "Schulden",
       "verbose": "De financiële verplichtingen van de onderneming tegenover derden zoals leveranciers, kredietinstellingen, fiscus, sociale zekerheid en personeel. Schulden worden ingedeeld naar vervaldatum (meer of ten hoogste één jaar), gewaardeerd tegen nominale waarde, en eventueel aangevuld met overlopende rente- of kostenrekeningen.",

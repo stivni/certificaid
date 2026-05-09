@@ -1,13 +1,13 @@
 {
   "po": "2.1",
-  "generated_at": "2026-05-09T20:43:54Z",
-  "model": "claude-opus-4-7",
-  "prompt_version": "anchor-verrijking-v1",
+  "titel": "Algemene beginselen van fiscaal recht",
+  "generated_at": "2026-05-09T21:45:38+00:00",
+  "source": "data/programma.json",
+  "n_anchors": 24,
   "anchors": [
     {
-      "anchor_id": "2.1.D1.1.taak.1",
+      "anchor_id": "2.1.taak.1",
       "anchor_type": "taak",
-      "taakblok": "2.1.D1.1",
       "tekst": "De belastingplichtige in alle fiscale aangelegenheden advies verlenen",
       "verbose": "De accountant analyseert de fiscale situatie van een cliënt en formuleert onderbouwde aanbevelingen over de keuze tussen alternatieve handelwijzen, de fiscale gevolgen van geplande verrichtingen en de optimalisatie binnen de grenzen van het toelaatbare. Het advies houdt rekening met de feitelijke context, de risicobereidheid van de cliënt en de wisselwerking tussen verschillende belastingen.",
       "synoniemen": [
@@ -21,9 +21,24 @@
       ]
     },
     {
-      "anchor_id": "2.1.D1.1.taak.2",
+      "anchor_id": "2.1.taak.1.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "De accountant pakt fiscale dossiers zelfstandig aan, structureert het werk volgens een systematische aanpak en anticipeert op kwesties voordat ze problematisch worden. In een omgeving waar regels, feiten en belangen door elkaar lopen, weet hij prioriteiten te stellen en disciplines te combineren tot één coherent advies.",
+      "synoniemen": [
+        "zelfstandig werken in fiscale dossiers",
+        "proactieve dossierbehandeling",
+        "methodische aanpak van fiscale problemen",
+        "geïntegreerd fiscaal advies",
+        "initiatief nemen in complexe materie",
+        "professionele autonomie",
+        "holistische fiscale benadering"
+      ],
+      "parent": "2.1.taak.1"
+    },
+    {
+      "anchor_id": "2.1.taak.2",
       "anchor_type": "taak",
-      "taakblok": "2.1.D1.1",
       "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen",
       "verbose": "Praktische ondersteuning bij het correct en tijdig nakomen van administratieve plichten zoals het opstellen en indienen van aangiften, het bewaren van bewijsstukken en het beantwoorden van vragen om inlichtingen. De accountant zorgt dat de cliënt formele termijnen, documentatieverplichtingen en meldingsplichten respecteert om sancties te vermijden.",
       "synoniemen": [
@@ -37,9 +52,39 @@
       ]
     },
     {
-      "anchor_id": "2.1.D1.1.taak.3",
+      "anchor_id": "2.1.taak.2.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Geavanceerde concepten van de algemene beginselen van fiscaal recht toepassen op complexe gevallen.",
+      "verbose": "De stagiair beheerst de leerstellingen rond legaliteit, gelijkheid, jaarperiodiciteit en territorialiteit op een diepgaand niveau en kan ze inzetten als argumentatiekader bij dossiers die niet onmiddellijk in een sjabloon passen. Hij ziet hoe een principe een concrete oplossing inkleurt of begrenst en kan tegenstrijdige principes tegen elkaar afwegen.",
+      "synoniemen": [
+        "toepassing van fiscale grondbeginselen",
+        "principes-gebaseerde redenering",
+        "advanced tax principles",
+        "geavanceerde fiscale leerstellingen",
+        "fiscale dogmatiek toepassen",
+        "principiële fiscale analyse"
+      ],
+      "parent": "2.1.taak.2"
+    },
+    {
+      "anchor_id": "2.1.taak.2.doel.2",
+      "anchor_type": "doelstelling",
+      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen. Fiscale risico's kunnen analyseren en beheren.",
+      "verbose": "Een correct fiscaal advies vertrekt van een volledig en accuraat feitenrelaas. De accountant identificeert welke gegevens, documenten en achtergronden hij nodig heeft, ondervraagt de cliënt gericht over knelpunten en onderscheidt hoofdzaken van details om geen blinde vlekken in zijn analyse te krijgen.",
+      "synoniemen": [
+        "feitenonderzoek",
+        "fact-finding",
+        "informatiegaring",
+        "intake van een fiscaal dossier",
+        "due diligence-vragen",
+        "relevante feiten uitvragen",
+        "dossieropbouw"
+      ],
+      "parent": "2.1.taak.2"
+    },
+    {
+      "anchor_id": "2.1.taak.3",
       "anchor_type": "taak",
-      "taakblok": "2.1.D1.1",
       "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden",
       "verbose": "De accountant treedt op als gevolmachtigde namens de cliënt in contacten met de fiscus, gaat in dialoog tijdens controles, beantwoordt vraagstellingen, voert bezwaarprocedures en onderhandelt over standpunten. Deze rol vereist een goed begrip van de procedurele rechten en plichten van beide partijen en van de gepaste communicatieregister tegenover een ambtenaar.",
       "synoniemen": [
@@ -53,72 +98,8 @@
       ]
     },
     {
-      "anchor_id": "2.1.D1.1.doel.1",
+      "anchor_id": "2.1.taak.3.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "2.1.D1.1",
-      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen",
-      "verbose": "De accountant pakt fiscale dossiers zelfstandig aan, structureert het werk volgens een systematische aanpak en anticipeert op kwesties voordat ze problematisch worden. In een omgeving waar regels, feiten en belangen door elkaar lopen, weet hij prioriteiten te stellen en disciplines te combineren tot één coherent advies.",
-      "synoniemen": [
-        "zelfstandig werken in fiscale dossiers",
-        "proactieve dossierbehandeling",
-        "methodische aanpak van fiscale problemen",
-        "geïntegreerd fiscaal advies",
-        "initiatief nemen in complexe materie",
-        "professionele autonomie",
-        "holistische fiscale benadering"
-      ]
-    },
-    {
-      "anchor_id": "2.1.D1.1.doel.2",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.1.D1.1",
-      "tekst": "Geavanceerde concepten van de algemene beginselen van fiscaal recht toepassen op complexe gevallen.",
-      "verbose": "De stagiair beheerst de leerstellingen rond legaliteit, gelijkheid, jaarperiodiciteit en territorialiteit op een diepgaand niveau en kan ze inzetten als argumentatiekader bij dossiers die niet onmiddellijk in een sjabloon passen. Hij ziet hoe een principe een concrete oplossing inkleurt of begrenst en kan tegenstrijdige principes tegen elkaar afwegen.",
-      "synoniemen": [
-        "toepassing van fiscale grondbeginselen",
-        "principes-gebaseerde redenering",
-        "advanced tax principles",
-        "geavanceerde fiscale leerstellingen",
-        "fiscale dogmatiek toepassen",
-        "principiële fiscale analyse"
-      ]
-    },
-    {
-      "anchor_id": "2.1.D1.1.doel.3",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.1.D1.1",
-      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen.",
-      "verbose": "Een correct fiscaal advies vertrekt van een volledig en accuraat feitenrelaas. De accountant identificeert welke gegevens, documenten en achtergronden hij nodig heeft, ondervraagt de cliënt gericht over knelpunten en onderscheidt hoofdzaken van details om geen blinde vlekken in zijn analyse te krijgen.",
-      "synoniemen": [
-        "feitenonderzoek",
-        "fact-finding",
-        "informatiegaring",
-        "intake van een fiscaal dossier",
-        "due diligence-vragen",
-        "relevante feiten uitvragen",
-        "dossieropbouw"
-      ]
-    },
-    {
-      "anchor_id": "2.1.D1.1.doel.4",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.1.D1.1",
-      "tekst": "Fiscale risico’s kunnen analyseren en beheren.",
-      "verbose": "Bij elk advies of elke verrichting weegt de accountant de kans op herkwalificatie, betwisting, sanctie of latere correctie door de administratie. Hij brengt deze risico's expliciet in kaart, vertaalt ze naar de cliënt en bouwt waar mogelijk verzachtende maatregelen in zoals voorafgaand overleg, voorzichtige documentatie of aanpassing van de structuur.",
-      "synoniemen": [
-        "fiscaal risicobeheer",
-        "tax risk management",
-        "risicoanalyse fiscaliteit",
-        "inschatten van fiscale risico's",
-        "herkwalificatierisico",
-        "risicogebaseerd fiscaal advies",
-        "beheersing van controlerisico"
-      ]
-    },
-    {
-      "anchor_id": "2.1.D1.1.doel.5",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.1.D1.1",
       "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de genomen beslissing.",
       "verbose": "De accountant begeleidt de cliënt doorheen het volledige verloop van een fiscaal dossier, van aangifte over controle en taxatie tot bezwaar en eventuele gerechtelijke fase. Bij elke stap wijst hij op termijnen, bewijslast en strategische gevolgen, zodat de cliënt de impact van een beslissing in een vroege fase kan inschatten op latere fasen.",
       "synoniemen": [
@@ -129,7 +110,8 @@
         "controle- en bezwaarbegeleiding",
         "tax controversy",
         "strategie in fiscale geschillen"
-      ]
+      ],
+      "parent": "2.1.taak.3"
     },
     {
       "anchor_id": "2.1.I",
@@ -235,7 +217,7 @@
       ]
     },
     {
-      "anchor_id": "2.1.I.A",
+      "anchor_id": "2.1.VII.A",
       "anchor_type": "kenniselement",
       "tekst": "Het legaliteitsbeginsel en de gevolgen ervan",
       "verbose": "Geen belasting kan geheven worden zonder een voorafgaande, door de bevoegde wetgevende vergadering aangenomen norm die alle wezenlijke elementen vastlegt: belastbaar feit, belastingplichtige, grondslag, tarief en uitzonderingen. Dit beginsel beschermt de burger tegen heffingen door de uitvoerende macht en heeft als concrete gevolgen onder meer een strikte interpretatie van fiscale teksten en het verbod op uitbreiding bij analogie.",
@@ -250,7 +232,7 @@
       ]
     },
     {
-      "anchor_id": "2.1.I.B",
+      "anchor_id": "2.1.VII.B",
       "anchor_type": "kenniselement",
       "tekst": "Het annualiteitsbeginsel",
       "verbose": "Belastingen worden in beginsel telkens voor één begrotingsjaar gestemd, zodat de wetgever jaarlijks zijn instemming bevestigt en de administratie alleen tijdens dat jaar kan heffen op basis van de toen geldende regels. Dit principe verklaart waarom inkomsten en feiten worden toegerekend aan een aanslagjaar en waarom wijzigingen in de regels meestal vanaf een welbepaald jaar uitwerking hebben.",
@@ -280,7 +262,33 @@
       ]
     },
     {
-      "anchor_id": "2.1.I.C",
+      "anchor_id": "2.1.VIII.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Het gelijkheidsbeginsel",
+      "verbose": "Het rechtsbeginsel dat belastingplichtigen die zich in een vergelijkbare situatie bevinden, op dezelfde manier moeten worden behandeld. Verschillen in fiscale behandeling zijn enkel toegelaten als ze redelijk en evenredig zijn ten opzichte van een legitiem doel.",
+      "synoniemen": [
+        "equality principle",
+        "non-discriminatie",
+        "gelijkheidsbeginsel",
+        "principle of equality",
+        "fiscaal gelijkheidsbeginsel"
+      ]
+    },
+    {
+      "anchor_id": "2.1.VIII.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Het beginsel van niet-retroactiviteit",
+      "verbose": "Het beginsel dat een nieuwe fiscale regel in principe niet kan worden toegepast op feiten die zich al voor de inwerkingtreding hebben voltrokken. Dit beschermt de rechtszekerheid van de belastingplichtige.",
+      "synoniemen": [
+        "non-retroactivity",
+        "principe van rechtszekerheid",
+        "non-retroactivité",
+        "principe van niet-terugwerkende kracht",
+        "geen terugwerkende kracht"
+      ]
+    },
+    {
+      "anchor_id": "2.1.VIII.C",
       "anchor_type": "kenniselement",
       "tekst": "Het territorialiteitsbeginsel",
       "verbose": "Een staat kan slechts belasting heffen voor zover er een voldoende aanknopingspunt is met zijn grondgebied, hetzij via de woonplaats of zetel van de belastingplichtige, hetzij via de plaats waar het inkomen wordt verkregen of de handeling wordt verricht. Dit beginsel stuurt de afbakening tussen binnenlandse en buitenlandse belastingplicht en speelt een sleutelrol bij grensoverschrijdende situaties en dubbelbelastingvraagstukken.",
@@ -307,6 +315,45 @@
         "evenredigheidsbeginsel fiscaal",
         "minst belaste weg",
         "principes van fiscaal behoorlijk bestuur"
+      ]
+    },
+    {
+      "anchor_id": "2.1.IX.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Non bis in idem",
+      "verbose": "Het beginsel dat eenzelfde belastbaar feit niet tweemaal aan dezelfde sanctie of belasting kan worden onderworpen. In fiscale context speelt dit onder meer bij de samenloop van administratieve en strafrechtelijke sancties.",
+      "synoniemen": [
+        "non bis in idem",
+        "ne bis in idem",
+        "verbod op dubbele bestraffing",
+        "double jeopardy",
+        "verbod op dubbele sanctionering"
+      ]
+    },
+    {
+      "anchor_id": "2.1.IX.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Realiteitsbeginsel",
+      "verbose": "Het uitgangspunt dat de fiscale wet de werkelijke economische realiteit van een verrichting volgt en niet enkel de juridische verpakking. Vormt de basis voor anti-misbruikregelingen en herkwalificatie van handelingen.",
+      "synoniemen": [
+        "economic reality",
+        "substance over form",
+        "realiteitsbeginsel",
+        "principle of economic reality",
+        "wezen-vormbeginsel"
+      ]
+    },
+    {
+      "anchor_id": "2.1.IX.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Moraliteit versus morele neutraliteit van de fiscale wet",
+      "verbose": "Het principe dat de fiscale wet zich in beginsel niet uitspreekt over de morele aanvaardbaarheid van een activiteit maar enkel over de fiscale gevolgen ervan. Inkomsten uit illegale activiteiten kunnen evenzeer belastbaar zijn als legale.",
+      "synoniemen": [
+        "moral neutrality of tax",
+        "morele neutraliteit fiscale wet",
+        "fiscale moraliteit",
+        "tax morality",
+        "ethics of taxation"
       ]
     }
   ]

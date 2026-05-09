@@ -1,13 +1,13 @@
 {
   "po": "2.4",
-  "generated_at": "2026-05-09T00:00:00Z",
-  "model": "claude-opus-4-7",
-  "prompt_version": "anchor-verrijking-v1",
+  "titel": "Belasting over de toegevoegde waarde",
+  "generated_at": "2026-05-09T21:45:38+00:00",
+  "source": "data/programma.json",
+  "n_anchors": 23,
   "anchors": [
     {
-      "anchor_id": "2.4.D1.1.taak.1",
+      "anchor_id": "2.4.taak.1",
       "anchor_type": "taak",
-      "taakblok": "2.4.D1.1",
       "tekst": "Begeleiding bij de oprichting van een onderneming",
       "verbose": "Bij de start van een onderneming moet de accountant inschatten of er btw-plicht ontstaat, welke regeling van toepassing is en welke aanvangsformaliteiten vervuld moeten worden. Daarbij hoort de keuze tussen normale, vrijgestelde of forfaitaire regeling, de aanvraag van een btw-identificatienummer en de inrichting van een correcte btw-boekhouding en facturatie vanaf de eerste handeling.",
       "synoniemen": [
@@ -20,9 +20,23 @@
       ]
     },
     {
-      "anchor_id": "2.4.D1.1.taak.2",
+      "anchor_id": "2.4.taak.1.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "De gecertificeerd accountant moet zelfstandig dossiers in de hand kunnen nemen waarbij de btw-behandeling afhangt van meerdere variabelen tegelijk: aard van de prestatie, hoedanigheid van de partijen, plaats van de handeling en bestemming van het goed. Werken in een complexe fiscale context vraagt een methodische aanpak waarbij feiten worden gestructureerd, juridische kwalificaties worden onderbouwd en het advies blijft staan onder kritische bevraging.",
+      "synoniemen": [
+        "autonoom fiscaal redeneren",
+        "methodische dossierbehandeling",
+        "geïntegreerd btw-advies",
+        "proactief fiscaal werken",
+        "complexe btw-cases beheersen",
+        "onderbouwde fiscale conclusie"
+      ],
+      "parent": "2.4.taak.1"
+    },
+    {
+      "anchor_id": "2.4.taak.2",
       "anchor_type": "taak",
-      "taakblok": "2.4.D1.1",
       "tekst": "Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming",
       "verbose": "Bij overdracht of stopzetting van een onderneming moet de btw-impact beoordeeld worden: gaat het om een overdracht van een algemeenheid of bedrijfsafdeling die buiten de btw-werkingssfeer valt, of om afzonderlijke leveringen die wel belastbaar zijn? Bovendien moeten herzieningen van eerder afgetrokken btw, uitschrijving van de btw-identificatie en de afrekening van bedrijfsmiddelen correct worden afgehandeld.",
       "synoniemen": [
@@ -35,9 +49,23 @@
       ]
     },
     {
-      "anchor_id": "2.4.D1.1.taak.3",
+      "anchor_id": "2.4.taak.2.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "De gecertificeerd accountant moet zelfstandig dossiers in de hand kunnen nemen waarbij de btw-behandeling afhangt van meerdere variabelen tegelijk: aard van de prestatie, hoedanigheid van de partijen, plaats van de handeling en bestemming van het goed. Werken in een complexe fiscale context vraagt een methodische aanpak waarbij feiten worden gestructureerd, juridische kwalificaties worden onderbouwd en het advies blijft staan onder kritische bevraging.",
+      "synoniemen": [
+        "autonoom fiscaal redeneren",
+        "methodische dossierbehandeling",
+        "geïntegreerd btw-advies",
+        "proactief fiscaal werken",
+        "complexe btw-cases beheersen",
+        "onderbouwde fiscale conclusie"
+      ],
+      "parent": "2.4.taak.2"
+    },
+    {
+      "anchor_id": "2.4.taak.3",
       "anchor_type": "taak",
-      "taakblok": "2.4.D1.1",
       "tekst": "De belastingplichtige in alle fiscale aangelegenheden advies verlenen",
       "verbose": "De accountant fungeert als fiscaal adviseur die btw-vraagstukken vertaalt naar de operationele en financiële realiteit van de onderneming. Dat betekent het inschatten van de btw-behandeling van geplande verrichtingen, het signaleren van risico's en opportuniteiten en het formuleren van geïntegreerd advies dat rekening houdt met andere fiscale takken zoals directe belastingen en registratierechten.",
       "synoniemen": [
@@ -50,9 +78,23 @@
       ]
     },
     {
-      "anchor_id": "2.4.D1.1.taak.4",
+      "anchor_id": "2.4.taak.3.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "De gecertificeerd accountant moet zelfstandig dossiers in de hand kunnen nemen waarbij de btw-behandeling afhangt van meerdere variabelen tegelijk: aard van de prestatie, hoedanigheid van de partijen, plaats van de handeling en bestemming van het goed. Werken in een complexe fiscale context vraagt een methodische aanpak waarbij feiten worden gestructureerd, juridische kwalificaties worden onderbouwd en het advies blijft staan onder kritische bevraging.",
+      "synoniemen": [
+        "autonoom fiscaal redeneren",
+        "methodische dossierbehandeling",
+        "geïntegreerd btw-advies",
+        "proactief fiscaal werken",
+        "complexe btw-cases beheersen",
+        "onderbouwde fiscale conclusie"
+      ],
+      "parent": "2.4.taak.3"
+    },
+    {
+      "anchor_id": "2.4.taak.4",
       "anchor_type": "taak",
-      "taakblok": "2.4.D1.1",
       "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen",
       "verbose": "Praktische compliance-ondersteuning vormt de kern van het btw-werk: periodieke aangiften, intracommunautaire opgaven, klantenlisting, OSS-aangiften en correcte facturatie. De accountant zorgt ervoor dat tijdlijnen, formele vereisten en betalingstermijnen gerespecteerd worden en dat de boekhouding voldoende sluitend is om de cijfers in de aangifte te onderbouwen.",
       "synoniemen": [
@@ -66,9 +108,53 @@
       ]
     },
     {
-      "anchor_id": "2.4.D1.1.taak.5",
+      "anchor_id": "2.4.taak.4.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Geavanceerde concepten op het gebied van btw toepassen op complexe gevallen, de aangifte invullen, de maatstaf van heffing en de btw berekenen.",
+      "verbose": "Op gevorderd niveau betekent dit dat de accountant de juiste maatstaf van heffing bepaalt, het toepasselijke tarief kiest, eventuele vrijstellingen of verleggingen identificeert en het resultaat correct in de overeenstemmende roosters van de aangifte plaatst. Dit vraagt beheersing van begrippen als levering, dienst, plaats van handeling, opeisbaarheid en aftrekbaarheid in samenhang.",
+      "synoniemen": [
+        "maatstaf van heffing bepalen",
+        "btw berekenen op handeling",
+        "roosters btw-aangifte",
+        "tarief en vrijstelling toepassen",
+        "btw-aangifte invullen",
+        "complexe btw-berekening",
+        "verschuldigde btw vaststellen"
+      ],
+      "parent": "2.4.taak.4"
+    },
+    {
+      "anchor_id": "2.4.taak.4.doel.2",
+      "anchor_type": "doelstelling",
+      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen.",
+      "verbose": "Een correcte btw-behandeling staat of valt met de feiten: wie zijn de partijen, waar bevinden zich de goederen of diensten, wat is de aard van de prestatie en welke contractuele afspraken gelden? De accountant moet weten welke documenten en gegevens hij nodig heeft, welke gerichte vragen hij aan de klant of tegenpartij moet stellen en wanneer een bewijsstuk onvoldoende is om een btw-positie te onderbouwen.",
+      "synoniemen": [
+        "feitenrelaas opbouwen",
+        "due diligence btw",
+        "informatie verzamelen klantdossier",
+        "kritische vragen aan belastingplichtige",
+        "documentatieplicht onderbouwen",
+        "feitenanalyse fiscaal dossier"
+      ],
+      "parent": "2.4.taak.4"
+    },
+    {
+      "anchor_id": "2.4.taak.4.doel.3",
+      "anchor_type": "doelstelling",
+      "tekst": "Fiscale risico's kunnen analyseren en beheren.",
+      "verbose": "Het in kaart brengen, kwantificeren en beheren van fiscale risico's verbonden aan ondernemingsbeslissingen, internationale structuren of complexe verrichtingen. De accountant adviseert over preventieve maatregelen en eventuele rulingaanvragen.",
+      "synoniemen": [
+        "tax risk management",
+        "fiscaal risicobeheer",
+        "tax risk analysis",
+        "fiscale risico-analyse",
+        "tax exposure management"
+      ],
+      "parent": "2.4.taak.4"
+    },
+    {
+      "anchor_id": "2.4.taak.5",
       "anchor_type": "taak",
-      "taakblok": "2.4.D1.1",
       "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden",
       "verbose": "Bij controles, vraagstellingen of geschillen treedt de accountant op als gemachtigde tegenover de btw-administratie en aanverwante overheden. Dit omvat het beantwoorden van vragen om inlichtingen, het begeleiden van controles ter plaatse, het indienen van bezwaarschriften en het onderhandelen over regularisaties of minnelijke schikkingen op basis van een degelijk dossier.",
       "synoniemen": [
@@ -81,70 +167,8 @@
       ]
     },
     {
-      "anchor_id": "2.4.D1.1.doel.1",
+      "anchor_id": "2.4.taak.5.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "2.4.D1.1",
-      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
-      "verbose": "De gecertificeerd accountant moet zelfstandig dossiers in de hand kunnen nemen waarbij de btw-behandeling afhangt van meerdere variabelen tegelijk: aard van de prestatie, hoedanigheid van de partijen, plaats van de handeling en bestemming van het goed. Werken in een complexe fiscale context vraagt een methodische aanpak waarbij feiten worden gestructureerd, juridische kwalificaties worden onderbouwd en het advies blijft staan onder kritische bevraging.",
-      "synoniemen": [
-        "autonoom fiscaal redeneren",
-        "methodische dossierbehandeling",
-        "geïntegreerd btw-advies",
-        "proactief fiscaal werken",
-        "complexe btw-cases beheersen",
-        "onderbouwde fiscale conclusie"
-      ]
-    },
-    {
-      "anchor_id": "2.4.D1.1.doel.2",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.4.D1.1",
-      "tekst": "Geavanceerde concepten op het gebied van btw toepassen op complexe gevallen, de aangifte invullen, de maatstaf van heffing en de btw berekenen.",
-      "verbose": "Op gevorderd niveau betekent dit dat de accountant de juiste maatstaf van heffing bepaalt, het toepasselijke tarief kiest, eventuele vrijstellingen of verleggingen identificeert en het resultaat correct in de overeenstemmende roosters van de aangifte plaatst. Dit vraagt beheersing van begrippen als levering, dienst, plaats van handeling, opeisbaarheid en aftrekbaarheid in samenhang.",
-      "synoniemen": [
-        "maatstaf van heffing bepalen",
-        "btw berekenen op handeling",
-        "roosters btw-aangifte",
-        "tarief en vrijstelling toepassen",
-        "btw-aangifte invullen",
-        "complexe btw-berekening",
-        "verschuldigde btw vaststellen"
-      ]
-    },
-    {
-      "anchor_id": "2.4.D1.1.doel.3",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.4.D1.1",
-      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen.",
-      "verbose": "Een correcte btw-behandeling staat of valt met de feiten: wie zijn de partijen, waar bevinden zich de goederen of diensten, wat is de aard van de prestatie en welke contractuele afspraken gelden? De accountant moet weten welke documenten en gegevens hij nodig heeft, welke gerichte vragen hij aan de klant of tegenpartij moet stellen en wanneer een bewijsstuk onvoldoende is om een btw-positie te onderbouwen.",
-      "synoniemen": [
-        "feitenrelaas opbouwen",
-        "due diligence btw",
-        "informatie verzamelen klantdossier",
-        "kritische vragen aan belastingplichtige",
-        "documentatieplicht onderbouwen",
-        "feitenanalyse fiscaal dossier"
-      ]
-    },
-    {
-      "anchor_id": "2.4.D1.1.doel.4",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.4.D1.1",
-      "tekst": "Fiscale risico’s kunnen analyseren en beheren.",
-      "verbose": "Risicobeheer in btw houdt in dat de accountant herkent waar onzekerheden zitten — bijvoorbeeld bij gemengde belastingplicht, internationale handelingen, kwalificatie van vastgoedoperaties of toepassing van een vrijstelling — en dat hij die onzekerheid vertaalt in concrete maatregelen: voorzichtige facturatie, ruling, voorlegging aan de administratie of het aanleggen van een fiscale provisie.",
-      "synoniemen": [
-        "btw-risicoanalyse",
-        "fiscaal risicobeheer",
-        "kwalificatierisico btw",
-        "voorzieningen voor btw-geschil",
-        "ruling aanvragen",
-        "risicomatrix fiscaal dossier"
-      ]
-    },
-    {
-      "anchor_id": "2.4.D1.1.doel.5",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.4.D1.1",
       "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de genomen beslissing.",
       "verbose": "De fiscale procedure btw verloopt via opeenvolgende fasen: vraag om inlichtingen, controle, regularisatieopgave, dwangbevel, bezwaar en eventueel rechtbank. De accountant moet de klant op elk moment kunnen uitleggen wat de termijnen zijn, welke verweermiddelen beschikbaar zijn en welke gevolgen — boetes, nalatigheidsinteresten, hoofdelijke aansprakelijkheid — een bepaalde keuze met zich meebrengt.",
       "synoniemen": [
@@ -155,7 +179,8 @@
         "regularisatieopgave btw",
         "termijnen en rechtsmiddelen",
         "procedurele btw-strategie"
-      ]
+      ],
+      "parent": "2.4.taak.5"
     },
     {
       "anchor_id": "2.4.I",
@@ -221,7 +246,7 @@
     {
       "anchor_id": "2.4.V",
       "anchor_type": "kenniselement",
-      "tekst": "Verwerving van onroerend goed door occasionele en gewone btw-plichtigen, tarieven, \"nieuwe\" gebouwen, btw-eenheid en onroerend goed, ingebruikneming, verhuur en terbeschikkingstelling van onroerend goed, aanpassingen wegens",
+      "tekst": "Verwerving van onroerend goed door occasionele en gewone btw-plichtigen, tarieven, \"nieuwe\" gebouwen, btw-eenheid en onroerend goed, ingebruikneming, verhuur en terbeschikkingstelling van onroerend goed, aanpassingen wegens alternatieve aanwendingen en/of bestemmingen van het onroerend goed, eigen werkzaamheden en maatstaf van heffing, ontbinding",
       "verbose": "Vastgoed is een van de moeilijkste btw-domeinen omdat de fiscale behandeling afhangt van het type goed (grond, gebouw, nieuw of oud), de hoedanigheid van koper en verkoper, het beoogde gebruik en de duur. Optionele btw-heffing op verhuur, vrijstellingen, herzieningstermijnen op investeringen en specifieke tarieven voor bijvoorbeeld renovatie of afbraak-en-heropbouw maken dat elk dossier feitenanalyse vraagt.",
       "synoniemen": [
         "btw onroerend goed",
@@ -256,7 +281,7 @@
     {
       "anchor_id": "2.4.VII",
       "anchor_type": "kenniselement",
-      "tekst": "Btw-herzieningen, overdracht van algemeenheid, intrekking/indienststelling, btwformaliteiten in geval van stopzetting van activiteit",
+      "tekst": "Btw-herzieningen, overdracht van algemeenheid, intrekking/indienststelling, btw-formaliteiten in geval van stopzetting van activiteit",
       "verbose": "Wanneer het gebruik of de bestemming van bedrijfsmiddelen wijzigt, moet de eerder afgetrokken btw worden herzien — positief of negatief — over een herzieningstijdvak dat verschilt voor roerend en onroerend goed. Daarnaast vraagt een overdracht van een volledige bedrijfstak een specifieke beoordeling, en bij stopzetting moeten activa, voorraad en bedrijfsmiddelen correct worden afgewikkeld met onttrekkings- of herzieningsregels.",
       "synoniemen": [
         "herzieningstijdvak bedrijfsmiddel",
@@ -315,7 +340,7 @@
     {
       "anchor_id": "2.4.XI",
       "anchor_type": "kenniselement",
-      "tekst": "Basisverschillen tussen douane-unie en vrijhandelszone, Enig document, Goederencode, Douanewaarde, Maatstaf van heffing voor de btw, Statistische waarde, Oorsprong, Douanereglementeringen en tijdelijke opslag, Douaneprocedures, Douanerechten + rol van de AEO ( _Authorised Economic Operator_ ), Invoer van goederen",
+      "tekst": "Basisverschillen tussen douane-unie en vrijhandelszone, Enig document, Goederencode, Douanewaarde, Maatstaf van heffing voor de btw, Statistische waarde, Oorsprong, Douanereglementeringen en tijdelijke opslag, Douaneprocedures, Douanerechten + rol van de AEO (Authorised Economic Operator), Invoer van goederen",
       "verbose": "Een douane-unie kent een gemeenschappelijk buitentarief en vrij verkeer binnen de zone, terwijl een vrijhandelszone enkel rechten afschaft tussen de leden zonder gemeenschappelijk buitentarief. Bij invoer komen verschillende waardeconcepten samen: de douanewaarde voor de rechten, de statistische waarde voor handelsstatistiek en de maatstaf van heffing voor btw. De preferentiële of niet-preferentiële oorsprong bepaalt of verlaagde tarieven gelden, en de AEO-status biedt vereenvoudigingen aan betrouwbare operatoren.",
       "synoniemen": [
         "douane-unie versus vrijhandelszone",

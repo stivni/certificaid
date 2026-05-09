@@ -1,12 +1,13 @@
 {
   "po": "1.1",
-  "generated_at": "2026-05-08T00:00:00+00:00",
-  "cleaning_principle": "Geen wetsartikelnummers, geen specifieke wetsnamen — alleen descriptief vakjargon en synoniemen",
+  "titel": "Algemene boekhouding",
+  "generated_at": "2026-05-09T21:45:38+00:00",
+  "source": "data/programma.json",
+  "n_anchors": 76,
   "anchors": [
     {
-      "anchor_id": "1.1.D1.1.taak.1",
+      "anchor_id": "1.1.taak.1",
       "anchor_type": "taak",
-      "taakblok": "1.1.D1.1",
       "tekst": "De boekhouding voeren",
       "verbose": "Het voeren van een volledige, regelmatige en getrouwe dubbele boekhouding voor een onderneming overeenkomstig het Belgische boekhoudrecht. Dit omvat het registreren van alle verrichtingen in chronologische dagboeken en het centraliseren in een grootboek, het toepassen van het minimum algemeen rekeningstelsel, het opstellen van de inventaris en het afsluiten in een jaarrekening. De boekhouding moet de vermogenssituatie, het resultaat en de evolutie van de onderneming op betrouwbare wijze weergeven, voldoen aan bewaarplicht en bewijsfunctie en aansluiten op fiscale verplichtingen (btw-aangifte, vennootschapsbelasting).",
       "synoniemen": [
@@ -19,9 +20,8 @@
       ]
     },
     {
-      "anchor_id": "1.1.D1.1.doel.1",
+      "anchor_id": "1.1.taak.1.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "1.1.D1.1",
       "tekst": "Rekeningen openen",
       "verbose": "Het openen van rekeningen overeenkomstig het minimum algemeen rekeningstelsel: vaststellen van de openingsbalans op basis van de slotbalans van het vorige boekjaar, openen van actief-, passief-, kosten- en opbrengstenrekeningen en aanmaken van het rekeningenplan aangepast aan de aard en omvang van de onderneming. Het openen respecteert het beginsel van onaantastbaarheid van de openingsbalans en zorgt voor de continuïteit van de boekhoudkundige cyclus.",
       "synoniemen": [
@@ -31,12 +31,12 @@
         "openen van rekeningen",
         "chart of accounts",
         "MAR"
-      ]
+      ],
+      "parent": "1.1.taak.1"
     },
     {
-      "anchor_id": "1.1.D1.1.doel.2",
+      "anchor_id": "1.1.taak.1.doel.2",
       "anchor_type": "doelstelling",
-      "taakblok": "1.1.D1.1",
       "tekst": "Opstellen van de journalen met inachtneming van de fiscale en analytische gevolgen",
       "verbose": "Het correct registreren van verrichtingen in de hulpdagboeken (aankoopdagboek, verkoopdagboek, financieel dagboek, diversenboek) en het centralisatieboek, met inachtneming van de fiscale gevolgen voor btw (aftrekbare en verschuldigde btw, btw-aangifte, herziening) en vennootschapsbelasting (verworpen uitgaven, fiscaal aftrekbare kosten, afschrijvingsritmes). De journaalposten worden tevens afgestemd op de analytische boekhouding via een overeengekomen brug tussen de algemene en analytische rekeningen.",
       "synoniemen": [
@@ -47,12 +47,12 @@
         "fiscale boekingen",
         "analytische boekingen",
         "boekingsschema's"
-      ]
+      ],
+      "parent": "1.1.taak.1"
     },
     {
-      "anchor_id": "1.1.D1.1.doel.3",
+      "anchor_id": "1.1.taak.1.doel.3",
       "anchor_type": "doelstelling",
-      "taakblok": "1.1.D1.1",
       "tekst": "Centraliseren van de rekeningen",
       "verbose": "Het overbrengen van de boekingen uit de hulpdagboeken naar het centraliserend grootboek, waarin per rekening alle bewegingen samengebracht worden tot een saldo. Centralisatie gebeurt periodiek (minstens maandelijks voor btw-doeleinden) en vormt de basis voor de proef- en saldibalans en uiteindelijk de jaarrekening. De centralisatie bewijst de regelmatigheid van de boekhouding en is essentieel voor de bewijsfunctie tegenover derden en de fiscale administratie.",
       "synoniemen": [
@@ -62,12 +62,12 @@
         "saldibalans",
         "proefbalans",
         "general ledger"
-      ]
+      ],
+      "parent": "1.1.taak.1"
     },
     {
-      "anchor_id": "1.1.D1.1.doel.4",
+      "anchor_id": "1.1.taak.1.doel.4",
       "anchor_type": "doelstelling",
-      "taakblok": "1.1.D1.1",
       "tekst": "Opsporen en corrigeren van anomalieën",
       "verbose": "Het detecteren van fouten, onregelmatigheden en inconsistenties in de boekhouding via controlemechanismen zoals de controle door de balans (gelijkheid debet-credit), bankreconciliaties, leveranciers- en klantenreconciliaties, controle op afschrijvingstabellen en btw-aansluiting. Geconstateerde fouten worden gecorrigeerd via correctieboekingen — niet via doorhalingen — om de onaantastbaarheid van eerdere registraties te respecteren. Bij materiële fouten in een afgesloten boekjaar geldt een specifieke correctieprocedure.",
       "synoniemen": [
@@ -77,12 +77,12 @@
         "reconciliatie",
         "bankreconciliatie",
         "fout corrigeren boekhouding"
-      ]
+      ],
+      "parent": "1.1.taak.1"
     },
     {
-      "anchor_id": "1.1.D1.1.doel.5",
+      "anchor_id": "1.1.taak.1.doel.5",
       "anchor_type": "doelstelling",
-      "taakblok": "1.1.D1.1",
       "tekst": "Verifiëren en corrigeren van de boekhouding en boekhoudkundige documenten",
       "verbose": "Het systematisch nazicht van boekhoudkundige documenten — inkomende en uitgaande facturen, kasstukken, bankuittreksels, contracten, subsidiebesluiten — op vorm, inhoud en boeking. Verificatie omvat de controle op btw-vereisten van facturen, op de juiste tegenrekening en periode (matching principle), en op de aansluiting met onderliggende bewijsstukken. Geconstateerde gebreken leiden tot correctieboekingen en, waar nodig, tot het opvragen van rechtzettingen bij de tegenpartij.",
       "synoniemen": [
@@ -91,12 +91,12 @@
         "factuurnazicht",
         "controle bewijsstukken",
         "boekhoudkundige correctie"
-      ]
+      ],
+      "parent": "1.1.taak.1"
     },
     {
-      "anchor_id": "1.1.D1.1.doel.6",
+      "anchor_id": "1.1.taak.1.doel.6",
       "anchor_type": "doelstelling",
-      "taakblok": "1.1.D1.1",
       "tekst": "Het rekeningstelsel aanpassen aan de behoeften van de onderneming",
       "verbose": "Het uitwerken van een gepersonaliseerd rekeningenplan dat het minimum algemeen rekeningstelsel respecteert maar verfijnt met sub-rekeningen die aansluiten bij de specifieke activiteit, sector en informatiebehoefte van de onderneming. Aanpassing kan ook nodig zijn voor analytische uitsplitsing per kostenplaats, productgroep of project, en voor specifieke fiscale verwerking (investeringsaftrek, gespreide belasting, btw-eenheid).",
       "synoniemen": [
@@ -105,12 +105,12 @@
         "sub-rekeningen",
         "analytische rekeningen",
         "boekhoudplan op maat"
-      ]
+      ],
+      "parent": "1.1.taak.1"
     },
     {
-      "anchor_id": "1.1.D1.1.doel.7",
+      "anchor_id": "1.1.taak.1.doel.7",
       "anchor_type": "doelstelling",
-      "taakblok": "1.1.D1.1",
       "tekst": "Voorstellen van waarderingsregels",
       "verbose": "Het opstellen of evalueren van de waarderingsregels die de onderneming verplicht moet vastleggen in de toelichting bij de jaarrekening. De regels betreffen de waardering bij verwerving (aanschaffingswaarde, vervaardigingsprijs), de afschrijvingsmethoden (lineair, degressief), het toepassen van waardeverminderingen en herwaarderingen, de waardering van voorraden (FIFO, LIFO, gewogen gemiddelde) en van vorderingen, schulden en voorzieningen. De voorgestelde regels moeten getrouw beeld geven, voorzichtig zijn en bestendig worden toegepast (permanentiebeginsel).",
       "synoniemen": [
@@ -120,12 +120,12 @@
         "afschrijvingsmethode",
         "waardeverminderingsbeleid",
         "voorraadwaardering"
-      ]
+      ],
+      "parent": "1.1.taak.1"
     },
     {
-      "anchor_id": "1.1.D1.1.doel.8",
+      "anchor_id": "1.1.taak.1.doel.8",
       "anchor_type": "doelstelling",
-      "taakblok": "1.1.D1.1",
       "tekst": "Optimaliseren van de boekhoudkundige organisatie van de onderneming",
       "verbose": "Het herinrichten van de administratieve processen en boekhoudkundige werkstromen om efficiëntie, betrouwbaarheid en interne controle te verbeteren: digitalisering van facturatie en archivering, automatische import van bankuittreksels (CODA), gebruik van boekhoudsoftware met audit trail, scheiding van bevoegdheden, periodieke afsluitingsprocedures en koppeling met fiscale aangiftesoftware. De organisatie moet de wettelijke bewaarplicht en de getrouwheid van de boekhouding waarborgen.",
       "synoniemen": [
@@ -135,12 +135,12 @@
         "digitalisering boekhouding",
         "boekhoudsoftware",
         "audit trail"
-      ]
+      ],
+      "parent": "1.1.taak.1"
     },
     {
-      "anchor_id": "1.1.D1.1.doel.9",
+      "anchor_id": "1.1.taak.1.doel.9",
       "anchor_type": "doelstelling",
-      "taakblok": "1.1.D1.1",
       "tekst": "Opstellen van de boekhoudkundige bijlagen bij de jaarrekeningen",
       "verbose": "Het opstellen van de toelichting bij de jaarrekening, een verplicht onderdeel naast balans en resultatenrekening. De toelichting bevat onder meer de waarderingsregels, de staat van vaste activa met afschrijvingen en waardeverminderingen, de staat van het kapitaal, de staat van schulden naar vervaldag, de niet in de balans opgenomen rechten en verplichtingen, de mutaties in voorzieningen en de sociale balans. Voor kleine vennootschappen geldt het verkort schema, voor grote en beursgenoteerde het volledig schema.",
       "synoniemen": [
@@ -150,12 +150,12 @@
         "verkort schema",
         "volledig schema",
         "sociale balans"
-      ]
+      ],
+      "parent": "1.1.taak.1"
     },
     {
-      "anchor_id": "1.1.D1.1.doel.10",
+      "anchor_id": "1.1.taak.1.doel.10",
       "anchor_type": "doelstelling",
-      "taakblok": "1.1.D1.1",
       "tekst": "Afronden en afsluiten van de jaarrekeningen",
       "verbose": "De afsluitingsverrichtingen op het einde van het boekjaar: opmaken van de inventaris, boeken van afschrijvingen en waardeverminderingen, vorming en herziening van voorzieningen, herwaarderingen, overlopende rekeningen (toe te rekenen en over te dragen kosten en opbrengsten), berekening van de uitgestelde belastingen en de belasting op het resultaat, resultaatverwerking en overboeking naar de bestemde reserves. Het boekjaar wordt afgesloten met de openings- en sluitingsboekingen en de jaarrekening wordt opgemaakt en neergelegd bij de Nationale Bank.",
       "synoniemen": [
@@ -165,6 +165,21 @@
         "inventarisboekingen",
         "resultaatverwerking",
         "neerlegging jaarrekening"
+      ],
+      "parent": "1.1.taak.1"
+    },
+    {
+      "anchor_id": "1.1.I",
+      "anchor_type": "kenniselement",
+      "tekst": "BASISREGELS VAN DE BOEKHOUDING",
+      "verbose": "De fundamentele uitgangspunten waarop elke boekhouding rust: het bijhouden van een volledige, getrouwe en chronologische registratie van alle verrichtingen van de onderneming. Het omvat de basisbeginselen rond dubbel boekhouden, bewijsstukken, dagboeken, grootboek en de ordening van rekeningen.",
+      "synoniemen": [
+        "boekhoudkundige basisprincipes",
+        "fundamenten van de boekhouding",
+        "boekhoudbeginselen",
+        "elementaire boekhoudregels",
+        "principes van de dubbele boekhouding",
+        "grondbeginselen boekhouding"
       ]
     },
     {
@@ -562,6 +577,20 @@
       ]
     },
     {
+      "anchor_id": "1.1.II",
+      "anchor_type": "kenniselement",
+      "tekst": "DE GEWONE BEDRIJFSUITOEFENING",
+      "verbose": "De normale, dagelijkse activiteiten van een onderneming en de manier waarop deze in de boekhouding worden vastgelegd. Het gaat om de gangbare aan- en verkoopcyclus, betalingen, ontvangsten en routinematige verrichtingen die het courante exploitatiebeeld vormen.",
+      "synoniemen": [
+        "normale bedrijfsactiviteiten",
+        "courante exploitatie",
+        "dagelijkse bedrijfsvoering",
+        "operationele activiteiten",
+        "lopende bedrijfsuitoefening",
+        "going concern-activiteiten"
+      ]
+    },
+    {
       "anchor_id": "1.1.II.A",
       "anchor_type": "kenniselement",
       "tekst": "Oprichtingskosten - Aankoop en afschrijvingen",
@@ -884,7 +913,7 @@
     {
       "anchor_id": "1.1.II.Q",
       "anchor_type": "kenniselement",
-      "tekst": "Van winst (verlies) van het boekjaar vóór belasting naar te bestemmen winst (of verlies) en resultaatverwerking",
+      "tekst": "Van winst (verlies) van het boekjaar vóór belasting naar te bestemmen winst (of verlies) + en resultaatverwerking",
       "verbose": "De resultaatverwerking is het proces waarbij het bruto-resultaat van het boekjaar wordt gecorrigeerd voor uitgestelde belastingen, belastingvrije reserves en de belasting op het resultaat tot de te bestemmen winst of het te bestemmen verlies, en dit vervolgens wordt verdeeld over reserves, vergoeding aan vennoten en overdracht naar het volgend boekjaar. Algemeenheden en definities: winst vóór belasting → winst van het boekjaar → te bestemmen winst → bestemmingen. Boekings- en waarderingsregels: overboekingen tussen reserves, dotatie aan wettelijke en statutaire reserves, dividenduitkering, tantièmes, overdracht resultaat naar volgend boekjaar. Gebruikelijke boekhoudschema's: rekeningen 79, 689, 79x voor onttrekkingen aan reserves, rekening 14 overgedragen resultaat, fiscale impact (vennootschapsbelasting, roerende voorheffing op dividend, liquidatiereserve). Presentatie: aparte rubriek 'resultaatverwerking' in de resultatenrekening en in de toelichting.",
       "synoniemen": [
         "resultaatverwerking",
@@ -926,7 +955,7 @@
     {
       "anchor_id": "1.1.II.Q.3",
       "anchor_type": "kenniselement",
-      "tekst": "Overboeking naar de belastingvrije reserves of onttrekking aan de belastingvrije reserves",
+      "tekst": "Overboeking naar de belastingvrije reserves belastingen of onttrekking aan de belastingvrije reserves",
       "verbose": "Belastingvrije reserves zijn reserves die fiscaal vrijgesteld zijn op voorwaarde dat zij ongewijzigd op de passiefzijde van de balans blijven (onaantastbaarheidsvoorwaarde). Algemeenheden en definities: investeringsreserve (fiscaal gunstregime voor kleine vennootschappen tot afschaffing), liquidatiereserve, gespreid belaste meerwaarden, andere belastingvrije reserves. Boekings- en waarderingsregels: dotatie via overboeking uit het te bestemmen resultaat, onttrekking bij niet-naleving van de voorwaarde of bij liquidatiereserve voor uitkering met verlaagde roerende voorheffing. Gebruikelijke boekhoudschema's: rekening 132 (belastingvrije reserves), boekingstechniek via rekening 689/789, fiscaal: niet aftasten van de reserve onder bekostigingsvoorwaarde, anders volledige belastbaarheid. Presentatie: balans onder eigen vermogen, gedetailleerd per type vrijstelling in toelichting.",
       "synoniemen": [
         "belastingvrije reserves",

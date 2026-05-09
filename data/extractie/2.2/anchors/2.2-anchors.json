@@ -1,13 +1,13 @@
 {
   "po": "2.2",
-  "generated_at": "2026-05-09T00:00:00Z",
-  "model": "claude-opus-4-7",
-  "prompt_version": "anchor-verrijking-v1",
+  "titel": "Personenbelasting",
+  "generated_at": "2026-05-09T21:45:38+00:00",
+  "source": "data/programma.json",
+  "n_anchors": 38,
   "anchors": [
     {
-      "anchor_id": "2.2.D1.1.taak.1",
+      "anchor_id": "2.2.taak.1",
       "anchor_type": "taak",
-      "taakblok": "2.2.D1.1",
       "tekst": "Begeleiding bij de oprichting van een onderneming",
       "verbose": "De accountant adviseert de starter over de fiscale gevolgen van de gekozen ondernemingsvorm, met aandacht voor het verschil tussen eenmanszaak en vennootschap binnen de personenbelasting. Daarbij komen keuzes rond beroepsmatig en privématig vermogen, sociaal statuut en de impact op de eindbelasting van de oprichter aan bod.",
       "synoniemen": [
@@ -20,9 +20,23 @@
       ]
     },
     {
-      "anchor_id": "2.2.D1.1.taak.2",
+      "anchor_id": "2.2.taak.1.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "Het werk in personenbelasting vraagt eigenstandige beoordeling van situaties waarin meerdere inkomstencategorieën, gewestelijke regels en gezinssituaties samenkomen. De accountant ordent het dossier methodisch, ziet de samenhang tussen onderdelen en formuleert een advies dat verder gaat dan een losse vraagstelling.",
+      "synoniemen": [
+        "zelfstandig fiscaal werk",
+        "geïntegreerd fiscaal advies",
+        "professioneel oordeel in fiscaliteit",
+        "methodische dossierbehandeling",
+        "proactieve adviesverlening",
+        "beroepsmatige autonomie"
+      ],
+      "parent": "2.2.taak.1"
+    },
+    {
+      "anchor_id": "2.2.taak.2",
       "anchor_type": "taak",
-      "taakblok": "2.2.D1.1",
       "tekst": "Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming",
       "verbose": "Bij stopzetting, verkoop of overdracht van een eenmanszaak begeleidt de accountant de belastingplichtige rond de fiscale afwikkeling, waaronder stopzettingsmeerwaarden, herbelegging, en de fiscale gevolgen voor onroerende en roerende activa die aan de beroepsactiviteit waren verbonden. De keuze tussen verkoop, schenking of overdracht aan familie heeft uiteenlopende gevolgen in de personenbelasting.",
       "synoniemen": [
@@ -36,9 +50,23 @@
       ]
     },
     {
-      "anchor_id": "2.2.D1.1.taak.3",
+      "anchor_id": "2.2.taak.2.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "Het werk in personenbelasting vraagt eigenstandige beoordeling van situaties waarin meerdere inkomstencategorieën, gewestelijke regels en gezinssituaties samenkomen. De accountant ordent het dossier methodisch, ziet de samenhang tussen onderdelen en formuleert een advies dat verder gaat dan een losse vraagstelling.",
+      "synoniemen": [
+        "zelfstandig fiscaal werk",
+        "geïntegreerd fiscaal advies",
+        "professioneel oordeel in fiscaliteit",
+        "methodische dossierbehandeling",
+        "proactieve adviesverlening",
+        "beroepsmatige autonomie"
+      ],
+      "parent": "2.2.taak.2"
+    },
+    {
+      "anchor_id": "2.2.taak.3",
       "anchor_type": "taak",
-      "taakblok": "2.2.D1.1",
       "tekst": "De belastingplichtige in alle fiscale aangelegenheden advies verlenen",
       "verbose": "De accountant treedt op als algemeen fiscaal raadgever van een natuurlijke persoon en bekijkt de fiscale situatie integraal: gezinslasten, vastgoed, beleggingen, beroepsinkomsten en planning. Het advies is proactief en houdt rekening met optimalisatie binnen de wettelijke grenzen.",
       "synoniemen": [
@@ -51,9 +79,23 @@
       ]
     },
     {
-      "anchor_id": "2.2.D1.1.taak.4",
+      "anchor_id": "2.2.taak.3.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
+      "verbose": "Het werk in personenbelasting vraagt eigenstandige beoordeling van situaties waarin meerdere inkomstencategorieën, gewestelijke regels en gezinssituaties samenkomen. De accountant ordent het dossier methodisch, ziet de samenhang tussen onderdelen en formuleert een advies dat verder gaat dan een losse vraagstelling.",
+      "synoniemen": [
+        "zelfstandig fiscaal werk",
+        "geïntegreerd fiscaal advies",
+        "professioneel oordeel in fiscaliteit",
+        "methodische dossierbehandeling",
+        "proactieve adviesverlening",
+        "beroepsmatige autonomie"
+      ],
+      "parent": "2.2.taak.3"
+    },
+    {
+      "anchor_id": "2.2.taak.4",
       "anchor_type": "taak",
-      "taakblok": "2.2.D1.1",
       "tekst": "Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen",
       "verbose": "Het opstellen en indienen van de aangifte personenbelasting, controleren van het aanslagbiljet, opvolgen van termijnen voor voorafbetalingen en correct reageren op vragen om inlichtingen behoren tot de operationele kerntaak. De accountant zorgt dat alle inkomsten correct gerubriceerd zijn en dat aftrekken en verminderingen ten volle worden benut.",
       "synoniemen": [
@@ -66,9 +108,38 @@
       ]
     },
     {
-      "anchor_id": "2.2.D1.1.taak.5",
+      "anchor_id": "2.2.taak.4.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Geavanceerde concepten op het gebied van personenbelasting toepassen op complexe gevallen.",
+      "verbose": "Naast de basisstructuur van inkomstencategorieën beheerst de accountant complexere mechanismen zoals huwelijksquotiënt, meewerkinkomen, samenloop van gewestelijke en federale belastingverminderingen, fiscale behandeling van pensioenkapitalen en internationale aspecten. Deze worden toegepast op dossiers met meerdere inkomstenstromen en specifieke gezinssituaties.",
+      "synoniemen": [
+        "gevorderde fiscaliteit",
+        "complexe casuïstiek personenbelasting",
+        "geavanceerde fiscale analyse",
+        "samengestelde fiscale dossiers",
+        "advanced personal income tax",
+        "diepgaande fiscale toepassing"
+      ],
+      "parent": "2.2.taak.4"
+    },
+    {
+      "anchor_id": "2.2.taak.4.doel.2",
+      "anchor_type": "doelstelling",
+      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen. Fiscale risico's kunnen analyseren en beheren.",
+      "verbose": "Een correcte aangifte begint bij volledige feitenverzameling: gezinssamenstelling, eigendomsverhoudingen, financiële producten, dienstbetrekkingen en uitgaven met fiscale impact. De accountant stelt gerichte vragen aan de cliënt en herkent welke documenten en stavingsstukken nodig zijn voor elke inkomstencategorie.",
+      "synoniemen": [
+        "feitenverzameling in fiscale dossiers",
+        "client intake",
+        "informatiegaring",
+        "due diligence bij aangifte",
+        "vragenlijst belastingplichtige",
+        "dossier-onderzoek"
+      ],
+      "parent": "2.2.taak.4"
+    },
+    {
+      "anchor_id": "2.2.taak.5",
       "anchor_type": "taak",
-      "taakblok": "2.2.D1.1",
       "tekst": "Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden",
       "verbose": "Bij controles, vragen om inlichtingen, bezwaarschriften en geschillen treedt de accountant op als gemandateerde gesprekspartner van de fiscus. Dat omvat schriftelijke en mondelinge verdediging van het standpunt van de cliënt, onderhandelen over een akkoord en het opvolgen van de procedure tot en met de gewestelijke directeur of de fiscale bemiddelaar.",
       "synoniemen": [
@@ -82,69 +153,8 @@
       ]
     },
     {
-      "anchor_id": "2.2.D1.1.doel.1",
+      "anchor_id": "2.2.taak.5.doel.1",
       "anchor_type": "doelstelling",
-      "taakblok": "2.2.D1.1",
-      "tekst": "Autonoom en met een hoge mate van initiatief werken in een complexe fiscale omgeving, op een proactieve en methodische manier, om goed onderbouwde en geïntegreerde adviezen te formuleren",
-      "verbose": "Het werk in personenbelasting vraagt eigenstandige beoordeling van situaties waarin meerdere inkomstencategorieën, gewestelijke regels en gezinssituaties samenkomen. De accountant ordent het dossier methodisch, ziet de samenhang tussen onderdelen en formuleert een advies dat verder gaat dan een losse vraagstelling.",
-      "synoniemen": [
-        "zelfstandig fiscaal werk",
-        "geïntegreerd fiscaal advies",
-        "professioneel oordeel in fiscaliteit",
-        "methodische dossierbehandeling",
-        "proactieve adviesverlening",
-        "beroepsmatige autonomie"
-      ]
-    },
-    {
-      "anchor_id": "2.2.D1.1.doel.2",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.2.D1.1",
-      "tekst": "Geavanceerde concepten op het gebied van personenbelasting toepassen op complexe gevallen.",
-      "verbose": "Naast de basisstructuur van inkomstencategorieën beheerst de accountant complexere mechanismen zoals huwelijksquotiënt, meewerkinkomen, samenloop van gewestelijke en federale belastingverminderingen, fiscale behandeling van pensioenkapitalen en internationale aspecten. Deze worden toegepast op dossiers met meerdere inkomstenstromen en specifieke gezinssituaties.",
-      "synoniemen": [
-        "gevorderde fiscaliteit",
-        "complexe casuïstiek personenbelasting",
-        "geavanceerde fiscale analyse",
-        "samengestelde fiscale dossiers",
-        "advanced personal income tax",
-        "diepgaande fiscale toepassing"
-      ]
-    },
-    {
-      "anchor_id": "2.2.D1.1.doel.3",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.2.D1.1",
-      "tekst": "Verzamelen van de nodige relevante informatie en stellen van de juiste vragen.",
-      "verbose": "Een correcte aangifte begint bij volledige feitenverzameling: gezinssamenstelling, eigendomsverhoudingen, financiële producten, dienstbetrekkingen en uitgaven met fiscale impact. De accountant stelt gerichte vragen aan de cliënt en herkent welke documenten en stavingsstukken nodig zijn voor elke inkomstencategorie.",
-      "synoniemen": [
-        "feitenverzameling in fiscale dossiers",
-        "client intake",
-        "informatiegaring",
-        "due diligence bij aangifte",
-        "vragenlijst belastingplichtige",
-        "dossier-onderzoek"
-      ]
-    },
-    {
-      "anchor_id": "2.2.D1.1.doel.4",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.2.D1.1",
-      "tekst": "Fiscale risico’s kunnen analyseren en beheren.",
-      "verbose": "De accountant identificeert in een dossier potentiële discussiepunten met de fiscus, zoals onzekere kwalificatie van inkomsten, twijfelachtige beroepsmatigheid van uitgaven of grenzen aan fiscale gunstmaatregelen. Risicobeheer betekent vooraf inschatten waar een controle zou kunnen aanslaan en de cliënt informeren over de mogelijke gevolgen.",
-      "synoniemen": [
-        "fiscaal risicobeheer",
-        "tax risk management",
-        "controlerisico inschatten",
-        "fiscale exposure analyseren",
-        "risicoprofiel van een aangifte",
-        "anticiperen op fiscale geschillen"
-      ]
-    },
-    {
-      "anchor_id": "2.2.D1.1.doel.5",
-      "anchor_type": "doelstelling",
-      "taakblok": "2.2.D1.1",
       "tekst": "De belastingplichtige adviseren over de verschillende fasen van de belastingprocedure en rekening houden met de mogelijke gevolgen van de genomen beslissing.",
       "verbose": "Van het indienen van de aangifte over de vestiging van de aanslag tot een eventuele bezwaarprocedure, gerechtelijke fase of fiscale bemiddeling: de accountant kent het verloop en de termijnen. De cliënt wordt geïnformeerd over de impact van elke keuze, zoals de gevolgen van een akkoord of de kostprijs van een procedure.",
       "synoniemen": [
@@ -154,7 +164,8 @@
         "advies over fiscale stappen",
         "procedurele bijstand",
         "fasen van een fiscale betwisting"
-      ]
+      ],
+      "parent": "2.2.taak.5"
     },
     {
       "anchor_id": "2.2.I",
@@ -187,22 +198,34 @@
     {
       "anchor_id": "2.2.III",
       "anchor_type": "kenniselement",
-      "tekst": "Belastingplichtigen IV. Persoonlijke gegevens en gezinslast",
-      "verbose": "De fiscale eenheid wordt gevormd door de belastingplichtige en zijn gezin, waarbij rijksinwonerschap, huwelijk, wettelijk samenwonen en feitelijk samenwonen elk eigen gevolgen hebben. Gezinslast — kinderen ten laste, andere personen ten laste, gehandicapten — leidt tot belastingvrije sommen en specifieke verminderingen.",
+      "tekst": "Belastingplichtigen",
+      "verbose": "De personen die onderworpen zijn aan een bepaalde belasting, met onderscheid tussen rijksinwoners en niet-inwoners en tussen natuurlijke personen en rechtspersonen. De bepaling van de belastingplichtige is altijd de eerste stap in een fiscale analyse.",
       "synoniemen": [
-        "rijksinwoner",
-        "huwelijk en wettelijke samenwoning fiscaal",
-        "kinderen ten laste",
-        "personen ten laste",
-        "gezinssituatie aangifte",
-        "fiscaal alleenstaand of samenwonend",
-        "belastingvrije som"
+        "taxpayers",
+        "belastingsubjecten",
+        "subjects of taxation",
+        "belastingschuldigen",
+        "fiscaal pligtigen"
+      ]
+    },
+    {
+      "anchor_id": "2.2.IV",
+      "anchor_type": "kenniselement",
+      "tekst": "Persoonlijke gegevens en gezinslast",
+      "verbose": "De individuele en familiale parameters die de aanslag in de personenbelasting bepalen, zoals woonplaats, gezinssituatie, kinderen ten laste en handicap. Deze gegevens beïnvloeden belastingvrije som, aftrekken en verminderingen.",
+      "synoniemen": [
+        "personal data and dependents",
+        "gezinslast",
+        "persoonlijke fiscale gegevens",
+        "family allowance",
+        "kinderlast",
+        "personalia"
       ]
     },
     {
       "anchor_id": "2.2.V",
       "anchor_type": "kenniselement",
-      "tekst": "Inkomsten van onroerende goederen:",
+      "tekst": "Inkomsten van onroerende goederen",
       "verbose": "Onroerende inkomsten omvatten alle inkomsten uit gebouwde en ongebouwde onroerende goederen, of het nu gaat om eigen bewoning, verhuur aan particulieren of verhuur voor beroepsgebruik. De aangifte gebeurt in beginsel op basis van het kadastraal inkomen, eventueel verhoogd met werkelijk ontvangen huur, en met aandacht voor binnenlandse en buitenlandse vastgoedinkomsten.",
       "synoniemen": [
         "vastgoedinkomsten",
@@ -215,7 +238,7 @@
       ]
     },
     {
-      "anchor_id": "2.2.I.A",
+      "anchor_id": "2.2.V.A",
       "anchor_type": "kenniselement",
       "tekst": "Aangifte",
       "verbose": "De aangifte personenbelasting is het document waarmee de belastingplichtige zijn inkomsten en aftrekbare uitgaven aan de fiscus meldt, hetzij op papier hetzij elektronisch via het online aangifteplatform. Vakken en codes structureren de aangifte volgens inkomstencategorie en gezinssituatie; voorstel van vereenvoudigde aangifte vraagt extra controle.",
@@ -230,7 +253,7 @@
       ]
     },
     {
-      "anchor_id": "2.2.I.B",
+      "anchor_id": "2.2.V.B",
       "anchor_type": "kenniselement",
       "tekst": "Berekening van het belastbaar onroerend inkomen",
       "verbose": "Het belastbaar onroerend inkomen wordt afgeleid van het geïndexeerde kadastraal inkomen, met opslagen of werkelijke huur naargelang het gebruik van het onroerend goed. Voor de eigen woning geldt vaak een vrijstelling, terwijl voor verhuur aan particulieren het kadastraal inkomen verhoogd wordt en voor verhuur aan beroepsgebruikers de werkelijke nettohuur in aanmerking komt.",
@@ -261,9 +284,35 @@
       ]
     },
     {
+      "anchor_id": "2.2.VI.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Aangifte van de beroepsinkomsten van deel 1 en van deel 2 van de aangifte",
+      "verbose": "De wijze waarop beroepsinkomsten worden gerapporteerd in de personenbelasting, zowel die uit een hoofdactiviteit als uit een bijberoep of meerdere beroepen. De aangifte verdeelt deze inkomsten over de gepaste rubrieken zodat het juiste fiscale regime wordt toegepast.",
+      "synoniemen": [
+        "declaration of professional income",
+        "aangifte beroepsinkomsten",
+        "tax return business income",
+        "professional income reporting",
+        "inkomstenaangifte"
+      ]
+    },
+    {
+      "anchor_id": "2.2.VI.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Berekenen van het belastbaar beroepsinkomen",
+      "verbose": "De stapsgewijze bepaling van het netto belastbaar beroepsinkomen vanuit het bruto-inkomen, na aftrek van werkelijke of forfaitaire beroepskosten, sociale bijdragen en eventuele specifieke aftrekken. Het resultaat dient als basis voor de progressieve tarieven.",
+      "synoniemen": [
+        "calculation of taxable professional income",
+        "bepaling beroepsinkomen",
+        "netto belastbaar beroepsinkomen",
+        "professional income computation",
+        "berekening beroepsinkomen"
+      ]
+    },
+    {
       "anchor_id": "2.2.VII",
       "anchor_type": "kenniselement",
-      "tekst": "Roerende inkomsten:",
+      "tekst": "Roerende inkomsten",
       "verbose": "Roerende inkomsten ontstaan uit de belegging van kapitalen en omvatten dividenden, intresten, royalty’s en bepaalde inkomsten uit collectieve beleggingen. De belasting gebeurt vaak via bronheffing met bevrijdend karakter, maar in een aantal gevallen moet de belastingplichtige ze opnemen in de aangifte om zijn rechten uit te oefenen of een teruggave te bekomen.",
       "synoniemen": [
         "dividenden",
@@ -277,9 +326,37 @@
       ]
     },
     {
+      "anchor_id": "2.2.VII.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Aangifte",
+      "verbose": "De aangifte personenbelasting is het document waarmee de belastingplichtige zijn inkomsten en aftrekbare uitgaven aan de fiscus meldt, hetzij op papier hetzij elektronisch via het online aangifteplatform. Vakken en codes structureren de aangifte volgens inkomstencategorie en gezinssituatie; voorstel van vereenvoudigde aangifte vraagt extra controle.",
+      "synoniemen": [
+        "belastingaangifte",
+        "tax-on-web",
+        "aangifteformulier",
+        "voorstel van vereenvoudigde aangifte",
+        "aangiftecodes",
+        "vakken van de aangifte",
+        "indienen belastingaangifte"
+      ]
+    },
+    {
+      "anchor_id": "2.2.VII.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Berekening van het belastbaar inkomen",
+      "verbose": "De bepaling van het belastbaar bedrag in een specifieke categorie van inkomsten, met aandacht voor specifieke inkomstencomponenten, aftrekken, vrijstellingen en eventuele forfaits. De methodiek varieert per inkomstencategorie.",
+      "synoniemen": [
+        "taxable income calculation",
+        "bepaling belastbaar inkomen",
+        "taxable amount",
+        "berekening belastbare basis",
+        "belastingsgrondslag"
+      ]
+    },
+    {
       "anchor_id": "2.2.VIII",
       "anchor_type": "kenniselement",
-      "tekst": "Diverse inkomsten:",
+      "tekst": "Diverse inkomsten",
       "verbose": "Diverse inkomsten zijn een restcategorie voor occasionele opbrengsten zoals onderhoudsuitkeringen, prijzen, occasionele winsten, bepaalde meerwaarden op onroerende goederen en sommige toevallige bezigheden. Ze worden vaak afzonderlijk belast tegen een vast tarief en vragen aandacht voor de afbakening tegenover beroepsinkomsten.",
       "synoniemen": [
         "occasionele inkomsten",
@@ -291,9 +368,37 @@
       ]
     },
     {
+      "anchor_id": "2.2.VIII.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Aangifte",
+      "verbose": "De aangifte personenbelasting is het document waarmee de belastingplichtige zijn inkomsten en aftrekbare uitgaven aan de fiscus meldt, hetzij op papier hetzij elektronisch via het online aangifteplatform. Vakken en codes structureren de aangifte volgens inkomstencategorie en gezinssituatie; voorstel van vereenvoudigde aangifte vraagt extra controle.",
+      "synoniemen": [
+        "belastingaangifte",
+        "tax-on-web",
+        "aangifteformulier",
+        "voorstel van vereenvoudigde aangifte",
+        "aangiftecodes",
+        "vakken van de aangifte",
+        "indienen belastingaangifte"
+      ]
+    },
+    {
+      "anchor_id": "2.2.VIII.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Berekening van het belastbaar inkomen",
+      "verbose": "De bepaling van het belastbaar bedrag binnen een specifieke fiscale categorie, met de daarbij horende vrijstellingen, kostenforfaits en eventuele bijzondere regelingen. De berekening vertrekt van het bruto-inkomen en eindigt met de basis voor toepassing van de tarieven.",
+      "synoniemen": [
+        "calculation of taxable amount",
+        "berekening belastbaar inkomen",
+        "taxable basis",
+        "belastbare grondslag",
+        "berekening belastbaar bedrag"
+      ]
+    },
+    {
       "anchor_id": "2.2.IX",
       "anchor_type": "kenniselement",
-      "tekst": "Ontvangen onderhoudsuitkeringen:",
+      "tekst": "Ontvangen onderhoudsuitkeringen",
       "verbose": "Onderhoudsuitkeringen die een belastingplichtige ontvangt van een ex-partner, ouder of kind worden in beginsel als belastbaar inkomen aangemerkt, doorgaans voor een gedeelte van het ontvangen bedrag. Zowel periodieke als kapitaalbedragen vallen onder de regeling, en de fiscale behandeling hangt af van de juridische grondslag van de uitkering.",
       "synoniemen": [
         "ontvangen alimentatie",
@@ -302,6 +407,34 @@
         "uitkering tot levensonderhoud",
         "onderhoudsbijdrage ontvangen",
         "achterstallige onderhoudsuitkering"
+      ]
+    },
+    {
+      "anchor_id": "2.2.IX.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Aangifte",
+      "verbose": "De aangifte personenbelasting is het document waarmee de belastingplichtige zijn inkomsten en aftrekbare uitgaven aan de fiscus meldt, hetzij op papier hetzij elektronisch via het online aangifteplatform. Vakken en codes structureren de aangifte volgens inkomstencategorie en gezinssituatie; voorstel van vereenvoudigde aangifte vraagt extra controle.",
+      "synoniemen": [
+        "belastingaangifte",
+        "tax-on-web",
+        "aangifteformulier",
+        "voorstel van vereenvoudigde aangifte",
+        "aangiftecodes",
+        "vakken van de aangifte",
+        "indienen belastingaangifte"
+      ]
+    },
+    {
+      "anchor_id": "2.2.IX.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Belastbaar bedrag",
+      "verbose": "De grondslag waarop een belasting effectief wordt toegepast, zijnde het inkomen of de waarde na alle wettelijke correcties, vrijstellingen en aftrekken. Het belastbaar bedrag verschilt vaak aanzienlijk van het bruto-inkomen of de marktwaarde.",
+      "synoniemen": [
+        "taxable amount",
+        "belastbare grondslag",
+        "tax base",
+        "belastbare basis",
+        "grondslag van belasting"
       ]
     },
     {
@@ -363,7 +496,7 @@
     {
       "anchor_id": "2.2.XIV",
       "anchor_type": "kenniselement",
-      "tekst": "Inhoudingen aan de bron: aftrekbaarheid en terugbetaalbaarheid XV. Voorafbetalingen",
+      "tekst": "Inhoudingen aan de bron: aftrekbaarheid en terugbetaalbaarheid",
       "verbose": "Bedrijfsvoorheffing op lonen en pensioenen en roerende voorheffing op kapitaalinkomsten worden bij de bron afgehouden en aangerekend op de eindbelasting; te veel ingehouden voorheffing is in beginsel terugbetaalbaar. Zelfstandigen en bedrijfsleiders vermijden een belastingvermeerdering door tijdig voorafbetalingen te storten in vier kwartalen, met afnemende bonificaties.",
       "synoniemen": [
         "bedrijfsvoorheffing",
@@ -373,6 +506,19 @@
         "vermeerdering bij geen voorafbetaling",
         "terugbetaling voorheffing",
         "VA1 VA2 VA3 VA4"
+      ]
+    },
+    {
+      "anchor_id": "2.2.XV",
+      "anchor_type": "kenniselement",
+      "tekst": "Voorafbetalingen",
+      "verbose": "De vrijwillige fiscale stortingen die zelfstandigen, vrije beroepen en vennootschappen doen tijdens het inkomstenjaar om de eindbelasting te vermijden of een belastingvermeerdering te voorkomen. Tijdige voorafbetaling kan rentevoordelen opleveren.",
+      "synoniemen": [
+        "advance tax payments",
+        "voorafbetalingen",
+        "prepayments",
+        "voorlopige stortingen",
+        "fiscale voorafbetalingen"
       ]
     },
     {

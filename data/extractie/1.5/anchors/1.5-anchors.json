@@ -1,13 +1,13 @@
 {
   "po": "1.5",
-  "generated_at": "2026-05-09T20:43:28Z",
-  "model": "claude-opus-4-7",
-  "prompt_version": "anchor-verrijking-v1",
+  "titel": "Beginselen van de Europese wetgeving en internationale boekhoudkundige normen",
+  "generated_at": "2026-05-09T21:45:38+00:00",
+  "source": "data/programma.json",
+  "n_anchors": 44,
   "anchors": [
     {
-      "anchor_id": "1.5.D1.1.taak.1",
+      "anchor_id": "1.5.taak.1",
       "anchor_type": "taak",
-      "taakblok": "1.5.D1.1",
       "tekst": "Opstellen van de individuele en geconsolideerde jaarrekening",
       "verbose": "Het samenstellen van de jaarrekening op zowel statutair niveau (één rechtspersoon) als op groepsniveau, waarbij de financiële posities van moeder- en dochterondernemingen worden geïntegreerd. Dit omvat balans, resultatenrekening, eigenvermogensmutatieoverzicht, kasstroomoverzicht en toelichting volgens de geldende verslaggevingsregels.",
       "synoniemen": [
@@ -20,10 +20,9 @@
       ]
     },
     {
-      "anchor_id": "1.5.D1.1.taak.2",
-      "anchor_type": "taak",
-      "taakblok": "1.5.D1.1",
-      "tekst": "➢ Herstructureren van de balans en de resultatenrekening;",
+      "anchor_id": "1.5.taak.1.a",
+      "anchor_type": "subtaak",
+      "tekst": "Herstructureren van de balans en de resultatenrekening",
       "verbose": "Het analytisch herrangschikken van de balansposten en de winst-en-verliesrekening om economische inzichten zichtbaar te maken die niet rechtstreeks uit het wettelijke schema blijken. Denk aan het scheiden van bedrijfsactiviteit van financieringsstructuur of het opsplitsen van vlottende en vaste bestanddelen volgens looptijd en functie.",
       "synoniemen": [
         "analytische balans opstellen",
@@ -32,13 +31,13 @@
         "managementbalans",
         "balansaanpassingen voor analyse",
         "ratio-georiënteerde herrangschikking"
-      ]
+      ],
+      "parent": "1.5.taak.1"
     },
     {
-      "anchor_id": "1.5.D1.1.taak.3",
-      "anchor_type": "taak",
-      "taakblok": "1.5.D1.1",
-      "tekst": "➢ Identificeren en interpreteren van de balansaggregaten;",
+      "anchor_id": "1.5.taak.1.b",
+      "anchor_type": "subtaak",
+      "tekst": "Identificeren en interpreteren van de balansaggregaten",
       "verbose": "Het herkennen van de grote bouwstenen op de balans — werkkapitaal, behoefte aan bedrijfskapitaal, netto thesaurie, geïnvesteerd kapitaal — en daaraan een economische betekenis toekennen. De accountant gebruikt deze aggregaten om de financiële gezondheid en de evenwichten in de financieringsstructuur te beoordelen.",
       "synoniemen": [
         "werkkapitaalanalyse",
@@ -48,13 +47,13 @@
         "vaste activa-financiering",
         "financiële evenwichten",
         "fonds de roulement"
-      ]
+      ],
+      "parent": "1.5.taak.1"
     },
     {
-      "anchor_id": "1.5.D1.1.taak.4",
-      "anchor_type": "taak",
-      "taakblok": "1.5.D1.1",
-      "tekst": "➢ Berekenen van de elementen die nodig zijn voor een interpretatie van de kasstromen en die interpreteren;",
+      "anchor_id": "1.5.taak.1.c",
+      "anchor_type": "subtaak",
+      "tekst": "Berekenen van de elementen die nodig zijn voor een interpretatie van de kasstromen en die interpreteren",
       "verbose": "Het opbouwen en lezen van het kasstroomoverzicht waarin de geldstromen worden gesplitst in operationele, investerings- en financieringsactiviteiten. De accountant beoordeelt of de onderneming voldoende cash genereert uit haar kernactiviteit om investeringen en financieringslasten te dragen.",
       "synoniemen": [
         "cashflowanalyse",
@@ -64,60 +63,27 @@
         "free cash flow",
         "tableau de financement",
         "liquiditeitsstroom"
-      ]
+      ],
+      "parent": "1.5.taak.1"
     },
     {
-      "anchor_id": "1.5.D1.1.taak.5",
-      "anchor_type": "taak",
-      "taakblok": "1.5.D1.1",
-      "tekst": "➢ Berekenen van de ratio’s en ze interpreteren;",
-      "verbose": "Het berekenen van financiële kengetallen rond rentabiliteit, solvabiliteit, liquiditeit en activiteit, en het kritisch duiden ervan tegen de achtergrond van sector, ondernemingsfase en evolutie in de tijd. Eén ratio op zich zegt weinig; de interpretatie volgt uit vergelijking en samenhang.",
+      "anchor_id": "1.5.taak.1.d",
+      "anchor_type": "subtaak",
+      "tekst": "Berekenen van de ratio's en ze interpreteren",
+      "verbose": "Het afleiden van financiële verhoudingscijfers en deze interpreteren binnen de context van de specifieke onderneming en sector. De interpretatie houdt rekening met cyclus, strategie en boekhoudkeuzes om een onderbouwd oordeel te formuleren.",
       "synoniemen": [
-        "financiële kengetallen",
-        "rentabiliteitsratio",
-        "solvabiliteitsratio",
-        "liquiditeitsratio",
-        "current ratio",
-        "ROE en ROA",
         "ratioanalyse",
-        "kerncijfers"
-      ]
+        "financiële ratio's interpreteren",
+        "kengetallenanalyse",
+        "verhoudingscijfers",
+        "ratio interpretation"
+      ],
+      "parent": "1.5.taak.1"
     },
     {
-      "anchor_id": "1.5.D1.1.doel.1",
-      "anchor_type": "doelstelling",
-      "taakblok": "1.5.D1.1",
-      "tekst": "➢ Een beginsel van boekhoudrecht of een wettelijke bepaling uit Belgische of Europese bron opzoeken, grondig analyseren en toepassen, met inachtneming van internationale normen.",
-      "verbose": "De vaardigheid om in een concrete casus de juiste boekhoudkundige regel te vinden, die te lezen in haar context en correct te vertalen naar een verwerking. Dit vraagt het herkennen van de hiërarchie tussen Belgisch boekhoudrecht, Europese richtlijnen en internationale verslaggevingsregels.",
-      "synoniemen": [
-        "bron raadplegen",
-        "regel opzoeken en toepassen",
-        "boekhoudrechtelijke analyse",
-        "regeltoepassing in casus",
-        "rechtsbron interpreteren",
-        "normhiërarchie hanteren"
-      ]
-    },
-    {
-      "anchor_id": "1.5.D1.1.doel.2",
-      "anchor_type": "doelstelling",
-      "taakblok": "1.5.D1.1",
-      "tekst": "➢ Verifiëren en waarborgen van de conformiteit van de boekhouding en de documenten met de wettelijke en reglementaire vereisten.",
-      "verbose": "Toetsen of de gevoerde boekhouding en de financiële documenten in overeenstemming zijn met de geldende verslaggevingsvereisten. De accountant controleert volledigheid, juistheid en presentatie en signaleert afwijkingen die correctie of toelichting vergen.",
-      "synoniemen": [
-        "compliance-toets",
-        "regelgevingsconformiteit",
-        "naleving boekhoudregels",
-        "controle op verslaggevingsvereisten",
-        "verifiëren van boekhoudkundige conformiteit",
-        "compliance-controle"
-      ]
-    },
-    {
-      "anchor_id": "1.5.D1.1.doel.3",
-      "anchor_type": "doelstelling",
-      "taakblok": "1.5.D1.1",
-      "tekst": "➢ Contextualiseren van de interpretaties naargelang van het bedrijfsdomein en de nationale en internationale context",
+      "anchor_id": "1.5.taak.1.e",
+      "anchor_type": "subtaak",
+      "tekst": "Contextualiseren van de interpretaties naargelang van het bedrijfsdomein en de nationale en internationale context",
       "verbose": "Financiële cijfers krijgen pas betekenis tegen de achtergrond van de sector, het businessmodel en de geografische werking van de onderneming. De accountant past zijn analyse aan op deze context, wetende dat dezelfde ratio of post een andere lading dekt in een industriële groep dan in een dienstverlener of een internationale onderneming.",
       "synoniemen": [
         "sectorcontextualisering",
@@ -126,7 +92,38 @@
         "businessmodel-gevoelige interpretatie",
         "contextuele duiding",
         "vergelijking binnen sector"
-      ]
+      ],
+      "parent": "1.5.taak.1"
+    },
+    {
+      "anchor_id": "1.5.taak.1.doel.1",
+      "anchor_type": "doelstelling",
+      "tekst": "Een beginsel van boekhoudrecht of een wettelijke bepaling uit Belgische of Europese bron opzoeken, grondig analyseren en toepassen, met inachtneming van internationale normen.",
+      "verbose": "De vaardigheid om in een concrete casus de juiste boekhoudkundige regel te vinden, die te lezen in haar context en correct te vertalen naar een verwerking. Dit vraagt het herkennen van de hiërarchie tussen Belgisch boekhoudrecht, Europese richtlijnen en internationale verslaggevingsregels.",
+      "synoniemen": [
+        "bron raadplegen",
+        "regel opzoeken en toepassen",
+        "boekhoudrechtelijke analyse",
+        "regeltoepassing in casus",
+        "rechtsbron interpreteren",
+        "normhiërarchie hanteren"
+      ],
+      "parent": "1.5.taak.1"
+    },
+    {
+      "anchor_id": "1.5.taak.1.doel.2",
+      "anchor_type": "doelstelling",
+      "tekst": "Verifiëren en waarborgen van de conformiteit van de boekhouding en de documenten met de wettelijke en reglementaire vereisten.",
+      "verbose": "Toetsen of de gevoerde boekhouding en de financiële documenten in overeenstemming zijn met de geldende verslaggevingsvereisten. De accountant controleert volledigheid, juistheid en presentatie en signaleert afwijkingen die correctie of toelichting vergen.",
+      "synoniemen": [
+        "compliance-toets",
+        "regelgevingsconformiteit",
+        "naleving boekhoudregels",
+        "controle op verslaggevingsvereisten",
+        "verifiëren van boekhoudkundige conformiteit",
+        "compliance-controle"
+      ],
+      "parent": "1.5.taak.1"
     },
     {
       "anchor_id": "1.5.I",
@@ -185,7 +182,7 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.A",
+      "anchor_id": "1.5.IV.A",
       "anchor_type": "kenniselement",
       "tekst": "Eerste toepassing van IFRS",
       "verbose": "De overgang van een onderneming van het lokale boekhoudrecht naar de internationale verslaggevingsstandaarden, waarbij een openingsbalans wordt opgesteld en alle activa en passiva worden geherwaardeerd volgens de nieuwe regels. Specifieke vrijstellingen en uitzonderingen vergemakkelijken de eerste rapportering.",
@@ -199,35 +196,7 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.A.1",
-      "anchor_type": "kenniselement",
-      "tekst": "Gemeenschappelijke bepalingen voor immateriële en materiële activa",
-      "verbose": "De algemene regels die gelden voor zowel tastbare als ontastbare langetermijnactiva: erkenning bij waarschijnlijk economisch voordeel, eerste waardering tegen kostprijs, vervolgwaardering met afschrijvingen of herwaardering, en de behandeling van bijzondere waardeverminderingen. De principes van componentenbenadering en activeerbare nakomende uitgaven gelden voor beide categorieën.",
-      "synoniemen": [
-        "erkenningscriteria activa",
-        "kostprijsmodel en herwaarderingsmodel",
-        "componentenbenadering",
-        "impairment van activa",
-        "vaste activa-waardering",
-        "duurzame bedrijfsmiddelen"
-      ]
-    },
-    {
-      "anchor_id": "1.5.I.A.2",
-      "anchor_type": "kenniselement",
-      "tekst": "Specifieke elementen in verband met immateriële activa",
-      "verbose": "De aparte behandeling van ontastbare activa zoals ontwikkelingskosten, software, licenties, klantenbestanden en goodwill. Centraal staan het onderscheid tussen onderzoeks- en ontwikkelingsfase, het verbod op activering van interne goodwill en de jaarlijkse impairmenttest voor activa met onbepaalde gebruiksduur.",
-      "synoniemen": [
-        "immateriële vaste activa",
-        "ontwikkelingskosten activeren",
-        "interne goodwill",
-        "intangible assets",
-        "activering software en licenties",
-        "onbepaalde gebruiksduur"
-      ]
-    },
-    {
-      "anchor_id": "1.5.I.B",
+      "anchor_id": "1.5.IV.B",
       "anchor_type": "kenniselement",
       "tekst": "IAS 1 De jaarrekening",
       "verbose": "De internationale standaard die de presentatie van de jaarrekening regelt: welke onderdelen verplicht zijn, hoe ze worden geordend, welke vergelijkende informatie nodig is en welke veronderstellingen — zoals continuïteit en transactionele basis — gelden. Het is de paraplu-standaard waaronder alle andere standaarden hun plaats vinden.",
@@ -241,7 +210,7 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.B.1",
+      "anchor_id": "1.5.IV.B.1",
       "anchor_type": "kenniselement",
       "tekst": "De bestanddelen van de jaarrekening",
       "verbose": "De verplichte componenten van een volledige jaarrekening: een overzicht van de financiële positie, een overzicht van het resultaat en de niet-gerealiseerde resultaten, een mutatieoverzicht van het eigen vermogen, een kasstroomoverzicht en de toelichting met grondslagen en aanvullende informatie.",
@@ -255,7 +224,7 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.B.2",
+      "anchor_id": "1.5.IV.B.2",
       "anchor_type": "kenniselement",
       "tekst": "Identificatie van de jaarrekening",
       "verbose": "De algemene aanduidingen die de jaarrekening duidelijk leesbaar en plaatsbaar maken: naam van de rapporterende entiteit, of het een enkelvoudige dan wel geconsolideerde rapportering betreft, de afsluitdatum, de presentatievaluta en het detailniveau waarin bedragen worden weergegeven.",
@@ -269,7 +238,7 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.B.3",
+      "anchor_id": "1.5.IV.B.3",
       "anchor_type": "kenniselement",
       "tekst": "Verslagperiode",
       "verbose": "De periode waarover de jaarrekening rapporteert, doorgaans twaalf maanden, en de behandeling van langere of kortere boekjaren bij wijziging van afsluitdatum of bij een nieuwe entiteit. Vergelijkende cijfers van de vorige periode worden steeds getoond.",
@@ -283,7 +252,7 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.B.4",
+      "anchor_id": "1.5.IV.B.4",
       "anchor_type": "kenniselement",
       "tekst": "Kwalitatieve kenmerken waaraan de jaarrekening moet voldoen",
       "verbose": "De eigenschappen die financiële informatie nuttig maken voor gebruikers: relevantie en getrouwe weergave als fundamentele kenmerken, en vergelijkbaarheid, verifieerbaarheid, tijdigheid en begrijpelijkheid als versterkende kenmerken. Beperkingen zijn materialiteit en de afweging tussen kosten en baten.",
@@ -298,7 +267,7 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.B.5",
+      "anchor_id": "1.5.IV.B.5",
       "anchor_type": "kenniselement",
       "tekst": "De balans",
       "verbose": "Het overzicht van de financiële positie op een welbepaald moment: activa, verplichtingen en eigen vermogen. De indeling gebeurt typisch volgens het onderscheid tussen vlottend en vast, met aparte presentatie van uitgestelde belastingen en activa aangehouden voor verkoop.",
@@ -312,7 +281,7 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.B.6",
+      "anchor_id": "1.5.IV.B.6",
       "anchor_type": "kenniselement",
       "tekst": "De resultatenrekening",
       "verbose": "Het overzicht van opbrengsten en kosten over de verslagperiode dat resulteert in winst of verlies, eventueel aangevuld met de niet-gerealiseerde resultaten in een gecombineerd overzicht. Kosten kunnen worden gepresenteerd naar aard of naar functie, met een uitsplitsing tussen voortgezette en beëindigde activiteiten.",
@@ -327,7 +296,7 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.B.7",
+      "anchor_id": "1.5.IV.B.7",
       "anchor_type": "kenniselement",
       "tekst": "Wijzigingen in het eigen vermogen",
       "verbose": "Het overzicht dat de bewegingen in het eigen vermogen toont over de periode: resultaat, transacties met aandeelhouders zoals dividenden en kapitaalverhogingen, en de evolutie van reserves zoals herwaarderings- en omrekeningsreserves. Het verbindt het slotsaldo met het beginsaldo per categorie eigen vermogen.",
@@ -341,7 +310,20 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.B.9",
+      "anchor_id": "1.5.IV.B.8",
+      "anchor_type": "kenniselement",
+      "tekst": "Kasstroomtabel",
+      "verbose": "Een overzicht van de geldstromen van een onderneming gedurende de periode, gesplitst in operationele, investerings- en financieringsactiviteiten. Het toont hoe de cash effectief is bewogen, los van boekhoudkundige resultaten zoals afschrijvingen.",
+      "synoniemen": [
+        "cash flow statement",
+        "kasstroomoverzicht",
+        "geldstromenoverzicht",
+        "cashflowoverzicht",
+        "tableau des flux de trésorerie"
+      ]
+    },
+    {
+      "anchor_id": "1.5.IV.B.9",
       "anchor_type": "kenniselement",
       "tekst": "In de toelichting te verstrekken informatie",
       "verbose": "De aanvullende kwalitatieve en kwantitatieve informatie die de cijfers in de balans en resultatenrekening verduidelijkt: gehanteerde grondslagen, schattingen en oordelen, uitsplitsingen, gebeurtenissen na balansdatum en risico-informatie. De toelichting maakt integraal deel uit van de jaarrekening.",
@@ -355,63 +337,7 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.B.1.gebruiksduur",
-      "anchor_type": "kenniselement",
-      "tekst": "Gebruiksduur",
-      "verbose": "De periode waarover een actief naar verwachting economische voordelen oplevert aan de onderneming, of de eenheden die het zal voortbrengen. De gebruiksduur kan korter zijn dan de fysieke levensduur en wordt bepaald door slijtage, technologische veroudering, contractuele beperkingen en het beoogde gebruik.",
-      "synoniemen": [
-        "useful life",
-        "economische levensduur",
-        "afschrijvingstermijn",
-        "verwachte gebruiksperiode",
-        "productiecapaciteit als duur",
-        "duur van economisch nut"
-      ]
-    },
-    {
-      "anchor_id": "1.5.I.B.2.afschrijvingswijze",
-      "anchor_type": "kenniselement",
-      "tekst": "Afschrijvingswijze",
-      "verbose": "De methode die de af te schrijven waarde van een actief over zijn gebruiksduur spreidt: lineair, degressief of op basis van productie-eenheden. De gekozen methode moet het patroon weerspiegelen waarmee de economische voordelen worden verbruikt en wordt periodiek getoetst aan de werkelijkheid.",
-      "synoniemen": [
-        "afschrijvingsmethode",
-        "lineaire afschrijving",
-        "degressieve afschrijving",
-        "units of production",
-        "depreciation method",
-        "verbruikspatroon van economische voordelen"
-      ]
-    },
-    {
-      "anchor_id": "1.5.I.B.3.restwaarde",
-      "anchor_type": "kenniselement",
-      "tekst": "Restwaarde",
-      "verbose": "Het bedrag dat een onderneming naar verwachting bij realisatie van een actief op het einde van zijn gebruiksduur zou ontvangen, na aftrek van de geschatte buitengebruikstellingskosten. De restwaarde wordt op de af te schrijven basis in mindering gebracht en periodiek herzien.",
-      "synoniemen": [
-        "residuwaarde",
-        "residual value",
-        "verwachte realisatiewaarde einde gebruiksduur",
-        "schroot- of restopbrengst",
-        "depreciable amount minus residual",
-        "salvage value"
-      ]
-    },
-    {
-      "anchor_id": "1.5.I.B.4.herziening",
-      "anchor_type": "kenniselement",
-      "tekst": "Herziening van de afschrijvingsperiode en -methode",
-      "verbose": "De jaarlijkse toetsing of de oorspronkelijk gehanteerde gebruiksduur, restwaarde en afschrijvingsmethode nog steeds aansluiten bij de werkelijke economische situatie. Wijzigingen worden behandeld als schattingswijzigingen en prospectief verwerkt, zonder herziening van vorige boekjaren.",
-      "synoniemen": [
-        "schattingswijziging",
-        "review of useful life",
-        "prospectieve aanpassing",
-        "change in accounting estimate",
-        "herziening afschrijvingsmethode",
-        "jaarlijkse evaluatie afschrijving"
-      ]
-    },
-    {
-      "anchor_id": "1.5.I.C",
+      "anchor_id": "1.5.IV.C",
       "anchor_type": "kenniselement",
       "tekst": "Afwijkingen ten opzichte van de Belgische wetgeving",
       "verbose": "De punten waarop de internationale verslaggeving inhoudelijk verschilt van het Belgische boekhoudrecht: andere waarderingsmodellen, ruimer gebruik van reële waarde, andere behandeling van leasing, herwaarderingsreserves en uitgestelde belastingen. Deze verschillen verklaren waarom een onderneming twee verschillende jaarrekeningen kan presenteren.",
@@ -422,49 +348,6 @@
         "andere waarderingsregels",
         "afwijkende behandeling onder IFRS",
         "Belgische versus internationale rapportering"
-      ]
-    },
-    {
-      "anchor_id": "1.5.I.C.1",
-      "anchor_type": "kenniselement",
-      "tekst": "Verschillen tussen ‘financiële leasing’ en ‘operationele leasing’",
-      "verbose": "Het onderscheid tussen leasingovereenkomsten waarbij de risico's en voordelen van het eigendom in essentie aan de huurder overgaan en huur die louter het tijdelijke gebruiksrecht regelt. Onder de internationale standaarden boekt de huurder voor leases vaak een gebruiksrecht en een leaseverplichting, terwijl het Belgische boekhoudrecht meer gewicht legt op de juridische vorm.",
-      "synoniemen": [
-        "finance lease versus operating lease",
-        "leasingclassificatie",
-        "right-of-use asset",
-        "leaseverplichting",
-        "IFRS 16 leases",
-        "huur versus leasing",
-        "risico's en voordelen van eigendom"
-      ]
-    },
-    {
-      "anchor_id": "1.5.I.C.2",
-      "anchor_type": "kenniselement",
-      "tekst": "Boekhouding door lessee en lessor",
-      "verbose": "De spiegelbeeldige verwerking bij huurder en verhuurder van een leaseovereenkomst. De huurder erkent doorgaans een gebruiksrecht-actief en een schuld; de verhuurder boekt naargelang de classificatie ofwel een vordering bij financiële lease, ofwel houdt hij het actief op zijn balans bij operationele lease en boekt huuropbrengst.",
-      "synoniemen": [
-        "lessee accounting",
-        "lessor accounting",
-        "verhuurder boekhoudkundige verwerking",
-        "huurder verwerking lease",
-        "lease ontvanger en gever",
-        "financiële vordering uit lease"
-      ]
-    },
-    {
-      "anchor_id": "1.5.I.C.3",
-      "anchor_type": "kenniselement",
-      "tekst": "Overdracht van de eigendom van het goed aan het einde van de leaseperiode",
-      "verbose": "De afspraak in een leasecontract over wat met het goed gebeurt na afloop: automatische eigendomsoverdracht, een aankoopoptie tegen een laag bedrag of teruggave aan de verhuurder. Deze clausule speelt een sleutelrol in de classificatie van de leasing en in de bepaling van de afschrijvingstermijn van het gebruiksrecht.",
-      "synoniemen": [
-        "aankoopoptie einde lease",
-        "bargain purchase option",
-        "eigendomsoverdracht na lease",
-        "restwaardegarantie",
-        "transfer of ownership clause",
-        "einde-leaseregeling"
       ]
     },
     {
@@ -482,7 +365,171 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.D",
+      "anchor_id": "1.5.V.A",
+      "anchor_type": "kenniselement",
+      "tekst": "IAS 16 en IAS 38 Materiële vaste activa en immateriële activa",
+      "verbose": "De internationale standaarden voor de boeking en waardering van fysieke duurzame activa zoals gebouwen en machines, en van niet-fysieke duurzame activa zoals software en licenties. Deze standaarden bepalen onder meer hoe afschrijving, herwaardering en bijzondere waardeverminderingen verlopen.",
+      "synoniemen": [
+        "property plant and equipment",
+        "intangible assets standard",
+        "MVA en IVA-standaard",
+        "tangible and intangible assets",
+        "vaste activa onder IFRS"
+      ]
+    },
+    {
+      "anchor_id": "1.5.V.A.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Gemeenschappelijke bepalingen voor immateriële en materiële activa",
+      "verbose": "De algemene regels die gelden voor zowel tastbare als ontastbare langetermijnactiva: erkenning bij waarschijnlijk economisch voordeel, eerste waardering tegen kostprijs, vervolgwaardering met afschrijvingen of herwaardering, en de behandeling van bijzondere waardeverminderingen. De principes van componentenbenadering en activeerbare nakomende uitgaven gelden voor beide categorieën.",
+      "synoniemen": [
+        "erkenningscriteria activa",
+        "kostprijsmodel en herwaarderingsmodel",
+        "componentenbenadering",
+        "impairment van activa",
+        "vaste activa-waardering",
+        "duurzame bedrijfsmiddelen"
+      ]
+    },
+    {
+      "anchor_id": "1.5.V.A.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Specifieke elementen in verband met immateriële activa",
+      "verbose": "De aparte behandeling van ontastbare activa zoals ontwikkelingskosten, software, licenties, klantenbestanden en goodwill. Centraal staan het onderscheid tussen onderzoeks- en ontwikkelingsfase, het verbod op activering van interne goodwill en de jaarlijkse impairmenttest voor activa met onbepaalde gebruiksduur.",
+      "synoniemen": [
+        "immateriële vaste activa",
+        "ontwikkelingskosten activeren",
+        "interne goodwill",
+        "intangible assets",
+        "activering software en licenties",
+        "onbepaalde gebruiksduur"
+      ]
+    },
+    {
+      "anchor_id": "1.5.V.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Afschrijvingen volgens de normen",
+      "verbose": "De spreiding van de waarde van een actief over zijn economische levensduur volgens internationale verslaggevingsstandaarden, met aandacht voor componentenbenadering, restwaarde en periodieke heroverweging van afschrijvingsplan en methode.",
+      "synoniemen": [
+        "depreciation under IFRS",
+        "afschrijving volgens internationale standaarden",
+        "amortisatiemodel",
+        "componentenafschrijving",
+        "afschrijvingsbeleid"
+      ]
+    },
+    {
+      "anchor_id": "1.5.V.B.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Gebruiksduur",
+      "verbose": "De periode waarover een actief naar verwachting economische voordelen oplevert aan de onderneming, of de eenheden die het zal voortbrengen. De gebruiksduur kan korter zijn dan de fysieke levensduur en wordt bepaald door slijtage, technologische veroudering, contractuele beperkingen en het beoogde gebruik.",
+      "synoniemen": [
+        "useful life",
+        "economische levensduur",
+        "afschrijvingstermijn",
+        "verwachte gebruiksperiode",
+        "productiecapaciteit als duur",
+        "duur van economisch nut"
+      ]
+    },
+    {
+      "anchor_id": "1.5.V.B.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Afschrijvingswijze",
+      "verbose": "De methode die de af te schrijven waarde van een actief over zijn gebruiksduur spreidt: lineair, degressief of op basis van productie-eenheden. De gekozen methode moet het patroon weerspiegelen waarmee de economische voordelen worden verbruikt en wordt periodiek getoetst aan de werkelijkheid.",
+      "synoniemen": [
+        "afschrijvingsmethode",
+        "lineaire afschrijving",
+        "degressieve afschrijving",
+        "units of production",
+        "depreciation method",
+        "verbruikspatroon van economische voordelen"
+      ]
+    },
+    {
+      "anchor_id": "1.5.V.B.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Restwaarde",
+      "verbose": "Het bedrag dat een onderneming naar verwachting bij realisatie van een actief op het einde van zijn gebruiksduur zou ontvangen, na aftrek van de geschatte buitengebruikstellingskosten. De restwaarde wordt op de af te schrijven basis in mindering gebracht en periodiek herzien.",
+      "synoniemen": [
+        "residuwaarde",
+        "residual value",
+        "verwachte realisatiewaarde einde gebruiksduur",
+        "schroot- of restopbrengst",
+        "depreciable amount minus residual",
+        "salvage value"
+      ]
+    },
+    {
+      "anchor_id": "1.5.V.B.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Herziening van de afschrijvingsperiode en -methode",
+      "verbose": "De jaarlijkse toetsing of de oorspronkelijk gehanteerde gebruiksduur, restwaarde en afschrijvingsmethode nog steeds aansluiten bij de werkelijke economische situatie. Wijzigingen worden behandeld als schattingswijzigingen en prospectief verwerkt, zonder herziening van vorige boekjaren.",
+      "synoniemen": [
+        "schattingswijziging",
+        "review of useful life",
+        "prospectieve aanpassing",
+        "change in accounting estimate",
+        "herziening afschrijvingsmethode",
+        "jaarlijkse evaluatie afschrijving"
+      ]
+    },
+    {
+      "anchor_id": "1.5.V.C",
+      "anchor_type": "kenniselement",
+      "tekst": "IAS 17: Boekhoudkundige verwerking van leaseovereenkomsten",
+      "verbose": "De internationale standaard die regelt hoe een leasenemer en leasegever leaseovereenkomsten in de jaarrekening verwerken. Het onderscheid tussen financiële en operationele leasing bepaalt of het actief en de bijhorende verplichting op de balans verschijnen.",
+      "synoniemen": [
+        "lease accounting",
+        "boekhoudkundige verwerking leasing",
+        "lease standard",
+        "leasecontracten boeken",
+        "leasingverwerking"
+      ]
+    },
+    {
+      "anchor_id": "1.5.V.C.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Verschillen tussen 'financiële leasing' en 'operationele leasing'",
+      "verbose": "Het onderscheid tussen leasing waarbij de risico's en voordelen van eigendom in hoofdzaak overgaan op de leasenemer (financieel) en leasing waarbij de leasegever die risico's behoudt (operationeel). De kwalificatie bepaalt de balansimpact en de spreiding van kosten.",
+      "synoniemen": [
+        "finance vs operating lease",
+        "financiële lease",
+        "operationele lease",
+        "lease classification",
+        "leaseclassificatie"
+      ]
+    },
+    {
+      "anchor_id": "1.5.V.C.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Boekhouding door lessee en lessor",
+      "verbose": "De spiegelbeeldige verwerking bij huurder en verhuurder van een leaseovereenkomst. De huurder erkent doorgaans een gebruiksrecht-actief en een schuld; de verhuurder boekt naargelang de classificatie ofwel een vordering bij financiële lease, ofwel houdt hij het actief op zijn balans bij operationele lease en boekt huuropbrengst.",
+      "synoniemen": [
+        "lessee accounting",
+        "lessor accounting",
+        "verhuurder boekhoudkundige verwerking",
+        "huurder verwerking lease",
+        "lease ontvanger en gever",
+        "financiële vordering uit lease"
+      ]
+    },
+    {
+      "anchor_id": "1.5.V.C.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Overdracht van de eigendom van het goed aan het einde van de leaseperiode",
+      "verbose": "De afspraak in een leasecontract over wat met het goed gebeurt na afloop: automatische eigendomsoverdracht, een aankoopoptie tegen een laag bedrag of teruggave aan de verhuurder. Deze clausule speelt een sleutelrol in de classificatie van de leasing en in de bepaling van de afschrijvingstermijn van het gebruiksrecht.",
+      "synoniemen": [
+        "aankoopoptie einde lease",
+        "bargain purchase option",
+        "eigendomsoverdracht na lease",
+        "restwaardegarantie",
+        "transfer of ownership clause",
+        "einde-leaseregeling"
+      ]
+    },
+    {
+      "anchor_id": "1.5.V.D",
       "anchor_type": "kenniselement",
       "tekst": "IAS 18: Opbrengsten uit gewone activiteiten",
       "verbose": "De standaard die regelt wanneer en voor welk bedrag opbrengsten worden geboekt uit verkoop van goederen, dienstverlening en gebruik van activa door derden zoals interest, royalties en dividenden. Centraal staan de overgang van risico's en voordelen, de meetbaarheid van het bedrag en de waarschijnlijkheid van inning.",
@@ -496,7 +543,7 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.D.1",
+      "anchor_id": "1.5.V.D.1",
       "anchor_type": "kenniselement",
       "tekst": "Definities van opbrengsten en opbrengsten uit gewone activiteiten",
       "verbose": "Het begripsmatige onderscheid tussen alle vermogensvermeerderingen die niet voortvloeien uit transacties met aandeelhouders enerzijds, en de subset daarvan die voortkomt uit de gewone bedrijfsactiviteit anderzijds. Niet elke baat is een opbrengst uit gewone activiteit; eenmalige meerwaarden bijvoorbeeld vallen er typisch niet onder.",
@@ -510,7 +557,7 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.D.2",
+      "anchor_id": "1.5.V.D.2",
       "anchor_type": "kenniselement",
       "tekst": "Boeking van opbrengsten",
       "verbose": "Het tijdstip en bedrag waarvoor een verkoop of dienst als opbrengst in de resultatenrekening verschijnt. Voor goederen geldt typisch het moment van overgang van risico's en voordelen; voor diensten de mate van voltooiing; voor langlopende projecten een methode op basis van voortgang in plaats van enkel oplevering.",
@@ -524,21 +571,21 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.D.3",
+      "anchor_id": "1.5.V.D.3",
       "anchor_type": "kenniselement",
-      "tekst": "In de toelichting te verstrekken informatie (IAS 18)",
-      "verbose": "De toelichting bij opbrengsten geeft inzicht in de gehanteerde grondslagen, het bedrag aan opbrengsten per categorie zoals verkopen, diensten, interest en royalties, en eventuele ruilen van goederen of diensten. Zo kan de gebruiker de samenstelling van de omzet doorgronden.",
+      "tekst": "In de toelichting te verstrekken informatie",
+      "verbose": "De aanvullende kwalitatieve en kwantitatieve informatie die de cijfers in de balans en resultatenrekening verduidelijkt: gehanteerde grondslagen, schattingen en oordelen, uitsplitsingen, gebeurtenissen na balansdatum en risico-informatie. De toelichting maakt integraal deel uit van de jaarrekening.",
       "synoniemen": [
-        "disclosures on revenue",
-        "toelichting opbrengstgrondslagen",
-        "uitsplitsing omzet",
-        "revenue breakdown in notes",
-        "categorieën van opbrengsten",
-        "toelichting verkopen en diensten"
+        "notes to the financial statements",
+        "toelichting bij jaarrekening",
+        "grondslagen voor financiële verslaggeving",
+        "disclosures",
+        "schattingen en oordelen",
+        "gebeurtenissen na balansdatum"
       ]
     },
     {
-      "anchor_id": "1.5.I.E",
+      "anchor_id": "1.5.V.E",
       "anchor_type": "kenniselement",
       "tekst": "IAS 2 en IAS 11: voorraden en onderhanden projecten in opdracht van derden",
       "verbose": "De standaarden voor de waardering van voorraden — grondstoffen, goederen in bewerking, gereed product en handelsgoederen — en voor langlopende projecten in opdracht van klanten zoals bouw- of infrastructuurwerken. Voorraden worden gewaardeerd tegen de laagste van kostprijs of opbrengstwaarde; projecten in opdracht volgen de voortgangsmethode.",
@@ -553,7 +600,7 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.E.1",
+      "anchor_id": "1.5.V.E.1",
       "anchor_type": "kenniselement",
       "tekst": "Waardering en boeking van voorraden",
       "verbose": "Voorraden worden gewaardeerd tegen kostprijs — inclusief aankoopprijs, bewerkingskosten en alle kosten om de voorraad op zijn huidige plaats en in zijn huidige toestand te brengen — of tegen de lagere netto-opbrengstwaarde indien deze daalt. Bij gelijksoortige goederen worden methoden zoals FIFO of gewogen gemiddelde gehanteerd.",
@@ -568,7 +615,7 @@
       ]
     },
     {
-      "anchor_id": "1.5.I.E.2",
+      "anchor_id": "1.5.V.E.2",
       "anchor_type": "kenniselement",
       "tekst": "Waardering en erkenning van onderhanden projecten in opdracht van derden",
       "verbose": "Bij langlopende contracten worden opbrengsten en kosten verspreid erkend naargelang de voortgang van het werk, zodat het resultaat van het project zichtbaar wordt in de boekjaren waarin de prestatie wordt geleverd. Verwachte verliezen op het volledige contract worden onmiddellijk in resultaat genomen.",
