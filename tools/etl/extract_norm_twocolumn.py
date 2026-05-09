@@ -78,6 +78,32 @@ KNOWN_PDFS: dict[str, dict] = {
         "pdf": ROOT / "resources" / "raw" / "normen" / "procedurereglement-AWW-art118.pdf",
         "type": "nl-singlecol",
     },
+    # DOCX-bronnen (BeExcellent-export): geleverd als Word-document.
+    "ITAA-norm-algemene-controlenorm.md": {
+        "pdf": ROOT / "resources" / "raw" / "normen" / "itaa-norm-algemene-controlenorm.docx",
+        "type": "nl-docx",
+    },
+    "ITAA-norm-kmo-controlenorm.md": {
+        "pdf": ROOT / "resources" / "raw" / "normen" / "itaa-norm-kmo-controlenorm.docx",
+        "type": "nl-docx",
+    },
+    # Nieuwe NL-only PDFs uit BeExcellent.
+    "ITAA-norm-domiciliering.md": {
+        "pdf": ROOT / "resources" / "raw" / "normen" / "itaa-norm-domiciliering.pdf",
+        "type": "nl-singlecol",
+    },
+    "ITAA-norm-permanente-vorming.md": {
+        "pdf": ROOT / "resources" / "raw" / "normen" / "itaa-norm-permanente-vorming.pdf",
+        "type": "nl-singlecol",
+    },
+    "ITAA-norm-omzetting-vennootschap.md": {
+        "pdf": ROOT / "resources" / "raw" / "normen" / "itaa-norm-omzetting-vennootschap.pdf",
+        "type": "nl-singlecol",
+    },
+    "ITAA-norm-aww-reglement.md": {
+        "pdf": ROOT / "resources" / "raw" / "normen" / "itaa-norm-aww-reglement.pdf",
+        "type": "nl-singlecol",
+    },
 }  # Uitbreiding mogelijk: voeg hier andere twee-kolom PDFs toe met hun type-config
 
 NORMEN_DIR = ROOT / "resources" / "bronnen" / "normen"

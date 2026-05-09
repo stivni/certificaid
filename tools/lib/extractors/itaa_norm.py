@@ -22,6 +22,7 @@ worden — zo werken bestaande items zonder cfg-aanpassing.
 """
 from __future__ import annotations
 
+import re
 import subprocess
 from pathlib import Path
 
@@ -73,7 +74,7 @@ def _resolve_column_split(cfg: dict, source_name: str) -> int | None:
     return None
 
 
-_KNOWN_LAYOUT_TYPES = {"nl-singlecol", "bilingual", "vereisten"}
+_KNOWN_LAYOUT_TYPES = {"nl-singlecol", "bilingual", "vereisten", "nl-docx"}
 
 
 def _resolve_type(cfg: dict, source_name: str) -> str | None:
@@ -96,6 +97,50 @@ def _resolve_type(cfg: dict, source_name: str) -> str | None:
         return str(cfg_type)
 
     return None
+
+
+def _extract_docx_body(docx_path: Path) -> str:
+    """Lees alle paragrafen uit een DOCX en lever plain-text body.
+
+    We gebruiken python-docx om elke paragraaf op te halen. Style-namen
+    die eruit zien als heading (``Heading 1``, ``Heading 2``, ``Kop 1``,
+    ``Titel``, …) krijgen een markdown-prefix zodat ``inject_norm_headings``
+    de structuur verder kan oppakken. Lege paragrafen worden bewaard als
+    paragraaf-scheider.
+    """
+    try:
+        import docx  # type: ignore  # python-docx
+    except ImportError as e:  # pragma: no cover
+        raise RuntimeError(
+            "python-docx ontbreekt — installeer met `pip install python-docx`"
+        ) from e
+
+    doc = docx.Document(str(docx_path))
+    out_lines: list[str] = []
+    for para in doc.paragraphs:
+        text = (para.text or "").strip()
+        style_name = (para.style.name or "").lower() if para.style is not None else ""
+        if not text:
+            out_lines.append("")
+            continue
+        # Heading-styles → markdown heading-prefix
+        if style_name.startswith("heading ") or style_name.startswith("kop "):
+            # Probeer het niveau (1..6) te bepalen
+            tail = style_name.split(" ", 1)[1] if " " in style_name else ""
+            try:
+                lvl = max(1, min(6, int(tail.strip())))
+            except (ValueError, AttributeError):
+                lvl = 2
+            out_lines.append(f"{'#' * lvl} {text}")
+        elif style_name in {"title", "titel"}:
+            out_lines.append(f"# {text}")
+        else:
+            out_lines.append(text)
+
+    body = "\n".join(out_lines)
+    # Comprimeer 3+ blanco regels naar dubbele blanco
+    body = re.sub(r"\n{3,}", "\n\n", body)
+    return body.strip()
 
 
 def extract(cfg: dict, source_name: str) -> str:
@@ -132,6 +177,11 @@ def extract(cfg: dict, source_name: str) -> str:
             text=True,
             check=True,
         ).stdout
+    elif type_hint == "nl-docx":
+        # NL-only DOCX: gebruik python-docx voor paragraph-extractie.
+        # Levert plain text op, daarna lopen fix_norm_artefacts en
+        # inject_norm_headings er nog over voor heading-promotie.
+        body = _extract_docx_body(pdf_path)
     else:
         column_split = _resolve_column_split(cfg, source_name)
         # 1. NL-kolom uit twee-kolom PDF
