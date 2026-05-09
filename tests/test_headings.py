@@ -169,6 +169,57 @@ def test_inject_headings_merge_combineert_deel_en_boek():
     assert "DEEL I. Algemeen - BOEK 1. Inleiding" in new_body
 
 
+def test_inject_headings_merge_herhaalt_deel_voor_alle_boeken():
+    """Alle BOEKs binnen een DEEL krijgen het DEEL-prefix, niet alleen de eerste."""
+    body = (
+        "# Wet X\n\n"
+        "DEEL I. Eerste deel\n\n"
+        "BOEK 1. Eerste boek\n\n"
+        "Art. 1. art1.\n\n"
+        "BOEK 2. Tweede boek\n\n"
+        "Art. 2. art2.\n\n"
+        "BOEK 3. Derde boek\n\n"
+        "Art. 3. art3.\n\n"
+        "DEEL II. Tweede deel\n\n"
+        "BOEK 4. Vierde boek\n\n"
+        "Art. 4. art4.\n"
+    )
+    ranks = ["BOEK", "TITEL", "HOOFDSTUK", "AFDELING", "Art."]
+    merge_parent = {"BOEK": "DEEL"}
+    level_map = build_level_map(ranks, merge_parent)
+    new_body, _ = inject_headings(body, level_map, merge_parent)
+    # Alle 3 BOEKs binnen DEEL I krijgen DEEL I-prefix
+    assert "DEEL I. Eerste deel - BOEK 1. Eerste boek" in new_body
+    assert "DEEL I. Eerste deel - BOEK 2. Tweede boek" in new_body
+    assert "DEEL I. Eerste deel - BOEK 3. Derde boek" in new_body
+    # BOEK 4 binnen DEEL II krijgt DEEL II-prefix
+    assert "DEEL II. Tweede deel - BOEK 4. Vierde boek" in new_body
+    # Geen standalone BOEK-headings (zonder DEEL-prefix)
+    assert "## BOEK 2." not in new_body
+    assert "## BOEK 3." not in new_body
+    assert "## BOEK 4." not in new_body
+
+
+def test_inject_headings_geen_context_geen_prefix():
+    """Als BOEK voor DEEL komt (geen context), blijft het standalone."""
+    body = (
+        "# Wet X\n\n"
+        "BOEK 1. Eerste boek zonder DEEL ervoor\n\n"
+        "Art. 1. art1.\n\n"
+        "DEEL I. Eerste deel\n\n"
+        "BOEK 2. Met DEEL\n\n"
+        "Art. 2. art2.\n"
+    )
+    ranks = ["BOEK", "TITEL", "HOOFDSTUK", "AFDELING", "Art."]
+    merge_parent = {"BOEK": "DEEL"}
+    level_map = build_level_map(ranks, merge_parent)
+    new_body, _ = inject_headings(body, level_map, merge_parent)
+    # BOEK 1: standalone (geen voorafgaande DEEL)
+    assert "## BOEK 1. Eerste boek zonder DEEL ervoor" in new_body
+    # BOEK 2: met DEEL-prefix
+    assert "DEEL I. Eerste deel - BOEK 2. Met DEEL" in new_body
+
+
 # ─── Frontmatter ────────────────────────────────────────────────────────────
 
 def test_update_frontmatter_chunk_voegt_blok_toe():

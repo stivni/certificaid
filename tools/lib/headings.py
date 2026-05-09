@@ -262,8 +262,18 @@ def inject_headings(
     n_conversies = 0
 
     # pending_merge: {absorbing_label → absorbed_heading_text}
-    # bv. {BOEK: "DEEL I. Vennootschapsrecht."} → volgende BOEK krijgt prefix
+    # Eenmalige consumption-tracking: helpt te bepalen of een absorbed-label
+    # standalone moet worden geflushed als er geen absorbing volgt. Wordt bij de
+    # eerste matching absorbing-emit gepopt.
+    # bv. {BOEK: "DEEL I. Vennootschapsrecht."} → flusht standalone als geen BOEK volgt.
     pending_merge: dict[str, str] = {}
+
+    # merge_context: {absorbing_label → laatste absorbed_heading_text}
+    # Persistente context — herhaalt het absorbed-prefix voor ELKE absorbing
+    # binnen die scope (bv. DEEL I → BOEK 1, BOEK 2, BOEK 3 krijgen allemaal
+    # "DEEL I -" prefix tot een nieuwe DEEL het overschrijft). Lezers verwachten
+    # de DEEL-context bij elk BOEK te zien, niet alleen het eerste.
+    merge_context: dict[str, str] = {}
 
     # Inverse van merge_parent voor snelle lookup
     # {absorbed_label → absorbing_label}
@@ -308,9 +318,11 @@ def inject_headings(
 
             if label in absorbed_to_absorbing:
                 # Absorbed label (bv. DEEL): flush eerder pending (zelfde absorbing),
-                # dan opslaan als pending context voor de absorbing label
+                # dan opslaan als pending én als persistente context voor herhaling.
                 absorbing = absorbed_to_absorbing[label]
-                # Flush reeds-pending voor dezelfde absorbing (nieuwe sectie)
+                # Flush reeds-pending voor dezelfde absorbing (nieuwe sectie waarvan
+                # de vorige absorbed nog niet door een absorbing was geconsumeerd —
+                # zeldzaam, maar voorkomt verlies van inhoud)
                 if absorbing in pending_merge:
                     old_text = pending_merge.pop(absorbing)
                     lvl = level_map.get(absorbing, 2)
@@ -318,8 +330,9 @@ def inject_headings(
                     n_conversies += 1
                 # Flush pending voor andere absorbing labels (structuurwijziging)
                 flush_pending(exclude_absorbing=absorbing)
-                # Sla op als pending
+                # Sla op: pending voor consumption-tracking + context voor herhaling
                 pending_merge[absorbing] = plain
+                merge_context[absorbing] = plain
                 n_conversies += 1
                 continue
 
@@ -345,13 +358,18 @@ def inject_headings(
                 level = level_map[label]
                 prefix = "#" * level
 
-                if label in merge_parent and label in pending_merge:
-                    # Absorbing label met pending absorbed: combineer
-                    absorbed_text = pending_merge.pop(label)
-                    heading_line = f"{prefix} {absorbed_text} - {plain}"
-                elif label in merge_parent:
-                    # Absorbing label zonder pending: standalone
-                    heading_line = f"{prefix} {plain}"
+                if label in merge_parent:
+                    # Absorbing label: pop pending (consumption-tracking voorkomt
+                    # dat de absorbed nog standalone wordt geflushed), maar gebruik
+                    # de PERSISTENTE merge_context voor de prefix-herhaling.
+                    if label in pending_merge:
+                        pending_merge.pop(label)
+                    prefix_text = merge_context.get(label)
+                    if prefix_text:
+                        heading_line = f"{prefix} {prefix_text} - {plain}"
+                    else:
+                        # Geen context bekend → standalone (bv. BOEK zonder DEEL ervoor)
+                        heading_line = f"{prefix} {plain}"
                 else:
                     heading_line = f"{prefix} {plain}"
 
