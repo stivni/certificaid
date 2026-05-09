@@ -1,7 +1,7 @@
 # ADR-006: RAG-strategie
 
 **Status**: Draft
-**Datum**: 2026-05-07
+**Datum**: 2026-05-07 (gewijzigd 2026-05-09: §4 frontmatter-driven chunking + per-wet hiërarchie-detectie)
 **Vervangt**: archive/ADR-001 (embedding model), ADR-002 (chunk-strategie), ADR-003 (reranking), ADR-005 (query-strategie), ADR-010 (ChromaDB)
 
 ## Context
@@ -45,15 +45,71 @@ Als chunk-strategie verandert (bv. splitting-config gewijzigd): full rebuild nod
 
 ### 4. Chunking — bronnen-RAG
 
-| Brontype | Eenheid | Buurchunks |
-|---|---|---|
-| Wettekst | per artikel (`## Art. X` is gezagsbron) | ±2 artikelen |
-| CBN-advies (≤40K chars) | per advies (één chunk) | geen |
-| CBN-advies (>40K chars) | per `##`-sectie | geen |
-| ITAA-norm | per `##`-sectie | ±1 |
-| Praktijkgids | heading-fallback (`split_generic_headings`) | geen (TODO bron-specifiek) |
+**Frontmatter-driven**: chunk-keuzes leven in frontmatter, niet in code. Per bron:
 
-**Hard max chunk-grootte**: 24.000 chars (~6.000 tokens, bge-m3-marge). Boven die grens: split op alinea-grenzen, identieke `path` en breadcrumb, suffix `__partN` op `id`.
+```yaml
+chunk:
+  level: 5            # MD-heading-niveau waarop chunk-grens ligt
+  type: "Art."        # filter op heading-type; null = alle headings op dat niveau
+  sub_strategy: null  # toekomstige opt-in: "per_definitieblok"
+```
+
+De chunker is **data-driven** (leest frontmatter), niet **convention-driven** (hardcoded per bron-rol). Heterogene wetten met verschillende structurele dieptes werken zonder per-wet codepad.
+
+| Brontype | Eenheid | `chunk.level` | `chunk.type` |
+|---|---|---|---|
+| Wettekst | per artikel | dynamisch per wet (zie §4.1) | `Art.` of `Par.` |
+| CBN-advies (≤40K chars) | hele advies | n/a (één chunk) | n/a |
+| CBN-advies (>40K chars) | per sectie | uit `heading_stats.py` | null |
+| ITAA-norm | per sectie | uit `heading_stats.py` | null |
+| Praktijkgids | heading-fallback | uit `heading_stats.py` | null |
+
+**Hard max chunk-grootte**: 24.000 chars (~6.000 tokens, bge-m3-marge). Boven die grens: `split_long_chunk` splitst op alinea-grenzen, identieke `path` en breadcrumb, suffix `__partN` op `id`.
+
+#### 4.1 Wettekst — hiërarchie afgeleid uit het document
+
+Wetten verschillen sterk in structurele diepte (Wet-ITAA-2019 heeft HOOFDSTUK > AFDELING > ONDERAFDELING > Art.; WVV heeft DEEL > BOEK > TITEL > HOOFDSTUK > AFDELING > ONDERAFDELING > Art.). Geen universele hardcoded mapping past op alle.
+
+**Containment-detectie** per wet: voor elk paar structuurlabels (A, B), tellen hoe vaak B voorkomt tussen twee opeenvolgende A's. Topologische sortering levert de ranks. Voorbeelden:
+
+| Wet | Detected ranks |
+|---|---|
+| Wet-ITAA-2019 | HOOFDSTUK > AFDELING > ONDERAFDELING > Art. |
+| Antiwitwaswet | BOEK > TITEL > HOOFDSTUK > AFDELING > ONDERAFDELING > Art. |
+| WIB92 | TITEL > DEEL > HOOFDSTUK > AFDELING > ONDERAFDELING > Art. |
+| WVV (na conversie-fix) | DEEL > BOEK > TITEL > HOOFDSTUK > AFDELING > ONDERAFDELING > Art. |
+
+**Mapping naar markdown-niveaus:**
+
+- **H1** = wet-naam (vast, breadcrumb-root via `path[0].type = "wet"`)
+- **H2** = hoogste structuurlabel uit detectie
+- **H3–H6** = volgende ranks
+- **Artikel** = laagste rank (= `chunk.level` voor die wet)
+
+**Conditional flattening** — alleen bij overflow (>5 niveaus tussen H2 en H6 nodig):
+
+Merge-groups (semantisch samenhangend; één label fungeert als groepering van het andere):
+- `[DEEL, BOEK]` — "DEEL X - BOEK Y" als één heading
+- `[AFDELING, ONDERAFDELING]` — onderafdeling is direct kind van afdeling
+
+WVV-voorbeeld (7 niveaus → 2 merges → 5 niveaus):
+```
+## DEEL 1 - BOEK 1. Inleidende bepalingen.
+### TITEL 1. Vennootschap, vereniging en stichting.
+#### HOOFDSTUK 1. Definitie.
+##### Afdeling 1 - Onderafdeling 1. Algemene bepalingen.
+###### Art. 1:1
+```
+
+Niet-samenhangende merges (bv. TITEL+HOOFDSTUK) worden **niet** automatisch toegepast — informatieverlies te groot. Wetten met overflow zonder bruikbare merge-group vereisen handmatige beslissing per wet.
+
+#### 4.2 Sub-artikel chunking — toekomstige opt-in
+
+Sub-artikel granulariteit (definitieblokken `1°`, paragrafen `§`) wordt **niet** als MD-heading geforceerd. Dat zou H6 reserveren en structurele labels uitknijpen op deep-genest wetten.
+
+In plaats daarvan: opt-in via `chunk.sub_strategy: "per_definitieblok"` in frontmatter. De chunker detecteert sub-grenzen via regex (`^\s*\d+°`, `^\s*§\s+\d+`) **na** chunken op artikel-niveau, en split-er artikelen in deelchunks met behoud van artikel-context in breadcrumb.
+
+Toepasselijke bronnen (kandidaten): WIB92 art. 2 (definities WIB), Antiwitwaswet art. 4 (~50 definities AML), WVV art. 1:35 (UBO-definities). Niet aangezet voor andere wetten — `split_long_chunk` (paragraph-split bij >24K) blijft fallback voor onverwacht grote artikelen.
 
 ### 5. Chunking — concepten-RAG
 

@@ -1,7 +1,7 @@
 # ADR-005: Bronnen-ETL
 
 **Status**: Draft
-**Datum**: 2026-05-07 (gewijzigd 2026-05-08: §5 kwaliteits-gate uitgewerkt met trust-marker)
+**Datum**: 2026-05-07 (gewijzigd 2026-05-08: §5 kwaliteits-gate uitgewerkt met trust-marker; 2026-05-09: §3 frontmatter `chunk:`-blok + §7 wettekst-hiërarchiedetectie)
 **Vervangt**: archive/ADR-014 (oude ETL-pipeline), ADR-008 (bron_rol nu hier ingebed)
 
 ## Context
@@ -50,11 +50,21 @@ Markdown met YAML frontmatter:
 titel: "..."
 bron_rol: itaa_lex
 tags: [...]
-provenance: { ... }   # zie ADR-004
+chunk:                   # frontmatter-driven chunking (ADR-006 §4)
+  level: 5               # MD-niveau waarop chunk-grens ligt
+  type: "Art."           # filter op heading-type bij chunken
+  sub_strategy: null     # opt-in voor sub-artikel chunking (toekomstig)
+provenance: { ... }      # zie ADR-004
 ---
 ```
 
-Per artikel `## Art. X`-headings (gezagsbron voor chunking, ADR-006). Tabellen als markdown-tabellen. Schema's als losse PNG's in `<bron>-img/` (pymupdf4llm).
+**Heading-niveaus** (zie ADR-006 §4.1 voor wettekst-detectie):
+- H1 = wet-naam / advies-titel / norm-titel (vast, breadcrumb-root)
+- H2 = hoogste structuurlabel (per wet dynamisch gedetecteerd)
+- H3–H6 = diepere structuurlabels
+- Artikel-headings (`Art.`, `Par.`) op `chunk.level`-niveau
+
+Tabellen als markdown-tabellen. Schema's als losse PNG's in `<bron>-img/` (pymupdf4llm).
 
 ### 4. Bron-rollen (5 niveaus)
 
@@ -133,6 +143,34 @@ bij verschil. Bedoeld om regressies in de ETL-pipeline te vangen, niet om de
 inhoudelijke trust-beslissing te vervangen. Aparte tooling, niet in dezelfde
 PR.
 
+### 7. Wettekst-hiërarchie afgeleid uit document
+
+De ETL voor wetteksten doet structuur-detectie **per wet** in plaats van een
+universele hardgecodeerde label-naar-niveau mapping. Pipeline:
+
+1. **Conversie-audit** vóór heading-injectie: ontbreekt het hoogste
+   structuurlabel of het eerste artikel? (WVV mist DEEL 1 / BOEK 1 / TITEL 1 /
+   Art. 1:1 in onze conversie — sanity-check tegen officiële bron.)
+
+2. **Containment-detectie** (`tools/etl/inject_wettekst_headings.py`):
+   - Voor elk paar (A, B), tel hoe vaak B voorkomt tussen twee opeenvolgende A's
+   - Topo-sort levert ranks (hoogste = bevat meeste andere types tussen z'n
+     opeenvolgende instances)
+   - Niet "eerste verschijning" — dat geeft fouten bij wetten als WVV waar DEEL
+     pas mid-document verschijnt maar BOEKs groepeert
+
+3. **Mapping H2 → H6** met conditional flattening bij overflow:
+   - Hoogste rank → H2; volgende ranks → H3, H4, ... ; artikel = laagste rank
+   - Bij >5 niveaus: pas merge-groups toe (`[DEEL, BOEK]`,
+     `[AFDELING, ONDERAFDELING]`)
+   - Niet-samenhangende merges (TITEL+HOOFDSTUK) worden niet automatisch gedaan
+
+4. **Frontmatter-update**: schrijft `chunk.level`, `chunk.type`, en de
+   `chunk.sub_strategy` (default null).
+
+Sub-artikel chunking (definitieblokken, paragrafen) wordt niet als
+MD-heading geforceerd — zie ADR-006 §4.2.
+
 ### 6. Indexering filtert op trust
 
 `tools/rag/rag_index.py` indexeert default alleen bronnen met
@@ -155,6 +193,8 @@ appenden van een tweede norm aan een collection met 16 bestaande chunks.
 - `tools/etl/qa_subagent_prompt.md` (nieuw) — Laag 2 prompt-template (geen executable; mens kopieert in Claude Code Task-tool)
 - `tools/etl/mark_trusted.py` (nieuw) — Laag 3 mens-tool om trust te zetten
 - `tools/etl/backfill_trust_unreviewed.py` (one-off) — initiële migratie van bestaande bronnen
+- `tools/etl/inject_wettekst_headings.py` — wettekst structuurlabels → MD-headings; bevat per-wet hiërarchie-detectie en conditional flattening (zie §7)
+- `tools/etl/audit_wettekst_toplevels.py` (nieuw, TODO) — conversie-bug audit: detecteert wetten waar het hoogste structuurlabel of eerste artikel ontbreekt
 - `tools/rag/rag_index.py` — krijgt trust-filter en `--include-unreviewed` flag
 - `tools/lib/provenance.py` — krijgt `Trust` dataclass (zie ADR-004)
 - `resources/eval/golden/` — referentie-outputs voor regressietest (later)
