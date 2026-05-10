@@ -19,11 +19,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: rejected
+    qa_version: wetteksten-l2-20260510
+    confirmed_at: '2026-05-09T23:20:36Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L2-agent verdict: rejected. PDF-extractie heeft de tweekoloms NL/FR-layout niet gescheiden: rechter-kolom (Franstalige tekst) bleedt als losse beginletters door in de Nederlandse content (1571 regels eindigen met stray single-letter). Definitielijsten (Art. 1.1.0.0.2) zijn op één regel geconcatenateerd waardoor items 1°, 1°/1, 1°/2, ... onleesbaar samenklitten. Onbruikbaar voor RAG zonder volledige re-extract.'
     layer1:
       verdict: warn
       heading_count: 900
@@ -42,16 +42,32 @@ provenance:
       auto: true
       run_id: trust-finalize-1
     layer2_content:
-      verdict: needs-rework
-      rationale: "Ernstige kolom-bleed in Art. 1.1.0.0.2 (definitielijst): de naast de hoofdtekst gedrukte verticale legenda-letters ('L D 1 a c i d i s …') leaken in de body en maken de definities onleesbaar over vele regels. Articulo's verder lijken intact. Substantieel onderdeel (definitie-artikel) is praktisch niet RAG-bruikbaar."
+      verdict: rejected
+      rationale: 'PDF-extractie heeft de tweekoloms NL/FR-layout niet gescheiden: rechter-kolom (Franstalige tekst) bleedt als losse beginletters door in de Nederlandse content (1571 regels eindigen met stray single-letter). Definitielijsten (Art. 1.1.0.0.2) zijn op één regel geconcatenateerd waardoor items 1°, 1°/1, 1°/2, ... onleesbaar samenklitten. Onbruikbaar voor RAG zonder volledige re-extract.'
       problemen:
-        - kolom-bleed van legenda-letters in definities Art. 1.1.0.0.2
-        - max_section_size 38251 chars
+        - regel: 49
+          type: column-bleed
+          voorbeeld: '1° belastingen en toebehoren : ... waarop deze codex van toepassing is, ... 1 hoofdsom ... a c i d i s'
+        - regel: 51
+          type: scrambled-words
+          voorbeeld: '1°/1 belasting op de automatische ... 1 ontspanningstoestellen: ... d a f c d  (alle 1-items op één regel samengevoegd)'
+        - regel: 70
+          type: scrambled-words
+          voorbeeld: '7°/1 dienstaanbieder: ... a a p k p v d e  (Franse stragglers + concat met 7°/2)'
+        - regel: 3114
+          type: column-bleed
+          voorbeeld: Art. 2.7.1.0.7 ... in zijn nalatenschap aanwezig te zijn ... L ti p d p r p p d p
+        - regel: 12344
+          type: column-bleed
+          voorbeeld: Art. 5.0.0.0.19 ... La ali ins Di d'u eco rep rou ava rem  (Franse fragmenten bleeden door)
       sterkte:
-        - '663 ###### Art.-headings'
-        - Titel/Hoofdstuk-structuur intact
+        - Frontmatter compleet en consistent met body (titel, sha256, bron, bijgewerkt-datum)
+        - 'Heading-hierarchie correct: TITEL/Hoofdstuk/Afdeling/Onderafdeling/Art. (663 Art-headings)'
+        - Geen TOC-residue (0 stragglers met dot-leaders)
+        - Slot van document compleet tot en met Art. 7.0.0.0.1 + ondertekening (K. PEETERS)
       auto: false
-      run_id: qa-batch-W2
+      run_id: wetteksten-l2-20260510
+    agent_verdict_at: '2026-05-09T23:20:36Z'
 chunk:
   level: 6
   type: "Art."

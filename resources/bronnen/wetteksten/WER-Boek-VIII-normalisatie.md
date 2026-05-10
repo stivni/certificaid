@@ -19,11 +19,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: rejected
+    qa_version: wetteksten-l2-20260510
+    confirmed_at: '2026-05-09T23:20:36Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L2-agent verdict: rejected. Catastrofale ETL-output: het hele bestand is een PDF-OCR van een Belgisch Staatsblad-bundel waarin NL+FR (en op meerdere plaatsen Duits) systematisch op elkaar geplakt staan binnen iedere alinea. Bovendien bevat het bestand massaal off-topic content (Waalse personeelsformaties, Cour Constitutionnelle-arresten over waterheffing, CPI-indices, jobvacatures Wonen-Vlaanderen) die niets met WER Boek VIII normalisatie te maken heeft. Onbruikbaar voor RAG; zal de hele index vervuilen.'
     layer1:
       verdict: warn
       heading_count: 276
@@ -43,24 +43,31 @@ provenance:
       run_id: trust-finalize-1
     layer2_content:
       verdict: rejected
-      rationale: Tweetalige FR/NL content op dezelfde regel ('Les dispositions ... Art. 2. De hiernavolgende bepalingen ...') verspreid over het hele bestand; midden-sectie (lijn 5000+) is grote blok zuivere Franse tekst (Moniteur Belge, ISoc-majoration-voorbeelden) die niet relevant is voor Boek VIII normalisatie. Ernstige column-bleed + verkeerde inhoud.
+      rationale: 'Catastrofale ETL-output: het hele bestand is een PDF-OCR van een Belgisch Staatsblad-bundel waarin NL+FR (en op meerdere plaatsen Duits) systematisch op elkaar geplakt staan binnen iedere alinea. Bovendien bevat het bestand massaal off-topic content (Waalse personeelsformaties, Cour Constitutionnelle-arresten over waterheffing, CPI-indices, jobvacatures Wonen-Vlaanderen) die niets met WER Boek VIII normalisatie te maken heeft. Onbruikbaar voor RAG; zal de hele index vervuilen.'
       problemen:
-        - regel: 36
+        - regel: 48
           type: column-bleed
-          voorbeeld: CHAPITRE 2. — Le Code de droit économique HOOFDSTUK 2. — Het Wetboek van economisch recht
-        - regel: 39
+          voorbeeld: Les dispositions suivantes forment le Code de droit econo- Art. 2. De hiernavolgende bepalingen vormen het Wetboek
+        - regel: 78
           type: column-bleed
-          voorbeeld: Les dispositions suivantes forment le Code de droit écono- Art. 2. De hiernavolgende bepalingen vormen het Wetboek...
-        - regel: 5000
+          voorbeeld: '#### Art. II. 1er. Sous reserve... le present Code contient... Art. II. 1. Onder voorbehoud...'
+        - regel: 2183
           type: naam-mismatch
-          voorbeeld: Pure FR-tekst over 'Bénéfices nets / majoration d'impôt / VA 1-4' in een bestand dat Boek VIII normalisatie zou moeten zijn
-        - regel: 0
-          type: other
-          voorbeeld: 'max_section 199327 chars op ####-niveau'
+          voorbeeld: '#### Art. 2 - Der vorliegende Erlass tritt am 1. April 2013 in Kraft.'
+        - regel: 4373
+          type: naam-mismatch
+          voorbeeld: "Numero du role : 5364 ... article 228 ... Code de l'Eau ..."
+        - regel: 6577
+          type: naam-mismatch
+          voorbeeld: JOBPUNT VLAANDEREN ... Data- en toepassingsbeheerder
       sterkte:
-        - Frontmatter en provenance correct
+        - Frontmatter is gestructureerd en bevat valide provenance + sha256.
+        - Article-headings (#### Art. VIII.x) staan op aparte regels - kernbereik VIII.1-VIII.~55 is herkenbaar.
+        - Geen dot-leader-vervuiling (TOC al weggefilterd).
+        - Geen scrambled words op woordniveau - kolom-merge is regel-voor-regel, niet karakter-door-karakter.
       auto: false
-      run_id: qa-batch-W4
+      run_id: wetteksten-l2-20260510
+    agent_verdict_at: '2026-05-09T23:20:36Z'
 chunk:
   level: 4
   type: "Art."

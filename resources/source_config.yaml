@@ -122,6 +122,9 @@ sources:
     wet: Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF)
     titel: Vlaamse Codex Fiscaliteit (VCF)
     col_x: 0
+    # col_w=310 is empirisch sweet spot voor VCF body: capture volledige NL-
+    # kolom zonder FR-fragmenten (gemeten op page 50). Default in extractor.
+    col_w: 310
     start_page: 30
     status: volledig
     extract:
@@ -138,6 +141,8 @@ sources:
     wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal
     titel: Registratierechten — federaal
     col_x: 0
+    # col_w=310 is default; mogelijk aanpassen na nadere kolom-analyse.
+    col_w: 310
     start_page: 8
     status: volledig
     extract:
@@ -976,7 +981,7 @@ sources:
     bijgewerkt: "24.12.2025"
     wet: "Wetboek van Economisch Recht"
     nl_col_x: 0
-    cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
+    cleanup: [remove_toc_ejustice, remove_french_blocks, normalize_justel_art_separators, remove_inline_metadata, ensure_article_headings]
     status: toc_only
     extract:
       method: pdftotext_ejustice
@@ -1097,7 +1102,7 @@ sources:
     bijgewerkt: "24.12.2025"
     wet: "Wetboek Diverse Rechten en Taksen"
     nl_col_x: 0
-    cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
+    cleanup: [remove_toc_ejustice, remove_french_blocks, normalize_justel_art_separators, remove_inline_metadata, ensure_article_headings]
     status: toc_only
     extract:
       method: pdftotext_ejustice

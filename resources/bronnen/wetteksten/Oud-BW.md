@@ -6,37 +6,6 @@ status: "beschikbaar"
 bijgewerkt: "27.01.2026"
 bron: "ejustice.just.fgov.be (Justel, gecoördineerde versie)"
 raw-bron: "resources/raw/wetteksten/Oud-BW.pdf"
-provenance:
-  trust:
-    layer1:
-      verdict: warn
-      heading_count: 3677
-      max_section_chars: 29650
-      file_size_chars: 1511864
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ######-niveau: 29650 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
-      rationale: 'Zeer groot bestand (1.5 MB, 3677 headings). Frontmatter heeft duplicate #-titel direct na de gegenereerde titel. Eindigt mid-citaat in Art. 8.39 zonder duidelijke afsluiting. Sectie >29k chars vraagt om sub-strategy.'
-      problemen:
-        - 'dubbele eerste heading (twee #-titels gestapeld)'
-        - abrupt einde bij Art. 8.39 (geen inwerkingtreding/slotbepaling zichtbaar in tail)
-        - max_section_size 29650 (>24000)
-      sterkte:
-        - zeer rijke heading-structuur
-        - alle Boeken aanwezig
-      auto: false
-      run_id: qa-batch-W2
 ---
 
 # Burgerlijk Wetboek (oud)
@@ -1600,9 +1569,9 @@ Indien de nieuwe echtgenoten de nietigheid van het eerste huwelijk inroepen, moe
 
 In alle gevallen waarin artikel 184 toepasselijk is en met inachtneming van de in artikel 185 gestelde beperkingen, kan en moet de procureur des Konings de nietigverklaring van het huwelijk vorderen tijdens het leven van beide echtgenoten en hen doen veroordelen om van elkaar te scheiden.
 
-## Art. 191.Tegen
+## Art. 191
 
-elk huwelijk dat niet in het openbaar is aangegaan en dat niet voor de bevoegde openbare ambtenaar is voltrokken (of waarvan geen aangifte is gedaan zoals bepaald in [1 artikel 164/1]1), kan worden opgekomen door de echtgenoten zelf, door de ouders, door de grootouders en door allen die daarbij een reeds verkregen en dadelijk belang hebben, alsook door het openbaar ministerie. <W 1999-05-04/63, art. 18, 006;
+Tegen elk huwelijk dat niet in het openbaar is aangegaan en dat niet voor de bevoegde openbare ambtenaar is voltrokken (of waarvan geen aangifte is gedaan zoals bepaald in [1 artikel 164/1]1), kan worden opgekomen door de echtgenoten zelf, door de ouders, door de grootouders en door allen die daarbij een reeds verkregen en dadelijk belang hebben, alsook door het openbaar ministerie. <W 1999-05-04/63, art. 18, 006;
 (1)<W 2023-09-13/08, art. 39, 102; Inwerkingtreding : 01-01-2024>
 
 ## Art. 192
@@ -1627,19 +1596,19 @@ De DABS maakt op basis hiervan een melding op en verbindt deze met de huwelijksa
 Indien de huwelijksakte op dat ogenblik niet beschikbaar is in de DABS, maakt de bevoegde ambtenaar van de burgerlijke stand een akte van nietigverklaring op en verbindt deze met de akte van huwelijk van zodra ze beschikbaar is.
 Indien het gaat om de nietigverklaring van een huwelijk dat is aangegaan met overtreding van de artikelen 146bis of 146ter wordt de nietigverklaring, met vermelding van de datum van het in kracht van gewijsde treden van de rechterlijke beslissing, onmiddellijk via de DABS aan de Dienst Vreemdelingenzaken genotificeerd.]1 (1)<W 2023-09-13/08, art. 40, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 194.Niemand
+## Art. 194
 
-kan op de hoedanigheid van echtgenoot en op de burgerlijke gevolgen van het huwelijk aanspraak maken, [1 indien hij geen akte van huwelijk kan voorleggen, behalve in het geval bedoeld in artikel 26]1.
+Niemand kan op de hoedanigheid van echtgenoot en op de burgerlijke gevolgen van het huwelijk aanspraak maken, [1 indien hij geen akte van huwelijk kan voorleggen, behalve in het geval bedoeld in artikel 26]1.
 (1)<W 2023-09-13/08, art. 41, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 195.Het
+## Art. 195
 
-bezit van staat kan degenen die beweren met elkaar gehuwd te zijn en zich tegenover elkaar op dat bezit beroepen, niet ontslaan van de verplichting om [1 de akte van huwelijk]1 over te leggen.
+Het bezit van staat kan degenen die beweren met elkaar gehuwd te zijn en zich tegenover elkaar op dat bezit beroepen, niet ontslaan van de verplichting om [1 de akte van huwelijk]1 over te leggen.
 (1)<W 2023-09-13/08, art. 42, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 196.Wanneer
+## Art. 196
 
-er bezit van staat aanwezig is en [1 de akte van huwelijk]1 wordt overgelegd, zijn de echtgenoten niet ontvankelijk om tegen elkaar de nietigverklaring van die akte te vorderen.
+Wanneer er bezit van staat aanwezig is en [1 de akte van huwelijk]1 wordt overgelegd, zijn de echtgenoten niet ontvankelijk om tegen elkaar de nietigverklaring van die akte te vorderen.
 (1)<W 2023-09-13/08, art. 43, 102; Inwerkingtreding : 01-01-2024>
 
 ## Art. 197
@@ -1755,9 +1724,9 @@ Levensonderhoud wordt slechts toegestaan naar verhouding van de behoeften van he
 
 Wanneer hij die het levensonderhoud verstrekt of hij die het geniet, tot zodanige staat komt dat de ene het niet meer kan verschaffen of de andere het niet meer nodig heeft, hetzij voor het geheel, hetzij voor een gedeelte, kan ontheffing of vermindering ervan gevorderd worden.
 
-## Art. 210.Wanneer
+## Art. 210
 
-de persoon die het levensonderhoud moet verstrekken, bewijst dat hij de uitkering tot onderhoud niet kan betalen, kan de [1 familierechtbank]1, met inachtneming van de omstandigheden der zaak, bevelen dat hij degene aan wie hij levensonderhoud verschuldigd is, bij zich zal in huis nemen en hem aldaar kost en onderhoud zal verschaffen.
+Wanneer de persoon die het levensonderhoud moet verstrekken, bewijst dat hij de uitkering tot onderhoud niet kan betalen, kan de [1 familierechtbank]1, met inachtneming van de omstandigheden der zaak, bevelen dat hij degene aan wie hij levensonderhoud verschuldigd is, bij zich zal in huis nemen en hem aldaar kost en onderhoud zal verschaffen.
 (1)<W 2013-07-30/23, art. 22, 065; Inwerkingtreding : 01-09-2014>
 
 ## Art. 211
@@ -2891,17 +2860,11 @@ c) kind : een persoon van minder dan achttien jaar.
 
 A. Grondvoorwaarden. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-## Art. 344
+Art. 344-1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Adopties moeten steeds gegrond zijn op wettige redenen en ingeval zij betrekking hebben op een kind kunnen zij slechts plaatsvinden in het hoger belang van dat kind en met eerbied voor de fundamentele rechten die het op grond van het internationaal recht toekomen.
 
--1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Adopties moeten steeds gegrond zijn op wettige redenen en ingeval zij betrekking hebben op een kind kunnen zij slechts plaatsvinden in het hoger belang van dat kind en met eerbied voor de fundamentele rechten die het op grond van het internationaal recht toekomen.
+Art. 344-2. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Een persoon van wie de afstamming van moederszijde vaststaat, kan niet door zijn moeder worden geadopteerd. Een persoon van wie de afstamming van vaderszijde vaststaat, kan niet door zijn vader worden geadopteerd.
 
-## Art. 344
-
--2. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Een persoon van wie de afstamming van moederszijde vaststaat, kan niet door zijn moeder worden geadopteerd. Een persoon van wie de afstamming van vaderszijde vaststaat, kan niet door zijn vader worden geadopteerd.
-
-## Art. 344
-
--3. [1 Een persoon kan het kind van zijn voormalige partner adopteren voor zover de volgende voorwaarden vervuld zijn :
+Art. 344-3. [1 Een persoon kan het kind van zijn voormalige partner adopteren voor zover de volgende voorwaarden vervuld zijn :
 1° het kind werd geadopteerd door de voormalige partner tijdens het huwelijk of een, adoptieve of andere, afstammingsband werd vastgesteld tussen het kind en de voormalige partner tijdens de wettelijke samenwoning of tijdens het samenleven bedoeld in artikel 343, § 1, b/1);
 2° het kind heeft slechts één vastgestelde afstammingsband; en
 3° die persoon onderhoudt met het kind een duurzame feitelijke relatie, zowel op affectief als op materieel vlak.]1 (1)<Ingevoegd bij W 2017-02-20/17, art. 3, 074; Inwerkingtreding : 01-04-2017>
@@ -2917,150 +2880,104 @@ Deze voorwaarden moeten vervuld zijn op het tijdstip van indiening van het verzo
 
 C. Geschiktheid. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-## Art. 346
-
--1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De adoptant of de adoptanten die een kind wensen te adopteren moeten bekwaam en geschikt zijn om te adopteren.
+Art. 346-1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De adoptant of de adoptanten die een kind wensen te adopteren moeten bekwaam en geschikt zijn om te adopteren.
 Een persoon die daartoe over de vereiste sociaal-psychologische eigenschappen beschikt, is geschikt om te adopteren.
 
-## Art. 346
-
--1/1. [1 De persoon of de personen met gewone verblijfplaats in België die een kind wensen te adopteren dat zijn gewone verblijfplaats ook in België heeft, moeten alvorens enige stappen met het oog op een adoptie te ondernemen, een vonnis verkrijgen waaruit blijkt dat zij bekwaam en geschikt zijn om een adoptie aan te gaan.
+Art. 346-1/1. [1 De persoon of de personen met gewone verblijfplaats in België die een kind wensen te adopteren dat zijn gewone verblijfplaats ook in België heeft, moeten alvorens enige stappen met het oog op een adoptie te ondernemen, een vonnis verkrijgen waaruit blijkt dat zij bekwaam en geschikt zijn om een adoptie aan te gaan.
 In afwijking van het eerste lid, moet de adoptant geen vonnis verkrijgen waaruit blijkt dat hij bekwaam en geschikt is om te adopteren alvorens hij de procedure tot totstandkoming van de adoptie opstart, wanneer hij een kind wenst te adopteren :
 1° dat met hem, met zijn echtgenoot, met de persoon met wie hij samenwoont of met zijn voormalige partner, zelfs overleden, verwant is tot in de derde graad; of
 2° met wie hij, vóór de voorgenomen adoptie, het dagelijkse leven heeft gedeeld; of
 3° met wie hij, vóór de voorgenomen adoptie, een duurzame sociale en affectieve band tot stand heeft gebracht.
 In die gevallen wordt de geschiktheid van de adoptant door de familierechtbank beoordeeld tijdens de procedure tot totstandkoming van de adoptie.]1 (1)<Ingevoegd bij W 2017-07-06/24, art. 2, 075; Inwerkingtreding : 01-01-2020>
 
-## Art. 346
-
--1/2. [1 De geschiktheid wordt door de familierechtbank beoordeeld op grond van een door haar te bevelen maatschappelijk onderzoek.
+Art. 346-1/2. [1 De geschiktheid wordt door de familierechtbank beoordeeld op grond van een door haar te bevelen maatschappelijk onderzoek.
 Wanneer de procedure tot totstandkoming van de adoptie betrekking heeft op een kind bedoeld in artikel 346- 1/1, tweede lid, heeft het maatschappelijk onderzoek dat wordt bevolen zowel betrekking op de geschiktheid van de kandidaat-adoptant als op het belang van het in de procedure bedoelde kind om te worden geadopteerd.
 Wanneer de adoptant een in artikel 346-1/1, tweede lid, 1°, bedoeld kind wenst te adopteren, beslist de rechter over de opportuniteit om al dan niet dat maatschappelijk onderzoek te bevelen.
 Om de geschiktheid van de adoptant te beoordelen houdt de rechtbank in het bijzonder rekening met de persoonlijke, familiale en medische toestand van de betrokkene, en met zijn beweegredenen.]1 (1)<Ingevoegd bij W 2017-07-06/24, art. 3, 075; Inwerkingtreding : 01-01-2020>
 
-## Art. 346
-
--2.[1 Vooraleer over hun geschiktheid wordt geoordeeld, moeten, in alle gevallen, de persoon of personen die een kind wensen te adopteren, de voorbereiding hebben gevolgd die door de bevoegde gemeenschap wordt verstrekt, en die meer bepaald de informatie inhoudt over de stappen in de procedure, de juridische en de andere gevolgen van de adoptie, en over de mogelijkheid en het nut van nazorg na de adoptie.
+Art. 346-2.[1 Vooraleer over hun geschiktheid wordt geoordeeld, moeten, in alle gevallen, de persoon of personen die een kind wensen te adopteren, de voorbereiding hebben gevolgd die door de bevoegde gemeenschap wordt verstrekt, en die meer bepaald de informatie inhoudt over de stappen in de procedure, de juridische en de andere gevolgen van de adoptie, en over de mogelijkheid en het nut van nazorg na de adoptie.
 De voorbereiding is niet verplicht voor de adoptant of de adoptanten die voornoemde voorbereiding reeds gevolgd hebben bij een vorige adoptie en van wie de geschiktheid om te adopteren door de familierechtbank is erkend. De voorbereiding moet niet worden hernieuwd in het kader van de procedure tot verlenging van de termijn van geschiktheid om te adopteren.]1 (1)<W 2017-07-06/24, art. 4, 075; Inwerkingtreding : 01-01-2020>
 
-## Art. 346
-
--2/1. [1 De federale centrale autoriteit bedoeld in artikel 360-1, 2°, stuurt de bevoegde centrale autoriteit van de gemeenschap bedoeld in artikel 360-1, 3°, onverwijld de beslissingen die haar in afschrift zijn toegezonden door de griffier van de familierechtbank of van het hof van beroep, met betrekking tot de geschiktheid, de ongeschiktheid of de verlenging van de termijn van geschiktheid van de adoptant of de adoptanten, alsook het in artikel 1231-1/5 van het Gerechtelijk Wetboek bedoelde schriftelijk advies van het openbaar ministerie.]1 (1)<Ingevoegd bij W 2017-07-06/24, art. 5, 075; Inwerkingtreding : 01-01-2020>
+Art. 346-2/1. [1 De federale centrale autoriteit bedoeld in artikel 360-1, 2°, stuurt de bevoegde centrale autoriteit van de gemeenschap bedoeld in artikel 360-1, 3°, onverwijld de beslissingen die haar in afschrift zijn toegezonden door de griffier van de familierechtbank of van het hof van beroep, met betrekking tot de geschiktheid, de ongeschiktheid of de verlenging van de termijn van geschiktheid van de adoptant of de adoptanten, alsook het in artikel 1231-1/5 van het Gerechtelijk Wetboek bedoelde schriftelijk advies van het openbaar ministerie.]1 (1)<Ingevoegd bij W 2017-07-06/24, art. 5, 075; Inwerkingtreding : 01-01-2020>
 
 D. Nieuwe adoptie. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-## Art. 347
-
--1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> [1 Een persoon die]1 reeds is geadopteerd, ongeacht of het daarbij gaat om een gewone dan wel om een volle adoptie, kan nogmaals worden geadopteerd, zowel bij wijze van een gewone als [1 , in geval van een kind,]1 van een volle adoptie, indien alle voorwaarden gesteld voor het totstandkomen van de nieuwe adoptie zijn vervuld en indien, ofwel :
+Art. 347-1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> [1 Een persoon die]1 reeds is geadopteerd, ongeacht of het daarbij gaat om een gewone dan wel om een volle adoptie, kan nogmaals worden geadopteerd, zowel bij wijze van een gewone als [1 , in geval van een kind,]1 van een volle adoptie, indien alle voorwaarden gesteld voor het totstandkomen van de nieuwe adoptie zijn vervuld en indien, ofwel :
 1° de vorige adoptant of adoptanten overleden zijn;
 2° de vorige adoptie herzien is of de vorige gewone adoptie ten aanzien van de adoptant of van de adoptanten herroepen is;
 3° zeer gewichtige redenen bestaan die vereisen dat op verzoek van het openbaar ministerie een nieuwe adoptie wordt uitgesproken.
 (1)<W 2017-02-20/17, art. 6, 074; Inwerkingtreding : 01-04-2017>
 
-## Art. 347
-
--2.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Een persoon die reeds door twee adoptanten geadopteerd is, ongeacht of het daarbij gaat om een gewone of om een volle adoptie, kan door de nieuwe echtgenoot [1 , de nieuwe samenwonende of de voormalige partner]1 nogmaals worden geadopteerd, zowel bij wijze van een gewone als van een volle adoptie, indien alle voorwaarden gesteld voor het totstandkomen van de nieuwe adoptie zijn vervuld en indien, ofwel :
+Art. 347-2.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Een persoon die reeds door twee adoptanten geadopteerd is, ongeacht of het daarbij gaat om een gewone of om een volle adoptie, kan door de nieuwe echtgenoot [1 , de nieuwe samenwonende of de voormalige partner]1 nogmaals worden geadopteerd, zowel bij wijze van een gewone als van een volle adoptie, indien alle voorwaarden gesteld voor het totstandkomen van de nieuwe adoptie zijn vervuld en indien, ofwel :
 1° de andere vorige adoptant overleden is;
 2° de vorige gewone adoptie ten aanzien van de andere adoptant herroepen is;
 3° zeer gewichtige redenen bestaan die vereisen dat op verzoek van het openbaar ministerie een nieuwe adoptie wordt uitgesproken.
 (1)<W 2017-02-20/17, art. 7, 074; Inwerkingtreding : 01-04-2017>
 
-## Art. 347
-
--3.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> [1 Na de opmaak van de akte van adoptie op basis van]1 een vonnis waarbij de gewone adoptie van een kind wordt uitgesproken, kunnen de adoptant of de adoptanten een verzoekschrift indienen dat erop is gericht deze adoptie in een volle adoptie om te zetten. Deze omzetting wordt slechts toegestaan indien alle voorwaarden, inzonderheid deze betreffende de toestemming, gesteld voor het totstandkomen van de volle adoptie, zijn vervuld.
+Art. 347-3.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> [1 Na de opmaak van de akte van adoptie op basis van]1 een vonnis waarbij de gewone adoptie van een kind wordt uitgesproken, kunnen de adoptant of de adoptanten een verzoekschrift indienen dat erop is gericht deze adoptie in een volle adoptie om te zetten. Deze omzetting wordt slechts toegestaan indien alle voorwaarden, inzonderheid deze betreffende de toestemming, gesteld voor het totstandkomen van de volle adoptie, zijn vervuld.
 (1)<W 2023-09-13/08, art. 49, 102; Inwerkingtreding : 01-01-2024>
 
 E. Toestemmingen. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-## Art. 348
-
--1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Eenieder die op het tijdstip van de uitspraak van het vonnis van adoptie, de leeftijd van twaalf jaar heeft bereikt, moet in zijn adoptie toestemmen of daarin hebben toegestemd.
+Art. 348-1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Eenieder die op het tijdstip van de uitspraak van het vonnis van adoptie, de leeftijd van twaalf jaar heeft bereikt, moet in zijn adoptie toestemmen of daarin hebben toegestemd.
 [1 In afwijking van het eerste lid is de toestemming niet vereist indien de rechtbank, op grond van feiten die vastgesteld zijn in een met redenen omkleed proces-verbaal, oordeelt dat de meerderjarige persoon wilsonbekwaam is. Hetzelfde geldt ingeval de meerderjarige persoon, bij beschikking van de vrederechter krachtens artikel 492/1, onbekwaam wordt verklaard om met zijn adoptie in te stemmen. De meerderjarige persoon die zijn mening zelfstandig kan uiten wordt rechtstreeks door de rechter gehoord. Ingeval de meerderjarige persoon zijn mening niet zelf kan uiten, vertolkt de vertrouwenspersoon de mening van die meerderjarige persoon. De rechter hecht passend belang aan deze mening.
 De toestemming is evenmin vereist als de rechtbank, op grond van feiten die vastgesteld zijn in een met redenen omkleed proces-verbaal, oordeelt dat de minderjarige geen onderscheidingsvermogen heeft. ]1 (1)<W 2013-03-17/14, art. 14, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 348
-
--2.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer de adoptant, een van de adoptanten of de geadopteerde gehuwd is en niet van tafel en bed is gescheiden of samenwoont op het tijdstip van verschijning voor de [2 familierechtbank]2 die over het verzoekschrift tot adoptie uitspraak moet doen, moet zijn echtgenoot of de persoon met wie hij samenwoont in de adoptie toestemmen, [1 behalve indien deze vermoedelijk afwezig is, geen gekende verblijfplaats heeft of ingeval de [2 familierechtbank]2 oordeelt, op grond van feiten vastgesteld in een met redenen omkleed proces-verbaal, dat hij in de onmogelijkheid verkeert zijn wil te kennen te geven of wilsonbekwaam is]1).
+Art. 348-2.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer de adoptant, een van de adoptanten of de geadopteerde gehuwd is en niet van tafel en bed is gescheiden of samenwoont op het tijdstip van verschijning voor de [2 familierechtbank]2 die over het verzoekschrift tot adoptie uitspraak moet doen, moet zijn echtgenoot of de persoon met wie hij samenwoont in de adoptie toestemmen, [1 behalve indien deze vermoedelijk afwezig is, geen gekende verblijfplaats heeft of ingeval de [2 familierechtbank]2 oordeelt, op grond van feiten vastgesteld in een met redenen omkleed proces-verbaal, dat hij in de onmogelijkheid verkeert zijn wil te kennen te geven of wilsonbekwaam is]1).
 (1)<W 2013-03-17/14, art. 15, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)> (2)<W 2013-07-30/23, art. 42, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 348
-
--3.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer de afstamming van een kind [1 ...]1 ten aanzien van zijn moeder en van zijn vader vaststaat, moeten beiden in de adoptie toestemmen.
+Art. 348-3.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer de afstamming van een kind [1 ...]1 ten aanzien van zijn moeder en van zijn vader vaststaat, moeten beiden in de adoptie toestemmen.
 Indien echter een van hen [1 vermoedelijk afwezig is, geen gekende verblijfplaats heeft, in de onmogelijkheid verkeert om zijn wil te kennen te geven of wilsonbekwaam is]1, is de toestemming van de andere voldoende.
 Wanneer de afstamming van een kind [1 ...]1 slechts ten aanzien van een van zijn ouders vaststaat, dient enkel deze in de adoptie toe te stemmen.
 (1)<W 2013-03-17/14, art. 16, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 348
-
--4.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Zowel de moeder als de vader kunnen hun toestemming slechts geven twee maanden na de geboorte van het kind.
+Art. 348-4.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Zowel de moeder als de vader kunnen hun toestemming slechts geven twee maanden na de geboorte van het kind.
 Zij worden over de adoptie en de gevolgen van hun toestemming geïnformeerd door de [1 familierechtbank]1 voor wie de toestemming dient te worden gegeven en door haar sociale dienst.
 Deze informatie heeft inzonderheid betrekking op de rechten, de bijstand en de voordelen waarop de families, de vaders en moeders, al dan niet alleenstaand, en hun kinderen bij wet of decreet aanspraak kunnen maken, alsook op de middelen waarop een beroep kan worden gedaan om sociale, financiële, psychologische of andere problemen die hun situatie meebrengt, op te lossen.
 (1)<W 2013-07-30/23, art. 43, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 348
-
--5.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer de afstamming van een kind of [1 ...]1 niet vaststaat of wanneer de vader en de moeder van een kind [1 ...]1, of de enige ouder ten aanzien van wie de afstamming vaststaat, overleden zijn, [1 vermoedelijk afwezig zijn, geen gekende verblijfplaats hebben of in de onmogelijkheid verkeren om hun wil te kennen te geven of wilsonbekwaam zijn]1, wordt de toestemming door de voogd gegeven. <W 2007-05-09/44, art. 36, 6°, 037; Inwerkingtreding : 01-07-2007> In geval van adoptie door de voogd, wordt de toestemming gegeven door de toeziende voogd. Ingeval de belangen van de toeziende voogd tegenstrijdig zijn met die van de minderjarige, wordt de toestemming gegeven door een voogd ad hoc aangewezen door de rechtbank op verzoek van iedere betrokken persoon of van de procureur des Konings.
+Art. 348-5.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer de afstamming van een kind of [1 ...]1 niet vaststaat of wanneer de vader en de moeder van een kind [1 ...]1, of de enige ouder ten aanzien van wie de afstamming vaststaat, overleden zijn, [1 vermoedelijk afwezig zijn, geen gekende verblijfplaats hebben of in de onmogelijkheid verkeren om hun wil te kennen te geven of wilsonbekwaam zijn]1, wordt de toestemming door de voogd gegeven. <W 2007-05-09/44, art. 36, 6°, 037; Inwerkingtreding : 01-07-2007> In geval van adoptie door de voogd, wordt de toestemming gegeven door de toeziende voogd. Ingeval de belangen van de toeziende voogd tegenstrijdig zijn met die van de minderjarige, wordt de toestemming gegeven door een voogd ad hoc aangewezen door de rechtbank op verzoek van iedere betrokken persoon of van de procureur des Konings.
 (1)<W 2013-03-17/14, art. 17, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 348
+Art. 348-5/1. [1 In afwijking van de artikelen 348-3 en 348-5 wordt, in geval van adoptie zoals bedoeld in artikel 361-5, de toestemming gegeven door een voogd ad hoc aangewezen door de rechtbank op verzoek van iedere betrokken persoon of van de procureur des Konings.]1 (1)<Ingevoegd bij W 2017-07-06/24, art. 66, 075; Inwerkingtreding : 03-08-2017>
 
--5/1. [1 In afwijking van de artikelen 348-3 en 348-5 wordt, in geval van adoptie zoals bedoeld in artikel 361-5, de toestemming gegeven door een voogd ad hoc aangewezen door de rechtbank op verzoek van iedere betrokken persoon of van de procureur des Konings.]1 (1)<Ingevoegd bij W 2017-07-06/24, art. 66, 075; Inwerkingtreding : 03-08-2017>
-
-## Art. 348
-
--6.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Voor de nieuwe adoptie van een kind [1 dat]1 voorheen op gewone wijze is geadopteerd, zijn vereist :
+Art. 348-6.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Voor de nieuwe adoptie van een kind [1 dat]1 voorheen op gewone wijze is geadopteerd, zijn vereist :
 1° de toestemming van de personen die in de vorige adoptie hebben toegestemd;
 2° de toestemming van de vorige adoptant of adoptanten, behalve indien de vorige adoptie ten aanzien van die persoon of personen herroepen of herzien is.
 [1 Indien een van die personen vermoedelijk afwezig is, geen gekende verblijfplaats heeft of in de onmogelijkheid verkeert om zijn wil te kennen te geven of wilsonbekwaam is]1, is zijn toestemming niet vereist. De toestemming van de oorspronkelijke vader of moeder, van de voogd en van de toeziende voogd, van de echtgenoot van de geadopteerde, of van de persoon met wie hij samenwoont, die vroeger onverantwoord geweigerd hebben in de adoptie toe te stemmen, evenals die van de vader en de moeder wanneer het kind door hen verlaten werd verklaard, is evenmin vereist.
 (1)<W 2013-03-17/14, art. 18, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 348
+Art. 348-7.[1 Voor de nieuwe adoptie van een kind dat voorheen ten volle is geadopteerd, is de toestemming van de vorige adoptant of adoptanten vereist, behalve indien zij vermoedelijk afwezig zijn, geen gekende verblijfplaats hebben, in de onmogelijkheid verkeren hun wil te kennen te geven, wilsonbekwaam zijn, of indien de vorige adoptie ten aanzien van hen is herzien. ]1 (1)<W 2013-03-17/14, art. 19, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
--7.[1 Voor de nieuwe adoptie van een kind dat voorheen ten volle is geadopteerd, is de toestemming van de vorige adoptant of adoptanten vereist, behalve indien zij vermoedelijk afwezig zijn, geen gekende verblijfplaats hebben, in de onmogelijkheid verkeren hun wil te kennen te geven, wilsonbekwaam zijn, of indien de vorige adoptie ten aanzien van hen is herzien. ]1 (1)<W 2013-03-17/14, art. 19, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
-
-## Art. 348
-
--8.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Eenieder van wie de toestemming in de adoptie vereist is, kan zulks doen door middel van ofwel :
+Art. 348-8.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Eenieder van wie de toestemming in de adoptie vereist is, kan zulks doen door middel van ofwel :
 1° een persoonlijke verklaring gedaan voor de [1 familierechtbank]1 die het verzoekschrift tot adoptie behandelt en waarvan deze een proces-verbaal opstelt;
 2° een akte verleden ten overstaan van een notaris naar keuze of ten overstaan van de vrederechter van zijn woonplaats.
 Er moet nader worden bepaald dat de toestemming wordt gegeven voor een gewone adoptie of voor een volle adoptie.
 De intrekking van de toestemming is slechts mogelijk tot het tijdstip van de uitspraak van het vonnis en, ten laatste, zes maanden na de indiening van het verzoekschrift tot adoptie en dient te geschieden in dezelfde vorm als vereist is voor de toestemming in de adoptie.
 (1)<W 2013-07-30/23, art. 44, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 348
-
--9. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Ieder lid van de oorspronkelijke familie van het kind van wie de toestemming vereist is, kan in de akte of in de verklaring houdende zijn toestemming nader bepalen dat :
+Art. 348-9. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Ieder lid van de oorspronkelijke familie van het kind van wie de toestemming vereist is, kan in de akte of in de verklaring houdende zijn toestemming nader bepalen dat :
 1° hij de identiteit van de adoptant of van de adoptanten niet wenst te kennen; in dat geval, wijst hij een persoon aan die hem in het kader van de procedure zal vertegenwoordigen; of dat
 2° hij later in de procedure niet wenst tussenbeide te komen; in dat geval, wijst hij eveneens een persoon aan die hem zal vertegenwoordigen.
 De persoon die gebruik maakt van een van de in het vorige lid bedoelde mogelijkheden doet keuze van woonplaats.
 
-## Art. 348
-
--10.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Eenieder van wie de toestemming vereist is en die niet in de adoptie wenst toe te stemmen, kan zijn weigering te kennen geven door middel van ofwel :
+Art. 348-10.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Eenieder van wie de toestemming vereist is en die niet in de adoptie wenst toe te stemmen, kan zijn weigering te kennen geven door middel van ofwel :
 1° een persoonlijke verklaring gedaan voor de [1 familierechtbank]1 die het verzoekschrift tot adoptie behandelt en waarvan deze een proces-verbaal opstelt;
 2° een akte verleden ten overstaan van een notaris naar keuze of ten overstaan van de vrederechter van zijn woonplaats.
 Niet-verschijning voor de rechtbank na door de griffier bij gerechtsbrief te zijn opgeroepen, wordt als weigering van de toestemming beschouwd.
 (1)<W 2013-07-30/23, art. 45, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 348
-
--11.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Ingeval een persoon die overeenkomstig de artikelen 348-2 tot 348-7 in de adoptie moet toestemmen, dit weigert te doen, kan de adoptie op verzoek van de adoptant, van de adoptanten of van het openbaar ministerie toch worden uitgesproken indien de [1 familierechtbank]1 van oordeel is dat de toestemming op onverantwoorde wijze is geweigerd.
+Art. 348-11.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Ingeval een persoon die overeenkomstig de artikelen 348-2 tot 348-7 in de adoptie moet toestemmen, dit weigert te doen, kan de adoptie op verzoek van de adoptant, van de adoptanten of van het openbaar ministerie toch worden uitgesproken indien de [1 familierechtbank]1 van oordeel is dat de toestemming op onverantwoorde wijze is geweigerd.
 [2 Wanneer evenwel de vader of de moeder van het kind weigert in de adoptie toe te stemmen, kan de rechtbank de adoptie pas uitspreken wanneer na een grondig maatschappelijk onderzoek gebleken is dat deze persoon zich niet meer om het kind heeft bekommerd of de gezondheid, de veiligheid of de zedelijkheid van het kind in gevaar heeft gebracht, behalve wanneer het gaat om een nieuwe adoptie of wanneer het gaat om de adoptie van het kind of van het adoptief kind van een echtgeno(o)t(e), van een samenwonende partner of van een voormalige partner ten aanzien van wie een gemeenschappelijk ouderlijk engagement bestaat.]2 [2 Om het onverantwoorde karakter te beoordelen van de weigering om toestemming te verlenen, houdt de rechtbank rekening met het belang van het kind.]2 (1)<W 2013-07-30/23, art. 46, 065; Inwerkingtreding : 01-09-2014> (2)<W 2017-02-20/17, art. 8, 074; Inwerkingtreding : 01-04-2017>
 
 § 2. Gevolgen van de adoptie. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-## Art. 349
-
--1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Een adoptie uitgesproken bij een beslissing [1 waarvan een akte van adoptie werd opgemaakt]1 overeenkomstig artikel 1231-19 van het Gerechtelijk Wetboek, heeft gevolgen vanaf de neerlegging van het verzoekschrift.
+Art. 349-1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Een adoptie uitgesproken bij een beslissing [1 waarvan een akte van adoptie werd opgemaakt]1 overeenkomstig artikel 1231-19 van het Gerechtelijk Wetboek, heeft gevolgen vanaf de neerlegging van het verzoekschrift.
 (1)<W 2018-06-18/03, art. 44, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 349
+Art. 349-2. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De adoptant of de adoptanten kunnen in de loop van de procedure aan de rechtbank vragen dat de voornamen van de geadopteerde worden gewijzigd. Indien de geadopteerde de leeftijd van twaalf jaar heeft bereikt, moet hij in deze wijziging toestemmen.
 
--2. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De adoptant of de adoptanten kunnen in de loop van de procedure aan de rechtbank vragen dat de voornamen van de geadopteerde worden gewijzigd. Indien de geadopteerde de leeftijd van twaalf jaar heeft bereikt, moet hij in deze wijziging toestemmen.
-
-## Art. 349
-
--3. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Een adoptie kan niet bij wege van nietigheid worden bestreden.
+Art. 349-3. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Een adoptie kan niet bij wege van nietigheid worden bestreden.
 
 § 3. Vaststelling van de afstamming van de geadopteerde na de adoptie. <W 2003-04-24/32, art. 2, 017;
 
@@ -3091,85 +3008,57 @@ De herziening kan eveneens worden gevorderd door een persoon die tot de derde gr
 
 A. Gevolgen. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-## Art. 353
-
--1.[1 De adoptie verleent aan de geadopteerde in plaats van zijn naam, die van zijn adoptant.
+Art. 353-1.[1 De adoptie verleent aan de geadopteerde in plaats van zijn naam, die van zijn adoptant.
 In geval van gelijktijdige adoptie door twee echtgenoten of samenwonenden draagt de geadopteerde ofwel de naam van een van de adoptanten, ofwel één die samengesteld is uit hun twee namen, in de door hen gekozen volgorde met niet meer dan één naam voor elk van hen.
 De partijen kunnen evenwel de rechtbank vragen dat de geadopteerde zijn naam behoudt, voorafgegaan of gevolgd door de naam van de adoptant, of in geval van gelijktijdige adoptie door twee echtgenoten of samenwonenden, door de naam van een van de adoptanten, die zij kiezen overeenkomstig het tweede lid. De samenstelling van de naam van de geadopteerde is beperkt tot één naam voor de geadopteerde en één naam voor de adoptant(en).
 Het vonnis maakt melding van de verklaring waarmee de adoptanten hun keuze te kennen geven.]1 (1)<W 2014-05-08/10, art. 4, 068; Inwerkingtreding : 01-06-2014>
 
-## Art. 353
-
--2.[1 § 1. In geval van adoptie van het kind of adoptief kind [2 van een echtgenoot, van een samenwonende of van een voormalige partner]2, draagt de geadopteerde ofwel de naam [2 van de echtgenoot, van de samenwonende of van de voormalige partner]2, ofwel de naam van de adoptant, ofwel één die samengesteld is uit hun twee namen, in de door hen gekozen volgorde met niet meer dan één naam voor elk van hen.
+Art. 353-2.[1 § 1. In geval van adoptie van het kind of adoptief kind [2 van een echtgenoot, van een samenwonende of van een voormalige partner]2, draagt de geadopteerde ofwel de naam [2 van de echtgenoot, van de samenwonende of van de voormalige partner]2, ofwel de naam van de adoptant, ofwel één die samengesteld is uit hun twee namen, in de door hen gekozen volgorde met niet meer dan één naam voor elk van hen.
 [3 De partijen kunnen de rechtbank evenwel vragen dat de geadopteerde één van zijn namen behoudt, voorafgegaan of gevolgd door één naam van de adoptant of van de echtgenoot, van de samenwonende of van de voormalige partner. De samenstelling van de naam van de geadopteerde is beperkt tot één naam voor de geadopteerde en één naam voor de adoptant of voor de echtgenoot, voor de samenwonende of voor de voormalige partner.]3 Indien de naam van de geadopteerde bij de vorige adoptie vervangen werd door die van de adoptant, kunnen de partijen de rechtbank vragen dat de geadopteerde zijn naam behoudt. De partijen kunnen de rechtbank ook verzoeken dat de nieuwe naam van de geadopteerde voortaan samengesteld wordt uit de naam die hij bij die vorige adoptie heeft gekregen, voorafgegaan of gevolgd door die van de nieuwe adoptant.
 Indien de naam van de geadopteerde bij de vorige adoptie overeenkomstig artikel 353-1, derde lid, samengesteld was uit de naam van de adoptant en de naam van de geadopteerde, kunnen de partijen de rechtbank vragen dat de geadopteerde zijn naam behoudt. De partijen kunnen de rechtbank ook verzoeken dat de nieuwe naam van de geadopteerde wordt samengesteld uit de naam van de geadopteerde en de naam van de adoptant, in de door hen gekozen volgorde met niet meer dan één naam voor elk van hen.
 Het vonnis maakt melding van de verklaring waarmee de adoptanten hun keuze te kennen geven.
 § 2. In geval van nieuwe adoptie zoals bedoeld in artikel 347-1, wordt de overdracht van de naam geregeld door artikel 353-1.]1 (1)<W 2014-05-08/10, art. 5, 068; Inwerkingtreding : 01-06-2014> (2)<W 2017-02-20/17, art. 9, 074; Inwerkingtreding : 01-04-2017> (3)<W 2017-07-06/24, art. 67, 075; Inwerkingtreding : 03-08-2017>
 
-## Art. 353
-
--3.<W 2006-05-18/44, art. 5, 027; Inwerkingtreding : 30-06-2006> Is de geadopteerde ouder dan achttien jaar, dan kunnen de partijen de rechtbank vragen dat de naam van de geadopteerde onveranderd blijft [1 ...]1 .
+Art. 353-3.<W 2006-05-18/44, art. 5, 027; Inwerkingtreding : 30-06-2006> Is de geadopteerde ouder dan achttien jaar, dan kunnen de partijen de rechtbank vragen dat de naam van de geadopteerde onveranderd blijft [1 ...]1 .
 (1)<W 2014-05-08/10, art. 6, 068; Inwerkingtreding : 01-06-2014>
 
-## Art. 353
-
--4.
+Art. 353-4.
 <Opgeheven bij W 2014-05-08/10, art. 7, 068; Inwerkingtreding : 01-06-2014>
 
-## Art. 353
-
--4bis.[1 De door de adoptant of de adoptanten gekozen naam geldt ook voor de later door hen geadopteerde kinderen.
+Art. 353-4bis.[1 De door de adoptant of de adoptanten gekozen naam geldt ook voor de later door hen geadopteerde kinderen.
 Het eerste lid is evenwel niet van toepassing wanneer de adoptanten een naam aan een geadopteerd kind toekennen overeenkomstig de artikelen 353-1, derde lid, 353-2, § 1, tweede lid tot vierde lid, en 353-3.]1 (1)<W 2017-07-06/24, art. 68, 075; Inwerkingtreding : 03-08-2017>
 
-## Art. 353
-
--5.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Voor de verzoeken bedoeld in de artikelen [2 artikelen 353-1, derde lid, [3 353-2, § 1, tweede tot vierde lid]3, en 353-3]2 is de instemming vereist van de adoptant of van de adoptanten, van de geadopteerde ouder dan twaalf jaar en indien hij minder dan achttien jaar oud is, van de personen die krachtens de artikelen 348-3, 348-5, 348-6 of 348-7, moeten toestemmen in de adoptie.
+Art. 353-5.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Voor de verzoeken bedoeld in de artikelen [2 artikelen 353-1, derde lid, [3 353-2, § 1, tweede tot vierde lid]3, en 353-3]2 is de instemming vereist van de adoptant of van de adoptanten, van de geadopteerde ouder dan twaalf jaar en indien hij minder dan achttien jaar oud is, van de personen die krachtens de artikelen 348-3, 348-5, 348-6 of 348-7, moeten toestemmen in de adoptie.
 Bij gebreke van overeenstemming beslist de [1 familierechtbank]1 in het hoger belang van het kind en met eerbied voor de fundamentele rechten die het op grond van het internationaal recht toekomen.
 (1)<W 2013-07-30/23, art. 48, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2014-05-08/10, art. 9, 068; Inwerkingtreding : 01-06-2014>
 (3)<W 2017-07-06/24, art. 69, 075; Inwerkingtreding : 03-08-2017>
 
-## Art. 353
-
--6.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De naamsverandering van de - geadopteerde als gevolg van de adoptie, geldt mede voor diens afstammelingen, zelfs geboren vóór de adoptie.
+Art. 353-6.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De naamsverandering van de - geadopteerde als gevolg van de adoptie, geldt mede voor diens afstammelingen, zelfs geboren vóór de adoptie.
 De afstammelingen in de eerste graad ouder dan achttien jaar kunnen evenwel verklaren hun naam voor zichzelf en voor hun afstammelingen te behouden. Dit recht wordt uitgeoefend door hiertoe, binnen de vijftien dagen na de kennisgeving bedoeld in artikel 1231-4, tweede lid, van het Gerechtelijk Wetboek, een verzoekschrift
 
 te richten aan de [1 familierechtbank]1 die over de adoptie uitspraak moet doen. Akte van de wil de naam te behouden wordt verleend in het beschikkend gedeelte van het vonnis.
 (1)<W 2013-07-30/23, art. 49, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 353
+Art. 353-7. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De adoptie heeft van rechtswege geen enkel adelrechtelijk gevolg.
 
--7. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De adoptie heeft van rechtswege geen enkel adelrechtelijk gevolg.
-
-## Art. 353
-
--8.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De adoptant is ten aanzien van de geadopteerde bekleed met de rechten van het ouderlijk gezag, met inbegrip van het wettelijk genot, het recht om zijn ontvoogding te vorderen en toe te stemmen in zijn huwelijk.
+Art. 353-8.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De adoptant is ten aanzien van de geadopteerde bekleed met de rechten van het ouderlijk gezag, met inbegrip van het wettelijk genot, het recht om zijn ontvoogding te vorderen en toe te stemmen in zijn huwelijk.
 Wanneer de adoptant overlijdt [1 , vermoedelijk afwezig is, in de onmogelijkheid verkeert het ouderlijk gezag uit te oefenen gedurende de minderjarigheid van de geadopteerde of wilsonbekwaam is]1, wordt de voogdij geregeld overeenkomstig dit boek, titel X, hoofdstuk II.
 (1)<W 2013-03-17/14, art. 20, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 353
-
--9.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Bij adoptie door echtgenoten of samenwonenden, of ingeval de geadopteerde het kind of het adoptief kind is van de echtgenoot van de adoptant [2 , van de persoon met wie de adoptant samenwoont of van de voormalige partner van de adoptant]2, wordt het ouderlijk gezag gezamenlijk door [2 beide echtgenoten, samenwonenden of voormalige partners]2 uitgeoefend. De bepalingen van dit boek, titel IX, zijn van overeenkomstige toepassing.
+Art. 353-9.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Bij adoptie door echtgenoten of samenwonenden, of ingeval de geadopteerde het kind of het adoptief kind is van de echtgenoot van de adoptant [2 , van de persoon met wie de adoptant samenwoont of van de voormalige partner van de adoptant]2, wordt het ouderlijk gezag gezamenlijk door [2 beide echtgenoten, samenwonenden of voormalige partners]2 uitgeoefend. De bepalingen van dit boek, titel IX, zijn van overeenkomstige toepassing.
 Wanneer de beide adoptanten overlijden [1 afwezig zijn, in de onmogelijkheid verkeren het ouderlijk gezag uit te oefenen gedurende de minderjarigheid van de geadopteerde of wilsonbekwaam zijn]1, wordt de voogdij geregeld overeenkomstig dit boek, titel X, hoofdstuk II.
 (1)<W 2013-03-17/14, art. 21, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)> (2)<W 2017-02-20/17, art. 10, 074; Inwerkingtreding : 01-04-2017>
 
-## Art. 353
-
--10.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Bij overlijden van de adoptant of van de adoptanten, kunnen de moeder en de vader van het geadopteerde kind gezamenlijk of alleen aan de [1 familierechtbank]1 vragen dat het kind opnieuw onder hun ouderlijk gezag wordt geplaatst. Wordt dit verzoek ingewilligd, dan neemt de voogdij waarin voorheen was voorzien een einde.
+Art. 353-10.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Bij overlijden van de adoptant of van de adoptanten, kunnen de moeder en de vader van het geadopteerde kind gezamenlijk of alleen aan de [1 familierechtbank]1 vragen dat het kind opnieuw onder hun ouderlijk gezag wordt geplaatst. Wordt dit verzoek ingewilligd, dan neemt de voogdij waarin voorheen was voorzien een einde.
 (1)<W 2013-07-30/23, art. 50, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 353
-
--11.
+Art. 353-11.
 <Opgeheven bij W 2013-03-17/14, art. 22, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-## Art. 353
+Art. 353-12. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De band van verwantschap die uit de adoptie ontstaat, strekt zich uit tot de afstammelingen van de geadopteerde.
 
--12. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De band van verwantschap die uit de adoptie ontstaat, strekt zich uit tot de afstammelingen van de geadopteerde.
-
-## Art. 353
-
--13.[1 Het huwelijk is verboden :
+Art. 353-13.[1 Het huwelijk is verboden :
 1° tussen de adoptant en de geadopteerde of zijn afstammelingen;
 2° tussen de geadopteerde en de vorige echtgenoot van de adoptant;
 3° tussen de adoptant en de vorige echtgenoot van de geadopteerde;
@@ -3177,51 +3066,35 @@ Wanneer de beide adoptanten overlijden [1 afwezig zijn, in de onmogelijkheid ver
 5° tussen de geadopteerde en de kinderen van de adoptant.
 [2 De familierechtbank]2 kan om gewichtige redenen ontheffing verlenen van de in het eerste lid, 2° tot 5°, vermelde verbodsbepalingen.]1 [2 De procedure wordt op eenzijdig verzoekschrift ingeleid door een van de toekomstige echtgenoten. De rechtbank doet uitspraak na de toekomstige echtgenoten te hebben opgeroepen en na het advies van de procureur des Konings ter zake te hebben ingewonnen.]2 (1)<W 2010-06-02/24, art. 3, 052; Inwerkingtreding : 01-07-2010> (2)<W 2018-12-21/09, art. 119, 086; Inwerkingtreding : 10-01-2019>
 
-## Art. 353
-
--14.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De adoptant of de adoptanten zijn levensonderhoud verschuldigd aan de geadopteerde en aan diens afstammelingen indien zij behoeftig zijn. [1
+Art. 353-14.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De adoptant of de adoptanten zijn levensonderhoud verschuldigd aan de geadopteerde en aan diens afstammelingen indien zij behoeftig zijn. [1
 Artikel 203, 203bis en 203quater zijn van overeenkomstige toepassing.]1 De geadopteerde en zijn afstammelingen zijn levensonderhoud verschuldigd aan de adoptant of aan de adoptanten, indien zij behoeftig zijn : indien de geadopteerde zonder afstammelingen sterft, is zijn nalatenschap levensonderhoud verschuldigd aan de adoptant of aan de adoptanten ingeval deze personen ten tijde van het overlijden behoeftig zijn. Artikel [2 205bis, §§ 3 tot 6]2, is van toepassing op deze verplichting tot levensonderhoud.
 De verplichting tot uitkering van levensonderhoud blijft bestaan tussen de geadopteerde en zijn ouders. Deze laatsten zijn aan de' geadopteerde evenwel alleen levensonderhoud verplicht indien hij dit niet kan verkrijgen van de adoptant of adoptanten.
 Ingeval een persoon het kind of het adoptief kind van zijn echtgenoot [3 , van de persoon met wie hij samenwoont of van zijn voormalige partner]3, adopteert, zijn zowel de adoptant als zijn echtgenoot [3 , de persoon met wie hij samenwoont of zijn voormalige partner]3 hem overeenkomstig artikel 203 levensonderhoud verschuldigd. [1 Artikel 203bis en 203quater zijn van overeenkomstige toepassing.]1 (1)<W 2010-03-19/05, art. 9, 048; Inwerkingtreding : 01-08-2010; zie ook art. 17> (2)<W 2012-12-10/14, art. 6, 057; Inwerkingtreding : 21-01-2013> (3)<W 2017-02-20/17, art. 11, 074; Inwerkingtreding : 01-04-2017>
 
-## Art. 353
-
--15.
+Art. 353-15.
 <Opgeheven bij W 2022-01-19/18, art. 58, 094; Inwerkingtreding : 01-07-2022>
 
-## Art. 353
-
--16.
+Art. 353-16.
 <Opgeheven bij W 2022-01-19/18, art. 58, 094; Inwerkingtreding : 01-07-2022>
 
-## Art. 353
-
--17.
+Art. 353-17.
 <Opgeheven bij W 2022-01-19/18, art. 58, 094; Inwerkingtreding : 01-07-2022>
 
-## Art. 353
-
--18.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer overeenkomstig artikel 347-1, 3°, een gewone adoptie wordt uitgesproken na een vorige gewone adoptie, houden de gevolgen van de eerste adoptie, met uitzondering van de huwelijksbeletsels, van rechtswege op te gelden vanaf het tijdstip dat de gevolgen van de nieuwe adoptie van kracht worden. Wanneer overeenkomstig artikel 347-2, 3°, een nieuwe gewone adoptie wordt uitgesproken na een vorige gewone adoptie, geldt zulks ook ten aanzien van de vorige adoptant, zo deze niet de echtgenoot van de nieuwe adoptant is [1 , de persoon met wie deze laatste samenwoont of de voormalige partner]1.
+Art. 353-18.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer overeenkomstig artikel 347-1, 3°, een gewone adoptie wordt uitgesproken na een vorige gewone adoptie, houden de gevolgen van de eerste adoptie, met uitzondering van de huwelijksbeletsels, van rechtswege op te gelden vanaf het tijdstip dat de gevolgen van de nieuwe adoptie van kracht worden. Wanneer overeenkomstig artikel 347-2, 3°, een nieuwe gewone adoptie wordt uitgesproken na een vorige gewone adoptie, geldt zulks ook ten aanzien van de vorige adoptant, zo deze niet de echtgenoot van de nieuwe adoptant is [1 , de persoon met wie deze laatste samenwoont of de voormalige partner]1.
 Wanneer overeenkomstig artikel 347-1, 1° of 3°, een gewone adoptie wordt uitgesproken na een vorige volle adoptie, blijven de gevolgen van de eerste adoptie slechts bestaan voor zover zij niet strijdig zijn met die van de nieuwe adoptie. Wanneer overeenkomstig artikel 347-2, 1° of 3°, een nieuwe gewone adoptie wordt uitgesproken na een vorige volle adoptie, geldt dit ook ten aanzien van de vorige adoptant, zo deze niet de echtgenoot van de nieuwe adoptant is of de persoon met wie deze laatste samenwoont.
 (1)<W 2017-02-20/17, art. 12, 074; Inwerkingtreding : 01-04-2017>
 
 B. Herroeping. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-## Art. 354
-
--1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De herroeping van de gewone adoptie kan om zeer gewichtige redenen worden uitgesproken op verzoek van de adoptant, van de adoptanten of van een van hen, van de geadopteerde of van de procureur des Konings.
+Art. 354-1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De herroeping van de gewone adoptie kan om zeer gewichtige redenen worden uitgesproken op verzoek van de adoptant, van de adoptanten of van een van hen, van de geadopteerde of van de procureur des Konings.
 In geval van gewone adoptie door twee echtgenoten of samenwonenden kan de [1 familierechtbank]1 de herroeping uitspreken ten aanzien van slechts een van hen.
 (1)<W 2013-07-30/23, art. 51, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 354
-
--2.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Bij herroeping van de gewone adoptie van een kind ten aanzien van de adoptant of van de adopterende echtgenoten of samenwonenden, kunnen de vader en de moeder of een van hen vragen dat het kind opnieuw onder hun ouderlijk gezag wordt geplaatst. Bij gebreke van een dergelijk verzoek of indien het wordt afgewezen, wordt de voogdij geregeld overeenkomstig dit boek, titel X, hoofdstuk II. [2 In dit geval stelt de ambtenaar van de burgerlijke stand de bevoegde vrederechter onmiddellijk in kennis van de opmaak van de akte van herroeping van adoptie.]2 Niettemin kunnen de moeder en de vader van het kind of een van hen, de [1 familierechtbank]1 later verzoeken dat het kind opnieuw onder hun ouderlijk gezag wordt geplaatst. Indien de [1 familierechtbank]1 dit toestaat, houdt de voogdij bedoeld in het vorige lid op.
+Art. 354-2.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Bij herroeping van de gewone adoptie van een kind ten aanzien van de adoptant of van de adopterende echtgenoten of samenwonenden, kunnen de vader en de moeder of een van hen vragen dat het kind opnieuw onder hun ouderlijk gezag wordt geplaatst. Bij gebreke van een dergelijk verzoek of indien het wordt afgewezen, wordt de voogdij geregeld overeenkomstig dit boek, titel X, hoofdstuk II. [2 In dit geval stelt de ambtenaar van de burgerlijke stand de bevoegde vrederechter onmiddellijk in kennis van de opmaak van de akte van herroeping van adoptie.]2 Niettemin kunnen de moeder en de vader van het kind of een van hen, de [1 familierechtbank]1 later verzoeken dat het kind opnieuw onder hun ouderlijk gezag wordt geplaatst. Indien de [1 familierechtbank]1 dit toestaat, houdt de voogdij bedoeld in het vorige lid op.
 (1)<W 2013-07-30/23, art. 52, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2018-06-18/03, art. 46, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 354
-
--3.[1 De adoptie heeft geen gevolgen meer vanaf de opmaak van de akte van herroeping. De huwelijksbeletsels bedoeld in artikel 353-13 blijven van toepassing.]1 (1)<W 2018-06-18/03, art. 47, 082; Inwerkingtreding : 31-03-2019>
+Art. 354-3.[1 De adoptie heeft geen gevolgen meer vanaf de opmaak van de akte van herroeping. De huwelijksbeletsels bedoeld in artikel 353-13 blijven van toepassing.]1 (1)<W 2018-06-18/03, art. 47, 082; Inwerkingtreding : 31-03-2019>
 
 § 2. Volle adoptie. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
@@ -3233,30 +3106,22 @@ A. Leeftijdsvoorwaarde. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-
 
 B. Gevolgen. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-## Art. 356
-
--1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De volle adoptie verleent aan het kind en zijn afstammelingen een statuut met dezelfde rechten en verplichtingen, als ware het kind geboren uit de adoptant of uit de adoptanten.
+Art. 356-1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De volle adoptie verleent aan het kind en zijn afstammelingen een statuut met dezelfde rechten en verplichtingen, als ware het kind geboren uit de adoptant of uit de adoptanten.
 Ondervoorbehoud van de huwelijksbeletsels omschreven in de artikelen 161 tot 164, houdt het kind dat ten volle is geadopteerd, op tot zijn oorspronkelijke familie te behoren.
 Kinderen of adoptieve kinderen [1 van de echtgenoot van de adoptant, van de persoon met wie de adoptant samenwoont of van de voormalige partner van de adoptant]1, zelfs overleden, houden evenwel niet op te behoren tot de familie van [1 die echtgenoot, van de persoon met wie hij samenwoont of van de voormalige partner]1. Indien deze nog in leven is, wordt het ouderlijk gezag over de geadopteerde gezamenlijk uitgeoefend door de adoptant en [1 die echtgenoot, persoon met wie hij samenwoont of voormalige partner]1.
 (1)<W 2017-02-20/17, art. 13, 074; Inwerkingtreding : 01-04-2017>
 
-## Art. 356
-
--2.[1 Door de volle adoptie verkrijgt het kind in plaats van zijn naam, die van de adoptant.
+Art. 356-2.[1 Door de volle adoptie verkrijgt het kind in plaats van zijn naam, die van de adoptant.
 In geval van gelijktijdige volle adoptie door twee echtgenoten of samenwonenden, verklaren deze voor de rechtbank dat de geadopteerde ofwel de naam van een van de adoptanten zal dragen, ofwel één die samengesteld is uit hun twee namen, in de door hen gekozen volgorde met niet meer dan één naam voor elk van hen.
 In geval van volle adoptie van het kind of van het adoptief kind [3 van een echtgenoot, van een samenwonende of van de voormalige partner]3, verklaren deze voor de rechtbank dat de geadopteerde ofwel de naam [3 van de echtgenoot, van de samenwonende of van de voormalige partner]3, ofwel de naam van de adoptant zal dragen, ofwel één die samengesteld is uit hun twee namen, in de door hen gekozen volgorde met niet meer dan één naam voor elk van hen.
 Het vonnis maakt melding van de verklaring waarmee de adoptanten hun in het tweede en derde lid bedoelde keuze te kennen geven.
 [2 De door de adoptanten overeenkomstig het tweede en derde lid gekozen naam geldt ook voor de andere kinderen wier afstamming later ten aanzien van dezelfde ouders komt vast te staan.]2]1 (1)<W 2014-05-08/10, art. 10, 068; Inwerkingtreding : 01-06-2014> (2)<W 2014-12-18/01, art. 3, 071; Inwerkingtreding : 01-01-2015> (3)<W 2017-02-20/17, art. 14, 074; Inwerkingtreding : 01-04-2017>
 
-## Art. 356
-
--3.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer overeenkomstig artikel 347-1, 3°, een volle adoptie wordt uitgesproken, houden de gevolgen van de vorige adoptie van rechtswege op te gelden vanaf het tijdstip waarop deze van de nieuwe adoptie van kracht worden, met uitzondering van de huwelijksbeletsels.
+Art. 356-3.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer overeenkomstig artikel 347-1, 3°, een volle adoptie wordt uitgesproken, houden de gevolgen van de vorige adoptie van rechtswege op te gelden vanaf het tijdstip waarop deze van de nieuwe adoptie van kracht worden, met uitzondering van de huwelijksbeletsels.
 Wanneer overeenkomstig artikel 347-2, 3°, een nieuwe volle adoptie wordt uitgesproken, houden de gevolgen van de vorige adoptie van rechtswege op te gelden ten aanzien van de vorige adoptant die niet de echtgenoot is van de nieuwe adoptant [1 , de persoon met wie deze samenwoont of de voormalige partner]1, vanaf het tijdstip waarop de nieuwe adoptie van kracht wordt, met uitzondering van de huwelijksbeletsels.
 (1)<W 2017-02-20/17, art. 15, 074; Inwerkingtreding : 01-04-2017>
 
-## Art. 356
-
--4. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Volle adoptie is onherroepelijk.
+Art. 356-4. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Volle adoptie is onherroepelijk.
 Herziening is mogelijk overeenkomstig artikel 351.
 
 #### HOOFDSTUK II. - Internationaal recht. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
@@ -3274,38 +3139,24 @@ Volle adoptie kan in België slechts plaatsvinden indien, ingeval zulks vereist 
 
 van afstamming tussen het kind en zijn moeder en vader wordt verbroken.
 
-## Art. 359
+Art. 359-1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Iedere natuurlijke persoon of rechtspersoon, openbaar of particulier, die in het kader van een adoptie als tussenpersoon optreedt, dient te voldoen aan de voorwaarden die hem door het recht van de Staat onder wiens bevoegdheid hij valt worden opgelegd.
 
--1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Iedere natuurlijke persoon of rechtspersoon, openbaar of particulier, die in het kader van een adoptie als tussenpersoon optreedt, dient te voldoen aan de voorwaarden die hem door het recht van de Staat onder wiens bevoegdheid hij valt worden opgelegd.
-
-## Art. 359
-
--2.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer de adoptie van een kind die in het buitenland heeft plaatsgevonden en in België is erkend, de bestaande band van afstamming niet verbreekt, kan zij in België in een volle adoptie worden omgezet indien de toestemmingen bedoeld in artikel 361- 4, 1°, b) en c), zijn gegeven of worden gegeven met het oog op een adoptie met dergelijke gevolgen.
+Art. 359-2.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer de adoptie van een kind die in het buitenland heeft plaatsgevonden en in België is erkend, de bestaande band van afstamming niet verbreekt, kan zij in België in een volle adoptie worden omgezet indien de toestemmingen bedoeld in artikel 361- 4, 1°, b) en c), zijn gegeven of worden gegeven met het oog op een adoptie met dergelijke gevolgen.
 [1 Wanneer de oorspronkelijke afstamming van het kind niet vaststaat of wanneer de vader en de moeder van het kind, of de enige ouder ten aanzien van wie de afstamming vaststaat, overleden zijn, vermoedelijk afwezig zijn, geen gekende verblijfplaats hebben of in de onmogelijkheid verkeren om hun wil te kennen te geven of wilsonbekwaam zijn en het kind geen wettelijke vertegenwoordiger heeft in de Staat van herkomst, wordt in afwijking van artikel 361-4, 1°, c), de toestemming tot de omzetting in volle adoptie gegeven door een voogd ad hoc aangewezen door de rechtbank op verzoek van iedere betrokken persoon of van de procureur des Konings.]1 (1)<W 2023-12-19/05, art. 14, 103; Inwerkingtreding : 06-01-2024>
 
-## Art. 359
+Art. 359-3. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> (...) de bepalingen van deze afdeling die op adoptie van toepassing zijn, gelden voor de omzetting van een adoptie die niet voor gevolg heeft gehad de bestaande band van afstamming te verbreken in een volle adoptie. <W 2004-07-16/31, art. 131, 020;
 
--3. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> (...) de bepalingen van deze afdeling die op adoptie van toepassing zijn, gelden voor de omzetting van een adoptie die niet voor gevolg heeft gehad de bestaande band van afstamming te verbreken in een volle adoptie. <W 2004-07-16/31, art. 131, 020;
+Art. 359-4. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Bij herroeping van een adoptie zijn de beschermingsmaatregelen bedoeld in artikel 363-4 van toepassing.
 
-## Art. 359
+Art. 359-5. (Opgeheven) <W 2004-07-16/31, art. 139, 020; Inwerkingtreding : 01-09-2005>
 
--4. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Bij herroeping van een adoptie zijn de beschermingsmaatregelen bedoeld in artikel 363-4 van toepassing.
-
-## Art. 359
-
--5. (Opgeheven) <W 2004-07-16/31, art. 139, 020; Inwerkingtreding : 01-09-2005>
-
-## Art. 359
-
--6. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De nietigheid van een adoptie kan in België niet worden uitgesproken, zelfs niet indien het recht van de Staat waar zij is totstandgekomen dit toestaat.
+Art. 359-6. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De nietigheid van een adoptie kan in België niet worden uitgesproken, zelfs niet indien het recht van de Staat waar zij is totstandgekomen dit toestaat.
 
 ##### Afdeling 2. - Totstandkoming van een adoptie die de interlandelijke overbrenging van een kind onderstelt. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
 § 1. Definities. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-## Art. 360
-
--1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> In deze afdeling wordt verstaan onder :
+Art. 360-1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> In deze afdeling wordt verstaan onder :
 1° "het Verdrag" : het Verdrag inzake de internationale samenwerking en de bescherming van kinderen op het gebied van de interlandelijke adoptie, gedaan te 's Gravenhage op 29 mei 1993;
 2° "federale centrale autoriteit" : de autoriteit aangewezen door de Minister van Justitie om in België de opdrachten van een centrale autoriteit te verrichten zoals die in het Verdrag zijn omschreven en waarmee zij op grond van dit Wetboek wordt belast, alsook alle andere taken waarmee dit wetboek haar belast;
 3° "centrale autoriteit van de gemeenschap" : de autoriteit aangewezen door de bevoegde gemeenschap;
@@ -3316,9 +3167,7 @@ van afstamming tussen het kind en zijn moeder en vader wordt verbroken.
 a) indien het gaat om een door het Verdrag gebonden Staat, de centrale autoriteit van die Staat in de zin van het Verdrag;
 b) indien het gaat om een niet door het Verdrag gebonden Staat, iedere autoriteit die als dusdanig door het recht van die Staat werd erkend.
 
-## Art. 360
-
--2. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De bepalingen van deze afdeling zijn van toepassing wanneer het kind :
+Art. 360-2. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De bepalingen van deze afdeling zijn van toepassing wanneer het kind :
 1° vanuit de Staat van herkomst naar België werd, wordt of moet worden overgebracht, hetzij na zijn adoptie in deze Staat door een persoon of door personen met gewone verblijfplaats in België, hetzij met het oog op een dergelijke adoptie in België of in deze Staat, of
 2° in België zijn gewone verblijfplaats heeft en het naar een andere Staat werd, wordt of moet worden overgebracht, hetzij na zijn adoptie in België door een persoon of personen met gewone verblijfplaats in die andere Staat, hetzij met het oog op een dergelijke adoptie in België of in die andere Staat, of
 3° in België verblijft zonder gemachtigd te zijn er zich te vestigen of er langer dan drie maanden te verblijven, teneinde er te worden geadopteerd door een persoon of personen die er hun gewone verblijfplaats hebben.
@@ -3326,25 +3175,17 @@ De adopties bedoeld in dit artikel worden "interlandelijke adopties" genoemd.
 
 § 2. Het kind heeft zijn gewone verblijfplaats in een andere Staat. <W 2003-04-24/32, art. 2, 017;
 
-## Art. 361
-
--1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De persoon of de personen met gewone verblijfplaats in België die een kind wensen te adopteren dat zijn gewone verblijfplaats in een andere Staat heeft, moeten alvorens enige stappen met het oog op een adoptie te ondernemen, een vonnis verkrijgen waaruit blijkt dat zij bekwaam en geschikt zijn om een [4 ...]4 adoptie aan te gaan.
+Art. 361-1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De persoon of de personen met gewone verblijfplaats in België die een kind wensen te adopteren dat zijn gewone verblijfplaats in een andere Staat heeft, moeten alvorens enige stappen met het oog op een adoptie te ondernemen, een vonnis verkrijgen waaruit blijkt dat zij bekwaam en geschikt zijn om een [4 ...]4 adoptie aan te gaan.
 Vooraleer hun geschiktheid wordt beoordeeld, moeten zij de voorbereiding hebben gevolgd die de bevoegde gemeenschap organiseert teneinde hen inzonderheid inlichtingen te verstrekken betreffende de verschillende stappen van de adoptieprocedure, de juridische gevolgen en de andere gevolgen van de adoptie alsook over de mogelijkheid en het nut van nazorg na de adoptie. [2 De voorbereiding is niet verplicht voor de adoptant of de adoptanten die deze voorbereiding reeds hebben gevolgd bij een eerdere adoptie en van wie de geschiktheid om te adopteren door de [3 familierechtbank]3 is erkend.]2 Deze verplichting geldt voor alle adoptanten, zelfs voor diegenen die een kind wensen te adopteren dat met hen verwant is.
 [1 De voorbereiding moet niet worden hernieuwd in het kader van de procedure tot verlenging van de geschiktheid om te adopteren.]1 (1)<W 2009-12-30/14, art. 62, 046; Inwerkingtreding : 16-01-2010> (2)<W 2012-06-20/15, art. 3, 056; Inwerkingtreding : 20-08-2012> (3)<W 2013-07-30/23, art. 53, 065; Inwerkingtreding : 01-09-2014> (4)<W 2017-07-06/24, art. 6, 075; Inwerkingtreding : 01-01-2020>
 
-## Art. 361
+Art. 361-2.[1 De federale centrale autoriteit stuurt de bevoegde centrale autoriteit van de gemeenschap onverwijld alle beslissingen die haar overeenkomstig de artikelen 1231-1/8, 1231-1/14 en 1231-57 van het Gerechtelijk Wetboek zijn toegezonden met betrekking tot de geschiktheid, de ongeschiktheid of de verlenging van de geschiktheid van de adoptant of de adoptanten, alsook het in artikel 1231-1/5 van het Gerechtelijk Wetboek bedoelde schriftelijk advies van het openbaar ministerie.]1 (1)<W 2017-07-06/24, art. 7, 075; Inwerkingtreding : 01-01-2020>
 
--2.[1 De federale centrale autoriteit stuurt de bevoegde centrale autoriteit van de gemeenschap onverwijld alle beslissingen die haar overeenkomstig de artikelen 1231-1/8, 1231-1/14 en 1231-57 van het Gerechtelijk Wetboek zijn toegezonden met betrekking tot de geschiktheid, de ongeschiktheid of de verlenging van de geschiktheid van de adoptant of de adoptanten, alsook het in artikel 1231-1/5 van het Gerechtelijk Wetboek bedoelde schriftelijk advies van het openbaar ministerie.]1 (1)<W 2017-07-06/24, art. 7, 075; Inwerkingtreding : 01-01-2020>
-
-## Art. 361
-
--2/1. [1 Het rapport bedoeld in artikel 15 van het Verdrag op grond waarvan aan de bevoegde autoriteit van de Staat van herkomst voldoende gegevens ter beschikking moeten worden gesteld met betrekking tot hun persoon om haar de mogelijkheid te bieden voor ieder kind voor wie een adoptie nodig is, de persoon of personen aan te wijzen die het kind de meest geschikte omgeving en de beste waarborgen voor een goede integratie kunnen bieden, bevat gegevens inzake hun identiteit, hun wettelijke bekwaamheid, hun persoonlijke, familiale en medische toestand, hun sociaal milieu, hun beweegredenen en hun geschiktheid om een adoptie aan te gaan, alsmede inzake de kinderen voor wie zij de zorg op zich zouden kunnen nemen.
+Art. 361-2/1. [1 Het rapport bedoeld in artikel 15 van het Verdrag op grond waarvan aan de bevoegde autoriteit van de Staat van herkomst voldoende gegevens ter beschikking moeten worden gesteld met betrekking tot hun persoon om haar de mogelijkheid te bieden voor ieder kind voor wie een adoptie nodig is, de persoon of personen aan te wijzen die het kind de meest geschikte omgeving en de beste waarborgen voor een goede integratie kunnen bieden, bevat gegevens inzake hun identiteit, hun wettelijke bekwaamheid, hun persoonlijke, familiale en medische toestand, hun sociaal milieu, hun beweegredenen en hun geschiktheid om een adoptie aan te gaan, alsmede inzake de kinderen voor wie zij de zorg op zich zouden kunnen nemen.
 Wanneer een beslissing tot verlenging van de termijn van geschiktheid van de adoptant of adoptanten de geschiktheidsvoorwaarden wijzigt, wordt een tweede verslag bijgevoegd dat enkel betrekking heeft op de nieuwe voorwaarden van die beslissing.
 Ook het schriftelijk advies van het openbaar ministerie bedoeld in artikel 1231-1/5 van het Gerechtelijk Wetboek, wordt bijgevoegd.]1 (1)<Ingevoegd bij W 2017-07-06/24, art. 8, 075; Inwerkingtreding : 01-01-2020>
 
-## Art. 361
-
--3.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De overbrenging van het kind naar België met het oog op een adoptie kan slechts plaatsvinden en de adoptie slechts uitgesproken worden wanneer aan volgende voorwaarden is voldaan :
+Art. 361-3.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De overbrenging van het kind naar België met het oog op een adoptie kan slechts plaatsvinden en de adoptie slechts uitgesproken worden wanneer aan volgende voorwaarden is voldaan :
 1° de bevoegde centrale autoriteit van de gemeenschap heeft de stukken bedoeld in artikel 361-2 bezorgd aan de bevoegde autoriteit van de Staat van herkomst;
 2° de bevoegde centrale autoriteit van de gemeenschap heeft van de bevoegde autoriteit van de Staat van herkomst ontvangen :
 a) een verslag dat gegevens bevat omtrent de identiteit van het kind, zijn adopteerbaarheid, zijn persoonlijke achtergrond, zijn gezinssituatie, zijn medisch verleden en dat van zijn familie, zijn sociaal milieu [1 ...]1, alsmede zijn bijzondere behoeften; en
@@ -3354,9 +3195,7 @@ b) de andere voor de adoptie vereiste stukken;
 5° de bevoegde centrale autoriteit van de gemeenschap en de bevoegde autoriteit van de Staat van herkomst van het kind hebben schriftelijk hun goedkeuring gehecht aan de beslissing om het aan de adoptant of aan de adoptanten toe te vertrouwen.
 (1)<W 2017-07-06/24, art. 9, 075; Inwerkingtreding : 01-01-2020>
 
-## Art. 361
-
--4. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Behoudens indien de bevoegde centrale autoriteit van de gemeenschap gelijkwaardige documenten aanvaardt of, ingeval het gaat om één of meerdere documenten bedoeld in 3° hieronder, indien deze autoriteit de overlegging ervan vrijstelt wanneer deze materieel onmogelijk blijkt, zijn de stukken bedoeld in artikel 361-3, eerste lid, 2°, b), de volgende :
+Art. 361-4. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Behoudens indien de bevoegde centrale autoriteit van de gemeenschap gelijkwaardige documenten aanvaardt of, ingeval het gaat om één of meerdere documenten bedoeld in 3° hieronder, indien deze autoriteit de overlegging ervan vrijstelt wanneer deze materieel onmogelijk blijkt, zijn de stukken bedoeld in artikel 361-3, eerste lid, 2°, b), de volgende :
 1° een voor eensluidend verklaard afschrift :
 a) van de akte van geboorte van het kind;
 b) van de akte houdende toestemming van het kind in de adoptie, wanneer zij vereist is;
@@ -3372,9 +3211,7 @@ f) bevestigt dat de toestemmingen van de moeder en de vader, indien deze vereist
 g) bevestigt dat het kind, rekening houdend met zijn leeftijd en maturiteit, de nodige raadgevingen heeft ontvangen en dat het behoorlijk is ingelicht over de gevolgen van de adoptie en van zijn toestemming in de adoptie indien deze vereist is, en dat zijn wensen en mening in aanmerking zijn genomen;
 h) bevestigt dat de toestemming van het kind in de adoptie, indien deze vereist is, vrij werd gegeven, met inachtneming van de vereiste wettelijke vormen, dat deze niet tegen betaling of in ruil voor enige tegenprestatie werd verkregen, en niet werd ingetrokken.
 
-## Art. 361
-
--5.<ingevoegd bij W 2005-12-06/30, art. 2; Inwerkingtreding : 26-12-2005>In afwijking van de artikelen 361-3 en 361-4 kan, ingeval het recht dat van toepassing is in de Staat van herkomst van het kind noch de adoptie noch de plaatsing met het oog op adoptie kent, de overbrenging van het kind naar België met het oog op adoptie slechts plaatsvinden en de adoptie slechts worden uitgesproken wanneer aan volgende voorwaarden is voldaan :
+Art. 361-5.<ingevoegd bij W 2005-12-06/30, art. 2; Inwerkingtreding : 26-12-2005>In afwijking van de artikelen 361-3 en 361-4 kan, ingeval het recht dat van toepassing is in de Staat van herkomst van het kind noch de adoptie noch de plaatsing met het oog op adoptie kent, de overbrenging van het kind naar België met het oog op adoptie slechts plaatsvinden en de adoptie slechts worden uitgesproken wanneer aan volgende voorwaarden is voldaan :
 1° de bevoegde centrale autoriteit van de gemeenschap heeft van de bevoegde autoriteit van de Staat van herkomst van het kind een verslag ontvangen dat gegevens bevat over de identiteit van het kind, zijn persoonlijke achtergrond, zijn gezinssituatie, zijn medisch verleden en dat van zijn familie, zijn sociaal milieu [1 ...]1, alsmede zijn bijzondere behoeften;
 2° de bevoegde centrale autoriteit van de gemeenschap heeft van de adoptant of de adoptanten de volgende stukken ontvangen :
 a) een voor eensluidend verklaard afschrift van de akte van geboorte van het kind;
@@ -3388,19 +3225,13 @@ g) een bewijs van de nationaliteit van het kind en van zijn gewone verblijfplaat
 4° de bevoegde centrale autoriteit van de gemeenschap en de bevoegde autoriteit van de Staat van herkomst van het kind hebben schriftelijk hun goedkeuring gehecht aan de beslissing om het aan de adoptant of aan de adoptanten toe te vertrouwen.
 (1)<W 2017-07-06/24, art. 10, 075; Inwerkingtreding : 01-01-2020>
 
-## Art. 361
-
--6. <ingevoegd bij W 2005-12-06/30, art. 3; Inwerkingtreding : 26-12-2005> De centrale autoriteiten van de gemeenschappen delen onverwijld aan de federale centrale autoriteit de buitenlandse beslissingen mee bedoeld in de artikelen 361-3 en 361-5 op grond waarvan de overbrenging van het kind van de Staat van herkomst naar België toegelaten werd met het oog op adoptie.
+Art. 361-6. <ingevoegd bij W 2005-12-06/30, art. 3; Inwerkingtreding : 26-12-2005> De centrale autoriteiten van de gemeenschappen delen onverwijld aan de federale centrale autoriteit de buitenlandse beslissingen mee bedoeld in de artikelen 361-3 en 361-5 op grond waarvan de overbrenging van het kind van de Staat van herkomst naar België toegelaten werd met het oog op adoptie.
 
 § 3. Het kind heeft zijn gewone verblijfplaats in België. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09- 2005>
 
-## Art. 362
+Art. 362-1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer de bevoegde autoriteit van een andere Staat aan de federale centrale autoriteit een verslag heeft toegestuurd over een persoon of personen die een kind wensen te adopteren dat zijn gewone verblijfplaats in België heeft, bezorgt zij het binnen veertien dagen aan de centrale autoriteit van de gemeenschap.
 
--1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer de bevoegde autoriteit van een andere Staat aan de federale centrale autoriteit een verslag heeft toegestuurd over een persoon of personen die een kind wensen te adopteren dat zijn gewone verblijfplaats in België heeft, bezorgt zij het binnen veertien dagen aan de centrale autoriteit van de gemeenschap.
-
-## Art. 362
-
--2.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Een kind dat zijn gewone verblijfplaats in België heeft, kan slechts worden geadopteerd door een persoon of personen die hun gewone verblijfplaats in een andere Staat hebben indien de [1 familierechtbank]1 bij wie de procedure aanhangig is gemaakt volgens artikel 1231-34 van het Gerechtelijk Wetboek :
+Art. 362-2.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Een kind dat zijn gewone verblijfplaats in België heeft, kan slechts worden geadopteerd door een persoon of personen die hun gewone verblijfplaats in een andere Staat hebben indien de [1 familierechtbank]1 bij wie de procedure aanhangig is gemaakt volgens artikel 1231-34 van het Gerechtelijk Wetboek :
 1° op grond van een door haar bevolen maatschappelijk onderzoek en rekening houdend met de culturele en psychosociale elementen eigen aan het kind, heeft vastgesteld dat het kind interlandelijk adopteerbaar is;
 2° heeft vastgesteld dat, gelet op de mogelijkheden tot plaatsing van het kind in België, de interlandelijke adoptie aan het hoger belang van het kind en aan de eerbied voor de fundamentele rechten die het op grond van het internationaal recht toekomen, beantwoordt;
 3° zich ervan heeft vergewist dat de personen, instellingen en autoriteiten van wie de toestemming voor de adoptie is vereist, de nodige raadgevingen hebben ontvangen en dat zij behoorlijk zijn ingelicht over de gevolgen van die toestemming, inzonderheid met betrekking tot het handhaven of het verbreken van de bestaande rechtsbanden tussen het kind en zijn oorspronkelijke familie ingevolge een adoptie;
@@ -3410,17 +3241,13 @@ g) een bewijs van de nationaliteit van het kind en van zijn gewone verblijfplaat
 7° zich ervan heeft vergewist dat de toestemming van het kind in de adoptie, indien deze vereist is, vrij en met inachtneming van de vereiste wettelijke vormen werd gegeven, dat deze niet tegen betaling of in ruil voor enige tegenprestatie is verkregen en niet werd ingetrokken.
 (1)<W 2013-07-30/23, art. 55, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 362
-
--3. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Bovendien kan de adoptie slechts plaatsvinden indien de bevoegde centrale autoriteit van de gemeenschappen :
+Art. 362-3. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Bovendien kan de adoptie slechts plaatsvinden indien de bevoegde centrale autoriteit van de gemeenschappen :
 1° van de bevoegde autoriteit van de Staat van opvang het verslag bedoeld in artikel 362-1 heeft ontvangen dat gegevens bevat omtrent de identiteit van de adoptant of de adoptanten, hun wettelijke bekwaamheid en hun geschiktheid om te adopteren, hun persoonlijke achtergrond, hun gezinssituatie en hun gezondheidstoestand, hun sociaal milieu, hun beweegredenen, hun geschiktheid om een interlandelijke adoptie aan te gaan en omtrent de kinderen waarvoor zij de zorg op zich zouden kunnen nemen;
 2° van de federale centrale autoriteit het verslag heeft ontvangen bedoeld in artikel 1231-38 van het Gerechtelijk Wetboek;
 3° op grond van inzonderheid de verslagen bedoeld in 1° en 2°, en rekening houdend met de omstandigheden van de opvoeding van het kind en met zijn etnische, godsdienstige, levensbeschouwelijke en culturele achtergrond, heeft vastgesteld dat de beslissing om het kind toe te vertrouwen aan de adoptant of de adoptanten aan het hoger belang van het kind en aan de eerbied voor de fundamentele rechten die het op grond van het internationaal recht toekomen, beantwoordt;
 4° het in 2° bedoelde verslag heeft overgezonden aan de bevoegde autoriteit van de Staat van opvang, samen met het bewijs dat de vereiste toestemmingen zijn gegeven en met de redenen voor haar conclusie inzake de plaatsing.
 
-## Art. 362
-
--4. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De beslissing om een kind dat in België zijn gewone verblijfplaats heeft, toe te vertrouwen aan een adoptant of aan adoptanten die hun gewone verblijfplaats in een andere Staat hebben, kan slechts worden genomen en het kind kan met het oog op zijn adoptie in deze Staat, België slechts verlaten, indien de bepalingen van de artikelen 362-2 en 362-3 zijn nageleefd en wanneer daarenboven :
+Art. 362-4. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De beslissing om een kind dat in België zijn gewone verblijfplaats heeft, toe te vertrouwen aan een adoptant of aan adoptanten die hun gewone verblijfplaats in een andere Staat hebben, kan slechts worden genomen en het kind kan met het oog op zijn adoptie in deze Staat, België slechts verlaten, indien de bepalingen van de artikelen 362-2 en 362-3 zijn nageleefd en wanneer daarenboven :
 1° de bevoegde autoriteit van de Staat van opvang schriftelijk heeft bevestigd dat de adoptant of de adoptanten bekwaam en geschikt zijn om te adopteren;
 2° de bevoegde autoriteit van de Staat van opvang schriftelijk heeft bevestigd dat het kind gemachtigd is het grondgebied van de Staat van opvang binnen te komen en aldaar permanent te verblijven;
 3° de bevoegde centrale autoriteit van de gemeenschap zich ervan heeft vergewist dat de adoptant of de adoptanten ermee hebben ingestemd dat kind te adopteren;
@@ -3429,93 +3256,66 @@ g) een bewijs van de nationaliteit van het kind en van zijn gewone verblijfplaat
 
 § 4. Beschermingsmaatregelen. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-## Art. 363
-
--1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De adoptant of de adoptanten en de bloedverwanten van het kind of enig ander persoon die het onder zijn bewaring heeft of van wie de toestemming in de adoptie vereist is, mogen met elkaar niet in contact treden zolang de bepalingen van de artikelen 361-1 en 361-3, 1° tot 5°, of van de artikelen 362-2 tot 362-4 niet in acht zijn genomen, behalve indien de adoptie plaatsvindt tussen leden van een zelfde familie of indien is voldaan aan de voorwaarden gesteld door de bevoegde autoriteit van de Staat van herkomst van het kind [1 , en dat in dat laatste geval contact werd toegestaan door de bevoegde centrale autoriteit van de gemeenschappen in België]1.
+Art. 363-1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De adoptant of de adoptanten en de bloedverwanten van het kind of enig ander persoon die het onder zijn bewaring heeft of van wie de toestemming in de adoptie vereist is, mogen met elkaar niet in contact treden zolang de bepalingen van de artikelen 361-1 en 361-3, 1° tot 5°, of van de artikelen 362-2 tot 362-4 niet in acht zijn genomen, behalve indien de adoptie plaatsvindt tussen leden van een zelfde familie of indien is voldaan aan de voorwaarden gesteld door de bevoegde autoriteit van de Staat van herkomst van het kind [1 , en dat in dat laatste geval contact werd toegestaan door de bevoegde centrale autoriteit van de gemeenschappen in België]1.
 (In het geval bedoeld in artikel 361-5 mogen de adoptant of de adoptanten en de ouders van het kind of enig ander persoon die het onder zijn bewaring heeft of van wie de toestemming in de adoptie vereist is, met elkaar niet in contact treden zolang de bepalingen van de artikelen 361-1 en 361-5, 4°, niet in acht zijn genomen, behalve indien de adoptie plaatsvindt tussen leden van eenzelfde familie.) <W 2005-12-06/30, art. 4, 024;
 (1)<W 2017-07-06/24, art. 11, 075; Inwerkingtreding : 03-08-2017>
 
-## Art. 363
+Art. 363-2. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Elke autoriteit bevoegd inzake adoptie die vaststelt dat een van de bepalingen van het Verdrag of van de wet niet is nageleefd of kennelijk dreigt niet te worden nageleefd, stelt elke verdere beslissing of handeling uit en geeft daarvan onverwijld kennis aan de betrokkenen, aan de federale centrale autoriteit en aan de bevoegde centrale autoriteit van de gemeenschap opdat zij ervoor zouden zorgen dat alle nuttige maatregelen worden genomen.
 
--2. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Elke autoriteit bevoegd inzake adoptie die vaststelt dat een van de bepalingen van het Verdrag of van de wet niet is nageleefd of kennelijk dreigt niet te worden nageleefd, stelt elke verdere beslissing of handeling uit en geeft daarvan onverwijld kennis aan de betrokkenen, aan de federale centrale autoriteit en aan de bevoegde centrale autoriteit van de gemeenschap opdat zij ervoor zouden zorgen dat alle nuttige maatregelen worden genomen.
-
-## Art. 363
-
--3.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer de adoptant of een van de adoptanten bewust een bepaling van het Verdrag of van de wet heeft overtreden of tijdens de adoptieprocedure bedrog heeft gepleegd, weigert de [1 familierechtbank]1 de adoptie uit te spreken. Van deze regel kan slechts worden afgeweken indien behoorlijk vastgestelde redenen met betrekking tot de eerbied voor de rechten van het kind zulks vereisen.
+Art. 363-3.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer de adoptant of een van de adoptanten bewust een bepaling van het Verdrag of van de wet heeft overtreden of tijdens de adoptieprocedure bedrog heeft gepleegd, weigert de [1 familierechtbank]1 de adoptie uit te spreken. Van deze regel kan slechts worden afgeweken indien behoorlijk vastgestelde redenen met betrekking tot de eerbied voor de rechten van het kind zulks vereisen.
 De griffier bezorgt de beslissing tot weigering aan de federale centrale autoriteit, welke de bevoegde centrale autoriteit van de gemeenschap en, in voorkomend geval, de bevoegde autoriteiten van de Staat van herkomst hiervan in kennis stelt.
 De Belgische rechter weigert in eik geval de adoptie uit te spreken :
 1° wanneer wordt vastgesteld dat aan het verzoek tot adoptie een ontvoering van, een verkoop van of een handel in kinderen is voorafgegaan; of
 2° wanneer hij vaststelt dat de adoptie erop is gericht de wetsbepalingen inzake de nationaliteit of die betreffende de toegang tot het grondgebied, het verblijf, de vestiging en de verwijdering van vreemdelingen te omzeilen.
 (1)<W 2013-07-30/23, art. 56, 065; Inwerkingtreding : 01-09-2014>
 
-## Art. 363
-
--4. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer de adoptie moet plaatsvinden na de overbrenging van het vreemde kind naar België en blijkt dat het verdere verblijf van het kind in het opvanggezin niet langer aan zijn hoger belang en aan de eerbied voor de fundamentele rechten die het op grond van het internationaal recht toekomen, beantwoordt, nemen de bevoegde autoriteiten, in nauw overleg, de nodige maatregelen om het kind te beschermen, inzonderheid om :
+Art. 363-4. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Wanneer de adoptie moet plaatsvinden na de overbrenging van het vreemde kind naar België en blijkt dat het verdere verblijf van het kind in het opvanggezin niet langer aan zijn hoger belang en aan de eerbied voor de fundamentele rechten die het op grond van het internationaal recht toekomen, beantwoordt, nemen de bevoegde autoriteiten, in nauw overleg, de nodige maatregelen om het kind te beschermen, inzonderheid om :
 1° het kind weg te halen bij de personen die het wensten te adopteren en om er voorlopig zorg voor te dragen;
 2° in overleg met de bevoegde autoriteit van de Staat van herkomst van het kind, onverwijld te zorgen voor een nieuwe plaatsing van het kind met het oog op zijn adoptie of bij gebreke daarvan, voor een duurzame alternatieve opvang; in dat geval kan het kind slechts worden geadopteerd indien de bevoegde autoriteit van de Staat van herkomst op behoorlijke wijze is voorgelicht omtrent de nieuwe adoptieouders en indien de toestemmingen met het oog op die nieuwe adoptie zijn gegeven;
 3° in laatste instantie te zorgen voor de terugkeer van het kind naar de Staat van herkomst indien zijn hoger belang en de eerbied voor de fundamentele rechten die het op grond van het internationaal recht toekomen, zulks vereisen.
 Het kind wordt geraadpleegd overeenkomstig artikel 1231-11 van het Gerechtelijk Wetboek.
 Het eerste en tweede lid zijn eveneens van toepassing in geval van erkenning van een buitenlandse beslissing van herroeping of herziening van een adoptie.
-
-## Art. 363
-
--5. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De maatregelen bedoeld in het vorige artikel worden meer bepaald in de volgende gevallen getroffen :
+Art. 363-5. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De maatregelen bedoeld in het vorige artikel worden meer bepaald in de volgende gevallen getroffen :
 1° de adoptant of de adoptanten hebben zonder geldige reden verzuimd een verzoekschrift tot adoptie of tot erkenning van de adoptie in te dienen binnen zes maanden te rekenen van de aankomst van het kind in België of hebben duidelijk afgezien van hun voornemen om te adopteren;
 2° de bevoegde Belgische rechtbank heeft geweigerd de adoptie uit te spreken of te erkennen, en die beslissing is definitief geworden.
 
-## Art. 363
-
--6. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> In geval van repatriëring op grond van de artikelen 363-4 en 363-5 komen de kosten voor verblijf, verzorging, alsmede de reiskosten van het kind hoofdelijk ten laste van de adoptant of de adoptanten en, in voorkomend geval, van de erkende adoptiedienst die op hun verzoek is opgetreden en waarvan de aansprakelijkheid is vastgesteld, of van enig ander persoon die op onwettige wijze bij de adoptie als tussenpersoon is opgetreden.
+Art. 363-6. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> In geval van repatriëring op grond van de artikelen 363-4 en 363-5 komen de kosten voor verblijf, verzorging, alsmede de reiskosten van het kind hoofdelijk ten laste van de adoptant of de adoptanten en, in voorkomend geval, van de erkende adoptiedienst die op hun verzoek is opgetreden en waarvan de aansprakelijkheid is vastgesteld, of van enig ander persoon die op onwettige wijze bij de adoptie als tussenpersoon is opgetreden.
 
 ##### Afdeling 3. - Uitwerking van buitenlandse beslissingen inzake adoptie in België <W 2003-04-24/32, art. 2, 017;
 
 § 1. Erkenning van adopties beheerst door het Verdrag. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01- 09-2005>
 
-## Art. 364
-
--1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Iedere adoptie die is tot stand gekomen in een andere Staat die door het Verdrag is gebonden, wordt in België van rechtswege erkend indien zij door de bevoegde autoriteit van die Staat in overeenstemming met het Verdrag is verklaard door het getuigschrift bedoeld in artikel 364-2. De erkenning kan slechts worden geweigerd wanneer de adoptie, rekening houdend met het hoger belang van het kind en met de fundamentele rechten die het op grond van het internationaal recht toekomen, kennelijk strijdig is met de openbare orde.
+Art. 364-1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Iedere adoptie die is tot stand gekomen in een andere Staat die door het Verdrag is gebonden, wordt in België van rechtswege erkend indien zij door de bevoegde autoriteit van die Staat in overeenstemming met het Verdrag is verklaard door het getuigschrift bedoeld in artikel 364-2. De erkenning kan slechts worden geweigerd wanneer de adoptie, rekening houdend met het hoger belang van het kind en met de fundamentele rechten die het op grond van het internationaal recht toekomen, kennelijk strijdig is met de openbare orde.
 Iedere door het Verdrag beheerste adoptie die heeft plaatsgevonden in een andere Staat welke door dit Verdrag is gebonden en die niet voldoet aan de hoger omschreven voorwaarden, wordt in België niet erkend.
 
-## Art. 364
-
--2. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Eenieder die zich in België wenst te beroepen op een adoptie die in het buitenland is totstandgekomen, legt de beslissing of de akte houdende adoptie voor samen met het getuigschrift waaruit blijkt dat zij in overeenstemming is met het Verdrag :
+Art. 364-2. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Eenieder die zich in België wenst te beroepen op een adoptie die in het buitenland is totstandgekomen, legt de beslissing of de akte houdende adoptie voor samen met het getuigschrift waaruit blijkt dat zij in overeenstemming is met het Verdrag :
 1° indien de geadopteerde zijn gewone verblijfplaats heeft in een Staat waarmee België geen overeenkomst betreffende de opheffing van grenscontroles op personen heeft gesloten : aan de bevoegde Belgische diplomatieke of consulaire overheid of aan die van de Staat welke de belangen van België behartigt, en wel vooraleer het kind naar België wordt overgebracht; deze overheid onderzoekt de authenticiteit van de stukken en bezorgt hiervan een kopie aan de federale centrale autoriteit die nagaat of de adoptie niet kennelijk strijdig is met de openbare orde;
 2° in de andere gevallen : aan de federale centrale autoriteit; deze onderzoekt de authenticiteit van de stukken en gaat na of de adoptie niet kennelijk strijdig is met de openbare orde.
 Wanneer de voorwaarden in het geval omschreven in 1° zijn vervuld, stelt de bevoegde Belgische diplomatieke of consulaire overheid of die van de Staat welke de belangen van België behartigt, een paspoort op naam van het kind op indien het Belg is, of verleent aan het kind de machtiging om in België te verblijven. Zij stelt de federale centrale autoriteit daarvan in kennis.
 
-## Art. 364
-
--3. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De bepalingen van deze paragraaf zijn eveneens van toepassing op de erkenning van de door het Verdrag beheerste vreemde beslissingen van omzetting van adoptie.
+Art. 364-3. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De bepalingen van deze paragraaf zijn eveneens van toepassing op de erkenning van de door het Verdrag beheerste vreemde beslissingen van omzetting van adoptie.
 
 § 2. Erkenning van adopties die niet door het Verdrag zijn beheerst. <W 2003-04-24/32, art. 2, 017;
 
-## Art. 365
-
--1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Rechterlijke beslissingen en openbare akten houdende totstandkoming van een adoptie in een andere Staat, worden in België erkend indien :
+Art. 365-1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Rechterlijke beslissingen en openbare akten houdende totstandkoming van een adoptie in een andere Staat, worden in België erkend indien :
 1° de adoptie is tot stand gekomen door de autoriteit welke door het recht van die Staat als bevoegd wordt beschouwd, conform de geldende vormvereisten en procedures in die Staat;
 2° de beslissing houdende adoptie in die Staat als in kracht van gewijsde gegaan kan worden beschouwd;
 3° de artikelen 361-1 tot 361-4 in acht zijn genomen wanneer het kind van zijn Staat van herkomst naar België werd, wordt of moet worden overgebracht, na adoptie in die Staat door een persoon of personen die op dat tijdstip hun gewone verblijfplaats in België hadden. (De inachtneming van de in de artikelen 361-3 en 361-4 bedoelde voorwaarden wordt door de bevoegde gemeenschap bevestigd.) <W 2008-06-08/31, art. 73, 043;
 
-## Art. 365
-
--2. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Evenwel wordt de erkenning geweigerd wanneer de adoptanten bewust bedrog hebben gepleegd tijdens de procedure of indien de adoptie is totstandgekomen met het oog op het ontduiken van de wet. Van deze regel kan slechts worden afgeweken indien behoorlijk vastgestelde redenen met betrekking tot de eerbied voor de rechten van het kind dit vereisen.
+Art. 365-2. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Evenwel wordt de erkenning geweigerd wanneer de adoptanten bewust bedrog hebben gepleegd tijdens de procedure of indien de adoptie is totstandgekomen met het oog op het ontduiken van de wet. Van deze regel kan slechts worden afgeweken indien behoorlijk vastgestelde redenen met betrekking tot de eerbied voor de rechten van het kind dit vereisen.
 De erkenning wordt in elk geval geweigerd :
 1° indien de adoptie, rekening houdend met het hoger belang van het kind en met de fundamentele rechten die het op grond van het internationaal recht toekomen, kennelijk strijdig is met de openbare orde; of
 2° indien een kind dat in België zijn gewone verblijfplaats heeft, met het oog op zijn adoptie naar het buitenland is overgebracht met miskenning van de artikelen 362-2 tot 362-4; of
 3° indien de adoptie erop was gericht de wetsbepalingen inzake de nationaliteit of die betreffende de toegang tot het grondgebied, het verblijf, de vestiging en de verwijdering van vreemdelingen te omzeilen.
 
-## Art. 365
-
--3. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Eenieder die in België een buitenlandse adoptie die niet door het Verdrag is beheerst wenst te laten erkennen, zendt het verzoek tot erkenning :
+Art. 365-3. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Eenieder die in België een buitenlandse adoptie die niet door het Verdrag is beheerst wenst te laten erkennen, zendt het verzoek tot erkenning :
 1° voor de overbrenging van het kind naar België indien de geadopteerde zijn gewone verblijfplaats heeft in een Staat waarmee België geen overeenkomst betreffende de opheffing van de grenscontroles op personen heeft gesloten :
 a) hetzij aan de bevoegde Belgische diplomatieke of consulaire overheid of aan die van de Staat welke de belangen van België behartigt, die het aan de federale centrale autoriteit bezorgt;
 b) hetzij rechtstreeks aan de federale centrale autoriteit;
 2° in de andere gevallen : aan de federale centrale autoriteit. De federale centrale autoriteit gaat na of is voldaan aan de voorwaarden gesteld in de artikelen 365-1 en 365-2.
 Wanneer de voorwaarden in het geval omschreven in 1° zijn vervuld, stelt de bevoegde Belgische diplomatieke of consulaire overheid of die van de Staat welke de belangen van België behartigt, een paspoort op naam van het kind op indien het Belg is, of verleent aan het kind de machtiging om in België te verblijven.
 
-## Art. 365
-
--4.[1 § 1. Bij ontvangst van het verzoek gaat de federale centrale autoriteit na of de akte van geboorte van de geadopteerde beschikbaar is in de DABS.
+Art. 365-4.[1 § 1. Bij ontvangst van het verzoek gaat de federale centrale autoriteit na of de akte van geboorte van de geadopteerde beschikbaar is in de DABS.
 Indien de akte van geboorte in België werd opgemaakt of in België werd overgeschreven voor [2 31 maart 2019]2, verzoekt de federale centrale autoriteit de ambtenaar die de akte heeft opgemaakt of overgeschreven tot opname van de akte in de DABS.
 De federale centrale autoriteit gaat ook na of de geadopteerde en de adoptant of adoptanten zijn ingeschreven in het bevolkings-, vreemdelingen- of wachtregister.
 De federale centrale autoriteit vraagt een uittreksel uit het strafregister (model 2) op aan het Centraal Strafregister voor de adoptant of adoptanten met gewone verblijfplaats in België.
@@ -3541,15 +3341,11 @@ Het verzoek bevat voor de geadopteerde die niet is ingeschreven in het bevolking
 Indien zij van oordeel is voldoende te zijn ingelicht, kan zij vrijstelling verlenen van de overlegging van één of meer stukken bedoeld in paragraaf 2 en paragraaf 3, 4° en 6° tot 9°, wanneer de overlegging ervan materieel onmogelijk blijkt.
 Wanneer het verzoek tot erkenning betrekking heeft op een adoptie die geen interlandelijke adoptie is in de zin van artikel 360-2, kan de federale centrale autoriteit, wanneer zij zich voldoende ingelicht acht, vrijstelling verlenen van de overlegging van een of meer stukken bedoeld in paragraaf 2 en paragraaf 3, 3° tot 9°.]1 (1)<W 2018-06-18/03, art. 48, 082; Inwerkingtreding : 31-03-2019> (2)<W 2023-09-13/08, art. 61, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 365
-
--5. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De bepalingen van hoofdstuk II, afdeling 3, § 2, zijn van toepassing op de erkenning van niet door het Verdrag beheerste vreemde beslissingen tot omzetting van adoptie.
+Art. 365-5. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De bepalingen van hoofdstuk II, afdeling 3, § 2, zijn van toepassing op de erkenning van niet door het Verdrag beheerste vreemde beslissingen tot omzetting van adoptie.
 
 § 2/1. [1 Afwijkende bepaling inzake erkenning van de adopties in het hoger belang van het kind.]1 (1)<Ingevoegd bij W 2012-04-11/13, art. 2, 055; Inwerkingtreding : 17-05-2012. Overgangsbepalingen: art. 3>
 
-## Art. 365
-
--6.[1 § 1. Wanneer de adoptie van een kind dat zijn gewone verblijfplaats in een andere Staat heeft, tot stand is gekomen vooraleer de adoptant of de adoptanten met gewone verblijfplaats in België de door de bevoegde gemeenschap georganiseerde voorbereiding gevolgd hebben en een vonnis hebben verkregen waaruit blijkt dat zij bekwaam en geschikt zijn om een interlandelijke adoptie aan te gaan overeenkomstig artikel 361-1, onderzoekt de federale centrale autoriteit het dossier.
+Art. 365-6.[1 § 1. Wanneer de adoptie van een kind dat zijn gewone verblijfplaats in een andere Staat heeft, tot stand is gekomen vooraleer de adoptant of de adoptanten met gewone verblijfplaats in België de door de bevoegde gemeenschap georganiseerde voorbereiding gevolgd hebben en een vonnis hebben verkregen waaruit blijkt dat zij bekwaam en geschikt zijn om een interlandelijke adoptie aan te gaan overeenkomstig artikel 361-1, onderzoekt de federale centrale autoriteit het dossier.
 § 2. Bij wijze van afwijking en in zeer uitzonderlijke gevallen geeft de federale centrale autoriteit de adoptant of de adoptanten de toestemming om de in artikel 361-1 bedoelde procedure op te starten indien de volgende [2 vier]2 voorwaarden cumulatief vervuld zijn :
 1° de adoptie is niet tot stand gekomen met het oog op het ontduiken van de wet;
 2° het kind is tot in de vierde graad verwant met de adoptant, met zijn echtgenoot of met de persoon met wie hij samenwoont, zelfs overleden, of het kind heeft het dagelijkse leven op duurzame wijze gedeeld met de adoptant of de adoptanten met een relatie zoals geldt voor ouders alvorens de adoptant of de adoptanten enige stappen met het oog op de adoptie hebben ondernomen;
@@ -3564,17 +3360,13 @@ Wanneer het verzoek tot erkenning betrekking heeft op een adoptie die geen inter
 § 3. Erkenning van buitenlandse beslissingen van herroeping, herziening en nietigverklaring van een adoptie.
 <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
-## Art. 366
-
--1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Een vreemde beslissing van herroeping of herziening van adoptie wordt erkend in België wanneer :
+Art. 366-1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Een vreemde beslissing van herroeping of herziening van adoptie wordt erkend in België wanneer :
 1° de beslissing is genomen door de autoriteit welke door het recht van die Staat als bevoegd wordt beschouwd, conform de geldende vormvereisten en procedures in die Staat;
 2° de beslissing in die Staat als in kracht van gewijsde gegaan kan worden beschouwd;
 De erkenning wordt evenwel geweigerd wanneer de verzoekers bewust bedrog hebben gepleegd tijdens de procedure of wanneer de beslissing het gevolg is van wetsontduiking. Van deze regel kan slechts worden afgeweken indien behoorlijk vastgestelde redenen met betrekking tot de eerbied van de rechten van het kind dit vereisen.
 De erkenning wordt in ieder geval geweigerd wanneer de beslissing kennelijk strijdig is met de openbare orde.
 
-## Art. 366
-
--2. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Eenieder die in België een vreemde beslissing van herroeping of herziening van een adoptie wenst te laten erkennen, richt zijn verzoek hiertoe tot de federale centrale autoriteit. Deze gaat na of is voldaan aan de door artikel 366-1 opgelegde voorwaarden.
+Art. 366-2. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Eenieder die in België een vreemde beslissing van herroeping of herziening van een adoptie wenst te laten erkennen, richt zijn verzoek hiertoe tot de federale centrale autoriteit. Deze gaat na of is voldaan aan de door artikel 366-1 opgelegde voorwaarden.
 Het verzoek bedoeld in het vorige lid wordt in tweevoud opgesteld en bevat :
 1° een voor eensluidend verklaard afschrift van de beslissing;
 2° een door een beëdigd vertaler voor echt verklaarde vertaling van de beslissing;
@@ -3584,20 +3376,14 @@ Het verzoek bedoeld in het vorige lid wordt in tweevoud opgesteld en bevat :
 6° een stuk waarin de identiteit is vermeld van de moeder en van de vader van het kind, ingeval deze gekend is en mag worden meegedeeld, of bij gebreke daarvan de identiteit en de hoedanigheid van de persoon die het kind tijdens de buitenlandse adoptieprocedure heeft vertegenwoordigd.
 Indien voornoemde stukken niet worden overgelegd, kan de federale centrale autoriteit een termijn bepalen waarbinnen dit moet geschieden. Zij kan ook documenten aanvaarden welke met die stukken zijn gelijkgesteld, behalve wat de in het eerste lid, 1° en 2°, bedoelde stukken betreft. Indien zij van oordeel is voldoende te zijn ingelicht, kan zij vrijstelling verlenen van de overlegging van één of meerdere stukken bedoeld in het eerste lid, 4° tot 6°.
 
-## Art. 366
-
--3. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Onverminderd artikel 351 kan een vreemde beslissing tot nietigverklaring van een adoptie in België geen gevolgen hebben.
+Art. 366-3. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Onverminderd artikel 351 kan een vreemde beslissing tot nietigverklaring van een adoptie in België geen gevolgen hebben.
 
 § 4. [1 Akte van adoptie]1
 (1)<W 2018-06-18/03, art. 49, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 367
+Art. 367-1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Iedere beslissing van de federale centrale autoriteit inzake een verzoek houdende erkenning in België van een in deze afdeling bedoelde vreemde beslissing dient te worden gemotiveerd en overhandigd aan de verzoekers of wordt hen betekend bij ter post aangetekend schrijven. Wanneer de federale centrale autoriteit een vreemde beslissing houdende adoptie erkent, bepaalt zij in haar beslissing uitdrukkelijk of deze met een gewone dan wel met een volle adoptie overeenstemt.
 
--1. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Iedere beslissing van de federale centrale autoriteit inzake een verzoek houdende erkenning in België van een in deze afdeling bedoelde vreemde beslissing dient te worden gemotiveerd en overhandigd aan de verzoekers of wordt hen betekend bij ter post aangetekend schrijven. Wanneer de federale centrale autoriteit een vreemde beslissing houdende adoptie erkent, bepaalt zij in haar beslissing uitdrukkelijk of deze met een gewone dan wel met een volle adoptie overeenstemt.
-
-## Art. 367
-
--2.[1 Wanneer is voldaan aan de voorwaarden voor de erkenning in België van een in een andere Staat gewezen beslissing houdende totstandkoming, omzetting, herroeping of herziening van een adoptie, stuurt de federale centrale autoriteit de gegevens nodig voor de opmaak van volgende akten via de DABS naar de ambtenaar van de burgerlijke stand : - de akte van adoptie [2 , in het geval van een beslissing tot totstandkoming of omzetting van adoptie, of de akte van herroeping of herziening van adoptie, in het geval van een herroeping of herziening van adoptie]2;
+Art. 367-2.[1 Wanneer is voldaan aan de voorwaarden voor de erkenning in België van een in een andere Staat gewezen beslissing houdende totstandkoming, omzetting, herroeping of herziening van een adoptie, stuurt de federale centrale autoriteit de gegevens nodig voor de opmaak van volgende akten via de DABS naar de ambtenaar van de burgerlijke stand : - de akte van adoptie [2 , in het geval van een beslissing tot totstandkoming of omzetting van adoptie, of de akte van herroeping of herziening van adoptie, in het geval van een herroeping of herziening van adoptie]2;
 - de akte van geboorte, op basis van de buitenlandse akte.
 [2 De overeenkomstig artikel 368-1, § 2 bevoegde ambtenaar van de burgerlijke stand maakt de akte van adoptie of, in voorkomend geval, de akte van herroeping of herziening van adoptie en de akte van geboorte onmiddellijk op en verbindt deze met elkaar alsook met de akten van de burgerlijke stand van de geadopteerde en van zijn afstammelingen.]2 De ambtenaar van de burgerlijke stand stelt de federale centrale autoriteit hiervan in kennis.
 De federale centrale autoriteit stelt de centrale autoriteiten van de gemeenschappen hiervan in kennis.
@@ -3605,9 +3391,7 @@ De akte van adoptie geldt als bewijs van de erkenning van de buitenlandse beslis
 De Koning bepaalt de nadere regels voor de opmaak van de akte van adoptie en voor de afgifte van het bewijs ervan. Dit geschiedt zonder heffing van enige rechten of taksen.
 Onverminderd beroep tegen een beslissing die overeenkomstig deze afdeling door de federale centrale autoriteit is gewezen, wordt iedere op grond van het eerste lid gewezen beslissing, op eenvoudig vertoon van een afschrift van de akte van adoptie, door iedere overheid of rechtsmacht, erkend, alsook door ieder ander persoon.]1 (1)<W 2018-06-18/03, art. 50, 082; Inwerkingtreding : 31-03-2019> (2)<W 2023-09-13/08, art. 50, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 367
-
--3.<Ingevoegd bij W 2004-12-27/30, art. 243; Inwerkingtreding : 10-01-2005> § 1. De verzoekers kunnen beroep instellen bij de [1 familierechtbank]1 te Brussel binnen zestig dagen te rekenen van de overhandiging of de betekening van de beslissing van de federale centrale autoriteit.
+Art. 367-3.<Ingevoegd bij W 2004-12-27/30, art. 243; Inwerkingtreding : 10-01-2005> § 1. De verzoekers kunnen beroep instellen bij de [1 familierechtbank]1 te Brussel binnen zestig dagen te rekenen van de overhandiging of de betekening van de beslissing van de federale centrale autoriteit.
 Iedere belanghebbende of het openbaar ministerie kan beroep instellen binnen de termijn van een jaar te rekenen van de datum van de beslissing tot weigering om de adoptie te erkennen of van de datum van de in artikel 367-2, bedoelde [2 akte van adoptie [3 , akte van herroeping of herziening van adoptie]3 en akte van geboorte]2.
 De vordering wordt ingesteld en behandeld overeenkomstig de in de artikelen 1034bis tot 1034sexies van het Gerechtelijk Wetboek bedoelde procedure. De verzoeker moet woonplaats kiezen in het rechtsgebied van de [1 familierechtbank]1.
 De federale centrale autoriteit stelt de centrale autoriteiten van de gemeenschappen in kennis van het beroep.
@@ -3623,9 +3407,7 @@ De bevoegde ambtenaar van de burgerlijke stand is deze bedoeld in artikel 368-1,
 
 #### HOOFDSTUK III. - Administratieve formaliteiten. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09- 2005>
 
-## Art. 368
-
--1.[1 § 1. [2 De ambtenaar van de burgerlijke stand is bevoegd voor de opmaak van:
+Art. 368-1.[1 § 1. [2 De ambtenaar van de burgerlijke stand is bevoegd voor de opmaak van:
 1° een akte van adoptie ten gevolge van een in België gewezen beslissing houdende uitspraak of omzetting van een adoptie;
 2° een akte van herroeping of herziening van adoptie ten gevolge van een in België gewezen beslissing tot herroeping of herziening van een adoptie;
 3° een akte van geboorte van de geadopteerde, op basis van de buitenlandse akte van geboorte, wanneer de adoptie in België is uitgesproken of erkend.
@@ -3636,47 +3418,29 @@ De buitenlandse akten en buitenlandse beslissingen worden als bijlage in de DABS
 3° van Brussel.]2
 § 3. De ambtenaar van de burgerlijke stand stelt de federale centrale autoriteit onmiddellijk in kennis van de opmaak van de akte van adoptie, en in voorkomend geval, van de akte van geboorte. De federale centrale autoriteit stelt vervolgens de centrale autoriteiten van de gemeenschappen hiervan in kennis.]1 (1)<W 2018-06-18/03, art. 52, 082; Inwerkingtreding : 31-03-2019> (2)<W 2023-09-13/08, art. 52, 102; Inwerkingtreding : 01-01-2024>
 
-## Art. 368
-
--2.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> [1 Wanneer een akte van adoptie wordt opgemaakt ten gevolge van een buitenlandse beslissing waarbij een adoptie overeenkomstig het Verdrag wordt uitgesproken of omgezet]1, stelt de federale centrale autoriteit op verzoek van iedere belanghebbende partij het in artikel 23 van het Verdrag bedoelde schriftelijke bewijsstuk op volgens het model bepaald door de Koning.
+Art. 368-2.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> [1 Wanneer een akte van adoptie wordt opgemaakt ten gevolge van een buitenlandse beslissing waarbij een adoptie overeenkomstig het Verdrag wordt uitgesproken of omgezet]1, stelt de federale centrale autoriteit op verzoek van iedere belanghebbende partij het in artikel 23 van het Verdrag bedoelde schriftelijke bewijsstuk op volgens het model bepaald door de Koning.
 (1)<W 2018-06-18/03, art. 53, 082; Inwerkingtreding : 31-03-2019>
 
-## Art. 368
+Art. 368-3. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Ingeval de bevoegde autoriteit waarvoor het stuk is bestemd hierom verzoekt, moet een voor eensluidende verklaarde vertaling van dit stuk worden bezorgd. Behoudens vrijstelling zijn de kosten van vertaling ten laste van de adoptant of van de adoptanten.
 
--3. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Ingeval de bevoegde autoriteit waarvoor het stuk is bestemd hierom verzoekt, moet een voor eensluidende verklaarde vertaling van dit stuk worden bezorgd. Behoudens vrijstelling zijn de kosten van vertaling ten laste van de adoptant of van de adoptanten.
+Art. 368-4. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Behoudens andersluidende bepalingen in internationale verdragen moeten de door een buitenlandse autoriteit uitgereikte stukken die in België moeten worden overgelegd met het oog op de totstandkoming, de erkenning, de omzetting, de herroeping of de herziening van een adoptie op verzoek van de adoptant, de adoptanten of een van hen, of van de geadopteerde behoorlijk worden gelegaliseerd.
 
-## Art. 368
+Art. 368-5. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De Belgische diplomatieke of consulaire overheden of deze van de Staat welke de belangen van België behartigt, bevoegd inzake notariaat en burgerlijke stand, ontvangen en reiken op het grondgebied van de Staat waar zij zijn geaccrediteerd, alle akten, volmachten, verklaringen en getuigschriften uit welke verband houden met die materies en betrekking hebben op een voornemen tot adoptie die in België moet tot stand komen of worden erkend of op een in België uitgesproken of erkende adoptie.
 
--4. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Behoudens andersluidende bepalingen in internationale verdragen moeten de door een buitenlandse autoriteit uitgereikte stukken die in België moeten worden overgelegd met het oog op de totstandkoming, de erkenning, de omzetting, de herroeping of de herziening van een adoptie op verzoek van de adoptant, de adoptanten of een van hen, of van de geadopteerde behoorlijk worden gelegaliseerd.
-
-## Art. 368
-
--5. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De Belgische diplomatieke of consulaire overheden of deze van de Staat welke de belangen van België behartigt, bevoegd inzake notariaat en burgerlijke stand, ontvangen en reiken op het grondgebied van de Staat waar zij zijn geaccrediteerd, alle akten, volmachten, verklaringen en getuigschriften uit welke verband houden met die materies en betrekking hebben op een voornemen tot adoptie die in België moet tot stand komen of worden erkend of op een in België uitgesproken of erkende adoptie.
-
-## Art. 368
-
--6.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De bevoegde autoriteiten zorgen voor de bewaring van de gegevens waarover zij beschikken in verband met de herkomst van de geadopteerde, in het bijzonder deze betreffende de identiteit van zijn moeder en vader, en ook van de gegevens die nodig zijn voor het volgen van zijn gezondheidstoestand, over het medisch verleden van de geadopteerde en van zijn familie, met het oog op de totstandkoming van de adoptie en teneinde het de geadopteerde, indien hij dit wenst, later mogelijk te maken zijn herkomst te achterhalen.
+Art. 368-6.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> De bevoegde autoriteiten zorgen voor de bewaring van de gegevens waarover zij beschikken in verband met de herkomst van de geadopteerde, in het bijzonder deze betreffende de identiteit van zijn moeder en vader, en ook van de gegevens die nodig zijn voor het volgen van zijn gezondheidstoestand, over het medisch verleden van de geadopteerde en van zijn familie, met het oog op de totstandkoming van de adoptie en teneinde het de geadopteerde, indien hij dit wenst, later mogelijk te maken zijn herkomst te achterhalen.
 [1 Zij waarborgen aan de geadopteerde of aan zijn wettelijke vertegenwoordiger of, in geval van overlijden van de geadopteerde, aan zijn afstammelingen de toegang tot die gegevens.
 Het schriftelijk verzoek tot raadpleging van de herkomstgegevens van de geadopteerde gericht aan de federale centrale autoriteit en uitgaande van de minderjarige geadopteerde die de leeftijd van twaalf jaar heeft bereikt, wordt alleen in aanmerking genomen indien het mee ondertekend is door zijn wettelijke vertegenwoordiger.
 Indien de wettelijke vertegenwoordiger weigert het verzoek mee te ondertekenen beslist de federale centrale autoriteit rekening houdend met de maturiteit van de verzoeker om al dan niet toegang te verlenen tot de gegevens en brengt ze haar beslissing ter kennis van de wettelijke vertegenwoordiger.]1 Het verzamelen, bewaren en de toegang tot deze gegevens worden geregeld bij een koninklijk besluit vastgesteld na overleg in de Ministerraad.
 (1)<W 2018-06-18/03, art. 158, 082; Inwerkingtreding : 12-07-2018>
 
-## Art. 368
+Art. 368-7. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Onder voorbehoud van artikel 368-6 mogen de persoonlijke gegevens die overeenkomstig het Verdrag of de wet zijn verzameld of overgezonden, in het bijzonder de verslagen betreffende het kind, zijn oorspronkelijke familie en de adoptanten, niet voor andere doeleinden worden gebruikt dan die waarvoor zij zijn verzameld of overgezonden.
 
--7. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Onder voorbehoud van artikel 368-6 mogen de persoonlijke gegevens die overeenkomstig het Verdrag of de wet zijn verzameld of overgezonden, in het bijzonder de verslagen betreffende het kind, zijn oorspronkelijke familie en de adoptanten, niet voor andere doeleinden worden gebruikt dan die waarvoor zij zijn verzameld of overgezonden.
-
-## Art. 368
-
--8. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Iedere Belgische overheid die met een vreemde overheid in contact wenst te treden in verband met een adoptie, moet zich daartoe tot de federale centrale autoriteit wenden.
+Art. 368-8. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Iedere Belgische overheid die met een vreemde overheid in contact wenst te treden in verband met een adoptie, moet zich daartoe tot de federale centrale autoriteit wenden.
 Iedere Belgische overheid die door een vreemde overheid wordt gecontacteerd in verband met een adoptie, stelt hiervan onverwijld de federale centrale autoriteit in kennis.
 
-## Art. 368
+Art. 368-9. [1 De ambtenaar van de burgerlijke stand die een akte van herroeping van adoptie opmaakt ten gevolge van een rechterlijke beslissing waarbij de adoptie van een minderjarig kind wordt herroepen zonder dat beslist wordt dat het weer onder het ouderlijk gezag van zijn ouders wordt geplaatst, notificeert dit binnen drie dagen elektronisch via de DABS aan de vrederechter, bedoeld in artikel 390.]1 (1)<Ingevoegd bij W 2018-06-18/03, art. 54, 082; Inwerkingtreding : 31-03-2019>
 
--9. [1 De ambtenaar van de burgerlijke stand die een akte van herroeping van adoptie opmaakt ten gevolge van een rechterlijke beslissing waarbij de adoptie van een minderjarig kind wordt herroepen zonder dat beslist wordt dat het weer onder het ouderlijk gezag van zijn ouders wordt geplaatst, notificeert dit binnen drie dagen elektronisch via de DABS aan de vrederechter, bedoeld in artikel 390.]1 (1)<Ingevoegd bij W 2018-06-18/03, art. 54, 082; Inwerkingtreding : 31-03-2019>
-
-## Art. 368
-
--10. [1 § 1. Elke persoon van wie de adoptie in België is uitgesproken of erkend en die onmogelijk zijn akte van geboorte kan verkrijgen, kan de akte van adoptie overleggen.
+Art. 368-10. [1 § 1. Elke persoon van wie de adoptie in België is uitgesproken of erkend en die onmogelijk zijn akte van geboorte kan verkrijgen, kan de akte van adoptie overleggen.
 § 2. Indien de gegevens in de akte van adoptie onvoldoende zijn voor het doel waarvoor zij moeten worden gebruikt, start de verzoekende overheid onmiddellijk zelf een onderzoek naar bijkomende gegevens, zonder de termijn van drie maanden te overschrijden. Indien de verzoekende overheid deze gegevens niet zelf kan verkrijgen, of de door haar verkregen gegevens onvoldoende zijn, stelt zij de belanghebbende hiervan onmiddellijk en uiterlijk binnen dezelfde periode van drie maanden op de hoogte en kan zij deze verzoeken om ieder ander bewijs tot staving van die gegevens over te leggen.]1 (1)<Ingevoegd bij W 2018-06-18/03, art. 55, 082; Inwerkingtreding : 31-03-2019>
 
 ## Art. 369
@@ -3921,9 +3685,9 @@ Wanneer een voogdij is opengevallen, zendt hij eveneens een afschrift aan de gri
 3° De betaling van de rentetermijnen of interesten van de kapitalen;
 4° De begrafeniskosten en de kosten van de laatste ziekte.
 
-## Art. 387.Het
+## Art. 387
 
-strekt zich niet uit tot de goederen welke de kinderen door afzonderlijke arbeid en nijverheid verwerven, noch tot die welke hun geschonken of vermaakt worden onder de uitdrukkelijke voorwaarde dat de ouders daarvan het genot niet zullen hebben.
+Het strekt zich niet uit tot de goederen welke de kinderen door afzonderlijke arbeid en nijverheid verwerven, noch tot die welke hun geschonken of vermaakt worden onder de uitdrukkelijke voorwaarde dat de ouders daarvan het genot niet zullen hebben.
 [1 In afwijking van het eerste lid heeft de ouder die ten aanzien van een van zijn kinderen onwaardig is, geen recht op het genot van de goederen van dat kind.]1 (1)<W 2012-12-10/14, art. 7, 057; Inwerkingtreding : 21-01-2013>
 
 ## Art. 387bis
@@ -3986,9 +3750,7 @@ Zij stellen hun vordering al naar gelang het geval in tegen beide ouders, de eni
 
 (NOTA : bij arrest nr.36/2019 van 28-02-2019 (B.St. 15-03-2019, p. 27019), heeft het Grondwettelijk Hof dit artikel vernietigd) (1)<Ingevoegd bij W 2017-03-19/08, art. 10, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387novies
-
-[1 De pleegzorgers oefenen de overeenkomstig dit hoofdstuk aan hen gedelegeerde bevoegdheden over het kind gezamenlijk uit.
+Art. 387novies. [1 De pleegzorgers oefenen de overeenkomstig dit hoofdstuk aan hen gedelegeerde bevoegdheden over het kind gezamenlijk uit.
 Ten opzichte van derden die te goeder trouw zijn, wordt elke pleegzorger geacht te handelen met de andere pleegzorger wanneer hij, alleen, een handeling stelt die met de aan hen gedelegeerde bevoegdheden verband houdt, behoudens de bij de wet bepaalde uitzonderingen.
 Bij gebreke van instemming kan een van beide pleegzorgers de zaak bij de familierechtbank aanhangig maken overeenkomstig artikel 387duodecies.]1 (1)<Ingevoegd bij W 2017-03-19/08, art. 11, 076; Inwerkingtreding : 01-09-2017>
 
@@ -3996,41 +3758,27 @@ Bij gebreke van instemming kan een van beide pleegzorgers de zaak bij de familie
 
 [1 Bij de uitoefening van de hun overeenkomstig dit hoofdstuk gedelegeerde rechten en plichten nemen de pleegzorgers zoveel mogelijk de door de ouders of de voogd gekozen beginselen zoals, in voorkomend geval, vastgelegd overeenkomstig de toepasselijke regelgeving inzake jeugdbescherming, in acht, in het bijzonder bij de bevoegdheden als bedoeld in artikel 374, § 1, tweede lid.]1 (1)<Ingevoegd bij W 2017-03-19/08, art. 12, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387undecies
+Art. 387undecies. [1 De ouders of de voogd behouden het recht om toezicht uit te oefenen op de opvoeding van het kind, ongeacht of ze het ouderlijk gezag uitoefenen. Zij kunnen bij de pleegzorgers of bij derden alle nuttige informatie hieromtrent inwinnen en zich in het belang van het kind tot de familierechtbank wenden. De ouders of de voogd behouden eveneens het recht op persoonlijk contact met het kind. Dit persoonlijk contact kan enkel om bijzonder ernstige redenen worden geweigerd.]1 (1)<Ingevoegd bij W 2017-03-19/08, art. 13, 076; Inwerkingtreding : 01-09-2017>
 
-[1 De ouders of de voogd behouden het recht om toezicht uit te oefenen op de opvoeding van het kind, ongeacht of ze het ouderlijk gezag uitoefenen. Zij kunnen bij de pleegzorgers of bij derden alle nuttige informatie hieromtrent inwinnen en zich in het belang van het kind tot de familierechtbank wenden. De ouders of de voogd behouden eveneens het recht op persoonlijk contact met het kind. Dit persoonlijk contact kan enkel om bijzonder ernstige redenen worden geweigerd.]1 (1)<Ingevoegd bij W 2017-03-19/08, art. 13, 076; Inwerkingtreding : 01-09-2017>
+Art. 387duodecies. [1 De familierechtbank kan in het belang van het kind, op verzoek van beide ouders of van één van hen, de voogd, de pleegzorgers dan wel van de procureur des Konings alle beslissingen met betrekking tot het ouderlijk gezag opleggen, wijzigen of beëindigen, overeenkomstig de artikelen 1253ter/4 tot 1253ter/6 van het Gerechtelijk Wetboek.]1 (1)<Ingevoegd bij W 2017-03-19/08, art. 14, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387duodecies
-
-[1 De familierechtbank kan in het belang van het kind, op verzoek van beide ouders of van één van hen, de voogd, de pleegzorgers dan wel van de procureur des Konings alle beslissingen met betrekking tot het ouderlijk gezag opleggen, wijzigen of beëindigen, overeenkomstig de artikelen 1253ter/4 tot 1253ter/6 van het Gerechtelijk Wetboek.]1 (1)<Ingevoegd bij W 2017-03-19/08, art. 14, 076; Inwerkingtreding : 01-09-2017>
-
-## Art. 387terdecies
-
-[1 De gedelegeerde rechten en plichten ter uitoefening van het ouderlijk gezag die overeenkomstig dit hoofdstuk werden toegekend aan de pleegzorgers doven van rechtswege uit:
+Art. 387terdecies. [1 De gedelegeerde rechten en plichten ter uitoefening van het ouderlijk gezag die overeenkomstig dit hoofdstuk werden toegekend aan de pleegzorgers doven van rechtswege uit:
 1° bij de meerderjarigheid van het kind;
 2° bij het overlijden van de pleegzorgers;
 3° bij het overlijden, de ontvoogding of de adoptie van het kind;
 4° indien er een einde komt aan de plaatsing overeenkomstig de toepasselijke regelgeving inzake jeugdbijstand en jeugdbescherming.]1 (1)<Ingevoegd bij W 2017-03-19/08, art. 15, 076; Inwerkingtreding : 01-09-2017>
 
-## Art. 387quaterdecies
-
-[1 Voor de toepassing van artikel 375bis wordt de persoon bij wie een kind minstens één jaar voortdurend werd geplaatst, vermoed een bijzondere affectieve band te hebben met dit kind.]1 (1)<Ingevoegd bij W 2017-03-19/08, art. 16, 076; Inwerkingtreding : 01-09-2017>
+Art. 387quaterdecies. [1 Voor de toepassing van artikel 375bis wordt de persoon bij wie een kind minstens één jaar voortdurend werd geplaatst, vermoed een bijzondere affectieve band te hebben met dit kind.]1 (1)<Ingevoegd bij W 2017-03-19/08, art. 16, 076; Inwerkingtreding : 01-09-2017>
 
 #### HOOFDSTUK III. [1 - Broers en zussen.]1
 
 (1)<Ingevoegd bij W 2021-05-20/20, art. 4, 092; Inwerkingtreding : 19-06-2021>
 
-## Art. 387quinquiesdecies
+Art. 387quinquiesdecies. [1 Dit hoofdstuk is van toepassing op de maatregelen bedoeld in de hoofdstukken I en II en op de plaatsing van een minderjarig niet ontvoogd kind in het kader van de jeugdbijstand en de jeugdbescherming, met uitzondering van plaatsingen ingevolge het plegen van een als misdrijf omschreven feit.]1 (1)<Ingevoegd bij W 2021-05-20/20, art. 5, 092; Inwerkingtreding : 19-06-2021>
 
-[1 Dit hoofdstuk is van toepassing op de maatregelen bedoeld in de hoofdstukken I en II en op de plaatsing van een minderjarig niet ontvoogd kind in het kader van de jeugdbijstand en de jeugdbescherming, met uitzondering van plaatsingen ingevolge het plegen van een als misdrijf omschreven feit.]1 (1)<Ingevoegd bij W 2021-05-20/20, art. 5, 092; Inwerkingtreding : 19-06-2021>
+Art. 387sexiesdecies. [1 In deze titel worden gelijkgesteld met broers en zussen, kinderen die samen binnen eenzelfde gezin worden opgevoed en die een bijzondere affectieve band met elkaar hebben ontwikkeld.]1 (1)<Ingevoegd bij W 2021-05-20/20, art. 6, 092; Inwerkingtreding : 19-06-2021>
 
-## Art. 387sexiesdecies
-
-[1 In deze titel worden gelijkgesteld met broers en zussen, kinderen die samen binnen eenzelfde gezin worden opgevoed en die een bijzondere affectieve band met elkaar hebben ontwikkeld.]1 (1)<Ingevoegd bij W 2021-05-20/20, art. 6, 092; Inwerkingtreding : 19-06-2021>
-
-## Art. 387septiesdecies
-
-[1 Minderjarige broers en zussen hebben het recht om niet van elkaar te worden gescheiden. Dit recht moet in het belang van elk kind worden beoordeeld. Ingeval het belang van een kind vereist dat dit recht niet wordt uitgeoefend, streven de ouders, de pleegzorgers, de rechtbank en de daartoe bevoegde overheid het behoud van persoonlijke contacten tussen dit kind en elk van zijn broers en zussen na tenzij ook dit strijdig is met het belang van dit kind.]1 (1)<Ingevoegd bij W 2021-05-20/20, art. 7, 092; Inwerkingtreding : 19-06-2021>
+Art. 387septiesdecies. [1 Minderjarige broers en zussen hebben het recht om niet van elkaar te worden gescheiden. Dit recht moet in het belang van elk kind worden beoordeeld. Ingeval het belang van een kind vereist dat dit recht niet wordt uitgeoefend, streven de ouders, de pleegzorgers, de rechtbank en de daartoe bevoegde overheid het behoud van persoonlijke contacten tussen dit kind en elk van zijn broers en zussen na tenzij ook dit strijdig is met het belang van dit kind.]1 (1)<Ingevoegd bij W 2021-05-20/20, art. 7, 092; Inwerkingtreding : 19-06-2021>
 
 ### TITEL X. - MINDERJARIGHEID, VOOGDIJ EN ONTVOOGDING.
 
@@ -5575,9 +5323,7 @@ Artikel. 516.
 
 ##### AFDELING I. - (GEWONE MEDEEIGENDOM EN GEDWONGEN MEDEEIGENDOM IN HET ALGEMEEN.) <Ingevoegd bij W 1994-06-30/34, art. 1; Inwerkingtreding : 01-08-1995>
 
-## Art. 577
-
--2.
+Art. 577-2.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 ##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.)
@@ -5586,101 +5332,67 @@ Artikel. 516.
 
 ###### Onderafdeling I. - Algemene bepalingen.
 
-## Art. 577
-
--3.
+Art. 577-3.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 577
-
--4.
+Art. 577-4.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 ###### Onderafdeling II. - Rechtspersoonlijkheid van de vereniging van medeëigenaars.
 
-## Art. 577
-
--5.
+Art. 577-5.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 ###### Onderafdeling III. - [1 Organen van de vereniging van mede-eigenaars.]1
 
 (1)<W 2010-06-02/33, art. 5, 006; Inwerkingtreding : 01-09-2010; zie ook art. 19>
 
-## Art. 577
-
--6.
+Art. 577-6.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 577
-
--7.
+Art. 577-7.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 577
-
--8.
+Art. 577-8.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 577
-
--8/1.
+Art. 577-8/1.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 577
-
--8/2.
+Art. 577-8/2.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 ###### Onderafdeling IV. - Rechtsvorderingen. - Openbaarheid. - Tegenstelbaarheid en overdracht.
 
-## Art. 577
-
--9.
+Art. 577-9.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 577
-
--10.
+Art. 577-10.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 577
-
--11.
+Art. 577-11.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 577
-
--11/1.
+Art. 577-11/1.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 577
-
--11/2.
+Art. 577-11/2.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 ###### Onderafdeling V. - Ontbinding en vereffening.
 
-## Art. 577
-
--12.
+Art. 577-12.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 577
-
--13.
+Art. 577-13.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-## Art. 577
-
--13/1.
+Art. 577-13/1.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 ###### Onderafdeling VI. - Dwingend karakter.
 
-## Art. 577
-
--14.
+Art. 577-14.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 ### TITEL III. - VRUCHTGEBRUIK, GEBRUIK EN BEWONING.
@@ -11160,9 +10872,9 @@ Indien de verkoper in de verkoopprijs van een onroerend goed voor meer dan zeven
 
 Om te weten of er benadeling voor meer dan zeven twaalfden is, dient men het onroerend goed te schatten volgens zijn staat en zijn waarde op het ogenblik van de koop.
 
-## Art. 1676.De
+## Art. 1676
 
-eis is niet meer ontvankelijk na verloop van twee jaren te rekenen van de dag van de koop.
+De eis is niet meer ontvankelijk na verloop van twee jaren te rekenen van de dag van de koop.
 Die termijn loopt tegen (...), (vermoedelijk afwezigen) en [1 personen beschermd krachtens artikel 492/1]1 en tegen minderjarigen die in de plaats komen van een meerderjarige verkoper. <W 2003-02-13/36, art. 18, 007;
 Die termijn loopt eveneens en is niet geschorst gedurende de tijd bedongen voor het recht van wederinkoop.
 (1)<W 2013-03-17/14, art. 142, 015; 015; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
@@ -11216,9 +10928,9 @@ Indien een zaak die aan verscheidene personen gemeenschappelijk toebehoort, niet
 
 Ieder medeëigenaar kan eisen dat ook vreemden tot de veiling van onverdeelde goederen worden opgeroepen; zij moeten worden opgeroepen, wanneer een van de medeëigenaars minderjarig is.
 
-## Art. 1688.De
+## Art. 1688
 
-wijze en de vormen volgens welke de veiling van onverdeelde goederen moet geschieden, worden in de titel Erfenissen en in het [1 Gerechtelijk Wetboek]1 bepaald. <W 15-12-1949, art. 26> (1)<W 2014-05-05/09, art. 6, 017; Inwerkingtreding : 18-07-2014>
+De wijze en de vormen volgens welke de veiling van onverdeelde goederen moet geschieden, worden in de titel Erfenissen en in het [1 Gerechtelijk Wetboek]1 bepaald. <W 15-12-1949, art. 26> (1)<W 2014-05-05/09, art. 6, 017; Inwerkingtreding : 18-07-2014>
 
 #### HOOFDSTUK VIII. - OVERDRACHT VAN SCHULDVORDERINGEN EN ANDERE ONLICHAMELIJKE RECHTEN.
 
@@ -11607,33 +11319,27 @@ Men kan alle soorten van goederen, zo roerende als onroerende, verhuren.
 Indien aan een partij bij een dergelijke akte nog geen ondernemingsnummer is toegekend, bevestigt die partij dit in de akte of in een ondertekende aanvullende verklaring onderaan de akte.
 De partij die zijn verplichting tot identificatie met het in het tweede lid beoogde nummer niet nakomt, draagt alle gevolgen van het gebrek aan registratie van de huurovereenkomst.]1 (1)<W 2013-12-21/26, art. 41, 014; Inwerkingtreding : 01-02-2014>
 
-## Art. 1714_WAALS_GEWEST
-
+Art. 1714_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1714bis
 
 <ingevoegd bij W 2007-04-25/38, art. 98, Inwerkingtreding : 18-05-2007> Artikel 1bis van boek III, titel VIII, hoofdstuk II, afdeling 2, is van toepassing op de kamer bedoeld voor de huisvesting van één of meerdere studenten.
 
-## Art. 1714bis_VLAAMS_GEWEST
-
-1
+Art. 1714bis_VLAAMS_GEWEST. [1 ...]1
 (1)<DVR 2023-04-21/08, art. 88, 031; Inwerkingtreding : 09-06-2023>
 
-## Art. 1714bis_WAALS_GEWEST
-
+Art. 1714bis_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1714bis_BRUSSELS_HOOFDSTEDELIJK_GEWEST
-
+Art. 1714bis_BRUSSELS_HOOFDSTEDELIJK_GEWEST.
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>] <ingevoegd bij W 2007-04-25/38, art. 98, Inwerkingtreding : 18-05-2007> Artikel 1bis van boek III, titel VIII, hoofdstuk II, afdeling 2, is van toepassing op de kamer bedoeld voor de huisvesting van één of meerdere studenten.
 
 ## Art. 1715
 
 [...] Indien een huur die zonder geschrift is aangegaan, nog op generlei wijze is ten uitvoer gebracht, en een van de partijen die ontkent, kan het bewijs door getuigen niet worden toegelaten, hoe gering de huurprijs ook is, en hoewel men aanvoert dat er handgeld is gegeven. <W 1991-02-20/33, art. 13, § 3, Inwerkingtreding : 20-02-1991> Alleen de eed kan worden opgedragen aan hem die de huur ontkent.
 
-## Art. 1715_WAALS_GEWEST
-
+Art. 1715_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1716
@@ -11641,18 +11347,13 @@ De partij die zijn verplichting tot identificatie met het in het tweede lid beoo
 <hersteld bij W 2007-04-25/38, art. 99, Inwerkingtreding : 18-05-2007> Elke verhuring van een goed dat bestemd is voor bewoning in de ruime betekenis houdt in dat in elke officiële of publieke mededeling onder meer het bedrag van de gevraagde huurprijs en van de gemeenschappelijke lasten wordt vermeld.
 Elk niet naleven van deze verplichting door de verhuurder of diens gevolmachtigde zal de betaling kunnen rechtvaardigen van een administratieve boete die vastgelegd is tussen 50 euro en 200 euro.
 De gemeenten, in de hoedanigheid van gedecentraliseerde overheden, kunnen de inbreuken op de verplichtingen van dit artikel vaststellen, vervolgen en bestraffen. De bevoegde gemeente is die waar het goed zich bevindt. Deze inbreuken worden vastgesteld, vervolgd en bestraft overeenkomstig de vormvereisten, termijnen en procedures bepaald in artikel 119bis van de nieuwe gemeentewet, met uitzondering van § 5.
-
-## Art. 1716_VLAAMS_GEWEST
-
-1
+Art. 1716_VLAAMS_GEWEST. [1 ...]1
 (1)<DVR 2023-04-21/08, art. 89, 031; Inwerkingtreding : 09-06-2023>
 
-## Art. 1716_WAALS_GEWEST
-
+Art. 1716_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1716_BRUSSELS_HOOFDSTEDELIJK_GEWEST
-
+Art. 1716_BRUSSELS_HOOFDSTEDELIJK_GEWEST.
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>] <hersteld bij W 2007-04-25/38, art. 99, Inwerkingtreding : 18-05-2007> Elke verhuring van een goed dat bestemd is voor bewoning in de ruime betekenis houdt in dat in elke officiële of publieke mededeling onder meer het bedrag van de gevraagde huurprijs en van de gemeenschappelijke lasten wordt vermeld.
 Elk niet naleven van deze verplichting door de verhuurder of diens gevolmachtigde zal de betaling kunnen rechtvaardigen van een administratieve boete die vastgelegd is tussen 50 euro en 200 euro.
 De gemeenten, in de hoedanigheid van gedecentraliseerde overheden, kunnen de inbreuken op de verplichtingen van dit artikel vaststellen, vervolgen en bestraffen. De bevoegde gemeente is die waar het goed zich bevindt. Deze inbreuken worden vastgesteld, vervolgd en bestraft overeenkomstig de vormvereisten, termijnen en procedures bepaald in artikel 119bis van de nieuwe gemeentewet, met uitzondering van § 5.
@@ -11672,12 +11373,10 @@ Het kan hem worden ontzegd voor het geheel of voor een gedeelte.
 Zodanig beding is altijd van strenge toepassing.
 (Leden 4 en 5 opgeheven) <W 04-11-1969, art. 2>
 
-## Art. 1717_WAALS_GEWEST
-
+Art. 1717_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1717_BRUSSELS_HOOFDSTEDELIJK_GEWEST
-
+Art. 1717_BRUSSELS_HOOFDSTEDELIJK_GEWEST.
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>] (De huurder mag onderverhuren en zelfs zijn huur aan anderen overdragen, indien dit recht hem niet is ontzegd.
 (Onverminderd artikel 11bis van de afdeling IIbis van dit hoofdstuk, kan de huurder die het gehuurde goed niet tot zijn hoofdverblijfplaats bestemt, het goed niet geheel of gedeeltelijk onderverhuren opdat het voor de onderhuurder als hoofdverblijfplaats kan dienen.
 Indien de huurder echter een gemeente is, een openbaar centrum voor maatschappelijk welzijn, een vereniging zonder winstoogmerk of een instelling van openbaar nut onderworpen aan de wet van 27 juni 1921 waarbij aan de verenigingen zonder winstgevend doel en aan de instellingen van openbaar nut rechtspersoonlijkheid wordt verleend, ofwel een vennootschap met een sociaal oogmerk, kan hij het goed aan een of meer natuurlijke personen geheel onderverhuren, op voorwaarde dar deze personen minder gegoed zijn of zich in een behartenswaardige sociale situatie bevinden en dat zij het goed uitsluitend tot hun hoofdverblijfplaats bestemmen, en voor zover de verhuurder ingestemd heeft met de mogelijkheid om het goed te dien einde onder te verhuren.) <W 1997-04-13/43, art. 2, 004; Inwerkingtreding : 31-05-1997; zie evenwel W 1997-04-13/43, art.
@@ -11691,8 +11390,7 @@ Zodanig beding is altijd van strenge toepassing.
 
 <W 14-07-1976, art. IV, 14> Artikel 595, betreffende de verhuring door de vruchtgebruiker, is mede van toepassing op de verhuring van de goederen van minderjarigen.
 
-## Art. 1718_WAALS_GEWEST
-
+Art. 1718_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1719
@@ -11702,8 +11400,7 @@ De verhuurder is, uit de aard van het contract, en zonder dat daartoe enig bijzo
 2° Dat goed in zodanige staat te onderhouden dat het kan dienen tot het gebruik waartoe het verhuurd is;
 3° De huurder het rustig genot daarvan te doen hebben zolang de huur duurt.
 
-## Art. 1719_WAALS_GEWEST
-
+Art. 1719_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1720
@@ -11711,12 +11408,10 @@ De verhuurder is, uit de aard van het contract, en zonder dat daartoe enig bijzo
 De verhuurder is verplicht het goed in alle opzichten in goede staat van onderhoud te leveren.
 Hij moet daaraan gedurende de huurtijd alle herstellingen doen, die nodig mochten worden, behalve de herstellingen ten laste van de huurder.
 
-## Art. 1720_WAALS_GEWEST
-
+Art. 1720_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1720_BRUSSELS_HOOFDSTEDELIJK_GEWEST
-
+Art. 1720_BRUSSELS_HOOFDSTEDELIJK_GEWEST.
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>] De verhuurder is verplicht het goed in alle opzichten in goede staat van onderhoud te leveren.
 Hij moet daaraan gedurende de huurtijd alle herstellingen doen, die nodig mochten worden, behalve de herstellingen ten laste van de huurder.
 
@@ -11725,24 +11420,21 @@ Hij moet daaraan gedurende de huurtijd alle herstellingen doen, die nodig mochte
 Vrijwaring is verschuldigd aan de huurder voor alle gebreken van het verhuurde goed, die het gebruik daarvan verhinderen, ook al mocht de verhuurder die bij het aangaan van de huur niet hebben gekend.
 Indien door die gebreken enig verlies voor de huurder ontstaat, is de verhuurder verplicht hem daarvoor schadeloos te stellen.
 
-## Art. 1721_WAALS_GEWEST
-
+Art. 1721_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1722
 
 Indien het verhuurde goed gedurende de huurtijd door toeval geheel is teniet gegaan, is de huur van rechtswege ontbonden; indien het goed slechts ten dele is teniet gegaan, kan de huurder, naar gelang van de omstandigheden, ofwel vermindering van de prijs, ofwel zelfs ontbinding van de huur vorderen. In geen van beide gevallen is schadeloosstelling verschuldigd.
 
-## Art. 1722_WAALS_GEWEST
-
+Art. 1722_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1723
 
 De verhuurder mag gedurende de huurtijd de gedaante van het verhuurde goed niet veranderen.
 
-## Art. 1723_WAALS_GEWEST
-
+Art. 1723_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1724
@@ -11751,32 +11443,28 @@ Indien het verhuurde goed gedurende de huurtijd dringende herstellingen nodig he
 Indien echter die herstellingen langer dan veertig dagen duren, wordt de huurprijs verminderd naar evenredigheid van de tijd en van het gedeelte van het verhuurde goed waarvan hij het genot heeft moeten derven.
 Indien de herstellingen van dien aard zijn dat hetgeen noodzakelijk is voor de huisvesting van de huurder en van zijn gezin, daardoor onbewoonbaar wordt, kan hij de huur doen ontbinden.
 
-## Art. 1724_WAALS_GEWEST
-
+Art. 1724_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1725
 
 De verhuurder is niet verplicht de huurder te vrijwaren voor de stoornis die derden hem door feitelijkheden toebrengen in zijn genot, zonder dat zij overigens beweren enig recht op het verhuurde goed te hebben; onverminderd het recht van de huurder om hen in eigen naam te vervolgen.
 
-## Art. 1725_WAALS_GEWEST
-
+Art. 1725_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1726
 
 Indien daarentegen de huurder of de pachter in zijn genot is gestoord ten gevolge van een rechtsvordering betreffende de eigendom van het erf, heeft hij recht op een evenredige vermindering van de huurprijs of de pachtprijs, mits van de stoornis en de belemmering aan de eigenaar is kennis gegeven.
 
-## Art. 1726_WAALS_GEWEST
-
+Art. 1726_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1727
 
 Indien zij die de feitelijkheden hebben begaan, beweren enig recht op het verhuurde goed te hebben, of indien de huurder zelf in rechte gedagvaard wordt om te worden verwezen tot ontruiming van het geheel of van een gedeelte van het goed, of om de uitoefening van enige erfdienstbaarheid te gedogen, moet de huurder de verhuurder in vrijwaring oproepen, en, indien hij het eist, zal hij buiten het geding gesteld worden, mits hij de verhuurder noemt, voor wie hij bezit.
 
-## Art. 1727_WAALS_GEWEST
-
+Art. 1727_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1728
@@ -11785,8 +11473,7 @@ De huurder is tot twee hoofdverplichtingen gehouden :
 1° Het gehuurde te gebruiken als een goed huisvader, en volgens de bestemming welke bij het huurcontract daaraan gegeven is, of volgens die welke, bij gebreke van overeenkomst daaromtrent, naar gelang van de omstandigheden vermoed wordt;
 2° De huurprijs op de bepaalde termijn te voldoen.
 
-## Art. 1728_WAALS_GEWEST
-
+Art. 1728_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1728bis
@@ -11799,12 +11486,10 @@ De basishuurprijs is de huurprijs die volgt uit de overeenkomst of uit een vonni
 § 2. Contractuele bepalingen welker uitvoering verder gaat dan de aanpassing waarin dit artikel voorziet, kunnen tot die aanpassing ingekort worden.
 § 3. (...) <W 20-02-1991, art. 13>
 
-## Art. 1728bis_WAALS_GEWEST
-
+Art. 1728bis_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1728bis_BRUSSELS_HOOFDSTEDELIJK_GEWEST
-
+Art. 1728bis_BRUSSELS_HOOFDSTEDELIJK_GEWEST.
 _ <Ingevoegd bij W 29-12-1983, art. 1> § 1. Indien een aanpassing van de huurprijs aan de kosten van levensonderhoud is bedongen, is deze slechts één maal per huurjaar toegelaten en ten vroegste op de verjaardag van de inwerkingtreding van de huurovereenkomst. Deze aanpassing geschiedt op basis van de schommelingen van het indexcijfer van de consumptieprijzen.
 De aangepaste huurprijs mag niet hoger zijn dan het bedrag verkregen door toepassing van de hiernavolgende formule : basishuurprijs vermenigvuldigd met het nieuwe indexcijfer en gedeeld door het aanvangsindexcijfer.
 De basishuurprijs is de huurprijs die volgt uit de overeenkomst of uit een vonnis met uitsluiting van alle kosten en lasten uitdrukkelijk door de huurovereenkomst ten laste van de huurder gelegd.
@@ -11822,12 +11507,9 @@ In het geval van een onroerend goed bestaande uit meerdere appartementen, waarva
 § 2. De contractuele bepalingen welke in strijd zijn met paragraaf 1 zijn nietig.
 § 3. Dit artikel is niet van toepassing op de pacht.
 
-## Art. 1728ter_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+Art. 1728ter_BRUSSELS_HOOFDSTEDELIJK_GEWEST. <Opgeheven wat betreft woninghuurovereenkomsten en handelshuurovereenkomsten bij ORD 2024-04-04/10, art. 37, 034; Inwerkingtreding : 01-11-2024>
 
-<Opgeheven wat betreft woninghuurovereenkomsten en handelshuurovereenkomsten bij ORD 2024-04-04/10, art. 37, 034; Inwerkingtreding : 01-11-2024>
-
-## Art. 1728ter_WAALS_GEWEST
-
+Art. 1728ter_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1728quater
@@ -11838,20 +11520,16 @@ De vordering tot teruggave verjaart door verloop van een termijn van één jaar,
 § 2. De contractuele bepalingen welke in strijd zijn met paragraaf 1 zijn nietig.
 § 3. Dit artikel is niet van toepassing op de pacht.
 
-## Art. 1728quater_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+Art. 1728quater_BRUSSELS_HOOFDSTEDELIJK_GEWEST. <Opgeheven wat betreft woninghuurovereenkomsten en handelshuurovereenkomsten bij ORD 2024-04-04/10, art. 37, 034;
 
-<Opgeheven wat betreft woninghuurovereenkomsten en handelshuurovereenkomsten bij ORD 2024-04-04/10, art. 37, 034;
-
-## Art. 1728quater_WAALS_GEWEST
-
+Art. 1728quater_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1729
 
 Indien de huurder het gehuurde voor een ander gebruik bezigt dan waarvoor het bestemd was, of voor een gebruik waaruit enig nadeel kan ontstaan voor de verhuurder, kan deze, naar gelang van de omstandigheden, de huur doen ontbinden.
 
-## Art. 1729_WAALS_GEWEST
-
+Art. 1729_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1730
@@ -11862,12 +11540,10 @@ Wordt geen overeenstemming bereikt, dan is de in paragraaf 1 voorgeschreven proc
 § 3. De contractuele bepalingen welke in strijd zijn met de paragrafen 1 en 2 zijn nietig.
 § 4. Dit artikel is niet van toepassing op de pacht.
 
-## Art. 1730_WAALS_GEWEST
-
+Art. 1730_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1730_BRUSSELS_HOOFDSTEDELIJK_GEWEST
-
+Art. 1730_BRUSSELS_HOOFDSTEDELIJK_GEWEST.
 <W 29-12-1983, art. 4> § 1. (De partijen zijn verplicht een omstandige plaatsbeschrijving op te stellen, op tegenspraak en voor gezamenlijke rekening. Deze plaatsbeschrijving wordt opgesteld ofwel tijdens de periode dat de ruimtes onbewoond zijn, ofwel tijdens de eerste maand van bewoning. Hij wordt gevoegd bij de geschreven huurovereenkomst [1 in de zin van artikel 215 van de Brusselse Huisvestingscode]1 en zal eveneens onderworpen zijn aan de registratie.) <W 2007-04-25/38, art. 100, 010; Inwerkingtreding : 18-05-2007> Bereiken de partijen geen overeenstemming, dan wijst de vrederechter, bij wie de zaak aanhangig wordt gemaakt met een verzoekschrift ingediend voor het verstrijken van de termijn van één maand of van vijftien dagen naargelang van het geval, een deskundige aan die de plaatsbeschrijving opmaakt. Het vonnis is uitvoerbaar niettegenstaande verzet en is niet vatbaar voor hoger beroep.
 § 2. Indien in de gehuurde plaatsen belangrijke wijzigingen zijn aangebracht nadat de plaatsbeschrijving is opgemaakt kan elke partij eisen dat op tegenspraak en voor gemeenschappelijke rekening een bijvoegsel bij de plaatsbeschrijving wordt opgemaakt.
 Wordt geen overeenstemming bereikt, dan is de in paragraaf 1 voorgeschreven procedure van toepassing, behalve wat de termijnen betreft.
@@ -11880,28 +11556,23 @@ Wordt geen overeenstemming bereikt, dan is de in paragraaf 1 voorgeschreven proc
 <W 29-12-1983, art. 5> § 1. Indien geen omstandige plaatsbeschrijving is opgemaakt, wordt vermoed dat de huurder het gehuurde goed ontvangen heeft in dezelfde staat als waarin het zich bevindt op het einde van de huurovereenkomst, behoudens tegenbewijs, dat door alle middelen kan worden geleverd.
 § 2. Indien tussen verhuurder en huurder een omstandige plaatsbeschrijving is opgemaakt, moet de huurder het goed teruggeven zoals hij het, volgens die beschrijving, ontvangen heeft, met uitzondering van hetgeen door ouderdom of overmacht is teniet gegaan of beschadigd.
 
-## Art. 1731_WAALS_GEWEST
-
+Art. 1731_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1732
 
 Hij is aansprakelijk voor de beschadigingen of de verliezen die gedurende zijn huurtijd ontstaan, tenzij hij bewijst dat die buiten zijn schuld hebben plaatsgehad.
 
-## Art. 1732_WAALS_GEWEST
-
+Art. 1732_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1733
 
 _ <W 20-02-1991, art. 7> Hij is aansprakelijk voor brand, tenzij hij bewijst dat de brand buiten zijn schuld is ontstaan.
 
-## Art. 1733_BRUSSELS_HOOFDSTEDELIJK_GEWEST
+Art. 1733_BRUSSELS_HOOFDSTEDELIJK_GEWEST. <Opgeheven wat betreft woninghuurovereenkomsten en handelshuurovereenkomsten bij ORD 2024-04-04/10, art. 37, 034; Inwerkingtreding : 01-11-2024>
 
-<Opgeheven wat betreft woninghuurovereenkomsten en handelshuurovereenkomsten bij ORD 2024-04-04/10, art. 37, 034; Inwerkingtreding : 01-11-2024>
-
-## Art. 1733_WAALS_GEWEST
-
+Art. 1733_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1734
@@ -11912,8 +11583,7 @@ _ <W 20-02-1991, art. 7> Hij is aansprakelijk voor brand, tenzij hij bewijst dat
 
 De huurder is aansprakelijk voor de beschadigingen en de verliezen die ontstaan door toedoen van zijn huisgenoten of van zijn onderhuurders.
 
-## Art. 1735_WAALS_GEWEST
-
+Art. 1735_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1736
@@ -11921,84 +11591,73 @@ De huurder is aansprakelijk voor de beschadigingen en de verliezen die ontstaan 
 <W 20-02-1991, art. 8> Onverminderd het bepaalde in artikel 1758, wordt de voor onbepaalde duur gesloten huurovereenkomst geacht te zijn aangegaan per maand.
 De overeenkomst kan slechts worden beëindigd met inachtneming van een opzeggingstermijn van een maand.
 
-## Art. 1736_WAALS_GEWEST
-
+Art. 1736_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1737
 
 Indien de huur bij geschrift is aangegaan, eindigt zij van rechtswege wanneer de bepaalde tijd verstreken is, zonder dat een opzegging is vereist.
 
-## Art. 1737_WAALS_GEWEST
-
+Art. 1737_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1738
 
 <W 20-02-1991, art. 9> Indien de huurder, na beëindiging van een voor een bepaalde duur bij geschrift gesloten overeenkomst, het goed zonder verzet van de verhuurder verder blijft bewonen, is er wederinhuring tegen dezelfde voorwaarden, ook wat de duur betreft.
 
-## Art. 1738_WAALS_GEWEST
-
+Art. 1738_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1739
 
 Wanneer een opzegging is betekend, kan de huurder, hoewel hij in het genot gebleven is, zich niet beroepen op een stilzwijgende wederinhuring.
 
-## Art. 1739_WAALS_GEWEST
-
+Art. 1739_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1740
 
 <W 20-02-1991, art. 10> In het geval van de artikelen 1738 en 1739, strekken de verplichtingen van de borgtocht zich niet uit tot de verplichtingen die uit de wederinhuring ontstaan.
 
-## Art. 1740_WAALS_GEWEST
-
+Art. 1740_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1741
 
 Het huurcontract wordt ontbonden door het tenietgaan van het verhuurde goed, en door de nietnakoming van hun verplichtingen door de verhuurder of de huurder.
 
-## Art. 1741_WAALS_GEWEST
-
+Art. 1741_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1742
 
 [...] Het huurcontract wordt niet ontbonden door de dood van de verhuurder, noch door de dood van de huurder. <W 1991-02-20/33, art. 13, § 3, Inwerkingtreding : 28-02-1991> (Leden 2 tot 7 opgeheven) <W 04-11-1969, art. 2>
 
-## Art. 1742_WAALS_GEWEST
-
+Art. 1742_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1743
 
 [...] Indien de verhuurder het verhuurde goed verkoopt, kan de pachter of de huurder, die een authentieke huur of een huur met vaste dagtekening heeft, niet uit het gehuurde gezet worden door de koper, tenzij de verhuurder zich dit recht bij het huurcontract heeft voorbehouden. <W 1991-02-20/33, art. 13, § 3,
 
-## Art. 1743_WAALS_GEWEST
-
+Art. 1743_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1743_BRUSSELS_HOOFDSTEDELIJK_GEWEST
-
+Art. 1743_BRUSSELS_HOOFDSTEDELIJK_GEWEST.
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>] [...] Indien de verhuurder het verhuurde goed verkoopt, kan de pachter of de huurder, die een authentieke huur of een huur met vaste dagtekening heeft, niet uit het gehuurde gezet worden door de koper, tenzij de verhuurder zich dit recht bij het huurcontract heeft voorbehouden. <W 1991-02-20/33, art. 13, § 3,
 
 ## Art. 1744
 
 Indien bij het aangaan van de huur is overeengekomen dat, in geval van verkoop, de pachter of de huurder uit het gehuurde kan worden gezet door de koper, en geen beding gemaakt is omtrent de schadevergoeding, is de verhuurder verplicht de pachter of de huurder schadeloos te stellen op de volgende wijze.
 
-## Art. 1744_WAALS_GEWEST
-
+Art. 1744_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1745
 
 Indien het een huis, een appartement of een winkel betreft, betaalt de verhuurder aan de uit het gehuurde gezette huurder, als schadevergoeding, een bedrag gelijk aan de huurprijs voor de tijd die (volgens de wet of de overeenkomst) gelaten wordt tussen de opzegging en het vertrek. <W 20-02-1991, art. 11>
 
-## Art. 1745_WAALS_GEWEST
-
+Art. 1745_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1746
@@ -12009,56 +11668,48 @@ Indien het een huis, een appartement of een winkel betreft, betaalt de verhuurde
 
 De vergoeding wordt door deskundigen bepaald, indien het werkhuizen, fabrieken of andere inrichtingen betreft, die grote voorschotten vereisen.
 
-## Art. 1747_WAALS_GEWEST
-
+Art. 1747_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1748
 
 [...] De koper die gebruik wil maken van de bevoegdheid, bij het huurcontract voorbehouden, om, in geval van verkoop, (...) de huurder uit het gehuurde te zetten, is bovendien verplicht de huurder (te waarschuwen binnen de termijnen bepaald door de wet of de overeenkomst.) <W 1991-02-20/33, art. 13, § 3, 1991> (leden 2 tot 6 opgeheven) <W 04-11-1969, art. 2>
 
-## Art. 1748_WAALS_GEWEST
-
+Art. 1748_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1748_BRUSSELS_HOOFDSTEDELIJK_GEWEST
-
+Art. 1748_BRUSSELS_HOOFDSTEDELIJK_GEWEST.
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>] [...] De koper die gebruik wil maken van de bevoegdheid, bij het huurcontract voorbehouden, om, in geval van verkoop, (...) de huurder uit het gehuurde te zetten, is bovendien verplicht de huurder (te waarschuwen binnen de termijnen bepaald door de wet of de overeenkomst.) <W 1991-02-20/33, art. 13, § 3, Inwerkingtreding : 28- 02-1991> <W 07-03-1929, art. 2> <W 1991-02-20/33, art. 12, Inwerkingtreding : 28-02-1991> (leden 2 tot 6 opgeheven) <W 04-11-1969, art. 2>
 
 ## Art. 1749
 
 Pachters of huurders kunnen niet uit het gehuurde gezet worden, tenzij de verhuurder of, zo niet, de nieuwe koper hun de hierboven bepaalde schadevergoedingen betaalt.
 
-## Art. 1749_WAALS_GEWEST
-
+Art. 1749_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1750
 
 Indien de huur niet bij authentieke akte is aangegaan, of geen vaste dagtekening heeft, is de koper niet tot schadevergoeding gehouden.
 
-## Art. 1750_WAALS_GEWEST
-
+Art. 1750_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1750_BRUSSELS_HOOFDSTEDELIJK_GEWEST
-
+Art. 1750_BRUSSELS_HOOFDSTEDELIJK_GEWEST.
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>] Indien de huur niet bij authentieke akte is aangegaan, of geen vaste dagtekening heeft, is de koper niet tot schadevergoeding gehouden.
 
 ## Art. 1751
 
 De koper onder beding van wederinkoop kan geen gebruik maken van de bevoegdheid om de huurder uit het gehuurde te zetten, voordat hij, door het verstrijken van de tijd voor de wederinkoop bepaald, onherroepelijk eigenaar is geworden.
 
-## Art. 1751_WAALS_GEWEST
-
+Art. 1751_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1752
 
 De huurder die het huis niet van genoegzaam huisraad voorziet, kan eruit worden gezet, tenzij hij voldoende zekerheid stelt voor de betaling van de huur.
 
-## Art. 1752_WAALS_GEWEST
-
+Art. 1752_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1752bis
@@ -12070,8 +11721,7 @@ De huurder die het huis niet van genoegzaam huisraad voorziet, kan eruit worden 
 De onderhuurder is jegens de eigenaar slechts gehouden ten belope van de prijs, die hij als onderhuurder verschuldigd is op het ogenblik van het beslag, en zonder dat hij zich op bij voorraad gedane betalingen kan beroepen.
 Betalingen die de onderhuurder gedaan heeft, hetzij krachtens een beding van zijn huurcontract, hetzij overeenkomstig het plaatselijk gebruik, worden niet geacht bij voorraad te zijn gedaan.
 
-## Art. 1753_WAALS_GEWEST
-
+Art. 1753_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1754
@@ -12082,12 +11732,9 @@ Aan vloerstenen en tegels van kamers, wanneer er slechts enkele gebroken zijn;
 Aan ruiten, tenzij die gebroken zijn door hagel of andere buitengewone en door overmacht veroorzaakte voorvallen waarvoor de huurder niet aansprakelijk is;
 Aan deuren, vensterramen, planken dienende tot afschutting of tot sluiting van winkels, hengsels, grendels en sloten.
 
-## Art. 1754_WAALS_GEWEST
-
+Art. 1754_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
-
-## Art. 1754_BRUSSELS_HOOFDSTEDELIJK_GEWEST
-
+Art. 1754_BRUSSELS_HOOFDSTEDELIJK_GEWEST.
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>] Herstellingen ten laste van de huurder, of geringe herstellingen tot onderhoud, waartoe, behoudens andersluidend beding, de huurder gehouden is, zijn die welke door het plaatselijk gebruik als zodanig beschouwd worden en, onder andere, de herstellingen : Aan haarden, haardplaten, lijsten en mantels van schoorstenen;
 Aan de bepleistering van de muren van appartementen en andere woonplaatsen, onderaan tot op een meter hoogte;
 Aan vloerstenen en tegels van kamers, wanneer er slechts enkele gebroken zijn;
@@ -12098,32 +11745,27 @@ Aan deuren, vensterramen, planken dienende tot afschutting of tot sluiting van w
 
 Geen van de herstellingen die geacht worden herstellingen ten laste van de huurder te zijn, komt voor rekening van de huurder, wanneer alleen ouderdom of overmacht daartoe aanleiding hebben gegeven.
 
-## Art. 1755_WAALS_GEWEST
-
+Art. 1755_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1755_BRUSSELS_HOOFDSTEDELIJK_GEWEST
-
+Art. 1755_BRUSSELS_HOOFDSTEDELIJK_GEWEST.
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>] Geen van de herstellingen die geacht worden herstellingen ten laste van de huurder te zijn, komt voor rekening van de huurder, wanneer alleen ouderdom of overmacht daartoe aanleiding hebben gegeven.
 
 ## Art. 1756
 
 Het ruimen van putten en van sekreten komt ten laste van de verhuurder, indien niet het tegendeel bedongen is.
 
-## Art. 1756_WAALS_GEWEST
-
+Art. 1756_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
-## Art. 1756_BRUSSELS_HOOFDSTEDELIJK_GEWEST
-
+Art. 1756_BRUSSELS_HOOFDSTEDELIJK_GEWEST.
 [NOTA : in het Brussels Hoofdstedelijk Gewest niet langer van toepassing op de huurovereenkomsten onderworpen aan de titel XI van de Code. <ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>] Het ruimen van putten en van sekreten komt ten laste van de verhuurder, indien niet het tegendeel bedongen is.
 
 ## Art. 1757
 
 De huur van meubelen om een geheel huis, een gehele woning, een winkel of enig ander appartement daarmee te stofferen, wordt geacht voor zolang te zijn aangegaan als de huizen, woningen, winkels en andere appartementen volgens plaatselijk gebruik doorgaans verhuurd worden.
 
-## Art. 1757_WAALS_GEWEST
-
+Art. 1757_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1758
@@ -12133,8 +11775,7 @@ Bij de maand, wanneer zij is aangegaan tegen zoveel per maand;
 Bij de dag, wanneer zij is aangegaan tegen zoveel per dag.
 (Lid 4 opgeheven) <W 20-02-1991, art. 13>
 
-## Art. 1758_WAALS_GEWEST
-
+Art. 1758_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1758bis
@@ -12157,8 +11798,7 @@ Bij de dag, wanneer zij is aangegaan tegen zoveel per dag.
 
 In geval van ontbinding van de huur door de schuld van de huurder, is deze verplicht de huurprijs te betalen gedurende de tijd die voor de wederverhuring nodig is, onverminderd de vergoeding van de schade die door het wangebruik mocht zijn veroorzaakt.
 
-## Art. 1760_WAALS_GEWEST
-
+Art. 1760_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ## Art. 1761
@@ -12173,8 +11813,7 @@ In geval van ontbinding van de huur door de schuld van de huurder, is deze verpl
 
 <Ingevoegd bij W 30-05-1931, art. 1> De uitdrukkelijke ontbindende voorwaarde wordt voor niet geschreven gehouden.
 
-## Art. 1762bis_WAALS_GEWEST
-
+Art. 1762bis_WAALS_GEWEST.
 <Opgeheven wat betreft de woninghuurovereenkomst bij DWG 2018-03-15/13, art. 92,§1, 022;
 
 ##### AFDELING II. - REGELS BETREFFENDE DE HUUROVEREENKOMSTEN MET BETREKKING TOT DE HOOFDVERBLIJFPLAATS VAN DE HUURDER IN HET BIJZONDER. (Voor de autonome Tekst : 1991-02-20/32)
@@ -13103,9 +12742,9 @@ In beide gevallen is hij aan wie de zaak is toevertrouwd, onderworpen aan alle v
 
 ### TITEL XII. - KANSCONTRACTEN.
 
-## Art. 1964.Een
+## Art. 1964
 
-kanscontract is een wederkerige overeenkomst, waarvan de gevolgen, met betrekking tot winst en verlies, hetzij voor alle partijen, hetzij voor een of meer van hen, van een onzekere gebeurtenis afhangen.
+Een kanscontract is een wederkerige overeenkomst, waarvan de gevolgen, met betrekking tot winst en verlies, hetzij voor alle partijen, hetzij voor een of meer van hen, van een onzekere gebeurtenis afhangen.
 Van dien aard zijn :
 Het verzekeringscontract,
 [1 ...]1
@@ -13120,9 +12759,9 @@ Het contract van lijfrente.
 
 De wet staat geen rechtsvordering toe voor een speelschuld of voor de betaling van een weddenschap.
 
-## Art. 1966.De
+## Art. 1966
 
-spelen die geschikt zijn tot oefening in de wapenhandel, de wedlopen te voet of te paard, de wedrennen met wagens, het kaatsspel, en andere soortgelijke spelen waarmee behendigheid en geoefendheid van het lichaam zijn gemoeid, [1 alsook de kansspelen die zijn toegestaan ingevolge de wet van 7 mei 1999 op de kansspelen, de weddenschappen, de kansspelinrichtingen en de bescherming van de spelers,]1 zijn van de vorige bepaling uitgezonderd.
+De spelen die geschikt zijn tot oefening in de wapenhandel, de wedlopen te voet of te paard, de wedrennen met wagens, het kaatsspel, en andere soortgelijke spelen waarmee behendigheid en geoefendheid van het lichaam zijn gemoeid, [1 alsook de kansspelen die zijn toegestaan ingevolge de wet van 7 mei 1999 op de kansspelen, de weddenschappen, de kansspelinrichtingen en de bescherming van de spelers,]1 zijn van de vorige bepaling uitgezonderd.
 Evenwel kan de rechter de eis afwijzen, wanneer het bedrag hem buitensporig voorkomt.
 (1)<W 2010-01-10/12, art. 46, 013; Inwerkingtreding : 01-01-2011>
 
@@ -13304,9 +12943,9 @@ Wanneer verscheidene personen een lasthebber hebben aangesteld voor een gemeensc
 
 #### HOOFDSTUK IV. - VERSCHILLENDE WIJZEN WAAROP LASTGEVING EINDIGT.
 
-## Art. 2003.Lastgeving
+## Art. 2003
 
-eindigt :
+Lastgeving eindigt :
 Door herroeping van de volmacht van de lasthebber,
 Door opzegging van de lastgeving door de lasthebber,
 Door de (...) dood, [1 ...]1 of het kennelijk onvermogen, hetzij van de lastgever, hetzij van de lasthebber. <W 15-12-1949, art. 28> [1 [2 [3 Wat betreft de algemene lastgevingen bedoeld in artikel 1987 of de lastgevingen bedoeld in artikel 489]3, ingeval de lastgever]2 komt te verkeren in een staat bedoeld in artikel 488/1 of 488/2 en de lastgeving niet voldoet aan de eisen bepaald in de artikelen 490 en 490/1, § 1.]1 [3 Van het voorgaande kan worden afgeweken indien dit uitdrukkelijk werd bedongen in een contract van discretionair vermogensbeheer, een hypothecair mandaat of een burgerlijk maatschap.]3 [3 De Koning kan de lijst met uitzonderingen, bedoeld in het tweede lid, uitbreiden.
@@ -13316,9 +12955,9 @@ De lastgeving eindigt in alle gevallen indien de lasthebber komt te verkeren in 
 
 De lastgever kan zijn volmacht herroepen wanneer hem zulks goeddunkt, en in voorkomend geval de lasthebber noodzaken hem terug te geven, hetzij het onderhands geschrift dat de lastgeving bevat, hetzij het origineel van de volmacht, indien deze in brevet is afgegeven, hetzij de uitgifte, indien een minuut ervan gehouden is.
 
-## Art. 2005.De
+## Art. 2005
 
-herroeping waarvan alleen aan de lasthebber is kennis gegeven, kan niet worden tegengeworpen aan derden die, daarvan onkundig zijnde, met hem gehandeld hebben, onverminderd het verhaal van de lastgever op de lasthebber.
+De herroeping waarvan alleen aan de lasthebber is kennis gegeven, kan niet worden tegengeworpen aan derden die, daarvan onkundig zijnde, met hem gehandeld hebben, onverminderd het verhaal van de lastgever op de lasthebber.
 [1 De staat van de lastgever bedoeld in artikel 488/1 of 488/2 kan niet worden tegengeworpen aan derden die, daarvan onkundig zijnde, met de lasthebber gehandeld hebben, onverminderd het verhaal van de lastgever op de lasthebber.]1 (1)<W 2014-04-25/23, art. 202, 016; Inwerkingtreding : 01-09-2014>
 
 ## Art. 2006
@@ -13545,9 +13184,9 @@ Ingeval de lasthebber overlijdt, moeten zijn erfgenamen daarvan aan de lastgever
 Dading is een contract, waarbij partijen een gerezen geschil beëindigen, of een toekomstig geschil voorkomen.
 Dit contract moet schriftelijk opgemaakt worden.
 
-## Art. 2045.Om
+## Art. 2045
 
-een dading aan te gaan, moet men bekwaam zijn om te beschikken over de voorwerpen die in de dading begrepen zijn.
+Om een dading aan te gaan, moet men bekwaam zijn om te beschikken over de voorwerpen die in de dading begrepen zijn.
 (De voogd kan voor de minderjarige [1 ...]1 alleen met inachtneming van de vormen omschreven in artikel 410, § 1, een dading aangaan en hij kan met de meerderjarig geworden minderjarige over de voogdijrekening alleen overeenkomstig artikel 416, eerste lid, een dading aangaan.) <W 2001-04-29/39, art. 42, 008; Inwerkingtreding : 01-08-2001> [1 De bewindvoerder kan voor de persoon die krachtens artikel 492/1 onbekwaam werd verklaard om een dading af te sluiten alleen met inachtneming van de vormen voorgeschreven in artikel 499/7, § 2, eerste lid, 10°, een dading aangaan en hij kan na de beëindiging van zijn opdracht alleen overeenkomstig artikel 499/18 een dading over de bewindsrekening aangaan.]1 De gemeenten en de openbare instellingen kunnen geen dading aangaan (dan met de machtiging voorgeschreven bij artikel 49 van de organieke wet van 10 maart 1925 op de openbare onderstand). <W 15-12- 1949, art. 27>.
 (1)<W 2013-03-17/14, art. 144, 013; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
@@ -13757,9 +13396,9 @@ Afstand van verjaring geschiedt uitdrukkelijk of stilzwijgend; de stilzwijgende 
 
 Hij die niet kan vervreemden kan geen afstand doen van een verkregen verjaring.
 
-## Art. 2223.De
+## Art. 2223
 
-rechter mag het middel van verjaring niet ambtshalve toepassen.
+De rechter mag het middel van verjaring niet ambtshalve toepassen.
 [1 In afwijking van het eerste lid mag de rechter het middel van verjaring ambtshalve toepassen in het kader van de rechtsplegingen met betrekking tot betaling van een geldschuld ingesteld door een onderneming als bedoeld in artikel I.1, eerste lid, 1°, van het Wetboek van economisch recht, tegen een consument als bedoeld in artikel I.1, eerste lid, 2°, van het Wetboek van economisch recht.]1 (1)<W 2024-05-15/20, art. 2, 022; Inwerkingtreding : 01-10-2024>
 
 ## Art. 2224
@@ -13913,9 +13552,9 @@ De ingebrekestelling van de hoofdschuldenaar, of de erkenning van de schuld door
 
 De verjaring loopt tegen alle personen, behalve tegen hen voor wie de wet uitzondering maakt.
 
-## Art. 2252.De
+## Art. 2252
 
-verjaring loopt niet tegen minderjarigen en [1 beschermde personen wat betreft de handelingen waarvoor zij krachtens artikel 492/1 onbekwaam werden verklaard ]1, behoudens hetgeen in artikel 2278 bepaald is, en met uitzondering van de andere bij de wet bepaalde gevallen.
+De verjaring loopt niet tegen minderjarigen en [1 beschermde personen wat betreft de handelingen waarvoor zij krachtens artikel 492/1 onbekwaam werden verklaard ]1, behoudens hetgeen in artikel 2278 bepaald is, en met uitzondering van de andere bij de wet bepaalde gevallen.
 (1)<W 2013-03-17/14, art. 145, 013; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 ## Art. 2253
@@ -14070,9 +13709,9 @@ Deze verjaring is niet van toepassing wanneer en deskundige uitdrukkelijk met he
 
 (Ingevoegd bij <W 1999-05-04/03, art. 47, Inwerkingtreding : 01-01-2000>) Voor de beroepsaansprakelijkheid van de notarissen gelden de gemeenrechtelijke verjaringstermijnen, behoudens voor de beroepsaansprakelijkheid betreffende de laatste wilsbeschikkingen en de contractuele erfstellingen waarvoor de verjaringstermijn begint te lopen vanaf het overlijden van de betrokkene die de laatste wilsbeschikking of de contractuele erfstelling deed.
 
-## Art. 2277.Termijnen
+## Art. 2277
 
-van altijddurende renten en van lijfrenten;
+Termijnen van altijddurende renten en van lijfrenten;
 Die van uitkeringen tot levensonderhoud;
 [2 Schuldvorderingen van buitengewone kosten bedoeld in artikel 203bis, § 3;]2 Huren van huizen en pachten van landeigendommen;
 Interesten van geleende sommen, en, in het algemeen, al hetgeen betaalbaar is bij het jaar of bij kortere termijnen, Verjaren door verloop van vijf jaren.
@@ -14090,9 +13729,9 @@ Rechtsvorderingen ingesteld door publieke overheden tot vergoeding van de kosten
 De in het eerste lid vermelde rechtsvorderingen verjaren in ieder geval door verloop van dertig jaar vanaf de dag volgend op die waarop het feit dat tot milieuschade heeft geleid, heeft plaatsgevonden.
 § 2. Milieuschade ten gevolge van nucleaire activiteiten of ten gevolge van activiteiten die hoofdzakelijk de landsverdediging of de internationale veiligheid dienen, alsook milieuschade ten gevolge van oorlogshandelingen, vijandelijkheden, burgeroorlog, oproer of milieuschade ten gevolge van een natuurverschijnsel dat uitzonderlijk, onontkoombaar en onafwendbaar is, of milieuschade ten gevolge van activiteiten die uitsluitend tot doel hebben bescherming te bieden tegen natuurrampen, valt niet onder het toepassingsgebied van dit artikel.
 
-## Art. 2278.De
+## Art. 2278
 
-verjaringen waarover in de artikelen van deze afdeling gehandeld wordt, lopen tegen minderjaringen en [1 personen beschermd krachtens artikel 492/1]1; behoudens hun verhaal op hun [1 voogd of bewindvoerder ]1.
+De verjaringen waarover in de artikelen van deze afdeling gehandeld wordt, lopen tegen minderjaringen en [1 personen beschermd krachtens artikel 492/1]1; behoudens hun verhaal op hun [1 voogd of bewindvoerder ]1.
 (1)<W 2013-03-17/14, art. 146, 013; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 ## Art. 2279
@@ -15047,9 +14686,9 @@ Inleidende bepalingen. Overdracht van zakelijke rechten.
 
 <Opgeheven bij W 2020-02-04/16, art. 29,3°, 068; Inwerkingtreding : 01-09-2021>
 
-## Art. 5.Op
+## Art. 5
 
-de overdracht van een ingeschreven bevoorrechte of hypothecaire schuldvordering, of op de indeplaatsstelling in een zodanig recht, kan men zich tegen derden alleen beroepen indien zij voortvloeien uit akten [2 in artikel 3.31 van het Burgerlijk Wetboek]2 genoemd en indien de dagtekening en de aard van de titel van de overnemer op de kant der inschrijving zijn vermeld, met opgave van de namen, de voornamen, het beroep en de woonplaats van de partijen.
+Op de overdracht van een ingeschreven bevoorrechte of hypothecaire schuldvordering, of op de indeplaatsstelling in een zodanig recht, kan men zich tegen derden alleen beroepen indien zij voortvloeien uit akten [2 in artikel 3.31 van het Burgerlijk Wetboek]2 genoemd en indien de dagtekening en de aard van de titel van de overnemer op de kant der inschrijving zijn vermeld, met opgave van de namen, de voornamen, het beroep en de woonplaats van de partijen.
 (Hetzelfde geldt voor de afstand van de rang van een hypotheek, alsook voor de inpandgeving van een ingeschreven bevoorrechte of hypothecaire schuldvordering.) <W 10-10-1913, art. 3> De [1 Algemene Administratie van de Patrimoniumdocumentatie]1 vermeldt, onderaan op het borderel, de in [1 haar]1 registers aangebrachte wijziging.
 In geval van overdracht van een niet ingeschreven bevoorrechte of hypothecaire schuldvordering, of van indeplaatsstelling in een zodanig recht, zal de overnemer de hypotheek of het voorrecht door inschrijving niet kunnen bewaren dan voor zover de akte van overdracht verleden is in de vorm die voor de ingeschreven schuldvorderingen vereist is.
 (1)<W 2018-07-11/07, art. 13, 060; Inwerkingtreding : 30-07-2018>
@@ -15287,9 +14926,9 @@ Deze inschrijving omvat de som die als schadevergoeding voor het geval van uitwi
 Deze inschrijving vermeldt de bedingen betreffende de vrijwaring wegens uitwinning, indien zodanige bedingen zijn gemaakt.
 (1)<W 2015-12-18/12, art. 87, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 
-## Art. 36.De
+## Art. 36
 
-verkoper, de ruilers, de schenker, de medeërfgenamen of deelgenoten kunnen, door een uitdrukkelijk beding in de akte, de [1 Algemene Administratie van de Patrimoniumdocumentatie]1 ontslaan van de ambtshalve te nemen inschrijving.
+De verkoper, de ruilers, de schenker, de medeërfgenamen of deelgenoten kunnen, door een uitdrukkelijk beding in de akte, de [1 Algemene Administratie van de Patrimoniumdocumentatie]1 ontslaan van de ambtshalve te nemen inschrijving.
 In dat geval verliezen zij het voorrecht en het recht om een vordering tot ontbinding of tot terugvordering in te stellen, maar zij kunnen, krachtens hun titel, een hypothecaire inschrijving nemen, waarvan echter de rang zal worden bepaald door haar dagtekening.
 (1)<W 2018-07-11/07, art. 16, 060; Inwerkingtreding : 30-07-2018>
 
@@ -15369,8 +15008,7 @@ Verhuringen, te goeder trouw toegestaan na de vestiging van de hypotheek, worden
 
 (2121). De rechten en schuldvorderingen waaraan een wettelijke hypotheek is toegekend, zijn : (...) die van minderjarigen en onbekwaamverklaarden, op de goederen van hun voogd; ((...)); die van de Staat, de provincies, de gemeenten en de openbare instellingen, op de goederen van de ontvangers en beheerders die rekenplichtig zijn. <W 14-07-1976, art. 14-16, 2°> <W 1991-07-18/33, art. 15, 005; Inwerkingtreding : 1992- 07-26> (Ten voordele doch op kosten van het Fonds ter voorkoming en vergoeding van schade veroorzaakt door het winnen en pompen van grondwater wordt een wettelijke hypotheek toegekend op de onroerende goederen waarvoor het Fonds een voorschot heeft uitgekeerd overeenkomstig de wetgeving betreffende de schadeloosstelling veroorzaakt door het winnen en pompen van grondwater.) <W 10-01-1977, art. 10, 3°> (Ten voordele van het Hulpfonds tot financieel herstel van de gemeenten wordt een wettelijke hypotheek toegekend op de onroerende goederen van de gemeenten die een tegemoetkoming van het Fonds genieten.) <KBN 208, 23-09-1983, art. 11> (Bevestiging) <W 06-12-1984, art. 2, 1°> <Zie DCVR 24-01-1984, art. 23, inwerkingtreding is onbepaald>
 
-## Art. 47_WAALS_GEWEST
-
+Art. 47_WAALS_GEWEST.
 (2121). De rechten en schuldvorderingen waaraan een wettelijke hypotheek is toegekend, zijn : (...) die van minderjarigen en onbekwaamverklaarden, op de goederen van hun voogd; ((...)); die van de Staat, de provincies, de gemeenten en de openbare instellingen, op de goederen van de ontvangers en beheerders die rekenplichtig zijn. <W 14-07-1976, art. 14-16, 2°> <W 1991-07-18/33, art. 15, 005; Inwerkingtreding : 1992-07-26> (Ten voordele doch op kosten van het Fonds ter voorkoming en vergoeding van schade veroorzaakt door het winnen en pompen van grondwater wordt een wettelijke hypotheek toegekend op de onroerende goederen waarvoor het Fonds een voorschot heeft uitgekeerd overeenkomstig de wetgeving betreffende de schadeloosstelling veroorzaakt door het winnen en pompen van grondwater.) <W 10-01-1977, art. 10, 3°> [Ten voordele van het Hulpfonds tot financieel herstel van de gemeenten wordt een wettelijke hypotheek toegekend op de onroerende goederen van de gemeenten die een tegemoetkoming van het Fonds genieten.] <KBN 208, 23-09-1983, art. 11> (Bevestiging) <W 06-12-1984, art. 2, 1°> <Zie DCW 11-10-1985, art. 11, inwerkingtreding is onbepaald> [1 Ten voordele doch op kosten van het Waalse Gewest wordt een wettelijke hypotheek op de zakelijke rechten toegekend aan de eigenaars aan wie het Waalse Gewest voorschotten voor die rechten heeft gestort overeenkomstig artikel D.325 van het Waterwetboek gecoördineerd bij het besluit van de Waalse Regering van 3 maart 2005 betreffende Boek II van het Milieuwetboek.]1 [2 Ten voordele doch op kosten van het Waalse Gewest wordt een wettelijke hypotheek op de zakelijke rechten toegekend aan de eigenaars aan wie het Waalse Gewest voorschotten voor die rechten heeft gestort overeenkomstig artikel D. 325 van het Waterwetboek gecoördineerd bij het besluit van de Waalse Regering van 3 maart 2005 betreffende Boek II van het Milieuwetboek.]2 [3 Ten voordele doch op kosten van het Waalse Gewest wordt een wettelijke hypotheek op de zakelijke rechten toegekend aan de eigenaars aan wie het Waalse Gewest voorschotten voor die rechten heeft gestort overeenkomstig artikel D. 325 van het Waterwetboek gecoördineerd bij het besluit van de Waalse Regering van 3 maart 2005 betreffende Boek II van het Milieuwetboek.]3 [4 Ten voordele doch op kosten van het Waalse Gewest wordt een wettelijke hypotheek op de zakelijke rechten toegekend aan de eigenaars aan wie het Waalse Gewest voorschotten voor die rechten heeft gestort overeenkomstig artikel D.325 van het Waterwetboek gecoördineerd bij het besluit van de Waalse Regering van 3 maart 2005 betreffende Boek II van het Milieuwetboek.]4 [5 Ten voordele doch op kosten van het Waalse Gewest wordt een wettelijke hypotheek op de zakelijke rechten toegekend aan de eigenaars aan wie het Waalse Gewest voorschotten voor die rechten heeft gestort overeenkomstig artikel D.289 van Boek II van het Milieuwetboek, dat het Waterwetboek inhoudt.]5 (1)<DWG 2010-12-22/50, art. 154, 037; Inwerkingtreding : 01-01-2011> (2)<DWG 2011-12-15/31, art. 147, 038; Inwerkingtreding : 01-01-2012> (3)<DWG 2012-12-19/18, art. 156, 040; Inwerkingtreding : 01-01-2013> (4)<DWG 2013-12-11/12, art. 157, 045; Inwerkingtreding : 01-01-2014> (5)<DWG 2014-12-12/02, art. 99, 051; Inwerkingtreding : 01-01-2015>
 
 ## Art. 48
@@ -15422,9 +15060,9 @@ De toeziende voogd moet op eigen verantwoordelijkheid erover waken dat de inschr
 
 <W 2001-04-29/39, art. 51, 017; Inwerkingtreding : 01-08-2001> Ingeval de waarborgen verstrekt aan de minderjarigen of aan de onbekwaamverklaarden ontoereikend zijn geworden, kan de vrederechter krachtens artikel 407, § 2, van het Burgerlijk Wetboek bepalen dat het bedrag dat door de hypotheek gewaarborgd moest zijn, wordt verhoogd of dat die hypotheek tot andere onroerende goederen wordt uitgebreid. Indien de voogd geen andere onroerende goederen bezit of de waarde ervan ontoereikend wordt geoordeeld, kan de vrederechter andere waarborgen of bijkomende waarborgen bepalen zoals omschreven in artikel 56.
 
-## Art. 59.Indien
+## Art. 59
 
-de voogd, [1 in het geval van artikel 58]1, naderhand onroerende goederen verkrijgt, wordt gehandeld zoals in de artikelen 49 en volgende bepaald is.
+Indien de voogd, [1 in het geval van artikel 58]1, naderhand onroerende goederen verkrijgt, wordt gehandeld zoals in de artikelen 49 en volgende bepaald is.
 (1)<W 2014-05-05/09, art. 8, 048; Inwerkingtreding : 18-07-2014>
 
 ## Art. 60
@@ -15620,9 +15258,7 @@ Een hypotheekbelofte wordt, behoudens uitdrukkelijk andersluidend beding, van re
 2)>
 (2)<W 2015-10-26/06, art. 76, 052; Inwerkingtreding : 09-11-2015>
 
-## Art. 81undecies
-
-[1 [3 Zonder afbreuk te doen aan artikel 78 van de wet van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen en aan artikel 106 van de wet van 13 maart 2016 op het statuut van en het toezicht op de verzekerings- of herverzekeringsondernemingen]3, kan een overdracht van schuldvorderingen zoals bedoeld in artikel 81ter, in het raam van een fusie, overneming of splitsing van ondernemingen of in het raam van de inbreng of verkoop van het geheel of een gedeelte van de hypothecaire bedrijvigheid of van de gehele of een gedeelte van de portefeuille van deze schuldvorderingen, door een kredietgever, worden tegengeworpen aan alle derden door haar bekendmaking in het Belgisch Staatsblad door toedoen van de FSMA.]1 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
+Art. 81undecies.[1 [3 Zonder afbreuk te doen aan artikel 78 van de wet van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen en aan artikel 106 van de wet van 13 maart 2016 op het statuut van en het toezicht op de verzekerings- of herverzekeringsondernemingen]3, kan een overdracht van schuldvorderingen zoals bedoeld in artikel 81ter, in het raam van een fusie, overneming of splitsing van ondernemingen of in het raam van de inbreng of verkoop van het geheel of een gedeelte van de hypothecaire bedrijvigheid of van de gehele of een gedeelte van de portefeuille van deze schuldvorderingen, door een kredietgever, worden tegengeworpen aan alle derden door haar bekendmaking in het Belgisch Staatsblad door toedoen van de FSMA.]1 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 77, 052; Inwerkingtreding : 09-11-2015>
 (3)<W 2022-07-20/40, art. 281, 069; Inwerkingtreding : 06-10-2022>
@@ -15650,9 +15286,9 @@ Hij voegt daarbij twee (...) borderellen, waarvan een op de uitgifte van de tite
 (2)<W 2018-07-11/07, art. 20, 060; Inwerkingtreding : 30-07-2018>
 (3)<W 2019-04-28/01, art. 47, 063; Inwerkingtreding : 16-05-2019>
 
-## Art. 84.Om
+## Art. 84
 
-de inschrijving of de vermelding door de artikelen 3 en 5 vereist, te verkrijgen, [2 bezorgen de partijen, zelf of via een derde, aan de Algemene Administratie van de Patrimoniumdocumentatie]2 :
+Om de inschrijving of de vermelding door de artikelen 3 en 5 vereist, te verkrijgen, [2 bezorgen de partijen, zelf of via een derde, aan de Algemene Administratie van de Patrimoniumdocumentatie]2 :
 1° (Indien het een eis in recht betreft, twee uittreksels (...) bevattende de naam, de voornamen [1 en de woonplaats]1 van de partijen en in voorkomend geval, die van de nieuwe eigenaar, met aanduiding van zijn titel; de vermelding van de rechten waarvan de vernietiging of de herroeping wordt verzocht, en van de rechtbank die van de eis kennis moet nemen); <W 10-10-1913, art. 4> <W 2006-12-19/33, art. 65, 1°, 030 ; Inwerkingtreding : 01-01-2007>
 2° Indien het een vonnis betreft, twee uittreksels (...) door de griffier afgegeven, en bevattende de naam, de voornamen [1 en de woonplaats]1 van de partijen, het beschikkende gedeelte van de beslissing, alsook de vermelding van de rechtbank of het hof waardoor de beslissing is gewezen; <W 2006-12-19/33, art. 65, 1°, 030 ; Inwerkingtreding : 01-01-2007>
 3° Indien het een overdracht betreft, de authentieke uitgifte van de akte en twee uittreksels (...), bevattende de door artikel 5 vereiste opgaven. <W 2006-12-19/33, art. 65, 1°, 030 ; Inwerkingtreding : 01-01-2007> (Voor de toepassing van artikel [3 3.97]3 van het Burgerlijk Wetboek, moeten aan de [2 Algemene Administratie van de Patrimoniumdocumentatie]2 worden voorgelegd :
@@ -15945,9 +15581,9 @@ Deze bepaling doet echter geen afbreuk aan het recht van de niet vermelde schuld
 (2203). De vermeldingen van neerleggingen, de inschrijvingen en de overschrijvingen worden achter elkaar in de registers gedaan, zonder enig wit vak of enige tussenregel [1 ...]1.
 (1)<W 2015-12-18/12, art. 92, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 
-## Art. 134.De
+## Art. 134
 
-mocht hebben begaan [1 , herstellen zonder dat van de belanghebbende partijen een retributie wordt gevorderd,]1 door in zijn registers een overschrijving van de akten en borderellen te doen, maar alleen op de lopende dag, en voorafgegaan door een nota waarin de eerste overschrijving vermeld wordt.
+De [2 Algemene Administratie van de Patrimoniumdocumentatie kan de vergissingen die zij]2 mocht hebben begaan [1 , herstellen zonder dat van de belanghebbende partijen een retributie wordt gevorderd,]1 door in zijn registers een overschrijving van de akten en borderellen te doen, maar alleen op de lopende dag, en voorafgegaan door een nota waarin de eerste overschrijving vermeld wordt.
 (1)<W 2015-12-18/12, art. 93, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)> (2)<W 2018-07-11/07, art. 37, 060; Inwerkingtreding : 30-07-2018>
 
 #### HOOFDSTUK X. _ <ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> Wijze van houden en bewaren van de hypothecaire bescheiden.
@@ -16059,8 +15695,7 @@ De Koning bepaalt het tarief van deze retributies en de nadere regels inzake toe
 
 <W 29-06-1955, art. 1> De bepalingen van deze afdelingen zijn van toepassing op de huur van onroerende goederen of gedeelten van onroerende goederen die, hetzij uitdrukkelijk of stilzwijgend vanaf de ingenottreding van de huurder, hetzij krachtens een uitdrukkelijke overeenkomst van partijen in de loop van de huur, door de huurder of door een onderhuurder in hoofdzaak gebruikt worden voor het uitoefenen van een kleinhandel of voor het bedrijf van een ambachtsman die rechtstreeks in contact staat met het publiek.
 
-## Art. 1_WAALS_GEWEST
-
+Art. 1_WAALS_GEWEST.
 [1 § 1.]1 De bepalingen van deze afdelingen zijn van toepassing op de huur van onroerende goederen of gedeelten van onroerende goederen die, hetzij uitdrukkelijk of stilzwijgend vanaf de ingenottreding van de huurder, hetzij krachtens een uitdrukkelijke overeenkomst van partijen in de loop van de huur, door de huurder of door een onderhuurder in hoofdzaak gebruikt worden voor het uitoefenen van een kleinhandel of voor het bedrijf van een ambachtsman die rechtstreeks in contact staat met het publiek.
 [1 § 2. Deze afdeling is ook volledig van toepassing op de huurovereenkomsten gesloten in het kader van een commerciële samenwerkingsovereenkomst zoals bedoeld in artikel I.11, 2°, van het Wetboek van economisch recht van 28 februari 2013.
 § 3. Elk beding dat uitsluitend betrekking heeft op de lokalen die voor de exploitatie van een bepaald merkteken worden gehuurd, wordt als ongeschreven beschouwd.]1 (1)<DWG 2018-07-17/04, art. 23, 007; Inwerkingtreding : 18-10-2018>
@@ -16074,8 +15709,7 @@ De bepalingen van deze afdeling zijn evenwel niet van toepassing :
 4° (Op de huur van onroerende goederen met een gering inkomen, dat niet hoger is dan het bedrag bepaald bij een in de Ministerraad overlegd koninklijk besluit, noch op de huur van gedeelten van zodanige onroerende goederen. Dat besluit zal, met betrekking tot de vaststelling van de beoordelingsbevoegdheid van de rechter en van de bewijsmiddelen die hij zal mogen toelaten, de bepalingen van artikel 36 der wet van 20 december 1950 kunnen toepassen); <W 22-12-1951, art. 1>
 5° (Op de huur van onroerende goederen, ten algemenen nutte onteigend of verkregen, die wordt toegestaan door het openbaar bestuur of door de instelling van openbaar nut.) <W 22-12-1951, art. 2>
 
-## Art. 2_BRUSSELS_HOOFDSTEDELIJK_GEWEST
-
+Art. 2_BRUSSELS_HOOFDSTEDELIJK_GEWEST.
 De bepalingen van deze afdeling zijn evenwel niet van toepassing :
 1° [1 Op de huur die schriftelijk is gesloten voor een termijn die gelijk is aan of korter is dan één jaar ;]1
 2° Op de huur van onroerende goederen of gedeelten van onroerende goederen die van de grondbelasting zijn ontslagen of vrijgesteld krachtens artikel 4, § 2 van de wet van 7 maart 1924, gewijzigd bij artikel 2 van de wet van 13 juli 1930;
@@ -16083,8 +15717,7 @@ De bepalingen van deze afdeling zijn evenwel niet van toepassing :
 4° (Op de huur van onroerende goederen met een gering inkomen, dat niet hoger is dan het bedrag bepaald bij een in de Ministerraad overlegd koninklijk besluit, noch op de huur van gedeelten van zodanige onroerende goederen. Dat besluit zal, met betrekking tot de vaststelling van de beoordelingsbevoegdheid van de rechter en van de bewijsmiddelen die hij zal mogen toelaten, de bepalingen van artikel 36 der wet van 20 december 1950 kunnen toepassen); <W 22-12-1951, art. 1>
 5° (Op de huur van onroerende goederen, ten algemenen nutte onteigend of verkregen, die wordt toegestaan door het openbaar bestuur of door de instelling van openbaar nut.) <W 22-12-1951, art. 2> (1)<ORD 2019-04-25/12, art. 18, 008; Inwerkingtreding : 19-05-2019>
 
-## Art. 2_WAALS_GEWEST
-
+Art. 2_WAALS_GEWEST.
 De bepalingen van deze afdeling zijn evenwel niet van toepassing :
 1° [1 op de huur die schriftelijk is gesloten voor een duur die gelijk is aan of korter is dan één jaar;]1
 2° Op de huur van onroerende goederen of gedeelten van onroerende goederen die van de grondbelasting zijn ontslagen of vrijgesteld krachtens artikel 4, § 2 van de wet van 7 maart 1924, gewijzigd bij artikel 2 van de wet van 13 juli 1930;
@@ -16092,8 +15725,7 @@ De bepalingen van deze afdeling zijn evenwel niet van toepassing :
 4° (Op de huur van onroerende goederen met een gering inkomen, dat niet hoger is dan het bedrag bepaald bij een in de Ministerraad overlegd koninklijk besluit, noch op de huur van gedeelten van zodanige onroerende goederen. Dat besluit zal, met betrekking tot de vaststelling van de beoordelingsbevoegdheid van de rechter en van de bewijsmiddelen die hij zal mogen toelaten, de bepalingen van artikel 36 der wet van 20 december 1950 kunnen toepassen); <W 22-12-1951, art. 1>
 5° (Op de huur van onroerende goederen, ten algemenen nutte onteigend of verkregen, die wordt toegestaan door het openbaar bestuur of door de instelling van openbaar nut.) <W 22-12-1951, art. 2> (1)<DWG 2018-03-15/12, art. 12, 006; Inwerkingtreding : 01-05-2018>
 
-## Art. 2_VLAAMS_GEWEST
-
+Art. 2_VLAAMS_GEWEST.
 De bepalingen van deze afdeling zijn evenwel niet van toepassing :
 1° [1 op de huur die schriftelijk is gesloten voor een termijn die gelijk is aan of korter is dan één jaar;]1
 2° Op de huur van onroerende goederen of gedeelten van onroerende goederen die van de grondbelasting zijn ontslagen of vrijgesteld krachtens artikel 4, § 2 van de wet van 7 maart 1924, gewijzigd bij artikel 2 van de wet van 13 juli 1930;
@@ -16110,8 +15742,7 @@ Deze bepaling geldt ook voor de onderhuur, die echter niet mag worden aangegaan 
 De huurder kan evenwel de lopende huur beëindigen bij het verstrijken van (elke driejarige periode), mits hij zes maanden tevoren opzegt bij gerechtsdeurwaardersexploot of bij ter post aangetekende brief. <W 29-06-1955, art. 1> Partijen kunnen te allen tijde de lopende huur eveneens beëindigen, op voorwaarde dat hun akkoord wordt vastgesteld bij een authentieke akte of bij een verklaring voor de rechter afgelegd.
 Buitendien kan het huurcontract aan de verhuurder het recht toekennen om, bij het verstrijken van (elke driejarige periode), de huur te beëindigen, mits hij één jaar tevoren opzegt bij gerechtsdeurwaardersexploot of bij ter post aangetekende brief, ten einde in het onroerend goed werkelijk zelf een handel uit te oefenen of die werkelijk te laten uitoefenen door zijn afstammelingen, zijn aangenomen kinderen of zijn bloedverwanten in de opgaande lijn, door zijn echtgenoot, door diens afstammelingen, bloedverwanten in de opgaande lijn of aangenomen kinderen of door een personenvennootschap waarvan de werkende vennoten of de vennoten die ten minste drie vierden van het kapitaal bezitten, in dezelfde betrekking van bloedverwantschap, aanverwantschap of aanneming staan tot de verhuurder of tot zijn echtgenoot. <W 29-06-1955, art. 1>
 
-## Art. 3_WAALS_GEWEST
-
+Art. 3_WAALS_GEWEST.
 De duur van de huur mag niet korter zijn dan negen jaren.
 Deze bepaling geldt ook voor de onderhuur, die echter niet mag worden aangegaan voor langer dan de looptijd van de hoofdhuur.
 De huurder kan evenwel de lopende huur beëindigen bij het verstrijken van (elke driejarige periode), mits hij zes maanden tevoren opzegt bij gerechtsdeurwaardersexploot of bij ter post aangetekende brief. <W 29-06-1955, art. 1> Partijen kunnen te allen tijde de lopende huur eveneens beëindigen, op voorwaarde dat hun akkoord wordt vastgesteld bij [1 een ter registratie aangeboden schriftelijk document]1.
@@ -16195,8 +15826,7 @@ Hetzelfde geldt wanneer de huur geen vaste dagtekening heeft verkregen vóór de
 
 (De huurder heeft het recht, bij voorkeur boven alle andere personen, de hernieuwing van zijn huurovereenkomst te verkrijgen om dezelfde handel voort te zetten, hetzij bij het verstrijken ervan, hetzij bij het verstrijken van de eerste of de tweede hernieuwing, voor een duur van negen jaar, behoudens akkoord van partijen dat blijkt uit een authentieke akte of uit een voor de rechter afgelegde verklaring. Dit recht is beperkt tot drie hernieuwingen.) <W 27-03-1970, art. 1> Is evenwel de verhuurder of een der verhuurders minderjarig op het ogenblik van de hernieuwing van de huur, dan kan de duur daarvan beperkt worden tot de tijd die nog moet lopen tot aan zijn meerderjarigheid.
 
-## Art. 13_WAALS_GEWEST
-
+Art. 13_WAALS_GEWEST.
 (De huurder heeft het recht, bij voorkeur boven alle andere personen, de hernieuwing van zijn huurovereenkomst te verkrijgen om dezelfde handel voort te zetten, hetzij bij het verstrijken ervan, hetzij bij het verstrijken van de eerste of de tweede hernieuwing, voor een duur van negen jaar, behoudens akkoord van partijen dat blijkt uit [1 een ter registratie aangeboden schriftelijk document]1. Dit recht is beperkt tot drie hernieuwingen.) <W 27-03-1970, art. 1> Is evenwel de verhuurder of een der verhuurders minderjarig op het ogenblik van de hernieuwing van de huur, dan kan de duur daarvan beperkt worden tot de tijd die nog moet lopen tot aan zijn meerderjarigheid.
 (1)<DWG 2018-03-15/12, art. 14, 006; Inwerkingtreding : 07-04-2018>
 
@@ -16209,9 +15839,9 @@ Vanaf de aanvang der achttiende maand vóór het eindigen van de lopende huur, m
 
 Het recht op hernieuwing is van toepassing op de huur van voor bewoning bestemde lokalen of op de huur van bijlokalen, onder de voorwaarden vastgesteld in artikel 4.
 
-## Art. 16.I
+## Art. 16
 
-De verhuurder kan de hernieuwing van de huur weigeren om een van de volgende redenen :
+I. De verhuurder kan de hernieuwing van de huur weigeren om een van de volgende redenen :
 1° Zijn wil om persoonlijk en werkelijk het verhuurde goed in gebruik te nemen, of het op die wijze te doen in gebruik nemen door zijn afstammelingen, zijn aangenomen kinderen of zijn bloedverwanten in de opgaande lijn, door zijn echtgenoot, door diens afstammelingen, bloedverwanten in de opgaande lijn of aangenomen kinderen, of het te doen in gebruik nemen door een personenvennootschap waarvan de werkende vennoten of de vennoten die ten minste drie vierden van het kapitaal bezitten, in dezelfde betrekking van bloedverwantschap, aanverwantschap of aanneming staan tot de verhuurder of tot zijn echtgenoot.
 2° Zijn wil om het onroerend goed een bestemming te geven die elke handelsonderneming uitsluit.
 3° Zijn wil om het onroerend goed of het gedeelte van het onroerend goed waarin de afgaande huurder zijn bedrijf uitoefent, weder op te bouwen. Als wederopbouw wordt beschouwd elke verbouwing door een afbraak voorafgegaan, beide de ruwbouw van de lokalen rakende en waarvan de kosten drie jaar huur te boven gaan.
@@ -16356,8 +15986,7 @@ De bepalingen van deze afdeling zijn niet van toepassing :
 5° op de overeenkomsten tot oprichting van een landbouwvennootschap waarop de bepalingen van deze afdeling normaal van toepassing zouden zijn, maar die werd opgericht voor een duur van ten minste 27 jaar;
 6° op de overeenkomsten met betrekking tot de fruitopbrengst van de hoogstamboomgaarden.
 
-## Art. 2_WAALS_GEWEST
-
+Art. 2_WAALS_GEWEST.
 <W 1988-11-07/43, art. 2, 002; Inwerkingtreding : 1988-12-16>
 De bepalingen van deze afdeling zijn niet van toepassing :
 1° op de pacht van onroerende goederen die gebruikt worden voor industriële vetmesterij en industriële fokkerij, onafhankelijk van een landbouwbedrijf;
@@ -16369,8 +15998,7 @@ De bepalingen van deze afdeling zijn niet van toepassing :
 (1)<DWG 2019-05-02/90, art. 1,1°, 011; Inwerkingtreding : 01-01-2020>
 (2)<DWG 2019-05-02/90, art. 1,2°, 011; Inwerkingtreding : 15-07-2019>
 
-## Art. 2_VLAAMS_GEWEST
-
+Art. 2_VLAAMS_GEWEST.
 <W 1988-11-07/43, art. 2, 002; Inwerkingtreding : 1988-12-16>
 De bepalingen van deze afdeling zijn niet van toepassing :
 1° op de pacht van onroerende goederen die gebruikt worden voor industriële vetmesterij en industriële fokkerij, onafhankelijk van een landbouwbedrijf;
@@ -16381,8 +16009,7 @@ De bepalingen van deze afdeling zijn niet van toepassing :
 6° op de overeenkomsten met betrekking tot de fruitopbrengst van de hoogstamboomgaarden.
 (1)<DVR 2019-04-26/31, art. 27, 010; Inwerkingtreding : 01-01-2020>
 
-## Art. 2bis_WAALS_GEWEST
-
+Art. 2bis_WAALS_GEWEST.
 [1 In de zin van deze afdeling wordt verstaan onder:
 1° de wettelijk samenwonenden: de wettelijk samenwonenden in de zin van artikel 1475 van het Burgerlijk Wetboek waarvan het samenwonen een ononderbroken duur van minstens twee jaar heeft voordat volgende gebeurtenissen zich voordoen:
 a) in de artikelen 7, 8, 8bis en 11bis, de datum waarop de pachter kennis van de opzegging wordt gegeven;
@@ -16396,8 +16023,7 @@ h) in artikel 52, de datum waarop de verkoopovereenkomst gesloten wordt;
 i) in artikel 54, de datum waarop de overdrachtsovereenkomst van het goed of van de exploitatie gesloten wordt;
 2° de bevoorrechte overdracht: de overdracht van een pachtovereenkomst verricht met inachtneming van artikel 35 en die resulteert in een vernieuwing van de pacht.]1 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 2, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 2ter_WAALS_GEWEST
-
+Art. 2ter_WAALS_GEWEST.
 [1 Iedere zending krachtens één van de bepalingen van deze afdeling wordt geacht van een vaste datum voorzien te zijn wanneer de datum van ontvangst ervan bewezen kan worden en zij één van volgende vormen aanneemt:
 1° de gedateerde en ondertekende e-mail;
 2° het bij ter post aangetekend schrijven;
@@ -16417,8 +16043,7 @@ De brief moet eveneens uitdrukkelijk vermelden dat de betaling geldt als bewijs 
 Indien de overeengekomen pachtprijs niet bewezen is, wordt hij vastgesteld door de rechter overeenkomstig de bepalingen ter beperking van de pachtprijzen.
 2° Indien er een naar de vorm andersluidend geschrift is, kan degenen die een landeigendom exploiteert, het bewijs leveren van het bestaan van een pacht en van de pachtvoorwaarden door alle middelen met inbegrip van getuigen en vermoedens.
 
-## Art. 3_WAALS_GEWEST
-
+Art. 3_WAALS_GEWEST.
 [1 § 1. Iedere pacht, vallend onder deze afdeling, evenals de wijziging of uitdrukkelijke verlenging ervan, worden schriftelijk vastgesteld. Dit geschrift bevat, los van de andere modaliteiten:
 1° de identiteit van de overeenkomstsluitende partijen, namelijk:
 a) voor de natuurlijke personen, hun naam, voornaam, woonst, geboortedatum en -plaats, burgerlijke stand, hun identificatienummer in het Rijksregister of in het BIS-register van de Kruispuntbank van de Sociale Zekerheid en, indien gekend, het producentennummer en het ondernemingsnummer bedoeld in artikel III.17 van het Wetboek van economisch recht;
@@ -16448,8 +16073,7 @@ Indien er een naar de vorm andersluidend geschrift is, kan degene die een landei
 De pachttijd wordt vastgesteld door de partijen; hij mag niet korter zijn dan negen jaar. Is een kortere tijd bedongen, dan wordt hij van rechtswege op negen jaar gebracht.
 Bij gebreke van geldige opzegging wordt de pact van rechtswege verlengd voor opeenvolgende periodes van negen jaar bij het eindigen van de gebruiksperiode, zelfs indien de huur van de eerste gebruiksperiode langer is geweest dan negen jaar.
 
-## Art. 4_WAALS_GEWEST
-
+Art. 4_WAALS_GEWEST.
 De pachttijd wordt vastgesteld door de partijen; hij mag niet korter zijn dan negen jaar. Is een kortere tijd bedongen, dan wordt hij van rechtswege op negen jaar gebracht.
 [1 Bij gebreke van geldige opzegging wordt de pacht van rechtswege verlengd voor opeenvolgende periodes van negen jaar bij het eindigen van de gebruiksperiode, zelfs indien de huur van de eerste gebruiksperiode langer is geweest dan negen jaar. Na afloop van de derde verlenging eindigt de pacht van rechtswege.]1 [1 Wanneer de pachter na afloop van de derde verlenging op het pachtgoed wordt gelaten, wordt de pacht, in afwijking van lid 2, van jaar tot jaar tussen dezelfde pachtovereenkomstsluitende partijen verlengd. Er kan zich tijdens deze stilzwijgende verlenging geen enkele overdracht of bevoorrechte overdracht voordoen. In afwijking van artikel 43 wordt de pacht op dag van overlijden van de pachter of op een latere datum opgezegd, om de volledige oogst van de wassende vruchten door zijn erfgenamen of rechthebbenden mogelijk te maken.]1 (1)<DWG 2019-05-02/90, art. 5, 011; Inwerkingtreding : 01-01-2020>
 
@@ -16471,8 +16095,7 @@ De bepalingen van artikel 4 zijn niet toepasselijk op overeenkomsten betreffende
 6° de pachtovereenkomst betrekking heeft op gronden die na het sluiten van de overeenkomst verkregen zijn door een openbaar bestuur of een publiekrechtelijke rechtspersoon, op grond van een koninklijk besluit dat de onteigening ten algemenen nutte beveelt of toestaat.
 § 2. In afwijking van artikel 4, kan de verpachter op ieder ogenblik eveneens een einde maken aan de lopende pacht om een aaneengesloten grond die aan zijn woonhuis aansluit en niet groter is dan 20 are, aan te wenden voor gezinsdoeleinden. In geval van geschil over de plaats van het bedoelde perceel beslist de rechter.
 
-## Art. 6_VLAAMS_GEWEST
-
+Art. 6_VLAAMS_GEWEST.
 <W 1988-11-07/43, art. 4, 002; Inwerkingtreding : 1988-12-16>
 § 1. In afwijking van artikel 4, kan de verpachter op ieder ogenblik een einde maken aan de lopende pacht om de verpachte goederen te gebruiken overeenkomstig hun eindbestemming, indien :
 1° de pachtovereenkomst betrekking heeft op gronden die, wegens hun ligging ten tijde van de overeenkomst, zonder dat er vooraf wegenwerken uitgevoerd dienen te worden, beschouwd moesten worden als bouwgronden of voor industriële doeleinden bestemde gronden, mits zij als zodanig opgegeven zijn in de pachtovereenkomst;
@@ -16484,8 +16107,7 @@ De bepalingen van artikel 4 zijn niet toepasselijk op overeenkomsten betreffende
 § 2. In afwijking van artikel 4, kan de verpachter op ieder ogenblik eveneens een einde maken aan de lopende pacht om een aaneengesloten grond die aan zijn woonhuis aansluit en niet groter is dan 20 are, aan te wenden voor gezinsdoeleinden. In geval van geschil over de plaats van het bedoelde perceel beslist de rechter.
 [1 § 3. In afwijking van artikel 4 kan op ieder ogenblik eveneens een einde gemaakt worden aan de lopende pacht als de pachtovereenkomst betrekking heeft op gronden die de houder van een vergunning voor het opsporen of het winnen van koolwaterstoffen of [3 de houder van een vergunning voor het opsporen of het winnen van koolwaterstoffen, de houder van een opsporings- of opslagvergunning in het kader van de geologische opslag van koolstofdioxide of de houder van een vergunning voor het opsporen of het winnen van aardwarmte overeenkomstig artikel 32, 61 of 63/24 van het decreet van 8 mei 2009 betreffende de diepe ondergrond]3 mag bezetten. De genoemde vergunninghouder treedt met het oog op de beëindiging van de lopende pachtovereenkomst in de rechten en de plichten van de verpachter.]1 (1)<DVR 2009-05-08/15, art. 66, 006; Inwerkingtreding : 06-09-2011> (3)<DVR 2016-03-25/25, art. 39, 008; Inwerkingtreding : 01-01-2017 (BVR 2016-10-28/24)>
 
-## Art. 6_WAALSE_GEWEST
-
+Art. 6_WAALSE_GEWEST.
 <W 1988-11-07/43, art. 4, 002; Inwerkingtreding : 1988-12-16>
 § 1. In afwijking van artikel 4, kan de verpachter op ieder ogenblik een einde maken aan de lopende pacht om de verpachte goederen te gebruiken overeenkomstig hun eindbestemming, indien :
 1° de pachtovereenkomst betrekking heeft op gronden die, wegens hun ligging ten tijde van de overeenkomst, zonder dat er vooraf wegenwerken uitgevoerd dienen te worden, beschouwd moesten worden als bouwgronden of voor industriële doeleinden bestemde gronden, mits zij als zodanig opgegeven zijn in de pachtovereenkomst;
@@ -16523,8 +16145,7 @@ Ingeval het pachtgoed medeëigendom is of wordt van verscheidene personen, kan a
 9° de aanwending van percelen voor doeleinden van algemeen belang door een openbaar bestuur of een publiekrechtelijke rechtspersoon;
 10° de aanwending van percelen als bouwgronden of als gronden voor industriële doeleinden bestemd, mits zij wegens hun ligging op het ogenblik van de opzegging als zodanig moeten worden beschouwd.
 
-## Art. 7_WAALS_GEWEST
-
+Art. 7_WAALS_GEWEST.
 <W 1988-11-07/43, art. 5, 002; Inwerkingtreding : 1988-12-16>
 De verpachter kan bij het verstrijken van elke pachtperiode een einde maken aan de pacht, indien hij van een ernstige reden doet blijken. Ongeacht de in artikel 6 bedoelde redenen kunnen als ernstige redenen uitsluitend worden aanvaard :
 1° het door de verpachter te kennen gegeven voornemen om zelf het verpachte goed geheel of gedeeltelijk te exploiteren of de exploitatie ervan geheel of gedeeltelijk over te dragen aan zijn echtgenoot [1 , aan zijn wettelijk samenwonende]1, aan zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot [1 , zijn wettelijk samenwonende]1 of aan de echtgenoten [1 of aan de wettelijk samenwonenden]1 van de voormelde afstammelingen of aangenomen kinderen.
@@ -16557,8 +16178,7 @@ Onderpacht en pachtoverdracht zijn mogelijk overeenkomstig de artikelen 30, 31, 
 Wanneer de pachter in het bezit van het goed wordt gelaten na het einde van de loopbaanpacht, wordt de loopbaanpacht stilzwijgend verlengd van jaar tot jaar.
 Onder voorbehoud van de vorige leden zijn de bepalingen van deze wet volledig van toepassing op de loopbaanpacht.
 
-## Art. 8_WAALS_GEWEST
-
+Art. 8_WAALS_GEWEST.
 [1 § 1. Te rekenen van de derde pachtperiode kan de verpachter, in afwijking van artikel 4 de pacht beëindigen mits een opzegging overeenkomstig artikel 11.3 gegeven, om zelf het verpachte goed geheel te exploiteren of de exploitatie ervan geheel over te dragen aan zijn echtgenoot, aan zijn wettelijk samenwonende, aan zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot of aan de echtgenoten of aan de samenwonende echtgenoten van de voormelde afstammelingen of aangenomen kinderen of aan zijn bloedverwanten tot de vierde graad.
 De bepalingen van artikel 7, 1°, lid 2, zijn van toepassing.
 § 2. In afwijking van artikel 4 kunnen de partijen een pacht van minstens 27 jaar afsluiten, de zgn. langdurige pacht.
@@ -16593,18 +16213,14 @@ Op het einde van een eindeloopbaanpacht kan de verpachter van rechtswege vrij ov
 De onderpacht, de pachtoverdracht en het voorkooprecht als bepaald in artikelen 30, 31, 32, 34, 35 en 47 zijn niet van toepassing op de eindeloopbaanpacht.
 Wanneer de pachter na de periode, bedoeld in lid 1, in onderling overleg van de overeenkomstsluitende partijen op het pachtgoed wordt gelaten, wordt de pacht, jaar per paar, tussen bedoelde partijen verdergezet. In afwijking van artikel 43 wordt de pacht opgezegd op de dag van het overlijden van de pachter of op een latere datum zodat de groeiende oogst volledig weggehaald kan worden door zijn erfgenamen of rechthebbenden.]1 (1)<DWG 2019-05-02/90, art. 8, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 8BIS
-
-<W 1988-11-07/43, art. 7, 002; Inwerkingtreding : 1988-12-16>
-Indien de pachter die na het bereiken van de pensioenleeftijd een rust- of overlevingspensioen geniet, onder de in artikel 34 vermelde personen niemand kan aanwijzen die eventueel zijn exploitatie kan voortzetten, kan de verpachter een einde maken aan de pacht om zelf het verpachte goed geheel of gedeeltelijk te exploiteren of de exploitatie ervan over te dragen aan zijn echtgenoot, aan zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot of aan de echtgenoten van de voormelde afstammelingen of aangenomen kinderen. De bepalingen van artikel 7, 1°, tweede lid, zijn van toepassing.
+Art. 8BIS. <W 1988-11-07/43, art. 7, 002; Inwerkingtreding : 1988-12-16> Indien de pachter die na het bereiken van de pensioenleeftijd een rust- of overlevingspensioen geniet, onder de in artikel 34 vermelde personen niemand kan aanwijzen die eventueel zijn exploitatie kan voortzetten, kan de verpachter een einde maken aan de pacht om zelf het verpachte goed geheel of gedeeltelijk te exploiteren of de exploitatie ervan over te dragen aan zijn echtgenoot, aan zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot of aan de echtgenoten van de voormelde afstammelingen of aangenomen kinderen. De bepalingen van artikel 7, 1°, tweede lid, zijn van toepassing.
 Indien verscheidene pachters het goed gemeenschappelijk pachten, moeten al deze pachters voldoen aan alle in het voorgaande lid gestelde voorwaarden.
 Onder dezelfde voorwaarden kan de verpachter geheel of gedeeltelijk een einde maken aan de pacht om de goederen te verpachten of te vervreemden met het oog op exploitatie door een leefbaar bedrijf of door een bedrijf dat het voorwerp van een ontwikkelingsplan uitmaakt, overeenkomstig de wetgeving en reglementering inzake de modernisering van de landbouwbedrijven.
 De verpachting of de vervreemding bedoeld in het voorgaande lid, moet voltrokken zijn binnen een termijn van zes maanden nadat de pachter aan wie opzegging werd gegeven, het goed verlaten heeft.
 De exploitatie van het van de pachter op grond van deze bepalingen teruggenomen goed, evenals de persoon van de aanstaande exploitant, moeten voldoen aan de in artikel 9 gestelde voorwaarden.
 De bepalingen van artikel 10, 12, met uitzondering van het 2, het 5 en het 7, en van artikel 13 van deze wet, zijn van overeenkomstige toepassing op deze opzegging. In geval van toepassing van het derde lid van dit artikel is artikel 12, 1°, tweede lid, niet van toepassing.
 
-## Art. 8bis_WAALS_GEWEST
-
+Art. 8bis_WAALS_GEWEST.
 <W 1988-11-07/43, art. 7, 002; Inwerkingtreding : 1988-12-16>
 [1 Indien de pachter die na het bereiken van de pensioenleeftijd een rust- of overlevingspensioen geniet, onder de in artikel 34 vermelde personen niemand kan aanwijzen die eventueel zijn exploitatie kan voortzetten, kan de verpachter mits een opzegging, gedaan overeenkomstig artikel 11.4, een einde maken aan de pacht om zelf het verpachte goed geheel of gedeeltelijk te exploiteren of de exploitatie ervan over te dragen aan zijn echtgenoot, aan zijn wettelijk samenwonende, aan zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot of wettelijk samenwonende of aan de echtgenoten of wettelijk samenwonenden van de voormelde afstammelingen of aangenomen kinderen. De bepalingen van artikel 7, 1°, lid 2, zijn van toepassing.]1 [1 De personen bedoeld in artikel 34, opgegeven door de pachter overeenkomstig lid 1, exploiteren zelf de in pacht gekregen gronden in een termijn van drie jaar, te rekenen van de zending van de opzegging. Bij gebreke daarvan kan de verpachter zonder opzegging en onverminderd de termijn die nodig is om de groeiende oogst op het tijdstip van de opzegging weg te halen, een einde maken aan de pacht.
 Voor de toepassing van het eerste lid wordt de bewijslast uitgevoerd overeenkomstig artikel 57bis.]1 Indien verscheidene pachters het goed gemeenschappelijk pachten, moeten al deze pachters voldoen aan alle in
@@ -16627,8 +16243,7 @@ Degene of degenen die in de opzegging als aanstaande exploitant zijn aangewezen 
 - ofwel reeds effectief gedurende ten minste één jaar aan een landbouwexploitatie hebben deelgenomen.
 De rechtspersonen bedoeld in dit artikel moeten opgericht zijn overeenkomstig de wet van 12 juli 1979 tot instelling van de landbouwvennootschap of in de vorm van een personenvennootschap of een eenpersoonsvennootschap met beperkte aansprakelijkheid. Daarenboven moeten degenen die als bestuurder of zaakvoerder de leiding hebben van de activiteit die in de vennootschap wordt gevoerd, daadwerkelijke arbeid verrichten op het landbouwbedrijf.
 
-## Art. 9_WAALS_GEWEST
-
+Art. 9_WAALS_GEWEST.
 <W 1988-11-07/43, art. 8, 002; Inwerkingtreding : 1988-12-16>
 De exploitatie van het goed dat van de pachter is teruggenomen op grond van bij artikelen 7, 1°, en 8, bepaalde reden, moet een persoonlijke, werkelijke en ten minste negen jaar voortgezette exploitatie zijn door degene of degenen die in de opzegging als aanstaande exploitant zijn aangewezen of, indien zij rechtspersonen zijn, door hun verantwoordelijke organen of bestuurders en niet alleen door hun aangestelden.
 [1 De opzeggingsreden bestaande in de persoonlijke exploitatie wordt evenwel niet aangevoerd ten bate van personen die de wettelijke pensioenleeftijd bereikt zouden hebben op het tijdstip van de opzegging of, in geval van rechtspersonen, waarvan de verantwoordelijke organen of bestuurders de wettelijke pensioenleeftijd bereikt zouden hebben op het tijdstip van de opzegging. Die grens kan met vijf jaar vooruitgeschoven worden wanneer de begunstigde van de opzegging tijdens minstens drie jaar nooit landbouwer is geweest. Degene die na de overdracht van zijn landbouwbedrijf genoemd bedrijf verpacht heeft, kan die reden evenmin inroepen, behalve als de opzegging gegeven is ten bate van één van zijn naasten bedoeld in de artikelen 7, 1°, en 8, § 1, en op voorwaarde dat de begunstigde van het verlof niet deel genomen heeft aan de beslissing om af te zien van de exploitatie en de inpachtgeving.]1 De opzegging voor persoonlijke exploitatie kan evenmin als reden worden aangevoerd door de titularis van een vruchtgebruik gevestigd onder de levenden door de wil van de mens (...). <W 2003-05-03/57, art. 2, 004;
@@ -16638,8 +16253,7 @@ Degene of degenen die in de opzegging als aanstaande exploitant zijn aangewezen 
 De rechtspersonen bedoeld in dit artikel moeten opgericht zijn [2 in de vorm van een vennootschap die erkend is als landbouwbedrijf in de zin van het Wetboek van vennootschappen en verenigingen]2. Daarenboven moeten degenen die als bestuurder of zaakvoerder de leiding hebben van de activiteit die in de vennootschap wordt gevoerd, daadwerkelijke arbeid verrichten op het landbouwbedrijf.
 (1)<DWG 2019-05-02/90, art. 10,1°, 011; Inwerkingtreding : 01-01-2020> (2)<DWG 2019-05-02/90, art. 10,2°, 011; Inwerkingtreding : 15-07-2019>
 
-## Art. 9_VLAAMS_GEWEST
-
+Art. 9_VLAAMS_GEWEST.
 <W 1988-11-07/43, art. 8, 002; Inwerkingtreding : 1988-12-16>
 De exploitatie van het goed dat van de pachter is teruggenomen op grond van bij artikelen 7, 1°, en 8, bepaalde reden, moet een persoonlijke, werkelijke en ten minste negen jaar voortgezette exploitatie zijn door degene of degenen die in de opzegging als aanstaande exploitant zijn aangewezen of, indien zij rechtspersonen zijn, door hun verantwoordelijke organen of bestuurders en niet alleen door hun aangestelden.
 De opzeggingsreden bestaande in de persoonlijke exploitatie kan evenwel niet worden aangevoerd door personen noch, indien het om rechtspersonen gaat, door hun verantwoordelijke organen of bestuurders die, op het ogenblik van het verstrijken van de opzeggingstermijn, de leeftijd van 65 jaar zouden hebben bereikt of de leeftijd van 60 jaar wanneer het een persoon betreft die niet gedurende ten minste drie jaar landbouwexploitant is geweest, degene die na de stopzetting van zijn landbouwbedrijf het bedrijf verpacht, kan evenmin die reden aanvoeren.
@@ -16657,16 +16271,14 @@ Geen persoonlijke exploitatie is de aanplanting van het pachtgoed door de genoth
 De aanplanting met kerstbomen binnen negen jaar na het vertrek van de pachter is geen persoonlijke exploitatie tenzij de genothebber van de terugneming reeds een tuinbouwbedrijf exploiteert en de vrederechter vrijstelling van dit verbod verleent na het advies te hebben ingewonnen van de rijkslandbouwkundige ingenieur van de streek.
 Geen persoonlijke exploitatie is de verkoop van gras of van te velde staande oogst ingeval de genothebbers van de terugneming gedurende negen jaar na het vertrek van de pachter niet voor het gewone teelt- en onderhoudswerk zorgen, noch het in bewaring nemen van dieren gedurende dezelfde periode van negen jaar.
 
-## Art. 10_WAALS_GEWEST
-
+Art. 10_WAALS_GEWEST.
 <W 1988-11-07/43, art. 9, 002; Inwerkingtreding : 1988-12-16>
 Geen persoonlijke exploitatie is de aanplanting van het pachtgoed door de genothebbers van de terugneming gedurende negen jaar na het vertrek van de pachter, met naaldbomen, loofbomen of heesters, tenzij het gaat om tuinbouw of om een aanplanting die noodzakelijk is voor de bewaring van het goed. De vrederechter kan vrijstelling van dit verbod verlenen na het advies te hebben ingewonnen [1 van de ambtenaar aangewezen door de Regering]1.
 De aanplanting met kerstbomen binnen negen jaar na het vertrek van de pachter is geen persoonlijke exploitatie tenzij de genothebber van de terugneming reeds een tuinbouwbedrijf exploiteert en de vrederechter vrijstelling van dit verbod verleent na het advies te hebben ingewonnen [1 van de ambtenaar aangewezen door de Regering]1.
 Geen persoonlijke exploitatie is de verkoop van gras of van te velde staande oogst ingeval de genothebbers van de terugneming gedurende negen jaar na het vertrek van de pachter niet voor het gewone teelt- en onderhoudswerk zorgen, noch het in bewaring nemen van dieren gedurende dezelfde periode van negen jaar.
 (1)<DWG 2019-05-02/90, art. 11, 011; Inwerkingtreding : 21-05-2021>
 
-## Art. 10bis_WAALS_GEWEST
-
+Art. 10bis_WAALS_GEWEST.
 [1 Voor de toepassing van deze afdeling wordt de exploitatie als vennoot zaakvoerder van een VOFLO, als commanditaire vennoot van een CommVLO, als bestuurder van een BVLO of als bestuurder van een CVLO gelijkgesteld met een persoonlijke uitbating. Deze regel is zowel op de pachter als op de verpachter van toepassing, wier rechten en verplichten volledig behouden blijven.
 In geval van inbreng van de eigendom, van het gebruiksrecht of van het genotsrecht van het verpachte goed in een VOFLO, in een CommVLO, in een BVLO of in een CVLO, kan die vennootschap die opzegging enkel geven als de verpachter-inbrenger, diens echtgenoot (-genote), zijn wettelijk samenwonende, zijn afstammelingen of aangenomen kinderen of die van zijn of haar echtgenoot (-genote) of van zijn of haar wettelijk samenwonende als naar gelang het geval het statuut bezitten van vennoot-zaakvoerder, commanditaire vennoot of bestuurder in de vennootschap.]1 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 12, 011; Inwerkingtreding : 01-01-2020>
 
@@ -16678,8 +16290,7 @@ In geval van inbreng van de eigendom, van het gebruiksrecht of van het genotsrec
 3. In gevallen als bedoeld in artikel 8, §§ 1 en 2, kan aan de pachter slechts opzegging worden gedaan met een opzeggingstermijn van ten minste drie jaar en ten hoogste vier jaar.
 4. In het geval als bedoeld in artikel 8bis, kan aan de pachter slechts opzegging worden gedaan met een opzeggingstermijn van ten minste een jaar en ten hoogste vier jaar.
 
-## Art. 11_WAALS_GEWEST
-
+Art. 11_WAALS_GEWEST.
 <W 1988-11-07/43, art. 10, 002; Inwerkingtreding : 1988-12-16>
 1. In gevallen als bedoeld in de artikelen 6 en 7, 9° en 10°, kan aan de pachter slechts opzegging worden gedaan met een opzeggingstermijn van ten minste drie maanden. [1 Deze termijn wordt verlengd om de pachter de tijd te geven de wassende vruchten te oogsten]1.
 [1 1/1. In het geval bedoeld in artikel 6, § 4, wordt van de opzegging kennis aan de pachter gegeven minstens zes maanden voor de verkoop.]1
@@ -16694,8 +16305,7 @@ In geval van inbreng van de eigendom, van het gebruiksrecht of van het genotsrec
 <W 23-11-1978, art. 1> Onverminderd de bepalingen van artikel 14 kan degene die door ruil eigenaar-verpachter is geworden, geen opzegging doen om zelf het verpachte goed te exploiteren of de exploitatie ervan over te dragen aan zijn echtgenoot, aan zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot, tijdens de pachtperiode die loopt op het ogenblik van het verlijden van de authentieke akte.
 In de daaropvolgende periode kan hij slechts opzegging doen met een opzeggingstermijn van ten minste zes jaar. De artikelen 7, 1°, en 8 zijn van overeenkomstige toepassing op deze opzegging.
 
-## Art. 11bis_WAALS_GEWEST
-
+Art. 11bis_WAALS_GEWEST.
 <W 23-11-1978, art. 1> Onverminderd de bepalingen van artikel 14 kan degene die door ruil eigenaarverpachter is geworden, geen opzegging doen om zelf het verpachte goed te exploiteren of de exploitatie ervan over te dragen aan zijn echtgenoot [1 , aan zijn wettelijk samenwonende]1, aan zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot [1 of zijn wettelijk samenwonende]1, tijdens de pachtperiode die loopt op het ogenblik van het verlijden van de authentieke akte. In de daaropvolgende periode kan hij slechts opzegging doen met een opzeggingstermijn van ten minste zes jaar. De artikelen 7, 1°, en 8 zijn van overeenkomstige toepassing op deze opzegging.
 (1)<DWG 2019-05-02/90, art. 14, 011; Inwerkingtreding : 01-01-2020>
 
@@ -16722,8 +16332,7 @@ Wanneer een landbouwexploitant een verpachte grond verkrijgt om deze persoonlijk
 Een opzegging die naar de vorm onregelmatig verklaard zou moeten worden, kan door de rechter toch geldig worden verklaard indien de betrokken onregelmatigheid geen twijfel kan doen rijzen over de aard of de ernst van de opzegging door de pachter, noch over de identiteit van de persoon in wiens voordeel de opzegging wordt verricht.
 9. De opzegging die door de rechter geldig is verklaard of waarin de pachter schriftelijk heeft berust, wordt als niet bestaande beschouwd, indien de pachter in het bezit van het gepachte goed blijft en wordt gelaten.
 
-## Art. 12_WAALS_GEWEST
-
+Art. 12_WAALS_GEWEST.
 [1 § 1. Op straffe van nietigheid wordt de opzegging, uitgezonderd de opzegging bedoeld in artikel 11, 3/1, overgemaakt met inachtneming van de vorm bedoeld in artikel 57 en met duidelijke opgave van:
 1° de nauwkeurige reden(en) waarom deze opzegging gegeven wordt;
 2° in geval van overname voor persoonlijke exploitatie, de identiteit van de personen die worden aangewezen als zij die exploitatie op zich zullen nemen, namelijk:
@@ -16756,8 +16365,7 @@ Wanneer een landbouwer een in pacht gegeven grond verwerft voor eigen gebruik, z
 Een opzegging die naar de vorm onregelmatig verklaard zou moeten worden, kan door de rechter toch geldig worden verklaard indien de betrokken onregelmatigheid geen twijfel kan doen rijzen over de aard of de ernst van de opzegging door de pachter, noch over de identiteit van de persoon in wiens voordeel de opzegging wordt verricht.
 § 9. De opzegging die door de rechter geldig is verklaard of waarin de pachter schriftelijk heeft berust, wordt als niet bestaande beschouwd, indien de pachter in het bezit van het gepachte goed blijft en wordt gelaten.]1 (1)<DWG 2019-05-02/90, art. 15, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 12_VLAAMS_GEWEST
-
+Art. 12_VLAAMS_GEWEST.
 <W 1988-11-07/43, art. 11, 002; Inwerkingtreding : 1988-12-16>
 1. Op straffe van nietigheid moeten in de opzegging duidelijk de juiste reden of redenen opgegeven worden waarom zij wordt gedaan. Ook moet daarin worden vermeld dat de verpachter bij gebreke van een hem binnen dertig dagen na verzending van de opzegging betekende schriftelijke instemming, de geldigverklaring ervan voor de vrederechter zal vorderen.
 In de opzegging moet, op straffe van nietigheid, de naam, de voornaam, het beroep, de geboortedatum, de burgerlijke stand en het adres van de aanstaande exploitanten vermeld worden.
@@ -16819,8 +16427,7 @@ Deze verwittiging moet plaatshebben binnen dezelfde termijn als die welke in gev
 4. De vordering kan slechts worden ingesteld gedurende zes maanden na verloop van elke driejarige periode.
 De beslissing waarbij de pachtprijs wordt herzien zal gelden voor de lopende driejarige periode, maar de vroegere pachtprijs kan voorlopig worden gevorderd tot de eindbeslissing.
 
-## Art. 17_WAALS_GEWEST
-
+Art. 17_WAALS_GEWEST.
 1. Bij het verstrijken van elke driejarige periode kunnen pachter en verpachter beiden bij de vrederechter herziening vorderen van de schriftelijk bedongen [1 ...]1 pachtprijs, op grond van de rentabiliteit van het pachtgoed tijdens de afgelopen driejarige periode.
 2. Onder rentabiliteit wordt verstaan het rendement dat een normale exploitatie van het goed had kunnen opleveren aan de pachter, met inachtneming van de hoedanigheid van de grond, de marktprijzen van de produkten en de aan de exploitatie verbonden lasten.
 3. De vrederechter doet uitspraak na het met redenen omklede advies te hebben ingewonnen van een technische commissie bestaande uit drie leden die door [1 de Regering]1. De eis tot herziening komt alleen in aanmerking, indien de bedongen pachtprijs ten minste 10 pct. hoger of lager ligt dan de normale pachtprijs, geraamd op grond van de rentabiliteit.
@@ -16837,8 +16444,7 @@ Indien een verpachting bij wijze van inschrijving niet goedgekeurd wordt omdat z
 3. Het betrokken bestuur of de betrokken instelling bepaalt op straffe van nietigheid, in de met het oog op de verpachting vastgestelde aanbestedingsvoorwaarden, de voor de keuze van de pachter in acht te nemen normen, ingeval verscheidene inschrijvingen de maximum toelaatbare prijs bereiken.
 4. Indien goederen worden verpacht die werden onteigend of verkregen ten algemenen nutte, geniet de vroegere pachter een voorkeurrecht tegen de normale pachtprijs.
 
-## Art. 18_WAALS_GEWEST
-
+Art. 18_WAALS_GEWEST.
 [1 § 1. De Staat, de Gewesten, de Gemeenschappen, de provincies, de gemeenten en iedere andere publiekrechtelijke rechtspersoon, hierna " de openbare eigenaar " genoemd, verpachten hun landeigendommen bij wijze van inschrijving tegen het tarief van de wettelijke pachtprijs, in voorkomend geval verhoogd overeenkomstig het decreet van 20 oktober 2016 tot beperking van de pachtprijzen. De openbare eigenaar stelt een procedure vast, waarbij iedere belangstellende kandidaat-pachter een bod kan uitbrengen.
 De openbare eigenaar neemt de nodige maatregelen om ervoor te zorgen dat iedere kandidaat-pachter tijdens die procedure gelijk behandeld wordt.
 In afwijking van lid 1 kan de openbare eigenaar een eindeloopbaanpacht afsluiten, zoals bepaald in artikel 8, § 5, zonder de bodprocedure, bedoeld in dit artikel, in te leiden.
@@ -16864,8 +16470,7 @@ Behoudens geschreven akkoord over de wijze van waardering der produkten die in a
 In geen geval mogen de door de Staat aan de producent verleende premies of toelagen begrepen zijn in de waarde die aan de landbouwprodukten wordt toegekend.
 Indien deze voorschriften in de pachtovereenkomst niet in acht zijn genomen, past de rechter, wanneer een van de partijen de zaak bij hem aanhanging maakt, de overeenkomst aan die voorschriften aan, waarbij hij de bedoelingen van de partijen zoveel mogelijk eerbiedigt. De beslissing van de rechter geldt slechts voor de pachtsommen die na het instellen van de vordering vervallen.
 
-## Art. 19_WAALS_GEWEST
-
+Art. 19_WAALS_GEWEST.
 Ongeacht de bedingen van de pachtovereenkomst, kan de pachter de pachtprijs altijd in geld voldoen.
 Indien de pachtprijs geheel of gedeeltelijk in landbouwprodukten bedongen wordt, mag zulks alleen geschieden in landbouwprodukten van het gepachte goed of van de streek, en mag geen enkel daarvan in aanmerking komen voor een hoger bedrag dan 40 pct. van de globale pachtprijs, omgezet in geld op de datum dat de pacht aangegaan wordt. Hetzelfde geldt voor pachtprijzen die geheel of gedeeltelijk met verwijzing naar landbouwprodukten worden vastgesteld.
 Behoudens geschreven akkoord over de wijze van waardering der produkten die in aanmerking komen om de pachtprijs te bepalen, wordt hun waarde vastgesteld naar het gemiddelde der officiële prijzen welke golden tijdens de twaalf maanden vóór de vervaldag of, bij gebreke daarvan, naar het gemiddelde der prijzen af hoeve welke in de streek van het gepachte goed gedurende dat tijdperk werden betaald volgens de marktberichten door [1 de dienst aangewezen door de Regering]1 bekendgemaakt.
@@ -16905,8 +16510,7 @@ De pachter kan, indien gebouwen, werken of beplantingen de vrijheid van bebouwin
 Deze machtiging kan afhankelijk gemaakt worden van het betalen van een vergoeding gelijk aan de geleden schade.
 De vrederechter kan echter geen machtiging geven om de bestemming van het gepachte goed te wijzigen.
 
-## Art. 24_WAALS_GEWEST
-
+Art. 24_WAALS_GEWEST.
 <W 1988-11-07/43, art. 14, 002; Inwerkingtreding : 1988-12-16>
 [1 § 1.]1 Alle bedingen die de vrijheid van de pachter omtrent de wijze van bebouwing van de gepachte grond of omtrent de beschikking over de produkten van de hoeve beperken, worden voor niet-bestaande gehouden.
 [1 Hiernavolgende bedingen worden niet beschouwd als bedingen die de vrije teeltkeuze inperken:
@@ -16951,8 +16555,7 @@ De doorhaling of de vermindering van de inschrijving mag door de hypotheekbewaar
 (3. De verpachter moet in elke akte van vervreemding van het verpachte goed alle werken vermelden die de pachter heeft uitgevoerd, alsook, in voorkomend geval, de toestemming of de machtiging krachtens welke ze werden verricht, eventueel na de pachter te hebben ondervraagd.
 De afstand van het recht tot wegruimen in het vorig artikel bepaald, of van de vergoeding bepaald in dit artikel, kan slechts geschieden na de uitvoering van de werken en moet worden vastgesteld bij authentieke akte of bij verklaring voor de vrederechter.) <W 1988-11-07/43, art. 16, B, 002; Inwerkingtreding : 1988-12-16>
 
-## Art. 26_WAALS_GEWEST
-
+Art. 26_WAALS_GEWEST.
 (1. Bij het verstrijken van de pacht heeft de pachter die de kosten van de gebouwen en werken heeft gedragen, recht op een vergoeding die gelijk is aan de waardevermeerdering welke het goed daardoor heeft verkregen.
 Indien de gebouwen en werken zijn uitgevoerd ofwel met schriftelijke toestemming van de verpachter of, in geval van vruchtgebruik, met schriftelijke toestemming van de blote eigenaar en de vruchtgebruiker, ofwel met machtiging van de vrederechter, mag de vergoeding niet lager zijn dan de door de pachter gedragen kosten, in zoverre deze niet zijn afgeschreven; deze afschrijving wordt forfaitair bepaald op 4 pct. per jaar.
 Neemt de pacht een einde op initiatief van de pachter, dan mag de in het vorige lid bepaalde vergoeding niet hoger zijn dan hetgeen de pachter tijdens de vijf laatste jaren in het geheel aan pacht heeft betaald voor de gezamenlijke goederen die hij van dezelfde eigenaar in pacht had.
@@ -16974,17 +16577,16 @@ De afstand van het recht tot wegruimen in het vorig artikel bepaald, of van de v
 
 Indien de verpachter de kosten draagt van de gebouwen en werken die met toestemming van de pachter zijn uitgevoerd, kan de pachtprijs zodanig worden verhoogd als door partijen wordt overeengekomen of door de rechter wordt bepaald.
 
-## Art. 28.De
+## Art. 28
 
-verpachter mag geen bomen planten tenzij voor het vervangen van hoog- of laagstammige fruitbomen, voor het vervangen van bosbomen in de weiden en voor de aanplantingen die noodzakelijk zijn voor de bewaring van het goed.
+De verpachter mag geen bomen planten tenzij voor het vervangen van hoog- of laagstammige fruitbomen, voor het vervangen van bosbomen in de weiden en voor de aanplantingen die noodzakelijk zijn voor de bewaring van het goed.
 De pachter mag geen nieuwe aanplantingen verrichten tenzij met schriftelijke toestemming van de verpachter.
 Niettemin zijn zonder toestemming van de verpachter geoorloofd, aanplantingen die noodzakelijk zijn voor de bewaring van het goed en, behalve in geval van geldige opzegging, aanplantingen ter vervanging van dode of gevelde bomen en die van laagstammige fruitbomen.
 De aanplanting van deze laatste is evenwel slechts toegestaan indien zij een oppervlakte beslaat van ten minste 50 are en aan een bestaande aanplanting of een vaste toegangsweg paalt en voor zover zij in de streek gebruikelijk is en beantwoordt aan de eisen van een rationele exploitatie. Voor dit laatste punt moet de pachter vooraf een gunstig advies van de tuinbouwkundige van de streek hebben verkregen.
 Heeft een aanplanting waarvoor de verpachter schriftelijke toestemming heeft gegeven of die regelmatig is verricht overeenkomstig de voorgaande bepalingen, geleid tot een waardevermeerdering van het gepachte goed en neemt de pacht op initiatief van de verpachter een einde vooraleer de aanplanting achttien jaar oud is, dan heeft de pachter recht op een vergoeding gelijk aan die waardevermeerdering; neemt de pacht een einde op initiatief van de pachter, dan mag die vergoeding niet hoger zijn dan hetgeen de pachter tijdens de vijf laatste jaren in het geheel aan pacht betaald heeft voor de gezamenlijke goederen die hij van dezelfde eigenaar in pacht had.
 Heeft zulk een aanplanting geleid tot een waardevermindering van het gepachte goed, dan heeft de verpachter recht op een vergoeding van de pachter, gelijk aan die waardevermindering.
 
-## Art. 28_WAALS_GEWEST
-
+Art. 28_WAALS_GEWEST.
 De verpachter mag geen bomen planten tenzij voor het vervangen van hoog- of laagstammige fruitbomen, [1 voor het vervangen van dode hagen]1 voor het vervangen van bosbomen in de weiden en voor de aanplantingen die noodzakelijk zijn voor de bewaring van het goed.
 De pachter mag geen nieuwe aanplantingen verrichten tenzij met schriftelijke toestemming van de verpachter.
 Niettemin zijn zonder toestemming van de verpachter geoorloofd, aanplantingen die noodzakelijk zijn voor de bewaring van het goed en, behalve in geval van geldige opzegging, aanplantingen ter vervanging van dode of gevelde bomen en die van laagstammige fruitbomen.
@@ -17013,8 +16615,7 @@ In afwijking van artikel 1717 van het Burgerlijk Wetboek en onder voorbehoud van
 De toestemming tot overdracht van pacht kan niet gelden als toestemming tot onderpacht.
 Ruil met het oog op het betelen van pachtgoederen wordt niet als onderpacht beschouwd. Een dergelijke ruil heeft geen invloed op de rechten en verplichtingen noch van de pachters noch van de verpachters. Zulks geldt ook voor de gemeenschappelijke exploitatie van een landeigendom die in pacht gegeven wordt aan een van de medeëxploitanten, op voorwaarde dat deze laatste alleen houder van de pacht blijft en hij als hoofdbedrijf actief aan de exploitatie deelneemt.
 
-## Art. 30_WAALS_GEWEST
-
+Art. 30_WAALS_GEWEST.
 [1 § 1. In afwijking van artikel 1717 van het Burgerlijk Wetboek geeft de pachter van landeigendommen noch het gepachte goed geheel of ten dele in onderpacht, noch draagt hij zijn pacht geheel of ten dele aan anderen over zonder toestemming van de verpachter. Deze toestemming wordt, op straffe van nietigheid en voorafgaand aan de onderpacht of aan de overdracht, schriftelijk gegeven.
 De toestemming tot overdracht van pacht kan niet gelden als toestemming tot onderpacht.
 Als onderpacht worden niet beschouwd:
@@ -17032,16 +16633,14 @@ De verpachter kan zich tegen ruil verzetten, om redenen als bepaald in artikel 7
 De ruil wordt door de vrederechter vernietigd indien hij acht dat de redenen van verzet wettig zijn.
 § 3. Bij overdracht of onderpacht zonder voorafgaandelijke schriftelijke toestemming kan de overeenkomst op verzoek van de verpachter worden ontbonden.]1 (1)<DWG 2019-05-02/90, art. 22, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 30bis_WAALS_GEWEST
-
+Art. 30bis_WAALS_GEWEST.
 [1 De procedure als bedoeld in artikel 30, § 2, is mutatis mutandis van toepassing bij verandering van verpachter. Wanneer de verandering van verpachter het gevolg is van een overlijden, delen de erfgenamen of rechtverkrijgenden, afwijkend van artikel 30, § 2, drie maanden na dat overlijden, de verandering van verpachter mede.]1 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 23, 011; Inwerkingtreding : 01-01-2020>
 
 ## Art. 31
 
 De pachter kan, zonder toestemming van de verpachter, het gehele pachtgoed in onderpacht geven aan zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot (evenals aan de echtgenoten van de voormelde afstammelingen of aangenomen kinderen.) <W 1988-11-07/43, art. 19, 002; Inwerkingtreding : 1988-12-16>
 
-## Art. 31_WAALS_GEWEST
-
+Art. 31_WAALS_GEWEST.
 De pachter kan, zonder toestemming van de verpachter, het gehele pachtgoed in onderpacht geven aan zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot [1 , zijn wettelijk samenwonende]1 (evenals aan de echtgenoten [1 of aan de wettelijk samenwonenden]1 van de voormelde afstammelingen of aangenomen kinderen.) <W 1988-11-07/43, art. 19, 002; Inwerkingtreding : 1988-12-16> [1 De pachter licht er, op straffe van nietigheid van de onderpacht, de verpachter uiterlijk binnen de drie maanden na de onderverpachting zoals bepaald in lid 1, over in.]1 (1)<DWG 2019-05-02/90, art. 24, 011; Inwerkingtreding : 01-01-2020>
 
 ## Art. 32
@@ -17057,8 +16656,7 @@ De rechten en verplichtingen die pachter en onderpachter tegenover elkaar hebben
 <W 1988-11-07/43, art. 21, 002; Inwerkingtreding : 1988-12-16> De pachter kan, zonder toestemming van de verpachter, zijn pacht geheel overdragen aan zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot of van de echtgenoten van de voormelde afstammelingen of aangenomen kinderen.
 De overnemer treedt in al de rechten en verplichtingen die uit de pacht voortvloeien, maar de overdrager blijkt met hem hoofdelijk gehouden tot de verplichtingen die uit de pacht zijn ontstaan.
 
-## Art. 34_WAALS_GEWEST
-
+Art. 34_WAALS_GEWEST.
 <W 1988-11-07/43, art. 21, 002; Inwerkingtreding : 1988-12-16> De pachter kan, zonder toestemming van de verpachter, zijn pacht geheel overdragen aan zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot [1 , zijn wettelijk samenwonende]1 of van de echtgenoten van de voormelde afstammelingen of aangenomen kinderen [1 of aan de wettelijk samenwonenden van de voorvermelde afstammelingen of aangenomen kinderen]1.
 De overnemer treedt in al de rechten en verplichtingen die uit de pacht voortvloeien, maar de overdrager blijkt met hem hoofdelijk gehouden tot de verplichtingen die uit de pacht zijn ontstaan.
 [1 De pachter licht er, op straffe van nietigheid van de overdracht, de verpachter uiterlijk binnen de drie maanden na de overdracht zoals bepaald in lid 1, over in.]1 (1)<DWG 2019-05-02/90, art. 25, 011; Inwerkingtreding : 01-01-2020>
@@ -17068,8 +16666,7 @@ De overnemer treedt in al de rechten en verplichtingen die uit de pacht voortvlo
 <W 1988-11-07/43, art. 22, 002; Inwerkingtreding : 1988-12-16> Indien een landeigendom gezamenlijk wordt gepacht door verschillende pachters en een van deze pachters besluit om zich terug te trekken, dan wordt de pacht voortgezet ten voordele van de andere pachters.
 De verpachter heeft in dat geval evenwel de mogelijkheid te eisen dat de vorige exploitant hoofdelijk gehouden blijkt tot nakoming van de verplichtingen van de pacht samen met de andere pachters.
 
-## Art. 34bis_WAALS_GEWEST
-
+Art. 34bis_WAALS_GEWEST.
 <W 1988-11-07/43, art. 22, 002; Inwerkingtreding : 1988-12-16> Indien een landeigendom gezamenlijk wordt gepacht door verschillende pachters en een van deze pachters besluit om zich terug te trekken, dan wordt de pacht voortgezet ten voordele van de andere pachters. [1 De pachter geeft kennis van zijn terugtrekking aan de verpachter.]1 De verpachter heeft in dat geval evenwel de mogelijkheid te eisen dat de vorige exploitant hoofdelijk gehouden blijkt tot nakoming van de verplichtingen van de pacht samen met de andere pachters [1 , op voorwaarde dat van het verzoek daartoe kennis gegeven wordt binnen de zes maanden na de kennisgeving van de terugtrekking, op straffe van nietigheid]1.
 (1)<DWG 2019-05-02/90, art. 26, 011; Inwerkingtreding : 01-01-2020>
 
@@ -17077,8 +16674,7 @@ De verpachter heeft in dat geval evenwel de mogelijkheid te eisen dat de vorige 
 
 Op voorwaarde dat de pachter of zijn rechtverkrijgenden binnen drie maanden na de ingenottreding van de overnemer, aan de verpachter kennis geven van de pachtoverdracht die de pachter heeft gedaan aan zijn afstammelingen of aangenomen kinderen (of aan die van zijn echtgenoot of aan de echtgenoten van de voormelde afstammelingen of aangenomen kinderen), en hem daarbij de namen, voornamen en het adres van de overnemer of de overnemers meedelen, ontstaat, bij gebreke van geldig verklaard verzet van de verpachter, van rechtswege pachtvernieuwing ten voordele van de overnemer of de overnemers. <W 1988-11-07/43, art. 23, 002; Inwerkingtreding : 1988-12-16> Die pachtvernieuwing heeft ten gevolge dat, met handhaving van alle andere voorwaarden ten voordele van de overnemer of overnemers, een nieuwe eerste pachtperiode van negen jaar ingaat op de verjaardag van de ingenottreding van de overdrager volgend op de kennisgeving; bovendien is de overdrager ontslagen van alle uit de pacht voortvloeiende verplichtingen die na de kennisgeving zijn ontstaan.
 
-## Art. 35_WAALS_GEWEST
-
+Art. 35_WAALS_GEWEST.
 [1 Op voorwaarde dat de pachter of zijn rechtverkrijgenden binnen drie maanden na de ingenottreding van de overnemer, aan de verpachter kennis geven van de pachtoverdracht die de pachter heeft gedaan aan zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot, van zijn wettelijk samenwonende of aan de echtgenoten van de voormelde afstammelingen of aangenomen kinderen, en hem daarbij de namen, voornamen en het adres van de overnemer of de overnemers meedelen, ontstaat, bij gebreke van geldig verklaard verzet van de verpachter, van rechtswege pachtvernieuwing ten voordele van de overnemer of de overnemers.
 Die pachtvernieuwing heeft ten gevolge dat, met handhaving van alle andere voorwaarden ten voordele van de overnemer of overnemers, een nieuwe eerste pachtperiode van negen jaar ingaat op de verjaardag van de ingenottreding van de overdrager volgend op de kennisgeving; bovendien is de overdrager ontslagen van alle uit de pacht voortvloeiende verplichtingen die na de kennisgeving zijn ontstaan.
 Die pachtvernieuwing vindt enkel plaats als ofwel:
@@ -17093,15 +16689,13 @@ De verpachter aan wie binnen de in artikel 35, bepaalde termijn kennis is gegeve
 De vrederechter oordeelt of de redenen van verzet ernstig en gegrond zijn, en met name of uit alle omstandigheden van de zaak blijkt dat de verpachter de als redenen van zijn verzet bekendgemaakte voornemens ten uitvoer zal brengen.
 Wordt het verzet toegelaten, dan wordt de pacht niet vernieuwd en heeft alleen de overdracht van de vroegere pacht gevolg.
 
-## Art. 36_WAALS_GEWEST
-
+Art. 36_WAALS_GEWEST.
 De verpachter aan wie binnen de in artikel 35, bepaalde termijn kennis is gegeven van een overdracht, kan tegen de pachtvernieuwing opkomen door de vroegere en de nieuwe pachter, op straffe van verval, binnen drie maanden na de kennisgeving van de overdracht, voor de vrederechter te dagvaarden, ten einde zijn verzet geldig te horen verklaren.
 De vrederechter oordeelt of de redenen van verzet ernstig en gegrond zijn, en met name of uit alle omstandigheden van de zaak blijkt dat de verpachter de als redenen van zijn verzet bekendgemaakte voornemens ten uitvoer zal brengen.
 [1 Wordt het verzet toegelaten, dan is de overdracht ongeldig.]1
 (1)<DWG 2019-05-02/90, art. 28, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 36bis_WAALS_GEWEST
-
+Art. 36bis_WAALS_GEWEST.
 [1 Wanneer de verpachter de pachter zijn wens te kennen geeft, om een zakelijk recht op het (de) onder een pachtovereenkomst vallende goed(eren) te vervreemden, kan iedere bevoorrechte overdracht die plaatsvindt binnen de negen maanden na deze kennisgeving, niet aan de pachter of de derde-koper tegengeworpen worden.
 Wanneer de vervreemding niet binnen die periode van negen maanden wordt uitgevoerd, kan de pachter pas opnieuw gebruik maken van de regeling bedoeld in lid 1 na verstrijken van een periode van drie jaar, behoudens overeenstemming onder de partijen, die ingaat na verstrijken van de bewarende periode van negen maanden bedoeld in lid 1.]1 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 29, 011; Inwerkingtreding : 01-01-2020>
 
@@ -17117,8 +16711,7 @@ Wanneer de vervreemding niet binnen die periode van negen maanden wordt uitgevoe
 § 2. Indien het verzet werd toegelaten op grond van de redenen bepaald in 2° en 6° van § 1, kan de pachtovernemer de pachtvernieuwing vragen zonder dat een nieuw verzet, gegrond op dezelfde reden, mogelijk is, indien de persoonlijke exploitatie door degene die in het verzet van de verpachter is aangewezen of de aanwending voor doeleinden van algemeen belang niet is verwezenlijkt binnen de termijn die in het verzet is bepaald.
 Hiertoe moeten de pachtovernemer of zijn rechtverkrijgenden een nieuwe kennisgeving van de pachtoverdracht doen binnen drie maanden na afloop van die termijn, op straffe van verval. Indien de pachtvernieuwing tot stand komt, gaat de nieuwe pachtperiode in op de verjaardag van de ingenottreding van de overnemer, volgend op bedoelde kennisgeving.
 
-## Art. 37_WAALS_GEWEST
-
+Art. 37_WAALS_GEWEST.
 § 1. Als ernstige redenen van verzet kunnen uitsluitend worden aanvaard :
 1° het feit dat de verpachter vóór de kennisgeving van de overdracht, geldige opzegging heeft gedaan;
 2° [1 het voornemen van de verpachter om het verpachte goed, binnen een termijn van minder dan vijf jaar zelf te exploiteren of de exploitatie ervan over te dragen aan zijn echtgenoot, zijn wettelijk samenwonende, zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot of de echtgenoten van de voormelde afstammelingen of aangenomen kinderen;]1
@@ -17140,8 +16733,7 @@ In geval van overlijden van de pachter van een landeigendom, loopt de pacht door
 
 (De verpachter kan aan de erfgenamen of rechtverkrijgenden van de overleden pachter slechts opzegging doen, indien hij zich dat recht heeft voorbehouden in de pachtovereenkomst en de overleden pachter geen overlevende echtgenoot, afstammelingen of aangenomen kinderen of geen afstammelingen of aangenomen kinderen van de echtgenoot of geen echtgenoten van de voormelde afstammelingen of aangenomen kinderen nalaat. <W 1988-11-07/43, art. 25, 002; Inwerkingtreding : 1988-12-16> Is aldus opzegging geoorloofd, dan moet op straffe van verval aan de erfgenamen of rechtverkrijgenden van de pachter kennis ervan worden gegeven binnen één jaar na het overlijden en de opzegging heeft eerst uitwerking twee jaar na de kennisgeving.
 
-## Art. 39_WAALS_GEWEST
-
+Art. 39_WAALS_GEWEST.
 [1 Bij overlijden van de pachter behoort het diens erfgenamen of rechtverkrijgenden toe, de verpachter daar onverwijld via een zending over in te lichten.
 De verpachter kan enkel opzegging doen ten overstaan van de erfgenamen of de rechtverkrijgenden van de overleden pachter als hij zich in de pachtovereenkomst die mogelijkheid voorbehouden heeft en als de overleden pachter geen overlevende echtgenoot, geen overlevende wettelijk samenwonende of afstammelingen of aangenomen kinderen, of afstammelingen of aangenomen kinderen van zijn echtgenoot of wettelijk samenwonende, of echtgenoten of wettelijk samenwonenden van de voorvermelde afstammelingen of aangenomen kinderen achterlaat.]1 Is aldus opzegging geoorloofd, dan moet op straffe van verval aan de erfgenamen of rechtverkrijgenden van de pachter kennis ervan worden gegeven binnen één jaar na het overlijden en de opzegging heeft eerst uitwerking twee jaar na de kennisgeving.
 (1)<DWG 2019-05-02/90, art. 31, 011; Inwerkingtreding : 01-01-2020>
@@ -17162,8 +16754,7 @@ d) aan hem die door de meerderheid van de belangen of, bij gebreke van die meerd
 Indien verscheidene erfgenamen of rechtverkrijgenden aanspraak maken op het voordeel van een der letters b of c, kunnen zij de pacht gezamenlijk overnemen.
 Behoudens gewichtige redenen ter beoordeling van de rechter, moet de overnemer, of indien er verscheidene overnemers zijn, ten minste één van hen, persoonlijk de exploitatie van het overgenomen pachtgoed voortzetten gedurende ten minste negen jaar, te rekenen van de dag waarop het vonnis, dat de vergoeding vaststelt, definitief is geworden, op straffe van schadevergoeding aan de overige erfgenamen of rechtverkrijgenden ten bedrage van 20 pct. van de hierboven bedoelde vergoeding.
 
-## Art. 41_WAALS_GEWEST
-
+Art. 41_WAALS_GEWEST.
 De erfgenamen of rechtverkrijgenden van de overleden pachter kunnen overeenkomen de exploitatie gemeenschappelijk voort te zetten of een of meer hunner daartoe aanstellen.
 Bij gebreke van akkoord kan elk van de erfgenamen of rechtverkrijgenden de vrederechter verzoeken hem aan te stellen om de exploitatie van het pachtgoed voort te zetten, op last van de door het vonnis vastgestelde vergoeding uit te betalen aan de overige erfgenamen of rechtverkrijgenden.
 Wanneer verscheidene belanghebbenden van dit recht van overneming gebruik wensen te maken, wordt de voorkeur gegeven in de hierna bepaalde orde :
@@ -17184,8 +16775,7 @@ Degene onder hen die door de rechter definitief is aangewezen om de exploitatie 
 
 (Indien de persoon of de personen die de exploitatie voortzetten, afstammelingen of aangenomen kinderen van de overleden pachter of van diens echtgenoot zijn of echtgenoten van voormelde afstammelingen of aangenomen kinderen, brengt de kennisgeving, behoudens geldig verklaard verzet van de verpachter, van rechtswege pachtvernieuwing mee. <W 1988-11-07/43, art. 26, 002; Inwerkingtreding : 1988-12-16> Die pachtvernieuwing heeft dezelfde uitwerking als in het tweede lid van artikel 35 is bepaald; de verpachter kan hiertegen opkomen onder de voorwaarden gesteld in de artikelen 36 en 37, door de kennisgevers te dagvaarden voor de vrederechter.
 
-## Art. 43_WAALS_GEWEST
-
+Art. 43_WAALS_GEWEST.
 (Indien de persoon of de personen die de exploitatie voortzetten, afstammelingen of aangenomen kinderen van de overleden pachter of [1 van diens echtgenoot of wettelijk samenwonende zijn, of echtgenoten of wettelijk samenwonenden]1 van voormelde afstammelingen of aangenomen kinderen, brengt de kennisgeving, behoudens geldig verklaard verzet van de verpachter, van rechtswege pachtvernieuwing mee. <W 1988-11- 07/43, art. 26, 002; Inwerkingtreding : 1988-12-16> Die pachtvernieuwing heeft dezelfde uitwerking als in het tweede lid van artikel 35 is bepaald; de verpachter kan hiertegen opkomen onder de voorwaarden gesteld in de artikelen 36 en 37, door de kennisgevers te dagvaarden voor de vrederechter.
 (1)<DWG 2019-05-02/90, art. 33, 011; Inwerkingtreding : 01-01-2020>
 
@@ -17207,8 +16797,7 @@ Indien de verpachter bewijst dat de pachter bij de ingebruikneming stro, mest, n
 5. Afstand van de vergoeding bij het verlaten van het gepachte goed kan slechts gebeuren na de opzegging en moet blijken uit een authentieke akte of uit een verklaring voor de vrederechter afgelegd op diens ondervraging.
 6. Gedurende de drie eerste maanden van elke pacht kan de ene partij de andere verplichtingen een omstandige plaatsbeschrijving te laten opmaken. In geval van weigering kan de vrederechter, bij een vonnis dat niet vatbaar is voor hoger beroep, een deskundige aanstellen om die op te maken. Bij gebreke van een plaatsbeschrijving wordt de pachter, behoudens tegenbewijs, geacht het goed te hebben ontvangen in de staat waarin het zich bevindt op het ogenblik dat hij het verlaat.
 
-## Art. 45_WAALS_GEWEST
-
+Art. 45_WAALS_GEWEST.
 1. (Afgezien van de vergoedingen die aan de pachter krachtens de voorgaande artikelen kunnen toekomen uit hoofde van gebouwen, aanplantingen en werken, moet de afgaande pachter van de verpachter een vergoeding ontvangen voor het stro, de mest en navette die hij bij zijn vertrek achterlaat voor de bebouwing die hij reeds heeft verricht, alsmede voor de verbeteringen aangebracht aan de gronden, wat hun staat van zuiverheid betreft.) <W 1988-11-07/43, art. 27, 002; Inwerkingtreding : 1988-12-16>
 2. De vergoeding voor het stro, het mest, de navette, de bij voorraad gedane bebouwing en de verbetering en is gelijk aan hun waarde bij het einde van de pacht, gelet op de bestemming van het verpachte goed, zonder dat zij het bedrag van de door de pachter gemaakte kosten mag overschrijden.
 De vergoeding kan op een vast bedrag worden bepaald voor het produktief maken van onbebouwde of braakliggende gronden of van gronden die in slechte staat van bebouwing waren, mits zij als zodanig in de pacht zijn aangegeven.
@@ -17227,8 +16816,7 @@ Bij gebreke van ingaande plaatsbeschrijving wordt de pachter geacht het goed te 
 Naast de in het vorige artikel bepaalde vergoeding bij het verlaten van het gepachte goed is een bijkomende vergoeding tot beloop van de geleden schade verschuldigd aan de pachter van landeigendommen wiens pacht een einde heeft genomen ten gevolge van opzegging met toepassing van het bepaalde in de [artikel 6, § 1, 2°, 3°, 4° en 6°, en § 2, en artikel 7, 9° en 10°] <W 1988-11-07/43, art. 28, 002; Inwerkingtreding : 1988- 12-16> Die vergoeding wordt berekend met inachtneming onder meer van het bedrijfsverlies aan dieren en materieel, gelet op de oppervlakte van de gronden die aan de landbouw worden onttrokken, van de genotsderving gedurende de jaren vóór het verstrijken van de lopende pachtperiode, met dien verstande dat geen rekening mag worden gehouden met minder dan twee of meer dan vier jaren, en van het verlies wegens waardevermindering van de overblijvende gebouwen en gronden.
 Bij gebreke van overeenstemming over het bedrag van die vergoeding moet de pachter, in afwachting van de gerechtelijke vaststelling ervan, vóór hij het goed verlaat, van de verpachter een provisionele vergoeding ontvangen, gelijk aan het bedrag van het aantal jaren pacht vóór het verstrijken van de pachtovereenkomst met dien verstande evenwel dat niet minder dan vier en niet meer dan acht jaren pacht in aanmerking kunnen komen.
 
-## Art. 46_VLAAMS_GEWEST
-
+Art. 46_VLAAMS_GEWEST.
 Naast de in het vorige artikel bepaalde vergoeding bij het verlaten van het gepachte goed is een bijkomende vergoeding tot beloop van de geleden schade verschuldigd aan de pachter van landeigendommen wiens pacht een einde heeft genomen ten gevolge van opzegging met toepassing van het bepaalde in de [1 6, § 1, 2°, 3°, 4° en 6°, § 2 en § 3,]1 [en artikel 7, 9° en 10°] <W 1988-11-07/43, art. 28, 002; Inwerkingtreding : 1988-12-16> Die vergoeding wordt berekend met inachtneming onder meer van het bedrijfsverlies aan dieren en materieel, gelet op de oppervlakte van de gronden die aan de landbouw worden onttrokken, van de genotsderving gedurende de jaren vóór het verstrijken van de lopende pachtperiode, met dien verstande dat geen rekening mag worden gehouden met minder dan twee of meer dan vier jaren, en van het verlies wegens waardevermindering van de overblijvende gebouwen en gronden.
 Bij gebreke van overeenstemming over het bedrag van die vergoeding moet de pachter, in afwachting van de gerechtelijke vaststelling ervan, vóór hij het goed verlaat, van de verpachter een provisionele vergoeding ontvangen, gelijk aan het bedrag van het aantal jaren pacht vóór het verstrijken van de pachtovereenkomst met dien verstande evenwel dat niet minder dan vier en niet meer dan acht jaren pacht in aanmerking kunnen komen.
 (1)<DVR 2009-05-08/15, art. 67, 006; Inwerkingtreding : 06-09-2011>
@@ -17239,8 +16827,7 @@ Bij gebreke van overeenstemming over het bedrag van die vergoeding moet de pacht
 
 <W 1988-11-07/43, art. 29, 002; Inwerkingtreding : 1988-12-16> Bij verkoop van een in pacht gegeven landeigendom geniet de pachter het recht van voorkoop voor zichzelf of voor zijn afstammelingen of aangenomen kinderen of voor die van zijn echtgenoot, of voor de echtgenoten van de voormelde afstammelingen of aangenomen kinderen, die daadwerkelijk aan de exploitatie van dat goed deelnemen, overeenkomstig de hierna bepaalde regels.
 
-## Art. 47_WAALS_GEWEST
-
+Art. 47_WAALS_GEWEST.
 [1 Bij verkoop van een in pacht gegeven landeigendom geniet de pachter het recht van voorkoop voor zichzelf of voor zijn afstammelingen of aangenomen kinderen of voor die van zijn echtgenoot, zijn wettelijk samenwonende, of voor de echtgenoten en wettelijk samenwonenden van de voormelde afstammelingen of aangenomen kinderen, die daadwerkelijk aan de exploitatie van dat goed deelnemen, overeenkomstig de in deze afdeling bepaalde regels.]1 (1)<DWG 2019-05-02/90, art. 35, 011; Inwerkingtreding : 01-01-2020>
 
 ## Art. 48
@@ -17257,8 +16844,7 @@ Indien de verkoop wordt gehouden onder voorbehoud van eventuele uitoefening van 
 a) indien er een hoger bod is, wordt dit aan de pachter en aan de koper ter kennis gebracht;
 b) indien er geen hoger bod wordt gedaan of indien de notaris het hoger bod niet aanneemt, betekent hij het laatste bod aan de pachter en stelt hem de vraag of hij zijn recht van voorkoop wenst uit te oefenen. Indien de pachter binnen een termijn van tien dagen zijn instemming niet aan de notaris heeft betekend overeenkomstig artikel 57 of die instemming niet heeft gegeven in een akte van de instrumenterende ambtenaar, is de toewijzing definitief.) <W 1988-11-07/43, art. 30, 3°, 002; Inwerkingtreding : 1988-12-16> In geval van herverkoop ten gevolge van de uitoefening van het recht van hoger bod, moet dezelfde kennisgeving acht dagen te voren aan de pachter worden gedaan en dezelfde vraag in het openbaar aan de pachter worden gesteld bij de zitting van herverkoop.
 
-## Art. 48_WAALS_GEWEST
-
+Art. 48_WAALS_GEWEST.
 [1 § 1. De eigenaar mag het goed slechts aan iemand anders dan de pachter uit de hand verkopen nadat hij aan deze laatste de gelegenheid heeft gegeven om zijn recht van voorkoop uit te oefenen. Te dien einde geeft de notaris de pachter kennis van de inhoud van de akte die is opgesteld onder de opschortende voorwaarde van niet-uitoefening van het recht van voorkoop en waarbij enkel de identiteit van de koper opengelaten wordt Deze kennisgeving geldt als aanbod van verkoop.
 Aanvaardt de pachter het aanbod, dan moet hij daarvan aan de notaris kennis geven binnen een maand na de kennisgeving bepaald in het eerste lid, in welk geval de verkoop overeenkomstig artikel 1583 van het Burgerlijk Wetboek tussen partijen voltrokken is, zodra de aanvaarding van de pachter ter kennis is genomen van de notaris.
 Is het aanbod binnen de in lid 2 bedoelde termijn niet aanvaard, dan mag de eigenaar het goed niet uit de hand tegen een lagere prijs of gunstiger voorwaarden aan een derde verkopen zonder instemming van de pachter.
@@ -17287,8 +16873,7 @@ In geval van toepassing van dit artikel ontstaat er van rechtswege pachtvernieuw
 De pachter die zijn recht van voorkoop heeft overgedragen onder de in dit artikel gestelde voorwaarden, mag gedurende een periode van negen jaar te rekenen vanaf het begin van de nieuwe pachtperiode, bedoeld in het derde lid, de exploitatie van het goed niet overdragen aan andere personen dan zijn echtgenoot, zijn afstammelingen of aangenomen kinderen of die van zijn echtgenoot of aan de echtgenoten van de voormelde afstammelingen of aangenomen kinderen.
 Bij overtreding van deze bepaling is hij aan de verkoper een schadevergoeding, gelijk aan 50 % van de verkoopprijs van de betrokken percelen, verschuldigd, tenzij hij vooraf op grond van ernstige redenen, machtiging van de vrederechter heeft verkregen.
 
-## Art. 48bis_WAALS_GEWEST
-
+Art. 48bis_WAALS_GEWEST.
 <W 1988-11-07/43, art. 31, 002; Inwerkingtreding : 1988-12-16> De pachter kan zijn recht van voorkoop voor het gehele goed, of voor een deel ervan indien hij het voor het overige deel zelf uitoefent, aan één of meer derden overdragen tegen de volgende voorwaarden.
 Bij verkoop uit de hand geven de pachter en de derden gezamenlijk kennis van de overdracht en van de aanvaarding aan de notaris, overeenkomstig artikel 48, 1, tweede lid.
 Bij [1 fysieke openbare verkoping]1 verklaart de pachter het recht van voorkoop over te dragen en de derde verklaart dit recht uit te oefenen tijdens de toewijzingszitting, [1 overeenkomstig artikel 48, § 3, eerste en tweede lid]1of naar aanleiding van de kennisgeving van de instemming binnen de termijn van tien dagen. De verkoper kan eisen dat de derde waarborg stelt.
@@ -17303,8 +16888,7 @@ In beide gevallen kan de verkoper eisen dat de derde een waarborg stelt.]1 In ge
 Indien de verpachter bij het overlijden van de pachter niet weet welke erfgenaam of erfgenamen de exploitatie van het verpachte goed voortzetten, mag hij als zodanig beschouwen degene of degenen van de erfgenamen of rechtverkrijgenden die de laatste pacht hebben betaald of, bij gebreke van betaling, de erfgenamen of rechtverkrijgenden die hun woonplaats hebben in de zetel van het bedrijf van de overleden pachter.
 2. Indien het gepachte goed aan verscheidene personen in medeëigendom toebehoort, is de in artikel 48, 1, bedoelde kennisgeving alleen geldig indien alle medeëigenaars daartoe hun medewerking hebben verleend.
 
-## Art. 49_WAALS_GEWEST
-
+Art. 49_WAALS_GEWEST.
 1. [1 Indien het goed door verscheidene pachters gemeenschappelijk gepacht wordt, moeten de in artikel 48 bedoelde kennisgevingen aan alle exploitanten van het goed gedaan worden.]1. Het recht van voorkoop kan met schriftelijke instemming van alle medepachters-exploitanten worden uitgeoefend door één of meer van hen; hun onenigheid, afwezigheid of stilzwijgen geldt als weigering van het aanbod.
 Indien de verpachter bij het overlijden van de pachter niet weet welke erfgenaam of erfgenamen de exploitatie van het verpachte goed voortzetten, mag hij als zodanig beschouwen degene of degenen van de erfgenamen of rechtverkrijgenden die de laatste pacht hebben betaald of, bij gebreke van betaling, de erfgenamen of rechtverkrijgenden die hun woonplaats hebben in de zetel van het bedrijf van de overleden pachter.
 2. Indien het gepachte goed aan verscheidene personen in medeëigendom toebehoort, is de in artikel 48, 1, bedoelde kennisgeving alleen geldig indien alle medeëigenaars daartoe hun medewerking hebben verleend.
@@ -17341,8 +16925,7 @@ Deze uitzondering is niet van toepassing wanneer de pachter zelf de echtgenoot, 
 7° (in de gevallen bedoeld in artikels 6, § 1, 1° tot en met 5°, en 14, tweede lid;) <W 1988-11-07/43, art. 33, C, 002; Inwerkingtreding : 1988-12-16>
 8° wanneer de eigenaar van de vrederechter machtiging verkrijgt het goed te verkopen, zonder dat het recht van voorkoop kan worden uitgeoefend. De rechter verleent deze machtiging slechts indien de eigenaar ernstige redenen heeft om de pachter te weren. Hij doet uitspraak na de partijen gehoord of behoorlijk opgeroepen te hebben. Om de ernst van de aangevoerde redenen te beoordelen, laat de rechter zich onder meer leiden door de bepalingen van artikel 7 betreffende de redenen van opzegging.
 
-## Art. 52_WAALS_GEWEST
-
+Art. 52_WAALS_GEWEST.
 De pachter heeft geen recht van voorkoop :
 1° (indien het goed niet geëxploiteerd wordt door hem persoonlijk of door zijn echtgenoot [1 of door zijn wettelijk samenwonende]1, zijn afstammelingen of aangenomen kinderen, of die van zijn echtgenoot [1 of van zijn wettelijk samenwonende]1 of door de echtgenoten [1 of de wettelijk samenwonenden]1 van de voormelde afstammelingen of aangenomen kinderen.) <W 1988-11-07/43, art. 33, B, 002; Inwerkingtreding : 1988-12-16> Ruil met het oog op het betelen van pachtgoederen heeft evenwel geen invloed op het recht van voorkoop van de pachter;
 [1 1° /1 als de pachter de wettelijke pensioenleeftijd heeft bereikt, een rust- of overlevingspensioen krijgt en geen enkele van de personen, vermeld in artikel 34, kan aanduiden als degene die zijn exploitatie kan voortzetten, wordt de bewijslast uitgevoerd overeenkomstig artikel 57bis.]1
@@ -17366,8 +16949,7 @@ Als niet bestaande, wordt beschouwd elke overeenkomst waarbij de pachter vooraf,
 (De beperking inzake de overdracht zoals bepaald in het eerste lid, geldt niet wanneer de pachter die gebruik heeft gemaakt van het recht van voorkoop, het goed opnieuw kan verkopen aan een koper die hem in de verkoopakte een effectieve pachttijd van negen jaar waarborgt.) <W 1988-11-07/43, art. 34, B, 002;
 Bij overtreding van deze bepaling zal hij aan de verkoper een schadevergoeding gelijk aan 20 pct. van de verkoopprijs van de betrokken percelen verschuldigd zijn, tenzij hij vooraf, op grond van ernstige redenen, machtiging van de vrederechter heeft verkregen.
 
-## Art. 54_WAALS_GEWEST
-
+Art. 54_WAALS_GEWEST.
 [1 De pachter die gebruik heeft gemaakt van het recht van voorkoop, mag, gedurende een periode van vijf jaar te rekenen van de aankoop, het goed of de exploitatie ervan niet overdragen aan andere personen dan zijn echtgenoot, zijn wettelijk samenwonende, zijn afstammelingen of aangenomen kinderen of die van zijn echtgenoot of van zijn wettelijk samenwonende of aan de echtgenoten of aan de wettelijk samenwonenden van de voormelde afstammelingen of aangenomen kinderen.]1 (De beperking inzake de overdracht zoals bepaald in het eerste lid, geldt niet wanneer de pachter die gebruik heeft gemaakt van het recht van voorkoop, het goed opnieuw kan verkopen aan een koper die hem in de verkoopakte een effectieve pachttijd van negen jaar waarborgt.) <W 1988-11-07/43, art. 34, B, 002;
 Bij overtreding van deze bepaling zal hij aan de verkoper een schadevergoeding gelijk aan 20 pct. van de verkoopprijs van de betrokken percelen verschuldigd zijn, tenzij hij vooraf, op grond van ernstige redenen, machtiging van de vrederechter heeft verkregen.
 (1)<DWG 2019-05-02/90, art. 40, 011; Inwerkingtreding : 01-01-2020>
@@ -17376,8 +16958,7 @@ Bij overtreding van deze bepaling zal hij aan de verkoper een schadevergoeding g
 
 In geval van vervreemding van het pachtgoed treedt de verkrijger volledig in de rechten en verplichtingen van de verpachter.
 
-## Art. 55_WAALS_GEWEST
-
+Art. 55_WAALS_GEWEST.
 [1 Als de pachtovereenkomst een vroegere vaste datum heeft dan die van vervreemding van het verpachte goed, treedt de verkrijger onder bezwarende titel of om niet in de rechten en de verplichtingen van de verpachter op de datum van verlijden van de authentieke akte, zelfs als de pachtovereenkomst in de mogelijkheid tot uitdrijving bij vervreemding voorziet.
 Hetzelfde geldt wanneer de pachtovereenkomst geen vroegere vaste datum dan die van de vervreemding heeft, als de pachter het pachtgoed sinds minstens één jaar in gebruik heeft. In dat geval kan de verkrijger de pachtovereenkomst te allen tijde beëindigen om de redenen en onder de voorwaarden bedoeld in artikel 7, mits een opzegging van zes maanden betekend aan de pachter, op straffe van nietigheid, binnen de drie maanden volgend op de datum van verlijden van de authentieke akte tot vaststelling van de eigendomsovergang. Die termijn wordt verlengd om de pachter de tijd te geven de wassende vruchten te oogsten.]1 (1)<DWG 2019-05-02/90, art. 41, 011; Inwerkingtreding : 01-01-2020>
 
@@ -17393,12 +16974,10 @@ Wat betreft artikel 1722 en artikel 21 van deze afdeling, worden slechts geacht 
 
 <W 1988-11-07/43, art. 35, 002; Inwerkingtreding : 1988-12-16> Opzegging, verzet of kennisgeving bepaald in de artikelen 6, § 1, 3° en 4°, 11, 12, 14, eerste lid, 33, 35, 36, 37, 38, 39, 40, 42, 43, 44, 48 en 49 moet, op straffe van niet bestaan betekend worden bij gerechtsdeurwaardersexploot of bij ter post aangetekende brief.
 
-## Art. 57_WAALS_GEWEST
-
+Art. 57_WAALS_GEWEST.
 [1 Opzegging, verzet of kennisgeving bepaald in de artikelen 6, 8, § 4, 11, 12, 14, lid 1, 24, 30, 33, 34bis, 35, 36, 36bis, 37, 38, 39, 40, 42, 44, 48, 49 en 55 moet, op straffe van niet bestaan betekend worden bij gerechtsdeurwaardersexploot of bij een zending.]1 (1)<DWG 2019-05-02/90, art. 42, 011; Inwerkingtreding : 01-01-2020>
 
-## Art. 57bis_WAALS_GEWEST
-
+Art. 57bis_WAALS_GEWEST.
 [1 Vanaf het ogenblik waarop de pachter de wettelijke pensioenleeftijd heeft bereikt, kan de verpachter of de instrumenterend ambtenaar hem vragen of hij een rust- of overlevingspensioen geniet, met inachtneming van de vorm bepaald in artikel 57. Als de pachter niet binnen de twee maanden na deze vraag bewijst dat hij steeds bedrijvig is en geen rust- of overlevingspensioen geniet of als hij niet, in voorkomend geval, een persoon bedoeld in artikel 34 aanduidt als de persoon die zijn exploitatie voort kan zetten, wordt hij geacht een rust- of overlevingspensioen te genieten.]1 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 43, 011; Inwerkingtreding : 01-01-2020>
 
 ## Art. 58
@@ -17506,8 +17085,9 @@ De onroerende voorheffing betreffende het gehuurde onroerende goed kan niet ten 
 Bemiddeling door een derde voor de verhuring van het onroerend goed.
 [1 Wordt voor niet geschreven gehouden, elk beding dat de kosten voor de bemiddeling door een derde voor de verhuring van het onroerend goed ten laste legt van de huurder, tenzij de huurder de opdrachtgever is van de bemiddelingsopdracht.]1 (1)<Ingevoegd bij W 2009-06-18/11, art. 2, 006; Inwerkingtreding : 17-08-2009>
 
-## Art. 6.Indexatie
+## Art. 6
 
+Indexatie.
 (Indien zulks niet uitdrukkelijk is uitgesloten en op voorwaarde dat de huurovereenkomst bij geschrift is gesloten, is de aanpassing van de huurprijs aan de kosten van levensonderhoud eenmaal per huurjaar, verschuldigd op de verjaardag van de inwerkingtreding van de huurovereenkomst, volgens de regels bepaald bij artikel 1728bis van het Burgerlijk Wetboek.) <W 1997-04-13/43, art. 8, 002; Inwerkingtreding : 31-05-1997 (W 1997-04-13/43, art. 15)> Deze aanpassing vindt slechts plaats op schriftelijk verzoek van de belanghebbende partij en werkt slechts terug tot drie maanden voorafgaand aan die van het verzoek.
 
 ## Art. 7
@@ -17579,8 +17159,9 @@ Art. M. (Fictief artikel. Voor de data van inwerkingtreding van de bepalingen va
 
 ##### Afdeling 1. - Algemeen
 
-## Art. 1.Doelstelling
+## Art. 1
 
+Doelstelling
 Het pandrecht verleent aan de pandhouder het recht om bij voorrang boven de andere schuldeisers te worden betaald uit de bezwaarde goederen.
 [1 Dit recht van voorrang geldt als een voorrecht zoals bedoeld in artikel 12 van de Hypotheekwet.]1 (1)<W 2016-12-25/12, art. 2, 002; Inwerkingtreding : 01-01-2018>
 
@@ -17595,8 +17176,9 @@ Vertegenwoordiging
 Een pandovereenkomst die wordt gesloten door een vertegenwoordiger voor rekening van één of meer begunstigden is geldig en tegenwerpelijk aan derden wanneer de identiteit van de begunstigden kan worden vastgesteld aan de hand van de overeenkomst. Alle daaruit voortvloeiende rechten behoren tot het vermogen van die begunstigden.
 De vertegenwoordiger kan alle rechten uitoefenen die normaal toekomen aan de pandhouder. Hij is, behoudens andersluidende overeenkomst, met de begunstigde hoofdelijk aansprakelijk.
 
-## Art. 4.Bewijs
+## Art. 4
 
+Bewijs
 De inpandgeving wordt bewezen door een geschrift dat de door het pand bezwaarde goederen, de gewaarborgde schuldvorderingen en het maximaal bedrag tot beloop waarvan de schuldvorderingen gewaarborgd zijn, nauwkeurig aanduidt.
 Is de pandgever een consument [1 in de zin van artikel I.1, 2°, van boek I van het Wetboek van economisch recht]1, dan dient voor de geldigheid van de overeenkomst een geschrift te worden opgesteld dat, naargelang het geval, voldoet aan het vereiste [2 van artikel 8.20 of artikel 8.21 van het Burgerlijk Wetboek]2.
 Het in het tweede lid bedoelde geschrift vermeldt, voor de toepassing van artikel 7, vierde lid, de waarde van het verpande goed of van de verpande goederen.
@@ -17615,8 +17197,9 @@ Bevoegdheid van de pandgever
 De inpandgeving is slechts geldig indien de pandgever bevoegd is de goederen te verpanden.
 Heeft de pandgever die bevoegdheid niet, dan verkrijgt de pandhouder niettemin een pandrecht indien hij bij het sluiten van de overeenkomst redelijkerwijze mocht veronderstellen dat de pandgever tot verpanding bevoegd was.
 
-## Art. 7.Voorwerp
+## Art. 7
 
+Voorwerp
 [1 Het pandrecht kan een roerend lichamelijk of onlichamelijk goed, een goed dat roerend is uit zijn aard maar onroerend is geworden door bestemming of een bepaald geheel van dergelijke goederen tot voorwerp hebben met uitzondering van zeeschepen en teboekgestelde schepen en vaartuigen in de zin van boek II van het Wetboek van Koophandel.]1 Behoudens beperkende bepalingen in de pandovereenkomst, omvat het pandrecht dat een handelszaak tot voorwerp heeft het geheel der goederen die de handelszaak uitmaken.
 Behoudens beperkende bepalingen in de pandovereenkomst, omvat het pandrecht dat een landbouwexploitatie tot voorwerp heeft het geheel der goederen die tot de exploitatie dienen.
 Is de pandgever een consument [1 in de zin van artikel I.1, 2°, van boek I van het Wetboek van economisch recht]1, dan mag de waarde van het verpande goed of de verpande goederen het dubbel van de omvang van het pandrecht zoals bepaald in artikel 12, niet overschrijden.
@@ -17649,8 +17232,9 @@ De pandovereenkomst kan worden aangegaan voor een bepaalde of een onbepaalde duu
 Is de overeenkomst aangegaan voor een onbepaalde duur, dan kan de pandgever de overeenkomst beëindigen met inachtneming van een opzeggingstermijn van minimaal drie en maximaal zes maanden.
 Behoudens andersluidende overeenkomst, wanneer de pandovereenkomst wordt beëindigd door het verstrijken van de termijn of door een opzegging, strekt het pandrecht enkel tot waarborg van de schuldvorderingen die bestaan op het tijdstip van het einde van de overeenkomst.
 
-## Art. 12.Omvang
+## Art. 12
 
+Omvang
 Het pandrecht strekt zich, binnen het overeengekomen bedrag, uit tot de hoofdsom van de gewaarborgde schuldvordering en tot de bijhorigheden zoals de interest, het schadebeding en de kosten van uitwinning.
 Is de pandgever een consument [1 in de zin van artikel I.1, 2°, van boek I van het Wetboek van economisch recht]1, dan mogen die bijhorigheden echter niet groter zijn dan 50 % [1 van de hoofdsom op het ogenblik van de verdeling of de toerekening]1.
 (1)<W 2016-12-25/12, art. 5, 002; Inwerkingtreding : 01-01-2018>
@@ -17662,13 +17246,15 @@ Het pandrecht is ondeelbaar, niettegenstaande de schuld onder de algemene rechts
 De algemene rechtsopvolger of de rechtsopvolger onder algemene titel van de schuldenaar, die zijn aandeel in de schuld betaald heeft, kan zijn aandeel in het pandrecht niet terugvorderen, zolang de schuld niet ten volle voldaan is.
 Zijnerzijds kan de algemene rechtsopvolger of de rechtsopvolger onder algemene titel van de schuldeiser, die zijn aandeel in de schuld ontvangen heeft, het pandrecht niet teruggeven ten nadele van degenen onder zijn algemene mede-rechtsopvolgers of mede-rechtsopvolgers onder algemene titel, die niet betaald zijn.
 
-## Art. 14.Herverpanding
+## Art. 14
 
+Herverpanding
 De pandhouder is niet bevoegd tot het bezwaren van het goed [1 , tenzij de pandgever zijn toestemming geeft]1.
 (1)<W 2016-12-25/12, art. 6, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 15.Tegenwerpelijkheid
+## Art. 15
 
+Tegenwerpelijkheid
 Het pandrecht is tegenwerpelijk aan derden door een overeenkomstig [2 artikel 29, § 1, eerste lid]2, uitgevoerde registratie in het pandregister.
 [1 De registratie in het pandregister is uitgesloten voor een verpanding van schuldvorderingen.]1 De onjuiste identificatie van de pandgever ontneemt elk gevolg aan de registratie, behalve indien een opzoeking in het register aan de hand van het juiste element van identificatie toelaat de inschrijving terug te vinden, onverminderd [2 artikel 29, § 1, tweede lid]2.
 De onjuiste identificatie van de pandhouder of van [1 zijn vertegenwoordiger als bedoeld in artikel 3]1 of de onjuiste aanduiding van de door het pandrecht bezwaarde goederen ontnemen elk gevolg aan de registratie, behalve indien zij een redelijke persoon die een opzoeking doet niet ernstig op een dwaalspoor brengen, onverminderd [2 artikel 29, § 1, tweede lid]2.
@@ -17689,8 +17275,9 @@ De pandhouder is gerechtigd om op ieder ogenblik de bezwaarde goederen te inspec
 Gebruiksrecht
 De pandgever is gerechtigd tot een redelijk gebruik van de in pand gegeven goederen overeenkomstig hun bestemming.
 
-## Art. 18.Verwerking
+## Art. 18
 
+Verwerking
 Behoudens anders overeengekomen, is de pandgever gerechtigd tot verwerking van goederen die bestemd zijn voor verwerking.
 Ontstaat door die toegestane verwerking een nieuw goed, dan bezwaart het pandrecht dit nieuw tot stand gekomen goed, behoudens anders overeengekomen. In geval van niet toegestane verwerking zijn [1 de artikelen 3.11 en 3.56 van het Burgerlijk Wetboek]1 van toepassing.
 Werden voor de verwerking goederen van derden aangewend en is de afscheiding van deze goederen onmogelijk of economisch niet verantwoord, dan bezwaart het pandrecht het nieuw totstandgekomen goed indien dit goed [1 het hoofdgoed is in de zin van artikel 3.57 van het Burgerlijk Wetboek]1 of, desgevallend, indien dit goed de grootste waarde heeft. In dat geval heeft de derde op de pandhouder een vordering wegens verrijking zonder oorzaak.
@@ -17726,23 +17313,24 @@ De overdracht van de gewaarborgde schuldvordering heeft de overgang van het pand
 Laatstgenoemde overgang is tegenwerpelijk aan derden door de registratie ervan in het pandregister of door de overdracht van het bezit van de bezwaarde goederen aan de overnemer.
 De gewaarborgde schuldvordering mag gedeeltelijk worden overgedragen. In dat geval is de overgang van het pandrecht evenredig met de omvang van de overdracht van de schuldvordering.
 
-## Art. 24.Beschikking
+## Art. 24
 
-van verpande goederen
+Beschikking van verpande goederen
 Het pandrecht volgt de bezwaarde goederen, in welke handen zij ook overgaan. De overnemer geldt als pandgever vanaf het ogenblik van de overdracht.
 Het eerste lid is niet van toepassing indien de pandgever overeenkomstig artikel 21 gerechtigd was tot beschikking over de bezwaarde goederen, indien de pandhouder had ingestemd met de beschikking of indien de verkrijger zich kan beroepen op artikel [1 3.28 van het Burgerlijk Wetboek]1.
 (1)<W 2020-02-04/16, art. 12, 006; Inwerkingtreding : 01-09-2021>
 
-## Art. 25.Derde
+## Art. 25
 
--verkrijgers
+Derde-verkrijgers
 De registratie in het pandregister sluit de toepassing van artikel [1 3.28 van het Burgerlijk Wetboek]1 uit ten aanzien van rechtverkrijgers onder bijzondere titel van de pandgever die handelen in het raam van hun bedrijf of beroep.
 (1)<W 2020-02-04/16, art. 12, 006; Inwerkingtreding : 01-09-2021>
 
 ##### Afdeling 2. - Publiciteit
 
-## Art. 26.Pandregister
+## Art. 26
 
+Pandregister
 [1 De registratie van een pandrecht en van een eigendomsvoorbehoud gebeurt in het Nationaal Pandregister, pand-register genoemd, dat wordt bewaard bij de Algemene Administratie van de Patrimoniumdocumentatie van de Federale Overheidsdienst Financiën.]1 [1 Het pandregister is een geïnformatiseerd systeem dat bestemd is voor het registreren en het raadplegen van pandrechten en eigendomsvoorbehouden, het wijzigen, vernieuwen, overdragen of verwijderen van de registratie van pandrechten of eigendomsvoorbehouden en het afstaan van rang van een geregistreerd pandrecht.]1 De Koning is bevoegd om de werking van het pandregister te regelen.
 [1 Algemene Administratie van de Patrimoniumdocumentatie van de Federale Overheidsdienst Financiën]1 is de verantwoordelijke voor de verwerking in de zin van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en wordt belast met de uitvoering van de bepalingen van die wet.
 [1 De artikelen 27, 28, 32, 33, 34, 35, 36 en 37 zijn van overeenkomstige toepassing op de registratie van het eigendomsvoorbehoud.]1 (1)<W 2016-12-25/12, art. 8, 002; Inwerkingtreding : 01-01-2018>
@@ -17753,14 +17341,16 @@ De registratie in het pandregister sluit de toepassing van artikel [1 3.28 van h
 [1 Elke registratie, raadpleging, wijziging, vernieuwing, rangafstand of overdracht van een pand of verwijdering van geregistreerde panden vereist de authenticatie van de gebruiker van het pandregister.]1 De Koning bepaalt, na advies van de Commissie voor de bescherming van de persoonlijke levenssfeer, de nadere regels inzake die [1 authenticatie]1.
 (1)<W 2016-12-25/12, art. 9, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 28.Kosten
+## Art. 28
 
+Kosten
 De registratie, raadpleging, wijziging, [1 vernieuwing en verwijdering van gegevens, en de rangafstand of overdracht van een pand]1 kunnen elk aanleiding geven tot de betaling van een retributie waarvan het bedrag door de Koning wordt bepaald.
 De raadpleging van het pandregister is kosteloos voor de pandgever en voor de categorieën van personen of instellingen die de Koning heeft bepaald na advies van de Commissie voor de bescherming van de persoonlijke levenssfeer.
 (1)<W 2016-12-25/12, art. 10, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 29.Registratie
+## Art. 29
 
+Registratie
 [1 § 1.]1 De pandhouder is krachtens de pandovereenkomst gerechtigd zijn pand te registreren door de in artikel 30 bedoelde gegevens zoals deze in het in artikel 4 bedoelde geschrift voorkomen, in overeenstemming met de nadere regels die de Koning heeft bepaald na advies van de Commissie voor de bescherming van de persoonlijke levenssfeer, in het pandregister in te voeren.
 De pandhouder is tot schadevergoeding gehouden voor iedere schade ten gevolge van de [1 registratie]1 van onjuiste gegevens.
 De pandhouder brengt de pandgever schriftelijk op de hoogte van de registratie.
@@ -17813,16 +17403,17 @@ b) indien het een rechtspersoon betreft, zijn naam, rechtsvorm, land, postcode e
 8° de datum van de registratie.]1
 (1)<W 2016-12-25/12, art. 13, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 32.Wijziging
+## Art. 32
 
+Wijziging
 In geval van wijziging van de pandovereenkomst of in geval van onjuiste gegevens is de pandhouder gerechtigd de geregistreerde gegevens te wijzigen, overeenkomstig de overeenkomst en de nadere regels die de Koning heeft bepaald na advies van de Commissie voor de bescherming van de persoonlijke levenssfeer.
 In geval van een wijziging, geeft het register zowel de oorspronkelijke [1 registratie]1 als de wijziging weer.
 De pandhouder brengt schriftelijk de pandgever op de hoogte van de wijziging van de registratie.
 (1)<W 2016-12-25/12, art. 14, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 33.Onjuiste
+## Art. 33
 
-gegevens
+Onjuiste gegevens
 De pandgever is gerechtigd om van de pandhouder de verwijdering of de wijziging te vorderen van onjuiste gegevens.
 [1 ...]1
 (1)<W 2016-12-25/12, art. 15, 002; Inwerkingtreding : 01-01-2018>
@@ -17853,15 +17444,16 @@ Zo de pandhouder, bedoeld in het eerste lid, of de verkoper, bedoeld in het twee
 De verkoper kan de registratie van het eigendomsvoorbehoud gedeeltelijk verwijderen door verwijdering van een deel van de goederen waarop het eigendomsvoorbehoud betrekking heeft en waarvoor registratie werd genomen.
 In geval van een gedeeltelijke verwijdering geeft het register bij raadpleging zowel de oorspronkelijke registratie als deze houdende de gedeeltelijke verwijdering weer.]1 (1)<W 2016-12-25/12, art. 18, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 37.Overdracht
+## Art. 37
 
-van schuldvordering
+Overdracht van schuldvordering
 De registratie van de overdracht van het pandrecht bij overdracht van de gewaarborgde schuldvordering gebeurt volgens door de Koning nader bepaalde regels, na advies van de Commissie voor de bescherming van de persoonlijke levenssfeer. Tot dat tijdstip behoudt de registratie zijn uitwerking krachtens de [1 registratie]1 van de overdrager.
 De registratie van de overdracht vermeldt de identiteit van de overnemer. [1 De identiteit van de overnemer wordt eveneens bij raadpleging weergegeven.]1 De registratie van de overdracht dient te gebeuren door de overdrager.
 (1)<W 2016-12-25/12, art. 19, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 38.Rangafstand
+## Art. 38
 
+Rangafstand
 Een afstand van rang is slechts tegenwerpelijk aan derden door de registratie ervan volgens de nadere regels die de Koning heeft bepaald na advies van de Commissie voor de bescherming van de persoonlijke levenssfeer.
 [1 De registratie van de rangafstand gebeurt door diegene die zijn rang afstaat of zijn vertegenwoordiger als bedoeld in artikel 3 of hun lasthebber.
 De raadpleging van het pandregister met betrekking tot een geregistreerd pandrecht vermeldt in voorkomend geval een geregistreerde rangafstand.]1 (1)<W 2016-12-25/12, art. 20, 002; Inwerkingtreding : 01-01-2018>
@@ -17873,8 +17465,9 @@ De raadpleging van het pandregister met betrekking tot een geregistreerd pandrec
 Inbezitstelling
 Het pandrecht van een lichamelijk goed is eveneens tegenwerpelijk aan derden wanneer het goed in de feitelijke macht van de schuldeiser of van een overeengekomen derde wordt gesteld.
 
-## Art. 40.Bewijs
+## Art. 40
 
+Bewijs
 De pandovereenkomst kan worden bewezen door alle rechtsmiddelen.
 Is de pandgever een consument [1 in de zin van artikel I.1, 2°, van boek I van het Wetboek van economisch recht]1, dan dient als bewijs van de overeenkomst een geschrift te worden opgesteld dat naargelang het geval voldoet aan het vereiste [2 van artikel 8.20 of artikel 8.21 van het Burgerlijk Wetboek]2.
 (1)<W 2016-12-25/12, art. 21, 002; Inwerkingtreding : 01-01-2018>
@@ -17912,18 +17505,18 @@ Behalve indien de pandhouder of de overeengekomen derde in ernstige mate aan zij
 
 ##### Afdeling 4 - Uitwinning
 
-## Art. 46.Pandgever
+## Art. 46
 
-consument
+Pandgever consument
 Indien de pandgever een consument is [1 in de zin van artikel I.1, 2° van boek I van het Wetboek van economisch recht]1, mag de pandhouder, bij niet-betaling, niet over het pand beschikken; maar hij kan door de rechter doen bevelen dat dit pand aan hem zal verblijven, in betaling en ten belope van de schuld, volgens een schatting door deskundigen, of dat het pand in het openbaar of per onderhandse akte zal worden verkocht.
 De pandhouder is niet gerechtigd om op te treden als koper bij een onderhandse verkoop.
 Elk beding waarbij de pandhouder zou worden gemachtigd zich het pand toe te eigenen of erover te beschikken zonder inachtneming van de hiervoor bepaalde vormen, is nietig.
 De artikelen 50 en 55 zijn van toepassing.
 (1)<W 2016-12-25/12, art. 22, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 47.Pandgever
+## Art. 47
 
-niet-consument
+Pandgever niet-consument
 Indien de pandgever geen consument is [1 in de zin van artikel I.1, 2° van boek I van het Wetboek van economisch recht]1, is de pandhouder, bij niet-betaling, gerechtigd om overeenkomstig de artikelen 48 tot 56 zijn pandrecht uit te oefenen door de verpande goederen geheel of gedeeltelijk te verkopen of te verhuren ter voldoening van de gewaarborgde schuldvordering.
 Indien de schuldenaar tekortschiet, heeft de pandhouder het recht over het door het pandrecht bezwaarde goed te beschikken. Indien de pandgever of enige persoon die over het bezwaarde goed beschikt zich ertegen verzet, moet de pandhouder zich tot de rechter wenden overeenkomstig artikel 54.
 De uitwinning dient te gebeuren te goeder trouw en op een economisch verantwoorde wijze.
@@ -17932,8 +17525,9 @@ De bewijslast van een tekortkoming van de pandhouder berust bij de pandgever.
 De partijen kunnen bij de totstandkoming van de pandovereenkomst of op een later tijdstip overeenkomen over de wijze van uitwinning.
 [2 Indien binnen de termijn voorzien in het eerste lid van artikel 48 of in voorkomend geval in artikel 49 de uitwinning niet wordt opgeschort overeenkomstig artikel 54 is de pandhouder gerechtigd een gerechtsdeurwaarder te gelasten om bezit te nemen van de verpande goederen en is de pandgever gehouden tot afgifte van de verpande goederen.]2 (1)<W 2016-12-25/12, art. 23, 002; Inwerkingtreding : 01-01-2018> (2)<W 2019-05-02/25, art. 162, 004; Inwerkingtreding : 31-05-2019>
 
-## Art. 48.Kennisgeving
+## Art. 48
 
+Kennisgeving
 De pandhouder die tot uitwinning wenst over te gaan, moet daarvan ten minste tien dagen vooraf [1 bij aangetekende zending met ontvangstbewijs of gerechtsdeurwaardersexploot]1 kennisgeven aan de schuldenaar en in voorkomend geval aan de derde-pandgever.
 De kennisgeving dient ook te worden gedaan [1 bij aangetekende zending]1 aan de andere pandhouders en aan hen die op de bezwaarde goederen beslag hebben gelegd.
 De kennisgeving maakt melding van het bedrag van de gewaarborgde schuldvordering op het tijdstip van deze kennisgeving, een omschrijving van de bezwaarde goederen, de voorgenomen wijze van uitwinning en het recht van de schuldenaar of de pandgever om de goederen te bevrijden door de betaling van de gewaarborgde schuldvordering.
@@ -17965,9 +17559,9 @@ Toe-eigening door de pandhouder
 Indien de schuldenaar in gebreke is te betalen, kan de pandgever toestemming geven voor de toe-eigening van de verpande goederen door de pandhouder.
 Een dergelijke overeenkomst kan ook gesloten worden bij de totstandkoming van de pandovereenkomst of op een later tijdstip, wanneer de overeenkomst bepaalt dat de waarde van de goederen op de dag van de toeeigening zal worden vastgesteld door een deskundige en, voor goederen die verhandeld worden op een markt, volgens de marktprijs.
 
-## Art. 54.Rechterlijke
+## Art. 54
 
-controle
+Rechterlijke controle
 [1 Indien de pandgever geen consument is, kunnen de pandgever en in geval van een derde-pandgever, de schuldenaar van de gewaarborgde verbintenissen, zich binnen de toepasselijke termijn bepaald in de artikelen 48 en 49 tot de rechter wenden om zich te verzetten tegen de uitwinning.]1 [1 Ter beslechting van ieder ander geschil dat bij de uitwinning kan rijzen of indien de pandgever een consument is in de zin van artikel I, 1, 2°, van boek I van het Wetboek van economisch recht, kunnen de pandhouder, de pandgever en belanghebbende derden zich op ieder ogenblik tot de rechter wenden.]1 De vordering schort de uitwinning van het pand op.
 De zaak wordt ingeleid bij dagvaarding of bij verzoekschrift op tegenspraak overeenkomstig artikel 1034bis en volgende van het Gerechtelijk Wetboek.
 De rechter doet uitspraak bij voorrang boven alle zaken.
@@ -17983,9 +17577,9 @@ Het bedrag dat voortvloeit uit de uitwinning wordt toegerekend op de gewaarborgd
 Zijn er meerdere pandhouders dan wordt de netto-opbrengst tussen hen verdeeld volgens hun rang overeenkomstig artikelen 57 en 58.
 Het eventueel saldo komt toe aan de pandgever.
 
-## Art. 56.Rechterlijke
+## Art. 56
 
-controle a posteriori
+Rechterlijke controle a posteriori
 Na de voltooiing van de uitwinning kan iedere belanghebbende partij zich tot de rechter wenden bij betwisting over de wijze van uitwinning of de aanwending van de opbrengst.
 De vordering wordt ingesteld uiterlijk binnen [1 een termijn van een maand]1 vanaf de kennisgeving van het einde van de uitwinning door de pandhouder aan de in artikel 48, eerste en tweede lid, bedoelde personen.
 De kennisgeving geschiedt bij een aangetekende zending.
@@ -17994,8 +17588,9 @@ De kennisgeving geschiedt bij een aangetekende zending.
 
 ##### Afdeling 5 - Rangconflicten
 
-## Art. 57.Anterioriteitsregel
+## Art. 57
 
+Anterioriteitsregel
 [1 Het pandrecht heeft voorrang op alle jongere rechten op de verpande goederen, onverminderd de artikelen 21 tot 26 van Titel XVIII van Boek III van dit Wetboek.]1 Zijn er meerdere pandhouders, dan wordt hun rangorde bepaald naar de datum van de registratie of van de bezitsverkrijging.
 Pandhouders die op dezelfde dag hebben geregistreerd of het bezit hebben verkregen, staan in gelijke rang.
 Indien de verpande goederen onroerend zijn geworden, wordt de rangorde tussen de pandhouder en een hypothecaire of een op de onroerende goederen bevoorrechte schuldeiser bepaald volgens de datum van de registratie en die van de inschrijving van de hypotheek of het voorrecht.
@@ -18020,24 +17615,25 @@ Komt de pandgever in verzuim, dan is de pandhouder gerechtigd tot schuldvergelij
 
 (1)<W 2016-12-25/12, art. 26, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 60.Bezitvereiste
+## Art. 60
 
-(" controle ")
+Bezitvereiste (" controle ")
 De pandhouder verkrijgt het bezit van een in pand gegeven schuldvordering door het sluiten van de pandovereenkomst op voorwaarde dat hij bevoegd is tot kennisgeving van het pandrecht aan de schuldenaar van de verpande schuldvordering.
 De verpanding kan slechts aan de schuldenaar van de in pand gegeven schuldvordering worden tegengeworpen nadat zij hem ter kennis werd gebracht of door hem is erkend.
 [1 De artikelen 3.28, § 2, 5.179, derde lid en 5 181, tweede en derde lid]1 zijn van toepassing.
 (1)<W 2022-04-28/25, art. 27, 007; Inwerkingtreding : 01-01-2023>
 
-## Art. 61.Bewijs
+## Art. 61
 
+Bewijs
 De pandovereenkomst wordt bewezen door een geschrift dat de door het pandrecht bezwaarde schuldvorderingen en de gewaarborgde schuldvorderingen nauwkeurig aanduidt. De bepalingen uit afdeling 1 met betrekking tot de vermelding in het geschrift van het maximaal bedrag tot beloop waarvan de schuldvorderingen zijn gewaarborgd, zijn van toepassing.
 Is de pandgever een consument [1 in de zin van artikel I.1, 2° van boek I van het Wetboek van economisch recht]1, dan dient het geschrift als bewijs van de overeenkomst te voldoen aan de vereisten, naar gelang het geval, [2 van artikel 8.20 of artikel 8.21 van het Burgerlijk Wetboek]2 en dient tevens nauwkeurig melding te worden gemaakt van het maximaal bedrag tot beloop waarvan de schuldvorderingen zijn gewaarborgd.
 (1)<W 2016-12-25/12, art. 27, 002; Inwerkingtreding : 01-01-2018>
 (2)<W 2019-04-13/28, art. 13,3°, 005; Inwerkingtreding : 01-11-2020>
 
-## Art. 62.Fiduciaire
+## Art. 62
 
-overdracht tot zekerheid
+Fiduciaire overdracht tot zekerheid
 Een overdracht van een schuldvordering tot zekerheid verleent aan de overnemer enkel een pandrecht [1 op de overgedragen schuldvordering en zulks ongeacht of deze overdracht beantwoordt aan het bepaalde in artikel 61, behoudens wanneer de overdrager een consument is in de zin van artikel I.1, 2° van boek I van het Wetboek economisch recht]1.
 (1)<W 2016-12-25/12, art. 28, 002; Inwerkingtreding : 01-01-2018>
 
@@ -18077,16 +17673,17 @@ Heeft de verpande schuldvordering de levering van goederen tot voorwerp en gaat 
 
 #### HOOFDSTUK 2. - Eigendomsvoorbehoud
 
-## Art. 69.Geschrift
+## Art. 69
 
+Geschrift
 Roerende goederen, verkocht met een beding dat de eigendomsoverdracht opschort tot de volledige betaling van de prijs, kunnen worden teruggevorderd wanneer de koper in gebreke blijft de koopprijs te betalen voor zover dit schriftelijk is opgesteld uiterlijk op het ogenblik van de levering van het goed.
 Is de koper een consument [1 in de zin van artikel I.1, 2° van boek I van het Wetboek van economisch recht]1, dan dient de instemming van de koper uit het geschrift te blijken.
 Het terugvorderingsrecht krachtens een beding van eigendomsvoorbehoud kan worden uitgeoefend ongeacht de juridische aard van de overeenkomst waarin het is opgenomen.
 (1)<W 2016-12-25/12, art. 29, 002; Inwerkingtreding : 01-01-2018>
 
-## Art. 70.Zakelijke
+## Art. 70
 
-subrogatie, verwerking en vermenging.
+Zakelijke subrogatie, verwerking en vermenging.
 De artikelen 9, 18 [1 , 20 en 23, lid 1]1 zijn van toepassing.
 (1)<W 2016-12-25/12, art. 30, 002; Inwerkingtreding : 01-01-2018>
 

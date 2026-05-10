@@ -209,8 +209,13 @@ def verwerk_tekst(tekst: str) -> str:
         # Artikel-headings
         # ---------------------------------------------------------------
 
-        # "Artikel X." of "Artikel X" als alleenstaande regel (geen verdere tekst)
-        oud_artikel_match = re.match(r"^Artikel\s+([\d][\d./\w]*\.?)\s*$", ontdaan)
+        # "Artikel X." of "Artikel X" als alleenstaande regel (geen verdere tekst).
+        # Restrictief op nummer (geen `\w`) — vermijdt dat "Artikel 1.Doelstelling"
+        # als nummer "1.Doelstelling" wordt gelezen.
+        oud_artikel_match = re.match(
+            r"^Artikel\s+([\d][\d./]*(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies)?)\.?\s*$",
+            ontdaan,
+        )
         if oud_artikel_match:
             art_nr = oud_artikel_match.group(1).rstrip(".")
             if not vorige_leeg:
@@ -218,6 +223,23 @@ def verwerk_tekst(tekst: str) -> str:
             uitvoer.append(f"## Art. {art_nr}")
             uitvoer.append("")
             vorige_leeg = True
+            continue
+
+        # "Artikel X.body" — geen spatie tussen nummer-punt en body (Pandwet-stijl).
+        # Voorbeeld: "Artikel 1.Doelstelling" → split naar Art. 1 + body "Doelstelling".
+        oud_artikel_inline_nospace = re.match(
+            r"^Artikel\s+([\d][\d./]*(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies)?)\.([A-Z]\S.*)$",
+            ontdaan,
+        )
+        if oud_artikel_inline_nospace:
+            art_nr = oud_artikel_inline_nospace.group(1).rstrip(".")
+            tekst_rest = oud_artikel_inline_nospace.group(2).strip()
+            if not vorige_leeg:
+                uitvoer.append("")
+            uitvoer.append(f"## Art. {art_nr}")
+            uitvoer.append("")
+            uitvoer.append(tekst_rest)
+            vorige_leeg = False
             continue
 
         # Boek 8-stijl: "Art. 8.1.Definitietitel" — aaneengesloten zonder spatie
@@ -237,8 +259,13 @@ def verwerk_tekst(tekst: str) -> str:
             vorige_leeg = not bool(ondertitel)
             continue
 
-        # "Art. X." of "Art. X" alleenstaand
-        art_alleen_match = re.match(r"^Art\.\s+([\d][\d./\w]*\.?)\s*$", ontdaan)
+        # "Art. X." of "Art. X" alleenstaand. Restrictief op art-nummer (geen
+        # `\w` meer — vermijdt dat "Art. 6.Indexatie" als nummer "6.Indexatie"
+        # gelezen wordt; idem voor "Art. 191.Tegen").
+        art_alleen_match = re.match(
+            r"^Art\.\s+([\d][\d./]*(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies)?)\.?\s*$",
+            ontdaan,
+        )
         if art_alleen_match:
             art_nr = art_alleen_match.group(1).rstrip(".")
             if not vorige_leeg:
@@ -249,8 +276,13 @@ def verwerk_tekst(tekst: str) -> str:
             continue
 
         # "Art. X. tekst..." of "Art. X.[noot]... tekst..."
+        # Art-nummer-pattern restrictief: alleen cijfers/punten/slashes en
+        # bekende suffixen (bis/ter/quater/...). Voorheen toegestaan: `\w` —
+        # waardoor `Art. 191.Tegen` als nummer "191.Tegen" werd gelezen ipv
+        # nummer "191" + body "Tegen".
         art_inline_match = re.match(
-            r"^Art\.\s+([\d][\d./\w]*\.?)\s*(?:\[\d+.*?\]\d*\s*)?(.+)$",
+            r"^Art\.\s+([\d][\d./]*(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies)?)\.\s*"
+            r"(?:\[\d+.*?\]\d*\s*)?(.+)$",
             ontdaan,
         )
         if art_inline_match:

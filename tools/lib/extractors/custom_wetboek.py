@@ -30,6 +30,7 @@ from lib.cleanup import (  # noqa: E402
     merge_heading_continuations,
     merge_wrapped_lines,
 )
+from lib.inhoudstafel import strip_inhoudstafel  # noqa: E402
 
 
 # ─── PDF-extractie ────────────────────────────────────────────────────────────
@@ -80,6 +81,12 @@ def _extract_nl_text(pdf: str, mode: str, start_page: int | None = None,
 # ─── Structuur en cleanup ─────────────────────────────────────────────────────
 
 def _clean_and_structure(text: str, wet_naam: str) -> str:
+    # Strip Inhoudstafel-blok upfront — sommige wetboeken (Reg-Waals, Reg-Brussel,
+    # Successie-Waals) hebben geen expliciete `Inhoudstafel`-marker maar wel een
+    # cluster van TOC-leader-regels aan het begin. De shared `strip_inhoudstafel`-
+    # detector (cluster-heuristic + EU-OJ-stijl dotted-leaders) pakt die op.
+    text = strip_inhoudstafel(text)
+
     lines = text.split("\n")
     out: list[str] = []
     prev_empty = False
@@ -174,10 +181,34 @@ def _clean_and_structure(text: str, wet_naam: str) -> str:
             prev_empty = True
             continue
 
+        # Afdeling/Onderafdeling heading — alleen voor échte titels, niet voor
+        # body-zinnen die toevallig met deze keywords beginnen ("Onderafdeling II
+        # van de afdeling XII... wordt vervangen..."). Heuristiek: titels zijn
+        # kort (< 120 chars) en bevatten GEEN substitutie/wijzigings-werkwoorden.
         if re.match(r"^(Afdeling|Onderafdeling)\s+", stripped):
+            looks_like_body = (
+                len(stripped) > 120
+                or re.search(r"\b(wordt vervangen|wordt opgeheven|bevattende de|"
+                             r"met als opschrift|wordt ingevoegd)\b", stripped)
+            )
+            if not looks_like_body:
+                if not prev_empty:
+                    out.append("")
+                out.append(f"##### {stripped}")
+                out.append("")
+                prev_empty = True
+                continue
+            # Anders: gewoon body-tekst — val door naar default-handling.
+
+        # All-uppercase structuurlabels (BIJBEPALINGEN, INWERKINGTREDING,
+        # OVERGANGSBEPALINGEN, ...) staan typisch alleen op een regel en zijn
+        # afsluitende secties. Promoot naar ## heading.
+        if (re.match(r"^[A-Z][A-Z\s\-,]{4,}$", stripped)
+                and not re.match(r"^(TITEL|HOOFDSTUK|BOEK|DEEL|AFDELING|ONDERAFDELING)", stripped)
+                and len(stripped) <= 80):
             if not prev_empty:
                 out.append("")
-            out.append(f"##### {stripped}")
+            out.append(f"## {stripped}")
             out.append("")
             prev_empty = True
             continue

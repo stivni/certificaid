@@ -65,10 +65,17 @@ _TOC_SUFFIX_PATTERNS = (
     re.compile(r"\(art\.\s+\d+\w*\s*[\-–]\s*art\.\s+\d+\w*\)"),  # (art. 1 - art. 4)
     re.compile(r"\(art\.\s+\d+[^)]{0,40}\)"),                     # (art. N ...)
     re.compile(r"\.{3,}\s*\d+\s*$"),                              # ........ 12
-    re.compile(r"\s{3,}\d+\s*$"),                                 # heading + ws + page
+    # Heading + whitespace + paginanummer. Vereist substantiële tekst (≥10
+    # niet-witruimte chars) vóór de whitespace zodat we lone-page-number-regels
+    # (een digit alleen op een regel met cover-page whitespace) NIET matchen.
+    re.compile(r"\S.{10,}\s{3,}\d+\s*$"),
     # EU-OJ-stijl: trailing reeks van "space-dot" (eindeloos `. . . . .`).
     # Vereist ≥3 " ."-sequenties aan het einde; geen paginanummer nodig.
     re.compile(r"(?:\s\.){3,}\s*\.?\s*$"),
+    # pdftotext-layout truncates wijde TOC-regels: "TITEL I .........." (4+
+    # dots aan einde, paginanummer afgekapt). Body-zinnen eindigen niet op
+    # 4+ aaneengesloten dots, dus dit is veilig als TOC-signaal.
+    re.compile(r"\.{4,}\s*$"),
 )
 
 _HEADING_RE = re.compile(r"^#{1,6}\s+\S")

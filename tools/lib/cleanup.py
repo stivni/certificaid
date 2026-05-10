@@ -379,8 +379,14 @@ def ensure_article_headings(text: str) -> str:
     lines = text.split("\n")
     result = []
 
-    # Nummer-patroon voor ensure_article_headings: dekt "47", "6:18", "I.20/1", "IV.85"
-    _num = r"(?:[IVXivx]+\.)?[\d][\w./:bis]*"
+    # Nummer-patroon voor ensure_article_headings: dekt "47", "6:18", "I.20/1", "IV.85", "21bis", "183quater".
+    # Bewust restrictief — geen `\w`, anders captureert het de body achter de
+    # punt (bv. "Art. 1.Doelstelling" → nummer="1.Doelstelling" i.p.v. nummer="1").
+    _num = (
+        r"(?:[IVXivx]+\.)?[\d][\d./:]*"
+        r"(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies|"
+        r"undecies|duodecies|terdecies|quaterdecies)?"
+    )
 
     # Patroon 1 & 2: standalone — enkel artikelnummer op de regel (ook "Artikel X")
     standalone = re.compile(
@@ -406,9 +412,13 @@ def ensure_article_headings(text: str) -> str:
     inline_noindent = re.compile(
         rf"^(Art(?:\.|ikel))\s+({_num})\.\s*(\S.*)", re.IGNORECASE
     )
-    # Patroon 5: EU-richtlijn "Artikel X" inline met tekst
+    # Patroon 5: EU-richtlijn "Artikel X" inline met tekst.
+    # Restrictief op nummer: cijfers/punten/slashes + bekende suffixen, geen `\w`
+    # om "Artikel 1.Doelstelling" niet als "1.Doelstelling" te lezen.
     artikel_inline = re.compile(
-        r"^\s{0,8}(Artikel)\s+(\d[\w./:bis]*)\s*$", re.IGNORECASE
+        rf"^\s{{0,8}}(Artikel)\s+(\d[\d./:]*"
+        rf"(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies)?)\s*$",
+        re.IGNORECASE,
     )
 
     for line in lines:
@@ -900,6 +910,28 @@ def remove_inhoudstafel(text: str) -> str:
     return strip_inhoudstafel(text)
 
 
+def normalize_justel_art_separators(text: str) -> str:
+    """Normaliseer Justel-onderscores in artikelnummers naar puntjes.
+
+    Justel exporteert sommige toekomstige artikelen als ``Art. VII_59/4`` waar
+    het Wetboek zelf ``Art. VII.59/4`` gebruikt. Dat verstoort anchor-matching
+    in retrieval. Deze step vervangt **alleen** het onderscheid-separator
+    tussen Romein en arabisch nummer (geen onderscoes elders).
+
+    Voorbeeld::
+      Art. VII_59/4.TOEKOMSTIG_RECHT.  →  Art. VII.59/4.TOEKOMSTIG_RECHT.
+      Art. XI_97.TOEKOMSTIG_RECHT.     →  Art. XI.97.TOEKOMSTIG_RECHT.
+
+    Beïnvloedt NIET ``TOEKOMSTIG_RECHT``, ``VLAAMS_GEWEST``, etc. — die
+    onderscoes blijven behouden (zijn legitieme suffix-markers).
+    """
+    return re.sub(
+        r"\b(Art\.?\s+[IVXLCDM]+)_(\d)",
+        r"\1.\2",
+        text,
+    )
+
+
 def remove_eu_oj_artifacts(text: str) -> str:
     """Verwijder EU Official Journal page-footers + lonely language markers.
 
@@ -934,6 +966,7 @@ OPTIONAL_STEPS = {
     "remove_toc_ejustice": remove_toc_ejustice,
     "remove_inhoudstafel": remove_inhoudstafel,
     "remove_eu_oj_artifacts": remove_eu_oj_artifacts,
+    "normalize_justel_art_separators": normalize_justel_art_separators,
     "merge_heading_continuations": merge_heading_continuations,
     "mark_appendices": mark_appendices,
 }
