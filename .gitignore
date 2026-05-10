@@ -57,3 +57,4 @@ venv/
 .factcheck-*.md
 .leesbaarheid-*.md
 .student-feedback*.md
+data/extractie/matches/
