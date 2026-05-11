@@ -4,57 +4,54 @@ bron: ejustice.just.fgov.be (B.S. originele publicatie — NL-kolom)
 bron_rol: normatief
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: I
 provenance:
   generated_at: '2026-05-11T16:33:56Z'
   inputs:
-  - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p1.pdf
-    sha256: d84794542548059dd7bb2c9b9bcf5ec2be34976991d598042199562d12e46115
-    version: 17.01.2003
-  - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p2.pdf
-    sha256: c9e57747058471ccb96562cb0881124aedd889685fbd4c84d79fa13602702f87
-    version: 17.01.2003
-  - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p3.pdf
-    sha256: f77fab5cc17dd5d177bb1737ae37f656a96497e933f73ee07392d082eaddff21
-    version: 17.01.2003
-  - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p4.pdf
-    sha256: 61231d2dcd2b394894c83c45582158ec8ddeb3d7533eac13cb6d52a58244424d
-    version: 17.01.2003
+    - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p1.pdf
+      sha256: d84794542548059dd7bb2c9b9bcf5ec2be34976991d598042199562d12e46115
+      version: 17.01.2003
+    - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p2.pdf
+      sha256: c9e57747058471ccb96562cb0881124aedd889685fbd4c84d79fa13602702f87
+      version: 17.01.2003
+    - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p3.pdf
+      sha256: f77fab5cc17dd5d177bb1737ae37f656a96497e933f73ee07392d082eaddff21
+      version: 17.01.2003
+    - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p4.pdf
+      sha256: 61231d2dcd2b394894c83c45582158ec8ddeb3d7533eac13cb6d52a58244424d
+      version: 17.01.2003
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 1719
-      flags: []
+      status: pass
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:50Z'
       heading_count: 3
       max_section_chars: 1314
-      run_at: '2026-05-11T16:22:33Z'
-      run_id: 20260511-162232
-      status: pass
+      file_size_chars: 1719
+      flags: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen: []
-      rationale: Korte KB (3.1KB), 3 artikelen op H2, frontmatter met multi-input
-        provenance (4 PDF-pagina's). Body leesbaar NL, geen artefacten.
-      run_at: null
+      rationale: Korte KB (3.1KB), 3 artikelen op H2, frontmatter met multi-input provenance (4 PDF-pagina's). Body leesbaar NL, geen artefacten.
+      run_at:
       status: trusted
     rationale: L1=pass
     status: trusted
 status: beschikbaar
 tags:
-- I
-wet: K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van
-  24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in
-  fiscale zaken
+  - I
+wet: K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken
 ---
 
 # K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken

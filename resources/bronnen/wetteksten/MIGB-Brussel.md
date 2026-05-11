@@ -4,90 +4,75 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: III
 provenance:
   generated_at: '2026-05-11T16:33:56Z'
   inputs:
-  - id: resources/raw/wetteksten/MIGB-Brussel.pdf
-    sha256: ecfec02b58e45ad1633bedebb1fbd2389066341193483590c26e1748acede5ef
-    version: 12.05.2024
+    - id: resources/raw/wetteksten/MIGB-Brussel.pdf
+      sha256: ecfec02b58e45ad1633bedebb1fbd2389066341193483590c26e1748acede5ef
+      version: 12.05.2024
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T16:30:31Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 126240
-      flags: []
+      status: pass
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:51Z'
       heading_count: 189
       max_section_chars: 10694
-      run_at: '2026-05-11T16:22:33Z'
-      run_id: 20260511-162232
-      status: pass
+      file_size_chars: 126240
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: C3
-        regel: 512
-        type: pseudo-table
-        voorbeeld: 'Aantal PK  Bedrag der belasting in euro
+        - categorie: C3
+          regel: 512
+          type: pseudo-table
+          voorbeeld: 'Aantal PK  Bedrag der belasting in euro
 
 
-          4 en minder  51,12
+            4 en minder  51,12
 
 
-          5  63,96'
-      - categorie: B4
-        regel: 608
-        type: other
-        voorbeeld: MOTORVOERTUIGEN
-      - categorie: B4
-        regel: 684
-        type: other
-        voorbeeld: COMBINATIES (GELEDE VOERTUIGEN EN SAMENSTELLEN
-      - categorie: B2
-        regel: 3400
-        type: other
-        voorbeeld: '## TITEL VII - BELASTING OP DE WERKNEMERSPARTICIPATIE IN HET KAPITAAL
+            5  63,96'
+        - categorie: B4
+          regel: 608
+          type: other
+          voorbeeld: MOTORVOERTUIGEN
+        - categorie: B4
+          regel: 684
+          type: other
+          voorbeeld: COMBINATIES (GELEDE VOERTUIGEN EN SAMENSTELLEN
+        - categorie: B2
+          regel: 3400
+          type: other
+          voorbeeld: '## TITEL VII - BELASTING OP DE WERKNEMERSPARTICIPATIE IN HET KAPITAAL
 
-          ### VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE VOOR DE WERKNEMERS'
-      - categorie: B4
-        regel: 74
-        type: other
-        voorbeeld: TOEKOMSTIG RECHT (vanaf 01.01.2028)
-      rationale: 'Tarieftabellen zijn space-aligned plain-text pseudo-tabellen (C3)
-        door het hele bestand, o.a. de PK-schaal op r.513-547 en de euroviernet-tabellen.
-        Twee table-headers staan als plain-text all-caps labels: ''MOTORVOERTUIGEN''
-        op r.608 en r.782, ''COMBINATIES (GELEDE VOERTUIGEN EN SAMENSTELLEN'' op r.684
-        en r.868 (B4). TITEL VII is gesplitst in een ## en een ### heading (r.3400-3402:
-        ''## TITEL VII - BELASTING...'' en ''### VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE...'')
-        — B2 heading-hiërarchiefout. ''TOEKOMSTIG RECHT'' staat als plain-text label
-        (B4, r.74).'
+            ### VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE VOOR DE WERKNEMERS'
+        - categorie: B4
+          regel: 74
+          type: other
+          voorbeeld: TOEKOMSTIG RECHT (vanaf 01.01.2028)
+      rationale: 'Tarieftabellen zijn space-aligned plain-text pseudo-tabellen (C3) door het hele bestand, o.a. de PK-schaal op r.513-547 en de euroviernet-tabellen. Twee table-headers staan als plain-text all-caps labels: ''MOTORVOERTUIGEN'' op r.608 en r.782, ''COMBINATIES (GELEDE VOERTUIGEN EN SAMENSTELLEN'' op r.684 en r.868 (B4). TITEL VII is gesplitst in een ## en een ### heading (r.3400-3402: ''## TITEL VII - BELASTING...'' en ''### VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE...'') — B2 heading-hiërarchiefout. ''TOEKOMSTIG RECHT'' staat als plain-text label (B4, r.74).'
       run_at: '2026-05-11T16:30:31Z'
       status: needs-rework
-    rationale: 'Tarieftabellen zijn space-aligned plain-text pseudo-tabellen (C3)
-      door het hele bestand, o.a. de PK-schaal op r.513-547 en de euroviernet-tabellen.
-      Twee table-headers staan als plain-text all-caps labels: ''MOTORVOERTUIGEN''
-      op r.608 en r.782, ''COMBINATIES (GELEDE VOERTUIGEN EN SAMENSTELLEN'' op r.684
-      en r.868 (B4). TITEL VII is gesplitst in een ## en een ### heading (r.3400-3402:
-      ''## TITEL VII - BELASTING...'' en ''### VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE...'')
-      — B2 heading-hiërarchiefout. ''TOEKOMSTIG RECHT'' staat als plain-text label
-      (B4, r.74).'
+    rationale: 'Tarieftabellen zijn space-aligned plain-text pseudo-tabellen (C3) door het hele bestand, o.a. de PK-schaal op r.513-547 en de euroviernet-tabellen. Twee table-headers staan als plain-text all-caps labels: ''MOTORVOERTUIGEN'' op r.608 en r.782, ''COMBINATIES (GELEDE VOERTUIGEN EN SAMENSTELLEN'' op r.684 en r.868 (B4). TITEL VII is gesplitst in een ## en een ### heading (r.3400-3402: ''## TITEL VII - BELASTING...'' en ''### VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE...'') — B2 heading-hiërarchiefout. ''TOEKOMSTIG RECHT'' staat als plain-text label (B4, r.74).'
     status: needs-rework
 status: beschikbaar
 tags:
-- III
-- '2.2'
-- '2.3'
-wet: Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels
-  Hoofdstedelijk Gewest
+  - III
+  - '2.2'
+  - '2.3'
+wet: Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest

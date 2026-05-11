@@ -4,84 +4,69 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 5
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: II
 provenance:
   generated_at: '2026-05-11T16:33:56Z'
   inputs:
-  - id: resources/raw/wetteksten/KB-WIB92.pdf
-    sha256: 16156af9b49f6a5968dd3c818f3cb0ac36a1c2a60ad68fe9b273aafde371749c
-    version: 24.12.2025
+    - id: resources/raw/wetteksten/KB-WIB92.pdf
+      sha256: 16156af9b49f6a5968dd3c818f3cb0ac36a1c2a60ad68fe9b273aafde371749c
+      version: 24.12.2025
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 216919
-      flags: []
-      heading_count: 468
-      max_section_chars: 8860
-      run_at: '2026-05-11T16:22:33Z'
-      run_id: 20260511-162232
       status: pass
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:50Z'
+      heading_count: 467
+      max_section_chars: 8860
+      file_size_chars: 216865
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: B4
-        regel: 55
-        type: other
-        voorbeeld: '### Titel
+        - categorie: B4
+          regel: 55
+          type: other
+          voorbeeld: '### Titel
 
 
-          27 AUGUSTUS 1993. - KONINKLIJK BESLUIT...'
-      - categorie: B4
-        regel: 67
-        type: other
-        voorbeeld: 'Inhoudstafel
+            27 AUGUSTUS 1993. - KONINKLIJK BESLUIT...'
+        - categorie: B4
+          regel: 67
+          type: other
+          voorbeeld: 'Inhoudstafel
 
 
-          ## HOOFDSTUK I.'
-      - categorie: C3
-        regel: 1966
-        type: pseudo-table
-        voorbeeld: '----------------- ------------ --------- --------- --------- ---------
-          --------'
-      - categorie: A7
-        regel: 2004
-        type: scrambled-words
-        voorbeeld: '<KB 1996-03-06/3 4, art. 4, 0 27; Inwerkingtreding : 01-01-199
-          5>'
-      rationale: 'B4/A6: Losse ''Titel'' (regel 55) en ''Inhoudstafel'' (regel 67)
-        als plain-text regels zonder heading-prefix. Verder staan enkele artikel-koppen
-        gesplitst: de ##### heading bevat alleen het artikelnummer en de eigenlijke
-        tekst staat direct erna op de volgende regel zonder witruimte (bv. ''Art.
-        2.De''). De bijlagentabel (BIJLAGE I, regels 1966+) is als ASCII-spatie-uitlijning
-        weergegeven (C3, pseudo-tabel) in plaats van markdown pipe-syntax. Laag-1
-        pass zonder flags — qua structuur is de body grotendeels in orde.'
+            ## HOOFDSTUK I.'
+        - categorie: C3
+          regel: 1966
+          type: pseudo-table
+          voorbeeld: '----------------- ------------ --------- --------- --------- --------- --------'
+        - categorie: A7
+          regel: 2004
+          type: scrambled-words
+          voorbeeld: '<KB 1996-03-06/3 4, art. 4, 0 27; Inwerkingtreding : 01-01-199 5>'
+      rationale: 'B4/A6: Losse ''Titel'' (regel 55) en ''Inhoudstafel'' (regel 67) als plain-text regels zonder heading-prefix. Verder staan enkele artikel-koppen gesplitst: de ##### heading bevat alleen het artikelnummer en de eigenlijke tekst staat direct erna op de volgende regel zonder witruimte (bv. ''Art. 2.De''). De bijlagentabel (BIJLAGE I, regels 1966+) is als ASCII-spatie-uitlijning weergegeven (C3, pseudo-tabel) in plaats van markdown pipe-syntax. Laag-1 pass zonder flags — qua structuur is de body grotendeels in orde.'
       run_at: '2026-05-11T16:30:30Z'
       status: needs-rework
-    rationale: 'B4/A6: Losse ''Titel'' (regel 55) en ''Inhoudstafel'' (regel 67) als
-      plain-text regels zonder heading-prefix. Verder staan enkele artikel-koppen
-      gesplitst: de ##### heading bevat alleen het artikelnummer en de eigenlijke
-      tekst staat direct erna op de volgende regel zonder witruimte (bv. ''Art. 2.De'').
-      De bijlagentabel (BIJLAGE I, regels 1966+) is als ASCII-spatie-uitlijning weergegeven
-      (C3, pseudo-tabel) in plaats van markdown pipe-syntax. Laag-1 pass zonder flags
-      — qua structuur is de body grotendeels in orde.'
+    rationale: 'B4/A6: Losse ''Titel'' (regel 55) en ''Inhoudstafel'' (regel 67) als plain-text regels zonder heading-prefix. Verder staan enkele artikel-koppen gesplitst: de ##### heading bevat alleen het artikelnummer en de eigenlijke tekst staat direct erna op de volgende regel zonder witruimte (bv. ''Art. 2.De''). De bijlagentabel (BIJLAGE I, regels 1966+) is als ASCII-spatie-uitlijning weergegeven (C3, pseudo-tabel) in plaats van markdown pipe-syntax. Laag-1 pass zonder flags — qua structuur is de body grotendeels in orde.'
     status: needs-rework
 status: beschikbaar
 tags:
-- II
-- '2.2'
-- '2.3'
-wet: Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen
-  1992 (KB/WIB92)
+  - II
+  - '2.2'
+  - '2.3'
+wet: Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/WIB92)
 ---
 
 # Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/WIB92)

@@ -4,71 +4,57 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XI
 provenance:
   generated_at: '2026-05-11T16:33:51Z'
   inputs:
-  - id: resources/raw/wetteksten/BW-boek8-bewijs.pdf
-    sha256: 4c40ed0ff8dcbc8cc2a62ef7f4186d13d597dde72946cb5f09fe6c425a36cca1
-    version: 24.12.2025
+    - id: resources/raw/wetteksten/BW-boek8-bewijs.pdf
+      sha256: 4c40ed0ff8dcbc8cc2a62ef7f4186d13d597dde72946cb5f09fe6c425a36cca1
+      version: 24.12.2025
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 21059
-      flags: []
+      status: pass
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:50Z'
       heading_count: 115
       max_section_chars: 776
-      run_at: '2026-05-11T16:22:33Z'
-      run_id: 20260511-162232
-      status: pass
+      file_size_chars: 21052
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: A3
-        regel: 53
-        type: other
-        voorbeeld: '### Afdeling 8. - Wijziging van de wet van 16 maart 1803... (heading
-          zonder content, doc herstart op r.103)'
-      - categorie: B3
-        regel: 101
-        type: other
-        voorbeeld: Tekst (lege placeholder als enige body voor Hoofdstuk 6 Art. 75)
-      - categorie: B5
-        regel: 349
-        type: other
-        voorbeeld: '### Afdeling 17. - Wijziging van de wet van 4 april 2014 betreffende
-          de verzekeringen (gevolgd door Art. 56, niet Art. 55)'
-      rationale: 'A3/B3: het document opent met Afdelingen 8–18 (regels 53–93) als
-        lege heading-skeletons (enkel artikelnummer, geen tekst), gevolgd door ''Tekst''
-        placeholder op regel 101, waarna de eigenlijke inhoud herstart vanaf Art.
-        1 op regel 103 — identiek probleem als BW-boek5: out-of-order PDF-extractie.
-        B5: Afdeling 17 op regel 89 duidt op Art. 55, maar de art.-nummering in het
-        bijbehorende blok (regels 349–411) bevat Art. 56–72 — de artikelindeling klopt
-        niet met de sectietitels, wat op extractiefout wijst.'
+        - categorie: A3
+          regel: 53
+          type: other
+          voorbeeld: '### Afdeling 8. - Wijziging van de wet van 16 maart 1803... (heading zonder content, doc herstart op r.103)'
+        - categorie: B3
+          regel: 101
+          type: other
+          voorbeeld: Tekst (lege placeholder als enige body voor Hoofdstuk 6 Art. 75)
+        - categorie: B5
+          regel: 349
+          type: other
+          voorbeeld: '### Afdeling 17. - Wijziging van de wet van 4 april 2014 betreffende de verzekeringen (gevolgd door Art. 56, niet Art. 55)'
+      rationale: 'A3/B3: het document opent met Afdelingen 8–18 (regels 53–93) als lege heading-skeletons (enkel artikelnummer, geen tekst), gevolgd door ''Tekst'' placeholder op regel 101, waarna de eigenlijke inhoud herstart vanaf Art. 1 op regel 103 — identiek probleem als BW-boek5: out-of-order PDF-extractie. B5: Afdeling 17 op regel 89 duidt op Art. 55, maar de art.-nummering in het bijbehorende blok (regels 349–411) bevat Art. 56–72 — de artikelindeling klopt niet met de sectietitels, wat op extractiefout wijst.'
       run_at: '2026-05-11T16:30:30Z'
       status: needs-rework
-    rationale: 'A3/B3: het document opent met Afdelingen 8–18 (regels 53–93) als lege
-      heading-skeletons (enkel artikelnummer, geen tekst), gevolgd door ''Tekst''
-      placeholder op regel 101, waarna de eigenlijke inhoud herstart vanaf Art. 1
-      op regel 103 — identiek probleem als BW-boek5: out-of-order PDF-extractie. B5:
-      Afdeling 17 op regel 89 duidt op Art. 55, maar de art.-nummering in het bijbehorende
-      blok (regels 349–411) bevat Art. 56–72 — de artikelindeling klopt niet met de
-      sectietitels, wat op extractiefout wijst.'
+    rationale: 'A3/B3: het document opent met Afdelingen 8–18 (regels 53–93) als lege heading-skeletons (enkel artikelnummer, geen tekst), gevolgd door ''Tekst'' placeholder op regel 101, waarna de eigenlijke inhoud herstart vanaf Art. 1 op regel 103 — identiek probleem als BW-boek5: out-of-order PDF-extractie. B5: Afdeling 17 op regel 89 duidt op Art. 55, maar de art.-nummering in het bijbehorende blok (regels 349–411) bevat Art. 56–72 — de artikelindeling klopt niet met de sectietitels, wat op extractiefout wijst.'
     status: needs-rework
 status: beschikbaar
 tags:
-- XI
-- '3.1'
+  - XI
+  - '3.1'
 wet: Burgerlijk Wetboek — Boek 8 — Bewijs
 ---
 

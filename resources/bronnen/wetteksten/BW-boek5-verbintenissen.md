@@ -4,70 +4,57 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XI
 provenance:
   generated_at: '2026-05-11T16:33:51Z'
   inputs:
-  - id: resources/raw/wetteksten/BW-boek5-verbintenissen.pdf
-    sha256: e2c7abdb1eb57605aad65d318bd39b5332ec67f7c3349b5e57e4c75f11e0cc14
-    version: 24.12.2025
+    - id: resources/raw/wetteksten/BW-boek5-verbintenissen.pdf
+      sha256: e2c7abdb1eb57605aad65d318bd39b5332ec67f7c3349b5e57e4c75f11e0cc14
+      version: 24.12.2025
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 18082
-      flags: []
+      status: pass
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:50Z'
       heading_count: 105
       max_section_chars: 929
-      run_at: '2026-05-11T16:22:33Z'
-      run_id: 20260511-162232
-      status: pass
+      file_size_chars: 18075
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: A3
-        regel: 53
-        type: other
-        voorbeeld: '### Afdeling XXIII. - Wijziging van de wet van 23 november 2017...
-          (headings zonder content, gevolgd door ''Tekst'' op r.79)'
-      - categorie: B3
-        regel: 79
-        type: other
-        voorbeeld: Tekst (lege placeholder als enige body-inhoud voor Hoofdstuk 6
-          Art. 65)
-      - categorie: B5
-        regel: 199
-        type: other
-        voorbeeld: '#### Art. 4. (stray artikel-heading midden in Afdeling V - Wijziging
-          Burgerlijk Wetboek)'
-      rationale: 'A3/B3: het document opent met Afdeling XXIII t/m Hoofdstuk 6 (regels
-        53–79) met enkel lege heading-skeletons en ''Tekst'' als plaatshouder, waarna
-        het document herstart vanaf Hoofdstuk 1 op regel 81 — dit is een klassieke
-        out-of-order PDF-extractie waarbij de slothoofstukken als schijnbaar eerste
-        blok verschijnen. B5: Art. 29 (regel 197) introduceert een stray ''#### Art.
-        4.'' op regel 199 midden in Afdeling V, wat wijst op een fout in de artikel-extractie.'
+        - categorie: A3
+          regel: 53
+          type: other
+          voorbeeld: '### Afdeling XXIII. - Wijziging van de wet van 23 november 2017... (headings zonder content, gevolgd door ''Tekst'' op r.79)'
+        - categorie: B3
+          regel: 79
+          type: other
+          voorbeeld: Tekst (lege placeholder als enige body-inhoud voor Hoofdstuk 6 Art. 65)
+        - categorie: B5
+          regel: 199
+          type: other
+          voorbeeld: '#### Art. 4. (stray artikel-heading midden in Afdeling V - Wijziging Burgerlijk Wetboek)'
+      rationale: 'A3/B3: het document opent met Afdeling XXIII t/m Hoofdstuk 6 (regels 53–79) met enkel lege heading-skeletons en ''Tekst'' als plaatshouder, waarna het document herstart vanaf Hoofdstuk 1 op regel 81 — dit is een klassieke out-of-order PDF-extractie waarbij de slothoofstukken als schijnbaar eerste blok verschijnen. B5: Art. 29 (regel 197) introduceert een stray ''#### Art. 4.'' op regel 199 midden in Afdeling V, wat wijst op een fout in de artikel-extractie.'
       run_at: '2026-05-11T16:30:30Z'
       status: needs-rework
-    rationale: 'A3/B3: het document opent met Afdeling XXIII t/m Hoofdstuk 6 (regels
-      53–79) met enkel lege heading-skeletons en ''Tekst'' als plaatshouder, waarna
-      het document herstart vanaf Hoofdstuk 1 op regel 81 — dit is een klassieke out-of-order
-      PDF-extractie waarbij de slothoofstukken als schijnbaar eerste blok verschijnen.
-      B5: Art. 29 (regel 197) introduceert een stray ''#### Art. 4.'' op regel 199
-      midden in Afdeling V, wat wijst op een fout in de artikel-extractie.'
+    rationale: 'A3/B3: het document opent met Afdeling XXIII t/m Hoofdstuk 6 (regels 53–79) met enkel lege heading-skeletons en ''Tekst'' als plaatshouder, waarna het document herstart vanaf Hoofdstuk 1 op regel 81 — dit is een klassieke out-of-order PDF-extractie waarbij de slothoofstukken als schijnbaar eerste blok verschijnen. B5: Art. 29 (regel 197) introduceert een stray ''#### Art. 4.'' op regel 199 midden in Afdeling V, wat wijst op een fout in de artikel-extractie.'
     status: needs-rework
 status: beschikbaar
 tags:
-- XI
-- '3.1'
+  - XI
+  - '3.1'
 wet: Burgerlijk Wetboek — Boek 5 — Verbintenissen
 ---
 

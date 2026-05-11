@@ -4,79 +4,66 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 5
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XIX
 provenance:
   generated_at: '2026-05-11T16:33:47Z'
   inputs:
-  - id: resources/raw/wetteksten/AVG-wet-2018.pdf
-    sha256: b845775a288ffc1c3b655a0d47ec7130f559ed3c776e544ce095bc303b880e2e
-    version: 30.07.2018
+    - id: resources/raw/wetteksten/AVG-wet-2018.pdf
+      sha256: b845775a288ffc1c3b655a0d47ec7130f559ed3c776e544ce095bc303b880e2e
+      version: 30.07.2018
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 303436
-      flags: []
+      status: pass
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:50Z'
       heading_count: 541
       max_section_chars: 8309
-      run_at: '2026-05-11T16:22:32Z'
-      run_id: 20260511-162232
-      status: pass
+      file_size_chars: 303436
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: B4
-        regel: 53
-        type: other
-        voorbeeld: Titel
-      - categorie: G1
-        regel: 57
-        type: other
-        voorbeeld: (Art.254)   (Art.255)    (Art.256)      (Art.257)     (Art.258)   (Art.259)   (Art.260
-      - categorie: B4
-        regel: 108
-        type: other
-        voorbeeld: ONDERTITEL 1. - De bescherming van natuurlijke personen met betrekking
-          tot de verwerking...
-      - categorie: B4
-        regel: 368
-        type: other
-        voorbeeld: Tekst
-      - categorie: B4
-        regel: 370
-        type: other
-        voorbeeld: VOORAFGAANDE TITEL. - Inleidende bepalingen
-      rationale: 'B4: 12 ONDERTITEL-labels en 1 VOORAFGAANDE TITEL staan als plain
-        text in plaats van als heading-prefix (regels 108, 160, 164, 216, 268, 304,
-        370 e.a.). Laag-1 pass maar dit is een structurele ETL-bug. Daarnaast staan
-        ''Titel'' (regel 53) en ''Tekst'' (regel 368) als losse plain-text artefactregels,
-        en bevat regel 57 een Fisconet-modificatietabel-rij ''(Art.254) (Art.255)...''
-        die niet thuishoort in de body. Artikelinhoud is voor het overige correct
-        en compleet.'
+        - categorie: B4
+          regel: 53
+          type: other
+          voorbeeld: Titel
+        - categorie: G1
+          regel: 57
+          type: other
+          voorbeeld: (Art.254)   (Art.255)    (Art.256)      (Art.257)     (Art.258)   (Art.259)   (Art.260
+        - categorie: B4
+          regel: 108
+          type: other
+          voorbeeld: ONDERTITEL 1. - De bescherming van natuurlijke personen met betrekking tot de verwerking...
+        - categorie: B4
+          regel: 368
+          type: other
+          voorbeeld: Tekst
+        - categorie: B4
+          regel: 370
+          type: other
+          voorbeeld: VOORAFGAANDE TITEL. - Inleidende bepalingen
+      rationale: 'B4: 12 ONDERTITEL-labels en 1 VOORAFGAANDE TITEL staan als plain text in plaats van als heading-prefix (regels 108, 160, 164, 216, 268, 304, 370 e.a.). Laag-1 pass maar dit is een structurele ETL-bug. Daarnaast staan ''Titel'' (regel 53) en ''Tekst'' (regel 368) als losse plain-text artefactregels, en bevat regel 57 een Fisconet-modificatietabel-rij ''(Art.254) (Art.255)...'' die niet thuishoort in de body. Artikelinhoud is voor het overige correct en compleet.'
       run_at: '2026-05-11T16:30:30Z'
       status: needs-rework
-    rationale: 'B4: 12 ONDERTITEL-labels en 1 VOORAFGAANDE TITEL staan als plain text
-      in plaats van als heading-prefix (regels 108, 160, 164, 216, 268, 304, 370 e.a.).
-      Laag-1 pass maar dit is een structurele ETL-bug. Daarnaast staan ''Titel'' (regel
-      53) en ''Tekst'' (regel 368) als losse plain-text artefactregels, en bevat regel
-      57 een Fisconet-modificatietabel-rij ''(Art.254) (Art.255)...'' die niet thuishoort
-      in de body. Artikelinhoud is voor het overige correct en compleet.'
+    rationale: 'B4: 12 ONDERTITEL-labels en 1 VOORAFGAANDE TITEL staan als plain text in plaats van als heading-prefix (regels 108, 160, 164, 216, 268, 304, 370 e.a.). Laag-1 pass maar dit is een structurele ETL-bug. Daarnaast staan ''Titel'' (regel 53) en ''Tekst'' (regel 368) als losse plain-text artefactregels, en bevat regel 57 een Fisconet-modificatietabel-rij ''(Art.254) (Art.255)...'' die niet thuishoort in de body. Artikelinhoud is voor het overige correct en compleet.'
     status: needs-rework
 status: beschikbaar
 tags:
-- XIX
-- '4.0'
-wet: Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking
-  tot de verwerking van persoonsgegevens
+  - XIX
+  - '4.0'
+wet: Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens
 ---
 
 # Belgische AVG-uitvoeringswet 2018

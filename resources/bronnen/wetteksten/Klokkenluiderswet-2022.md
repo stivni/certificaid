@@ -4,76 +4,64 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XVIII
 provenance:
   generated_at: '2026-05-11T16:33:56Z'
   inputs:
-  - id: resources/raw/wetteksten/Klokkenluiderswet-2022.pdf
-    sha256: 3f4524a25ebeef490594c319c94b024d047f7c57da3166f5dc9c2bf8434debda
-    version: 28.11.2022
+    - id: resources/raw/wetteksten/Klokkenluiderswet-2022.pdf
+      sha256: 3f4524a25ebeef490594c319c94b024d047f7c57da3166f5dc9c2bf8434debda
+      version: 28.11.2022
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 91101
-      flags: []
+      status: pass
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:51Z'
       heading_count: 157
       max_section_chars: 7003
-      run_at: '2026-05-11T16:22:33Z'
-      run_id: 20260511-162232
-      status: pass
+      file_size_chars: 91101
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: B4
-        regel: 52
-        type: other
-        voorbeeld: 'Titel
+        - categorie: B4
+          regel: 52
+          type: other
+          voorbeeld: 'Titel
 
 
-          28 NOVEMBER 2022. - Wet betreffende de bescherming van melders...'
-      - categorie: B4
-        regel: 174
-        type: other
-        voorbeeld: 'Tekst
+            28 NOVEMBER 2022. - Wet betreffende de bescherming van melders...'
+        - categorie: B4
+          regel: 174
+          type: other
+          voorbeeld: 'Tekst
 
 
-          ## HOOFDSTUK 1. - Doel, toepassingsgebied en definities'
-      - categorie: B1
-        regel: 58
-        type: other
-        voorbeeld: '#### Art. 1  (heading zonder titeltekst in TOC-blok)'
-      rationale: 'B4: Losse ''Titel'' (regel 52) en ''Tekst'' (regel 174) als plain-text
-        regels zonder heading-prefix. Structuurpatroon is typisch voor deze ETL-batch:
-        TOC-blok bovenaan gevolgd door een losse ''Tekst''-marker en dan de eigenlijke
-        artikelen. Verder begint de TOC op regel 58 met ''#### Art. 1'' zonder een
-        leesbare sectionstitel — dit zijn kale articelnummer-headings (B1). De inhoud
-        zelf is volledig en structureel correct. Laag-1 pass.'
+            ## HOOFDSTUK 1. - Doel, toepassingsgebied en definities'
+        - categorie: B1
+          regel: 58
+          type: other
+          voorbeeld: '#### Art. 1  (heading zonder titeltekst in TOC-blok)'
+      rationale: 'B4: Losse ''Titel'' (regel 52) en ''Tekst'' (regel 174) als plain-text regels zonder heading-prefix. Structuurpatroon is typisch voor deze ETL-batch: TOC-blok bovenaan gevolgd door een losse ''Tekst''-marker en dan de eigenlijke artikelen. Verder begint de TOC op regel 58 met ''#### Art. 1'' zonder een leesbare sectionstitel — dit zijn kale articelnummer-headings (B1). De inhoud zelf is volledig en structureel correct. Laag-1 pass.'
       run_at: '2026-05-11T16:30:30Z'
       status: needs-rework
-    rationale: 'B4: Losse ''Titel'' (regel 52) en ''Tekst'' (regel 174) als plain-text
-      regels zonder heading-prefix. Structuurpatroon is typisch voor deze ETL-batch:
-      TOC-blok bovenaan gevolgd door een losse ''Tekst''-marker en dan de eigenlijke
-      artikelen. Verder begint de TOC op regel 58 met ''#### Art. 1'' zonder een leesbare
-      sectionstitel — dit zijn kale articelnummer-headings (B1). De inhoud zelf is
-      volledig en structureel correct. Laag-1 pass.'
+    rationale: 'B4: Losse ''Titel'' (regel 52) en ''Tekst'' (regel 174) als plain-text regels zonder heading-prefix. Structuurpatroon is typisch voor deze ETL-batch: TOC-blok bovenaan gevolgd door een losse ''Tekst''-marker en dan de eigenlijke artikelen. Verder begint de TOC op regel 58 met ''#### Art. 1'' zonder een leesbare sectionstitel — dit zijn kale articelnummer-headings (B1). De inhoud zelf is volledig en structureel correct. Laag-1 pass.'
     status: needs-rework
 status: beschikbaar
 tags:
-- XVIII
-- '4.0'
-wet: Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op
-  het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private
-  sector
+  - XVIII
+  - '4.0'
+wet: Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector
 ---
 
 # Klokkenluiderswet 2022

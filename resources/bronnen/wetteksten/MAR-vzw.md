@@ -26,8 +26,8 @@ provenance:
     rationale: "PDF-kolom-extractie is volledig mislukt: rekeningnummers (3-4 cijferig) staan als losse regels gevolgd door de rekeningnaam op de volgende regel door het hele document (A7). Paginanummer-resten staan als body-regels (A1: '1 | Minimum Algemeen Rekeningstelsel...' op minstens 12 plaatsen). Klasse-secties (1. t/m 7.) zijn plain-text alinea's zonder heading-prefix (B4). Afgekapte rekeningcodes zoals '164-16x' (C3 pseudo-tabel artefact)."
     layer1:
       status: pass
-      run_id: 20260511-162232
-      run_at: '2026-05-11T16:22:33Z'
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:51Z'
       heading_count: 0
       max_section_chars: 19323
       file_size_chars: 19323

@@ -8,10 +8,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 129 | 25 | 22 | 80 | 1 | 1 |
+| Wetteksten | 129 | 18 | 31 | 78 | 1 | 1 |
 | Normen | 19 | 8 | — | 9 | 2 | — |
 | Adviezen | 436 | 258 | — | 177 | 1 | — |
-| **Totaal** | **584** | 291 | 22 | 266 | 4 | 1 |
+| **Totaal** | **584** | 284 | 31 | 264 | 4 | 1 |
 
 ## Wetteksten (129)
 
@@ -22,7 +22,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `AVG-wet-2018.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot… |
 | `belastinggids-aclvb-2025.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Belastinggids 2025 — ACLVB |
 | `Brusselse-Codex-Fiscale-Procedure.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure |
-| `BTW-richtlijn-2006-112.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belast… |
 | `BW-boek1-algemene-bepalingen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 1 — Algemene bepalingen |
 | `BW-boek2-relatievermogensrecht.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht |
 | `BW-boek3-goederen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 3 — Goederen |
@@ -43,7 +42,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `Registratierechten-Brussel.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk Gewest |
 | `Registratierechten-federaal.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal |
 | `Registratierechten-Waals.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest |
-| `Richtlijn-2013-34-EU.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende… |
 | `Strafwetboek2024-boek2.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2 |
 | `Successierechten-Brussel.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Successierechten — Brussels Hoofdstedelijk Gewest |
 | `Successierechten-Waals.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Successierechten — Waals Gewest |
@@ -98,7 +96,16 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-MB28okt2009-model-berichten-93ter.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen al… |
 | `WBTW-MB29apr2024-certificatie-kassasysteem.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certifica… |
 | `X-oeso-model-verdrag.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | OECD Model Tax Convention on Income and on Capital (as it read on 21 November 2017) |
-| `BTW-uitvoeringsverordening-282-2011.md` | ◻️ unreviewed | warn | not_run | — | Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoerin… |
+| `BTW-dertiende-richtlijn-1986.md` | ◻️ unreviewed | pass | not_run | — | Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de G… |
+| `BTW-richtlijn-2006-112.md` | ◻️ unreviewed | warn | not_run | — | Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belast… |
+| `BTW-teruggaaf-richtlijn-2008-9.md` | ◻️ unreviewed | pass | not_run | — | Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Ri… |
+| `BTW-uitvoeringsverordening-282-2011.md` | ◻️ unreviewed | pass | not_run | — | Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoerin… |
+| `EU-IFRS-verordening-1606-2002.md` | ◻️ unreviewed | pass | not_run | — | Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 b… |
+| `EU-Richtlijn-fusie-2009-133.md` | ◻️ unreviewed | pass | not_run | — | Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke… |
+| `EU-Richtlijn-interest-royalties-2003-49.md` | ◻️ unreviewed | pass | not_run | — | Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke bel… |
+| `EU-Richtlijn-moeder-dochter-2011-96.md` | ◻️ unreviewed | pass | not_run | — | Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke… |
+| `EU-Richtlijn-witwassen-2018-1673.md` | ◻️ unreviewed | pass | not_run | — | Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inza… |
+| `Richtlijn-2013-34-EU.md` | ◻️ unreviewed | warn | not_run | — | Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende… |
 | `Strafwetboek2024-boek1.md` | ◻️ unreviewed | pass | not_run | — | Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1 |
 | `WBTW-KB1-voldoening.md` | ◻️ unreviewed | pass | not_run | — | K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de … |
 | `WBTW-KB19-kleine-ondernemingen.md` | ◻️ unreviewed | pass | not_run | — | K.B. nr. 19, 15 december 2024, met betrekking tot de vrijstellingsregeling van belastin… |
@@ -123,14 +130,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `Oud-BW.md` | ❓ unknown | — | — | — | Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019) |
 | `aangifte-PB-2025-bezoldigingen.md` | ✅ trusted | fail | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-bezoldigingen |
 | `aangifte-PB-2025-stopzetting.md` | ✅ trusted | fail | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-stopzetting |
-| `BTW-dertiende-richtlijn-1986.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de G… |
-| `BTW-teruggaaf-richtlijn-2008-9.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Ri… |
 | `EU-AVG-Verordening-2016-679.md` | ✅ trusted | warn | trusted | subagent-sonnet-4-6 | Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betre… |
-| `EU-IFRS-verordening-1606-2002.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 b… |
-| `EU-Richtlijn-fusie-2009-133.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke… |
-| `EU-Richtlijn-interest-royalties-2003-49.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke bel… |
-| `EU-Richtlijn-moeder-dochter-2011-96.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke… |
-| `EU-Richtlijn-witwassen-2018-1673.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inza… |
 | `KB-1998-plichtenleer.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer… |
 | `KB-voorafgaande-beslissingen-art22-2003.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 decem… |
 | `Strafwetboek-1867.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Strafwetboek 8 juni 1867 (Oud Strafwetboek) |

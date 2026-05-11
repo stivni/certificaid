@@ -10,62 +10,52 @@ itaa-lex-sectie: XVII
 provenance:
   generated_at: '2026-05-11T16:33:47Z'
   inputs:
-  - id: resources/raw/wetteksten/Antiwitwaswet-2017.pdf
-    sha256: 24e4cb84451345095e884a21da95b774053f428172076efae4444cefa7d8baa6
-    version: 24.12.2025
+    - id: resources/raw/wetteksten/Antiwitwaswet-2017.pdf
+      sha256: 24e4cb84451345095e884a21da95b774053f428172076efae4444cefa7d8baa6
+      version: 24.12.2025
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 242711
-      flags:
-      - detail: 'langste sectie op ######-niveau: 27233 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
+      status: warn
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:50Z'
       heading_count: 288
       max_section_chars: 27233
-      run_at: '2026-05-11T16:22:32Z'
-      run_id: 20260511-162232
-      status: warn
+      file_size_chars: 242682
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 27233 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: B4
-        regel: 121
-        type: other
-        voorbeeld: BIJLAGEN.
-      - categorie: B4
-        regel: 125
-        type: other
-        voorbeeld: Tekst
-      rationale: 'B4: ''BIJLAGEN.'' (regel 121) staat als plain text zonder heading-prefix.
-        Verder staan ''Tekst'' (regel 125) als losse artefactregel. Laag-1 geeft max_section_size
-        warn (27233 chars) voor de langste sectie; dit is een chunker-issue, geen
-        ETL-bug. Inhoud is volledig (BOEK I–VI aanwezig, 288 headings). De twee plain-text
-        artefacten zijn minimaal maar voldoende voor needs-rework.'
+        - categorie: B4
+          regel: 121
+          type: other
+          voorbeeld: BIJLAGEN.
+        - categorie: B4
+          regel: 125
+          type: other
+          voorbeeld: Tekst
+      rationale: 'B4: ''BIJLAGEN.'' (regel 121) staat als plain text zonder heading-prefix. Verder staan ''Tekst'' (regel 125) als losse artefactregel. Laag-1 geeft max_section_size warn (27233 chars) voor de langste sectie; dit is een chunker-issue, geen ETL-bug. Inhoud is volledig (BOEK I–VI aanwezig, 288 headings). De twee plain-text artefacten zijn minimaal maar voldoende voor needs-rework.'
       run_at: '2026-05-11T16:30:30Z'
       status: needs-rework
-    rationale: 'B4: ''BIJLAGEN.'' (regel 121) staat als plain text zonder heading-prefix.
-      Verder staan ''Tekst'' (regel 125) als losse artefactregel. Laag-1 geeft max_section_size
-      warn (27233 chars) voor de langste sectie; dit is een chunker-issue, geen ETL-bug.
-      Inhoud is volledig (BOEK I–VI aanwezig, 288 headings). De twee plain-text artefacten
-      zijn minimaal maar voldoende voor needs-rework.'
+    rationale: 'B4: ''BIJLAGEN.'' (regel 121) staat als plain text zonder heading-prefix. Verder staan ''Tekst'' (regel 125) als losse artefactregel. Laag-1 geeft max_section_size warn (27233 chars) voor de langste sectie; dit is een chunker-issue, geen ETL-bug. Inhoud is volledig (BOEK I–VI aanwezig, 288 headings). De twee plain-text artefacten zijn minimaal maar voldoende voor needs-rework.'
     status: needs-rework
 status: beschikbaar
 tags:
-- XVII
-- '4.0'
-wet: Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering
-  van terrorisme
+  - XVII
+  - '4.0'
+wet: Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme
 ---
 
 # Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme

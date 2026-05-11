@@ -4,73 +4,62 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 5
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XI
 provenance:
   generated_at: '2026-05-11T16:33:51Z'
   inputs:
-  - id: resources/raw/wetteksten/BW-boek4-nalatenschappen.pdf
-    sha256: 43d46aa5ee3df05c14a99033ec6ee9d3c17d45f4ca559fcb41e2ffc9216550e1
-    version: 24.12.2025
+    - id: resources/raw/wetteksten/BW-boek4-nalatenschappen.pdf
+      sha256: 43d46aa5ee3df05c14a99033ec6ee9d3c17d45f4ca559fcb41e2ffc9216550e1
+      version: 24.12.2025
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 167954
-      flags: []
+      status: pass
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:50Z'
       heading_count: 268
       max_section_chars: 3258
-      run_at: '2026-05-11T16:22:33Z'
-      run_id: 20260511-162232
-      status: pass
+      file_size_chars: 167954
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: B4
-        regel: 57
-        type: other
-        voorbeeld: Ondertitel 2. Hoedanigheden vereist om te erven
-      - categorie: B4
-        regel: 81
-        type: other
-        voorbeeld: Ondertitel 4. Wettelijke erfopvolging
-      - categorie: B4
-        regel: 277
-        type: other
-        voorbeeld: Ondertitel 7. Omzetting van het vruchtgebruik van de langstlevende
-          echtgenoot
-      - categorie: B1
-        regel: 982
-        type: other
-        voorbeeld: '##### Art. 4. 242. Principieel verbod van erfovereenkomst'
-      rationale: 'B4: ''Ondertitel X.'' labels (o.a. regels 57, 67, 81, 171, 181,
-        277, 291, 447, 477, 516, 554, 566, 610, 656, 726, 782, 902, 928, 942, 960,
-        978) staan als plain-tekst-regels zonder #-prefix, terwijl ze structuurniveaus
-        zijn die als headings hadden moeten worden opgemaakt. B1: ''Art. 4. 242.''
-        op regel 982 heeft een spatie midden in het artikelnummer (ETL-artefact, geen
-        source-fout gezien het consistent doorloopt).'
+        - categorie: B4
+          regel: 57
+          type: other
+          voorbeeld: Ondertitel 2. Hoedanigheden vereist om te erven
+        - categorie: B4
+          regel: 81
+          type: other
+          voorbeeld: Ondertitel 4. Wettelijke erfopvolging
+        - categorie: B4
+          regel: 277
+          type: other
+          voorbeeld: Ondertitel 7. Omzetting van het vruchtgebruik van de langstlevende echtgenoot
+        - categorie: B1
+          regel: 982
+          type: other
+          voorbeeld: '##### Art. 4. 242. Principieel verbod van erfovereenkomst'
+      rationale: 'B4: ''Ondertitel X.'' labels (o.a. regels 57, 67, 81, 171, 181, 277, 291, 447, 477, 516, 554, 566, 610, 656, 726, 782, 902, 928, 942, 960, 978) staan als plain-tekst-regels zonder #-prefix, terwijl ze structuurniveaus zijn die als headings hadden moeten worden opgemaakt. B1: ''Art. 4. 242.'' op regel 982 heeft een spatie midden in het artikelnummer (ETL-artefact, geen source-fout gezien het consistent doorloopt).'
       run_at: '2026-05-11T16:30:30Z'
       status: needs-rework
-    rationale: 'B4: ''Ondertitel X.'' labels (o.a. regels 57, 67, 81, 171, 181, 277,
-      291, 447, 477, 516, 554, 566, 610, 656, 726, 782, 902, 928, 942, 960, 978) staan
-      als plain-tekst-regels zonder #-prefix, terwijl ze structuurniveaus zijn die
-      als headings hadden moeten worden opgemaakt. B1: ''Art. 4. 242.'' op regel 982
-      heeft een spatie midden in het artikelnummer (ETL-artefact, geen source-fout
-      gezien het consistent doorloopt).'
+    rationale: 'B4: ''Ondertitel X.'' labels (o.a. regels 57, 67, 81, 171, 181, 277, 291, 447, 477, 516, 554, 566, 610, 656, 726, 782, 902, 928, 942, 960, 978) staan als plain-tekst-regels zonder #-prefix, terwijl ze structuurniveaus zijn die als headings hadden moeten worden opgemaakt. B1: ''Art. 4. 242.'' op regel 982 heeft een spatie midden in het artikelnummer (ETL-artefact, geen source-fout gezien het consistent doorloopt).'
     status: needs-rework
 status: beschikbaar
 tags:
-- XI
-- '3.1'
-- '2.6'
+  - XI
+  - '3.1'
+  - '2.6'
 wet: Burgerlijk Wetboek — Boek 4 — Nalatenschappen, schenkingen en testamenten
 ---
 

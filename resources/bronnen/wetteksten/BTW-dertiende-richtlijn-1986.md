@@ -4,193 +4,174 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.A
 provenance:
-  generated_at: '2026-05-11T16:33:47Z'
+  generated_at: '2026-05-11T16:52:30Z'
   inputs:
-  - id: resources/raw/wetteksten/BTW-dertiende-richtlijn-1986.pdf
-    sha256: 500090ffe975351fb9d05ba7d8c2671af0719a04c83068be54c467d33f45b96a
-    version: 21.11.1986
+    - id: resources/raw/wetteksten/BTW-dertiende-richtlijn-1986.pdf
+      sha256: 500090ffe975351fb9d05ba7d8c2671af0719a04c83068be54c467d33f45b96a
+      version: 21.11.1986
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
+    confirmed_at:
+    confirmed_by:
     layer1:
-      file_size_chars: 7775
-      flags: []
-      heading_count: 8
-      max_section_chars: 2527
-      run_at: '2026-05-11T16:22:32Z'
-      run_id: 20260511-162232
       status: pass
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:50Z'
+      heading_count: 11
+      max_section_chars: 2439
+      file_size_chars: 8031
+      flags: []
     layer2:
-      agent: null
-      concrete_problemen:
-      - regel: 88
-        type: other
-        voorbeeld: H PB nr. L 331 van 27. 12. 1979, blz. 11 — voetnootnummer als 'H'
-          i.p.v. cijfer (cosmetisch)
-      rationale: Compacte richtlijn (8.6KB), alle 8 artikelen aanwezig op H2 (zoals
-        chunk.level=2). Soft hyphens uit PDF-extractie (bv. 'belasting­ plichtigen')
-        maar woordbreaks zijn intact en leesbaar. Footnote-nummers verspreid over
-        body maar niet hinderlijk.
-      run_at: null
-      status: trusted
-    rationale: L1=pass
-    status: trusted
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
 status: beschikbaar
 tags:
-- VI.A
-- '2.4'
-wet: Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet
-  in de Gemeenschap gevestigde belastingplichtigen
+  - VI.A
+  - '2.4'
+wet: Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen
 ---
 
 # Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen
 
 *Bijgewerkt tot en met 21.11.1986 — gecoördineerde versie.*
 
-Nr. L 326/40
+Nr . L 326 / 40 Publikatieblad van de Europese Gemeenschappen 21 . 11 . 86
 
-Publikatieblad van de Europese Gemeenschappen
+## ( Besluiten waarvan de publikatie niet voorwaarde is voor de toepassing )
 
-21 . 11 . 86
+betreffende de harmonisatie van de wetgevingen der Lid-Staten inzake omzet  belasting — Regeling voor de teruggaaf van de belasting over de toegevoegde waarde aan niet op het grondgebied van de Gemeenschap gevestigde belasting
+
+DE RAAD VAN DE EUROPESE GEMEENSCHAPPEN ,
+
+Gelet op het Verdrag tot oprichting van de Europese Economische Gemeenschap , inzonderheid op de artikelen 99 en 100 ,
+
+Gelet op de Zesde Richtlijn 77 / 388 / EEG van de Raad van
+
+17 mei 1977 betreffende de harmonisatie van de wetge  vingen der Lid-Staten inzake omzetbelasting — Gemeen  schappelijk stelsel van belasting over de toegevoegde waarde : uniforme grondslag ('), inzonderheid op artikel
+
+17 , lid 4 ,
+
+Gezien het voorstel van de Commissie ( 2 ),
+
+Gezien het advies van het Europese Parlement ( 3 ),
+
+Gezien het advies van het Economisch en Sociaal Comi  té ( 4 ),
+
+Overwegende dat in artikel 8 van Richtlijn 79 / 1072 / EEG (*) betreffende de regeling voor de teruggaaf van de belasting over de toegevoegde waarde aan niet in het binnenland gevestigde belastingplichtigen , wordt bepaald dat ten aanzien van niet op het grondgebied van de Gemeenschap gevestigde belastingplichtigen elke Lid  Staat de teruggaaf kan weigeren of hiervoor bijzondere voorwaarden kan stellen ;
+
+Overwegende dat een evenwichtige ontwikkeling van de handelsbetrekkingen van de Gemeenschap met derde landen moet worden gewaarborgd door uit te gaan van het bepaalde in Richtlijn 79 / 1072 / EEG , zonder daarbij de
+
+(') PB nr . L 145 van 13 . 6 . 1977 , blz . 1 . ( 2 ) PB nr . C 223 van 27 . 8 . 1982 , blz . 5 en
+
+PB nr . C 196 van 23 . 7 . 1983 , blz . 6 . ( 3 ) PB nr . C 161 van 20 . 6 . 1983 , blz . 111 . ( 4 ) PB nr . C 176 van 4 . 7 . 1983 , blz . 22 . H PB nr . L 331 van 27 . 12 . 1979 , blz . 11 .
 
 II
 
-(Besluiten waarvan de publikatie niet voorwaarde is voor de toepassing)
-
 RAAD
 
-DERTIENDE RICHTLIJN VAN DE RAAD van 17 november 1986
+DERTIENDE RICHTLIJN VAN DE RAAD
 
-betreffende de harmonisatie van de wetgevingen der Lid-Staten inzake omzet­ belasting — Regeling voor de teruggaaf van de belasting over de toegevoegde waarde aan niet op het grondgebied van de Gemeenschap gevestigde belasting­ plichtigen (86/560/EEG) DE RAAD VAN DE EUROPESE GEMEENSCHAPPEN,
+van 17 november 1986
 
-Gelet op het Verdrag tot oprichting van de Europese
-Economische Gemeenschap, inzonderheid op de artikelen
+## plichtigen
 
-verscheidenheid aan situaties in derde landen uit het oog te verliezen ;
+( 86 / 560 / EEG )
 
-99 en 100 ,
+verscheidenheid aan situaties in derde landen uit het oog
 
-Overwegende dat bepaalde vormen van belastingfraude of belastingontwijking dienen te worden voorkomen,
+te verliezen ;
 
-Gelet op de Zesde Richtlijn 77/388/EEG van de Raad van
-17 mei 1977 betreffende de harmonisatie van de wetge­ vingen der Lid-Staten inzake omzetbelasting — Gemeen­ schappelijk stelsel van belasting over de toegevoegde waarde : uniforme grondslag ('), inzonderheid op artikel
+Overwegende dat bepaalde vormen van belastingfraude of belastingontwijking dienen te worden voorkomen ,
 
 HEEFT DE VOLGENDE RICHTLIJN VASTGESTELD :
-## Art. 1
 
-17, lid 4,
-
-Gezien het voorstel van de Commissie (2),
-
-Gezien het advies van het Europese Parlement (3),
-Gezien het advies van het Economisch en Sociaal Comi­
-
-té (4),
-
-Overwegende dat in artikel 8 van Richtlijn 79/ 1072/
-EEG (*) betreffende de regeling voor de teruggaaf van de belasting over de toegevoegde waarde aan niet in het binnenland gevestigde belastingplichtigen, wordt bepaald dat ten aanzien van niet op het grondgebied van de Gemeenschap gevestigde belastingplichtigen elke Lid­ Staat de teruggaaf kan weigeren of hiervoor bijzondere voorwaarden kan stellen ;
-
-Overwegende dat een evenwichtige ontwikkeling van de handelsbetrekkingen van de Gemeenschap met derde landen moet worden gewaarborgd door uit te gaan van het bepaalde in Richtlijn 79/ 1072/EEG, zonder daarbij de (') PB nr. L 145 van 13. 6. 1977, blz. 1 .
-(2) PB nr. C 223 van 27. 8 . 1982, blz. 5 en
-PB nr. C 196 van 23 . 7. 1983, blz . 6.
-
-(3) PB nr. C 161 van 20 . 6. 1983, blz. 111 .
-(4) PB nr. C 176 van 4. 7. 1983, blz. 22.
-
-H PB nr. L 331 van 27. 12. 1979, blz. 11 .
+###### Artikel 1
 
 Voor de toepassing van deze richtlijn wordt beschouwd als :
 
-1 . „een niet op het grondgebied van de Gemeenschap gevestigde belastingplichtige" de belastingplichtige als bedoeld in artikel 4, lid 1 , van Richtlijn 77/388/EEG, die gedurende de periode, bedoeld in artikel 3, lid 1 , van de onderhavige richtlijn op het betrokken grond­ gebied noch de zetel van zijn bedrijfsuitoefening, noch een vaste inrichting heeft gehad van waaruit de hande­ lingen worden verricht, noch, bij gebreke van een dergelijke zetel of vaste inrichting, aldaar zijn woon­ plaats of gebruikelijke verblijfplaats heeft gehad, en die in dezelfde periode geen leveringen van goederen of diensten heeft verricht waarvan de plaats geacht wordt in de in artikel 2 bedoelde Lid-Staat te zijn gelegen, met uitzondering van :
+1 . „ een niet op het grondgebied van de Gemeenschap
 
-a) vervoerdiensten en daarmee samenhangende dien­ sten, die zijn vrijgesteld uit hoofde van artikel 14, lid 1 , onder i), artikel 15 of artikel 16, lid 1 , onder B, C en D, van Richtlijn 77/388 /EEG ;
-b) diensten in de gevallen waarin de belasting uitslui­ tend verschuldigd is door de ontvanger overeen­ komstig artikel 21 , lid 1 , onder b), van Richtlijn 77/388 / EEG ;
+gevestigde belastingplichtige " de belastingplichtige als bedoeld in artikel 4 , lid 1 , van Richtlijn 77 / 388 / EEG , die gedurende de periode , bedoeld in artikel 3 , lid 1 , van de onderhavige richtlijn op het betrokken grond  gebied noch de zetel van zijn bedrijfsuitoefening , noch een vaste inrichting heeft gehad van waaruit de hande  lingen worden verricht , noch , bij gebreke van een dergelijke zetel of vaste inrichting , aldaar zijn woon  plaats of gebruikelijke verblijfplaats heeft gehad , en die in dezelfde periode geen leveringen van goederen of diensten heeft verricht waarvan de plaats geacht wordt in de in artikel 2 bedoelde Lid-Staat te zijn gelegen , met uitzondering van :
 
-21 . 11 . 86
+a ) vervoerdiensten en daarmee samenhangende dien
 
-Publikatieblad van de Europese Gemeenschappen
+sten , die zijn vrijgesteld uit hoofde van artikel 14 , lid 1 , onder i ), artikel 15 of artikel 16 , lid 1 , onder
 
-2. „grondgebied van de Gemeenschap" de gebieden van de Lid-Staten waar Richtlijn 77/388/EEG van toepas­ sing is.
+B , C en D , van Richtlijn 77 / 388 / EEG ; b ) diensten in de gevallen waarin de belasting uitslui
 
-2.
+tend verschuldigd is door de ontvanger overeen  komstig artikel 21 , lid 1 , onder b ), van Richtlijn 77 / 388 / EEG ;
 
-Nr. L 326/41
+21 . 11 . 86 Publikatieblad van de Europese Gemeenschappen Nr . L 326 / 41
 
-De Lid-Staten kunnen evenwel bepaalde uitgaven
+2 . „ grondgebied van de Gemeenschap " de gebieden van
 
-uitsluiten of aan de teruggaaf extra voorwaarden verbin­ den .
+de Lid-Staten waar Richtlijn 77 / 388 / EEG van toepas  sing is .
 
-## Art. 2
+###### Artikel 2
 
-1 . Onverminderd de artikelen 3 en 4, geeft elke Lid­
-Staat aan iedere niet op het grondgebied van de
-Gemeenschap gevestigde belastingplichtige, onder de hierna volgende voorwaarden, de belasting over de toege­ voegde waarde terug welke is geheven ter zake van de hem door andere belastingplichtigen in het binnenland verleende diensten of geleverde roerende goederen, dan wel ter zake van de invoer van goederen in het betrokken land, een en ander voor zover deze goederen en diensten worden gebruikt voor de handelingen bedoeld in artikel 17, lid 3, onder a) en b), van Richtlijn 77/388/EEG of de diensten bedoeld in artikel 1 , punt 1 , onder b), van de
+1 . Onverminderd de artikelen 3 en 4 , geeft elke Lid  Staat aan iedere niet op het grondgebied van de Gemeenschap gevestigde belastingplichtige , onder de hierna volgende voorwaarden , de belasting over de toege  voegde waarde terug welke is geheven ter zake van de hem door andere belastingplichtigen in het binnenland verleende diensten of geleverde roerende goederen , dan wel ter zake van de invoer van goederen in het betrokken land , een en ander voor zover deze goederen en diensten worden gebruikt voor de handelingen bedoeld in artikel
 
-3.
+17 , lid 3 , onder a ) en b ), van Richtlijn 77 / 388 / EEG of de diensten bedoeld in artikel 1 , punt 1 , onder b ), van de onderhavige richtlijn .
 
-Deze richtlijn is niet van toepassing op leveringen
+2 . De Lid-Staten kunnen de in lid 1 bedoelde teruggaaf afhankelijk stellen van de toekenning door de derde Staten van vergelijkbare voordelen op het gebied van de omzetbelasting .
 
-van goederen die zijn vrijgesteld of die kunnen worden
+3 . De Lid-Staten kunnen de aanwijzing van een fiscaal vertegenwoordiger eisen .
 
-vrijgesteld krachtens artikel 15, punt 2, van Richtlijn
-77/388 / EEG .
+###### Artikel 3
 
-## Art. 5
+1 . De in artikel 2 , lid 1 , bedoelde teruggaaf wordt verleend op verzoek van de belastingplichtige . De Lid  Staten stellen de voorwaarden voor de indiening van dit verzoek vast , met inbegrip van de termijnen , de periode waarop het verzoek betrekking moet hebben , de bevoegde dienst waarbij dit moet wórden ingediend en de mini  mumbedragen waarvoor de teruggaaf kan worden gevraagd . Zij stellen eveneens de voorwaarden vast waar  onder de teruggaaf plaatsvindt , met inbegrip van de termijnen . Zij leggen de aanvrager de verplichtingen op die noodzakelijk zijn om de gegrondheid van de aanvraag te beoordelen en fraude te voorkomen , en meer in het bijzonder laten zij hem het bewijs leveren dat hij een economische activiteit verricht overeenkomstig artikel 4 , lid 1 , van Richtlijn 77 / 388 / EEG . De aanvrager moet door middel van een schriftelijke verklaring aantonen dat hij in de vastgestelde periode geen enkele handeling heeft verricht die niet voldoet aan de in artikel 1 , punt 1 , vast  gestelde voorwaarden .
 
-onderhavige richtlijn.
+2 . De teruggaaf mag niet worden verleend onder gunstiger voorwaarden dan die welke voor belastingplich  tigen uit de Gemeenschap gelden .
 
-1 . De Lid-Staten doen de nodige wettelijke en bestuursrechtelijke bepalingen in werking treden om uiterlijk op 1 januari 1988 aan deze richtlijn te voldoen .
-Deze richtlijn heeft slechts betrekking op verzoeken om teruggaaf betreffende belasting over de toegevoegde waarde op aankopen van goederen of diensten die vanaf deze datum zijn gefactureerd en op invoer die vanaf deze
+###### Artikel 4
 
-2. De Lid-Staten kunnen de in lid 1 bedoelde teruggaaf afhankelijk stellen van de toekenning door de derde Staten van vergelijkbare voordelen op het gebied van de omzetbelasting.
+1 . Voor de toepassing van deze richtlijn wordt het recht op teruggaaf vastgesteld overeenkomstig artikel 17 van Richtlijn 77 / 388 / EEG , zoals toegepast in de Lid-Staten van de teruggaaf .
 
-2. De Lid-Staten delen de Commissie alle belangrijke bepalingen van intern recht mede, die zij op het onder deze richtlijn vallende gebied vaststellen en laten haar
+2 . De Lid-Staten kunnen evenwel bepaalde uitgaven uitsluiten of aan de teruggaaf extra voorwaarden verbin  den .
 
-datum heeft plaatsgevonden .
+3 . Deze richtlijn is niet van toepassing op leveringen van goederen die zijn vrijgesteld of die kunnen worden vrijgesteld krachtens artikel 15 , punt 2 , van Richtlijn 77 / 388 / EEG .
 
-3 . De Lid-Staten kunnen de aanwijzing van een fiscaal vertegenwoordiger eisen.
-## Art. 3
+###### Artikel 5
 
-1 . De in artikel 2, lid 1 , bedoelde teruggaaf wordt verleend op verzoek van de belastingplichtige. De Lid­ Staten stellen de voorwaarden voor de indiening van dit verzoek vast, met inbegrip van de termijnen, de periode waarop het verzoek betrekking moet hebben, de bevoegde dienst waarbij dit moet wórden ingediend en de mini­ mumbedragen waarvoor de teruggaaf kan worden gevraagd. Zij stellen eveneens de voorwaarden vast waar­ onder de teruggaaf plaatsvindt, met inbegrip van de termijnen. Zij leggen de aanvrager de verplichtingen op die noodzakelijk zijn om de gegrondheid van de aanvraag te beoordelen en fraude te voorkomen, en meer in het
+1 . De Lid-Staten doen de nodige wettelijke en bestuursrechtelijke bepalingen in werking treden om uiterlijk op 1 januari 1988 aan deze richtlijn te voldoen . Deze richtlijn heeft slechts betrekking op verzoeken om teruggaaf betreffende belasting over de toegevoegde waarde op aankopen van goederen of diensten die vanaf deze datum zijn gefactureerd en op invoer die vanaf deze datum heeft plaatsgevonden .
 
-bijzonder laten zij hem het bewijs leveren dat hij een economische activiteit verricht overeenkomstig artikel 4, lid 1 , van Richtlijn 77/388/EEG. De aanvrager moet door middel van een schriftelijke verklaring aantonen dat hij in de vastgestelde periode geen enkele handeling heeft verricht die niet voldoet aan de in artikel 1 , punt 1 , vast­ gestelde voorwaarden.
-2. De teruggaaf mag niet worden verleend onder gunstiger voorwaarden dan die welke voor belastingplich­ tigen uit de Gemeenschap gelden.
+2 . De Lid-Staten delen de Commissie alle belangrijke bepalingen van intern recht mede , die zij op het onder deze richtlijn vallende gebied vaststellen en laten haar weten welk gebruik zij maken van de in artikel 2 , lid 2 , bedoelde mogelijkheid . De Commissie stelt de andere Lid-Staten van een en ander in kennis .
 
-weten welk gebruik zij maken van de in artikel 2, lid 2, bedoelde mogelijkheid. De Commissie stelt de andere Lid-Staten van een en ander in kennis .
+###### Artikel 6
 
-## Art. 6
+Binnen drie jaar te rekenen vanaf de in artikel 5 genoemde datum dient de Commissie , na raadpleging van de Lid-Staten , bij de Raad en het Europese Parlement een verslag in over de toepassing van de richtlijn , inzonder
 
-Binnen drie jaar te rekenen vanaf de in artikel 5
+heid van artikel 2 , lid 2 .
 
-genoemde datum dient de Commissie, na raadpleging van de Lid-Staten, bij de Raad en het Europese Parlement een verslag in over de toepassing van de richtlijn, inzonder­ heid van artikel 2, lid 2.
+###### Artikel 7
 
-## Art. 7
+## Art. 17. ,   lid   4 ,   laatste   z^in ,   van   Richtlijn   77 / 388 / EEG   en
 
-Artikel 17, lid 4, laatste z^in, van Richtlijn 77/388/EEG en artikel 8 van Richtlijn 79/ 1072/EEG houden op in de verschillende Lid-Staten van kracht te zijn op de datum waarop het bepaalde in deze richtlijn van toepassing wordt, en in elk geval op de in artikel 5 genoemde datum .
-## Art. 8
+artikel 8 van Richtlijn 79 / 1072 / EEG houden op in de verschillende Lid-Staten van kracht te zijn op de datum waarop het bepaalde in deze richtlijn van toepassing wordt , en in elk geval op de in artikel 5 genoemde datum .
+
+###### Artikel 8
 
 Deze richtlijn is gericht tot de Lid-Staten .
 
-Gedaan te Brussel, 17 november 1986 .
-## Art. 4
-
-1 . Voor de toepassing van deze richtlijn wordt het recht op teruggaaf vastgesteld overeenkomstig artikel 17 van Richtlijn 77/388/EEG, zoals toegepast in de Lid-Staten
+Gedaan te Brussel , 17 november 1986 .
 
 Voor de Raad
 
-van de teruggaaf.
+De Voorzitter
 
 N. LAWSON
-
-De Voorzitter

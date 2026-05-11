@@ -4,68 +4,56 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: I
 provenance:
   generated_at: '2026-05-11T16:33:56Z'
   inputs:
-  - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art26-2003.pdf
-    sha256: 9a616600e724ea5ce9a9c66bc65b9d12cad11aaa7954d1efd33376da72e659f0
-    version: 30.01.2003
+    - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art26-2003.pdf
+      sha256: 9a616600e724ea5ce9a9c66bc65b9d12cad11aaa7954d1efd33376da72e659f0
+      version: 30.01.2003
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 4257
-      flags: []
+      status: pass
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:51Z'
       heading_count: 3
       max_section_chars: 3589
-      run_at: '2026-05-11T16:22:33Z'
-      run_id: 20260511-162232
-      status: pass
+      file_size_chars: 4257
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: D2
-        regel: 57
-        type: missing-section
-        voorbeeld: akkoorden, gewijzigd bij ministerieel besluit van 4 januari 2002,
-          worden opgeheven.
-      - categorie: B4
-        regel: 51
-        type: other
-        voorbeeld: 'Titel
+        - categorie: D2
+          regel: 57
+          type: missing-section
+          voorbeeld: akkoorden, gewijzigd bij ministerieel besluit van 4 januari 2002, worden opgeheven.
+        - categorie: B4
+          regel: 51
+          type: other
+          voorbeeld: 'Titel
 
 
-          30 JANUARI 2003. - Koninklijk besluit...'
-      rationale: 'D2: Het bestand begint abrupt op regel 57 met ''akkoorden, gewijzigd
-        bij ministerieel besluit van 4 januari 2002, worden opgeheven.'' — de eerste
-        artikelen (Art. 1 t/m Art. 7) ontbreken volledig; het bestand bevat alleen
-        Art. 8, 9 en 10. Laag-1 pass met heading_count=3 wat voor een KB van Art.
-        1-10 te weinig is. Verder staat ''Titel'' als losse plain-text label zonder
-        heading-prefix (B4).'
+            30 JANUARI 2003. - Koninklijk besluit...'
+      rationale: 'D2: Het bestand begint abrupt op regel 57 met ''akkoorden, gewijzigd bij ministerieel besluit van 4 januari 2002, worden opgeheven.'' — de eerste artikelen (Art. 1 t/m Art. 7) ontbreken volledig; het bestand bevat alleen Art. 8, 9 en 10. Laag-1 pass met heading_count=3 wat voor een KB van Art. 1-10 te weinig is. Verder staat ''Titel'' als losse plain-text label zonder heading-prefix (B4).'
       run_at: '2026-05-11T16:30:30Z'
       status: needs-rework
-    rationale: 'D2: Het bestand begint abrupt op regel 57 met ''akkoorden, gewijzigd
-      bij ministerieel besluit van 4 januari 2002, worden opgeheven.'' — de eerste
-      artikelen (Art. 1 t/m Art. 7) ontbreken volledig; het bestand bevat alleen Art.
-      8, 9 en 10. Laag-1 pass met heading_count=3 wat voor een KB van Art. 1-10 te
-      weinig is. Verder staat ''Titel'' als losse plain-text label zonder heading-prefix
-      (B4).'
+    rationale: 'D2: Het bestand begint abrupt op regel 57 met ''akkoorden, gewijzigd bij ministerieel besluit van 4 januari 2002, worden opgeheven.'' — de eerste artikelen (Art. 1 t/m Art. 7) ontbreken volledig; het bestand bevat alleen Art. 8, 9 en 10. Laag-1 pass met heading_count=3 wat voor een KB van Art. 1-10 te weinig is. Verder staat ''Titel'' als losse plain-text label zonder heading-prefix (B4).'
     status: needs-rework
 status: beschikbaar
 tags:
-- I
-wet: K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december
-  2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken
+  - I
+wet: K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken
 ---
 
 # K.B. 30 januari 2003 — Uitvoering artikel 26 (voorafgaande beslissingen)

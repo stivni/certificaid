@@ -4,59 +4,49 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 3
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XI
 provenance:
   generated_at: '2026-05-11T16:33:51Z'
   inputs:
-  - id: resources/raw/wetteksten/BW-boek1-algemene-bepalingen.pdf
-    sha256: ad2ba310c4c88af06d92641f8080f97a843a97717565956ee687d5928e0474cb
-    version: 24.12.2025
+    - id: resources/raw/wetteksten/BW-boek1-algemene-bepalingen.pdf
+      sha256: ad2ba310c4c88af06d92641f8080f97a843a97717565956ee687d5928e0474cb
+      version: 24.12.2025
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 114
-      flags: []
+      status: pass
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:50Z'
       heading_count: 0
       max_section_chars: 114
-      run_at: '2026-05-11T16:22:33Z'
-      run_id: 20260511-162232
-      status: pass
+      file_size_chars: 114
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: B4
-        regel: 49
-        type: missing-section
-        voorbeeld: '# Burgerlijk Wetboek — Boek 1 — Algemene bepalingen\n\n*Bijgewerkt...*\n[EOF]'
-      rationale: 'D2: het bestand bevat vrijwel geen artikelinhoud — enkel frontmatter
-        + één titellijn + één cursieve subkop (51 regels, 114 chars body). Laag-1
-        geeft heading_count=0 en file_size_chars=114. De wet ''Burgerlijk Wetboek
-        — Boek 1 — Algemene bepalingen'' heeft artikkels (o.a. Art.1 t/m Art.34 in
-        de BW-structuur); de PDF is vermoedelijk niet of leeg geconverteerd. Dit is
-        een extractie-failure, niet een source-fout.'
+        - categorie: B4
+          regel: 49
+          type: missing-section
+          voorbeeld: '# Burgerlijk Wetboek — Boek 1 — Algemene bepalingen\n\n*Bijgewerkt...*\n[EOF]'
+      rationale: 'D2: het bestand bevat vrijwel geen artikelinhoud — enkel frontmatter + één titellijn + één cursieve subkop (51 regels, 114 chars body). Laag-1 geeft heading_count=0 en file_size_chars=114. De wet ''Burgerlijk Wetboek — Boek 1 — Algemene bepalingen'' heeft artikkels (o.a. Art.1 t/m Art.34 in de BW-structuur); de PDF is vermoedelijk niet of leeg geconverteerd. Dit is een extractie-failure, niet een source-fout.'
       run_at: '2026-05-11T16:30:30Z'
       status: needs-rework
-    rationale: 'D2: het bestand bevat vrijwel geen artikelinhoud — enkel frontmatter
-      + één titellijn + één cursieve subkop (51 regels, 114 chars body). Laag-1 geeft
-      heading_count=0 en file_size_chars=114. De wet ''Burgerlijk Wetboek — Boek 1
-      — Algemene bepalingen'' heeft artikkels (o.a. Art.1 t/m Art.34 in de BW-structuur);
-      de PDF is vermoedelijk niet of leeg geconverteerd. Dit is een extractie-failure,
-      niet een source-fout.'
+    rationale: 'D2: het bestand bevat vrijwel geen artikelinhoud — enkel frontmatter + één titellijn + één cursieve subkop (51 regels, 114 chars body). Laag-1 geeft heading_count=0 en file_size_chars=114. De wet ''Burgerlijk Wetboek — Boek 1 — Algemene bepalingen'' heeft artikkels (o.a. Art.1 t/m Art.34 in de BW-structuur); de PDF is vermoedelijk niet of leeg geconverteerd. Dit is een extractie-failure, niet een source-fout.'
     status: needs-rework
 status: beschikbaar
 tags:
-- XI
-- '3.1'
+  - XI
+  - '3.1'
 wet: Burgerlijk Wetboek — Boek 1 — Algemene bepalingen
 ---
 

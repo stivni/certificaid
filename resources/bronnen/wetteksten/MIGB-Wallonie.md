@@ -4,81 +4,72 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: III
 provenance:
   generated_at: '2026-05-11T16:33:59Z'
   inputs:
-  - id: resources/raw/wetteksten/MIGB-Wallonie.pdf
-    sha256: daf4cff482a1eeddd5158b2c39c88d39577fb3c60e4850f9514e7943dbdb000d
-    version: 30.05.2025
+    - id: resources/raw/wetteksten/MIGB-Wallonie.pdf
+      sha256: daf4cff482a1eeddd5158b2c39c88d39577fb3c60e4850f9514e7943dbdb000d
+      version: 30.05.2025
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T16:30:31Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 203089
-      flags: []
+      status: pass
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:51Z'
       heading_count: 208
       max_section_chars: 22853
-      run_at: '2026-05-11T16:22:33Z'
-      run_id: 20260511-162232
-      status: pass
+      file_size_chars: 203089
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: B3
-        regel: 540
-        type: other
-        voorbeeld: '### HOOFDSTUK V - Bedrag der belasting of belastingvoet
+        - categorie: B3
+          regel: 540
+          type: other
+          voorbeeld: '### HOOFDSTUK V - Bedrag der belasting of belastingvoet
 
 
-          ### HOOFDSTUK V - Bedrag der belasting of belastingvoet'
-      - categorie: C3
-        regel: 560
-        type: pseudo-table
-        voorbeeld: 'Aantal PK  Bedrag der belasting in euro
+            ### HOOFDSTUK V - Bedrag der belasting of belastingvoet'
+        - categorie: C3
+          regel: 560
+          type: pseudo-table
+          voorbeeld: 'Aantal PK  Bedrag der belasting in euro
 
 
-          4 en minder  51,12'
-      - categorie: C3
-        regel: 635
-        type: pseudo-table
-        voorbeeld: 'MTM uitgedrukt in kg  MTM uitgedrukt in kg
+            4 en minder  51,12'
+        - categorie: C3
+          regel: 635
+          type: pseudo-table
+          voorbeeld: 'MTM uitgedrukt in kg  MTM uitgedrukt in kg
 
 
-          van  van'
-      - categorie: B4
-        regel: 74
-        type: other
-        voorbeeld: TOEKOMSTIG RECHT (vanaf 01.01.2028)
-      rationale: 'Eén duplicate heading op r.539-540: ''### HOOFDSTUK V - Bedrag der
-        belasting of belastingvoet'' staat twee keer direct na elkaar (B3). Tarieftabellen
-        zijn space-aligned pseudo-tabellen (C3), identiek patroon als in de Brusselse
-        versie. ''TOEKOMSTIG RECHT'' als plain-text label op r.74 en r.4118 (B4).
-        Verder is het bestand inhoudelijk compleet en goed gestructureerd.'
+            van  van'
+        - categorie: B4
+          regel: 74
+          type: other
+          voorbeeld: TOEKOMSTIG RECHT (vanaf 01.01.2028)
+      rationale: 'Eén duplicate heading op r.539-540: ''### HOOFDSTUK V - Bedrag der belasting of belastingvoet'' staat twee keer direct na elkaar (B3). Tarieftabellen zijn space-aligned pseudo-tabellen (C3), identiek patroon als in de Brusselse versie. ''TOEKOMSTIG RECHT'' als plain-text label op r.74 en r.4118 (B4). Verder is het bestand inhoudelijk compleet en goed gestructureerd.'
       run_at: '2026-05-11T16:30:31Z'
       status: needs-rework
-    rationale: 'Eén duplicate heading op r.539-540: ''### HOOFDSTUK V - Bedrag der
-      belasting of belastingvoet'' staat twee keer direct na elkaar (B3). Tarieftabellen
-      zijn space-aligned pseudo-tabellen (C3), identiek patroon als in de Brusselse
-      versie. ''TOEKOMSTIG RECHT'' als plain-text label op r.74 en r.4118 (B4). Verder
-      is het bestand inhoudelijk compleet en goed gestructureerd.'
+    rationale: 'Eén duplicate heading op r.539-540: ''### HOOFDSTUK V - Bedrag der belasting of belastingvoet'' staat twee keer direct na elkaar (B3). Tarieftabellen zijn space-aligned pseudo-tabellen (C3), identiek patroon als in de Brusselse versie. ''TOEKOMSTIG RECHT'' als plain-text label op r.74 en r.4118 (B4). Verder is het bestand inhoudelijk compleet en goed gestructureerd.'
     status: needs-rework
 status: beschikbaar
 tags:
-- III
-- '2.2'
-- '2.3'
-wet: Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals
-  Gewest
+  - III
+  - '2.2'
+  - '2.3'
+wet: Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest

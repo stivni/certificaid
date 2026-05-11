@@ -1257,9 +1257,10 @@ sources:
     cleanup: [remove_inhoudstafel, remove_eu_oj_artifacts, remove_inline_metadata, ensure_article_headings]
     status: nieuw
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
-        simple_mode: true
+        force_columns: 2
+        column_filter: both
   BTW-uitvoeringsverordening-282-2011:
     bron_rol: itaa_lex
     simple_mode: true
@@ -1273,9 +1274,10 @@ sources:
     cleanup: [remove_inhoudstafel, remove_eu_oj_artifacts, remove_inline_metadata, ensure_article_headings]
     status: nieuw
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
-        simple_mode: true
+        force_columns: 2
+        column_filter: both
   BTW-teruggaaf-richtlijn-2008-9:
     bron_rol: itaa_lex
     simple_mode: true
@@ -1290,9 +1292,10 @@ sources:
     cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
     status: nieuw
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
-        simple_mode: true
+        force_columns: 2
+        column_filter: both
   BTW-dertiende-richtlijn-1986:
     bron_rol: itaa_lex
     simple_mode: true
@@ -1305,9 +1308,10 @@ sources:
     cleanup: [remove_inline_metadata, ensure_article_headings]
     status: nieuw
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
-        simple_mode: true
+        force_columns: 2
+        column_filter: both
   MIGB-Brussel:
     bron_rol: itaa_lex
     raw: "resources/raw/wetteksten/MIGB-Brussel.pdf"
@@ -1358,7 +1362,10 @@ sources:
     cleanup: [remove_page_artifacts, ensure_article_headings]
     status: nieuw
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
+      params:
+        force_columns: 2
+        column_filter: both
   Wet-beroepskwalificaties-2008:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/Wet-beroepskwalificaties-2008.pdf
@@ -1415,9 +1422,10 @@ sources:
     cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
     status: volledig
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
-        simple_mode: true
+        force_columns: 2
+        column_filter: both
   EU-Richtlijn-interest-royalties-2003-49:
     bron_rol: itaa_lex
     simple_mode: true
@@ -1432,9 +1440,10 @@ sources:
     cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
     status: volledig
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
-        simple_mode: true
+        force_columns: 2
+        column_filter: both
   EU-Richtlijn-fusie-2009-133:
     bron_rol: itaa_lex
     simple_mode: true
@@ -1449,9 +1458,10 @@ sources:
     cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
     status: volledig
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
-        simple_mode: true
+        force_columns: 2
+        column_filter: both
   Richtlijn-2013-34-EU:
     bron_rol: itaa_lex
     simple_mode: true
@@ -1465,9 +1475,10 @@ sources:
     cleanup: [remove_inhoudstafel, remove_eu_oj_artifacts, remove_inline_metadata, ensure_article_headings]
     status: volledig
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
-        simple_mode: true
+        force_columns: 2
+        column_filter: both
   EU-IFRS-verordening-1606-2002:
     bron_rol: normatief
     simple_mode: true
@@ -1481,9 +1492,10 @@ sources:
     cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
     status: volledig
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
-        simple_mode: true
+        force_columns: 2
+        column_filter: both
   EU-Richtlijn-witwassen-2018-1673:
     bron_rol: normatief
     simple_mode: true
@@ -1497,9 +1509,10 @@ sources:
     cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
     status: volledig
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
-        simple_mode: true
+        force_columns: 2
+        column_filter: both
   KB-voorafgaande-beslissingen-art22-2003:
     bron_rol: normatief
     output: resources/bronnen/wetteksten/KB-voorafgaande-beslissingen-art22-2003.md

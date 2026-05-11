@@ -4,76 +4,61 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 6
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: IV.B
 provenance:
   generated_at: '2026-05-11T16:33:51Z'
   inputs:
-  - id: resources/raw/wetteksten/Brusselse-Codex-Fiscale-Procedure.pdf
-    sha256: d342b5b00bfe42e3793a0afc56ab1d9d1256e4f99ddac0e6d4b3f65c764ca4eb
-    version: 04.06.2024
+    - id: resources/raw/wetteksten/Brusselse-Codex-Fiscale-Procedure.pdf
+      sha256: d342b5b00bfe42e3793a0afc56ab1d9d1256e4f99ddac0e6d4b3f65c764ca4eb
+      version: 04.06.2024
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 153960
-      flags: []
+      status: pass
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:50Z'
       heading_count: 265
       max_section_chars: 6431
-      run_at: '2026-05-11T16:22:33Z'
-      run_id: 20260511-162232
-      status: pass
+      file_size_chars: 153960
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: A3
-        regel: 52
-        type: other
-        voorbeeld: Titel\n6 MAART 2019. - Ordonnantie... gevolgd door heading-skeletons
-          zonder inhoud t/m r.186
-      - categorie: B3
-        regel: 186
-        type: other
-        voorbeeld: Tekst (lege placeholder als enige body voor TITEL 6)
-      - categorie: B5
-        regel: 198
-        type: other
-        voorbeeld: '###### Art. 3.De bepalingen die deze Codex inhouden zijn van toepassing
-          :'
-      - categorie: B5
-        regel: 213
-        type: other
-        voorbeeld: '###### Art. 4.Voor de toepassing van deze Codex wordt verstaan
-          onder :'
-      rationale: 'A3/B3: het document opent met een volledige inhoudsopgave als heading-skeletons
-        (Titel 1–6, regels 52–186) zonder artikeltekst, gevolgd door ''Tekst'' placeholder
-        op regel 186, waarna de eigenlijke inhoud herstart bij TITEL 1 op regel 188
-        — out-of-order PDF-extractie identiek aan BW-boek5/8. B5: Art. 3 en Art. 4
-        (regels 198/213) hebben hun heading samensmelt met de eerste zin van de artikeltekst
-        (''###### Art. 3.De bepalingen...'' en ''###### Art. 4.Voor de toepassing...'')
-        — de heading is niet van de body gescheiden.'
+        - categorie: A3
+          regel: 52
+          type: other
+          voorbeeld: Titel\n6 MAART 2019. - Ordonnantie... gevolgd door heading-skeletons zonder inhoud t/m r.186
+        - categorie: B3
+          regel: 186
+          type: other
+          voorbeeld: Tekst (lege placeholder als enige body voor TITEL 6)
+        - categorie: B5
+          regel: 198
+          type: other
+          voorbeeld: '###### Art. 3.De bepalingen die deze Codex inhouden zijn van toepassing :'
+        - categorie: B5
+          regel: 213
+          type: other
+          voorbeeld: '###### Art. 4.Voor de toepassing van deze Codex wordt verstaan onder :'
+      rationale: 'A3/B3: het document opent met een volledige inhoudsopgave als heading-skeletons (Titel 1–6, regels 52–186) zonder artikeltekst, gevolgd door ''Tekst'' placeholder op regel 186, waarna de eigenlijke inhoud herstart bij TITEL 1 op regel 188 — out-of-order PDF-extractie identiek aan BW-boek5/8. B5: Art. 3 en Art. 4 (regels 198/213) hebben hun heading samensmelt met de eerste zin van de artikeltekst (''###### Art. 3.De bepalingen...'' en ''###### Art. 4.Voor de toepassing...'') — de heading is niet van de body gescheiden.'
       run_at: '2026-05-11T16:30:30Z'
       status: needs-rework
-    rationale: 'A3/B3: het document opent met een volledige inhoudsopgave als heading-skeletons
-      (Titel 1–6, regels 52–186) zonder artikeltekst, gevolgd door ''Tekst'' placeholder
-      op regel 186, waarna de eigenlijke inhoud herstart bij TITEL 1 op regel 188
-      — out-of-order PDF-extractie identiek aan BW-boek5/8. B5: Art. 3 en Art. 4 (regels
-      198/213) hebben hun heading samensmelt met de eerste zin van de artikeltekst
-      (''###### Art. 3.De bepalingen...'' en ''###### Art. 4.Voor de toepassing...'')
-      — de heading is niet van de body gescheiden.'
+    rationale: 'A3/B3: het document opent met een volledige inhoudsopgave als heading-skeletons (Titel 1–6, regels 52–186) zonder artikeltekst, gevolgd door ''Tekst'' placeholder op regel 186, waarna de eigenlijke inhoud herstart bij TITEL 1 op regel 188 — out-of-order PDF-extractie identiek aan BW-boek5/8. B5: Art. 3 en Art. 4 (regels 198/213) hebben hun heading samensmelt met de eerste zin van de artikeltekst (''###### Art. 3.De bepalingen...'' en ''###### Art. 4.Voor de toepassing...'') — de heading is niet van de body gescheiden.'
     status: needs-rework
 status: beschikbaar
 tags:
-- IV.B
-- '2.5'
+  - IV.B
+  - '2.5'
 wet: Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure
 ---
 

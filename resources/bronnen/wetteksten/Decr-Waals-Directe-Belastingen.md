@@ -3,90 +3,75 @@ bijgewerkt: 03.02.2026
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 5
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: IV.C
 provenance:
   generated_at: '2026-05-11T16:33:51Z'
   inputs:
-  - id: resources/raw/wetteksten/Decr-Waals-Directe-Belastingen.pdf
-    sha256: fa05f2e6d48e11bb8849cb29f93b4cf98be34ae2d6e9ef3b4672a50fded6f56c
-    version: 03.02.2026
+    - id: resources/raw/wetteksten/Decr-Waals-Directe-Belastingen.pdf
+      sha256: fa05f2e6d48e11bb8849cb29f93b4cf98be34ae2d6e9ef3b4672a50fded6f56c
+      version: 03.02.2026
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 334281
-      flags:
-      - detail: 'langste sectie op #####-niveau: 31069 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
+      status: warn
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:50Z'
       heading_count: 242
       max_section_chars: 31069
-      run_at: '2026-05-11T16:22:33Z'
-      run_id: 20260511-162232
-      status: warn
+      file_size_chars: 334281
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op #####-niveau: 31069 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: B4
-        regel: 55
-        type: other
-        voorbeeld: 'Titel
+        - categorie: B4
+          regel: 55
+          type: other
+          voorbeeld: 'Titel
 
 
-          6 MEI 1999. - Decreet betreffende...'
-      - categorie: B1
-        regel: 64
-        type: other
-        voorbeeld: '##### Art. 17bis, 18, 18bis, 19-20, 20bis, 20ter, 20quater, 20quinquies,
-          21-24, 24bis'
-      - categorie: B4
-        regel: 183
-        type: other
-        voorbeeld: 'Tekst
+            6 MEI 1999. - Decreet betreffende...'
+        - categorie: B1
+          regel: 64
+          type: other
+          voorbeeld: '##### Art. 17bis, 18, 18bis, 19-20, 20bis, 20ter, 20quater, 20quinquies, 21-24, 24bis'
+        - categorie: B4
+          regel: 183
+          type: other
+          voorbeeld: 'Tekst
 
 
-          ## HOOFDSTUK I. - Algemene bepalingen.'
-      - categorie: A6
-        regel: 189
-        type: scrambled-words
-        voorbeeld: '##### Art. 2.De
+            ## HOOFDSTUK I. - Algemene bepalingen.'
+        - categorie: A6
+          regel: 189
+          type: scrambled-words
+          voorbeeld: '##### Art. 2.De
 
 
-          Regering wijst de ambtenaren aan...'
-      rationale: 'B1/B4: De TOC bovenaan bevat article-groepen als ##### headings
-        zonder echte artiteltekst (bv. regel 64: ''##### Art. 17bis, 18, 18bis, 19-20,
-        20bis, ...'' — dit zijn geen echte headings maar placeholders). Verder staan
-        structuurlabels ''Tekst'' (regel 183) en ''Titel'' (regel 55) als losse plain-text
-        regels zonder heading-prefix (B4). Laag-1 meldt max_section_size warn (31069
-        chars) maar geen form-feed. De artikel-body is correct en volledig; enkel
-        de TOC-constructie en losse labels zijn ETL-artefacten.'
+            Regering wijst de ambtenaren aan...'
+      rationale: 'B1/B4: De TOC bovenaan bevat article-groepen als ##### headings zonder echte artiteltekst (bv. regel 64: ''##### Art. 17bis, 18, 18bis, 19-20, 20bis, ...'' — dit zijn geen echte headings maar placeholders). Verder staan structuurlabels ''Tekst'' (regel 183) en ''Titel'' (regel 55) als losse plain-text regels zonder heading-prefix (B4). Laag-1 meldt max_section_size warn (31069 chars) maar geen form-feed. De artikel-body is correct en volledig; enkel de TOC-constructie en losse labels zijn ETL-artefacten.'
       run_at: '2026-05-11T16:30:30Z'
       status: needs-rework
-    rationale: 'B1/B4: De TOC bovenaan bevat article-groepen als ##### headings zonder
-      echte artiteltekst (bv. regel 64: ''##### Art. 17bis, 18, 18bis, 19-20, 20bis,
-      ...'' — dit zijn geen echte headings maar placeholders). Verder staan structuurlabels
-      ''Tekst'' (regel 183) en ''Titel'' (regel 55) als losse plain-text regels zonder
-      heading-prefix (B4). Laag-1 meldt max_section_size warn (31069 chars) maar geen
-      form-feed. De artikel-body is correct en volledig; enkel de TOC-constructie
-      en losse labels zijn ETL-artefacten.'
+    rationale: 'B1/B4: De TOC bovenaan bevat article-groepen als ##### headings zonder echte artiteltekst (bv. regel 64: ''##### Art. 17bis, 18, 18bis, 19-20, 20bis, ...'' — dit zijn geen echte headings maar placeholders). Verder staan structuurlabels ''Tekst'' (regel 183) en ''Titel'' (regel 55) als losse plain-text regels zonder heading-prefix (B4). Laag-1 meldt max_section_size warn (31069 chars) maar geen form-feed. De artikel-body is correct en volledig; enkel de TOC-constructie en losse labels zijn ETL-artefacten.'
     status: needs-rework
 status: beschikbaar
 tags:
-- IV.C
-- '2.5'
-wet: Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen
-  inzake de Waalse gewestelijke belastingen
+  - IV.C
+  - '2.5'
+wet: Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de Waalse gewestelijke belastingen
 ---
 
 # Decreet Waalse gewestelijke belastingen

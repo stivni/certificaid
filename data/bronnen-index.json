@@ -41,10 +41,10 @@
         "VI.A",
         "2.4"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "not_run"
     },
     {
       "bestand": "BTW-richtlijn-2006-112.md",
@@ -56,10 +56,10 @@
         "VI.A",
         "2.4"
       ],
-      "trust_status": "needs-rework",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "layer1_status": "warn",
+      "layer2_status": "not_run"
     },
     {
       "bestand": "BTW-teruggaaf-richtlijn-2008-9.md",
@@ -71,10 +71,10 @@
         "VI.A",
         "2.4"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "not_run"
     },
     {
       "bestand": "BTW-uitvoeringsverordening-282-2011.md",
@@ -88,7 +88,7 @@
       ],
       "trust_status": "unreviewed",
       "trust_confirmed_by": null,
-      "layer1_status": "warn",
+      "layer1_status": "pass",
       "layer2_status": "not_run"
     },
     {
@@ -252,10 +252,10 @@
         "1.2",
         "1.5"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "not_run"
     },
     {
       "bestand": "EU-Richtlijn-fusie-2009-133.md",
@@ -267,10 +267,10 @@
         "X",
         "2.8"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "not_run"
     },
     {
       "bestand": "EU-Richtlijn-interest-royalties-2003-49.md",
@@ -282,10 +282,10 @@
         "X",
         "2.8"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "not_run"
     },
     {
       "bestand": "EU-Richtlijn-moeder-dochter-2011-96.md",
@@ -297,10 +297,10 @@
         "X",
         "2.8"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "not_run"
     },
     {
       "bestand": "EU-Richtlijn-witwassen-2018-1673.md",
@@ -312,10 +312,10 @@
         "1.2",
         "4.0"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "not_run"
     },
     {
       "bestand": "KB-1998-plichtenleer.md",
@@ -562,10 +562,10 @@
         "1.1",
         "1.2"
       ],
-      "trust_status": "needs-rework",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
       "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer2_status": "not_run"
     },
     {
       "bestand": "Strafwetboek-1867.md",

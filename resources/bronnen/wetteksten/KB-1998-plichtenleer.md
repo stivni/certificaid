@@ -1,61 +1,55 @@
 ---
 bijgewerkt: 01.03.1998
-bron: www.ejustice.just.fgov.be (Justel change_lg.pl, legacy HTML — gecoördineerde
-  versie)
+bron: www.ejustice.just.fgov.be (Justel change_lg.pl, legacy HTML — gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 3
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XXI
 provenance:
   generated_at: '2026-05-11T16:33:51Z'
   inputs:
-  - id: resources/raw/wetteksten/KB-1998-plichtenleer.html
-    sha256: 486368ae262d6c3d9bf30c104a7c9d01388e8a5711a4a99c4e3860961ebaeeda
-    version: 01.03.1998
+    - id: resources/raw/wetteksten/KB-1998-plichtenleer.html
+      sha256: 486368ae262d6c3d9bf30c104a7c9d01388e8a5711a4a99c4e3860961ebaeeda
+      version: 01.03.1998
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 23685
-      flags: []
+      status: pass
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:50Z'
       heading_count: 46
       max_section_chars: 1690
-      run_at: '2026-05-11T16:22:33Z'
-      run_id: 20260511-162232
-      status: pass
+      file_size_chars: 23685
+      flags: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen:
-      - regel: 40
-        type: other
-        voorbeeld: '### Art. 1. Voor de toepassing van dit besluit wordt verstaan
-          onder : — heading bevat eerste zin van body'
-      rationale: 'KB plichtenleer accountants, 34 artikelen. HTML-bron (Justel) —
-        mooie heading-structuur (## hoofdstuk + ### Art. x. Voor de toepassing...)
-        waarbij Art-nummer en eerste zin gecombineerd in heading. Geen kolom-bleed,
-        schoon NL. Laag-1 QA pass alle checks.'
-      run_at: null
+        - regel: 40
+          type: other
+          voorbeeld: '### Art. 1. Voor de toepassing van dit besluit wordt verstaan onder : — heading bevat eerste zin van body'
+      rationale: 'KB plichtenleer accountants, 34 artikelen. HTML-bron (Justel) — mooie heading-structuur (## hoofdstuk + ### Art. x. Voor de toepassing...) waarbij Art-nummer en eerste zin gecombineerd in heading. Geen kolom-bleed, schoon NL. Laag-1 QA pass alle checks.'
+      run_at:
       status: trusted
     rationale: L1=pass
     status: trusted
 status: beschikbaar
 tags:
-- XXI
-- '4.0'
-- ethiek
-- deontologie
-- plichtenleer
-wet: Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer
-  der accountants
+  - XXI
+  - '4.0'
+  - ethiek
+  - deontologie
+  - plichtenleer
+wet: Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants
 ---
 
 # Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants

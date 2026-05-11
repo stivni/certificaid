@@ -4,64 +4,53 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 3
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XIX
 provenance:
-  generated_at: '2026-05-11T16:33:51Z'
+  generated_at: '2026-05-11T16:52:37Z'
   inputs:
-  - id: resources/raw/wetteksten/EU-AVG-Verordening-2016-679.pdf
-    sha256: 7e7d37376612a2f097ae2861cb621eebe7f169ca5f6d93d94e294e74c09516cd
-    version: 27.04.2016
+    - id: resources/raw/wetteksten/EU-AVG-Verordening-2016-679.pdf
+      sha256: 7e7d37376612a2f097ae2861cb621eebe7f169ca5f6d93d94e294e74c09516cd
+      version: 27.04.2016
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-09T20:31:38Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 394724
-      flags:
-      - detail: 'langste sectie op ##-niveau: 180369 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
+      status: warn
+      run_id: 20260511-165250
+      run_at: '2026-05-11T16:52:50Z'
       heading_count: 110
       max_section_chars: 180369
-      run_at: '2026-05-11T16:22:33Z'
-      run_id: 20260511-162232
-      status: warn
+      file_size_chars: 394724
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 180369 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen:
-      - regel: 59
-        type: other
-        voorbeeld: soft hyphen + spatie binnen 'persoons­ gegevens' — leesbaar maar
-          tokenization-aware
-      rationale: AVG-verordening (395KB) met 110 H2-headings. Soft hyphens uit PDF
-        (bv. 'persoons­ gegevens') zonder woordbreuk. Body leesbaar, geen kolom-bleed.
-        Warn op max_section_size is verklaarbaar door lange overwegingen-blok bovenaan.
-        Inhoudelijk klaar voor RAG.
-      run_at: null
+        - regel: 59
+          type: other
+          voorbeeld: soft hyphen + spatie binnen 'persoons­ gegevens' — leesbaar maar tokenization-aware
+      rationale: AVG-verordening (395KB) met 110 H2-headings. Soft hyphens uit PDF (bv. 'persoons­ gegevens') zonder woordbreuk. Body leesbaar, geen kolom-bleed. Warn op max_section_size is verklaarbaar door lange overwegingen-blok bovenaan. Inhoudelijk klaar voor RAG.
+      run_at:
       status: trusted
-    rationale: 'L1=warn; L1.5=improvement (Auto-synthesized: ETL-fixes vandaag (NBSP,
-      sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.); L2=trusted
-      (AVG-verordening (395KB) met 110 H2-headings. Soft hyphens uit PDF (bv. ''persoons­
-      gegevens'') zonder woordbreuk. Body leesbaar, geen kolom-bleed. Warn op max_section_size
-      is verklaarbaar door lange overwegingen-blok bovenaan. Inhoudelijk klaar voor
-      RAG.)'
+    rationale: 'L1=warn; L1.5=improvement (Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.); L2=trusted (AVG-verordening (395KB) met 110 H2-headings. Soft hyphens uit PDF (bv. ''persoons­ gegevens'') zonder woordbreuk. Body leesbaar, geen kolom-bleed. Warn op max_section_size is verklaarbaar door lange overwegingen-blok bovenaan. Inhoudelijk klaar voor RAG.)'
     status: trusted
 status: beschikbaar
 tags:
-- XIX
-- '4.0'
-wet: Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april
-  2016 betreffende de bescherming van natuurlijke personen (AVG/GDPR)
+  - XIX
+  - '4.0'
+wet: Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen (AVG/GDPR)
 ---
 
 # AVG — Algemene Verordening Gegevensbescherming 2016/679
