@@ -365,13 +365,25 @@ def _render_page(blocks: list[Block], heading_levels: dict[float, int],
 
 
 def _maybe_skip_toc_page(blocks: list[Block]) -> bool:
-    """Detecteer of een pagina overwegend uit TOC-entries bestaat.
+    """Detecteer of een pagina overwegend uit TOC-entries of cover-titels bestaat.
 
-    Twee patronen worden herkend:
-      1. Dotted-leader-stijl: `Sectie ... . . . . . . . 42` (≥50% van blokken).
-      2. Justel-stijl: pagina bevat "Inhoudstafel" + veel korte
+    Drie patronen worden herkend:
+      1. Cover-page: geen lopende body, alleen korte titel-blokken.
+      2. Dotted-leader-stijl: `Sectie ... . . . . . . . 42` (≥50% van blokken).
+      3. Justel-stijl: pagina bevat "Inhoudstafel" + veel korte
          `Art. N` / `Hoofdstuk N` lijnen zonder lopende body.
     """
+    if not blocks:
+        return False
+
+    # Patroon 0 — Cover-page: weinig blokken, geen lopende body, mogelijk
+    # alle blokken kort (≤120 chars). Typisch eerste pagina met titel +
+    # subtitle + datum + URL.
+    long_blocks = sum(1 for b in blocks if len(b.text.strip()) > 200)
+    short_blocks = sum(1 for b in blocks if 5 <= len(b.text.strip()) <= 120)
+    if long_blocks == 0 and short_blocks >= 3 and len(blocks) < 25:
+        return True
+
     if len(blocks) < 5:
         return False
 

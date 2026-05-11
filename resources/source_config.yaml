@@ -948,7 +948,7 @@ sources:
     cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
     status: toc_only
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
         bilingual: true
         nl_col_x: 0
@@ -1320,7 +1320,7 @@ sources:
     cleanup: [remove_inhoudstafel, remove_page_artifacts, ensure_article_headings]
     status: nieuw
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
   MIGB-Wallonie:
     bron_rol: itaa_lex
     raw: "resources/raw/wetteksten/MIGB-Wallonie.pdf"
@@ -1333,7 +1333,7 @@ sources:
     cleanup: [remove_inhoudstafel, remove_page_artifacts, ensure_article_headings]
     status: nieuw
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
   MIGB-Vlaanderen:
     bron_rol: itaa_lex
     raw: "resources/raw/wetteksten/MIGB-Vlaanderen.pdf"

@@ -1,48 +1,55 @@
 ---
-tags: [III, '2.2', '2.3']
-itaa-lex-sectie: III
-wet: Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 13.04.2019
 bron: ejustice.just.fgov.be (gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 5
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: III
 provenance:
+  generated_at: '2026-05-11T16:03:39Z'
   inputs:
-    - id: resources/raw/wetteksten/MIGB-Vlaanderen.pdf
-      sha256: 40c2d796cd1c565b2cdc8fa7e33e626af15f7320d0fbcab943f2488718b8959b
-      version: 13.04.2019
+  - id: resources/raw/wetteksten/MIGB-Vlaanderen.pdf
+    sha256: 40c2d796cd1c565b2cdc8fa7e33e626af15f7320d0fbcab943f2488718b8959b
+    version: 13.04.2019
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:44Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:45Z'
-      heading_count: 245
-      max_section_chars: 2605
       file_size_chars: 67224
       flags: []
+      heading_count: 245
+      max_section_chars: 2605
+      run_at: '2026-05-11T13:40:45Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: 'Heldere Hoofdstuk/Afdeling-structuur met ##### Art.-headings; concordantietabellen (Vlaamse Codex Fiscaliteit) zijn correct opgenomen voor opgeheven artikelen. Body start ook zonder eerste Art.-heading (zie §1 boven Art. 2), maar minder uitgesproken dan Brussel/Wallonie.'
+      agent: null
       concrete_problemen:
-        - minimale ontbrekende heading bij allereerste paragraaf
+      - minimale ontbrekende heading bij allereerste paragraaf
+      rationale: 'Heldere Hoofdstuk/Afdeling-structuur met ##### Art.-headings; concordantietabellen
+        (Vlaamse Codex Fiscaliteit) zijn correct opgenomen voor opgeheven artikelen.
+        Body start ook zonder eerste Art.-heading (zie §1 boven Art. 2), maar minder
+        uitgesproken dan Brussel/Wallonie.'
+      run_at: null
+      status: trusted
+    rationale: L1=pass
+    status: trusted
+status: beschikbaar
+tags:
+- III
+- '2.2'
+- '2.3'
+wet: Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams
+  Gewest
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest
@@ -934,4 +941,3 @@ Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 ##### Art. 124 Art. 5.0.0.0.8
-

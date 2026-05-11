@@ -8,10 +8,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 129 | 55 | — | 70 | 4 | — |
+| Wetteksten | 129 | 55 | 4 | 66 | 4 | — |
 | Normen | 19 | 8 | — | 9 | 2 | — |
 | Adviezen | 436 | 258 | — | 177 | 1 | — |
-| **Totaal** | **584** | 321 | — | 256 | 7 | — |
+| **Totaal** | **584** | 321 | 4 | 252 | 7 | — |
 
 ## Wetteksten (129)
 
@@ -23,17 +23,13 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WER-Boek-VIII-normalisatie.md` | ❌ rejected | warn | rejected | subagent-sonnet-4-6 | WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen) |
 | `belastinggids-aclvb-2025.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Belastinggids 2025 — ACLVB |
 | `BTW-richtlijn-2006-112.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belast… |
-| `Decr-Waals-Directe-Belastingen.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de … |
 | `fiscaal-memento-2025.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Fiscaal Memento 2025 — FOD Financiën (editie 12/2024, bijgewerkt 31.12.2024) |
 | `MAR-vzw.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW) |
-| `MIGB-Brussel.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofds… |
-| `MIGB-Wallonie.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest |
 | `Oud-BW.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019) |
 | `Registratierechten-Brussel.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk Gewest |
 | `Registratierechten-federaal.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal |
 | `Registratierechten-Waals.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest |
 | `Richtlijn-2013-34-EU.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende… |
-| `Strafwetboek2024-boek1.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1 |
 | `Successierechten-Brussel.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Successierechten — Brussels Hoofdstedelijk Gewest |
 | `Successierechten-Waals.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Successierechten — Waals Gewest |
 | `toelichting-PB-2025-deel1-VG.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — Aanslagjaar 2025 (inkomsten 2024)… |
@@ -91,6 +87,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `Wet-betalingsachterstand-2002.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelst… |
 | `Wet-verzekeringen-2014.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wet 4 april 2014 betreffende de verzekeringen |
 | `X-oeso-model-verdrag.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | OECD Model Tax Convention on Income and on Capital (as it read on 21 November 2017) |
+| `Decr-Waals-Directe-Belastingen.md` | ◻️ unreviewed | warn | not_run | — | Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de … |
+| `MIGB-Brussel.md` | ◻️ unreviewed | pass | not_run | — | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofds… |
+| `MIGB-Wallonie.md` | ◻️ unreviewed | pass | not_run | — | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest |
+| `Strafwetboek2024-boek1.md` | ◻️ unreviewed | pass | not_run | — | Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1 |
 | `aangifte-PB-2025-bezoldigingen.md` | ✅ trusted | fail | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-bezoldigingen |
 | `aangifte-PB-2025-stopzetting.md` | ✅ trusted | fail | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-stopzetting |
 | `Antiwitwaswet-2017.md` | ✅ trusted | warn | trusted | subagent-sonnet-4-6 | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van … |

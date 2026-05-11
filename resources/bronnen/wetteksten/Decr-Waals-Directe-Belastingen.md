@@ -1,71 +1,59 @@
 ---
-tags: [IV.C, '2.5']
-itaa-lex-sectie: IV.C
-wet: Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de Waalse gewestelijke belastingen
-status: beschikbaar
 bijgewerkt: 03.02.2026
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
-provenance:
-  inputs:
-    - id: resources/raw/wetteksten/Decr-Waals-Directe-Belastingen.pdf
-      sha256: fa05f2e6d48e11bb8849cb29f93b4cf98be34ae2d6e9ef3b4672a50fded6f56c
-      version: 03.02.2026
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:30Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:43:15Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: 'Artikel 1' op regel 74 staat als plain-text paragraaf zonder heading-prefix; alle volgende artikelen zijn correct als ##### Art. X opgenomen maar de heading-injectie splitst het eerste woord van de articelinhoud mee in het heading-label (bv. '##### Art. 2.De', '##### Art. 3.De'). D1: Meerdere art.-headings bevatten de eerste woorden van de body-zin als onderdeel van de heading-tekst, waardoor de zin mid-woord begint na de heading. Decreet inhoudelijk compleet (139 artikelen) — structurele ETL-fix vereist."
-    layer1:
-      status: warn
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:45Z'
-      heading_count: 183
-      max_section_chars: 31064
-      file_size_chars: 330559
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op #####-niveau: 31064 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:43:15Z'
-      rationale: "B5: 'Artikel 1' op regel 74 staat als plain-text paragraaf zonder heading-prefix; alle volgende artikelen zijn correct als ##### Art. X opgenomen maar de heading-injectie splitst het eerste woord van de articelinhoud mee in het heading-label (bv. '##### Art. 2.De', '##### Art. 3.De'). D1: Meerdere art.-headings bevatten de eerste woorden van de body-zin als onderdeel van de heading-tekst, waardoor de zin mid-woord begint na de heading. Decreet inhoudelijk compleet (139 artikelen) — structurele ETL-fix vereist."
-      concrete_problemen:
-        - regel: 74
-          categorie: B5
-          type: other
-          voorbeeld: 'Artikel 1.[1 Dit decreet is van toepassing... — geen ## of ##### prefix'
-        - regel: 77
-          categorie: B1
-          type: other
-          voorbeeld: "##### Art. 2.De — 'De' hoort bij de zin, niet bij de heading-tekst"
-        - regel: 229
-          categorie: B1
-          type: other
-          voorbeeld: "##### Art. 13.Indien — 'Indien' is begin body-zin, niet heading-tekst"
-        - regel: 67
-          categorie: A3
-          type: other
-          voorbeeld: "Nota's : 1 in wat betreft de wijzigingen aangebracht bij DWG 2009-12-10/27... — TOC-nota's als plain text vóór HOOFDSTUK I"
 chunk:
   level: 5
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: IV.C
+provenance:
+  generated_at: '2026-05-11T16:03:42Z'
+  inputs:
+  - id: resources/raw/wetteksten/Decr-Waals-Directe-Belastingen.pdf
+    sha256: fa05f2e6d48e11bb8849cb29f93b4cf98be34ae2d6e9ef3b4672a50fded6f56c
+    version: 03.02.2026
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
+  trust:
+    confirmed_at: null
+    confirmed_by: null
+    layer1:
+      file_size_chars: 334281
+      flags:
+      - detail: 'langste sectie op #####-niveau: 31069 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      heading_count: 242
+      max_section_chars: 31069
+      run_at: '2026-05-11T15:59:47Z'
+      run_id: 20260511-155947
+      status: warn
+    layer2:
+      agent: null
+      concrete_problemen: []
+      rationale: null
+      run_at: null
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
+status: beschikbaar
+tags:
+- IV.C
+- '2.5'
+wet: Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen
+  inzake de Waalse gewestelijke belastingen
 ---
 
 # Decreet Waalse gewestelijke belastingen
 
-*Bijgewerkt tot en met 03.02.2026 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
+*Bijgewerkt tot en met 03.02.2026 — gecoördineerde versie.*
 
 Titel
 
@@ -75,6 +63,126 @@ Nota's :         1 in wat betreft de wijzigingen aangebracht bij DWG 2009-12-10/
 103, lid 2 tot 5
 
 2 de wijzigingen aangebracht bij DWG 2013-09-19/23, art. 1, maken deel van een herstructurering van het huidig HOOFDSTUK II
+
+##### Art. 17bis, 18, 18bis, 19-20, 20bis, 20ter, 20quater, 20quinquies, 21-24, 24bis
+
+## HOOFDSTUK V. - Rechtsmiddelen.
+
+### Afdeling 1. - Administratief verhaal.
+
+### Afdeling 2. - Gerechtelijk beroep.
+
+##### Art. 28
+
+## HOOFDSTUK Vbis. [1 Bijkomende aanvragen tot teruggave.]1
+
+##### Art. 28bis, 28ter
+
+## HOOFDSTUK VI. - Interest.
+
+### Afdeling 1. - Nalatigheidsinterest ten laste van de belastingplichtige.
+
+### Afdeling 2. - Moratoriumsinterest ten laste van het gewest.
+
+## HOOFDSTUK VII. - Invordering.
+
+### Afdeling 1. - Vervolging.
+
+##### Art. 34bis, 35, 35bis, 35ter, 35quater, 35quinquies, 35sexies, 35septies, 35octies, 36-52, 52bis, 52ter
+
+### Afdeling 2. - Uitwerking van het beroep op de invordering.
+
+### Afdeling 3. - Verjaring.
+
+### Afdeling 4. [1 - Bepalingen betreffende de oninbaarheid van bepaalde schuldvorderingen]1
+
+##### Art. 57bis, 57ter, 57quater, 57quinquies, 57sexies
+
+## HOOFDSTUK VIII. - Recht en voorrecht van de schatkist inzake invordering.
+
+## HOOFDSTUK VIIIbis. - [1 Aansprakelijkheid en plichten van sommige ministeriële officieren, openbare ambtenaren, andere personen en kredietinstellingen of -inrichtingen.]1
+
+##### Art. 62bis, 62ter, 62quater, 62quinquies, 62sexies
+
+## HOOFDSTUK IX. - Administratieve straffen.
+
+## HOOFDSTUK IXbis. [1 - Wederzijdse bijstand]1
+
+### Afdeling 1. [1 - Algemene bepalingen en begripsomschrijvingen]1
+
+##### Art. 64bis
+
+### Afdeling 2. [1 - Uitwisselingen van inlichtingen op verzoek]1
+
+##### Art. 64ter
+
+### Afdeling 3. [1 Termijnen voor de uitwisseling van inlichtingen op verzoek ]1
+
+##### Art. 64quater
+
+### Afdeling 4. [1 - Verplichte automatische uitwisseling van inlichtingen]1
+
+#### Onderafdeling 1. [1 Toepassingsgebied en voorwaarden van de automatische en verplichte uitwisseling van inlichtingen ]1
+
+##### Art. 64quinquies
+
+#### Onderafdeling 2. [1 Toepassingsgebied en voorwaarden van de automatische en verplichte uitwisseling van inlichtingen over voorafgaande belastingrulings in grensoverschrijdende gevallen ]1
+
+##### Art. 64quinquies/1
+
+#### Onderafdeling 3. [1 Toepassingsgebied en voorwaarden van de automatische en verplichte uitwisseling van informatie over meldingsplichtige grensoverschrijdende regelingen ]1
+
+##### Art. 64quinquies/2
+
+#### Onderafdeling 4. [1 Toepassingsgebied en voorwaarden van de automatische en verplichte uitwisseling van door platformexploitanten opgegeven informatie ]1
+
+##### Art. 64quinquies/3, 64quinquies/4, 64quinquies/5, 64quinquies/6, 64quinquies/7, 64quinquies/8
+
+#### Onderafdeling 5. [1 Reikwijdte en voorwaarden van de verplichte automatische uitwisseling van door rapporterende aanbieders van cryptoactivadiensten gerapporteerde inlichtingen ]1
+
+##### Art. 64quinquies/9, 64quinquies/10, 64quinquies/11, 64quinquies/12, 64quinquies/13, 64quinquies/14, 64quinquies/15
+
+### Afdeling 5. [1 - Spontale uitwisseling van inlichtingen]1
+
+##### Art. 64sexies
+
+### Afdeling 6. [1 - Andere vormen van administratieve samenwerking]1
+
+#### Onderafdeling 1. [1 Aanwezigheid in kantoren en deelname aan administratieve onderzoeken ]1
+
+##### Art. 64septies
+
+##### Onderafdeling 2 [1 Gelijktijdige controles ]1
+
+##### Art. 64septies/1
+
+#### Onderafdeling 3. [1 Administratieve kennisgeving ]1
+
+##### Art. 64septies/2
+
+#### Onderafdeling 4. [1 Terugmeldingen ]1
+
+##### Art. 64septies/3
+
+##### Onderafdeling 5 [1 Gezamenlijke audits ]1
+
+##### Art. 64septies/4
+
+### Afdeling 7. [1 - Voorwaarden inzake de administratieve samenwerking]1
+
+##### Art. 64octies
+
+### Afdeling 8. [1 - Betrekkingen met derde landen]1
+
+##### Art. 64novies
+
+##### Afdeling 9 [1 Gegevensbescherming ]1
+
+##### Art. 64decies, 64undecies, 64duodecies
+
+## HOOFDSTUK X. - Wijzigings- en opheffingsbepalingen.
+
+Tekst
 
 ## HOOFDSTUK I. - Algemene bepalingen.
 
@@ -99,7 +207,11 @@ Regering wijst de ambtenaren aan die belast zijn met het in ontvangst nemen en h
 § 3. Ten opzichte van de ontvanger worden de termijnen bedoeld in de artikelen 10, 14, 16 en 25 van dit decreet die beginnen te lopen vanaf een kennisgeving op papier [2 of via gelijkwaardige elektronische communicatie]2, berekend vanaf de datum van uitwerking van de kennisgeving, namelijk :
 1° ofwel de eerste dag volgend op die waarop de brief voorgelegd is op de woonplaats van de ontvanger of, in voorkomend geval, op zijn verblijfplaats of zijn gekozen woonplaats, wanneer de kennisgeving bij gerechtsbrief [2 of per aangetekend schrijven met ontvangstbericht, of op de eerste dag volgend op die van de gelijkwaardige elektronische communicatie]2 wordt verricht;
 2° ofwel sinds de derde dag volgend op die waarop de brief overgemaakt is aan de postdiensten behalve tegengesteld bewijs van de ontvanger, wanneer de kennisgeving per aangetekend schrijven of [2 par eenvoudig schrijven per post, of vanaf de derde werkdag volgend op die van de gelijkwaardige elektronische mededeling]2 wordt verricht.
-§ 4. Wanneer dit decreet en de decreten tot bepaling van de belastingen en taksen waarop dit decreet van toepassing is alsmede de voor de uitvoering ervan genomen besluiten de bevoegdheden vermelden van de ambtenaren van de diensten van het Waalse Gewest en van de openbare Waalse instellingen aangewezen door de Waalse Regering om de dienst van de dienst van de belastingen en taksen vastgesteld bij de bovenvermelde decreten waar te nemen, kunnen die ambtenaren zowel tot het statutair personeel als het contractueel personeel van die dienst of van de betrokken instelling behoren.]1 (1)<DWG 2009-04-30/93, art. 6, 005; Inwerkingtreding : 01-07-2009> (2)<DWG 2023-07-12/11, art. 9, 030; Inwerkingtreding : 28-09-2023> (3)(geen Nederlandstalige versie) Art. 5bis.[1 . § 1. Onder "gelijkwaardige elektronische communicatie" in de zin van dit decreet wordt verstaan, iedere elektronische communicatieprocedure overeenkomstig het decreet van 27 maart 2014 betreffende de communicaties via elektronische weg tussen de gebruikers en de Waalse openbare overheden, en die dezelfde rechtsgevolgen voor betrokken partijen teweegbrengt als de nietelektronische procedure bepaald bij het betrokken artikel van dit decreet.
+§ 4. Wanneer dit decreet en de decreten tot bepaling van de belastingen en taksen waarop dit decreet van toepassing is alsmede de voor de uitvoering ervan genomen besluiten de bevoegdheden vermelden van de ambtenaren van de diensten van het Waalse Gewest en van de openbare Waalse instellingen aangewezen door de Waalse Regering om de dienst van de dienst van de belastingen en taksen vastgesteld bij de bovenvermelde decreten waar te nemen, kunnen die ambtenaren zowel tot het statutair personeel als het contractueel personeel van die dienst of van de betrokken instelling behoren.]1
+
+(1)<DWG 2009-04-30/93, art. 6, 005; Inwerkingtreding : 01-07-2009>
+(2)<DWG 2023-07-12/11, art. 9, 030; Inwerkingtreding : 28-09-2023>
+(3)(geen Nederlandstalige versie) Art. 5bis.[1 . § 1. Onder "gelijkwaardige elektronische communicatie" in de zin van dit decreet wordt verstaan, iedere elektronische communicatieprocedure overeenkomstig het decreet van 27 maart 2014 betreffende de communicaties via elektronische weg tussen de gebruikers en de Waalse openbare overheden, en die dezelfde rechtsgevolgen voor betrokken partijen teweegbrengt als de nietelektronische procedure bepaald bij het betrokken artikel van dit decreet.
 De gelijkwaardige elektronische communicatie wordt enkel gebruikt als de belastingplichtige met deze communicatieprocedure instemt.
 § 2 Wanneer de belastingplichtige of zijn gevolmachtigde niet langer beschikt over de IT-middelen die nodig zijn om de gelijkwaardige elektronische communicatieprocedure te onderhouden, brengt hij de Waalse elektronische communicatieprocedure haar rechtsgevolgen en blijft ze uitvoerbaar tegen de belastingplichtige of zijn gemachtigde vertegenwoordiger. ]1 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 10, 030; Inwerkingtreding : 28-09-2023>
 
@@ -126,7 +238,9 @@ Voor ontbonden vennootschappen komt die plicht aan de vereffenaars toe.]1 (1)<DW
 
 ##### Art. 9.[1 Gemachtigden mogen eveneens het ondertekenen van aangiften op zich nemen, maar moeten in dat geval het bewijs van de machtiging leveren dat hen in staat stelt te handelen.
 Belastingplichtigen die niet kunnen lezen of ondertekenen, mogen hun aangiften laten invullen door de ambtenaren van de dienst waar de aangifte moet worden ingediend, op voorwaarde dat de vereiste aanwijzingen worden gegeven. Die omstandigheid wordt dan op de aangifte vermeld, welke ondertekend wordt door de ambtenaar die de aangifte heeft gekregen.
-Bij de zonder vereffening ontbonden vennootschappen in het kader van een fusie, een aan een fusie gelijkgestelde verrichting of een splitsing als bedoeld [2 in de artikelen 12:1 van het Wetboek van vennootschappen en verenigingen]2, of een gelijkaardige vennootschapsrechtelijke verrichting onder buitenlands recht, rust de verplichting tot aangifte naargelang het geval op de overnemende vennootschap of op de verkrijgende vennootschappen. Bij de andere ontbonden vennootschappen rust deze verplichting op de vereffenaars.]1 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013> (2)<DWG 2023-04-06/06, art. 64, 031; Inwerkingtreding : 02-11-2023>
+Bij de zonder vereffening ontbonden vennootschappen in het kader van een fusie, een aan een fusie
+
+gelijkgestelde verrichting of een splitsing als bedoeld [2 in de artikelen 12:1 van het Wetboek van vennootschappen en verenigingen]2, of een gelijkaardige vennootschapsrechtelijke verrichting onder buitenlands recht, rust de verplichting tot aangifte naargelang het geval op de overnemende vennootschap of op de verkrijgende vennootschappen. Bij de andere ontbonden vennootschappen rust deze verplichting op de vereffenaars.]1 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013> (2)<DWG 2023-04-06/06, art. 64, 031; Inwerkingtreding : 02-11-2023>
 
 ##### Art. 9bis.[1 Onverminderd andere specifieke bepalingen ter voorziening van bepaalde fiscale verplichtingen kan de [2 ]2 Regering eenieder die onderhevig is aan een belasting of taks bedoeld in dit decreet, alsmede de verenigingen, instellingen en groeperingen zonder rechtspersoonlijkheid, de verplichting opleggen boeken te houden of documenten en formulieren te bezigen waarvan zij het model en het gebruik bepaalt en die zij, wat haar of een derde betreft, nodig acht voor de controle en de inning van de belastingen en taksen bedoeld in dit decreet.]1 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013> (2)<DWG 2023-07-12/11, art. 12, 030; Inwerkingtreding : 28-09-2023>
 
@@ -141,7 +255,13 @@ Die inlichtingen kunnen betrekking hebben op de verrichtingen waaraan de belasti
 § 2. De administratieve diensten van [4 ...]4, de besturen van de provincies, de agglomeraties, de federaties van gemeenten en de gemeenten gelegen op het grondgebied van het Waalse Gewest, zomede de openbare instellingen en inrichtingen die actief zijn op het grondgebied van het Waalse Gewest, zijn gehouden, wanneer zij daartoe worden aangezocht door een ambtenaar belast met de vestiging of de invordering van de belastingen en taksen bedoeld in dit decreet, hem alle in hun bezit zijnde inlichtingen te verstrekken, hem, zonder verplaatsing, in alle in hun bezit zijnde akten, stukken, registers en om het even welke bescheiden inzage te verlenen, en hem alle inlichtingen, afschriften of uittreksels te laten nemen, welke de bedoelde ambtenaar voor de vestiging of de inningsvordering van de belastingen of taksen bedoeld in dit decreet nodig acht.
 Onder openbare instellingen worden verstaan, in de zin van het vorig lid, de instellingen, maatschappijen, verenigingen, inrichtingen en diensten welke het Waalse Gewest mede beheert, waaraan het Waalse Gewest een waarborg verstrekt, op de werkzaamheden waarvan het Waalse Gewest toezicht uitoefent of waarvan het bestuurspersoneel wordt aangewezen door de Waalse Regering, op haar voordracht of met haar goedkeuring.
 De Waalse Regering kan voorzien dat elke aanvraag tot overmaking van inlichtingen, akten, stukken, registers en om het even welke bescheiden inzake fiscaliteit, ingediend bij het Waalse Gewest door andere Belgische of buitenlandse overheden, alsook alle aanvragen om inlichtingen, akten, stukken, registers en om het even welke bescheiden inzake fiscaliteit, ingediend door het Waalse Gewest bij andere Belgische of buitenlandse overheden, alsook het ontvangen en verzenden van deze informatie, verplicht moeten gericht worden aan of gestuurd worden door een bepaalde dienst [3 van de Waalse Overheidsdienst Fiscaliteit]3 die zij aanwijst.
-§ 3. Ten opzichte van de in de § 2 bedoelde diensten, administraties, vennootschappen, verenigingen, instellingen of inrichtingen, die zouden nalaten aan de verplichtingen ingevolge die artikelen te voldoen, kan de Regering, al naar het geval, vorderen dat de Inspecteur van Financiën of een afgevaardigde van de Regering optreedt, een commissaris aanwijzen om de nodig geachte inlichtingen in te winnen of de erkenning met het oog op de door het Waalse Gewest verleende voordelen intrekken.]1 [2 § 4. [4 ...]4.]2 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013> (2)<DWG 2017-12-13/07, art. 22, 019; Inwerkingtreding : 01-01-2018> (3)<DWG 2021-12-22/12, art. 20, 026; Inwerkingtreding : 01-01-2022> (4)<DWG 2023-07-12/11, art. 14, 030; Inwerkingtreding : 28-09-2023>
+§ 3. Ten opzichte van de in de § 2 bedoelde diensten, administraties, vennootschappen, verenigingen, instellingen of inrichtingen, die zouden nalaten aan de verplichtingen ingevolge die artikelen te voldoen, kan de Regering, al naar het geval, vorderen dat de Inspecteur van Financiën of een afgevaardigde van de Regering optreedt, een commissaris aanwijzen om de nodig geachte inlichtingen in te winnen of de erkenning met het oog op de door het Waalse Gewest verleende voordelen intrekken.]1
+
+[2 § 4. [4 ...]4.]2
+(1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013>
+(2)<DWG 2017-12-13/07, art. 22, 019; Inwerkingtreding : 01-01-2018>
+(3)<DWG 2021-12-22/12, art. 20, 026; Inwerkingtreding : 01-01-2022>
+(4)<DWG 2023-07-12/11, art. 14, 030; Inwerkingtreding : 28-09-2023>
 
 ##### Art. 11bis.[1 § 1. Om controle uit te oefenen op de inning van de belastingen en taksen bedoeld in dit decreet, mogen de ambtenaren van de door de Regering aangewezen dienst elk ogenblik zonder voorafgaande verwittiging vrij binnendringen in alle gebouwen, werkplaatsen, inrichtingen, lokalen of andere plaatsen waar activiteiten waarop deze belastingen en taksen betrekking hebben, worden uitgeoefend of waarvan vermoed wordt dat ze daar uitgeoefend worden.
 Deze ambtenaren mogen o.a.:
@@ -161,6 +281,7 @@ d) [7 een proces-verbaal opmaken met toepassing van artikel 12bis, § 2, en de b
 Bij gebreke van onmiddellijke betaling kan de in lid 1 bedoelde ambtenaar een of meer van de volgende maatregelen nemen : - het achterhouden van boorddocumenten;
 - het inhouden van het kentekenbewijs;
 - een wielklem plaatsen;
+
 - verwijdering van het voertuig naar een opslagplaats; - parkeren van het voertuig.
 Het voertuig mag niet worden verplaatst of, in voorkomend geval, verwijderd zonder toestemming van de in lid 1 bedoelde ambtenaar.
 Als de verschuldigde sommen niet worden betaald binnen een termijn van zeven dagen volgend op de vaststelling van de overtreding, kan de ambtenaar belast met de invordering van de belastingvorderingen als bedoeld in artikel 34bis een dwangschrift afleveren en, eventueel, overgaan tot de inbeslagname van het voertuig overeenkomstig de artikelen 34bis en volgende, binnen de twee werkdagen volgend op het verstrijken van de bovenvermelde termijn van zeven dagen. Deze vervolgingen worden ingesteld tegenover de natuurlijke of de rechtspersoon die op het inschrijvingsbewijs vermeld is of moet zijn of bij ontstentenis tegenover de eigenaar, de uitbater of de houder van het voertuig. De eventuele risico's en onkosten voortvloeiend uit de maatregel tot bewaring en de eventuele vervolgingen zijn ten laste van de natuurlijke of rechtspersoon die op het inschrijvingsbewijs vermeld is of moet zijn, of bij ontstentenis, van de eigenaar, de uitbater of de houder van het voertuig.
@@ -182,7 +303,9 @@ De ambtenaren bedoeld in § 1 moeten in het kader van de controle van de inning 
 De [7 ...]7 Regering bepaalt het dienstuniform dat door deze ambtenaren gedragen wordt alsook de legitimatiekaart en de kentekens op de voertuigen die door laatstgenoemden zullen worden gebruikt.
 § 5. Onverminderd de bevoegdheden toegewezen aan de andere officiers of agenten van de gerechtelijke politie en aan de leden van het operationeel kader van de federale en de lokale politie, wijst de [7 ...]7 Regering de hoedanigheid van agent of officier van de gerechtelijke politie toe aan de beëdigde personeelsleden die zij aanwijst om de inning van de belastingen te controleren waarop dit decreet van toepassing is.]3 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013> (2)<DWG 2013-11-28/18, art. 43, 009; Inwerkingtreding : 01-01-2014> (3)<DWG 2013-11-28/18, art. 44, 009; Inwerkingtreding : 01-01-2014> (4)<DWG 2015-12-17/14, art. 36, 012; Inwerkingtreding : 01-04-2016> (5)<DWG 2016-12-21/02, art. 54, 014; Inwerkingtreding : 01-01-2017> (6)<DWG 2021-12-22/12, art. 21, 026; Inwerkingtreding : 01-01-2022> (7)<DWG 2023-07-12/11, art. 15, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 11ter.[1 De persoon die een in dit decreet bedoelde belasting of taks verschuldigd is, bewaart gedurende [2 tien]2 jaar, met ingang van 1 januari van het aanslagjaar, een afschrift van de desbetreffende aangiften overgemaakt aan de dienst die de Regering heeft aangewezen om ze in ontvangst te nemen, alsook de boeken, registers, facturen en andere bescheiden waarvan de wetgeving van toepassing op de betrokken taks of belasting het houden, het opmaken of het uitreiken voorschrijven, en ook de andere beheersdocumenten die nodig zijn voor de verificatie van de vaststelling en de inning van de belastingen en taksen bedoeld in dit decreet, met name de gegevens met betrekking tot de analyses, de programma's en het beheer van computersystemen gebruikt in het beheer van deze belastingen en taksen, en de informatiedragers en alle gegevens die zij bevatten.
+##### Art. 11ter.[1 De persoon die een in dit decreet bedoelde belasting of taks verschuldigd is, bewaart gedurende [2
+
+tien]2 jaar, met ingang van 1 januari van het aanslagjaar, een afschrift van de desbetreffende aangiften overgemaakt aan de dienst die de Regering heeft aangewezen om ze in ontvangst te nemen, alsook de boeken, registers, facturen en andere bescheiden waarvan de wetgeving van toepassing op de betrokken taks of belasting het houden, het opmaken of het uitreiken voorschrijven, en ook de andere beheersdocumenten die nodig zijn voor de verificatie van de vaststelling en de inning van de belastingen en taksen bedoeld in dit decreet, met name de gegevens met betrekking tot de analyses, de programma's en het beheer van computersystemen gebruikt in het beheer van deze belastingen en taksen, en de informatiedragers en alle gegevens die zij bevatten.
 Behoudens wanneer zij door het gerecht in beslag genomen worden, of behoudens afwijking toegestaan door de dienst aangewezen door de [3 ...]3 Regering, moeten de aangiften, boeken, registers, facturen en andere bescheiden bedoeld in het eerste lid, ter beschikking van deze dienst worden bewaard in het kantoor, agentschap, bijhuis of elk ander beroeps- of privélokaal van de belastingplichtige waar deze boeken en bescheiden werden gehouden, opgesteld of toegezonden.]1 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013> (2)<DWG 2021-12-22/12, art. 22, 026; Inwerkingtreding : 01-01-2022> (3)<DWG 2023-07-12/11, art. 16, 030; Inwerkingtreding : 28-09-2023>
 
 ##### Art. 11quater.[1 Hij die, in welke hoedanigheid ook, optreedt bij de toepassing van de Waalse fiscale bepalingen of die toegang heeft tot de kantoren [2 van de Waalse Overheidsdienst Fiscaliteit]2, is, buiten het uitoefenen van zijn ambt, verplicht tot de meest volstrekte geheimhouding aangaande alle zaken waarvan hij wegens de uitvoering van zijn opdracht kennis heeft.]1 [2 De in lid 1 bedoelde verplichting wordt opgeheven wanneer informatie wordt meegedeeld in het kader van een meldingssysteem dat specifiek bij decreet of bij besluit van de Regering is ingesteld.]2 (1)<Ingevoegd bij DWG 2013-11-28/18, art. 45, 009; Inwerkingtreding : 01-01-2014> (2)<DWG 2021-12-22/12, art. 23, 026; Inwerkingtreding : 01-01-2022>
@@ -254,6 +377,7 @@ De dienst die de [3 ...]3 Regering heeft aangewezen mag ook de aanslag van ambts
 ##### Art. 16.Vóór
 
 de aanslag van ambtswege gevestigd wordt, geeft [de dienst die de Regering heeft aangewezen] de belastingplichtige [3 ,bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie,]3kennis van de redenen waarom tot deze maatregel is beslist, van de bestanddelen waarop de aanslag steunt, van de wijze waarop bedoelde bestanddelen zijn bepaald en van het belastingbedrag. <BWG 2007-03-22/38, art. 59, 1°, 003; Inwerkingtreding : 01-01-2008; zie evenwel DWG 2007-03-22/38, art. 72, zoals gewijzigd bij DWG 2007-12-19/45, art. 6> De belastingplichtige beschikt [2 over een termijn van één maand te rekenen vanaf de datum van uitwerking van deze kennisgeving, zoals berekend overeenkomstig artikel 5, § 3,]2 om zijn bemerkingen schriftelijk [3 of via een gelijkwaardige elektronische communicatie]3 mede te delen.
+
 [De belasting kan niet vóór afloop van die termijn opgemaakt worden, tenzij de belastingplichtige schriftelijk heeft ingestemd [1 met de belasting van ambtswege]1 of tenzij de rechten van de gewestelijke Schatkist om een andere reden dan het verstrijken van de aanslagtermijnen in gevaar zijn.] <BWG 2007-03-22/38, art. 59, 003;
 19/45, art. 6>
 (1)<DWG 2009-04-30/93, art. 11, 1°, 005; Inwerkingtreding : 01-01-2008> (2)<DWG 2009-04-30/93, art. 11, 2°, 005; Inwerkingtreding : 01-07-2009> (3)<DWG 2023-07-12/11, art. 23, 030; Inwerkingtreding : 28-09-2023>
@@ -278,7 +402,9 @@ Bijzondere kohieren hebben betrekking op :
 § 2/2. De kohieren worden verbonden aan het begrotingsjaar dat loopt op de datum waarop ze uitvoerbaar worden verklaard; de belastingtarieven en eventueel de opcentiemen in verband met de respectieve aanslagjaren zijn van toepassing.
 § 2/3. [5 ...]5 ]3
 [1 § 3. [5 [7 ...]7.]5 ]1
-[6 § 4. Inzake de onroerende voorheffing worden de onroerende goederen die onder dezelfde belastingeenheid vallen met een gezamenlijk kadastraal inkomen lager dan vijftien euro niet ingekohierd. Een belastingeenheid wordt gevormd door de gezamenlijke percelen van een kadastrale afdeling gebonden aan dezelfde belastingplichtige of gezamenlijke belastingplichtigen die dezelfde zakelijke rechten op de betrokken goederen hebben.]6 (1)<DWG 2008-01-17/36, art. 21, 004; Inwerkingtreding : 01-01-2008> (2)<DWG 2009-12-10/27, art. 55, 006; Inwerkingtreding : 01-01-2010> (3)<DWG 2013-11-28/18, art. 49, 009; Inwerkingtreding : 01-01-2014> (4)<DWG 2014-12-12/02, art. 95, 011; Inwerkingtreding : 01-01-2015> (5)<DWG 2014-12-12/02, art. 134, 011; Inwerkingtreding : 08-01-2015> (6)<DWG 2020-12-17/47, art. 4, 025; Inwerkingtreding : 01-01-2021> (7)<DWG 2023-07-12/11, art. 24, 030; Inwerkingtreding : 28-09-2023>
+[6 § 4. Inzake de onroerende voorheffing worden de onroerende goederen die onder dezelfde belastingeenheid vallen met een gezamenlijk kadastraal inkomen lager dan vijftien euro niet ingekohierd. Een belastingeenheid wordt gevormd door de gezamenlijke percelen van een kadastrale afdeling gebonden aan dezelfde belastingplichtige of gezamenlijke belastingplichtigen die dezelfde zakelijke rechten op de betrokken goederen hebben.]6 (1)<DWG 2008-01-17/36, art. 21, 004; Inwerkingtreding : 01-01-2008> (2)<DWG 2009-12-10/27, art. 55, 006; Inwerkingtreding : 01-01-2010> (3)<DWG 2013-11-28/18, art. 49, 009; Inwerkingtreding : 01-01-2014> (4)<DWG 2014-12-12/02, art. 95, 011; Inwerkingtreding : 01-01-2015> (5)<DWG 2014-12-12/02, art. 134, 011; Inwerkingtreding : 08-01-2015> (6)<DWG 2020-12-17/47, art. 4, 025; Inwerkingtreding : 01-01-2021>
+
+(7)<DWG 2023-07-12/11, art. 24, 030; Inwerkingtreding : 28-09-2023>
 
 ##### Art. 18.[1 Voor de belastingen in hoofdsom, opcentiemen en [3 fiscale boetes]3 ten gunste van het Gewest, de provincies, de federaties van gemeenten en de gemeenten worden de kohieren aangelegd en uitvoerbaar verklaard door de ambtenaar aangewezen door de Regering [2 op de tijdstippen die door dezelfde ambtenaar worden bepaald]2 .]1 (1)<DWG 2013-11-28/18, art. 50, 009; Inwerkingtreding : 01-01-2014> (2)<DWG 2014-12-12/02, art. 135, 011; Inwerkingtreding : 08-01-2015> (3)<DWG 2021-12-22/12, art. 26, 026; Inwerkingtreding : 01-01-2022>
 
@@ -302,6 +428,7 @@ belastbaar tijdperk valt samen met het kalenderjaar waarop de voor belasting in 
 belasting moet uiterlijk gevestigd zijn op 30 juni van het jaar dat volgt op het aanslagjaar.
 [1 [3 De belasting of belastingtoeslag kan vanaf 1 januari van het aanslagjaar evenwel gedurende drie jaar gevestigd worden in het geval van : - belastingen die het voorwerp zijn van een procedure tot rechtzetting van de aangifte;
 - belastingen die het voorwerp zijn van een procedure tot aanslag van ambtswege;
+
 - belastingen bedoeld in artikel 17bis, § 1, b., voorzover ze niet betaald worden binnen de termijn bepaald bij de wetgeving die van toepassing is;
 - de Waalse belasting op het achterlaten van afval;
 - belastingen bedoeld in artikel 17bis, § 1, c) en d);
@@ -358,6 +485,7 @@ het aanslagbiljet moeten vermeld staan :
 Ze worden uiterlijk binnen twee maanden na de datum van verzending van het aanslagbiljet betaald.
 § 2. [1 De belasting opgenomen in een bijzonder kohier [3 bedoeld]3 in artikel 17bis, § 2, tweede lid, derde streepje, is opeisbaar zodra de betalingstermijn bepaald bij de wetgeving die op deze belasting van toepassing is, verstreken is.
 Ze moet onmiddellijk betaald worden. ]1
+
 [1 § 3. De belasting opgenomen in een bijzonder kohier [3 bedoeld]3 in artikel 17bis, § 2, tweede lid, vijfde streepje, is opeisbaar zodra de betalingstermijn bepaald bij deze uitnodiging tot betaling of deze fiscale afrekening verstreken is, waarbij de betalingstermijn niet korter dan vijftien dagen of langer dan drie maanden mag zijn, te rekenen van de eerste van de maand die volgt op die van de verzending.
 Ze moet onmiddellijk betaald worden.]1
 [3 § 4. De belasting opgenomen in een bijzonder kohier bedoeld in artikel 17bis, § 2, lid 2, zesde streepje, is eisbaar op de datum waarop het kohier uitvoerbaar is verklaard.
@@ -382,7 +510,9 @@ Het bezwaar dient te worden gemotiveerd en voorgelegd, op straffe van verval, ui
 
 ##### Art. 25bis
 
-[1 Het bezwaarschrift gericht tegen een belasting die gevestigd is op betwiste bestanddelen, geldt van ambtswege voor de andere belastingen gevestigd op dezelfde bestanddelen of als supplement vóór de beslissing van de ambtenaar aangewezen door de Regering, zelfs wanneer de termijnen tot bezwaar tegen die andere belastingen zouden zijn verstreken.]1 (1)<Ingevoegd bij DWG 2013-11-28/18, art. 53, 009; Inwerkingtreding : 01-01-2014>
+[1 Het bezwaarschrift gericht tegen een belasting die gevestigd is op betwiste bestanddelen, geldt van ambtswege voor de andere belastingen gevestigd op dezelfde bestanddelen of als supplement vóór de beslissing van de ambtenaar aangewezen door de Regering, zelfs wanneer de termijnen tot bezwaar tegen die andere belastingen zouden zijn verstreken.]1
+
+(1)<Ingevoegd bij DWG 2013-11-28/18, art. 53, 009; Inwerkingtreding : 01-01-2014>
 
 ##### Art. 26
 
@@ -407,7 +537,9 @@ Als de ambtshalve ontheffing op initiatief van de dienst aangewezen door de Rege
 Het beroep wordt ingediend door middel van een verzoekschrift op tegenspraak of bij dagvaarding betekend aan het Gewest in de persoon van de Minister-President.
 De artikelen 1385decies en 1385undecies van het Gerechtelijk Wetboek zijn van toepassing op dit gerechtelijk beroep.
 De termijn van zes maanden bedoeld in het eerste lid wordt met drie maanden verlengd als de omstreden belasting van ambtswege is gevestigd door de dienst bedoeld in artikel 15.
-Indien het gerechtelijk beroep ingediend wordt omdat over het bezwaar of de aanvraag tot ontheffing geen beslissing is getroffen na verstrijken van de termijn van zes maanden bedoeld in het eerste lid, wordt de behandeling van het bezwaar onttrokken aan de door de Regering aangewezen ambtenaar.]1 [3 § 2. In de gerechtelijke beroepen bedoeld in paragraaf 1, kan de verschijning in persoon namens het Waals Gewest worden verzekerd door elke ambtenaar van de Waalse Overheidsdienst Financiën]3 (1)<DWG 2008-01-17/36, art. 24, 004; Inwerkingtreding : 01-01-2008> (2)<DWG 2009-12-10/27, art. 69, 006; En vigueur : 01-01-2010> (3)<DWG 2023-07-12/11, art. 29, 030; Inwerkingtreding : 28-09-2023>
+Indien het gerechtelijk beroep ingediend wordt omdat over het bezwaar of de aanvraag tot ontheffing geen beslissing is getroffen na verstrijken van de termijn van zes maanden bedoeld in het eerste lid, wordt de behandeling van het bezwaar onttrokken aan de door de Regering aangewezen ambtenaar.]1 [3 § 2. In de gerechtelijke beroepen bedoeld in paragraaf 1, kan de verschijning in persoon namens het Waals
+
+Gewest worden verzekerd door elke ambtenaar van de Waalse Overheidsdienst Financiën]3 (1)<DWG 2008-01-17/36, art. 24, 004; Inwerkingtreding : 01-01-2008> (2)<DWG 2009-12-10/27, art. 69, 006; En vigueur : 01-01-2010> (3)<DWG 2023-07-12/11, art. 29, 030; Inwerkingtreding : 28-09-2023>
 
 ## HOOFDSTUK Vbis. [1 Bijkomende aanvragen tot teruggave.]1
 
@@ -489,7 +621,9 @@ Indien de vervaldate en de termijnen waarom is verzocht, worden geweigerd, moete
 [1 Het kohier is uitvoerbaar tegen de personen die er niet in zijn opgenomen in de mate zij gehouden zijn tot de betaling van de belastingschuld op grond van het gemeen recht of op grond van de bepalingen van dit decreet of van de wetgeving die de bedoelde belasting vestigt.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 73, 006; Inwerkingtreding : 01-01-2010>
 
 ##### Art. 35quater.[1 § 1. De erfgenamen van een overleden belastingplichtige moeten tot het bedrag van hun erfelijk aandeel de door de erflater nog niet-betaalde of ontdoken rechten betalen, tenzij de ontoereikende inning het gevolg is van misslagen begaan door ambtenaren van de dienst aangewezen door de [2 ...]2 Regering.
-§ 2. De invordering van de belasting van een met toepassing [3 van de artikelen 12:4 tot 12:6 van het Wetboek van vennootschappen en verenigingen]3 of van een gelijkaardige vennootschapsrechtelijke verrichting onder buitenlands recht gesplitste vennootschap gevestigd ten name van de verkrijgende vennootschappen wordt, behoudens afwijkende vermeldingen in de akte die de verrichting vaststelt, verricht ten name van de verschillende verkrijgende vennootschappen na rato van de werkelijke waarde van het netto actief dat ze elk ontvangen hebben.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 74, 006; Inwerkingtreding : 01-01-2010> (2)<DWG 2023-07-12/11, art. 36, 030; Inwerkingtreding : 28-09-2023> (3)<DWG 2023-04-06/06, art. 67, 031; Inwerkingtreding : 02-11-2023>
+§ 2. De invordering van de belasting van een met toepassing [3 van de artikelen 12:4 tot 12:6 van het Wetboek van vennootschappen en verenigingen]3 of van een gelijkaardige vennootschapsrechtelijke verrichting onder
+
+buitenlands recht gesplitste vennootschap gevestigd ten name van de verkrijgende vennootschappen wordt, behoudens afwijkende vermeldingen in de akte die de verrichting vaststelt, verricht ten name van de verschillende verkrijgende vennootschappen na rato van de werkelijke waarde van het netto actief dat ze elk ontvangen hebben.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 74, 006; Inwerkingtreding : 01-01-2010> (2)<DWG 2023-07-12/11, art. 36, 030; Inwerkingtreding : 28-09-2023> (3)<DWG 2023-04-06/06, art. 67, 031; Inwerkingtreding : 02-11-2023>
 
 ##### Art. 35quinquies
 
@@ -598,7 +732,9 @@ De ontvangers die de ontvangsten hebben uitgevoerd, zorgen voor de terugbetaling
 
 ### Afdeling 2. - Uitwerking van het beroep op de invordering.
 
-##### Art. 53.[1 In afwijking van de artikelen 24bis en 30bis wordt de omstreden belasting, als er een administratief verhaal of een gerechtelijk beroep wordt ingediend, gebeurlijk vermeerderd met de [6 fiscale boete]6, de interest en de kosten, enkel beschouwd als een zekere en vaststaande schuld die op alle wijzen van uitvoering mag worden ingevorderd, voor zover ze beantwoordt : - aan de gegevens die vermeld zijn in de aangifte van de belastingplichtige of aan gegevens waarmee de belastingplichtige zich akkoord heeft verklaard bij het vestigen van de belasting;
+##### Art. 53.[1 In afwijking van de artikelen 24bis en 30bis wordt de omstreden belasting, als er een administratief verhaal of een gerechtelijk beroep wordt ingediend, gebeurlijk vermeerderd met de [6 fiscale boete]6, de interest en de kosten, enkel beschouwd als een zekere en vaststaande schuld die op alle wijzen van uitvoering mag worden ingevorderd, voor zover ze beantwoordt : - aan de gegevens die vermeld zijn in de aangifte van de belastingplichtige of aan gegevens waarmee de
+
+belastingplichtige zich akkoord heeft verklaard bij het vestigen van de belasting;
 - of, in geval van aanslag van ambtswege bij gebreke van aangifte, aan de belasting van dezelfde aard die ingekohierd werd ten laste van de belastingplichtige voor het voorgaande aanslagjaar;
 [5 - of, in geval van onroerende voorheffing, aan een bedrag bepaald in functie van de gegevens vermeld in het bezwaarschrift of het beroep.]5 [8 In afwijking van het eerste lid wordt [10 , inzake heffingen op afval, de omstreden belasting]10 als er een gerechtelijk beroep wordt ingediend, vermeerderd met de boete, de interest en de kosten, beschouwd als een zekere en vaststaande schuld die op alle wijzen van uitvoering mag worden ingevorderd.]8 De omstreden belasting, gebeurlijk vermeerderd met de [6 fiscale boete]6, de interest en de kosten, die de perken vermeld onder het eerste lid overschrijdt, kan het voorwerp uitmaken van een bewarend beslag met het oog op het waarborgen van de latere invordering.
 Na invordering van de aanslag in de mate bepaald in het eerste lid behoudt het uitvoerend beslag zijn uitwerking ten opzichte van het overschot van de belasting, van de [6 fiscale boetes]6, van de interesten en de kosten.]1 [9 ...]9 [11 In afwijking van het eerste lid wordt elke belasting inzake afval, als er een gerechtelijk beroep wordt ingediend, vermeerderd met de boete, de interest en de kosten, beschouwd als een zekere en vaststaande schuld die op alle wijzen van uitvoering mag worden ingevorderd.]11 [12 In afwijking van lid 1 wordt, in geval van gerechtelijk verhaal, elke afvalbelasting, samen met een eventuele boete, rente en kosten, beschouwd als een liquide en vaststaande schuld die kan worden ingevorderd met alle middelen van tenuitvoerlegging.]12 (1)<DWG 2009-12-10/27, art. 81, 006; Inwerkingtreding : 01-01-2010> (2)<DWG 2016-12-21/01, art. 28, 015; Inwerkingtreding : 01-01-2017> (3)<DWG 2017-12-13/09, art. 1, 018; Inwerkingtreding : 01-01-2018> <DWG 2018-11-29/09, art. 21, 020;
@@ -631,6 +767,7 @@ In bijzondere gevallen kan de door de Regering aangewezen ambtenaar de invorderi
 3° door verzending door de ontvanger [4 ,bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie,]4 van een aanmaning tot betaling die de gegevens van het aanslagbiljet bevat.
 Wat punt 3° betreft, geldt de afgifte van het stuk aan de aanbieder van de universele postdienst als kennisgeving vanaf de derde daaropvolgende werkdag. Heeft de geadresseerde noch in België noch in het buitenland een gekende woonplaats, dan wordt de aanmaning tot betaling verzonden [4 bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie aan de procureur des Konings te Namen]4. De kosten voor de aangetekende verzending zijn ten laste van de geadresseerde.
 Indien de verjaring gestuit wordt, is een nieuwe verjaring die op dezelfde manier gestuit kan worden, vaststaand vijf jaar na de laatste stuitingsakte van de voorgaande verjaring indien er geen aanleg voor de rechtbank plaats heeft gevonden.]2
+
 § 2. Elke rechtszaak betreffende de vestiging of de inning van de belastingen, de interesten of van de [3 fiscale boetes]3, die in het Waalse Gewest ingediend is door de persoon die deze belastingen, interesten of [3 fiscale boetes]3 moet betalen, of elke andere persoon die de schuld moet betalen, schorst de loop van een verjaring bedoeld in artikel 56 of in § 1 van dit artikel.
 Het bezwaar en de aanvraag tot ontheffing schorsen ook de loop van de verjaring.
 In geval van rechtszaak begint de schorsing met de akte van rechtsingang en eindigt wanneer de rechterlijke beslissing in kracht van gewijsde is getreden.
@@ -663,7 +800,9 @@ De decharge voor deze schuldvordering kan aan de ontvanger alleen verleend worde
 Het voorrecht bezwaart eveneens alle roerende goederen van de personen die [3 de belastingen, de interesten en de kosten, evenals ieder ander bedrag bedoeld in artikel 34bis, lid 2,]3 moeten betalen krachtens het gemeen recht, de bepalingen van dit decreet of de wetgeving die de ingekohierde belastingen ten laste van de belastingplichtige vastlegt.
 De wettelijke hypotheek bezwaart eveneens de in België gelegen goederen die vatbaar zijn voor hypotheek en die toebehoren aan personen die de [3 ...]3 belastingen, [2 fiscale boetes]2 [3 , de interesten en de kosten, evenals ieder ander bedrag bedoeld in artikel 34bis, lid 2,]3 moeten betalen krachtens het gemeen recht, de bepalingen van dit decreet of de wetgeving die de ingekohierde belastingen ten laste van de belastingplichtige vastlegt.]1 (1)<DWG 2017-12-13/07, art. 30, 019; Inwerkingtreding : 01-01-2018> (2)<DWG 2021-12-22/12, art. 38, 026; Inwerkingtreding : 01-01-2022> (3)<DWG 2023-07-12/11, art. 49, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 59.[1 Het in artikel 58 bedoelde voorrecht neemt rang onmiddellijk na dat vermeld in artikel 19, 5°, van de wet van 16 december 1851.
+##### Art. 59.[1 Het in artikel 58 bedoelde voorrecht neemt rang onmiddellijk na dat vermeld in artikel 19, 5°, van de
+
+wet van 16 december 1851.
 De toewijzing bij voorkeur, ingevoerd bij artikel 19 in fine van de wet van 16 december 1851, is van toepassing op de belastingen en taksen waarop artikel 58 van dit decreet toepasselijk is.]1 (1)<DWG 2009-04-30/93, art. 17, 005; Inwerkingtreding : 01-07-2009>
 
 ##### Art. 60
@@ -692,7 +831,9 @@ De hypothecaire formaliteitskosten met betrekking tot de wettelijke hypotheek zi
 Het bericht dient in dubbel exemplaar opgemaakt en [3 bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie]3 verzonden te worden. Indien de akte waarvan sprake niet verleden wordt binnen drie maanden te rekenen van de verzending van het bericht, wordt het als niet bestaande beschouwd.
 § 2. Indien het belang van het Waalse Gewest zulks vereist, wordt door de ontvanger aan de notaris, voor het verstrijken van de twaalfde werkdag volgend op de verzending van het in § 1 bedoelde bericht en [3 bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatiebij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie]3 kennis gegeven van het bedrag van de belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten die aanleiding kunnen geven tot inschrijving van de wettelijke hypotheek bedoeld in artikel 58 op de goederen welke het voorwerp van de akte zijn.
 § 3. Wanneer de in § 1 bedoelde akte verleden is, geldt de in § 2 bedoelde kennisgeving als beslag onder derden in handen van de notaris op de bedragen en waarden die hij krachtens de akte onder zich houdt voor rekening of ten bate van de belastingplichtige. Deze kennisgeving geldt als verzet tegen de prijs in de zin van artikel 1642 van het Gerechtelijk Wetboek in de gevallen waarin de notaris gehouden is de bedragen en waarden overeenkomstig de artikelen 1639 tot 1654, van het Gerechtelijk Wetboek te verdelen.
-Onverminderd de rechten van derden, is de notaris ertoe gehouden, wanneer de in § 1 bedoelde akte verleden is, behoudens toepassing van de artikelen 1639 tot 1654, van het Gerechtelijk Wetboek, de bedragen en waarden die hij krachtens de akte onder zich houdt voor rekening of ten bate van de belastingplichtige, uiterlijk de achtste werkdag die volgt op het verlijden van de akte, aan de ontvanger te storten tot beloop van het bedrag van de belastingen, [2 fiscale boetes ]2, nalatigheidsinteresten en kosten die hem ter uitvoering van § 2 ter kennis werden gebracht en in zoverre deze belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten een zekere en vaststaande schuld op het tijdstip van de storting vormen.
+Onverminderd de rechten van derden, is de notaris ertoe gehouden, wanneer de in § 1 bedoelde akte verleden is, behoudens toepassing van de artikelen 1639 tot 1654, van het Gerechtelijk Wetboek, de bedragen en waarden die hij krachtens de akte onder zich houdt voor rekening of ten bate van de belastingplichtige, uiterlijk de achtste werkdag die volgt op het verlijden van de akte, aan de ontvanger te storten tot beloop van het bedrag van de belastingen, [2 fiscale boetes ]2, nalatigheidsinteresten en kosten die hem ter uitvoering van § 2 ter kennis
+
+werden gebracht en in zoverre deze belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten een zekere en vaststaande schuld op het tijdstip van de storting vormen.
 Daarenboven, indien de aldus door beslag onder derden getroffen sommen en waarden minder bedragen dan het totaal der sommen verschuldigd aan de ingeschreven schuldeisers en aan de verzetdoende schuldeisers, hierin begrepen de ontvanger, moet de notaris, op straffe van persoonlijke aansprakelijkheid voor het overschot, daarover [3 bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie,]3 deze ontvanger inlichten uiterlijk de eerste werkdag die volgt op het verlijden van de akte.
 Onverminderd de rechten van derden kan de overschrijving of de inschrijving van de akte niet tegen het Waalse Gewest ingeroepen worden indien de inschrijving van de wettelijke hypotheek geschiedt binnen acht werkdagen nadat het in het vorig lid bedoelde bericht ter post is neergelegd [3 of via een gelijkwaardige elektronische communicatie]3.
 Zijn zonder uitwerking ten opzichte van de schuldvorderingen inzake belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten, welke in uitvoering van § 2 werden ter kennis gegeven, alle niet ingeschreven schuldvorderingen waarvoor slechts na het verstrijken van de in het derde lid voorziene termijn wordt beslag gelegd of verzet aangetekend.
@@ -715,7 +856,9 @@ De afgifte van een attest door die instellingen aan de notaris betreffende de ve
 - wordt door de ontvanger aan de belastingplichtige, voor het verstrijken van de twaalfde werkdag volgend op de verzending van het in § 1 bedoelde bericht en [3 bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie]3 kennis gegeven van het bedrag van de belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten die aanleiding kunnen geven tot inschrijving van de wettelijke hypotheek bedoeld in artikel 58 op de goederen welke het voorwerp van de akte zijn;
 - wordt door de ontvanger aan de kopers kennis gegeven van de belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten die aanleiding kunnen geven tot inschrijving van de wettelijke hypotheek bedoeld in artikel 58 op de goederen welke het voorwerp van de akte zijn; deze kennisgeving geldt als beslag onder derden in handen van de kopers op de bedragen en waarden die zij krachtens de akte onder zich houden voor rekening of ten bate van de belastingplichtige.
 § 3. Onverminderd de rechten van derden kan de overschrijving of de inschrijving van de akte bedoeld in § 1 niet tegen het Waalse Gewest ingeroepen worden indien de inschrijving van de wettelijke hypotheek geschiedt binnen acht werkdagen nadat de in § 2 bedoelde kennisgeving ter post is neergelegd.
-Zijn zonder uitwerking ten opzichte van de schuldvorderingen inzake belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten, welke in uitvoering van § 2 werden ter kennis gegeven, alle niet ingeschreven schuldvorderingen waarvoor slechts na de dag van het verlijden van de akte wordt beslag gelegd of verzet aangetekend [3 of via een gelijkwaardige elektronische communicatie is gedaan]3.
+Zijn zonder uitwerking ten opzichte van de schuldvorderingen inzake belastingen, [2 fiscale boetes]2,
+
+nalatigheidsinteresten en kosten, welke in uitvoering van § 2 werden ter kennis gegeven, alle niet ingeschreven schuldvorderingen waarvoor slechts na de dag van het verlijden van de akte wordt beslag gelegd of verzet aangetekend [3 of via een gelijkwaardige elektronische communicatie is gedaan]3.
 § 4. De inschrijvingen genomen na de in § 3, eerste lid, bedoelde termijn, of tot zekerheid van belastingen die niet overeenkomstig § 2 werden ter kennis gegeven, kunnen niet worden ingeroepen tegen de hypothecaire schuldeiser, noch tegen de koper die handlichting ervan zal kunnen vorderen.
 § 5. De[ -3 ...]3 Regering bepaalt de voorwaarden en de modaliteiten voor de toepassing van dit artikel.
 Het in § 1 bedoelde bericht dient opgemaakt te worden overeenkomstig het door de Waalse Regering bepaalde model.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 84, 006; Inwerkingtreding : onbepaald> (2)<DWG 2021-12-22/12, art. 41, 026; Inwerkingtreding : 01-01-2022> (3)<DWG 2023-07-12/11, art. 51, 030; Inwerkingtreding : 28-09-2023>
@@ -736,7 +879,9 @@ Het in § 1 bedoelde bericht dient opgemaakt te worden overeenkomstig het door d
 Indien de overtreding echter met bedrieglijk opzet of met het oog schade te berokkenen is gepleegd, is een fiscale geldboete tussen 5 00 en 5 000 EUR of van 100 tot 250 procent van het bedrag van de belasting van toepassing.
 De Regering stelt de in de leden 1 en 2 bedoelde fiscale boeteschalen vast en bepaalt dat de in lid 1 bedoelde fiscale boete slechts wordt kwijtgescholden voor de eerste overtreding die door de belastingplichtige te goeder trouw wordt begaan]7.]2
 § 2. In afwijking van § 1 :
-1° voor de belastingen op afval [4 en voor de belastingen en winningsbijdragen bedoeld in hoofdstuk II van titel II van deel III van Boek II van het Milieuwetboek, dat het Waterwetboek inhoudt]4 krijgt de belastingplichtige, in geval van rechtzetting of van belasting van ambtswege, een fiscale boete waarvan het bedrag gelijk is aan twee keer het bedrag van de ontdoken belasting.
+1° voor de belastingen op afval [4 en voor de belastingen en winningsbijdragen bedoeld in hoofdstuk II van titel II van deel III van Boek II van het Milieuwetboek, dat het Waterwetboek inhoudt]4 krijgt de belastingplichtige, in
+
+geval van rechtzetting of van belasting van ambtswege, een fiscale boete waarvan het bedrag gelijk is aan twee keer het bedrag van de ontdoken belasting.
 [7 Deze fiscale boete wordt]7 door de dienst die de Regering aanwijst verminderd tot maximum 50 % van het bedrag van de ontdoken belasting als er geen bedoeling was te bedriegen of te schaden.
 Ze wordt door de dienst die de Regering aanwijst verminderd tot maximum 10 % van het bedrag van de ontdoken belasting in geval van eerste overtreding begaan door de belastingplichtige zonder bedoeling te bedriegen of te schaden.
 Ze wordt helemaal en van ambtswege opgeschort in geval van spontane regularisatie door de belastingplichtige;
@@ -755,6 +900,7 @@ De Regering bepaalt de schaal van de fiscale boetes bedoeld in de leden 1 en 2 e
 Elk ingediend verzoekschrift bedoeld in § 1 is ontvankelijk wanneer:
 1° de termijnen voor administratieve beroepen niet vervallen zijn, of;
 2° de administratieve geschillenfase niet afgesloten is [3 of-3]1;
+
 [3 3° de gerechtelijke geschillenfase niet afgesloten is. ]3
 (1)<DWG 2017-12-13/07, art. 31, 019; Inwerkingtreding : 01-01-2018>
 (2)<DWG 2021-12-22/12, art. 44, 026; Inwerkingtreding : 01-01-2022>
@@ -788,6 +934,7 @@ b) voor de toepassing van de andere bepalingen van dit hoofdstuk IXbis dan artik
 12° "spontane uitwisseling" : het niet-systematisch, te eniger tijd en ongevraagd verstrekken van inlichtingen aan een andere lidstaat;
 13° "persoon" :
 a) een natuurlijke persoon;
+
 b) een rechtspersoon;
 c) indien de geldende wetgeving in die mogelijkheid voorziet, een vereniging van personen die bevoegd is rechtshandelingen te verrichten, maar niet de status van rechtspersoon bezit;
 d) een andere juridische constructie, ongeacht de aard of de vorm, met of zonder rechtspersoonlijkheid, die activa, met inbegrip van de daardoor gegenereerde inkomsten, bezit of beheert welke aan belastingen in de zin van deze richtlijn zijn onderworpen [6 dan wel of een natuurlijke persoon al dan niet fiscaal ingezetene is van de lidstaat die de ruling afgeeft;]6;
@@ -815,7 +962,9 @@ Voor de toepassing van de punten 19° tot 26°, van paragraaf 2 en van artikel 6
 20° "meldingsplichtige grensoverschrijdende constructie": iedere grensoverschrijdende constructie die ten minste één van de wezenskenmerken bezit;
 21° "wezenskenmerk": een eigenschap of kenmerk van een grensoverschrijdende constructie die geldt als een indicatie van een mogelijk risico op belastingontwijking, als genoemd in paragraaf 2;
 22° "intermediair": een persoon die een meldingsplichtige grensoverschrijdende constructie bedenkt, aanbiedt, opzet, beschikbaar maakt voor implementatie of de implementatie ervan beheert.
-Intermediair is ook een persoon die, gelet op de betrokken feiten en omstandigheden en op basis van de beschikbare informatie en de deskundigheid die en het begrip dat nodig is om die diensten te verstrekken, weet of redelijkerwijs kon weten dat hij heeft toegezegd rechtstreeks of via andere personen hulp, bijstand of advies te verstrekken met betrekking tot het bedenken, aanbieden, opzetten, beschikbaar maken voor implementatie of beheren van de implementatie van een meldingsplichtige grensoverschrijdende constructie. Elke persoon heeft het recht bewijs te leveren van het feit dat een dergelijk persoon niet wist en redelijkerwijs niet kon weten dat die persoon bij een meldingsplichtige grensoverschrijdende constructie betrokken was. Daartoe kan die persoon alle relevante feiten en omstandigheden, beschikbare informatie en zijn relevante deskundigheid en begrip ervan vermelden.
+Intermediair is ook een persoon die, gelet op de betrokken feiten en omstandigheden en op basis van de beschikbare informatie en de deskundigheid die en het begrip dat nodig is om die diensten te verstrekken, weet of redelijkerwijs kon weten dat hij heeft toegezegd rechtstreeks of via andere personen hulp, bijstand of advies te verstrekken met betrekking tot het bedenken, aanbieden, opzetten, beschikbaar maken voor implementatie of beheren van de implementatie van een meldingsplichtige grensoverschrijdende constructie. Elke persoon heeft het recht bewijs te leveren van het feit dat een dergelijk persoon niet wist en redelijkerwijs niet kon weten dat die persoon bij een meldingsplichtige grensoverschrijdende constructie betrokken was. Daartoe kan die persoon alle
+
+relevante feiten en omstandigheden, beschikbare informatie en zijn relevante deskundigheid en begrip ervan vermelden.
 Om een intermediair te zijn, dient een persoon ten minste één van de volgende aanvullende voorwaarden te vervullen:
 a) fiscaal inwoner van een lidstaat zijn;
 b) beschikken over een vaste inrichting in een lidstaat via welke de diensten in verband met de constructie worden verleend;
@@ -837,7 +986,9 @@ Een natuurlijk persoon, zijn of haar echtgenoot en bloedverwanten in de rechte l
 30° "levensverzekeringsproducten die niet onder andere rechtsinstrumenten van de Unie inzake inlichtingenuitwisseling en andere soortgelijke maatregelen vallen": verzekeringscontracten, met uitzondering van kapitaalverzekeringen die moeten worden gerapporteerd, waarbij uitkeringen uit hoofde van de overeenkomsten verschuldigd zijn bij overlijden van een polishouder;
 31° "distributed-ledger-adres": distributed-ledger-adres als bedoeld in Verordening (EU) 2023/1114 van het Europees Parlement en de Raad van 31 mei 2023 betreffende cryptoactivamarkten en tot wijziging van Verordeningen (EU) nr. 1093/2010 en (EU) nr. 1095/2010 en Richtlijnen 2013/36/EU en (EU) 2019/1937;
 32° "cliënt": voor de toepassing van artikel 64quinquies/2, elke intermediair of relevante belastingplichtige die diensten, met inbegrip van bijstand, advies, raad of begeleiding, ontvangt van een tot het juridisch beroepsgeheim gehouden intermediair met betrekking tot een meldingsplichtige grensoverschrijdende constructie;
-33° "FIN": een fiscaal identificatienummer of functioneel equivalent bij gebreke van een fiscaal identificatienummer;
+33° "FIN": een fiscaal identificatienummer of functioneel equivalent bij gebreke van een fiscaal
+
+identificatienummer;
 34° "financiële instelling": een bewaarinstelling, een instelling die deposito's neemt, een beleggingsentiteit of een omschreven verzekeringsmaatschappij;
 35° "bewaarinstelling": een entiteit die voor rekening van derden financiële activa in bewaring houdt als een wezenlijk deel van haar bedrijfsactiviteiten;
 36° "Instelling die deposito's neemt": een entiteit die opvorderbare gelden verkrijgt in het kader van de normale uitoefening van het bankbedrijf of een daarmee vergelijkbaar bedrijf, of elektronisch geld of digitale centralebankmunten ten behoeve van klanten aanhoudt;
@@ -857,7 +1008,9 @@ Wat lid 4, 39°, betreft kan een gegevensinbreukt betrekking hebben op de vertro
 1° categorie A: de in lid 5 bedoelde algemene wezenskenmerken;
 2° categorie B: de in lid 6 bedoelde specifieke wezenskenmerken;
 3° categorie C: de in lid 7 bedoelde specifieke wezenskenmerken in verband met grensoverschrijdende transacties;
-4° categorie D: de in lid 8 bedoelde specifieke wezenskenmerken in verband met automatische uitwisseling van inlichtingen en uiteindelijk belang;
+4° categorie D: de in lid 8 bedoelde specifieke wezenskenmerken in verband met automatische uitwisseling van
+
+inlichtingen en uiteindelijk belang;
 5° categorie E: de in lid 9 bedoelde specifieke wezenskenmerken in verband met verrekenprijzen.
 De in lid 5 bedoelde algemene wezenskenmerken in categorie A en de in lid 6 bedoelde specifieke wezenskenmerken in categorie B, en categorie C, als bedoeld in lid 7, 1°, punten b), eerste streepje, c) en d), mogen uitsluitend in aanmerking worden genomen indien ze aan de "main benefit test" voldoen".
 Aan die toets is voldaan indien kan worden aangetoond dat het belangrijkste voordeel dat of een van de belangrijkste voordelen die, gelet op alle relevante feiten en omstandigheden, redelijkerwijs te verwachten valt van een constructie het verkrijgen van een belastingvoordeel is.
@@ -886,7 +1039,9 @@ Worden beschouwd als specifieke wezenskenmerken in verband met automatische uitw
 a) het gebruik van een rekening, product of belegging die geen financiële rekening is of niet als zodanig te boek staat, maar die over eigenschappen beschikt die in wezen vergelijkbaar zijn met die van een financiële rekening;
 b) de overdracht van financiële rekeningen of activa aan, of het gebruik van rechtsgebieden die niet gebonden zijn aan de automatische uitwisseling van inlichtingen over financiële rekeningen met de staat van verblijf van de relevante belastingplichtige;
 c) de herkwalificatie van inkomsten en vermogen in producten of betalingen die niet onder de automatische uitwisseling van inlichtingen vallen;
-d) de overdracht of omzetting van een financiële instelling of een financiële rekening of de activa daarvan in een financiële instelling of een financiële rekening of activa die niet onder de rapportage in het kader van de automatische uitwisseling van inlichtingen vallen;
+d) de overdracht of omzetting van een financiële instelling of een financiële rekening of de activa daarvan in een financiële instelling of een financiële rekening of activa die niet onder de rapportage in het kader van de
+
+automatische uitwisseling van inlichtingen vallen;
 e) het gebruik van rechtspersonen, juridische constructies of structuren die de rapportage over één of meer rekeninghouders of uiteindelijk begunstigden in het kader van de automatische uitwisseling van inlichtingen over financiële rekeningen stopzetten of daartoe strekken;
 f) constructies die due-diligenceprocedures die door financiële instellingen worden gebruikt om te voldoen aan hun verplichtingen tot het rapporteren van inlichtingen over financiële rekeningen, ondermijnen of zwakke punten ervan benutten, onder meer via het gebruik van rechtsgebieden met ontoereikende of zwakke regelingen voor de handhaving van antiwitwaswetgeving of met zwakke transparantievereisten voor rechtspersonen of juridische constructies;
 2° een constructie waarbij de juridische of feitelijke eigendom niet-transparant is door het gebruik van personen, juridische constructies of structuren:
@@ -911,7 +1066,9 @@ De Belgische bevoegde autoriteit kan de verzochte autoriteit erom verzoeken haar
 Indien de Belgische bevoegde autoriteit in voorkomend geval van oordeel is dat geen administratief onderzoek nodig is, stelt zij de verzoekende autoriteit onverwijld in kennis van de redenen daarvoor.
 Voor het verrichten van het gevraagde administratieve onderzoek gaat de Belgische bevoegde autoriteit te werk volgens dezelfde procedures als handelde zij uit eigen beweging of op verzoek van een andere Belgische autoriteit.
 Op uitdrukkelijk verzoek van de verzoekende autoriteit deelt de Belgische bevoegde autoriteit de verzoekende autoriteit de originele stukken mee, tenzij de Belgische voorschriften zich hiertegen verzetten.
-§ 3. Met het oog op een verzoek bedoeld in paragraaf 1 of paragraaf 2 zijn de gevraagde inlichtingen waarschijnlijk relevant wanneer, op het ogenblik waarop het verzoek geformuleerd wordt, de verzoekende autoriteit van oordeel is dat er, overeenkomstig haar nationaal recht, een redelijke mogelijkheid bestaat dat de verzochte inichtingen relevant zijn voor de belastingzaken van één of meer door hun naam of op andere wijze geïdentificeerde belastingplichtigen en met het oog op het onderzoek gerechtvaardigd zijn.
+§ 3. Met het oog op een verzoek bedoeld in paragraaf 1 of paragraaf 2 zijn de gevraagde inlichtingen waarschijnlijk relevant wanneer, op het ogenblik waarop het verzoek geformuleerd wordt, de verzoekende autoriteit van oordeel is dat er, overeenkomstig haar nationaal recht, een redelijke mogelijkheid bestaat dat de verzochte inichtingen relevant zijn voor de belastingzaken van één of meer door hun naam of op andere wijze
+
+geïdentificeerde belastingplichtigen en met het oog op het onderzoek gerechtvaardigd zijn.
 Om de waarschijnlijke relevantie van de gevraagde informatie aan te tonen, verstrekt de verzoekende autoriteit de aangezochte autoriteit ten minste de volgende informatie :
 1° het fiscale doel waarvoor de informatie wordt opgevraagd; en
 2° de specificatie van de informatie die nodig is voor het beheer of de toepassing van zijn nationale wetgeving.
@@ -944,7 +1101,9 @@ Indien de Belgische bevoegde autoriteit niet over de gevraagde inlichtingen besc
 ##### Art. 64quinquies.[1 1. De Belgische bevoegde autoriteit deelt de bevoegde autoriteit van een andere lidstaat, in het kader van de automatische uitwisseling, alle informatie mee waarover zij beschikt betreffende de inwoners van deze andere lidstaat en die verband houden met volgende specifieke inkomsten- en kapitaalcategorieën in de zin van de Belgische wetgeving:
 1° inkomsten uit arbeid;
 2° tantièmes en aanwezigheidsgeld;
-3° levensverzekeringsproducten die niet vallen onder andere uniale rechtsinstrumenten inzake de uitwisseling van inlichtingen noch onder soortgelijke voorschriften;
+3° levensverzekeringsproducten die niet vallen onder andere uniale rechtsinstrumenten inzake de uitwisseling
+
+van inlichtingen noch onder soortgelijke voorschriften;
 4° pensioenen;
 5° eigendom en inkomsten uit onroerende goederen;
 6° royalty's.
@@ -1002,7 +1161,9 @@ Onverminderd het eerste lid verstrekken de in artikel 64bis, § 1, lid 4, 22°, 
 4° de intermediair is ingeschreven in het Waalse Gewest bij een beroepsorganisatie in verband met de verstrekking van juridische, fiscale of adviesdiensten.
 § 4. Wanneer er overeenkomstig § 3 een meervoudige meldingsplicht bestaat, wordt de intermediair ontheven van het verstrekken van de inlichtingen als hij aantoont dat dezelfde inlichtingen in een andere lidstaat zijn verstrekt.
 § 5.[3 § 5. De intermediairs worden ontheven van de verplichting tot het verstrekken van inlichtingen over een meldingsplichtige grensoverschrijdende constructie, wanneer de meldingsplicht een inbreuk zou vormen op het wettelijk verschoningsrecht dat krachtens de wet van toepassing is.
-In die omstandigheden stelt elke intermediair die ontheffing is verleend, zijn cliënt indien deze een intermediair is, off, bij gebreke daarvan, indien die cliënt de relevante belastingplichtige is, onverwijld in kennis te stellen van zijn meldingsverplichtingen uit hoofde van paragraaf 6.
+In die omstandigheden stelt elke intermediair die ontheffing is verleend, zijn cliënt indien deze een intermediair
+
+is, off, bij gebreke daarvan, indien die cliënt de relevante belastingplichtige is, onverwijld in kennis te stellen van zijn meldingsverplichtingen uit hoofde van paragraaf 6.
 Aan intermediairs mag slechts ontheffing krachtens het eerste lid worden verleend voor zover zij optreden binnen de grenzen van de wetgeving die hun beroep definieert]3.
 § 6. Wanneer er geen intermediair is of de intermediair de relevante belastingplichtige of een andere intermediair in kennis stelt van de toepassing van een ontheffing krachtens lid 5, ligt de verplichting tot verstrekking van inlichtingen over een meldingsplichtige grensoverschrijdende constructie bij de andere in kennis gestelde intermediair of, bij gebreke daarvan, bij de relevante belastingplichtige.
 § 7. De relevante belastingplichtige bij wie de meldingsplicht ligt, verstrekt de inlichtingen binnen dertig dagen, te rekenen vanaf de dag nadat de meldingsplichtige grensoverschrijdende constructie voor implementatie ter beschikking van de relevante belastingplichtige is gesteld of gereed is voor implementatie door de relevante belastingplichtige of zodra de eerste stap voor de implementatie ervan met betrekking tot de relevante belastingplichtige is ondernomen, naargelang wat het eerst plaatsvindt.
@@ -1026,7 +1187,9 @@ De bevoegde Belgische autoriteit beschikt over alle in dit decreet bedoelde onde
 § 14. De door de bevoegde Belgische autoriteit uit hoofde van paragraaf 13 mee te delen inlichtingen omvatten het volgende, voor zover van toepassing:
 1° de identificatiegegevens van intermediairs en relevante belastingplichtigen, met inbegrip van hun naam, geboortedatum en -plaats in het geval van een natuurlijk persoon, fiscale woonplaats, fiscaal identificatienummer, en, in voorkomend geval, van de personen die een verbonden onderneming vormen met de relevante belastingplichtige;
 2° nadere bijzonderheden over de in bijlage IV vermelde wezenskenmerken op grond waarvan de grensoverschrijdende constructie gemeld moet worden;
-3° een samenvatting van de inhoud van de meldingsplichtige grensoverschrijdende constructie, met onder meer de benaming waaronder zij algemeen bekend staat, indien voorhanden, en een omschrijving van de relevante zakelijke activiteiten of constructies, in algemene bewoordingen gesteld, die niet mag leiden tot de openbaarmaking van een handels-, bedrijfs-, nijverheids- of beroepsgeheim of een fabrieks- of handelswerkwijze, of van inlichtingen waarvan de onthulling in strijd zou zijn met de openbare orde;
+3° een samenvatting van de inhoud van de meldingsplichtige grensoverschrijdende constructie, met onder meer de benaming waaronder zij algemeen bekend staat, indien voorhanden, en een omschrijving van de relevante zakelijke activiteiten of constructies, in algemene bewoordingen gesteld, die niet mag leiden tot de openbaarmaking van een handels-, bedrijfs-, nijverheids- of beroepsgeheim of een fabrieks- of handelswerkwijze,
+
+of van inlichtingen waarvan de onthulling in strijd zou zijn met de openbare orde;
 4° de datum waarop de eerste stap voor de implementatie van de meldingsplichtige grensoverschrijdende constructie is of zal worden ondernomen;
 5° nadere bijzonderheden van de nationale bepalingen die aan de meldingsplichtige grensoverschrijdende constructie ten grondslag liggen;
 6° de waarde van de meldingsplichtige grensoverschrijdende constructie;
@@ -1051,7 +1214,9 @@ a) hij is een fiscaal ingezetene van het Waals Gewest of, indien dat niet het ge
 - zijn plaats van leiding (inclusief de werkelijke leiding) bevindt zich in het Waalse Gewest;
 - hij heeft een vaste inrichting in het Waalse Gewest en is geen gekwalificeerde platformexploitant buiten de Unie.
 Als een platformexploitant een fiscaal ingezetene is in meer dan één lidstaat of een vaste inrichting bezit in meer dan één lidstaat, kiest hij één van deze lidstaten om aan de hem te beurt vallende rapportageverplichtingen te voldoen, bedoeld in Bijlage V, Afdeling III, bij de Richtlijn. De platformexploitant geeft kennis van zijn keuze aan de gezamenlijke bevoegde autoriteiten van deze lidstaten. Wanneer deze platformexploitant ervoor kiest om zijn voormelde rapportageverplichtingen in België na te komen, wordt hij beschouwd als een rapporterende platformexploitant in de zin van artikelen 64quinquies/4 tot en met 64quinquies/8;
-b) hij is geen fiscaal ingezetene van een lidstaat, noch is hij opgericht in overeenstemming met de wetten van een lidstaat, noch heeft hij zijn plaats van leiding of een vaste inrichting in een lidstaat, maar hij faciliteert de verrichting van een relevante activiteit door te rapporteren verkopers of een relevante activiteit in verband met de verhuur van onroerend goed dat in een lidstaat is gelegen, en hij is geen gekwalificeerde platformexploitant buiten de Unie. In dat geval is de platformexploitant ertoe verplicht, zich te registreren in de Unie en, wanneer deze platformexploitant ervoor kiest om zich bij de Belgische bevoegde autoriteit te registreren, wordt hem door de Belgische bevoegde autoriteit een individueel identificatienummer toegekend en wordt hij als rapporterende platformexploitant in de zin van de artikelen 64quinquies/4 tot 64quinquies/8 beschouwd.
+b) hij is geen fiscaal ingezetene van een lidstaat, noch is hij opgericht in overeenstemming met de wetten van een lidstaat, noch heeft hij zijn plaats van leiding of een vaste inrichting in een lidstaat, maar hij faciliteert de verrichting van een relevante activiteit door te rapporteren verkopers of een relevante activiteit in verband met de verhuur van onroerend goed dat in een lidstaat is gelegen, en hij is geen gekwalificeerde platformexploitant buiten de Unie. In dat geval is de platformexploitant ertoe verplicht, zich te registreren in de Unie en, wanneer
+
+deze platformexploitant ervoor kiest om zich bij de Belgische bevoegde autoriteit te registreren, wordt hem door de Belgische bevoegde autoriteit een individueel identificatienummer toegekend en wordt hij als rapporterende platformexploitant in de zin van de artikelen 64quinquies/4 tot 64quinquies/8 beschouwd.
 Een rapporterende platformexploitant kan ervoor kiezen zich te registreren bij de bevoegde autoriteit van één enkele lidstaat, waarbij hij de procedurele regels van § 2 volgt wanneer hij ervoor kiest zich in België te registreren.
 Een dergelijke rapporterende platformexploitant wiens registratie herroepen is overeenkomstig § 2, 7°, [2 of overeenkomstig een soortgelijke bepaling van een andere Lidstaat,]2 kan enkel de toelating krijgen om zich op nieuw te registreren als hij de Belgische bevoegde autoriteit voldoende garanties geeft dat hij zich ertoe verbindt de verplichtingen te vervullen inzake rapportage in de Unie, met inbegrip van de verplichtingen die hij nog niet is nagekomen;
 5° "Gekwalificeerde platformexploitant buiten de Unie": een platformexploitant voor wie alle relevante activiteiten die hij faciliteert ook gekwalificeerde relevante activiteiten zijn en die een fiscaal ingezetene is van een gekwalificeerd niet-Unierechtsgebied of, indien hij dat niet is, aan een van de volgende voorwaarden voldoet: hij is opgericht in overeenstemming met de wetgeving van een gekwalificeerd niet-Unierechtsgebied zijn plaats van leiding (inclusief de werkelijke leiding) bevindt zich in een gekwalificeerd niet-Unierechtsgebied ;
@@ -1072,6 +1237,7 @@ B. Te rapporteren verkopers
 3° "Te rapporteren verkoper": een actieve verkoper, die geen uitgesloten verkoper is, die een ingezetene is van een lidstaat of die een onroerend goed heeft verhuurd dat in een lidstaat is gelegen; 4° "Uitgesloten verkoper": een verkoper : a) die een overheidsinstantie is; die een entiteit is waarvan de aandelen regelmatig worden verhandeld op een erkende effectenbeurs of een gelieerde entiteit is van een entiteit waarvan de aandelen regelmatig worden verhandeld op een erkende effectenbeurs;; die een entiteit is waarvoor de platformexploitant tijdens de rapportageperiode meer dan 2 000 relevante activiteiten heeft gefaciliteerd door de verhuur van onroerend goed met betrekking tot een eigendomslijst ; of voor wie de platformexploitant tijdens de rapportageperiode minder dan 30 relevante activiteiten heeft gefaciliteerd door de verkoop van goederen, en voor wie het totale bedrag van de tegenprestatie dat is betaald of gecrediteerd, ten hoogste 2 000 EUR bedroeg.
 C. Overige definities
 1° "entiteit": een rechtspersoon of een juridische constructie, zoals een vennootschap, samenwerkingsverband, trust of stichting. Een entiteit is een gelieerde entiteit van een andere entiteit indien een van de entiteiten zeggenschap heeft over de andere, of indien beide entiteiten onder een gemeenschappelijk zeggenschap vallen. Daartoe wordt onder zeggenschap mede verstaan de directe of indirecte eigendom van meer dan 50 % van het aantal stemmen en de waarde in een entiteit. Bij indirecte deelneming wordt de nakoming van het vereiste dat meer dan 50 % van het eigendomsrecht in het kapitaal van de andere entiteit wordt gehouden, bepaald door vermenigvuldiging van de deelnemingspercentages door de opeenvolgende niveaus heen. Een persoon die meer dan 50 % van de stemrechten houdt, wordt geacht 100 % te houden;
+
 2° "Overheidsinstantie": de regering van een lidstaat of ander rechtsgebied, een staatkundig onderdeel van een lidstaat of ander rechtsgebied (met inbegrip van een staat, provincie, district of gemeente), of een agentschap of instantie van een lidstaat of ander rechtsgebied of van een of meer van de voorgaande overheidsinstanties dat/die volledig daartoe behoort (waarbij elkeen een " overheidsinstantie " vormt ") ;
 3° [3 ...]3identificatienummer ;
 4° "btw-identificatienummer": het unieke nummer ter identificatie van een belastingplichtige of een nietbelastbare rechtspersoon, die is geregistreerd voor btw-doeleinden;
@@ -1101,8 +1267,12 @@ l) de Belgische bevoegde autoriteit heeft de registratie ingetrokken in overeens
 
 ##### Art. 64quinquies/4.[1 1. De rapporterende platformexploitanten voeren de due diligence-procedures uit en vervullen de rapportageverplichtingen verwoord in de artikelen 64quinquies/5 en 64quinquies/6, overeenkomstig de artikelen 64quinquies/7 en 64quinquies/8 tot regeling van hun daadwerkelijke uitvoering.
 § 2. Op grond van de toepasselijke die diligence-procedures en rapportageverplichtingen als omschreven in artikelen 64quinquies/5 en 64quinquies/6, verstrekt de bevoegde autoriteit van een lidstaat waar de rapportage overeenkomstig lid 1 heeft plaatsgevonden, door middel van een automatische uitwisseling en binnen de in paragraaf 3 gestelde termijn aan de bevoegde autoriteit van de lidstaat waarvan de te rapporteren verkoper een ingezetene is als bepaald op grond van artikel 64quinquies/5, punt D., en, indien de te rapporteren verkoper onroerend goed verhuurt, in ieder geval aan de bevoegde autoriteit van de lidstaat waarin het onroerend goed is gelegen, de volgende inlichtingen over elke te rapporteren verkoper:
-y) naam, geregistreerd kantooradres, fiscaal identificatienummer en, in voorkomend geval, het op grond van artikel 64quinquies/3, § 1, punt A., 4°, b), lid 2, toegewezen individueel identificatienummer van de rapporterende platformexploitant, alsook handelsnaam (-namen) van het platform (de platforms) waarover de rapporterende platformexploitant rapporteert;
-z) voor- en achternaam van de te rapporteren verkoper als die een natuurlijke persoon is, en de officiële naam van de te rapporteren verkoper als die een entiteit is; aa) het hoofdadres; bb) een fiscaal identificatienummer van de te rapporteren verkoper, met vermelding van elke lidstaat van afgifte, of, bij ontstentenis daarvan, de geboorteplaats van de te rapporteren verkoper als die een natuurlijke persoon is; cc) het nummer van inschrijving in het handelsregister van de te rapporteren verkoper als die een entiteit is; dd) het btw-identificatienummer van de te rapporteren verkoper, indien beschikbaar; ee) de geboortedatum van de te rapporteren verkoper als die een natuurlijke persoon is; ff) de identificatiecode van de financiële rekening waarop de tegenprestatie wordt betaald of gecrediteerd, voor zover bekend aan de rapporterende platformexploitant en voor zover de bevoegde autoriteit van de lidstaat waarvan de te rapporteren verkoper een ingezetene is in de zin van artikel 64quinquies/5, punt D., de bevoegde autoriteiten van alle andere lidstaten niet in kennis heeft gesteld van het feit dat zij niet voornemens is de identificatiecode van de financiële rekening voor dat doel te gebruiken; gg) indien verschillend van de naam van de te rapporteren verkoper: bovenop de identificatiecode van de financiële rekening, de naam van de houder van de financiële rekening waarop de tegenprestatie wordt betaald of gecrediteerd, voor zover bekend aan de rapporterende platformexploitant, alsook alle andere financiële identificatiegegevens waarover de rapporterende platformexploitant beschikt met betrekking tot die rekeninghouder; hh) elke lidstaat waarvan de te rapporteren verkoper een ingezetene is zoals bepaald op grond van bijlage V, deel II, onderdeel D; ii) de totale tegenprestatie die is betaald of gecrediteerd tijdens elk kwartaal van de rapportageperiode, en het aantal relevante activiteiten waarvoor deze is betaald of gecrediteerd; jj) alle honoraria, commissielonen of belastingen die door het rapporterende platform tijdens elk kwartaal van de rapportageperiode ingehouden of geheven werden Indien de te rapporteren verkoper een onroerend goed verhuurt, worden de volgende aanvullende inlichtingen meegedeeld:
+y) naam, geregistreerd kantooradres, fiscaal identificatienummer en, in voorkomend geval, het op grond van
+
+artikel 64quinquies/3, § 1, punt A., 4°, b), lid 2, toegewezen individueel identificatienummer van de rapporterende platformexploitant, alsook handelsnaam (-namen) van het platform (de platforms) waarover de rapporterende platformexploitant rapporteert;
+z) voor- en achternaam van de te rapporteren verkoper als die een natuurlijke persoon is, en de officiële naam van de te rapporteren verkoper als die een entiteit is; aa) het hoofdadres; bb) een fiscaal identificatienummer van de te rapporteren verkoper, met vermelding van elke lidstaat van afgifte, of, bij ontstentenis daarvan, de geboorteplaats van de te rapporteren verkoper als die een natuurlijke persoon is;
+cc) het nummer van inschrijving in het handelsregister van de te rapporteren verkoper als die een entiteit is; dd) het btw-identificatienummer van de te rapporteren verkoper, indien beschikbaar; ee) de geboortedatum van de te rapporteren verkoper als die een natuurlijke persoon is; ff) de identificatiecode van de financiële rekening waarop de tegenprestatie wordt betaald of gecrediteerd, voor zover bekend aan de rapporterende platformexploitant en voor zover de bevoegde autoriteit van de lidstaat waarvan de te rapporteren verkoper een ingezetene is in de zin van artikel 64quinquies/5, punt D., de bevoegde autoriteiten van alle andere lidstaten niet in kennis heeft gesteld van het feit dat zij niet voornemens is de identificatiecode van de financiële rekening voor dat doel te gebruiken; gg) indien verschillend van de naam van de te rapporteren verkoper: bovenop de identificatiecode van de financiële rekening, de naam van de houder van de financiële rekening waarop de tegenprestatie wordt betaald of gecrediteerd, voor zover bekend aan de rapporterende platformexploitant, alsook alle andere financiële identificatiegegevens waarover de rapporterende platformexploitant beschikt met betrekking tot die rekeninghouder; hh) elke lidstaat waarvan de te rapporteren verkoper een ingezetene is zoals bepaald op grond van bijlage V, deel II, onderdeel D;
+ii) de totale tegenprestatie die is betaald of gecrediteerd tijdens elk kwartaal van de rapportageperiode, en het aantal relevante activiteiten waarvoor deze is betaald of gecrediteerd; jj) alle honoraria, commissielonen of belastingen die door het rapporterende platform tijdens elk kwartaal van de rapportageperiode ingehouden of geheven werden Indien de te rapporteren verkoper een onroerend goed verhuurt, worden de volgende aanvullende inlichtingen meegedeeld:
 g) het postadres van elke eigendomslijst, vastgesteld op basis van de procedures als omschreven in artikel 64quinquies/5, punt E., en het respectieve kadasternummer of het equivalent daarvan in het nationaal recht van de lidstaat waar het gelegen is, indien beschikbaar;
 h) de totale tegenprestatie die is betaald of gecrediteerd tijdens elk kwartaal van de rapportageperiode, en het aantal relevante activiteiten dat is verricht voor elke eigendomslijst;
 i) indien beschikbaar, het aantal verhuurdagen voor elke eigendomslijst tijdens de rapportageperiode en het type van elke eigendomslijst.
@@ -1115,6 +1285,7 @@ E. Verkopers die niet moeten worden gecontroleerd
 Om te bepalen of een verkoper die een entiteit is, als uitgesloten verkoper kan gelden in de zin van artikel 64quinquies/3, § 1, punt B., 4°, a) en b), kan een rapporterende platformexploitant zich baseren op publiekelijk beschikbare informatie of een bevestiging van de verkoper die een entiteit is.
 Om te bepalen of een verkoper kan gelden als een uitgesloten verkoper in de zin van artikel 64quinquies/3, § 1, punt B., 4°, c) en d), kan een rapporterende platformexploitant zich baseren op de registers waarover hij beschikt F. Verzameling van inlichtingen over de verkoper
 1° De rapporterende platformexploitant verzamelt alle volgende inlichtingen voor elke verkoper die een natuurlijke persoon en geen uitgesloten verkoper is :
+
 k) voor- en achternaam;
 l) het hoofdadres;
 m) elk aan die verkoper afgegeven TIN, met vermelding van elke lidstaat van afgifte, en bij gebrek daaraan, de geboorteplaats van die verkoper ;
@@ -1147,6 +1318,7 @@ L. Tijdschema en geldigheid van de due diligence-procedures
 1° De rapporterende platformexploitant voltooit uiterlijk op 31 december van de rapportageperiode de due diligence-procedures zoals bedoeld in de onderdelen A tot en met E ;
 2° niettegenstaande het bepaalde in punt 1, moeten voor verkopers die al op het platform waren geregistreerd op datum van 1 januari 2023 of vanaf de datum waarop een entiteit een rapporterende platformexploitant wordt, de in de onderdelen A tot en met E bedoelde due diligence-procedures worden voltooid uiterlijk op 31 december van de tweede rapportageperiode voor de rapporterende platformexploitant ;
 3° Niettegenstaande het bepaalde in punt 1, kan een rapporterende platformexploitant zich baseren op de due diligence-procedures die in eerdere rapportageperioden werden uitgevoerd, mits
+
 e) de in onderdeel B, punten 1 en 2, vereiste inlichtingen over de verkoper werden hetzij verzameld en geverifieerd, hetzij bevestigd, in de laatste 36 maanden, en
 f) er voor de rapporterende platformexploitant geen redenen zijn om aan te nemen dat de inlichtingen die op grond van de onderdelen A, B, en E, zijn verzameld, onbetrouwbaar of incorrect zijn (geworden).
 K. Toepassing van de due diligence-procedures uitsluitend op actieve verkopers De rapporterende platformexploitant kan ervoor kiezen de due diligence-procedures op grond van de onderdelen A tot en met F uitsluitend op actieve verkopers toe te passen.
@@ -1167,6 +1339,7 @@ L. Voltooiing van de due diligence-procedures door derden
 2° met betrekking tot elke te rapporteren verkoper die een andere relevante activiteit heeft verricht dan de verhuur van een onroerend goed :
 m) les éléments d'information devant être collectés conformément à l'article 64quinquies/5, point B.;
 n) de identificatiecode van de financiële rekening, voor zover bekend aan de rapporterende platformexploitant en voor zover de bevoegde autoriteit van de lidstaat waarvan de te rapporteren verkoper een ingezetene is in de zin van artikel 64quinquies/5, punt D., niet heeft bekendgemaakt dat zij niet voornemens is de identificatiecode van de financiële rekening voor dat doel te gebruiken;
+
 o) indien verschillend van de naam van de te rapporteren verkoper, bovenop de identificatiecode van de financiële rekening, de naam van de houder van de financiële rekening waarop de tegenprestatie wordt betaald of gecrediteerd, voor zover bekend aan de rapporterende platformexploitant, alsook alle andere financiële identificatiegegevens waarover de rapporterende platformexploitant beschikt met betrekking tot die rekeninghouder;
 p) elke lidstaat waarvan de te rapporteren verkoper voor de toepassing van artikelen 64bis tot 64duodecies een ingezetene is als bepaald op grond van artikel 64quinquies/5, punt D.;
 q) de totale tegenprestatie die is betaald of gecrediteerd tijdens elk kwartaal van de rapportageperiode, en het aantal relevante activiteiten waarvoor deze is betaald of gecrediteerd;
@@ -1190,7 +1363,9 @@ x) indien beschikbaar, het aantal verhuurdagen voor elke eigendomslijst tijdens 
 [1 De Regering legt de administratieve regels en procedures vast voor de daadwerkelijke uitvoering en de inachtneming van de due diligence procedures en de rapportageverplichtingen verwoord in artikelen 64quinquies/3 tot 64quinquies/7, waaronder met name:
 1° de nodige maatregelen om de rapporterende platformexploitanten te verplichten de verplichtingen na te komen inzake inzameling en verificatie als bedoeld in artikel 64quinquies/5 voor wat betreft hun verkopers;
 2° de nodige maatregelen om de rapporterende platformexploitanten te verplichten registers bij te houden van de stappen die zijn ondernomen en van eventuele inlichtingen die zijn gebruikt voor de uitvoering van de in de artikelen 64quinquies/5 en 64quinquies/6 beschreven due diligence-procedures en rapportageverplichtingen. Die registers worden een voldoende lange tijd bewaard en in elk geval voor een periode van ten minste vijf en ten hoogste tien jaar volgend op het einde van de rapportageperiode waarop zij betrekking hebben ;
-3° de nodige maatregelen, met inbegrip van de mogelijkheid om rapporterende platformexploitanten een verplichting tot rapportage op te leggen, om ervoor te zorgen dat alle noodzakelijke inlichtingen worden gerapporteerd aan de bevoegde autoriteit zodat deze de verplichting om inlichtingen te verstrekken overeenkomstig artikel 64quinquies/4, § 2, kan naleven ;
+3° de nodige maatregelen, met inbegrip van de mogelijkheid om rapporterende platformexploitanten een verplichting tot rapportage op te leggen, om ervoor te zorgen dat alle noodzakelijke inlichtingen worden
+
+gerapporteerd aan de bevoegde autoriteit zodat deze de verplichting om inlichtingen te verstrekken overeenkomstig artikel 64quinquies/4, § 2, kan naleven ;
 4° administratieve procedures om te verifiëren of de rapporterende platformexploitanten de in artikelen 64quinquies/5 en 64quinquies/6 beschreven due diligence-procedures en rapportageverplichtingen naleven ;
 5° procedures voor de vervolgcontrole van rapporterende platformexploitanten die onvolledige of onnauwkeurige inlichtingen rapporteren. ]1 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 71, 030; Inwerkingtreding : 28-09-2023>
 
@@ -1222,7 +1397,9 @@ b) elke overdracht van te rapporteren cryptoactiva;
 a) wisselen tussen te rapporteren cryptoactiva en fiduciaire valuta's, en
 b) wisselen tussen een of meer vormen van Te rapporteren cryptoactiva;
 3° "te rapporteren retailbetalingstransactie": een overdracht van te rapporteren cryptoactiva als tegenprestatie voor goederen of diensten ter waarde van meer dan 50 000 USD of het equivalent daarvan in een andere valuta;
-4° "overdracht": een transactie waarbij een te rapporteren cryptoactivum wordt verplaatst van of naar een ander(e) adres of rekening voor cryptoactiva van één gebruiker van cryptoactiva dan een adres dat of een rekening die door de rapporterende aanbieder van cryptoactivadiensten namens dezelfde gebruiker van cryptoactiva wordt beheerd, waarbij de rapporterende aanbieder van cryptoactivadiensten, op basis van de kennis waarover deze op het moment van de transactie beschikt, niet kan bepalen of de transactie al dan niet een wisseltransactie is.
+4° "overdracht": een transactie waarbij een te rapporteren cryptoactivum wordt verplaatst van of naar een ander(e) adres of rekening voor cryptoactiva van één gebruiker van cryptoactiva dan een adres dat of een rekening die door de rapporterende aanbieder van cryptoactivadiensten namens dezelfde gebruiker van cryptoactiva wordt beheerd, waarbij de rapporterende aanbieder van cryptoactivadiensten, op basis van de kennis waarover deze op het moment van de transactie beschikt, niet kan bepalen of de transactie al dan niet
+
+een wisseltransactie is.
 5° "Fiduciaire valuta" wordt verstaan de officiële valuta van een rechtsgebied, uitgegeven door een rechtsgebied of een door een rechtsgebied aangewezen Centrale bank of monetaire autoriteit, vertegenwoordigd door fysieke bankbiljetten of munten of door geld in verschillende digitale vormen, waaronder bankreserves en digitale centralebankmunten. De term omvat ook commerciële-bankgeld en elektronisch-geldproducten (Elektronisch geld).
 D. Te rapporteren gebruiker
 1° "te rapporteren gebruiker": een gebruiker van cryptoactiva die een in een lidstaat woonachtige te rapporteren persoon is;
@@ -1244,7 +1421,9 @@ f) de entiteit voldoet aan alle volgende vereisten:
 (i) zij is opgericht in het rechtsgebied waarvan zij een ingezetene is en wordt aldaar uitsluitend geëxploiteerd voor religieuze, charitatieve, wetenschappelijke, artistieke, culturele, sportieve of educatieve doeleinden, of zij is opgericht in het rechtsgebied waarvan zij een ingezetene is en wordt aldaar geëxploiteerd als een professionele organisatie, bedrijfsvereniging, kamer van koophandel, arbeidsorganisatie, land- of tuinbouworganisatie, burgerorganisatie of als een organisatie uitsluitend ter bevordering van het sociale welzijn;
 (ii) zij is in het rechtsgebied waarvan zij een ingezetene is, vrijgesteld van inkomstenbelasting;
 (iii) zij heeft geen aandeelhouders of leden die als eigenaar of rechthebbende aanspraak kunnen maken op haar inkomsten of activa;
-(iv) de toepasselijke wetgeving van het rechtsgebied waarvan de entiteit een ingezetene is of haar oprichtingsakten staan niet toe dat inkomsten of activa van de entiteit worden verdeeld onder of aangewend ten behoeve van een particulier of een niet-charitatieve entiteit anders dan in het kader van de charitatieve activiteiten van de entiteit of ter betaling van een redelijke vergoeding voor verleende diensten of als betaling die een reële marktwaarde vertegenwoordigt voor activa die de entiteit heeft verworven, en (v) de toepasselijke wetgeving van het rechtsgebied waarvan de entiteit een ingezetene is of haar oprichtingsakten vereisen dat bij liquidatie of opheffing van de entiteit al haar activa worden overgedragen aan een Overheidsinstantie of een andere non-profitorganisatie of vervallen aan de overheid van het rechtsgebied waarvan de entiteit een ingezetene is of een staatkundig onderdeel daarvan.
+(iv) de toepasselijke wetgeving van het rechtsgebied waarvan de entiteit een ingezetene is of haar oprichtingsakten staan niet toe dat inkomsten of activa van de entiteit worden verdeeld onder of aangewend ten
+
+behoeve van een particulier of een niet-charitatieve entiteit anders dan in het kader van de charitatieve activiteiten van de entiteit of ter betaling van een redelijke vergoeding voor verleende diensten of als betaling die een reële marktwaarde vertegenwoordigt voor activa die de entiteit heeft verworven, en (v) de toepasselijke wetgeving van het rechtsgebied waarvan de entiteit een ingezetene is of haar oprichtingsakten vereisen dat bij liquidatie of opheffing van de entiteit al haar activa worden overgedragen aan een Overheidsinstantie of een andere non-profitorganisatie of vervallen aan de overheid van het rechtsgebied waarvan de entiteit een ingezetene is of een staatkundig onderdeel daarvan.
 E. Uitgesloten persoon
 1° "uitgesloten persoon":
 a) een entiteit waarvan de aandelen regelmatig worden verhandeld op een of meer erkende effectenbeurzen;
@@ -1269,7 +1448,9 @@ c) waarvan de inkomsten niet ten goede komen van particulieren;
 7° "lijfrenteverzekering": een overeenkomst uit hoofde waarvan de uitgevende instantie zich verplicht uitkeringen te verstrekken gedurende een tijdvak dat geheel of gedeeltelijk wordt vastgesteld op basis van de levensverwachting van een of meer natuurlijke personen. De term omvat voorts een overeenkomst die in overeenstemming met de wet- of regelgeving of die in de praktijk in de lidstaat of het andere rechtsgebied waar de overeenkomst is gesloten wordt aangemerkt als lijfrenteverzekering en uit hoofde waarvan de uitgevende instantie zich verplicht gedurende een aantal jaren uitkeringen te verstrekken;
 8° "kapitaalverzekering": een verzekeringsovereenkomst, anders dan een herverzekeringsovereenkomst gericht op schadeloosstelling tussen twee verzekeringsmaatschappijen, met een geldswaarde;
 9° "afkoopwaarde": het hoogste van de volgende twee bedragen: i) het bedrag waarop de verzekeringnemer recht heeft in geval van afkoop of beëindiging van de overeenkomst, berekend zonder aftrek van afkoopkosten of voorschotten, en ii) het bedrag dat de verzekeringnemer krachtens de overeenkomst of met het oog op het doel ervan kan lenen. Niettegenstaande het voorgaande is "Geldswaarde" niet een bedrag dat verschuldigd is uit hoofde van een verzekeringsovereenkomst:
-a) uitsluitend wegens het overlijden van een persoon, verzekerd in het kader van een levensverzekeringsovereenkomst;
+a) uitsluitend wegens het overlijden van een persoon, verzekerd in het kader van een
+
+levensverzekeringsovereenkomst;
 b) als een invaliditeits-, ongevals- of ziekte-uitkering of een andere uitkering wegens economische verliezen door het optreden van de verzekerde gebeurtenis;
 c) als een teruggave aan de polishouder van een eerder betaalde premie (minus de kosten van verzekeringsheffingen al dan niet daadwerkelijk opgelegd) uit hoofde van een verzekeringsovereenkomst, anders dan een aan beleggingen gekoppelde levensverzekering of lijfrenteverzekering, vanwege opzegging of beëindiging van de overeenkomst, afname van het risico gedurende de looptijd van de overeenkomst, of voortvloeiend uit de correctie na de publicatie van onjuiste premies of soortgelijke fouten;
 d) als resultaatdeling voor polishouders (niet bij beëindiging) mits de resultaatdeling verband houdt met een Verzekeringsovereenkomst volgens welke de enige betaalbare uitkeringen worden omschreven in punt b), of
@@ -1289,6 +1470,7 @@ F. Diversen
 § 3. Voor de toepassing van paragraaf 1, punt B., 3°, moet een exploitant van cryptoactiva zich bij de Europese Unie laten registreren; wanneer hij een rapporterende aanbieder van cryptoactivadiensten, hij moet zich laten registreren bij de bevoegde autoriteit van de lidstaat, bepaald overeenkomstig artikel 64quinquies/11, § 1, 2°, a), b), c) of d), of § 2, vóór het einde van de termijn waarbinnen die exploitant van cryptoactiva de in artikel 64quinquies/12, § 2, bedoelde inlichtingen moet rapporteren. Indien de betrokken exploitant van cryptoactiva in meer dan een lidstaat voldoet aan de voorwaarden van artikel 64quinquies/11, § 1, 2°, a), b), c) of d), respectievelijk § 2, laat hij zich registreren bij de bevoegde autoriteit van een van deze lidstaten vóór het einde van de termijn waarbinnen hij de in artikel 64quinquies/12, § 2, bedoelde informatie moet rapporteren.
 Onverminderd het vorige lid laat een exploitant van cryptoactiva die een rapporterende aanbieder van cryptoactivadiensten is, zich niet registreren bij de bevoegde autoriteit van een lidstaat waar die exploitant van cryptoactiva niet verplicht is de rapportage- en de due diligence-verplichtingen van de respectievelijk artikel 64quinquies/12 en 64quinquies/13 te vervullen overeenkomstig artikel 64quinquies/11, § 3, § 4, § 5, § 6, § 7 of § 8 op grond van het feit dat die exploitant van cryptoactiva die vereisten in een andere lidstaat vervult.
 Wanneer een exploitant van cryptoactiva zich bij de Belgische bevoegde autoriteit laat registreren, kent de Belgische bevoegde autoriteit een individueel identificatienummer toe aan deze exploitant van cryptoactiva.
+
 Een exploitant van cryptoactiva laat zich bij de bevoegde autoriteit van één lidstaat registreren, overeenkomstig de procedurele regels van paragraaf 4 wanneer hij zich in België laat registreren.
 Een exploitant van cryptoactiva wiens registratie werd ingetrokken overeenkomstig paragraaf 4, 6°, of overeenkomstig een gelijkaardige bepaling van een andere Lidstaat, kan enkel toestemming krijgen om zich opnieuw te laten registreren op voorwaarde dat hij de Belgische bevoegde autoriteit voldoende garanties biedt voor zijn verbintenis om te voldoen aan de rapporteringsverplichtingen binnen de Unie, met inbegrip van deze waaraan hij nog niet heeft voldaan.
 Deze paragraaf is niet van toepassing op rapporterende aanbieders van cryptoactivadiensten n in de zin van paragraaf 1, punt B., 1°.
@@ -1318,7 +1500,9 @@ Indien een rapporterende aanbieder van cryptoactivadiensten voor of namens een h
 
 ##### Art. 64quinquies/10
 
-[1 § 1. De Belgische bevoegde autoriteit neemt de nodige maatregelen om de rapporterende aanbieders van crypto-activadiensten ertoe te verplichten de rapporteringsverplichtingen na te komen en de due diligence-procedures toe te passen die respectievelijk in de artikelen 64quinquies/12 en 64quinquies/13 zijn vastgesteld, in overeenstemming met de artikelen 64quinquies/14 en 64quinquies/15 die de effectieve uitvoering ervan regelen.
+[1 § 1. De Belgische bevoegde autoriteit neemt de nodige maatregelen om de rapporterende aanbieders van crypto-activadiensten ertoe te verplichten de rapporteringsverplichtingen na te komen en de due diligence-procedures toe te passen die respectievelijk in de artikelen 64quinquies/12 en 64quinquies/13 zijn vastgesteld, in overeenstemming met de artikelen 64quinquies/14 en 64quinquies/15 die de
+
+effectieve uitvoering ervan regelen.
 § 2. Overeenkomstig de toepasselijke rapportageverplichtingen en due diligence-procedures in de artikelen 64quinquies/12 en artikel 64quinquies/13, verstrekt de Belgische bevoegde autoriteit waaraan de in lid 1 bedoelde rapportage is gericht, de bevoegde autoriteiten van de betrokken lidstaten, via automatische uitwisseling en binnen de in lid 3 vastgestelde termijn, de volgende informatie over elke te rapporteren persoon:
 1° naam, adres, lidstaat/lidstaten van verblijf, fiscaal identificatienummer(s) en, in het geval van een natuurlijke persoon, de geboortedatum en -plaats van elke te rapporteren gebruiker en, in het geval van een entiteit waarvoor, na toepassing van de due diligence-procedures van artikel 64quinquies/13, blijkt dat een of meer te rapporteren personen uiteindelijke belanghebbende zijn, naam, adres, lidstaat (lidstaten) van verblijf en fiscaal identificatienummer(s) van die entiteit en naam, adres, lidstaat (lidstaten) van verblijf en identificatienummer(s) en geboortedatum en -plaats van elke uiteindelijke belanghebbende van de entiteit die een te rapporteren persoon is, en de rol(len) uit hoofde waarvan elke te rapporteren persoon een uiteindelijk belanghebbende van de entiteit is.
 Niettegenstaande de eerste alinea van dit punt omvatten, wanneer de rapporterende aanbieder van cryptoactivadiensten voor de vaststelling van de identiteit en fiscale woonplaats van de te rapporteren persoon gebruikmaakt van een directe bevestiging van de identiteit en woonplaats van de te rapporteren persoon via een door de Belgische bevoegde autoriteit of de Unie ter beschikking gestelde Identificatiedienst, de aan de Belgische bevoegde autoriteit te verstrekken inlichtingen met betrekking tot de te rapporteren persoon de naam, de identificatiecode van de Identificatiedienst alsmede de rol(len) op grond waarvan elke Te rapporteren persoon een Uiteindelijk belanghebbende van de entiteit is;
@@ -1341,6 +1525,7 @@ In de verstrekte inlichtingen wordt gespecificeerd in welke Fiduciaire valuta el
 ##### Art. 64quinquies/11
 
 [1 § 1. Een rapporterende aanbieder van cryptoactivadiensten is onderworpen aan de rapportage- en due diligence-verplichtingen van respectievelijk artikel 64quinquies/12 en 64quinquies/13, indien hij:
+
 1° een entiteit is waaraan de Belgische bevoegde autoriteit overeenkomstig artikel 63 van Verordening (EU) 2023/1114 een vergunning heeft verleend of die na een kennisgeving aan een lidstaat overeenkomstig artikel 60 van Verordening (EU) 2023/1114 Cryptoactivadiensten mag verlenen, of
 2° geen entiteit is waaraan de Belgische bevoegde autoriteit overeenkomstig artikel 63 van Verordening (EU) 2023/1114 een vergunning heeft verleend of die na een kennisgeving aan een lidstaat overeenkomstig artikel 60 van Verordening (EU) 2023/1114 Cryptoactivadiensten mag verlenen, en die:
 a) een entiteit of natuurlijke persoon is die een fiscaal ingezetene van het Waals Gewest is;
@@ -1363,6 +1548,7 @@ d) een entiteit of natuurlijke persoon is met een reguliere bedrijfszetel in het
 
 [1 § 1. Een Rapporterende aanbieder van cryptoactivadiensten in de zin van artikel 64quinquies/11, § 1e en § 2, rapporteert de in paragraaf 2 bedoelde inlichtingen aan de bevoegde Belgische autoriteit.
 § 2. Voor elk betrokken kalenderjaar of elke andere periode bepaald door de Regering, en met inachtneming van de verplichtingen van de Rapporterende aanbieders van cryptoactivadiensten in artikel 64quinquies/11 en de due diligence-procedures in artikel 64quinquies/13, rapporteert een rapporterende aanbieder van cryptoactivadiensten de volgende inlichtingen met betrekking tot zijn gebruikers van Cryptoactiva die hetzij te rapporteren gebruikers zijn, hetzij te rapporteren personen als Uiteindelijk belanghebbenden hebben:
+
 1° de naam, het adres, de lidstaat/lidstaten van verblijf, het fiscaal identificatienummer/de fiscale identificatienummers en, in het geval van een natuurlijke persoon, de geboortedatum en -plaats van elke te rapporteren gebruiker en, in het geval van een entiteit waarvan, na toepassing van de due diligence-procedures in artikel 64quinquies/13, wordt vastgesteld dat zij een of meer te rapporteren personen als uiteindelijk belanghebbenden heeft, de naam, het adres, de lidstaat/lidstaten van verblijf en het fiscaal identificatienummer/de fiscale identificatienummers van de entiteit en de naam, het adres, de lidstaat/lidstaten van verblijf, het fiscaal identificatienummer/de fiscale identificatienummers en de geboortedatum en -plaats van elke uiteindelijk belanghebbende van de entiteit die een te rapporteren persoon is, alsmede de rol(len) op grond waarvan elk van die te rapporteren personen een Uiteindelijk belanghebbende van de entiteit is;
 2° de naam, het adres, het fiscaal identificatienummer en, indien beschikbaar, het in artikel 64quinquies/9, § 3, derde lid, en § 4, 3°, bedoelde individuele identificatienummer en de mondiale identificatiecode voor juridische entiteiten van de rapporterende aanbieder van cryptoactivadiensten;
 3° voor elke soort te rapporteren cryptoactivum dat deel uitmaakt van door de rapporterende aanbieder van cryptoactivadiensten gedurende het betrokken kalenderjaar of een andere relevante rapportageperiode uitgevoerde te rapporteren transacties bepaald door de Regering, indien van toepassing:
@@ -1385,7 +1571,9 @@ In de gerapporteerde inlichtingen wordt vermeld in welke Fiduciaire valuta elk b
 
 ##### Art. 64quinquies/13
 
-[1 Een gebruiker van cryptoactiva wordt behandeld als een te rapporteren gebruiker vanaf de datum waarop hij als zodanig is geïdentificeerd op grond van de in dit artikel beschreven due diligenceprocedures.
+[1 Een gebruiker van cryptoactiva wordt behandeld als een te rapporteren gebruiker vanaf
+
+de datum waarop hij als zodanig is geïdentificeerd op grond van de in dit artikel beschreven due diligenceprocedures.
 A. Due diligence-procedures voor gebruikers van cryptoactiva die een natuurlijke persoon zijn De volgende procedures zijn van toepassing om te bepalen of een gebruiker van cryptoactiva die een natuurlijke persoon is, een te rapporteren gebruiker is:
 1° bij het aangaan van de relatie met de gebruiker van cryptoactiva die een natuurlijke persoon is, of met betrekking tot bestaande gebruikers van cryptoactiva die een natuurlijke persoon zijn uiterlijk op 1 januari 2027, verkrijgt de rapporterende aanbieder van cryptoactivadiensten een eigen verklaring op basis waarvan de Rapporterende aanbieder van cryptoactivadiensten de fiscale woonplaats(en) van de Gebruiker van cryptoactiva die een natuurlijke persoon is, kan bepalen en de redelijkheid van die eigen verklaring kan bevestigen op basis van de door de rapporterende aanbieder van cryptoactivadiensten verkregen inlichtingen, met inbegrip van alle documentatie die is verzameld in het kader van Due diligence-procedures voor klanten.
 2 Indien zich op enig moment een verandering voordoet in de omstandigheden met betrekking tot een gebruiker van cryptoactiva die een natuurlijke persoon is waardoor de rapporterende aanbieder van cryptoactivadiensten weet of redenen heeft om te weten dat de oorspronkelijke eigen verklaring onjuist of onbetrouwbaar is, kan de Rapporterende aanbieder van cryptoactivadiensten zich niet beroepen op de oorspronkelijke eigen verklaring en moet hij een geldige eigen verklaring of een redelijke verklaring en, in voorkomend geval, documentatie ter staving van de geldigheid van de oorspronkelijke eigen verklaring verkrijgen.
@@ -1399,7 +1587,9 @@ a) voor het vaststellen van de Uiteindelijk belanghebbenden van de Gebruiker van
 b) Voor het vaststellen of een Uiteindelijk belanghebbende een Te rapporteren persoon is, baseert een rapporterende aanbieder van cryptoactivadiensten zich op een eigen verklaring van de gebruiker van cryptoactiva die een entiteit is of van de Uiteindelijk belanghebbende op basis waarvan de rapporterende aanbieder van cryptoactivadiensten de fiscale woonplaats(en) van de uiteindelijk belanghebbende kan bepalen en de redelijkheid van die eigen verklaring kan bevestigen op basis van de door de Rapporterende aanbieder van cryptoactivadiensten verkregen inlichtingen, met inbegrip van alle documentatie die is verzameld in het kader van Due diligence-procedures voor klanten;
 Indien zich op enig moment een verandering voordoet in de omstandigheden met betrekking tot een gebruiker van cryptoactiva die een entiteit is of tot zijn uiteindelijke belanghebbenden waardoor de rapporterende aanbieder van cryptoactivadiensten weet of redenen heeft om te weten dat de oorspronkelijke eigen verklaring onjuist of onbetrouwbaar is, kan de rapporterende aanbieder van cryptoactivadiensten zich niet beroepen op de oorspronkelijke eigen verklaring en moet hij een geldige eigen verklaring of een redelijke verklaring en, in voorkomend geval, documentatie ter staving van de geldigheid van de oorspronkelijke eigen verklaring verkrijgen.
 Met betrekking tot lid 1er, 2°, a), indien de rapporterende aanbieder van cryptoactivadiensten niet wettelijk verplicht is de Due diligence-procedures voor klanten toe te passen overeenkomstig Richtlijn (EU) 2015/849, past hij in wezen soortgelijke procedures toe voor het vaststellen van de uiteindelijk belanghebbenden C. Eisen inzake de geldigheid van eigen verklaringen
-1° een eigen verklaring die wordt verstrekt door een gebruiker van cryptoactiva die een natuurlijke persoon is of door een uiteindelijk belanghebbende is alleen geldig als zij door de gebruiker van cryptoactiva die een natuurlijke persoon is of de uiteindelijk belanghebbende is ondertekend of anderszins is bevestigd, uiterlijk op de datum van ontvangst is gedateerd en de volgende inlichtingen bevat over de gebruiker van cryptoactiva die een natuurlijke persoon is of de uiteindelijk belanghebbende:
+1° een eigen verklaring die wordt verstrekt door een gebruiker van cryptoactiva die een natuurlijke persoon is of door een uiteindelijk belanghebbende is alleen geldig als zij door de gebruiker van cryptoactiva die een natuurlijke persoon is of de uiteindelijk belanghebbende is ondertekend of anderszins is bevestigd, uiterlijk op de datum van ontvangst is gedateerd en de volgende inlichtingen bevat over de gebruiker van cryptoactiva die een
+
+natuurlijke persoon is of de uiteindelijk belanghebbende:
 a) voor- en achternamen;
 b) woonadres;
 c) lidstaat/lidstaten van fiscale woonplaats;
@@ -1461,7 +1651,9 @@ Indien de verlangde inlichtingen vermeld staan in bescheiden waartoe de ambtenar
 Indien door de Belgische bevoegde autoriteit gemachtigde ambtenaren aanwezig zijn tijdens een administratief onderzoek of daaraan met gebruikmaking van elektronische communicatiemiddelen deelnemen, mogen zij personen ondervragen en bescheiden onderzoeken, met inachtneming van de door de aangezochte lidstaat vastgestelde procedurele regelingen.
 Iedere weigering van een persoon tegen wie een onderzoek loopt om zich te schikken naar de inspectiemaatregelen van de door de Belgische bevoegde overheid gemachtigde ambtenaren wordt door de aangezochte autoriteit beschouwd als een weigering tegengesteld aan zijn eigen ambtenaren.
 De door de Belgische bevoegde autoriteit gemachtigde ambtenaren die overeenkomstig lid 1 van deze paragraaf in een andere lidstaat aanwezig zijn, dienen te allen tijde een schriftelijke opdracht te kunnen overleggen waaruit hun identiteit en hun officiële hoedanigheid blijken.
-§ 2. De Belgische bevoegde autoriteit kan overeenkomen met een buitenlandse bevoegde autoriteit dat, ter uitwisseling van de in artikel 64bis, § 1, eerste lid, bedoelde inlichtingen de door de buitenlandse bevoegde autoriteit gemachtigde ambtenaren onder de bij dit decreet vastgestelde voorwaarden :
+§ 2. De Belgische bevoegde autoriteit kan overeenkomen met een buitenlandse bevoegde autoriteit dat, ter
+
+uitwisseling van de in artikel 64bis, § 1, eerste lid, bedoelde inlichtingen de door de buitenlandse bevoegde autoriteit gemachtigde ambtenaren onder de bij dit decreet vastgestelde voorwaarden :
 1° aanwezig zijn in het Waalse Gewest in de kantoren van de Waalse Overheidsdienst Financiën die die taken vervullen;
 2° aanwezig zijn bij administratieve onderzoeken op het Waalse grondgebied;
 3° deelnemen aan de administratieve onderzoeken die worden uitgevoerd door de ambtenaren van de Waalse De Belgische bevoegde autoriteit reageert binnen een termijn van 60 dagen na ontvangst van het verzoek op een verzoek gedaan overeenkomstig lid 1, waarbij aan de verzochte autoriteit de inwilliging van het verzoek of de gemotiveerde weigering ervan wordt meegedeeld.
@@ -1489,7 +1681,9 @@ De door de verzoekende lidstaat gemachtigde ambtenaren die overeenkomstig deze p
 
 ##### Art. 64septies/2.[1 § 1. De Belgische bevoegde autoriteit kan een buitenlandse bevoegde autoriteit, overeenkomstig de in de aangezochte lidstaat geldende voorschriften voor de kennisgeving van soortgelijke akten, erom verzoeken over te gaan tot kennisgeving aan de geadresseerde van alle door de Waalse administratieve autoriteiten afgegeven akten en besluiten die betrekking hebben op de toepassing op zijn grondgebied van wetgeving betreffende de taksen en belastingen geïnd door het Waalse Gewest of voor zijn rekening, door de territoriale of staatkundige onderdelen ervan of voor hun rekening, met inbegrip van de plaatselijke overheden.
 Het verzoek tot kennisgeving vermeldt de naam en het adres van de geadresseerde evenals alle overige informatie ter identificatie van de geadresseerde, en het onderwerp van de akte of het besluit waarvan kennis moet worden gegeven.
-Het verzoek tot kennisgeving wordt door de Belgische bevoegde autoriteit slechts gedaan indien de kennisgeving van de akten niet volgens de Belgische regels die in het Waalse Gewest toepasselijk zijn, kan geschieden, of buitensporige problemen zou veroorzaken. De Belgische bevoegde autoriteit kan, per aangetekende brief of langs elektronische weg, rechtstreeks van een document kennis geven aan een persoon op het grondgebied van een lidstaat.
+Het verzoek tot kennisgeving wordt door de Belgische bevoegde autoriteit slechts gedaan indien de kennisgeving van de akten niet volgens de Belgische regels die in het Waalse Gewest toepasselijk zijn, kan
+
+geschieden, of buitensporige problemen zou veroorzaken. De Belgische bevoegde autoriteit kan, per aangetekende brief of langs elektronische weg, rechtstreeks van een document kennis geven aan een persoon op het grondgebied van een lidstaat.
 § 2. Op verzoek van een buitenlandse bevoegde autoriteit gaat de Belgische bevoegde autoriteit, overeenkomstig de in het Waalse Gewest geldende voorschriften voor de kennisgeving van soortgelijke akten, over tot kennisgeving aan de geadresseerde van alle door de administratieve autoriteiten van de verzoekende lidstaat afgegeven akten en besluiten die betrekking hebben op de toepassing op het Waalse grondgebied van wetgeving betreffende de taksen en belastingen geïnd door het Waalse Gewest of voor zijn rekening, door de territoriale of staatkundige onderdelen ervan of voor hun rekening, met inbegrip van de plaatselijke overheden.
 De Belgische bevoegde autoriteit stelt de verzoekende autoriteit onverwijld in kennis van het aan het verzoek gegeven gevolg en, in het bijzonder, van de datum waarop de akte of het besluit de geadresseerde ter kennis is gebracht. ]1 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 77, 030; Inwerkingtreding : 28-09-2023>
 
@@ -1511,7 +1705,9 @@ De Belgische bevoegde autoriteit verstrekt eenmaal per jaar aan de betrokken lid
 [1 De bevoegde autoriteit van één of meer lidstaten kan de Belgische bevoegde autoriteit, eventueel samen met andere lidstaten, verzoeken een gezamenlijke controle uit te voeren. De Belgische bevoegde autoriteit en, indien van toepassing, de vereiste bevoegde autoriteiten van de andere lidstaten reageren binnen zestig dagen na ontvangst van het verzoek om gezamenlijk toezicht. De Belgische bevoegde autoriteit en, in voorkomend geval, de aangezochte bevoegde autoriteiten van de andere lidstaten kunnen een door een bevoegde autoriteit van een lidstaat ingediend verzoek om gezamenlijk toezicht om gemotiveerde redenen verwerpen.
 § 2. De Belgische bevoegde autoriteit kan de bevoegde autoriteit van een andere lidstaat, eventueel samen met andere lidstaten, verzoeken een gezamenlijke controle uit te voeren. De aangezochte bevoegde autoriteiten reageren binnen zestig dagen na ontvangst van het verzoek om gezamenlijk toezicht. De aangezochte bevoegde autoriteiten kunnen een door de Belgische bevoegde autoriteit ingediend verzoek om gezamenlijk toezicht om gemotiveerde redenen verwerpen.
 § 3. De gezamenlijke audits bedoeld in de paragrafen 1 en 2 worden op vooraf overeengekomen en gecoördineerde wijze, met inbegrip van taalregelingen, uitgevoerd door de bevoegde autoriteiten van de verzoekende en de aangezochte lidstaten, en in overeenstemming met de wetgeving en de procedurele voorschriften van de lidstaat waar de activiteiten van een gezamenlijke audit plaatsvinden In elke lidstaat waar de activiteiten van een gezamenlijke audit plaatsvinden, wijst de bevoegde autoriteit van die lidstaat een vertegenwoordiger aan die verantwoordelijk is voor het toezicht op en de coördinatie van de gezamenlijke audit in die lidstaat.
-De rechten en plichten van de ambtenaren van lidstaten die deelnemen aan de gezamenlijke audit, worden in geval van hun aanwezigheid bij activiteiten die in een andere lidstaat worden verricht, vastgesteld overeenkomstig de wetgeving van de lidstaat waar de activiteiten van de gezamenlijke audit plaatsvinden. De ambtenaren van een andere lidstaat voegen zich naar de wetgeving van de lidstaat waar de activiteiten van een gezamenlijke audit plaatsvinden, maar oefenen geen bevoegdheden uit die verder gaan dan de bevoegdheden die hun krachtens de wetgeving van hun lidstaat zijn verleend
+De rechten en plichten van de ambtenaren van lidstaten die deelnemen aan de gezamenlijke audit, worden in geval van hun aanwezigheid bij activiteiten die in een andere lidstaat worden verricht, vastgesteld overeenkomstig de wetgeving van de lidstaat waar de activiteiten van de gezamenlijke audit plaatsvinden. De ambtenaren van een
+
+andere lidstaat voegen zich naar de wetgeving van de lidstaat waar de activiteiten van een gezamenlijke audit plaatsvinden, maar oefenen geen bevoegdheden uit die verder gaan dan de bevoegdheden die hun krachtens de wetgeving van hun lidstaat zijn verleend
 § 4 Onverminderd paragraaf 3, wordt erop toegezien, wanneer de activiteiten van gezamenlijke controle plaatsvinden op het grondgebied van het Waals Gewest en worden uitgevoerd met ambtenaren van de Waalse
 1° toegestaan wordt dat ambtenaren van andere lidstaten die deelnemen aan de activiteiten van de gezamenlijke audit, personen ondervragen en bescheiden onderzoeken in samenspraak met de ambtenaren van de Waalse Overheidsdienst Financiën, met inachtneming van de procedurele regelingen die zijn vastgesteld bij dit decreet ;
 2° ervoor gezorgd wordt dat bewijsmateriaal dat tijdens de activiteiten van de gezamenlijke audit is verzameld, kan worden beoordeeld, ook op de toelaatbaarheid ervan, onder dezelfde juridische voorwaarden als in het geval van een op het grondgebied van het Waalse Gewest uitgevoerde audit waaraan alleen de ambtenaren van Waalse Overheidsdienst Financiën deelnemen, onder meer in de loop van eventuele klachten-, herzienings- of beroepsprocedures ;
@@ -1531,7 +1727,9 @@ Deze inlichtingen mogen worden gebruikt:
 Met toestemming van de buitenlandse bevoegde autoriteit die overeenkomstig de richtlijn inlichtingen heeft verstrekt, en voor zover het bij de in het Waalse Gewest toepasselijke wetgeving is toegestaan, kunnen de van die autoriteit ontvangen inlichtingen en documenten voor andere dan de in lid 2 bedoelde doeleinden worden gebruikt. De Belgische bevoegde autoriteit die inlichtingen en documenten ontvangt, kan de ontvangen inlichtingen en documenten zonder de bovengenoemde toestemming ook gebruiken
 1° voor een van de doeleinden die zijn genoemd door de lidstaat die de inlichtingen heeft verstrekt, indien de bevoegde autoriteit van laatstgenoemde lidstaat aan de bevoegde autoriteiten van alle andere lidstaten een lijst van andere dan de in lid 2 bedoelde doeleinden heeft meegedeeld waarvoor de inlichtingen en documenten overeenkomstig zijn nationale wetgeving mogen worden gebruikt;
 2° voor elk doel dat valt onder een besluit op grond van artikel 215 van het Verdrag betreffende de werking van de Europese Unie en voor dat doel delen met de bevoegde autoriteit die in de betrokken lidstaat verantwoordelijk is voor beperkende maatregelen.
-De Belgische bevoegde autoriteit die van oordeel is dat de van een buitenlandse bevoegde autoriteit verkregen inlichtingen de buitenlandse bevoegde autoriteit van een derde lidstaat van nut kunnen zijn voor de in lid 2 beoogde doelen, stelt de bevoegde autoriteit van de inlichtingen verstrekkende lidstaat in kennis van haar voornemen om die inlichtingen met een derde lidstaat te delen. Indien de inlichtingen verstrekkende bevoegde autoriteit van de lidstaat zich hiertegen niet verzet binnen tien werkdagen na de datum van ontvangst van de kennisgeving, kan de Belgische bevoegde autoriteit de inlichtingen overmaken aan de buitenlandse bevoegde autoriteit van de derde lidstaat op voorwaarde dat ze de regels en procedures bepaald in de vorige artikelen naleeft.
+De Belgische bevoegde autoriteit die van oordeel is dat de van een buitenlandse bevoegde autoriteit verkregen inlichtingen de buitenlandse bevoegde autoriteit van een derde lidstaat van nut kunnen zijn voor de in lid 2
+
+beoogde doelen, stelt de bevoegde autoriteit van de inlichtingen verstrekkende lidstaat in kennis van haar voornemen om die inlichtingen met een derde lidstaat te delen. Indien de inlichtingen verstrekkende bevoegde autoriteit van de lidstaat zich hiertegen niet verzet binnen tien werkdagen na de datum van ontvangst van de kennisgeving, kan de Belgische bevoegde autoriteit de inlichtingen overmaken aan de buitenlandse bevoegde autoriteit van de derde lidstaat op voorwaarde dat ze de regels en procedures bepaald in de vorige artikelen naleeft.
 Wanneer de Belgische bevoegde autoriteit van oordeel is dat de overeenkomstig lid 4 door een buitenlandse bevoegde autoriteit verstrekte inlichtingen voor de in lid 3 beoogde doelen van nut kunnen zijn, vraagt ze daartoe de toestemming aan de bevoegde autoriteit van de lidstaat waarvan de inlichtingen afkomstig zijn.
 Inlichtingen, verslagen, attesten en andere documenten, alsook voor eensluidend gewaarmerkte afschriften of uittreksels daarvan, die door de aangezochte autoriteit zijn verkregen en overeenkomstig dit artikel aan de Belgische bevoegde verzoekende autoriteit zijn doorgegeven, kunnen door de Belgische bevoegde instanties op dezelfde voet als bewijs worden aangevoerd als soortgelijke inlichtingen, verslagen, attesten en andere documenten die door een andere Belgische autoriteit zijn verstrekt. ]4.
 § 2. Met toestemming van de Belgische bevoegde autoriteit kunnen de overeenkomstig de vorige artikelen medegedeelde inlichtingen voor andere dan de § 1 van lid 2 van dit artikel bedoelde doeleinden worden gebruikt in de lidstaat die ze ontvangt. De toestemming wordt door de Belgische bevoegde autoriteit verleend indien de inlichtingen in het Waalse Gewest voor soortgelijke doeleinden kunnen worden gebruikt.
@@ -1550,7 +1748,9 @@ In geen geval worden de leden 1 en 2 van § 4 zo uitgelegd dat de Belgische bevo
 Onverminderd lid 2 kan de Belgische bevoegde autoriteit weigeren de gevraagde inlichtingen toe te zenden indien deze betrekking hebben op belastingtijdvakken vóór 1 januari 2011 en de toezending van de inlichtingen geweigerd had kunnen worden op grond van artikel 8, lid 1, van Richtlijn 77/799/EEG indien daarom was verzocht vóór 11 maart 2011.
 [4 De Belgische bevoegde autoriteit voert een doeltreffend mechanisme in om het gebruik van inlichtingen die zijn verkregen door rapportage of uitwisseling van inlichtingen uit hoofde van de artikelen 64quinquies tot en met 64quinquies/15.]4
 § 6. Het Waalse Gewest dat voorziet in een samenwerking met een derde land welke verder reikt dan de bij de richtlijn geregelde samenwerking, kan de verder reikende samenwerking niet weigeren aan een lidstaat die met hem deze verder reikende, wederzijdse samenwerking wenst aan te gaan.
-§ 7.[3 De verzoeken om inlichtingen en administratieve onderzoeken, ingediend krachtens artikel 64ter, § 1, evenals de overeenstemmende antwoorden, de berichten van ontvangst, de verzoeken om inlichtingen met een algemeen karakter en de verklaringen van onmogelijkheid of weigering uit hoofde van artikel 64quater, worden, voor zover mogelijk, middels een modelformulier, aangenomen door de Commissie, overgemaakt. De modelformulieren kunnen vergezeld gaan van verslagen, certificaten en andere documenten, of van gewaarmerkte afschriften of uittreksels daarvan.
+§ 7.[3 De verzoeken om inlichtingen en administratieve onderzoeken, ingediend krachtens artikel 64ter, § 1, evenals de overeenstemmende antwoorden, de berichten van ontvangst, de verzoeken om inlichtingen met een
+
+algemeen karakter en de verklaringen van onmogelijkheid of weigering uit hoofde van artikel 64quater, worden, voor zover mogelijk, middels een modelformulier, aangenomen door de Commissie, overgemaakt. De modelformulieren kunnen vergezeld gaan van verslagen, certificaten en andere documenten, of van gewaarmerkte afschriften of uittreksels daarvan.
 De Belgische bevoegde autoriteit kan, voor zover ze gekend zijn en overeenkomstig de evolutie van de internationale situatie, naam en adres verstrekken van alle personen van wie kan worden uitgegaan dat ze in het bezit zijn van de gevraagde inlichtingen, evenals van ieder gegeven waardoor de informatievergaring door de aangezochte autoriteit vlotter kan worden gemaakt. De spontaan uitgewisselde informatie en het desbetreffende bericht van ontvangst uit hoofde van, respectievelijk, artikel 64sexies, leden 1 en 4, de verzoeken om administratieve kennisgeving uit hoofde van artikel 64septies/2, de terugmeldingen uit hoofde van artikel 64septies/3, de communicaties uit hoofde van paragraaf 1, leden 3, 4 en 5, en de communicaties uit hoofde van artikel 64novies, lid 2, worden overgemaakt door middel van het modelformulier aangenomen door de Commissie.
 De automatische informatie-uitwisseling uit hoofde van artikel 64quinquies en artikel 64quinquies/4 geschiedt in een standaard elektronische formaat uitgewerkt voor een vlottere informatie-uitwisseling, gegrond op het bestaande elektronische formaat krachtens artikel 9 van Richtlijn 2003/48/EG van de Raad van 3 juni 2003 betreffende belastingheffing op inkomsten uit spaargelden in de vorm van rentebetaling, gebruikt voor alle soorten automatische informatie-uitwisselingen en aangenomen door de Europese Commissie]3.]2
 § 8. [2 De krachtens dit artikel verstrekte inlichtingen worden zoveel mogelijk verzonden langs elektronische weg, via het CCN-netwerk.
@@ -1563,7 +1763,9 @@ Het verzoek om samenwerking, waaronder het verzoek tot kennisgeving, en de bijge
 (1)<Ingevoegd bij DWG 2013-09-19/23, art. 7, 008; Inwerkingtreding : 01-01-2013>
 
 ##### Art. 64novies.[1 De Belgische bevoegde autoriteit die van een derde land inlichtingen ontvangt welke naar verwachting van belang zijn voor de administratie en de handhaving van de Waalse wetgeving betreffende de taksen en belastingen geïnd door het Waalse Gewest of voor zijn rekening, door de territoriale of staatkundige onderdelen ervan of voor hun rekening met inbegrip van de plaatselijke overheden, kan deze inlichtingen verstrekken aan de bevoegde autoriteiten van de lidstaten voor welke die inlichtingen van nut kunnen zijn, en aan elke buitenlandse bevoegde autoriteit die daarom verzoekt, mits dat krachtens een overeenkomst met dat derde land is toegestaan.
-De Belgische bevoegde autoriteit kan, met inachtneming van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en overeenkomstig de in het Waalse Gewest toepasselijke Belgische bepalingen en de mededeling van persoonsgegevens aan derde landen de krachtens dit artikel ontvangen inlichtingen doorgeven aan een derde land, op voorwaarde dat aan elk van de volgende voorwaarden is voldaan :
+De Belgische bevoegde autoriteit kan, met inachtneming van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en overeenkomstig de in het Waalse Gewest toepasselijke Belgische bepalingen en de mededeling van persoonsgegevens aan derde landen de krachtens dit artikel ontvangen inlichtingen doorgeven aan een derde land, op voorwaarde dat aan elk
+
+van de volgende voorwaarden is voldaan :
 a) de buitenlandse bevoegde autoriteit van de lidstaat waaruit de inlichtingen afkomstig zijn, heeft daarin toegestemd;
 b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodig is om bewijsmateriaal bijeen te brengen omtrent het ongeoorloofde of onwettige karakter van verrichtingen die blijken in strijd te zijn met of een misbruik te vormen van de belastingwetgeving.]1 (1)<Ingevoegd bij DWG 2013-09-19/23, art. 7, 008; Inwerkingtreding : 21-10-2013>
 
@@ -1587,7 +1789,9 @@ Onverminderd [2 van de artikelen 64quinquies/5, tweede lid, en 64octies, § 10, 
 2° maakt aan elke betrokken natuurlijke persoon alle informatie over waartoe zij toegang mag hebben, afkomstig van de verwerker, binnen een toereikende termijn om hem in staat te stellen zijn of haar rechten inzake gegevensbescherming uit te oefenen en, hoe dan ook, voordat de informatie gerapporteerd wordt]2.
 Niettegenstaande lid 1, 2°, dienen de rapporterende platformexploitanten de te rapporteren verkopers in te lichten over de gerapporteerde tegenprestatie-1.
 [2 § 6. Wanneer zich in het Waalse Gewest een schending van gegevens heeft voorgedaan, stelt de bevoegde Belgische autoriteit de Europese Commissie onverwijld in kennis van de schending van gegevens en van alle latere corrigerende maatregelen. De bevoegde Belgische autoriteit onderzoekt de schending van gegevens, beheerst en verhelpt deze en vraagt, na schriftelijke kennisgeving aan de Europese Commissie, om opschorting van de toegang tot het CCN-netwerk voor de toepassing van de artikelen 64 bis tot en met 64 duodecies, indien de schending van gegevens niet onmiddellijk en op passende wijze kan worden beheerst. De Belgische bevoegde autoriteit stelt de Europese Commissie in kennis van alle onmiddellijk of later genomen corrigerende maatregelen, zodra deze zijn uitgevoerd.
-De bevoegde Belgische autoriteit kan de uitwisseling van informatie met de lidstaat of lidstaten waar de schending heeft plaatsgevonden, opschorten en stelt de Europese Commissie en de betrokken lidstaat of lidstaten schriftelijk in kennis van deze opschorting. Deze opschorting wordt onmiddellijk van kracht. De bevoegde Belgische autoriteit kan de Europese Commissie vragen om samen met haar na te gaan of de schending van de gegevens met succes is verholpen..
+De bevoegde Belgische autoriteit kan de uitwisseling van informatie met de lidstaat of lidstaten waar de
+
+schending heeft plaatsgevonden, opschorten en stelt de Europese Commissie en de betrokken lidstaat of lidstaten schriftelijk in kennis van deze opschorting. Deze opschorting wordt onmiddellijk van kracht. De bevoegde Belgische autoriteit kan de Europese Commissie vragen om samen met haar na te gaan of de schending van de gegevens met succes is verholpen..
 § 7. De bevoegde Belgische autoriteit stelt, bijgestaan door de Europese Commissie, de praktische modaliteiten vast die nodig zijn voor de uitvoering van dit artikel, met inbegrip van de procedures voor het beheer van schendingen van gegevens in overeenstemming met internationaal erkende goede praktijken en, indien van toepassing, een gezamenlijke overeenkomst tussen de verwerkingsverantwoordelijken, een overeenkomst tussen de verwerkers en de verwerkingsverantwoordelijken, of modellen van deze overeenkomsten.]2 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 84, 030; Inwerkingtreding : 28-09-2023> (2)<DWG 2025-12-19/B4, art. 19, 035; Inwerkingtreding : 01-01-2026>
 
 ##### Art. 64undecies.[1 § 1. In afwijking van artikel 64decies, § 1, en van de artikelen 13 en 14, van de algemene verordening gegevensbescherming kan het recht op informatie uitgesteld, beperkt of uitgesloten worden betreffende verwerkingen van persoonsgegevens waarvan de Waalse Overheidsdienst Financiën de verwerkingsverantwoordelijke is om de doelstellingen inzake openbaar nut te vrijwaren op het stuk van budgetair, monetair en fiscaal beleid en voor zover artikel 14, § 5, d), van bedoelde Verordening niet in deze wordt ingeroepen.
@@ -1603,6 +1807,7 @@ De gemachtigde voor gegevensbescherming van de verwerker legt de feitelijke of j
 Wanneer de Waalse Overheidsdienst Financiën gebruik heeft gemaakt van de uitzondering bepaald in paragraaf 1, lid 1, en met uitzondering van de situaties bedoeld in leden 6 en 7, wordt de uitzonderingsregel onmiddellijk na de afsluiting van de controle of het onderzoek opgeheven. De gemachtigde voor gegevensbescherming van de verwerker zal de betrokkene hiervan onverwijld op de hoogte stellen.
 Wanneer een zaak naar de gerechtelijke autoriteit wordt verwezen, worden de rechten van de betrokkene pas hersteld na toestemming van de gerechtelijke autoriteit of nadat de gerechtelijke fase is afgerond en, in voorkomend geval, nadat de bevoegde dienst een beslissing heeft genomen. Informatie die is verzameld tijdens de uitvoering van taken die door de gerechtelijke autoriteit zijn voorgeschreven, mag echter alleen openbaar worden gemaakt met de uitdrukkelijke toestemming van de gerechtelijke autoriteit.
 Wanneer een dossier wordt doorgestuurd naar een andere dienst van de Waalse Overheidsdienst Financiën of naar de instelling die bevoegd is om uitspraak te doen over de conclusies van het onderzoek, worden de rechten pas hersteld nadat deze dienst of de bevoegde instelling uitspraak heeft gedaan over het resultaat van het onderzoek . ]1 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 85, 030; Inwerkingtreding : 28-09-2023>
+
 ##### Art. 64duodecies.[1 § 1. In afwijking van artikel 64decies, § 1, en van artikel 15 van de algemene verordening gegevensbescherming kan het recht tot toegang op de persoonsgegevens betreffende deze persoon geheel of ten dele uitgesteld, beperkt worden betreffende de verwerkingen van persoonsgegevens waarvan de Waalse budgetair, monetair en fiscaal beleid.
 De verwerkingen als bedoeld in lid 1 zijn verwerkingen met als doeleinde de voorbereiding, de organisatie, het beheer en de opvolging van de onderzoeken gevoerd door de bevoegde diensten van de Waalse administratieve geldboete of een administratieve sanctie.
 § 2. Deze afwijkingen blijven gelden tijdens de periode waarin de betrokkene aan een controle of aan een onderzoek of aan voorbereidende handelingen daarvoor is onderworpen, als verricht door voornoemde diensten in het kader van de uitvoering van zijn wettelijke opdrachten evenals tijdens de periode waarin de documenten afkomstig van deze diensten verwerkt worden met het oog op het instellen van vervolgingen daarvoor.
@@ -1626,7 +1831,9 @@ artikel 1, § 2, van het decreet van 25 juli 1991 betreffende de belasting op de
 2. in artikel 6bis ingevoegd bij decreet van 16 juli 1998 worden de woorden " op bedoelde afvalstoffen voorziene heffing " vervangen door de woorden " van de bedoelde belasting ";
 3. in de artikelen 6ter, 6quinquies, 18ter en 25, tweede lid, ingevoegd bij het decreet van 16 juli 1998, worden de woorden " van de heffing " vervangen door de woorden " van de belasting ";
 4. in de artikelen 6quater en 18bis, ingevoegd bij decreet van 16 juli 1998, worden de woorden " De heffing " vervangen door de woorden " De belasting ";
-5. artikel 21 van het decreet van 17 december 1992 wordt aangevuld met het volgende lid : " Bij gebreke van betaling van het voorschot binnen de vastgestelde termijn wordt de verschuldigde nalatigheidsinterest berekend op de som die per dag vertraging is verschuldigd op een basis van driehonderd vijfenzestig kalenderdagen. ";
+5. artikel 21 van het decreet van 17 december 1992 wordt aangevuld met het volgende lid : " Bij gebreke van betaling van het voorschot binnen de vastgestelde termijn wordt de verschuldigde
+
+nalatigheidsinterest berekend op de som die per dag vertraging is verschuldigd op een basis van driehonderd vijfenzestig kalenderdagen. ";
 6. in artikel 28, eerste lid, gewijzigd bij het decreet van 16 juli 1998, worden de woorden " of de heffing " geschrapt en worden de woorden " de ontdoken of betaalde belasting of heffing " vervangen door de woorden " de ontdoken of betaalde belasting ".
 
 ##### Art. 66

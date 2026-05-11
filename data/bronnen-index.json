@@ -222,10 +222,10 @@
         "IV.C",
         "2.5"
       ],
-      "trust_status": "needs-rework",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
       "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer2_status": "not_run"
     },
     {
       "bestand": "EU-AVG-Verordening-2016-679.md",
@@ -454,10 +454,10 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "needs-rework",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "not_run"
     },
     {
       "bestand": "MIGB-Vlaanderen.md",
@@ -486,10 +486,10 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "needs-rework",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "not_run"
     },
     {
       "bestand": "Oud-BW.md",
@@ -590,10 +590,10 @@
       "tags": [
         "XII"
       ],
-      "trust_status": "needs-rework",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "not_run"
     },
     {
       "bestand": "Strafwetboek2024-boek2.md",
