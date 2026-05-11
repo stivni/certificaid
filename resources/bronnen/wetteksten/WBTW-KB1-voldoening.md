@@ -4,25 +4,27 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB1-voldoening.pdf
-    sha256: a658fe034ecb79721ad2b7d66e6990e3209b6143a294d8f7316538595efc98fb
-    version: '2024'
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB1-voldoening.pdf
+      sha256: a658fe034ecb79721ad2b7d66e6990e3209b6143a294d8f7316538595efc98fb
+      version: '2024'
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A7/B5: de eerste 90 regels tonen een dislocated inhoudsopgave-fragment (Titel, Art. 4, Afdeling 3-6, Art. 13ter/13quater, Hoofdstuk II-V, Art. 30bis/31-33, Bijlagen) die door 2-kolom extractie vóór de eigenlijke wettekst is terechtgekomen. De echte wettige tekst begint pas op regel 91 ('Eerste hoofdstuk. - Facturering'). Verder: D3: verspreid door de tekst staan wijzigingsmarkeringen als '(1)<KB 2012-12-19/03, art. 3, 033; Inwerkingtreding : 01-01-2013>' inline in de body, niet als voetnoten. Op regel 356-364 staan verwijzingen naar KB-nummers en inwerkingtreding-datums midden in de paragraaftekst (restes van voetnootopmaak)."
     layer1:
       file_size_chars: 109660
       flags: []
@@ -32,19 +34,44 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "A7/B5: de eerste 90 regels tonen een dislocated inhoudsopgave-fragment (Titel, Art. 4, Afdeling 3-6, Art. 13ter/13quater, Hoofdstuk II-V, Art. 30bis/31-33, Bijlagen) die door 2-kolom extractie vóór de eigenlijke wettekst is terechtgekomen. De echte wettige tekst begint pas op regel 91 ('Eerste hoofdstuk. - Facturering'). Verder: D3: verspreid door de tekst staan wijzigingsmarkeringen als '(1)<KB 2012-12-19/03, art. 3, 033; Inwerkingtreding : 01-01-2013>' inline in de body, niet als voetnoten. Op regel 356-364 staan verwijzingen naar KB-nummers en inwerkingtreding-datums midden in de paragraaftekst (restes van voetnootopmaak)."
+      concrete_problemen:
+        - regel: 53
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "Titel\n\n29 DECEMBER 1992. - Koninklijk besluit nr. 1 ... [TOC-fragment bovenaan body]"
+        - regel: 59
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: '#### Art. 4 [losse verwijzing zonder inhoud, onderdeel dislocated TOC]'
+        - regel: 61
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: '### Afdeling 3. [1 - Vermeldingen]1 [TOC-regel bovenaan vóór eigenlijke tekst]'
+        - regel: 83
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: '#### Art. 30bis, 31-33 [samengevatte art-ref als heading in TOC-fragment]'
+        - regel: 115
+          categorie: D3
+          type: other
+          voorbeeld: '(1)<KB 2012-12-19/03, art. 3, 033; Inwerkingtreding : 01-01-2013> [inline wijzigingsmarkering na artikel-inhoud]'
+        - regel: 356
+          categorie: D3
+          type: other
+          voorbeeld: '<KB 1998-11-26/42, art. 2, 008; Inwerkingtreding : 01-01-1999> <KB 2000-07- [midden in alinea, afgebroken]'
+        - regel: 357
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: '20/63, art. 6, 012; Inwerkingtreding : 01-01-2002> [onvolledige KB-referentie over regelgrens]'
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening
-  van de belasting over de toegevoegde waarde
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde
 ---
 
 # BTW KB nr. 1 — Voldoening

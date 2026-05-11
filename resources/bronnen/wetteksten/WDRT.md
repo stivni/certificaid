@@ -3,51 +3,62 @@ bijgewerkt: 24.12.2025
 bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 5
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: V
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/WDRT.pdf
-    sha256: 773ab29790de4e0f592dae0d42f63c94fd675a81c748e3df65c36215754eb568
-    version: 24.12.2025
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/WDRT.pdf
+      sha256: 773ab29790de4e0f592dae0d42f63c94fd675a81c748e3df65c36215754eb568
+      version: 24.12.2025
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B2: het bestand opent direct met `##### Art. 212` (regel 57) vóór elk `##`/`###`/`####` hoofdstuk-niveau — de eerste echte structuurheading `## Boek I` verschijnt pas op regel 59, waarna `##### Art. 1` volgt zonder tussenniveaus. Dit geeft een heading-sprong `#####` → `##` → `#####`. A6/A7: meerdere regels bevatten artikeltekst en wijzigingsmarkeringen samengeperst op één lange regel met inline regelafbrekingen i.p.v. alinea-indeling (zie bv. regel 67). D3: voetnoten als `(1)<KB...>` zijn inline in de body geplaatst direct na de artikeltekst zonder markdown-voetnoot-syntax.'
     layer1:
       file_size_chars: 313896
       flags:
-      - detail: 'langste sectie op #####-niveau: 55659 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
+        - detail: 'langste sectie op #####-niveau: 55659 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          name: max_section_size
+          samples: []
+          status: warn
       heading_count: 377
       max_section_chars: 55659
       run_at: '2026-05-11T13:40:48Z'
       run_id: 20260511-134044
       status: warn
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: 'B2: het bestand opent direct met `##### Art. 212` (regel 57) vóór elk `##`/`###`/`####` hoofdstuk-niveau — de eerste echte structuurheading `## Boek I` verschijnt pas op regel 59, waarna `##### Art. 1` volgt zonder tussenniveaus. Dit geeft een heading-sprong `#####` → `##` → `#####`. A6/A7: meerdere regels bevatten artikeltekst en wijzigingsmarkeringen samengeperst op één lange regel met inline regelafbrekingen i.p.v. alinea-indeling (zie bv. regel 67). D3: voetnoten als `(1)<KB...>` zijn inline in de body geplaatst direct na de artikeltekst zonder markdown-voetnoot-syntax.'
+      concrete_problemen:
+        - regel: 57
+          categorie: B2
+          type: other
+          voorbeeld: '##### Art. 212 — verschijnt vóór ## Boek I (omgekeerde hiërarchie)'
+        - regel: 67
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: '[ 2 ...] 2 .  [ 1 De belastingschuldige is:  1° de notaris...'
+        - regel: 69
+          categorie: D3
+          type: other
+          voorbeeld: '----------  ( 1 )<W 2022-05-18/04, art. 2, 052; Inwerkingtreding : 01-07-2022>'
 status: beschikbaar
 tags:
-- V
-- '2.5'
-- '2.6'
+  - V
+  - '2.5'
+  - '2.6'
 wet: Wetboek Diverse Rechten en Taksen
 ---
 

@@ -3,50 +3,61 @@ bijgewerkt: 24.12.2025
 bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 6
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XIII
 provenance:
-  generated_at: '2026-05-11T16:34:41Z'
   inputs:
-  - id: resources/raw/wetteksten/WER.pdf
-    sha256: f1253ed1adb2f84082517dca7b9d6a9a98d457cda4c373b694f201c2ef3b48d5
-    version: 24.12.2025
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/WER.pdf
+      sha256: f1253ed1adb2f84082517dca7b9d6a9a98d457cda4c373b694f201c2ef3b48d5
+      version: 24.12.2025
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:41Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B1/B5: de WER gebruikt een meervoudig-artikelen-per-heading constructie (bv. `###### Art. XV.125/6, XV.125/7` op regel 84 en `###### Art. XV.126, XV.126/1, XV.126/2` op regel 88) waarbij de artikelinhoud ontbreekt — enkel de heading staat er, geen tekst. B4: structuurlabels `HOOFDSTUK 3` en `Afdeling`-lijnen staan als `####`/`#####` headings maar bevatten enkel nummering zonder tekst direct erna. Layer1 meldde max_section_size warn. De WER is extreem groot (3.4MB, 3316 headings) en de bestandsgrootte overschrijdt 256KB waardoor volledige review niet mogelijk was; de gesampelde secties tonen consistent de lege-heading problematiek.'
     layer1:
       file_size_chars: 3469071
       flags:
-      - detail: 'langste sectie op ######-niveau: 43778 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
+        - detail: 'langste sectie op ######-niveau: 43778 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          name: max_section_size
+          samples: []
+          status: warn
       heading_count: 3316
       max_section_chars: 43778
       run_at: '2026-05-11T13:40:49Z'
       run_id: 20260511-134044
       status: warn
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: 'B1/B5: de WER gebruikt een meervoudig-artikelen-per-heading constructie (bv. `###### Art. XV.125/6, XV.125/7` op regel 84 en `###### Art. XV.126, XV.126/1, XV.126/2` op regel 88) waarbij de artikelinhoud ontbreekt — enkel de heading staat er, geen tekst. B4: structuurlabels `HOOFDSTUK 3` en `Afdeling`-lijnen staan als `####`/`#####` headings maar bevatten enkel nummering zonder tekst direct erna. Layer1 meldde max_section_size warn. De WER is extreem groot (3.4MB, 3316 headings) en de bestandsgrootte overschrijdt 256KB waardoor volledige review niet mogelijk was; de gesampelde secties tonen consistent de lege-heading problematiek.'
+      concrete_problemen:
+        - regel: 84
+          categorie: B1
+          type: other
+          voorbeeld: '###### Art. XV.125/6, XV.125/7 (lege heading, geen artikeltekst)'
+        - regel: 88
+          categorie: B1
+          type: other
+          voorbeeld: '###### Art. XV.126, XV.126/1, XV.126/2 (lege heading)'
+        - regel: 90
+          categorie: B1
+          type: other
+          voorbeeld: '#### HOOFDSTUK 3. - [ 1 Bijkomende straffen [...]] 1 (heading zonder inhoud)'
 status: beschikbaar
 tags:
-- XIII
-- '1.4'
+  - XIII
+  - '1.4'
 wet: Wetboek van Economisch Recht
 ---
 

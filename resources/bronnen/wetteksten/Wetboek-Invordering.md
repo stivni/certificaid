@@ -4,25 +4,27 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 6
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VII
 provenance:
-  generated_at: '2026-05-11T16:34:50Z'
   inputs:
-  - id: resources/raw/wetteksten/Wetboek-Invordering.pdf
-    sha256: c73b84f709753a3bae653ec5aa128ed53cdfc7a3dde79edf2a3671df996e4963
-    version: 24.12.2025
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Wetboek-Invordering.pdf
+      sha256: c73b84f709753a3bae653ec5aa128ed53cdfc7a3dde79edf2a3671df996e4963
+      version: 24.12.2025
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:50Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: HOOFDSTUK 6, 7, 8 en TITEL 4 en 5 verschijnen dubbel — eerst als lege 'preview'-headings met enkel artikelnummers (regels 54-80) zonder inhoud, daarna later volledig met artikeltekst; dit is een extractie-artefact (TOC-fragmenten of dubbele structuurmarkers in de body). A6/A1: Art. 6 §4 is over een pagina-grens gebroken: de zin breekt af op regel 118 ('publiceert op de website van de Federale Overheidsdienst') en regel 120 begint midden-zin zonder heading-context; hetzelfde op regel 280 waar Art. 37 §3-inhoud verschijnt zonder bijhorende Art. 37-heading. A6: Art. 46 (regels 320-322) en Art. 48 (regels 328-330) bevatten geïsoleerde regelresten ('4.59, § 4, derde lid,] 2') afgebroken over een paginagrens."
     layer1:
       file_size_chars: 143073
       flags: []
@@ -32,19 +34,40 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "B3: HOOFDSTUK 6, 7, 8 en TITEL 4 en 5 verschijnen dubbel — eerst als lege 'preview'-headings met enkel artikelnummers (regels 54-80) zonder inhoud, daarna later volledig met artikeltekst; dit is een extractie-artefact (TOC-fragmenten of dubbele structuurmarkers in de body). A6/A1: Art. 6 §4 is over een pagina-grens gebroken: de zin breekt af op regel 118 ('publiceert op de website van de Federale Overheidsdienst') en regel 120 begint midden-zin zonder heading-context; hetzelfde op regel 280 waar Art. 37 §3-inhoud verschijnt zonder bijhorende Art. 37-heading. A6: Art. 46 (regels 320-322) en Art. 48 (regels 328-330) bevatten geïsoleerde regelresten ('4.59, § 4, derde lid,] 2') afgebroken over een paginagrens."
+      concrete_problemen:
+        - regel: 54
+          categorie: B3
+          type: other
+          voorbeeld: "### HOOFDSTUK 6. - De vrijstelling van nalatigheidsinteresten\n\n###### Art. 70\n\n### HOOFDSTUK 7..."
+        - regel: 118
+          categorie: A6
+          type: other
+          voorbeeld: § 4. De [ 1 verwerkingsverantwoordelijke] 1 publiceert op de website van de Federale [ 1 Overheidsdienst] 1
+        - regel: 120
+          categorie: A1
+          type: other
+          voorbeeld: verwerkingsverantwoordelijke] 1 bedoeld in paragraaf 3 behoren en, in voorkomend geval, waarin de volledige betaling...
+        - regel: 280
+          categorie: A6
+          type: other
+          voorbeeld: werkdagen van de datum van de inlichting bedoeld in paragraaf 1, vierde lid.  Alle niet-ingeschreven schuldvorderingen...
+        - regel: 321
+          categorie: A6
+          type: abrupt-cutoff
+          voorbeeld: 4.59, § 4, derde lid,] 2 van het Burgerlijk Wetboek toch op een bevrijdende wijze gedaan worden aan de erfgenaam...
+        - regel: 329
+          categorie: A6
+          type: abrupt-cutoff
+          voorbeeld: 4.59, § 4, derde lid,] 2 van het Burgerlijk Wetboek bedoeld attest van erfopvolging op te maken.
 status: beschikbaar
 tags:
-- VII
-- '2.5'
-wet: Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale
-  schuldvorderingen
+  - VII
+  - '2.5'
+wet: Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen
 ---
 
 # Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen

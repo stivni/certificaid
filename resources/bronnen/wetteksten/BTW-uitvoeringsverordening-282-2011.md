@@ -8,37 +8,61 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.A
 provenance:
-  generated_at: '2026-05-11T16:52:37Z'
   inputs:
     - id: resources/raw/wetteksten/BTW-uitvoeringsverordening-282-2011.pdf
       sha256: b0f05e1f21b7ecd2d264e67874e89e264d4ff957b20e20c1bd2af70f718f9a34
       version: 23.03.2011
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:56:14Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4/B5: structuurlabels zoals 'ONDERWERP', 'TOEPASSINGSGEBIED', 'BELASTINGPLICHTIGEN', 'BELASTBARE HANDELINGEN', 'PLAATS VAN BELASTBARE HANDELINGEN' staan als plain-text regels zonder heading-prefix (r.177, 183-185, 211-213, 219-221, 295-298, etc.) — een mens zou deze als ## headings typen. A7: de bijlage-headings 'O n d e r a f d e l i n g 1', 'S t a t u s v a n d e a f n e m e r' etc. (r.375-377) zijn lettergespacieerd als PDF-artefact. B5: 'Art. 33. van Richtlijn 2006/112/EG wijzigt echter wel de' (r.347) en 'Art. 7. van de onderhavige verordening' (r.825) zijn als heading gemarkeerd maar zijn eigenlijk cross-references midden in tekst. De transponeringstabel (bijlage IV, r.955-1052) toont kolom-alignment met spacing-artefacten ('## Hoofdstuk I  Hoofdstuk I')."
     layer1:
-      status: pass
-      run_id: 20260511-165250
-      run_at: '2026-05-11T16:52:50Z'
-      heading_count: 84
-      max_section_chars: 17230
       file_size_chars: 76490
       flags: []
+      heading_count: 84
+      max_section_chars: 17230
+      run_at: '2026-05-11T16:52:50Z'
+      run_id: 20260511-165250
+      status: pass
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "B4/B5: structuurlabels zoals 'ONDERWERP', 'TOEPASSINGSGEBIED', 'BELASTINGPLICHTIGEN', 'BELASTBARE HANDELINGEN', 'PLAATS VAN BELASTBARE HANDELINGEN' staan als plain-text regels zonder heading-prefix (r.177, 183-185, 211-213, 219-221, 295-298, etc.) — een mens zou deze als ## headings typen. A7: de bijlage-headings 'O n d e r a f d e l i n g 1', 'S t a t u s v a n d e a f n e m e r' etc. (r.375-377) zijn lettergespacieerd als PDF-artefact. B5: 'Art. 33. van Richtlijn 2006/112/EG wijzigt echter wel de' (r.347) en 'Art. 7. van de onderhavige verordening' (r.825) zijn als heading gemarkeerd maar zijn eigenlijk cross-references midden in tekst. De transponeringstabel (bijlage IV, r.955-1052) toont kolom-alignment met spacing-artefacten ('## Hoofdstuk I  Hoofdstuk I')."
+      concrete_problemen:
+        - regel: 177
+          categorie: B4
+          type: other
+          voorbeeld: ONDERWERP
+        - regel: 211
+          categorie: B4
+          type: other
+          voorbeeld: "BELASTINGPLICHTIGEN\n\n(TITEL III VAN RICHTLIJN 2006/112/EG)"
+        - regel: 375
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "O n d e r a f d e l i n g 1\n\nS t a t u s v a n d e a f n e m e r"
+        - regel: 347
+          categorie: B5
+          type: other
+          voorbeeld: '### Art. 33. van Richtlijn 2006/112/EG wijzigt echter wel de'
+        - regel: 957
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '## Hoofdstuk I  Hoofdstuk I'
+        - regel: 825
+          categorie: B5
+          type: other
+          voorbeeld: '### Art. 7. van de onderhavige verordening'
 status: beschikbaar
 tags:
   - VI.A

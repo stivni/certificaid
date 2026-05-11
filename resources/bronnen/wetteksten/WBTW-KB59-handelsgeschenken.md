@@ -4,25 +4,27 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB59-handelsgeschenken.pdf
-    sha256: 9c74b4429414f5b446033818128723e0851924517e59e181c62963cb950b9cc3
-    version: '2020'
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB59-handelsgeschenken.pdf
+      sha256: 9c74b4429414f5b446033818128723e0851924517e59e181c62963cb950b9cc3
+      version: '2020'
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B2: de heading-hiërarchie springt van `####` (Art. 1 op regel 60) onmiddellijk naar `##` (HOOFDSTUK 2 op regel 62) en daarna `###` (Afdeling 1 op regel 64), wat een omgekeerde en inconsistente niveau-volgorde geeft. Bovendien verschijnt `#### Art. 1` tweemaal (regels 60 en 76): eenmaal vóór HOOFDSTUK 2 en de inhoudsopgave-blokken, en dan opnieuw na HOOFDSTUK 1 — typisch TOC-dubbeling (A3). B4: de regels 53–58 bevatten 'Titel', de lange titelregel en 'Bron : FINANCIEN' als plain-text structuurlabels zonder heading-prefix."
     layer1:
       file_size_chars: 21054
       flags: []
@@ -32,19 +34,32 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "B2: de heading-hiërarchie springt van `####` (Art. 1 op regel 60) onmiddellijk naar `##` (HOOFDSTUK 2 op regel 62) en daarna `###` (Afdeling 1 op regel 64), wat een omgekeerde en inconsistente niveau-volgorde geeft. Bovendien verschijnt `#### Art. 1` tweemaal (regels 60 en 76): eenmaal vóór HOOFDSTUK 2 en de inhoudsopgave-blokken, en dan opnieuw na HOOFDSTUK 1 — typisch TOC-dubbeling (A3). B4: de regels 53–58 bevatten 'Titel', de lange titelregel en 'Bron : FINANCIEN' als plain-text structuurlabels zonder heading-prefix."
+      concrete_problemen:
+        - regel: 53
+          categorie: B4
+          type: other
+          voorbeeld: "Titel\n\n18 MEI 2020. - Koninklijk besluit nr. 59..."
+        - regel: 58
+          categorie: B4
+          type: other
+          voorbeeld: 'Bron : FINANCIEN'
+        - regel: 60
+          categorie: A3
+          type: other
+          voorbeeld: '#### Art. 1  (verschijnt tweemaal: r.60 en r.76)'
+        - regel: 60
+          categorie: B2
+          type: other
+          voorbeeld: '#### Art. 1 → ## HOOFDSTUK 2 → ### Afdeling 1 (omgekeerde hiërarchie)'
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 59, 18 mei 2020, met betrekking tot de onttrekking van handelsgeschenken
-  van geringe waarde
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 59, 18 mei 2020, met betrekking tot de onttrekking van handelsgeschenken van geringe waarde
 ---
 
 # BTW KB nr. 59 — Handelsgeschenken

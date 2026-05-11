@@ -4,25 +4,27 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2bis-cafehouders.pdf
-    sha256: a9f53f40b741a7edfcdec7d2dfba39c190bd63c7504f05d871a2903f6f96b3f3
-    version: '2022'
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2bis-cafehouders.pdf
+      sha256: a9f53f40b741a7edfcdec7d2dfba39c190bd63c7504f05d871a2903f6f96b3f3
+      version: '2022'
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3/B2: De inhoudsopgave (TOC) bovenaan (regels 60-108) herhaalt alle artikel-headings en afdeling-titels zonder body-tekst — dit is een TOC-fragment dat door de extractor als heading-blok in de body terechtkwam. Heading-hiërarchie springt: '#### Art. 11' op regel 60 verschijnt vóór '## HOOFDSTUK 3.' op regel 62 (B2). A6: regel 238-240 heeft een spurious line-break ('flessen van twee derde liter: per fles twee consumpties... en\\n\\neen halve consumptie'). Eigenlijke body (vanaf HOOFDSTUK 1, regel 112) is wel volledig en correct."
     layer1:
       file_size_chars: 21327
       flags: []
@@ -32,19 +34,28 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "A3/B2: De inhoudsopgave (TOC) bovenaan (regels 60-108) herhaalt alle artikel-headings en afdeling-titels zonder body-tekst — dit is een TOC-fragment dat door de extractor als heading-blok in de body terechtkwam. Heading-hiërarchie springt: '#### Art. 11' op regel 60 verschijnt vóór '## HOOFDSTUK 3.' op regel 62 (B2). A6: regel 238-240 heeft een spurious line-break ('flessen van twee derde liter: per fles twee consumpties... en\\n\\neen halve consumptie'). Eigenlijke body (vanaf HOOFDSTUK 1, regel 112) is wel volledig en correct."
+      concrete_problemen:
+        - regel: 60
+          categorie: A3
+          type: other
+          voorbeeld: "#### Art. 11\n\n## HOOFDSTUK 3. - Berekeningswijze... (TOC-fragment vóór eigenlijke body)"
+        - regel: 60
+          categorie: B2
+          type: other
+          voorbeeld: '#### Art. 11 vóór ## HOOFDSTUK 3 — hiërarchie springt van #### naar ##'
+        - regel: 238
+          categorie: A6
+          type: other
+          voorbeeld: "per fles twee consumpties in glazen van drieëndertig centiliter of twee en\n\neen halve consumptie"
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslagen van
-  aanslag voor caféhouders
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslagen van aanslag voor caféhouders
 ---
 
 # BTW KB nr. 2bis — Forfaitaire grondslagen caféhouders

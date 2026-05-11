@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: XV
 provenance:
-  generated_at: '2026-05-11T16:34:49Z'
   inputs:
-  - id: resources/raw/wetteksten/WVV.pdf
-    sha256: 961fd384c0aa3d4d139917d7ede8fa8b9f4f126d5ed47025c5735c9b6156ad96
-    version: 24.12.2025
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/WVV.pdf
+      sha256: 961fd384c0aa3d4d139917d7ede8fa8b9f4f126d5ed47025c5735c9b6156ad96
+      version: 24.12.2025
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:49Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D2: het bestand bevat slechts 1 artikel (Art. 18:8, 58 regels totaal) terwijl layer1.heading_count 1866 aangeeft voor de verwachte volledige WVV. De volledige wet ontbreekt — vrijwel alle artikelen zijn niet geëxtraheerd. De ene aanwezige artikeltekst is correct opgemaakt, maar het bestand is inhoudelijk onbruikbaar voor RAG.'
     layer1:
       file_size_chars: 1571172
       flags: []
@@ -32,19 +34,21 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: 'D2: het bestand bevat slechts 1 artikel (Art. 18:8, 58 regels totaal) terwijl layer1.heading_count 1866 aangeeft voor de verwachte volledige WVV. De volledige wet ontbreekt — vrijwel alle artikelen zijn niet geëxtraheerd. De ene aanwezige artikeltekst is correct opgemaakt, maar het bestand is inhoudelijk onbruikbaar voor RAG.'
+      concrete_problemen:
+        - regel: 54
+          categorie: D2
+          type: missing-section
+          voorbeeld: Bestand eindigt na Art. 18:8; layer1.heading_count=1866 maar slechts 1 artikel aanwezig.
 status: beschikbaar
 tags:
-- XV
-- '1.5'
-- '3.1'
-- '3.2'
+  - XV
+  - '1.5'
+  - '3.1'
+  - '3.2'
 wet: Wetboek van vennootschappen en verenigingen 23/03/2019
 ---
 

@@ -8,37 +8,61 @@ chunk:
   type: Art.
 itaa-lex-sectie: ''
 provenance:
-  generated_at: '2026-05-11T16:52:37Z'
   inputs:
     - id: resources/raw/wetteksten/EU-IFRS-verordening-1606-2002.pdf
       sha256: 3058ca9daf16c08f91cb19b47c6e907350b49162a19276aa0bba741d3b1cce24
       version: 11.09.2002
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:56:15Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: koptekstregel van het Publicatieblad niet verwijderd op r.53, 91, 115, 177 ('11.9.2002 L 243/1 Publicatieblad van de Europese Gemeenschappen NL'). A7: de volgorde van art.8 en art.9 is verstoord — het handtekeningblok 'Gedaan te Brussel, 19 juli 2002 / Voor het Europees Parlement / De voorzitter / P. COX' (r.199-205) staat tussen art.8 en art.9, wat een kolom-extractiefout suggereert. A6: spurious woordbreuken in overweging-blokken ('actie- plan', 'beschrij- ving', 'communi- taire', r.71-119). F2: bron_rol is 'normatief' maar andere EU-verordeningen in dezelfde map hebben 'itaa_lex'; inhoudelijk correct voor een verordening maar inconsistent met de rest van de batch."
     layer1:
-      status: pass
-      run_id: 20260511-165250
-      run_at: '2026-05-11T16:52:50Z'
-      heading_count: 11
-      max_section_chars: 11461
       file_size_chars: 17409
       flags: []
+      heading_count: 11
+      max_section_chars: 11461
+      run_at: '2026-05-11T16:52:50Z'
+      run_id: 20260511-165250
+      status: pass
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "A1: koptekstregel van het Publicatieblad niet verwijderd op r.53, 91, 115, 177 ('11.9.2002 L 243/1 Publicatieblad van de Europese Gemeenschappen NL'). A7: de volgorde van art.8 en art.9 is verstoord — het handtekeningblok 'Gedaan te Brussel, 19 juli 2002 / Voor het Europees Parlement / De voorzitter / P. COX' (r.199-205) staat tussen art.8 en art.9, wat een kolom-extractiefout suggereert. A6: spurious woordbreuken in overweging-blokken ('actie- plan', 'beschrij- ving', 'communi- taire', r.71-119). F2: bron_rol is 'normatief' maar andere EU-verordeningen in dezelfde map hebben 'itaa_lex'; inhoudelijk correct voor een verordening maar inconsistent met de rest van de batch."
+      concrete_problemen:
+        - regel: 53
+          categorie: A1
+          type: form-feed
+          voorbeeld: 11.9.2002 L 243/1 Publicatieblad van de Europese Gemeenschappen NL
+        - regel: 91
+          categorie: A1
+          type: form-feed
+          voorbeeld: 11.9.2002 L 243/2 Publicatieblad van de Europese Gemeenschappen NL
+        - regel: 115
+          categorie: A1
+          type: form-feed
+          voorbeeld: 11.9.2002 L 243/3 Publicatieblad van de Europese Gemeenschappen NL
+        - regel: 177
+          categorie: A1
+          type: form-feed
+          voorbeeld: 11.9.2002 L 243/4 Publicatieblad van de Europese Gemeenschappen NL
+        - regel: 199
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "Gedaan te Brussel, 19 juli 2002.\n\nVoor het Europees Parlement\n\nDe voorzitter\n\nP. COX\n\n###### Artikel 9"
+        - regel: 143
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: 3, van Richtlijn 83/349/EEG en het Europees openbaar belang dienen, en
 status: beschikbaar
 tags:
   - '1.2'
@@ -200,10 +224,6 @@ Gedaan te Brussel, 19 juli 2002.
 
 Voor het Europees Parlement
 
-De voorzitter
-
-P. COX
-
 ###### Artikel 9
 
 Overgangsbepalingen
@@ -231,5 +251,9 @@ Deze verordening treedt in werking op de derde dag volgende op die van haar beke
 Voor de Raad
 
 De voorzitter
+
+De voorzitter
+
+P. COX
 
 T. PEDERSEN

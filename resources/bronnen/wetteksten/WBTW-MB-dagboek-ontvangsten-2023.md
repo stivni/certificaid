@@ -4,25 +4,27 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.C
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-dagboek-ontvangsten-2023.pdf
-    sha256: cd61a57a107e3959efafea39d3a999979703da0be22e70f146d17fdce3c0d927
-    version: '2023'
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-dagboek-ontvangsten-2023.pdf
+      sha256: cd61a57a107e3959efafea39d3a999979703da0be22e70f146d17fdce3c0d927
+      version: '2023'
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A8/C8: regel 69 bevat een massieve kolom-bleed waarbij de NL- en FR-kolommen van de bijlage-tabel door de extractor op één enkele regel zijn samengevloeid met grote witruimtes als pseudo-uitlijning (C3/A8). D2: het bestand begint op regel 60 mid-zin ('derde lid, van het koninklijk besluit nr. 1...') — de artikelen 1 t/m 6 ontbreken volledig. B4: 'Titel' en 'Bron : FINANCIEN' staan als plain-text op regels 54 en 58."
     layer1:
       file_size_chars: 7405
       flags: []
@@ -32,19 +34,32 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "A8/C8: regel 69 bevat een massieve kolom-bleed waarbij de NL- en FR-kolommen van de bijlage-tabel door de extractor op één enkele regel zijn samengevloeid met grote witruimtes als pseudo-uitlijning (C3/A8). D2: het bestand begint op regel 60 mid-zin ('derde lid, van het koninklijk besluit nr. 1...') — de artikelen 1 t/m 6 ontbreken volledig. B4: 'Titel' en 'Bron : FINANCIEN' staan als plain-text op regels 54 en 58."
+      concrete_problemen:
+        - regel: 60
+          categorie: D2
+          type: abrupt-cutoff
+          voorbeeld: derde lid, van het koninklijk besluit nr. 1 van 29 december 1992...
+        - regel: 69
+          categorie: A8
+          type: column-bleed
+          voorbeeld: '- les huit derniers caractères de la                           - de acht laatste karakters van de signature digitale...'
+        - regel: 54
+          categorie: B4
+          type: other
+          voorbeeld: Titel
+        - regel: 58
+          categorie: B4
+          type: other
+          voorbeeld: 'Bron : FINANCIEN'
 status: beschikbaar
 tags:
-- VI.C
-- '2.4'
-wet: M.B. 17 maart 2023 betreffende de vaststelling van de modaliteiten voor het bijhouden
-  van een elektronisch dagboek van ontvangsten en de bewaring van elektronische kastickets
+  - VI.C
+  - '2.4'
+wet: M.B. 17 maart 2023 betreffende de vaststelling van de modaliteiten voor het bijhouden van een elektronisch dagboek van ontvangsten en de bewaring van elektronische kastickets
 ---
 
 # BTW MB 17/03/2023 — Elektronisch dagboek ontvangsten en kastickets

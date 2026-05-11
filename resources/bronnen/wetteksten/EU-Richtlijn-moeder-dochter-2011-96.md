@@ -8,37 +8,69 @@ chunk:
   type: Art.
 itaa-lex-sectie: X
 provenance:
-  generated_at: '2026-05-11T16:52:37Z'
   inputs:
     - id: resources/raw/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.pdf
       sha256: e5c020c57a52ae268b1f149260cea7500eddd9b583a3b857029e51f2c8f87e8a
       version: 29.12.2011
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:56:15Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B2/B5: meerdere leden van Art. 1, 2 en 3 zijn gemarkeerd als ## headings ('## 1. Elke lidstaat past...', '## Voor de toepassing...', '## a) wordt de hoedanigheid...') in plaats van gewone alineamarkeringen — dit zijn geen echte secties maar artikelleden die door de 2-kolom extractie als headings zijn geclassificeerd. A7: op regel 75 zijn de voetnoten (1)(2)(3)(4)(5) midden in de lopende overwegingtekst terechtgekomen in plaats van onderaan de pagina. A1: geen Publicatieblad-koppen zichtbaar (positief), maar de richtlijn-aanheftitel op regel 53 is een dubbelganger van de H1."
     layer1:
-      status: pass
-      run_id: 20260511-165250
-      run_at: '2026-05-11T16:52:50Z'
-      heading_count: 23
-      max_section_chars: 12246
       file_size_chars: 27799
       flags: []
+      heading_count: 23
+      max_section_chars: 12246
+      run_at: '2026-05-11T16:52:50Z'
+      run_id: 20260511-165250
+      status: pass
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "B2/B5: meerdere leden van Art. 1, 2 en 3 zijn gemarkeerd als ## headings ('## 1. Elke lidstaat past...', '## Voor de toepassing...', '## a) wordt de hoedanigheid...') in plaats van gewone alineamarkeringen — dit zijn geen echte secties maar artikelleden die door de 2-kolom extractie als headings zijn geclassificeerd. A7: op regel 75 zijn de voetnoten (1)(2)(3)(4)(5) midden in de lopende overwegingtekst terechtgekomen in plaats van onderaan de pagina. A1: geen Publicatieblad-koppen zichtbaar (positief), maar de richtlijn-aanheftitel op regel 53 is een dubbelganger van de H1."
+      concrete_problemen:
+        - regel: 53
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: betreffende de gemeenschappelijke fiscale regeling voor moedermaatschappijen en  dochterondernemingen uit verschillende lidstaten
+        - regel: 75
+          categorie: G3
+          type: other
+          voorbeeld: ( 1 ) Advies uitgebracht op 4 mei 2011 ... ( 5 ) Jurispr. 2008, blz. I-03189. [inline midden in body]
+        - regel: 111
+          categorie: B5
+          type: other
+          voorbeeld: '## 1.  Elke lidstaat past deze richtlijn toe: [artikellid als ##-heading]'
+        - regel: 125
+          categorie: B5
+          type: other
+          voorbeeld: '## Voor de toepassing van deze richtlijn wordt verstaan onder: [als ##-heading]'
+        - regel: 127
+          categorie: B5
+          type: other
+          voorbeeld: '## a) "vennootschap van een lidstaat" [als ##-heading]'
+        - regel: 139
+          categorie: B5
+          type: other
+          voorbeeld: '## 1.  Voor de toepassing van deze richtlijn: [als ##-heading]'
+        - regel: 141
+          categorie: B5
+          type: other
+          voorbeeld: '## a) wordt de hoedanigheid van moedermaatschappij toegekend: [als ##-heading]'
+        - regel: 149
+          categorie: B5
+          type: other
+          voorbeeld: '## 2.  In afwijking van lid 1 staat het de lidstaten vrij om: [als ##-heading]'
 status: beschikbaar
 tags:
   - X

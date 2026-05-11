@@ -8,37 +8,61 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.A
 provenance:
-  generated_at: '2026-05-11T16:52:37Z'
   inputs:
     - id: resources/raw/wetteksten/BTW-teruggaaf-richtlijn-2008-9.pdf
       sha256: c14c751cfe2f7ab14422c6a44d67fbd36b40d1191726240a6f118ef63da29ac9
       version: 01.10.2010
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:56:14Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: amendment-markeringen (►B, ▼B, ►M1, ▼B) zijn PDF-navigatiemarkeringen van de gecoördineerde versie die niet verwijderd zijn (r.55, 71, 101, 129, 163, etc.) — deze staan her en der door de body en zijn geen wettekst. A6: spurious woordbreuken in de overweging-blokken: 'omzet belasting' (r.91), 'be lastingplichtigen' (r.91), 'ge bracht' (r.122) — PDF-regelbreuk midden in woorden. Artikel 16 is een lege heading zonder content (r.273-274). Artikel 8 lid 2 ontbreekt item f) — de nummering springt van e) naar g) (r.203)."
     layer1:
-      status: pass
-      run_id: 20260511-165250
-      run_at: '2026-05-11T16:52:50Z'
-      heading_count: 31
-      max_section_chars: 4116
       file_size_chars: 23561
       flags: []
+      heading_count: 31
+      max_section_chars: 4116
+      run_at: '2026-05-11T16:52:50Z'
+      run_id: 20260511-165250
+      status: pass
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "A1: amendment-markeringen (►B, ▼B, ►M1, ▼B) zijn PDF-navigatiemarkeringen van de gecoördineerde versie die niet verwijderd zijn (r.55, 71, 101, 129, 163, etc.) — deze staan her en der door de body en zijn geen wettekst. A6: spurious woordbreuken in de overweging-blokken: 'omzet belasting' (r.91), 'be lastingplichtigen' (r.91), 'ge bracht' (r.122) — PDF-regelbreuk midden in woorden. Artikel 16 is een lege heading zonder content (r.273-274). Artikel 8 lid 2 ontbreekt item f) — de nummering springt van e) naar g) (r.203)."
+      concrete_problemen:
+        - regel: 55
+          categorie: A1
+          type: form-feed
+          voorbeeld: ►B  RICHTLIJN 2008/9/EG VAN DE RAAD
+        - regel: 71
+          categorie: A1
+          type: form-feed
+          voorbeeld: ▼B
+        - regel: 101
+          categorie: A1
+          type: form-feed
+          voorbeeld: ▼B
+        - regel: 273
+          categorie: B1
+          type: other
+          voorbeeld: "###### Artikel 16\n\n▼B\n\n###### Artikel 17"
+        - regel: 91
+          categorie: A6
+          type: other
+          voorbeeld: omzet belasting — Regeling voor de teruggaaf van de belasting over de toegevoegde waarde aan niet in het binnenland gevestigde be lastingplichtigen
+        - regel: 203
+          categorie: D2
+          type: missing-section
+          voorbeeld: e) de maatstaf van heffing... f) [ontbreekt] g) indien van toepassing, het overeenkomstig artikel 6...
 status: beschikbaar
 tags:
   - VI.A

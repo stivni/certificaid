@@ -124,15 +124,22 @@ def _detect_columns(blocks: list[Block], page_width: float) -> tuple[int, float]
       n_columns: 1 of 2
       split_x: x-positie waar tweede kolom begint
 
-    Heuristiek: bouw histogram van block-x0's per 25-punt bin. Zoek de twee
-    meest-voorkomende "anker"-bins met ≥3 blokken elk, ≥200 punten uit elkaar.
-    Split-x ligt halverwege.
+    Heuristiek: bouw histogram van block-x0's per 25-punt bin. Bepaal de
+    TWEE MEEST FREQUENTE anker-bins (≥3 blokken elk) — deze representeren
+    typisch de linker- en rechter-kolom-margin. Als de afstand ≥200 punten
+    is, is het een 2-kolom layout. Centered-headings (smaller bins
+    tussen left en right) verstoren dit NIET, omdat we alleen de top-2
+    nemen, niet alle bins op x-positie.
+
+    Belangrijk voor EU-OJ: even-pages (verso) en odd-pages (recto) hebben
+    afwijkende margins. Detectie loopt per pagina, dus dit werkt
+    automatisch zolang de top-2 anker-bins de kolom-margins zijn.
     """
     if not blocks:
         return 1, page_width
 
     bins = Counter(int(b.x0) // 25 * 25 for b in blocks)
-    # Filter naar bins met ≥3 blokken (anker-kolommen, geen uitschieters)
+    # Sorteer op frequentie (count desc), neem alleen bins met ≥3 blokken.
     candidates = sorted(
         [(x, c) for x, c in bins.items() if c >= 3],
         key=lambda p: -p[1],
@@ -140,22 +147,18 @@ def _detect_columns(blocks: list[Block], page_width: float) -> tuple[int, float]
     if len(candidates) < 2:
         return 1, page_width
 
-    # Sorteer kandidaten op x-positie, zoek het PAAR met grootste gap ≥200.
-    sorted_by_x = sorted(candidates, key=lambda p: p[0])
-    best_gap = 0
-    best_split = page_width
-    for i in range(len(sorted_by_x) - 1):
-        x_left, _ = sorted_by_x[i]
-        x_right, _ = sorted_by_x[i + 1]
-        gap = x_right - x_left
-        if gap > best_gap:
-            best_gap = gap
-            best_split = (x_left + x_right) / 2
+    # Gebruik de TWEE MEEST FREQUENTE bins als kandidaten voor de
+    # kolom-margins. Centered headings (smaller bins ertussen) negeren we.
+    (x_a, _), (x_b, _) = candidates[0], candidates[1]
+    x_left = min(x_a, x_b)
+    x_right = max(x_a, x_b)
+    gap = x_right - x_left
 
-    if best_gap < 200:
+    if gap < 200:
         return 1, page_width
 
-    return 2, best_split
+    split_x = (x_left + x_right) / 2
+    return 2, split_x
 
 
 def _assign_columns(blocks: list[Block], n_columns: int, split_x: float) -> None:

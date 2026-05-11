@@ -4,25 +4,27 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2-forfaitaire.pdf
-    sha256: 8ea70cb7a624d686abb875837eabc7cae788dfc2aaa922fd6983c395de790570
-    version: '2018'
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2-forfaitaire.pdf
+      sha256: 8ea70cb7a624d686abb875837eabc7cae788dfc2aaa922fd6983c395de790570
+      version: '2018'
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5: Meerdere article-headings lopen door in de body-tekst — '## Art. 3.§ 1. De belastingplichtige...', '## Art. 4.[1 § 1. De belastingplichtige...', '## Art. 8.De\\nbedrijfsgroeperingen', '## Art. 11.[1 Dit besluit treedt...' bevatten de eigenlijke wettekst in de heading-regel zelf in plaats van enkel het artikelnummer. B4: 'Titel' op regel 54 is plain text in plaats van heading of verwijderd. Structurele bug: geen HOOFDSTUK-headings aanwezig terwijl KB2 meerdere secties kent."
     layer1:
       file_size_chars: 11318
       flags: []
@@ -32,19 +34,36 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "B5: Meerdere article-headings lopen door in de body-tekst — '## Art. 3.§ 1. De belastingplichtige...', '## Art. 4.[1 § 1. De belastingplichtige...', '## Art. 8.De\\nbedrijfsgroeperingen', '## Art. 11.[1 Dit besluit treedt...' bevatten de eigenlijke wettekst in de heading-regel zelf in plaats van enkel het artikelnummer. B4: 'Titel' op regel 54 is plain text in plaats van heading of verwijderd. Structurele bug: geen HOOFDSTUK-headings aanwezig terwijl KB2 meerdere secties kent."
+      concrete_problemen:
+        - regel: 54
+          categorie: B4
+          type: other
+          voorbeeld: "Titel\n\n19 DECEMBER 2018. - Koninklijk besluit nr. 2..."
+        - regel: 64
+          categorie: B5
+          type: other
+          voorbeeld: '## Art. 3.§ 1. De belastingplichtige die niet meer de voorwaarden vervult...'
+        - regel: 74
+          categorie: B5
+          type: other
+          voorbeeld: '## Art. 4.[1 § 1. De belastingplichtige die de zetel van zijn economische...'
+        - regel: 94
+          categorie: B5
+          type: other
+          voorbeeld: "## Art. 8.De\n\nbedrijfsgroeperingen [1 die wensen deel te nemen..."
+        - regel: 107
+          categorie: B5
+          type: other
+          voorbeeld: '## Art. 11.[1 Dit besluit treedt in werking op 1 januari 2019...'
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 2, 19 december 2018, met betrekking tot de forfaitaire regeling inzake
-  btw
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 2, 19 december 2018, met betrekking tot de forfaitaire regeling inzake btw
 ---
 
 # BTW KB nr. 2 — Forfaitaire regeling

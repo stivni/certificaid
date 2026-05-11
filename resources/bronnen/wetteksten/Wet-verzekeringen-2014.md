@@ -4,50 +4,49 @@ bron: www.ejustice.just.fgov.be (Justel, gecoördineerde versie)
 bron_rol: normatief
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: ''
 provenance:
-  generated_at: '2026-05-11T16:34:50Z'
   inputs:
-  - id: www.ejustice.just.fgov.be (Justel, gecoördineerde versie)
-    sha256: null
-    version: null
-  stale: false
-  stale_reason: null
+    - id: www.ejustice.just.fgov.be (Justel, gecoördineerde versie)
+      sha256:
+      version:
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:50Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: trusted
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Laag-1 meldt max_section_size warn (32357 chars in één sectie), maar dat is een chunker-attentie, geen inhoudelijk ETL-defect. De markdown zelf is structureel correct: ## DEEL / ### TITEL / #### HOOFDSTUK / ###### Art. gelaagd en consistent. Structuurlabels als 'Doel', 'Toepassingsgebied', 'Definities' staan als **bold** (niet als plain text), wat acceptabel is als stylistisch alternatief voor sub-headings in een definitie-zware wet. Geen TOC-residu, geen form-feeds, geen OCR-artefacten, geen spurious line-breaks. Amendment-brackets [ ... ] zijn open-en-dicht. Inhoud volledig: Deel 1–4 aanwezig, definities Art. 5 volledig met 60+ genummerde items. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien."
     layer1:
       file_size_chars: 194422
       flags:
-      - detail: 'langste sectie op ##-niveau: 32357 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
+        - detail: 'langste sectie op ##-niveau: 32357 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          name: max_section_size
+          samples: []
+          status: warn
       heading_count: 195
       max_section_chars: 32357
       run_at: '2026-05-11T13:40:50Z'
       run_id: 20260511-134044
       status: warn
     layer2:
-      agent: null
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "Laag-1 meldt max_section_size warn (32357 chars in één sectie), maar dat is een chunker-attentie, geen inhoudelijk ETL-defect. De markdown zelf is structureel correct: ## DEEL / ### TITEL / #### HOOFDSTUK / ###### Art. gelaagd en consistent. Structuurlabels als 'Doel', 'Toepassingsgebied', 'Definities' staan als **bold** (niet als plain text), wat acceptabel is als stylistisch alternatief voor sub-headings in een definitie-zware wet. Geen TOC-residu, geen form-feeds, geen OCR-artefacten, geen spurious line-breaks. Amendment-brackets [ ... ] zijn open-en-dicht. Inhoud volledig: Deel 1–4 aanwezig, definities Art. 5 volledig met 60+ genummerde items. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien."
       concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
 status: beschikbaar
 tags:
-- '2.6'
-- '1.2'
+  - '2.6'
+  - '1.2'
 wet: Wet 4 april 2014 betreffende de verzekeringen
 ---
 

@@ -8,37 +8,65 @@ chunk:
   type: Art.
 itaa-lex-sectie: ''
 provenance:
-  generated_at: '2026-05-11T16:52:37Z'
   inputs:
     - id: resources/raw/wetteksten/EU-Richtlijn-witwassen-2018-1673.pdf
       sha256: 5ddc01ecaee55f528a3a359f734cbab5c30d0077178d052830d13bcba2a0db8a
       version: 12.11.2018
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:56:15Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A7/B5: de heading-structuur is ernstig verward door 2-kolom extractie. Artikel-titels staan ACHTER de artikelinhoud in plaats van ervoor: zo staat de body-tekst van Art. 4 t/m Art. 10 op regels 227-311, terwijl de bijbehorende ###### headings ('Artikel 4. Medeplichtigheid...', 'Artikel 5. Sancties...') pas op regels 249-325 verschijnen — de opmaak-kolom rechts met de korte artikel-titels is later in de body ingevoerd dan de inhoud-kolom links. Dit maakt de structuur onleesbaar voor RAG."
     layer1:
-      status: pass
-      run_id: 20260511-165250
-      run_at: '2026-05-11T16:52:50Z'
-      heading_count: 16
-      max_section_chars: 20441
       file_size_chars: 39811
       flags: []
+      heading_count: 16
+      max_section_chars: 20441
+      run_at: '2026-05-11T16:52:50Z'
+      run_id: 20260511-165250
+      status: pass
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "A7/B5: de heading-structuur is ernstig verward door 2-kolom extractie. Artikel-titels staan ACHTER de artikelinhoud in plaats van ervoor: zo staat de body-tekst van Art. 4 t/m Art. 10 op regels 227-311, terwijl de bijbehorende ###### headings ('Artikel 4. Medeplichtigheid...', 'Artikel 5. Sancties...') pas op regels 249-325 verschijnen — de opmaak-kolom rechts met de korte artikel-titels is later in de body ingevoerd dan de inhoud-kolom links. Dit maakt de structuur onleesbaar voor RAG."
+      concrete_problemen:
+        - regel: 227
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: 1. De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat de hierna genoemde omstandigheden... [dit is Art. 6 inhoud, maar Art. 6 heading staat pas op r.257]
+        - regel: 233
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: 1. De lidstaten nemen de nodige maatregelen... [Art. 7 inhoud voor heading Art. 7 op r.261]
+        - regel: 245
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: 1. De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat rechtspersonen aansprakelijk kunnen worden gesteld... [Art. 7 body voor heading]
+        - regel: 249
+          categorie: B5
+          type: other
+          voorbeeld: '###### Artikel 4 Medeplichtigheid, uitlokking en poging [heading na content van Art.4]'
+        - regel: 273
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat een rechtspersoon... [Art. 8 body voor heading op r.315]
+        - regel: 327
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: 1. Elke lidstaat neemt de nodige maatregelen om zijn rechtsmacht te vestigen... [Art. 10 body voor heading op r.323]
+        - regel: 349
+          categorie: B5
+          type: other
+          voorbeeld: '###### Artikel 11 Onderzoeksmiddelen [heading na body-tekst van Art.11 op r.327]'
 status: beschikbaar
 tags:
   - '1.2'
@@ -326,6 +354,8 @@ Rechtsmacht
 
 De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat doeltreffende onderzoeksmiddelen, zoals die welke  worden gebruikt bij de bestrijding van georganiseerde of andere zware criminaliteit, ter beschikking staan van personen,  eenheden of diensten die bevoegd zijn voor het onderzoeken of vervolgen van de in artikel 3, leden 1 en 5, en artikel 4  bedoelde strafbare feiten.
 
+Vervanging van een aantal bepalingen van Kaderbesluit 2001/500/JBZ
+
 Deze richtlijn komt in de plaats van artikel 1, onder b), en artikel 2 van Kaderbesluit 2001/500/JBZ ten aanzien van de  lidstaten die door deze richtlijn gebonden zijn, onverminderd de verplichtingen van die lidstaten met betrekking tot de  termijn voor de omzetting van dat kaderbesluit in nationaal recht.
 
 Voor de lidstaten die gebonden zijn door deze richtlijn, gelden verwijzingen naar de bepalingen in het eerste lid van het  Kaderbesluit 2001/500/JBZ als verwijzingen naar deze richtlijn.
@@ -346,13 +376,13 @@ Deze richtlijn is gericht tot de lidstaten overeenkomstig de Verdragen.
 
 Gedaan te Straatsburg, 23 oktober 2018.
 
+Voor het Europees Parlement
+
 ###### Artikel 11
 
 Onderzoeksmiddelen
 
 ###### Artikel 12
-
-Vervanging van een aantal bepalingen van Kaderbesluit 2001/500/JBZ
 
 ###### Artikel 13
 
@@ -371,8 +401,6 @@ Inwerkingtreding
 Adressaten
 
 Voor de Raad
-
-Voor het Europees Parlement
 
 De voorzitter
 

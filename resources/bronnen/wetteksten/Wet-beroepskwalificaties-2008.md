@@ -4,25 +4,27 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XXI
 provenance:
-  generated_at: '2026-05-11T16:34:49Z'
   inputs:
-  - id: resources/raw/wetteksten/Wet-beroepskwalificaties-2008.pdf
-    sha256: fe4f1e1b818010808e2a344c8347de20df00a60f8dda57b1d00b56f4ef1d460c
-    version: 12.02.2008
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Wet-beroepskwalificaties-2008.pdf
+      sha256: fe4f1e1b818010808e2a344c8347de20df00a60f8dda57b1d00b56f4ef1d460c
+      version: 12.02.2008
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:49Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4 stelselmatig aanwezig: een twintigtal structuurlabels zoals 'Doel.', 'Toepassingsgebied.', 'Gevolgen van de erkenning.', 'Compenserende maatregelen.', 'Talenkennis.', 'Informatie ten behoeve van de afnemers van de dienst.', 'Bevoegde autoriteiten.', 'Inwerkingtreding.' enz. staan als plain-text regels (zonder ##/###-prefix). Een mens zou die als subheadings schrijven. Dit is een structureel ETL-probleem dat de gehele wet doorzet en retrieval-kwaliteit schaadt. Bovendien bevat de wet parallelle gewestrechtversies (Art. X en Art. X_WAALS_GEWEST naast elkaar), die niet structureel van elkaar zijn onderscheiden via headings — dit is echter inherent aan het brondocument. Laag-1 pass, maar B4-artefacten zijn wijdverspreid."
     layer1:
       file_size_chars: 173284
       flags: []
@@ -32,19 +34,48 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "B4 stelselmatig aanwezig: een twintigtal structuurlabels zoals 'Doel.', 'Toepassingsgebied.', 'Gevolgen van de erkenning.', 'Compenserende maatregelen.', 'Talenkennis.', 'Informatie ten behoeve van de afnemers van de dienst.', 'Bevoegde autoriteiten.', 'Inwerkingtreding.' enz. staan als plain-text regels (zonder ##/###-prefix). Een mens zou die als subheadings schrijven. Dit is een structureel ETL-probleem dat de gehele wet doorzet en retrieval-kwaliteit schaadt. Bovendien bevat de wet parallelle gewestrechtversies (Art. X en Art. X_WAALS_GEWEST naast elkaar), die niet structureel van elkaar zijn onderscheiden via headings — dit is echter inherent aan het brondocument. Laag-1 pass, maar B4-artefacten zijn wijdverspreid."
+      concrete_problemen:
+        - regel: 72
+          categorie: B4
+          type: other
+          voorbeeld: Doel.
+        - regel: 84
+          categorie: B4
+          type: other
+          voorbeeld: Toepassingsgebied.
+        - regel: 98
+          categorie: B4
+          type: other
+          voorbeeld: Gevolgens van de erkenning.
+        - regel: 206
+          categorie: B4
+          type: other
+          voorbeeld: Toepassingsgebied.
+        - regel: 258
+          categorie: B4
+          type: other
+          voorbeeld: Informatie ten behoeve van de afnemers van de dienst.
+        - regel: 302
+          categorie: B4
+          type: other
+          voorbeeld: Compenserende maatregelen.
+        - regel: 420
+          categorie: B4
+          type: other
+          voorbeeld: Bevoegde autoriteiten.
+        - regel: 454
+          categorie: B4
+          type: other
+          voorbeeld: Inwerkingtreding.
 status: beschikbaar
 tags:
-- XXI
-- '4.0'
-wet: Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning
-  van beroepskwalificaties
+  - XXI
+  - '4.0'
+wet: Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van beroepskwalificaties
 ---
 
 # Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van beroepskwalificaties

@@ -4,25 +4,27 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 5
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XVI
 provenance:
-  generated_at: '2026-05-11T16:34:49Z'
   inputs:
-  - id: resources/raw/wetteksten/Wet-arbeidsovereenkomsten-1978.pdf
-    sha256: c2bc8270cd3dd103e34066197790057edfcc50c512815decc06b6e9aea640116
-    version: 03.07.1978
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Wet-arbeidsovereenkomsten-1978.pdf
+      sha256: c2bc8270cd3dd103e34066197790057edfcc50c512815decc06b6e9aea640116
+      version: 03.07.1978
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:49Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere B4/A7-problemen: (1) op regel 52 staat 'Titel' als plain text, gevolgd door regel 54 met de wetsnaam opnieuw — dit is een TOC-artefact vóór de echte tekst. Op regel 98 staat 'Tekst' als plain-text scheidingslabel. (2) Regels 58–96 zijn een compact dubbele inhoudstafel (TOC-fragment) vóór de eigenlijke body — een typisch extractie-artefact (A3). (3) 'Art. 1.Deze' op regel 104 toont een samengevoegde heading+body (het artikel-nummer is gecombineerd met het begin van de wettekst, wat de heading leesbaarheid breekt — B5-variant). (4) Meerdere zinsfragmenten als zelfstandige regel: regel 128 'processen en technieken...', regel 146 'met het bewaren...', regel 308 'maand vanaf de datum...', regel 369 'is gestort of op zijn loon ingehouden.', regels 637–699 meerdere losse zinsstukken die duidelijk continue met een vorige sectie verbonden waren — A6 spurious line-breaks mid-sentence. Laag-1 status pass maar de ETL heeft zichtbare extractie-sporen achtergelaten."
     layer1:
       file_size_chars: 255432
       flags: []
@@ -32,16 +34,50 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "Meerdere B4/A7-problemen: (1) op regel 52 staat 'Titel' als plain text, gevolgd door regel 54 met de wetsnaam opnieuw — dit is een TOC-artefact vóór de echte tekst. Op regel 98 staat 'Tekst' als plain-text scheidingslabel. (2) Regels 58–96 zijn een compact dubbele inhoudstafel (TOC-fragment) vóór de eigenlijke body — een typisch extractie-artefact (A3). (3) 'Art. 1.Deze' op regel 104 toont een samengevoegde heading+body (het artikel-nummer is gecombineerd met het begin van de wettekst, wat de heading leesbaarheid breekt — B5-variant). (4) Meerdere zinsfragmenten als zelfstandige regel: regel 128 'processen en technieken...', regel 146 'met het bewaren...', regel 308 'maand vanaf de datum...', regel 369 'is gestort of op zijn loon ingehouden.', regels 637–699 meerdere losse zinsstukken die duidelijk continue met een vorige sectie verbonden waren — A6 spurious line-breaks mid-sentence. Laag-1 status pass maar de ETL heeft zichtbare extractie-sporen achtergelaten."
+      concrete_problemen:
+        - regel: 52
+          categorie: B4
+          type: other
+          voorbeeld: Titel
+        - regel: 54
+          categorie: A3
+          type: other
+          voorbeeld: 3 JULI 1978. - Wet betreffende de arbeidsovereenkomsten.
+        - regel: 58
+          categorie: A3
+          type: other
+          voorbeeld: '#### Afdeling 2. [TOC-fragment vóór eigenlijke body, loopt tot regel 96]'
+        - regel: 98
+          categorie: B4
+          type: other
+          voorbeeld: Tekst
+        - regel: 104
+          categorie: B5
+          type: other
+          voorbeeld: '##### Art. 1.Deze'
+        - regel: 128
+          categorie: A6
+          type: other
+          voorbeeld: processen en technieken aan de hand waarvan een elektronische handtekening kan worden...
+        - regel: 308
+          categorie: A6
+          type: other
+          voorbeeld: maand vanaf de datum van beëindiging van de overeenkomst het gebruiksrecht terug te vragen...
+        - regel: 637
+          categorie: A6
+          type: other
+          voorbeeld: opzeggingstermijn ter kennis werd gegeven.]1
+        - regel: 640
+          categorie: A6
+          type: other
+          voorbeeld: 'vastgesteld op :'
 status: beschikbaar
 tags:
-- XVI
+  - XVI
 wet: Wet 3 juli 1978 betreffende de arbeidsovereenkomsten
 ---
 

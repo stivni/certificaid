@@ -4,25 +4,27 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB56-teruggaaf.pdf
-    sha256: 2c30d5ca59bd9a6f0cffb6d83dcf687edd57a193b2534a8d9a596f233d32d803
-    version: '2022'
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB56-teruggaaf.pdf
+      sha256: 2c30d5ca59bd9a6f0cffb6d83dcf687edd57a193b2534a8d9a596f233d32d803
+      version: '2022'
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D2/B5: Art. 1 ontbreekt volledig — het bestand begint direct met de body-tekst 'teruggaaf van de belasting over de toegevoegde waarde aan niet op het grondgebied...' zonder Art. 1-heading en -tekst. A6: Meerdere spurious line-breaks midden in zinnen: regel 157-159 ('Het teruggaafverzoek wordt uiterlijk op 30 september... teruggaaftijdvak'), regel 207-209, regel 305-307, regel 360-362. Structuur (HOOFDSTUK ##, Afdeling ###, Art ####) is verder consistent."
     layer1:
       file_size_chars: 35505
       flags: []
@@ -32,19 +34,36 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "D2/B5: Art. 1 ontbreekt volledig — het bestand begint direct met de body-tekst 'teruggaaf van de belasting over de toegevoegde waarde aan niet op het grondgebied...' zonder Art. 1-heading en -tekst. A6: Meerdere spurious line-breaks midden in zinnen: regel 157-159 ('Het teruggaafverzoek wordt uiterlijk op 30 september... teruggaaftijdvak'), regel 207-209, regel 305-307, regel 360-362. Structuur (HOOFDSTUK ##, Afdeling ###, Art ####) is verder consistent."
+      concrete_problemen:
+        - regel: 60
+          categorie: D2
+          type: missing-section
+          voorbeeld: teruggaaf van de belasting... (Art. 1 volledig ontbrekend als heading en tekst)
+        - regel: 157
+          categorie: A6
+          type: other
+          voorbeeld: "Het teruggaafverzoek wordt uiterlijk op 30 september van het kalenderjaar volgend op het\n\nteruggaaftijdvak bij de lidstaat"
+        - regel: 207
+          categorie: A6
+          type: other
+          voorbeeld: "Correcties betreffende een eerder teruggaafverzoek...worden door de administratie in meer of in min...of, in geval van toezending van een\n\nafzonderlijke verklaring"
+        - regel: 305
+          categorie: A6
+          type: other
+          voorbeeld: "behalve in het geval van invoer, de naam en het volledige adres en het btw-identificatienummer dat de letters\n\nBE bevat"
+        - regel: 360
+          categorie: A6
+          type: other
+          voorbeeld: "Indien de aanvullende gegevens worden opgevraagd bij een andere persoon dan de aanvrager wordt alleen langs elektronische weg om gegevens verzocht indien de bestemmeling van het verzoek\n\nover de desbetreffende apparatuur beschikt."
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 56, 10 april 2022, met betrekking tot de teruggaaf inzake btw aan belastingplichtigen
-  gevestigd in een andere lidstaat dan de lidstaat van teruggaaf
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 56, 10 april 2022, met betrekking tot de teruggaaf inzake btw aan belastingplichtigen gevestigd in een andere lidstaat dan de lidstaat van teruggaaf
 ---
 
 # BTW KB nr. 56 — Teruggaaf aan buitenlandse belastingplichtigen

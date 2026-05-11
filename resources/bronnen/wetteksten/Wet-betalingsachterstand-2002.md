@@ -4,25 +4,27 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 3
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XIV
 provenance:
-  generated_at: '2026-05-11T16:34:49Z'
   inputs:
-  - id: resources/raw/wetteksten/Wet-betalingsachterstand-2002.pdf
-    sha256: 1eb986525442599552419e8c273eeff7a930609d1070e5f7f967dee900f359a1
-    version: 02.08.2002
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Wet-betalingsachterstand-2002.pdf
+      sha256: 1eb986525442599552419e8c273eeff7a930609d1070e5f7f967dee900f359a1
+      version: 02.08.2002
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:49Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4 op regel 53: 'Titel' als plain-text label. Ernstigere B5/A3: regel 57 start midden in een definitielijst ('Richtlijn 2004/17/EG en in artikel 1...') zonder inleidend artikel of heading — het definitieartikel (Art. 2) met zijn preamble en punten 1–3 ontbreekt volledig of is afgekapt, terwijl de inhoud springt naar punt 4 ('referentie-interestvoet'). Dit is een duidelijk D2 missing-section-artefact: de kop van de definitiesectie ontbreekt. Ook ontbreekt een Art. 1 heading en Hoofdstuk I-heading vóór Art. 3. Bestandsgrootte is slechts 16k chars — de wet is klein, maar de structurele verspringen duiden op ETL-kap bij het begin."
     layer1:
       file_size_chars: 16137
       flags: []
@@ -32,18 +34,27 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "B4 op regel 53: 'Titel' als plain-text label. Ernstigere B5/A3: regel 57 start midden in een definitielijst ('Richtlijn 2004/17/EG en in artikel 1...') zonder inleidend artikel of heading — het definitieartikel (Art. 2) met zijn preamble en punten 1–3 ontbreekt volledig of is afgekapt, terwijl de inhoud springt naar punt 4 ('referentie-interestvoet'). Dit is een duidelijk D2 missing-section-artefact: de kop van de definitiesectie ontbreekt. Ook ontbreekt een Art. 1 heading en Hoofdstuk I-heading vóór Art. 3. Bestandsgrootte is slechts 16k chars — de wet is klein, maar de structurele verspringen duiden op ETL-kap bij het begin."
+      concrete_problemen:
+        - regel: 53
+          categorie: B4
+          type: other
+          voorbeeld: Titel
+        - regel: 57
+          categorie: D2
+          type: missing-section
+          voorbeeld: Richtlijn 2004/17/EG en in artikel 1, lid 9, van Richtlijn 2004/18/EG... [midden in definitie-opsomming, begin ontbreekt]
+        - regel: 62
+          categorie: B5
+          type: other
+          voorbeeld: '### Art. 3.Deze [Art. 1 en Art. 2 heading + Hoofdstuk I-heading ontbreken]'
 status: beschikbaar
 tags:
-- XIV
-wet: Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij
-  handelstransacties
+  - XIV
+wet: Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelstransacties
 ---
 
 # Wet betalingsachterstand handelstransacties

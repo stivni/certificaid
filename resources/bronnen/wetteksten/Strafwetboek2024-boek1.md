@@ -4,25 +4,27 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 5
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XII
 provenance:
-  generated_at: '2026-05-11T16:34:22Z'
   inputs:
-  - id: resources/raw/wetteksten/Strafwetboek2024-boek1.pdf
-    sha256: 4e7f489c425c4cd7648f2b8fc6b9cd9d02c64ee8419e43434f045454330b5c9f
-    version: 29.02.2024
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Strafwetboek2024-boek1.pdf
+      sha256: 4e7f489c425c4cd7648f2b8fc6b9cd9d02c64ee8419e43434f045454330b5c9f
+      version: 29.02.2024
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:22Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B2/A7: de inhoudsstructuur begint mis: de eerste regels (52-75) zijn de inhoudsopgave van hoofdstukken en afdelingen (HOOFDSTUK 4-5, Afdeling 1-7), gevolgd pas op regel 76 door HOOFDSTUK 1 — dit is een inhoudsopgave-fragment dat door 2-kolom extractie bovenaan de body is terechtgekomen terwijl de eigenlijke artikeltekst (Art. 1 legaliteitsbeginsel) onderaan pas begint. Art. 9 (strafbare poging definitie) en Afdeling 2 (strafbare poging) missen het eigenlijke artikel-9-tekstblok (enkel de heading 'Afdeling 2. Strafbare poging' zonder art. 9). Art. 37 (terbeschikkingstelling, overgangsregeling) staat op r. 506, maar is structureel ingevoegd als deel van HOOFDSTUK 5 terwijl het een uitgebreid zelfstandig artikel is."
     layer1:
       file_size_chars: 75009
       flags: []
@@ -32,16 +34,34 @@ provenance:
       run_id: 20260511-155947
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "B2/A7: de inhoudsstructuur begint mis: de eerste regels (52-75) zijn de inhoudsopgave van hoofdstukken en afdelingen (HOOFDSTUK 4-5, Afdeling 1-7), gevolgd pas op regel 76 door HOOFDSTUK 1 — dit is een inhoudsopgave-fragment dat door 2-kolom extractie bovenaan de body is terechtgekomen terwijl de eigenlijke artikeltekst (Art. 1 legaliteitsbeginsel) onderaan pas begint. Art. 9 (strafbare poging definitie) en Afdeling 2 (strafbare poging) missen het eigenlijke artikel-9-tekstblok (enkel de heading 'Afdeling 2. Strafbare poging' zonder art. 9). Art. 37 (terbeschikkingstelling, overgangsregeling) staat op r. 506, maar is structureel ingevoegd als deel van HOOFDSTUK 5 terwijl het een uitgebreid zelfstandig artikel is."
+      concrete_problemen:
+        - regel: 52
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: '### Afdeling 1. - Wijzigingen van het Militair Strafwetboek [inhoudsopgave bovenaan ipv onderaan]'
+        - regel: 54
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: '#### Art. 5 [losse art.-ref zonder inhoud, onderdeel van dislocated TOC]'
+        - regel: 118
+          categorie: D2
+          type: missing-section
+          voorbeeld: '### Afdeling 2. Strafbare poging [heading aanwezig maar Art. 9 inhoud ontbreekt volledig]'
+        - regel: 86
+          categorie: B5
+          type: other
+          voorbeeld: '## Hoofdstuk 1. Strafwet Artikel 1. Legaliteitsbeginsel  Niemand kan worden gestraft... [H1 en Art. 1 samengevoegd op één regel als ##-heading]'
+        - regel: 90
+          categorie: B5
+          type: other
+          voorbeeld: '#### Art. 3. Toepassing van de strafwet in de ruimte [Art. 3 als ####, maar Art. 1 als ##-heading — inconsistente hiërarchie]'
 status: beschikbaar
 tags:
-- XII
+  - XII
 wet: Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1
 ---
 

@@ -4,25 +4,27 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 5
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XXI
 provenance:
-  generated_at: '2026-05-11T16:34:49Z'
   inputs:
-  - id: resources/raw/wetteksten/Wet-ITAA-2019.pdf
-    sha256: d8e074afec249aa6819b22493d5c85bebc4d30251de41ec2eed3b455e8b05b0c
-    version: 24.12.2025
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Wet-ITAA-2019.pdf
+      sha256: d8e074afec249aa6819b22493d5c85bebc4d30251de41ec2eed3b455e8b05b0c
+      version: 24.12.2025
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:49Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: trusted
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Structuur is goed: 203 headings op 5 niveaus, artikelen correct opgemaakt als ##### Art. N, secties als ## HOOFDSTUK / ### Afdeling / #### Onderafdeling. Wijzigingsmarkers [1 ... ]1, [2 ... ]2 zijn consistent open-en-dicht. Belgische wettekststijl (1°, 2°, §-nummering, amendment-footnotes) doorgehend consistent. Geen TOC-residu, geen form-feeds, geen kolom-bleed, geen OCR-artefacten gevonden. Laag-1 flags leeg, bestandsgrootte 141 k chars, max section 6358 chars — alles binnen norm.'
     layer1:
       file_size_chars: 141432
       flags: []
@@ -32,19 +34,16 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: 'Structuur is goed: 203 headings op 5 niveaus, artikelen correct opgemaakt als ##### Art. N, secties als ## HOOFDSTUK / ### Afdeling / #### Onderafdeling. Wijzigingsmarkers [1 ... ]1, [2 ... ]2 zijn consistent open-en-dicht. Belgische wettekststijl (1°, 2°, §-nummering, amendment-footnotes) doorgehend consistent. Geen TOC-residu, geen form-feeds, geen kolom-bleed, geen OCR-artefacten gevonden. Laag-1 flags leeg, bestandsgrootte 141 k chars, max section 6358 chars — alles binnen norm.'
       concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
 status: beschikbaar
 tags:
-- XXI
-- '4.0'
-wet: Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs
-  en de Accountants
+  - XXI
+  - '4.0'
+wet: Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants
 ---
 
 # Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants

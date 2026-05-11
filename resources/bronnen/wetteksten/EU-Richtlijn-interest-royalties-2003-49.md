@@ -8,37 +8,73 @@ chunk:
   type: Art.
 itaa-lex-sectie: X
 provenance:
-  generated_at: '2026-05-11T16:52:37Z'
   inputs:
     - id: resources/raw/wetteksten/EU-Richtlijn-interest-royalties-2003-49.pdf
       sha256: c84f67e63325e8fac7258bd751f5feef71fef11e23d6c5c0885349e65b5faf58
       version: 26.06.2003
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:56:15Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: paginakoppen van het Publicatieblad ('26.6.2003 L 157/49 Publicatieblad van de Europese Unie NL', idem /50, /51, /52, /53, /54) staan als plain-text regels in de body verspreid — klassiek PDF-kolom-artefact. A7: de aanhef-tekst op regel 55 ('betreffende een gemeenschappelijke belastingregeling ...') is een duplicaat van de H1-titel: bij 2-kolom extractie is de richtlijn-koptekst na de pagina-header opnieuw binnengelopen. Verder is artikel 1 lid 2 volledig ontbrekend (spring van lid 1 naar lid 3 op regel 105)."
     layer1:
-      status: pass
-      run_id: 20260511-165250
-      run_at: '2026-05-11T16:52:50Z'
-      heading_count: 11
-      max_section_chars: 6633
       file_size_chars: 23404
       flags: []
+      heading_count: 11
+      max_section_chars: 6633
+      run_at: '2026-05-11T16:52:50Z'
+      run_id: 20260511-165250
+      status: pass
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "A1: paginakoppen van het Publicatieblad ('26.6.2003 L 157/49 Publicatieblad van de Europese Unie NL', idem /50, /51, /52, /53, /54) staan als plain-text regels in de body verspreid — klassiek PDF-kolom-artefact. A7: de aanhef-tekst op regel 55 ('betreffende een gemeenschappelijke belastingregeling ...') is een duplicaat van de H1-titel: bij 2-kolom extractie is de richtlijn-koptekst na de pagina-header opnieuw binnengelopen. Verder is artikel 1 lid 2 volledig ontbrekend (spring van lid 1 naar lid 3 op regel 105)."
+      concrete_problemen:
+        - regel: 53
+          categorie: A1
+          type: form-feed
+          voorbeeld: 26.6.2003 L 157/49 Publicatieblad van de Europese Unie NL
+        - regel: 55
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's...
+        - regel: 83
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "RICHTLIJN 2003/49/EG VAN DE RAAD\n\nvan 3 juni 2003\n\nbron of door aanslag wordt geïnd..."
+        - regel: 103
+          categorie: A1
+          type: form-feed
+          voorbeeld: 26.6.2003 L 157/50 Publicatieblad van de Europese Unie NL
+        - regel: 105
+          categorie: D2
+          type: missing-section
+          voorbeeld: Artikel 1 lid 2 ontbreekt volledig (spring van lid 1 naar lid 3)
+        - regel: 139
+          categorie: A1
+          type: form-feed
+          voorbeeld: 26.6.2003 L 157/51 Publicatieblad van de Europese Unie NL
+        - regel: 211
+          categorie: A1
+          type: form-feed
+          voorbeeld: 26.6.2003 L 157/52 Publicatieblad van de Europese Unie NL
+        - regel: 269
+          categorie: A1
+          type: form-feed
+          voorbeeld: 26.6.2003 L 157/53 Publicatieblad van de Europese Unie NL
+        - regel: 307
+          categorie: A1
+          type: form-feed
+          voorbeeld: 26.6.2003 L 157/54 Publicatieblad van de Europese Unie NL
 status: beschikbaar
 tags:
   - X

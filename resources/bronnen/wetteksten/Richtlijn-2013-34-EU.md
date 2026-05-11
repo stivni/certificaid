@@ -3,54 +3,83 @@ bijgewerkt: 28.05.2024
 bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 3
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XIII
 provenance:
-  generated_at: '2026-05-11T16:52:38Z'
   inputs:
-  - id: resources/raw/wetteksten/Richtlijn-2013-34-EU.pdf
-    sha256: 1739649adf3be652e5b35bb7a0017df2157080ca392e4fc26f277741b5928954
-    version: 28.05.2024
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Richtlijn-2013-34-EU.pdf
+      sha256: 1739649adf3be652e5b35bb7a0017df2157080ca392e4fc26f277741b5928954
+      version: 28.05.2024
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:56:15Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Layer 1 meldt terecht max_section_size warn (31271 chars). Daarnaast: A1: de `▼B`, `▼M1`, `▼M4`, `▼C1` etc. wijzigingsmarkeerders van EUR-Lex zijn als plain-text overal door de body verspreid — dit zijn geen markdown-conventies maar EUR-Lex-specifieke notaties die een mens nooit zo zou typen. A7: op meerdere plaatsen ontbreken leden van artikelen (bv. Art. 1 lid 2, Art. 3 lid 9, Art. 4 lid 2 die abrupt worden afgeknipt door een `▼M4`-marker gevolgd door een nieuw tekstblok). B5: 'Art. 19. bis' en 'Art. 29. quater' zijn als ### headings gemarkeerd (inconsistent met ###### voor andere artikelen). Art. 3 lid 4 op regel 237 (grote ondernemingen) mist de netto-omzetdrempel (enkel balanstotaal en personeelsbestand aanwezig)."
     layer1:
       file_size_chars: 281757
       flags:
-      - detail: 'langste sectie op ###-niveau: 31271 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
+        - detail: 'langste sectie op ###-niveau: 31271 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          name: max_section_size
+          samples: []
+          status: warn
       heading_count: 163
       max_section_chars: 31271
       run_at: '2026-05-11T13:40:46Z'
       run_id: 20260511-134044
       status: warn
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "Layer 1 meldt terecht max_section_size warn (31271 chars). Daarnaast: A1: de `▼B`, `▼M1`, `▼M4`, `▼C1` etc. wijzigingsmarkeerders van EUR-Lex zijn als plain-text overal door de body verspreid — dit zijn geen markdown-conventies maar EUR-Lex-specifieke notaties die een mens nooit zo zou typen. A7: op meerdere plaatsen ontbreken leden van artikelen (bv. Art. 1 lid 2, Art. 3 lid 9, Art. 4 lid 2 die abrupt worden afgeknipt door een `▼M4`-marker gevolgd door een nieuw tekstblok). B5: 'Art. 19. bis' en 'Art. 29. quater' zijn als ### headings gemarkeerd (inconsistent met ###### voor andere artikelen). Art. 3 lid 4 op regel 237 (grote ondernemingen) mist de netto-omzetdrempel (enkel balanstotaal en personeelsbestand aanwezig)."
+      concrete_problemen:
+        - regel: 61
+          categorie: A1
+          type: form-feed
+          voorbeeld: ►B  RICHTLIJN 2013/34/EU VAN HET EUROPEES PARLEMENT EN VAN DE RAAD
+        - regel: 73
+          categorie: A1
+          type: form-feed
+          voorbeeld: ► M1  Richtlijn 2014/95/EU ... L 330  1  15.11.2014
+        - regel: 93
+          categorie: A1
+          type: form-feed
+          voorbeeld: ▼B [EUR-Lex versie-markering als plain-text door body verspreid]
+        - regel: 121
+          categorie: A1
+          type: other
+          voorbeeld: ▼M4 [herhaald door heel document als plain-text markering]
+        - regel: 237
+          categorie: D2
+          type: missing-section
+          voorbeeld: 'Art. 3 lid 4 grote ondernemingen: ontbreekt netto-omzetdrempel (b); spring van a naar c'
+        - regel: 732
+          categorie: B2
+          type: other
+          voorbeeld: '### Art. 19. bis [### ipv ###### voor artikelheading; inconsistent met rest]'
+        - regel: 1410
+          categorie: B2
+          type: other
+          voorbeeld: '### Art. 29. quater [### ipv ###### voor artikelheading]'
+        - regel: 1434
+          categorie: B5
+          type: other
+          voorbeeld: '### Art. 3. van Gedelegeerde Verordening (EU) 2018/815 [verordening-verwijzing als ###-heading]'
 status: beschikbaar
 tags:
-- XIII
-- '1.1'
-- '1.2'
-wet: Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende
-  de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en
-  aanverwante verslagen van bepaalde ondernemingsvormen
+  - XIII
+  - '1.1'
+  - '1.2'
+wet: Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen
 ---
 
 # Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen

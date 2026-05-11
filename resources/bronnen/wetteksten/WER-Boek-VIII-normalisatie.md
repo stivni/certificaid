@@ -3,50 +3,65 @@ bijgewerkt: 24.12.2025
 bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 4
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XIII
 provenance:
-  generated_at: '2026-05-11T16:34:26Z'
   inputs:
-  - id: resources/raw/wetteksten/WER-Boek-VIII-normalisatie.pdf
-    sha256: d26ab874052bcbe9c00e472d83d0fee1a6c75d6ac5cc3f220e43d02905f4ae95
-    version: 24.12.2025
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/WER-Boek-VIII-normalisatie.pdf
+      sha256: d26ab874052bcbe9c00e472d83d0fee1a6c75d6ac5cc3f220e43d02905f4ae95
+      version: 24.12.2025
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:26Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A8: het bestand bevat systematische kolom-bleed van de NL+FR tweetalige bron: vanaf regel 60 wisselen NL- en FR-artikelversies elkaar af als aparte ##### headings met identieke nummers ('Art. 2' tweemaal, 'Art. 1' tweemaal, enz.), wat een column-extraction-fout is. B1: veel headings bevatten enkel een artikelnummer gevolgd door een FR-zin als heading-tekst (bv. `##### Art. 2. Le ministre qui a l'Emploi dans ses attributions est chargé de`). B3: identieke heading `#### CHAPITRE I er` en `### HOOFDSTUK I` voor dezelfde sectie, plus dubbele `Art. 2`-headings. Layer1 meldde max_section_size warn (351006 chars) wat bevestigt dat de structuur niet chunker-vriendelijk is."
     layer1:
       file_size_chars: 863665
       flags:
-      - detail: 'langste sectie op ####-niveau: 351006 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
+        - detail: 'langste sectie op ####-niveau: 351006 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          name: max_section_size
+          samples: []
+          status: warn
       heading_count: 267
       max_section_chars: 351006
       run_at: '2026-05-11T13:40:48Z'
       run_id: 20260511-134044
       status: warn
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "A8: het bestand bevat systematische kolom-bleed van de NL+FR tweetalige bron: vanaf regel 60 wisselen NL- en FR-artikelversies elkaar af als aparte ##### headings met identieke nummers ('Art. 2' tweemaal, 'Art. 1' tweemaal, enz.), wat een column-extraction-fout is. B1: veel headings bevatten enkel een artikelnummer gevolgd door een FR-zin als heading-tekst (bv. `##### Art. 2. Le ministre qui a l'Emploi dans ses attributions est chargé de`). B3: identieke heading `#### CHAPITRE I er` en `### HOOFDSTUK I` voor dezelfde sectie, plus dubbele `Art. 2`-headings. Layer1 meldde max_section_size warn (351006 chars) wat bevestigt dat de structuur niet chunker-vriendelijk is."
+      concrete_problemen:
+        - regel: 60
+          categorie: A8
+          type: column-bleed
+          voorbeeld: '##### Art. 2. Le ministre... / ##### Art. 2. De minister... (NL+FR door elkaar)'
+        - regel: 107
+          categorie: B3
+          type: other
+          voorbeeld: '#### CHAPITRE I er . en ### HOOFDSTUK I. voor dezelfde sectie'
+        - regel: 113
+          categorie: B1
+          type: other
+          voorbeeld: '##### Art. 1. Deze   collectieve   arbeidsovereenkomst   is   van   toepassing'
+        - regel: 113
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: op de werkgevers   en   werklieden   van   de   ondernemingen (extra spaties als uitlijning)
 status: beschikbaar
 tags:
-- XIII
-- '1.4'
+  - XIII
+  - '1.4'
 wet: WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)
 ---
 

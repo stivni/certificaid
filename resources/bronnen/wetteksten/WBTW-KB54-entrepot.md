@@ -4,25 +4,27 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB54-entrepot.pdf
-    sha256: 9193c568255efce6d1fdc5d07f353f94cc5bba2a9c0edd2ee8ab27861b669549
-    version: '2023'
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB54-entrepot.pdf
+      sha256: 9193c568255efce6d1fdc5d07f353f94cc5bba2a9c0edd2ee8ab27861b669549
+      version: '2023'
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:56:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5: Art. 3 ontbreekt als heading — de body van Art. 3 begint direct met '1° de naam, het adres...' zonder dat '### Art. 3' of '## Art. 3' aanwezig is als heading (het bestand start direct met de tekst van Art. 3 na de intro-tekst). A6: Meerdere spurious line-breaks midden in zinnen: regel 96-98 ('een dubbel ervan bewaren dat hij\\ndocument overhandigen...') en regel 160-162 ('is ingetrokken, kan een nieuwe vergunningsaanvraag...'). Overige structuur correct."
     layer1:
       file_size_chars: 21118
       flags: []
@@ -32,19 +34,28 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:56:58Z'
+      rationale: "B5: Art. 3 ontbreekt als heading — de body van Art. 3 begint direct met '1° de naam, het adres...' zonder dat '### Art. 3' of '## Art. 3' aanwezig is als heading (het bestand start direct met de tekst van Art. 3 na de intro-tekst). A6: Meerdere spurious line-breaks midden in zinnen: regel 96-98 ('een dubbel ervan bewaren dat hij\\ndocument overhandigen...') en regel 160-162 ('is ingetrokken, kan een nieuwe vergunningsaanvraag...'). Overige structuur correct."
+      concrete_problemen:
+        - regel: 60
+          categorie: B5
+          type: other
+          voorbeeld: 1° de naam, het adres en het in artikel 50... (Art. 3-body zonder heading)
+        - regel: 96
+          categorie: A6
+          type: other
+          voorbeeld: "4° een uitslagdocument opstellen op het tijdstip dat de goederen uit het entrepot worden uitgeslagen, dit\n\ndocument overhandigen aan de persoon"
+        - regel: 160
+          categorie: A6
+          type: other
+          voorbeeld: "De entrepothouder wiens op grond van artikel 3 uitgereikte vergunning overeenkomstig het eerste of tweede lid\n\nis ingetrokken"
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot
-  dan douane-entrepot bedoeld in artikel 39quater van het WBTW
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot dan douane-entrepot bedoeld in artikel 39quater van het WBTW
 ---
 
 # BTW KB nr. 54 — Entrepot (art. 39quater)
