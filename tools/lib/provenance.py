@@ -379,6 +379,96 @@ def mark_trust(
     return new_trust
 
 
+def write_layer2(
+    path: Path,
+    *,
+    layer2_status: str,
+    agent: str,
+    rationale: Optional[str] = None,
+    concrete_problemen: Optional[list] = None,
+) -> Trust:
+    """Schrijf het Laag-2 agent-verdict naar `trust.layer2`.
+
+    Volgens ADR-004 trust-regel wordt `trust.status` afgeleid:
+      - layer2_status == "trusted"      → trust.status = trusted,
+                                          confirmed_by = agent (subagent-...)
+      - layer2_status == "needs-rework" → trust.status = needs-rework,
+                                          confirmed_by = agent
+      - layer2_status == "rejected"     → trust.status = rejected,
+                                          confirmed_by = agent
+      - layer2_status == "not_run"      → trust.status = unreviewed,
+                                          confirmed_by = None
+
+    `confirmed_by = "human"` blijft een mens-override-pad (zie mark_trust);
+    deze functie wordt niet gebruikt voor mens-overrides.
+
+    Een eerdere mens-override (`confirmed_by == "human"`) wordt NIET
+    overschreven — die heeft voorrang op een nieuw agent-verdict.
+
+    Returnt de nieuwe Trust.
+    """
+    valid_l2 = {"not_run", "trusted", "needs-rework", "rejected"}
+    if layer2_status not in valid_l2:
+        raise ValueError(
+            f"Invalid layer2_status: {layer2_status!r}; expected one of {valid_l2}"
+        )
+
+    prov = read_provenance(path)
+    if prov is None:
+        raise ValueError(
+            f"{path}: geen provenance-blok aanwezig. "
+            f"Run eerst tools/etl/backfill_trust_unreviewed.py of add_provenance.py."
+        )
+    existing = prov.trust or Trust()
+
+    ts = now_iso()
+    new_layer2 = {
+        "status": layer2_status,
+        "agent": agent,
+        "run_at": ts,
+        "rationale": rationale,
+        "concrete_problemen": concrete_problemen or [],
+    }
+
+    # Mens-override behouden: als bestaande confirmed_by == "human", raak
+    # top-level niet aan — alleen layer2 updaten.
+    if existing.confirmed_by == "human":
+        new_trust = Trust(
+            status=existing.status,
+            confirmed_at=existing.confirmed_at,
+            confirmed_by=existing.confirmed_by,
+            rationale=existing.rationale,
+            layer1=existing.layer1,
+            layer2=new_layer2,
+        )
+    else:
+        # Afgeleide top-level status uit layer2_status.
+        if layer2_status == "trusted":
+            top_status, top_by = "trusted", agent
+            top_rationale = rationale or f"Laag-2 trusted door {agent}"
+        elif layer2_status == "needs-rework":
+            top_status, top_by = "needs-rework", agent
+            top_rationale = rationale or f"Laag-2 needs-rework door {agent}"
+        elif layer2_status == "rejected":
+            top_status, top_by = "rejected", agent
+            top_rationale = rationale or f"Laag-2 rejected door {agent}"
+        else:  # not_run
+            top_status, top_by, top_rationale = "unreviewed", None, None
+
+        new_trust = Trust(
+            status=top_status,
+            confirmed_at=ts,
+            confirmed_by=top_by,
+            rationale=top_rationale,
+            layer1=existing.layer1,
+            layer2=new_layer2,
+        )
+
+    prov.trust = new_trust
+    write_provenance(path, prov)
+    return new_trust
+
+
 def detect_stale(recorded: Provenance, current_inputs: list[Input]) -> tuple[bool, Optional[str]]:
     """Compare recorded inputs against currently-resolved inputs. Returns (is_stale, reason).
 

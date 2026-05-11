@@ -1,12 +1,21 @@
 #!/usr/bin/env python3
 """
-Mens-confirmatie tool voor de bronnen-QA-gate (ADR-005 §5, Laag 3).
+Trust-toepassings-tool voor de bronnen-QA-gate (ADR-005 §5).
 
-Schrijft `provenance.trust.status` op één of meer bron-MD's. Werkt op:
-  - één bron met expliciete --bron + --status
-  - hele collection (--collection cbn-adviezen --status trusted)
-  - hele bron-rol (--bron-rol wettekst --status trusted)
-  - bulk vanuit subagent-verdicts-bestand (--apply-from-verdicts ...)
+Twee modi:
+
+  1. **Mens-override** (`--status ... --confirmed-by human`): schrijft direct
+     `provenance.trust.status` (+ confirmed_by="human", rationale). Raakt
+     `layer2` NIET aan. Toepassing: één bron, een hele collection, of een
+     hele bron-rol.
+
+  2. **Agent-verdict-toepassing** (`--apply-from-verdicts FILE
+     --subagent-id ID`): leest een verdicts-JSON (output van
+     `qa_subagent_prompt.md`) en schrijft per bron `trust.layer2.*` (status,
+     agent, run_at, rationale, concrete_problemen). De afgeleide regel uit
+     ADR-004 (`trust.status = trusted ⇔ layer2.status = trusted OR
+     confirmed_by = human`) zet `trust.status` automatisch. Een bestaande
+     mens-override (`confirmed_by = "human"`) wordt NIET overschreven.
 
 Achtergrond:
   - Trust-statussen: unreviewed | trusted | needs-rework | rejected
@@ -45,7 +54,16 @@ from tools.lib.provenance import (  # noqa: E402
     TRUST_VALID_STATUSES,
     mark_trust,
     read_trust,
+    write_layer2,
 )
+
+# Mapping van het JSON-veld `aanbevolen_status` (uit qa_subagent_prompt.md
+# output) naar `layer2.status`.
+LAYER2_RECOMMENDED = {
+    "trusted": "trusted",
+    "needs-rework": "needs-rework",
+    "rejected": "rejected",
+}
 
 BRON_DIRS = {
     "wettekst": ROOT / "resources" / "bronnen" / "wetteksten",
@@ -195,7 +213,9 @@ def cmd_apply_from_verdicts(args: argparse.Namespace) -> None:
         raise SystemExit("Geen verdicts gevonden in bestand.")
 
     only_filter = set(args.only_status) if args.only_status else None
-    confirmed_by = args.confirmed_by or f"subagent-{args.subagent_id}" if args.subagent_id else "subagent-unspecified"
+    agent = (
+        f"subagent-{args.subagent_id}" if args.subagent_id else "subagent-unspecified"
+    )
 
     counters: dict[str, int] = {}
     skipped_filter = 0
@@ -205,9 +225,9 @@ def cmd_apply_from_verdicts(args: argparse.Namespace) -> None:
         verdicts_display = verdicts_path
     print(f"=== mark_trusted --apply-from-verdicts {'(dry-run) ' if args.dry_run else ''}===")
     print(f"Verdicts: {verdicts_display}")
-    print(f"confirmed_by: {confirmed_by}")
+    print(f"layer2.agent: {agent}")
     if only_filter:
-        print(f"Filter: alleen statuses {sorted(only_filter)}")
+        print(f"Filter: alleen aanbevolen-statussen {sorted(only_filter)}")
     print()
 
     for v in verdicts:
@@ -217,9 +237,13 @@ def cmd_apply_from_verdicts(args: argparse.Namespace) -> None:
             print(f"  WARN: verdict mist 'bestand' of 'aanbevolen_status': {v}")
             continue
 
-        if recommended not in TRUST_VALID_STATUSES:
-            print(f"  WARN: ongeldige status {recommended!r} voor {bestand}; overgeslagen")
+        if recommended not in LAYER2_RECOMMENDED:
+            print(
+                f"  WARN: ongeldige aanbevolen_status {recommended!r} voor {bestand}; "
+                f"verwacht een van {sorted(LAYER2_RECOMMENDED)}; overgeslagen"
+            )
             continue
+        layer2_status = LAYER2_RECOMMENDED[recommended]
 
         if only_filter and recommended not in only_filter:
             skipped_filter += 1
@@ -231,15 +255,36 @@ def cmd_apply_from_verdicts(args: argparse.Namespace) -> None:
             print(f"  ERROR: {exc}")
             continue
 
-        rationale = v.get("rationale", args.rationale)
-        result = apply_one(
-            path,
-            recommended,
-            confirmed_by=confirmed_by,
-            rationale=rationale,
-            dry_run=args.dry_run,
-        )
-        bucket = result.split(" ")[0]
+        rationale = v.get("rationale") or args.rationale
+        problemen = v.get("concrete_problemen") or []
+
+        if args.dry_run:
+            existing = read_trust(path)
+            old_l2 = (existing.layer2 or {}).get("status", "not_run")
+            result = f"would-write-layer2 ({old_l2} -> {layer2_status})"
+            bucket = "would-write-layer2"
+        else:
+            try:
+                new_trust = write_layer2(
+                    path,
+                    layer2_status=layer2_status,
+                    agent=agent,
+                    rationale=rationale,
+                    concrete_problemen=problemen,
+                )
+                if new_trust.confirmed_by == "human":
+                    result = (
+                        f"layer2={layer2_status} (top-level ongewijzigd — "
+                        f"mens-override beschermt)"
+                    )
+                    bucket = "layer2-only"
+                else:
+                    result = f"layer2={layer2_status} → trust.status={new_trust.status}"
+                    bucket = f"applied:{new_trust.status}"
+            except Exception as exc:
+                result = f"error: {exc}"
+                bucket = "error"
+
         counters[bucket] = counters.get(bucket, 0) + 1
         if args.verbose or bucket not in {"unchanged"}:
             print(f"  {Path(bestand).name}: {result}")
